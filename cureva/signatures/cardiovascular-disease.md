@@ -64,8 +64,8 @@ taxonomic_signature:
       role: "Butyrate producer; maintains gut barrier; anti-inflammatory via IL-10"
     - taxon: "[[lachnospiraceae]]"
       role: "SCFA producers; depleted by metal-rich, pro-inflammatory environment"
-    - taxon: "[[allisonella]]"
-      role: "Protective against hypertension; SCFA pathway; depleted in CVD"
+    - taxon: "Allisonella (genus-level study label)"
+      role: "Reported as protective in one hypertension MR analysis; not species-resolved and not established as an SCFA producer or metal-sensitive taxon"
     - taxon: "[[clostridium]]"
       role: "Indole metabolite producer (IPA, IAA); anti-inflammatory; lost in ACVD"
 
@@ -250,11 +250,11 @@ The loss of *Roseburia* is **causal for CVD risk** via the SCFA-BP regulation pa
 
 **Why lost**: Lack robust efflux pumps for metal tolerance; depleted in metal-enriched, pro-inflammatory environment
 
-#### *Allisonella* spp.
+#### *Allisonella* (genus-level study label)
 
-**Function**: Protective against hypertension [[li-2023-gut-microbiome-hypertension-bidirectional-mr]]; mechanistic pathway involves SCFA production
+**Reported finding**: One Mendelian-randomization analysis reported a protective association between its genus-level *Allisonella* feature and hypertension [[li-2023-gut-microbiome-hypertension-bidirectional-mr]]. A separate analysis in this corpus reports the same historical label as a risk association, so direction is not consistent [[dai-2024-bidirectional-mr-gut-microbiota-cvd]].
 
-**Why lost**: Sensitive to metal enrichment and dysbiosis-driven ecological shifts
+**Taxonomic and mechanistic limit**: These database features do not resolve to [[dialister-histaminiformans]] and do not establish SCFA production, metal sensitivity, depletion in cardiovascular disease, or a causal mechanism.
 
 #### *Clostridium* spp. (including *C. innocuum*)
 
@@ -269,7 +269,7 @@ The loss of *Roseburia* is **causal for CVD risk** via the SCFA-BP regulation pa
 | **[[roseburia]]** | Butyrate production; BP regulation via Olfr78/FFAR3 | Lacks metal defense systems | Hypertension via lost SCFA signaling |
 | **[[faecalibacterium-prausnitzii]]** | Butyrate + IL-10 production; anti-inflammatory | Metal intolerant | Systemic inflammation; mucosal permeability increase |
 | **[[lachnospiraceae]]** | SCFA production; colonocyte nutrition | Metal intolerant | Loss of gut barrier maintenance |
-| **[[allisonella]]** | Hypertension-protective SCFA pathway | Dysbiosis-sensitive | Uncontrolled hypertension |
+| ***Allisonella* (study label)** | Inconsistent genus-level MR associations | Mechanism not established | Species-level interpretation is not supported |
 | **[[clostridium]]** | Indole metabolite production (IPA, IAA); AhR activation | Oxygen shift from dysbiosis | Loss of protective vascular anti-inflammatory signaling |
 
 ## Virulence Enzymes and Features

@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-08-31T20:33:41.573Z",
+  "_generated": "2026-09-01T10:18:31.813Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1891,
-    "entities": 332,
+    "sources": 1906,
+    "entities": 331,
     "concepts": 264,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 867
+    "totalPages": 866
   },
   "pages": [
     {
@@ -1665,156 +1665,6 @@
       ]
     },
     {
-      "id": "akkermansia-mucinicola",
-      "title": "Akkermansia mucinicola",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "commensal",
-        "mucin-degrading",
-        "gut-barrier",
-        "next-generation-probiotic",
-        "Verrucomicrobia"
-      ],
-      "sources": [
-        "cilia-2020-microbiome-gut-dietary-interventions-parkinsons",
-        "xu-2026-gut-prostate-axis-bph-systematic-review",
-        "saresella-2020-fatty-acids-dysbiosis-inflammation-ms",
-        "loganathan-2025-gut-microbiota-gut-brain-axis-breast-cancer-chemotherapy",
-        "morse-2023-virus-induced-dysbiosis-t1d",
-        "weir-2013-stool-microbiome-metabolome-crc-healthy",
-        "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
-        "rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals"
-      ],
-      "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Akkermansia mucinicola",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "cilia-2020-microbiome-gut-dietary-interventions-parkinsons",
-          "xu-2026-gut-prostate-axis-bph-systematic-review",
-          "saresella-2020-fatty-acids-dysbiosis-inflammation-ms",
-          "loganathan-2025-gut-microbiota-gut-brain-axis-breast-cancer-chemotherapy",
-          "morse-2023-virus-induced-dysbiosis-t1d",
-          "weir-2013-stool-microbiome-metabolome-crc-healthy",
-          "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
-          "rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals"
-        ],
-        "source_count": 8,
-        "tags": [
-          "commensal",
-          "mucin-degrading",
-          "gut-barrier",
-          "next-generation-probiotic",
-          "Verrucomicrobia"
-        ],
-        "platform": "wikibiome",
-        "seo_target": "Akkermansia mucinicola sister species muciniphila gut microbiome",
-        "wikipedia_differentiation": "Contextualizes A. mucinicola within the metallomics framework as a second mucin-degrading Akkermansia species with potential differential metal sensitivity",
-        "gram_stain": "negative",
-        "oxygen_requirement": "obligate anaerobe",
-        "metal_dependencies": [
-          "indirect -- sensitive to metal perturbation"
-        ],
-        "key_enzymes": [
-          "mucin-degrading glycosidases"
-        ],
-        "pathogenic_potential": "commensal",
-        "conditions_enriched_in": [],
-        "conditions_depleted_in": []
-      },
-      "overview": "A Gram-negative, obligate anaerobic, mucin-degrading bacterium first isolated from human feces and formally described as a second species within the genus *Akkermansia*. Like its well-studied sister species [[akkermansia-muciniphila]], *A. mucinicola* colonizes the intestinal mucus layer and uses host mucin glycoproteins as its primary carbon and nitrogen source.",
-      "sections": [
-        {
-          "heading": "Taxonomic Context",
-          "level": 2,
-          "body": "- The genus *Akkermansia* belongs to the phylum Verrucomicrobia and was long considered monospecific, represented solely by *A. muciniphila* (type strain Muc^T, isolated 2004).\n- *A. mucinicola* was identified through culture-independent and culture-dependent approaches that revealed phylogenetically distinct *Akkermansia* strains in the human gut.\n- While both species share the mucin-degrading niche, they differ in genomic content, growth characteristics, and potentially in their interactions with the host immune system."
-        },
-        {
-          "heading": "Shared Biology with A. muciniphila",
-          "level": 2,
-          "body": "Both *Akkermansia* species share core functional traits that make the genus a keystone of gut barrier integrity:\n\n- Mucin degradation: Both utilize mucin glycoproteins (MUC2) as primary substrates, producing [[short-chain-fatty-acids]] (primarily acetate and propionate) that feed butyrate-producing cross-feeding partners like [[faecalibacterium-prausnitzii]] and [[eubacterium-rectale]].\n- Barrier stimulation: Mucin turnover by *Akkermansia* species paradoxically stimulates goblet cell mucin secretion, maintaining a thicker, healthier mucus layer.\n- Immune modulation: Outer membrane proteins from *Akkermansia* species interact with Toll-like receptor 2 (TLR2), promoting anti-inflammatory signaling."
-        },
-        {
-          "heading": "Potential Differential Metal Sensitivity",
-          "level": 2,
-          "body": "Given the well-documented sensitivity of *A. muciniphila* to heavy metals -- particularly [[cadmium]], [[lead]], and [[nickel]] -- the question of whether *A. mucinicola* shares this vulnerability is clinically relevant but not yet directly studied:\n\n- *A. muciniphila* is rapidly depleted under low-dose cadmium exposure, with cascading effects on mucus layer integrity [[akkermansia-muciniphila]].\n- Whether *A. mucinicola* displays the same metal sensitivity or possesses differential tolerance mechanisms (e.g., distinct [[efflux-pumps]] or metal-binding proteins) remains an open question.\n- Species-level resolution in 16S rRNA studies is limited for the *Akkermansia* genus, meaning many reports of \"Akkermansia\" depletion in disease states may conflate both species."
-        },
-        {
-          "heading": "Clinical and Research Significance",
-          "level": 2,
-          "body": "- The existence of a second *Akkermansia* species complicates the interpretation of studies reporting genus-level changes, since the two species may respond differently to environmental stressors including metals, diet, and medication.\n- Next-generation probiotic development focused on *A. muciniphila* has not yet examined whether *A. mucinicola* offers complementary or superior properties for specific applications — an open research gap.\n- Strain-level metagenomic analyses (shotgun sequencing rather than 16S amplicon) will be needed to distinguish the two species in clinical cohorts."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[akkermansia-muciniphila]] -- sister species, extensively characterized\n- [[gut-metal-microbiome]] -- framework for understanding metal-driven depletion of mucin degraders\n- [[short-chain-fatty-acids]] -- metabolic products of mucin fermentation\n- [[faecalibacterium-prausnitzii]] -- key cross-feeding partner"
-        }
-      ],
-      "wikilinks": [
-        "akkermansia-muciniphila",
-        "short-chain-fatty-acids",
-        "faecalibacterium-prausnitzii",
-        "eubacterium-rectale",
-        "cadmium",
-        "lead",
-        "nickel",
-        "efflux-pumps",
-        "gut-metal-microbiome"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 8,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "gaps-and-improvements-2026-04-12",
-        "health-check-2026-04-14",
-        "lint-report-2026-04-12",
-        "lint-report-2026-04-13",
-        "lint-report-2026-04-14"
-      ],
-      "related": [
-        {
-          "id": "ruminococcus-albus",
-          "score": 13
-        },
-        {
-          "id": "prevotella",
-          "score": 12
-        },
-        {
-          "id": "bacteroides-thetaiotaomicron",
-          "score": 9
-        },
-        {
-          "id": "bile-acid-metabolism",
-          "score": 8
-        },
-        {
-          "id": "lachnospiraceae-family",
-          "score": 7
-        },
-        {
-          "id": "lactobacillus",
-          "score": 7
-        },
-        {
-          "id": "pseudomonas",
-          "score": 7
-        },
-        {
-          "id": "bacteroidales",
-          "score": 6
-        }
-      ]
-    },
-    {
       "id": "akkermansia-muciniphila",
       "title": "Akkermansia muciniphila",
       "type": "entity",
@@ -1835,7 +1685,10 @@
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
         "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
-        "ghosh-2023-heavy-metals-gut-barrier-integrity"
+        "ghosh-2023-heavy-metals-gut-barrier-integrity",
+        "derrien-2004-akkermansia-muciniphila-description",
+        "ncbi-taxonomy-akkermansia-muciniphila",
+        "lpsn-akkermansia-muciniphila"
       ],
       "created": "2026-04-09T00:00:00.000Z",
       "updated": "2026-04-09T00:00:00.000Z",
@@ -1853,9 +1706,12 @@
           "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
           "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
           "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
-          "ghosh-2023-heavy-metals-gut-barrier-integrity"
+          "ghosh-2023-heavy-metals-gut-barrier-integrity",
+          "derrien-2004-akkermansia-muciniphila-description",
+          "ncbi-taxonomy-akkermansia-muciniphila",
+          "lpsn-akkermansia-muciniphila"
         ],
-        "source_count": 8,
+        "source_count": 11,
         "metal_dependencies": [
           "indirect -- sensitive to metal perturbation"
         ],
@@ -1871,7 +1727,7 @@
           "metal-sensitive"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-13T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
         "seo_target": "Akkermansia muciniphila gut health heavy metal sensitivity",
         "wikipedia_differentiation": "Quantitative depletion data across 8+ diseases with metal-specific sensitivity profiles for cadmium, lead, and nickel",
         "conditions_enriched_in": [],
@@ -1886,6 +1742,11 @@
       },
       "overview": "A Gram-negative, obligate anaerobic, mucin-degrading bacterium that colonizes the intestinal mucus layer and has emerged as one of the most important next-generation probiotics. *A. muciniphila* is consistently depleted in disease states associated with metal dyshomeostasis and is notably sensitive to heavy metal exposure, positioning it as both a biomarker and mediator of the [[gut-metal-microbiome]] axis.",
       "sections": [
+        {
+          "heading": "Taxonomic Identity",
+          "level": 2,
+          "body": "The primary description, NCBI Taxonomy, and LPSN all identify *Akkermansia muciniphila* as the recognized species, with type strain Muc (ATCC BAA-835; CIP 107961; DSM 22959) [[derrien-2004-akkermansia-muciniphila-description]] [[ncbi-taxonomy-akkermansia-muciniphila]] [[lpsn-akkermansia-muciniphila]]. The former WikiBiome record “Akkermansia mucinicola” was not a supported second species: its declared sources referred to *A. muciniphila* or to the genus *Akkermansia*. That invalid record is retired rather than treated as an independent taxon."
+        },
         {
           "heading": "Role in Gut Barrier Integrity",
           "level": 2,
@@ -1934,6 +1795,9 @@
       ],
       "wikilinks": [
         "gut-metal-microbiome",
+        "derrien-2004-akkermansia-muciniphila-description",
+        "ncbi-taxonomy-akkermansia-muciniphila",
+        "lpsn-akkermansia-muciniphila",
         "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
         "he-2022-akkermansia-muciniphila-immune-system-cvd-mice",
         "short-chain-fatty-acids",
@@ -1955,12 +1819,11 @@
         "inflammation"
       ],
       "sourceDir": "entities",
-      "sourceCount": 8,
+      "sourceCount": 11,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "akkermansia-mucinicola",
         "bacteroides-vulgatus",
         "barretts-esophagus",
         "bifidobacterium-adolescentis",
@@ -2424,226 +2287,6 @@
         {
           "id": "obesity",
           "score": 11
-        }
-      ]
-    },
-    {
-      "id": "allisonella",
-      "title": "Allisonella",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "gram-negative",
-        "anaerobe",
-        "histamine-producer",
-        "gut-dysbiosis",
-        "obesity",
-        "metabolic-syndrome",
-        "mast-cell-activation",
-        "inflammation"
-      ],
-      "sources": [
-        "pendergrass-2026-heavy-metals-obesity-epidemic",
-        "ismail-2022-gut-microbiome-obesity-t1d-review",
-        "yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d"
-      ],
-      "created": "2026-04-10T00:00:00.000Z",
-      "updated": "2026-04-10T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Allisonella",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-10T00:00:00.000Z",
-        "updated": "2026-04-10T00:00:00.000Z",
-        "sources": [
-          "pendergrass-2026-heavy-metals-obesity-epidemic",
-          "ismail-2022-gut-microbiome-obesity-t1d-review",
-          "yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d"
-        ],
-        "source_count": 3,
-        "gram_stain": "negative",
-        "oxygen_requirement": "anaerobic",
-        "metal_dependencies": [
-          "iron"
-        ],
-        "key_enzymes": [
-          "histidine-decarboxylase",
-          "iron-dependent-metabolic-enzymes"
-        ],
-        "tags": [
-          "gram-negative",
-          "anaerobe",
-          "histamine-producer",
-          "gut-dysbiosis",
-          "obesity",
-          "metabolic-syndrome",
-          "mast-cell-activation",
-          "inflammation"
-        ],
-        "platform": "wikibiome",
-        "last_substantive_update": "2026-04-13T00:00:00.000Z",
-        "seo_target": "Allisonella histamine gut bacteria obesity mast cell",
-        "wikipedia_differentiation": "Bacterial histidine decarboxylase pathway bypassing host histamine regulation, linking microbial histamine to mast cell activation in obesity",
-        "conditions_enriched_in": [
-          "obesity",
-          "metabolic-syndrome"
-        ],
-        "conditions_depleted_in": [],
-        "pathogenic_potential": "commensal-turned-pathogen"
-      },
-      "overview": "A Gram-negative obligate anaerobe identified as a histamine-producing bacterium enriched in dysbiotic microbiota associated with obesity, metabolic syndrome, and metabolic endotoxemia. *Allisonella* is a minor but functionally significant genus whose primary clinical relevance derives from its capacity to convert the amino acid histidine into histamine via bacterial histidine decarboxylase, bypassing normal host-mediated histamine synthesis and degradation pathways. This microbial histamine production drives mast cell activation, local and systemic inflammation, and may perpetuate metabolic dysregulation in obesity and cardiometabolic disease.",
-      "sections": [
-        {
-          "heading": "Taxonomy and Classification",
-          "level": 2,
-          "body": "- Phylum: Bacteroidetes (Gram-negative, filamentous or coccobacillary morphology).\n- Species of note: *Allisonella hiatal* (formerly *Alistipes* sp.) -- primary gut isolate; anaerobic, slow-growing.\n- Habitat: Colonic lumen; associated with mucus layer biofilms in dysbiotic states."
-        },
-        {
-          "heading": "Histamine Production and Metabolism",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Bacterial Histidine Decarboxylase (HDC)",
-          "level": 3,
-          "body": "- *Allisonella* expresses histidine decarboxylase, a pyridoxal phosphate (PLP, Vitamin B6)-dependent enzyme that catalyzes the conversion of free histidine to histamine (Garner-Spitzer et al. 2009; Barcik et al. 2017 FEMS Microbiol Rev).\n- Reaction: L-histidine → histamine + CO2\n- This is the same enzymatic pathway used by mammalian mast cells and basophils, but constitutively expressed by *Allisonella* as part of normal metabolism (Barcik et al. 2017 FEMS Microbiol Rev; Garvey 1989 — original *Allisonella* characterization in Garner et al. 2002 Syst Appl Microbiol)."
-        },
-        {
-          "heading": "Histamine Physiology in Dysbiosis",
-          "level": 3,
-          "body": "#### Host Histamine Degradation Impairment\n- Diamine oxidase (DAO): Intestinal epithelial enzyme that degrades histamine in the lamina propria. DAO activity is suppressed in inflammation and dysbiosis (Maintz & Novak 2007 Am J Clin Nutr).\n- Histamine-N-methyltransferase (HNMT): Liver and immune cell enzyme; limited capacity for high histamine loads (Maintz & Novak 2007 Am J Clin Nutr).\n- In dysbiotic states (inflammation, altered epithelial barrier), DAO suppression allows microbial histamine to accumulate.\n\n#### Mast Cell Activation\n- Histamine binds H1 and H2 receptors on mast cells in a feedforward activation loop.\n- Mast cell degranulation releases additional mediators: tryptase, heparin, IL-6, TNF-α, IL-10, and more histamine.\n- Local and systemic inflammatory response; contributes to \"mast cell activation syndrome\" (MCAS) phenotypes.\n\n#### H1 and H2 Signaling Consequences\n- H1 receptor (Gq-coupled): Promotes smooth muscle contraction, vasodilation, increased vascular permeability, IL-4 and IL-13 Th2 driving.\n- H2 receptor (Gs-coupled): Promotes cyclic AMP accumulation; immunomodulatory (suppresses IL-12, promotes IL-10).\n- Net effect: pro-inflammatory and anti-inflammatory signals, creating dysregulated immune state."
-        },
-        {
-          "heading": "Iron Dependency",
-          "level": 2,
-          "body": "- *Allisonella* requires iron for core metabolic enzymes; growth correlates with iron bioavailability.\n- In iron-rich dysbiotic microenvironments (chronic bleeding, hepcidin dysregulation, [[fusobacterium-varium]]-driven inflammation), *Allisonella* expansion is enabled.\n- Iron sequestration interventions may suppress *Allisonella* burden alongside other iron-dependent pathogens."
-        },
-        {
-          "heading": "Disease Associations",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Obesity and Metabolic Syndrome",
-          "level": 3,
-          "body": "- Dysbiotic marker: *Allisonella* abundance is consistently elevated in obese microbiota vs. lean controls (Zhang et al. 2009 PNAS; [[yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]]; [[ismail-2022-gut-microbiome-obesity-t1d-review]]).\n- Functional link: Microbial histamine production may perpetuate mast cell activation, driving chronic low-grade inflammation characteristic of obesity (Barcik et al. 2019 Curr Opin Immunol).\n- Metabolic endotoxemia: *Allisonella* co-expands with other gram-negative bacteria ([[bacteroides-fragilis]], *E. coli*), increasing luminal LPS load ([[pendergrass-2026-heavy-metals-obesity-epidemic]]).\n- Barrier dysfunction: Histamine-driven increased intestinal permeability allows LPS translocation (lipopolysaccharide) → systemic inflammation (Cani et al. 2007 Diabetes)."
-        },
-        {
-          "heading": "Insulin Resistance and Type 2 Diabetes",
-          "level": 3,
-          "body": "- Dysbiotic microbiota with elevated *Allisonella* is associated with insulin resistance independent of obesity ([[yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d]]).\n- Proposed mechanisms:\n - Histamine-driven chronic inflammation impairs insulin signaling.\n - LPS translocation activates TLR4 on immune cells, perpetuating pro-inflammatory cytokines (IL-6, TNF-α).\n - Reduced butyrate-producing commensals (depleted in dysbiosis) contribute to loss of histone deacetylase inhibition and barrier protection."
-        },
-        {
-          "heading": "Mast Cell Activation Syndrome and Histamine Intolerance",
-          "level": 3,
-          "body": "- Emerging clinical recognition of post-obesity microbiota-driven mast cell activation (Schnedl & Enko 2021 Front Nutr).\n- Patients report flushing, itching, abdominal pain, headaches, fatigue -- coinciding with *Allisonella* blooms.\n- Dietary histamine sources (aged meats, fermented foods, certain fish) become problematic when microbial production is high (Maintz & Novak 2007 Am J Clin Nutr)."
-        },
-        {
-          "heading": "Atopic and Allergic Diseases",
-          "level": 3,
-          "body": "- Hypothesis: Dysbiotic *Allisonella* expansion drives mast cell activation and tissue Th2 bias, predisposing to atopy and allergic diseases.\n- Epidemiological links between obesity, dysbiosis, and increased prevalence of atopic dermatitis, asthma, and food allergies support this mechanism."
-        },
-        {
-          "heading": "Ecological Context",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Dysbiosis Prerequisites",
-          "level": 3,
-          "body": "- *Allisonella* expansion requires specific dysbiotic conditions:\n 1. Dietary shift toward high-fat, low-fiber (reduces butyrate producers; increases luminal fat and bile).\n 2. Antibiotic use or inflammation (kills competing commensals like Faecalibacterium; allows *Allisonella* to emerge).\n 3. Iron bioavailability elevation (bleeding, hepcidin dysregulation, reduced hepcidin expression due to chronic inflammation)."
-        },
-        {
-          "heading": "Co-Expansions",
-          "level": 3,
-          "body": "- *Allisonella* frequently co-expands with:\n - [[fusobacterium-varium]] (iron-dependent, pro-inflammatory)\n - *E. coli* (LPS-producing, iron-scavenging)\n - [[bacteroides-fragilis]] (ETBF strains; BFT-driven barrier disruption enables histamine-driven inflammation)\n - [[candida-albicans]] (dysbiotic marker; fungal-bacterial cooperation)"
-        },
-        {
-          "heading": "Functional Consequences of Dysbiotic State",
-          "level": 3,
-          "body": "- Loss of butyrate producers (Faecalibacterium, Roseburia) → reduced SCFA → decreased histone deacetylase (HDAC) inhibition → impaired barrier function.\n- Elevated luminal fat and bile → altered nutritional immunity signals → calprotectin/lactoferrin sequestration less effective.\n- Low microbial diversity → reduced competitive exclusion of pathobionts."
-        },
-        {
-          "heading": "Ecological Modulators",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Dietary Modulation",
-          "level": 3,
-          "body": "- Prebiotics (inulin, FOS): Selectively promote Faecalibacterium and other butyrate producers, shifting ecological balance away from *Allisonella* through competitive exclusion.\n- Histamine load reduction: Reducing dietary histamine precursors (aged meats, fermented foods) decreases the substrate pool that amplifies histamine-mediated inflammatory signaling during dysbiosis.\n- Low-fat, high-fiber patterns: Restore normal colonic luminal chemistry, favoring commensal recovery over pathobiont expansion."
-        },
-        {
-          "heading": "DAO Pathway Support",
-          "level": 3,
-          "body": "- DAO supplementation: Enhances histamine degradation capacity, counteracting the elevated histamine output from *Allisonella*-dominated communities.\n- Mast cell stabilization (e.g., sodium cromoglycate): Modulates downstream histamine signaling, reducing the inflammatory cascade driven by microbial histamine production."
-        },
-        {
-          "heading": "Competitive Exclusion",
-          "level": 3,
-          "body": "- HDC-deficient strains of beneficial bacteria (e.g., engineered *Lactobacillus* or *Bifidobacterium*) occupy the same ecological niche as *Allisonella* without the histamine production liability, enabling displacement through metabolic competition."
-        },
-        {
-          "heading": "Connections",
-          "level": 2,
-          "body": "- [[iron]] -- essential cofactor; iron bioavailability drives *Allisonella* expansion\n- -- primary metabolite; drives mast cell activation and chronic inflammation\n- -- histamine-driven degranulation; pro-inflammatory mediator release\n- [[obesity]] -- dysbiotic marker; high abundance in obese microbiota\n- [[insulin-resistance]] -- chronic histamine + LPS-driven inflammation impairs insulin signaling\n- -- co-expansion with gram-negative pathogens; elevated luminal LPS\n- [[nutritional-immunity|nutritional immunity]] -- histamine-driven increased intestinal permeability\n- [[dysbiosis]] -- hallmark of low-diversity, iron-rich, low-SCFA dysbiotic states\n- [[fusobacterium-varium]] -- co-pathobiont; iron-dependent, pro-inflammatory\n- [[bacteroides-fragilis]] -- ETBF-driven barrier disruption exacerbates histamine effects\n- -- dysbiotic *Allisonella* expansion associated with allergic disease prevalence"
-        }
-      ],
-      "wikilinks": [
-        "fusobacterium-varium",
-        "yassour-2016-subclinical-gut-microbial-biomarkers-obesity-t2d",
-        "ismail-2022-gut-microbiome-obesity-t1d-review",
-        "bacteroides-fragilis",
-        "pendergrass-2026-heavy-metals-obesity-epidemic",
-        "candida-albicans",
-        "iron",
-        "obesity",
-        "insulin-resistance",
-        "nutritional-immunity",
-        "dysbiosis"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 3,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "histidine",
-        "cardiovascular-disease",
-        "broken-links-2026-04-16"
-      ],
-      "related": [
-        {
-          "id": "nickel",
-          "score": 9
-        },
-        {
-          "id": "faecalibacterium-prausnitzii",
-          "score": 8
-        },
-        {
-          "id": "oscillospiraceae",
-          "score": 8
-        },
-        {
-          "id": "calprotectin",
-          "score": 8
-        },
-        {
-          "id": "leptotrichia",
-          "score": 7
-        },
-        {
-          "id": "type-2-diabetes",
-          "score": 7
-        },
-        {
-          "id": "leptin",
-          "score": 7
-        },
-        {
-          "id": "cardiovascular-disease-signature",
-          "score": 7
         }
       ]
     },
@@ -5211,291 +4854,6 @@
       ]
     },
     {
-      "id": "atopobium-parvulum",
-      "title": "Atopobium parvulum",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "actinobacteria",
-        "oral-microbiome",
-        "hydrogen-sulfide",
-        "halitosis"
-      ],
-      "sources": [
-        "quaranta-2019-fmt-female-reproductive-tract-diseases",
-        "ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis",
-        "lingasamy-2024-immunome-microbiome-reproductive-health",
-        "pruski-2021-desi-ms-vaginal-microbiome-preterm-birth",
-        "asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic",
-        "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
-        "hernandes-2020-microbiome-profile-deep-endometriosis",
-        "li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis"
-      ],
-      "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Atopobium parvulum",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "quaranta-2019-fmt-female-reproductive-tract-diseases",
-          "ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis",
-          "lingasamy-2024-immunome-microbiome-reproductive-health",
-          "pruski-2021-desi-ms-vaginal-microbiome-preterm-birth",
-          "asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic",
-          "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
-          "hernandes-2020-microbiome-profile-deep-endometriosis",
-          "li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis"
-        ],
-        "source_count": 8,
-        "tags": [
-          "actinobacteria",
-          "oral-microbiome",
-          "hydrogen-sulfide",
-          "halitosis"
-        ],
-        "seo_target": "Atopobium parvulum oral gut microbiome",
-        "wikipedia_differentiation": "Hydrogen sulfide production linking oral dysbiosis to gut inflammation, and metal-modulated niche behavior",
-        "gram_stain": "positive",
-        "oxygen_requirement": "obligate anaerobe",
-        "metal_dependencies": [
-          "iron"
-        ],
-        "key_enzymes": [
-          "cysteine-desulfhydrase"
-        ],
-        "pathogenic_potential": "commensal-turned-pathogen",
-        "conditions_enriched_in": [
-          "halitosis",
-          "inflammatory-bowel-disease",
-          "colorectal-cancer"
-        ],
-        "conditions_depleted_in": []
-      },
-      "overview": "",
-      "sections": [
-        {
-          "heading": "Overview",
-          "level": 2,
-          "body": "Atopobium parvulum is a Gram-positive obligate anaerobe found primarily in the oral cavity but increasingly detected in gut microbiome studies. It produces hydrogen sulfide (H2S) through cysteine metabolism, contributing to halitosis in the mouth and potentially to mucosal damage when it colonizes the gut."
-        },
-        {
-          "heading": "Metal Dependencies",
-          "level": 2,
-          "body": "A. parvulum requires iron for its anaerobic metabolism. Its cysteine desulfhydrase activity generates H2S, which can chelate iron and other metals in the local environment, potentially altering metal bioavailability for neighboring organisms. This places A. parvulum at the intersection of sulfur metabolism and metal ecology."
-        },
-        {
-          "heading": "Ecological Role",
-          "level": 2,
-          "body": "In the oral cavity, A. parvulum thrives in anaerobic niches such as tongue biofilms and periodontal pockets, where its H2S output contributes to tissue inflammation. When it translocates to the gut — a phenomenon increasingly documented in [[inflammatory-bowel-disease]] — it may exacerbate mucosal damage through sulfide-mediated inhibition of butyrate oxidation in colonocytes."
-        },
-        {
-          "heading": "Conditions Associated",
-          "level": 2,
-          "body": "Enrichment of A. parvulum has been reported in [[inflammatory-bowel-disease]] (particularly Crohn's disease), [[colorectal-cancer]], and chronic halitosis. Its oral-to-gut translocation pattern makes it a marker of compromised compartment boundaries, a theme shared with other oral pathobionts like *Fusobacterium nucleatum*."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[iron]] — metabolic requirement\n- [[fermentative-metabolism|hydrogen-sulfide]] — primary metabolic output\n- [[fusobacterium-nucleatum]] — shared oral-to-gut translocation pattern\n- [[inflammatory-bowel-disease]] — gut enrichment in disease"
-        }
-      ],
-      "wikilinks": [
-        "inflammatory-bowel-disease",
-        "colorectal-cancer",
-        "iron",
-        "fermentative-metabolism",
-        "fusobacterium-nucleatum"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 8,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "olsenella",
-        "atherosclerosis-signature"
-      ],
-      "related": [
-        {
-          "id": "atopobium",
-          "score": 15
-        },
-        {
-          "id": "aerococcus",
-          "score": 10
-        },
-        {
-          "id": "gardnerella-vaginalis",
-          "score": 10
-        },
-        {
-          "id": "lactobacillus-gasseri",
-          "score": 10
-        },
-        {
-          "id": "atopobium-vaginae",
-          "score": 9
-        },
-        {
-          "id": "lactobacillus-jensenii",
-          "score": 7
-        },
-        {
-          "id": "megasphaera",
-          "score": 7
-        },
-        {
-          "id": "prevotella",
-          "score": 7
-        }
-      ]
-    },
-    {
-      "id": "atopobium-vaginae",
-      "title": "Atopobium vaginae",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "actinobacteria",
-        "vaginal-microbiome",
-        "bacterial-vaginosis",
-        "biofilm"
-      ],
-      "sources": [
-        "quaranta-2019-fmt-female-reproductive-tract-diseases",
-        "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
-        "ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota",
-        "chen-2021-chlamydia-vaginal-microbiota-tubal-infertility",
-        "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis"
-      ],
-      "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Atopobium vaginae",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "quaranta-2019-fmt-female-reproductive-tract-diseases",
-          "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
-          "ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota",
-          "chen-2021-chlamydia-vaginal-microbiota-tubal-infertility",
-          "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis"
-        ],
-        "source_count": 5,
-        "tags": [
-          "actinobacteria",
-          "vaginal-microbiome",
-          "bacterial-vaginosis",
-          "biofilm"
-        ],
-        "seo_target": "Atopobium vaginae bacterial vaginosis",
-        "wikipedia_differentiation": "Biofilm co-architecture with Gardnerella, metal-dependent persistence, and role as BV diagnostic marker",
-        "gram_stain": "positive",
-        "oxygen_requirement": "obligate anaerobe",
-        "metal_dependencies": [
-          "iron",
-          "manganese"
-        ],
-        "key_enzymes": [
-          "sialidase"
-        ],
-        "pathogenic_potential": "commensal-turned-pathogen",
-        "conditions_enriched_in": [
-          "bacterial-vaginosis",
-          "pelvic-inflammatory-disease",
-          "preterm-birth"
-        ],
-        "conditions_depleted_in": []
-      },
-      "overview": "",
-      "sections": [
-        {
-          "heading": "Overview",
-          "level": 2,
-          "body": "Atopobium vaginae (reclassified as *Fannyhessea vaginae*) is a Gram-positive obligate anaerobe and one of the most reliable biomarkers of bacterial vaginosis (BV). While present at low levels in some healthy women, its high abundance — particularly alongside *Gardnerella vaginalis* — strongly predicts BV and treatment-resistant recurrence."
-        },
-        {
-          "heading": "Metal Dependencies",
-          "level": 2,
-          "body": "A. vaginae requires iron and manganese for core metabolic functions. In the vaginal environment, iron availability increases during menstruation and in inflammatory states, conditions that correlate with BV onset and recurrence. The organism's persistence within [[biofilm]] structures may shield it from host [[nutritional-immunity]] responses."
-        },
-        {
-          "heading": "Ecological Role",
-          "level": 2,
-          "body": "A. vaginae forms a dense polymicrobial [[biofilm]] with *Gardnerella vaginalis* on vaginal epithelium. This biofilm architecture provides antibiotic tolerance — explaining why metronidazole monotherapy often fails to clear A. vaginae despite killing planktonic Gardnerella. The organism produces sialidase, which degrades the protective mucus layer and exposes epithelial receptors to further colonization."
-        },
-        {
-          "heading": "Conditions Associated",
-          "level": 2,
-          "body": "Beyond BV, A. vaginae enrichment is associated with [[pelvic-inflammatory-disease]], adverse pregnancy outcomes including preterm birth, and increased susceptibility to sexually transmitted infections. Its presence in vaginal biofilm is increasingly recognized as a driver of the [[gut-vagina-axis]] dysbiosis pattern."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[biofilm]] — polymicrobial persistence with Gardnerella\n- [[iron]] — menstrual cycle-linked availability\n- [[bacterial-vaginosis]] — primary disease association\n- [[gut-vagina-axis]] — cross-compartment microbial exchange"
-        }
-      ],
-      "wikilinks": [
-        "biofilm",
-        "nutritional-immunity",
-        "pelvic-inflammatory-disease",
-        "gut-vagina-axis",
-        "iron",
-        "bacterial-vaginosis"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 5,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "pelvic-inflammatory-disease",
-        "gut-vagina-axis",
-        "broken-links-2026-04-16"
-      ],
-      "related": [
-        {
-          "id": "atopobium",
-          "score": 17
-        },
-        {
-          "id": "megasphaera",
-          "score": 14
-        },
-        {
-          "id": "atopobium-parvulum",
-          "score": 9
-        },
-        {
-          "id": "chlamydia-trachomatis",
-          "score": 9
-        },
-        {
-          "id": "gardnerella-vaginalis",
-          "score": 9
-        },
-        {
-          "id": "lactobacillus-crispatus",
-          "score": 9
-        },
-        {
-          "id": "lactobacillus-iners",
-          "score": 8
-        },
-        {
-          "id": "chlamydia",
-          "score": 7
-        }
-      ]
-    },
-    {
       "id": "atopobium",
       "title": "Atopobium",
       "type": "entity",
@@ -5680,10 +5038,6 @@
           "score": 21
         },
         {
-          "id": "atopobium-vaginae",
-          "score": 17
-        },
-        {
           "id": "ureaplasma",
           "score": 17
         },
@@ -5696,12 +5050,16 @@
           "score": 16
         },
         {
-          "id": "atopobium-parvulum",
-          "score": 15
-        },
-        {
           "id": "lactobacillus-gasseri",
           "score": 13
+        },
+        {
+          "id": "lactobacillus-iners",
+          "score": 13
+        },
+        {
+          "id": "barnesiella",
+          "score": 12
         }
       ]
     },
@@ -6498,7 +5856,7 @@
           "score": 7
         },
         {
-          "id": "akkermansia-mucinicola",
+          "id": "eubacterium-eligens",
           "score": 6
         }
       ]
@@ -6874,7 +6232,6 @@
       "isStub": false,
       "backlinks": [
         "alistipes",
-        "allisonella",
         "bacteroides-caccae",
         "bacteroides-thetaiotaomicron",
         "bacteroides-uniformis",
@@ -6961,7 +6318,7 @@
         },
         {
           "id": "candida-albicans",
-          "score": 47
+          "score": 45
         },
         {
           "id": "fusobacterium-nucleatum",
@@ -7162,7 +6519,7 @@
           "score": 10
         },
         {
-          "id": "akkermansia-mucinicola",
+          "id": "bacteroidetes",
           "score": 9
         }
       ]
@@ -9322,10 +8679,6 @@
           "score": 7
         },
         {
-          "id": "atopobium-vaginae",
-          "score": 6
-        },
-        {
           "id": "lactococcus",
           "score": 6
         },
@@ -9335,6 +8688,10 @@
         },
         {
           "id": "bifidobacteriaceae",
+          "score": 5
+        },
+        {
+          "id": "bifidobacteriales",
           "score": 5
         }
       ]
@@ -12401,7 +11758,6 @@
       "backlinks": [
         "acinetobacter-baumannii",
         "acinetobacter",
-        "akkermansia-mucinicola",
         "akkermansia-muciniphila",
         "aluminum",
         "alzheimers-disease",
@@ -12568,7 +11924,7 @@
         },
         {
           "id": "faecalibacterium-prausnitzii",
-          "score": 123
+          "score": 121
         },
         {
           "id": "dysbiosis",
@@ -12576,7 +11932,7 @@
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 101
+          "score": 99
         },
         {
           "id": "selenium",
@@ -13334,7 +12690,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "allisonella",
         "alternaria",
         "anaerostipes",
         "aspergillus",
@@ -13427,12 +12782,12 @@
           "score": 49
         },
         {
-          "id": "bacteroides-fragilis",
+          "id": "lachnospiraceae",
           "score": 47
         },
         {
-          "id": "lachnospiraceae",
-          "score": 47
+          "id": "bacteroides-fragilis",
+          "score": 45
         },
         {
           "id": "calprotectin",
@@ -15147,10 +14502,6 @@
           "score": 11
         },
         {
-          "id": "atopobium-vaginae",
-          "score": 9
-        },
-        {
           "id": "gardnerella-vaginalis",
           "score": 9
         },
@@ -15169,6 +14520,10 @@
         {
           "id": "ureaplasma",
           "score": 8
+        },
+        {
+          "id": "atopobium",
+          "score": 7
         }
       ]
     },
@@ -19294,7 +18649,6 @@
         "actinomyces",
         "alistipes",
         "aspergillus",
-        "atopobium-parvulum",
         "bacteroides-fragilis",
         "bacteroides-vulgatus",
         "bilophila",
@@ -19422,12 +18776,12 @@
           "score": 58
         },
         {
-          "id": "fusobacterium-nucleatum",
-          "score": 57
-        },
-        {
           "id": "escherichia-coli",
           "score": 56
+        },
+        {
+          "id": "fusobacterium-nucleatum",
+          "score": 55
         }
       ]
     },
@@ -23140,6 +22494,132 @@
       ]
     },
     {
+      "id": "dialister-histaminiformans",
+      "title": "Dialister histaminiformans",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "Bacillota",
+        "Veillonellaceae",
+        "anaerobe",
+        "histamine-production",
+        "bovine-rumen",
+        "taxonomic-reclassification"
+      ],
+      "sources": [
+        "ncbi-taxonomy-dialister-histaminiformans",
+        "lpsn-dialister-histaminiformans",
+        "garner-2002-allisonella-histaminiformans-description",
+        "heng-2025-dialister-histaminiformans-reclassification"
+      ],
+      "created": "2026-09-01T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Dialister histaminiformans",
+        "type": "entity",
+        "subtype": "microbe",
+        "created": "2026-09-01T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "ncbi-taxonomy-dialister-histaminiformans",
+          "lpsn-dialister-histaminiformans",
+          "garner-2002-allisonella-histaminiformans-description",
+          "heng-2025-dialister-histaminiformans-reclassification"
+        ],
+        "source_count": 4,
+        "tags": [
+          "Bacillota",
+          "Veillonellaceae",
+          "anaerobe",
+          "histamine-production",
+          "bovine-rumen",
+          "taxonomic-reclassification"
+        ],
+        "platform": "wikibiome",
+        "seo_target": "Dialister histaminiformans Allisonella histaminiformans taxonomy",
+        "wikipedia_differentiation": "Current nomenclature, basionym, type strain, and the narrow experimental setting in which histamine production was demonstrated",
+        "gram_stain": "negative",
+        "oxygen_requirement": "obligate anaerobe",
+        "metal_dependencies": [],
+        "key_enzymes": [],
+        "pathogenic_potential": "not established for humans",
+        "conditions_enriched_in": [],
+        "conditions_depleted_in": [],
+        "ncbi_taxonomy_id": 209880,
+        "historical_names": [
+          "Allisonella histaminiformans"
+        ]
+      },
+      "overview": "*Dialister histaminiformans* is the current name for the species originally described as *Allisonella histaminiformans*. NCBI Taxonomy assigns the species NCBITaxon:209880, and LPSN treats *A. histaminiformans* as its validly published homotypic synonym and basionym [[ncbi-taxonomy-dialister-histaminiformans]] [[lpsn-dialister-histaminiformans]]. The unsupported species epithet used by the retired WikiBiome page is not retained as a taxon or synonym.",
+      "sections": [
+        {
+          "heading": "Nomenclatural History",
+          "level": 2,
+          "body": "Garner, Flint, and Russell described *Allisonella histaminiformans* from histidine-enrichment cultures of bovine rumen contents. The type strain is MR2, also deposited as ATCC BAA-610, CCUG 48567, and DSM 15230 [[garner-2002-allisonella-histaminiformans-description]]. Heng and colleagues transferred the species to *Dialister* in 2025; NCBI and LPSN now apply the combination *Dialister histaminiformans* [[heng-2025-dialister-histaminiformans-reclassification]] [[ncbi-taxonomy-dialister-histaminiformans]] [[lpsn-dialister-histaminiformans]]. It belongs to the family Veillonellaceae in the phylum Bacillota, not to Bacteroidetes."
+        },
+        {
+          "heading": "Evidence Boundary",
+          "level": 2,
+          "body": "The original isolates were strictly anaerobic bacteria that used histidine as an energy source and produced histamine in the bovine-rumen experimental system [[garner-2002-allisonella-histaminiformans-description]]. That evidence does not establish enrichment in human obesity, metabolic syndrome, mast-cell activation syndrome, or allergic disease, and it does not establish iron-dependent expansion or a therapeutic target. Human cohort results reported under the historical genus label *Allisonella* should remain attributed to that study label unless their sequence data support species-level assignment."
+        },
+        {
+          "heading": "Literature Naming",
+          "level": 2,
+          "body": "Older studies and databases may use *Allisonella histaminiformans* or the genus label *Allisonella*. Those names should be retained when accurately describing the terminology used by a source, while links and current taxonomic statements resolve to this record. Genus-level findings must not be silently rewritten as findings about *D. histaminiformans*."
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-dialister-histaminiformans",
+        "lpsn-dialister-histaminiformans",
+        "garner-2002-allisonella-histaminiformans-description",
+        "heng-2025-dialister-histaminiformans-reclassification"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 4,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "histidine",
+        "cardiovascular-disease"
+      ],
+      "related": [
+        {
+          "id": "lancefieldella-parvula",
+          "score": 5
+        },
+        {
+          "id": "lead",
+          "score": 4
+        },
+        {
+          "id": "nickel",
+          "score": 4
+        },
+        {
+          "id": "calprotectin",
+          "score": 4
+        },
+        {
+          "id": "anaerococcus",
+          "score": 3
+        },
+        {
+          "id": "atopobium",
+          "score": 3
+        },
+        {
+          "id": "bacteroides-fragilis",
+          "score": 3
+        },
+        {
+          "id": "barnesella",
+          "score": 3
+        }
+      ]
+    },
+    {
       "id": "dialister",
       "title": "Dialister",
       "type": "entity",
@@ -26123,10 +25603,6 @@
           "score": 6
         },
         {
-          "id": "allisonella",
-          "score": 5
-        },
-        {
           "id": "lactobacillaceae",
           "score": 5
         },
@@ -26140,6 +25616,10 @@
         },
         {
           "id": "blautia",
+          "score": 4
+        },
+        {
+          "id": "collinsella",
           "score": 4
         }
       ]
@@ -26973,7 +26453,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "akkermansia-mucinicola",
         "bacteroides-uniformis",
         "lachnospiraceae-family",
         "chronic-kidney-disease",
@@ -27356,7 +26835,6 @@
       "backlinks": [
         "actinobacteria",
         "adherent-invasive-e-coli",
-        "akkermansia-mucinicola",
         "akkermansia-muciniphila",
         "alloprevotella",
         "anaerostipes",
@@ -27543,7 +27021,7 @@
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 107
+          "score": 105
         },
         {
           "id": "zinc",
@@ -27551,7 +27029,7 @@
         },
         {
           "id": "nickel",
-          "score": 93
+          "score": 91
         },
         {
           "id": "depression",
@@ -27719,6 +27197,136 @@
         {
           "id": "butyricimonas",
           "score": 10
+        }
+      ]
+    },
+    {
+      "id": "fannyhessea-vaginae",
+      "title": "Fannyhessea vaginae",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "Actinomycetota",
+        "Atopobiaceae",
+        "vaginal-microbiome",
+        "bacterial-vaginosis",
+        "taxonomic-reclassification"
+      ],
+      "sources": [
+        "ncbi-taxonomy-fannyhessea-vaginae",
+        "lpsn-fannyhessea-vaginae",
+        "rodriguez-jovita-1999-atopobium-vaginae-description",
+        "nouioui-2018-actinobacteria-taxonomic-classification",
+        "verhelst-2004-atopobium-vaginae-bacterial-vaginosis"
+      ],
+      "created": "2026-04-17T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Fannyhessea vaginae",
+        "type": "entity",
+        "subtype": "microbe",
+        "created": "2026-04-17T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "ncbi-taxonomy-fannyhessea-vaginae",
+          "lpsn-fannyhessea-vaginae",
+          "rodriguez-jovita-1999-atopobium-vaginae-description",
+          "nouioui-2018-actinobacteria-taxonomic-classification",
+          "verhelst-2004-atopobium-vaginae-bacterial-vaginosis"
+        ],
+        "source_count": 5,
+        "tags": [
+          "Actinomycetota",
+          "Atopobiaceae",
+          "vaginal-microbiome",
+          "bacterial-vaginosis",
+          "taxonomic-reclassification"
+        ],
+        "platform": "wikibiome",
+        "seo_target": "Fannyhessea vaginae Atopobium vaginae bacterial vaginosis taxonomy",
+        "wikipedia_differentiation": "Current nomenclature reconciled with the Atopobium vaginae name used in the clinical literature",
+        "gram_stain": "positive",
+        "oxygen_requirement": "anaerobic or microaerophilic",
+        "metal_dependencies": [],
+        "key_enzymes": [],
+        "pathogenic_potential": "bacterial-vaginosis-associated",
+        "conditions_enriched_in": [
+          "bacterial-vaginosis"
+        ],
+        "conditions_depleted_in": [],
+        "ncbi_taxonomy_id": 82135,
+        "historical_names": [
+          "Atopobium vaginae"
+        ]
+      },
+      "overview": "*Fannyhessea vaginae* is the current name for NCBITaxon:82135. The organism was originally described as *Atopobium vaginae*, which remains its validly published basionym and the name used by much of the clinical literature [[ncbi-taxonomy-fannyhessea-vaginae]] [[lpsn-fannyhessea-vaginae]].",
+      "sections": [
+        {
+          "heading": "Nomenclatural History",
+          "level": 2,
+          "body": "Rodriguez Jovita and colleagues described the species from a human vaginal isolate using phenotypic testing, whole-cell protein analysis, and 16S rRNA phylogeny; their type strain CCUG 38953 is also deposited as ATCC BAA-55 and DSM 15829 [[rodriguez-jovita-1999-atopobium-vaginae-description]]. Nouioui and colleagues later transferred the species to the new genus *Fannyhessea* in their genome-based classification of Actinobacteria [[nouioui-2018-actinobacteria-taxonomic-classification]]. NCBI and LPSN both apply *Fannyhessea vaginae* as the current name [[ncbi-taxonomy-fannyhessea-vaginae]] [[lpsn-fannyhessea-vaginae]]."
+        },
+        {
+          "heading": "Bacterial Vaginosis Evidence",
+          "level": 2,
+          "body": "A culture-independent study published under the historical name *Atopobium vaginae* found the organism abundant in disturbed vaginal microbiota and strongly associated with bacterial vaginosis, often alongside *Gardnerella vaginalis* [[verhelst-2004-atopobium-vaginae-bacterial-vaginosis]]. This association does not by itself establish that *F. vaginae* causes every case, that it translocates from the gut, or that it drives pelvic inflammatory disease or adverse pregnancy outcomes."
+        },
+        {
+          "heading": "Literature Naming",
+          "level": 2,
+          "body": "WikiBiome retains *Atopobium vaginae* when it is the name reported by an older study. Canonical links and current taxonomic statements resolve to this record so that the historical and current names do not create duplicate indexable pages."
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-fannyhessea-vaginae",
+        "lpsn-fannyhessea-vaginae",
+        "rodriguez-jovita-1999-atopobium-vaginae-description",
+        "nouioui-2018-actinobacteria-taxonomic-classification",
+        "verhelst-2004-atopobium-vaginae-bacterial-vaginosis"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 5,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "pelvic-inflammatory-disease",
+        "bacterial-vaginosis",
+        "gut-vagina-axis"
+      ],
+      "related": [
+        {
+          "id": "lancefieldella-parvula",
+          "score": 10
+        },
+        {
+          "id": "gardnerella",
+          "score": 7
+        },
+        {
+          "id": "lactobacillus",
+          "score": 7
+        },
+        {
+          "id": "endometriosis",
+          "score": 4
+        },
+        {
+          "id": "female-infertility",
+          "score": 4
+        },
+        {
+          "id": "beta-glucuronidase",
+          "score": 4
+        },
+        {
+          "id": "estrobolome",
+          "score": 4
+        },
+        {
+          "id": "gut-vagina-axis",
+          "score": 4
         }
       ]
     },
@@ -29503,7 +29111,6 @@
       "isStub": false,
       "backlinks": [
         "actinomyces",
-        "atopobium-parvulum",
         "bacteroides-vulgatus",
         "barretts-esophagus",
         "clostridium-symbiosum",
@@ -29766,7 +29373,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "allisonella",
         "leptotrichia",
         "oscillospiraceae",
         "torulaspora",
@@ -29794,15 +29400,15 @@
           "score": 9
         },
         {
-          "id": "obesity",
-          "score": 8
-        },
-        {
-          "id": "obesity",
-          "score": 8
-        },
-        {
           "id": "clostridium-symbiosum",
+          "score": 7
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 7
+        },
+        {
+          "id": "lactobacillus-rhamnosus",
           "score": 7
         }
       ]
@@ -30363,8 +29969,8 @@
           "score": 11
         },
         {
-          "id": "atopobium-parvulum",
-          "score": 10
+          "id": "chlamydia-trachomatis",
+          "score": 9
         }
       ]
     },
@@ -35031,7 +34637,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "atopobium-parvulum",
         "bacteroides-thetaiotaomicron",
         "bilophila",
         "celiac-disease",
@@ -35086,7 +34691,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 66
+          "score": 64
         },
         {
           "id": "zinc",
@@ -35094,11 +34699,11 @@
         },
         {
           "id": "colorectal-cancer",
-          "score": 39
+          "score": 37
         },
         {
           "id": "colorectal-cancer",
-          "score": 38
+          "score": 36
         },
         {
           "id": "ulcerative-colitis",
@@ -36097,15 +35702,12 @@
         "acinetobacter-baumannii",
         "acinetobacter",
         "aeromonas",
-        "allisonella",
         "alloprevotella",
         "alzheimers-disease",
         "anaerostipes",
         "anaerotruncus",
         "arsenic",
         "aspergillus",
-        "atopobium-parvulum",
-        "atopobium-vaginae",
         "autism-spectrum-disorder",
         "bacillus",
         "bacteroides-fragilis",
@@ -36365,11 +35967,11 @@
         },
         {
           "id": "colorectal-cancer",
-          "score": 121
+          "score": 119
         },
         {
           "id": "colorectal-cancer",
-          "score": 116
+          "score": 114
         },
         {
           "id": "inflammation",
@@ -38350,16 +37952,16 @@
           "score": 9
         },
         {
-          "id": "atopobium-vaginae",
-          "score": 9
-        },
-        {
           "id": "iron",
           "score": 9
         },
         {
           "id": "lactobacillaceae",
           "score": 9
+        },
+        {
+          "id": "chlamydia-trachomatis",
+          "score": 8
         }
       ]
     },
@@ -38484,10 +38086,6 @@
           "score": 11
         },
         {
-          "id": "atopobium-parvulum",
-          "score": 10
-        },
-        {
           "id": "aerococcus",
           "score": 9
         },
@@ -38497,6 +38095,10 @@
         },
         {
           "id": "lactobacillus-acidophilus",
+          "score": 8
+        },
+        {
+          "id": "lactobacillus-reuteri",
           "score": 8
         }
       ]
@@ -38665,7 +38267,7 @@
           "score": 9
         },
         {
-          "id": "atopobium-vaginae",
+          "id": "clostridium-perfringens",
           "score": 8
         }
       ]
@@ -38785,16 +38387,16 @@
           "score": 7
         },
         {
-          "id": "atopobium-parvulum",
-          "score": 7
-        },
-        {
           "id": "proteus",
           "score": 7
         },
         {
           "id": "ralstonia",
           "score": 7
+        },
+        {
+          "id": "lactobacillus-acidophilus",
+          "score": 6
         }
       ]
     },
@@ -39729,6 +39331,134 @@
       ]
     },
     {
+      "id": "lancefieldella-parvula",
+      "title": "Lancefieldella parvula",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "Actinomycetota",
+        "Atopobiaceae",
+        "oral-microbiome",
+        "anaerobe",
+        "taxonomic-reclassification"
+      ],
+      "sources": [
+        "ncbi-taxonomy-lancefieldella-parvula",
+        "lpsn-lancefieldella-parvula",
+        "nouioui-2018-actinobacteria-taxonomic-classification",
+        "copeland-2009-atopobium-parvulum-genome"
+      ],
+      "created": "2026-04-17T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Lancefieldella parvula",
+        "type": "entity",
+        "subtype": "microbe",
+        "created": "2026-04-17T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "ncbi-taxonomy-lancefieldella-parvula",
+          "lpsn-lancefieldella-parvula",
+          "nouioui-2018-actinobacteria-taxonomic-classification",
+          "copeland-2009-atopobium-parvulum-genome"
+        ],
+        "source_count": 4,
+        "tags": [
+          "Actinomycetota",
+          "Atopobiaceae",
+          "oral-microbiome",
+          "anaerobe",
+          "taxonomic-reclassification"
+        ],
+        "platform": "wikibiome",
+        "seo_target": "Lancefieldella parvula Atopobium parvulum taxonomy oral microbiome",
+        "wikipedia_differentiation": "Current nomenclature reconciled with the Atopobium parvulum name used in older oral-microbiome literature",
+        "gram_stain": "positive",
+        "oxygen_requirement": "obligate anaerobe",
+        "metal_dependencies": [],
+        "key_enzymes": [],
+        "pathogenic_potential": "association reported; causality not established",
+        "conditions_enriched_in": [
+          "halitosis"
+        ],
+        "conditions_depleted_in": [],
+        "ncbi_taxonomy_id": 1382,
+        "historical_names": [
+          "Atopobium parvulum",
+          "Streptococcus parvulus",
+          "Peptostreptococcus parvulus"
+        ]
+      },
+      "overview": "*Lancefieldella parvula* is the current name for NCBITaxon:1382. *Atopobium parvulum* is a validly published historical homotypic synonym rather than the current canonical name [[ncbi-taxonomy-lancefieldella-parvula]] [[lpsn-lancefieldella-parvula]].",
+      "sections": [
+        {
+          "heading": "Taxonomy and Characteristics",
+          "level": 2,
+          "body": "Nouioui and colleagues transferred the species to the newly described genus *Lancefieldella* in a genome-based revision of Actinobacteria [[nouioui-2018-actinobacteria-taxonomic-classification]]. Their description characterizes members of the genus as Gram-stain-positive, obligately anaerobic, non-motile, non-spore-forming small rods. LPSN lists *L. parvula* as the type species of the genus and records *Atopobium parvulum*, *Streptococcus parvulus*, and *Peptostreptococcus parvulus* as homotypic synonyms [[lpsn-lancefieldella-parvula]]."
+        },
+        {
+          "heading": "Human Isolation Evidence",
+          "level": 2,
+          "body": "The sequenced type strain, IPP 1246 (DSM 20469), was described under the then-current name *Atopobium parvulum*. That genome report notes frequent isolation from the human oral cavity and an association with oral malodor, while distinguishing association from demonstrated causation [[copeland-2009-atopobium-parvulum-genome]]. The current evidence cited here does not support the former page's claims of a specific iron requirement, cysteine-desulfhydrase-driven hydrogen-sulfide injury, oral-to-gut translocation, inflammatory bowel disease, or colorectal-cancer causation."
+        },
+        {
+          "heading": "Literature Naming",
+          "level": 2,
+          "body": "Studies published before or without adoption of the 2018 reclassification may accurately report *Atopobium parvulum*. WikiBiome preserves that historical display name when summarizing such studies, but the link resolves to this single current-name record."
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-lancefieldella-parvula",
+        "lpsn-lancefieldella-parvula",
+        "nouioui-2018-actinobacteria-taxonomic-classification",
+        "copeland-2009-atopobium-parvulum-genome"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 4,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "olsenella",
+        "atherosclerosis-signature"
+      ],
+      "related": [
+        {
+          "id": "fannyhessea-vaginae",
+          "score": 10
+        },
+        {
+          "id": "dialister-histaminiformans",
+          "score": 5
+        },
+        {
+          "id": "fusobacteriales",
+          "score": 5
+        },
+        {
+          "id": "leptotrichia",
+          "score": 5
+        },
+        {
+          "id": "chronic-kidney-disease",
+          "score": 4
+        },
+        {
+          "id": "actinobacteria",
+          "score": 3
+        },
+        {
+          "id": "anaerococcus",
+          "score": 3
+        },
+        {
+          "id": "atopobium",
+          "score": 3
+        }
+      ]
+    },
+    {
       "id": "lead",
       "title": "Lead",
       "type": "entity",
@@ -40175,7 +39905,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "akkermansia-mucinicola",
         "akkermansia-muciniphila",
         "alistipes",
         "alzheimers-disease",
@@ -40304,11 +40033,11 @@
       "related": [
         {
           "id": "faecalibacterium-prausnitzii",
-          "score": 103
+          "score": 101
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 99
+          "score": 97
         },
         {
           "id": "dysbiosis",
@@ -42671,10 +42400,6 @@
           "score": 14
         },
         {
-          "id": "atopobium-vaginae",
-          "score": 14
-        },
-        {
           "id": "dialister",
           "score": 14
         },
@@ -42693,6 +42418,10 @@
         {
           "id": "shigella",
           "score": 12
+        },
+        {
+          "id": "chlamydia-trachomatis",
+          "score": 11
         }
       ]
     },
@@ -46747,7 +46476,6 @@
       "isStub": false,
       "backlinks": [
         "actinomyces",
-        "akkermansia-mucinicola",
         "akkermansia-muciniphila",
         "aluminum",
         "arsenic",
@@ -47365,7 +47093,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "allisonella",
         "bacteroidetes",
         "breast-cancer",
         "cardiovascular-disease",
@@ -47386,7 +47113,6 @@
         "beta-glucuronidase",
         "estrobolome",
         "fermentative-metabolism",
-        "histidine",
         "hypoxia",
         "leptin",
         "lipid-metabolism",
@@ -47415,7 +47141,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 46
+          "score": 44
         },
         {
           "id": "cadmium",
@@ -47427,15 +47153,15 @@
         },
         {
           "id": "bacteroides-fragilis",
-          "score": 36
-        },
-        {
-          "id": "dysbiosis",
-          "score": 35
+          "score": 34
         },
         {
           "id": "escherichia-coli",
           "score": 34
+        },
+        {
+          "id": "dysbiosis",
+          "score": 33
         },
         {
           "id": "lachnospiraceae",
@@ -47790,7 +47516,7 @@
         {
           "heading": "Ecological Role",
           "level": 2,
-          "body": "Olsenella is a lactic acid fermenter that thrives in carbohydrate-rich, anaerobic environments. In the oral cavity, it contributes to dental caries through acid production. Its presence in the gut likely reflects oral-to-gut translocation during barrier compromise, a pattern shared with [[atopobium-parvulum]] and [[fusobacterium-nucleatum]]."
+          "body": "Olsenella is a lactic acid fermenter that thrives in carbohydrate-rich, anaerobic environments. In the oral cavity, it contributes to dental caries through acid production. Its presence in the gut likely reflects oral-to-gut translocation during barrier compromise, a pattern discussed for other oral taxa such as [[lancefieldella-parvula]] and [[fusobacterium-nucleatum]]."
         },
         {
           "heading": "Conditions Associated",
@@ -47804,7 +47530,7 @@
         }
       ],
       "wikilinks": [
-        "atopobium-parvulum",
+        "lancefieldella-parvula",
         "fusobacterium-nucleatum",
         "inflammatory-bowel-disease",
         "colorectal-cancer",
@@ -47841,15 +47567,15 @@
           "score": 6
         },
         {
-          "id": "atopobium-vaginae",
-          "score": 5
-        },
-        {
           "id": "fibromyalgia",
           "score": 5
         },
         {
           "id": "lactobacillus-crispatus",
+          "score": 5
+        },
+        {
+          "id": "pancreatitis",
           "score": 5
         }
       ]
@@ -51206,7 +50932,7 @@
         "shared_signature_taxa": {
           "bacterial-vaginosis": [
             "gardnerella-vaginalis",
-            "atopobium-vaginae"
+            "fannyhessea-vaginae"
           ]
         }
       },
@@ -51220,7 +50946,7 @@
         {
           "heading": "Microbiome Associations",
           "level": 2,
-          "body": "Culture-independent studies have revealed that PID-associated microbiomes are enriched in BV-associated organisms including [[gardnerella|gardnerella-vaginalis]], [[atopobium-vaginae]], *Prevotella bivia*, and *Sneathia* species. These organisms ascend from the vaginal tract when the protective Lactobacillus-dominant community is disrupted. The [[gut-vagina-axis]] may contribute to vaginal dysbiosis that precedes PID."
+          "body": "Culture-independent studies have revealed that PID-associated microbiomes are enriched in BV-associated organisms including [[gardnerella|gardnerella-vaginalis]], [[fannyhessea-vaginae]] (reported in older literature as *Atopobium vaginae*), *Prevotella bivia*, and *Sneathia* species. These organisms ascend from the vaginal tract when the protective Lactobacillus-dominant community is disrupted. The [[gut-vagina-axis]] may contribute to vaginal dysbiosis that precedes PID."
         },
         {
           "heading": "Metal Associations",
@@ -51245,12 +50971,12 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[atopobium-vaginae]] — BV biomarker ascending in PID\n- [[bacterial-vaginosis]] — predisposing condition\n- [[gut-vagina-axis]] — cross-compartment microbial source\n- [[endometriosis]] — shared pelvic inflammatory ecology"
+          "body": "- [[fannyhessea-vaginae]] — BV-associated species reported historically as *Atopobium vaginae*\n- [[bacterial-vaginosis]] — predisposing condition\n- [[gut-vagina-axis]] — cross-compartment microbial source\n- [[endometriosis]] — shared pelvic inflammatory ecology"
         }
       ],
       "wikilinks": [
         "gardnerella",
-        "atopobium-vaginae",
+        "fannyhessea-vaginae",
         "gut-vagina-axis",
         "bacterial-vaginosis",
         "endometriosis",
@@ -51266,7 +50992,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "atopobium-vaginae",
         "chlamydia",
         "broken-links-2026-04-16"
       ],
@@ -51288,20 +51013,20 @@
           "score": 6
         },
         {
-          "id": "iron",
-          "score": 6
-        },
-        {
           "id": "pcos",
           "score": 6
         },
         {
-          "id": "biofilm",
+          "id": "ovarian-cancer",
           "score": 6
         },
         {
-          "id": "nutritional-immunity",
-          "score": 6
+          "id": "corynebacterium",
+          "score": 5
+        },
+        {
+          "id": "magnesium",
+          "score": 5
         }
       ]
     },
@@ -55993,7 +55718,7 @@
           "score": 7
         },
         {
-          "id": "akkermansia-mucinicola",
+          "id": "bacteroides-caccae",
           "score": 7
         }
       ]
@@ -57929,10 +57654,6 @@
           "score": 16
         },
         {
-          "id": "akkermansia-mucinicola",
-          "score": 13
-        },
-        {
           "id": "bacteroides-caccae",
           "score": 10
         },
@@ -57954,6 +57675,10 @@
         },
         {
           "id": "clostridia",
+          "score": 7
+        },
+        {
+          "id": "pseudomonas",
           "score": 7
         }
       ]
@@ -62989,10 +62714,6 @@
       ],
       "related": [
         {
-          "id": "atopobium-vaginae",
-          "score": 6
-        },
-        {
           "id": "staphylococcus-aureus",
           "score": 6
         },
@@ -63018,6 +62739,10 @@
         },
         {
           "id": "copper",
+          "score": 3
+        },
+        {
+          "id": "corynebacterium",
           "score": 3
         }
       ]
@@ -63895,7 +63620,7 @@
           "score": 5
         },
         {
-          "id": "atopobium-vaginae",
+          "id": "cobalt",
           "score": 5
         }
       ]
@@ -66316,15 +66041,15 @@
           "score": 6
         },
         {
-          "id": "atopobium-vaginae",
-          "score": 5
-        },
-        {
           "id": "citrobacter",
           "score": 5
         },
         {
           "id": "corynebacterium",
+          "score": 5
+        },
+        {
+          "id": "enterobacter",
           "score": 5
         }
       ]
@@ -67956,7 +67681,7 @@
           "score": 7
         },
         {
-          "id": "atopobium-parvulum",
+          "id": "atopobium",
           "score": 7
         }
       ]
@@ -73296,7 +73021,7 @@
         {
           "heading": "The BV Community",
           "level": 2,
-          "body": "The BV-associated consortium includes:\n\n| Organism | Role |\n|----------|------|\n| [[gardnerella]] | Primary biofilm architect; sialidase production degrades mucus barrier |\n| Atopobium vaginae | Biofilm co-resident; produces lactic acid isomer (D-lactate) that does not protect against BV |\n| Prevotella bivia | Amino acid fermenter; synergistic with Gardnerella |\n| Mobiluncus | Motile anaerobe; produces succinate |\n| Megasphaera | SCFA producer in vaginal context |\n| Sneathia | Associated with preterm birth risk |\n\nThese organisms form a polymicrobial biofilm on the vaginal epithelium that is highly resistant to antibiotic therapy, explaining the >50% recurrence rate of BV within 12 months of treatment [[gardnerella]]."
+          "body": "The BV-associated consortium includes:\n\n| Organism | Role |\n|----------|------|\n| [[gardnerella]] | Primary biofilm architect; sialidase production degrades mucus barrier |\n| [[fannyhessea-vaginae]] (reported historically as *Atopobium vaginae*) | Strongly associated with disturbed vaginal communities and BV in culture-independent studies |\n| Prevotella bivia | Amino acid fermenter; synergistic with Gardnerella |\n| Mobiluncus | Motile anaerobe; produces succinate |\n| Megasphaera | SCFA producer in vaginal context |\n| Sneathia | Associated with preterm birth risk |\n\nThese organisms form a polymicrobial biofilm on the vaginal epithelium that is highly resistant to antibiotic therapy, explaining the >50% recurrence rate of BV within 12 months of treatment [[gardnerella]]."
         },
         {
           "heading": "Iron Ecology in BV",
@@ -73337,6 +73062,7 @@
       "wikilinks": [
         "gardnerella",
         "lactobacillus",
+        "fannyhessea-vaginae",
         "roberts-2019-lactoferrin-genital-infections-iron",
         "nutritional-immunity",
         "siderophore-competition",
@@ -73364,7 +73090,6 @@
       "isStub": false,
       "backlinks": [
         "anaerococcus",
-        "atopobium-vaginae",
         "atopobium",
         "lactobacillaceae",
         "lactobacillus-iners",
@@ -74598,7 +74323,6 @@
         "actinomyces",
         "adherent-invasive-e-coli",
         "aeromonas",
-        "atopobium-vaginae",
         "bismuth",
         "candida-auris",
         "candida-tropicalis",
@@ -74662,7 +74386,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 72
+          "score": 70
         },
         {
           "id": "zinc",
@@ -80422,7 +80146,6 @@
       "backlinks": [
         "akkermansia-muciniphila",
         "alistipes",
-        "allisonella",
         "alloprevotella",
         "anaerostipes",
         "bacteroides-fragilis",
@@ -80584,7 +80307,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 157
+          "score": 155
         },
         {
           "id": "cadmium",
@@ -81308,19 +81031,18 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "akkermansia-mucinicola",
         "nickel-transporters",
         "riboswitch",
         "siderophore-competition"
       ],
       "related": [
         {
-          "id": "nickel",
-          "score": 10
-        },
-        {
           "id": "horizontal-gene-transfer",
           "score": 9
+        },
+        {
+          "id": "nickel",
+          "score": 8
         },
         {
           "id": "salmonella",
@@ -81339,12 +81061,12 @@
           "score": 8
         },
         {
-          "id": "cadmium",
-          "score": 7
-        },
-        {
           "id": "klebsiella-pneumoniae",
           "score": 6
+        },
+        {
+          "id": "arsenic",
+          "score": 5
         }
       ]
     },
@@ -84305,7 +84027,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "atopobium-parvulum",
         "desulfovibrionales",
         "acidic-microenvironment",
         "nickel-glyoxalase",
@@ -87361,7 +87082,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "akkermansia-mucinicola",
         "akkermansia-muciniphila",
         "arsenic",
         "bacillus",
@@ -87448,15 +87168,15 @@
         },
         {
           "id": "nickel",
-          "score": 108
+          "score": 106
         },
         {
           "id": "cadmium",
-          "score": 101
+          "score": 99
         },
         {
           "id": "lead",
-          "score": 99
+          "score": 97
         },
         {
           "id": "iron",
@@ -87467,11 +87187,11 @@
           "score": 70
         },
         {
-          "id": "faecalibacterium-prausnitzii",
-          "score": 69
+          "id": "arsenic",
+          "score": 68
         },
         {
-          "id": "arsenic",
+          "id": "inflammation",
           "score": 68
         }
       ]
@@ -88405,18 +88125,18 @@
         {
           "heading": "Clinical Significance",
           "level": 2,
-          "body": "Recurrent bacterial vaginosis (BV) may partly originate in gut dysbiosis. Women with gut microbiomes depleted in Lactobacillus species have higher BV recurrence rates. This reframes BV treatment beyond vaginal antibiotics toward restoring gut-vaginal ecosystem integrity, an insight that connects to [[atopobium-vaginae]] persistence patterns."
+          "body": "Recurrent bacterial vaginosis (BV) may partly originate in gut dysbiosis. Women with gut microbiomes depleted in Lactobacillus species have higher BV recurrence rates. This reframes BV treatment beyond vaginal antibiotics toward restoring gut-vaginal ecosystem integrity. [[fannyhessea-vaginae]] is a BV-associated vaginal organism, but the cited evidence here does not establish gut-to-vagina translocation for that species."
         },
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[atopobium-vaginae]] — BV biomarker with gut-vaginal translocation\n- [[beta-glucuronidase]] — estrobolome pathway\n- [[lactobacillus]] — shared gut-vaginal protective role\n- [[estrobolome]] — hormone-microbiome connection"
+          "body": "- [[fannyhessea-vaginae]] — BV-associated species historically reported as *Atopobium vaginae*\n- [[beta-glucuronidase]] — estrobolome pathway\n- [[lactobacillus]] — shared gut-vaginal protective role\n- [[estrobolome]] — hormone-microbiome connection"
         }
       ],
       "wikilinks": [
         "beta-glucuronidase",
         "lactobacillus",
-        "atopobium-vaginae",
+        "fannyhessea-vaginae",
         "estrobolome"
       ],
       "sourceDir": "concepts",
@@ -88425,7 +88145,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "atopobium-vaginae",
         "pelvic-inflammatory-disease",
         "broken-links-2026-04-16"
       ],
@@ -88447,20 +88166,20 @@
           "score": 7
         },
         {
-          "id": "pelvic-inflammatory-disease",
-          "score": 7
-        },
-        {
           "id": "pmdd",
-          "score": 7
-        },
-        {
-          "id": "bacterial-vaginosis",
           "score": 7
         },
         {
           "id": "pmdd-signature",
           "score": 7
+        },
+        {
+          "id": "female-infertility",
+          "score": 6
+        },
+        {
+          "id": "gardnerella-vaginalis",
+          "score": 6
         }
       ]
     },
@@ -89356,12 +89075,12 @@
         {
           "heading": "Bacterial Histidine Decarboxylase (HDC)",
           "level": 3,
-          "body": "Certain gut bacteria express histidine decarboxylase, converting free histidine to histamine:\n\nReaction: L-histidine → histamine + CO2\n\nKey histamine-producing bacteria include:\n- [[allisonella]]: Expresses HDC; bacterial histamine production bypasses host histamine regulation, linking microbial histamine to mast cell activation in [[obesity]] [[allisonella]].\n- Morganella morganii, Lactobacillus reuteri, Enterobacteriaceae: Additional histamine producers in the gut.\n\nBacterial histamine production is clinically significant because it occurs independently of host mast cell degranulation, creating a microbial histamine load that can drive:\n- Mast cell activation and allergic-type inflammation\n- Visceral hypersensitivity in [[ibs]]\n- Histamine intolerance symptoms\n- Immune modulation (histamine is immunomodulatory at different receptors: H1 pro-inflammatory, H2 anti-inflammatory)"
+          "body": "Certain gut bacteria express histidine decarboxylase, converting free histidine to histamine:\n\nReaction: L-histidine → histamine + CO2\n\nKey histamine-producing bacteria include:\n- [[dialister-histaminiformans]]: The organism historically named *Allisonella histaminiformans* produced histamine while using histidine as an energy source in isolates from a bovine-rumen enrichment system [[garner-2002-allisonella-histaminiformans-description]]. That experiment does not establish a human obesity or mast-cell-activation mechanism.\n- Morganella morganii, Lactobacillus reuteri, Enterobacteriaceae: Additional histamine producers in the gut.\n\nBacterial histamine production is clinically significant because it occurs independently of host mast cell degranulation, creating a microbial histamine load that can drive:\n- Mast cell activation and allergic-type inflammation\n- Visceral hypersensitivity in [[ibs]]\n- Histamine intolerance symptoms\n- Immune modulation (histamine is immunomodulatory at different receptors: H1 pro-inflammatory, H2 anti-inflammatory)"
         },
         {
           "heading": "Dietary Histamine Precursors",
           "level": 3,
-          "body": "Reducing dietary histamine precursors (aged meats, fermented foods) decreases the substrate pool that amplifies histamine-mediated inflammatory signaling during dysbiosis [[allisonella]]."
+          "body": "Dietary histamine and microbial histamine production are distinct evidence questions. The cited *D. histaminiformans* experiment does not establish that changing dietary histidine or histamine treats human dysbiosis [[garner-2002-allisonella-histaminiformans-description]]."
         },
         {
           "heading": "Histidine in Oxidative Stress Defense",
@@ -89381,7 +89100,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[nickel]] -- histidine as primary Ni-binding residue\n- [[calprotectin]] -- hexahistidine nickel-binding site\n- [[helicobacter-pylori]] -- Hpn (47% histidine) nickel storage\n- [[proteus-mirabilis]] -- HypB (39% histidine) nickel chaperone\n- [[allisonella]] -- histidine decarboxylase and bacterial histamine\n- [[streptococcus-pneumoniae]] -- polyhistidine triad zinc-binding proteins\n- [[phenylalanine]] -- co-regulated aromatic amino acid\n- [[fenton-chemistry]] -- histidine chelation preventing free radical generation\n- [[mis-metallation]] -- zinc-finger displacement at histidine/cysteine sites"
+          "body": "- [[nickel]] -- histidine as primary Ni-binding residue\n- [[calprotectin]] -- hexahistidine nickel-binding site\n- [[helicobacter-pylori]] -- Hpn (47% histidine) nickel storage\n- [[proteus-mirabilis]] -- HypB (39% histidine) nickel chaperone\n- [[dialister-histaminiformans]] -- histamine production demonstrated in a bovine-rumen isolate system\n- [[streptococcus-pneumoniae]] -- polyhistidine triad zinc-binding proteins\n- [[phenylalanine]] -- co-regulated aromatic amino acid\n- [[fenton-chemistry]] -- histidine chelation preventing free radical generation\n- [[mis-metallation]] -- zinc-finger displacement at histidine/cysteine sites"
         }
       ],
       "wikilinks": [
@@ -89392,8 +89111,8 @@
         "calprotectin",
         "streptococcus-pneumoniae",
         "low-nickel-diet",
-        "allisonella",
-        "obesity",
+        "dialister-histaminiformans",
+        "garner-2002-allisonella-histaminiformans-description",
         "ibs",
         "nong-2026-sod-deficiency-oxidative-stress-ecoli",
         "fenton-chemistry",
@@ -93521,7 +93240,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "allisonella",
         "alloprevotella",
         "obesity",
         "pcos",
@@ -95679,10 +95397,6 @@
           "score": 8
         },
         {
-          "id": "allisonella",
-          "score": 7
-        },
-        {
           "id": "major-depressive-disorder",
           "score": 6
         },
@@ -95701,6 +95415,10 @@
         {
           "id": "depression",
           "score": 6
+        },
+        {
+          "id": "type-2-diabetes",
+          "score": 5
         }
       ]
     },
@@ -104653,11 +104371,9 @@
         "adherent-invasive-e-coli",
         "aeromonas",
         "akkermansia-muciniphila",
-        "allisonella",
         "alloprevotella",
         "aluminum",
         "aspergillus",
-        "atopobium-vaginae",
         "autism-spectrum-disorder",
         "bacillus",
         "bacteroides-fragilis",
@@ -104830,7 +104546,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 223
+          "score": 219
         },
         {
           "id": "zinc",
@@ -104841,11 +104557,11 @@
           "score": 94
         },
         {
-          "id": "dysbiosis",
-          "score": 90
+          "id": "escherichia-coli",
+          "score": 88
         },
         {
-          "id": "escherichia-coli",
+          "id": "dysbiosis",
           "score": 88
         },
         {
@@ -106171,10 +105887,6 @@
           "score": 8
         },
         {
-          "id": "atopobium-parvulum",
-          "score": 6
-        },
-        {
           "id": "atopobium",
           "score": 6
         },
@@ -106192,6 +105904,10 @@
         },
         {
           "id": "dna-damage",
+          "score": 4
+        },
+        {
+          "id": "molecular-mimicry",
           "score": 4
         }
       ]
@@ -106496,7 +106212,7 @@
           "score": 7
         },
         {
-          "id": "akkermansia-mucinicola",
+          "id": "iron",
           "score": 6
         }
       ]
@@ -111023,7 +110739,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "akkermansia-mucinicola",
         "akkermansia-muciniphila",
         "alistipes",
         "alloprevotella",
@@ -111144,7 +110859,7 @@
         },
         {
           "id": "cadmium",
-          "score": 62
+          "score": 60
         },
         {
           "id": "roseburia",
@@ -111152,7 +110867,7 @@
         },
         {
           "id": "lead",
-          "score": 54
+          "score": 52
         },
         {
           "id": "multiple-sclerosis",
@@ -118868,8 +118583,8 @@
               "role": "SCFA producers; depleted by metal-rich, pro-inflammatory environment"
             },
             {
-              "taxon": "[[allisonella]]",
-              "role": "Protective against hypertension; SCFA pathway; depleted in CVD"
+              "taxon": "Allisonella (genus-level study label)",
+              "role": "Reported as protective in one hypertension MR analysis; not species-resolved and not established as an SCFA producer or metal-sensitive taxon"
             },
             {
               "taxon": "[[clostridium]]",
@@ -118985,7 +118700,7 @@
         {
           "heading": "Depleted Taxa — Loss of Cardioprotective Functions",
           "level": 3,
-          "body": "The CVD microbiome is characterized by **severe depletion of SCFA-producing bacteria** [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]], [[chambers-2018-scfa-metabolic-cardiovascular-health]]:\n\n#### *Roseburia* spp.\n\n**Function**: Primary **butyrate producer** in the colon. Butyrate is the major colonocyte fuel and acts on **Olfr78/FFAR3 receptors** to regulate:\n- Renin production → systemic blood pressure control\n- Tight junction protein expression → gut barrier integrity\n- PYY and GLP-1 release → appetite and glucose homeostasis\n\n**Why lost**: Butyrate-producing *Roseburia* require:\n1. Anaerobic environment (readily available)\n2. Fiber substrate fermentation (adequate if diet is high-fiber, but impaired by CVD-associated dietary changes)\n3. **Robust metal defense systems to survive iron-rich, pro-inflammatory environment** — *Roseburia* lacks the siderophore systems and efflux pumps necessary to outcompete *Enterobacteriaceae* in an iron-enriched niche\n\nThe loss of *Roseburia* is **causal for CVD risk** via the SCFA-BP regulation pathway (Primitive 9: Oxygen State as Ecological Determinant) — the transition from butyrate-dominated to TMAO-dominated ecology directly impairs BP control.\n\n#### *Faecalibacterium prausnitzii*\n\n**Function**: **Butyrate producer** via 4-hydroxyphenylacetate pathway; produces **IL-10** (anti-inflammatory cytokine) that suppresses pro-inflammatory NF-kB signaling\n\n**Why lost**: Like *Roseburia*, lacks metal defense systems to survive metal-enriched, endotoxemic CVD environment. Cross-disease comparisons show *F. prausnitzii* depleted in ACVD, obesity, T2D, and liver cirrhosis — a signature of metabolic dysbiosis.\n\n#### *Lachnospiraceae* Family\n\n**Function**: SCFA producers (butyrate, propionate, acetate); support colonocyte health via short-chain carboxylic acids\n\n**Why lost**: Lack robust efflux pumps for metal tolerance; depleted in metal-enriched, pro-inflammatory environment\n\n#### *Allisonella* spp.\n\n**Function**: Protective against hypertension [[li-2023-gut-microbiome-hypertension-bidirectional-mr]]; mechanistic pathway involves SCFA production\n\n**Why lost**: Sensitive to metal enrichment and dysbiosis-driven ecological shifts\n\n#### *Clostridium* spp. (including *C. innocuum*)\n\n**Function**: Producers of **indole metabolites** — indole-3-propionic acid (IPA), indole-3-acetic acid (IAA), indole-3-lactic acid (ILA). These indoles activate the **aryl hydrocarbon receptor (AhR)** in intestinal epithelial cells and immune cells:\n- **IPA**: Anti-atherosclerotic; protective against vascular inflammation despite raising BP (net protective effect)\n- **IAA and ILA**: Promote **IL-10 and IL-22 production** → anti-inflammatory, barrier-protective immune response\n\n**Why lost**: Require stable anaerobic conditions; depleted by oxygen influx from dysbiotic changes and dysregulated intestinal motility in CVD\n\n| Taxon | Normal Function | Why Lost | CVD Consequence |\n|-------|----------------|----------|-----------------|\n| **[[roseburia]]** | Butyrate production; BP regulation via Olfr78/FFAR3 | Lacks metal defense systems | Hypertension via lost SCFA signaling |\n| **[[faecalibacterium-prausnitzii]]** | Butyrate + IL-10 production; anti-inflammatory | Metal intolerant | Systemic inflammation; mucosal permeability increase |\n| **[[lachnospiraceae]]** | SCFA production; colonocyte nutrition | Metal intolerant | Loss of gut barrier maintenance |\n| **[[allisonella]]** | Hypertension-protective SCFA pathway | Dysbiosis-sensitive | Uncontrolled hypertension |\n| **[[clostridium]]** | Indole metabolite production (IPA, IAA); AhR activation | Oxygen shift from dysbiosis | Loss of protective vascular anti-inflammatory signaling |"
+          "body": "The CVD microbiome is characterized by **severe depletion of SCFA-producing bacteria** [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]], [[chambers-2018-scfa-metabolic-cardiovascular-health]]:\n\n#### *Roseburia* spp.\n\n**Function**: Primary **butyrate producer** in the colon. Butyrate is the major colonocyte fuel and acts on **Olfr78/FFAR3 receptors** to regulate:\n- Renin production → systemic blood pressure control\n- Tight junction protein expression → gut barrier integrity\n- PYY and GLP-1 release → appetite and glucose homeostasis\n\n**Why lost**: Butyrate-producing *Roseburia* require:\n1. Anaerobic environment (readily available)\n2. Fiber substrate fermentation (adequate if diet is high-fiber, but impaired by CVD-associated dietary changes)\n3. **Robust metal defense systems to survive iron-rich, pro-inflammatory environment** — *Roseburia* lacks the siderophore systems and efflux pumps necessary to outcompete *Enterobacteriaceae* in an iron-enriched niche\n\nThe loss of *Roseburia* is **causal for CVD risk** via the SCFA-BP regulation pathway (Primitive 9: Oxygen State as Ecological Determinant) — the transition from butyrate-dominated to TMAO-dominated ecology directly impairs BP control.\n\n#### *Faecalibacterium prausnitzii*\n\n**Function**: **Butyrate producer** via 4-hydroxyphenylacetate pathway; produces **IL-10** (anti-inflammatory cytokine) that suppresses pro-inflammatory NF-kB signaling\n\n**Why lost**: Like *Roseburia*, lacks metal defense systems to survive metal-enriched, endotoxemic CVD environment. Cross-disease comparisons show *F. prausnitzii* depleted in ACVD, obesity, T2D, and liver cirrhosis — a signature of metabolic dysbiosis.\n\n#### *Lachnospiraceae* Family\n\n**Function**: SCFA producers (butyrate, propionate, acetate); support colonocyte health via short-chain carboxylic acids\n\n**Why lost**: Lack robust efflux pumps for metal tolerance; depleted in metal-enriched, pro-inflammatory environment\n\n#### *Allisonella* (genus-level study label)\n\n**Reported finding**: One Mendelian-randomization analysis reported a protective association between its genus-level *Allisonella* feature and hypertension [[li-2023-gut-microbiome-hypertension-bidirectional-mr]]. A separate analysis in this corpus reports the same historical label as a risk association, so direction is not consistent [[dai-2024-bidirectional-mr-gut-microbiota-cvd]].\n\n**Taxonomic and mechanistic limit**: These database features do not resolve to [[dialister-histaminiformans]] and do not establish SCFA production, metal sensitivity, depletion in cardiovascular disease, or a causal mechanism.\n\n#### *Clostridium* spp. (including *C. innocuum*)\n\n**Function**: Producers of **indole metabolites** — indole-3-propionic acid (IPA), indole-3-acetic acid (IAA), indole-3-lactic acid (ILA). These indoles activate the **aryl hydrocarbon receptor (AhR)** in intestinal epithelial cells and immune cells:\n- **IPA**: Anti-atherosclerotic; protective against vascular inflammation despite raising BP (net protective effect)\n- **IAA and ILA**: Promote **IL-10 and IL-22 production** → anti-inflammatory, barrier-protective immune response\n\n**Why lost**: Require stable anaerobic conditions; depleted by oxygen influx from dysbiotic changes and dysregulated intestinal motility in CVD\n\n| Taxon | Normal Function | Why Lost | CVD Consequence |\n|-------|----------------|----------|-----------------|\n| **[[roseburia]]** | Butyrate production; BP regulation via Olfr78/FFAR3 | Lacks metal defense systems | Hypertension via lost SCFA signaling |\n| **[[faecalibacterium-prausnitzii]]** | Butyrate + IL-10 production; anti-inflammatory | Metal intolerant | Systemic inflammation; mucosal permeability increase |\n| **[[lachnospiraceae]]** | SCFA production; colonocyte nutrition | Metal intolerant | Loss of gut barrier maintenance |\n| ***Allisonella* (study label)** | Inconsistent genus-level MR associations | Mechanism not established | Species-level interpretation is not supported |\n| **[[clostridium]]** | Indole metabolite production (IPA, IAA); AhR activation | Oxygen shift from dysbiosis | Loss of protective vascular anti-inflammatory signaling |"
         },
         {
           "heading": "Virulence Enzymes and Features",
@@ -119071,7 +118786,6 @@
         "roseburia",
         "faecalibacterium-prausnitzii",
         "lachnospiraceae",
-        "allisonella",
         "clostridium",
         "liu-2025-cardiometabolic-nickel",
         "jie-2017-gut-microbiome-acvd",
@@ -119090,6 +118804,8 @@
         "foroughi-2026-periodontal-biomarkers-cvd",
         "fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum",
         "li-2023-gut-microbiome-hypertension-bidirectional-mr",
+        "dai-2024-bidirectional-mr-gut-microbiota-cvd",
+        "dialister-histaminiformans",
         "stop-iron-supplementation-cardiovascular-disease",
         "luo-2022-gut-microbiota-metabolites-heart-failure-mr",
         "walker-2021-framingham-gut-microbiome-cardiometabolic",
@@ -120651,7 +120367,6 @@
         "actinomyces",
         "alistipes",
         "aspergillus",
-        "atopobium-parvulum",
         "bacteroides-fragilis",
         "bacteroides-vulgatus",
         "bilophila",
@@ -120756,7 +120471,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 116
+          "score": 114
         },
         {
           "id": "dysbiosis",
@@ -126605,7 +126320,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "allisonella",
         "bacteroidetes",
         "breast-cancer",
         "cardiovascular-disease",
@@ -126626,7 +126340,6 @@
         "beta-glucuronidase",
         "estrobolome",
         "fermentative-metabolism",
-        "histidine",
         "hypoxia",
         "leptin",
         "lipid-metabolism",
@@ -126655,11 +126368,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 49
+          "score": 47
         },
         {
           "id": "nickel",
-          "score": 48
+          "score": 46
         },
         {
           "id": "cadmium",
@@ -126670,12 +126383,12 @@
           "score": 38
         },
         {
-          "id": "dysbiosis",
+          "id": "colorectal-cancer",
           "score": 37
         },
         {
-          "id": "colorectal-cancer",
-          "score": 37
+          "id": "dysbiosis",
+          "score": 35
         },
         {
           "id": "copper",
@@ -132064,7 +131777,7 @@
               "role": "Positively associated with CRP levels (P=0.0001), intima-media thickness, and carotid artery stenosis in subclinical CVD"
             },
             {
-              "taxon": "[[atopobium-parvulum]]",
+              "taxon": "[[lancefieldella-parvula|Atopobium parvulum]]",
               "role": "Enriched in ACVD; positively correlated with triglyceride levels (r=0.39)"
             }
           ],
@@ -132253,7 +131966,7 @@
         {
           "heading": "Enriched Taxa",
           "level": 3,
-          "body": "| Taxon | Role | Evidence |\n|-------|------|----------|\n| [[enterobacteriaceae]] | TMA lyase gene enrichment; LPS biosynthesis; siderophore iron piracy; 47 MLGs selected for ACVD classifier (AUC 86%) | [[jie-2017-gut-microbiome-acvd]] |\n| [[escherichia-coli]] | Multiple MLGs with unique ACVD features; copper homeostasis systems | [[jie-2017-gut-microbiome-acvd]] |\n| [[streptococcus]] spp. | Oral streptococci translocated to gut; enriched in ACVD and cirrhosis; oral bacteria found in atherosclerotic plaques | [[jie-2017-gut-microbiome-acvd]], [[tonelli-2023-oral-microbiome-cvd-pathophysiology]] |\n| [[ruminococcus-gnavus]] | Enriched in ACVD; pro-inflammatory mucin degrader | [[jie-2017-gut-microbiome-acvd]] |\n| [[serratia-marcescens|serratia]] | Positively associated with CRP (P=0.0001), IMT, and carotid stenosis | [[kashtanova-2017-gut-microbiota-vascular-biomarkers-subclinical-cvd]] |\n| [[atopobium-parvulum]] | Correlated with triglyceride levels (r=0.39) | [[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]] |"
+          "body": "| Taxon | Role | Evidence |\n|-------|------|----------|\n| [[enterobacteriaceae]] | TMA lyase gene enrichment; LPS biosynthesis; siderophore iron piracy; 47 MLGs selected for ACVD classifier (AUC 86%) | [[jie-2017-gut-microbiome-acvd]] |\n| [[escherichia-coli]] | Multiple MLGs with unique ACVD features; copper homeostasis systems | [[jie-2017-gut-microbiome-acvd]] |\n| [[streptococcus]] spp. | Oral streptococci translocated to gut; enriched in ACVD and cirrhosis; oral bacteria found in atherosclerotic plaques | [[jie-2017-gut-microbiome-acvd]], [[tonelli-2023-oral-microbiome-cvd-pathophysiology]] |\n| [[ruminococcus-gnavus]] | Enriched in ACVD; pro-inflammatory mucin degrader | [[jie-2017-gut-microbiome-acvd]] |\n| [[serratia-marcescens|serratia]] | Positively associated with CRP (P=0.0001), IMT, and carotid stenosis | [[kashtanova-2017-gut-microbiota-vascular-biomarkers-subclinical-cvd]] |\n| [[lancefieldella-parvula|Atopobium parvulum]] | Correlated with triglyceride levels (r=0.39) | [[li-2021-network-gut-microbiome-biomarkers-carotid-atherosclerosis]] |"
         },
         {
           "heading": "Depleted Taxa",
@@ -132308,7 +132021,7 @@
         "ruminococcus-gnavus",
         "eggerthella",
         "serratia-marcescens",
-        "atopobium-parvulum",
+        "lancefieldella-parvula",
         "roseburia",
         "faecalibacterium-prausnitzii",
         "lachnospiraceae",
@@ -181188,16 +180901,10 @@
         "sourceCount": 0
       },
       {
-        "id": "akkermansia-mucinicola",
-        "label": "Akkermansia mucinicola",
-        "category": "microbe",
-        "sourceCount": 8
-      },
-      {
         "id": "akkermansia-muciniphila",
         "label": "Akkermansia muciniphila",
         "category": "microbe",
-        "sourceCount": 8
+        "sourceCount": 11
       },
       {
         "id": "alishewanella",
@@ -181210,12 +180917,6 @@
         "label": "Alistipes",
         "category": "microbe",
         "sourceCount": 13
-      },
-      {
-        "id": "allisonella",
-        "label": "Allisonella",
-        "category": "microbe",
-        "sourceCount": 3
       },
       {
         "id": "alloprevotella",
@@ -181288,18 +180989,6 @@
         "label": "Aspergillus",
         "category": "microbe",
         "sourceCount": 7
-      },
-      {
-        "id": "atopobium-parvulum",
-        "label": "Atopobium parvulum",
-        "category": "microbe",
-        "sourceCount": 8
-      },
-      {
-        "id": "atopobium-vaginae",
-        "label": "Atopobium vaginae",
-        "category": "microbe",
-        "sourceCount": 5
       },
       {
         "id": "atopobium",
@@ -181806,6 +181495,12 @@
         "sourceCount": 3
       },
       {
+        "id": "dialister-histaminiformans",
+        "label": "Dialister histaminiformans",
+        "category": "microbe",
+        "sourceCount": 4
+      },
+      {
         "id": "dialister",
         "label": "Dialister",
         "category": "microbe",
@@ -181936,6 +181631,12 @@
         "label": "Faecalibacterium",
         "category": "microbe",
         "sourceCount": 7
+      },
+      {
+        "id": "fannyhessea-vaginae",
+        "label": "Fannyhessea vaginae",
+        "category": "microbe",
+        "sourceCount": 5
       },
       {
         "id": "female-infertility",
@@ -182296,6 +181997,12 @@
         "label": "Lactococcus",
         "category": "microbe",
         "sourceCount": 6
+      },
+      {
+        "id": "lancefieldella-parvula",
+        "label": "Lancefieldella parvula",
+        "category": "microbe",
+        "sourceCount": 4
       },
       {
         "id": "lead",
@@ -186670,42 +186377,6 @@
         "target": "nutritional-immunity"
       },
       {
-        "source": "akkermansia-mucinicola",
-        "target": "akkermansia-muciniphila"
-      },
-      {
-        "source": "akkermansia-mucinicola",
-        "target": "short-chain-fatty-acids"
-      },
-      {
-        "source": "akkermansia-mucinicola",
-        "target": "faecalibacterium-prausnitzii"
-      },
-      {
-        "source": "akkermansia-mucinicola",
-        "target": "eubacterium-rectale"
-      },
-      {
-        "source": "akkermansia-mucinicola",
-        "target": "cadmium"
-      },
-      {
-        "source": "akkermansia-mucinicola",
-        "target": "lead"
-      },
-      {
-        "source": "akkermansia-mucinicola",
-        "target": "nickel"
-      },
-      {
-        "source": "akkermansia-mucinicola",
-        "target": "efflux-pumps"
-      },
-      {
-        "source": "akkermansia-mucinicola",
-        "target": "gut-metal-microbiome"
-      },
-      {
         "source": "akkermansia-muciniphila",
         "target": "gut-metal-microbiome"
       },
@@ -186800,38 +186471,6 @@
       {
         "source": "alistipes",
         "target": "inflammation"
-      },
-      {
-        "source": "allisonella",
-        "target": "fusobacterium-varium"
-      },
-      {
-        "source": "allisonella",
-        "target": "bacteroides-fragilis"
-      },
-      {
-        "source": "allisonella",
-        "target": "candida-albicans"
-      },
-      {
-        "source": "allisonella",
-        "target": "iron"
-      },
-      {
-        "source": "allisonella",
-        "target": "obesity"
-      },
-      {
-        "source": "allisonella",
-        "target": "insulin-resistance"
-      },
-      {
-        "source": "allisonella",
-        "target": "nutritional-immunity"
-      },
-      {
-        "source": "allisonella",
-        "target": "dysbiosis"
       },
       {
         "source": "alloprevotella",
@@ -187380,50 +187019,6 @@
       {
         "source": "aspergillus",
         "target": "staphylococcus-aureus"
-      },
-      {
-        "source": "atopobium-parvulum",
-        "target": "inflammatory-bowel-disease"
-      },
-      {
-        "source": "atopobium-parvulum",
-        "target": "colorectal-cancer"
-      },
-      {
-        "source": "atopobium-parvulum",
-        "target": "iron"
-      },
-      {
-        "source": "atopobium-parvulum",
-        "target": "fermentative-metabolism"
-      },
-      {
-        "source": "atopobium-parvulum",
-        "target": "fusobacterium-nucleatum"
-      },
-      {
-        "source": "atopobium-vaginae",
-        "target": "biofilm"
-      },
-      {
-        "source": "atopobium-vaginae",
-        "target": "nutritional-immunity"
-      },
-      {
-        "source": "atopobium-vaginae",
-        "target": "pelvic-inflammatory-disease"
-      },
-      {
-        "source": "atopobium-vaginae",
-        "target": "gut-vagina-axis"
-      },
-      {
-        "source": "atopobium-vaginae",
-        "target": "iron"
-      },
-      {
-        "source": "atopobium-vaginae",
-        "target": "bacterial-vaginosis"
       },
       {
         "source": "atopobium",
@@ -195599,7 +195194,7 @@
       },
       {
         "source": "olsenella",
-        "target": "atopobium-parvulum"
+        "target": "lancefieldella-parvula"
       },
       {
         "source": "olsenella",
@@ -196260,6 +195855,10 @@
       {
         "source": "pelvic-inflammatory-disease",
         "target": "gardnerella"
+      },
+      {
+        "source": "pelvic-inflammatory-disease",
+        "target": "fannyhessea-vaginae"
       },
       {
         "source": "pelvic-inflammatory-disease",
@@ -200179,6 +199778,10 @@
       },
       {
         "source": "bacterial-vaginosis",
+        "target": "fannyhessea-vaginae"
+      },
+      {
+        "source": "bacterial-vaginosis",
         "target": "nutritional-immunity"
       },
       {
@@ -203511,6 +203114,10 @@
       },
       {
         "source": "gut-vagina-axis",
+        "target": "fannyhessea-vaginae"
+      },
+      {
+        "source": "gut-vagina-axis",
         "target": "estrobolome"
       },
       {
@@ -203779,11 +203386,7 @@
       },
       {
         "source": "histidine",
-        "target": "allisonella"
-      },
-      {
-        "source": "histidine",
-        "target": "obesity"
+        "target": "dialister-histaminiformans"
       },
       {
         "source": "histidine",
@@ -210083,10 +209686,6 @@
       },
       {
         "source": "cardiovascular-disease",
-        "target": "allisonella"
-      },
-      {
-        "source": "cardiovascular-disease",
         "target": "hepcidin"
       },
       {
@@ -210108,6 +209707,10 @@
       {
         "source": "cardiovascular-disease",
         "target": "glutathione"
+      },
+      {
+        "source": "cardiovascular-disease",
+        "target": "dialister-histaminiformans"
       },
       {
         "source": "cardiovascular-disease",
@@ -211479,7 +211082,7 @@
       },
       {
         "source": "atherosclerosis-signature",
-        "target": "atopobium-parvulum"
+        "target": "lancefieldella-parvula"
       },
       {
         "source": "atherosclerosis-signature",
@@ -217135,10 +216738,6 @@
       },
       {
         "source": "broken-links-2026-04-16",
-        "target": "allisonella"
-      },
-      {
-        "source": "broken-links-2026-04-16",
         "target": "holdemanella"
       },
       {
@@ -217192,10 +216791,6 @@
       {
         "source": "broken-links-2026-04-16",
         "target": "anaerotruncus"
-      },
-      {
-        "source": "broken-links-2026-04-16",
-        "target": "atopobium-vaginae"
       },
       {
         "source": "broken-links-2026-04-16",
@@ -217391,10 +216986,6 @@
       },
       {
         "source": "gaps-and-improvements-2026-04-12",
-        "target": "akkermansia-mucinicola"
-      },
-      {
-        "source": "gaps-and-improvements-2026-04-12",
         "target": "nickel-allergy"
       },
       {
@@ -217528,10 +217119,6 @@
       {
         "source": "gaps-and-improvements-2026-04-14",
         "target": "gerd"
-      },
-      {
-        "source": "health-check-2026-04-14",
-        "target": "akkermansia-mucinicola"
       },
       {
         "source": "health-check-2026-04-14",
@@ -217699,19 +217286,11 @@
       },
       {
         "source": "lint-report-2026-04-12",
-        "target": "akkermansia-mucinicola"
-      },
-      {
-        "source": "lint-report-2026-04-12",
         "target": "akkermansia-muciniphila"
       },
       {
         "source": "lint-report-2026-04-13",
         "target": "lactobacillus"
-      },
-      {
-        "source": "lint-report-2026-04-13",
-        "target": "akkermansia-mucinicola"
       },
       {
         "source": "lint-report-2026-04-13",
@@ -217748,10 +217327,6 @@
       {
         "source": "lint-report-2026-04-13",
         "target": "celiac-disease"
-      },
-      {
-        "source": "lint-report-2026-04-14",
-        "target": "akkermansia-mucinicola"
       },
       {
         "source": "lint-report-2026-04-14",
@@ -218884,8 +218459,8 @@
             "role": "SCFA producers; depleted by metal-rich, pro-inflammatory environment"
           },
           {
-            "taxon": "[[allisonella]]",
-            "role": "Protective against hypertension; SCFA pathway; depleted in CVD"
+            "taxon": "Allisonella (genus-level study label)",
+            "role": "Reported as protective in one hypertension MR analysis; not species-resolved and not established as an SCFA producer or metal-sensitive taxon"
           },
           {
             "taxon": "[[clostridium]]",
@@ -221909,7 +221484,7 @@
             "role": "Positively associated with CRP levels (P=0.0001), intima-media thickness, and carotid artery stenosis in subclinical CVD"
           },
           {
-            "taxon": "[[atopobium-parvulum]]",
+            "taxon": "[[lancefieldella-parvula|Atopobium parvulum]]",
             "role": "Enriched in ACVD; positively correlated with triglyceride levels (r=0.39)"
           }
         ],
@@ -412269,6 +411844,49 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "copeland-2009-atopobium-parvulum-genome": {
+      "title": "Complete genome sequence of Atopobium parvulum type strain (IPP 1246T)",
+      "authors": [
+        "Alex Copeland",
+        "Johannes Sikorski",
+        "Alla Lapidus",
+        "Matt Nolan",
+        "Tijana Glavina Del Rio",
+        "Susan Lucas",
+        "Feng Chen",
+        "Hope Tice",
+        "Sam Pitluck",
+        "Jan-Fang Cheng",
+        "Rüdiger Pukall",
+        "Olga Chertkov",
+        "Thomas Brettin",
+        "Cliff Han",
+        "John C Detter",
+        "Cheryl Kuske",
+        "David Bruce",
+        "Lynne Goodwin",
+        "Natalia Ivanova",
+        "Konstantinos Mavromatis",
+        "Natalia Mikhailova",
+        "Amy Chen",
+        "Krishna Palaniappan",
+        "Patrick Chain",
+        "Manfred Rohde",
+        "Markus Göker",
+        "Jim Bristow",
+        "Jonathan A Eisen",
+        "Victor Markowitz",
+        "Philip Hugenholtz",
+        "Nikos C Kyrpides",
+        "Hans-Peter Klenk"
+      ],
+      "year": 2009,
+      "journal": "Standards in Genomic Sciences",
+      "doi": "10.4056/sigs.29547",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "coretti-2018-gut-microbiota-young-asd-children": {
       "title": "Coretti 2018 — Gut Microbiota Features in Young Children With Autism Spectrum Disorders",
       "authors": [
@@ -413214,6 +412832,21 @@
         4
       ],
       "why_keystone": "Establishes the epigenetic and HIF-1 pathway mechanisms by which nickel mimics hypoxic signaling, reframing nickel not as a simple toxicant but as an environmental driver of dysbiotic inflammation. WikiBiome depends on this foundational toxicology to explain why nickel-enriched environments select for anaerobic pathogenic taxa across multiple disease signatures (IBD, endometriosis, ASD)."
+    },
+    "derrien-2004-akkermansia-muciniphila-description": {
+      "title": "Akkermansia muciniphila gen. nov., sp. nov., a human intestinal mucin-degrading bacterium",
+      "authors": [
+        "Muriel Derrien",
+        "Elaine E Vaughan",
+        "Caroline M Plugge",
+        "Willem M de Vos"
+      ],
+      "year": 2004,
+      "journal": "International Journal of Systematic and Evolutionary Microbiology",
+      "doi": "10.1099/ijs.0.02873-0",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
     },
     "deshpande-2018-esophageal-microbiome-signatures-host-genetics": {
       "title": "Deshpande 2018 — Esophageal Microbiome Signatures and Host Genetics",
@@ -415609,6 +415242,20 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "garner-2002-allisonella-histaminiformans-description": {
+      "title": "Allisonella histaminiformans gen. nov., sp. nov.: a novel bacterium that produces histamine, utilizes histidine as its sole energy source, and could play a role in bovine and equine laminitis",
+      "authors": [
+        "Matthew R Garner",
+        "Joseph F Flint",
+        "James B Russell"
+      ],
+      "year": 2002,
+      "journal": "Systematic and Applied Microbiology",
+      "doi": "10.1078/07232020260517625",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "garuba-2024-heavy-metals-commercial-baby-foods": {
       "title": "Evaluation of Heavy Metals in Commercial Baby Foods",
       "authors": [
@@ -417346,6 +416993,21 @@
       "year": 2025,
       "journal": "Biochemistry",
       "doi": "10.1021/acs.biochem.4c00684",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "heng-2025-dialister-histaminiformans-reclassification": {
+      "title": "Description of Megasphaera jansseni sp. nov., a novel short- and medium-chain fatty acid-producing species isolated from faeces of a wild boar (Sus scrofa), and a taxonomic note on the family Veillonellaceae",
+      "authors": [
+        "Y-C Heng",
+        "J K Y Lee",
+        "S Silvaraju",
+        "S Kittelmann"
+      ],
+      "year": 2025,
+      "journal": "International Journal of Systematic and Evolutionary Microbiology",
+      "doi": "10.1099/ijsem.0.006937",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -423462,6 +423124,46 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "lpsn-akkermansia-muciniphila": {
+      "title": "LPSN — Akkermansia muciniphila",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "lpsn-dialister-histaminiformans": {
+      "title": "LPSN — Dialister histaminiformans",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "lpsn-fannyhessea-vaginae": {
+      "title": "LPSN — Fannyhessea vaginae",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "lpsn-lancefieldella-parvula": {
+      "title": "LPSN — Lancefieldella parvula",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "lrrk2-metabolomics-parkinsons-profiling": {
       "title": "Johansen 2018 -- Metabolomic Profiling in LRRK2-Related Parkinson's Disease",
       "authors": [
@@ -426166,6 +425868,46 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "ncbi-taxonomy-akkermansia-muciniphila": {
+      "title": "NCBI Taxonomy — Akkermansia muciniphila (NCBITaxon:239935)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-dialister-histaminiformans": {
+      "title": "NCBI Taxonomy — Dialister histaminiformans (NCBITaxon:209880)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-fannyhessea-vaginae": {
+      "title": "NCBI Taxonomy — Fannyhessea vaginae (NCBITaxon:82135)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-lancefieldella-parvula": {
+      "title": "NCBI Taxonomy — Lancefieldella parvula (NCBITaxon:1382)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "neggers-2007-dietary-nutrients-bacterial-vaginosis": {
       "title": "Dietary Intake of Selected Nutrients Affects Bacterial Vaginosis in Women",
       "authors": [
@@ -426669,6 +426411,27 @@
       "year": 2020,
       "journal": "Frontiers in Microbiology",
       "doi": "10.3389/fmicb.2019.03117",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "nouioui-2018-actinobacteria-taxonomic-classification": {
+      "title": "Genome-Based Taxonomic Classification of the Phylum Actinobacteria",
+      "authors": [
+        "Imen Nouioui",
+        "Lorena Carro",
+        "Marina García-López",
+        "Jan P Meier-Kolthoff",
+        "Tanja Woyke",
+        "Nikos C Kyrpides",
+        "Rüdiger Pukall",
+        "Hans-Peter Klenk",
+        "Michael Goodfellow",
+        "Markus Göker"
+      ],
+      "year": 2018,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2018.02007",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -429562,6 +429325,21 @@
       "year": 2011,
       "journal": "Reproductive Health",
       "doi": "10.1186/1742-4755-8-2",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "rodriguez-jovita-1999-atopobium-vaginae-description": {
+      "title": "Characterization of a novel Atopobium isolate from the human vagina: description of Atopobium vaginae sp. nov.",
+      "authors": [
+        "M Rodriguez Jovita",
+        "M D Collins",
+        "B Sjödén",
+        "E Falsen"
+      ],
+      "year": 1999,
+      "journal": "International Journal of Systematic Bacteriology",
+      "doi": "10.1099/00207713-49-4-1573",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -434714,6 +434492,26 @@
       "year": 2004,
       "journal": "JAMA",
       "doi": "not yet verified",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "verhelst-2004-atopobium-vaginae-bacterial-vaginosis": {
+      "title": "Cloning of 16S rRNA genes amplified from normal and disturbed vaginal microflora suggests a strong association between Atopobium vaginae, Gardnerella vaginalis and bacterial vaginosis",
+      "authors": [
+        "Rita Verhelst",
+        "Hans Verstraelen",
+        "Geert Claeys",
+        "Gerda Verschraegen",
+        "Joris Delanghe",
+        "Leen Van Simaey",
+        "Catharine De Ganck",
+        "Marleen Temmerman",
+        "Mario Vaneechoutte"
+      ],
+      "year": 2004,
+      "journal": "BMC Microbiology",
+      "doi": "10.1186/1471-2180-4-16",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

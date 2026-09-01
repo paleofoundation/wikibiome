@@ -20,7 +20,7 @@ platform: both
 condition: "preterm birth"
 karen_brain_primitives: [1, 5, 9]
 metals_discussed: []
-taxa_discussed: [lactobacillus-crispatus, lactobacillus-iners, lactobacillus-jensenii, lactobacillus-gasseri, gardnerella-vaginalis, atopobium-vaginae, prevotella, megasphaera, sneathia, streptococcus-agalactiae]
+taxa_discussed: [lactobacillus-crispatus, lactobacillus-iners, lactobacillus-jensenii, lactobacillus-gasseri, gardnerella-vaginalis, fannyhessea-vaginae, prevotella, megasphaera, sneathia, streptococcus-agalactiae]
 key_findings:
   - "DESI-MS on cervicovaginal swabs can simultaneously predict vaginal microbiota composition and host inflammatory status without sample preparation"
   - "88 metabolite features significantly discriminate Lactobacillus-dominated from Lactobacillus-depleted vaginal communities across two independent cohorts"
@@ -30,7 +30,7 @@ keystone: false
 
 ## Key Findings
 
-- **DESI-MS metabolic profiling of cervicovaginal swabs** enables rapid, preparation-free characterisation of the vaginal metabolome, simultaneously predicting both vaginal microbiome composition and host inflammatory/immune status ([[lactobacillus-crispatus]], [[lactobacillus-iners]], [[gardnerella-vaginalis]], [[atopobium-vaginae]]; prospective cohort, n=365 women, 1,028 swabs).
+- **DESI-MS metabolic profiling of cervicovaginal swabs** enables rapid, preparation-free characterisation of the vaginal metabolome, simultaneously predicting both vaginal microbiome composition and host inflammatory/immune status ([[lactobacillus-crispatus]], [[lactobacillus-iners]], [[gardnerella-vaginalis]], [[fannyhessea-vaginae|Atopobium vaginae]]; prospective cohort, n=365 women, 1,028 swabs).
 - **88 metabolite features** (out of 111 modelled) significantly discriminated between *Lactobacillus*-dominated (LDOM) and *Lactobacillus*-depleted (LDEPL) vaginal states in two independent pregnancy cohorts (VMET: AUC 94.1%, sensitivity 62.0, specificity 97.0; VMET2: AUC 96.0, sensitivity 54.5, specificity 95.7).
 - **Discriminatory metabolites** include thiomalic acid, docosanoic acid (C22:0), leucyl-serine, and lignoceric acid (C24:0) — all higher in LDEPL communities — and amino acids (leucine, aspartic acid, glutamate) lower in LDEPL states.
 - **In vivo bacterial culture analysis** confirmed that 23 of 27 discriminatory metabolites detected by DESI-MS in bacterial isolates matched community state type (CST) associations observed clinically, validating the biological basis of the metabolic signatures.
@@ -63,7 +63,7 @@ Across both cohorts, 88 metabolite features in negative ion mode significantly d
 - **Amino acids** (leucine, aspartic acid, glutamate, phenylalanine, arginine) — variable by CST
 - **Thiomalic acid** — elevated in LDEPL, one of the most robust discriminators
 
-These metabolic differences were validated in bacterial isolates cultured in vitro. Of 25 species representing major CST members, DESI-MS detected 27 metabolites, 23 of which matched the expected CST association direction. Notably, amino acid levels were higher in *Lactobacillus* species biomasses and fatty acid levels were higher in LDEPL-associated species (e.g., [[gardnerella-vaginalis]], [[atopobium-vaginae]], [[prevotella]]).
+These metabolic differences were validated in bacterial isolates cultured in vitro. Of 25 species representing major CST members, DESI-MS detected 27 metabolites, 23 of which matched the expected CST association direction. Notably, amino acid levels were higher in *Lactobacillus* species biomasses and fatty acid levels were higher in LDEPL-associated species (e.g., [[gardnerella-vaginalis]], [[fannyhessea-vaginae|Atopobium vaginae]], [[prevotella]]).
 
 ### Immune Marker Prediction
 
@@ -81,7 +81,7 @@ DESI-MS metabolic, metataxonomic, and inflammatory markers obtained at three ges
 
 ## Relevance to WikiBiome
 
-- **Vaginal microbiome composition**: Provides validated metabolic signatures distinguishing *Lactobacillus*-dominated from *Lactobacillus*-depleted vaginal communities — informing entity pages for [[lactobacillus-crispatus]], [[lactobacillus-iners]], [[gardnerella-vaginalis]], [[atopobium-vaginae]], and the [[bacterial-vaginosis]] concept page.
+- **Vaginal microbiome composition**: Provides validated metabolic signatures distinguishing *Lactobacillus*-dominated from *Lactobacillus*-depleted vaginal communities — informing entity pages for [[lactobacillus-crispatus]], [[lactobacillus-iners]], [[gardnerella-vaginalis]], [[fannyhessea-vaginae|Atopobium vaginae]], and the [[bacterial-vaginosis]] concept page.
 - **Metabolomics as ecological readout**: The fatty acid and amino acid patterns associated with different CSTs offer a metabolic lens on vaginal ecology — LDEPL states characterised by long-chain fatty acids and depletion of amino acids/dipeptides, reflecting distinct metabolic niches.
 - **Immune-microbiome interface**: The simultaneous detection of microbial and immune signatures (IL-1β, MBL, complement) from a single swab demonstrates the tight coupling between vaginal microbiome composition and mucosal immunity.
 - **Preterm birth as a microbiome-associated condition**: Adds to the evidence base for [[preterm-birth]] as a condition with a microbiome signature involving *Lactobacillus* depletion and innate immune activation.
@@ -94,7 +94,7 @@ DESI-MS metabolic, metataxonomic, and inflammatory markers obtained at three ges
 - **Microbiota instability as risk marker**: LDOM-to-LDEPL transitions as a trackable risk factor for preterm birth — relevant to longitudinal monitoring interventions (e.g., vaginal probiotics, [[lactobacillus-crispatus]] repletion).
 - **Primitive 1 (Metals as Selective Pressures)**: While metals are not the focus, the fatty acid and metabolite signatures reflect ecological selective pressures that shape vaginal community composition — analogous to metal-driven selection in gut ecosystems.
 - **Primitive 5 (Two-Sided Ecological Engineering)**: The study supports interventions targeting both pathogen suppression (reducing LDEPL-associated species) and restoration of protective *Lactobacillus*-dominated communities.
-- **Primitive 9 (Oxygen State as Ecological Determinant)**: CST IV (LDEPL) communities are dominated by anaerobes ([[gardnerella-vaginalis]], [[prevotella]], [[atopobium-vaginae]]), consistent with the framework that oxygen state determines community composition and pathogenic potential.
+- **Primitive 9 (Oxygen State as Ecological Determinant)**: CST IV (LDEPL) communities are dominated by anaerobes ([[gardnerella-vaginalis]], [[prevotella]], [[fannyhessea-vaginae|Atopobium vaginae]]), consistent with the framework that oxygen state determines community composition and pathogenic potential.
 
 ## Contradictions / Tensions
 

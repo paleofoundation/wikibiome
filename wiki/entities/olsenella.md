@@ -45,7 +45,7 @@ Olsenella species require iron and manganese for their fermentative metabolism. 
 
 ## Ecological Role
 
-Olsenella is a lactic acid fermenter that thrives in carbohydrate-rich, anaerobic environments. In the oral cavity, it contributes to dental caries through acid production. Its presence in the gut likely reflects oral-to-gut translocation during barrier compromise, a pattern shared with [[atopobium-parvulum]] and [[fusobacterium-nucleatum]].
+Olsenella is a lactic acid fermenter that thrives in carbohydrate-rich, anaerobic environments. In the oral cavity, it contributes to dental caries through acid production. Its presence in the gut likely reflects oral-to-gut translocation during barrier compromise, a pattern discussed for other oral taxa such as [[lancefieldella-parvula]] and [[fusobacterium-nucleatum]].
 
 ## Conditions Associated
 

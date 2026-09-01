@@ -18,7 +18,7 @@ platform: both
 condition: "female infertility"
 karen_brain_primitives: [1, 5]
 metals_discussed: []
-taxa_discussed: [chlamydia-trachomatis, lactobacillus-iners, lactobacillus-crispatus, lactobacillus-gasseri, lactobacillus-jensenii, lactobacillus-reuteri, lactobacillus-aviaries, bifidobacterium-breve, prevotella-bivia, atopobium-vaginae, veillonella, gardnerella, streptococcus, megasphaera]
+taxa_discussed: [chlamydia-trachomatis, lactobacillus-iners, lactobacillus-crispatus, lactobacillus-gasseri, lactobacillus-jensenii, lactobacillus-reuteri, lactobacillus-aviaries, bifidobacterium-breve, prevotella-bivia, fannyhessea-vaginae, veillonella, gardnerella, streptococcus, megasphaera]
 key_findings:
   - "Women with tubal infertility + C. trachomatis infection had L. iners-dominated vaginal microbiota rather than L. crispatus-dominated (Shannon index significantly lower, p<0.01 vs healthy, p<0.05 vs CT-negative infertile)"
   - "CT-infected infertile women showed elevated IFN-γ and IL-10 (p<0.05) but no TNF-α/IL-6 difference, indicating a local Th1/regulatory cytokine response rather than broad inflammation"

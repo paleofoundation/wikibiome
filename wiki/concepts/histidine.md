@@ -45,7 +45,7 @@ Certain gut bacteria express histidine decarboxylase, converting free histidine 
 Reaction: L-histidine → histamine + CO2
 
 Key histamine-producing bacteria include:
-- [[allisonella]]: Expresses HDC; bacterial histamine production bypasses host histamine regulation, linking microbial histamine to mast cell activation in [[obesity]] [[allisonella]].
+- [[dialister-histaminiformans]]: The organism historically named *Allisonella histaminiformans* produced histamine while using histidine as an energy source in isolates from a bovine-rumen enrichment system [[garner-2002-allisonella-histaminiformans-description]]. That experiment does not establish a human obesity or mast-cell-activation mechanism.
 - Morganella morganii, Lactobacillus reuteri, Enterobacteriaceae: Additional histamine producers in the gut.
 
 Bacterial histamine production is clinically significant because it occurs independently of host mast cell degranulation, creating a microbial histamine load that can drive:
@@ -56,7 +56,7 @@ Bacterial histamine production is clinically significant because it occurs indep
 
 ### Dietary Histamine Precursors
 
-Reducing dietary histamine precursors (aged meats, fermented foods) decreases the substrate pool that amplifies histamine-mediated inflammatory signaling during dysbiosis [[allisonella]].
+Dietary histamine and microbial histamine production are distinct evidence questions. The cited *D. histaminiformans* experiment does not establish that changing dietary histidine or histamine treats human dysbiosis [[garner-2002-allisonella-histaminiformans-description]].
 
 ## Histidine in Oxidative Stress Defense
 
@@ -88,7 +88,7 @@ Prenatal [[lead]] exposure differentially affects histidine biosynthesis pathway
 - [[calprotectin]] -- hexahistidine nickel-binding site
 - [[helicobacter-pylori]] -- Hpn (47% histidine) nickel storage
 - [[proteus-mirabilis]] -- HypB (39% histidine) nickel chaperone
-- [[allisonella]] -- histidine decarboxylase and bacterial histamine
+- [[dialister-histaminiformans]] -- histamine production demonstrated in a bovine-rumen isolate system
 - [[streptococcus-pneumoniae]] -- polyhistidine triad zinc-binding proteins
 - [[phenylalanine]] -- co-regulated aromatic amino acid
 - [[fenton-chemistry]] -- histidine chelation preventing free radical generation

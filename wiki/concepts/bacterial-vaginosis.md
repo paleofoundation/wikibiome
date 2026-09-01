@@ -38,7 +38,7 @@ The BV-associated consortium includes:
 | Organism | Role |
 |----------|------|
 | [[gardnerella]] | Primary biofilm architect; sialidase production degrades mucus barrier |
-| Atopobium vaginae | Biofilm co-resident; produces lactic acid isomer (D-lactate) that does not protect against BV |
+| [[fannyhessea-vaginae]] (reported historically as *Atopobium vaginae*) | Strongly associated with disturbed vaginal communities and BV in culture-independent studies |
 | Prevotella bivia | Amino acid fermenter; synergistic with Gardnerella |
 | Mobiluncus | Motile anaerobe; produces succinate |
 | Megasphaera | SCFA producer in vaginal context |

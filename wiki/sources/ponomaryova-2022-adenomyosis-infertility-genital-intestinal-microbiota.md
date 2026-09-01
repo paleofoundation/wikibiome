@@ -12,13 +12,13 @@ journal: "Medical Research Journal"
 doi: "10.5603/MRJ.a2022.0034"
 evidence_level: case-control
 sample_size: "n=94 women (64 adenomyosis + infertility, 30 healthy controls)"
-tags: [adenomyosis, infertility, vaginal-microbiota, intestinal-microbiota, lactobacilli-depletion, E-coli, Candida, staphylococci, peptostreptococcus, atopobium-vaginae, enterobacteria]
+tags: [adenomyosis, infertility, vaginal-microbiota, intestinal-microbiota, lactobacilli-depletion, E-coli, Candida, staphylococci, peptostreptococcus, fannyhessea-vaginae, enterobacteria]
 library_category: causal
 platform: both
 condition: "adenomyosis"
 karen_brain_primitives: [1, 5, 7]
 metals_discussed: [iron]
-taxa_discussed: [lactobacillus, escherichia-coli, klebsiella, enterobacter, staphylococcus-epidermidis, staphylococcus-aureus, enterococcus-faecalis, streptococcus-agalactiae, corynebacterium, candida, bifidobacterium, bacteroides, peptostreptococcus, fusobacterium, prevotella, veillonella, atopobium-vaginae, clostridium]
+taxa_discussed: [lactobacillus, escherichia-coli, klebsiella, enterobacter, staphylococcus-epidermidis, staphylococcus-aureus, enterococcus-faecalis, streptococcus-agalactiae, corynebacterium, candida, bifidobacterium, bacteroides, peptostreptococcus, fusobacterium, prevotella, veillonella, fannyhessea-vaginae, clostridium]
 key_findings:
   - "Bacterial vaginosis registered in 39% and vaginitis in 37.5% of women with adenomyosis + infertility; healthy controls showed none"
   - "Vaginal Lactobacillus remained at 100% prevalence but dropped from 6.2 log CFU/mL in healthy to 3.4 log in patients (>1000-fold decrease); E. coli (25%), Candida (25%), S. epidermidis (23.4%), S. aureus (12.5%), Peptostreptococcus (29.7%), Atopobium vaginae (28.1%) significantly enriched"
@@ -47,7 +47,7 @@ Case-control cultural microbiology study. 64 women with adenomyosis and infertil
 - **[[female-infertility]]** entity — link to adenomyosis as a microbiome-mediated subtype; infertility often reflects a gut-vagina axis imbalance, not a local gynecologic-only pathology.
 - **[[escherichia-coli]]** — document enrichment in adenomyosis vagina (25% vs 13.3%); reinforces the cross-condition pattern of E. coli in endometriosis, endometrial cancer, and female reproductive disorders.
 - **[[candida-albicans]]** — document Candida enrichment in both vaginal and intestinal compartments in adenomyosis.
-- **[[atopobium-vaginae]]** — document 4-fold enrichment (28.1% vs 6.7%); biofilm-former, alkaline-tolerant, BV-associated.
+- **[[fannyhessea-vaginae|Atopobium vaginae]]** — document the historical study label and reported prevalence (28.1% vs 6.7%); the culture-based method limits taxonomic resolution.
 - **[[fusobacterium]]** — double prevalence in adenomyosis vagina.
 - **[[gut-vagina-axis]]** concept page — this is a canonical example; same pathobiont associations colonize both compartments.
 

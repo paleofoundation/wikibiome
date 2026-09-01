@@ -32,7 +32,7 @@ shared_signature_metals: {}
 shared_signature_taxa:
   bacterial-vaginosis:
     - gardnerella-vaginalis
-    - atopobium-vaginae
+    - fannyhessea-vaginae
 ---
 
 ## Overview
@@ -41,7 +41,7 @@ Pelvic inflammatory disease (PID) is an ascending infection of the female upper 
 
 ## Microbiome Associations
 
-Culture-independent studies have revealed that PID-associated microbiomes are enriched in BV-associated organisms including [[gardnerella|gardnerella-vaginalis]], [[atopobium-vaginae]], *Prevotella bivia*, and *Sneathia* species. These organisms ascend from the vaginal tract when the protective Lactobacillus-dominant community is disrupted. The [[gut-vagina-axis]] may contribute to vaginal dysbiosis that precedes PID.
+Culture-independent studies have revealed that PID-associated microbiomes are enriched in BV-associated organisms including [[gardnerella|gardnerella-vaginalis]], [[fannyhessea-vaginae]] (reported in older literature as *Atopobium vaginae*), *Prevotella bivia*, and *Sneathia* species. These organisms ascend from the vaginal tract when the protective Lactobacillus-dominant community is disrupted. The [[gut-vagina-axis]] may contribute to vaginal dysbiosis that precedes PID.
 
 ## Metal Associations
 
@@ -62,7 +62,7 @@ A cross-sectional analysis of NHANES 2015–2018 data (n=2,345 women) found that
 
 ## Cross-References
 
-- [[atopobium-vaginae]] — BV biomarker ascending in PID
+- [[fannyhessea-vaginae]] — BV-associated species reported historically as *Atopobium vaginae*
 - [[bacterial-vaginosis]] — predisposing condition
 - [[gut-vagina-axis]] — cross-compartment microbial source
 - [[endometriosis]] — shared pelvic inflammatory ecology

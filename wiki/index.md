@@ -63,7 +63,7 @@ updated: 2026-04-19
 - [[actinomyces]]
 - [[akkermansia-muciniphila]]
 - [[alistipes]]
-- [[allisonella]]
+- [[dialister-histaminiformans]]
 - [[alloscardovia]]
 - [[alloprevotella]]
 - [[atopobium]]

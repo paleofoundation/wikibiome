@@ -5,13 +5,13 @@ type: entity
 subtype: microbe
 created: 2026-04-09
 updated: 2026-04-09
-sources: [bronzini-2023-feeding-gut-microbiome-ms, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, giambo-2021-toxic-metal-exposure-gut-microbiota-review, ghosh-2023-heavy-metals-gut-barrier-integrity]
-source_count: 8
+sources: [bronzini-2023-feeding-gut-microbiome-ms, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, giambo-2021-toxic-metal-exposure-gut-microbiota-review, ghosh-2023-heavy-metals-gut-barrier-integrity, derrien-2004-akkermansia-muciniphila-description, ncbi-taxonomy-akkermansia-muciniphila, lpsn-akkermansia-muciniphila]
+source_count: 11
 metal_dependencies: [indirect -- sensitive to metal perturbation]
 key_enzymes: [mucin-degrading glycosidases]
 tags: [commensal, next-generation-probiotic, mucin-degrading, gut-barrier, depleted-in-disease, metal-sensitive]
 platform: wikibiome
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-09-01
 seo_target: "Akkermansia muciniphila gut health heavy metal sensitivity"
 wikipedia_differentiation: "Quantitative depletion data across 8+ diseases with metal-specific sensitivity profiles for cadmium, lead, and nickel"
 conditions_enriched_in: []
@@ -22,6 +22,10 @@ pathogenic_potential: commensal
 # Akkermansia muciniphila
 
 A Gram-negative, obligate anaerobic, mucin-degrading bacterium that colonizes the intestinal mucus layer and has emerged as one of the most important next-generation probiotics. *A. muciniphila* is consistently depleted in disease states associated with metal dyshomeostasis and is notably sensitive to heavy metal exposure, positioning it as both a biomarker and mediator of the [[gut-metal-microbiome]] axis.
+
+## Taxonomic Identity
+
+The primary description, NCBI Taxonomy, and LPSN all identify *Akkermansia muciniphila* as the recognized species, with type strain Muc (ATCC BAA-835; CIP 107961; DSM 22959) [[derrien-2004-akkermansia-muciniphila-description]] [[ncbi-taxonomy-akkermansia-muciniphila]] [[lpsn-akkermansia-muciniphila]]. The former WikiBiome record “Akkermansia mucinicola” was not a supported second species: its declared sources referred to *A. muciniphila* or to the genus *Akkermansia*. That invalid record is retired rather than treated as an independent taxon.
 
 ## Role in Gut Barrier Integrity
 

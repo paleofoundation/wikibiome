@@ -22,7 +22,7 @@ karen_brain_primitives: [3]
 - Comprehensive bidirectional MR across 5 CVD outcomes (AF, CAD, MI, IS, hypertension) with 121 bacterial genera identified multiple protective and detrimental taxa
 - **Atrial fibrillation**: *Howardella* (OR 0.955), *Intestinibacter* (OR 0.908), *Lachnospiraceae NK4A136* (OR 0.904), and *Turicibacter* (OR 0.904) were protective; *Fusicatenibacter* (OR 1.097), *Lachnospiraceae UCG008* (OR 1.062), *Paraprevotella* (OR 1.062), *Ruminococcaceae UCG014* (OR 1.106), and *Streptococcus* (OR 1.103) increased AF risk
 - **CAD**: *Coprococcus1* (OR 0.867), *Intestinibacter* (OR 0.919), *Marvinbryantia* (OR 0.901), *Parasutterella* (OR 0.936), *Ruminiclostridium6* (OR 0.883) were protective; *Eisenbergiella* (OR 1.075), *Odoribacter* (OR 1.206), *Oxalobacter* (OR 1.059) were risk factors
-- **Hypertension**: *Allisonella* (OR 1.176), *Bifidobacterium* (OR 1.123), *Sutterella* (OR 1.449) increased risk
+- **Hypertension**: *Allisonella* (OR 1.176), *Bifidobacterium* (OR 1.123), *Sutterella* (OR 1.449) increased risk. *Allisonella* is the study's genus-level database label and does not identify [[dialister-histaminiformans]] at species level.
 - **Reverse MR**: AF causally altered *Dorea* and *Streptococcus*; IS altered *Alistipes*, *Eubacterium brachy group*, and *Rikenellaceae RC9*; confirming bidirectional causality for some CVD-microbiome relationships
 - This is one of the largest MR analyses of gut microbiota-CVD relationships (n=2,207,591 pooled sample)
 

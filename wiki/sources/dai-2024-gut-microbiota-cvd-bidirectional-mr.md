@@ -35,7 +35,7 @@ Large-scale bidirectional MR study using genetic instruments from 14,306 individ
 - Multiple genera associated including *Ruminococcus torques group*, *Sellimonas*, *Odoribacter*
 
 ### Hypertension
-- *Allisonella* (OR=1.175), *Bifidobacterium* (OR=1.121), *Subdorea* (OR=1.444) as risk factors
+- *Allisonella* (OR=1.175), *Bifidobacterium* (OR=1.121), *Subdorea* (OR=1.444) as risk factors. *Allisonella* is retained as the study's genus-level database label; the result is not species-resolved to [[dialister-histaminiformans]].
 
 ### Reverse MR (CVD to Microbiome)
 - AF causally affected *Dorea* and *Streptococcus* abundance

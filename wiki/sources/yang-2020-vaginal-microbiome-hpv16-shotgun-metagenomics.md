@@ -19,7 +19,7 @@ platform: both
 condition: "HPV16 infection / cervical cancer"
 karen_brain_primitives: [1, 5, 6, 9]
 metals_discussed: []
-taxa_discussed: [gardnerella-vaginalis, atopobium-vaginae, peptostreptococcus-anaerobius, candida-albicans, lactobacillus, prevotella, fusobacterium-nucleatum, megasphaera, mobiluncus-curtisii, veillonella, methanobrevibacter-oralis]
+taxa_discussed: [gardnerella-vaginalis, fannyhessea-vaginae, peptostreptococcus-anaerobius, candida-albicans, lactobacillus, prevotella, fusobacterium-nucleatum, megasphaera, mobiluncus-curtisii, veillonella, methanobrevibacter-oralis]
 key_findings:
   - "HPV16+ women show decreased Firmicutes (Lactobacillus) and increased Actinobacteria, Fusobacteria, and viruses compared to controls"
   - "Random forest classifiers using 12 genes, 17 genera, or 7 species achieved AUC of 0.861, 0.819, and 0.918 respectively for predicting HPV16 status"

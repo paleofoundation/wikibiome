@@ -45,7 +45,7 @@ Bidirectional two-sample MR study using 18,340 MiBioGen consortium samples exami
 ### Gut Microbiome to Hypertension (Forward MR)
 - 13 bacterial taxa causally associated with hypertension at 2 classification levels
 - **Risk factors**: *Alcaligenaceae*, *Clostridialesvadin BB60*, *Clostridiuminnocuum*, *Eubacteriumcoprostanoligenes*, *Eubacteriumfissicatena*, *LachnospiraceaeFCS020*, unknowngenus (id.2041)
-- **Protective factors**: *Allisonella*, *Parabacteroides*, *Phascolarctobacterium*, *Senegalimassilia*, unknowngenus (id.1000000073)
+- **Protective factors**: *Allisonella*, *Parabacteroides*, *Phascolarctobacterium*, *Senegalimassilia*, unknowngenus (id.1000000073). *Allisonella* is the genus-level label used in the underlying microbiome GWAS and is not a species-level identification of [[dialister-histaminiformans]].
 - *Senegalimassilia* was most statistically significant protective factor (P<0.01)
 
 ### Hypertension to Gut Microbiome (Reverse MR)
@@ -62,7 +62,7 @@ Bidirectional two-sample MR study using 18,340 MiBioGen consortium samples exami
 
 1. **Bidirectional causality** - Establishes that [[lead]] and [[cadmium]]-induced hypertension could itself further worsen [[dysbiosis]], creating a self-reinforcing cycle
 2. **SCFA pathway to BP** - Metal depletion of butyrate-producing taxa provides a causal mechanism for metal-induced hypertension
-3. **Protective taxa depletion** - *Allisonella*, *Phascolarctobacterium*, and *Senegalimassilia* as protective against hypertension; their sensitivity to metals would increase CVD risk
+3. **Protective taxa label** - The analysis reports a protective association for the genus-level label *Allisonella*, alongside *Phascolarctobacterium* and *Senegalimassilia*. It does not establish metal sensitivity or resolve the *Allisonella* signal to a current species.
 4. **Reverse causality consideration** - Important for [[gut-metal-microbiome]] studies to consider that CVD itself alters the microbiome independent of metal exposure
 
 ## Connections
