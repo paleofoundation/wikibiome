@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-01T10:20:16.964Z",
+  "_generated": "2026-09-01T11:02:30.389Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1906,
-    "entities": 331,
+    "sources": 1910,
+    "entities": 330,
     "concepts": 264,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 866
+    "totalPages": 865
   },
   "pages": [
     {
@@ -2028,16 +2028,16 @@
           "score": 6
         },
         {
-          "id": "barnesella",
-          "score": 6
-        },
-        {
           "id": "gardnerella",
           "score": 6
         },
         {
           "id": "megasphaera",
           "score": 6
+        },
+        {
+          "id": "barnesiella",
+          "score": 4
         }
       ]
     },
@@ -2589,10 +2589,6 @@
           "score": 8
         },
         {
-          "id": "barnesella",
-          "score": 8
-        },
-        {
           "id": "megasphaera",
           "score": 8
         },
@@ -2602,6 +2598,10 @@
         },
         {
           "id": "alishewanella",
+          "score": 6
+        },
+        {
+          "id": "anaerococcus",
           "score": 6
         }
       ]
@@ -3497,7 +3497,7 @@
           "score": 6
         },
         {
-          "id": "barnesella",
+          "id": "porphyromonas-bennonis",
           "score": 5
         }
       ]
@@ -5043,12 +5043,12 @@
           "score": 17
         },
         {
-          "id": "barnesella",
+          "id": "lactobacillus-crispatus",
           "score": 16
         },
         {
-          "id": "lactobacillus-crispatus",
-          "score": 16
+          "id": "barnesiella",
+          "score": 14
         },
         {
           "id": "lactobacillus-gasseri",
@@ -5059,7 +5059,7 @@
           "score": 13
         },
         {
-          "id": "barnesiella",
+          "id": "corynebacterium",
           "score": 12
         }
       ]
@@ -7348,7 +7348,6 @@
         "bacteroidales",
         "bacteroides-caccae",
         "bacteroides",
-        "barnesella",
         "barnesiella",
         "erysipelotrichaceae",
         "firmicutes",
@@ -7480,75 +7479,100 @@
       ]
     },
     {
-      "id": "barnesella",
-      "title": "Barnesella",
+      "id": "barnesiella",
+      "title": "Barnesiella",
       "type": "entity",
       "category": "microbe",
       "tags": [
+        "Bacteroidota",
+        "Barnesiellaceae",
         "anaerobe",
-        "bacteroidetes",
+        "gut-microbiome",
         "endometriosis",
-        "vaginal-microbiome"
+        "source-label-reconciliation"
       ],
       "sources": [
+        "ncbi-taxonomy-barnesiella",
+        "lpsn-barnesiella",
+        "sakamoto-2007-barnesiella-viscericola-description",
         "ser-2023-current-updates-microbiome-endometriosis-review",
         "miyashira-2022-microbiome-and-endometriosis",
-        "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis"
+        "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis",
+        "colonetti-2023-gut-vaginal-microbiota-endometriosis-systematic-review"
       ],
-      "created": "2026-04-21T00:00:00.000Z",
-      "updated": "2026-04-21T00:00:00.000Z",
+      "created": "2026-04-22T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
       "frontmatter": {
-        "title": "Barnesella",
+        "title": "Barnesiella",
         "type": "entity",
         "subtype": "microbe",
-        "created": "2026-04-21T00:00:00.000Z",
-        "updated": "2026-04-21T00:00:00.000Z",
-        "last_substantive_update": "2026-04-21T00:00:00.000Z",
+        "created": "2026-04-22T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
         "sources": [
+          "ncbi-taxonomy-barnesiella",
+          "lpsn-barnesiella",
+          "sakamoto-2007-barnesiella-viscericola-description",
           "ser-2023-current-updates-microbiome-endometriosis-review",
           "miyashira-2022-microbiome-and-endometriosis",
-          "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis"
+          "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis",
+          "colonetti-2023-gut-vaginal-microbiota-endometriosis-systematic-review"
         ],
-        "source_count": 3,
+        "source_count": 7,
         "tags": [
+          "Bacteroidota",
+          "Barnesiellaceae",
           "anaerobe",
-          "bacteroidetes",
+          "gut-microbiome",
           "endometriosis",
-          "vaginal-microbiome"
+          "source-label-reconciliation"
         ],
-        "seo_target": "Barnesella gut microbiome endometriosis",
-        "wikipedia_differentiation": "Endometriosis-associated vaginal/cervical microbiome shifts — minimal Wikipedia coverage",
+        "seo_target": "Barnesiella taxonomy Barnesella Endobiota source label",
+        "wikipedia_differentiation": "Current genus identity reconciled with the unsupported Barnesella spelling printed in the Endobiota study",
         "gram_stain": "negative",
         "oxygen_requirement": "obligate anaerobe",
         "metal_dependencies": [],
         "key_enzymes": [],
-        "pathogenic_potential": "commensal",
+        "pathogenic_potential": "not established",
         "conditions_enriched_in": [],
         "conditions_depleted_in": [],
-        "platform": "wikibiome"
+        "platform": "wikibiome",
+        "ncbi_taxonomy_id": 397864,
+        "source_label_aliases": [
+          "Barnesella (Ata et al. 2019 printed label; not a recognized bacterial synonym)"
+        ]
       },
-      "overview": "Barnesella is a genus of obligate anaerobic, Gram-negative bacteria in the phylum Bacteroidetes. It is a relatively understudied gut commensal that appears in the WikiBiome vault primarily in the context of endometriosis microbiome studies, where it is part of the complex microbial community shifts observed across vaginal, cervical, and fecal samples.",
+      "overview": "*Barnesiella* is a validly published genus of Gram-negative, obligately anaerobic bacteria in the phylum Bacteroidota and family Barnesiellaceae. NCBI Taxonomy assigns the genus NCBITaxon:397864, and LPSN lists *Barnesiella* Sakamoto et al. 2007 as the correct name [[ncbi-taxonomy-barnesiella]] [[lpsn-barnesiella]]. Sakamoto and colleagues established the genus with *Barnesiella viscericola*, isolated from chicken caecum, as its type species [[sakamoto-2007-barnesiella-viscericola-description]].",
       "sections": [
         {
-          "heading": "Endometriosis Associations",
+          "heading": "Endobiota Source-Label Caveat",
           "level": 2,
-          "body": "- Identified in the vaginal/cervical microbiome of endometriosis patients as part of the altered community composition [[ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis]] [[ser-2023-current-updates-microbiome-endometriosis-review]] [[miyashira-2022-microbiome-and-endometriosis]]."
+          "body": "Ata and colleagues reported that a genus printed as “Barnesella” was significantly decreased in stool from 14 women with stage 3/4 endometriosis compared with 14 controls. The study used V3–V4 16S rRNA sequencing and RDP classifier 2.12, and the printed label appears in its results text and table [[ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis]]. Colonetti and colleagues later summarized the Ata result under the recognized spelling *Barnesiella* [[colonetti-2023-gut-vaginal-microbiota-endometriosis-systematic-review]].\n\nWikiBiome therefore treats “Barnesella” as a source-transcription or source-label alias for routing and traceability, not as a valid bacterial name or nomenclatural synonym. The original spelling remains visible when the 2019 study or reviews that repeat its wording are described [[miyashira-2022-microbiome-and-endometriosis]] [[ser-2023-current-updates-microbiome-endometriosis-review]]. The later spelling normalization does not by itself prove that the underlying sequence assignment was definitively resolved to *Barnesiella*; that would require reanalysis of the study data against an identified current reference taxonomy."
+        },
+        {
+          "heading": "Evidence Boundary",
+          "level": 2,
+          "body": "The cited Endobiota observation is genus-level, stool-specific, and derived from a small observational cohort. It does not establish causality, a species-level assignment, a vaginal or cervical *Barnesiella* signal, or a functional colonization-resistance mechanism."
         },
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[endometriosis]] — vaginal/cervical microbiome context\n- [[bacteroidetes]] — phylum-level context"
+          "body": "- [[bacteroidetes]] — parent phylum\n- [[endometriosis]] — context for the source-label observation"
         }
       ],
       "wikilinks": [
+        "ncbi-taxonomy-barnesiella",
+        "lpsn-barnesiella",
+        "sakamoto-2007-barnesiella-viscericola-description",
         "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis",
-        "ser-2023-current-updates-microbiome-endometriosis-review",
+        "colonetti-2023-gut-vaginal-microbiota-endometriosis-systematic-review",
         "miyashira-2022-microbiome-and-endometriosis",
-        "endometriosis",
-        "bacteroidetes"
+        "ser-2023-current-updates-microbiome-endometriosis-review",
+        "bacteroidetes",
+        "endometriosis"
       ],
       "sourceDir": "entities",
-      "sourceCount": 3,
+      "sourceCount": 7,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
@@ -7556,23 +7580,15 @@
       "related": [
         {
           "id": "atopobium",
-          "score": 16
+          "score": 14
         },
         {
           "id": "megasphaera",
-          "score": 16
-        },
-        {
-          "id": "barnesiella",
           "score": 14
         },
         {
           "id": "sneathia",
-          "score": 13
-        },
-        {
-          "id": "porphyromonas-bennonis",
-          "score": 9
+          "score": 11
         },
         {
           "id": "shigella",
@@ -7584,116 +7600,15 @@
         },
         {
           "id": "aerococcus",
-          "score": 8
-        }
-      ]
-    },
-    {
-      "id": "barnesiella",
-      "title": "Barnesiella",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "bacteroidetes",
-        "genus",
-        "commensal",
-        "endometriosis",
-        "colonization-resistance"
-      ],
-      "sources": [
-        "ser-2023-current-updates-microbiome-endometriosis-review",
-        "miyashira-2022-microbiome-and-endometriosis",
-        "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis"
-      ],
-      "created": "2026-04-22T00:00:00.000Z",
-      "updated": "2026-04-22T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Barnesiella",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-22T00:00:00.000Z",
-        "updated": "2026-04-22T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "ser-2023-current-updates-microbiome-endometriosis-review",
-          "miyashira-2022-microbiome-and-endometriosis",
-          "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis"
-        ],
-        "source_count": 3,
-        "tags": [
-          "bacteroidetes",
-          "genus",
-          "commensal",
-          "endometriosis",
-          "colonization-resistance"
-        ],
-        "seo_target": "barnesiella gut bacteria colonization resistance",
-        "wikipedia_differentiation": "Depletion patterns in endometriosis and role in colonization resistance against vancomycin-resistant Enterococcus, with cross-condition signature context",
-        "gram_stain": "negative",
-        "oxygen_requirement": "anaerobe",
-        "metal_dependencies": [],
-        "key_enzymes": [],
-        "pathogenic_potential": "commensal",
-        "conditions_enriched_in": [],
-        "conditions_depleted_in": [
-          "endometriosis"
-        ],
-        "platform": "wikibiome"
-      },
-      "overview": "Barnesiella is a genus of Gram-negative, obligate anaerobic bacteria within the phylum Bacteroidetes. It is a commensal member of the healthy human gut microbiota, recognized for its role in colonization resistance — the ability of the resident microbiome to prevent establishment of pathogenic or antibiotic-resistant organisms.\n\nBarnesiella is consistently depleted in endometriosis-associated gut microbiome profiles. Studies examining the gut microbiota of women with endometriosis have found reduced Barnesiella abundance compared to healthy controls ([[ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis]], cross-sectional; [[miyashira-2022-microbiome-and-endometriosis]], review). This depletion pattern is part of a broader loss of commensal Bacteroidetes observed in the condition ([[ser-2023-current-updates-microbiome-endometriosis-review]], narrative review). The functional consequence of Barnesiella loss may include reduced colonization resistance, allowing opportunistic taxa to expand in the dysbiotic gut environment characteristic of endometriosis.",
-      "sections": [
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[bacteroidetes]] — parent phylum\n- [[endometriosis]] — primary condition of depletion\n- [[endometriosis-signature]] — signature page where Barnesiella depletion is documented"
-        }
-      ],
-      "wikilinks": [
-        "ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis",
-        "miyashira-2022-microbiome-and-endometriosis",
-        "ser-2023-current-updates-microbiome-endometriosis-review",
-        "bacteroidetes",
-        "endometriosis",
-        "endometriosis-signature"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 3,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [],
-      "related": [
-        {
-          "id": "barnesella",
-          "score": 14
+          "score": 6
         },
         {
-          "id": "atopobium",
-          "score": 12
-        },
-        {
-          "id": "megasphaera",
-          "score": 12
-        },
-        {
-          "id": "shigella",
-          "score": 9
-        },
-        {
-          "id": "sneathia",
-          "score": 9
-        },
-        {
-          "id": "ureaplasma",
-          "score": 9
+          "id": "alloscardovia",
+          "score": 6
         },
         {
           "id": "corynebacterium",
-          "score": 8
-        },
-        {
-          "id": "flavobacterium",
-          "score": 8
+          "score": 6
         }
       ]
     },
@@ -22615,7 +22530,7 @@
           "score": 3
         },
         {
-          "id": "barnesella",
+          "id": "barnesiella",
           "score": 3
         }
       ]
@@ -23940,7 +23855,6 @@
         "atopobium",
         "bacteroides-fragilis",
         "bacteroidetes",
-        "barnesella",
         "barnesiella",
         "bifidobacteriales",
         "blautia",
@@ -27896,10 +27810,6 @@
           "score": 8
         },
         {
-          "id": "barnesella",
-          "score": 8
-        },
-        {
           "id": "megasphaera",
           "score": 8
         },
@@ -27910,6 +27820,10 @@
         {
           "id": "anaerococcus",
           "score": 7
+        },
+        {
+          "id": "barnesiella",
+          "score": 6
         },
         {
           "id": "porphyromonas-bennonis",
@@ -28262,15 +28176,11 @@
           "score": 9
         },
         {
-          "id": "barnesella",
-          "score": 8
+          "id": "atopobium",
+          "score": 6
         },
         {
           "id": "barnesiella",
-          "score": 8
-        },
-        {
-          "id": "atopobium",
           "score": 6
         },
         {
@@ -28279,6 +28189,10 @@
         },
         {
           "id": "gardnerella-vaginalis",
+          "score": 6
+        },
+        {
+          "id": "megasphaera",
           "score": 6
         }
       ]
@@ -30873,7 +30787,7 @@
           "score": 7
         },
         {
-          "id": "barnesella",
+          "id": "barnesiella",
           "score": 6
         }
       ]
@@ -42393,11 +42307,11 @@
       ],
       "related": [
         {
-          "id": "barnesella",
-          "score": 16
+          "id": "aerococcus",
+          "score": 14
         },
         {
-          "id": "aerococcus",
+          "id": "barnesiella",
           "score": 14
         },
         {
@@ -42409,10 +42323,6 @@
           "score": 14
         },
         {
-          "id": "barnesiella",
-          "score": 12
-        },
-        {
           "id": "megamonas",
           "score": 12
         },
@@ -42422,6 +42332,10 @@
         },
         {
           "id": "chlamydia-trachomatis",
+          "score": 11
+        },
+        {
+          "id": "parabacteroides",
           "score": 11
         }
       ]
@@ -52880,10 +52794,6 @@
           "score": 10
         },
         {
-          "id": "barnesella",
-          "score": 9
-        },
-        {
           "id": "aerococcus",
           "score": 8
         },
@@ -52897,6 +52807,10 @@
         },
         {
           "id": "fusobacterium-nucleatum",
+          "score": 7
+        },
+        {
+          "id": "megasphaera",
           "score": 7
         }
       ]
@@ -56641,10 +56555,6 @@
           "score": 9
         },
         {
-          "id": "barnesella",
-          "score": 7
-        },
-        {
           "id": "lachnobacterium",
           "score": 7
         },
@@ -56662,6 +56572,10 @@
         },
         {
           "id": "oscillospiraceae",
+          "score": 6
+        },
+        {
+          "id": "prevotella",
           "score": 6
         }
       ]
@@ -62066,10 +61980,6 @@
           "score": 17
         },
         {
-          "id": "barnesella",
-          "score": 13
-        },
-        {
           "id": "corynebacterium",
           "score": 12
         },
@@ -62083,6 +61993,10 @@
         },
         {
           "id": "barnesiella",
+          "score": 11
+        },
+        {
+          "id": "flavobacterium",
           "score": 9
         }
       ]
@@ -65635,7 +65549,7 @@
           "score": 4
         },
         {
-          "id": "barnesella",
+          "id": "barnesiella",
           "score": 4
         }
       ]
@@ -122009,7 +121923,6 @@
         "atopobium",
         "bacteroides-fragilis",
         "bacteroidetes",
-        "barnesella",
         "barnesiella",
         "bifidobacteriales",
         "blautia",
@@ -136559,14 +136472,13 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "barnesiella",
         "endometriosis",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
           "id": "endometriosis",
-          "score": 41
+          "score": 39
         },
         {
           "id": "stop-standard-probiotics-endometriosis",
@@ -181070,16 +180982,10 @@
         "sourceCount": 6
       },
       {
-        "id": "barnesella",
-        "label": "Barnesella",
-        "category": "microbe",
-        "sourceCount": 3
-      },
-      {
         "id": "barnesiella",
         "label": "Barnesiella",
         "category": "microbe",
-        "sourceCount": 3
+        "sourceCount": 7
       },
       {
         "id": "barretts-esophagus",
@@ -187646,24 +187552,12 @@
         "target": "dysbiosis"
       },
       {
-        "source": "barnesella",
-        "target": "endometriosis"
-      },
-      {
-        "source": "barnesella",
-        "target": "bacteroidetes"
-      },
-      {
         "source": "barnesiella",
         "target": "bacteroidetes"
       },
       {
         "source": "barnesiella",
         "target": "endometriosis"
-      },
-      {
-        "source": "barnesiella",
-        "target": "endometriosis-signature"
       },
       {
         "source": "barretts-esophagus",
@@ -411785,6 +411679,26 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "colonetti-2023-gut-vaginal-microbiota-endometriosis-systematic-review": {
+      "title": "Gut and Vaginal Microbiota in the Endometriosis: Systematic Review and Meta-Analysis",
+      "authors": [
+        "Tamy Colonetti",
+        "Maria Carolina Saggioratto",
+        "Antonio Jose Grande",
+        "Laura Colonetti",
+        "Joao Carlos Denoni Junior",
+        "Luciane Bisognin Ceretta",
+        "Leonardo Roever",
+        "Fabio Rosa Silva",
+        "Maria Ines da Rosa"
+      ],
+      "year": 2023,
+      "journal": "BioMed Research International",
+      "doi": "10.1155/2023/2675966",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "comer-2020-inflamed-brain-schizophrenia-neuroinflammation": {
       "title": "The Inflamed Brain in Schizophrenia: The Convergence of Genetic and Environmental Risk Factors That Lead to Uncontrolled Neuroinflammation",
       "authors": [
@@ -423135,6 +423049,16 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "lpsn-barnesiella": {
+      "title": "LPSN — Barnesiella",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "lpsn-dialister-histaminiformans": {
       "title": "LPSN — Dialister histaminiformans",
       "authors": [],
@@ -425871,6 +425795,16 @@
     },
     "ncbi-taxonomy-akkermansia-muciniphila": {
       "title": "NCBI Taxonomy — Akkermansia muciniphila (NCBITaxon:239935)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-barnesiella": {
+      "title": "NCBI Taxonomy — Barnesiella (NCBITaxon:397864)",
       "authors": [],
       "year": "",
       "journal": "NCBI Taxonomy",
@@ -429962,6 +429896,20 @@
       "year": 2024,
       "journal": "Frontiers in Immunology",
       "doi": "10.3389/fimmu.2024.1341843",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "sakamoto-2007-barnesiella-viscericola-description": {
+      "title": "Barnesiella viscericola gen. nov., sp. nov., a novel member of the family Porphyromonadaceae isolated from chicken caecum",
+      "authors": [
+        "Mitsuo Sakamoto",
+        "Pham Thi Ngoc Lan",
+        "Yoshimi Benno"
+      ],
+      "year": 2007,
+      "journal": "International Journal of Systematic and Evolutionary Microbiology",
+      "doi": "10.1099/ijs.0.64709-0",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

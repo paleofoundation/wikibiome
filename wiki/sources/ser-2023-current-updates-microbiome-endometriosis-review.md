@@ -63,7 +63,7 @@ The review synthesizes ~18 clinical studies (Table 3) examining microbiome chang
 Multiple studies reported gut dysbiosis in endometriosis patients:
 
 - **Altered Firmicutes/Bacteroidetes ratio** — most studies found increased Firmicutes and decreased Bacteroidetes, though inconsistencies exist.
-- **Depletion of beneficial taxa** — *[[lachnospiraceae]]* (including *Clostridia Clostridiales*, *Lachnospiraceae Ruminococcus*), *[[ruminococcaceae|Ruminococcaceae]]*, *Sneathia*, *Barnesella*, and *[[gardnerella]]* were decreased in fecal samples.
+- **Depletion of beneficial taxa** — *[[lachnospiraceae]]* (including *Clostridia Clostridiales*, *Lachnospiraceae Ruminococcus*), *[[ruminococcaceae|Ruminococcaceae]]*, *Sneathia*, “[[barnesiella|Barnesella]],” and *[[gardnerella]]* were decreased in fecal samples. “Barnesella” is retained as the spelling used for the cited Ata result, not presented as a recognized bacterial genus.
 - **Enrichment of potential pathobionts** — *[[shigella]]*, *[[escherichia-coli|Escherichia]]*, *Eggerthella lenta*, and *Eubacterium dolicum* were increased.
 - ***[[ruminococcaceae|Ruminococcaceae]]* depletion** was highlighted as particularly significant given these strictly anaerobic bacteria produce anti-inflammatory short-chain fatty acids including butyrate. *Ruminococcus* has been inversely correlated with the inflammatory cytokine IL-6.
 - Svensson et al. (2021) found *[[prevotella]]* correlated with GI symptoms including constipation (r=0.307, p=0.014), bloating/flatulence (r=0.297, p=0.016), and nausea/vomiting (r=0.295, p=0.017).

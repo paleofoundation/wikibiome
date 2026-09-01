@@ -69,7 +69,7 @@ updated: 2026-04-19
 - [[atopobium]]
 - [[aspergillus]]
 - [[bacillus]]
-- [[barnesella]]
+- [[barnesiella]]
 - [[bacteroidaceae]]
 - [[bacteroidales]]
 - [[bacteroides-thetaiotaomicron]]

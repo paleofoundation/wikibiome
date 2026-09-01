@@ -12,7 +12,7 @@ doi: "10.1038/s41598-019-39700-6"
 platform: wikibiome
 evidence_level: prospective-cohort
 metals_discussed: [iron]
-taxa_discussed: [gardnerella, escherichia-coli, alloprevotella, streptococcus]
+taxa_discussed: [gardnerella, escherichia-coli, alloprevotella, streptococcus, barnesiella]
 key_findings:
   - "Complete absence of Atopobium in both vaginal and cervical microbiota of stage 3/4 endometriosis patients"
   - "Gardnerella, Streptococcus, Escherichia/Shigella, and Ureaplasma increased in cervical microbiota of endometriosis patients"
@@ -26,7 +26,7 @@ karen_brain_primitives: [1, 8]
 - *Gardnerella*, *Streptococcus*, *Escherichia/Shigella*, and *Ureaplasma* were increased in cervical microbiota of endometriosis patients
 - More women in the endometriosis group had *Shigella/Escherichia*-dominant gut microbiota
 - Overall vaginal, cervical, and gut microbiota composition was similar between stage 3/4 endometriosis and controls, with genus-level differences
-- In stool, *Gardnerella*, *Snethia*, and *Barnesella* were decreased in endometriosis
+- In stool, *Gardnerella*, *Snethia*, and “[[barnesiella|Barnesella]]” were decreased in endometriosis. “Barnesella” is the paper's printed label; the canonical link uses the recognized bacterial genus *Barnesiella* without claiming that the underlying sequence assignment has been reanalyzed.
 
 # Methods/Findings
 

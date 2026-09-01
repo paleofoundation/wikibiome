@@ -20,7 +20,7 @@ platform: both
 condition: "endometriosis"
 karen_brain_primitives: [1, 5, 7]
 metals_discussed: []
-taxa_discussed: [lactobacillus, gardnerella, atopobium, escherichia-coli, streptococcus, ureaplasma, alloprevotella, prevotella, dialister, megasphaera, sneathia, barnesella, gemella, bacteroides, blautia, roseburia, faecalibacterium, bifidobacterium, alistipes, coprococcus, ruminococcus, akkermansia-muciniphila]
+taxa_discussed: [lactobacillus, gardnerella, atopobium, escherichia-coli, streptococcus, ureaplasma, alloprevotella, prevotella, dialister, megasphaera, sneathia, barnesiella, gemella, bacteroides, blautia, roseburia, faecalibacterium, bifidobacterium, alistipes, coprococcus, ruminococcus, akkermansia-muciniphila]
 key_findings:
   - "Atopobium was completely absent from vaginal and cervical microbiota in stage 3/4 endometriosis patients but present in controls"
   - "Gardnerella, Streptococcus, Escherichia/Shigella, and Ureaplasma were increased in cervical microbiota of endometriosis patients after excluding Lactobacillus"
@@ -57,7 +57,7 @@ The Endobiota Study compared vaginal, cervical, and gut microbiota between women
 
 **Cervical microbiota:** Dominated by *Lactobacillus* in both groups (84.6% endometriosis, 80.2% controls). *Atopobium* and *Sneathia* were completely absent in the endometriosis group. *Alloprevotella* was significantly increased in endometriosis (p<0.01). After excluding *Lactobacillus*, *Gardnerella* (67.7% vs 36.8%, p<0.05), *Streptococcus*, *Escherichia/Shigella*, and *Ureaplasma* were increased, while *Prevotella*, *Dialister*, and *Megasphaera* were significantly decreased.
 
-**Gut microbiota:** *Sneathia*, *Barnesella*, and *Gardnerella* were significantly decreased in the endometriosis group (p<0.01 for all). Two endometriosis patients had *Escherichia/Shigella*-dominant stool microbiomes; both subsequently required segmental colon resection for deep infiltrating endometriosis — a finding the surgeons were unaware of at the time of microbiome sampling.
+**Gut microbiota:** *Sneathia*, “[[barnesiella|Barnesella]],” and *Gardnerella* were significantly decreased in the endometriosis group (p<0.01 for all). “Barnesella” is the label printed by this paper; current bacterial nomenclature recognizes *Barnesiella*, but the study does not document a sequence-level reassignment of the printed label. Two endometriosis patients had *Escherichia/Shigella*-dominant stool microbiomes; both subsequently required segmental colon resection for deep infiltrating endometriosis — a finding the surgeons were unaware of at the time of microbiome sampling.
 
 **Sensitivity analyses:** The exclusion of *Lactobacillus* from vaginal and cervical data revealed shifts masked by the dominant genus, particularly the increased relative abundance of potentially pathogenic bacteria in endometriosis.
 

@@ -72,7 +72,7 @@ Three studies examined peritoneal fluid:
 Two studies compared fecal microbiomes:
 
 - **Svensson et al. (2021)** (n=264) found only three bacteria with significantly different abundance: *Lachnospira*, *Oscillospira*, and a genus in the order *Bacteroidales* (P < 0.05).
-- **Ata et al. (2019)** found decreased *Barnesella*, *Gardnerella*, and *Snethia* in fecal samples.
+- **Ata et al. (2019)** reported decreased “[[barnesiella|Barnesella]],” *Gardnerella*, and *Snethia* in fecal samples. “Barnesella” is retained as the source spelling; the link resolves to the recognized genus *Barnesiella* without asserting a sequence-level reassignment.
 
 ### Endometrial and Lesion Microbiome
 
