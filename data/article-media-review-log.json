@@ -1519,6 +1519,157 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome control root original-resolution review in microorganisms batch 012 after current-name reasoning and count-bearing metadata reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "clostridium-symbiosum-draft.png", "sourceSha256": "e4848809d9db7a754fc467f693adb2c0293f54e94df3061f8ee25ba5a6cdef52", "generationRecord": "exec-a119d844-a3ad-492f-8297-c828a36d17b8.png" }
+    },
+    "collinsella|collinsella-morphology-v1.webp": {
+      "pageId": "collinsella",
+      "publishedFile": "collinsella-morphology-v1.webp",
+      "masterSource": "collinsella-morphology-v1-master.png",
+      "socialFile": "collinsella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=102106&mode=Info",
+          "https://lpsn.dsmz.de/genus/collinsella",
+          "https://pubmed.ncbi.nlm.nih.gov/10319476/",
+          "https://doi.org/10.1099/00207713-49-2-557",
+          "https://bacdive.dsmz.de/strain/165615"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus Collinsella, NCBITaxon:102106, with C. aerofaciens as type species. The primary genus proposal and type-strain evidence support conservative short rods or coccobacilli singly, paired, or in short chains; the selected plate is representative and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine short pleomorphic rod-to-coccobacillus bodies in seven groupings: five isolated singles and two touching pairs. No branch, filament, spore, appendage, capsule, halo, shared envelope, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine bodies and seven groupings; caption separately states selected, type-species-anchored, representative, non-exhaustive, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 013 after literal prompt provenance and honest count reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "collinsella-draft.png", "sourceSha256": "defe4488d16fb9f63a085a69ff9db506b1efaf17fd581fcaf7f6828564ed94a6", "generationRecord": "exec-26e4efd3-a459-4604-bf6a-dd8a92395c4d.png" }
+    },
+    "coprococcus|coprococcus-morphology-v1.webp": {
+      "pageId": "coprococcus",
+      "publishedFile": "coprococcus-morphology-v1.webp",
+      "masterSource": "coprococcus-morphology-v1-master.png",
+      "socialFile": "coprococcus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33042&mode=Info",
+          "https://lpsn.dsmz.de/genus/coprococcus",
+          "https://doi.org/10.1099/00207713-24-2-260",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11406416/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus Coprococcus, NCBITaxon:33042, with C. eutactus as type species. The primary description supports coccoid bodies commonly in pairs; the selected plate is type-species-anchored, representative, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly eight coccoid-to-short-ovoid bodies in four widely separated touching pairs. No grape-like cluster, long chain, full rod, spore, appendage, capsule, halo, shared envelope, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles eight bodies and four paired groupings; caption separately supplies selected, type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 013 after literal prompt provenance and visible-pair reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "coprococcus-draft.png", "sourceSha256": "46b1f421f86c1c34629d76d108858759913e62c7f00c6f9497f302cdbd0f479e", "generationRecord": "exec-a82e5b6a-6a32-4046-a7d0-55029466975a.png" }
+    },
+    "corynebacterium|corynebacterium-morphology-v1.webp": {
+      "pageId": "corynebacterium",
+      "publishedFile": "corynebacterium-morphology-v1.webp",
+      "masterSource": "corynebacterium-morphology-v1-master.png",
+      "socialFile": "corynebacterium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1716&mode=Info",
+          "https://lpsn.dsmz.de/genus/corynebacterium",
+          "https://www.sciencedirect.com/science/article/pii/S0196439905000036"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus Corynebacterium, NCBITaxon:1716, with C. diphtheriae as type species. Authoritative genus treatment supports selected pleomorphic club-shaped rods, angular pairs, and palisade arrangements without establishing a morphology-only diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine club-shaped rods in six groupings: three singles, one open-V pair, one near-parallel palisade pair, and one shallow angled pair. No true branched body, filament, spore, appendage, capsule, halo, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all nine bodies and six arrangements; caption distinguishes visible arrangement terms from type-species-anchored, representative, non-diagnostic, non-micrograph context."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 013 after arrangement and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "corynebacterium-draft.png", "sourceSha256": "0d23b84ec6d82a5994a25f484866a1601c4d26a390e142bd63bb1f4fb700738d", "generationRecord": "exec-f254d2a8-1cf9-4304-9e33-e2ae09cbe2df.png" }
+    },
+    "cryptococcus-neoformans|cryptococcus-neoformans-morphology-v1.webp": {
+      "pageId": "cryptococcus-neoformans",
+      "publishedFile": "cryptococcus-neoformans-morphology-v1.webp",
+      "masterSource": "cryptococcus-neoformans-morphology-v1-master.png",
+      "socialFile": "cryptococcus-neoformans-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5207&mode=Info",
+          "https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=119294",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7957021/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC251949/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6779390/"
+        ],
+        "notes": "NCBI Taxonomy and Index Fungorum confirm current Cryptococcus neoformans, NCBITaxon:5207 and fungal name record 119294. Primary microscopy supports round-to-ovoid budding yeast surrounded by a polysaccharide capsule; the selected static treatment is representative and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly ten encapsulated round-to-ovoid yeast bodies in eight groupings: six isolated singles and two narrow-based budding pairs. The transparent halo forms a continuous lobed contour around each attached mother-bud pair. No host cell, lifecycle scene, pseudohypha, hypha, spore, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text, caption, description, and provenance preserve the observed narrow-based budding pairs and continuous lobed halo contour. The caption explicitly identifies a non-diagnostic scientific reconstruction, not a micrograph."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 013 with the literal observed capsule-contour description preserved; prompt-requested counts were not treated as output evidence.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cryptococcus-neoformans-draft.png", "sourceSha256": "3fd06f1855e644f3624df66585834d47bab3f07075a1f1b84f585a24f5fa2781", "generationRecord": "exec-1037b9a2-8b4d-43d7-b429-cff92d034d6f.png" }
+    },
+    "debaryomyces|debaryomyces-morphology-v1.webp": {
+      "pageId": "debaryomyces",
+      "publishedFile": "debaryomyces-morphology-v1.webp",
+      "masterSource": "debaryomyces-morphology-v1-master.png",
+      "socialFile": "debaryomyces-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4958&mode=Info",
+          "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=1432",
+          "https://fungalgenera.org/genus/debaryomyces.html",
+          "https://doi.org/10.3767/003158508X336576"
+        ],
+        "notes": "NCBI Taxonomy and Index Fungorum confirm current conserved genus Debaryomyces, NCBITaxon:4958 and fungal genus record 1432, with D. hansenii as type species. Genus and primary taxonomic treatments support selected multilateral budding cells singly or in pairs; the plate omits variable pseudohyphae and spores."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly eight round-to-oval yeast bodies in six groupings: four isolated singles and two touching mother-and-bud pairs. No halo, capsule, pseudohypha, hypha, chain, ascus, ascospore, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles eight bodies and six groupings; caption supplies selected, type-species-anchored, representative, non-diagnostic, non-micrograph scope distinct from the visible description."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 013 after literal prompt provenance and budding-pair reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "debaryomyces-draft.png", "sourceSha256": "5c6a0517e702e70e4fbd92d5737073f2e0a25b565e8799b152a90194ddc3a02e", "generationRecord": "exec-f9224f5a-d7b5-4d9c-b316-d5b54059c634.png" }
     }
   },
   "rejectedAssets": [

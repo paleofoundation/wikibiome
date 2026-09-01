@@ -601,6 +601,46 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(difficileReview?.revisionLinkage?.sourceSha256, difficileV2?.sha256);
   assert.equal(difficileReview?.revisionLinkage?.rejectedDraftSha256, difficileV1?.sha256);
   assert.ok(reviewLog.revisedAssets.some((asset) => asset.pageId === "clostridioides-difficile" && asset.sha256 === difficileV1?.sha256));
+  const batch013 = batches.find((batch) => batch.batchId === "microorganisms-013");
+  assert.equal(batch013?.status, "reviewed");
+  assert.equal(batch013?.routeDecisionCount, 6);
+  assert.equal(batch013?.candidateCount, 5);
+  assert.equal(batch013?.scientificHoldCount, 0);
+  assert.equal(batch013?.generationCallCount, 5);
+  assert.equal(batch013?.revisionCount, 0);
+  const batch013Candidates = batch013?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch013Candidates.map((asset) => asset.pageId), [
+    "collinsella",
+    "coprococcus",
+    "corynebacterium",
+    "cryptococcus-neoformans",
+    "debaryomyces",
+  ]);
+  const batch013ExpectedOutputs = new Map([
+    ["collinsella", ["defe4488d16fb9f63a085a69ff9db506b1efaf17fd581fcaf7f6828564ed94a6", "Nine short pleomorphic rod-to-coccobacillus bodies in seven groupings: five isolated singles and two touching two-body pairs."]],
+    ["coprococcus", ["46b1f421f86c1c34629d76d108858759913e62c7f00c6f9497f302cdbd0f479e", "Eight coccoid-to-short-ovoid bodies in four widely separated touching two-body pairs."]],
+    ["corynebacterium", ["0d23b84ec6d82a5994a25f484866a1601c4d26a390e142bd63bb1f4fb700738d", "Nine pleomorphic club-shaped rod bodies in six groupings: three isolated singles, one open-V pair, one near-parallel palisade pair, and one shallow angled two-body grouping."]],
+    ["cryptococcus-neoformans", ["3fd06f1855e644f3624df66585834d47bab3f07075a1f1b84f585a24f5fa2781", "Ten encapsulated round-to-ovoid yeast bodies in eight groupings: six isolated singles and two narrow-based budding pairs; the transparent halo forms a continuous lobed contour around each attached mother-bud pair."]],
+    ["debaryomyces", ["5c6a0517e702e70e4fbd92d5737073f2e0a25b565e8799b152a90194ddc3a02e", "Eight round-to-oval yeast bodies in six groupings: four isolated singles and two touching mother-and-bud pairs."]],
+  ]);
+  for (const asset of batch013Candidates) {
+    const [expectedSha256, expectedObservation] = batch013ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedSubjectDescription, expectedObservation);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+  }
+  const cryptococcusCandidate = batch013Candidates.find((asset) => asset.pageId === "cryptococcus-neoformans");
+  assert.match(cryptococcusCandidate?.outputAudit?.promptConstraintDisposition ?? "", /scientific reconstruction, not a micrograph/);
+  const davidiellaDecision = batch013?.assets.find((asset) => asset.pageId === "davidiella");
+  assert.equal(davidiellaDecision?.decision, "scientific-identity-hold-resolved");
+  assert.equal(davidiellaDecision?.generationStatus, "withheld-no-call");
+  assert.equal(davidiellaDecision?.canonicalIdentifier, "NCBITaxon:5498");
+  assert.equal(davidiellaDecision?.canonicalPageId, "cladosporium");
+  assert.equal(davidiellaDecision?.resolutionStatus, "resolved-before-promotion");
+  assert.equal(davidiellaDecision?.draft, undefined);
+  assert.equal(davidiellaDecision?.generationRecord, undefined);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingIds = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))

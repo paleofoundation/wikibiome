@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "a854ec6fc8b9b2875f203dc5c2f98d3c6d9bdc45b35dd6d7fdd93c79fe4add23",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "fe5bd4eee27b8ad5dca6bf239fd8bd52d07222bf39dad275ecb575d5cbf0978a",
+    "registrySha256": "ded4ac2ecd61da494a37cce460a9ab7ebc32458c220c3057d5d239a453358961",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "c0945f99f7586a0340039a9360d22b501c7922bf3a27171ebae5ba1b7e103a8d",
+    "reviewLogSha256": "665ccd59bda4424893413a5f38f775376db0108b3a530f7090224fc262d14410",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -83,6 +83,12 @@
         "batchId": "microorganisms-012",
         "status": "reviewed",
         "sha256": "8a032f32cfcba624c8593d7bd445578dae8681400ce6f80bed7dacdd2ce533ae"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-013.json",
+        "batchId": "microorganisms-013",
+        "status": "reviewed",
+        "sha256": "2086cbc90dd3daed2f11d39bbf1d6ce5486af6abe0e1f77890ec98c15cd04a65"
       }
     ]
   },
@@ -104,8 +110,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 70,
-    "remaining": 640,
+    "completed": 75,
+    "remaining": 635,
     "rejected": 11,
     "revised": 8,
     "scientificHolds": 0,
@@ -116,8 +122,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 67,
-      "remaining": 162
+      "completed": 72,
+      "remaining": 157
     },
     {
       "id": "metals",
@@ -530,55 +536,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 66,
-      "id": "collinsella",
-      "title": "Collinsella",
-      "route": "/article/collinsella",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 67,
-      "id": "coprococcus",
-      "title": "Coprococcus",
-      "route": "/article/coprococcus",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 68,
-      "id": "corynebacterium",
-      "title": "Corynebacterium",
-      "route": "/article/corynebacterium",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 69,
-      "id": "cryptococcus-neoformans",
-      "title": "Cryptococcus neoformans",
-      "route": "/article/cryptococcus-neoformans",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 70,
-      "id": "debaryomyces",
-      "title": "Debaryomyces",
-      "route": "/article/debaryomyces",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
       "queuePosition": 71,
       "id": "deinococcus",
       "title": "Deinococcus",
       "route": "/article/deinococcus",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 72,
+      "id": "desulfovibrio",
+      "title": "Desulfovibrio",
+      "route": "/article/desulfovibrio",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 73,
+      "id": "desulfovibrionales",
+      "title": "Desulfovibrionales",
+      "route": "/article/desulfovibrionales",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 74,
+      "id": "dialister",
+      "title": "Dialister",
+      "route": "/article/dialister",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 75,
+      "id": "dialister-histaminiformans",
+      "title": "Dialister histaminiformans",
+      "route": "/article/dialister-histaminiformans",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 76,
+      "id": "dorea",
+      "title": "Dorea",
+      "route": "/article/dorea",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -1965,7 +1971,15 @@
       "route": "/article/collinsella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "collinsella-morphology-v1-master.png",
+        "publishedFile": "collinsella-morphology-v1.webp",
+        "socialFile": "collinsella-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 67,
@@ -1978,7 +1992,15 @@
       "route": "/article/coprococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "coprococcus-morphology-v1-master.png",
+        "publishedFile": "coprococcus-morphology-v1.webp",
+        "socialFile": "coprococcus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 68,
@@ -1991,7 +2013,15 @@
       "route": "/article/corynebacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "corynebacterium-morphology-v1-master.png",
+        "publishedFile": "corynebacterium-morphology-v1.webp",
+        "socialFile": "corynebacterium-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 69,
@@ -2004,7 +2034,15 @@
       "route": "/article/cryptococcus-neoformans",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "cryptococcus-neoformans-morphology-v1-master.png",
+        "publishedFile": "cryptococcus-neoformans-morphology-v1.webp",
+        "socialFile": "cryptococcus-neoformans-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 70,
@@ -2017,7 +2055,15 @@
       "route": "/article/debaryomyces",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "debaryomyces-morphology-v1-master.png",
+        "publishedFile": "debaryomyces-morphology-v1.webp",
+        "socialFile": "debaryomyces-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 71,
