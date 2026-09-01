@@ -1,10 +1,10 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-export const MEDIA_PROGRAM_TOTAL = 712;
+export const MEDIA_PROGRAM_TOTAL = 711;
 
 export const mediaCoverageGroups = Object.freeze([
-  Object.freeze({ id: "microorganisms", label: "Microorganisms", total: 231, categoryOrder: 1 }),
+  Object.freeze({ id: "microorganisms", label: "Microorganisms", total: 230, categoryOrder: 1 }),
   Object.freeze({ id: "metals", label: "Metals", total: 29, categoryOrder: 2 }),
   Object.freeze({ id: "diseases", label: "Diseases", total: 66, categoryOrder: 3 }),
   Object.freeze({ id: "mechanisms", label: "Mechanisms", total: 233, categoryOrder: 4 }),
@@ -16,7 +16,7 @@ export const mediaCoverageGroups = Object.freeze([
 
 export const initialMediaBaseline = Object.freeze({
   asOf: "2026-09-01",
-  total: MEDIA_PROGRAM_TOTAL,
+  total: 712,
   covered: 8,
   uncovered: 704,
   uncoveredByGroup: Object.freeze({

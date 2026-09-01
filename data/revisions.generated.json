@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T14:13:49.117Z",
+  "generatedAt": "2026-09-01T15:08:18.753Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
-  "records": 819,
-  "canonicalIds": 754,
-  "revisions": 2911,
+  "sourceCommit": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
+  "records": 818,
+  "canonicalIds": 753,
+  "revisions": 2915,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -3674,6 +3674,15 @@
       ],
       "revisions": [
         {
+          "hash": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
+          "date": "2026-09-01T18:04:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Merge Clostridium difficile into current identity",
+          "path": "wiki/entities/clostridia.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
           "date": "2026-09-01T17:12:29+03:00",
           "author": "Karen Pendergrass",
@@ -3713,9 +3722,28 @@
     },
     "clostridioides-difficile": {
       "paths": [
-        "wiki/entities/clostridioides-difficile.md"
+        "wiki/entities/clostridioides-difficile.md",
+        "wiki/entities/clostridium-difficile.md"
       ],
       "revisions": [
+        {
+          "hash": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
+          "date": "2026-09-01T18:04:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Merge Clostridium difficile into current identity",
+          "path": "wiki/entities/clostridioides-difficile.md",
+          "additions": 32,
+          "deletions": 8
+        },
+        {
+          "hash": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
+          "date": "2026-09-01T18:04:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Merge Clostridium difficile into current identity",
+          "path": "wiki/entities/clostridium-difficile.md",
+          "additions": 0,
+          "deletions": 38
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -3726,12 +3754,39 @@
           "deletions": 11
         },
         {
+          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
+          "date": "2026-05-04T12:56:02-06:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
+          "path": "wiki/entities/clostridium-difficile.md",
+          "additions": 11,
+          "deletions": 7
+        },
+        {
           "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
           "date": "2026-04-19T08:31:59+03:00",
           "author": "WikiBiome Deploy Bot",
           "subject": "nightly maintenance: 94 stub demotions, 181 source_count fixes, 22 auto-discovered stubs, 5 adversarial audits, 3 boundary fixes, 3 evidence-level corrections",
           "path": "wiki/entities/clostridioides-difficile.md",
           "additions": 1,
+          "deletions": 0
+        },
+        {
+          "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
+          "date": "2026-04-19T08:31:59+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "nightly maintenance: 94 stub demotions, 181 source_count fixes, 22 auto-discovered stubs, 5 adversarial audits, 3 boundary fixes, 3 evidence-level corrections",
+          "path": "wiki/entities/clostridium-difficile.md",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
+          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
+          "date": "2026-04-18T21:04:01+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "pre-overnight checkpoint 2026-04-18",
+          "path": "wiki/entities/clostridium-difficile.md",
+          "additions": 32,
           "deletions": 0
         },
         {
@@ -3784,40 +3839,6 @@
           "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
           "path": "wiki/entities/clostridium-butyricum.md",
           "additions": 44,
-          "deletions": 0
-        }
-      ]
-    },
-    "clostridium-difficile": {
-      "paths": [
-        "wiki/entities/clostridium-difficile.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/clostridium-difficile.md",
-          "additions": 11,
-          "deletions": 7
-        },
-        {
-          "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
-          "date": "2026-04-19T08:31:59+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "nightly maintenance: 94 stub demotions, 181 source_count fixes, 22 auto-discovered stubs, 5 adversarial audits, 3 boundary fixes, 3 evidence-level corrections",
-          "path": "wiki/entities/clostridium-difficile.md",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
-          "date": "2026-04-18T21:04:01+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "pre-overnight checkpoint 2026-04-18",
-          "path": "wiki/entities/clostridium-difficile.md",
-          "additions": 32,
           "deletions": 0
         }
       ]
@@ -5914,6 +5935,15 @@
         "wiki/entities/eubacteriales.md"
       ],
       "revisions": [
+        {
+          "hash": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
+          "date": "2026-09-01T18:04:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Merge Clostridium difficile into current identity",
+          "path": "wiki/entities/eubacteriales.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
           "date": "2026-09-01T17:12:29+03:00",

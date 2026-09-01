@@ -11,7 +11,8 @@
     "bifidobacterium-infantis": "bifidobacterium-longum-subsp-infantis",
     "candida-auris": "candidozyma-auris",
     "candida-glabrata": "nakaseomyces-glabratus",
-    "clostridiales": "eubacteriales"
+    "clostridiales": "eubacteriales",
+    "clostridium-difficile": "clostridioides-difficile"
   },
   "canonicalTaxa": {
     "akkermansia-muciniphila": {
@@ -49,6 +50,11 @@
     "eubacteriales": {
       "title": "Eubacteriales",
       "ncbiTaxonomyId": 186802
+    },
+    "clostridioides-difficile": {
+      "title": "Clostridioides difficile",
+      "ncbiTaxonomyId": 1496,
+      "revisionPaths": ["wiki/entities/clostridium-difficile.md"]
     }
   },
   "retiredCanonicalIds": [
@@ -60,7 +66,8 @@
     "bifidobacterium-infantis",
     "candida-auris",
     "candida-glabrata",
-    "clostridiales"
+    "clostridiales",
+    "clostridium-difficile"
   ],
   "forbiddenCanonicalTitles": [
     "Akkermansia mucinicola",
@@ -71,7 +78,8 @@
     "Bifidobacterium infantis",
     "Candida auris",
     "Candida glabrata",
-    "Clostridiales"
+    "Clostridiales",
+    "Clostridium difficile"
   ],
   "forbiddenPublicPatterns": [
     "Allisonella hiatal",
@@ -79,6 +87,7 @@
     "Bifidobacterium infantis is the current",
     "Candida auris is the current name",
     "Candida glabrata is the current name",
-    "Clostridiales is the current name"
+    "Clostridiales is the current name",
+    "Clostridium difficile is the current name"
   ]
 }

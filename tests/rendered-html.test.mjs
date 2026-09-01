@@ -184,8 +184,8 @@ test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities 
   const aliases = getArticleAliases();
   const audit = validateArticleIdentityPolicy(generated);
 
-  assert.equal(audit.aliasCount, 9);
-  assert.equal(audit.canonicalTaxonCount, 9);
+  assert.equal(audit.aliasCount, 10);
+  assert.equal(audit.canonicalTaxonCount, 10);
   for (const [alias, target] of Object.entries(aliases)) {
     assert.equal(generated.pages.some((page) => page.id === alias), false, `${alias} must not remain indexable`);
     assert.equal(generated.pages.filter((page) => page.id === target).length, 1, `${target} must be unique`);
@@ -226,6 +226,10 @@ test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities 
   const obsoleteEubacterialesClaim = structuredClone(generated);
   obsoleteEubacterialesClaim.pages.find((page) => page.id === "eubacteriales").overview += " Clostridiales is the current name.";
   assert.throws(() => validateArticleIdentityPolicy(obsoleteEubacterialesClaim), /Unsupported retired identities/);
+
+  const obsoleteClostridioidesClaim = structuredClone(generated);
+  obsoleteClostridioidesClaim.pages.find((page) => page.id === "clostridioides-difficile").overview += " Clostridium difficile is the current name.";
+  assert.throws(() => validateArticleIdentityPolicy(obsoleteClostridioidesClaim), /Unsupported retired identities/);
 });
 
 test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
@@ -294,8 +298,8 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
-  assert.match(html, /1,926/);
-  assert.match(html, /819/);
+  assert.match(html, /1,929/);
+  assert.match(html, /818/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
 
@@ -352,7 +356,7 @@ test("server-renders real article and directory pages through the shared redesig
 
   const directory = await directoryResponse.text();
   assert.match(directory, /<title>Microorganisms — WikiBiome<\/title>/i);
-  assert.match(directory, /231/);
+  assert.match(directory, /230/);
   assert.match(directory, /records in this view/);
   assert.match(directory, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(directory, /class="directory-record-media"[\s\S]*src="\/media\/image\/akkermansia-muciniphila-morphology-v2\.webp"/);
@@ -369,7 +373,7 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
     }
   }
 
-  const currentIds = ["akkermansia-muciniphila", "dialister-histaminiformans", "lancefieldella-parvula", "fannyhessea-vaginae", "barnesiella", "bifidobacterium-longum-subsp-infantis", "candidozyma-auris", "nakaseomyces-glabratus", "eubacteriales"];
+  const currentIds = ["akkermansia-muciniphila", "dialister-histaminiformans", "lancefieldella-parvula", "fannyhessea-vaginae", "barnesiella", "bifidobacterium-longum-subsp-infantis", "candidozyma-auris", "nakaseomyces-glabratus", "eubacteriales", "clostridioides-difficile"];
   const currentResponses = await Promise.all(currentIds.map((id) => render(`/article/${id}`)));
   currentResponses.forEach((response) => assert.equal(response.status, 200));
   const currentPages = await Promise.all(currentResponses.map((response) => response.text()));
@@ -426,6 +430,24 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.doesNotMatch(currentPages[8], /class="article-media-figure"/);
   assert.equal(articleMediaRegistry.clostridiales, undefined);
   assert.equal(articleMediaRegistry.eubacteriales, undefined);
+  assert.match(currentPages[9], /<title>Clostridioides difficile — WikiBiome<\/title>/i);
+  assert.match(currentPages[9], /NCBITaxon:1496/);
+  assert.match(currentPages[9], /Clostridium difficile[\s\S]{0,140}validly published homotypic synonym/);
+  assert.match(currentPages[9], /preserves that wording when it is the name printed by a source/);
+  assert.match(currentPages[9], /href="\/source\/lawson-2016-clostridioides-difficile-reclassification"/);
+  assert.match(currentPages[9], /"@id":"https:\/\/www\.wikibiome\.com\/article\/clostridioides-difficile#article"/);
+  assert.match(currentPages[9], /"headline":"Clostridioides difficile"/);
+  assert.match(currentPages[9], /"description":"Clostridioides difficile is the current NCBI name for NCBITaxon:1496/);
+  assert.doesNotMatch(currentPages[9], /Clostridium difficile is the current name/);
+  assert.doesNotMatch(currentPages[9], /class="article-media-figure"/);
+  assert.equal(articleMediaRegistry["clostridium-difficile"], undefined);
+  assert.equal(articleMediaRegistry["clostridioides-difficile"], undefined);
+
+  const mergedHistoryResponse = await render("/article/clostridioides-difficile/history");
+  assert.equal(mergedHistoryResponse.status, 200);
+  const mergedHistory = await mergedHistoryResponse.text();
+  assert.match(mergedHistory, /Tracked source files<\/span><strong>2<\/strong>/);
+  assert.match(mergedHistory, /wiki\/entities\/clostridium-difficile\.md/);
 
   const sitemap = await (await render("/sitemap.xml")).text();
   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
@@ -547,7 +569,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(articleMediaRegistry[id], undefined, `${id} must not enter the reviewed registry before approval`);
     assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)), `${id} draft must not enter public media files`);
   }
-  const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales"];
+  const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), []);
   assert.equal(program.current.scientificHolds, activeScientificHolds.length);
@@ -574,6 +596,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     ["candida-auris", "candidozyma-auris", "NCBITaxon:498019", "reviewed"],
     ["candida-glabrata", "nakaseomyces-glabratus", "NCBITaxon:5478", "queued"],
     ["clostridiales", "eubacteriales", "NCBITaxon:186802", "queued"],
+    ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "queued"],
   ];
   for (const [obsoleteId, canonicalId, identifier, expectedStatus] of currentNameMediaMappings) {
     const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === obsoleteId);
@@ -865,10 +888,10 @@ test("renders the production discovery, provenance, support, and participation s
 
   assert.match(readiness, /Every route accounted for/);
   assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
-  assert.match(readiness, /819[\s\S]{0,110}records[\s\S]{0,110}712[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /818[\s\S]{0,110}records[\s\S]{0,110}711[\s\S]{0,80}canonical article routes/);
   assert.match(
     readiness,
-    new RegExp(`${Object.keys(articleMediaRegistry).length} of 712 canonical article routes currently have reviewed`),
+    new RegExp(`${Object.keys(articleMediaRegistry).length} of 711 canonical article routes currently have reviewed`),
   );
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
@@ -878,7 +901,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /49ea647671c2/);
+  assert.match(readiness, /778508453c7a/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -931,7 +954,7 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(sitemap, /xmlns:image="http:\/\/www\.google\.com\/schemas\/sitemap-image\/1\.1"/);
   assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
   assert.match(sitemap, /<image:loc>https:\/\/www\.wikibiome\.com\/media\/image\/nickel-technical-specimen-v2\.webp<\/image:loc>/);
-  assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae|bifidobacterium-infantis|candida-auris|candida-glabrata|clostridiales)[^<]*<\/image:loc>/);
+  assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae|bifidobacterium-infantis|candida-auris|candida-glabrata|clostridiales|clostridium-difficile)[^<]*<\/image:loc>/);
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/source\/ahmed-2025-metals-alzheimers-mechanistic-review<\/loc>/);
   assert.ok((sitemap.match(/<url>/g) ?? []).length > 2_500);
   assert.match(imageSitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
@@ -1057,7 +1080,7 @@ test("renders the claim, contribute, collaborate researcher network", async () =
     networkResponse.text(), standardResponse.text(), submitResponse.text(), institutionsResponse.text(), sourceResponse.text(), dashboardResponse.text(),
   ]);
   assert.match(network, /Claim → Contribute → Collaborate/);
-  assert.match(network, /1,926[\s\S]{0,30}evidence records/);
+  assert.match(network, /1,929[\s\S]{0,30}evidence records/);
   assert.match(network, /Identity earns attribution—not control/);
   assert.match(network, /href="\/api\/auth\/orcid\/start\?returnTo=\/researcher\/dashboard"/);
 
@@ -1109,7 +1132,7 @@ test("keeps internal operational records out of the public encyclopedia", async 
 
   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   assert.equal(content._stats.analyses, 4);
-  assert.equal(content._stats.totalPages, 819);
+  assert.equal(content._stats.totalPages, 818);
   assert.ok(!content.pages.some((page) => publicContentExclusionReason(page)));
   assert.equal(publicContentExclusionReason({
     id: "weekly-content-maintenance-2026-06-01",
@@ -1284,10 +1307,10 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "49ea647671c2f5c71c13da21e0f583a4bb0c80e6");
+  assert.equal(manifest.source.commit, "778508453c7ac892ba184ad2e7e8ba9fd5f9542c");
   assert.equal(manifest.content.sha256, digest);
-  assert.equal(manifest.content.pages, 819);
-  assert.equal(manifest.content.sources, 1926);
+  assert.equal(manifest.content.pages, 818);
+  assert.equal(manifest.content.sources, 1929);
   assert.equal(manifest.sourceMetadataPolicy.version, 1);
   assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
   assert.equal(manifest.sourceMetadataPolicy.omittedYearCount, 3);
@@ -1309,12 +1332,12 @@ test("binds generated content to the fetched upstream commit", () => {
   const statusRegistry = readFileSync(new URL("../data/editorial-statuses.json", import.meta.url));
   assert.equal(manifest.editorialStatusPolicy.registrySha256, createHash("sha256").update(statusRegistry).digest("hex"));
   assert.equal(manifest.articleIdentityPolicy.version, 1);
-  assert.equal(manifest.articleIdentityPolicy.aliasCount, 9);
-  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 9);
-  assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 9);
+  assert.equal(manifest.articleIdentityPolicy.aliasCount, 10);
+  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 10);
+  assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 10);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6439);
+  assert.equal(manifest.audit.generatedReferences, 6442);
   assert.equal(manifest.audit.recoveredInlineReferences, 350);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);

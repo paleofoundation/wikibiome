@@ -6,6 +6,7 @@ import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import content from "../data/content.generated.json" with { type: "json" };
 import manifest from "../data/content-manifest.generated.json" with { type: "json" };
+import identityRegistry from "../data/article-id-aliases.json" with { type: "json" };
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const sourceRoot = resolve(projectRoot, "work/reference-wikibiome");
@@ -36,7 +37,8 @@ const uniqueIds = [...new Set(content.pages.map((page) => page.id))];
 const histories = {};
 let revisionCount = 0;
 for (const id of uniqueIds) {
-  const paths = pathsByBase.get(`${id}.md`) ?? [];
+  const declaredRevisionPaths = identityRegistry.canonicalTaxa?.[id]?.revisionPaths ?? [];
+  const paths = [...new Set([...(pathsByBase.get(`${id}.md`) ?? []), ...declaredRevisionPaths])];
   const revisions = paths.flatMap((path) => historyForPath(path));
   const uniqueRevisions = [...new Map(revisions.map((revision) => [`${revision.hash}:${revision.path}`, revision])).values()]
     .sort((a, b) => b.date.localeCompare(a.date))

@@ -1568,6 +1568,33 @@
         "controlledIdentifier": "NCBITaxon:186802",
         "coverageStatus": "uncovered"
       }
+    },
+    {
+      "pageId": "clostridium-difficile",
+      "batchId": "scientific-identity-audit-2026-09-01",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:1496 to the current name Clostridioides difficile and records Clostridium difficile as its homotypic synonym. LPSN lists Clostridioides difficile as the correct name explicitly recommended for medical use, while the 2016 Lawson et al. paper supplies the primary new combination. A second canonical route or asset would duplicate the same organism.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1496&mode=Info",
+        "https://lpsn.dsmz.de/species/clostridioides-difficile",
+        "https://pubmed.ncbi.nlm.nih.gov/27370902/",
+        "https://doi.org/10.1016/j.anaerobe.2016.06.008"
+      ],
+      "requiredResolution": "Merge the duplicate source associations and nomenclatural context into the Clostridioides difficile canonical record, retire the historical-combination slug, and preserve source-era uses of Clostridium difficile without creating a second taxon.",
+      "routingImpact": "The obsolete slug is excluded from the canonical queue, registry, public media files, and image sitemap. No raster exists for either duplicate; a future asset may be keyed only to clostridioides-difficile and NCBITaxon:1496.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The duplicate historical-combination record was merged without dropping its six source associations or name-change provenance. Its article, history, and suggest routes permanently redirect to the single current Clostridioides difficile record.",
+      "canonicalPageId": "clostridioides-difficile",
+      "canonicalIdentifier": "NCBITaxon:1496",
+      "queueReplacement": {
+        "pageId": "clostridioides-difficile",
+        "title": "Clostridioides difficile",
+        "route": "/article/clostridioides-difficile",
+        "controlledIdentifier": "NCBITaxon:1496",
+        "coverageStatus": "uncovered"
+      }
     }
   ],
   "revisedAssets": [
