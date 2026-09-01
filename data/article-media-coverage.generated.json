@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "aaf67be16ca67f26e1f582375167db8957b4f6765e44f32e01a0fa829687217f",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "b0ecc96cb60b90780d7a0425d89e54a5aeb1c9df5822991cb56517f4846c13e7",
+    "registrySha256": "b8cb943a22eb982bb6f6bedb324bb44c148ea126d8360eb0b2c5c8509975faf9",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "a7571e9c6af0ae1e0f83a7b41cd30cc148f93907311de7ed26447e48d4e0963c",
+    "reviewLogSha256": "e0002a3c5336fc2e5817365b40f0807fc57ca83d5804afb2ed04dca213a12e0a",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -71,6 +71,12 @@
         "batchId": "microorganisms-010",
         "status": "reviewed",
         "sha256": "e98341687713c2660ee46b2315a9e63f2c53120fbae78c1269f77b0e0a4b71db"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-011.json",
+        "batchId": "microorganisms-011",
+        "status": "reviewed",
+        "sha256": "da15d953173cd81d24da2831829c8135f525d4a40847b212e3102ba0eb4b5aee"
       }
     ]
   },
@@ -92,8 +98,8 @@
   },
   "current": {
     "total": 712,
-    "completed": 60,
-    "remaining": 652,
+    "completed": 65,
+    "remaining": 647,
     "rejected": 9,
     "revised": 7,
     "scientificHolds": 0,
@@ -104,8 +110,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 231,
-      "completed": 57,
-      "remaining": 174
+      "completed": 62,
+      "remaining": 169
     },
     {
       "id": "metals",
@@ -451,56 +457,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 53,
-      "id": "candidozyma-auris",
-      "title": "Candidozyma auris",
-      "route": "/article/candidozyma-auris",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "controlledIdentifier": "NCBITaxon:498019"
-    },
-    {
-      "queuePosition": 57,
-      "id": "christensenellaceae",
-      "title": "Christensenellaceae",
-      "route": "/article/christensenellaceae",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 58,
-      "id": "citrobacter",
-      "title": "Citrobacter",
-      "route": "/article/citrobacter",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 59,
-      "id": "cladosporium",
-      "title": "Cladosporium",
-      "route": "/article/cladosporium",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 60,
-      "id": "clostridia",
-      "title": "Clostridia",
-      "route": "/article/clostridia",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
       "queuePosition": 61,
       "id": "clostridioides-difficile",
       "title": "Clostridioides difficile",
       "route": "/article/clostridioides-difficile",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 62,
+      "id": "clostridium",
+      "title": "Clostridium",
+      "route": "/article/clostridium",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 63,
+      "id": "clostridium-butyricum",
+      "title": "Clostridium butyricum",
+      "route": "/article/clostridium-butyricum",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 64,
+      "id": "clostridium-difficile",
+      "title": "Clostridium difficile",
+      "route": "/article/clostridium-difficile",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 65,
+      "id": "clostridium-perfringens",
+      "title": "Clostridium perfringens",
+      "route": "/article/clostridium-perfringens",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 66,
+      "id": "clostridium-symbiosum",
+      "title": "Clostridium symbiosum",
+      "route": "/article/clostridium-symbiosum",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -1612,7 +1617,15 @@
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
       "controlledIdentifier": "NCBITaxon:498019",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "candidozyma-auris-morphology-v1-master.png",
+        "publishedFile": "candidozyma-auris-morphology-v1.webp",
+        "socialFile": "candidozyma-auris-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 54,
@@ -1688,7 +1701,15 @@
       "route": "/article/christensenellaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "christensenellaceae-microbial-community-v1-master.png",
+        "publishedFile": "christensenellaceae-microbial-community-v1.webp",
+        "socialFile": "christensenellaceae-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 58,
@@ -1701,7 +1722,15 @@
       "route": "/article/citrobacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "citrobacter-morphology-v1-master.png",
+        "publishedFile": "citrobacter-morphology-v1.webp",
+        "socialFile": "citrobacter-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 59,
@@ -1714,7 +1743,15 @@
       "route": "/article/cladosporium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "cladosporium-morphology-v1-master.png",
+        "publishedFile": "cladosporium-morphology-v1.webp",
+        "socialFile": "cladosporium-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 60,
@@ -1727,7 +1764,15 @@
       "route": "/article/clostridia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "clostridia-microbial-community-v1-master.png",
+        "publishedFile": "clostridia-microbial-community-v1.webp",
+        "socialFile": "clostridia-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 61,

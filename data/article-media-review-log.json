@@ -1212,6 +1212,156 @@
       "disposition": "approved",
       "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 010 after literal prompt provenance and count-bearing metadata reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "chlamydia-trachomatis-draft.png", "generationRecord": "exec-d63479c2-6e22-4462-a001-8cdac706d7e9.png" }
+    },
+    "candidozyma-auris|candidozyma-auris-morphology-v1.webp": {
+      "pageId": "candidozyma-auris",
+      "publishedFile": "candidozyma-auris-morphology-v1.webp",
+      "masterSource": "candidozyma-auris-morphology-v1-master.png",
+      "socialFile": "candidozyma-auris-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=498019&mode=Info",
+          "https://doi.org/10.3767/persoonia.2024.52.02",
+          "https://pubmed.ncbi.nlm.nih.gov/19161556/",
+          "https://onlinelibrary.wiley.com/doi/10.1111/j.1348-0421.2008.00083.x"
+        ],
+        "notes": "NCBI Taxonomy and the 2024 nomenclatural revision confirm current species Candidozyma auris, NCBITaxon:498019 and MycoBank MB 848169. The original type description supports ovoid-to-elongate budding cells and reports no pseudohyphae. No former-name raster was reused or rekeyed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control root original-resolution review accepted exactly nine yeast bodies in eight groupings: seven isolated ovoid-to-ellipsoidal singles and one touching mother-and-bud pair. The prompt requested eight bodies in seven groupings; the observed mismatch remains explicit and governs every public description. No pseudohypha, hypha, colony plate, host material, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles the observed nine bodies and eight groupings, while the caption states current-name scope, non-diagnostic status, and non-micrograph status without repeating the alt text verbatim."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control root original-resolution review in microorganisms batch 011 after literal prompt provenance and honest count reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "candidozyma-auris-draft.png", "generationRecord": "exec-e5606526-8dfe-4205-b8fc-a3e7b69d23c6.png" }
+    },
+    "christensenellaceae|christensenellaceae-microbial-community-v1.webp": {
+      "pageId": "christensenellaceae",
+      "publishedFile": "christensenellaceae-microbial-community-v1.webp",
+      "masterSource": "christensenellaceae-microbial-community-v1-master.png",
+      "socialFile": "christensenellaceae-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=990719&mode=Info",
+          "https://lpsn.dsmz.de/family/christensenellaceae",
+          "https://pubmed.ncbi.nlm.nih.gov/21357455/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8067450/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current family Christensenellaceae, NCBITaxon:990719, with Christensenella as type genus. The family proposal and type-strain microscopy support the selected single and paired rod forms, not a morphology for the entire family."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control root original-resolution review accepted exactly eight straight rods in six groupings: four singles and two touching pairs. The treatment is explicitly selected, type-genus-anchored, representative, non-exhaustive, and non-diagnostic. No appendage, spore, shared envelope, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all eight rods and six groupings; caption and description separately deny family-wide morphology, diagnostic, exhaustive, and micrograph interpretations."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control root original-resolution review in microorganisms batch 011 after higher-rank scope and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "christensenellaceae-draft.png", "generationRecord": "exec-b1d97c92-458c-4419-9ebf-dee23ac08851.png" }
+    },
+    "citrobacter|citrobacter-morphology-v1.webp": {
+      "pageId": "citrobacter",
+      "publishedFile": "citrobacter-morphology-v1.webp",
+      "masterSource": "citrobacter-morphology-v1-master.png",
+      "socialFile": "citrobacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=544&mode=Info",
+          "https://lpsn.dsmz.de/genus/citrobacter",
+          "https://bacdive.dsmz.de/strain/4325",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3569269/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus Citrobacter, NCBITaxon:544, and C. freundii as type species. The type-strain record supports short rods; variable capsule and flagellar structures are not generalized."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control root original-resolution review accepted exactly seven short rounded rods in six groupings: five singles and one touching pair. No capsule, halo, appendage, spore, host material, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles seven rods and six groupings; caption provides representative genus-level, non-diagnostic, and non-micrograph limits."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control root original-resolution review in microorganisms batch 011 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "citrobacter-draft.png", "generationRecord": "exec-bd23f96d-1441-467b-a040-c4102debf1f0.png" }
+    },
+    "cladosporium|cladosporium-morphology-v1.webp": {
+      "pageId": "cladosporium",
+      "publishedFile": "cladosporium-morphology-v1.webp",
+      "masterSource": "cladosporium-morphology-v1-master.png",
+      "socialFile": "cladosporium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5498&mode=Info",
+          "https://pubmed.ncbi.nlm.nih.gov/22815589/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3390897/",
+          "https://doi.org/10.3114/sim0003"
+        ],
+        "notes": "NCBI Taxonomy confirms current genus Cladosporium, NCBITaxon:5498. The modern monographic revision supports true acropetal conidial chains and substantial species-level variation, so the two structures are representative and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control root original-resolution review accepted two separated groupings, each containing one short stalk and five attached conidia: two stalk structures and ten conidial bodies, twelve discrete structures total. No sprawling network, substrate, host, environmental scene, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles both groupings, two stalks, and ten conidia; caption states selected, representative, non-exhaustive, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control root original-resolution review in microorganisms batch 011 after literal prompt provenance and visible-structure reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cladosporium-draft.png", "generationRecord": "exec-780186bd-d153-42cd-9d34-ead0b4b87202.png" }
+    },
+    "clostridia|clostridia-microbial-community-v1.webp": {
+      "pageId": "clostridia",
+      "publishedFile": "clostridia-microbial-community-v1.webp",
+      "masterSource": "clostridia-microbial-community-v1-master.png",
+      "socialFile": "clostridia-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186801&mode=Info",
+          "https://lpsn.dsmz.de/class/clostridia",
+          "https://lpsn.dsmz.de/species/clostridium-butyricum",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11851364/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current class Clostridia, NCBITaxon:186801, with Clostridium as type genus. Type-species evidence supports selected straight-to-slightly-curved rods singly or in pairs, not a morphology, sporulation pattern, or motility state for the entire class."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control root original-resolution review accepted exactly nine rods in six spatial groupings: three singles, two loose two-rod arrangements, and one touching pair. The treatment is explicitly selected, type-genus-anchored, representative, non-exhaustive, and non-diagnostic. No visible spore, appendage, shared envelope, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine rods and six groupings; caption and description separately deny class-wide morphology, sporulation, motility, exhaustive, diagnostic, and micrograph interpretations."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control root original-resolution review in microorganisms batch 011 after higher-rank scope and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "clostridia-draft.png", "generationRecord": "exec-5644e35f-02d5-4a93-88a2-385748bd707d.png" }
     }
   },
   "rejectedAssets": [

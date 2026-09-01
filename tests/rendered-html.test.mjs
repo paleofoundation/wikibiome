@@ -402,9 +402,10 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.match(currentPages[6], /Candida auris[\s\S]{0,120}basionym, not a separate species/);
   assert.match(currentPages[6], /historical name[\s\S]{0,60}Candida auris/);
   assert.doesNotMatch(currentPages[6], /Candida auris is the current name/);
-  assert.doesNotMatch(currentPages[6], /class="article-media-figure"/);
+  assert.match(currentPages[6], /class="article-media-figure"/);
+  assert.match(currentPages[6], /candidozyma-auris-morphology-v1\.webp/);
   assert.equal(articleMediaRegistry["candida-auris"], undefined);
-  assert.equal(articleMediaRegistry["candidozyma-auris"], undefined);
+  assert.ok(articleMediaRegistry["candidozyma-auris"]);
   assert.match(currentPages[7], /<title>Nakaseomyces glabratus — WikiBiome<\/title>/i);
   assert.match(currentPages[7], /NCBITaxon:5478/);
   assert.match(currentPages[7], /MycoBank MB 843854/);
@@ -570,11 +571,11 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(infantisQueueRecord?.media?.publishedFile, "bifidobacterium-longum-subsp-infantis-morphology-v1.webp");
   assert.ok(!program.nextBatch.some((record) => record.id === "bifidobacterium-longum-subsp-infantis"));
   const currentNameMediaMappings = [
-    ["candida-auris", "candidozyma-auris", "NCBITaxon:498019"],
-    ["candida-glabrata", "nakaseomyces-glabratus", "NCBITaxon:5478"],
-    ["clostridiales", "eubacteriales", "NCBITaxon:186802"],
+    ["candida-auris", "candidozyma-auris", "NCBITaxon:498019", "reviewed"],
+    ["candida-glabrata", "nakaseomyces-glabratus", "NCBITaxon:5478", "queued"],
+    ["clostridiales", "eubacteriales", "NCBITaxon:186802", "queued"],
   ];
-  for (const [obsoleteId, canonicalId, identifier] of currentNameMediaMappings) {
+  for (const [obsoleteId, canonicalId, identifier, expectedStatus] of currentNameMediaMappings) {
     const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === obsoleteId);
     assert.equal(resolution?.disposition, "scientific-identity-hold-resolved");
     assert.equal(resolution?.canonicalPageId, canonicalId);
@@ -583,11 +584,17 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(resolution?.queueReplacement?.controlledIdentifier, identifier);
     assert.equal(program.queue.find((record) => record.id === obsoleteId), undefined);
     const canonicalQueueRecord = program.queue.find((record) => record.id === canonicalId);
-    assert.equal(canonicalQueueRecord?.status, "queued");
+    assert.equal(canonicalQueueRecord?.status, expectedStatus);
     assert.equal(canonicalQueueRecord?.controlledIdentifier, identifier);
     assert.equal(articleMediaRegistry[obsoleteId], undefined);
-    assert.equal(articleMediaRegistry[canonicalId], undefined);
-    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${obsoleteId}-`) || filename.startsWith(`${canonicalId}-`)));
+    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${obsoleteId}-`)));
+    if (expectedStatus === "reviewed") {
+      assert.ok(articleMediaRegistry[canonicalId], `${canonicalId} should have reviewed current-name media`);
+      assert.ok(publishedMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
+    } else {
+      assert.equal(articleMediaRegistry[canonicalId], undefined);
+      assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
+    }
   }
   for (const id of resolvedHeldIds) {
     const canonicalId = getArticleAliases()[id];
