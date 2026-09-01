@@ -1,6 +1,6 @@
 # WikiBiome microorganism media batch 023
 
-Status: review-only, awaiting WikiBiome root-control visual disposition
+Status: reviewed and promoted after WikiBiome root-control full-resolution acceptance
 Authorized parent: `8252408200304cd7f9d38f573f3d3c16ead2eddc`
 Identity and prompt audit date: 2026-09-02
 Generator: OpenAI built-in image generation
@@ -178,21 +178,27 @@ Connected pairs are counted as multiple bodies only where ordinary individual bo
 | `lactobacillus-iners` | `exec-08a41a6e-4f38-4740-abf9-d3a94d5e0df6.png` | `e8a944e60c5d3793658a44501c7b8bbde3dad66885b584b41ccce40614883eb3` | `73f7a21c663f4ed73d1ac65ded950a6482c50b58ff364d069a39841210b1194f` | 1,190,987 | 11 compact bodies / 8 groups: 5 singles, 3 touching pairs; 5 very short rod bodies and 6 coccobacillary bodies; the centrally constricted upper body is one continuous rod | One additional body and grouping; output mix is 5 short rods / 6 coccobacillary bodies rather than requested 6 / 4. |
 | `lactobacillus-jensenii` | `exec-26330e84-e360-42b5-ad68-5cc636481b68.png` | `04ff0042678065b4611a6a7a3bcf686b87191758b31daa822785d05cffefa006` | `6496b4dbcdb232b7faee082385fc334491a5c423297141d5196d1671ddd7900b` | 1,236,326 | 8 rods / 6 groups: 4 singles, 2 touching end-to-end pairs; exactly 1 mildly curved single | None in count, grouping, curve count, or pale-field treatment. |
 
-Every count-bearing body is fully inside the frame and inside the central vertical band retained by a standard 1200 by 630 cover crop. A deterministic native-pixel audit places all foreground bounding boxes between y=223 and y=787, inside the cover-safe y=109 to y=914 band. The outer 32-pixel border of every canvas remains high-key and pale; no vignette or dark corner is present. No text, label, scale bar, embedded arrow, warm-neutral shift, blue-on-blue subject loss, decorative particle, host tissue, culture vessel, clipping, signature, or watermark is visible. No spore, appendage, capsule, halo, sheath, or shared envelope is visible. These plates are review-only scientific reconstructions, not micrographs, and none supports visual diagnosis.
+Every count-bearing body is fully inside the frame and inside the central vertical band retained by a standard 1200 by 630 cover crop. A deterministic native-pixel audit places all foreground bounding boxes between y=223 and y=787, inside the cover-safe y=109 to y=914 band. The outer 32-pixel border of every canvas remains high-key and pale; no vignette or dark corner is present. No text, label, scale bar, embedded arrow, warm-neutral shift, blue-on-blue subject loss, decorative particle, host tissue, culture vessel, clipping, signature, or watermark is visible. No spore, appendage, capsule, halo, sheath, or shared envelope is visible. These plates are scientific algorithmic reconstructions, not micrographs or photographs, and none supports visual diagnosis.
 
-## Proposed review-stage accessibility and provenance language
+## Reviewed accessibility and provenance language
 
 - `lactobacillus-crispatus`
   - Alt: Eleven Lactobacillus crispatus rods appear in eight groupings: five singles, two side-by-side pairs, and one end-to-end pair, with two gently curved singles.
-  - Caption: Type-strain-anchored Lactobacillus crispatus rods, shown as eleven bodies in five single and three paired groupings. This review-only scientific reconstruction is representative, non-diagnostic, not a micrograph, and makes no universal phenotype claim.
+  - Caption: Type-strain-anchored Lactobacillus crispatus rods, shown as eleven bodies in five single and three paired groupings. This scientific reconstruction is representative, non-diagnostic, not a micrograph, and makes no universal phenotype claim.
 - `lactobacillus-gasseri`
   - Alt: Nine compact rounded-end Lactobacillus gasseri rods appear in seven groupings: five singles, one close two-rod arrangement, and one touching pair.
-  - Caption: Type-strain-anchored Lactobacillus gasseri rounded-end rods, shown as nine bodies in five single and two paired groupings. This review-only scientific reconstruction is representative, non-diagnostic, and not a micrograph.
+  - Caption: Type-strain-anchored Lactobacillus gasseri rounded-end rods, shown as nine bodies in five single and two paired groupings. This scientific reconstruction is representative, non-diagnostic, and not a micrograph.
 - `lactobacillus-iners`
   - Alt: Eleven compact Lactobacillus iners bodies appear in eight groupings: five singles and three pairs, including five very short rods and six coccobacillary forms.
-  - Caption: Source-supported short-rod and compact coccobacillary variation in Lactobacillus iners, shown as eleven bodies in five single and three paired groupings. This review-only scientific reconstruction is representative, non-diagnostic, not a micrograph or Gram-stained field, and does not imply that shape alone identifies the species.
+  - Caption: Source-supported short-rod and compact coccobacillary variation in Lactobacillus iners, shown as eleven bodies in five single and three paired groupings. This scientific reconstruction is representative, non-diagnostic, not a micrograph or Gram-stained field, and does not imply that shape alone identifies the species.
 - `lactobacillus-jensenii`
   - Alt: Eight Lactobacillus jensenii rods appear in six groupings: four singles and two end-to-end pairs, including one gently curved single.
-  - Caption: Type-strain-anchored Lactobacillus jensenii rods, shown as eight bodies in four single and two paired groupings. This review-only scientific reconstruction is representative, non-diagnostic, not a micrograph, and makes no universal phenotype claim.
+  - Caption: Type-strain-anchored Lactobacillus jensenii rods, shown as eight bodies in four single and two paired groupings. This scientific reconstruction is representative, non-diagnostic, not a micrograph, and makes no universal phenotype claim.
 
-Proposed provenance for every generated route: generated once with the OpenAI built-in image generator from the route's immutable batch-023 prompt after current-identity and conservative-morphology audit; human-audited at original 1536 by 1024 resolution. Review-only scientific reconstruction, not a micrograph. Output-specific deviations remain disclosed in the manifest and ledger. No image is approved for publication until WikiBiome root control issues an exact-hash original-resolution disposition.
+Reviewed provenance for every generated route: generated once with the OpenAI built-in image generator from the route's immutable batch-023 prompt after current-identity and conservative-morphology audit; human-audited at original 1536 by 1024 resolution and accepted by WikiBiome root control. Scientific algorithmic reconstruction, not a micrograph or photograph. Output-specific deviations remain disclosed in the manifest and ledger.
+
+## Promotion record
+
+WikiBiome root control directly inspected and accepted all four exact PNGs at full resolution and authorized promotion without regeneration, revision, or source-pixel alteration. The accepted body/group counts and all prompt deviations remain literal in the manifest, public accessibility language, embedded metadata, and review ledger. Each native 1200 by 630 cover transform retains every accepted body and grouping, so all four social derivatives use `cover`; no contain override is required. Canonical masters decode pixel-identically to the accepted source PNGs. No `work/media-drafts` path is publicly routed.
+
+`lactobacillus-plantarum` and `lactobacillus-reuteri` remain active asset-free scientific identity holds. Neither route owns a prompt, raster, registry key, canonical master, article or social derivative, structured media record, canonical media endpoint, image sitemap entry, coverage completion, copied image, or aliased image. Their future current-name owners remain `lactiplantibacillus-plantarum` (`NCBITaxon:1590`) and `limosilactobacillus-reuteri` (`NCBITaxon:1598`) after editorial canonicalization and audited permanent redirects.

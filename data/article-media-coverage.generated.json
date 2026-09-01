@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "797d9a10577d858e9b266b2ce44a5bd7bd88eabff6508d41199e0fcb4bca6d0a",
+    "registrySha256": "e3dd497324e7c3522d2988352dab449d5781aa44e26085dfe120f4cf556b9372",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "5a84e23921888ef2f1c7e93d93b260395a06248c86f76bb51b0b4362b63895ef",
+    "reviewLogSha256": "109e1deba9c9604535c93b094055b1d7f03607c4535f184d9aa9e5086f521d6d",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -147,8 +147,8 @@
       {
         "file": "data/article-media-batches/microorganisms-023.json",
         "batchId": "microorganisms-023",
-        "status": "awaiting-control-review",
-        "sha256": "b0256cd3510df156e48515267dc139240a12263dc9b021081b7d19f7785ed87d"
+        "status": "reviewed",
+        "sha256": "f8dd40cc20f272ce4fbebdf3430143ba6da05f0aa12ed23d148bc0990a3a9e42"
       }
     ]
   },
@@ -170,20 +170,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 125,
-    "remaining": 585,
+    "completed": 129,
+    "remaining": 581,
     "rejected": 17,
     "revised": 10,
     "scientificHolds": 4,
-    "inReview": 4
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 122,
-      "remaining": 107
+      "completed": 126,
+      "remaining": 103
     },
     {
       "id": "metals",
@@ -3424,12 +3424,14 @@
       "route": "/article/lactobacillus-crispatus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-023",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-023/lactobacillus-crispatus-draft.png",
-        "sha256": "763b002168255468b259624f3ef29d546c51a979b809cec396f23fbf5aefd3c7"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lactobacillus-crispatus-morphology-v1-master.png",
+        "publishedFile": "lactobacillus-crispatus-morphology-v1.webp",
+        "socialFile": "lactobacillus-crispatus-morphology-v1-social.webp"
       }
     },
     {
@@ -3443,12 +3445,14 @@
       "route": "/article/lactobacillus-gasseri",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-023",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-023/lactobacillus-gasseri-draft.png",
-        "sha256": "85dfa2a02e52e9b8e7188abba1b7d8bf328d7e7c3d3ae4e1030b097bba85b041"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lactobacillus-gasseri-morphology-v1-master.png",
+        "publishedFile": "lactobacillus-gasseri-morphology-v1.webp",
+        "socialFile": "lactobacillus-gasseri-morphology-v1-social.webp"
       }
     },
     {
@@ -3462,12 +3466,14 @@
       "route": "/article/lactobacillus-iners",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-023",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-023/lactobacillus-iners-draft.png",
-        "sha256": "73f7a21c663f4ed73d1ac65ded950a6482c50b58ff364d069a39841210b1194f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lactobacillus-iners-morphology-v1-master.png",
+        "publishedFile": "lactobacillus-iners-morphology-v1.webp",
+        "socialFile": "lactobacillus-iners-morphology-v1-social.webp"
       }
     },
     {
@@ -3481,12 +3487,14 @@
       "route": "/article/lactobacillus-jensenii",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-023",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-023/lactobacillus-jensenii-draft.png",
-        "sha256": "6496b4dbcdb232b7faee082385fc334491a5c423297141d5196d1671ddd7900b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lactobacillus-jensenii-morphology-v1-master.png",
+        "publishedFile": "lactobacillus-jensenii-morphology-v1.webp",
+        "socialFile": "lactobacillus-jensenii-morphology-v1-social.webp"
       }
     },
     {

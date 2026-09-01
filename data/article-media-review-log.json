@@ -3199,6 +3199,127 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 022 after immutable-hash verification and explicit acceptance of the pair-orientation deviation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillus-acidophilus-draft.png", "sourceSha256": "7b11c1e7487412163550223eef1c051fa62130c965a9ef40f9cb3e2b3dbafcc3", "generationRecord": "exec-bebf51a2-ad16-4c0f-bca2-5994e7554fd8.png" }
+    },
+    "lactobacillus-crispatus|lactobacillus-crispatus-morphology-v1.webp": {
+      "pageId": "lactobacillus-crispatus",
+      "publishedFile": "lactobacillus-crispatus-morphology-v1.webp",
+      "masterSource": "lactobacillus-crispatus-morphology-v1-master.png",
+      "socialFile": "lactobacillus-crispatus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47770&mode=Info",
+          "https://lpsn.dsmz.de/species/lactobacillus-crispatus",
+          "https://bacdive.dsmz.de/strain/6442",
+          "https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-33-2-426"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Lactobacillus crispatus, NCBITaxon:47770. Type-strain and primary nomenclatural evidence support a conservative rod treatment without implying that length, curvature, grouping, or phenotype diagnoses the species."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct full-resolution review accepted eleven rods in eight groups: five singles, two touching side-by-side pairs, and one touching end-to-end pair, including two gently curved singles. The disclosed extra body and group do not misstate morphology."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the accepted eleven-body/eight-group output. Caption states type-strain-anchored, representative, non-diagnostic, non-micrograph scope and makes no universal phenotype claim. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root full-resolution review in microorganisms batch 023 after immutable-hash verification and explicit acceptance of the count deviation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillus-crispatus-draft.png", "sourceSha256": "763b002168255468b259624f3ef29d546c51a979b809cec396f23fbf5aefd3c7", "generationRecord": "exec-372a21fe-2dd1-4a93-8188-6353749f3bf0.png" }
+    },
+    "lactobacillus-gasseri|lactobacillus-gasseri-morphology-v1.webp": {
+      "pageId": "lactobacillus-gasseri",
+      "publishedFile": "lactobacillus-gasseri-morphology-v1.webp",
+      "masterSource": "lactobacillus-gasseri-morphology-v1-master.png",
+      "socialFile": "lactobacillus-gasseri-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1596&mode=Info",
+          "https://lpsn.dsmz.de/species/lactobacillus-gasseri",
+          "https://bacdive.dsmz.de/strain/6466",
+          "https://journals.asm.org/doi/10.1128/AEM.00054-08"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Lactobacillus gasseri, NCBITaxon:1596. Type-strain and primary type-genome evidence support compact rounded-end rods without implying visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct full-resolution review accepted nine compact rods in seven groups: five singles, one close non-contact end-to-end two-rod arrangement, and one touching end-to-end pair. The accepted contact deviation is recorded literally."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text distinguishes the close arrangement from the touching pair and follows the accepted nine-body/seven-group output. Caption states representative, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root full-resolution review in microorganisms batch 023 after immutable-hash verification and exact contact-state reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillus-gasseri-draft.png", "sourceSha256": "85dfa2a02e52e9b8e7188abba1b7d8bf328d7e7c3d3ae4e1030b097bba85b041", "generationRecord": "exec-c826af5b-f72e-4d08-bf9a-fffe120e6545.png" }
+    },
+    "lactobacillus-iners|lactobacillus-iners-morphology-v1.webp": {
+      "pageId": "lactobacillus-iners",
+      "publishedFile": "lactobacillus-iners-morphology-v1.webp",
+      "masterSource": "lactobacillus-iners-morphology-v1-master.png",
+      "socialFile": "lactobacillus-iners-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=147802&mode=Info",
+          "https://lpsn.dsmz.de/species/lactobacillus-iners",
+          "https://pubmed.ncbi.nlm.nih.gov/10028266/",
+          "https://bacdive.dsmz.de/strain/6580",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2233628/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Lactobacillus iners, NCBITaxon:147802. Original, type-strain, and peer-reviewed microscopy evidence supports rods and pleomorphic very-short-rod or compact coccobacillary forms without encoding staining behavior or visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct full-resolution review specifically accepted the pleomorphic reconstruction: eleven compact bodies in eight groups, five singles and three touching pairs, comprising five very short rods and six coccobacillary forms. One constricted continuous rod remains counted as one body."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the accepted eleven-body/eight-group and five-short-rod/six-coccobacillary output. Caption states representative, non-diagnostic, non-micrograph, non-photograph, and non-Gram-stained-field scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root full-resolution review in microorganisms batch 023 after immutable-hash verification and explicit acceptance of the pleomorphic shape mix and count deviation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillus-iners-draft.png", "sourceSha256": "73f7a21c663f4ed73d1ac65ded950a6482c50b58ff364d069a39841210b1194f", "generationRecord": "exec-08a41a6e-4f38-4740-abf9-d3a94d5e0df6.png" }
+    },
+    "lactobacillus-jensenii|lactobacillus-jensenii-morphology-v1.webp": {
+      "pageId": "lactobacillus-jensenii",
+      "publishedFile": "lactobacillus-jensenii-morphology-v1.webp",
+      "masterSource": "lactobacillus-jensenii-morphology-v1-master.png",
+      "socialFile": "lactobacillus-jensenii-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=109790&mode=Info",
+          "https://lpsn.dsmz.de/species/lactobacillus-jensenii",
+          "https://www.microbiologyresearch.org/content/journal/micro/10.1099/00221287-62-2-219",
+          "https://bacdive.dsmz.de/strain/6475"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Lactobacillus jensenii, NCBITaxon:109790. Original and type-strain evidence supports non-sporing rods without implying that length, curvature, grouping, or phenotype permits visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct full-resolution review accepted eight rods in six groups: four singles and two touching end-to-end pairs, including one mildly curved single. No spore, appendage, capsule, shared envelope, text, or scene is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the accepted eight-body/six-group output and disclosed curvature. Caption states type-strain-anchored, representative, non-diagnostic, non-micrograph scope and makes no universal phenotype claim. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root full-resolution review in microorganisms batch 023 after immutable-hash and output-count verification.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillus-jensenii-draft.png", "sourceSha256": "6496b4dbcdb232b7faee082385fc334491a5c423297141d5196d1671ddd7900b", "generationRecord": "exec-26330e84-e360-42b5-ad68-5cc636481b68.png" }
     }
   },
   "rejectedAssets": [
