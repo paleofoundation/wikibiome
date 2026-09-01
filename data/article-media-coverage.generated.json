@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "9168556852ecb065a546e3cf8703e83c440842c7031820494b157bb69fe57514",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "9d8c55cbe6b6b582184355b210eec68f6e74336b212817ded267216e6ae4b578",
+    "registrySha256": "b0ecc96cb60b90780d7a0425d89e54a5aeb1c9df5822991cb56517f4846c13e7",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "2770dc11df8b26f9ec13d9776c128c1ea96fd6a272a136692ac7baacacbb013a",
+    "reviewLogSha256": "49c499663febc0e6d10df262cddd39982beda0941e148d613f1289f694ccb083",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -65,6 +65,12 @@
         "batchId": "microorganisms-009",
         "status": "reviewed",
         "sha256": "d7d285017bafd7e7a507198a693121f84c9951fdf794e9969e1ae1aa5cde81ca"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-010.json",
+        "batchId": "microorganisms-010",
+        "status": "reviewed",
+        "sha256": "e98341687713c2660ee46b2315a9e63f2c53120fbae78c1269f77b0e0a4b71db"
       }
     ]
   },
@@ -86,8 +92,8 @@
   },
   "current": {
     "total": 712,
-    "completed": 56,
-    "remaining": 656,
+    "completed": 60,
+    "remaining": 652,
     "rejected": 8,
     "revised": 7,
     "scientificHolds": 0,
@@ -98,8 +104,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 231,
-      "completed": 53,
-      "remaining": 178
+      "completed": 57,
+      "remaining": 174
     },
     {
       "id": "metals",
@@ -417,15 +423,6 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 52,
-      "id": "candida-tropicalis",
-      "title": "Candida tropicalis",
-      "route": "/article/candida-tropicalis",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
       "queuePosition": 53,
       "id": "candidozyma-auris",
       "title": "Candidozyma auris",
@@ -436,37 +433,46 @@
       "controlledIdentifier": "NCBITaxon:498019"
     },
     {
-      "queuePosition": 54,
-      "id": "caulobacter",
-      "title": "Caulobacter",
-      "route": "/article/caulobacter",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 55,
-      "id": "chlamydia",
-      "title": "Chlamydia",
-      "route": "/article/chlamydia",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 56,
-      "id": "chlamydia-trachomatis",
-      "title": "Chlamydia trachomatis",
-      "route": "/article/chlamydia-trachomatis",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
       "queuePosition": 57,
       "id": "christensenellaceae",
       "title": "Christensenellaceae",
       "route": "/article/christensenellaceae",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 58,
+      "id": "citrobacter",
+      "title": "Citrobacter",
+      "route": "/article/citrobacter",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 59,
+      "id": "cladosporium",
+      "title": "Cladosporium",
+      "route": "/article/cladosporium",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 60,
+      "id": "clostridia",
+      "title": "Clostridia",
+      "route": "/article/clostridia",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 61,
+      "id": "clostridiales",
+      "title": "Clostridiales",
+      "route": "/article/clostridiales",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -1556,7 +1562,15 @@
       "route": "/article/candida-tropicalis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "candida-tropicalis-morphology-v1-master.png",
+        "publishedFile": "candida-tropicalis-morphology-v1.webp",
+        "socialFile": "candida-tropicalis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 53,
@@ -1583,7 +1597,15 @@
       "route": "/article/caulobacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "caulobacter-morphology-v1-master.png",
+        "publishedFile": "caulobacter-morphology-v1.webp",
+        "socialFile": "caulobacter-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 55,
@@ -1596,7 +1618,15 @@
       "route": "/article/chlamydia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "chlamydia-morphology-v1-master.png",
+        "publishedFile": "chlamydia-morphology-v1.webp",
+        "socialFile": "chlamydia-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 56,
@@ -1609,7 +1639,15 @@
       "route": "/article/chlamydia-trachomatis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "chlamydia-trachomatis-morphology-v1-master.png",
+        "publishedFile": "chlamydia-trachomatis-morphology-v1.webp",
+        "socialFile": "chlamydia-trachomatis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 57,

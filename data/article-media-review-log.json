@@ -1092,6 +1092,126 @@
       "disposition": "approved",
       "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 009 after literal prompt provenance and count-bearing metadata reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "campylobacter-jejuni-draft.png", "generationRecord": "exec-08d5b33c-bc59-414b-b9a6-f2eb53353724.png" }
+    },
+    "candida-tropicalis|candida-tropicalis-morphology-v1.webp": {
+      "pageId": "candida-tropicalis",
+      "publishedFile": "candida-tropicalis-morphology-v1.webp",
+      "masterSource": "candida-tropicalis-morphology-v1-master.png",
+      "socialFile": "candida-tropicalis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5482&mode=Info",
+          "https://pubmed.ncbi.nlm.nih.gov/24442892/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC246248/"
+        ],
+        "notes": "NCBI Taxonomy confirms current species NCBITaxon:5482; the recorded primary microscopy supports oval budding bodies and pseudohyphal forms. The plate is explicitly selected, non-diagnostic, and makes no colony-color claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly eight bodies in five groupings: three isolated oval yeast cells, one two-body budding pair, and one elongated three-body pseudohyphal chain with constrictions. No host material, label, appendage, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all eight bodies and five groupings, including the budding pair and three-body chain; caption states selected species-level, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 010 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "candida-tropicalis-draft.png", "generationRecord": "exec-52aa3806-9d26-4c31-8332-368dc7bf0762.png" }
+    },
+    "caulobacter|caulobacter-morphology-v1.webp": {
+      "pageId": "caulobacter",
+      "publishedFile": "caulobacter-morphology-v1.webp",
+      "masterSource": "caulobacter-morphology-v1-master.png",
+      "socialFile": "caulobacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=75&mode=Info",
+          "https://lpsn.dsmz.de/genus/caulobacter",
+          "https://bacdive.dsmz.de/strain/2334",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC543564/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus NCBITaxon:75; the type-strain record supports rod morphology and primary microscopy supports a narrow polar stalk in representative members. The plate is static, non-process, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly seven separated curved rods: two with one restrained short polar stalk each and five unstalked. No flagellum, scene, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles seven isolated rods and the two-stalked plus five-unstalked arrangement; caption explicitly states static genus-level, non-diagnostic, non-lifecycle, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 010 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "caulobacter-draft.png", "generationRecord": "exec-9f93f538-da5c-4a9a-ad89-59b8a6e35c2c.png" }
+    },
+    "chlamydia|chlamydia-morphology-v1.webp": {
+      "pageId": "chlamydia",
+      "publishedFile": "chlamydia-morphology-v1.webp",
+      "masterSource": "chlamydia-morphology-v1-master.png",
+      "socialFile": "chlamydia-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=810&mode=Info",
+          "https://lpsn.dsmz.de/genus/chlamydia",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC248362/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC212462/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus NCBITaxon:810; primary electron microscopy supports small compact and modestly larger round bodies with taxon-level variation. The two size classes are qualitative, representative, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly ten separated coccoid bodies in two visibly different size classes: six smaller and four larger. No host cell, lifecycle, process, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all ten isolated bodies and the six-smaller plus four-larger classes; caption denies metrological scale, diagnosis, micrograph status, and lifecycle interpretation."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 010 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "chlamydia-draft.png", "generationRecord": "exec-7a248bf8-15cd-4748-ab7c-ce2a6de60ada.png" }
+    },
+    "chlamydia-trachomatis|chlamydia-trachomatis-morphology-v1.webp": {
+      "pageId": "chlamydia-trachomatis",
+      "publishedFile": "chlamydia-trachomatis-morphology-v1.webp",
+      "masterSource": "chlamydia-trachomatis-morphology-v1-master.png",
+      "socialFile": "chlamydia-trachomatis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=813&mode=Info",
+          "https://lpsn.dsmz.de/species/chlamydia-trachomatis",
+          "https://bacdive.dsmz.de/strain/2393",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5752669/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4336559/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current species NCBITaxon:813; type-strain and primary electron-microscopy records support representative smaller and larger body forms but not isolated visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly eight separated coccoid bodies in two size classes: five smaller and three larger. No host cell, lifecycle, process, label, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all eight isolated bodies and the five-smaller plus three-larger classes; caption explicitly denies species diagnosis, metrological scale, micrograph status, and lifecycle interpretation."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 010 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "chlamydia-trachomatis-draft.png", "generationRecord": "exec-d63479c2-6e22-4462-a001-8cdac706d7e9.png" }
     }
   },
   "rejectedAssets": [
