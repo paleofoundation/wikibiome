@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "31b16844c96721b1a428842d302dfad1db5c957e4430bf5f0d06d1d85fbdec79",
+    "registrySha256": "05f8d4f68e1186d321de6392613732bdc83abe8bb567643a3e8a4182842cfc67",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f63feb6aa385ebf4b954048d147094d1925c91420ed79c81fdd5c5aac752d0b2",
+    "reviewLogSha256": "129ccfa5bd7c59f3cb6292b72a82ea54a85900c562af203634fc042d41ff031d",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -135,8 +135,8 @@
       {
         "file": "data/article-media-batches/microorganisms-021.json",
         "batchId": "microorganisms-021",
-        "status": "awaiting-control-review",
-        "sha256": "d4f9b736ff3ba4d131b78d2c0b0b3b8f8e2401d6a32be2a90bba4c1038a9a5f7"
+        "status": "reviewed",
+        "sha256": "52893025276b99ac33209df27ec5ed2f31e7d0179269a66e2204f224dd228c0e"
       }
     ]
   },
@@ -158,20 +158,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 115,
-    "remaining": 595,
+    "completed": 120,
+    "remaining": 590,
     "rejected": 14,
     "revised": 10,
     "scientificHolds": 1,
-    "inReview": 5
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 112,
-      "remaining": 117
+      "completed": 117,
+      "remaining": 112
     },
     {
       "id": "metals",
@@ -539,6 +539,7 @@
     },
     {
       "pageId": "lachnoclostridium",
+      "sourceEraIdentifier": "NCBITaxon:1506553",
       "batchId": "microorganisms-021",
       "reviewedOn": "2026-09-01",
       "reviewingAuthority": "wikibiome-media-program",
@@ -663,7 +664,7 @@
       "disposition": "revise",
       "reason": "Root control rejected v1 because the severe black or dark top and bottom vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
       "supersededBy": "work/media-drafts/microorganisms-batch-021/klebsiella-draft-v2.png",
-      "outcome": "Exactly one authorized independent v2 generation call produced ten rods in eight groupings with three individually capsule-bearing singles on a uniform pale full-canvas field. V2 remains review-only pending root original-resolution disposition; v1 remains immutable rejected evidence and was not edited or reused."
+      "outcome": "Exactly one authorized independent v2 generation call produced ten rods in eight groupings with three individually capsule-bearing singles on a uniform pale full-canvas field. Root accepted the exact v2 hash for promotion; v1 remains immutable rejected evidence, was not edited or reused, and owns no public media artifact."
     },
     {
       "pageId": "lachnospira",
@@ -676,7 +677,7 @@
       "disposition": "revise",
       "reason": "Root control rejected v1 because the severe black or dark upper and lower vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
       "supersededBy": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
-      "outcome": "Exactly one authorized independent v2 generation call produced nine rods in seven groupings, including one C-bent and one S-bent single with zero appendages, on a uniform pale full-canvas field. V2 remains review-only pending root original-resolution disposition; v1 remains immutable rejected evidence and was not edited or reused."
+      "outcome": "Exactly one authorized independent v2 generation call produced nine rods in seven groupings, including one C-bent and one S-bent single with zero appendages, on a uniform pale full-canvas field. Root accepted the exact v2 hash for promotion; v1 remains immutable rejected evidence, was not edited or reused, and owns no public media artifact."
     }
   ],
   "nextBatch": [
@@ -3106,12 +3107,14 @@
       "route": "/article/intestinimonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-021",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-021/intestinimonas-draft.png",
-        "sha256": "49aa2443bc087d72a66a23847205cb4cad8d55aba0bfef42f2df89fbe9875b11"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "intestinimonas-morphology-v1-master.png",
+        "publishedFile": "intestinimonas-morphology-v1.webp",
+        "socialFile": "intestinimonas-morphology-v1-social.webp"
       }
     },
     {
@@ -3125,12 +3128,14 @@
       "route": "/article/klebsiella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-021",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-draft-v2.png",
-        "sha256": "4e9b5d1b55f38f8072205642c3b8527eb8cddc443eabac7579b3e7f4bcb65cfc"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "klebsiella-morphology-v1-master.png",
+        "publishedFile": "klebsiella-morphology-v1.webp",
+        "socialFile": "klebsiella-morphology-v1-social.webp"
       }
     },
     {
@@ -3144,12 +3149,14 @@
       "route": "/article/klebsiella-pneumoniae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-021",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-pneumoniae-draft.png",
-        "sha256": "19f66d75ac14033971bea381df9736e3d25015a6eb79af578c182d041770640c"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "klebsiella-pneumoniae-morphology-v1-master.png",
+        "publishedFile": "klebsiella-pneumoniae-morphology-v1.webp",
+        "socialFile": "klebsiella-pneumoniae-morphology-v1-social.webp"
       }
     },
     {
@@ -3163,12 +3170,14 @@
       "route": "/article/lachnobacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-021",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-021/lachnobacterium-draft.png",
-        "sha256": "1728aa663695b2f61648403f14df520cfaeed934e51de7c90c60c860da267107"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lachnobacterium-morphology-v1-master.png",
+        "publishedFile": "lachnobacterium-morphology-v1.webp",
+        "socialFile": "lachnobacterium-morphology-v1-social.webp"
       }
     },
     {
@@ -3201,12 +3210,14 @@
       "route": "/article/lachnospira",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-021",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
-        "sha256": "348d799050ccc7a0fde18578bf209c821c8ef1ab27e1331ca8d5edef366a4cd7"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lachnospira-morphology-v1-master.png",
+        "publishedFile": "lachnospira-morphology-v1.webp",
+        "socialFile": "lachnospira-morphology-v1-social.webp"
       }
     },
     {

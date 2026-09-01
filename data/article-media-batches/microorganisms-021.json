@@ -2,17 +2,18 @@
   "schemaVersion": 1,
   "batchId": "microorganisms-021",
   "category": "microorganisms",
-  "status": "awaiting-control-review",
+  "status": "reviewed",
   "createdOn": "2026-09-01",
+  "reviewedOn": "2026-09-02",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/microorganisms-021.md",
-  "reviewStandard": "Current identity, rank, and controlled identifiers were checked against NCBI Taxonomy and LPSN before prompt creation, with conservative appearance bounded by primary, type-strain, or authoritative morphology sources. Five routes cleared; Lachnoclostridium failed closed because its genus name is not validly published and LPSN gives it synonym status with no standing and zero valid correct-name children. The held route received no prompt, generation call, raster, or substitute. Exactly one successful built-in v1 generation call was made per cleared route. Root control accepted Intestinimonas, Klebsiella pneumoniae, and Lachnobacterium v1 unchanged, and rejected Klebsiella and Lachnospira v1 because severe dark upper and lower vignettes violated the uniform pale scientific field. Those v1 files remain immutable rejected evidence. Root then authorized exactly one independent new generation call for each v2, with no edit, reuse, retry, or further revision, for seven total successful calls and two revisions. Every copied PNG was inspected at its original 1536 by 1024 resolution. Observed bodies, groupings, capsule envelopes, background edge-band measurements, and prompt deviations are literal native-resolution audit results; prompt counts are not output evidence. Five current candidates remain review-only, with the two v2 files requiring separate root-control original-resolution disposition before any promotion.",
+  "reviewStandard": "Current identity, rank, and controlled identifiers were checked against NCBI Taxonomy and LPSN before prompt creation, with conservative appearance bounded by primary, type-strain, or authoritative morphology sources. Five routes cleared; Lachnoclostridium failed closed because its genus name is not validly published and LPSN gives it synonym status with no standing and zero valid correct-name children. The held route received no prompt, generation call, raster, or substitute and remains an active asset-free scientific hold. Exactly one successful built-in v1 generation call was made per cleared route. Root control accepted Intestinimonas, Klebsiella pneumoniae, and Lachnobacterium v1 unchanged, and rejected Klebsiella and Lachnospira v1 because severe dark upper and lower vignettes violated the uniform pale scientific field. Those v1 files remain immutable rejected evidence. Root then authorized exactly one independent new generation call for each v2, with no edit, reuse, retry, or further revision, for seven total successful calls and two revisions. Root subsequently accepted the exact Klebsiella and Lachnospira v2 hashes and authorized promotion of exactly the five accepted originals. Every copied PNG was inspected at its original 1536 by 1024 resolution. Observed bodies, groupings, capsule envelopes, background edge-band measurements, and prompt deviations are literal native-resolution audit results; prompt counts are not output evidence. Native 1200 by 630 cover previews retain every accepted body, grouping, bend, and capsule boundary, so all five social derivatives use the validated cover transform.",
   "routeDecisionCount": 6,
   "candidateCount": 5,
   "scientificHoldCount": 1,
   "generationCallCount": 7,
   "revisionCount": 2,
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "assets": [
     {
       "pageId": "intestinimonas",
@@ -59,15 +60,15 @@
       "proposedAlt": "Nine selected Intestinimonas vegetative rods appear in seven groupings: five singles and two close parallel pairs.",
       "proposedCaption": "Type-species-anchored Intestinimonas vegetative rods, shown as nine bodies in five single and two paired groupings. This genus-level scientific reconstruction is representative, non-diagnostic, does not assert a universal sporulation form, and is not a micrograph.",
       "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Intestinimonas vegetative rods arranged as five singles and two touching pairs on a pale cool field.",
-      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-021 prompt after current-identity and type-species morphology audit; human-audited at the original 1536 by 1024 resolution. Review-only scientific reconstruction, not a micrograph."
+      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-021 prompt after current-identity and type-species morphology audit; human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome root control. Scientific reconstruction, not a micrograph."
     },
     {
       "pageId": "klebsiella",
       "displayName": "Klebsiella",
       "assetType": "morphology",
       "revision": 2,
-      "decision": "generated-awaiting-control-review",
-      "rootReviewDisposition": "pending",
+      "decision": "approved-after-output-audit",
+      "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-draft-v2.png",
       "generationRecord": "exec-a25139f3-153c-4c45-9140-4b6bde54fed6.png",
       "promptSha256": "a9b701d01b619b6d5517b4e32081c270642a6d4545066b3d2208ce7781dbdc93",
@@ -116,7 +117,7 @@
       "proposedAlt": "Ten selected Klebsiella plump rods appear in eight groupings: six singles and two touching pairs; three isolated bodies show thin capsule envelopes.",
       "proposedCaption": "Type-species-anchored Klebsiella plump rods, shown as ten bodies in six single and two paired groupings with three selected capsule envelopes. This genus-level reconstruction is representative, non-diagnostic, not a universal genus form, and does not imply that bodies without an emphasized envelope lack capsules in nature. It is not a micrograph.",
       "proposedDescription": "WikiBiome static scientific reconstruction of ten selected Klebsiella plump rods in eight groupings, including three individually capsule-bearing singles, on a uniform edge-to-edge cool pale field.",
-      "proposedProvenance": "Generated in exactly one control-authorized independent v2 built-in image call from the immutable batch-021 revision prompt after root rejected v1's dark vignette. V1 was not supplied, edited, or reused and remains immutable rejected evidence. Human-audited at the original 1536 by 1024 resolution. Review-only scientific reconstruction, not a micrograph; v2 remains pending root disposition."
+      "proposedProvenance": "Generated in exactly one control-authorized independent v2 built-in image call from the immutable batch-021 revision prompt after root rejected v1's dark vignette. V1 was not supplied, edited, or reused and remains immutable rejected evidence. Human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome root control. Scientific reconstruction, not a micrograph."
     },
     {
       "pageId": "klebsiella-pneumoniae",
@@ -162,7 +163,7 @@
       "proposedAlt": "Eight isolated Klebsiella pneumoniae plump rods each show one closely following translucent capsule halo.",
       "proposedCaption": "Representative encapsulated Klebsiella pneumoniae rods, shown as eight isolated bodies with individual hydrated halos. This scientific reconstruction is non-diagnostic, does not imply visual separation from other Klebsiella, and is not a micrograph.",
       "proposedDescription": "WikiBiome static scientific reconstruction of eight isolated Klebsiella pneumoniae plump rods, each with one individual translucent capsule halo, on a pale cool field.",
-      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-021 prompt after current-identity and source-bounded capsule morphology audit; human-audited at the original 1536 by 1024 resolution. Review-only scientific reconstruction, not a micrograph."
+      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-021 prompt after current-identity and source-bounded capsule morphology audit; human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome root control. Scientific reconstruction, not a micrograph."
     },
     {
       "pageId": "lachnobacterium",
@@ -206,7 +207,7 @@
       "proposedAlt": "Eleven selected Lachnobacterium slender rods appear in eight groupings: five singles and three touching end-to-end pairs.",
       "proposedCaption": "Type-species-anchored Lachnobacterium rods, shown as eleven bodies in five single and three paired groupings. This genus-level scientific reconstruction is representative, non-diagnostic, does not turn colony-form etymology into cellular morphology, and is not a micrograph.",
       "proposedDescription": "WikiBiome static scientific reconstruction of eleven selected Lachnobacterium slender rods arranged as five singles and three touching end-to-end pairs on a pale cool field.",
-      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-021 prompt after current-identity and type-species morphology audit; human-audited at the original 1536 by 1024 resolution. Review-only scientific reconstruction, not a micrograph. The added third pair is disclosed and public metadata, if ever approved, must follow the observed eleven-body output."
+      "proposedProvenance": "Generated once with the OpenAI built-in image generator from the immutable batch-021 prompt after current-identity and type-species morphology audit; human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome root control. Scientific reconstruction, not a micrograph. The added third pair is disclosed and public metadata follows the observed eleven-body output."
     },
     {
       "pageId": "lachnoclostridium",
@@ -231,8 +232,8 @@
       "displayName": "Lachnospira",
       "assetType": "morphology",
       "revision": 2,
-      "decision": "generated-awaiting-control-review",
-      "rootReviewDisposition": "pending",
+      "decision": "approved-after-output-audit",
+      "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
       "generationRecord": "exec-4781c444-94d1-4ab4-82c9-e4fb4126e7f8.png",
       "promptSha256": "0ecfb0cada573ba0c16ee226038ad81ece877e30dc14cb5a9037b6faa0968818",
@@ -282,7 +283,7 @@
       "proposedAlt": "Nine selected Lachnospira rods appear in seven groupings: five singles and two touching pairs, including one broadly C-bent and one S-bent single.",
       "proposedCaption": "Type-species-anchored Lachnospira straight-to-curved rods, shown as nine bodies in five single and two paired groupings. This genus-level reconstruction is representative, non-diagnostic, does not imply a universal shape or flagellar arrangement, and is not a micrograph.",
       "proposedDescription": "WikiBiome static scientific reconstruction of nine selected Lachnospira rods arranged as five singles and two touching pairs, including one C-bent and one S-bent form, on a uniform edge-to-edge cool pale field.",
-      "proposedProvenance": "Generated in exactly one control-authorized independent v2 built-in image call from the immutable batch-021 revision prompt after root rejected v1's dark vignette. V1 was not supplied, edited, or reused and remains immutable rejected evidence. Human-audited at the original 1536 by 1024 resolution. Review-only scientific reconstruction, not a micrograph; v2 remains pending root disposition."
+      "proposedProvenance": "Generated in exactly one control-authorized independent v2 built-in image call from the immutable batch-021 revision prompt after root rejected v1's dark vignette. V1 was not supplied, edited, or reused and remains immutable rejected evidence. Human-audited at the original 1536 by 1024 resolution and accepted by WikiBiome root control. Scientific reconstruction, not a micrograph."
     }
   ],
   "rejectedVariants": [

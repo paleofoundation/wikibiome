@@ -2895,6 +2895,159 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 020 after immutable-hash verification and exact 10-body/6-group reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "holdemanella-draft.png", "sourceSha256": "41df66ae44aeb5a7d080a82ec2f15e722be22eb8f7e0e23639b9710cdbed219e", "generationRecord": "exec-5e26c0ca-8667-4656-af47-98b86bf71c3c.png" }
+    },
+    "intestinimonas|intestinimonas-morphology-v1.webp": {
+      "pageId": "intestinimonas",
+      "publishedFile": "intestinimonas-morphology-v1.webp",
+      "masterSource": "intestinimonas-morphology-v1-master.png",
+      "socialFile": "intestinimonas-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1392389&mode=Info",
+          "https://lpsn.dsmz.de/genus/intestinimonas",
+          "https://lpsn.dsmz.de/species/intestinimonas-butyriciproducens",
+          "https://pubmed.ncbi.nlm.nih.gov/23918795/",
+          "https://doi.org/10.1099/ijs.0.051441-0",
+          "https://bacdive.dsmz.de/strain/24772"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Intestinimonas, NCBITaxon:1392389, with I. butyriciproducens as type species. Primary and type-strain evidence supports rods and spore formation but not one universal visible spore position, so the plate is explicitly vegetative, representative, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted nine straight rods in seven groups: five singles and two close parallel touching pairs, with zero visible spores. No appendage, capsule, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine bodies and seven groupings. Caption states type-species-anchored, representative, non-diagnostic, non-universal-sporulation, and non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 021 after immutable-hash verification and exact 9-body/7-group/0-spore reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "intestinimonas-draft.png", "sourceSha256": "49aa2443bc087d72a66a23847205cb4cad8d55aba0bfef42f2df89fbe9875b11", "generationRecord": "exec-cfe6241b-7031-4df1-86f4-af9559b96035.png" }
+    },
+    "klebsiella|klebsiella-morphology-v1.webp": {
+      "pageId": "klebsiella",
+      "publishedFile": "klebsiella-morphology-v1.webp",
+      "masterSource": "klebsiella-morphology-v1-master.png",
+      "socialFile": "klebsiella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=570&mode=Info",
+          "https://lpsn.dsmz.de/genus/klebsiella",
+          "https://www.ncbi.nlm.nih.gov/books/NBK8035/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC211547/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current conserved genus Klebsiella, NCBITaxon:570, with K. pneumoniae as nomenclatural type. Authoritative evidence supports selected plump rods and capsule context without making capsule visibility universal or visually diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted v2 only: ten plump rods in eight groups, six singles and two touching pairs, with three individually capsule-bearing singles and no shared envelope. The edge-to-edge pale-field audit passed; no dark vignette, appendage, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles ten bodies, eight groupings, and three visible individual capsule envelopes. Caption distinguishes visible hydrated envelopes from biological universality, states non-diagnostic scope, and does not imply that unaccented cells lack capsules. The validated cover crop retains every body, grouping, and capsule boundary."
+      },
+      "disposition": "approved",
+      "notes": "WikiBiome root accepted the exact independent v2 hash after v1's dark-vignette rejection. Only v2 is promoted; v1 remains immutable rejected review evidence and has no public key, master, derivative, or endpoint.",
+      "revisionLinkage": { "supersedes": "work/media-drafts/microorganisms-batch-021/klebsiella-draft.png", "supersededBy": null, "sourceDraft": "klebsiella-draft-v2.png", "sourceSha256": "4e9b5d1b55f38f8072205642c3b8527eb8cddc443eabac7579b3e7f4bcb65cfc", "generationRecord": "exec-a25139f3-153c-4c45-9140-4b6bde54fed6.png", "rejectedPredecessorSha256": "64d126f988de4e76d0dbcfc4eb0ce084d80a010806e6678ec9f9fa7787064f25" }
+    },
+    "klebsiella-pneumoniae|klebsiella-pneumoniae-morphology-v1.webp": {
+      "pageId": "klebsiella-pneumoniae",
+      "publishedFile": "klebsiella-pneumoniae-morphology-v1.webp",
+      "masterSource": "klebsiella-pneumoniae-morphology-v1-master.png",
+      "socialFile": "klebsiella-pneumoniae-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=573&mode=Info",
+          "https://lpsn.dsmz.de/species/klebsiella-pneumoniae",
+          "https://www.ncbi.nlm.nih.gov/mesh/68007711",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC211547/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Klebsiella pneumoniae, NCBITaxon:573, and its type-species relationship to Klebsiella. NLM and primary ultrastructural evidence support plump nonmotile capsulated rods and hydrated fibrous capsule material without illustration-level diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eight isolated plump rods in eight groups, each with one individually bounded restrained translucent capsule halo. No shared envelope, appendage, scene, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles eight isolated bodies and eight individual capsule halos. Caption states representative, non-diagnostic, non-micrograph scope and no implied visual separability from other Klebsiella. The validated cover crop retains every body and capsule boundary."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 021 after immutable-hash verification and exact 8-body/8-group/8-halo reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "klebsiella-pneumoniae-draft.png", "sourceSha256": "19f66d75ac14033971bea381df9736e3d25015a6eb79af578c182d041770640c", "generationRecord": "exec-0fbc8361-0d97-4fca-9d64-ab52427621fa.png" }
+    },
+    "lachnobacterium|lachnobacterium-morphology-v1.webp": {
+      "pageId": "lachnobacterium",
+      "publishedFile": "lachnobacterium-morphology-v1.webp",
+      "masterSource": "lachnobacterium-morphology-v1-master.png",
+      "socialFile": "lachnobacterium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=140625&mode=Info",
+          "https://lpsn.dsmz.de/genus/lachnobacterium",
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=140626&mode=Info",
+          "https://doi.org/10.1099/00207713-51-6-1977"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current valid genus Lachnobacterium, NCBITaxon:140625, with L. bovis as type and sole valid correct-name species. The primary description supports rods; the woolly name etymology describes colony appearance and is not generalized as cell morphology."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eleven slender straight rods in eight groups: five singles and three touching end-to-end pairs, including the disclosed output-added pair. No woolly halo, filament, appendage, capsule, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the observed eleven-body/eight-group output. Caption states type-species-anchored, representative, non-diagnostic, non-micrograph scope and does not turn colony etymology into cellular morphology. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 021 after immutable-hash verification and exact output-added-pair reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lachnobacterium-draft.png", "sourceSha256": "1728aa663695b2f61648403f14df520cfaeed934e51de7c90c60c860da267107", "generationRecord": "exec-172150ef-7189-4f07-b1c6-74c69e325098.png" }
+    },
+    "lachnospira|lachnospira-morphology-v1.webp": {
+      "pageId": "lachnospira",
+      "publishedFile": "lachnospira-morphology-v1.webp",
+      "masterSource": "lachnospira-morphology-v1-master.png",
+      "socialFile": "lachnospira-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28050&mode=Info",
+          "https://lpsn.dsmz.de/genus/lachnospira",
+          "https://lpsn.dsmz.de/species/lachnospira-multipara",
+          "https://pubmed.ncbi.nlm.nih.gov/13345770/",
+          "https://doi.org/10.1002/9781118960608.gbm00647"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current valid genus Lachnospira, NCBITaxon:28050, with L. multipara corrig. as type species. Original and authoritative descriptions support straight-to-curved rods and varied arrangements, while flagellar pattern is not generalized across the genus."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted v2 only: nine rods in seven groups, five singles and two touching pairs, including one C-bent and one S-bent single and zero appendages. The edge-to-edge pale-field audit passed; no dark vignette, capsule, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine bodies, seven groupings, and the two disclosed bends. Caption states representative, non-diagnostic, non-universal-shape, non-universal-flagellar-arrangement, and non-micrograph scope. The validated cover crop retains every body, grouping, and bend."
+      },
+      "disposition": "approved",
+      "notes": "WikiBiome root accepted the exact independent v2 hash after v1's dark-vignette rejection. Only v2 is promoted; v1 remains immutable rejected review evidence and has no public key, master, derivative, or endpoint.",
+      "revisionLinkage": { "supersedes": "work/media-drafts/microorganisms-batch-021/lachnospira-draft.png", "supersededBy": null, "sourceDraft": "lachnospira-draft-v2.png", "sourceSha256": "348d799050ccc7a0fde18578bf209c821c8ef1ab27e1331ca8d5edef366a4cd7", "generationRecord": "exec-4781c444-94d1-4ab4-82c9-e4fb4126e7f8.png", "rejectedPredecessorSha256": "cc3b9b522259ed3fe2cca3702ffc1d4dbe3c3eeca8c4ba8edd1ad277d3ad2f2f" }
     }
   },
   "rejectedAssets": [
@@ -3213,6 +3366,7 @@
     },
     {
       "pageId": "lachnoclostridium",
+      "sourceEraIdentifier": "NCBITaxon:1506553",
       "batchId": "microorganisms-021",
       "reviewedOn": "2026-09-01",
       "reviewingAuthority": "wikibiome-media-program",
@@ -3337,7 +3491,7 @@
       "disposition": "revise",
       "reason": "Root control rejected v1 because the severe black or dark top and bottom vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
       "supersededBy": "work/media-drafts/microorganisms-batch-021/klebsiella-draft-v2.png",
-      "outcome": "Exactly one authorized independent v2 generation call produced ten rods in eight groupings with three individually capsule-bearing singles on a uniform pale full-canvas field. V2 remains review-only pending root original-resolution disposition; v1 remains immutable rejected evidence and was not edited or reused."
+      "outcome": "Exactly one authorized independent v2 generation call produced ten rods in eight groupings with three individually capsule-bearing singles on a uniform pale full-canvas field. Root accepted the exact v2 hash for promotion; v1 remains immutable rejected evidence, was not edited or reused, and owns no public media artifact."
     },
     {
       "pageId": "lachnospira",
@@ -3350,7 +3504,7 @@
       "disposition": "revise",
       "reason": "Root control rejected v1 because the severe black or dark upper and lower vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
       "supersededBy": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
-      "outcome": "Exactly one authorized independent v2 generation call produced nine rods in seven groupings, including one C-bent and one S-bent single with zero appendages, on a uniform pale full-canvas field. V2 remains review-only pending root original-resolution disposition; v1 remains immutable rejected evidence and was not edited or reused."
+      "outcome": "Exactly one authorized independent v2 generation call produced nine rods in seven groupings, including one C-bent and one S-bent single with zero appendages, on a uniform pale full-canvas field. Root accepted the exact v2 hash for promotion; v1 remains immutable rejected evidence, was not edited or reused, and owns no public media artifact."
     }
   ],
   "notes": [
