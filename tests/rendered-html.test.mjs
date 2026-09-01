@@ -43,6 +43,28 @@ test("keeps internal navigation independent of the vinext client-link runtime", 
   assert.deepEqual(offenders, []);
 });
 
+test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-media-headers`);
+  const { default: worker } = await import(workerUrl.href);
+  const response = await worker.fetch(
+    new Request("http://localhost/media/nickel-technical-specimen-v2.webp"),
+    {
+      ASSETS: {
+        fetch: async () => new Response("webp", {
+          headers: { "content-type": "application/octet-stream" },
+        }),
+      },
+    },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  assert.equal(response.status, 200);
+  assert.equal(response.headers.get("content-type"), "image/webp");
+  assert.equal(response.headers.get("x-content-type-options"), "nosniff");
+  assert.equal(response.headers.get("cache-control"), "public, max-age=31536000, immutable");
+});
+
 test("server-renders the WikiBiome portal and anatomical knowledge map", async () => {
   const response = await render();
   assert.equal(response.status, 200);
