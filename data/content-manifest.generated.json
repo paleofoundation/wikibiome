@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T13:35:05.159Z",
+  "generatedAt": "2026-09-01T14:13:11.129Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "9ea549e93d89a831a044e380a62acdbab67792f5",
-    "contentGeneratedAt": "2026-09-01T13:23:05.346Z",
+    "commit": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
+    "contentGeneratedAt": "2026-09-01T14:11:26.571Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "9168556852ecb065a546e3cf8703e83c440842c7031820494b157bb69fe57514",
+    "sha256": "aaf67be16ca67f26e1f582375167db8957b4f6765e44f32e01a0fa829687217f",
     "pages": 819,
-    "sources": 1922
+    "sources": 1926
   },
   "sourceMetadataPolicy": {
     "version": 1,
@@ -1517,20 +1517,20 @@
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "9ea549e93d89a831a044e380a62acdbab67792f5",
+    "sourceCommit": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
     "registeredCount": 113,
     "appliedRecordCount": 122,
-    "registrySha256": "73b759f7f19f896430240afc89b4d2b950d7f20b347fdb5158909dc5a9e60acf"
+    "registrySha256": "dfa6dad926b0b029caf397643462de5051fdc5a0536dab28d4424806a96e221b"
   },
   "articleIdentityPolicy": {
     "version": 1,
     "reviewedAt": "2026-09-01",
     "authority": "WikiBiome delegated scientific identity reconciliation",
-    "registrySha256": "5c6bc581867a101558a54721855e26dd553deca51d74a5896c452265ff92d137",
-    "aliasCount": 8,
-    "retiredCanonicalCount": 8,
-    "canonicalTaxonCount": 8,
-    "forbiddenPatternCount": 5
+    "registrySha256": "66dff488dc815c74fe9d5711128dc5e08b4a54d4135e198e3c1a2d41fc372cc3",
+    "aliasCount": 9,
+    "retiredCanonicalCount": 9,
+    "canonicalTaxonCount": 9,
+    "forbiddenPatternCount": 6
   },
   "audit": {
     "duplicatePageIds": [
@@ -1601,7 +1601,7 @@
       "type-2-diabetes"
     ],
     "pagesWithReferences": 765,
-    "generatedReferences": 6435,
+    "generatedReferences": 6439,
     "pagesWithSourceDrift": 488,
     "recoveredInlineReferences": 350,
     "declaredOnlyReferences": 2008,

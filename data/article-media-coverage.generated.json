@@ -3,14 +3,14 @@
   "generatedOn": "2026-09-01",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
-    "upstreamCommit": "9ea549e93d89a831a044e380a62acdbab67792f5",
+    "upstreamCommit": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
     "contentManifest": "data/content-manifest.generated.json",
     "contentFile": "data/content.generated.json",
-    "contentSha256": "9168556852ecb065a546e3cf8703e83c440842c7031820494b157bb69fe57514",
+    "contentSha256": "aaf67be16ca67f26e1f582375167db8957b4f6765e44f32e01a0fa829687217f",
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "b0ecc96cb60b90780d7a0425d89e54a5aeb1c9df5822991cb56517f4846c13e7",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "49c499663febc0e6d10df262cddd39982beda0941e148d613f1289f694ccb083",
+    "reviewLogSha256": "a7571e9c6af0ae1e0f83a7b41cd30cc148f93907311de7ed26447e48d4e0963c",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -94,7 +94,7 @@
     "total": 712,
     "completed": 60,
     "remaining": 652,
-    "rejected": 8,
+    "rejected": 9,
     "revised": 7,
     "scientificHolds": 0,
     "inReview": 0
@@ -333,6 +333,34 @@
         "controlledIdentifier": "NCBITaxon:5478",
         "coverageStatus": "uncovered"
       }
+    },
+    {
+      "pageId": "clostridiales",
+      "batchId": "scientific-identity-audit-2026-09-01",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:186802 to Eubacteriales, while LPSN lists Eubacteriales Buchanan 1917 (Approved Lists 1980) as the correct name and Clostridiales Prévot 1953 (Approved Lists 1980) as a validly published heterotypic synonym. A new asset must not be keyed to the synonym route.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186802&mode=Info",
+        "https://lpsn.dsmz.de/order/eubacteriales",
+        "https://lpsn.dsmz.de/order/clostridiales",
+        "https://doi.org/10.1128/jb.2.4.347-350.1917",
+        "https://doi.org/10.1099/00207713-30-1-225"
+      ],
+      "requiredResolution": "Retire the synonym slug in favor of an Eubacteriales canonical record keyed to NCBITaxon:186802, while preserving Clostridiales in source-specific historical taxon labels.",
+      "routingImpact": "The obsolete slug remains excluded from the registry and image sitemap. No substitute raster is approved; a future asset may be keyed only to eubacteriales and NCBITaxon:186802.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The synonym route was retired and permanently redirects to the current Eubacteriales record, whose evidence boundary preserves historical Clostridiales study labels without creating a second taxon.",
+      "canonicalPageId": "eubacteriales",
+      "canonicalIdentifier": "NCBITaxon:186802",
+      "queueReplacement": {
+        "pageId": "eubacteriales",
+        "title": "Eubacteriales",
+        "route": "/article/eubacteriales",
+        "controlledIdentifier": "NCBITaxon:186802",
+        "coverageStatus": "uncovered"
+      }
     }
   ],
   "revisedAssets": [
@@ -470,9 +498,9 @@
     },
     {
       "queuePosition": 61,
-      "id": "clostridiales",
-      "title": "Clostridiales",
-      "route": "/article/clostridiales",
+      "id": "clostridioides-difficile",
+      "title": "Clostridioides difficile",
+      "route": "/article/clostridioides-difficile",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -1703,19 +1731,6 @@
     },
     {
       "queuePosition": 61,
-      "id": "clostridiales",
-      "title": "Clostridiales",
-      "category": "microbe",
-      "sourceCategories": [
-        "microbe"
-      ],
-      "route": "/article/clostridiales",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "status": "queued"
-    },
-    {
-      "queuePosition": 62,
       "id": "clostridioides-difficile",
       "title": "Clostridioides difficile",
       "category": "microbe",
@@ -1728,7 +1743,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 63,
+      "queuePosition": 62,
       "id": "clostridium",
       "title": "Clostridium",
       "category": "microbe",
@@ -1741,7 +1756,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 64,
+      "queuePosition": 63,
       "id": "clostridium-butyricum",
       "title": "Clostridium butyricum",
       "category": "microbe",
@@ -1754,7 +1769,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 65,
+      "queuePosition": 64,
       "id": "clostridium-difficile",
       "title": "Clostridium difficile",
       "category": "microbe",
@@ -1767,7 +1782,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 66,
+      "queuePosition": 65,
       "id": "clostridium-perfringens",
       "title": "Clostridium perfringens",
       "category": "microbe",
@@ -1780,7 +1795,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 67,
+      "queuePosition": 66,
       "id": "clostridium-symbiosum",
       "title": "Clostridium symbiosum",
       "category": "microbe",
@@ -1793,7 +1808,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 68,
+      "queuePosition": 67,
       "id": "collinsella",
       "title": "Collinsella",
       "category": "microbe",
@@ -1806,7 +1821,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 69,
+      "queuePosition": 68,
       "id": "coprococcus",
       "title": "Coprococcus",
       "category": "microbe",
@@ -1819,7 +1834,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 70,
+      "queuePosition": 69,
       "id": "corynebacterium",
       "title": "Corynebacterium",
       "category": "microbe",
@@ -1832,7 +1847,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 71,
+      "queuePosition": 70,
       "id": "cryptococcus-neoformans",
       "title": "Cryptococcus neoformans",
       "category": "microbe",
@@ -1845,7 +1860,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 72,
+      "queuePosition": 71,
       "id": "davidiella",
       "title": "Davidiella",
       "category": "microbe",
@@ -1858,7 +1873,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 73,
+      "queuePosition": 72,
       "id": "debaryomyces",
       "title": "Debaryomyces",
       "category": "microbe",
@@ -1871,7 +1886,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 74,
+      "queuePosition": 73,
       "id": "deinococcus",
       "title": "Deinococcus",
       "category": "microbe",
@@ -1884,7 +1899,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 75,
+      "queuePosition": 74,
       "id": "desulfovibrio",
       "title": "Desulfovibrio",
       "category": "microbe",
@@ -1897,7 +1912,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 76,
+      "queuePosition": 75,
       "id": "desulfovibrionales",
       "title": "Desulfovibrionales",
       "category": "microbe",
@@ -1910,7 +1925,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 77,
+      "queuePosition": 76,
       "id": "dialister",
       "title": "Dialister",
       "category": "microbe",
@@ -1923,7 +1938,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 78,
+      "queuePosition": 77,
       "id": "dialister-histaminiformans",
       "title": "Dialister histaminiformans",
       "category": "microbe",
@@ -1936,7 +1951,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 79,
+      "queuePosition": 78,
       "id": "dorea",
       "title": "Dorea",
       "category": "microbe",
@@ -1949,7 +1964,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 80,
+      "queuePosition": 79,
       "id": "eggerthella",
       "title": "Eggerthella",
       "category": "microbe",
@@ -1962,7 +1977,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 81,
+      "queuePosition": 80,
       "id": "eggerthella-lenta",
       "title": "Eggerthella lenta",
       "category": "microbe",
@@ -1975,7 +1990,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 82,
+      "queuePosition": 81,
       "id": "enterobacter",
       "title": "Enterobacter",
       "category": "microbe",
@@ -1988,7 +2003,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 83,
+      "queuePosition": 82,
       "id": "enterobacter-cloacae",
       "title": "Enterobacter cloacae",
       "category": "microbe",
@@ -2001,7 +2016,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 84,
+      "queuePosition": 83,
       "id": "enterobacteriaceae",
       "title": "Enterobacteriaceae",
       "category": "microbe",
@@ -2014,7 +2029,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 85,
+      "queuePosition": 84,
       "id": "enterococcus",
       "title": "Enterococcus",
       "category": "microbe",
@@ -2027,7 +2042,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 86,
+      "queuePosition": 85,
       "id": "enterococcus-faecalis",
       "title": "Enterococcus faecalis",
       "category": "microbe",
@@ -2040,7 +2055,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 87,
+      "queuePosition": 86,
       "id": "enterococcus-faecium",
       "title": "Enterococcus faecium",
       "category": "microbe",
@@ -2053,7 +2068,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 88,
+      "queuePosition": 87,
       "id": "erysipelotrichaceae",
       "title": "Erysipelotrichaceae",
       "category": "microbe",
@@ -2066,7 +2081,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 89,
+      "queuePosition": 88,
       "id": "escherichia",
       "title": "Escherichia",
       "category": "microbe",
@@ -2079,7 +2094,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 90,
+      "queuePosition": 89,
       "id": "escherichia-coli",
       "title": "Escherichia coli",
       "category": "microbe",
@@ -2098,6 +2113,20 @@
         "publishedFile": "escherichia-coli-morphology-v1.webp",
         "socialFile": "escherichia-coli-morphology-v1-social.webp"
       }
+    },
+    {
+      "queuePosition": 90,
+      "id": "eubacteriales",
+      "title": "Eubacteriales",
+      "category": "microbe",
+      "sourceCategories": [
+        "microbe"
+      ],
+      "route": "/article/eubacteriales",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:186802",
+      "status": "queued"
     },
     {
       "queuePosition": 91,

@@ -10,7 +10,8 @@
     "barnesella": "barnesiella",
     "bifidobacterium-infantis": "bifidobacterium-longum-subsp-infantis",
     "candida-auris": "candidozyma-auris",
-    "candida-glabrata": "nakaseomyces-glabratus"
+    "candida-glabrata": "nakaseomyces-glabratus",
+    "clostridiales": "eubacteriales"
   },
   "canonicalTaxa": {
     "akkermansia-muciniphila": {
@@ -44,6 +45,10 @@
     "nakaseomyces-glabratus": {
       "title": "Nakaseomyces glabratus",
       "ncbiTaxonomyId": 5478
+    },
+    "eubacteriales": {
+      "title": "Eubacteriales",
+      "ncbiTaxonomyId": 186802
     }
   },
   "retiredCanonicalIds": [
@@ -54,7 +59,8 @@
     "barnesella",
     "bifidobacterium-infantis",
     "candida-auris",
-    "candida-glabrata"
+    "candida-glabrata",
+    "clostridiales"
   ],
   "forbiddenCanonicalTitles": [
     "Akkermansia mucinicola",
@@ -64,13 +70,15 @@
     "Barnesella",
     "Bifidobacterium infantis",
     "Candida auris",
-    "Candida glabrata"
+    "Candida glabrata",
+    "Clostridiales"
   ],
   "forbiddenPublicPatterns": [
     "Allisonella hiatal",
     "Barnesella is a genus of",
     "Bifidobacterium infantis is the current",
     "Candida auris is the current name",
-    "Candida glabrata is the current name"
+    "Candida glabrata is the current name",
+    "Clostridiales is the current name"
   ]
 }

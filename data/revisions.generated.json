@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T13:35:34.260Z",
+  "generatedAt": "2026-09-01T14:13:49.117Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "9ea549e93d89a831a044e380a62acdbab67792f5",
+  "sourceCommit": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
   "records": 819,
   "canonicalIds": 754,
   "revisions": 2911,
@@ -3674,6 +3674,15 @@
       ],
       "revisions": [
         {
+          "hash": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
+          "date": "2026-09-01T17:12:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Eubacteriales order identity",
+          "path": "wiki/entities/clostridia.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -3698,40 +3707,6 @@
           "subject": "pre-overnight checkpoint 2026-04-18",
           "path": "wiki/entities/clostridia.md",
           "additions": 90,
-          "deletions": 0
-        }
-      ]
-    },
-    "clostridiales": {
-      "paths": [
-        "wiki/entities/clostridiales.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/clostridiales.md",
-          "additions": 20,
-          "deletions": 14
-        },
-        {
-          "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
-          "date": "2026-04-19T08:31:59+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "nightly maintenance: 94 stub demotions, 181 source_count fixes, 22 auto-discovered stubs, 5 adversarial audits, 3 boundary fixes, 3 evidence-level corrections",
-          "path": "wiki/entities/clostridiales.md",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
-          "date": "2026-04-18T21:04:01+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "pre-overnight checkpoint 2026-04-18",
-          "path": "wiki/entities/clostridiales.md",
-          "additions": 85,
           "deletions": 0
         }
       ]
@@ -5930,6 +5905,22 @@
           "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
           "path": "wiki/entities/escherichia.md",
           "additions": 76,
+          "deletions": 0
+        }
+      ]
+    },
+    "eubacteriales": {
+      "paths": [
+        "wiki/entities/eubacteriales.md"
+      ],
+      "revisions": [
+        {
+          "hash": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
+          "date": "2026-09-01T17:12:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Eubacteriales order identity",
+          "path": "wiki/entities/eubacteriales.md",
+          "additions": 101,
           "deletions": 0
         }
       ]
@@ -25476,6 +25467,15 @@
         "wiki/signatures/cardiovascular-disease-signature.md"
       ],
       "revisions": [
+        {
+          "hash": "49ea647671c2f5c71c13da21e0f583a4bb0c80e6",
+          "date": "2026-09-01T17:12:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Eubacteriales order identity",
+          "path": "wiki/signatures/cardiovascular-disease-signature.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",

@@ -1390,6 +1390,34 @@
         "controlledIdentifier": "NCBITaxon:5478",
         "coverageStatus": "uncovered"
       }
+    },
+    {
+      "pageId": "clostridiales",
+      "batchId": "scientific-identity-audit-2026-09-01",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:186802 to Eubacteriales, while LPSN lists Eubacteriales Buchanan 1917 (Approved Lists 1980) as the correct name and Clostridiales Prévot 1953 (Approved Lists 1980) as a validly published heterotypic synonym. A new asset must not be keyed to the synonym route.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186802&mode=Info",
+        "https://lpsn.dsmz.de/order/eubacteriales",
+        "https://lpsn.dsmz.de/order/clostridiales",
+        "https://doi.org/10.1128/jb.2.4.347-350.1917",
+        "https://doi.org/10.1099/00207713-30-1-225"
+      ],
+      "requiredResolution": "Retire the synonym slug in favor of an Eubacteriales canonical record keyed to NCBITaxon:186802, while preserving Clostridiales in source-specific historical taxon labels.",
+      "routingImpact": "The obsolete slug remains excluded from the registry and image sitemap. No substitute raster is approved; a future asset may be keyed only to eubacteriales and NCBITaxon:186802.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The synonym route was retired and permanently redirects to the current Eubacteriales record, whose evidence boundary preserves historical Clostridiales study labels without creating a second taxon.",
+      "canonicalPageId": "eubacteriales",
+      "canonicalIdentifier": "NCBITaxon:186802",
+      "queueReplacement": {
+        "pageId": "eubacteriales",
+        "title": "Eubacteriales",
+        "route": "/article/eubacteriales",
+        "controlledIdentifier": "NCBITaxon:186802",
+        "coverageStatus": "uncovered"
+      }
     }
   ],
   "revisedAssets": [
