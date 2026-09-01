@@ -4,7 +4,7 @@ type: stop
 created: 2026-04-18
 updated: 2026-04-18
 last_substantive_update: 2026-04-18
-sources: [vangoitsenhoven-2020-microbiome-antibiotics-autoimmune, haag-2015-intestinal-microbiota-innate-immunity-crohns, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, gao-2015-microbiota-disbiosis-colorectal-cancer, khan-2018-bacterial-contamination-hypothesis-endometriosis, rebelo-2021-enterococcus-metal-antibiotic-resistance]
+sources: [vangoitsenhoven-2020-microbiome-antibiotics-autoimmune, haag-2015-intestinal-microbiota-innate-immunity-crohns, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, gao-2015-microbiota-disbiosis-colorectal-cancer, khan-2018-bacterial-contamination-hypothesis-endometriosis, rebelo-2021-enterococcus-metal-antibiotic-resistance, altmann-2016-bifidobacterium-longum-35624-genome]
 tags: [antibiotics, dysbiosis, biofilm, antimicrobial-resistance, ecological-engineering]
 cureva_status: partial
 
@@ -87,7 +87,7 @@ Karen's Brain Primitive 5 -- Two-Sided Ecological Engineering -- provides the fr
 | Strategy | Target | Mechanism |
 |----------|--------|-----------|
 | Dietary fiber | SCFA producer recovery | Substrate for butyrate, propionate, acetate production |
-| Strain-specific probiotics | Niche re-occupation | L. rhamnosus GG, B. infantis 35624, condition-matched strains |
+| Strain-specific probiotics | Niche re-occupation | L. rhamnosus GG; *B. longum* subsp. *longum* 35624, historically labeled “B. infantis 35624”; condition-matched strains [[altmann-2016-bifidobacterium-longum-35624-genome]] |
 | Prebiotics (inulin, FOS) | Bifidobacterium, F. prausnitzii | Selective substrate for beneficial taxa |
 | [[nac-supplementation]] | Glutathione restoration | Replenishes the antioxidant defense depleted by metal-driven oxidative stress |
 

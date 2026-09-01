@@ -14,7 +14,7 @@ conventional_rationale: "Preterm infants at high infection risk; prophylactic an
 why_counterproductive: "Reduces microbiome diversity and depletes protective Bifidobacterium, the primary defense against Enterobacteriaceae bloom that precedes NEC. Prenatal antibiotics reduce diversity and increase pathogen susceptibility. Increases antibiotic resistance genes in an already vulnerable population."
 evidence: []
 evidence_level: "expert-opinion"
-alternative: "Breast milk/HMOs as primary defense. Bovine lactoferrin + L. rhamnosus GG (SUCRA 95.7% for NEC prevention). B. infantis supplementation. Reserve antibiotics for documented infection."
+alternative: "Breast milk/HMOs as primary defense. Bovine lactoferrin + L. rhamnosus GG (SUCRA 95.7% for NEC prevention). Use only strain-verified probiotic formulations supported for the neonatal context; a historical B. infantis label alone does not establish B. longum subsp. infantis. Reserve antibiotics for documented infection."
 karen_brain_primitives: [1, 5, 8]
 ---
 

@@ -39,7 +39,7 @@ A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant g
 
 ## Infant Gut Colonization
 
-- *Bifidobacterium* (especially *B. infantis*, *B. breve*, *B. longum*) is the dominant genus in breastfed infant guts, comprising up to 90% of the microbiota [[torrazza-2013-intestinal-microbial-ecology-nec]].
+- *Bifidobacterium* (including *B. longum* subsp. *infantis*, *B. breve*, and *B. longum*) can dominate breastfed infant gut communities; the cited review used the historical shorthand “*B. infantis*” [[torrazza-2013-intestinal-microbial-ecology-nec]].
 - Human milk oligosaccharides (HMOs) selectively feed *Bifidobacterium*, establishing early colonization dominance [[sami-2023-human-milk-nutrients-preventing-nec]] [[chapman-2026-clostridia-hmos-pathobiont-suppression-nec]].
 - This dominance creates an acid-producing, nickel-independent microbial environment that naturally suppresses Ni-enzyme-dependent pathogens [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Formula-fed infants have lower *Bifidobacterium* and higher Proteobacteriaceae -- a shift compounded by formula's higher nickel content [[torrazza-2013-intestinal-microbial-ecology-nec]].

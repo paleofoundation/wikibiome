@@ -5,8 +5,8 @@ type: entity
 subtype: disease
 created: 2026-04-09
 updated: 2026-04-09
-sources: [borghini-2020-endometriosis-nickel-ibs, lombardi-2020-snas-probiotics-dysbiosis, rizzi-2017-ibs-nickel-diet, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-2020-environmental-exposures-autoimmune-gut-microbiome]
-source_count: 5
+sources: [borghini-2020-endometriosis-nickel-ibs, lombardi-2020-snas-probiotics-dysbiosis, rizzi-2017-ibs-nickel-diet, giambo-2021-toxic-metal-exposure-gut-microbiota-review, khan-2020-environmental-exposures-autoimmune-gut-microbiome, altmann-2016-bifidobacterium-longum-35624-genome]
+source_count: 6
 tags: [IBS, nickel, FODMAP, gut-barrier, visceral-hypersensitivity, microbiome, SNAS, mast-cells, serotonin, low-nickel-diet]
 platform: wikibiome
 last_substantive_update: 2026-04-13
@@ -113,7 +113,7 @@ IBS co-occurs frequently with [[depression]] (50% comorbidity), [[endometriosis]
 - [[intestinal-permeability]] -- barrier dysfunction documented in IBS-D with elevated serum LPS
 - [[inflammatory-bowel-disease]] -- the key differential diagnosis; calprotectin distinguishes the two
 - [[dysbiosis]] -- reduced diversity with depletion of Lactobacillus, Bifidobacterium, F. prausnitzii
-- [[probiotics]] -- L. rhamnosus GG and B. infantis 35624 have best evidence for IBS symptom relief
+- [[probiotics]] -- Historical trials reported strain 35624 as “B. infantis,” but genome analysis assigns 35624 to *B. longum* subsp. *longum*; its results do not support the *infantis* subspecies generally [[altmann-2016-bifidobacterium-longum-35624-genome]]
 - [[depression]] -- 50% comorbidity rate; shared gut-brain axis and mast cell-nerve axis pathways
 - [[endometriosis]] -- shared nickel sensitivity and estrogen connections via estrobolome
 - [[calprotectin]] -- normal in IBS (<50 mcg/g) vs. markedly elevated in IBD; key differential biomarker

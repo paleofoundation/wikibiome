@@ -28,7 +28,7 @@ key_findings: ["Human microbiome"]
 # Methods & Findings
 
 - **Design**: Comprehensive review of microbiome clinical translation spanning gut, skin, lungs, oral cavity, and reproductive tract
-- **Key neonatal section**: Vaginal delivery facilitates maternal transfer of *Lactobacillus*, *Prevotella*, *Sneathia*; HMOs serve as selective substrates for *Bifidobacterium infantis*
+- **Key neonatal section**: Vaginal delivery facilitates maternal transfer of *Lactobacillus*, *Prevotella*, *Sneathia*; HMOs serve as selective substrates for the organism reported under the historical name *Bifidobacterium infantis*. The summary does not assign an unspecified strain to the current subspecies.
 
 # Connections
 

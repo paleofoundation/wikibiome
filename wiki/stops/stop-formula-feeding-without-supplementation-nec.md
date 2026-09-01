@@ -14,7 +14,7 @@ conventional_rationale: "Mother unable to breastfeed; standard formula provided"
 why_counterproductive: "Formula-fed preterm infants have dramatically higher NEC rates (57% controls on breast milk vs 28% NEC cases). Formula lacks HMOs that feed Bifidobacterium and Lactobacillus, lacks lactoferrin for iron sequestration, lacks IgA for pathogen binding, and lacks AHR ligands that prevent TLR4-mediated intestinal injury. Without these, Proteobacteria bloom unchecked."
 evidence: []
 evidence_level: "expert-opinion"
-alternative: "Donor breast milk when maternal milk unavailable. If formula necessary: supplement with bovine lactoferrin + L. rhamnosus GG + HMOs. B. infantis NCDO 2203 with HMO co-administration shown most effective."
+alternative: "Donor breast milk when maternal milk unavailable. If formula is necessary, evaluate bovine lactoferrin, L. rhamnosus GG, and HMO strategies under neonatal clinical guidance. Do not infer a current B. longum subsp. infantis identity from an unverified historical B. infantis product or strain label."
 karen_brain_primitives: [2, 5, 8]
 ---
 

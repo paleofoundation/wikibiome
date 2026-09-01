@@ -48,7 +48,7 @@ Supports entity pages for [[lactobacillus]] and [[bifidobacterium]] with clinica
 
 ## Relevance to Cureva
 
-Provides the theoretical framework for probiotic intervention pages in T1D (Primitives 4, 5, 8). The strain-specificity finding is critical -- Cureva should recommend specific strains (L. rhamnosus GG, B. infantis) rather than generic probiotics. The zinc co-supplementation hypothesis generates a testable combination intervention. The iron competition mechanism supports the ecological engineering approach: probiotics as competitive excluders of iron-pirating pathogens.
+Provides the theoretical framework for probiotic intervention pages in T1D (Primitives 4, 5, 8). The strain-specificity finding is critical: the review's historical shorthand “B. infantis” cannot identify a current subspecies intervention without an explicit strain, and should not be generalized from a generic product label. The zinc co-supplementation hypothesis generates a testable combination intervention. The iron competition mechanism supports the ecological engineering approach: probiotics as competitive excluders of iron-pirating pathogens.
 
 ## Open Questions
 

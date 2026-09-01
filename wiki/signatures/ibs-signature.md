@@ -12,7 +12,8 @@ sources:
   - khan-2020-environmental-exposures-autoimmune-gut-microbiome
   - ghosh-2023-heavy-metals-gut-barrier-integrity
   - zhu-2024-toxic-essential-metals-gut-microbiota
-source_count: 7
+  - altmann-2016-bifidobacterium-longum-35624-genome
+source_count: 8
 tags: [functional-GI, nickel, SNAS, visceral-hypersensitivity, mast-cells, gut-barrier, FODMAP]
 
 metallomic_signature:
@@ -33,7 +34,7 @@ taxonomic_signature:
     - taxon: "[[lactobacillus]]"
       role: "Protective commensal — depleted in IBS; reduced barrier support and SCFA production"
     - taxon: "[[bifidobacterium]]"
-      role: "SCFA producer — depleted in IBS; B. infantis 35624 has specific evidence for IBS symptom relief"
+      role: "SCFA producer — depleted in IBS; strain 35624 IBS studies used a historical B. infantis label, but the strain is B. longum subsp. longum"
     - taxon: "[[faecalibacterium-prausnitzii]]"
       role: "Major butyrate producer — depleted in IBS; anti-inflammatory effects lost"
 
@@ -135,7 +136,7 @@ Confidence: preliminary -- Mast cell data comes from histological studies and in
 ### Depleted Taxa
 
 - [[lactobacillus]] -- Depleted in IBS. Nickel exposure specifically reduces Lactobacillus abundance [[zhu-2024-toxic-essential-metals-gut-microbiota]]. L. rhamnosus GG has the best evidence for IBS symptom relief.
-- [[bifidobacterium]] -- Depleted in IBS. B. infantis 35624 has specific clinical evidence for IBS symptom improvement.
+- [[bifidobacterium]] -- Depleted in IBS. Clinical studies historically labeled strain 35624 as “*B. infantis*,” but comparative genomics assigns 35624 to *B. longum* subsp. *longum*; those findings are strain-specific and are not evidence for *B. longum* subsp. *infantis* [[altmann-2016-bifidobacterium-longum-35624-genome]].
 - [[faecalibacterium-prausnitzii]] -- Consistently depleted, though less dramatically than in IBD. Its absence reduces anti-inflammatory butyrate production.
 
 ### Small Intestinal Bacterial Overgrowth (SIBO)

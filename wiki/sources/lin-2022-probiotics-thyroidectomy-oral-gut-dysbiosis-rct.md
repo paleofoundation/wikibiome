@@ -19,7 +19,7 @@ platform: both
 condition: "hashimotos-thyroiditis"
 karen_brain_primitives: [4, 5, 7]
 metals_discussed: [iodine]
-taxa_discussed: [bifidobacterium-infantis, lactobacillus-acidophilus, enterococcus-faecalis, bacillus-cereus, fusobacterium, prevotella, haemophilus, eubacterium, ruminococcus, holdemanella, coprococcus, parasutterella, lautropia]
+taxa_discussed: [bifidobacterium-longum-subsp-infantis, lactobacillus-acidophilus, enterococcus-faecalis, bacillus-cereus, fusobacterium, prevotella, haemophilus, eubacterium, ruminococcus, holdemanella, coprococcus, parasutterella, lautropia]
 key_findings:
   - "4-week probiotic (B. infantis, L. acidophilus, E. faecalis, B. cereus) during thyroid hormone withdrawal reduced constipation (8.7% vs 62.5%, p=0.004), lack of energy (30.4% vs 62.5%, p=0.047), weight gain (34.8% vs 68.8%, p=0.037), and dry mouth (30.4% vs 68.8%, p=0.018)"
   - "Probiotics restored gut microbial dysbiosis index (MDI), increased Holdemanella, Enterococcus, Coprococcus_2; decreased Fusobacterium, Eubacterium ruminantium group, Ruminococcus_1, Parasutterella"
@@ -32,6 +32,7 @@ key_findings:
 
 - Double-blind placebo-controlled RCT in post-thyroidectomy differentiated thyroid cancer (DTC) patients undergoing thyroid hormone withdrawal (THW) prior to radioiodine therapy. 23 probiotic / 16 placebo completed 4-week intervention.
 - **Probiotic complex**: Bifidobacterium infantis, Lactobacillus acidophilus, Enterococcus faecalis, Bacillus cereus (≥10⁶ CFU each per tablet, 3 tablets BID).
+- **Taxonomic identity boundary**: The formulation is preserved under the paper's *B. infantis* label. No strain identifier is recorded here, so this trial is not treated as independent evidence that its component belongs to current *B. longum* subsp. *infantis* (NCBITaxon:1682).
 - **Clinical outcomes (probiotic vs placebo, % with severe complications)**: constipation 8.7% vs 62.5% (p=0.004); lack of energy 30.4% vs 62.5% (p=0.047); weight gain 34.8% vs 68.8% (p=0.037); dry mouth 30.4% vs 68.8% (p=0.018).
 - **Plasma lipids**: probiotic group showed significantly increased CHOL, TG, LDL, ApoA (p<0.05), reflecting normalization — THW typically causes hyperlipidemia which probiotics *partially prevented* by restoring microbiota.
 - **Plasma LPS** significantly decreased — indicating reduced bacterial translocation / leaky gut.

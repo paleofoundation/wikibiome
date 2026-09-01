@@ -1,8 +1,8 @@
 {
-  "_generated": "2026-09-01T11:02:30.389Z",
+  "_generated": "2026-09-01T11:33:59.808Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1910,
+    "sources": 1914,
     "entities": 330,
     "concepts": 264,
     "signatures": 70,
@@ -8014,14 +8014,14 @@
         "cao-2024-gut-microbiome-preventive-therapeutic-prostatic-disease"
       ],
       "created": "2026-04-21T00:00:00.000Z",
-      "updated": "2026-04-21T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
       "frontmatter": {
         "title": "Bifidobacteriaceae",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-21T00:00:00.000Z",
-        "updated": "2026-04-21T00:00:00.000Z",
-        "last_substantive_update": "2026-04-21T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
         "sources": [
           "szeligowski-2020-gut-microbiome-schizophrenia-review",
           "coretti-2018-gut-microbiota-young-asd-children",
@@ -8053,7 +8053,7 @@
         ],
         "platform": "wikibiome"
       },
-      "overview": "Bifidobacteriaceae is the family containing [[bifidobacterium]] and related genera ([[alloscardovia]]). It is the dominant family in the healthy infant gut and a significant commensal family in adults. Family-level depletion is documented in ASD (marked reduction of Actinobacteria phylum) [[coretti-2018-gut-microbiota-young-asd-children]], schizophrenia [[szeligowski-2020-gut-microbiome-schizophrenia-review]], and metabolic syndrome [[dejonge-2022-gut-virome-bacteriophage-metabolic-syndrome]].\n\nFor species-level detail, see [[bifidobacterium]], [[bifidobacterium-bifidum]], [[bifidobacterium-infantis]], [[alloscardovia]].",
+      "overview": "Bifidobacteriaceae is the family containing [[bifidobacterium]] and related genera ([[alloscardovia]]). It is the dominant family in the healthy infant gut and a significant commensal family in adults. Family-level depletion is documented in ASD (marked reduction of Actinobacteria phylum) [[coretti-2018-gut-microbiota-young-asd-children]], schizophrenia [[szeligowski-2020-gut-microbiome-schizophrenia-review]], and metabolic syndrome [[dejonge-2022-gut-virome-bacteriophage-metabolic-syndrome]].\n\nFor lower-rank detail, see [[bifidobacterium]], [[bifidobacterium-bifidum]], [[bifidobacterium-longum-subsp-infantis]], and [[alloscardovia]].",
       "sections": [
         {
           "heading": "Cross-References",
@@ -8068,7 +8068,7 @@
         "szeligowski-2020-gut-microbiome-schizophrenia-review",
         "dejonge-2022-gut-virome-bacteriophage-metabolic-syndrome",
         "bifidobacterium-bifidum",
-        "bifidobacterium-infantis",
+        "bifidobacterium-longum-subsp-infantis",
         "bifidobacteriales"
       ],
       "sourceDir": "entities",
@@ -8078,7 +8078,7 @@
       "isStub": false,
       "backlinks": [
         "bifidobacterium-bifidum",
-        "bifidobacterium-infantis"
+        "bifidobacterium-longum-subsp-infantis"
       ],
       "related": [
         {
@@ -8088,6 +8088,10 @@
         {
           "id": "rikenella",
           "score": 9
+        },
+        {
+          "id": "bifidobacterium-longum",
+          "score": 8
         },
         {
           "id": "bifidobacterium-adolescentis",
@@ -8103,10 +8107,6 @@
         },
         {
           "id": "bacteroides-uniformis",
-          "score": 6
-        },
-        {
-          "id": "bifidobacterium-longum",
           "score": 6
         },
         {
@@ -8236,7 +8236,7 @@
           "score": 5
         },
         {
-          "id": "bifidobacterium-infantis",
+          "id": "blautia",
           "score": 5
         }
       ]
@@ -8458,10 +8458,6 @@
       ],
       "related": [
         {
-          "id": "bifidobacterium-infantis",
-          "score": 9
-        },
-        {
           "id": "bifidobacterium-longum",
           "score": 8
         },
@@ -8487,6 +8483,10 @@
         },
         {
           "id": "bacteroidaceae",
+          "score": 6
+        },
+        {
+          "id": "bacteroides-caccae",
           "score": 6
         }
       ]
@@ -8613,21 +8613,23 @@
       ]
     },
     {
-      "id": "bifidobacterium-infantis",
-      "title": "Bifidobacterium infantis",
+      "id": "bifidobacterium-longum-subsp-infantis",
+      "title": "Bifidobacterium longum subsp. infantis",
       "type": "entity",
       "category": "microbe",
       "tags": [
-        "probiotic",
-        "infant-commensal",
+        "Bifidobacterium",
+        "subspecies",
+        "infant-gut",
         "HMO-utilizer",
-        "anti-inflammatory",
-        "Treg-induction",
-        "thyroid",
-        "T2D",
-        "GDM"
+        "probiotic-labels",
+        "taxonomic-reclassification"
       ],
       "sources": [
+        "ncbi-taxonomy-bifidobacterium-longum-subsp-infantis",
+        "lpsn-bifidobacterium-longum-subsp-infantis",
+        "mattarelli-2008-bifidobacterium-longum-subspecies-reclassification",
+        "altmann-2016-bifidobacterium-longum-35624-genome",
         "griffith-2026-lifestyle-probiotic-t2d-testosterone-case-report",
         "lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct",
         "asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic",
@@ -8635,113 +8637,127 @@
         "wei-2022-16s-rrna-gut-microbiota-gestational-diabetes"
       ],
       "created": "2026-04-21T00:00:00.000Z",
-      "updated": "2026-04-21T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
       "frontmatter": {
-        "title": "Bifidobacterium infantis",
+        "title": "Bifidobacterium longum subsp. infantis",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-21T00:00:00.000Z",
-        "updated": "2026-04-21T00:00:00.000Z",
-        "last_substantive_update": "2026-04-21T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
         "sources": [
+          "ncbi-taxonomy-bifidobacterium-longum-subsp-infantis",
+          "lpsn-bifidobacterium-longum-subsp-infantis",
+          "mattarelli-2008-bifidobacterium-longum-subspecies-reclassification",
+          "altmann-2016-bifidobacterium-longum-35624-genome",
           "griffith-2026-lifestyle-probiotic-t2d-testosterone-case-report",
           "lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct",
           "asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic",
           "spaggiari-2017-probiotics-hypothyroid-levothyroxine-rct",
           "wei-2022-16s-rrna-gut-microbiota-gestational-diabetes"
         ],
-        "source_count": 5,
+        "source_count": 9,
         "tags": [
-          "probiotic",
-          "infant-commensal",
+          "Bifidobacterium",
+          "subspecies",
+          "infant-gut",
           "HMO-utilizer",
-          "anti-inflammatory",
-          "Treg-induction",
-          "thyroid",
-          "T2D",
-          "GDM"
+          "probiotic-labels",
+          "taxonomic-reclassification"
         ],
-        "seo_target": "Bifidobacterium infantis probiotic infant gut immune development",
-        "wikipedia_differentiation": "Clinical evidence in thyroid disease (thyroidectomy RCT, hypothyroidism), T2D, and gestational diabetes — beyond Wikipedia's infant nutrition focus",
+        "seo_target": "Bifidobacterium longum subsp. infantis taxonomy NCBITaxon 1682 Bifidobacterium infantis",
+        "wikipedia_differentiation": "Current subspecies identity reconciled with the Bifidobacterium infantis basionym and ambiguous historical probiotic labels",
         "gram_stain": "positive",
         "oxygen_requirement": "obligate anaerobe",
-        "metal_dependencies": [
-          "manganese",
-          "iron"
-        ],
-        "key_enzymes": [
-          "HMO-glycosidases",
-          "sialidase"
-        ],
-        "pathogenic_potential": "non-pathogenic",
+        "metal_dependencies": [],
+        "key_enzymes": [],
+        "pathogenic_potential": "not established",
         "conditions_enriched_in": [],
-        "conditions_depleted_in": [
-          "gestational-diabetes"
-        ],
-        "platform": "wikibiome"
+        "conditions_depleted_in": [],
+        "platform": "wikibiome",
+        "ncbi_taxonomy_id": 1682,
+        "historical_names": [
+          "Bifidobacterium infantis"
+        ]
       },
-      "overview": "*Bifidobacterium longum* subsp. *infantis* (commonly called *B. infantis*) is the premier human milk oligosaccharide (HMO)-utilizing bacterium and the dominant species in the breastfed infant gut. It drives immune maturation, Treg induction, and pathogen exclusion in early life.",
+      "overview": "*Bifidobacterium longum* subsp. *infantis* is the current, validly published name for NCBITaxon:1682. *Bifidobacterium infantis* Reuter 1963 is its basionym, not a separate current species [[ncbi-taxonomy-bifidobacterium-longum-subsp-infantis]] [[lpsn-bifidobacterium-longum-subsp-infantis]]. Mattarelli and colleagues established the current combination in 2008 and designated S12 (ATCC 15697; DSM 20088) as its type strain [[mattarelli-2008-bifidobacterium-longum-subspecies-reclassification]].",
       "sections": [
         {
-          "heading": "Clinical Evidence",
+          "heading": "Literature and Product Labels",
           "level": 2,
-          "body": "- Thyroidectomy: RCT showing probiotic (including B. infantis) reduces oral-gut dysbiosis post-thyroidectomy [[lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct]].\n- Hypothyroidism: Component of probiotic formulation tested alongside levothyroxine [[spaggiari-2017-probiotics-hypothyroid-levothyroxine-rct]].\n- T2D/testosterone: Part of multi-strain probiotic in case report [[griffith-2026-lifestyle-probiotic-t2d-testosterone-case-report]].\n- GDM: Depleted in gestational diabetes [[wei-2022-16s-rrna-gut-microbiota-gestational-diabetes]].\n- Ovarian cancer: Microbiome context [[asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic]]."
+          "body": "WikiBiome preserves “*B. infantis*” or “*Bifidobacterium infantis*” when a cited paper or product formulation used that historical or shorthand label. Such wording does not establish that an incompletely identified formulation contained the current subspecies. The thyroidectomy probiotic trial, the VSL#3 hypothyroidism trial, and the five-strain case report each used an *infantis* label without providing enough strain-level taxonomic evidence in the WikiBiome source record to independently assign that component to NCBITaxon:1682 [[lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct]] [[spaggiari-2017-probiotics-hypothyroid-levothyroxine-rct]] [[griffith-2026-lifestyle-probiotic-t2d-testosterone-case-report]]."
+        },
+        {
+          "heading": "Strain Boundary",
+          "level": 2,
+          "body": "Strain 35624 must not be treated as evidence for this subspecies. Although older clinical literature called it “*B. infantis* 35624,” comparative core-genome analysis assigned it to *Bifidobacterium longum* subsp. *longum* [[altmann-2016-bifidobacterium-longum-35624-genome]]. Clinical findings reported under the historical label remain findings about strain 35624; they do not transfer to NCBITaxon:1682 or to other strains bearing an *infantis* label."
+        },
+        {
+          "heading": "Evidence Boundary",
+          "level": 2,
+          "body": "Source-level mentions of an *infantis* label in gestational-diabetes, ovarian-cancer, thyroid, or metabolic literature are retained for traceability [[wei-2022-16s-rrna-gut-microbiota-gestational-diabetes]] [[asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic]]. They do not establish a strain-specific clinical effect, causal disease role, or current subspecies assignment unless the cited work identifies and verifies a strain belonging to *B. longum* subsp. *infantis*."
         },
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[bifidobacterium]] — genus page\n- [[bifidobacteriaceae]] — family context"
+          "body": "- [[bifidobacterium-longum]] — parent species\n- [[bifidobacterium]] — genus page\n- [[bifidobacteriaceae]] — family context"
         }
       ],
       "wikilinks": [
+        "ncbi-taxonomy-bifidobacterium-longum-subsp-infantis",
+        "lpsn-bifidobacterium-longum-subsp-infantis",
+        "mattarelli-2008-bifidobacterium-longum-subspecies-reclassification",
         "lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct",
         "spaggiari-2017-probiotics-hypothyroid-levothyroxine-rct",
         "griffith-2026-lifestyle-probiotic-t2d-testosterone-case-report",
+        "altmann-2016-bifidobacterium-longum-35624-genome",
         "wei-2022-16s-rrna-gut-microbiota-gestational-diabetes",
         "asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic",
+        "bifidobacterium-longum",
         "bifidobacterium",
         "bifidobacteriaceae"
       ],
       "sourceDir": "entities",
-      "sourceCount": 5,
+      "sourceCount": 9,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "bifidobacteriaceae"
+        "bifidobacteriaceae",
+        "bifidobacterium-longum"
       ],
       "related": [
         {
-          "id": "bifidobacterium-bifidum",
-          "score": 9
+          "id": "aerococcus",
+          "score": 4
+        },
+        {
+          "id": "atopobium",
+          "score": 4
         },
         {
           "id": "clostridium-butyricum",
-          "score": 6
+          "score": 4
         },
         {
-          "id": "lactobacillus-gasseri",
-          "score": 6
+          "id": "enterococcus-faecalis",
+          "score": 4
         },
         {
-          "id": "bifidobacteriales",
-          "score": 5
+          "id": "escherichia-coli",
+          "score": 4
         },
         {
-          "id": "lactobacillus-acidophilus",
-          "score": 5
+          "id": "fusobacterium-nucleatum",
+          "score": 4
         },
         {
-          "id": "lactobacillus-plantarum",
-          "score": 5
+          "id": "holdemanella",
+          "score": 4
         },
         {
-          "id": "lactobacillus-reuteri",
-          "score": 5
-        },
-        {
-          "id": "lactobacillus",
-          "score": 5
+          "id": "lactobacillus-crispatus",
+          "score": 4
         }
       ]
     },
@@ -8769,14 +8785,14 @@
         "steed-2010-synbiotic-crohns-rct"
       ],
       "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
       "frontmatter": {
         "title": "Bifidobacterium longum",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
         "sources": [
           "huo-2021-bifidobacterium-longum-methimazole-graves",
           "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
@@ -8862,7 +8878,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[bifidobacterium]] — genus overview\n- [[lactobacillus-rhamnosus]] — complementary metal-detoxifying probiotic\n- [[lead]] — prenatal exposure depletes B. longum\n- [[cadmium]] — biosorbed by B. longum cell wall\n- [[bacteroides-caccae]] — co-depleted under lead exposure\n- [[developmental-metal-vulnerability]] — B. longum as exemplar of persistent metal-microbiome programming\n- [[female-infertility]] — IVF response predictor"
+          "body": "- [[bifidobacterium]] — genus overview\n- [[bifidobacterium-longum-subsp-infantis]] — current record for the infantis subspecies\n- [[lactobacillus-rhamnosus]] — complementary metal-detoxifying probiotic\n- [[lead]] — prenatal exposure depletes B. longum\n- [[cadmium]] — biosorbed by B. longum cell wall\n- [[bacteroides-caccae]] — co-depleted under lead exposure\n- [[developmental-metal-vulnerability]] — B. longum as exemplar of persistent metal-microbiome programming\n- [[female-infertility]] — IVF response predictor"
         }
       ],
       "wikilinks": [
@@ -8875,6 +8891,7 @@
         "gut-gonadal-axis",
         "fo-2024-gut-microbiota-ovarian-stimulation-response-metagenomics",
         "bifidobacterium",
+        "bifidobacterium-longum-subsp-infantis",
         "lead",
         "cadmium",
         "developmental-metal-vulnerability",
@@ -8887,6 +8904,7 @@
       "isStub": false,
       "backlinks": [
         "bacteroides-caccae",
+        "bifidobacterium-longum-subsp-infantis",
         "lactobacillus-rhamnosus",
         "broken-links-2026-04-16"
       ],
@@ -8904,6 +8922,10 @@
           "score": 8
         },
         {
+          "id": "bifidobacteriaceae",
+          "score": 8
+        },
+        {
           "id": "bifidobacterium-bifidum",
           "score": 8
         },
@@ -8917,10 +8939,6 @@
         },
         {
           "id": "alistipes",
-          "score": 6
-        },
-        {
-          "id": "bacteroides-uniformis",
           "score": 6
         }
       ]
@@ -9007,7 +9025,7 @@
         {
           "heading": "Infant Gut Colonization",
           "level": 2,
-          "body": "- *Bifidobacterium* (especially *B. infantis*, *B. breve*, *B. longum*) is the dominant genus in breastfed infant guts, comprising up to 90% of the microbiota [[torrazza-2013-intestinal-microbial-ecology-nec]].\n- Human milk oligosaccharides (HMOs) selectively feed *Bifidobacterium*, establishing early colonization dominance [[sami-2023-human-milk-nutrients-preventing-nec]] [[chapman-2026-clostridia-hmos-pathobiont-suppression-nec]].\n- This dominance creates an acid-producing, nickel-independent microbial environment that naturally suppresses Ni-enzyme-dependent pathogens [[pendergrass-2026-nickel-nec-preterm-gut]].\n- Formula-fed infants have lower *Bifidobacterium* and higher Proteobacteriaceae -- a shift compounded by formula's higher nickel content [[torrazza-2013-intestinal-microbial-ecology-nec]].\n- The convergence of reduced *Bifidobacterium*, increased dietary nickel, and enrichment of Ni-urease pathogens in formula-fed preterm infants may explain NEC susceptibility [[pendergrass-2026-nickel-nec-preterm-gut]].\n- Probiotic supplementation with *Bifidobacterium* (often combined with *Lactobacillus*) reduces NEC incidence in very low birth weight preterm infants [[zhou-2023-probiotics-prevent-nec-vlbw-meta]]."
+          "body": "- *Bifidobacterium* (including *B. longum* subsp. *infantis*, *B. breve*, and *B. longum*) can dominate breastfed infant gut communities; the cited review used the historical shorthand “*B. infantis*” [[torrazza-2013-intestinal-microbial-ecology-nec]].\n- Human milk oligosaccharides (HMOs) selectively feed *Bifidobacterium*, establishing early colonization dominance [[sami-2023-human-milk-nutrients-preventing-nec]] [[chapman-2026-clostridia-hmos-pathobiont-suppression-nec]].\n- This dominance creates an acid-producing, nickel-independent microbial environment that naturally suppresses Ni-enzyme-dependent pathogens [[pendergrass-2026-nickel-nec-preterm-gut]].\n- Formula-fed infants have lower *Bifidobacterium* and higher Proteobacteriaceae -- a shift compounded by formula's higher nickel content [[torrazza-2013-intestinal-microbial-ecology-nec]].\n- The convergence of reduced *Bifidobacterium*, increased dietary nickel, and enrichment of Ni-urease pathogens in formula-fed preterm infants may explain NEC susceptibility [[pendergrass-2026-nickel-nec-preterm-gut]].\n- Probiotic supplementation with *Bifidobacterium* (often combined with *Lactobacillus*) reduces NEC incidence in very low birth weight preterm infants [[zhou-2023-probiotics-prevent-nec-vlbw-meta]]."
         },
         {
           "heading": "Depletion Across Disease States",
@@ -9070,7 +9088,7 @@
         "bifidobacteriaceae",
         "bifidobacteriales",
         "bifidobacterium-bifidum",
-        "bifidobacterium-infantis",
+        "bifidobacterium-longum-subsp-infantis",
         "bifidobacterium-longum",
         "bipolar-disorder",
         "bismuth",
@@ -17111,10 +17129,6 @@
           "score": 6
         },
         {
-          "id": "bifidobacterium-infantis",
-          "score": 6
-        },
-        {
           "id": "escherichia-coli",
           "score": 6
         },
@@ -17132,6 +17146,10 @@
         },
         {
           "id": "clostridium-symbiosum",
+          "score": 5
+        },
+        {
+          "id": "faecalibacterium",
           "score": 5
         }
       ]
@@ -31232,7 +31250,7 @@
           "score": 5
         },
         {
-          "id": "bifidobacterium-infantis",
+          "id": "bifidobacterium-longum-subsp-infantis",
           "score": 3
         },
         {
@@ -34105,7 +34123,8 @@
         "lombardi-2020-snas-probiotics-dysbiosis",
         "rizzi-2017-ibs-nickel-diet",
         "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
-        "khan-2020-environmental-exposures-autoimmune-gut-microbiome"
+        "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
+        "altmann-2016-bifidobacterium-longum-35624-genome"
       ],
       "created": "2026-04-09T00:00:00.000Z",
       "updated": "2026-04-09T00:00:00.000Z",
@@ -34120,9 +34139,10 @@
           "lombardi-2020-snas-probiotics-dysbiosis",
           "rizzi-2017-ibs-nickel-diet",
           "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
-          "khan-2020-environmental-exposures-autoimmune-gut-microbiome"
+          "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
+          "altmann-2016-bifidobacterium-longum-35624-genome"
         ],
-        "source_count": 5,
+        "source_count": 6,
         "tags": [
           "IBS",
           "nickel",
@@ -34237,7 +34257,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[nickel-allergy]] -- the underlying sensitization driving nickel ACM; 30-65% of IBS cohorts are nickel-sensitized\n- [[nickel]] -- dietary nickel triggers SNAS symptoms identical to IBS in sensitized individuals\n- [[dietary-nickel-exposure]] -- the trigger for SNAS symptoms; high overlap with FODMAP foods\n- [[zinc]] -- supplementation restores barrier function and supports antimicrobial peptide production\n- [[intestinal-permeability]] -- barrier dysfunction documented in IBS-D with elevated serum LPS\n- [[inflammatory-bowel-disease]] -- the key differential diagnosis; calprotectin distinguishes the two\n- [[dysbiosis]] -- reduced diversity with depletion of Lactobacillus, Bifidobacterium, F. prausnitzii\n- [[probiotics]] -- L. rhamnosus GG and B. infantis 35624 have best evidence for IBS symptom relief\n- [[depression]] -- 50% comorbidity rate; shared gut-brain axis and mast cell-nerve axis pathways\n- [[endometriosis]] -- shared nickel sensitivity and estrogen connections via estrobolome\n- [[calprotectin]] -- normal in IBS (<50 mcg/g) vs. markedly elevated in IBD; key differential biomarker\n- [[estrobolome]] -- connects IBS-endometriosis comorbidity through estrogen-microbiome interactions\n- [[methanobrevibacter-smithii]] -- enriched in constipation-predominant IBS; methane slows transit\n- [[gut-brain-axis]] -- visceral hypersensitivity and serotonin dysregulation mediated by gut-brain signaling"
+          "body": "- [[nickel-allergy]] -- the underlying sensitization driving nickel ACM; 30-65% of IBS cohorts are nickel-sensitized\n- [[nickel]] -- dietary nickel triggers SNAS symptoms identical to IBS in sensitized individuals\n- [[dietary-nickel-exposure]] -- the trigger for SNAS symptoms; high overlap with FODMAP foods\n- [[zinc]] -- supplementation restores barrier function and supports antimicrobial peptide production\n- [[intestinal-permeability]] -- barrier dysfunction documented in IBS-D with elevated serum LPS\n- [[inflammatory-bowel-disease]] -- the key differential diagnosis; calprotectin distinguishes the two\n- [[dysbiosis]] -- reduced diversity with depletion of Lactobacillus, Bifidobacterium, F. prausnitzii\n- [[probiotics]] -- Historical trials reported strain 35624 as “B. infantis,” but genome analysis assigns 35624 to *B. longum* subsp. *longum*; its results do not support the *infantis* subspecies generally [[altmann-2016-bifidobacterium-longum-35624-genome]]\n- [[depression]] -- 50% comorbidity rate; shared gut-brain axis and mast cell-nerve axis pathways\n- [[endometriosis]] -- shared nickel sensitivity and estrogen connections via estrobolome\n- [[calprotectin]] -- normal in IBS (<50 mcg/g) vs. markedly elevated in IBD; key differential biomarker\n- [[estrobolome]] -- connects IBS-endometriosis comorbidity through estrogen-microbiome interactions\n- [[methanobrevibacter-smithii]] -- enriched in constipation-predominant IBS; methane slows transit\n- [[gut-brain-axis]] -- visceral hypersensitivity and serotonin dysregulation mediated by gut-brain signaling"
         }
       ],
       "wikilinks": [
@@ -34260,11 +34280,12 @@
         "nickel",
         "zinc",
         "probiotics",
+        "altmann-2016-bifidobacterium-longum-35624-genome",
         "methanobrevibacter-smithii",
         "gut-brain-axis"
       ],
       "sourceDir": "entities",
-      "sourceCount": 5,
+      "sourceCount": 6,
       "threshold": 5,
       "belowThreshold": false,
       "isStub": false,
@@ -138863,7 +138884,7 @@
       ],
       "related": [
         {
-          "id": "bifidobacterium-infantis",
+          "id": "bifidobacterium-longum-subsp-infantis",
           "score": 3
         },
         {
@@ -140115,7 +140136,8 @@
         "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
         "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
         "ghosh-2023-heavy-metals-gut-barrier-integrity",
-        "zhu-2024-toxic-essential-metals-gut-microbiota"
+        "zhu-2024-toxic-essential-metals-gut-microbiota",
+        "altmann-2016-bifidobacterium-longum-35624-genome"
       ],
       "created": "2026-04-18T00:00:00.000Z",
       "updated": "2026-04-18T00:00:00.000Z",
@@ -140132,9 +140154,10 @@
           "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
           "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
           "ghosh-2023-heavy-metals-gut-barrier-integrity",
-          "zhu-2024-toxic-essential-metals-gut-microbiota"
+          "zhu-2024-toxic-essential-metals-gut-microbiota",
+          "altmann-2016-bifidobacterium-longum-35624-genome"
         ],
-        "source_count": 7,
+        "source_count": 8,
         "tags": [
           "functional-GI",
           "nickel",
@@ -140178,7 +140201,7 @@
             },
             {
               "taxon": "[[bifidobacterium]]",
-              "role": "SCFA producer — depleted in IBS; B. infantis 35624 has specific evidence for IBS symptom relief"
+              "role": "SCFA producer — depleted in IBS; strain 35624 IBS studies used a historical B. infantis label, but the strain is B. longum subsp. longum"
             },
             {
               "taxon": "[[faecalibacterium-prausnitzii]]",
@@ -140338,7 +140361,7 @@
         {
           "heading": "Depleted Taxa",
           "level": 3,
-          "body": "- [[lactobacillus]] -- Depleted in IBS. Nickel exposure specifically reduces Lactobacillus abundance [[zhu-2024-toxic-essential-metals-gut-microbiota]]. L. rhamnosus GG has the best evidence for IBS symptom relief.\n- [[bifidobacterium]] -- Depleted in IBS. B. infantis 35624 has specific clinical evidence for IBS symptom improvement.\n- [[faecalibacterium-prausnitzii]] -- Consistently depleted, though less dramatically than in IBD. Its absence reduces anti-inflammatory butyrate production."
+          "body": "- [[lactobacillus]] -- Depleted in IBS. Nickel exposure specifically reduces Lactobacillus abundance [[zhu-2024-toxic-essential-metals-gut-microbiota]]. L. rhamnosus GG has the best evidence for IBS symptom relief.\n- [[bifidobacterium]] -- Depleted in IBS. Clinical studies historically labeled strain 35624 as “*B. infantis*,” but comparative genomics assigns 35624 to *B. longum* subsp. *longum*; those findings are strain-specific and are not evidence for *B. longum* subsp. *infantis* [[altmann-2016-bifidobacterium-longum-35624-genome]].\n- [[faecalibacterium-prausnitzii]] -- Consistently depleted, though less dramatically than in IBD. Its absence reduces anti-inflammatory butyrate production."
         },
         {
           "heading": "Small Intestinal Bacterial Overgrowth (SIBO)",
@@ -140388,11 +140411,12 @@
         "zhu-2024-toxic-essential-metals-gut-microbiota",
         "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
         "ghosh-2023-heavy-metals-gut-barrier-integrity",
+        "altmann-2016-bifidobacterium-longum-35624-genome",
         "lombardi-2020-snas-probiotics-dysbiosis",
         "estrobolome"
       ],
       "sourceDir": "signatures",
-      "sourceCount": 7,
+      "sourceCount": 8,
       "threshold": 10,
       "belowThreshold": true,
       "isStub": false,
@@ -140402,7 +140426,7 @@
       "related": [
         {
           "id": "ibs",
-          "score": 27
+          "score": 30
         },
         {
           "id": "nickel",
@@ -156529,7 +156553,7 @@
           "score": 5
         },
         {
-          "id": "bifidobacterium-infantis",
+          "id": "bifidobacterium-longum-subsp-infantis",
           "score": 3
         },
         {
@@ -157056,16 +157080,21 @@
         "immunomodulation",
         "evidence-based"
       ],
-      "sources": [],
+      "sources": [
+        "altmann-2016-bifidobacterium-longum-35624-genome"
+      ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
       "frontmatter": {
         "title": "Probiotics (General)",
         "type": "intervention",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z",
-        "sources": [],
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "altmann-2016-bifidobacterium-longum-35624-genome"
+        ],
+        "source_count": 1,
         "tags": [
           "probiotic",
           "strain-specific",
@@ -157091,9 +157120,9 @@
           },
           {
             "condition": "[[ibs]]",
-            "I_to_f": "Specific strains modulate visceral hypersensitivity (B. infantis 35624), restore serotonin metabolism (L. rhamnosus GG), and reduce mast cell activation. Multi-strain formulations improve microbial diversity.",
+            "I_to_f": "Specific strains modulate visceral hypersensitivity (B. longum subsp. longum 35624, historically reported as B. infantis 35624), restore serotonin metabolism (L. rhamnosus GG), and reduce mast cell activation. Multi-strain formulations improve microbial diversity.",
             "I_to_f_evidence": "moderate",
-            "I_to_D": "B. infantis 35624 reduces global IBS symptoms, abdominal pain, and bloating in RCTs. L. rhamnosus GG improves IBS-D symptoms. Multi-strain probiotics (e.g., Bio-Kult) show benefit in meta-analyses, though effect sizes are modest.",
+            "I_to_D": "Trials historically labeled the organism B. infantis 35624; genome analysis now assigns strain 35624 to B. longum subsp. longum. Reported strain-specific findings do not establish an effect of B. longum subsp. infantis. L. rhamnosus GG improves IBS-D symptoms. Multi-strain probiotics (e.g., Bio-Kult) show benefit in meta-analyses, though effect sizes are modest.",
             "I_to_D_evidence": "RCT",
             "f_to_D": "IBS microbiome shows reduced Lactobacillus, Bifidobacterium, and F. prausnitzii with enrichment of Firmicutes/Bacteroidetes ratio imbalance. Dysbiosis correlates with symptom severity.",
             "status": "validated"
@@ -157147,12 +157176,12 @@
         {
           "heading": "Strain-Specific Evidence Table",
           "level": 2,
-          "body": "| Strain | Condition | Evidence Level | Key Findings |\n|--------|-----------|---------------|--------------|\n| *B. infantis* 35624 | [[ibs]] | RCT (validated) | Reduces global symptoms, pain, bloating; normalizes IL-10/IL-12 ratio |\n| *L. rhamnosus* GG (LGG) | [[ibs]]-D, antibiotic-associated diarrhea | RCT (validated) | Reduces IBS-D symptoms; prevents AAD in children and adults |\n| *E. coli* Nissle 1917 | [[ulcerative-colitis]] | RCT (validated) | Maintains remission; efficacy equivalent to mesalazine |\n| VSL#3 (8-strain) | [[ulcerative-colitis]], pouchitis | RCT (validated) | Maintains remission; prevents pouchitis recurrence |\n| *L. helveticus* R0052 + *B. longum* R0175 | [[depression]] | RCT (promising) | Reduces depression/anxiety scores; lowers cortisol |\n| *L. plantarum* PS128 | [[autism-spectrum-disorder]] | RCT (promising) | Improves opposition/defiance behaviors; modulates dopamine |\n| Multi-strain (various) | [[multiple-sclerosis]] | RCT (promising) | Improves EDSS; reduces CRP and IL-6; modulates PBMC gene expression |\n| *L. reuteri* DSM 17938 | Infant colic, functional GI | RCT (validated) | Reduces crying time; well-studied safety in infants |\n| *S. boulardii* CNCM I-745 | *C. difficile* recurrence | RCT (validated) | Reduces CDI recurrence as adjunct to antibiotics |\n| *B. coagulans* GBI-30, 6086 | [[ibs]], abdominal pain | RCT (promising) | Reduces abdominal pain and bloating |\n\n---"
+          "body": "| Strain | Condition | Evidence Level | Key Findings |\n|--------|-----------|---------------|--------------|\n| *B. longum* subsp. *longum* 35624 (historically “*B. infantis* 35624”) | [[ibs]] | Historical-label RCTs | Reported strain-specific outcomes cannot be generalized to *B. longum* subsp. *infantis* [[altmann-2016-bifidobacterium-longum-35624-genome]] |\n| *L. rhamnosus* GG (LGG) | [[ibs]]-D, antibiotic-associated diarrhea | RCT (validated) | Reduces IBS-D symptoms; prevents AAD in children and adults |\n| *E. coli* Nissle 1917 | [[ulcerative-colitis]] | RCT (validated) | Maintains remission; efficacy equivalent to mesalazine |\n| VSL#3 (8-strain) | [[ulcerative-colitis]], pouchitis | RCT (validated) | Maintains remission; prevents pouchitis recurrence |\n| *L. helveticus* R0052 + *B. longum* R0175 | [[depression]] | RCT (promising) | Reduces depression/anxiety scores; lowers cortisol |\n| *L. plantarum* PS128 | [[autism-spectrum-disorder]] | RCT (promising) | Improves opposition/defiance behaviors; modulates dopamine |\n| Multi-strain (various) | [[multiple-sclerosis]] | RCT (promising) | Improves EDSS; reduces CRP and IL-6; modulates PBMC gene expression |\n| *L. reuteri* DSM 17938 | Infant colic, functional GI | RCT (validated) | Reduces crying time; well-studied safety in infants |\n| *S. boulardii* CNCM I-745 | *C. difficile* recurrence | RCT (validated) | Reduces CDI recurrence as adjunct to antibiotics |\n| *B. coagulans* GBI-30, 6086 | [[ibs]], abdominal pain | RCT (promising) | Reduces abdominal pain and bloating |\n\n---"
         },
         {
           "heading": "The Dual Functionality Requirement",
           "level": 2,
-          "body": "Effective probiotic strains must satisfy two functional requirements simultaneously:\n\n1. Ecological function: The strain must survive transit, engraft (even transiently), and modify the gut ecosystem -- competing with pathobionts for niche space, producing SCFAs, strengthening the barrier, or producing antimicrobial compounds.\n\n2. Immunological function: The strain must interact with the mucosal immune system to modulate the Th1/Th2/Th17/Treg balance, reduce inflammatory cytokines, or activate tolerogenic pathways (e.g., AhR ligand production, butyrate-mediated HDAC inhibition).\n\nStrains that only survive transit without immune engagement, or that modulate immunity without ecological persistence, show weaker clinical effects. The strongest-evidence strains (VSL#3, E. coli Nissle 1917, B. infantis 35624) demonstrably satisfy both requirements.\n\n---"
+          "body": "Effective probiotic strains must satisfy two functional requirements simultaneously:\n\n1. Ecological function: The strain must survive transit, engraft (even transiently), and modify the gut ecosystem -- competing with pathobionts for niche space, producing SCFAs, strengthening the barrier, or producing antimicrobial compounds.\n\n2. Immunological function: The strain must interact with the mucosal immune system to modulate the Th1/Th2/Th17/Treg balance, reduce inflammatory cytokines, or activate tolerogenic pathways (e.g., AhR ligand production, butyrate-mediated HDAC inhibition).\n\nStrains that only survive transit without immune engagement, or that modulate immunity without ecological persistence, show weaker clinical effects. Historical studies of strain 35624 used an *infantis* label, but comparative genomics assigns that strain to *B. longum* subsp. *longum*; its findings must remain strain-specific [[altmann-2016-bifidobacterium-longum-35624-genome]].\n\n---"
         },
         {
           "heading": "Metal Sponge Caveat",
@@ -157180,6 +157209,7 @@
         "ibs",
         "multiple-sclerosis",
         "depression",
+        "altmann-2016-bifidobacterium-longum-35624-genome",
         "autism-spectrum-disorder",
         "lead",
         "cadmium",
@@ -157205,7 +157235,7 @@
         "prebiotics"
       ],
       "sourceDir": "interventions",
-      "sourceCount": 0,
+      "sourceCount": 1,
       "threshold": 3,
       "belowThreshold": true,
       "isStub": false,
@@ -163453,7 +163483,8 @@
         "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
         "gao-2015-microbiota-disbiosis-colorectal-cancer",
         "khan-2018-bacterial-contamination-hypothesis-endometriosis",
-        "rebelo-2021-enterococcus-metal-antibiotic-resistance"
+        "rebelo-2021-enterococcus-metal-antibiotic-resistance",
+        "altmann-2016-bifidobacterium-longum-35624-genome"
       ],
       "created": "2026-04-18T00:00:00.000Z",
       "updated": "2026-04-18T00:00:00.000Z",
@@ -163469,7 +163500,8 @@
           "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
           "gao-2015-microbiota-disbiosis-colorectal-cancer",
           "khan-2018-bacterial-contamination-hypothesis-endometriosis",
-          "rebelo-2021-enterococcus-metal-antibiotic-resistance"
+          "rebelo-2021-enterococcus-metal-antibiotic-resistance",
+          "altmann-2016-bifidobacterium-longum-35624-genome"
         ],
         "tags": [
           "antibiotics",
@@ -163547,7 +163579,7 @@
         {
           "heading": "Side 2: Restore Missing Beneficial Functions",
           "level": 3,
-          "body": "| Strategy | Target | Mechanism |\n|----------|--------|-----------|\n| Dietary fiber | SCFA producer recovery | Substrate for butyrate, propionate, acetate production |\n| Strain-specific probiotics | Niche re-occupation | L. rhamnosus GG, B. infantis 35624, condition-matched strains |\n| Prebiotics (inulin, FOS) | Bifidobacterium, F. prausnitzii | Selective substrate for beneficial taxa |\n| [[nac-supplementation]] | Glutathione restoration | Replenishes the antioxidant defense depleted by metal-driven oxidative stress |"
+          "body": "| Strategy | Target | Mechanism |\n|----------|--------|-----------|\n| Dietary fiber | SCFA producer recovery | Substrate for butyrate, propionate, acetate production |\n| Strain-specific probiotics | Niche re-occupation | L. rhamnosus GG; *B. longum* subsp. *longum* 35624, historically labeled “B. infantis 35624”; condition-matched strains [[altmann-2016-bifidobacterium-longum-35624-genome]] |\n| Prebiotics (inulin, FOS) | Bifidobacterium, F. prausnitzii | Selective substrate for beneficial taxa |\n| [[nac-supplementation]] | Glutathione restoration | Replenishes the antioxidant defense depleted by metal-driven oxidative stress |"
         },
         {
           "heading": "When Antibiotics ARE Necessary",
@@ -163579,6 +163611,7 @@
         "lactoferrin-supplementation",
         "saccharomyces-boulardii",
         "ecoli-nissle-1917",
+        "altmann-2016-bifidobacterium-longum-35624-genome",
         "nac-supplementation",
         "biofilm",
         "antimicrobial-resistance",
@@ -163586,7 +163619,7 @@
         "probiotics-general"
       ],
       "sourceDir": "stops",
-      "sourceCount": 6,
+      "sourceCount": 7,
       "threshold": 2,
       "belowThreshold": false,
       "isStub": false,
@@ -163753,7 +163786,7 @@
         "why_counterproductive": "Reduces microbiome diversity and depletes protective Bifidobacterium, the primary defense against Enterobacteriaceae bloom that precedes NEC. Prenatal antibiotics reduce diversity and increase pathogen susceptibility. Increases antibiotic resistance genes in an already vulnerable population.",
         "evidence": [],
         "evidence_level": "expert-opinion",
-        "alternative": "Breast milk/HMOs as primary defense. Bovine lactoferrin + L. rhamnosus GG (SUCRA 95.7% for NEC prevention). B. infantis supplementation. Reserve antibiotics for documented infection.",
+        "alternative": "Breast milk/HMOs as primary defense. Bovine lactoferrin + L. rhamnosus GG (SUCRA 95.7% for NEC prevention). Use only strain-verified probiotic formulations supported for the neonatal context; a historical B. infantis label alone does not establish B. longum subsp. infantis. Reserve antibiotics for documented infection.",
         "karen_brain_primitives": [
           1,
           5,
@@ -164134,7 +164167,7 @@
         "why_counterproductive": "Formula-fed preterm infants have dramatically higher NEC rates (57% controls on breast milk vs 28% NEC cases). Formula lacks HMOs that feed Bifidobacterium and Lactobacillus, lacks lactoferrin for iron sequestration, lacks IgA for pathogen binding, and lacks AHR ligands that prevent TLR4-mediated intestinal injury. Without these, Proteobacteria bloom unchecked.",
         "evidence": [],
         "evidence_level": "expert-opinion",
-        "alternative": "Donor breast milk when maternal milk unavailable. If formula necessary: supplement with bovine lactoferrin + L. rhamnosus GG + HMOs. B. infantis NCDO 2203 with HMO co-administration shown most effective.",
+        "alternative": "Donor breast milk when maternal milk unavailable. If formula is necessary, evaluate bovine lactoferrin, L. rhamnosus GG, and HMO strategies under neonatal clinical guidance. Do not infer a current B. longum subsp. infantis identity from an unverified historical B. infantis product or strain label.",
         "karen_brain_primitives": [
           2,
           5,
@@ -181030,10 +181063,10 @@
         "sourceCount": 5
       },
       {
-        "id": "bifidobacterium-infantis",
-        "label": "Bifidobacterium infantis",
+        "id": "bifidobacterium-longum-subsp-infantis",
+        "label": "Bifidobacterium longum subsp. infantis",
         "category": "microbe",
-        "sourceCount": 5
+        "sourceCount": 9
       },
       {
         "id": "bifidobacterium-longum",
@@ -181759,7 +181792,7 @@
         "id": "ibs",
         "label": "Irritable Bowel Syndrome (IBS)",
         "category": "disease",
-        "sourceCount": 5
+        "sourceCount": 6
       },
       {
         "id": "inflammatory-bowel-disease",
@@ -184669,7 +184702,7 @@
         "id": "ibs-signature",
         "label": "Irritable Bowel Syndrome — Microbiome Signature",
         "category": "signature",
-        "sourceCount": 7
+        "sourceCount": 8
       },
       {
         "id": "inflammatory-bowel-disease-signature",
@@ -185143,7 +185176,7 @@
         "id": "probiotics-general",
         "label": "Probiotics (General)",
         "category": "intervention",
-        "sourceCount": 0
+        "sourceCount": 1
       },
       {
         "id": "probiotics-lactobacillus-bifidobacterium",
@@ -185419,7 +185452,7 @@
         "id": "stop-broad-spectrum-antibiotics-dysbiosis",
         "label": "STOP: Broad-Spectrum Antibiotics for Gut Dysbiosis",
         "category": "stop",
-        "sourceCount": 6
+        "sourceCount": 7
       },
       {
         "id": "stop-broad-spectrum-antibiotics-long-covid",
@@ -187661,7 +187694,7 @@
       },
       {
         "source": "bifidobacteriaceae",
-        "target": "bifidobacterium-infantis"
+        "target": "bifidobacterium-longum-subsp-infantis"
       },
       {
         "source": "bifidobacteriaceae",
@@ -187728,7 +187761,11 @@
         "target": "gut-brain-axis"
       },
       {
-        "source": "bifidobacterium-infantis",
+        "source": "bifidobacterium-longum-subsp-infantis",
+        "target": "bifidobacterium-longum"
+      },
+      {
+        "source": "bifidobacterium-longum-subsp-infantis",
         "target": "bifidobacterium"
       },
       {
@@ -223418,7 +223455,7 @@
     "ibs-signature": {
       "id": "ibs-signature",
       "name": "Irritable Bowel Syndrome",
-      "paperCount": 7,
+      "paperCount": 8,
       "metallomicSignature": {
         "elevated": [
           "nickel"
@@ -223453,7 +223490,7 @@
           },
           {
             "taxon": "[[bifidobacterium]]",
-            "role": "SCFA producer — depleted in IBS; B. infantis 35624 has specific evidence for IBS symptom relief"
+            "role": "SCFA producer — depleted in IBS; strain 35624 IBS studies used a historical B. infantis label, but the strain is B. longum subsp. longum"
           },
           {
             "taxon": "[[faecalibacterium-prausnitzii]]",
@@ -407554,6 +407591,39 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "altmann-2016-bifidobacterium-longum-35624-genome": {
+      "title": "Genome Analysis and Characterisation of the Exopolysaccharide Produced by Bifidobacterium longum subsp. longum 35624",
+      "authors": [
+        "Friedrich Altmann",
+        "Paul Kosma",
+        "Amy O'Callaghan",
+        "Sinead Leahy",
+        "Francesca Bottacini",
+        "Evelyn Molloy",
+        "Stephan Plattner",
+        "Elisa Schiavi",
+        "Marita Gleinser",
+        "David Groeger",
+        "Ray Grant",
+        "Noelia Rodriguez Perez",
+        "Selena Healy",
+        "Elisabeth Svehla",
+        "Markus Windwarder",
+        "Andreas Hofinger",
+        "Mary O'Connell Motherway",
+        "Cezmi A Akdis",
+        "Jun Xu",
+        "Jennifer Roper",
+        "Douwe van Sinderen",
+        "Liam O'Mahony"
+      ],
+      "year": 2016,
+      "journal": "PLOS ONE",
+      "doi": "10.1371/journal.pone.0162983",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "alves-2020-candida-adapting-survive-host-constraints": {
       "title": "Alves et al. 2020 — Adapting to Survive: How Candida Overcomes Host-Imposed Constraints",
       "authors": [
@@ -423059,6 +423129,16 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "lpsn-bifidobacterium-longum-subsp-infantis": {
+      "title": "LPSN — Bifidobacterium longum subsp. infantis",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "lpsn-dialister-histaminiformans": {
       "title": "LPSN — Dialister histaminiformans",
       "authors": [],
@@ -424309,6 +424389,21 @@
       "year": 2025,
       "journal": "UNSW Sydney Thesis",
       "doi": "10.26190/unsworks/31488",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "mattarelli-2008-bifidobacterium-longum-subspecies-reclassification": {
+      "title": "Proposal to reclassify the three biotypes of Bifidobacterium longum as three subspecies",
+      "authors": [
+        "Paola Mattarelli",
+        "Claudia Bonaparte",
+        "Bruno Pot",
+        "Bruno Biavati"
+      ],
+      "year": 2008,
+      "journal": "International Journal of Systematic and Evolutionary Microbiology",
+      "doi": "10.1099/ijs.0.65319-0",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -425805,6 +425900,16 @@
     },
     "ncbi-taxonomy-barnesiella": {
       "title": "NCBI Taxonomy — Barnesiella (NCBITaxon:397864)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-bifidobacterium-longum-subsp-infantis": {
+      "title": "NCBI Taxonomy — Bifidobacterium longum subsp. infantis (NCBITaxon:1682)",
       "authors": [],
       "year": "",
       "journal": "NCBI Taxonomy",

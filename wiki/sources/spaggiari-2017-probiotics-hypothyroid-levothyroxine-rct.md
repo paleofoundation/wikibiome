@@ -19,7 +19,7 @@ platform: both
 condition: "hashimotos-thyroiditis"
 karen_brain_primitives: [2, 4]
 metals_discussed: []
-taxa_discussed: [bifidobacterium-breve, bifidobacterium-longum, bifidobacterium-infantis, lactobacillus-acidophilus, lactobacillus-plantarum, lactobacillus-paracasei, lactobacillus-bulgaricus, streptococcus-thermophilus]
+taxa_discussed: [bifidobacterium-breve, bifidobacterium-longum, bifidobacterium-longum-subsp-infantis, lactobacillus-acidophilus, lactobacillus-plantarum, lactobacillus-paracasei, lactobacillus-bulgaricus, streptococcus-thermophilus]
 key_findings:
   - "VSL#3 (8-strain probiotic, 450×10⁹ CFU/sachet) for 2 months did NOT directly alter thyroid function (TSH, fT3, fT4) or PTM in levothyroxine-treated hypothyroid patients"
   - "However, levothyroxine dose adjustments occurred more frequently in control (4 decreases required) vs probiotic group (p=0.007) — suggesting probiotics stabilize LT4 bioavailability and prevent hormonal fluctuation"
@@ -31,6 +31,7 @@ key_findings:
 ## Key Findings
 
 - Prospective single-blind RCT, 80 primary hypothyroid patients on stable levothyroxine, randomized to **VSL#3** (B. breve, B. longum, B. infantis, L. acidophilus, L. plantarum, L. paracasei, L. bulgaricus, S. thermophilus; 450×10⁹ CFU/sachet) + LT4 vs LT4 alone. 2-month intervention + 2-month follow-up.
+- The formulation names are preserved as reported by the trial. This record does not identify the *B. infantis* component by strain, so it cannot independently establish assignment to current *B. longum* subsp. *infantis* (NCBITaxon:1682).
 - **No direct effect** on TSH, fT3, fT4, peripheral tissue markers (creatine phosphokinase, myoglobin, SHBG, ferritin) between groups.
 - **Stability effect**: LT4 dose adjustments occurred 6 times in control vs 4 decreases in probiotic group (p=0.007) — interpreted as probiotics **preventing fluctuation** rather than inducing a mean shift.
 - fT3/fT4 ratio directly correlated with TSH at each visit in both groups.

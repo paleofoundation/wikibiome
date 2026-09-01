@@ -79,7 +79,7 @@ updated: 2026-04-19
 - [[bifidobacteriales]]
 - [[bifidobacterium]]
 - [[bifidobacterium-bifidum]]
-- [[bifidobacterium-infantis]]
+- [[bifidobacterium-longum-subsp-infantis]]
 - [[bilophila]]
 - [[blautia]]
 - [[brucella]]

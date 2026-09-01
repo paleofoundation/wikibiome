@@ -2,9 +2,10 @@
 title: "Probiotics (General)"
 type: intervention
 created: 2026-04-09
-updated: 2026-04-09
-last_substantive_update: 2026-04-09
-sources: []
+updated: 2026-09-01
+last_substantive_update: 2026-09-01
+sources: [altmann-2016-bifidobacterium-longum-35624-genome]
+source_count: 1
 tags: [probiotic, strain-specific, gut-microbiome, immunomodulation, evidence-based]
 intervention_class: probiotic
 cureva_status: partial
@@ -20,9 +21,9 @@ triangles:
     status: validated
 
   - condition: "[[ibs]]"
-    I_to_f: "Specific strains modulate visceral hypersensitivity (B. infantis 35624), restore serotonin metabolism (L. rhamnosus GG), and reduce mast cell activation. Multi-strain formulations improve microbial diversity."
+    I_to_f: "Specific strains modulate visceral hypersensitivity (B. longum subsp. longum 35624, historically reported as B. infantis 35624), restore serotonin metabolism (L. rhamnosus GG), and reduce mast cell activation. Multi-strain formulations improve microbial diversity."
     I_to_f_evidence: "moderate"
-    I_to_D: "B. infantis 35624 reduces global IBS symptoms, abdominal pain, and bloating in RCTs. L. rhamnosus GG improves IBS-D symptoms. Multi-strain probiotics (e.g., Bio-Kult) show benefit in meta-analyses, though effect sizes are modest."
+    I_to_D: "Trials historically labeled the organism B. infantis 35624; genome analysis now assigns strain 35624 to B. longum subsp. longum. Reported strain-specific findings do not establish an effect of B. longum subsp. infantis. L. rhamnosus GG improves IBS-D symptoms. Multi-strain probiotics (e.g., Bio-Kult) show benefit in meta-analyses, though effect sizes are modest."
     I_to_D_evidence: "RCT"
     f_to_D: "IBS microbiome shows reduced Lactobacillus, Bifidobacterium, and F. prausnitzii with enrichment of Firmicutes/Bacteroidetes ratio imbalance. Dysbiosis correlates with symptom severity."
     status: validated
@@ -65,7 +66,7 @@ Probiotics are live microorganisms that, when administered in adequate amounts, 
 
 | Strain | Condition | Evidence Level | Key Findings |
 |--------|-----------|---------------|--------------|
-| *B. infantis* 35624 | [[ibs]] | RCT (validated) | Reduces global symptoms, pain, bloating; normalizes IL-10/IL-12 ratio |
+| *B. longum* subsp. *longum* 35624 (historically “*B. infantis* 35624”) | [[ibs]] | Historical-label RCTs | Reported strain-specific outcomes cannot be generalized to *B. longum* subsp. *infantis* [[altmann-2016-bifidobacterium-longum-35624-genome]] |
 | *L. rhamnosus* GG (LGG) | [[ibs]]-D, antibiotic-associated diarrhea | RCT (validated) | Reduces IBS-D symptoms; prevents AAD in children and adults |
 | *E. coli* Nissle 1917 | [[ulcerative-colitis]] | RCT (validated) | Maintains remission; efficacy equivalent to mesalazine |
 | VSL#3 (8-strain) | [[ulcerative-colitis]], pouchitis | RCT (validated) | Maintains remission; prevents pouchitis recurrence |
@@ -86,7 +87,7 @@ Effective probiotic strains must satisfy two functional requirements simultaneou
 
 2. Immunological function: The strain must interact with the mucosal immune system to modulate the Th1/Th2/Th17/Treg balance, reduce inflammatory cytokines, or activate tolerogenic pathways (e.g., AhR ligand production, butyrate-mediated HDAC inhibition).
 
-Strains that only survive transit without immune engagement, or that modulate immunity without ecological persistence, show weaker clinical effects. The strongest-evidence strains (VSL#3, E. coli Nissle 1917, B. infantis 35624) demonstrably satisfy both requirements.
+Strains that only survive transit without immune engagement, or that modulate immunity without ecological persistence, show weaker clinical effects. Historical studies of strain 35624 used an *infantis* label, but comparative genomics assigns that strain to *B. longum* subsp. *longum*; its findings must remain strain-specific [[altmann-2016-bifidobacterium-longum-35624-genome]].
 
 ---
 

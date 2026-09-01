@@ -3,8 +3,8 @@ title: Bifidobacterium longum
 type: entity
 subtype: microbe
 created: 2026-04-17T00:00:00.000Z
-updated: 2026-04-17T00:00:00.000Z
-last_substantive_update: 2026-04-22
+updated: 2026-09-01
+last_substantive_update: 2026-09-01
 sources:
   - huo-2021-bifidobacterium-longum-methimazole-graves
   - eggers-2023-prenatal-lead-childhood-gut-microbiome-progress
@@ -92,6 +92,7 @@ Prenatal lead exposure consistently depletes *B. longum* in childhood gut microb
 ## Cross-References
 
 - [[bifidobacterium]] — genus overview
+- [[bifidobacterium-longum-subsp-infantis]] — current record for the infantis subspecies
 - [[lactobacillus-rhamnosus]] — complementary metal-detoxifying probiotic
 - [[lead]] — prenatal exposure depletes B. longum
 - [[cadmium]] — biosorbed by B. longum cell wall

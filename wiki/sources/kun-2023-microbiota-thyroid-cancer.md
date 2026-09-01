@@ -54,7 +54,7 @@ keystone: false
 
 **TC treatments and microbiota**: Radioactive I-131 therapy significantly reduced Firmicutes/Bacteroidetes ratio. External radiation disrupts microbiome. TSH suppression therapy affects gut flora. Chemotherapy efficacy is modulated by gut microbial composition ([[kun-2023-microbiota-thyroid-cancer]], expert-opinion).
 
-**Probiotics**: Supplementation with B. infantis, L. acidophilus, E. faecalis, and B. cereus reduced TC complications post-thyroidectomy. Probiotics decreased oral Prevotella_9, Fusobacterium, and Haemophilus. Mannooligosaccharide prebiotic enhanced Lactobacillus and Bifidobacterium growth ([[kun-2023-microbiota-thyroid-cancer]], expert-opinion).
+**Probiotics**: The review reports a formulation labeled B. infantis, L. acidophilus, E. faecalis, and B. cereus as reducing TC complications post-thyroidectomy; the historical *B. infantis* label does not identify a current subspecies or strain. Probiotics decreased oral Prevotella_9, Fusobacterium, and Haemophilus. Mannooligosaccharide prebiotic enhanced Lactobacillus and Bifidobacterium growth ([[kun-2023-microbiota-thyroid-cancer]], expert-opinion).
 
 ## Relevance to WikiBiome
 

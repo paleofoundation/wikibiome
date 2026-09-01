@@ -48,7 +48,7 @@ keystone: false
 **Included studies** (Table 1): 8 RCTs published 2017-2023 from 3 countries:
 1. **Lin 2022** (China, n=39): Bifidobacterium Tetravaccine in post-thyroidectomy DTC patients, 4 weeks — reduced complications; Jadad >=4
 2. **Huo 2021** (China, n=25): Methimazole + black bean or + B. longum in GD patients, 6 months — methimazole+black bean reduced FT3/FT4, methimazole+probiotics reduced TRAb; Jadad <4
-3. **Spaggiari 2017** (Italy, n=80): Multistrain probiotic (B. breve, B. longum, B. infantis, L. acidophilus, L. plantarum, L. paracasei, L. bulgaricus, S. thermophilus) in primary hypothyroidism patients on LT4, 4 months — no change; Jadad <4
+3. **Spaggiari 2017** (Italy, n=80): Multistrain probiotic (B. breve, B. longum, source-reported B. infantis, L. acidophilus, L. plantarum, L. paracasei, L. bulgaricus, S. thermophilus) in primary hypothyroidism patients on LT4, 4 months — no change; Jadad <4. No strain identifier is available here to map that historical label to current *B. longum* subsp. *infantis*.
 4. **Han 2022** (China, n=18): Berberine + methimazole in GD patients, 6 months — berberine restored TSH and FT3; Jadad <4
 5. **Jalalvand 2021** (Iran, n=58): Elaeagnus angustifolia in postmenopausal women, 10 weeks — TSH increase significant within-group only; Jadad >=4
 6. **Kong 2022** (China/Taiwan, n=40): Synbiotic (L. johnsonii No.1088, B. subtilis BS139, fermented sake lees, green tea essence) in overweight/obese subjects, 12 weeks — TSH and T4 significantly higher; Jadad >=4

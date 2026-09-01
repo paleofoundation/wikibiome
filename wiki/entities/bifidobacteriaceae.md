@@ -3,8 +3,8 @@ title: "Bifidobacteriaceae"
 type: entity
 subtype: microbe
 created: 2026-04-21
-updated: 2026-04-21
-last_substantive_update: 2026-04-21
+updated: 2026-09-01
+last_substantive_update: 2026-09-01
 sources:
   - szeligowski-2020-gut-microbiome-schizophrenia-review
   - coretti-2018-gut-microbiota-young-asd-children
@@ -28,7 +28,7 @@ platform: wikibiome
 
 Bifidobacteriaceae is the family containing [[bifidobacterium]] and related genera ([[alloscardovia]]). It is the dominant family in the healthy infant gut and a significant commensal family in adults. Family-level depletion is documented in ASD (marked reduction of Actinobacteria phylum) [[coretti-2018-gut-microbiota-young-asd-children]], schizophrenia [[szeligowski-2020-gut-microbiome-schizophrenia-review]], and metabolic syndrome [[dejonge-2022-gut-virome-bacteriophage-metabolic-syndrome]].
 
-For species-level detail, see [[bifidobacterium]], [[bifidobacterium-bifidum]], [[bifidobacterium-infantis]], [[alloscardovia]].
+For lower-rank detail, see [[bifidobacterium]], [[bifidobacterium-bifidum]], [[bifidobacterium-longum-subsp-infantis]], and [[alloscardovia]].
 
 ## Cross-References
 

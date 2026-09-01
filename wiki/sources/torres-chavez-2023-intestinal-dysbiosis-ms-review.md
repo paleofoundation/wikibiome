@@ -43,7 +43,7 @@ This comprehensive review examined 77 studies (60 reviews, 4 case-controls, 4 sy
 ### Therapeutic Approaches
 - [[probiotics]] show promise: *Lactobacillus fermentum* reduces AFBI levels in liver and kidneys, modulates immune response
 - *Lactobacillus* supplementation decreased IL-6 and increased anti-inflammatory cytokines in MS patients
-- *Bifidobacterium infantis* and *Lactobacillus casei* showed significant inflammatory pathway modulation
+- The review reported *Bifidobacterium infantis* and *Lactobacillus casei* in inflammatory-pathway studies; the historical *B. infantis* label is retained without inferring a verified current subspecies or strain.
 
 ## Relevance to Gut-Metal-Microbiome Axis
 

@@ -64,7 +64,7 @@ Narrative review of **dysbiosis and GI disorders in ASD**, emphasizing **bidirec
 ### Strain Selection
 
 **Most frequently studied strains**:
-- **[[bifidobacterium|Bifidobacteria]]** species (especially B. longum, B. infantis)
+- **[[bifidobacterium|Bifidobacteria]]** taxa (especially *B. longum* and the source-reported historical shorthand “*B. infantis*”)
 - **[[lactobacillus]]** species (especially L. acidophilus, L. rhamnosus, L. plantarum)
 - **[[streptococcus-pneumoniae]]** species (especially S. thermophilus)
 
