@@ -1,8 +1,13 @@
 import { allSources, allWikiPages, canonicalArticleId, categories, generatedAt } from "@/lib/wikibiome";
-import { getArticleMedia } from "@/lib/article-media";
-import type { ArticleMedia } from "@/lib/article-media";
+import { getArticleMedia, type ArticleMedia } from "@/lib/article-media";
 
 const ORIGIN = "https://www.wikibiome.com";
+type SitemapEntry = {
+  path: string;
+  lastmod?: string;
+  priority: string;
+  media?: ArticleMedia;
+};
 const publicRoutes = [
   "/",
   ...[...categories.map((category) => `/category/${category.id}`), "/category/other", "/category/reference"],
@@ -23,13 +28,6 @@ const publicRoutes = [
   "/terms",
   "/contact",
 ];
-
-type SitemapEntry = {
-  path: string;
-  lastmod?: string;
-  priority: string;
-  media?: ArticleMedia;
-};
 
 export function GET() {
   const articleMap = new Map<string, string>();

@@ -4,7 +4,7 @@
   "category": "microorganisms",
   "createdOn": "2026-09-01",
   "reviewedOn": "2026-09-01",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/microorganisms-004.md",
   "reviewStandard": "Scientific identity, morphology, controlled identifiers, caption limits, non-diagnostic framing, provenance, accessibility, and publication files passed the WikiBiome scientific media policy before promotion. The original prompt remains immutable provenance; a separate human output audit reconciles what is actually visible with all published metadata.",
@@ -20,7 +20,7 @@
       "draft": "work/media-drafts/microorganisms-batch-004/anaerotruncus-draft.png",
       "sha256": "dea2c6b801532a10808b62b38d1f8c99eebe2cfe4840eb04fa9c66aa7dbbe33e",
       "scientificReferences": [
-        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Anaerotruncus",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=244127&mode=Info",
         "https://pubmed.ncbi.nlm.nih.gov/15023953/",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC1860411/"
       ],

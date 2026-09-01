@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "05a7dbc4cc616886f26be47b321d285958af10262bf6a70bcdcf25a86583cacb",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "1fcedf320bda3bb724988e439028c8e125629cecc593707e66fda4a1ff89991c",
+    "registrySha256": "2c9965fcacbea6e80169e62a6cf91850495069000f2b05bd1552c87730230e2b",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "fccdeb209ae91fa221d8c3f9e05fe95f6b3b872d8d0a625913a28192ed5f57b6",
+    "reviewLogSha256": "2b5dfb6f184c10941810a82cfdc5e1d6f7ab322e75ba59fc0c8e3b9000c4eee1",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -33,8 +33,8 @@
       {
         "file": "data/article-media-batches/microorganisms-004.json",
         "batchId": "microorganisms-004",
-        "status": "approved-awaiting-promotion",
-        "sha256": "daefb3b735460dd241852ddc5ccd58155b92bad0ce90b13923c8bbcb0775e944"
+        "status": "reviewed",
+        "sha256": "0a11c3c8ca0c7985f9fe494595acd6b060d62565316b763e5a05f7ac7fc3ef8d"
       }
     ]
   },
@@ -56,20 +56,20 @@
   },
   "current": {
     "total": 714,
-    "completed": 24,
-    "remaining": 690,
+    "completed": 28,
+    "remaining": 686,
     "rejected": 4,
     "revised": 2,
     "scientificHolds": 4,
-    "inReview": 4
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 233,
-      "completed": 21,
-      "remaining": 212
+      "completed": 25,
+      "remaining": 208
     },
     {
       "id": "metals",
@@ -661,12 +661,14 @@
       "route": "/article/anaerotruncus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-004",
-        "decision": "approved",
-        "draft": "work/media-drafts/microorganisms-batch-004/anaerotruncus-draft.png",
-        "sha256": "dea2c6b801532a10808b62b38d1f8c99eebe2cfe4840eb04fa9c66aa7dbbe33e"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "anaerotruncus-morphology-v1-master.png",
+        "publishedFile": "anaerotruncus-morphology-v1.webp",
+        "socialFile": "anaerotruncus-morphology-v1-social.webp"
       }
     },
     {
@@ -680,12 +682,14 @@
       "route": "/article/aspergillus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-004",
-        "decision": "approved",
-        "draft": "work/media-drafts/microorganisms-batch-004/aspergillus-draft.png",
-        "sha256": "34304bbf26f701807027fbac8cadf9e01845ad4b8c568bfe6d9a0f2f3333fb1e"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "aspergillus-morphology-v1-master.png",
+        "publishedFile": "aspergillus-morphology-v1.webp",
+        "socialFile": "aspergillus-morphology-v1-social.webp"
       }
     },
     {
@@ -699,12 +703,14 @@
       "route": "/article/atopobium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-004",
-        "decision": "approved",
-        "draft": "work/media-drafts/microorganisms-batch-004/atopobium-draft.png",
-        "sha256": "f694fa04c5648e412270fc6dd0cb685b78cbc639b599118b36c9a2e80bf9cb07"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "atopobium-morphology-v1-master.png",
+        "publishedFile": "atopobium-morphology-v1.webp",
+        "socialFile": "atopobium-morphology-v1-social.webp"
       }
     },
     {
@@ -756,12 +762,14 @@
       "route": "/article/bacillus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-004",
-        "decision": "approved",
-        "draft": "work/media-drafts/microorganisms-batch-004/bacillus-draft.png",
-        "sha256": "e30dd4e05cf4d1fbac2bd84f9692fc269722536772dd9d9d817a02902d6a2967"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacillus-morphology-v1-master.png",
+        "publishedFile": "bacillus-morphology-v1.webp",
+        "socialFile": "bacillus-morphology-v1-social.webp"
       }
     },
     {
