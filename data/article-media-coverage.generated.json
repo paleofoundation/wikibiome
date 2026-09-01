@@ -6,7 +6,7 @@
     "upstreamCommit": "62e006cf0ced1dce706a6438f6461602229a9f26",
     "contentManifest": "data/content-manifest.generated.json",
     "contentFile": "data/content.generated.json",
-    "contentSha256": "53a9f4a46361d995fa32c3149d66a23def661b32167fe26ad3843c93cb45e087",
+    "contentSha256": "05a7dbc4cc616886f26be47b321d285958af10262bf6a70bcdcf25a86583cacb",
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "90e424a0b1a93009f09e17307610e449222c499b8e01bfeaf38c1262890677fb",
     "reviewLog": "data/article-media-review-log.json",
