@@ -1,13 +1,17 @@
 import sharp from "sharp";
 import { mkdir } from "node:fs/promises";
 import { join } from "node:path";
-import { articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
+import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 
 const root = process.cwd();
 const masters = join(root, "work", "media-masters");
 const output = join(root, "public", "media");
 
 function validateMedia(media) {
+  const expectedFiles = articleMediaFileNames(media.pageId, media.assetType, media.revision);
+  if (media.src !== expectedFiles.src || media.socialSrc !== expectedFiles.socialSrc || media.masterSource !== expectedFiles.masterSource) {
+    throw new Error(`${media.pageId}: filenames do not match the canonical media convention.`);
+  }
   const requiredAuthorities = articleMediaPolicy.requiredAuthorities[media.subjectKind];
   if (!requiredAuthorities) throw new Error(`${media.pageId}: unsupported subject kind ${media.subjectKind}.`);
   const authorities = new Set(media.scientificIdentifiers.map((identifier) => identifier.authority));

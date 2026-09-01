@@ -1,4 +1,4 @@
-import { articleMediaPolicy, articleMediaRegistry } from "@/lib/article-media-registry.mjs";
+import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "@/lib/article-media-registry.mjs";
 
 export type ScientificIdentifier = {
   authority: string;
@@ -10,6 +10,8 @@ export type ScientificIdentifier = {
 
 export type ArticleMedia = {
   pageId: string;
+  assetType: "morphology" | "pathology" | "technical-specimen" | "microbial-community";
+  revision: number;
   title: string;
   label: string;
   src: string;
@@ -47,6 +49,10 @@ const articleMedia = articleMediaRegistry as Record<string, ArticleMedia>;
 function assertMediaRegistry() {
   for (const [id, media] of Object.entries(articleMedia)) {
     if (id !== media.pageId) throw new Error(`Article media key ${id} does not match pageId ${media.pageId}.`);
+    const expectedFiles = articleMediaFileNames(media.pageId, media.assetType, media.revision);
+    if (media.src !== expectedFiles.src || media.socialSrc !== expectedFiles.socialSrc || media.masterSource !== expectedFiles.masterSource) {
+      throw new Error(`Article media ${id} does not follow the canonical filename convention.`);
+    }
     if (!media.scientificIdentifiers.length) throw new Error(`Article media ${id} has no controlled scientific identifier.`);
     if (media.license !== ARTICLE_MEDIA_LICENSE) throw new Error(`Article media ${id} does not use the registry license.`);
     if (!articleMediaPolicy.reviewStatuses[media.reviewStatus]) throw new Error(`Article media ${id} has an unknown review status.`);

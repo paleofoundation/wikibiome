@@ -1,0 +1,4 @@
+/media/*.webp
+  Content-Type: image/webp
+  X-Content-Type-Options: nosniff
+  Cache-Control: public, max-age=31536000, immutable

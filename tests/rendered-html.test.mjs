@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
-import { articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
+import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 
 async function render(pathname = "/") {
@@ -146,6 +146,11 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
 
   assert.equal(Object.keys(articleMediaRegistry).length, pilot.length);
   for (const [id, media] of Object.entries(articleMediaRegistry)) {
+    assert.deepEqual(
+      { src: media.src, socialSrc: media.socialSrc, masterSource: media.masterSource },
+      articleMediaFileNames(media.pageId, media.assetType, media.revision),
+      `${id} must use generator-derived canonical filenames`,
+    );
     assert.ok(media.scientificIdentifiers.length > 0, `${id} requires a controlled scientific identifier`);
     assert.equal(media.license, articleMediaPolicy.license.url);
     assert.equal(media.reviewStatus, "editorial-review-complete");
@@ -159,6 +164,23 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
       assert.ok(propertyIDs.has(required), `${id} requires ${required}`);
     }
   }
+
+  assert.throws(
+    () => articleMediaFileNames("Escherichia Coli", "morphology", 1),
+    /Invalid canonical article slug/,
+  );
+  assert.throws(
+    () => articleMediaFileNames("escherichia-coli", "concept-art", 1),
+    /Unsupported article media asset type/,
+  );
+  assert.throws(
+    () => articleMediaFileNames("escherichia-coli", "morphology", 0),
+    /Invalid article media revision/,
+  );
+
+  const staticHeaders = readFileSync(new URL("../dist/client/_headers", import.meta.url), "utf8");
+  assert.match(staticHeaders, /\/media\/\*\.webp[\s\S]*Content-Type:\s*image\/webp/i);
+  assert.match(staticHeaders, /X-Content-Type-Options:\s*nosniff/i);
 
   const unverified = ["low-nickel-diet", "paradox-plant-based-diet-nickel-trap"];
   const unverifiedResponses = await Promise.all(unverified.map((id) => render(`/article/${id}`)));
