@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "a854ec6fc8b9b2875f203dc5c2f98d3c6d9bdc45b35dd6d7fdd93c79fe4add23",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "2145376ada20e4c0227b5be4989fb32738791b92efcbb91cb7edc55e3b73793e",
+    "registrySha256": "d5839f065b114d6c45f98311f287509b80469423792e3bbf3ef734716f8a04ef",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "2a85bcdea64781c31a4961452bfce808a145eb28ce15c5a6e2a9e076050ac7ae",
+    "reviewLogSha256": "b110a63525f8a0ccf0219f751995b24bfeb40e15ed48b7a9f7f7d58634c6d733",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -95,6 +95,12 @@
         "batchId": "microorganisms-014",
         "status": "reviewed",
         "sha256": "7ff8244b3c749bd1db8bf9462f74ee815da2522586b24995d51627d91236c552"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-015.json",
+        "batchId": "microorganisms-015",
+        "status": "reviewed",
+        "sha256": "0f0ac74c87092669d1476cf9983a05281e266081c5e0f7219f3a7c83022c30b6"
       }
     ]
   },
@@ -116,8 +122,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 81,
-    "remaining": 629,
+    "completed": 87,
+    "remaining": 623,
     "rejected": 11,
     "revised": 8,
     "scientificHolds": 0,
@@ -128,8 +134,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 78,
-      "remaining": 151
+      "completed": 84,
+      "remaining": 145
     },
     {
       "id": "metals",
@@ -542,55 +548,56 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 77,
-      "id": "eggerthella",
-      "title": "Eggerthella",
-      "route": "/article/eggerthella",
+      "queuePosition": 83,
+      "id": "enterococcus-faecalis",
+      "title": "Enterococcus faecalis",
+      "route": "/article/enterococcus-faecalis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 78,
-      "id": "eggerthella-lenta",
-      "title": "Eggerthella lenta",
-      "route": "/article/eggerthella-lenta",
+      "queuePosition": 84,
+      "id": "enterococcus-faecium",
+      "title": "Enterococcus faecium",
+      "route": "/article/enterococcus-faecium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 79,
-      "id": "enterobacter",
-      "title": "Enterobacter",
-      "route": "/article/enterobacter",
+      "queuePosition": 85,
+      "id": "erysipelotrichaceae",
+      "title": "Erysipelotrichaceae",
+      "route": "/article/erysipelotrichaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 80,
-      "id": "enterobacter-cloacae",
-      "title": "Enterobacter cloacae",
-      "route": "/article/enterobacter-cloacae",
+      "queuePosition": 86,
+      "id": "escherichia",
+      "title": "Escherichia",
+      "route": "/article/escherichia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 81,
-      "id": "enterobacteriaceae",
-      "title": "Enterobacteriaceae",
-      "route": "/article/enterobacteriaceae",
+      "queuePosition": 88,
+      "id": "eubacteriales",
+      "title": "Eubacteriales",
+      "route": "/article/eubacteriales",
       "category": "microbe",
       "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:186802"
     },
     {
-      "queuePosition": 82,
-      "id": "enterococcus",
-      "title": "Enterococcus",
-      "route": "/article/enterococcus",
+      "queuePosition": 89,
+      "id": "eubacterium",
+      "title": "Eubacterium",
+      "route": "/article/eubacterium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -2208,7 +2215,15 @@
       "route": "/article/eggerthella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "eggerthella-morphology-v1-master.png",
+        "publishedFile": "eggerthella-morphology-v1.webp",
+        "socialFile": "eggerthella-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 78,
@@ -2221,7 +2236,15 @@
       "route": "/article/eggerthella-lenta",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "eggerthella-lenta-morphology-v1-master.png",
+        "publishedFile": "eggerthella-lenta-morphology-v1.webp",
+        "socialFile": "eggerthella-lenta-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 79,
@@ -2234,7 +2257,15 @@
       "route": "/article/enterobacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "enterobacter-morphology-v1-master.png",
+        "publishedFile": "enterobacter-morphology-v1.webp",
+        "socialFile": "enterobacter-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 80,
@@ -2247,7 +2278,15 @@
       "route": "/article/enterobacter-cloacae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "enterobacter-cloacae-morphology-v1-master.png",
+        "publishedFile": "enterobacter-cloacae-morphology-v1.webp",
+        "socialFile": "enterobacter-cloacae-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 81,
@@ -2260,7 +2299,15 @@
       "route": "/article/enterobacteriaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "enterobacteriaceae-microbial-community-v1-master.png",
+        "publishedFile": "enterobacteriaceae-microbial-community-v1.webp",
+        "socialFile": "enterobacteriaceae-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 82,
@@ -2273,7 +2320,15 @@
       "route": "/article/enterococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "enterococcus-morphology-v1-master.png",
+        "publishedFile": "enterococcus-morphology-v1.webp",
+        "socialFile": "enterococcus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 83,

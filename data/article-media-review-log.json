@@ -1851,6 +1851,187 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 014 after literal prompt provenance and exact grouping-arrangement reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "dorea-draft.png", "sourceSha256": "0a003a76e51ff6c568d3780072e72bf41936f73f217ed6d6084c66b773ff7a7c", "generationRecord": "exec-de79647b-2924-477b-a7e7-33a1f04e6028.png" }
+    },
+    "eggerthella|eggerthella-morphology-v1.webp": {
+      "pageId": "eggerthella",
+      "publishedFile": "eggerthella-morphology-v1.webp",
+      "masterSource": "eggerthella-morphology-v1-master.png",
+      "socialFile": "eggerthella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=84111&mode=Info",
+          "https://lpsn.dsmz.de/genus/eggerthella",
+          "https://doi.org/10.1099/00207713-49-2-595",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035228/"
+        ],
+        "notes": "NCBI Taxonomy retains current genus taxon NCBITaxon:84111, while its displayed priority note and LPSN's nomenclatural authority and priority treatment identify Eggerthella Wade et al. 1999 as the correct authority, with E. lenta as type species. The sources are not treated as falsely agreeing on every displayed authority detail. Primary and type-species evidence supports non-motile, non-sporulating rods occurring singly, in pairs, or chains."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly ten rod bodies in seven separated groupings: five singles, one touching pair, and one short aligned three-body chain. No appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text, caption, description, provenance, and structured output audit preserve ten rods and seven groupings, including the one pair and one three-body chain; caption separately supplies type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 015 after literal prompt provenance, honest 10-body/7-group reconciliation, and explicit NCBI-record-versus-LPSN-authority wording.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "eggerthella-draft.png", "sourceSha256": "66060793895f232562cad09080fecc7c5b4bba75b482a4c4a121c199542c597b", "generationRecord": "exec-823c4aa0-28a4-4a04-a61d-f9337c2a5f0d.png" }
+    },
+    "eggerthella-lenta|eggerthella-lenta-morphology-v1.webp": {
+      "pageId": "eggerthella-lenta",
+      "publishedFile": "eggerthella-lenta-morphology-v1.webp",
+      "masterSource": "eggerthella-lenta-morphology-v1-master.png",
+      "socialFile": "eggerthella-lenta-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=84112&mode=Info",
+          "https://lpsn.dsmz.de/species/eggerthella-lenta",
+          "https://www.bacdive.dsmz.de/strain/3054",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035228/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Eggerthella lenta, NCBITaxon:84112, under the Wade et al. 1999 combination; LPSN supplies the authority, homotypic-synonym, and legitimacy treatment. Type-strain evidence supports conservative non-motile, non-sporulating rods."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine slender rod bodies in seven separated groupings: five singles and two touching pairs. No appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and public descriptions reconcile nine rods and seven groupings, with five singles and two pairs; caption separately supplies representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 015 after literal prompt provenance and honest 9-body/7-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "eggerthella-lenta-draft.png", "sourceSha256": "5f8f31f823a78d52eb746dba30adf7dfc43eeb1b23eeddff9a13385768d8b0b2", "generationRecord": "exec-49aa4f48-43b7-4d4e-b2a6-51946f34f3c4.png" }
+    },
+    "enterobacter|enterobacter-morphology-v1.webp": {
+      "pageId": "enterobacter",
+      "publishedFile": "enterobacter-morphology-v1.webp",
+      "masterSource": "enterobacter-morphology-v1-master.png",
+      "socialFile": "enterobacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=547&mode=Info",
+          "https://lpsn.dsmz.de/genus/enterobacter",
+          "https://doi.org/10.1099/0096266X-10-2-71",
+          "https://bacdive.dsmz.de/strain/4373"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support conserved current genus Enterobacter, NCBITaxon:547, with E. cloacae as type species. Primary and type-strain evidence supports a conservative type-species-anchored rod treatment; omitted flagella and capsules are not generalized."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly eight rod bodies in six separated groupings: four singles and two touching pairs. No appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and public descriptions reconcile eight rods and six groupings; caption separately supplies type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 015 after literal prompt provenance and exact 8-body/6-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "enterobacter-draft.png", "sourceSha256": "116cf9d92287d316f2556e37a710af093f46c8bd5b404f69916144bb58284dbf", "generationRecord": "exec-0fc016a6-c90e-41b3-90d9-ef781a513b5a.png" }
+    },
+    "enterobacter-cloacae|enterobacter-cloacae-morphology-v1.webp": {
+      "pageId": "enterobacter-cloacae",
+      "publishedFile": "enterobacter-cloacae-morphology-v1.webp",
+      "masterSource": "enterobacter-cloacae-morphology-v1-master.png",
+      "socialFile": "enterobacter-cloacae-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=550&mode=Info",
+          "https://lpsn.dsmz.de/species/enterobacter-cloacae",
+          "https://bacdive.dsmz.de/strain/4373",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3368419/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Enterobacter cloacae, NCBITaxon:550, and its role as the nomenclatural type of Enterobacter. The page and plate represent the species, not an undifferentiated complex label, and do not claim isolated morphology separates it from other Enterobacter."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly seven straight rod bodies in six separated groupings: five singles and one touching pair. No appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and public descriptions reconcile seven rods and six groupings; caption explicitly avoids a visual species-diagnosis claim and classifies the asset as a non-diagnostic reconstruction, not a micrograph."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 015 after literal prompt provenance and exact 7-body/6-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "enterobacter-cloacae-draft.png", "sourceSha256": "545fbb5f18479bd34fb88d334cb49a9c1d06073eb228240c66d6d7652b8e63e6", "generationRecord": "exec-0d8567e2-d090-4f60-b664-349cf8f35463.png" }
+    },
+    "enterobacteriaceae|enterobacteriaceae-microbial-community-v1.webp": {
+      "pageId": "enterobacteriaceae",
+      "publishedFile": "enterobacteriaceae-microbial-community-v1.webp",
+      "masterSource": "enterobacteriaceae-microbial-community-v1-master.png",
+      "socialFile": "enterobacteriaceae-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=543&mode=Info",
+          "https://lpsn.dsmz.de/family/enterobacteriaceae",
+          "https://doi.org/10.1099/00207713-66-12-5575",
+          "https://doi.org/10.1099/00207713-33-4-892"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support conserved current family Enterobacteriaceae, NCBITaxon:543. The selected short coccobacillary and longer straight rods are bounded by family and descendant evidence and are explicitly a representative bacillary family-level reconstruction, not a universal morphology."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly ten rod bodies in six spatial groupings: two singles, three touching pairs, and one loose two-rod arrangement. Every body has its own ordinary boundary; no appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles ten bodies and six groupings, including the loose two-rod arrangement. Caption and provenance explicitly classify the asset as a representative bacillary family-level reconstruction, not a universal morphology, and as non-diagnostic and not a micrograph."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 015 after literal prompt provenance, exact arrangement reconciliation, and explicit higher-rank diversity scope.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "enterobacteriaceae-draft.png", "sourceSha256": "093ed1f0621ca5bcd416254fd0fe47bcfc4beff58df78906f8ddfd66bdcb24bf", "generationRecord": "exec-34661687-8f29-4a81-8f19-5b2c6b1bdc70.png" }
+    },
+    "enterococcus|enterococcus-morphology-v1.webp": {
+      "pageId": "enterococcus",
+      "publishedFile": "enterococcus-morphology-v1.webp",
+      "masterSource": "enterococcus-morphology-v1-master.png",
+      "socialFile": "enterococcus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1350&mode=Info",
+          "https://lpsn.dsmz.de/genus/enterococcus",
+          "https://doi.org/10.1099/00207713-34-1-31",
+          "https://bacdive.dsmz.de/strain/5292",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510518/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Enterococcus, NCBITaxon:1350, with E. faecalis as type species. Primary, review, and type-strain evidence supports a representative spherical-to-ovoid single, paired, or short-chain treatment without generalizing a phenotype."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly eleven spherical-to-ovoid bodies in seven separated groupings: four singles, two touching pairs, and one short aligned three-body chain. No grape-like cluster, appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and public descriptions reconcile eleven bodies and seven groupings, including both pairs and the three-body chain; caption separately supplies type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 015 after literal prompt provenance and honest 11-body/7-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "enterococcus-draft.png", "sourceSha256": "35188c4cf97c53f99f2932abfbf91943b5cd502b97aced756222752e8d591e27", "generationRecord": "exec-f4780ca0-2bce-4026-bb00-23d40ebe8c92.png" }
     }
   },
   "rejectedAssets": [

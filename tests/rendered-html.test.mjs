@@ -687,6 +687,59 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(articleMediaRegistry["dialister-histaminiformans"]?.scientificIdentifiers[0]?.compact, "NCBITaxon:209880");
   assert.equal(articleMediaRegistry.allisonella, undefined);
   assert.ok(!batch014PublicMediaFiles.some((filename) => filename.startsWith("allisonella-")));
+  const batch015 = batches.find((batch) => batch.batchId === "microorganisms-015");
+  assert.equal(batch015?.status, "reviewed");
+  assert.equal(batch015?.routeDecisionCount, 6);
+  assert.equal(batch015?.candidateCount, 6);
+  assert.equal(batch015?.scientificHoldCount, 0);
+  assert.equal(batch015?.generationCallCount, 6);
+  assert.equal(batch015?.revisionCount, 0);
+  const batch015Candidates = batch015?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch015Candidates.map((asset) => asset.pageId), [
+    "eggerthella",
+    "eggerthella-lenta",
+    "enterobacter",
+    "enterobacter-cloacae",
+    "enterobacteriaceae",
+    "enterococcus",
+  ]);
+  const batch015ExpectedOutputs = new Map([
+    ["eggerthella", ["NCBITaxon:84111", "66060793895f232562cad09080fecc7c5b4bba75b482a4c4a121c199542c597b", 10, 7]],
+    ["eggerthella-lenta", ["NCBITaxon:84112", "5f8f31f823a78d52eb746dba30adf7dfc43eeb1b23eeddff9a13385768d8b0b2", 9, 7]],
+    ["enterobacter", ["NCBITaxon:547", "116cf9d92287d316f2556e37a710af093f46c8bd5b404f69916144bb58284dbf", 8, 6]],
+    ["enterobacter-cloacae", ["NCBITaxon:550", "545fbb5f18479bd34fb88d334cb49a9c1d06073eb228240c66d6d7652b8e63e6", 7, 6]],
+    ["enterobacteriaceae", ["NCBITaxon:543", "093ed1f0621ca5bcd416254fd0fe47bcfc4beff58df78906f8ddfd66bdcb24bf", 10, 6]],
+    ["enterococcus", ["NCBITaxon:1350", "35188c4cf97c53f99f2932abfbf91943b5cd502b97aced756222752e8d591e27", 11, 7]],
+  ]);
+  const batch015PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  for (const asset of batch015Candidates) {
+    const [expectedIdentifier, expectedSha256, expectedBodyCount, expectedGroupingCount] = batch015ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assert.ok(articleMediaRegistry[asset.pageId], `${asset.pageId} control-approved asset must enter the reviewed registry`);
+    assert.equal(articleMediaRegistry[asset.pageId].reviewedOn, "2026-09-01");
+    assert.equal(articleMediaRegistry[asset.pageId].scientificIdentifiers[0]?.compact, expectedIdentifier);
+    assert.ok(batch015PublicMediaFiles.includes(articleMediaRegistry[asset.pageId].publishedFile), `${asset.pageId} article derivative must exist`);
+    assert.ok(batch015PublicMediaFiles.includes(articleMediaRegistry[asset.pageId].socialFile), `${asset.pageId} social derivative must exist`);
+  }
+  const eggerthellaCandidate = batch015Candidates.find((asset) => asset.pageId === "eggerthella");
+  assert.equal(eggerthellaCandidate?.outputAudit?.observedTouchingPairCount, 1);
+  assert.equal(eggerthellaCandidate?.outputAudit?.observedThreeBodyChainCount, 1);
+  assert.equal(batch015Candidates.find((asset) => asset.pageId === "enterobacteriaceae")?.assetType, "microbial-community");
+  assert.equal(batch015Candidates.find((asset) => asset.pageId === "enterobacteriaceae")?.outputAudit?.observedTouchingPairCount, 3);
+  assert.equal(batch015Candidates.find((asset) => asset.pageId === "enterobacteriaceae")?.outputAudit?.observedLooseTwoBodyArrangementCount, 1);
+  assert.match(articleMediaRegistry.enterobacteriaceae?.caption ?? "", /representative bacillary family-level reconstruction, not a universal morphology/);
+  const enterococcusCandidate = batch015Candidates.find((asset) => asset.pageId === "enterococcus");
+  assert.equal(enterococcusCandidate?.outputAudit?.observedTouchingPairCount, 2);
+  assert.equal(batch015Candidates.find((asset) => asset.pageId === "enterococcus")?.outputAudit?.observedThreeBodyChainCount, 1);
+  assert.match(articleMediaRegistry.eggerthella?.scientificReferences[0]?.role ?? "", /retained current genus taxon record/);
+  assert.match(articleMediaRegistry.eggerthella?.scientificReferences[1]?.role ?? "", /nomenclatural priority treatment/);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingIds = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
