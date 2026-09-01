@@ -431,9 +431,10 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.match(currentPages[8], /"headline":"Eubacteriales"/);
   assert.match(currentPages[8], /"description":"Eubacteriales Buchanan 1917[^"]*NCBITaxon:186802/);
   assert.doesNotMatch(currentPages[8], /Clostridiales is the current name/);
-  assert.doesNotMatch(currentPages[8], /class="article-media-figure"/);
+  assert.match(currentPages[8], /class="article-media-figure"/);
+  assert.match(currentPages[8], /eubacteriales-microbial-community-v1\.webp/);
   assert.equal(articleMediaRegistry.clostridiales, undefined);
-  assert.equal(articleMediaRegistry.eubacteriales, undefined);
+  assert.ok(articleMediaRegistry.eubacteriales);
   assert.match(currentPages[9], /<title>Clostridioides difficile — WikiBiome<\/title>/i);
   assert.match(currentPages[9], /NCBITaxon:1496/);
   assert.match(currentPages[9], /Clostridium difficile[\s\S]{0,140}validly published homotypic synonym/);
@@ -740,16 +741,70 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(batch015Candidates.find((asset) => asset.pageId === "enterococcus")?.outputAudit?.observedThreeBodyChainCount, 1);
   assert.match(articleMediaRegistry.eggerthella?.scientificReferences[0]?.role ?? "", /retained current genus taxon record/);
   assert.match(articleMediaRegistry.eggerthella?.scientificReferences[1]?.role ?? "", /nomenclatural priority treatment/);
+  const batch016 = batches.find((batch) => batch.batchId === "microorganisms-016");
+  assert.equal(batch016?.status, "reviewed");
+  assert.equal(batch016?.routeDecisionCount, 6);
+  assert.equal(batch016?.candidateCount, 6);
+  assert.equal(batch016?.scientificHoldCount, 0);
+  assert.equal(batch016?.generationCallCount, 6);
+  assert.equal(batch016?.revisionCount, 0);
+  const batch016Candidates = batch016?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch016Candidates.map((asset) => asset.pageId), [
+    "enterococcus-faecalis",
+    "enterococcus-faecium",
+    "erysipelotrichaceae",
+    "escherichia",
+    "eubacteriales",
+    "eubacterium",
+  ]);
+  const batch016ExpectedOutputs = new Map([
+    ["enterococcus-faecalis", ["NCBITaxon:1351", "090e932a8addbab0edf73c3da241347f423afa4f52524849875732abc0b95629", 10, 7]],
+    ["enterococcus-faecium", ["NCBITaxon:1352", "c0a0543329a25ef7dc651c8d8fd0e94005493e11110dc874fe4db652bb42078b", 12, 7]],
+    ["erysipelotrichaceae", ["NCBITaxon:128827", "9ac0f6a2597b65856832855f5e5d0e9e86360b6b185b302a51b66b0aec913882", 10, 6]],
+    ["escherichia", ["NCBITaxon:561", "356ac08340612c43a4fb36372b741a9e8710d5844f9c69869a9b7ed48a1351de", 8, 6]],
+    ["eubacteriales", ["NCBITaxon:186802", "834720a2695f431d3cab7a83b30b22cd10fb69bc661b6c1ce747d067437598cd", 10, 6]],
+    ["eubacterium", ["NCBITaxon:1730", "39ca3065835e23fcc702e3a190d2ce753922f5eed1d780ac008a77baca5157be", 9, 6]],
+  ]);
+  const batch016PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  for (const asset of batch016Candidates) {
+    const [expectedIdentifier, expectedSha256, expectedBodyCount, expectedGroupingCount] = batch016ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assert.ok(articleMediaRegistry[asset.pageId], `${asset.pageId} control-approved asset must enter the reviewed registry`);
+    assert.equal(articleMediaRegistry[asset.pageId].reviewedOn, "2026-09-01");
+    assert.equal(articleMediaRegistry[asset.pageId].scientificIdentifiers[0]?.compact, expectedIdentifier);
+    assert.ok(batch016PublicMediaFiles.includes(articleMediaRegistry[asset.pageId].publishedFile), `${asset.pageId} article derivative must exist`);
+    assert.ok(batch016PublicMediaFiles.includes(articleMediaRegistry[asset.pageId].socialFile), `${asset.pageId} social derivative must exist`);
+  }
+  assert.equal(batch016Candidates.find((asset) => asset.pageId === "erysipelotrichaceae")?.assetType, "microbial-community");
+  assert.equal(batch016Candidates.find((asset) => asset.pageId === "eubacteriales")?.assetType, "microbial-community");
+  assert.match(articleMediaRegistry.erysipelotrichaceae?.caption ?? "", /representative higher-rank morphology-diversity reconstruction, not a universal family form/);
+  assert.match(articleMediaRegistry.eubacteriales?.caption ?? "", /representative higher-rank morphology-diversity reconstruction, not a universal order form/);
+  assert.equal(articleMediaRegistry.eubacteriales?.scientificIdentifiers[0]?.compact, "NCBITaxon:186802");
+  assert.equal(batch016Candidates.some((asset) => asset.pageId === "clostridiales"), false);
+  assert.equal(articleMediaRegistry.clostridiales, undefined);
+  assert.ok(!readdirSync(new URL("../public/media-files/", import.meta.url)).some((filename) => filename.startsWith("clostridiales-")));
+  assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith("clostridiales-")));
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
-  const pendingIds = batches
+  const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
-    .flatMap((batch) => batch.assets.filter((asset) => asset.assetType && asset.revision && asset.draft).map((asset) => asset.pageId));
+    .flatMap((batch) => batch.assets.filter((asset) => asset.assetType && asset.revision && asset.draft));
+  const pendingIds = pendingAssets.map((asset) => asset.pageId);
   const publishedMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
   assert.equal(program.current.inReview, pendingIds.length);
-  for (const id of pendingIds) {
+  for (const asset of pendingAssets) {
+    const id = asset.pageId;
+    const expectedFiles = articleMediaFileNames(id, asset.assetType, asset.revision);
     assert.equal(program.queue.find((record) => record.id === id)?.status, "in-review", `${id} remains explicitly in review`);
     assert.equal(articleMediaRegistry[id], undefined, `${id} must not enter the reviewed registry before approval`);
-    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)), `${id} draft must not enter public media files`);
+    assert.ok(!publishedMediaFiles.includes(expectedFiles.publishedFile), `${id} draft must not enter public article media files`);
+    assert.ok(!publishedMediaFiles.includes(expectedFiles.socialFile), `${id} draft must not enter public social media files`);
   }
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
@@ -777,7 +832,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   const currentNameMediaMappings = [
     ["candida-auris", "candidozyma-auris", "NCBITaxon:498019", "reviewed"],
     ["candida-glabrata", "nakaseomyces-glabratus", "NCBITaxon:5478", "queued"],
-    ["clostridiales", "eubacteriales", "NCBITaxon:186802", "queued"],
+    ["clostridiales", "eubacteriales", "NCBITaxon:186802", "reviewed"],
     ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "reviewed"],
     ["davidiella", "cladosporium", "NCBITaxon:5498", "reviewed"],
   ];

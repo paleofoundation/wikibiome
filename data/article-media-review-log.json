@@ -2032,6 +2032,190 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 015 after literal prompt provenance and honest 11-body/7-group reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "enterococcus-draft.png", "sourceSha256": "35188c4cf97c53f99f2932abfbf91943b5cd502b97aced756222752e8d591e27", "generationRecord": "exec-f4780ca0-2bce-4026-bb00-23d40ebe8c92.png" }
+    },
+    "enterococcus-faecalis|enterococcus-faecalis-morphology-v1.webp": {
+      "pageId": "enterococcus-faecalis",
+      "publishedFile": "enterococcus-faecalis-morphology-v1.webp",
+      "masterSource": "enterococcus-faecalis-morphology-v1-master.png",
+      "socialFile": "enterococcus-faecalis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1351&mode=Info",
+          "https://lpsn.dsmz.de/species/enterococcus-faecalis",
+          "https://doi.org/10.1099/00207713-34-1-31",
+          "https://bacdive.dsmz.de/strain/5292",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510518/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Enterococcus faecalis, NCBITaxon:1351, and its type-species status. Primary, type-strain, and review evidence supports representative spherical-to-ovoid single, paired, or short-chain forms without implying visual species diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly ten spherical-to-ovoid bodies in seven separated groupings: four singles and three touching pairs. No grape-like cluster, appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text, caption, description, provenance, and output audit preserve ten bodies and seven groupings rather than the prompt-requested count. Caption separately states non-diagnostic, non-distinguishing, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 016 after literal prompt provenance and honest 10-body/7-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "enterococcus-faecalis-draft.png", "sourceSha256": "090e932a8addbab0edf73c3da241347f423afa4f52524849875732abc0b95629", "generationRecord": "exec-6895a554-e3c9-4a50-bee0-ce8cb669c015.png" }
+    },
+    "enterococcus-faecium|enterococcus-faecium-morphology-v1.webp": {
+      "pageId": "enterococcus-faecium",
+      "publishedFile": "enterococcus-faecium-morphology-v1.webp",
+      "masterSource": "enterococcus-faecium-morphology-v1-master.png",
+      "socialFile": "enterococcus-faecium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1352&mode=Info",
+          "https://lpsn.dsmz.de/species/enterococcus-faecium",
+          "https://doi.org/10.1099/00207713-34-1-31",
+          "https://bacdive.dsmz.de/strain/5301",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3510518/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Enterococcus faecium, NCBITaxon:1352. Primary, type-strain, and review evidence supports representative spherical-to-ovoid single, paired, or short-chain forms without inventing a visual distinction from E. faecalis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly twelve spherical-to-ovoid bodies in seven separated groupings: two singles and five touching pairs. No grape-like cluster, appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text, caption, description, provenance, and output audit preserve twelve bodies and seven groupings rather than the prompt-requested count. Caption separately states non-diagnostic, non-distinguishing, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 016 after literal prompt provenance and honest 12-body/7-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "enterococcus-faecium-draft.png", "sourceSha256": "c0a0543329a25ef7dc651c8d8fd0e94005493e11110dc874fe4db652bb42078b", "generationRecord": "exec-cf68ed2b-8022-43d1-8988-d407354eae51.png" }
+    },
+    "erysipelotrichaceae|erysipelotrichaceae-microbial-community-v1.webp": {
+      "pageId": "erysipelotrichaceae",
+      "publishedFile": "erysipelotrichaceae-microbial-community-v1.webp",
+      "masterSource": "erysipelotrichaceae-microbial-community-v1-master.png",
+      "socialFile": "erysipelotrichaceae-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=128827&mode=Info",
+          "https://lpsn.dsmz.de/family/erysipelotrichaceae",
+          "https://doi.org/10.1016/j.syapm.2016.05.003",
+          "https://doi.org/10.1099/ijsem.0.001793",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5817276/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current family Erysipelotrichaceae, NCBITaxon:128827. Emended-family and descendant primary evidence supports selected slender-rod, short-rod, and coccoid forms only as a representative higher-rank morphology-diversity treatment, never a universal family form."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly ten bodies in six groupings: three selected singles, one touching slender-rod pair, one touching coccoid pair, and one aligned three-short-rod chain. Every body has its own ordinary boundary; no appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and public descriptions reconcile ten bodies and six groupings. Caption and provenance explicitly classify the plate as a representative higher-rank morphology-diversity reconstruction, not a universal family form, and as non-exhaustive, non-diagnostic, and not a micrograph."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 016 after literal prompt provenance, exact grouping reconciliation, and explicit higher-rank diversity scope.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "erysipelotrichaceae-draft.png", "sourceSha256": "9ac0f6a2597b65856832855f5e5d0e9e86360b6b185b302a51b66b0aec913882", "generationRecord": "exec-a0018845-a9e7-4567-8439-437f719908e4.png" }
+    },
+    "escherichia|escherichia-morphology-v1.webp": {
+      "pageId": "escherichia",
+      "publishedFile": "escherichia-morphology-v1.webp",
+      "masterSource": "escherichia-morphology-v1-master.png",
+      "socialFile": "escherichia-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=561&mode=Info",
+          "https://lpsn.dsmz.de/genus/escherichia",
+          "https://bacdive.dsmz.de/strain/4907",
+          "https://www.ncbi.nlm.nih.gov/books/NBK8035/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current conserved genus Escherichia, NCBITaxon:561, with E. coli as type species. Type-strain and authoritative evidence supports conservative rods; appendages and capsules are omitted rather than generalized."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly eight short rod bodies in six separated groupings: four singles and two touching pairs. No coccus, branch, appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and public descriptions reconcile eight rods and six groupings. Caption separately supplies type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 016 after literal prompt provenance and exact 8-body/6-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "escherichia-draft.png", "sourceSha256": "356ac08340612c43a4fb36372b741a9e8710d5844f9c69869a9b7ed48a1351de", "generationRecord": "exec-c76772f9-093e-44cb-b975-8b8d34739e37.png" }
+    },
+    "eubacteriales|eubacteriales-microbial-community-v1.webp": {
+      "pageId": "eubacteriales",
+      "publishedFile": "eubacteriales-microbial-community-v1.webp",
+      "masterSource": "eubacteriales-microbial-community-v1-master.png",
+      "socialFile": "eubacteriales-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/datasets/taxonomy/186802/",
+          "https://lpsn.dsmz.de/order/eubacteriales",
+          "https://doi.org/10.1128/jb.2.4.347-350.1917",
+          "https://lpsn.dsmz.de/genus/eubacterium"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current correct order Eubacteriales, NCBITaxon:186802, with Eubacterium as type genus; LPSN records Clostridiales as a heterotypic synonym. Type-genus and selected current-descendant evidence supports this representative higher-rank morphology-diversity treatment, never a universal order form."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly ten bodies in six groupings: three selected isolated rods, one touching rod pair, one touching coccoid pair, and one aligned three-short-rod chain. Every body has its own ordinary boundary; no appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and public descriptions reconcile ten bodies and six groupings. Caption and provenance explicitly classify the plate as a representative higher-rank morphology-diversity reconstruction, not a universal order form. The asset is keyed only to Eubacteriales and NCBITaxon:186802."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 016. Retired Clostridiales remains an asset-free permanent alias and receives no prompt, raster, registry key, master, derivative, or sitemap entry.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "eubacteriales-draft.png", "sourceSha256": "834720a2695f431d3cab7a83b30b22cd10fb69bc661b6c1ce747d067437598cd", "generationRecord": "exec-dadeecba-db7f-4122-9361-8f97fccc0189.png" }
+    },
+    "eubacterium|eubacterium-morphology-v1.webp": {
+      "pageId": "eubacterium",
+      "publishedFile": "eubacterium-morphology-v1.webp",
+      "masterSource": "eubacterium-morphology-v1-master.png",
+      "socialFile": "eubacterium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1730&mode=Info",
+          "https://lpsn.dsmz.de/genus/eubacterium",
+          "https://doi.org/10.1002/9781118960608.gbm00629",
+          "https://bacdive.dsmz.de/strain/5432",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4791908/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Eubacterium, NCBITaxon:1730, with E. limosum as the conserved type species. Authoritative and type-strain evidence supports uniform-to-pleomorphic rods; spores and motility structures are omitted rather than generalized."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine uniform-to-mildly-pleomorphic rod bodies in six separated groupings: three singles and three touching pairs. No coccus, branch, appendage, spore, capsule, halo, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and public descriptions reconcile nine rods and six groupings. Caption separately supplies type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 016 after literal prompt provenance and exact 9-body/6-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "eubacterium-draft.png", "sourceSha256": "39ca3065835e23fcc702e3a190d2ce753922f5eed1d780ac008a77baca5157be", "generationRecord": "exec-40d6fe9b-cc66-4dff-b49e-4e255a1cb932.png" }
     }
   },
   "rejectedAssets": [

@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "a854ec6fc8b9b2875f203dc5c2f98d3c6d9bdc45b35dd6d7fdd93c79fe4add23",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "d5839f065b114d6c45f98311f287509b80469423792e3bbf3ef734716f8a04ef",
+    "registrySha256": "2d2d4414b8c3880a5e18ad4132e4c003246c3ec42301aa310f7f48fab6e48811",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "b110a63525f8a0ccf0219f751995b24bfeb40e15ed48b7a9f7f7d58634c6d733",
+    "reviewLogSha256": "97cc8e94d1e376b77965df401bd3c9b67a7c2bde6cac9460360029f8978c620b",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -101,6 +101,12 @@
         "batchId": "microorganisms-015",
         "status": "reviewed",
         "sha256": "0f0ac74c87092669d1476cf9983a05281e266081c5e0f7219f3a7c83022c30b6"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-016.json",
+        "batchId": "microorganisms-016",
+        "status": "reviewed",
+        "sha256": "3ea5e99def1374c933094c9fb84c054de88eec7654aa0d703511b43ae4202231"
       }
     ]
   },
@@ -122,8 +128,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 87,
-    "remaining": 623,
+    "completed": 93,
+    "remaining": 617,
     "rejected": 11,
     "revised": 8,
     "scientificHolds": 0,
@@ -134,8 +140,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 84,
-      "remaining": 145
+      "completed": 90,
+      "remaining": 139
     },
     {
       "id": "metals",
@@ -548,56 +554,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 83,
-      "id": "enterococcus-faecalis",
-      "title": "Enterococcus faecalis",
-      "route": "/article/enterococcus-faecalis",
+      "queuePosition": 90,
+      "id": "eubacterium-eligens",
+      "title": "Eubacterium eligens",
+      "route": "/article/eubacterium-eligens",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 84,
-      "id": "enterococcus-faecium",
-      "title": "Enterococcus faecium",
-      "route": "/article/enterococcus-faecium",
+      "queuePosition": 91,
+      "id": "eubacterium-rectale",
+      "title": "Eubacterium rectale",
+      "route": "/article/eubacterium-rectale",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 85,
-      "id": "erysipelotrichaceae",
-      "title": "Erysipelotrichaceae",
-      "route": "/article/erysipelotrichaceae",
+      "queuePosition": 92,
+      "id": "faecalibacterium",
+      "title": "Faecalibacterium",
+      "route": "/article/faecalibacterium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 86,
-      "id": "escherichia",
-      "title": "Escherichia",
-      "route": "/article/escherichia",
+      "queuePosition": 93,
+      "id": "faecalibacterium-prausnitzii",
+      "title": "Faecalibacterium prausnitzii",
+      "route": "/article/faecalibacterium-prausnitzii",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 88,
-      "id": "eubacteriales",
-      "title": "Eubacteriales",
-      "route": "/article/eubacteriales",
+      "queuePosition": 94,
+      "id": "fannyhessea-vaginae",
+      "title": "Fannyhessea vaginae",
+      "route": "/article/fannyhessea-vaginae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "controlledIdentifier": "NCBITaxon:186802"
+      "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 89,
-      "id": "eubacterium",
-      "title": "Eubacterium",
-      "route": "/article/eubacterium",
+      "queuePosition": 95,
+      "id": "finegoldia",
+      "title": "Finegoldia",
+      "route": "/article/finegoldia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -2341,7 +2346,15 @@
       "route": "/article/enterococcus-faecalis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "enterococcus-faecalis-morphology-v1-master.png",
+        "publishedFile": "enterococcus-faecalis-morphology-v1.webp",
+        "socialFile": "enterococcus-faecalis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 84,
@@ -2354,7 +2367,15 @@
       "route": "/article/enterococcus-faecium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "enterococcus-faecium-morphology-v1-master.png",
+        "publishedFile": "enterococcus-faecium-morphology-v1.webp",
+        "socialFile": "enterococcus-faecium-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 85,
@@ -2367,7 +2388,15 @@
       "route": "/article/erysipelotrichaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "erysipelotrichaceae-microbial-community-v1-master.png",
+        "publishedFile": "erysipelotrichaceae-microbial-community-v1.webp",
+        "socialFile": "erysipelotrichaceae-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 86,
@@ -2380,7 +2409,15 @@
       "route": "/article/escherichia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "escherichia-morphology-v1-master.png",
+        "publishedFile": "escherichia-morphology-v1.webp",
+        "socialFile": "escherichia-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 87,
@@ -2415,7 +2452,15 @@
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
       "controlledIdentifier": "NCBITaxon:186802",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "eubacteriales-microbial-community-v1-master.png",
+        "publishedFile": "eubacteriales-microbial-community-v1.webp",
+        "socialFile": "eubacteriales-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 89,
@@ -2428,7 +2473,15 @@
       "route": "/article/eubacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "eubacterium-morphology-v1-master.png",
+        "publishedFile": "eubacterium-morphology-v1.webp",
+        "socialFile": "eubacterium-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 90,
