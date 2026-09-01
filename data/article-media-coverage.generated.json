@@ -125,6 +125,12 @@
         "batchId": "microorganisms-019",
         "status": "reviewed",
         "sha256": "5720b9225a210dd407416183bf0726b56190d5b59f60ccaa0d769f3058847169"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-020.json",
+        "batchId": "microorganisms-020",
+        "status": "awaiting-control-review",
+        "sha256": "14ee3951fb9db48705b7d81b8cf24e228198bf1c6ca649c4f050e066c6808f21"
       }
     ]
   },
@@ -151,7 +157,7 @@
     "rejected": 13,
     "revised": 8,
     "scientificHolds": 0,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -627,55 +633,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 106,
-      "id": "gemella",
-      "title": "Gemella",
-      "route": "/article/gemella",
+      "queuePosition": 113,
+      "id": "intestinimonas",
+      "title": "Intestinimonas",
+      "route": "/article/intestinimonas",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 107,
-      "id": "gordonibacter",
-      "title": "Gordonibacter",
-      "route": "/article/gordonibacter",
+      "queuePosition": 114,
+      "id": "klebsiella",
+      "title": "Klebsiella",
+      "route": "/article/klebsiella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 108,
-      "id": "gordonibacter-urolithinfaciens",
-      "title": "Gordonibacter urolithinfaciens",
-      "route": "/article/gordonibacter-urolithinfaciens",
+      "queuePosition": 115,
+      "id": "klebsiella-pneumoniae",
+      "title": "Klebsiella pneumoniae",
+      "route": "/article/klebsiella-pneumoniae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 109,
-      "id": "haemophilus",
-      "title": "Haemophilus",
-      "route": "/article/haemophilus",
+      "queuePosition": 116,
+      "id": "lachnobacterium",
+      "title": "Lachnobacterium",
+      "route": "/article/lachnobacterium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 110,
-      "id": "helicobacter-hepaticus",
-      "title": "Helicobacter hepaticus",
-      "route": "/article/helicobacter-hepaticus",
+      "queuePosition": 117,
+      "id": "lachnoclostridium",
+      "title": "Lachnoclostridium",
+      "route": "/article/lachnoclostridium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 112,
-      "id": "holdemanella",
-      "title": "Holdemanella",
-      "route": "/article/holdemanella",
+      "queuePosition": 118,
+      "id": "lachnospira",
+      "title": "Lachnospira",
+      "route": "/article/lachnospira",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -2904,7 +2910,13 @@
       "route": "/article/gemella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-020",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-020/gemella-draft.png",
+        "sha256": "204d7c4ae03f3dad4bd988040278140fb80a8476220767d040dec1b1b422c42f"
+      }
     },
     {
       "queuePosition": 107,
@@ -2917,7 +2929,13 @@
       "route": "/article/gordonibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-020",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-020/gordonibacter-draft.png",
+        "sha256": "a2b173859e74fae5013539cb0c4101b5c6fa80f6d1db8053e6e0174aba345220"
+      }
     },
     {
       "queuePosition": 108,
@@ -2930,7 +2948,13 @@
       "route": "/article/gordonibacter-urolithinfaciens",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-020",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-020/gordonibacter-urolithinfaciens-draft.png",
+        "sha256": "a8371093207e499e64545f889d7a971934df48a0c2adc04c0d89d5be41456759"
+      }
     },
     {
       "queuePosition": 109,
@@ -2943,7 +2967,13 @@
       "route": "/article/haemophilus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-020",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-020/haemophilus-draft.png",
+        "sha256": "eca159a8fd4ec5f822134843065aa46f2fb2dd2b86b9bb9258494b3575c78f9b"
+      }
     },
     {
       "queuePosition": 110,
@@ -2956,7 +2986,13 @@
       "route": "/article/helicobacter-hepaticus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-020",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-020/helicobacter-hepaticus-draft.png",
+        "sha256": "ffa5b34f13f50c4d9ff898ab2462d69e6f0a2f2fba93555f7eca9f352d458bc2"
+      }
     },
     {
       "queuePosition": 111,
@@ -2990,7 +3026,13 @@
       "route": "/article/holdemanella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-020",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-020/holdemanella-draft.png",
+        "sha256": "41df66ae44aeb5a7d080a82ec2f15e722be22eb8f7e0e23639b9710cdbed219e"
+      }
     },
     {
       "queuePosition": 113,

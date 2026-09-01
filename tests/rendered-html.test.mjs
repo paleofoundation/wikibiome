@@ -1065,6 +1065,76 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(articleMediaRegistry["fusobacterium-varium"]?.caption ?? "", /Continuous constricted bodies remain single cells/);
   assert.match(articleMediaRegistry.gardnerella?.caption ?? "", /not a universal genus form/);
   assert.match(articleMediaRegistry["gardnerella-vaginalis"]?.caption ?? "", /does not imply visual separation from other Gardnerella species or diagnosis/);
+  const batch020 = batches.find((batch) => batch.batchId === "microorganisms-020");
+  assert.equal(batch020?.status, "awaiting-control-review");
+  assert.equal(batch020?.routeDecisionCount, 6);
+  assert.equal(batch020?.candidateCount, 6);
+  assert.equal(batch020?.scientificHoldCount, 0);
+  assert.equal(batch020?.generationCallCount, 6);
+  assert.equal(batch020?.revisionCount, 0);
+  assert.equal(batch020?.controlReviewRequired, true);
+  const batch020Candidates = batch020?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch020Candidates.map((asset) => asset.pageId), [
+    "gemella",
+    "gordonibacter",
+    "gordonibacter-urolithinfaciens",
+    "haemophilus",
+    "helicobacter-hepaticus",
+    "holdemanella",
+  ]);
+  const batch020ExpectedOutputs = new Map([
+    ["gemella", ["NCBITaxon:1378", "0deee4445f4e7b1ad0021d096b0761f4ab9b31ac6068bf12b38f43486a1da3f3", "204d7c4ae03f3dad4bd988040278140fb80a8476220767d040dec1b1b422c42f", 1805508, 11, 6]],
+    ["gordonibacter", ["NCBITaxon:644652", "2ca2739153b67f42491d7f347d0ca3bfb0a0a952eef54a362ad89654a3c23aa2", "a2b173859e74fae5013539cb0c4101b5c6fa80f6d1db8053e6e0174aba345220", 1664580, 8, 6]],
+    ["gordonibacter-urolithinfaciens", ["NCBITaxon:1335613", "8045f4e3d233194aa43cdee0400e79b7627ed9d890a16f1ec2fd48003ffbf7ab", "a8371093207e499e64545f889d7a971934df48a0c2adc04c0d89d5be41456759", 1683122, 9, 7]],
+    ["haemophilus", ["NCBITaxon:724", "a703e16b6a7308a8d1257c562ffcfb321685d65a7cbbbb227119e213d6966b52", "eca159a8fd4ec5f822134843065aa46f2fb2dd2b86b9bb9258494b3575c78f9b", 1662891, 10, 7]],
+    ["helicobacter-hepaticus", ["NCBITaxon:32025", "4be6fa417d2d1ec078220327140a59789aba9aa80180fa9d4b292eb1ef743d54", "ffa5b34f13f50c4d9ff898ab2462d69e6f0a2f2fba93555f7eca9f352d458bc2", 1566743, 6, 6]],
+    ["holdemanella", ["NCBITaxon:1573535", "ff4aa64cdfe76e84889ccb55bb0e00f7ed540acddf933e540ee610328e4bb987", "41df66ae44aeb5a7d080a82ec2f15e722be22eb8f7e0e23639b9710cdbed219e", 1791334, 10, 6]],
+  ]);
+  const batch020PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-020.md", import.meta.url), "utf8");
+  const batch020PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  const batch020MasterFiles = readdirSync(new URL("../media/masters/", import.meta.url));
+  for (const asset of batch020Candidates) {
+    const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch020ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.promptSha256, expectedPromptSha256);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.equal(asset.fileSizeBytes, expectedFileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assert.match(asset.generationRecord, /^exec-[0-9a-f-]+\.png$/);
+    assertMediaOutputAudit(asset, "microorganisms-020");
+
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, expectedFileSize);
+    assert.equal(draftBytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+    assert.equal(draftBytes.readUInt32BE(16), 1536);
+    assert.equal(draftBytes.readUInt32BE(20), 1024);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expectedSha256);
+
+    const promptMatch = batch020PromptRecord.match(new RegExp("### `" + asset.pageId + "-draft\\.png`\\n\\n```text\\n([\\s\\S]*?)\\n```"));
+    assert.ok(promptMatch, `${asset.pageId} immutable prompt must remain in the prompt record`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
+
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must not enter the registry before control approval`);
+    assert.ok(!batch020PublicMediaFiles.includes(expectedFiles.publishedFile), `${asset.pageId} review draft must not create a public article derivative`);
+    assert.ok(!batch020PublicMediaFiles.includes(expectedFiles.socialFile), `${asset.pageId} review draft must not create a public social derivative`);
+    assert.ok(!batch020MasterFiles.includes(expectedFiles.masterSource), `${asset.pageId} review draft must not create a canonical master`);
+    assert.ok(!batch020PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft path must not become public`);
+  }
+  assert.equal(batch020Candidates.find((asset) => asset.pageId === "helicobacter-hepaticus")?.outputAudit?.observedVisibleAppendageCount, 12);
+  assert.equal(batch020Candidates.find((asset) => asset.pageId === "helicobacter-hepaticus")?.outputAudit?.observedBipolarSingleFlagellumBodyCount, 6);
+  assert.equal(batch020Candidates.find((asset) => asset.pageId === "helicobacter-hepaticus")?.outputAudit?.observedPeriplasmicFiberCount, 0);
+  assert.match(batch020Candidates.find((asset) => asset.pageId === "gemella")?.proposedCaption ?? "", /not a universal genus arrangement/);
+  assert.match(batch020Candidates.find((asset) => asset.pageId === "gordonibacter-urolithinfaciens")?.proposedCaption ?? "", /does not imply visual separation from other Gordonibacter/);
+  assert.match(batch020Candidates.find((asset) => asset.pageId === "haemophilus")?.proposedCaption ?? "", /not a universal genus form/);
+  assert.match(batch020Candidates.find((asset) => asset.pageId === "helicobacter-hepaticus")?.proposedCaption ?? "", /not a generic H\. pylori portrait/);
+  assert.match(batch020Candidates.find((asset) => asset.pageId === "holdemanella")?.proposedCaption ?? "", /not a universal genus arrangement/);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
