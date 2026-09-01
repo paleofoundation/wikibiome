@@ -30,7 +30,13 @@ const worker = {
     const url = new URL(request.url);
 
     if (url.pathname.startsWith("/media/") && url.pathname.endsWith(".webp")) {
-      const asset = await env.ASSETS.fetch(request);
+      const canonicalMatch = url.pathname.match(/^\/media\/(?:image|social)\/([^/]+\.webp)$/);
+      const assetUrl = canonicalMatch
+        ? new URL(`/media/${canonicalMatch[1]}`, request.url)
+        : url;
+      const assetRequest = new Request(assetUrl, request);
+      if (!env?.ASSETS) return Response.redirect(assetUrl, 307);
+      const asset = await env.ASSETS.fetch(assetRequest);
       if (!asset.ok) return asset;
       const headers = new Headers(asset.headers);
       headers.set("Content-Type", "image/webp");

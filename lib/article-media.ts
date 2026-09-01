@@ -14,6 +14,8 @@ export type ArticleMedia = {
   revision: number;
   title: string;
   label: string;
+  publishedFile: string;
+  socialFile: string;
   src: string;
   socialSrc: string;
   masterSource: string;
@@ -50,7 +52,7 @@ function assertMediaRegistry() {
   for (const [id, media] of Object.entries(articleMedia)) {
     if (id !== media.pageId) throw new Error(`Article media key ${id} does not match pageId ${media.pageId}.`);
     const expectedFiles = articleMediaFileNames(media.pageId, media.assetType, media.revision);
-    if (media.src !== expectedFiles.src || media.socialSrc !== expectedFiles.socialSrc || media.masterSource !== expectedFiles.masterSource) {
+    if (media.publishedFile !== expectedFiles.publishedFile || media.socialFile !== expectedFiles.socialFile || media.src !== expectedFiles.src || media.socialSrc !== expectedFiles.socialSrc || media.masterSource !== expectedFiles.masterSource) {
       throw new Error(`Article media ${id} does not follow the canonical filename convention.`);
     }
     if (!media.scientificIdentifiers.length) throw new Error(`Article media ${id} has no controlled scientific identifier.`);

@@ -10,6 +10,8 @@ The generator derives all three filenames from the canonical article slug, an ap
 - Social preview: `{article-slug}-{asset-type}-v{revision}-social.webp`
 - Lossless master: `{article-slug}-{asset-type}-v{revision}-master.png`
 
+Published files are delivered through `/media/image/{filename}` and social previews through `/media/social/{filename}`. These canonical endpoints preserve the semantic filename while enforcing `image/webp`, `nosniff`, and immutable versioned caching at the application boundary.
+
 Approved asset types are `morphology`, `pathology`, `technical-specimen`, and `microbial-community`. The generator rejects invalid slugs, unapproved asset types, non-positive revisions, or filenames that differ from the derived names.
 
 ## Required scientific record

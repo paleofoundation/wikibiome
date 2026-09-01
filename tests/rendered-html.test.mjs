@@ -47,13 +47,17 @@ test("serves versioned scientific WebPs with an explicit image MIME type", async
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-media-headers`);
   const { default: worker } = await import(workerUrl.href);
+  let fetchedAssetUrl = "";
   const response = await worker.fetch(
-    new Request("http://localhost/media/nickel-technical-specimen-v2.webp"),
+    new Request("http://localhost/media/image/nickel-technical-specimen-v2.webp"),
     {
       ASSETS: {
-        fetch: async () => new Response("webp", {
-          headers: { "content-type": "application/octet-stream" },
-        }),
+        fetch: async (assetRequest) => {
+          fetchedAssetUrl = assetRequest.url;
+          return new Response("webp", {
+            headers: { "content-type": "application/octet-stream" },
+          });
+        },
       },
     },
     { waitUntil() {}, passThroughOnException() {} },
@@ -63,6 +67,7 @@ test("serves versioned scientific WebPs with an explicit image MIME type", async
   assert.equal(response.headers.get("content-type"), "image/webp");
   assert.equal(response.headers.get("x-content-type-options"), "nosniff");
   assert.equal(response.headers.get("cache-control"), "public, max-age=31536000, immutable");
+  assert.equal(fetchedAssetUrl, "http://localhost/media/nickel-technical-specimen-v2.webp");
 });
 
 test("server-renders the WikiBiome portal and anatomical knowledge map", async () => {
@@ -78,10 +83,10 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.match(html, /The current corpus, reimagined/);
   assert.match(html, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(html, /href="\/article\/nickel"/);
-  assert.match(html, /src="\/media\/akkermansia-muciniphila-morphology-v2\.webp"/);
-  assert.match(html, /src="\/media\/nickel-technical-specimen-v2\.webp"/);
-  assert.match(html, /src="\/media\/alzheimers-disease-pathology-v2\.webp"/);
-  assert.match(html, /src="\/media\/dysbiosis-microbial-community-v2\.webp"/);
+  assert.match(html, /src="\/media\/image\/akkermansia-muciniphila-morphology-v2\.webp"/);
+  assert.match(html, /src="\/media\/image\/nickel-technical-specimen-v2\.webp"/);
+  assert.match(html, /src="\/media\/image\/alzheimers-disease-pathology-v2\.webp"/);
+  assert.match(html, /src="\/media\/image\/dysbiosis-microbial-community-v2\.webp"/);
   const portalMarkup = html.match(/<section class="home-portals"[\s\S]*?<section class="home-trail"/)?.[0] ?? "";
   assert.doesNotMatch(portalMarkup, /wikibiome-human-system-v2\.png/, "the article cards never reuse the anatomical hero fallback");
   assert.match(html, /A project of[\s\S]{0,80}Microbiome Medicine/);
@@ -107,7 +112,7 @@ test("server-renders real article and directory pages through the shared redesig
   assert.match(article, /<title>Nickel — WikiBiome<\/title>/i);
   assert.match(article, /class="article-system-art"/);
   assert.match(article, /class="article-media-figure"/);
-  assert.match(article, /src="\/media\/nickel-technical-specimen-v2\.webp"/);
+  assert.match(article, /src="\/media\/image\/nickel-technical-specimen-v2\.webp"/);
   assert.match(article, /143/);
   assert.match(article, /generated references/);
   assert.match(article, /href="\/source\/braud-2010-siderophores-pseudomonas-metal-tolerance"/);
@@ -139,7 +144,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     const html = pages[index];
     assert.match(html, /class="article-system-art(?: |")/, `${id} keeps the large decorative article hero`);
     assert.match(html, /class="article-media-figure"/, `${id} renders the page-specific sidebar plate`);
-    assert.match(html, new RegExp(`src="/media/${stem}\\.webp"`));
+    assert.match(html, new RegExp(`src="/media/image/${stem}\\.webp"`));
     assert.match(html, new RegExp(label));
     assert.match(html, new RegExp(provenance));
     assert.doesNotMatch(html, /Conceptual illustration|Original AI-generated artwork/);
@@ -153,8 +158,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.match(html, /CC BY-SA 4\.0/);
     assert.match(html, /creativecommons\.org\/licenses\/by-sa\/4\.0/);
     assert.match(html, /creativeWorkStatus/);
-    assert.match(html, new RegExp(`property="og:image" content="https://www\\.wikibiome\\.com/media/${stem}-social\\.webp"`));
-    assert.match(html, new RegExp(`name="twitter:image" content="https://www\\.wikibiome\\.com/media/${stem}-social\\.webp"`));
+    assert.match(html, new RegExp(`property="og:image" content="https://www\\.wikibiome\\.com/media/social/${stem}-social\\.webp"`));
+    assert.match(html, new RegExp(`name="twitter:image" content="https://www\\.wikibiome\\.com/media/social/${stem}-social\\.webp"`));
 
     for (const suffix of [".webp", "-social.webp"]) {
       const asset = readFileSync(new URL(`../public/media/${stem}${suffix}`, import.meta.url));
@@ -169,7 +174,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(Object.keys(articleMediaRegistry).length, pilot.length);
   for (const [id, media] of Object.entries(articleMediaRegistry)) {
     assert.deepEqual(
-      { src: media.src, socialSrc: media.socialSrc, masterSource: media.masterSource },
+      { publishedFile: media.publishedFile, socialFile: media.socialFile, src: media.src, socialSrc: media.socialSrc, masterSource: media.masterSource },
       articleMediaFileNames(media.pageId, media.assetType, media.revision),
       `${id} must use generator-derived canonical filenames`,
     );

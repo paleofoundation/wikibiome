@@ -9,7 +9,7 @@ const output = join(root, "public", "media");
 
 function validateMedia(media) {
   const expectedFiles = articleMediaFileNames(media.pageId, media.assetType, media.revision);
-  if (media.src !== expectedFiles.src || media.socialSrc !== expectedFiles.socialSrc || media.masterSource !== expectedFiles.masterSource) {
+  if (media.publishedFile !== expectedFiles.publishedFile || media.socialFile !== expectedFiles.socialFile || media.src !== expectedFiles.src || media.socialSrc !== expectedFiles.socialSrc || media.masterSource !== expectedFiles.masterSource) {
     throw new Error(`${media.pageId}: filenames do not match the canonical media convention.`);
   }
   const requiredAuthorities = articleMediaPolicy.requiredAuthorities[media.subjectKind];
@@ -74,13 +74,13 @@ for (const media of images) {
     .resize({ width: media.width, withoutEnlargement: true })
     .withXmp(metadata)
     .webp({ quality: 86, smartSubsample: true })
-    .toFile(join(root, "public", media.src));
+    .toFile(join(output, media.publishedFile));
 
   await sharp(source)
     .resize(media.socialWidth, media.socialHeight, { fit: "cover", position: "attention" })
     .withXmp(metadata)
     .webp({ quality: 84, smartSubsample: true })
-    .toFile(join(root, "public", media.socialSrc));
+    .toFile(join(output, media.socialFile));
 }
 
 console.log(`Processed ${images.length} WikiBiome image records with controlled identifiers, license, and review metadata.`);
