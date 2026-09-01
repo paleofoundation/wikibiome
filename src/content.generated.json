@@ -1,8 +1,8 @@
 {
-  "_generated": "2026-09-01T11:33:59.808Z",
+  "_generated": "2026-09-01T13:23:05.346Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1914,
+    "sources": 1922,
     "entities": 330,
     "concepts": 264,
     "signatures": 70,
@@ -1639,10 +1639,6 @@
           "score": 7
         },
         {
-          "id": "candida-auris",
-          "score": 7
-        },
-        {
           "id": "citrobacter",
           "score": 7
         },
@@ -1661,6 +1657,10 @@
         {
           "id": "pseudomonas",
           "score": 7
+        },
+        {
+          "id": "celiac-disease",
+          "score": 6
         }
       ]
     },
@@ -9093,7 +9093,7 @@
         "bipolar-disorder",
         "bismuth",
         "cadmium",
-        "candida-auris",
+        "candidozyma-auris",
         "celiac-disease",
         "chronic-fatigue-syndrome",
         "clostridioides-difficile",
@@ -12628,9 +12628,8 @@
         "anaerostipes",
         "aspergillus",
         "bipolar-disorder",
-        "candida-auris",
-        "candida-glabrata",
         "candida-tropicalis",
+        "candidozyma-auris",
         "cryptococcus-neoformans",
         "davidiella",
         "fusobacterium-varium",
@@ -12642,6 +12641,7 @@
         "long-covid",
         "malassezia",
         "mortierella",
+        "nakaseomyces-glabratus",
         "odoribacter",
         "oscillospiraceae",
         "pancreatic-cancer",
@@ -12734,393 +12734,6 @@
         {
           "id": "biofilm",
           "score": 42
-        }
-      ]
-    },
-    {
-      "id": "candida-auris",
-      "title": "Candida auris",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "fungus",
-        "pathogen",
-        "multidrug-resistant",
-        "nosocomial",
-        "emerging-pathogen",
-        "mycobiome"
-      ],
-      "sources": [
-        "alves-2020-candida-adapting-survive-host-constraints",
-        "do-carmo-2023-metal-nanoparticles-candida-review",
-        "pasman-2025-candida-staph-reciprocal-virulence-masking"
-      ],
-      "created": "2026-04-13T00:00:00.000Z",
-      "updated": "2026-04-13T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Candida auris",
-        "type": "entity",
-        "subtype": "fungus",
-        "created": "2026-04-13T00:00:00.000Z",
-        "updated": "2026-04-13T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "alves-2020-candida-adapting-survive-host-constraints",
-          "do-carmo-2023-metal-nanoparticles-candida-review",
-          "pasman-2025-candida-staph-reciprocal-virulence-masking"
-        ],
-        "source_count": 3,
-        "tags": [
-          "fungus",
-          "pathogen",
-          "multidrug-resistant",
-          "nosocomial",
-          "emerging-pathogen",
-          "mycobiome"
-        ],
-        "oxygen_requirement": "facultative anaerobe",
-        "metal_dependencies": [
-          "zinc",
-          "iron",
-          "copper",
-          "manganese"
-        ],
-        "key_enzymes": [
-          "secreted aspartyl proteases (SAPs)",
-          "zinc metalloproteases",
-          "Cu/Zn superoxide dismutase",
-          "multicopper ferroxidase Fet3"
-        ],
-        "pathogenic_potential": "obligate pathogen in hospital settings; rare gut commensal",
-        "conditions_enriched_in": [
-          "nosocomial-candidemia",
-          "icu-bloodstream-infection"
-        ],
-        "conditions_depleted_in": [],
-        "seo_target": "Candida auris gut microbiome metals resistance",
-        "wikipedia_differentiation": "Metal-dependent virulence mechanisms, zinc/iron/copper acquisition strategies under hospital nutritional immunity pressure, and the gut-to-bloodstream translocation pathway that Wikipedia does not cover"
-      },
-      "overview": "Candida auris is an emerging multidrug-resistant fungal pathogen first identified in 2009 (Satoh et al. 2009, from a Japanese patient's ear canal) and now classified as a critical-priority pathogen by the WHO (WHO Fungal Priority Pathogens List 2022) and CDC (CDC 2019 Antibiotic Resistance Threats Report). Unlike other *Candida* species, *C. auris* is predominantly a nosocomial (healthcare-associated) pathogen with documented outbreak potential in intensive care settings. It is notable for its resistance to multiple antifungal drug classes and its persistence on environmental surfaces (Welsh et al. 2017). In some endemic regions, *C. auris* accounts for up to ~40-67% of ICU candidemia cases (Chowdhary et al. 2017, Indian ICU surveillance).",
-      "sections": [
-        {
-          "heading": "Metal Dependencies",
-          "level": 2,
-          "body": "*C. auris* requires zinc, iron, copper, and manganese for growth and virulence, and must acquire each under conditions of active host sequestration ([[nutritional-immunity]]). The broad metal vulnerability profile is a direct consequence of its evolutionary niche — hospital bloodstream and skin, environments dominated by [[calprotectin]] (Zn/Mn sequestration), [[transferrin]]/[[lactoferrin]] (iron sequestration), and [[ceruloplasmin]]-coordinated copper redistribution."
-        },
-        {
-          "heading": "Iron",
-          "level": 3,
-          "body": "Like other *Candida* species, *C. auris* employs a reductive iron acquisition system (surface ferric reductases, multicopper ferroxidase Fet3, and iron permease Ftr1) alongside siderophore-like metallophores [[alves-2020-candida-adapting-survive-host-constraints]]. It can also use heme as an iron source via the Rbt5/Pga7 heme-binding cell wall protein family. Iron restriction arrests hyphal morphogenesis and downregulates biofilm production — establishing [[iron]] as a primary ecological choke point for *C. auris*."
-        },
-        {
-          "heading": "Zinc",
-          "level": 3,
-          "body": "Zinc-dependent virulence factors include secreted aspartyl proteases (SAPs), zinc metalloproteases, and Cu/Zn superoxide dismutase (Sod1), which neutralises the neutrophil oxidative burst. *C. auris* expresses the Zrt1/Zrt2/Pra1 zincophore system homologous to *C. albicans*, scavenging zinc from [[calprotectin]]-sequestered pools. Zinc chelation strategies have been explored as adjunct antifungal approaches (Citiulo et al. 2012; Crawford & Wilson 2015)."
-        },
-        {
-          "heading": "Copper",
-          "level": 3,
-          "body": "Copper is required for Fet3 ferroxidase activity (iron uptake) and mitochondrial cytochrome c oxidase. *C. auris* responds to host copper toxicity (a macrophage defence mechanism) by inducing metallothionein-like sequestration. This dual role — copper as required cofactor and copper as toxin — is a known vulnerability being explored therapeutically (Hu et al. 2022, against other *Candida* species)."
-        },
-        {
-          "heading": "Manganese",
-          "level": 3,
-          "body": "Manganese is sequestered by [[calprotectin]] in the bloodstream alongside zinc. *C. auris* requires Mn for mitochondrial Sod2 and for glycosylation of virulence-relevant cell wall proteins. Depletion below ~0.1 µM arrests growth within hours."
-        },
-        {
-          "heading": "Key Virulence Features",
-          "level": 2,
-          "body": "- Multidrug resistance — exhibits resistance to azoles (fluconazole), polyenes (amphotericin B), and echinocandins in a significant proportion of isolates; pan-resistant strains have been documented (Lockhart et al. 2017)\n- Biofilm formation — forms biofilms on catheters and medical devices that reduce antifungal penetration and immune clearance (Sherry et al. 2017)\n- Thermotolerance — one of the few fungi that can proliferate at human body temperature (37°C) and above, facilitating systemic infection (Casadevall et al. 2019)\n- Surface persistence — survives on hospital surfaces for weeks to months, enabling environmental transmission (Welsh et al. 2017)\n- Genomic plasticity — multiple distinct clades (I–V) with separate geographic origins, suggesting parallel emergence (Lockhart et al. 2017; Chow et al. 2020)"
-        },
-        {
-          "heading": "Gut Microbiome Context",
-          "level": 2,
-          "body": "*C. auris* is primarily a nosocomial bloodstream and skin pathogen rather than a gut commensal in healthy individuals. However, gut colonisation is increasingly documented in ICU patients (Proctor et al. 2021, Nat Med; detection in ~15-20% of rectal swabs during outbreaks) and represents a reservoir for systemic translocation. Risk factors for gut colonisation mirror those for broader *Candida* overgrowth: broad-spectrum antibiotic exposure depleting [[lachnospiraceae]] and [[bifidobacterium]], PPI-induced hypochlorhydria, enteral feeding, and prolonged ICU stay.\n\nUnlike [[candida-albicans]], *C. auris* rarely causes invasive candidiasis via direct gut-blood translocation in otherwise-healthy hosts; the dominant route appears to be skin colonisation followed by catheter-associated bloodstream invasion. Nevertheless, gut decolonisation protocols are being evaluated as part of outbreak control."
-        },
-        {
-          "heading": "Interkingdom Relationships",
-          "level": 2,
-          "body": "*C. auris* co-colonises with [[staphylococcus-aureus]] on skin and catheter surfaces, forming mixed biofilms where *S. aureus* benefits from fungal matrix protection while providing proteolytic activity that enhances fungal dispersal (Kean et al. 2018, mSphere). This mirrors the [[functional-shielding]] pattern documented between *C. albicans* and pathogenic bacteria in other body sites. Bacterial partners may also relieve *C. auris* of iron-acquisition costs by producing scavengeable siderophores that *C. auris* pirates via its reductive uptake system."
-        },
-        {
-          "heading": "Distinction from Other Candida Species",
-          "level": 2,
-          "body": "| Feature | *C. auris* | *C. albicans* | *C. tropicalis* |\n|---------|-----------|--------------|----------------|\n| Primary context | Nosocomial | Commensal/opportunistic | Commensal/opportunistic |\n| Drug resistance | High (multidrug) | Moderate | Moderate |\n| Biofilm | Strong | Strong | Moderate |\n| Gut colonization | Rare (pathological) | Common | Occasional |"
-        },
-        {
-          "heading": "Therapeutic Implications",
-          "level": 2,
-          "body": "The metal-dependence profile suggests several adjunct strategies relevant to a fungus with limited antifungal options:\n- Iron restriction -- [[lactoferrin]], [[metal-chelation-therapy|deferasirox]], and [[gallium]] maltolate have all demonstrated in-vitro activity against *Candida* spp. by competing with fungal siderophores (Lai et al. 2016; Venturini et al. 2011).\n- Copper-based coatings on hospital surfaces reduce *C. auris* persistence; copper-impregnated textiles are under evaluation for ICU use (Souli et al. 2019).\n- Zinc chelation via clioquinol or calprotectin-mimetic peptides (Crawford & Wilson 2015) potentiates azole activity in other *Candida* species and is a plausible *C. auris* adjunct.\n- Echinocandin + copper combinations have shown synergy against *C. auris* biofilms in preclinical work (Hu et al. 2022)."
-        },
-        {
-          "heading": "Open Questions",
-          "level": 2,
-          "body": "- Does gut colonisation with *C. auris* alter bacterial community metal availability in ways that promote bacterial co-pathogens (e.g., [[enterococcus-faecium]], [[escherichia-coli]])?\n- What host factors govern the transition from skin/gut colonisation to bloodstream invasion — is it primarily catheter-mediated, or does impaired host nutritional immunity play a triggering role?\n- Can [[calprotectin]] status (e.g., in IBD patients with elevated faecal calprotectin) paradoxically select for *C. auris* by pre-adapting it to nutritional-immunity pressure?"
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[candida-albicans]] — the most common Candida pathogen; commensal that can become opportunistic\n- [[candida-tropicalis]] — related species with gut dysbiosis associations\n- [[mycobiome]] — the fungal community context\n- [[biofilm]] — key virulence mechanism\n- [[functional-shielding]] — interkingdom biofilm protection of bacterial pathogens\n- [[antimicrobial-resistance]] — pan-resistant strains documented; critical-priority WHO pathogen\n- [[iron]] — iron acquisition via siderophore-like metallophores essential for virulence\n- [[zinc]] — zincophore system, calprotectin competition\n- [[copper]] — required cofactor and host defence toxin (dual role)\n- [[calprotectin]] — host sequestration target *C. auris* must overcome\n- [[lactoferrin]] — iron-sequestration host defence; proposed adjunct therapy\n- [[gallium]] — Fe3+ mimic under investigation against *C. auris*\n- [[nutritional-immunity]] — framework explaining why *C. auris* evolved broad metal competence\n- [[staphylococcus-aureus]] — biofilm co-coloniser on skin and catheters"
-        }
-      ],
-      "wikilinks": [
-        "nutritional-immunity",
-        "calprotectin",
-        "transferrin",
-        "lactoferrin",
-        "ceruloplasmin",
-        "alves-2020-candida-adapting-survive-host-constraints",
-        "iron",
-        "lachnospiraceae",
-        "bifidobacterium",
-        "candida-albicans",
-        "staphylococcus-aureus",
-        "functional-shielding",
-        "metal-chelation-therapy",
-        "gallium",
-        "enterococcus-faecium",
-        "escherichia-coli",
-        "candida-tropicalis",
-        "mycobiome",
-        "biofilm",
-        "antimicrobial-resistance",
-        "zinc",
-        "copper"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 3,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "candida-glabrata",
-        "candida-tropicalis",
-        "functional-shielding",
-        "superoxide-dismutase",
-        "gaps-and-improvements-2026-04-13",
-        "lint-report-2026-04-12",
-        "lint-report-2026-04-13"
-      ],
-      "related": [
-        {
-          "id": "candida-glabrata",
-          "score": 10
-        },
-        {
-          "id": "saccharomyces-cerevisiae",
-          "score": 9
-        },
-        {
-          "id": "aeromonas",
-          "score": 7
-        },
-        {
-          "id": "bacteroides-thetaiotaomicron",
-          "score": 7
-        },
-        {
-          "id": "lactobacillus",
-          "score": 7
-        },
-        {
-          "id": "celiac-disease",
-          "score": 6
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 6
-        },
-        {
-          "id": "ahr",
-          "score": 6
-        }
-      ]
-    },
-    {
-      "id": "candida-glabrata",
-      "title": "Candida glabrata",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "fungal-pathogen",
-        "azole-resistant",
-        "iron-dependent",
-        "haploid",
-        "Nakaseomyces",
-        "nosocomial",
-        "type-2-diabetes",
-        "mycobiome",
-        "iron-chelation-target"
-      ],
-      "sources": [
-        "corrales-2024-iron-chelating-antifungal-collismycin-candida",
-        "alves-2020-candida-adapting-survive-host-constraints",
-        "al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber"
-      ],
-      "created": "2026-04-18T00:00:00.000Z",
-      "updated": "2026-04-18T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Candida glabrata",
-        "type": "entity",
-        "subtype": "fungus",
-        "created": "2026-04-18T00:00:00.000Z",
-        "updated": "2026-04-18T00:00:00.000Z",
-        "last_substantive_update": "2026-04-18T00:00:00.000Z",
-        "sources": [
-          "corrales-2024-iron-chelating-antifungal-collismycin-candida",
-          "alves-2020-candida-adapting-survive-host-constraints",
-          "al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber"
-        ],
-        "source_count": 3,
-        "tags": [
-          "fungal-pathogen",
-          "azole-resistant",
-          "iron-dependent",
-          "haploid",
-          "Nakaseomyces",
-          "nosocomial",
-          "type-2-diabetes",
-          "mycobiome",
-          "iron-chelation-target"
-        ],
-        "seo_target": "Candida glabrata iron chelation antifungal resistance",
-        "wikipedia_differentiation": "Iron chelation as antifungal strategy with NR-6226C compound data; Cu2+/Zn2+ mis-metallation compensating for iron chelation; mycobiome-dominant variance signal in type 2 diabetes; lactate/butyrate masking-unmasking immune evasion",
-        "platform": "wikibiome",
-        "gram_stain": "N/A",
-        "oxygen_requirement": "facultative anaerobe",
-        "metal_dependencies": [
-          "iron",
-          "copper",
-          "zinc"
-        ],
-        "key_enzymes": [
-          "Aft1-iron-regulon",
-          "iron-sulfur-cluster-enzymes",
-          "heme-oxygenase-HMX1",
-          "thioredoxin-TRR1"
-        ],
-        "pathogenic_potential": "opportunistic",
-        "conditions_enriched_in": [
-          "candidemia",
-          "vulvovaginal-candidiasis",
-          "type-2-diabetes",
-          "immunocompromised-infections"
-        ],
-        "conditions_depleted_in": []
-      },
-      "overview": "A haploid, asexual yeast and the second most common cause of invasive candidiasis after *Candida albicans*. Recently reclassified into the genus *Nakaseomyces* (as *N. glabratus*), though the name *C. glabrata* remains in widespread clinical use. Unlike *C. albicans*, *C. glabrata* does not form true hyphae and is more closely related to *Saccharomyces cerevisiae* than to other *Candida* species. Its clinical significance has risen sharply due to intrinsic resistance to fluconazole and increasing prevalence in nosocomial infections -- features that make its iron dependency a particularly attractive therapeutic target.",
-      "sections": [
-        {
-          "heading": "Metal Dependencies",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Iron: The Central Vulnerability",
-          "level": 3,
-          "body": "[[iron|Iron]] is essential for *C. glabrata* mitochondrial function, iron-sulfur cluster assembly, and heme biosynthesis. Selective iron chelation by NR-6226C (a collismycin A analog derived from *Streptomyces*) potently inhibits both wild-type and drug-resistant *C. glabrata* with a favorable therapeutic window: EC50 of approximately 3 uM against Candida versus 37-29 uM against human cell lines ([[corrales-2024-iron-chelating-antifungal-collismycin-candida]], in-vitro).\n\nTranscriptomic analysis of *C. glabrata* treated with NR-6226C revealed an iron starvation response: 224 genes upregulated and 220 downregulated within one hour. Upregulated genes included TRR1 (thioredoxin), HMX1 (heme oxygenase), and iron import genes. Critically, iron-sulfur cluster enzyme genes were downregulated -- SDH2 (succinate dehydrogenase), ACO1/2 (aconitase), and ISA1 (Fe-S assembly) -- indicating severe mitochondrial iron depletion."
-        },
-        {
-          "heading": "Copper and Zinc: Mis-metallation Compensation",
-          "level": 3,
-          "body": "A remarkable finding: [[copper]] and [[zinc]] ions ameliorate iron chelation effects on *C. glabrata* despite not being bound by the chelating compound ([[corrales-2024-iron-chelating-antifungal-collismycin-candida]], in-vitro). The proposed mechanism is [[mis-metallation]] -- Cu2+ and Zn2+ bind to iron-dependent proteins, triggering a compensatory iron uptake response that partially overcomes chelation. This provides direct evidence that metal competition at protein binding sites has functional consequences for fungal survival."
-        },
-        {
-          "heading": "Key Enzymes and Virulence Factors",
-          "level": 2,
-          "body": "| System | Metal | Function |\n|---|---|---|\n| Aft1 transcription factor | Iron sensor | Master regulator of iron starvation response |\n| Iron-sulfur cluster enzymes (SDH2, ACO1/2) | Iron | Mitochondrial respiration and TCA cycle |\n| HMX1 (heme oxygenase) | Iron | Heme degradation for iron recycling |\n| TRR1 (thioredoxin) | -- | Oxidative stress defense under iron starvation |\n| ISA1 (Fe-S assembly) | Iron | Iron-sulfur cluster biogenesis |"
-        },
-        {
-          "heading": "Ecological Role",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Immune Evasion Through Metabolite Sensing",
-          "level": 3,
-          "body": "Like *C. albicans*, *C. glabrata* modulates its visibility to the immune system based on the metabolic environment. Lactate triggers beta-glucan masking (hiding from immune detection), while short-chain fatty acids (butyrate, acetate) cause unmasking ([[alves-2020-candida-adapting-survive-host-constraints]], expert-opinion). This means the metabolic balance of the gut environment directly determines whether *C. glabrata* is visible to immune surveillance -- a dysbiotic, lactate-rich, butyrate-poor environment favors fungal stealth."
-        },
-        {
-          "heading": "In the Mycobiome of Type 2 Diabetes",
-          "level": 3,
-          "body": "*C. glabrata* is detectable in the gut mycobiome of both healthy controls and type 2 diabetes patients ([[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]], case-control, n=41). A key finding from this study: in T2DM, the mycobiome explains most of the microbiome variance (12.5%) while bacteria explain only 10.4% -- a reversal of the normal pattern where bacteria dominate (64.2%). This suggests fungi including *C. glabrata* become primary ecological drivers in diabetic dysbiosis."
-        },
-        {
-          "heading": "Fluconazole Synergy",
-          "level": 3,
-          "body": "NR-6226C synergizes strongly with fluconazole against *C. albicans* and related species, providing a potential combination therapy that may prevent azole resistance ([[corrales-2024-iron-chelating-antifungal-collismycin-candida]], in-vitro). In a *Galleria mellonella* infection model, NR-6226C significantly increased survival of Candida-infected larvae."
-        },
-        {
-          "heading": "Conditions Associated",
-          "level": 2,
-          "body": "- Candidemia -- Second most common cause after *C. albicans*; increasing in nosocomial settings\n- Vulvovaginal candidiasis -- Common cause, particularly of azole-resistant recurrent infections\n- Type 2 diabetes -- Part of the disease-associated mycobiome; mycobiome variance dominance in T2DM\n- Immunocompromised infections -- Increasing prevalence in transplant recipients, ICU patients, and elderly populations\n- Urinary tract infections -- Growing cause of catheter-associated fungal UTIs"
-        },
-        {
-          "heading": "Key Studies",
-          "level": 2,
-          "body": "- [[corrales-2024-iron-chelating-antifungal-collismycin-candida]] (in-vitro) -- Demonstrates selective iron chelation as potent antifungal strategy against *C. glabrata*; reveals Cu2+/Zn2+ mis-metallation compensation; documents fluconazole synergy and transcriptomic iron starvation response.\n- [[alves-2020-candida-adapting-survive-host-constraints]] (expert-opinion) -- Reviews lactate/butyrate masking-unmasking immune evasion and metabolic adaptation across Candida species including *C. glabrata*.\n- [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]] (case-control, n=41) -- Multi-omics study documenting *C. glabrata* in T2DM mycobiome and the reversal of bacteria-fungi variance dominance in diabetes."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[candida-albicans]] -- Primary Candida pathogen; shares iron dependency and immune evasion strategies\n- [[candida-auris]] -- Emerging drug-resistant Candida; related immune evasion mechanisms\n- [[iron]] -- Central metabolic dependency; iron chelation as therapeutic strategy\n- [[mis-metallation]] -- Cu2+/Zn2+ compensation for iron chelation via protein mis-metallation\n- [[butyrate]] -- Triggers immune unmasking of Candida; ecological lever for anti-fungal defense\n- [[antimicrobial-resistance]] -- Intrinsic fluconazole resistance; iron chelation as alternative strategy\n- [[type-2-diabetes]] -- Mycobiome-dominant variance signature in T2DM"
-        }
-      ],
-      "wikilinks": [
-        "iron",
-        "corrales-2024-iron-chelating-antifungal-collismycin-candida",
-        "copper",
-        "zinc",
-        "mis-metallation",
-        "alves-2020-candida-adapting-survive-host-constraints",
-        "al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber",
-        "candida-albicans",
-        "candida-auris",
-        "butyrate",
-        "antimicrobial-resistance",
-        "type-2-diabetes"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 3,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "candida-tropicalis",
-        "broken-links-2026-04-16"
-      ],
-      "related": [
-        {
-          "id": "candida-tropicalis",
-          "score": 9
-        },
-        {
-          "id": "aspergillus",
-          "score": 7
-        },
-        {
-          "id": "enterobacter",
-          "score": 7
-        },
-        {
-          "id": "serratia-marcescens",
-          "score": 7
-        },
-        {
-          "id": "phocaeicola",
-          "score": 6
-        },
-        {
-          "id": "trichosporon-asahii",
-          "score": 6
-        },
-        {
-          "id": "mycobiome",
-          "score": 6
-        },
-        {
-          "id": "schizophrenia",
-          "score": 6
         }
       ]
     },
@@ -13242,7 +12855,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[candida-albicans]] — the most common Candida species; shares interkingdom biofilm behavior\n- [[candida-auris]] — emerging multidrug-resistant species\n- [[candida-glabrata]] — another major non-albicans Candida with distinct resistance profile\n- [[saccharomyces-cerevisiae]] — commensal counterweight whose loss permits *C. tropicalis* expansion\n- [[crohns-disease]] — primary inflammatory bowel disease association\n- [[schizophrenia]] — recently implicated condition with refractory fungal reservoir\n- [[functional-shielding]] — the interkingdom biofilm mechanism\n- [[mycobiome]] — the gut fungal community context\n- [[escherichia-coli]] — bacterial partner in interkingdom biofilm\n- [[serratia-marcescens]] — third partner in the Crohn's triple-species biofilm\n- [[biofilm]] — strong biofilm former; triple-species biofilm with *E. coli* and *S. marcescens*\n- [[iron]] — iron scavenging via multiple acquisition systems supports growth in host environment\n- [[zinc]] — zinc-dependent secreted aspartic proteinases enable host tissue invasion\n- [[copper]] — required for Cu/Zn-SOD antioxidant defense\n- [[crohns-disease|asca]] — serologic Crohn's marker; cross-reacts with *C. tropicalis* antigens"
+          "body": "- [[candida-albicans]] — the most common Candida species; shares interkingdom biofilm behavior\n- [[candidozyma-auris]] — current-name record for the emerging species historically called *Candida auris*\n- [[nakaseomyces-glabratus]] — current-name record for the non-*albicans* yeast historically called *Candida glabrata*\n- [[saccharomyces-cerevisiae]] — commensal counterweight whose loss permits *C. tropicalis* expansion\n- [[crohns-disease]] — primary inflammatory bowel disease association\n- [[schizophrenia]] — recently implicated condition with refractory fungal reservoir\n- [[functional-shielding]] — the interkingdom biofilm mechanism\n- [[mycobiome]] — the gut fungal community context\n- [[escherichia-coli]] — bacterial partner in interkingdom biofilm\n- [[serratia-marcescens]] — third partner in the Crohn's triple-species biofilm\n- [[biofilm]] — strong biofilm former; triple-species biofilm with *E. coli* and *S. marcescens*\n- [[iron]] — iron scavenging via multiple acquisition systems supports growth in host environment\n- [[zinc]] — zinc-dependent secreted aspartic proteinases enable host tissue invasion\n- [[copper]] — required for Cu/Zn-SOD antioxidant defense\n- [[crohns-disease|asca]] — serologic Crohn's marker; cross-reacts with *C. tropicalis* antigens"
         }
       ],
       "wikilinks": [
@@ -13253,8 +12866,8 @@
         "krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model",
         "meng-2025-oral-bacterial-fungal-microbiome-pancreatic-cancer-risk",
         "candida-albicans",
-        "candida-auris",
-        "candida-glabrata",
+        "candidozyma-auris",
+        "nakaseomyces-glabratus",
         "saccharomyces-cerevisiae",
         "crohns-disease",
         "schizophrenia",
@@ -13272,7 +12885,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "candida-auris",
+        "candidozyma-auris",
         "serratia-marcescens",
         "functional-shielding",
         "gaps-and-improvements-2026-04-13",
@@ -13311,6 +12924,223 @@
         {
           "id": "alternaria",
           "score": 6
+        }
+      ]
+    },
+    {
+      "id": "candidozyma-auris",
+      "title": "Candidozyma auris",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "fungus",
+        "Candidozyma",
+        "Candida-auris-historical-name",
+        "pathogen",
+        "multidrug-resistant",
+        "nosocomial",
+        "emerging-pathogen",
+        "mycobiome"
+      ],
+      "sources": [
+        "ncbi-taxonomy-candidozyma-auris",
+        "index-fungorum-candidozyma-auris",
+        "liu-2024-candidozyma-auris-reclassification",
+        "satoh-2009-candida-auris-original-description",
+        "alves-2020-candida-adapting-survive-host-constraints",
+        "do-carmo-2023-metal-nanoparticles-candida-review",
+        "pasman-2025-candida-staph-reciprocal-virulence-masking"
+      ],
+      "created": "2026-04-13T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Candidozyma auris",
+        "type": "entity",
+        "subtype": "fungus",
+        "created": "2026-04-13T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "ncbi-taxonomy-candidozyma-auris",
+          "index-fungorum-candidozyma-auris",
+          "liu-2024-candidozyma-auris-reclassification",
+          "satoh-2009-candida-auris-original-description",
+          "alves-2020-candida-adapting-survive-host-constraints",
+          "do-carmo-2023-metal-nanoparticles-candida-review",
+          "pasman-2025-candida-staph-reciprocal-virulence-masking"
+        ],
+        "source_count": 7,
+        "tags": [
+          "fungus",
+          "Candidozyma",
+          "Candida-auris-historical-name",
+          "pathogen",
+          "multidrug-resistant",
+          "nosocomial",
+          "emerging-pathogen",
+          "mycobiome"
+        ],
+        "oxygen_requirement": "facultative anaerobe",
+        "metal_dependencies": [
+          "zinc",
+          "iron",
+          "copper",
+          "manganese"
+        ],
+        "key_enzymes": [
+          "secreted aspartyl proteases (SAPs)",
+          "zinc metalloproteases",
+          "Cu/Zn superoxide dismutase",
+          "multicopper ferroxidase Fet3"
+        ],
+        "pathogenic_potential": "obligate pathogen in hospital settings; rare gut commensal",
+        "conditions_enriched_in": [
+          "nosocomial-candidemia",
+          "icu-bloodstream-infection"
+        ],
+        "conditions_depleted_in": [],
+        "seo_target": "Candidozyma auris taxonomy NCBITaxon 498019 Candida auris",
+        "wikipedia_differentiation": "Current Candidozyma auris identity reconciled with the Candida auris basionym and historical clinical literature, alongside the source record's metal-dependent virulence and nutritional-immunity discussion",
+        "ncbi_taxonomy_id": 498019,
+        "mycobank_registration_id": 848169,
+        "historical_names": [
+          "Candida auris"
+        ]
+      },
+      "overview": "*Candidozyma auris* is the current name for NCBITaxon:498019. Liu and colleagues established the combination in 2024 as MycoBank MB 848169; *Candida auris* Satoh & Makimura 2009 is its basionym, not a separate species [[ncbi-taxonomy-candidozyma-auris]] [[index-fungorum-candidozyma-auris]] [[liu-2024-candidozyma-auris-reclassification]]. Satoh and colleagues originally described the taxon from strain JCM 15448 (CBS 10913; DSM 21092), isolated from a patient's external ear canal [[satoh-2009-candida-auris-original-description]].\n\nThe clinical and mechanistic sources summarized below largely use the historical name *Candida auris*, which WikiBiome preserves where it reflects the cited literature. Under that name, the organism is described as an emerging multidrug-resistant fungal pathogen and as a healthcare-associated pathogen with outbreak potential, resistance to multiple antifungal drug classes, and persistence on environmental surfaces. Historical study wording is not evidence for a second taxon.",
+      "sections": [
+        {
+          "heading": "Metal Dependencies",
+          "level": 2,
+          "body": "*C. auris* requires zinc, iron, copper, and manganese for growth and virulence, and must acquire each under conditions of active host sequestration ([[nutritional-immunity]]). The broad metal vulnerability profile is a direct consequence of its evolutionary niche — hospital bloodstream and skin, environments dominated by [[calprotectin]] (Zn/Mn sequestration), [[transferrin]]/[[lactoferrin]] (iron sequestration), and [[ceruloplasmin]]-coordinated copper redistribution."
+        },
+        {
+          "heading": "Iron",
+          "level": 3,
+          "body": "Like other *Candida* species, *C. auris* employs a reductive iron acquisition system (surface ferric reductases, multicopper ferroxidase Fet3, and iron permease Ftr1) alongside siderophore-like metallophores [[alves-2020-candida-adapting-survive-host-constraints]]. It can also use heme as an iron source via the Rbt5/Pga7 heme-binding cell wall protein family. Iron restriction arrests hyphal morphogenesis and downregulates biofilm production — establishing [[iron]] as a primary ecological choke point for *C. auris*."
+        },
+        {
+          "heading": "Zinc",
+          "level": 3,
+          "body": "Zinc-dependent virulence factors include secreted aspartyl proteases (SAPs), zinc metalloproteases, and Cu/Zn superoxide dismutase (Sod1), which neutralises the neutrophil oxidative burst. *C. auris* expresses the Zrt1/Zrt2/Pra1 zincophore system homologous to *C. albicans*, scavenging zinc from [[calprotectin]]-sequestered pools. Zinc chelation strategies have been explored as adjunct antifungal approaches (Citiulo et al. 2012; Crawford & Wilson 2015)."
+        },
+        {
+          "heading": "Copper",
+          "level": 3,
+          "body": "Copper is required for Fet3 ferroxidase activity (iron uptake) and mitochondrial cytochrome c oxidase. *C. auris* responds to host copper toxicity (a macrophage defence mechanism) by inducing metallothionein-like sequestration. This dual role — copper as required cofactor and copper as toxin — is a known vulnerability being explored therapeutically (Hu et al. 2022, against other *Candida* species)."
+        },
+        {
+          "heading": "Manganese",
+          "level": 3,
+          "body": "Manganese is sequestered by [[calprotectin]] in the bloodstream alongside zinc. *C. auris* requires Mn for mitochondrial Sod2 and for glycosylation of virulence-relevant cell wall proteins. Depletion below ~0.1 µM arrests growth within hours."
+        },
+        {
+          "heading": "Key Virulence Features",
+          "level": 2,
+          "body": "- Multidrug resistance — exhibits resistance to azoles (fluconazole), polyenes (amphotericin B), and echinocandins in a significant proportion of isolates; pan-resistant strains have been documented (Lockhart et al. 2017)\n- Biofilm formation — forms biofilms on catheters and medical devices that reduce antifungal penetration and immune clearance (Sherry et al. 2017)\n- Thermotolerance — one of the few fungi that can proliferate at human body temperature (37°C) and above, facilitating systemic infection (Casadevall et al. 2019)\n- Surface persistence — survives on hospital surfaces for weeks to months, enabling environmental transmission (Welsh et al. 2017)\n- Genomic plasticity — multiple distinct clades (I–V) with separate geographic origins, suggesting parallel emergence (Lockhart et al. 2017; Chow et al. 2020)"
+        },
+        {
+          "heading": "Gut Microbiome Context",
+          "level": 2,
+          "body": "*C. auris* is primarily a nosocomial bloodstream and skin pathogen rather than a gut commensal in healthy individuals. However, gut colonisation is increasingly documented in ICU patients (Proctor et al. 2021, Nat Med; detection in ~15-20% of rectal swabs during outbreaks) and represents a reservoir for systemic translocation. Risk factors for gut colonisation mirror those for broader *Candida* overgrowth: broad-spectrum antibiotic exposure depleting [[lachnospiraceae]] and [[bifidobacterium]], PPI-induced hypochlorhydria, enteral feeding, and prolonged ICU stay.\n\nUnlike [[candida-albicans]], *C. auris* rarely causes invasive candidiasis via direct gut-blood translocation in otherwise-healthy hosts; the dominant route appears to be skin colonisation followed by catheter-associated bloodstream invasion. Nevertheless, gut decolonisation protocols are being evaluated as part of outbreak control."
+        },
+        {
+          "heading": "Interkingdom Relationships",
+          "level": 2,
+          "body": "*C. auris* co-colonises with [[staphylococcus-aureus]] on skin and catheter surfaces, forming mixed biofilms where *S. aureus* benefits from fungal matrix protection while providing proteolytic activity that enhances fungal dispersal (Kean et al. 2018, mSphere). This mirrors the [[functional-shielding]] pattern documented between *C. albicans* and pathogenic bacteria in other body sites. Bacterial partners may also relieve *C. auris* of iron-acquisition costs by producing scavengeable siderophores that *C. auris* pirates via its reductive uptake system."
+        },
+        {
+          "heading": "Distinction from Other Clinically Used Candida Names",
+          "level": 2,
+          "body": "| Feature | *Candidozyma auris* (*Candida auris*) | *C. albicans* | *C. tropicalis* |\n|---------|-----------|--------------|----------------|\n| Primary context | Nosocomial | Commensal/opportunistic | Commensal/opportunistic |\n| Drug resistance | High (multidrug) | Moderate | Moderate |\n| Biofilm | Strong | Strong | Moderate |\n| Gut colonization | Rare (pathological) | Common | Occasional |"
+        },
+        {
+          "heading": "Therapeutic Implications",
+          "level": 2,
+          "body": "The metal-dependence profile suggests several adjunct strategies relevant to a fungus with limited antifungal options:\n- Iron restriction -- [[lactoferrin]], [[metal-chelation-therapy|deferasirox]], and [[gallium]] maltolate have all demonstrated in-vitro activity against *Candida* spp. by competing with fungal siderophores (Lai et al. 2016; Venturini et al. 2011).\n- Copper-based coatings on hospital surfaces reduce *C. auris* persistence; copper-impregnated textiles are under evaluation for ICU use (Souli et al. 2019).\n- Zinc chelation via clioquinol or calprotectin-mimetic peptides (Crawford & Wilson 2015) potentiates azole activity in other *Candida* species and is a plausible *C. auris* adjunct.\n- Echinocandin + copper combinations have shown synergy against *C. auris* biofilms in preclinical work (Hu et al. 2022)."
+        },
+        {
+          "heading": "Open Questions",
+          "level": 2,
+          "body": "- Does gut colonisation with *C. auris* alter bacterial community metal availability in ways that promote bacterial co-pathogens (e.g., [[enterococcus-faecium]], [[escherichia-coli]])?\n- What host factors govern the transition from skin/gut colonisation to bloodstream invasion — is it primarily catheter-mediated, or does impaired host nutritional immunity play a triggering role?\n- Can [[calprotectin]] status (e.g., in IBD patients with elevated faecal calprotectin) paradoxically select for *C. auris* by pre-adapting it to nutritional-immunity pressure?"
+        },
+        {
+          "heading": "Cross-References",
+          "level": 2,
+          "body": "- [[candida-albicans]] — the most common Candida pathogen; commensal that can become opportunistic\n- [[candida-tropicalis]] — related species with gut dysbiosis associations\n- [[mycobiome]] — the fungal community context\n- [[biofilm]] — key virulence mechanism\n- [[functional-shielding]] — interkingdom biofilm protection of bacterial pathogens\n- [[antimicrobial-resistance]] — pan-resistant strains documented; critical-priority WHO pathogen\n- [[iron]] — iron acquisition via siderophore-like metallophores essential for virulence\n- [[zinc]] — zincophore system, calprotectin competition\n- [[copper]] — required cofactor and host defence toxin (dual role)\n- [[calprotectin]] — host sequestration target *C. auris* must overcome\n- [[lactoferrin]] — iron-sequestration host defence; proposed adjunct therapy\n- [[gallium]] — Fe3+ mimic under investigation against *C. auris*\n- [[nutritional-immunity]] — framework explaining why *C. auris* evolved broad metal competence\n- [[staphylococcus-aureus]] — biofilm co-coloniser on skin and catheters"
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-candidozyma-auris",
+        "index-fungorum-candidozyma-auris",
+        "liu-2024-candidozyma-auris-reclassification",
+        "satoh-2009-candida-auris-original-description",
+        "nutritional-immunity",
+        "calprotectin",
+        "transferrin",
+        "lactoferrin",
+        "ceruloplasmin",
+        "alves-2020-candida-adapting-survive-host-constraints",
+        "iron",
+        "lachnospiraceae",
+        "bifidobacterium",
+        "candida-albicans",
+        "staphylococcus-aureus",
+        "functional-shielding",
+        "metal-chelation-therapy",
+        "gallium",
+        "enterococcus-faecium",
+        "escherichia-coli",
+        "candida-tropicalis",
+        "mycobiome",
+        "biofilm",
+        "antimicrobial-resistance",
+        "zinc",
+        "copper"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 7,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "candida-tropicalis",
+        "nakaseomyces-glabratus",
+        "functional-shielding",
+        "superoxide-dismutase"
+      ],
+      "related": [
+        {
+          "id": "nakaseomyces-glabratus",
+          "score": 10
+        },
+        {
+          "id": "acinetobacter",
+          "score": 5
+        },
+        {
+          "id": "aspergillus",
+          "score": 5
+        },
+        {
+          "id": "fusobacterium-nucleatum",
+          "score": 5
+        },
+        {
+          "id": "penicillium",
+          "score": 5
+        },
+        {
+          "id": "porphyromonas-gingivalis",
+          "score": 5
+        },
+        {
+          "id": "pseudomonas-aeruginosa",
+          "score": 5
+        },
+        {
+          "id": "saccharomyces-boulardii",
+          "score": 5
         }
       ]
     },
@@ -19224,9 +19054,8 @@
         "bipolar-disorder",
         "breast-cancer",
         "candida-albicans",
-        "candida-auris",
-        "candida-glabrata",
         "candida-tropicalis",
+        "candidozyma-auris",
         "cardiovascular-disease",
         "cholestasis",
         "chromium",
@@ -19249,6 +19078,7 @@
         "methanobrevibacter",
         "molybdenum",
         "mycobacterium-tuberculosis",
+        "nakaseomyces-glabratus",
         "nickel",
         "pancreatic-cancer",
         "parkinsons-disease",
@@ -24837,7 +24667,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "candida-auris",
+        "candidozyma-auris",
         "metal-resistance-genes",
         "broken-links-2026-04-16"
       ],
@@ -25741,8 +25571,8 @@
         "adherent-invasive-e-coli",
         "alzheimers-disease",
         "bismuth",
-        "candida-auris",
         "candida-tropicalis",
+        "candidozyma-auris",
         "celiac-disease",
         "clostridium-perfringens",
         "clostridium-symbiosum",
@@ -29691,7 +29521,7 @@
       "isStub": false,
       "backlinks": [
         "bismuth",
-        "candida-auris",
+        "candidozyma-auris",
         "cystic-fibrosis",
         "iron",
         "proteobacteria",
@@ -35661,9 +35491,8 @@
         "campylobacter-jejuni",
         "campylobacter",
         "candida-albicans",
-        "candida-auris",
-        "candida-glabrata",
         "candida-tropicalis",
+        "candidozyma-auris",
         "cardiovascular-disease",
         "caulobacter",
         "celiac-disease",
@@ -35743,6 +35572,7 @@
         "morganella-morganii",
         "multiple-sclerosis",
         "mycobacterium-tuberculosis",
+        "nakaseomyces-glabratus",
         "necrotizing-enterocolitis",
         "neisseria-meningitidis",
         "nickel",
@@ -37349,7 +37179,7 @@
         "anaerostipes",
         "blautia",
         "butyrivibrio",
-        "candida-auris",
+        "candidozyma-auris",
         "celiac-disease",
         "chronic-kidney-disease",
         "clostridia",
@@ -45166,6 +44996,215 @@
       ]
     },
     {
+      "id": "nakaseomyces-glabratus",
+      "title": "Nakaseomyces glabratus",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "fungal-pathogen",
+        "azole-resistant",
+        "iron-dependent",
+        "haploid",
+        "Nakaseomyces",
+        "Candida-glabrata-historical-name",
+        "nosocomial",
+        "type-2-diabetes",
+        "mycobiome",
+        "iron-chelation-target"
+      ],
+      "sources": [
+        "ncbi-taxonomy-nakaseomyces-glabratus",
+        "index-fungorum-nakaseomyces-glabratus",
+        "takashima-sugita-2022-nakaseomyces-glabratus-transfer",
+        "anderson-1917-cryptococcus-glabratus-original-description",
+        "corrales-2024-iron-chelating-antifungal-collismycin-candida",
+        "alves-2020-candida-adapting-survive-host-constraints",
+        "al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber"
+      ],
+      "created": "2026-04-18T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Nakaseomyces glabratus",
+        "type": "entity",
+        "subtype": "fungus",
+        "created": "2026-04-18T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "ncbi-taxonomy-nakaseomyces-glabratus",
+          "index-fungorum-nakaseomyces-glabratus",
+          "takashima-sugita-2022-nakaseomyces-glabratus-transfer",
+          "anderson-1917-cryptococcus-glabratus-original-description",
+          "corrales-2024-iron-chelating-antifungal-collismycin-candida",
+          "alves-2020-candida-adapting-survive-host-constraints",
+          "al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber"
+        ],
+        "source_count": 7,
+        "tags": [
+          "fungal-pathogen",
+          "azole-resistant",
+          "iron-dependent",
+          "haploid",
+          "Nakaseomyces",
+          "Candida-glabrata-historical-name",
+          "nosocomial",
+          "type-2-diabetes",
+          "mycobiome",
+          "iron-chelation-target"
+        ],
+        "seo_target": "Nakaseomyces glabratus taxonomy NCBITaxon 5478 Candida glabrata",
+        "wikipedia_differentiation": "Current Nakaseomyces glabratus identity reconciled with the Candida glabrata homotypic synonym and Cryptococcus glabratus basionym, with historical study labels retained",
+        "platform": "wikibiome",
+        "gram_stain": "N/A",
+        "oxygen_requirement": "facultative anaerobe",
+        "metal_dependencies": [
+          "iron",
+          "copper",
+          "zinc"
+        ],
+        "key_enzymes": [
+          "Aft1-iron-regulon",
+          "iron-sulfur-cluster-enzymes",
+          "heme-oxygenase-HMX1",
+          "thioredoxin-TRR1"
+        ],
+        "pathogenic_potential": "opportunistic",
+        "conditions_enriched_in": [
+          "candidemia",
+          "vulvovaginal-candidiasis",
+          "type-2-diabetes",
+          "immunocompromised-infections"
+        ],
+        "conditions_depleted_in": [],
+        "ncbi_taxonomy_id": 5478,
+        "mycobank_registration_id": 843854,
+        "index_fungorum_registration_id": 416322,
+        "historical_names": [
+          "Candida glabrata",
+          "Torulopsis glabrata",
+          "Cryptococcus glabratus"
+        ]
+      },
+      "overview": "*Nakaseomyces glabratus* is the current name for NCBITaxon:5478. Takashima and Sugita established the current combination in 2022 as MycoBank MB 843854; *Candida glabrata* is a homotypic synonym and former combination, while *Cryptococcus glabratus* H.W. Anderson 1917 is the basionym [[ncbi-taxonomy-nakaseomyces-glabratus]] [[index-fungorum-nakaseomyces-glabratus]] [[takashima-sugita-2022-nakaseomyces-glabratus-transfer]]. Anderson's original description introduced the organism from the human intestinal tract, and the nomenclatural records connect its type material to current strain deposits including CBS 138 and ATCC 2001 [[anderson-1917-cryptococcus-glabratus-original-description]].\n\nThe clinical and experimental sources summarized below mostly use *Candida glabrata* or *C. glabrata*. WikiBiome preserves those historical study labels rather than silently rewriting them. They refer to this same nomenclatural species unless a source identifies a different organism; they do not establish a second canonical taxon.",
+      "sections": [
+        {
+          "heading": "Metal Dependencies",
+          "level": 2,
+          "body": ""
+        },
+        {
+          "heading": "Iron: The Central Vulnerability",
+          "level": 3,
+          "body": "[[iron|Iron]] is essential for *C. glabrata* mitochondrial function, iron-sulfur cluster assembly, and heme biosynthesis. Selective iron chelation by NR-6226C (a collismycin A analog derived from *Streptomyces*) potently inhibits both wild-type and drug-resistant *C. glabrata* with a favorable therapeutic window: EC50 of approximately 3 uM against Candida versus 37-29 uM against human cell lines ([[corrales-2024-iron-chelating-antifungal-collismycin-candida]], in-vitro).\n\nTranscriptomic analysis of *C. glabrata* treated with NR-6226C revealed an iron starvation response: 224 genes upregulated and 220 downregulated within one hour. Upregulated genes included TRR1 (thioredoxin), HMX1 (heme oxygenase), and iron import genes. Critically, iron-sulfur cluster enzyme genes were downregulated -- SDH2 (succinate dehydrogenase), ACO1/2 (aconitase), and ISA1 (Fe-S assembly) -- indicating severe mitochondrial iron depletion."
+        },
+        {
+          "heading": "Copper and Zinc: Mis-metallation Compensation",
+          "level": 3,
+          "body": "A remarkable finding: [[copper]] and [[zinc]] ions ameliorate iron chelation effects on *C. glabrata* despite not being bound by the chelating compound ([[corrales-2024-iron-chelating-antifungal-collismycin-candida]], in-vitro). The proposed mechanism is [[mis-metallation]] -- Cu2+ and Zn2+ bind to iron-dependent proteins, triggering a compensatory iron uptake response that partially overcomes chelation. This provides direct evidence that metal competition at protein binding sites has functional consequences for fungal survival."
+        },
+        {
+          "heading": "Key Enzymes and Virulence Factors",
+          "level": 2,
+          "body": "| System | Metal | Function |\n|---|---|---|\n| Aft1 transcription factor | Iron sensor | Master regulator of iron starvation response |\n| Iron-sulfur cluster enzymes (SDH2, ACO1/2) | Iron | Mitochondrial respiration and TCA cycle |\n| HMX1 (heme oxygenase) | Iron | Heme degradation for iron recycling |\n| TRR1 (thioredoxin) | -- | Oxidative stress defense under iron starvation |\n| ISA1 (Fe-S assembly) | Iron | Iron-sulfur cluster biogenesis |"
+        },
+        {
+          "heading": "Ecological Role",
+          "level": 2,
+          "body": ""
+        },
+        {
+          "heading": "Immune Evasion Through Metabolite Sensing",
+          "level": 3,
+          "body": "Like *C. albicans*, *C. glabrata* modulates its visibility to the immune system based on the metabolic environment. Lactate triggers beta-glucan masking (hiding from immune detection), while short-chain fatty acids (butyrate, acetate) cause unmasking ([[alves-2020-candida-adapting-survive-host-constraints]], expert-opinion). This means the metabolic balance of the gut environment directly determines whether *C. glabrata* is visible to immune surveillance -- a dysbiotic, lactate-rich, butyrate-poor environment favors fungal stealth."
+        },
+        {
+          "heading": "In the Mycobiome of Type 2 Diabetes",
+          "level": 3,
+          "body": "*C. glabrata* is detectable in the gut mycobiome of both healthy controls and type 2 diabetes patients ([[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]], case-control, n=41). A key finding from this study: in T2DM, the mycobiome explains most of the microbiome variance (12.5%) while bacteria explain only 10.4% -- a reversal of the normal pattern where bacteria dominate (64.2%). This suggests fungi including *C. glabrata* become primary ecological drivers in diabetic dysbiosis."
+        },
+        {
+          "heading": "Fluconazole Synergy",
+          "level": 3,
+          "body": "NR-6226C synergizes strongly with fluconazole against *C. albicans* and related species, providing a potential combination therapy that may prevent azole resistance ([[corrales-2024-iron-chelating-antifungal-collismycin-candida]], in-vitro). In a *Galleria mellonella* infection model, NR-6226C significantly increased survival of Candida-infected larvae."
+        },
+        {
+          "heading": "Conditions Associated",
+          "level": 2,
+          "body": "- Candidemia -- Second most common cause after *C. albicans*; increasing in nosocomial settings\n- Vulvovaginal candidiasis -- Common cause, particularly of azole-resistant recurrent infections\n- Type 2 diabetes -- Part of the disease-associated mycobiome; mycobiome variance dominance in T2DM\n- Immunocompromised infections -- Increasing prevalence in transplant recipients, ICU patients, and elderly populations\n- Urinary tract infections -- Growing cause of catheter-associated fungal UTIs"
+        },
+        {
+          "heading": "Key Studies",
+          "level": 2,
+          "body": "- [[corrales-2024-iron-chelating-antifungal-collismycin-candida]] (in-vitro) -- Demonstrates selective iron chelation as potent antifungal strategy against *C. glabrata*; reveals Cu2+/Zn2+ mis-metallation compensation; documents fluconazole synergy and transcriptomic iron starvation response.\n- [[alves-2020-candida-adapting-survive-host-constraints]] (expert-opinion) -- Reviews lactate/butyrate masking-unmasking immune evasion and metabolic adaptation across Candida species including *C. glabrata*.\n- [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]] (case-control, n=41) -- Multi-omics study documenting *C. glabrata* in T2DM mycobiome and the reversal of bacteria-fungi variance dominance in diabetes."
+        },
+        {
+          "heading": "Cross-References",
+          "level": 2,
+          "body": "- [[candida-albicans]] -- Primary Candida pathogen; shares iron dependency and immune evasion strategies\n- [[candidozyma-auris]] -- Current-name record for the historically named *Candida auris*\n- [[iron]] -- Central metabolic dependency; iron chelation as therapeutic strategy\n- [[mis-metallation]] -- Cu2+/Zn2+ compensation for iron chelation via protein mis-metallation\n- [[butyrate]] -- Triggers immune unmasking of Candida; ecological lever for anti-fungal defense\n- [[antimicrobial-resistance]] -- Intrinsic fluconazole resistance; iron chelation as alternative strategy\n- [[type-2-diabetes]] -- Mycobiome-dominant variance signature in T2DM"
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-nakaseomyces-glabratus",
+        "index-fungorum-nakaseomyces-glabratus",
+        "takashima-sugita-2022-nakaseomyces-glabratus-transfer",
+        "anderson-1917-cryptococcus-glabratus-original-description",
+        "iron",
+        "corrales-2024-iron-chelating-antifungal-collismycin-candida",
+        "copper",
+        "zinc",
+        "mis-metallation",
+        "alves-2020-candida-adapting-survive-host-constraints",
+        "al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber",
+        "candida-albicans",
+        "candidozyma-auris",
+        "butyrate",
+        "antimicrobial-resistance",
+        "type-2-diabetes"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 7,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "candida-tropicalis"
+      ],
+      "related": [
+        {
+          "id": "candida-tropicalis",
+          "score": 9
+        },
+        {
+          "id": "aspergillus",
+          "score": 5
+        },
+        {
+          "id": "enterobacter",
+          "score": 5
+        },
+        {
+          "id": "serratia-marcescens",
+          "score": 5
+        },
+        {
+          "id": "acidaminococcus",
+          "score": 4
+        },
+        {
+          "id": "phocaeicola",
+          "score": 4
+        },
+        {
+          "id": "trichosporon-asahii",
+          "score": 4
+        },
+        {
+          "id": "mycobiome",
+          "score": 4
+        }
+      ]
+    },
+    {
       "id": "necrotizing-enterocolitis",
       "title": "Necrotizing Enterocolitis",
       "type": "entity",
@@ -51082,11 +51121,11 @@
           "score": 5
         },
         {
-          "id": "candida-auris",
+          "id": "candida-tropicalis",
           "score": 5
         },
         {
-          "id": "candida-tropicalis",
+          "id": "candidozyma-auris",
           "score": 5
         }
       ]
@@ -52244,7 +52283,7 @@
           "score": 6
         },
         {
-          "id": "candida-glabrata",
+          "id": "endometriosis",
           "score": 6
         }
       ]
@@ -61174,10 +61213,6 @@
           "score": 8
         },
         {
-          "id": "candida-glabrata",
-          "score": 7
-        },
-        {
           "id": "citrobacter",
           "score": 6
         },
@@ -61191,6 +61226,10 @@
         },
         {
           "id": "morganella-morganii",
+          "score": 6
+        },
+        {
+          "id": "proteus-mirabilis",
           "score": 6
         }
       ]
@@ -62472,7 +62511,7 @@
         "aspergillus",
         "bacillus",
         "brucella",
-        "candida-auris",
+        "candidozyma-auris",
         "cobalt",
         "copper",
         "enterococcus",
@@ -65965,10 +66004,6 @@
           "score": 7
         },
         {
-          "id": "candida-glabrata",
-          "score": 6
-        },
-        {
           "id": "fusicatenibacter",
           "score": 6
         },
@@ -65986,6 +66021,10 @@
         },
         {
           "id": "enterobacter",
+          "score": 5
+        },
+        {
+          "id": "gastric-adenocarcinoma",
           "score": 5
         }
       ]
@@ -66886,7 +66925,6 @@
         "bifidobacterium-adolescentis",
         "bipolar-disorder",
         "breast-cancer",
-        "candida-glabrata",
         "cardiovascular-disease",
         "chronic-kidney-disease",
         "collinsella",
@@ -66898,6 +66936,7 @@
         "erectile-dysfunction",
         "gestational-diabetes",
         "metformin",
+        "nakaseomyces-glabratus",
         "non-alcoholic-fatty-liver-disease",
         "obesity",
         "pancreatitis",
@@ -69153,9 +69192,8 @@
         "breast-cancer",
         "cadmium",
         "candida-albicans",
-        "candida-auris",
-        "candida-glabrata",
         "candida-tropicalis",
+        "candidozyma-auris",
         "celiac-disease",
         "chromium",
         "chronic-kidney-disease",
@@ -69184,6 +69222,7 @@
         "mercury",
         "methanobrevibacter",
         "multiple-sclerosis",
+        "nakaseomyces-glabratus",
         "necrotizing-enterocolitis",
         "neisseria-meningitidis",
         "nickel",
@@ -71350,8 +71389,7 @@
         "acinetobacter",
         "arsenic",
         "bismuth",
-        "candida-auris",
-        "candida-glabrata",
+        "candidozyma-auris",
         "chromium",
         "copper",
         "enterobacter-cloacae",
@@ -71363,6 +71401,7 @@
         "klebsiella-pneumoniae",
         "klebsiella",
         "mercury",
+        "nakaseomyces-glabratus",
         "parvimonas",
         "proteobacteria",
         "ralstonia",
@@ -74260,8 +74299,8 @@
         "adherent-invasive-e-coli",
         "aeromonas",
         "bismuth",
-        "candida-auris",
         "candida-tropicalis",
+        "candidozyma-auris",
         "caulobacter",
         "chromium",
         "cystic-fibrosis",
@@ -74863,7 +74902,6 @@
         "anaerostipes",
         "anxiety",
         "butyricicoccus",
-        "candida-glabrata",
         "celiac-disease",
         "chronic-fatigue-syndrome",
         "clostridia",
@@ -74886,6 +74924,7 @@
         "lachnoclostridium",
         "lachnospiraceae-family",
         "megasphaera",
+        "nakaseomyces-glabratus",
         "oscillibacter",
         "oscillospiraceae",
         "oscillospirales",
@@ -75236,7 +75275,7 @@
         "acinetobacter-baumannii",
         "bacteroides-fragilis",
         "calcium",
-        "candida-auris",
+        "candidozyma-auris",
         "clostridioides-difficile",
         "crohns-disease",
         "ibs",
@@ -75721,7 +75760,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "candida-auris",
+        "candidozyma-auris",
         "amyloid-beta-aggregation",
         "copper-dysregulation",
         "ferritin",
@@ -84732,7 +84771,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[inter-kingdom-metal-shielding]] — Metal-mediated cooperative defense in polymicrobial biofilms\n- [[biofilm]] — The structural context enabling shielding\n- [[candida-albicans]] — Primary fungal shielder; hyphal form provides scaffold\n- [[porphyromonas-gingivalis]] — Paradigm case of bacterial beneficiary\n- [[staphylococcus-aureus]] — Second major bacterial partner; reciprocal virulence masking\n- [[candida-tropicalis]], [[candida-auris]] — Alternative fungal partners\n- [[fusobacterium-nucleatum]] — Bridge organism enabling co-aggregation networks\n- [[calprotectin]] — Host zinc/Mn sequestration may paradoxically strengthen biofilms\n- [[nutritional-immunity]] — Metal restriction as failed antimicrobial strategy in polymicrobial context\n- [[gingipains]] — Zinc-dependent virulence proteases amplified by fungal shielding"
+          "body": "- [[inter-kingdom-metal-shielding]] — Metal-mediated cooperative defense in polymicrobial biofilms\n- [[biofilm]] — The structural context enabling shielding\n- [[candida-albicans]] — Primary fungal shielder; hyphal form provides scaffold\n- [[porphyromonas-gingivalis]] — Paradigm case of bacterial beneficiary\n- [[staphylococcus-aureus]] — Second major bacterial partner; reciprocal virulence masking\n- [[candida-tropicalis]], [[candidozyma-auris]] — Alternative fungal partners\n- [[fusobacterium-nucleatum]] — Bridge organism enabling co-aggregation networks\n- [[calprotectin]] — Host zinc/Mn sequestration may paradoxically strengthen biofilms\n- [[nutritional-immunity]] — Metal restriction as failed antimicrobial strategy in polymicrobial context\n- [[gingipains]] — Zinc-dependent virulence proteases amplified by fungal shielding"
         }
       ],
       "wikilinks": [
@@ -84752,7 +84791,7 @@
         "candida-albicans",
         "staphylococcus-aureus",
         "candida-tropicalis",
-        "candida-auris",
+        "candidozyma-auris",
         "nutritional-immunity",
         "gingipains"
       ],
@@ -84763,8 +84802,8 @@
       "isStub": false,
       "backlinks": [
         "bacteroides-thetaiotaomicron",
-        "candida-auris",
         "candida-tropicalis",
+        "candidozyma-auris",
         "cystic-fibrosis",
         "periodontitis",
         "porphyromonas-gingivalis",
@@ -95143,7 +95182,7 @@
         "aspergillus",
         "atopobium",
         "bismuth",
-        "candida-auris",
+        "candidozyma-auris",
         "corynebacterium",
         "cystic-fibrosis",
         "enterobacter-cloacae",
@@ -97637,7 +97676,7 @@
       "isStub": false,
       "backlinks": [
         "cadmium",
-        "candida-auris",
+        "candidozyma-auris",
         "iron",
         "mercury",
         "chelation-therapy",
@@ -101194,7 +101233,6 @@
         "borrelia",
         "cadmium",
         "calcium",
-        "candida-glabrata",
         "caulobacter",
         "chromium",
         "copper",
@@ -101205,6 +101243,7 @@
         "lead",
         "magnesium",
         "manganese",
+        "nakaseomyces-glabratus",
         "neisseria-meningitidis",
         "nickel",
         "parkinsons-disease",
@@ -101789,8 +101828,8 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "candida-auris",
         "candida-tropicalis",
+        "candidozyma-auris",
         "davidiella",
         "mortierella",
         "penicillium",
@@ -104321,7 +104360,7 @@
         "calcium",
         "campylobacter-jejuni",
         "candida-albicans",
-        "candida-auris",
+        "candidozyma-auris",
         "chlamydia-trachomatis",
         "chlamydia",
         "chronic-fatigue-syndrome",
@@ -112095,7 +112134,7 @@
         {
           "heading": "Key Pathogen SOD Systems",
           "level": 3,
-          "body": "- [[staphylococcus-aureus]]: Expresses both SodA (Mn-dependent) and SodM (cambialistic, Mn or Fe). Under calprotectin-mediated Mn starvation, *S. aureus* deploys the RsaC sRNA to deliberately suppress SodA, sparing Mn for other essential processes. SodM provides backup antioxidant defense using Fe when Mn is unavailable [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]], [[cassat-2012-metal-acquisition-staphylococcus-aureus]].\n- [[streptococcus-pneumoniae]]: Mn-dependent SodA is the primary antioxidant. Zinc can displace manganese from SodA via the [[irving-williams-series]], inactivating the enzyme -- this is how zinc intoxication by macrophages kills pneumococci [[de-lay-2024-ccn-srnas-zinc-resistance-pneumococcus-virulence]].\n- [[streptococcus-agalactiae]] (GBS): Mn-dependent SodA; zinc displaces Mn from SodA as a host defense mechanism [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]].\n- [[candida-albicans]]: Cu-SOD (Sod1) is critical for surviving the phagosomal oxidative burst.\n- [[candida-auris]]: Cu/Zn-SOD (Sod1) in key virulence enzymes.\n- [[pseudomonas-aeruginosa]]: Both MnSOD and Cu/Zn-SOD; Fe-SOD (SodB) regulated by PrrF sRNAs under iron limitation [[ouattara-2025-prrf-srnas-brnd-iron-peroxide-pseudomonas]].\n- [[salmonella-typhimurium]]: SodCI (Cu/Zn-SOD) is a periplasmic virulence factor essential for intracellular survival.\n- [[porphyromonas-gingivalis]]: Mn-SOD critical for survival in the inflammatory periodontal environment.\n- [[fusobacterium-nucleatum]]: Mn-SOD critical for survival in the inflamed tumor microenvironment.\n- [[neisseria-meningitidis]]: MnSOD protects against neutrophil oxidative burst."
+          "body": "- [[staphylococcus-aureus]]: Expresses both SodA (Mn-dependent) and SodM (cambialistic, Mn or Fe). Under calprotectin-mediated Mn starvation, *S. aureus* deploys the RsaC sRNA to deliberately suppress SodA, sparing Mn for other essential processes. SodM provides backup antioxidant defense using Fe when Mn is unavailable [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]], [[cassat-2012-metal-acquisition-staphylococcus-aureus]].\n- [[streptococcus-pneumoniae]]: Mn-dependent SodA is the primary antioxidant. Zinc can displace manganese from SodA via the [[irving-williams-series]], inactivating the enzyme -- this is how zinc intoxication by macrophages kills pneumococci [[de-lay-2024-ccn-srnas-zinc-resistance-pneumococcus-virulence]].\n- [[streptococcus-agalactiae]] (GBS): Mn-dependent SodA; zinc displaces Mn from SodA as a host defense mechanism [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]].\n- [[candida-albicans]]: Cu-SOD (Sod1) is critical for surviving the phagosomal oxidative burst.\n- [[candidozyma-auris]]: Cu/Zn-SOD (Sod1) in key virulence enzymes.\n- [[pseudomonas-aeruginosa]]: Both MnSOD and Cu/Zn-SOD; Fe-SOD (SodB) regulated by PrrF sRNAs under iron limitation [[ouattara-2025-prrf-srnas-brnd-iron-peroxide-pseudomonas]].\n- [[salmonella-typhimurium]]: SodCI (Cu/Zn-SOD) is a periplasmic virulence factor essential for intracellular survival.\n- [[porphyromonas-gingivalis]]: Mn-SOD critical for survival in the inflammatory periodontal environment.\n- [[fusobacterium-nucleatum]]: Mn-SOD critical for survival in the inflamed tumor microenvironment.\n- [[neisseria-meningitidis]]: MnSOD protects against neutrophil oxidative burst."
         },
         {
           "heading": "The Metal-Free Alternative: Borrelia burgdorferi",
@@ -112140,7 +112179,7 @@
         "streptococcus-agalactiae",
         "goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros",
         "candida-albicans",
-        "candida-auris",
+        "candidozyma-auris",
         "pseudomonas-aeruginosa",
         "salmonella-typhimurium",
         "porphyromonas-gingivalis",
@@ -114868,7 +114907,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "candida-auris",
+        "candidozyma-auris",
         "cystic-fibrosis",
         "enterobacter-cloacae",
         "serratia-marcescens",
@@ -130738,7 +130777,6 @@
         "bifidobacterium-adolescentis",
         "bipolar-disorder",
         "breast-cancer",
-        "candida-glabrata",
         "cardiovascular-disease",
         "chronic-kidney-disease",
         "collinsella",
@@ -130750,6 +130788,7 @@
         "erectile-dysfunction",
         "gestational-diabetes",
         "metformin",
+        "nakaseomyces-glabratus",
         "non-alcoholic-fatty-liver-disease",
         "obesity",
         "pancreatitis",
@@ -157744,7 +157783,7 @@
         "targets": {
           "taxa": [
             "candida-albicans",
-            "candida-glabrata"
+            "nakaseomyces-glabratus"
           ],
           "enzymes": [
             "SAP-proteases",
@@ -181177,22 +181216,16 @@
         "sourceCount": 13
       },
       {
-        "id": "candida-auris",
-        "label": "Candida auris",
-        "category": "microbe",
-        "sourceCount": 3
-      },
-      {
-        "id": "candida-glabrata",
-        "label": "Candida glabrata",
-        "category": "microbe",
-        "sourceCount": 3
-      },
-      {
         "id": "candida-tropicalis",
         "label": "Candida tropicalis",
         "category": "microbe",
         "sourceCount": 5
+      },
+      {
+        "id": "candidozyma-auris",
+        "label": "Candidozyma auris",
+        "category": "microbe",
+        "sourceCount": 7
       },
       {
         "id": "cardiovascular-disease",
@@ -182099,6 +182132,12 @@
         "label": "Mycoplasma",
         "category": "microbe",
         "sourceCount": 6
+      },
+      {
+        "id": "nakaseomyces-glabratus",
+        "label": "Nakaseomyces glabratus",
+        "category": "microbe",
+        "sourceCount": 7
       },
       {
         "id": "necrotizing-enterocolitis",
@@ -188557,126 +188596,6 @@
         "target": "proteus-mirabilis"
       },
       {
-        "source": "candida-auris",
-        "target": "nutritional-immunity"
-      },
-      {
-        "source": "candida-auris",
-        "target": "calprotectin"
-      },
-      {
-        "source": "candida-auris",
-        "target": "transferrin"
-      },
-      {
-        "source": "candida-auris",
-        "target": "lactoferrin"
-      },
-      {
-        "source": "candida-auris",
-        "target": "ceruloplasmin"
-      },
-      {
-        "source": "candida-auris",
-        "target": "iron"
-      },
-      {
-        "source": "candida-auris",
-        "target": "lachnospiraceae"
-      },
-      {
-        "source": "candida-auris",
-        "target": "bifidobacterium"
-      },
-      {
-        "source": "candida-auris",
-        "target": "candida-albicans"
-      },
-      {
-        "source": "candida-auris",
-        "target": "staphylococcus-aureus"
-      },
-      {
-        "source": "candida-auris",
-        "target": "functional-shielding"
-      },
-      {
-        "source": "candida-auris",
-        "target": "metal-chelation-therapy"
-      },
-      {
-        "source": "candida-auris",
-        "target": "gallium"
-      },
-      {
-        "source": "candida-auris",
-        "target": "enterococcus-faecium"
-      },
-      {
-        "source": "candida-auris",
-        "target": "escherichia-coli"
-      },
-      {
-        "source": "candida-auris",
-        "target": "candida-tropicalis"
-      },
-      {
-        "source": "candida-auris",
-        "target": "mycobiome"
-      },
-      {
-        "source": "candida-auris",
-        "target": "biofilm"
-      },
-      {
-        "source": "candida-auris",
-        "target": "antimicrobial-resistance"
-      },
-      {
-        "source": "candida-auris",
-        "target": "zinc"
-      },
-      {
-        "source": "candida-auris",
-        "target": "copper"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "iron"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "copper"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "zinc"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "mis-metallation"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "candida-albicans"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "candida-auris"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "butyrate"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "antimicrobial-resistance"
-      },
-      {
-        "source": "candida-glabrata",
-        "target": "type-2-diabetes"
-      },
-      {
         "source": "candida-tropicalis",
         "target": "functional-shielding"
       },
@@ -188686,7 +188605,11 @@
       },
       {
         "source": "candida-tropicalis",
-        "target": "candida-glabrata"
+        "target": "candidozyma-auris"
+      },
+      {
+        "source": "candida-tropicalis",
+        "target": "nakaseomyces-glabratus"
       },
       {
         "source": "candida-tropicalis",
@@ -188726,6 +188649,86 @@
       },
       {
         "source": "candida-tropicalis",
+        "target": "copper"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "nutritional-immunity"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "calprotectin"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "transferrin"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "lactoferrin"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "ceruloplasmin"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "iron"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "lachnospiraceae"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "bifidobacterium"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "candida-albicans"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "staphylococcus-aureus"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "functional-shielding"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "metal-chelation-therapy"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "gallium"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "enterococcus-faecium"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "escherichia-coli"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "mycobiome"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "biofilm"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "antimicrobial-resistance"
+      },
+      {
+        "source": "candidozyma-auris",
+        "target": "zinc"
+      },
+      {
+        "source": "candidozyma-auris",
         "target": "copper"
       },
       {
@@ -194711,6 +194714,42 @@
       {
         "source": "mycoplasma",
         "target": "propionic-acid"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "iron"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "copper"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "zinc"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "mis-metallation"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "candida-albicans"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "candidozyma-auris"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "butyrate"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "antimicrobial-resistance"
+      },
+      {
+        "source": "nakaseomyces-glabratus",
+        "target": "type-2-diabetes"
       },
       {
         "source": "necrotizing-enterocolitis",
@@ -208106,7 +208145,7 @@
       },
       {
         "source": "superoxide-dismutase",
-        "target": "candida-auris"
+        "target": "candidozyma-auris"
       },
       {
         "source": "superoxide-dismutase",
@@ -215946,10 +215985,6 @@
       },
       {
         "source": "broken-links-2026-04-16",
-        "target": "candida-glabrata"
-      },
-      {
-        "source": "broken-links-2026-04-16",
         "target": "serratia-marcescens"
       },
       {
@@ -216942,10 +216977,6 @@
       },
       {
         "source": "gaps-and-improvements-2026-04-13",
-        "target": "candida-auris"
-      },
-      {
-        "source": "gaps-and-improvements-2026-04-13",
         "target": "candida-tropicalis"
       },
       {
@@ -217174,10 +217205,6 @@
       },
       {
         "source": "lint-report-2026-04-12",
-        "target": "candida-auris"
-      },
-      {
-        "source": "lint-report-2026-04-12",
         "target": "candida-tropicalis"
       },
       {
@@ -217231,10 +217258,6 @@
       {
         "source": "lint-report-2026-04-13",
         "target": "bacteroides-thetaiotaomicron"
-      },
-      {
-        "source": "lint-report-2026-04-13",
-        "target": "candida-auris"
       },
       {
         "source": "lint-report-2026-04-13",
@@ -407723,6 +407746,18 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "anderson-1917-cryptococcus-glabratus-original-description": {
+      "title": "Anderson 1917 — Yeast-Like Fungi of the Human Intestinal Tract",
+      "authors": [
+        "Harry Warren Anderson"
+      ],
+      "year": 1917,
+      "journal": "The Journal of Infectious Diseases",
+      "doi": "10.1093/infdis/21.4.341",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "andrei-2020-copper-homeostasis-bacteria-ins-outs": {
       "title": "Andrei 2020 — Cu Homeostasis in Bacteria: The Ins and Outs",
       "authors": [
@@ -418249,6 +418284,26 @@
       ],
       "why_keystone": "Establishes that metals (Hg, Pb, Cu, Zn, Cd, Ni, Cr) directly co-select antibiotic resistance genes through shared resistance mechanisms—efflux pumps, biofilm formation, metallothionein—and shows microplastics as physical vectors concentrating metals and facilitating horizontal gene transfer. WikiBiome depends on this evidence to explain why metal-driven dysbiosis inevitably selects for multidrug-resistant organisms and why nutritional immunity (metal restriction) alone is insufficient without addressing biofilm architecture."
     },
+    "index-fungorum-candidozyma-auris": {
+      "title": "Index Fungorum — Candidozyma auris",
+      "authors": [],
+      "year": "",
+      "journal": "Index Fungorum",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "index-fungorum-nakaseomyces-glabratus": {
+      "title": "Index Fungorum — Nakaseomyces glabratus",
+      "authors": [],
+      "year": "",
+      "journal": "Index Fungorum",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "irfan-2017-comparative-heavy-metals-ra": {
       "title": "Comparative Evaluation of Heavy Metals in Patients with Rheumatoid Arthritis and Healthy Control in Pakistani Population",
       "authors": [
@@ -422538,6 +422593,29 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "liu-2024-candidozyma-auris-reclassification": {
+      "title": "Liu 2024 — Phylogenomic analysis and reclassification of the Candida auris-Candida haemuli clade",
+      "authors": [
+        "Fengyan Liu",
+        "Zhendong Hu",
+        "Xiaomei Zhao",
+        "Wenna Zhao",
+        "Zexin Feng",
+        "Andrey Yurkov",
+        "Saud Alwasel",
+        "Teun Boekhout",
+        "Konstanze Bensch",
+        "Fengli Hui",
+        "Fengyan Bai",
+        "Qiming Wang"
+      ],
+      "year": 2024,
+      "journal": "Persoonia",
+      "doi": "10.3767/persoonia.2024.52.02",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "liu-2024-causal-gut-microbiota-gerd-be-bidirectional-mr": {
       "title": "Investigating the causal relationship of gut microbiota with GERD and BE: a bidirectional mendelian randomization",
       "authors": [
@@ -425918,6 +425996,16 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "ncbi-taxonomy-candidozyma-auris": {
+      "title": "NCBI Taxonomy — Candidozyma auris (NCBITaxon:498019)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "ncbi-taxonomy-dialister-histaminiformans": {
       "title": "NCBI Taxonomy — Dialister histaminiformans (NCBITaxon:209880)",
       "authors": [],
@@ -425940,6 +426028,16 @@
     },
     "ncbi-taxonomy-lancefieldella-parvula": {
       "title": "NCBI Taxonomy — Lancefieldella parvula (NCBITaxon:1382)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-nakaseomyces-glabratus": {
+      "title": "NCBI Taxonomy — Nakaseomyces glabratus (NCBITaxon:5478)",
       "authors": [],
       "year": "",
       "journal": "NCBI Taxonomy",
@@ -430432,6 +430530,23 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "satoh-2009-candida-auris-original-description": {
+      "title": "Satoh 2009 — Candida auris sp. nov., original description",
+      "authors": [
+        "Kazuo Satoh",
+        "Koichi Makimura",
+        "Yayoi Hasumi",
+        "Yayoi Nishiyama",
+        "Katsuhisa Uchida",
+        "Hideyo Yamaguchi"
+      ],
+      "year": 2009,
+      "journal": "Microbiology and Immunology",
+      "doi": "10.1111/j.1348-0421.2008.00083.x",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "scfa-2020-dietary-fiber-t2d-gut-microbiome": {
       "title": "SCFA 2020 — Dietary Fiber and Short-Chain Fatty Acids in Type 2 Diabetes",
       "authors": [
@@ -432783,6 +432898,19 @@
       "year": 2025,
       "journal": "Frontiers in Microbiology",
       "doi": "10.3389/fmicb.2025.1648118",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "takashima-sugita-2022-nakaseomyces-glabratus-transfer": {
+      "title": "Takashima and Sugita 2022 — Transfer of Candida glabrata to Nakaseomyces glabratus",
+      "authors": [
+        "Masako Takashima",
+        "Takashi Sugita"
+      ],
+      "year": 2022,
+      "journal": "Medical Mycology Journal",
+      "doi": "10.3314/mmj.22.004",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

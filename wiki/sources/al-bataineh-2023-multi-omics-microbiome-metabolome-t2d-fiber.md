@@ -18,7 +18,7 @@ platform: cureva
 condition: "type-2-diabetes"
 karen_brain_primitives: [4, 5, 6]
 metals_discussed: []
-taxa_discussed: [phocaeicola, ligilactobacillus, mesosutterella, acidaminococcus, dorea, caecibacter, prevotella, malassezia-furfur, candida-albicans, candida-glabrata, candida-tropicalis, candida-parapsilosis, aspergillus, saccharomyces-cerevisiae, trichosporon, clavispora-lusitaniae, pseudozyma, basidiomycota, ascomycota]
+taxa_discussed: [phocaeicola, ligilactobacillus, mesosutterella, acidaminococcus, dorea, caecibacter, prevotella, malassezia-furfur, candida-albicans, nakaseomyces-glabratus, candida-tropicalis, candida-parapsilosis, aspergillus, saccharomyces-cerevisiae, trichosporon, clavispora-lusitaniae, pseudozyma, basidiomycota, ascomycota]
 key_findings:
   - "In T2DM patients, the mycobiome explained most of the variance (12.5%) while bacteria dominated variance in controls (64.2% vs 10.4%), reversing the typical bacteria-dominated microbiome signal"
   - "Dietary fiber intake strongly correlated with latent Factor1 (q<0.01); Propionate, U8, and 2-Hydroxybutyrate were significantly lower and 3-Hydroxyphenyl acetate higher in high-fiber vs low-fiber diets in controls"

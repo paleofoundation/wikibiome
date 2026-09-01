@@ -117,7 +117,7 @@ Co-aggregation is distinct from biofilm formation — it describes the initial s
 - [[candida-albicans]] — Primary fungal shielder; hyphal form provides scaffold
 - [[porphyromonas-gingivalis]] — Paradigm case of bacterial beneficiary
 - [[staphylococcus-aureus]] — Second major bacterial partner; reciprocal virulence masking
-- [[candida-tropicalis]], [[candida-auris]] — Alternative fungal partners
+- [[candida-tropicalis]], [[candidozyma-auris]] — Alternative fungal partners
 - [[fusobacterium-nucleatum]] — Bridge organism enabling co-aggregation networks
 - [[calprotectin]] — Host zinc/Mn sequestration may paradoxically strengthen biofilms
 - [[nutritional-immunity]] — Metal restriction as failed antimicrobial strategy in polymicrobial context

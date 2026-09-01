@@ -1,15 +1,15 @@
 ---
-title: Candida glabrata
+title: Nakaseomyces glabratus
 type: entity
 subtype: fungus
 created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [corrales-2024-iron-chelating-antifungal-collismycin-candida, alves-2020-candida-adapting-survive-host-constraints, al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]
-source_count: 3
-tags: [fungal-pathogen, azole-resistant, iron-dependent, haploid, Nakaseomyces, nosocomial, type-2-diabetes, mycobiome, iron-chelation-target]
-seo_target: "Candida glabrata iron chelation antifungal resistance"
-wikipedia_differentiation: "Iron chelation as antifungal strategy with NR-6226C compound data; Cu2+/Zn2+ mis-metallation compensating for iron chelation; mycobiome-dominant variance signal in type 2 diabetes; lactate/butyrate masking-unmasking immune evasion"
+updated: 2026-09-01
+last_substantive_update: 2026-09-01
+sources: [ncbi-taxonomy-nakaseomyces-glabratus, index-fungorum-nakaseomyces-glabratus, takashima-sugita-2022-nakaseomyces-glabratus-transfer, anderson-1917-cryptococcus-glabratus-original-description, corrales-2024-iron-chelating-antifungal-collismycin-candida, alves-2020-candida-adapting-survive-host-constraints, al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]
+source_count: 7
+tags: [fungal-pathogen, azole-resistant, iron-dependent, haploid, Nakaseomyces, Candida-glabrata-historical-name, nosocomial, type-2-diabetes, mycobiome, iron-chelation-target]
+seo_target: "Nakaseomyces glabratus taxonomy NCBITaxon 5478 Candida glabrata"
+wikipedia_differentiation: "Current Nakaseomyces glabratus identity reconciled with the Candida glabrata homotypic synonym and Cryptococcus glabratus basionym, with historical study labels retained"
 platform: wikibiome
 gram_stain: "N/A"
 oxygen_requirement: "facultative anaerobe"
@@ -18,11 +18,17 @@ key_enzymes: [Aft1-iron-regulon, iron-sulfur-cluster-enzymes, heme-oxygenase-HMX
 pathogenic_potential: opportunistic
 conditions_enriched_in: [candidemia, vulvovaginal-candidiasis, type-2-diabetes, immunocompromised-infections]
 conditions_depleted_in: []
+ncbi_taxonomy_id: 5478
+mycobank_registration_id: 843854
+index_fungorum_registration_id: 416322
+historical_names: [Candida glabrata, Torulopsis glabrata, Cryptococcus glabratus]
 ---
 
-# Candida glabrata
+# Nakaseomyces glabratus
 
-A haploid, asexual yeast and the second most common cause of invasive candidiasis after *Candida albicans*. Recently reclassified into the genus *Nakaseomyces* (as *N. glabratus*), though the name *C. glabrata* remains in widespread clinical use. Unlike *C. albicans*, *C. glabrata* does not form true hyphae and is more closely related to *Saccharomyces cerevisiae* than to other *Candida* species. Its clinical significance has risen sharply due to intrinsic resistance to fluconazole and increasing prevalence in nosocomial infections -- features that make its iron dependency a particularly attractive therapeutic target.
+*Nakaseomyces glabratus* is the current name for NCBITaxon:5478. Takashima and Sugita established the current combination in 2022 as MycoBank MB 843854; *Candida glabrata* is a homotypic synonym and former combination, while *Cryptococcus glabratus* H.W. Anderson 1917 is the basionym [[ncbi-taxonomy-nakaseomyces-glabratus]] [[index-fungorum-nakaseomyces-glabratus]] [[takashima-sugita-2022-nakaseomyces-glabratus-transfer]]. Anderson's original description introduced the organism from the human intestinal tract, and the nomenclatural records connect its type material to current strain deposits including CBS 138 and ATCC 2001 [[anderson-1917-cryptococcus-glabratus-original-description]].
+
+The clinical and experimental sources summarized below mostly use *Candida glabrata* or *C. glabrata*. WikiBiome preserves those historical study labels rather than silently rewriting them. They refer to this same nomenclatural species unless a source identifies a different organism; they do not establish a second canonical taxon.
 
 ## Metal Dependencies
 
@@ -77,7 +83,7 @@ NR-6226C synergizes strongly with fluconazole against *C. albicans* and related 
 ## Cross-References
 
 - [[candida-albicans]] -- Primary Candida pathogen; shares iron dependency and immune evasion strategies
-- [[candida-auris]] -- Emerging drug-resistant Candida; related immune evasion mechanisms
+- [[candidozyma-auris]] -- Current-name record for the historically named *Candida auris*
 - [[iron]] -- Central metabolic dependency; iron chelation as therapeutic strategy
 - [[mis-metallation]] -- Cu2+/Zn2+ compensation for iron chelation via protein mis-metallation
 - [[butyrate]] -- Triggers immune unmasking of Candida; ecological lever for anti-fungal defense

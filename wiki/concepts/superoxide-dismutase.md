@@ -42,7 +42,7 @@ Pathogen-produced SODs are bona fide virulence factors -- they neutralize the su
 - [[streptococcus-pneumoniae]]: Mn-dependent SodA is the primary antioxidant. Zinc can displace manganese from SodA via the [[irving-williams-series]], inactivating the enzyme -- this is how zinc intoxication by macrophages kills pneumococci [[de-lay-2024-ccn-srnas-zinc-resistance-pneumococcus-virulence]].
 - [[streptococcus-agalactiae]] (GBS): Mn-dependent SodA; zinc displaces Mn from SodA as a host defense mechanism [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]].
 - [[candida-albicans]]: Cu-SOD (Sod1) is critical for surviving the phagosomal oxidative burst.
-- [[candida-auris]]: Cu/Zn-SOD (Sod1) in key virulence enzymes.
+- [[candidozyma-auris]]: Cu/Zn-SOD (Sod1) in key virulence enzymes.
 - [[pseudomonas-aeruginosa]]: Both MnSOD and Cu/Zn-SOD; Fe-SOD (SodB) regulated by PrrF sRNAs under iron limitation [[ouattara-2025-prrf-srnas-brnd-iron-peroxide-pseudomonas]].
 - [[salmonella-typhimurium]]: SodCI (Cu/Zn-SOD) is a periplasmic virulence factor essential for intracellular survival.
 - [[porphyromonas-gingivalis]]: Mn-SOD critical for survival in the inflammatory periodontal environment.

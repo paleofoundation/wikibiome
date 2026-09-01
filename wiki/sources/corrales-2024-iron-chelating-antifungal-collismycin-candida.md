@@ -13,7 +13,7 @@ library_category: metal_homeostasis_bacteria
 platform: wikibiome
 condition: "iron chelation as antifungal strategy"
 metals_discussed: [copper, iron]
-taxa_discussed: [candida-albicans]
+taxa_discussed: [candida-albicans, nakaseomyces-glabratus]
 karen_brain_primitives: [2, 3]
 key_findings: ["Exogenous FeCl2"]
 ---

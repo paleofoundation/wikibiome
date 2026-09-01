@@ -196,7 +196,7 @@ updated: 2026-04-19
 ## Fungi (7)
 
 - [[candida-albicans]]
-- [[candida-auris]]
+- [[candidozyma-auris]]
 - [[candida-tropicalis]]
 - [[debaryomyces]]
 - [[penicillium]]

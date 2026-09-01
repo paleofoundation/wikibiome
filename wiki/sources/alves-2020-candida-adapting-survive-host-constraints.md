@@ -15,7 +15,7 @@ platform: both
 condition: "cross-condition"
 karen_brain_primitives: [4, 6, 9]
 metals_discussed: [iron, zinc, manganese]
-taxa_discussed: [candida-albicans, candida-glabrata, candida-auris]
+taxa_discussed: [candida-albicans, nakaseomyces-glabratus, candidozyma-auris]
 key_findings:
   - "Lactate triggers beta-glucan masking; SCFAs (butyrate/acetate) UNMASK — balance determines visibility"
   - "Amino acid catabolism alkalinizes phagosome inhibiting maturation"
@@ -34,7 +34,7 @@ Narrative review synthesizing experimental data on *C. albicans*, *C. glabrata*,
 
 # Relevance to WikiBiome
 
-- Critical for [[candida-albicans]], [[candida-glabrata]], [[candida-auris]], [[butyrate]] pages. The lactate-masks/butyrate-unmasks dichotomy is a central organizing principle for understanding fungal persistence.
+- Critical for [[candida-albicans]], [[nakaseomyces-glabratus|Candida glabrata]], [[candidozyma-auris|Candida auris]], and [[butyrate]] pages. The historical fungal names are preserved because this 2020 review used them. The lactate-masks/butyrate-unmasks dichotomy is a central organizing principle for understanding fungal persistence.
 - Connects SCFA ecology directly to antifungal immunity — bridges gut microbiome composition to systemic fungal defense.
 
 # Relevance to Cureva

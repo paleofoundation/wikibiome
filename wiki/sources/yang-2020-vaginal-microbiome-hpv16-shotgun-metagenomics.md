@@ -19,7 +19,7 @@ platform: both
 condition: "HPV16 infection / cervical cancer"
 karen_brain_primitives: [1, 5, 6, 9]
 metals_discussed: []
-taxa_discussed: [gardnerella-vaginalis, fannyhessea-vaginae, peptostreptococcus-anaerobius, candida-albicans, lactobacillus, prevotella, fusobacterium-nucleatum, megasphaera, mobiluncus-curtisii, veillonella, methanobrevibacter-oralis]
+taxa_discussed: [gardnerella-vaginalis, fannyhessea-vaginae, peptostreptococcus-anaerobius, candida-albicans, nakaseomyces-glabratus, lactobacillus, prevotella, fusobacterium-nucleatum, megasphaera, mobiluncus-curtisii, veillonella, methanobrevibacter-oralis]
 key_findings:
   - "HPV16+ women show decreased Firmicutes (Lactobacillus) and increased Actinobacteria, Fusobacteria, and viruses compared to controls"
   - "Random forest classifiers using 12 genes, 17 genera, or 7 species achieved AUC of 0.861, 0.819, and 0.918 respectively for predicting HPV16 status"
@@ -68,7 +68,7 @@ At the species level, 77 genera including *Gardnerella*, *Peptostreptococcus*, a
 
 Archaea: *Methanobrevibacter oralis* was the only archaeon significantly enriched in HPV16+ women.
 
-Eukaryotes: **[[candida-albicans|Candida albicans]]** was significantly enriched in HPV16+ women, along with *Candida glabrata* and *Mucor ambiguus*. Several fungi including *Malassezia* species were depleted.
+Eukaryotes: **[[candida-albicans|Candida albicans]]** was significantly enriched in HPV16+ women, along with [[nakaseomyces-glabratus|*Candida glabrata*]] and *Mucor ambiguus*. The historical *Candida glabrata* label is preserved from this 2020 study. Several fungi including *Malassezia* species were depleted.
 
 Viruses: *Alphapapillomavirus 9* (containing HPV16) was enriched, as expected. Additionally, *Suid herpesvirus 1* and *Alphapapillomavirus 13* were identified.
 

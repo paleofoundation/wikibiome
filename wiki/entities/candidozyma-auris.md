@@ -1,17 +1,23 @@
 ---
-title: Candida auris
+title: Candidozyma auris
 type: entity
 subtype: fungus
 created: 2026-04-13T00:00:00.000Z
-updated: 2026-04-13T00:00:00.000Z
-last_substantive_update: 2026-04-22
+updated: 2026-09-01T00:00:00.000Z
+last_substantive_update: 2026-09-01
 sources:
+  - ncbi-taxonomy-candidozyma-auris
+  - index-fungorum-candidozyma-auris
+  - liu-2024-candidozyma-auris-reclassification
+  - satoh-2009-candida-auris-original-description
   - alves-2020-candida-adapting-survive-host-constraints
   - do-carmo-2023-metal-nanoparticles-candida-review
   - pasman-2025-candida-staph-reciprocal-virulence-masking
-source_count: 3
+source_count: 7
 tags:
   - fungus
+  - Candidozyma
+  - Candida-auris-historical-name
   - pathogen
   - multidrug-resistant
   - nosocomial
@@ -33,13 +39,18 @@ conditions_enriched_in:
   - nosocomial-candidemia
   - icu-bloodstream-infection
 conditions_depleted_in: []
-seo_target: Candida auris gut microbiome metals resistance
+seo_target: Candidozyma auris taxonomy NCBITaxon 498019 Candida auris
 wikipedia_differentiation: >-
-  Metal-dependent virulence mechanisms, zinc/iron/copper acquisition strategies under hospital nutritional immunity
-  pressure, and the gut-to-bloodstream translocation pathway that Wikipedia does not cover
+  Current Candidozyma auris identity reconciled with the Candida auris basionym and historical clinical literature,
+  alongside the source record's metal-dependent virulence and nutritional-immunity discussion
+ncbi_taxonomy_id: 498019
+mycobank_registration_id: 848169
+historical_names: [Candida auris]
 ---
 
-Candida auris is an emerging multidrug-resistant fungal pathogen first identified in 2009 (Satoh et al. 2009, from a Japanese patient's ear canal) and now classified as a critical-priority pathogen by the WHO (WHO Fungal Priority Pathogens List 2022) and CDC (CDC 2019 Antibiotic Resistance Threats Report). Unlike other *Candida* species, *C. auris* is predominantly a nosocomial (healthcare-associated) pathogen with documented outbreak potential in intensive care settings. It is notable for its resistance to multiple antifungal drug classes and its persistence on environmental surfaces (Welsh et al. 2017). In some endemic regions, *C. auris* accounts for up to ~40-67% of ICU candidemia cases (Chowdhary et al. 2017, Indian ICU surveillance).
+*Candidozyma auris* is the current name for NCBITaxon:498019. Liu and colleagues established the combination in 2024 as MycoBank MB 848169; *Candida auris* Satoh & Makimura 2009 is its basionym, not a separate species [[ncbi-taxonomy-candidozyma-auris]] [[index-fungorum-candidozyma-auris]] [[liu-2024-candidozyma-auris-reclassification]]. Satoh and colleagues originally described the taxon from strain JCM 15448 (CBS 10913; DSM 21092), isolated from a patient's external ear canal [[satoh-2009-candida-auris-original-description]].
+
+The clinical and mechanistic sources summarized below largely use the historical name *Candida auris*, which WikiBiome preserves where it reflects the cited literature. Under that name, the organism is described as an emerging multidrug-resistant fungal pathogen and as a healthcare-associated pathogen with outbreak potential, resistance to multiple antifungal drug classes, and persistence on environmental surfaces. Historical study wording is not evidence for a second taxon.
 
 ## Metal Dependencies
 
@@ -75,9 +86,9 @@ Unlike [[candida-albicans]], *C. auris* rarely causes invasive candidiasis via d
 
 *C. auris* co-colonises with [[staphylococcus-aureus]] on skin and catheter surfaces, forming mixed biofilms where *S. aureus* benefits from fungal matrix protection while providing proteolytic activity that enhances fungal dispersal (Kean et al. 2018, mSphere). This mirrors the [[functional-shielding]] pattern documented between *C. albicans* and pathogenic bacteria in other body sites. Bacterial partners may also relieve *C. auris* of iron-acquisition costs by producing scavengeable siderophores that *C. auris* pirates via its reductive uptake system.
 
-## Distinction from Other Candida Species
+## Distinction from Other Clinically Used Candida Names
 
-| Feature | *C. auris* | *C. albicans* | *C. tropicalis* |
+| Feature | *Candidozyma auris* (*Candida auris*) | *C. albicans* | *C. tropicalis* |
 |---------|-----------|--------------|----------------|
 | Primary context | Nosocomial | Commensal/opportunistic | Commensal/opportunistic |
 | Drug resistance | High (multidrug) | Moderate | Moderate |

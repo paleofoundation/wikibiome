@@ -22,7 +22,7 @@ triangles:
     status: promising
 
 targets:
-  taxa: [candida-albicans, candida-glabrata]
+  taxa: [candida-albicans, nakaseomyces-glabratus]
   enzymes: [SAP-proteases, phospholipases]
   metals: []
   ecological: [anti-biofilm, competitive-exclusion, barrier-repair, anti-inflammatory]

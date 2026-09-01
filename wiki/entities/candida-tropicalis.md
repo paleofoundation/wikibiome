@@ -110,8 +110,8 @@ The ecological picture mirrors that of other opportunistic fungi: *C. tropicalis
 ## Cross-References
 
 - [[candida-albicans]] — the most common Candida species; shares interkingdom biofilm behavior
-- [[candida-auris]] — emerging multidrug-resistant species
-- [[candida-glabrata]] — another major non-albicans Candida with distinct resistance profile
+- [[candidozyma-auris]] — current-name record for the emerging species historically called *Candida auris*
+- [[nakaseomyces-glabratus]] — current-name record for the non-*albicans* yeast historically called *Candida glabrata*
 - [[saccharomyces-cerevisiae]] — commensal counterweight whose loss permits *C. tropicalis* expansion
 - [[crohns-disease]] — primary inflammatory bowel disease association
 - [[schizophrenia]] — recently implicated condition with refractory fungal reservoir
