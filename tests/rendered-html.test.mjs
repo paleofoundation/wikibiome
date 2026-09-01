@@ -433,6 +433,8 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.ok(contrastOverride > stylesheet.indexOf(".home-hero"));
   assert.match(stylesheet.slice(contrastOverride), /\.home-hero \{ background:radial-gradient[\s\S]*#fff/);
   assert.match(stylesheet.slice(contrastOverride), /\.article-media-stage \{ padding:10px[\s\S]*background:#fff/);
+  assert.match(stylesheet, /\.infobox \{ position:static;/, "article infoboxes must remain in flow above connected records");
+  assert.doesNotMatch(stylesheet, /\.infobox \{ position:sticky;/, "sticky infoboxes must not cover connected records while scrolling");
   const mobileReadingMode = stylesheet.lastIndexOf("Mobile reading mode");
   assert.ok(mobileReadingMode > contrastOverride);
   assert.match(stylesheet.slice(mobileReadingMode), /\.wiki-header \{ height:58px;min-height:58px/);
