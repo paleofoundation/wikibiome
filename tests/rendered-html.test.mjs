@@ -1427,10 +1427,120 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(articleMediaRegistry["lachnospiraceae-family"], undefined);
   assert.ok(!batch022PublicMediaFiles.some((name) => name.startsWith("lachnospiraceae-family-")));
   assert.ok(!batch022MasterFiles.some((name) => name.startsWith("lachnospiraceae-family-")));
+  const batch023 = batches.find((batch) => batch.batchId === "microorganisms-023");
+  assert.equal(batch023?.status, "awaiting-control-review");
+  assert.equal(batch023?.routeDecisionCount, 6);
+  assert.equal(batch023?.candidateCount, 4);
+  assert.equal(batch023?.scientificHoldCount, 2);
+  assert.equal(batch023?.generationCallCount, 4);
+  assert.equal(batch023?.revisionCount, 0);
+  assert.equal(batch023?.controlReviewRequired, true);
+  const batch023Candidates = batch023?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch023Candidates.map((asset) => asset.pageId), [
+    "lactobacillus-crispatus",
+    "lactobacillus-gasseri",
+    "lactobacillus-iners",
+    "lactobacillus-jensenii",
+  ]);
+  const batch023ExpectedOutputs = new Map([
+    ["lactobacillus-crispatus", ["NCBITaxon:47770", "a610dd67ed898769dd61dbd1a65cfc9b0e752e89d8e3a771179a957922d53a08", "763b002168255468b259624f3ef29d546c51a979b809cec396f23fbf5aefd3c7", 1286041, 11, 8]],
+    ["lactobacillus-gasseri", ["NCBITaxon:1596", "ebb6a0c376fc6f204bfeff4b3d9e968839de6bccdd7efcaf4ab714c8e3a3a5c5", "85dfa2a02e52e9b8e7188abba1b7d8bf328d7e7c3d3ae4e1030b097bba85b041", 1206992, 9, 7]],
+    ["lactobacillus-iners", ["NCBITaxon:147802", "e8a944e60c5d3793658a44501c7b8bbde3dad66885b584b41ccce40614883eb3", "73f7a21c663f4ed73d1ac65ded950a6482c50b58ff364d069a39841210b1194f", 1190987, 11, 8]],
+    ["lactobacillus-jensenii", ["NCBITaxon:109790", "04ff0042678065b4611a6a7a3bcf686b87191758b31daa822785d05cffefa006", "6496b4dbcdb232b7faee082385fc334491a5c423297141d5196d1671ddd7900b", 1236326, 8, 6]],
+  ]);
+  const batch023PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-023.md", import.meta.url), "utf8");
+  const batch023PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  const batch023MasterFiles = readdirSync(new URL("../media/masters/", import.meta.url));
+  const batch023DraftFileNames = readdirSync(new URL("../work/media-drafts/microorganisms-batch-023/", import.meta.url)).sort();
+  assert.deepEqual(batch023DraftFileNames, [
+    "lactobacillus-crispatus-draft.png",
+    "lactobacillus-gasseri-draft.png",
+    "lactobacillus-iners-draft.png",
+    "lactobacillus-jensenii-draft.png",
+  ]);
+  const batch023GenerationRecords = new Set();
+  for (const asset of batch023Candidates) {
+    const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch023ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.promptSha256, expectedPromptSha256);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.equal(asset.fileSizeBytes, expectedFileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assert.equal(asset.outputAudit?.observedDarkMarginCount, 0);
+    assert.equal(asset.outputAudit?.coverSafe, true);
+    assert.match(asset.generationRecord, /^exec-[0-9a-f-]+\.png$/);
+    assert.ok(!batch023GenerationRecords.has(asset.generationRecord), `${asset.pageId} must own one distinct generation record`);
+    batch023GenerationRecords.add(asset.generationRecord);
+    assertMediaOutputAudit(asset, "microorganisms-023");
+
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, expectedFileSize);
+    assert.equal(draftBytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+    assert.equal(draftBytes.readUInt32BE(16), 1536);
+    assert.equal(draftBytes.readUInt32BE(20), 1024);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expectedSha256);
+
+    const promptMatch = batch023PromptRecord.match(new RegExp("### `" + asset.pageId + "-draft\\.png`\\n\\n```text\\n([\\s\\S]*?)\\n```"));
+    assert.ok(promptMatch, `${asset.pageId} immutable prompt must remain in the prompt record`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
+
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must not enter the registry before control approval`);
+    assert.ok(!batch023PublicMediaFiles.includes(expectedFiles.publishedFile), `${asset.pageId} review draft must not create a public article derivative`);
+    assert.ok(!batch023PublicMediaFiles.includes(expectedFiles.socialFile), `${asset.pageId} review draft must not create a public social derivative`);
+    assert.ok(!batch023MasterFiles.includes(expectedFiles.masterSource), `${asset.pageId} review draft must not create a canonical master`);
+    assert.ok(!batch023PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft path must not become public`);
+  }
+  assert.equal(batch023GenerationRecords.size, 4);
+  assert.equal(batch023Candidates.find((asset) => asset.pageId === "lactobacillus-crispatus")?.outputAudit?.observedGentlyCurvedSingleCount, 2);
+  assert.equal(batch023Candidates.find((asset) => asset.pageId === "lactobacillus-gasseri")?.outputAudit?.observedCloseTwoRodGroupingCount, 1);
+  assert.equal(batch023Candidates.find((asset) => asset.pageId === "lactobacillus-iners")?.outputAudit?.observedContinuousCentrallyConstrictedRodCount, 1);
+  assert.equal(batch023Candidates.find((asset) => asset.pageId === "lactobacillus-iners")?.outputAudit?.observedCoccobacillaryBodyCount, 6);
+  assert.equal(batch023Candidates.find((asset) => asset.pageId === "lactobacillus-jensenii")?.outputAudit?.observedGentlyCurvedSingleCount, 1);
+  assert.match(batch023Candidates.find((asset) => asset.pageId === "lactobacillus-iners")?.proposedCaption ?? "", /not a micrograph or Gram-stained field/);
+  const batch023Holds = batch023?.assets.filter((asset) => asset.decision === "scientific-identity-hold") ?? [];
+  assert.deepEqual(batch023Holds.map((asset) => asset.pageId), ["lactobacillus-plantarum", "lactobacillus-reuteri"]);
+  const batch023HoldExpectations = new Map([
+    ["lactobacillus-plantarum", ["NCBITaxon:1590", "Lactiplantibacillus plantarum", "lactiplantibacillus-plantarum"]],
+    ["lactobacillus-reuteri", ["NCBITaxon:1598", "Limosilactobacillus reuteri", "limosilactobacillus-reuteri"]],
+  ]);
+  for (const hold of batch023Holds) {
+    const [expectedIdentifier, expectedCurrentName, expectedCanonicalPageId] = batch023HoldExpectations.get(hold.pageId);
+    assert.equal(hold.generationStatus, "withheld-no-call");
+    assert.equal(hold.sourceEraIdentifier, expectedIdentifier);
+    assert.equal(hold.currentAcceptedName, expectedCurrentName);
+    assert.equal(hold.proposedCanonicalPageId, expectedCanonicalPageId);
+    assert.equal(hold.assetType, undefined);
+    assert.equal(hold.revision, undefined);
+    assert.equal(hold.draft, undefined);
+    assert.equal(hold.generationRecord, undefined);
+    assert.ok(hold.reason.includes("homotypic synonym"));
+    assert.ok(hold.requiredResolution.includes("308 alias"));
+    assert.ok(!batch023PromptRecord.includes(`### \`${hold.pageId}-draft.png\``));
+    assert.ok(!batch023DraftFileNames.some((name) => name.startsWith(`${hold.pageId}-`)));
+    assert.equal(articleMediaRegistry[hold.pageId], undefined);
+    assert.ok(!batch023PublicMediaFiles.some((name) => name.startsWith(`${hold.pageId}-`)));
+    assert.ok(!batch023MasterFiles.some((name) => name.startsWith(`${hold.pageId}-`)));
+  }
+  assert.deepEqual(program.nextBatch.map((record) => record.id), [
+    "lactobacillus-rhamnosus",
+    "lactococcus",
+    "lancefieldella-parvula",
+    "leptotrichia",
+    "listeria",
+    "lodderomyces-elongisporus",
+  ]);
   assert.equal(program.current.completed, 125);
   assert.equal(program.current.remaining, 585);
-  assert.equal(program.current.inReview, 0);
-  assert.equal(program.current.scientificHolds, 2);
+  assert.equal(program.current.rejected, 17);
+  assert.equal(program.current.inReview, 4);
+  assert.equal(program.current.scientificHolds, 4);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -1448,7 +1558,12 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   }
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
-  assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), ["lachnoclostridium", "lachnospiraceae-family"]);
+  assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [
+    "lachnoclostridium",
+    "lachnospiraceae-family",
+    "lactobacillus-plantarum",
+    "lactobacillus-reuteri",
+  ]);
   assert.equal(program.current.scientificHolds, activeScientificHolds.length);
   for (const hold of activeScientificHolds) {
     const queueRecord = program.queue.find((record) => record.id === hold.pageId);

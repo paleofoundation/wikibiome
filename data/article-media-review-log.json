@@ -3548,6 +3548,46 @@
       ],
       "requiredResolution": "Editorially merge, retire, or permanently alias the duplicate hub route to the primary lachnospiraceae entity while preserving any unique sourced statements and provenance. Only one canonical media owner may remain for NCBITaxon:186803.",
       "routingImpact": "The duplicate route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, canonical masters, derivatives, and image sitemap entries. Batch 022 assigns the single representative family plate only to lachnospiraceae and makes no queue substitution."
+    },
+    {
+      "pageId": "lactobacillus-plantarum",
+      "sourceEraIdentifier": "NCBITaxon:1590",
+      "batchId": "microorganisms-023",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Lactiplantibacillus plantarum",
+      "proposedCanonicalPageId": "lactiplantibacillus-plantarum",
+      "reason": "The canonical route and title still assert the source-era combination Lactobacillus plantarum, and the identity registry contains no audited redirect or current-name route. NCBI Taxonomy and LPSN select Lactiplantibacillus plantarum (Zheng et al. 2020), NCBITaxon:1590, as the current correct combination and retain Lactobacillus plantarum only as a homotypic synonym. A new asset keyed to the obsolete route would violate unique current biological-entity ownership.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1590&mode=Info",
+        "https://lpsn.dsmz.de/species/lactiplantibacillus-plantarum",
+        "https://pubmed.ncbi.nlm.nih.gov/32293557/",
+        "local:data/content.generated.json#/pages/lactobacillus-plantarum",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Editorially create or reconcile the canonical current-name article lactiplantibacillus-plantarum with title Lactiplantibacillus plantarum and NCBITaxon:1590, preserve lactobacillus-plantarum only as an audited 308 alias, reconcile source-era content and provenance, and return the current owner to its deterministic uncovered media position.",
+      "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 023 makes no queue substitution."
+    },
+    {
+      "pageId": "lactobacillus-reuteri",
+      "sourceEraIdentifier": "NCBITaxon:1598",
+      "batchId": "microorganisms-023",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Limosilactobacillus reuteri",
+      "proposedCanonicalPageId": "limosilactobacillus-reuteri",
+      "reason": "The canonical route and title still assert the source-era combination Lactobacillus reuteri, and the identity registry contains no audited redirect or current-name route. NCBI Taxonomy and LPSN select Limosilactobacillus reuteri (Zheng et al. 2020), NCBITaxon:1598, as the current correct combination and retain Lactobacillus reuteri only as a homotypic synonym. A new asset keyed to the obsolete route would violate unique current biological-entity ownership.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1598&mode=Info",
+        "https://lpsn.dsmz.de/species/limosilactobacillus-reuteri",
+        "https://pubmed.ncbi.nlm.nih.gov/32293557/",
+        "local:data/content.generated.json#/pages/lactobacillus-reuteri",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Editorially create or reconcile the canonical current-name article limosilactobacillus-reuteri with title Limosilactobacillus reuteri and NCBITaxon:1598, preserve lactobacillus-reuteri only as an audited 308 alias, reconcile source-era content and provenance, and return the current owner to its deterministic uncovered media position.",
+      "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 023 makes no queue substitution."
     }
   ],
   "revisedAssets": [

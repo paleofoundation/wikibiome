@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "797d9a10577d858e9b266b2ce44a5bd7bd88eabff6508d41199e0fcb4bca6d0a",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "c25a8b9cea4b37f7f1ab603257f84ff3bcac1f39f7399d88f268ad20e4ea12d5",
+    "reviewLogSha256": "5a84e23921888ef2f1c7e93d93b260395a06248c86f76bb51b0b4362b63895ef",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -143,6 +143,12 @@
         "batchId": "microorganisms-022",
         "status": "reviewed",
         "sha256": "845d14772a868271777251b927b52e6de87c58201c9e82926643fbcb1027e794"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-023.json",
+        "batchId": "microorganisms-023",
+        "status": "awaiting-control-review",
+        "sha256": "b0256cd3510df156e48515267dc139240a12263dc9b021081b7d19f7785ed87d"
       }
     ]
   },
@@ -166,10 +172,10 @@
     "total": 710,
     "completed": 125,
     "remaining": 585,
-    "rejected": 15,
+    "rejected": 17,
     "revised": 10,
-    "scientificHolds": 2,
-    "inReview": 0
+    "scientificHolds": 4,
+    "inReview": 4
   },
   "categories": [
     {
@@ -576,6 +582,46 @@
       ],
       "requiredResolution": "Editorially merge, retire, or permanently alias the duplicate hub route to the primary lachnospiraceae entity while preserving any unique sourced statements and provenance. Only one canonical media owner may remain for NCBITaxon:186803.",
       "routingImpact": "The duplicate route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, canonical masters, derivatives, and image sitemap entries. Batch 022 assigns the single representative family plate only to lachnospiraceae and makes no queue substitution."
+    },
+    {
+      "pageId": "lactobacillus-plantarum",
+      "sourceEraIdentifier": "NCBITaxon:1590",
+      "batchId": "microorganisms-023",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Lactiplantibacillus plantarum",
+      "proposedCanonicalPageId": "lactiplantibacillus-plantarum",
+      "reason": "The canonical route and title still assert the source-era combination Lactobacillus plantarum, and the identity registry contains no audited redirect or current-name route. NCBI Taxonomy and LPSN select Lactiplantibacillus plantarum (Zheng et al. 2020), NCBITaxon:1590, as the current correct combination and retain Lactobacillus plantarum only as a homotypic synonym. A new asset keyed to the obsolete route would violate unique current biological-entity ownership.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1590&mode=Info",
+        "https://lpsn.dsmz.de/species/lactiplantibacillus-plantarum",
+        "https://pubmed.ncbi.nlm.nih.gov/32293557/",
+        "local:data/content.generated.json#/pages/lactobacillus-plantarum",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Editorially create or reconcile the canonical current-name article lactiplantibacillus-plantarum with title Lactiplantibacillus plantarum and NCBITaxon:1590, preserve lactobacillus-plantarum only as an audited 308 alias, reconcile source-era content and provenance, and return the current owner to its deterministic uncovered media position.",
+      "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 023 makes no queue substitution."
+    },
+    {
+      "pageId": "lactobacillus-reuteri",
+      "sourceEraIdentifier": "NCBITaxon:1598",
+      "batchId": "microorganisms-023",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Limosilactobacillus reuteri",
+      "proposedCanonicalPageId": "limosilactobacillus-reuteri",
+      "reason": "The canonical route and title still assert the source-era combination Lactobacillus reuteri, and the identity registry contains no audited redirect or current-name route. NCBI Taxonomy and LPSN select Limosilactobacillus reuteri (Zheng et al. 2020), NCBITaxon:1598, as the current correct combination and retain Lactobacillus reuteri only as a homotypic synonym. A new asset keyed to the obsolete route would violate unique current biological-entity ownership.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1598&mode=Info",
+        "https://lpsn.dsmz.de/species/limosilactobacillus-reuteri",
+        "https://pubmed.ncbi.nlm.nih.gov/32293557/",
+        "local:data/content.generated.json#/pages/lactobacillus-reuteri",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Editorially create or reconcile the canonical current-name article limosilactobacillus-reuteri with title Limosilactobacillus reuteri and NCBITaxon:1598, preserve lactobacillus-reuteri only as an audited 308 alias, reconcile source-era content and provenance, and return the current owner to its deterministic uncovered media position.",
+      "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 023 makes no queue substitution."
     }
   ],
   "revisedAssets": [
@@ -705,55 +751,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 125,
-      "id": "lactobacillus-crispatus",
-      "title": "Lactobacillus crispatus",
-      "route": "/article/lactobacillus-crispatus",
+      "queuePosition": 131,
+      "id": "lactobacillus-rhamnosus",
+      "title": "Lactobacillus rhamnosus",
+      "route": "/article/lactobacillus-rhamnosus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 126,
-      "id": "lactobacillus-gasseri",
-      "title": "Lactobacillus gasseri",
-      "route": "/article/lactobacillus-gasseri",
+      "queuePosition": 132,
+      "id": "lactococcus",
+      "title": "Lactococcus",
+      "route": "/article/lactococcus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 127,
-      "id": "lactobacillus-iners",
-      "title": "Lactobacillus iners",
-      "route": "/article/lactobacillus-iners",
+      "queuePosition": 133,
+      "id": "lancefieldella-parvula",
+      "title": "Lancefieldella parvula",
+      "route": "/article/lancefieldella-parvula",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 128,
-      "id": "lactobacillus-jensenii",
-      "title": "Lactobacillus jensenii",
-      "route": "/article/lactobacillus-jensenii",
+      "queuePosition": 134,
+      "id": "leptotrichia",
+      "title": "Leptotrichia",
+      "route": "/article/leptotrichia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 129,
-      "id": "lactobacillus-plantarum",
-      "title": "Lactobacillus plantarum",
-      "route": "/article/lactobacillus-plantarum",
+      "queuePosition": 135,
+      "id": "listeria",
+      "title": "Listeria",
+      "route": "/article/listeria",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 130,
-      "id": "lactobacillus-reuteri",
-      "title": "Lactobacillus reuteri",
-      "route": "/article/lactobacillus-reuteri",
+      "queuePosition": 136,
+      "id": "lodderomyces-elongisporus",
+      "title": "Lodderomyces elongisporus",
+      "route": "/article/lodderomyces-elongisporus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -3378,7 +3424,13 @@
       "route": "/article/lactobacillus-crispatus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-023",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-023/lactobacillus-crispatus-draft.png",
+        "sha256": "763b002168255468b259624f3ef29d546c51a979b809cec396f23fbf5aefd3c7"
+      }
     },
     {
       "queuePosition": 126,
@@ -3391,7 +3443,13 @@
       "route": "/article/lactobacillus-gasseri",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-023",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-023/lactobacillus-gasseri-draft.png",
+        "sha256": "85dfa2a02e52e9b8e7188abba1b7d8bf328d7e7c3d3ae4e1030b097bba85b041"
+      }
     },
     {
       "queuePosition": 127,
@@ -3404,7 +3462,13 @@
       "route": "/article/lactobacillus-iners",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-023",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-023/lactobacillus-iners-draft.png",
+        "sha256": "73f7a21c663f4ed73d1ac65ded950a6482c50b58ff364d069a39841210b1194f"
+      }
     },
     {
       "queuePosition": 128,
@@ -3417,7 +3481,13 @@
       "route": "/article/lactobacillus-jensenii",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-023",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-023/lactobacillus-jensenii-draft.png",
+        "sha256": "6496b4dbcdb232b7faee082385fc334491a5c423297141d5196d1671ddd7900b"
+      }
     },
     {
       "queuePosition": 129,
@@ -3430,7 +3500,13 @@
       "route": "/article/lactobacillus-plantarum",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-02",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "The canonical route and title still assert the source-era combination Lactobacillus plantarum, and the identity registry contains no audited redirect or current-name route. NCBI Taxonomy and LPSN select Lactiplantibacillus plantarum (Zheng et al. 2020), NCBITaxon:1590, as the current correct combination and retain Lactobacillus plantarum only as a homotypic synonym. A new asset keyed to the obsolete route would violate unique current biological-entity ownership.",
+        "requiredResolution": "Editorially create or reconcile the canonical current-name article lactiplantibacillus-plantarum with title Lactiplantibacillus plantarum and NCBITaxon:1590, preserve lactobacillus-plantarum only as an audited 308 alias, reconcile source-era content and provenance, and return the current owner to its deterministic uncovered media position."
+      }
     },
     {
       "queuePosition": 130,
@@ -3443,7 +3519,13 @@
       "route": "/article/lactobacillus-reuteri",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-02",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "The canonical route and title still assert the source-era combination Lactobacillus reuteri, and the identity registry contains no audited redirect or current-name route. NCBI Taxonomy and LPSN select Limosilactobacillus reuteri (Zheng et al. 2020), NCBITaxon:1598, as the current correct combination and retain Lactobacillus reuteri only as a homotypic synonym. A new asset keyed to the obsolete route would violate unique current biological-entity ownership.",
+        "requiredResolution": "Editorially create or reconcile the canonical current-name article limosilactobacillus-reuteri with title Limosilactobacillus reuteri and NCBITaxon:1598, preserve lactobacillus-reuteri only as an audited 308 alias, reconcile source-era content and provenance, and return the current owner to its deterministic uncovered media position."
+      }
     },
     {
       "queuePosition": 131,
