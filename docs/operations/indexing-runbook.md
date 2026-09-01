@@ -75,9 +75,9 @@ Representative URLs:
 
 These steps require an authenticated owner or full user. Do not mark them complete from code presence alone.
 
-1. In Search Console, add or select the URL-prefix property `https://www.wikibiome.com/`. A domain property requires DNS authority and remains exclusively under control-task ownership.
-2. Copy the exact HTML verification token and configure `GOOGLE_SITE_VERIFICATION` in the production environment. Never commit the token.
-3. Deploy through the control task, inspect the homepage source for the exact `google-site-verification` value, and click **Verify**.
+1. First look for the existing `wikibiome.com` domain property. The September 1 baseline found a public `google-site-verification` TXT record at the apex, but only the authenticated Search Console property can prove which account owns that token and whether access is current. Do not alter the record from this task.
+2. If the owner instead requires a URL-prefix verification method, copy the exact HTML token and configure `GOOGLE_SITE_VERIFICATION` in the production environment. Never commit the token.
+3. Deploy through the control task, inspect the homepage source for the exact meta value when that method is used, and click **Verify**.
 4. Submit both `https://www.wikibiome.com/sitemap.xml` and `https://www.wikibiome.com/image-sitemap.xml` in the Sitemaps report.
 5. Capture direct evidence: property name, verified-owner state, sitemap submission/last-read status, discovered URL counts, and any processing error.
 6. Use URL Inspection on the representative article, source, category, tool, and image-containing article. Record declared canonical, Google-selected canonical, crawl allowed state, fetch/render result, last crawl, and indexing state.

@@ -35,6 +35,8 @@ The +4 ordinary-sitemap difference is the candidate corpus/build state relative 
 - The representative source, category, and research tool each canonicalized to the homepage and suppressed preview images; no route-specific JSON-LD was present.
 - Public web searches for `site:wikibiome.com` and the representative Akkermansia article returned no results through the available search interface. This is an observation only; it is not proof of index exclusion, and it is not a ranking statement.
 - The unauthenticated PageSpeed Insights API request returned quota error 429, so no public lab or CrUX performance score is claimed in this baseline.
+- A read-only DNS lookup found a public `google-site-verification` TXT record at `wikibiome.com`. This is a verification mechanism, but it does not prove current account access, property state, sitemap submission, or report data without authenticated Search Console evidence.
+- The homepage contained neither a Google nor Bing verification meta tag, and `/BingSiteAuth.xml` returned 404. No public Bing ownership evidence was found.
 
 ## Candidate validation evidence
 
@@ -76,7 +78,7 @@ The +4 ordinary-sitemap difference is the candidate corpus/build state relative 
 
 ## Account-gated baseline gaps
 
-No direct Search Console or Bing Webmaster evidence was available in this worktree, and neither `GOOGLE_SITE_VERIFICATION` nor `BING_SITE_VERIFICATION` was configured. Therefore the following are explicitly not complete:
+No direct Search Console or Bing Webmaster dashboard evidence was available in this worktree, and neither `GOOGLE_SITE_VERIFICATION` nor `BING_SITE_VERIFICATION` was configured. The public Google DNS record noted above does not close the authenticated evidence gap. Therefore the following are explicitly not complete:
 
 - Google Search Console property ownership verification;
 - Google ordinary/image sitemap submission and processing evidence;
