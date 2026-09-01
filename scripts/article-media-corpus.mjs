@@ -1,10 +1,10 @@
 import { readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
-export const MEDIA_PROGRAM_TOTAL = 711;
+export const MEDIA_PROGRAM_TOTAL = 710;
 
 export const mediaCoverageGroups = Object.freeze([
-  Object.freeze({ id: "microorganisms", label: "Microorganisms", total: 230, categoryOrder: 1 }),
+  Object.freeze({ id: "microorganisms", label: "Microorganisms", total: 229, categoryOrder: 1 }),
   Object.freeze({ id: "metals", label: "Metals", total: 29, categoryOrder: 2 }),
   Object.freeze({ id: "diseases", label: "Diseases", total: 66, categoryOrder: 3 }),
   Object.freeze({ id: "mechanisms", label: "Mechanisms", total: 233, categoryOrder: 4 }),

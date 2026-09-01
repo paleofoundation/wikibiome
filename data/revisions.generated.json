@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T15:08:18.753Z",
+  "generatedAt": "2026-09-01T15:49:29.510Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
-  "records": 818,
-  "canonicalIds": 753,
-  "revisions": 2915,
+  "sourceCommit": "66a773667b1f6c06592eca878d5023138c602b39",
+  "records": 817,
+  "canonicalIds": 752,
+  "revisions": 2917,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -3645,9 +3645,28 @@
     },
     "cladosporium": {
       "paths": [
-        "wiki/entities/cladosporium.md"
+        "wiki/entities/cladosporium.md",
+        "wiki/entities/davidiella.md"
       ],
       "revisions": [
+        {
+          "hash": "66a773667b1f6c06592eca878d5023138c602b39",
+          "date": "2026-09-01T18:47:45+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Merge Davidiella into Cladosporium",
+          "path": "wiki/entities/cladosporium.md",
+          "additions": 24,
+          "deletions": 6
+        },
+        {
+          "hash": "66a773667b1f6c06592eca878d5023138c602b39",
+          "date": "2026-09-01T18:47:45+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Merge Davidiella into Cladosporium",
+          "path": "wiki/entities/davidiella.md",
+          "additions": 0,
+          "deletions": 60
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -3656,6 +3675,24 @@
           "path": "wiki/entities/cladosporium.md",
           "additions": 12,
           "deletions": 4
+        },
+        {
+          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
+          "date": "2026-05-04T12:56:02-06:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
+          "path": "wiki/entities/davidiella.md",
+          "additions": 11,
+          "deletions": 7
+        },
+        {
+          "hash": "ecf964e7996d8fbb611fe03941be515ee117e837",
+          "date": "2026-04-20T05:16:41+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "maintenance: 409 source fixes, 34 entity updates, 17 concept updates, 30 analysis outputs",
+          "path": "wiki/entities/davidiella.md",
+          "additions": 56,
+          "deletions": 0
         },
         {
           "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
@@ -4670,31 +4707,6 @@
           "subject": "maintenance: 409 source fixes, 34 entity updates, 17 concept updates, 30 analysis outputs",
           "path": "wiki/entities/cystic-fibrosis.md",
           "additions": 84,
-          "deletions": 0
-        }
-      ]
-    },
-    "davidiella": {
-      "paths": [
-        "wiki/entities/davidiella.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/davidiella.md",
-          "additions": 11,
-          "deletions": 7
-        },
-        {
-          "hash": "ecf964e7996d8fbb611fe03941be515ee117e837",
-          "date": "2026-04-20T05:16:41+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "maintenance: 409 source fixes, 34 entity updates, 17 concept updates, 30 analysis outputs",
-          "path": "wiki/entities/davidiella.md",
-          "additions": 56,
           "deletions": 0
         }
       ]

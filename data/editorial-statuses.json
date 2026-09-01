@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
+  "sourceCommit": "66a773667b1f6c06592eca878d5023138c602b39",
   "reviewedAt": "2026-09-01",
   "authority": "WikiBiome delegated editorial-completion audit",
   "groups": [
@@ -92,7 +92,6 @@
       "publicLabel": "Evidence-limited source record",
       "records": [
         "barium::metal",
-        "cladosporium::microbe",
         "fusarium::microbe",
         "listeria::microbe",
         "proteus::microbe",

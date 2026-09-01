@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T15:07:42.312Z",
+  "generatedAt": "2026-09-01T15:48:55.555Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
-    "contentGeneratedAt": "2026-09-01T15:03:18.878Z",
+    "commit": "66a773667b1f6c06592eca878d5023138c602b39",
+    "contentGeneratedAt": "2026-09-01T15:47:14.687Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "6e49083c9c3d695618881868d54f959fe1846bb34c24389f5351fe79fb7a2d0a",
-    "pages": 818,
-    "sources": 1929
+    "sha256": "a854ec6fc8b9b2875f203dc5c2f98d3c6d9bdc45b35dd6d7fdd93c79fe4add23",
+    "pages": 817,
+    "sources": 1932
   },
   "sourceMetadataPolicy": {
     "version": 1,
@@ -1411,7 +1411,7 @@
     ]
   },
   "editorialNormalization": {
-    "leadPromotionCount": 345,
+    "leadPromotionCount": 344,
     "leadPromotionSamples": [
       {
         "id": "actinobacteria",
@@ -1517,20 +1517,20 @@
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
-    "registeredCount": 113,
-    "appliedRecordCount": 122,
-    "registrySha256": "1045b0b3227388fe884d3c5b1a9ba6995808f26019f7c008e9d6598a1f8bf153"
+    "sourceCommit": "66a773667b1f6c06592eca878d5023138c602b39",
+    "registeredCount": 112,
+    "appliedRecordCount": 121,
+    "registrySha256": "d1c753946c21f65ccfcf1cdc3d967786ee5ed38969f8d6f279c61f0cbc4c389e"
   },
   "articleIdentityPolicy": {
     "version": 1,
     "reviewedAt": "2026-09-01",
     "authority": "WikiBiome delegated scientific identity reconciliation",
-    "registrySha256": "555d2f1b8439742ebdd12039c484ebd5c94828fe9708f0557829f04d902d75f0",
-    "aliasCount": 10,
-    "retiredCanonicalCount": 10,
-    "canonicalTaxonCount": 10,
-    "forbiddenPatternCount": 7
+    "registrySha256": "89a42a4f1d01cd88c9f124e4e5dc01b7f918580f933094eee2daab2bf790191d",
+    "aliasCount": 11,
+    "retiredCanonicalCount": 11,
+    "canonicalTaxonCount": 11,
+    "forbiddenPatternCount": 8
   },
   "audit": {
     "duplicatePageIds": [
@@ -1600,11 +1600,11 @@
       "type-1-diabetes",
       "type-2-diabetes"
     ],
-    "pagesWithReferences": 764,
-    "generatedReferences": 6442,
-    "pagesWithSourceDrift": 487,
+    "pagesWithReferences": 763,
+    "generatedReferences": 6440,
+    "pagesWithSourceDrift": 485,
     "recoveredInlineReferences": 350,
-    "declaredOnlyReferences": 2002,
+    "declaredOnlyReferences": 1988,
     "missingSourceMetadataIds": [],
     "resolvedSourceAliasIds": [
       "abraham-2005-drug-therapy-graves",

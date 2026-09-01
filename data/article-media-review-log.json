@@ -1752,6 +1752,33 @@
         "controlledIdentifier": "NCBITaxon:1496",
         "coverageStatus": "uncovered"
       }
+    },
+    {
+      "pageId": "davidiella",
+      "batchId": "scientific-identity-audit-2026-09-01",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "The ICTF Working Group on Dothideomycetes recommends Cladosporium Link 1816 over the younger sexual-morph name Davidiella Crous & U. Braun 2003 under one-fungus/one-name treatment. Species Fungorum accepts Cladosporium, and NCBI Taxonomy assigns genus TaxID 5498 to Cladosporium. A second canonical route or asset would duplicate the selected genus.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5498&mode=Info",
+        "https://www.speciesfungorum.org/names/TreeOfLife.asp?GenusRecordID=7681",
+        "https://doi.org/10.5598/imafungus.2015.06.02.14",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4681266/"
+      ],
+      "requiredResolution": "Merge the supported historical Davidiella observation and source-label context into the Cladosporium record, retire the obsolete genus slug, and preserve source-era uses of Davidiella without creating a second canonical taxon or media asset.",
+      "routingImpact": "The obsolete slug is excluded from the canonical queue, registry, public media files, and image sitemap. The existing reviewed Cladosporium asset remains the sole current-route asset keyed to NCBITaxon:5498.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The Davidiella route was retired after the only supported historical observation was merged into Cladosporium with its original label and limitations. Six unrelated declared source associations and uncited metal, colonization, and disease mechanisms were not carried forward. Article, history, and suggest routes permanently redirect to the single current Cladosporium record.",
+      "canonicalPageId": "cladosporium",
+      "canonicalIdentifier": "NCBITaxon:5498",
+      "queueReplacement": {
+        "pageId": "cladosporium",
+        "title": "Cladosporium",
+        "route": "/article/cladosporium",
+        "controlledIdentifier": "NCBITaxon:5498",
+        "coverageStatus": "uncovered"
+      }
     }
   ],
   "revisedAssets": [

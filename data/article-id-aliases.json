@@ -12,7 +12,8 @@
     "candida-auris": "candidozyma-auris",
     "candida-glabrata": "nakaseomyces-glabratus",
     "clostridiales": "eubacteriales",
-    "clostridium-difficile": "clostridioides-difficile"
+    "clostridium-difficile": "clostridioides-difficile",
+    "davidiella": "cladosporium"
   },
   "canonicalTaxa": {
     "akkermansia-muciniphila": {
@@ -55,6 +56,11 @@
       "title": "Clostridioides difficile",
       "ncbiTaxonomyId": 1496,
       "revisionPaths": ["wiki/entities/clostridium-difficile.md"]
+    },
+    "cladosporium": {
+      "title": "Cladosporium",
+      "ncbiTaxonomyId": 5498,
+      "revisionPaths": ["wiki/entities/davidiella.md"]
     }
   },
   "retiredCanonicalIds": [
@@ -67,7 +73,8 @@
     "candida-auris",
     "candida-glabrata",
     "clostridiales",
-    "clostridium-difficile"
+    "clostridium-difficile",
+    "davidiella"
   ],
   "forbiddenCanonicalTitles": [
     "Akkermansia mucinicola",
@@ -79,7 +86,8 @@
     "Candida auris",
     "Candida glabrata",
     "Clostridiales",
-    "Clostridium difficile"
+    "Clostridium difficile",
+    "Davidiella"
   ],
   "forbiddenPublicPatterns": [
     "Allisonella hiatal",
@@ -88,6 +96,7 @@
     "Candida auris is the current name",
     "Candida glabrata is the current name",
     "Clostridiales is the current name",
-    "Clostridium difficile is the current name"
+    "Clostridium difficile is the current name",
+    "Davidiella is the current name"
   ]
 }
