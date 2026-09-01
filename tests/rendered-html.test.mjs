@@ -87,10 +87,20 @@ test("accepts only privacy-limited search observability events", async () => {
       headers: { "content-type": "application/json" },
       body: JSON.stringify({ version: 1, event: "search_landing", path: "/article/nickel?q=private", source: "google" }),
     }), env, ctx);
+    const rejectedCrossOrigin = await worker.fetch(new Request("http://localhost/api/search-observability", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+        origin: "https://example.org",
+        "sec-fetch-site": "cross-site",
+      },
+      body: JSON.stringify({ version: 1, event: "search_landing", path: "/article/nickel", source: "google" }),
+    }), env, ctx);
 
     assert.equal(accepted.status, 202);
     assert.equal(rejectedSource.status, 400);
     assert.equal(rejectedQuery.status, 400);
+    assert.equal(rejectedCrossOrigin.status, 403);
     assert.equal(captured.length, 1);
     assert.deepEqual(JSON.parse(captured[0][1]), { version: 1, event: "search_landing", path: "/article/nickel", source: "google" });
   } finally {
