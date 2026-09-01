@@ -19,7 +19,7 @@ platform: wikibiome
 condition: "prenatal metal exposure / childhood gut microbiome"
 karen_brain_primitives: [1, 3]
 metals_discussed: [lead]
-taxa_discussed: [ruminococcus-gnavus, bifidobacterium-longum, bifidobacterium-bifidum, alistipes-indistinctus, alistipes-putredinis, bacteroides-caccae, bacteroides-intestinalis, bacteroides-coprocola, bacteroides-finegoldii, coprococcus-catus, eubacterium-eligens, fusobacteriota, proteobacteria]
+taxa_discussed: [ruminococcus-gnavus, bifidobacterium-longum, bifidobacterium-bifidum, alistipes-indistinctus, alistipes-putredinis, bacteroides-caccae, bacteroides-intestinalis, bacteroides-coprocola, bacteroides-finegoldii, coprococcus-catus, lachnospira-eligens, fusobacteriota, proteobacteria]
 key_findings:
   - "Prenatal maternal blood Pb (mean 33.6–34.9 µg/L, 2nd/3rd trimester) negatively associated with the overall gut microbiome mixture at age 9–11 (WQS β≈-0.17; ~88% of holdouts below zero)"
   - "Ruminococcus gnavus, Bifidobacterium longum, B. bifidum, Alistipes indistinctus, and Bacteroides caccae were consistently depleted with prenatal Pb in both trimesters"

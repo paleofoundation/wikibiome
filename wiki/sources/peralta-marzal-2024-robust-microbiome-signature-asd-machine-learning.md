@@ -49,7 +49,7 @@ Machine learning study applying **Recursive Ensemble Feature Selection (REFS)** 
 - **[[clostridium]]** (multiple ASVs — genus level, family Clostridiaceae)
 - **[[lachnospiraceae]]** (multiple ASVs including [[lachnospira]], [[dysbiosis|Sarcina]])
 - **[[enterobacteriaceae]]** (multiple ASVs)
-- [[anaerotruncus|Anaerotruncus]], [[butyricicoccus|Butyricicoccus]], [[eubacterium|Eubacterium eligens]]
+- [[anaerotruncus|Anaerotruncus]], [[butyricicoccus|Butyricicoccus]], [[lachnospira-eligens|Eubacterium eligens]]
 - [[oscillospiraceae|Oscillospira]], [[clostridium]] assigned to Lachnospiraceae
 
 ### Key ASD-Decreased Taxa

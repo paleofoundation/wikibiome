@@ -22,7 +22,7 @@ triangles:
     status: validated
 
 targets:
-  taxa: [faecalibacterium-prausnitzii, roseburia, eubacterium-rectale]
+  taxa: [faecalibacterium-prausnitzii, roseburia, agathobacter-rectalis]
   enzymes: [histone-deacetylase]
   metals: []
   ecological: [SCFA-production, colonocyte-nutrition, barrier-maintenance]

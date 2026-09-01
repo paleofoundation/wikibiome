@@ -22,7 +22,7 @@ conditions_depleted_in: [cardiovascular-disease, colorectal-cancer, parkinsons-d
 
 # Lachnospiraceae (Family)
 
-This page serves as the family-level hub for Lachnospiraceae, connecting the individual genus and species pages ([[roseburia]], [[blautia]], [[anaerostipes]], [[eubacterium-rectale]]) with the overarching ecological and metabolic framework that defines the family. For the primary entity page with detailed per-disease depletion data, see [[lachnospiraceae]].
+This page serves as the family-level hub for Lachnospiraceae, connecting the individual genus and species pages ([[roseburia]], [[blautia]], [[anaerostipes]], [[agathobacter-rectalis]]) with the overarching ecological and metabolic framework that defines the family. For the primary entity page with detailed per-disease depletion data, see [[lachnospiraceae]].
 
 ## Why a Family-Level Page?
 
@@ -80,7 +80,7 @@ This cascade positions Lachnospiraceae as the first domino in metal-driven dysbi
 - [[roseburia]] -- key butyrate-producing genus within the family
 - [[blautia]] -- acetate-producing genus; depleted in multiple conditions
 - [[anaerostipes]] -- lactate-utilizing butyrate producer
-- [[eubacterium-rectale]] -- major butyrate producer; depleted in CVD and neurodegenerative disease
+- [[agathobacter-rectalis]] -- major butyrate producer; depleted in CVD and neurodegenerative disease
 - [[butyrate]] -- primary metabolic product
 - [[iron]] -- iron-sulfur cluster dependency for butyrate synthesis
 - [[cadmium]] -- toxic metal causing Lachnospiraceae depletion

@@ -15,7 +15,7 @@ sample_size: "GM GWAS: 18,340 (MiBioGen); GD: 4,846 cases / 349,717 controls (Fi
 tags: [graves-disease, thyroid, autoimmune, gut-microbiota, mendelian-randomization, thyroid-nodules, thyroid-cancer, Plummer-disease, gut-thyroid-axis, Bifidobacterium, SCFA, Butyricimonas, Desulfovibrio, genus-level, six-diseases]
 platform: wikibiome
 metals_discussed: []
-taxa_discussed: [bifidobacterium, butyricimonas, catenibacterium, collinsella, desulfovibrio, eubacterium-rectale, lachnospira, oscillospira, ruminiclostridium, victivallis]
+taxa_discussed: [bifidobacterium, butyricimonas, catenibacterium, collinsella, desulfovibrio, agathobacter-rectalis, lachnospira, oscillospira, ruminiclostridium, victivallis]
 karen_brain_primitives: [4, 5]
 key_findings:
   - "32 gut microbial taxa are causally linked to six thyroid diseases at genus level; 9 genera specifically associated with Graves' disease"

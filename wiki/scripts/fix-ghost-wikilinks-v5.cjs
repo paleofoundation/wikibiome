@@ -181,7 +181,7 @@ const ALIASES = {
   'Halobacteria': 'methanobrevibacter-smithii',
   'Gut microbiota': 'dysbiosis', 'Gemmiger': 'dysbiosis',
   'G-quadruplexes': 'gene-regulation',
-  'Eubacterium rectale group': 'eubacterium-rectale',
+  'Eubacterium rectale group': 'agathobacter-rectalis',
   'Eubacterium dolchum': 'dysbiosis',
   'Eubacterium coprostanoligenes': 'bile-acid-metabolism',
   'Erysipelotrichaceae_UCG-003': 'dysbiosis',

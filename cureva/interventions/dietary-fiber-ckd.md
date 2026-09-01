@@ -22,7 +22,7 @@ triangles:
     status: validated
 
 targets:
-  taxa: [faecalibacterium-prausnitzii, roseburia, ruminococcus-bromii, eubacterium-rectale, prevotella]
+  taxa: [faecalibacterium-prausnitzii, roseburia, ruminococcus-bromii, agathobacter-rectalis, prevotella]
   enzymes: [tryptophanase, tyrosine-decarboxylase]
   metals: []
   ecological: [saccharolytic-shift, SCFA-restoration, uremic-toxin-reduction, gut-barrier-repair]

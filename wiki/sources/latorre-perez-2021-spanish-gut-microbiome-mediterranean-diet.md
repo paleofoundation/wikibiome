@@ -19,7 +19,7 @@ platform: both
 condition: "erectile dysfunction"
 karen_brain_primitives: [1, 5, 9]
 metals_discussed: []
-taxa_discussed: [bacteroides, faecalibacterium, prevotella, alistipes, oscillospiraceae, roseburia, parabacteroides, lachnospiraceae, bifidobacterium, akkermansia, flavonifractor, eubacterium-eligens, ruminococcus-torques, streptococcus, coprococcus, bilophila, acidaminococcus]
+taxa_discussed: [bacteroides, faecalibacterium, prevotella, alistipes, oscillospiraceae, roseburia, parabacteroides, lachnospiraceae, bifidobacterium, akkermansia, flavonifractor, lachnospira-eligens, ruminococcus-torques, streptococcus, coprococcus, bilophila, acidaminococcus]
 key_findings:
   - "Spanish gut microbiome dominated by Firmicutes (~54%) and Bacteroidota (~37%), with Bacteroides (~18%) and Faecalibacterium (~13%) as dominant genera"
   - "Mediterranean diet adherence correlates with specific microbial markers — Flavonifractor negatively associated with healthy foods, Eubacterium eligens positively associated with vegetables and nuts"
@@ -75,7 +75,7 @@ Diet variables were analyzed at both genus and phylum level. Key findings:
 
 - **Nuts** showed the highest number of significant microbial associations (23 phyla or genera). Nut consumption was associated with Eubacterium eligens, Bifidobacterium, and Lachnospiraceae taxa (positive), and with decreased Lactobacillus and Bifidobacterium paradoxically showing negative correlations with nut consumption at the species level.
 - **[[flavonifractor]]** showed a paradigmatic pattern: positively associated with sugar-sweetened drinks, negatively associated with nuts, fruits, and vegetables. This genus has been linked to major depressive disorder, bipolar disorder, and colorectal cancer. F. plautii is a flavonoid-degrading bacterium that was negatively associated with adherence to the Mediterranean diet.
-- **[[eubacterium-eligens]]** group was positively associated with healthy foods (garnish vegetables, salad, green beans/chard/spinach, nuts) and negatively with less healthy food groups (sugar-sweetened beverages, pizza/croquette). Previously linked to vegetarian subjects and a beneficial health signature, and negatively associated with metabolic disorders.
+- The source-labeled **[[lachnospira-eligens|Eubacterium eligens group]]** was positively associated with healthy foods (garnish vegetables, salad, green beans/chard/spinach, nuts) and negatively with less healthy food groups (sugar-sweetened beverages, pizza/croquette). Previously linked to vegetarian subjects and a beneficial health signature, and negatively associated with metabolic disorders.
 - **[[ruminococcus-torques]]** group was positively associated with minced beef and negatively associated with healthy plant-based foods. Previously linked to non-vegetarian subjects and negatively associated with Mediterranean diet adherence.
 - **[[akkermansia]]** showed a negative correlation with sugar-sweetened drinks and spirits, consistent with the known inverse association between Akkermansia and metabolic disease states.
 - **Wine consumption** showed an inverse correlation with both [[bifidobacterium]] and Acidaminococcus. A decrease in Acidaminococcus sp. D21 has been linked to alcohol dependence syndrome and liver cirrhosis.

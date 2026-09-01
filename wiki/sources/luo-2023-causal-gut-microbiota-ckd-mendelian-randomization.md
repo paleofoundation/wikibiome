@@ -3,7 +3,7 @@ title: "Luo 2023 — Causal Effects of Gut Microbiota on CKD Risk: Mendelian Ran
 type: source
 created: 2026-04-14
 updated: 2026-04-17
-authors: [Luo, Chen, Li, Wang, Zhang]
+authors: [Mingli Luo, Jiahao Cai, Shulu Luo, Xiaosi Hong, Lingxin Xu, Honghong Lin, Xiong Chen, Wen Fu]
 year: 2023
 journal: "Frontiers in Cellular and Infection Microbiology"
 doi: "10.3389/fcimb.2023.1142140"
@@ -15,10 +15,11 @@ platform: both
 condition: "chronic-kidney-disease"
 karen_brain_primitives: [1]
 metals_discussed: []
-taxa_discussed: [desulfovibrionales, desulfovibrionaceae, eubacterium-eligens, lachnospiraceae]
+taxa_discussed: [desulfovibrionales, desulfovibrionaceae, lachnospira-eligens, lachnospiraceae]
 key_findings:
   - "Desulfovibrionales causally increases CKD risk (OR=1.15, significant after Bonferroni correction)"
   - "Lachnospiraceae UCG-010 is causally protective against CKD (OR=0.89)"
+  - "The source-labeled Eubacterium eligens group showed a nominal risk-increasing association (OR=1.19), not a protective species-level result"
   - "MR design supports causal rather than merely associational relationship between gut taxa and CKD"
 ---
 
@@ -26,7 +27,7 @@ key_findings:
 
 - **Desulfovibrionales order causally increases CKD risk** (OR=1.15), surviving Bonferroni correction for multiple testing. This moves the Desulfovibrio-CKD link from association to causal evidence.
 - **Lachnospiraceae UCG-010 is causally protective** (OR=0.89), supporting the consistent observational finding that Lachnospiraceae depletion accompanies CKD.
-- **[[eubacterium-eligens]]** also showed a protective causal signal.
+- The source-labeled **[[lachnospira-eligens|Eubacterium eligens group]]** showed a nominal risk-increasing association (IVW OR 1.19, 95% CI 1.05–1.35; P=0.006); it did not meet the study's Bonferroni threshold.
 - The Mendelian randomization design leverages genetic instruments to overcome confounding, providing **quasi-experimental evidence** that specific gut taxa directly influence CKD risk rather than merely reflecting renal dysfunction.
 - The large sample (n=480,698) from GWAS summary statistics provides substantial statistical power.
 
@@ -40,7 +41,7 @@ key_findings:
 
 ## Detailed Summary
 
-Luo et al. provide quasi-experimental evidence that specific gut taxa causally influence CKD risk, leveraging the natural randomization of genetic variants that influence gut microbiome composition. The Desulfovibrionales finding is biologically coherent: this sulfate-reducing order produces hydrogen sulfide (H2S), which at elevated concentrations damages the intestinal epithelium, promotes inflammation, and may contribute to systemic vascular injury that accelerates renal decline. The Lachnospiraceae UCG-010 protective signal aligns with the consistent observational finding that Lachnospiraceae depletion accompanies CKD, and the Eubacterium eligens protection is consistent with its role as a butyrate producer. The large sample size (n=480,698) provides statistical power that most observational CKD microbiome studies lack, and the survival of key findings after Bonferroni correction strengthens the causal inference.
+Luo et al. provide quasi-experimental evidence for associations between genetically proxied gut taxa and CKD risk. The order *Desulfovibrionales* met the study's Bonferroni threshold. The source-labeled *Eubacterium eligens group* association pointed toward increased risk but remained nominal after multiple-testing correction; it must not be described as protective or as a species-resolved effect of [[lachnospira-eligens]]. The large outcome GWAS improves statistical power, but the microbiome instruments remain genus- or group-level and predominantly European-ancestry.
 
 ## Relevance to WikiBiome
 

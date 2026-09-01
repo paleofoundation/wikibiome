@@ -17,7 +17,7 @@ associated_conditions: [celiac-disease, type-2-diabetes, hashimotos-thyroiditis,
 shared_signature_metals: {celiac-disease: [zinc, iron], type-2-diabetes: [zinc, iron, copper], hashimotos-thyroiditis: [zinc, iron, selenium], diabetic-kidney-disease: [zinc, iron]}
 shared_signature_taxa: {celiac-disease: [bifidobacterium-depleted, bacteroides], type-2-diabetes: [bifidobacterium-depleted, faecalibacterium-depleted], hashimotos-thyroiditis: [bifidobacterium-depleted, lactobacillus-depleted], diabetic-kidney-disease: [bifidobacterium-depleted, actinobacteria-depleted]}
 seo_target: "type 1 diabetes gut microbiome dysbiosis zinc insulin autoimmune bacteria"
-wikipedia_differentiation: "Causal Mendelian randomization evidence for specific taxa (Bacteroidetes, Eubacterium eligens) in T1D risk; ZnT8 autoantigen connecting zinc-insulin hexamer biology to autoimmune beta cell destruction; CVB4 viral dysbiosis mechanism; copper and nickel associations; microbiome-mediated DKD complication risk"
+wikipedia_differentiation: "Mendelian-randomization evidence for source-defined microbial taxa and groups in T1D risk; ZnT8 autoantigen connecting zinc-insulin hexamer biology to autoimmune beta cell destruction; CVB4 viral dysbiosis mechanism; copper and nickel associations; microbiome-mediated DKD complication risk"
 ---
 
 # Type 1 Diabetes (T1D)
@@ -88,7 +88,7 @@ Taxa with causal evidence for decreasing T1D risk (protective):
 | Peptococcaceae | Family | 0.82 (0.68–0.98) | 0.034 | 0.588 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |
 | Tenericutes | Phylum | 0.80 (0.64–0.99) | 0.037 | 0.138 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |
 
-The *Eubacterium eligens* group signal is the most robust in the dataset — FDR-significant (P_FDR = 0.031) with no heterogeneity or pleiotropy detected. This Firmicutes genus is a known butyrate producer; its protective role is consistent with the broader pattern of Firmicutes depletion in T1D.
+The source-labeled *Eubacterium eligens* group signal is the most robust inverse result in the dataset — FDR-significant (P_FDR = 0.031) with no heterogeneity or pleiotropy detected. The group label is broader than a verified species assignment and must not be treated as species-resolved evidence for [[lachnospira-eligens]].
 
 The inverse Bacteroidetes/Firmicutes causal pattern mirrors observational data: Bacteroidetes enrichment and Firmicutes depletion are both causally associated with increased T1D risk. The MR study leveraged FinnGen T1D GWAS (n = 264,137 Europeans), giving it substantially more power than prior analyses [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]].
 
@@ -167,7 +167,7 @@ The CVB4 virus experiments demonstrate that steps 1–4 can be triggered by vira
 
 ## Key Sources
 
-- [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] — Two-sample bidirectional MR, n=264,137; causal evidence for Bacteroidetes risk and Eubacterium eligens protection (FDR-significant)
+- [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] — Two-sample bidirectional MR, n=264,137; inverse association for the source-labeled *Eubacterium eligens group* (FDR-significant), not a species-resolved intervention result
 - [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]] — CVB4-induced dysbiosis FMT experiments; GPR43/Treg mechanism; gut barrier compromise
 - [[liu-2024-gut-microbiota-diabetic-complications-mr-study]] — MR evidence for Bifidobacterium protection against DKD in T1D (OR=0.566); complication-microbiota bidirectionality
 - [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]] — RCT evidence for Cu/Ni reduction via probiotic gut microbiome modulation; Blautia-antioxidant connection
@@ -180,7 +180,7 @@ The CVB4 virus experiments demonstrate that steps 1–4 can be triggered by vira
 
 ## Open Questions
 
-1. Why does *Eubacterium eligens* — the strongest causally protective genus in MR data — receive so little attention in T1D research? Is its butyrate production the protective mechanism, or something else?
+1. Which organisms within the source-labeled *Eubacterium eligens group* drive the strongest inverse MR association, and can the result be reproduced at species or strain resolution?
 2. Does the paradoxical Bifidobacteria elevation in CVB4-infected diabetogenic mice reflect specific diabetogenic strains vs. broadly protective strains — and can strain-level resolution resolve the Bifidobacterium paradox in T1D?
 3. Can the Bifidobacterium-DKD causal protective signal (OR = 0.566) be translated into a complication-prevention intervention in established T1D patients?
 4. What explains the Bacteroidota/Firmicutes ratio shift in pre-T1D — is it driven by elevated Bacteroidetes, depleted Firmicutes, or both independently?
@@ -194,7 +194,7 @@ The CVB4 virus experiments demonstrate that steps 1–4 can be triggered by vira
 - [[copper]] — Gut microbiome-mediated metal dynamics; Blautia enrichment under high-Cu conditions
 - [[bifidobacterium]] — Consistently depleted in T1D; causally protective against DKD complication; disrupted by CVB4 viral infection
 - [[bacteroides]] — Bacteroidetes enriched in T1D; Bacteroidia and Bacteroidales causally increase T1D risk (MR evidence)
-- [[lachnospiraceae]] — Multiple protective genera (UCG008, Eubacterium eligens, Dorea) with MR evidence
+- [[lachnospiraceae]] — Multiple source-defined genera or groups (UCG008, *Eubacterium eligens group*, Dorea) with inverse MR associations
 - [[dysbiosis]] — Early-life microbiome disruption precedes autoimmune seroconversion; CVB4-driven dysbiosis is transferable via FMT
 - [[intestinal-permeability|gut-barrier]] — Compromised tight junctions enable LPS/bacterial translocation to PLN; CVB4 reduces barrier by 2-fold
 - [[immune-balance]] — Th1/Th2 shift, Treg dysfunction, GPR43/SCFA signaling in T1D pathogenesis

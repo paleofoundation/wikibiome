@@ -52,7 +52,7 @@ A Gram-negative, obligate anaerobic bacterium within the phylum Bacteroidetes an
 
 ## Ecological Role
 
-- Functions as a primary degrader in the gut, breaking down complex polysaccharides into simpler substrates that feed secondary fermenters including butyrate producers like [[faecalibacterium-prausnitzii]] and [[eubacterium-rectale]].
+- Functions as a primary degrader in the gut, breaking down complex polysaccharides into simpler substrates that feed secondary fermenters including butyrate producers like [[faecalibacterium-prausnitzii]] and [[agathobacter-rectalis]].
 - Its loss disrupts the fiber fermentation cascade, reducing SCFA availability and potentially contributing to the pro-inflammatory environment seen in dysbiotic states.
 
 ## Cross-References

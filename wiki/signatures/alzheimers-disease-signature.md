@@ -23,8 +23,8 @@ taxonomic_signature:
     - taxon: "[[klebsiella-pneumoniae]]"
       role: "Gram-negative pathobiont enriched in AD; siderophore-mediated iron piracy"
   depleted:
-    - taxon: "[[eubacterium-rectale]]"
-      role: "Major butyrate producer; loss reduces gut barrier integrity and anti-inflammatory signaling"
+    - taxon: "[[agathobacter-rectalis|Eubacterium rectale]]"
+      role: "A cited review reports the historical species label as decreased in AD; it does not establish causation or a species-specific mechanism"
     - taxon: "[[bacteroides]]"
       role: "Commensal species depleted in AD; reduced diversity in Bacteroidetes phylum"
     - taxon: "[[faecalibacterium-prausnitzii]]"
@@ -133,7 +133,7 @@ Confidence: moderate -- supported by 3-4 independent studies with consistent enr
 
 ### Depleted taxa
 
-- [[eubacterium-rectale]]: Major butyrate producer depleted in AD; its loss reduces gut barrier integrity and SCFA-mediated neuroprotection [[khatoon-2023-gut-microbiota-neurodegenerative]].
+- [[agathobacter-rectalis|Eubacterium rectale]]: A cited review reports the historical species label as decreased in AD; it does not establish causation or a species-specific neuroprotective mechanism [[khatoon-2023-gut-microbiota-neurodegenerative]].
 - [[faecalibacterium-prausnitzii]]: Anti-inflammatory SCFA producer; depletion is consistent across AD studies and contributes to systemic and neuroinflammation.
 - [[lachnospiraceae]]: SCFA-producing family consistently depleted in AD; butyrate from Lachnospiraceae maintains BBB integrity.
 - [[roseburia]]: Butyrate producer; depletion impairs gut barrier and reduces anti-inflammatory tone.
@@ -159,7 +159,7 @@ The AD gut-brain ecosystem is characterized by:
 2. Blood-brain barrier disruption: Pb and Cd specifically damage the BBB [[ahmed-2025-metals-alzheimers-mechanistic-review]]; LPS from gut bacteria further impairs BBB integrity [[khatoon-2023-gut-microbiota-neurodegenerative]].
 3. Amyloid cross-seeding: Bacterial curli from gut E. coli cross-seeds with cerebral A-beta, creating a gut-to-brain protein aggregation pathway [[gentile-2020-diet-microbiota-brain-health]].
 4. LPS endotoxemia: Increased Gram-negative bacteria in AD gut produce LPS that traverses the compromised gut barrier, driving systemic inflammation and enhancing A-beta fibrillization.
-5. SCFA depletion: Loss of butyrate-producing commensals (Eubacterium rectale, Faecalibacterium, Lachnospiraceae) reduces gut barrier maintenance, BBB support, and anti-inflammatory signaling [[gentile-2020-diet-microbiota-brain-health]].
+5. SCFA depletion: Reviews associate lower abundance of source-labeled *Eubacterium rectale*, *Faecalibacterium*, and Lachnospiraceae with reduced butyrate availability; the cited evidence does not isolate a causal effect of [[agathobacter-rectalis]] [[gentile-2020-diet-microbiota-brain-health]].
 6. TMAO elevation: Gut bacteria-derived TMAO traverses the BBB and is found at increased levels in CSF of cognitively impaired AD patients [[khatoon-2023-gut-microbiota-neurodegenerative]].
 7. Ferroptosis: Iron-catalyzed lipid peroxidation cell death in hippocampal and cortical neurons; GPX4 downregulation removes the brake [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
 8. Epigenetic latency: Early-life Pb exposure produces latent effects on AD-related gene expression through epigenetic mechanisms that manifest decades later [[bakulski-2020-heavy-metals-alzheimers-dementias]], [[bakulski-2025-heavy-metals-late-onset-alzheimers]].

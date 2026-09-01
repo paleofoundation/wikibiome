@@ -11,7 +11,7 @@ year: 2023
 journal: "Frontiers in Cellular and Infection Microbiology"
 doi: "10.3389/fcimb.2023.1163898"
 pmid: "not yet verified"
-evidence_level: cross-sectional
+evidence_level: quasi-experimental
 sample_size: "n=264,137 (T1D outcome GWAS, FinnGen); n=18,340 (gut microbiota MiBioGen GWAS)"
 tags: [t1d, mendelian-randomization, bacteroidetes, firmicutes, eubacterium, causality, gut-microbiota]
 library_category: causal
@@ -19,10 +19,10 @@ platform: wikibiome
 condition: "type-1-diabetes"
 karen_brain_primitives: [1, 5]
 metals_discussed: []
-taxa_discussed: [bacteroidetes, bacteroidia, bacteroidales, eubacterium-eligens, firmicutes, clostridia, family-xi, peptococcaceae, veillonellaceae, butyricoccus, dorea, lachnospiraceae-ucg008, ruminococcaceae-ucg010, ruminococcus2, veillonella, holdemania, prevotellaceae, rikenellaceae]
+taxa_discussed: [bacteroidetes, bacteroidia, bacteroidales, lachnospira-eligens, firmicutes, clostridia, family-xi, peptococcaceae, veillonellaceae, butyricoccus, dorea, lachnospiraceae-ucg008, ruminococcaceae-ucg010, ruminococcus2, veillonella, holdemania, prevotellaceae, rikenellaceae]
 key_findings:
   - "Bacteroidetes phylum causally increases T1D risk (OR=1.24, 95% CI 1.01–1.53, p=0.044, IVW), with Bacteroidia class and Bacteroidales order also significant (OR=1.28, p=0.009)"
-  - "Eubacterium eligens group causally decreases T1D risk (OR=0.64, 95% CI 0.50–0.81, p=2.84×10⁻⁴, P_FDR=0.031, IVW) — the strongest protective signal in the study"
+  - "The source-labeled Eubacterium eligens group showed an inverse MR association with T1D risk (OR=0.64, 95% CI 0.50–0.81, p=2.84×10⁻⁴, P_FDR=0.031, IVW); the label is not species-resolved"
   - "Firmicutes taxa including Clostridia class, Family XI, Peptococcaceae, Veillonellaceae, Butyricoccus, Dorea, and Lachnospiraceae UCG008 showed nominally significant protective associations with T1D"
 keystone: false
 ---
@@ -30,7 +30,7 @@ keystone: false
 ## Key Findings
 
 - **Bacteroidetes phylum** causally increases T1D risk (OR = 1.24, 95% CI 1.01–1.53, p = 0.044, IVW); Bacteroidia class and Bacteroidales order both significant (OR = 1.28, 95% CI 1.06–1.53, p = 0.009, P_FDR = 0.085) — nominally significant after FDR correction [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]
-- **Eubacterium eligens group** (Firmicutes) causally decreases T1D risk (OR = 0.64, 95% CI 0.50–0.81, p = 2.84×10⁻⁴, P_FDR = 0.031, IVW) — FDR-significant and the strongest causal signal in the dataset
+- The source-labeled **[[lachnospira-eligens|Eubacterium eligens group]]** (Firmicutes) showed an inverse MR association with T1D risk (OR = 0.64, 95% CI 0.50–0.81, p = 2.84×10⁻⁴, P_FDR = 0.031, IVW). It was the strongest inverse signal in the dataset, but the group label does not resolve [[lachnospira-eligens]] alone.
 - Additional Firmicutes taxa with nominal T1D protection: Clostridia class (OR = 0.83, p = 0.049), Family XI (OR = 0.87, p = 0.007), Peptococcaceae (OR = 0.82, p = 0.034), Veillonellaceae (OR = 1.14, p = 0.027), Butyricoccus genus (OR = 1.25, p = 0.041), Dorea genus (OR = 0.81, p = 0.048), Lachnospiraceae UCG008 (OR = 0.86, p = 0.019)
 - Tenericutes phylum showed significant causal correlation with T1D (OR = 0.80, 95% CI 0.64–0.99, p = 0.037) in the minor phyla analysis
 - Reverse MR (T1D as exposure, gut microbiota as outcome) did not identify robust reverse causation signals, supporting unidirectional causality from microbiota to T1D risk
@@ -63,11 +63,11 @@ The inverse pattern between Bacteroidetes and Firmicutes is consistent with obse
 
 ## Relevance to WikiBiome
 
-Provides high-quality causal evidence (MR design) for the Bacteroidetes-T1D association previously described only observationally. Eubacterium eligens as a protective factor at genus level is new, granular, and actionable. Confirms Firmicutes depletion as causally linked to T1D risk rather than merely correlated.
+Provides genetically instrumented MR evidence for microbiome–T1D associations previously described observationally. The source-labeled *Eubacterium eligens group* result is group-level rather than a species-resolved or directly actionable finding. The predominantly European-ancestry instruments and MR assumptions constrain causal interpretation.
 
 ## Relevance to Cureva
 
-Eubacterium eligens protection signal (OR = 0.64, strongest in dataset) suggests a potential ecological intervention target. The Bacteroidetes causal signal supports the mechanistic model in which LPS-producing Bacteroidetes species activate innate immunity and accelerate islet autoimmunity.
+The inverse *Eubacterium eligens group* signal (OR = 0.64, strongest in the dataset) is hypothesis-generating; it does not identify a strain, species-specific mechanism, or validated intervention target. The Bacteroidetes signal likewise requires biological and interventional validation.
 
 ## Contradictions / Tensions
 
@@ -75,6 +75,6 @@ The Veillonellaceae finding is paradoxical — the IVW shows increased T1D risk 
 
 ## Open Questions
 
-- What is the mechanism by which Eubacterium eligens protects against T1D? Is it butyrate production or another metabolite?
+- Which organisms within the source-labeled *Eubacterium eligens group* drive the inverse T1D association, and can the association be reproduced with species- or strain-resolved data?
 - Are these MR findings replicable in non-European populations?
 - Do the causal signals persist after stratification by HLA-DR genetic risk?

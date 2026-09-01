@@ -18,7 +18,7 @@ platform: both
 condition: pmdd
 karen_brain_primitives: [1, 5, 7]
 metals_discussed: []
-taxa_discussed: [escherichia-shigella, blautia, lachnospiraceae, dialister, eubacterium-eligens, haemophilus, lachnospira, anaerotruncus, ruminiclostridium-5, prevotella-9, erysipelatoclostridium, marvinbryantia, catenibacterium, phascolarctobacterium]
+taxa_discussed: [escherichia-shigella, blautia, lachnospiraceae, dialister, lachnospira-eligens, haemophilus, lachnospira, anaerotruncus, ruminiclostridium-5, prevotella-9, erysipelatoclostridium, marvinbryantia, catenibacterium, phascolarctobacterium]
 key_findings:
   - "Only Escherichia/Shigella causally associated with EFMR after FDR correction (OR=1.004, p=0.00032)"
   - "Blautia protective against excessive/frequent/irregular menstruation (EFIM) (OR=0.994, p<0.001)"

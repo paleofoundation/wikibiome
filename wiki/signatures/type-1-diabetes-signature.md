@@ -19,8 +19,8 @@ taxonomic_signature:
     - taxon: "[[prevotellaceae]]"
       role: "Part of Bacteroidales order showing causal T1D risk (MR OR=1.28); contributes to LPS burden"
   depleted:
-    - taxon: "[[eubacterium-eligens]]"
-      role: "Strongest causally protective signal (MR OR=0.64, FDR-significant p=0.031); Firmicutes butyrate producer"
+    - taxon: "[[lachnospira-eligens|Eubacterium eligens group]]"
+      role: "Source-labeled group showed an inverse MR association with T1D (OR=0.64, FDR-adjusted p=0.031); the group label does not resolve Lachnospira eligens alone"
     - taxon: "[[bifidobacterium]]"
       role: "Most replicated depletion finding in T1D observational studies; promotes Treg differentiation and barrier integrity; causally protects against diabetic kidney disease (MR OR=0.566)"
     - taxon: "[[faecalibacterium-prausnitzii]]"
@@ -82,7 +82,7 @@ karen_brain_primitives: [1, 2, 4, 5, 9]
 
 ## Overview
 
-Type 1 diabetes is an autoimmune disease in which immune-mediated destruction of insulin-producing beta cells leads to lifelong insulin dependence. T1D accounts for 5-10% of all diabetes cases, with ~9.5 million cases globally and incidence rising 3-4% annually in Europe [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]. Three environmental factors now have strong mechanistic evidence converging during the developmentally critical first three years of life: heavy metal status (particularly [[zinc]] and [[iron]]), enteroviral infection, and gut microbiome dysbiosis. This signature is distinctive for its causal MR evidence establishing Bacteroidetes as a risk-increasing phylum and Eubacterium eligens as the strongest protective signal (FDR-significant), its viral dysbiosis trigger mechanism via CVB4, and the extension of Bifidobacterium's protective role from disease onset through to diabetic kidney disease complications [[liu-2024-gut-microbiota-diabetic-complications-mr-study]].
+Type 1 diabetes is an autoimmune disease in which immune-mediated destruction of insulin-producing beta cells leads to lifelong insulin dependence. T1D accounts for 5-10% of all diabetes cases, with ~9.5 million cases globally and incidence rising 3-4% annually in Europe [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]. Three environmental factors now have strong mechanistic evidence converging during the developmentally critical first three years of life: heavy metal status (particularly [[zinc]] and [[iron]]), enteroviral infection, and gut microbiome dysbiosis. This signature is distinctive for its MR evidence linking Bacteroidetes to increased T1D risk and the source-labeled *Eubacterium eligens group* to lower T1D risk, its viral dysbiosis trigger mechanism via CVB4, and the extension of Bifidobacterium's protective role from disease onset through to diabetic kidney disease complications [[liu-2024-gut-microbiota-diabetic-complications-mr-study]]. The historical group label is broader than the current species record [[lachnospira-eligens]] and must not be read as species-resolved evidence.
 
 ## Metallomic Signature
 
@@ -153,7 +153,7 @@ The Bacteroides dorei and B. vulgatus species are elevated in children who progr
 | Dorea | Genus | 0.81 (0.66-1.00) | 0.048 | 0.540 |
 | Peptococcaceae | Family | 0.82 (0.68-0.98) | 0.034 | 0.588 |
 
-Eubacterium eligens is the strongest signal — FDR-significant with no heterogeneity or pleiotropy detected. This Firmicutes genus is a known butyrate producer; its protective role is consistent with the broader Firmicutes depletion pattern.
+The source-labeled *Eubacterium eligens group* is the strongest inverse signal — FDR-significant with no heterogeneity or pleiotropy detected. That group-level result does not establish a species-resolved effect for [[lachnospira-eligens]].
 
 Reverse MR did not identify robust reverse causation signals, supporting unidirectional causality from microbiota to T1D risk [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]].
 
@@ -223,7 +223,7 @@ The celiac disease overlap (0.58) reflects shared HLA-DQ2/DQ8 genetic risk and c
 
 ## Open Questions
 
-1. Why does Eubacterium eligens — the strongest causally protective genus — receive so little attention in T1D research? Is butyrate production the mechanism, or something else? [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]
+1. Which organisms within the source-labeled *Eubacterium eligens group* drive the strongest inverse MR association, and can the result be reproduced at species or strain resolution? [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]
 2. Does the paradoxical Bifidobacteria elevation in CVB4-infected diabetogenic mice reflect specific diabetogenic strains vs. broadly protective strains? Strain-level resolution is needed [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]].
 3. Can the Bifidobacterium-DKD protective signal (OR=0.566) be translated into a complication-prevention intervention? [[liu-2024-gut-microbiota-diabetic-complications-mr-study]]
 4. Does ferroptosis contribute to beta cell death in T1D? Could ferroptosis inhibitors preserve beta cell mass?
@@ -235,5 +235,5 @@ The celiac disease overlap (0.58) reflects shared HLA-DQ2/DQ8 genetic risk and c
 - Primitive 1 — Metals as Selective Pressures: Zinc deficiency and iron dysregulation create selective pressures in the islet microenvironment; Cu/Ni exposure reshapes gut communities toward Bacteroides-enriched, butyrate-depleted profiles matching pre-T1D ecology [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]
 - Primitive 2 — Nutritional Immunity as Interpretive Constraint: ZnT8 as autoantigen represents a unique case where a nutritional immunity component (zinc transporter) becomes the immune target itself; hepcidin-mediated iron trapping in islets may be defensive but cytotoxic
 - Primitive 4 — Microbial Metal Dependencies as Achilles' Heels: Bacteroides species depend on iron for LPS biosynthesis; restricting iron availability could reduce LPS-mediated innate immune activation at the PLN
-- Primitive 5 — Two-Sided Ecological Engineering: Must suppress Bacteroidetes (causal risk, OR=1.24-1.28) AND restore Eubacterium eligens (causal protection, OR=0.64) and Bifidobacterium (DKD protection, OR=0.566); neither side alone addresses the full autoimmune cascade
+- Primitive 5 — Two-Sided Ecological Engineering: The inverse *Eubacterium eligens group* association (OR=0.64) and Bifidobacterium–DKD association (OR=0.566) motivate hypotheses, but neither group-level MR result establishes a species-targeted intervention.
 - Primitive 9 — Oxygen State as Ecological Determinant: Firmicutes depletion (obligate anaerobes) and Bacteroidetes enrichment may reflect altered colonic oxygen state; CVB4-induced barrier compromise allows oxygen infiltration that disadvantages strict anaerobes [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]]

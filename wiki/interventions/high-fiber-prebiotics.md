@@ -22,7 +22,7 @@ triangles:
     status: promising
 
 targets:
-  taxa: [faecalibacterium-prausnitzii, roseburia, bifidobacterium, eubacterium-rectale]
+  taxa: [faecalibacterium-prausnitzii, roseburia, bifidobacterium, agathobacter-rectalis]
   enzymes: []
   metals: []
   ecological: [butyrate-restoration, saccharolytic-shift, gut-barrier-repair]

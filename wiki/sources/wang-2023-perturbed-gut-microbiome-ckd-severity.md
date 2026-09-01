@@ -13,7 +13,7 @@ tags: [chronic-kidney-disease, CKD, metagenomics, metabolomics, Ruminococcus-bro
 library_category: signatures
 platform: wikibiome
 condition: "chronic-kidney-disease"
-taxa_discussed: [ruminococcus-bromii, faecalibacterium-prausnitzii, eubacterium-rectale, citrobacter, flavonifractor]
+taxa_discussed: [ruminococcus-bromii, faecalibacterium-prausnitzii, agathobacter-rectalis, citrobacter, flavonifractor]
 metals_discussed: []
 karen_brain_primitives: [1, 4, 5]
 key_findings:
@@ -31,7 +31,7 @@ keystone: false
 - **[[ruminococcus-bromii]]** emerged as the main microbial contributor to the integrated CKD severity model, functioning as a keystone species in the gut ecosystem whose loss cascades through the microbial network.
 - **Fecal hydroquinone** was the primary metabolite contributor to the severity model, suggesting microbial aromatic compound metabolism is disrupted in CKD.
 - **Multi-omic model classified CKD severity with AUC >0.9**, substantially outperforming serum creatinine alone as a staging biomarker.
-- SCFA-producing taxa including **[[faecalibacterium-prausnitzii]]** and **[[eubacterium-rectale]]** were progressively depleted, while uremic toxin-associated taxa including **[[citrobacter]]** and **[[flavonifractor]]** were enriched.
+- SCFA-producing taxa including **[[faecalibacterium-prausnitzii]]** and source-labeled **[[agathobacter-rectalis|Eubacterium rectale]]** were progressively depleted, while uremic toxin-associated taxa including **[[citrobacter]]** and **[[flavonifractor]]** were enriched.
 
 ## Methods
 

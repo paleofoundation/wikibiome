@@ -70,7 +70,7 @@ The keystone degrader concept means that *R. bromii* performs a function no othe
 
 *R. bromii*'s degradation of resistant starch releases oligosaccharides and simple sugars that are consumed by:
 
-- [[eubacterium-eligens]] and *Eubacterium rectale* — Convert released sugars to butyrate
+- [[lachnospira-eligens]] and [[agathobacter-rectalis]] — Current-name records for taxa historically discussed as downstream fermenters
 - [[faecalibacterium-prausnitzii]] — Acetate cross-feeding supports its butyrate production
 - [[bifidobacterium]] — Utilizes released maltooligosaccharides
 - Other [[firmicutes]] fermenters — Produce propionate and acetate
@@ -88,6 +88,6 @@ This cross-feeding cascade means that *R. bromii* abundance determines not just 
 - [[firmicutes]] — parent phylum; R. bromii degrades resistant starch for the broader Firmicutes community
 - [[butyrate]] — downstream metabolic product via cross-feeding
 - [[faecalibacterium-prausnitzii]] — cross-feeding partner receiving acetate
-- [[eubacterium-eligens]] — complementary fiber degrader (pectin specialist vs. RS specialist)
+- [[lachnospira-eligens]] — complementary fiber degrader (pectin specialist vs. RS specialist)
 - [[bacteroides-thetaiotaomicron]] — complementary starch degrader (soluble starches)
 - [[oxygen-state]] — SCFA production from RS degradation maintains anaerobic lumen

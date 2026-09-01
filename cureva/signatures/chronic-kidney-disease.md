@@ -45,7 +45,7 @@ taxonomic_signature:
       role: "Mucin producer; gut barrier protection; specifically depleted by cadmium exposure"
     - taxon: "[[bifidobacterium]]"
       role: "SCFA producer; heavy metal binder; negatively correlated with progression (variable in some studies)"
-    - taxon: "[[eubacterium-rectale]]"
+    - taxon: "[[agathobacter-rectalis|Eubacterium rectale]]"
       role: "Key butyrate species; depleted in CKD"
     - taxon: "[[ruminococcus-bromii]]"
       role: "Resistant starch degrader; main contributor to integrated disease network; keystone species"

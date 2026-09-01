@@ -1,8 +1,8 @@
 {
-  "_generated": "2026-09-01T15:47:14.687Z",
+  "_generated": "2026-09-01T18:15:42.888Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1932,
+    "sources": 1939,
     "entities": 328,
     "concepts": 264,
     "signatures": 70,
@@ -1661,6 +1661,171 @@
         {
           "id": "celiac-disease",
           "score": 6
+        }
+      ]
+    },
+    {
+      "id": "agathobacter-rectalis",
+      "title": "Agathobacter rectalis",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "Agathobacter",
+        "Lachnospiraceae",
+        "butyrate-producer",
+        "taxonomy",
+        "eubacterium-rectale-historical-name",
+        "source-label-boundary"
+      ],
+      "sources": [
+        "ncbi-taxonomy-agathobacter-rectalis",
+        "lpsn-agathobacter-rectalis",
+        "rosero-2016-agathobacter-rectalis-reclassification",
+        "sheridan-2016-objections-agathobacter-rectalis",
+        "vatanen-2018-teddy-gut-microbiome-t1d-nature",
+        "mendoza-leon-2023-scfas-thyroid-function",
+        "khatoon-2023-gut-microbiota-neurodegenerative",
+        "rahman-2022-gut-microbiota-cvd-therapeutic-regulation",
+        "li-2023-gut-microbiome-hypertension-bidirectional-mr",
+        "almeida-2023-gut-microbiota-cardiovascular-axis",
+        "chen-2024-gut-microbiota-six-thyroid-diseases-mr",
+        "zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics",
+        "kwak-2023-psychobiotics-fmt-asd-adhd",
+        "wang-2023-perturbed-microbiome-metabolomes-ckd-severity",
+        "wang-2024-causal-gut-microbiota-gerd-bidirectional-mr"
+      ],
+      "created": "2026-04-18T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Agathobacter rectalis",
+        "type": "entity",
+        "subtype": "microbe",
+        "created": "2026-04-18T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "ncbi-taxonomy-agathobacter-rectalis",
+          "lpsn-agathobacter-rectalis",
+          "rosero-2016-agathobacter-rectalis-reclassification",
+          "sheridan-2016-objections-agathobacter-rectalis",
+          "vatanen-2018-teddy-gut-microbiome-t1d-nature",
+          "mendoza-leon-2023-scfas-thyroid-function",
+          "khatoon-2023-gut-microbiota-neurodegenerative",
+          "rahman-2022-gut-microbiota-cvd-therapeutic-regulation",
+          "li-2023-gut-microbiome-hypertension-bidirectional-mr",
+          "almeida-2023-gut-microbiota-cardiovascular-axis",
+          "chen-2024-gut-microbiota-six-thyroid-diseases-mr",
+          "zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics",
+          "kwak-2023-psychobiotics-fmt-asd-adhd",
+          "wang-2023-perturbed-microbiome-metabolomes-ckd-severity",
+          "wang-2024-causal-gut-microbiota-gerd-bidirectional-mr"
+        ],
+        "source_count": 15,
+        "tags": [
+          "Agathobacter",
+          "Lachnospiraceae",
+          "butyrate-producer",
+          "taxonomy",
+          "eubacterium-rectale-historical-name",
+          "source-label-boundary"
+        ],
+        "seo_target": "Agathobacter rectalis NCBITaxon 39491 Eubacterium rectale historical name",
+        "wikipedia_differentiation": "Current Agathobacter rectalis identity reconciled with source-era Eubacterium rectale labels and the published objection to the transfer",
+        "platform": "wikibiome",
+        "gram_stain": "positive",
+        "oxygen_requirement": "anaerobic",
+        "metal_dependencies": [],
+        "key_enzymes": [],
+        "pathogenic_potential": "unknown",
+        "conditions_enriched_in": [],
+        "conditions_depleted_in": [],
+        "ncbi_taxonomy_id": 39491,
+        "historical_names": [
+          "Eubacterium rectale",
+          "Roseburia rectale"
+        ]
+      },
+      "overview": "*Agathobacter rectalis* (Hauduroy et al. 1937) Rosero et al. 2016 is the selected current name for NCBITaxon:39491. NCBI Taxonomy lists *Eubacterium rectale* as a homotypic synonym, and LPSN identifies *A. rectalis* as the correct validly published combination [[ncbi-taxonomy-agathobacter-rectalis]] [[lpsn-agathobacter-rectalis]]. Rosero and colleagues proposed the transfer to the new genus *Agathobacter* using phenotypic, chemotaxonomic, 16S rRNA, and housekeeping-gene evidence [[rosero-2016-agathobacter-rectalis-reclassification]].",
+      "sections": [
+        {
+          "heading": "Nomenclature and Published Disagreement",
+          "level": 2,
+          "body": "The transfer has not been free of scientific disagreement. Sheridan and colleagues objected that the evidence did not adequately support moving the narrowed human-gut species definition into the proposed genus [[sheridan-2016-objections-agathobacter-rectalis]]. WikiBiome follows the current NCBI and LPSN selection for canonical naming while retaining that published limitation. Canonicalization therefore records the selected nomenclatural convention; it does not claim unanimous phylogenetic agreement.\n\nHistorical publications commonly use “*Eubacterium rectale*,” and several microbiome GWAS report an “*Eubacterium rectale* group.” WikiBiome preserves those labels when summarizing what a source measured. A group-level 16S or GWAS label must not be read automatically as a species-resolved observation of *A. rectalis*."
+        },
+        {
+          "heading": "Reported Human-Microbiome Evidence",
+          "level": 2,
+          "body": "The cited TEDDY record reports source-labeled *Eubacterium rectale* among short-chain-fatty-acid-producing taxa depleted in children who progressed to type 1 diabetes in a prospective cohort of 783 children [[vatanen-2018-teddy-gut-microbiome-t1d-nature]]. A cross-sectional CKD multi-omics study likewise reported source-labeled *E. rectale* depletion across its 88-participant severity cohort [[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]]. A 96-participant shotgun-metagenomics study of pancreatic ductal adenocarcinoma, autoimmune pancreatitis, and healthy controls reported *E. rectale* as a discriminating source-era species label and measured lower fecal butyrate in the cancer group [[zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics]]. These studies support cohort-specific associations, not causation or a clinical intervention.\n\nReviews cited by WikiBiome report historical *E. rectale* labels in cardiovascular and neurodegenerative literature [[rahman-2022-gut-microbiota-cvd-therapeutic-regulation]] [[almeida-2023-gut-microbiota-cardiovascular-axis]] [[khatoon-2023-gut-microbiota-neurodegenerative]]. Their summaries do not establish a disease-wide effect. Likewise, Mendelian-randomization records using the “*Eubacterium rectale* group” label concern a legacy genus-level feature rather than a verified *A. rectalis* species measurement [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]].\n\nThe current cited record set does not substantiate a species-specific metal requirement, toxic-metal susceptibility mechanism, universal abundance range, or therapeutic conclusion. Those claims are therefore not carried into the reconciled page."
+        },
+        {
+          "heading": "Cross-References",
+          "level": 2,
+          "body": "- [[lachnospiraceae-family]] — parent family context\n- [[butyrate]] — metabolite context reported by cited studies\n- [[type-1-diabetes]] — prospective-cohort association under the historical label\n- [[chronic-kidney-disease]] — cross-sectional association under the historical label\n- [[cardiovascular-disease]] — review-level historical-label context"
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-agathobacter-rectalis",
+        "lpsn-agathobacter-rectalis",
+        "rosero-2016-agathobacter-rectalis-reclassification",
+        "sheridan-2016-objections-agathobacter-rectalis",
+        "vatanen-2018-teddy-gut-microbiome-t1d-nature",
+        "wang-2023-perturbed-microbiome-metabolomes-ckd-severity",
+        "zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics",
+        "rahman-2022-gut-microbiota-cvd-therapeutic-regulation",
+        "almeida-2023-gut-microbiota-cardiovascular-axis",
+        "khatoon-2023-gut-microbiota-neurodegenerative",
+        "chen-2024-gut-microbiota-six-thyroid-diseases-mr",
+        "wang-2024-causal-gut-microbiota-gerd-bidirectional-mr",
+        "lachnospiraceae-family",
+        "butyrate",
+        "type-1-diabetes",
+        "chronic-kidney-disease",
+        "cardiovascular-disease"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 15,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "bacteroides-uniformis",
+        "lachnospiraceae-family",
+        "ruminococcus-bromii",
+        "chronic-kidney-disease",
+        "alzheimers-disease-signature"
+      ],
+      "related": [
+        {
+          "id": "roseburia",
+          "score": 12
+        },
+        {
+          "id": "faecalibacterium-prausnitzii",
+          "score": 11
+        },
+        {
+          "id": "lachnospira-eligens",
+          "score": 9
+        },
+        {
+          "id": "bacteroides-fragilis",
+          "score": 8
+        },
+        {
+          "id": "lachnospira",
+          "score": 8
+        },
+        {
+          "id": "autism-spectrum-disorder",
+          "score": 7
+        },
+        {
+          "id": "bilophila",
+          "score": 7
+        },
+        {
+          "id": "depression",
+          "score": 7
         }
       ]
     },
@@ -3863,10 +4028,6 @@
       ],
       "related": [
         {
-          "id": "eubacterium-eligens",
-          "score": 9
-        },
-        {
           "id": "lachnospira",
           "score": 9
         },
@@ -3885,6 +4046,10 @@
         {
           "id": "subdoligranulum",
           "score": 8
+        },
+        {
+          "id": "lachnospira-eligens",
+          "score": 7
         },
         {
           "id": "actinobacteria",
@@ -5857,7 +6022,7 @@
           "score": 7
         },
         {
-          "id": "eubacterium-eligens",
+          "id": "saccharolytic-fermentation",
           "score": 6
         }
       ]
@@ -6612,7 +6777,7 @@
         {
           "heading": "Ecological Role",
           "level": 2,
-          "body": "- Functions as a primary degrader in the gut, breaking down complex polysaccharides into simpler substrates that feed secondary fermenters including butyrate producers like [[faecalibacterium-prausnitzii]] and [[eubacterium-rectale]].\n- Its loss disrupts the fiber fermentation cascade, reducing SCFA availability and potentially contributing to the pro-inflammatory environment seen in dysbiotic states."
+          "body": "- Functions as a primary degrader in the gut, breaking down complex polysaccharides into simpler substrates that feed secondary fermenters including butyrate producers like [[faecalibacterium-prausnitzii]] and [[agathobacter-rectalis]].\n- Its loss disrupts the fiber fermentation cascade, reducing SCFA availability and potentially contributing to the pro-inflammatory environment seen in dysbiotic states."
         },
         {
           "heading": "Cross-References",
@@ -6631,7 +6796,7 @@
         "iron",
         "zinc",
         "faecalibacterium-prausnitzii",
-        "eubacterium-rectale",
+        "agathobacter-rectalis",
         "bacteroides-thetaiotaomicron",
         "chronic-kidney-disease",
         "autism-spectrum-disorder"
@@ -9100,7 +9265,6 @@
         "clostridium-perfringens",
         "diabetic-kidney-disease",
         "eggerthella-lenta",
-        "eubacterium-rectale",
         "fibromyalgia",
         "inflammatory-bowel-disease",
         "iodine",
@@ -9207,15 +9371,15 @@
           "score": 82
         },
         {
-          "id": "roseburia",
-          "score": 75
-        },
-        {
           "id": "lead",
           "score": 74
         },
         {
           "id": "cadmium",
+          "score": 73
+        },
+        {
+          "id": "roseburia",
           "score": 73
         },
         {
@@ -11240,10 +11404,6 @@
       ],
       "related": [
         {
-          "id": "eubacterium-rectale",
-          "score": 9
-        },
-        {
           "id": "fusicatenibacter",
           "score": 7
         },
@@ -11270,6 +11430,10 @@
         {
           "id": "subdoligranulum",
           "score": 6
+        },
+        {
+          "id": "eubacterium",
+          "score": 5
         }
       ]
     },
@@ -13436,6 +13600,7 @@
       "backlinks": [
         "acinetobacter",
         "actinobacteria",
+        "agathobacter-rectalis",
         "alistipes",
         "bilophila",
         "bipolar-disorder",
@@ -13453,7 +13618,6 @@
         "enterobacteriaceae",
         "erectile-dysfunction",
         "eubacteriales",
-        "eubacterium-rectale",
         "eubacterium",
         "fusobacterium",
         "gordonibacter-urolithinfaciens",
@@ -13532,7 +13696,7 @@
         },
         {
           "id": "faecalibacterium-prausnitzii",
-          "score": 76
+          "score": 74
         },
         {
           "id": "inflammation",
@@ -13544,11 +13708,11 @@
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 62
+          "score": 60
         },
         {
           "id": "roseburia",
-          "score": 60
+          "score": 58
         },
         {
           "id": "multiple-sclerosis",
@@ -15726,6 +15890,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "agathobacter-rectalis",
         "alzheimers-disease",
         "anaerostipes",
         "bacteroides-uniformis",
@@ -15741,6 +15906,7 @@
         "flavonifractor",
         "fusobacteriales",
         "hypertension",
+        "lachnospira-eligens",
         "lachnospira",
         "malassezia",
         "oxalobacter",
@@ -16492,15 +16658,15 @@
           "score": 9
         },
         {
-          "id": "eubacterium-eligens",
-          "score": 9
-        },
-        {
           "id": "megasphaera",
           "score": 9
         },
         {
           "id": "prevotella",
+          "score": 9
+        },
+        {
+          "id": "prevotellaceae",
           "score": 9
         }
       ]
@@ -24990,10 +25156,6 @@
           "score": 7
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 6
-        },
-        {
           "id": "roseburia-intestinalis",
           "score": 6
         },
@@ -25008,6 +25170,10 @@
         {
           "id": "bile-salt-hydrolase",
           "score": 5
+        },
+        {
+          "id": "agathobacter-rectalis",
+          "score": 4
         },
         {
           "id": "blautia",
@@ -25747,366 +25913,6 @@
       ]
     },
     {
-      "id": "eubacterium-eligens",
-      "title": "Eubacterium eligens",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "Eubacterium",
-        "Lachnospiraceae",
-        "butyrate-producer",
-        "type-1-diabetes",
-        "protective",
-        "pectin-degrader",
-        "SCFA"
-      ],
-      "sources": [
-        "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
-        "peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning",
-        "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
-        "eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood",
-        "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
-        "yao-2024-gut-microbiota-menstrual-disorders-mr",
-        "luo-2023-causal-effects-gut-microbiota-ckd-mr",
-        "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese"
-      ],
-      "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Eubacterium eligens",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
-          "peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning",
-          "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
-          "eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood",
-          "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
-          "yao-2024-gut-microbiota-menstrual-disorders-mr",
-          "luo-2023-causal-effects-gut-microbiota-ckd-mr",
-          "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese"
-        ],
-        "source_count": 8,
-        "tags": [
-          "Eubacterium",
-          "Lachnospiraceae",
-          "butyrate-producer",
-          "type-1-diabetes",
-          "protective",
-          "pectin-degrader",
-          "SCFA"
-        ],
-        "seo_target": "Eubacterium eligens butyrate type 1 diabetes microbiome",
-        "wikipedia_differentiation": "FDR-significant Mendelian randomization evidence for causal protection against type 1 diabetes (OR 0.64, P_FDR 0.031) — the most statistically robust causal protective gut taxon identified for T1D; pectin-specialist fermentation profile distinguishing it from other Lachnospiraceae butyrate producers",
-        "gram_stain": "positive",
-        "oxygen_requirement": "obligate anaerobe",
-        "metal_dependencies": [
-          "iron"
-        ],
-        "key_enzymes": [
-          "butyryl-CoA-dehydrogenase",
-          "pectinase"
-        ],
-        "pathogenic_potential": "commensal",
-        "conditions_enriched_in": [],
-        "conditions_depleted_in": [
-          "type-1-diabetes"
-        ],
-        "platform": "wikibiome"
-      },
-      "overview": "",
-      "sections": [
-        {
-          "heading": "Overview",
-          "level": 2,
-          "body": "*Eubacterium eligens* is a Gram-positive, obligate anaerobic bacterium within the [[lachnospiraceae]] family and a significant butyrate producer in the human colon. While less well-known than *Faecalibacterium prausnitzii* or *Roseburia*, *E. eligens* has emerged as one of the most statistically robust causally protective organisms against [[type-1-diabetes]] in Mendelian randomization (MR) studies — a finding that has received surprisingly little attention given its significance."
-        },
-        {
-          "heading": "Metal Dependencies",
-          "level": 2,
-          "body": "As a member of the Firmicutes, *E. eligens* likely depends on iron for iron-sulfur cluster enzymes in its butyrate biosynthesis pathway (butyryl-CoA dehydrogenase). This iron dependency makes it vulnerable to both iron restriction by host nutritional immunity and iron-sulfur cluster damage by toxic metals — a pattern shared across the butyrate-producing Firmicutes guild."
-        },
-        {
-          "heading": "Key Enzymes and Virulence Factors",
-          "level": 2,
-          "body": "*E. eligens* has no virulence factors. Its functional significance derives from:\n\n- Butyryl-CoA dehydrogenase — Central enzyme in the butyrate synthesis pathway; produces butyrate from dietary fiber fermentation\n- Pectinase and pectin lyase — *E. eligens* is a pectin specialist, distinguishing its substrate niche from resistant-starch degraders like [[ruminococcus-bromii]] or xylan degraders like *Roseburia*. This pectin specificity means its abundance responds to fruit and vegetable intake rather than whole grain consumption."
-        },
-        {
-          "heading": "Ecological Role",
-          "level": 2,
-          "body": "In the healthy gut, *E. eligens* occupies the pectin-degradation niche within the broader butyrate-producing community. Its butyrate output contributes to:\n\n- Colonocyte energy metabolism and [[oxygen-state]] maintenance\n- Tight junction protein expression and barrier integrity\n- Regulatory T cell induction and anti-inflammatory signaling\n- Competitive exclusion of pathobionts through SCFA-mediated pH reduction\n\nThe pectin-specialist strategy means *E. eligens* abundance is particularly sensitive to fruit and vegetable diversity in the diet — a dietary pattern independently associated with reduced autoimmune risk."
-        },
-        {
-          "heading": "Conditions Associated",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Type 1 Diabetes — Causal Protection",
-          "level": 3,
-          "body": "The *Eubacterium eligens* group shows the most robust causal protective signal in the T1D MR dataset:\n\n| Metric | Value |\n|--------|-------|\n| OR (95% CI) | 0.64 (0.50-0.81) |\n| P-value | 2.84 x 10^-4 |\n| FDR-adjusted P | 0.031 |\n| Heterogeneity | None detected |\n| Pleiotropy | None detected |\n\nThis is FDR-significant with no confounding detected — the gold standard for MR evidence [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]. Whether the protective mechanism operates through butyrate production, immune modulation, or pectin-derived metabolites remains unknown and represents a major open question."
-        },
-        {
-          "heading": "Chronic Kidney Disease — Context-Dependent",
-          "level": 3,
-          "body": "Nominally significant as a risk-increasing taxon for CKD (OR 1.19), illustrating that the same organism can be protective in one disease context and detrimental in another — likely reflecting the different ecological and immunological environments of autoimmune versus metabolic-renal disease."
-        },
-        {
-          "heading": "Interkingdom Relationships",
-          "level": 2,
-          "body": "No documented interkingdom interactions. As an obligate anaerobe, *E. eligens* is likely excluded from oxygenated biofilm environments where fungal-bacterial partnerships predominate."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[type-1-diabetes]] — causal MR protection (FDR-significant)\n- [[lachnospiraceae]] — parent family; multiple protective genera in MR data\n- [[butyrate]] — primary metabolic product\n- [[faecalibacterium-prausnitzii]] — complementary butyrate producer with different substrate niche\n- [[oxygen-state]] — butyrate maintains colonocyte oxygen consumption"
-        }
-      ],
-      "wikilinks": [
-        "lachnospiraceae",
-        "type-1-diabetes",
-        "ruminococcus-bromii",
-        "oxygen-state",
-        "luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization",
-        "butyrate",
-        "faecalibacterium-prausnitzii"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 8,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "ruminococcus-bromii",
-        "type-1-diabetes-signature",
-        "broken-links-2026-04-16"
-      ],
-      "related": [
-        {
-          "id": "ruminococcaceae",
-          "score": 12
-        },
-        {
-          "id": "lachnospira",
-          "score": 11
-        },
-        {
-          "id": "oscillospirales",
-          "score": 11
-        },
-        {
-          "id": "anaerostipes",
-          "score": 10
-        },
-        {
-          "id": "alistipes",
-          "score": 9
-        },
-        {
-          "id": "anaerotruncus",
-          "score": 9
-        },
-        {
-          "id": "chronic-kidney-disease",
-          "score": 9
-        },
-        {
-          "id": "clostridia",
-          "score": 9
-        }
-      ]
-    },
-    {
-      "id": "eubacterium-rectale",
-      "title": "Eubacterium rectale",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "firmicutes",
-        "lachnospiraceae",
-        "butyrate-producer",
-        "clostridium-cluster-XIVa",
-        "SCFA",
-        "depleted-in-disease",
-        "iron-sulfur-dependent",
-        "fiber-fermenter"
-      ],
-      "sources": [
-        "vatanen-2018-teddy-gut-microbiome-t1d-nature",
-        "mendoza-leon-2023-scfas-thyroid-function",
-        "khatoon-2023-gut-microbiota-neurodegenerative",
-        "rahman-2022-gut-microbiota-cvd-therapeutic-regulation",
-        "li-2023-gut-microbiome-hypertension-bidirectional-mr",
-        "almeida-2023-gut-microbiota-cardiovascular-axis",
-        "chen-2024-gut-microbiota-six-thyroid-diseases-mr",
-        "zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics",
-        "kwak-2023-psychobiotics-fmt-asd-adhd",
-        "wang-2023-perturbed-microbiome-metabolomes-ckd-severity",
-        "wang-2024-causal-gut-microbiota-gerd-bidirectional-mr"
-      ],
-      "created": "2026-04-18T00:00:00.000Z",
-      "updated": "2026-04-18T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Eubacterium rectale",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-18T00:00:00.000Z",
-        "updated": "2026-04-18T00:00:00.000Z",
-        "last_substantive_update": "2026-04-18T00:00:00.000Z",
-        "sources": [
-          "vatanen-2018-teddy-gut-microbiome-t1d-nature",
-          "mendoza-leon-2023-scfas-thyroid-function",
-          "khatoon-2023-gut-microbiota-neurodegenerative",
-          "rahman-2022-gut-microbiota-cvd-therapeutic-regulation",
-          "li-2023-gut-microbiome-hypertension-bidirectional-mr",
-          "almeida-2023-gut-microbiota-cardiovascular-axis",
-          "chen-2024-gut-microbiota-six-thyroid-diseases-mr",
-          "zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics",
-          "kwak-2023-psychobiotics-fmt-asd-adhd",
-          "wang-2023-perturbed-microbiome-metabolomes-ckd-severity",
-          "wang-2024-causal-gut-microbiota-gerd-bidirectional-mr"
-        ],
-        "source_count": 11,
-        "tags": [
-          "firmicutes",
-          "lachnospiraceae",
-          "butyrate-producer",
-          "clostridium-cluster-XIVa",
-          "SCFA",
-          "depleted-in-disease",
-          "iron-sulfur-dependent",
-          "fiber-fermenter"
-        ],
-        "seo_target": "Eubacterium rectale butyrate gut microbiome SCFA producer health",
-        "wikipedia_differentiation": "Iron-sulfur cluster dependency for butyrate synthesis as its Achilles' heel in metal-disturbed environments, cross-disease depletion pattern spanning T1D to CVD to neurodegeneration with mechanism-level explanation, and thyroid function modulation via SCFA-mediated immune regulation",
-        "platform": "wikibiome",
-        "gram_stain": "positive",
-        "oxygen_requirement": "anaerobic",
-        "metal_dependencies": [
-          "iron"
-        ],
-        "key_enzymes": [
-          "butyryl-CoA-dehydrogenase",
-          "acetyl-CoA-acetyltransferase",
-          "butyrate-kinase"
-        ],
-        "pathogenic_potential": "commensal",
-        "conditions_enriched_in": [],
-        "conditions_depleted_in": [
-          "type-1-diabetes",
-          "cardiovascular-disease",
-          "alzheimers-disease",
-          "chronic-kidney-disease",
-          "hypertension"
-        ]
-      },
-      "overview": "*Eubacterium rectale* (recently reclassified as *Agathobacter rectalis*) is a Gram-positive, strictly anaerobic, non-spore-forming bacterium that belongs to Clostridium cluster XIVa within the [[lachnospiraceae-family]]. It is one of the most abundant butyrate producers in the healthy human colon, typically comprising 1-5% of total fecal bacteria. Together with [[faecalibacterium-prausnitzii]] (Clostridium cluster IV), it accounts for the majority of colonic butyrate production.\n\nThe consistent depletion of *E. rectale* across cardiovascular, autoimmune, neurological, and metabolic diseases makes it -- alongside *F. prausnitzii* -- one of the most reliable bacterial indicators of gut health. Its iron-sulfur cluster-dependent butyrate pathway provides a metallomics explanation for why this organism is so vulnerable to the environmental perturbations that precede disease.",
-      "sections": [
-        {
-          "heading": "Metal Dependencies",
-          "level": 2,
-          "body": "*E. rectale*'s butyrate synthesis pathway depends critically on iron:\n\n- The butyryl-CoA dehydrogenase complex uses [4Fe-4S] and [2Fe-2S] iron-sulfur clusters for electron transfer in the conversion of crotonyl-CoA to butyryl-CoA.\n- These clusters are targets for displacement by toxic metals (Cd, Pb, Hg), which can intercalate into the iron-sulfur scaffold and inactivate the enzyme.\n- This molecular vulnerability links environmental metal exposure to butyrate depletion: heavy metal stress preferentially disables the very enzymes that produce the gut's primary anti-inflammatory metabolite.\n\nThe pattern is striking: the taxa most vulnerable to metal exposure (*E. rectale*, [[roseburia]], [[faecalibacterium-prausnitzii]]) are precisely the taxa most consistently depleted in disease. This is not coincidence -- it is the predictable consequence of iron-sulfur cluster chemistry."
-        },
-        {
-          "heading": "Key Enzymes and Virulence Factors",
-          "level": 2,
-          "body": "*E. rectale* has no virulence factors. Its enzymatic profile is dedicated to fiber fermentation and butyrate production:\n\n- Acetyl-CoA acetyltransferase: Condenses two acetyl-CoA molecules to initiate the butyrate pathway.\n- Butyryl-CoA dehydrogenase: The iron-sulfur-dependent enzyme that performs the key reduction step.\n- Butyrate kinase / butyryl-CoA:acetate CoA-transferase: Terminal enzymes releasing butyrate. *E. rectale* primarily uses the CoA-transferase route, which cross-feeds with acetate-producing bacteria.\n- Xylanases and other glycoside hydrolases: Enable degradation of complex plant polysaccharides (xylan, resistant starch), positioning *E. rectale* as a primary fermenter of dietary fiber."
-        },
-        {
-          "heading": "Ecological Role",
-          "level": 2,
-          "body": "*E. rectale* is a keystone SCFA producer in the colonic ecosystem:\n\n- It is one of the primary colonizers of resistant starch and xylan, converting these complex carbohydrates into butyrate that fuels colonocyte metabolism.\n- It participates in cross-feeding networks: acetate produced by *Bifidobacterium* is consumed by *E. rectale* via the butyryl-CoA:acetate CoA-transferase pathway, converting it to butyrate. This syntrophic relationship means *Bifidobacterium* depletion indirectly reduces *E. rectale* butyrate output.\n- Butyrate from *E. rectale* serves as the primary energy source for colonocytes (supplying ~70% of their energy needs), maintains the epithelial barrier, promotes anti-inflammatory Treg differentiation, and inhibits histone deacetylases (HDACs) involved in inflammatory gene expression."
-        },
-        {
-          "heading": "Conditions Associated",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Depleted in:",
-          "level": 3,
-          "body": "- Type 1 diabetes: Children who developed islet autoimmunity and progressed to T1D had significantly fewer *E. rectale* alongside *F. prausnitzii* and [[roseburia]], with concurrent enrichment of LPS biosynthesis genes ([[vatanen-2018-teddy-gut-microbiome-t1d-nature]], prospective-cohort, n=783).\n- Cardiovascular disease: Butyrate producers including *E. rectale* consistently depleted in CAD and heart failure. Their loss increases LPS translocation and the TMAO-producing proteolytic shift ([[rahman-2022-gut-microbiota-cvd-therapeutic-regulation]], expert-opinion; [[almeida-2023-gut-microbiota-cardiovascular-axis]], expert-opinion).\n- Alzheimer's disease: Decreased alongside *Bacteroides hungatei* and *B. proteoclasticus* in AD patients, while *H. pylori*, *E. coli/Shigella*, and *K. pneumoniae* were increased ([[khatoon-2023-gut-microbiota-neurodegenerative]], expert-opinion).\n- Hypertension: SCFA-producing bacteria including *E. rectale*, *Faecalibacterium*, and *Roseburia* contribute to lower blood pressure via butyrate production ([[li-2023-gut-microbiome-hypertension-bidirectional-mr]], computational-prediction).\n- Chronic kidney disease: Depleted as part of the saccharolytic community lost in CKD, replaced by proteolytic uremic toxin producers ([[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]], cross-sectional).\n- Thyroid disorders: Identified as a primary colonic butyrate producer (Clostridium cluster XIVa) whose depletion disrupts SCFA-mediated thyroid immune regulation ([[mendoza-leon-2023-scfas-thyroid-function]], expert-opinion)."
-        },
-        {
-          "heading": "Key Studies",
-          "level": 2,
-          "body": "| Study | Finding | Evidence Level |\n|-------|---------|---------------|\n| [[vatanen-2018-teddy-gut-microbiome-t1d-nature]] | Depleted in T1D progressors (n=783, TEDDY cohort) | Prospective cohort |\n| [[rahman-2022-gut-microbiota-cvd-therapeutic-regulation]] | Depleted in CAD; loss increases LPS translocation | Expert opinion |\n| [[khatoon-2023-gut-microbiota-neurodegenerative]] | Decreased in Alzheimer's disease | Expert opinion |\n| [[mendoza-leon-2023-scfas-thyroid-function]] | Primary colonic butyrate producer; cluster XIVa | Expert opinion |\n| [[li-2023-gut-microbiome-hypertension-bidirectional-mr]] | SCFA production contributes to BP lowering | Computational prediction |"
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[faecalibacterium-prausnitzii]] -- co-depleted butyrate producer (cluster IV counterpart)\n- [[roseburia]] -- co-depleted Lachnospiraceae butyrate producer\n- [[lachnospiraceae-family]] -- parent family\n- [[butyrate]] -- primary metabolic product\n- [[iron]] -- iron-sulfur cluster dependency\n- [[short-chain-fatty-acids]] -- metabolic framework\n- [[type-1-diabetes]] -- TEDDY cohort depletion\n- [[cardiovascular-disease]] -- CVD depletion pattern\n- [[bifidobacterium]] -- cross-feeding partner (acetate to butyrate)"
-        }
-      ],
-      "wikilinks": [
-        "lachnospiraceae-family",
-        "faecalibacterium-prausnitzii",
-        "roseburia",
-        "vatanen-2018-teddy-gut-microbiome-t1d-nature",
-        "rahman-2022-gut-microbiota-cvd-therapeutic-regulation",
-        "almeida-2023-gut-microbiota-cardiovascular-axis",
-        "khatoon-2023-gut-microbiota-neurodegenerative",
-        "li-2023-gut-microbiome-hypertension-bidirectional-mr",
-        "wang-2023-perturbed-microbiome-metabolomes-ckd-severity",
-        "mendoza-leon-2023-scfas-thyroid-function",
-        "butyrate",
-        "iron",
-        "short-chain-fatty-acids",
-        "type-1-diabetes",
-        "cardiovascular-disease",
-        "bifidobacterium"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 11,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "bacteroides-uniformis",
-        "lachnospiraceae-family",
-        "chronic-kidney-disease",
-        "alzheimers-disease-signature",
-        "broken-links-2026-04-16"
-      ],
-      "related": [
-        {
-          "id": "eubacterium",
-          "score": 12
-        },
-        {
-          "id": "roseburia-intestinalis",
-          "score": 12
-        },
-        {
-          "id": "anaerostipes",
-          "score": 11
-        },
-        {
-          "id": "lachnospiraceae",
-          "score": 11
-        },
-        {
-          "id": "ruminococcaceae",
-          "score": 11
-        },
-        {
-          "id": "bacteroides-fragilis",
-          "score": 10
-        },
-        {
-          "id": "lachnospira",
-          "score": 10
-        },
-        {
-          "id": "oscillospirales",
-          "score": 10
-        }
-      ]
-    },
-    {
       "id": "eubacterium",
       "title": "Eubacterium",
       "type": "entity",
@@ -26256,10 +26062,6 @@
           "score": 12
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 12
-        },
-        {
           "id": "akkermansia-muciniphila",
           "score": 11
         },
@@ -26277,6 +26079,10 @@
         },
         {
           "id": "lactobacillus",
+          "score": 11
+        },
+        {
+          "id": "phascolarctobacterium",
           "score": 11
         }
       ]
@@ -26475,8 +26281,6 @@
         "eggerthella-lenta",
         "enterobacteriaceae",
         "eubacteriales",
-        "eubacterium-eligens",
-        "eubacterium-rectale",
         "eubacterium",
         "faecalibacterium",
         "female-infertility",
@@ -26617,15 +26421,15 @@
       "related": [
         {
           "id": "roseburia",
-          "score": 178
+          "score": 176
         },
         {
           "id": "bifidobacterium",
-          "score": 155
+          "score": 153
         },
         {
           "id": "lachnospiraceae",
-          "score": 126
+          "score": 124
         },
         {
           "id": "escherichia-coli",
@@ -26633,7 +26437,7 @@
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 105
+          "score": 103
         },
         {
           "id": "zinc",
@@ -28318,10 +28122,6 @@
           "score": 10
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 9
-        },
-        {
           "id": "holdemanella",
           "score": 8
         },
@@ -28335,6 +28135,10 @@
         },
         {
           "id": "butyrivibrio",
+          "score": 7
+        },
+        {
+          "id": "eubacterium",
           "score": 7
         }
       ]
@@ -34636,10 +34440,6 @@
           "score": 7
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 7
-        },
-        {
           "id": "faecalibacterium-prausnitzii",
           "score": 7
         },
@@ -34649,6 +34449,10 @@
         },
         {
           "id": "oscillospirales",
+          "score": 7
+        },
+        {
+          "id": "roseburia-intestinalis",
           "score": 7
         }
       ]
@@ -35373,7 +35177,6 @@
         "enterobacteriaceae",
         "escherichia-coli",
         "escherichia",
-        "eubacterium-rectale",
         "eubacterium",
         "faecalibacterium-prausnitzii",
         "faecalibacterium",
@@ -35572,7 +35375,7 @@
       "related": [
         {
           "id": "faecalibacterium-prausnitzii",
-          "score": 162
+          "score": 160
         },
         {
           "id": "lead",
@@ -35592,15 +35395,15 @@
         },
         {
           "id": "bifidobacterium",
-          "score": 99
-        },
-        {
-          "id": "roseburia",
           "score": 97
         },
         {
           "id": "gut-metal-microbiome",
           "score": 96
+        },
+        {
+          "id": "lachnospiraceae",
+          "score": 95
         }
       ]
     },
@@ -36421,10 +36224,6 @@
       "backlinks": [],
       "related": [
         {
-          "id": "eubacterium-rectale",
-          "score": 7
-        },
-        {
           "id": "haemophilus",
           "score": 7
         },
@@ -36451,6 +36250,164 @@
         {
           "id": "erectile-dysfunction",
           "score": 5
+        },
+        {
+          "id": "faecalibacterium",
+          "score": 5
+        }
+      ]
+    },
+    {
+      "id": "lachnospira-eligens",
+      "title": "Lachnospira eligens",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "Lachnospira",
+        "Lachnospiraceae",
+        "taxonomy",
+        "eubacterium-eligens-historical-name",
+        "source-label-boundary"
+      ],
+      "sources": [
+        "ncbi-taxonomy-lachnospira-eligens",
+        "lpsn-lachnospira-eligens",
+        "garcia-lopez-2019-lachnospira-eligens-reclassification",
+        "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
+        "peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning",
+        "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
+        "eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood",
+        "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
+        "yao-2024-gut-microbiota-menstrual-disorders-mr",
+        "luo-2023-causal-effects-gut-microbiota-ckd-mr",
+        "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese",
+        "luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization"
+      ],
+      "created": "2026-04-17T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Lachnospira eligens",
+        "type": "entity",
+        "subtype": "microbe",
+        "created": "2026-04-17T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "ncbi-taxonomy-lachnospira-eligens",
+          "lpsn-lachnospira-eligens",
+          "garcia-lopez-2019-lachnospira-eligens-reclassification",
+          "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
+          "peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning",
+          "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
+          "eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood",
+          "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
+          "yao-2024-gut-microbiota-menstrual-disorders-mr",
+          "luo-2023-causal-effects-gut-microbiota-ckd-mr",
+          "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese",
+          "luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization"
+        ],
+        "source_count": 12,
+        "tags": [
+          "Lachnospira",
+          "Lachnospiraceae",
+          "taxonomy",
+          "eubacterium-eligens-historical-name",
+          "source-label-boundary"
+        ],
+        "seo_target": "Lachnospira eligens NCBITaxon 39485 Eubacterium eligens historical name",
+        "wikipedia_differentiation": "Current Lachnospira eligens identity reconciled with source-era Eubacterium eligens and Eubacterium eligens group labels",
+        "gram_stain": "positive",
+        "oxygen_requirement": "obligate anaerobe",
+        "metal_dependencies": [],
+        "key_enzymes": [],
+        "pathogenic_potential": "unknown",
+        "conditions_enriched_in": [],
+        "conditions_depleted_in": [],
+        "platform": "wikibiome",
+        "ncbi_taxonomy_id": 39485,
+        "historical_names": [
+          "Eubacterium eligens"
+        ]
+      },
+      "overview": "*Lachnospira eligens* (Holdeman and Moore 1974) García-López et al. 2020 is the selected current name for NCBITaxon:39485. NCBI Taxonomy lists *Eubacterium eligens* as its basionym, and LPSN treats the two combinations as homotypic synonyms based on the same type strain, ATCC 27750 = DSM 3376 = VPI C15-48 [[ncbi-taxonomy-lachnospira-eligens]] [[lpsn-lachnospira-eligens]]. García-López and colleagues proposed the transfer after phylogenomic analysis of type-strain genomes; the combination was subsequently validly published [[garcia-lopez-2019-lachnospira-eligens-reclassification]] [[lpsn-lachnospira-eligens]].",
+      "sections": [
+        {
+          "heading": "Nomenclature and Source-Label Boundary",
+          "level": 2,
+          "body": "WikiBiome uses *Lachnospira eligens* for the canonical species while preserving “*Eubacterium eligens*” wherever an older paper used that name. Several microbiome-wide association and Mendelian-randomization datasets report an “*Eubacterium eligens* group.” That source-era group label is broader than a verified species assignment and must not be silently rewritten as a measurement of *L. eligens* alone."
+        },
+        {
+          "heading": "Reported Human-Microbiome Evidence",
+          "level": 2,
+          "body": "In a prospective cohort of 307 adult men, Ma and colleagues associated greater fruit-fiber intake with increased source-labeled *Eubacterium eligens* and with pectinase PL9 expression to which that taxon contributed [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]]. This supports a cohort-specific diet and carbohydrate-utilization association; it does not establish a universal clinical effect or a metal dependency.\n\nLuo and colleagues reported that the source-labeled “*Eubacterium eligens* group” was associated with lower type 1 diabetes risk in their two-sample Mendelian-randomization analysis (IVW OR 0.64, 95% CI 0.50–0.81; FDR-adjusted P = 0.031) [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]. A separate CKD Mendelian-randomization study reported a nominal risk-increasing association for the same group label (IVW OR 1.19, 95% CI 1.05–1.35; P = 0.006), while only the order *Desulfovibrionales* met that study's Bonferroni threshold [[luo-2023-causal-effects-gut-microbiota-ckd-mr]]. These results concern genetically proxied group-level abundance in predominantly European-ancestry datasets; they neither demonstrate an intervention effect nor resolve which organisms within the legacy group drove the signals.\n\nOther cited cohort and classifier records retain their authors' historical *Eubacterium eligens* or group wording for traceability [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]] [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]] [[latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet]] [[peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning]] [[yao-2024-gut-microbiota-menstrual-disorders-mr]] [[he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese]]. Those associations do not by themselves establish causation, a disease-wide direction of effect, or species-level therapeutic benefit."
+        },
+        {
+          "heading": "Cross-References",
+          "level": 2,
+          "body": "- [[lachnospiraceae]] — parent family\n- [[lachnospira]] — current genus\n- [[dietary-fiber]] — cited diet association\n- [[type-1-diabetes]] — group-level Mendelian-randomization association\n- [[chronic-kidney-disease]] — group-level Mendelian-randomization association with a different direction"
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-lachnospira-eligens",
+        "lpsn-lachnospira-eligens",
+        "garcia-lopez-2019-lachnospira-eligens-reclassification",
+        "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
+        "luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization",
+        "luo-2023-causal-effects-gut-microbiota-ckd-mr",
+        "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
+        "eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood",
+        "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
+        "peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning",
+        "yao-2024-gut-microbiota-menstrual-disorders-mr",
+        "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese",
+        "lachnospiraceae",
+        "lachnospira",
+        "dietary-fiber",
+        "type-1-diabetes",
+        "chronic-kidney-disease"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 12,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "ruminococcus-bromii",
+        "type-1-diabetes",
+        "type-1-diabetes-signature"
+      ],
+      "related": [
+        {
+          "id": "agathobacter-rectalis",
+          "score": 9
+        },
+        {
+          "id": "alistipes",
+          "score": 7
+        },
+        {
+          "id": "anaerotruncus",
+          "score": 7
+        },
+        {
+          "id": "bifidobacterium",
+          "score": 7
+        },
+        {
+          "id": "clostridia",
+          "score": 7
+        },
+        {
+          "id": "faecalibacterium-prausnitzii",
+          "score": 7
+        },
+        {
+          "id": "oscillospirales",
+          "score": 7
+        },
+        {
+          "id": "ruminococcus-albus",
+          "score": 7
         }
       ]
     },
@@ -36675,6 +36632,7 @@
       "isStub": false,
       "backlinks": [
         "hidradenitis-suppurativa",
+        "lachnospira-eligens",
         "mendelian-randomization",
         "chronic-kidney-disease",
         "chronic-kidney-disease-signature",
@@ -36703,15 +36661,15 @@
           "score": 11
         },
         {
-          "id": "eubacterium-eligens",
-          "score": 11
-        },
-        {
           "id": "subdoligranulum",
           "score": 11
         },
         {
           "id": "alistipes",
+          "score": 10
+        },
+        {
+          "id": "butyricimonas",
           "score": 10
         }
       ]
@@ -36801,7 +36759,7 @@
           "type-2-diabetes"
         ]
       },
-      "overview": "This page serves as the family-level hub for Lachnospiraceae, connecting the individual genus and species pages ([[roseburia]], [[blautia]], [[anaerostipes]], [[eubacterium-rectale]]) with the overarching ecological and metabolic framework that defines the family. For the primary entity page with detailed per-disease depletion data, see [[lachnospiraceae]].",
+      "overview": "This page serves as the family-level hub for Lachnospiraceae, connecting the individual genus and species pages ([[roseburia]], [[blautia]], [[anaerostipes]], [[agathobacter-rectalis]]) with the overarching ecological and metabolic framework that defines the family. For the primary entity page with detailed per-disease depletion data, see [[lachnospiraceae]].",
       "sections": [
         {
           "heading": "Why a Family-Level Page?",
@@ -36831,14 +36789,14 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[lachnospiraceae]] -- primary entity page with detailed disease-specific depletion data\n- [[roseburia]] -- key butyrate-producing genus within the family\n- [[blautia]] -- acetate-producing genus; depleted in multiple conditions\n- [[anaerostipes]] -- lactate-utilizing butyrate producer\n- [[eubacterium-rectale]] -- major butyrate producer; depleted in CVD and neurodegenerative disease\n- [[butyrate]] -- primary metabolic product\n- [[iron]] -- iron-sulfur cluster dependency for butyrate synthesis\n- [[cadmium]] -- toxic metal causing Lachnospiraceae depletion\n- [[lead]] -- toxic metal causing Lachnospiraceae depletion\n- [[short-chain-fatty-acids]] -- metabolic output of the family"
+          "body": "- [[lachnospiraceae]] -- primary entity page with detailed disease-specific depletion data\n- [[roseburia]] -- key butyrate-producing genus within the family\n- [[blautia]] -- acetate-producing genus; depleted in multiple conditions\n- [[anaerostipes]] -- lactate-utilizing butyrate producer\n- [[agathobacter-rectalis]] -- major butyrate producer; depleted in CVD and neurodegenerative disease\n- [[butyrate]] -- primary metabolic product\n- [[iron]] -- iron-sulfur cluster dependency for butyrate synthesis\n- [[cadmium]] -- toxic metal causing Lachnospiraceae depletion\n- [[lead]] -- toxic metal causing Lachnospiraceae depletion\n- [[short-chain-fatty-acids]] -- metabolic output of the family"
         }
       ],
       "wikilinks": [
         "roseburia",
         "blautia",
         "anaerostipes",
-        "eubacterium-rectale",
+        "agathobacter-rectalis",
         "lachnospiraceae",
         "oscillibacter",
         "rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals",
@@ -36856,9 +36814,9 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "agathobacter-rectalis",
         "christensenellaceae",
         "crohns-disease",
-        "eubacterium-rectale",
         "oscillibacter",
         "pelvic-inflammatory-disease",
         "tyzzerella",
@@ -36871,12 +36829,12 @@
       ],
       "related": [
         {
-          "id": "faecalibacterium-prausnitzii",
+          "id": "colorectal-cancer",
           "score": 22
         },
         {
-          "id": "colorectal-cancer",
-          "score": 22
+          "id": "faecalibacterium-prausnitzii",
+          "score": 20
         },
         {
           "id": "colorectal-cancer",
@@ -37036,7 +36994,6 @@
         "enterobacteriaceae",
         "erectile-dysfunction",
         "eubacteriales",
-        "eubacterium-eligens",
         "eubacterium",
         "fibromyalgia",
         "firmicutes",
@@ -37046,6 +37003,7 @@
         "intestinimonas",
         "lachnobacterium",
         "lachnoclostridium",
+        "lachnospira-eligens",
         "lachnospira",
         "lachnospiraceae-family",
         "long-covid",
@@ -41615,10 +41573,6 @@
           "score": 5
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 5
-        },
-        {
           "id": "fusicatenibacter",
           "score": 5
         },
@@ -41637,6 +41591,10 @@
         {
           "id": "type-2-diabetes",
           "score": 4
+        },
+        {
+          "id": "acidaminococcus",
+          "score": 3
         }
       ]
     },
@@ -41821,10 +41779,6 @@
           "score": 12
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 8
-        },
-        {
           "id": "acidaminococcus",
           "score": 7
         },
@@ -41845,7 +41799,11 @@
           "score": 6
         },
         {
-          "id": "eubacterium-eligens",
+          "id": "lachnoclostridium",
+          "score": 6
+        },
+        {
+          "id": "lactobacillaceae",
           "score": 6
         }
       ]
@@ -43562,16 +43520,16 @@
           "score": 7
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 6
-        },
-        {
           "id": "haemophilus",
           "score": 6
         },
         {
           "id": "serratia-marcescens",
           "score": 6
+        },
+        {
+          "id": "akkermansia-muciniphila",
+          "score": 5
         }
       ]
     },
@@ -47588,16 +47546,16 @@
           "score": 10
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 9
-        },
-        {
           "id": "ruminococcaceae",
           "score": 9
         },
         {
           "id": "gut-penis-axis",
           "score": 8
+        },
+        {
+          "id": "anaerostipes",
+          "score": 7
         }
       ]
     },
@@ -48039,14 +47997,6 @@
           "score": 12
         },
         {
-          "id": "eubacterium-eligens",
-          "score": 11
-        },
-        {
-          "id": "eubacterium-rectale",
-          "score": 10
-        },
-        {
           "id": "butyricimonas",
           "score": 9
         },
@@ -48061,6 +48011,14 @@
         {
           "id": "bacteroidales",
           "score": 8
+        },
+        {
+          "id": "oscillospiraceae",
+          "score": 8
+        },
+        {
+          "id": "intestinimonas",
+          "score": 7
         }
       ]
     },
@@ -48880,15 +48838,15 @@
           "score": 5
         },
         {
-          "id": "eubacterium-rectale",
-          "score": 5
-        },
-        {
           "id": "gerd",
           "score": 5
         },
         {
           "id": "ibs",
+          "score": 5
+        },
+        {
+          "id": "inflammatory-bowel-disease",
           "score": 5
         }
       ]
@@ -56597,10 +56555,6 @@
       ],
       "related": [
         {
-          "id": "eubacterium-rectale",
-          "score": 12
-        },
-        {
           "id": "bacteroides-caccae",
           "score": 9
         },
@@ -56626,6 +56580,10 @@
         },
         {
           "id": "butyricicoccus",
+          "score": 7
+        },
+        {
+          "id": "butyricimonas",
           "score": 7
         }
       ]
@@ -56778,7 +56736,6 @@
         "dorea",
         "enterobacteriaceae",
         "eubacteriales",
-        "eubacterium-rectale",
         "eubacterium",
         "firmicutes",
         "fusobacterium-nucleatum",
@@ -56863,7 +56820,7 @@
       "related": [
         {
           "id": "bifidobacterium",
-          "score": 75
+          "score": 73
         },
         {
           "id": "escherichia-coli",
@@ -56883,7 +56840,7 @@
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 58
+          "score": 56
         },
         {
           "id": "copper",
@@ -57221,19 +57178,11 @@
           "score": 14
         },
         {
-          "id": "eubacterium-eligens",
-          "score": 12
-        },
-        {
           "id": "oscillospirales",
           "score": 12
         },
         {
           "id": "bacteroidales",
-          "score": 11
-        },
-        {
-          "id": "eubacterium-rectale",
           "score": 11
         },
         {
@@ -57246,6 +57195,14 @@
         },
         {
           "id": "butyricimonas",
+          "score": 10
+        },
+        {
+          "id": "clostridia",
+          "score": 10
+        },
+        {
+          "id": "clostridium",
           "score": 10
         }
       ]
@@ -57482,10 +57439,6 @@
           "score": 10
         },
         {
-          "id": "eubacterium-eligens",
-          "score": 9
-        },
-        {
           "id": "oscillospirales",
           "score": 9
         },
@@ -57495,6 +57448,10 @@
         },
         {
           "id": "clostridia",
+          "score": 7
+        },
+        {
+          "id": "lachnospira-eligens",
           "score": 7
         },
         {
@@ -57603,7 +57560,7 @@
         {
           "heading": "Cross-Feeding Network",
           "level": 3,
-          "body": "*R. bromii*'s degradation of resistant starch releases oligosaccharides and simple sugars that are consumed by:\n\n- [[eubacterium-eligens]] and *Eubacterium rectale* — Convert released sugars to butyrate\n- [[faecalibacterium-prausnitzii]] — Acetate cross-feeding supports its butyrate production\n- [[bifidobacterium]] — Utilizes released maltooligosaccharides\n- Other [[firmicutes]] fermenters — Produce propionate and acetate\n\nThis cross-feeding cascade means that *R. bromii* abundance determines not just resistant starch degradation but the overall SCFA output of the community from RS-containing meals."
+          "body": "*R. bromii*'s degradation of resistant starch releases oligosaccharides and simple sugars that are consumed by:\n\n- [[lachnospira-eligens]] and [[agathobacter-rectalis]] — Current-name records for taxa historically discussed as downstream fermenters\n- [[faecalibacterium-prausnitzii]] — Acetate cross-feeding supports its butyrate production\n- [[bifidobacterium]] — Utilizes released maltooligosaccharides\n- Other [[firmicutes]] fermenters — Produce propionate and acetate\n\nThis cross-feeding cascade means that *R. bromii* abundance determines not just resistant starch degradation but the overall SCFA output of the community from RS-containing meals."
         },
         {
           "heading": "Conditions Associated",
@@ -57613,13 +57570,14 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[firmicutes]] — parent phylum; R. bromii degrades resistant starch for the broader Firmicutes community\n- [[butyrate]] — downstream metabolic product via cross-feeding\n- [[faecalibacterium-prausnitzii]] — cross-feeding partner receiving acetate\n- [[eubacterium-eligens]] — complementary fiber degrader (pectin specialist vs. RS specialist)\n- [[bacteroides-thetaiotaomicron]] — complementary starch degrader (soluble starches)\n- [[oxygen-state]] — SCFA production from RS degradation maintains anaerobic lumen"
+          "body": "- [[firmicutes]] — parent phylum; R. bromii degrades resistant starch for the broader Firmicutes community\n- [[butyrate]] — downstream metabolic product via cross-feeding\n- [[faecalibacterium-prausnitzii]] — cross-feeding partner receiving acetate\n- [[lachnospira-eligens]] — complementary fiber degrader (pectin specialist vs. RS specialist)\n- [[bacteroides-thetaiotaomicron]] — complementary starch degrader (soluble starches)\n- [[oxygen-state]] — SCFA production from RS degradation maintains anaerobic lumen"
         }
       ],
       "wikilinks": [
         "ruminococcaceae",
         "bacteroides-thetaiotaomicron",
-        "eubacterium-eligens",
+        "lachnospira-eligens",
+        "agathobacter-rectalis",
         "faecalibacterium-prausnitzii",
         "bifidobacterium",
         "firmicutes",
@@ -57634,22 +57592,13 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "eubacterium-eligens",
         "chronic-kidney-disease",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
-          "id": "eubacterium-rectale",
-          "score": 10
-        },
-        {
           "id": "flavonifractor",
           "score": 8
-        },
-        {
-          "id": "lachnospiraceae",
-          "score": 7
         },
         {
           "id": "citrobacter",
@@ -57669,6 +57618,14 @@
         },
         {
           "id": "bacteroides-uniformis",
+          "score": 5
+        },
+        {
+          "id": "blautia",
+          "score": 5
+        },
+        {
+          "id": "butyricicoccus",
           "score": 5
         }
       ]
@@ -66347,7 +66304,7 @@
           ]
         },
         "seo_target": "type 1 diabetes gut microbiome dysbiosis zinc insulin autoimmune bacteria",
-        "wikipedia_differentiation": "Causal Mendelian randomization evidence for specific taxa (Bacteroidetes, Eubacterium eligens) in T1D risk; ZnT8 autoantigen connecting zinc-insulin hexamer biology to autoimmune beta cell destruction; CVB4 viral dysbiosis mechanism; copper and nickel associations; microbiome-mediated DKD complication risk"
+        "wikipedia_differentiation": "Mendelian-randomization evidence for source-defined microbial taxa and groups in T1D risk; ZnT8 autoantigen connecting zinc-insulin hexamer biology to autoimmune beta cell destruction; CVB4 viral dysbiosis mechanism; copper and nickel associations; microbiome-mediated DKD complication risk"
       },
       "overview": "",
       "sections": [
@@ -66384,7 +66341,7 @@
         {
           "heading": "Causal Evidence: Mendelian Randomization",
           "level": 3,
-          "body": "Observational associations between gut microbiota and T1D are abundant but vulnerable to confounding. Two-sample Mendelian randomization studies using large GWAS datasets now provide genetically-instrumented causal evidence for specific taxa.\n\nTaxa with causal evidence for increasing T1D risk:\n\n| Taxon | Level | OR (95% CI) | p-value | Method | Source |\n|-------|-------|-------------|---------|--------|--------|\n| Bacteroidetes | Phylum | 1.24 (1.01–1.53) | 0.044 | IVW | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Bacteroidia | Class | 1.28 (1.06–1.53) | 0.009 | IVW | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Bacteroidales | Order | 1.28 (1.06–1.53) | 0.009 | IVW | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n\nTaxa with causal evidence for decreasing T1D risk (protective):\n\n| Taxon | Level | OR (95% CI) | p-value | P_FDR | Source |\n|-------|-------|-------------|---------|-------|--------|\n| *Eubacterium eligens* group | Genus | 0.64 (0.50–0.81) | 2.84×10⁻⁴ | 0.031 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Family XI (Firmicutes) | Family | 0.87 (0.79–0.96) | 0.007 | 0.378 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Lachnospiraceae UCG008 | Genus | 0.86 (0.75–0.97) | 0.019 | 0.588 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Ruminococcaceae UCG010 | Genus | 0.81 (0.66–0.99) | 0.038 | 0.588 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Dorea | Genus | 0.81 (0.66–1.00) | 0.048 | 0.540 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Peptococcaceae | Family | 0.82 (0.68–0.98) | 0.034 | 0.588 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Tenericutes | Phylum | 0.80 (0.64–0.99) | 0.037 | 0.138 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n\nThe *Eubacterium eligens* group signal is the most robust in the dataset — FDR-significant (P_FDR = 0.031) with no heterogeneity or pleiotropy detected. This Firmicutes genus is a known butyrate producer; its protective role is consistent with the broader pattern of Firmicutes depletion in T1D.\n\nThe inverse Bacteroidetes/Firmicutes causal pattern mirrors observational data: Bacteroidetes enrichment and Firmicutes depletion are both causally associated with increased T1D risk. The MR study leveraged FinnGen T1D GWAS (n = 264,137 Europeans), giving it substantially more power than prior analyses [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]."
+          "body": "Observational associations between gut microbiota and T1D are abundant but vulnerable to confounding. Two-sample Mendelian randomization studies using large GWAS datasets now provide genetically-instrumented causal evidence for specific taxa.\n\nTaxa with causal evidence for increasing T1D risk:\n\n| Taxon | Level | OR (95% CI) | p-value | Method | Source |\n|-------|-------|-------------|---------|--------|--------|\n| Bacteroidetes | Phylum | 1.24 (1.01–1.53) | 0.044 | IVW | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Bacteroidia | Class | 1.28 (1.06–1.53) | 0.009 | IVW | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Bacteroidales | Order | 1.28 (1.06–1.53) | 0.009 | IVW | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n\nTaxa with causal evidence for decreasing T1D risk (protective):\n\n| Taxon | Level | OR (95% CI) | p-value | P_FDR | Source |\n|-------|-------|-------------|---------|-------|--------|\n| *Eubacterium eligens* group | Genus | 0.64 (0.50–0.81) | 2.84×10⁻⁴ | 0.031 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Family XI (Firmicutes) | Family | 0.87 (0.79–0.96) | 0.007 | 0.378 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Lachnospiraceae UCG008 | Genus | 0.86 (0.75–0.97) | 0.019 | 0.588 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Ruminococcaceae UCG010 | Genus | 0.81 (0.66–0.99) | 0.038 | 0.588 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Dorea | Genus | 0.81 (0.66–1.00) | 0.048 | 0.540 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Peptococcaceae | Family | 0.82 (0.68–0.98) | 0.034 | 0.588 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n| Tenericutes | Phylum | 0.80 (0.64–0.99) | 0.037 | 0.138 | [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] |\n\nThe source-labeled *Eubacterium eligens* group signal is the most robust inverse result in the dataset — FDR-significant (P_FDR = 0.031) with no heterogeneity or pleiotropy detected. The group label is broader than a verified species assignment and must not be treated as species-resolved evidence for [[lachnospira-eligens]].\n\nThe inverse Bacteroidetes/Firmicutes causal pattern mirrors observational data: Bacteroidetes enrichment and Firmicutes depletion are both causally associated with increased T1D risk. The MR study leveraged FinnGen T1D GWAS (n = 264,137 Europeans), giving it substantially more power than prior analyses [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]."
         },
         {
           "heading": "Pre-Onset Dysbiosis Pattern",
@@ -66419,17 +66376,17 @@
         {
           "heading": "Key Sources",
           "level": 2,
-          "body": "- [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] — Two-sample bidirectional MR, n=264,137; causal evidence for Bacteroidetes risk and Eubacterium eligens protection (FDR-significant)\n- [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]] — CVB4-induced dysbiosis FMT experiments; GPR43/Treg mechanism; gut barrier compromise\n- [[liu-2024-gut-microbiota-diabetic-complications-mr-study]] — MR evidence for Bifidobacterium protection against DKD in T1D (OR=0.566); complication-microbiota bidirectionality\n- [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]] — RCT evidence for Cu/Ni reduction via probiotic gut microbiome modulation; Blautia-antioxidant connection\n- [[microbiome-autoimmune-2015-dysbiosis-autoantibodies-t1d]]\n- [[microbiome-immune-system-2017-modulation-t1d-risk]]\n- [[probiotics-treatment-2020-t1d-diabetes-review]]\n- [[metabolic-pathways-2023-2025-gut-microbiome-t1d]]\n- [[16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis]]\n- [[abuqwider-2023-gut-microbiome-blood-glucose-t1d-systematic-review]]"
+          "body": "- [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]] — Two-sample bidirectional MR, n=264,137; inverse association for the source-labeled *Eubacterium eligens group* (FDR-significant), not a species-resolved intervention result\n- [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]] — CVB4-induced dysbiosis FMT experiments; GPR43/Treg mechanism; gut barrier compromise\n- [[liu-2024-gut-microbiota-diabetic-complications-mr-study]] — MR evidence for Bifidobacterium protection against DKD in T1D (OR=0.566); complication-microbiota bidirectionality\n- [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]] — RCT evidence for Cu/Ni reduction via probiotic gut microbiome modulation; Blautia-antioxidant connection\n- [[microbiome-autoimmune-2015-dysbiosis-autoantibodies-t1d]]\n- [[microbiome-immune-system-2017-modulation-t1d-risk]]\n- [[probiotics-treatment-2020-t1d-diabetes-review]]\n- [[metabolic-pathways-2023-2025-gut-microbiome-t1d]]\n- [[16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis]]\n- [[abuqwider-2023-gut-microbiome-blood-glucose-t1d-systematic-review]]"
         },
         {
           "heading": "Open Questions",
           "level": 2,
-          "body": "1. Why does *Eubacterium eligens* — the strongest causally protective genus in MR data — receive so little attention in T1D research? Is its butyrate production the protective mechanism, or something else?\n2. Does the paradoxical Bifidobacteria elevation in CVB4-infected diabetogenic mice reflect specific diabetogenic strains vs. broadly protective strains — and can strain-level resolution resolve the Bifidobacterium paradox in T1D?\n3. Can the Bifidobacterium-DKD causal protective signal (OR = 0.566) be translated into a complication-prevention intervention in established T1D patients?\n4. What explains the Bacteroidota/Firmicutes ratio shift in pre-T1D — is it driven by elevated Bacteroidetes, depleted Firmicutes, or both independently?\n5. Does ferroptosis contribute to beta cell death in T1D, and could ferroptosis inhibitors (which target iron-mediated oxidative death) preserve beta cell mass?\n6. Is copper/nickel exposure a genuine T1D risk modifier, or only relevant at occupational exposure levels?"
+          "body": "1. Which organisms within the source-labeled *Eubacterium eligens group* drive the strongest inverse MR association, and can the result be reproduced at species or strain resolution?\n2. Does the paradoxical Bifidobacteria elevation in CVB4-infected diabetogenic mice reflect specific diabetogenic strains vs. broadly protective strains — and can strain-level resolution resolve the Bifidobacterium paradox in T1D?\n3. Can the Bifidobacterium-DKD causal protective signal (OR = 0.566) be translated into a complication-prevention intervention in established T1D patients?\n4. What explains the Bacteroidota/Firmicutes ratio shift in pre-T1D — is it driven by elevated Bacteroidetes, depleted Firmicutes, or both independently?\n5. Does ferroptosis contribute to beta cell death in T1D, and could ferroptosis inhibitors (which target iron-mediated oxidative death) preserve beta cell mass?\n6. Is copper/nickel exposure a genuine T1D risk modifier, or only relevant at occupational exposure levels?"
         },
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[zinc]] — Essential for insulin crystallization/secretion; ZnT8 as major T1D autoantigen; Zn-dependent Treg immune regulation\n- [[iron]] — Iron overload damages beta cells via Fenton chemistry; hemochromatosis-associated diabetes\n- [[copper]] — Gut microbiome-mediated metal dynamics; Blautia enrichment under high-Cu conditions\n- [[bifidobacterium]] — Consistently depleted in T1D; causally protective against DKD complication; disrupted by CVB4 viral infection\n- [[bacteroides]] — Bacteroidetes enriched in T1D; Bacteroidia and Bacteroidales causally increase T1D risk (MR evidence)\n- [[lachnospiraceae]] — Multiple protective genera (UCG008, Eubacterium eligens, Dorea) with MR evidence\n- [[dysbiosis]] — Early-life microbiome disruption precedes autoimmune seroconversion; CVB4-driven dysbiosis is transferable via FMT\n- [[intestinal-permeability|gut-barrier]] — Compromised tight junctions enable LPS/bacterial translocation to PLN; CVB4 reduces barrier by 2-fold\n- [[immune-balance]] — Th1/Th2 shift, Treg dysfunction, GPR43/SCFA signaling in T1D pathogenesis\n- [[developmental-metal-vulnerability]] — Critical windows for metal-microbiome-immune programming in infancy"
+          "body": "- [[zinc]] — Essential for insulin crystallization/secretion; ZnT8 as major T1D autoantigen; Zn-dependent Treg immune regulation\n- [[iron]] — Iron overload damages beta cells via Fenton chemistry; hemochromatosis-associated diabetes\n- [[copper]] — Gut microbiome-mediated metal dynamics; Blautia enrichment under high-Cu conditions\n- [[bifidobacterium]] — Consistently depleted in T1D; causally protective against DKD complication; disrupted by CVB4 viral infection\n- [[bacteroides]] — Bacteroidetes enriched in T1D; Bacteroidia and Bacteroidales causally increase T1D risk (MR evidence)\n- [[lachnospiraceae]] — Multiple source-defined genera or groups (UCG008, *Eubacterium eligens group*, Dorea) with inverse MR associations\n- [[dysbiosis]] — Early-life microbiome disruption precedes autoimmune seroconversion; CVB4-driven dysbiosis is transferable via FMT\n- [[intestinal-permeability|gut-barrier]] — Compromised tight junctions enable LPS/bacterial translocation to PLN; CVB4 reduces barrier by 2-fold\n- [[immune-balance]] — Th1/Th2 shift, Treg dysfunction, GPR43/SCFA signaling in T1D pathogenesis\n- [[developmental-metal-vulnerability]] — Critical windows for metal-microbiome-immune programming in infancy"
         }
       ],
       "wikilinks": [
@@ -66440,6 +66397,7 @@
         "feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome",
         "copper",
         "nickel",
+        "lachnospira-eligens",
         "morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4",
         "liu-2024-gut-microbiota-diabetic-complications-mr-study",
         "developmental-metal-vulnerability",
@@ -66467,12 +66425,12 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "agathobacter-rectalis",
         "bacteroides",
         "celiac-disease",
         "dermatitis-herpetiformis",
         "diabetic-kidney-disease",
-        "eubacterium-eligens",
-        "eubacterium-rectale",
+        "lachnospira-eligens",
         "autoimmunity",
         "intestinal-permeability",
         "mendelian-randomization",
@@ -74743,6 +74701,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "agathobacter-rectalis",
         "anaerostipes",
         "anxiety",
         "butyricicoccus",
@@ -74754,8 +74713,6 @@
         "desulfovibrionales",
         "dopamine",
         "eubacteriales",
-        "eubacterium-eligens",
-        "eubacterium-rectale",
         "faecalibacterium",
         "firmicutes",
         "flavonifractor",
@@ -74834,23 +74791,23 @@
       "related": [
         {
           "id": "iron",
-          "score": 67
-        },
-        {
-          "id": "roseburia",
-          "score": 52
+          "score": 65
         },
         {
           "id": "cadmium",
           "score": 50
         },
         {
-          "id": "lachnospiraceae",
-          "score": 40
+          "id": "roseburia",
+          "score": 50
         },
         {
           "id": "gut-brain-axis",
           "score": 40
+        },
+        {
+          "id": "lachnospiraceae",
+          "score": 38
         },
         {
           "id": "lead",
@@ -105692,16 +105649,11 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "eubacterium-eligens",
         "ruminococcus-bromii"
       ],
       "related": [
         {
           "id": "megasphaera",
-          "score": 8
-        },
-        {
-          "id": "type-1-diabetes",
           "score": 8
         },
         {
@@ -105717,15 +105669,19 @@
           "score": 6
         },
         {
+          "id": "type-1-diabetes",
+          "score": 6
+        },
+        {
+          "id": "agathobacter-rectalis",
+          "score": 5
+        },
+        {
           "id": "ruminococcaceae",
           "score": 5
         },
         {
           "id": "dna-damage",
-          "score": 4
-        },
-        {
-          "id": "molecular-mimicry",
           "score": 4
         }
       ]
@@ -110578,7 +110534,6 @@
         "depression",
         "dialister",
         "dorea",
-        "eubacterium-rectale",
         "faecalibacterium",
         "firmicutes",
         "gordonibacter-urolithinfaciens",
@@ -110669,11 +110624,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 89
+          "score": 87
         },
         {
           "id": "butyrate",
-          "score": 84
+          "score": 82
         },
         {
           "id": "cadmium",
@@ -110681,7 +110636,7 @@
         },
         {
           "id": "roseburia",
-          "score": 58
+          "score": 56
         },
         {
           "id": "lead",
@@ -118637,6 +118592,7 @@
       "backlinks": [
         "acinetobacter",
         "actinobacteria",
+        "agathobacter-rectalis",
         "alistipes",
         "bilophila",
         "bipolar-disorder",
@@ -118654,7 +118610,6 @@
         "enterobacteriaceae",
         "erectile-dysfunction",
         "eubacteriales",
-        "eubacterium-rectale",
         "eubacterium",
         "fusobacterium",
         "gordonibacter-urolithinfaciens",
@@ -118729,7 +118684,7 @@
         },
         {
           "id": "iron",
-          "score": 78
+          "score": 76
         },
         {
           "id": "cadmium",
@@ -118744,12 +118699,12 @@
           "score": 65
         },
         {
-          "id": "short-chain-fatty-acids",
-          "score": 63
-        },
-        {
           "id": "colorectal-cancer",
           "score": 62
+        },
+        {
+          "id": "short-chain-fatty-acids",
+          "score": 61
         },
         {
           "id": "lead",
@@ -119267,7 +119222,7 @@
               "role": "SCFA producer; heavy metal binder; negatively correlated with progression (variable in some studies)"
             },
             {
-              "taxon": "[[eubacterium-rectale]]",
+              "taxon": "[[agathobacter-rectalis|Eubacterium rectale]]",
               "role": "Key butyrate species; depleted in CKD"
             },
             {
@@ -119563,7 +119518,7 @@
         "prevotella",
         "akkermansia-muciniphila",
         "bifidobacterium",
-        "eubacterium-rectale",
+        "agathobacter-rectalis",
         "ruminococcus-bromii",
         "type-2-diabetes",
         "cardiovascular-disease",
@@ -119609,6 +119564,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "agathobacter-rectalis",
         "alzheimers-disease",
         "anaerostipes",
         "bacteroides-uniformis",
@@ -119624,6 +119580,7 @@
         "flavonifractor",
         "fusobacteriales",
         "hypertension",
+        "lachnospira-eligens",
         "lachnospira",
         "malassezia",
         "oxalobacter",
@@ -119688,12 +119645,12 @@
           "score": 34
         },
         {
-          "id": "nickel",
+          "id": "lachnospiraceae",
           "score": 34
         },
         {
-          "id": "lachnospiraceae",
-          "score": 32
+          "id": "nickel",
+          "score": 34
         },
         {
           "id": "autism-spectrum-disorder",
@@ -130103,12 +130060,12 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "agathobacter-rectalis",
         "bacteroides",
         "celiac-disease",
         "dermatitis-herpetiformis",
         "diabetic-kidney-disease",
-        "eubacterium-eligens",
-        "eubacterium-rectale",
+        "lachnospira-eligens",
         "autoimmunity",
         "intestinal-permeability",
         "mendelian-randomization",
@@ -130127,7 +130084,15 @@
       ],
       "related": [
         {
+          "id": "chronic-kidney-disease",
+          "score": 19
+        },
+        {
           "id": "cadmium",
+          "score": 18
+        },
+        {
+          "id": "chronic-kidney-disease",
           "score": 18
         },
         {
@@ -130143,19 +130108,11 @@
           "score": 16
         },
         {
-          "id": "iron",
-          "score": 16
-        },
-        {
           "id": "multiple-sclerosis",
           "score": 16
         },
         {
           "id": "dysbiosis",
-          "score": 15
-        },
-        {
-          "id": "intestinal-permeability",
           "score": 15
         }
       ]
@@ -130834,8 +130791,8 @@
           ],
           "depleted": [
             {
-              "taxon": "[[eubacterium-rectale]]",
-              "role": "Major butyrate producer; loss reduces gut barrier integrity and anti-inflammatory signaling"
+              "taxon": "[[agathobacter-rectalis|Eubacterium rectale]]",
+              "role": "A cited review reports the historical species label as decreased in AD; it does not establish causation or a species-specific mechanism"
             },
             {
               "taxon": "[[bacteroides]]",
@@ -131012,7 +130969,7 @@
         {
           "heading": "Depleted taxa",
           "level": 3,
-          "body": "- [[eubacterium-rectale]]: Major butyrate producer depleted in AD; its loss reduces gut barrier integrity and SCFA-mediated neuroprotection [[khatoon-2023-gut-microbiota-neurodegenerative]].\n- [[faecalibacterium-prausnitzii]]: Anti-inflammatory SCFA producer; depletion is consistent across AD studies and contributes to systemic and neuroinflammation.\n- [[lachnospiraceae]]: SCFA-producing family consistently depleted in AD; butyrate from Lachnospiraceae maintains BBB integrity.\n- [[roseburia]]: Butyrate producer; depletion impairs gut barrier and reduces anti-inflammatory tone.\n- Bacteroides (commensal species): Overall Bacteroidetes diversity reduced in AD [[gentile-2020-diet-microbiota-brain-health]]."
+          "body": "- [[agathobacter-rectalis|Eubacterium rectale]]: A cited review reports the historical species label as decreased in AD; it does not establish causation or a species-specific neuroprotective mechanism [[khatoon-2023-gut-microbiota-neurodegenerative]].\n- [[faecalibacterium-prausnitzii]]: Anti-inflammatory SCFA producer; depletion is consistent across AD studies and contributes to systemic and neuroinflammation.\n- [[lachnospiraceae]]: SCFA-producing family consistently depleted in AD; butyrate from Lachnospiraceae maintains BBB integrity.\n- [[roseburia]]: Butyrate producer; depletion impairs gut barrier and reduces anti-inflammatory tone.\n- Bacteroides (commensal species): Overall Bacteroidetes diversity reduced in AD [[gentile-2020-diet-microbiota-brain-health]]."
         },
         {
           "heading": "Virulence Enzymes and Features",
@@ -131022,7 +130979,7 @@
         {
           "heading": "Ecological State",
           "level": 2,
-          "body": "Confidence: moderate -- supported by convergent evidence from multiple independent pathways.\n\nThe AD gut-brain ecosystem is characterized by:\n\n1. Neuroinflammation: Metal-activated microglia produce inflammatory cytokines; peripheral immune cell infiltration shapes microglia into pro-inflammatory phenotype [[gao-2023-microglia-neurodegenerative-diseases]]. NLRP3 inflammasome activation drives tau spreading.\n2. Blood-brain barrier disruption: Pb and Cd specifically damage the BBB [[ahmed-2025-metals-alzheimers-mechanistic-review]]; LPS from gut bacteria further impairs BBB integrity [[khatoon-2023-gut-microbiota-neurodegenerative]].\n3. Amyloid cross-seeding: Bacterial curli from gut E. coli cross-seeds with cerebral A-beta, creating a gut-to-brain protein aggregation pathway [[gentile-2020-diet-microbiota-brain-health]].\n4. LPS endotoxemia: Increased Gram-negative bacteria in AD gut produce LPS that traverses the compromised gut barrier, driving systemic inflammation and enhancing A-beta fibrillization.\n5. SCFA depletion: Loss of butyrate-producing commensals (Eubacterium rectale, Faecalibacterium, Lachnospiraceae) reduces gut barrier maintenance, BBB support, and anti-inflammatory signaling [[gentile-2020-diet-microbiota-brain-health]].\n6. TMAO elevation: Gut bacteria-derived TMAO traverses the BBB and is found at increased levels in CSF of cognitively impaired AD patients [[khatoon-2023-gut-microbiota-neurodegenerative]].\n7. Ferroptosis: Iron-catalyzed lipid peroxidation cell death in hippocampal and cortical neurons; GPX4 downregulation removes the brake [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].\n8. Epigenetic latency: Early-life Pb exposure produces latent effects on AD-related gene expression through epigenetic mechanisms that manifest decades later [[bakulski-2020-heavy-metals-alzheimers-dementias]], [[bakulski-2025-heavy-metals-late-onset-alzheimers]]."
+          "body": "Confidence: moderate -- supported by convergent evidence from multiple independent pathways.\n\nThe AD gut-brain ecosystem is characterized by:\n\n1. Neuroinflammation: Metal-activated microglia produce inflammatory cytokines; peripheral immune cell infiltration shapes microglia into pro-inflammatory phenotype [[gao-2023-microglia-neurodegenerative-diseases]]. NLRP3 inflammasome activation drives tau spreading.\n2. Blood-brain barrier disruption: Pb and Cd specifically damage the BBB [[ahmed-2025-metals-alzheimers-mechanistic-review]]; LPS from gut bacteria further impairs BBB integrity [[khatoon-2023-gut-microbiota-neurodegenerative]].\n3. Amyloid cross-seeding: Bacterial curli from gut E. coli cross-seeds with cerebral A-beta, creating a gut-to-brain protein aggregation pathway [[gentile-2020-diet-microbiota-brain-health]].\n4. LPS endotoxemia: Increased Gram-negative bacteria in AD gut produce LPS that traverses the compromised gut barrier, driving systemic inflammation and enhancing A-beta fibrillization.\n5. SCFA depletion: Reviews associate lower abundance of source-labeled *Eubacterium rectale*, *Faecalibacterium*, and Lachnospiraceae with reduced butyrate availability; the cited evidence does not isolate a causal effect of [[agathobacter-rectalis]] [[gentile-2020-diet-microbiota-brain-health]].\n6. TMAO elevation: Gut bacteria-derived TMAO traverses the BBB and is found at increased levels in CSF of cognitively impaired AD patients [[khatoon-2023-gut-microbiota-neurodegenerative]].\n7. Ferroptosis: Iron-catalyzed lipid peroxidation cell death in hippocampal and cortical neurons; GPX4 downregulation removes the brake [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].\n8. Epigenetic latency: Early-life Pb exposure produces latent effects on AD-related gene expression through epigenetic mechanisms that manifest decades later [[bakulski-2020-heavy-metals-alzheimers-dementias]], [[bakulski-2025-heavy-metals-late-onset-alzheimers]]."
         },
         {
           "heading": "Associated Conditions",
@@ -131060,7 +131017,7 @@
         "escherichia-coli",
         "bacteroides-fragilis",
         "klebsiella-pneumoniae",
-        "eubacterium-rectale",
+        "agathobacter-rectalis",
         "bacteroides",
         "faecalibacterium-prausnitzii",
         "lachnospiraceae",
@@ -143513,11 +143470,11 @@
           "score": 4
         },
         {
-          "id": "bacteroidetes",
+          "id": "agathobacter-rectalis",
           "score": 3
         },
         {
-          "id": "eubacterium-rectale",
+          "id": "bacteroidetes",
           "score": 3
         },
         {
@@ -146043,8 +146000,8 @@
           ],
           "depleted": [
             {
-              "taxon": "[[eubacterium-eligens]]",
-              "role": "Strongest causally protective signal (MR OR=0.64, FDR-significant p=0.031); Firmicutes butyrate producer"
+              "taxon": "[[lachnospira-eligens|Eubacterium eligens group]]",
+              "role": "Source-labeled group showed an inverse MR association with T1D (OR=0.64, FDR-adjusted p=0.031); the group label does not resolve Lachnospira eligens alone"
             },
             {
               "taxon": "[[bifidobacterium]]",
@@ -146190,7 +146147,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Type 1 diabetes is an autoimmune disease in which immune-mediated destruction of insulin-producing beta cells leads to lifelong insulin dependence. T1D accounts for 5-10% of all diabetes cases, with ~9.5 million cases globally and incidence rising 3-4% annually in Europe [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]. Three environmental factors now have strong mechanistic evidence converging during the developmentally critical first three years of life: heavy metal status (particularly [[zinc]] and [[iron]]), enteroviral infection, and gut microbiome dysbiosis. This signature is distinctive for its causal MR evidence establishing Bacteroidetes as a risk-increasing phylum and Eubacterium eligens as the strongest protective signal (FDR-significant), its viral dysbiosis trigger mechanism via CVB4, and the extension of Bifidobacterium's protective role from disease onset through to diabetic kidney disease complications [[liu-2024-gut-microbiota-diabetic-complications-mr-study]]."
+          "body": "Type 1 diabetes is an autoimmune disease in which immune-mediated destruction of insulin-producing beta cells leads to lifelong insulin dependence. T1D accounts for 5-10% of all diabetes cases, with ~9.5 million cases globally and incidence rising 3-4% annually in Europe [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]. Three environmental factors now have strong mechanistic evidence converging during the developmentally critical first three years of life: heavy metal status (particularly [[zinc]] and [[iron]]), enteroviral infection, and gut microbiome dysbiosis. This signature is distinctive for its MR evidence linking Bacteroidetes to increased T1D risk and the source-labeled *Eubacterium eligens group* to lower T1D risk, its viral dysbiosis trigger mechanism via CVB4, and the extension of Bifidobacterium's protective role from disease onset through to diabetic kidney disease complications [[liu-2024-gut-microbiota-diabetic-complications-mr-study]]. The historical group label is broader than the current species record [[lachnospira-eligens]] and must not be read as species-resolved evidence."
         },
         {
           "heading": "Metallomic Signature",
@@ -146235,7 +146192,7 @@
         {
           "heading": "Causally Protective Taxa (Mendelian Randomization)",
           "level": 3,
-          "body": "| Taxon | Level | OR (95% CI) | p-value | FDR |\n|-------|-------|-------------|---------|-----|\n| Eubacterium eligens group | Genus | 0.64 (0.50-0.81) | 2.84x10^-4 | 0.031 |\n| Family XI | Family | 0.87 (0.79-0.96) | 0.007 | 0.378 |\n| Lachnospiraceae UCG008 | Genus | 0.86 (0.75-0.97) | 0.019 | 0.588 |\n| Ruminococcaceae UCG010 | Genus | 0.81 (0.66-0.99) | 0.038 | 0.588 |\n| Dorea | Genus | 0.81 (0.66-1.00) | 0.048 | 0.540 |\n| Peptococcaceae | Family | 0.82 (0.68-0.98) | 0.034 | 0.588 |\n\nEubacterium eligens is the strongest signal — FDR-significant with no heterogeneity or pleiotropy detected. This Firmicutes genus is a known butyrate producer; its protective role is consistent with the broader Firmicutes depletion pattern.\n\nReverse MR did not identify robust reverse causation signals, supporting unidirectional causality from microbiota to T1D risk [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]."
+          "body": "| Taxon | Level | OR (95% CI) | p-value | FDR |\n|-------|-------|-------------|---------|-----|\n| Eubacterium eligens group | Genus | 0.64 (0.50-0.81) | 2.84x10^-4 | 0.031 |\n| Family XI | Family | 0.87 (0.79-0.96) | 0.007 | 0.378 |\n| Lachnospiraceae UCG008 | Genus | 0.86 (0.75-0.97) | 0.019 | 0.588 |\n| Ruminococcaceae UCG010 | Genus | 0.81 (0.66-0.99) | 0.038 | 0.588 |\n| Dorea | Genus | 0.81 (0.66-1.00) | 0.048 | 0.540 |\n| Peptococcaceae | Family | 0.82 (0.68-0.98) | 0.034 | 0.588 |\n\nThe source-labeled *Eubacterium eligens group* is the strongest inverse signal — FDR-significant with no heterogeneity or pleiotropy detected. That group-level result does not establish a species-resolved effect for [[lachnospira-eligens]].\n\nReverse MR did not identify robust reverse causation signals, supporting unidirectional causality from microbiota to T1D risk [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]."
         },
         {
           "heading": "Pre-Onset Dysbiosis Pattern",
@@ -146270,18 +146227,18 @@
         {
           "heading": "Open Questions",
           "level": 2,
-          "body": "1. Why does Eubacterium eligens — the strongest causally protective genus — receive so little attention in T1D research? Is butyrate production the mechanism, or something else? [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]\n2. Does the paradoxical Bifidobacteria elevation in CVB4-infected diabetogenic mice reflect specific diabetogenic strains vs. broadly protective strains? Strain-level resolution is needed [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]].\n3. Can the Bifidobacterium-DKD protective signal (OR=0.566) be translated into a complication-prevention intervention? [[liu-2024-gut-microbiota-diabetic-complications-mr-study]]\n4. Does ferroptosis contribute to beta cell death in T1D? Could ferroptosis inhibitors preserve beta cell mass?\n5. Is copper/nickel exposure a genuine T1D risk modifier, or only relevant at occupational exposure levels? [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]\n6. Can SCFA supplementation or GPR43 agonism prevent CVB4-accelerated T1D? The mechanistic rationale is strong but untested in intervention trials [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]]."
+          "body": "1. Which organisms within the source-labeled *Eubacterium eligens group* drive the strongest inverse MR association, and can the result be reproduced at species or strain resolution? [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]\n2. Does the paradoxical Bifidobacteria elevation in CVB4-infected diabetogenic mice reflect specific diabetogenic strains vs. broadly protective strains? Strain-level resolution is needed [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]].\n3. Can the Bifidobacterium-DKD protective signal (OR=0.566) be translated into a complication-prevention intervention? [[liu-2024-gut-microbiota-diabetic-complications-mr-study]]\n4. Does ferroptosis contribute to beta cell death in T1D? Could ferroptosis inhibitors preserve beta cell mass?\n5. Is copper/nickel exposure a genuine T1D risk modifier, or only relevant at occupational exposure levels? [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]\n6. Can SCFA supplementation or GPR43 agonism prevent CVB4-accelerated T1D? The mechanistic rationale is strong but untested in intervention trials [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]]."
         },
         {
           "heading": "Karen's Brain Primitives Active",
           "level": 2,
-          "body": "- Primitive 1 — Metals as Selective Pressures: Zinc deficiency and iron dysregulation create selective pressures in the islet microenvironment; Cu/Ni exposure reshapes gut communities toward Bacteroides-enriched, butyrate-depleted profiles matching pre-T1D ecology [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]\n- Primitive 2 — Nutritional Immunity as Interpretive Constraint: ZnT8 as autoantigen represents a unique case where a nutritional immunity component (zinc transporter) becomes the immune target itself; hepcidin-mediated iron trapping in islets may be defensive but cytotoxic\n- Primitive 4 — Microbial Metal Dependencies as Achilles' Heels: Bacteroides species depend on iron for LPS biosynthesis; restricting iron availability could reduce LPS-mediated innate immune activation at the PLN\n- Primitive 5 — Two-Sided Ecological Engineering: Must suppress Bacteroidetes (causal risk, OR=1.24-1.28) AND restore Eubacterium eligens (causal protection, OR=0.64) and Bifidobacterium (DKD protection, OR=0.566); neither side alone addresses the full autoimmune cascade\n- Primitive 9 — Oxygen State as Ecological Determinant: Firmicutes depletion (obligate anaerobes) and Bacteroidetes enrichment may reflect altered colonic oxygen state; CVB4-induced barrier compromise allows oxygen infiltration that disadvantages strict anaerobes [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]]"
+          "body": "- Primitive 1 — Metals as Selective Pressures: Zinc deficiency and iron dysregulation create selective pressures in the islet microenvironment; Cu/Ni exposure reshapes gut communities toward Bacteroides-enriched, butyrate-depleted profiles matching pre-T1D ecology [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]]\n- Primitive 2 — Nutritional Immunity as Interpretive Constraint: ZnT8 as autoantigen represents a unique case where a nutritional immunity component (zinc transporter) becomes the immune target itself; hepcidin-mediated iron trapping in islets may be defensive but cytotoxic\n- Primitive 4 — Microbial Metal Dependencies as Achilles' Heels: Bacteroides species depend on iron for LPS biosynthesis; restricting iron availability could reduce LPS-mediated innate immune activation at the PLN\n- Primitive 5 — Two-Sided Ecological Engineering: The inverse *Eubacterium eligens group* association (OR=0.64) and Bifidobacterium–DKD association (OR=0.566) motivate hypotheses, but neither group-level MR result establishes a species-targeted intervention.\n- Primitive 9 — Oxygen State as Ecological Determinant: Firmicutes depletion (obligate anaerobes) and Bacteroidetes enrichment may reflect altered colonic oxygen state; CVB4-induced barrier compromise allows oxygen infiltration that disadvantages strict anaerobes [[morse-2023-virus-induced-dysbiosis-t1d-onset-cvb4]]"
         }
       ],
       "wikilinks": [
         "bacteroides",
         "prevotellaceae",
-        "eubacterium-eligens",
+        "lachnospira-eligens",
         "bifidobacterium",
         "faecalibacterium-prausnitzii",
         "lachnospiraceae",
@@ -147831,7 +147788,7 @@
             "faecalibacterium-prausnitzii",
             "roseburia",
             "ruminococcus-bromii",
-            "eubacterium-rectale",
+            "agathobacter-rectalis",
             "prevotella"
           ],
           "enzymes": [
@@ -147983,7 +147940,7 @@
           "taxa": [
             "faecalibacterium-prausnitzii",
             "roseburia",
-            "eubacterium-rectale"
+            "agathobacter-rectalis"
           ],
           "enzymes": [
             "histone-deacetylase"
@@ -152680,7 +152637,7 @@
           "taxa": [
             "faecalibacterium-prausnitzii",
             "roseburia",
-            "eubacterium-rectale",
+            "agathobacter-rectalis",
             "ruminococcus-bromii",
             "bifidobacterium"
           ],
@@ -152734,6 +152691,7 @@
       "isStub": false,
       "backlinks": [
         "bacteroidales",
+        "lachnospira-eligens",
         "ruminococcaceae",
         "acetate",
         "cross-feeding",
@@ -152759,6 +152717,10 @@
           "score": 12
         },
         {
+          "id": "chronic-kidney-disease",
+          "score": 12
+        },
+        {
           "id": "high-fiber-diet",
           "score": 12
         },
@@ -152772,10 +152734,6 @@
         },
         {
           "id": "chronic-kidney-disease",
-          "score": 10
-        },
-        {
-          "id": "firmicutes",
           "score": 8
         }
       ]
@@ -154096,7 +154054,7 @@
             "faecalibacterium-prausnitzii",
             "roseburia",
             "bifidobacterium",
-            "eubacterium-rectale"
+            "agathobacter-rectalis"
           ],
           "enzymes": [],
           "metals": [],
@@ -180729,6 +180687,12 @@
         "sourceCount": 0
       },
       {
+        "id": "agathobacter-rectalis",
+        "label": "Agathobacter rectalis",
+        "category": "microbe",
+        "sourceCount": 15
+      },
+      {
         "id": "akkermansia-muciniphila",
         "label": "Akkermansia muciniphila",
         "category": "microbe",
@@ -181407,18 +181371,6 @@
         "sourceCount": 12
       },
       {
-        "id": "eubacterium-eligens",
-        "label": "Eubacterium eligens",
-        "category": "microbe",
-        "sourceCount": 8
-      },
-      {
-        "id": "eubacterium-rectale",
-        "label": "Eubacterium rectale",
-        "category": "microbe",
-        "sourceCount": 11
-      },
-      {
         "id": "eubacterium",
         "label": "Eubacterium",
         "category": "microbe",
@@ -181717,6 +181669,12 @@
         "label": "Lachnoclostridium",
         "category": "microbe",
         "sourceCount": 4
+      },
+      {
+        "id": "lachnospira-eligens",
+        "label": "Lachnospira eligens",
+        "category": "microbe",
+        "sourceCount": 12
       },
       {
         "id": "lachnospira",
@@ -186187,6 +186145,26 @@
         "target": "nutritional-immunity"
       },
       {
+        "source": "agathobacter-rectalis",
+        "target": "lachnospiraceae-family"
+      },
+      {
+        "source": "agathobacter-rectalis",
+        "target": "butyrate"
+      },
+      {
+        "source": "agathobacter-rectalis",
+        "target": "type-1-diabetes"
+      },
+      {
+        "source": "agathobacter-rectalis",
+        "target": "chronic-kidney-disease"
+      },
+      {
+        "source": "agathobacter-rectalis",
+        "target": "cardiovascular-disease"
+      },
+      {
         "source": "akkermansia-muciniphila",
         "target": "gut-metal-microbiome"
       },
@@ -187216,7 +187194,7 @@
       },
       {
         "source": "bacteroides-uniformis",
-        "target": "eubacterium-rectale"
+        "target": "agathobacter-rectalis"
       },
       {
         "source": "bacteroides-uniformis",
@@ -191163,66 +191141,6 @@
         "target": "gerd"
       },
       {
-        "source": "eubacterium-eligens",
-        "target": "lachnospiraceae"
-      },
-      {
-        "source": "eubacterium-eligens",
-        "target": "type-1-diabetes"
-      },
-      {
-        "source": "eubacterium-eligens",
-        "target": "ruminococcus-bromii"
-      },
-      {
-        "source": "eubacterium-eligens",
-        "target": "oxygen-state"
-      },
-      {
-        "source": "eubacterium-eligens",
-        "target": "butyrate"
-      },
-      {
-        "source": "eubacterium-eligens",
-        "target": "faecalibacterium-prausnitzii"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "lachnospiraceae-family"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "faecalibacterium-prausnitzii"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "roseburia"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "butyrate"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "iron"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "short-chain-fatty-acids"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "type-1-diabetes"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "cardiovascular-disease"
-      },
-      {
-        "source": "eubacterium-rectale",
-        "target": "bifidobacterium"
-      },
-      {
         "source": "eubacterium",
         "target": "faecalibacterium-prausnitzii"
       },
@@ -193149,6 +193067,26 @@
       {
         "source": "lachnoclostridium",
         "target": "ferroptosis"
+      },
+      {
+        "source": "lachnospira-eligens",
+        "target": "lachnospiraceae"
+      },
+      {
+        "source": "lachnospira-eligens",
+        "target": "lachnospira"
+      },
+      {
+        "source": "lachnospira-eligens",
+        "target": "dietary-fiber"
+      },
+      {
+        "source": "lachnospira-eligens",
+        "target": "type-1-diabetes"
+      },
+      {
+        "source": "lachnospira-eligens",
+        "target": "chronic-kidney-disease"
       },
       {
         "source": "lachnospira",
@@ -196933,6 +196871,14 @@
       {
         "source": "ruminococcus-bromii",
         "target": "bacteroides-thetaiotaomicron"
+      },
+      {
+        "source": "ruminococcus-bromii",
+        "target": "lachnospira-eligens"
+      },
+      {
+        "source": "ruminococcus-bromii",
+        "target": "agathobacter-rectalis"
       },
       {
         "source": "ruminococcus-bromii",
@@ -209532,10 +209478,6 @@
       },
       {
         "source": "chronic-kidney-disease",
-        "target": "eubacterium-rectale"
-      },
-      {
-        "source": "chronic-kidney-disease",
         "target": "ruminococcus-bromii"
       },
       {
@@ -210712,7 +210654,7 @@
       },
       {
         "source": "alzheimers-disease-signature",
-        "target": "eubacterium-rectale"
+        "target": "agathobacter-rectalis"
       },
       {
         "source": "alzheimers-disease-signature",
@@ -213356,7 +213298,7 @@
       },
       {
         "source": "type-1-diabetes-signature",
-        "target": "eubacterium-eligens"
+        "target": "lachnospira-eligens"
       },
       {
         "source": "type-1-diabetes-signature",
@@ -215304,10 +215246,6 @@
       },
       {
         "source": "broken-links-2026-04-16",
-        "target": "eubacterium-rectale"
-      },
-      {
-        "source": "broken-links-2026-04-16",
         "target": "ruminococcus-bromii"
       },
       {
@@ -216509,10 +216447,6 @@
       {
         "source": "broken-links-2026-04-16",
         "target": "pcos-signature"
-      },
-      {
-        "source": "broken-links-2026-04-16",
-        "target": "eubacterium-eligens"
       },
       {
         "source": "broken-links-2026-04-16",
@@ -218430,7 +218364,7 @@
             "role": "SCFA producer; heavy metal binder; negatively correlated with progression (variable in some studies)"
           },
           {
-            "taxon": "[[eubacterium-rectale]]",
+            "taxon": "[[agathobacter-rectalis|Eubacterium rectale]]",
             "role": "Key butyrate species; depleted in CKD"
           },
           {
@@ -221030,8 +220964,8 @@
         ],
         "depleted": [
           {
-            "taxon": "[[eubacterium-rectale]]",
-            "role": "Major butyrate producer; loss reduces gut barrier integrity and anti-inflammatory signaling"
+            "taxon": "[[agathobacter-rectalis|Eubacterium rectale]]",
+            "role": "A cited review reports the historical species label as decreased in AD; it does not establish causation or a species-specific mechanism"
           },
           {
             "taxon": "[[bacteroides]]",
@@ -224644,8 +224578,8 @@
         ],
         "depleted": [
           {
-            "taxon": "[[eubacterium-eligens]]",
-            "role": "Strongest causally protective signal (MR OR=0.64, FDR-significant p=0.031); Firmicutes butyrate producer"
+            "taxon": "[[lachnospira-eligens|Eubacterium eligens group]]",
+            "role": "Source-labeled group showed an inverse MR association with T1D (OR=0.64, FDR-adjusted p=0.031); the group label does not resolve Lachnospira eligens alone"
           },
           {
             "taxon": "[[bifidobacterium]]",
@@ -229817,58 +229751,6 @@
       {
         "conditions": [
           "chronic-kidney-disease",
-          "type-1-diabetes"
-        ],
-        "names": [
-          "Chronic Kidney Disease",
-          "Type 1 Diabetes"
-        ],
-        "score": 36,
-        "sharedMetals": [
-          "cadmium",
-          "lead",
-          "arsenic",
-          "glutathione",
-          "zinc"
-        ],
-        "sharedTaxa": [
-          "escherichia-coli",
-          "enterobacteriaceae",
-          "faecalibacterium-prausnitzii",
-          "roseburia",
-          "prevotella",
-          "bifidobacterium",
-          "eubacterium-rectale"
-        ],
-        "sharedEcological": [],
-        "sharedVirulence": [],
-        "sharedNutritional": [],
-        "details": {
-          "metalsElevated": [
-            "cadmium",
-            "lead",
-            "arsenic"
-          ],
-          "metalsDepleted": [
-            "glutathione",
-            "zinc"
-          ],
-          "taxaEnriched": [
-            "escherichia-coli",
-            "enterobacteriaceae"
-          ],
-          "taxaDepleted": [
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "prevotella",
-            "bifidobacterium",
-            "eubacterium-rectale"
-          ]
-        }
-      },
-      {
-        "conditions": [
-          "chronic-kidney-disease",
           "alzheimers-disease-signature"
         ],
         "names": [
@@ -229888,7 +229770,7 @@
           "escherichia-coli",
           "faecalibacterium-prausnitzii",
           "roseburia",
-          "eubacterium-rectale"
+          "agathobacter-rectalis|eubacterium-rectale"
         ],
         "sharedEcological": [
           "SCFA-depletion"
@@ -229915,7 +229797,7 @@
           "taxaDepleted": [
             "faecalibacterium-prausnitzii",
             "roseburia",
-            "eubacterium-rectale"
+            "agathobacter-rectalis|eubacterium-rectale"
           ]
         }
       },
@@ -232652,6 +232534,56 @@
             "roseburia",
             "faecalibacterium-prausnitzii",
             "lachnospiraceae"
+          ]
+        }
+      },
+      {
+        "conditions": [
+          "chronic-kidney-disease",
+          "type-1-diabetes"
+        ],
+        "names": [
+          "Chronic Kidney Disease",
+          "Type 1 Diabetes"
+        ],
+        "score": 33,
+        "sharedMetals": [
+          "cadmium",
+          "lead",
+          "arsenic",
+          "glutathione",
+          "zinc"
+        ],
+        "sharedTaxa": [
+          "escherichia-coli",
+          "enterobacteriaceae",
+          "faecalibacterium-prausnitzii",
+          "roseburia",
+          "prevotella",
+          "bifidobacterium"
+        ],
+        "sharedEcological": [],
+        "sharedVirulence": [],
+        "sharedNutritional": [],
+        "details": {
+          "metalsElevated": [
+            "cadmium",
+            "lead",
+            "arsenic"
+          ],
+          "metalsDepleted": [
+            "glutathione",
+            "zinc"
+          ],
+          "taxaEnriched": [
+            "escherichia-coli",
+            "enterobacteriaceae"
+          ],
+          "taxaDepleted": [
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "prevotella",
+            "bifidobacterium"
           ]
         }
       },
@@ -241687,54 +241619,6 @@
       {
         "conditions": [
           "type-1-diabetes",
-          "alzheimers-disease-signature"
-        ],
-        "names": [
-          "Type 1 Diabetes",
-          "Alzheimer's Disease -- Microbiome Signature"
-        ],
-        "score": 28,
-        "sharedMetals": [
-          "cadmium",
-          "lead",
-          "arsenic",
-          "glutathione"
-        ],
-        "sharedTaxa": [
-          "escherichia-coli",
-          "faecalibacterium-prausnitzii",
-          "roseburia",
-          "eubacterium-rectale",
-          "lachnospiraceae"
-        ],
-        "sharedEcological": [],
-        "sharedVirulence": [],
-        "sharedNutritional": [
-          "glutathione"
-        ],
-        "details": {
-          "metalsElevated": [
-            "cadmium",
-            "lead",
-            "arsenic"
-          ],
-          "metalsDepleted": [
-            "glutathione"
-          ],
-          "taxaEnriched": [
-            "escherichia-coli"
-          ],
-          "taxaDepleted": [
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "eubacterium-rectale",
-            "lachnospiraceae"
-          ]
-        }
-      },
-      {
-        "conditions": [
-          "type-1-diabetes",
           "colorectal-cancer-signature"
         ],
         "names": [
@@ -246188,54 +246072,6 @@
       },
       {
         "conditions": [
-          "chronic-kidney-disease",
-          "pancreatitis-signature"
-        ],
-        "names": [
-          "Chronic Kidney Disease",
-          "Pancreatitis"
-        ],
-        "score": 26,
-        "sharedMetals": [
-          "zinc"
-        ],
-        "sharedTaxa": [
-          "escherichia-coli",
-          "faecalibacterium-prausnitzii",
-          "roseburia",
-          "bifidobacterium",
-          "eubacterium-rectale"
-        ],
-        "sharedEcological": [
-          "gut-barrier-dysfunction"
-        ],
-        "sharedVirulence": [
-          "siderophores"
-        ],
-        "sharedNutritional": [
-          "CRP",
-          "IL-6",
-          "butyrate",
-          "acetate"
-        ],
-        "details": {
-          "metalsElevated": [],
-          "metalsDepleted": [
-            "zinc"
-          ],
-          "taxaEnriched": [
-            "escherichia-coli"
-          ],
-          "taxaDepleted": [
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "bifidobacterium",
-            "eubacterium-rectale"
-          ]
-        }
-      },
-      {
-        "conditions": [
           "colorectal-cancer",
           "multiple-sclerosis-signature"
         ],
@@ -249904,6 +249740,52 @@
       {
         "conditions": [
           "type-1-diabetes",
+          "alzheimers-disease-signature"
+        ],
+        "names": [
+          "Type 1 Diabetes",
+          "Alzheimer's Disease -- Microbiome Signature"
+        ],
+        "score": 25,
+        "sharedMetals": [
+          "cadmium",
+          "lead",
+          "arsenic",
+          "glutathione"
+        ],
+        "sharedTaxa": [
+          "escherichia-coli",
+          "faecalibacterium-prausnitzii",
+          "roseburia",
+          "lachnospiraceae"
+        ],
+        "sharedEcological": [],
+        "sharedVirulence": [],
+        "sharedNutritional": [
+          "glutathione"
+        ],
+        "details": {
+          "metalsElevated": [
+            "cadmium",
+            "lead",
+            "arsenic"
+          ],
+          "metalsDepleted": [
+            "glutathione"
+          ],
+          "taxaEnriched": [
+            "escherichia-coli"
+          ],
+          "taxaDepleted": [
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "lachnospiraceae"
+          ]
+        }
+      },
+      {
+        "conditions": [
+          "type-1-diabetes",
           "chronic-kidney-disease-signature"
         ],
         "names": [
@@ -253490,50 +253372,6 @@
       },
       {
         "conditions": [
-          "alzheimers-disease-signature",
-          "pancreatitis-signature"
-        ],
-        "names": [
-          "Alzheimer's Disease -- Microbiome Signature",
-          "Pancreatitis"
-        ],
-        "score": 24,
-        "sharedMetals": [
-          "iron",
-          "selenium"
-        ],
-        "sharedTaxa": [
-          "escherichia-coli",
-          "klebsiella-pneumoniae",
-          "eubacterium-rectale",
-          "faecalibacterium-prausnitzii",
-          "roseburia"
-        ],
-        "sharedEcological": [],
-        "sharedVirulence": [
-          "siderophores"
-        ],
-        "sharedNutritional": [],
-        "details": {
-          "metalsElevated": [
-            "iron"
-          ],
-          "metalsDepleted": [
-            "selenium"
-          ],
-          "taxaEnriched": [
-            "escherichia-coli",
-            "klebsiella-pneumoniae"
-          ],
-          "taxaDepleted": [
-            "eubacterium-rectale",
-            "faecalibacterium-prausnitzii",
-            "roseburia"
-          ]
-        }
-      },
-      {
-        "conditions": [
           "anxiety-signature",
           "schizophrenia-signature"
         ],
@@ -254702,6 +254540,52 @@
             "faecalibacterium-prausnitzii",
             "roseburia",
             "prevotella"
+          ]
+        }
+      },
+      {
+        "conditions": [
+          "chronic-kidney-disease",
+          "pancreatitis-signature"
+        ],
+        "names": [
+          "Chronic Kidney Disease",
+          "Pancreatitis"
+        ],
+        "score": 23,
+        "sharedMetals": [
+          "zinc"
+        ],
+        "sharedTaxa": [
+          "escherichia-coli",
+          "faecalibacterium-prausnitzii",
+          "roseburia",
+          "bifidobacterium"
+        ],
+        "sharedEcological": [
+          "gut-barrier-dysfunction"
+        ],
+        "sharedVirulence": [
+          "siderophores"
+        ],
+        "sharedNutritional": [
+          "CRP",
+          "IL-6",
+          "butyrate",
+          "acetate"
+        ],
+        "details": {
+          "metalsElevated": [],
+          "metalsDepleted": [
+            "zinc"
+          ],
+          "taxaEnriched": [
+            "escherichia-coli"
+          ],
+          "taxaDepleted": [
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "bifidobacterium"
           ]
         }
       },
@@ -265128,6 +265012,48 @@
             "faecalibacterium-prausnitzii",
             "bifidobacterium",
             "lachnospiraceae"
+          ]
+        }
+      },
+      {
+        "conditions": [
+          "alzheimers-disease-signature",
+          "pancreatitis-signature"
+        ],
+        "names": [
+          "Alzheimer's Disease -- Microbiome Signature",
+          "Pancreatitis"
+        ],
+        "score": 21,
+        "sharedMetals": [
+          "iron",
+          "selenium"
+        ],
+        "sharedTaxa": [
+          "escherichia-coli",
+          "klebsiella-pneumoniae",
+          "faecalibacterium-prausnitzii",
+          "roseburia"
+        ],
+        "sharedEcological": [],
+        "sharedVirulence": [
+          "siderophores"
+        ],
+        "sharedNutritional": [],
+        "details": {
+          "metalsElevated": [
+            "iron"
+          ],
+          "metalsDepleted": [
+            "selenium"
+          ],
+          "taxaEnriched": [
+            "escherichia-coli",
+            "klebsiella-pneumoniae"
+          ],
+          "taxaDepleted": [
+            "faecalibacterium-prausnitzii",
+            "roseburia"
           ]
         }
       },
@@ -326414,29 +326340,6 @@
           "sharedVirulence": []
         },
         {
-          "id": "type-1-diabetes",
-          "name": "Type 1 Diabetes",
-          "score": 36,
-          "sharedMetals": [
-            "cadmium",
-            "lead",
-            "arsenic",
-            "glutathione",
-            "zinc"
-          ],
-          "sharedTaxa": [
-            "escherichia-coli",
-            "enterobacteriaceae",
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "prevotella",
-            "bifidobacterium",
-            "eubacterium-rectale"
-          ],
-          "sharedEcological": [],
-          "sharedVirulence": []
-        },
-        {
           "id": "alzheimers-disease-signature",
           "name": "Alzheimer's Disease -- Microbiome Signature",
           "score": 36,
@@ -326452,7 +326355,7 @@
             "escherichia-coli",
             "faecalibacterium-prausnitzii",
             "roseburia",
-            "eubacterium-rectale"
+            "agathobacter-rectalis|eubacterium-rectale"
           ],
           "sharedEcological": [
             "SCFA-depletion"
@@ -326509,6 +326412,28 @@
           "sharedVirulence": [
             "beta-glucuronidase"
           ]
+        },
+        {
+          "id": "type-1-diabetes",
+          "name": "Type 1 Diabetes",
+          "score": 33,
+          "sharedMetals": [
+            "cadmium",
+            "lead",
+            "arsenic",
+            "glutathione",
+            "zinc"
+          ],
+          "sharedTaxa": [
+            "escherichia-coli",
+            "enterobacteriaceae",
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "prevotella",
+            "bifidobacterium"
+          ],
+          "sharedEcological": [],
+          "sharedVirulence": []
         },
         {
           "id": "colorectal-cancer-signature",
@@ -327021,27 +326946,6 @@
           ]
         },
         {
-          "id": "pancreatitis-signature",
-          "name": "Pancreatitis",
-          "score": 26,
-          "sharedMetals": [
-            "zinc"
-          ],
-          "sharedTaxa": [
-            "escherichia-coli",
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "bifidobacterium",
-            "eubacterium-rectale"
-          ],
-          "sharedEcological": [
-            "gut-barrier-dysfunction"
-          ],
-          "sharedVirulence": [
-            "siderophores"
-          ]
-        },
-        {
           "id": "depression",
           "name": "Major Depressive Disorder",
           "score": 25,
@@ -327183,6 +327087,26 @@
           ],
           "sharedEcological": [],
           "sharedVirulence": []
+        },
+        {
+          "id": "pancreatitis-signature",
+          "name": "Pancreatitis",
+          "score": 23,
+          "sharedMetals": [
+            "zinc"
+          ],
+          "sharedTaxa": [
+            "escherichia-coli",
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "bifidobacterium"
+          ],
+          "sharedEcological": [
+            "gut-barrier-dysfunction"
+          ],
+          "sharedVirulence": [
+            "siderophores"
+          ]
         },
         {
           "id": "gerd",
@@ -352433,29 +352357,6 @@
           "sharedVirulence": []
         },
         {
-          "id": "chronic-kidney-disease",
-          "name": "Chronic Kidney Disease",
-          "score": 36,
-          "sharedMetals": [
-            "cadmium",
-            "lead",
-            "arsenic",
-            "glutathione",
-            "zinc"
-          ],
-          "sharedTaxa": [
-            "escherichia-coli",
-            "enterobacteriaceae",
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "prevotella",
-            "bifidobacterium",
-            "eubacterium-rectale"
-          ],
-          "sharedEcological": [],
-          "sharedVirulence": []
-        },
-        {
           "id": "parkinsons-disease-signature",
           "name": "Parkinson's Disease -- Microbiome Signature",
           "score": 36,
@@ -352517,6 +352418,28 @@
             "roseburia",
             "lachnospiraceae",
             "blautia"
+          ],
+          "sharedEcological": [],
+          "sharedVirulence": []
+        },
+        {
+          "id": "chronic-kidney-disease",
+          "name": "Chronic Kidney Disease",
+          "score": 33,
+          "sharedMetals": [
+            "cadmium",
+            "lead",
+            "arsenic",
+            "glutathione",
+            "zinc"
+          ],
+          "sharedTaxa": [
+            "escherichia-coli",
+            "enterobacteriaceae",
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "prevotella",
+            "bifidobacterium"
           ],
           "sharedEcological": [],
           "sharedVirulence": []
@@ -352848,26 +352771,6 @@
           "sharedVirulence": []
         },
         {
-          "id": "alzheimers-disease-signature",
-          "name": "Alzheimer's Disease -- Microbiome Signature",
-          "score": 28,
-          "sharedMetals": [
-            "cadmium",
-            "lead",
-            "arsenic",
-            "glutathione"
-          ],
-          "sharedTaxa": [
-            "escherichia-coli",
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "eubacterium-rectale",
-            "lachnospiraceae"
-          ],
-          "sharedEcological": [],
-          "sharedVirulence": []
-        },
-        {
           "id": "colorectal-cancer-signature",
           "name": "Colorectal Cancer",
           "score": 28,
@@ -353018,6 +352921,25 @@
             "bifidobacterium",
             "roseburia",
             "eubacterium-rectale"
+          ],
+          "sharedEcological": [],
+          "sharedVirulence": []
+        },
+        {
+          "id": "alzheimers-disease-signature",
+          "name": "Alzheimer's Disease -- Microbiome Signature",
+          "score": 25,
+          "sharedMetals": [
+            "cadmium",
+            "lead",
+            "arsenic",
+            "glutathione"
+          ],
+          "sharedTaxa": [
+            "escherichia-coli",
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "lachnospiraceae"
           ],
           "sharedEcological": [],
           "sharedVirulence": []
@@ -355213,7 +355135,7 @@
             "escherichia-coli",
             "faecalibacterium-prausnitzii",
             "roseburia",
-            "eubacterium-rectale"
+            "agathobacter-rectalis|eubacterium-rectale"
           ],
           "sharedEcological": [
             "SCFA-depletion"
@@ -355522,26 +355444,6 @@
           ]
         },
         {
-          "id": "type-1-diabetes",
-          "name": "Type 1 Diabetes",
-          "score": 28,
-          "sharedMetals": [
-            "cadmium",
-            "lead",
-            "arsenic",
-            "glutathione"
-          ],
-          "sharedTaxa": [
-            "escherichia-coli",
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "eubacterium-rectale",
-            "lachnospiraceae"
-          ],
-          "sharedEcological": [],
-          "sharedVirulence": []
-        },
-        {
           "id": "multiple-sclerosis-signature",
           "name": "Multiple Sclerosis",
           "score": 28,
@@ -355674,6 +355576,25 @@
           ]
         },
         {
+          "id": "type-1-diabetes",
+          "name": "Type 1 Diabetes",
+          "score": 25,
+          "sharedMetals": [
+            "cadmium",
+            "lead",
+            "arsenic",
+            "glutathione"
+          ],
+          "sharedTaxa": [
+            "escherichia-coli",
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "lachnospiraceae"
+          ],
+          "sharedEcological": [],
+          "sharedVirulence": []
+        },
+        {
           "id": "pcos-signature",
           "name": "Polycystic Ovary Syndrome",
           "score": 25,
@@ -355732,26 +355653,6 @@
           "sharedEcological": [
             "SCFA-depletion"
           ],
-          "sharedVirulence": [
-            "siderophores"
-          ]
-        },
-        {
-          "id": "pancreatitis-signature",
-          "name": "Pancreatitis",
-          "score": 24,
-          "sharedMetals": [
-            "iron",
-            "selenium"
-          ],
-          "sharedTaxa": [
-            "escherichia-coli",
-            "klebsiella-pneumoniae",
-            "eubacterium-rectale",
-            "faecalibacterium-prausnitzii",
-            "roseburia"
-          ],
-          "sharedEcological": [],
           "sharedVirulence": [
             "siderophores"
           ]
@@ -355988,6 +355889,25 @@
             "TMAO-elevation",
             "ferroptosis"
           ],
+          "sharedVirulence": [
+            "siderophores"
+          ]
+        },
+        {
+          "id": "pancreatitis-signature",
+          "name": "Pancreatitis",
+          "score": 21,
+          "sharedMetals": [
+            "iron",
+            "selenium"
+          ],
+          "sharedTaxa": [
+            "escherichia-coli",
+            "klebsiella-pneumoniae",
+            "faecalibacterium-prausnitzii",
+            "roseburia"
+          ],
+          "sharedEcological": [],
           "sharedVirulence": [
             "siderophores"
           ]
@@ -393704,27 +393624,6 @@
           ]
         },
         {
-          "id": "chronic-kidney-disease",
-          "name": "Chronic Kidney Disease",
-          "score": 26,
-          "sharedMetals": [
-            "zinc"
-          ],
-          "sharedTaxa": [
-            "escherichia-coli",
-            "faecalibacterium-prausnitzii",
-            "roseburia",
-            "bifidobacterium",
-            "eubacterium-rectale"
-          ],
-          "sharedEcological": [
-            "gut-barrier-dysfunction"
-          ],
-          "sharedVirulence": [
-            "siderophores"
-          ]
-        },
-        {
           "id": "type-1-diabetes",
           "name": "Type 1 Diabetes",
           "score": 26,
@@ -393806,26 +393705,6 @@
           ]
         },
         {
-          "id": "alzheimers-disease-signature",
-          "name": "Alzheimer's Disease -- Microbiome Signature",
-          "score": 24,
-          "sharedMetals": [
-            "iron",
-            "selenium"
-          ],
-          "sharedTaxa": [
-            "escherichia-coli",
-            "klebsiella-pneumoniae",
-            "eubacterium-rectale",
-            "faecalibacterium-prausnitzii",
-            "roseburia"
-          ],
-          "sharedEcological": [],
-          "sharedVirulence": [
-            "siderophores"
-          ]
-        },
-        {
           "id": "cardiovascular-disease-signature",
           "name": "Cardiovascular Disease",
           "score": 24,
@@ -393885,6 +393764,26 @@
             "biofilm"
           ],
           "sharedVirulence": []
+        },
+        {
+          "id": "chronic-kidney-disease",
+          "name": "Chronic Kidney Disease",
+          "score": 23,
+          "sharedMetals": [
+            "zinc"
+          ],
+          "sharedTaxa": [
+            "escherichia-coli",
+            "faecalibacterium-prausnitzii",
+            "roseburia",
+            "bifidobacterium"
+          ],
+          "sharedEcological": [
+            "gut-barrier-dysfunction"
+          ],
+          "sharedVirulence": [
+            "siderophores"
+          ]
         },
         {
           "id": "atherosclerosis-signature",
@@ -394052,6 +393951,25 @@
           "sharedEcological": [],
           "sharedVirulence": [
             "LPS-biosynthesis",
+            "siderophores"
+          ]
+        },
+        {
+          "id": "alzheimers-disease-signature",
+          "name": "Alzheimer's Disease -- Microbiome Signature",
+          "score": 21,
+          "sharedMetals": [
+            "iron",
+            "selenium"
+          ],
+          "sharedTaxa": [
+            "escherichia-coli",
+            "klebsiella-pneumoniae",
+            "faecalibacterium-prausnitzii",
+            "roseburia"
+          ],
+          "sharedEcological": [],
+          "sharedVirulence": [
             "siderophores"
           ]
         },
@@ -414995,6 +414913,25 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "garcia-lopez-2019-lachnospira-eligens-reclassification": {
+      "title": "García-López 2019 — Analysis of 1,000 Type-Strain Genomes Improves Taxonomic Classification of Bacteroidetes",
+      "authors": [
+        "Marina García-López",
+        "Jan P. Meier-Kolthoff",
+        "Brian J. Tindall",
+        "Sabine Gronow",
+        "Tanja Woyke",
+        "Nikos C. Kyrpides",
+        "Richard L. Hahnke",
+        "Markus Göker"
+      ],
+      "year": 2019,
+      "journal": "Frontiers in Microbiology",
+      "doi": "10.3389/fmicb.2019.02083",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "gargano-2022-mait-cells-gut-yeasts-ms-brain": {
       "title": "Proinflammatory Mucosal-Associated Invariant CD8+ T Cells React to Gut Flora Yeasts and Infiltrate Multiple Sclerosis Brain",
       "authors": [
@@ -422993,6 +422930,16 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "lpsn-agathobacter-rectalis": {
+      "title": "LPSN — Agathobacter rectalis",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "lpsn-akkermansia-muciniphila": {
       "title": "LPSN — Akkermansia muciniphila",
       "authors": [],
@@ -423055,6 +423002,16 @@
     },
     "lpsn-fannyhessea-vaginae": {
       "title": "LPSN — Fannyhessea vaginae",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "lpsn-lachnospira-eligens": {
+      "title": "LPSN — Lachnospira eligens",
       "authors": [],
       "year": "",
       "journal": "List of Prokaryotic names with Standing in Nomenclature",
@@ -423350,11 +423307,14 @@
     "luo-2023-causal-gut-microbiota-ckd-mendelian-randomization": {
       "title": "Luo 2023 — Causal Effects of Gut Microbiota on CKD Risk: Mendelian Randomization",
       "authors": [
-        "Luo",
-        "Chen",
-        "Li",
-        "Wang",
-        "Zhang"
+        "Mingli Luo",
+        "Jiahao Cai",
+        "Shulu Luo",
+        "Xiaosi Hong",
+        "Lingxin Xu",
+        "Honghong Lin",
+        "Xiong Chen",
+        "Wen Fu"
       ],
       "year": 2023,
       "journal": "Frontiers in Cellular and Infection Microbiology",
@@ -425792,6 +425752,16 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "ncbi-taxonomy-agathobacter-rectalis": {
+      "title": "NCBI Taxonomy — Agathobacter rectalis (NCBITaxon:39491)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "ncbi-taxonomy-akkermansia-muciniphila": {
       "title": "NCBI Taxonomy — Akkermansia muciniphila (NCBITaxon:239935)",
       "authors": [],
@@ -425874,6 +425844,16 @@
     },
     "ncbi-taxonomy-fannyhessea-vaginae": {
       "title": "NCBI Taxonomy — Fannyhessea vaginae (NCBITaxon:82135)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-lachnospira-eligens": {
+      "title": "NCBI Taxonomy — Lachnospira eligens (NCBITaxon:39485)",
       "authors": [],
       "year": "",
       "journal": "NCBI Taxonomy",
@@ -429583,6 +429563,25 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "rosero-2016-agathobacter-rectalis-reclassification": {
+      "title": "Rosero 2016 — Reclassification of Eubacterium rectale as Agathobacter rectalis",
+      "authors": [
+        "Jaime A. Rosero",
+        "Jiří Killer",
+        "Hana Sechovcová",
+        "Jakub Mrázek",
+        "Oldřich Benada",
+        "Kateřina Fliegerová",
+        "Jaroslav Havlík",
+        "Jan Kopečný"
+      ],
+      "year": 2016,
+      "journal": "International Journal of Systematic and Evolutionary Microbiology",
+      "doi": "10.1099/ijsem.0.000788",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "ross-2024-diet-gut-microbiome-interplay-health-disease": {
       "title": "The interplay between diet and the gut microbiome: implications for health and disease",
       "authors": [
@@ -430953,6 +430952,23 @@
       "year": 2025,
       "journal": "npj Biofilms and Microbiomes",
       "doi": "not yet verified",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "sheridan-2016-objections-agathobacter-rectalis": {
+      "title": "Sheridan 2016 — Objections to the proposed reclassification of Eubacterium rectale as Agathobacter rectalis",
+      "authors": [
+        "Paul O. Sheridan",
+        "Sylvia H. Duncan",
+        "Alan W. Walker",
+        "Karen P. Scott",
+        "Petra Louis",
+        "Harry J. Flint"
+      ],
+      "year": 2016,
+      "journal": "International Journal of Systematic and Evolutionary Microbiology",
+      "doi": "10.1099/ijsem.0.000969",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

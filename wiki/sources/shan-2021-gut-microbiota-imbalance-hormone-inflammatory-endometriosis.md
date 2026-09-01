@@ -19,7 +19,7 @@ platform: both
 condition: "endometriosis"
 karen_brain_primitives: [1, 7, 9]
 metals_discussed: []
-taxa_discussed: [prevotella, coprococcus, blautia, dorea, bifidobacterium, streptococcus, actinobacteria, lachnospira, subdoligranulum, bacteroides, faecalibacterium, roseburia, escherichia-shigella, eubacterium-eligens, eubacterium-hallii, lachnoclostridium, phascolarctobacterium, anaerostipes, klebsiella, ruminococcus, tenericutes, saccharibacteria, fusobacteria, acidobacteria]
+taxa_discussed: [prevotella, coprococcus, blautia, dorea, bifidobacterium, streptococcus, actinobacteria, lachnospira, subdoligranulum, bacteroides, faecalibacterium, roseburia, escherichia-shigella, lachnospira-eligens, eubacterium-hallii, lachnoclostridium, phascolarctobacterium, anaerostipes, klebsiella, ruminococcus, tenericutes, saccharibacteria, fusobacteria, acidobacteria]
 key_findings: ["EM patients had lower alpha diversity and higher Firmicutes/Bacteroidetes ratio compared to controls", "Serum estradiol (E2) and IL-8 were significantly elevated in EM patients and correlated with abundances of Blautia, Dorea, and Subdoligranulum", "Gut microbiota in EM was enriched for environmental information processing, endocrine system, and immune system KEGG pathways"]
 keystone: false
 ---

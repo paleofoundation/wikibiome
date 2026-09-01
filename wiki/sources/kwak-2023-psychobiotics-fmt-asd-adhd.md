@@ -51,7 +51,7 @@ Review of psychobiotic and FMT mechanisms in neurodevelopmental disorders:
 - [[lactobacillus]] species
 - [[bifidobacterium]] species
 - [[faecalibacterium-prausnitzii]] (major SCFA producer)
-- Other [[roseburia]] and [[eubacterium-rectale]] (SCFA producers)
+- Other [[roseburia]] and source-labeled [[agathobacter-rectalis|Eubacterium rectale]] (SCFA producers)
 
 # Relevance to Metallomic Framework
 
@@ -64,4 +64,3 @@ This review focuses on psychobiotic mechanism but lacks metal perspective—crit
 - **Oral dysbiosis to GI dysbiosis progression**: Dysbiotic oral flora (metal-selected) seed dysbiotic gut flora → loss of psychobiotic potential
 
 **Cureva opportunity**: Psychobiotics + metal restriction (diet or chelation) could work synergistically—create metal-restricted niche where protective strains thrive.
-

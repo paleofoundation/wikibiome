@@ -19,7 +19,7 @@ platform: wikibiome
 condition: "chronic-kidney-disease"
 karen_brain_primitives: [1, 5]
 metals_discussed: []
-taxa_discussed: [desulfovibrionales, desulfovibrionaceae, deltaproteobacteria, eubacterium-eligens, lachnospiraceae, ruminococcaceae, peptostreptococcaceae, alcaligenaceae]
+taxa_discussed: [desulfovibrionales, desulfovibrionaceae, deltaproteobacteria, lachnospira-eligens, lachnospiraceae, ruminococcaceae, peptostreptococcaceae, alcaligenaceae]
 key_findings:
   - "Desulfovibrionales causally associated with increased CKD risk (IVW OR = 1.15, 95% CI 1.05–1.26, p = 0.0026)"
   - "Nine other gut bacterial taxa show potential causal associations with CKD at nominal significance"
