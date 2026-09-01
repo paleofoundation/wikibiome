@@ -23,7 +23,49 @@ const shouldWrite = process.argv.includes("--write");
 
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
 const reviewLog = JSON.parse(readFileSync(reviewLogPath, "utf8"));
-const canonicalRoutes = loadCanonicalMediaRoutes(projectRoot);
+const sourceCanonicalRoutes = loadCanonicalMediaRoutes(projectRoot);
+assertCanonicalMediaCorpus(sourceCanonicalRoutes);
+const sourceCanonicalIds = new Set(sourceCanonicalRoutes.map((route) => route.id));
+const queueReplacements = reviewLog.rejectedAssets.filter(
+  (asset) => asset.disposition === "scientific-identity-hold-resolved" && asset.queueReplacement,
+);
+const replacementByRetiredId = new Map(queueReplacements.map((asset) => [asset.pageId, asset]));
+const replacementByCanonicalId = new Map(queueReplacements.map((asset) => [asset.queueReplacement.pageId, asset]));
+const coverageOrder = new Map(mediaCoverageGroups.map((group) => [group.id, group.categoryOrder]));
+const canonicalRoutes = sourceCanonicalRoutes
+  .map((route) => {
+    const transition = replacementByRetiredId.get(route.id);
+    if (transition) {
+      const replacement = transition.queueReplacement;
+      if (!replacement.pageId || !replacement.title || !replacement.route || !replacement.controlledIdentifier || replacement.coverageStatus !== "uncovered") {
+        throw new Error(`${transition.pageId}: resolved identity queue replacement is incomplete.`);
+      }
+      if (sourceCanonicalIds.has(replacement.pageId)) {
+        throw new Error(`${transition.pageId}: retired and replacement identities both appear in the source media corpus.`);
+      }
+      return {
+        ...route,
+        id: replacement.pageId,
+        title: replacement.title,
+        route: replacement.route,
+        controlledIdentifier: replacement.controlledIdentifier,
+        identityTransition: {
+          retiredPageId: transition.pageId,
+          resolvedOn: transition.resolvedOn,
+          disposition: transition.disposition,
+        },
+      };
+    }
+    const integratedResolution = replacementByCanonicalId.get(route.id);
+    return integratedResolution
+      ? { ...route, controlledIdentifier: integratedResolution.queueReplacement.controlledIdentifier }
+      : route;
+  })
+  .sort((a, b) => {
+    const groupDifference = coverageOrder.get(a.coverageGroup) - coverageOrder.get(b.coverageGroup);
+    return groupDifference || a.title.localeCompare(b.title, "en") || a.id.localeCompare(b.id, "en");
+  })
+  .map((route, index) => ({ ...route, queuePosition: index + 1 }));
 assertCanonicalMediaCorpus(canonicalRoutes);
 
 const reviewedIds = new Set(Object.keys(articleMediaRegistry));
@@ -123,7 +165,7 @@ const nextBatch = firstOpenGroup
   ? queue
       .filter((route) => route.coverageGroup === firstOpenGroup.id && route.status === "queued")
       .slice(0, reviewLog.reviewableBatchSize)
-      .map(({ queuePosition, id, title, route, category, coverageGroup, suggestedAssetType }) => ({
+      .map(({ queuePosition, id, title, route, category, coverageGroup, suggestedAssetType, controlledIdentifier }) => ({
         queuePosition,
         id,
         title,
@@ -131,6 +173,7 @@ const nextBatch = firstOpenGroup
         category,
         coverageGroup,
         suggestedAssetType,
+        ...(controlledIdentifier ? { controlledIdentifier } : {}),
       }))
   : [];
 

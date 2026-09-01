@@ -516,6 +516,16 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.ok(hold.requiredResolution, `${hold.pageId} requires an explicit resolution path`);
     assert.ok(hold.routingImpact, `${hold.pageId} requires an explicit public-routing impact`);
   }
+  const infantisResolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === "bifidobacterium-infantis");
+  assert.equal(infantisResolution?.disposition, "scientific-identity-hold-resolved");
+  assert.equal(infantisResolution?.canonicalPageId, "bifidobacterium-longum-subsp-infantis");
+  assert.equal(infantisResolution?.canonicalIdentifier, "NCBITaxon:1682");
+  assert.ok(infantisResolution?.excludedIdentityReferences?.some((item) => item.identifier === "NCBITaxon:35624"));
+  assert.equal(program.queue.find((record) => record.id === "bifidobacterium-infantis"), undefined);
+  const infantisQueueRecord = program.queue.find((record) => record.id === "bifidobacterium-longum-subsp-infantis");
+  assert.equal(infantisQueueRecord?.status, "queued");
+  assert.equal(infantisQueueRecord?.controlledIdentifier, "NCBITaxon:1682");
+  assert.ok(program.nextBatch.some((record) => record.id === "bifidobacterium-longum-subsp-infantis" && record.controlledIdentifier === "NCBITaxon:1682"));
   for (const id of resolvedHeldIds) {
     const canonicalId = getArticleAliases()[id];
     assert.equal(program.queue.find((record) => record.id === id), undefined, `${id} must remain outside the canonical media queue`);
@@ -851,7 +861,7 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(sitemap, /xmlns:image="http:\/\/www\.google\.com\/schemas\/sitemap-image\/1\.1"/);
   assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
   assert.match(sitemap, /<image:loc>https:\/\/www\.wikibiome\.com\/media\/image\/nickel-technical-specimen-v2\.webp<\/image:loc>/);
-  assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae)[^<]*<\/image:loc>/);
+  assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae|bifidobacterium-infantis)[^<]*<\/image:loc>/);
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/source\/ahmed-2025-metals-alzheimers-mechanistic-review<\/loc>/);
   assert.ok((sitemap.match(/<url>/g) ?? []).length > 2_500);
   assert.match(imageSitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);

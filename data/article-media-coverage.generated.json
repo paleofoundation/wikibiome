@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "3c83a82d9bd5971d38747e90bbca72708482a563e4722c26ac32acbed68fa69e",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "665821e1f96c12e3eb2de444898188966c88fba8285a219b46131588350a854b",
+    "registrySha256": "f22e39675daa9206e8b74ec8f18e597ea4ee36897cdcbbebdfc223eb5de46f2f",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "04da9772f9ce0fdfe1ffb79f4dcd40ceab47b393160f5cf5c0c0f6c356974c12",
+    "reviewLogSha256": "29a8d70bb200ac14250d8e55c46d9f47bc096a8828aa8451cc14655bf042306f",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -47,6 +47,12 @@
         "batchId": "microorganisms-006",
         "status": "reviewed",
         "sha256": "4ef64796a7b030e7005885987f0318c6e8c23e0f6765b40a58014a30040d0654"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-007.json",
+        "batchId": "microorganisms-007",
+        "status": "reviewed",
+        "sha256": "84cc079f31df537fab21437a617a1e652e45f57d00a3aa56f8c6d7d461069043"
       }
     ]
   },
@@ -68,10 +74,10 @@
   },
   "current": {
     "total": 712,
-    "completed": 39,
-    "remaining": 673,
-    "rejected": 5,
-    "revised": 2,
+    "completed": 44,
+    "remaining": 668,
+    "rejected": 6,
+    "revised": 3,
     "scientificHolds": 0,
     "inReview": 0
   },
@@ -80,8 +86,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 231,
-      "completed": 36,
-      "remaining": 195
+      "completed": 41,
+      "remaining": 190
     },
     {
       "id": "metals",
@@ -221,6 +227,40 @@
       "resolution": "The unsupported bacterial name was retired as a source-label alias and permanently redirects to the current Barnesiella record, which preserves the original Ata et al. spelling as an evidence caveat without claiming a definitive sequence reassignment.",
       "canonicalPageId": "barnesiella",
       "canonicalIdentifier": "NCBITaxon:397864"
+    },
+    {
+      "pageId": "bifidobacterium-infantis",
+      "batchId": "microorganisms-007",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:1682 to the current subspecies Bifidobacterium longum subsp. infantis and records Bifidobacterium infantis as its basionym. The 2002 unification and 2008 subspecies combination support the current name, while the canonical WikiBiome route and title still assert the historical species combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1682&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/12508852/",
+        "https://pubmed.ncbi.nlm.nih.gov/18398167/",
+        "https://lpsn.dsmz.de/subspecies/bifidobacterium-longum-infantis",
+        "https://bacdive.dsmz.de/strain/1743"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to a current-name bifidobacterium-longum-subsp-infantis record keyed to NCBITaxon:1682, or explicitly reframe the existing route as a historical or common-name alias whose canonical subject and structured metadata are Bifidobacterium longum subsp. infantis.",
+      "routingImpact": "The obsolete slug remains excluded from the registry and image sitemap. After control integrates the identity change and regenerates the deterministic program, bifidobacterium-longum-subsp-infantis enters the microorganism queue as an uncovered current canonical route; batch 007 contains no substitute raster.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "Control retired the obsolete species-form route and established a permanent 308 alias to the current Bifidobacterium longum subsp. infantis record.",
+      "canonicalPageId": "bifidobacterium-longum-subsp-infantis",
+      "canonicalIdentifier": "NCBITaxon:1682",
+      "queueReplacement": {
+        "pageId": "bifidobacterium-longum-subsp-infantis",
+        "title": "Bifidobacterium longum subsp. infantis",
+        "route": "/article/bifidobacterium-longum-subsp-infantis",
+        "controlledIdentifier": "NCBITaxon:1682",
+        "coverageStatus": "uncovered"
+      },
+      "excludedIdentityReferences": [
+        {
+          "identifier": "NCBITaxon:35624",
+          "reason": "Strain-level record; explicitly excluded as a controlled identity reference for the canonical subspecies."
+        }
+      ]
     }
   ],
   "revisedAssets": [
@@ -244,59 +284,71 @@
       "reason": "The upper-right cell carried a lophotrichous-looking polar tuft rather than the restrained single-polar form selected for the canonical genus treatment.",
       "supersededBy": "work/media-drafts/microorganisms-batch-002/aeromonas-draft-v2.png",
       "outcome": "Targeted edit removed the extra strands and retained exactly one fine polar flagellum on that cell without changing the other rods. Control-tower visual review accepted v2, and only v2 was promoted."
+    },
+    {
+      "pageId": "bifidobacterium-bifidum",
+      "batchId": "microorganisms-007",
+      "draft": "work/media-drafts/microorganisms-batch-007/bifidobacterium-bifidum-draft.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "The first draft's seven bodies were visually clean but read as generic uniform curved bacilli and did not sufficiently communicate the documented normal curved-rod-or-bifid morphology.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-007/bifidobacterium-bifidum-draft-v2.png",
+      "outcome": "One authorized targeted replacement preserves seven bodies as five singles plus one two-cell pair while adding visible tapered poles, mild clubbing, and one restrained true bifid Y-ended body. Control-tower original-resolution review accepted v2, and only v2 was promoted."
     }
   ],
   "nextBatch": [
     {
-      "queuePosition": 33,
-      "id": "bifidobacteriaceae",
-      "title": "Bifidobacteriaceae",
-      "route": "/article/bifidobacteriaceae",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 34,
-      "id": "bifidobacteriales",
-      "title": "Bifidobacteriales",
-      "route": "/article/bifidobacteriales",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 36,
-      "id": "bifidobacterium-adolescentis",
-      "title": "Bifidobacterium adolescentis",
-      "route": "/article/bifidobacterium-adolescentis",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 37,
-      "id": "bifidobacterium-bifidum",
-      "title": "Bifidobacterium bifidum",
-      "route": "/article/bifidobacterium-bifidum",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 38,
-      "id": "bifidobacterium-breve",
-      "title": "Bifidobacterium breve",
-      "route": "/article/bifidobacterium-breve",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
       "queuePosition": 39,
-      "id": "bifidobacterium-infantis",
-      "title": "Bifidobacterium infantis",
-      "route": "/article/bifidobacterium-infantis",
+      "id": "bifidobacterium-longum",
+      "title": "Bifidobacterium longum",
+      "route": "/article/bifidobacterium-longum",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 40,
+      "id": "bifidobacterium-longum-subsp-infantis",
+      "title": "Bifidobacterium longum subsp. infantis",
+      "route": "/article/bifidobacterium-longum-subsp-infantis",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:1682"
+    },
+    {
+      "queuePosition": 41,
+      "id": "bilophila",
+      "title": "Bilophila",
+      "route": "/article/bilophila",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 42,
+      "id": "blautia",
+      "title": "Blautia",
+      "route": "/article/blautia",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 43,
+      "id": "borrelia",
+      "title": "Borrelia",
+      "route": "/article/borrelia",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 44,
+      "id": "brucella",
+      "title": "Brucella",
+      "route": "/article/brucella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -986,7 +1038,15 @@
       "route": "/article/bifidobacteriaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bifidobacteriaceae-microbial-community-v1-master.png",
+        "publishedFile": "bifidobacteriaceae-microbial-community-v1.webp",
+        "socialFile": "bifidobacteriaceae-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 34,
@@ -999,7 +1059,15 @@
       "route": "/article/bifidobacteriales",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bifidobacteriales-microbial-community-v1-master.png",
+        "publishedFile": "bifidobacteriales-microbial-community-v1.webp",
+        "socialFile": "bifidobacteriales-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 35,
@@ -1033,7 +1101,15 @@
       "route": "/article/bifidobacterium-adolescentis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bifidobacterium-adolescentis-morphology-v1-master.png",
+        "publishedFile": "bifidobacterium-adolescentis-morphology-v1.webp",
+        "socialFile": "bifidobacterium-adolescentis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 37,
@@ -1046,7 +1122,15 @@
       "route": "/article/bifidobacterium-bifidum",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bifidobacterium-bifidum-morphology-v1-master.png",
+        "publishedFile": "bifidobacterium-bifidum-morphology-v1.webp",
+        "socialFile": "bifidobacterium-bifidum-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 38,
@@ -1059,23 +1143,18 @@
       "route": "/article/bifidobacterium-breve",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bifidobacterium-breve-morphology-v1-master.png",
+        "publishedFile": "bifidobacterium-breve-morphology-v1.webp",
+        "socialFile": "bifidobacterium-breve-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 39,
-      "id": "bifidobacterium-infantis",
-      "title": "Bifidobacterium infantis",
-      "category": "microbe",
-      "sourceCategories": [
-        "microbe"
-      ],
-      "route": "/article/bifidobacterium-infantis",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "status": "queued"
-    },
-    {
-      "queuePosition": 40,
       "id": "bifidobacterium-longum",
       "title": "Bifidobacterium longum",
       "category": "microbe",
@@ -1085,6 +1164,25 @@
       "route": "/article/bifidobacterium-longum",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
+      "status": "queued"
+    },
+    {
+      "queuePosition": 40,
+      "id": "bifidobacterium-longum-subsp-infantis",
+      "title": "Bifidobacterium longum subsp. infantis",
+      "category": "microbe",
+      "sourceCategories": [
+        "microbe"
+      ],
+      "route": "/article/bifidobacterium-longum-subsp-infantis",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:1682",
+      "identityTransition": {
+        "retiredPageId": "bifidobacterium-infantis",
+        "resolvedOn": "2026-09-01",
+        "disposition": "scientific-identity-hold-resolved"
+      },
       "status": "queued"
     },
     {
