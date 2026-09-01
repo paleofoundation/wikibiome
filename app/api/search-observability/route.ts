@@ -1,4 +1,5 @@
 import { SEARCH_SOURCES } from "@/lib/search-observability.mjs";
+import { assertSameOriginRequest } from "@/lib/research-network";
 
 const pathPattern = /^\/(?:[a-z0-9][a-z0-9./_-]*)?$/;
 const searchSources = new Set(SEARCH_SOURCES);
@@ -7,17 +8,14 @@ const metricRatings = new Set(["good", "needs-improvement", "poor"]);
 const navigationTypes = new Set(["navigate", "reload", "back-forward", "back-forward-cache", "prerender", "restore", "soft-navigation"]);
 
 export async function POST(request: Request) {
+  try {
+    assertSameOriginRequest(request);
+  } catch {
+    return response(403);
+  }
+
   const fetchSite = request.headers.get("sec-fetch-site");
   if (fetchSite && fetchSite !== "same-origin") return response(403);
-
-  const origin = request.headers.get("origin");
-  if (origin) {
-    try {
-      if (new URL(origin).origin !== new URL(request.url).origin) return response(403);
-    } catch {
-      return response(403);
-    }
-  }
 
   const contentLength = Number(request.headers.get("content-length") ?? 0);
   if (contentLength > 1024) return response(413);
