@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "sourceCommit": "3a7b087e95fadf77b47de2fbb039bfdc70aef161",
+  "sourceCommit": "0f281e88991f07ee9ea42a808122743fc1dc415c",
   "reviewedAt": "2026-09-01",
   "authority": "WikiBiome delegated editorial-completion audit",
   "groups": [
@@ -40,7 +40,6 @@
         "plant-based-diet-ckd::intervention",
         "prebiotics-inulin-fructo-oligosaccharide::intervention",
         "probiotic-combination-ckd::intervention",
-        "probiotics-general::intervention",
         "probiotics-lactobacillus-bifidobacterium::intervention",
         "probiotics-ppd::intervention",
         "probiotics-thyroid::intervention",
@@ -141,6 +140,7 @@
         "pancreatitis-signature::signature",
         "parvimonas::other",
         "premature-ovarian-insufficiency::disease",
+        "probiotics-general::intervention",
         "probiotics-with-ppi-gerd::intervention",
         "psoriasis::disease",
         "rheumatoid-arthritis-signature::signature",

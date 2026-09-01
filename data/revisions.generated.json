@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T11:18:30.367Z",
+  "generatedAt": "2026-09-01T11:42:14.008Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "3a7b087e95fadf77b47de2fbb039bfdc70aef161",
+  "sourceCommit": "0f281e88991f07ee9ea42a808122743fc1dc415c",
   "records": 819,
   "canonicalIds": 754,
-  "revisions": 2896,
+  "revisions": 2905,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -1798,6 +1798,15 @@
       ],
       "revisions": [
         {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/entities/bifidobacteriaceae.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1872,18 +1881,18 @@
         }
       ]
     },
-    "bifidobacterium-infantis": {
+    "bifidobacterium-longum-subsp-infantis": {
       "paths": [
-        "wiki/entities/bifidobacterium-infantis.md"
+        "wiki/entities/bifidobacterium-longum-subsp-infantis.md"
       ],
       "revisions": [
         {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/bifidobacterium-infantis.md",
-          "additions": 43,
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/entities/bifidobacterium-longum-subsp-infantis.md",
+          "additions": 54,
           "deletions": 0
         }
       ]
@@ -1893,6 +1902,15 @@
         "wiki/entities/bifidobacterium-longum.md"
       ],
       "revisions": [
+        {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/entities/bifidobacterium-longum.md",
+          "additions": 3,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -1918,6 +1936,15 @@
         "wiki/entities/bifidobacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/entities/bifidobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -7804,6 +7831,15 @@
         "wiki/entities/ibs.md"
       ],
       "revisions": [
+        {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/entities/ibs.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25873,6 +25909,15 @@
       ],
       "revisions": [
         {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/signatures/ibs-signature.md",
+          "additions": 4,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27915,6 +27960,15 @@
       ],
       "revisions": [
         {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/interventions/probiotics-general.md",
+          "additions": 8,
+          "deletions": 7
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -28505,6 +28559,15 @@
       ],
       "revisions": [
         {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/stops/stop-broad-spectrum-antibiotics-pre-nec.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -28628,6 +28691,15 @@
         "wiki/stops/stop-formula-feeding-without-supplementation-nec.md"
       ],
       "revisions": [
+        {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/stops/stop-formula-feeding-without-supplementation-nec.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -31002,6 +31074,15 @@
         "wiki/stops/stop-broad-spectrum-antibiotics-dysbiosis.md"
       ],
       "revisions": [
+        {
+          "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+          "date": "2026-09-01T14:34:32+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Bifidobacterium infantis",
+          "path": "wiki/stops/stop-broad-spectrum-antibiotics-dysbiosis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",

@@ -7,7 +7,8 @@
     "allisonella": "dialister-histaminiformans",
     "atopobium-parvulum": "lancefieldella-parvula",
     "atopobium-vaginae": "fannyhessea-vaginae",
-    "barnesella": "barnesiella"
+    "barnesella": "barnesiella",
+    "bifidobacterium-infantis": "bifidobacterium-longum-subsp-infantis"
   },
   "canonicalTaxa": {
     "akkermansia-muciniphila": {
@@ -29,6 +30,10 @@
     "barnesiella": {
       "title": "Barnesiella",
       "ncbiTaxonomyId": 397864
+    },
+    "bifidobacterium-longum-subsp-infantis": {
+      "title": "Bifidobacterium longum subsp. infantis",
+      "ncbiTaxonomyId": 1682
     }
   },
   "retiredCanonicalIds": [
@@ -36,17 +41,20 @@
     "allisonella",
     "atopobium-parvulum",
     "atopobium-vaginae",
-    "barnesella"
+    "barnesella",
+    "bifidobacterium-infantis"
   ],
   "forbiddenCanonicalTitles": [
     "Akkermansia mucinicola",
     "Allisonella",
     "Atopobium parvulum",
     "Atopobium vaginae",
-    "Barnesella"
+    "Barnesella",
+    "Bifidobacterium infantis"
   ],
   "forbiddenPublicPatterns": [
     "Allisonella hiatal",
-    "Barnesella is a genus of"
+    "Barnesella is a genus of",
+    "Bifidobacterium infantis is the current"
   ]
 }

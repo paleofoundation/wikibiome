@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T11:17:57.735Z",
+  "generatedAt": "2026-09-01T11:41:46.497Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "3a7b087e95fadf77b47de2fbb039bfdc70aef161",
-    "contentGeneratedAt": "2026-09-01T11:02:30.389Z",
+    "commit": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+    "contentGeneratedAt": "2026-09-01T11:33:59.808Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "3c83a82d9bd5971d38747e90bbca72708482a563e4722c26ac32acbed68fa69e",
+    "sha256": "1ff5b024d0bfef0932ae92c5f3949d40298159bea08292553faca69a56118ff8",
     "pages": 819,
-    "sources": 1910
+    "sources": 1914
   },
   "sourceMetadataPolicy": {
     "version": 1,
@@ -1517,20 +1517,20 @@
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "3a7b087e95fadf77b47de2fbb039bfdc70aef161",
+    "sourceCommit": "0f281e88991f07ee9ea42a808122743fc1dc415c",
     "registeredCount": 113,
     "appliedRecordCount": 122,
-    "registrySha256": "dbce866e2e0854e1e69657aa62f4ae461ac610358c2eef675ed09d54995bed3c"
+    "registrySha256": "f78a6f76e64a9b1262d659da83973d218e7e152b3e51ea32c7ceb9e28c9b2a74"
   },
   "articleIdentityPolicy": {
     "version": 1,
     "reviewedAt": "2026-09-01",
     "authority": "WikiBiome delegated scientific identity reconciliation",
-    "registrySha256": "17b06fa8f7f197e3f150a7068db8b8baae8ac9194744e4291407fba582585f4d",
-    "aliasCount": 5,
-    "retiredCanonicalCount": 5,
-    "canonicalTaxonCount": 5,
-    "forbiddenPatternCount": 2
+    "registrySha256": "bcaf79e92ba23ce13337e1514b9ccf13dae3a377b180d0b28f5fdcf10e237cec",
+    "aliasCount": 6,
+    "retiredCanonicalCount": 6,
+    "canonicalTaxonCount": 6,
+    "forbiddenPatternCount": 3
   },
   "audit": {
     "duplicatePageIds": [
@@ -1600,8 +1600,8 @@
       "type-1-diabetes",
       "type-2-diabetes"
     ],
-    "pagesWithReferences": 764,
-    "generatedReferences": 6419,
+    "pagesWithReferences": 765,
+    "generatedReferences": 6427,
     "pagesWithSourceDrift": 488,
     "recoveredInlineReferences": 350,
     "declaredOnlyReferences": 2008,
