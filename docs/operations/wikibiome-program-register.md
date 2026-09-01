@@ -13,7 +13,7 @@ Last reconciled: **2026-09-01** (Asia/Nicosia)
 
 - Production release controller: WikiBiome program control tower.
 - Current integration branch: `main`.
-- Current accepted integration commit: `5106b7b`.
+- Current accepted integration commit: `c9166a3`.
 - Current upstream content commit: `62e006cf0ced1dce706a6438f6461602229a9f26`.
 - Upstream check: synchronized with `paleofoundation/wikibiome` `origin/main` on
   2026-09-01; no source changes.
@@ -24,11 +24,11 @@ Last reconciled: **2026-09-01** (Asia/Nicosia)
 
 | Program | State | Accepted evidence | Remaining definition of done |
 | --- | --- | --- | --- |
-| Researcher collaboration | Code accepted; activation gated | Commits `2b6444c` and `582c6dc`; production build; 23/23 tests; clean migrations 0000-0005; lint 0 errors; desktop/mobile checks on five representative routes | Provision and configure ORCID, Resend, private `MANUSCRIPTS` storage/scanner, moderator IDs, and counsel-approved outreach policy. Saved Sites version 41 contains only `2b6444c` and is superseded; do not deploy it. |
-| Editorial completion | In progress | Batch 1 commit `1e5e07d` independently reproduced: 821 records, 714 canonical routes, 122 warning routes, 0 blocked; build and 18/18 tests pass | Reconcile all 122 remaining routes through canonical disease evidence or explicit source-bound evidence status. Do not invent prose or silently waive warnings. Integrate only the final accepted handoff. |
-| Search visibility | In progress | Full task audit reports 5,267 routes; 3,375 indexable HTML routes with one self-canonical URL; all discovered article/source links resolve; focused gate has reached 20 tests | Receive exact commit and handoff; independently rerun full corpus, schema, sitemap, media endpoint, security/privacy, build, test, and lint gates; then integrate. Search Console/Bing ownership and submission evidence remain account-gated. |
+| Researcher collaboration | Code accepted; activation gated | Commits `2b6444c` and `582c6dc`; combined production build and 39/39 tests pass; migrations 0000-0005 apply cleanly; mutation, trust, ROR, privacy, and fail-closed contracts pass | Apply production D1 migrations, then provision/configure ORCID, Resend, private `MANUSCRIPTS` storage/scanner, moderator IDs, and counsel-approved outreach policy. Saved Sites version 41 contains only `2b6444c` and is superseded; do not deploy it. |
+| Editorial completion | Complete and integrated | Integrated commits `1112917` and `dc9a8a9`; 821 records / 714 canonical routes; 699 ready, 122 explicitly documented, 0 review, 0 blocked; 0 invalid generated years or malformed DOI output; combined build, typecheck, 39/39 tests, and corpus audit pass | Future expansion of 101 evidence-insufficient records and 10 source-structure-deferred records must originate from new upstream evidence or source-authored leads. Current limitations are explicit and release-safe. |
+| Search visibility | Code accepted; external verification gated | Integrated commits `cacc08a`, `26cf417`, `7b57fa8`, and `c9166a3`; 5,267 rendered routes; 3,375/3,375 indexable HTML routes self-canonical; 4/4 representative metadata/schema pages; 8/8 reviewed image-sitemap records and canonical image endpoints; 0 broken article/source links | Deploy only with the fully gated release candidate, then collect authenticated Search Console/Bing sitemap, coverage, URL Inspection, CWV, and image-discovery evidence. Public Google TXT evidence exists; current dashboard access is unproven and Bing evidence is absent. |
 | Scientific media | In progress | Deterministic register covers 714 canonical routes. Eight legacy derivatives have explicit preservation masters and provenance. Batch 001 is visually accepted at 14/714 reviewed assets, including a revised Actinomyces v2 after rejection of v1. | Require the exact per-asset approval ledger, including the Actinomyces v1 rejection and v2 acceptance, controlled identifiers, scientific references, accessibility review, lossless master, article/social derivatives, embedded metadata, and visual acceptance. Complete all 714 canonical routes; drafts never publish. |
-| Cutover closeout | Baseline integrated; final audit date-gated | Corrected baseline commits `343fbdc` and `5106b7b`; 14 public routes returned 200 and the protected ledger returned the expected 307; no observed 5xx/exception events; Vercel rollback deployment `dpl_5ShUos99yjK3vWMbarbfmxkDQWEH` remains Ready | Finish and validate the deterministic read-only final-audit runner, then run the final audit no earlier than 2026-09-07 00:00 Asia/Nicosia. Retirement still requires separate explicit approval. |
+| Cutover closeout | Pre-gate tooling integrated; final audit date-gated | Baseline commits `343fbdc` and `5106b7b`; audit runner/template commits `384259d` and `16b51a9`; 9/9 evaluator tests pass; default execution refuses network access before the gate; Vercel rollback deployment `dpl_5ShUos99yjK3vWMbarbfmxkDQWEH` remains Ready | Run the public plus authenticated evidence audit no earlier than 2026-09-07 00:00 Asia/Nicosia. Retirement still requires separate explicit approval. |
 | Upstream content operations | Active and synchronized | 821 pages, 1,891 sources, 6,424 article-reference placements, 348 recovered inline citations, 0 missing source metadata, 0 malformed DOI values; weekly refresh gate is configured | Continue release-driven review of any upstream diff. Automation may regenerate and test but may not commit or deploy. |
 
 ## Account- and authority-gated actions
@@ -39,6 +39,8 @@ owner or counsel evidence.
 - ORCID application credentials and production callback approval.
 - Resend sending-domain, API, webhook, and unsubscribe secrets.
 - Private manuscript storage plus an asynchronous scanner and scanner secret.
+- Production D1 migrations `0001`-`0005` and the `MANUSCRIPTS` binding must be
+  applied/provisioned before releasing the researcher-network routes.
 - `WIKIBIOME_MODERATOR_IDS` production assignment.
 - Counsel approval for the outreach jurisdiction matrix, privacy/terms
   baseline, and citation-notice template before outreach is enabled.
