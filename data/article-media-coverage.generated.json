@@ -3,10 +3,10 @@
   "generatedOn": "2026-09-01",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
-    "upstreamCommit": "3a7b087e95fadf77b47de2fbb039bfdc70aef161",
+    "upstreamCommit": "0f281e88991f07ee9ea42a808122743fc1dc415c",
     "contentManifest": "data/content-manifest.generated.json",
     "contentFile": "data/content.generated.json",
-    "contentSha256": "3c83a82d9bd5971d38747e90bbca72708482a563e4722c26ac32acbed68fa69e",
+    "contentSha256": "1ff5b024d0bfef0932ae92c5f3949d40298159bea08292553faca69a56118ff8",
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "f22e39675daa9206e8b74ec8f18e597ea4ee36897cdcbbebdfc223eb5de46f2f",
     "reviewLog": "data/article-media-review-log.json",
@@ -1178,11 +1178,6 @@
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
       "controlledIdentifier": "NCBITaxon:1682",
-      "identityTransition": {
-        "retiredPageId": "bifidobacterium-infantis",
-        "resolvedOn": "2026-09-01",
-        "disposition": "scientific-identity-hold-resolved"
-      },
       "status": "queued"
     },
     {
