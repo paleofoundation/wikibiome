@@ -5,7 +5,7 @@ import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from 
 
 const root = process.cwd();
 const masters = join(root, "work", "media-masters");
-const output = join(root, "public", "media");
+const output = join(root, "public", "media-files");
 
 function validateMedia(media) {
   const expectedFiles = articleMediaFileNames(media.pageId, media.assetType, media.revision);

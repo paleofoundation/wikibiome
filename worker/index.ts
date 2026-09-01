@@ -31,9 +31,10 @@ const worker = {
 
     if (url.pathname.startsWith("/media/") && url.pathname.endsWith(".webp")) {
       const canonicalMatch = url.pathname.match(/^\/media\/(?:image|social)\/([^/]+\.webp)$/);
-      const assetUrl = canonicalMatch
-        ? new URL(`/media/${canonicalMatch[1]}`, request.url)
-        : url;
+      const legacyMatch = url.pathname.match(/^\/media\/([^/]+\.webp)$/);
+      const filename = canonicalMatch?.[1] ?? legacyMatch?.[1];
+      if (!filename) return handler.fetch(request, env, ctx);
+      const assetUrl = new URL(`/media-files/${filename}`, request.url);
       const assetRequest = new Request(assetUrl, request);
       if (!env?.ASSETS) return Response.redirect(assetUrl, 307);
       const asset = await env.ASSETS.fetch(assetRequest);

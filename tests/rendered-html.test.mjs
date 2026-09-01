@@ -47,19 +47,23 @@ test("serves versioned scientific WebPs with an explicit image MIME type", async
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-media-headers`);
   const { default: worker } = await import(workerUrl.href);
-  let fetchedAssetUrl = "";
+  const fetchedAssetUrls = [];
+  const assets = {
+    fetch: async (assetRequest) => {
+      fetchedAssetUrls.push(assetRequest.url);
+      return new Response("webp", {
+        headers: { "content-type": "application/octet-stream" },
+      });
+    },
+  };
   const response = await worker.fetch(
     new Request("http://localhost/media/image/nickel-technical-specimen-v2.webp"),
-    {
-      ASSETS: {
-        fetch: async (assetRequest) => {
-          fetchedAssetUrl = assetRequest.url;
-          return new Response("webp", {
-            headers: { "content-type": "application/octet-stream" },
-          });
-        },
-      },
-    },
+    { ASSETS: assets },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+  const legacyResponse = await worker.fetch(
+    new Request("http://localhost/media/nickel-technical-specimen-v2.webp"),
+    { ASSETS: assets },
     { waitUntil() {}, passThroughOnException() {} },
   );
 
@@ -67,7 +71,11 @@ test("serves versioned scientific WebPs with an explicit image MIME type", async
   assert.equal(response.headers.get("content-type"), "image/webp");
   assert.equal(response.headers.get("x-content-type-options"), "nosniff");
   assert.equal(response.headers.get("cache-control"), "public, max-age=31536000, immutable");
-  assert.equal(fetchedAssetUrl, "http://localhost/media/nickel-technical-specimen-v2.webp");
+  assert.equal(legacyResponse.headers.get("content-type"), "image/webp");
+  assert.deepEqual(fetchedAssetUrls, [
+    "http://localhost/media-files/nickel-technical-specimen-v2.webp",
+    "http://localhost/media-files/nickel-technical-specimen-v2.webp",
+  ]);
 });
 
 test("server-renders the WikiBiome portal and anatomical knowledge map", async () => {
@@ -162,7 +170,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.match(html, new RegExp(`name="twitter:image" content="https://www\\.wikibiome\\.com/media/social/${stem}-social\\.webp"`));
 
     for (const suffix of [".webp", "-social.webp"]) {
-      const asset = readFileSync(new URL(`../public/media/${stem}${suffix}`, import.meta.url));
+      const asset = readFileSync(new URL(`../public/media-files/${stem}${suffix}`, import.meta.url));
       assert.ok(asset.byteLength > 40_000, `${stem}${suffix} should be a nontrivial optimized image`);
       assert.ok(asset.includes(Buffer.from("trainedAlgorithmicMedia")), `${stem}${suffix} should retain embedded digital-source metadata`);
       assert.ok(asset.includes(Buffer.from(identifier)), `${stem}${suffix} should embed its controlled scientific identifier`);
@@ -206,7 +214,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   );
 
   const staticHeaders = readFileSync(new URL("../dist/client/_headers", import.meta.url), "utf8");
-  assert.match(staticHeaders, /\/media\/\*\.webp[\s\S]*Content-Type:\s*image\/webp/i);
+  assert.match(staticHeaders, /\/media-files\/\*\.webp[\s\S]*Content-Type:\s*image\/webp/i);
   assert.match(staticHeaders, /X-Content-Type-Options:\s*nosniff/i);
 
   const unverified = ["low-nickel-diet", "paradox-plant-based-diet-nickel-trap"];
