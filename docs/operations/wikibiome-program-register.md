@@ -13,10 +13,12 @@ Last reconciled: **2026-09-01** (Asia/Nicosia)
 
 - Production release controller: WikiBiome program control tower.
 - Current integration branch: `main`.
-- Current accepted integration commit: `c9166a3`.
+- Current accepted integration commit: `7c42819`.
 - Current upstream content commit: `62e006cf0ced1dce706a6438f6461602229a9f26`.
 - Upstream check: synchronized with `paleofoundation/wikibiome` `origin/main` on
   2026-09-01; no source changes.
+- Production dependency audit: 0 known vulnerabilities after updating
+  `js-yaml` to `4.3.2`; parser/content/build/type/test gates remain green.
 - No program task may push, deploy, change DNS, initiate payments, or retire
   rollback resources.
 
