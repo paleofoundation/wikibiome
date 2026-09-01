@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "1c8171e177025a608aaf9a4f387f7b3b9ed89688251df8bd26887e6afb65a3db",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "2c9965fcacbea6e80169e62a6cf91850495069000f2b05bd1552c87730230e2b",
+    "registrySha256": "c9fc6e25df4a31b00851b89e24ba6f4dd05db60040975d5564b273b5f3b7da14",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f301a9ccd87e03cb3c474aecd1426e354ec7916086681a821eca628893eac793",
+    "reviewLogSha256": "c0f809052be654701b7e8e69752e6607b67768f1f0491defc772810001d9d21e",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -35,6 +35,12 @@
         "batchId": "microorganisms-004",
         "status": "reviewed",
         "sha256": "0a11c3c8ca0c7985f9fe494595acd6b060d62565316b763e5a05f7ac7fc3ef8d"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-005.json",
+        "batchId": "microorganisms-005",
+        "status": "reviewed",
+        "sha256": "875f9762ef502f3724e86f372332ac7405e63c4c929ec69cbb3641e0211c6e4e"
       }
     ]
   },
@@ -56,8 +62,8 @@
   },
   "current": {
     "total": 713,
-    "completed": 28,
-    "remaining": 685,
+    "completed": 34,
+    "remaining": 679,
     "rejected": 4,
     "revised": 2,
     "scientificHolds": 0,
@@ -68,8 +74,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 232,
-      "completed": 25,
-      "remaining": 207
+      "completed": 31,
+      "remaining": 201
     },
     {
       "id": "metals",
@@ -216,55 +222,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 22,
-      "id": "bacteroidaceae",
-      "title": "Bacteroidaceae",
-      "route": "/article/bacteroidaceae",
+      "queuePosition": 28,
+      "id": "bacteroides-uniformis",
+      "title": "Bacteroides uniformis",
+      "route": "/article/bacteroides-uniformis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 23,
-      "id": "bacteroidales",
-      "title": "Bacteroidales",
-      "route": "/article/bacteroidales",
+      "queuePosition": 29,
+      "id": "bacteroides-vulgatus",
+      "title": "Bacteroides vulgatus",
+      "route": "/article/bacteroides-vulgatus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 24,
-      "id": "bacteroides",
-      "title": "Bacteroides",
-      "route": "/article/bacteroides",
+      "queuePosition": 30,
+      "id": "bacteroidetes",
+      "title": "Bacteroidetes (Bacteroidota)",
+      "route": "/article/bacteroidetes",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 25,
-      "id": "bacteroides-caccae",
-      "title": "Bacteroides caccae",
-      "route": "/article/bacteroides-caccae",
+      "queuePosition": 31,
+      "id": "barnesella",
+      "title": "Barnesella",
+      "route": "/article/barnesella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 26,
-      "id": "bacteroides-fragilis",
-      "title": "Bacteroides fragilis",
-      "route": "/article/bacteroides-fragilis",
+      "queuePosition": 32,
+      "id": "barnesiella",
+      "title": "Barnesiella",
+      "route": "/article/barnesiella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 27,
-      "id": "bacteroides-thetaiotaomicron",
-      "title": "Bacteroides thetaiotaomicron",
-      "route": "/article/bacteroides-thetaiotaomicron",
+      "queuePosition": 33,
+      "id": "betaproteobacteria",
+      "title": "Betaproteobacteria",
+      "route": "/article/betaproteobacteria",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -723,7 +729,15 @@
       "route": "/article/bacteroidaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroidaceae-microbial-community-v1-master.png",
+        "publishedFile": "bacteroidaceae-microbial-community-v1.webp",
+        "socialFile": "bacteroidaceae-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 23,
@@ -736,7 +750,15 @@
       "route": "/article/bacteroidales",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroidales-microbial-community-v1-master.png",
+        "publishedFile": "bacteroidales-microbial-community-v1.webp",
+        "socialFile": "bacteroidales-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 24,
@@ -749,7 +771,15 @@
       "route": "/article/bacteroides",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroides-morphology-v1-master.png",
+        "publishedFile": "bacteroides-morphology-v1.webp",
+        "socialFile": "bacteroides-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 25,
@@ -762,7 +792,15 @@
       "route": "/article/bacteroides-caccae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroides-caccae-morphology-v1-master.png",
+        "publishedFile": "bacteroides-caccae-morphology-v1.webp",
+        "socialFile": "bacteroides-caccae-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 26,
@@ -775,7 +813,15 @@
       "route": "/article/bacteroides-fragilis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroides-fragilis-morphology-v1-master.png",
+        "publishedFile": "bacteroides-fragilis-morphology-v1.webp",
+        "socialFile": "bacteroides-fragilis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 27,
@@ -788,7 +834,15 @@
       "route": "/article/bacteroides-thetaiotaomicron",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroides-thetaiotaomicron-morphology-v1-master.png",
+        "publishedFile": "bacteroides-thetaiotaomicron-morphology-v1.webp",
+        "socialFile": "bacteroides-thetaiotaomicron-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 28,
