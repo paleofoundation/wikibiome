@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { createHash } from "node:crypto";
-import { readFileSync, writeFileSync } from "node:fs";
+import { existsSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import {
@@ -10,6 +10,7 @@ import {
   loadCanonicalMediaRoutes,
   mediaCoverageGroups,
 } from "./article-media-corpus.mjs";
+import { activeMediaReviewStatuses, assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
 
 const projectRoot = process.cwd();
 const outputPath = resolve(projectRoot, "data/article-media-coverage.generated.json");
@@ -17,6 +18,7 @@ const manifestPath = resolve(projectRoot, "data/content-manifest.generated.json"
 const contentPath = resolve(projectRoot, "data/content.generated.json");
 const registryPath = resolve(projectRoot, "lib/article-media-registry.mjs");
 const reviewLogPath = resolve(projectRoot, "data/article-media-review-log.json");
+const batchDirectory = resolve(projectRoot, "data/article-media-batches");
 const shouldWrite = process.argv.includes("--write");
 
 const manifest = JSON.parse(readFileSync(manifestPath, "utf8"));
@@ -25,9 +27,45 @@ const canonicalRoutes = loadCanonicalMediaRoutes(projectRoot);
 assertCanonicalMediaCorpus(canonicalRoutes);
 
 const reviewedIds = new Set(Object.keys(articleMediaRegistry));
+const batchManifests = readdirSync(batchDirectory)
+  .filter((name) => name.endsWith(".json"))
+  .sort()
+  .map((name) => {
+    const path = resolve(batchDirectory, name);
+    return { name, path, data: JSON.parse(readFileSync(path, "utf8")) };
+  });
+for (const { name, data } of batchManifests) {
+  if (!data.batchId || !data.category || !data.status || !Array.isArray(data.assets)) throw new Error(`${name}: media batch manifest is incomplete.`);
+  if (!data.promptRecord || !existsSync(resolve(projectRoot, data.promptRecord))) throw new Error(`${name}: immutable prompt record is missing.`);
+  if (data.status === "reviewed") {
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(data.reviewedOn ?? "")) throw new Error(`${name}: reviewed batch requires a review date.`);
+    for (const asset of data.assets.filter((candidate) => candidate.assetType && candidate.revision)) {
+      if (!/^(accepted|approved)/.test(asset.decision ?? "")) throw new Error(`${name}/${asset.pageId}: reviewed asset does not have an accepted or approved disposition.`);
+      assertMediaOutputAudit(asset, name);
+      if (!reviewedIds.has(asset.pageId)) throw new Error(`${name}/${asset.pageId}: reviewed batch asset is absent from the public registry.`);
+    }
+  }
+  if (activeMediaReviewStatuses.has(data.status)) {
+    for (const asset of data.assets.filter((candidate) => candidate.assetType && candidate.revision)) assertMediaOutputAudit(asset, name);
+  }
+}
+const scientificHolds = new Map(
+  reviewLog.rejectedAssets
+    .filter((asset) => asset.disposition === "scientific-identity-hold")
+    .map((asset) => [asset.pageId, asset]),
+);
+const inReview = new Map();
+for (const manifest of batchManifests.filter(({ data }) => activeMediaReviewStatuses.has(data.status))) {
+  for (const asset of manifest.data.assets.filter((candidate) => candidate.assetType && candidate.revision && candidate.draft)) {
+    if (reviewedIds.has(asset.pageId)) throw new Error(`${asset.pageId}: reviewed registry record still appears in an awaiting-review batch.`);
+    if (scientificHolds.has(asset.pageId)) throw new Error(`${asset.pageId}: route cannot be both in review and on scientific hold.`);
+    if (inReview.has(asset.pageId)) throw new Error(`${asset.pageId}: route appears in more than one awaiting-review batch.`);
+    inReview.set(asset.pageId, { batchId: manifest.data.batchId, ...asset });
+  }
+}
 const queue = canonicalRoutes.map((route) => ({
   ...route,
-  status: reviewedIds.has(route.id) ? "reviewed" : "queued",
+  status: reviewedIds.has(route.id) ? "reviewed" : scientificHolds.has(route.id) ? "scientific-hold" : inReview.has(route.id) ? "in-review" : "queued",
   ...(reviewedIds.has(route.id)
     ? {
         media: {
@@ -39,7 +77,25 @@ const queue = canonicalRoutes.map((route) => ({
           socialFile: articleMediaRegistry[route.id].socialFile,
         },
       }
-    : {}),
+    : scientificHolds.has(route.id)
+      ? {
+          scientificHold: {
+            reviewedOn: scientificHolds.get(route.id).reviewedOn,
+            reviewingAuthority: scientificHolds.get(route.id).reviewingAuthority,
+            reason: scientificHolds.get(route.id).reason,
+            requiredResolution: scientificHolds.get(route.id).requiredResolution,
+          },
+        }
+      : inReview.has(route.id)
+        ? {
+            reviewCandidate: {
+              batchId: inReview.get(route.id).batchId,
+              decision: inReview.get(route.id).decision,
+              draft: inReview.get(route.id).draft,
+              sha256: inReview.get(route.id).sha256,
+            },
+          }
+        : {}),
 }));
 
 const categories = mediaCoverageGroups.map((group) => {
@@ -85,6 +141,12 @@ const program = {
     registrySha256: digest(registryPath),
     reviewLog: "data/article-media-review-log.json",
     reviewLogSha256: digest(reviewLogPath),
+    batchManifests: batchManifests.map(({ name, path, data }) => ({
+      file: `data/article-media-batches/${name}`,
+      batchId: data.batchId,
+      status: data.status,
+      sha256: digest(path),
+    })),
   },
   baseline: initialMediaBaseline,
   current: {
@@ -93,6 +155,8 @@ const program = {
     remaining: queue.length - completed,
     rejected: reviewLog.rejectedAssets.length,
     revised: reviewLog.revisedAssets.length,
+    scientificHolds: scientificHolds.size,
+    inReview: inReview.size,
   },
   categories,
   rejectedAssets: reviewLog.rejectedAssets,

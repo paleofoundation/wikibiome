@@ -220,9 +220,137 @@
       "disposition": "approved",
       "notes": "Accepted in microorganisms batch 001 with explicit pathotype limitation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null }
+    },
+    "adlercreutzia|adlercreutzia-morphology-v1.webp": {
+      "pageId": "adlercreutzia",
+      "publishedFile": "adlercreutzia-morphology-v1.webp",
+      "masterSource": "adlercreutzia-morphology-v1-master.png",
+      "socialFile": "adlercreutzia-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=447020&mode=Info", "https://pubmed.ncbi.nlm.nih.gov/18450717/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8549271/"], "notes": "NCBI confirms the genus; original and emended descriptions support nonmotile, non-spore-forming coccobacillary-to-rod morphology." },
+      "subjectReview": { "status": "pass", "notes": "Control-tower visual review counted six cells spanning ovoid coccobacilli to rounded rods, with no appendages or spores." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text records six visible cells and the paired arrangement; caption separately states genus-level scope and non-micrograph status." },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome control-tower visual review in microorganisms batch 002.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "adlercreutzia-draft.png" }
+    },
+    "aerococcus|aerococcus-morphology-v1.webp": {
+      "pageId": "aerococcus",
+      "publishedFile": "aerococcus-morphology-v1.webp",
+      "masterSource": "aerococcus-morphology-v1-master.png",
+      "socialFile": "aerococcus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1375&mode=Info", "https://pmc.ncbi.nlm.nih.gov/articles/PMC86536/"], "notes": "NCBI confirms the genus; primary isolate characterization supports cocci in pairs, tetrads, and clusters." },
+      "subjectReview": { "status": "pass", "notes": "Control-tower visual review accepted the separated tetrad, pair, and irregular cluster with no chains, appendages, or spores." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text enumerates the three visible arrangements; caption supplies genus-level and non-diagnostic limits." },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome control-tower visual review in microorganisms batch 002.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "aerococcus-draft.png" }
+    },
+    "aeromonas|aeromonas-morphology-v1.webp": {
+      "pageId": "aeromonas",
+      "publishedFile": "aeromonas-morphology-v1.webp",
+      "masterSource": "aeromonas-morphology-v1-master.png",
+      "socialFile": "aeromonas-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=642&mode=Info", "https://pmc.ncbi.nlm.nih.gov/articles/PMC1347287/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC139559/"], "notes": "NCBI confirms the genus; electron-microscopy studies support straight rods, one polar flagellum in motile mesophilic strains, and conditional lateral flagella." },
+      "subjectReview": { "status": "pass", "notes": "V1 was rejected for a lophotrichous-looking tuft. Control accepted v2 only: four rods, three with exactly one polar flagellum and one without a visible appendage." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text records four rods and the three single-polar appendages; caption qualifies species and growth-condition variation." },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome control-tower visual review only after the v1→revise→v2 chain.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "aeromonas-draft-v2.png", "replacesDraft": "aeromonas-draft.png" }
+    },
+    "alishewanella|alishewanella-morphology-v1.webp": {
+      "pageId": "alishewanella",
+      "publishedFile": "alishewanella-morphology-v1.webp",
+      "masterSource": "alishewanella-morphology-v1-master.png",
+      "socialFile": "alishewanella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=111142&mode=Info", "https://pubmed.ncbi.nlm.nih.gov/27499827/", "https://doi.org/10.1186/s40793-016-0169-3", "https://doi.org/10.1099/00207713-50-3-1133", "https://pubmed.ncbi.nlm.nih.gov/19196789/"], "notes": "NCBI confirms the genus. The 2016 record supports a motile Gram-negative rod-shaped strain; the original A. fetalis description is nonmotile; later A. aestuarii taxonomy supports motile members with one polar flagellum." },
+      "subjectReview": { "status": "pass", "notes": "Conditional acceptance followed a human recount: six rods are visible, not the five requested by the immutable prompt. Exactly two show one polar flagellum, representing genus-level variation rather than a universal state." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text, caption, description, manifest, and structured metadata consistently record six rods and explicitly avoid implying that every Alishewanella cell or strain is flagellated." },
+      "disposition": "approved",
+      "notes": "Accepted after metadata/evidence correction. The asset remains explicitly a reconstruction, not a micrograph or diagnostic image.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "alishewanella-draft.png", "auditCorrection": "prompt requested five; output audit observed six" }
+    },
+    "alistipes|alistipes-morphology-v1.webp": {
+      "pageId": "alistipes",
+      "publishedFile": "alistipes-morphology-v1.webp",
+      "masterSource": "alistipes-morphology-v1-master.png",
+      "socialFile": "alistipes-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=239759&mode=Info", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4149002/"], "notes": "NCBI confirms the genus; electron-microscopy-backed descriptions support nonmotile, non-spore-forming ovoid-to-short-rod forms." },
+      "subjectReview": { "status": "pass", "notes": "Control-tower visual review accepted six ovoid-to-short-rod cells, including one loose pair, with no appendages or spores." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text records the six visible cells and shape range; caption separately qualifies genus-level variability and non-diagnostic use." },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome control-tower visual review in microorganisms batch 002.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "alistipes-draft.png" }
     }
   },
-  "rejectedAssets": [],
+  "rejectedAssets": [
+    {
+      "pageId": "akkermansia-mucinicola",
+      "batchId": "microorganisms-002",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "Neither NCBI Taxonomy nor LPSN recognizes Akkermansia mucinicola, so no controlled taxonomic identifier or morphology description can support a publishable image.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Akkermansia",
+        "https://www.lpsn.dsmz.de/genus/akkermansia"
+      ],
+      "requiredResolution": "Correct or retire the canonical route, or supply an authoritative taxonomic description and controlled identifier. The route remains uncovered until the hold is removed through review."
+    },
+    {
+      "pageId": "allisonella",
+      "batchId": "microorganisms-003",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "NCBI now treats Allisonella histaminiformans as the basionym of Dialister histaminiformans, while the canonical article instead names unsupported Allisonella hiatal and assigns an incompatible taxonomic identity. No publishable subject can be keyed to the route without correcting its scope.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=209880",
+        "https://pubmed.ncbi.nlm.nih.gov/12583709/"
+      ],
+      "requiredResolution": "Correct the canonical article to the current Dialister histaminiformans identity, explicitly reframe Allisonella as a historical synonym, or retire the route. A controlled identifier and corrected scientific scope are required before media review can proceed."
+    },
+    {
+      "pageId": "atopobium-parvulum",
+      "batchId": "microorganisms-004",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "NCBI recognizes Lancefieldella parvula as the current name for NCBITaxon:1382 and lists Atopobium parvulum only as a homotypic synonym. Publishing new media under the superseded combination would misstate the current identity.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1382&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035223/"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to Lancefieldella parvula, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:1382, before media review proceeds."
+    },
+    {
+      "pageId": "atopobium-vaginae",
+      "batchId": "microorganisms-004",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "NCBI recognizes Fannyhessea vaginae as the current name for NCBITaxon:82135 and lists Atopobium vaginae as its basionym. Publishing new media under the superseded combination would misstate the current identity.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82135&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/10555338/"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to Fannyhessea vaginae, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:82135, before media review proceeds."
+    }
+  ],
   "revisedAssets": [
     {
       "pageId": "actinomyces",
@@ -233,11 +361,23 @@
       "reason": "Fine hair-like projections could read as pili or flagella and conflicted with the nonmotile framing.",
       "supersededBy": "work/media-drafts/microorganisms-batch-001/actinomyces-draft-v2.png",
       "outcome": "Targeted edit removed every appendage-like hair while preserving segmented branching rods and clubbed ends."
+    },
+    {
+      "pageId": "aeromonas",
+      "batchId": "microorganisms-002",
+      "draft": "work/media-drafts/microorganisms-batch-002/aeromonas-draft.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "The upper-right cell carried a lophotrichous-looking polar tuft rather than the restrained single-polar form selected for the canonical genus treatment.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-002/aeromonas-draft-v2.png",
+      "outcome": "Targeted edit removed the extra strands and retained exactly one fine polar flagellum on that cell without changing the other rods. Control-tower visual review accepted v2, and only v2 was promoted."
     }
   ],
   "notes": [
     "Drafts remain outside the public media registry and public/media-files.",
     "Only assets with a matching approved review entry may enter the registry.",
+    "Scientific-identity holds remain uncovered, are skipped by generation batches, and must be resolved before any registry publication.",
     "The eight baseline masters are preservation reconstructions from reviewed WebP derivatives, not original generation masters."
   ]
 }

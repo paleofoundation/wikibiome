@@ -7,18 +7,24 @@ import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { requiredEmbeddedMetadataTokens } from "../lib/article-media-metadata.mjs";
 import { assertArticleMediaRecord } from "../lib/article-media-validation.mjs";
 import { assertCanonicalMediaCorpus, loadCanonicalMediaRoutes } from "./article-media-corpus.mjs";
+import { assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
 
 const projectRoot = process.cwd();
 const masters = resolve(projectRoot, "media/masters");
 const derivatives = resolve(projectRoot, "public/media-files");
 const registerPath = resolve(projectRoot, "data/article-media-coverage.generated.json");
 const reviewLogPath = resolve(projectRoot, "data/article-media-review-log.json");
+const batchDirectory = resolve(projectRoot, "data/article-media-batches");
 const canonicalRoutes = loadCanonicalMediaRoutes(projectRoot);
 assertCanonicalMediaCorpus(canonicalRoutes);
 const routesById = new Map(canonicalRoutes.map((route) => [route.id, route]));
 if (!existsSync(reviewLogPath)) throw new Error("Scientific media review log is missing.");
 const reviewLog = JSON.parse(readFileSync(reviewLogPath, "utf8"));
 if (reviewLog.schemaVersion !== 2 || !reviewLog.reviews || !reviewLog.reviewingAuthorities) throw new Error("Scientific media review log schema is invalid.");
+const batchManifests = readdirSync(batchDirectory)
+  .filter((name) => name.endsWith(".json"))
+  .sort()
+  .map((name) => ({ name, data: JSON.parse(readFileSync(resolve(batchDirectory, name), "utf8")) }));
 
 const compatibleTypes = Object.freeze({
   microorganisms: new Set(["morphology", "microbial-community"]),
@@ -85,6 +91,25 @@ for (const [id, media] of Object.entries(articleMediaRegistry)) {
 for (const [key, review] of Object.entries(reviewLog.reviews)) {
   if (review.disposition === "approved" && !articleMediaRegistry[review.pageId]) {
     throw new Error(`${key}: approved review has no matching publishable registry record.`);
+  }
+}
+
+for (const hold of reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold")) {
+  if (!routesById.has(hold.pageId)) throw new Error(`${hold.pageId}: scientific-identity hold does not match a canonical route.`);
+  if (articleMediaRegistry[hold.pageId]) throw new Error(`${hold.pageId}: scientific-identity hold forbids registry publication.`);
+  if (!hold.reviewedOn || !hold.reviewingAuthority || !hold.reason || !hold.requiredResolution || hold.checkedUrls?.length < 2) {
+    throw new Error(`${hold.pageId}: scientific-identity hold is incomplete.`);
+  }
+}
+
+for (const { name, data } of batchManifests) {
+  if (!data.promptRecord || !existsSync(resolve(projectRoot, data.promptRecord))) throw new Error(`${name}: immutable prompt provenance is missing.`);
+  for (const asset of data.assets.filter((candidate) => candidate.assetType && candidate.revision)) {
+    if (data.status === "reviewed") {
+      if (!/^(accepted|approved)/.test(asset.decision ?? "")) throw new Error(`${name}/${asset.pageId}: reviewed batch disposition is invalid.`);
+      if (!articleMediaRegistry[asset.pageId]) throw new Error(`${name}/${asset.pageId}: reviewed batch asset is not published in the reviewed registry.`);
+    }
+    if (data.status === "reviewed" || data.status === "approved-awaiting-promotion") assertMediaOutputAudit(asset, name);
   }
 }
 

@@ -6,6 +6,7 @@ import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from 
 import { classifySearchReferrer } from "../lib/search-observability.mjs";
 import { applyPublicContentPolicy, publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 import { normalizeSourceMetadata } from "../scripts/source-metadata-policy.mjs";
+import { assertMediaOutputAudit } from "../scripts/article-media-batch-validation.mjs";
 
 async function render(pathname = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -155,6 +156,28 @@ test("omits invalid source years and placeholder DOIs without inventing metadata
   assert.equal(input.sourceLookup.invalid.doi, "not yet verified");
 });
 
+test("rejects prompt-derived or unreconciled generated-media counts", () => {
+  const valid = {
+    pageId: "example-route",
+    outputAudit: {
+      reviewedBy: "named reviewing authority",
+      reviewedOn: "2026-09-01",
+      promptCountTrusted: false,
+      observedSubjectDescription: "Six visible cellular bodies.",
+      metadataConsistency: "pass",
+    },
+  };
+  assert.doesNotThrow(() => assertMediaOutputAudit(valid, "example-batch"));
+  assert.throws(
+    () => assertMediaOutputAudit({ ...valid, outputAudit: { ...valid.outputAudit, promptCountTrusted: true } }, "example-batch"),
+    /generated prompt cannot serve as count evidence/,
+  );
+  assert.throws(
+    () => assertMediaOutputAudit({ ...valid, outputAudit: { ...valid.outputAudit, observedSubjectDescription: "", metadataConsistency: "fail" } }, "example-batch"),
+    /does not have a passing metadata reconciliation/,
+  );
+});
+
 test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-media-headers`);
@@ -278,6 +301,7 @@ test("server-renders real article and directory pages through the shared redesig
   assert.match(directory, /233/);
   assert.match(directory, /records in this view/);
   assert.match(directory, /href="\/article\/akkermansia-muciniphila"/);
+  assert.match(directory, /class="directory-record-media"[\s\S]*src="\/media\/image\/akkermansia-muciniphila-morphology-v2\.webp"/);
   assert.match(directory, /wikibiome-logo\.png/);
 });
 
@@ -377,7 +401,42 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.ok(master.includes(Buffer.from(media.reviewLogKey)), `${media.pageId} master should embed its review-log key`);
   }
 
-  const batchIds = ["acidaminococcus", "acinetobacter", "acinetobacter-baumannii", "actinobacteria", "actinomyces", "adherent-invasive-e-coli"];
+  const program = JSON.parse(readFileSync(new URL("../data/article-media-coverage.generated.json", import.meta.url), "utf8"));
+  const batchDirectory = new URL("../data/article-media-batches/", import.meta.url);
+  const batches = readdirSync(batchDirectory)
+    .filter((name) => name.endsWith(".json"))
+    .sort()
+    .map((name) => JSON.parse(readFileSync(new URL(name, batchDirectory), "utf8")));
+  const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
+  const pendingIds = batches
+    .filter((batch) => activeReviewStatuses.has(batch.status))
+    .flatMap((batch) => batch.assets.filter((asset) => asset.assetType && asset.revision && asset.draft).map((asset) => asset.pageId));
+  const publishedMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  assert.equal(program.current.inReview, pendingIds.length);
+  for (const id of pendingIds) {
+    assert.equal(program.queue.find((record) => record.id === id)?.status, "in-review", `${id} remains explicitly in review`);
+    assert.equal(articleMediaRegistry[id], undefined, `${id} must not enter the reviewed registry before approval`);
+    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)), `${id} draft must not enter public media files`);
+  }
+  const heldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae"];
+  for (const id of heldIds) {
+    const heldRoute = program.queue.find((record) => record.id === id);
+    assert.equal(heldRoute?.status, "scientific-hold");
+    assert.equal(articleMediaRegistry[id], undefined);
+    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)));
+    assert.equal(reviewLog.rejectedAssets.find((asset) => asset.pageId === id)?.disposition, "scientific-identity-hold");
+  }
+
+  const batchIds = batches
+    .filter((batch) => batch.status === "reviewed")
+    .flatMap((batch) => batch.assets.filter((asset) => asset.assetType && asset.revision).map((asset) => asset.pageId));
+  for (const batch of batches.filter((item) => item.status === "reviewed" || item.status === "approved-awaiting-promotion")) {
+    for (const asset of batch.assets.filter((candidate) => candidate.assetType && candidate.revision)) {
+      assert.ok(asset.outputAudit?.reviewedBy, `${asset.pageId} requires an identified human output audit`);
+      assert.equal(asset.outputAudit?.promptCountTrusted, false, `${asset.pageId} cannot treat a generated prompt as count evidence`);
+      assert.equal(asset.outputAudit?.metadataConsistency, "pass", `${asset.pageId} visible subjects must match its metadata`);
+    }
+  }
   const batchResponses = await Promise.all(batchIds.map((id) => render(`/article/${id}`)));
   const batchPages = await Promise.all(batchResponses.map((response) => response.text()));
   for (const [index, id] of batchIds.entries()) {
@@ -689,6 +748,10 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(contact, /hello@wikibiome\.com/);
   assert.match(sitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/article\/nickel<\/loc>/);
+  assert.match(sitemap, /xmlns:image="http:\/\/www\.google\.com\/schemas\/sitemap-image\/1\.1"/);
+  assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
+  assert.match(sitemap, /<image:loc>https:\/\/www\.wikibiome\.com\/media\/image\/nickel-technical-specimen-v2\.webp<\/image:loc>/);
+  assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae)[^<]*<\/image:loc>/);
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/source\/ahmed-2025-metals-alzheimers-mechanistic-review<\/loc>/);
   assert.ok((sitemap.match(/<url>/g) ?? []).length > 2_500);
   assert.match(imageSitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);

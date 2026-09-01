@@ -8,9 +8,35 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "05a7dbc4cc616886f26be47b321d285958af10262bf6a70bcdcf25a86583cacb",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "90e424a0b1a93009f09e17307610e449222c499b8e01bfeaf38c1262890677fb",
+    "registrySha256": "f250867b7c3e48ef7ac0fa012249dc995df78abd560781a23aa970f94a4ef66e",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "0c57e120fe7f51d0c58a09f9709a1c51446be8525c0503a7d0be9dc27c6b62cb"
+    "reviewLogSha256": "4813976642eb40a1c43f6575b3dab4c86fdab672826272217c4b4d07f08a90b9",
+    "batchManifests": [
+      {
+        "file": "data/article-media-batches/microorganisms-001.json",
+        "batchId": "microorganisms-001",
+        "status": "reviewed",
+        "sha256": "a9eaa9100d082f17db0817ef3467e197fa569b7249bca7b16ef787b0c18d1762"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-002.json",
+        "batchId": "microorganisms-002",
+        "status": "reviewed",
+        "sha256": "0f15c9e69704cad780585e99b3c1f0a143f148d411cff08dbdc4695210059b0a"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-003.json",
+        "batchId": "microorganisms-003",
+        "status": "approved-awaiting-promotion",
+        "sha256": "d37dbfc6cde03c5e6e7dd16469f5e0e0ca9db19e88a0aeb2d07867b6eeb54c77"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-004.json",
+        "batchId": "microorganisms-004",
+        "status": "approved-awaiting-promotion",
+        "sha256": "daefb3b735460dd241852ddc5ccd58155b92bad0ce90b13923c8bbcb0775e944"
+      }
+    ]
   },
   "baseline": {
     "asOf": "2026-09-01",
@@ -30,18 +56,20 @@
   },
   "current": {
     "total": 714,
-    "completed": 14,
-    "remaining": 700,
-    "rejected": 0,
-    "revised": 1
+    "completed": 19,
+    "remaining": 695,
+    "rejected": 4,
+    "revised": 2,
+    "scientificHolds": 4,
+    "inReview": 9
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 233,
-      "completed": 11,
-      "remaining": 222
+      "completed": 16,
+      "remaining": 217
     },
     {
       "id": "metals",
@@ -93,7 +121,60 @@
       "remaining": 16
     }
   ],
-  "rejectedAssets": [],
+  "rejectedAssets": [
+    {
+      "pageId": "akkermansia-mucinicola",
+      "batchId": "microorganisms-002",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "Neither NCBI Taxonomy nor LPSN recognizes Akkermansia mucinicola, so no controlled taxonomic identifier or morphology description can support a publishable image.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Akkermansia",
+        "https://www.lpsn.dsmz.de/genus/akkermansia"
+      ],
+      "requiredResolution": "Correct or retire the canonical route, or supply an authoritative taxonomic description and controlled identifier. The route remains uncovered until the hold is removed through review."
+    },
+    {
+      "pageId": "allisonella",
+      "batchId": "microorganisms-003",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "NCBI now treats Allisonella histaminiformans as the basionym of Dialister histaminiformans, while the canonical article instead names unsupported Allisonella hiatal and assigns an incompatible taxonomic identity. No publishable subject can be keyed to the route without correcting its scope.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=209880",
+        "https://pubmed.ncbi.nlm.nih.gov/12583709/"
+      ],
+      "requiredResolution": "Correct the canonical article to the current Dialister histaminiformans identity, explicitly reframe Allisonella as a historical synonym, or retire the route. A controlled identifier and corrected scientific scope are required before media review can proceed."
+    },
+    {
+      "pageId": "atopobium-parvulum",
+      "batchId": "microorganisms-004",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "NCBI recognizes Lancefieldella parvula as the current name for NCBITaxon:1382 and lists Atopobium parvulum only as a homotypic synonym. Publishing new media under the superseded combination would misstate the current identity.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1382&mode=Info",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035223/"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to Lancefieldella parvula, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:1382, before media review proceeds."
+    },
+    {
+      "pageId": "atopobium-vaginae",
+      "batchId": "microorganisms-004",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "NCBI recognizes Fannyhessea vaginae as the current name for NCBITaxon:82135 and lists Atopobium vaginae as its basionym. Publishing new media under the superseded combination would misstate the current identity.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82135&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/10555338/"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to Fannyhessea vaginae, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:82135, before media review proceeds."
+    }
+  ],
   "revisedAssets": [
     {
       "pageId": "actinomyces",
@@ -104,59 +185,70 @@
       "reason": "Fine hair-like projections could read as pili or flagella and conflicted with the nonmotile framing.",
       "supersededBy": "work/media-drafts/microorganisms-batch-001/actinomyces-draft-v2.png",
       "outcome": "Targeted edit removed every appendage-like hair while preserving segmented branching rods and clubbed ends."
+    },
+    {
+      "pageId": "aeromonas",
+      "batchId": "microorganisms-002",
+      "draft": "work/media-drafts/microorganisms-batch-002/aeromonas-draft.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "The upper-right cell carried a lophotrichous-looking polar tuft rather than the restrained single-polar form selected for the canonical genus treatment.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-002/aeromonas-draft-v2.png",
+      "outcome": "Targeted edit removed the extra strands and retained exactly one fine polar flagellum on that cell without changing the other rods. Control-tower visual review accepted v2, and only v2 was promoted."
     }
   ],
   "nextBatch": [
     {
-      "queuePosition": 7,
-      "id": "adlercreutzia",
-      "title": "Adlercreutzia",
-      "route": "/article/adlercreutzia",
+      "queuePosition": 26,
+      "id": "bacteroidaceae",
+      "title": "Bacteroidaceae",
+      "route": "/article/bacteroidaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 8,
-      "id": "aerococcus",
-      "title": "Aerococcus",
-      "route": "/article/aerococcus",
+      "queuePosition": 27,
+      "id": "bacteroidales",
+      "title": "Bacteroidales",
+      "route": "/article/bacteroidales",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 9,
-      "id": "aeromonas",
-      "title": "Aeromonas",
-      "route": "/article/aeromonas",
+      "queuePosition": 28,
+      "id": "bacteroides",
+      "title": "Bacteroides",
+      "route": "/article/bacteroides",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 10,
-      "id": "akkermansia-mucinicola",
-      "title": "Akkermansia mucinicola",
-      "route": "/article/akkermansia-mucinicola",
+      "queuePosition": 29,
+      "id": "bacteroides-caccae",
+      "title": "Bacteroides caccae",
+      "route": "/article/bacteroides-caccae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 12,
-      "id": "alishewanella",
-      "title": "Alishewanella",
-      "route": "/article/alishewanella",
+      "queuePosition": 30,
+      "id": "bacteroides-fragilis",
+      "title": "Bacteroides fragilis",
+      "route": "/article/bacteroides-fragilis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 13,
-      "id": "alistipes",
-      "title": "Alistipes",
-      "route": "/article/alistipes",
+      "queuePosition": 31,
+      "id": "bacteroides-thetaiotaomicron",
+      "title": "Bacteroides thetaiotaomicron",
+      "route": "/article/bacteroides-thetaiotaomicron",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -300,7 +392,15 @@
       "route": "/article/adlercreutzia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "adlercreutzia-morphology-v1-master.png",
+        "publishedFile": "adlercreutzia-morphology-v1.webp",
+        "socialFile": "adlercreutzia-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 8,
@@ -313,7 +413,15 @@
       "route": "/article/aerococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "aerococcus-morphology-v1-master.png",
+        "publishedFile": "aerococcus-morphology-v1.webp",
+        "socialFile": "aerococcus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 9,
@@ -326,7 +434,15 @@
       "route": "/article/aeromonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "aeromonas-morphology-v1-master.png",
+        "publishedFile": "aeromonas-morphology-v1.webp",
+        "socialFile": "aeromonas-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 10,
@@ -339,7 +455,13 @@
       "route": "/article/akkermansia-mucinicola",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-01",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "Neither NCBI Taxonomy nor LPSN recognizes Akkermansia mucinicola, so no controlled taxonomic identifier or morphology description can support a publishable image.",
+        "requiredResolution": "Correct or retire the canonical route, or supply an authoritative taxonomic description and controlled identifier. The route remains uncovered until the hold is removed through review."
+      }
     },
     {
       "queuePosition": 11,
@@ -373,7 +495,15 @@
       "route": "/article/alishewanella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "alishewanella-morphology-v1-master.png",
+        "publishedFile": "alishewanella-morphology-v1.webp",
+        "socialFile": "alishewanella-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 13,
@@ -386,7 +516,15 @@
       "route": "/article/alistipes",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "alistipes-morphology-v1-master.png",
+        "publishedFile": "alistipes-morphology-v1.webp",
+        "socialFile": "alistipes-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 14,
@@ -399,7 +537,13 @@
       "route": "/article/allisonella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-01",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI now treats Allisonella histaminiformans as the basionym of Dialister histaminiformans, while the canonical article instead names unsupported Allisonella hiatal and assigns an incompatible taxonomic identity. No publishable subject can be keyed to the route without correcting its scope.",
+        "requiredResolution": "Correct the canonical article to the current Dialister histaminiformans identity, explicitly reframe Allisonella as a historical synonym, or retire the route. A controlled identifier and corrected scientific scope are required before media review can proceed."
+      }
     },
     {
       "queuePosition": 15,
@@ -412,7 +556,13 @@
       "route": "/article/alloprevotella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-003",
+        "decision": "approved-after-metadata-correction",
+        "draft": "work/media-drafts/microorganisms-batch-003/alloprevotella-draft.png",
+        "sha256": "266e0990aebf11d9752e00833df1ad5acfc63500674d4ef7d6873176c8fc6c17"
+      }
     },
     {
       "queuePosition": 16,
@@ -425,7 +575,13 @@
       "route": "/article/alloscardovia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-003",
+        "decision": "approved-after-metadata-correction",
+        "draft": "work/media-drafts/microorganisms-batch-003/alloscardovia-draft.png",
+        "sha256": "57efaf73e81eea4bff4f9af7530d4a0643fea94a6ba180573f89a0d9c5192f2b"
+      }
     },
     {
       "queuePosition": 17,
@@ -438,7 +594,13 @@
       "route": "/article/alternaria",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-003",
+        "decision": "approved",
+        "draft": "work/media-drafts/microorganisms-batch-003/alternaria-draft.png",
+        "sha256": "7f58820b0d86bbb63f8a09779d169001f2b52d00be8447456f2951f630f79e99"
+      }
     },
     {
       "queuePosition": 18,
@@ -451,7 +613,13 @@
       "route": "/article/anaerococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-003",
+        "decision": "approved",
+        "draft": "work/media-drafts/microorganisms-batch-003/anaerococcus-draft.png",
+        "sha256": "a00706ecfd506862cc4c1c2589426b8d0a2ed27d06ec7d27a883fb0ad8d64dd2"
+      }
     },
     {
       "queuePosition": 19,
@@ -464,7 +632,13 @@
       "route": "/article/anaerostipes",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-003",
+        "decision": "approved-after-metadata-correction",
+        "draft": "work/media-drafts/microorganisms-batch-003/anaerostipes-draft.png",
+        "sha256": "c8c38c00dde44a876e1dab5d351de5a078a0fb2b42b0c1cb9ff868fcc66a40d6"
+      }
     },
     {
       "queuePosition": 20,
@@ -477,7 +651,13 @@
       "route": "/article/anaerotruncus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-004",
+        "decision": "approved",
+        "draft": "work/media-drafts/microorganisms-batch-004/anaerotruncus-draft.png",
+        "sha256": "dea2c6b801532a10808b62b38d1f8c99eebe2cfe4840eb04fa9c66aa7dbbe33e"
+      }
     },
     {
       "queuePosition": 21,
@@ -490,7 +670,13 @@
       "route": "/article/aspergillus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-004",
+        "decision": "approved",
+        "draft": "work/media-drafts/microorganisms-batch-004/aspergillus-draft.png",
+        "sha256": "34304bbf26f701807027fbac8cadf9e01845ad4b8c568bfe6d9a0f2f3333fb1e"
+      }
     },
     {
       "queuePosition": 22,
@@ -503,7 +689,13 @@
       "route": "/article/atopobium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-004",
+        "decision": "approved",
+        "draft": "work/media-drafts/microorganisms-batch-004/atopobium-draft.png",
+        "sha256": "f694fa04c5648e412270fc6dd0cb685b78cbc639b599118b36c9a2e80bf9cb07"
+      }
     },
     {
       "queuePosition": 23,
@@ -516,7 +708,13 @@
       "route": "/article/atopobium-parvulum",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-01",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI recognizes Lancefieldella parvula as the current name for NCBITaxon:1382 and lists Atopobium parvulum only as a homotypic synonym. Publishing new media under the superseded combination would misstate the current identity.",
+        "requiredResolution": "Rename or redirect the canonical route to Lancefieldella parvula, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:1382, before media review proceeds."
+      }
     },
     {
       "queuePosition": 24,
@@ -529,7 +727,13 @@
       "route": "/article/atopobium-vaginae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-01",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI recognizes Fannyhessea vaginae as the current name for NCBITaxon:82135 and lists Atopobium vaginae as its basionym. Publishing new media under the superseded combination would misstate the current identity.",
+        "requiredResolution": "Rename or redirect the canonical route to Fannyhessea vaginae, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:82135, before media review proceeds."
+      }
     },
     {
       "queuePosition": 25,
@@ -542,7 +746,13 @@
       "route": "/article/bacillus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-004",
+        "decision": "approved",
+        "draft": "work/media-drafts/microorganisms-batch-004/bacillus-draft.png",
+        "sha256": "e30dd4e05cf4d1fbac2bd84f9692fc269722536772dd9d9d817a02902d6a2967"
+      }
     },
     {
       "queuePosition": 26,

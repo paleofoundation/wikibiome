@@ -71,7 +71,7 @@ for (const media of Object.values(articleMediaRegistry)) {
   await sharp(source)
     .resize(media.socialWidth, media.socialHeight, { fit: "cover", position: "attention" })
     .withXmp(xmp)
-    .webp({ quality: 86, smartSubsample: true })
+    .webp({ quality: 92, smartSubsample: true })
     .toFile(socialTemporary);
   await rename(articleTemporary, join(output, media.publishedFile));
   await rename(socialTemporary, join(output, media.socialFile));

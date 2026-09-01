@@ -43,7 +43,13 @@ The original generation masters for the eight-asset baseline were not retained. 
 
 ## Deterministic coverage program
 
-`data/article-media-coverage.generated.json` is generated from the synchronized content corpus, registry, and review log. It covers exactly 714 canonical article routes and records baseline, completed and remaining counts, category totals, revisions/rejections, next batch, and the complete deterministic queue. Run:
+`data/article-media-coverage.generated.json` is generated from the synchronized content corpus, registry, review log, and sorted batch manifests. It covers exactly 714 canonical article routes and records baseline, completed and remaining counts, category totals, revisions/rejections, scientific holds, candidates in review, next batch, and the complete deterministic queue. Routes in an `awaiting-control-review` batch are marked `in-review` and skipped by later generation batches without being counted as completed.
+
+If the scientific identity of a canonical route cannot be verified against the required authority, record a `scientific-identity-hold`. Held routes remain uncovered and count toward the remaining total, are skipped by subsequent generation batches, and cannot enter the reviewed registry until the hold is explicitly resolved. The release gate rejects any registry record that conflicts with an active hold.
+
+Generation prompts are immutable provenance, not evidence that a rendered output obeyed a requested count. Every accepted generated asset requires an identified, dated human `outputAudit` that records the visible subject count or grouping, sets `promptCountTrusted` to `false`, and marks metadata consistency as passed only after the visual review, alt text, caption, description, registry, and structured metadata agree. The program generator and release gate reject reviewed batches with a missing or inconsistent output audit.
+
+Reviewed registry images are also the only images eligible for directory/search thumbnails and the `<image:image>` extension in `sitemap.xml`. Scientific-identity holds, pending candidates, rejected drafts, and superseded drafts never enter either surface.
 
 ```sh
 npm run media:program:write

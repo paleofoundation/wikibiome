@@ -1,4 +1,6 @@
 import { allSources, allWikiPages, canonicalArticleId, categories, generatedAt } from "@/lib/wikibiome";
+import { getArticleMedia } from "@/lib/article-media";
+import type { ArticleMedia } from "@/lib/article-media";
 
 const ORIGIN = "https://www.wikibiome.com";
 const publicRoutes = [
@@ -22,6 +24,13 @@ const publicRoutes = [
   "/contact",
 ];
 
+type SitemapEntry = {
+  path: string;
+  lastmod?: string;
+  priority: string;
+  media?: ArticleMedia;
+};
+
 export function GET() {
   const articleMap = new Map<string, string>();
   for (const page of allWikiPages) {
@@ -31,13 +40,17 @@ export function GET() {
     if (!existing || updated > existing) articleMap.set(id, updated);
   }
 
-  const entries = [
+  const entries: SitemapEntry[] = [
     ...publicRoutes.map((path) => ({ path, lastmod: validDate(generatedAt), priority: path === "/" ? "1.0" : "0.7" })),
-    ...[...articleMap.entries()].map(([id, lastmod]) => ({ path: `/article/${id}`, lastmod, priority: "0.8" })),
+    ...[...articleMap.entries()].map(([id, lastmod]) => ({ path: `/article/${id}`, lastmod, priority: "0.8", media: getArticleMedia(id) })),
     ...Object.keys(allSources).map((id) => ({ path: `/source/${id}`, lastmod: validDate(generatedAt), priority: "0.5" })),
   ];
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${entries.map((entry) => `  <url><loc>${escapeXml(`${ORIGIN}${entry.path}`)}</loc>${entry.lastmod ? `<lastmod>${escapeXml(entry.lastmod)}</lastmod>` : ""}<changefreq>${entry.path === "/" ? "daily" : "weekly"}</changefreq><priority>${entry.priority}</priority></url>`).join("\n")}\n</urlset>\n`;
+  const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.map((entry) => {
+    const media = entry.media;
+    const image = media ? `<image:image><image:loc>${escapeXml(`${ORIGIN}${media.src}`)}</image:loc><image:title>${escapeXml(media.title)}</image:title><image:caption>${escapeXml(media.caption)}</image:caption><image:license>${escapeXml(media.license)}</image:license></image:image>` : "";
+    return `  <url><loc>${escapeXml(`${ORIGIN}${entry.path}`)}</loc>${entry.lastmod ? `<lastmod>${escapeXml(entry.lastmod)}</lastmod>` : ""}${image}<changefreq>${entry.path === "/" ? "daily" : "weekly"}</changefreq><priority>${entry.priority}</priority></url>`;
+  }).join("\n")}\n</urlset>\n`;
   return new Response(xml, { headers: { "content-type": "application/xml; charset=utf-8", "cache-control": "public, max-age=3600" } });
 }
 

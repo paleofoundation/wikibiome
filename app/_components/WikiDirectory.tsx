@@ -1,5 +1,6 @@
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { getArticleMedia } from "@/lib/article-media";
 import {
   categories,
   categoryLabel,
@@ -64,10 +65,18 @@ export function WikiDirectory({
             {pages.map((page, index) => {
               const letter = page.title[0]?.toUpperCase();
               const showLetter = alphabetical && (index === 0 || pages[index - 1]?.title[0]?.toUpperCase() !== letter);
+              const media = getArticleMedia(page.id);
               return (
                 <div className="directory-record-wrap" id={showLetter ? `letter-${letter}` : undefined} key={page.id}>
                   {showLetter && <span className="directory-letter">{letter}</span>}
-                  <article className="directory-record">
+                  <article className={media ? "directory-record has-media" : "directory-record"}>
+                    {media && (
+                      <Link className="directory-record-media" href={`/article/${page.id}`} aria-label={`Open ${page.title}`}>
+                        {/* Canonical reviewed media already has optimized, immutable WebP derivatives. */}
+                        {/* eslint-disable-next-line @next/next/no-img-element */}
+                        <img src={media.src} alt={media.alt} width={media.width} height={media.height} loading="lazy" decoding="async" />
+                      </Link>
+                    )}
                     <div><span>{categoryLabel(page.category)}</span><b>{page.sourceCount ?? 0} sources</b></div>
                     <h2><Link href={`/article/${page.id}`}>{page.title}</Link></h2>
                     <p>{plainText(page.overview).slice(0, 270) || "This knowledge-base record is being expanded from WikiBiome’s evidence graph."}{plainText(page.overview).length > 270 ? "…" : ""}</p>
