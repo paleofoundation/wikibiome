@@ -3,7 +3,7 @@
   "generatedOn": "2026-09-01",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
-    "upstreamCommit": "48053d889912a53488f2d734297bd95c494a3faf",
+    "upstreamCommit": "9ea549e93d89a831a044e380a62acdbab67792f5",
     "contentManifest": "data/content-manifest.generated.json",
     "contentFile": "data/content.generated.json",
     "contentSha256": "9168556852ecb065a546e3cf8703e83c440842c7031820494b157bb69fe57514",

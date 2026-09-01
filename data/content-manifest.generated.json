@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T13:24:31.062Z",
+  "generatedAt": "2026-09-01T13:35:05.159Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "48053d889912a53488f2d734297bd95c494a3faf",
+    "commit": "9ea549e93d89a831a044e380a62acdbab67792f5",
     "contentGeneratedAt": "2026-09-01T13:23:05.346Z",
     "platform": "all"
   },
@@ -1517,10 +1517,10 @@
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "48053d889912a53488f2d734297bd95c494a3faf",
+    "sourceCommit": "9ea549e93d89a831a044e380a62acdbab67792f5",
     "registeredCount": 113,
     "appliedRecordCount": 122,
-    "registrySha256": "cb8d77f5a661f55152b834826574ea6a98485dc5d73b73912bfaefafbd32a07d"
+    "registrySha256": "73b759f7f19f896430240afc89b4d2b950d7f20b347fdb5158909dc5a9e60acf"
   },
   "articleIdentityPolicy": {
     "version": 1,
