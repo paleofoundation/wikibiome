@@ -1,4 +1,4 @@
-import { cleanText, cleanUrl } from "@/lib/research-network";
+import { normalizeInstitutionDomain } from "@/lib/research-trust-policy.mjs";
 
 export type ResearchWorkMetadata = {
   identifierType: "doi" | "pmid" | "preprint";
@@ -62,10 +62,11 @@ export async function lookupRorOrganization(value: unknown): Promise<RorOrganiza
   const locations = Array.isArray(record.locations) ? record.locations as Array<Record<string, unknown>> : [];
   const geonames = (locations[0]?.geonames_details && typeof locations[0].geonames_details === "object" ? locations[0].geonames_details : {}) as Record<string, unknown>;
   const links = Array.isArray(record.links) ? record.links as Array<Record<string, unknown>> : [];
-  const domains = links
+  const registeredDomains = Array.isArray(record.domains) ? record.domains.map((item) => normalizeInstitutionDomain(item)) : [];
+  const websiteDomains = links
     .filter((item) => item.type === "website")
-    .map((item) => cleanText(item.value, 500))
-    .flatMap((url) => { try { return [new URL(url).hostname.replace(/^www\./, "")]; } catch { return []; } });
+    .map((item) => normalizeInstitutionDomain(item.value));
+  const domains = [...new Set([...registeredDomains, ...websiteDomains].filter(Boolean))];
   if (!name) throw new Error("ROR returned incomplete organization metadata.");
   return { ror: ror.toLowerCase(), name, country: cleanText(geonames.country_name, 100), domains: [...new Set(domains)] };
 }
@@ -131,4 +132,19 @@ async function lookupPubmed(pmid: string): Promise<ResearchWorkMetadata> {
 
 function arrayFirst(value: unknown) {
   return cleanText(Array.isArray(value) ? value[0] : value, 1000);
+}
+
+function cleanText(value: unknown, limit: number) {
+  return typeof value === "string" ? value.trim().slice(0, limit) : "";
+}
+
+function cleanUrl(value: unknown) {
+  const source = cleanText(value, 1000);
+  if (!source) return "";
+  try {
+    const url = new URL(source);
+    return url.protocol === "https:" || url.protocol === "http:" ? url.toString() : "";
+  } catch {
+    return "";
+  }
 }

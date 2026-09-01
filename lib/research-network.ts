@@ -29,6 +29,8 @@ import {
   workSubmissions,
 } from "@/db/schema";
 import { getSource, getWikiPage, normalizeDoi } from "@/lib/wikibiome";
+import { lookupRorOrganization } from "@/lib/research-metadata";
+import { discussionPublishingDecision, institutionEmailMatchesAuthoritativeDomains } from "@/lib/research-trust-policy.mjs";
 
 export const researcherRoles = ["researcher", "trusted_contributor", "topic_steward", "moderator", "institution_admin", "site_admin"] as const;
 export const discussionCategories = ["question", "interpretation", "methodology", "new_evidence", "correction"] as const;
@@ -68,6 +70,11 @@ export type PublicResearcher = {
   role: ResearcherRole;
 };
 
+export type ResearchNetworkCapabilities = {
+  manuscriptUploads: boolean;
+  outreach: boolean;
+};
+
 const SESSION_COOKIE = "wikibiome_researcher_session";
 const SESSION_DAYS = 30;
 
@@ -83,6 +90,14 @@ async function getRuntimeEnv() {
   } catch {
     return process.env as Record<string, string | undefined>;
   }
+}
+
+export async function getResearchNetworkCapabilities(): Promise<ResearchNetworkCapabilities> {
+  const runtime = await getRuntimeEnv();
+  return {
+    manuscriptUploads: runtime.WIKIBIOME_MANUSCRIPT_UPLOADS_ENABLED === "1" && Boolean(runtime.WIKIBIOME_SCAN_WEBHOOK_SECRET),
+    outreach: runtime.WIKIBIOME_OUTREACH_ENABLED === "1" && Boolean(runtime.RESEND_API_KEY && runtime.WIKIBIOME_EMAIL_FROM && runtime.WIKIBIOME_UNSUBSCRIBE_SECRET),
+  };
 }
 
 export function cleanText(value: unknown, limit: number) {
@@ -280,9 +295,11 @@ export async function createOrLinkOrcidAccount(input: {
   const accountId = existingOrcidIdentity?.accountId ?? input.linkAccountId ?? existingChatgptIdentity?.accountId ?? crypto.randomUUID();
   const name = cleanText(input.name || input.chatgptName || input.chatgptEmail || `ORCID ${orcid}`, 180);
   const existingAccount = (await db.select().from(accounts).where(eq(accounts.id, accountId)).limit(1))[0];
+  const configuredModerators = String((await getRuntimeEnv()).WIKIBIOME_MODERATOR_IDS ?? "").split(",").map((item) => item.trim()).filter(Boolean);
+  const linkedModerator = Boolean(input.chatgptUserId && configuredModerators.includes(input.chatgptUserId));
 
-  if (!existingAccount) await db.insert(accounts).values({ id: accountId, displayName: name });
-  else await db.update(accounts).set({ displayName: name, updatedAt: new Date().toISOString() }).where(eq(accounts.id, accountId));
+  if (!existingAccount) await db.insert(accounts).values({ id: accountId, displayName: name, role: linkedModerator ? "moderator" : "researcher" });
+  else await db.update(accounts).set({ displayName: name, ...(linkedModerator && existingAccount.role === "researcher" ? { role: "moderator" } : {}), updatedAt: new Date().toISOString() }).where(eq(accounts.id, accountId));
 
   if (!existingOrcidIdentity) await db.insert(accountIdentities).values({ id: crypto.randomUUID(), accountId, provider: "orcid", providerSubject: orcid });
   if (input.chatgptUserId) {
@@ -713,24 +730,27 @@ export async function listInstitutionAccess(accountId: string) {
   }
 }
 
-export async function createInstitution(input: { account: ResearcherSession; ror: unknown; name: unknown; country?: unknown; domains?: unknown; description?: unknown }) {
+export async function createInstitution(input: { account: ResearcherSession; ror: unknown; description?: unknown }) {
   assertVerifiedResearcher(input.account);
   await enforceRateLimit(input.account.accountId, "institution.request", 3, 1440);
-  const ror = cleanText(input.ror, 64).replace(/^https?:\/\/ror\.org\//i, "");
-  if (!/^0[a-z0-9]{8}$/i.test(ror)) throw new Error("Enter a valid ROR identifier.");
-  const name = cleanText(input.name, 300);
-  if (!name) throw new Error("Institution name is required.");
-  const domains = cleanStringList(input.domains, 10, 180).map((item) => item.toLowerCase());
-  const emailDomain = input.account.email?.split("@").at(-1)?.toLowerCase() || "";
-  const domainVerified = Boolean(input.account.emailVerified && emailDomain && domains.some((domain) => emailDomain === domain || emailDomain.endsWith(`.${domain}`)));
-  const institutionId = crypto.randomUUID();
+  const organization = await lookupRorOrganization(input.ror);
+  const domainVerified = Boolean(input.account.emailVerified && institutionEmailMatchesAuthoritativeDomains(input.account.email, organization.domains));
+  const db = await getResearchDb();
+  const existingInstitution = (await db.select().from(institutions).where(eq(institutions.ror, organization.ror)).limit(1))[0];
+  const institutionId = existingInstitution?.id ?? crypto.randomUUID();
+  const existingMembership = (await db.select().from(institutionMemberships).where(and(eq(institutionMemberships.institutionId, institutionId), eq(institutionMemberships.accountId, input.account.accountId))).limit(1))[0];
+  if (existingMembership) throw new Error("You already have an institution access request for this ROR organization.");
   const membershipId = crypto.randomUUID();
-  await (await getResearchDb()).batch([
-    (await getResearchDb()).insert(institutions).values({ id: institutionId, ror, name, country: cleanText(input.country, 100) || null, domainsJson: JSON.stringify(domains), description: cleanText(input.description, 3000) }),
-    (await getResearchDb()).insert(institutionMemberships).values({ id: membershipId, institutionId, accountId: input.account.accountId, role: "admin", domainVerified }),
-  ]);
-  await recordAudit(input.account.accountId, "institution.requested", "institution", institutionId, { ror, domainVerified });
-  return { institutionId, ror };
+  if (existingInstitution) {
+    await db.insert(institutionMemberships).values({ id: membershipId, institutionId, accountId: input.account.accountId, role: "admin", domainVerified });
+  } else {
+    await db.batch([
+      db.insert(institutions).values({ id: institutionId, ror: organization.ror, name: organization.name, country: organization.country || null, domainsJson: JSON.stringify(organization.domains), description: cleanText(input.description, 3000) }),
+      db.insert(institutionMemberships).values({ id: membershipId, institutionId, accountId: input.account.accountId, role: "admin", domainVerified }),
+    ]);
+  }
+  await recordAudit(input.account.accountId, "institution.requested", "institution", institutionId, { ror: organization.ror, domainVerified, domainSource: "ror_api" });
+  return { institutionId, ror: organization.ror, organization };
 }
 
 export async function createInstitutionBatch(input: { account: ResearcherSession; institutionId: unknown; format: unknown; identifiers: unknown }) {
@@ -813,6 +833,7 @@ export async function enqueueNotification(input: { accountId?: string; email: st
 
 export async function createCitationNoticeContact(account: ResearcherSession, input: { email: unknown; sourceId: unknown; provenance: unknown; jurisdictionRule: unknown }) {
   if (!isModeratorRole(account.role)) throw new Error("Moderator access is required.");
+  if (!(await getResearchNetworkCapabilities()).outreach) throw new Error("Citation outreach is disabled until counsel approval and production email safeguards are configured.");
   const email = cleanEmail(input.email);
   const sourceId = cleanText(input.sourceId, 180);
   const provenance = cleanText(input.provenance, 1000);
@@ -932,9 +953,16 @@ function assertVerifiedResearcher(account: ResearcherSession) {
 }
 
 async function initialPostStatus(account: ResearcherSession) {
-  if (account.role !== "researcher") return "published";
-  const [{ value }] = await (await getResearchDb()).select({ value: count() }).from(discussionPosts).where(eq(discussionPosts.accountId, account.accountId));
-  return Number(value) < 3 ? "pending" : "published";
+  const db = await getResearchDb();
+  const published = account.role === "researcher"
+    ? await db.select({ status: discussionPosts.status }).from(discussionPosts).where(and(eq(discussionPosts.accountId, account.accountId), eq(discussionPosts.status, "published"))).limit(3)
+    : [];
+  const decision = discussionPublishingDecision(account.role, published.map((post) => post.status));
+  if (decision.promoteTo) {
+    await db.update(accounts).set({ role: decision.promoteTo, updatedAt: new Date().toISOString() }).where(and(eq(accounts.id, account.accountId), eq(accounts.role, "researcher")));
+    await recordAudit(account.accountId, "trust.promoted", "account", account.accountId, { role: decision.promoteTo, publishedPosts: published.length });
+  }
+  return decision.status;
 }
 
 async function enforceRateLimit(accountId: string, action: string, limit: number, minutes: number) {

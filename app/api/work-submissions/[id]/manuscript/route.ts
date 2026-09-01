@@ -1,5 +1,5 @@
 import { env } from "cloudflare:workers";
-import { addSubmissionFile, assertSameOriginRequest, cleanText, getResearcherSessionFromRequest } from "@/lib/research-network";
+import { addSubmissionFile, assertSameOriginRequest, cleanText, getResearcherSessionFromRequest, getResearchNetworkCapabilities } from "@/lib/research-network";
 
 const MAX_PDF_BYTES = 25 * 1024 * 1024;
 
@@ -12,6 +12,7 @@ export async function PUT(request: Request, { params }: { params: Promise<{ id: 
   try { assertSameOriginRequest(request); } catch (error) { return Response.json({ error: error instanceof Error ? error.message : "Request rejected." }, { status: 403 }); }
   const account = await getResearcherSessionFromRequest(request);
   if (!account) return Response.json({ error: "ORCID sign-in is required." }, { status: 401 });
+  if (!(await getResearchNetworkCapabilities()).manuscriptUploads) return Response.json({ error: "Manuscript uploads are disabled until the private scanning queue is configured." }, { status: 503 });
   const contentLength = Number(request.headers.get("content-length") || "0");
   if (contentLength > MAX_PDF_BYTES) return Response.json({ error: "Manuscripts must be 25 MB or smaller." }, { status: 413 });
   const bytes = new Uint8Array(await request.arrayBuffer());

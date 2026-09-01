@@ -1,6 +1,7 @@
 import { getChatGPTUser } from "@/app/chatgpt-auth";
 import { createContribution, isContributionType, isModerator, listContributionsForUser, listModerationQueue, sourceRequired } from "@/lib/contributions";
 import { getWikiPage } from "@/lib/wikibiome";
+import { assertSameOriginRequest } from "@/lib/research-network";
 
 export async function GET(request: Request) {
   const user = await getChatGPTUser();
@@ -12,6 +13,7 @@ export async function GET(request: Request) {
 }
 
 export async function POST(request: Request) {
+  try { assertSameOriginRequest(request); } catch (error) { return Response.json({ error: error instanceof Error ? error.message : "Request rejected." }, { status: 403 }); }
   const user = await getChatGPTUser();
   if (!user) return Response.json({ error: "Sign in is required." }, { status: 401 });
 

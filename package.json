@@ -10,7 +10,7 @@
     "prebuild": "node scripts/sync-wikibiome-content.mjs --audit-only && node scripts/generate-revision-history.mjs --audit-only",
     "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
-    "test": "npm run build && node --test tests/rendered-html.test.mjs",
+    "test": "npm run build && node --test tests/*.test.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern work",
     "content:sync": "node scripts/sync-wikibiome-content.mjs",
     "content:check": "node scripts/check-wikibiome-upstream.mjs",

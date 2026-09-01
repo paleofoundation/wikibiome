@@ -4,7 +4,7 @@ import { useState, type FormEvent } from "react";
 
 type CreatedSubmission = { id: string; title: string; status: string };
 
-export function WorkSubmissionForm() {
+export function WorkSubmissionForm({ manuscriptUploadsEnabled }: { manuscriptUploadsEnabled: boolean }) {
   const [state, setState] = useState<"idle" | "saving" | "uploading" | "saved" | "error">("idle");
   const [message, setMessage] = useState("");
   const [submission, setSubmission] = useState<CreatedSubmission | null>(null);
@@ -54,11 +54,10 @@ export function WorkSubmissionForm() {
       </div>
       <label><span>Preprint title <small>Only required when submitting a preprint URL</small></span><input name="preprintTitle" /></label>
       <div className="research-form-grid">
-        <label><span>Optional PDF manuscript <small>25 MB maximum; author manuscript or open version only</small></span><input name="manuscript" type="file" accept="application/pdf,.pdf" /></label>
+        {manuscriptUploadsEnabled ? <label><span>Optional PDF manuscript <small>25 MB maximum; author manuscript or open version only</small></span><input name="manuscript" type="file" accept="application/pdf,.pdf" /></label> : <aside className="submission-guardrail"><b>Metadata-only intake</b><span>Private manuscript uploads remain disabled until the scanning queue passes its production gate.</span></aside>}
         <label><span>License or rights note</span><input name="license" placeholder="CC BY 4.0, accepted author manuscript, …" /></label>
       </div>
-      <label className="rights-attestation"><input name="rightsAttested" type="checkbox" /><span>I attest that any uploaded PDF is an author manuscript or openly licensed version that I have the right to provide for private editorial ingestion.</span></label>
-      <aside className="submission-guardrail"><b>Quarantine by default</b><span>PDFs are private, rejected if encrypted or active, and remain unavailable until a clean scan is recorded.</span></aside>
+      {manuscriptUploadsEnabled && <><label className="rights-attestation"><input name="rightsAttested" type="checkbox" /><span>I attest that any uploaded PDF is an author manuscript or openly licensed version that I have the right to provide for private editorial ingestion.</span></label><aside className="submission-guardrail"><b>Quarantine by default</b><span>PDFs are private, rejected if encrypted or active, and remain unavailable until a clean scan is recorded.</span></aside></>}
       <footer><p>DOI and PMID metadata are retrieved from Crossref and PubMed.</p><button disabled={state === "saving" || state === "uploading"}>{state === "saving" ? "Importing metadata…" : state === "uploading" ? "Quarantining manuscript…" : "Submit for editorial review"}</button></footer>
       {message && <p className={`form-message ${state}`} role="status">{message}</p>}
       {submission && <small className="submission-reference">Submission reference: {submission.id}</small>}
