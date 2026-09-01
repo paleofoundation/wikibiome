@@ -831,6 +831,68 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(articleMediaRegistry.clostridiales, undefined);
   assert.ok(!readdirSync(new URL("../public/media-files/", import.meta.url)).some((filename) => filename.startsWith("clostridiales-")));
   assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith("clostridiales-")));
+  const batch017 = batches.find((batch) => batch.batchId === "microorganisms-017");
+  assert.equal(batch017?.status, "reviewed");
+  assert.equal(batch017?.routeDecisionCount, 6);
+  assert.equal(batch017?.candidateCount, 4);
+  assert.equal(batch017?.scientificHoldCount, 0);
+  assert.equal(batch017?.generationCallCount, 4);
+  assert.equal(batch017?.revisionCount, 0);
+  const batch017Candidates = batch017?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch017Candidates.map((asset) => asset.pageId), [
+    "faecalibacterium",
+    "faecalibacterium-prausnitzii",
+    "fannyhessea-vaginae",
+    "finegoldia",
+  ]);
+  const batch017ExpectedOutputs = new Map([
+    ["faecalibacterium", ["NCBITaxon:216851", "b4ff14128327d59e4043d675165f3b36b9129bff8cf04dad568c835d052885c1", 11, 7]],
+    ["faecalibacterium-prausnitzii", ["NCBITaxon:853", "75644357f48fa7887fe692d7bd8f207ab2c400adf349205c19c450f024b918d6", 9, 7]],
+    ["fannyhessea-vaginae", ["NCBITaxon:82135", "3746111829afa1d6e3f9d574cb391e8b96ab89e86ec11ceccc32dc1d1bb8a603", 11, 7]],
+    ["finegoldia", ["NCBITaxon:150022", "7a0431c895654980a80e0dcd12df235d3ebdc2277c5db0f3490e65f9fccbcd31", 12, 8]],
+  ]);
+  const batch017PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  for (const asset of batch017Candidates) {
+    const [expectedIdentifier, expectedSha256, expectedBodyCount, expectedGroupingCount] = batch017ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assert.ok(articleMediaRegistry[asset.pageId], `${asset.pageId} control-approved asset must enter the reviewed registry`);
+    assert.equal(articleMediaRegistry[asset.pageId].reviewedOn, "2026-09-01");
+    assert.equal(articleMediaRegistry[asset.pageId].scientificIdentifiers[0]?.compact, expectedIdentifier);
+    assert.ok(batch017PublicMediaFiles.includes(articleMediaRegistry[asset.pageId].publishedFile), `${asset.pageId} article derivative must exist`);
+    assert.ok(batch017PublicMediaFiles.includes(articleMediaRegistry[asset.pageId].socialFile), `${asset.pageId} social derivative must exist`);
+  }
+  assert.equal(batch017Candidates.find((asset) => asset.pageId === "faecalibacterium")?.outputAudit?.observedHourglassLikeConnectedPairCount, 1);
+  assert.equal(batch017Candidates.find((asset) => asset.pageId === "fannyhessea-vaginae")?.outputAudit?.observedThreeBodyChainCount, 1);
+  assert.equal(batch017Candidates.find((asset) => asset.pageId === "finegoldia")?.outputAudit?.observedThreeBodyChainCount, 1);
+  assert.match(articleMediaRegistry.faecalibacterium?.caption ?? "", /type-species-anchored/);
+  assert.match(articleMediaRegistry.faecalibacterium?.caption ?? "", /representative, non-diagnostic, and not a micrograph/);
+  assert.match(articleMediaRegistry["faecalibacterium-prausnitzii"]?.caption ?? "", /does not claim a species-exclusive silhouette/);
+  assert.match(articleMediaRegistry["fannyhessea-vaginae"]?.caption ?? "", /keyed only to the current combination/);
+  assert.match(articleMediaRegistry.finegoldia?.caption ?? "", /type-species-anchored/);
+  const batch017ResolvedRoutes = new Map([
+    ["eubacterium-eligens", ["lachnospira-eligens", "NCBITaxon:39485"]],
+    ["eubacterium-rectale", ["agathobacter-rectalis", "NCBITaxon:39491"]],
+  ]);
+  for (const [obsoleteId, [canonicalId, identifier]] of batch017ResolvedRoutes) {
+    const decision = batch017?.assets.find((asset) => asset.pageId === obsoleteId);
+    assert.equal(decision?.decision, "scientific-identity-hold-resolved");
+    assert.equal(decision?.generationStatus, "withheld-no-call");
+    assert.equal(decision?.canonicalPageId, canonicalId);
+    assert.equal(decision?.canonicalIdentifier, identifier);
+    assert.equal(articleMediaRegistry[obsoleteId], undefined);
+    assert.equal(articleMediaRegistry[canonicalId], undefined);
+    assert.ok(!batch017PublicMediaFiles.some((filename) => filename.startsWith(`${obsoleteId}-`)));
+    assert.ok(!batch017PublicMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
+    assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${obsoleteId}-`)));
+    assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${canonicalId}-`)));
+  }
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))

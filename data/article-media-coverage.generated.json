@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "2d2d4414b8c3880a5e18ad4132e4c003246c3ec42301aa310f7f48fab6e48811",
+    "registrySha256": "85e2d4ba65f2f9fdac8416d672085c5da5b21a6742a8a63cf2437f95d16da842",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "424069e4451fabc2ce34ca8d1da5c029391db6e2bd50a5bd137e109f2b897ba6",
+    "reviewLogSha256": "267b53f1a14653da3dd5b7b9135e94bfeae16d4b0b506e351ec06ac5141c7ba1",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -107,6 +107,12 @@
         "batchId": "microorganisms-016",
         "status": "reviewed",
         "sha256": "3ea5e99def1374c933094c9fb84c054de88eec7654aa0d703511b43ae4202231"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-017.json",
+        "batchId": "microorganisms-017",
+        "status": "reviewed",
+        "sha256": "bada7e87458265cd1371d4ed516249bf420e263236a64a9a005384cbb30330ce"
       }
     ]
   },
@@ -128,8 +134,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 93,
-    "remaining": 617,
+    "completed": 97,
+    "remaining": 613,
     "rejected": 13,
     "revised": 8,
     "scientificHolds": 0,
@@ -140,8 +146,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 90,
-      "remaining": 139
+      "completed": 94,
+      "remaining": 135
     },
     {
       "id": "metals",
@@ -619,46 +625,46 @@
       "controlledIdentifier": "NCBITaxon:39491"
     },
     {
-      "queuePosition": 91,
-      "id": "faecalibacterium",
-      "title": "Faecalibacterium",
-      "route": "/article/faecalibacterium",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 92,
-      "id": "faecalibacterium-prausnitzii",
-      "title": "Faecalibacterium prausnitzii",
-      "route": "/article/faecalibacterium-prausnitzii",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 93,
-      "id": "fannyhessea-vaginae",
-      "title": "Fannyhessea vaginae",
-      "route": "/article/fannyhessea-vaginae",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 94,
-      "id": "finegoldia",
-      "title": "Finegoldia",
-      "route": "/article/finegoldia",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
       "queuePosition": 95,
       "id": "firmicutes",
       "title": "Firmicutes (Bacillota)",
       "route": "/article/firmicutes",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 96,
+      "id": "flavobacterium",
+      "title": "Flavobacterium",
+      "route": "/article/flavobacterium",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 97,
+      "id": "flavonifractor",
+      "title": "Flavonifractor",
+      "route": "/article/flavonifractor",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 98,
+      "id": "fusarium",
+      "title": "Fusarium",
+      "route": "/article/fusarium",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 99,
+      "id": "fusicatenibacter",
+      "title": "Fusicatenibacter",
+      "route": "/article/fusicatenibacter",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -2564,7 +2570,15 @@
       "route": "/article/faecalibacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "faecalibacterium-morphology-v1-master.png",
+        "publishedFile": "faecalibacterium-morphology-v1.webp",
+        "socialFile": "faecalibacterium-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 92,
@@ -2577,7 +2591,15 @@
       "route": "/article/faecalibacterium-prausnitzii",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "faecalibacterium-prausnitzii-morphology-v1-master.png",
+        "publishedFile": "faecalibacterium-prausnitzii-morphology-v1.webp",
+        "socialFile": "faecalibacterium-prausnitzii-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 93,
@@ -2590,7 +2612,15 @@
       "route": "/article/fannyhessea-vaginae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "fannyhessea-vaginae-morphology-v1-master.png",
+        "publishedFile": "fannyhessea-vaginae-morphology-v1.webp",
+        "socialFile": "fannyhessea-vaginae-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 94,
@@ -2603,7 +2633,15 @@
       "route": "/article/finegoldia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "finegoldia-morphology-v1-master.png",
+        "publishedFile": "finegoldia-morphology-v1.webp",
+        "socialFile": "finegoldia-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 95,
