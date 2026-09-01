@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
+import { articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 
 async function render(pathname = "/") {
@@ -99,20 +100,20 @@ test("server-renders real article and directory pages through the shared redesig
 
 test("applies literal, provenance-labeled image standards only to reviewed article subjects", async () => {
   const pilot = [
-    ["nickel", "nickel-technical-specimen-v2", "Material specimen", "Technical specimen visualization"],
-    ["akkermansia-muciniphila", "akkermansia-muciniphila-morphology-v2", "Morphology reconstruction", "Microscopy-informed reconstruction"],
-    ["alzheimers-disease", "alzheimers-disease-pathology-v2", "Pathology reconstruction", "Pathology-informed reconstruction"],
-    ["dysbiosis", "dysbiosis-microbial-community-v2", "Community reconstruction", "Microscopy-informed community reconstruction"],
-    ["escherichia-coli", "escherichia-coli-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction"],
-    ["helicobacter-pylori", "helicobacter-pylori-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction"],
-    ["bifidobacterium", "bifidobacterium-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction"],
-    ["candida-albicans", "candida-albicans-morphology-v1", "Morphology reconstruction", "Microscopy-informed fungal morphology reconstruction"],
+    ["nickel", "nickel-technical-specimen-v2", "Material specimen", "Technical specimen visualization", "PubChem CID:935", "ChemicalSubstance"],
+    ["akkermansia-muciniphila", "akkermansia-muciniphila-morphology-v2", "Morphology reconstruction", "Microscopy-informed reconstruction", "NCBITaxon:239935", "Taxon"],
+    ["alzheimers-disease", "alzheimers-disease-pathology-v2", "Pathology reconstruction", "Pathology-informed reconstruction", "MeSH:D000544", "MedicalCondition"],
+    ["dysbiosis", "dysbiosis-microbial-community-v2", "Community reconstruction", "Microscopy-informed community reconstruction", "MeSH:D064806", "MedicalCondition"],
+    ["escherichia-coli", "escherichia-coli-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction", "NCBITaxon:562", "Taxon"],
+    ["helicobacter-pylori", "helicobacter-pylori-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction", "NCBITaxon:210", "Taxon"],
+    ["bifidobacterium", "bifidobacterium-morphology-v1", "Morphology reconstruction", "Microscopy-informed reconstruction", "NCBITaxon:1678", "Taxon"],
+    ["candida-albicans", "candida-albicans-morphology-v1", "Morphology reconstruction", "Microscopy-informed fungal morphology reconstruction", "NCBITaxon:5476", "Taxon"],
   ];
   const responses = await Promise.all(pilot.map(([id]) => render(`/article/${id}`)));
   responses.forEach((response) => assert.equal(response.status, 200));
   const pages = await Promise.all(responses.map((response) => response.text()));
 
-  for (const [index, [id, stem, label, provenance]] of pilot.entries()) {
+  for (const [index, [id, stem, label, provenance, identifier, subjectType]] of pilot.entries()) {
     const html = pages[index];
     assert.match(html, /class="article-system-art(?: |")/, `${id} keeps the large decorative article hero`);
     assert.match(html, /class="article-media-figure"/, `${id} renders the page-specific sidebar plate`);
@@ -123,6 +124,13 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.match(html, /data-article-media-schema/);
     assert.match(html, /primaryImageOfPage/);
     assert.match(html, /trainedAlgorithmicMedia/);
+    assert.match(html, new RegExp(identifier));
+    assert.match(html, new RegExp(`"@type":"${subjectType}"`));
+    assert.match(html, /Editorial review complete/);
+    assert.match(html, /Identifiers authority-verified/);
+    assert.match(html, /CC BY-SA 4\.0/);
+    assert.match(html, /creativecommons\.org\/licenses\/by-sa\/4\.0/);
+    assert.match(html, /creativeWorkStatus/);
     assert.match(html, new RegExp(`property="og:image" content="https://www\\.wikibiome\\.com/media/${stem}-social\\.webp"`));
     assert.match(html, new RegExp(`name="twitter:image" content="https://www\\.wikibiome\\.com/media/${stem}-social\\.webp"`));
 
@@ -130,6 +138,25 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
       const asset = readFileSync(new URL(`../public/media/${stem}${suffix}`, import.meta.url));
       assert.ok(asset.byteLength > 40_000, `${stem}${suffix} should be a nontrivial optimized image`);
       assert.ok(asset.includes(Buffer.from("trainedAlgorithmicMedia")), `${stem}${suffix} should retain embedded digital-source metadata`);
+      assert.ok(asset.includes(Buffer.from(identifier)), `${stem}${suffix} should embed its controlled scientific identifier`);
+      assert.ok(asset.includes(Buffer.from(articleMediaPolicy.license.url)), `${stem}${suffix} should embed its reusable license`);
+      assert.ok(asset.includes(Buffer.from("authority-verified")), `${stem}${suffix} should embed identifier-review status`);
+    }
+  }
+
+  assert.equal(Object.keys(articleMediaRegistry).length, pilot.length);
+  for (const [id, media] of Object.entries(articleMediaRegistry)) {
+    assert.ok(media.scientificIdentifiers.length > 0, `${id} requires a controlled scientific identifier`);
+    assert.equal(media.license, articleMediaPolicy.license.url);
+    assert.equal(media.reviewStatus, "editorial-review-complete");
+    assert.equal(media.identifierReviewStatus, "authority-verified");
+    const authorities = new Set(media.scientificIdentifiers.map((item) => item.authority));
+    for (const required of articleMediaPolicy.requiredAuthorities[media.subjectKind]) {
+      assert.ok(authorities.has(required), `${id} requires ${required}`);
+    }
+    const propertyIDs = new Set(media.scientificIdentifiers.map((item) => item.propertyID));
+    for (const required of articleMediaPolicy.requiredPropertyIDs[media.subjectKind]) {
+      assert.ok(propertyIDs.has(required), `${id} requires ${required}`);
     }
   }
 
