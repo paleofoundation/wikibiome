@@ -981,13 +981,14 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.ok(!batch018PublicMediaFiles.some((filename) => filename.startsWith("eubacterium-rectale-")));
   assert.ok(!batch018MasterFiles.some((filename) => filename.startsWith("eubacterium-rectale-")));
   const batch019 = batches.find((batch) => batch.batchId === "microorganisms-019");
-  assert.equal(batch019?.status, "awaiting-control-review");
+  assert.equal(batch019?.status, "reviewed");
   assert.equal(batch019?.routeDecisionCount, 6);
   assert.equal(batch019?.candidateCount, 6);
   assert.equal(batch019?.scientificHoldCount, 0);
   assert.equal(batch019?.generationCallCount, 6);
   assert.equal(batch019?.revisionCount, 0);
-  assert.equal(batch019?.controlReviewRequired, true);
+  assert.equal(batch019?.controlReviewRequired, false);
+  assert.equal(batch019?.controlAcceptedReviewManifestSha256, "3af15c28b71466839c25c392c23668fa7b4343ec8d2e9d20864fc4ab583bd959");
   const batch019Candidates = batch019?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
   assert.deepEqual(batch019Candidates.map((asset) => asset.pageId), [
     "fusobacteriales",
@@ -1010,8 +1011,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   const batch019MasterFiles = readdirSync(new URL("../media/masters/", import.meta.url));
   for (const asset of batch019Candidates) {
     const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch019ExpectedOutputs.get(asset.pageId);
-    assert.equal(asset.decision, "generated-awaiting-control-review");
-    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.rootReviewDisposition, "accepted");
     assert.equal(asset.controlledIdentifier, expectedIdentifier);
     assert.equal(asset.promptSha256, expectedPromptSha256);
     assert.equal(asset.sha256, expectedSha256);
@@ -1036,12 +1037,20 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
 
     const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
-    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must stay outside the reviewed registry before control disposition`);
-    assert.ok(!batch019PublicMediaFiles.includes(expectedFiles.publishedFile));
-    assert.ok(!batch019PublicMediaFiles.includes(expectedFiles.socialFile));
-    assert.ok(!batch019MasterFiles.includes(expectedFiles.masterSource));
+    const media = articleMediaRegistry[asset.pageId];
+    assert.ok(media, `${asset.pageId} control-approved asset must enter the reviewed registry`);
+    assert.equal(media.reviewedOn, "2026-09-01");
+    assert.equal(media.embeddedCreationDate, "2026-09-01");
+    assert.equal(media.scientificIdentifiers[0]?.compact, expectedIdentifier);
+    assert.equal(media.socialResizeFit, "contain");
+    assert.equal(media.socialBackground, "#f3f7fb");
+    assert.ok(batch019PublicMediaFiles.includes(expectedFiles.publishedFile));
+    assert.ok(batch019PublicMediaFiles.includes(expectedFiles.socialFile));
+    assert.ok(batch019MasterFiles.includes(expectedFiles.masterSource));
     assert.ok(!batch019PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft must not become a public file`);
-    assert.ok(!Object.values(reviewLog.reviews).some((review) => review.pageId === asset.pageId), `${asset.pageId} must not receive an approved review record while pending`);
+    assert.ok(!media.src.includes("work/media-drafts"));
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.disposition, "approved");
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.revisionLinkage?.sourceSha256, expectedSha256);
   }
   assert.equal(batch019Candidates.find((asset) => asset.pageId === "fusobacteriales")?.assetType, "microbial-community");
   assert.match(batch019Candidates.find((asset) => asset.pageId === "fusobacteriales")?.proposedCaption ?? "", /representative, non-exhaustive, non-diagnostic/);
@@ -1050,6 +1059,12 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch019Candidates.find((asset) => asset.pageId === "fusobacterium-varium")?.proposedCaption ?? "", /distinct from the long pointed F\. nucleatum treatment/);
   assert.match(batch019Candidates.find((asset) => asset.pageId === "gardnerella")?.proposedCaption ?? "", /not a universal genus form/);
   assert.match(batch019Candidates.find((asset) => asset.pageId === "gardnerella-vaginalis")?.proposedCaption ?? "", /does not imply visual separation from other Gardnerella species or diagnosis/);
+  assert.match(articleMediaRegistry.fusobacteriales?.caption ?? "", /never a universal order form/);
+  assert.match(articleMediaRegistry.fusobacterium?.caption ?? "", /Type-species-anchored/);
+  assert.match(articleMediaRegistry["fusobacterium-nucleatum"]?.caption ?? "", /evolving nomenclatural boundary/);
+  assert.match(articleMediaRegistry["fusobacterium-varium"]?.caption ?? "", /Continuous constricted bodies remain single cells/);
+  assert.match(articleMediaRegistry.gardnerella?.caption ?? "", /not a universal genus form/);
+  assert.match(articleMediaRegistry["gardnerella-vaginalis"]?.caption ?? "", /does not imply visual separation from other Gardnerella species or diagnosis/);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))

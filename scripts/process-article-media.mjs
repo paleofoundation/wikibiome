@@ -69,7 +69,11 @@ for (const media of Object.values(articleMediaRegistry)) {
     .webp({ quality: media.articleWebpQuality ?? 86, smartSubsample: true })
     .toFile(articleTemporary);
   await sharp(source)
-    .resize(media.socialWidth, media.socialHeight, { fit: "cover", position: "attention" })
+    .resize(media.socialWidth, media.socialHeight, {
+      fit: media.socialResizeFit ?? "cover",
+      position: media.socialResizeFit === "contain" ? "centre" : "attention",
+      background: media.socialBackground ?? "#f3f7fb",
+    })
     .withXmp(xmp)
     .webp({ quality: media.socialWebpQuality ?? 92, smartSubsample: true })
     .toFile(socialTemporary);

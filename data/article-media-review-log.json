@@ -2526,6 +2526,192 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 018 after literal prompt provenance and exact 10-body/6-group reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "fusicatenibacter-draft.png", "sourceSha256": "a80be8bd3e076403135cb59375d8c0573a0141cfd53af31fd5c91dba97361be9", "generationRecord": "exec-e81a6bbd-b13a-48db-a525-5d31bb179703.png" }
+    },
+    "fusobacteriales|fusobacteriales-microbial-community-v1.webp": {
+      "pageId": "fusobacteriales",
+      "publishedFile": "fusobacteriales-microbial-community-v1.webp",
+      "masterSource": "fusobacteriales-microbial-community-v1-master.png",
+      "socialFile": "fusobacteriales-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=203491&mode=Info",
+          "https://lpsn.dsmz.de/order/fusobacteriales",
+          "https://lpsn.dsmz.de/genus/fusobacterium",
+          "https://lpsn.dsmz.de/species/leptotrichia-buccalis",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035221/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current order Fusobacteriales, NCBITaxon:203491, with Fusobacterium as type genus. Type-genus and selected-descendant evidence supports a bounded diversity plate but not one universal or diagnostic order morphology."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted ten bodies in six groupings: three isolated singles, one fusiform pair, one short rounded-rod pair, and one three-rod chain. Every body has its own ordinary boundary; no shared envelope, sheath, capsule, appendage, spore, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all ten bodies and six groupings. Caption separately states selected-descendant, representative, non-exhaustive, non-diagnostic, never-universal, and non-micrograph order scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 019 after literal prompt provenance, exact 10-body/6-group reconciliation, and explicit higher-rank limits.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "fusobacteriales-draft.png", "sourceSha256": "5c3f0a57f607c2711c4592956b2c2376be8e04d8188071120aed678795a9e359", "generationRecord": "exec-0750a793-541f-4905-a650-387245e0b20e.png" }
+    },
+    "fusobacterium|fusobacterium-morphology-v1.webp": {
+      "pageId": "fusobacterium",
+      "publishedFile": "fusobacterium-morphology-v1.webp",
+      "masterSource": "fusobacterium-morphology-v1-master.png",
+      "socialFile": "fusobacterium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=848&mode=Info",
+          "https://lpsn.dsmz.de/genus/fusobacterium",
+          "https://lpsn.dsmz.de/species/fusobacterium-nucleatum",
+          "https://doi.org/10.1002/9781118960608.gbm00768"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Fusobacterium, NCBITaxon:848, with F. nucleatum as type species. The selected fusiform treatment is type-species/current-authority anchored, representative, and non-diagnostic rather than a universal genus shape."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted ten slender fusiform rods in eight groupings: six isolated singles and two touching pairs, including the disclosed extra single and grouping relative to the prompt. No swelling, branch, spore, appendage, capsule, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and descriptions reconcile ten bodies and eight groupings. Caption separately states type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 019 after literal prompt provenance and honest extra-single/group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "fusobacterium-draft.png", "sourceSha256": "7fd036a2bda5159c44b08f2a3f822b9622cb095587784c89597d5f0602d1d11c", "generationRecord": "exec-d2cb3c87-dc00-4bfb-a756-9dc9bb566b97.png" }
+    },
+    "fusobacterium-nucleatum|fusobacterium-nucleatum-morphology-v1.webp": {
+      "pageId": "fusobacterium-nucleatum",
+      "publishedFile": "fusobacterium-nucleatum-morphology-v1.webp",
+      "masterSource": "fusobacterium-nucleatum-morphology-v1-master.png",
+      "socialFile": "fusobacterium-nucleatum-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=851&mode=Info",
+          "https://lpsn.dsmz.de/species/fusobacterium-nucleatum",
+          "https://bacdive.dsmz.de/strain/5765",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3122686/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6258854/"
+        ],
+        "notes": "NCBI Taxonomy supports current species Fusobacterium nucleatum, NCBITaxon:851. LPSN currently retains the correct-name recommendation while recording recent subspecies-splitting proposals; the public record preserves this evolving nomenclatural boundary."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eight long pointed fusiform rods in six groupings: four isolated singles and two end-to-end touching pairs. No short coccobacillus, swelling, branch, spore, appendage, pathology scene, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles eight pointed rods and six groupings. Caption preserves the evolving nomenclatural boundary and separately states non-diagnostic and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 019 after exact 8-body/6-group reconciliation and nomenclatural-boundary disclosure.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "fusobacterium-nucleatum-draft.png", "sourceSha256": "be2e4fb2ec1ed45435ca2b82be36003bb6ab142f6dd5e0632afef1826efaff18", "generationRecord": "exec-1dbd4f65-e28c-45f2-a713-5ceb25a4ce1d.png" }
+    },
+    "fusobacterium-varium|fusobacterium-varium-morphology-v1.webp": {
+      "pageId": "fusobacterium-varium",
+      "publishedFile": "fusobacterium-varium-morphology-v1.webp",
+      "masterSource": "fusobacterium-varium-morphology-v1-master.png",
+      "socialFile": "fusobacterium-varium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=856&mode=Info",
+          "https://lpsn.dsmz.de/species/fusobacterium-varium",
+          "https://bacdive.dsmz.de/strain/5774",
+          "https://pubmed.ncbi.nlm.nih.gov/16559622/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC215452/",
+          "https://doi.org/10.1128/jcm.43.12.6202-6204.2005"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Fusobacterium varium, NCBITaxon:856. Type-strain and morphology evidence supports short-to-medium rounded pleomorphic rods, including thicker or mildly swollen forms, distinct from the long pointed F. nucleatum treatment."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eight pleomorphic rods in seven visible groupings: six singles and one touching pair. Continuous constricted bodies are correctly retained as single bodies because no ordinary two-cell boundary is visible. No coccus, branch, spore, appendage, capsule, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles eight bodies and seven visible groupings. Caption explicitly explains the continuous-body counting rule, distinction from F. nucleatum, and non-diagnostic non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 019 after literal 8-body/7-visible-group reconciliation; no hidden pair was inferred from a continuous constricted form.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "fusobacterium-varium-draft.png", "sourceSha256": "4f1f72906eb78f25848af24f8c8a2314933762f5d1880fbe13433678bf17f177", "generationRecord": "exec-e84e066b-7365-4748-bc3d-9dbafdf90eeb.png" }
+    },
+    "gardnerella|gardnerella-morphology-v1.webp": {
+      "pageId": "gardnerella",
+      "publishedFile": "gardnerella-morphology-v1.webp",
+      "masterSource": "gardnerella-morphology-v1-master.png",
+      "socialFile": "gardnerella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2701&mode=Info",
+          "https://lpsn.dsmz.de/genus/gardnerella",
+          "https://doi.org/10.1099/00207713-30-1-170",
+          "https://doi.org/10.1099/ijsem.0.003200",
+          "https://doi.org/10.1002/9781118960608.gbm00020"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Gardnerella, NCBITaxon:2701, with G. vaginalis as type species and multiple current species. Primary and authoritative evidence supports a selected pleomorphic short-rod/coccobacillary register without genus-wide diagnostic inference."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eleven short-rod-to-coccobacillary bodies in eight groupings: five singles and three touching pairs, including the disclosed extra single and grouping relative to the prompt. No full coccus, filament, spore, appendage, capsule, biofilm, clue cell, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and descriptions reconcile eleven bodies and eight groupings. Caption separately states type-species-anchored, representative, non-diagnostic, non-universal, and non-micrograph genus scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 019 after honest extra-single/group reconciliation and explicit multispecies genus limits.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "gardnerella-draft.png", "sourceSha256": "fd37be7994a7eb9a0da92c2aff11979d052bca8c02df234ab42798594e4ee3a1", "generationRecord": "exec-72fc15cb-3edd-49c8-9c4d-e28f7cba0c51.png" }
+    },
+    "gardnerella-vaginalis|gardnerella-vaginalis-morphology-v1.webp": {
+      "pageId": "gardnerella-vaginalis",
+      "publishedFile": "gardnerella-vaginalis-morphology-v1.webp",
+      "masterSource": "gardnerella-vaginalis-morphology-v1-master.png",
+      "socialFile": "gardnerella-vaginalis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2702&mode=Info",
+          "https://lpsn.dsmz.de/species/gardnerella-vaginalis",
+          "https://doi.org/10.1099/00207713-30-1-170",
+          "https://doi.org/10.1099/ijsem.0.003200",
+          "https://pubmed.ncbi.nlm.nih.gov/6399409/"
+        ],
+        "notes": "NCBI Taxonomy supports current species Gardnerella vaginalis, NCBITaxon:2702. LPSN currently retains the correct-name recommendation while recording recent genomic splitting and possible future nomenclatural change; the public record preserves that boundary."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted ten short-rod-to-coccobacillary bodies in eight groupings: six singles and two touching pairs, including the disclosed extra single and grouping. No full coccus, filament, spore, appendage, capsule, biofilm, clue cell, disease scene, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles ten bodies and eight groupings. Caption preserves the evolving nomenclatural boundary and explicitly denies visual separability from other Gardnerella species, diagnosis, and micrograph status."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 019 after honest extra-single/group reconciliation, nomenclatural disclosure, and no-visual-separability scope.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "gardnerella-vaginalis-draft.png", "sourceSha256": "a658b8ac4b097bdced6fcea237765c029a9495972aa6b6be128abf3d83ad8ef7", "generationRecord": "exec-32c6c5e5-1b72-4a50-bbd3-a495216af8f0.png" }
     }
   },
   "rejectedAssets": [

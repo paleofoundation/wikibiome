@@ -186,9 +186,11 @@ Composition/framing: Landscape 3:2 plate, seven isolated countable groupings dis
 Constraints: Static representative morphology only; no visual-diagnosis claim. No full cocci, long filaments, branches, internal spores, flagella, pili, capsules, halos, shared envelopes, biofilm, clue cell, labels, text, arrows, scale bar, decorative particles, glow, host anatomy, culture plate, disease scene, process sequence, scenery, border, clipping, signature, or watermark.
 ```
 
-## Review boundary
+## Control disposition and promotion boundary
 
-All six routes received exactly one successful built-in generation call from the immutable prompt recorded above. An earlier tool invocation attempted to pass an empty string for the *Fusobacterium* prompt and returned HTTP 400 without creating an image or generation record; it was a prompt-extraction error, not a generation call or retry. The prompt was then extracted correctly and used for the route's one successful generation call. Prompt counts remain request provenance and are not output evidence. No draft may be registered, promoted, copied to `media/masters`, copied to `public/media-files`, or emitted by either sitemap before root original-resolution review.
+All six routes received exactly one successful built-in generation call from the immutable prompt recorded above. An earlier tool invocation attempted to pass an empty string for the *Fusobacterium* prompt and returned HTTP 400 without creating an image or generation record; it was a prompt-extraction error, not a generation call or retry. The prompt was then extracted correctly and used for the route's one successful generation call. WikiBiome root control explicitly confirmed that the failed empty-prompt request is not an additional generation.
+
+On 2026-09-01, WikiBiome root control inspected all six exact v1 PNGs at original 1536 by 1024 resolution, accepted every immutable hash unchanged, and authorized promotion without regeneration or source-file alteration. Prompt counts remain provenance rather than output evidence. The SHA-256 of the exact accepted pre-promotion review manifest is `3af15c28b71466839c25c392c23668fa7b4343ec8d2e9d20864fc4ab583bd959`; the SHA-256 of this exact pre-promotion prompt/evidence packet was `85ff10d2cbf8b1155a9e343aa04aa8958adb4f03cfbc3070809ed154e64b2462`.
 
 ## Generation and native-resolution audit ledger
 
@@ -226,4 +228,8 @@ Across all six outputs, all bodies are fully inside the frame on the approved pa
   - Alt: Ten Gardnerella vaginalis short-rod-to-coccobacillary bodies appear in eight groupings: six isolated singles and two touching pairs.
   - Caption: Representative G. vaginalis pleomorphic short rods and coccobacilli, shown as ten bodies in six single and two paired groupings. This scientific reconstruction does not imply visual separation from other Gardnerella species or diagnosis and is not a micrograph.
 
-Proposed provenance for every route: generated once with the OpenAI built-in image generator from the route's immutable batch-019 prompt after current-identity and conservative-morphology audit; human-audited at the original 1536 by 1024 resolution. Review-only scientific reconstruction, not a micrograph. These proposed fields are non-public until an independent WikiBiome control disposition and subsequent promotion packet.
+Public provenance for every route: generated once with the OpenAI built-in image generator from the route's immutable batch-019 prompt after current-identity and conservative-morphology audit; human-audited at the original 1536 by 1024 resolution and accepted unchanged by WikiBiome root control. Scientific reconstruction, not a micrograph.
+
+Only the six accepted hashes above may supply the canonical masters and derivatives. Public metadata follows the literal observed output rather than prompt counts. *Fusobacteriales* remains a selected-descendant representative order-level diversity plate, never a universal or diagnostic morphology. *Fusobacterium* remains type-species/current-authority anchored. The *F. nucleatum* and *G. vaginalis* records retain their evolving nomenclatural-boundary disclosures. The continuous constricted *F. varium* bodies remain counted as single bodies unless an ordinary two-cell boundary is visibly present. No `work/media-drafts` path is a public route or sitemap record.
+
+Native-resolution derivative inspection rejected the default wide social `cover` crop because it removed top or bottom bodies from several count-bearing plates. The accepted PNGs were not altered. Batch-019 social derivatives instead use the validated per-record `contain` transform on a pale `#f3f7fb` field so every audited body and grouping remains visible; article derivatives retain the full 1536 by 1024 frame.

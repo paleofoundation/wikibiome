@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "3e2d5c152d10b5e64777adb0ff90b2fe28465c314b61c0d3db15d0e63d3d44cd",
+    "registrySha256": "54d53e7bc300d398f978462b4028f2cceab7cf077421e115e0f67bdb19803761",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "40b293b9ed436f5eb33a9607f5865a57b3aa9c5ab2b699f58997fb1865173939",
+    "reviewLogSha256": "af52b2c0a19efdf672f2598e8afa672bf5ae17a820f9efb51524850453a270c1",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -123,8 +123,8 @@
       {
         "file": "data/article-media-batches/microorganisms-019.json",
         "batchId": "microorganisms-019",
-        "status": "awaiting-control-review",
-        "sha256": "3af15c28b71466839c25c392c23668fa7b4343ec8d2e9d20864fc4ab583bd959"
+        "status": "reviewed",
+        "sha256": "5720b9225a210dd407416183bf0726b56190d5b59f60ccaa0d769f3058847169"
       }
     ]
   },
@@ -146,20 +146,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 103,
-    "remaining": 607,
+    "completed": 109,
+    "remaining": 601,
     "rejected": 13,
     "revised": 8,
     "scientificHolds": 0,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 100,
-      "remaining": 129
+      "completed": 106,
+      "remaining": 123
     },
     {
       "id": "metals",
@@ -2778,12 +2778,14 @@
       "route": "/article/fusobacteriales",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-019",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-019/fusobacteriales-draft.png",
-        "sha256": "5c3f0a57f607c2711c4592956b2c2376be8e04d8188071120aed678795a9e359"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "fusobacteriales-microbial-community-v1-master.png",
+        "publishedFile": "fusobacteriales-microbial-community-v1.webp",
+        "socialFile": "fusobacteriales-microbial-community-v1-social.webp"
       }
     },
     {
@@ -2797,12 +2799,14 @@
       "route": "/article/fusobacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-019",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-019/fusobacterium-draft.png",
-        "sha256": "7fd036a2bda5159c44b08f2a3f822b9622cb095587784c89597d5f0602d1d11c"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "fusobacterium-morphology-v1-master.png",
+        "publishedFile": "fusobacterium-morphology-v1.webp",
+        "socialFile": "fusobacterium-morphology-v1-social.webp"
       }
     },
     {
@@ -2816,12 +2820,14 @@
       "route": "/article/fusobacterium-nucleatum",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-019",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-019/fusobacterium-nucleatum-draft.png",
-        "sha256": "be2e4fb2ec1ed45435ca2b82be36003bb6ab142f6dd5e0632afef1826efaff18"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "fusobacterium-nucleatum-morphology-v1-master.png",
+        "publishedFile": "fusobacterium-nucleatum-morphology-v1.webp",
+        "socialFile": "fusobacterium-nucleatum-morphology-v1-social.webp"
       }
     },
     {
@@ -2835,12 +2841,14 @@
       "route": "/article/fusobacterium-varium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-019",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-019/fusobacterium-varium-draft.png",
-        "sha256": "4f1f72906eb78f25848af24f8c8a2314933762f5d1880fbe13433678bf17f177"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "fusobacterium-varium-morphology-v1-master.png",
+        "publishedFile": "fusobacterium-varium-morphology-v1.webp",
+        "socialFile": "fusobacterium-varium-morphology-v1-social.webp"
       }
     },
     {
@@ -2854,12 +2862,14 @@
       "route": "/article/gardnerella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-019",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-019/gardnerella-draft.png",
-        "sha256": "fd37be7994a7eb9a0da92c2aff11979d052bca8c02df234ab42798594e4ee3a1"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "gardnerella-morphology-v1-master.png",
+        "publishedFile": "gardnerella-morphology-v1.webp",
+        "socialFile": "gardnerella-morphology-v1-social.webp"
       }
     },
     {
@@ -2873,12 +2883,14 @@
       "route": "/article/gardnerella-vaginalis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-019",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-019/gardnerella-vaginalis-draft.png",
-        "sha256": "a658b8ac4b097bdced6fcea237765c029a9495972aa6b6be128abf3d83ad8ef7"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "gardnerella-vaginalis-morphology-v1-master.png",
+        "publishedFile": "gardnerella-vaginalis-morphology-v1.webp",
+        "socialFile": "gardnerella-vaginalis-morphology-v1-social.webp"
       }
     },
     {
