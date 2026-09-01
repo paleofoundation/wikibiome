@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-01",
+  "generatedOn": "2026-09-02",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
     "upstreamCommit": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "31b16844c96721b1a428842d302dfad1db5c957e4430bf5f0d06d1d85fbdec79",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "d832ad977ed834b182591e27ecd7307855dfd463fd57eeb5f74da958ea92bc9d",
+    "reviewLogSha256": "f63feb6aa385ebf4b954048d147094d1925c91420ed79c81fdd5c5aac752d0b2",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -136,7 +136,7 @@
         "file": "data/article-media-batches/microorganisms-021.json",
         "batchId": "microorganisms-021",
         "status": "awaiting-control-review",
-        "sha256": "705792f3f1e171ddbb8a206393efd89aa5089410df3a1a117daf9df6e24d407a"
+        "sha256": "d4f9b736ff3ba4d131b78d2c0b0b3b8f8e2401d6a32be2a90bba4c1038a9a5f7"
       }
     ]
   },
@@ -161,7 +161,7 @@
     "completed": 115,
     "remaining": 595,
     "rejected": 14,
-    "revised": 8,
+    "revised": 10,
     "scientificHolds": 1,
     "inReview": 5
   },
@@ -651,6 +651,32 @@
       "reason": "Control root found the otherwise clean nine-rod vegetative plate too generic for the Clostridioides difficile species page because it contained no visible endospores.",
       "supersededBy": "work/media-drafts/microorganisms-batch-012/clostridioides-difficile-draft-v2.png",
       "outcome": "Exactly one authorized revision produced ten rods in eight groupings, with two single rods each containing one restrained oval subterminal internal spore. Control root accepted v2 only; v1 was never used as a master or derivative."
+    },
+    {
+      "pageId": "klebsiella",
+      "batchId": "microorganisms-021",
+      "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-draft.png",
+      "sha256": "64d126f988de4e76d0dbcfc4eb0ce084d80a010806e6678ec9f9fa7787064f25",
+      "generationRecord": "exec-6dce1ee6-4255-4550-95c1-0dc100f42c19.png",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Root control rejected v1 because the severe black or dark top and bottom vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-021/klebsiella-draft-v2.png",
+      "outcome": "Exactly one authorized independent v2 generation call produced ten rods in eight groupings with three individually capsule-bearing singles on a uniform pale full-canvas field. V2 remains review-only pending root original-resolution disposition; v1 remains immutable rejected evidence and was not edited or reused."
+    },
+    {
+      "pageId": "lachnospira",
+      "batchId": "microorganisms-021",
+      "draft": "work/media-drafts/microorganisms-batch-021/lachnospira-draft.png",
+      "sha256": "cc3b9b522259ed3fe2cca3702ffc1d4dbe3c3eeca8c4ba8edd1ad277d3ad2f2f",
+      "generationRecord": "exec-e94ca905-4f66-4293-9d46-38f5daac077a.png",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Root control rejected v1 because the severe black or dark upper and lower vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
+      "outcome": "Exactly one authorized independent v2 generation call produced nine rods in seven groupings, including one C-bent and one S-bent single with zero appendages, on a uniform pale full-canvas field. V2 remains review-only pending root original-resolution disposition; v1 remains immutable rejected evidence and was not edited or reused."
     }
   ],
   "nextBatch": [
@@ -3083,7 +3109,7 @@
       "status": "in-review",
       "reviewCandidate": {
         "batchId": "microorganisms-021",
-        "decision": "generated-awaiting-control-review",
+        "decision": "approved-after-output-audit",
         "draft": "work/media-drafts/microorganisms-batch-021/intestinimonas-draft.png",
         "sha256": "49aa2443bc087d72a66a23847205cb4cad8d55aba0bfef42f2df89fbe9875b11"
       }
@@ -3103,8 +3129,8 @@
       "reviewCandidate": {
         "batchId": "microorganisms-021",
         "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-draft.png",
-        "sha256": "64d126f988de4e76d0dbcfc4eb0ce084d80a010806e6678ec9f9fa7787064f25"
+        "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-draft-v2.png",
+        "sha256": "4e9b5d1b55f38f8072205642c3b8527eb8cddc443eabac7579b3e7f4bcb65cfc"
       }
     },
     {
@@ -3121,7 +3147,7 @@
       "status": "in-review",
       "reviewCandidate": {
         "batchId": "microorganisms-021",
-        "decision": "generated-awaiting-control-review",
+        "decision": "approved-after-output-audit",
         "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-pneumoniae-draft.png",
         "sha256": "19f66d75ac14033971bea381df9736e3d25015a6eb79af578c182d041770640c"
       }
@@ -3140,7 +3166,7 @@
       "status": "in-review",
       "reviewCandidate": {
         "batchId": "microorganisms-021",
-        "decision": "generated-awaiting-control-review",
+        "decision": "approved-after-output-audit",
         "draft": "work/media-drafts/microorganisms-batch-021/lachnobacterium-draft.png",
         "sha256": "1728aa663695b2f61648403f14df520cfaeed934e51de7c90c60c860da267107"
       }
@@ -3179,8 +3205,8 @@
       "reviewCandidate": {
         "batchId": "microorganisms-021",
         "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-021/lachnospira-draft.png",
-        "sha256": "cc3b9b522259ed3fe2cca3702ffc1d4dbe3c3eeca8c4ba8edd1ad277d3ad2f2f"
+        "draft": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
+        "sha256": "348d799050ccc7a0fde18578bf209c821c8ef1ab27e1331ca8d5edef366a4cd7"
       }
     },
     {

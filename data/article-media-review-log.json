@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedOn": "2026-09-01",
+  "updatedOn": "2026-09-02",
   "reviewableBatchSize": 6,
   "reviewingAuthorities": {
     "wikibiome-media-program": {
@@ -3325,6 +3325,32 @@
       "reason": "Control root found the otherwise clean nine-rod vegetative plate too generic for the Clostridioides difficile species page because it contained no visible endospores.",
       "supersededBy": "work/media-drafts/microorganisms-batch-012/clostridioides-difficile-draft-v2.png",
       "outcome": "Exactly one authorized revision produced ten rods in eight groupings, with two single rods each containing one restrained oval subterminal internal spore. Control root accepted v2 only; v1 was never used as a master or derivative."
+    },
+    {
+      "pageId": "klebsiella",
+      "batchId": "microorganisms-021",
+      "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-draft.png",
+      "sha256": "64d126f988de4e76d0dbcfc4eb0ce084d80a010806e6678ec9f9fa7787064f25",
+      "generationRecord": "exec-6dce1ee6-4255-4550-95c1-0dc100f42c19.png",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Root control rejected v1 because the severe black or dark top and bottom vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-021/klebsiella-draft-v2.png",
+      "outcome": "Exactly one authorized independent v2 generation call produced ten rods in eight groupings with three individually capsule-bearing singles on a uniform pale full-canvas field. V2 remains review-only pending root original-resolution disposition; v1 remains immutable rejected evidence and was not edited or reused."
+    },
+    {
+      "pageId": "lachnospira",
+      "batchId": "microorganisms-021",
+      "draft": "work/media-drafts/microorganisms-batch-021/lachnospira-draft.png",
+      "sha256": "cc3b9b522259ed3fe2cca3702ffc1d4dbe3c3eeca8c4ba8edd1ad277d3ad2f2f",
+      "generationRecord": "exec-e94ca905-4f66-4293-9d46-38f5daac077a.png",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Root control rejected v1 because the severe black or dark upper and lower vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
+      "outcome": "Exactly one authorized independent v2 generation call produced nine rods in seven groupings, including one C-bent and one S-bent single with zero appendages, on a uniform pale full-canvas field. V2 remains review-only pending root original-resolution disposition; v1 remains immutable rejected evidence and was not edited or reused."
     }
   ],
   "notes": [

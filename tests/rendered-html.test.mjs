@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { createHash } from "node:crypto";
 import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
+import sharp from "sharp";
 import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { classifySearchReferrer } from "../lib/search-observability.mjs";
 import { getArticleAliases, getArticleIdentityRegistry, validateArticleIdentityPolicy } from "../scripts/article-identity-policy.mjs";
@@ -1155,8 +1156,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(batch021?.routeDecisionCount, 6);
   assert.equal(batch021?.candidateCount, 5);
   assert.equal(batch021?.scientificHoldCount, 1);
-  assert.equal(batch021?.generationCallCount, 5);
-  assert.equal(batch021?.revisionCount, 0);
+  assert.equal(batch021?.generationCallCount, 7);
+  assert.equal(batch021?.revisionCount, 2);
   assert.equal(batch021?.controlReviewRequired, true);
   const batch021Candidates = batch021?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
   assert.deepEqual(batch021Candidates.map((asset) => asset.pageId), [
@@ -1167,11 +1168,11 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     "lachnospira",
   ]);
   const batch021ExpectedOutputs = new Map([
-    ["intestinimonas", ["NCBITaxon:1392389", "bf8e7b99a93c1b82b8b4a62e631a92939f27c8f93dd6e671770b5687a9d96de5", "49aa2443bc087d72a66a23847205cb4cad8d55aba0bfef42f2df89fbe9875b11", 1784006, 9, 7]],
-    ["klebsiella", ["NCBITaxon:570", "bf4462c0ddb17ba79f31ea6ceb0b426726632d3fde7fc88ea478fdb8cee85051", "64d126f988de4e76d0dbcfc4eb0ce084d80a010806e6678ec9f9fa7787064f25", 1878122, 9, 7]],
-    ["klebsiella-pneumoniae", ["NCBITaxon:573", "04985162ec7f8e4991000d7c38aff70a07664bf908db288c781642b728f602b9", "19f66d75ac14033971bea381df9736e3d25015a6eb79af578c182d041770640c", 1724421, 8, 8]],
-    ["lachnobacterium", ["NCBITaxon:140625", "27c4ec2f029fcb3ead3dc60c8284866e70a25c5dff84aef2d8db0a46c2fdf328", "1728aa663695b2f61648403f14df520cfaeed934e51de7c90c60c860da267107", 1661972, 11, 8]],
-    ["lachnospira", ["NCBITaxon:28050", "e85b47301e892fca42cb05396d5284aa5dde4fa172be21ce4a70e4956b1cff53", "cc3b9b522259ed3fe2cca3702ffc1d4dbe3c3eeca8c4ba8edd1ad277d3ad2f2f", 2003167, 8, 6]],
+    ["intestinimonas", { identifier: "NCBITaxon:1392389", revision: 1, decision: "approved-after-output-audit", rootDisposition: "accepted", promptSha256: "bf8e7b99a93c1b82b8b4a62e631a92939f27c8f93dd6e671770b5687a9d96de5", sha256: "49aa2443bc087d72a66a23847205cb4cad8d55aba0bfef42f2df89fbe9875b11", fileSize: 1784006, bodyCount: 9, groupingCount: 7 }],
+    ["klebsiella", { identifier: "NCBITaxon:570", revision: 2, decision: "generated-awaiting-control-review", rootDisposition: "pending", promptSha256: "a9b701d01b619b6d5517b4e32081c270642a6d4545066b3d2208ce7781dbdc93", sha256: "4e9b5d1b55f38f8072205642c3b8527eb8cddc443eabac7579b3e7f4bcb65cfc", fileSize: 1417803, bodyCount: 10, groupingCount: 8, outerMinRgb: [237, 244, 251] }],
+    ["klebsiella-pneumoniae", { identifier: "NCBITaxon:573", revision: 1, decision: "approved-after-output-audit", rootDisposition: "accepted", promptSha256: "04985162ec7f8e4991000d7c38aff70a07664bf908db288c781642b728f602b9", sha256: "19f66d75ac14033971bea381df9736e3d25015a6eb79af578c182d041770640c", fileSize: 1724421, bodyCount: 8, groupingCount: 8 }],
+    ["lachnobacterium", { identifier: "NCBITaxon:140625", revision: 1, decision: "approved-after-output-audit", rootDisposition: "accepted", promptSha256: "27c4ec2f029fcb3ead3dc60c8284866e70a25c5dff84aef2d8db0a46c2fdf328", sha256: "1728aa663695b2f61648403f14df520cfaeed934e51de7c90c60c860da267107", fileSize: 1661972, bodyCount: 11, groupingCount: 8 }],
+    ["lachnospira", { identifier: "NCBITaxon:28050", revision: 2, decision: "generated-awaiting-control-review", rootDisposition: "pending", promptSha256: "0ecfb0cada573ba0c16ee226038ad81ece877e30dc14cb5a9037b6faa0968818", sha256: "348d799050ccc7a0fde18578bf209c821c8ef1ab27e1331ca8d5edef366a4cd7", fileSize: 1308090, bodyCount: 9, groupingCount: 7, outerMinRgb: [235, 244, 251] }],
   ]);
   const batch021PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-021.md", import.meta.url), "utf8");
   const batch021PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
@@ -1179,37 +1180,65 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   const batch021DraftFileNames = readdirSync(new URL("../work/media-drafts/microorganisms-batch-021/", import.meta.url)).sort();
   assert.deepEqual(batch021DraftFileNames, [
     "intestinimonas-draft.png",
+    "klebsiella-draft-v2.png",
     "klebsiella-draft.png",
     "klebsiella-pneumoniae-draft.png",
     "lachnobacterium-draft.png",
+    "lachnospira-draft-v2.png",
     "lachnospira-draft.png",
   ]);
   for (const asset of batch021Candidates) {
-    const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch021ExpectedOutputs.get(asset.pageId);
-    assert.equal(asset.decision, "generated-awaiting-control-review");
-    assert.equal(asset.rootReviewDisposition, "pending");
-    assert.equal(asset.controlledIdentifier, expectedIdentifier);
-    assert.equal(asset.promptSha256, expectedPromptSha256);
-    assert.equal(asset.sha256, expectedSha256);
-    assert.equal(asset.fileSizeBytes, expectedFileSize);
+    const expected = batch021ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.revision, expected.revision);
+    assert.equal(asset.decision, expected.decision);
+    assert.equal(asset.rootReviewDisposition, expected.rootDisposition);
+    assert.equal(asset.controlledIdentifier, expected.identifier);
+    assert.equal(asset.promptSha256, expected.promptSha256);
+    assert.equal(asset.sha256, expected.sha256);
+    assert.equal(asset.fileSizeBytes, expected.fileSize);
     assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
-    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
-    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expected.bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expected.groupingCount);
     assert.equal(asset.outputAudit?.promptCountTrusted, false);
     assert.equal(asset.outputAudit?.metadataConsistency, "pass");
     assert.match(asset.generationRecord, /^exec-[0-9a-f-]+\.png$/);
     assertMediaOutputAudit(asset, "microorganisms-021");
 
     const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
-    assert.equal(draftBytes.length, expectedFileSize);
+    assert.equal(draftBytes.length, expected.fileSize);
     assert.equal(draftBytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
     assert.equal(draftBytes.readUInt32BE(16), 1536);
     assert.equal(draftBytes.readUInt32BE(20), 1024);
-    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expectedSha256);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expected.sha256);
 
-    const promptMatch = batch021PromptRecord.match(new RegExp("### `" + asset.pageId + "-draft\\.png`\\n\\n```text\\n([\\s\\S]*?)\\n```"));
+    const promptFilename = `${asset.pageId}-draft${asset.revision === 1 ? "" : `-v${asset.revision}`}.png`;
+    const promptMatch = batch021PromptRecord.match(new RegExp("### `" + promptFilename.replaceAll(".", "\\.") + "`\\n\\n```text\\n([\\s\\S]*?)\\n```"));
     assert.ok(promptMatch, `${asset.pageId} immutable prompt must remain in the prompt record`);
-    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expected.promptSha256);
+
+    if (asset.revision === 2) {
+      const { data: pixels, info } = await sharp(draftBytes).removeAlpha().raw().toBuffer({ resolveWithObject: true });
+      const band = 96;
+      const minRgb = [255, 255, 255];
+      let outerPixelCount = 0;
+      let darkPixelCount = 0;
+      for (let y = 0; y < info.height; y += 1) {
+        for (let x = 0; x < info.width; x += 1) {
+          if (x >= band && x < info.width - band && y >= band && y < info.height - band) continue;
+          const offset = (y * info.width + x) * info.channels;
+          const rgb = [pixels[offset], pixels[offset + 1], pixels[offset + 2]];
+          const luminance = 0.2126 * rgb[0] + 0.7152 * rgb[1] + 0.0722 * rgb[2];
+          if (luminance < 128) darkPixelCount += 1;
+          for (let channel = 0; channel < 3; channel += 1) minRgb[channel] = Math.min(minRgb[channel], rgb[channel]);
+          outerPixelCount += 1;
+        }
+      }
+      assert.equal(outerPixelCount, 454656);
+      assert.equal(darkPixelCount, 0, `${asset.pageId} v2 outer canvas band must remain uniformly pale`);
+      assert.deepEqual(minRgb, expected.outerMinRgb);
+      assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, darkPixelCount);
+      assert.deepEqual(asset.outputAudit?.outerBackgroundMinRgb, minRgb);
+    }
 
     const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
     assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must not enter the registry before control approval`);
@@ -1219,17 +1248,46 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.ok(!batch021PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft path must not become public`);
   }
   assert.equal(batch021Candidates.find((asset) => asset.pageId === "intestinimonas")?.outputAudit?.observedVisibleSporeCount, 0);
-  assert.equal(batch021Candidates.find((asset) => asset.pageId === "klebsiella")?.outputAudit?.observedCapsuleHaloBodyCount, 4);
-  assert.equal(batch021Candidates.find((asset) => asset.pageId === "klebsiella")?.outputAudit?.observedSharedBilobedHaloGroupingCount, 1);
-  assert.equal(batch021Candidates.find((asset) => asset.pageId === "klebsiella")?.outputAudit?.observedDarkMarginCount, 2);
+  assert.equal(batch021Candidates.find((asset) => asset.pageId === "klebsiella")?.outputAudit?.observedCapsuleHaloBodyCount, 3);
+  assert.equal(batch021Candidates.find((asset) => asset.pageId === "klebsiella")?.outputAudit?.observedSharedHaloGroupingCount, 0);
+  assert.equal(batch021Candidates.find((asset) => asset.pageId === "klebsiella")?.outputAudit?.observedDarkMarginCount, 0);
   assert.equal(batch021Candidates.find((asset) => asset.pageId === "klebsiella-pneumoniae")?.outputAudit?.observedCapsuleHaloBodyCount, 8);
   assert.equal(batch021Candidates.find((asset) => asset.pageId === "klebsiella-pneumoniae")?.outputAudit?.observedSharedHaloGroupingCount, 0);
   assert.equal(batch021Candidates.find((asset) => asset.pageId === "lachnospira")?.outputAudit?.observedVisibleAppendageCount, 0);
-  assert.equal(batch021Candidates.find((asset) => asset.pageId === "lachnospira")?.outputAudit?.observedDarkMarginCount, 2);
+  assert.equal(batch021Candidates.find((asset) => asset.pageId === "lachnospira")?.outputAudit?.observedDarkMarginCount, 0);
   assert.match(batch021Candidates.find((asset) => asset.pageId === "intestinimonas")?.proposedCaption ?? "", /does not assert a universal sporulation form/);
+  assert.match(batch021Candidates.find((asset) => asset.pageId === "klebsiella")?.proposedCaption ?? "", /does not imply that bodies without an emphasized envelope lack capsules in nature/);
   assert.match(batch021Candidates.find((asset) => asset.pageId === "klebsiella-pneumoniae")?.proposedCaption ?? "", /does not imply visual separation from other Klebsiella/);
   assert.match(batch021Candidates.find((asset) => asset.pageId === "lachnobacterium")?.proposedCaption ?? "", /does not turn colony-form etymology into cellular morphology/);
   assert.match(batch021Candidates.find((asset) => asset.pageId === "lachnospira")?.proposedCaption ?? "", /does not imply a universal shape or flagellar arrangement/);
+  const batch021RejectedVariants = batch021?.rejectedVariants ?? [];
+  assert.deepEqual(batch021RejectedVariants.map((asset) => asset.pageId), ["klebsiella", "lachnospira"]);
+  const batch021ExpectedRejected = new Map([
+    ["klebsiella", ["64d126f988de4e76d0dbcfc4eb0ce084d80a010806e6678ec9f9fa7787064f25", 1878122, "work/media-drafts/microorganisms-batch-021/klebsiella-draft-v2.png"]],
+    ["lachnospira", ["cc3b9b522259ed3fe2cca3702ffc1d4dbe3c3eeca8c4ba8edd1ad277d3ad2f2f", 2003167, "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png"]],
+  ]);
+  for (const rejected of batch021RejectedVariants) {
+    const [expectedSha256, expectedFileSize, expectedSupersededBy] = batch021ExpectedRejected.get(rejected.pageId);
+    assert.equal(rejected.revision, 1);
+    assert.equal(rejected.disposition, "rejected");
+    assert.equal(rejected.sha256, expectedSha256);
+    assert.equal(rejected.fileSizeBytes, expectedFileSize);
+    assert.equal(rejected.supersededBy, expectedSupersededBy);
+    assert.match(rejected.reason, /dark top and bottom vignette|dark upper and lower vignette/);
+    const rejectedBytes = readFileSync(new URL(`../${rejected.draft}`, import.meta.url));
+    assert.equal(rejectedBytes.length, expectedFileSize);
+    assert.equal(createHash("sha256").update(rejectedBytes).digest("hex"), expectedSha256);
+  }
+  const batch021RevisionRecords = reviewLog.revisedAssets.filter((asset) => asset.batchId === "microorganisms-021");
+  assert.deepEqual(batch021RevisionRecords.map((asset) => asset.pageId), ["klebsiella", "lachnospira"]);
+  for (const revisionRecord of batch021RevisionRecords) {
+    const rejected = batch021RejectedVariants.find((asset) => asset.pageId === revisionRecord.pageId);
+    assert.equal(revisionRecord.disposition, "revise");
+    assert.equal(revisionRecord.sha256, rejected.sha256);
+    assert.equal(revisionRecord.supersededBy, rejected.supersededBy);
+    assert.match(revisionRecord.outcome, /remains review-only pending root original-resolution disposition/);
+  }
+  assert.equal(program.current.revised, 10);
   const batch021Hold = batch021?.assets.find((asset) => asset.pageId === "lachnoclostridium");
   assert.equal(batch021Hold?.decision, "scientific-identity-hold");
   assert.equal(batch021Hold?.generationStatus, "withheld-no-call");
