@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "1ff5b024d0bfef0932ae92c5f3949d40298159bea08292553faca69a56118ff8",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "0622be8a26350e7921d11d261142b1e44eb7f90058d8039745bad979ef561026",
+    "registrySha256": "9d8c55cbe6b6b582184355b210eec68f6e74336b212817ded267216e6ae4b578",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "1562a09ff6d8f090c98c790e2d18498c88380decd6c4666d2b57798910993544",
+    "reviewLogSha256": "bf68510efa8bbdb4764d01cb606db37be34c9741202e7dab9fc1caf517e4cbe0",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -59,6 +59,12 @@
         "batchId": "microorganisms-008",
         "status": "reviewed",
         "sha256": "919ecded1f8aac8efca54e9584255a47aa62397bab6f0b02c9cb1875a2fc2c18"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-009.json",
+        "batchId": "microorganisms-009",
+        "status": "reviewed",
+        "sha256": "d7d285017bafd7e7a507198a693121f84c9951fdf794e9969e1ae1aa5cde81ca"
       }
     ]
   },
@@ -80,10 +86,10 @@
   },
   "current": {
     "total": 712,
-    "completed": 50,
-    "remaining": 662,
+    "completed": 56,
+    "remaining": 656,
     "rejected": 6,
-    "revised": 6,
+    "revised": 7,
     "scientificHolds": 0,
     "inReview": 0
   },
@@ -92,8 +98,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 231,
-      "completed": 47,
-      "remaining": 184
+      "completed": 53,
+      "remaining": 178
     },
     {
       "id": "metals",
@@ -340,59 +346,72 @@
       "reason": "Human original-resolution audit found nine bodies in seven groupings, not the prompt-requested ten bodies in seven groupings.",
       "supersededBy": "work/media-drafts/microorganisms-batch-008/brucella-draft-v3.png",
       "outcome": "Revision 3 reconciled exactly to eight bodies in six groupings, four singles plus two touching pairs. Control human original-resolution review accepted v3, and only v3 was promoted."
+    },
+    {
+      "pageId": "burkholderiales",
+      "batchId": "microorganisms-009",
+      "draft": "work/media-drafts/microorganisms-batch-009/burkholderiales-draft-v1.png",
+      "sha256": "c71cd2b7159ac8c4f705529c443ff2402c528d0592ffab608a0af025c6f31f1d",
+      "generationRecord": "exec-513967ee-80ed-4828-8a79-67aa7889e4c5.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "The lower-right three-rod grouping was enclosed by a shared translucent outer boundary that could read as an invented capsule, sheath, microcolony envelope, biofilm, or enclosing membrane and conflicted with the selected diversity-plate constraint.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-009/burkholderiales-draft-v2.png",
+      "outcome": "One targeted revision preserved nine bodies in five groupings while removing the shared outer boundary completely. Root original-resolution review accepted v2, and only v2 was promoted."
     }
   ],
   "nextBatch": [
     {
-      "queuePosition": 45,
-      "id": "burkholderiales",
-      "title": "Burkholderiales",
-      "route": "/article/burkholderiales",
+      "queuePosition": 52,
+      "id": "candida-auris",
+      "title": "Candida auris",
+      "route": "/article/candida-auris",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 46,
-      "id": "butyricicoccus",
-      "title": "Butyricicoccus",
-      "route": "/article/butyricicoccus",
+      "queuePosition": 53,
+      "id": "candida-glabrata",
+      "title": "Candida glabrata",
+      "route": "/article/candida-glabrata",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 47,
-      "id": "butyricimonas",
-      "title": "Butyricimonas",
-      "route": "/article/butyricimonas",
+      "queuePosition": 54,
+      "id": "candida-tropicalis",
+      "title": "Candida tropicalis",
+      "route": "/article/candida-tropicalis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 48,
-      "id": "butyrivibrio",
-      "title": "Butyrivibrio",
-      "route": "/article/butyrivibrio",
+      "queuePosition": 55,
+      "id": "caulobacter",
+      "title": "Caulobacter",
+      "route": "/article/caulobacter",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 49,
-      "id": "campylobacter",
-      "title": "Campylobacter",
-      "route": "/article/campylobacter",
+      "queuePosition": 56,
+      "id": "chlamydia",
+      "title": "Chlamydia",
+      "route": "/article/chlamydia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 50,
-      "id": "campylobacter-jejuni",
-      "title": "Campylobacter jejuni",
-      "route": "/article/campylobacter-jejuni",
+      "queuePosition": 57,
+      "id": "chlamydia-trachomatis",
+      "title": "Chlamydia trachomatis",
+      "route": "/article/chlamydia-trachomatis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -1335,7 +1354,15 @@
       "route": "/article/burkholderiales",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "burkholderiales-microbial-community-v1-master.png",
+        "publishedFile": "burkholderiales-microbial-community-v1.webp",
+        "socialFile": "burkholderiales-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 46,
@@ -1348,7 +1375,15 @@
       "route": "/article/butyricicoccus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "butyricicoccus-morphology-v1-master.png",
+        "publishedFile": "butyricicoccus-morphology-v1.webp",
+        "socialFile": "butyricicoccus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 47,
@@ -1361,7 +1396,15 @@
       "route": "/article/butyricimonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "butyricimonas-morphology-v1-master.png",
+        "publishedFile": "butyricimonas-morphology-v1.webp",
+        "socialFile": "butyricimonas-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 48,
@@ -1374,7 +1417,15 @@
       "route": "/article/butyrivibrio",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "butyrivibrio-morphology-v1-master.png",
+        "publishedFile": "butyrivibrio-morphology-v1.webp",
+        "socialFile": "butyrivibrio-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 49,
@@ -1387,7 +1438,15 @@
       "route": "/article/campylobacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "campylobacter-morphology-v1-master.png",
+        "publishedFile": "campylobacter-morphology-v1.webp",
+        "socialFile": "campylobacter-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 50,
@@ -1400,7 +1459,15 @@
       "route": "/article/campylobacter-jejuni",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "campylobacter-jejuni-morphology-v1-master.png",
+        "publishedFile": "campylobacter-jejuni-morphology-v1.webp",
+        "socialFile": "campylobacter-jejuni-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 51,

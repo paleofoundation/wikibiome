@@ -913,6 +913,185 @@
       "disposition": "approved",
       "notes": "Generation revisions 1 and 2 were rejected for output-count mismatches. The microorganisms batch 008 control handoff accepts only generation revision 3 for canonical processing.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "brucella-draft-v3.png", "replacesDrafts": ["brucella-draft.png", "brucella-draft-v2.png"], "generationRecord": "exec-e37a7ff4-99b9-4f70-859f-a70582a50711.png" }
+    },
+    "burkholderiales|burkholderiales-microbial-community-v1.webp": {
+      "pageId": "burkholderiales",
+      "publishedFile": "burkholderiales-microbial-community-v1.webp",
+      "masterSource": "burkholderiales-microbial-community-v1-master.png",
+      "socialFile": "burkholderiales-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=80840&mode=Info",
+          "https://lpsn.dsmz.de/order/burkholderiales",
+          "https://bacdive.dsmz.de/strain/1906",
+          "https://bacdive.dsmz.de/strain/374",
+          "https://bacdive.dsmz.de/strain/2054",
+          "https://bacdive.dsmz.de/strain/17827"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current order NCBITaxon:80840; descendant type-strain records support the selected straight-rod, short-ovoid, coccoid, and grouped-rod breadth. The plate is explicitly selective, non-exhaustive, non-diagnostic, and uses illustrative relative scale."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted generation revision 2: exactly nine bodies in five separated groupings—one two-rod pair, one two-coccoid pair, one isolated coccoid, one isolated short rod, and one three-rod chain. Every body has only its own ordinary boundary; no shared envelope, sheath, halo, capsule, biofilm, appendage, label, host material, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all nine bodies and five groupings and explicitly distinguishes the individually bounded three-rod chain; caption states selected order-level scope, illustrative relative scale, and non-diagnostic non-micrograph limits."
+      },
+      "disposition": "approved",
+      "notes": "Generation revision 1 was rejected because a shared translucent multi-rod boundary could read as an invented envelope. Root accepted only generation revision 2 after the boundary was fully removed.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "burkholderiales-draft-v2.png", "replacesDraft": "burkholderiales-draft-v1.png", "generationRecord": "exec-0319cb01-9e40-4924-8d05-abf48de9f517.png" }
+    },
+    "butyricicoccus|butyricicoccus-morphology-v1.webp": {
+      "pageId": "butyricicoccus",
+      "publishedFile": "butyricicoccus-morphology-v1.webp",
+      "masterSource": "butyricicoccus-morphology-v1-master.png",
+      "socialFile": "butyricicoccus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=580596&mode=Info",
+          "https://pubmed.ncbi.nlm.nih.gov/19060061/",
+          "https://bacdive.dsmz.de/strain/2871"
+        ],
+        "notes": "NCBI Taxonomy confirms current genus NCBITaxon:580596; the original type-species description and type-strain record support the conservative coccoid treatment without a diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly eight near-spherical bodies in five groupings: two singles and three touching pairs. No rods, grape-like cluster, label, appendage, spore, host material, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all eight bodies and the two-single-plus-three-pair arrangement; caption adds genus-level, non-diagnostic, and non-micrograph limits."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 009 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "butyricicoccus-draft.png", "generationRecord": "exec-246d8e6c-e83a-418c-b035-7f40e38cd720.png" }
+    },
+    "butyricimonas|butyricimonas-morphology-v1.webp": {
+      "pageId": "butyricimonas",
+      "publishedFile": "butyricimonas-morphology-v1.webp",
+      "masterSource": "butyricimonas-morphology-v1-master.png",
+      "socialFile": "butyricimonas-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=574697&mode=Info",
+          "https://pubmed.ncbi.nlm.nih.gov/19542124/",
+          "https://bacdive.dsmz.de/strain/12522",
+          "https://bacdive.dsmz.de/strain/12523"
+        ],
+        "notes": "NCBI Taxonomy confirms current genus NCBITaxon:574697; the original genus paper and its two type-strain records support short rounded rods without a morphology-only diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly seven short rounded rods in six groupings: five singles and one touching pair. No label, appendage, spore, host material, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all seven rods and the five-single-plus-one-pair arrangement; caption states genus-level, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 009 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "butyricimonas-draft.png", "generationRecord": "exec-7b8886c4-0b02-485e-8d24-c22491b283fa.png" }
+    },
+    "butyrivibrio|butyrivibrio-morphology-v1.webp": {
+      "pageId": "butyrivibrio",
+      "publishedFile": "butyrivibrio-morphology-v1.webp",
+      "masterSource": "butyrivibrio-morphology-v1-master.png",
+      "socialFile": "butyrivibrio-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=830&mode=Info",
+          "https://lpsn.dsmz.de/genus/butyrivibrio",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC289715/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC1315942/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus NCBITaxon:830; original and later primary descriptions support gently curved tapered rods. External flagella are deliberately omitted so motility is not encoded as diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly seven gently curved tapered rods in six groupings: five singles and one angled touching pair. No tight spiral, ring, external flagellum, other appendage, label, host material, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all seven rods, six groupings, tapered poles, and paired arrangement; caption states non-diagnostic, flagella-omitted, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 009 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "butyrivibrio-draft.png", "generationRecord": "exec-feea54ac-df32-41ef-a1bb-64d6ce5e1106.png" }
+    },
+    "campylobacter|campylobacter-morphology-v1.webp": {
+      "pageId": "campylobacter",
+      "publishedFile": "campylobacter-morphology-v1.webp",
+      "masterSource": "campylobacter-morphology-v1-master.png",
+      "socialFile": "campylobacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=194&mode=Info",
+          "https://pubmed.ncbi.nlm.nih.gov/1704793/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC214249/"
+        ],
+        "notes": "NCBI Taxonomy confirms current genus NCBITaxon:194; the emended description and primary microscopy support selected curved, S-shaped, deep-curved, and paired gull-wing forms. The plate is explicitly non-exhaustive and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly eight slender curved bodies in six groupings: four singles spanning shallow, S, and deep curves plus two touching two-body gull-wing pairs. No external flagellum, label, host material, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all eight bodies, six groupings, single forms, and two gull-wing pairs; caption states selected genus-level, non-exhaustive, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 009 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "campylobacter-draft.png", "generationRecord": "exec-530bb43f-c4a8-4994-8335-9352b5529691.png" }
+    },
+    "campylobacter-jejuni|campylobacter-jejuni-morphology-v1.webp": {
+      "pageId": "campylobacter-jejuni",
+      "publishedFile": "campylobacter-jejuni-morphology-v1.webp",
+      "masterSource": "campylobacter-jejuni-morphology-v1-master.png",
+      "socialFile": "campylobacter-jejuni-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=197&mode=Info",
+          "https://bacdive.dsmz.de/strain/2121",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC214249/"
+        ],
+        "notes": "NCBI Taxonomy confirms current species NCBITaxon:197; the type-strain record and primary microscopy support restrained curved, S-shaped, and gull-wing forms. The plate explicitly makes no species-diagnostic distinction from the genus treatment."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted exactly seven slender curved bodies in six groupings: five singles spanning comma, S, and deep-C forms plus one touching two-body gull-wing pair. No external flagellum, label, host material, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all seven bodies, six groupings, five single forms, and the gull-wing pair; caption explicitly denies species-diagnostic interpretation and identifies the reconstruction as not a micrograph."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome root original-resolution review in microorganisms batch 009 after literal prompt provenance and count-bearing metadata reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "campylobacter-jejuni-draft.png", "generationRecord": "exec-08d5b33c-bc59-414b-b9a6-f2eb53353724.png" }
     }
   },
   "rejectedAssets": [
@@ -1110,6 +1289,19 @@
       "reason": "Human original-resolution audit found nine bodies in seven groupings, not the prompt-requested ten bodies in seven groupings.",
       "supersededBy": "work/media-drafts/microorganisms-batch-008/brucella-draft-v3.png",
       "outcome": "Revision 3 reconciled exactly to eight bodies in six groupings, four singles plus two touching pairs. Control human original-resolution review accepted v3, and only v3 was promoted."
+    },
+    {
+      "pageId": "burkholderiales",
+      "batchId": "microorganisms-009",
+      "draft": "work/media-drafts/microorganisms-batch-009/burkholderiales-draft-v1.png",
+      "sha256": "c71cd2b7159ac8c4f705529c443ff2402c528d0592ffab608a0af025c6f31f1d",
+      "generationRecord": "exec-513967ee-80ed-4828-8a79-67aa7889e4c5.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "The lower-right three-rod grouping was enclosed by a shared translucent outer boundary that could read as an invented capsule, sheath, microcolony envelope, biofilm, or enclosing membrane and conflicted with the selected diversity-plate constraint.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-009/burkholderiales-draft-v2.png",
+      "outcome": "One targeted revision preserved nine bodies in five groupings while removing the shared outer boundary completely. Root original-resolution review accepted v2, and only v2 was promoted."
     }
   ],
   "notes": [
