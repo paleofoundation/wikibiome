@@ -82,6 +82,11 @@ function visibleText(markup) {
 function auditArticleReadability(pathname, html) {
   const articleBody = html.match(/<article class="article-body[^"]*"[\s\S]*?(?=<section class="references-section"|<footer class="article-provenance"|<\/article>)/)?.[0];
   if (!articleBody) return;
+  if (/<\/sup>[.,;:!?]/.test(articleBody)) failures.push(`${pathname}: punctuation appears after an inline citation marker`);
+  if (/<\/sup>[,\s]+<sup class="article-citation"/.test(articleBody)) failures.push(`${pathname}: adjacent citation markers retain a comma or space`);
+  if (/\s--\s/.test(visibleText(articleBody))) failures.push(`${pathname}: typewriter double hyphen appears in visible article prose`);
+  if (/<p(?:\s+class="[^"]*")?>\s*---+\s*<\/p>/.test(articleBody)) failures.push(`${pathname}: Markdown thematic break rendered as article prose`);
+  if (/&lt;!--|--&gt;/.test(articleBody)) failures.push(`${pathname}: source maintenance comment rendered as article prose`);
   for (const paragraph of articleBody.matchAll(/<p(?:\s+class="[^"]*")?>([\s\S]*?)<\/p>/g)) {
     const wordCount = visibleWordCount(paragraph[1]);
     articleParagraphs += 1;

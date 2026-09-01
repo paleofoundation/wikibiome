@@ -150,7 +150,7 @@ button,input { font:inherit; }
 .article-body ul,.article-body ol { margin:15px 0;padding-left:22px; }
 .article-body li { margin:8px 0;padding-left:4px;color:#303641;font-family:var(--serif);font-size:14px;line-height:1.65; }
 .article-body li::marker { color:#4b80d2; }
-.article-citation { position:relative;margin-left:.1em;font-family:Arial,sans-serif;font-size:.67em;font-style:normal;font-weight:600;font-variant-numeric:tabular-nums;line-height:0;vertical-align:super;white-space:nowrap; }
+.article-citation { position:relative;margin-left:0;font-family:Arial,sans-serif;font-size:.67em;font-style:normal;font-weight:600;font-variant-numeric:tabular-nums;line-height:0;vertical-align:super;white-space:nowrap; }
 .article-citation a { padding:0 .08em;border-radius:2px;background:transparent;color:#3366b8;text-decoration:none!important;text-decoration-thickness:1px!important;text-underline-offset:2px;transition:color .16s,background-color .16s; }
 .article-citation a:hover { background:rgba(51,102,184,.08);color:#123f82;text-decoration:underline!important;box-shadow:none; }
 .article-citation a:focus-visible { outline:1px solid #4f83c7;outline-offset:2px;background:rgba(51,102,184,.08); }

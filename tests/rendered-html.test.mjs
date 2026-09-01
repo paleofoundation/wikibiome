@@ -276,6 +276,10 @@ test("server-renders real article and directory pages through the shared redesig
   const chemicalParagraphs = [...chemicalSection.matchAll(/<p class="continuous-prose">([\s\S]*?)<\/p>/g)];
   assert.ok(chemicalStart >= 0 && metabolismStart > chemicalStart);
   assert.ok(chemicalParagraphs.length >= 6, "dense evidence lists must preserve their topical boundaries as readable prose paragraphs");
+  assert.match(chemicalSection, /64Ni\)\.<sup class="article-citation"/, "sentence punctuation must precede its citation marker");
+  assert.doesNotMatch(chemicalSection, /<\/sup>[,\s]+<sup class="article-citation"/, "adjacent citation markers must not be separated by commas or spaces");
+  assert.doesNotMatch(chemicalSection, /\s--\s/, "typewriter double hyphens must not leak into article prose");
+  assert.doesNotMatch(chemicalSection, /<p(?:\s+class="[^"]*")?>\s*---+\s*<\/p>/, "Markdown thematic breaks must not render as prose");
   chemicalParagraphs.forEach(([, paragraph]) => {
     const visibleWords = paragraph
       .replace(/<span class="citation-preview"[\s\S]*?<\/span>/g, " ")

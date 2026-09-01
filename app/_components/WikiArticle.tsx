@@ -68,6 +68,11 @@ const metalNames: Record<string, string> = {
 
 type MetalNameState = Set<string>;
 
+type InlineStyleToken = {
+  raw: string;
+  citation: boolean;
+};
+
 function namedMetal(symbol: string, charge: string | undefined, seen: MetalNameState) {
   const name = metalNames[symbol];
   const romanCharge = charge === "2" ? "II" : charge === "3" ? "III" : charge;
@@ -108,14 +113,79 @@ export function expandMetalNames(text: string, seen: MetalNameState = new Set())
     .replaceAll(methylmercuryToken, "methylmercury (MeHg)");
 }
 
-function inlineMarkup(text: string, citationNumbers: Record<string, number>, metalState: MetalNameState): ReactNode[] {
-  const parts: ReactNode[] = [];
-  const format = /\*\*(.+?)\*\*|\*(.+?)\*|`([^`]+)`|\[?\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]\]?/g;
+/**
+ * Apply WikiBiome's Wikipedia-aligned inline house style at render time while
+ * leaving the synchronized source corpus untouched:
+ *
+ * - punctuation precedes citation markers;
+ * - adjacent citation markers have no comma or space between them;
+ * - typewriter double hyphens become unspaced em dashes.
+ */
+export function normalizeEncyclopedicDashes(text: string) {
+  return text
+    .replace(/^[ \t]*--[ \t]*$/gm, "—")
+    .replace(/^--[ \t]+/gm, "")
+    .replace(/[ \t]+--[ \t]+/g, "—")
+    .replace(/[ \t]*—[ \t]*/g, "—");
+}
+
+export function normalizeEncyclopedicInlineStyle(text: string, citationNumbers: Record<string, number>) {
+  const dashNormalized = normalizeEncyclopedicDashes(text);
+  const markup = /\[?\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]\]?/g;
+  const tokens: InlineStyleToken[] = [];
   let lastIndex = 0;
   let match: RegExpExecArray | null;
 
-  while ((match = format.exec(text)) !== null) {
-    if (match.index > lastIndex) parts.push(expandMetalNames(text.slice(lastIndex, match.index), metalState));
+  while ((match = markup.exec(dashNormalized)) !== null) {
+    if (match.index > lastIndex) tokens.push({ raw: dashNormalized.slice(lastIndex, match.index), citation: false });
+    tokens.push({ raw: match[0], citation: Boolean(citationNumbers[normalizeWikiId(match[1])]) });
+    lastIndex = markup.lastIndex;
+  }
+  if (lastIndex < dashNormalized.length) tokens.push({ raw: dashNormalized.slice(lastIndex), citation: false });
+
+  for (let index = 0; index < tokens.length; index += 1) {
+    if (!tokens[index].citation) continue;
+    const clusterStart = index;
+    let clusterEnd = index;
+
+    while (
+      clusterEnd + 2 < tokens.length
+      && !tokens[clusterEnd + 1].citation
+      && /^[\s,]*$/.test(tokens[clusterEnd + 1].raw)
+      && tokens[clusterEnd + 2].citation
+    ) {
+      tokens[clusterEnd + 1].raw = "";
+      clusterEnd += 2;
+    }
+
+    const afterCluster = tokens[clusterEnd + 1];
+    const punctuation = afterCluster && !afterCluster.citation
+      ? afterCluster.raw.match(/^([.,;:!?])/)?.[1]
+      : undefined;
+    if (punctuation) afterCluster.raw = afterCluster.raw.slice(punctuation.length);
+
+    const beforeCluster = tokens[clusterStart - 1];
+    if (beforeCluster) {
+      beforeCluster.raw = `${beforeCluster.raw.replace(/\s+$/, "")}${punctuation ?? ""}`;
+    } else if (punctuation) {
+      tokens[clusterStart].raw = `${punctuation}${tokens[clusterStart].raw}`;
+    }
+
+    index = clusterEnd;
+  }
+
+  return tokens.map((token) => token.raw).join("");
+}
+
+function inlineMarkup(text: string, citationNumbers: Record<string, number>, metalState: MetalNameState): ReactNode[] {
+  const parts: ReactNode[] = [];
+  const format = /\*\*(.+?)\*\*|\*(.+?)\*|`([^`]+)`|\[?\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]\]?/g;
+  const styledText = normalizeEncyclopedicInlineStyle(text, citationNumbers);
+  let lastIndex = 0;
+  let match: RegExpExecArray | null;
+
+  while ((match = format.exec(styledText)) !== null) {
+    if (match.index > lastIndex) parts.push(expandMetalNames(styledText.slice(lastIndex, match.index), metalState));
     if (match[1]) {
       parts.push(<strong key={`bold-${match.index}`}>{inlineMarkup(match[1], citationNumbers, metalState)}</strong>);
     } else if (match[2]) {
@@ -149,7 +219,7 @@ function inlineMarkup(text: string, citationNumbers: Record<string, number>, met
     lastIndex = format.lastIndex;
   }
 
-  if (lastIndex < text.length) parts.push(expandMetalNames(text.slice(lastIndex), metalState));
+  if (lastIndex < styledText.length) parts.push(expandMetalNames(styledText.slice(lastIndex), metalState));
   return parts;
 }
 
@@ -296,9 +366,13 @@ function proseBlocks(text: string): RichBlock[] {
 
 export function RichText({ text, citationNumbers, prose = false }: { text: string; citationNumbers: Record<string, number>; prose?: boolean }) {
   const metalState: MetalNameState = new Set();
+  const cleanedText = text
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/^\s*---+\s*$/gm, "")
+    .trim();
   const blocks: RichBlock[] = prose
-    ? proseBlocks(text)
-    : text.split(/\n\s*\n/).flatMap((source, key) => {
+    ? proseBlocks(cleanedText)
+    : cleanedText.split(/\n\s*\n/).flatMap((source, key) => {
       const trimmed = source.trim();
       if (!trimmed) return [];
       const lines = trimmed.split("\n").map((line) => line.trim()).filter(Boolean);
@@ -477,7 +551,7 @@ export function ClaimProvenance({ evidence }: { evidence: ArticleEvidence }) {
         {evidence.claims.slice(0, 24).map((claim, index) => (
           <article id={claim.id} key={claim.id}>
             <span>{String(index + 1).padStart(2, "0")}</span>
-            <div><small>{claim.section}</small><p>{claim.text}</p></div>
+            <div><small>{normalizeEncyclopedicDashes(claim.section)}</small><p>{normalizeEncyclopedicDashes(claim.text)}</p></div>
             <footer>{claim.citationNumbers.map((number) => <a href={`#reference-${number}`} aria-label={`Reference ${number}`} key={number}>[{number}]</a>)}</footer>
           </article>
         ))}
@@ -620,7 +694,7 @@ function WikiRail({ page }: { page: WikiPage }) {
           <p className="rail-label">On this page</p>
           {contents.slice(0, 9).map((section, index) => (
             <a href={`#${slugify(section.heading)}`} key={section.heading}>
-              <i>{String(index + 1).padStart(2, "0")}</i>{section.heading}
+              <i>{String(index + 1).padStart(2, "0")}</i>{normalizeEncyclopedicDashes(section.heading)}
             </a>
           ))}
           <a href="#references"><i>R</i>References</a>
@@ -739,7 +813,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
               {!!contents.length && (
                 <details className="mobile-contents">
                   <summary>Contents</summary>
-                  {contents.map((section, index) => <a href={`#${slugify(section.heading)}`} key={section.heading}>{index + 1}. {section.heading}</a>)}
+                  {contents.map((section, index) => <a href={`#${slugify(section.heading)}`} key={section.heading}>{index + 1}. {normalizeEncyclopedicDashes(section.heading)}</a>)}
                 </details>
               )}
               {sections.map((section, index) => {
@@ -750,9 +824,10 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
                   return <NumberedParadoxSection heading={section.heading} key={`${section.heading}-${section.level}`} />;
                 }
                 if (isDietaryParadoxHeading(section.heading)) {
+                  const displayHeading = normalizeEncyclopedicDashes(section.heading);
                   return (
                     <section className={`wiki-section level-${section.level} paradox-section`} id={id} key={`${section.heading}-${section.level}`}>
-                      <Heading>{section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></Heading>
+                      <Heading>{displayHeading}<a href={`#${id}`} aria-label={`Link to ${displayHeading}`}>#</a></Heading>
                       <ParadoxLinkIndex pageId={page.id} />
                     </section>
                   );
@@ -760,9 +835,10 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
                 if (section.kind === "open_questions") {
                   return <OpenQuestionsSection body={section.body} citationNumbers={evidence.citationNumbers} id={id} key={`${section.heading}-${section.level}`} />;
                 }
+                const displayHeading = normalizeEncyclopedicDashes(section.heading);
                 return (
                   <section className={`wiki-section level-${section.level} section-${section.kind}${section.renderAsProse ? " continuous-prose-section" : ""}`} id={id} key={`${section.heading}-${section.level}`}>
-                    <Heading>{section.heading}<a href={`#${id}`} aria-label={`Link to ${section.heading}`}>#</a></Heading>
+                    <Heading>{displayHeading}<a href={`#${id}`} aria-label={`Link to ${displayHeading}`}>#</a></Heading>
                     {section.body && <RichText text={section.body} citationNumbers={evidence.citationNumbers} prose={section.renderAsProse} />}
                   </section>
                 );
