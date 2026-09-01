@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { StructuredData } from "@/app/_components/StructuredData";
+import { SearchObservability } from "@/app/_components/SearchObservability";
 import { WikiFooter } from "@/app/_components/WikiFooter";
+import { publicPageMetadata, SITE_DESCRIPTION, siteIdentityStructuredData } from "@/lib/search-discovery";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,23 +17,16 @@ const geistMono = Geist_Mono({
 });
 
 const title = "WikiBiome — The Human Microbiome Encyclopedia";
-const description =
-  "Explore the organisms, ecological pressures, and molecular conversations shaping human health through an evidence-linked encyclopedia.";
+const googleVerification = process.env.GOOGLE_SITE_VERIFICATION?.trim();
+const bingVerification = process.env.BING_SITE_VERIFICATION?.trim();
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.wikibiome.com"),
-  title,
-  description,
-  alternates: { canonical: "/" },
-  openGraph: {
-    title,
-    description,
-    type: "website",
-    url: "/",
-    siteName: "WikiBiome",
-    images: [{ url: "/og-blue.png", width: 1732, height: 909, alt: "WikiBiome — the human microbiome encyclopedia" }],
+  ...publicPageMetadata({ title, description: SITE_DESCRIPTION, path: "/" }),
+  verification: {
+    ...(googleVerification ? { google: googleVerification } : {}),
+    ...(bingVerification ? { other: { "msvalidate.01": bingVerification } } : {}),
   },
-  twitter: { card: "summary_large_image", title, description, images: ["/og-blue.png"] },
   icons: { icon: "/favicon.png" },
 };
 
@@ -44,6 +40,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <StructuredData data={siteIdentityStructuredData()} marker="data-site-identity-schema" />
+        <SearchObservability />
         {children}
         <WikiFooter />
       </body>

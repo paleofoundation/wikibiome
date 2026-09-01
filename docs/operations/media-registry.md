@@ -10,7 +10,9 @@ The generator derives all three filenames from the canonical article slug, an ap
 - Social preview: `{article-slug}-{asset-type}-v{revision}-social.webp`
 - Lossless master: `{article-slug}-{asset-type}-v{revision}-master.png`
 
-Published files are delivered through `/media/image/{filename}` and social previews through `/media/social/{filename}`. These canonical endpoints preserve the semantic filename while enforcing `image/webp`, `nosniff`, and immutable versioned caching at the application boundary. Binary storage lives separately in `public/media-files`, preventing the host from bypassing the verified delivery layer; prior `/media/{filename}` URLs remain compatible through the same handler.
+Published files are delivered through `/media/image/{filename}` and social previews through `/media/social/{filename}`. These canonical endpoints preserve the semantic filename while enforcing the registry allowlist, `image/webp`, `nosniff`, and immutable versioned caching at the application boundary. Binary storage lives separately in `public/media-files`; direct storage URLs are excluded from crawling and carry `X-Robots-Tag: noindex`. Prior `/media/{filename}` URLs permanently redirect to the corresponding canonical image or social endpoint.
+
+`/image-sitemap.xml` is generated only from this registry. It links each reviewed article to its canonical primary image URL. Current Google image-sitemap guidance supports `image:loc`; the image title, caption, credit, review state, and license context are supplied on the article through visible attribution, embedded IPTC/XMP, and the page's Schema.org `ImageObject`. Deprecated `image:title`, `image:caption`, and `image:license` sitemap tags are deliberately not emitted.
 
 Approved asset types are `morphology`, `pathology`, `technical-specimen`, and `microbial-community`. The generator rejects invalid slugs, unapproved asset types, non-positive revisions, or filenames that differ from the derived names.
 

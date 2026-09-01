@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { STRIPE_SUPPORT_URL, SUPPORT_PROCESSOR_DISCLOSURE } from "@/lib/support";
+import { publicPageMetadata } from "@/lib/search-discovery";
 import { wikiStats } from "@/lib/wikibiome";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "Support WikiBiome",
   description: "Support the research, editorial review, and infrastructure behind the open WikiBiome encyclopedia.",
-  openGraph: { title: "Support WikiBiome", description: "Help keep WikiBiome free, ad-free, and evidence-linked.", images: [] },
-  twitter: { card: "summary", title: "Support WikiBiome", description: "Help keep WikiBiome free, ad-free, and evidence-linked.", images: [] },
-};
+  path: "/support",
+});
 
 export default function SupportPage() {
   return (

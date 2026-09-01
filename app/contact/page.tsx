@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { publicPageMetadata } from "@/lib/search-discovery";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "Contact — WikiBiome",
   description: "Contact WikiBiome about corrections, cited research, privacy, partnerships, or media inquiries.",
-  alternates: { canonical: "/contact" },
-  openGraph: { title: "Contact — WikiBiome", description: "Contact the WikiBiome project.", images: [] },
-  twitter: { card: "summary", title: "Contact — WikiBiome", description: "Contact the WikiBiome project.", images: [] },
-};
+  path: "/contact",
+});
 
 const contactPaths = [
   { label: "Scientific correction", title: "Improve a specific article", body: "Use the moderated contribution flow so the passage, rationale, and supporting DOI remain attached to the proposal.", href: "/contribute", action: "Suggest an edit" },

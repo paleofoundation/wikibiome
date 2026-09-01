@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiSource } from "@/app/_components/WikiSource";
-import { getSource } from "@/lib/wikibiome";
+import { publicPageMetadata, sourceStructuredData } from "@/lib/search-discovery";
+import { canonicalSourceId, getSource } from "@/lib/wikibiome";
 
 type RouteProps = { params: Promise<{ id: string }> };
 
@@ -9,19 +11,22 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const { id } = await params;
   const source = getSource(id);
   if (!source) return { title: "Source not found — WikiBiome" };
+  const canonicalId = canonicalSourceId(id);
   const title = `${source.title} — WikiBiome source`;
   const description = `${source.authors?.join(", ") || "WikiBiome source"}. ${source.journal || "Journal pending"}, ${source.year || "year pending"}.`;
-  return {
+  return publicPageMetadata({
     title,
     description,
-    openGraph: { title, description, type: "article", images: [] },
-    twitter: { card: "summary", title, description, images: [] },
-  };
+    path: `/source/${canonicalId}`,
+    type: "article",
+  });
 }
 
 export default async function SourcePage({ params }: RouteProps) {
   const { id } = await params;
   const source = getSource(id);
   if (!source) notFound();
-  return <WikiSource id={id} source={source} />;
+  const canonicalId = canonicalSourceId(id);
+  if (canonicalId !== id) permanentRedirect(`/source/${canonicalId}`);
+  return <><StructuredData data={sourceStructuredData(canonicalId, source)} marker="data-source-schema" /><WikiSource id={canonicalId} source={source} /></>;
 }

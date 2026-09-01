@@ -1,13 +1,17 @@
 import type { Metadata } from "next";
 import { WikiDirectory } from "@/app/_components/WikiDirectory";
+import { publicPageMetadata } from "@/lib/search-discovery";
 import { searchWiki, wikiStats } from "@/lib/wikibiome";
 
-export const metadata: Metadata = {
-  title: "Search WikiBiome",
-  description: `Search ${wikiStats.totalPages} evidence-linked microbiome articles.`,
-  openGraph: { title: "Search WikiBiome", description: "Search the WikiBiome encyclopedia.", images: [] },
-  twitter: { card: "summary", title: "Search WikiBiome", description: "Search the WikiBiome encyclopedia.", images: [] },
-};
+export async function generateMetadata({ searchParams }: { searchParams: Promise<{ q?: string }> }): Promise<Metadata> {
+  const { q } = await searchParams;
+  return publicPageMetadata({
+    title: "Search WikiBiome",
+    description: `Search ${wikiStats.totalPages} evidence-linked microbiome articles.`,
+    path: "/search",
+    index: !q?.trim(),
+  });
+}
 
 export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; category?: string }> }) {
   const { q = "", category = "all" } = await searchParams;

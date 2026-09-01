@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { DiseaseArticle } from "@/app/_components/DiseaseArticle";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiArticle } from "@/app/_components/WikiArticle";
-import { articleMediaStructuredData, getArticleMedia } from "@/lib/article-media";
+import { getArticleMedia } from "@/lib/article-media";
+import { articleStructuredData, publicPageMetadata } from "@/lib/search-discovery";
 import { canonicalDiseaseId, getDiseaseRecord, getWikiPage, plainText } from "@/lib/wikibiome";
 
 type RouteProps = { params: Promise<{ id: string }> };
-const PUBLIC_ORIGIN = "https://www.wikibiome.com";
 
 export async function generateMetadata({ params }: RouteProps): Promise<Metadata> {
   const { id } = await params;
@@ -20,25 +21,15 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const media = getArticleMedia(canonicalId);
   const title = `${page.title} — WikiBiome`;
   const description = plainText(page.overview).slice(0, 180) || `Read the ${page.title} record in WikiBiome.`;
-  const socialImage = media ? new URL(media.socialSrc, PUBLIC_ORIGIN).toString() : undefined;
-
-  return {
+  return publicPageMetadata({
     title,
     description,
-    alternates: { canonical: `/article/${canonicalId}` },
-    openGraph: {
-      title,
-      description,
-      type: "article",
-      images: media && socialImage ? [{ url: socialImage, width: media.socialWidth, height: media.socialHeight, alt: media.alt }] : [],
-    },
-    twitter: {
-      card: media ? "summary_large_image" : "summary",
-      title,
-      description,
-      images: socialImage ? [socialImage] : [],
-    },
-  };
+    path: `/article/${canonicalId}`,
+    type: "article",
+    ...(media
+      ? { image: { url: media.socialSrc, width: media.socialWidth, height: media.socialHeight, alt: media.alt } }
+      : {}),
+  });
 }
 
 export default async function ArticlePage({ params }: RouteProps) {
@@ -49,23 +40,23 @@ export default async function ArticlePage({ params }: RouteProps) {
     ? getDiseaseRecord(id)
     : undefined;
   if (disease && requestedPage.category === "signature" && canonicalDiseaseId(id) !== id) {
-    redirect(`/article/${disease.canonicalId}#signature`);
+    permanentRedirect(`/article/${disease.canonicalId}#signature`);
   }
   const canonicalId = disease?.canonicalId ?? requestedPage.id;
+  const page = disease?.page ?? requestedPage;
   const media = getArticleMedia(canonicalId);
-  const schema = media
-    ? articleMediaStructuredData(media, PUBLIC_ORIGIN, `/article/${canonicalId}`)
-    : undefined;
+  const description = plainText(page.overview).slice(0, 180) || `Read the ${page.title} record in WikiBiome.`;
+  const schema = articleStructuredData({
+    page,
+    canonicalId,
+    description,
+    updated: disease?.updated ?? page.updated,
+    media,
+  });
 
   return (
     <>
-      {schema && (
-        <script
-          type="application/ld+json"
-          data-article-media-schema
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(schema).replaceAll("<", "\\u003c") }}
-        />
-      )}
+      <StructuredData data={schema} marker={media ? "data-article-media-schema" : "data-article-schema"} />
       {disease ? <DiseaseArticle record={disease} /> : <WikiArticle page={requestedPage} />}
     </>
   );

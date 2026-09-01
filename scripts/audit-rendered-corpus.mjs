@@ -19,8 +19,19 @@ const initialRoutes = [
   "/search?q=nickel",
   "/readiness",
   "/explore",
+  "/clusters",
+  "/compare",
+  "/keystone",
   "/contribute",
   "/support",
+  "/about",
+  "/researchers",
+  "/submit-work",
+  "/institutions",
+  "/research-standard",
+  "/privacy",
+  "/terms",
+  "/contact",
   ...[...new Set(content.pages.map((page) => page.category))].map((category) => `/category/${category}`),
   ...[...articleIds].map((id) => `/article/${id}`),
   ...Object.keys(content.sourceLookup).map((id) => `/source/${normalizeId(id)}`),
@@ -33,6 +44,18 @@ let checked = 0;
 let articleRoutes = 0;
 let sourceRoutes = 0;
 let articleParagraphs = 0;
+let indexableHtmlRoutes = 0;
+let selfCanonicalRoutes = 0;
+
+function canonicalKey(value) {
+  try {
+    const url = new URL(value, "https://www.wikibiome.com");
+    const pathname = url.pathname === "/" ? "/" : url.pathname.replace(/\/+$/, "");
+    return `${url.origin}${pathname}`;
+  } catch {
+    return undefined;
+  }
+}
 
 function visibleWordCount(markup) {
   return markup
@@ -88,6 +111,18 @@ async function render(pathname) {
   if (response.status === 200 && !/<title>[^<]+<\/title>/i.test(html)) failures.push(`${pathname}: document title missing`);
   if (/Server error 500|Oops, an error occurred|Internal Server Error/i.test(html)) failures.push(`${pathname}: runtime error marker rendered`);
   if (response.status === 200 && pathname.startsWith("/article/")) auditArticleReadability(pathname, html);
+  if (response.status === 200 && /<html\b/i.test(html) && !/<meta\s+name="robots"\s+content="[^"]*noindex/i.test(html)) {
+    indexableHtmlRoutes += 1;
+    const canonicals = [...html.matchAll(/<link\s+rel="canonical"\s+href="([^"]+)"/gi)].map((match) => match[1]);
+    const expected = canonicalKey(new URL(pathname, "https://www.wikibiome.com").pathname);
+    if (canonicals.length !== 1) {
+      failures.push(`${pathname}: expected one canonical link, found ${canonicals.length}`);
+    } else if (canonicalKey(canonicals[0]) !== expected) {
+      failures.push(`${pathname}: canonical ${canonicals[0]} does not match ${expected}`);
+    } else {
+      selfCanonicalRoutes += 1;
+    }
+  }
 
   for (const match of html.matchAll(/href="(\/(?:article|source)\/[^"?#]+)[^"]*"/g)) {
     const target = match[1];
@@ -113,6 +148,7 @@ await Promise.all(Array.from({ length: concurrency }, workerLoop));
 
 const uniqueFailures = [...new Set(failures)];
 console.log(`Rendered corpus audit: ${checked} routes checked (${articleRoutes} articles, ${sourceRoutes} source records, ${articleParagraphs} article paragraphs).`);
+console.log(`Canonical audit: ${selfCanonicalRoutes}/${indexableHtmlRoutes} indexable HTML routes emit exactly one self-canonical URL.`);
 if (uniqueFailures.length) {
   console.error(`${uniqueFailures.length} route failures detected:`);
   uniqueFailures.slice(0, 50).forEach((failure) => console.error(`- ${failure}`));

@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { ResearchToolsNav } from "@/app/_components/ResearchToolsNav";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { getKeystoneStudies, KEYSTONE_CRITERIA } from "@/lib/research-tools";
+import { publicPageMetadata, researchToolStructuredData } from "@/lib/search-discovery";
 
-export const metadata: Metadata = {
-  title: "Keystone studies — WikiBiome",
-  description: "Audit the studies that provide structurally important connections across WikiBiome’s evidence graph.",
-};
+const title = "Keystone studies — WikiBiome";
+const description = "Audit the studies that provide structurally important connections across WikiBiome’s evidence graph.";
+export const metadata: Metadata = publicPageMetadata({ title, description, path: "/keystone" });
 
 type PageProps = { searchParams: Promise<{ criterion?: string }> };
 
@@ -20,6 +21,7 @@ export default async function KeystonePage({ searchParams }: PageProps) {
   const dependencies = new Set(allStudies.flatMap((study) => study.usedBy.map((page) => page.id))).size;
   return (
     <>
+      <StructuredData data={researchToolStructuredData({ path: "/keystone", name: title, description })} marker="data-research-tool-schema" />
       <WikiHeader />
       <main className="tool-page keystone-page">
         <header className="tool-hero keystone-hero"><div><span>Structural evidence</span><h1>Keystone studies</h1><p>A Keystone designation identifies research that WikiBiome depends on to connect metals, microbes, mechanisms, and disease. It is a transparent graph role—not a citation prize, journal ranking, or claim that every source has equal publication status.</p></div><dl><div><dt>{allStudies.length}</dt><dd>designated studies</dd></div><div><dt>{dependencies}</dt><dd>dependent pages</dd></div><div><dt>{verified}</dt><dd>verified DOI records</dd></div></dl></header>

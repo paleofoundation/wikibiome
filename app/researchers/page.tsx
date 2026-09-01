@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { publicPageMetadata } from "@/lib/search-discovery";
 import { wikiStats } from "@/lib/wikibiome";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "Researcher network — WikiBiome",
   description: "Claim cited work, contribute research, and connect evidence across disciplines with ORCID-authenticated researchers.",
-  alternates: { canonical: "/researchers" },
-};
+  path: "/researchers",
+});
 
 export default function ResearchersPage() {
   return (

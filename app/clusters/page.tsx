@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { ResearchToolsNav } from "@/app/_components/ResearchToolsNav";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { conditionOptions, getClusterMatrix, getConditionNeighborhood, resolveCondition } from "@/lib/research-tools";
+import { publicPageMetadata, researchToolStructuredData } from "@/lib/search-discovery";
 
-export const metadata: Metadata = {
-  title: "Condition clusters — WikiBiome",
-  description: "Explore disease neighborhoods generated from shared metallomic, taxonomic, immune, ecological, and virulence signals.",
-};
+const title = "Condition clusters — WikiBiome";
+const description = "Explore disease neighborhoods generated from shared metallomic, taxonomic, immune, ecological, and virulence signals.";
+export const metadata: Metadata = publicPageMetadata({ title, description, path: "/clusters" });
 
 type PageProps = { searchParams: Promise<{ condition?: string }> };
 
@@ -20,6 +21,7 @@ export default async function ClustersPage({ searchParams }: PageProps) {
   const matrix = getClusterMatrix(selected?.id, 12);
   return (
     <>
+      <StructuredData data={researchToolStructuredData({ path: "/clusters", name: title, description })} marker="data-research-tool-schema" />
       <WikiHeader />
       <main className="tool-page clusters-page">
         <header className="tool-hero"><div><span>Signature atlas</span><h1>Condition clusters</h1><p>Diseases are placed together only when their structured signatures share directional evidence—elevated with elevated, depleted with depleted—across metals, taxa, host response, ecology, or virulence.</p></div><dl><div><dt>{conditionOptions.length}</dt><dd>canonical signatures</dd></div><div><dt>8</dt><dd>direction-aware layers</dd></div></dl></header>

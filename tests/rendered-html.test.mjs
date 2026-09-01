@@ -3,6 +3,7 @@ import { createHash } from "node:crypto";
 import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
 import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
+import { classifySearchReferrer } from "../lib/search-observability.mjs";
 import { publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 
 async function render(pathname = "/") {
@@ -26,6 +27,13 @@ async function render(pathname = "/") {
   );
 }
 
+function structuredData(html, marker) {
+  const block = [...html.matchAll(/<script\b([^>]*)type="application\/ld\+json"([^>]*)>([\s\S]*?)<\/script>/g)]
+    .find((match) => `${match[1]} ${match[2]}`.includes(marker));
+  assert.ok(block, `expected structured-data block marked ${marker}`);
+  return JSON.parse(block[3].replaceAll("&quot;", '"').replaceAll("&amp;", "&"));
+}
+
 function sourceFiles(directory) {
   return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
     const path = new URL(`${entry.name}${entry.isDirectory() ? "/" : ""}`, directory);
@@ -41,6 +49,53 @@ test("keeps internal navigation independent of the vinext client-link runtime", 
     .map((file) => file.pathname.replace(appDirectory.pathname, "app/"));
 
   assert.deepEqual(offenders, []);
+});
+
+test("counts only recognized search-engine referrers as search landings", () => {
+  assert.equal(classifySearchReferrer("https://www.google.com/search?q=nickel"), "google");
+  assert.equal(classifySearchReferrer("https://www.google.co.uk/search?q=nickel"), "google");
+  assert.equal(classifySearchReferrer("https://search.yahoo.com/search?p=microbiome"), "yahoo");
+  assert.equal(classifySearchReferrer("https://search.brave.com/search?q=dysbiosis"), "other-search");
+  assert.equal(classifySearchReferrer("https://example.org/research-links"), undefined);
+  assert.equal(classifySearchReferrer("https://microbiomemedicine.com/resources"), undefined);
+  assert.equal(classifySearchReferrer("https://google.evil.example/search?q=nickel"), undefined);
+  assert.equal(classifySearchReferrer("not a URL"), undefined);
+});
+
+test("accepts only privacy-limited search observability events", async () => {
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-observability`);
+  const { default: worker } = await import(workerUrl.href);
+  const env = { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } };
+  const ctx = { waitUntil() {}, passThroughOnException() {} };
+  const captured = [];
+  const originalInfo = console.info;
+  console.info = (...items) => captured.push(items);
+  try {
+    const accepted = await worker.fetch(new Request("http://localhost/api/search-observability", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ version: 1, event: "search_landing", path: "/article/nickel", source: "google" }),
+    }), env, ctx);
+    const rejectedSource = await worker.fetch(new Request("http://localhost/api/search-observability", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ version: 1, event: "search_landing", path: "/article/nickel", source: "ordinary-referral" }),
+    }), env, ctx);
+    const rejectedQuery = await worker.fetch(new Request("http://localhost/api/search-observability", {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ version: 1, event: "search_landing", path: "/article/nickel?q=private", source: "google" }),
+    }), env, ctx);
+
+    assert.equal(accepted.status, 202);
+    assert.equal(rejectedSource.status, 400);
+    assert.equal(rejectedQuery.status, 400);
+    assert.equal(captured.length, 1);
+    assert.deepEqual(JSON.parse(captured[0][1]), { version: 1, event: "search_landing", path: "/article/nickel", source: "google" });
+  } finally {
+    console.info = originalInfo;
+  }
 });
 
 test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
@@ -71,11 +126,18 @@ test("serves versioned scientific WebPs with an explicit image MIME type", async
   assert.equal(response.headers.get("content-type"), "image/webp");
   assert.equal(response.headers.get("x-content-type-options"), "nosniff");
   assert.equal(response.headers.get("cache-control"), "public, max-age=31536000, immutable");
-  assert.equal(legacyResponse.headers.get("content-type"), "image/webp");
+  assert.equal(legacyResponse.status, 308);
+  assert.equal(legacyResponse.headers.get("location"), "http://localhost/media/image/nickel-technical-specimen-v2.webp");
   assert.deepEqual(fetchedAssetUrls, [
     "http://localhost/media-files/nickel-technical-specimen-v2.webp",
-    "http://localhost/media-files/nickel-technical-specimen-v2.webp",
   ]);
+
+  const unregisteredResponse = await worker.fetch(
+    new Request("http://localhost/media/image/unreviewed-draft-v1.webp"),
+    { ASSETS: assets },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+  assert.equal(unregisteredResponse.status, 404);
 });
 
 test("server-renders the WikiBiome portal and anatomical knowledge map", async () => {
@@ -231,6 +293,13 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
       assert.ok(propertyIDs.has(required), `${id} requires ${required}`);
     }
   }
+  const registeredPublishedFiles = Object.values(articleMediaRegistry)
+    .flatMap((media) => [media.publishedFile, media.socialFile])
+    .sort();
+  const publiclyStoredMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url))
+    .filter((filename) => filename.endsWith(".webp"))
+    .sort();
+  assert.deepEqual(publiclyStoredMediaFiles, registeredPublishedFiles, "public media storage must contain only registered reviewed derivatives");
 
   assert.throws(
     () => articleMediaFileNames("Escherichia Coli", "morphology", 1),
@@ -358,7 +427,7 @@ test("canonicalizes legacy signature URLs and applies the generator to every dis
     render("/category/signature"),
   ]);
 
-  assert.equal(legacy.status, 307);
+  assert.equal(legacy.status, 308);
   assert.equal(legacy.headers.get("location"), "/article/alzheimers-disease#signature");
 
   assert.equal(parkinsons.status, 200);
@@ -506,22 +575,25 @@ test("renders the production discovery, provenance, support, and participation s
 });
 
 test("preserves legacy utility routes and publishes the canonical indexing contract", async () => {
-  const [privacyResponse, termsResponse, contactResponse, sitemapResponse, robotsResponse] = await Promise.all([
+  const [privacyResponse, termsResponse, contactResponse, sitemapResponse, imageSitemapResponse, robotsResponse] = await Promise.all([
     render("/privacy"),
     render("/terms"),
     render("/contact"),
     render("/sitemap.xml"),
+    render("/image-sitemap.xml"),
     render("/robots.txt"),
   ]);
-  for (const response of [privacyResponse, termsResponse, contactResponse, sitemapResponse, robotsResponse]) {
+  for (const response of [privacyResponse, termsResponse, contactResponse, sitemapResponse, imageSitemapResponse, robotsResponse]) {
     assert.equal(response.status, 200);
   }
 
-  const [privacy, terms, contact, sitemap, robots] = await Promise.all([
-    privacyResponse.text(), termsResponse.text(), contactResponse.text(), sitemapResponse.text(), robotsResponse.text(),
+  const [privacy, terms, contact, sitemap, imageSitemap, robots] = await Promise.all([
+    privacyResponse.text(), termsResponse.text(), contactResponse.text(), sitemapResponse.text(), imageSitemapResponse.text(), robotsResponse.text(),
   ]);
   assert.match(privacy, /Signed-in contributions/);
   assert.match(privacy, /privacy@wikibiome\.com/);
+  assert.match(privacy, /Search and performance measurement/);
+  assert.match(privacy, /does not record a search query, full referrer, cookie, account or session identifier/);
   assert.match(terms, /Educational information/);
   assert.match(terms, /Creative Commons Attribution-ShareAlike 4\.0/);
   assert.match(terms, /Financial support cannot purchase citations/);
@@ -531,8 +603,17 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/article\/nickel<\/loc>/);
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/source\/ahmed-2025-metals-alzheimers-mechanistic-review<\/loc>/);
   assert.ok((sitemap.match(/<url>/g) ?? []).length > 2_500);
+  assert.match(imageSitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
+  assert.equal((imageSitemap.match(/<image:image>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
+  assert.equal((imageSitemap.match(/<url>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
+  assert.match(imageSitemap, /<loc>https:\/\/www\.wikibiome\.com\/article\/akkermansia-muciniphila<\/loc>/);
+  assert.match(imageSitemap, /<image:loc>https:\/\/www\.wikibiome\.com\/media\/image\/akkermansia-muciniphila-morphology-v2\.webp<\/image:loc>/);
+  assert.doesNotMatch(imageSitemap, /image:(?:title|caption|license)/);
+  assert.doesNotMatch(imageSitemap, /social\.webp|unreviewed|draft/i);
   assert.match(robots, /Disallow: \/api\//);
+  assert.match(robots, /Disallow: \/media-files\//);
   assert.match(robots, /Sitemap: https:\/\/www\.wikibiome\.com\/sitemap\.xml/);
+  assert.match(robots, /Sitemap: https:\/\/www\.wikibiome\.com\/image-sitemap\.xml/);
 
   const redirects = [
     ["/matrix", "/clusters"],
@@ -565,6 +646,69 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(stylesheet.slice(mobileReadingMode), /\.lead-copy p:first-child::first-letter \{ float:none/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.reference-list p \{ font-family:Arial[^}]*font-size:16px/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.citation-preview \{ display:none!important/);
+});
+
+test("publishes self-canonical metadata, social previews, and representative Schema.org graphs", async () => {
+  const routes = [
+    ["/article/akkermansia-muciniphila", "data-article-media-schema", ["WebPage", "Article", "ImageObject"]],
+    ["/source/amadi-2022-dietary-interventions-asd-systematic-review", "data-source-schema", ["WebPage", "ScholarlyArticle"]],
+    ["/category/microbe", "data-category-schema", ["CollectionPage"]],
+    ["/explore", "data-research-tool-schema", ["WebApplication"]],
+  ];
+
+  for (const [path, marker, expectedTypes] of routes) {
+    const response = await render(path);
+    assert.equal(response.status, 200);
+    const html = await response.text();
+    const canonical = `https://www.wikibiome.com${path}`;
+    assert.match(html, new RegExp(`<link rel="canonical" href="${canonical.replaceAll("/", "\\/")}"`));
+    assert.match(html, new RegExp(`property="og:url" content="${canonical.replaceAll("/", "\\/")}"`));
+    assert.match(html, /property="og:image" content="https:\/\/www\.wikibiome\.com\//);
+    assert.match(html, /name="twitter:image" content="https:\/\/www\.wikibiome\.com\//);
+    assert.doesNotMatch(html, /<meta name="robots" content="noindex/);
+
+    const schema = structuredData(html, marker);
+    const nodes = schema["@graph"] ?? [schema];
+    const types = nodes.flatMap((node) => Array.isArray(node["@type"]) ? node["@type"] : [node["@type"]]);
+    for (const type of expectedTypes) assert.ok(types.includes(type), `${path} should publish ${type}`);
+  }
+
+  const articleResponse = await render("/article/akkermansia-muciniphila");
+  const articleHtml = await articleResponse.text();
+  const articleSchema = structuredData(articleHtml, "data-article-media-schema");
+  const image = articleSchema["@graph"].find((node) => node["@type"] === "ImageObject");
+  assert.equal(image.contentUrl, "https://www.wikibiome.com/media/image/akkermansia-muciniphila-morphology-v2.webp");
+  assert.match(image.name, /Akkermansia muciniphila morphology/);
+  assert.match(image.caption, /Representative morphology/);
+  assert.equal(image.license, articleMediaPolicy.license.url);
+  assert.equal(image.creditText, "WikiBiome / Microbiome Medicine");
+  assert.equal(image.representativeOfPage, true);
+
+  const signatureResponse = await render("/category/signature");
+  const signatureHtml = await signatureResponse.text();
+  const signatureSchema = structuredData(signatureHtml, "data-category-schema");
+  const signatureUrls = signatureSchema.mainEntity.itemListElement.map((item) => item.url);
+  assert.ok(signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease"));
+  assert.ok(!signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease-signature"), "collection schema must resolve known signature aliases to canonical articles");
+
+  const noMediaResponse = await render("/article/cadmium");
+  const noMediaHtml = await noMediaResponse.text();
+  const noMediaSchema = structuredData(noMediaHtml, "data-article-schema");
+  assert.ok(noMediaSchema["@graph"].some((node) => node["@type"] === "Article"));
+  assert.ok(!noMediaSchema["@graph"].some((node) => node["@type"] === "ImageObject"));
+
+  const [searchResponse, invalidCategoryResponse] = await Promise.all([
+    render("/search?q=nickel"),
+    render("/category/not-a-public-domain"),
+  ]);
+  const searchHtml = await searchResponse.text();
+  assert.match(searchHtml, /<link rel="canonical" href="https:\/\/www\.wikibiome\.com\/search"/);
+  assert.match(searchHtml, /<meta name="robots" content="noindex, follow"/);
+  assert.equal(invalidCategoryResponse.status, 404);
+
+  const sourceAlias = await render("/source/abraham-2005-drug-therapy-graves");
+  assert.equal(sourceAlias.status, 308);
+  assert.equal(sourceAlias.headers.get("location"), "/source/azizi-2017-systematic-review-drug-therapy-graves");
 });
 
 test("renders the claim, contribute, collaborate researcher network", async () => {

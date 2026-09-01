@@ -1,6 +1,7 @@
 /** Cloudflare Worker entry point for the vinext-starter template. */
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
+import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 
 interface Env {
   ASSETS: Fetcher;
@@ -25,15 +26,30 @@ interface ExecutionContext {
 // dangerouslyAllowSVG: true in next.config.js and uncomment below:
 // const imageConfig: ImageConfig = { dangerouslyAllowSVG: true };
 
+const registeredMedia = new Map<string, "image" | "social">(
+  Object.values(articleMediaRegistry).flatMap((media) => [
+    [media.publishedFile, "image" as const],
+    [media.socialFile, "social" as const],
+  ]),
+);
+
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
 
     if (url.pathname.startsWith("/media/") && url.pathname.endsWith(".webp")) {
-      const canonicalMatch = url.pathname.match(/^\/media\/(?:image|social)\/([^/]+\.webp)$/);
+      const canonicalMatch = url.pathname.match(/^\/media\/(image|social)\/([^/]+\.webp)$/);
       const legacyMatch = url.pathname.match(/^\/media\/([^/]+\.webp)$/);
-      const filename = canonicalMatch?.[1] ?? legacyMatch?.[1];
+      const filename = canonicalMatch?.[2] ?? legacyMatch?.[1];
       if (!filename) return handler.fetch(request, env, ctx);
+      const registeredKind = registeredMedia.get(filename);
+      if (!registeredKind) return new Response("Not found", { status: 404 });
+      if (legacyMatch) {
+        return Response.redirect(new URL(`/media/${registeredKind}/${filename}`, request.url), 308);
+      }
+      if (canonicalMatch?.[1] !== registeredKind) {
+        return Response.redirect(new URL(`/media/${registeredKind}/${filename}`, request.url), 308);
+      }
       const assetUrl = new URL(`/media-files/${filename}`, request.url);
       const assetRequest = new Request(assetUrl, request);
       if (!env?.ASSETS) return Response.redirect(assetUrl, 307);

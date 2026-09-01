@@ -19,6 +19,8 @@
     "corpus:audit": "node scripts/audit-rendered-corpus.mjs",
     "audit:post-cutover": "node scripts/audit-wikibiome-post-cutover.mjs",
     "audit:post-cutover:test": "node --test tests/post-cutover-audit.test.mjs",
+    "search:audit": "node scripts/audit-search-surface.mjs",
+    "search:verify": "npm run build && node --test tests/rendered-html.test.mjs && npm run search:audit && npm run corpus:audit",
     "media:pilot": "node scripts/process-pilot-images.mjs",
     "revisions:sync": "node scripts/generate-revision-history.mjs",
     "db:generate": "drizzle-kit generate"
@@ -27,7 +29,8 @@
     "drizzle-orm": "0.45.2",
     "js-yaml": "4.1.1",
     "react": "19.2.6",
-    "react-dom": "19.2.6"
+    "react-dom": "19.2.6",
+    "web-vitals": "^6.2.1"
   },
   "devDependencies": {
     "@cloudflare/vite-plugin": "1.37.1",

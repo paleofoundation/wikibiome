@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { publicPageMetadata } from "@/lib/search-discovery";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "WikiBiome-Ready Research Standard",
   description: "A practical reporting standard for research that can be reliably connected across microbiome, metallomics, and other omics domains.",
-  alternates: { canonical: "/research-standard" },
-};
+  path: "/research-standard",
+});
 
 const core = [
   ["Identity", "DOI, PMID, or another persistent identifier; complete authorship; ORCID iDs; ROR organization identifiers."],

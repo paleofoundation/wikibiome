@@ -3,9 +3,10 @@ import Link from "@/app/_components/NativeLink";
 import { InstitutionRequestForm } from "@/app/_components/InstitutionRequestForm";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { getResearcherSession, listApprovedInstitutions } from "@/lib/research-network";
+import { publicPageMetadata } from "@/lib/search-discovery";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { title: "Research institutions — WikiBiome", description: "ROR-identified institutions pooling research for moderated WikiBiome ingestion." };
+export const metadata: Metadata = publicPageMetadata({ title: "Research institutions — WikiBiome", description: "ROR-identified institutions pooling research for moderated WikiBiome ingestion.", path: "/institutions" });
 
 export default async function InstitutionsPage() {
   const [account, institutions] = await Promise.all([getResearcherSession(), listApprovedInstitutions()]);

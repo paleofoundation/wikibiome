@@ -3,13 +3,13 @@ import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { getCutoverReport, type CutoverItem } from "@/lib/cutover-readiness";
 import { filterMigrationEntries, getMigrationReport } from "@/lib/readiness";
+import { publicPageMetadata } from "@/lib/search-discovery";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "Go-live and corpus readiness — WikiBiome",
   description: "A transparent cutover, migration, and evidence-integrity register for WikiBiome.",
-  openGraph: { title: "Go-live and corpus readiness — WikiBiome", description: "WikiBiome cutover and evidence-integrity status.", images: [] },
-  twitter: { card: "summary", title: "Go-live and corpus readiness — WikiBiome", description: "WikiBiome cutover and evidence-integrity status.", images: [] },
-};
+  path: "/readiness",
+});
 
 type SearchParams = Promise<{ status?: string; category?: string; q?: string }>;
 

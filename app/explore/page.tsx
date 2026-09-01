@@ -1,16 +1,15 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { ResearchToolsNav } from "@/app/_components/ResearchToolsNav";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { getKnowledgeNeighborhood, graphArticleOptions, knowledgeGraphStats, type GraphNode } from "@/lib/research-tools";
+import { publicPageMetadata, researchToolStructuredData } from "@/lib/search-discovery";
 import { categoryLabel } from "@/lib/wikibiome";
 
-export const metadata: Metadata = {
-  title: "Explore the knowledge system — WikiBiome",
-  description: "Follow organisms, metals, diseases, mechanisms, and interventions through the WikiBiome knowledge system.",
-  openGraph: { title: "Explore the knowledge system — WikiBiome", description: "Navigate the connected WikiBiome corpus.", images: [] },
-  twitter: { card: "summary", title: "Explore the knowledge system — WikiBiome", description: "Navigate the connected WikiBiome corpus.", images: [] },
-};
+const title = "Explore the knowledge system — WikiBiome";
+const description = "Follow organisms, metals, diseases, mechanisms, and interventions through the WikiBiome knowledge system.";
+export const metadata: Metadata = publicPageMetadata({ title, description, path: "/explore" });
 
 type PageProps = { searchParams: Promise<{ focus?: string }> };
 
@@ -39,6 +38,7 @@ export default async function ExplorePage({ searchParams }: PageProps) {
   const layout = graphPositions(graph.nodes);
   return (
     <>
+      <StructuredData data={researchToolStructuredData({ path: "/explore", name: title, description })} marker="data-research-tool-schema" />
       <WikiHeader />
       <main className="tool-page graph-page">
         <header className="tool-hero graph-hero">

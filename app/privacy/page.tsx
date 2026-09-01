@@ -1,14 +1,13 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { publicPageMetadata } from "@/lib/search-discovery";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "Privacy — WikiBiome",
   description: "How WikiBiome handles browsing, contribution, authentication, and support-payment information.",
-  alternates: { canonical: "/privacy" },
-  openGraph: { title: "Privacy — WikiBiome", description: "WikiBiome privacy information.", images: [] },
-  twitter: { card: "summary", title: "Privacy — WikiBiome", description: "WikiBiome privacy information.", images: [] },
-};
+  path: "/privacy",
+});
 
 export default function PrivacyPage() {
   return (
@@ -20,6 +19,7 @@ export default function PrivacyPage() {
       <section><h2>Research uploads and discussions</h2><p>Submitted bibliographic metadata and review records are retained for editorial provenance. Optional PDF manuscripts are accepted only with a rights attestation, stored privately in a quarantine bucket, and are not made available to readers. Files that are oversized, encrypted, or contain active or embedded content are rejected; quarantined files remain unavailable until a clean scan is recorded.</p><p>Public discussion posts, revisions, source links, conflict disclosures, and attributed researcher identities are retained as part of the scientific record. Reports, moderator notes, blocks, rate-limit events, and audit events are kept to support safety and accountable moderation. Do not post personal health information.</p></section>
       <section><h2>Support payments</h2><p>Support payments open a Stripe-hosted checkout page. Stripe processes payment credentials for Microbiome Signatures LLC. WikiBiome does not request or store card numbers in its application code. Stripe’s own privacy terms apply to the checkout service.</p></section>
       <section><h2>Cookies and local storage</h2><p>The site uses essential, signed-in session cookies for contribution and researcher workflows. Researcher cookies are HTTP-only and SameSite-protected; OAuth attempts use expiring, single-use state records. Device-native features such as copying or sharing a link run in your browser. WikiBiome does not include an advertising network or sell browsing information for marketing.</p></section>
+      <section><h2>Search and performance measurement</h2><p>WikiBiome uses a first-party, privacy-limited measurement endpoint to count landings by search-engine family and to sample Core Web Vitals. The application records the normalized page path, metric name, value, rating, and navigation type. It does not record a search query, full referrer, cookie, account or session identifier, IP field, or user-agent field in the analytics event. These events are written to the site’s existing operational logs; no third-party analytics script or advertising tracker is loaded.</p></section>
       <section><h2>Retention and requests</h2><p>Contribution records are retained to support attribution, editorial review, abuse prevention, and revision history. To request access, correction, or deletion of personal information where applicable, email <a href="mailto:privacy@wikibiome.com">privacy@wikibiome.com</a>. Some records may need to be retained when required for security, legal obligations, or the integrity of an attributed public revision.</p></section>
       <section><h2>Related pages</h2><p><Link href="/terms">Read the Terms of Use</Link>, <Link href="/contact">contact WikiBiome</Link>, or inspect the <Link href="/readiness">public go-live and corpus register</Link>.</p></section>
     </article></main></>

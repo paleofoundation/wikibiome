@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { publicPageMetadata } from "@/lib/search-discovery";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "Thank you for supporting WikiBiome",
   description: "Thank you for helping sustain WikiBiome’s open, evidence-linked microbiome encyclopedia.",
-  openGraph: { title: "Thank you for supporting WikiBiome", description: "Your support helps keep WikiBiome free, ad-free, and evidence-linked.", images: [] },
-  twitter: { card: "summary", title: "Thank you for supporting WikiBiome", description: "Your support helps keep WikiBiome free, ad-free, and evidence-linked.", images: [] },
-};
+  path: "/support/thank-you",
+  index: false,
+});
 
 export default function SupportThankYouPage() {
   return (

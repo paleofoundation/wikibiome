@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { publicPageMetadata } from "@/lib/search-discovery";
 import { canonicalArticleId, categoryLabel, getWikiPage } from "@/lib/wikibiome";
 import { getRevisionHistory } from "@/lib/revisions";
 
@@ -11,9 +12,10 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const { id } = await params;
   const page = getWikiPage(id);
   if (!page) return { title: "Revision history not found — WikiBiome" };
+  const canonicalId = canonicalArticleId(id);
   const title = `Revision history: ${page.title} — WikiBiome`;
   const description = `Source provenance and revision history for the WikiBiome article ${page.title}.`;
-  return { title, description, openGraph: { title, description, images: [] }, twitter: { card: "summary", title, description, images: [] } };
+  return publicPageMetadata({ title, description, path: `/article/${canonicalId}/history`, type: "article" });
 }
 
 export default async function ArticleHistoryPage({ params }: RouteProps) {
@@ -21,7 +23,7 @@ export default async function ArticleHistoryPage({ params }: RouteProps) {
   const page = getWikiPage(id);
   if (!page) notFound();
   const canonicalId = canonicalArticleId(id);
-  if (canonicalId !== id) redirect(`/article/${canonicalId}/history`);
+  if (canonicalId !== id) permanentRedirect(`/article/${canonicalId}/history`);
   const history = getRevisionHistory(page);
 
   return (

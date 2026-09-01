@@ -1,12 +1,14 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { publicPageMetadata } from "@/lib/search-discovery";
 import { wikiStats } from "@/lib/wikibiome";
 
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "About WikiBiome",
   description: "WikiBiome is an open, evidence-linked human microbiome encyclopedia and a project of Microbiome Medicine.",
-};
+  path: "/about",
+});
 
 const profile = {
   name: "Karen Pendergrass",
@@ -19,7 +21,7 @@ export default function AboutPage() {
     "@context": "https://schema.org",
     "@type": "Person",
     name: profile.name,
-    image: "https://wikibiome.com/karen-pendergrass.avif",
+    image: "https://www.wikibiome.com/karen-pendergrass.avif",
     url: profile.website,
     sameAs: [profile.orcid, "https://microbiomemedicine.com", "https://heavymetalindex.com"],
     jobTitle: "Translational microbiome scientist and founder of Microbiome Medicine",

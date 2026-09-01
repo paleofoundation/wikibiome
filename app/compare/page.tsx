@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { ResearchToolsNav } from "@/app/_components/ResearchToolsNav";
+import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { compareConditions, conditionOptions } from "@/lib/research-tools";
+import { publicPageMetadata, researchToolStructuredData } from "@/lib/search-discovery";
 
-export const metadata: Metadata = {
-  title: "Compare condition signatures — WikiBiome",
-  description: "Compare two canonical disease signatures layer by layer with shared and unique signals linked to their evidence pages.",
-};
+const title = "Compare condition signatures — WikiBiome";
+const description = "Compare two canonical disease signatures layer by layer with shared and unique signals linked to their evidence pages.";
+export const metadata: Metadata = publicPageMetadata({ title, description, path: "/compare" });
 
 type PageProps = { searchParams: Promise<{ a?: string; b?: string }> };
 type Item = { id: string; label: string; pageId?: string };
@@ -24,6 +25,7 @@ export default async function ComparePage({ searchParams }: PageProps) {
   const { a, b } = comparison;
   return (
     <>
+      <StructuredData data={researchToolStructuredData({ path: "/compare", name: title, description })} marker="data-research-tool-schema" />
       <WikiHeader />
       <main className="tool-page compare-page">
         <header className="tool-hero"><div><span>Comparative evidence</span><h1>Compare conditions</h1><p>Put two canonical disease records side by side. The result is a shareable, deterministic comparison of what is shared, what is unique, and how much evidence each record currently carries.</p></div><dl><div><dt>{comparison.score}%</dt><dd>weighted overlap</dd></div><div><dt>{comparison.sharedCount}</dt><dd>shared signals</dd></div></dl></header>

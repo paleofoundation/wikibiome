@@ -3,9 +3,10 @@ import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { WorkSubmissionForm } from "@/app/_components/WorkSubmissionForm";
 import { getResearcherSession, getResearchNetworkCapabilities } from "@/lib/research-network";
+import { publicPageMetadata } from "@/lib/search-discovery";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { title: "Submit research — WikiBiome", description: "Submit a DOI, PMID, or preprint to WikiBiome’s moderated research intake.", robots: { index: true, follow: true } };
+export const metadata: Metadata = publicPageMetadata({ title: "Submit research — WikiBiome", description: "Submit a DOI, PMID, or preprint to WikiBiome’s moderated research intake.", path: "/submit-work" });
 
 export default async function SubmitWorkPage() {
   const [account, capabilities] = await Promise.all([getResearcherSession(), getResearchNetworkCapabilities()]);

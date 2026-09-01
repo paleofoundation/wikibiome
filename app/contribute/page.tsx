@@ -2,14 +2,14 @@ import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { getChatGPTUser, chatGPTSignInPath } from "@/app/chatgpt-auth";
 import { WikiHeader } from "@/app/_components/WikiArticle";
+import { publicPageMetadata } from "@/lib/search-discovery";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = {
+export const metadata: Metadata = publicPageMetadata({
   title: "Contribute — WikiBiome",
   description: "Suggest sourced improvements to WikiBiome articles through a moderated revision workflow.",
-  openGraph: { title: "Contribute — WikiBiome", description: "Help improve the evidence-linked WikiBiome encyclopedia.", images: [] },
-  twitter: { card: "summary", title: "Contribute — WikiBiome", description: "Help improve the evidence-linked WikiBiome encyclopedia.", images: [] },
-};
+  path: "/contribute",
+});
 
 export default async function ContributePage() {
   const user = await getChatGPTUser();
