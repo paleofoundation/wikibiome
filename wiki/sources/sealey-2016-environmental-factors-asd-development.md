@@ -11,7 +11,7 @@ evidence_level: expert-opinion
 tags: [autism, environmental-factors, neurotoxins, heavy-metals, mercury, aluminum, glyphosate, fragrances, endocrine-disruptors, vaccines, maternal-antibodies]
 platform: wikibiome
 metals_discussed: [aluminum, arsenic, lead, manganese, mercury]
-taxa_discussed: [bacteroides-fragilis, clostridium]
+taxa_discussed: [bacteroides-fragilis, clostridium, clostridioides-difficile]
 karen_brain_primitives: [1]
 ---
 

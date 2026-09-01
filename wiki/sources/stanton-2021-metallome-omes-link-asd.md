@@ -11,7 +11,7 @@ tags: [autism, metallome, multi-omics, zinc, copper, iron, proteome, transcripto
 platform: wikibiome
 evidence_level: animal-model
 metals_discussed: [cadmium, copper, iron, lead, mercury, zinc]
-taxa_discussed: [clostridium]
+taxa_discussed: [clostridium, clostridioides-difficile]
 karen_brain_primitives: [1, 2, 3, 4]
 ---
 

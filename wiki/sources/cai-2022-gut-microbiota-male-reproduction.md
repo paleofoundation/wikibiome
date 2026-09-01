@@ -18,7 +18,7 @@ platform: both
 condition: erectile dysfunction
 karen_brain_primitives: [1, 2, 4, 5, 9]
 metals_discussed: [zinc, calcium, cadmium, iron]
-taxa_discussed: [desulfovibrio, desulfobacter, desulforomonas, lactobacillus, bifidobacterium, bacteroides-fragilis, escherichia-coli, clostridium, prevotella, prevotellaceae, streptococcus, enterococcus, bacillus, corynebacterium, parabacter, acidobacillus, salmonella-enterica, enterobacter, sphingobium, proteobacteria, staphylococcus-aureus, clostridium-ramosum, lactobacillus-plantarum]
+taxa_discussed: [desulfovibrio, desulfobacter, desulforomonas, lactobacillus, bifidobacterium, bacteroides-fragilis, escherichia-coli, clostridium, clostridioides-difficile, prevotella, prevotellaceae, streptococcus, enterococcus, bacillus, corynebacterium, parabacter, acidobacillus, salmonella-enterica, enterobacter, sphingobium, proteobacteria, staphylococcus-aureus, clostridium-ramosum, lactobacillus-plantarum]
 key_findings:
   - "Gut microbiota produce H2S (via Desulfovibrio, Desulfobacter, Desulforomonas) that induces penile erection through cGMP-dependent smooth muscle relaxation, paralleling the NO/cGMP pathway"
   - "GM synthesizes vitamins A, K, folic acid, and calcium essential for spermatogenesis, with specific taxa mapped to each nutrient"

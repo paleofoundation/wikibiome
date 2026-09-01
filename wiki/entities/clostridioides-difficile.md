@@ -4,24 +4,48 @@ title: Clostridioides difficile
 type: entity
 subtype: microbe
 created: 2026-04-09
-updated: 2026-04-09
-sources: [maier-2019-nickel-microbial-pathogenesis, zhang-2021-cadmium-gut-liver-axis-alzheimers-mouse, zhu-2024-toxic-essential-metals-gut-microbiota]
-source_count: 3
+updated: 2026-09-01
+sources:
+  - ncbi-taxonomy-clostridioides-difficile
+  - lpsn-clostridioides-difficile
+  - lawson-2016-clostridioides-difficile-reclassification
+  - maier-2019-nickel-microbial-pathogenesis
+  - zhang-2021-cadmium-gut-liver-axis-alzheimers-mouse
+  - zhu-2024-toxic-essential-metals-gut-microbiota
+  - rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental
+  - barras-2018-silver-antibiotic-synergy-mismetallation
+  - cai-2022-gut-microbiota-male-reproduction
+  - sealey-2016-environmental-factors-asd-development
+  - zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders
+  - stanton-2021-metallome-omes-link-asd
+source_count: 12
 metal_dependencies: [nickel, zinc, iron]
 key_enzymes: [Ni-GloI (predicted), Zn-dependent toxins TcdA/TcdB]
-tags: [pathogen, opportunistic, antibiotic-associated, colitis, metal-antibiotic-co-selection, spore-forming]
+tags: [pathogen, opportunistic, antibiotic-associated, colitis, metal-antibiotic-co-selection, spore-forming, taxonomy, clostridium-difficile-historical-name]
 platform: wikibiome
-last_substantive_update: 2026-04-13
-seo_target: "Clostridioides difficile zinc toxin metal antibiotic co-selection"
-wikipedia_differentiation: "Zinc-dependent TcdA/TcdB toxin mechanism and metal-antibiotic co-selection framework for post-dysbiosis opportunism"
+last_substantive_update: 2026-09-01
+seo_target: "Clostridioides difficile NCBITaxon 1496 Clostridium difficile historical synonym zinc toxin metal antibiotic co-selection"
+wikipedia_differentiation: "Current Clostridioides difficile identity reconciled with the Clostridium difficile homotypic synonym, alongside zinc-dependent toxin biology and metal-antibiotic co-selection"
 conditions_enriched_in: [antibiotic-associated-diarrhea, pseudomembranous-colitis]
 conditions_depleted_in: []
 pathogenic_potential: opportunistic
+ncbi_taxonomy_id: 1496
+historical_names: [Clostridium difficile]
 ---
 
 # Clostridioides difficile
 
-A Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the metallomics framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-dysbiosis opportunism, and [[zinc]]-dependent toxin activity.
+*Clostridioides difficile* is the current NCBI name for NCBITaxon:1496 and the correct, medically recommended combination recorded by LPSN. Both records retain *Clostridium difficile* as a validly published homotypic synonym of the same organism rather than a separate species [[ncbi-taxonomy-clostridioides-difficile]] [[lpsn-clostridioides-difficile]].
+
+It is a Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the metallomics framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-dysbiosis opportunism, and [[zinc]]-dependent toxin activity.
+
+## Nomenclature and Historical-Label Boundary
+
+Lawson and colleagues proposed the genus *Clostridioides* in 2016 after 16S rRNA, phenotypic, chemotaxonomic, and phylogenetic analyses placed the organism with *C. mangenotii* in Peptostreptococcaceae, far from *Clostridium butyricum* and *Clostridium* sensu stricto. Their new combination made *Clostridioides difficile* the type species of the genus [[lawson-2016-clostridioides-difficile-reclassification]].
+
+Clinical practice and older literature continue to use “C. diff” and *Clostridium difficile*. WikiBiome preserves that wording when it is the name printed by a source, but current titles, metadata, taxonomy, and internal links use *Clostridioides difficile*. Canonicalizing the route does not silently change a historical study label, strain description, or reported conclusion.
+
+The retired duplicate carried six source associations that use the historical combination in their original contexts: two autism-focused reviews, a silver-antibiotic review, a microbial-folate narrative, a perioperative-neuroinflammation review discussing FMT, and a metallome review [[rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental]] [[sealey-2016-environmental-factors-asd-development]] [[barras-2018-silver-antibiotic-synergy-mismetallation]] [[cai-2022-gut-microbiota-male-reproduction]] [[zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders]] [[stanton-2021-metallome-omes-link-asd]]. Those associations are retained for traceability; they are not treated as taxonomic authority or as support for claims beyond what each source states.
 
 ## Metal-Dependent Virulence
 

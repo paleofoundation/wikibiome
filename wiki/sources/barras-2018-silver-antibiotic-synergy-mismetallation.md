@@ -13,7 +13,7 @@ library_category: antimicrobial_resistance
 platform: wikibiome
 condition: "silver antimicrobial mechanisms"
 metals_discussed: [copper, iron, zinc]
-taxa_discussed: [clostridium, escherichia-coli]
+taxa_discussed: [clostridium, clostridioides-difficile, escherichia-coli]
 karen_brain_primitives: [3, 4, 9]
 key_findings: ["Fe-S cluster-containing dehydratases"]
 ---

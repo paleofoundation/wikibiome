@@ -18,7 +18,7 @@ platform: both
 condition: "perioperative neurocognitive disorders"
 karen_brain_primitives: [1, 2, 5, 9]
 metals_discussed: []
-taxa_discussed: [lactobacillus, bifidobacterium, escherichia-shigella, fusobacteria, proteobacteria, bacteroides, prevotella, akkermansia, lachnospiraceae, butyrivibrio, eubacterium, pseudomonas, staphylococcus, enterococcus]
+taxa_discussed: [lactobacillus, bifidobacterium, escherichia-shigella, fusobacteria, proteobacteria, bacteroides, prevotella, akkermansia, lachnospiraceae, butyrivibrio, eubacterium, pseudomonas, staphylococcus, enterococcus, clostridioides-difficile]
 key_findings:
   - "Perioperative gut microbiota dysbiosis drives neuroinflammation via gut barrier disruption, BBB compromise, HPA axis dysregulation, vagus nerve signaling, and immune cell activation"
   - "Fecal microbiota transplantation from PND patients to germ-free mice reproduces cognitive impairment, establishing a causal role for the microbiome"

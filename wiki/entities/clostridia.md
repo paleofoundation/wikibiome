@@ -32,7 +32,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Clostridia
 
-A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicutes that represents the most functionally diverse and clinically significant taxonomic class in the human gut microbiome. Clostridia encompasses the dominant butyrate producers sustaining colonic health, the spore-forming bacteria regulating 90% of the body's serotonin production, and some of the most dangerous human pathogens ([[clostridium-difficile]], [[clostridium-perfringens]], *C. botulinum*, *C. tetani*). This extraordinary functional range means class-level statements about Clostridia enrichment or depletion must always be interpreted with sub-class resolution.
+A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicutes that represents the most functionally diverse and clinically significant taxonomic class in the human gut microbiome. Clostridia encompasses the dominant butyrate producers sustaining colonic health, the spore-forming bacteria regulating 90% of the body's serotonin production, and some of the most dangerous human pathogens ([[clostridioides-difficile]], [[clostridium-perfringens]], *C. botulinum*, *C. tetani*). This extraordinary functional range means class-level statements about Clostridia enrichment or depletion must always be interpreted with sub-class resolution.
 
 ## Taxonomy
 
@@ -93,6 +93,6 @@ Clostridia clusters IV and XIVa are consistently depleted in MS and CD, represen
 - [[serotonin]] -- spore-forming Clostridia stimulate EC cell serotonin production
 - [[butyrate]] -- the key beneficial metabolite
 - [[schizophrenia]] -- Clostridia as causal risk factor via MR
-- [[clostridium-difficile]] -- the pathogenic counterpart within the class
+- [[clostridioides-difficile]] -- the pathogenic counterpart within the class
 - [[betaproteobacteria]] -- co-identified as schizophrenia risk taxon
 - [[veillonellaceae]] -- causally protective in the same schizophrenia MR study

@@ -46,7 +46,7 @@ The microbiome studies summarized below commonly used “Clostridiales,” datab
 
 - Order *Eubacteriales*, class [[clostridia]], phylum Bacillota (historically Firmicutes); NCBITaxon:186802.
 - Major health-associated families: [[lachnospiraceae]] (Clostridium cluster XIVa), [[ruminococcaceae]] (Clostridium cluster IV), Eubacteriaceae.
-- Pathogenic/opportunistic members: Clostridiaceae ([[clostridium-difficile]], [[clostridium-perfringens]]), Peptostreptococcaceae ([[peptostreptococcus-anaerobius]], [[intestinibacter]]).
+- Historical Clostridiales classifications included organisms since reassigned outside current *Eubacteriales*, including [[clostridioides-difficile|Clostridium difficile]].
 - Taxonomic note: “Clostridiales” remains common in historical and source-database classifications. Many taxa once placed under that label have been reassigned to other orders, so source-era order-level findings require their original database and taxonomic resolution.
 
 ## Metal Dependencies
@@ -97,5 +97,5 @@ Clostridium clusters IV and XIVa are consistently depleted in CD, representing t
 - [[butyrate]] -- a key metabolite produced by multiple source-defined Clostridiales taxa
 - [[roseburia]] -- a major butyrate producer depleted in CVD
 - [[faecalibacterium-prausnitzii|faecalibacterium]] -- a studied anti-inflammatory organism included in historical Clostridiales classifications
-- [[clostridium-difficile]] -- an organism whose historical placement illustrates the breadth and later revision of Clostridiales classifications
+- [[clostridioides-difficile|Clostridium difficile]] -- an organism whose historical placement illustrates the breadth and later revision of Clostridiales classifications
 - [[gerd]] -- Clostridiales Vadin BB60 group is causally protective

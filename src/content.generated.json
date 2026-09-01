@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-01T14:11:26.571Z",
+  "_generated": "2026-09-01T15:03:18.878Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1926,
-    "entities": 330,
+    "sources": 1929,
+    "entities": 329,
     "concepts": 264,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 865
+    "totalPages": 864
   },
   "pages": [
     {
@@ -16335,7 +16335,7 @@
         "gram_stain": "positive",
         "oxygen_requirement": "obligate anaerobe"
       },
-      "overview": "A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicutes that represents the most functionally diverse and clinically significant taxonomic class in the human gut microbiome. Clostridia encompasses the dominant butyrate producers sustaining colonic health, the spore-forming bacteria regulating 90% of the body's serotonin production, and some of the most dangerous human pathogens ([[clostridium-difficile]], [[clostridium-perfringens]], *C. botulinum*, *C. tetani*). This extraordinary functional range means class-level statements about Clostridia enrichment or depletion must always be interpreted with sub-class resolution.",
+      "overview": "A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicutes that represents the most functionally diverse and clinically significant taxonomic class in the human gut microbiome. Clostridia encompasses the dominant butyrate producers sustaining colonic health, the spore-forming bacteria regulating 90% of the body's serotonin production, and some of the most dangerous human pathogens ([[clostridioides-difficile]], [[clostridium-perfringens]], *C. botulinum*, *C. tetani*). This extraordinary functional range means class-level statements about Clostridia enrichment or depletion must always be interpreted with sub-class resolution.",
       "sections": [
         {
           "heading": "Taxonomy",
@@ -16395,11 +16395,11 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[eubacteriales]] -- current correct name for NCBITaxon:186802; Clostridiales is retained as a historical synonym\n- [[lachnospiraceae]] -- the dominant health-associated family\n- [[ruminococcaceae]] -- a second major butyrate-producing family\n- [[serotonin]] -- spore-forming Clostridia stimulate EC cell serotonin production\n- [[butyrate]] -- the key beneficial metabolite\n- [[schizophrenia]] -- Clostridia as causal risk factor via MR\n- [[clostridium-difficile]] -- the pathogenic counterpart within the class\n- [[betaproteobacteria]] -- co-identified as schizophrenia risk taxon\n- [[veillonellaceae]] -- causally protective in the same schizophrenia MR study"
+          "body": "- [[eubacteriales]] -- current correct name for NCBITaxon:186802; Clostridiales is retained as a historical synonym\n- [[lachnospiraceae]] -- the dominant health-associated family\n- [[ruminococcaceae]] -- a second major butyrate-producing family\n- [[serotonin]] -- spore-forming Clostridia stimulate EC cell serotonin production\n- [[butyrate]] -- the key beneficial metabolite\n- [[schizophrenia]] -- Clostridia as causal risk factor via MR\n- [[clostridioides-difficile]] -- the pathogenic counterpart within the class\n- [[betaproteobacteria]] -- co-identified as schizophrenia risk taxon\n- [[veillonellaceae]] -- causally protective in the same schizophrenia MR study"
         }
       ],
       "wikilinks": [
-        "clostridium-difficile",
+        "clostridioides-difficile",
         "clostridium-perfringens",
         "eubacteriales",
         "oscillospirales",
@@ -16474,27 +16474,47 @@
         "antibiotic-associated",
         "colitis",
         "metal-antibiotic-co-selection",
-        "spore-forming"
+        "spore-forming",
+        "taxonomy",
+        "clostridium-difficile-historical-name"
       ],
       "sources": [
+        "ncbi-taxonomy-clostridioides-difficile",
+        "lpsn-clostridioides-difficile",
+        "lawson-2016-clostridioides-difficile-reclassification",
         "maier-2019-nickel-microbial-pathogenesis",
         "zhang-2021-cadmium-gut-liver-axis-alzheimers-mouse",
-        "zhu-2024-toxic-essential-metals-gut-microbiota"
+        "zhu-2024-toxic-essential-metals-gut-microbiota",
+        "rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental",
+        "barras-2018-silver-antibiotic-synergy-mismetallation",
+        "cai-2022-gut-microbiota-male-reproduction",
+        "sealey-2016-environmental-factors-asd-development",
+        "zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders",
+        "stanton-2021-metallome-omes-link-asd"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
       "frontmatter": {
         "title": "Clostridioides difficile",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
         "sources": [
+          "ncbi-taxonomy-clostridioides-difficile",
+          "lpsn-clostridioides-difficile",
+          "lawson-2016-clostridioides-difficile-reclassification",
           "maier-2019-nickel-microbial-pathogenesis",
           "zhang-2021-cadmium-gut-liver-axis-alzheimers-mouse",
-          "zhu-2024-toxic-essential-metals-gut-microbiota"
+          "zhu-2024-toxic-essential-metals-gut-microbiota",
+          "rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental",
+          "barras-2018-silver-antibiotic-synergy-mismetallation",
+          "cai-2022-gut-microbiota-male-reproduction",
+          "sealey-2016-environmental-factors-asd-development",
+          "zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders",
+          "stanton-2021-metallome-omes-link-asd"
         ],
-        "source_count": 3,
+        "source_count": 12,
         "metal_dependencies": [
           "nickel",
           "zinc",
@@ -16510,21 +16530,32 @@
           "antibiotic-associated",
           "colitis",
           "metal-antibiotic-co-selection",
-          "spore-forming"
+          "spore-forming",
+          "taxonomy",
+          "clostridium-difficile-historical-name"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-13T00:00:00.000Z",
-        "seo_target": "Clostridioides difficile zinc toxin metal antibiotic co-selection",
-        "wikipedia_differentiation": "Zinc-dependent TcdA/TcdB toxin mechanism and metal-antibiotic co-selection framework for post-dysbiosis opportunism",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "seo_target": "Clostridioides difficile NCBITaxon 1496 Clostridium difficile historical synonym zinc toxin metal antibiotic co-selection",
+        "wikipedia_differentiation": "Current Clostridioides difficile identity reconciled with the Clostridium difficile homotypic synonym, alongside zinc-dependent toxin biology and metal-antibiotic co-selection",
         "conditions_enriched_in": [
           "antibiotic-associated-diarrhea",
           "pseudomembranous-colitis"
         ],
         "conditions_depleted_in": [],
-        "pathogenic_potential": "opportunistic"
+        "pathogenic_potential": "opportunistic",
+        "ncbi_taxonomy_id": 1496,
+        "historical_names": [
+          "Clostridium difficile"
+        ]
       },
-      "overview": "A Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the metallomics framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-dysbiosis opportunism, and [[zinc]]-dependent toxin activity.",
+      "overview": "*Clostridioides difficile* is the current NCBI name for NCBITaxon:1496 and the correct, medically recommended combination recorded by LPSN. Both records retain *Clostridium difficile* as a validly published homotypic synonym of the same organism rather than a separate species [[ncbi-taxonomy-clostridioides-difficile]] [[lpsn-clostridioides-difficile]].\n\nIt is a Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the metallomics framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-dysbiosis opportunism, and [[zinc]]-dependent toxin activity.",
       "sections": [
+        {
+          "heading": "Nomenclature and Historical-Label Boundary",
+          "level": 2,
+          "body": "Lawson and colleagues proposed the genus *Clostridioides* in 2016 after 16S rRNA, phenotypic, chemotaxonomic, and phylogenetic analyses placed the organism with *C. mangenotii* in Peptostreptococcaceae, far from *Clostridium butyricum* and *Clostridium* sensu stricto. Their new combination made *Clostridioides difficile* the type species of the genus [[lawson-2016-clostridioides-difficile-reclassification]].\n\nClinical practice and older literature continue to use “C. diff” and *Clostridium difficile*. WikiBiome preserves that wording when it is the name printed by a source, but current titles, metadata, taxonomy, and internal links use *Clostridioides difficile*. Canonicalizing the route does not silently change a historical study label, strain description, or reported conclusion.\n\nThe retired duplicate carried six source associations that use the historical combination in their original contexts: two autism-focused reviews, a silver-antibiotic review, a microbial-folate narrative, a perioperative-neuroinflammation review discussing FMT, and a metallome review [[rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental]] [[sealey-2016-environmental-factors-asd-development]] [[barras-2018-silver-antibiotic-synergy-mismetallation]] [[cai-2022-gut-microbiota-male-reproduction]] [[zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders]] [[stanton-2021-metallome-omes-link-asd]]. Those associations are retained for traceability; they are not treated as taxonomic authority or as support for claims beyond what each source states."
+        },
         {
           "heading": "Metal-Dependent Virulence",
           "level": 2,
@@ -16572,7 +16603,16 @@
         }
       ],
       "wikilinks": [
+        "ncbi-taxonomy-clostridioides-difficile",
+        "lpsn-clostridioides-difficile",
         "zinc",
+        "lawson-2016-clostridioides-difficile-reclassification",
+        "rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental",
+        "sealey-2016-environmental-factors-asd-development",
+        "barras-2018-silver-antibiotic-synergy-mismetallation",
+        "cai-2022-gut-microbiota-male-reproduction",
+        "zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders",
+        "stanton-2021-metallome-omes-link-asd",
         "glyoxalase",
         "maier-2019-nickel-microbial-pathogenesis",
         "calprotectin",
@@ -16588,13 +16628,14 @@
         "metal-dependent-virulence"
       ],
       "sourceDir": "entities",
-      "sourceCount": 3,
+      "sourceCount": 12,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "clostridium-difficile",
+        "clostridia",
         "clostridium",
+        "eubacteriales",
         "firmicutes",
         "saccharomyces-cerevisiae",
         "saccharomyces",
@@ -16613,6 +16654,10 @@
       ],
       "related": [
         {
+          "id": "lachnospiraceae",
+          "score": 15
+        },
+        {
           "id": "nutritional-immunity",
           "score": 15
         },
@@ -16621,28 +16666,24 @@
           "score": 14
         },
         {
+          "id": "crohns-disease",
+          "score": 14
+        },
+        {
+          "id": "crohns-disease",
+          "score": 14
+        },
+        {
+          "id": "roseburia",
+          "score": 13
+        },
+        {
           "id": "ulcerative-colitis",
           "score": 13
         },
         {
-          "id": "crohns-disease",
+          "id": "lead",
           "score": 12
-        },
-        {
-          "id": "crohns-disease",
-          "score": 12
-        },
-        {
-          "id": "campylobacter-jejuni",
-          "score": 11
-        },
-        {
-          "id": "clostridium",
-          "score": 11
-        },
-        {
-          "id": "enterococcus",
-          "score": 11
         }
       ]
     },
@@ -16779,112 +16820,6 @@
         {
           "id": "faecalibacterium",
           "score": 5
-        }
-      ]
-    },
-    {
-      "id": "clostridium-difficile",
-      "title": "Clostridium difficile",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "redirect",
-        "taxonomy",
-        "historical-name"
-      ],
-      "sources": [
-        "rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental",
-        "barras-2018-silver-antibiotic-synergy-mismetallation",
-        "cai-2022-gut-microbiota-male-reproduction",
-        "sealey-2016-environmental-factors-asd-development",
-        "zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders",
-        "stanton-2021-metallome-omes-link-asd"
-      ],
-      "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Clostridium difficile",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental",
-          "barras-2018-silver-antibiotic-synergy-mismetallation",
-          "cai-2022-gut-microbiota-male-reproduction",
-          "sealey-2016-environmental-factors-asd-development",
-          "zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders",
-          "stanton-2021-metallome-omes-link-asd"
-        ],
-        "source_count": 6,
-        "tags": [
-          "redirect",
-          "taxonomy",
-          "historical-name"
-        ],
-        "platform": "wikibiome",
-        "seo_target": "Clostridium difficile C diff infection",
-        "wikipedia_differentiation": "Redirect to the current taxonomic name with historical context"
-      },
-      "overview": "This page redirects to [[clostridioides-difficile]].\n\n*Clostridium difficile* was reclassified as Clostridioides difficile in 2016 based on phenotypic and phylogenomic analyses that demonstrated it belonged to a distinct clade within the former *Clostridium* genus. The reclassification by Lawson et al. (2016) placed this organism in the family Peptostreptococcaceae rather than Clostridiaceae, reflecting its true evolutionary relationships.\n\nThe name \"C. diff\" and \"*Clostridium difficile*\" remain widely used in clinical practice and older literature. All WikiBiome content on this organism, including its metal dependencies (nickel, zinc, iron), zinc-dependent TcdA/TcdB toxins, and post-antibiotic niche exploitation ecology, is maintained on the [[clostridioides-difficile]] page.",
-      "sections": [
-        {
-          "heading": "Why the Name Changed",
-          "level": 2,
-          "body": "- The genus *Clostridium* as historically defined was polyphyletic -- it contained species from multiple evolutionary lineages grouped together based on shared phenotypic traits (spore-forming, anaerobic, Gram-positive rods).\n- Phylogenomic reclassification split the former *Clostridium* into multiple genera, with only species closely related to *Clostridium butyricum* (the type species) retaining the *Clostridium* name.\n- *C. difficile* was sufficiently divergent to warrant its own genus, *Clostridioides*, reflecting its distinct cell-wall composition and 16S rRNA phylogeny."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[clostridioides-difficile]] -- current taxonomic name and primary content page"
-        }
-      ],
-      "wikilinks": [
-        "clostridioides-difficile"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 6,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "clostridia",
-        "eubacteriales",
-        "probiotics-asd-dysbiosis"
-      ],
-      "related": [
-        {
-          "id": "zinc",
-          "score": 6
-        },
-        {
-          "id": "clostridium-perfringens",
-          "score": 5
-        },
-        {
-          "id": "faecalibacterium-prausnitzii",
-          "score": 5
-        },
-        {
-          "id": "lachnospiraceae",
-          "score": 5
-        },
-        {
-          "id": "roseburia",
-          "score": 5
-        },
-        {
-          "id": "ruminococcaceae",
-          "score": 5
-        },
-        {
-          "id": "corynebacterium",
-          "score": 4
-        },
-        {
-          "id": "sphingobium",
-          "score": 4
         }
       ]
     },
@@ -17041,7 +16976,6 @@
       "isStub": false,
       "backlinks": [
         "clostridia",
-        "eubacteriales",
         "necrotizing-enterocolitis",
         "broken-links-2026-04-16"
       ],
@@ -17059,14 +16993,6 @@
           "score": 7
         },
         {
-          "id": "lachnospiraceae",
-          "score": 7
-        },
-        {
-          "id": "ruminococcaceae",
-          "score": 7
-        },
-        {
           "id": "staphylococcus",
           "score": 7
         },
@@ -17077,6 +17003,14 @@
         {
           "id": "listeria",
           "score": 6
+        },
+        {
+          "id": "bacillus",
+          "score": 5
+        },
+        {
+          "id": "bacteroides",
+          "score": 5
         }
       ]
     },
@@ -25796,7 +25730,7 @@
         {
           "heading": "Taxonomy",
           "level": 2,
-          "body": "- Order *Eubacteriales*, class [[clostridia]], phylum Bacillota (historically Firmicutes); NCBITaxon:186802.\n- Major health-associated families: [[lachnospiraceae]] (Clostridium cluster XIVa), [[ruminococcaceae]] (Clostridium cluster IV), Eubacteriaceae.\n- Pathogenic/opportunistic members: Clostridiaceae ([[clostridium-difficile]], [[clostridium-perfringens]]), Peptostreptococcaceae ([[peptostreptococcus-anaerobius]], [[intestinibacter]]).\n- Taxonomic note: “Clostridiales” remains common in historical and source-database classifications. Many taxa once placed under that label have been reassigned to other orders, so source-era order-level findings require their original database and taxonomic resolution."
+          "body": "- Order *Eubacteriales*, class [[clostridia]], phylum Bacillota (historically Firmicutes); NCBITaxon:186802.\n- Major health-associated families: [[lachnospiraceae]] (Clostridium cluster XIVa), [[ruminococcaceae]] (Clostridium cluster IV), Eubacteriaceae.\n- Historical Clostridiales classifications included organisms since reassigned outside current *Eubacteriales*, including [[clostridioides-difficile|Clostridium difficile]].\n- Taxonomic note: “Clostridiales” remains common in historical and source-database classifications. Many taxa once placed under that label have been reassigned to other orders, so source-era order-level findings require their original database and taxonomic resolution."
         },
         {
           "heading": "Metal Dependencies",
@@ -25846,7 +25780,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[clostridia]] -- the parent class\n- [[lachnospiraceae]] -- a health-associated family included in historical Clostridiales classifications\n- [[ruminococcaceae]] -- a second major butyrate-producing family\n- [[butyrate]] -- a key metabolite produced by multiple source-defined Clostridiales taxa\n- [[roseburia]] -- a major butyrate producer depleted in CVD\n- [[faecalibacterium-prausnitzii|faecalibacterium]] -- a studied anti-inflammatory organism included in historical Clostridiales classifications\n- [[clostridium-difficile]] -- an organism whose historical placement illustrates the breadth and later revision of Clostridiales classifications\n- [[gerd]] -- Clostridiales Vadin BB60 group is causally protective"
+          "body": "- [[clostridia]] -- the parent class\n- [[lachnospiraceae]] -- a health-associated family included in historical Clostridiales classifications\n- [[ruminococcaceae]] -- a second major butyrate-producing family\n- [[butyrate]] -- a key metabolite produced by multiple source-defined Clostridiales taxa\n- [[roseburia]] -- a major butyrate producer depleted in CVD\n- [[faecalibacterium-prausnitzii|faecalibacterium]] -- a studied anti-inflammatory organism included in historical Clostridiales classifications\n- [[clostridioides-difficile|Clostridium difficile]] -- an organism whose historical placement illustrates the breadth and later revision of Clostridiales classifications\n- [[gerd]] -- Clostridiales Vadin BB60 group is causally protective"
         }
       ],
       "wikilinks": [
@@ -25857,10 +25791,7 @@
         "clostridia",
         "lachnospiraceae",
         "ruminococcaceae",
-        "clostridium-difficile",
-        "clostridium-perfringens",
-        "peptostreptococcus-anaerobius",
-        "intestinibacter",
+        "clostridioides-difficile",
         "cardiovascular-disease",
         "crohns-disease",
         "multiple-sclerosis",
@@ -34587,33 +34518,16 @@
       "belowThreshold": true,
       "isStub": false,
       "backlinks": [
-        "eubacteriales",
         "intestinimonas",
         "mendelian-randomization"
       ],
       "related": [
         {
-          "id": "lachnospiraceae",
-          "score": 6
-        },
-        {
-          "id": "gerd",
-          "score": 4
-        },
-        {
           "id": "hashimotos-thyroiditis",
           "score": 4
         },
         {
-          "id": "roseburia",
-          "score": 4
-        },
-        {
-          "id": "butyrate",
-          "score": 4
-        },
-        {
-          "id": "gerd",
+          "id": "lachnospiraceae",
           "score": 4
         },
         {
@@ -34622,6 +34536,22 @@
         },
         {
           "id": "actinobacteria",
+          "score": 2
+        },
+        {
+          "id": "akkermansia-muciniphila",
+          "score": 2
+        },
+        {
+          "id": "alistipes",
+          "score": 2
+        },
+        {
+          "id": "bifidobacterium",
+          "score": 2
+        },
+        {
+          "id": "bilophila",
           "score": 2
         }
       ]
@@ -51290,7 +51220,6 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "eubacteriales",
         "streptococcus-gallolyticus",
         "colorectal-cancer-signature"
       ],
@@ -62176,7 +62105,7 @@
           "score": 4
         },
         {
-          "id": "clostridium-difficile",
+          "id": "clostridioides-difficile",
           "score": 4
         },
         {
@@ -109977,6 +109906,10 @@
           "score": 8
         },
         {
+          "id": "clostridioides-difficile",
+          "score": 8
+        },
+        {
           "id": "firmicutes",
           "score": 8
         },
@@ -109994,10 +109927,6 @@
         },
         {
           "id": "bacteroides-uniformis",
-          "score": 6
-        },
-        {
-          "id": "bacteroides",
           "score": 6
         }
       ]
@@ -181338,19 +181267,13 @@
         "id": "clostridioides-difficile",
         "label": "Clostridioides difficile",
         "category": "microbe",
-        "sourceCount": 3
+        "sourceCount": 12
       },
       {
         "id": "clostridium-butyricum",
         "label": "Clostridium butyricum",
         "category": "microbe",
         "sourceCount": 4
-      },
-      {
-        "id": "clostridium-difficile",
-        "label": "Clostridium difficile",
-        "category": "microbe",
-        "sourceCount": 6
       },
       {
         "id": "clostridium-perfringens",
@@ -189394,7 +189317,7 @@
       },
       {
         "source": "clostridia",
-        "target": "clostridium-difficile"
+        "target": "clostridioides-difficile"
       },
       {
         "source": "clostridia",
@@ -189499,10 +189422,6 @@
       {
         "source": "clostridium-butyricum",
         "target": "short-chain-fatty-acids"
-      },
-      {
-        "source": "clostridium-difficile",
-        "target": "clostridioides-difficile"
       },
       {
         "source": "clostridium-perfringens",
@@ -191342,19 +191261,7 @@
       },
       {
         "source": "eubacteriales",
-        "target": "clostridium-difficile"
-      },
-      {
-        "source": "eubacteriales",
-        "target": "clostridium-perfringens"
-      },
-      {
-        "source": "eubacteriales",
-        "target": "peptostreptococcus-anaerobius"
-      },
-      {
-        "source": "eubacteriales",
-        "target": "intestinibacter"
+        "target": "clostridioides-difficile"
       },
       {
         "source": "eubacteriales",
@@ -213935,10 +213842,6 @@
       {
         "source": "probiotics-asd-dysbiosis",
         "target": "bacteroides-fragilis"
-      },
-      {
-        "source": "probiotics-asd-dysbiosis",
-        "target": "clostridium-difficile"
       },
       {
         "source": "probiotics-ppd",
@@ -420598,6 +420501,21 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "lawson-2016-clostridioides-difficile-reclassification": {
+      "title": "Lawson et al. 2016 — Reclassification of Clostridium difficile as Clostridioides difficile",
+      "authors": [
+        "Paul A. Lawson",
+        "Diane M. Citron",
+        "Kerin L. Tyrrell",
+        "Sydney M. Finegold"
+      ],
+      "year": 2016,
+      "journal": "Anaerobe",
+      "doi": "10.1016/j.anaerobe.2016.06.008",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "lazarova-2021-graves-disease-epidemiology-risk-factors": {
       "title": "Graves' disease: Epidemiology, genetic and environmental risk factors and viruses",
       "authors": [
@@ -423230,6 +423148,16 @@
     },
     "lpsn-bifidobacterium-longum-subsp-infantis": {
       "title": "LPSN — Bifidobacterium longum subsp. infantis",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "lpsn-clostridioides-difficile": {
+      "title": "LPSN — Clostridioides difficile (Hall and O'Toole 1935) Lawson et al. 2016",
       "authors": [],
       "year": "",
       "journal": "List of Prokaryotic names with Standing in Nomenclature",
@@ -426029,6 +425957,16 @@
     },
     "ncbi-taxonomy-candidozyma-auris": {
       "title": "NCBI Taxonomy — Candidozyma auris (NCBITaxon:498019)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-clostridioides-difficile": {
+      "title": "NCBI Taxonomy — Clostridioides difficile (NCBITaxon:1496)",
       "authors": [],
       "year": "",
       "journal": "NCBI Taxonomy",

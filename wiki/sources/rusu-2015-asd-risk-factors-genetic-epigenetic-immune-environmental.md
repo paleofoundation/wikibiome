@@ -11,7 +11,7 @@ tags: [autism, risk-factors, genetics, epigenetics, immune-dysfunction, oxidativ
 platform: wikibiome
 evidence_level: expert-opinion
 metals_discussed: [cadmium, calcium, copper, lead, magnesium, mercury, zinc]
-taxa_discussed: [bacteroides-fragilis, clostridium]
+taxa_discussed: [bacteroides-fragilis, clostridium, clostridioides-difficile]
 karen_brain_primitives: [1, 3, 4]
 ---
 

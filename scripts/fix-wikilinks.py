@@ -109,6 +109,8 @@ def build_mapping(existing):
         "Pseudomonas aeruginosa": "pseudomonas-aeruginosa",
         "Helicobacter pylori": "helicobacter-pylori",
         "Clostridioides difficile": "clostridioides-difficile",
+        "Clostridium difficile": "clostridioides-difficile",
+        "clostridium-difficile": "clostridioides-difficile",
         "Clostridium symbiosum": "clostridium-symbiosum",
         "Ruminococcus gnavus": "ruminococcus-gnavus",
         "Ruminococcus albus": "ruminococcus-albus",
