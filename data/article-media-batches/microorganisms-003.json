@@ -4,7 +4,7 @@
   "category": "microorganisms",
   "createdOn": "2026-09-01",
   "reviewedOn": "2026-09-01",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/microorganisms-003.md",
   "reviewStandard": "Scientific identity, morphology, controlled identifiers, caption limits, non-diagnostic framing, provenance, accessibility, and publication files passed the WikiBiome scientific media policy before promotion. The original prompt remains immutable provenance; a separate human output audit reconciles what is actually visible with all published metadata.",

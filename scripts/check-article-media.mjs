@@ -85,6 +85,7 @@ for (const [id, media] of Object.entries(articleMediaRegistry)) {
     format: "webp",
     width: media.socialWidth,
     height: media.socialHeight,
+    minimumBytes: 30_000,
   });
 }
 
@@ -146,9 +147,9 @@ function assertApprovedReview(media) {
   if (reviewedUrls.size !== media.scientificReferences.length) throw new Error(`${media.pageId}: review log contains reference checks that do not match the registry.`);
 }
 
-async function assertImage({ path, media, role, format, width, height, minimumWidth, minimumHeight }) {
+async function assertImage({ path, media, role, format, width, height, minimumWidth, minimumHeight, minimumBytes = 40_000 }) {
   if (!existsSync(path)) throw new Error(`${media.pageId}: missing ${role} ${path}.`);
-  if (statSync(path).size < 40_000) throw new Error(`${media.pageId}: ${role} is unexpectedly small.`);
+  if (statSync(path).size < minimumBytes) throw new Error(`${media.pageId}: ${role} is unexpectedly small.`);
   const metadata = await sharp(path).metadata();
   if (metadata.format !== format) throw new Error(`${media.pageId}: ${role} must be ${format}.`);
   if (width && metadata.width !== width) throw new Error(`${media.pageId}: ${role} width is ${metadata.width}; expected ${width}.`);

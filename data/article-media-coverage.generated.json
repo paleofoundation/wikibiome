@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "05a7dbc4cc616886f26be47b321d285958af10262bf6a70bcdcf25a86583cacb",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "f250867b7c3e48ef7ac0fa012249dc995df78abd560781a23aa970f94a4ef66e",
+    "registrySha256": "1fcedf320bda3bb724988e439028c8e125629cecc593707e66fda4a1ff89991c",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "4813976642eb40a1c43f6575b3dab4c86fdab672826272217c4b4d07f08a90b9",
+    "reviewLogSha256": "fccdeb209ae91fa221d8c3f9e05fe95f6b3b872d8d0a625913a28192ed5f57b6",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -27,8 +27,8 @@
       {
         "file": "data/article-media-batches/microorganisms-003.json",
         "batchId": "microorganisms-003",
-        "status": "approved-awaiting-promotion",
-        "sha256": "d37dbfc6cde03c5e6e7dd16469f5e0e0ca9db19e88a0aeb2d07867b6eeb54c77"
+        "status": "reviewed",
+        "sha256": "555486c3744ad5129b27894f70f9f2e01325a18e3d9200773fe5e0e56da8d7c9"
       },
       {
         "file": "data/article-media-batches/microorganisms-004.json",
@@ -56,20 +56,20 @@
   },
   "current": {
     "total": 714,
-    "completed": 19,
-    "remaining": 695,
+    "completed": 24,
+    "remaining": 690,
     "rejected": 4,
     "revised": 2,
     "scientificHolds": 4,
-    "inReview": 9
+    "inReview": 4
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 233,
-      "completed": 16,
-      "remaining": 217
+      "completed": 21,
+      "remaining": 212
     },
     {
       "id": "metals",
@@ -556,12 +556,14 @@
       "route": "/article/alloprevotella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-003",
-        "decision": "approved-after-metadata-correction",
-        "draft": "work/media-drafts/microorganisms-batch-003/alloprevotella-draft.png",
-        "sha256": "266e0990aebf11d9752e00833df1ad5acfc63500674d4ef7d6873176c8fc6c17"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "alloprevotella-morphology-v1-master.png",
+        "publishedFile": "alloprevotella-morphology-v1.webp",
+        "socialFile": "alloprevotella-morphology-v1-social.webp"
       }
     },
     {
@@ -575,12 +577,14 @@
       "route": "/article/alloscardovia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-003",
-        "decision": "approved-after-metadata-correction",
-        "draft": "work/media-drafts/microorganisms-batch-003/alloscardovia-draft.png",
-        "sha256": "57efaf73e81eea4bff4f9af7530d4a0643fea94a6ba180573f89a0d9c5192f2b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "alloscardovia-morphology-v1-master.png",
+        "publishedFile": "alloscardovia-morphology-v1.webp",
+        "socialFile": "alloscardovia-morphology-v1-social.webp"
       }
     },
     {
@@ -594,12 +598,14 @@
       "route": "/article/alternaria",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-003",
-        "decision": "approved",
-        "draft": "work/media-drafts/microorganisms-batch-003/alternaria-draft.png",
-        "sha256": "7f58820b0d86bbb63f8a09779d169001f2b52d00be8447456f2951f630f79e99"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "alternaria-morphology-v1-master.png",
+        "publishedFile": "alternaria-morphology-v1.webp",
+        "socialFile": "alternaria-morphology-v1-social.webp"
       }
     },
     {
@@ -613,12 +619,14 @@
       "route": "/article/anaerococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-003",
-        "decision": "approved",
-        "draft": "work/media-drafts/microorganisms-batch-003/anaerococcus-draft.png",
-        "sha256": "a00706ecfd506862cc4c1c2589426b8d0a2ed27d06ec7d27a883fb0ad8d64dd2"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "anaerococcus-morphology-v1-master.png",
+        "publishedFile": "anaerococcus-morphology-v1.webp",
+        "socialFile": "anaerococcus-morphology-v1-social.webp"
       }
     },
     {
@@ -632,12 +640,14 @@
       "route": "/article/anaerostipes",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-003",
-        "decision": "approved-after-metadata-correction",
-        "draft": "work/media-drafts/microorganisms-batch-003/anaerostipes-draft.png",
-        "sha256": "c8c38c00dde44a876e1dab5d351de5a078a0fb2b42b0c1cb9ff868fcc66a40d6"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "anaerostipes-morphology-v1-master.png",
+        "publishedFile": "anaerostipes-morphology-v1.webp",
+        "socialFile": "anaerostipes-morphology-v1-social.webp"
       }
     },
     {
