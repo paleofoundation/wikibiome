@@ -1644,7 +1644,17 @@
           "id": "pseudomonas",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "no_references"
+        ],
+        "rationale": "The authoritative record provides no resolvable references. It remains explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "akkermansia-mucinicola",
@@ -8007,7 +8017,18 @@
           "id": "thallium",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "barnesella",
@@ -16064,7 +16085,17 @@
           "id": "chronic-kidney-disease",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "chronic-kidney-disease",
@@ -16617,7 +16648,17 @@
           "id": "oxidative-stress",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "citrobacter",
@@ -16912,7 +16953,18 @@
           "id": "fusarium",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "clostridia",
@@ -22857,7 +22909,17 @@
           "id": "depression",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "dialister",
@@ -28623,7 +28685,18 @@
           "id": "alternaria",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "fusicatenibacter",
@@ -33065,7 +33138,17 @@
           "id": "metal-chelation-therapy",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "hidradenitis-suppurativa",
@@ -33701,7 +33784,17 @@
           "id": "acidaminococcus",
           "score": 2
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "huntingtons-disease",
@@ -33870,7 +33963,17 @@
           "id": "curli",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "hypertension",
@@ -34816,7 +34919,17 @@
           "id": "actinobacteria",
           "score": 2
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "intestinimonas",
@@ -40200,7 +40313,18 @@
           "id": "actinomyces",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "lodderomyces-elongisporus",
@@ -45424,7 +45548,17 @@
           "id": "calprotectin",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "nickel",
@@ -48357,7 +48491,17 @@
           "id": "nutritional-immunity",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "pancreatic-cancer",
@@ -50190,7 +50334,17 @@
           "id": "pcos",
           "score": 2
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "pcos",
@@ -53532,7 +53686,17 @@
           "id": "endocrine-disruptors",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "prevotella-copri",
@@ -55079,7 +55243,18 @@
           "id": "ralstonia",
           "score": 9
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "pseudomonas-aeruginosa",
@@ -55406,7 +55581,18 @@
           "id": "akkermansia-mucinicola",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "psoriasis",
@@ -55644,7 +55830,17 @@
           "id": "pcos",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "purpureocillium",
@@ -60516,7 +60712,17 @@
           "id": "crohns-disease",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "serotonin",
@@ -64224,7 +64430,18 @@
           "id": "uranium",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "subdoligranulum",
@@ -64319,7 +64536,18 @@
           "id": "ruminococcaceae",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "sutterella",
@@ -64937,7 +65165,18 @@
           "id": "gardnerella-vaginalis",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "torulaspora",
@@ -65237,7 +65476,18 @@
           "id": "barnesella",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "trichoderma",
@@ -65756,7 +66006,17 @@
           "id": "autism-spectrum-disorder",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "turicibacter",
@@ -67119,7 +67379,18 @@
           "id": "antimony",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "ureaplasma-urealyticum",
@@ -67523,7 +67794,18 @@
           "id": "cobalt",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "veillonella",
@@ -68133,7 +68415,18 @@
           "id": "pseudomonas",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::missing_introduction+no_substantive_content",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "missing_introduction",
+          "no_substantive_content"
+        ],
+        "rationale": "The authoritative Markdown contains only an auto-created maintenance marker and no claim-bearing prose. Declared references remain indexed, but no article text was inferred from source titles.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "yersinia-pestis",
@@ -99791,7 +100084,17 @@
           "id": "schizophrenia",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "microglia",
@@ -131406,7 +131709,17 @@
           "id": "alzheimers-disease-signature",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "breast-cancer-signature",
@@ -132535,7 +132848,17 @@
           "id": "type-2-diabetes-signature",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "cerebral-palsy-signature",
@@ -135447,7 +135770,17 @@
           "id": "gut-brain-axis",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "erectile-dysfunction-signature",
@@ -136845,7 +137178,17 @@
           "id": "type-2-diabetes-signature",
           "score": 15
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "gerd-signature",
@@ -138980,7 +139323,17 @@
           "id": "ulcerative-colitis-signature",
           "score": 13
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "inflammatory-bowel-disease-signature",
@@ -142128,7 +142481,17 @@
           "id": "odoribacter",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "parkinsons-disease-signature",
@@ -144073,7 +144436,17 @@
           "id": "insulin-resistance",
           "score": 10
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "schizophrenia-signature",
@@ -145723,7 +146096,17 @@
           "id": "immune-balance",
           "score": 14
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "aip-diet-hashimotos",
@@ -145854,7 +146237,18 @@
           "id": "gluten-free-diet",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "b-cell-depletion-therapy-ms",
@@ -146026,7 +146420,17 @@
           "id": "alistipes",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "berberine-methimazole",
@@ -146158,7 +146562,19 @@
           "id": "ketogenic-diet",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, conclusion, or lead was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "breast-milk-hmo-nec",
@@ -146305,7 +146721,18 @@
           "id": "probiotics-asd-dysbiosis",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "dietary-fiber-ckd",
@@ -146469,7 +146896,17 @@
           "id": "gut-kidney-axis",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "dietary-fiber-colorectal-cancer",
@@ -146601,7 +147038,19 @@
           "id": "th17-treg-balance",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, conclusion, or lead was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "dietary-fiber-ovarian-cancer",
@@ -146746,7 +147195,17 @@
           "id": "high-fiber-diet",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "dietary-fiber-probiotics-cp-constipation",
@@ -146874,7 +147333,19 @@
           "id": "hashimotos-thyroiditis",
           "score": 2
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, conclusion, or lead was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "exercise-schizophrenia",
@@ -147015,7 +147486,17 @@
           "id": "bdnf",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "fmt-autism",
@@ -147151,7 +147632,18 @@
           "id": "bipolar-disorder",
           "score": 2
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "indole-3-carbinol-ovarian-cancer",
@@ -147502,7 +147994,17 @@
           "id": "stop-scfa-replacement-without-dysbiosis-restoration-ms",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "l-rhamnosus-gg-early-life",
@@ -147634,7 +148136,18 @@
           "id": "faecalibacterium-restoration",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "lactoferrin-lgg-nec-prevention",
@@ -147780,7 +148293,18 @@
           "id": "probiotics-thyroid",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "low-carbohydrate-diet-gerd",
@@ -147910,7 +148434,18 @@
           "id": "mediterranean-diet-t1d",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "mediterranean-diet-fibromyalgia",
@@ -148037,7 +148572,18 @@
           "id": "ketogenic-diet-ms",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "mediterranean-diet-gerd",
@@ -148166,7 +148712,18 @@
           "id": "stop-ppi-monotherapy-without-microbiome-support-gerd",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "mediterranean-diet-ovarian-cancer",
@@ -148323,7 +148880,17 @@
           "id": "lactobacillus",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "mediterranean-diet-t1d",
@@ -148456,7 +149023,18 @@
           "id": "dietary-fiber-ovarian-cancer",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "multi-strain-synbiotic-schizophrenia",
@@ -148760,7 +149338,18 @@
           "id": "berberine",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "plant-based-diet-ckd",
@@ -148893,7 +149482,18 @@
           "id": "stop-neglecting-constipation-ckd",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "probiotic-combination-ckd",
@@ -149027,7 +149627,18 @@
           "id": "comorbidities",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "probiotics-asd-dysbiosis",
@@ -149232,7 +149843,17 @@
           "id": "type-1-diabetes",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "probiotics-ppd",
@@ -149366,7 +149987,18 @@
           "id": "probiotics-thyroid",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "probiotics-thyroid",
@@ -149503,7 +150135,18 @@
           "id": "l-rhamnosus-gg-early-life",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "probiotics-with-ppi-gerd",
@@ -149652,7 +150295,17 @@
           "id": "gerd-signature",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "selenium-supplementation-200mcg",
@@ -149789,7 +150442,18 @@
           "id": "glutathione-supplementation",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "statin-simvastatin-colorectal-cancer",
@@ -149918,7 +150582,19 @@
           "id": "clostridium-symbiosum",
           "score": 2
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, conclusion, or lead was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "synbiotics-pdac",
@@ -150045,7 +150721,19 @@
           "id": "probiotics-asd-dysbiosis",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, conclusion, or lead was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "vitamin-d-probiotic-schizophrenia",
@@ -150201,7 +150889,17 @@
           "id": "schizophrenia-signature",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "zinc-supplementation-autism",
@@ -150342,7 +151040,18 @@
           "id": "fmt-intervention",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "acarbose-fiber-synergy",
@@ -150473,7 +151182,18 @@
           "id": "akkermansia-muciniphila",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "berberine",
@@ -150636,7 +151356,17 @@
           "id": "graves-disease-signature",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "chelation-therapy",
@@ -150904,7 +151634,18 @@
           "id": "lactobacillus",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "curcumin",
@@ -151189,7 +151930,17 @@
           "id": "firmicutes",
           "score": 8
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "ecoli-nissle-1917",
@@ -151351,7 +152102,17 @@
           "id": "bifidobacterium",
           "score": 8
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "faecalibacterium-restoration",
@@ -151486,7 +152247,18 @@
           "id": "nac-supplementation",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "ferrichrome-probiotics",
@@ -151614,7 +152386,18 @@
           "id": "dietary-fiber",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "fmt-intervention",
@@ -151843,7 +152626,18 @@
           "id": "cadmium",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "glutathione-supplementation",
@@ -151957,7 +152751,17 @@
           "id": "nrf2",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "gluten-free-diet",
@@ -152434,7 +153238,17 @@
           "id": "anaerostipes",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "high-fiber-prebiotics",
@@ -152572,7 +153386,18 @@
           "id": "nac-supplementation",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "iron-management",
@@ -152808,7 +153633,18 @@
           "id": "lactoferrin",
           "score": 8
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "ketogenic-diet",
@@ -153035,7 +153871,18 @@
           "id": "butyricimonas",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "lactoferrin-supplementation",
@@ -153187,7 +154034,18 @@
           "id": "low-nickel-diet",
           "score": 13
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "low-carbohydrate-diet",
@@ -153319,7 +154177,18 @@
           "id": "barretts-esophagus",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "low-fat-diet",
@@ -153453,7 +154322,18 @@
           "id": "akkermansia-muciniphila",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "low-nickel-diet",
@@ -154222,7 +155102,18 @@
           "id": "stop-iron-supplementation-endometriosis",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "magnesium-supplementation",
@@ -154353,7 +155244,18 @@
           "id": "ferrichrome-probiotics",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "mediterranean-diet",
@@ -154585,7 +155487,18 @@
           "id": "autism-spectrum-disorder",
           "score": 12
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "melatonin",
@@ -154976,7 +155889,18 @@
           "id": "saccharomyces-boulardii",
           "score": 10
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "omega-3-fatty-acids",
@@ -155314,7 +156238,18 @@
           "id": "stop-iron-supplementation-pcos",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "probiotics-general",
@@ -155524,7 +156459,18 @@
           "id": "saccharomyces-boulardii",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "probiotics-lactobacillus-bifidobacterium",
@@ -155668,7 +156614,18 @@
           "id": "breast-milk-hmo-nec",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "quercetin",
@@ -155807,7 +156764,18 @@
           "id": "citrus-fruits",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "resveratrol",
@@ -156069,7 +157037,18 @@
           "id": "nac-supplementation",
           "score": 9
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "selenium-supplementation",
@@ -156258,7 +157237,18 @@
           "id": "selenium-supplementation-200mcg",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "statin-therapy",
@@ -156667,7 +157657,17 @@
           "id": "lactoferrin-supplementation",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "vitamin-d-supplementation",
@@ -156865,7 +157865,18 @@
           "id": "rheumatoid-arthritis",
           "score": 6
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "zinc-supplementation",
@@ -157068,7 +158079,18 @@
           "id": "probiotics-general",
           "score": 7
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
@@ -157457,7 +158479,17 @@
           "id": "stop-broad-spectrum-antibiotics-pre-nec",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-broad-spectrum-antibiotics-pre-nec",
@@ -157566,7 +158598,18 @@
           "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-diagnostic-overclaiming-discovery-phase",
@@ -157690,7 +158733,17 @@
           "id": "colorectal-cancer",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "stop-formula-feeding-without-supplementation-nec",
@@ -157801,7 +158854,18 @@
           "id": "cerebral-palsy",
           "score": 2
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-high-protein-keto-diet-ckd",
@@ -158327,7 +159391,17 @@
           "id": "fusobacteriales",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "stop-iron-supplementation-alzheimers",
@@ -158749,7 +159823,17 @@
           "id": "stop-iron-supplementation-obesity",
           "score": 10
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "stop-iron-supplementation-colorectal-cancer",
@@ -159311,7 +160395,17 @@
           "id": "stop-iron-supplementation-alzheimers",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-iron-supplementation-graves",
@@ -159572,7 +160666,17 @@
           "id": "stop-iron-supplementation-pcos",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-iron-supplementation-ms",
@@ -159858,7 +160962,17 @@
           "id": "obesity-signature",
           "score": 9
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "stop-iron-supplementation-parkinsons",
@@ -160444,7 +161558,17 @@
           "id": "arsenic",
           "score": 10
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "stop-isolated-zinc-supplementation-pcos",
@@ -160684,7 +161808,18 @@
           "id": "stop-iron-phosphate-binders-ckd",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds and provide no general introduction. They remain explicitly evidence-insufficient; no lead was synthesized or inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-nsaids-ckd",
@@ -160797,7 +161932,18 @@
           "id": "stop-neglecting-constipation-ckd",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds and provide no general introduction. They remain explicitly evidence-insufficient; no lead was synthesized or inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-ppi-monotherapy-without-microbiome-support-gerd",
@@ -161054,7 +162200,18 @@
           "id": "cortisol",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds and provide no general introduction. They remain explicitly evidence-insufficient; no lead was synthesized or inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-scfa-replacement-without-dysbiosis-restoration-ms",
@@ -161359,7 +162516,17 @@
           "id": "stop-iron-supplementation-schizophrenia",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "source_structure_deferred::missing_introduction",
+        "disposition": "source_structure_deferred",
+        "approved": true,
+        "resolves": [
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records begin at scoped, evidence-bearing sections but provide no general introduction. No lead was synthesized or inferred.",
+        "publicLabel": "Source structure awaiting an upstream lead"
+      }
     },
     {
       "id": "stop-zinc-supplementation-endometriosis",
@@ -161477,7 +162644,17 @@
           "id": "low-fat-diet",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
@@ -161952,7 +163129,17 @@
           "id": "stop-broad-spectrum-antibiotics-pre-nec",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-broad-spectrum-antibiotics-pre-nec",
@@ -162039,7 +163226,18 @@
           "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
           "score": 3
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-calcium-supplementation-cadmium-exposure",
@@ -162408,7 +163606,18 @@
           "id": "cerebral-palsy",
           "score": 2
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+no_references",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records provide no resolvable references and do not meet their type-specific source thresholds. They remain explicitly evidence-insufficient; no citation, finding, or conclusion was inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-high-protein-keto-diet-ckd",
@@ -163630,7 +164839,17 @@
           "id": "stop-iron-supplementation-alzheimers",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-iron-supplementation-graves",
@@ -164077,7 +165296,17 @@
           "id": "stop-iron-supplementation-pcos",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-iron-supplementation-ms",
@@ -164991,7 +166220,18 @@
           "id": "stop-iron-phosphate-binders-ckd",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds and provide no general introduction. They remain explicitly evidence-insufficient; no lead was synthesized or inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-nickel-rich-foods-snas",
@@ -165289,7 +166529,18 @@
           "id": "stop-neglecting-constipation-ckd",
           "score": 5
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds and provide no general introduction. They remain explicitly evidence-insufficient; no lead was synthesized or inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-ppi-monotherapy-without-microbiome-support-gerd",
@@ -165495,7 +166746,18 @@
           "id": "cortisol",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold+missing_introduction",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "missing_introduction"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds and provide no general introduction. They remain explicitly evidence-insufficient; no lead was synthesized or inferred.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-scfa-replacement-without-dysbiosis-restoration-ms",
@@ -165969,7 +167231,17 @@
           "id": "endometriosis-signature",
           "score": 4
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "evidence_insufficient::below_evidence_threshold",
+        "disposition": "evidence_insufficient",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold"
+        ],
+        "rationale": "The authoritative records do not meet their type-specific declared-source thresholds. They remain explicitly evidence-insufficient pending source-backed expansion.",
+        "publicLabel": "Evidence-limited source record"
+      }
     },
     {
       "id": "stop-zinc-supplementation-h-pylori",
@@ -167464,7 +168736,18 @@
           "id": "overview",
           "score": 1
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "structural_exemption::below_evidence_threshold+no_references",
+        "disposition": "structural_exemption",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records are navigation/reference indexes rather than claim-bearing articles. Article source-density and generated-reference requirements do not apply.",
+        "publicLabel": "Reference index"
+      }
     },
     {
       "id": "overview",
@@ -167549,7 +168832,18 @@
           "id": "glossary",
           "score": 1
         }
-      ]
+      ],
+      "editorialStatus": {
+        "group": "structural_exemption::below_evidence_threshold+no_references",
+        "disposition": "structural_exemption",
+        "approved": true,
+        "resolves": [
+          "below_evidence_threshold",
+          "no_references"
+        ],
+        "rationale": "The authoritative records are navigation/reference indexes rather than claim-bearing articles. Article source-density and generated-reference requirements do not apply.",
+        "publicLabel": "Reference index"
+      }
     }
   ],
   "graph": {
@@ -390988,7 +392282,6 @@
       ],
       "year": 2021,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391000,7 +392293,6 @@
       ],
       "year": 2021,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391012,7 +392304,6 @@
       ],
       "year": 2021,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391182,9 +392473,7 @@
       "authors": [
         "Unknown - file inaccessible due to encoding"
       ],
-      "year": "Unknown",
       "journal": "Unknown",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391421,7 +392710,6 @@
       ],
       "year": 2018,
       "journal": "Advances in Bioremediation and Phytoremediation (IntechOpen)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391453,7 +392741,6 @@
       ],
       "year": 2023,
       "journal": "Journal of Clinical and Pharmaceutical Research",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391474,7 +392761,7 @@
       ],
       "year": 2022,
       "journal": "Research Square (preprint)",
-      "doi": "https://doi.org/10.21203/rs.3.rs-1220437/v1",
+      "doi": "10.21203/rs.3.rs-1220437/v1",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391574,7 +392861,6 @@
       ],
       "year": 2023,
       "journal": "Journal of Applied Sciences and Environmental Management",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391885,7 +393171,6 @@
       ],
       "year": 2022,
       "journal": "University of Brighton PhD Thesis",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391909,7 +393194,6 @@
       ],
       "year": 2025,
       "journal": "TPM (The Primary Care Companion for CNS Disorders)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -391935,7 +393219,6 @@
       ],
       "year": 2025,
       "journal": "Ta'lim, Tarbiya va Innovatsiyalar",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392163,7 +393446,6 @@
       ],
       "year": 2021,
       "journal": "Exploration of Neuroprotective Therapy",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392224,7 +393506,6 @@
       ],
       "year": 2024,
       "journal": "Environmental Sciences Europe",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392248,7 +393529,6 @@
       ],
       "year": 2023,
       "journal": "Nutrients",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392276,7 +393556,6 @@
       ],
       "year": 2022,
       "journal": "Psychiatriki",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392308,7 +393587,6 @@
       ],
       "year": 2024,
       "journal": "PhD Dissertation, Charite Universitatsmedizin Berlin",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392397,7 +393675,6 @@
       ],
       "year": 2025,
       "journal": "Journal of Pharmacological Biomolecules and Therapeutics",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392409,7 +393686,6 @@
       ],
       "year": 2018,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392514,7 +393790,6 @@
       ],
       "year": 2024,
       "journal": "(Journal of Alzheimer's Disease / related journal)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392526,7 +393801,6 @@
       ],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392538,7 +393812,6 @@
       ],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392550,7 +393823,6 @@
       ],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392567,7 +393839,6 @@
       ],
       "year": 2023,
       "journal": "Research Developments in Medicine and Medical Science Vol. 7",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392702,7 +393973,6 @@
       ],
       "year": 2005,
       "journal": "ATSDR Toxicological Profile (U.S. Department of Health and Human Services)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392812,7 +394082,6 @@
       ],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392916,7 +394185,6 @@
       ],
       "year": 2016,
       "journal": "European Review for Medical and Pharmacological Sciences",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -392998,7 +394266,6 @@
       ],
       "year": 2025,
       "journal": "X-Disciplinarity",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -393215,7 +394482,6 @@
       ],
       "year": 2025,
       "journal": "Nucleic Acids Research",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -393323,7 +394589,6 @@
       ],
       "year": 2024,
       "journal": "Clinical and Experimental Rheumatology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -393435,7 +394700,6 @@
       ],
       "year": 2018,
       "journal": "Journal of Pediatrics and Pediatric Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -393803,7 +395067,6 @@
       ],
       "year": 2023,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -393855,7 +395118,6 @@
       ],
       "year": 2016,
       "journal": "Acta Neurobiologiae Experimentalis",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -393901,7 +395163,6 @@
       ],
       "year": 2026,
       "journal": "Analytical and Bioanalytical Chemistry",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -393961,7 +395222,6 @@
       ],
       "year": 2019,
       "journal": "Cellular and Molecular Life Sciences",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -394099,7 +395359,7 @@
       ],
       "year": 2018,
       "journal": "Drugs",
-      "doi": "https://doi.org/10.1007/s40265-018-0897-3",
+      "doi": "10.1007/s40265-018-0897-3",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -394631,7 +395891,6 @@
       ],
       "year": 2025,
       "journal": "PLOS Pathogens",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -394687,7 +395946,6 @@
       ],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -395238,7 +396496,6 @@
       ],
       "year": 2021,
       "journal": "Journal of Gastroenterology and Hepatobiliary Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -395424,7 +396681,6 @@
       ],
       "year": 2025,
       "journal": "Current Neuropharmacology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -395625,7 +396881,6 @@
       ],
       "year": 2023,
       "journal": "npj Parkinson's Disease",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -396043,7 +397298,6 @@
       ],
       "year": 2020,
       "journal": "Molecular Autism",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -396353,7 +397607,6 @@
       ],
       "year": 2025,
       "journal": "University of Reading (PhD thesis)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -396402,7 +397655,6 @@
       ],
       "year": 2024,
       "journal": "Gut Microbes",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -396580,7 +397832,6 @@
       ],
       "year": 1982,
       "journal": "Trends in Pharmacological Sciences (TIPS)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -396942,7 +398193,6 @@
       ],
       "year": 2025,
       "journal": "Applied and Environmental Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397007,7 +398257,6 @@
       ],
       "year": 2024,
       "journal": "Khazanah Informatika",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397190,7 +398439,6 @@
       ],
       "year": 2024,
       "journal": "npj Parkinson's Disease",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397208,7 +398456,6 @@
       ],
       "year": 2020,
       "journal": "Journal of Food Composition and Analysis",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397225,7 +398472,6 @@
       ],
       "year": 2020,
       "journal": "Food Research International",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397463,7 +398709,6 @@
       ],
       "year": 2018,
       "journal": "Metal Allergy (book chapter)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397475,7 +398720,6 @@
       ],
       "year": 2024,
       "journal": "Future Publishing House",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397693,7 +398937,6 @@
       "authors": [],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397794,7 +399037,6 @@
       ],
       "year": 2025,
       "journal": "Acta Sci Pol Technol Aliment",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -397942,7 +399184,6 @@
       ],
       "year": 2023,
       "journal": "International Journal of Molecular Sciences",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [
         2,
@@ -398250,7 +399491,6 @@
       ],
       "year": 2018,
       "journal": "PLOS ONE",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398330,7 +399570,6 @@
       ],
       "year": 2021,
       "journal": "Doctoral Thesis, University of Latvia",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398451,7 +399690,6 @@
       ],
       "year": 2010,
       "journal": "Iranian Journal of Psychiatry",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398495,7 +399733,6 @@
       ],
       "year": 2020,
       "journal": "Official Journal of the European Union (L 435/1)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398507,7 +399744,6 @@
       ],
       "year": 2001,
       "journal": "SCF/CS/CNTM/OTH/18 Final (EU Scientific Opinion)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398524,7 +399760,6 @@
       ],
       "year": 2025,
       "journal": "International Dental Journal",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398684,7 +399919,6 @@
       ],
       "year": 2020,
       "journal": "Journal of Food Safety and Hygiene",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398712,7 +399946,6 @@
       ],
       "year": 2020,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398724,7 +399957,6 @@
       ],
       "year": 2022,
       "journal": "Master's Thesis, University of Lisbon, Faculty of Pharmacy",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398871,7 +400103,6 @@
       ],
       "year": 2022,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -398983,7 +400214,6 @@
       ],
       "year": 2021,
       "journal": "Doctoral Thesis, University of Ferrara / IIT",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399121,7 +400351,6 @@
       ],
       "year": 2019,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399133,7 +400362,6 @@
       ],
       "year": 2025,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399176,7 +400404,6 @@
       ],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399240,7 +400467,6 @@
       ],
       "year": 2026,
       "journal": "Microbiota in Health and Disease",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399259,7 +400485,6 @@
       ],
       "year": 2026,
       "journal": "Microbiota in Health and Disease",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399715,7 +400940,6 @@
       ],
       "year": 2024,
       "journal": "Gut Microbes",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399790,7 +401014,6 @@
       ],
       "year": 2024,
       "journal": "Archive of Food and Nutritional Science",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399847,7 +401070,7 @@
       ],
       "year": 2021,
       "journal": "Research Square (preprint)",
-      "doi": "https://doi.org/10.21203/rs.3.rs-454949/v1",
+      "doi": "10.21203/rs.3.rs-454949/v1",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -399989,7 +401212,6 @@
       ],
       "year": 2023,
       "journal": "Unknown",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -400053,7 +401275,6 @@
       ],
       "year": 2023,
       "journal": "M.Sc. Thesis, ICAR-National Dairy Research Institute (Deemed University)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -400286,7 +401507,6 @@
       ],
       "year": 2022,
       "journal": "Applied Sciences",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -400761,7 +401981,6 @@
       ],
       "year": 2024,
       "journal": "Research Square (Preprint)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -401411,7 +402630,6 @@
       ],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -401656,7 +402874,6 @@
       ],
       "year": 2025,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -401856,7 +403073,6 @@
       ],
       "year": 2025,
       "journal": "Journal of Environmental Exposure Assessment",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -401869,7 +403085,6 @@
       ],
       "year": 2022,
       "journal": "Lancet Gastroenterology and Hepatology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -401963,7 +403178,6 @@
       ],
       "year": 2019,
       "journal": "npj Parkinson's Disease",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -402034,7 +403248,6 @@
       ],
       "year": 2021,
       "journal": "Nutrients",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -402193,7 +403406,6 @@
       ],
       "year": 2023,
       "journal": "Journal of Translational Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -402673,7 +403885,6 @@
       ],
       "year": 2025,
       "journal": "Clinical and Experimental Rheumatology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -402879,7 +404090,6 @@
       ],
       "year": 2025,
       "journal": "TPM",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403020,7 +404230,6 @@
       ],
       "year": 2024,
       "journal": "Journal of Education, Health and Sport",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403453,7 +404662,6 @@
       ],
       "year": 2022,
       "journal": "Journal of Movement Disorders",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403602,7 +404810,6 @@
       ],
       "year": 2017,
       "journal": "Journal of Preventive Epidemiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403636,7 +404843,6 @@
       ],
       "year": 2026,
       "journal": "mSphere",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403701,7 +404907,6 @@
       ],
       "year": 2025,
       "journal": "Preprint (no DOI found in document)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403748,7 +404953,6 @@
       ],
       "year": 2018,
       "journal": "Psychopharmacology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403838,7 +405042,6 @@
       ],
       "year": 2026,
       "journal": "Frontiers in Cellular and Infection Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403932,7 +405135,6 @@
       ],
       "year": 2011,
       "journal": "Medical Science Monitor",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -403972,7 +405174,6 @@
       ],
       "year": 2018,
       "journal": "Scientific Reports / International Cardiovascular Forum Journal",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -404008,7 +405209,6 @@
       ],
       "year": 2011,
       "journal": "Biology and Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -404165,7 +405365,6 @@
       ],
       "year": 2025,
       "journal": "Journal of Biological Chemistry",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -404566,7 +405765,6 @@
       ],
       "year": 2023,
       "journal": "manuscript (Rudjer Boskovic Institute, Zagreb, Croatia)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -404606,7 +405804,6 @@
       ],
       "year": 2017,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -404731,7 +405928,6 @@
       ],
       "year": 2019,
       "journal": "Journal of Clinical and Diagnostic Research",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -404789,7 +405985,6 @@
       ],
       "year": 2024,
       "journal": "PLOS ONE",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -405079,7 +406274,6 @@
       ],
       "year": 2025,
       "journal": "M.Sc. Thesis, University of Ottawa",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -405183,7 +406377,6 @@
       ],
       "year": 2023,
       "journal": "Tennessee Tech University (poster/review)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -405193,9 +406386,7 @@
       "authors": [
         "Destiny Lee"
       ],
-      "year": "not yet verified",
       "journal": "Student review paper",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -405240,7 +406431,6 @@
       ],
       "year": 2015,
       "journal": "BMC Public Health",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -405275,7 +406465,6 @@
       ],
       "year": 2012,
       "journal": "Metabolomics",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -405289,7 +406478,6 @@
       ],
       "year": 2025,
       "journal": "Proceedings of the National Academy of Sciences",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -405303,7 +406491,6 @@
       ],
       "year": 2019,
       "journal": "Frontiers in Immunology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -405889,7 +407076,6 @@
       ],
       "year": 2025,
       "journal": "NUS Medicine Press Release / European Association for the Study of Diabetes (EASD)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -406126,7 +407312,6 @@
       ],
       "year": 2024,
       "journal": "Manuscript (FORCE consortium)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -406141,7 +407326,6 @@
       ],
       "year": 2020,
       "journal": "Experimental & Molecular Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -406241,7 +407425,6 @@
       ],
       "year": 2023,
       "journal": "Frontiers in Public Health",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -406275,7 +407458,6 @@
       ],
       "year": 2024,
       "journal": "Frontiers in Psychiatry",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -406758,7 +407940,6 @@
       ],
       "year": 2021,
       "journal": "Frontiers in Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -407450,7 +408631,6 @@
       ],
       "year": 2020,
       "journal": "Nutrients",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -407472,7 +408652,6 @@
       ],
       "year": 2025,
       "journal": "mBio",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -408060,7 +409239,6 @@
       ],
       "year": 2024,
       "journal": "IQVIA White Paper",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -408155,7 +409333,6 @@
       ],
       "year": 2018,
       "journal": "Scientific Reports",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -408200,7 +409377,6 @@
       ],
       "year": 2021,
       "journal": "Genome Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -408250,7 +409426,6 @@
       ],
       "year": 2025,
       "journal": "Microbiology Spectrum",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409025,7 +410200,6 @@
       ],
       "year": 2025,
       "journal": "mBio",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409068,7 +410242,6 @@
       ],
       "year": 2023,
       "journal": "Trials",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409098,7 +410271,6 @@
       ],
       "year": 2023,
       "journal": "Journal of Population Therapeutics and Clinical Pharmacology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409111,7 +410283,6 @@
       ],
       "year": 2020,
       "journal": "iScientist",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409348,7 +410519,6 @@
       ],
       "year": 2023,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409360,7 +410530,6 @@
       ],
       "year": 2017,
       "journal": "Conference Presentation",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409372,7 +410541,6 @@
       ],
       "year": 2019,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409393,7 +410561,6 @@
       ],
       "year": 2019,
       "journal": "Frontiers in Cellular and Infection Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409407,7 +410574,6 @@
       ],
       "year": 2017,
       "journal": "Iraqi Journal of Pharmaceutical Sciences",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409474,7 +410640,6 @@
       ],
       "year": 2021,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409486,7 +410651,6 @@
       ],
       "year": 2015,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409496,9 +410660,7 @@
       "authors": [
         "Unknown"
       ],
-      "year": "Unknown",
       "journal": "Supplementary Material (no journal identified)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409510,7 +410672,6 @@
       ],
       "year": 2017,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409619,7 +410780,6 @@
       ],
       "year": 2020,
       "journal": "Clinical and Experimental Rheumatology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409631,7 +410791,6 @@
       ],
       "year": 2001,
       "journal": "University of Calgary (Master's Thesis)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409789,7 +410948,6 @@
       "authors": [],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -409956,7 +411114,6 @@
       ],
       "year": 2023,
       "journal": "Doctoral Thesis, Universidad de Granada",
-      "doi": "",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410004,7 +411161,6 @@
       ],
       "year": 2013,
       "journal": "University of British Columbia MSc Thesis",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410184,7 +411340,6 @@
       ],
       "year": 2013,
       "journal": "Annals of Nutrition and Metabolism",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410269,7 +411424,6 @@
       ],
       "year": 2015,
       "journal": "Movement Disorders",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410375,7 +411529,6 @@
       ],
       "year": 2019,
       "journal": "The Lancet Oncology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410637,7 +411790,6 @@
       ],
       "year": 2025,
       "journal": "Journal of Bacteriology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410750,7 +411902,6 @@
       ],
       "year": 2022,
       "journal": "European Review for Medical and Pharmacological Sciences",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410792,7 +411943,6 @@
       ],
       "year": 2026,
       "journal": "Frontiers in Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410853,7 +412003,6 @@
       ],
       "year": 2025,
       "journal": "Research in Developmental Disabilities",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410872,7 +412021,6 @@
       ],
       "year": 2000,
       "journal": "Toxic Substance Mechanisms",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410884,7 +412032,6 @@
       ],
       "year": 2025,
       "journal": "PhD Thesis",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -410894,7 +412041,6 @@
       "authors": [],
       "year": 2022,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411126,7 +412272,6 @@
       ],
       "year": 2015,
       "journal": "Annals of Biological Research",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411255,7 +412400,6 @@
       ],
       "year": 2024,
       "journal": "The Ohio State University PhD Dissertation",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411284,7 +412428,6 @@
       ],
       "year": 2026,
       "journal": "FEMS Microbiology Ecology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411406,7 +412549,6 @@
       ],
       "year": 2026,
       "journal": "bioRxiv",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411684,7 +412826,6 @@
       ],
       "year": 2024,
       "journal": "(Brain Sciences / related journal)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411699,7 +412840,6 @@
       ],
       "year": 2018,
       "journal": "Unpublished/Preprint",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411722,7 +412862,6 @@
       ],
       "year": 2025,
       "journal": "npj Antimicrobials and Resistance",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -411884,7 +413023,6 @@
       ],
       "year": 2026,
       "journal": "Conference Presentation",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [
         1
@@ -412200,7 +413338,6 @@
       ],
       "year": 2021,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -412597,7 +413734,6 @@
       ],
       "year": 2020,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -412645,7 +413781,6 @@
       ],
       "year": 2026,
       "journal": "Applied and Environmental Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -412680,7 +413815,6 @@
       ],
       "year": 1984,
       "journal": "Infection and Immunity",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -412867,7 +414001,6 @@
       ],
       "year": 2012,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -412945,7 +414078,6 @@
       ],
       "year": 2004,
       "journal": "Nutrition Research Reviews",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -413180,7 +414312,6 @@
       ],
       "year": 2023,
       "journal": "University of Auckland (Master's thesis)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -413246,7 +414377,6 @@
       ],
       "year": 2023,
       "journal": "Rebelytics R&D Inc. (technical report)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -413258,7 +414388,6 @@
       ],
       "year": 1998,
       "journal": "British Journal of Nutrition",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -413270,7 +414399,6 @@
       ],
       "year": 2002,
       "journal": "Environmental Health and Preventive Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -413963,7 +415091,6 @@
       ],
       "year": 2007,
       "journal": "Doctoral Dissertation, Clayton College of Natural Health, Birmingham, Alabama",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -413993,7 +415120,6 @@
       ],
       "year": 2024,
       "journal": "Nature Reviews Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414011,7 +415137,6 @@
       ],
       "year": 2015,
       "journal": "Clinical and Experimental Rheumatology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414130,7 +415255,6 @@
       ],
       "year": 2015,
       "journal": "Environmental Engineering and Management Journal",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414145,7 +415269,6 @@
       ],
       "year": 2015,
       "journal": "Environmental Engineering and Management Journal",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414563,7 +415686,6 @@
       ],
       "year": 2024,
       "journal": "Clinical Pharmacology & Therapeutics",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414576,7 +415698,6 @@
       ],
       "year": 2024,
       "journal": "Communications Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414619,7 +415740,6 @@
       ],
       "year": 2026,
       "journal": "mSphere",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414654,7 +415774,6 @@
       ],
       "year": 2022,
       "journal": "World Journal of Clinical Cases",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414764,7 +415883,6 @@
       ],
       "year": 2025,
       "journal": "Scholar's Digest: Journal of Gynecology and Obstetrics",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414871,7 +415989,6 @@
       ],
       "year": 2007,
       "journal": "American Family Physician",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -414890,7 +416007,6 @@
       ],
       "year": 2016,
       "journal": "Environment International",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415079,7 +416195,7 @@
       ],
       "year": 2013,
       "journal": "The Lancet",
-      "doi": "http://dx.doi.org/10.1016/S0140-6736(12)60520-0",
+      "doi": "10.1016/S0140-6736(12)60520-0",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415115,7 +416231,7 @@
       ],
       "year": 2021,
       "journal": "Archives of Gynecology and Obstetrics",
-      "doi": "https://doi.org/10.1007/s00404-021-06057-z",
+      "doi": "10.1007/s00404-021-06057-z",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415269,7 +416385,6 @@
       ],
       "year": 2025,
       "journal": "International Journal of Molecular Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415308,7 +416423,6 @@
       ],
       "year": 2025,
       "journal": "npj Biofilms and Microbiomes",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415482,7 +416596,6 @@
       ],
       "year": 2021,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415494,7 +416607,6 @@
       ],
       "year": 2021,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415506,7 +416618,6 @@
       ],
       "year": 2021,
       "journal": "Various",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415536,7 +416647,6 @@
       ],
       "year": 2025,
       "journal": "Clinical and Experimental Rheumatology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415688,7 +416798,6 @@
       ],
       "year": 2020,
       "journal": "British Journal of Cancer",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -415708,7 +416817,6 @@
       ],
       "year": 2021,
       "journal": "npj Biofilms and Microbiomes",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -416057,7 +417165,6 @@
       ],
       "year": 2025,
       "journal": "Frontiers in Nutrition",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -416333,7 +417440,6 @@
       ],
       "year": 2021,
       "journal": "Frontiers in Molecular Neuroscience",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -416387,7 +417493,6 @@
       ],
       "year": 2025,
       "journal": "Nucleic Acids Research",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -416405,7 +417510,7 @@
       ],
       "year": 2022,
       "journal": "Research Square (preprint)",
-      "doi": "https://doi.org/10.21203/rs.3.rs-2203272/v1",
+      "doi": "10.21203/rs.3.rs-2203272/v1",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -416587,7 +417692,6 @@
       ],
       "year": 2020,
       "journal": "Foods",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -416745,7 +417849,6 @@
       ],
       "year": 2025,
       "journal": "Scholar's Digest: Journal of Pharmacology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -416918,7 +418021,7 @@
       ],
       "year": 2021,
       "journal": "Reproductive Sciences",
-      "doi": "https://doi.org/10.1007/s43032-021-00506-5",
+      "doi": "10.1007/s43032-021-00506-5",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -417491,7 +418594,6 @@
       ],
       "year": 2015,
       "journal": "British Journal of Nutrition",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -417555,7 +418657,6 @@
       ],
       "year": 2024,
       "journal": "PNAS",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -417570,7 +418671,6 @@
       ],
       "year": 2016,
       "journal": "Reproductive Endocrinology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -417946,7 +419046,6 @@
       ],
       "year": 2024,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -418335,7 +419434,6 @@
       ],
       "year": 2014,
       "journal": "Proceedings of the Nutrition Society",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -418423,7 +419521,6 @@
       ],
       "year": 2024,
       "journal": "University of Ottawa (PhD thesis)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -418496,7 +419593,6 @@
       ],
       "year": 2021,
       "journal": "Nutrients",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -418608,7 +419704,6 @@
       ],
       "year": 2023,
       "journal": "Frontiers in Cellular and Infection Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -418882,7 +419977,6 @@
       ],
       "year": 2004,
       "journal": "JAMA",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -418932,7 +420026,6 @@
       ],
       "year": 2016,
       "journal": "Food & Function",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -418980,7 +420073,6 @@
       "authors": [],
       "year": 2022,
       "journal": "Virology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -419027,7 +420119,7 @@
       ],
       "year": 2025,
       "journal": "Microorganisms",
-      "doi": "https://doi.org/10.3390/microorganisms13010130",
+      "doi": "10.3390/microorganisms13010130",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -419296,7 +420388,6 @@
       ],
       "year": 2019,
       "journal": "Frontiers in Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -419846,7 +420937,6 @@
       ],
       "year": 2025,
       "journal": "Frontiers in Bioengineering and Biotechnology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -419946,7 +421036,6 @@
       ],
       "year": 2025,
       "journal": "Frontiers in Cellular and Infection Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -420291,7 +421380,6 @@
       ],
       "year": 2015,
       "journal": "Book (Self-published)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -420369,7 +421457,6 @@
       ],
       "year": 2021,
       "journal": "University of Edinburgh (PhD thesis)",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -420419,7 +421506,6 @@
       ],
       "year": 2025,
       "journal": "Applied and Environmental Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -420535,7 +421621,6 @@
       ],
       "year": 2017,
       "journal": "Nature Medicine",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -420712,7 +421797,6 @@
       ],
       "year": 2024,
       "journal": "Signal Transduction and Targeted Therapy",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -421027,7 +422111,6 @@
       ],
       "year": 2022,
       "journal": "Frontiers in Immunology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -421240,7 +422323,6 @@
       ],
       "year": 2020,
       "journal": "Cancer Epidemiology Biomarkers and Prevention",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -421755,7 +422837,6 @@
       ],
       "year": 2013,
       "journal": "Diagnostic Pathology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -422029,7 +423110,6 @@
       ],
       "year": 2023,
       "journal": "Frontiers in Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -422695,7 +423775,6 @@
       ],
       "year": 2021,
       "journal": "Frontiers in Endocrinology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -423010,7 +424089,7 @@
       ],
       "year": 2024,
       "journal": "Scientific Reports",
-      "doi": "https://doi.org/10.1038/s41598-024-83733-5",
+      "doi": "10.1038/s41598-024-83733-5",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -423173,7 +424252,6 @@
       ],
       "year": 2025,
       "journal": "Frontiers in Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -423368,7 +424446,6 @@
       ],
       "year": 2022,
       "journal": "Frontiers in Microbiology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -423638,7 +424715,6 @@
       ],
       "year": 2025,
       "journal": "Virulence",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -424030,7 +425106,6 @@
       ],
       "year": 2025,
       "journal": "Biological Trace Element Research",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -424144,7 +425219,6 @@
       ],
       "year": 2022,
       "journal": "Frontiers in Immunology",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
@@ -424349,7 +425423,6 @@
       "authors": [],
       "year": 2023,
       "journal": "not yet verified",
-      "doi": "not yet verified",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

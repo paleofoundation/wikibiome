@@ -58,7 +58,7 @@ export default async function ReadinessPage({ searchParams }: { searchParams: Se
             <p>{entries.length} of {report.totalRecords} records shown</p>
           </header>
           <form className="readiness-filters">
-            <label><span>Status</span><select name="status" defaultValue={filters.status ?? "all"}><option value="all">All states</option><option value="ready">Ready</option><option value="review">Review</option><option value="blocked">Blocked</option></select></label>
+            <label><span>Status</span><select name="status" defaultValue={filters.status ?? "all"}><option value="all">All states</option><option value="ready">Ready</option><option value="documented">Documented limitation</option><option value="review">Review</option><option value="blocked">Blocked</option></select></label>
             <label><span>Domain</span><select name="category" defaultValue={filters.category ?? "all"}><option value="all">All domains</option>{categories.map((category) => <option value={category} key={category}>{category}</option>)}</select></label>
             <label className="readiness-query"><span>Find a record or warning</span><input name="q" defaultValue={filters.q ?? ""} placeholder="Akkermansia, citation, template…" /></label>
             <button type="submit">Filter ledger</button>

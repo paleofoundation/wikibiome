@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T09:05:26.019Z",
+  "generatedAt": "2026-09-01T09:35:02.029Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
@@ -10,9 +10,1168 @@
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "1eee44a83663bb8d57abeb4a18f54c869c4d89d79b9d027082970c6aa7cd4fe7",
+    "sha256": "05a7dbc4cc616886f26be47b321d285958af10262bf6a70bcdcf25a86583cacb",
     "pages": 821,
     "sources": 1891
+  },
+  "sourceMetadataPolicy": {
+    "version": 1,
+    "normalizedYearCount": 0,
+    "omittedYearCount": 3,
+    "normalizedDoiCount": 9,
+    "omittedDoiCount": 217,
+    "normalizedYears": [],
+    "omittedYears": [
+      {
+        "id": "NOTE-evaluation-risk-ptes-italy-fish-products",
+        "value": "Unknown",
+        "reason": "not-a-finite-integer"
+      },
+      {
+        "id": "lee-year-micronutrient-deficiencies",
+        "value": "not yet verified",
+        "reason": "not-a-finite-integer"
+      },
+      {
+        "id": "microbiome-diet-endometriosis-food-tables",
+        "value": "Unknown",
+        "reason": "not-a-finite-integer"
+      }
+    ],
+    "normalizedDois": [
+      {
+        "id": "aderaldo-2022-shotgun-metagenomic-semen-microbiome",
+        "value": "https://doi.org/10.21203/rs.3.rs-1220437/v1",
+        "normalized": "10.21203/rs.3.rs-1220437/v1"
+      },
+      {
+        "id": "borrelli-2018-herbal-supplements-erectile-dysfunction",
+        "value": "https://doi.org/10.1007/s40265-018-0897-3",
+        "normalized": "10.1007/s40265-018-0897-3"
+      },
+      {
+        "id": "geng-2021-gut-microbiota-diversity-erectile-dysfunction",
+        "value": "https://doi.org/10.21203/rs.3.rs-454949/v1",
+        "normalized": "10.21203/rs.3.rs-454949/v1"
+      },
+      {
+        "id": "shamloul-2013-erectile-dysfunction-seminar",
+        "value": "http://dx.doi.org/10.1016/S0140-6736(12)60520-0",
+        "normalized": "10.1016/S0140-6736(12)60520-0"
+      },
+      {
+        "id": "shan-2021-gut-microbiota-imbalance-hormone-inflammatory-endometriosis",
+        "value": "https://doi.org/10.1007/s00404-021-06057-z",
+        "normalized": "10.1007/s00404-021-06057-z"
+      },
+      {
+        "id": "stevens-2022-phage-endolysin-chronic-bacterial-prostatitis",
+        "value": "https://doi.org/10.21203/rs.3.rs-2203272/v1",
+        "normalized": "10.21203/rs.3.rs-2203272/v1"
+      },
+      {
+        "id": "svensson-2021-associations-endometriosis-gut-microbiota",
+        "value": "https://doi.org/10.1007/s43032-021-00506-5",
+        "normalized": "10.1007/s43032-021-00506-5"
+      },
+      {
+        "id": "vocca-2025-probiotics-chronic-bacterial-prostatitis-rct",
+        "value": "https://doi.org/10.3390/microorganisms13010130",
+        "normalized": "10.3390/microorganisms13010130"
+      },
+      {
+        "id": "zhang-2024-cbc-inflammatory-biomarkers-erectile-dysfunction",
+        "value": "https://doi.org/10.1038/s41598-024-83733-5",
+        "normalized": "10.1038/s41598-024-83733-5"
+      }
+    ],
+    "omittedDois": [
+      {
+        "id": "16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "16s-rrna-t2d-subgingival-plaque-microbiota",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "16s-rrna-yu-ye-tang-t2d-metabolomics",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "NOTE-evaluation-risk-ptes-italy-fish-products",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "acosta-rodriguez-2018-biosorption-candida-albicans",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "adapa-2023-microbiome-thyroid-link-gut-microbiota-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "agboola-2023-heavy-metals-leafy-vegetables-lagos",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "al-natsheh-2022-stress-probiotics-ovarian-cancer-thesis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "alageel-2025-microbiome-composition-gerd-systematic-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "alam-2025-pharmacology-microbiome-targeting-therapeutic-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "alonso-garcia-2021-gut-microbiota-proteinopathies",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "althomali-2024-heavy-metals-neurocognitive-systematic-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "altinok-dindar-2023-gut-microbiota-breast-cancer-diet",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "amadi-2022-dietary-interventions-asd-systematic-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "anandakumar-2024-multi-omic-host-microbiome-cardiorenal-thesis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "annu-2025-probiotics-management-autoimmune-ms-nanotech",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "antibiotics-2018-selective-spectrum-gut-microbiome-obesity-diabetes-rodents",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "armstrong-2024-alzheimers-extrinsic-factors-development",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "arsenic-brown-rice-risk-benefit",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "arsenic-cancer-japanese-cohort",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "arsenic-drinking-water-cancer-mortality",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "arshad-2023-heavy-metals-rheumatoid-arthritis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "atsdr-2005-tin-toxicological-profile",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "baby-food-heavy-metals-italy",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bala-2016-plasma-amino-acid-profile-asd",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bazzichi-2024-environmental-factors-fibromyalgia-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bell-2018-fermented-food-guidelines-children",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bile-acids-t1d-calprotectin-scfa",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bjorklund-2016-immune-dysfunction-neuroinflammation-asd",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bolte-2019-environmental-exposure-asd-etiology",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "bushman-2025-nutrient-metals-bacteria-gut-infection",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "cadmium-diabetes-burden",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "chao-2025-microbiota-gut-brain",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "chen-2023-causal-constipation-parkinsons-microbiome-mediation",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "cheroni-2020-asd-genes-environment-crossroad",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "colombage-2025-dietary-flavonoid-supplementation-postpartum-mood",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "constipation-causal-effect-parkinsons-microbiome-mediation",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "costa-1982-specific-nickel-compounds-carcinogens",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "daungsupawong-2024-ai-drug-repurposing-chronic-vaginitis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "de-paiva-2020-aluminium-infant-foods-bioaccessibility",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "de-paiva-2020-aluminum-cereal-baby-foods-bioaccessibility",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "di-gioacchino-2018-snas-chapter",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "diallo-2024-microbiome-derived-metabolites-autoimmune",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "dithiocarbamate-2024-copper-dependent-antimicrobials",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "dobrzynska-2025-nickel-children-food",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "elbere-2018-metformin-gut-microbiome-dysbiosis-healthy-volunteers",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "elbere-2021-metformin-gut-microbiome-epigenetics-t2d-thesis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "etebary-2010-ppd-serum-trace-elements",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "eu-2020-drinking-water-directive",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "eu-scf-2001-tin-canned-foods",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "fakhruddin-2025-oral-microbiome-asd-systematic-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "fatima-2020-heavy-metals-fruit-juices-pakistan",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "fatty-acids-2020-glucolipotoxicity-diabetes-microbiome",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "fazendeiro-2022-role-microbiome-ms-masters-thesis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "fermented-foods-2022-botanical-metabolic-syndrome-t2d-systematic-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "ferri-2021-ms-hygiene-hypothesis-environmental-gut-microbiota-thesis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "fmt-2019-future-therapeutic-diabetes-aron-wisnewsky",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "fmt-2025-promising-treatment-t2d-insulin-resistance",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "food-contamination-cvd-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "franceschi-2026-nsaids-paracetamol-adverse-reactions-gut-microbiota",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "franceschi-2026-paracetamol-nsaid-adr-gut-microbiota",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "garcez-2024-gut-microbiome-review-parkinsons",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "garuba-2024-heavy-metals-commercial-baby-foods",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "ghasemian-sorboni-2023-gut-microbiome-neurological-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "ghosh-2023-fmt-cadmium-testicular-degeneration-rats",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "heavy-metals-kidney-transplant",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "high-fiber-diet-2025-gut-microbiome-diabetes-interventions",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "hopfner-2025-infant-formula-dietary-exposure-elements-germany",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "horsager-2022-parkinsons-gut-early-diagnosis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "houser-2019-microbiome-inflammation-disease-progression-parkinsons",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "hrnciarova-2021-biological-response-modifier-asd-microbiome",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "hu-2023-amino-acids-cvd-mendelian-randomization",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "iannuccelli-2025-fibromyalgia-year-review-2025",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "ismail-2025-mechanisms-gerd-development-systematic-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "jakubowska-2024-metal-toxicity-alzheimers-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "jo-2022-oral-dysbiosis-parkinsons-systematic-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "kafeshani-2017-gut-microbiome-diet-ckd",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "kajfasz-2026-zinc-enhanced-phenazine-antimicrobial-gram-positive",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "kamath-2025-gut-microbiome-mental-health-causation-correlation-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "kao-2018-prebiotics-cognition-weight-gain-schizophrenia",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "kern-2011-glutathione-supplementation-asd-clinical-trial",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "keto-diet-2018-gut-microbiome-diabetes",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "khan-2011-novel-approach-enterobacteriaceae-identification-clinical",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "khochtali-2025-pcob-copper-efflux-disordered-region-caulobacter",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "konjevod-2023-metabolomic-aspects-ppd-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "kouidrat-2017-erectile-dysfunction-diabetes",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "kukde-2019-heavy-metals-candida-hiv",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "kuo-2024-low-level-lead-cadmium-ckd-mortality",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "leao-2025-sex-simulated-microbiome-psychotropic-drug",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lee-2023-micronutrient-deficiencies-ppd-anxiety-poster",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lee-year-micronutrient-deficiencies",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lei-2015-infertility-lead-cadmium-arsenic-taiwan",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "leichtle-2012-serum-amino-acid-profiles-crc",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lenner-2025-compatibility-intracellular-binding-metal-sensor-design",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "leshem-2019-fmt-cardiometabolic-syndrome",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "li-2025-gestational-diabetes-cognitive-decline-adhd-asd",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lidgard-2024-saturated-fatty-acids-incident-ckd-meta-analysis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lieu-2020-amino-acids-cancer",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lin-2023-heavy-metals-infertility-nhanes",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "liu-2021-args-colorectal-cancer-microbiome",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lombardi-2020-snas-probiotics-dysbiosis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "lutzmayer-2024-harnessing-multitudes-microbiome-therapeutics",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "ma-2018-ketogenic-diet-neurovascular-function-gut-microbiome-mice",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "ma-2025-zntr-zinc-homeostasis-pathogenicity-riemerella",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "mcleod-2023-bridge-crc-mediterranean-diet-trial",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "mehboob-2023-apple-juice-metals-pakistan",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "mehmood-2020-high-fiber-diet-cvd-microbiome-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "metabolic-pathways-2023-2025-gut-microbiome-t1d",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "metformin-2017-gut-microbiome-t2d-gothenburg",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "metformin-2019-association-gut-microbiome-dysbiosis-healthy",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "metz-2019-drug-discovery-bft-inhibition",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "mhaibes-2017-blood-metals-pcos-obese",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "microbial-biomarkers-t2d-feature-selection",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "microbiome-autoimmune-2015-dysbiosis-autoantibodies-t1d",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "microbiome-diet-endometriosis-food-tables",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "microbiome-immune-system-2017-modulation-t1d-risk",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "minerbi-2020-gut-microbiome-pertinence-fibromyalgia-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "mintz-2001-insight-schizophrenia-meta-analysis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "mixed-metals-2024-global-iron-starvation-response",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "montoya-2013-metagenomic-analyses-bv-ovarian-cancer-thesis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "murri-2013-gut-microbiota-t1d-children-prevotella",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "nalls-2015-causal-microbiome-parkinsons-genetics",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "nene-2019-cervicovaginal-microbiome-brca1-ovarian-cancer",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "nies-2025-flow-equilibrium-model-mis-metalation-zinc",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "noce-2022-gut-microbiota-dysbiosis-ckd-link",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "nong-2026-sod-deficiency-oxidative-stress-ecoli",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "novau-ferre-2025-adhd-asd-probiotics-rct",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "novelli-2000-toxic-mechanism-nickel-cardiac-tissue",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "novikova-2025-microbiome-derived-metabolites-parkinsons-thesis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "nramp-2022-deprive-and-conquer",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "onyeneto-2015-trace-metals-fruit-juices-nigeria",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "otto-2024-cancer-treatments-immune-dysfunction-gut-microbiome-dissertation",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "oudova-rivera-2026-copper-niche-ammonia-oxidizers",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "palmer-2026-ph-dependent-riboswitch-manganese-sensing",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "passeri-2024-recent-advances-therapeutics-alzheimers",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "patel-2018-yeast-fungi-asd-neurotypical",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "paterson-2025-metal-chelator-resistance-cell-wall-saureus",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "pendergrass-2026-endometriosis-conference",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "periodontitis-t2d-microbial-biomarkers",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "probiotics-treatment-2020-t1d-diabetes-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "puiggene-2026-ped-gene-cluster-pseudomonas-metal-cofactors",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "pung-1984-sex-hormones-listeria-susceptibility-mice",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "quantitative-metabolomics-2012-altered-pathways-diabetes",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "rafter-2004-probiotics-colon-cancer-development",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "rauniyar-2023-maternal-mental-health-probiotics-dietary-fibre",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "rebelytics-2023-nickel-in-foods-summary",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "reddy-1998-prebiotics-probiotics-colon-cancer-prevention",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "reddy-2002-omega3-fatty-acids-colon-cancer",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "rosen-2007-nutrition-erectile-dysfunction",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "ross-2024-diet-gut-microbiome-interplay-health-disease",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "rossi-2015-fibromyalgia-nutrition-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "rusu-2015-asd-risk-factors-genetic-epigenetic-immune-environmental",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "rusu-2015-risk-factors-asd-genetic-epigenetic-immune-environmental",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "sampson-2023-drug-repurposing-microbiome-parkinsons",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "sampson-2024-microbiome-signature-parkinsons-multicohort",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "sanchez-rosario-2026-bmdc-metal-antimicrobial-mrsa-biofilm",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "santos-2022-microbiome-review-parkinsons-gut",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "sarita-2025-microbiome-female-reproductive-health",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "schultz-2007-schizophrenia-review-afp",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "sealey-2016-environmental-factors-asd-development",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "shen-2025-amino-acid-metabolism-inflammation-chd",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "shen-2025-high-fat-low-fiber-diet-gut-resistome",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "shotgun-metagenomics-mexican-children-metabolic-syndrome-t2d",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "shotgun-metagenomics-postprint-diabetes-microbiome",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "shotgun-metagenomics-synbiotics-dietary-regulation-diabetes",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "shtrozberg-2025-gut-microbiome-fibromyalgia-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "simin-2020-antibiotic-use-crc-risk",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "simon-soro-2021-thonzonium-bromide-oral-gut-microbiomes",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "song-2025-microbiome-targeted-therapies-nafld-meta-analysis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "stanton-2021-metallome-omes-link-asd",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "stephen-2025-manganese-sensing-riboswitch-aptamers-expression-platforms",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "su-2020-toxic-elements-infant-formulas-china",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "sumit-2025-targeting-microbiome-drug-development",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "tapsell-2015-fermented-dairy-food-cvd-risk",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "tassoulas-2024-dinickel-enzyme-metformin-microbiome",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "tatarchuk-2016-micro-macroelements-pcos",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "thyroid-cancer-mercury-link",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "tuohy-2014-probiotics-prebiotics-cardiovascular-risk",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "udechukwu-2024-mediterranean-diet-postpartum-mice-prenatal-stress",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "urolithins-parkinsons-biomarkers-gut-dysbiosis",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "velicer-2004-antibiotic-use-breast-cancer-risk",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "virome-2022-parkinsons-gut-virome-phageome",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "wang-2019-fmt-colitis-associated-colon-cancer-treg",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "wang-2025-zinc-ionophore-pbt2-tigecycline-resistance-klebsiella",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "wentz-2015-hashimotos-root-cause-lifestyle-interventions",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "whitaker-2021-statins-preterm-delivery-prevention",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "wu-2017-metformin-gut-microbiome-t2d-therapeutic-effects",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "xia-2024-drug-repurposing-cancer-therapy",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "xu-2022-fmt-antitumor-cancer-immunotherapy",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "yammine-2020-dietary-fatty-acids-ovarian-cancer-epic",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "yatabe-2013-amino-acid-profiling-colon-cancer-detection",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "yu-2023-fmt-inhibits-crc-progression",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "zhang-2021-ketogenic-diets-cardiometabolic-diseases",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "zhang-2025-gut-microbiota-cvd-mini-review",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "zhao-2022-high-fiber-diet-myocardial-infarction-microbiota",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "zhou-2025-hair-heavy-metals-asd-severity",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "zhu-2022-berberine-uc-cancer-therapy",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      },
+      {
+        "id": "zinc-essentiality-toxicity-bioremediation",
+        "value": "not yet verified",
+        "reason": "placeholder"
+      }
+    ]
   },
   "publicContentPolicy": {
     "version": 3,
@@ -356,6 +1515,13 @@
       }
     ]
   },
+  "editorialStatusPolicy": {
+    "version": 1,
+    "sourceCommit": "62e006cf0ced1dce706a6438f6461602229a9f26",
+    "registeredCount": 113,
+    "appliedRecordCount": 122,
+    "registrySha256": "ae4159784a90d7350a14bd08fd5c3a02fef9994f201403a9af067519fb56344c"
+  },
   "audit": {
     "duplicatePageIds": [
       "alzheimers-disease",
@@ -488,6 +1654,7 @@
       "zinc-endometriosis-2024"
     ],
     "malformedDois": [],
+    "invalidSourceYears": [],
     "belowThresholdPages": 103
   }
 }

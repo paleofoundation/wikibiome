@@ -5,6 +5,7 @@ import test from "node:test";
 import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { classifySearchReferrer } from "../lib/search-observability.mjs";
 import { applyPublicContentPolicy, publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
+import { normalizeSourceMetadata } from "../scripts/source-metadata-policy.mjs";
 
 async function render(pathname = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -129,6 +130,29 @@ test("normalizes source-authored lead sections without inventing or duplicating 
   assert.deepEqual(content.pages[0].sections.map((section) => section.heading), ["Evidence"]);
   assert.equal(normalizations.leadPromotions.length, 1);
   assert.equal(input.pages[0].sections[0].body, sourceLead, "normalization must not mutate the upstream snapshot");
+});
+
+test("omits invalid source years and placeholder DOIs without inventing metadata", () => {
+  const input = {
+    pages: [],
+    sourceLookup: {
+      invalid: { title: "Unverified source", year: "Unknown", doi: "not yet verified" },
+      malformed: { title: "Malformed DOI", year: 2023, doi: "example.org/not-a-doi" },
+      normalized: { title: "Prefixed DOI", year: "2024", doi: "https://doi.org/10.1234/ABC.5" },
+    },
+  };
+  const { content, audit } = normalizeSourceMetadata(input);
+
+  assert.deepEqual(content.sourceLookup.invalid, { title: "Unverified source" });
+  assert.deepEqual(content.sourceLookup.malformed, { title: "Malformed DOI", year: 2023 });
+  assert.deepEqual(content.sourceLookup.normalized, { title: "Prefixed DOI", year: 2024, doi: "10.1234/ABC.5" });
+  assert.deepEqual(audit.omittedYears, [{ id: "invalid", value: "Unknown", reason: "not-a-finite-integer" }]);
+  assert.deepEqual(audit.omittedDois, [
+    { id: "invalid", value: "not yet verified", reason: "placeholder" },
+    { id: "malformed", value: "example.org/not-a-doi", reason: "malformed" },
+  ]);
+  assert.equal(input.sourceLookup.invalid.year, "Unknown", "normalization must not mutate the upstream snapshot");
+  assert.equal(input.sourceLookup.invalid.doi, "not yet verified");
 });
 
 test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
@@ -936,8 +960,52 @@ test("applies global evidence and interaction rules across article templates", a
   assert.match(analysis, /Cross-record synthesis/);
 });
 
+test("publishes source-bound editorial limitations on every affected canonical template", async () => {
+  const [limitedResponse, structureResponse, referenceResponse, diseaseResponse, readyResponse, readinessResponse] = await Promise.all([
+    render("/article/aip-diet-hashimotos"),
+    render("/article/microbiome-diversity-metrics"),
+    render("/article/glossary"),
+    render("/article/barretts-esophagus"),
+    render("/article/nickel"),
+    render("/readiness?status=documented"),
+  ]);
+
+  for (const response of [limitedResponse, structureResponse, referenceResponse, diseaseResponse, readyResponse, readinessResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const [limited, structure, reference, disease, ready, readiness] = await Promise.all([
+    limitedResponse.text(), structureResponse.text(), referenceResponse.text(), diseaseResponse.text(), readyResponse.text(), readinessResponse.text(),
+  ]);
+  assert.match(limited, /Editorial evidence status/);
+  assert.match(limited, /Evidence-limited source record/);
+  assert.match(limited, /no resolvable references/);
+  assert.match(structure, /Source structure awaiting an upstream lead/);
+  assert.match(structure, /No lead was synthesized or inferred/);
+  assert.match(reference, /Reference index/);
+  assert.match(reference, /navigation\/reference indexes rather than claim-bearing articles/);
+  assert.match(disease, /Evidence-limited source record/);
+  assert.match(disease, /type-specific declared-source thresholds/);
+  assert.doesNotMatch(ready, /Editorial evidence status/);
+  assert.match(readiness, /Documented limitation/);
+  assert.doesNotMatch(readiness, /ledger-state review/);
+  assert.doesNotMatch(readiness, /ledger-state blocked/);
+});
+
+test("renders invalid upstream source metadata as absent rather than as a year or DOI", async () => {
+  const response = await render("/source/note-evaluation-risk-ptes-italy-fish-products");
+  assert.equal(response.status, 200);
+  const html = await response.text();
+
+  assert.match(html, /<dt>Year<\/dt><dd>Not recorded<\/dd>/);
+  assert.match(html, /<dt>DOI<\/dt><dd>Not yet verified<\/dd>/);
+  assert.doesNotMatch(html, /href="https:\/\/doi\.org\/not/);
+  assert.doesNotMatch(html, /<dt>Year<\/dt><dd>Unknown<\/dd>/);
+});
+
 test("binds generated content to the fetched upstream commit", () => {
   const content = readFileSync(new URL("../data/content.generated.json", import.meta.url));
+  const generatedContent = JSON.parse(content.toString("utf8"));
   const manifest = JSON.parse(readFileSync(new URL("../data/content-manifest.generated.json", import.meta.url), "utf8"));
   const digest = createHash("sha256").update(content).digest("hex");
 
@@ -946,13 +1014,29 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 821);
   assert.equal(manifest.content.sources, 1891);
+  assert.equal(manifest.sourceMetadataPolicy.version, 1);
+  assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
+  assert.equal(manifest.sourceMetadataPolicy.omittedYearCount, 3);
+  assert.equal(manifest.sourceMetadataPolicy.normalizedDoiCount, 9);
+  assert.equal(manifest.sourceMetadataPolicy.omittedDoiCount, 217);
+  assert.ok(manifest.sourceMetadataPolicy.omittedYears.some((entry) => entry.id === "NOTE-evaluation-risk-ptes-italy-fish-products" && entry.value === "Unknown"));
+  assert.ok(manifest.sourceMetadataPolicy.omittedDois.some((entry) => entry.id === "NOTE-evaluation-risk-ptes-italy-fish-products" && entry.value === "not yet verified"));
+  assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].year, undefined);
+  assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].doi, undefined);
   assert.equal(manifest.publicContentPolicy.version, 3);
   assert.equal(manifest.publicContentPolicy.excludedCount, 46);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
   assert.equal(manifest.editorialNormalization.leadPromotionCount, 347);
   assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
+  assert.equal(manifest.editorialStatusPolicy.version, 1);
+  assert.equal(manifest.editorialStatusPolicy.sourceCommit, manifest.source.commit);
+  assert.equal(manifest.editorialStatusPolicy.registeredCount, 113);
+  assert.equal(manifest.editorialStatusPolicy.appliedRecordCount, 122);
+  const statusRegistry = readFileSync(new URL("../data/editorial-statuses.json", import.meta.url));
+  assert.equal(manifest.editorialStatusPolicy.registrySha256, createHash("sha256").update(statusRegistry).digest("hex"));
   assert.ok(manifest.audit.recoveredInlineReferences >= 348);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
+  assert.equal(manifest.audit.invalidSourceYears.length, 0);
   assert.equal(manifest.audit.resolvedSourceAliasIds.length, 55);
 });

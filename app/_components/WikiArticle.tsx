@@ -674,6 +674,16 @@ function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCou
   );
 }
 
+export function EditorialStatusNotice({ status }: { status?: WikiPage["editorialStatus"] }) {
+  if (!status) return null;
+  return (
+    <aside className={`template-notice editorial-status ${status.disposition}`} aria-label="Editorial evidence status">
+      <span>{status.publicLabel}</span>
+      <p>{status.rationale}</p>
+    </aside>
+  );
+}
+
 export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boolean }) {
   const schema = contentSchemaFor(page);
   const sections = prepareArticleSections(page);
@@ -719,6 +729,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
 
           <div className="article-grid" id="article">
             <article className="article-body">
+              <EditorialStatusNotice status={page.editorialStatus} />
               {schema.kind === "stop" && <aside className="template-notice caution"><span>Clinical caution record</span><p>This page preserves an evidence-linked caution from the WikiBiome corpus. It is educational context, not individualized medical advice.</p></aside>}
               {schema.kind === "analysis" && <aside className="template-notice synthesis"><span>Cross-record synthesis</span><p>This analysis connects evidence across multiple WikiBiome records; use the inline citations to inspect each underlying source.</p></aside>}
               {schema.kind === "intervention" && <aside className="template-notice intervention"><span>Intervention evidence</span><p>Mechanism, reported outcomes, limitations, and cautions are kept together so an intervention is not separated from its evidence boundaries.</p></aside>}

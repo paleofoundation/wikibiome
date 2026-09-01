@@ -9,6 +9,7 @@ import {
   ArticleRevisionNote,
   ClaimProvenance,
   EvidenceIntegrity,
+  EditorialStatusNotice,
   OpenQuestionsSection,
   ParadoxLinkIndex,
   ReferencesSection,
@@ -259,6 +260,11 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
   const related = resolveRelated(page, 6);
   const signatureSourceCount = new Set(record.signaturePages.flatMap((item) => item.sources ?? []).map(normalizeWikiId)).size;
   const namedLayers = layers.filter((layer) => signatureLayerCount(signature, layer.id)).length;
+  const editorialStatuses = [...new Map(
+    [page.editorialStatus, ...record.signaturePages.map((signaturePage) => signaturePage.editorialStatus)]
+      .filter((status): status is NonNullable<typeof page.editorialStatus> => Boolean(status))
+      .map((status) => [status.group, status]),
+  ).values()];
 
   return (
     <>
@@ -292,6 +298,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
 
           <div className="article-grid disease-grid" id="overview">
             <article className="article-body disease-body">
+              {editorialStatuses.map((status) => <EditorialStatusNotice status={status} key={status.group} />)}
               <div className="lead-copy disease-lead"><RichText text={page.overview ?? "This WikiBiome disease record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
               <EvidenceIntegrity evidence={evidence} />
               <ClaimProvenance evidence={evidence} />

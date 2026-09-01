@@ -27,6 +27,14 @@ export type WikiPage = {
   backlinks?: string[];
   related?: Array<{ id: string; score: number }>;
   sourceDir?: string;
+  editorialStatus?: {
+    group: string;
+    disposition: "evidence_insufficient" | "source_structure_deferred" | "structural_exemption";
+    approved: true;
+    resolves: string[];
+    rationale: string;
+    publicLabel: string;
+  };
 };
 
 export type SignatureTaxon = {

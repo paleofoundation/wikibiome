@@ -12,6 +12,17 @@ import {
   applyPublicContentPolicy,
   getPublicContentExclusions,
 } from "./public-content-policy.mjs";
+import {
+  EDITORIAL_STATUS_POLICY_VERSION,
+  applyEditorialStatusPolicy,
+  getEditorialStatusRegistry,
+} from "./editorial-status-policy.mjs";
+import {
+  SOURCE_METADATA_POLICY_VERSION,
+  normalizeSourceDoi,
+  normalizeSourceMetadata,
+  normalizeSourceYear,
+} from "./source-metadata-policy.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -28,6 +39,8 @@ const sourceRoot = resolve(projectRoot, valueAfter("--source", "work/reference-w
 const targetPath = resolve(projectRoot, valueAfter("--content", "data/content.generated.json"));
 const manifestPath = resolve(projectRoot, valueAfter("--manifest", "data/content-manifest.generated.json"));
 const sourceAliasRegistry = JSON.parse(readFileSync(resolve(projectRoot, "data/source-id-aliases.json"), "utf8"));
+const editorialStatusPath = resolve(projectRoot, "data/editorial-statuses.json");
+const editorialStatusRegistry = getEditorialStatusRegistry();
 const sourceIdAliases = Object.fromEntries(
   Object.entries(sourceAliasRegistry.aliases ?? {}).map(([alias, target]) => [normalizeId(alias), normalizeId(target)]),
 );
@@ -64,18 +77,26 @@ assertExists(inputPath, `Content file not found: ${inputPath}`);
 const raw = readFileSync(inputPath, "utf8");
 if (cleanupSnapshot) cleanupSnapshot();
 const parsedContent = JSON.parse(raw);
-const lingeringExclusions = getPublicContentExclusions(parsedContent.pages);
+const metadataNormalization = normalizeSourceMetadata(parsedContent);
+const metadataContent = auditOnly ? parsedContent : metadataNormalization.content;
+const sourceMetadataNormalization = metadataNormalization.audit;
+const lingeringExclusions = getPublicContentExclusions(metadataContent.pages);
 if (auditOnly && lingeringExclusions.length) {
   throw new Error(`${lingeringExclusions.length} internal operational records are still present in the public corpus. Run node scripts/sync-wikibiome-content.mjs --sanitize-current.`);
 }
 if (sanitizeCurrent && !lingeringExclusions.length) {
   throw new Error("The current corpus already satisfies the public-content policy; refusing to overwrite its exclusion register.");
 }
-const { content, exclusions: newlyExcluded, normalizations } = applyPublicContentPolicy(parsedContent);
+const { content: policyContent, exclusions: newlyExcluded, normalizations } = applyPublicContentPolicy(metadataContent);
+const statusSourceCommit = sourceCommit ?? JSON.parse(readFileSync(manifestPath, "utf8")).source?.commit;
+const { content, appliedCount: appliedEditorialStatuses, registeredCount: registeredEditorialStatuses } = applyEditorialStatusPolicy(policyContent, statusSourceCommit);
 const exclusions = [...retainedExclusions, ...newlyExcluded].filter((entry, index, all) => (
   all.findIndex((candidate) => candidate.id === entry.id) === index
 ));
 const audit = auditContent(content);
+if (audit.invalidSourceYears.length || audit.malformedDois.length) {
+  throw new Error(`Generated content retains ${audit.invalidSourceYears.length} invalid source year values and ${audit.malformedDois.length} invalid DOI values. Run npm run content:sync to apply the source-metadata policy.`);
+}
 const sha256 = createHash("sha256").update(raw).digest("hex");
 
 if (auditOnly) {
@@ -102,6 +123,14 @@ const manifest = {
     pages: content.pages.length,
     sources: Object.keys(content.sourceLookup).length,
   },
+  sourceMetadataPolicy: {
+    version: SOURCE_METADATA_POLICY_VERSION,
+    normalizedYearCount: sourceMetadataNormalization.normalizedYears.length,
+    omittedYearCount: sourceMetadataNormalization.omittedYears.length,
+    normalizedDoiCount: sourceMetadataNormalization.normalizedDois.length,
+    omittedDoiCount: sourceMetadataNormalization.omittedDois.length,
+    ...sourceMetadataNormalization,
+  },
   publicContentPolicy: {
     version: PUBLIC_CONTENT_POLICY_VERSION,
     minimumAnalysisReferences: MIN_PUBLIC_ANALYSIS_REFERENCES,
@@ -112,6 +141,13 @@ const manifest = {
     leadPromotionCount: normalizations.leadPromotions.length,
     leadPromotionSamples: normalizations.leadPromotions.slice(0, 20),
   },
+  editorialStatusPolicy: {
+    version: EDITORIAL_STATUS_POLICY_VERSION,
+    sourceCommit: editorialStatusRegistry.sourceCommit,
+    registeredCount: registeredEditorialStatuses,
+    appliedRecordCount: appliedEditorialStatuses,
+    registrySha256: createHash("sha256").update(readFileSync(editorialStatusPath)).digest("hex"),
+  },
   audit,
 };
 
@@ -120,6 +156,7 @@ writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 printSummary(audit, content, "synchronized");
 console.log(`${exclusions.length} internal operational records excluded from public publishing.`);
 console.log(`${normalizations.leadPromotions.length} source-authored lead sections normalized into article introductions.`);
+console.log(`${appliedEditorialStatuses} records carry explicit editorial statuses from ${registeredEditorialStatuses} registry decisions.`);
 console.log(`Source commit: ${sourceCommit ?? "unavailable"}`);
 console.log(`Manifest: ${manifestPath}`);
 
@@ -182,6 +219,7 @@ function auditContent(content) {
   const missingMetadata = new Set();
   const resolvedSourceAliases = new Set();
   const malformedDois = [];
+  const invalidSourceYears = [];
   let pagesWithReferences = 0;
   let generatedReferences = 0;
   let pagesWithSourceDrift = 0;
@@ -215,8 +253,14 @@ function auditContent(content) {
   }
 
   for (const [id, source] of Object.entries(sourceLookup)) {
-    const doi = normalizeDoi(source.doi);
-    if (doi.status === "malformed") malformedDois.push({ id, value: source.doi });
+    if (Object.hasOwn(source, "year")) {
+      const year = normalizeSourceYear(source.year);
+      if (year.status !== "valid") invalidSourceYears.push({ id, value: source.year });
+    }
+    if (Object.hasOwn(source, "doi")) {
+      const doi = normalizeSourceDoi(source.doi);
+      if (doi.status !== "valid") malformedDois.push({ id, value: source.doi, reason: doi.status });
+    }
   }
 
   return {
@@ -229,6 +273,7 @@ function auditContent(content) {
     missingSourceMetadataIds: [...missingMetadata].sort(),
     resolvedSourceAliasIds: [...resolvedSourceAliases].sort(),
     malformedDois,
+    invalidSourceYears,
     belowThresholdPages,
   };
 }
@@ -255,17 +300,6 @@ function normalizeId(value) {
     .replace(/[^a-z0-9-]/g, "");
 }
 
-function normalizeDoi(value) {
-  const raw = String(value ?? "").trim();
-  if (!raw || /^not yet verified$/i.test(raw)) return { status: "unverified" };
-  const bare = raw
-    .replace(/^https?:\/\/(dx\.)?doi\.org\//i, "")
-    .replace(/^doi:\s*/i, "")
-    .replace(/[.,;:\s]+$/g, "")
-    .trim();
-  return { status: /^10\.\d{4,9}\/[-._;()/:A-Za-z0-9<>+]+$/.test(bare) ? "valid" : "malformed" };
-}
-
 function verifyManifest(path, sha256) {
   assertExists(path, `Content manifest not found: ${path}. Run npm run content:sync.`);
   const manifest = JSON.parse(readFileSync(path, "utf8"));
@@ -275,6 +309,16 @@ function verifyManifest(path, sha256) {
   if (manifest.publicContentPolicy?.version !== PUBLIC_CONTENT_POLICY_VERSION
       || manifest.publicContentPolicy?.minimumAnalysisReferences !== MIN_PUBLIC_ANALYSIS_REFERENCES) {
     throw new Error("Generated content does not match the current public-content policy. Run npm run content:sync.");
+  }
+  if (manifest.sourceMetadataPolicy?.version !== SOURCE_METADATA_POLICY_VERSION) {
+    throw new Error("Generated content does not match the current source-metadata policy. Run npm run content:sync.");
+  }
+  const registrySha256 = createHash("sha256").update(readFileSync(editorialStatusPath)).digest("hex");
+  if (manifest.editorialStatusPolicy?.version !== EDITORIAL_STATUS_POLICY_VERSION
+      || manifest.editorialStatusPolicy?.sourceCommit !== editorialStatusRegistry.sourceCommit
+      || manifest.editorialStatusPolicy?.registrySha256 !== registrySha256
+      || manifest.source?.commit !== editorialStatusRegistry.sourceCommit) {
+    throw new Error("Generated content does not match the explicit editorial-status registry. Run npm run content:sync after re-auditing source-bound statuses.");
   }
 }
 
@@ -296,6 +340,7 @@ function printSummary(audit, content, verb) {
   console.log(`WikiBiome content ${verb}: ${content.pages.length} pages, ${Object.keys(content.sourceLookup).length} source records.`);
   console.log(`${audit.generatedReferences} article references generated; ${audit.recoveredInlineReferences} recovered from inline citations.`);
   console.log(`${audit.missingSourceMetadataIds.length} referenced source IDs lack registry metadata; ${audit.malformedDois.length} DOI values are flagged.`);
+  console.log(`${audit.invalidSourceYears.length} invalid source years remain in generated content.`);
   if (audit.duplicatePageIds.length) {
     const sample = audit.duplicatePageIds.slice(0, 8).join(", ");
     console.log(`${audit.duplicatePageIds.length} duplicate page IDs flagged (${sample}${audit.duplicatePageIds.length > 8 ? ", …" : ""}). The first upstream record remains canonical.`);

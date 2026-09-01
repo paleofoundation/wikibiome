@@ -9,7 +9,7 @@ import {
 } from "@/lib/wikibiome";
 import { contentSchemaFor, prepareArticleSections } from "@/lib/content-model";
 
-export type MigrationStatus = "ready" | "review" | "blocked";
+export type MigrationStatus = "ready" | "documented" | "review" | "blocked";
 
 export type MigrationIssue = {
   code: string;
@@ -32,6 +32,7 @@ export type MigrationLedgerEntry = {
   referenceCount: number;
   missingMetadataCount: number;
   status: MigrationStatus;
+  editorialDisposition?: string;
   issues: MigrationIssue[];
 };
 
@@ -41,6 +42,7 @@ export type MigrationReport = {
   totalRecords: number;
   canonicalRoutes: number;
   ready: number;
+  documented: number;
   review: number;
   blocked: number;
   duplicateIds: number;
@@ -76,7 +78,8 @@ export function getMigrationReport(): MigrationReport {
     seen.set(id, recordNumber);
     const disease = ["disease", "signature"].includes(page.category) ? getDiseaseRecord(id) : undefined;
     const canonicalId = disease?.canonicalId ?? (page.category === "signature" ? canonicalDiseaseId(id) : id);
-    const evidence = generateArticleEvidence(page);
+    const ownEvidence = generateArticleEvidence(page);
+    const evidence = page.category === "signature" && disease ? disease.evidence : ownEvidence;
     const schema = contentSchemaFor(page);
     const sections = page.sections ?? [];
     const emptyLeafSections = sections.filter((section, index) => (
@@ -89,21 +92,31 @@ export function getMigrationReport(): MigrationReport {
     )).length;
     const issues: MigrationIssue[] = [];
 
-    if (!substantiveContent(page.overview)) issues.push({ code: "missing_overview", label: "Introduction missing", severity: "warning" });
-    if (!sections.length && !substantiveContent(page.overview)) issues.push({ code: "missing_content", label: "No substantive article content", severity: "warning" });
+    if (!substantiveContent(page.overview)) issues.push({ code: "missing_introduction", label: "Introduction missing", severity: "warning" });
+    if (!substantiveContent(page.overview) && !sections.some((section) => substantiveContent(section.body))) issues.push({ code: "no_substantive_content", label: "No substantive article content", severity: "warning" });
     else if (!sections.length) issues.push({ code: "lead_only", label: "Lead-only article structure", severity: "notice" });
-    if (emptyLeafSections) issues.push({ code: "empty_leaf_sections", label: `${emptyLeafSections} empty public section${emptyLeafSections === 1 ? "" : "s"}`, severity: "warning" });
+    if (emptyLeafSections) issues.push({ code: "empty_public_sections", label: `${emptyLeafSections} empty public section${emptyLeafSections === 1 ? "" : "s"}`, severity: "warning" });
     if (structuralHeadings) issues.push({ code: "structural_headings", label: `${structuralHeadings} semantic parent heading${structuralHeadings === 1 ? "" : "s"}`, severity: "notice" });
     if (!evidence.references.length) issues.push({ code: "no_references", label: "No generated references", severity: "warning" });
-    if (evidence.missingMetadataIds.length) issues.push({ code: "missing_source_metadata", label: `${evidence.missingMetadataIds.length} source record${evidence.missingMetadataIds.length === 1 ? "" : "s"} incomplete`, severity: "warning" });
+    if (evidence.missingMetadataIds.length) issues.push({ code: "orphaned_evidence", label: `${evidence.missingMetadataIds.length} source record${evidence.missingMetadataIds.length === 1 ? "" : "s"} incomplete`, severity: "warning" });
     if (evidence.recoveredCitationIds.length || evidence.declaredOnlyIds.length) issues.push({ code: "source_drift", label: "Citation registry reconciliation applied", severity: "notice" });
     if (recordCount > 1) issues.push({ code: "duplicate_record", label: `${recordCount} upstream records share this ID`, severity: "notice" });
-    if (page.belowThreshold && !page.isStub) issues.push({ code: "below_threshold", label: "Below upstream evidence threshold", severity: "warning" });
+    const belowThreshold = page.category === "signature"
+      ? evidence.references.length < Number(page.threshold ?? 0)
+      : page.belowThreshold;
+    if (belowThreshold && !page.isStub) issues.push({ code: "below_evidence_threshold", label: "Below upstream evidence threshold", severity: "warning" });
     if (!schema) issues.push({ code: "unknown_template", label: `Template mapping needed for “${page.category}”`, severity: "error" });
     if (prepareArticleSections(page).length !== (page.sections ?? []).filter((section) => section.body?.trim()).length) issues.push({ code: "editorial_suppression", label: "Redundant source index suppressed", severity: "notice" });
 
-    const hasError = issues.some((issue) => issue.severity === "error");
-    const hasWarning = issues.some((issue) => issue.severity === "warning");
+    const resolvedCodes = new Set(page.editorialStatus?.resolves ?? []);
+    const resolvedIssues = issues.map((issue) => (
+      issue.severity === "warning" && resolvedCodes.has(issue.code)
+        ? { ...issue, label: `${page.editorialStatus?.publicLabel}: ${issue.label}`, severity: "notice" as const }
+        : issue
+    ));
+    const hasError = resolvedIssues.some((issue) => issue.severity === "error");
+    const hasWarning = resolvedIssues.some((issue) => issue.severity === "warning");
+    const hasDocumentedLimitation = issues.some((issue) => issue.severity === "warning" && resolvedCodes.has(issue.code));
     return {
       key: `${id}:${recordNumber}`,
       id,
@@ -118,8 +131,9 @@ export function getMigrationReport(): MigrationReport {
       sectionCount: page.sections?.length ?? 0,
       referenceCount: evidence.references.length,
       missingMetadataCount: evidence.missingMetadataIds.length,
-      status: hasError ? "blocked" : hasWarning ? "review" : "ready",
-      issues,
+      status: hasError ? "blocked" : hasWarning ? "review" : hasDocumentedLimitation ? "documented" : "ready",
+      editorialDisposition: page.editorialStatus?.disposition,
+      issues: resolvedIssues,
     } satisfies MigrationLedgerEntry;
   });
 
@@ -130,6 +144,7 @@ export function getMigrationReport(): MigrationReport {
     totalRecords: entries.length,
     canonicalRoutes,
     ready: entries.filter((entry) => entry.status === "ready").length,
+    documented: entries.filter((entry) => entry.status === "documented").length,
     review: entries.filter((entry) => entry.status === "review").length,
     blocked: entries.filter((entry) => entry.status === "blocked").length,
     duplicateIds: manifest.audit.duplicatePageIds.length,
