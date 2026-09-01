@@ -671,7 +671,7 @@
       "batchId": "microorganisms-006",
       "reviewedOn": "2026-09-01",
       "reviewingAuthority": "wikibiome-media-program",
-      "disposition": "scientific-identity-hold",
+      "disposition": "scientific-identity-hold-resolved",
       "reason": "The primary Ata 2019 paper prints Barnesella as a genus-level sequencing label, but current NCBI Taxonomy and LPSN provide no bacterial taxon or controlled identifier for that spelling. Barnesiella is a separate valid genus, NCBITaxon:397864, and its morphology cannot be reassigned to Barnesella by inference.",
       "checkedUrls": [
         "https://doi.org/10.1038/s41598-019-39700-6",
@@ -680,7 +680,11 @@
         "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=397864&mode=Info"
       ],
       "requiredResolution": "Complete the active bounded editorial identity correction: correct or redirect the route to a controlled current taxon, or explicitly reframe or retire it as a study-level source label. Recompute the deterministic queue after the canonical decision before media work resumes.",
-      "routingImpact": "The route remains uncovered and has no generated draft, registry record, master, derivatives, review approval, or image-sitemap entry. No replacement route is substituted into batch 006 without control authorization."
+      "routingImpact": "The route remains uncovered and has no generated draft, registry record, master, derivatives, review approval, or image-sitemap entry. No replacement route is substituted into batch 006 without control authorization.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The unsupported bacterial name was retired as a source-label alias and permanently redirects to the current Barnesiella record, which preserves the original Ata et al. spelling as an evidence caveat without claiming a definitive sequence reassignment.",
+      "canonicalPageId": "barnesiella",
+      "canonicalIdentifier": "NCBITaxon:397864"
     }
   ],
   "revisedAssets": [

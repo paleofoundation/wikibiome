@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T10:40:12.804Z",
+  "generatedAt": "2026-09-01T11:18:30.367Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "53b4cb4d91d642b41bf75cadf1f9d0e9ba19bc7e",
-  "records": 820,
-  "canonicalIds": 755,
+  "sourceCommit": "3a7b087e95fadf77b47de2fbb039bfdc70aef161",
+  "records": 819,
+  "canonicalIds": 754,
   "revisions": 2896,
   "histories": {
     "acidaminococcus": {
@@ -1699,27 +1699,20 @@
         }
       ]
     },
-    "barnesella": {
-      "paths": [
-        "wiki/entities/barnesella.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/barnesella.md",
-          "additions": 37,
-          "deletions": 0
-        }
-      ]
-    },
     "barnesiella": {
       "paths": [
         "wiki/entities/barnesiella.md"
       ],
       "revisions": [
+        {
+          "hash": "3a7b087e95fadf77b47de2fbb039bfdc70aef161",
+          "date": "2026-09-01T14:03:08+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Barnesella source label",
+          "path": "wiki/entities/barnesiella.md",
+          "additions": 27,
+          "deletions": 14
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",

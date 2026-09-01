@@ -6,7 +6,8 @@
     "akkermansia-mucinicola": "akkermansia-muciniphila",
     "allisonella": "dialister-histaminiformans",
     "atopobium-parvulum": "lancefieldella-parvula",
-    "atopobium-vaginae": "fannyhessea-vaginae"
+    "atopobium-vaginae": "fannyhessea-vaginae",
+    "barnesella": "barnesiella"
   },
   "canonicalTaxa": {
     "akkermansia-muciniphila": {
@@ -24,21 +25,28 @@
     "fannyhessea-vaginae": {
       "title": "Fannyhessea vaginae",
       "ncbiTaxonomyId": 82135
+    },
+    "barnesiella": {
+      "title": "Barnesiella",
+      "ncbiTaxonomyId": 397864
     }
   },
   "retiredCanonicalIds": [
     "akkermansia-mucinicola",
     "allisonella",
     "atopobium-parvulum",
-    "atopobium-vaginae"
+    "atopobium-vaginae",
+    "barnesella"
   ],
   "forbiddenCanonicalTitles": [
     "Akkermansia mucinicola",
     "Allisonella",
     "Atopobium parvulum",
-    "Atopobium vaginae"
+    "Atopobium vaginae",
+    "Barnesella"
   ],
   "forbiddenPublicPatterns": [
-    "Allisonella hiatal"
+    "Allisonella hiatal",
+    "Barnesella is a genus of"
   ]
 }
