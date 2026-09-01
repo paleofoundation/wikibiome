@@ -641,6 +641,52 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(davidiellaDecision?.resolutionStatus, "resolved-before-promotion");
   assert.equal(davidiellaDecision?.draft, undefined);
   assert.equal(davidiellaDecision?.generationRecord, undefined);
+  const batch014 = batches.find((batch) => batch.batchId === "microorganisms-014");
+  assert.equal(batch014?.status, "reviewed");
+  assert.equal(batch014?.routeDecisionCount, 6);
+  assert.equal(batch014?.candidateCount, 6);
+  assert.equal(batch014?.scientificHoldCount, 0);
+  assert.equal(batch014?.generationCallCount, 6);
+  assert.equal(batch014?.revisionCount, 0);
+  const batch014Candidates = batch014?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch014Candidates.map((asset) => asset.pageId), [
+    "deinococcus",
+    "desulfovibrio",
+    "desulfovibrionales",
+    "dialister",
+    "dialister-histaminiformans",
+    "dorea",
+  ]);
+  const batch014ExpectedOutputs = new Map([
+    ["deinococcus", ["430bee991e31c195903f4034378db5a1d6fc0041a7e89c39f76d3d371d1e87fa", 11, 6]],
+    ["desulfovibrio", ["07d4e482e1d54da247ff43456dbf04dd935efe008ff703c52d5beb986e460a2d", 9, 7]],
+    ["desulfovibrionales", ["3f95260fd37496a36a3c368a01f80845987abc35d6824f693ad91620ffadc711", 9, 6]],
+    ["dialister", ["781687df0251db8f98192901dc31c2db39bc36df7ae026bcc56f6d2c707d8135", 9, 7]],
+    ["dialister-histaminiformans", ["ab6e503f8b3402db9b74fa8bc3afd820233f7a044c113529b74c78e4ebc5f82e", 9, 7]],
+    ["dorea", ["0a003a76e51ff6c568d3780072e72bf41936f73f217ed6d6084c66b773ff7a7c", 9, 6]],
+  ]);
+  const batch014PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  for (const asset of batch014Candidates) {
+    const [expectedSha256, expectedBodyCount, expectedGroupingCount] = batch014ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.sha256, expectedSha256);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assert.ok(articleMediaRegistry[asset.pageId], `${asset.pageId} control-approved asset must enter the reviewed registry`);
+    assert.equal(articleMediaRegistry[asset.pageId].reviewedOn, "2026-09-01");
+    assert.ok(batch014PublicMediaFiles.includes(articleMediaRegistry[asset.pageId].publishedFile), `${asset.pageId} article derivative must exist`);
+    assert.ok(batch014PublicMediaFiles.includes(articleMediaRegistry[asset.pageId].socialFile), `${asset.pageId} social derivative must exist`);
+  }
+  assert.equal(batch014Candidates.find((asset) => asset.pageId === "deinococcus")?.outputAudit?.observedTetradCount, 1);
+  assert.equal(batch014Candidates.find((asset) => asset.pageId === "desulfovibrionales")?.assetType, "microbial-community");
+  assert.equal(batch014Candidates.find((asset) => asset.pageId === "dorea")?.outputAudit?.observedLooseTwoBodyArrangementCount, 2);
+  assert.match(articleMediaRegistry.desulfovibrionales?.caption ?? "", /representative morphology diversity reconstruction for the order, not a universal order-level form/);
+  assert.equal(articleMediaRegistry["dialister-histaminiformans"]?.scientificIdentifiers[0]?.compact, "NCBITaxon:209880");
+  assert.equal(articleMediaRegistry.allisonella, undefined);
+  assert.ok(!batch014PublicMediaFiles.some((filename) => filename.startsWith("allisonella-")));
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingIds = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))

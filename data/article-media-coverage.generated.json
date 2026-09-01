@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "a854ec6fc8b9b2875f203dc5c2f98d3c6d9bdc45b35dd6d7fdd93c79fe4add23",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "ded4ac2ecd61da494a37cce460a9ab7ebc32458c220c3057d5d239a453358961",
+    "registrySha256": "2145376ada20e4c0227b5be4989fb32738791b92efcbb91cb7edc55e3b73793e",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "665ccd59bda4424893413a5f38f775376db0108b3a530f7090224fc262d14410",
+    "reviewLogSha256": "2a85bcdea64781c31a4961452bfce808a145eb28ce15c5a6e2a9e076050ac7ae",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -89,6 +89,12 @@
         "batchId": "microorganisms-013",
         "status": "reviewed",
         "sha256": "2086cbc90dd3daed2f11d39bbf1d6ce5486af6abe0e1f77890ec98c15cd04a65"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-014.json",
+        "batchId": "microorganisms-014",
+        "status": "reviewed",
+        "sha256": "7ff8244b3c749bd1db8bf9462f74ee815da2522586b24995d51627d91236c552"
       }
     ]
   },
@@ -110,8 +116,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 75,
-    "remaining": 635,
+    "completed": 81,
+    "remaining": 629,
     "rejected": 11,
     "revised": 8,
     "scientificHolds": 0,
@@ -122,8 +128,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 72,
-      "remaining": 157
+      "completed": 78,
+      "remaining": 151
     },
     {
       "id": "metals",
@@ -536,55 +542,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 71,
-      "id": "deinococcus",
-      "title": "Deinococcus",
-      "route": "/article/deinococcus",
+      "queuePosition": 77,
+      "id": "eggerthella",
+      "title": "Eggerthella",
+      "route": "/article/eggerthella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 72,
-      "id": "desulfovibrio",
-      "title": "Desulfovibrio",
-      "route": "/article/desulfovibrio",
+      "queuePosition": 78,
+      "id": "eggerthella-lenta",
+      "title": "Eggerthella lenta",
+      "route": "/article/eggerthella-lenta",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 73,
-      "id": "desulfovibrionales",
-      "title": "Desulfovibrionales",
-      "route": "/article/desulfovibrionales",
+      "queuePosition": 79,
+      "id": "enterobacter",
+      "title": "Enterobacter",
+      "route": "/article/enterobacter",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 74,
-      "id": "dialister",
-      "title": "Dialister",
-      "route": "/article/dialister",
+      "queuePosition": 80,
+      "id": "enterobacter-cloacae",
+      "title": "Enterobacter cloacae",
+      "route": "/article/enterobacter-cloacae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 75,
-      "id": "dialister-histaminiformans",
-      "title": "Dialister histaminiformans",
-      "route": "/article/dialister-histaminiformans",
+      "queuePosition": 81,
+      "id": "enterobacteriaceae",
+      "title": "Enterobacteriaceae",
+      "route": "/article/enterobacteriaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 76,
-      "id": "dorea",
-      "title": "Dorea",
-      "route": "/article/dorea",
+      "queuePosition": 82,
+      "id": "enterococcus",
+      "title": "Enterococcus",
+      "route": "/article/enterococcus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -2076,7 +2082,15 @@
       "route": "/article/deinococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "deinococcus-morphology-v1-master.png",
+        "publishedFile": "deinococcus-morphology-v1.webp",
+        "socialFile": "deinococcus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 72,
@@ -2089,7 +2103,15 @@
       "route": "/article/desulfovibrio",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "desulfovibrio-morphology-v1-master.png",
+        "publishedFile": "desulfovibrio-morphology-v1.webp",
+        "socialFile": "desulfovibrio-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 73,
@@ -2102,7 +2124,15 @@
       "route": "/article/desulfovibrionales",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "desulfovibrionales-microbial-community-v1-master.png",
+        "publishedFile": "desulfovibrionales-microbial-community-v1.webp",
+        "socialFile": "desulfovibrionales-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 74,
@@ -2115,7 +2145,15 @@
       "route": "/article/dialister",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "dialister-morphology-v1-master.png",
+        "publishedFile": "dialister-morphology-v1.webp",
+        "socialFile": "dialister-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 75,
@@ -2128,7 +2166,15 @@
       "route": "/article/dialister-histaminiformans",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "dialister-histaminiformans-morphology-v1-master.png",
+        "publishedFile": "dialister-histaminiformans-morphology-v1.webp",
+        "socialFile": "dialister-histaminiformans-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 76,
@@ -2141,7 +2187,15 @@
       "route": "/article/dorea",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "dorea-morphology-v1-master.png",
+        "publishedFile": "dorea-morphology-v1.webp",
+        "socialFile": "dorea-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 77,

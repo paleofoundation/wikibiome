@@ -1670,6 +1670,187 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 013 after literal prompt provenance and budding-pair reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "debaryomyces-draft.png", "sourceSha256": "5c6a0517e702e70e4fbd92d5737073f2e0a25b565e8799b152a90194ddc3a02e", "generationRecord": "exec-f9224f5a-d7b5-4d9c-b316-d5b54059c634.png" }
+    },
+    "deinococcus|deinococcus-morphology-v1.webp": {
+      "pageId": "deinococcus",
+      "publishedFile": "deinococcus-morphology-v1.webp",
+      "masterSource": "deinococcus-morphology-v1-master.png",
+      "socialFile": "deinococcus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1298&mode=Info",
+          "https://lpsn.dsmz.de/genus/deinococcus",
+          "https://doi.org/10.1099/00207713-31-3-353",
+          "https://bacdive.dsmz.de/strain/3852"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus Deinococcus, NCBITaxon:1298, with D. radiodurans as type species. The primary genus proposal and type-strain record support coccus-shaped, tetrad-forming cells; the selected plate is type-species-anchored, representative, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly eleven coccoid bodies in six groupings: three isolated singles, two touching pairs, and one compact planar four-body tetrad. No rod, branch, filament, spore, appendage, capsule, halo, radiation symbol, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles eleven bodies and six groupings including the tetrad; caption separately states selected, type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 014 after literal prompt provenance and honest 11-body/6-group count reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "deinococcus-draft.png", "sourceSha256": "430bee991e31c195903f4034378db5a1d6fc0041a7e89c39f76d3d371d1e87fa", "generationRecord": "exec-ab93c429-11c1-4880-ad7d-fc59e4b4251a.png" }
+    },
+    "desulfovibrio|desulfovibrio-morphology-v1.webp": {
+      "pageId": "desulfovibrio",
+      "publishedFile": "desulfovibrio-morphology-v1.webp",
+      "masterSource": "desulfovibrio-morphology-v1-master.png",
+      "socialFile": "desulfovibrio-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=872&mode=Info",
+          "https://lpsn.dsmz.de/genus/desulfovibrio",
+          "https://doi.org/10.1002/9781118960608.gbm01035",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8069399/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus Desulfovibrio, NCBITaxon:872, with D. desulfuricans as type species. Authoritative treatment supports selected curved, near-straight, and restrained sigmoid rods; the plate is representative and non-diagnostic, and flagella are not generalized."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine rod bodies in seven groupings: five isolated singles and two touching pairs, including gently curved, near-straight, and one restrained sigmoid form. No exaggerated spiral, appendage, spore, capsule, halo, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine rods and seven groupings; caption distinguishes the visible selected forms from type-species-anchored, representative, non-diagnostic, non-micrograph context."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 014 after literal prompt provenance and honest 9-body/7-group count reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "desulfovibrio-draft.png", "sourceSha256": "07d4e482e1d54da247ff43456dbf04dd935efe008ff703c52d5beb986e460a2d", "generationRecord": "exec-ef9037d6-827f-465b-b519-8aa76e95dfb4.png" }
+    },
+    "desulfovibrionales|desulfovibrionales-microbial-community-v1.webp": {
+      "pageId": "desulfovibrionales",
+      "publishedFile": "desulfovibrionales-microbial-community-v1.webp",
+      "masterSource": "desulfovibrionales-microbial-community-v1-master.png",
+      "socialFile": "desulfovibrionales-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=213115&mode=Info",
+          "https://lpsn.dsmz.de/order/desulfovibrionales",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8069399/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7464432/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current order Desulfovibrionales, NCBITaxon:213115, with Desulfovibrio as type genus. The selected curved, sigmoid, near-straight, and short rounded forms are bounded by type-genus and descendant evidence and are explicitly a representative diversity treatment, not a universal order morphology."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine rod bodies in six groupings: three isolated singles and three touching pairs spanning selected curved, sigmoid, near-straight, and short rounded forms. Every cell has its own ordinary boundary; no shared envelope, sheath, halo, appendage, spore, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine bodies and six groupings. Caption and provenance explicitly classify the image as a representative morphology diversity reconstruction for the order, not a universal order-level form, and as non-diagnostic and not a micrograph."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 014 after literal prompt provenance, honest 9-body/6-group reconciliation, and explicit higher-rank diversity scope.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "desulfovibrionales-draft.png", "sourceSha256": "3f95260fd37496a36a3c368a01f80845987abc35d6824f693ad91620ffadc711", "generationRecord": "exec-ff5f18fa-dba2-4428-b24d-bf7b24b0e2ca.png" }
+    },
+    "dialister|dialister-morphology-v1.webp": {
+      "pageId": "dialister",
+      "publishedFile": "dialister-morphology-v1.webp",
+      "masterSource": "dialister-morphology-v1-master.png",
+      "socialFile": "dialister-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39948&mode=Info",
+          "https://lpsn.dsmz.de/genus/dialister",
+          "https://doi.org/10.1099/00207713-44-2-187",
+          "https://bacdive.dsmz.de/strain/17121",
+          "https://doi.org/10.1128/JCM.38.8.3043-3047.2000"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus Dialister, NCBITaxon:39948, with D. pneumosintes as type species. Primary and type-strain evidence supports conservative short non-motile rods; the selected plate is type-species-anchored, representative, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine short rod bodies in seven groupings: five isolated singles and two touching pairs. No full coccus, cluster, long chain, branch, filament, appendage, spore, capsule, halo, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine short rods and seven groupings; caption separately supplies selected, type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 014 after literal prompt provenance and honest 9-body/7-group count reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "dialister-draft.png", "sourceSha256": "781687df0251db8f98192901dc31c2db39bc36df7ae026bcc56f6d2c707d8135", "generationRecord": "exec-44e03f01-fb48-4ff4-ac2a-9c3d3183a04e.png" }
+    },
+    "dialister-histaminiformans|dialister-histaminiformans-morphology-v1.webp": {
+      "pageId": "dialister-histaminiformans",
+      "publishedFile": "dialister-histaminiformans-morphology-v1.webp",
+      "masterSource": "dialister-histaminiformans-morphology-v1-master.png",
+      "socialFile": "dialister-histaminiformans-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=209880&mode=Info",
+          "https://lpsn.dsmz.de/species/dialister-histaminiformans",
+          "https://pubmed.ncbi.nlm.nih.gov/12583709/",
+          "https://doi.org/10.1099/ijsem.0.006937"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm accepted current species Dialister histaminiformans, NCBITaxon:209880. The original species description supports ovoid morphology and the 2025 nomenclatural transfer establishes the current combination. Allisonella is historical basionym context only and is never used as the asset key."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine ovoid bodies in seven groupings: five isolated singles and two touching pairs. No long rod, cluster, chain, branch, appendage, spore, capsule, halo, phenotype graphic, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine ovoid bodies and seven groupings; caption states current-name, non-diagnostic, no-phenotype-claim, non-micrograph scope without reviving the retired Allisonella route."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 014 after literal prompt provenance, honest 9-body/7-group reconciliation, and accepted-current-combination verification.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "dialister-histaminiformans-draft.png", "sourceSha256": "ab6e503f8b3402db9b74fa8bc3afd820233f7a044c113529b74c78e4ebc5f82e", "generationRecord": "exec-b0248ce5-1358-4728-b2de-e094b0f3abec.png" }
+    },
+    "dorea|dorea-morphology-v1.webp": {
+      "pageId": "dorea",
+      "publishedFile": "dorea-morphology-v1.webp",
+      "masterSource": "dorea-morphology-v1-master.png",
+      "socialFile": "dorea-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=189330&mode=Info",
+          "https://lpsn.dsmz.de/genus/dorea",
+          "https://doi.org/10.1099/00207713-52-2-423",
+          "https://bacdive.dsmz.de/strain/6354"
+        ],
+        "notes": "NCBI Taxonomy and LPSN confirm current genus Dorea, NCBITaxon:189330, with D. formicigenerans as type species. The original genus paper supports non-spore-forming rods; the selected plate is type-species-anchored, representative, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control original-resolution review accepted exactly nine rod bodies in six spatial groupings: three isolated singles, one touching pair, and two loose two-rod arrangements. No coccus, branch, filament, appendage, spore, capsule, halo, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and caption preserve the exact one touching pair plus two loose two-rod arrangements; caption separately supplies type-species-anchored, representative, non-diagnostic, and non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome control original-resolution review in microorganisms batch 014 after literal prompt provenance and exact grouping-arrangement reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "dorea-draft.png", "sourceSha256": "0a003a76e51ff6c568d3780072e72bf41936f73f217ed6d6084c66b773ff7a7c", "generationRecord": "exec-de79647b-2924-477b-a7e7-33a1f04e6028.png" }
     }
   },
   "rejectedAssets": [
