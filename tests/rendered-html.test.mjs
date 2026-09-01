@@ -439,9 +439,11 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.match(currentPages[9], /"headline":"Clostridioides difficile"/);
   assert.match(currentPages[9], /"description":"Clostridioides difficile is the current NCBI name for NCBITaxon:1496/);
   assert.doesNotMatch(currentPages[9], /Clostridium difficile is the current name/);
-  assert.doesNotMatch(currentPages[9], /class="article-media-figure"/);
+  assert.match(currentPages[9], /class="article-media-figure"/);
+  assert.match(currentPages[9], /clostridioides-difficile-morphology-v1\.webp/);
+  assert.match(currentPages[9], /Spores do not permit visual diagnosis/);
   assert.equal(articleMediaRegistry["clostridium-difficile"], undefined);
-  assert.equal(articleMediaRegistry["clostridioides-difficile"], undefined);
+  assert.ok(articleMediaRegistry["clostridioides-difficile"]);
 
   const mergedHistoryResponse = await render("/article/clostridioides-difficile/history");
   assert.equal(mergedHistoryResponse.status, 200);
@@ -558,6 +560,27 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     .filter((name) => name.endsWith(".json"))
     .sort()
     .map((name) => JSON.parse(readFileSync(new URL(name, batchDirectory), "utf8")));
+  const batch012 = batches.find((batch) => batch.batchId === "microorganisms-012");
+  assert.equal(batch012?.status, "reviewed");
+  assert.deepEqual(
+    batch012?.assets.filter((asset) => asset.assetType && asset.revision).map((asset) => asset.pageId),
+    ["clostridioides-difficile", "clostridium", "clostridium-butyricum", "clostridium-perfringens", "clostridium-symbiosum"],
+  );
+  const difficileV2 = batch012?.assets.find((asset) => asset.pageId === "clostridioides-difficile" && asset.assetType);
+  assert.equal(difficileV2?.draft, "work/media-drafts/microorganisms-batch-012/clostridioides-difficile-draft-v2.png");
+  assert.equal(difficileV2?.sha256, "b53e405ce495ce0873b63f477a7d21ee5ce8ef7a4e3571c142bfbce8ada42053");
+  assert.equal(difficileV2?.outputAudit?.observedSubjectDescription, "Ten elongated rod bodies in eight groupings: six isolated singles and two touching two-body pairs.");
+  assert.equal(difficileV2?.outputAudit?.observedVisibleSporeCount, 2);
+  assert.equal(difficileV2?.outputAudit?.metadataConsistency, "pass");
+  const difficileV1 = batch012?.rejectedVariants?.find((asset) => asset.pageId === "clostridioides-difficile");
+  assert.equal(difficileV1?.draft, "work/media-drafts/microorganisms-batch-012/clostridioides-difficile-draft.png");
+  assert.equal(difficileV1?.sha256, "619879df51d07e7927e585c0ccfc14378bc26b7f71808d3a8d2b30cdd6ee8f6c");
+  assert.equal(difficileV1?.disposition, "rejected");
+  const difficileReview = reviewLog.reviews["clostridioides-difficile|clostridioides-difficile-morphology-v1.webp"];
+  assert.equal(difficileReview?.revisionLinkage?.sourceDraft, "clostridioides-difficile-draft-v2.png");
+  assert.equal(difficileReview?.revisionLinkage?.sourceSha256, difficileV2?.sha256);
+  assert.equal(difficileReview?.revisionLinkage?.rejectedDraftSha256, difficileV1?.sha256);
+  assert.ok(reviewLog.revisedAssets.some((asset) => asset.pageId === "clostridioides-difficile" && asset.sha256 === difficileV1?.sha256));
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingIds = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -596,7 +619,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     ["candida-auris", "candidozyma-auris", "NCBITaxon:498019", "reviewed"],
     ["candida-glabrata", "nakaseomyces-glabratus", "NCBITaxon:5478", "queued"],
     ["clostridiales", "eubacteriales", "NCBITaxon:186802", "queued"],
-    ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "queued"],
+    ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "reviewed"],
   ];
   for (const [obsoleteId, canonicalId, identifier, expectedStatus] of currentNameMediaMappings) {
     const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === obsoleteId);
