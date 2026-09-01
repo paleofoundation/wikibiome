@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T20:37:47.318Z",
+  "generatedAt": "2026-09-01T07:35:58.821Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
   "sourceCommit": "62e006cf0ced1dce706a6438f6461602229a9f26",
-  "records": 824,
-  "canonicalIds": 759,
-  "revisions": 2907,
+  "records": 821,
+  "canonicalIds": 756,
+  "revisions": 2900,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -31426,90 +31426,6 @@
           "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
           "path": "wiki/glossary.md",
           "additions": 117,
-          "deletions": 0
-        }
-      ]
-    },
-    "landmark-outreach-email": {
-      "paths": [
-        "wiki/landmark-outreach-email.md"
-      ],
-      "revisions": [
-        {
-          "hash": "6cf0574dec1564c46541768e7a6283a4fd3e7b6b",
-          "date": "2026-04-20T05:16:51+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "update content.generated.json, app component, deploy notes, outreach templates",
-          "path": "wiki/landmark-outreach-email.md",
-          "additions": 1,
-          "deletions": 0
-        },
-        {
-          "hash": "de1d8577a9d59a72088b4adf44b6e03cc93cefc5",
-          "date": "2026-04-17T05:46:22+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Batch: fix 1025 broken wikilinks, wire 13 STOP pages, deepen PPD/GERD/T1D/8 microbes",
-          "path": "wiki/landmark-outreach-email.md",
-          "additions": 4,
-          "deletions": 4
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/landmark-outreach-email.md",
-          "additions": 76,
-          "deletions": 0
-        }
-      ]
-    },
-    "outreach-email-first-touch": {
-      "paths": [
-        "wiki/outreach-email-first-touch.md"
-      ],
-      "revisions": [
-        {
-          "hash": "6cf0574dec1564c46541768e7a6283a4fd3e7b6b",
-          "date": "2026-04-20T05:16:51+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "update content.generated.json, app component, deploy notes, outreach templates",
-          "path": "wiki/outreach-email-first-touch.md",
-          "additions": 7,
-          "deletions": 0
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/outreach-email-first-touch.md",
-          "additions": 43,
-          "deletions": 0
-        }
-      ]
-    },
-    "outreach-email-followup-donation": {
-      "paths": [
-        "wiki/outreach-email-followup-donation.md"
-      ],
-      "revisions": [
-        {
-          "hash": "6cf0574dec1564c46541768e7a6283a4fd3e7b6b",
-          "date": "2026-04-20T05:16:51+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "update content.generated.json, app component, deploy notes, outreach templates",
-          "path": "wiki/outreach-email-followup-donation.md",
-          "additions": 7,
-          "deletions": 0
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/outreach-email-followup-donation.md",
-          "additions": 44,
           "deletions": 0
         }
       ]

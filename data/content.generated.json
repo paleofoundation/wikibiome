@@ -9,7 +9,7 @@
     "interventions": 72,
     "stops": 72,
     "analyses": 4,
-    "totalPages": 824
+    "totalPages": 821
   },
   "pages": [
     {
@@ -33807,7 +33807,7 @@
       "tags": [],
       "sources": [],
       "frontmatter": {},
-      "overview": "---\n\ntitle: Hungatella\ntype: entity\nsubtype: microbe\ncreated: 2026-04-10\nupdated: 2026-04-16\nlast_substantive_update: 2026-04-16\nsources: [altinok-dindar-2023-gut-microbiota-breast-cancer-diet, qin-2024-consistent-microbiome-signatures-old-young-onset-crc, zhang-2025-gut-virome-premalignant-colorectal-adenoma, rahman-2022-gut-microbiota-cvd-therapeutic-regulation, yadav-2022-ms-gut-mycobiome-fungal-bacterial, yin-2022-pcos-bacteriome-mycobiome-metabolome-bmi, zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]\nsource_count: 7\nmetal_dependencies: [iron, selenium, cobalt]\nkey_enzymes: [TMA lyase (choline TMA-lyase), carnitine oxygenase, betaine reductase, beta-glucuronidase, cobalt-dependent methionine synthase]\ntags: [pathobiont, CRC-enriched, breast-cancer-enriched, TMA-producer, TMAO-precursor, estrobolome, pcos-enriched, schizophrenia-risk, recently-described]\nplatform: wikibiome\nseo_target: \"Hungatella hathewayi TMA TMAO colorectal cancer breast cancer gut microbiome\"\nwikipedia_differentiation: \"Iron and selenium dependency with TMA/TMAO-estrobolome dual mechanism linking cancer-associated pathobiont to cardiovascular, cancer, and neuropsychiatric axes; beta-glucuronidase activity connecting Hungatella to estrogen recirculation in PCOS and breast cancer; schizophrenia MR data; PCOS BMI-independent enrichment — all absent from Wikipedia which does not have a Hungatella entry\"\nconditions_enriched_in: [colorectal-cancer, breast-cancer, cardiovascular-disease, polycystic-ovary-syndrome, multiple-sclerosis, schizophrenia]\nconditions_depleted_in: []\npathogenic_potential: commensal-turned-pathogen\ngram_stain: \"positive\"\noxygen_requirement: \"obligate anaerobe\"---\n\n\n*Hungatella hathewayi* is a Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Clostridiaceae) that has rapidly emerged as a multi-disease cancer-associated pathobiont. A recently reclassified genus (from *Clostridium hathewayi*), it is now recognized as one of the most consistently enriched taxa across [[colorectal-cancer]], [[breast-cancer]], [[pcos|polycystic-ovary-syndrome]], and [[multiple-sclerosis]] — united by its capacity to produce trimethylamine (TMA) and operate as a beta-glucuronidase producer in the estrobolome.",
+      "overview": "*Hungatella hathewayi* is a Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Clostridiaceae) that has rapidly emerged as a multi-disease cancer-associated pathobiont. A recently reclassified genus (from *Clostridium hathewayi*), it is now recognized as one of the most consistently enriched taxa across [[colorectal-cancer]], [[breast-cancer]], [[pcos|polycystic-ovary-syndrome]], and [[multiple-sclerosis]] — united by its capacity to produce trimethylamine (TMA) and operate as a beta-glucuronidase producer in the estrobolome.",
       "sections": [
         {
           "heading": "Taxonomy",
@@ -34957,7 +34957,7 @@
       "tags": [],
       "sources": [],
       "frontmatter": {},
-      "overview": "---\n\ntitle: Intestinibacter\ntype: entity\nsubtype: microbe\ncreated: 2026-04-10\nupdated: 2026-04-16\nlast_substantive_update: 2026-04-16\nsources: [dai-2024-gut-microbiota-cvd-bidirectional-mr, xiang-2023-host-gene-microbiome-crc-mr, wu-2017-metformin-gut-microbiome-t2d-nature-medicine, gutmann-2025-functional-microbiome-diet-ms, zheng-2025-gut-thyroid-axis-aitd-mendelian-randomization, bryrup-2019-metformin-gut-microbiota-healthy-young-men, dai-2024-bidirectional-mr-gut-microbiota-cvd]\nsource_count: 7\nmetal_dependencies: [iron, cobalt]\nkey_enzymes: [spore coat proteins, ferredoxin-dependent oxidoreductases, cobalt-dependent methionine synthase]\ntags: [pathobiont, spore-forming, context-dependent, CVD-protective, CRC-risk, Graves-disease-risk, metformin-sensitive, understudied]\nplatform: wikibiome\nseo_target: \"Intestinibacter bartlettii gut microbiome CVD colorectal cancer\"\nwikipedia_differentiation: \"Contradictory Mendelian randomization data showing CVD-protective but CRC-risk and Graves' disease-risk associations; iron and cobalt dependency; metformin-responsive; spore-forming persistence mechanism; represents the principle that gut bacteria can have tissue-specific opposite effects not captured by simple beneficial/harmful classification\"\nconditions_enriched_in: [colorectal-cancer, graves-disease]\nconditions_depleted_in: [cardiovascular-disease]\npathogenic_potential: commensal-turned-pathogen\ngram_stain: \"positive\"\noxygen_requirement: \"obligate anaerobe\"---\n\n\n*Intestinibacter bartlettii* is a Gram-positive, obligate anaerobic, spore-forming bacterium within the Firmicutes phylum (Peptostreptococcaceae family). It is a relatively understudied gut commensal that has emerged in Mendelian randomization and metagenomic studies with contradictory associations across diseases — protective against [[cardiovascular-disease]] but a causal risk factor for [[colorectal-cancer]] and [[graves-disease]].",
+      "overview": "*Intestinibacter bartlettii* is a Gram-positive, obligate anaerobic, spore-forming bacterium within the Firmicutes phylum (Peptostreptococcaceae family). It is a relatively understudied gut commensal that has emerged in Mendelian randomization and metagenomic studies with contradictory associations across diseases — protective against [[cardiovascular-disease]] but a causal risk factor for [[colorectal-cancer]] and [[graves-disease]].",
       "sections": [
         {
           "heading": "Taxonomy and Classification",
@@ -45606,7 +45606,7 @@
       "tags": [],
       "sources": [],
       "frontmatter": {},
-      "overview": "---\n\ntitle: Neisseria meningitidis\ntype: entity\nsubtype: microbe\ncreated: 2026-04-09\nupdated: 2026-04-16\nlast_substantive_update: 2026-04-16\nsources: [maier-2019-nickel-microbial-pathogenesis, patil-2021-infection-metallomics-critical-care, patil-2021-infection-metallomics-covid-era, forbes-2019-fungal-mycobiome-neurological-disease, kun-2023-microbiota-thyroid-cancer]\nsource_count: 5\nmetal_dependencies: [nickel, iron, zinc, manganese]\nkey_enzymes: [Ni-GloI (glyoxalase I), ribonucleotide reductase, transferrin-binding proteins TbpA/TbpB, lactoferrin-binding proteins LbpA/LbpB, Fur (ferric uptake regulator), zinc-dependent carbonic anhydrase]\ntags: [pathogen, meningitis, sepsis, nasopharyngeal-commensal, Ni-GloI, iron-piracy, serogroup-vaccines, meningitis-belt]\nplatform: wikibiome\nseo_target: \"Neisseria meningitidis nickel glyoxalase meningitis iron acquisition virulence\"\nwikipedia_differentiation: \"Nickel-dependent glyoxalase I as selective drug target with structural distinction from human Zn-GloI; infection metallomics diagnostic framework (siderophore monitoring, metalloprotein tracking); multi-metal dependency map (Ni for GloI, Fe for multiple piracy systems, Zn for carbonic anhydrase, Mn for oxidative defense); meningitidis BBB crossing metal requirements — depth absent from Wikipedia's clinical/epidemiological focus\"\nconditions_enriched_in: [bacterial-meningitis, meningococcal-septicemia]\nconditions_depleted_in: []\npathogenic_potential: commensal-turned-pathogen\ngram_stain: \"negative\"\noxygen_requirement: \"aerobic/microaerophilic\"---\n\n\nA Gram-negative diplococcus that is simultaneously a nasopharyngeal commensal (carried asymptomatically by 10–35% of the population) and a devastating invasive pathogen causing bacterial meningitis and meningococcal septicemia. The transition from harmless carriage to life-threatening invasion is one of microbiology's most dramatic phenotypic switches — and metal-dependent virulence enzymes are central to sustaining the explosive growth that makes this pathogen so lethal.",
+      "overview": "A Gram-negative diplococcus that is simultaneously a nasopharyngeal commensal (carried asymptomatically by 10–35% of the population) and a devastating invasive pathogen causing bacterial meningitis and meningococcal septicemia. The transition from harmless carriage to life-threatening invasion is one of microbiology's most dramatic phenotypic switches — and metal-dependent virulence enzymes are central to sustaining the explosive growth that makes this pathogen so lethal.",
       "sections": [
         {
           "heading": "Taxonomy and Normal Biology",
@@ -48556,7 +48556,7 @@
       "tags": [],
       "sources": [],
       "frontmatter": {},
-      "overview": "---\n\ntitle: Oxalobacter\ntype: entity\nsubtype: microbe\ncreated: 2026-04-10\nupdated: 2026-04-16\nlast_substantive_update: 2026-04-16\nsources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhang-2022-causal-gut-microbiome-cvd-mr, dai-2024-gut-microbiota-cvd-bidirectional-mr, islam-2022-opposing-microbiome-signatures-autoimmune-cancer, liu-2022-mr-gut-microbial-genera-ibd-uc-cd, chen-2022-living-microorganisms-detoxification-heavy-metals, hu-2024-gut-microbiota-chd-mendelian-randomization, wang-2023-gut-microbiota-adhd-mendelian-randomization, deng-2022-gi-symptoms-minor-impact-asd-microbiota-scfa]\nsource_count: 9\nmetal_dependencies: [indirect — oxalate degradation affects calcium, magnesium, iron, and zinc bioavailability]\nkey_enzymes: [oxalyl-CoA decarboxylase, formyl-CoA transferase, oxalate-CoA ligase]\ntags: [commensal, oxalate-degrading, kidney-stone-prevention, CKD-relevant, antibiotic-sensitive, CHD-risk-MR, functional-specialist]\nplatform: wikibiome\nseo_target: \"Oxalobacter formigenes oxalate kidney stones calcium metal bioavailability gut microbiome\"\nwikipedia_differentiation: \"Oxalate-metal chelation interactions with calcium, iron, zinc, and magnesium; opposing cancer vs. autoimmune directionality; MR evidence for CHD risk via blood pressure mediation; ADHD protective association via Oxalobacteraceae family; antibiotic vulnerability data; intersections with heavy metal detoxification strategies — none of which appear in Wikipedia's brief clinical entry\"\nconditions_enriched_in: [cancer-general]\nconditions_depleted_in: [kidney-stones, chronic-kidney-disease, autoimmune-disease]\npathogenic_potential: commensal\ngram_stain: \"negative\"\noxygen_requirement: \"obligate anaerobe\"---\n\n\n*Oxalobacter formigenes* is an obligate anaerobic, Gram-negative bacterium that occupies a unique metabolic niche in the human gut as the primary oxalate-degrading specialist. Its loss from the gut microbiome — most commonly from antibiotic exposure — has cascading consequences for calcium oxalate metabolism, metal bioavailability, kidney health, and potentially cardiovascular function.",
+      "overview": "*Oxalobacter formigenes* is an obligate anaerobic, Gram-negative bacterium that occupies a unique metabolic niche in the human gut as the primary oxalate-degrading specialist. Its loss from the gut microbiome — most commonly from antibiotic exposure — has cascading consequences for calcium oxalate metabolism, metal bioavailability, kidney health, and potentially cardiovascular function.",
       "sections": [
         {
           "heading": "Taxonomy and Metabolic Specialization",
@@ -50405,7 +50405,7 @@
       "tags": [],
       "sources": [],
       "frontmatter": {},
-      "overview": "---\n\ntitle: Parvimonas\ntype: entity\nsubtype: microbe\ncreated: 2026-04-10\nupdated: 2026-04-16\nlast_substantive_update: 2026-04-16\nsources: [qin-2024-consistent-microbiome-signatures-old-young-onset-crc, saito-2019-metagenomic-gut-microbiota-colorectal-adenoma, wu-2021-microbial-markers-populations-early-crc, zhao-2021-colorectal-cancer-microbiome-patterns-signatures, liu-2021-args-colorectal-cancer-microbiome, hou-2022-gut-microbiota-immune-immunotherapy-crc, bars-cortina-2024-16s-vs-shotgun-crc, osman-2018-16s-rrna-crc-protocols-workflows, catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis]\nsource_count: 9\nmetal_dependencies: [iron, zinc]\nkey_enzymes: [zinc metalloprotease, iron-dependent oxidoreductases, hemolysin-type toxins]\ntags: [pathobiont, oral-origin, CRC-enriched, anaerobe, microbial-biomarker, oral-gut-translocation, head-neck-cancer, smoking-enriched]\nplatform: wikibiome\nseo_target: \"Parvimonas micra CRC oral-gut translocation microbial biomarker\"\nwikipedia_differentiation: \"Cross-cohort CRC biomarker validation data, iron and zinc dependency for virulence enzyme activity, oral-gut translocation mechanism, association with upper GI carcinogenesis in smokers, and immune microenvironment modulation in CRC beyond Wikipedia's clinical infection focus\"\nconditions_enriched_in: [colorectal-cancer, head-and-neck-squamous-cell-carcinoma, esophageal-cancer]\nconditions_depleted_in: []\npathogenic_potential: commensal-turned-pathogen\ngram_stain: \"positive\"\noxygen_requirement: \"obligate anaerobe\"---\n\n\n*Parvimonas micra* is a Gram-positive, obligate anaerobic coccus of oral origin that has emerged as one of the most consistently enriched microbial biomarkers in [[colorectal-cancer]]. Its translocation from the oral cavity to the gut tumor microenvironment positions it alongside [[fusobacterium-nucleatum]] as a key member of the CRC-associated oral microbiome signature, with enrichment also documented in upper GI and oropharyngeal cancers.",
+      "overview": "*Parvimonas micra* is a Gram-positive, obligate anaerobic coccus of oral origin that has emerged as one of the most consistently enriched microbial biomarkers in [[colorectal-cancer]]. Its translocation from the oral cavity to the gut tumor microenvironment positions it alongside [[fusobacterium-nucleatum]] as a key member of the CRC-associated oral microbiome signature, with enrichment also documented in upper GI and oropharyngeal cancers.",
       "sections": [
         {
           "heading": "Taxonomy and Ecology",
@@ -169232,190 +169232,6 @@
       ]
     },
     {
-      "id": "landmark-outreach-email",
-      "title": "Keystone Study — Author Notification Template",
-      "type": "internal",
-      "category": "other",
-      "tags": [
-        "outreach",
-        "keystone",
-        "email-template"
-      ],
-      "sources": [],
-      "created": "2026-04-14T00:00:00.000Z",
-      "updated": "2026-04-14T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Keystone Study — Author Notification Template",
-        "type": "internal",
-        "platform": "cureva",
-        "created": "2026-04-14T00:00:00.000Z",
-        "updated": "2026-04-14T00:00:00.000Z",
-        "tags": [
-          "outreach",
-          "keystone",
-          "email-template"
-        ]
-      },
-      "overview": "",
-      "sections": [
-        {
-          "heading": "Template",
-          "level": 2,
-          "body": "**Subject:** Your research has been designated a Keystone Study on WikiBiome\n\n---\n\nDear Dr. {{CORRESPONDING_AUTHOR_LAST_NAME}},\n\nI am writing on behalf of WikiBiome (www.wikibiome.com), an open-access encyclopedia of microbiome science with particular emphasis on microbial metallomics, nutritional immunity, and disease-associated signatures.\n\nYour study, \"{{PAPER_TITLE}}\" ({{JOURNAL}}, {{YEAR}}), has been formally designated a **Keystone Study** on our platform.\n\nIn ecology, a keystone species is one whose removal would cause disproportionate collapse of its ecosystem. WikiBiome applies the same principle to research. A Keystone Study is one that is structurally essential to our knowledge graph — a study without which critical connections between metals, microbes, and disease could not be drawn. This designation does not measure citation volume or mainstream recognition. It measures connective importance: the degree to which your work enables understanding across domains that do not typically intersect.\n\nYour study satisfied the following criteria:\n\n{{CRITERIA_MET_DESCRIPTIONS}}\n\nThe full classification criteria are published at: https://www.wikibiome.com/keystone\n\nThe WikiBiome page featuring your research can be viewed here: https://www.wikibiome.com/article/{{SOURCE_PAGE_ID}}\n\nWe would welcome any corrections to our interpretation of your findings. WikiBiome is committed to accurately representing the published evidence, and the researchers who conducted the work are best positioned to identify mischaracterization.\n\nWikiBiome is a project of the Paleo Foundation, a 501(c)(3) nonprofit advancing microbiome education and science-based certification standards. We receive no funding from supplement, pharmaceutical, or food industry sponsors.\n\nThank you for the work that made this designation possible.\n\nRespectfully,\n\nKaren Pendergrass\nFounder, WikiBiome\nExecutive Director, Paleo Foundation\nkaren@paleofoundation.com\nhttps://www.wikibiome.com\n\n---"
-        },
-        {
-          "heading": "Usage Notes",
-          "level": 2,
-          "body": "**When to send:** After a source page has been verified against all five Keystone criteria and at least three are confirmed. Never before verification is complete.\n\n**Personalization required:**\n- `{{CORRESPONDING_AUTHOR_LAST_NAME}}` — from `corresponding_author` field in source frontmatter\n- `{{PAPER_TITLE}}` — from `title` field\n- `{{JOURNAL}}` — from `journal` field\n- `{{YEAR}}` — from `year` field\n- `{{CRITERIA_MET_DESCRIPTIONS}}` — write out which criteria were met and a one-sentence explanation for each, e.g.:\n  - **Cross-Domain Bridge** — Your work connects nickel biochemistry to microbial pathogenesis, bridging inorganic chemistry and clinical microbiology in a way neither field achieves independently.\n  - **Signature Layer Dependency** — Without this study, the metallomic layer of WikiBiome's endometriosis signature would lack its primary evidence for nickel elevation.\n  - **Mechanistic Linchpin** — Your findings explain *why* nickel-dependent urease activity drives H. pylori persistence, transforming an observed association into a mechanistic understanding.\n- `{{SOURCE_PAGE_ID}}` — the slug of the source page on WikiBiome\n\n**Email address source:** `corresponding_email` field in the source page frontmatter. If absent, look up the corresponding author's institutional email from their most recent publication or institutional profile page.\n\n**Follow-up protocol:**\n- If no response after 14 days, one follow-up email is acceptable.\n- If no response after the follow-up, mark the outreach as \"sent, no response\" in the outreach tracker and do not send further messages.\n- If the author responds with corrections, apply them to the WikiBiome page within 48 hours and send a brief confirmation.\n- If the author requests removal, comply immediately and remove the Keystone designation.\n\n**Tracking fields to add to source frontmatter after sending:**\n```yaml\nkeystone_outreach_date: YYYY-MM-DD\nkeystone_outreach_status: sent | responded | corrections-applied | declined\n```"
-        }
-      ],
-      "wikilinks": [],
-      "sourceDir": "wiki",
-      "sourceCount": 0,
-      "threshold": 3,
-      "belowThreshold": true,
-      "isStub": false,
-      "backlinks": [],
-      "related": [
-        {
-          "id": "outreach-email-first-touch",
-          "score": 7
-        },
-        {
-          "id": "outreach-email-followup-donation",
-          "score": 7
-        },
-        {
-          "id": "hungatella",
-          "score": 1
-        },
-        {
-          "id": "intestinibacter",
-          "score": 1
-        },
-        {
-          "id": "neisseria-meningitidis",
-          "score": 1
-        },
-        {
-          "id": "oxalobacter",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "outreach-email-first-touch",
-      "title": "Author Outreach — First Touch (Template)",
-      "type": "internal",
-      "category": "other",
-      "tags": [
-        "outreach",
-        "email-template"
-      ],
-      "sources": [],
-      "frontmatter": {
-        "title": "Author Outreach — First Touch (Template)",
-        "type": "internal",
-        "platform": "cureva",
-        "tags": [
-          "outreach",
-          "email-template"
-        ]
-      },
-      "overview": "**Purpose:** Introduce WikiBiome to cited authors. Build the relationship. No money ask.\n\n**When to send:** After a source page is published on WikiBiome.\n\n**Subject line options** (test which performs best):\n- Your research on [TOPIC] is now part of WikiBiome\n- We cited your [YEAR] paper on WikiBiome — thought you should know\n- [AUTHOR LAST NAME] et al. ([YEAR]) featured on WikiBiome\n\n---\n\n**TEMPLATE:**\n\nSubject: Your research on [TOPIC] is now part of WikiBiome\n\nDear Dr. [LAST NAME],\n\nI'm writing to let you know that your paper — *[PAPER TITLE]* ([JOURNAL], [YEAR]) — has been ingested into WikiBiome, our open-access microbiome-metallomics knowledge base.\n\nYour work now informs [NUMBER] pages on WikiBiome, including our coverage of [ENTITY/CONDITION NAMES]. You can see your source summary page here: [LINK TO SOURCE PAGE]\n\nWikiBiome is building something that doesn't exist yet: a cross-referenced encyclopedia connecting microbial ecology, metal biology, and disease pathogenesis. Every page traces its claims back to specific studies like yours, with evidence levels noted inline. We currently host [X] source pages drawn from peer-reviewed research.\n\nA few things I'd appreciate, if you're willing:\n\n1. **Accuracy check** — Does our summary of your findings look correct? We take citation integrity seriously and welcome corrections.\n2. **Additional work** — If you have related papers you think should be part of this knowledge base, we'd be glad to review them for ingestion. You can submit directly at wikibiome.com/submit.\n\nThank you for the work that makes projects like this possible.\n\nBest,\nKaren Pendergrass\nFounder, WikiBiome & The Paleo Foundation\nkaren@paleofoundation.com\n\n---\n\n**Notes:**\n- Personalize [ENTITY/CONDITION NAMES] with the actual pages their paper informs\n- For keystone study authors, add: \"Your paper meets our criteria as a Keystone Study — research that is structurally essential to WikiBiome's knowledge graph. We'd value the opportunity to discuss your work in more depth.\"\n- For multi-paper authors (3+ papers cited), mention the count: \"Your body of work informs [N] source pages across [N] conditions on WikiBiome.\"",
-      "sections": [],
-      "wikilinks": [],
-      "sourceDir": "wiki",
-      "sourceCount": 0,
-      "threshold": 3,
-      "belowThreshold": true,
-      "isStub": false,
-      "backlinks": [],
-      "related": [
-        {
-          "id": "landmark-outreach-email",
-          "score": 7
-        },
-        {
-          "id": "outreach-email-followup-donation",
-          "score": 7
-        },
-        {
-          "id": "hungatella",
-          "score": 1
-        },
-        {
-          "id": "intestinibacter",
-          "score": 1
-        },
-        {
-          "id": "neisseria-meningitidis",
-          "score": 1
-        },
-        {
-          "id": "oxalobacter",
-          "score": 1
-        }
-      ]
-    },
-    {
-      "id": "outreach-email-followup-donation",
-      "title": "Author Outreach — Follow-Up Submission + Donation (Template)",
-      "type": "internal",
-      "category": "other",
-      "tags": [
-        "outreach",
-        "email-template",
-        "donation"
-      ],
-      "sources": [],
-      "frontmatter": {
-        "title": "Author Outreach — Follow-Up Submission + Donation (Template)",
-        "type": "internal",
-        "platform": "cureva",
-        "tags": [
-          "outreach",
-          "email-template",
-          "donation"
-        ]
-      },
-      "overview": "**Purpose:** Introduce the paper submission pathway with suggested donation. Sent only to authors who engaged with the first email (replied, visited their source page, or submitted corrections).\n\n**When to send:** 2–3 weeks after first-touch, only if the author engaged.\n\n**Subject line options:**\n- Quick update from WikiBiome — and a way to contribute\n- WikiBiome is growing — here's how to get your work included\n\n---\n\n**TEMPLATE:**\n\nSubject: WikiBiome is growing — here's how to get your work included\n\nDear Dr. [LAST NAME],\n\nThank you for [engaging with / reviewing / correcting] your source page on WikiBiome. [If corrections were made: \"Your corrections have been applied — accuracy is everything to us.\"]\n\nSince we last wrote, WikiBiome has grown to [X] source pages covering [Y] conditions. Your work on [TOPIC] continues to inform our coverage of [CONDITION/ENTITY].\n\nI wanted to let you know about two ways researchers are contributing to WikiBiome:\n\n**Submit papers for ingestion.** If you have published or forthcoming work related to microbiome ecology, metal biology, or disease pathogenesis, you can submit it for review at wikibiome.com/submit. We ingest every paper on its scientific merits — there is no fee or obligation.\n\n**Support the platform.** WikiBiome is free, ad-free, and open access. We're funded entirely by the research community. If your work benefits from the visibility and cross-referencing WikiBiome provides, **suggested donation: $100 — gifts of any size welcome.** You can contribute at wikibiome.com/support.\n\nTo be clear: submissions are always free. Donations and editorial decisions are completely separate processes. We will never guarantee citation in exchange for financial support.\n\nWe're building the resource we wished existed — and the researchers behind the evidence are the ones making it possible.\n\nBest,\nKaren Pendergrass\nFounder, WikiBiome & The Paleo Foundation\nkaren@paleofoundation.com\n\n---\n\n**Notes:**\n- Only send to authors who engaged with the first email. Never cold-ask for money.\n- The separation between submission and donation must be explicit in every communication.\n- For authors at institutions with research outreach budgets, consider: \"Many researchers use departmental outreach or open-access funds to support platforms like WikiBiome.\"\n- Track outreach status in source page frontmatter: `keystone_outreach_status: sent | responded | corrections-applied | declined`",
-      "sections": [],
-      "wikilinks": [],
-      "sourceDir": "wiki",
-      "sourceCount": 0,
-      "threshold": 3,
-      "belowThreshold": true,
-      "isStub": false,
-      "backlinks": [],
-      "related": [
-        {
-          "id": "landmark-outreach-email",
-          "score": 7
-        },
-        {
-          "id": "outreach-email-first-touch",
-          "score": 7
-        },
-        {
-          "id": "hungatella",
-          "score": 1
-        },
-        {
-          "id": "intestinibacter",
-          "score": 1
-        },
-        {
-          "id": "neisseria-meningitidis",
-          "score": 1
-        },
-        {
-          "id": "oxalobacter",
-          "score": 1
-        }
-      ]
-    },
-    {
       "id": "overview",
       "title": "WikiBiome Overview",
       "type": "overview",
@@ -174421,24 +174237,6 @@
         "id": "glossary",
         "label": "Glossary",
         "category": "reference",
-        "sourceCount": 0
-      },
-      {
-        "id": "landmark-outreach-email",
-        "label": "Keystone Study — Author Notification Template",
-        "category": "other",
-        "sourceCount": 0
-      },
-      {
-        "id": "outreach-email-first-touch",
-        "label": "Author Outreach — First Touch (Template)",
-        "category": "other",
-        "sourceCount": 0
-      },
-      {
-        "id": "outreach-email-followup-donation",
-        "label": "Author Outreach — Follow-Up Submission + Donation (Template)",
-        "category": "other",
         "sourceCount": 0
       },
       {

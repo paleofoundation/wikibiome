@@ -153,12 +153,104 @@ function inlineMarkup(text: string, citationNumbers: Record<string, number>, met
 }
 
 type RichBlock =
-  | { type: "table"; source: string; key: number }
-  | { type: "paragraph"; source: string; key: number; continuous: boolean };
+  | { type: "table"; source: string; key: string }
+  | { type: "paragraph"; source: string; key: string; continuous: boolean };
+
+const proseSentenceSegmenter = new Intl.Segmenter("en", { granularity: "sentence" });
+const PROSE_MAX_WORDS = 50;
+const PROSE_MAX_SENTENCES = 3;
+
+function proseWordCount(source: string) {
+  return source
+    .replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g, (_match, id: string, label: string) => label || id.replace(/-/g, " "))
+    .replace(/[*_`]/g, "")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .length;
+}
+
+function proseChunks(source: string) {
+  const sentences = [...proseSentenceSegmenter.segment(source)]
+    .map(({ segment }) => segment.trim())
+    .filter(Boolean);
+  if (sentences.length < 2) return [source];
+
+  const chunks: string[] = [];
+  let current: string[] = [];
+  let currentWords = 0;
+
+  for (const sentence of sentences) {
+    const sentenceWords = proseWordCount(sentence);
+    const shouldBreak = current.length > 0
+      && (current.length >= PROSE_MAX_SENTENCES || currentWords + sentenceWords > PROSE_MAX_WORDS);
+    if (shouldBreak) {
+      chunks.push(current.join(" "));
+      current = [];
+      currentWords = 0;
+    }
+    current.push(sentence);
+    currentWords += sentenceWords;
+  }
+
+  if (current.length) chunks.push(current.join(" "));
+  return chunks;
+}
+
+function proseListChunks(source: string) {
+  const items = source
+    .split("\n")
+    .map((line) => line.trim().replace(/^(?:[-*]\s+|\d+[.)]\s*)/, ""))
+    .filter(Boolean)
+    .map((item) => /[.!?]["')\]]*$/.test(item) ? item : `${item.replace(/[;:]\s*$/, "")}.`);
+  const chunks: string[] = [];
+  let shortItems: string[] = [];
+  let shortItemWords = 0;
+
+  const flushShortItems = () => {
+    if (shortItems.length) chunks.push(shortItems.join(" "));
+    shortItems = [];
+    shortItemWords = 0;
+  };
+
+  for (const item of items) {
+    const itemWords = proseWordCount(item);
+    if (itemWords >= 24) {
+      flushShortItems();
+      chunks.push(...proseChunks(item));
+      continue;
+    }
+    if (shortItems.length >= PROSE_MAX_SENTENCES || shortItemWords + itemWords > PROSE_MAX_WORDS) flushShortItems();
+    shortItems.push(item);
+    shortItemWords += itemWords;
+  }
+  flushShortItems();
+  return chunks;
+}
+
+function pushProseChunks(blocks: RichBlock[], source: string, key: string | number, continuous: boolean) {
+  proseChunks(source).forEach((chunk, chunkIndex) => {
+    blocks.push({ type: "paragraph", source: chunk, key: `${key}-${chunkIndex}`, continuous });
+  });
+}
 
 function isListBlock(source: string) {
   const lines = source.split("\n").map((line) => line.trim()).filter(Boolean);
   return lines.length > 0 && lines.every((line) => line.startsWith("- ") || /^\d+[.)]\s/.test(line));
+}
+
+function introductoryListChunks(source: string) {
+  const lines = source.split("\n").map((line) => line.trim()).filter(Boolean);
+  if (lines.length < 2 || isListBlock(lines[0]) || !isListBlock(lines.slice(1).join("\n"))) return null;
+
+  const introduction = lines[0].replace(/[:;]\s*$/, ".");
+  const paragraphs = proseListChunks(lines.slice(1).join("\n"));
+  if (paragraphs.length && proseWordCount(`${introduction} ${paragraphs[0]}`) <= PROSE_MAX_WORDS) {
+    paragraphs[0] = `${introduction} ${paragraphs[0]}`;
+  } else {
+    paragraphs.unshift(introduction);
+  }
+  return paragraphs;
 }
 
 function proseBlocks(text: string): RichBlock[] {
@@ -166,28 +258,36 @@ function proseBlocks(text: string): RichBlock[] {
   const blocks: RichBlock[] = [];
 
   sourceBlocks.forEach((source, key) => {
-    if (source.split("\n").filter(Boolean).every((line) => line.trim().startsWith("|"))) {
-      blocks.push({ type: "table", source, key });
+    const lines = source.split("\n").map((line) => line.trim()).filter(Boolean);
+    if (lines.every((line) => line.startsWith("|"))) {
+      blocks.push({ type: "table", source, key: `${key}-table` });
+      return;
+    }
+
+    const introductoryParagraphs = introductoryListChunks(source);
+    if (introductoryParagraphs) {
+      introductoryParagraphs.forEach((paragraph, paragraphIndex) => pushProseChunks(blocks, paragraph, `${key}-${paragraphIndex}`, true));
       return;
     }
 
     if (isListBlock(source)) {
-      const paragraph = source
-        .split("\n")
-        .map((line) => line.trim().replace(/^(?:-\s+|\d+[.)]\s*)/, ""))
-        .filter(Boolean)
-        .join(" ");
+      const paragraphs = proseListChunks(source);
       const previous = blocks.at(-1);
       if (previous?.type === "paragraph" && /[:;]\s*$/.test(previous.source)) {
-        previous.source = `${previous.source.replace(/[:;]\s*$/, ".")} ${paragraph}`;
-        previous.continuous = true;
-      } else {
-        blocks.push({ type: "paragraph", source: paragraph, key, continuous: true });
+        blocks.pop();
+        const introduction = previous.source.replace(/[:;]\s*$/, ".");
+        if (paragraphs.length && proseWordCount(`${introduction} ${paragraphs[0]}`) <= PROSE_MAX_WORDS) {
+          paragraphs[0] = `${introduction} ${paragraphs[0]}`;
+        } else {
+          paragraphs.unshift(introduction);
+        }
       }
+      paragraphs.forEach((paragraph, paragraphIndex) => pushProseChunks(blocks, paragraph, `${key}-${paragraphIndex}`, true));
       return;
     }
 
-    blocks.push({ type: "paragraph", source: source.split("\n").map((line) => line.trim()).filter(Boolean).join(" "), key, continuous: true });
+    const paragraph = source.split("\n").map((line) => line.trim()).filter(Boolean).join(" ");
+    pushProseChunks(blocks, paragraph, key, true);
   });
 
   return blocks;
@@ -197,7 +297,29 @@ export function RichText({ text, citationNumbers, prose = false }: { text: strin
   const metalState: MetalNameState = new Set();
   const blocks: RichBlock[] = prose
     ? proseBlocks(text)
-    : text.split(/\n\s*\n/).map((source, key) => ({ type: "paragraph" as const, source: source.trim(), key, continuous: false })).filter((block) => block.source);
+    : text.split(/\n\s*\n/).flatMap((source, key) => {
+      const trimmed = source.trim();
+      if (!trimmed) return [];
+      const lines = trimmed.split("\n").map((line) => line.trim()).filter(Boolean);
+      const introductoryParagraphs = introductoryListChunks(trimmed);
+      if (introductoryParagraphs) {
+        return introductoryParagraphs.flatMap((paragraph, paragraphIndex) => proseChunks(paragraph).map((chunk, chunkIndex) => ({
+          type: "paragraph" as const,
+          source: chunk,
+          key: `${key}-${paragraphIndex}-${chunkIndex}`,
+          continuous: false,
+        })));
+      }
+      if (isListBlock(trimmed) || lines.every((line) => line.startsWith("|"))) {
+        return [{ type: "paragraph" as const, source: trimmed, key: `${key}-0`, continuous: false }];
+      }
+      return proseChunks(lines.join(" ")).map((chunk, chunkIndex) => ({
+        type: "paragraph" as const,
+        source: chunk,
+        key: `${key}-${chunkIndex}`,
+        continuous: false,
+      }));
+    });
 
   return blocks.map((block) => {
     const lines = block.source.split("\n").map((line) => line.trim()).filter(Boolean);

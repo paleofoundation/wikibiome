@@ -103,18 +103,22 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
   assert.match(html, /1,891/);
-  assert.match(html, /824/);
+  assert.match(html, /821/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
 
 test("server-renders real article and directory pages through the shared redesign", async () => {
-  const [articleResponse, directoryResponse] = await Promise.all([
+  const [articleResponse, directoryResponse, regulationResponse, interventionResponse] = await Promise.all([
     render("/article/nickel"),
     render("/category/microbe"),
+    render("/article/environmental-metal-exposure"),
+    render("/article/enterohepatic-circulation"),
   ]);
 
   assert.equal(articleResponse.status, 200);
   assert.equal(directoryResponse.status, 200);
+  assert.equal(regulationResponse.status, 200);
+  assert.equal(interventionResponse.status, 200);
 
   const article = await articleResponse.text();
   assert.match(article, /<title>Nickel — WikiBiome<\/title>/i);
@@ -124,6 +128,31 @@ test("server-renders real article and directory pages through the shared redesig
   assert.match(article, /143/);
   assert.match(article, /generated references/);
   assert.match(article, /href="\/source\/braud-2010-siderophores-pseudomonas-metal-tolerance"/);
+  const chemicalStart = article.indexOf('id="chemical-properties"');
+  const metabolismStart = article.indexOf('id="nickel-metabolism-and-biomarkers"');
+  const chemicalSection = article.slice(chemicalStart, metabolismStart);
+  const chemicalParagraphs = [...chemicalSection.matchAll(/<p class="continuous-prose">([\s\S]*?)<\/p>/g)];
+  assert.ok(chemicalStart >= 0 && metabolismStart > chemicalStart);
+  assert.ok(chemicalParagraphs.length >= 6, "dense evidence lists must preserve their topical boundaries as readable prose paragraphs");
+  chemicalParagraphs.forEach(([, paragraph]) => {
+    const visibleWords = paragraph
+      .replace(/<span class="citation-preview"[\s\S]*?<\/span>/g, " ")
+      .replace(/<[^>]+>/g, " ")
+      .replace(/&[^;]+;/g, " ")
+      .trim()
+      .split(/\s+/)
+      .filter(Boolean);
+    assert.ok(visibleWords.length <= 60, `generated prose paragraph is too long (${visibleWords.length} words)`);
+  });
+
+  const [regulationArticle, interventionArticle] = await Promise.all([
+    regulationResponse.text(),
+    interventionResponse.text(),
+  ]);
+  assert.match(regulationArticle, /A patchwork of regulations exists\. Drinking water:/);
+  assert.match(regulationArticle, /Occupational: OSHA PELs, NIOSH RELs\.<\/p><p class="continuous-prose">Food:/);
+  assert.match(interventionArticle, /Intervention implications\.<\/p><p>β-Glucuronidase inhibitors:/);
+  assert.match(interventionArticle, /could dampen dysbiotic EHC\. Dysbiosis correction:/);
 
   const directory = await directoryResponse.text();
   assert.match(directory, /<title>Microorganisms — WikiBiome<\/title>/i);
@@ -304,7 +333,8 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   assert.match(environmentalNarrative, /lead \(Pb\) and manganese \(Mn\) exposure/);
   assert.match(environmentalNarrative, /arsenic \(As\) in water/);
   assert.match(environmentalNarrative, /methylmercury \(MeHg\)/);
-  assert.match(developmentalNarrative, /symptom onset\. Early-life lead \(Pb\) exposure/);
+  assert.match(developmentalNarrative, /symptom onset\.<\/p><p class="continuous-prose">Early-life lead \(Pb\) exposure/);
+  assert.ok((developmentalNarrative.match(/<p class="continuous-prose">/g) ?? []).length >= 3, "dense disease evidence must be grouped into multiple prose paragraphs");
   assert.doesNotMatch(developmentalNarrative, /<(?:ul|ol)>/);
   assert.match(paradoxNarrative, /class="paradox-link-panel"/);
   assert.equal((paradoxNarrative.match(/Read paradox →/g) ?? []).length, 3);
@@ -441,9 +471,9 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(explore, /href="\/clusters"/);
 
   assert.match(readiness, /Every route accounted for/);
-  assert.match(readiness, /43 lint, audit, maintenance, resume, and roadmap records are deliberately excluded/);
-  assert.match(readiness, /824[\s\S]{0,110}records[\s\S]{0,110}717[\s\S]{0,80}canonical article routes/);
-  assert.match(readiness, /8 of 717 canonical article routes currently have reviewed/);
+  assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
+  assert.match(readiness, /821[\s\S]{0,110}records[\s\S]{0,110}714[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /8 of 714 canonical article routes currently have reviewed/);
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
   assert.match(readiness, /weekly WikiBiome upstream refresh gate now compares paleofoundation\/wikibiome origin\/main/);
@@ -530,22 +560,26 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(stylesheet.slice(mobileReadingMode), /\.article-page,\.disease-page \{ padding:0 0 50px;background:#fff/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.article-system-art,\.disease-system-art \{ display:none/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.article-body p,\.continuous-prose-section \.continuous-prose \{[^}]*font-family:Arial[^}]*font-size:18px[^}]*line-height:1\.64/);
+  assert.match(stylesheet, /\.wiki-section > p,\.lead-copy > p \{ max-width:72ch/);
+  assert.match(stylesheet.slice(mobileReadingMode), /\.wiki-section > p,\.lead-copy > p,\.continuous-prose-section \.continuous-prose \{ max-width:none;margin:0 0 1\.2em/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.lead-copy p:first-child::first-letter \{ float:none/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.reference-list p \{ font-family:Arial[^}]*font-size:16px/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.citation-preview \{ display:none!important/);
 });
 
 test("keeps internal operational records out of the public encyclopedia", async () => {
-  const [directoryResponse, searchResponse, sitemapResponse, hiddenResponse] = await Promise.all([
+  const [directoryResponse, searchResponse, sitemapResponse, hiddenResponse, hiddenOutreachResponse] = await Promise.all([
     render("/category/analysis"),
     render("/search?q=lint"),
     render("/sitemap.xml"),
     render("/article/lint-report-2026-04-19"),
+    render("/article/landmark-outreach-email"),
   ]);
   assert.equal(directoryResponse.status, 200);
   assert.equal(searchResponse.status, 200);
   assert.equal(sitemapResponse.status, 200);
   assert.equal(hiddenResponse.status, 404);
+  assert.equal(hiddenOutreachResponse.status, 404);
 
   const [directory, search, sitemap] = await Promise.all([
     directoryResponse.text(), searchResponse.text(), sitemapResponse.text(),
@@ -560,7 +594,7 @@ test("keeps internal operational records out of the public encyclopedia", async 
 
   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   assert.equal(content._stats.analyses, 4);
-  assert.equal(content._stats.totalPages, 824);
+  assert.equal(content._stats.totalPages, 821);
   assert.ok(!content.pages.some((page) => publicContentExclusionReason(page)));
   assert.equal(publicContentExclusionReason({
     id: "weekly-content-maintenance-2026-06-01",
@@ -568,6 +602,11 @@ test("keeps internal operational records out of the public encyclopedia", async 
     category: "analysis",
     sourceCount: 6,
   }), "internal-operational-analysis");
+  assert.equal(publicContentExclusionReason({
+    id: "outreach-email-first-touch",
+    title: "Author outreach template",
+    category: "other",
+  }), "internal-operational-template");
   assert.equal(publicContentExclusionReason({
     id: "cross-condition-microbial-metabolites",
     title: "Shared microbial metabolites across conditions",
@@ -688,10 +727,10 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
   assert.equal(manifest.source.commit, "62e006cf0ced1dce706a6438f6461602229a9f26");
   assert.equal(manifest.content.sha256, digest);
-  assert.equal(manifest.content.pages, 824);
+  assert.equal(manifest.content.pages, 821);
   assert.equal(manifest.content.sources, 1891);
-  assert.equal(manifest.publicContentPolicy.version, 1);
-  assert.equal(manifest.publicContentPolicy.excludedCount, 43);
+  assert.equal(manifest.publicContentPolicy.version, 2);
+  assert.equal(manifest.publicContentPolicy.excludedCount, 46);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
   assert.ok(manifest.audit.recoveredInlineReferences >= 348);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);

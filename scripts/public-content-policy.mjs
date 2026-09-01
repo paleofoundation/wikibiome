@@ -1,5 +1,10 @@
-export const PUBLIC_CONTENT_POLICY_VERSION = 1;
+export const PUBLIC_CONTENT_POLICY_VERSION = 2;
 export const MIN_PUBLIC_ANALYSIS_REFERENCES = 2;
+
+const OPERATIONAL_PAGE_PREFIXES = [
+  "landmark-outreach-email",
+  "outreach-email-",
+];
 
 const OPERATIONAL_ANALYSIS_PREFIXES = [
   "adversarial-audit-",
@@ -50,9 +55,14 @@ function analysisReferenceCount(page) {
 }
 
 export function publicContentExclusionReason(page) {
-  if (!page || page.category !== "analysis") return null;
+  if (!page) return null;
 
   const id = normalizeId(page.id);
+  if (OPERATIONAL_PAGE_PREFIXES.some((prefix) => id.startsWith(prefix))) {
+    return "internal-operational-template";
+  }
+  if (page.category !== "analysis") return null;
+
   const referenceCount = analysisReferenceCount(page);
   if (OPERATIONAL_ANALYSIS_PREFIXES.some((prefix) => id.startsWith(prefix))) {
     return "internal-operational-analysis";
@@ -84,6 +94,7 @@ export function applyPublicContentPolicy(input) {
     .filter((page) => isPublicId(page.id))
     .map((page) => ({
       ...page,
+      ...(typeof page.overview === "string" ? { overview: page.overview.replace(/^\s*---[\s\S]*?---\s*/, "").trim() } : {}),
       ...(Array.isArray(page.related) ? { related: page.related.filter((item) => isPublicId(item?.id)) } : {}),
       ...(Array.isArray(page.wikilinks) ? { wikilinks: page.wikilinks.filter(isPublicId) } : {}),
       ...(Array.isArray(page.backlinks) ? { backlinks: page.backlinks.filter(isPublicId) } : {}),

@@ -32,6 +32,39 @@ const failures = [];
 let checked = 0;
 let articleRoutes = 0;
 let sourceRoutes = 0;
+let articleParagraphs = 0;
+
+function visibleWordCount(markup) {
+  return markup
+    .replace(/<span class="citation-preview"[\s\S]*?<\/span>/g, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/&[^;]+;/g, " ")
+    .trim()
+    .split(/\s+/)
+    .filter(Boolean)
+    .length;
+}
+
+function visibleText(markup) {
+  return markup
+    .replace(/<span class="citation-preview"[\s\S]*?<\/span>/g, " ")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/&[^;]+;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function auditArticleReadability(pathname, html) {
+  const articleBody = html.match(/<article class="article-body[^"]*"[\s\S]*?(?=<section class="references-section"|<footer class="article-provenance"|<\/article>)/)?.[0];
+  if (!articleBody) return;
+  for (const paragraph of articleBody.matchAll(/<p(?:\s+class="[^"]*")?>([\s\S]*?)<\/p>/g)) {
+    const wordCount = visibleWordCount(paragraph[1]);
+    articleParagraphs += 1;
+    if (wordCount > 90) failures.push(`${pathname}: generated article paragraph has ${wordCount} words (90 maximum): ${visibleText(paragraph[1]).slice(0, 140)}…`);
+  }
+}
 
 async function render(pathname) {
   const response = await worker.fetch(
@@ -54,6 +87,7 @@ async function render(pathname) {
   } else if (response.status !== 200) failures.push(`${pathname}: HTTP ${response.status}`);
   if (response.status === 200 && !/<title>[^<]+<\/title>/i.test(html)) failures.push(`${pathname}: document title missing`);
   if (/Server error 500|Oops, an error occurred|Internal Server Error/i.test(html)) failures.push(`${pathname}: runtime error marker rendered`);
+  if (response.status === 200 && pathname.startsWith("/article/")) auditArticleReadability(pathname, html);
 
   for (const match of html.matchAll(/href="(\/(?:article|source)\/[^"?#]+)[^"]*"/g)) {
     const target = match[1];
@@ -78,7 +112,7 @@ async function workerLoop() {
 await Promise.all(Array.from({ length: concurrency }, workerLoop));
 
 const uniqueFailures = [...new Set(failures)];
-console.log(`Rendered corpus audit: ${checked} routes checked (${articleRoutes} articles, ${sourceRoutes} source records).`);
+console.log(`Rendered corpus audit: ${checked} routes checked (${articleRoutes} articles, ${sourceRoutes} source records, ${articleParagraphs} article paragraphs).`);
 if (uniqueFailures.length) {
   console.error(`${uniqueFailures.length} route failures detected:`);
   uniqueFailures.slice(0, 50).forEach((failure) => console.error(`- ${failure}`));

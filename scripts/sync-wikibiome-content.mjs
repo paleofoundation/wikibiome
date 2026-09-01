@@ -34,10 +34,13 @@ const sourceIdAliases = Object.fromEntries(
 let sourceCommit = null;
 let inputPath = targetPath;
 let cleanupSnapshot = null;
+let retainedExclusions = [];
 
 if (sanitizeCurrent) {
   assertExists(manifestPath, `Content manifest not found: ${manifestPath}.`);
-  sourceCommit = JSON.parse(readFileSync(manifestPath, "utf8")).source?.commit ?? null;
+  const currentManifest = JSON.parse(readFileSync(manifestPath, "utf8"));
+  sourceCommit = currentManifest.source?.commit ?? null;
+  retainedExclusions = currentManifest.publicContentPolicy?.excludedPages ?? [];
 } else if (!auditOnly) {
   assertExists(sourceRoot, `Upstream clone not found: ${sourceRoot}`);
   if (skipBuild) {
@@ -68,7 +71,10 @@ if (auditOnly && lingeringExclusions.length) {
 if (sanitizeCurrent && !lingeringExclusions.length) {
   throw new Error("The current corpus already satisfies the public-content policy; refusing to overwrite its exclusion register.");
 }
-const { content, exclusions } = applyPublicContentPolicy(parsedContent);
+const { content, exclusions: newlyExcluded } = applyPublicContentPolicy(parsedContent);
+const exclusions = [...retainedExclusions, ...newlyExcluded].filter((entry, index, all) => (
+  all.findIndex((candidate) => candidate.id === entry.id) === index
+));
 const audit = auditContent(content);
 const sha256 = createHash("sha256").update(raw).digest("hex");
 

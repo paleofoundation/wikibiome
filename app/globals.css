@@ -87,6 +87,8 @@ button,input { font:inherit; }
 .lead-copy { padding:0 0 38px;border-bottom:1px solid #c8d2df;font-family:var(--serif);font-size:clamp(18px,1.7vw,22px);line-height:1.7;letter-spacing:-.012em; }
 .lead-copy p:first-child::first-letter { float:left;margin:7px 9px 0 0;color:var(--blue);font-family:var(--serif);font-size:73px;line-height:.72; }
 .article-body p { margin:17px 0;color:#303641;font-family:var(--serif);font-size:15px;line-height:1.77; }
+.wiki-section > p,.lead-copy > p { max-width:72ch;margin:0 0 1.25em;text-wrap:pretty; }
+.wiki-section > p:last-child,.lead-copy > p:last-child { margin-bottom:0; }
 .article-body strong { color:#17233a;font-weight:700; }
 .article-body code { padding:2px 5px;border-radius:4px;background:#eef2f7;font-family:monospace;font-size:.86em; }
 .missing-link { border-bottom:1px dashed #a6afbb;color:#596474; }
@@ -592,7 +594,7 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
 
 .disease-narrative { margin-top:78px;padding-top:52px;border-top:2px solid #2f70bd;scroll-margin-top:96px; }
 .disease-narrative .disease-section-heading { margin-bottom:12px; }
-.continuous-prose-section .continuous-prose { max-width:920px;margin:15px 0;color:#303641;font-size:15px;line-height:1.77; }
+.continuous-prose-section .continuous-prose { max-width:72ch;margin:0 0 1.25em;color:#303641;font-size:15px;line-height:1.77;text-wrap:pretty; }
 .paradox-link-panel { overflow:hidden;border:1px solid #c8d9ea;border-radius:13px;background:#f8fbff;box-shadow:0 14px 30px rgba(31,75,128,.06); }
 .paradox-link-panel > p { margin:0;padding:12px 17px;border-bottom:1px solid #d9e4ef;background:#eef6fe;color:#66809c;font-family:Arial,sans-serif;font-size:7px;font-weight:700;letter-spacing:.08em;text-transform:uppercase; }
 .paradox-link-panel > div > a { min-height:76px;padding:14px 17px;display:grid;grid-template-columns:31px minmax(0,1fr) auto;gap:11px;align-items:center;border-bottom:1px solid #dce5ef;color:#234b78!important;background:#fff;transition:background .2s,color .2s,transform .2s; }
@@ -902,7 +904,8 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
   .article-body,.disease-body { padding:25px 18px 48px;border:0; }
   .lead-copy { padding:0 0 25px;font-family:Arial,Helvetica,sans-serif;font-size:19px;line-height:1.62;letter-spacing:0; }
   .lead-copy p:first-child::first-letter { float:none;margin:0;color:inherit;font-family:inherit;font-size:inherit;line-height:inherit; }
-  .article-body p,.continuous-prose-section .continuous-prose { margin:16px 0;color:#252a31;font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.64;letter-spacing:0; }
+  .article-body p,.continuous-prose-section .continuous-prose { color:#252a31;font-family:Arial,Helvetica,sans-serif;font-size:18px;line-height:1.64;letter-spacing:0; }
+  .wiki-section > p,.lead-copy > p,.continuous-prose-section .continuous-prose { max-width:none;margin:0 0 1.2em; }
   .article-body li { margin:9px 0;padding-left:3px;font-family:Arial,Helvetica,sans-serif;font-size:17px;line-height:1.58; }
   .article-body ul,.article-body ol { padding-left:25px; }
   .wiki-section h2 { margin:44px 0 18px;padding:0 30px 11px 0;font-size:29px;line-height:1.14;letter-spacing:-.02em; }

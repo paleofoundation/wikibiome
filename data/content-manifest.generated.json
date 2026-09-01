@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-31T20:34:37.731Z",
+  "generatedAt": "2026-09-01T07:35:29.966Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
@@ -10,14 +10,14 @@
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "ceed76bbfd47425b837e32011f5ebbae5f1d11b77d7891df5b69ff79d7291ed6",
-    "pages": 824,
+    "sha256": "53a9f4a46361d995fa32c3149d66a23def661b32167fe26ad3843c93cb45e087",
+    "pages": 821,
     "sources": 1891
   },
   "publicContentPolicy": {
-    "version": 1,
+    "version": 2,
     "minimumAnalysisReferences": 2,
-    "excludedCount": 43,
+    "excludedCount": 46,
     "excludedPages": [
       {
         "id": "adversarial-audit-2026-04-19",
@@ -233,6 +233,21 @@
         "id": "zero-reference-pages-2026-04-19",
         "title": "Zero-Reference Pages Audit — 2026-04-19",
         "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "landmark-outreach-email",
+        "title": "Keystone Study — Author Notification Template",
+        "reason": "internal-operational-template"
+      },
+      {
+        "id": "outreach-email-first-touch",
+        "title": "Author Outreach — First Touch (Template)",
+        "reason": "internal-operational-template"
+      },
+      {
+        "id": "outreach-email-followup-donation",
+        "title": "Author Outreach — Follow-Up Submission + Donation (Template)",
+        "reason": "internal-operational-template"
       }
     ]
   },
@@ -368,6 +383,6 @@
       "zinc-endometriosis-2024"
     ],
     "malformedDois": [],
-    "belowThresholdPages": 106
+    "belowThresholdPages": 103
   }
 }

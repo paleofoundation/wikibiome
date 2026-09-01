@@ -39,11 +39,11 @@ export function getCutoverReport() {
     {
       id: "legacy-article-routes",
       area: "Route continuity",
-      title: "Legacy scientific URLs preserved; internal reports retired",
+      title: "Legacy scientific URLs preserved; internal operations retired",
       status: "complete",
       gate: "Required before DNS",
       owner: "Canonical article generator",
-      evidence: `Legacy scientific article contracts remain in the synchronized corpus and disease-signature duplicates redirect into their canonical disease record. ${migration.excludedInternalRecords} lint, audit, maintenance, resume, and roadmap records are deliberately excluded from public publishing.`,
+      evidence: `Legacy scientific article contracts remain in the synchronized corpus and disease-signature duplicates redirect into their canonical disease record. ${migration.excludedInternalRecords} internal maintenance, audit, outreach, and operational records are deliberately excluded from public publishing.`,
       href: "/search",
     },
     {
