@@ -196,6 +196,10 @@ Run on or after **2026-09-07T00:00:00+03:00** against the production release
 then active. Preserve raw timestamps, status codes, final URLs, certificate
 details, and account/log evidence.
 
+Complete the companion
+[`wikibiome-post-cutover-audit-report-template.md`](./wikibiome-post-cutover-audit-report-template.md)
+without leaving any `[PENDING]` value or `MISSING` requirement unresolved.
+
 - [ ] Record the exact production version, commit, and route corpus active at audit time.
 - [ ] Verify apex and `www` DNS, HTTPS, certificate validity, redirect/canonical behavior, and absence of a redirect loop.
 - [ ] Verify representative home, category, article, source, search, support, contribution, and research-tool routes in a real browser and by HTTP.
