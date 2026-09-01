@@ -163,12 +163,6 @@ export function WikiHome() {
         <div className="evidence-copy"><span>05 · Open scientific education</span><h2>Readable enough to enter.<br /><em>Rigorous enough to trace.</em></h2><p>Every blue term is a doorway. Every evidence claim retains its scientific context. WikiBiome turns a large research corpus into a navigable public reference without flattening uncertainty.</p><div><p><b>{wikiStats.sources.toLocaleString()}</b><span>sources indexed</span></p><p><b>{wikiStats.totalPages}</b><span>public articles</span></p><p><b>{wikiStats.signatures}</b><span>disease signatures</span></p></div><Link href="/article/gut-microbiome">Read the foundation article →</Link></div>
       </section>
 
-      <footer className="home-footer">
-        <Link className="home-wordmark" href="/"><span className="home-logo"><img src="/wikibiome-logo.png" alt="" /></span><span className="home-word"><b>Wiki</b><em>Biome</em><small>The human microbiome encyclopedia</small></span></Link>
-        <p>Open scientific education for the microbiome medicine community.</p>
-        <nav><Link href="/search">Search</Link><Link href="/category/microbe">Microorganisms</Link><Link href="/category/disease">Diseases</Link><Link href="/explore">Knowledge graph ↗</Link><Link href="/about">About</Link><Link href="/readiness">Readiness</Link><Link href="/contact">Contact</Link></nav>
-        <span>A project of Microbiome Medicine · Knowledge base synchronized from paleofoundation/wikibiome</span>
-      </footer>
     </main>
   );
 }

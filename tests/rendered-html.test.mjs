@@ -61,9 +61,11 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.match(html, /src="\/media\/dysbiosis-microbial-community-v2\.webp"/);
   const portalMarkup = html.match(/<section class="home-portals"[\s\S]*?<section class="home-trail"/)?.[0] ?? "";
   assert.doesNotMatch(portalMarkup, /wikibiome-human-system-v2\.png/, "the article cards never reuse the anatomical hero fallback");
-  assert.match(html, /A project of Microbiome Medicine/);
+  assert.match(html, /A project of[\s\S]{0,80}Microbiome Medicine/);
   assert.match(html, /href="https:\/\/microbiomemedicine\.com"/);
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
+  assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
+  assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
   assert.match(html, /1,891/);
   assert.match(html, /824/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
