@@ -980,6 +980,76 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(articleMediaRegistry["eubacterium-rectale"], undefined);
   assert.ok(!batch018PublicMediaFiles.some((filename) => filename.startsWith("eubacterium-rectale-")));
   assert.ok(!batch018MasterFiles.some((filename) => filename.startsWith("eubacterium-rectale-")));
+  const batch019 = batches.find((batch) => batch.batchId === "microorganisms-019");
+  assert.equal(batch019?.status, "awaiting-control-review");
+  assert.equal(batch019?.routeDecisionCount, 6);
+  assert.equal(batch019?.candidateCount, 6);
+  assert.equal(batch019?.scientificHoldCount, 0);
+  assert.equal(batch019?.generationCallCount, 6);
+  assert.equal(batch019?.revisionCount, 0);
+  assert.equal(batch019?.controlReviewRequired, true);
+  const batch019Candidates = batch019?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch019Candidates.map((asset) => asset.pageId), [
+    "fusobacteriales",
+    "fusobacterium",
+    "fusobacterium-nucleatum",
+    "fusobacterium-varium",
+    "gardnerella",
+    "gardnerella-vaginalis",
+  ]);
+  const batch019ExpectedOutputs = new Map([
+    ["fusobacteriales", ["NCBITaxon:203491", "f02f821214c0ddbc0c0618e23cc7806c5b9d531fba11e97d4cc5e9d4252e3100", "5c3f0a57f607c2711c4592956b2c2376be8e04d8188071120aed678795a9e359", 1742233, 10, 6]],
+    ["fusobacterium", ["NCBITaxon:848", "d88f02f4d83c4c6302e6eabf0e08f4e7dc653dadeee05add4c55d3ca65b891e7", "7fd036a2bda5159c44b08f2a3f822b9622cb095587784c89597d5f0602d1d11c", 1746995, 10, 8]],
+    ["fusobacterium-nucleatum", ["NCBITaxon:851", "6e30acb9059cb9474a0330419cc1d420356198336f4f09f09bee893eb11ffdba", "be2e4fb2ec1ed45435ca2b82be36003bb6ab142f6dd5e0632afef1826efaff18", 1708646, 8, 6]],
+    ["fusobacterium-varium", ["NCBITaxon:856", "c115f679e9cb10ea45baacb39211d0b6f0ef11a14f9dc77ddbf2e7b14bec9255", "4f1f72906eb78f25848af24f8c8a2314933762f5d1880fbe13433678bf17f177", 1736018, 8, 7]],
+    ["gardnerella", ["NCBITaxon:2701", "721e476a8430452ed4c480630d973687c8bc8208b27705ec143474f91b592a9c", "fd37be7994a7eb9a0da92c2aff11979d052bca8c02df234ab42798594e4ee3a1", 1718851, 11, 8]],
+    ["gardnerella-vaginalis", ["NCBITaxon:2702", "d92d47ef6492057dc9488f6088b143f8e9319291aafd1113452022cdcb56cb9b", "a658b8ac4b097bdced6fcea237765c029a9495972aa6b6be128abf3d83ad8ef7", 1734207, 10, 8]],
+  ]);
+  const batch019PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-019.md", import.meta.url), "utf8");
+  const batch019PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  const batch019MasterFiles = readdirSync(new URL("../media/masters/", import.meta.url));
+  for (const asset of batch019Candidates) {
+    const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch019ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.promptSha256, expectedPromptSha256);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.equal(asset.fileSizeBytes, expectedFileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assert.match(asset.generationRecord, /^exec-[0-9a-f-]+\.png$/);
+    assertMediaOutputAudit(asset, "microorganisms-019");
+
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, expectedFileSize);
+    assert.equal(draftBytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+    assert.equal(draftBytes.readUInt32BE(16), 1536);
+    assert.equal(draftBytes.readUInt32BE(20), 1024);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expectedSha256);
+
+    const promptMatch = batch019PromptRecord.match(new RegExp("### `" + asset.pageId + "-draft\\.png`\\n\\n```text\\n([\\s\\S]*?)\\n```"));
+    assert.ok(promptMatch, `${asset.pageId} immutable prompt must remain in the prompt record`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
+
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must stay outside the reviewed registry before control disposition`);
+    assert.ok(!batch019PublicMediaFiles.includes(expectedFiles.publishedFile));
+    assert.ok(!batch019PublicMediaFiles.includes(expectedFiles.socialFile));
+    assert.ok(!batch019MasterFiles.includes(expectedFiles.masterSource));
+    assert.ok(!batch019PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft must not become a public file`);
+    assert.ok(!Object.values(reviewLog.reviews).some((review) => review.pageId === asset.pageId), `${asset.pageId} must not receive an approved review record while pending`);
+  }
+  assert.equal(batch019Candidates.find((asset) => asset.pageId === "fusobacteriales")?.assetType, "microbial-community");
+  assert.match(batch019Candidates.find((asset) => asset.pageId === "fusobacteriales")?.proposedCaption ?? "", /representative, non-exhaustive, non-diagnostic/);
+  assert.match(batch019Candidates.find((asset) => asset.pageId === "fusobacteriales")?.proposedCaption ?? "", /never a universal order form/);
+  assert.match(batch019Candidates.find((asset) => asset.pageId === "fusobacterium")?.proposedCaption ?? "", /Type-species-anchored/);
+  assert.match(batch019Candidates.find((asset) => asset.pageId === "fusobacterium-varium")?.proposedCaption ?? "", /distinct from the long pointed F\. nucleatum treatment/);
+  assert.match(batch019Candidates.find((asset) => asset.pageId === "gardnerella")?.proposedCaption ?? "", /not a universal genus form/);
+  assert.match(batch019Candidates.find((asset) => asset.pageId === "gardnerella-vaginalis")?.proposedCaption ?? "", /does not imply visual separation from other Gardnerella species or diagnosis/);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
