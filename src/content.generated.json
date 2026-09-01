@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-01T15:03:18.878Z",
+  "_generated": "2026-09-01T15:47:14.687Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1929,
-    "entities": 329,
+    "sources": 1932,
+    "entities": 328,
     "concepts": 264,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 864
+    "totalPages": 863
   },
   "pages": [
     {
@@ -2748,10 +2748,6 @@
       ],
       "related": [
         {
-          "id": "davidiella",
-          "score": 23
-        },
-        {
           "id": "torulaspora",
           "score": 21
         },
@@ -2778,6 +2774,10 @@
         {
           "id": "schizophrenia",
           "score": 7
+        },
+        {
+          "id": "candida-tropicalis",
+          "score": 6
         }
       ]
     },
@@ -12631,7 +12631,6 @@
         "candida-tropicalis",
         "candidozyma-auris",
         "cryptococcus-neoformans",
-        "davidiella",
         "fusobacterium-varium",
         "gerd",
         "hiv",
@@ -13665,10 +13664,6 @@
           "score": 6
         },
         {
-          "id": "davidiella",
-          "score": 6
-        },
-        {
           "id": "trichoderma",
           "score": 6
         },
@@ -13687,6 +13682,10 @@
         {
           "id": "iron-sulfur-clusters",
           "score": 5
+        },
+        {
+          "id": "torulaspora",
+          "score": 4
         }
       ]
     },
@@ -14565,10 +14564,6 @@
           "score": 8
         },
         {
-          "id": "davidiella",
-          "score": 8
-        },
-        {
           "id": "graves-disease",
           "score": 8
         },
@@ -14579,6 +14574,10 @@
         {
           "id": "trichoderma",
           "score": 8
+        },
+        {
+          "id": "parkinsons-disease",
+          "score": 7
         }
       ]
     },
@@ -16169,9 +16168,15 @@
       "category": "microbe",
       "tags": [
         "environmental",
-        "mycobiome"
+        "mycobiome",
+        "taxonomy",
+        "davidiella-historical-name"
       ],
       "sources": [
+        "ncbi-taxonomy-cladosporium",
+        "species-fungorum-cladosporium",
+        "rossman-2015-recommended-names-dothideomycetes",
+        "al-bataineh-2020-gut-microbiome-fungal-community-t2d-emirati",
         "otaegui-chivite-2025-mycobiota-ms-progression",
         "dagar-2023-bacteriome-mycobiome-virome-rheumatoid-arthritis",
         "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
@@ -16182,14 +16187,18 @@
         "forbes-2019-fungal-mycobiome-neurological-disease"
       ],
       "created": "2026-04-19T00:00:00.000Z",
-      "updated": "2026-04-19T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
       "frontmatter": {
         "title": "Cladosporium",
         "type": "entity",
         "subtype": "fungus",
         "created": "2026-04-19T00:00:00.000Z",
-        "updated": "2026-04-19T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
         "sources": [
+          "ncbi-taxonomy-cladosporium",
+          "species-fungorum-cladosporium",
+          "rossman-2015-recommended-names-dothideomycetes",
+          "al-bataineh-2020-gut-microbiome-fungal-community-t2d-emirati",
           "otaegui-chivite-2025-mycobiota-ms-progression",
           "dagar-2023-bacteriome-mycobiome-virome-rheumatoid-arthritis",
           "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
@@ -16199,23 +16208,56 @@
           "ling-2025-gut-mycobiota-schizophrenia-metabolic-syndrome-trichosporon",
           "forbes-2019-fungal-mycobiome-neurological-disease"
         ],
-        "source_count": 8,
+        "source_count": 12,
         "tags": [
           "environmental",
-          "mycobiome"
+          "mycobiome",
+          "taxonomy",
+          "davidiella-historical-name"
         ],
         "platform": "wikibiome",
         "metal_dependencies": [],
         "conditions_enriched_in": [],
         "conditions_depleted_in": [],
         "pathogenic_potential": "unknown",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z"
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "seo_target": "Cladosporium taxonomy NCBITaxon 5498 Davidiella historical synonym",
+        "wikipedia_differentiation": "Current Cladosporium identity reconciled with the younger sexual-morph name Davidiella while source-era labels remain explicit",
+        "ncbi_taxonomy_id": 5498,
+        "index_fungorum_registration_id": 7681,
+        "historical_names": [
+          "Davidiella"
+        ]
       },
-      "overview": "<!-- Auto-created stub from Rule 13 scope discovery. 8 source pages mention this taxon. Awaiting content expansion. -->",
-      "sections": [],
-      "wikilinks": [],
+      "overview": "*Cladosporium* Link 1816 is the selected current genus name for NCBITaxon:5498 and is accepted as a genus by Species Fungorum [[ncbi-taxonomy-cladosporium]] [[species-fungorum-cladosporium]]. *Davidiella* Crous & U. Braun 2003 was introduced for the sexual morph of *Cladosporium* sensu stricto. Under one-fungus/one-name treatment, the International Commission on the Taxonomy of Fungi working group recommended the older and more widely used *Cladosporium* over *Davidiella*; the latter is therefore retained here only as a historical synonym, not as a second canonical genus [[rossman-2015-recommended-names-dothideomycetes]].",
+      "sections": [
+        {
+          "heading": "Nomenclature and Source-Label Boundary",
+          "level": 2,
+          "body": "The nomenclatural recommendation connects the type species through the sexual morph: *Davidiella tassiana* was described for the sexual state of *Cladosporium herbarum*, making the generic names synonyms for current editorial purposes [[rossman-2015-recommended-names-dothideomycetes]]. Historical articles may nevertheless print “Davidiella,” and WikiBiome preserves that wording when reporting what a source measured. Canonicalization does not retroactively establish a species-level assignment for an older amplicon label.\n\nAl Bataineh and colleagues reported “Unclassified Davidiella” among the fungal labels increased in 25 adults with type 2 diabetes compared with 25 controls in their Emirati pilot cohort [[al-bataineh-2020-gut-microbiome-fungal-community-t2d-emirati]]. That source-era label is linked to the current *Cladosporium* record for traceability, but the study's unmatched age, body-mass index, diet, and treatment context precludes a causal conclusion, and the unclassified result should not be read as a resolved species identification."
+        },
+        {
+          "heading": "Reported Mycobiome Contexts",
+          "level": 2,
+          "body": "Other cited surveys and reviews use the current name *Cladosporium* in oral, gut, and broader human mycobiome contexts, including hypertension and chronic kidney disease, multiple sclerosis, rheumatoid arthritis, cancer, schizophrenia, and neurological-disease literature [[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]] [[qiu-2023-gut-mycobiome-hypertension-ckd]] [[otaegui-chivite-2025-mycobiota-ms-progression]] [[dagar-2023-bacteriome-mycobiome-virome-rheumatoid-arthritis]] [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]] [[wei-2022-oral-mycobiota-pancreatic-adenocarcinoma]] [[ling-2025-gut-mycobiota-schizophrenia-metabolic-syndrome-trichosporon]] [[forbes-2019-fungal-mycobiome-neurological-disease]]. These records support reported detection or differential abundance in their stated cohorts; they do not by themselves establish persistent colonization, causation, pathogenicity, or a genus-wide metal requirement."
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-cladosporium",
+        "species-fungorum-cladosporium",
+        "rossman-2015-recommended-names-dothideomycetes",
+        "al-bataineh-2020-gut-microbiome-fungal-community-t2d-emirati",
+        "zou-2022-mycobiome-dysbiosis-hypertension-light-chains",
+        "qiu-2023-gut-mycobiome-hypertension-ckd",
+        "otaegui-chivite-2025-mycobiota-ms-progression",
+        "dagar-2023-bacteriome-mycobiome-virome-rheumatoid-arthritis",
+        "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+        "wei-2022-oral-mycobiota-pancreatic-adenocarcinoma",
+        "ling-2025-gut-mycobiota-schizophrenia-metabolic-syndrome-trichosporon",
+        "forbes-2019-fungal-mycobiome-neurological-disease"
+      ],
       "sourceDir": "entities",
-      "sourceCount": 8,
+      "sourceCount": 12,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
@@ -18796,7 +18838,6 @@
         "coronary-artery-disease",
         "crohns-disease",
         "cryptococcus-neoformans",
-        "davidiella",
         "depression",
         "endometriosis",
         "enterococcus-faecium",
@@ -18912,7 +18953,7 @@
           "score": 56
         },
         {
-          "id": "candida-albicans",
+          "id": "chromium",
           "score": 56
         }
       ]
@@ -20354,147 +20395,6 @@
         {
           "id": "metal-disease-matrix",
           "score": 6
-        }
-      ]
-    },
-    {
-      "id": "davidiella",
-      "title": "Davidiella",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "ascomycota",
-        "dothideomycetes",
-        "environmental-fungus",
-        "mycobiome"
-      ],
-      "sources": [
-        "li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort",
-        "shi-2023-ppi-fungal-dysbiosis-gerd",
-        "de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons",
-        "mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca",
-        "krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model",
-        "gosiewski-2014-candida-feces-t1d-t2d-pilot-study"
-      ],
-      "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Davidiella",
-        "type": "entity",
-        "subtype": "fungus",
-        "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort",
-          "shi-2023-ppi-fungal-dysbiosis-gerd",
-          "de-pablo-fernandez-2024-faecal-metabolome-mycobiome-parkinsons",
-          "mizutani-2025-biliary-microbiome-16s-rrna-pdac-cca",
-          "krawczyk-2025-fmt-fungal-archaeal-species-rat-schizophrenia-model",
-          "gosiewski-2014-candida-feces-t1d-t2d-pilot-study"
-        ],
-        "source_count": 6,
-        "tags": [
-          "ascomycota",
-          "dothideomycetes",
-          "environmental-fungus",
-          "mycobiome"
-        ],
-        "seo_target": "Davidiella Cladosporium gut mycobiome",
-        "wikipedia_differentiation": "Gut mycobiome presence as environmental exposure marker and metal-tolerant fungal colonizer in dysbiotic states",
-        "gram_stain": "N/A",
-        "oxygen_requirement": "aerobic",
-        "metal_dependencies": [
-          "zinc",
-          "copper",
-          "iron"
-        ],
-        "key_enzymes": [
-          "laccase",
-          "melanin-biosynthesis"
-        ],
-        "pathogenic_potential": "opportunistic",
-        "conditions_enriched_in": [
-          "inflammatory-bowel-disease",
-          "allergic-disease"
-        ],
-        "conditions_depleted_in": []
-      },
-      "overview": "",
-      "sections": [
-        {
-          "heading": "Overview",
-          "level": 2,
-          "body": "Davidiella is the teleomorphic (sexual) state of *Cladosporium*, one of the most abundant environmental fungi worldwide. While primarily a saprophyte on plant material, Davidiella/Cladosporium species are commonly detected in gut mycobiome surveys, where their presence reflects both dietary intake and genuine mucosal colonization."
-        },
-        {
-          "heading": "Metal Dependencies",
-          "level": 2,
-          "body": "Davidiella species produce melanin — a pigment synthesized through laccase enzymes requiring copper — that confers resistance to UV radiation, oxidative stress, and heavy metal toxicity. This melanin also chelates zinc, iron, and toxic metals like cadmium, potentially altering metal bioavailability for co-occurring gut bacteria and fungi."
-        },
-        {
-          "heading": "Ecological Role",
-          "level": 2,
-          "body": "In the gut mycobiome, Davidiella/Cladosporium typically represents transient environmental exposure rather than stable colonization. However, in immunocompromised or dysbiotic states, it can persist on mucosal surfaces. Its melanin production and metal-chelating properties may modulate the local metal landscape, indirectly influencing bacterial community composition."
-        },
-        {
-          "heading": "Conditions Associated",
-          "level": 2,
-          "body": "Enrichment of Cladosporium/Davidiella has been reported in the gut mycobiome of [[inflammatory-bowel-disease]] patients and in airway samples of individuals with allergic disease. Whether its gut enrichment is a cause or consequence of dysbiosis remains an open question."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[copper]] — laccase cofactor for melanin synthesis\n- [[zinc]] — metal chelation by melanin\n- [[candida-albicans]] — co-occurring in dysbiotic mycobiome\n- [[mycobiome]] — fungal community context"
-        }
-      ],
-      "wikilinks": [
-        "inflammatory-bowel-disease",
-        "copper",
-        "zinc",
-        "candida-albicans",
-        "mycobiome"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 6,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "broken-links-2026-04-16"
-      ],
-      "related": [
-        {
-          "id": "trichoderma",
-          "score": 25
-        },
-        {
-          "id": "alternaria",
-          "score": 23
-        },
-        {
-          "id": "torulaspora",
-          "score": 21
-        },
-        {
-          "id": "lipocalin-2",
-          "score": 15
-        },
-        {
-          "id": "cholestasis",
-          "score": 8
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 7
-        },
-        {
-          "id": "gerd",
-          "score": 7
-        },
-        {
-          "id": "schizophrenia",
-          "score": 7
         }
       ]
     },
@@ -34356,7 +34256,6 @@
         "bilophila",
         "celiac-disease",
         "colorectal-cancer",
-        "davidiella",
         "depression",
         "endometriosis",
         "fusicatenibacter",
@@ -34410,7 +34309,7 @@
         },
         {
           "id": "zinc",
-          "score": 48
+          "score": 46
         },
         {
           "id": "colorectal-cancer",
@@ -40204,10 +40103,6 @@
           "score": 9
         },
         {
-          "id": "davidiella",
-          "score": 5
-        },
-        {
           "id": "schizophrenia",
           "score": 5
         },
@@ -40229,6 +40124,10 @@
         },
         {
           "id": "acinetobacter-baumannii",
+          "score": 3
+        },
+        {
+          "id": "acinetobacter",
           "score": 3
         }
       ]
@@ -65438,10 +65337,6 @@
           "score": 21
         },
         {
-          "id": "davidiella",
-          "score": 21
-        },
-        {
           "id": "trichoderma",
           "score": 19
         },
@@ -65463,6 +65358,10 @@
         },
         {
           "id": "fusobacterium-nucleatum",
+          "score": 6
+        },
+        {
+          "id": "saccharomyces",
           "score": 6
         }
       ]
@@ -65669,10 +65568,6 @@
       ],
       "related": [
         {
-          "id": "davidiella",
-          "score": 25
-        },
-        {
           "id": "alternaria",
           "score": 21
         },
@@ -65698,6 +65593,10 @@
         },
         {
           "id": "fusobacterium-nucleatum",
+          "score": 6
+        },
+        {
+          "id": "saccharomyces-cerevisiae",
           "score": 6
         }
       ]
@@ -69149,7 +69048,6 @@
         "colorectal-cancer",
         "copper",
         "crohns-disease",
-        "davidiella",
         "depression",
         "dermatitis-herpetiformis",
         "endometriosis",
@@ -95784,15 +95682,15 @@
           "score": 15
         },
         {
-          "id": "davidiella",
-          "score": 15
-        },
-        {
           "id": "depression",
           "score": 15
         },
         {
           "id": "torulaspora",
+          "score": 15
+        },
+        {
+          "id": "trichoderma",
           "score": 15
         }
       ]
@@ -101776,7 +101674,6 @@
       "backlinks": [
         "candida-tropicalis",
         "candidozyma-auris",
-        "davidiella",
         "mortierella",
         "penicillium",
         "purpureocillium",
@@ -101793,7 +101690,7 @@
       "related": [
         {
           "id": "candida-albicans",
-          "score": 26
+          "score": 24
         },
         {
           "id": "aspergillus",
@@ -101812,15 +101709,15 @@
           "score": 12
         },
         {
-          "id": "copper",
-          "score": 10
-        },
-        {
           "id": "escherichia-coli",
           "score": 10
         },
         {
           "id": "saccharomyces-boulardii",
+          "score": 10
+        },
+        {
+          "id": "cardiovascular-disease-signature",
           "score": 10
         }
       ]
@@ -181255,7 +181152,7 @@
         "id": "cladosporium",
         "label": "Cladosporium",
         "category": "microbe",
-        "sourceCount": 8
+        "sourceCount": 12
       },
       {
         "id": "clostridia",
@@ -181351,12 +181248,6 @@
         "id": "cystic-fibrosis",
         "label": "Cystic Fibrosis",
         "category": "disease",
-        "sourceCount": 6
-      },
-      {
-        "id": "davidiella",
-        "label": "Davidiella",
-        "category": "microbe",
         "sourceCount": 6
       },
       {
@@ -190126,26 +190017,6 @@
       {
         "source": "cystic-fibrosis",
         "target": "zinc-metalloprotease"
-      },
-      {
-        "source": "davidiella",
-        "target": "inflammatory-bowel-disease"
-      },
-      {
-        "source": "davidiella",
-        "target": "copper"
-      },
-      {
-        "source": "davidiella",
-        "target": "zinc"
-      },
-      {
-        "source": "davidiella",
-        "target": "candida-albicans"
-      },
-      {
-        "source": "davidiella",
-        "target": "mycobiome"
       },
       {
         "source": "debaryomyces",
@@ -216078,10 +215949,6 @@
       {
         "source": "broken-links-2026-04-16",
         "target": "bacterial-contamination-hypothesis"
-      },
-      {
-        "source": "broken-links-2026-04-16",
-        "target": "davidiella"
       },
       {
         "source": "broken-links-2026-04-16",
@@ -425965,6 +425832,16 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "ncbi-taxonomy-cladosporium": {
+      "title": "NCBI Taxonomy — Cladosporium (NCBITaxon:5498)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "ncbi-taxonomy-clostridioides-difficile": {
       "title": "NCBI Taxonomy — Clostridioides difficile (NCBITaxon:1496)",
       "authors": [],
@@ -429742,6 +429619,16 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "rossman-2015-recommended-names-dothideomycetes": {
+      "title": "Recommended names for pleomorphic genera in Dothideomycetes",
+      "authors": [],
+      "year": 2015,
+      "journal": "IMA Fungus",
+      "doi": "10.5598/imafungus.2015.06.02.14",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "rostkowska-2019-phage-therapy-kidney-transplant-uti": {
       "title": "Treatment of Recurrent UTIs in a Kidney Transplant Recipient: Last-Chance Antibiotics and Phage Therapy",
       "authors": [
@@ -431926,6 +431813,16 @@
       "year": 2017,
       "journal": "Frontiers in Endocrinology",
       "doi": "10.3389/fendo.2017.00316",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "species-fungorum-cladosporium": {
+      "title": "Species Fungorum — Cladosporium Link 1816",
+      "authors": [],
+      "year": "",
+      "journal": "Species Fungorum",
+      "doi": "",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

@@ -18,7 +18,7 @@ platform: wikibiome
 condition: "type-2-diabetes"
 karen_brain_primitives: [4, 5, 8]
 metals_discussed: []
-taxa_discussed: [prevotella, bacteroides, ruminococcus, phascolarctobacterium, mogibacterium, acidaminococcus, escherichia-coli, akkermansia-muciniphila, lentisphaerae, victivallaceae, malassezia-furfur, davidiella, basidiomycota, ascomycota]
+taxa_discussed: [prevotella, bacteroides, ruminococcus, phascolarctobacterium, mogibacterium, acidaminococcus, escherichia-coli, akkermansia-muciniphila, lentisphaerae, victivallaceae, malassezia-furfur, cladosporium, basidiomycota, ascomycota]
 key_findings:
   - "Bacteroides 2 enterotype enriched in T2DM Emirati subjects; Prevotella enterotype enriched in non-T2DM controls (Fisher p=0.004)"
   - "Fungal diversity significantly decreased in Bacteroides 2 enterotype; Malassezia furfur and unclassified Davidiella enriched in T2DM group"
@@ -38,7 +38,7 @@ key_findings:
 # Relevance to WikiBiome
 
 - Informs **[[type-2-diabetes]]** entity page: documents gut dysbiosis in a Middle Eastern (Emirati) population, providing geographic diversity beyond Western cohorts.
-- Informs **[[malassezia]]** and **[[davidiella]]** entity pages: identifies these fungi as T2DM-enriched in the gut mycobiome.
+- Informs **[[malassezia]]** and **[[cladosporium|Davidiella]]** entity pages: identifies these source-labeled fungi as T2DM-enriched in the gut mycobiome. “Davidiella” is retained here because it is the historical label printed by the study; the canonical genus record explains the current-name relationship and the unresolved species assignment.
 - Informs **[[prevotella]]** and **[[bacteroides]]** entity pages: enterotype-level signature shift in T2DM.
 - Informs **[[metabolic-syndrome|metabolic-endotoxemia]]** and **[[toll-like-receptors|LPS-biosynthesis]]** concept pages: functional evidence of LPS pathway enrichment in T2DM microbiomes.
 
