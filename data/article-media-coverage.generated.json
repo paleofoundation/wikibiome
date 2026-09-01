@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "05f8d4f68e1186d321de6392613732bdc83abe8bb567643a3e8a4182842cfc67",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "129ccfa5bd7c59f3cb6292b72a82ea54a85900c562af203634fc042d41ff031d",
+    "reviewLogSha256": "3843d8bfb28e5d5c696843a45f8ae5f9e7fee17d77bf811ddbd3ad000ab46fd5",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -137,6 +137,12 @@
         "batchId": "microorganisms-021",
         "status": "reviewed",
         "sha256": "52893025276b99ac33209df27ec5ed2f31e7d0179269a66e2204f224dd228c0e"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-022.json",
+        "batchId": "microorganisms-022",
+        "status": "awaiting-control-review",
+        "sha256": "aa2e171328aaaaec0dc4afe1a6a9751954182336b169e2a00057b2a1d13f7445"
       }
     ]
   },
@@ -160,10 +166,10 @@
     "total": 710,
     "completed": 120,
     "remaining": 590,
-    "rejected": 14,
+    "rejected": 15,
     "revised": 10,
-    "scientificHolds": 1,
-    "inReview": 0
+    "scientificHolds": 2,
+    "inReview": 5
   },
   "categories": [
     {
@@ -553,6 +559,23 @@
       ],
       "requiredResolution": "Editorially determine whether the canonical route should retire, redirect to a supported current taxon, or be explicitly reframed as a historical/source-label record before it can re-enter a media queue.",
       "routingImpact": "The unresolved route remains uncovered and is excluded from the public media registry, canonical media files, derivatives, and image sitemap. Batch 021 contains no prompt, generation call, fallback raster, or queue substitution."
+    },
+    {
+      "pageId": "lachnospiraceae-family",
+      "sourceEraIdentifier": "NCBITaxon:186803",
+      "batchId": "microorganisms-022",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "The canonical content record describes this route as a family-level hub for Lachnospiraceae and explicitly directs readers to lachnospiraceae as the primary entity page. Both routes represent the same current family, Lachnospiraceae Rainey 2010, NCBITaxon:186803. Generating a second plate would create duplicate scientific-media ownership for one taxon rather than a distinct evidence-backed subject.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186803&mode=Info",
+        "https://lpsn.dsmz.de/family/lachnospiraceae",
+        "local:data/content.generated.json#/pages/lachnospiraceae",
+        "local:data/content.generated.json#/pages/lachnospiraceae-family"
+      ],
+      "requiredResolution": "Editorially merge, retire, or permanently alias the duplicate hub route to the primary lachnospiraceae entity while preserving any unique sourced statements and provenance. Only one canonical media owner may remain for NCBITaxon:186803.",
+      "routingImpact": "The duplicate route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, canonical masters, derivatives, and image sitemap entries. Batch 022 assigns the single representative family plate only to lachnospiraceae and makes no queue substitution."
     }
   ],
   "revisedAssets": [
@@ -682,56 +705,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 119,
-      "id": "lachnospira-eligens",
-      "title": "Lachnospira eligens",
-      "route": "/article/lachnospira-eligens",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "controlledIdentifier": "NCBITaxon:39485"
-    },
-    {
-      "queuePosition": 120,
-      "id": "lachnospiraceae",
-      "title": "Lachnospiraceae",
-      "route": "/article/lachnospiraceae",
+      "queuePosition": 125,
+      "id": "lactobacillus-crispatus",
+      "title": "Lactobacillus crispatus",
+      "route": "/article/lactobacillus-crispatus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 121,
-      "id": "lachnospiraceae-family",
-      "title": "Lachnospiraceae (Family)",
-      "route": "/article/lachnospiraceae-family",
+      "queuePosition": 126,
+      "id": "lactobacillus-gasseri",
+      "title": "Lactobacillus gasseri",
+      "route": "/article/lactobacillus-gasseri",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 122,
-      "id": "lactobacillaceae",
-      "title": "Lactobacillaceae",
-      "route": "/article/lactobacillaceae",
+      "queuePosition": 127,
+      "id": "lactobacillus-iners",
+      "title": "Lactobacillus iners",
+      "route": "/article/lactobacillus-iners",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 123,
-      "id": "lactobacillus",
-      "title": "Lactobacillus",
-      "route": "/article/lactobacillus",
+      "queuePosition": 128,
+      "id": "lactobacillus-jensenii",
+      "title": "Lactobacillus jensenii",
+      "route": "/article/lactobacillus-jensenii",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 124,
-      "id": "lactobacillus-acidophilus",
-      "title": "Lactobacillus acidophilus",
-      "route": "/article/lactobacillus-acidophilus",
+      "queuePosition": 129,
+      "id": "lactobacillus-plantarum",
+      "title": "Lactobacillus plantarum",
+      "route": "/article/lactobacillus-plantarum",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 130,
+      "id": "lactobacillus-reuteri",
+      "title": "Lactobacillus reuteri",
+      "route": "/article/lactobacillus-reuteri",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -3232,7 +3254,13 @@
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
       "controlledIdentifier": "NCBITaxon:39485",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-022",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-022/lachnospira-eligens-draft.png",
+        "sha256": "8e990663e1f86cec18922fbddbfc64e0fc1fecb8bb4cc081ca658e7c1ccda115"
+      }
     },
     {
       "queuePosition": 120,
@@ -3245,7 +3273,13 @@
       "route": "/article/lachnospiraceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-022",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-022/lachnospiraceae-draft.png",
+        "sha256": "942f2a03382ad7eec0c89b87149126febd06fdae033d0a69c8f7909cfb89030c"
+      }
     },
     {
       "queuePosition": 121,
@@ -3258,7 +3292,13 @@
       "route": "/article/lachnospiraceae-family",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-02",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "The canonical content record describes this route as a family-level hub for Lachnospiraceae and explicitly directs readers to lachnospiraceae as the primary entity page. Both routes represent the same current family, Lachnospiraceae Rainey 2010, NCBITaxon:186803. Generating a second plate would create duplicate scientific-media ownership for one taxon rather than a distinct evidence-backed subject.",
+        "requiredResolution": "Editorially merge, retire, or permanently alias the duplicate hub route to the primary lachnospiraceae entity while preserving any unique sourced statements and provenance. Only one canonical media owner may remain for NCBITaxon:186803."
+      }
     },
     {
       "queuePosition": 122,
@@ -3271,7 +3311,13 @@
       "route": "/article/lactobacillaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-022",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-022/lactobacillaceae-draft.png",
+        "sha256": "ad2540a9b76c63d2f2749696a3483a600170552a4d5ded6de63551306344e5ec"
+      }
     },
     {
       "queuePosition": 123,
@@ -3284,7 +3330,13 @@
       "route": "/article/lactobacillus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-022",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-022/lactobacillus-draft.png",
+        "sha256": "ac85178ad6c673aaf6bd657ef579b7e0b80e7d621283a25491b395c7abc7057f"
+      }
     },
     {
       "queuePosition": 124,
@@ -3297,7 +3349,13 @@
       "route": "/article/lactobacillus-acidophilus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-022",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-022/lactobacillus-acidophilus-draft.png",
+        "sha256": "7b11c1e7487412163550223eef1c051fa62130c965a9ef40f9cb3e2b3dbafcc3"
+      }
     },
     {
       "queuePosition": 125,

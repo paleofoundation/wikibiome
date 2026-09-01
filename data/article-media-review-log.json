@@ -3380,6 +3380,23 @@
       ],
       "requiredResolution": "Editorially determine whether the canonical route should retire, redirect to a supported current taxon, or be explicitly reframed as a historical/source-label record before it can re-enter a media queue.",
       "routingImpact": "The unresolved route remains uncovered and is excluded from the public media registry, canonical media files, derivatives, and image sitemap. Batch 021 contains no prompt, generation call, fallback raster, or queue substitution."
+    },
+    {
+      "pageId": "lachnospiraceae-family",
+      "sourceEraIdentifier": "NCBITaxon:186803",
+      "batchId": "microorganisms-022",
+      "reviewedOn": "2026-09-02",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "The canonical content record describes this route as a family-level hub for Lachnospiraceae and explicitly directs readers to lachnospiraceae as the primary entity page. Both routes represent the same current family, Lachnospiraceae Rainey 2010, NCBITaxon:186803. Generating a second plate would create duplicate scientific-media ownership for one taxon rather than a distinct evidence-backed subject.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186803&mode=Info",
+        "https://lpsn.dsmz.de/family/lachnospiraceae",
+        "local:data/content.generated.json#/pages/lachnospiraceae",
+        "local:data/content.generated.json#/pages/lachnospiraceae-family"
+      ],
+      "requiredResolution": "Editorially merge, retire, or permanently alias the duplicate hub route to the primary lachnospiraceae entity while preserving any unique sourced statements and provenance. Only one canonical media owner may remain for NCBITaxon:186803.",
+      "routingImpact": "The duplicate route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, canonical masters, derivatives, and image sitemap entries. Batch 022 assigns the single representative family plate only to lachnospiraceae and makes no queue substitution."
     }
   ],
   "revisedAssets": [
