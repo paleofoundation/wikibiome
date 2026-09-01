@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "1c8171e177025a608aaf9a4f387f7b3b9ed89688251df8bd26887e6afb65a3db",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "c9fc6e25df4a31b00851b89e24ba6f4dd05db60040975d5564b273b5f3b7da14",
+    "registrySha256": "665821e1f96c12e3eb2de444898188966c88fba8285a219b46131588350a854b",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "c0f809052be654701b7e8e69752e6607b67768f1f0491defc772810001d9d21e",
+    "reviewLogSha256": "9a19a0c140fc106c410602d344106b6deddd15fce2d20bfb4f974d6ab6b70a34",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -41,6 +41,12 @@
         "batchId": "microorganisms-005",
         "status": "reviewed",
         "sha256": "875f9762ef502f3724e86f372332ac7405e63c4c929ec69cbb3641e0211c6e4e"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-006.json",
+        "batchId": "microorganisms-006",
+        "status": "reviewed",
+        "sha256": "d13a55f3d2c1e727e1952c86d1cfb2e3705536046d2ccc8c513c00836cc91017"
       }
     ]
   },
@@ -62,11 +68,11 @@
   },
   "current": {
     "total": 713,
-    "completed": 34,
-    "remaining": 679,
-    "rejected": 4,
+    "completed": 39,
+    "remaining": 674,
+    "rejected": 5,
     "revised": 2,
-    "scientificHolds": 0,
+    "scientificHolds": 1,
     "inReview": 0
   },
   "categories": [
@@ -74,8 +80,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 232,
-      "completed": 31,
-      "remaining": 201
+      "completed": 36,
+      "remaining": 196
     },
     {
       "id": "metals",
@@ -195,6 +201,22 @@
       "resolution": "The obsolete combination was retired and permanently redirects to the current Fannyhessea vaginae record.",
       "canonicalPageId": "fannyhessea-vaginae",
       "canonicalIdentifier": "NCBITaxon:82135"
+    },
+    {
+      "pageId": "barnesella",
+      "batchId": "microorganisms-006",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "The primary Ata 2019 paper prints Barnesella as a genus-level sequencing label, but current NCBI Taxonomy and LPSN provide no bacterial taxon or controlled identifier for that spelling. Barnesiella is a separate valid genus, NCBITaxon:397864, and its morphology cannot be reassigned to Barnesella by inference.",
+      "checkedUrls": [
+        "https://doi.org/10.1038/s41598-019-39700-6",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Barnesella",
+        "https://lpsn.dsmz.de/search?word=Barnesella",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=397864&mode=Info"
+      ],
+      "requiredResolution": "Complete the active bounded editorial identity correction: correct or redirect the route to a controlled current taxon, or explicitly reframe or retire it as a study-level source label. Recompute the deterministic queue after the canonical decision before media work resumes.",
+      "routingImpact": "The route remains uncovered and has no generated draft, registry record, master, derivatives, review approval, or image-sitemap entry. No replacement route is substituted into batch 006 without control authorization."
     }
   ],
   "revisedAssets": [
@@ -222,55 +244,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 28,
-      "id": "bacteroides-uniformis",
-      "title": "Bacteroides uniformis",
-      "route": "/article/bacteroides-uniformis",
+      "queuePosition": 34,
+      "id": "bifidobacteriaceae",
+      "title": "Bifidobacteriaceae",
+      "route": "/article/bifidobacteriaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 29,
-      "id": "bacteroides-vulgatus",
-      "title": "Bacteroides vulgatus",
-      "route": "/article/bacteroides-vulgatus",
+      "queuePosition": 35,
+      "id": "bifidobacteriales",
+      "title": "Bifidobacteriales",
+      "route": "/article/bifidobacteriales",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 30,
-      "id": "bacteroidetes",
-      "title": "Bacteroidetes (Bacteroidota)",
-      "route": "/article/bacteroidetes",
+      "queuePosition": 37,
+      "id": "bifidobacterium-adolescentis",
+      "title": "Bifidobacterium adolescentis",
+      "route": "/article/bifidobacterium-adolescentis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 31,
-      "id": "barnesella",
-      "title": "Barnesella",
-      "route": "/article/barnesella",
+      "queuePosition": 38,
+      "id": "bifidobacterium-bifidum",
+      "title": "Bifidobacterium bifidum",
+      "route": "/article/bifidobacterium-bifidum",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 32,
-      "id": "barnesiella",
-      "title": "Barnesiella",
-      "route": "/article/barnesiella",
+      "queuePosition": 39,
+      "id": "bifidobacterium-breve",
+      "title": "Bifidobacterium breve",
+      "route": "/article/bifidobacterium-breve",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 33,
-      "id": "betaproteobacteria",
-      "title": "Betaproteobacteria",
-      "route": "/article/betaproteobacteria",
+      "queuePosition": 40,
+      "id": "bifidobacterium-infantis",
+      "title": "Bifidobacterium infantis",
+      "route": "/article/bifidobacterium-infantis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -855,7 +877,15 @@
       "route": "/article/bacteroides-uniformis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroides-uniformis-morphology-v1-master.png",
+        "publishedFile": "bacteroides-uniformis-morphology-v1.webp",
+        "socialFile": "bacteroides-uniformis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 29,
@@ -868,7 +898,15 @@
       "route": "/article/bacteroides-vulgatus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroides-vulgatus-morphology-v1-master.png",
+        "publishedFile": "bacteroides-vulgatus-morphology-v1.webp",
+        "socialFile": "bacteroides-vulgatus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 30,
@@ -881,7 +919,15 @@
       "route": "/article/bacteroidetes",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bacteroidetes-microbial-community-v1-master.png",
+        "publishedFile": "bacteroidetes-microbial-community-v1.webp",
+        "socialFile": "bacteroidetes-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 31,
@@ -894,7 +940,13 @@
       "route": "/article/barnesella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-01",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "The primary Ata 2019 paper prints Barnesella as a genus-level sequencing label, but current NCBI Taxonomy and LPSN provide no bacterial taxon or controlled identifier for that spelling. Barnesiella is a separate valid genus, NCBITaxon:397864, and its morphology cannot be reassigned to Barnesella by inference.",
+        "requiredResolution": "Complete the active bounded editorial identity correction: correct or redirect the route to a controlled current taxon, or explicitly reframe or retire it as a study-level source label. Recompute the deterministic queue after the canonical decision before media work resumes."
+      }
     },
     {
       "queuePosition": 32,
@@ -907,7 +959,15 @@
       "route": "/article/barnesiella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "barnesiella-morphology-v1-master.png",
+        "publishedFile": "barnesiella-morphology-v1.webp",
+        "socialFile": "barnesiella-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 33,
@@ -920,7 +980,15 @@
       "route": "/article/betaproteobacteria",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "betaproteobacteria-microbial-community-v1-master.png",
+        "publishedFile": "betaproteobacteria-microbial-community-v1.webp",
+        "socialFile": "betaproteobacteria-microbial-community-v1-social.webp"
+      }
     },
     {
       "queuePosition": 34,

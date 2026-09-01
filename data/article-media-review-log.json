@@ -520,6 +520,81 @@
       "disposition": "approved",
       "notes": "Accepted after human output audit reconciled every count-bearing description to the rendered seven-cell, two-halo output while preserving the original prompt record.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bacteroides-thetaiotaomicron-draft.png", "auditCorrection": "prompt requested six cells and three capsules; output audit observed seven cells and two reticulated capsules" }
+    },
+    "bacteroides-uniformis|bacteroides-uniformis-morphology-v1.webp": {
+      "pageId": "bacteroides-uniformis",
+      "publishedFile": "bacteroides-uniformis-morphology-v1.webp",
+      "masterSource": "bacteroides-uniformis-morphology-v1-master.png",
+      "socialFile": "bacteroides-uniformis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=820&mode=Info", "https://bacdive.dsmz.de/strain/1604", "https://pmc.ncbi.nlm.nih.gov/articles/PMC533498/"], "notes": "NCBI confirms current species NCBITaxon:820; the DSMZ type-strain record and original species work support an anaerobic, Gram-negative rod treatment without asserted appendages, spores, or capsule." },
+      "subjectReview": { "status": "pass", "notes": "Control original-resolution review confirmed seven rods—five separated singles plus one touching two-cell pair—with no labels, appendages, fantasy structures, host scenery, or clipping. The immutable prompt requested six cells and is not used as count evidence." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text, caption, description, batch manifest, and registry consistently state seven cells and the five-single/one-pair arrangement; the caption states reconstruction, non-diagnostic, and non-micrograph limits." },
+      "disposition": "approved",
+      "notes": "Accepted after control-tower original-resolution output audit reconciled every count-bearing description to the rendered seven-cell output while preserving the original prompt record.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bacteroides-uniformis-draft.png", "auditCorrection": "prompt requested six; output audit observed seven" }
+    },
+    "bacteroides-vulgatus|bacteroides-vulgatus-morphology-v1.webp": {
+      "pageId": "bacteroides-vulgatus",
+      "publishedFile": "bacteroides-vulgatus-morphology-v1.webp",
+      "masterSource": "bacteroides-vulgatus-morphology-v1-master.png",
+      "socialFile": "bacteroides-vulgatus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=821&mode=Info", "https://bacdive.dsmz.de/strain/1601", "https://pmc.ncbi.nlm.nih.gov/articles/PMC6767994/"], "notes": "NCBI and DSMZ confirm current Phocaeicola vulgatus identity NCBITaxon:821 and Bacteroides vulgatus as a historical name; the type-strain record supports a Gram-negative anaerobic rod treatment." },
+      "subjectReview": { "status": "pass", "notes": "Control original-resolution review confirmed seven rods—five separated singles plus one touching two-cell pair—with no labels, appendages, fantasy structures, host scenery, or clipping. The immutable prompt requested six cells and is not used as count evidence." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text, caption, description, batch manifest, and registry consistently state seven cells and current Phocaeicola vulgatus identity while preserving the historical Bacteroides vulgatus route relationship and reconstruction limits." },
+      "disposition": "approved",
+      "notes": "Accepted after control-tower original-resolution output audit reconciled the rendered cell count and verified current-name/historical-route handling while preserving the original prompt record.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bacteroides-vulgatus-draft.png", "auditCorrection": "prompt requested six; output audit observed seven" }
+    },
+    "bacteroidetes|bacteroidetes-microbial-community-v1.webp": {
+      "pageId": "bacteroidetes",
+      "publishedFile": "bacteroidetes-microbial-community-v1.webp",
+      "masterSource": "bacteroidetes-microbial-community-v1-master.png",
+      "socialFile": "bacteroidetes-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=976&mode=Info", "https://pmc.ncbi.nlm.nih.gov/articles/PMC5167729/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC6767994/", "https://doi.org/10.1099/ijsem.0.005056"], "notes": "NCBI and nomenclatural literature confirm current Bacteroidota identity NCBITaxon:976 and Bacteroidetes as a historical equivalent; phylum-wide evidence supports selected ovoid, straight, curved, and flexile forms without a diagnostic morphology claim." },
+      "subjectReview": { "status": "pass", "notes": "Control original-resolution review confirmed five separated groupings and nine total cells: a compact ovoid pair, three short rods, two long rods, one curved rod, and one long flexile rod. No labels, host scenery, fantasy structures, or clipping are present." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text enumerates all nine visible cells across five groupings; caption and description state current Bacteroidota identity, historical Bacteroidetes naming, selected phylum-level scope, and non-exhaustive, non-diagnostic, non-micrograph limits." },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome control-tower original-resolution visual review in microorganisms batch 006.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bacteroidetes-draft.png" }
+    },
+    "barnesiella|barnesiella-morphology-v1.webp": {
+      "pageId": "barnesiella",
+      "publishedFile": "barnesiella-morphology-v1.webp",
+      "masterSource": "barnesiella-morphology-v1-master.png",
+      "socialFile": "barnesiella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=397864&mode=Info", "https://bacdive.dsmz.de/strain/12518", "https://pubmed.ncbi.nlm.nih.gov/19060046/", "https://doi.org/10.1099/ijs.0.2008/000810-0"], "notes": "NCBI confirms current genus NCBITaxon:397864; type-species and human-fecal species records support nonmotile, non-spore-forming rods with substantial genus-level length variation." },
+      "subjectReview": { "status": "pass", "notes": "Control original-resolution review confirmed eight rods—six separated singles plus one touching pair—ranging from short and plump to long and slender, with no labels, appendages, fantasy structures, host scenery, or clipping. The immutable prompt requested seven cells and is not used as count evidence." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text, caption, description, batch manifest, and registry consistently state eight cells and the six-single/one-pair arrangement; caption states illustrative relative scale and reconstruction limits." },
+      "disposition": "approved",
+      "notes": "Accepted after control-tower original-resolution output audit reconciled every count-bearing description to the rendered eight-cell output while preserving the original prompt record.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "barnesiella-draft.png", "auditCorrection": "prompt requested seven; output audit observed eight" }
+    },
+    "betaproteobacteria|betaproteobacteria-microbial-community-v1.webp": {
+      "pageId": "betaproteobacteria",
+      "publishedFile": "betaproteobacteria-microbial-community-v1.webp",
+      "masterSource": "betaproteobacteria-microbial-community-v1-master.png",
+      "socialFile": "betaproteobacteria-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28216&mode=Info", "https://bacdive.dsmz.de/strain/17830", "https://pubmed.ncbi.nlm.nih.gov/3994481/", "https://bacdive.dsmz.de/strain/10473"], "notes": "NCBI confirms current class NCBITaxon:28216; current member records support selected ovoid, rod, and coccal forms without implying that the plate exhausts or diagnoses the class." },
+      "subjectReview": { "status": "pass", "notes": "Control original-resolution review confirmed four separated two-cell groupings and eight total cells: two ovoid cells, two short rods, two long rods, and two touching cocci. No labels, host scenery, fantasy structures, or clipping are present." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text enumerates all eight visible cells across four groupings; caption and description state selected class-level, non-exhaustive, non-diagnostic, non-micrograph scope." },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome control-tower original-resolution visual review in microorganisms batch 006.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "betaproteobacteria-draft.png" }
     }
   },
   "rejectedAssets": [
@@ -590,6 +665,22 @@
       "resolution": "The obsolete combination was retired and permanently redirects to the current Fannyhessea vaginae record.",
       "canonicalPageId": "fannyhessea-vaginae",
       "canonicalIdentifier": "NCBITaxon:82135"
+    },
+    {
+      "pageId": "barnesella",
+      "batchId": "microorganisms-006",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "The primary Ata 2019 paper prints Barnesella as a genus-level sequencing label, but current NCBI Taxonomy and LPSN provide no bacterial taxon or controlled identifier for that spelling. Barnesiella is a separate valid genus, NCBITaxon:397864, and its morphology cannot be reassigned to Barnesella by inference.",
+      "checkedUrls": [
+        "https://doi.org/10.1038/s41598-019-39700-6",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Barnesella",
+        "https://lpsn.dsmz.de/search?word=Barnesella",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=397864&mode=Info"
+      ],
+      "requiredResolution": "Complete the active bounded editorial identity correction: correct or redirect the route to a controlled current taxon, or explicitly reframe or retire it as a study-level source label. Recompute the deterministic queue after the canonical decision before media work resumes.",
+      "routingImpact": "The route remains uncovered and has no generated draft, registry record, master, derivatives, review approval, or image-sitemap entry. No replacement route is substituted into batch 006 without control authorization."
     }
   ],
   "revisedAssets": [

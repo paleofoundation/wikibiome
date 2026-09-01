@@ -479,7 +479,17 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)), `${id} draft must not enter public media files`);
   }
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae"];
-  assert.equal(program.current.scientificHolds, 0);
+  const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
+  assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), ["barnesella"]);
+  assert.equal(program.current.scientificHolds, activeScientificHolds.length);
+  for (const hold of activeScientificHolds) {
+    const queueRecord = program.queue.find((record) => record.id === hold.pageId);
+    assert.equal(queueRecord?.status, "scientific-hold", `${hold.pageId} remains explicitly held in the canonical media queue`);
+    assert.equal(articleMediaRegistry[hold.pageId], undefined, `${hold.pageId} must not enter the reviewed registry while held`);
+    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${hold.pageId}-`)), `${hold.pageId} must not enter public media files while held`);
+    assert.ok(hold.requiredResolution, `${hold.pageId} requires an explicit resolution path`);
+    assert.ok(hold.routingImpact, `${hold.pageId} requires an explicit public-routing impact`);
+  }
   for (const id of resolvedHeldIds) {
     const canonicalId = getArticleAliases()[id];
     assert.equal(program.queue.find((record) => record.id === id), undefined, `${id} must remain outside the canonical media queue`);
