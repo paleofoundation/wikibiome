@@ -13,15 +13,30 @@ Last reconciled: **2026-09-01** (Asia/Nicosia)
 
 - Production release controller: WikiBiome program control tower.
 - Current integration branch: `main`.
-- Current accepted release payload commit: `3eb7810`.
+- Current production release: public Sites version 43 at outer commit
+  `65b3fc33348354af3539b8ce73e66f682d366b90`.
+- Current accepted scientific-media payload commit: `3eb7810`.
 - Current upstream content commit: `66a773667b1f6c06592eca878d5023138c602b39`.
-- Upstream check: eight locally accepted scientific-identity commits are applied
-  after `paleofoundation/wikibiome` `origin/main` `62e006cf0ced1dce706a6438f6461602229a9f26`;
-  they have not been pushed.
+- Upstream check: `paleofoundation/wikibiome` `origin/main` is verified at
+  `66a773667b1f6c06592eca878d5023138c602b39`; the accepted identity series was
+  fast-forwarded without force as part of the explicitly authorized version-43
+  production release.
 - Production dependency audit: 0 known vulnerabilities after updating
   `js-yaml` to `4.3.2`; parser/content/build/type/test gates remain green.
-- No program task may push, deploy, change DNS, initiate payments, or retire
-  rollback resources.
+- No program task may make a further push, deployment, DNS change, payment, or
+  rollback-retirement action without a new bounded release authorization from
+  the user and control-register reconciliation.
+
+## Current production evidence
+
+- Sites version 43 is saved and public from exact source commit `65b3fc3`.
+- The live image sitemap exposes exactly 93 reviewed records.
+- All six batch-016 article routes return `200`; all six registry-defined
+  article-image endpoints return `200 image/webp`.
+- The Sites production error log returned no events for the three-hour release
+  verification window.
+- The retained Vercel deployment remains the rollback target; version 41 is a
+  superseded saved version and must not be deployed.
 
 ## Program status
 
@@ -29,10 +44,10 @@ Last reconciled: **2026-09-01** (Asia/Nicosia)
 | --- | --- | --- | --- |
 | Researcher collaboration | Code accepted; activation gated | Final accepted commit `582c6dc` is integrated. The program adds 9 routes, 24 added/hardened API route files, 5 additive migrations and 25 researcher-network tables; combined production build and 42/42 control tests pass, fresh migrations 0000-0005 apply cleanly, and mutation, discussion-trust, authoritative-ROR, privacy, structured-data, and fail-closed contracts pass. | Apply production D1 migrations, then provision/configure ORCID, Resend, private `MANUSCRIPTS` storage/scanner, moderator IDs, and counsel-approved outreach policy. Keep manuscript uploads and outreach disabled until those gates are evidenced. Saved Sites version 41 contains only `2b6444c` and is superseded; do not deploy it. |
 | Editorial completion | Complete and integrated | Integrated editorial commits `1112917` and `dc9a8a9`, Wikipedia-style inline treatment `0213f60`, identity commits `7e9ce596`, `53b4cb4d`, `3a7b087e`, `0f281e88`, `9ea549e9`, `49ea6476`, `77850845`, and local source packet `66a77366`, plus the outer alias/reconciliation series; 817 records / 710 canonical routes; 696 ready, 121 explicitly documented, 0 review, 0 blocked; 0 invalid years or malformed DOI output. The selected current genus *Cladosporium* now carries the supported historical “Davidiella” observation and two-file revision provenance; unsupported legacy mechanisms and six unrelated source associations were excluded. | Future expansion of evidence-insufficient and source-structure-deferred records must originate from new upstream evidence or source-authored leads. Eleven retired taxon/source-label URLs remain permanent aliases only; current limitations are explicit and release-safe. |
-| Search visibility | Code accepted; external verification gated | Integrated commits `cacc08a`, `26cf417`, `7b57fa8`, and `c9166a3`; 5,352 rendered routes; 3,408/3,408 indexable HTML routes self-canonical; 2,685 ordinary sitemap URLs; 4/4 representative metadata/schema pages; 93/93 reviewed image-sitemap records and canonical image endpoints; 0 broken article/source links. | Deploy only with the fully gated release candidate, then collect authenticated Search Console/Bing sitemap, coverage, URL Inspection, CWV, and image-discovery evidence. Public Google TXT evidence exists; current dashboard access is unproven and Bing evidence is absent. |
+| Search visibility | Production code live; external verification gated | Integrated commits `cacc08a`, `26cf417`, `7b57fa8`, and `c9166a3`; 5,352 rendered routes; 3,408/3,408 indexable HTML routes self-canonical; 2,685 ordinary sitemap URLs; 4/4 representative metadata/schema pages; 93/93 reviewed image-sitemap records and canonical image endpoints; 0 broken article/source links. Version 43 is live and the production image sitemap independently returns all 93 entries. | Collect authenticated Search Console/Bing sitemap, coverage, URL Inspection, CWV, and image-discovery evidence. Public Google TXT evidence exists; current dashboard access is unproven and Bing evidence is absent. |
 | Scientific media | Batches 001-016 integrated; program in progress | Accepted media commit `3eb7810`; the deterministic register covers 710 canonical routes, with 93 reviewed assets and 617 queued routes passing the release gate. Microorganisms are 90/229 reviewed with 139 remaining. Eleven former identity/label holds are resolved; no unresolved scientific holds remain. The existing reviewed Cladosporium asset remains the only asset for NCBITaxon:5498, and retired aliases cannot enter the queue, registry, public files, or image sitemap. Batches 013-016 add twenty-three reviewed current-identity reconstructions, each with a controlled identifier, literal morphology review, lossless master, article/social derivatives, CC BY-SA and algorithmic-media disclosure, embedded XMP/IPTC metadata, and immutable hashes. Higher-rank plates are explicitly representative rather than universal; Eubacteriales alone owns the current NCBITaxon:186802 media while Clostridiales remains an asset-free 308. The ledger preserves eight rejected/revised variants, supersession, provenance, exact draft hashes, and human reconciliation of visible counts rather than treating generation prompts as evidence. | Continue the exact per-asset approval ledger with controlled identifiers, scientific references, accessibility review, lossless master, article/social derivatives, embedded metadata, and visual acceptance. Complete all 710 canonical routes; drafts remain excluded from the public registry and image sitemap. |
 | Cutover closeout | Pre-gate tooling integrated; final audit date-gated | Baseline commits `343fbdc` and `5106b7b`; audit runner/template commits `384259d` and `16b51a9`; 9/9 evaluator tests pass; default execution refuses network access before the gate; Vercel rollback deployment `dpl_5ShUos99yjK3vWMbarbfmxkDQWEH` remains Ready | Run the public plus authenticated evidence audit no earlier than 2026-09-07 00:00 Asia/Nicosia. Retirement still requires separate explicit approval. |
-| Upstream content operations | Active; local corrective commits accepted | 817 pages, 1,932 sources, 6,440 article-reference placements, 350 recovered inline citations, 0 missing source metadata, 0 malformed DOI values; weekly refresh gate is configured. | Preserve local source commits `7e9ce596`, `53b4cb4d`, `3a7b087e`, `0f281e88`, `9ea549e9`, `49ea6476`, `77850845`, and `66a77366` until an authorized upstream push. Continue release-driven review of any upstream diff. Automation may regenerate and test but may not commit or deploy. |
+| Upstream content operations | Active; accepted identity series published | 817 pages, 1,932 sources, 6,440 article-reference placements, 350 recovered inline citations, 0 missing source metadata, 0 malformed DOI values; `paleofoundation/wikibiome` `origin/main` is verified at `66a77366`; weekly refresh gate is configured. | Continue release-driven review of every upstream diff. Automation may regenerate and test but may not commit or deploy. New corrective source packets remain local until separately accepted and authorized. |
 
 ## Account- and authority-gated actions
 
