@@ -19,7 +19,7 @@ platform: both
 condition: endometriosis
 karen_brain_primitives: [1, 2, 4, 8]
 metals_discussed: [iron]
-taxa_discussed: [lactobacillus-crispatus, lactobacillus-iners, gardnerella-vaginalis, trichomonas-vaginalis, candida-albicans, prevotella, dialister, corynebacterium, atopobium, sneathia, actinomyces, parvimonas, peptoniphilus, gemella, anaerococcus, finegoldia, clostridiales, veillonella]
+taxa_discussed: [lactobacillus-crispatus, lactobacillus-iners, gardnerella-vaginalis, trichomonas-vaginalis, candida-albicans, prevotella, dialister, corynebacterium, atopobium, sneathia, actinomyces, parvimonas, peptoniphilus, gemella, anaerococcus, finegoldia, eubacteriales, veillonella]
 key_findings:
   - "Vaginal lactoferrin concentration positively associated with serum hepcidin (P=0.047), serum ferritin (P=0.018), and total body iron stores (P=0.042), linking mucosal innate immunity to systemic iron status"
   - "Lactoferrin was 6.6-fold higher with bacterial vaginosis and 11.5-fold higher with Trichomonas vaginalis infection, confirming iron-sequestration as a mucosal defense mechanism"

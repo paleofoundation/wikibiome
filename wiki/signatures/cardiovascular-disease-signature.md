@@ -52,7 +52,7 @@ taxonomic_signature:
       role: "Major butyrate producer — depleted in ACVD; loss reduces gut barrier integrity and anti-inflammatory IL-10 production"
     - taxon: "[[lachnospiraceae]]"
       role: "SCFA-producing family — reduced capacity for butyrate synthesis in ACVD"
-    - taxon: "[[clostridiales]]"
+    - taxon: "[[eubacteriales|Clostridiales]]"
       role: "Butyrate producers and protective IPA (indole-3-propionic acid) producers — depleted in untreated ACVD"
     - taxon: "[[mycobiome|mucor]]"
       role: "Mycobiome: M. racemosus decreased in CHD; potentially protective fungal taxon"
@@ -155,7 +155,7 @@ Fungal enrichment: [[candida-albicans]] increased in atherosclerosis and heart f
 
 ### Depleted Taxa
 
-[[roseburia]], [[faecalibacterium-prausnitzii]], and [[clostridiales]] -- the core butyrate-producing consortium -- are depleted in ACVD ([[jie-2017-gut-microbiome-acvd]]). Their loss reduces SCFA-mediated cardioprotective effects including blood pressure regulation via Olfr78/GPR41, anti-atherosclerotic HDAC3 inhibition, post-MI M2 macrophage polarization, and gut barrier maintenance preventing LPS translocation ([[lu-2022-scfas-cardiovascular-metabolic-disease]]; [[chambers-2018-scfa-metabolic-cardiovascular-health]]).
+[[roseburia]], [[faecalibacterium-prausnitzii]], and [[eubacteriales|Clostridiales]] -- preserving the taxon label used by the cited ACVD study -- are depleted in ACVD ([[jie-2017-gut-microbiome-acvd]]). Their loss reduces SCFA-mediated cardioprotective effects including blood pressure regulation via Olfr78/GPR41, anti-atherosclerotic HDAC3 inhibition, post-MI M2 macrophage polarization, and gut barrier maintenance preventing LPS translocation ([[lu-2022-scfas-cardiovascular-metabolic-disease]]; [[chambers-2018-scfa-metabolic-cardiovascular-health]]).
 
 Metal-induced depletion of these SCFA producers creates a vicious cycle: barrier disruption permits LPS translocation, driving endotoxemia and vascular inflammation, which further disrupts the gut environment ([[pendergrass-2026-heavy-metals-obesity-epidemic]]).
 

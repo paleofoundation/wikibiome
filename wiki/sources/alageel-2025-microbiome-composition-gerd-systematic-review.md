@@ -18,7 +18,7 @@ platform: wikibiome
 condition: "gastroesophageal-reflux-disease"
 karen_brain_primitives: [1, 5, 6]
 metals_discussed: []
-taxa_discussed: [streptococcus, prevotella, veillonella, leptotrichia, fusobacterium, bifidobacterium, bacteroides, bacteroidota, proteobacteria, faecalibacterium, clostridiales, leptotrichia, actinobacteria]
+taxa_discussed: [streptococcus, prevotella, veillonella, leptotrichia, fusobacterium, bifidobacterium, bacteroides, bacteroidota, proteobacteria, faecalibacterium, eubacteriales, leptotrichia, actinobacteria]
 key_findings:
   - "Decreased Streptococcus and enrichment of Prevotella, Veillonella, and Leptotrichia consistently observed across GERD and Barrett's esophagus in 11 studies (2015–2025)"
   - "Dysbiosis consistently associated with altered arachidonic acid, glutathione, and ABC transporter metabolic pathways; Chen et al. (2024) showed TLR2 expression elevated 2.1-fold and claudin-1 decreased 47% in GERD with Gram-negative dysbiosis"

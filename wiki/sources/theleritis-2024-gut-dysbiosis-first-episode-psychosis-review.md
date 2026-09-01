@@ -19,7 +19,7 @@ platform: both
 condition: "First-episode psychosis / Schizophrenia"
 karen_brain_primitives: [1, 5, 9]
 metals_discussed: []
-taxa_discussed: [lactobacillus, faecalibacterium, lachnospiraceae, ruminococcaceae, coprococcus, haemophilus, streptococcus-vestibularis, bifidobacterium, clostridiales, bacteroidales, lactobacillales, proteobacteria, purpureocillium, aspergillus, prevotella-copri, turicibacter-sanguinis, roseburia, ruminococcus-lactaris]
+taxa_discussed: [lactobacillus, faecalibacterium, lachnospiraceae, ruminococcaceae, coprococcus, haemophilus, streptococcus-vestibularis, bifidobacterium, eubacteriales, bacteroidales, lactobacillales, proteobacteria, purpureocillium, aspergillus, prevotella-copri, turicibacter-sanguinis, roseburia, ruminococcus-lactaris]
 key_findings:
   - "FEP patients show increased Lactobacillus (positively associated with symptom severity), decreased Faecalibacterium, Lachnospiraceae, and Coprococcus; 12 studies reviewed in structured table"
   - "FMT from schizophrenia patients into germ-free mice induces psychomotor hyperactivity, altered tryptophan→kynurenine catabolism, elevated prefrontal dopamine and hippocampal 5-HT; Streptococcus vestibularis transfer specifically induces social behavior deficits"

@@ -1,8 +1,8 @@
 {
-  "_generated": "2026-09-01T13:23:05.346Z",
+  "_generated": "2026-09-01T14:11:26.571Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1922,
+    "sources": 1926,
     "entities": 330,
     "concepts": 264,
     "signatures": 70,
@@ -7965,10 +7965,6 @@
           "score": 11
         },
         {
-          "id": "clostridiales",
-          "score": 10
-        },
-        {
           "id": "lachnospiraceae",
           "score": 10
         },
@@ -7982,6 +7978,10 @@
         },
         {
           "id": "enterobacteriaceae",
+          "score": 8
+        },
+        {
+          "id": "eubacteriales",
           "score": 8
         },
         {
@@ -13443,7 +13443,6 @@
         "blautia",
         "cadmium",
         "chronic-kidney-disease",
-        "clostridiales",
         "clostridium",
         "collinsella",
         "coprococcus",
@@ -13454,6 +13453,7 @@
         "dorea",
         "enterobacteriaceae",
         "erectile-dysfunction",
+        "eubacteriales",
         "eubacterium-rectale",
         "eubacterium",
         "fusobacterium",
@@ -16340,7 +16340,7 @@
         {
           "heading": "Taxonomy",
           "level": 2,
-          "body": "- Class Clostridia, phylum Firmicutes.\n- Major orders: [[clostridiales]] (the dominant gut order), [[oscillospirales]] (in revised schemes), Peptostreptococcales, Tissierellales.\n- Key health-associated families: [[lachnospiraceae]], [[ruminococcaceae]], [[christensenellaceae]], Oscillospiraceae.\n- Key pathogenic families: Clostridiaceae, Peptostreptococcaceae.\n- Taxonomic note: Clostridia has been heavily reclassified in recent years. The original genus *Clostridium* was polyphyletic, containing over 200 species now distributed across multiple families and orders."
+          "body": "- Class Clostridia, phylum Firmicutes.\n- Major orders include [[eubacteriales]] (historically called Clostridiales in many microbiome sources), [[oscillospirales]], Peptostreptococcales, and Tissierellales; exact membership varies across classification systems.\n- Key health-associated families: [[lachnospiraceae]], [[ruminococcaceae]], [[christensenellaceae]], Oscillospiraceae.\n- Key pathogenic families: Clostridiaceae, Peptostreptococcaceae.\n- Taxonomic note: Clostridia has been heavily reclassified in recent years. The original genus *Clostridium* was polyphyletic, containing over 200 species now distributed across multiple families and orders."
         },
         {
           "heading": "Metal Dependencies",
@@ -16395,13 +16395,13 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[clostridiales]] -- the primary order within Clostridia\n- [[lachnospiraceae]] -- the dominant health-associated family\n- [[ruminococcaceae]] -- a second major butyrate-producing family\n- [[serotonin]] -- spore-forming Clostridia stimulate EC cell serotonin production\n- [[butyrate]] -- the key beneficial metabolite\n- [[schizophrenia]] -- Clostridia as causal risk factor via MR\n- [[clostridium-difficile]] -- the pathogenic counterpart within the class\n- [[betaproteobacteria]] -- co-identified as schizophrenia risk taxon\n- [[veillonellaceae]] -- causally protective in the same schizophrenia MR study"
+          "body": "- [[eubacteriales]] -- current correct name for NCBITaxon:186802; Clostridiales is retained as a historical synonym\n- [[lachnospiraceae]] -- the dominant health-associated family\n- [[ruminococcaceae]] -- a second major butyrate-producing family\n- [[serotonin]] -- spore-forming Clostridia stimulate EC cell serotonin production\n- [[butyrate]] -- the key beneficial metabolite\n- [[schizophrenia]] -- Clostridia as causal risk factor via MR\n- [[clostridium-difficile]] -- the pathogenic counterpart within the class\n- [[betaproteobacteria]] -- co-identified as schizophrenia risk taxon\n- [[veillonellaceae]] -- causally protective in the same schizophrenia MR study"
         }
       ],
       "wikilinks": [
         "clostridium-difficile",
         "clostridium-perfringens",
-        "clostridiales",
+        "eubacteriales",
         "oscillospirales",
         "lachnospiraceae",
         "ruminococcaceae",
@@ -16422,7 +16422,7 @@
       "isStub": false,
       "backlinks": [
         "betaproteobacteria",
-        "clostridiales",
+        "eubacteriales",
         "turicibacter",
         "veillonellaceae",
         "schizophrenia-signature",
@@ -16460,208 +16460,6 @@
         {
           "id": "prevotella",
           "score": 9
-        }
-      ]
-    },
-    {
-      "id": "clostridiales",
-      "title": "Clostridiales",
-      "type": "entity",
-      "category": "microbe",
-      "tags": [
-        "firmicutes",
-        "clostridia",
-        "SCFA-producer",
-        "butyrate",
-        "order-level",
-        "GERD-protective",
-        "schizophrenia-risk",
-        "cardiovascular-depleted",
-        "Treg-induction"
-      ],
-      "sources": [
-        "jie-2017-gut-microbiome-acvd",
-        "candon-2015-antibiotics-early-life-gut-microbiome-autoimmune-diabetes-nod",
-        "ma-2024-gut-microbiota-inflammatory-factors-crc-mr",
-        "honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity",
-        "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
-        "zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization",
-        "jiang-2021-gut-dysbiosis-treg-th17-graves",
-        "zhao-2021-colorectal-cancer-microbiome-patterns-signatures"
-      ],
-      "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Clostridiales",
-        "type": "entity",
-        "subtype": "microbe",
-        "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
-        "sources": [
-          "jie-2017-gut-microbiome-acvd",
-          "candon-2015-antibiotics-early-life-gut-microbiome-autoimmune-diabetes-nod",
-          "ma-2024-gut-microbiota-inflammatory-factors-crc-mr",
-          "honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity",
-          "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
-          "zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization",
-          "jiang-2021-gut-dysbiosis-treg-th17-graves",
-          "zhao-2021-colorectal-cancer-microbiome-patterns-signatures"
-        ],
-        "source_count": 8,
-        "metal_dependencies": [
-          "iron",
-          "selenium",
-          "cobalt"
-        ],
-        "key_enzymes": [
-          "butyryl-CoA transferase",
-          "ferredoxin oxidoreductases",
-          "bile acid 7-alpha-dehydroxylase"
-        ],
-        "tags": [
-          "firmicutes",
-          "clostridia",
-          "SCFA-producer",
-          "butyrate",
-          "order-level",
-          "GERD-protective",
-          "schizophrenia-risk",
-          "cardiovascular-depleted",
-          "Treg-induction"
-        ],
-        "platform": "wikibiome",
-        "seo_target": "Clostridiales butyrate producing gut bacteria immune regulation microbiome",
-        "wikipedia_differentiation": "Mendelian randomization data showing Clostridiales as both a GERD-protective taxon (Vadin BB60 group, OR 0.95) and a schizophrenia risk factor at the class level (Clostridia OR 1.16); functional diversity spanning health-essential butyrate producers, Treg-inducing immunomodulators, and opportunistic pathogens within the same taxonomic order; ecological engineering framework requiring targeted modulation rather than blanket suppression or enrichment",
-        "conditions_enriched_in": [],
-        "conditions_depleted_in": [
-          "cardiovascular-disease",
-          "crohns-disease",
-          "multiple-sclerosis"
-        ],
-        "pathogenic_potential": "commensal",
-        "gram_stain": "positive",
-        "oxygen_requirement": "obligate anaerobe"
-      },
-      "overview": "An order of Gram-positive, obligate anaerobic bacteria within the class [[clostridia]] (phylum Firmicutes) that represents the single most functionally important taxonomic group in the human gut. Clostridiales encompasses the major butyrate-producing families ([[lachnospiraceae]], [[ruminococcaceae]]) alongside opportunistic pathogens ([[clostridium-difficile]]), making it both the backbone of gut health and a source of disease-associated taxa. This functional diversity means that order-level changes in Clostridiales abundance -- enrichment or depletion -- must always be interpreted with care: the same order contains taxa that heal and taxa that harm.",
-      "sections": [
-        {
-          "heading": "Taxonomy",
-          "level": 2,
-          "body": "- Order Clostridiales, class Clostridia, phylum Firmicutes.\n- Major health-associated families: [[lachnospiraceae]] (Clostridium cluster XIVa), [[ruminococcaceae]] (Clostridium cluster IV), Eubacteriaceae.\n- Pathogenic/opportunistic members: Clostridiaceae ([[clostridium-difficile]], [[clostridium-perfringens]]), Peptostreptococcaceae ([[peptostreptococcus-anaerobius]], [[intestinibacter]]).\n- Taxonomic note: \"Clostridiales\" is a polyphyletic order in ongoing reclassification. Many former Clostridiales families have been reassigned to new orders (e.g., [[oscillospirales]], Lachnospirales, Peptostreptococcales) in updated schemes."
-        },
-        {
-          "heading": "Metal Dependencies",
-          "level": 2,
-          "body": "Iron:\n- Ferredoxin-dependent oxidoreductases are central to Clostridiales anaerobic metabolism. Iron-sulfur clusters in ferredoxins enable electron transfer for butyrate synthesis and amino acid fermentation.\n- Clostridiales generally lack aggressive iron acquisition systems (siderophores), relying on ferrous iron uptake. This makes them vulnerable to competitive exclusion by siderophore-producing Enterobacteriaceae in iron-replete inflammatory environments.\n\nSelenium:\n- Selenocysteine-containing formate dehydrogenases and glycine reductases are widespread in Clostridiales, linking host selenium status to the metabolic activity of butyrate-producing bacteria.\n\nCobalt:\n- Corrinoid (vitamin B12)-dependent enzymes support one-carbon metabolism and methyl transfer reactions across Clostridiales. Some species are de novo B12 synthesizers, contributing to host vitamin supply."
-        },
-        {
-          "heading": "Ecological Role",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "In the Healthy Gut",
-          "level": 3,
-          "body": "Clostridiales are dominant in the healthy colon, typically comprising 40-60% of the total bacterial community. Their key functions:\n- Butyrate production: Lachnospiraceae and Ruminococcaceae produce the majority of colonic butyrate, the primary energy source for colonocytes\n- Regulatory T-cell induction: Clostridium clusters IV and XIVa (now Oscillospirales and Lachnospirales) are the most potent microbial inducers of colonic Tregs, maintaining immune tolerance\n- Secondary bile acid metabolism: Clostridiales perform 7-alpha-dehydroxylation converting primary to secondary bile acids\n- Colonization resistance: Dense Clostridiales populations occupy ecological niches that would otherwise be available to pathogens"
-        },
-        {
-          "heading": "In Dysbiosis",
-          "level": 3,
-          "body": "Depletion of health-associated Clostridiales is among the most consistent dysbiosis signatures across diseases: [[cardiovascular-disease]], [[crohns-disease]], [[multiple-sclerosis]], and other inflammatory conditions all show reduced butyrate-producing Clostridiales. The loss creates a vicious cycle: reduced butyrate → weakened barrier → inflammation → further Clostridiales depletion."
-        },
-        {
-          "heading": "Conditions Associated",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "GERD (Protective)",
-          "level": 3,
-          "body": "The Clostridiales Vadin BB60 group is causally protective against GERD (OR = 0.95, 95% CI 0.91-0.99, p = 0.027) [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]]. This subgroup's SCFA production likely strengthens esophageal and gastric mucosal defense."
-        },
-        {
-          "heading": "Cardiovascular Disease (Depleted)",
-          "level": 3,
-          "body": "ACVD patients show depleted butyrate-producing Clostridiales including [[roseburia]] and [[faecalibacterium-prausnitzii|faecalibacterium]], contributing to barrier dysfunction, endotoxemia, and vascular inflammation."
-        },
-        {
-          "heading": "Crohn's Disease (Depleted)",
-          "level": 3,
-          "body": "Clostridium clusters IV and XIVa are consistently depleted in CD, representing the loss of key butyrate producers and Treg inducers."
-        },
-        {
-          "heading": "Key Studies",
-          "level": 2,
-          "body": "- [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]] (Mendelian randomization, n=148,984) -- Class-level Clostridia identified as a causal schizophrenia risk factor (OR 1.16), highlighting the need for sub-order resolution.\n- [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]] (Mendelian randomization) -- Clostridiales Vadin BB60 group causally protective against GERD."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[clostridia]] -- the parent class\n- [[lachnospiraceae]] -- the primary health-associated family within Clostridiales\n- [[ruminococcaceae]] -- a second major butyrate-producing family\n- [[butyrate]] -- the key metabolite produced by health-associated Clostridiales\n- [[roseburia]] -- a major butyrate producer depleted in CVD\n- [[faecalibacterium-prausnitzii|faecalibacterium]] -- F. prausnitzii, the most studied anti-inflammatory Clostridiales member\n- [[clostridium-difficile]] -- the pathogenic member underscoring Clostridiales functional diversity\n- [[gerd]] -- Clostridiales Vadin BB60 group is causally protective"
-        }
-      ],
-      "wikilinks": [
-        "clostridia",
-        "lachnospiraceae",
-        "ruminococcaceae",
-        "clostridium-difficile",
-        "clostridium-perfringens",
-        "peptostreptococcus-anaerobius",
-        "intestinibacter",
-        "oscillospirales",
-        "cardiovascular-disease",
-        "crohns-disease",
-        "multiple-sclerosis",
-        "wang-2024-causal-gut-microbiota-gerd-bidirectional-mr",
-        "roseburia",
-        "faecalibacterium-prausnitzii",
-        "zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization",
-        "butyrate",
-        "gerd"
-      ],
-      "sourceDir": "entities",
-      "sourceCount": 8,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "clostridia",
-        "cardiovascular-disease-signature",
-        "broken-links-2026-04-16"
-      ],
-      "related": [
-        {
-          "id": "veillonellaceae",
-          "score": 12
-        },
-        {
-          "id": "lachnospira",
-          "score": 11
-        },
-        {
-          "id": "betaproteobacteria",
-          "score": 10
-        },
-        {
-          "id": "megasphaera",
-          "score": 9
-        },
-        {
-          "id": "schizophrenia",
-          "score": 9
-        },
-        {
-          "id": "enterobacteriaceae",
-          "score": 8
-        },
-        {
-          "id": "streptococcus",
-          "score": 8
-        },
-        {
-          "id": "subdoligranulum",
-          "score": 8
         }
       ]
     },
@@ -17052,7 +16850,7 @@
       "isStub": false,
       "backlinks": [
         "clostridia",
-        "clostridiales",
+        "eubacteriales",
         "probiotics-asd-dysbiosis"
       ],
       "related": [
@@ -17073,10 +16871,6 @@
           "score": 5
         },
         {
-          "id": "oscillospirales",
-          "score": 5
-        },
-        {
           "id": "roseburia",
           "score": 5
         },
@@ -17086,6 +16880,10 @@
         },
         {
           "id": "corynebacterium",
+          "score": 4
+        },
+        {
+          "id": "sphingobium",
           "score": 4
         }
       ]
@@ -17243,7 +17041,7 @@
       "isStub": false,
       "backlinks": [
         "clostridia",
-        "clostridiales",
+        "eubacteriales",
         "necrotizing-enterocolitis",
         "broken-links-2026-04-16"
       ],
@@ -20214,10 +20012,10 @@
         "bacteroides-fragilis",
         "candida-tropicalis",
         "christensenellaceae",
-        "clostridiales",
         "clostridium",
         "colorectal-cancer",
         "debaryomyces",
+        "eubacteriales",
         "eubacterium",
         "firmicutes",
         "hidradenitis-suppurativa",
@@ -25898,6 +25696,226 @@
       ]
     },
     {
+      "id": "eubacteriales",
+      "title": "Eubacteriales",
+      "type": "entity",
+      "category": "microbe",
+      "tags": [
+        "firmicutes",
+        "clostridia",
+        "eubacteriales",
+        "clostridiales-historical-name",
+        "SCFA-producer",
+        "butyrate",
+        "order-level",
+        "GERD-protective",
+        "schizophrenia-risk",
+        "cardiovascular-depleted",
+        "Treg-induction"
+      ],
+      "sources": [
+        "ncbi-taxonomy-eubacteriales",
+        "lpsn-eubacteriales",
+        "buchanan-1917-families-eubacteriales",
+        "skerman-1980-approved-lists-bacterial-names",
+        "jie-2017-gut-microbiome-acvd",
+        "candon-2015-antibiotics-early-life-gut-microbiome-autoimmune-diabetes-nod",
+        "ma-2024-gut-microbiota-inflammatory-factors-crc-mr",
+        "honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity",
+        "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
+        "zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization",
+        "jiang-2021-gut-dysbiosis-treg-th17-graves",
+        "zhao-2021-colorectal-cancer-microbiome-patterns-signatures"
+      ],
+      "created": "2026-04-17T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Eubacteriales",
+        "type": "entity",
+        "subtype": "microbe",
+        "created": "2026-04-17T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
+        "last_substantive_update": "2026-09-01T00:00:00.000Z",
+        "sources": [
+          "ncbi-taxonomy-eubacteriales",
+          "lpsn-eubacteriales",
+          "buchanan-1917-families-eubacteriales",
+          "skerman-1980-approved-lists-bacterial-names",
+          "jie-2017-gut-microbiome-acvd",
+          "candon-2015-antibiotics-early-life-gut-microbiome-autoimmune-diabetes-nod",
+          "ma-2024-gut-microbiota-inflammatory-factors-crc-mr",
+          "honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity",
+          "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
+          "zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization",
+          "jiang-2021-gut-dysbiosis-treg-th17-graves",
+          "zhao-2021-colorectal-cancer-microbiome-patterns-signatures"
+        ],
+        "source_count": 12,
+        "metal_dependencies": [
+          "iron",
+          "selenium",
+          "cobalt"
+        ],
+        "key_enzymes": [
+          "butyryl-CoA transferase",
+          "ferredoxin oxidoreductases",
+          "bile acid 7-alpha-dehydroxylase"
+        ],
+        "tags": [
+          "firmicutes",
+          "clostridia",
+          "eubacteriales",
+          "clostridiales-historical-name",
+          "SCFA-producer",
+          "butyrate",
+          "order-level",
+          "GERD-protective",
+          "schizophrenia-risk",
+          "cardiovascular-depleted",
+          "Treg-induction"
+        ],
+        "platform": "wikibiome",
+        "seo_target": "Eubacteriales taxonomy NCBITaxon 186802 Clostridiales historical synonym gut microbiome",
+        "wikipedia_differentiation": "Current Eubacteriales identity reconciled with the Clostridiales heterotypic synonym and historical microbiome literature, without transferring source-era order assignments into modern taxonomy",
+        "conditions_enriched_in": [],
+        "conditions_depleted_in": [
+          "cardiovascular-disease",
+          "crohns-disease",
+          "multiple-sclerosis"
+        ],
+        "pathogenic_potential": "commensal",
+        "gram_stain": "positive",
+        "oxygen_requirement": "obligate anaerobe",
+        "ncbi_taxonomy_id": 186802,
+        "historical_names": [
+          "Clostridiales"
+        ]
+      },
+      "overview": "*Eubacteriales* Buchanan 1917 (Approved Lists 1980) is the current correct name for NCBITaxon:186802. LPSN records *Clostridiales* Prévot 1953 (Approved Lists 1980) as a validly published heterotypic synonym, not a separate current order [[ncbi-taxonomy-eubacteriales]] [[lpsn-eubacteriales]] [[buchanan-1917-families-eubacteriales]] [[skerman-1980-approved-lists-bacterial-names]].\n\nThe microbiome studies summarized below commonly used “Clostridiales,” database-era family assignments, or named groups such as “Clostridiales Vadin BB60.” WikiBiome preserves those source labels. Canonicalizing the order name does not establish that every historical assignment maps unchanged onto current *Eubacteriales*, and it does not silently relabel a study's measured taxon.",
+      "sections": [
+        {
+          "heading": "Taxonomy",
+          "level": 2,
+          "body": "- Order *Eubacteriales*, class [[clostridia]], phylum Bacillota (historically Firmicutes); NCBITaxon:186802.\n- Major health-associated families: [[lachnospiraceae]] (Clostridium cluster XIVa), [[ruminococcaceae]] (Clostridium cluster IV), Eubacteriaceae.\n- Pathogenic/opportunistic members: Clostridiaceae ([[clostridium-difficile]], [[clostridium-perfringens]]), Peptostreptococcaceae ([[peptostreptococcus-anaerobius]], [[intestinibacter]]).\n- Taxonomic note: “Clostridiales” remains common in historical and source-database classifications. Many taxa once placed under that label have been reassigned to other orders, so source-era order-level findings require their original database and taxonomic resolution."
+        },
+        {
+          "heading": "Metal Dependencies",
+          "level": 2,
+          "body": "Iron:\n- Ferredoxin-dependent oxidoreductases are central to anaerobic metabolism among many organisms historically grouped as Clostridiales. Iron-sulfur clusters in ferredoxins enable electron transfer for butyrate synthesis and amino acid fermentation.\n- Many organisms in those source-era groupings lack aggressive iron acquisition systems (siderophores), relying on ferrous iron uptake. This can make them vulnerable to competitive exclusion by siderophore-producing Enterobacteriaceae in iron-replete inflammatory environments.\n\nSelenium:\n- Selenocysteine-containing formate dehydrogenases and glycine reductases occur across organisms historically grouped as Clostridiales, linking host selenium status to the metabolic activity of some butyrate-producing bacteria.\n\nCobalt:\n- Corrinoid (vitamin B12)-dependent enzymes support one-carbon metabolism and methyl transfer reactions across many organisms historically grouped as Clostridiales. Some species are de novo B12 synthesizers."
+        },
+        {
+          "heading": "Ecological Role",
+          "level": 2,
+          "body": ""
+        },
+        {
+          "heading": "In the Healthy Gut",
+          "level": 3,
+          "body": "Studies using the historical Clostridiales label describe these organisms as prominent members of the healthy colon. Reported functions include:\n- Butyrate production: Lachnospiraceae and Ruminococcaceae produce the majority of colonic butyrate, the primary energy source for colonocytes\n- Regulatory T-cell induction: Clostridium clusters IV and XIVa (now Oscillospirales and Lachnospirales) are the most potent microbial inducers of colonic Tregs, maintaining immune tolerance\n- Secondary bile acid metabolism: Clostridiales perform 7-alpha-dehydroxylation converting primary to secondary bile acids\n- Colonization resistance: Dense populations of source-defined Clostridiales occupy ecological niches that would otherwise be available to pathogens"
+        },
+        {
+          "heading": "In Dysbiosis",
+          "level": 3,
+          "body": "Depletion of health-associated taxa reported under the Clostridiales label recurs across [[cardiovascular-disease]], [[crohns-disease]], [[multiple-sclerosis]], and other inflammatory conditions. These observations concern source-defined taxa and do not support a uniform effect across every current member of *Eubacteriales*."
+        },
+        {
+          "heading": "Conditions Associated",
+          "level": 2,
+          "body": ""
+        },
+        {
+          "heading": "GERD (Protective)",
+          "level": 3,
+          "body": "The Clostridiales Vadin BB60 group is causally protective against GERD (OR = 0.95, 95% CI 0.91-0.99, p = 0.027) [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]]. This subgroup's SCFA production likely strengthens esophageal and gastric mucosal defense."
+        },
+        {
+          "heading": "Cardiovascular Disease (Depleted)",
+          "level": 3,
+          "body": "ACVD patients show depleted butyrate-producing Clostridiales including [[roseburia]] and [[faecalibacterium-prausnitzii|faecalibacterium]], contributing to barrier dysfunction, endotoxemia, and vascular inflammation."
+        },
+        {
+          "heading": "Crohn's Disease (Depleted)",
+          "level": 3,
+          "body": "Clostridium clusters IV and XIVa are consistently depleted in CD, representing the loss of key butyrate producers and Treg inducers."
+        },
+        {
+          "heading": "Key Studies",
+          "level": 2,
+          "body": "- [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]] (Mendelian randomization, n=148,984) -- Class-level Clostridia identified as a causal schizophrenia risk factor (OR 1.16), highlighting the need for sub-order resolution.\n- [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]] (Mendelian randomization) -- Clostridiales Vadin BB60 group causally protective against GERD."
+        },
+        {
+          "heading": "Cross-References",
+          "level": 2,
+          "body": "- [[clostridia]] -- the parent class\n- [[lachnospiraceae]] -- a health-associated family included in historical Clostridiales classifications\n- [[ruminococcaceae]] -- a second major butyrate-producing family\n- [[butyrate]] -- a key metabolite produced by multiple source-defined Clostridiales taxa\n- [[roseburia]] -- a major butyrate producer depleted in CVD\n- [[faecalibacterium-prausnitzii|faecalibacterium]] -- a studied anti-inflammatory organism included in historical Clostridiales classifications\n- [[clostridium-difficile]] -- an organism whose historical placement illustrates the breadth and later revision of Clostridiales classifications\n- [[gerd]] -- Clostridiales Vadin BB60 group is causally protective"
+        }
+      ],
+      "wikilinks": [
+        "ncbi-taxonomy-eubacteriales",
+        "lpsn-eubacteriales",
+        "buchanan-1917-families-eubacteriales",
+        "skerman-1980-approved-lists-bacterial-names",
+        "clostridia",
+        "lachnospiraceae",
+        "ruminococcaceae",
+        "clostridium-difficile",
+        "clostridium-perfringens",
+        "peptostreptococcus-anaerobius",
+        "intestinibacter",
+        "cardiovascular-disease",
+        "crohns-disease",
+        "multiple-sclerosis",
+        "wang-2024-causal-gut-microbiota-gerd-bidirectional-mr",
+        "roseburia",
+        "faecalibacterium-prausnitzii",
+        "zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization",
+        "butyrate",
+        "gerd"
+      ],
+      "sourceDir": "entities",
+      "sourceCount": 12,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "clostridia",
+        "cardiovascular-disease-signature"
+      ],
+      "related": [
+        {
+          "id": "veillonellaceae",
+          "score": 10
+        },
+        {
+          "id": "lachnospira",
+          "score": 9
+        },
+        {
+          "id": "oscillospirales",
+          "score": 9
+        },
+        {
+          "id": "betaproteobacteria",
+          "score": 8
+        },
+        {
+          "id": "megasphaera",
+          "score": 7
+        },
+        {
+          "id": "schizophrenia",
+          "score": 7
+        },
+        {
+          "id": "enterobacteriaceae",
+          "score": 6
+        },
+        {
+          "id": "lachnobacterium",
+          "score": 6
+        }
+      ]
+    },
+    {
       "id": "eubacterium-eligens",
       "title": "Eubacterium eligens",
       "type": "entity",
@@ -26614,7 +26632,6 @@
         "cerebral-palsy",
         "christensenellaceae",
         "chronic-fatigue-syndrome",
-        "clostridiales",
         "clostridioides-difficile",
         "clostridium-butyricum",
         "clostridium-symbiosum",
@@ -26626,6 +26643,7 @@
         "dialister",
         "eggerthella-lenta",
         "enterobacteriaceae",
+        "eubacteriales",
         "eubacterium-eligens",
         "eubacterium-rectale",
         "eubacterium",
@@ -30885,7 +30903,7 @@
         "alternaria",
         "barretts-esophagus",
         "calcium",
-        "clostridiales",
+        "eubacteriales",
         "gastric-adenocarcinoma",
         "gastric-ulcer",
         "haemophilus",
@@ -31412,11 +31430,11 @@
           "score": 4
         },
         {
-          "id": "clostridiales",
+          "id": "eggerthella",
           "score": 4
         },
         {
-          "id": "eggerthella",
+          "id": "eubacteriales",
           "score": 4
         },
         {
@@ -34569,7 +34587,7 @@
       "belowThreshold": true,
       "isStub": false,
       "backlinks": [
-        "clostridiales",
+        "eubacteriales",
         "intestinimonas",
         "mendelian-randomization"
       ],
@@ -34785,10 +34803,6 @@
           "score": 7
         },
         {
-          "id": "clostridiales",
-          "score": 7
-        },
-        {
           "id": "coprococcus",
           "score": 7
         },
@@ -34802,6 +34816,10 @@
         },
         {
           "id": "fusicatenibacter",
+          "score": 7
+        },
+        {
+          "id": "oscillospirales",
           "score": 7
         }
       ]
@@ -36459,7 +36477,7 @@
           "score": 6
         },
         {
-          "id": "clostridiales",
+          "id": "eubacteriales",
           "score": 6
         },
         {
@@ -36852,10 +36870,6 @@
           "score": 11
         },
         {
-          "id": "clostridiales",
-          "score": 11
-        },
-        {
           "id": "clostridium",
           "score": 11
         },
@@ -36866,6 +36880,10 @@
         {
           "id": "subdoligranulum",
           "score": 11
+        },
+        {
+          "id": "alistipes",
+          "score": 10
         }
       ]
     },
@@ -37183,12 +37201,12 @@
         "celiac-disease",
         "chronic-kidney-disease",
         "clostridia",
-        "clostridiales",
         "clostridium",
         "coprococcus",
         "dorea",
         "enterobacteriaceae",
         "erectile-dysfunction",
+        "eubacteriales",
         "eubacterium-eligens",
         "eubacterium",
         "fibromyalgia",
@@ -44450,12 +44468,12 @@
         "blautia",
         "butyricicoccus",
         "butyricimonas",
-        "clostridiales",
         "clostridium",
         "coprococcus",
         "depression",
         "dorea",
         "eggerthella",
+        "eubacteriales",
         "flavonifractor",
         "gordonibacter",
         "haemophilus",
@@ -48180,17 +48198,16 @@
       "isStub": false,
       "backlinks": [
         "clostridia",
-        "clostridiales",
         "breast-cancer-signature"
       ],
       "related": [
         {
           "id": "clostridia",
-          "score": 14
+          "score": 12
         },
         {
           "id": "ruminococcaceae",
-          "score": 14
+          "score": 12
         },
         {
           "id": "eubacterium-eligens",
@@ -48205,7 +48222,7 @@
           "score": 9
         },
         {
-          "id": "clostridiales",
+          "id": "eubacteriales",
           "score": 9
         },
         {
@@ -51273,7 +51290,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "clostridiales",
+        "eubacteriales",
         "streptococcus-gallolyticus",
         "colorectal-cancer-signature"
       ],
@@ -56927,12 +56944,12 @@
         "cerebral-palsy",
         "chronic-fatigue-syndrome",
         "chronic-kidney-disease",
-        "clostridiales",
         "coronary-artery-disease",
         "desulfovibrio",
         "dopamine",
         "dorea",
         "enterobacteriaceae",
+        "eubacteriales",
         "eubacterium-rectale",
         "eubacterium",
         "firmicutes",
@@ -57364,7 +57381,7 @@
       "isStub": false,
       "backlinks": [
         "clostridia",
-        "clostridiales",
+        "eubacteriales",
         "ruminococcus-bromii",
         "vancomycin",
         "erectile-dysfunction",
@@ -57372,15 +57389,15 @@
       ],
       "related": [
         {
-          "id": "oscillospirales",
-          "score": 14
-        },
-        {
           "id": "prevotella",
           "score": 14
         },
         {
           "id": "eubacterium-eligens",
+          "score": 12
+        },
+        {
+          "id": "oscillospirales",
           "score": 12
         },
         {
@@ -64667,10 +64684,6 @@
           "score": 8
         },
         {
-          "id": "clostridiales",
-          "score": 8
-        },
-        {
           "id": "phascolarctobacterium",
           "score": 8
         },
@@ -64689,6 +64702,10 @@
         {
           "id": "ruminococcaceae",
           "score": 7
+        },
+        {
+          "id": "alternaria",
+          "score": 6
         }
       ]
     },
@@ -68290,8 +68307,8 @@
       ],
       "related": [
         {
-          "id": "clostridiales",
-          "score": 12
+          "id": "eubacteriales",
+          "score": 10
         },
         {
           "id": "christensenellaceae",
@@ -74905,11 +74922,11 @@
         "celiac-disease",
         "chronic-fatigue-syndrome",
         "clostridia",
-        "clostridiales",
         "clostridium-butyricum",
         "coronary-artery-disease",
         "desulfovibrionales",
         "dopamine",
+        "eubacteriales",
         "eubacterium-eligens",
         "eubacterium-rectale",
         "faecalibacterium",
@@ -109944,7 +109961,7 @@
       "isStub": false,
       "backlinks": [
         "clostridia",
-        "clostridiales",
+        "eubacteriales",
         "ruminococcus-bromii",
         "vancomycin",
         "erectile-dysfunction",
@@ -113550,7 +113567,7 @@
           "score": 6
         },
         {
-          "id": "clostridiales",
+          "id": "eubacteriales",
           "score": 5
         },
         {
@@ -118800,7 +118817,6 @@
         "blautia",
         "cadmium",
         "chronic-kidney-disease",
-        "clostridiales",
         "clostridium",
         "collinsella",
         "coprococcus",
@@ -118811,6 +118827,7 @@
         "dorea",
         "enterobacteriaceae",
         "erectile-dysfunction",
+        "eubacteriales",
         "eubacterium-rectale",
         "eubacterium",
         "fusobacterium",
@@ -120913,10 +120930,10 @@
         "bacteroides-fragilis",
         "candida-tropicalis",
         "christensenellaceae",
-        "clostridiales",
         "clostridium",
         "colorectal-cancer",
         "debaryomyces",
+        "eubacteriales",
         "eubacterium",
         "firmicutes",
         "hidradenitis-suppurativa",
@@ -123440,7 +123457,7 @@
         "alternaria",
         "barretts-esophagus",
         "calcium",
-        "clostridiales",
+        "eubacteriales",
         "gastric-adenocarcinoma",
         "gastric-ulcer",
         "haemophilus",
@@ -125420,12 +125437,12 @@
         "blautia",
         "butyricicoccus",
         "butyricimonas",
-        "clostridiales",
         "clostridium",
         "coprococcus",
         "depression",
         "dorea",
         "eggerthella",
+        "eubacteriales",
         "flavonifractor",
         "gordonibacter",
         "haemophilus",
@@ -133350,7 +133367,7 @@
               "role": "SCFA-producing family — reduced capacity for butyrate synthesis in ACVD"
             },
             {
-              "taxon": "[[clostridiales]]",
+              "taxon": "[[eubacteriales|Clostridiales]]",
               "role": "Butyrate producers and protective IPA (indole-3-propionic acid) producers — depleted in untreated ACVD"
             },
             {
@@ -133512,7 +133529,7 @@
         {
           "heading": "Depleted Taxa",
           "level": 3,
-          "body": "[[roseburia]], [[faecalibacterium-prausnitzii]], and [[clostridiales]] -- the core butyrate-producing consortium -- are depleted in ACVD ([[jie-2017-gut-microbiome-acvd]]). Their loss reduces SCFA-mediated cardioprotective effects including blood pressure regulation via Olfr78/GPR41, anti-atherosclerotic HDAC3 inhibition, post-MI M2 macrophage polarization, and gut barrier maintenance preventing LPS translocation ([[lu-2022-scfas-cardiovascular-metabolic-disease]]; [[chambers-2018-scfa-metabolic-cardiovascular-health]]).\n\nMetal-induced depletion of these SCFA producers creates a vicious cycle: barrier disruption permits LPS translocation, driving endotoxemia and vascular inflammation, which further disrupts the gut environment ([[pendergrass-2026-heavy-metals-obesity-epidemic]])."
+          "body": "[[roseburia]], [[faecalibacterium-prausnitzii]], and [[eubacteriales|Clostridiales]] -- preserving the taxon label used by the cited ACVD study -- are depleted in ACVD ([[jie-2017-gut-microbiome-acvd]]). Their loss reduces SCFA-mediated cardioprotective effects including blood pressure regulation via Olfr78/GPR41, anti-atherosclerotic HDAC3 inhibition, post-MI M2 macrophage polarization, and gut barrier maintenance preventing LPS translocation ([[lu-2022-scfas-cardiovascular-metabolic-disease]]; [[chambers-2018-scfa-metabolic-cardiovascular-health]]).\n\nMetal-induced depletion of these SCFA producers creates a vicious cycle: barrier disruption permits LPS translocation, driving endotoxemia and vascular inflammation, which further disrupts the gut environment ([[pendergrass-2026-heavy-metals-obesity-epidemic]])."
         },
         {
           "heading": "Virulence Enzymes and Features",
@@ -133571,7 +133588,7 @@
         "roseburia",
         "faecalibacterium-prausnitzii",
         "lachnospiraceae",
-        "clostridiales",
+        "eubacteriales",
         "mycobiome",
         "type-2-diabetes",
         "obesity",
@@ -181318,12 +181335,6 @@
         "sourceCount": 8
       },
       {
-        "id": "clostridiales",
-        "label": "Clostridiales",
-        "category": "microbe",
-        "sourceCount": 8
-      },
-      {
         "id": "clostridioides-difficile",
         "label": "Clostridioides difficile",
         "category": "microbe",
@@ -181574,6 +181585,12 @@
         "label": "Escherichia",
         "category": "microbe",
         "sourceCount": 8
+      },
+      {
+        "id": "eubacteriales",
+        "label": "Eubacteriales",
+        "category": "microbe",
+        "sourceCount": 12
       },
       {
         "id": "eubacterium-eligens",
@@ -189385,7 +189402,7 @@
       },
       {
         "source": "clostridia",
-        "target": "clostridiales"
+        "target": "eubacteriales"
       },
       {
         "source": "clostridia",
@@ -189422,62 +189439,6 @@
       {
         "source": "clostridia",
         "target": "veillonellaceae"
-      },
-      {
-        "source": "clostridiales",
-        "target": "lachnospiraceae"
-      },
-      {
-        "source": "clostridiales",
-        "target": "ruminococcaceae"
-      },
-      {
-        "source": "clostridiales",
-        "target": "clostridium-difficile"
-      },
-      {
-        "source": "clostridiales",
-        "target": "clostridium-perfringens"
-      },
-      {
-        "source": "clostridiales",
-        "target": "peptostreptococcus-anaerobius"
-      },
-      {
-        "source": "clostridiales",
-        "target": "intestinibacter"
-      },
-      {
-        "source": "clostridiales",
-        "target": "oscillospirales"
-      },
-      {
-        "source": "clostridiales",
-        "target": "cardiovascular-disease"
-      },
-      {
-        "source": "clostridiales",
-        "target": "crohns-disease"
-      },
-      {
-        "source": "clostridiales",
-        "target": "multiple-sclerosis"
-      },
-      {
-        "source": "clostridiales",
-        "target": "roseburia"
-      },
-      {
-        "source": "clostridiales",
-        "target": "faecalibacterium-prausnitzii"
-      },
-      {
-        "source": "clostridiales",
-        "target": "butyrate"
-      },
-      {
-        "source": "clostridiales",
-        "target": "gerd"
       },
       {
         "source": "clostridioides-difficile",
@@ -191370,6 +191331,58 @@
       {
         "source": "escherichia",
         "target": "nickel"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "lachnospiraceae"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "ruminococcaceae"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "clostridium-difficile"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "clostridium-perfringens"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "peptostreptococcus-anaerobius"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "intestinibacter"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "cardiovascular-disease"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "crohns-disease"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "multiple-sclerosis"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "roseburia"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "faecalibacterium-prausnitzii"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "butyrate"
+      },
+      {
+        "source": "eubacteriales",
+        "target": "gerd"
       },
       {
         "source": "eubacterium-eligens",
@@ -211341,7 +211354,7 @@
       },
       {
         "source": "cardiovascular-disease-signature",
-        "target": "clostridiales"
+        "target": "eubacteriales"
       },
       {
         "source": "cardiovascular-disease-signature",
@@ -216709,10 +216722,6 @@
       },
       {
         "source": "broken-links-2026-04-16",
-        "target": "clostridiales"
-      },
-      {
-        "source": "broken-links-2026-04-16",
         "target": "corynebacterium"
       },
       {
@@ -221849,7 +221858,7 @@
             "role": "SCFA-producing family — reduced capacity for butyrate synthesis in ACVD"
           },
           {
-            "taxon": "[[clostridiales]]",
+            "taxon": "[[eubacteriales|Clostridiales]]",
             "role": "Butyrate producers and protective IPA (indole-3-propionic acid) producers — depleted in untreated ACVD"
           },
           {
@@ -410028,6 +410037,18 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "buchanan-1917-families-eubacteriales": {
+      "title": "Buchanan 1917 — The families of the Eubacteriales",
+      "authors": [
+        "Robert Earle Buchanan"
+      ],
+      "year": 1917,
+      "journal": "Journal of Bacteriology",
+      "doi": "10.1128/jb.2.4.347-350.1917",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "bushman-2025-nutrient-metals-bacteria-gut-infection": {
       "title": "Bushman 2025 — The Exploitation of Nutrient Metals by Bacteria for Survival and Infection in the Gut",
       "authors": [
@@ -423227,6 +423248,16 @@
       "keystone_criteria_met": [],
       "why_keystone": ""
     },
+    "lpsn-eubacteriales": {
+      "title": "LPSN — Eubacteriales Buchanan 1917 (Approved Lists 1980)",
+      "authors": [],
+      "year": "",
+      "journal": "List of Prokaryotic names with Standing in Nomenclature",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
     "lpsn-fannyhessea-vaginae": {
       "title": "LPSN — Fannyhessea vaginae",
       "authors": [],
@@ -426008,6 +426039,16 @@
     },
     "ncbi-taxonomy-dialister-histaminiformans": {
       "title": "NCBI Taxonomy — Dialister histaminiformans (NCBITaxon:209880)",
+      "authors": [],
+      "year": "",
+      "journal": "NCBI Taxonomy",
+      "doi": "",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "ncbi-taxonomy-eubacteriales": {
+      "title": "NCBI Taxonomy — Eubacteriales (NCBITaxon:186802)",
       "authors": [],
       "year": "",
       "journal": "NCBI Taxonomy",
@@ -431576,6 +431617,20 @@
       "year": 2021,
       "journal": "Frontiers in Psychiatry",
       "doi": "10.3389/fpsyt.2021.682868",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "skerman-1980-approved-lists-bacterial-names": {
+      "title": "Skerman, McGowan, and Sneath 1980 — Approved Lists of Bacterial Names",
+      "authors": [
+        "V. B. D. Skerman",
+        "Vicki McGowan",
+        "P. H. A. Sneath"
+      ],
+      "year": 1980,
+      "journal": "International Journal of Systematic Bacteriology",
+      "doi": "10.1099/00207713-30-1-225",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""

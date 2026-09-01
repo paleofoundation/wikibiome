@@ -49,7 +49,7 @@ key_findings: ["Fecal SCFAs altered", "Key butyrate-producing taxa reduced", "Co
 
 **Constipation and microbiota:**
 - Constipated ASD (ASD-C) had distinct beta diversity from non-constipated ASD and NT
-- [[clostridiales|Clostridiales]], [[lactobacillus|Lactobacillales]], [[dysbiosis|Erysipelotrichales]] represented in ASD-C subjects
+- [[eubacteriales|Clostridiales]], [[lactobacillus|Lactobacillales]], [[dysbiosis|Erysipelotrichales]] represented in ASD-C subjects; the historical order label is retained from the study
 
 # Relevance to Metallomic Framework
 

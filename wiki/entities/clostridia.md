@@ -37,7 +37,7 @@ A class of Gram-positive, obligate anaerobic bacteria within the phylum Firmicut
 ## Taxonomy
 
 - Class Clostridia, phylum Firmicutes.
-- Major orders: [[clostridiales]] (the dominant gut order), [[oscillospirales]] (in revised schemes), Peptostreptococcales, Tissierellales.
+- Major orders include [[eubacteriales]] (historically called Clostridiales in many microbiome sources), [[oscillospirales]], Peptostreptococcales, and Tissierellales; exact membership varies across classification systems.
 - Key health-associated families: [[lachnospiraceae]], [[ruminococcaceae]], [[christensenellaceae]], Oscillospiraceae.
 - Key pathogenic families: Clostridiaceae, Peptostreptococcaceae.
 - Taxonomic note: Clostridia has been heavily reclassified in recent years. The original genus *Clostridium* was polyphyletic, containing over 200 species now distributed across multiple families and orders.
@@ -87,7 +87,7 @@ Clostridia clusters IV and XIVa are consistently depleted in MS and CD, represen
 
 ## Cross-References
 
-- [[clostridiales]] -- the primary order within Clostridia
+- [[eubacteriales]] -- current correct name for NCBITaxon:186802; Clostridiales is retained as a historical synonym
 - [[lachnospiraceae]] -- the dominant health-associated family
 - [[ruminococcaceae]] -- a second major butyrate-producing family
 - [[serotonin]] -- spore-forming Clostridia stimulate EC cell serotonin production

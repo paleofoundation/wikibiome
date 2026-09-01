@@ -18,7 +18,7 @@ platform: both
 condition: "crohns-disease"
 karen_brain_primitives: [4, 5, 9]
 metals_discussed: [iron]
-taxa_discussed: [enterobacteriaceae, pasteurellaceae, veillonellaceae, fusobacteriaceae, erysipelotrichaceae, bacteroidales, clostridiales, proteobacteria]
+taxa_discussed: [enterobacteriaceae, pasteurellaceae, veillonellaceae, fusobacteriaceae, erysipelotrichaceae, bacteroidales, eubacteriales, proteobacteria]
 key_findings:
   - "Ileal DUOX2 expression elevated and APOA1 depressed at diagnosis of ileal CD (iCD); pattern specific to CD and preserved in iCD vs UC and cCD (colon-only CD). Signature persists even in non-inflamed ileum of iCD"
   - "iCD ileal microbiome increased in Enterobacteriaceae, Pasteurellaceae, Veillonellaceae, Fusobacteriaceae and decreased in Erysipelotrichaceae, Bacteroidales, Clostridiales — linking CD-specific taxa to oxidative stress and Th17 polarization via DUOX2 activation"
