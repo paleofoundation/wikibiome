@@ -1,5 +1,6 @@
 import {
   ARTICLE_MEDIA_LICENSE_LABEL,
+  getArticleMediaAccessibilityReviewLabel,
   getArticleMediaIdentifierReviewLabel,
   getArticleMediaReviewLabel,
   type ArticleMedia,
@@ -51,8 +52,21 @@ export function ArticleMediaFigure({ media }: { media: ArticleMedia }) {
               <dt>Review</dt>
               <dd>
                 <span>{getArticleMediaReviewLabel(media)}</span>
-                <small>{getArticleMediaIdentifierReviewLabel(media)} · <time dateTime={media.reviewedOn}>{media.reviewedOn}</time></small>
+                <small>{getArticleMediaIdentifierReviewLabel(media)} · {getArticleMediaAccessibilityReviewLabel(media)} · <time dateTime={media.reviewedOn}>{media.reviewedOn}</time> · {media.reviewLogKey}</small>
               </dd>
+            </div>
+            <div>
+              <dt>Digital source</dt>
+              <dd>
+                <span>Trained-algorithmic media</span>
+                <small>{media.disclosure}</small>
+              </dd>
+            </div>
+            <div>
+              <dt>Scientific basis</dt>
+              <dd className="article-media-identifiers">{media.scientificReferences.map((reference) => (
+                <a href={reference.url} target="_blank" rel="noreferrer" key={reference.url}>{reference.title}<span aria-hidden="true"> ↗</span></a>
+              ))}</dd>
             </div>
             <div>
               <dt>License</dt>

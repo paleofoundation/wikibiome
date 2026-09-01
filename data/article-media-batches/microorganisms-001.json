@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "batchId": "microorganisms-001",
+  "category": "microorganisms",
+  "createdOn": "2026-09-01",
+  "reviewedOn": "2026-09-01",
+  "status": "reviewed",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/microorganisms-001.md",
+  "reviewStandard": "Scientific identity, morphology, controlled identifiers, caption limits, non-diagnostic framing, provenance, accessibility, and publication files validated against the WikiBiome scientific media policy.",
+  "revisionCount": 1,
+  "assets": [
+    {
+      "pageId": "acidaminococcus",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "accepted",
+      "scientificFinding": "NCBI taxonomy identifies the genus and cites the original description as anaerobic Gram-negative diplococci; the selected image shows only paired cocci.",
+      "visualReview": "Six isolated diplococcal pairs; no rods, flagella, spores, labels, or scene elements."
+    },
+    {
+      "pageId": "acinetobacter",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "accepted",
+      "scientificFinding": "Published morphology references describe short pleomorphic coccobacilli that become more coccoid in stationary phase and are nonmotile.",
+      "visualReview": "Short plump rods, rounded forms, pairs, and one short chain; no flagella."
+    },
+    {
+      "pageId": "acinetobacter-baumannii",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "accepted",
+      "scientificFinding": "NCBI confirms species identity; the reviewed microbiology source describes short pleomorphic, nonmotile coccobacilli.",
+      "visualReview": "Five coccobacilli with restrained capsular boundaries; no flagella or clinical scenery."
+    },
+    {
+      "pageId": "actinobacteria",
+      "assetType": "microbial-community",
+      "revision": 1,
+      "decision": "accepted",
+      "scientificFinding": "Actinomycetota is a phylum whose documented forms include coccoid, rod-coccoid, fragmenting hyphal, and branched mycelial morphologies.",
+      "visualReview": "Four separated representative groupings; the caption explicitly disclaims a single phylum morphology and literal relative scale."
+    },
+    {
+      "pageId": "actinomyces",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "accepted-after-revision",
+      "scientificFinding": "NLM sources describe nonmotile Gram-positive filamentous rods, sometimes branching, straight or wavy, with swollen or clubbed heads.",
+      "visualReview": "The first draft was held because fine surface hairs conflicted with nonmotility. Draft v2 removed every appendage-like hair while retaining clean segmented branching rods and clubbed ends.",
+      "revisionLinkage": { "revisedDraft": "actinomyces-draft.png", "acceptedDraft": "actinomyces-draft-v2.png" }
+    },
+    {
+      "pageId": "adherent-invasive-e-coli",
+      "assetType": "morphology",
+      "revision": 1,
+      "decision": "accepted",
+      "scientificFinding": "Electron microscopy of LF82 documents flagella and type 1 pili, while AIEC remains a functionally defined E. coli pathotype rather than a morphologically diagnostic taxon.",
+      "visualReview": "Three ordinary bacilli with peritrichous flagella and abundant fine pili on the central cell; caption prevents morphologic overclaiming."
+    }
+  ]
+}

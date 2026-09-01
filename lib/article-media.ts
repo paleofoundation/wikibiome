@@ -8,9 +8,16 @@ export type ScientificIdentifier = {
   url: string;
 };
 
+export type ScientificMediaReference = {
+  title: string;
+  authority: string;
+  role: string;
+  url: string;
+};
+
 export type ArticleMedia = {
   pageId: string;
-  assetType: "morphology" | "pathology" | "technical-specimen" | "microbial-community";
+  assetType: "morphology" | "pathology" | "technical-specimen" | "microbial-community" | "mechanism" | "intervention" | "host-defense" | "clinical-caution" | "evidence-index";
   revision: number;
   title: string;
   label: string;
@@ -28,8 +35,10 @@ export type ArticleMedia = {
   description: string;
   credit: string;
   provenance: string;
+  masterProvenance: string;
+  scientificReferences: readonly ScientificMediaReference[];
   created: string;
-  subjectKind: "taxon" | "element" | "condition";
+  subjectKind: "taxon" | "element" | "condition" | "biological-process" | "intervention" | "host-defense" | "clinical-caution" | "evidence-index";
   subjectName: string;
   scientificName?: string;
   alternateName?: string;
@@ -38,11 +47,17 @@ export type ArticleMedia = {
   license: string;
   reviewStatus: "editorial-review-complete";
   identifierReviewStatus: "authority-verified";
+  accessibilityReviewStatus: "validated";
+  publicationStatus: "published-reviewed";
+  generationMethod: "trained-algorithmic-media";
+  digitalSourceType: string;
+  disclosure: string;
   reviewedOn: string;
+  reviewLogKey: string;
 };
 
 export const ARTICLE_MEDIA_DIGITAL_SOURCE_TYPE =
-  "https://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia";
+  articleMediaPolicy.digitalSource.type;
 export const ARTICLE_MEDIA_LICENSE = articleMediaPolicy.license.url;
 export const ARTICLE_MEDIA_LICENSE_LABEL = articleMediaPolicy.license.shortName;
 
@@ -59,7 +74,12 @@ function assertMediaRegistry() {
     if (media.license !== ARTICLE_MEDIA_LICENSE) throw new Error(`Article media ${id} does not use the registry license.`);
     if (!articleMediaPolicy.reviewStatuses[media.reviewStatus]) throw new Error(`Article media ${id} has an unknown review status.`);
     if (!articleMediaPolicy.identifierReviewStatuses[media.identifierReviewStatus]) throw new Error(`Article media ${id} has an unknown identifier review status.`);
+    if (!articleMediaPolicy.accessibilityReviewStatuses[media.accessibilityReviewStatus]) throw new Error(`Article media ${id} has an unknown accessibility review status.`);
+    if (!articleMediaPolicy.publicationStatuses[media.publicationStatus]) throw new Error(`Article media ${id} is not reviewed for publication.`);
+    if (media.digitalSourceType !== ARTICLE_MEDIA_DIGITAL_SOURCE_TYPE || media.generationMethod !== "trained-algorithmic-media") throw new Error(`Article media ${id} has an invalid trained-algorithmic-media disclosure.`);
     if (!/^\d{4}-\d{2}-\d{2}$/.test(media.reviewedOn)) throw new Error(`Article media ${id} has an invalid review date.`);
+    if (!media.scientificReferences.length) throw new Error(`Article media ${id} has no scientific visual references.`);
+    if (media.reviewLogKey !== `${media.pageId}|${media.publishedFile}`) throw new Error(`Article media ${id} has an invalid review-log key.`);
     const authorities = new Set(media.scientificIdentifiers.map((identifier) => identifier.authority));
     const required = articleMediaPolicy.requiredAuthorities[media.subjectKind];
     for (const authority of required) {
@@ -74,6 +94,11 @@ function assertMediaRegistry() {
     }
     for (const identifier of media.scientificIdentifiers) {
       if (!/^https:\/\//.test(identifier.url)) throw new Error(`Article media ${id} has a non-HTTPS scientific identifier.`);
+    }
+    for (const reference of media.scientificReferences) {
+      if (!reference.title || !reference.authority || !reference.role || !/^https:\/\//.test(reference.url)) {
+        throw new Error(`Article media ${id} has an incomplete scientific visual reference.`);
+      }
     }
   }
 }
@@ -96,12 +121,12 @@ export function getArticleMediaIdentifierReviewLabel(media: ArticleMedia) {
   return articleMediaPolicy.identifierReviewStatuses[media.identifierReviewStatus].label;
 }
 
+export function getArticleMediaAccessibilityReviewLabel(media: ArticleMedia) {
+  return articleMediaPolicy.accessibilityReviewStatuses[media.accessibilityReviewStatus].label;
+}
+
 function subjectStructuredData(media: ArticleMedia) {
-  const schemaType = media.subjectKind === "taxon"
-    ? "Taxon"
-    : media.subjectKind === "element"
-      ? "ChemicalSubstance"
-      : "MedicalCondition";
+  const schemaType = articleMediaPolicy.subjectSchemaTypes[media.subjectKind];
   const sameAs = [...new Set(media.scientificIdentifiers.map((identifier) => identifier.url))];
   const alternateName = media.alternateName
     ?? (media.scientificName !== media.subjectName ? media.scientificName : undefined);
@@ -159,6 +184,12 @@ export function articleMediaStructuredData(media: ArticleMedia, origin: string, 
         url: identifier.url,
       })),
       keywords: media.scientificIdentifiers.map((identifier) => identifier.compact),
+      isBasedOn: media.scientificReferences.map((reference) => ({
+        "@type": "CreativeWork",
+        name: reference.title,
+        url: reference.url,
+        description: `${reference.authority}: ${reference.role}`,
+      })),
       creditText: media.credit,
       creator: editor,
       editor,
@@ -180,9 +211,32 @@ export function articleMediaStructuredData(media: ArticleMedia, origin: string, 
           description: articleMediaPolicy.identifierReviewStatuses[media.identifierReviewStatus].description,
           inDefinedTermSet: `${origin}/about#editorial-principles`,
         },
+        {
+          "@type": "DefinedTerm",
+          termCode: media.accessibilityReviewStatus,
+          name: getArticleMediaAccessibilityReviewLabel(media),
+          description: articleMediaPolicy.accessibilityReviewStatuses[media.accessibilityReviewStatus].description,
+          inDefinedTermSet: `${origin}/about#editorial-principles`,
+        },
+        {
+          "@type": "DefinedTerm",
+          termCode: media.publicationStatus,
+          name: articleMediaPolicy.publicationStatuses[media.publicationStatus].label,
+          description: articleMediaPolicy.publicationStatuses[media.publicationStatus].description,
+          inDefinedTermSet: `${origin}/about#editorial-principles`,
+        },
       ],
       publishingPrinciples: `${origin}/about#editorial-principles`,
-      digitalSourceType: ARTICLE_MEDIA_DIGITAL_SOURCE_TYPE,
+      review: {
+        "@type": "Review",
+        name: "WikiBiome scientific media review",
+        reviewBody: media.disclosure,
+        datePublished: media.reviewedOn,
+        identifier: media.reviewLogKey,
+        author: editor,
+      },
+      digitalSourceType: media.digitalSourceType,
+      usageInfo: media.disclosure,
       dateCreated: media.created,
       dateModified: media.reviewedOn,
     },

@@ -314,6 +314,9 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.match(html, new RegExp(`"@type":"${subjectType}"`));
     assert.match(html, /Editorial review complete/);
     assert.match(html, /Identifiers authority-verified/);
+    assert.match(html, /Accessibility validated/);
+    assert.match(html, /Trained-algorithmic media/);
+    assert.match(html, /Created with a trained generative algorithm/);
     assert.match(html, /CC BY-SA 4\.0/);
     assert.match(html, /creativecommons\.org\/licenses\/by-sa\/4\.0/);
     assert.match(html, /creativeWorkStatus/);
@@ -330,7 +333,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     }
   }
 
-  assert.equal(Object.keys(articleMediaRegistry).length, pilot.length);
+  assert.ok(Object.keys(articleMediaRegistry).length >= pilot.length);
   for (const [id, media] of Object.entries(articleMediaRegistry)) {
     assert.deepEqual(
       { publishedFile: media.publishedFile, socialFile: media.socialFile, src: media.src, socialSrc: media.socialSrc, masterSource: media.masterSource },
@@ -341,6 +344,10 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(media.license, articleMediaPolicy.license.url);
     assert.equal(media.reviewStatus, "editorial-review-complete");
     assert.equal(media.identifierReviewStatus, "authority-verified");
+    assert.equal(media.accessibilityReviewStatus, "validated");
+    assert.equal(media.publicationStatus, "published-reviewed");
+    assert.equal(media.reviewLogKey, `${media.pageId}|${media.publishedFile}`);
+    assert.ok(media.scientificReferences.length >= 2, `${id} requires at least two scientific visual references`);
     const authorities = new Set(media.scientificIdentifiers.map((item) => item.authority));
     for (const required of articleMediaPolicy.requiredAuthorities[media.subjectKind]) {
       assert.ok(authorities.has(required), `${id} requires ${required}`);
@@ -357,6 +364,27 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     .filter((filename) => filename.endsWith(".webp"))
     .sort();
   assert.deepEqual(publiclyStoredMediaFiles, registeredPublishedFiles, "public media storage must contain only registered reviewed derivatives");
+
+  const reviewLog = JSON.parse(readFileSync(new URL("../data/article-media-review-log.json", import.meta.url), "utf8"));
+  for (const media of Object.values(articleMediaRegistry)) {
+    const review = reviewLog.reviews[media.reviewLogKey];
+    assert.equal(review?.disposition, "approved", `${media.pageId} requires an approved review-log entry`);
+    assert.equal(review?.scientificReferenceCheck?.status, "pass");
+    assert.equal(review?.subjectReview?.status, "pass");
+    assert.equal(review?.accessibilityReview?.status, "pass");
+    const master = readFileSync(new URL(`../media/masters/${media.masterSource}`, import.meta.url));
+    assert.ok(master.includes(Buffer.from("trainedAlgorithmicMedia")), `${media.pageId} master should embed digital-source metadata`);
+    assert.ok(master.includes(Buffer.from(media.reviewLogKey)), `${media.pageId} master should embed its review-log key`);
+  }
+
+  const batchIds = ["acidaminococcus", "acinetobacter", "acinetobacter-baumannii", "actinobacteria", "actinomyces", "adherent-invasive-e-coli"];
+  const batchResponses = await Promise.all(batchIds.map((id) => render(`/article/${id}`)));
+  const batchPages = await Promise.all(batchResponses.map((response) => response.text()));
+  for (const [index, id] of batchIds.entries()) {
+    assert.equal(batchResponses[index].status, 200);
+    assert.ok(batchPages[index].includes(`src="${articleMediaRegistry[id].src}"`), `${id} renders its reviewed primary media`);
+    assert.match(batchPages[index], new RegExp(articleMediaRegistry[id].reviewLogKey.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")));
+  }
 
   assert.throws(
     () => articleMediaFileNames("Escherichia Coli", "morphology", 1),
@@ -599,7 +627,10 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Every route accounted for/);
   assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
   assert.match(readiness, /821[\s\S]{0,110}records[\s\S]{0,110}714[\s\S]{0,80}canonical article routes/);
-  assert.match(readiness, /8 of 714 canonical article routes currently have reviewed/);
+  assert.match(
+    readiness,
+    new RegExp(`${Object.keys(articleMediaRegistry).length} of 714 canonical article routes currently have reviewed`),
+  );
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
   assert.match(readiness, /weekly WikiBiome upstream refresh gate now compares paleofoundation\/wikibiome origin\/main/);
