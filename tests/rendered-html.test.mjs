@@ -893,6 +893,71 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${obsoleteId}-`)));
     assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${canonicalId}-`)));
   }
+  const batch018 = batches.find((batch) => batch.batchId === "microorganisms-018");
+  assert.equal(batch018?.status, "awaiting-control-review");
+  assert.equal(batch018?.routeDecisionCount, 6);
+  assert.equal(batch018?.candidateCount, 6);
+  assert.equal(batch018?.scientificHoldCount, 0);
+  assert.equal(batch018?.generationCallCount, 6);
+  assert.equal(batch018?.revisionCount, 0);
+  assert.equal(batch018?.controlReviewRequired, true);
+  const batch018Candidates = batch018?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch018Candidates.map((asset) => asset.pageId), [
+    "agathobacter-rectalis",
+    "firmicutes",
+    "flavobacterium",
+    "flavonifractor",
+    "fusarium",
+    "fusicatenibacter",
+  ]);
+  const batch018ExpectedOutputs = new Map([
+    ["agathobacter-rectalis", ["NCBITaxon:39491", "94f06ae8c30d7940b9dbadc9a562bdc878ac189b7656e822390bbc12dcdd5883", "3659945e786ad32494030a6cc15eb745ffc65d5b4d90753d116f210c68df0fcc", 1705472, 9, 7]],
+    ["firmicutes", ["NCBITaxon:1239", "fa6d18ca02c2f8dfe90f761da5f735100511ada3112985f6bbd8c6090a2b2032", "8212e377fb61342dbfd993fa3dbb4ecefb5299cbe4a5963dae0bfbe051cf6582", 1852052, 11, 7]],
+    ["flavobacterium", ["NCBITaxon:237", "536f9a1d5e85506a494f4f198f3acad46cfb61cbb94110614ea81e5d4df99569", "c73322076ec02d76aa33a8da77d6fe8266b94c0b4dacc80c129de267864ea80a", 1766237, 8, 6]],
+    ["flavonifractor", ["NCBITaxon:946234", "a89aaf4bba7c51dc2c25eb3e09a199c8e1b4050aa9097528a467de47fb9de0db", "c1192d138773251510def604f3570deb3a4515f2bc83020cc7a3117784c3794b", 1879137, 8, 6]],
+    ["fusarium", ["NCBITaxon:5506", "fb6a73d1a76db64af5e39c18ab8237456e5c9b60baa163acc7c0e5684684b798", "57c507790948ea0618a518dc1e0d2e1120cf637cf82040fa5fef7ffadec79123", 1791399, 4, 5]],
+    ["fusicatenibacter", ["NCBITaxon:1407607", "41ce67fa1e7bf603d5f7ef79823121a279ecfe44d181d4a979ce0da2dfd0473a", "a80be8bd3e076403135cb59375d8c0573a0141cfd53af31fd5c91dba97361be9", 1687840, 10, 6]],
+  ]);
+  const batch018PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-018.md", import.meta.url), "utf8");
+  const batch018PublicMediaFiles = readdirSync(new URL("../public/media-files/", import.meta.url));
+  const batch018MasterFiles = readdirSync(new URL("../media/masters/", import.meta.url));
+  for (const asset of batch018Candidates) {
+    const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch018ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.promptSha256, expectedPromptSha256);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.equal(asset.fileSizeBytes, expectedFileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assertMediaOutputAudit(asset, "microorganisms-018");
+
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, expectedFileSize);
+    assert.equal(draftBytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+    assert.equal(draftBytes.readUInt32BE(16), 1536);
+    assert.equal(draftBytes.readUInt32BE(20), 1024);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expectedSha256);
+
+    const promptMatch = batch018PromptRecord.match(new RegExp("### `" + asset.pageId + "-draft\\.png`\\n\\n```text\\n([\\s\\S]*?)\\n```"));
+    assert.ok(promptMatch, `${asset.pageId} immutable prompt must remain in the prompt record`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
+
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined);
+    assert.ok(!batch018PublicMediaFiles.includes(expectedFiles.publishedFile));
+    assert.ok(!batch018PublicMediaFiles.includes(expectedFiles.socialFile));
+    assert.ok(!batch018MasterFiles.includes(expectedFiles.masterSource));
+  }
+  assert.equal(batch018Candidates.find((asset) => asset.pageId === "firmicutes")?.assetType, "microbial-community");
+  assert.match(batch018Candidates.find((asset) => asset.pageId === "firmicutes")?.proposedCaption ?? "", /representative, non-exhaustive, non-diagnostic/);
+  assert.equal(batch018Candidates.find((asset) => asset.pageId === "fusarium")?.outputAudit?.observedMajorStructureCount, 5);
+  assert.equal(batch018Candidates.find((asset) => asset.pageId === "fusarium")?.outputAudit?.observedFrameContactCount, 1);
+  assert.match(batch018Candidates.find((asset) => asset.pageId === "fusarium")?.visualReview ?? "", /cropped by the bottom frame edge/);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -938,7 +1003,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "reviewed"],
     ["davidiella", "cladosporium", "NCBITaxon:5498", "reviewed"],
     ["eubacterium-eligens", "lachnospira-eligens", "NCBITaxon:39485", "queued"],
-    ["eubacterium-rectale", "agathobacter-rectalis", "NCBITaxon:39491", "queued"],
+    ["eubacterium-rectale", "agathobacter-rectalis", "NCBITaxon:39491", "in-review"],
   ];
   for (const [obsoleteId, canonicalId, identifier, expectedStatus] of currentNameMediaMappings) {
     const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === obsoleteId);
