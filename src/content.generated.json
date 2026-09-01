@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-01T10:18:31.813Z",
+  "_generated": "2026-09-01T10:20:16.964Z",
   "_platform": "all",
   "_stats": {
     "sources": 1906,
@@ -1691,13 +1691,13 @@
         "lpsn-akkermansia-muciniphila"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-01T00:00:00.000Z",
       "frontmatter": {
         "title": "Akkermansia muciniphila",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-01T00:00:00.000Z",
         "sources": [
           "bronzini-2023-feeding-gut-microbiome-ms",
           "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
@@ -1738,7 +1738,8 @@
           "parkinsons-disease",
           "autism-spectrum-disorder"
         ],
-        "pathogenic_potential": "commensal"
+        "pathogenic_potential": "commensal",
+        "ncbi_taxonomy_id": 239935
       },
       "overview": "A Gram-negative, obligate anaerobic, mucin-degrading bacterium that colonizes the intestinal mucus layer and has emerged as one of the most important next-generation probiotics. *A. muciniphila* is consistently depleted in disease states associated with metal dyshomeostasis and is notably sensitive to heavy metal exposure, positioning it as both a biomarker and mediator of the [[gut-metal-microbiome]] axis.",
       "sections": [

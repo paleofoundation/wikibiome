@@ -4,7 +4,7 @@ title: Akkermansia muciniphila
 type: entity
 subtype: microbe
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-01
 sources: [bronzini-2023-feeding-gut-microbiome-ms, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, giambo-2021-toxic-metal-exposure-gut-microbiota-review, ghosh-2023-heavy-metals-gut-barrier-integrity, derrien-2004-akkermansia-muciniphila-description, ncbi-taxonomy-akkermansia-muciniphila, lpsn-akkermansia-muciniphila]
 source_count: 11
 metal_dependencies: [indirect -- sensitive to metal perturbation]
@@ -17,6 +17,7 @@ wikipedia_differentiation: "Quantitative depletion data across 8+ diseases with 
 conditions_enriched_in: []
 conditions_depleted_in: [crohns-disease, obesity, type-2-diabetes, parkinsons-disease, autism-spectrum-disorder]
 pathogenic_potential: commensal
+ncbi_taxonomy_id: 239935
 ---
 
 # Akkermansia muciniphila
