@@ -64,11 +64,11 @@ Read-only requests were captured at **2026-09-01T09:08:21Z**.
 | Sitemap | `/sitemap.xml` | `200`, XML, 2,644 `<url>` entries |
 | Robots | `/robots.txt` | `200`, advertises `https://www.wikibiome.com/sitemap.xml` |
 
-All 15 representative public WikiBiome endpoints above returned `200`. The
-protected contribution ledger exposed the expected sign-in boundary. Owner
-authentication and moderation were not exercised because this baseline must
-not change account data; they require an authenticated, read-only browser check
-after the time gate.
+Of the 15 representative WikiBiome endpoints above, 14 public routes returned
+`200`; the protected contribution ledger returned the expected `307`
+authentication redirect. Owner authentication and moderation were not
+exercised because this baseline must not change account data; they require an
+authenticated, read-only browser check after the time gate.
 
 Two newer researcher-network routes present in commit `2b6444c`
 (`/researcher/dashboard` and `/researcher/moderation`) returned `404` on the
