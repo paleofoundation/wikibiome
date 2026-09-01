@@ -43,7 +43,7 @@ The original generation masters for the eight-asset baseline were not retained. 
 
 ## Deterministic coverage program
 
-`data/article-media-coverage.generated.json` is generated from the synchronized content corpus, registry, review log, and sorted batch manifests. It covers exactly 714 canonical article routes and records baseline, completed and remaining counts, category totals, revisions/rejections, scientific holds, candidates in review, next batch, and the complete deterministic queue. Routes in an `awaiting-control-review` batch are marked `in-review` and skipped by later generation batches without being counted as completed.
+`data/article-media-coverage.generated.json` is generated from the synchronized content corpus, registry, review log, and sorted batch manifests. It covers exactly 713 canonical article routes and records baseline, completed and remaining counts, category totals, revisions/rejections, scientific holds, candidates in review, next batch, and the complete deterministic queue. Routes in an `awaiting-control-review` batch are marked `in-review` and skipped by later generation batches without being counted as completed.
 
 If the scientific identity of a canonical route cannot be verified against the required authority, record a `scientific-identity-hold`. Held routes remain uncovered and count toward the remaining total, are skipped by subsequent generation batches, and cannot enter the reviewed registry until the hold is explicitly resolved. The release gate rejects any registry record that conflicts with an active hold.
 

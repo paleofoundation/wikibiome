@@ -54,11 +54,18 @@ const scientificHolds = new Map(
     .filter((asset) => asset.disposition === "scientific-identity-hold")
     .map((asset) => [asset.pageId, asset]),
 );
+const canonicalRouteIds = new Set(canonicalRoutes.map((route) => route.id));
+for (const hold of scientificHolds.values()) {
+  if (!canonicalRouteIds.has(hold.pageId)) {
+    throw new Error(`${hold.pageId}: unresolved scientific hold no longer maps to a canonical article route.`);
+  }
+}
 const inReview = new Map();
 for (const manifest of batchManifests.filter(({ data }) => activeMediaReviewStatuses.has(data.status))) {
   for (const asset of manifest.data.assets.filter((candidate) => candidate.assetType && candidate.revision && candidate.draft)) {
     if (reviewedIds.has(asset.pageId)) throw new Error(`${asset.pageId}: reviewed registry record still appears in an awaiting-review batch.`);
     if (scientificHolds.has(asset.pageId)) throw new Error(`${asset.pageId}: route cannot be both in review and on scientific hold.`);
+    if (!canonicalRouteIds.has(asset.pageId)) throw new Error(`${asset.pageId}: review candidate no longer maps to a canonical article route.`);
     if (inReview.has(asset.pageId)) throw new Error(`${asset.pageId}: route appears in more than one awaiting-review batch.`);
     inReview.set(asset.pageId, { batchId: manifest.data.batchId, ...asset });
   }

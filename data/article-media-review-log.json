@@ -438,52 +438,68 @@
       "batchId": "microorganisms-002",
       "reviewedOn": "2026-09-01",
       "reviewingAuthority": "wikibiome-media-program",
-      "disposition": "scientific-identity-hold",
+      "disposition": "scientific-identity-hold-resolved",
       "reason": "Neither NCBI Taxonomy nor LPSN recognizes Akkermansia mucinicola, so no controlled taxonomic identifier or morphology description can support a publishable image.",
       "checkedUrls": [
         "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?name=Akkermansia",
         "https://www.lpsn.dsmz.de/genus/akkermansia"
       ],
-      "requiredResolution": "Correct or retire the canonical route, or supply an authoritative taxonomic description and controlled identifier. The route remains uncovered until the hold is removed through review."
+      "requiredResolution": "Correct or retire the canonical route, or supply an authoritative taxonomic description and controlled identifier. The route remains uncovered until the hold is removed through review.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The invalid route was retired and permanently redirects to the recognized Akkermansia muciniphila record.",
+      "canonicalPageId": "akkermansia-muciniphila",
+      "canonicalIdentifier": "NCBITaxon:239935"
     },
     {
       "pageId": "allisonella",
       "batchId": "microorganisms-003",
       "reviewedOn": "2026-09-01",
       "reviewingAuthority": "wikibiome-media-program",
-      "disposition": "scientific-identity-hold",
+      "disposition": "scientific-identity-hold-resolved",
       "reason": "NCBI now treats Allisonella histaminiformans as the basionym of Dialister histaminiformans, while the canonical article instead names unsupported Allisonella hiatal and assigns an incompatible taxonomic identity. No publishable subject can be keyed to the route without correcting its scope.",
       "checkedUrls": [
         "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=209880",
         "https://pubmed.ncbi.nlm.nih.gov/12583709/"
       ],
-      "requiredResolution": "Correct the canonical article to the current Dialister histaminiformans identity, explicitly reframe Allisonella as a historical synonym, or retire the route. A controlled identifier and corrected scientific scope are required before media review can proceed."
+      "requiredResolution": "Correct the canonical article to the current Dialister histaminiformans identity, explicitly reframe Allisonella as a historical synonym, or retire the route. A controlled identifier and corrected scientific scope are required before media review can proceed.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The unsupported route was retired and permanently redirects to a conservative current-name Dialister histaminiformans record.",
+      "canonicalPageId": "dialister-histaminiformans",
+      "canonicalIdentifier": "NCBITaxon:209880"
     },
     {
       "pageId": "atopobium-parvulum",
       "batchId": "microorganisms-004",
       "reviewedOn": "2026-09-01",
       "reviewingAuthority": "wikibiome-media-program",
-      "disposition": "scientific-identity-hold",
+      "disposition": "scientific-identity-hold-resolved",
       "reason": "NCBI recognizes Lancefieldella parvula as the current name for NCBITaxon:1382 and lists Atopobium parvulum only as a homotypic synonym. Publishing new media under the superseded combination would misstate the current identity.",
       "checkedUrls": [
         "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1382&mode=Info",
         "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035223/"
       ],
-      "requiredResolution": "Rename or redirect the canonical route to Lancefieldella parvula, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:1382, before media review proceeds."
+      "requiredResolution": "Rename or redirect the canonical route to Lancefieldella parvula, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:1382, before media review proceeds.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The obsolete combination was retired and permanently redirects to the current Lancefieldella parvula record.",
+      "canonicalPageId": "lancefieldella-parvula",
+      "canonicalIdentifier": "NCBITaxon:1382"
     },
     {
       "pageId": "atopobium-vaginae",
       "batchId": "microorganisms-004",
       "reviewedOn": "2026-09-01",
       "reviewingAuthority": "wikibiome-media-program",
-      "disposition": "scientific-identity-hold",
+      "disposition": "scientific-identity-hold-resolved",
       "reason": "NCBI recognizes Fannyhessea vaginae as the current name for NCBITaxon:82135 and lists Atopobium vaginae as its basionym. Publishing new media under the superseded combination would misstate the current identity.",
       "checkedUrls": [
         "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82135&mode=Info",
         "https://pubmed.ncbi.nlm.nih.gov/10555338/"
       ],
-      "requiredResolution": "Rename or redirect the canonical route to Fannyhessea vaginae, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:82135, before media review proceeds."
+      "requiredResolution": "Rename or redirect the canonical route to Fannyhessea vaginae, or explicitly scope the article as a historical synonym page keyed to NCBITaxon:82135, before media review proceeds.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The obsolete combination was retired and permanently redirects to the current Fannyhessea vaginae record.",
+      "canonicalPageId": "fannyhessea-vaginae",
+      "canonicalIdentifier": "NCBITaxon:82135"
     }
   ],
   "revisedAssets": [

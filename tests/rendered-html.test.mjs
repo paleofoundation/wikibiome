@@ -478,13 +478,17 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(articleMediaRegistry[id], undefined, `${id} must not enter the reviewed registry before approval`);
     assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)), `${id} draft must not enter public media files`);
   }
-  const heldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae"];
-  for (const id of heldIds) {
-    const heldRoute = program.queue.find((record) => record.id === id);
-    assert.equal(heldRoute?.status, "scientific-hold");
+  const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae"];
+  assert.equal(program.current.scientificHolds, 0);
+  for (const id of resolvedHeldIds) {
+    const canonicalId = getArticleAliases()[id];
+    assert.equal(program.queue.find((record) => record.id === id), undefined, `${id} must remain outside the canonical media queue`);
+    assert.ok(program.queue.some((record) => record.id === canonicalId), `${canonicalId} must be represented in the canonical media queue`);
     assert.equal(articleMediaRegistry[id], undefined);
     assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)));
-    assert.equal(reviewLog.rejectedAssets.find((asset) => asset.pageId === id)?.disposition, "scientific-identity-hold");
+    const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === id);
+    assert.equal(resolution?.disposition, "scientific-identity-hold-resolved");
+    assert.equal(resolution?.canonicalPageId, canonicalId);
   }
 
   const batchIds = batches
@@ -758,7 +762,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /87dcd63a4e40/);
+  assert.match(readiness, /53b4cb4d91d6/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -1164,7 +1168,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "87dcd63a4e40bbdc0d78f459e27d338661cb8902");
+  assert.equal(manifest.source.commit, "53b4cb4d91d642b41bf75cadf1f9d0e9ba19bc7e");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 820);
   assert.equal(manifest.content.sources, 1906);
