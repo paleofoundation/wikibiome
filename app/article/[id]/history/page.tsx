@@ -3,7 +3,7 @@ import Link from "@/app/_components/NativeLink";
 import { notFound, permanentRedirect } from "next/navigation";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { publicPageMetadata } from "@/lib/search-discovery";
-import { canonicalArticleId, categoryLabel, getWikiPage } from "@/lib/wikibiome";
+import { canonicalArticleAliasId, canonicalArticleId, categoryLabel, getWikiPage, normalizeWikiId } from "@/lib/wikibiome";
 import { getRevisionHistory } from "@/lib/revisions";
 
 type RouteProps = { params: Promise<{ id: string }> };
@@ -20,6 +20,8 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
 
 export default async function ArticleHistoryPage({ params }: RouteProps) {
   const { id } = await params;
+  const aliasId = canonicalArticleAliasId(id);
+  if (aliasId !== normalizeWikiId(id)) permanentRedirect(`/article/${aliasId}/history`);
   const page = getWikiPage(id);
   if (!page) notFound();
   const canonicalId = canonicalArticleId(id);

@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-01",
+  "authority": "WikiBiome delegated scientific identity reconciliation",
+  "aliases": {
+    "akkermansia-mucinicola": "akkermansia-muciniphila",
+    "allisonella": "dialister-histaminiformans",
+    "atopobium-parvulum": "lancefieldella-parvula",
+    "atopobium-vaginae": "fannyhessea-vaginae"
+  },
+  "canonicalTaxa": {
+    "akkermansia-muciniphila": {
+      "title": "Akkermansia muciniphila",
+      "ncbiTaxonomyId": 239935
+    },
+    "dialister-histaminiformans": {
+      "title": "Dialister histaminiformans",
+      "ncbiTaxonomyId": 209880
+    },
+    "lancefieldella-parvula": {
+      "title": "Lancefieldella parvula",
+      "ncbiTaxonomyId": 1382
+    },
+    "fannyhessea-vaginae": {
+      "title": "Fannyhessea vaginae",
+      "ncbiTaxonomyId": 82135
+    }
+  },
+  "retiredCanonicalIds": [
+    "akkermansia-mucinicola",
+    "allisonella",
+    "atopobium-parvulum",
+    "atopobium-vaginae"
+  ],
+  "forbiddenCanonicalTitles": [
+    "Akkermansia mucinicola",
+    "Allisonella",
+    "Atopobium parvulum",
+    "Atopobium vaginae"
+  ],
+  "forbiddenPublicPatterns": [
+    "Allisonella hiatal"
+  ]
+}

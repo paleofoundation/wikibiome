@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 
 import content from "../data/content.generated.json" with { type: "json" };
+import articleAliasRegistry from "../data/article-id-aliases.json" with { type: "json" };
 
 const workerUrl = new URL("../dist/server/index.js", import.meta.url);
 workerUrl.searchParams.set("audit", `${process.pid}-${Date.now()}`);
@@ -13,6 +14,9 @@ for (const page of content.pages) {
   const base = page.id.replace(/-signature$/, "");
   articleIds.add(page.category === "signature" && diseaseIds.has(base) ? base : page.id);
 }
+const legacyArticleRedirects = new Map(
+  Object.entries(articleAliasRegistry.aliases).map(([alias, target]) => [`/article/${alias}`, `/article/${target}`]),
+);
 
 const initialRoutes = [
   "/",
@@ -34,6 +38,7 @@ const initialRoutes = [
   "/contact",
   ...[...new Set(content.pages.map((page) => page.category))].map((category) => `/category/${category}`),
   ...[...articleIds].map((id) => `/article/${id}`),
+  ...legacyArticleRedirects.keys(),
   ...Object.keys(content.sourceLookup).map((id) => `/source/${normalizeId(id)}`),
 ];
 
@@ -106,6 +111,11 @@ async function render(pathname) {
   if (pathname.startsWith("/source/")) sourceRoutes += 1;
 
   const redirect = response.status >= 300 && response.status < 400 ? response.headers.get("location") : null;
+  const expectedLegacyRedirect = legacyArticleRedirects.get(pathname);
+  if (expectedLegacyRedirect) {
+    if (response.status !== 308) failures.push(`${pathname}: expected permanent HTTP 308, received ${response.status}`);
+    if (redirect !== expectedLegacyRedirect) failures.push(`${pathname}: expected redirect to ${expectedLegacyRedirect}, received ${redirect ?? "none"}`);
+  }
   const platformAuthRedirect = redirect && /^\/(?:signin-with-chatgpt|signout-with-chatgpt|callback)(?:[/?#]|$)/.test(redirect);
   if (redirect) {
     if (redirect.startsWith("/") && !platformAuthRedirect && !queued.has(redirect)) {

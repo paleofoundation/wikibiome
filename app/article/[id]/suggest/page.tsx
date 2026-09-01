@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect, redirect } from "next/navigation";
 import { requireChatGPTUser } from "@/app/chatgpt-auth";
 import { ContributionForm } from "@/app/_components/ContributionForm";
 import { WikiHeader } from "@/app/_components/WikiArticle";
-import { canonicalArticleId, getWikiPage } from "@/lib/wikibiome";
+import { canonicalArticleAliasId, canonicalArticleId, getWikiPage, normalizeWikiId } from "@/lib/wikibiome";
 import { prepareArticleSections } from "@/lib/content-model";
 
 export const dynamic = "force-dynamic";
@@ -18,6 +18,8 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
 
 export default async function SuggestEditPage({ params }: RouteProps) {
   const { id } = await params;
+  const aliasId = canonicalArticleAliasId(id);
+  if (aliasId !== normalizeWikiId(id)) permanentRedirect(`/article/${aliasId}/suggest`);
   const page = getWikiPage(id);
   if (!page) notFound();
   const canonicalId = canonicalArticleId(id);

@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T09:35:02.029Z",
+  "generatedAt": "2026-09-01T10:23:29.146Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "62e006cf0ced1dce706a6438f6461602229a9f26",
-    "contentGeneratedAt": "2026-08-31T20:33:41.573Z",
+    "commit": "87dcd63a4e40bbdc0d78f459e27d338661cb8902",
+    "contentGeneratedAt": "2026-09-01T10:20:16.964Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "05a7dbc4cc616886f26be47b321d285958af10262bf6a70bcdcf25a86583cacb",
-    "pages": 821,
-    "sources": 1891
+    "sha256": "1c8171e177025a608aaf9a4f387f7b3b9ed89688251df8bd26887e6afb65a3db",
+    "pages": 820,
+    "sources": 1906
   },
   "sourceMetadataPolicy": {
     "version": 1,
@@ -1411,7 +1411,7 @@
     ]
   },
   "editorialNormalization": {
-    "leadPromotionCount": 347,
+    "leadPromotionCount": 345,
     "leadPromotionSamples": [
       {
         "id": "actinobacteria",
@@ -1440,16 +1440,6 @@
       },
       {
         "id": "anxiety",
-        "heading": "Overview",
-        "reason": "first-semantic-lead-promoted"
-      },
-      {
-        "id": "atopobium-parvulum",
-        "heading": "Overview",
-        "reason": "first-semantic-lead-promoted"
-      },
-      {
-        "id": "atopobium-vaginae",
         "heading": "Overview",
         "reason": "first-semantic-lead-promoted"
       },
@@ -1512,15 +1502,35 @@
         "id": "candida-tropicalis",
         "heading": "Overview",
         "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "cardiovascular-disease",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "caulobacter",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
       }
     ]
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "62e006cf0ced1dce706a6438f6461602229a9f26",
+    "sourceCommit": "87dcd63a4e40bbdc0d78f459e27d338661cb8902",
     "registeredCount": 113,
     "appliedRecordCount": 122,
-    "registrySha256": "ae4159784a90d7350a14bd08fd5c3a02fef9994f201403a9af067519fb56344c"
+    "registrySha256": "8ec8e9b4fa86ca8d18e9e65a795bc5810daba3ae4d9dcd2567cca51006163729"
+  },
+  "articleIdentityPolicy": {
+    "version": 1,
+    "reviewedAt": "2026-09-01",
+    "authority": "WikiBiome delegated scientific identity reconciliation",
+    "registrySha256": "7770c5af305402912d7b6ba8f8f266e477ea6fcb45fcc3c1ce66dcc90c8e62db",
+    "aliasCount": 4,
+    "retiredCanonicalCount": 4,
+    "canonicalTaxonCount": 4,
+    "forbiddenPatternCount": 1
   },
   "audit": {
     "duplicatePageIds": [
@@ -1590,11 +1600,11 @@
       "type-1-diabetes",
       "type-2-diabetes"
     ],
-    "pagesWithReferences": 766,
-    "generatedReferences": 6424,
-    "pagesWithSourceDrift": 489,
-    "recoveredInlineReferences": 348,
-    "declaredOnlyReferences": 2029,
+    "pagesWithReferences": 765,
+    "generatedReferences": 6418,
+    "pagesWithSourceDrift": 488,
+    "recoveredInlineReferences": 350,
+    "declaredOnlyReferences": 2008,
     "missingSourceMetadataIds": [],
     "resolvedSourceAliasIds": [
       "abraham-2005-drug-therapy-graves",

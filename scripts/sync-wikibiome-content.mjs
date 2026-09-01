@@ -23,6 +23,11 @@ import {
   normalizeSourceMetadata,
   normalizeSourceYear,
 } from "./source-metadata-policy.mjs";
+import {
+  ARTICLE_IDENTITY_POLICY_VERSION,
+  getArticleIdentityRegistry,
+  validateArticleIdentityPolicy,
+} from "./article-identity-policy.mjs";
 
 const projectRoot = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const args = process.argv.slice(2);
@@ -40,7 +45,9 @@ const targetPath = resolve(projectRoot, valueAfter("--content", "data/content.ge
 const manifestPath = resolve(projectRoot, valueAfter("--manifest", "data/content-manifest.generated.json"));
 const sourceAliasRegistry = JSON.parse(readFileSync(resolve(projectRoot, "data/source-id-aliases.json"), "utf8"));
 const editorialStatusPath = resolve(projectRoot, "data/editorial-statuses.json");
+const articleIdentityPath = resolve(projectRoot, "data/article-id-aliases.json");
 const editorialStatusRegistry = getEditorialStatusRegistry();
+const articleIdentityRegistry = getArticleIdentityRegistry();
 const sourceIdAliases = Object.fromEntries(
   Object.entries(sourceAliasRegistry.aliases ?? {}).map(([alias, target]) => [normalizeId(alias), normalizeId(target)]),
 );
@@ -90,6 +97,7 @@ if (sanitizeCurrent && !lingeringExclusions.length) {
 const { content: policyContent, exclusions: newlyExcluded, normalizations } = applyPublicContentPolicy(metadataContent);
 const statusSourceCommit = sourceCommit ?? JSON.parse(readFileSync(manifestPath, "utf8")).source?.commit;
 const { content, appliedCount: appliedEditorialStatuses, registeredCount: registeredEditorialStatuses } = applyEditorialStatusPolicy(policyContent, statusSourceCommit);
+const articleIdentityAudit = validateArticleIdentityPolicy(content);
 const exclusions = [...retainedExclusions, ...newlyExcluded].filter((entry, index, all) => (
   all.findIndex((candidate) => candidate.id === entry.id) === index
 ));
@@ -147,6 +155,13 @@ const manifest = {
     registeredCount: registeredEditorialStatuses,
     appliedRecordCount: appliedEditorialStatuses,
     registrySha256: createHash("sha256").update(readFileSync(editorialStatusPath)).digest("hex"),
+  },
+  articleIdentityPolicy: {
+    version: ARTICLE_IDENTITY_POLICY_VERSION,
+    reviewedAt: articleIdentityRegistry.reviewedAt,
+    authority: articleIdentityRegistry.authority,
+    registrySha256: createHash("sha256").update(readFileSync(articleIdentityPath)).digest("hex"),
+    ...articleIdentityAudit,
   },
   audit,
 };
@@ -313,6 +328,11 @@ function verifyManifest(path, sha256) {
   if (manifest.sourceMetadataPolicy?.version !== SOURCE_METADATA_POLICY_VERSION) {
     throw new Error("Generated content does not match the current source-metadata policy. Run npm run content:sync.");
   }
+  const articleIdentitySha256 = createHash("sha256").update(readFileSync(articleIdentityPath)).digest("hex");
+  if (manifest.articleIdentityPolicy?.version !== ARTICLE_IDENTITY_POLICY_VERSION
+      || manifest.articleIdentityPolicy?.registrySha256 !== articleIdentitySha256) {
+    throw new Error("Generated content does not match the current article-identity policy. Run npm run content:sync.");
+  }
   const registrySha256 = createHash("sha256").update(readFileSync(editorialStatusPath)).digest("hex");
   if (manifest.editorialStatusPolicy?.version !== EDITORIAL_STATUS_POLICY_VERSION
       || manifest.editorialStatusPolicy?.sourceCommit !== editorialStatusRegistry.sourceCommit
@@ -341,6 +361,7 @@ function printSummary(audit, content, verb) {
   console.log(`${audit.generatedReferences} article references generated; ${audit.recoveredInlineReferences} recovered from inline citations.`);
   console.log(`${audit.missingSourceMetadataIds.length} referenced source IDs lack registry metadata; ${audit.malformedDois.length} DOI values are flagged.`);
   console.log(`${audit.invalidSourceYears.length} invalid source years remain in generated content.`);
+  console.log(`${articleIdentityAudit.aliasCount} retired article IDs resolve through the audited identity registry.`);
   if (audit.duplicatePageIds.length) {
     const sample = audit.duplicatePageIds.slice(0, 8).join(", ");
     console.log(`${audit.duplicatePageIds.length} duplicate page IDs flagged (${sample}${audit.duplicatePageIds.length > 8 ? ", …" : ""}). The first upstream record remains canonical.`);

@@ -5,7 +5,7 @@ import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiArticle } from "@/app/_components/WikiArticle";
 import { getArticleMedia } from "@/lib/article-media";
 import { articleStructuredData, publicPageMetadata } from "@/lib/search-discovery";
-import { canonicalDiseaseId, getDiseaseRecord, getWikiPage, plainText } from "@/lib/wikibiome";
+import { canonicalArticleAliasId, canonicalDiseaseId, getDiseaseRecord, getWikiPage, normalizeWikiId, plainText } from "@/lib/wikibiome";
 
 type RouteProps = { params: Promise<{ id: string }> };
 
@@ -34,6 +34,8 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
 
 export default async function ArticlePage({ params }: RouteProps) {
   const { id } = await params;
+  const aliasId = canonicalArticleAliasId(id);
+  if (aliasId !== normalizeWikiId(id)) permanentRedirect(`/article/${aliasId}`);
   const requestedPage = getWikiPage(id);
   if (!requestedPage) notFound();
   const disease = ["disease", "signature"].includes(requestedPage.category)

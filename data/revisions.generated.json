@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T07:35:58.821Z",
+  "generatedAt": "2026-09-01T10:24:02.133Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "62e006cf0ced1dce706a6438f6461602229a9f26",
-  "records": 821,
-  "canonicalIds": 756,
-  "revisions": 2900,
+  "sourceCommit": "87dcd63a4e40bbdc0d78f459e27d338661cb8902",
+  "records": 820,
+  "canonicalIds": 755,
+  "revisions": 2896,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -358,54 +358,29 @@
         }
       ]
     },
-    "akkermansia-mucinicola": {
-      "paths": [
-        "wiki/entities/akkermansia-mucinicola.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/akkermansia-mucinicola.md",
-          "additions": 14,
-          "deletions": 8
-        },
-        {
-          "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
-          "date": "2026-04-19T08:31:59+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "nightly maintenance: 94 stub demotions, 181 source_count fixes, 22 auto-discovered stubs, 5 adversarial audits, 3 boundary fixes, 3 evidence-level corrections",
-          "path": "wiki/entities/akkermansia-mucinicola.md",
-          "additions": 2,
-          "deletions": 0
-        },
-        {
-          "hash": "432d7cea939d8ce1d615dfc8eaf93f03612f0e28",
-          "date": "2026-04-18T22:05:01+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "semantic integrity pass: boundary fixes, 10 interventions, 31 STOPs, 2 supersessions, keystone revalidation",
-          "path": "wiki/entities/akkermansia-mucinicola.md",
-          "additions": 1,
-          "deletions": 1
-        },
-        {
-          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
-          "date": "2026-04-18T21:04:01+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "pre-overnight checkpoint 2026-04-18",
-          "path": "wiki/entities/akkermansia-mucinicola.md",
-          "additions": 60,
-          "deletions": 0
-        }
-      ]
-    },
     "akkermansia-muciniphila": {
       "paths": [
         "wiki/entities/akkermansia-muciniphila.md"
       ],
       "revisions": [
+        {
+          "hash": "87dcd63a4e40bbdc0d78f459e27d338661cb8902",
+          "date": "2026-09-01T13:20:17+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Record Akkermansia taxonomy identifier",
+          "path": "wiki/entities/akkermansia-muciniphila.md",
+          "additions": 2,
+          "deletions": 1
+        },
+        {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/entities/akkermansia-muciniphila.md",
+          "additions": 7,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -544,85 +519,6 @@
           "subject": "WikiBiome update — 2026-04-10 13:49",
           "path": "wiki/entities/alistipes.md",
           "additions": 64,
-          "deletions": 0
-        }
-      ]
-    },
-    "allisonella": {
-      "paths": [
-        "wiki/entities/allisonella.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/allisonella.md",
-          "additions": 19,
-          "deletions": 19
-        },
-        {
-          "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
-          "date": "2026-04-19T08:31:59+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "nightly maintenance: 94 stub demotions, 181 source_count fixes, 22 auto-discovered stubs, 5 adversarial audits, 3 boundary fixes, 3 evidence-level corrections",
-          "path": "wiki/entities/allisonella.md",
-          "additions": 1,
-          "deletions": 0
-        },
-        {
-          "hash": "74ee9c48ac2cd69095046aebfcd5ba30f65ebcf4",
-          "date": "2026-04-16T07:48:29+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Deep content + citation pass: 10 entities enriched, 7 new sources, DOI integrity",
-          "path": "wiki/entities/allisonella.md",
-          "additions": 12,
-          "deletions": 12
-        },
-        {
-          "hash": "efc10029850a5e38085d2fa8b7a9464b7fe293e3",
-          "date": "2026-04-15T19:47:00+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Adversarial audit fixes: confidence downgrades, disclaimers, STOP safety, entity cleanup",
-          "path": "wiki/entities/allisonella.md",
-          "additions": 10,
-          "deletions": 10
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/entities/allisonella.md",
-          "additions": 15,
-          "deletions": 15
-        },
-        {
-          "hash": "4f3cc0ecd5270611194ddcef6e22e7f33566e61a",
-          "date": "2026-04-13T13:01:25+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "wiki: bulk entity upgrades, new article pages, and site regeneration",
-          "path": "wiki/entities/allisonella.md",
-          "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/allisonella.md",
-          "additions": 3,
-          "deletions": 1
-        },
-        {
-          "hash": "221744f34a0f22124c3a96768875472da9c507d4",
-          "date": "2026-04-10T17:16:25+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-10 17:16",
-          "path": "wiki/entities/allisonella.md",
-          "additions": 136,
           "deletions": 0
         }
       ]
@@ -1212,56 +1108,6 @@
           "subject": "WikiBiome update — 2026-04-10 13:49",
           "path": "wiki/entities/aspergillus.md",
           "additions": 63,
-          "deletions": 0
-        }
-      ]
-    },
-    "atopobium-parvulum": {
-      "paths": [
-        "wiki/entities/atopobium-parvulum.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/atopobium-parvulum.md",
-          "additions": 13,
-          "deletions": 7
-        },
-        {
-          "hash": "ecf964e7996d8fbb611fe03941be515ee117e837",
-          "date": "2026-04-20T05:16:41+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "maintenance: 409 source fixes, 34 entity updates, 17 concept updates, 30 analysis outputs",
-          "path": "wiki/entities/atopobium-parvulum.md",
-          "additions": 54,
-          "deletions": 0
-        }
-      ]
-    },
-    "atopobium-vaginae": {
-      "paths": [
-        "wiki/entities/atopobium-vaginae.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/atopobium-vaginae.md",
-          "additions": 11,
-          "deletions": 8
-        },
-        {
-          "hash": "ecf964e7996d8fbb611fe03941be515ee117e837",
-          "date": "2026-04-20T05:16:41+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "maintenance: 409 source fixes, 34 entity updates, 17 concept updates, 30 analysis outputs",
-          "path": "wiki/entities/atopobium-vaginae.md",
-          "additions": 55,
           "deletions": 0
         }
       ]
@@ -3102,6 +2948,15 @@
         "wiki/entities/cardiovascular-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "cureva/signatures/cardiovascular-disease.md",
+          "additions": 6,
+          "deletions": 6
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5191,6 +5046,22 @@
         }
       ]
     },
+    "dialister-histaminiformans": {
+      "paths": [
+        "wiki/entities/dialister-histaminiformans.md"
+      ],
+      "revisions": [
+        {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/entities/dialister-histaminiformans.md",
+          "additions": 43,
+          "deletions": 0
+        }
+      ]
+    },
     "dialister": {
       "paths": [
         "wiki/entities/dialister.md"
@@ -6270,6 +6141,22 @@
           "subject": "nightly maintenance: 94 stub demotions, 181 source_count fixes, 22 auto-discovered stubs, 5 adversarial audits, 3 boundary fixes, 3 evidence-level corrections",
           "path": "wiki/entities/faecalibacterium.md",
           "additions": 21,
+          "deletions": 0
+        }
+      ]
+    },
+    "fannyhessea-vaginae": {
+      "paths": [
+        "wiki/entities/fannyhessea-vaginae.md"
+      ],
+      "revisions": [
+        {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/entities/fannyhessea-vaginae.md",
+          "additions": 44,
           "deletions": 0
         }
       ]
@@ -8967,6 +8854,22 @@
         }
       ]
     },
+    "lancefieldella-parvula": {
+      "paths": [
+        "wiki/entities/lancefieldella-parvula.md"
+      ],
+      "revisions": [
+        {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/entities/lancefieldella-parvula.md",
+          "additions": 43,
+          "deletions": 0
+        }
+      ]
+    },
     "lead": {
       "paths": [
         "wiki/entities/lead.md"
@@ -10767,6 +10670,15 @@
       ],
       "revisions": [
         {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/entities/olsenella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -11818,6 +11730,15 @@
         "wiki/entities/pelvic-inflammatory-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/entities/pelvic-inflammatory-disease.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -16532,6 +16453,15 @@
       ],
       "revisions": [
         {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/concepts/bacterial-vaginosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19620,6 +19550,15 @@
       ],
       "revisions": [
         {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/concepts/gut-vagina-axis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19843,6 +19782,15 @@
         "wiki/concepts/histidine.md"
       ],
       "revisions": [
+        {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/concepts/histidine.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25327,6 +25275,15 @@
         "wiki/signatures/atherosclerosis-signature.md"
       ],
       "revisions": [
+        {
+          "hash": "a9f575bcc2537d8b6c4e4e69cf77e744f1978d8d",
+          "date": "2026-09-01T13:19:39+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile current taxonomic identities",
+          "path": "wiki/signatures/atherosclerosis-signature.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",

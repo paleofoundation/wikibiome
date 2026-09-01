@@ -1,4 +1,5 @@
 import content from "@/data/content.generated.json";
+import articleAliasRegistry from "@/data/article-id-aliases.json";
 import sourceAliasRegistry from "@/data/source-id-aliases.json";
 
 export type WikiSection = {
@@ -145,6 +146,9 @@ const canonicalSourceMap = Object.fromEntries(
 const sourceAliases = Object.fromEntries(
   Object.entries(sourceAliasRegistry.aliases).map(([alias, target]) => [normalizeWikiId(alias), normalizeWikiId(target)]),
 ) as Record<string, string>;
+const articleAliases = Object.fromEntries(
+  Object.entries(articleAliasRegistry.aliases).map(([alias, target]) => [normalizeWikiId(alias), normalizeWikiId(target)]),
+) as Record<string, string>;
 const sourceMap = { ...canonicalSourceMap };
 for (const [alias, target] of Object.entries(sourceAliases)) {
   if (canonicalSourceMap[target]) sourceMap[alias] = canonicalSourceMap[target];
@@ -183,7 +187,7 @@ export const categories = [
 ] as const;
 
 export function getWikiPage(id: string) {
-  return pageMap.get(normalizeWikiId(id));
+  return pageMap.get(canonicalArticleAliasId(id));
 }
 
 export function getSource(id: string) {
@@ -196,10 +200,15 @@ export function canonicalSourceId(id: string) {
 }
 
 export function canonicalArticleId(id: string) {
-  const normalized = normalizeWikiId(id);
+  const normalized = canonicalArticleAliasId(id);
   const page = pageMap.get(normalized);
   if (page?.category === "signature") return getDiseaseRecord(normalized)?.canonicalId ?? normalized;
   return normalized;
+}
+
+export function canonicalArticleAliasId(id: string) {
+  const normalized = normalizeWikiId(id);
+  return articleAliases[normalized] ?? normalized;
 }
 
 export function getCategoryPages(category: string) {

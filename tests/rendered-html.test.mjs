@@ -4,6 +4,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
 import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { classifySearchReferrer } from "../lib/search-observability.mjs";
+import { getArticleAliases, validateArticleIdentityPolicy } from "../scripts/article-identity-policy.mjs";
 import { applyPublicContentPolicy, publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 import { normalizeSourceMetadata } from "../scripts/source-metadata-policy.mjs";
 import { assertMediaOutputAudit } from "../scripts/article-media-batch-validation.mjs";
@@ -178,6 +179,35 @@ test("rejects prompt-derived or unreconciled generated-media counts", () => {
   );
 });
 
+test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities during public generation", () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const aliases = getArticleAliases();
+  const audit = validateArticleIdentityPolicy(generated);
+
+  assert.equal(audit.aliasCount, 4);
+  assert.equal(audit.canonicalTaxonCount, 4);
+  for (const [alias, target] of Object.entries(aliases)) {
+    assert.equal(generated.pages.some((page) => page.id === alias), false, `${alias} must not remain indexable`);
+    assert.equal(generated.pages.filter((page) => page.id === target).length, 1, `${target} must be unique`);
+  }
+
+  const retiredReentry = structuredClone(generated);
+  retiredReentry.pages.push({ ...retiredReentry.pages.find((page) => page.id === "akkermansia-muciniphila"), id: "akkermansia-mucinicola" });
+  assert.throws(() => validateArticleIdentityPolicy(retiredReentry), /re-entered public generation/);
+
+  const obsoleteTitle = structuredClone(generated);
+  obsoleteTitle.pages.find((page) => page.id === "lancefieldella-parvula").title = "Atopobium parvulum";
+  assert.throws(() => validateArticleIdentityPolicy(obsoleteTitle), /has title|Obsolete taxon titles/);
+
+  const duplicateAliasTarget = structuredClone(generated);
+  duplicateAliasTarget.pages.push({ ...duplicateAliasTarget.pages.find((page) => page.id === "fannyhessea-vaginae") });
+  assert.throws(() => validateArticleIdentityPolicy(duplicateAliasTarget), /exactly one canonical page|exactly one public record/);
+
+  const unsupportedIdentity = structuredClone(generated);
+  unsupportedIdentity.pages.find((page) => page.id === "dialister-histaminiformans").overview += " Allisonella hiatal";
+  assert.throws(() => validateArticleIdentityPolicy(unsupportedIdentity), /Unsupported retired identities/);
+});
+
 test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-media-headers`);
@@ -244,8 +274,8 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
-  assert.match(html, /1,891/);
-  assert.match(html, /821/);
+  assert.match(html, /1,906/);
+  assert.match(html, /820/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
 
@@ -302,11 +332,37 @@ test("server-renders real article and directory pages through the shared redesig
 
   const directory = await directoryResponse.text();
   assert.match(directory, /<title>Microorganisms — WikiBiome<\/title>/i);
-  assert.match(directory, /233/);
+  assert.match(directory, /232/);
   assert.match(directory, /records in this view/);
   assert.match(directory, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(directory, /class="directory-record-media"[\s\S]*src="\/media\/image\/akkermansia-muciniphila-morphology-v2\.webp"/);
   assert.match(directory, /wikibiome-logo\.png/);
+});
+
+test("permanently redirects retired taxon URLs to one current-name canonical record", async () => {
+  const aliases = getArticleAliases();
+  for (const [legacyId, canonicalId] of Object.entries(aliases)) {
+    for (const suffix of ["", "/history", "/suggest"]) {
+      const response = await render(`/article/${legacyId}${suffix}`);
+      assert.equal(response.status, 308, `${legacyId}${suffix} must be a permanent redirect`);
+      assert.equal(response.headers.get("location"), `/article/${canonicalId}${suffix}`);
+    }
+  }
+
+  const currentIds = ["akkermansia-muciniphila", "dialister-histaminiformans", "lancefieldella-parvula", "fannyhessea-vaginae"];
+  const currentResponses = await Promise.all(currentIds.map((id) => render(`/article/${id}`)));
+  currentResponses.forEach((response) => assert.equal(response.status, 200));
+  const currentPages = await Promise.all(currentResponses.map((response) => response.text()));
+  assert.match(currentPages[0], /<title>Akkermansia muciniphila — WikiBiome<\/title>/i);
+  assert.match(currentPages[1], /<title>Dialister histaminiformans — WikiBiome<\/title>/i);
+  assert.match(currentPages[2], /<title>Lancefieldella parvula — WikiBiome<\/title>/i);
+  assert.match(currentPages[3], /<title>Fannyhessea vaginae — WikiBiome<\/title>/i);
+
+  const sitemap = await (await render("/sitemap.xml")).text();
+  for (const [legacyId, canonicalId] of Object.entries(aliases)) {
+    assert.doesNotMatch(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${legacyId}</loc>`));
+    assert.match(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${canonicalId}</loc>`));
+  }
 });
 
 test("applies literal, provenance-labeled image standards only to reviewed article subjects", async () => {
@@ -489,8 +545,8 @@ test("generates Akkermansia citations, reconciles source drift, and renders full
 
   const html = await response.text();
   assert.match(html, /<title>Akkermansia muciniphila — WikiBiome<\/title>/i);
-  assert.match(html, /10[\s\S]{0,80}generated references/);
-  assert.match(html, /10[\s\S]{0,80}unique references/);
+  assert.match(html, /13[\s\S]{0,80}generated references/);
+  assert.match(html, /13[\s\S]{0,80}unique references/);
   assert.match(html, /\+2[\s\S]{0,100}inline sources recovered beyond frontmatter/);
   assert.match(html, /href="#reference-1"[\s\S]*Reference 1/);
   assert.match(html, /id="references"/);
@@ -689,10 +745,10 @@ test("renders the production discovery, provenance, support, and participation s
 
   assert.match(readiness, /Every route accounted for/);
   assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
-  assert.match(readiness, /821[\s\S]{0,110}records[\s\S]{0,110}714[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /820[\s\S]{0,110}records[\s\S]{0,110}713[\s\S]{0,80}canonical article routes/);
   assert.match(
     readiness,
-    new RegExp(`${Object.keys(articleMediaRegistry).length} of 714 canonical article routes currently have reviewed`),
+    new RegExp(`${Object.keys(articleMediaRegistry).length} of 713 canonical article routes currently have reviewed`),
   );
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
@@ -702,7 +758,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /62e006cf0ced/);
+  assert.match(readiness, /87dcd63a4e40/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -881,7 +937,7 @@ test("renders the claim, contribute, collaborate researcher network", async () =
     networkResponse.text(), standardResponse.text(), submitResponse.text(), institutionsResponse.text(), sourceResponse.text(), dashboardResponse.text(),
   ]);
   assert.match(network, /Claim → Contribute → Collaborate/);
-  assert.match(network, /1,891[\s\S]{0,30}evidence records/);
+  assert.match(network, /1,906[\s\S]{0,30}evidence records/);
   assert.match(network, /Identity earns attribution—not control/);
   assert.match(network, /href="\/api\/auth\/orcid\/start\?returnTo=\/researcher\/dashboard"/);
 
@@ -933,7 +989,7 @@ test("keeps internal operational records out of the public encyclopedia", async 
 
   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   assert.equal(content._stats.analyses, 4);
-  assert.equal(content._stats.totalPages, 821);
+  assert.equal(content._stats.totalPages, 820);
   assert.ok(!content.pages.some((page) => publicContentExclusionReason(page)));
   assert.equal(publicContentExclusionReason({
     id: "weekly-content-maintenance-2026-06-01",
@@ -1108,10 +1164,10 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "62e006cf0ced1dce706a6438f6461602229a9f26");
+  assert.equal(manifest.source.commit, "87dcd63a4e40bbdc0d78f459e27d338661cb8902");
   assert.equal(manifest.content.sha256, digest);
-  assert.equal(manifest.content.pages, 821);
-  assert.equal(manifest.content.sources, 1891);
+  assert.equal(manifest.content.pages, 820);
+  assert.equal(manifest.content.sources, 1906);
   assert.equal(manifest.sourceMetadataPolicy.version, 1);
   assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
   assert.equal(manifest.sourceMetadataPolicy.omittedYearCount, 3);
@@ -1124,7 +1180,7 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.publicContentPolicy.version, 3);
   assert.equal(manifest.publicContentPolicy.excludedCount, 46);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
-  assert.equal(manifest.editorialNormalization.leadPromotionCount, 347);
+  assert.equal(manifest.editorialNormalization.leadPromotionCount, 345);
   assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
   assert.equal(manifest.editorialStatusPolicy.version, 1);
   assert.equal(manifest.editorialStatusPolicy.sourceCommit, manifest.source.commit);
@@ -1132,6 +1188,12 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.editorialStatusPolicy.appliedRecordCount, 122);
   const statusRegistry = readFileSync(new URL("../data/editorial-statuses.json", import.meta.url));
   assert.equal(manifest.editorialStatusPolicy.registrySha256, createHash("sha256").update(statusRegistry).digest("hex"));
+  assert.equal(manifest.articleIdentityPolicy.version, 1);
+  assert.equal(manifest.articleIdentityPolicy.aliasCount, 4);
+  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 4);
+  assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 4);
+  const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
+  assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
   assert.ok(manifest.audit.recoveredInlineReferences >= 348);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
