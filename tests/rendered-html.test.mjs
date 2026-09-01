@@ -1066,13 +1066,14 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(articleMediaRegistry.gardnerella?.caption ?? "", /not a universal genus form/);
   assert.match(articleMediaRegistry["gardnerella-vaginalis"]?.caption ?? "", /does not imply visual separation from other Gardnerella species or diagnosis/);
   const batch020 = batches.find((batch) => batch.batchId === "microorganisms-020");
-  assert.equal(batch020?.status, "awaiting-control-review");
+  assert.equal(batch020?.status, "reviewed");
   assert.equal(batch020?.routeDecisionCount, 6);
   assert.equal(batch020?.candidateCount, 6);
   assert.equal(batch020?.scientificHoldCount, 0);
   assert.equal(batch020?.generationCallCount, 6);
   assert.equal(batch020?.revisionCount, 0);
-  assert.equal(batch020?.controlReviewRequired, true);
+  assert.equal(batch020?.controlReviewRequired, false);
+  assert.equal(batch020?.controlAcceptedReviewManifestSha256, "14ee3951fb9db48705b7d81b8cf24e228198bf1c6ca649c4f050e066c6808f21");
   const batch020Candidates = batch020?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
   assert.deepEqual(batch020Candidates.map((asset) => asset.pageId), [
     "gemella",
@@ -1095,8 +1096,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   const batch020MasterFiles = readdirSync(new URL("../media/masters/", import.meta.url));
   for (const asset of batch020Candidates) {
     const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch020ExpectedOutputs.get(asset.pageId);
-    assert.equal(asset.decision, "generated-awaiting-control-review");
-    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.rootReviewDisposition, "accepted");
     assert.equal(asset.controlledIdentifier, expectedIdentifier);
     assert.equal(asset.promptSha256, expectedPromptSha256);
     assert.equal(asset.sha256, expectedSha256);
@@ -1121,11 +1122,19 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
 
     const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
-    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must not enter the registry before control approval`);
-    assert.ok(!batch020PublicMediaFiles.includes(expectedFiles.publishedFile), `${asset.pageId} review draft must not create a public article derivative`);
-    assert.ok(!batch020PublicMediaFiles.includes(expectedFiles.socialFile), `${asset.pageId} review draft must not create a public social derivative`);
-    assert.ok(!batch020MasterFiles.includes(expectedFiles.masterSource), `${asset.pageId} review draft must not create a canonical master`);
+    const media = articleMediaRegistry[asset.pageId];
+    assert.ok(media, `${asset.pageId} control-approved asset must enter the reviewed registry`);
+    assert.equal(media.reviewedOn, "2026-09-01");
+    assert.equal(media.embeddedCreationDate, "2026-09-01");
+    assert.equal(media.scientificIdentifiers[0]?.compact, expectedIdentifier);
+    assert.equal(media.socialResizeFit, "cover");
+    assert.ok(batch020PublicMediaFiles.includes(expectedFiles.publishedFile));
+    assert.ok(batch020PublicMediaFiles.includes(expectedFiles.socialFile));
+    assert.ok(batch020MasterFiles.includes(expectedFiles.masterSource));
     assert.ok(!batch020PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft path must not become public`);
+    assert.ok(!media.src.includes("work/media-drafts"));
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.disposition, "approved");
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.revisionLinkage?.sourceSha256, expectedSha256);
   }
   assert.equal(batch020Candidates.find((asset) => asset.pageId === "helicobacter-hepaticus")?.outputAudit?.observedVisibleAppendageCount, 12);
   assert.equal(batch020Candidates.find((asset) => asset.pageId === "helicobacter-hepaticus")?.outputAudit?.observedBipolarSingleFlagellumBodyCount, 6);
@@ -1135,6 +1144,12 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch020Candidates.find((asset) => asset.pageId === "haemophilus")?.proposedCaption ?? "", /not a universal genus form/);
   assert.match(batch020Candidates.find((asset) => asset.pageId === "helicobacter-hepaticus")?.proposedCaption ?? "", /not a generic H\. pylori portrait/);
   assert.match(batch020Candidates.find((asset) => asset.pageId === "holdemanella")?.proposedCaption ?? "", /not a universal genus arrangement/);
+  assert.match(articleMediaRegistry.gemella?.caption ?? "", /not a universal genus arrangement/);
+  assert.match(articleMediaRegistry.gordonibacter?.caption ?? "", /exactly three restrained conical-apex treatments/);
+  assert.match(articleMediaRegistry["gordonibacter-urolithinfaciens"]?.caption ?? "", /does not imply visual separation from other Gordonibacter/);
+  assert.match(articleMediaRegistry.haemophilus?.caption ?? "", /not a universal genus form, pathology image, or micrograph/);
+  assert.match(articleMediaRegistry["helicobacter-hepaticus"]?.caption ?? "", /explicitly not a generic H\. pylori portrait/);
+  assert.match(articleMediaRegistry.holdemanella?.caption ?? "", /not a universal genus arrangement/);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))

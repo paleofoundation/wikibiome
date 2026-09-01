@@ -2712,6 +2712,189 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 019 after honest extra-single/group reconciliation, nomenclatural disclosure, and no-visual-separability scope.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "gardnerella-vaginalis-draft.png", "sourceSha256": "a658b8ac4b097bdced6fcea237765c029a9495972aa6b6be128abf3d83ad8ef7", "generationRecord": "exec-32c6c5e5-1b72-4a50-bbd3-a495216af8f0.png" }
+    },
+    "gemella|gemella-morphology-v1.webp": {
+      "pageId": "gemella",
+      "publishedFile": "gemella-morphology-v1.webp",
+      "masterSource": "gemella-morphology-v1-master.png",
+      "socialFile": "gemella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1378&mode=Info",
+          "https://lpsn.dsmz.de/genus/gemella",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC105123/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC522364/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Gemella, NCBITaxon:1378, with G. haemolysans as type species. Type-species and genus evidence supports selected coccoid-to-slightly-ovoid forms and pair, tetrad, chain, or small-cluster arrangements without a fixed genus-wide grouping."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eleven bodies in six groups: three singles, two touching pairs, and one compact tetrad. Every body has its own ordinary boundary; no appendage, capsule, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles eleven bodies and six groupings. Caption separately states type-species-anchored, representative, non-diagnostic, non-universal, and non-micrograph genus scope. The validated cover social crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 020 after immutable-hash verification and exact 11-body/6-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "gemella-draft.png", "sourceSha256": "204d7c4ae03f3dad4bd988040278140fb80a8476220767d040dec1b1b422c42f", "generationRecord": "exec-75d071cd-6aac-425c-a419-256fa3938d8a.png" }
+    },
+    "gordonibacter|gordonibacter-morphology-v1.webp": {
+      "pageId": "gordonibacter",
+      "publishedFile": "gordonibacter-morphology-v1.webp",
+      "masterSource": "gordonibacter-morphology-v1-master.png",
+      "socialFile": "gordonibacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=644652&mode=Info",
+          "https://lpsn.dsmz.de/genus/gordonibacter",
+          "https://doi.org/10.1099/ijs.0.005900-0",
+          "https://oceanrep.geomar.de/9852/1/1405.pdf"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Gordonibacter, NCBITaxon:644652, with G. pamelaeae as type species. Primary evidence supports selected short rods/coccobacilli, division septa, and restrained conical apex treatments; omitted flagella and preparation-dependent slime are not generalized."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eight bodies in six groups: four singles and two touching division pairs, with exactly three restrained conical-apex treatments. No appendage, slime halo, capsule, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and description reconcile eight bodies, six groupings, and exactly three conical-apex treatments. Caption states type-species-anchored, representative, non-diagnostic, non-universal, and non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 020 after immutable-hash verification and exact morphology reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "gordonibacter-draft.png", "sourceSha256": "a2b173859e74fae5013539cb0c4101b5c6fa80f6d1db8053e6e0174aba345220", "generationRecord": "exec-9887ef01-9ef6-481c-a71b-b7dd6c2ca614.png" }
+    },
+    "gordonibacter-urolithinfaciens|gordonibacter-urolithinfaciens-morphology-v1.webp": {
+      "pageId": "gordonibacter-urolithinfaciens",
+      "publishedFile": "gordonibacter-urolithinfaciens-morphology-v1.webp",
+      "masterSource": "gordonibacter-urolithinfaciens-morphology-v1-master.png",
+      "socialFile": "gordonibacter-urolithinfaciens-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1335613&mode=Info",
+          "https://lpsn.dsmz.de/species/gordonibacter-urolithinfaciens",
+          "https://doi.org/10.1099/ijs.0.055095-0",
+          "https://pubmed.ncbi.nlm.nih.gov/24744017/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Gordonibacter urolithinfaciens, NCBITaxon:1335613, with G. faecihominis as a later heterotypic synonym. Primary evidence supports compact short rods/coccobacilli while not establishing illustration-level separability from the genus plate."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted nine compact short-rod-to-coccobacillary bodies in seven groups: five singles and two touching pairs. No appendage, slime halo, capsule, shared envelope, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine bodies and seven groupings. Caption explicitly states species-evidence-bounded, representative, non-diagnostic, non-micrograph, and no-visual-separability scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 020 after immutable-hash verification and exact 9-body/7-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "gordonibacter-urolithinfaciens-draft.png", "sourceSha256": "a8371093207e499e64545f889d7a971934df48a0c2adc04c0d89d5be41456759", "generationRecord": "exec-7af6d4af-c374-4b42-be6e-a3747df330a2.png" }
+    },
+    "haemophilus|haemophilus-morphology-v1.webp": {
+      "pageId": "haemophilus",
+      "publishedFile": "haemophilus-morphology-v1.webp",
+      "masterSource": "haemophilus-morphology-v1-master.png",
+      "socialFile": "haemophilus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=724&mode=Info",
+          "https://lpsn.dsmz.de/genus/haemophilus",
+          "https://lpsn.dsmz.de/species/haemophilus-influenzae",
+          "https://doi.org/10.1002/9781118960608.gbm01198.pub2",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC13076348/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain current genus Haemophilus, NCBITaxon:724, with H. influenzae as type species. Authoritative morphology supports selected pleomorphic short rods/coccobacilli; the public scope records the recent genomic proposal without presenting it as a completed nomenclatural replacement."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted ten pleomorphic short-rod-to-coccobacillary bodies in seven groups: four singles and three touching pairs. No filament, appendage, capsule, pathology, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles ten bodies and seven groupings. Caption states type-species-anchored, representative, non-diagnostic, non-universal, non-pathology, and non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 020 after immutable-hash verification and exact 10-body/7-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "haemophilus-draft.png", "sourceSha256": "eca159a8fd4ec5f822134843065aa46f2fb2dd2b86b9bb9258494b3575c78f9b", "generationRecord": "exec-20adcc7a-640b-454a-88fa-fa345762ec03.png" }
+    },
+    "helicobacter-hepaticus|helicobacter-hepaticus-morphology-v1.webp": {
+      "pageId": "helicobacter-hepaticus",
+      "publishedFile": "helicobacter-hepaticus-morphology-v1.webp",
+      "masterSource": "helicobacter-hepaticus-morphology-v1-master.png",
+      "socialFile": "helicobacter-hepaticus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32025&mode=Info",
+          "https://lpsn.dsmz.de/species/helicobacter-hepaticus",
+          "https://doi.org/10.1128/jcm.32.5.1238-1245.1994",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC263656/",
+          "https://www.ncbi.nlm.nih.gov/books/NBK2448/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Helicobacter hepaticus, NCBITaxon:32025. The primary description supports curved-to-slightly-spiral bodies with one sheathed flagellum at each pole and no periplasmic fibers; this is not a generic H. pylori treatment."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted six isolated curved bodies in six groups with exactly twelve visible polar filaments, one at each pole. No tuft, extra hair, periplasmic fiber, host scene, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and descriptions reconcile six bodies, six groups, and twelve polar filaments. Caption explicitly preserves source-bounded H. hepaticus species framing and rejects H. pylori substitution and visual diagnosis. The validated cover crop retains all bodies and all twelve filament endpoints."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 020 after immutable-hash verification and exact body, grouping, appendage, and placement reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "helicobacter-hepaticus-draft.png", "sourceSha256": "ffa5b34f13f50c4d9ff898ab2462d69e6f0a2f2fba93555f7eca9f352d458bc2", "generationRecord": "exec-f92b06ff-4091-49ce-be6f-de835af20d20.png" }
+    },
+    "holdemanella|holdemanella-morphology-v1.webp": {
+      "pageId": "holdemanella",
+      "publishedFile": "holdemanella-morphology-v1.webp",
+      "masterSource": "holdemanella-morphology-v1-master.png",
+      "socialFile": "holdemanella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1573535&mode=Info",
+          "https://lpsn.dsmz.de/genus/holdemanella",
+          "https://lpsn.dsmz.de/species/holdemanella-biformis",
+          "https://doi.org/10.1099/ijs.0.064626-0",
+          "https://bacdive.dsmz.de/strain/5417"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Holdemanella, NCBITaxon:1573535, with H. biformis as type species and current combination for former Eubacterium biforme. Type-species evidence supports selected short ovoid rods singly, in pairs, or short chains without a fixed genus-wide form."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted ten short ovoid rods in six groups: three singles, two touching pairs, and one touching three-body chain. Ordinary boundaries remain visible; no appendage, spore, capsule, text, clipping, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles ten bodies and six groupings. Caption separately states type-species-anchored, representative, non-diagnostic, non-universal, and non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 020 after immutable-hash verification and exact 10-body/6-group reconciliation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "holdemanella-draft.png", "sourceSha256": "41df66ae44aeb5a7d080a82ec2f15e722be22eb8f7e0e23639b9710cdbed219e", "generationRecord": "exec-5e26c0ca-8667-4656-af47-98b86bf71c3c.png" }
     }
   },
   "rejectedAssets": [

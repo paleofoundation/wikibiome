@@ -1,11 +1,12 @@
 # WikiBiome microorganism media batch 020
 
-Review-only scientific identity, evidence, prompt, and native-resolution output audit packet for the deterministic queue entries `gemella`, `gordonibacter`, `gordonibacter-urolithinfaciens`, `haemophilus`, `helicobacter-hepaticus`, and `holdemanella`.
+Scientific identity, evidence, immutable prompt, native-resolution output-audit, and promotion packet for the deterministic queue entries `gemella`, `gordonibacter`, `gordonibacter-urolithinfaciens`, `haemophilus`, `helicobacter-hepaticus`, and `holdemanella`.
 
 - Required parent: `ab14bd02b9993038bb4f903107a40056b9cc8d77`
 - Verified parent before modification: `ab14bd02b9993038bb4f903107a40056b9cc8d77`
+- Exact promotion parent: `781456d6dcfe3c2238f08182e6acf2f0997dcb50`
 - Audit and generation date: 2026-09-01
-- Mode: review-only; no registry, master, derivative, metadata-embedding, coverage-promotion, or sitemap entry is authorized
+- Mode: root-accepted and promoted from the six exact immutable v1 hashes; no regeneration or accepted-draft alteration
 - Generator: OpenAI built-in image generation, one immutable call per cleared route
 - Generation rule: prompt counts are composition requests, never evidence about the rendered output
 - Review rule: every copied PNG must be inspected at its original 1536 by 1024 resolution; literal visible counts and deviations govern proposed accessibility text
@@ -227,6 +228,12 @@ Across all six outputs, every body, boundary, and *H. hepaticus* filament endpoi
   - Alt: Ten selected Holdemanella short ovoid rods appear in six groupings: three singles, two touching pairs, and one three-body chain.
   - Caption: Type-species-anchored Holdemanella short ovoid rods, shown as ten bodies in three single, two paired, and one three-body chain grouping. This genus-level scientific reconstruction is representative, non-diagnostic, and not a universal genus arrangement or a micrograph.
 
-Public-facing provenance, if and only if a later exact-hash control disposition approves an asset: generated once with the OpenAI built-in image generator from the route's immutable batch-020 prompt after current-identity and conservative-morphology audit; human-audited at the original 1536 by 1024 resolution. Scientific reconstruction, not a micrograph.
+## Root control disposition and promotion boundary
 
-Only a later root-accepted immutable draft hash may supply a canonical master or derivative. Until then, every batch-020 PNG remains review-only, is absent from the public registry, masters, derivatives, and image sitemap, and must not be served as a public endpoint.
+On 2026-09-01, WikiBiome root control inspected all six exact v1 PNGs at original 1536 by 1024 resolution, accepted every immutable hash unchanged, and authorized promotion without regeneration or source-file alteration. The SHA-256 of the accepted pre-promotion review manifest is `14ee3951fb9db48705b7d81b8cf24e228198bf1c6ca649c4f050e066c6808f21`; the SHA-256 of the accepted pre-promotion prompt/evidence packet is `3ae99d6cdbb2ccaac80c61d42d2d73c3cd525915d7fb6862df472155d6f01d64`.
+
+Public provenance for every route: generated once with the OpenAI built-in image generator from the route's immutable batch-020 prompt after current-identity and conservative-morphology audit; human-audited at the original 1536 by 1024 resolution and accepted unchanged by WikiBiome root control. Scientific reconstruction, not a micrograph.
+
+Only the six accepted hashes in the audit ledger supply canonical masters and derivatives. Public metadata follows the literal observed output rather than prompt counts. *Gemella*, *Gordonibacter*, *Haemophilus*, and *Holdemanella* remain type-species-anchored representative genus plates rather than universal or diagnostic forms. *G. urolithinfaciens* remains a species-evidence-bounded reconstruction with no illustration-level separability claim. *H. hepaticus* retains exactly six isolated bodies and twelve source-supported polar filaments, one at each pole, and is never described as *H. pylori*. No `work/media-drafts` path is a public route or sitemap record.
+
+Native 1200 by 630 preview inspection confirmed that the intentional centered social-safe composition makes `cover` valid for all six records: every accepted body and grouping remains visible, and every *H. hepaticus* filament endpoint stays fully inside the social frame. The accepted PNGs were not altered. Article derivatives retain the full 1536 by 1024 frame; each social derivative records the validated `cover` transform.

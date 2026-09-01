@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "54d53e7bc300d398f978462b4028f2cceab7cf077421e115e0f67bdb19803761",
+    "registrySha256": "31b16844c96721b1a428842d302dfad1db5c957e4430bf5f0d06d1d85fbdec79",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "af52b2c0a19efdf672f2598e8afa672bf5ae17a820f9efb51524850453a270c1",
+    "reviewLogSha256": "3aaf3aaf280c8cdf6c1c55c9973b437234ab99bc43454ae8be8e2c77750a1984",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -129,8 +129,8 @@
       {
         "file": "data/article-media-batches/microorganisms-020.json",
         "batchId": "microorganisms-020",
-        "status": "awaiting-control-review",
-        "sha256": "14ee3951fb9db48705b7d81b8cf24e228198bf1c6ca649c4f050e066c6808f21"
+        "status": "reviewed",
+        "sha256": "4f07ca07037ee3b6949c0c85d5748072900b541798a44e655687c78a22d45349"
       }
     ]
   },
@@ -152,20 +152,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 109,
-    "remaining": 601,
+    "completed": 115,
+    "remaining": 595,
     "rejected": 13,
     "revised": 8,
     "scientificHolds": 0,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 106,
-      "remaining": 123
+      "completed": 112,
+      "remaining": 117
     },
     {
       "id": "metals",
@@ -2910,12 +2910,14 @@
       "route": "/article/gemella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-020",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-020/gemella-draft.png",
-        "sha256": "204d7c4ae03f3dad4bd988040278140fb80a8476220767d040dec1b1b422c42f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "gemella-morphology-v1-master.png",
+        "publishedFile": "gemella-morphology-v1.webp",
+        "socialFile": "gemella-morphology-v1-social.webp"
       }
     },
     {
@@ -2929,12 +2931,14 @@
       "route": "/article/gordonibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-020",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-020/gordonibacter-draft.png",
-        "sha256": "a2b173859e74fae5013539cb0c4101b5c6fa80f6d1db8053e6e0174aba345220"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "gordonibacter-morphology-v1-master.png",
+        "publishedFile": "gordonibacter-morphology-v1.webp",
+        "socialFile": "gordonibacter-morphology-v1-social.webp"
       }
     },
     {
@@ -2948,12 +2952,14 @@
       "route": "/article/gordonibacter-urolithinfaciens",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-020",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-020/gordonibacter-urolithinfaciens-draft.png",
-        "sha256": "a8371093207e499e64545f889d7a971934df48a0c2adc04c0d89d5be41456759"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "gordonibacter-urolithinfaciens-morphology-v1-master.png",
+        "publishedFile": "gordonibacter-urolithinfaciens-morphology-v1.webp",
+        "socialFile": "gordonibacter-urolithinfaciens-morphology-v1-social.webp"
       }
     },
     {
@@ -2967,12 +2973,14 @@
       "route": "/article/haemophilus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-020",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-020/haemophilus-draft.png",
-        "sha256": "eca159a8fd4ec5f822134843065aa46f2fb2dd2b86b9bb9258494b3575c78f9b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "haemophilus-morphology-v1-master.png",
+        "publishedFile": "haemophilus-morphology-v1.webp",
+        "socialFile": "haemophilus-morphology-v1-social.webp"
       }
     },
     {
@@ -2986,12 +2994,14 @@
       "route": "/article/helicobacter-hepaticus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-020",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-020/helicobacter-hepaticus-draft.png",
-        "sha256": "ffa5b34f13f50c4d9ff898ab2462d69e6f0a2f2fba93555f7eca9f352d458bc2"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "helicobacter-hepaticus-morphology-v1-master.png",
+        "publishedFile": "helicobacter-hepaticus-morphology-v1.webp",
+        "socialFile": "helicobacter-hepaticus-morphology-v1-social.webp"
       }
     },
     {
@@ -3026,12 +3036,14 @@
       "route": "/article/holdemanella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-020",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-020/holdemanella-draft.png",
-        "sha256": "41df66ae44aeb5a7d080a82ec2f15e722be22eb8f7e0e23639b9710cdbed219e"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "holdemanella-morphology-v1-master.png",
+        "publishedFile": "holdemanella-morphology-v1.webp",
+        "socialFile": "holdemanella-morphology-v1-social.webp"
       }
     },
     {
