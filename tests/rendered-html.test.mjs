@@ -488,9 +488,10 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.match(currentPages[12], /Eubacterium rectale[\s\S]{0,100}homotypic synonym/);
   assert.match(currentPages[12], /not claim unanimous phylogenetic agreement/);
   assert.doesNotMatch(currentPages[12], /Eubacterium rectale is the current name/);
-  assert.doesNotMatch(currentPages[12], /class="article-media-figure"/);
+  assert.match(currentPages[12], /class="article-media-figure"/);
+  assert.match(currentPages[12], /agathobacter-rectalis-morphology-v1\.webp/);
   assert.equal(articleMediaRegistry["eubacterium-rectale"], undefined);
-  assert.equal(articleMediaRegistry["agathobacter-rectalis"], undefined);
+  assert.ok(articleMediaRegistry["agathobacter-rectalis"]);
 
   const mergedHistoryResponse = await render("/article/clostridioides-difficile/history");
   assert.equal(mergedHistoryResponse.status, 200);
@@ -887,20 +888,25 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(decision?.canonicalPageId, canonicalId);
     assert.equal(decision?.canonicalIdentifier, identifier);
     assert.equal(articleMediaRegistry[obsoleteId], undefined);
-    assert.equal(articleMediaRegistry[canonicalId], undefined);
     assert.ok(!batch017PublicMediaFiles.some((filename) => filename.startsWith(`${obsoleteId}-`)));
-    assert.ok(!batch017PublicMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
     assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${obsoleteId}-`)));
-    assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${canonicalId}-`)));
+    if (canonicalId === "agathobacter-rectalis") {
+      assert.ok(articleMediaRegistry[canonicalId]);
+    } else {
+      assert.equal(articleMediaRegistry[canonicalId], undefined);
+      assert.ok(!batch017PublicMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
+      assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${canonicalId}-`)));
+    }
   }
   const batch018 = batches.find((batch) => batch.batchId === "microorganisms-018");
-  assert.equal(batch018?.status, "awaiting-control-review");
+  assert.equal(batch018?.status, "reviewed");
   assert.equal(batch018?.routeDecisionCount, 6);
   assert.equal(batch018?.candidateCount, 6);
   assert.equal(batch018?.scientificHoldCount, 0);
   assert.equal(batch018?.generationCallCount, 6);
   assert.equal(batch018?.revisionCount, 0);
-  assert.equal(batch018?.controlReviewRequired, true);
+  assert.equal(batch018?.controlReviewRequired, false);
+  assert.equal(batch018?.controlAcceptedReviewManifestSha256, "cc049461dbd466ea0df1c4ed3bd4914b7136ca764df46b1b63ec90cefd2c25fd");
   const batch018Candidates = batch018?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
   assert.deepEqual(batch018Candidates.map((asset) => asset.pageId), [
     "agathobacter-rectalis",
@@ -923,8 +929,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   const batch018MasterFiles = readdirSync(new URL("../media/masters/", import.meta.url));
   for (const asset of batch018Candidates) {
     const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch018ExpectedOutputs.get(asset.pageId);
-    assert.equal(asset.decision, "generated-awaiting-control-review");
-    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.rootReviewDisposition, "accepted");
     assert.equal(asset.controlledIdentifier, expectedIdentifier);
     assert.equal(asset.promptSha256, expectedPromptSha256);
     assert.equal(asset.sha256, expectedSha256);
@@ -948,16 +954,32 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
 
     const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
-    assert.equal(articleMediaRegistry[asset.pageId], undefined);
-    assert.ok(!batch018PublicMediaFiles.includes(expectedFiles.publishedFile));
-    assert.ok(!batch018PublicMediaFiles.includes(expectedFiles.socialFile));
-    assert.ok(!batch018MasterFiles.includes(expectedFiles.masterSource));
+    const media = articleMediaRegistry[asset.pageId];
+    assert.ok(media, `${asset.pageId} control-approved asset must enter the reviewed registry`);
+    assert.equal(media.reviewedOn, "2026-09-01");
+    assert.equal(media.embeddedCreationDate, "2026-09-01");
+    assert.equal(media.scientificIdentifiers[0]?.compact, expectedIdentifier);
+    assert.ok(batch018PublicMediaFiles.includes(expectedFiles.publishedFile));
+    assert.ok(batch018PublicMediaFiles.includes(expectedFiles.socialFile));
+    assert.ok(batch018MasterFiles.includes(expectedFiles.masterSource));
+    assert.ok(!batch018PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft must not become a public file`);
+    assert.ok(!media.src.includes("work/media-drafts"));
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.disposition, "approved");
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.revisionLinkage?.sourceSha256, expectedSha256);
   }
   assert.equal(batch018Candidates.find((asset) => asset.pageId === "firmicutes")?.assetType, "microbial-community");
   assert.match(batch018Candidates.find((asset) => asset.pageId === "firmicutes")?.proposedCaption ?? "", /representative, non-exhaustive, non-diagnostic/);
   assert.equal(batch018Candidates.find((asset) => asset.pageId === "fusarium")?.outputAudit?.observedMajorStructureCount, 5);
   assert.equal(batch018Candidates.find((asset) => asset.pageId === "fusarium")?.outputAudit?.observedFrameContactCount, 1);
-  assert.match(batch018Candidates.find((asset) => asset.pageId === "fusarium")?.visualReview ?? "", /cropped by the bottom frame edge/);
+  assert.match(batch018Candidates.find((asset) => asset.pageId === "fusarium")?.visualReview ?? "", /intentionally continues beyond the bottom specimen frame/);
+  assert.match(articleMediaRegistry.firmicutes?.caption ?? "", /representative, non-exhaustive, non-diagnostic/);
+  assert.match(articleMediaRegistry.firmicutes?.caption ?? "", /never a universal phylum form/);
+  assert.match(articleMediaRegistry.fusarium?.caption ?? "", /may show six septa/);
+  assert.match(articleMediaRegistry.fusarium?.caption ?? "", /does not imply a universal septation pattern/);
+  assert.equal(articleMediaRegistry.fusarium?.scientificIdentifiers[1]?.compact, "IndexFungorum:8284");
+  assert.equal(articleMediaRegistry["eubacterium-rectale"], undefined);
+  assert.ok(!batch018PublicMediaFiles.some((filename) => filename.startsWith("eubacterium-rectale-")));
+  assert.ok(!batch018MasterFiles.some((filename) => filename.startsWith("eubacterium-rectale-")));
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -1003,7 +1025,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "reviewed"],
     ["davidiella", "cladosporium", "NCBITaxon:5498", "reviewed"],
     ["eubacterium-eligens", "lachnospira-eligens", "NCBITaxon:39485", "queued"],
-    ["eubacterium-rectale", "agathobacter-rectalis", "NCBITaxon:39491", "in-review"],
+    ["eubacterium-rectale", "agathobacter-rectalis", "NCBITaxon:39491", "reviewed"],
   ];
   for (const [obsoleteId, canonicalId, identifier, expectedStatus] of currentNameMediaMappings) {
     const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === obsoleteId);
