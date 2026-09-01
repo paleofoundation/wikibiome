@@ -6,6 +6,7 @@ import { join } from "node:path";
 import { fileURLToPath } from "node:url";
 import test from "node:test";
 import { discussionPublishingDecision, institutionEmailMatchesAuthoritativeDomains } from "../lib/research-trust-policy.mjs";
+import { appendOrcidStatus, getOrcidAuthMessage } from "../lib/orcid-auth.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 
@@ -81,6 +82,26 @@ test("pending or rejected posts cannot unlock direct discussion publishing", () 
   const network = source("lib/research-network.ts");
   assert.match(network, /eq\(discussionPosts\.status, "published"\)/);
   assert.match(network, /"trust\.promoted"/);
+});
+
+test("ORCID failures remain visible and preserve return URLs with fragments", () => {
+  assert.equal(
+    appendOrcidStatus("/article/example?view=full#discussion", "not_configured"),
+    "/article/example?view=full&orcid=not_configured#discussion",
+  );
+  assert.equal(appendOrcidStatus("https://attacker.example", "token_error"), "/researcher/dashboard?orcid=token_error");
+  assert.match(getOrcidAuthMessage("not_configured").title, /not active/i);
+  assert.equal(getOrcidAuthMessage("unknown"), null);
+
+  const start = source("app/api/auth/orcid/start/route.ts");
+  const callback = source("app/api/auth/orcid/callback/route.ts");
+  const layout = source("app/layout.tsx");
+  const feedback = source("app/_components/OrcidAuthFeedback.tsx");
+  assert.match(start, /!runtime\.ORCID_CLIENT_ID \|\| !runtime\.ORCID_CLIENT_SECRET/);
+  assert.match(start, /appendOrcidStatus\(returnTo, "not_configured"\)/);
+  assert.doesNotMatch(callback, /state\.returnTo\.includes\("\?"\)/);
+  assert.match(layout, /<OrcidAuthFeedback \/>/);
+  assert.match(feedback, /role=\{status === "cancelled" \? "status" : "alert"\}/);
 });
 
 test("institution domain verification uses only authoritative ROR domains", () => {
