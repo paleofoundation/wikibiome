@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T15:49:29.510Z",
+  "generatedAt": "2026-09-01T18:16:27.259Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "66a773667b1f6c06592eca878d5023138c602b39",
+  "sourceCommit": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
   "records": 817,
   "canonicalIds": 752,
-  "revisions": 2917,
+  "revisions": 2932,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -354,6 +354,50 @@
           "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
           "path": "wiki/entities/aeromonas.md",
           "additions": 48,
+          "deletions": 0
+        }
+      ]
+    },
+    "agathobacter-rectalis": {
+      "paths": [
+        "wiki/entities/agathobacter-rectalis.md",
+        "wiki/entities/eubacterium-rectale.md"
+      ],
+      "revisions": [
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/entities/agathobacter-rectalis.md",
+          "additions": 64,
+          "deletions": 0
+        },
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/entities/eubacterium-rectale.md",
+          "additions": 0,
+          "deletions": 87
+        },
+        {
+          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
+          "date": "2026-05-04T12:56:02-06:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
+          "path": "wiki/entities/eubacterium-rectale.md",
+          "additions": 16,
+          "deletions": 16
+        },
+        {
+          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
+          "date": "2026-04-18T21:04:01+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "pre-overnight checkpoint 2026-04-18",
+          "path": "wiki/entities/eubacterium-rectale.md",
+          "additions": 87,
           "deletions": 0
         }
       ]
@@ -1507,6 +1551,15 @@
         "wiki/entities/bacteroides-uniformis.md"
       ],
       "revisions": [
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/entities/bacteroides-uniformis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -3501,6 +3554,15 @@
         "wiki/entities/chronic-kidney-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "cureva/signatures/chronic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5967,56 +6029,6 @@
         }
       ]
     },
-    "eubacterium-eligens": {
-      "paths": [
-        "wiki/entities/eubacterium-eligens.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/eubacterium-eligens.md",
-          "additions": 16,
-          "deletions": 11
-        },
-        {
-          "hash": "ecf964e7996d8fbb611fe03941be515ee117e837",
-          "date": "2026-04-20T05:16:41+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "maintenance: 409 source fixes, 34 entity updates, 17 concept updates, 30 analysis outputs",
-          "path": "wiki/entities/eubacterium-eligens.md",
-          "additions": 98,
-          "deletions": 0
-        }
-      ]
-    },
-    "eubacterium-rectale": {
-      "paths": [
-        "wiki/entities/eubacterium-rectale.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/eubacterium-rectale.md",
-          "additions": 16,
-          "deletions": 16
-        },
-        {
-          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
-          "date": "2026-04-18T21:04:01+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "pre-overnight checkpoint 2026-04-18",
-          "path": "wiki/entities/eubacterium-rectale.md",
-          "additions": 87,
-          "deletions": 0
-        }
-      ]
-    },
     "eubacterium": {
       "paths": [
         "wiki/entities/eubacterium.md"
@@ -8433,6 +8445,50 @@
         }
       ]
     },
+    "lachnospira-eligens": {
+      "paths": [
+        "wiki/entities/lachnospira-eligens.md",
+        "wiki/entities/eubacterium-eligens.md"
+      ],
+      "revisions": [
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/entities/lachnospira-eligens.md",
+          "additions": 59,
+          "deletions": 0
+        },
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/entities/eubacterium-eligens.md",
+          "additions": 0,
+          "deletions": 103
+        },
+        {
+          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
+          "date": "2026-05-04T12:56:02-06:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
+          "path": "wiki/entities/eubacterium-eligens.md",
+          "additions": 16,
+          "deletions": 11
+        },
+        {
+          "hash": "ecf964e7996d8fbb611fe03941be515ee117e837",
+          "date": "2026-04-20T05:16:41+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "maintenance: 409 source fixes, 34 entity updates, 17 concept updates, 30 analysis outputs",
+          "path": "wiki/entities/eubacterium-eligens.md",
+          "additions": 98,
+          "deletions": 0
+        }
+      ]
+    },
     "lachnospira": {
       "paths": [
         "wiki/entities/lachnospira.md"
@@ -8499,6 +8555,15 @@
         "wiki/entities/lachnospiraceae-family.md"
       ],
       "revisions": [
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/entities/lachnospiraceae-family.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -13461,6 +13526,15 @@
       ],
       "revisions": [
         {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/entities/ruminococcus-bromii.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -15317,6 +15391,15 @@
         "wiki/entities/type-1-diabetes.md"
       ],
       "revisions": [
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/entities/type-1-diabetes.md",
+          "additions": 5,
+          "deletions": 5
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25342,6 +25425,15 @@
       ],
       "revisions": [
         {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/signatures/alzheimers-disease-signature.md",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26452,6 +26544,15 @@
       ],
       "revisions": [
         {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/signatures/type-1-diabetes-signature.md",
+          "additions": 6,
+          "deletions": 6
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26600,6 +26701,15 @@
       ],
       "revisions": [
         {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "cureva/interventions/dietary-fiber-ckd.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c5c6d3c074c10f6364f1453848c90ed60b113139",
           "date": "2026-04-16T09:12:51+03:00",
           "author": "WikiBiome Deploy Bot",
@@ -26615,6 +26725,15 @@
         "cureva/interventions/dietary-fiber-colorectal-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "cureva/interventions/dietary-fiber-colorectal-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c5c6d3c074c10f6364f1453848c90ed60b113139",
           "date": "2026-04-16T09:12:51+03:00",
@@ -27175,6 +27294,15 @@
       ],
       "revisions": [
         {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/interventions/dietary-fiber.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27525,6 +27653,15 @@
         "wiki/interventions/high-fiber-prebiotics.md"
       ],
       "revisions": [
+        {
+          "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
+          "date": "2026-09-01T21:13:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Reconcile Eubacterium species with current names",
+          "path": "wiki/interventions/high-fiber-prebiotics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",

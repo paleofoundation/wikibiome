@@ -3,14 +3,14 @@
   "generatedOn": "2026-09-01",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
-    "upstreamCommit": "66a773667b1f6c06592eca878d5023138c602b39",
+    "upstreamCommit": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
     "contentManifest": "data/content-manifest.generated.json",
     "contentFile": "data/content.generated.json",
-    "contentSha256": "a854ec6fc8b9b2875f203dc5c2f98d3c6d9bdc45b35dd6d7fdd93c79fe4add23",
+    "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "2d2d4414b8c3880a5e18ad4132e4c003246c3ec42301aa310f7f48fab6e48811",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "97cc8e94d1e376b77965df401bd3c9b67a7c2bde6cac9460360029f8978c620b",
+    "reviewLogSha256": "424069e4451fabc2ce34ca8d1da5c029391db6e2bd50a5bd137e109f2b897ba6",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -130,7 +130,7 @@
     "total": 710,
     "completed": 93,
     "remaining": 617,
-    "rejected": 11,
+    "rejected": 13,
     "revised": 8,
     "scientificHolds": 0,
     "inReview": 0
@@ -451,6 +451,61 @@
         "controlledIdentifier": "NCBITaxon:5498",
         "coverageStatus": "uncovered"
       }
+    },
+    {
+      "pageId": "eubacterium-eligens",
+      "batchId": "microorganisms-017",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:39485 to the current name Lachnospira eligens and records Eubacterium eligens as its basionym. LPSN selects Lachnospira eligens as the correct validly published combination, and García-López et al. supplied the primary phylogenomic transfer. A new asset must not be keyed to the obsolete combination or to the broader source-era Eubacterium eligens group label.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39485&mode=Info",
+        "https://lpsn.dsmz.de/species/lachnospira-eligens",
+        "https://pubmed.ncbi.nlm.nih.gov/31608019/",
+        "https://doi.org/10.3389/fmicb.2019.02083"
+      ],
+      "requiredResolution": "Retire the obsolete species-combination slug in favor of one Lachnospira eligens canonical record keyed to NCBITaxon:39485, while preserving Eubacterium eligens and Eubacterium eligens group only as source-era labels with their resolution limits.",
+      "routingImpact": "The obsolete slug is excluded from the canonical queue, registry, public media files, and image sitemap. Batch 017 generated no raster; any future asset may be keyed only to lachnospira-eligens and NCBITaxon:39485.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The obsolete-combination record was replaced by a conservative current-name Lachnospira eligens record. Article, history, and suggest routes permanently redirect while source-era group labels remain explicit and are not treated as species-resolved evidence.",
+      "canonicalPageId": "lachnospira-eligens",
+      "canonicalIdentifier": "NCBITaxon:39485",
+      "queueReplacement": {
+        "pageId": "lachnospira-eligens",
+        "title": "Lachnospira eligens",
+        "route": "/article/lachnospira-eligens",
+        "controlledIdentifier": "NCBITaxon:39485",
+        "coverageStatus": "uncovered"
+      }
+    },
+    {
+      "pageId": "eubacterium-rectale",
+      "batchId": "microorganisms-017",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:39491 to the current name Agathobacter rectalis and records Eubacterium rectale as a homotypic synonym. LPSN selects Agathobacter rectalis as the correct validly published combination. Rosero et al. supplied the primary transfer, while WikiBiome also preserves the published objection to that placement rather than presenting it as unanimous.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39491&mode=Info",
+        "https://lpsn.dsmz.de/species/agathobacter-rectalis",
+        "https://pubmed.ncbi.nlm.nih.gov/26619944/",
+        "https://pubmed.ncbi.nlm.nih.gov/26916277/",
+        "https://doi.org/10.1099/ijsem.0.000788"
+      ],
+      "requiredResolution": "Retire the obsolete species-combination slug in favor of one Agathobacter rectalis canonical record keyed to NCBITaxon:39491, retain source-era Eubacterium rectale wording, and disclose the published nomenclatural objection.",
+      "routingImpact": "The obsolete slug is excluded from the canonical queue, registry, public media files, and image sitemap. Batch 017 generated no raster; any future asset may be keyed only to agathobacter-rectalis and NCBITaxon:39491.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The obsolete-combination record was replaced by a conservative current-name Agathobacter rectalis record that retains historical source labels and the published disagreement. Article, history, and suggest routes permanently redirect to the single current route.",
+      "canonicalPageId": "agathobacter-rectalis",
+      "canonicalIdentifier": "NCBITaxon:39491",
+      "queueReplacement": {
+        "pageId": "agathobacter-rectalis",
+        "title": "Agathobacter rectalis",
+        "route": "/article/agathobacter-rectalis",
+        "controlledIdentifier": "NCBITaxon:39491",
+        "coverageStatus": "uncovered"
+      }
     }
   ],
   "revisedAssets": [
@@ -554,25 +609,17 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 90,
-      "id": "eubacterium-eligens",
-      "title": "Eubacterium eligens",
-      "route": "/article/eubacterium-eligens",
+      "queuePosition": 10,
+      "id": "agathobacter-rectalis",
+      "title": "Agathobacter rectalis",
+      "route": "/article/agathobacter-rectalis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:39491"
     },
     {
       "queuePosition": 91,
-      "id": "eubacterium-rectale",
-      "title": "Eubacterium rectale",
-      "route": "/article/eubacterium-rectale",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 92,
       "id": "faecalibacterium",
       "title": "Faecalibacterium",
       "route": "/article/faecalibacterium",
@@ -581,7 +628,7 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 93,
+      "queuePosition": 92,
       "id": "faecalibacterium-prausnitzii",
       "title": "Faecalibacterium prausnitzii",
       "route": "/article/faecalibacterium-prausnitzii",
@@ -590,7 +637,7 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 94,
+      "queuePosition": 93,
       "id": "fannyhessea-vaginae",
       "title": "Fannyhessea vaginae",
       "route": "/article/fannyhessea-vaginae",
@@ -599,10 +646,19 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 95,
+      "queuePosition": 94,
       "id": "finegoldia",
       "title": "Finegoldia",
       "route": "/article/finegoldia",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 95,
+      "id": "firmicutes",
+      "title": "Firmicutes (Bacillota)",
+      "route": "/article/firmicutes",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -800,6 +856,20 @@
     },
     {
       "queuePosition": 10,
+      "id": "agathobacter-rectalis",
+      "title": "Agathobacter rectalis",
+      "category": "microbe",
+      "sourceCategories": [
+        "microbe"
+      ],
+      "route": "/article/agathobacter-rectalis",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:39491",
+      "status": "queued"
+    },
+    {
+      "queuePosition": 11,
       "id": "akkermansia-muciniphila",
       "title": "Akkermansia muciniphila",
       "category": "microbe",
@@ -820,7 +890,7 @@
       }
     },
     {
-      "queuePosition": 11,
+      "queuePosition": 12,
       "id": "alishewanella",
       "title": "Alishewanella",
       "category": "microbe",
@@ -841,7 +911,7 @@
       }
     },
     {
-      "queuePosition": 12,
+      "queuePosition": 13,
       "id": "alistipes",
       "title": "Alistipes",
       "category": "microbe",
@@ -862,7 +932,7 @@
       }
     },
     {
-      "queuePosition": 13,
+      "queuePosition": 14,
       "id": "alloprevotella",
       "title": "Alloprevotella",
       "category": "microbe",
@@ -883,7 +953,7 @@
       }
     },
     {
-      "queuePosition": 14,
+      "queuePosition": 15,
       "id": "alloscardovia",
       "title": "Alloscardovia",
       "category": "microbe",
@@ -904,7 +974,7 @@
       }
     },
     {
-      "queuePosition": 15,
+      "queuePosition": 16,
       "id": "alternaria",
       "title": "Alternaria",
       "category": "microbe",
@@ -925,7 +995,7 @@
       }
     },
     {
-      "queuePosition": 16,
+      "queuePosition": 17,
       "id": "anaerococcus",
       "title": "Anaerococcus",
       "category": "microbe",
@@ -946,7 +1016,7 @@
       }
     },
     {
-      "queuePosition": 17,
+      "queuePosition": 18,
       "id": "anaerostipes",
       "title": "Anaerostipes",
       "category": "microbe",
@@ -967,7 +1037,7 @@
       }
     },
     {
-      "queuePosition": 18,
+      "queuePosition": 19,
       "id": "anaerotruncus",
       "title": "Anaerotruncus",
       "category": "microbe",
@@ -988,7 +1058,7 @@
       }
     },
     {
-      "queuePosition": 19,
+      "queuePosition": 20,
       "id": "aspergillus",
       "title": "Aspergillus",
       "category": "microbe",
@@ -1009,7 +1079,7 @@
       }
     },
     {
-      "queuePosition": 20,
+      "queuePosition": 21,
       "id": "atopobium",
       "title": "Atopobium",
       "category": "microbe",
@@ -1030,7 +1100,7 @@
       }
     },
     {
-      "queuePosition": 21,
+      "queuePosition": 22,
       "id": "bacillus",
       "title": "Bacillus",
       "category": "microbe",
@@ -1051,7 +1121,7 @@
       }
     },
     {
-      "queuePosition": 22,
+      "queuePosition": 23,
       "id": "bacteroidaceae",
       "title": "Bacteroidaceae",
       "category": "microbe",
@@ -1072,7 +1142,7 @@
       }
     },
     {
-      "queuePosition": 23,
+      "queuePosition": 24,
       "id": "bacteroidales",
       "title": "Bacteroidales",
       "category": "microbe",
@@ -1093,7 +1163,7 @@
       }
     },
     {
-      "queuePosition": 24,
+      "queuePosition": 25,
       "id": "bacteroides",
       "title": "Bacteroides",
       "category": "microbe",
@@ -1114,7 +1184,7 @@
       }
     },
     {
-      "queuePosition": 25,
+      "queuePosition": 26,
       "id": "bacteroides-caccae",
       "title": "Bacteroides caccae",
       "category": "microbe",
@@ -1135,7 +1205,7 @@
       }
     },
     {
-      "queuePosition": 26,
+      "queuePosition": 27,
       "id": "bacteroides-fragilis",
       "title": "Bacteroides fragilis",
       "category": "microbe",
@@ -1156,7 +1226,7 @@
       }
     },
     {
-      "queuePosition": 27,
+      "queuePosition": 28,
       "id": "bacteroides-thetaiotaomicron",
       "title": "Bacteroides thetaiotaomicron",
       "category": "microbe",
@@ -1177,7 +1247,7 @@
       }
     },
     {
-      "queuePosition": 28,
+      "queuePosition": 29,
       "id": "bacteroides-uniformis",
       "title": "Bacteroides uniformis",
       "category": "microbe",
@@ -1198,7 +1268,7 @@
       }
     },
     {
-      "queuePosition": 29,
+      "queuePosition": 30,
       "id": "bacteroides-vulgatus",
       "title": "Bacteroides vulgatus",
       "category": "microbe",
@@ -1219,7 +1289,7 @@
       }
     },
     {
-      "queuePosition": 30,
+      "queuePosition": 31,
       "id": "bacteroidetes",
       "title": "Bacteroidetes (Bacteroidota)",
       "category": "microbe",
@@ -1240,7 +1310,7 @@
       }
     },
     {
-      "queuePosition": 31,
+      "queuePosition": 32,
       "id": "barnesiella",
       "title": "Barnesiella",
       "category": "microbe",
@@ -1261,7 +1331,7 @@
       }
     },
     {
-      "queuePosition": 32,
+      "queuePosition": 33,
       "id": "betaproteobacteria",
       "title": "Betaproteobacteria",
       "category": "microbe",
@@ -1282,7 +1352,7 @@
       }
     },
     {
-      "queuePosition": 33,
+      "queuePosition": 34,
       "id": "bifidobacteriaceae",
       "title": "Bifidobacteriaceae",
       "category": "microbe",
@@ -1303,7 +1373,7 @@
       }
     },
     {
-      "queuePosition": 34,
+      "queuePosition": 35,
       "id": "bifidobacteriales",
       "title": "Bifidobacteriales",
       "category": "microbe",
@@ -1324,7 +1394,7 @@
       }
     },
     {
-      "queuePosition": 35,
+      "queuePosition": 36,
       "id": "bifidobacterium",
       "title": "Bifidobacterium",
       "category": "microbe",
@@ -1345,7 +1415,7 @@
       }
     },
     {
-      "queuePosition": 36,
+      "queuePosition": 37,
       "id": "bifidobacterium-adolescentis",
       "title": "Bifidobacterium adolescentis",
       "category": "microbe",
@@ -1366,7 +1436,7 @@
       }
     },
     {
-      "queuePosition": 37,
+      "queuePosition": 38,
       "id": "bifidobacterium-bifidum",
       "title": "Bifidobacterium bifidum",
       "category": "microbe",
@@ -1387,7 +1457,7 @@
       }
     },
     {
-      "queuePosition": 38,
+      "queuePosition": 39,
       "id": "bifidobacterium-breve",
       "title": "Bifidobacterium breve",
       "category": "microbe",
@@ -1408,7 +1478,7 @@
       }
     },
     {
-      "queuePosition": 39,
+      "queuePosition": 40,
       "id": "bifidobacterium-longum",
       "title": "Bifidobacterium longum",
       "category": "microbe",
@@ -1429,7 +1499,7 @@
       }
     },
     {
-      "queuePosition": 40,
+      "queuePosition": 41,
       "id": "bifidobacterium-longum-subsp-infantis",
       "title": "Bifidobacterium longum subsp. infantis",
       "category": "microbe",
@@ -1451,7 +1521,7 @@
       }
     },
     {
-      "queuePosition": 41,
+      "queuePosition": 42,
       "id": "bilophila",
       "title": "Bilophila",
       "category": "microbe",
@@ -1472,7 +1542,7 @@
       }
     },
     {
-      "queuePosition": 42,
+      "queuePosition": 43,
       "id": "blautia",
       "title": "Blautia",
       "category": "microbe",
@@ -1493,7 +1563,7 @@
       }
     },
     {
-      "queuePosition": 43,
+      "queuePosition": 44,
       "id": "borrelia",
       "title": "Borrelia",
       "category": "microbe",
@@ -1514,7 +1584,7 @@
       }
     },
     {
-      "queuePosition": 44,
+      "queuePosition": 45,
       "id": "brucella",
       "title": "Brucella",
       "category": "microbe",
@@ -1535,7 +1605,7 @@
       }
     },
     {
-      "queuePosition": 45,
+      "queuePosition": 46,
       "id": "burkholderiales",
       "title": "Burkholderiales",
       "category": "microbe",
@@ -1556,7 +1626,7 @@
       }
     },
     {
-      "queuePosition": 46,
+      "queuePosition": 47,
       "id": "butyricicoccus",
       "title": "Butyricicoccus",
       "category": "microbe",
@@ -1577,7 +1647,7 @@
       }
     },
     {
-      "queuePosition": 47,
+      "queuePosition": 48,
       "id": "butyricimonas",
       "title": "Butyricimonas",
       "category": "microbe",
@@ -1598,7 +1668,7 @@
       }
     },
     {
-      "queuePosition": 48,
+      "queuePosition": 49,
       "id": "butyrivibrio",
       "title": "Butyrivibrio",
       "category": "microbe",
@@ -1619,7 +1689,7 @@
       }
     },
     {
-      "queuePosition": 49,
+      "queuePosition": 50,
       "id": "campylobacter",
       "title": "Campylobacter",
       "category": "microbe",
@@ -1640,7 +1710,7 @@
       }
     },
     {
-      "queuePosition": 50,
+      "queuePosition": 51,
       "id": "campylobacter-jejuni",
       "title": "Campylobacter jejuni",
       "category": "microbe",
@@ -1661,7 +1731,7 @@
       }
     },
     {
-      "queuePosition": 51,
+      "queuePosition": 52,
       "id": "candida-albicans",
       "title": "Candida albicans",
       "category": "microbe",
@@ -1682,7 +1752,7 @@
       }
     },
     {
-      "queuePosition": 52,
+      "queuePosition": 53,
       "id": "candida-tropicalis",
       "title": "Candida tropicalis",
       "category": "microbe",
@@ -1703,7 +1773,7 @@
       }
     },
     {
-      "queuePosition": 53,
+      "queuePosition": 54,
       "id": "candidozyma-auris",
       "title": "Candidozyma auris",
       "category": "microbe",
@@ -1725,7 +1795,7 @@
       }
     },
     {
-      "queuePosition": 54,
+      "queuePosition": 55,
       "id": "caulobacter",
       "title": "Caulobacter",
       "category": "microbe",
@@ -1746,7 +1816,7 @@
       }
     },
     {
-      "queuePosition": 55,
+      "queuePosition": 56,
       "id": "chlamydia",
       "title": "Chlamydia",
       "category": "microbe",
@@ -1767,7 +1837,7 @@
       }
     },
     {
-      "queuePosition": 56,
+      "queuePosition": 57,
       "id": "chlamydia-trachomatis",
       "title": "Chlamydia trachomatis",
       "category": "microbe",
@@ -1788,7 +1858,7 @@
       }
     },
     {
-      "queuePosition": 57,
+      "queuePosition": 58,
       "id": "christensenellaceae",
       "title": "Christensenellaceae",
       "category": "microbe",
@@ -1809,7 +1879,7 @@
       }
     },
     {
-      "queuePosition": 58,
+      "queuePosition": 59,
       "id": "citrobacter",
       "title": "Citrobacter",
       "category": "microbe",
@@ -1830,7 +1900,7 @@
       }
     },
     {
-      "queuePosition": 59,
+      "queuePosition": 60,
       "id": "cladosporium",
       "title": "Cladosporium",
       "category": "microbe",
@@ -1852,7 +1922,7 @@
       }
     },
     {
-      "queuePosition": 60,
+      "queuePosition": 61,
       "id": "clostridia",
       "title": "Clostridia",
       "category": "microbe",
@@ -1873,7 +1943,7 @@
       }
     },
     {
-      "queuePosition": 61,
+      "queuePosition": 62,
       "id": "clostridioides-difficile",
       "title": "Clostridioides difficile",
       "category": "microbe",
@@ -1895,7 +1965,7 @@
       }
     },
     {
-      "queuePosition": 62,
+      "queuePosition": 63,
       "id": "clostridium",
       "title": "Clostridium",
       "category": "microbe",
@@ -1916,7 +1986,7 @@
       }
     },
     {
-      "queuePosition": 63,
+      "queuePosition": 64,
       "id": "clostridium-butyricum",
       "title": "Clostridium butyricum",
       "category": "microbe",
@@ -1937,7 +2007,7 @@
       }
     },
     {
-      "queuePosition": 64,
+      "queuePosition": 65,
       "id": "clostridium-perfringens",
       "title": "Clostridium perfringens",
       "category": "microbe",
@@ -1958,7 +2028,7 @@
       }
     },
     {
-      "queuePosition": 65,
+      "queuePosition": 66,
       "id": "clostridium-symbiosum",
       "title": "Clostridium symbiosum",
       "category": "microbe",
@@ -1979,7 +2049,7 @@
       }
     },
     {
-      "queuePosition": 66,
+      "queuePosition": 67,
       "id": "collinsella",
       "title": "Collinsella",
       "category": "microbe",
@@ -2000,7 +2070,7 @@
       }
     },
     {
-      "queuePosition": 67,
+      "queuePosition": 68,
       "id": "coprococcus",
       "title": "Coprococcus",
       "category": "microbe",
@@ -2021,7 +2091,7 @@
       }
     },
     {
-      "queuePosition": 68,
+      "queuePosition": 69,
       "id": "corynebacterium",
       "title": "Corynebacterium",
       "category": "microbe",
@@ -2042,7 +2112,7 @@
       }
     },
     {
-      "queuePosition": 69,
+      "queuePosition": 70,
       "id": "cryptococcus-neoformans",
       "title": "Cryptococcus neoformans",
       "category": "microbe",
@@ -2063,7 +2133,7 @@
       }
     },
     {
-      "queuePosition": 70,
+      "queuePosition": 71,
       "id": "debaryomyces",
       "title": "Debaryomyces",
       "category": "microbe",
@@ -2084,7 +2154,7 @@
       }
     },
     {
-      "queuePosition": 71,
+      "queuePosition": 72,
       "id": "deinococcus",
       "title": "Deinococcus",
       "category": "microbe",
@@ -2105,7 +2175,7 @@
       }
     },
     {
-      "queuePosition": 72,
+      "queuePosition": 73,
       "id": "desulfovibrio",
       "title": "Desulfovibrio",
       "category": "microbe",
@@ -2126,7 +2196,7 @@
       }
     },
     {
-      "queuePosition": 73,
+      "queuePosition": 74,
       "id": "desulfovibrionales",
       "title": "Desulfovibrionales",
       "category": "microbe",
@@ -2147,7 +2217,7 @@
       }
     },
     {
-      "queuePosition": 74,
+      "queuePosition": 75,
       "id": "dialister",
       "title": "Dialister",
       "category": "microbe",
@@ -2168,7 +2238,7 @@
       }
     },
     {
-      "queuePosition": 75,
+      "queuePosition": 76,
       "id": "dialister-histaminiformans",
       "title": "Dialister histaminiformans",
       "category": "microbe",
@@ -2189,7 +2259,7 @@
       }
     },
     {
-      "queuePosition": 76,
+      "queuePosition": 77,
       "id": "dorea",
       "title": "Dorea",
       "category": "microbe",
@@ -2210,7 +2280,7 @@
       }
     },
     {
-      "queuePosition": 77,
+      "queuePosition": 78,
       "id": "eggerthella",
       "title": "Eggerthella",
       "category": "microbe",
@@ -2231,7 +2301,7 @@
       }
     },
     {
-      "queuePosition": 78,
+      "queuePosition": 79,
       "id": "eggerthella-lenta",
       "title": "Eggerthella lenta",
       "category": "microbe",
@@ -2252,7 +2322,7 @@
       }
     },
     {
-      "queuePosition": 79,
+      "queuePosition": 80,
       "id": "enterobacter",
       "title": "Enterobacter",
       "category": "microbe",
@@ -2273,7 +2343,7 @@
       }
     },
     {
-      "queuePosition": 80,
+      "queuePosition": 81,
       "id": "enterobacter-cloacae",
       "title": "Enterobacter cloacae",
       "category": "microbe",
@@ -2294,7 +2364,7 @@
       }
     },
     {
-      "queuePosition": 81,
+      "queuePosition": 82,
       "id": "enterobacteriaceae",
       "title": "Enterobacteriaceae",
       "category": "microbe",
@@ -2315,7 +2385,7 @@
       }
     },
     {
-      "queuePosition": 82,
+      "queuePosition": 83,
       "id": "enterococcus",
       "title": "Enterococcus",
       "category": "microbe",
@@ -2336,7 +2406,7 @@
       }
     },
     {
-      "queuePosition": 83,
+      "queuePosition": 84,
       "id": "enterococcus-faecalis",
       "title": "Enterococcus faecalis",
       "category": "microbe",
@@ -2357,7 +2427,7 @@
       }
     },
     {
-      "queuePosition": 84,
+      "queuePosition": 85,
       "id": "enterococcus-faecium",
       "title": "Enterococcus faecium",
       "category": "microbe",
@@ -2378,7 +2448,7 @@
       }
     },
     {
-      "queuePosition": 85,
+      "queuePosition": 86,
       "id": "erysipelotrichaceae",
       "title": "Erysipelotrichaceae",
       "category": "microbe",
@@ -2399,7 +2469,7 @@
       }
     },
     {
-      "queuePosition": 86,
+      "queuePosition": 87,
       "id": "escherichia",
       "title": "Escherichia",
       "category": "microbe",
@@ -2420,7 +2490,7 @@
       }
     },
     {
-      "queuePosition": 87,
+      "queuePosition": 88,
       "id": "escherichia-coli",
       "title": "Escherichia coli",
       "category": "microbe",
@@ -2441,7 +2511,7 @@
       }
     },
     {
-      "queuePosition": 88,
+      "queuePosition": 89,
       "id": "eubacteriales",
       "title": "Eubacteriales",
       "category": "microbe",
@@ -2463,7 +2533,7 @@
       }
     },
     {
-      "queuePosition": 89,
+      "queuePosition": 90,
       "id": "eubacterium",
       "title": "Eubacterium",
       "category": "microbe",
@@ -2484,33 +2554,7 @@
       }
     },
     {
-      "queuePosition": 90,
-      "id": "eubacterium-eligens",
-      "title": "Eubacterium eligens",
-      "category": "microbe",
-      "sourceCategories": [
-        "microbe"
-      ],
-      "route": "/article/eubacterium-eligens",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "status": "queued"
-    },
-    {
       "queuePosition": 91,
-      "id": "eubacterium-rectale",
-      "title": "Eubacterium rectale",
-      "category": "microbe",
-      "sourceCategories": [
-        "microbe"
-      ],
-      "route": "/article/eubacterium-rectale",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "status": "queued"
-    },
-    {
-      "queuePosition": 92,
       "id": "faecalibacterium",
       "title": "Faecalibacterium",
       "category": "microbe",
@@ -2523,7 +2567,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 93,
+      "queuePosition": 92,
       "id": "faecalibacterium-prausnitzii",
       "title": "Faecalibacterium prausnitzii",
       "category": "microbe",
@@ -2536,7 +2580,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 94,
+      "queuePosition": 93,
       "id": "fannyhessea-vaginae",
       "title": "Fannyhessea vaginae",
       "category": "microbe",
@@ -2549,7 +2593,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 95,
+      "queuePosition": 94,
       "id": "finegoldia",
       "title": "Finegoldia",
       "category": "microbe",
@@ -2562,7 +2606,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 96,
+      "queuePosition": 95,
       "id": "firmicutes",
       "title": "Firmicutes (Bacillota)",
       "category": "microbe",
@@ -2575,7 +2619,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 97,
+      "queuePosition": 96,
       "id": "flavobacterium",
       "title": "Flavobacterium",
       "category": "microbe",
@@ -2588,7 +2632,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 98,
+      "queuePosition": 97,
       "id": "flavonifractor",
       "title": "Flavonifractor",
       "category": "microbe",
@@ -2601,7 +2645,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 99,
+      "queuePosition": 98,
       "id": "fusarium",
       "title": "Fusarium",
       "category": "microbe",
@@ -2614,7 +2658,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 100,
+      "queuePosition": 99,
       "id": "fusicatenibacter",
       "title": "Fusicatenibacter",
       "category": "microbe",
@@ -2627,7 +2671,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 101,
+      "queuePosition": 100,
       "id": "fusobacteriales",
       "title": "Fusobacteriales",
       "category": "microbe",
@@ -2640,7 +2684,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 102,
+      "queuePosition": 101,
       "id": "fusobacterium",
       "title": "Fusobacterium",
       "category": "microbe",
@@ -2653,7 +2697,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 103,
+      "queuePosition": 102,
       "id": "fusobacterium-nucleatum",
       "title": "Fusobacterium nucleatum",
       "category": "microbe",
@@ -2666,7 +2710,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 104,
+      "queuePosition": 103,
       "id": "fusobacterium-varium",
       "title": "Fusobacterium varium",
       "category": "microbe",
@@ -2679,7 +2723,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 105,
+      "queuePosition": 104,
       "id": "gardnerella",
       "title": "Gardnerella",
       "category": "microbe",
@@ -2692,7 +2736,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 106,
+      "queuePosition": 105,
       "id": "gardnerella-vaginalis",
       "title": "Gardnerella vaginalis",
       "category": "microbe",
@@ -2705,7 +2749,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 107,
+      "queuePosition": 106,
       "id": "gemella",
       "title": "Gemella",
       "category": "microbe",
@@ -2718,7 +2762,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 108,
+      "queuePosition": 107,
       "id": "gordonibacter",
       "title": "Gordonibacter",
       "category": "microbe",
@@ -2731,7 +2775,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 109,
+      "queuePosition": 108,
       "id": "gordonibacter-urolithinfaciens",
       "title": "Gordonibacter urolithinfaciens",
       "category": "microbe",
@@ -2744,7 +2788,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 110,
+      "queuePosition": 109,
       "id": "haemophilus",
       "title": "Haemophilus",
       "category": "microbe",
@@ -2757,7 +2801,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 111,
+      "queuePosition": 110,
       "id": "helicobacter-hepaticus",
       "title": "Helicobacter hepaticus",
       "category": "microbe",
@@ -2770,7 +2814,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 112,
+      "queuePosition": 111,
       "id": "helicobacter-pylori",
       "title": "Helicobacter pylori",
       "category": "microbe",
@@ -2791,7 +2835,7 @@
       }
     },
     {
-      "queuePosition": 113,
+      "queuePosition": 112,
       "id": "holdemanella",
       "title": "Holdemanella",
       "category": "microbe",
@@ -2804,7 +2848,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 114,
+      "queuePosition": 113,
       "id": "intestinimonas",
       "title": "Intestinimonas",
       "category": "microbe",
@@ -2817,7 +2861,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 115,
+      "queuePosition": 114,
       "id": "klebsiella",
       "title": "Klebsiella",
       "category": "microbe",
@@ -2830,7 +2874,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 116,
+      "queuePosition": 115,
       "id": "klebsiella-pneumoniae",
       "title": "Klebsiella pneumoniae",
       "category": "microbe",
@@ -2843,7 +2887,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 117,
+      "queuePosition": 116,
       "id": "lachnobacterium",
       "title": "Lachnobacterium",
       "category": "microbe",
@@ -2856,7 +2900,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 118,
+      "queuePosition": 117,
       "id": "lachnoclostridium",
       "title": "Lachnoclostridium",
       "category": "microbe",
@@ -2869,7 +2913,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 119,
+      "queuePosition": 118,
       "id": "lachnospira",
       "title": "Lachnospira",
       "category": "microbe",
@@ -2879,6 +2923,20 @@
       "route": "/article/lachnospira",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
+      "status": "queued"
+    },
+    {
+      "queuePosition": 119,
+      "id": "lachnospira-eligens",
+      "title": "Lachnospira eligens",
+      "category": "microbe",
+      "sourceCategories": [
+        "microbe"
+      ],
+      "route": "/article/lachnospira-eligens",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:39485",
       "status": "queued"
     },
     {

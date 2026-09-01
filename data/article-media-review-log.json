@@ -2476,6 +2476,61 @@
         "controlledIdentifier": "NCBITaxon:5498",
         "coverageStatus": "uncovered"
       }
+    },
+    {
+      "pageId": "eubacterium-eligens",
+      "batchId": "microorganisms-017",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:39485 to the current name Lachnospira eligens and records Eubacterium eligens as its basionym. LPSN selects Lachnospira eligens as the correct validly published combination, and García-López et al. supplied the primary phylogenomic transfer. A new asset must not be keyed to the obsolete combination or to the broader source-era Eubacterium eligens group label.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39485&mode=Info",
+        "https://lpsn.dsmz.de/species/lachnospira-eligens",
+        "https://pubmed.ncbi.nlm.nih.gov/31608019/",
+        "https://doi.org/10.3389/fmicb.2019.02083"
+      ],
+      "requiredResolution": "Retire the obsolete species-combination slug in favor of one Lachnospira eligens canonical record keyed to NCBITaxon:39485, while preserving Eubacterium eligens and Eubacterium eligens group only as source-era labels with their resolution limits.",
+      "routingImpact": "The obsolete slug is excluded from the canonical queue, registry, public media files, and image sitemap. Batch 017 generated no raster; any future asset may be keyed only to lachnospira-eligens and NCBITaxon:39485.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The obsolete-combination record was replaced by a conservative current-name Lachnospira eligens record. Article, history, and suggest routes permanently redirect while source-era group labels remain explicit and are not treated as species-resolved evidence.",
+      "canonicalPageId": "lachnospira-eligens",
+      "canonicalIdentifier": "NCBITaxon:39485",
+      "queueReplacement": {
+        "pageId": "lachnospira-eligens",
+        "title": "Lachnospira eligens",
+        "route": "/article/lachnospira-eligens",
+        "controlledIdentifier": "NCBITaxon:39485",
+        "coverageStatus": "uncovered"
+      }
+    },
+    {
+      "pageId": "eubacterium-rectale",
+      "batchId": "microorganisms-017",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:39491 to the current name Agathobacter rectalis and records Eubacterium rectale as a homotypic synonym. LPSN selects Agathobacter rectalis as the correct validly published combination. Rosero et al. supplied the primary transfer, while WikiBiome also preserves the published objection to that placement rather than presenting it as unanimous.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39491&mode=Info",
+        "https://lpsn.dsmz.de/species/agathobacter-rectalis",
+        "https://pubmed.ncbi.nlm.nih.gov/26619944/",
+        "https://pubmed.ncbi.nlm.nih.gov/26916277/",
+        "https://doi.org/10.1099/ijsem.0.000788"
+      ],
+      "requiredResolution": "Retire the obsolete species-combination slug in favor of one Agathobacter rectalis canonical record keyed to NCBITaxon:39491, retain source-era Eubacterium rectale wording, and disclose the published nomenclatural objection.",
+      "routingImpact": "The obsolete slug is excluded from the canonical queue, registry, public media files, and image sitemap. Batch 017 generated no raster; any future asset may be keyed only to agathobacter-rectalis and NCBITaxon:39491.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The obsolete-combination record was replaced by a conservative current-name Agathobacter rectalis record that retains historical source labels and the published disagreement. Article, history, and suggest routes permanently redirect to the single current route.",
+      "canonicalPageId": "agathobacter-rectalis",
+      "canonicalIdentifier": "NCBITaxon:39491",
+      "queueReplacement": {
+        "pageId": "agathobacter-rectalis",
+        "title": "Agathobacter rectalis",
+        "route": "/article/agathobacter-rectalis",
+        "controlledIdentifier": "NCBITaxon:39491",
+        "coverageStatus": "uncovered"
+      }
     }
   ],
   "revisedAssets": [

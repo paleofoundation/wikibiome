@@ -4,7 +4,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
 import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { classifySearchReferrer } from "../lib/search-observability.mjs";
-import { getArticleAliases, validateArticleIdentityPolicy } from "../scripts/article-identity-policy.mjs";
+import { getArticleAliases, getArticleIdentityRegistry, validateArticleIdentityPolicy } from "../scripts/article-identity-policy.mjs";
 import { applyPublicContentPolicy, publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 import { normalizeSourceMetadata } from "../scripts/source-metadata-policy.mjs";
 import { assertMediaOutputAudit } from "../scripts/article-media-batch-validation.mjs";
@@ -184,8 +184,8 @@ test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities 
   const aliases = getArticleAliases();
   const audit = validateArticleIdentityPolicy(generated);
 
-  assert.equal(audit.aliasCount, 11);
-  assert.equal(audit.canonicalTaxonCount, 11);
+  assert.equal(audit.aliasCount, 13);
+  assert.equal(audit.canonicalTaxonCount, 13);
   for (const [alias, target] of Object.entries(aliases)) {
     assert.equal(generated.pages.some((page) => page.id === alias), false, `${alias} must not remain indexable`);
     assert.equal(generated.pages.filter((page) => page.id === target).length, 1, `${target} must be unique`);
@@ -202,6 +202,14 @@ test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities 
   const duplicateAliasTarget = structuredClone(generated);
   duplicateAliasTarget.pages.push({ ...duplicateAliasTarget.pages.find((page) => page.id === "fannyhessea-vaginae") });
   assert.throws(() => validateArticleIdentityPolicy(duplicateAliasTarget), /exactly one canonical page|exactly one public record/);
+
+  const identityRegistry = getArticleIdentityRegistry();
+  identityRegistry.aliases["lachnospira-eligens"] = "eubacterium-eligens";
+  try {
+    assert.throws(() => validateArticleIdentityPolicy(generated), /targets another alias|alias chains are not allowed/);
+  } finally {
+    delete identityRegistry.aliases["lachnospira-eligens"];
+  }
 
   const unsupportedIdentity = structuredClone(generated);
   unsupportedIdentity.pages.find((page) => page.id === "dialister-histaminiformans").overview += " Allisonella hiatal";
@@ -234,6 +242,14 @@ test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities 
   const obsoleteCladosporiumClaim = structuredClone(generated);
   obsoleteCladosporiumClaim.pages.find((page) => page.id === "cladosporium").overview += " Davidiella is the current name.";
   assert.throws(() => validateArticleIdentityPolicy(obsoleteCladosporiumClaim), /Unsupported retired identities/);
+
+  const obsoleteLachnospiraClaim = structuredClone(generated);
+  obsoleteLachnospiraClaim.pages.find((page) => page.id === "lachnospira-eligens").overview += " Eubacterium eligens is the current name.";
+  assert.throws(() => validateArticleIdentityPolicy(obsoleteLachnospiraClaim), /Unsupported retired identities/);
+
+  const obsoleteAgathobacterClaim = structuredClone(generated);
+  obsoleteAgathobacterClaim.pages.find((page) => page.id === "agathobacter-rectalis").overview += " Eubacterium rectale is the current name.";
+  assert.throws(() => validateArticleIdentityPolicy(obsoleteAgathobacterClaim), /Unsupported retired identities/);
 });
 
 test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
@@ -302,7 +318,7 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
-  assert.match(html, /1,932/);
+  assert.match(html, /1,939/);
   assert.match(html, /817/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
@@ -377,7 +393,7 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
     }
   }
 
-  const currentIds = ["akkermansia-muciniphila", "dialister-histaminiformans", "lancefieldella-parvula", "fannyhessea-vaginae", "barnesiella", "bifidobacterium-longum-subsp-infantis", "candidozyma-auris", "nakaseomyces-glabratus", "eubacteriales", "clostridioides-difficile", "cladosporium"];
+  const currentIds = ["akkermansia-muciniphila", "dialister-histaminiformans", "lancefieldella-parvula", "fannyhessea-vaginae", "barnesiella", "bifidobacterium-longum-subsp-infantis", "candidozyma-auris", "nakaseomyces-glabratus", "eubacteriales", "clostridioides-difficile", "cladosporium", "lachnospira-eligens", "agathobacter-rectalis"];
   const currentResponses = await Promise.all(currentIds.map((id) => render(`/article/${id}`)));
   currentResponses.forEach((response) => assert.equal(response.status, 200));
   const currentPages = await Promise.all(currentResponses.map((response) => response.text()));
@@ -459,6 +475,22 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.match(currentPages[10], /cladosporium-morphology-v1\.webp/);
   assert.equal(articleMediaRegistry.davidiella, undefined);
   assert.ok(articleMediaRegistry.cladosporium);
+  assert.match(currentPages[11], /<title>Lachnospira eligens — WikiBiome<\/title>/i);
+  assert.match(currentPages[11], /NCBITaxon:39485/);
+  assert.match(currentPages[11], /Eubacterium eligens[\s\S]{0,100}basionym/);
+  assert.match(currentPages[11], /group label is broader than a verified species assignment/);
+  assert.doesNotMatch(currentPages[11], /Eubacterium eligens is the current name/);
+  assert.doesNotMatch(currentPages[11], /class="article-media-figure"/);
+  assert.equal(articleMediaRegistry["eubacterium-eligens"], undefined);
+  assert.equal(articleMediaRegistry["lachnospira-eligens"], undefined);
+  assert.match(currentPages[12], /<title>Agathobacter rectalis — WikiBiome<\/title>/i);
+  assert.match(currentPages[12], /NCBITaxon:39491/);
+  assert.match(currentPages[12], /Eubacterium rectale[\s\S]{0,100}homotypic synonym/);
+  assert.match(currentPages[12], /not claim unanimous phylogenetic agreement/);
+  assert.doesNotMatch(currentPages[12], /Eubacterium rectale is the current name/);
+  assert.doesNotMatch(currentPages[12], /class="article-media-figure"/);
+  assert.equal(articleMediaRegistry["eubacterium-rectale"], undefined);
+  assert.equal(articleMediaRegistry["agathobacter-rectalis"], undefined);
 
   const mergedHistoryResponse = await render("/article/clostridioides-difficile/history");
   assert.equal(mergedHistoryResponse.status, 200);
@@ -471,6 +503,14 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   const cladosporiumHistory = await cladosporiumHistoryResponse.text();
   assert.match(cladosporiumHistory, /Tracked source files<\/span><strong>2<\/strong>/);
   assert.match(cladosporiumHistory, /wiki\/entities\/davidiella\.md/);
+
+  for (const [id, legacyPath] of [["lachnospira-eligens", "eubacterium-eligens"], ["agathobacter-rectalis", "eubacterium-rectale"]]) {
+    const historyResponse = await render(`/article/${id}/history`);
+    assert.equal(historyResponse.status, 200);
+    const history = await historyResponse.text();
+    assert.match(history, /Tracked source files<\/span><strong>2<\/strong>/);
+    assert.match(history, new RegExp(`wiki\\/entities\\/${legacyPath}\\.md`));
+  }
 
   const sitemap = await (await render("/sitemap.xml")).text();
   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
@@ -806,7 +846,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.ok(!publishedMediaFiles.includes(expectedFiles.publishedFile), `${id} draft must not enter public article media files`);
     assert.ok(!publishedMediaFiles.includes(expectedFiles.socialFile), `${id} draft must not enter public social media files`);
   }
-  const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella"];
+  const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), []);
   assert.equal(program.current.scientificHolds, activeScientificHolds.length);
@@ -835,6 +875,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     ["clostridiales", "eubacteriales", "NCBITaxon:186802", "reviewed"],
     ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "reviewed"],
     ["davidiella", "cladosporium", "NCBITaxon:5498", "reviewed"],
+    ["eubacterium-eligens", "lachnospira-eligens", "NCBITaxon:39485", "queued"],
+    ["eubacterium-rectale", "agathobacter-rectalis", "NCBITaxon:39491", "queued"],
   ];
   for (const [obsoleteId, canonicalId, identifier, expectedStatus] of currentNameMediaMappings) {
     const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === obsoleteId);
@@ -1139,7 +1181,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /66a773667b1f/);
+  assert.match(readiness, /c6481eaf721d/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -1318,7 +1360,7 @@ test("renders the claim, contribute, collaborate researcher network", async () =
     networkResponse.text(), standardResponse.text(), submitResponse.text(), institutionsResponse.text(), sourceResponse.text(), dashboardResponse.text(),
   ]);
   assert.match(network, /Claim → Contribute → Collaborate/);
-  assert.match(network, /1,932[\s\S]{0,30}evidence records/);
+  assert.match(network, /1,939[\s\S]{0,30}evidence records/);
   assert.match(network, /Identity earns attribution—not control/);
   assert.match(network, /href="\/api\/auth\/orcid\/start\?returnTo=\/researcher\/dashboard"/);
 
@@ -1545,10 +1587,10 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "66a773667b1f6c06592eca878d5023138c602b39");
+  assert.equal(manifest.source.commit, "c6481eaf721d80b46d6f192b19d4c0b351e670d8");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 817);
-  assert.equal(manifest.content.sources, 1932);
+  assert.equal(manifest.content.sources, 1939);
   assert.equal(manifest.sourceMetadataPolicy.version, 1);
   assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
   assert.equal(manifest.sourceMetadataPolicy.omittedYearCount, 3);
@@ -1561,7 +1603,7 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.publicContentPolicy.version, 3);
   assert.equal(manifest.publicContentPolicy.excludedCount, 46);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
-  assert.equal(manifest.editorialNormalization.leadPromotionCount, 344);
+  assert.equal(manifest.editorialNormalization.leadPromotionCount, 343);
   assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
   assert.equal(manifest.editorialStatusPolicy.version, 1);
   assert.equal(manifest.editorialStatusPolicy.sourceCommit, manifest.source.commit);
@@ -1570,13 +1612,13 @@ test("binds generated content to the fetched upstream commit", () => {
   const statusRegistry = readFileSync(new URL("../data/editorial-statuses.json", import.meta.url));
   assert.equal(manifest.editorialStatusPolicy.registrySha256, createHash("sha256").update(statusRegistry).digest("hex"));
   assert.equal(manifest.articleIdentityPolicy.version, 1);
-  assert.equal(manifest.articleIdentityPolicy.aliasCount, 11);
-  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 11);
-  assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 11);
+  assert.equal(manifest.articleIdentityPolicy.aliasCount, 13);
+  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 13);
+  assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 13);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6440);
-  assert.equal(manifest.audit.recoveredInlineReferences, 350);
+  assert.equal(manifest.audit.generatedReferences, 6447);
+  assert.equal(manifest.audit.recoveredInlineReferences, 349);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
   assert.equal(manifest.audit.invalidSourceYears.length, 0);
