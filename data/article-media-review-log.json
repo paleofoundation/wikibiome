@@ -3048,6 +3048,157 @@
       "disposition": "approved",
       "notes": "WikiBiome root accepted the exact independent v2 hash after v1's dark-vignette rejection. Only v2 is promoted; v1 remains immutable rejected review evidence and has no public key, master, derivative, or endpoint.",
       "revisionLinkage": { "supersedes": "work/media-drafts/microorganisms-batch-021/lachnospira-draft.png", "supersededBy": null, "sourceDraft": "lachnospira-draft-v2.png", "sourceSha256": "348d799050ccc7a0fde18578bf209c821c8ef1ab27e1331ca8d5edef366a4cd7", "generationRecord": "exec-4781c444-94d1-4ab4-82c9-e4fb4126e7f8.png", "rejectedPredecessorSha256": "cc3b9b522259ed3fe2cca3702ffc1d4dbe3c3eeca8c4ba8edd1ad277d3ad2f2f" }
+    },
+    "lachnospira-eligens|lachnospira-eligens-morphology-v1.webp": {
+      "pageId": "lachnospira-eligens",
+      "publishedFile": "lachnospira-eligens-morphology-v1.webp",
+      "masterSource": "lachnospira-eligens-morphology-v1-master.png",
+      "socialFile": "lachnospira-eligens-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=39485&mode=Info",
+          "https://lpsn.dsmz.de/species/lachnospira-eligens",
+          "https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-24-2-260",
+          "https://bacdive.dsmz.de/strain/5425"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Lachnospira eligens, NCBITaxon:39485, while Eubacterium eligens remains historical naming only. Original and type-strain evidence supports straight-to-curved rods, selected pair or short-chain arrangements, and restrained central broadening without a universal appendage claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct original-pixel review accepted ten rods in eight groups: six singles and two touching pairs, including two gently curved centrally broadened singles and zero appendages. The disclosed extra body and grouping do not misstate morphology."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the observed ten-body/eight-group output. Caption preserves current-name, historical-name, representative, non-diagnostic, and non-micrograph limits. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 022 after immutable-hash verification and explicit acceptance of the count deviation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lachnospira-eligens-draft.png", "sourceSha256": "8e990663e1f86cec18922fbddbfc64e0fc1fecb8bb4cc081ca658e7c1ccda115", "generationRecord": "exec-238a3ead-0f33-434d-8121-c0e367b1a11e.png" }
+    },
+    "lachnospiraceae|lachnospiraceae-microbial-community-v1.webp": {
+      "pageId": "lachnospiraceae",
+      "publishedFile": "lachnospiraceae-microbial-community-v1.webp",
+      "masterSource": "lachnospiraceae-microbial-community-v1-master.png",
+      "socialFile": "lachnospiraceae-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=186803&mode=Info",
+          "https://lpsn.dsmz.de/family/lachnospiraceae",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3971600/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7232163/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current family Lachnospiraceae, NCBITaxon:186803, with Lachnospira as type and morphologically varied descendants. The selected-descendant plate is explicitly non-exhaustive, non-universal, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct original-pixel review accepted ten selected descendant bodies in six groups: three singles, a coccoid pair, a short-rod pair, and a three-rod chain. Ordinary individual boundaries remain visible; no shared envelope, appendage, or decorative structure is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles ten bodies and six groupings. Caption explicitly states representative selected-descendant diversity, non-exhaustive, non-universal, non-diagnostic, and non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review as the sole public family media owner. The duplicate lachnospiraceae-family route remains an active asset-free hold.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lachnospiraceae-draft.png", "sourceSha256": "942f2a03382ad7eec0c89b87149126febd06fdae033d0a69c8f7909cfb89030c", "generationRecord": "exec-7af0c1f5-d424-460d-b5f9-0c5c61565f87.png" }
+    },
+    "lactobacillaceae|lactobacillaceae-microbial-community-v1.webp": {
+      "pageId": "lactobacillaceae",
+      "publishedFile": "lactobacillaceae-microbial-community-v1.webp",
+      "masterSource": "lactobacillaceae-microbial-community-v1-master.png",
+      "socialFile": "lactobacillaceae-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33958&mode=Info",
+          "https://lpsn.dsmz.de/family/lactobacillaceae",
+          "https://pubmed.ncbi.nlm.nih.gov/32293557/",
+          "https://doi.org/10.1099/ijsem.0.004107"
+        ],
+        "notes": "NCBI Taxonomy, LPSN, and the 2020 revision support current emended family Lactobacillaceae, NCBITaxon:33958. The selected-descendant plate reflects rod, ovoid, and coccoid diversity without reviving the historical broad lactobacilli assemblage or claiming a universal family morphology."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct original-pixel review accepted ten selected descendant bodies in six groups: three singles, a rod pair, a coccoid pair, and a three-rod chain. No spore, appendage, capsule, fermentation scene, label, or watermark is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles ten bodies and six groupings. Caption preserves post-2020 family scope and representative, non-exhaustive, non-universal, non-diagnostic, non-micrograph limits. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 022 after immutable-hash and higher-rank framing verification.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillaceae-draft.png", "sourceSha256": "ad2540a9b76c63d2f2749696a3483a600170552a4d5ded6de63551306344e5ec", "generationRecord": "exec-df1a25a1-fde2-4f40-8dcd-42d1bef0f729.png" }
+    },
+    "lactobacillus|lactobacillus-morphology-v1.webp": {
+      "pageId": "lactobacillus",
+      "publishedFile": "lactobacillus-morphology-v1.webp",
+      "masterSource": "lactobacillus-morphology-v1-master.png",
+      "socialFile": "lactobacillus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1578&mode=Info",
+          "https://lpsn.dsmz.de/genus/lactobacillus",
+          "https://lpsn.dsmz.de/species/lactobacillus-delbrueckii",
+          "https://pubmed.ncbi.nlm.nih.gov/32293557/",
+          "https://doi.org/10.1099/ijsem.0.004107"
+        ],
+        "notes": "NCBI Taxonomy, LPSN, and the 2020 revision support current narrower genus Lactobacillus, NCBITaxon:1578, with L. delbrueckii as type. The plate is type-species-anchored and does not represent every source-era organism historically called a lactobacillus."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct original-pixel review accepted nine rounded-end rods in seven groups: five singles and two touching pairs, including one gently curved single and zero spores or appendages."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles nine bodies and seven groupings. Caption preserves current post-2020 scope and representative, non-diagnostic, non-micrograph limits. Cover validation clipped part of the upper-right pair, so the social derivative uses contain on pale #f3f7fb and retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 022; a validated per-record contain override preserves the complete subject in the social derivative.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillus-draft.png", "sourceSha256": "ac85178ad6c673aaf6bd657ef579b7e0b80e7d621283a25491b395c7abc7057f", "generationRecord": "exec-3fe3b00f-6427-4327-8150-f0871213e6d9.png" }
+    },
+    "lactobacillus-acidophilus|lactobacillus-acidophilus-morphology-v1.webp": {
+      "pageId": "lactobacillus-acidophilus",
+      "publishedFile": "lactobacillus-acidophilus-morphology-v1.webp",
+      "masterSource": "lactobacillus-acidophilus-morphology-v1-master.png",
+      "socialFile": "lactobacillus-acidophilus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-02",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1579&mode=Info",
+          "https://lpsn.dsmz.de/species/lactobacillus-acidophilus",
+          "https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-20-3-325",
+          "https://bacdive.dsmz.de/strain/6404"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current species Lactobacillus acidophilus, NCBITaxon:1579. Primary and type-strain evidence supports rounded-end rods in single, paired, and short-chain arrangements without visual diagnosis or probiotic-performance claims."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root direct original-pixel review accepted ten rods in seven groups: four singles, two touching end-to-end pairs, and one loose parallel two-rod arrangement, with zero spores or appendages. The disclosed pair-orientation deviation does not misstate morphology."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the observed pair orientations and ten-body/seven-group output. Caption preserves type-strain scope and representative, non-diagnostic, non-micrograph, no-probiotic-performance limits. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root original-resolution review in microorganisms batch 022 after immutable-hash verification and explicit acceptance of the pair-orientation deviation.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillus-acidophilus-draft.png", "sourceSha256": "7b11c1e7487412163550223eef1c051fa62130c965a9ef40f9cb3e2b3dbafcc3", "generationRecord": "exec-bebf51a2-ad16-4c0f-bca2-5994e7554fd8.png" }
     }
   },
   "rejectedAssets": [

@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "05f8d4f68e1186d321de6392613732bdc83abe8bb567643a3e8a4182842cfc67",
+    "registrySha256": "797d9a10577d858e9b266b2ce44a5bd7bd88eabff6508d41199e0fcb4bca6d0a",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "3843d8bfb28e5d5c696843a45f8ae5f9e7fee17d77bf811ddbd3ad000ab46fd5",
+    "reviewLogSha256": "c25a8b9cea4b37f7f1ab603257f84ff3bcac1f39f7399d88f268ad20e4ea12d5",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -141,8 +141,8 @@
       {
         "file": "data/article-media-batches/microorganisms-022.json",
         "batchId": "microorganisms-022",
-        "status": "awaiting-control-review",
-        "sha256": "aa2e171328aaaaec0dc4afe1a6a9751954182336b169e2a00057b2a1d13f7445"
+        "status": "reviewed",
+        "sha256": "845d14772a868271777251b927b52e6de87c58201c9e82926643fbcb1027e794"
       }
     ]
   },
@@ -164,20 +164,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 120,
-    "remaining": 590,
+    "completed": 125,
+    "remaining": 585,
     "rejected": 15,
     "revised": 10,
     "scientificHolds": 2,
-    "inReview": 5
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 117,
-      "remaining": 112
+      "completed": 122,
+      "remaining": 107
     },
     {
       "id": "metals",
@@ -3254,12 +3254,14 @@
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
       "controlledIdentifier": "NCBITaxon:39485",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-022",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-022/lachnospira-eligens-draft.png",
-        "sha256": "8e990663e1f86cec18922fbddbfc64e0fc1fecb8bb4cc081ca658e7c1ccda115"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lachnospira-eligens-morphology-v1-master.png",
+        "publishedFile": "lachnospira-eligens-morphology-v1.webp",
+        "socialFile": "lachnospira-eligens-morphology-v1-social.webp"
       }
     },
     {
@@ -3273,12 +3275,14 @@
       "route": "/article/lachnospiraceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-022",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-022/lachnospiraceae-draft.png",
-        "sha256": "942f2a03382ad7eec0c89b87149126febd06fdae033d0a69c8f7909cfb89030c"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lachnospiraceae-microbial-community-v1-master.png",
+        "publishedFile": "lachnospiraceae-microbial-community-v1.webp",
+        "socialFile": "lachnospiraceae-microbial-community-v1-social.webp"
       }
     },
     {
@@ -3311,12 +3315,14 @@
       "route": "/article/lactobacillaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-022",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-022/lactobacillaceae-draft.png",
-        "sha256": "ad2540a9b76c63d2f2749696a3483a600170552a4d5ded6de63551306344e5ec"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lactobacillaceae-microbial-community-v1-master.png",
+        "publishedFile": "lactobacillaceae-microbial-community-v1.webp",
+        "socialFile": "lactobacillaceae-microbial-community-v1-social.webp"
       }
     },
     {
@@ -3330,12 +3336,14 @@
       "route": "/article/lactobacillus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-022",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-022/lactobacillus-draft.png",
-        "sha256": "ac85178ad6c673aaf6bd657ef579b7e0b80e7d621283a25491b395c7abc7057f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lactobacillus-morphology-v1-master.png",
+        "publishedFile": "lactobacillus-morphology-v1.webp",
+        "socialFile": "lactobacillus-morphology-v1-social.webp"
       }
     },
     {
@@ -3349,12 +3357,14 @@
       "route": "/article/lactobacillus-acidophilus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-022",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-022/lactobacillus-acidophilus-draft.png",
-        "sha256": "7b11c1e7487412163550223eef1c051fa62130c965a9ef40f9cb3e2b3dbafcc3"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-02",
+        "masterSource": "lactobacillus-acidophilus-morphology-v1-master.png",
+        "publishedFile": "lactobacillus-acidophilus-morphology-v1.webp",
+        "socialFile": "lactobacillus-acidophilus-morphology-v1-social.webp"
       }
     },
     {

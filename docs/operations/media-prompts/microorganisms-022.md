@@ -1,11 +1,12 @@
 # WikiBiome microorganism media batch 022
 
-Review-only scientific identity, evidence, prompt, and native-resolution output audit packet for the deterministic queue entries `lachnospira-eligens`, `lachnospiraceae`, `lachnospiraceae-family`, `lactobacillaceae`, `lactobacillus`, and `lactobacillus-acidophilus`.
+Scientific identity, immutable prompt, native-resolution output audit, root disposition, and promotion record for the deterministic queue entries `lachnospira-eligens`, `lachnospiraceae`, `lachnospiraceae-family`, `lactobacillaceae`, `lactobacillus`, and `lactobacillus-acidophilus`.
 
 - Required parent: `3a235a81999c24da9c0feb17c03f1828b49037fe`
 - Verified parent before modification: `3a235a81999c24da9c0feb17c03f1828b49037fe`
+- Promotion parent: `e6b35019bd7e0fae44e451409b874351346ed4fd`
 - Audit and generation date: 2026-09-02
-- Mode: review-only; no registry, master, derivative, metadata embedding, review approval, coverage promotion, or sitemap entry is authorized
+- Mode: five root-accepted assets promoted; the duplicate `lachnospiraceae-family` route remains held and asset-free
 - Generator: OpenAI built-in image generation, one immutable call per cleared nonduplicate route
 - Generation rule: prompt counts are composition requests, never evidence about the rendered output
 - Review rule: every copied PNG must be inspected at its original 1536 by 1024 resolution; literal visible counts and deviations govern proposed accessibility text
@@ -208,8 +209,8 @@ Every count-bearing body is fully inside the frame and inside the central vertic
   - Alt: Ten Lactobacillus acidophilus rounded-end rods appear in seven groupings: four singles, two touching end-to-end pairs, and one loose parallel two-rod arrangement.
   - Caption: Type-strain-anchored Lactobacillus acidophilus rods, shown as ten bodies in four single, two touching-pair, and one loose two-rod grouping. This species-level reconstruction is representative, non-diagnostic, not a micrograph, and makes no probiotic-performance claim.
 
-Proposed review-stage provenance for every generated route: generated once with the OpenAI built-in image generator from the route's immutable batch-022 prompt after current-identity and conservative-morphology audit; human-audited at original 1536 by 1024 resolution. Review-only scientific reconstruction, not a micrograph. Output-specific deviations remain disclosed in the manifest and ledger.
+Reviewed provenance for every generated route: generated once with the OpenAI built-in image generator from the route's immutable batch-022 prompt after current-identity and conservative-morphology audit; human-audited at original 1536 by 1024 resolution and accepted by WikiBiome root control. Scientific reconstruction, not a micrograph. Output-specific deviations remain disclosed in the manifest and ledger.
 
-## Promotion boundary
+## Promotion record
 
-Promotion is forbidden until WikiBiome root control inspects every cleared exact PNG at original resolution and supplies an immutable hash disposition. No `work/media-drafts` path may become a public route. The held `lachnospiraceae-family` route must not acquire a prompt, raster, registry key, master, derivative, structured media record, or sitemap image through this batch.
+WikiBiome root control inspected and accepted all five exact PNGs at original resolution and authorized promotion without regeneration or source alteration. The accepted Lachnospira eligens count deviation and Lactobacillus acidophilus pair-orientation deviation remain literal in the manifest, public accessibility language, and review ledger. Native 1200 by 630 cover validation retains every body and grouping for Lachnospira eligens, Lachnospiraceae, Lactobacillaceae, and Lactobacillus acidophilus. Lactobacillus uses contain on pale `#f3f7fb` because the cover transform clipped part of the upper-right paired grouping. No `work/media-drafts` path is publicly routed. The held `lachnospiraceae-family` route has no prompt, raster, registry key, master, derivative, structured media record, or sitemap image.

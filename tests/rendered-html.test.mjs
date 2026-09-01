@@ -481,9 +481,10 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.match(currentPages[11], /Eubacterium eligens[\s\S]{0,100}basionym/);
   assert.match(currentPages[11], /group label is broader than a verified species assignment/);
   assert.doesNotMatch(currentPages[11], /Eubacterium eligens is the current name/);
-  assert.doesNotMatch(currentPages[11], /class="article-media-figure"/);
+  assert.match(currentPages[11], /class="article-media-figure"/);
+  assert.match(currentPages[11], /lachnospira-eligens-morphology-v1\.webp/);
   assert.equal(articleMediaRegistry["eubacterium-eligens"], undefined);
-  assert.equal(articleMediaRegistry["lachnospira-eligens"], undefined);
+  assert.ok(articleMediaRegistry["lachnospira-eligens"]);
   assert.match(currentPages[12], /<title>Agathobacter rectalis — WikiBiome<\/title>/i);
   assert.match(currentPages[12], /NCBITaxon:39491/);
   assert.match(currentPages[12], /Eubacterium rectale[\s\S]{0,100}homotypic synonym/);
@@ -891,13 +892,9 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(articleMediaRegistry[obsoleteId], undefined);
     assert.ok(!batch017PublicMediaFiles.some((filename) => filename.startsWith(`${obsoleteId}-`)));
     assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${obsoleteId}-`)));
-    if (canonicalId === "agathobacter-rectalis") {
-      assert.ok(articleMediaRegistry[canonicalId]);
-    } else {
-      assert.equal(articleMediaRegistry[canonicalId], undefined);
-      assert.ok(!batch017PublicMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
-      assert.ok(!readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${canonicalId}-`)));
-    }
+    assert.ok(articleMediaRegistry[canonicalId]);
+    assert.ok(batch017PublicMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
+    assert.ok(readdirSync(new URL("../media/masters/", import.meta.url)).some((filename) => filename.startsWith(`${canonicalId}-`)));
   }
   const batch018 = batches.find((batch) => batch.batchId === "microorganisms-018");
   assert.equal(batch018?.status, "reviewed");
@@ -1326,13 +1323,13 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.ok(!batch021PublicMediaFiles.some((name) => name.startsWith("lachnoclostridium-")));
   assert.ok(!batch021MasterFiles.some((name) => name.startsWith("lachnoclostridium-")));
   const batch022 = batches.find((batch) => batch.batchId === "microorganisms-022");
-  assert.equal(batch022?.status, "awaiting-control-review");
+  assert.equal(batch022?.status, "reviewed");
   assert.equal(batch022?.routeDecisionCount, 6);
   assert.equal(batch022?.candidateCount, 5);
   assert.equal(batch022?.scientificHoldCount, 1);
   assert.equal(batch022?.generationCallCount, 5);
   assert.equal(batch022?.revisionCount, 0);
-  assert.equal(batch022?.controlReviewRequired, true);
+  assert.equal(batch022?.controlReviewRequired, false);
   const batch022Candidates = batch022?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
   assert.deepEqual(batch022Candidates.map((asset) => asset.pageId), [
     "lachnospira-eligens",
@@ -1361,8 +1358,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   ]);
   for (const asset of batch022Candidates) {
     const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch022ExpectedOutputs.get(asset.pageId);
-    assert.equal(asset.decision, "generated-awaiting-control-review");
-    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.rootReviewDisposition, "accepted");
     assert.equal(asset.controlledIdentifier, expectedIdentifier);
     assert.equal(asset.promptSha256, expectedPromptSha256);
     assert.equal(asset.sha256, expectedSha256);
@@ -1387,12 +1384,26 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
 
     const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
-    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must not enter the registry before control approval`);
-    assert.ok(!batch022PublicMediaFiles.includes(expectedFiles.publishedFile), `${asset.pageId} review draft must not create a public article derivative`);
-    assert.ok(!batch022PublicMediaFiles.includes(expectedFiles.socialFile), `${asset.pageId} review draft must not create a public social derivative`);
-    assert.ok(!batch022MasterFiles.includes(expectedFiles.masterSource), `${asset.pageId} review draft must not create a canonical master`);
+    const media = articleMediaRegistry[asset.pageId];
+    assert.ok(media, `${asset.pageId} must enter the reviewed registry after root approval`);
+    assert.equal(media.publishedFile, expectedFiles.publishedFile);
+    assert.equal(media.socialFile, expectedFiles.socialFile);
+    assert.equal(media.masterSource, expectedFiles.masterSource);
+    assert.equal(media.canonicalArticleUrl, `https://www.wikibiome.com/article/${asset.pageId}`);
+    assert.ok(batch022PublicMediaFiles.includes(expectedFiles.publishedFile), `${asset.pageId} must have a public article derivative`);
+    assert.ok(batch022PublicMediaFiles.includes(expectedFiles.socialFile), `${asset.pageId} must have a public social derivative`);
+    assert.ok(batch022MasterFiles.includes(expectedFiles.masterSource), `${asset.pageId} must have a canonical master`);
+    const review = reviewLog.reviews[media.reviewLogKey];
+    assert.equal(review?.disposition, "approved");
+    assert.equal(review?.revisionLinkage?.sourceSha256, expectedSha256);
     assert.ok(!batch022PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft path must not become public`);
   }
+  assert.equal(articleMediaRegistry["lachnospira-eligens"].socialResizeFit, "cover");
+  assert.equal(articleMediaRegistry.lachnospiraceae.socialResizeFit, "cover");
+  assert.equal(articleMediaRegistry.lactobacillaceae.socialResizeFit, "cover");
+  assert.equal(articleMediaRegistry.lactobacillus.socialResizeFit, "contain");
+  assert.equal(articleMediaRegistry.lactobacillus.socialBackground, "#f3f7fb");
+  assert.equal(articleMediaRegistry["lactobacillus-acidophilus"].socialResizeFit, "cover");
   assert.equal(batch022Candidates.find((asset) => asset.pageId === "lachnospira-eligens")?.outputAudit?.observedCentrallyBroadenedSingleCount, 2);
   assert.equal(batch022Candidates.find((asset) => asset.pageId === "lachnospira-eligens")?.outputAudit?.observedVisibleAppendageCount, 0);
   assert.equal(batch022Candidates.find((asset) => asset.pageId === "lachnospiraceae")?.outputAudit?.observedCoccoidPairCount, 1);
@@ -1416,9 +1427,9 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(articleMediaRegistry["lachnospiraceae-family"], undefined);
   assert.ok(!batch022PublicMediaFiles.some((name) => name.startsWith("lachnospiraceae-family-")));
   assert.ok(!batch022MasterFiles.some((name) => name.startsWith("lachnospiraceae-family-")));
-  assert.equal(program.current.completed, 120);
-  assert.equal(program.current.remaining, 590);
-  assert.equal(program.current.inReview, 5);
+  assert.equal(program.current.completed, 125);
+  assert.equal(program.current.remaining, 585);
+  assert.equal(program.current.inReview, 0);
   assert.equal(program.current.scientificHolds, 2);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
@@ -1464,7 +1475,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     ["clostridiales", "eubacteriales", "NCBITaxon:186802", "reviewed"],
     ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "reviewed"],
     ["davidiella", "cladosporium", "NCBITaxon:5498", "reviewed"],
-    ["eubacterium-eligens", "lachnospira-eligens", "NCBITaxon:39485", "in-review"],
+    ["eubacterium-eligens", "lachnospira-eligens", "NCBITaxon:39485", "reviewed"],
     ["eubacterium-rectale", "agathobacter-rectalis", "NCBITaxon:39491", "reviewed"],
   ];
   for (const [obsoleteId, canonicalId, identifier, expectedStatus] of currentNameMediaMappings) {

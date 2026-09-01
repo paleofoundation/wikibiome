@@ -54,6 +54,7 @@ export type ArticleMedia = {
   disclosure: string;
   reviewedOn: string;
   reviewLogKey: string;
+  canonicalArticleUrl?: string;
 };
 
 export const ARTICLE_MEDIA_DIGITAL_SOURCE_TYPE =
