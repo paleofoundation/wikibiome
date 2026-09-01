@@ -744,6 +744,175 @@
       "disposition": "approved",
       "notes": "Accepted by WikiBiome control-tower original-resolution review in microorganisms batch 007 after literal prompt provenance and count-bearing metadata reconciliation.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bifidobacterium-breve-draft.png" }
+    },
+    "bifidobacterium-longum|bifidobacterium-longum-morphology-v1.webp": {
+      "pageId": "bifidobacterium-longum",
+      "publishedFile": "bifidobacterium-longum-morphology-v1.webp",
+      "masterSource": "bifidobacterium-longum-morphology-v1-master.png",
+      "socialFile": "bifidobacterium-longum-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=216816&mode=Info",
+          "https://bacdive.dsmz.de/strain/1709"
+        ],
+        "notes": "The completed identity audit confirms current species NCBITaxon:216816; the type-strain record supports the conservative rod-level scope used by the control handoff. No plate-specific diagnostic distinction is asserted."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control human original-resolution review accepted exactly seven bodies in six groupings: five single curved or clubbed rods and one touching two-cell pair, with one shallow bifid end. No labels, appendages, spores, host material, clipping, or watermark are present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all seven visible bodies, six groupings, the pair, and the shallow bifid end; caption states the representative, non-diagnostic, non-micrograph scope."
+      },
+      "disposition": "approved",
+      "notes": "Accepted in the microorganisms batch 008 control handoff after human original-resolution count reconciliation and byte-verified draft transfer.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bifidobacterium-longum-draft.png", "generationRecord": "exec-63d11b32-44d2-4e2b-9dc8-eda47e87e3e8.png" }
+    },
+    "bifidobacterium-longum-subsp-infantis|bifidobacterium-longum-subsp-infantis-morphology-v1.webp": {
+      "pageId": "bifidobacterium-longum-subsp-infantis",
+      "publishedFile": "bifidobacterium-longum-subsp-infantis-morphology-v1.webp",
+      "masterSource": "bifidobacterium-longum-subsp-infantis-morphology-v1-master.png",
+      "socialFile": "bifidobacterium-longum-subsp-infantis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1682&mode=Info",
+          "https://bacdive.dsmz.de/strain/1743"
+        ],
+        "notes": "The completed identity audit confirms current subspecies NCBITaxon:1682 and the conservative rod-level scope. NCBITaxon:35624 is a strain-level record and remains explicitly excluded as the canonical subspecies identity."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control human original-resolution review accepted exactly eight bodies in six groupings: four single straight or gently curved rods and two touching pairs, with mild clubbing and no bifid emphasis, labels, appendages, spores, host material, clipping, or watermark."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles the eight bodies and four-single-plus-two-pair arrangement; caption explicitly states that the subspecies is not visually diagnostic from this reconstruction and that the asset is not a micrograph."
+      },
+      "disposition": "approved",
+      "notes": "Accepted in the microorganisms batch 008 control handoff after human original-resolution count reconciliation. The public metadata preserves the non-diagnostic relationship to other B. longum plates.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bifidobacterium-longum-subsp-infantis-draft.png", "generationRecord": "exec-0748efcb-8e6d-49c2-9b3e-0a47db04e51b.png", "excludedIdentityReference": "NCBITaxon:35624" }
+    },
+    "bilophila|bilophila-morphology-v1.webp": {
+      "pageId": "bilophila",
+      "publishedFile": "bilophila-morphology-v1.webp",
+      "masterSource": "bilophila-morphology-v1-master.png",
+      "socialFile": "bilophila-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=35832&mode=Info",
+          "https://pubmed.ncbi.nlm.nih.gov/2636263/"
+        ],
+        "notes": "The completed identity audit confirms current genus NCBITaxon:35832; the original genus record supports the conservative short-rod scope preserved by the control handoff."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control human original-resolution review accepted exactly eight short pleomorphic rod or coccobacillary bodies in seven groupings: six singles and one touching pair. No labels, appendages, spores, host material, clipping, or watermark are present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text records all eight bodies and seven groupings; caption separates the visible short-rod treatment from the genus-level, non-diagnostic, and non-micrograph qualification."
+      },
+      "disposition": "approved",
+      "notes": "Accepted in the microorganisms batch 008 control handoff after human original-resolution count reconciliation and byte-verified draft transfer.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bilophila-draft.png", "generationRecord": "exec-ddf5a379-c353-461b-9756-a76c4641f436.png" }
+    },
+    "blautia|blautia-morphology-v1.webp": {
+      "pageId": "blautia",
+      "publishedFile": "blautia-morphology-v1.webp",
+      "masterSource": "blautia-morphology-v1-master.png",
+      "socialFile": "blautia-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=572511&mode=Info",
+          "https://pubmed.ncbi.nlm.nih.gov/18676476/",
+          "https://pubmed.ncbi.nlm.nih.gov/27923606/"
+        ],
+        "notes": "The completed identity audit confirms current genus NCBITaxon:572511. Original and emended genus records support the conservative selected ovoid-to-short-coccoid scope used in the control handoff without an exhaustive or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control human original-resolution review accepted exactly ten oval or short-coccoid bodies in four groupings: two touching pairs and two three-cell chains. No body is a perfect sphere; no labels, appendages, spores, host material, clipping, or watermark are present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles all ten bodies, both pairs, and both chains; caption states selected genus-level scope plus the non-diagnostic and non-micrograph limits."
+      },
+      "disposition": "approved",
+      "notes": "Accepted in the microorganisms batch 008 control handoff after human original-resolution count reconciliation and byte-verified draft transfer.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "blautia-draft.png", "generationRecord": "exec-b1a90dcf-b7bc-495f-b629-afb64e4f9ddd.png" }
+    },
+    "borrelia|borrelia-morphology-v1.webp": {
+      "pageId": "borrelia",
+      "publishedFile": "borrelia-morphology-v1.webp",
+      "masterSource": "borrelia-morphology-v1-master.png",
+      "socialFile": "borrelia-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=138&mode=Info",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2620816/"
+        ],
+        "notes": "The completed identity audit confirms current genus NCBITaxon:138; the primary structural reference supports broad flat-wave geometry. The public treatment remains a conservative genus-level reconstruction rather than a diagnostic form."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control human original-resolution review rejected revision 1 and accepted revision 2 only: five fully separated slender bodies with distinct positions, lengths, axes, amplitudes, and three to six broad irregular undulations. No tight corkscrews, labels, external flagella, host material, clipping, or watermark are present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text records all five independent bodies and their broad-wave variation; caption adds the representative genus-level, non-diagnostic, and non-micrograph limits."
+      },
+      "disposition": "approved",
+      "notes": "Revision 1 was rejected as overly uniform and decorative. The microorganisms batch 008 control handoff accepts only generation revision 2 for canonical processing.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "borrelia-draft-v2.png", "replacesDraft": "borrelia-draft.png", "generationRecord": "exec-2834242e-d78d-4a2f-a4e4-08d201943396.png" }
+    },
+    "brucella|brucella-morphology-v1.webp": {
+      "pageId": "brucella",
+      "publishedFile": "brucella-morphology-v1.webp",
+      "masterSource": "brucella-morphology-v1-master.png",
+      "socialFile": "brucella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-01",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=234&mode=Info",
+          "https://www.ncbi.nlm.nih.gov/books/NBK8572/"
+        ],
+        "notes": "The completed identity audit confirms current genus NCBITaxon:234; the official morphology reference supports the conservative small-coccobacillary scope preserved by the control handoff."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control human original-resolution review rejected revisions 1 and 2 for count mismatches and accepted revision 3 only: exactly eight plump oval-to-very-short bodies in six groupings, four singles plus two touching pairs, every body longer than wide. No labels, flagella, spores, host material, clipping, or watermark are present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reconciles the eight bodies and four-single-plus-two-pair arrangement while distinguishing coccobacillary bodies from full cocci or long rods; caption adds non-diagnostic and non-micrograph limits."
+      },
+      "disposition": "approved",
+      "notes": "Generation revisions 1 and 2 were rejected for output-count mismatches. The microorganisms batch 008 control handoff accepts only generation revision 3 for canonical processing.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "brucella-draft-v3.png", "replacesDrafts": ["brucella-draft.png", "brucella-draft-v2.png"], "generationRecord": "exec-e37a7ff4-99b9-4f70-859f-a70582a50711.png" }
     }
   },
   "rejectedAssets": [
@@ -902,6 +1071,45 @@
       "reason": "The first draft's seven bodies were visually clean but read as generic uniform curved bacilli and did not sufficiently communicate the documented normal curved-rod-or-bifid morphology.",
       "supersededBy": "work/media-drafts/microorganisms-batch-007/bifidobacterium-bifidum-draft-v2.png",
       "outcome": "One authorized targeted replacement preserves seven bodies as five singles plus one two-cell pair while adding visible tapered poles, mild clubbing, and one restrained true bifid Y-ended body. Control-tower original-resolution review accepted v2, and only v2 was promoted."
+    },
+    {
+      "pageId": "borrelia",
+      "batchId": "microorganisms-008",
+      "draft": "work/media-drafts/microorganisms-batch-008/borrelia-draft.png",
+      "sha256": "d2eadca0be1a8360a22094fce6f9472e6d9532e967a917a65f3f44c8e3bfd30c",
+      "generationRecord": "exec-465acfaf-6510-4c1d-a68b-661f925bd6e0.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "The five complete bodies were aligned in near-parallel rows with repeated sine-wave geometry, producing an overly uniform decorative plate rather than five independent flexible forms.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/borrelia-draft-v2.png",
+      "outcome": "One targeted revision produced five separated bodies at distinct positions, lengths, axes, and amplitudes with broad irregular waves. Control human original-resolution review accepted v2, and only v2 was promoted."
+    },
+    {
+      "pageId": "brucella",
+      "batchId": "microorganisms-008",
+      "draft": "work/media-drafts/microorganisms-batch-008/brucella-draft.png",
+      "sha256": "b86774b34a02c8547181e5de639edc96f3a6b3536cc0be1314056ecdfc2fe611",
+      "generationRecord": "exec-17e2518b-e289-4486-87cf-ef92f0e2e0f8.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Human original-resolution audit found fourteen bodies in ten groupings, not the prompt-requested twelve bodies in eight groupings.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/brucella-draft-v2.png",
+      "outcome": "Revision 2 remained count-inconsistent and was not promoted; the review chain continued to revision 3."
+    },
+    {
+      "pageId": "brucella",
+      "batchId": "microorganisms-008",
+      "draft": "work/media-drafts/microorganisms-batch-008/brucella-draft-v2.png",
+      "sha256": "cc6d00bf310f5eafab2b776a2d01bee1c992b94477aefb743823a6f07509b217",
+      "generationRecord": "exec-5907c4fb-c06a-411d-ab47-eefb93294b5e.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Human original-resolution audit found nine bodies in seven groupings, not the prompt-requested ten bodies in seven groupings.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/brucella-draft-v3.png",
+      "outcome": "Revision 3 reconciled exactly to eight bodies in six groupings, four singles plus two touching pairs. Control human original-resolution review accepted v3, and only v3 was promoted."
     }
   ],
   "notes": [

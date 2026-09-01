@@ -380,9 +380,10 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.match(currentPages[5], /Strain 35624 must not be treated as evidence for this subspecies/);
   assert.match(currentPages[5], /do not transfer to NCBITaxon:1682/);
   assert.doesNotMatch(currentPages[5], /Bifidobacterium infantis is the current/);
-  assert.doesNotMatch(currentPages[5], /class="article-media-figure"/);
+  assert.match(currentPages[5], /class="article-media-figure"/);
+  assert.match(currentPages[5], /bifidobacterium-longum-subsp-infantis-morphology-v1\.webp/);
   assert.equal(articleMediaRegistry["bifidobacterium-infantis"], undefined);
-  assert.equal(articleMediaRegistry["bifidobacterium-longum-subsp-infantis"], undefined);
+  assert.ok(articleMediaRegistry["bifidobacterium-longum-subsp-infantis"]);
 
   const sitemap = await (await render("/sitemap.xml")).text();
   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
@@ -523,9 +524,10 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.ok(infantisResolution?.excludedIdentityReferences?.some((item) => item.identifier === "NCBITaxon:35624"));
   assert.equal(program.queue.find((record) => record.id === "bifidobacterium-infantis"), undefined);
   const infantisQueueRecord = program.queue.find((record) => record.id === "bifidobacterium-longum-subsp-infantis");
-  assert.equal(infantisQueueRecord?.status, "queued");
+  assert.equal(infantisQueueRecord?.status, "reviewed");
   assert.equal(infantisQueueRecord?.controlledIdentifier, "NCBITaxon:1682");
-  assert.ok(program.nextBatch.some((record) => record.id === "bifidobacterium-longum-subsp-infantis" && record.controlledIdentifier === "NCBITaxon:1682"));
+  assert.equal(infantisQueueRecord?.media?.publishedFile, "bifidobacterium-longum-subsp-infantis-morphology-v1.webp");
+  assert.ok(!program.nextBatch.some((record) => record.id === "bifidobacterium-longum-subsp-infantis"));
   for (const id of resolvedHeldIds) {
     const canonicalId = getArticleAliases()[id];
     assert.equal(program.queue.find((record) => record.id === id), undefined, `${id} must remain outside the canonical media queue`);

@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "1ff5b024d0bfef0932ae92c5f3949d40298159bea08292553faca69a56118ff8",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "f22e39675daa9206e8b74ec8f18e597ea4ee36897cdcbbebdfc223eb5de46f2f",
+    "registrySha256": "0622be8a26350e7921d11d261142b1e44eb7f90058d8039745bad979ef561026",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "29a8d70bb200ac14250d8e55c46d9f47bc096a8828aa8451cc14655bf042306f",
+    "reviewLogSha256": "1562a09ff6d8f090c98c790e2d18498c88380decd6c4666d2b57798910993544",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -53,6 +53,12 @@
         "batchId": "microorganisms-007",
         "status": "reviewed",
         "sha256": "84cc079f31df537fab21437a617a1e652e45f57d00a3aa56f8c6d7d461069043"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-008.json",
+        "batchId": "microorganisms-008",
+        "status": "reviewed",
+        "sha256": "919ecded1f8aac8efca54e9584255a47aa62397bab6f0b02c9cb1875a2fc2c18"
       }
     ]
   },
@@ -74,10 +80,10 @@
   },
   "current": {
     "total": 712,
-    "completed": 44,
-    "remaining": 668,
+    "completed": 50,
+    "remaining": 662,
     "rejected": 6,
-    "revised": 3,
+    "revised": 6,
     "scientificHolds": 0,
     "inReview": 0
   },
@@ -86,8 +92,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 231,
-      "completed": 41,
-      "remaining": 190
+      "completed": 47,
+      "remaining": 184
     },
     {
       "id": "metals",
@@ -295,60 +301,98 @@
       "reason": "The first draft's seven bodies were visually clean but read as generic uniform curved bacilli and did not sufficiently communicate the documented normal curved-rod-or-bifid morphology.",
       "supersededBy": "work/media-drafts/microorganisms-batch-007/bifidobacterium-bifidum-draft-v2.png",
       "outcome": "One authorized targeted replacement preserves seven bodies as five singles plus one two-cell pair while adding visible tapered poles, mild clubbing, and one restrained true bifid Y-ended body. Control-tower original-resolution review accepted v2, and only v2 was promoted."
+    },
+    {
+      "pageId": "borrelia",
+      "batchId": "microorganisms-008",
+      "draft": "work/media-drafts/microorganisms-batch-008/borrelia-draft.png",
+      "sha256": "d2eadca0be1a8360a22094fce6f9472e6d9532e967a917a65f3f44c8e3bfd30c",
+      "generationRecord": "exec-465acfaf-6510-4c1d-a68b-661f925bd6e0.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "The five complete bodies were aligned in near-parallel rows with repeated sine-wave geometry, producing an overly uniform decorative plate rather than five independent flexible forms.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/borrelia-draft-v2.png",
+      "outcome": "One targeted revision produced five separated bodies at distinct positions, lengths, axes, and amplitudes with broad irregular waves. Control human original-resolution review accepted v2, and only v2 was promoted."
+    },
+    {
+      "pageId": "brucella",
+      "batchId": "microorganisms-008",
+      "draft": "work/media-drafts/microorganisms-batch-008/brucella-draft.png",
+      "sha256": "b86774b34a02c8547181e5de639edc96f3a6b3536cc0be1314056ecdfc2fe611",
+      "generationRecord": "exec-17e2518b-e289-4486-87cf-ef92f0e2e0f8.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Human original-resolution audit found fourteen bodies in ten groupings, not the prompt-requested twelve bodies in eight groupings.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/brucella-draft-v2.png",
+      "outcome": "Revision 2 remained count-inconsistent and was not promoted; the review chain continued to revision 3."
+    },
+    {
+      "pageId": "brucella",
+      "batchId": "microorganisms-008",
+      "draft": "work/media-drafts/microorganisms-batch-008/brucella-draft-v2.png",
+      "sha256": "cc6d00bf310f5eafab2b776a2d01bee1c992b94477aefb743823a6f07509b217",
+      "generationRecord": "exec-5907c4fb-c06a-411d-ab47-eefb93294b5e.png",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Human original-resolution audit found nine bodies in seven groupings, not the prompt-requested ten bodies in seven groupings.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-008/brucella-draft-v3.png",
+      "outcome": "Revision 3 reconciled exactly to eight bodies in six groupings, four singles plus two touching pairs. Control human original-resolution review accepted v3, and only v3 was promoted."
     }
   ],
   "nextBatch": [
     {
-      "queuePosition": 39,
-      "id": "bifidobacterium-longum",
-      "title": "Bifidobacterium longum",
-      "route": "/article/bifidobacterium-longum",
+      "queuePosition": 45,
+      "id": "burkholderiales",
+      "title": "Burkholderiales",
+      "route": "/article/burkholderiales",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 40,
-      "id": "bifidobacterium-longum-subsp-infantis",
-      "title": "Bifidobacterium longum subsp. infantis",
-      "route": "/article/bifidobacterium-longum-subsp-infantis",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "controlledIdentifier": "NCBITaxon:1682"
-    },
-    {
-      "queuePosition": 41,
-      "id": "bilophila",
-      "title": "Bilophila",
-      "route": "/article/bilophila",
+      "queuePosition": 46,
+      "id": "butyricicoccus",
+      "title": "Butyricicoccus",
+      "route": "/article/butyricicoccus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 42,
-      "id": "blautia",
-      "title": "Blautia",
-      "route": "/article/blautia",
+      "queuePosition": 47,
+      "id": "butyricimonas",
+      "title": "Butyricimonas",
+      "route": "/article/butyricimonas",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 43,
-      "id": "borrelia",
-      "title": "Borrelia",
-      "route": "/article/borrelia",
+      "queuePosition": 48,
+      "id": "butyrivibrio",
+      "title": "Butyrivibrio",
+      "route": "/article/butyrivibrio",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 44,
-      "id": "brucella",
-      "title": "Brucella",
-      "route": "/article/brucella",
+      "queuePosition": 49,
+      "id": "campylobacter",
+      "title": "Campylobacter",
+      "route": "/article/campylobacter",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 50,
+      "id": "campylobacter-jejuni",
+      "title": "Campylobacter jejuni",
+      "route": "/article/campylobacter-jejuni",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -1164,7 +1208,15 @@
       "route": "/article/bifidobacterium-longum",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bifidobacterium-longum-morphology-v1-master.png",
+        "publishedFile": "bifidobacterium-longum-morphology-v1.webp",
+        "socialFile": "bifidobacterium-longum-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 40,
@@ -1178,7 +1230,15 @@
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
       "controlledIdentifier": "NCBITaxon:1682",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bifidobacterium-longum-subsp-infantis-morphology-v1-master.png",
+        "publishedFile": "bifidobacterium-longum-subsp-infantis-morphology-v1.webp",
+        "socialFile": "bifidobacterium-longum-subsp-infantis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 41,
@@ -1191,7 +1251,15 @@
       "route": "/article/bilophila",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "bilophila-morphology-v1-master.png",
+        "publishedFile": "bilophila-morphology-v1.webp",
+        "socialFile": "bilophila-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 42,
@@ -1204,7 +1272,15 @@
       "route": "/article/blautia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "blautia-morphology-v1-master.png",
+        "publishedFile": "blautia-morphology-v1.webp",
+        "socialFile": "blautia-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 43,
@@ -1217,7 +1293,15 @@
       "route": "/article/borrelia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "borrelia-morphology-v1-master.png",
+        "publishedFile": "borrelia-morphology-v1.webp",
+        "socialFile": "borrelia-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 44,
@@ -1230,7 +1314,15 @@
       "route": "/article/brucella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-01",
+        "masterSource": "brucella-morphology-v1-master.png",
+        "publishedFile": "brucella-morphology-v1.webp",
+        "socialFile": "brucella-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 45,
