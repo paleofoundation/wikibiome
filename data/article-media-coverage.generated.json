@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "31b16844c96721b1a428842d302dfad1db5c957e4430bf5f0d06d1d85fbdec79",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "3aaf3aaf280c8cdf6c1c55c9973b437234ab99bc43454ae8be8e2c77750a1984",
+    "reviewLogSha256": "d832ad977ed834b182591e27ecd7307855dfd463fd57eeb5f74da958ea92bc9d",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -131,6 +131,12 @@
         "batchId": "microorganisms-020",
         "status": "reviewed",
         "sha256": "4f07ca07037ee3b6949c0c85d5748072900b541798a44e655687c78a22d45349"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-021.json",
+        "batchId": "microorganisms-021",
+        "status": "awaiting-control-review",
+        "sha256": "705792f3f1e171ddbb8a206393efd89aa5089410df3a1a117daf9df6e24d407a"
       }
     ]
   },
@@ -154,10 +160,10 @@
     "total": 710,
     "completed": 115,
     "remaining": 595,
-    "rejected": 13,
+    "rejected": 14,
     "revised": 8,
-    "scientificHolds": 0,
-    "inReview": 0
+    "scientificHolds": 1,
+    "inReview": 5
   },
   "categories": [
     {
@@ -530,6 +536,22 @@
         "controlledIdentifier": "NCBITaxon:39491",
         "coverageStatus": "uncovered"
       }
+    },
+    {
+      "pageId": "lachnoclostridium",
+      "batchId": "microorganisms-021",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "NCBI retains taxonomy node 1506553 but explicitly marks Lachnoclostridium as effectively rather than validly published. LPSN records the genus label as not validly published, a synonym with no standing, and points to Clostridium as the correct genus name; it lists zero validly published correct-name children. The proposed type Lachnoclostridium phytofermentans is likewise not validly published and resolves to Clostridium phytofermentans.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1506553&mode=Info",
+        "https://lpsn.dsmz.de/genus/lachnoclostridium",
+        "https://lpsn.dsmz.de/species/lachnoclostridium-phytofermentans",
+        "https://doi.org/10.1111/1462-2920.12173"
+      ],
+      "requiredResolution": "Editorially determine whether the canonical route should retire, redirect to a supported current taxon, or be explicitly reframed as a historical/source-label record before it can re-enter a media queue.",
+      "routingImpact": "The unresolved route remains uncovered and is excluded from the public media registry, canonical media files, derivatives, and image sitemap. Batch 021 contains no prompt, generation call, fallback raster, or queue substitution."
     }
   ],
   "revisedAssets": [
@@ -633,55 +655,56 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 113,
-      "id": "intestinimonas",
-      "title": "Intestinimonas",
-      "route": "/article/intestinimonas",
+      "queuePosition": 119,
+      "id": "lachnospira-eligens",
+      "title": "Lachnospira eligens",
+      "route": "/article/lachnospira-eligens",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:39485"
+    },
+    {
+      "queuePosition": 120,
+      "id": "lachnospiraceae",
+      "title": "Lachnospiraceae",
+      "route": "/article/lachnospiraceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 114,
-      "id": "klebsiella",
-      "title": "Klebsiella",
-      "route": "/article/klebsiella",
+      "queuePosition": 121,
+      "id": "lachnospiraceae-family",
+      "title": "Lachnospiraceae (Family)",
+      "route": "/article/lachnospiraceae-family",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 115,
-      "id": "klebsiella-pneumoniae",
-      "title": "Klebsiella pneumoniae",
-      "route": "/article/klebsiella-pneumoniae",
+      "queuePosition": 122,
+      "id": "lactobacillaceae",
+      "title": "Lactobacillaceae",
+      "route": "/article/lactobacillaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 116,
-      "id": "lachnobacterium",
-      "title": "Lachnobacterium",
-      "route": "/article/lachnobacterium",
+      "queuePosition": 123,
+      "id": "lactobacillus",
+      "title": "Lactobacillus",
+      "route": "/article/lactobacillus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 117,
-      "id": "lachnoclostridium",
-      "title": "Lachnoclostridium",
-      "route": "/article/lachnoclostridium",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 118,
-      "id": "lachnospira",
-      "title": "Lachnospira",
-      "route": "/article/lachnospira",
+      "queuePosition": 124,
+      "id": "lactobacillus-acidophilus",
+      "title": "Lactobacillus acidophilus",
+      "route": "/article/lactobacillus-acidophilus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -3057,7 +3080,13 @@
       "route": "/article/intestinimonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-021",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-021/intestinimonas-draft.png",
+        "sha256": "49aa2443bc087d72a66a23847205cb4cad8d55aba0bfef42f2df89fbe9875b11"
+      }
     },
     {
       "queuePosition": 114,
@@ -3070,7 +3099,13 @@
       "route": "/article/klebsiella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-021",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-draft.png",
+        "sha256": "64d126f988de4e76d0dbcfc4eb0ce084d80a010806e6678ec9f9fa7787064f25"
+      }
     },
     {
       "queuePosition": 115,
@@ -3083,7 +3118,13 @@
       "route": "/article/klebsiella-pneumoniae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-021",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-021/klebsiella-pneumoniae-draft.png",
+        "sha256": "19f66d75ac14033971bea381df9736e3d25015a6eb79af578c182d041770640c"
+      }
     },
     {
       "queuePosition": 116,
@@ -3096,7 +3137,13 @@
       "route": "/article/lachnobacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-021",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-021/lachnobacterium-draft.png",
+        "sha256": "1728aa663695b2f61648403f14df520cfaeed934e51de7c90c60c860da267107"
+      }
     },
     {
       "queuePosition": 117,
@@ -3109,7 +3156,13 @@
       "route": "/article/lachnoclostridium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-01",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI retains taxonomy node 1506553 but explicitly marks Lachnoclostridium as effectively rather than validly published. LPSN records the genus label as not validly published, a synonym with no standing, and points to Clostridium as the correct genus name; it lists zero validly published correct-name children. The proposed type Lachnoclostridium phytofermentans is likewise not validly published and resolves to Clostridium phytofermentans.",
+        "requiredResolution": "Editorially determine whether the canonical route should retire, redirect to a supported current taxon, or be explicitly reframed as a historical/source-label record before it can re-enter a media queue."
+      }
     },
     {
       "queuePosition": 118,
@@ -3122,7 +3175,13 @@
       "route": "/article/lachnospira",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-021",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-021/lachnospira-draft.png",
+        "sha256": "cc3b9b522259ed3fe2cca3702ffc1d4dbe3c3eeca8c4ba8edd1ad277d3ad2f2f"
+      }
     },
     {
       "queuePosition": 119,

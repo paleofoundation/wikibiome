@@ -3210,6 +3210,22 @@
         "controlledIdentifier": "NCBITaxon:39491",
         "coverageStatus": "uncovered"
       }
+    },
+    {
+      "pageId": "lachnoclostridium",
+      "batchId": "microorganisms-021",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "reason": "NCBI retains taxonomy node 1506553 but explicitly marks Lachnoclostridium as effectively rather than validly published. LPSN records the genus label as not validly published, a synonym with no standing, and points to Clostridium as the correct genus name; it lists zero validly published correct-name children. The proposed type Lachnoclostridium phytofermentans is likewise not validly published and resolves to Clostridium phytofermentans.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1506553&mode=Info",
+        "https://lpsn.dsmz.de/genus/lachnoclostridium",
+        "https://lpsn.dsmz.de/species/lachnoclostridium-phytofermentans",
+        "https://doi.org/10.1111/1462-2920.12173"
+      ],
+      "requiredResolution": "Editorially determine whether the canonical route should retire, redirect to a supported current taxon, or be explicitly reframed as a historical/source-label record before it can re-enter a media queue.",
+      "routingImpact": "The unresolved route remains uncovered and is excluded from the public media registry, canonical media files, derivatives, and image sitemap. Batch 021 contains no prompt, generation call, fallback raster, or queue substitution."
     }
   ],
   "revisedAssets": [
