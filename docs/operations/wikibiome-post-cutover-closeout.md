@@ -149,6 +149,47 @@ preferred authenticated evidence after the gate.
 
 No Vercel deployment, alias, or DNS state was changed.
 
+## Read-only audit runner
+
+The repository includes a deterministic public-evidence runner. It performs
+only GET, DNS, and TLS reads and never changes production or account state.
+
+```sh
+# Before the gate: exits 2 without making any network request.
+npm run audit:post-cutover
+
+# Optional labeled pre-gate capture; never issues a retirement decision.
+npm run audit:post-cutover -- --baseline
+
+# On or after the gate: runs the public checks and emits JSON.
+npm run audit:post-cutover
+
+# Unit coverage for the gate and evidence evaluators.
+npm run audit:post-cutover:test
+```
+
+Exit `2` means the time gate has not been reached or command arguments are
+invalid. After the gate, exit `1` means one or more required public checks
+failed. Exit `0` means only that the public checks passed; it is **not** a
+retirement approval. The authenticated browser, owner moderation, Stripe API,
+worker-log, search-index, and Vercel metadata evidence must still be attached
+and reviewed manually. The runner therefore always emits
+`eligibleForRetirementDecision: false`.
+
+Runner validation at **2026-09-01T09:20:29.463Z** completed all 26 public
+checks: 16 passed and 10 failed. The 10 failures were exactly the already
+recorded route-canonical defects (category, source, search, support, thank-you,
+contribution entry, Explore, Clusters, Compare, and Keystone); there were no
+additional request, DNS, TLS, redirect-loop, sitemap, robots, support-link, or
+rollback-availability failures. Both HTTP origins upgraded to HTTPS with one
+`302` hop. This is the exact pre-gate runner metric for the final delta.
+
+The post-gate manual evidence sources are the read-only Sites project/version
+and worker-log interfaces, a real browser with the owner's existing session,
+the Stripe read API, the Vercel deployment read API, and public web search (plus
+Search Console or Bing Webmaster evidence if already available to the owner).
+None of those reads authorizes a production mutation.
+
 ## Post-gate audit checklist
 
 Run on or after **2026-09-07T00:00:00+03:00** against the production release
