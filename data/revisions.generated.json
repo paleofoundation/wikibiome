@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T11:42:14.008Z",
+  "generatedAt": "2026-09-01T13:25:38.164Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+  "sourceCommit": "48053d889912a53488f2d734297bd95c494a3faf",
   "records": 819,
   "canonicalIds": 754,
-  "revisions": 2905,
+  "revisions": 2911,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -2815,97 +2815,20 @@
         }
       ]
     },
-    "candida-auris": {
-      "paths": [
-        "wiki/entities/candida-auris.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/candida-auris.md",
-          "additions": 18,
-          "deletions": 18
-        },
-        {
-          "hash": "77139b48c0e93472ae7c5c3539137885a3712187",
-          "date": "2026-04-20T05:14:08+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "ingest: 87 papers (17 endometriosis, 67 erectile dysfunction, 3 cross-condition)",
-          "path": "wiki/entities/candida-auris.md",
-          "additions": 34,
-          "deletions": 13
-        },
-        {
-          "hash": "ed51d03f4c74079f543bf1da3f5bbaf7ca688931",
-          "date": "2026-04-16T12:10:10+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Deep citation pass on 10 disease entities + expand 3 thin entities",
-          "path": "wiki/entities/candida-auris.md",
-          "additions": 50,
-          "deletions": 5
-        },
-        {
-          "hash": "83cc26ed3410b1db8deb96f21874d9e40d92c74d",
-          "date": "2026-04-16T07:30:39+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Deep citation pass: 25 new sources + major entity citations",
-          "path": "wiki/entities/candida-auris.md",
-          "additions": 7,
-          "deletions": 7
-        },
-        {
-          "hash": "daa687776ec74b9d7f42b3e341f4fa96fd12cad6",
-          "date": "2026-04-15T16:59:18+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Health check fixes: 40 intervention pages + 14 entity Connections sections",
-          "path": "wiki/entities/candida-auris.md",
-          "additions": 4,
-          "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/candida-auris.md",
-          "additions": 46,
-          "deletions": 0
-        }
-      ]
-    },
-    "candida-glabrata": {
-      "paths": [
-        "wiki/entities/candida-glabrata.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/entities/candida-glabrata.md",
-          "additions": 9,
-          "deletions": 9
-        },
-        {
-          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
-          "date": "2026-04-18T21:04:01+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "pre-overnight checkpoint 2026-04-18",
-          "path": "wiki/entities/candida-glabrata.md",
-          "additions": 85,
-          "deletions": 0
-        }
-      ]
-    },
     "candida-tropicalis": {
       "paths": [
         "wiki/entities/candida-tropicalis.md"
       ],
       "revisions": [
+        {
+          "hash": "48053d889912a53488f2d734297bd95c494a3faf",
+          "date": "2026-09-01T16:23:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Candida fungal names",
+          "path": "wiki/entities/candida-tropicalis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -2958,6 +2881,76 @@
           "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
           "path": "wiki/entities/candida-tropicalis.md",
           "additions": 42,
+          "deletions": 0
+        }
+      ]
+    },
+    "candidozyma-auris": {
+      "paths": [
+        "wiki/entities/candidozyma-auris.md"
+      ],
+      "revisions": [
+        {
+          "hash": "48053d889912a53488f2d734297bd95c494a3faf",
+          "date": "2026-09-01T16:23:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Candida fungal names",
+          "path": "wiki/entities/candidozyma-auris.md",
+          "additions": 21,
+          "deletions": 10
+        },
+        {
+          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
+          "date": "2026-05-04T12:56:02-06:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
+          "path": "wiki/entities/candidozyma-auris.md",
+          "additions": 18,
+          "deletions": 18
+        },
+        {
+          "hash": "77139b48c0e93472ae7c5c3539137885a3712187",
+          "date": "2026-04-20T05:14:08+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "ingest: 87 papers (17 endometriosis, 67 erectile dysfunction, 3 cross-condition)",
+          "path": "wiki/entities/candidozyma-auris.md",
+          "additions": 34,
+          "deletions": 13
+        },
+        {
+          "hash": "ed51d03f4c74079f543bf1da3f5bbaf7ca688931",
+          "date": "2026-04-16T12:10:10+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "Deep citation pass on 10 disease entities + expand 3 thin entities",
+          "path": "wiki/entities/candidozyma-auris.md",
+          "additions": 50,
+          "deletions": 5
+        },
+        {
+          "hash": "83cc26ed3410b1db8deb96f21874d9e40d92c74d",
+          "date": "2026-04-16T07:30:39+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "Deep citation pass: 25 new sources + major entity citations",
+          "path": "wiki/entities/candidozyma-auris.md",
+          "additions": 7,
+          "deletions": 7
+        },
+        {
+          "hash": "daa687776ec74b9d7f42b3e341f4fa96fd12cad6",
+          "date": "2026-04-15T16:59:18+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "Health check fixes: 40 intervention pages + 14 entity Connections sections",
+          "path": "wiki/entities/candidozyma-auris.md",
+          "additions": 4,
+          "deletions": 0
+        },
+        {
+          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
+          "date": "2026-04-13T12:43:54+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
+          "path": "wiki/entities/candidozyma-auris.md",
+          "additions": 46,
           "deletions": 0
         }
       ]
@@ -10163,6 +10156,40 @@
         }
       ]
     },
+    "nakaseomyces-glabratus": {
+      "paths": [
+        "wiki/entities/nakaseomyces-glabratus.md"
+      ],
+      "revisions": [
+        {
+          "hash": "48053d889912a53488f2d734297bd95c494a3faf",
+          "date": "2026-09-01T16:23:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Candida fungal names",
+          "path": "wiki/entities/nakaseomyces-glabratus.md",
+          "additions": 17,
+          "deletions": 11
+        },
+        {
+          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
+          "date": "2026-05-04T12:56:02-06:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
+          "path": "wiki/entities/nakaseomyces-glabratus.md",
+          "additions": 9,
+          "deletions": 9
+        },
+        {
+          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
+          "date": "2026-04-18T21:04:01+03:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "pre-overnight checkpoint 2026-04-18",
+          "path": "wiki/entities/nakaseomyces-glabratus.md",
+          "additions": 85,
+          "deletions": 0
+        }
+      ]
+    },
     "necrotizing-enterocolitis": {
       "paths": [
         "cureva/signatures/necrotizing-enterocolitis.md",
@@ -13557,6 +13584,15 @@
         "wiki/interventions/saccharomyces-boulardii.md"
       ],
       "revisions": [
+        {
+          "hash": "48053d889912a53488f2d734297bd95c494a3faf",
+          "date": "2026-09-01T16:23:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Candida fungal names",
+          "path": "wiki/interventions/saccharomyces-boulardii.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -18965,6 +19001,15 @@
       ],
       "revisions": [
         {
+          "hash": "48053d889912a53488f2d734297bd95c494a3faf",
+          "date": "2026-09-01T16:23:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Candida fungal names",
+          "path": "wiki/concepts/functional-shielding.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -24369,6 +24414,15 @@
         "wiki/concepts/superoxide-dismutase.md"
       ],
       "revisions": [
+        {
+          "hash": "48053d889912a53488f2d734297bd95c494a3faf",
+          "date": "2026-09-01T16:23:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Canonicalize Candida fungal names",
+          "path": "wiki/concepts/superoxide-dismutase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",

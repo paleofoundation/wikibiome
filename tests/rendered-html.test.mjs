@@ -184,8 +184,8 @@ test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities 
   const aliases = getArticleAliases();
   const audit = validateArticleIdentityPolicy(generated);
 
-  assert.equal(audit.aliasCount, 6);
-  assert.equal(audit.canonicalTaxonCount, 6);
+  assert.equal(audit.aliasCount, 8);
+  assert.equal(audit.canonicalTaxonCount, 8);
   for (const [alias, target] of Object.entries(aliases)) {
     assert.equal(generated.pages.some((page) => page.id === alias), false, `${alias} must not remain indexable`);
     assert.equal(generated.pages.filter((page) => page.id === target).length, 1, `${target} must be unique`);
@@ -214,6 +214,14 @@ test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities 
   const obsoleteBasionymClaim = structuredClone(generated);
   obsoleteBasionymClaim.pages.find((page) => page.id === "bifidobacterium-longum-subsp-infantis").overview += " Bifidobacterium infantis is the current species name.";
   assert.throws(() => validateArticleIdentityPolicy(obsoleteBasionymClaim), /Unsupported retired identities/);
+
+  const obsoleteCandidozymaClaim = structuredClone(generated);
+  obsoleteCandidozymaClaim.pages.find((page) => page.id === "candidozyma-auris").overview += " Candida auris is the current name.";
+  assert.throws(() => validateArticleIdentityPolicy(obsoleteCandidozymaClaim), /Unsupported retired identities/);
+
+  const obsoleteNakaseomycesClaim = structuredClone(generated);
+  obsoleteNakaseomycesClaim.pages.find((page) => page.id === "nakaseomyces-glabratus").overview += " Candida glabrata is the current name.";
+  assert.throws(() => validateArticleIdentityPolicy(obsoleteNakaseomycesClaim), /Unsupported retired identities/);
 });
 
 test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
@@ -282,7 +290,7 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
-  assert.match(html, /1,914/);
+  assert.match(html, /1,922/);
   assert.match(html, /819/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
@@ -357,7 +365,7 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
     }
   }
 
-  const currentIds = ["akkermansia-muciniphila", "dialister-histaminiformans", "lancefieldella-parvula", "fannyhessea-vaginae", "barnesiella", "bifidobacterium-longum-subsp-infantis"];
+  const currentIds = ["akkermansia-muciniphila", "dialister-histaminiformans", "lancefieldella-parvula", "fannyhessea-vaginae", "barnesiella", "bifidobacterium-longum-subsp-infantis", "candidozyma-auris", "nakaseomyces-glabratus"];
   const currentResponses = await Promise.all(currentIds.map((id) => render(`/article/${id}`)));
   currentResponses.forEach((response) => assert.equal(response.status, 200));
   const currentPages = await Promise.all(currentResponses.map((response) => response.text()));
@@ -384,6 +392,24 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   assert.match(currentPages[5], /bifidobacterium-longum-subsp-infantis-morphology-v1\.webp/);
   assert.equal(articleMediaRegistry["bifidobacterium-infantis"], undefined);
   assert.ok(articleMediaRegistry["bifidobacterium-longum-subsp-infantis"]);
+  assert.match(currentPages[6], /<title>Candidozyma auris — WikiBiome<\/title>/i);
+  assert.match(currentPages[6], /NCBITaxon:498019/);
+  assert.match(currentPages[6], /MycoBank MB 848169/);
+  assert.match(currentPages[6], /Candida auris[\s\S]{0,120}basionym, not a separate species/);
+  assert.match(currentPages[6], /historical name[\s\S]{0,60}Candida auris/);
+  assert.doesNotMatch(currentPages[6], /Candida auris is the current name/);
+  assert.doesNotMatch(currentPages[6], /class="article-media-figure"/);
+  assert.equal(articleMediaRegistry["candida-auris"], undefined);
+  assert.equal(articleMediaRegistry["candidozyma-auris"], undefined);
+  assert.match(currentPages[7], /<title>Nakaseomyces glabratus — WikiBiome<\/title>/i);
+  assert.match(currentPages[7], /NCBITaxon:5478/);
+  assert.match(currentPages[7], /MycoBank MB 843854/);
+  assert.match(currentPages[7], /Candida glabrata[\s\S]{0,80}homotypic synonym and former combination/);
+  assert.match(currentPages[7], /Cryptococcus glabratus[\s\S]{0,80}basionym/);
+  assert.doesNotMatch(currentPages[7], /Candida glabrata is the current name/);
+  assert.doesNotMatch(currentPages[7], /class="article-media-figure"/);
+  assert.equal(articleMediaRegistry["candida-glabrata"], undefined);
+  assert.equal(articleMediaRegistry["nakaseomyces-glabratus"], undefined);
 
   const sitemap = await (await render("/sitemap.xml")).text();
   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
@@ -505,7 +531,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(articleMediaRegistry[id], undefined, `${id} must not enter the reviewed registry before approval`);
     assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)), `${id} draft must not enter public media files`);
   }
-  const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella"];
+  const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), []);
   assert.equal(program.current.scientificHolds, activeScientificHolds.length);
@@ -528,6 +554,25 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(infantisQueueRecord?.controlledIdentifier, "NCBITaxon:1682");
   assert.equal(infantisQueueRecord?.media?.publishedFile, "bifidobacterium-longum-subsp-infantis-morphology-v1.webp");
   assert.ok(!program.nextBatch.some((record) => record.id === "bifidobacterium-longum-subsp-infantis"));
+  const fungalMediaMappings = [
+    ["candida-auris", "candidozyma-auris", "NCBITaxon:498019"],
+    ["candida-glabrata", "nakaseomyces-glabratus", "NCBITaxon:5478"],
+  ];
+  for (const [obsoleteId, canonicalId, identifier] of fungalMediaMappings) {
+    const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === obsoleteId);
+    assert.equal(resolution?.disposition, "scientific-identity-hold-resolved");
+    assert.equal(resolution?.canonicalPageId, canonicalId);
+    assert.equal(resolution?.canonicalIdentifier, identifier);
+    assert.equal(resolution?.queueReplacement?.pageId, canonicalId);
+    assert.equal(resolution?.queueReplacement?.controlledIdentifier, identifier);
+    assert.equal(program.queue.find((record) => record.id === obsoleteId), undefined);
+    const canonicalQueueRecord = program.queue.find((record) => record.id === canonicalId);
+    assert.equal(canonicalQueueRecord?.status, "queued");
+    assert.equal(canonicalQueueRecord?.controlledIdentifier, identifier);
+    assert.equal(articleMediaRegistry[obsoleteId], undefined);
+    assert.equal(articleMediaRegistry[canonicalId], undefined);
+    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${obsoleteId}-`) || filename.startsWith(`${canonicalId}-`)));
+  }
   for (const id of resolvedHeldIds) {
     const canonicalId = getArticleAliases()[id];
     assert.equal(program.queue.find((record) => record.id === id), undefined, `${id} must remain outside the canonical media queue`);
@@ -810,7 +855,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /0f281e88991f/);
+  assert.match(readiness, /48053d889912/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -863,7 +908,7 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(sitemap, /xmlns:image="http:\/\/www\.google\.com\/schemas\/sitemap-image\/1\.1"/);
   assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
   assert.match(sitemap, /<image:loc>https:\/\/www\.wikibiome\.com\/media\/image\/nickel-technical-specimen-v2\.webp<\/image:loc>/);
-  assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae|bifidobacterium-infantis)[^<]*<\/image:loc>/);
+  assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae|bifidobacterium-infantis|candida-auris|candida-glabrata)[^<]*<\/image:loc>/);
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/source\/ahmed-2025-metals-alzheimers-mechanistic-review<\/loc>/);
   assert.ok((sitemap.match(/<url>/g) ?? []).length > 2_500);
   assert.match(imageSitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
@@ -989,7 +1034,7 @@ test("renders the claim, contribute, collaborate researcher network", async () =
     networkResponse.text(), standardResponse.text(), submitResponse.text(), institutionsResponse.text(), sourceResponse.text(), dashboardResponse.text(),
   ]);
   assert.match(network, /Claim → Contribute → Collaborate/);
-  assert.match(network, /1,914[\s\S]{0,30}evidence records/);
+  assert.match(network, /1,922[\s\S]{0,30}evidence records/);
   assert.match(network, /Identity earns attribution—not control/);
   assert.match(network, /href="\/api\/auth\/orcid\/start\?returnTo=\/researcher\/dashboard"/);
 
@@ -1216,10 +1261,10 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "0f281e88991f07ee9ea42a808122743fc1dc415c");
+  assert.equal(manifest.source.commit, "48053d889912a53488f2d734297bd95c494a3faf");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 819);
-  assert.equal(manifest.content.sources, 1914);
+  assert.equal(manifest.content.sources, 1922);
   assert.equal(manifest.sourceMetadataPolicy.version, 1);
   assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
   assert.equal(manifest.sourceMetadataPolicy.omittedYearCount, 3);
@@ -1241,12 +1286,13 @@ test("binds generated content to the fetched upstream commit", () => {
   const statusRegistry = readFileSync(new URL("../data/editorial-statuses.json", import.meta.url));
   assert.equal(manifest.editorialStatusPolicy.registrySha256, createHash("sha256").update(statusRegistry).digest("hex"));
   assert.equal(manifest.articleIdentityPolicy.version, 1);
-  assert.equal(manifest.articleIdentityPolicy.aliasCount, 6);
-  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 6);
-  assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 6);
+  assert.equal(manifest.articleIdentityPolicy.aliasCount, 8);
+  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 8);
+  assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 8);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.ok(manifest.audit.recoveredInlineReferences >= 348);
+  assert.equal(manifest.audit.generatedReferences, 6435);
+  assert.equal(manifest.audit.recoveredInlineReferences, 350);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
   assert.equal(manifest.audit.invalidSourceYears.length, 0);

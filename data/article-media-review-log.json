@@ -1216,6 +1216,60 @@
           "reason": "Strain-level record; explicitly excluded as a controlled identity reference for the canonical subspecies."
         }
       ]
+    },
+    {
+      "pageId": "candida-auris",
+      "batchId": "microorganisms-010",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:498019 to the current name Candidozyma auris and records Candida auris as its basionym. Liu et al. 2024 established the current combination as MycoBank MB 848169, so a new asset must not be keyed to the obsolete combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=498019&mode=Info",
+        "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=848169",
+        "https://doi.org/10.3767/persoonia.2024.52.02",
+        "https://pubmed.ncbi.nlm.nih.gov/19161556/"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to Candidozyma auris keyed to NCBITaxon:498019, while preserving Candida auris in source-specific historical and clinical contexts.",
+      "routingImpact": "The obsolete slug remains excluded from the registry and image sitemap. Batch 010 generated no substitute raster; a future asset may be keyed only to candidozyma-auris and NCBITaxon:498019.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The obsolete-combination route was retired and permanently redirects to the current Candidozyma auris record, which preserves Candida auris as the basionym and historical literature label.",
+      "canonicalPageId": "candidozyma-auris",
+      "canonicalIdentifier": "NCBITaxon:498019",
+      "queueReplacement": {
+        "pageId": "candidozyma-auris",
+        "title": "Candidozyma auris",
+        "route": "/article/candidozyma-auris",
+        "controlledIdentifier": "NCBITaxon:498019",
+        "coverageStatus": "uncovered"
+      }
+    },
+    {
+      "pageId": "candida-glabrata",
+      "batchId": "microorganisms-010",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:5478 to the current name Nakaseomyces glabratus and records Candida glabrata as a homotypic synonym. Takashima and Sugita 2022 established the current combination as MycoBank MB 843854, so a new asset must not be keyed to the former combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5478&mode=Info",
+        "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=416322",
+        "https://doi.org/10.3314/mmj.22.004",
+        "https://doi.org/10.1093/infdis/21.4.341"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to Nakaseomyces glabratus keyed to NCBITaxon:5478, while preserving Candida glabrata where cited clinical or experimental sources used that name.",
+      "routingImpact": "The obsolete slug remains excluded from the registry and image sitemap. Batch 010 generated no substitute raster; a future asset may be keyed only to nakaseomyces-glabratus and NCBITaxon:5478.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The former-combination route was retired and permanently redirects to the current Nakaseomyces glabratus record, which preserves Candida glabrata as a homotypic synonym and historical literature label.",
+      "canonicalPageId": "nakaseomyces-glabratus",
+      "canonicalIdentifier": "NCBITaxon:5478",
+      "queueReplacement": {
+        "pageId": "nakaseomyces-glabratus",
+        "title": "Nakaseomyces glabratus",
+        "route": "/article/nakaseomyces-glabratus",
+        "controlledIdentifier": "NCBITaxon:5478",
+        "coverageStatus": "uncovered"
+      }
     }
   ],
   "revisedAssets": [

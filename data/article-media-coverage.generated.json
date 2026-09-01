@@ -3,14 +3,14 @@
   "generatedOn": "2026-09-01",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
-    "upstreamCommit": "0f281e88991f07ee9ea42a808122743fc1dc415c",
+    "upstreamCommit": "48053d889912a53488f2d734297bd95c494a3faf",
     "contentManifest": "data/content-manifest.generated.json",
     "contentFile": "data/content.generated.json",
-    "contentSha256": "1ff5b024d0bfef0932ae92c5f3949d40298159bea08292553faca69a56118ff8",
+    "contentSha256": "9168556852ecb065a546e3cf8703e83c440842c7031820494b157bb69fe57514",
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "9d8c55cbe6b6b582184355b210eec68f6e74336b212817ded267216e6ae4b578",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "bf68510efa8bbdb4764d01cb606db37be34c9741202e7dab9fc1caf517e4cbe0",
+    "reviewLogSha256": "2770dc11df8b26f9ec13d9776c128c1ea96fd6a272a136692ac7baacacbb013a",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -88,7 +88,7 @@
     "total": 712,
     "completed": 56,
     "remaining": 656,
-    "rejected": 6,
+    "rejected": 8,
     "revised": 7,
     "scientificHolds": 0,
     "inReview": 0
@@ -273,6 +273,60 @@
           "reason": "Strain-level record; explicitly excluded as a controlled identity reference for the canonical subspecies."
         }
       ]
+    },
+    {
+      "pageId": "candida-auris",
+      "batchId": "microorganisms-010",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:498019 to the current name Candidozyma auris and records Candida auris as its basionym. Liu et al. 2024 established the current combination as MycoBank MB 848169, so a new asset must not be keyed to the obsolete combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=498019&mode=Info",
+        "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=848169",
+        "https://doi.org/10.3767/persoonia.2024.52.02",
+        "https://pubmed.ncbi.nlm.nih.gov/19161556/"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to Candidozyma auris keyed to NCBITaxon:498019, while preserving Candida auris in source-specific historical and clinical contexts.",
+      "routingImpact": "The obsolete slug remains excluded from the registry and image sitemap. Batch 010 generated no substitute raster; a future asset may be keyed only to candidozyma-auris and NCBITaxon:498019.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The obsolete-combination route was retired and permanently redirects to the current Candidozyma auris record, which preserves Candida auris as the basionym and historical literature label.",
+      "canonicalPageId": "candidozyma-auris",
+      "canonicalIdentifier": "NCBITaxon:498019",
+      "queueReplacement": {
+        "pageId": "candidozyma-auris",
+        "title": "Candidozyma auris",
+        "route": "/article/candidozyma-auris",
+        "controlledIdentifier": "NCBITaxon:498019",
+        "coverageStatus": "uncovered"
+      }
+    },
+    {
+      "pageId": "candida-glabrata",
+      "batchId": "microorganisms-010",
+      "reviewedOn": "2026-09-01",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold-resolved",
+      "reason": "NCBI Taxonomy assigns NCBITaxon:5478 to the current name Nakaseomyces glabratus and records Candida glabrata as a homotypic synonym. Takashima and Sugita 2022 established the current combination as MycoBank MB 843854, so a new asset must not be keyed to the former combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5478&mode=Info",
+        "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=416322",
+        "https://doi.org/10.3314/mmj.22.004",
+        "https://doi.org/10.1093/infdis/21.4.341"
+      ],
+      "requiredResolution": "Rename or redirect the canonical route to Nakaseomyces glabratus keyed to NCBITaxon:5478, while preserving Candida glabrata where cited clinical or experimental sources used that name.",
+      "routingImpact": "The obsolete slug remains excluded from the registry and image sitemap. Batch 010 generated no substitute raster; a future asset may be keyed only to nakaseomyces-glabratus and NCBITaxon:5478.",
+      "resolvedOn": "2026-09-01",
+      "resolution": "The former-combination route was retired and permanently redirects to the current Nakaseomyces glabratus record, which preserves Candida glabrata as a homotypic synonym and historical literature label.",
+      "canonicalPageId": "nakaseomyces-glabratus",
+      "canonicalIdentifier": "NCBITaxon:5478",
+      "queueReplacement": {
+        "pageId": "nakaseomyces-glabratus",
+        "title": "Nakaseomyces glabratus",
+        "route": "/article/nakaseomyces-glabratus",
+        "controlledIdentifier": "NCBITaxon:5478",
+        "coverageStatus": "uncovered"
+      }
     }
   ],
   "revisedAssets": [
@@ -364,24 +418,6 @@
   "nextBatch": [
     {
       "queuePosition": 52,
-      "id": "candida-auris",
-      "title": "Candida auris",
-      "route": "/article/candida-auris",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 53,
-      "id": "candida-glabrata",
-      "title": "Candida glabrata",
-      "route": "/article/candida-glabrata",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 54,
       "id": "candida-tropicalis",
       "title": "Candida tropicalis",
       "route": "/article/candida-tropicalis",
@@ -390,7 +426,17 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 55,
+      "queuePosition": 53,
+      "id": "candidozyma-auris",
+      "title": "Candidozyma auris",
+      "route": "/article/candidozyma-auris",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:498019"
+    },
+    {
+      "queuePosition": 54,
       "id": "caulobacter",
       "title": "Caulobacter",
       "route": "/article/caulobacter",
@@ -399,7 +445,7 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 56,
+      "queuePosition": 55,
       "id": "chlamydia",
       "title": "Chlamydia",
       "route": "/article/chlamydia",
@@ -408,10 +454,19 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 57,
+      "queuePosition": 56,
       "id": "chlamydia-trachomatis",
       "title": "Chlamydia trachomatis",
       "route": "/article/chlamydia-trachomatis",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 57,
+      "id": "christensenellaceae",
+      "title": "Christensenellaceae",
+      "route": "/article/christensenellaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -1492,32 +1547,6 @@
     },
     {
       "queuePosition": 52,
-      "id": "candida-auris",
-      "title": "Candida auris",
-      "category": "microbe",
-      "sourceCategories": [
-        "microbe"
-      ],
-      "route": "/article/candida-auris",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "status": "queued"
-    },
-    {
-      "queuePosition": 53,
-      "id": "candida-glabrata",
-      "title": "Candida glabrata",
-      "category": "microbe",
-      "sourceCategories": [
-        "microbe"
-      ],
-      "route": "/article/candida-glabrata",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "status": "queued"
-    },
-    {
-      "queuePosition": 54,
       "id": "candida-tropicalis",
       "title": "Candida tropicalis",
       "category": "microbe",
@@ -1530,7 +1559,21 @@
       "status": "queued"
     },
     {
-      "queuePosition": 55,
+      "queuePosition": 53,
+      "id": "candidozyma-auris",
+      "title": "Candidozyma auris",
+      "category": "microbe",
+      "sourceCategories": [
+        "microbe"
+      ],
+      "route": "/article/candidozyma-auris",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:498019",
+      "status": "queued"
+    },
+    {
+      "queuePosition": 54,
       "id": "caulobacter",
       "title": "Caulobacter",
       "category": "microbe",
@@ -1543,7 +1586,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 56,
+      "queuePosition": 55,
       "id": "chlamydia",
       "title": "Chlamydia",
       "category": "microbe",
@@ -1556,7 +1599,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 57,
+      "queuePosition": 56,
       "id": "chlamydia-trachomatis",
       "title": "Chlamydia trachomatis",
       "category": "microbe",
@@ -1569,7 +1612,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 58,
+      "queuePosition": 57,
       "id": "christensenellaceae",
       "title": "Christensenellaceae",
       "category": "microbe",
@@ -1582,7 +1625,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 59,
+      "queuePosition": 58,
       "id": "citrobacter",
       "title": "Citrobacter",
       "category": "microbe",
@@ -1595,7 +1638,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 60,
+      "queuePosition": 59,
       "id": "cladosporium",
       "title": "Cladosporium",
       "category": "microbe",
@@ -1608,7 +1651,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 61,
+      "queuePosition": 60,
       "id": "clostridia",
       "title": "Clostridia",
       "category": "microbe",
@@ -1621,7 +1664,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 62,
+      "queuePosition": 61,
       "id": "clostridiales",
       "title": "Clostridiales",
       "category": "microbe",
@@ -1634,7 +1677,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 63,
+      "queuePosition": 62,
       "id": "clostridioides-difficile",
       "title": "Clostridioides difficile",
       "category": "microbe",
@@ -1647,7 +1690,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 64,
+      "queuePosition": 63,
       "id": "clostridium",
       "title": "Clostridium",
       "category": "microbe",
@@ -1660,7 +1703,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 65,
+      "queuePosition": 64,
       "id": "clostridium-butyricum",
       "title": "Clostridium butyricum",
       "category": "microbe",
@@ -1673,7 +1716,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 66,
+      "queuePosition": 65,
       "id": "clostridium-difficile",
       "title": "Clostridium difficile",
       "category": "microbe",
@@ -1686,7 +1729,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 67,
+      "queuePosition": 66,
       "id": "clostridium-perfringens",
       "title": "Clostridium perfringens",
       "category": "microbe",
@@ -1699,7 +1742,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 68,
+      "queuePosition": 67,
       "id": "clostridium-symbiosum",
       "title": "Clostridium symbiosum",
       "category": "microbe",
@@ -1712,7 +1755,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 69,
+      "queuePosition": 68,
       "id": "collinsella",
       "title": "Collinsella",
       "category": "microbe",
@@ -1725,7 +1768,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 70,
+      "queuePosition": 69,
       "id": "coprococcus",
       "title": "Coprococcus",
       "category": "microbe",
@@ -1738,7 +1781,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 71,
+      "queuePosition": 70,
       "id": "corynebacterium",
       "title": "Corynebacterium",
       "category": "microbe",
@@ -1751,7 +1794,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 72,
+      "queuePosition": 71,
       "id": "cryptococcus-neoformans",
       "title": "Cryptococcus neoformans",
       "category": "microbe",
@@ -1764,7 +1807,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 73,
+      "queuePosition": 72,
       "id": "davidiella",
       "title": "Davidiella",
       "category": "microbe",
@@ -1777,7 +1820,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 74,
+      "queuePosition": 73,
       "id": "debaryomyces",
       "title": "Debaryomyces",
       "category": "microbe",
@@ -1790,7 +1833,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 75,
+      "queuePosition": 74,
       "id": "deinococcus",
       "title": "Deinococcus",
       "category": "microbe",
@@ -1803,7 +1846,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 76,
+      "queuePosition": 75,
       "id": "desulfovibrio",
       "title": "Desulfovibrio",
       "category": "microbe",
@@ -1816,7 +1859,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 77,
+      "queuePosition": 76,
       "id": "desulfovibrionales",
       "title": "Desulfovibrionales",
       "category": "microbe",
@@ -1829,7 +1872,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 78,
+      "queuePosition": 77,
       "id": "dialister",
       "title": "Dialister",
       "category": "microbe",
@@ -1842,7 +1885,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 79,
+      "queuePosition": 78,
       "id": "dialister-histaminiformans",
       "title": "Dialister histaminiformans",
       "category": "microbe",
@@ -1855,7 +1898,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 80,
+      "queuePosition": 79,
       "id": "dorea",
       "title": "Dorea",
       "category": "microbe",
@@ -1868,7 +1911,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 81,
+      "queuePosition": 80,
       "id": "eggerthella",
       "title": "Eggerthella",
       "category": "microbe",
@@ -1881,7 +1924,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 82,
+      "queuePosition": 81,
       "id": "eggerthella-lenta",
       "title": "Eggerthella lenta",
       "category": "microbe",
@@ -1894,7 +1937,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 83,
+      "queuePosition": 82,
       "id": "enterobacter",
       "title": "Enterobacter",
       "category": "microbe",
@@ -1907,7 +1950,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 84,
+      "queuePosition": 83,
       "id": "enterobacter-cloacae",
       "title": "Enterobacter cloacae",
       "category": "microbe",
@@ -1920,7 +1963,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 85,
+      "queuePosition": 84,
       "id": "enterobacteriaceae",
       "title": "Enterobacteriaceae",
       "category": "microbe",
@@ -1933,7 +1976,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 86,
+      "queuePosition": 85,
       "id": "enterococcus",
       "title": "Enterococcus",
       "category": "microbe",
@@ -1946,7 +1989,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 87,
+      "queuePosition": 86,
       "id": "enterococcus-faecalis",
       "title": "Enterococcus faecalis",
       "category": "microbe",
@@ -1959,7 +2002,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 88,
+      "queuePosition": 87,
       "id": "enterococcus-faecium",
       "title": "Enterococcus faecium",
       "category": "microbe",
@@ -1972,7 +2015,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 89,
+      "queuePosition": 88,
       "id": "erysipelotrichaceae",
       "title": "Erysipelotrichaceae",
       "category": "microbe",
@@ -1985,7 +2028,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 90,
+      "queuePosition": 89,
       "id": "escherichia",
       "title": "Escherichia",
       "category": "microbe",
@@ -1998,7 +2041,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 91,
+      "queuePosition": 90,
       "id": "escherichia-coli",
       "title": "Escherichia coli",
       "category": "microbe",
@@ -2019,7 +2062,7 @@
       }
     },
     {
-      "queuePosition": 92,
+      "queuePosition": 91,
       "id": "eubacterium",
       "title": "Eubacterium",
       "category": "microbe",
@@ -2032,7 +2075,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 93,
+      "queuePosition": 92,
       "id": "eubacterium-eligens",
       "title": "Eubacterium eligens",
       "category": "microbe",
@@ -2045,7 +2088,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 94,
+      "queuePosition": 93,
       "id": "eubacterium-rectale",
       "title": "Eubacterium rectale",
       "category": "microbe",
@@ -2058,7 +2101,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 95,
+      "queuePosition": 94,
       "id": "faecalibacterium",
       "title": "Faecalibacterium",
       "category": "microbe",
@@ -2071,7 +2114,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 96,
+      "queuePosition": 95,
       "id": "faecalibacterium-prausnitzii",
       "title": "Faecalibacterium prausnitzii",
       "category": "microbe",
@@ -2084,7 +2127,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 97,
+      "queuePosition": 96,
       "id": "fannyhessea-vaginae",
       "title": "Fannyhessea vaginae",
       "category": "microbe",
@@ -2097,7 +2140,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 98,
+      "queuePosition": 97,
       "id": "finegoldia",
       "title": "Finegoldia",
       "category": "microbe",
@@ -2110,7 +2153,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 99,
+      "queuePosition": 98,
       "id": "firmicutes",
       "title": "Firmicutes (Bacillota)",
       "category": "microbe",
@@ -2123,7 +2166,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 100,
+      "queuePosition": 99,
       "id": "flavobacterium",
       "title": "Flavobacterium",
       "category": "microbe",
@@ -2136,7 +2179,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 101,
+      "queuePosition": 100,
       "id": "flavonifractor",
       "title": "Flavonifractor",
       "category": "microbe",
@@ -2149,7 +2192,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 102,
+      "queuePosition": 101,
       "id": "fusarium",
       "title": "Fusarium",
       "category": "microbe",
@@ -2162,7 +2205,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 103,
+      "queuePosition": 102,
       "id": "fusicatenibacter",
       "title": "Fusicatenibacter",
       "category": "microbe",
@@ -2175,7 +2218,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 104,
+      "queuePosition": 103,
       "id": "fusobacteriales",
       "title": "Fusobacteriales",
       "category": "microbe",
@@ -2188,7 +2231,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 105,
+      "queuePosition": 104,
       "id": "fusobacterium",
       "title": "Fusobacterium",
       "category": "microbe",
@@ -2201,7 +2244,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 106,
+      "queuePosition": 105,
       "id": "fusobacterium-nucleatum",
       "title": "Fusobacterium nucleatum",
       "category": "microbe",
@@ -2214,7 +2257,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 107,
+      "queuePosition": 106,
       "id": "fusobacterium-varium",
       "title": "Fusobacterium varium",
       "category": "microbe",
@@ -2227,7 +2270,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 108,
+      "queuePosition": 107,
       "id": "gardnerella",
       "title": "Gardnerella",
       "category": "microbe",
@@ -2240,7 +2283,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 109,
+      "queuePosition": 108,
       "id": "gardnerella-vaginalis",
       "title": "Gardnerella vaginalis",
       "category": "microbe",
@@ -2253,7 +2296,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 110,
+      "queuePosition": 109,
       "id": "gemella",
       "title": "Gemella",
       "category": "microbe",
@@ -2266,7 +2309,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 111,
+      "queuePosition": 110,
       "id": "gordonibacter",
       "title": "Gordonibacter",
       "category": "microbe",
@@ -2279,7 +2322,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 112,
+      "queuePosition": 111,
       "id": "gordonibacter-urolithinfaciens",
       "title": "Gordonibacter urolithinfaciens",
       "category": "microbe",
@@ -2292,7 +2335,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 113,
+      "queuePosition": 112,
       "id": "haemophilus",
       "title": "Haemophilus",
       "category": "microbe",
@@ -2305,7 +2348,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 114,
+      "queuePosition": 113,
       "id": "helicobacter-hepaticus",
       "title": "Helicobacter hepaticus",
       "category": "microbe",
@@ -2318,7 +2361,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 115,
+      "queuePosition": 114,
       "id": "helicobacter-pylori",
       "title": "Helicobacter pylori",
       "category": "microbe",
@@ -2339,7 +2382,7 @@
       }
     },
     {
-      "queuePosition": 116,
+      "queuePosition": 115,
       "id": "holdemanella",
       "title": "Holdemanella",
       "category": "microbe",
@@ -2352,7 +2395,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 117,
+      "queuePosition": 116,
       "id": "intestinimonas",
       "title": "Intestinimonas",
       "category": "microbe",
@@ -2365,7 +2408,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 118,
+      "queuePosition": 117,
       "id": "klebsiella",
       "title": "Klebsiella",
       "category": "microbe",
@@ -2378,7 +2421,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 119,
+      "queuePosition": 118,
       "id": "klebsiella-pneumoniae",
       "title": "Klebsiella pneumoniae",
       "category": "microbe",
@@ -2391,7 +2434,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 120,
+      "queuePosition": 119,
       "id": "lachnobacterium",
       "title": "Lachnobacterium",
       "category": "microbe",
@@ -2404,7 +2447,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 121,
+      "queuePosition": 120,
       "id": "lachnoclostridium",
       "title": "Lachnoclostridium",
       "category": "microbe",
@@ -2417,7 +2460,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 122,
+      "queuePosition": 121,
       "id": "lachnospira",
       "title": "Lachnospira",
       "category": "microbe",
@@ -2430,7 +2473,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 123,
+      "queuePosition": 122,
       "id": "lachnospiraceae",
       "title": "Lachnospiraceae",
       "category": "microbe",
@@ -2443,7 +2486,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 124,
+      "queuePosition": 123,
       "id": "lachnospiraceae-family",
       "title": "Lachnospiraceae (Family)",
       "category": "microbe",
@@ -2456,7 +2499,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 125,
+      "queuePosition": 124,
       "id": "lactobacillaceae",
       "title": "Lactobacillaceae",
       "category": "microbe",
@@ -2469,7 +2512,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 126,
+      "queuePosition": 125,
       "id": "lactobacillus",
       "title": "Lactobacillus",
       "category": "microbe",
@@ -2482,7 +2525,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 127,
+      "queuePosition": 126,
       "id": "lactobacillus-acidophilus",
       "title": "Lactobacillus acidophilus",
       "category": "microbe",
@@ -2495,7 +2538,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 128,
+      "queuePosition": 127,
       "id": "lactobacillus-crispatus",
       "title": "Lactobacillus crispatus",
       "category": "microbe",
@@ -2508,7 +2551,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 129,
+      "queuePosition": 128,
       "id": "lactobacillus-gasseri",
       "title": "Lactobacillus gasseri",
       "category": "microbe",
@@ -2521,7 +2564,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 130,
+      "queuePosition": 129,
       "id": "lactobacillus-iners",
       "title": "Lactobacillus iners",
       "category": "microbe",
@@ -2534,7 +2577,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 131,
+      "queuePosition": 130,
       "id": "lactobacillus-jensenii",
       "title": "Lactobacillus jensenii",
       "category": "microbe",
@@ -2547,7 +2590,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 132,
+      "queuePosition": 131,
       "id": "lactobacillus-plantarum",
       "title": "Lactobacillus plantarum",
       "category": "microbe",
@@ -2560,7 +2603,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 133,
+      "queuePosition": 132,
       "id": "lactobacillus-reuteri",
       "title": "Lactobacillus reuteri",
       "category": "microbe",
@@ -2573,7 +2616,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 134,
+      "queuePosition": 133,
       "id": "lactobacillus-rhamnosus",
       "title": "Lactobacillus rhamnosus",
       "category": "microbe",
@@ -2586,7 +2629,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 135,
+      "queuePosition": 134,
       "id": "lactococcus",
       "title": "Lactococcus",
       "category": "microbe",
@@ -2599,7 +2642,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 136,
+      "queuePosition": 135,
       "id": "lancefieldella-parvula",
       "title": "Lancefieldella parvula",
       "category": "microbe",
@@ -2612,7 +2655,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 137,
+      "queuePosition": 136,
       "id": "leptotrichia",
       "title": "Leptotrichia",
       "category": "microbe",
@@ -2625,7 +2668,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 138,
+      "queuePosition": 137,
       "id": "listeria",
       "title": "Listeria",
       "category": "microbe",
@@ -2638,7 +2681,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 139,
+      "queuePosition": 138,
       "id": "lodderomyces-elongisporus",
       "title": "Lodderomyces elongisporus",
       "category": "microbe",
@@ -2651,7 +2694,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 140,
+      "queuePosition": 139,
       "id": "malassezia",
       "title": "Malassezia",
       "category": "microbe",
@@ -2664,7 +2707,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 141,
+      "queuePosition": 140,
       "id": "mediterraneibacter",
       "title": "Mediterraneibacter",
       "category": "microbe",
@@ -2677,7 +2720,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 142,
+      "queuePosition": 141,
       "id": "megamonas",
       "title": "Megamonas",
       "category": "microbe",
@@ -2690,7 +2733,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 143,
+      "queuePosition": 142,
       "id": "megasphaera",
       "title": "Megasphaera",
       "category": "microbe",
@@ -2703,7 +2746,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 144,
+      "queuePosition": 143,
       "id": "methanobrevibacter",
       "title": "Methanobrevibacter",
       "category": "microbe",
@@ -2716,7 +2759,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 145,
+      "queuePosition": 144,
       "id": "methylobacterium",
       "title": "Methylobacterium",
       "category": "microbe",
@@ -2729,7 +2772,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 146,
+      "queuePosition": 145,
       "id": "mollicutes",
       "title": "Mollicutes",
       "category": "microbe",
@@ -2742,7 +2785,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 147,
+      "queuePosition": 146,
       "id": "morganella-morganii",
       "title": "Morganella morganii",
       "category": "microbe",
@@ -2755,7 +2798,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 148,
+      "queuePosition": 147,
       "id": "mortierella",
       "title": "Mortierella",
       "category": "microbe",
@@ -2768,7 +2811,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 149,
+      "queuePosition": 148,
       "id": "mycobacterium-tuberculosis",
       "title": "Mycobacterium tuberculosis",
       "category": "microbe",
@@ -2781,7 +2824,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 150,
+      "queuePosition": 149,
       "id": "mycoplasma",
       "title": "Mycoplasma",
       "category": "microbe",
@@ -2794,7 +2837,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 151,
+      "queuePosition": 150,
       "id": "mycoplasma-hominis",
       "title": "Mycoplasma hominis",
       "category": "microbe",
@@ -2804,6 +2847,20 @@
       "route": "/article/mycoplasma-hominis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
+      "status": "queued"
+    },
+    {
+      "queuePosition": 151,
+      "id": "nakaseomyces-glabratus",
+      "title": "Nakaseomyces glabratus",
+      "category": "microbe",
+      "sourceCategories": [
+        "microbe"
+      ],
+      "route": "/article/nakaseomyces-glabratus",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:5478",
       "status": "queued"
     },
     {

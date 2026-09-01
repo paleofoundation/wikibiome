@@ -8,7 +8,9 @@
     "atopobium-parvulum": "lancefieldella-parvula",
     "atopobium-vaginae": "fannyhessea-vaginae",
     "barnesella": "barnesiella",
-    "bifidobacterium-infantis": "bifidobacterium-longum-subsp-infantis"
+    "bifidobacterium-infantis": "bifidobacterium-longum-subsp-infantis",
+    "candida-auris": "candidozyma-auris",
+    "candida-glabrata": "nakaseomyces-glabratus"
   },
   "canonicalTaxa": {
     "akkermansia-muciniphila": {
@@ -34,6 +36,14 @@
     "bifidobacterium-longum-subsp-infantis": {
       "title": "Bifidobacterium longum subsp. infantis",
       "ncbiTaxonomyId": 1682
+    },
+    "candidozyma-auris": {
+      "title": "Candidozyma auris",
+      "ncbiTaxonomyId": 498019
+    },
+    "nakaseomyces-glabratus": {
+      "title": "Nakaseomyces glabratus",
+      "ncbiTaxonomyId": 5478
     }
   },
   "retiredCanonicalIds": [
@@ -42,7 +52,9 @@
     "atopobium-parvulum",
     "atopobium-vaginae",
     "barnesella",
-    "bifidobacterium-infantis"
+    "bifidobacterium-infantis",
+    "candida-auris",
+    "candida-glabrata"
   ],
   "forbiddenCanonicalTitles": [
     "Akkermansia mucinicola",
@@ -50,11 +62,15 @@
     "Atopobium parvulum",
     "Atopobium vaginae",
     "Barnesella",
-    "Bifidobacterium infantis"
+    "Bifidobacterium infantis",
+    "Candida auris",
+    "Candida glabrata"
   ],
   "forbiddenPublicPatterns": [
     "Allisonella hiatal",
     "Barnesella is a genus of",
-    "Bifidobacterium infantis is the current"
+    "Bifidobacterium infantis is the current",
+    "Candida auris is the current name",
+    "Candida glabrata is the current name"
   ]
 }
