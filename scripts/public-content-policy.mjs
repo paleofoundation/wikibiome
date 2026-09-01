@@ -1,5 +1,11 @@
-export const PUBLIC_CONTENT_POLICY_VERSION = 2;
+export const PUBLIC_CONTENT_POLICY_VERSION = 3;
 export const MIN_PUBLIC_ANALYSIS_REFERENCES = 2;
+
+const LEAD_SECTION_HEADINGS = new Set([
+  "definition",
+  "intervention-summary",
+  "overview",
+]);
 
 const OPERATIONAL_PAGE_PREFIXES = [
   "landmark-outreach-email",
@@ -48,6 +54,57 @@ function normalizeId(value) {
     .replace(/[^a-z0-9-]/g, "");
 }
 
+function normalizeHeading(value) {
+  return String(value ?? "")
+    .toLowerCase()
+    .trim()
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/(^-|-$)/g, "");
+}
+
+export function substantiveMarkdown(value) {
+  return String(value ?? "")
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/^\s*---\s*$/gm, "")
+    .trim();
+}
+
+export function isStructuralParentSection(sections, index) {
+  const section = sections?.[index];
+  const next = sections?.[index + 1];
+  return Boolean(
+    section
+      && !substantiveMarkdown(section.body)
+      && next
+      && Number(next.level) > Number(section.level),
+  );
+}
+
+function normalizePageStructure(page) {
+  const sections = Array.isArray(page.sections) ? page.sections : [];
+  const first = sections[0];
+  if (substantiveMarkdown(page.overview)
+      || !first
+      || Number(first.level) !== 2
+      || !LEAD_SECTION_HEADINGS.has(normalizeHeading(first.heading))
+      || !substantiveMarkdown(first.body)) {
+    return { page, promotion: null };
+  }
+
+  return {
+    page: {
+      ...page,
+      overview: first.body.trim(),
+      sections: sections.slice(1),
+    },
+    promotion: {
+      id: normalizeId(page.id),
+      heading: first.heading,
+      reason: "first-semantic-lead-promoted",
+    },
+  };
+}
+
 function analysisReferenceCount(page) {
   const declared = Array.isArray(page.sources) ? page.sources.length : 0;
   const frontmatter = Array.isArray(page.frontmatter?.sources) ? page.frontmatter.sources.length : 0;
@@ -86,11 +143,19 @@ export function getPublicContentExclusions(pages) {
 }
 
 export function applyPublicContentPolicy(input) {
-  const exclusions = getPublicContentExclusions(input.pages);
+  const normalizedPages = [];
+  const leadPromotions = [];
+  for (const page of input.pages ?? []) {
+    const normalized = normalizePageStructure(page);
+    normalizedPages.push(normalized.page);
+    if (normalized.promotion) leadPromotions.push(normalized.promotion);
+  }
+
+  const exclusions = getPublicContentExclusions(normalizedPages);
   const excludedIds = new Set(exclusions.map((entry) => entry.id));
   const isPublicId = (value) => !excludedIds.has(normalizeId(value));
 
-  const pages = input.pages
+  const pages = normalizedPages
     .filter((page) => isPublicId(page.id))
     .map((page) => ({
       ...page,
@@ -118,5 +183,8 @@ export function applyPublicContentPolicy(input) {
       graph: input.graph ? { ...input.graph, nodes: graphNodes, links: graphLinks } : input.graph,
     },
     exclusions,
+    normalizations: {
+      leadPromotions,
+    },
   };
 }

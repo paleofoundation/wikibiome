@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-01T07:35:29.966Z",
+  "generatedAt": "2026-09-01T09:05:26.019Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
     "commit": "62e006cf0ced1dce706a6438f6461602229a9f26",
-    "contentGeneratedAt": "2026-08-31T20:34:37.195Z",
+    "contentGeneratedAt": "2026-08-31T20:33:41.573Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "53a9f4a46361d995fa32c3149d66a23def661b32167fe26ad3843c93cb45e087",
+    "sha256": "1eee44a83663bb8d57abeb4a18f54c869c4d89d79b9d027082970c6aa7cd4fe7",
     "pages": 821,
     "sources": 1891
   },
   "publicContentPolicy": {
-    "version": 2,
+    "version": 3,
     "minimumAnalysisReferences": 2,
     "excludedCount": 46,
     "excludedPages": [
@@ -248,6 +248,111 @@
         "id": "outreach-email-followup-donation",
         "title": "Author Outreach — Follow-Up Submission + Donation (Template)",
         "reason": "internal-operational-template"
+      }
+    ]
+  },
+  "editorialNormalization": {
+    "leadPromotionCount": 347,
+    "leadPromotionSamples": [
+      {
+        "id": "actinobacteria",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "adlercreutzia",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "alishewanella",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "alternaria",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "anaerotruncus",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "anxiety",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "atopobium-parvulum",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "atopobium-vaginae",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "bacteroides-caccae",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "bacteroides-thetaiotaomicron",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "bacteroides",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "bacteroidetes",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "barretts-esophagus",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "bifidobacteriales",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "bifidobacterium-longum",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "bipolar-disorder",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "breast-cancer",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "burkholderiales",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "cadmium",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
+      },
+      {
+        "id": "candida-tropicalis",
+        "heading": "Overview",
+        "reason": "first-semantic-lead-promoted"
       }
     ]
   },

@@ -4,7 +4,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
 import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { classifySearchReferrer } from "../lib/search-observability.mjs";
-import { publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
+import { applyPublicContentPolicy, publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 
 async function render(pathname = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
@@ -106,6 +106,29 @@ test("accepts only privacy-limited search observability events", async () => {
   } finally {
     console.info = originalInfo;
   }
+});
+
+test("normalizes source-authored lead sections without inventing or duplicating prose", () => {
+  const sourceLead = "The exact source-authored introduction with [[verified-source]].";
+  const input = {
+    _stats: {},
+    pages: [{
+      id: "lead-normalization-fixture",
+      title: "Lead normalization fixture",
+      category: "mechanism",
+      overview: "<!-- source maintenance marker -->",
+      sections: [
+        { heading: "Overview", level: 2, body: sourceLead },
+        { heading: "Evidence", level: 2, body: "Evidence remains in its source section." },
+      ],
+    }],
+  };
+  const { content, normalizations } = applyPublicContentPolicy(input);
+
+  assert.equal(content.pages[0].overview, sourceLead);
+  assert.deepEqual(content.pages[0].sections.map((section) => section.heading), ["Evidence"]);
+  assert.equal(normalizations.leadPromotions.length, 1);
+  assert.equal(input.pages[0].sections[0].body, sourceLead, "normalization must not mutate the upstream snapshot");
 });
 
 test("serves versioned scientific WebPs with an explicit image MIME type", async () => {
@@ -923,9 +946,11 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 821);
   assert.equal(manifest.content.sources, 1891);
-  assert.equal(manifest.publicContentPolicy.version, 2);
+  assert.equal(manifest.publicContentPolicy.version, 3);
   assert.equal(manifest.publicContentPolicy.excludedCount, 46);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
+  assert.equal(manifest.editorialNormalization.leadPromotionCount, 347);
+  assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
   assert.ok(manifest.audit.recoveredInlineReferences >= 348);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);

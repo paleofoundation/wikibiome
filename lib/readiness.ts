@@ -52,6 +52,13 @@ export type MigrationReport = {
 
 let reportCache: MigrationReport | undefined;
 
+function substantiveContent(value: string | undefined) {
+  return String(value ?? "")
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/^\s*---\s*$/gm, "")
+    .trim();
+}
+
 export function getMigrationReport(): MigrationReport {
   if (reportCache) return reportCache;
 
@@ -71,12 +78,22 @@ export function getMigrationReport(): MigrationReport {
     const canonicalId = disease?.canonicalId ?? (page.category === "signature" ? canonicalDiseaseId(id) : id);
     const evidence = generateArticleEvidence(page);
     const schema = contentSchemaFor(page);
-    const emptySections = (page.sections ?? []).filter((section) => !section.body?.trim()).length;
+    const sections = page.sections ?? [];
+    const emptyLeafSections = sections.filter((section, index) => (
+      !section.body?.trim()
+      && !(sections[index + 1] && sections[index + 1].level > section.level)
+    )).length;
+    const structuralHeadings = sections.filter((section, index) => (
+      !section.body?.trim()
+      && Boolean(sections[index + 1] && sections[index + 1].level > section.level)
+    )).length;
     const issues: MigrationIssue[] = [];
 
-    if (!page.overview?.trim()) issues.push({ code: "missing_overview", label: "Introduction missing", severity: "warning" });
-    if (!(page.sections ?? []).length) issues.push({ code: "missing_sections", label: "No article sections", severity: "warning" });
-    if (emptySections) issues.push({ code: "empty_sections", label: `${emptySections} empty section${emptySections === 1 ? "" : "s"}`, severity: "warning" });
+    if (!substantiveContent(page.overview)) issues.push({ code: "missing_overview", label: "Introduction missing", severity: "warning" });
+    if (!sections.length && !substantiveContent(page.overview)) issues.push({ code: "missing_content", label: "No substantive article content", severity: "warning" });
+    else if (!sections.length) issues.push({ code: "lead_only", label: "Lead-only article structure", severity: "notice" });
+    if (emptyLeafSections) issues.push({ code: "empty_leaf_sections", label: `${emptyLeafSections} empty public section${emptyLeafSections === 1 ? "" : "s"}`, severity: "warning" });
+    if (structuralHeadings) issues.push({ code: "structural_headings", label: `${structuralHeadings} semantic parent heading${structuralHeadings === 1 ? "" : "s"}`, severity: "notice" });
     if (!evidence.references.length) issues.push({ code: "no_references", label: "No generated references", severity: "warning" });
     if (evidence.missingMetadataIds.length) issues.push({ code: "missing_source_metadata", label: `${evidence.missingMetadataIds.length} source record${evidence.missingMetadataIds.length === 1 ? "" : "s"} incomplete`, severity: "warning" });
     if (evidence.recoveredCitationIds.length || evidence.declaredOnlyIds.length) issues.push({ code: "source_drift", label: "Citation registry reconciliation applied", severity: "notice" });

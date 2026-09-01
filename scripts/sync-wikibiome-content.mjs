@@ -71,7 +71,7 @@ if (auditOnly && lingeringExclusions.length) {
 if (sanitizeCurrent && !lingeringExclusions.length) {
   throw new Error("The current corpus already satisfies the public-content policy; refusing to overwrite its exclusion register.");
 }
-const { content, exclusions: newlyExcluded } = applyPublicContentPolicy(parsedContent);
+const { content, exclusions: newlyExcluded, normalizations } = applyPublicContentPolicy(parsedContent);
 const exclusions = [...retainedExclusions, ...newlyExcluded].filter((entry, index, all) => (
   all.findIndex((candidate) => candidate.id === entry.id) === index
 ));
@@ -108,6 +108,10 @@ const manifest = {
     excludedCount: exclusions.length,
     excludedPages: exclusions,
   },
+  editorialNormalization: {
+    leadPromotionCount: normalizations.leadPromotions.length,
+    leadPromotionSamples: normalizations.leadPromotions.slice(0, 20),
+  },
   audit,
 };
 
@@ -115,6 +119,7 @@ writeFileSync(targetPath, normalizedRaw);
 writeFileSync(manifestPath, `${JSON.stringify(manifest, null, 2)}\n`);
 printSummary(audit, content, "synchronized");
 console.log(`${exclusions.length} internal operational records excluded from public publishing.`);
+console.log(`${normalizations.leadPromotions.length} source-authored lead sections normalized into article introductions.`);
 console.log(`Source commit: ${sourceCommit ?? "unavailable"}`);
 console.log(`Manifest: ${manifestPath}`);
 

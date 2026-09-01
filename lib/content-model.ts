@@ -1,5 +1,12 @@
 import type { WikiPage, WikiSection } from "@/lib/wikibiome";
 
+function substantiveSectionBody(value: string) {
+  return value
+    .replace(/<!--[\s\S]*?-->/g, "")
+    .replace(/^\s*---\s*$/gm, "")
+    .trim();
+}
+
 export type ContentKind =
   | "analysis"
   | "concept"
@@ -117,7 +124,7 @@ export function prepareArticleSections(page: WikiPage): PreparedSection[] {
     .map((section) => ({ ...section, kind: sectionKindFor(section), renderAsProse: shouldRenderAsProse(section) }));
   return prepared.filter((section, index) => {
     if (section.kind === "source_index") return false;
-    if (section.body?.trim()) return true;
+    if (substantiveSectionBody(section.body ?? "")) return true;
     // Preserve an empty semantic parent when populated child sections follow;
     // suppress only empty leaves that would create blank article chrome.
     return Boolean(prepared[index + 1] && prepared[index + 1].level > section.level);

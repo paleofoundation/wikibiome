@@ -16,6 +16,7 @@
     "content:check": "node scripts/check-wikibiome-upstream.mjs",
     "content:refresh": "node scripts/refresh-wikibiome-content.mjs",
     "content:audit": "node scripts/sync-wikibiome-content.mjs --audit-only",
+    "editorial:audit": "node scripts/audit-editorial-corpus.mjs",
     "corpus:audit": "node scripts/audit-rendered-corpus.mjs",
     "audit:post-cutover": "node scripts/audit-wikibiome-post-cutover.mjs",
     "audit:post-cutover:test": "node --test tests/post-cutover-audit.test.mjs",
