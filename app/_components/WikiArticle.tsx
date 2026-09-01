@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import Link from "@/app/_components/NativeLink";
 import { ArticleMediaFigure } from "@/app/_components/ArticleMediaFigure";
 import { ArticleTools } from "@/app/_components/ArticleTools";
+import { ResearchDiscussion } from "@/app/_components/ResearchDiscussion";
 import { getArticleMedia } from "@/lib/article-media";
 import { contentSchemaFor, prepareArticleSections } from "@/lib/content-model";
 import { getRevisionHistory } from "@/lib/revisions";
@@ -524,6 +525,7 @@ export function ReferencesSection({ evidence }: { evidence: ArticleEvidence }) {
                 </p>
                 <footer>
                   {!reference.missingMetadata && <Link href={`/source/${reference.id}`}>WikiBiome source record <span aria-hidden="true">→</span></Link>}
+                  {!reference.missingMetadata && <Link className="reference-claim-link" href={`/source/${reference.id}/claim`}>Are you an author?</Link>}
                   {reference.missingMetadata && <span className="doi-warning">Registry entry pending</span>}
                   {doi.status === "valid" && <a href={doi.href} target="_blank" rel="noreferrer">doi:{doi.bare} <span aria-hidden="true">↗</span></a>}
                   {doi.status === "malformed" && <span className="doi-warning">DOI flagged for audit: {doi.raw}</span>}
@@ -586,9 +588,9 @@ export function WikiHeader({ query = "" }: { query?: string }) {
       <nav className="utility-nav" aria-label="Utility navigation">
         <Link href="/explore">Explore</Link>
         <Link href="/category/signature">Signatures</Link>
-        <Link href="/contribute">Contribute</Link>
+        <Link href="/researchers">Researchers</Link>
+        <Link href="/submit-work">Submit work</Link>
         <Link href="/about">About</Link>
-        <Link href="/readiness">Readiness</Link>
         <Link className="utility-support" href="/support">♡ Support</Link>
       </nav>
     </header>
@@ -756,6 +758,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
               })}
               <ReferencesSection evidence={evidence} />
               <ArticleNetwork page={page} />
+              <ResearchDiscussion targetType="article" targetId={page.id} />
               <ArticleRevisionNote page={page} />
               <div className="article-end">
                 <span>Continue exploring</span>

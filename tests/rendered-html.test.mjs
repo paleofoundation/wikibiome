@@ -538,7 +538,7 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
     ["/matrix", "/clusters"],
     ["/signatures?disease=alzheimers-disease", "/article/alzheimers-disease#signature"],
     ["/tags?tags=nickel,gut", "/search?q=nickel%20gut"],
-    ["/submit", "/contribute"],
+    ["/submit", "/submit-work"],
     ["/vote", "/contributions"],
   ];
   for (const [path, destination] of redirects) {
@@ -565,6 +565,46 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(stylesheet.slice(mobileReadingMode), /\.lead-copy p:first-child::first-letter \{ float:none/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.reference-list p \{ font-family:Arial[^}]*font-size:16px/);
   assert.match(stylesheet.slice(mobileReadingMode), /\.citation-preview \{ display:none!important/);
+});
+
+test("renders the claim, contribute, collaborate researcher network", async () => {
+  const [networkResponse, standardResponse, submitResponse, institutionsResponse, sourceResponse, dashboardResponse] = await Promise.all([
+    render("/researchers"),
+    render("/research-standard"),
+    render("/submit-work"),
+    render("/institutions"),
+    render("/source/ahmed-2025-metals-alzheimers-mechanistic-review"),
+    render("/researcher/dashboard"),
+  ]);
+  for (const response of [networkResponse, standardResponse, submitResponse, institutionsResponse, sourceResponse, dashboardResponse]) assert.equal(response.status, 200);
+
+  const [network, standard, submit, institutions, source, dashboard] = await Promise.all([
+    networkResponse.text(), standardResponse.text(), submitResponse.text(), institutionsResponse.text(), sourceResponse.text(), dashboardResponse.text(),
+  ]);
+  assert.match(network, /Claim → Contribute → Collaborate/);
+  assert.match(network, /1,891[\s\S]{0,30}evidence records/);
+  assert.match(network, /Identity earns attribution—not control/);
+  assert.match(network, /href="\/api\/auth\/orcid\/start\?returnTo=\/researcher\/dashboard"/);
+
+  assert.match(standard, /WikiBiome-Ready Research/);
+  assert.match(standard, /Metallomics module/);
+  assert.match(standard, /whether metal speciation was measured/);
+  assert.match(standard, /At least three of five graph-based criteria/);
+  assert.match(standard, /Completing it does not guarantee citation/);
+  assert.match(standard, /href="\/wikibiome-ready-research-template\.md"/);
+
+  assert.match(submit, /Add evidence without bypassing editorial review/);
+  assert.match(submit, /Continue with ORCID/);
+  assert.match(submit, /Acceptance creates an editorial change packet/);
+  assert.match(institutions, /ROR-identified institutions|Institution network/);
+  assert.match(institutions, /without paid placement, citation guarantees, or competitive rankings/);
+
+  assert.match(source, /Are you an author of this work\?/);
+  assert.match(source, /href="\/source\/ahmed-2025-metals-alzheimers-mechanistic-review\/claim"/);
+  assert.match(source, /Researcher discussion/);
+  assert.match(source, /Researchers participate with ORCID/);
+  assert.match(dashboard, /Connect your ORCID iD/);
+  assert.match(dashboard, /ORCID establishes researcher identity/);
 });
 
 test("keeps internal operational records out of the public encyclopedia", async () => {

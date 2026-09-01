@@ -2,11 +2,14 @@ import Link from "@/app/_components/NativeLink";
 import { ArticleTools } from "@/app/_components/ArticleTools";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { DirectoryRail } from "@/app/_components/WikiDirectory";
+import { ResearchDiscussion } from "@/app/_components/ResearchDiscussion";
+import { listPublicAuthorReviews, listPublicClaimsForSource } from "@/lib/research-network";
 import { findPagesUsingSource, normalizeDoi, type SourceRecord } from "@/lib/wikibiome";
 
-export function WikiSource({ id, source }: { id: string; source: SourceRecord }) {
+export async function WikiSource({ id, source }: { id: string; source: SourceRecord }) {
   const usedBy = findPagesUsingSource(id);
   const doi = normalizeDoi(source.doi);
+  const [claims, authorContext] = await Promise.all([listPublicClaimsForSource(id), listPublicAuthorReviews(id)]);
 
   return (
     <>
@@ -40,6 +43,12 @@ export function WikiSource({ id, source }: { id: string; source: SourceRecord })
               {!usedBy.length && <p>This source is indexed but has no public backlinks in the current article set.</p>}
             </section>
           </div>
+          <section className="source-author-layer">
+            <header><div><span>Author connection</span><h2>Are you an author of this work?</h2><p>Every coauthor may independently claim authorship through ORCID, check this record, add context, and see where the work is used.</p></div><Link href={`/source/${id}/claim`}>Claim or review this work →</Link></header>
+            {!!claims.length && <div className="verified-author-list"><span>Verified author claims</span>{claims.map(({ researcher }) => <Link href={`/researchers/${researcher.orcid}`} key={researcher.accountId}><b>{researcher.name}</b><small>ORCID {researcher.orcid}</small></Link>)}</div>}
+            {!!authorContext.length && <div className="author-context-list"><h3>Moderated author context</h3>{authorContext.map((review) => <article key={review.id}><header><Link href={`/researchers/${review.researcher.orcid}`}>{review.researcher.name}</Link><span>{review.accuracy.replaceAll("_", " ")}</span></header><p>{review.context}</p>{review.sourceUrl && <a href={review.sourceUrl} target="_blank" rel="noreferrer">Supporting source ↗</a>}{review.conflictDisclosure && <small>Disclosure: {review.conflictDisclosure}</small>}<footer>Author context supplements—but does not replace—WikiBiome’s independent synthesis.</footer></article>)}</div>}
+          </section>
+          <ResearchDiscussion targetType="source" targetId={id} />
           <footer className="source-footer"><b>WikiBiome evidence integrity</b><span>Citation metadata is displayed directly from the public WikiBiome source index.</span><Link href="/article/gut-microbiome">Return to the encyclopedia →</Link></footer>
         </article>
       </main>

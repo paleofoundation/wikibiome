@@ -10,8 +10,7 @@ type ArticleToolsProps = {
 };
 
 function canonicalUrl(path: string) {
-  if (typeof window === "undefined") return `https://www.wikibiome.com${path}`;
-  return new URL(path, window.location.origin).toString();
+  return new URL(path, "https://www.wikibiome.com").toString();
 }
 
 export function ArticleTools({ title, canonicalPath, updated, kind = "article" }: ArticleToolsProps) {

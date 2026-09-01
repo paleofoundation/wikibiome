@@ -1,6 +1,7 @@
 import Link from "@/app/_components/NativeLink";
 import { ArticleMediaFigure } from "@/app/_components/ArticleMediaFigure";
 import { ArticleTools } from "@/app/_components/ArticleTools";
+import { ResearchDiscussion } from "@/app/_components/ResearchDiscussion";
 import { prepareArticleSections } from "@/lib/content-model";
 import { getArticleMedia } from "@/lib/article-media";
 import {
@@ -152,6 +153,7 @@ function DiseaseRail({ record }: { record: DiseaseRecord }) {
         <a href="#signature"><i>01</i>Integrated signature</a>
         <a href="#article"><i>02</i>Disease article</a>
         <a href="#references"><i>R</i>References</a>
+        <a href="#discussion"><i>D</i>Discussion</a>
       </nav>
       <div className="rail-license">{record.contentRecordCount} vault records reconciled<br />into one canonical disease page</div>
     </aside>
@@ -366,6 +368,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
               <OriginalDiseaseArticle record={record} />
               <ReferencesSection evidence={evidence} />
               <ArticleNetwork page={page} />
+              <ResearchDiscussion targetType="article" targetId={page.id} />
               <ArticleRevisionNote page={page} />
               {!!related.length && (
                 <div className="article-end">
