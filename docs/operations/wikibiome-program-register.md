@@ -15,6 +15,8 @@ Last reconciled: **2026-09-02** (Asia/Nicosia)
 - Current integration branch: `main`.
 - Current production release: public Sites version 43 at outer commit
   `65b3fc33348354af3539b8ce73e66f682d366b90`.
+- Current production Sites environment revision: 3, activated by redeploying
+  saved version 43 on 2026-09-02 without DNS changes.
 - Current production scientific-media payload commit: `3eb7810`.
 - Current accepted local scientific-media integration commit:
   `cbaac31c7e9977f5901207547c763f00ded50e43`.
@@ -40,6 +42,18 @@ Last reconciled: **2026-09-02** (Asia/Nicosia)
   verification window.
 - The retained Vercel deployment remains the rollback target; version 41 is a
   superseded saved version and must not be deployed.
+- ORCID production activation smoke test passed on 2026-09-02 after
+  environment revision 3 activation: `/researcher/dashboard` returned `200`,
+  `/api/auth/orcid/start` returned `303` to ORCID instead of
+  `orcid=not_configured`, the ORCID authorization callback returned to
+  WikiBiome, and the researcher dashboard loaded Karen Pendergrass
+  (`0000-0002-2348-7259`) with email verification required. Browser UI and
+  console checks found no client secret, bearer token, Sites source token, or
+  `not_configured` leakage.
+- A fresh saved version for local commit `aa7d438` was not created because the
+  Sites source repository remained at `65b3fc3`; `save_site_version` correctly
+  rejected `aa7d438` as stale source provenance. The production ORCID
+  activation therefore used the already-saved v43 artifact.
 
 ## Program status
 
