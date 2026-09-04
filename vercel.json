@@ -1,23 +1,50 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs",
   "outputDirectory": "dist-v28",
   "installCommand": "npm install",
   "framework": null,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/sitemap.xml",
-      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
     },
     {
       "source": "/sitemap-full.xml",
-      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
+    },
+    {
+      "source": "/image-sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
     },
     {
       "source": "/robots.txt",
-      "headers": [{ "key": "Content-Type", "value": "text/plain" }]
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
     }
   ],
   "redirects": [
+    {
+      "source": "/signature-explorer",
+      "destination": "/signatures",
+      "permanent": true
+    },
+    {
+      "source": "/signature-explorer.html",
+      "destination": "/signatures",
+      "permanent": true
+    },
+    {
+      "source": "/article/autism-spectrum-disorder-microbiome-signature",
+      "destination": "/article/autism-spectrum-disorder-signature",
+      "permanent": true
+    },
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "wikibiome.com" }],
+      "destination": "https://www.wikibiome.com/",
+      "permanent": true
+    },
     {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "wikibiome.com" }],
@@ -28,8 +55,6 @@
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api/:path*" },
     { "source": "/article/:id", "destination": "/article/:id/index.html" },
-    { "source": "/category/:cat", "destination": "/category/:cat/index.html" },
-    { "source": "/signature-explorer", "destination": "/signature-explorer.html" },
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
+    { "source": "/category/:cat", "destination": "/category/:cat/index.html" }
   ]
 }

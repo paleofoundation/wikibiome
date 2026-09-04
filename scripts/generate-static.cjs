@@ -12,6 +12,18 @@
 
 const fs = require('fs');
 const path = require('path');
+const {
+  CANONICAL_ORIGIN,
+  INDEXABLE_SPECIAL_PATHS,
+  NOINDEX_SPECIAL_PATHS,
+  canonicalUrl,
+  isIndexableContentPage,
+  robotsDirectiveForPage,
+  generateRobotsTxt,
+  sitemapEntry,
+  generateImageSitemapXml,
+  defaultImageSitemapEntries,
+} = require('./seo-config.cjs');
 
 // Read the generated content
 const CONTENT = require('../src/content.generated.json');
@@ -120,7 +132,7 @@ const viteConfig = fs.readFileSync(path.join(__dirname, '..', 'vite.config.js'),
 const distMatch = viteConfig.match(/outDir:\s*['"]([^'"]+)['"]/);
 const DIST_DIR = path.join(__dirname, '..', distMatch ? distMatch[1] : 'dist');
 
-const DOMAIN = 'https://www.wikibiome.com';
+const DOMAIN = CANONICAL_ORIGIN;
 const GA_MEASUREMENT_ID = 'G-H480L4E9JF';
 const GA_SNIPPET = `
   <!-- Google tag (gtag.js) -->
@@ -478,8 +490,9 @@ function generatePageHtml(page, urlPath) {
   const title = getPageTitle(page);
   const description = getPageDescription(page);
   const fullTitle = `${title} — WikiBiome`;
-  const canonicalUrl = `${DOMAIN}${urlPath}`;
-  const jsonLd = JSON.stringify(getJsonLd(page, canonicalUrl));
+  const pageCanonical = canonicalUrl(urlPath);
+  const jsonLd = JSON.stringify(getJsonLd(page, pageCanonical));
+  const robots = robotsDirectiveForPage(page);
 
   // Build citation map + references before rendering body so source-ref
   // wikilinks can be numbered inline.
@@ -527,12 +540,13 @@ function generatePageHtml(page, urlPath) {
   ${GA_SNIPPET}
   <title>${escapeHtml(fullTitle)}</title>
   <meta name="description" content="${escapeHtml(description)}" />
-  <link rel="canonical" href="${canonicalUrl}" />
+  <meta name="robots" content="${robots}" />
+  <link rel="canonical" href="${pageCanonical}" />
 
   <!-- Open Graph -->
   <meta property="og:title" content="${escapeHtml(fullTitle)}" />
   <meta property="og:description" content="${escapeHtml(description)}" />
-  <meta property="og:url" content="${canonicalUrl}" />
+  <meta property="og:url" content="${pageCanonical}" />
   <meta property="og:type" content="article" />
   <meta property="og:site_name" content="WikiBiome" />
 
@@ -584,6 +598,10 @@ function generatePageHtml(page, urlPath) {
       </nav>
 
       <h1 itemprop="headline">${escapeHtml(title)}</h1>
+      ${(page.isStub || page.belowThreshold) ? `
+      <p role="note" style="background:#fff8e6;border:1px solid #e8c86a;border-radius:8px;padding:14px 18px;margin:0 0 24px;font-size:14px;color:#6a5418;">
+        This page is a stub — it is below WikiBiome’s source-density threshold and is excluded from the public sitemap.
+      </p>` : ''}
 
       <div itemprop="articleBody">
         ${bodyHtml}
@@ -609,9 +627,21 @@ function generatePageHtml(page, urlPath) {
 
 // ---- Homepage ----
 
+function hubNavHtml() {
+  return `<nav aria-label="Encyclopedia">
+        <a href="/">Home</a> ·
+        <a href="/signatures">Signatures</a> ·
+        <a href="/explore">Explore</a> ·
+        <a href="/category/metal">Metals</a> ·
+        <a href="/category/microbe">Microbes</a> ·
+        <a href="/category/disease">Diseases</a>
+      </nav>`;
+}
+
 function generateHomepageHtml() {
+  const indexable = CONTENT.pages.filter(isIndexableContentPage);
   const categories = {};
-  for (const p of CONTENT.pages) {
+  for (const p of indexable) {
     const cat = p.category || 'other';
     if (!categories[cat]) categories[cat] = [];
     categories[cat].push(p);
@@ -624,7 +654,7 @@ function generateHomepageHtml() {
     categoryLinks += `<li><a href="/category/${cat}"><strong>${catTitle}</strong></a> (${pages.length} articles)${catDesc ? ` — ${catDesc}` : ''}</li>\n`;
   }
 
-  let recentPages = CONTENT.pages
+  let recentPages = indexable
     .filter(p => p.updated || p.created)
     .sort((a, b) => (b.updated || b.created || '').localeCompare(a.updated || a.created || ''))
     .slice(0, 20)
@@ -634,7 +664,7 @@ function generateHomepageHtml() {
     })
     .join('\n');
 
-  const signatureLinks = CONTENT.pages
+  const signatureLinks = indexable
     .filter(p => p.type === 'signature')
     .map(p => {
       const desc = getPageDescription(p);
@@ -646,7 +676,7 @@ function generateHomepageHtml() {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     'name': 'WikiBiome',
-    'url': DOMAIN,
+    'url': canonicalUrl('/'),
     'description': 'The open encyclopedia of microbiome metallomics — exploring how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets.',
     'publisher': {
       '@type': 'Organization',
@@ -662,12 +692,13 @@ function generateHomepageHtml() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   ${GA_SNIPPET}
   <title>WikiBiome — The Microbiome Metallomics Encyclopedia</title>
-  <meta name="description" content="The open encyclopedia of microbiome metallomics. Explore how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets. ${CONTENT.pages.length} articles on metals, microbes, disease signatures, and mechanisms." />
-  <link rel="canonical" href="${DOMAIN}/" />
+  <meta name="description" content="The open encyclopedia of microbiome metallomics. Explore how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets. ${indexable.length} articles on metals, microbes, disease signatures, and mechanisms." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="${canonicalUrl('/')}" />
 
   <meta property="og:title" content="WikiBiome — The Microbiome Metallomics Encyclopedia" />
   <meta property="og:description" content="Explore how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets." />
-  <meta property="og:url" content="${DOMAIN}/" />
+  <meta property="og:url" content="${canonicalUrl('/')}" />
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="WikiBiome" />
 
@@ -693,13 +724,14 @@ function generateHomepageHtml() {
 <body>
   <div id="root">
     <div class="static-content">
+      ${hubNavHtml()}
       <h1>WikiBiome</h1>
       <p><strong>The open encyclopedia of microbiome metallomics.</strong></p>
       <p>WikiBiome explores how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets. A project of the <a href="https://paleofoundation.com">Paleo Foundation</a>.</p>
 
       <h2>What is Microbiome Metallomics?</h2>
       <p>Microbiome metallomics is the study of how metals — both essential (iron, zinc, manganese) and toxic (lead, cadmium, mercury, arsenic) — shape the composition and behavior of human-associated microbial communities. Heavy metals act as selective pressures on the microbiome, favoring metal-tolerant or metal-dependent organisms and suppressing sensitive beneficial species. This field integrates toxicology, microbial ecology, nutritional immunology, and clinical medicine to reveal how environmental metal exposures contribute to chronic disease through microbial mechanisms.</p>
-      <p>WikiBiome currently contains <strong>${CONTENT.pages.length} articles</strong> covering ${CONTENT.pages.filter(p => p.category === 'microbe').length} microorganisms, ${CONTENT.pages.filter(p => p.category === 'metal').length} metals, ${CONTENT.pages.filter(p => p.category === 'mechanism').length} biological mechanisms, and ${CONTENT.pages.filter(p => p.type === 'signature').length} disease signatures — all sourced from peer-reviewed research.</p>
+      <p>WikiBiome currently contains <strong>${indexable.length} articles</strong> covering ${indexable.filter(p => p.category === 'microbe').length} microorganisms, ${indexable.filter(p => p.category === 'metal').length} metals, ${indexable.filter(p => p.category === 'mechanism').length} biological mechanisms, and ${indexable.filter(p => p.type === 'signature').length} disease signatures — all sourced from peer-reviewed research.</p>
 
       <h2>Disease Signatures</h2>
       <p>Each disease signature maps five layers of evidence: the metallomic profile (which metals are elevated or depleted), the taxonomic signature (which microbes are enriched or lost), the nutritional immunity response (how the host fights back), the ecological state (oxygen, pH, biofilm), and the virulence enzymes that connect metal availability to pathogenic function.</p>
@@ -724,13 +756,14 @@ function generateHomepageHtml() {
 // ---- Category pages ----
 
 function generateCategoryHtml(category, pages) {
+  const indexable = pages.filter(isIndexableContentPage);
   const catTitle = category.charAt(0).toUpperCase() + category.slice(1);
   const catDesc = getCategoryDescription(category);
   const description = catDesc
-    ? `${catTitle} — ${catDesc}. Browse ${pages.length} WikiBiome articles.`
-    : `Browse ${pages.length} WikiBiome articles about ${catTitle.toLowerCase()} — microbiome metallomics research.`;
+    ? `${catTitle} — ${catDesc}. Browse ${indexable.length} WikiBiome articles.`
+    : `Browse ${indexable.length} WikiBiome articles about ${catTitle.toLowerCase()} — microbiome metallomics research.`;
 
-  const articleLinks = pages
+  const articleLinks = indexable
     .sort((a, b) => (a.title || a.id).localeCompare(b.title || b.id))
     .map(p => {
       const desc = getPageDescription(p);
@@ -746,11 +779,12 @@ function generateCategoryHtml(category, pages) {
   ${GA_SNIPPET}
   <title>${escapeHtml(catTitle)} — WikiBiome</title>
   <meta name="description" content="${escapeHtml(description)}" />
-  <link rel="canonical" href="${DOMAIN}/category/${category}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="${canonicalUrl(`/category/${category}`)}" />
 
   <meta property="og:title" content="${escapeHtml(catTitle)} — WikiBiome" />
   <meta property="og:description" content="${escapeHtml(description)}" />
-  <meta property="og:url" content="${DOMAIN}/category/${category}" />
+  <meta property="og:url" content="${canonicalUrl(`/category/${category}`)}" />
 
   ${cssLink}
   <style>
@@ -768,9 +802,10 @@ function generateCategoryHtml(category, pages) {
 <body>
   <div id="root">
     <div class="static-content">
-      <nav><a href="/">WikiBiome</a> &rsaquo; <span>${escapeHtml(catTitle)}</span></nav>
+      ${hubNavHtml()}
+      <nav aria-label="Breadcrumb"><a href="/">WikiBiome</a> &rsaquo; <span>${escapeHtml(catTitle)}</span></nav>
       <h1>${escapeHtml(catTitle)}</h1>
-      <p>${catDesc ? escapeHtml(catDesc) + '. ' : ''}${pages.length} articles in this category.</p>
+      <p>${catDesc ? escapeHtml(catDesc) + '. ' : ''}${indexable.length} articles in this category.</p>
       <ul>${articleLinks}</ul>
       <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
         <p><a href="/">WikiBiome</a> is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>.</p>
@@ -785,12 +820,15 @@ function generateCategoryHtml(category, pages) {
 // ---- Sitemap ----
 
 function generateSitemap(urls) {
-  const entries = urls.map(u => `  <url>
-    <loc>${DOMAIN}${u.path}</loc>
+  const entries = urls.map(u => {
+    const loc = u.loc || canonicalUrl(u.path);
+    return `  <url>
+    <loc>${loc}</loc>
     <lastmod>${u.lastmod || '2026-04-10'}</lastmod>
     <changefreq>${u.changefreq || 'weekly'}</changefreq>
     <priority>${u.priority || '0.5'}</priority>
-  </url>`).join('\n');
+  </url>`;
+  }).join('\n');
 
   return `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -798,25 +836,193 @@ ${entries}
 </urlset>`;
 }
 
-// ---- Robots.txt ----
+function generateChromeHtml({ title, description, path, robots, bodyHtml }) {
+  const pageCanonical = canonicalUrl(path);
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  ${GA_SNIPPET}
+  <title>${escapeHtml(title)}</title>
+  <meta name="description" content="${escapeHtml(description)}" />
+  <meta name="robots" content="${robots}" />
+  <link rel="canonical" href="${pageCanonical}" />
+  <meta property="og:title" content="${escapeHtml(title)}" />
+  <meta property="og:description" content="${escapeHtml(description)}" />
+  <meta property="og:url" content="${pageCanonical}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="WikiBiome" />
+  ${cssLink}
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    .static-content { max-width: 800px; margin: 0 auto; padding: 40px 20px; line-height: 1.7; color: #2c2c2c; }
+    .static-content h1 { font-size: 28px; margin-bottom: 16px; color: #1a1a1a; }
+    .static-content h2 { font-size: 20px; margin: 28px 0 12px; color: #333; }
+    .static-content p { margin: 12px 0; }
+    .static-content a { color: #b87333; text-decoration: underline; }
+    .static-content ul { margin: 12px 0 12px 24px; }
+    .static-content li { margin-bottom: 8px; }
+    .static-content nav { font-size: 14px; margin-bottom: 24px; color: #888; }
+    .static-content nav a { color: #b87333; }
+  </style>
+</head>
+<body>
+  <div id="root">
+    <div class="static-content">
+      ${hubNavHtml()}
+      ${bodyHtml}
+      <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
+        <p><a href="/">WikiBiome</a> is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>.</p>
+      </footer>
+    </div>
+  </div>
+  ${scriptTagFull}
+</body>
+</html>`;
+}
 
-function generateRobotsTxt() {
-  return `User-agent: *
-Allow: /
-Disallow: /outreach
+function generateSpecialPageHtml(specialPath) {
+  const signatures = CONTENT.pages.filter(p => p.type === 'signature' && isIndexableContentPage(p));
+  const keystones = (CONTENT.pages || []).filter(p => p.frontmatter?.keystone === true && isIndexableContentPage(p));
+  const bodies = {
+    '/signatures': {
+      title: 'Disease signatures — WikiBiome',
+      description: `Browse ${signatures.length} WikiBiome disease signatures mapping metallomic, taxonomic, ecological, and virulence features.`,
+      html: `<h1>Disease signatures</h1>
+      <p>Each signature maps five layers of evidence: metallomic profile, taxonomic pattern, nutritional immunity, ecological state, and virulence enzymes.</p>
+      <ul>${signatures.map(p => `<li><a href="/article/${p.id}">${escapeHtml(getPageTitle(p))}</a></li>`).join('\n')}</ul>`,
+    },
+    '/explore': {
+      title: 'Explore the knowledge graph — WikiBiome',
+      description: 'Follow organisms, metals, diseases, and mechanisms through the WikiBiome knowledge graph.',
+      html: `<h1>Explore the knowledge graph</h1>
+      <p>The interactive explorer loads after this page hydrates. Until then, start from a category:</p>
+      <ul>
+        <li><a href="/category/metal">Metals</a></li>
+        <li><a href="/category/microbe">Microorganisms</a></li>
+        <li><a href="/category/disease">Diseases</a></li>
+        <li><a href="/category/mechanism">Mechanisms</a></li>
+        <li><a href="/signatures">Disease signatures</a></li>
+      </ul>`,
+    },
+    '/about': {
+      title: 'About WikiBiome',
+      description: 'WikiBiome is the open microbiome-metallomics encyclopedia — a project of the Paleo Foundation.',
+      html: `<h1>About WikiBiome</h1>
+      <p>WikiBiome is the open microbiome-metallomics encyclopedia — a free, peer-sourced knowledge base that maps relationships between metals, microorganisms, and human disease.</p>
+      <p>It is a collaboration between the <a href="https://paleofoundation.com">Paleo Foundation</a>, <a href="https://microbiomemedicine.com">Microbiome Medicine</a>, the Heavy Metal Tested &amp; Certified (HMTc) program, and Karen Pendergrass.</p>
+      <p>Every published article is attributed to peer-reviewed sources. WikiBiome is not medical advice.</p>`,
+    },
+    '/privacy': {
+      title: 'Privacy — WikiBiome',
+      description: 'How WikiBiome handles accounts, submissions, analytics, and support payments.',
+      html: `<h1>Privacy Policy</h1>
+      <p>WikiBiome collects the minimum information needed to operate the site. Account email is used only for submissions and optional updates. Payment processing is handled by Stripe; we do not store card numbers.</p>
+      <p>Contact <a href="mailto:privacy@wikibiome.com">privacy@wikibiome.com</a> for privacy requests.</p>`,
+    },
+    '/terms': {
+      title: 'Terms — WikiBiome',
+      description: 'Terms of use for the WikiBiome encyclopedia.',
+      html: `<h1>Terms of Use</h1>
+      <p>WikiBiome is an educational resource. It is not medical advice. Original WikiBiome summaries are available under CC BY-SA 4.0 unless noted; source papers keep their original copyright.</p>`,
+    },
+    '/contact': {
+      title: 'Contact — WikiBiome',
+      description: 'Contact the WikiBiome editorial team.',
+      html: `<h1>Contact</h1>
+      <p>For research or editorial questions, email <a href="mailto:karen@paleofoundation.com">karen@paleofoundation.com</a>.</p>
+      <p>To suggest a paper, use the <a href="/submit">submit</a> form.</p>`,
+    },
+    '/support': {
+      title: 'Support WikiBiome',
+      description: 'Support the research and infrastructure behind the open WikiBiome encyclopedia.',
+      html: `<h1>Support WikiBiome</h1>
+      <p>Donations keep the encyclopedia’s research intake, editorial review, and hosting running. The interactive giving form loads after this page hydrates.</p>`,
+    },
+    '/submit': {
+      title: 'Submit research — WikiBiome',
+      description: 'Submit a DOI, PMID, or preprint for WikiBiome editorial review.',
+      html: `<h1>Submit research</h1>
+      <p>WikiBiome reviews suggested papers before they enter the knowledge base. The submission form loads after this page hydrates. You can also email a DOI to <a href="mailto:karen@paleofoundation.com">karen@paleofoundation.com</a>.</p>`,
+    },
+    '/keystone': {
+      title: 'Keystone studies — WikiBiome',
+      description: 'Studies that structurally connect metals, microbes, and disease in the WikiBiome knowledge graph.',
+      html: `<h1>Keystone studies</h1>
+      <p>A keystone study is structurally essential to the knowledge graph — not merely highly cited. ${keystones.length} sources currently carry that designation.</p>
+      <ul>${keystones.slice(0, 40).map(p => `<li><a href="/article/${p.id}">${escapeHtml(getPageTitle(p))}</a></li>`).join('\n')}</ul>`,
+    },
+    '/search': {
+      title: 'Search WikiBiome',
+      description: 'Search the WikiBiome encyclopedia.',
+      html: `<h1>Search</h1><p>Use the site search box after this page hydrates, or browse <a href="/category/metal">metals</a>, <a href="/category/microbe">microbes</a>, and <a href="/signatures">signatures</a>.</p>`,
+    },
+    '/vote': {
+      title: 'Vote — WikiBiome',
+      description: 'Community voting tools for WikiBiome coverage priorities.',
+      html: `<h1>Vote on coverage priorities</h1><p>This interactive tool loads after hydration. It is not a content article.</p>`,
+    },
+    '/compare': {
+      title: 'Compare — WikiBiome',
+      description: 'Compare WikiBiome articles side by side.',
+      html: `<h1>Compare articles</h1><p>This interactive tool loads after hydration. Start from any two <a href="/">encyclopedia articles</a>.</p>`,
+    },
+    '/matrix': {
+      title: 'Evidence matrix — WikiBiome',
+      description: 'Cross-condition evidence matrix for WikiBiome signatures.',
+      html: `<h1>Evidence matrix</h1><p>The interactive matrix loads after hydration. Disease neighborhoods are also listed under <a href="/signatures">signatures</a>.</p>`,
+    },
+    '/clusters': {
+      title: 'Condition clusters — WikiBiome',
+      description: 'Disease neighborhoods generated from shared metallomic and taxonomic signals.',
+      html: `<h1>Condition clusters</h1><p>The cluster map loads after hydration. Browse <a href="/signatures">disease signatures</a> for the underlying evidence.</p>`,
+    },
+    '/tags': {
+      title: 'Tags — WikiBiome',
+      description: 'Browse WikiBiome articles by tag.',
+      html: `<h1>Tags</h1><p>The tag browser loads after hydration. Categories remain the primary index: <a href="/category/metal">metals</a>, <a href="/category/microbe">microbes</a>, <a href="/category/disease">diseases</a>.</p>`,
+    },
+    '/outreach': {
+      title: 'Outreach — WikiBiome',
+      description: 'Internal author-outreach dashboard.',
+      html: `<h1>Outreach</h1><p>This route is an internal dashboard and is not part of the public encyclopedia.</p>`,
+    },
+  };
 
-Sitemap: ${DOMAIN}/sitemap.xml
-Sitemap: ${DOMAIN}/sitemap-full.xml
-`;
+  const spec = bodies[specialPath];
+  if (!spec) return null;
+  const robots = NOINDEX_SPECIAL_PATHS.includes(specialPath) ? 'noindex, follow' : 'index, follow';
+  return generateChromeHtml({
+    title: spec.title,
+    description: spec.description,
+    path: specialPath,
+    robots,
+    bodyHtml: spec.html,
+  });
+}
+
+function generateNotFoundHtml() {
+  return generateChromeHtml({
+    title: 'Page not found — WikiBiome',
+    description: 'This WikiBiome URL is not in the public encyclopedia.',
+    path: '/404',
+    robots: 'noindex, follow',
+    bodyHtml: `<h1>This page is not in the encyclopedia.</h1>
+    <p>The URL may be outdated, unpublished, or typed incorrectly.</p>
+    <p><a href="/">Return home</a> · <a href="/search">Search</a> · <a href="/category/metal">Browse metals</a></p>`,
+  });
 }
 
 // ---- Main execution ----
 
+function main() {
 const urls = [];
 
 // 1. Homepage
 fs.writeFileSync(path.join(DIST_DIR, 'index.html'), generateHomepageHtml());
-urls.push({ path: '/', priority: '1.0', changefreq: 'daily' });
+urls.push(sitemapEntry('/', { priority: '1.0', changefreq: 'daily' }));
 console.log('  Generated: / (homepage)');
 
 // 2. Article pages
@@ -833,33 +1039,29 @@ for (const page of CONTENT.pages) {
   const html = generatePageHtml(page, `/article/${page.id}`);
   fs.writeFileSync(path.join(pageDir, 'index.html'), html);
 
-  // §2f: stubs render (so direct links work and the UI banner can admit the
-  // stub status) but they are excluded from sitemaps so Google does not index
-  // thin or zero-reference pages. `isStub` is set by build-content.cjs.
-  if (page.isStub) {
+  // §2f: stubs and below-threshold pages render (so direct links work and the
+  // UI banner can admit stub status) but they are noindexed and excluded from
+  // sitemaps so Google does not treat thin pages as soft 404s.
+  if (!isIndexableContentPage(page)) {
     stubExcludedFromSitemap++;
     articleCount++;
     continue;
   }
 
-  // Deduplicate sitemap entries — keep the highest priority version
   if (!seenArticleIds.has(page.id)) {
     seenArticleIds.add(page.id);
-    urls.push({
-      path: `/article/${page.id}`,
+    urls.push(sitemapEntry(`/article/${page.id}`, {
       lastmod: page.updated || page.created || '2026-04-10',
       priority: page.type === 'signature' ? '0.9' : page.type === 'entity' ? '0.7' : '0.6',
       changefreq: 'weekly'
-    });
+    }));
   } else {
-    // Update priority if this version is higher (e.g., signature > entity)
     const existing = urls.find(u => u.path === `/article/${page.id}`);
     if (existing) {
       const newPriority = page.type === 'signature' ? '0.9' : page.type === 'entity' ? '0.7' : '0.6';
       if (parseFloat(newPriority) > parseFloat(existing.priority)) {
         existing.priority = newPriority;
       }
-      // Also update lastmod if newer
       const newDate = page.updated || page.created || '2026-04-10';
       if (newDate > existing.lastmod) {
         existing.lastmod = newDate;
@@ -868,7 +1070,7 @@ for (const page of CONTENT.pages) {
   }
   articleCount++;
 }
-console.log(`  Generated: ${articleCount} article pages (${stubExcludedFromSitemap} stubs excluded from sitemap)`);
+console.log(`  Generated: ${articleCount} article pages (${stubExcludedFromSitemap} stubs/thin pages excluded from sitemap)`);
 
 // 3. Category pages
 const categories = {};
@@ -883,53 +1085,77 @@ if (!fs.existsSync(categoryDir)) fs.mkdirSync(categoryDir, { recursive: true });
 
 let catCount = 0;
 for (const [cat, pages] of Object.entries(categories)) {
+  const indexableInCat = pages.filter(isIndexableContentPage);
+  if (indexableInCat.length === 0) continue;
   const catDir = path.join(categoryDir, cat);
   if (!fs.existsSync(catDir)) fs.mkdirSync(catDir, { recursive: true });
 
   fs.writeFileSync(path.join(catDir, 'index.html'), generateCategoryHtml(cat, pages));
-  urls.push({ path: `/category/${cat}`, priority: '0.6', changefreq: 'weekly' });
+  urls.push(sitemapEntry(`/category/${cat}`, { priority: '0.6', changefreq: 'weekly' }));
   catCount++;
 }
 console.log(`  Generated: ${catCount} category pages`);
 
-// 4. Special pages (signatures, explore, matrix)
-// NOTE: /outreach is intentionally excluded — it is an internal author-contact
-// dashboard (exposes corresponding-author emails) and must not be indexed or
-// discoverable via navigation. The route still resolves in the SPA for direct
-// URL access during local work.
-for (const special of ['signatures', 'explore', 'matrix', 'tags', 'about', 'privacy', 'terms', 'contact', 'support', 'submit', 'vote', 'compare']) {
-  const specialDir = path.join(DIST_DIR, special);
+// 4. Special pages — unique HTML + self-canonical. Homepage clones are a
+// duplicate-canonical / soft-404 signal. /outreach stays noindex and out of
+// the sitemap (internal author-contact dashboard).
+const allSpecialPaths = [
+  ...INDEXABLE_SPECIAL_PATHS.map((s) => s.path).filter((p) => p !== '/'),
+  ...NOINDEX_SPECIAL_PATHS,
+];
+let specialCount = 0;
+for (const specialPath of allSpecialPaths) {
+  const slug = specialPath.replace(/^\//, '');
+  const specialDir = path.join(DIST_DIR, slug);
   if (!fs.existsSync(specialDir)) fs.mkdirSync(specialDir, { recursive: true });
-  // Copy the main index.html for SPA fallback — these are interactive and don't benefit as much from static HTML
-  fs.copyFileSync(path.join(DIST_DIR, 'index.html'), path.join(specialDir, 'index.html'));
-  const prio = special === 'signatures' ? '0.8' : ['about', 'support', 'submit'].includes(special) ? '0.6' : '0.4';
-  urls.push({ path: `/${special}`, priority: prio, changefreq: 'monthly' });
+  const html = generateSpecialPageHtml(specialPath);
+  if (!html) continue;
+  fs.writeFileSync(path.join(specialDir, 'index.html'), html);
+  specialCount++;
 }
-console.log('  Generated: 12 special pages (signatures, explore, matrix, tags, about, privacy, terms, contact, support, submit, vote, compare)');
+for (const spec of INDEXABLE_SPECIAL_PATHS) {
+  if (spec.path === '/') continue;
+  urls.push(sitemapEntry(spec.path, { priority: spec.priority, changefreq: spec.changefreq }));
+}
+console.log(`  Generated: ${specialCount} special pages (unique HTML, no homepage clones)`);
 
-// 5. Sitemaps — single comprehensive list
-// Prior strategy (2026-04-15): a 23-URL "flagship" sitemap was submitted to
-// focus Google's crawl budget on new-domain anchors. After a full week Google
-// was still stuck at 39 crawled URLs — the constraint turned out to be domain
-// authority / backlinks, not sitemap size. Reverting to a full sitemap so
-// Google has the whole graph and can decide what to crawl.
-//
-// sitemap.xml and sitemap-full.xml are now identical (kept as aliases so
-// existing Search Console submissions don't 404).
+// 5. True 404 document — unknown URLs must not rewrite to the homepage.
+fs.writeFileSync(path.join(DIST_DIR, '404.html'), generateNotFoundHtml());
+console.log('  Generated: 404.html (noindex, self-canonical)');
 
+// 6. Sitemaps — only indexable 200 URLs on the canonical host.
+// sitemap-full.xml remains an alias so existing Search Console submissions
+// do not 404.
 fs.writeFileSync(path.join(DIST_DIR, 'sitemap.xml'), generateSitemap(urls));
-console.log(`  Generated: sitemap.xml (${urls.length} URLs — full)`);
+console.log(`  Generated: sitemap.xml (${urls.length} URLs — indexable only)`);
 
 fs.writeFileSync(path.join(DIST_DIR, 'sitemap-full.xml'), generateSitemap(urls));
 console.log(`  Generated: sitemap-full.xml (${urls.length} URLs — alias)`);
 
-// 6. Robots.txt
+fs.writeFileSync(
+  path.join(DIST_DIR, 'image-sitemap.xml'),
+  generateImageSitemapXml(defaultImageSitemapEntries())
+);
+console.log('  Generated: image-sitemap.xml');
+
+// 7. Robots.txt
 fs.writeFileSync(path.join(DIST_DIR, 'robots.txt'), generateRobotsTxt());
 console.log('  Generated: robots.txt');
 
 console.log(`\n=== Static generation complete ===`);
-console.log(`Total crawlable URLs: ${urls.length}`);
+console.log(`Total sitemap URLs: ${urls.length}`);
 console.log(`  Homepage: 1`);
-console.log(`  Articles: ${articleCount}`);
+console.log(`  Articles: ${articleCount - stubExcludedFromSitemap} indexable (${stubExcludedFromSitemap} noindex)`);
 console.log(`  Categories: ${catCount}`);
-console.log(`  Special: 3`);
+console.log(`  Special (indexable): ${INDEXABLE_SPECIAL_PATHS.length - 1}`);
+}
+
+if (require.main === module) {
+  main();
+}
+
+module.exports = {
+  generateSpecialPageHtml,
+  generateNotFoundHtml,
+  generateSitemap,
+};

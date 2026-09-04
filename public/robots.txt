@@ -1,7 +1,11 @@
 User-agent: *
 Allow: /
+Disallow: /api/
+Disallow: /outreach
+Disallow: /contributions
+Disallow: /article/*/suggest
 
-# LLM crawlers
+# LLM crawlers — public encyclopedia is intentionally crawlable
 User-agent: GPTBot
 Allow: /
 
@@ -15,3 +19,4 @@ User-agent: CCBot
 Allow: /
 
 Sitemap: https://www.wikibiome.com/sitemap.xml
+Sitemap: https://www.wikibiome.com/image-sitemap.xml

@@ -9,15 +9,24 @@
 
 import Stripe from 'stripe';
 
-const stripe = new Stripe(process.env.STRIPE_SECRET_KEY, {
-  apiVersion: '2024-06-20',
-});
+function getStripe() {
+  const key = process.env.STRIPE_SECRET_KEY;
+  if (!key) {
+    const err = new Error('Checkout is not configured');
+    err.statusCode = 503;
+    throw err;
+  }
+  return new Stripe(key, {
+    apiVersion: '2024-06-20',
+  });
+}
 
 export default async function handler(req, res) {
   // CORS — allow requests from wikibiome.com and Vercel previews
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
+  res.setHeader('X-Robots-Tag', 'noindex, nofollow');
 
   if (req.method === 'OPTIONS') {
     return res.status(200).end();
@@ -101,11 +110,13 @@ export default async function handler(req, res) {
       sessionConfig.submit_type = 'donate';
     }
 
+    const stripe = getStripe();
     const session = await stripe.checkout.sessions.create(sessionConfig);
 
     return res.status(200).json({ url: session.url });
   } catch (err) {
+    const status = err.statusCode === 503 ? 503 : 500;
     console.error('Stripe checkout error:', err);
-    return res.status(500).json({ error: err.message || 'Unable to create checkout session' });
+    return res.status(status).json({ error: err.message || 'Unable to create checkout session' });
   }
 }
