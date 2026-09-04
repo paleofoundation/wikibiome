@@ -1,4 +1,5 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs",
   "outputDirectory": "dist-v28",
   "installCommand": "npm install",
@@ -25,35 +26,30 @@
   "redirects": [
     {
       "source": "/signature-explorer",
-      "destination": "https://www.wikibiome.com/signatures",
-      "permanent": true,
-      "statusCode": 301
+      "destination": "/signatures",
+      "permanent": true
     },
     {
       "source": "/signature-explorer.html",
-      "destination": "https://www.wikibiome.com/signatures",
-      "permanent": true,
-      "statusCode": 301
+      "destination": "/signatures",
+      "permanent": true
     },
     {
       "source": "/article/autism-spectrum-disorder-microbiome-signature",
-      "destination": "https://www.wikibiome.com/article/autism-spectrum-disorder-signature",
-      "permanent": true,
-      "statusCode": 301
+      "destination": "/article/autism-spectrum-disorder-signature",
+      "permanent": true
     },
     {
       "source": "/",
       "has": [{ "type": "host", "value": "wikibiome.com" }],
       "destination": "https://www.wikibiome.com/",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     },
     {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "wikibiome.com" }],
       "destination": "https://www.wikibiome.com/:path*",
-      "permanent": true,
-      "statusCode": 301
+      "permanent": true
     }
   ],
   "rewrites": [

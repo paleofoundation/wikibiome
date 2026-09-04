@@ -133,15 +133,16 @@ const apexRedirects = (vercel.redirects || []).filter((r) => r.has && r.has.some
 assert(apexRedirects.some((r) => r.source === '/'), 'vercel.json has an explicit / apex→www 301 (/:path* misses root)');
 assert(apexRedirects.some((r) => r.source === '/:path*'), 'vercel.json has /:path* apex→www 301');
 assert(apexRedirects.every((r) => r.destination.startsWith('https://www.wikibiome.com/')), 'apex redirect targets are www');
-assert(apexRedirects.every((r) => r.statusCode === 301 || r.permanent === true), 'apex redirects are permanent');
-assert(apexRedirects.every((r) => r.statusCode === 301), 'apex redirects advertise HTTP 301');
+assert(apexRedirects.every((r) => r.permanent === true), 'apex redirects are permanent (Vercel 308)');
+assert((vercel.redirects || []).every((r) => r.statusCode === undefined), 'vercel.json must not set statusCode — it is private and fails deploy');
+assert((vercel.redirects || []).every((r) => !(r.permanent !== undefined && r.statusCode !== undefined)), 'vercel.json must not set both permanent and statusCode');
 assert((vercel.rewrites || []).some((r) => r.source === '/article/:id'), 'article rewrite remains for static HTML');
 assert(!(vercel.rewrites || []).some((r) => r.source.includes('signature-explorer')), 'signature-explorer is not rewritten to Babel HTML');
 const explorerRedirects = (vercel.redirects || []).filter((r) => String(r.source).includes('signature-explorer'));
-assert(explorerRedirects.length >= 2, 'vercel.json 301s signature-explorer and .html');
-assert(explorerRedirects.every((r) => r.destination === 'https://www.wikibiome.com/signatures'), 'explorer redirects land on www/signatures');
-assert(explorerRedirects.every((r) => r.statusCode === 301), 'explorer redirects are 301');
-assert((vercel.redirects || []).some((r) => r.source === '/article/autism-spectrum-disorder-microbiome-signature' && r.destination === 'https://www.wikibiome.com/article/autism-spectrum-disorder-signature'), 'ASD soft-404 slug 301s to the signature page');
+assert(explorerRedirects.length >= 2, 'vercel.json redirects signature-explorer and .html');
+assert(explorerRedirects.every((r) => r.destination === '/signatures'), 'explorer redirects are relative /signatures (preview-safe)');
+assert(explorerRedirects.every((r) => r.permanent === true), 'explorer redirects are permanent');
+assert((vercel.redirects || []).some((r) => r.source === '/article/autism-spectrum-disorder-microbiome-signature' && r.destination === '/article/autism-spectrum-disorder-signature'), 'ASD soft-404 slug redirects to the signature page');
 
 const middleware = fs.readFileSync(path.join(__dirname, '..', 'middleware.js'), 'utf8');
 assert(middleware.includes('resolveSeoRedirect'), 'middleware uses shared SEO redirect helper');
