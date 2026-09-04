@@ -172,6 +172,17 @@ assert(NOINDEX_SPECIAL_PATHS.includes('/outreach'), 'outreach is noindex');
 assert(NOINDEX_SPECIAL_PATHS.includes('/search'), 'search is noindex');
 assert(!NOINDEX_SPECIAL_PATHS.includes('/about'), 'about is not noindex');
 
+const specialTitles = INDEXABLE_SPECIAL_PATHS.map((p) => p.title);
+assert(new Set(specialTitles).size === specialTitles.length, 'indexable special pages have unique titles');
+assert(INDEXABLE_SPECIAL_PATHS.every((p) => p.title && p.title.length > 8), 'indexable special titles are non-empty');
+assert(canonicalUrl('/signatures') === 'https://www.wikibiome.com/signatures', 'signatures hub is self-canonical on www');
+assert(canonicalUrl('/explore') === 'https://www.wikibiome.com/explore', 'explore hub is self-canonical on www');
+
+const genSrc = fs.readFileSync(path.join(__dirname, 'generate-static.cjs'), 'utf8');
+assert(genSrc.includes('function hubNavHtml'), 'hub pages share an internal-link nav');
+assert(genSrc.includes('isIndexableContentPage'), 'generator filters stubs out of hubs and sitemap');
+assert(genSrc.includes('indexableInCat.length === 0'), 'empty/stub-only categories are not sitemapped');
+
 const explorerHtml = fs.readFileSync(path.join(__dirname, '..', 'public/signature-explorer.html'), 'utf8');
 assert(explorerHtml.includes('noindex'), 'leftover explorer HTML is noindex if still fetched');
 

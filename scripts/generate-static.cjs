@@ -627,9 +627,21 @@ function generatePageHtml(page, urlPath) {
 
 // ---- Homepage ----
 
+function hubNavHtml() {
+  return `<nav aria-label="Encyclopedia">
+        <a href="/">Home</a> ·
+        <a href="/signatures">Signatures</a> ·
+        <a href="/explore">Explore</a> ·
+        <a href="/category/metal">Metals</a> ·
+        <a href="/category/microbe">Microbes</a> ·
+        <a href="/category/disease">Diseases</a>
+      </nav>`;
+}
+
 function generateHomepageHtml() {
+  const indexable = CONTENT.pages.filter(isIndexableContentPage);
   const categories = {};
-  for (const p of CONTENT.pages) {
+  for (const p of indexable) {
     const cat = p.category || 'other';
     if (!categories[cat]) categories[cat] = [];
     categories[cat].push(p);
@@ -642,7 +654,7 @@ function generateHomepageHtml() {
     categoryLinks += `<li><a href="/category/${cat}"><strong>${catTitle}</strong></a> (${pages.length} articles)${catDesc ? ` — ${catDesc}` : ''}</li>\n`;
   }
 
-  let recentPages = CONTENT.pages
+  let recentPages = indexable
     .filter(p => p.updated || p.created)
     .sort((a, b) => (b.updated || b.created || '').localeCompare(a.updated || a.created || ''))
     .slice(0, 20)
@@ -652,7 +664,7 @@ function generateHomepageHtml() {
     })
     .join('\n');
 
-  const signatureLinks = CONTENT.pages
+  const signatureLinks = indexable
     .filter(p => p.type === 'signature')
     .map(p => {
       const desc = getPageDescription(p);
@@ -680,7 +692,7 @@ function generateHomepageHtml() {
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   ${GA_SNIPPET}
   <title>WikiBiome — The Microbiome Metallomics Encyclopedia</title>
-  <meta name="description" content="The open encyclopedia of microbiome metallomics. Explore how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets. ${CONTENT.pages.length} articles on metals, microbes, disease signatures, and mechanisms." />
+  <meta name="description" content="The open encyclopedia of microbiome metallomics. Explore how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets. ${indexable.length} articles on metals, microbes, disease signatures, and mechanisms." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="${canonicalUrl('/')}" />
 
@@ -712,13 +724,14 @@ function generateHomepageHtml() {
 <body>
   <div id="root">
     <div class="static-content">
+      ${hubNavHtml()}
       <h1>WikiBiome</h1>
       <p><strong>The open encyclopedia of microbiome metallomics.</strong></p>
       <p>WikiBiome explores how heavy metals shape the human microbiome, drive disease, and reveal new therapeutic targets. A project of the <a href="https://paleofoundation.com">Paleo Foundation</a>.</p>
 
       <h2>What is Microbiome Metallomics?</h2>
       <p>Microbiome metallomics is the study of how metals — both essential (iron, zinc, manganese) and toxic (lead, cadmium, mercury, arsenic) — shape the composition and behavior of human-associated microbial communities. Heavy metals act as selective pressures on the microbiome, favoring metal-tolerant or metal-dependent organisms and suppressing sensitive beneficial species. This field integrates toxicology, microbial ecology, nutritional immunology, and clinical medicine to reveal how environmental metal exposures contribute to chronic disease through microbial mechanisms.</p>
-      <p>WikiBiome currently contains <strong>${CONTENT.pages.length} articles</strong> covering ${CONTENT.pages.filter(p => p.category === 'microbe').length} microorganisms, ${CONTENT.pages.filter(p => p.category === 'metal').length} metals, ${CONTENT.pages.filter(p => p.category === 'mechanism').length} biological mechanisms, and ${CONTENT.pages.filter(p => p.type === 'signature').length} disease signatures — all sourced from peer-reviewed research.</p>
+      <p>WikiBiome currently contains <strong>${indexable.length} articles</strong> covering ${indexable.filter(p => p.category === 'microbe').length} microorganisms, ${indexable.filter(p => p.category === 'metal').length} metals, ${indexable.filter(p => p.category === 'mechanism').length} biological mechanisms, and ${indexable.filter(p => p.type === 'signature').length} disease signatures — all sourced from peer-reviewed research.</p>
 
       <h2>Disease Signatures</h2>
       <p>Each disease signature maps five layers of evidence: the metallomic profile (which metals are elevated or depleted), the taxonomic signature (which microbes are enriched or lost), the nutritional immunity response (how the host fights back), the ecological state (oxygen, pH, biofilm), and the virulence enzymes that connect metal availability to pathogenic function.</p>
@@ -743,13 +756,14 @@ function generateHomepageHtml() {
 // ---- Category pages ----
 
 function generateCategoryHtml(category, pages) {
+  const indexable = pages.filter(isIndexableContentPage);
   const catTitle = category.charAt(0).toUpperCase() + category.slice(1);
   const catDesc = getCategoryDescription(category);
   const description = catDesc
-    ? `${catTitle} — ${catDesc}. Browse ${pages.length} WikiBiome articles.`
-    : `Browse ${pages.length} WikiBiome articles about ${catTitle.toLowerCase()} — microbiome metallomics research.`;
+    ? `${catTitle} — ${catDesc}. Browse ${indexable.length} WikiBiome articles.`
+    : `Browse ${indexable.length} WikiBiome articles about ${catTitle.toLowerCase()} — microbiome metallomics research.`;
 
-  const articleLinks = pages
+  const articleLinks = indexable
     .sort((a, b) => (a.title || a.id).localeCompare(b.title || b.id))
     .map(p => {
       const desc = getPageDescription(p);
@@ -788,9 +802,10 @@ function generateCategoryHtml(category, pages) {
 <body>
   <div id="root">
     <div class="static-content">
-      <nav><a href="/">WikiBiome</a> &rsaquo; <span>${escapeHtml(catTitle)}</span></nav>
+      ${hubNavHtml()}
+      <nav aria-label="Breadcrumb"><a href="/">WikiBiome</a> &rsaquo; <span>${escapeHtml(catTitle)}</span></nav>
       <h1>${escapeHtml(catTitle)}</h1>
-      <p>${catDesc ? escapeHtml(catDesc) + '. ' : ''}${pages.length} articles in this category.</p>
+      <p>${catDesc ? escapeHtml(catDesc) + '. ' : ''}${indexable.length} articles in this category.</p>
       <ul>${articleLinks}</ul>
       <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
         <p><a href="/">WikiBiome</a> is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>.</p>
@@ -856,7 +871,7 @@ function generateChromeHtml({ title, description, path, robots, bodyHtml }) {
 <body>
   <div id="root">
     <div class="static-content">
-      <nav><a href="/">WikiBiome</a></nav>
+      ${hubNavHtml()}
       ${bodyHtml}
       <footer style="margin-top:40px;padding-top:20px;border-top:1px solid #e8e4df;font-size:13px;color:#888;">
         <p><a href="/">WikiBiome</a> is a project of the <a href="https://paleofoundation.com">Paleo Foundation</a>.</p>
@@ -870,7 +885,7 @@ function generateChromeHtml({ title, description, path, robots, bodyHtml }) {
 
 function generateSpecialPageHtml(specialPath) {
   const signatures = CONTENT.pages.filter(p => p.type === 'signature' && isIndexableContentPage(p));
-  const keystones = (CONTENT.pages || []).filter(p => p.frontmatter?.keystone === true);
+  const keystones = (CONTENT.pages || []).filter(p => p.frontmatter?.keystone === true && isIndexableContentPage(p));
   const bodies = {
     '/signatures': {
       title: 'Disease signatures — WikiBiome',
@@ -1070,6 +1085,8 @@ if (!fs.existsSync(categoryDir)) fs.mkdirSync(categoryDir, { recursive: true });
 
 let catCount = 0;
 for (const [cat, pages] of Object.entries(categories)) {
+  const indexableInCat = pages.filter(isIndexableContentPage);
+  if (indexableInCat.length === 0) continue;
   const catDir = path.join(categoryDir, cat);
   if (!fs.existsSync(catDir)) fs.mkdirSync(catDir, { recursive: true });
 
