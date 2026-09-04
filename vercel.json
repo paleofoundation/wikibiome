@@ -3,18 +3,23 @@
   "outputDirectory": "dist-v28",
   "installCommand": "npm install",
   "framework": null,
+  "trailingSlash": false,
   "headers": [
     {
       "source": "/sitemap.xml",
-      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
     },
     {
       "source": "/sitemap-full.xml",
-      "headers": [{ "key": "Content-Type", "value": "application/xml" }]
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
+    },
+    {
+      "source": "/image-sitemap.xml",
+      "headers": [{ "key": "Content-Type", "value": "application/xml; charset=utf-8" }]
     },
     {
       "source": "/robots.txt",
-      "headers": [{ "key": "Content-Type", "value": "text/plain" }]
+      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
     }
   ],
   "redirects": [
@@ -29,7 +34,6 @@
     { "source": "/api/:path*", "destination": "/api/:path*" },
     { "source": "/article/:id", "destination": "/article/:id/index.html" },
     { "source": "/category/:cat", "destination": "/category/:cat/index.html" },
-    { "source": "/signature-explorer", "destination": "/signature-explorer.html" },
-    { "source": "/((?!api/).*)", "destination": "/index.html" }
+    { "source": "/signature-explorer", "destination": "/signature-explorer.html" }
   ]
 }

@@ -2138,9 +2138,24 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
    Inline collapsible TOC, inline 5-layer signature, slide-out panel preserved
    ═══════════════════════════════════════════════════════════════════════════ */
 
+const NotFoundView = ({ onNavigate }) => (
+  <div style={{ maxWidth: '720px', margin: '0 auto', padding: '80px 24px', textAlign: 'center', fontFamily: "'Inter', sans-serif" }}>
+    <div style={{ fontSize: '13px', letterSpacing: '0.12em', color: '#888', marginBottom: '12px' }}>404</div>
+    <h1 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '32px', marginBottom: '16px', color: '#1a1a1a' }}>This page is not in the encyclopedia.</h1>
+    <p style={{ color: '#555', lineHeight: 1.6, marginBottom: '28px' }}>
+      The URL may be outdated, unpublished, or typed incorrectly.
+    </p>
+    <p>
+      <span onClick={() => onNavigate({ view: 'home' })} style={{ color: '#b87333', textDecoration: 'underline', cursor: 'pointer' }}>Return home</span>
+      {' · '}
+      <span onClick={() => onNavigate({ view: 'search' })} style={{ color: '#b87333', textDecoration: 'underline', cursor: 'pointer' }}>Search</span>
+    </p>
+  </div>
+);
+
 const ArticleView = ({ pageId, onNavigate }) => {
   const page = CONTENT.pages.find(p => p.id === pageId);
-  if (!page) return <div style={{ padding: '40px', fontFamily: "'Inter', sans-serif" }}>Article not found.</div>;
+  if (!page) return <NotFoundView onNavigate={onNavigate} />;
 
   const cat = CATEGORIES[page.category];
   const catLabel = cat?.label || page.category;
@@ -5890,7 +5905,7 @@ function AppInner() {
             <Route path="/compare" element={<CompareView onNavigate={navigate} />} />
             <Route path="/outreach" element={<OutreachView onNavigate={navigate} />} />
             <Route path="/keystone" element={<KeystoneView onNavigate={navigate} />} />
-            <Route path="*" element={<HomeView onNavigate={navigate} />} />
+            <Route path="*" element={<NotFoundView onNavigate={navigate} />} />
           </Routes>
 
           {/* ── Footer ── */}

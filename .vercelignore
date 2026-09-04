@@ -26,7 +26,6 @@ dist-v30/
 dist-v31/
 dist-preview/
 preview/
-public/
 *.pdf
 *.PDF
 doi-lookup-results.json
