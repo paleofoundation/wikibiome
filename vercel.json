@@ -24,6 +24,24 @@
   ],
   "redirects": [
     {
+      "source": "/signature-explorer",
+      "destination": "https://www.wikibiome.com/signatures",
+      "permanent": true,
+      "statusCode": 301
+    },
+    {
+      "source": "/signature-explorer.html",
+      "destination": "https://www.wikibiome.com/signatures",
+      "permanent": true,
+      "statusCode": 301
+    },
+    {
+      "source": "/article/autism-spectrum-disorder-microbiome-signature",
+      "destination": "https://www.wikibiome.com/article/autism-spectrum-disorder-signature",
+      "permanent": true,
+      "statusCode": 301
+    },
+    {
       "source": "/",
       "has": [{ "type": "host", "value": "wikibiome.com" }],
       "destination": "https://www.wikibiome.com/",
@@ -41,7 +59,6 @@
   "rewrites": [
     { "source": "/api/:path*", "destination": "/api/:path*" },
     { "source": "/article/:id", "destination": "/article/:id/index.html" },
-    { "source": "/category/:cat", "destination": "/category/:cat/index.html" },
-    { "source": "/signature-explorer", "destination": "/signature-explorer.html" }
+    { "source": "/category/:cat", "destination": "/category/:cat/index.html" }
   ]
 }

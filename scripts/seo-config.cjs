@@ -21,23 +21,95 @@ function requestHost(hostHeader, requestUrl) {
 }
 
 /**
- * If the request is on the apex host, return the https://www URL (path + query
- * preserved). Returns null when the host is already canonical (or a preview
- * host) so the request can continue.
+ * Host + path-alias 301 location, or null if the request should continue
+ * (already on www with a canonical path, preview host with no alias, or 410).
  */
 function canonicalRedirectUrl(requestUrl, hostHeader) {
-  const host = requestHost(hostHeader, requestUrl);
-  if (host !== APEX_HOST) return null;
+  const result = resolveSeoRedirect(requestUrl, hostHeader);
+  if (result && result.status === 301) return result.location;
+  return null;
+}
+
+/**
+ * Known request paths that must 301 to a real indexable URL.
+ * Looked up after trailing-slash strip; keys are lowercase.
+ * Redirect only when the request path is not already the destination
+ * (so `/article/dna-damage` does not loop).
+ */
+const PATH_ALIASES = {
+  '/signature-explorer': '/signatures',
+  '/signature-explorer.html': '/signatures',
+  '/article/autism-spectrum-disorder-microbiome-signature': '/article/autism-spectrum-disorder-signature',
+  '/article/dna-damage': '/article/dna-damage',
+};
+
+/**
+ * GSC soft-404 sample slugs that were never public encyclopedia articles
+ * (source filenames under /article/, invented STOP index, missing entity).
+ * 410 tells Google they are gone; do not 200 and do not canonical to `/`.
+ */
+const GONE_PATHS = new Set([
+  '/article/li-2026-ibd-erectile-dysfunction-mechanistic-link',
+  '/article/pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis',
+  '/article/chen2023-gut-microbiota-inflammatory-mendelian-covid',
+  '/article/male-infertility',
+  '/article/iron-supplementation-stops-across-conditions',
+]);
+
+function pathAlias(pathname) {
+  const p = normalizePath(pathname);
+  const dest = PATH_ALIASES[p] || PATH_ALIASES[p.toLowerCase()];
+  if (!dest) return null;
+  return dest !== p ? dest : null;
+}
+
+function isGonePath(pathname) {
+  const p = normalizePath(pathname);
+  return GONE_PATHS.has(p) || GONE_PATHS.has(p.toLowerCase());
+}
+
+const GONE_HTML = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gone — WikiBiome</title>
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="${CANONICAL_ORIGIN}/404" />
+</head>
+<body>
+  <h1>This URL is gone.</h1>
+  <p>It was never a public encyclopedia article.</p>
+  <p><a href="/">Return home</a></p>
+</body>
+</html>
+`;
+
+/**
+ * Single-hop SEO response: host + path alias combined, or 410 for gone slugs.
+ * Returns { status: 301, location } | { status: 410, gone: true } | null.
+ */
+function resolveSeoRedirect(requestUrl, hostHeader) {
   let url;
   try {
     url = new URL(requestUrl);
   } catch {
-    return `${CANONICAL_ORIGIN}/`;
+    url = new URL(`${CANONICAL_ORIGIN}/`);
   }
-  url.protocol = 'https:';
-  url.hostname = CANONICAL_HOST;
-  url.port = '';
-  return url.toString();
+  const host = requestHost(hostHeader, requestUrl);
+  if (isGonePath(url.pathname)) {
+    return { status: 410, gone: true };
+  }
+  const alias = pathAlias(url.pathname);
+  const isApex = host === APEX_HOST;
+  if (!alias && !isApex) return null;
+  if (isApex) {
+    url.protocol = 'https:';
+    url.hostname = CANONICAL_HOST;
+    url.port = '';
+  }
+  if (alias) url.pathname = alias;
+  return { status: 301, location: url.toString() };
 }
 
 const INDEXABLE_SPECIAL_PATHS = [
@@ -184,6 +256,12 @@ module.exports = {
   APEX_HOST,
   requestHost,
   canonicalRedirectUrl,
+  pathAlias,
+  isGonePath,
+  resolveSeoRedirect,
+  PATH_ALIASES,
+  GONE_PATHS,
+  GONE_HTML,
   INDEXABLE_SPECIAL_PATHS,
   NOINDEX_SPECIAL_PATHS,
   ROBOTS_DISALLOW,

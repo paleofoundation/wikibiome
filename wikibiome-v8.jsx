@@ -1432,7 +1432,7 @@ const LeftSidebar = ({ onNavigate }) => {
         Tools
       </div>
       {/* Signature Explorer CTA */}
-      <a href="/signature-explorer" target="_blank" rel="noopener noreferrer" style={{
+      <a href="/signatures" target="_blank" rel="noopener noreferrer" style={{
         display: 'flex', alignItems: 'center', gap: '8px',
         fontSize: '13px', padding: '7px 12px', borderRadius: '6px',
         color: P.teal, fontWeight: 500, cursor: 'pointer', transition: 'all 0.15s',
@@ -1745,7 +1745,7 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
             Tools
           </div>
           {[
-            { label: 'Signature Explorer', href: '/signature-explorer' },
+            { label: 'Signature Explorer', href: '/signatures' },
             { label: 'Disease Signatures', view: 'signatures' },
             { label: 'Condition Clusters', view: 'clusters' },
             { label: 'Evidence Matrix', view: 'matrix' },
@@ -2368,7 +2368,7 @@ const ArticleView = ({ pageId, onNavigate }) => {
               {/* Interactive Signature Explorer CTA — context-specific per disease */}
               {/* Currently only endometriosis has a connection matrix built; others coming */}
               {signatureId === 'endometriosis' && (
-              <a href={`/signature-explorer?disease=${signatureId}`} target="_blank" rel="noopener noreferrer"
+              <a href="/signatures" target="_blank" rel="noopener noreferrer"
                 style={{
                   display: 'flex', alignItems: 'center', justifyContent: 'space-between',
                   padding: '16px 22px', marginBottom: '28px',
