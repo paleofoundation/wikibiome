@@ -7,6 +7,38 @@
  */
 
 const CANONICAL_ORIGIN = 'https://www.wikibiome.com';
+const CANONICAL_HOST = 'www.wikibiome.com';
+const APEX_HOST = 'wikibiome.com';
+
+function requestHost(hostHeader, requestUrl) {
+  const fromHeader = String(hostHeader || '').split(':')[0].toLowerCase().replace(/\.$/, '');
+  if (fromHeader) return fromHeader;
+  try {
+    return new URL(requestUrl).hostname.toLowerCase().replace(/\.$/, '');
+  } catch {
+    return '';
+  }
+}
+
+/**
+ * If the request is on the apex host, return the https://www URL (path + query
+ * preserved). Returns null when the host is already canonical (or a preview
+ * host) so the request can continue.
+ */
+function canonicalRedirectUrl(requestUrl, hostHeader) {
+  const host = requestHost(hostHeader, requestUrl);
+  if (host !== APEX_HOST) return null;
+  let url;
+  try {
+    url = new URL(requestUrl);
+  } catch {
+    return `${CANONICAL_ORIGIN}/`;
+  }
+  url.protocol = 'https:';
+  url.hostname = CANONICAL_HOST;
+  url.port = '';
+  return url.toString();
+}
 
 const INDEXABLE_SPECIAL_PATHS = [
   { path: '/', title: 'WikiBiome — The Microbiome Metallomics Encyclopedia', changefreq: 'daily', priority: '1.0' },
@@ -148,6 +180,10 @@ function defaultImageSitemapEntries() {
 
 module.exports = {
   CANONICAL_ORIGIN,
+  CANONICAL_HOST,
+  APEX_HOST,
+  requestHost,
+  canonicalRedirectUrl,
   INDEXABLE_SPECIAL_PATHS,
   NOINDEX_SPECIAL_PATHS,
   ROBOTS_DISALLOW,

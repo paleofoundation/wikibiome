@@ -24,10 +24,18 @@
   ],
   "redirects": [
     {
+      "source": "/",
+      "has": [{ "type": "host", "value": "wikibiome.com" }],
+      "destination": "https://www.wikibiome.com/",
+      "permanent": true,
+      "statusCode": 301
+    },
+    {
       "source": "/:path*",
       "has": [{ "type": "host", "value": "wikibiome.com" }],
       "destination": "https://www.wikibiome.com/:path*",
-      "permanent": true
+      "permanent": true,
+      "statusCode": 301
     }
   ],
   "rewrites": [

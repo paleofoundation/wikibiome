@@ -11,6 +11,9 @@ const {
   INDEXABLE_SPECIAL_PATHS,
   NOINDEX_SPECIAL_PATHS,
   ROBOTS_DISALLOW,
+  CANONICAL_HOST,
+  APEX_HOST,
+  canonicalRedirectUrl,
   canonicalUrl,
   normalizePath,
   isIndexableContentPage,
@@ -32,6 +35,8 @@ function assert(cond, message) {
 }
 
 assert(CANONICAL_ORIGIN === 'https://www.wikibiome.com', 'canonical origin is www');
+assert(CANONICAL_HOST === 'www.wikibiome.com', 'canonical host is www');
+assert(APEX_HOST === 'wikibiome.com', 'apex host is bare wikibiome.com');
 assert(canonicalUrl('/') === 'https://www.wikibiome.com/', 'homepage canonical has trailing slash');
 assert(canonicalUrl('/article/nickel') === 'https://www.wikibiome.com/article/nickel', 'article canonical has no trailing slash');
 assert(canonicalUrl('/article/nickel/') === 'https://www.wikibiome.com/article/nickel', 'trailing slash is stripped off article paths');
@@ -61,14 +66,30 @@ const imageXml = generateImageSitemapXml(defaultImageSitemapEntries());
 assert(imageXml.includes('https://www.wikibiome.com/'), 'image sitemap uses www');
 assert(imageXml.includes('xmlns:image='), 'image sitemap declares the image namespace');
 
+assert(canonicalRedirectUrl('https://wikibiome.com/', 'wikibiome.com') === 'https://www.wikibiome.com/', 'apex homepage 301s to www /');
+assert(canonicalRedirectUrl('https://wikibiome.com/article/nickel', 'wikibiome.com') === 'https://www.wikibiome.com/article/nickel', 'apex article 301s to www article');
+assert(canonicalRedirectUrl('https://wikibiome.com/about?ref=gsc', 'wikibiome.com') === 'https://www.wikibiome.com/about?ref=gsc', 'apex redirect preserves query string');
+assert(canonicalRedirectUrl('http://wikibiome.com/about', 'wikibiome.com') === 'https://www.wikibiome.com/about', 'http apex upgrades to https www in one hop');
+assert(canonicalRedirectUrl('https://www.wikibiome.com/', 'www.wikibiome.com') === null, 'www homepage is not redirected');
+assert(canonicalRedirectUrl('https://www.wikibiome.com/article/nickel', 'www.wikibiome.com') === null, 'www articles are not redirected');
+assert(canonicalRedirectUrl('https://project-qzasd.vercel.app/', 'project-qzasd.vercel.app') === null, 'preview hosts are not redirected to www');
+
 const vercel = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'vercel.json'), 'utf8'));
 assert(vercel.trailingSlash === false, 'vercel.json forces no trailing slash');
 const catchAll = (vercel.rewrites || []).filter((r) => /index\.html/.test(r.destination) && r.source.includes('(?!'));
 assert(catchAll.length === 0, 'vercel.json has no catch-all rewrite to index.html');
-const apex = (vercel.redirects || []).find((r) => r.has && r.has.some((h) => h.value === 'wikibiome.com'));
-assert(!!apex, 'apex host redirects to www');
-assert(apex && apex.destination.startsWith('https://www.wikibiome.com/'), 'apex redirect target is www');
+const apexRedirects = (vercel.redirects || []).filter((r) => r.has && r.has.some((h) => h.value === 'wikibiome.com'));
+assert(apexRedirects.some((r) => r.source === '/'), 'vercel.json has an explicit / apex→www 301 (/:path* misses root)');
+assert(apexRedirects.some((r) => r.source === '/:path*'), 'vercel.json has /:path* apex→www 301');
+assert(apexRedirects.every((r) => r.destination.startsWith('https://www.wikibiome.com/')), 'apex redirect targets are www');
+assert(apexRedirects.every((r) => r.statusCode === 301 || r.permanent === true), 'apex redirects are permanent');
+assert(apexRedirects.every((r) => r.statusCode === 301), 'apex redirects advertise HTTP 301');
 assert((vercel.rewrites || []).some((r) => r.source === '/article/:id'), 'article rewrite remains for static HTML');
+
+const middleware = fs.readFileSync(path.join(__dirname, '..', 'middleware.js'), 'utf8');
+assert(middleware.includes('canonicalRedirectUrl'), 'middleware uses shared host helper');
+assert(middleware.includes('status: 301'), 'middleware returns HTTP 301');
+assert(middleware.includes("runtime: 'nodejs'"), 'middleware uses Node.js / Fluid Compute');
 
 const spa = fs.readFileSync(path.join(__dirname, '..', 'wikibiome-v8.jsx'), 'utf8');
 assert(spa.includes('path="*" element={<NotFoundView'), 'SPA unknown routes render NotFoundView');
