@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "e9c0df3ec07ca9fa8eecaed5ef3308b53d27897721d4007a051176a51d3f3fc2",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "e9cb560f7a3fbdd908d5a07ca14f72e66e4b26488acba9d86fa1ca38c17334b1",
+    "reviewLogSha256": "089e680e26614b6209c081791a6e6a85831a22ff1189ac78e4b04df9129422d6",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -209,6 +209,12 @@
         "batchId": "microorganisms-033",
         "status": "reviewed",
         "sha256": "c4d991b64a7902ba0a95121d36410d301c10c7c209f56af9f08940a2d9fe2499"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-034.json",
+        "batchId": "microorganisms-034",
+        "status": "awaiting-control-review",
+        "sha256": "6d368f903334a346f6e44ea29419e9dd52e8ea43df65374e1f53294b0933cf2d"
       }
     ]
   },
@@ -232,10 +238,10 @@
     "total": 710,
     "completed": 181,
     "remaining": 529,
-    "rejected": 26,
+    "rejected": 27,
     "revised": 11,
-    "scientificHolds": 10,
-    "inReview": 0
+    "scientificHolds": 11,
+    "inReview": 5
   },
   "categories": [
     {
@@ -914,6 +920,28 @@
       ],
       "requiredResolution": "Create or reconcile canonical mediterraneibacter-gnavus with current title Mediterraneibacter gnavus and NCBITaxon:33038, preserve ruminococcus-gnavus only as an audited permanent asset-free alias, reconcile source-era text and provenance, and return the current entity to its deterministic uncovered media position.",
       "routingImpact": "The obsolete route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, endpoints, and image-sitemap entries. Batch 033 makes no queue substitution."
+    },
+    {
+      "pageId": "saccharomyces-boulardii",
+      "sourceEraIdentifier": "NCBITaxon:252598",
+      "batchId": "microorganisms-034",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Saccharomyces cerevisiae",
+      "canonicalIdentifier": "NCBITaxon:4932",
+      "proposedCanonicalPageId": "saccharomyces-cerevisiae",
+      "reason": "NCBI treats Saccharomyces boulardii as an invalid name and synonym within Saccharomyces cerevisiae. Primary product-isolate typing places probiotic boulardii strains within that species, so the route cannot own a second species-level morphology asset.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932&mode=Info",
+        "https://pubmed.ncbi.nlm.nih.gov/12234334/",
+        "https://doi.org/10.1046/j.1365-2672.2002.01710.x",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC105172/",
+        "local:data/content.generated.json#/pages/saccharomyces-boulardii",
+        "local:lib/article-media-registry.mjs#/saccharomyces-cerevisiae"
+      ],
+      "requiredResolution": "Reconcile saccharomyces-boulardii as an explicit probiotic strain/product concept or audited alias under Saccharomyces cerevisiae, preserving intervention-specific content while maintaining one canonical morphology owner.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, endpoints, and image-sitemap entries. Batch 034 makes no queue substitution and does not copy or alias the Saccharomyces cerevisiae image."
     }
   ],
   "revisedAssets": [
@@ -1065,46 +1093,46 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 190,
-      "id": "saccharomyces",
-      "title": "Saccharomyces",
-      "route": "/article/saccharomyces",
+      "queuePosition": 196,
+      "id": "senegalimassilia",
+      "title": "Senegalimassilia",
+      "route": "/article/senegalimassilia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 191,
-      "id": "saccharomyces-boulardii",
-      "title": "Saccharomyces boulardii",
-      "route": "/article/saccharomyces-boulardii",
+      "queuePosition": 197,
+      "id": "serratia",
+      "title": "Serratia",
+      "route": "/article/serratia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 192,
-      "id": "saccharomyces-cerevisiae",
-      "title": "Saccharomyces cerevisiae",
-      "route": "/article/saccharomyces-cerevisiae",
+      "queuePosition": 198,
+      "id": "serratia-marcescens",
+      "title": "Serratia marcescens",
+      "route": "/article/serratia-marcescens",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 193,
-      "id": "salmonella",
-      "title": "Salmonella",
-      "route": "/article/salmonella",
+      "queuePosition": 199,
+      "id": "shigella",
+      "title": "Shigella",
+      "route": "/article/shigella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 194,
-      "id": "salmonella-typhimurium",
-      "title": "Salmonella enterica serovar Typhimurium",
-      "route": "/article/salmonella-typhimurium",
+      "queuePosition": 200,
+      "id": "shigella-flexneri",
+      "title": "Shigella flexneri",
+      "route": "/article/shigella-flexneri",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -5072,7 +5100,13 @@
       "route": "/article/saccharomyces",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-034",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-034/saccharomyces-draft.png",
+        "sha256": "00d22676c8cc49be8478547aece169f55b6e967def982de05b194f16335641a8"
+      }
     },
     {
       "queuePosition": 191,
@@ -5086,7 +5120,13 @@
       "route": "/article/saccharomyces-boulardii",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-05",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI treats Saccharomyces boulardii as an invalid name and synonym within Saccharomyces cerevisiae. Primary product-isolate typing places probiotic boulardii strains within that species, so the route cannot own a second species-level morphology asset.",
+        "requiredResolution": "Reconcile saccharomyces-boulardii as an explicit probiotic strain/product concept or audited alias under Saccharomyces cerevisiae, preserving intervention-specific content while maintaining one canonical morphology owner."
+      }
     },
     {
       "queuePosition": 192,
@@ -5099,7 +5139,13 @@
       "route": "/article/saccharomyces-cerevisiae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-034",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-034/saccharomyces-cerevisiae-draft.png",
+        "sha256": "4f1199e465c5880cd5a5fa051cf13a503ea0c026f386403e3949daabd4653030"
+      }
     },
     {
       "queuePosition": 193,
@@ -5112,7 +5158,13 @@
       "route": "/article/salmonella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-034",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-034/salmonella-draft.png",
+        "sha256": "c2c3e98c96e1f7b8ddeda5d2474c955df2f16ca14c27f163dcb003ef9d3d973a"
+      }
     },
     {
       "queuePosition": 194,
@@ -5125,7 +5177,13 @@
       "route": "/article/salmonella-typhimurium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-034",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-034/salmonella-typhimurium-draft.png",
+        "sha256": "cb52fe38bd2b5bdb10e2bdf78faa60883560a87e3bbc36be2325f9e37b53d51f"
+      }
     },
     {
       "queuePosition": 195,
@@ -5138,7 +5196,13 @@
       "route": "/article/selenomonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-034",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-034/selenomonas-draft.png",
+        "sha256": "c9f0d228cce8006438527b4e3ac6960883e97eef09d03d196debda927778676b"
+      }
     },
     {
       "queuePosition": 196,
