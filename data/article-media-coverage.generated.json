@@ -185,6 +185,12 @@
         "batchId": "microorganisms-029",
         "status": "reviewed",
         "sha256": "8993fd5ba3f9b999766a40033841d72b67097c3db8e2b3457cd7792d54e4be0d"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-030.json",
+        "batchId": "microorganisms-030",
+        "status": "awaiting-control-review",
+        "sha256": "7be34e193c6b8bdfcc194c2ffa5c205efa476c8b50f025c00707622a12a925e8"
       }
     ]
   },
@@ -211,7 +217,7 @@
     "rejected": 23,
     "revised": 11,
     "scientificHolds": 7,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -977,46 +983,46 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 166,
-      "id": "porphyromonas",
-      "title": "Porphyromonas",
-      "route": "/article/porphyromonas",
+      "queuePosition": 172,
+      "id": "prevotellaceae",
+      "title": "Prevotellaceae",
+      "route": "/article/prevotellaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 167,
-      "id": "porphyromonas-bennonis",
-      "title": "Porphyromonas bennonis",
-      "route": "/article/porphyromonas-bennonis",
+      "queuePosition": 173,
+      "id": "propionibacterium",
+      "title": "Propionibacterium",
+      "route": "/article/propionibacterium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 168,
-      "id": "porphyromonas-gingivalis",
-      "title": "Porphyromonas gingivalis",
-      "route": "/article/porphyromonas-gingivalis",
+      "queuePosition": 174,
+      "id": "proteobacteria",
+      "title": "Proteobacteria (Pseudomonadota)",
+      "route": "/article/proteobacteria",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 169,
-      "id": "prevotella",
-      "title": "Prevotella",
-      "route": "/article/prevotella",
+      "queuePosition": 175,
+      "id": "proteus",
+      "title": "Proteus",
+      "route": "/article/proteus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 170,
-      "id": "prevotella-copri",
-      "title": "Prevotella copri",
-      "route": "/article/prevotella-copri",
+      "queuePosition": 176,
+      "id": "proteus-mirabilis",
+      "title": "Proteus mirabilis",
+      "route": "/article/proteus-mirabilis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -4485,7 +4491,13 @@
       "route": "/article/porphyromonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-030",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-030/porphyromonas-draft.png",
+        "sha256": "6c7ca8444c87b4b3ec9978230f837368af3678eb745eadd3347b8a7a20b4d384"
+      }
     },
     {
       "queuePosition": 167,
@@ -4498,7 +4510,13 @@
       "route": "/article/porphyromonas-bennonis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-030",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-030/porphyromonas-bennonis-draft.png",
+        "sha256": "8b8758da33cad783d2ca7077225fa19143e9e7e28866c7793e204ceee38fab42"
+      }
     },
     {
       "queuePosition": 168,
@@ -4511,7 +4529,13 @@
       "route": "/article/porphyromonas-gingivalis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-030",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-030/porphyromonas-gingivalis-draft.png",
+        "sha256": "8bff14de1a510b071e6819a6d812925a37ae7e983c6f0a8c9e539b8de55d6b38"
+      }
     },
     {
       "queuePosition": 169,
@@ -4524,7 +4548,13 @@
       "route": "/article/prevotella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-030",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-030/prevotella-draft.png",
+        "sha256": "61f08154223d4620a5e85bcbaf19d03555f8e80fde1d72e607a398a24d87e16e"
+      }
     },
     {
       "queuePosition": 170,
@@ -4537,7 +4567,13 @@
       "route": "/article/prevotella-copri",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-030",
+        "decision": "generated-awaiting-control-review-authority-display-discrepancy",
+        "draft": "work/media-drafts/microorganisms-batch-030/prevotella-copri-draft.png",
+        "sha256": "44d4e85c2b68d1b08a11b925872cc36dbf24345c3d6c4605fa3e7d5652d03181"
+      }
     },
     {
       "queuePosition": 171,
@@ -4550,7 +4586,13 @@
       "route": "/article/prevotella-intermedia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-030",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-030/prevotella-intermedia-draft.png",
+        "sha256": "d388aa48e029941b8466269da2dc4a0fd8c0a0e10812c9caf3970f9fb223bbb2"
+      }
     },
     {
       "queuePosition": 172,
