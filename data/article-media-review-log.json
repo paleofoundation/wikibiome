@@ -3965,6 +3965,158 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome Control Tower native-resolution review in microorganisms batch 027 as a selected-descendant family-level diversity reconstruction.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "oscillospiraceae-draft.png", "sourceSha256": "91447adfb1668b6438014a22e21f79fcfbc2305487d6a49c950c1a1907248aad", "generationRecord": "exec-99689a79-e150-4cee-834e-9e6f380dfe85.png" }
+    },
+    "parabacteroides|parabacteroides-morphology-v1.webp": {
+      "pageId": "parabacteroides",
+      "publishedFile": "parabacteroides-morphology-v1.webp",
+      "masterSource": "parabacteroides-morphology-v1-master.png",
+      "socialFile": "parabacteroides-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=375288&mode=Info",
+          "https://lpsn.dsmz.de/genus/parabacteroides",
+          "https://pubmed.ncbi.nlm.nih.gov/16825636/",
+          "https://bacdive.dsmz.de/strain/12497"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Parabacteroides as current genus NCBITaxon:375288 with P. distasonis as nomenclatural type. The exact primary reclassification authority and type-species rod evidence support a representative, non-universal, non-diagnostic genus treatment."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: eleven short-to-medium rounded-pole rods in eight groups, five singles and three touching pairs. This is one body and one group above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal eleven-body/eight-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-separable, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 028 as a type-species-anchored representative genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "parabacteroides-draft.png", "sourceSha256": "1cc4b3d5f99b4f9fde9be00da8ad50e6135c113fdc6b6e13501edf9ff55c6cd5", "generationRecord": "exec-f868aca7-fb61-4804-bc10-5cb14f501604.png" }
+    },
+    "parabacteroides-distasonis|parabacteroides-distasonis-morphology-v1.webp": {
+      "pageId": "parabacteroides-distasonis",
+      "publishedFile": "parabacteroides-distasonis-morphology-v1.webp",
+      "masterSource": "parabacteroides-distasonis-morphology-v1-master.png",
+      "socialFile": "parabacteroides-distasonis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=823&mode=Info",
+          "https://lpsn.dsmz.de/species/parabacteroides-distasonis",
+          "https://pubmed.ncbi.nlm.nih.gov/16825636/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC533498/",
+          "https://bacdive.dsmz.de/strain/12497"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Parabacteroides distasonis as current species NCBITaxon:823. Exact original-description and current-combination authorities plus type-strain evidence support ordinary non-sporing rods without an invented visually diagnostic species distinction."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: eight rods in six groups, four singles, one touching end-to-end pair, and one close parallel two-rod arrangement. The observed arrangement, rather than the prompt wording, governs public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text distinguishes the touching and close-parallel arrangements. Caption states type-strain-anchored, representative, non-diagnostic, non-separable, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and both two-rod arrangements."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 028 as a type-strain-anchored representative species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "parabacteroides-distasonis-draft.png", "sourceSha256": "da5445fe14f58726c3de0cd571f0dda9753674a93efee6ba71ee095759e656a4", "generationRecord": "exec-f0e27204-7c71-4ba1-a0f0-24f95753c16f.png" }
+    },
+    "paraprevotella|paraprevotella-morphology-v1.webp": {
+      "pageId": "paraprevotella",
+      "publishedFile": "paraprevotella-morphology-v1.webp",
+      "masterSource": "paraprevotella-morphology-v1-master.png",
+      "socialFile": "paraprevotella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=577309&mode=Info",
+          "https://lpsn.dsmz.de/genus/paraprevotella",
+          "https://pubmed.ncbi.nlm.nih.gov/19567577/",
+          "https://bacdive.dsmz.de/strain/12569"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Paraprevotella as current genus NCBITaxon:577309 with P. clara as nomenclatural type. The cross-checked primary description supports representative pleomorphic non-sporing, nonmotile rods without a universal or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: eleven pleomorphic rounded-pole rods in nine groups, seven singles and two touching pairs. This is one body and two groups above the prompt, with one fewer pair; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal eleven-body/nine-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 028 as a type-species-anchored representative genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "paraprevotella-draft.png", "sourceSha256": "13cfc54663766b41db4855abfe7fc10a23b04babb427d854347c1a1d3b95b641", "generationRecord": "exec-344b6a51-4dcb-43e1-b634-07eefee0c20a.png" }
+    },
+    "parasutterella|parasutterella-morphology-v1.webp": {
+      "pageId": "parasutterella",
+      "publishedFile": "parasutterella-morphology-v1.webp",
+      "masterSource": "parasutterella-morphology-v1-master.png",
+      "socialFile": "parasutterella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=577310&mode=Info",
+          "https://lpsn.dsmz.de/genus/parasutterella",
+          "https://pubmed.ncbi.nlm.nih.gov/19542131/",
+          "https://bacdive.dsmz.de/strain/17830"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Parasutterella as current genus NCBITaxon:577310 with P. excrementihominis as nomenclatural type. The cross-checked primary description supports a representative non-spore-forming coccobacillary treatment without a universal or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: ten compact ovoid-to-very-short-rod coccobacillary bodies in eight groups, six singles and two touching pairs. Counts match the prompt and remain literal in public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal ten-body/eight-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 028 as a type-species-anchored representative genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "parasutterella-draft.png", "sourceSha256": "677a02452875c7133066b9426ce285a9dc4da3e2ebc84e5a5c05dee9969778cc", "generationRecord": "exec-c7abea01-8183-4357-9728-b5e9e3cdd296.png" }
+    },
+    "parvimonas-micra|parvimonas-micra-morphology-v1.webp": {
+      "pageId": "parvimonas-micra",
+      "publishedFile": "parvimonas-micra-morphology-v1.webp",
+      "masterSource": "parvimonas-micra-morphology-v1-master.png",
+      "socialFile": "parvimonas-micra-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33033&mode=Info",
+          "https://lpsn.dsmz.de/species/parvimonas-micra",
+          "https://pubmed.ncbi.nlm.nih.gov/17082417/",
+          "https://pubmed.ncbi.nlm.nih.gov/8240959/",
+          "https://bacdive.dsmz.de/strain/18066"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Parvimonas micra as current species NCBITaxon:33033. Exact replacement-name and primary morphotype authorities support the selected type-strain smooth coccal treatment while requiring that it not be generalized across all morphotypes."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: twelve smooth spherical-to-slightly-ovoid bodies in eight groups, five singles, two touching pairs, and one touching three-cell short chain. This is one body and one group above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal twelve-body/eight-group output and the three-cell chain. Caption states type-strain-anchored smooth-morphotype, representative, non-diagnostic, non-generalized, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 028 as a type-strain-anchored representative smooth-morphotype species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "parvimonas-micra-draft.png", "sourceSha256": "4abe92aded0e1827946887b9b20485f6ff59a3a284991761246a758213d0df46", "generationRecord": "exec-f0cf1238-97c4-4af8-806c-1a951f2f4ae1.png" }
     }
   },
   "rejectedAssets": [

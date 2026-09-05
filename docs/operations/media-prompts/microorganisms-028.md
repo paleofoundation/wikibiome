@@ -2,7 +2,8 @@
 
 Review packet date: 2026-09-05
 Authorized parent: `2c1af1ab56ff55c522000b6b2ce5640eeaf0bd4b`
-Scope: review-only scientific reconstructions; no public registry, master, derivative, endpoint, structured-data, or image-sitemap promotion.
+Promotion parent: `54fa40561da12722447c7f87b06102d5b953830d`
+Scope: reviewed scientific reconstructions promoted only after independent Control Tower acceptance of the exact immutable hashes; Oscillospirales remains held and asset-free.
 
 ## Queue and identity decisions
 
@@ -129,32 +130,34 @@ Prompt hashes were frozen before generation. The five cleared routes then receiv
 
 Connected pairs and chains are counted as multiple bodies only where ordinary individual boundaries remain legible. Prompt counts never override rendered bodies or arrangements. All five source files are lossless 1536 by 1024 PNGs. Their outer 32-pixel canvas bands contain zero pixels below luminance 128; minimum outer-band RGB values are, in queue order, `[239,245,250]`, `[239,245,251]`, `[240,246,251]`, `[234,243,251]`, and `[237,244,250]`. Foreground bounds at luminance below 220 are respectively x=208–1365/y=225–780, x=154–1421/y=273–709, x=200–1360/y=247–777, x=136–1387/y=236–748, and x=121–1413/y=288–718. Every accepted body and grouping therefore remains inside the standard 1200 by 630 cover crop's source-space y=109–914 band; `cover` is the proposed social transform for all five if later approved.
 
-Original-resolution inspection found no dark margin, vignette, text, label, scale bar, host tissue, scene, decorative particle, clipping, signature, or watermark. No visible appendage, spore, capsule, sheath, shared envelope, or biofilm treatment is present. The Parvimonas plate shows the smooth selected type-strain morphotype without visible external fibrils; this does not assert that every P. micra morphotype lacks them. These are review-only scientific algorithmic reconstructions, not micrographs or photographs, and none supports visual diagnosis.
+Original-resolution inspection found no dark margin, vignette, text, label, scale bar, host tissue, scene, decorative particle, clipping, signature, or watermark. No visible appendage, spore, capsule, sheath, shared envelope, or biofilm treatment is present. The Parvimonas plate shows the smooth selected type-strain morphotype without visible external fibrils; this does not assert that every P. micra morphotype lacks them. These are scientific algorithmic reconstructions, not micrographs or photographs, and none supports visual diagnosis.
 
-WikiBiome Control Tower independently screened all five originals at native resolution and preliminarily confirmed the established cool, isolated, restrained scientific register and internally consistent cleared morphology. That screen is recorded only as preliminary visual evidence: every asset remains `pending`, exact immutable-hash acceptance has not occurred, and promotion is not authorized.
+WikiBiome Control Tower independently accepted review commit `a86b5a17255afdd3fc2fa57516c2dff2d72fffd4`, its manifest and evidence hashes, and all five exact originals after native-resolution review. The reconciled review packet is integrated at `54fa40561da12722447c7f87b06102d5b953830d`. Control Tower authorized only these five immutable hashes for promotion; no generation, revision, or source-pixel alteration occurred in the promotion turn.
+
+Native 1200 by 630 derivative inspection uses a centered cover transform for all five assets. The accepted source-space foreground bounds remain inside the centered cover window, preserving every body and grouping—including both Parabacteroides distasonis two-rod arrangements and the Parvimonas three-cell chain—without changing the accepted originals.
 
 ## Proposed accessibility and provenance language
 
 - `parabacteroides`
   - Alt: Eleven selected Parabacteroides rods appear in eight groupings: five singles and three touching pairs.
-  - Caption: Type-species-anchored Parabacteroides reconstruction showing eleven short-to-medium rods in five single and three paired groupings. This review-only genus plate is representative, non-universal, non-diagnostic, not visually separable from a species plate, and not a micrograph.
+  - Caption: Type-species-anchored Parabacteroides reconstruction showing eleven short-to-medium rods in five single and three paired groupings. This genus plate is representative, non-universal, non-diagnostic, not visually separable from a species plate, and not a micrograph.
 - `parabacteroides-distasonis`
   - Alt: Eight Parabacteroides distasonis rods appear in six groupings: four singles, one end-to-end pair, and one close parallel two-rod arrangement.
-  - Caption: Type-strain-anchored Parabacteroides distasonis reconstruction showing eight rounded-pole rods in four single and two paired arrangements. This review-only species plate is representative, non-diagnostic, does not imply visual separability from genus-level forms, and is not a micrograph.
+  - Caption: Type-strain-anchored Parabacteroides distasonis reconstruction showing eight rounded-pole rods in four single and two paired arrangements. This species plate is representative, non-diagnostic, does not imply visual separability from genus-level forms, and is not a micrograph.
 - `paraprevotella`
   - Alt: Eleven selected Paraprevotella pleomorphic rods appear in nine groupings: seven singles and two touching pairs.
-  - Caption: Type-species-anchored Paraprevotella reconstruction showing eleven pleomorphic rounded-pole rods in seven single and two paired groupings. This review-only genus plate is representative, non-universal, non-diagnostic, and not a micrograph.
+  - Caption: Type-species-anchored Paraprevotella reconstruction showing eleven pleomorphic rounded-pole rods in seven single and two paired groupings. This genus plate is representative, non-universal, non-diagnostic, and not a micrograph.
 - `parasutterella`
   - Alt: Ten selected Parasutterella coccobacillary bodies appear in eight groupings: six singles and two touching pairs.
-  - Caption: Type-species-anchored Parasutterella reconstruction showing ten compact coccobacillary bodies in six single and two paired groupings. This review-only genus plate is representative, non-universal, non-diagnostic, and not a micrograph.
+  - Caption: Type-species-anchored Parasutterella reconstruction showing ten compact coccobacillary bodies in six single and two paired groupings. This genus plate is representative, non-universal, non-diagnostic, and not a micrograph.
 - `parvimonas-micra`
   - Alt: Twelve smooth Parvimonas micra coccoid bodies appear in eight groupings: five singles, two pairs, and one three-cell short chain.
-  - Caption: Type-strain-anchored Parvimonas micra smooth-morphotype reconstruction showing twelve coccoid bodies in five single, two paired, and one short-chain grouping. This review-only species plate is representative, non-diagnostic, does not generalize surface structure to other morphotypes, and is not a micrograph.
+  - Caption: Type-strain-anchored Parvimonas micra smooth-morphotype reconstruction showing twelve coccoid bodies in five single, two paired, and one short-chain grouping. This species plate is representative, non-diagnostic, does not generalize surface structure to other morphotypes, and is not a micrograph.
 
-Proposed provenance for every generated route: generated once with the OpenAI built-in image generator from the route's immutable batch-028 prompt after current-identity, exact DOI/title/PMID, and conservative-morphology audit; human-audited at original 1536 by 1024 resolution. Review-only scientific algorithmic reconstruction, not a micrograph or photograph. Output-specific deviations remain disclosed in the manifest and this ledger.
+Publication provenance for every generated route: generated once with the OpenAI built-in image generator from the route's immutable batch-028 prompt after current-identity, exact DOI/title/PMID, and conservative-morphology audit; human-audited at original 1536 by 1024 resolution and accepted for publication by WikiBiome Control Tower. Scientific algorithmic reconstruction, not a micrograph or photograph. Output-specific deviations remain disclosed in the manifest and this ledger.
 
 The new `oscillospirales` hold joins the six pre-existing active scientific holds without a generation call or queue substitution. It owns no prompt, raster, review candidate, public registry key, master, derivative, structured media record, endpoint, image-sitemap entry, copied image, or coverage completion.
 
 ## Publication boundary
 
-This packet creates review evidence only. Draft paths are non-public. No batch-028 asset may enter `media/masters/`, `public/media-files/`, the public registry, Schema.org media, Open Graph/X media, a canonical media endpoint, the image sitemap, or completed coverage until WikiBiome Control Tower separately accepts an exact immutable PNG hash after original-resolution review.
+Control Tower acceptance permits canonical publication of only the five accepted hashes under their current media-owner routes. Draft paths remain non-public and never become endpoints. Oscillospirales remains an active identity hold and owns no prompt, raster, registry key, master, derivative, Schema.org or Open Graph/X media record, endpoint, image-sitemap entry, copied image, or coverage completion.

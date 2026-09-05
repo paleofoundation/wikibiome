@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "9c7075e8ed36d128af46c019be1ae718dece5f4e9a598773f6e8af5103a35bd5",
+    "registrySha256": "c5f0ce89f0207d9c55521410f82a82f51de9481700c72691498f32d8ecba15f0",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "74a7ef52d2a0392e414e696747688a4414137e970ed06b0a6975f2263834bb89",
+    "reviewLogSha256": "0cb5f8899455868f1f46ed1888989d4d5ad5279b472e035182b85dfe4391459c",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -177,8 +177,8 @@
       {
         "file": "data/article-media-batches/microorganisms-028.json",
         "batchId": "microorganisms-028",
-        "status": "awaiting-control-review",
-        "sha256": "a2a77d58754b64fa94f578850d6a0966b0744d2e4a595de1616e79d58e2866ce"
+        "status": "reviewed",
+        "sha256": "96148a26c488db30dd61f794363b7cbd2812727b734651c0fa4b61def714d361"
       }
     ]
   },
@@ -200,20 +200,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 150,
-    "remaining": 560,
+    "completed": 155,
+    "remaining": 555,
     "rejected": 22,
     "revised": 11,
     "scientificHolds": 7,
-    "inReview": 5
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 147,
-      "remaining": 82
+      "completed": 152,
+      "remaining": 77
     },
     {
       "id": "metals",
@@ -4219,12 +4219,14 @@
       "route": "/article/parabacteroides",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-028",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-028/parabacteroides-draft.png",
-        "sha256": "1cc4b3d5f99b4f9fde9be00da8ad50e6135c113fdc6b6e13501edf9ff55c6cd5"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "parabacteroides-morphology-v1-master.png",
+        "publishedFile": "parabacteroides-morphology-v1.webp",
+        "socialFile": "parabacteroides-morphology-v1-social.webp"
       }
     },
     {
@@ -4238,12 +4240,14 @@
       "route": "/article/parabacteroides-distasonis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-028",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-028/parabacteroides-distasonis-draft.png",
-        "sha256": "da5445fe14f58726c3de0cd571f0dda9753674a93efee6ba71ee095759e656a4"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "parabacteroides-distasonis-morphology-v1-master.png",
+        "publishedFile": "parabacteroides-distasonis-morphology-v1.webp",
+        "socialFile": "parabacteroides-distasonis-morphology-v1-social.webp"
       }
     },
     {
@@ -4257,12 +4261,14 @@
       "route": "/article/paraprevotella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-028",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-028/paraprevotella-draft.png",
-        "sha256": "13cfc54663766b41db4855abfe7fc10a23b04babb427d854347c1a1d3b95b641"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "paraprevotella-morphology-v1-master.png",
+        "publishedFile": "paraprevotella-morphology-v1.webp",
+        "socialFile": "paraprevotella-morphology-v1-social.webp"
       }
     },
     {
@@ -4276,12 +4282,14 @@
       "route": "/article/parasutterella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-028",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-028/parasutterella-draft.png",
-        "sha256": "677a02452875c7133066b9426ce285a9dc4da3e2ebc84e5a5c05dee9969778cc"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "parasutterella-morphology-v1-master.png",
+        "publishedFile": "parasutterella-morphology-v1.webp",
+        "socialFile": "parasutterella-morphology-v1-social.webp"
       }
     },
     {
@@ -4295,12 +4303,14 @@
       "route": "/article/parvimonas-micra",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-028",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-028/parvimonas-micra-draft.png",
-        "sha256": "4abe92aded0e1827946887b9b20485f6ff59a3a284991761246a758213d0df46"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "parvimonas-micra-morphology-v1-master.png",
+        "publishedFile": "parvimonas-micra-morphology-v1.webp",
+        "socialFile": "parvimonas-micra-morphology-v1-social.webp"
       }
     },
     {
