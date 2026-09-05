@@ -53,6 +53,7 @@ export const researcherProfiles = sqliteTable("researcher_profiles", {
   affiliationsJson: text("affiliations_json").notNull().default("[]"),
   expertiseSelfJson: text("expertise_self_json").notNull().default("[]"),
   expertiseInferredJson: text("expertise_inferred_json").notNull().default("[]"),
+  messagingEnabled: integer("messaging_enabled", { mode: "boolean" }).notNull().default(true),
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
   updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
 }, (table) => [uniqueIndex("idx_researcher_profiles_orcid").on(table.orcid)]);
@@ -340,3 +341,201 @@ export const rateLimitEvents = sqliteTable("rate_limit_events", {
   action: text("action").notNull(),
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
 }, (table) => [index("idx_rate_limit_account_action").on(table.accountId, table.action, table.createdAt)]);
+
+export const orcidSyncState = sqliteTable("orcid_sync_state", {
+  accountId: text("account_id").primaryKey(),
+  status: text("status").notNull().default("idle"),
+  publicWorkCount: integer("public_work_count").notNull().default(0),
+  lastAttemptAt: text("last_attempt_at"),
+  lastSuccessAt: text("last_success_at"),
+  nextAllowedAt: text("next_allowed_at"),
+  errorCode: text("error_code"),
+  updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+});
+
+export const researcherWorks = sqliteTable("researcher_works", {
+  id: text("id").primaryKey(),
+  accountId: text("account_id").notNull(),
+  workKey: text("work_key").notNull(),
+  putCode: text("put_code"),
+  doi: text("doi"),
+  title: text("title").notNull(),
+  authorsJson: text("authors_json").notNull().default("[]"),
+  year: integer("year"),
+  journal: text("journal"),
+  sourceUpdatedAt: text("source_updated_at"),
+  syncedAt: text("synced_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  uniqueIndex("idx_researcher_works_account_key").on(table.accountId, table.workKey),
+  index("idx_researcher_works_account_doi").on(table.accountId, table.doi),
+]);
+
+export const workMatchSuggestions = sqliteTable("work_match_suggestions", {
+  id: text("id").primaryKey(),
+  accountId: text("account_id").notNull(),
+  researcherWorkId: text("researcher_work_id").notNull(),
+  sourceId: text("source_id").notNull(),
+  matchType: text("match_type").notNull(),
+  confidence: integer("confidence").notNull().default(0),
+  status: text("status").notNull().default("suggested"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+  updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  uniqueIndex("idx_work_matches_account_source").on(table.accountId, table.sourceId),
+  index("idx_work_matches_account_status").on(table.accountId, table.status, table.updatedAt),
+]);
+
+export const researcherFollows = sqliteTable("researcher_follows", {
+  id: text("id").primaryKey(),
+  accountId: text("account_id").notNull(),
+  targetType: text("target_type").notNull(),
+  targetId: text("target_id").notNull(),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  uniqueIndex("idx_researcher_follows_account_target").on(table.accountId, table.targetType, table.targetId),
+  index("idx_researcher_follows_target").on(table.targetType, table.targetId, table.createdAt),
+]);
+
+export const researcherNotifications = sqliteTable("researcher_notifications", {
+  id: text("id").primaryKey(),
+  accountId: text("account_id").notNull(),
+  kind: text("kind").notNull(),
+  actorAccountId: text("actor_account_id"),
+  targetType: text("target_type").notNull(),
+  targetId: text("target_id").notNull(),
+  title: text("title").notNull(),
+  body: text("body").notNull().default(""),
+  href: text("href").notNull(),
+  dedupeKey: text("dedupe_key").notNull(),
+  readAt: text("read_at"),
+  emailedAt: text("emailed_at"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  uniqueIndex("idx_researcher_notifications_dedupe").on(table.accountId, table.dedupeKey),
+  index("idx_researcher_notifications_account_read").on(table.accountId, table.readAt, table.createdAt),
+]);
+
+export const contentProposals = sqliteTable("content_proposals", {
+  id: text("id").primaryKey(),
+  accountId: text("account_id").notNull(),
+  proposalType: text("proposal_type").notNull(),
+  targetId: text("target_id"),
+  title: text("title").notNull(),
+  primaryAnchor: text("primary_anchor").notNull(),
+  secondaryDomainsJson: text("secondary_domains_json").notNull().default("[]"),
+  rationale: text("rationale").notNull(),
+  proposedContent: text("proposed_content").notNull(),
+  mechanismConnection: text("mechanism_connection").notNull(),
+  causalLimitations: text("causal_limitations").notNull(),
+  conflictDisclosure: text("conflict_disclosure").notNull().default(""),
+  status: text("status").notNull().default("pending"),
+  moderatorNote: text("moderator_note"),
+  publicAt: text("public_at"),
+  publishedCommit: text("published_commit"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+  updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  index("idx_content_proposals_account_status").on(table.accountId, table.status, table.createdAt),
+  index("idx_content_proposals_target_status").on(table.targetId, table.status, table.updatedAt),
+]);
+
+export const proposalSources = sqliteTable("proposal_sources", {
+  id: text("id").primaryKey(),
+  proposalId: text("proposal_id").notNull(),
+  identifierType: text("identifier_type").notNull(),
+  identifierValue: text("identifier_value").notNull(),
+  position: integer("position").notNull().default(0),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  uniqueIndex("idx_proposal_sources_identifier").on(table.proposalId, table.identifierType, table.identifierValue),
+  index("idx_proposal_sources_proposal").on(table.proposalId, table.position),
+]);
+
+export const proposalEvents = sqliteTable("proposal_events", {
+  id: text("id").primaryKey(),
+  proposalId: text("proposal_id").notNull(),
+  actorAccountId: text("actor_account_id"),
+  kind: text("kind").notNull(),
+  visibility: text("visibility").notNull().default("private"),
+  metadataJson: text("metadata_json").notNull().default("{}"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [index("idx_proposal_events_proposal").on(table.proposalId, table.visibility, table.createdAt)]);
+
+export const messageThreads = sqliteTable("message_threads", {
+  id: text("id").primaryKey(),
+  participantKey: text("participant_key").notNull(),
+  initiatorAccountId: text("initiator_account_id").notNull(),
+  recipientAccountId: text("recipient_account_id").notNull(),
+  subject: text("subject").notNull(),
+  status: text("status").notNull().default("pending"),
+  acceptedAt: text("accepted_at"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+  updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  uniqueIndex("idx_message_threads_participant_key").on(table.participantKey),
+  index("idx_message_threads_initiator").on(table.initiatorAccountId, table.status, table.updatedAt),
+  index("idx_message_threads_recipient").on(table.recipientAccountId, table.status, table.updatedAt),
+]);
+
+export const researcherMessages = sqliteTable("researcher_messages", {
+  id: text("id").primaryKey(),
+  threadId: text("thread_id").notNull(),
+  senderAccountId: text("sender_account_id").notNull(),
+  body: text("body").notNull(),
+  status: text("status").notNull().default("visible"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  index("idx_researcher_messages_thread").on(table.threadId, table.createdAt),
+  index("idx_researcher_messages_sender").on(table.senderAccountId, table.createdAt),
+]);
+
+export const messageReports = sqliteTable("message_reports", {
+  id: text("id").primaryKey(),
+  messageId: text("message_id").notNull(),
+  accountId: text("account_id").notNull(),
+  reason: text("reason").notNull(),
+  status: text("status").notNull().default("open"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  uniqueIndex("idx_message_reports_message_account").on(table.messageId, table.accountId),
+  index("idx_message_reports_status").on(table.status, table.createdAt),
+]);
+
+export const roundtableInterests = sqliteTable("roundtable_interests", {
+  accountId: text("account_id").primaryKey(),
+  rolesJson: text("roles_json").notNull().default("[]"),
+  tracksJson: text("tracks_json").notNull().default("[]"),
+  formatPreference: text("format_preference").notNull().default("either"),
+  location: text("location").notNull().default(""),
+  availability: text("availability").notNull().default(""),
+  proposedQuestion: text("proposed_question").notNull().default(""),
+  updatesConsent: integer("updates_consent", { mode: "boolean" }).notNull().default(false),
+  consentedAt: text("consented_at"),
+  withdrawnAt: text("withdrawn_at"),
+  status: text("status").notNull().default("interested"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+  updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [index("idx_roundtable_interests_status").on(table.status, table.updatedAt)]);
+
+export const recognitionEvents = sqliteTable("recognition_events", {
+  id: text("id").primaryKey(),
+  accountId: text("account_id").notNull(),
+  level: integer("level").notNull(),
+  kind: text("kind").notNull(),
+  sourceType: text("source_type").notNull(),
+  sourceId: text("source_id").notNull(),
+  reason: text("reason").notNull(),
+  awardedByAccountId: text("awarded_by_account_id"),
+  status: text("status").notNull().default("active"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [
+  uniqueIndex("idx_recognition_events_account_level").on(table.accountId, table.level),
+  index("idx_recognition_events_account_status").on(table.accountId, table.status, table.level),
+]);
+
+export const emailWebhookEvents = sqliteTable("email_webhook_events", {
+  id: text("id").primaryKey(),
+  providerId: text("provider_id"),
+  eventType: text("event_type").notNull(),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, (table) => [index("idx_email_webhook_events_provider").on(table.providerId, table.eventType)]);
