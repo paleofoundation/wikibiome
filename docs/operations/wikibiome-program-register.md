@@ -7,25 +7,27 @@ commit, integrate it into one release candidate, and verify the combined
 result. Only the control task may publish, change DNS, or retire rollback
 resources.
 
-Last reconciled: **2026-09-02** (Asia/Nicosia)
+Last reconciled: **2026-09-05** (Asia/Nicosia)
 
 ## Release authority
 
 - Production release controller: WikiBiome program control tower.
 - Current integration branch: `main`.
-- Current production release: public Sites version 43 at outer commit
-  `65b3fc33348354af3539b8ce73e66f682d366b90`.
+- Current evidenced production release: public Sites version 44 at outer commit
+  `b353882397f86318376982419ec0d3400c9a478d`.
 - Current production Sites environment revision: 3, activated by redeploying
   saved version 43 on 2026-09-02 without DNS changes.
-- Current production scientific-media payload commit: `3eb7810`.
-- Current accepted local scientific-media integration commit:
-  `cbaac31c7e9977f5901207547c763f00ded50e43`.
+- Current production scientific-media coverage: 129 reviewed assets.
+- Current accepted local control candidate:
+  `1560eb024325e198df3c0c9023fb8884995dea4f`.
+- Current accepted local scientific-media promotion commit:
+  `1560eb024325e198df3c0c9023fb8884995dea4f` (batch 025).
 - Current local upstream content commit: `c6481eaf721d80b46d6f192b19d4c0b351e670d8`.
-- Upstream check: the paired *Lachnospira eligens*/*Agathobacter rectalis*
-  identity commit is applied directly after synchronized source commit
-  `66a773667b1f6c06592eca878d5023138c602b39`. That parent is the verified
-  `paleofoundation/wikibiome` `origin/main`; the corrective commit remains local
-  and has not been pushed.
+- Upstream check: local generated content remains deliberately pinned to
+  `c6481eaf721d80b46d6f192b19d4c0b351e670d8`. The fetched
+  `paleofoundation/wikibiome` `origin/main` is one commit ahead at
+  `449e8005c3156d1b7943d2cdedd5b4386b9f5703`; that newer technical-SEO delta
+  has not yet been synchronized into the control candidate.
 - Production dependency audit: 0 known vulnerabilities after updating
   `js-yaml` to `4.3.2`; parser/content/build/type/test gates remain green.
 - No program task may make a further push, deployment, DNS change, payment, or
@@ -34,10 +36,11 @@ Last reconciled: **2026-09-02** (Asia/Nicosia)
 
 ## Current production evidence
 
-- Sites version 43 is saved and public from exact source commit `65b3fc3`.
-- The live image sitemap exposes exactly 93 reviewed records.
-- All six batch-016 article routes return `200`; all six registry-defined
-  article-image endpoints return `200 image/webp`.
+- Sites version 44 is the last evidenced public artifact, from exact source
+  commit `b353882`.
+- The live scientific-media payload contains 129 reviewed records. The accepted
+  local candidate contains 140; the eleven-asset batch-024/025 delta is not yet
+  released.
 - The Sites production error log returned no events for the three-hour release
   verification window.
 - The retained Vercel deployment remains the rollback target; version 41 is a
@@ -59,12 +62,12 @@ Last reconciled: **2026-09-02** (Asia/Nicosia)
 
 | Program | State | Accepted evidence | Remaining definition of done |
 | --- | --- | --- | --- |
-| Researcher collaboration | Code accepted; activation gated | Final accepted network commit `582c6dc` is integrated. Local hardening commit `82e92db` now surfaces ORCID start/callback failures accessibly instead of failing opaquely. The program adds 9 routes, 24 added/hardened API route files, 5 additive migrations and 25 researcher-network tables; combined production build and 43/43 control tests pass, fresh migrations 0000-0005 apply cleanly, and mutation, discussion-trust, authoritative-ROR, privacy, structured-data, fail-closed, and ORCID-feedback contracts pass. | Apply production D1 migrations, then provision/configure ORCID, Resend, private `MANUSCRIPTS` storage/scanner, moderator IDs, and counsel-approved outreach policy. Keep manuscript uploads and outreach disabled until those gates are evidenced. Saved Sites version 41 contains only `2b6444c` and is superseded; do not deploy it. |
-| Editorial completion | Complete in control main; production through version 43 | Integrated editorial commits `1112917` and `dc9a8a9`, Wikipedia-style inline treatment `0213f60`, the prior identity series through source packet `66a77366`, and local source packet `c6481eaf`, plus the outer alias/reconciliation series; 817 records / 710 canonical routes; 696 ready, 121 explicitly documented, 0 review, 0 blocked; 0 invalid years or malformed DOI output. The current-name records *Lachnospira eligens* (NCBITaxon:39485) and *Agathobacter rectalis* (NCBITaxon:39491) preserve source-era labels, controlled-name evidence, revision provenance, and the published objection to the latter transfer without retaining unsupported mechanisms. | Future expansion of evidence-insufficient and source-structure-deferred records must originate from new upstream evidence or source-authored leads. Thirteen retired taxon/source-label URLs remain permanent aliases only; current limitations are explicit and release-safe. The two newest aliases are local until a later authorized release. |
-| Search visibility | Production code live through version 43; local identity/media delta accepted; external verification gated | Integrated commits `cacc08a`, `26cf417`, `7b57fa8`, and `c9166a3`; version 43 serves 2,685 ordinary sitemap URLs and 93/93 reviewed image records. The accepted local candidate passes 5,368 rendered routes, 3,415/3,415 indexable self-canonicals, 2,692 ordinary sitemap URLs, 129/129 image registry/sitemap/endpoints, and all internal-link checks. | Collect authenticated Search Console/Bing sitemap, coverage, URL Inspection, CWV, and image-discovery evidence. Public Google TXT evidence exists; current dashboard access is unproven and Bing evidence is absent. The local identity/media delta remains unreleased. |
-| Scientific media | Batches 001-016 live; batches 017-023 integrated locally | Production media commit `3eb7810` provides 93 reviewed assets. Accepted batch-017 commit `6906bc3` and promotions through root integration `cbaac31` add thirty-six exact current-identity reconstructions with immutable draft/master/derivative hashes, literal output counts, canonical filenames, lossless masters, page/social WebPs, embedded XMP/IPTC including creation dates, controlled identifiers, CC BY-SA, trained-algorithmic-media disclosure, visible attribution, review keys, and Schema image linkage. The pipeline now supports validated per-record social `contain`, social-safe prompt composition with native crop verification, measured edge-band rejection, immutable v1-rejection→v2-acceptance provenance, and asset-free identity/duplicate-route holds. The deterministic register covers 710 canonical routes with 129 reviewed assets and 581 queued routes; microorganisms are 126/229 reviewed with 103 remaining. Rejected-or-held/revised totals are 17/10. Lachnoclostridium remains held because the genus lacks validly published standing; `lachnospiraceae-family` is held as a semantic duplicate; `lactobacillus-plantarum` and `lactobacillus-reuteri` are held until current-name canonicalization to *Lactiplantibacillus plantarum* (NCBITaxon:1590) and *Limosilactobacillus reuteri* (NCBITaxon:1598). Held and obsolete aliases own no prompt or media. | Reconcile the two current-name canonical records and their permanent 308 legacy aliases; resolve the Lachnoclostridium identity and duplicate Lachnospiraceae route before those holds can re-enter the queue. Continue the deterministic queue with *Lactobacillus rhamnosus*, Lactococcus, *Lancefieldella parvula*, Leptotrichia, Listeria, and *Lodderomyces elongisporus*. Complete all 710 canonical routes; drafts remain excluded until every release gate passes. Batches 017-023 remain local until a later authorized release. |
+| Researcher collaboration | Code accepted; external services partly activated | The accepted Researcher Network v2 implementation is integrated through `d0c1254`, with responsive navigation hardening at `8516ab9`. ORCID production activation was smoke-tested successfully. The combined candidate build and 54/54 tests pass, fresh migrations 0000-0005 apply cleanly, and mutation, trust, authoritative-ROR, privacy, structured-data, discovery, messaging, notification, fail-closed, and ORCID-feedback contracts pass. | Apply production D1 migrations; provision Resend, private `MANUSCRIPTS` storage/scanner, moderator IDs, and counsel-approved outreach policy. Keep manuscript uploads and outreach disabled until those gates are evidenced. |
+| Editorial completion | Complete in control main; local routing delta unreleased | The candidate contains 817 records / 710 canonical routes, 1,939 sources, 6,447 article-reference placements, 349 recovered inline citations, 696 ready records, 121 explicit dispositions, 0 review, 0 blocked, 0 missing source metadata, and 0 malformed DOI output. All 13 retired identities export permanent article/history/suggest aliases, and worker routing parity is integrated through `730615c`. | Future expansion of evidence-insufficient and source-structure-deferred records must originate from new upstream evidence or source-authored leads. Retired labels remain aliases only. Publish only as part of a provenance-matched, control-approved release. |
+| Search visibility | Local candidate complete; external verification gated | The accepted candidate passes 5,368 rendered routes, 3,415/3,415 indexable self-canonicals, 2,692 ordinary sitemap URLs, 140/140 image registry/sitemap/endpoints, four representative metadata/structured-data routes, and all internal article/source-link checks. Worker redirects, 410 exclusions, sitemap compatibility, and parameterized-search noindex behavior are contract-tested. | After the next authorized release, collect authenticated Search Console/Bing sitemap, coverage, URL Inspection, CWV, and image-discovery evidence against the `www` canonical host. Bing access remains account-gated. |
+| Scientific media | 129 live; 140 accepted locally; continuous queue active | Batch 025 is integrated at `1560eb0`. The deterministic register covers all 710 canonical routes with 140 reviewed assets and 570 remaining; microorganisms are 137/229 reviewed with 92 remaining. Registry, approval log, image sitemap, canonical delivery endpoints, lossless masters, page/social derivatives, embedded metadata, controlled identifiers, licensing, review state, trained-algorithmic-media disclosure, and Schema linkage pass as a matched 140/140 set. Rejected/revised totals are 18/10. Five identity holds remain asset-free: `lachnoclostridium`, `lachnospiraceae-family`, `lactobacillus-plantarum`, `lactobacillus-reuteri`, and `lactobacillus-rhamnosus`. | Continue batch 026 from exact control parent `1560eb024325e198df3c0c9023fb8884995dea4f` with `mollicutes`, `morganella-morganii`, `mortierella`, `mycobacterium-tuberculosis`, `mycoplasma`, and `mycoplasma-hominis`. Complete all 710 canonical routes; drafts and held identities remain excluded until every scientific and release gate passes. |
 | Cutover closeout | Pre-gate tooling integrated; final audit date-gated | Baseline commits `343fbdc` and `5106b7b`; audit runner/template commits `384259d` and `16b51a9`; 9/9 evaluator tests pass; default execution refuses network access before the gate; Vercel rollback deployment `dpl_5ShUos99yjK3vWMbarbfmxkDQWEH` remains Ready | Run the public plus authenticated evidence audit no earlier than 2026-09-07 00:00 Asia/Nicosia. Retirement still requires separate explicit approval. |
-| Upstream content operations | Active; paired corrective packet accepted locally | 817 pages, 1,939 sources, 6,447 article-reference placements, 349 recovered inline citations, 0 missing source metadata, 0 malformed DOI values; local source commit `c6481eaf` is one commit ahead of verified `origin/main` `66a77366`; weekly refresh gate is configured. | Preserve local source commit `c6481eaf` until an authorized upstream push. Continue release-driven review of every upstream diff. Automation may regenerate and test but may not commit or deploy. |
+| Upstream content operations | Active; one fetched upstream delta awaits reconciliation | Generated content remains pinned to `c6481eaf`: 817 pages, 1,939 sources, 6,447 article-reference placements, 349 recovered inline citations, 0 missing source metadata, and 0 malformed DOI values. Fetched `origin/main` is `449e8005`; its technical-SEO delta has not been silently merged into the generated corpus. | Review and synchronize `449e8005` in a separate tested content-refresh packet. Continue release-driven review of every upstream diff. Automation may regenerate and test but may not commit or deploy. |
 
 ## Account- and authority-gated actions
 
