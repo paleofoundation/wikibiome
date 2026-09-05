@@ -2,6 +2,7 @@
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
 import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
+import { handleEarlyRoutingPolicy, maybeReplaceNotFoundResponse } from "../lib/routing-policy.mjs";
 
 interface Env {
   ASSETS: Fetcher;
@@ -36,6 +37,11 @@ const registeredMedia = new Map<string, "image" | "social">(
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+    const routingPolicyResponse = await handleEarlyRoutingPolicy(
+      request,
+      (canonicalSitemapRequest: Request) => handler.fetch(canonicalSitemapRequest, env, ctx),
+    );
+    if (routingPolicyResponse) return routingPolicyResponse;
 
     if (url.pathname.startsWith("/media/") && url.pathname.endsWith(".webp")) {
       const canonicalMatch = url.pathname.match(/^\/media\/(image|social)\/([^/]+\.webp)$/);
@@ -77,7 +83,8 @@ const worker = {
       }, allowedWidths);
     }
 
-    return handler.fetch(request, env, ctx);
+    const response = await handler.fetch(request, env, ctx);
+    return maybeReplaceNotFoundResponse(request, response);
   },
 };
 

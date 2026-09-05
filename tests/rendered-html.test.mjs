@@ -5,6 +5,12 @@ import test from "node:test";
 import sharp from "sharp";
 import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { ARTICLE_ALIAS_SUFFIXES, articleAliasRedirects } from "../lib/article-alias-redirects.mjs";
+import {
+  AUDITED_GONE_ARTICLE_PATHS,
+  NEVER_PUBLIC_ARTICLE_PATHS,
+  PUBLIC_ORIGIN,
+  ROUTING_ROBOTS_DISALLOWS,
+} from "../lib/routing-policy.mjs";
 import { classifySearchReferrer } from "../lib/search-observability.mjs";
 import { getArticleAliases, getArticleIdentityRegistry, validateArticleIdentityPolicy } from "../scripts/article-identity-policy.mjs";
 import { applyPublicContentPolicy, publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
@@ -37,6 +43,30 @@ function structuredData(html, marker) {
     .find((match) => `${match[1]} ${match[2]}`.includes(marker));
   assert.ok(block, `expected structured-data block marked ${marker}`);
   return JSON.parse(block[3].replaceAll("&quot;", '"').replaceAll("&amp;", "&"));
+}
+
+function htmlTitle(html) {
+  return html.match(/<title>(.*?)<\/title>/i)?.[1];
+}
+
+function htmlCanonical(html) {
+  return html.match(/<link rel="canonical" href="([^"]+)"/i)?.[1];
+}
+
+function htmlRobotsMeta(html) {
+  return [...html.matchAll(/<meta name="robots" content="([^"]+)"/gi)].map((match) => match[1]);
+}
+
+function assertBoundaryMetadata(html, { title }) {
+  assert.equal(htmlTitle(html), title);
+  assert.equal(htmlCanonical(html), `${PUBLIC_ORIGIN}/404`);
+  assert.deepEqual(htmlRobotsMeta(html), ["noindex, follow"]);
+  assert.doesNotMatch(html, /<link rel="canonical" href="https:\/\/www\.wikibiome\.com"\/?>/);
+  assert.doesNotMatch(html, /<meta name="robots" content="index, follow"/);
+}
+
+function escapeRegExp(value) {
+  return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
 function sourceFiles(directory) {
@@ -2284,6 +2314,65 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(stylesheet.slice(mobileReadingMode), /\.citation-preview \{ display:none!important/);
 });
 
+test("enforces worker-level routing parity for legacy redirects", async () => {
+  const cases = [
+    ["/signature-explorer", 308, "/signatures"],
+    ["/signature-explorer.html?disease=autism-spectrum-disorder", 308, "/signatures?disease=autism-spectrum-disorder"],
+    ["/article/DNA-damage?utm_source=console&checked=1", 301, "/article/dna-damage?utm_source=console&checked=1"],
+    ["/article/autism-spectrum-disorder-signature", 308, "/article/autism-spectrum-disorder#signature"],
+    ["/article/autism-spectrum-disorder-signature?from=bing", 308, "/article/autism-spectrum-disorder?from=bing#signature"],
+  ];
+
+  for (const [path, status, location] of cases) {
+    const response = await render(path);
+    assert.equal(response.status, status, `${path} must use HTTP ${status}`);
+    assert.equal(response.headers.get("location"), location);
+  }
+});
+
+test("publishes route-appropriate noindex boundaries for missing and gone records", async () => {
+  assert.ok(NEVER_PUBLIC_ARTICLE_PATHS.length >= AUDITED_GONE_ARTICLE_PATHS.length);
+  for (const path of AUDITED_GONE_ARTICLE_PATHS) {
+    assert.ok(NEVER_PUBLIC_ARTICLE_PATHS.includes(path), `${path} must be backed by the generated public-exclusion manifest`);
+    const response = await render(`${path}?from=search-console`);
+    assert.equal(response.status, 410, `${path} must be explicitly Gone`);
+    assertBoundaryMetadata(await response.text(), { title: "Article gone — WikiBiome" });
+  }
+
+  const article404 = await render("/article/not-a-real-record?from=search-console");
+  assert.equal(article404.status, 404);
+  assertBoundaryMetadata(await article404.text(), { title: "Article not found — WikiBiome" });
+
+  const category404 = await render("/category/not-a-public-domain");
+  assert.equal(category404.status, 404);
+  assertBoundaryMetadata(await category404.text(), { title: "Category not found — WikiBiome" });
+
+  const generic404 = await render("/not-real-route");
+  assert.equal(generic404.status, 404);
+  assertBoundaryMetadata(await generic404.text(), { title: "Page not found — WikiBiome" });
+});
+
+test("serves sitemap compatibility and merged robots exclusions at the worker boundary", async () => {
+  const [canonicalSitemapResponse, compatibilitySitemapResponse, robotsResponse] = await Promise.all([
+    render("/sitemap.xml"),
+    render("/sitemap-full.xml"),
+    render("/robots.txt"),
+  ]);
+  assert.equal(canonicalSitemapResponse.status, 200);
+  assert.equal(compatibilitySitemapResponse.status, 200);
+  assert.match(compatibilitySitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
+  assert.equal(await compatibilitySitemapResponse.text(), await canonicalSitemapResponse.text());
+
+  assert.equal(robotsResponse.status, 200);
+  const robots = await robotsResponse.text();
+  for (const path of ROUTING_ROBOTS_DISALLOWS) {
+    assert.match(robots, new RegExp(`^Disallow: ${escapeRegExp(path)}$`, "m"));
+  }
+  assert.equal((robots.match(/^Disallow: /gm) ?? []).length, new Set(ROUTING_ROBOTS_DISALLOWS).size);
+  assert.match(robots, new RegExp(`^Sitemap: ${escapeRegExp(PUBLIC_ORIGIN)}/sitemap\\.xml$`, "m"));
+  assert.match(robots, new RegExp(`^Sitemap: ${escapeRegExp(PUBLIC_ORIGIN)}/image-sitemap\\.xml$`, "m"));
+});
+
 test("publishes self-canonical metadata, social previews, and representative Schema.org graphs", async () => {
   const routes = [
     ["/article/akkermansia-muciniphila", "data-article-media-schema", ["WebPage", "Article", "ImageObject"]],
@@ -2398,8 +2487,8 @@ test("keeps internal operational records out of the public encyclopedia", async 
   assert.equal(directoryResponse.status, 200);
   assert.equal(searchResponse.status, 200);
   assert.equal(sitemapResponse.status, 200);
-  assert.equal(hiddenResponse.status, 404);
-  assert.equal(hiddenOutreachResponse.status, 404);
+  assert.equal(hiddenResponse.status, 410);
+  assert.equal(hiddenOutreachResponse.status, 410);
 
   const [directory, search, sitemap] = await Promise.all([
     directoryResponse.text(), searchResponse.text(), sitemapResponse.text(),

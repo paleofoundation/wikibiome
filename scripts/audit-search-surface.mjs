@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 
 import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
+import {
+  AUDITED_GONE_ARTICLE_PATHS,
+  PUBLIC_ORIGIN,
+  ROUTING_ROBOTS_DISALLOWS,
+} from "../lib/routing-policy.mjs";
 
-const PUBLIC_ORIGIN = "https://www.wikibiome.com";
 const baseUrlArg = process.argv.find((argument) => argument.startsWith("--base-url="));
 const externalBaseUrl = baseUrlArg?.slice("--base-url=".length).replace(/\/+$/, "");
 const mode = externalBaseUrl ? "external" : "rendered-local";
@@ -123,7 +127,9 @@ if (sitemapResponse.status !== 200) failures.push(`/sitemap.xml: HTTP ${sitemapR
 if (imageSitemapResponse.status !== 200) failures.push(`/image-sitemap.xml: HTTP ${imageSitemapResponse.status}`);
 if (!robots.includes(`Sitemap: ${PUBLIC_ORIGIN}/sitemap.xml`)) failures.push("robots.txt does not advertise the ordinary sitemap");
 if (!robots.includes(`Sitemap: ${PUBLIC_ORIGIN}/image-sitemap.xml`)) failures.push("robots.txt does not advertise the image sitemap");
-if (!robots.includes("Disallow: /media-files/")) failures.push("robots.txt does not exclude duplicate raw media storage URLs");
+for (const path of ROUTING_ROBOTS_DISALLOWS) {
+  if (!robots.includes(`Disallow: ${path}`)) failures.push(`robots.txt does not include required exclusion ${path}`);
+}
 
 const ordinaryUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 if (ordinaryUrls.length !== new Set(ordinaryUrls).size) failures.push("ordinary sitemap contains duplicate URLs");
@@ -158,6 +164,41 @@ const searchCanonical = searchHtml.match(/<link\s+rel="canonical"\s+href="([^"]+
 if (canonicalKey(searchCanonical) !== `${PUBLIC_ORIGIN}/search`) failures.push("parameterized search does not canonicalize to /search");
 if (!/<meta\s+name="robots"\s+content="[^"]*noindex/i.test(searchHtml)) failures.push("parameterized search is not noindex");
 
+const sitemapFullResponse = await fetchPath("/sitemap-full.xml");
+const sitemapFull = await sitemapFullResponse.text();
+if (sitemapFullResponse.status !== 200) failures.push(`/sitemap-full.xml: HTTP ${sitemapFullResponse.status}`);
+if (sitemapFull !== sitemap) failures.push("/sitemap-full.xml does not delegate to canonical sitemap.xml");
+
+const redirectChecks = [
+  { path: "/signature-explorer", status: 308, location: "/signatures" },
+  { path: "/signature-explorer.html?disease=autism-spectrum-disorder", status: 308, location: "/signatures?disease=autism-spectrum-disorder" },
+  { path: "/article/DNA-damage?utm_source=console", status: 301, location: "/article/dna-damage?utm_source=console" },
+  { path: "/article/autism-spectrum-disorder-signature", status: 308, location: "/article/autism-spectrum-disorder#signature" },
+];
+for (const check of redirectChecks) {
+  const response = await fetchPath(check.path, { headers: { accept: "text/html" } });
+  if (response.status !== check.status) failures.push(`${check.path}: HTTP ${response.status}, expected ${check.status}`);
+  const location = response.headers.get("location");
+  if (location !== check.location) failures.push(`${check.path}: location ${location ?? "missing"}, expected ${check.location}`);
+}
+
+const htmlRobots = (html) => [...html.matchAll(/<meta name="robots" content="([^"]+)"/gi)].map((match) => match[1]);
+const htmlCanonical = (html) => html.match(/<link rel="canonical" href="([^"]+)"/i)?.[1];
+const htmlTitle = (html) => html.match(/<title>(.*?)<\/title>/i)?.[1];
+const boundaryChecks = [
+  { path: "/article/not-a-real-record", status: 404, title: "Article not found — WikiBiome" },
+  ...AUDITED_GONE_ARTICLE_PATHS.map((path) => ({ path, status: 410, title: "Article gone — WikiBiome" })),
+];
+for (const check of boundaryChecks) {
+  const response = await fetchPath(check.path, { headers: { accept: "text/html" } });
+  const html = await response.text();
+  if (response.status !== check.status) failures.push(`${check.path}: HTTP ${response.status}, expected ${check.status}`);
+  if (htmlTitle(html) !== check.title) failures.push(`${check.path}: title ${htmlTitle(html) ?? "missing"}, expected ${check.title}`);
+  if (htmlCanonical(html) !== `${PUBLIC_ORIGIN}/404`) failures.push(`${check.path}: canonical ${htmlCanonical(html) ?? "missing"}, expected ${PUBLIC_ORIGIN}/404`);
+  const robotsMeta = htmlRobots(html);
+  if (JSON.stringify(robotsMeta) !== JSON.stringify(["noindex, follow"])) failures.push(`${check.path}: robots metadata ${JSON.stringify(robotsMeta)}, expected one noindex, follow`);
+}
+
 const report = {
   mode,
   baseUrl: externalBaseUrl ?? "built worker",
@@ -168,6 +209,7 @@ const report = {
   canonicalImageEndpointsHealthy: imageChecks.filter((image) => image.status === 200 && image.contentType === "image/webp" && image.cacheControl?.includes("immutable")).length,
   robotsSitemapsAdvertised: ["sitemap.xml", "image-sitemap.xml"].filter((name) => robots.includes(`Sitemap: ${PUBLIC_ORIGIN}/${name}`)).length,
   parameterizedSearchNoindex: /<meta\s+name="robots"\s+content="[^"]*noindex/i.test(searchHtml),
+  auditedGoneArticlePaths: AUDITED_GONE_ARTICLE_PATHS.length,
   failures,
 };
 
