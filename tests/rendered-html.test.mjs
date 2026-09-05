@@ -2937,17 +2937,17 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
     "phocaeicola",
-    "senegalimassilia",
-    "serratia",
-    "serratia-marcescens",
-    "shigella",
-    "shigella-flexneri",
+    "sphingobium",
+    "sphingomonas",
+    "staphylococcus",
+    "staphylococcus-aureus",
+    "staphylococcus-epidermidis",
   ]);
   assert.equal(program.current.completed, 186);
   assert.equal(program.current.remaining, 524);
   assert.equal(program.current.rejected, 27);
   assert.equal(program.current.revised, 11);
-  assert.equal(program.current.inReview, 0);
+  assert.equal(program.current.inReview, 6);
   assert.equal(program.current.scientificHolds, 11);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
@@ -3193,6 +3193,60 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(batch034Hold?.decision, "scientific-identity-hold");
   assert.equal(batch034Hold?.generationStatus, "withheld-no-call");
   assert.equal(batch034Hold?.canonicalIdentifier, "NCBITaxon:4932");
+  const batch035 = batches.find((batch) => batch.batchId === "microorganisms-035");
+  assert.equal(batch035?.status, "awaiting-control-review");
+  assert.equal(batch035?.authorizedParent, "a69f0ddc548801bdd9d34e5a321c066165522be3");
+  assert.equal(batch035?.publicationMetadataPlan?.reviewOnly, true);
+  assert.equal(batch035?.routeDecisionCount, 6);
+  assert.equal(batch035?.candidateCount, 6);
+  assert.equal(batch035?.scientificHoldCount, 0);
+  assert.equal(batch035?.generationCallCount, 6);
+  assert.equal(batch035?.reviewableGenerationCount, 6);
+  assert.equal(batch035?.controlReviewRequired, true);
+  const batch035Candidates = batch035?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch035Candidates.map((asset) => asset.pageId), ["senegalimassilia", "serratia", "serratia-marcescens", "shigella", "shigella-flexneri", "sneathia"]);
+  const batch035ExpectedOutputs = new Map([
+    ["senegalimassilia", ["NCBITaxon:1473205", "059ef863514b65818e85af17fb8d599bd6447d40ba4434407894e0624cc5fe4b", "047eb81dbd58fc5f647ace765bdf4015735738940f6659f308a4466e63c47d5f", 1224301, 11, 9]],
+    ["serratia", ["NCBITaxon:613", "aea3f6d47a02fc191e110f0e77f33d0bda7e2771313c80704d4876e7a66403a7", "fc5139fe66350f09fc036b401c6bcc341ac2e5058fcd00fa4686424a43d4d640", 1241125, 9, 7]],
+    ["serratia-marcescens", ["NCBITaxon:615", "55749d5ea6f0c40ac5bb6034ad3cd5559686aec3a6887a2fe3a4680d41603ae5", "2161208965352ae763604abc92f09e2afa58c89b3f8f86126ad234c19cd10ec4", 1276803, 9, 7]],
+    ["shigella", ["NCBITaxon:620", "4402a66cee1db032450532849cbd4dd616ae91ad0b2873f97e271c1fa246d298", "b8d142d732b3b2da5d766e85095e521ded80c2b929df87ae84fe55e0a411b275", 1174999, 11, 9]],
+    ["shigella-flexneri", ["NCBITaxon:623", "e19d96f1d1e3191322097bbe1feb07ddadada4cba637844856ec8b30aaed87f5", "1258b982a7db0a3ae7709670696b1c236d19329a0796f1b51968cdc7b2c562b1", 1246817, 9, 7]],
+    ["sneathia", ["NCBITaxon:168808", "70ca7ce3e2ef2187e590a520f61bcec50b82c2d26579db4dee5354167a25afbc", "d2f166c3f287aa792945bc3cc0865cad7d2802449f011d409328bc64cfae0a00", 1203620, 7, 7]],
+  ]);
+  const batch035PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-035.md", import.meta.url), "utf8");
+  const batch035GenerationRecords = new Set();
+  for (const asset of batch035Candidates) {
+    const [identifier, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch035ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.generationStatus, "complete-single-call");
+    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.controlledIdentifier, identifier);
+    assert.equal(asset.promptSha256, promptSha256);
+    assert.equal(asset.sha256, sha256);
+    assert.equal(asset.fileSizeBytes, fileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    assert.equal(asset.outputAudit?.coverSafe, true);
+    assertMediaOutputAudit(asset, "microorganisms-035");
+    assert.ok(!batch035GenerationRecords.has(asset.generationRecord));
+    batch035GenerationRecords.add(asset.generationRecord);
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, fileSize);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), sha256);
+    const metadata = await sharp(draftBytes).metadata();
+    assert.deepEqual([metadata.width, metadata.height], [1536, 1024]);
+    const promptMatch = batch035PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.ok(promptMatch, `${asset.pageId} exact immutable prompt must remain recoverable`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined);
+    assert.ok(!publishedMediaFiles.includes(expectedFiles.publishedFile));
+    assert.ok(!publishedMediaFiles.includes(expectedFiles.socialFile));
+  }
+  assert.equal(batch035GenerationRecords.size, 6);
+  assert.doesNotMatch(batch035PromptRecord, /<!-- PROMPT phocaeicola START -->/);
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [

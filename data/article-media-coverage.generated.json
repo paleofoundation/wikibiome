@@ -215,6 +215,12 @@
         "batchId": "microorganisms-034",
         "status": "reviewed",
         "sha256": "36e558ed58a95b3e733d375ea08233dea29543defd705f5664bc0c9dd0381e3d"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-035.json",
+        "batchId": "microorganisms-035",
+        "status": "awaiting-control-review",
+        "sha256": "ca0f8ddab0b92e38c9d793a136115fe21c7fd1dd2c93ea0212f00694d8328655"
       }
     ]
   },
@@ -241,7 +247,7 @@
     "rejected": 27,
     "revised": 11,
     "scientificHolds": 11,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -1093,46 +1099,46 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 196,
-      "id": "senegalimassilia",
-      "title": "Senegalimassilia",
-      "route": "/article/senegalimassilia",
+      "queuePosition": 202,
+      "id": "sphingobium",
+      "title": "Sphingobium",
+      "route": "/article/sphingobium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 197,
-      "id": "serratia",
-      "title": "Serratia",
-      "route": "/article/serratia",
+      "queuePosition": 203,
+      "id": "sphingomonas",
+      "title": "Sphingomonas",
+      "route": "/article/sphingomonas",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 198,
-      "id": "serratia-marcescens",
-      "title": "Serratia marcescens",
-      "route": "/article/serratia-marcescens",
+      "queuePosition": 204,
+      "id": "staphylococcus",
+      "title": "Staphylococcus",
+      "route": "/article/staphylococcus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 199,
-      "id": "shigella",
-      "title": "Shigella",
-      "route": "/article/shigella",
+      "queuePosition": 205,
+      "id": "staphylococcus-aureus",
+      "title": "Staphylococcus aureus",
+      "route": "/article/staphylococcus-aureus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 200,
-      "id": "shigella-flexneri",
-      "title": "Shigella flexneri",
-      "route": "/article/shigella-flexneri",
+      "queuePosition": 206,
+      "id": "staphylococcus-epidermidis",
+      "title": "Staphylococcus epidermidis",
+      "route": "/article/staphylococcus-epidermidis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -5225,7 +5231,13 @@
       "route": "/article/senegalimassilia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-035",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-035/senegalimassilia-draft.png",
+        "sha256": "047eb81dbd58fc5f647ace765bdf4015735738940f6659f308a4466e63c47d5f"
+      }
     },
     {
       "queuePosition": 197,
@@ -5238,7 +5250,13 @@
       "route": "/article/serratia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-035",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-035/serratia-draft.png",
+        "sha256": "fc5139fe66350f09fc036b401c6bcc341ac2e5058fcd00fa4686424a43d4d640"
+      }
     },
     {
       "queuePosition": 198,
@@ -5251,7 +5269,13 @@
       "route": "/article/serratia-marcescens",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-035",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-035/serratia-marcescens-draft.png",
+        "sha256": "2161208965352ae763604abc92f09e2afa58c89b3f8f86126ad234c19cd10ec4"
+      }
     },
     {
       "queuePosition": 199,
@@ -5264,7 +5288,13 @@
       "route": "/article/shigella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-035",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-035/shigella-draft.png",
+        "sha256": "b8d142d732b3b2da5d766e85095e521ded80c2b929df87ae84fe55e0a411b275"
+      }
     },
     {
       "queuePosition": 200,
@@ -5277,7 +5307,13 @@
       "route": "/article/shigella-flexneri",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-035",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-035/shigella-flexneri-draft.png",
+        "sha256": "1258b982a7db0a3ae7709670696b1c236d19329a0796f1b51968cdc7b2c562b1"
+      }
     },
     {
       "queuePosition": 201,
@@ -5290,7 +5326,13 @@
       "route": "/article/sneathia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-035",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-035/sneathia-draft.png",
+        "sha256": "d2f166c3f287aa792945bc3cc0865cad7d2802449f011d409328bc64cfae0a00"
+      }
     },
     {
       "queuePosition": 202,
