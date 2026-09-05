@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "c5f0ce89f0207d9c55521410f82a82f51de9481700c72691498f32d8ecba15f0",
+    "registrySha256": "5ac5d1bf82ac16da6728f97af3f575e476ae10d84ecc611a1a9f22cd41502c90",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "b392628a17e1df024a0af57d973cde32ccb027bd58f1b45d5516fe5548e074c7",
+    "reviewLogSha256": "81fc1cd097fafac40c33c1b649c1a870d002eb9eab5c24ddf703c14c32d40f20",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -183,8 +183,8 @@
       {
         "file": "data/article-media-batches/microorganisms-029.json",
         "batchId": "microorganisms-029",
-        "status": "awaiting-control-review",
-        "sha256": "90681e2c67faf3e547dfe515a7846234b1c85e5373523588b9de77bf2c0ac6ca"
+        "status": "reviewed",
+        "sha256": "8993fd5ba3f9b999766a40033841d72b67097c3db8e2b3457cd7792d54e4be0d"
       }
     ]
   },
@@ -206,20 +206,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 155,
-    "remaining": 555,
+    "completed": 160,
+    "remaining": 550,
     "rejected": 23,
     "revised": 11,
     "scientificHolds": 7,
-    "inReview": 5
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 152,
-      "remaining": 77
+      "completed": 157,
+      "remaining": 72
     },
     {
       "id": "metals",
@@ -4367,12 +4367,14 @@
       "route": "/article/penicillium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-029",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-029/penicillium-draft.png",
-        "sha256": "a2c5e3804f1850c98480b03e6c5c5cb51fd563de09fdccbc3bdcc7050016c94e"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "penicillium-morphology-v1-master.png",
+        "publishedFile": "penicillium-morphology-v1.webp",
+        "socialFile": "penicillium-morphology-v1-social.webp"
       }
     },
     {
@@ -4386,12 +4388,14 @@
       "route": "/article/peptostreptococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-029",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-029/peptostreptococcus-draft.png",
-        "sha256": "6d6fa887f663937912b1bd217cc721ae41ab84bf2d2b72f3fb28300f40dd2d5e"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "peptostreptococcus-morphology-v1-master.png",
+        "publishedFile": "peptostreptococcus-morphology-v1.webp",
+        "socialFile": "peptostreptococcus-morphology-v1-social.webp"
       }
     },
     {
@@ -4405,12 +4409,14 @@
       "route": "/article/peptostreptococcus-anaerobius",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-029",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-029/peptostreptococcus-anaerobius-draft.png",
-        "sha256": "7bd26a89215321db432120096ce09e42efd79e383203460100935dc30cb60040"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "peptostreptococcus-anaerobius-morphology-v1-master.png",
+        "publishedFile": "peptostreptococcus-anaerobius-morphology-v1.webp",
+        "socialFile": "peptostreptococcus-anaerobius-morphology-v1-social.webp"
       }
     },
     {
@@ -4424,12 +4430,14 @@
       "route": "/article/peptostreptococcus-stomatis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-029",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-029/peptostreptococcus-stomatis-draft.png",
-        "sha256": "1f013139155709ad17cff10d213b7baf732c4f4febb6bad32a7d16ddd74bc741"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "peptostreptococcus-stomatis-morphology-v1-master.png",
+        "publishedFile": "peptostreptococcus-stomatis-morphology-v1.webp",
+        "socialFile": "peptostreptococcus-stomatis-morphology-v1-social.webp"
       }
     },
     {
@@ -4443,12 +4451,14 @@
       "route": "/article/phascolarctobacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-029",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-029/phascolarctobacterium-draft.png",
-        "sha256": "e3f44a0af5eaff6de9da6cc99f1cb298ce259b5ea15e5a341ea4dbcf4216babc"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "phascolarctobacterium-morphology-v1-master.png",
+        "publishedFile": "phascolarctobacterium-morphology-v1.webp",
+        "socialFile": "phascolarctobacterium-morphology-v1-social.webp"
       }
     },
     {

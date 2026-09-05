@@ -2,7 +2,7 @@
 
 Review packet date: 2026-09-05
 Authorized parent: `ef7834a0d438cf9d40753d2934ae80bcf29def2c`
-Scope: review-only scientific reconstructions; no public registry, master, derivative, endpoint, structured-media, image-sitemap, or coverage promotion is authorized.
+Scope: immutable scientific reconstructions reviewed in commit `c125acb114cb7fe13ff8edabc9fd62850110f605`; Control Tower integrated that packet as `573790304b0871814eec760f63015b485d12779a` and authorized promotion of five exact hashes while keeping Phocaeicola quarantined.
 
 ## Queue and identity decisions
 
@@ -145,10 +145,14 @@ Exactly one built-in generation call was made for each of the six scientifically
 
 Every plate has zero dark outer-margin pixels below luma 128 in a 32-pixel edge band. Foreground bounds at luma below 220 remain within the source-space centered-cover band of y=109 through y=915, so all six are technically cover-safe; crop suitability does not override scientific review or make the quarantined Phocaeicola raster eligible. No raster contains text, labels, scale bars, scenery, host material, culture staging, border, vignette, signature, or watermark.
 
+## Control Tower disposition
+
+Control Tower independently reproduced the review packet and its 62-test, media, search, lint, and corpus gates. It accepted the exact Penicillium, Peptostreptococcus, Peptostreptococcus anaerobius, Peptostreptococcus stomatis, and Phascolarctobacterium hashes for promotion without regeneration or source-pixel alteration. All five use a centered `cover` transform for the native 1200 by 630 social derivative; inspection retains every accepted body, grouping, conidiophore, brush head, and conidial chain. The Phocaeicola raster remains rejected and permanently quarantined for this batch, and its route remains queued and uncovered.
+
 ## Publication metadata plan
 
-If and only if Control Tower later accepts an exact draft hash, promotion will create a canonical lossless master plus 1200 by 800 article and 1200 by 630 social WebP derivatives; embed XMP/IPTC title, description, caption, creator, credit, creation and review dates, CC BY-SA 4.0 license and URL, `trainedAlgorithmicMedia`, controlled identifiers, review status, canonical article URL, prompt/draft provenance, and explicit scientific-reconstruction—not micrograph/photograph—language; then connect alt text, Schema.org `ImageObject`/`primaryImageOfPage`, Open Graph/X, accessibility, registry, approval log, and image sitemap. Review drafts remain non-public and must never receive public ownership.
+Promotion creates a canonical lossless master plus 1536 by 1024 article and 1200 by 630 social WebP derivatives for each of the five accepted owners; embeds XMP/IPTC title, description, caption, creator, credit, creation and review dates, CC BY-SA 4.0 license and URL, `trainedAlgorithmicMedia`, controlled identifiers, review status, canonical article URL, prompt/draft provenance, and explicit scientific-reconstruction—not micrograph/photograph—language; and connects alt text, Schema.org `ImageObject`/`primaryImageOfPage`, Open Graph/X, accessibility, registry, approval log, and image sitemap. Review and quarantine paths remain non-public and never receive public ownership.
 
 ## Review boundary
 
-This packet authorizes review-only originals only. Preliminary native-resolution review permits the five non-quarantined candidates to proceed to a committed review packet, but no candidate is approved, publishable, publicly routable, or eligible for coverage credit until WikiBiome Control Tower supplies a separate exact-hash promotion disposition. The Phocaeicola raster is rejected and quarantined under `work/media-quarantine/microorganisms-batch-029/`; it owns no public registry key, master, derivative, endpoint, structured media record, image-sitemap entry, or coverage completion. No retry occurred or is authorized in this batch.
+Only the five exact Control Tower-accepted hashes are approved for public ownership. Their immutable review originals remain internal evidence and are not served directly. The Phocaeicola raster is rejected and quarantined under `work/media-quarantine/microorganisms-batch-029/`; it owns no public registry key, master, derivative, endpoint, structured media record, image-sitemap entry, or coverage completion. No retry occurred or is authorized in this batch.

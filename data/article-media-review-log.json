@@ -4117,6 +4117,153 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 028 as a type-strain-anchored representative smooth-morphotype species reconstruction.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "parvimonas-micra-draft.png", "sourceSha256": "4abe92aded0e1827946887b9b20485f6ff59a3a284991761246a758213d0df46", "generationRecord": "exec-f0cf1238-97c4-4af8-806c-1a951f2f4ae1.png" }
+    },
+    "penicillium|penicillium-morphology-v1.webp": {
+      "pageId": "penicillium",
+      "publishedFile": "penicillium-morphology-v1.webp",
+      "masterSource": "penicillium-morphology-v1-master.png",
+      "socialFile": "penicillium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5073&mode=Info",
+        "https://www.indexfungorum.org/names/NamesRecord.asp?RecordID=9257",
+        "https://pubmed.ncbi.nlm.nih.gov/25505353/"
+        ],
+        "notes": "NCBI Taxonomy and Index Fungorum retain Penicillium as current genus NCBITaxon:5073 and IndexFungorum:9257, with P. expansum as type species. The cross-checked modern genus treatment supports a representative septate-hypha and brush-like conidiophore plate without a universal or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: one connected basal septate hyphal grouping, two upright conidiophores, and two compact brush-like penicilli with multiple attached conidial chains and no free spore cloud."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text identifies the connected specimen, two conidiophores, and attached conidial chains. Caption states type-species-anchored, representative, non-universal, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains the full specimen and both brush heads."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 029 as a type-species-anchored representative fungal-genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "penicillium-draft.png", "sourceSha256": "a2c5e3804f1850c98480b03e6c5c5cb51fd563de09fdccbc3bdcc7050016c94e", "generationRecord": "exec-9b10eded-826e-49b6-8f95-372dea87dd68.png" }
+    },
+    "peptostreptococcus|peptostreptococcus-morphology-v1.webp": {
+      "pageId": "peptostreptococcus",
+      "publishedFile": "peptostreptococcus-morphology-v1.webp",
+      "masterSource": "peptostreptococcus-morphology-v1-master.png",
+      "socialFile": "peptostreptococcus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1257&mode=Info",
+          "https://lpsn.dsmz.de/genus/peptostreptococcus",
+          "https://doi.org/10.1006/anae.2000.0344"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Peptostreptococcus as current genus NCBITaxon:1257 with P. anaerobius as nomenclatural type. The genus-restriction and morphology authorities support representative coccoid-to-coccobacillary pair and short-chain forms without a universal, diagnostic, or visually separable claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: twelve bodies in eight groups, five singles, two touching pairs, and one touching three-body chain. This is one body and one group above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal twelve-body/eight-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 029 as a type-species-anchored representative genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "peptostreptococcus-draft.png", "sourceSha256": "6d6fa887f663937912b1bd217cc721ae41ab84bf2d2b72f3fb28300f40dd2d5e", "generationRecord": "exec-28091d0a-177c-4520-aad0-8af4e8be5630.png" }
+    },
+    "peptostreptococcus-anaerobius|peptostreptococcus-anaerobius-morphology-v1.webp": {
+      "pageId": "peptostreptococcus-anaerobius",
+      "publishedFile": "peptostreptococcus-anaerobius-morphology-v1.webp",
+      "masterSource": "peptostreptococcus-anaerobius-morphology-v1-master.png",
+      "socialFile": "peptostreptococcus-anaerobius-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1261&mode=Info",
+          "https://lpsn.dsmz.de/species/peptostreptococcus-anaerobius",
+          "https://pubmed.ncbi.nlm.nih.gov/9457430/",
+          "https://bacdive.dsmz.de/strain/11843"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Peptostreptococcus anaerobius as current species NCBITaxon:1261. Type-strain and morphology evidence supports small pleomorphic coccobacillary bodies in short chains without an invented diagnostic species distinction."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: ten pleomorphic coccobacillary bodies in six groups, three singles, two touching pairs, and one touching three-body chain. Counts match the prompt."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal ten-body/six-group output. Caption states type-strain-anchored, representative, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 029 as a type-strain-anchored representative species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "peptostreptococcus-anaerobius-draft.png", "sourceSha256": "7bd26a89215321db432120096ce09e42efd79e383203460100935dc30cb60040", "generationRecord": "exec-a57f435a-b25c-4014-bf09-27ac8c43557a.png" }
+    },
+    "peptostreptococcus-stomatis|peptostreptococcus-stomatis-morphology-v1.webp": {
+      "pageId": "peptostreptococcus-stomatis",
+      "publishedFile": "peptostreptococcus-stomatis-morphology-v1.webp",
+      "masterSource": "peptostreptococcus-stomatis-morphology-v1-master.png",
+      "socialFile": "peptostreptococcus-stomatis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=341694&mode=Info",
+          "https://lpsn.dsmz.de/species/peptostreptococcus-stomatis",
+          "https://pubmed.ncbi.nlm.nih.gov/16585688/",
+          "https://bacdive.dsmz.de/strain/11847"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Peptostreptococcus stomatis as current species NCBITaxon:341694. The cross-checked primary description and type-strain evidence support coccoid cells in pairs and short chains without a diagnostic or visually separable claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: twelve coccoid bodies in seven groups, three singles, three touching pairs, and one touching three-body chain. Counts match the prompt."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal twelve-body/seven-group output. Caption states type-strain-anchored, representative, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 029 as a type-strain-anchored representative species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "peptostreptococcus-stomatis-draft.png", "sourceSha256": "1f013139155709ad17cff10d213b7baf732c4f4febb6bad32a7d16ddd74bc741", "generationRecord": "exec-41c3487e-1685-4f10-b962-2a9c48709b28.png" }
+    },
+    "phascolarctobacterium|phascolarctobacterium-morphology-v1.webp": {
+      "pageId": "phascolarctobacterium",
+      "publishedFile": "phascolarctobacterium-morphology-v1.webp",
+      "masterSource": "phascolarctobacterium-morphology-v1-master.png",
+      "socialFile": "phascolarctobacterium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33024&mode=Info",
+          "https://lpsn.dsmz.de/genus/phascolarctobacterium",
+          "https://doi.org/10.1016/S0723-2020(11)80269-9"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Phascolarctobacterium as current genus NCBITaxon:33024 with P. faecium as type species. The cross-checked primary description supports a representative non-sporing pleomorphic rod treatment without a universal or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: eleven pleomorphic rods in eight groups, five singles and three touching pairs. This is one body and one group above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal eleven-body/eight-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 029 as a type-species-anchored representative genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "phascolarctobacterium-draft.png", "sourceSha256": "e3f44a0af5eaff6de9da6cc99f1cb298ce259b5ea15e5a341ea4dbcf4216babc", "generationRecord": "exec-945cca2d-6c89-4e32-b11f-d99e86d2ffad.png" }
     }
   },
   "rejectedAssets": [
