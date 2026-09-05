@@ -4637,6 +4637,43 @@
       ],
       "requiredResolution": "Editorially retire or reconcile oscillospirales as an audited permanent asset-free 308 alias to the existing canonical eubacteriales article, NCBITaxon:186802, reconcile source-era content and provenance, and remove the duplicate canonical route from the media corpus without creating another media owner.",
       "routingImpact": "The source-era Oscillospirales route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, structured media records, canonical media endpoints, image-sitemap entries, and coverage completion. Batch 028 makes no queue substitution and does not copy or alias the reviewed Eubacteriales image."
+    },
+    {
+      "pageId": "phocaeicola",
+      "controlledIdentifier": "NCBITaxon:909656",
+      "batchId": "microorganisms-029",
+      "draft": "work/media-quarantine/microorganisms-batch-029/phocaeicola-draft.png",
+      "sha256": "32096db802a887550de5af864a0b3018c568c6ce89af7aef9b72ce06932c2921",
+      "generationRecord": "exec-5cf68e06-ab00-4f4d-af5d-36a411d30daa.png",
+      "promptSha256": "5f0e9c232492506c5a3f237bccabb70c6f7d9884ddc017c641f293bf9c4dfe91",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and native-resolution visual review",
+      "disposition": "quarantined-scientific-interpretation-conflict",
+      "scientificReferenceCheck": {
+        "status": "fail-closed",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=909656&mode=Info",
+          "https://lpsn.dsmz.de/genus/phocaeicola",
+          "https://pubmed.ncbi.nlm.nih.gov/19620382/",
+          "https://doi.org/10.1099/ijs.0.007823-0",
+          "https://pubmed.ncbi.nlm.nih.gov/31608019/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6767994/",
+          "https://doi.org/10.3389/fmicb.2019.02083"
+        ],
+        "notes": "The 2009 Phocaeicola abscessus primary description explicitly reports coccoid-to-rod-shaped cells motile by lophotrichous flagella and identifies the arrangement in its figure legend. The 2019 expanded current-genus reassessment expressly questions whether those historically pictured structures were flagella rather than exopolysaccharide. A conspicuously flagellated genus plate therefore overstates unsettled morphology."
+      },
+      "subjectReview": {
+        "status": "fail",
+        "notes": "The raster shows eleven coccoid-to-short-rod bodies in eight groups. Two isolated rods each carry a conspicuous single-pole tuft of four visible filaments, for eight filaments total; this is one filament per tuft more than the frozen prompt and visually foregrounds the disputed structure."
+      },
+      "accessibilityReview": {
+        "status": "not-applicable",
+        "notes": "The quarantined artifact is not eligible for public alternative text, a crop, structured data, or publication."
+      },
+      "reason": "Control Tower rejected and quarantined the output because conspicuous flagella overstate a materially disputed current-genus structure and each tuft contains four rather than the frozen prompt's three filaments.",
+      "supersededBy": null,
+      "outcome": "No retry was made or authorized in batch 029. The route remains queued and uncovered for a future scientifically bounded treatment.",
+      "routingImpact": "The exact PNG remains immutable quarantined audit evidence only. It has no review-candidate status, public registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion."
     }
   ],
   "revisedAssets": [
