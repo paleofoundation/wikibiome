@@ -38,6 +38,12 @@
     "integratedReviewCommit": "8ad2a0027d3aa4777f5569823b5f826edccaa0cd",
     "notes": "Control Tower verified the exact parent, immutable prompts and draft hashes, current identities, type anchoring, literal native output counts, edge fields, crop-safe bounds, and zero public/master leakage. Only the six recorded sources are approved for promotion."
   },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-six-centered-cover-derivatives",
+    "notes": "Control Tower completed original-detail review of all six native 1200 by 630 centered-cover derivatives. Every reviewed coccus, pair, chain, and grouping remains fully visible and unclipped, with the pale cool scientific plate treatment preserved."
+  },
   "assets": [
     {
       "pageId": "streptococcus-agalactiae", "displayName": "Streptococcus agalactiae", "assetType": "morphology", "revision": 1,

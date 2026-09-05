@@ -4843,6 +4843,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 14-body/4-group output; caption states representative, non-universal, and non-diagnostic limits." },
       "disposition": "approved", "notes": "Exact immutable batch-036 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-draft.png", "sourceSha256": "63ef7c378c6a771cc920787568683b839b6d8810bdf06012ed8893ca148205d6", "generationRecord": "exec-8f25d726-94f5-4674-b8c4-59f42870b7ef.png" }
+    },
+    "streptococcus-agalactiae|streptococcus-agalactiae-morphology-v1.webp": {
+      "pageId": "streptococcus-agalactiae", "publishedFile": "streptococcus-agalactiae-morphology-v1.webp", "masterSource": "streptococcus-agalactiae-morphology-v1-master.png", "socialFile": "streptococcus-agalactiae-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1311&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-agalactiae", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"], "notes": "Current species, type material, and representative chained coccal morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted fifteen countable cocci in chains of five, six, and four; the output-added coccus is recorded and no capsule or hemolysis is depicted." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 15-body/3-chain output; caption states type-strain and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-037 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-agalactiae-draft.png", "sourceSha256": "5e44d7416670c71411a98ad1d307ba662f2714d328603313fc3458bfd9b6920a", "generationRecord": "exec-a4531fc4-7d3f-496c-bae0-fa1fb01bb11e.png" }
+    },
+    "streptococcus-gallolyticus|streptococcus-gallolyticus-morphology-v1.webp": {
+      "pageId": "streptococcus-gallolyticus", "publishedFile": "streptococcus-gallolyticus-morphology-v1.webp", "masterSource": "streptococcus-gallolyticus-morphology-v1-master.png", "socialFile": "streptococcus-gallolyticus-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=315405&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-gallolyticus", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"], "notes": "Current species, type material, and representative pair/short-chain morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted twelve countable cocci in two chains of four and two opposed pairs; no subspecies or clinical-source claim is made." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 12-body/4-group output; caption states type-strain, non-diagnostic, and non-subspecies limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-037 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-gallolyticus-draft.png", "sourceSha256": "7a19309d7350c6cc9225dcc70362c598fce52802492d8024ce595289760719c8", "generationRecord": "exec-58fd5b61-324b-4b9c-b5e7-2c71e1509204.png" }
+    },
+    "streptococcus-mutans|streptococcus-mutans-morphology-v1.webp": {
+      "pageId": "streptococcus-mutans", "publishedFile": "streptococcus-mutans-morphology-v1.webp", "masterSource": "streptococcus-mutans-morphology-v1-master.png", "socialFile": "streptococcus-mutans-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1309&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-mutans", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"], "notes": "Current species, type material, and representative chained coccal morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted fifteen countable cocci in three chains of five; no plaque, matrix, tooth, or disease imagery is present." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 15-body/3-chain output; caption states type-strain and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-037 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-mutans-draft.png", "sourceSha256": "42c065c35f003776da33f4b36138dfec8949c6b36605e2fc396bd6f526894b6a", "generationRecord": "exec-80188bb4-a992-4bf0-9955-eff87fcd8018.png" }
+    },
+    "streptococcus-pneumoniae|streptococcus-pneumoniae-morphology-v1.webp": {
+      "pageId": "streptococcus-pneumoniae", "publishedFile": "streptococcus-pneumoniae-morphology-v1.webp", "masterSource": "streptococcus-pneumoniae-morphology-v1-master.png", "socialFile": "streptococcus-pneumoniae-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1313&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-pneumoniae", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"], "notes": "Current species, type material, and representative opposed ovoid pairs are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted twelve gently tapered ovoid cocci in six opposed pairs; capsule and disease imagery are absent." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 12-body/6-pair output; caption states type-strain, capsule-omission, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-037 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-pneumoniae-draft.png", "sourceSha256": "1030b09141f397917bf5bd5388095deefafe6ef646bb19e845029dcc2c1eeae7", "generationRecord": "exec-acdf3c8a-5d19-4340-98b6-d025c0589d4d.png" }
+    },
+    "streptococcus-salivarius|streptococcus-salivarius-morphology-v1.webp": {
+      "pageId": "streptococcus-salivarius", "publishedFile": "streptococcus-salivarius-morphology-v1.webp", "masterSource": "streptococcus-salivarius-morphology-v1-master.png", "socialFile": "streptococcus-salivarius-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1304&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-salivarius", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"], "notes": "Current species, type material, and representative chained coccal morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted fourteen countable cocci in chains of five, six, and three; the output-added coccus is recorded and no oral habitat claim is depicted." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 14-body/3-chain output; caption states type-strain, non-separability, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-037 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-salivarius-draft.png", "sourceSha256": "a19f9e506d76ee534cec781002cdda9291268e56b2d4b032db5a65f6cc37d0e5", "generationRecord": "exec-632e271d-dadd-43cc-9c76-07f8b034f34a.png" }
+    },
+    "streptococcus-thermophilus|streptococcus-thermophilus-morphology-v1.webp": {
+      "pageId": "streptococcus-thermophilus", "publishedFile": "streptococcus-thermophilus-morphology-v1.webp", "masterSource": "streptococcus-thermophilus-morphology-v1-master.png", "socialFile": "streptococcus-thermophilus-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1308&mode=Info", "https://lpsn.dsmz.de/species/streptococcus-thermophilus", "https://bacdive.dsmz.de/strain/14786", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"], "notes": "Current distinct species, type material, and representative chained coccal morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted seventeen countable cocci in chains of seven, five, and five; the output-added coccus is recorded and no food or strain-function claim is depicted." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 17-body/3-chain output; caption states type-strain, non-separability, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-037 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-thermophilus-draft.png", "sourceSha256": "8462afb99f47f9bd81fc3470f8678dfcfbdd9322a78dd3243a8fe216987c7d58", "generationRecord": "exec-1243e062-329d-4012-8c70-3269de577c1d.png" }
     }
   },
   "rejectedAssets": [

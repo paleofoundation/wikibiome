@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "acb27e4b848eb5a6444d2cf38d5898def162a36e48da7d62a183390fae7670b6",
+    "registrySha256": "75e3802309e3cef9f3c2d9c81a32cffcf3ce5327b1be7a9087247728b5f0a377",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "32b8667ff9897823b5ad661d457394602faf36de87877204caf92d6f9f69f1b0",
+    "reviewLogSha256": "45f13e3abf8aca5a442bd56cd2bb2eada4794ca7285bd8455dd5846ea387d5ee",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -227,6 +227,12 @@
         "batchId": "microorganisms-036",
         "status": "reviewed",
         "sha256": "02564b9fe044f15d0f5efbe009f3facb209ace6b66868b680c204e1e403d300e"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-037.json",
+        "batchId": "microorganisms-037",
+        "status": "reviewed",
+        "sha256": "163e6a006f2e18a8c09955e9084706982d12bd519fdde2974b728e67c92b6b06"
       }
     ]
   },
@@ -248,8 +254,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 198,
-    "remaining": 512,
+    "completed": 204,
+    "remaining": 506,
     "rejected": 27,
     "revised": 11,
     "scientificHolds": 11,
@@ -260,8 +266,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 195,
-      "remaining": 34
+      "completed": 201,
+      "remaining": 28
     },
     {
       "id": "metals",
@@ -1105,46 +1111,46 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 208,
-      "id": "streptococcus-agalactiae",
-      "title": "Streptococcus agalactiae",
-      "route": "/article/streptococcus-agalactiae",
+      "queuePosition": 214,
+      "id": "subdoligranulum",
+      "title": "Subdoligranulum",
+      "route": "/article/subdoligranulum",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 209,
-      "id": "streptococcus-gallolyticus",
-      "title": "Streptococcus gallolyticus",
-      "route": "/article/streptococcus-gallolyticus",
+      "queuePosition": 215,
+      "id": "sutterella",
+      "title": "Sutterella",
+      "route": "/article/sutterella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 210,
-      "id": "streptococcus-mutans",
-      "title": "Streptococcus mutans",
-      "route": "/article/streptococcus-mutans",
+      "queuePosition": 216,
+      "id": "torulaspora",
+      "title": "Torulaspora",
+      "route": "/article/torulaspora",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 211,
-      "id": "streptococcus-pneumoniae",
-      "title": "Streptococcus pneumoniae",
-      "route": "/article/streptococcus-pneumoniae",
+      "queuePosition": 217,
+      "id": "treponema",
+      "title": "Treponema",
+      "route": "/article/treponema",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 212,
-      "id": "streptococcus-salivarius",
-      "title": "Streptococcus salivarius",
-      "route": "/article/streptococcus-salivarius",
+      "queuePosition": 218,
+      "id": "trichoderma",
+      "title": "Trichoderma",
+      "route": "/article/trichoderma",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -5489,7 +5495,15 @@
       "route": "/article/streptococcus-agalactiae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "streptococcus-agalactiae-morphology-v1-master.png",
+        "publishedFile": "streptococcus-agalactiae-morphology-v1.webp",
+        "socialFile": "streptococcus-agalactiae-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 209,
@@ -5502,7 +5516,15 @@
       "route": "/article/streptococcus-gallolyticus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "streptococcus-gallolyticus-morphology-v1-master.png",
+        "publishedFile": "streptococcus-gallolyticus-morphology-v1.webp",
+        "socialFile": "streptococcus-gallolyticus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 210,
@@ -5515,7 +5537,15 @@
       "route": "/article/streptococcus-mutans",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "streptococcus-mutans-morphology-v1-master.png",
+        "publishedFile": "streptococcus-mutans-morphology-v1.webp",
+        "socialFile": "streptococcus-mutans-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 211,
@@ -5528,7 +5558,15 @@
       "route": "/article/streptococcus-pneumoniae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "streptococcus-pneumoniae-morphology-v1-master.png",
+        "publishedFile": "streptococcus-pneumoniae-morphology-v1.webp",
+        "socialFile": "streptococcus-pneumoniae-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 212,
@@ -5541,7 +5579,15 @@
       "route": "/article/streptococcus-salivarius",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "streptococcus-salivarius-morphology-v1-master.png",
+        "publishedFile": "streptococcus-salivarius-morphology-v1.webp",
+        "socialFile": "streptococcus-salivarius-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 213,
@@ -5554,7 +5600,15 @@
       "route": "/article/streptococcus-thermophilus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "streptococcus-thermophilus-morphology-v1-master.png",
+        "publishedFile": "streptococcus-thermophilus-morphology-v1.webp",
+        "socialFile": "streptococcus-thermophilus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 214,

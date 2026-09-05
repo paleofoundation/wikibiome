@@ -127,3 +127,7 @@ Exactly six built-in image-generation calls were made, one per cleared route. No
 - `streptococcus-thermophilus`: `exec-1243e062-329d-4012-8c70-3269de577c1d.png`; SHA-256 `8462afb99f47f9bd81fc3470f8678dfcfbdd9322a78dd3243a8fe216987c7d58`.
 
 All six are native 1536 by 1024 PNGs on edge-clean pale cool fields. Observed output—not requested composition—governs the manifest: *S. agalactiae* contains 15 cocci in chains of 5, 6, and 4; *S. gallolyticus* contains 12 cocci in two chains of 4 and two pairs; *S. mutans* contains 15 cocci in three chains of 5; *S. pneumoniae* contains 12 ovoid cocci in six opposed pairs; *S. salivarius* contains 14 cocci in chains of 5, 6, and 3; and *S. thermophilus* contains 17 cocci in chains of 7, 5, and 5. All remain review-only pending the exact-hash control review and promotion gate.
+
+## Control promotion and crop review
+
+Control Tower accepted exact review commit `8ad2a0027d3aa4777f5569823b5f826edccaa0cd` and only its six immutable PNG hashes. It promoted them without regeneration or pixel editing, then inspected every native 1200 by 630 centered-cover social derivative at original detail. Every reviewed coccus, pair, chain, and grouping remains visible and unclipped. Quarantined Phocaeicola and all scientific identity holds remain asset-free.
