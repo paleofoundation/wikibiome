@@ -107,5 +107,8 @@ Constraints: Type-species/current-genus-anchored representative morphology only;
 
 ## Immutable generation records
 
-Exactly six built-in image-generation calls were made, one per cleared route. No retry, replacement, edit, or source image was used. Observed output, not requested composition, governs subsequent alt text and captions. All six originals remain review-only outside the public registry, canonical masters, derivatives, endpoints, structured data, and image sitemap pending a separate promotion decision.
+Exactly six built-in image-generation calls were made, one per cleared route. No retry, replacement, edit, or source image was used. Observed output, not requested composition, governs subsequent alt text and captions.
 
+## Control promotion and crop review
+
+Control Tower accepted exact review commit `9f4607093260370d35255aa46398b1a93b9afab2` and only its six immutable PNG hashes. It promoted them without regeneration or pixel editing, then inspected every native 1200 by 630 centered-cover social derivative at original detail. Every reviewed body and grouping remains visible and unclipped. Quarantined Phocaeicola and all scientific identity holds remain asset-free.

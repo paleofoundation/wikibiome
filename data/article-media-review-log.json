@@ -4747,6 +4747,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text states the seven separate bodies and two filament-bearing examples; caption separates visible form from genus-wide and diagnostic claims. Centered-cover crop review is recorded in the batch manifest." },
       "disposition": "approved", "notes": "Exact immutable batch-034 source accepted by WikiBiome Control Tower for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "selenomonas-draft.png", "sourceSha256": "c9f0d228cce8006438527b4e3ac6960883e97eef09d03d196debda927778676b", "generationRecord": "exec-810e5ad4-1e56-40c2-b4c7-5be4c169e1d0.png" }
+    },
+    "senegalimassilia|senegalimassilia-morphology-v1.webp": {
+      "pageId": "senegalimassilia", "publishedFile": "senegalimassilia-morphology-v1.webp", "masterSource": "senegalimassilia-morphology-v1-master.png", "socialFile": "senegalimassilia-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1473205&mode=Info", "https://lpsn.dsmz.de/genus/senegalimassilia", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3764928/"], "notes": "Current genus, type species, and primary coccobacillary morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eleven compact coccobacilli in nine groups; the output-added single and group are recorded." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text and caption follow literal 11-body/9-group output and state representative, non-universal, non-diagnostic scope." },
+      "disposition": "approved", "notes": "Exact immutable batch-035 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "senegalimassilia-draft.png", "sourceSha256": "047eb81dbd58fc5f647ace765bdf4015735738940f6659f308a4466e63c47d5f", "generationRecord": "exec-09df57f9-b924-4303-a44c-f2b1d21dafed.png" }
+    },
+    "serratia|serratia-morphology-v1.webp": {
+      "pageId": "serratia", "publishedFile": "serratia-morphology-v1.webp", "masterSource": "serratia-morphology-v1-master.png", "socialFile": "serratia-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=613&mode=Info", "https://lpsn.dsmz.de/genus/serratia", "https://bacdive.dsmz.de/strain/139678"], "notes": "Current genus, type species, type strain, and rod morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine short rods in seven groups; appendages and colony pigment are omitted without a phenotype claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 9-body/7-group output; caption states representative and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-035 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "serratia-draft.png", "sourceSha256": "fc5139fe66350f09fc036b401c6bcc341ac2e5058fcd00fa4686424a43d4d640", "generationRecord": "exec-29d28846-fd95-42b6-bad2-85d33858a4b8.png" }
+    },
+    "serratia-marcescens|serratia-marcescens-morphology-v1.webp": {
+      "pageId": "serratia-marcescens", "publishedFile": "serratia-marcescens-morphology-v1.webp", "masterSource": "serratia-marcescens-morphology-v1-master.png", "socialFile": "serratia-marcescens-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=615&mode=Info", "https://lpsn.dsmz.de/species/serratia-marcescens", "https://www.ncbi.nlm.nih.gov/mesh?Cmd=DetailsSearch&Db=mesh&Term=%22Serratia+marcescens%22%5BMeSH+Terms%5D", "https://bacdive.dsmz.de/strain/139678"], "notes": "Current species, type material, controlled medical identity, and rod morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine rods in seven groups; the output-added single/group are recorded and colony pigment is excluded." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 9-body/7-group output; caption states type-strain, non-diagnostic, and pigment limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-035 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "serratia-marcescens-draft.png", "sourceSha256": "2161208965352ae763604abc92f09e2afa58c89b3f8f86126ad234c19cd10ec4", "generationRecord": "exec-aee3e8ae-a9e9-407f-b2a4-48c46364d193.png" }
+    },
+    "shigella|shigella-morphology-v1.webp": {
+      "pageId": "shigella", "publishedFile": "shigella-morphology-v1.webp", "masterSource": "shigella-morphology-v1-master.png", "socialFile": "shigella-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=620&mode=Info", "https://lpsn.dsmz.de/genus/shigella", "https://www.ncbi.nlm.nih.gov/books/NBK558821/"], "notes": "The medically conserved genus name and genomic embedding within Escherichia coli are both explicitly represented in framing." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eleven rods in nine groups; two output-added singles/groups are recorded and no visual taxonomic separation is claimed." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 11-body/9-group output; caption states conserved-name and E. coli non-separability limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-035 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "shigella-draft.png", "sourceSha256": "b8d142d732b3b2da5d766e85095e521ded80c2b929df87ae84fe55e0a411b275", "generationRecord": "exec-2dbfe1af-c21b-4216-9233-f08e4c854d93.png" }
+    },
+    "shigella-flexneri|shigella-flexneri-morphology-v1.webp": {
+      "pageId": "shigella-flexneri", "publishedFile": "shigella-flexneri-morphology-v1.webp", "masterSource": "shigella-flexneri-morphology-v1-master.png", "socialFile": "shigella-flexneri-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=623&mode=Info", "https://lpsn.dsmz.de/species/shigella-flexneri", "https://meshb.nlm.nih.gov/record/ui?ui=D012763"], "notes": "The medically conserved species, type material, and controlled rod morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine rods in seven groups; the output-added single/group are recorded and no species-level visual diagnosis is claimed." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 9-body/7-group output; caption states type-strain, non-diagnostic, and E. coli non-separability limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-035 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "shigella-flexneri-draft.png", "sourceSha256": "1258b982a7db0a3ae7709670696b1c236d19329a0796f1b51968cdc7b2c562b1", "generationRecord": "exec-0a535bbd-f0d8-4b76-b2f4-16f1c7ed59e8.png" }
+    },
+    "sneathia|sneathia-morphology-v1.webp": {
+      "pageId": "sneathia", "publishedFile": "sneathia-morphology-v1.webp", "masterSource": "sneathia-morphology-v1-master.png", "socialFile": "sneathia-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=168808&mode=Info", "https://lpsn.dsmz.de/genus/sneathia", "https://lpsn.dsmz.de/species/sneathia-sanguinegens", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8672320/"], "notes": "Current genus, type species, emended genus context, and rod-shaped non-motile morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted seven isolated slender straight-to-gently-curved rods in seven groups." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 7-body/7-group output; caption states representative, non-universal, non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-035 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "sneathia-draft.png", "sourceSha256": "d2f166c3f287aa792945bc3cc0865cad7d2802449f011d409328bc64cfae0a00", "generationRecord": "exec-da12e10a-616a-4b1d-9613-b1ba1333bb87.png" }
     }
   },
   "rejectedAssets": [
