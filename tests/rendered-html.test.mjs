@@ -4,6 +4,7 @@ import { readFileSync, readdirSync } from "node:fs";
 import test from "node:test";
 import sharp from "sharp";
 import { articleMediaFileNames, articleMediaPolicy, articleMediaRegistry } from "../lib/article-media-registry.mjs";
+import { ARTICLE_ALIAS_SUFFIXES, articleAliasRedirects } from "../lib/article-alias-redirects.mjs";
 import { classifySearchReferrer } from "../lib/search-observability.mjs";
 import { getArticleAliases, getArticleIdentityRegistry, validateArticleIdentityPolicy } from "../scripts/article-identity-policy.mjs";
 import { applyPublicContentPolicy, publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
@@ -519,6 +520,25 @@ test("permanently redirects retired taxon URLs to one current-name canonical rec
   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
     assert.doesNotMatch(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${legacyId}</loc>`));
     assert.match(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${canonicalId}</loc>`));
+  }
+});
+
+test("exports build-level redirects for retired article aliases", () => {
+  const aliases = getArticleAliases();
+  const expectedCount = Object.keys(aliases).length * ARTICLE_ALIAS_SUFFIXES.length;
+  assert.equal(articleAliasRedirects.length, expectedCount);
+
+  for (const [legacyId, canonicalId] of Object.entries(aliases)) {
+    for (const suffix of ARTICLE_ALIAS_SUFFIXES) {
+      assert.deepEqual(
+        articleAliasRedirects.find((rule) => rule.source === `/article/${legacyId}${suffix}`),
+        {
+          source: `/article/${legacyId}${suffix}`,
+          destination: `/article/${canonicalId}${suffix}`,
+          permanent: true,
+        },
+      );
+    }
   }
 });
 

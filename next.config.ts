@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
+import { articleAliasRedirects } from "./lib/article-alias-redirects.mjs";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  async redirects() {
+    return [...articleAliasRedirects];
+  },
 };
 
 export default nextConfig;
