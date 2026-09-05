@@ -204,6 +204,7 @@ test("keeps private researcher surfaces out of indexes and public participation 
   assert.match(accountControl, /window\.location\.pathname/);
   assert.match(accountControl, /encodeURIComponent\(returnTo\)/);
   assert.match(accountControl, /Dashboard/);
+  assert.match(styles, /@media \(max-width:1560px\)[\s\S]*\.header-actions \.utility-nav a:nth-child\(-n\+2\)/);
   assert.match(styles, /@media \(max-width:620px\)[\s\S]*\.orcid-account-login/);
 });
 
