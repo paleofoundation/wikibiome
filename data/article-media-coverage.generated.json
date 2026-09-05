@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "75e3802309e3cef9f3c2d9c81a32cffcf3ce5327b1be7a9087247728b5f0a377",
+    "registrySha256": "0ecaabc3747db9a720a3f29ecef5b0c543f676bcba3ac8718c2f6b5e7222baec",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "45f13e3abf8aca5a442bd56cd2bb2eada4794ca7285bd8455dd5846ea387d5ee",
+    "reviewLogSha256": "4c9145d210e6d9f92842ea1fcbf7d7a3b50f80bdc0a518c3a14c6d8ad6b40db4",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -233,6 +233,12 @@
         "batchId": "microorganisms-037",
         "status": "reviewed",
         "sha256": "163e6a006f2e18a8c09955e9084706982d12bd519fdde2974b728e67c92b6b06"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-038.json",
+        "batchId": "microorganisms-038",
+        "status": "reviewed",
+        "sha256": "318ac3ce202902f2fc810570dc92755430ad0b450309d406b60d2b33bc70bdf4"
       }
     ]
   },
@@ -254,8 +260,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 204,
-    "remaining": 506,
+    "completed": 210,
+    "remaining": 500,
     "rejected": 27,
     "revised": 11,
     "scientificHolds": 11,
@@ -266,8 +272,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 201,
-      "remaining": 28
+      "completed": 207,
+      "remaining": 22
     },
     {
       "id": "metals",
@@ -1111,46 +1117,46 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 214,
-      "id": "subdoligranulum",
-      "title": "Subdoligranulum",
-      "route": "/article/subdoligranulum",
+      "queuePosition": 220,
+      "id": "trichosporon-asahii",
+      "title": "Trichosporon asahii",
+      "route": "/article/trichosporon-asahii",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 215,
-      "id": "sutterella",
-      "title": "Sutterella",
-      "route": "/article/sutterella",
+      "queuePosition": 221,
+      "id": "turicibacter",
+      "title": "Turicibacter",
+      "route": "/article/turicibacter",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 216,
-      "id": "torulaspora",
-      "title": "Torulaspora",
-      "route": "/article/torulaspora",
+      "queuePosition": 222,
+      "id": "tyzzerella",
+      "title": "Tyzzerella",
+      "route": "/article/tyzzerella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 217,
-      "id": "treponema",
-      "title": "Treponema",
-      "route": "/article/treponema",
+      "queuePosition": 223,
+      "id": "ureaplasma",
+      "title": "Ureaplasma",
+      "route": "/article/ureaplasma",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 218,
-      "id": "trichoderma",
-      "title": "Trichoderma",
-      "route": "/article/trichoderma",
+      "queuePosition": 224,
+      "id": "ureaplasma-urealyticum",
+      "title": "Ureaplasma urealyticum",
+      "route": "/article/ureaplasma-urealyticum",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -5621,7 +5627,15 @@
       "route": "/article/subdoligranulum",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "subdoligranulum-morphology-v1-master.png",
+        "publishedFile": "subdoligranulum-morphology-v1.webp",
+        "socialFile": "subdoligranulum-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 215,
@@ -5634,7 +5648,15 @@
       "route": "/article/sutterella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "sutterella-morphology-v1-master.png",
+        "publishedFile": "sutterella-morphology-v1.webp",
+        "socialFile": "sutterella-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 216,
@@ -5647,7 +5669,15 @@
       "route": "/article/torulaspora",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "torulaspora-morphology-v1-master.png",
+        "publishedFile": "torulaspora-morphology-v1.webp",
+        "socialFile": "torulaspora-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 217,
@@ -5660,7 +5690,15 @@
       "route": "/article/treponema",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "treponema-morphology-v1-master.png",
+        "publishedFile": "treponema-morphology-v1.webp",
+        "socialFile": "treponema-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 218,
@@ -5673,7 +5711,15 @@
       "route": "/article/trichoderma",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "trichoderma-morphology-v1-master.png",
+        "publishedFile": "trichoderma-morphology-v1.webp",
+        "socialFile": "trichoderma-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 219,
@@ -5686,7 +5732,15 @@
       "route": "/article/trichomonas-vaginalis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "trichomonas-vaginalis-morphology-v1-master.png",
+        "publishedFile": "trichomonas-vaginalis-morphology-v1.webp",
+        "socialFile": "trichomonas-vaginalis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 220,

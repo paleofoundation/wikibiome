@@ -136,3 +136,5 @@ All six are native 1536 by 1024 PNGs on edge-clean pale cool fields. Observed ou
 ## Control promotion decision
 
 Control Tower accepted exact review commit `71ab28ddaf87c626ddccd6838d9c3c20fc9674b4` and only its six immutable PNG hashes. The review verified current identities, type anchoring, literal native output, edge-clean fields, and absence of prohibited content. The Trichoderma social derivative must use a centered pale-field `contain` treatment because a centered cover crop would clip the complete vertical structure. Phocaeicola and all scientific identity holds remain asset-free.
+
+Control Tower subsequently inspected all six native 1200 by 630 social derivatives at original detail. The five centered-cover derivatives and the centered-contain Trichoderma derivative preserve every reviewed structure without clipping.

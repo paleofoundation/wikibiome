@@ -38,6 +38,12 @@
     "integratedReviewCommit": "71ab28ddaf87c626ddccd6838d9c3c20fc9674b4",
     "notes": "Control Tower verified the exact parent, immutable prompts and draft hashes, current identities, type anchoring, literal native output counts, edge fields, social crop strategy, and zero public/master leakage. Only the six recorded sources are approved for promotion."
   },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-five-centered-cover-and-one-contain-derivative",
+    "notes": "Control Tower completed original-detail review of all six native 1200 by 630 derivatives. Every reviewed cell, flagellum, wave form, bud, conidium, phialide, and branch remains visible and unclipped. Trichoderma uses centered contain on the pale field; the other five use centered cover."
+  },
   "assets": [
     {
       "pageId": "subdoligranulum", "displayName": "Subdoligranulum", "assetType": "morphology", "revision": 1,

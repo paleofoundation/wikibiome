@@ -2937,14 +2937,14 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
     "phocaeicola",
-    "subdoligranulum",
-    "sutterella",
-    "torulaspora",
-    "treponema",
-    "trichoderma",
+    "trichosporon-asahii",
+    "turicibacter",
+    "tyzzerella",
+    "ureaplasma",
+    "ureaplasma-urealyticum",
   ]);
-  assert.equal(program.current.completed, 204);
-  assert.equal(program.current.remaining, 506);
+  assert.equal(program.current.completed, 210);
+  assert.equal(program.current.remaining, 500);
   assert.equal(program.current.rejected, 27);
   assert.equal(program.current.revised, 11);
   assert.equal(program.current.inReview, 0);
@@ -3424,6 +3424,48 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   }
   assert.equal(batch037GenerationRecords.size, 6);
   assert.doesNotMatch(batch037PromptRecord, /<!-- PROMPT phocaeicola START -->/);
+  const batch038 = batches.find((batch) => batch.batchId === "microorganisms-038");
+  assert.equal(batch038?.status, "reviewed");
+  assert.equal(batch038?.authorizedParent, "873db4904cadd0590f1803eb1ca30c3e71024d4a");
+  assert.equal(batch038?.publicationMetadataPlan?.reviewOnly, false);
+  assert.equal(batch038?.generationCallCount, 6);
+  assert.equal(batch038?.controlReviewRequired, false);
+  assert.equal(batch038?.controlFinalReview?.acceptedReviewCommit, "71ab28ddaf87c626ddccd6838d9c3c20fc9674b4");
+  assert.equal(batch038?.controlSocialCropReview?.status, "accepted-five-centered-cover-and-one-contain-derivative");
+  assert.equal(batch038?.controlAcceptedReviewManifestSha256, "9e9cb76be690432cbfa49dbd11c0b88d4f4ae15fb5bdb14a32f09572b875bc55");
+  assert.equal(batch038?.controlAcceptedPromptEvidenceSha256, "c4b0dd891a3a828c74aa20518790a1343fa44800bb297467d31af7b4e722b23f");
+  const batch038ExpectedOutputs = new Map([
+    ["subdoligranulum", ["NCBITaxon:292632", "ff3f0b7c9c546dbee68120f5f007afacd228138d125c3d00e21039e05bedee2a", "e87da32095611f9cefb05b2c2b5c67ace2626e631ce0623bdfc50697039ceb22", 1262942, 10, 10]],
+    ["sutterella", ["NCBITaxon:40544", "80202fa8f458b2279b9d0cade5f351a9ed5c02d572614bbb810270c912703335", "ab88e84565a8ff37c1f6a8ab68aaa58aec164d0b696773e10687a7d9b9c122e9", 1338327, 8, 8]],
+    ["torulaspora", ["NCBITaxon:4948", "70f3ebfd5bc97f1bb3815ce4923a517fbc748039a725acb0230ce1ede29e2673", "1ec1a7e467f9ff73646928a6677bc553210fb168fb5a389de955f2e39c433e15", 1427498, 13, 9]],
+    ["treponema", ["NCBITaxon:157", "144d9635269b429193ca07b5f3e3ddeb2ae7858391c3489a1d668763f5674a53", "77ec8b24345671313debd185384e791530e7ee8b26d44bfcc204d5fc53001947", 1236259, 4, 4]],
+    ["trichoderma", ["NCBITaxon:5543", "4b49dc2ab47788444f2bd8593485306af18fbf7c00875cf2ef2506c19b9ec148", "4aad216551c7d9e35e5a2093ee829a0494ce8d26f8a20598b63f786e84c93f80", 1359669, 1, 1]],
+    ["trichomonas-vaginalis", ["NCBITaxon:5722", "5e35cc88cf1f1a8d15280181033dd34b468c7093450ed26e3411d08a57ea0798", "b069d922d888d731ad4e2ed5ec3e5bba908607351e3bea1a82abeece782ead64", 1426041, 1, 1]],
+  ]);
+  const batch038PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-038.md", import.meta.url), "utf8");
+  for (const asset of batch038?.assets ?? []) {
+    const [identifier, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch038ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.rootReviewDisposition, "accepted");
+    assert.equal(asset.controlledIdentifier, identifier);
+    assert.equal(asset.promptSha256, promptSha256);
+    assert.equal(asset.sha256, sha256);
+    assert.equal(asset.fileSizeBytes, fileSize);
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), sha256);
+    const promptMatch = batch038PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
+    const media = articleMediaRegistry[asset.pageId];
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.disposition, "approved");
+    const [draftPixels, masterPixels] = await Promise.all([sharp(draftBytes).removeAlpha().raw().toBuffer(), sharp(readFileSync(new URL(`../media/masters/${media.masterSource}`, import.meta.url))).removeAlpha().raw().toBuffer()]);
+    assert.equal(Buffer.compare(draftPixels, masterPixels), 0, `${asset.pageId} master must decode pixel-identically to accepted source`);
+    const socialMetadata = await sharp(readFileSync(new URL(`../public/media-files/${media.socialFile}`, import.meta.url))).metadata();
+    assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
+  }
+  assert.equal(articleMediaRegistry.trichoderma.socialResizeFit, "contain");
+  assert.doesNotMatch(batch038PromptRecord, /<!-- PROMPT phocaeicola START -->/);
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [

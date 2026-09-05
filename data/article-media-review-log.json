@@ -4891,6 +4891,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 17-body/3-chain output; caption states type-strain, non-separability, and non-diagnostic limits." },
       "disposition": "approved", "notes": "Exact immutable batch-037 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-thermophilus-draft.png", "sourceSha256": "8462afb99f47f9bd81fc3470f8678dfcfbdd9322a78dd3243a8fe216987c7d58", "generationRecord": "exec-1243e062-329d-4012-8c70-3269de577c1d.png" }
+    },
+    "subdoligranulum|subdoligranulum-morphology-v1.webp": {
+      "pageId": "subdoligranulum", "publishedFile": "subdoligranulum-morphology-v1.webp", "masterSource": "subdoligranulum-morphology-v1-master.png", "socialFile": "subdoligranulum-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=292632&mode=Info", "https://lpsn.dsmz.de/genus/subdoligranulum", "https://pubmed.ncbi.nlm.nih.gov/16701519/"], "notes": "Current genus, type species and strain, and variable coccoid morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted ten separated variable coccoid cells; the one-cell count deviation is recorded and no Gram-status color claim is made." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal ten-cell output; caption states type-species anchoring and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-038 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "subdoligranulum-draft.png", "sourceSha256": "e87da32095611f9cefb05b2c2b5c67ace2626e631ce0623bdfc50697039ceb22", "generationRecord": "exec-554bac63-8bf7-4832-af56-a4e932af14f1.png" }
+    },
+    "sutterella|sutterella-morphology-v1.webp": {
+      "pageId": "sutterella", "publishedFile": "sutterella-morphology-v1.webp", "masterSource": "sutterella-morphology-v1-master.png", "socialFile": "sutterella-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=40544&mode=Info", "https://lpsn.dsmz.de/genus/sutterella", "https://pubmed.ncbi.nlm.nih.gov/8573504/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3205041/"], "notes": "Current genus, type species, and published pleomorphic rod and coccobacillus microscopy are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eight separated cells: four elongated rods and four coccobacilli, with no lattice or clinical scene." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text identifies both visible forms; caption states type-species anchoring and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-038 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "sutterella-draft.png", "sourceSha256": "ab88e84565a8ff37c1f6a8ab68aaa58aec164d0b696773e10687a7d9b9c122e9", "generationRecord": "exec-e383d79d-46d8-439c-a56b-1f88ea887c6d.png" }
+    },
+    "torulaspora|torulaspora-morphology-v1.webp": {
+      "pageId": "torulaspora", "publishedFile": "torulaspora-morphology-v1.webp", "masterSource": "torulaspora-morphology-v1-master.png", "socialFile": "torulaspora-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4948&mode=Info", "https://www.ncbi.nlm.nih.gov/taxonomy/4950"], "notes": "Current budding-yeast genus and type-species identity support the restrained vegetative-cell treatment." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine ovoid mother cells with four single buds and no hyphae, asci, or fermentation scene." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text states the literal mother-cell and bud counts; caption states type-species anchoring and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-038 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "torulaspora-draft.png", "sourceSha256": "1ec1a7e467f9ff73646928a6677bc553210fb168fb5a389de955f2e39c433e15", "generationRecord": "exec-25a68402-12e4-45da-a565-801d96d2a52a.png" }
+    },
+    "treponema|treponema-morphology-v1.webp": {
+      "pageId": "treponema", "publishedFile": "treponema-morphology-v1.webp", "masterSource": "treponema-morphology-v1-master.png", "socialFile": "treponema-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=157&mode=Info", "https://lpsn.dsmz.de/genus/treponema", "https://www.cdc.gov/mmwr/volumes/73/rr/rr7301a1.htm"], "notes": "Current genus, type species, flat-wave form, and internal endoflagella relationship are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted four complete separated flat-wave bodies; the one-body count deviation is recorded and no external flagella are shown." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal four-body output; caption states type-species anchoring, internal endoflagella omission, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-038 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "treponema-draft.png", "sourceSha256": "77ec8b24345671313debd185384e791530e7ee8b26d44bfcc204d5fc53001947", "generationRecord": "exec-add96a72-804e-4fd8-868e-6138e1a685cc.png" }
+    },
+    "trichoderma|trichoderma-morphology-v1.webp": {
+      "pageId": "trichoderma", "publishedFile": "trichoderma-morphology-v1.webp", "masterSource": "trichoderma-morphology-v1-master.png", "socialFile": "trichoderma-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5543&mode=Info", "https://phil.cdc.gov/Details.aspx?pid=23104", "https://www.atcc.org/products/32098"], "notes": "Current genus and representative septate hypha, conidiophore, flask-shaped phialide, and globose conidial morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete pyramidal conidiophore system; social output must use contain to prevent clipping." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names the visible structures; caption states type-species anchoring and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-038 source accepted for promotion with a contain social crop.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "trichoderma-draft.png", "sourceSha256": "4aad216551c7d9e35e5a2093ee829a0494ce8d26f8a20598b63f786e84c93f80", "generationRecord": "exec-1b0e3dc2-d254-4294-ad91-b21797034050.png" }
+    },
+    "trichomonas-vaginalis|trichomonas-vaginalis-morphology-v1.webp": {
+      "pageId": "trichomonas-vaginalis", "publishedFile": "trichomonas-vaginalis-morphology-v1.webp", "masterSource": "trichomonas-vaginalis-morphology-v1-master.png", "socialFile": "trichomonas-vaginalis-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5722&mode=Info", "https://www.cdc.gov/dpdx/trichomoniasis/"], "notes": "Current species and CDC trophozoite shape, flagellar arrangement, nucleus, and no-cyst-stage description are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one pear-shaped trophozoite with four anterior flagella, one recurrent flagellum, one nucleus, and no cyst or host scene." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names the organism and visible flagellar relationship; caption states CDC basis and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-038 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "trichomonas-vaginalis-draft.png", "sourceSha256": "b069d922d888d731ad4e2ed5ec3e5bba908607351e3bea1a82abeece782ead64", "generationRecord": "exec-e3c20415-02ab-41b9-81d9-1d84fa61a9e3.png" }
     }
   },
   "rejectedAssets": [
