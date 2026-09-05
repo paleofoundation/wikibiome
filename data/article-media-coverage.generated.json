@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "09c11e24a2abb071bace0e54a2141209965aa6f4a820c7ae2e21e4c18edf2c36",
+    "registrySha256": "0209607b2ed38f2287eff6ce2928bddfff00dead262cda0bc532e10f4ca406d7",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "e04a3a4f63545e1aa8a0148f5c06fcc8f0b65059551275c95cee1097d6b43703",
+    "reviewLogSha256": "da83331cb76a5bea11df2633d481342844eaa15132765b2e6e2992d7d8703dd0",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -195,8 +195,8 @@
       {
         "file": "data/article-media-batches/microorganisms-031.json",
         "batchId": "microorganisms-031",
-        "status": "awaiting-control-review",
-        "sha256": "285f8ca681ba86ed7a5d4edbf276a57724b596cf2608323ba4210e9f3dc4448b"
+        "status": "reviewed",
+        "sha256": "2e8bdf315af8e219c52c9e76f42dc523a507e705504366de8bf0c208dca43e0c"
       }
     ]
   },
@@ -218,20 +218,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 166,
-    "remaining": 544,
+    "completed": 172,
+    "remaining": 538,
     "rejected": 23,
     "revised": 11,
     "scientificHolds": 7,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 163,
-      "remaining": 66
+      "completed": 169,
+      "remaining": 60
     },
     {
       "id": "metals",
@@ -4623,12 +4623,14 @@
       "route": "/article/prevotellaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-031",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-031/prevotellaceae-draft.png",
-        "sha256": "703c21dcac8ea686072a0901d3fb7b49c34e6115fea8be27147af34d46708a48"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "prevotellaceae-microbial-community-v1-master.png",
+        "publishedFile": "prevotellaceae-microbial-community-v1.webp",
+        "socialFile": "prevotellaceae-microbial-community-v1-social.webp"
       }
     },
     {
@@ -4642,12 +4644,14 @@
       "route": "/article/propionibacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-031",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-031/propionibacterium-draft.png",
-        "sha256": "ca72e2e2b9039756f3810fed4382d08b1e9eb6d63fdb9d612f011d632aecf5c1"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "propionibacterium-morphology-v1-master.png",
+        "publishedFile": "propionibacterium-morphology-v1.webp",
+        "socialFile": "propionibacterium-morphology-v1-social.webp"
       }
     },
     {
@@ -4661,12 +4665,14 @@
       "route": "/article/proteobacteria",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-031",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-031/proteobacteria-draft.png",
-        "sha256": "4afcdeda68c35a1c435e7cf729ad896a8a5bfc2383c54107db767a1ac9ec95e6"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "proteobacteria-microbial-community-v1-master.png",
+        "publishedFile": "proteobacteria-microbial-community-v1.webp",
+        "socialFile": "proteobacteria-microbial-community-v1-social.webp"
       }
     },
     {
@@ -4680,12 +4686,14 @@
       "route": "/article/proteus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-031",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-031/proteus-draft.png",
-        "sha256": "a0afe46ddd2bc97a69e6764e921e61d8889a77b5fb657ae79a17abeb8651387d"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "proteus-morphology-v1-master.png",
+        "publishedFile": "proteus-morphology-v1.webp",
+        "socialFile": "proteus-morphology-v1-social.webp"
       }
     },
     {
@@ -4699,12 +4707,14 @@
       "route": "/article/proteus-mirabilis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-031",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-031/proteus-mirabilis-draft.png",
-        "sha256": "8b3354c43708de55a672aa5ad47aceb81085cc1ba48fe51482c0b899abf2978f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "proteus-mirabilis-morphology-v1-master.png",
+        "publishedFile": "proteus-mirabilis-morphology-v1.webp",
+        "socialFile": "proteus-mirabilis-morphology-v1-social.webp"
       }
     },
     {
@@ -4718,12 +4728,14 @@
       "route": "/article/pseudomonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-031",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-031/pseudomonas-draft.png",
-        "sha256": "705266270572ff961d3b71f7aa61df7a3d75bc2c2591e8b0300785356a1d0729"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "pseudomonas-morphology-v1-master.png",
+        "publishedFile": "pseudomonas-morphology-v1.webp",
+        "socialFile": "pseudomonas-morphology-v1-social.webp"
       }
     },
     {
