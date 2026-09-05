@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "e3dd497324e7c3522d2988352dab449d5781aa44e26085dfe120f4cf556b9372",
+    "registrySha256": "855455a438e6fab8c5240eb551708d1deab897489aef1e27dd194b889e820513",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "fa41825faf0a1e48217e20ea4f867ef38ff0687d579a63ebe94064ea64b91d09",
+    "reviewLogSha256": "636b6fe07f6a4115d923262d6ec37e412bfe221f34b1d31f1ad80dceaa11a7db",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -153,8 +153,8 @@
       {
         "file": "data/article-media-batches/microorganisms-024.json",
         "batchId": "microorganisms-024",
-        "status": "awaiting-control-review",
-        "sha256": "2c4b6236c064c9f870284cd43e983c44c8ef6b745c987319cf4b5b9cb0f47db2"
+        "status": "reviewed",
+        "sha256": "ebd22494830897aea0c51d6f078468cf4f766fb47b9dce6fd1ee8d39a850043f"
       }
     ]
   },
@@ -176,20 +176,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 129,
-    "remaining": 581,
+    "completed": 134,
+    "remaining": 576,
     "rejected": 18,
     "revised": 10,
     "scientificHolds": 5,
-    "inReview": 5
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 126,
-      "remaining": 103
+      "completed": 131,
+      "remaining": 98
     },
     {
       "id": "metals",
@@ -3591,12 +3591,14 @@
       "route": "/article/lactococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-024",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-024/lactococcus-draft.png",
-        "sha256": "882cc3169d7cfcf9f06ef835cb0196fc75de0a20d662705f65c5b2be5c9de652"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "lactococcus-morphology-v1-master.png",
+        "publishedFile": "lactococcus-morphology-v1.webp",
+        "socialFile": "lactococcus-morphology-v1-social.webp"
       }
     },
     {
@@ -3610,12 +3612,14 @@
       "route": "/article/lancefieldella-parvula",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-024",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-024/lancefieldella-parvula-draft.png",
-        "sha256": "8ded6b438d3cea7d2457e5497a536cc00e0172b20bc72d5a845b8726222614b9"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "lancefieldella-parvula-morphology-v1-master.png",
+        "publishedFile": "lancefieldella-parvula-morphology-v1.webp",
+        "socialFile": "lancefieldella-parvula-morphology-v1-social.webp"
       }
     },
     {
@@ -3629,12 +3633,14 @@
       "route": "/article/leptotrichia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-024",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-024/leptotrichia-draft.png",
-        "sha256": "27743b823e083cfbebc8c2e7e5dad67dd97c7be0207b286546ae520af160866b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "leptotrichia-morphology-v1-master.png",
+        "publishedFile": "leptotrichia-morphology-v1.webp",
+        "socialFile": "leptotrichia-morphology-v1-social.webp"
       }
     },
     {
@@ -3648,12 +3654,14 @@
       "route": "/article/listeria",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-024",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-024/listeria-draft.png",
-        "sha256": "a7c60bdb7c7fac6d11cb8db066bc872f77bd8111eee49aeb91ddf9491c051755"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "listeria-morphology-v1-master.png",
+        "publishedFile": "listeria-morphology-v1.webp",
+        "socialFile": "listeria-morphology-v1-social.webp"
       }
     },
     {
@@ -3667,12 +3675,14 @@
       "route": "/article/lodderomyces-elongisporus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-024",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-024/lodderomyces-elongisporus-draft.png",
-        "sha256": "1e0f642c3b04b9427d68959c6f90047781422831a3e52667f03bf210a28a56f2"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "lodderomyces-elongisporus-morphology-v1-master.png",
+        "publishedFile": "lodderomyces-elongisporus-morphology-v1.webp",
+        "socialFile": "lodderomyces-elongisporus-morphology-v1-social.webp"
       }
     },
     {

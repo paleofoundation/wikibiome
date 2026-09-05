@@ -1,6 +1,6 @@
 # WikiBiome microorganism media batch 024
 
-Review-only scientific-media packet prepared from exact control parent `b353882397f86318376982419ec0d3400c9a478d` on 2026-09-05. This batch contains only the six deterministic queue decisions listed below. It creates no canonical master, public derivative, registry ownership, endpoint, structured-data image, coverage completion, or image-sitemap entry. Every draft remains non-public until separate WikiBiome root-control review at original resolution.
+Scientific-media packet prepared from exact control parent `b353882397f86318376982419ec0d3400c9a478d` and promoted from immutable review commit `1658f313f2eb456302242b6c732e370b0d522b25` on 2026-09-05 after WikiBiome root-control original-resolution acceptance. This batch contains only the six deterministic queue decisions listed below. Five accepted owners receive reviewed canonical media; the held `lactobacillus-rhamnosus` route remains asset-free and uncovered.
 
 ## Scientific identity and morphology audit
 
@@ -187,26 +187,32 @@ Connected pairs and chains are counted as multiple bodies only where ordinary in
 | `listeria` | `exec-45b23481-195f-4ef4-b6cb-4bc82dbb1dad.png` | `5fb9bbd060782c3b68ee247e9ebcf2d5eff6423498f3a90a55e888acd99c52db` | `a7c60bdb7c7fac6d11cb8db066bc872f77bd8111eee49aeb91ddf9491c051755` | 1,150,657 | 11 short-to-medium rounded-end rods / 8 groups: 5 singles and 3 touching pairs | One additional single body and one additional group versus the requested 10 / 7. |
 | `lodderomyces-elongisporus` | `exec-0f4c8120-5475-44ff-b44e-c9fb4e17f486.png` | `2671fa285780d089a77eaac8d9e38964c598c6dcfb070e83ce2720620f7c3210` | `1e0f642c3b04b9427d68959c6f90047781422831a3e52667f03bf210a28a56f2` | 1,377,092 | 9 structures / 8 groups: 6 oval-to-elongate yeast cells as 4 singles plus 1 narrow-based budding pair, and 3 separate elongated spore-like forms | None in count, grouping, or selected structure classes. |
 
-All five drafts are 1536 by 1024 lossless PNGs. At a luminance-below-220 foreground threshold, vertical subject bounds are y=318–720, 322–687, 309–700, 322–731, and 207–813 respectively, all within the standard 1200 by 630 cover-safe y=109–914 band. Every outer 32-pixel canvas band contains zero pixels below luminance 128 and retains a minimum channel value of at least 236. No dark vignette or corner is present. The Leptotrichia plate's leftmost and rightmost tapered rods approach but do not touch or clip the frame edge. No text, label, scale bar, embedded arrow, warm-neutral shift, blue-on-blue subject loss, decorative particle, host tissue, culture vessel, clipping, signature, or watermark is visible. These plates are review-only scientific algorithmic reconstructions, not micrographs or photographs, and none supports visual diagnosis.
+All five source drafts are 1536 by 1024 lossless PNGs. At a luminance-below-220 foreground threshold, vertical subject bounds are y=318–720, 322–687, 309–700, 322–731, and 207–813 respectively, all within the standard 1200 by 630 cover-safe y=109–914 band. Every outer 32-pixel canvas band contains zero pixels below luminance 128 and retains a minimum channel value of at least 236. No dark vignette or corner is present. The Leptotrichia plate's leftmost and rightmost tapered rods approach but do not touch or clip the frame edge. No text, label, scale bar, embedded arrow, warm-neutral shift, blue-on-blue subject loss, decorative particle, host tissue, culture vessel, clipping, signature, or watermark is visible. These plates are scientific algorithmic reconstructions, not micrographs or photographs, and none supports visual diagnosis.
 
-## Proposed accessibility and provenance language
+## Reviewed accessibility and provenance language
 
 - `lactococcus`
   - Alt: Eleven Lactococcus spherical-to-ovoid cells appear in seven groupings: four singles, two pairs, and one three-cell short chain.
-  - Caption: Type-species-anchored Lactococcus coccoid-to-ovoid cells, shown as eleven bodies in four single, two paired, and one short-chain grouping. This review-only scientific reconstruction is representative, non-universal, non-diagnostic, and not a micrograph.
+  - Caption: Type-species-anchored Lactococcus coccoid-to-ovoid cells, shown as eleven bodies in four single, two paired, and one short-chain grouping. This scientific reconstruction is representative, non-universal, non-diagnostic, and not a micrograph.
 - `lancefieldella-parvula`
   - Alt: Ten compact Lancefieldella parvula bodies appear in eight groupings: six ovoid-to-short-rod singles and two pairs, including two broadened continuous singles.
-  - Caption: Type-strain-anchored compact ovoid-to-very-short-rod variation in Lancefieldella parvula, shown as ten bodies in six single and two paired groupings. Two lobed forms remain single continuous cells. This review-only scientific reconstruction is representative, non-diagnostic, not a micrograph, and is keyed only to the current combination.
+  - Caption: Type-strain-anchored pleomorphic coccobacillary, ovoid, and very-short-rod variation in Lancefieldella parvula, shown as ten bodies in six single and two paired groupings. Two lobed forms remain single continuous cells. This scientific reconstruction is representative, non-diagnostic, not a micrograph, and is keyed only to the current combination.
 - `leptotrichia`
   - Alt: Eight tapered Leptotrichia fusiform rods appear in six groupings: four singles and two end-to-end pairs.
-  - Caption: Type-species-anchored Leptotrichia fusiform rods, shown as eight bodies in four single and two paired groupings. This review-only genus-level scientific reconstruction is representative, non-universal, non-diagnostic, and not a micrograph.
+  - Caption: Type-species-anchored Leptotrichia fusiform rods, shown as eight bodies in four single and two paired groupings. This genus-level scientific reconstruction is representative, non-universal, non-diagnostic, and not a micrograph.
 - `listeria`
   - Alt: Eleven short rounded-end Listeria rods appear in eight groupings: five singles and three touching pairs.
-  - Caption: Type-species-anchored Listeria short rods, shown as eleven bodies in five single and three paired groupings. This review-only genus-level scientific reconstruction is representative, non-universal, non-diagnostic, and not a micrograph.
+  - Caption: Type-species-anchored Listeria short rods, shown as eleven bodies in five single and three paired groupings. This genus-level scientific reconstruction is representative, non-universal, non-diagnostic, and not a micrograph.
 - `lodderomyces-elongisporus`
-  - Alt: Six oval-to-elongate Lodderomyces elongisporus yeast cells, including one budding pair, appear above three separated elongated spore forms.
-  - Caption: Selected Lodderomyces elongisporus morphology showing six oval-to-elongate yeast bodies in four single and one narrow-based budding-pair grouping, plus three elongated spore forms. This review-only scientific reconstruction is type-material anchored, representative, non-diagnostic, not a micrograph, and makes no universal sporulation claim.
+  - Alt: Six oval-to-elongate Lodderomyces elongisporus yeast cells, including one budding pair, appear above three separated elongated spore-like forms.
+  - Caption: Selected Lodderomyces elongisporus morphology showing six oval-to-elongate yeast bodies in four single and one narrow-based budding-pair grouping, plus three elongated spore-like forms. This scientific reconstruction is type-material anchored, representative, non-diagnostic, not a micrograph, and makes no universal sporulation claim.
 
-Proposed provenance for every generated route: generated once with the OpenAI built-in image generator from the route's immutable batch-024 prompt after current-identity and conservative-morphology audit; human-audited at original 1536 by 1024 resolution. Review-only scientific algorithmic reconstruction, not a micrograph or photograph. Output-specific deviations remain disclosed in the manifest and this ledger.
+Reviewed provenance for every generated route: generated once with the OpenAI built-in image generator from the route's immutable batch-024 prompt after current-identity and conservative-morphology audit; human-audited at original 1536 by 1024 resolution and accepted by WikiBiome root control. Scientific algorithmic reconstruction, not a micrograph or photograph. Output-specific deviations remain disclosed in the manifest and this ledger.
+
+## Promotion record
+
+WikiBiome root control directly inspected and accepted all five exact PNGs at original resolution and authorized promotion without regeneration, revision, or source-pixel alteration. The accepted counts and prompt deviations remain literal in the manifest, public accessibility language, embedded metadata, and review ledger. Lancefieldella is published only as a representative, non-diagnostic pleomorphic coccobacillary, ovoid, and very-short-rod reconstruction. Listeria retains its accepted eleven-body/eight-group deviation. The Lodderomyces elongated forms remain explicitly spore-like reconstruction elements, never micrographic or diagnostic evidence.
+
+Each native 1200 by 630 cover transform retains every accepted body, grouping, and major structure; all five social derivatives therefore use `cover` with no contain override. Canonical lossless masters decode pixel-identically to the accepted source drafts. No `work/media-drafts` path is publicly routed.
 
 The `lactobacillus-rhamnosus` route remains an active asset-free scientific/editorial hold. It owns no prompt, raster, generation record, registry key, master, derivative, structured media record, endpoint, image sitemap entry, copied image, or aliased image. The pre-existing holds for `lachnoclostridium`, `lachnospiraceae-family`, `lactobacillus-plantarum`, and `lactobacillus-reuteri` remain unchanged.

@@ -3320,6 +3320,160 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome root full-resolution review in microorganisms batch 023 after immutable-hash and output-count verification.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactobacillus-jensenii-draft.png", "sourceSha256": "6496b4dbcdb232b7faee082385fc334491a5c423297141d5196d1671ddd7900b", "generationRecord": "exec-26330e84-e360-42b5-ad68-5cc636481b68.png" }
+    },
+    "lactococcus|lactococcus-morphology-v1.webp": {
+      "pageId": "lactococcus",
+      "publishedFile": "lactococcus-morphology-v1.webp",
+      "masterSource": "lactococcus-morphology-v1-master.png",
+      "socialFile": "lactococcus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1357&mode=Info",
+          "https://lpsn.dsmz.de/genus/lactococcus",
+          "https://lpsn.dsmz.de/species/lactococcus-lactis",
+          "https://doi.org/10.1016/S0723-2020(85)80052-7",
+          "https://bacdive.dsmz.de/strain/14702"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Lactococcus, NCBITaxon:1357, with Lactococcus lactis as the nomenclatural type. Primary transfer and type-strain evidence support a conservative coccoid-to-ovoid treatment with pairs and short chains without implying universal morphology or visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eleven spherical-to-ovoid bodies in seven groups: four singles, two touching pairs, and one touching three-cell short chain. No unsupported structure, scene, text, or clipping is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the literal eleven-body/seven-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root control original-resolution review in microorganisms batch 024 after immutable-hash and output-count verification.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lactococcus-draft.png", "sourceSha256": "882cc3169d7cfcf9f06ef835cb0196fc75de0a20d662705f65c5b2be5c9de652", "generationRecord": "exec-13653a46-f4f4-438c-a5a7-40ae2a7b279d.png" }
+    },
+    "lancefieldella-parvula|lancefieldella-parvula-morphology-v1.webp": {
+      "pageId": "lancefieldella-parvula",
+      "publishedFile": "lancefieldella-parvula-morphology-v1.webp",
+      "masterSource": "lancefieldella-parvula-morphology-v1-master.png",
+      "socialFile": "lancefieldella-parvula-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1382&mode=Info",
+          "https://lpsn.dsmz.de/species/lancefieldella-parvula",
+          "https://doi.org/10.3389/fmicb.2018.02007",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035223/",
+          "https://bacdive.dsmz.de/strain/3040"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current Lancefieldella parvula, NCBITaxon:1382. Genome-based transfer, type-strain, and primary type-genome evidence support conservative pleomorphic coccobacillary, ovoid, and very-short-rod variation without reviving the retired Atopobium parvulum media identity."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted ten compact bodies in eight groups: six continuous singles and two touching pairs. Two lower-row singles retain broadened or lobed continuous outlines and remain one body each; the grouping deviation is recorded literally."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the ten-body/eight-group pleomorphic output. Caption states current-combination, representative, non-diagnostic, non-micrograph scope and does not infer hidden pairs. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root control original-resolution review in microorganisms batch 024 as a representative, non-diagnostic pleomorphic coccobacillary and ovoid reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lancefieldella-parvula-draft.png", "sourceSha256": "8ded6b438d3cea7d2457e5497a536cc00e0172b20bc72d5a845b8726222614b9", "generationRecord": "exec-9f34036c-37b4-4ee3-8068-cb943f5ed7c8.png" }
+    },
+    "leptotrichia|leptotrichia-morphology-v1.webp": {
+      "pageId": "leptotrichia",
+      "publishedFile": "leptotrichia-morphology-v1.webp",
+      "masterSource": "leptotrichia-morphology-v1-master.png",
+      "socialFile": "leptotrichia-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32067&mode=Info",
+          "https://lpsn.dsmz.de/genus/leptotrichia",
+          "https://lpsn.dsmz.de/species/leptotrichia-buccalis",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035221/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Leptotrichia, NCBITaxon:32067, with Leptotrichia buccalis as the nomenclatural type. Primary type-strain genome evidence supports a conservative fusiform, non-motile, non-sporulating rod treatment without a universal or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eight tapered fusiform rods in six groups: four singles and two touching end-to-end pairs. All bodies remain countable and unclipped, with no unsupported structures."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the eight-body/six-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root control original-resolution review in microorganisms batch 024 after immutable-hash and output-count verification.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "leptotrichia-draft.png", "sourceSha256": "27743b823e083cfbebc8c2e7e5dad67dd97c7be0207b286546ae520af160866b", "generationRecord": "exec-ba0fb39d-2ac1-4c0f-8fba-82d9a2d71e3c.png" }
+    },
+    "listeria|listeria-morphology-v1.webp": {
+      "pageId": "listeria",
+      "publishedFile": "listeria-morphology-v1.webp",
+      "masterSource": "listeria-morphology-v1-master.png",
+      "socialFile": "listeria-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1637&mode=Info",
+          "https://lpsn.dsmz.de/genus/listeria",
+          "https://lpsn.dsmz.de/species/listeria-monocytogenes",
+          "https://bacdive.dsmz.de/strain/6875",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC106279/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current conserved genus Listeria, NCBITaxon:1637, with Listeria monocytogenes as the nomenclatural type. Type-strain and primary microscopy evidence support short rods while the plate omits variable motility structures and avoids a universal or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted eleven rounded-end rods in eight groups: five singles and three touching pairs. The one-body/one-group prompt deviation is accepted and preserved literally."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the accepted eleven-body/eight-group output rather than the prompt. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root control original-resolution review in microorganisms batch 024 with the audited count deviation preserved.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "listeria-draft.png", "sourceSha256": "a7c60bdb7c7fac6d11cb8db066bc872f77bd8111eee49aeb91ddf9491c051755", "generationRecord": "exec-45b23481-195f-4ef4-b6cb-4bc82dbb1dad.png" }
+    },
+    "lodderomyces-elongisporus|lodderomyces-elongisporus-morphology-v1.webp": {
+      "pageId": "lodderomyces-elongisporus",
+      "publishedFile": "lodderomyces-elongisporus-morphology-v1.webp",
+      "masterSource": "lodderomyces-elongisporus-morphology-v1-master.png",
+      "socialFile": "lodderomyces-elongisporus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=36914&mode=Info",
+          "https://www.indexfungorum.org/",
+          "https://journals.asm.org/doi/10.1128/mra.00596-23",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6141678/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC8111154/"
+        ],
+        "notes": "NCBI Taxonomy and current fungal-nomenclature checks support Lodderomyces elongisporus, NCBITaxon:36914. Type-material, primary genome, and peer-reviewed microscopy evidence supports a restrained selected-form treatment of budding yeast and elongated spore-like forms without a universal sporulation or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Root original-resolution review accepted nine structures in eight groups: six oval-to-elongate yeast bodies as four singles plus one narrow-based budding pair, and three separate elongated spore-like forms. Acceptance applies only to a reconstructed, representative plate, never a micrograph or diagnostic image."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and caption call the lower forms spore-like, preserve all nine structures and eight groups, and state type-material-anchored, representative, non-diagnostic, non-micrograph, non-photograph scope. The validated cover crop retains every major structure."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome root control original-resolution review in microorganisms batch 024 only as a scientific reconstruction, not a micrograph or diagnostic image.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lodderomyces-elongisporus-draft.png", "sourceSha256": "1e0f642c3b04b9427d68959c6f90047781422831a3e52667f03bf210a28a56f2", "generationRecord": "exec-0f4c8120-5475-44ff-b44e-c9fb4e17f486.png" }
     }
   },
   "rejectedAssets": [
