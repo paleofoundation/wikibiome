@@ -694,30 +694,35 @@ export async function reportResearcherMessage(account: ResearcherSession, messag
 export async function getRoundtableInterest(accountId: string) {
   const db = await getResearchDb();
   const record = (await db.select().from(roundtableInterests).where(eq(roundtableInterests.accountId, accountId)).limit(1))[0];
-  return record ? { ...record, roles: parseList(record.rolesJson), tracks: parseList(record.tracksJson) } : null;
+  if (!record) return null;
+  const eventTypes = parseList(record.eventTypesJson);
+  return { ...record, eventTypes: eventTypes.length ? eventTypes : ["roundtable"], roles: parseList(record.rolesJson), tracks: parseList(record.tracksJson) };
 }
 
 export async function saveRoundtableInterest(account: ResearcherSession, input: Record<string, unknown>) {
   assertVerified(account);
+  const eventTypes = textList(input.eventTypes, 3, 40).filter((value) => ["roundtable", "conference", "workshop"].includes(value));
   const roles = textList(input.roles, 4, 40).filter((value) => ["attending", "speaking", "moderating", "organizing"].includes(value));
   const tracks = textList(input.tracks, 12, 100);
   const formatPreference = cleanText(input.formatPreference, 20);
+  if (!eventTypes.length) throw new Error("Choose at least one kind of researcher event.");
   if (!roles.length) throw new Error("Choose at least one way you would like to participate.");
   if (!tracks.length) throw new Error("Choose at least one scientific track.");
   if (!["virtual", "in_person", "either"].includes(formatPreference)) throw new Error("Choose a valid meeting format.");
   const now = new Date().toISOString();
   const updatesConsent = input.updatesConsent === true;
-  const values = { rolesJson: JSON.stringify(roles), tracksJson: JSON.stringify(tracks), formatPreference, location: cleanText(input.location, 240), availability: cleanText(input.availability, 1000), proposedQuestion: cleanText(input.proposedQuestion, 4000), updatesConsent, consentedAt: updatesConsent ? now : null, withdrawnAt: null, status: "interested", updatedAt: now };
+  const earlyInviteConsent = input.earlyInviteConsent === true;
+  const values = { eventTypesJson: JSON.stringify(eventTypes), rolesJson: JSON.stringify(roles), tracksJson: JSON.stringify(tracks), formatPreference, location: cleanText(input.location, 240), availability: cleanText(input.availability, 1000), proposedQuestion: cleanText(input.proposedQuestion, 4000), updatesConsent, consentedAt: updatesConsent ? now : null, earlyInviteConsent, earlyInviteConsentedAt: earlyInviteConsent ? now : null, withdrawnAt: null, status: "interested", updatedAt: now };
   const db = await getResearchDb();
   await db.insert(roundtableInterests).values({ accountId: account.accountId, ...values }).onConflictDoUpdate({ target: roundtableInterests.accountId, set: values });
-  await recordAudit(account.accountId, "roundtable.interest_saved", "account", account.accountId, { roles, tracks, updatesConsent });
-  return { ...values, roles, tracks };
+  await recordAudit(account.accountId, "roundtable.interest_saved", "account", account.accountId, { eventTypes, roles, tracks, updatesConsent, earlyInviteConsent });
+  return { ...values, eventTypes, roles, tracks };
 }
 
 export async function withdrawRoundtableInterest(account: ResearcherSession) {
   const now = new Date().toISOString();
   const db = await getResearchDb();
-  await db.update(roundtableInterests).set({ status: "withdrawn", updatesConsent: false, withdrawnAt: now, updatedAt: now }).where(eq(roundtableInterests.accountId, account.accountId));
+  await db.update(roundtableInterests).set({ status: "withdrawn", updatesConsent: false, earlyInviteConsent: false, withdrawnAt: now, updatedAt: now }).where(eq(roundtableInterests.accountId, account.accountId));
   await recordAudit(account.accountId, "roundtable.interest_withdrawn", "account", account.accountId, {});
   return { status: "withdrawn" };
 }
@@ -794,11 +799,11 @@ export async function listRoundtableShortlist(account: ResearcherSession) {
   ]);
   const highest = new Map<string, number>();
   for (const event of recognition) highest.set(event.accountId, Math.max(highest.get(event.accountId) ?? 0, event.level));
-  const eligible = interests.filter((item) => (highest.get(item.accountId) ?? 0) >= 4);
+  const eligible = interests.filter((item) => item.earlyInviteConsent && (highest.get(item.accountId) ?? 0) >= 4);
   const people = await getPublicResearchersByAccountIds(eligible.map((item) => item.accountId));
   return eligible.flatMap((interest) => {
     const researcher = people.get(interest.accountId);
-    return researcher ? [{ ...interest, roles: parseList(interest.rolesJson), tracks: parseList(interest.tracksJson), stars: highest.get(interest.accountId) ?? 0, researcher }] : [];
+    return researcher ? [{ ...interest, eventTypes: parseList(interest.eventTypesJson), roles: parseList(interest.rolesJson), tracks: parseList(interest.tracksJson), stars: highest.get(interest.accountId) ?? 0, researcher }] : [];
   });
 }
 

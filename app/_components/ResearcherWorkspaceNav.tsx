@@ -7,7 +7,7 @@ export function ResearcherWorkspaceNav({ active, unread = 0 }: { active: "dashbo
     ["proposals", "/researcher/proposals", "Proposals"],
     ["notifications", "/researcher/notifications", `Notifications${unread ? ` (${unread})` : ""}`],
     ["messages", "/researcher/messages", "Messages"],
-    ["roundtable", "/roundtable", "Roundtable"],
+    ["roundtable", "/roundtable", "Events & Roundtable"],
   ] as const;
   return <nav className="researcher-workspace-nav" aria-label="Researcher workspace">{items.map(([id, href, label]) => <Link key={id} className={active === id ? "active" : ""} aria-current={active === id ? "page" : undefined} href={href}>{label}</Link>)}</nav>;
 }

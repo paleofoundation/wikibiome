@@ -76,7 +76,7 @@ ORCID's current OpenID discovery document does not advertise PKCE support. WikiB
 
 - Recalculate levels one through three only after an author review, work submission, or proposal becomes accepted. Deduplicate by contribution type and record. Claims alone, posts, reactions, pending work, rejected work, and payments never count.
 - Levels four and five require a moderator with a written quality/conduct reason. Five-star recognition corresponds to human-reviewed Topic Steward status. Revocations remain in the immutable audit trail and need an appeal-visible reason.
-- The Roundtable record is an interest registry, not registration. Event email is separate and withdrawable. The shortlist is private and limited to active four- or five-star researchers with active interest; organizers still make every invitation decision.
+- The research-event record is an interest registry, not registration. Researchers select conferences, workshops, or Microbiome Roundtables; early-invitation consideration and event email are separate, withdrawable consents. The shortlist is private and limited to active four- or five-star researchers with active interest and explicit early-invitation consent; organizers still make every invitation decision.
 
 ## Controlled release sequence
 

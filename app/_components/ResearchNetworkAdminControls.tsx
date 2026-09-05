@@ -5,6 +5,7 @@ import { useState, type FormEvent } from "react";
 type ShortlistEntry = {
   accountId: string;
   stars: number;
+  eventTypes: string[];
   roles: string[];
   tracks: string[];
   researcher: { name: string; orcid: string };
@@ -47,12 +48,12 @@ export function ResearchNetworkAdminControls({ initialShortlist }: { initialShor
   }
 
   return <section className="research-admin-controls" aria-labelledby="research-admin-title">
-    <header><span>Human review controls</span><h2 id="research-admin-title">Publication, recognition, and Roundtable shortlist</h2><p>These actions never deploy content or send invitations. They record reviewed decisions and exact upstream evidence.</p></header>
+    <header><span>Human review controls</span><h2 id="research-admin-title">Publication, recognition, and event shortlist</h2><p>These actions never deploy content or send invitations. They record reviewed decisions and exact upstream evidence.</p></header>
     <div>
       <form className="research-form" onSubmit={publishProposal}><h3>Link an accepted proposal to publication</h3><label><span>Proposal ID</span><input name="proposalId" required/></label><label><span>Complete upstream Git commit</span><input name="publishedCommit" required pattern="[a-fA-F0-9]{40}"/></label><label><span>Editorial note</span><textarea name="note" rows={3}/></label><button>Record publication link</button></form>
       <form className="research-form" onSubmit={recognize}><h3>Award reviewed recognition</h3><label><span>Researcher account ID</span><input name="accountId" required/></label><div className="research-form-grid"><label><span>Level</span><select name="level"><option value="4">4 — cross-omics bridge</option><option value="5">5 — Topic Steward</option></select></label><label><span>Evidence type</span><input name="sourceType" required placeholder="proposal, source, or account"/></label></div><label><span>Evidence ID</span><input name="sourceId" required/></label><label><span>Public quality and conduct reason</span><textarea name="reason" rows={4} required/></label><button>Award after human review</button></form>
     </div>
-    <section className="roundtable-shortlist"><header><h3>Private Roundtable invitation shortlist</h3><button className="secondary" type="button" onClick={refreshShortlist}>Refresh</button></header>{shortlist.length ? shortlist.map((entry) => <article key={entry.accountId}><b>{entry.researcher.name}</b><span>{entry.stars} stars · ORCID {entry.researcher.orcid}</span><small>{entry.roles.join(", ")} · {entry.tracks.join(", ")}</small></article>) : <p>No active four- or five-star researchers currently meet the opt-in shortlist threshold.</p>}<p>Shortlisting is not an invitation. Organizers must still review subject fit, conflicts, conduct, and interdisciplinary representation.</p></section>
+    <section className="roundtable-shortlist"><header><h3>Private early-invitation shortlist</h3><button className="secondary" type="button" onClick={refreshShortlist}>Refresh</button></header>{shortlist.length ? shortlist.map((entry) => <article key={entry.accountId}><b>{entry.researcher.name}</b><span>{entry.stars} stars · ORCID {entry.researcher.orcid}</span><small>{entry.eventTypes.join(", ")} · {entry.roles.join(", ")} · {entry.tracks.join(", ")}</small></article>) : <p>No active four- or five-star researchers currently meet the separate early-invitation opt-in threshold.</p>}<p>Shortlisting is not an invitation. Organizers must still review subject fit, conflicts, conduct, and interdisciplinary representation.</p></section>
     {message && <p className="form-message" role="status">{message}</p>}
   </section>;
 }
