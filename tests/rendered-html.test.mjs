@@ -2196,20 +2196,131 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(mortierellaRevision?.disposition, "revise");
   assert.equal(mortierellaRevision?.sha256, "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5");
   assert.equal(mortierellaRevision?.supersededBy, "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png");
-  assert.deepEqual(program.nextBatch.map((record) => record.id), [
-    "oscillospirales",
+  const batch028 = batches.find((batch) => batch.batchId === "microorganisms-028");
+  assert.equal(batch028?.status, "awaiting-control-review");
+  assert.equal(batch028?.publicationMetadataPlan?.reviewOnly, true);
+  assert.equal(batch028?.routeDecisionCount, 6);
+  assert.equal(batch028?.candidateCount, 5);
+  assert.equal(batch028?.scientificHoldCount, 1);
+  assert.equal(batch028?.generationCallCount, 5);
+  assert.equal(batch028?.reviewableGenerationCount, 5);
+  assert.equal(batch028?.revisionCount, 0);
+  assert.equal(batch028?.controlReviewRequired, true);
+  assert.equal(batch028?.controlPreliminaryVisualReview?.status, "preliminary-pass-promotion-not-authorized");
+  const batch028Candidates = batch028?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch028Candidates.map((asset) => asset.pageId), [
     "parabacteroides",
     "parabacteroides-distasonis",
     "paraprevotella",
     "parasutterella",
     "parvimonas-micra",
   ]);
+  const batch028ExpectedOutputs = new Map([
+    ["parabacteroides", ["NCBITaxon:375288", "20be61c163dbf7da920f6069b14fffcf568d838bd0bc5ee4401620571514e0ac", "1cc4b3d5f99b4f9fde9be00da8ad50e6135c113fdc6b6e13501edf9ff55c6cd5", 1240713, 11, 8]],
+    ["parabacteroides-distasonis", ["NCBITaxon:823", "b7db307efbe9017e9e17c63920d38ad3a520ac2a21c5875fbfdcf8060f128cd7", "da5445fe14f58726c3de0cd571f0dda9753674a93efee6ba71ee095759e656a4", 1227583, 8, 6]],
+    ["paraprevotella", ["NCBITaxon:577309", "e74f5db2d0342b4519bf0b0becd815f4be8a5af846453ce6f32c59c4032a83d6", "13cfc54663766b41db4855abfe7fc10a23b04babb427d854347c1a1d3b95b641", 1360432, 11, 9]],
+    ["parasutterella", ["NCBITaxon:577310", "822ecd047013f3403df249581f58814b6b6c81d9d1a2c2200c46019784415618", "677a02452875c7133066b9426ce285a9dc4da3e2ebc84e5a5c05dee9969778cc", 1241353, 10, 8]],
+    ["parvimonas-micra", ["NCBITaxon:33033", "ca2db51a670d4688d9c75681b8d2e9668692184021761bef24ee360dc812d648", "4abe92aded0e1827946887b9b20485f6ff59a3a284991761246a758213d0df46", 1227073, 12, 8]],
+  ]);
+  const batch028PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-028.md", import.meta.url), "utf8");
+  const batch028DraftFileNames = readdirSync(new URL("../work/media-drafts/microorganisms-batch-028/", import.meta.url)).sort();
+  assert.deepEqual(batch028DraftFileNames, [
+    "parabacteroides-distasonis-draft.png",
+    "parabacteroides-draft.png",
+    "paraprevotella-draft.png",
+    "parasutterella-draft.png",
+    "parvimonas-micra-draft.png",
+  ]);
+  const batch028GenerationRecords = new Set();
+  for (const asset of batch028Candidates) {
+    const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount] = batch028ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.promptSha256, expectedPromptSha256);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.equal(asset.fileSizeBytes, expectedFileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.coverSafe, true);
+    assert.equal(asset.outputAudit?.metadataConsistency, "pass");
+    assert.equal(asset.proposedSocialResizeFit, "cover");
+    assert.match(asset.generationRecord, /^exec-[0-9a-f-]+\.png$/);
+    assert.ok(!batch028GenerationRecords.has(asset.generationRecord), `${asset.pageId} must own one distinct generation record`);
+    batch028GenerationRecords.add(asset.generationRecord);
+    assertMediaOutputAudit(asset, "microorganisms-028");
+
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, expectedFileSize);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expectedSha256);
+    assert.equal(draftBytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+    const draftMetadata = await sharp(draftBytes).metadata();
+    assert.deepEqual([draftMetadata.width, draftMetadata.height], [1536, 1024]);
+
+    const promptMatch = batch028PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.ok(promptMatch, `${asset.pageId} exact immutable prompt must remain recoverable`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
+
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must remain outside the reviewed registry`);
+    assert.ok(!batch025PublicMediaFiles.includes(expectedFiles.publishedFile), `${asset.pageId} must not have a public article derivative`);
+    assert.ok(!batch025PublicMediaFiles.includes(expectedFiles.socialFile), `${asset.pageId} must not have a public social derivative`);
+    assert.ok(!batch025MasterFiles.includes(expectedFiles.masterSource), `${asset.pageId} must not have a canonical master before approval`);
+    assert.ok(!batch025PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft path must not become public`);
+  }
+  assert.equal(batch028GenerationRecords.size, 5);
+  assert.equal(batch028Candidates.find((asset) => asset.pageId === "parabacteroides")?.outputAudit?.observedTouchingPairCount, 3);
+  assert.equal(batch028Candidates.find((asset) => asset.pageId === "parabacteroides-distasonis")?.outputAudit?.observedCloseParallelTwoRodArrangementCount, 1);
+  assert.equal(batch028Candidates.find((asset) => asset.pageId === "paraprevotella")?.outputAudit?.observedSingleCount, 7);
+  assert.equal(batch028Candidates.find((asset) => asset.pageId === "parasutterella")?.outputAudit?.observedTouchingPairCount, 2);
+  assert.equal(batch028Candidates.find((asset) => asset.pageId === "parvimonas-micra")?.outputAudit?.observedTouchingThreeCellChainCount, 1);
+  assert.match(batch028PromptRecord, /Assembly of hundreds of novel bacterial genomes from the chicken caecum/);
+  assert.match(batch028PromptRecord, /10\.1186\/s13059-020-1947-1/);
+  assert.match(batch028PromptRecord, /10\.1099\/ijs\.0\.64192-0/);
+  assert.match(batch028PromptRecord, /10\.1128\/jb\.25\.4\.389-413\.1933/);
+  assert.match(batch028PromptRecord, /10\.1099\/ijs\.0\.008169-0/);
+  assert.match(batch028PromptRecord, /10\.1099\/ijs\.0\.002519-0/);
+  assert.match(batch028PromptRecord, /10\.1099\/ijs\.0\.64338-0/);
+  assert.match(batch028PromptRecord, /10\.1099\/00207713-43-4-787/);
+  const batch028Hold = batch028?.assets.find((asset) => asset.pageId === "oscillospirales");
+  assert.equal(batch028Hold?.decision, "scientific-identity-hold");
+  assert.equal(batch028Hold?.generationStatus, "withheld-no-call");
+  assert.equal(batch028Hold?.sourceEraIdentifier, "uncontrolled-order-name:Oscillospirales");
+  assert.equal(batch028Hold?.currentAcceptedName, "Eubacteriales");
+  assert.equal(batch028Hold?.canonicalIdentifier, "NCBITaxon:186802");
+  assert.equal(batch028Hold?.proposedCanonicalPageId, "eubacteriales");
+  assert.equal(batch028Hold?.assetType, undefined);
+  assert.equal(batch028Hold?.revision, undefined);
+  assert.equal(batch028Hold?.draft, undefined);
+  assert.equal(batch028Hold?.generationRecord, undefined);
+  assert.match(batch028Hold?.reason ?? "", /not validly published/);
+  assert.match(batch028Hold?.reason ?? "", /synonym without standing/);
+  assert.match(batch028Hold?.requiredResolution ?? "", /permanent asset-free 308 alias/);
+  assert.doesNotMatch(batch028PromptRecord, /<!-- PROMPT oscillospirales START -->/);
+  assert.ok(!batch028DraftFileNames.some((name) => name.startsWith("oscillospirales-")));
+  assert.equal(articleMediaRegistry.oscillospirales, undefined);
+  assert.ok(articleMediaRegistry.eubacteriales);
+  assert.ok(!batch025PublicMediaFiles.some((name) => name.startsWith("oscillospirales-")));
+  assert.ok(!batch025MasterFiles.some((name) => name.startsWith("oscillospirales-")));
+  const batch028HoldLog = reviewLog.rejectedAssets.find((asset) => asset.pageId === "oscillospirales" && asset.batchId === "microorganisms-028");
+  assert.equal(batch028HoldLog?.disposition, "scientific-identity-hold");
+  assert.equal(batch028HoldLog?.canonicalIdentifier, "NCBITaxon:186802");
+  assert.equal(batch028HoldLog?.proposedCanonicalPageId, "eubacteriales");
+  assert.deepEqual(program.nextBatch.map((record) => record.id), [
+    "penicillium",
+    "peptostreptococcus",
+    "peptostreptococcus-anaerobius",
+    "peptostreptococcus-stomatis",
+    "phascolarctobacterium",
+    "phocaeicola",
+  ]);
   assert.equal(program.current.completed, 150);
   assert.equal(program.current.remaining, 560);
-  assert.equal(program.current.rejected, 21);
+  assert.equal(program.current.rejected, 22);
   assert.equal(program.current.revised, 11);
-  assert.equal(program.current.inReview, 0);
-  assert.equal(program.current.scientificHolds, 6);
+  assert.equal(program.current.inReview, 5);
+  assert.equal(program.current.scientificHolds, 7);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -2234,6 +2345,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     "lactobacillus-reuteri",
     "lactobacillus-rhamnosus",
     "mycoplasma-hominis",
+    "oscillospirales",
   ]);
   assert.equal(program.current.scientificHolds, activeScientificHolds.length);
   for (const hold of activeScientificHolds) {

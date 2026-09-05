@@ -4462,6 +4462,29 @@
       "supersededBy": "work/media-drafts/microorganisms-batch-027/oscillibacter-draft.png",
       "outcome": "The corrected replacement, SHA-256 7419e9bd8b0165db560eb6a5069c41b0eb2a10fd76561b324594bbc3ad32aa49, was accepted at native resolution as the only review candidate. The stale output remains permanently ineligible.",
       "routingImpact": "The quarantined PNG has no review-candidate status, registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion."
+    },
+    {
+      "pageId": "oscillospirales",
+      "sourceEraIdentifier": "uncontrolled-order-name:Oscillospirales",
+      "batchId": "microorganisms-028",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Eubacteriales",
+      "canonicalIdentifier": "NCBITaxon:186802",
+      "proposedCanonicalPageId": "eubacteriales",
+      "reason": "LPSN records ‘Oscillospirales’ Glendinning et al. 2020 as not validly published, a synonym without standing, lacking a discernible protologue, and identifies Eubacteriales Buchanan 1917 (Approved Lists 1980) as the correct order. The exact originating paper was cross-checked as ‘Assembly of hundreds of novel bacterial genomes from the chicken caecum’, PMID 32051016, DOI 10.1186/s13059-020-1947-1. WikiBiome already has the canonical reviewed Eubacteriales owner, NCBITaxon:186802, so a separate Oscillospirales media identity would duplicate and misstate the current order.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/order/oscillospirales",
+        "https://doi.org/10.83108/rn.36094",
+        "https://pubmed.ncbi.nlm.nih.gov/32051016/",
+        "https://doi.org/10.1186/s13059-020-1947-1",
+        "local:data/content.generated.json#/pages/oscillospirales",
+        "local:data/article-id-aliases.json",
+        "local:lib/article-media-registry.mjs#/eubacteriales"
+      ],
+      "requiredResolution": "Editorially retire or reconcile oscillospirales as an audited permanent asset-free 308 alias to the existing canonical eubacteriales article, NCBITaxon:186802, reconcile source-era content and provenance, and remove the duplicate canonical route from the media corpus without creating another media owner.",
+      "routingImpact": "The source-era Oscillospirales route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, structured media records, canonical media endpoints, image-sitemap entries, and coverage completion. Batch 028 makes no queue substitution and does not copy or alias the reviewed Eubacteriales image."
     }
   ],
   "revisedAssets": [

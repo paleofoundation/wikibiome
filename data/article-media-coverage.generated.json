@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "9c7075e8ed36d128af46c019be1ae718dece5f4e9a598773f6e8af5103a35bd5",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "2d7116727c3b8a704b10890d4eebff47f7d7a345a502311745db2cefd3e30db5",
+    "reviewLogSha256": "74a7ef52d2a0392e414e696747688a4414137e970ed06b0a6975f2263834bb89",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -173,6 +173,12 @@
         "batchId": "microorganisms-027",
         "status": "reviewed",
         "sha256": "32c3aa96a1d09789b5e08cff1671bd325e9dc1cd579614e7b4a5a7ae3ec9c58e"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-028.json",
+        "batchId": "microorganisms-028",
+        "status": "awaiting-control-review",
+        "sha256": "a2a77d58754b64fa94f578850d6a0966b0744d2e4a595de1616e79d58e2866ce"
       }
     ]
   },
@@ -196,10 +202,10 @@
     "total": 710,
     "completed": 150,
     "remaining": 560,
-    "rejected": 21,
+    "rejected": 22,
     "revised": 11,
-    "scientificHolds": 6,
-    "inReview": 0
+    "scientificHolds": 7,
+    "inReview": 5
   },
   "categories": [
     {
@@ -754,6 +760,29 @@
       "supersededBy": "work/media-drafts/microorganisms-batch-027/oscillibacter-draft.png",
       "outcome": "The corrected replacement, SHA-256 7419e9bd8b0165db560eb6a5069c41b0eb2a10fd76561b324594bbc3ad32aa49, was accepted at native resolution as the only review candidate. The stale output remains permanently ineligible.",
       "routingImpact": "The quarantined PNG has no review-candidate status, registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion."
+    },
+    {
+      "pageId": "oscillospirales",
+      "sourceEraIdentifier": "uncontrolled-order-name:Oscillospirales",
+      "batchId": "microorganisms-028",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Eubacteriales",
+      "canonicalIdentifier": "NCBITaxon:186802",
+      "proposedCanonicalPageId": "eubacteriales",
+      "reason": "LPSN records ‘Oscillospirales’ Glendinning et al. 2020 as not validly published, a synonym without standing, lacking a discernible protologue, and identifies Eubacteriales Buchanan 1917 (Approved Lists 1980) as the correct order. The exact originating paper was cross-checked as ‘Assembly of hundreds of novel bacterial genomes from the chicken caecum’, PMID 32051016, DOI 10.1186/s13059-020-1947-1. WikiBiome already has the canonical reviewed Eubacteriales owner, NCBITaxon:186802, so a separate Oscillospirales media identity would duplicate and misstate the current order.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/order/oscillospirales",
+        "https://doi.org/10.83108/rn.36094",
+        "https://pubmed.ncbi.nlm.nih.gov/32051016/",
+        "https://doi.org/10.1186/s13059-020-1947-1",
+        "local:data/content.generated.json#/pages/oscillospirales",
+        "local:data/article-id-aliases.json",
+        "local:lib/article-media-registry.mjs#/eubacteriales"
+      ],
+      "requiredResolution": "Editorially retire or reconcile oscillospirales as an audited permanent asset-free 308 alias to the existing canonical eubacteriales article, NCBITaxon:186802, reconcile source-era content and provenance, and remove the duplicate canonical route from the media corpus without creating another media owner.",
+      "routingImpact": "The source-era Oscillospirales route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, structured media records, canonical media endpoints, image-sitemap entries, and coverage completion. Batch 028 makes no queue substitution and does not copy or alias the reviewed Eubacteriales image."
     }
   ],
   "revisedAssets": [
@@ -896,55 +925,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 154,
-      "id": "oscillospirales",
-      "title": "Oscillospirales",
-      "route": "/article/oscillospirales",
+      "queuePosition": 160,
+      "id": "penicillium",
+      "title": "Penicillium",
+      "route": "/article/penicillium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 155,
-      "id": "parabacteroides",
-      "title": "Parabacteroides",
-      "route": "/article/parabacteroides",
+      "queuePosition": 161,
+      "id": "peptostreptococcus",
+      "title": "Peptostreptococcus",
+      "route": "/article/peptostreptococcus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 156,
-      "id": "parabacteroides-distasonis",
-      "title": "Parabacteroides distasonis",
-      "route": "/article/parabacteroides-distasonis",
+      "queuePosition": 162,
+      "id": "peptostreptococcus-anaerobius",
+      "title": "Peptostreptococcus anaerobius",
+      "route": "/article/peptostreptococcus-anaerobius",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 157,
-      "id": "paraprevotella",
-      "title": "Paraprevotella",
-      "route": "/article/paraprevotella",
+      "queuePosition": 163,
+      "id": "peptostreptococcus-stomatis",
+      "title": "Peptostreptococcus stomatis",
+      "route": "/article/peptostreptococcus-stomatis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 158,
-      "id": "parasutterella",
-      "title": "Parasutterella",
-      "route": "/article/parasutterella",
+      "queuePosition": 164,
+      "id": "phascolarctobacterium",
+      "title": "Phascolarctobacterium",
+      "route": "/article/phascolarctobacterium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 159,
-      "id": "parvimonas-micra",
-      "title": "Parvimonas micra",
-      "route": "/article/parvimonas-micra",
+      "queuePosition": 165,
+      "id": "phocaeicola",
+      "title": "Phocaeicola",
+      "route": "/article/phocaeicola",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -4171,7 +4200,13 @@
       "route": "/article/oscillospirales",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-05",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "LPSN records ‘Oscillospirales’ Glendinning et al. 2020 as not validly published, a synonym without standing, lacking a discernible protologue, and identifies Eubacteriales Buchanan 1917 (Approved Lists 1980) as the correct order. The exact originating paper was cross-checked as ‘Assembly of hundreds of novel bacterial genomes from the chicken caecum’, PMID 32051016, DOI 10.1186/s13059-020-1947-1. WikiBiome already has the canonical reviewed Eubacteriales owner, NCBITaxon:186802, so a separate Oscillospirales media identity would duplicate and misstate the current order.",
+        "requiredResolution": "Editorially retire or reconcile oscillospirales as an audited permanent asset-free 308 alias to the existing canonical eubacteriales article, NCBITaxon:186802, reconcile source-era content and provenance, and remove the duplicate canonical route from the media corpus without creating another media owner."
+      }
     },
     {
       "queuePosition": 155,
@@ -4184,7 +4219,13 @@
       "route": "/article/parabacteroides",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-028",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-028/parabacteroides-draft.png",
+        "sha256": "1cc4b3d5f99b4f9fde9be00da8ad50e6135c113fdc6b6e13501edf9ff55c6cd5"
+      }
     },
     {
       "queuePosition": 156,
@@ -4197,7 +4238,13 @@
       "route": "/article/parabacteroides-distasonis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-028",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-028/parabacteroides-distasonis-draft.png",
+        "sha256": "da5445fe14f58726c3de0cd571f0dda9753674a93efee6ba71ee095759e656a4"
+      }
     },
     {
       "queuePosition": 157,
@@ -4210,7 +4257,13 @@
       "route": "/article/paraprevotella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-028",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-028/paraprevotella-draft.png",
+        "sha256": "13cfc54663766b41db4855abfe7fc10a23b04babb427d854347c1a1d3b95b641"
+      }
     },
     {
       "queuePosition": 158,
@@ -4223,7 +4276,13 @@
       "route": "/article/parasutterella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-028",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-028/parasutterella-draft.png",
+        "sha256": "677a02452875c7133066b9426ce285a9dc4da3e2ebc84e5a5c05dee9969778cc"
+      }
     },
     {
       "queuePosition": 159,
@@ -4236,7 +4295,13 @@
       "route": "/article/parvimonas-micra",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-028",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-028/parvimonas-micra-draft.png",
+        "sha256": "4abe92aded0e1827946887b9b20485f6ff59a3a284991761246a758213d0df46"
+      }
     },
     {
       "queuePosition": 160,
