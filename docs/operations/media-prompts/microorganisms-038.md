@@ -119,3 +119,16 @@ Constraints: Representative trophozoite morphology only; non-diagnostic. Exactly
 ## Generation boundary
 
 Each cleared route may receive exactly one built-in image-generation call from its immutable prompt above. A generated file remains review-only until its native pixels, literal subject count and grouping, edge field, crop safety, immutable hash, metadata consistency, and absence of prohibited content are independently recorded. Observed output—not requested composition—controls all downstream alt text and captions.
+
+## Immutable generation records
+
+Exactly six built-in image-generation calls were made, one per cleared route. No retry, replacement, edit, or source image was used. The project-bound originals and generation records are:
+
+- `subdoligranulum`: `exec-554bac63-8bf7-4832-af56-a4e932af14f1.png`; SHA-256 `e87da32095611f9cefb05b2c2b5c67ace2626e631ce0623bdfc50697039ceb22`.
+- `sutterella`: `exec-e383d79d-46d8-439c-a56b-1f88ea887c6d.png`; SHA-256 `ab88e84565a8ff37c1f6a8ab68aaa58aec164d0b696773e10687a7d9b9c122e9`.
+- `torulaspora`: `exec-25a68402-12e4-45da-a565-801d96d2a52a.png`; SHA-256 `1ec1a7e467f9ff73646928a6677bc553210fb168fb5a389de955f2e39c433e15`.
+- `treponema`: `exec-add96a72-804e-4fd8-868e-6138e1a685cc.png`; SHA-256 `77ec8b24345671313debd185384e791530e7ee8b26d44bfcc204d5fc53001947`.
+- `trichoderma`: `exec-1b0e3dc2-d254-4294-ad91-b21797034050.png`; SHA-256 `4aad216551c7d9e35e5a2093ee829a0494ce8d26f8a20598b63f786e84c93f80`.
+- `trichomonas-vaginalis`: `exec-e3c20415-02ab-41b9-81d9-1d84fa61a9e3.png`; SHA-256 `b069d922d888d731ad4e2ed5ec3e5bba908607351e3bea1a82abeece782ead64`.
+
+All six are native 1536 by 1024 PNGs on edge-clean pale cool fields. Observed output—not requested composition—governs the review manifest: *Subdoligranulum* contains ten separated variable coccoid cells; *Sutterella* contains four elongated rods and four coccobacilli; *Torulaspora* contains nine mother cells with four visible buds; *Treponema* contains four complete wave-form bodies; *Trichoderma* contains one complete septate pyramidal conidiophore system; and *Trichomonas vaginalis* contains one pear-shaped trophozoite with four anterior flagella and one recurrent flagellum. All remain review-only pending the exact-hash control review and promotion gate.
