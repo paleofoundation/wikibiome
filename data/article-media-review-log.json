@@ -4702,6 +4702,51 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text gives the literal 11-body/8-group output; caption states type-strain anchoring, non-diagnostic scope, and non-micrograph status. Control Tower approved the centered-cover social derivative as fully visible, unclipped, and count-preserving." },
       "disposition": "approved", "notes": "Exact immutable batch-033 source accepted by WikiBiome Control Tower for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "ruminococcus-bromii-draft.png", "sourceSha256": "8c00d3f7f5bab64d07aa0983f3dc66bf109378622fdf7ba511025dd7e1b53fe5", "generationRecord": "exec-e03a155d-3581-44fc-8136-b90e06a3225b.png" }
+    },
+    "saccharomyces|saccharomyces-morphology-v1.webp": {
+      "pageId": "saccharomyces", "publishedFile": "saccharomyces-morphology-v1.webp", "masterSource": "saccharomyces-morphology-v1-master.png", "socialFile": "saccharomyces-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4930&mode=Info", "https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=163963", "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804222/"], "notes": "NCBI Taxonomy, Index Fungorum, and the morphology review support current Saccharomyces NCBITaxon:4930 and a conservative type-species-anchored budding-yeast plate." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted ten spherical-to-ovoid bodies in seven groups: four singles and three mother-bud pairs. The genus treatment is representative, non-universal, and non-diagnostic." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text gives the literal 10-body/7-group output; caption separates visible budding forms from genus-wide and diagnostic claims. Centered-cover crop review is recorded in the batch manifest." },
+      "disposition": "approved", "notes": "Exact immutable batch-034 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "saccharomyces-draft.png", "sourceSha256": "00d22676c8cc49be8478547aece169f55b6e967def982de05b194f16335641a8", "generationRecord": "exec-7484ea76-6590-48a8-8add-1a4965e5aa4e.png" }
+    },
+    "saccharomyces-cerevisiae|saccharomyces-cerevisiae-morphology-v1.webp": {
+      "pageId": "saccharomyces-cerevisiae", "publishedFile": "saccharomyces-cerevisiae-morphology-v1.webp", "masterSource": "saccharomyces-cerevisiae-morphology-v1-master.png", "socialFile": "saccharomyces-cerevisiae-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4932&mode=Info", "https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=163963", "https://pmc.ncbi.nlm.nih.gov/articles/PMC10804222/"], "notes": "NCBI Taxonomy, Index Fungorum, and the morphology review support current Saccharomyces cerevisiae NCBITaxon:4932 and a conservative type-material-anchored budding-yeast plate." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine spherical-to-ovoid bodies in seven groups: five singles and two mother-bud pairs. No illustration-level species diagnosis is claimed." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text gives the literal 9-body/7-group output; caption states type-material anchoring, non-diagnostic scope, and non-micrograph status. Centered-cover crop review is recorded in the batch manifest." },
+      "disposition": "approved", "notes": "Exact immutable batch-034 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "saccharomyces-cerevisiae-draft.png", "sourceSha256": "4f1199e465c5880cd5a5fa051cf13a503ea0c026f386403e3949daabd4653030", "generationRecord": "exec-3946d08a-31d0-4936-979b-b5f6ba6d9ed2.png" }
+    },
+    "salmonella|salmonella-morphology-v1.webp": {
+      "pageId": "salmonella", "publishedFile": "salmonella-morphology-v1.webp", "masterSource": "salmonella-morphology-v1-master.png", "socialFile": "salmonella-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=590&mode=Info", "https://lpsn.dsmz.de/genus/salmonella", "https://pubmed.ncbi.nlm.nih.gov/15653930/", "https://doi.org/10.1099/ijs.0.63580-0", "https://wwwn.cdc.gov/phil/Details.aspx?pid=23772"], "notes": "NCBI, LPSN, nomenclature and primary taxonomic authorities, and CDC morphology context support current Salmonella NCBITaxon:590 and a conservative type-species-anchored short-rod plate." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine straight short rods in seven groups: five singles and two touching pairs. Appendages are omitted without a motility claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text gives the literal 9-body/7-group output; caption states representative, non-diagnostic, appendage-omission, and non-micrograph limits. Centered-cover crop review is recorded in the batch manifest." },
+      "disposition": "approved", "notes": "Exact immutable batch-034 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "salmonella-draft.png", "sourceSha256": "c2c3e98c96e1f7b8ddeda5d2474c955df2f16ca14c27f163dcb003ef9d3d973a", "generationRecord": "exec-b7339b44-67d2-4c80-b532-752f6a289d49.png" }
+    },
+    "salmonella-typhimurium|salmonella-typhimurium-morphology-v1.webp": {
+      "pageId": "salmonella-typhimurium", "publishedFile": "salmonella-typhimurium-morphology-v1.webp", "masterSource": "salmonella-typhimurium-morphology-v1-master.png", "socialFile": "salmonella-typhimurium-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=90371&mode=Info", "https://genomes.atcc.org/genomes/56034f638ded4f20", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4183876/"], "notes": "NCBI, ATCC reference-strain evidence, and comparative genomics support current Salmonella enterica serovar Typhimurium NCBITaxon:90371 and conservative rod morphology." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eight straight rods in six groups: four singles and two touching pairs. The plate does not claim visual serovar diagnosis or separability from the genus plate." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text gives the literal 8-body/6-group output; caption states reference-strain anchoring, non-diagnostic scope, and non-micrograph status. Centered-cover crop review is recorded in the batch manifest." },
+      "disposition": "approved", "notes": "Exact immutable batch-034 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "salmonella-typhimurium-draft.png", "sourceSha256": "cb52fe38bd2b5bdb10e2bdf78faa60883560a87e3bbc36be2325f9e37b53d51f", "generationRecord": "exec-ac6fae4f-9da8-4103-a6d1-de9d875d9bad.png" }
+    },
+    "selenomonas|selenomonas-morphology-v1.webp": {
+      "pageId": "selenomonas", "publishedFile": "selenomonas-morphology-v1.webp", "masterSource": "selenomonas-morphology-v1-master.png", "socialFile": "selenomonas-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=970&mode=Info", "https://lpsn.dsmz.de/genus/selenomonas", "https://bacdive.dsmz.de/strain/17159", "https://doi.org/10.1128/spectrum.00341-26"], "notes": "NCBI, LPSN, type-strain evidence, and the morphology study support current Selenomonas NCBITaxon:970 and a restrained type-species-anchored crescent plate with limited concave-surface filament context." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted seven crescent-to-kidney bodies in seven groups. Two carry concave-surface bundles with nine visible filaments total; the output-added filament is recorded and the genus treatment remains representative, variable, and non-diagnostic." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text states the seven separate bodies and two filament-bearing examples; caption separates visible form from genus-wide and diagnostic claims. Centered-cover crop review is recorded in the batch manifest." },
+      "disposition": "approved", "notes": "Exact immutable batch-034 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "selenomonas-draft.png", "sourceSha256": "c9f0d228cce8006438527b4e3ac6960883e97eef09d03d196debda927778676b", "generationRecord": "exec-810e5ad4-1e56-40c2-b4c7-5be4c169e1d0.png" }
     }
   },
   "rejectedAssets": [

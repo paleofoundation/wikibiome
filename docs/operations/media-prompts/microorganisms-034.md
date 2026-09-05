@@ -118,4 +118,8 @@ Exactly five built-in generation calls were made, one for each cleared route. Th
 | `salmonella-typhimurium` | `exec-ac6fae4f-9da8-4103-a6d1-de9d875d9bad.png` | `603b86c4e4dd7ee70aef57d2079812e6820ba377a7db7e4a430aa1baa92103fa` | `cb52fe38bd2b5bdb10e2bdf78faa60883560a87e3bbc36be2325f9e37b53d51f` | 1,267,871 | Eight straight rods in six groups: four singles and two touching pairs. |
 | `selenomonas` | `exec-810e5ad4-1e56-40c2-b4c7-5be4c169e1d0.png` | `5050c6e0792799f3cc90382313345eeeeb59da2e5c1f073bbbde45ede0c911b2` | `c9f0d228cce8006438527b4e3ac6960883e97eef09d03d196debda927778676b` | 1,305,537 | Seven isolated crescent-to-kidney bodies. Two carry concave-surface bundles containing five and four visible filaments, respectively; the upper bundle has one output-added filament. |
 
-All five files have zero dark pixels below luma 128 in a 32-pixel outer band. Foreground bounds at luma below 220 remain within the centered-cover source band (approximately y=109 through y=915), so each candidate is technically crop-safe. No candidate is registered, published, or approved by this review-only packet.
+All five files have zero dark pixels below luma 128 in a 32-pixel outer band. Foreground bounds at luma below 220 remain within the centered-cover source band (approximately y=109 through y=915), so each candidate is technically crop-safe.
+
+## Control promotion and crop review
+
+Control Tower integrated the exact review packet as commit `48a3170d2773785925269a6b2d2d4001294a9aa2`, accepted only the five immutable PNG hashes above, and promoted them without regeneration or pixel editing. It inspected all five native 1200 by 630 centered-cover social derivatives at original detail: every reviewed body, grouping, and the two Selenomonas filament bundles remain visible and unclipped. The Saccharomyces boulardii identity hold remains asset-free.

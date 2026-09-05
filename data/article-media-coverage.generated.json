@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "e9c0df3ec07ca9fa8eecaed5ef3308b53d27897721d4007a051176a51d3f3fc2",
+    "registrySha256": "260d63a7cf1f53893c066fbc18608b518e483c53fc8c1713e35c42eb556ab889",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "089e680e26614b6209c081791a6e6a85831a22ff1189ac78e4b04df9129422d6",
+    "reviewLogSha256": "5817215731b893cfab60807db0800d4e10ee535308c2d8acb7c864239efae4e2",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -213,8 +213,8 @@
       {
         "file": "data/article-media-batches/microorganisms-034.json",
         "batchId": "microorganisms-034",
-        "status": "awaiting-control-review",
-        "sha256": "6d368f903334a346f6e44ea29419e9dd52e8ea43df65374e1f53294b0933cf2d"
+        "status": "reviewed",
+        "sha256": "36e558ed58a95b3e733d375ea08233dea29543defd705f5664bc0c9dd0381e3d"
       }
     ]
   },
@@ -236,20 +236,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 181,
-    "remaining": 529,
+    "completed": 186,
+    "remaining": 524,
     "rejected": 27,
     "revised": 11,
     "scientificHolds": 11,
-    "inReview": 5
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 178,
-      "remaining": 51
+      "completed": 183,
+      "remaining": 46
     },
     {
       "id": "metals",
@@ -5100,12 +5100,14 @@
       "route": "/article/saccharomyces",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-034",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-034/saccharomyces-draft.png",
-        "sha256": "00d22676c8cc49be8478547aece169f55b6e967def982de05b194f16335641a8"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "saccharomyces-morphology-v1-master.png",
+        "publishedFile": "saccharomyces-morphology-v1.webp",
+        "socialFile": "saccharomyces-morphology-v1-social.webp"
       }
     },
     {
@@ -5139,12 +5141,14 @@
       "route": "/article/saccharomyces-cerevisiae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-034",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-034/saccharomyces-cerevisiae-draft.png",
-        "sha256": "4f1199e465c5880cd5a5fa051cf13a503ea0c026f386403e3949daabd4653030"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "saccharomyces-cerevisiae-morphology-v1-master.png",
+        "publishedFile": "saccharomyces-cerevisiae-morphology-v1.webp",
+        "socialFile": "saccharomyces-cerevisiae-morphology-v1-social.webp"
       }
     },
     {
@@ -5158,12 +5162,14 @@
       "route": "/article/salmonella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-034",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-034/salmonella-draft.png",
-        "sha256": "c2c3e98c96e1f7b8ddeda5d2474c955df2f16ca14c27f163dcb003ef9d3d973a"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "salmonella-morphology-v1-master.png",
+        "publishedFile": "salmonella-morphology-v1.webp",
+        "socialFile": "salmonella-morphology-v1-social.webp"
       }
     },
     {
@@ -5177,12 +5183,14 @@
       "route": "/article/salmonella-typhimurium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-034",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-034/salmonella-typhimurium-draft.png",
-        "sha256": "cb52fe38bd2b5bdb10e2bdf78faa60883560a87e3bbc36be2325f9e37b53d51f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "salmonella-typhimurium-morphology-v1-master.png",
+        "publishedFile": "salmonella-typhimurium-morphology-v1.webp",
+        "socialFile": "salmonella-typhimurium-morphology-v1-social.webp"
       }
     },
     {
@@ -5196,12 +5204,14 @@
       "route": "/article/selenomonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-034",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-034/selenomonas-draft.png",
-        "sha256": "c9f0d228cce8006438527b4e3ac6960883e97eef09d03d196debda927778676b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "selenomonas-morphology-v1-master.png",
+        "publishedFile": "selenomonas-morphology-v1.webp",
+        "socialFile": "selenomonas-morphology-v1-social.webp"
       }
     },
     {
