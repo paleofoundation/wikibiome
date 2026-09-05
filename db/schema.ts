@@ -504,6 +504,7 @@ export const messageReports = sqliteTable("message_reports", {
 
 export const roundtableInterests = sqliteTable("roundtable_interests", {
   accountId: text("account_id").primaryKey(),
+  eventTypesJson: text("event_types_json").notNull().default('["roundtable"]'),
   rolesJson: text("roles_json").notNull().default("[]"),
   tracksJson: text("tracks_json").notNull().default("[]"),
   formatPreference: text("format_preference").notNull().default("either"),
@@ -512,6 +513,8 @@ export const roundtableInterests = sqliteTable("roundtable_interests", {
   proposedQuestion: text("proposed_question").notNull().default(""),
   updatesConsent: integer("updates_consent", { mode: "boolean" }).notNull().default(false),
   consentedAt: text("consented_at"),
+  earlyInviteConsent: integer("early_invite_consent", { mode: "boolean" }).notNull().default(false),
+  earlyInviteConsentedAt: text("early_invite_consented_at"),
   withdrawnAt: text("withdrawn_at"),
   status: text("status").notNull().default("interested"),
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),

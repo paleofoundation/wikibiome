@@ -44,6 +44,7 @@ test("applies every researcher-network migration to a clean SQLite database", ()
       "0006_naive_justin_hammer.sql",
       "0007_military_thanos.sql",
       "0008_tense_luminals.sql",
+      "0009_massive_the_hood.sql",
     ]);
     for (const migration of migrations) {
       const result = spawnSync("/usr/bin/sqlite3", [database], { input: source(`drizzle/${migration}`), encoding: "utf8" });
@@ -70,6 +71,11 @@ test("applies every researcher-network migration to a clean SQLite database", ()
       "idx_message_threads_participant_key", "idx_roundtable_interests_status",
       "idx_recognition_events_account_status", "idx_email_webhook_events_provider",
     ]) assert.match(schema.stdout, new RegExp(`index:${index}\\b`));
+    const eventColumns = spawnSync("/usr/bin/sqlite3", [database, "SELECT name FROM pragma_table_info('roundtable_interests') ORDER BY cid;"], { encoding: "utf8" });
+    assert.equal(eventColumns.status, 0, eventColumns.stderr);
+    assert.match(eventColumns.stdout, /event_types_json/);
+    assert.match(eventColumns.stdout, /early_invite_consent/);
+    assert.match(eventColumns.stdout, /early_invite_consented_at/);
   } finally {
     rmSync(working, { recursive: true, force: true });
   }
@@ -304,18 +310,33 @@ test("recognition counts accepted quality only and remains human-gated above thr
   assert.doesNotMatch(service, /payment|supporter/i);
 });
 
-test("keeps Roundtable consent separate and invitations human-controlled", () => {
+test("keeps researcher-event consent separate and early invitations human-controlled", () => {
   const schema = source("db/schema.ts");
   const form = source("app/_components/RoundtableInterestForm.tsx");
   const page = source("app/roundtable/page.tsx");
   const service = source("lib/research-network-v2.ts");
   assert.match(schema, /updatesConsent:[\s\S]{0,100}default\(false\)/);
+  assert.match(schema, /earlyInviteConsent:[\s\S]{0,100}default\(false\)/);
+  assert.match(schema, /eventTypesJson:[\s\S]{0,100}roundtable/);
   assert.match(form, /name="updatesConsent"/);
+  assert.match(form, /name="earlyInviteConsent"/);
+  assert.match(form, /name="eventTypes"/);
+  assert.match(form, /conferences and symposia/i);
   assert.match(form, /separate from research alerts, community digests, and historical fundraising consent/);
-  assert.match(page, /interest registry.not registration for a scheduled conference/i);
-  assert.match(service, /status: "withdrawn", updatesConsent: false/);
+  assert.match(page, /interest and early-invitation registry.not registration for a scheduled event/i);
+  assert.match(service, /status: "withdrawn", updatesConsent: false, earlyInviteConsent: false/);
+  assert.match(service, /item\.earlyInviteConsent/);
   assert.match(service, /highest\.get\(item\.accountId\)[^\n]*>= 4/);
   assert.match(source("app/research-governance/page.tsx"), /organizers assess subject fit, quality, conflicts, conduct, and interdisciplinary representation/i);
+});
+
+test("automatically imports public ORCID works on the researcher dashboard", () => {
+  const dashboard = source("app/researcher/dashboard/page.tsx");
+  const importPanel = source("app/_components/DashboardOrcidWorks.tsx");
+  assert.match(dashboard, /<DashboardOrcidWorks\s*\/>/);
+  assert.match(importPanel, /fetch\("\/api\/researcher\/works"/);
+  assert.match(importPanel, /Importing your public ORCID works/);
+  assert.match(importPanel, /does not make an authorship claim public/);
 });
 
 test("records delivery truth, webhook replay protection, and one-click unsubscribe", () => {

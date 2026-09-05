@@ -69,7 +69,7 @@ export function ResearcherAccountForm({ account }: { account: Account }) {
         <label><input type="checkbox" name="researchNotifications" defaultChecked={account.preferences.researchNotifications} /><span><b>Research activity</b> Replies, claim decisions, and editorial updates.</span></label>
         <label><input type="checkbox" name="communityDigest" defaultChecked={account.preferences.communityDigest} /><span><b>Community digest</b> An occasional summary of cross-disciplinary work.</span></label>
       </fieldset>
-      <aside className="roundtable-invite"><b>Microbiome Roundtable</b><p>Join the separate interest registry for future interdisciplinary conversations. This is not registration for a scheduled event.</p><a href="/roundtable">Choose Roundtable interests →</a></aside>
+      <aside className="roundtable-invite"><b>Conferences and Microbiome Roundtables</b><p>Join the separate interest registry for early invitation consideration to future interdisciplinary events. This is not registration for a scheduled event.</p><a href="/roundtable">Choose event interests →</a></aside>
       <footer><p>Email choices are separate and can be changed here at any time. Historical fundraising consent is preserved but is not requested during researcher onboarding.</p><button disabled={state === "saving"}>{state === "saving" ? "Saving…" : account.emailVerified ? "Save profile" : "Save and verify email"}</button></footer>
       {message && <p className={`form-message ${state}`} role="status">{message}</p>}
     </form>
