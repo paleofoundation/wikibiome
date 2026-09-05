@@ -4675,6 +4675,33 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 9-body/7-group output; caption separates visible form from appendage, diagnostic, and micrograph limitations. Control Tower approved the centered-cover social crop as unclipped and count-preserving." },
       "disposition": "approved", "notes": "Exact immutable batch-032 source accepted by WikiBiome Control Tower for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "roseburia-intestinalis-draft.png", "sourceSha256": "e3f4bba84fedb5be866883415318df2007d1a6dbf3470ea65a7fdb2de4d05463", "generationRecord": "exec-9c2fc83b-7307-45ef-a8ca-1314e99d0e4e.png" }
+    },
+    "rothia|rothia-morphology-v1.webp": {
+      "pageId": "rothia", "publishedFile": "rothia-morphology-v1.webp", "masterSource": "rothia-morphology-v1-master.png", "socialFile": "rothia-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=32207&mode=Info", "https://lpsn.dsmz.de/genus/rothia", "https://pubmed.ncbi.nlm.nih.gov/4886858/", "https://bacdive.dsmz.de/strain/7779"], "notes": "NCBI, LPSN, the exact Brown et al. primary identification paper, and type evidence support current Rothia NCBITaxon:32207 and a restrained type-species-anchored pleomorphic form plate." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eleven bodies in eight groups: five singles and three pairs, comprising six irregular short rods and five compact ovoid-to-coccoid bodies, including restrained V and palisade arrangements. The genus treatment is representative, non-universal, and non-diagnostic." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text gives the literal 11-body/8-group mixed-form output; caption separates visible forms from genus-wide and diagnostic claims. Control Tower approved the centered-cover social derivative as fully visible, unclipped, and count-preserving." },
+      "disposition": "approved", "notes": "Exact immutable batch-033 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "rothia-draft.png", "sourceSha256": "bd1dccff45991f983c13c48a9ba115112fc09c254697b5c23b005662902ec6e1", "generationRecord": "exec-b4fd073b-2ec5-47ec-8d61-c5011ce1304c.png" }
+    },
+    "ruminococcus|ruminococcus-morphology-v1.webp": {
+      "pageId": "ruminococcus", "publishedFile": "ruminococcus-morphology-v1.webp", "masterSource": "ruminococcus-morphology-v1-master.png", "socialFile": "ruminococcus-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1263&mode=Info", "https://lpsn.dsmz.de/genus/ruminococcus", "https://pubmed.ncbi.nlm.nih.gov/28348838/", "https://bacdive.dsmz.de/strain/166624"], "notes": "NCBI, LPSN, the exact current-genus phylogenomic analysis, and type evidence support current Ruminococcus NCBITaxon:1263 and a conservative type-species/current-circumscription-anchored coccoid plate." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eleven coccoid bodies in seven groups: four singles, two touching pairs, and one three-body chain. Appendages are omitted without a motility claim; the genus treatment is representative, non-universal, and non-diagnostic." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text gives the literal 11-body/7-group output; caption states type-species/current-circumscription anchoring and non-diagnostic scope. Control Tower approved the centered-cover social derivative as fully visible, unclipped, and count-preserving." },
+      "disposition": "approved", "notes": "Exact immutable batch-033 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "ruminococcus-draft.png", "sourceSha256": "b9adc04842e8c7d68d49326d71da274d981b46a1b5967abb16395cff94787390", "generationRecord": "exec-e93cd87f-ec67-4d06-bf79-2e2e9af32879.png" }
+    },
+    "ruminococcus-bromii|ruminococcus-bromii-morphology-v1.webp": {
+      "pageId": "ruminococcus-bromii", "publishedFile": "ruminococcus-bromii-morphology-v1.webp", "masterSource": "ruminococcus-bromii-morphology-v1-master.png", "socialFile": "ruminococcus-bromii-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=40518&mode=Info", "https://lpsn.dsmz.de/species/ruminococcus-bromii", "https://doi.org/10.1099/00207713-22-2-78", "https://bacdive.dsmz.de/strain/167797"], "notes": "NCBI, LPSN, the exact original species description, and type-strain evidence support current Ruminococcus bromii NCBITaxon:40518 and a conservative coccoid species plate." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eleven nearly spherical bodies in eight groups: five singles and three touching pairs. The output-added single and group are recorded; no illustration-level diagnostic separability from the genus plate is claimed." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text gives the literal 11-body/8-group output; caption states type-strain anchoring, non-diagnostic scope, and non-micrograph status. Control Tower approved the centered-cover social derivative as fully visible, unclipped, and count-preserving." },
+      "disposition": "approved", "notes": "Exact immutable batch-033 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "ruminococcus-bromii-draft.png", "sourceSha256": "8c00d3f7f5bab64d07aa0983f3dc66bf109378622fdf7ba511025dd7e1b53fe5", "generationRecord": "exec-e03a155d-3581-44fc-8136-b90e06a3225b.png" }
     }
   },
   "rejectedAssets": [

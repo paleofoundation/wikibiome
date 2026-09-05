@@ -92,3 +92,9 @@ All three 32-pixel outer bands contain zero pixels below luma 128. Their minimum
 - `ruminococcus-gnavus`: zero prompt/call/raster; proposed current owner `mediterraneibacter-gnavus`, NCBITaxon:33038.
 
 No held route has a registry key, master, public derivative, structured media record, canonical image endpoint, image-sitemap entry, or coverage completion. No queue substitution was made.
+
+## Control review and promotion boundary
+
+Control Tower independently verified and fast-forward integrated review commit `3cb45191eb83dfe815aa3dd382ab6615321d5764`. Native-resolution review approved only the exact Rothia, Ruminococcus, and Ruminococcus bromii hashes recorded above. Rothia's mixed six-short-rod/five-ovoid morphology and literal 11-body/8-group output remain explicit; Ruminococcus remains 11/7 and R. bromii 11/8.
+
+Control Tower subsequently completed original-detail review of all three native 1200 by 630 centered-cover derivatives. Rothia, Ruminococcus, and Ruminococcus bromii retain every reviewed body and group, remain fully inside the frame, and preserve the pale cool scientific plate treatment. All ten active scientific holds and the permanently quarantined Phocaeicola raster remain asset-free and ineligible.

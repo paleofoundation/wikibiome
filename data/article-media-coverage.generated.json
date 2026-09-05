@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "dc92a29a91b23cdef95c1c594e71626b493edf185ab6b7e41d32cd6477ac721f",
+    "registrySha256": "e9c0df3ec07ca9fa8eecaed5ef3308b53d27897721d4007a051176a51d3f3fc2",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "4b9cc9066c6aa0c9671b06be490f9ed3e37554ec7f600685c879e18871b866ab",
+    "reviewLogSha256": "e9cb560f7a3fbdd908d5a07ca14f72e66e4b26488acba9d86fa1ca38c17334b1",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -207,8 +207,8 @@
       {
         "file": "data/article-media-batches/microorganisms-033.json",
         "batchId": "microorganisms-033",
-        "status": "awaiting-control-review",
-        "sha256": "4e20edc53b1191e0454b15364d491386458953c6524fc8c4ce447e41bd775f9c"
+        "status": "reviewed",
+        "sha256": "c4d991b64a7902ba0a95121d36410d301c10c7c209f56af9f08940a2d9fe2499"
       }
     ]
   },
@@ -230,20 +230,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 178,
-    "remaining": 532,
+    "completed": 181,
+    "remaining": 529,
     "rejected": 26,
     "revised": 11,
     "scientificHolds": 10,
-    "inReview": 3
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 175,
-      "remaining": 54
+      "completed": 178,
+      "remaining": 51
     },
     {
       "id": "metals",
@@ -4951,12 +4951,14 @@
       "route": "/article/rothia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-033",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-033/rothia-draft.png",
-        "sha256": "bd1dccff45991f983c13c48a9ba115112fc09c254697b5c23b005662902ec6e1"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "rothia-morphology-v1-master.png",
+        "publishedFile": "rothia-morphology-v1.webp",
+        "socialFile": "rothia-morphology-v1-social.webp"
       }
     },
     {
@@ -4990,12 +4992,14 @@
       "route": "/article/ruminococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-033",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-033/ruminococcus-draft.png",
-        "sha256": "b9adc04842e8c7d68d49326d71da274d981b46a1b5967abb16395cff94787390"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "ruminococcus-morphology-v1-master.png",
+        "publishedFile": "ruminococcus-morphology-v1.webp",
+        "socialFile": "ruminococcus-morphology-v1-social.webp"
       }
     },
     {
@@ -5028,12 +5032,14 @@
       "route": "/article/ruminococcus-bromii",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-033",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-033/ruminococcus-bromii-draft.png",
-        "sha256": "8c00d3f7f5bab64d07aa0983f3dc66bf109378622fdf7ba511025dd7e1b53fe5"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "ruminococcus-bromii-morphology-v1-master.png",
+        "publishedFile": "ruminococcus-bromii-morphology-v1.webp",
+        "socialFile": "ruminococcus-bromii-morphology-v1-social.webp"
       }
     },
     {
