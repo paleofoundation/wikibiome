@@ -107,4 +107,13 @@ Constraints: Type-species-anchored representative genus arrangement only; non-un
 
 ## Immutable generation records
 
-No image generation has occurred at this review-packet checkpoint. Each cleared route is authorized for exactly one built-in image-generation call. Observed output—not requested composition—will govern all later metadata and review decisions.
+Exactly six built-in image-generation calls were made, one per cleared route. No retry, replacement, edit, or source image was used. The project-bound originals and generation records are:
+
+- `sphingobium`: `exec-93736042-7e19-4d78-ba93-6933600a411b.png`; SHA-256 `e025476d9c1d8a46d915911f89c7e1273e71b91cb7b06cdb85630ad369238a4f`.
+- `sphingomonas`: `exec-11573aa4-d2ef-41c2-ad0f-438e4a14df86.png`; SHA-256 `2d984ffd3e387c49d27d451bd05358d4d7ff0fa4ef3819f80c0a8da01d01d30a`.
+- `staphylococcus`: `exec-06f461f5-deae-4b03-8c89-eea223eab5ab.png`; SHA-256 `ad534bc6b9237f5a9dc7c61544aa4f8750698ef6554557b9bd32bf62ab1d3d19`.
+- `staphylococcus-aureus`: `exec-01d3e83d-da61-45c7-a2c9-5437554a4774.png`; SHA-256 `735146ed26f5bc7a743d51ce41cfc4f3feb9147efa357433bcf400bc8b6a95de`.
+- `staphylococcus-epidermidis`: `exec-50cd037e-7cf0-4623-a67c-df06f2152577.png`; SHA-256 `aeaa3031755b50d1d1bac1a1b027030c1458815317182e22ffce70e2f889a75c`.
+- `streptococcus`: `exec-8f25d726-94f5-4674-b8c4-59f42870b7ef.png`; SHA-256 `63ef7c378c6a771cc920787568683b839b6d8810bdf06012ed8893ca148205d6`.
+
+All six are native 1536 by 1024 PNGs on edge-clean pale cool fields. Observed output—not requested composition—governs the manifest: Sphingobium contains 10 bodies/8 groups; Sphingomonas 9/7; Staphylococcus 15 cocci/3 clusters; S. aureus 12/2; S. epidermidis 13/3; and Streptococcus 14 cocci/4 groups. All remain review-only pending the exact-hash control review and promotion gate.

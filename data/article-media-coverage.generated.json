@@ -221,6 +221,12 @@
         "batchId": "microorganisms-035",
         "status": "reviewed",
         "sha256": "2fee736ca9bd5735fb0f8f579d34b711078f6ee56a73e85dede31a4651ea459c"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-036.json",
+        "batchId": "microorganisms-036",
+        "status": "generated-review-pending",
+        "sha256": "a806a073b6164376d55e9b9208c1165845c7e17a9f790de6a3d39fa680ac8574"
       }
     ]
   },

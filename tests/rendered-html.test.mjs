@@ -3284,6 +3284,55 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   }
   assert.equal(batch035GenerationRecords.size, 6);
   assert.doesNotMatch(batch035PromptRecord, /<!-- PROMPT phocaeicola START -->/);
+  const batch036 = batches.find((batch) => batch.batchId === "microorganisms-036");
+  assert.equal(batch036?.status, "generated-review-pending");
+  assert.equal(batch036?.authorizedParent, "5504e0931d2ac0d7edaf434f0d726d1a13cbec76");
+  assert.equal(batch036?.publicationMetadataPlan?.reviewOnly, true);
+  assert.equal(batch036?.routeDecisionCount, 6);
+  assert.equal(batch036?.candidateCount, 6);
+  assert.equal(batch036?.generationCallCount, 6);
+  assert.equal(batch036?.reviewableGenerationCount, 6);
+  assert.equal(batch036?.controlReviewRequired, true);
+  const batch036Candidates = batch036?.assets ?? [];
+  assert.deepEqual(batch036Candidates.map((asset) => asset.pageId), ["sphingobium", "sphingomonas", "staphylococcus", "staphylococcus-aureus", "staphylococcus-epidermidis", "streptococcus"]);
+  const batch036ExpectedOutputs = new Map([
+    ["sphingobium", ["NCBITaxon:165695", "a70d96a8a5afe5e908ba09a04b36df0f5ca54150ec460d94e1ed689b7142cf35", "e025476d9c1d8a46d915911f89c7e1273e71b91cb7b06cdb85630ad369238a4f", 1209687, 10, 8]],
+    ["sphingomonas", ["NCBITaxon:13687", "f964db551c8cec34926026a1ad1061842b63312fc4c2ccbbaff724bc4c169e19", "2d984ffd3e387c49d27d451bd05358d4d7ff0fa4ef3819f80c0a8da01d01d30a", 1242349, 9, 7]],
+    ["staphylococcus", ["NCBITaxon:1279", "30a2b81d1151bd64f08a98087d2d60736b9f93910d78878578f65c573dcd4f28", "ad534bc6b9237f5a9dc7c61544aa4f8750698ef6554557b9bd32bf62ab1d3d19", 1568937, 15, 3]],
+    ["staphylococcus-aureus", ["NCBITaxon:1280", "048ea7fa053c0aa8eaf3d8c35af409efb74df01c480b1bc57f50379b5765d093", "735146ed26f5bc7a743d51ce41cfc4f3feb9147efa357433bcf400bc8b6a95de", 1634683, 12, 2]],
+    ["staphylococcus-epidermidis", ["NCBITaxon:1282", "ba4d458dd50cc469f6754e66d19c893b75fc9f103f62293d3d8f167de4c736fd", "aeaa3031755b50d1d1bac1a1b027030c1458815317182e22ffce70e2f889a75c", 1455787, 13, 3]],
+    ["streptococcus", ["NCBITaxon:1301", "ec94adcea16da9f97fe8f5afd02f88d61caa1ce07f7bc12ad55ccb202fbdb84e", "63ef7c378c6a771cc920787568683b839b6d8810bdf06012ed8893ca148205d6", 1316560, 14, 4]],
+  ]);
+  const batch036PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-036.md", import.meta.url), "utf8");
+  const batch036GenerationRecords = new Set();
+  for (const asset of batch036Candidates) {
+    const [identifier, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch036ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.generationStatus, "complete-single-call");
+    assert.equal(asset.controlledIdentifier, identifier);
+    assert.equal(asset.promptSha256, promptSha256);
+    assert.equal(asset.sha256, sha256);
+    assert.equal(asset.fileSizeBytes, fileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    assert.equal(asset.outputAudit?.coverSafe, true);
+    assert.ok(!batch036GenerationRecords.has(asset.generationRecord));
+    batch036GenerationRecords.add(asset.generationRecord);
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, fileSize);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), sha256);
+    const metadata = await sharp(draftBytes).metadata();
+    assert.deepEqual([metadata.width, metadata.height], [1536, 1024]);
+    const promptMatch = batch036PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.ok(promptMatch, `${asset.pageId} exact immutable prompt must remain recoverable`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must not enter the reviewed registry before control acceptance`);
+    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${asset.pageId}-`)), `${asset.pageId} review draft must not enter public media files`);
+  }
+  assert.equal(batch036GenerationRecords.size, 6);
+  assert.doesNotMatch(batch036PromptRecord, /<!-- PROMPT phocaeicola START -->/);
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [
