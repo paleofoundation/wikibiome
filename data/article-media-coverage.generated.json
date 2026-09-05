@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "0209607b2ed38f2287eff6ce2928bddfff00dead262cda0bc532e10f4ca406d7",
+    "registrySha256": "dc92a29a91b23cdef95c1c594e71626b493edf185ab6b7e41d32cd6477ac721f",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "da83331cb76a5bea11df2633d481342844eaa15132765b2e6e2992d7d8703dd0",
+    "reviewLogSha256": "a32add98567ef51df4fa7157641fbc6bdd07e07d9c413c5e2b029e42dab056f6",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -201,8 +201,8 @@
       {
         "file": "data/article-media-batches/microorganisms-032.json",
         "batchId": "microorganisms-032",
-        "status": "awaiting-control-review",
-        "sha256": "b85d2bed4dc3c649c458f5b3d6448894845fe370d7c0451995a8ed621f3d474c"
+        "status": "reviewed",
+        "sha256": "10648d7f87d2066ec25e065c2db0e9b1cf5955f46927c21b9af887755b5feff5"
       }
     ]
   },
@@ -224,20 +224,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 172,
-    "remaining": 538,
+    "completed": 178,
+    "remaining": 532,
     "rejected": 23,
     "revised": 11,
     "scientificHolds": 7,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 169,
-      "remaining": 60
+      "completed": 175,
+      "remaining": 54
     },
     {
       "id": "metals",
@@ -4755,12 +4755,14 @@
       "route": "/article/pseudomonas-aeruginosa",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-032",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-032/pseudomonas-aeruginosa-draft.png",
-        "sha256": "182b991b4390d7829e9393e75256a5bfedcb42c7a031cc694fc4eca0e90543b9"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "pseudomonas-aeruginosa-morphology-v1-master.png",
+        "publishedFile": "pseudomonas-aeruginosa-morphology-v1.webp",
+        "socialFile": "pseudomonas-aeruginosa-morphology-v1-social.webp"
       }
     },
     {
@@ -4774,12 +4776,14 @@
       "route": "/article/purpureocillium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-032",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-032/purpureocillium-draft.png",
-        "sha256": "75df06d8b9c45726272b89bc3adc20c6a553cf0a8f170f0d7bf5146eb2c1076b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "purpureocillium-morphology-v1-master.png",
+        "publishedFile": "purpureocillium-morphology-v1.webp",
+        "socialFile": "purpureocillium-morphology-v1-social.webp"
       }
     },
     {
@@ -4793,12 +4797,14 @@
       "route": "/article/ralstonia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-032",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-032/ralstonia-draft.png",
-        "sha256": "dcba7131c29f52e8f7a9f0819219b56c936d562f53fd03c9f016cdbee6766c63"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "ralstonia-morphology-v1-master.png",
+        "publishedFile": "ralstonia-morphology-v1.webp",
+        "socialFile": "ralstonia-morphology-v1-social.webp"
       }
     },
     {
@@ -4812,12 +4818,14 @@
       "route": "/article/rikenella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-032",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-032/rikenella-draft.png",
-        "sha256": "fa982e47e9972e446e69c933a22f4e75440271c447055f932440ab9d0cc78e96"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "rikenella-morphology-v1-master.png",
+        "publishedFile": "rikenella-morphology-v1.webp",
+        "socialFile": "rikenella-morphology-v1-social.webp"
       }
     },
     {
@@ -4831,12 +4839,14 @@
       "route": "/article/roseburia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-032",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-032/roseburia-draft.png",
-        "sha256": "cb37815856e831529554f5dfbe0a57ba265c9406ff7ebfa5cce8960b80d75876"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "roseburia-morphology-v1-master.png",
+        "publishedFile": "roseburia-morphology-v1.webp",
+        "socialFile": "roseburia-morphology-v1-social.webp"
       }
     },
     {
@@ -4850,12 +4860,14 @@
       "route": "/article/roseburia-intestinalis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-032",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-032/roseburia-intestinalis-draft.png",
-        "sha256": "e3f4bba84fedb5be866883415318df2007d1a6dbf3470ea65a7fdb2de4d05463"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "roseburia-intestinalis-morphology-v1-master.png",
+        "publishedFile": "roseburia-intestinalis-morphology-v1.webp",
+        "socialFile": "roseburia-intestinalis-morphology-v1-social.webp"
       }
     },
     {

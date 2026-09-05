@@ -137,6 +137,10 @@ A 32-pixel outer-band audit found zero pixels below luma 128 in every file. Mini
 
 Control Tower independently inspected all six native originals and recorded a preliminary visual/scientific pass for all six exact files. It confirmed that Purpureocillium reads as two restrained conidiophore/phialide/conidial-chain structures rather than a colony scene, while all bacterial plates remain isolated, label-free, appendage-conservative, and fully within the pale crop-safe field. This is not promotion authorization; exact-hash acceptance and a new promotion parent remain required.
 
-## Review boundary
+## Promotion and native social-crop disposition
 
-This is phase one only. Future metadata must follow literal native-output counts and limitations rather than requested counts. All six exact candidates remain review-only. All prior quarantines, rejections, and seven scientific identity holds remain unchanged and asset-free.
+Control Tower verified and integrated review commit `66c54c6d43190091ff1655ce23a215626d36118e`, including the exact packet and draft hashes, literal native counts, scientific review, and zero public/master leakage. It then authorized promotion of only the six immutable originals.
+
+Control Tower subsequently inspected every native 1200 by 630 social derivative at original detail. Centered cover is accepted for Pseudomonas aeruginosa, Ralstonia, Rikenella, Roseburia, and Roseburia intestinalis: every body and grouping remains centered, unclipped, and count-preserving. Conservative contain on pale `#f3f7fb` is accepted for Purpureocillium: both conidiophore structures, all four phialides, and all twelve conidia remain visible, and the additional whitespace is scientifically preferable to clipping.
+
+Published metadata follows literal native-output counts and limitations rather than requested counts. All prior quarantines, rejections, and seven scientific identity holds remain unchanged and asset-free. No review-draft path is public.

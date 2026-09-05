@@ -4621,6 +4621,60 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 031 as a type-species-anchored representative genus reconstruction.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "pseudomonas-draft.png", "sourceSha256": "705266270572ff961d3b71f7aa61df7a3d75bc2c2591e8b0300785356a1d0729", "generationRecord": "exec-bdb823f5-9185-4014-ba98-76c948f9ca1e.png" }
+    },
+    "pseudomonas-aeruginosa|pseudomonas-aeruginosa-morphology-v1.webp": {
+      "pageId": "pseudomonas-aeruginosa", "publishedFile": "pseudomonas-aeruginosa-morphology-v1.webp", "masterSource": "pseudomonas-aeruginosa-morphology-v1-master.png", "socialFile": "pseudomonas-aeruginosa-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=287&mode=Info", "https://lpsn.dsmz.de/species/pseudomonas-aeruginosa", "https://bacdive.dsmz.de/strain/12800"], "notes": "NCBI, LPSN, and the type-strain record support current Pseudomonas aeruginosa NCBITaxon:287 and a restrained rod treatment. LPSN's P. paraeruginosa heterotypic-synonym boundary is preserved without claiming that the plate settles it." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eight slender rods in six groups, four singles and two touching pairs, with no appendage, pigment cue, capsule, or diagnostic claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows the literal 8-body/6-group output; caption separates visible description from nomenclatural, motility, representative, and non-micrograph limitations. Control Tower approved the centered-cover social crop as unclipped and count-preserving." },
+      "disposition": "approved", "notes": "Exact immutable batch-032 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "pseudomonas-aeruginosa-draft.png", "sourceSha256": "182b991b4390d7829e9393e75256a5bfedcb42c7a031cc694fc4eca0e90543b9", "generationRecord": "exec-2fedafee-53e6-4169-87f1-9281c605af38.png" }
+    },
+    "purpureocillium|purpureocillium-morphology-v1.webp": {
+      "pageId": "purpureocillium", "publishedFile": "purpureocillium-morphology-v1.webp", "masterSource": "purpureocillium-morphology-v1-master.png", "socialFile": "purpureocillium-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1052105&mode=Info", "https://pubmed.ncbi.nlm.nih.gov/21631575/", "https://doi.org/10.1111/j.1574-6968.2011.02322.x"], "notes": "NCBI and the exact primary genus paper support current Purpureocillium NCBITaxon:1052105, its type-species anchor, and restrained hyphal, phialide, and conidial framing." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted two compact conidiophore structures with two septate hyphal bases, four tapering phialides, and twelve conidia in four short chains; the output reads as isolated structures rather than a colony scene." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names the two structures, four phialides, and twelve conidia. Caption states representative, non-universal, non-diagnostic, non-micrograph scope. Control Tower approved the contained native social derivative because every structure remains visible and whitespace is preferable to clipping." },
+      "disposition": "approved", "notes": "Exact immutable batch-032 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "purpureocillium-draft.png", "sourceSha256": "75df06d8b9c45726272b89bc3adc20c6a553cf0a8f170f0d7bf5146eb2c1076b", "generationRecord": "exec-18d554ed-e5fa-47a1-9599-68947e8eb325.png" }
+    },
+    "ralstonia|ralstonia-morphology-v1.webp": {
+      "pageId": "ralstonia", "publishedFile": "ralstonia-morphology-v1.webp", "masterSource": "ralstonia-morphology-v1-master.png", "socialFile": "ralstonia-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=48736&mode=Info", "https://lpsn.dsmz.de/genus/ralstonia", "https://pubmed.ncbi.nlm.nih.gov/8657018/", "https://bacdive.dsmz.de/strain/2085"], "notes": "NCBI, LPSN, the exact primary genus proposal, and type evidence support current Ralstonia NCBITaxon:48736 and representative rod morphology." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted ten rods in eight groups, six singles and two pairs. One output-added single and group are recorded; appendages are omitted without a motility claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 10-body/8-group output; caption distinguishes visible form from genus variability and non-diagnostic scope. Control Tower approved the centered-cover social crop as unclipped and count-preserving." },
+      "disposition": "approved", "notes": "Exact immutable batch-032 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "ralstonia-draft.png", "sourceSha256": "dcba7131c29f52e8f7a9f0819219b56c936d562f53fd03c9f016cdbee6766c63", "generationRecord": "exec-7d20d655-e092-47ec-add2-85e5e0c29857.png" }
+    },
+    "rikenella|rikenella-morphology-v1.webp": {
+      "pageId": "rikenella", "publishedFile": "rikenella-morphology-v1.webp", "masterSource": "rikenella-morphology-v1-master.png", "socialFile": "rikenella-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28138&mode=Info", "https://lpsn.dsmz.de/genus/rikenella", "https://lpsn.dsmz.de/species/rikenella-microfusus", "https://doi.org/10.1016/S0723-2020(85)80015-1"], "notes": "NCBI, LPSN, and the exact original reclassification support current Rikenella NCBITaxon:28138, type species R. microfusus, and small spindle-like morphology." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted ten tapered rods in eight groups, six singles and two close pairs. One output-added single and group are recorded with no unsupported appendage or central swelling claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 10-body/8-group output; caption states representative, non-universal, non-diagnostic, non-micrograph scope. Control Tower approved the centered-cover social crop as unclipped and count-preserving." },
+      "disposition": "approved", "notes": "Exact immutable batch-032 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "rikenella-draft.png", "sourceSha256": "fa982e47e9972e446e69c933a22f4e75440271c447055f932440ab9d0cc78e96", "generationRecord": "exec-82478aae-835c-48bb-a104-45e3daa68f37.png" }
+    },
+    "roseburia|roseburia-morphology-v1.webp": {
+      "pageId": "roseburia", "publishedFile": "roseburia-morphology-v1.webp", "masterSource": "roseburia-morphology-v1-master.png", "socialFile": "roseburia-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=841&mode=Info", "https://lpsn.dsmz.de/genus/roseburia", "https://doi.org/10.1099/00207713-33-3-618"], "notes": "NCBI, LPSN, and the exact original genus/type-species paper support current Roseburia NCBITaxon:841 and slightly curved rod morphology." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted ten straight-to-gently-curved rods in eight groups, six singles and two pairs. One output-added single and group are recorded; type-species flagella are not generalized across the genus." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 10-body/8-group output; caption states appendage omission and representative, non-universal, non-diagnostic limits. Control Tower approved the centered-cover social crop as unclipped and count-preserving." },
+      "disposition": "approved", "notes": "Exact immutable batch-032 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "roseburia-draft.png", "sourceSha256": "cb37815856e831529554f5dfbe0a57ba265c9406ff7ebfa5cce8960b80d75876", "generationRecord": "exec-466d211b-3156-4211-aef3-f9bb57a0a306.png" }
+    },
+    "roseburia-intestinalis|roseburia-intestinalis-morphology-v1.webp": {
+      "pageId": "roseburia-intestinalis", "publishedFile": "roseburia-intestinalis-morphology-v1.webp", "masterSource": "roseburia-intestinalis-morphology-v1-master.png", "socialFile": "roseburia-intestinalis-morphology-v1-social.webp", "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=166486&mode=Info", "https://lpsn.dsmz.de/species/roseburia-intestinalis", "https://pubmed.ncbi.nlm.nih.gov/12361264/", "https://bacdive.dsmz.de/strain/6366"], "notes": "NCBI, LPSN, the exact primary species paper, and type-strain record support current Roseburia intestinalis NCBITaxon:166486 and slightly curved rods." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine slightly curved rods in seven groups, five singles and two pairs. One output-added single and group are recorded; primary-description flagella are intentionally omitted without a motility claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 9-body/7-group output; caption separates visible form from appendage, diagnostic, and micrograph limitations. Control Tower approved the centered-cover social crop as unclipped and count-preserving." },
+      "disposition": "approved", "notes": "Exact immutable batch-032 source accepted by WikiBiome Control Tower for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "roseburia-intestinalis-draft.png", "sourceSha256": "e3f4bba84fedb5be866883415318df2007d1a6dbf3470ea65a7fdb2de4d05463", "generationRecord": "exec-9c2fc83b-7307-45ef-a8ca-1314e99d0e4e.png" }
     }
   },
   "rejectedAssets": [
