@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-02",
+  "generatedOn": "2026-09-05",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
     "upstreamCommit": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "56e4eb9212ac4359030cac285478da55d0f59b44e1eb602481eafa9682cc8c10",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "855455a438e6fab8c5240eb551708d1deab897489aef1e27dd194b889e820513",
+    "registrySha256": "e051a1568bdf02270994bc7d10709f6649f87f989bc916d9383242584e3abd9f",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "636b6fe07f6a4115d923262d6ec37e412bfe221f34b1d31f1ad80dceaa11a7db",
+    "reviewLogSha256": "fabd47d374f8620c219fbabf5da0491b8326a7811a78919215c86794a11f8dda",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -159,8 +159,8 @@
       {
         "file": "data/article-media-batches/microorganisms-025.json",
         "batchId": "microorganisms-025",
-        "status": "awaiting-control-review",
-        "sha256": "bc98cf47ca2cb782d28600a489bde6ad54f41222a9b6c49bf0b0181cd1153d4e"
+        "status": "reviewed",
+        "sha256": "f7c142c718c59fdc2cfcc5dfcfd8adbac686ce268f3d24296e496713fe85efa5"
       }
     ]
   },
@@ -182,20 +182,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 134,
-    "remaining": 576,
+    "completed": 140,
+    "remaining": 570,
     "rejected": 18,
     "revised": 10,
     "scientificHolds": 5,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 131,
-      "remaining": 98
+      "completed": 137,
+      "remaining": 92
     },
     {
       "id": "metals",
@@ -3702,12 +3702,14 @@
       "route": "/article/malassezia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-025",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-025/malassezia-draft.png",
-        "sha256": "5cda6a682d0a55bf7ff06eeac47a27ceda8aeead55639f663f2505bc61e9ec47"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "malassezia-morphology-v1-master.png",
+        "publishedFile": "malassezia-morphology-v1.webp",
+        "socialFile": "malassezia-morphology-v1-social.webp"
       }
     },
     {
@@ -3721,12 +3723,14 @@
       "route": "/article/mediterraneibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-025",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-025/mediterraneibacter-draft.png",
-        "sha256": "5363112200a6502616931b713fd3b7d53b164ea759bb302da1dfb8b3efbaa5bf"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "mediterraneibacter-morphology-v1-master.png",
+        "publishedFile": "mediterraneibacter-morphology-v1.webp",
+        "socialFile": "mediterraneibacter-morphology-v1-social.webp"
       }
     },
     {
@@ -3740,12 +3744,14 @@
       "route": "/article/megamonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-025",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-025/megamonas-draft.png",
-        "sha256": "81cc2e79b9c183a5d442528379c48d04dbab79377b2a95bb5e8b686cd2482e71"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "megamonas-morphology-v1-master.png",
+        "publishedFile": "megamonas-morphology-v1.webp",
+        "socialFile": "megamonas-morphology-v1-social.webp"
       }
     },
     {
@@ -3759,12 +3765,14 @@
       "route": "/article/megasphaera",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-025",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-025/megasphaera-draft.png",
-        "sha256": "423c5dc4e58dc6acef58282073fa38bf13772741c341f5840abd3701fce74a9b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "megasphaera-morphology-v1-master.png",
+        "publishedFile": "megasphaera-morphology-v1.webp",
+        "socialFile": "megasphaera-morphology-v1-social.webp"
       }
     },
     {
@@ -3778,12 +3786,14 @@
       "route": "/article/methanobrevibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-025",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-025/methanobrevibacter-draft.png",
-        "sha256": "ef1b9783f82c28b1cc98b2a8c7257933c0530fc3db92554e8efcd744fa237adb"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "methanobrevibacter-morphology-v1-master.png",
+        "publishedFile": "methanobrevibacter-morphology-v1.webp",
+        "socialFile": "methanobrevibacter-morphology-v1-social.webp"
       }
     },
     {
@@ -3797,12 +3807,14 @@
       "route": "/article/methylobacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-025",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-025/methylobacterium-draft.png",
-        "sha256": "3159833f48682330877d219d73cf2dc6d90c740696dec074edb5e8cbaf5600c5"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "methylobacterium-morphology-v1-master.png",
+        "publishedFile": "methylobacterium-morphology-v1.webp",
+        "socialFile": "methylobacterium-morphology-v1-social.webp"
       }
     },
     {

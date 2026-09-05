@@ -1,6 +1,6 @@
 # WikiBiome microorganism media batch 025
 
-Review-only scientific-media packet prepared from exact integrated control parent `abce5c96df22345f31db84d05b3fec68ffb998ed` on 2026-09-05. The authorized deterministic queue is exactly `malassezia`, `mediterraneibacter`, `megamonas`, `megasphaera`, `methanobrevibacter`, and `methylobacterium`, in that order. All six routes cleared the pre-prompt current-identity and conservative-morphology audit. No route substitution or new scientific hold was required. Existing unresolved scientific holds remain asset-free.
+Scientific-media packet prepared from exact integrated control parent `abce5c96df22345f31db84d05b3fec68ffb998ed`, reviewed in immutable commit `46f4cddb7d18d83c8a06e2bf8cd0caf048a42278`, and promoted from exact combined parent `730615c1d96cc3972ee073e9426a0650eefcdd7d` on 2026-09-05 after WikiBiome Control Tower original-resolution acceptance. The deterministic queue is exactly `malassezia`, `mediterraneibacter`, `megamonas`, `megasphaera`, `methanobrevibacter`, and `methylobacterium`, in that order. All six routes cleared the current-identity and conservative-morphology audit and now receive reviewed canonical media. No route substitution or new scientific hold was required. Existing unresolved scientific holds remain asset-free.
 
 ## Scientific identity and morphology audit
 
@@ -199,4 +199,10 @@ Prompt hashes frozen before generation:
 | `methanobrevibacter` | `048e0df56d2e73b6d689cf6277bc573f3612081caccb4099b005406ddfea9d0b` |
 | `methylobacterium` | `19f1fcfca97d305a1a0b2739aa42ca5839f9a0ed8f0487290b91a914bdad5243` |
 
-Generated-file hashes, dimensions, byte sizes, generation records, literal native-resolution counts, deviations, proposed accessibility text, and review dispositions are recorded in `data/article-media-batches/microorganisms-025.json` after the one-call generation pass. Drafts remain review-only and must not enter the public registry, canonical master/derivative paths, structured media data, endpoints, or image sitemap until separate WikiBiome Control Tower original-resolution approval.
+Generated-file hashes, dimensions, byte sizes, generation records, literal native-resolution counts, accessibility text, and review dispositions are recorded in `data/article-media-batches/microorganisms-025.json`. WikiBiome Control Tower inspected all six exact PNG hashes at original 1536 by 1024 resolution and accepted them unchanged. Every accepted output matches its requested body/group topology; public metadata nevertheless remains grounded in the observed output, never the prompt.
+
+## Promotion record
+
+All six accepted drafts have a uniformly pale outer 32-pixel band with zero pixels below luminance 128. Their complete count-bearing foregrounds lie inside the standard 1200 by 630 cover-safe vertical band, so each social derivative uses the validated `cover` transform. Canonical lossless masters decode pixel-identically to the accepted draft sources. Article derivatives remain 1536 by 1024, and social derivatives are 1200 by 630. No `work/media-drafts` path is publicly routable.
+
+Every public title, alt, caption, description, provenance statement, embedded XMP/IPTC packet, controlled identifier, review record, Schema.org `ImageObject`, Open Graph/X preview, and image-sitemap entry preserves the accepted genus-level limits. Each plate is type-species anchored, representative, non-universal, non-diagnostic, and explicitly a scientific trained-algorithmic-media reconstruction rather than a micrograph or photograph. Methanobrevibacter is identified as an archaeal genus. Methylobacterium remains scoped to the current narrowed genus rather than the historical broad methylobacteria assemblage.

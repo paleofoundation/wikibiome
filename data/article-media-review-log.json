@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedOn": "2026-09-02",
+  "updatedOn": "2026-09-05",
   "reviewableBatchSize": 6,
   "reviewingAuthorities": {
     "wikibiome-media-program": {
@@ -3474,6 +3474,190 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome root control original-resolution review in microorganisms batch 024 only as a scientific reconstruction, not a micrograph or diagnostic image.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lodderomyces-elongisporus-draft.png", "sourceSha256": "1e0f642c3b04b9427d68959c6f90047781422831a3e52667f03bf210a28a56f2", "generationRecord": "exec-0f4c8120-5475-44ff-b44e-c9fb4e17f486.png" }
+    },
+    "malassezia|malassezia-morphology-v1.webp": {
+      "pageId": "malassezia",
+      "publishedFile": "malassezia-morphology-v1.webp",
+      "masterSource": "malassezia-morphology-v1-master.png",
+      "socialFile": "malassezia-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=55193&mode=Info",
+          "https://species.data.kew.org/species/8831?lang=en-US",
+          "https://doi.org/10.1016/B978-0-444-52149-1.00148-8",
+          "https://doi.org/10.1016/j.mcp.2010.12.003",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7098993/"
+        ],
+        "notes": "NCBI Taxonomy and Index Fungorum/Kew support current genus Malassezia, NCBITaxon:55193, with Malassezia furfur as its nomenclatural type. Authoritative yeast treatments support a conservative selected range of round, ovoid, bottle-like, cylindrical, and broad-base unipolar budding forms without implying universal morphology or visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted nine yeast bodies in seven groups: five round, ovoid, bottle-like, or cylindrical singles and two coherent broad-base mother-bud pairs. No hypha, unsupported structure, scene, text, or clipping is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the literal nine-body/seven-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 025 after immutable-hash and output-count verification.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "malassezia-draft.png", "sourceSha256": "5cda6a682d0a55bf7ff06eeac47a27ceda8aeead55639f663f2505bc61e9ec47", "generationRecord": "exec-63f4ba31-d402-486d-9524-65c6e5df3610.png" }
+    },
+    "mediterraneibacter|mediterraneibacter-morphology-v1.webp": {
+      "pageId": "mediterraneibacter",
+      "publishedFile": "mediterraneibacter-morphology-v1.webp",
+      "masterSource": "mediterraneibacter-morphology-v1-master.png",
+      "socialFile": "mediterraneibacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2316020&mode=Info",
+          "https://lpsn.dsmz.de/genus/mediterraneibacter",
+          "https://pubmed.ncbi.nlm.nih.gov/29855844/",
+          "https://registry.seqco.de/names/11936"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current validly published genus Mediterraneibacter, NCBITaxon:2316020, with Mediterraneibacter massiliensis as its nomenclatural type. The primary genus description supports a compact coccobacillary type-species treatment without implying universal morphology or visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted nine compact coccobacillary-to-short-rod bodies in seven groups: five singles and two touching pairs. Each body retains an ordinary boundary, with no unsupported structure, scene, text, or clipping."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the literal nine-body/seven-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 025 after immutable-hash and output-count verification.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "mediterraneibacter-draft.png", "sourceSha256": "5363112200a6502616931b713fd3b7d53b164ea759bb302da1dfb8b3efbaa5bf", "generationRecord": "exec-6e688984-4182-4715-a84f-4fad9a95156c.png" }
+    },
+    "megamonas|megamonas-morphology-v1.webp": {
+      "pageId": "megamonas",
+      "publishedFile": "megamonas-morphology-v1.webp",
+      "masterSource": "megamonas-morphology-v1-master.png",
+      "socialFile": "megamonas-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=158846&mode=Info",
+          "https://lpsn.dsmz.de/genus/megamonas",
+          "https://www.ccug.se/strain?id=5856",
+          "https://doi.org/10.1007/BF02545548"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Megamonas, NCBITaxon:158846, with Megamonas hypermegale as its nomenclatural type. The original description and current type-strain record support large plump rods rather than cocci without implying universal morphology or visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted nine large plump rounded-pole rods in seven groups: five singles and two touching pairs. No coccus, unsupported structure, scene, text, or clipping is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the literal nine-rod/seven-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 025 as a large plump rod reconstruction, not a coccal plate.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "megamonas-draft.png", "sourceSha256": "81cc2e79b9c183a5d442528379c48d04dbab79377b2a95bb5e8b686cd2482e71", "generationRecord": "exec-8c6168ab-a166-430a-860c-1960c3e79c9d.png" }
+    },
+    "megasphaera|megasphaera-morphology-v1.webp": {
+      "pageId": "megasphaera",
+      "publishedFile": "megasphaera-morphology-v1.webp",
+      "masterSource": "megasphaera-morphology-v1-master.png",
+      "socialFile": "megasphaera-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=906&mode=Info",
+          "https://lpsn.dsmz.de/genus/megasphaera",
+          "https://doi.org/10.1099/00207713-21-2-187",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC10819428/",
+          "https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/ijs.0.059816-0"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Megasphaera, NCBITaxon:906, with Megasphaera elsdenii as its nomenclatural type. Original and modern evidence supports comparatively large spherical-to-slightly-ovoid cells in singles, pairs, or short chains without implying universal morphology or visual diagnosis."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted eleven large spherical-to-ovoid bodies in seven groups: four singles, two touching pairs, and one touching three-cell short chain. No unsupported structure, scene, text, or clipping is present."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the literal eleven-body/seven-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 025 after immutable-hash and output-count verification.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "megasphaera-draft.png", "sourceSha256": "423c5dc4e58dc6acef58282073fa38bf13772741c341f5840abd3701fce74a9b", "generationRecord": "exec-37deb34d-c44f-474e-a247-eed06ccaac4c.png" }
+    },
+    "methanobrevibacter|methanobrevibacter-morphology-v1.webp": {
+      "pageId": "methanobrevibacter",
+      "publishedFile": "methanobrevibacter-morphology-v1.webp",
+      "masterSource": "methanobrevibacter-morphology-v1-master.png",
+      "socialFile": "methanobrevibacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2172&mode=Info",
+          "https://lpsn.dsmz.de/genus/methanobrevibacter",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC290140/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC2812497/",
+          "https://www.dsmz.de/collection/catalogue/details/culture/DSM-1093"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current archaeal genus Methanobrevibacter, NCBITaxon:2172, with Methanobrevibacter ruminantium as its nomenclatural type. Original, neotype, and culture evidence supports oval-to-short rods in singles and pairs without spores or a universal genus-morphology claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted ten short ovoid archaeal rod bodies in seven groups: four singles and three touching pairs. The treatment is explicitly type-species anchored and not a universal genus portrait."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text identifies the archaeal subject and literal ten-body/seven-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 025 only as a type-species-anchored representative short-ovoid/rod reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "methanobrevibacter-draft.png", "sourceSha256": "ef1b9783f82c28b1cc98b2a8c7257933c0530fc3db92554e8efcd744fa237adb", "generationRecord": "exec-27ee8745-56a5-4393-a4f2-ffe085df6c3f.png" }
+    },
+    "methylobacterium|methylobacterium-morphology-v1.webp": {
+      "pageId": "methylobacterium",
+      "publishedFile": "methylobacterium-morphology-v1.webp",
+      "masterSource": "methylobacterium-morphology-v1-master.png",
+      "socialFile": "methylobacterium-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=407&mode=Info",
+          "https://lpsn.dsmz.de/genus/methylobacterium",
+          "https://www.microbiologyresearch.org/content/journal/ijsem/10.1099/00207713-26-2-226",
+          "https://bacdive.dsmz.de/strain/7151",
+          "https://doi.org/10.1002/9781118960608.gbm00830.pub2"
+        ],
+        "notes": "NCBI Taxonomy and LPSN support current genus Methylobacterium, NCBITaxon:407, with Methylobacterium organophilum as its nomenclatural type. Primary and modern sources support short fat rods and occasional rosettes while limiting the plate to the current narrowed genus rather than the historical broad methylobacteria assemblage."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted nine short plump rods in seven groups: six singles and one central three-body rosette whose members retain separate boundaries. The form is representative and non-diagnostic."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text follows the literal nine-body/seven-group output and identifies the rosette. Caption states current-circumscription, type-species-anchored, representative, non-universal, non-diagnostic, non-micrograph scope. The validated cover crop retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 025 as a current-circumscription representative rod and rosette reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "methylobacterium-draft.png", "sourceSha256": "3159833f48682330877d219d73cf2dc6d90c740696dec074edb5e8cbaf5600c5", "generationRecord": "exec-e583cb09-119b-479d-b001-23db77aa391f.png" }
     }
   },
   "rejectedAssets": [
