@@ -3,10 +3,10 @@ title: Oscillibacter
 type: entity
 subtype: microbe
 created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
-sources: [tao-2024-cadmium-gut-microbiota-dwarf-hamsters, yu-2023-fmt-inhibits-crc-progression, rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals, loke-2018-metabolomics-16s-crc-mucosa, kong-2021-ketogenic-diet-colitis-ilc3-microbiome, elbere-2020-baseline-gut-microbiome-metformin-efficacy-t2d, dejonge-2022-gut-virome-bacteriophage-metabolic-syndrome, gong-2025-gut-microbiota-diagnostic-ovarian-tumor, su-2023-gut-microbiota-ed-mr-6-taxa, chen-2024-causal-gut-microbiota-male-ed-mr, zhang-2023-causal-gut-microbiota-ed-mr, lyu-2024-care-mode-gut-microbiota-cp-children, huang-2022-oral-gut-microbiota-cpe-correlations]
-source_count: 13
+updated: 2026-09-05
+last_substantive_update: 2026-09-05
+sources: [iino-2007-oscillibacter-valericigenes, tao-2024-cadmium-gut-microbiota-dwarf-hamsters, yu-2023-fmt-inhibits-crc-progression, rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals, loke-2018-metabolomics-16s-crc-mucosa, kong-2021-ketogenic-diet-colitis-ilc3-microbiome, elbere-2020-baseline-gut-microbiome-metformin-efficacy-t2d, dejonge-2022-gut-virome-bacteriophage-metabolic-syndrome, gong-2025-gut-microbiota-diagnostic-ovarian-tumor, su-2023-gut-microbiota-ed-mr-6-taxa, chen-2024-causal-gut-microbiota-male-ed-mr, zhang-2023-causal-gut-microbiota-ed-mr, lyu-2024-care-mode-gut-microbiota-cp-children, huang-2022-oral-gut-microbiota-cpe-correlations]
+source_count: 14
 tags: [firmicutes, oscillospiraceae, valerate-producer, cadmium-sensitive, lead-sensitive, butyrate-producer, depleted-by-metals, cancer-ecology]
 seo_target: "Oscillibacter gut microbiome valerate cadmium lead heavy metals"
 wikipedia_differentiation: "Heavy metal sensitivity as ecological indicator with cadmium and lead dose-dependent depletion data, valerate production distinguishing it from other SCFA producers, negative correlation with anti-cancer cytokines after FMT, and tumor tissue metabolic associations in CRC"
@@ -22,7 +22,7 @@ conditions_depleted_in: [cadmium-exposure, lead-exposure, colorectal-cancer]
 
 # Oscillibacter
 
-Oscillibacter is a genus of Gram-negative, strictly anaerobic, motile bacteria within the family Oscillospiraceae (phylum Firmicutes). The type species, *Oscillibacter valericigenes*, was first isolated from the alimentary tract of a Japanese freshwater fish and named for its characteristic oscillating motility and its production of valerate (pentanoic acid), a five-carbon short-chain fatty acid that distinguishes it from the more commonly discussed [[butyrate]] and propionate producers.
+Oscillibacter is a genus of Gram-negative, strictly anaerobic, motile bacteria within the family Oscillospiraceae (phylum Firmicutes). The type species, *Oscillibacter valericigenes*, was first isolated from the alimentary canal of a Japanese corbicula clam and named for its characteristic oscillating motility and its production of valerate (pentanoic acid), a five-carbon short-chain fatty acid that distinguishes it from the more commonly discussed [[butyrate]] and propionate producers ([[iino-2007-oscillibacter-valericigenes]], taxonomic-description).
 
 *Oscillibacter* is ecologically important as a sentinel of heavy metal exposure. Its depletion under cadmium and lead stress has been documented in multiple animal models, positioning it alongside [[lachnospiraceae-family]] and [[roseburia]] as an early casualty of metal-driven [[dysbiosis]].
 
@@ -71,6 +71,7 @@ In the healthy gut, *Oscillibacter* is a moderately abundant member of the Firmi
 
 | Study | Finding | Evidence Level |
 |-------|---------|---------------|
+| [[iino-2007-oscillibacter-valericigenes]] | Described the type species from the alimentary canal of a Japanese corbicula clam | Taxonomic description |
 | [[tao-2024-cadmium-gut-microbiota-dwarf-hamsters]] | Significantly depleted by cadmium in wild hamsters | Animal model |
 | [[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]] | Depleted by lead alongside Lachnospiraceae | Animal model |
 | [[yu-2023-fmt-inhibits-crc-progression]] | Negatively correlated with anti-cancer cytokines post-FMT | Animal model |

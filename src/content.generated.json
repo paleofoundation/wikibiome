@@ -1,8 +1,8 @@
 {
-  "_generated": "2026-09-07T11:43:51.515Z",
+  "_generated": "2026-09-07T11:50:03.434Z",
   "_platform": "all",
   "_stats": {
-    "sources": 1939,
+    "sources": 1940,
     "entities": 328,
     "concepts": 269,
     "signatures": 70,
@@ -47842,6 +47842,7 @@
         "cancer-ecology"
       ],
       "sources": [
+        "iino-2007-oscillibacter-valericigenes",
         "tao-2024-cadmium-gut-microbiota-dwarf-hamsters",
         "yu-2023-fmt-inhibits-crc-progression",
         "rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals",
@@ -47857,15 +47858,16 @@
         "huang-2022-oral-gut-microbiota-cpe-correlations"
       ],
       "created": "2026-04-18T00:00:00.000Z",
-      "updated": "2026-04-18T00:00:00.000Z",
+      "updated": "2026-09-05T00:00:00.000Z",
       "frontmatter": {
         "title": "Oscillibacter",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-18T00:00:00.000Z",
-        "updated": "2026-04-18T00:00:00.000Z",
-        "last_substantive_update": "2026-04-18T00:00:00.000Z",
+        "updated": "2026-09-05T00:00:00.000Z",
+        "last_substantive_update": "2026-09-05T00:00:00.000Z",
         "sources": [
+          "iino-2007-oscillibacter-valericigenes",
           "tao-2024-cadmium-gut-microbiota-dwarf-hamsters",
           "yu-2023-fmt-inhibits-crc-progression",
           "rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals",
@@ -47880,7 +47882,7 @@
           "lyu-2024-care-mode-gut-microbiota-cp-children",
           "huang-2022-oral-gut-microbiota-cpe-correlations"
         ],
-        "source_count": 13,
+        "source_count": 14,
         "tags": [
           "firmicutes",
           "oscillospiraceae",
@@ -47914,7 +47916,7 @@
           "colorectal-cancer"
         ]
       },
-      "overview": "Oscillibacter is a genus of Gram-negative, strictly anaerobic, motile bacteria within the family Oscillospiraceae (phylum Firmicutes). The type species, *Oscillibacter valericigenes*, was first isolated from the alimentary tract of a Japanese freshwater fish and named for its characteristic oscillating motility and its production of valerate (pentanoic acid), a five-carbon short-chain fatty acid that distinguishes it from the more commonly discussed [[butyrate]] and propionate producers.\n\n*Oscillibacter* is ecologically important as a sentinel of heavy metal exposure. Its depletion under cadmium and lead stress has been documented in multiple animal models, positioning it alongside [[lachnospiraceae-family]] and [[roseburia]] as an early casualty of metal-driven [[dysbiosis]].",
+      "overview": "Oscillibacter is a genus of Gram-negative, strictly anaerobic, motile bacteria within the family Oscillospiraceae (phylum Firmicutes). The type species, *Oscillibacter valericigenes*, was first isolated from the alimentary canal of a Japanese corbicula clam and named for its characteristic oscillating motility and its production of valerate (pentanoic acid), a five-carbon short-chain fatty acid that distinguishes it from the more commonly discussed [[butyrate]] and propionate producers ([[iino-2007-oscillibacter-valericigenes]], taxonomic-description).\n\n*Oscillibacter* is ecologically important as a sentinel of heavy metal exposure. Its depletion under cadmium and lead stress has been documented in multiple animal models, positioning it alongside [[lachnospiraceae-family]] and [[roseburia]] as an early casualty of metal-driven [[dysbiosis]].",
       "sections": [
         {
           "heading": "Metal Dependencies",
@@ -47954,7 +47956,7 @@
         {
           "heading": "Key Studies",
           "level": 2,
-          "body": "| Study | Finding | Evidence Level |\n|-------|---------|---------------|\n| [[tao-2024-cadmium-gut-microbiota-dwarf-hamsters]] | Significantly depleted by cadmium in wild hamsters | Animal model |\n| [[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]] | Depleted by lead alongside Lachnospiraceae | Animal model |\n| [[yu-2023-fmt-inhibits-crc-progression]] | Negatively correlated with anti-cancer cytokines post-FMT | Animal model |\n| [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] | Enriched on LCD; worse colitis vs KD | Animal model |\n| [[elbere-2020-baseline-gut-microbiome-metformin-efficacy-t2d]] | Increased by metformin in healthy and T2D | Prospective cohort |"
+          "body": "| Study | Finding | Evidence Level |\n|-------|---------|---------------|\n| [[iino-2007-oscillibacter-valericigenes]] | Described the type species from the alimentary canal of a Japanese corbicula clam | Taxonomic description |\n| [[tao-2024-cadmium-gut-microbiota-dwarf-hamsters]] | Significantly depleted by cadmium in wild hamsters | Animal model |\n| [[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]] | Depleted by lead alongside Lachnospiraceae | Animal model |\n| [[yu-2023-fmt-inhibits-crc-progression]] | Negatively correlated with anti-cancer cytokines post-FMT | Animal model |\n| [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] | Enriched on LCD; worse colitis vs KD | Animal model |\n| [[elbere-2020-baseline-gut-microbiome-metformin-efficacy-t2d]] | Increased by metformin in healthy and T2D | Prospective cohort |"
         },
         {
           "heading": "Cross-References",
@@ -47964,6 +47966,7 @@
       ],
       "wikilinks": [
         "butyrate",
+        "iino-2007-oscillibacter-valericigenes",
         "lachnospiraceae-family",
         "roseburia",
         "dysbiosis",
@@ -47982,7 +47985,7 @@
         "metformin"
       ],
       "sourceDir": "entities",
-      "sourceCount": 13,
+      "sourceCount": 14,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
@@ -185328,7 +185331,7 @@
         "id": "oscillibacter",
         "label": "Oscillibacter",
         "category": "microbe",
-        "sourceCount": 13
+        "sourceCount": 14
       },
       {
         "id": "oscillospiraceae",
@@ -425808,6 +425811,22 @@
       "year": 2019,
       "journal": "Journal of Atherosclerosis and Thrombosis",
       "doi": "10.5551/jat.RV17036",
+      "keystone": false,
+      "keystone_criteria_met": [],
+      "why_keystone": ""
+    },
+    "iino-2007-oscillibacter-valericigenes": {
+      "title": "Iino et al. 2007 — Oscillibacter valericigenes gen. nov., sp. nov.",
+      "authors": [
+        "Takao Iino",
+        "Koji Mori",
+        "Kenji Tanaka",
+        "Ken-Ichiro Suzuki",
+        "Shigeaki Harayama"
+      ],
+      "year": 2007,
+      "journal": "International Journal of Systematic and Evolutionary Microbiology",
+      "doi": "10.1099/ijs.0.64717-0",
       "keystone": false,
       "keystone_criteria_met": [],
       "why_keystone": ""
