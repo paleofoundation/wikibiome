@@ -191,6 +191,12 @@
         "batchId": "microorganisms-030",
         "status": "reviewed",
         "sha256": "1449ca0a2215b2fea70d4fcdb998c1be49ba6737c3165a8255c5eb30a4c2719e"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-031.json",
+        "batchId": "microorganisms-031",
+        "status": "awaiting-control-review",
+        "sha256": "285f8ca681ba86ed7a5d4edbf276a57724b596cf2608323ba4210e9f3dc4448b"
       }
     ]
   },
@@ -217,7 +223,7 @@
     "rejected": 23,
     "revised": 11,
     "scientificHolds": 7,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -983,46 +989,46 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 172,
-      "id": "prevotellaceae",
-      "title": "Prevotellaceae",
-      "route": "/article/prevotellaceae",
+      "queuePosition": 178,
+      "id": "pseudomonas-aeruginosa",
+      "title": "Pseudomonas aeruginosa",
+      "route": "/article/pseudomonas-aeruginosa",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 173,
-      "id": "propionibacterium",
-      "title": "Propionibacterium",
-      "route": "/article/propionibacterium",
+      "queuePosition": 179,
+      "id": "purpureocillium",
+      "title": "Purpureocillium",
+      "route": "/article/purpureocillium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 174,
-      "id": "proteobacteria",
-      "title": "Proteobacteria (Pseudomonadota)",
-      "route": "/article/proteobacteria",
+      "queuePosition": 180,
+      "id": "ralstonia",
+      "title": "Ralstonia",
+      "route": "/article/ralstonia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 175,
-      "id": "proteus",
-      "title": "Proteus",
-      "route": "/article/proteus",
+      "queuePosition": 181,
+      "id": "rikenella",
+      "title": "Rikenella",
+      "route": "/article/rikenella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 176,
-      "id": "proteus-mirabilis",
-      "title": "Proteus mirabilis",
-      "route": "/article/proteus-mirabilis",
+      "queuePosition": 182,
+      "id": "roseburia",
+      "title": "Roseburia",
+      "route": "/article/roseburia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -4617,7 +4623,13 @@
       "route": "/article/prevotellaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-031",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-031/prevotellaceae-draft.png",
+        "sha256": "703c21dcac8ea686072a0901d3fb7b49c34e6115fea8be27147af34d46708a48"
+      }
     },
     {
       "queuePosition": 173,
@@ -4630,7 +4642,13 @@
       "route": "/article/propionibacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-031",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-031/propionibacterium-draft.png",
+        "sha256": "ca72e2e2b9039756f3810fed4382d08b1e9eb6d63fdb9d612f011d632aecf5c1"
+      }
     },
     {
       "queuePosition": 174,
@@ -4643,7 +4661,13 @@
       "route": "/article/proteobacteria",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-031",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-031/proteobacteria-draft.png",
+        "sha256": "4afcdeda68c35a1c435e7cf729ad896a8a5bfc2383c54107db767a1ac9ec95e6"
+      }
     },
     {
       "queuePosition": 175,
@@ -4656,7 +4680,13 @@
       "route": "/article/proteus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-031",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-031/proteus-draft.png",
+        "sha256": "a0afe46ddd2bc97a69e6764e921e61d8889a77b5fb657ae79a17abeb8651387d"
+      }
     },
     {
       "queuePosition": 176,
@@ -4669,7 +4699,13 @@
       "route": "/article/proteus-mirabilis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-031",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-031/proteus-mirabilis-draft.png",
+        "sha256": "8b3354c43708de55a672aa5ad47aceb81085cc1ba48fe51482c0b899abf2978f"
+      }
     },
     {
       "queuePosition": 177,
@@ -4682,7 +4718,13 @@
       "route": "/article/pseudomonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-031",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-031/pseudomonas-draft.png",
+        "sha256": "705266270572ff961d3b71f7aa61df7a3d75bc2c2591e8b0300785356a1d0729"
+      }
     },
     {
       "queuePosition": 178,
