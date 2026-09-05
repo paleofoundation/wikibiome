@@ -1,0 +1,98 @@
+import assert from "node:assert/strict";
+import test from "node:test";
+import {
+  GONE_PATHS,
+  LEGACY_REDIRECTS,
+  auditPublicRoutingContract,
+  parseArguments,
+} from "../scripts/audit-public-routing-contract.mjs";
+
+const apex = "https://apex.example";
+const canonical = "https://www.example";
+
+function metadata(path, types, { noindex = false } = {}) {
+  const url = `${canonical}${path}`;
+  return `<!doctype html><html><head><title>Example</title><link rel="canonical" href="${url}"><meta name="robots" content="${noindex ? "noindex, follow" : "index, follow"}"><meta property="og:url" content="${url}"><meta property="og:image" content="${canonical}/media/social/example.webp"><meta name="twitter:image" content="${canonical}/media/social/example.webp"><script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@graph": types.map((type) => ({ "@type": type })) })}</script></head></html>`;
+}
+
+function fixtureFetch({ brokenRedirect = false } = {}) {
+  const redirects = new Map(LEGACY_REDIRECTS.map((item) => [item.path, item]));
+  const images = [
+    { page: `${canonical}/article/one`, image: `${canonical}/media/image/one.webp` },
+    { page: `${canonical}/article/two`, image: `${canonical}/media/image/two.webp` },
+  ];
+  const sitemap = `<?xml version="1.0"?><urlset><url><loc>${canonical}/article/one</loc></url><url><loc>${canonical}/source/one</loc></url><url><loc>${canonical}/category/microbe</loc></url></urlset>`;
+  const imageSitemap = `<?xml version="1.0"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${images.map(({ page, image }) => `<url><loc>${page}</loc><image:image><image:loc>${image}</image:loc></image:image></url>`).join("")}</urlset>`;
+  const robots = [
+    "User-agent: *",
+    "Allow: /",
+    "Disallow: /api/",
+    "Disallow: /outreach",
+    "Disallow: /contributions",
+    "Disallow: /article/*/suggest",
+    "Disallow: /media-files/",
+    `Sitemap: ${canonical}/sitemap.xml`,
+    `Sitemap: ${canonical}/image-sitemap.xml`,
+  ].join("\n");
+
+  return async (input) => {
+    const url = new URL(input);
+    if (url.origin === apex) return new Response(null, { status: 308, headers: { location: `${canonical}${url.pathname}${url.search}` } });
+    const redirect = redirects.get(url.pathname);
+    if (redirect) return new Response(null, { status: brokenRedirect ? 200 : redirect.status, headers: { location: `${canonical}${redirect.destination}` } });
+    if (GONE_PATHS.includes(url.pathname)) {
+      return new Response(`<!doctype html><title>Gone — WikiBiome</title><meta name="robots" content="noindex, follow"><link rel="canonical" href="${canonical}/404">`, { status: 410, headers: { "x-robots-tag": "noindex, follow" } });
+    }
+    if (url.pathname === "/article/lineage-audit-record-that-does-not-exist") return new Response(`<!doctype html><title>Not found</title><meta name="robots" content="noindex, follow"><link rel="canonical" href="${canonical}/404">`, { status: 404 });
+    if (url.pathname === "/robots.txt") return new Response(robots);
+    if (url.pathname === "/sitemap.xml") return new Response(sitemap);
+    if (url.pathname === "/sitemap-full.xml") return new Response(sitemap);
+    if (url.pathname === "/image-sitemap.xml") return new Response(imageSitemap);
+    if (url.pathname.startsWith("/media/image/")) return new Response(null, { headers: { "content-type": "image/webp", "cache-control": "public, max-age=31536000, immutable" } });
+    if (url.pathname === "/support") return new Response(`${metadata("/support", [])}<a href="https://buy.stripe.com/example">Support</a>`);
+    if (url.pathname === "/support/thank-you") return new Response(metadata("/support/thank-you", [], { noindex: true }));
+    if (url.pathname === "/api/create-checkout") return new Response(null, { status: 404 });
+    const representative = {
+      "/article/akkermansia-muciniphila": ["WebPage", "Article", "ImageObject"],
+      "/source/amadi-2022-dietary-interventions-asd-systematic-review": ["WebPage", "ScholarlyArticle"],
+      "/category/microbe": ["CollectionPage"],
+      "/explore": ["WebApplication"],
+    }[url.pathname];
+    if (representative) return new Response(metadata(url.pathname, representative));
+    return new Response(null, { status: 404 });
+  };
+}
+
+test("parses explicit public audit options", () => {
+  assert.deepEqual(parseArguments(["--apex=https://a.example/", "--canonical=https://c.example/", "--images=7", "--apex-status=301", "--sample-images"]), {
+    apexOrigin: "https://a.example",
+    canonicalOrigin: "https://c.example",
+    expectedImages: 7,
+    apexStatus: 301,
+    checkAllImages: false,
+  });
+  assert.throws(() => parseArguments(["--images=-1"]), /non-negative integer/);
+  assert.throws(() => parseArguments(["--apex-status=302"]), /301 or 308/);
+});
+
+test("accepts a complete lineage-neutral public contract", async () => {
+  const report = await auditPublicRoutingContract({
+    apexOrigin: apex,
+    canonicalOrigin: canonical,
+    expectedImages: 2,
+    fetchImpl: fixtureFetch(),
+  });
+  assert.deepEqual(report.failures, []);
+  assert.deepEqual(report.representative, { total: 4, status200: 4, selfCanonical: 4, socialPreview: 4, structuredData: 4 });
+  assert.equal(report.healthyImageEndpoints, 2);
+});
+
+test("reports an exact legacy status regression", async () => {
+  const report = await auditPublicRoutingContract({
+    apexOrigin: apex,
+    canonicalOrigin: canonical,
+    expectedImages: 2,
+    fetchImpl: fixtureFetch({ brokenRedirect: true }),
+  });
+  assert.ok(report.failures.some((failure) => failure.includes("/signature-explorer: HTTP 200, expected 308")));
+});
