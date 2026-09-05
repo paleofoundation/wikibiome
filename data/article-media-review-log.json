@@ -4795,6 +4795,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 7-body/7-group output; caption states representative, non-universal, non-diagnostic limits." },
       "disposition": "approved", "notes": "Exact immutable batch-035 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "sneathia-draft.png", "sourceSha256": "d2f166c3f287aa792945bc3cc0865cad7d2802449f011d409328bc64cfae0a00", "generationRecord": "exec-da12e10a-616a-4b1d-9613-b1ba1333bb87.png" }
+    },
+    "sphingobium|sphingobium-morphology-v1.webp": {
+      "pageId": "sphingobium", "publishedFile": "sphingobium-morphology-v1.webp", "masterSource": "sphingobium-morphology-v1-master.png", "socialFile": "sphingobium-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=165695&mode=Info", "https://lpsn.dsmz.de/genus/sphingobium", "https://bacdive.dsmz.de/strain/14180"], "notes": "Current genus, type species, type-strain evidence, and rod morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted ten slender rods in eight groups; the output-added single/group are recorded and omitted appendages make no genus-wide motility claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 10-body/8-group output; caption states representative, non-universal, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-036 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "sphingobium-draft.png", "sourceSha256": "e025476d9c1d8a46d915911f89c7e1273e71b91cb7b06cdb85630ad369238a4f", "generationRecord": "exec-93736042-7e19-4d78-ba93-6933600a411b.png" }
+    },
+    "sphingomonas|sphingomonas-morphology-v1.webp": {
+      "pageId": "sphingomonas", "publishedFile": "sphingomonas-morphology-v1.webp", "masterSource": "sphingomonas-morphology-v1-master.png", "socialFile": "sphingomonas-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=13687&mode=Info", "https://lpsn.dsmz.de/genus/sphingomonas", "https://bacdive.dsmz.de/strain/14201"], "notes": "Current genus, type species, type-strain evidence, and rod morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine short rods in seven groups; the output-added single/group are recorded and omitted appendages/pigment make no phenotype claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 9-body/7-group output; caption states representative, non-universal, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-036 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "sphingomonas-draft.png", "sourceSha256": "2d984ffd3e387c49d27d451bd05358d4d7ff0fa4ef3819f80c0a8da01d01d30a", "generationRecord": "exec-11573aa4-d2ef-41c2-ad0f-438e4a14df86.png" }
+    },
+    "staphylococcus|staphylococcus-morphology-v1.webp": {
+      "pageId": "staphylococcus", "publishedFile": "staphylococcus-morphology-v1.webp", "masterSource": "staphylococcus-morphology-v1-master.png", "socialFile": "staphylococcus-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1279&mode=Info", "https://lpsn.dsmz.de/genus/staphylococcus", "https://www.ncbi.nlm.nih.gov/books/NBK8448/"], "notes": "The conserved current genus, type species, and irregular coccal-cluster arrangement are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted fifteen countable cocci in three clusters of five; the output-added coccus is recorded." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 15-body/3-cluster output; caption states representative, non-universal, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-036 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "staphylococcus-draft.png", "sourceSha256": "ad534bc6b9237f5a9dc7c61544aa4f8750698ef6554557b9bd32bf62ab1d3d19", "generationRecord": "exec-06f461f5-deae-4b03-8c89-eea223eab5ab.png" }
+    },
+    "staphylococcus-aureus|staphylococcus-aureus-morphology-v1.webp": {
+      "pageId": "staphylococcus-aureus", "publishedFile": "staphylococcus-aureus-morphology-v1.webp", "masterSource": "staphylococcus-aureus-morphology-v1-master.png", "socialFile": "staphylococcus-aureus-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1280&mode=Info", "https://lpsn.dsmz.de/species/staphylococcus-aureus", "https://www.ncbi.nlm.nih.gov/books/NBK562897/"], "notes": "Current species, type material, and grape-like coccal-cluster morphology are authority-backed; colony pigment is distinguished from cellular morphology." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted twelve countable cocci in two clusters of six, with no pigment or diagnostic visual claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 12-body/2-cluster output; caption states type-strain, non-diagnostic, and non-separability limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-036 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "staphylococcus-aureus-draft.png", "sourceSha256": "735146ed26f5bc7a743d51ce41cfc4f3feb9147efa357433bcf400bc8b6a95de", "generationRecord": "exec-01d3e83d-da61-45c7-a2c9-5437554a4774.png" }
+    },
+    "staphylococcus-epidermidis|staphylococcus-epidermidis-morphology-v1.webp": {
+      "pageId": "staphylococcus-epidermidis", "publishedFile": "staphylococcus-epidermidis-morphology-v1.webp", "masterSource": "staphylococcus-epidermidis-morphology-v1-master.png", "socialFile": "staphylococcus-epidermidis-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1282&mode=Info", "https://lpsn.dsmz.de/species/staphylococcus-epidermidis", "https://www.ncbi.nlm.nih.gov/books/NBK563240/"], "notes": "Current species, type material, and clustered coccal morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted thirteen countable cocci in clusters of five, four, and four; no species-exclusive shape is claimed." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 13-body/3-cluster output; caption states type-strain, non-diagnostic, and non-separability limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-036 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "staphylococcus-epidermidis-draft.png", "sourceSha256": "aeaa3031755b50d1d1bac1a1b027030c1458815317182e22ffce70e2f889a75c", "generationRecord": "exec-50cd037e-7cf0-4623-a67c-df06f2152577.png" }
+    },
+    "streptococcus|streptococcus-morphology-v1.webp": {
+      "pageId": "streptococcus", "publishedFile": "streptococcus-morphology-v1.webp", "masterSource": "streptococcus-morphology-v1-master.png", "socialFile": "streptococcus-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1301&mode=Info", "https://lpsn.dsmz.de/genus/streptococcus", "https://www.ncbi.nlm.nih.gov/books/NBK7611/"], "notes": "Current genus, type species, and round-to-ovoid cocci in pair/chain arrangements are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted fourteen countable cocci in chains of six and five, one pair, and one single." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal 14-body/4-group output; caption states representative, non-universal, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-036 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "streptococcus-draft.png", "sourceSha256": "63ef7c378c6a771cc920787568683b839b6d8810bdf06012ed8893ca148205d6", "generationRecord": "exec-8f25d726-94f5-4674-b8c4-59f42870b7ef.png" }
     }
   },
   "rejectedAssets": [

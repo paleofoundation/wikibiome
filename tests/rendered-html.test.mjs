@@ -2937,14 +2937,14 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
     "phocaeicola",
-    "sphingobium",
-    "sphingomonas",
-    "staphylococcus",
-    "staphylococcus-aureus",
-    "staphylococcus-epidermidis",
+    "streptococcus-agalactiae",
+    "streptococcus-gallolyticus",
+    "streptococcus-mutans",
+    "streptococcus-pneumoniae",
+    "streptococcus-salivarius",
   ]);
-  assert.equal(program.current.completed, 192);
-  assert.equal(program.current.remaining, 518);
+  assert.equal(program.current.completed, 198);
+  assert.equal(program.current.remaining, 512);
   assert.equal(program.current.rejected, 27);
   assert.equal(program.current.revised, 11);
   assert.equal(program.current.inReview, 0);
@@ -3285,14 +3285,19 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(batch035GenerationRecords.size, 6);
   assert.doesNotMatch(batch035PromptRecord, /<!-- PROMPT phocaeicola START -->/);
   const batch036 = batches.find((batch) => batch.batchId === "microorganisms-036");
-  assert.equal(batch036?.status, "generated-review-pending");
+  assert.equal(batch036?.status, "reviewed");
   assert.equal(batch036?.authorizedParent, "5504e0931d2ac0d7edaf434f0d726d1a13cbec76");
-  assert.equal(batch036?.publicationMetadataPlan?.reviewOnly, true);
+  assert.equal(batch036?.publicationMetadataPlan?.reviewOnly, false);
   assert.equal(batch036?.routeDecisionCount, 6);
   assert.equal(batch036?.candidateCount, 6);
   assert.equal(batch036?.generationCallCount, 6);
   assert.equal(batch036?.reviewableGenerationCount, 6);
-  assert.equal(batch036?.controlReviewRequired, true);
+  assert.equal(batch036?.controlReviewRequired, false);
+  assert.equal(batch036?.controlFinalReview?.status, "accepted-six-exact-hashes");
+  assert.equal(batch036?.controlFinalReview?.acceptedReviewCommit, "3d52a2731d202628f1a1aae7c101f63f61a3dc77");
+  assert.equal(batch036?.controlSocialCropReview?.status, "accepted-six-centered-cover-derivatives");
+  assert.equal(batch036?.controlAcceptedReviewManifestSha256, "316b5a4887860856b5924ed0ccdf9140e13f2378c481676189af5952c7bdead6");
+  assert.equal(batch036?.controlAcceptedPromptEvidenceSha256, "66f47726a9aa43da631a9616e6dc08f3919dddd64dfe41f6de9f2dc32c6408f7");
   const batch036Candidates = batch036?.assets ?? [];
   assert.deepEqual(batch036Candidates.map((asset) => asset.pageId), ["sphingobium", "sphingomonas", "staphylococcus", "staphylococcus-aureus", "staphylococcus-epidermidis", "streptococcus"]);
   const batch036ExpectedOutputs = new Map([
@@ -3307,8 +3312,9 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   const batch036GenerationRecords = new Set();
   for (const asset of batch036Candidates) {
     const [identifier, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch036ExpectedOutputs.get(asset.pageId);
-    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.decision, "approved-after-output-audit");
     assert.equal(asset.generationStatus, "complete-single-call");
+    assert.equal(asset.rootReviewDisposition, "accepted");
     assert.equal(asset.controlledIdentifier, identifier);
     assert.equal(asset.promptSha256, promptSha256);
     assert.equal(asset.sha256, sha256);
@@ -3318,6 +3324,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
     assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
     assert.equal(asset.outputAudit?.coverSafe, true);
+    assert.match(asset.outputAudit?.publishedSocialCropAudit ?? "", /Control Tower approved/);
     assert.ok(!batch036GenerationRecords.has(asset.generationRecord));
     batch036GenerationRecords.add(asset.generationRecord);
     const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
@@ -3328,8 +3335,32 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     const promptMatch = batch036PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
     assert.ok(promptMatch, `${asset.pageId} exact immutable prompt must remain recoverable`);
     assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
-    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must not enter the reviewed registry before control acceptance`);
-    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${asset.pageId}-`)), `${asset.pageId} review draft must not enter public media files`);
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    const media = articleMediaRegistry[asset.pageId];
+    assert.ok(media, `${asset.pageId} Control Tower-approved asset must enter the reviewed registry`);
+    assert.equal(media.publishedFile, expectedFiles.publishedFile);
+    assert.equal(media.socialFile, expectedFiles.socialFile);
+    assert.equal(media.masterSource, expectedFiles.masterSource);
+    assert.equal(media.socialResizeFit, "cover");
+    assert.equal(media.socialResizePosition, "centre");
+    assert.ok(publishedMediaFiles.includes(expectedFiles.publishedFile));
+    assert.ok(publishedMediaFiles.includes(expectedFiles.socialFile));
+    const review = reviewLog.reviews[media.reviewLogKey];
+    assert.equal(review?.disposition, "approved");
+    assert.equal(review?.revisionLinkage?.sourceSha256, sha256);
+    assert.deepEqual(new Set(review.scientificReferenceCheck.checkedUrls), new Set(media.scientificReferences.map((reference) => reference.url)));
+    const masterBytes = readFileSync(new URL(`../media/masters/${expectedFiles.masterSource}`, import.meta.url));
+    const [draftPixels, masterPixels] = await Promise.all([sharp(draftBytes).removeAlpha().raw().toBuffer(), sharp(masterBytes).removeAlpha().raw().toBuffer()]);
+    assert.equal(Buffer.compare(draftPixels, masterPixels), 0, `${asset.pageId} master must decode pixel-identically to the accepted source`);
+    const socialMetadata = await sharp(readFileSync(new URL(`../public/media-files/${expectedFiles.socialFile}`, import.meta.url))).metadata();
+    assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
+    const articleResponse = await render(`/article/${asset.pageId}`);
+    assert.equal(articleResponse.status, 200);
+    const articleHtml = await articleResponse.text();
+    assert.match(articleHtml, new RegExp(`src="/media/image/${expectedFiles.publishedFile.replaceAll(".", "\\.")}"`));
+    assert.match(articleHtml, /primaryImageOfPage/);
+    assert.match(articleHtml, /trainedAlgorithmicMedia/);
+    assert.match(articleHtml, new RegExp(identifier));
   }
   assert.equal(batch036GenerationRecords.size, 6);
   assert.doesNotMatch(batch036PromptRecord, /<!-- PROMPT phocaeicola START -->/);

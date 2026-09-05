@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "c17418731b1d6131843f4a8451ff8bcfa46bbf4f0dd7fc90480498dc02659cc6",
+    "registrySha256": "acb27e4b848eb5a6444d2cf38d5898def162a36e48da7d62a183390fae7670b6",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "cdf605ce51bc4f25e19c8f39bf4b804f60f2dea91174cc633b634ef312878c10",
+    "reviewLogSha256": "32b8667ff9897823b5ad661d457394602faf36de87877204caf92d6f9f69f1b0",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -225,8 +225,8 @@
       {
         "file": "data/article-media-batches/microorganisms-036.json",
         "batchId": "microorganisms-036",
-        "status": "generated-review-pending",
-        "sha256": "a806a073b6164376d55e9b9208c1165845c7e17a9f790de6a3d39fa680ac8574"
+        "status": "reviewed",
+        "sha256": "02564b9fe044f15d0f5efbe009f3facb209ace6b66868b680c204e1e403d300e"
       }
     ]
   },
@@ -248,8 +248,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 192,
-    "remaining": 518,
+    "completed": 198,
+    "remaining": 512,
     "rejected": 27,
     "revised": 11,
     "scientificHolds": 11,
@@ -260,8 +260,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 189,
-      "remaining": 40
+      "completed": 195,
+      "remaining": 34
     },
     {
       "id": "metals",
@@ -1105,46 +1105,46 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 202,
-      "id": "sphingobium",
-      "title": "Sphingobium",
-      "route": "/article/sphingobium",
+      "queuePosition": 208,
+      "id": "streptococcus-agalactiae",
+      "title": "Streptococcus agalactiae",
+      "route": "/article/streptococcus-agalactiae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 203,
-      "id": "sphingomonas",
-      "title": "Sphingomonas",
-      "route": "/article/sphingomonas",
+      "queuePosition": 209,
+      "id": "streptococcus-gallolyticus",
+      "title": "Streptococcus gallolyticus",
+      "route": "/article/streptococcus-gallolyticus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 204,
-      "id": "staphylococcus",
-      "title": "Staphylococcus",
-      "route": "/article/staphylococcus",
+      "queuePosition": 210,
+      "id": "streptococcus-mutans",
+      "title": "Streptococcus mutans",
+      "route": "/article/streptococcus-mutans",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 205,
-      "id": "staphylococcus-aureus",
-      "title": "Staphylococcus aureus",
-      "route": "/article/staphylococcus-aureus",
+      "queuePosition": 211,
+      "id": "streptococcus-pneumoniae",
+      "title": "Streptococcus pneumoniae",
+      "route": "/article/streptococcus-pneumoniae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 206,
-      "id": "staphylococcus-epidermidis",
-      "title": "Staphylococcus epidermidis",
-      "route": "/article/staphylococcus-epidermidis",
+      "queuePosition": 212,
+      "id": "streptococcus-salivarius",
+      "title": "Streptococcus salivarius",
+      "route": "/article/streptococcus-salivarius",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -5363,7 +5363,15 @@
       "route": "/article/sphingobium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "sphingobium-morphology-v1-master.png",
+        "publishedFile": "sphingobium-morphology-v1.webp",
+        "socialFile": "sphingobium-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 203,
@@ -5376,7 +5384,15 @@
       "route": "/article/sphingomonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "sphingomonas-morphology-v1-master.png",
+        "publishedFile": "sphingomonas-morphology-v1.webp",
+        "socialFile": "sphingomonas-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 204,
@@ -5389,7 +5405,15 @@
       "route": "/article/staphylococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "staphylococcus-morphology-v1-master.png",
+        "publishedFile": "staphylococcus-morphology-v1.webp",
+        "socialFile": "staphylococcus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 205,
@@ -5402,7 +5426,15 @@
       "route": "/article/staphylococcus-aureus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "staphylococcus-aureus-morphology-v1-master.png",
+        "publishedFile": "staphylococcus-aureus-morphology-v1.webp",
+        "socialFile": "staphylococcus-aureus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 206,
@@ -5415,7 +5447,15 @@
       "route": "/article/staphylococcus-epidermidis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "staphylococcus-epidermidis-morphology-v1-master.png",
+        "publishedFile": "staphylococcus-epidermidis-morphology-v1.webp",
+        "socialFile": "staphylococcus-epidermidis-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 207,
@@ -5428,7 +5468,15 @@
       "route": "/article/streptococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "streptococcus-morphology-v1-master.png",
+        "publishedFile": "streptococcus-morphology-v1.webp",
+        "socialFile": "streptococcus-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 208,

@@ -117,3 +117,7 @@ Exactly six built-in image-generation calls were made, one per cleared route. No
 - `streptococcus`: `exec-8f25d726-94f5-4674-b8c4-59f42870b7ef.png`; SHA-256 `63ef7c378c6a771cc920787568683b839b6d8810bdf06012ed8893ca148205d6`.
 
 All six are native 1536 by 1024 PNGs on edge-clean pale cool fields. Observed output—not requested composition—governs the manifest: Sphingobium contains 10 bodies/8 groups; Sphingomonas 9/7; Staphylococcus 15 cocci/3 clusters; S. aureus 12/2; S. epidermidis 13/3; and Streptococcus 14 cocci/4 groups. All remain review-only pending the exact-hash control review and promotion gate.
+
+## Control promotion and crop review
+
+Control Tower accepted exact review commit `3d52a2731d202628f1a1aae7c101f63f61a3dc77` and only its six immutable PNG hashes. It promoted them without regeneration or pixel editing, then inspected every native 1200 by 630 centered-cover social derivative at original detail. Every reviewed body and grouping remains visible and unclipped. Quarantined Phocaeicola and all scientific identity holds remain asset-free.
