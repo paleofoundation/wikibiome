@@ -1,11 +1,12 @@
 import { cookies } from "next/headers";
-import { and, asc, count, desc, eq, gt, inArray, lt, or } from "drizzle-orm";
+import { and, asc, count, desc, eq, gt, inArray, isNull, lt, or } from "drizzle-orm";
 import {
   accountIdentities,
   accounts,
   accountSessions,
   auditEvents,
   authorReviews,
+  contentProposals,
   contributions,
   discussionPosts,
   discussionPostRevisions,
@@ -16,11 +17,14 @@ import {
   institutionBatches,
   institutionMemberships,
   institutions,
+  messageReports,
+  researcherMessages,
   notificationOutbox,
   oauthStates,
   outreachContacts,
   rateLimitEvents,
   researcherEmails,
+  researcherFollows,
   researcherBlocks,
   researcherProfiles,
   sourceClaims,
@@ -49,6 +53,7 @@ export type ResearcherSession = {
   affiliations: string[];
   expertiseSelf: string[];
   expertiseInferred: string[];
+  messagingEnabled: boolean;
   email: string | null;
   emailVerified: boolean;
   preferences: {
@@ -213,6 +218,7 @@ async function getResearcherSessionFromToken(token: string): Promise<ResearcherS
     affiliations: parseStringArray(profile.affiliationsJson),
     expertiseSelf: parseStringArray(profile.expertiseSelfJson),
     expertiseInferred: parseStringArray(profile.expertiseInferredJson),
+    messagingEnabled: Boolean(profile.messagingEnabled),
     email: email?.email ?? null,
     emailVerified: Boolean(email?.verifiedAt),
     preferences: {
@@ -352,12 +358,14 @@ export async function beginEmailVerification(accountId: string, input: {
   const owned = (await db.select().from(researcherEmails).where(eq(researcherEmails.email, email)).limit(1))[0];
   if (owned && owned.accountId !== accountId) throw new Error("That email is already linked to another WikiBiome account.");
 
+  const byAccount = (await db.select().from(researcherEmails).where(eq(researcherEmails.accountId, accountId)).limit(1))[0];
   const preferences = {
     researchNotifications: input.researchNotifications === true,
     communityDigest: input.communityDigest === true,
-    fundraising: input.fundraising === true,
+    // Fundraising consent is retained for historical records but is no longer
+    // requested or changed by researcher onboarding.
+    fundraising: typeof input.fundraising === "boolean" ? input.fundraising : Boolean(byAccount?.fundraising),
   };
-  const byAccount = (await db.select().from(researcherEmails).where(eq(researcherEmails.accountId, accountId)).limit(1))[0];
   const alreadyVerified = byAccount?.email === email && Boolean(byAccount.verifiedAt);
   if (!alreadyVerified) await enforceRateLimit(accountId, "email.verify", 5, 1440);
   if (byAccount) {
@@ -372,12 +380,16 @@ export async function beginEmailVerification(accountId: string, input: {
   }
 
   const token = randomToken();
-  await db.insert(emailVerificationTokens).values({
-    tokenHash: await sha256(token),
-    accountId,
-    email,
-    expiresAt: new Date(Date.now() + 24 * 60 * 60_000).toISOString(),
-  });
+  const replacedAt = new Date().toISOString();
+  await db.batch([
+    db.update(emailVerificationTokens).set({ usedAt: replacedAt }).where(and(eq(emailVerificationTokens.accountId, accountId), isNull(emailVerificationTokens.usedAt))),
+    db.insert(emailVerificationTokens).values({
+      tokenHash: await sha256(token),
+      accountId,
+      email,
+      expiresAt: new Date(Date.now() + 24 * 60 * 60_000).toISOString(),
+    }),
+  ]);
   await recordAudit(accountId, "email.verification_requested", "account", accountId, { email });
   return { token, email, alreadyVerified: false };
 }
@@ -385,15 +397,16 @@ export async function beginEmailVerification(accountId: string, input: {
 export async function verifyResearcherEmail(token: string) {
   const db = (await getResearchDb());
   const tokenHash = await sha256(token);
-  const record = (await db.select().from(emailVerificationTokens).where(and(eq(emailVerificationTokens.tokenHash, tokenHash), gt(emailVerificationTokens.expiresAt, new Date().toISOString()))).limit(1))[0];
-  if (!record || record.usedAt) return null;
+  const record = (await db.select().from(emailVerificationTokens).where(eq(emailVerificationTokens.tokenHash, tokenHash)).limit(1))[0];
+  if (!record || record.usedAt) return { state: "invalid" as const, accountId: null };
+  if (record.expiresAt <= new Date().toISOString()) return { state: "expired" as const, accountId: record.accountId };
   const now = new Date().toISOString();
   await db.batch([
     db.update(emailVerificationTokens).set({ usedAt: now }).where(eq(emailVerificationTokens.tokenHash, tokenHash)),
     db.update(researcherEmails).set({ verifiedAt: now, updatedAt: now }).where(and(eq(researcherEmails.accountId, record.accountId), eq(researcherEmails.email, record.email))),
   ]);
   await recordAudit(record.accountId, "email.verified", "account", record.accountId, {});
-  return record.accountId;
+  return { state: "verified" as const, accountId: record.accountId };
 }
 
 export async function getPublicResearcher(orcid: string): Promise<PublicResearcher | null> {
@@ -584,15 +597,23 @@ export async function addSubmissionFile(input: { account: ResearcherSession; sub
   return file;
 }
 
-export async function listPublicDiscussions(targetType: "article" | "source", targetId: string, viewerAccountId?: string, before?: string) {
+export async function listPublicDiscussions(targetType: "article" | "source" | "proposal", targetId: string, viewerAccountId?: string, before?: string) {
   try {
-    const threads = await (await getResearchDb()).select().from(discussionThreads).where(and(eq(discussionThreads.targetType, targetType), eq(discussionThreads.targetId, targetId), eq(discussionThreads.status, "published"), ...(before ? [lt(discussionThreads.updatedAt, before)] : []))).orderBy(desc(discussionThreads.updatedAt)).limit(50);
-    const blockedIds = new Set(viewerAccountId ? (await (await getResearchDb()).select().from(researcherBlocks).where(eq(researcherBlocks.blockerAccountId, viewerAccountId))).map((item) => item.blockedAccountId) : []);
+    const db = await getResearchDb();
+    const threads = await db.select().from(discussionThreads).where(and(eq(discussionThreads.targetType, targetType), eq(discussionThreads.targetId, targetId), eq(discussionThreads.status, "published"), ...(before ? [lt(discussionThreads.updatedAt, before)] : []))).orderBy(desc(discussionThreads.updatedAt)).limit(50);
+    const [blockedRows, followedRows] = viewerAccountId ? await Promise.all([
+      db.select().from(researcherBlocks).where(eq(researcherBlocks.blockerAccountId, viewerAccountId)),
+      threads.length ? db.select().from(researcherFollows).where(and(eq(researcherFollows.accountId, viewerAccountId), eq(researcherFollows.targetType, "thread"), inArray(researcherFollows.targetId, threads.map((thread) => thread.id)))) : Promise.resolve([]),
+    ]) : [[], []];
+    const blockedIds = new Set(blockedRows.map((item) => item.blockedAccountId));
+    const followedIds = new Set(followedRows.map((item) => item.targetId));
     const result = [];
     for (const thread of threads) {
       if (blockedIds.has(thread.createdByAccountId)) continue;
-      const posts = await (await getResearchDb()).select().from(discussionPosts).where(and(eq(discussionPosts.threadId, thread.id), eq(discussionPosts.status, "published"))).orderBy(asc(discussionPosts.createdAt)).limit(200);
-      result.push({ thread, posts: posts.filter((post) => !blockedIds.has(post.accountId)) });
+      const posts = await db.select().from(discussionPosts).where(and(eq(discussionPosts.threadId, thread.id), eq(discussionPosts.status, "published"))).orderBy(asc(discussionPosts.createdAt)).limit(200);
+      const visiblePosts = posts.filter((post) => !blockedIds.has(post.accountId));
+      const revisions = visiblePosts.length ? await db.select().from(discussionPostRevisions).where(inArray(discussionPostRevisions.postId, visiblePosts.map((post) => post.id))).orderBy(asc(discussionPostRevisions.revision)) : [];
+      result.push({ thread, following: followedIds.has(thread.id), posts: visiblePosts.map((post) => ({ ...post, revisions: revisions.filter((revision) => revision.postId === post.id) })) });
     }
     const accountIds = result.flatMap((item) => [item.thread.createdByAccountId, ...item.posts.map((post) => post.accountId)]);
     const people = await getPublicResearchersByAccountIds(accountIds);
@@ -615,9 +636,10 @@ export async function createDiscussionThread(input: {
   assertVerifiedResearcher(input.account);
   await enforceRateLimit(input.account.accountId, "discussion.create", 5, 60);
   const targetType = cleanText(input.targetType, 20);
-  if (targetType !== "article" && targetType !== "source") throw new Error("Choose a valid discussion target.");
+  if (targetType !== "article" && targetType !== "source" && targetType !== "proposal") throw new Error("Choose a valid discussion target.");
   const targetId = cleanText(input.targetId, 180);
-  if ((targetType === "source" && !getSource(targetId)) || (targetType === "article" && !getWikiPage(targetId))) throw new Error("The selected discussion target does not exist.");
+  const publicProposal = targetType === "proposal" ? (await (await getResearchDb()).select().from(contentProposals).where(and(eq(contentProposals.id, targetId), eq(contentProposals.status, "accepted"))).limit(1))[0] : null;
+  if ((targetType === "source" && !getSource(targetId)) || (targetType === "article" && !getWikiPage(targetId)) || (targetType === "proposal" && !publicProposal)) throw new Error("The selected discussion target does not exist or is not public.");
   const category = cleanText(input.category, 40) as DiscussionCategory;
   if (!discussionCategories.includes(category)) throw new Error("Choose a valid discussion category.");
   const sourceUrl = cleanUrl(input.sourceUrl);
@@ -644,10 +666,11 @@ export async function createDiscussionReply(input: { account: ResearcherSession;
   await enforceRateLimit(input.account.accountId, "discussion.reply", 12, 60);
   const threadId = cleanText(input.threadId, 100);
   const thread = (await (await getResearchDb()).select().from(discussionThreads).where(eq(discussionThreads.id, threadId)).limit(1))[0];
-  if (!thread || thread.status === "locked" || thread.status === "rejected") throw new Error("This discussion is unavailable for replies.");
+  if (!thread || thread.status !== "published") throw new Error("This discussion is unavailable for replies.");
   const body = cleanText(input.body, 12000);
   if (!body) throw new Error("Reply text is required.");
   const sourceUrl = cleanUrl(input.sourceUrl);
+  if (thread.category !== "question" && !sourceUrl) throw new Error("Scientific assertions require a DOI, PMID, or source URL.");
   const status = await initialPostStatus(input.account);
   const postId = crypto.randomUUID();
   const now = new Date().toISOString();
@@ -657,13 +680,39 @@ export async function createDiscussionReply(input: { account: ResearcherSession;
     (await getResearchDb()).update(discussionThreads).set({ updatedAt: now }).where(eq(discussionThreads.id, threadId)),
   ]);
   await recordAudit(input.account.accountId, "discussion.replied", "discussion_thread", threadId, { postId, status });
-  return { postId, status };
+  return { postId, status, threadId, targetType: thread.targetType as "article" | "source" | "proposal", targetId: thread.targetId, title: thread.title, parentPostId: cleanText(input.parentPostId, 100) || null };
+}
+
+export async function editDiscussionPost(input: { account: ResearcherSession; postId: unknown; body: unknown; sourceUrl?: unknown; conflictDisclosure?: unknown }) {
+  assertVerifiedResearcher(input.account);
+  await enforceRateLimit(input.account.accountId, "discussion.edit", 20, 60);
+  const postId = cleanText(input.postId, 100);
+  const db = await getResearchDb();
+  const post = (await db.select().from(discussionPosts).where(and(eq(discussionPosts.id, postId), eq(discussionPosts.accountId, input.account.accountId))).limit(1))[0];
+  if (!post || ["hidden", "rejected"].includes(post.status)) throw new Error("This post cannot be edited.");
+  const thread = (await db.select().from(discussionThreads).where(eq(discussionThreads.id, post.threadId)).limit(1))[0];
+  if (!thread) throw new Error("The discussion for this post no longer exists.");
+  const body = cleanText(input.body, 12000);
+  if (!body) throw new Error("Post text is required.");
+  const revision = post.revision + 1;
+  const now = new Date().toISOString();
+  const sourceUrl = cleanUrl(input.sourceUrl) || null;
+  if (thread.category !== "question" && !sourceUrl) throw new Error("Scientific assertions require a DOI, PMID, or source URL.");
+  const conflictDisclosure = cleanText(input.conflictDisclosure, 2000);
+  await db.batch([
+    db.update(discussionPosts).set({ body, sourceUrl, conflictDisclosure, revision, updatedAt: now }).where(eq(discussionPosts.id, postId)),
+    db.insert(discussionPostRevisions).values({ id: crypto.randomUUID(), postId, revision, body, sourceUrl, conflictDisclosure, createdAt: now }),
+  ]);
+  await recordAudit(input.account.accountId, "discussion.edited", "discussion_post", postId, { revision });
+  return { postId, revision, updatedAt: now };
 }
 
 export async function reportDiscussionPost(input: { account: ResearcherSession; postId: unknown; reason: unknown }) {
+  assertVerifiedResearcher(input.account);
   const postId = cleanText(input.postId, 100);
   const reason = cleanText(input.reason, 2000);
   if (!reason) throw new Error("Add a reason for the report.");
+  if (!(await (await getResearchDb()).select({ id: discussionPosts.id }).from(discussionPosts).where(eq(discussionPosts.id, postId)).limit(1))[0]) throw new Error("Discussion post not found.");
   const report = { id: crypto.randomUUID(), postId, accountId: input.account.accountId, reason };
   await (await getResearchDb()).insert(discussionReports).values(report);
   await recordAudit(input.account.accountId, "discussion.reported", "discussion_post", postId, {});
@@ -771,7 +820,7 @@ export async function createInstitutionBatch(input: { account: ResearcherSession
 export async function listModerationQueue(account: ResearcherSession) {
   if (!isModeratorRole(account.role)) throw new Error("Moderator access is required.");
   const db = (await getResearchDb());
-  const [claims, reviews, submissions, threads, posts, reports, institutionRequests, memberships, batches] = await Promise.all([
+  const [claims, reviews, submissions, threads, posts, reports, institutionRequests, memberships, batches, proposals, messageReportRows] = await Promise.all([
     db.select().from(sourceClaims).where(eq(sourceClaims.status, "pending")).orderBy(asc(sourceClaims.createdAt)).limit(100),
     db.select().from(authorReviews).where(eq(authorReviews.status, "pending")).orderBy(asc(authorReviews.createdAt)).limit(100),
     db.select().from(workSubmissions).where(eq(workSubmissions.status, "pending_review")).orderBy(asc(workSubmissions.createdAt)).limit(100),
@@ -781,8 +830,18 @@ export async function listModerationQueue(account: ResearcherSession) {
     db.select().from(institutions).where(eq(institutions.status, "pending")).orderBy(asc(institutions.createdAt)).limit(100),
     db.select().from(institutionMemberships).where(eq(institutionMemberships.status, "pending")).orderBy(asc(institutionMemberships.createdAt)).limit(100),
     db.select().from(institutionBatches).where(eq(institutionBatches.status, "pending_review")).orderBy(asc(institutionBatches.createdAt)).limit(100),
+    db.select().from(contentProposals).where(eq(contentProposals.status, "pending")).orderBy(asc(contentProposals.createdAt)).limit(100),
+    db.select().from(messageReports).where(eq(messageReports.status, "open")).orderBy(asc(messageReports.createdAt)).limit(100),
   ]);
-  return { claims, reviews, submissions, threads, posts, reports, institutions: institutionRequests, institution_memberships: memberships, institution_batches: batches };
+  const reportedMessages = messageReportRows.length
+    ? await db.select().from(researcherMessages).where(inArray(researcherMessages.id, messageReportRows.map((report) => report.messageId)))
+    : [];
+  const messagesById = new Map(reportedMessages.map((message) => [message.id, message]));
+  const reportedMessageQueue = messageReportRows.map((report) => {
+    const message = messagesById.get(report.messageId);
+    return { ...report, messageBody: message?.body ?? "", senderAccountId: message?.senderAccountId ?? null, threadId: message?.threadId ?? null };
+  });
+  return { claims, reviews, submissions, threads, posts, reports, institutions: institutionRequests, institution_memberships: memberships, institution_batches: batches, proposals, message_reports: reportedMessageQueue };
 }
 
 export async function moderateResearchItem(account: ResearcherSession, input: { kind: unknown; id: unknown; status: unknown; note?: unknown }) {

@@ -2098,8 +2098,9 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(supportThankYou, /Financial support never purchases citations/);
 
   assert.match(contribute, /Wikipedia-like participation, with an evidence gate/);
-  assert.match(contribute, /Sign in with ChatGPT to contribute/);
-  assert.match(contribute, /Scientific corrections and new claims require a DOI, PMID, or source URL/);
+  assert.match(contribute, /Continue with ORCID to propose/);
+  assert.match(contribute, /Choose microbiome, metallomics, or both/);
+  assert.match(contribute, /DOI or PMID records/);
 });
 
 test("preserves legacy utility routes and publishes the canonical indexing contract", async () => {
@@ -2415,7 +2416,7 @@ test("applies global evidence and interaction rules across article templates", a
     assert.equal(response.status, 200);
   }
   assert.equal(suggestResponse.status, 307);
-  assert.equal(suggestResponse.headers.get("location"), "/signin-with-chatgpt?return_to=%2Farticle%2Fnickel%2Fsuggest");
+  assert.equal(suggestResponse.headers.get("location"), "/propose?target=nickel");
 
   const [microbe, stop, intervention, analysis] = await Promise.all([
     microbeResponse.text(), stopResponse.text(), interventionResponse.text(), analysisResponse.text(),

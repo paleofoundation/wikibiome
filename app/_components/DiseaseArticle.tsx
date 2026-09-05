@@ -2,8 +2,10 @@ import Link from "@/app/_components/NativeLink";
 import { ArticleMediaFigure } from "@/app/_components/ArticleMediaFigure";
 import { ArticleTools } from "@/app/_components/ArticleTools";
 import { ResearchDiscussion } from "@/app/_components/ResearchDiscussion";
+import { PageActivityTrail, PageCollaborationBar } from "@/app/_components/PageCollaboration";
 import { prepareArticleSections } from "@/lib/content-model";
 import { getArticleMedia } from "@/lib/article-media";
+import { getRevisionHistory } from "@/lib/revisions";
 import {
   ArticleNetwork,
   ArticleRevisionNote,
@@ -257,6 +259,7 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
 
 export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
   const { page, signature, evidence } = record;
+  const history = getRevisionHistory(page);
   const related = resolveRelated(page, 6);
   const signatureSourceCount = new Set(record.signaturePages.flatMap((item) => item.sources ?? []).map(normalizeWikiId)).size;
   const namedLayers = layers.filter((layer) => signatureLayerCount(signature, layer.id)).length;
@@ -294,6 +297,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
               <span>Updated {formatDate(record.updated)}</span>
               <ArticleTools title={page.title} canonicalPath={`/article/${page.id}`} updated={record.updated} />
             </div>
+            <PageCollaborationBar targetType="article" targetId={page.id} />
           </header>
 
           <div className="article-grid disease-grid" id="overview">
@@ -376,6 +380,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
               <ReferencesSection evidence={evidence} />
               <ArticleNetwork page={page} />
               <ResearchDiscussion targetType="article" targetId={page.id} />
+              <PageActivityTrail targetType="article" targetId={page.id} revisions={history.revisions} repository={history.repository} />
               <ArticleRevisionNote page={page} />
               {!!related.length && (
                 <div className="article-end">

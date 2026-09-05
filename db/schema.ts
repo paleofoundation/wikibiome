@@ -53,7 +53,7 @@ export const researcherProfiles = sqliteTable("researcher_profiles", {
   affiliationsJson: text("affiliations_json").notNull().default("[]"),
   expertiseSelfJson: text("expertise_self_json").notNull().default("[]"),
   expertiseInferredJson: text("expertise_inferred_json").notNull().default("[]"),
-  messagingEnabled: integer("messaging_enabled", { mode: "boolean" }).notNull().default(true),
+  messagingEnabled: integer("messaging_enabled", { mode: "boolean" }).notNull().default(false),
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
   updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
 }, (table) => [uniqueIndex("idx_researcher_profiles_orcid").on(table.orcid)]);
@@ -412,6 +412,7 @@ export const researcherNotifications = sqliteTable("researcher_notifications", {
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
 }, (table) => [
   uniqueIndex("idx_researcher_notifications_dedupe").on(table.accountId, table.dedupeKey),
+  index("idx_researcher_notifications_account_created").on(table.accountId, table.createdAt),
   index("idx_researcher_notifications_account_read").on(table.accountId, table.readAt, table.createdAt),
 ]);
 
@@ -538,4 +539,4 @@ export const emailWebhookEvents = sqliteTable("email_webhook_events", {
   providerId: text("provider_id"),
   eventType: text("event_type").notNull(),
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
-}, (table) => [index("idx_email_webhook_events_provider").on(table.providerId, table.eventType)]);
+}, (table) => [uniqueIndex("idx_email_webhook_events_provider").on(table.providerId, table.eventType)]);

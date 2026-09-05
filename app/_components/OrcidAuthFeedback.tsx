@@ -9,30 +9,40 @@ function subscribeToLocation(callback: () => void) {
 }
 
 function currentStatus() {
-  return new URLSearchParams(window.location.search).get("orcid") || "";
+  const params = new URLSearchParams(window.location.search);
+  return `${params.get("orcid") || ""}|${params.get("email") || ""}`;
 }
 
 export function OrcidAuthFeedback() {
-  const status = useSyncExternalStore(subscribeToLocation, currentStatus, () => "");
-  const message = getOrcidAuthMessage(status);
+  const status = useSyncExternalStore(subscribeToLocation, currentStatus, () => "|");
+  const [orcidStatus, emailStatus] = status.split("|");
+  const message = getOrcidAuthMessage(orcidStatus) || emailMessage(emailStatus);
   if (!message) return null;
 
   function dismiss() {
     const url = new URL(window.location.href);
-    url.searchParams.delete("orcid");
+    url.searchParams.delete(orcidStatus ? "orcid" : "email");
     window.history.replaceState(window.history.state, "", `${url.pathname}${url.search}${url.hash}`);
     window.dispatchEvent(new PopStateEvent("popstate"));
   }
 
   return (
-    <aside className="orcid-auth-feedback" role={status === "cancelled" ? "status" : "alert"} aria-live={status === "cancelled" ? "polite" : "assertive"} aria-atomic="true">
+    <aside className="orcid-auth-feedback" role={orcidStatus === "cancelled" || emailStatus === "verified" ? "status" : "alert"} aria-live={orcidStatus === "cancelled" || emailStatus === "verified" ? "polite" : "assertive"} aria-atomic="true">
       <div>
         <span>Researcher sign-in</span>
         <strong>{message.title}</strong>
         <p>{message.detail}</p>
-        {status === "not_configured" || status === "configuration_error" || status === "token_error" || status === "identity_error" ? <a href="/contact">Contact WikiBiome →</a> : null}
+        {orcidStatus === "not_configured" || orcidStatus === "configuration_error" || orcidStatus === "token_error" || orcidStatus === "identity_error" ? <a href="/contact">Contact WikiBiome →</a> : null}
+        {emailStatus === "expired" || emailStatus === "invalid" ? <a href="/researcher/dashboard">Request a new verification email →</a> : null}
       </div>
       <button type="button" onClick={dismiss} aria-label="Dismiss ORCID sign-in message">×</button>
     </aside>
   );
+}
+
+function emailMessage(status: string) {
+  if (status === "verified") return { title: "Private email verified", detail: "Your researcher participation features are now available." };
+  if (status === "expired") return { title: "Verification link expired", detail: "No account change was made. Request a fresh single-use link from your researcher dashboard." };
+  if (status === "invalid") return { title: "Verification link unavailable", detail: "This link is invalid or has already been used. Request a replacement from your researcher dashboard." };
+  return null;
 }

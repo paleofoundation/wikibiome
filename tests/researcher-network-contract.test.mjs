@@ -7,6 +7,14 @@ import { fileURLToPath } from "node:url";
 import test from "node:test";
 import { discussionPublishingDecision, institutionEmailMatchesAuthoritativeDomains } from "../lib/research-trust-policy.mjs";
 import { appendOrcidStatus, getOrcidAuthMessage } from "../lib/orcid-auth.mjs";
+import {
+  classifyWorkMatch,
+  deliveryCopy,
+  maskEmail,
+  participantKey,
+  recognitionMilestones,
+  validateProposalInput,
+} from "../lib/research-network-v2-policy.mjs";
 
 const root = fileURLToPath(new URL("../", import.meta.url));
 
@@ -33,6 +41,9 @@ test("applies every researcher-network migration to a clean SQLite database", ()
       "0003_lowly_ben_urich.sql",
       "0004_fearless_ozymandias.sql",
       "0005_eminent_skrulls.sql",
+      "0006_naive_justin_hammer.sql",
+      "0007_military_thanos.sql",
+      "0008_tense_luminals.sql",
     ]);
     for (const migration of migrations) {
       const result = spawnSync("/usr/bin/sqlite3", [database], { input: source(`drizzle/${migration}`), encoding: "utf8" });
@@ -46,10 +57,18 @@ test("applies every researcher-network migration to a clean SQLite database", ()
       "discussion_posts", "discussion_post_revisions", "discussion_reports", "institutions",
       "institution_memberships", "institution_batches", "notification_outbox", "suppression_list",
       "outreach_contacts", "audit_events", "rate_limit_events",
+      "orcid_sync_state", "researcher_works", "work_match_suggestions", "researcher_follows",
+      "researcher_notifications", "content_proposals", "proposal_sources", "proposal_events",
+      "message_threads", "researcher_messages", "message_reports", "roundtable_interests",
+      "recognition_events", "email_webhook_events",
     ]) assert.match(schema.stdout, new RegExp(`table:${name}\\b`));
     for (const index of [
       "idx_source_claims_source_status", "idx_work_submissions_status", "idx_discussion_threads_target_status",
       "idx_notification_outbox_status_schedule", "idx_audit_events_target",
+      "idx_work_matches_account_status", "idx_researcher_follows_target",
+      "idx_researcher_notifications_account_created", "idx_content_proposals_target_status",
+      "idx_message_threads_participant_key", "idx_roundtable_interests_status",
+      "idx_recognition_events_account_status", "idx_email_webhook_events_provider",
     ]) assert.match(schema.stdout, new RegExp(`index:${index}\\b`));
   } finally {
     rmSync(working, { recursive: true, force: true });
@@ -61,7 +80,7 @@ test("keeps researcher-network mutations fail-closed", () => {
   const mutations = routes.filter((path) => /export async function (?:POST|PUT|PATCH|DELETE)\b/.test(readFileSync(path, "utf8")));
   const unprotected = mutations.filter((path) => {
     const body = readFileSync(path, "utf8");
-    return !/assertSameOriginRequest|verifyResendWebhook|WIKIBIOME_SCAN_WEBHOOK_SECRET/.test(body);
+    return !/assertSameOriginRequest|verifyResendWebhook|verifyUnsubscribeToken|WIKIBIOME_SCAN_WEBHOOK_SECRET/.test(body);
   });
   assert.deepEqual(unprotected, []);
 
@@ -101,7 +120,7 @@ test("ORCID failures remain visible and preserve return URLs with fragments", ()
   assert.match(start, /appendOrcidStatus\(returnTo, "not_configured"\)/);
   assert.doesNotMatch(callback, /state\.returnTo\.includes\("\?"\)/);
   assert.match(layout, /<OrcidAuthFeedback \/>/);
-  assert.match(feedback, /role=\{status === "cancelled" \? "status" : "alert"\}/);
+  assert.match(feedback, /role=\{orcidStatus === "cancelled" \|\| emailStatus === "verified" \? "status" : "alert"\}/);
 });
 
 test("institution domain verification uses only authoritative ROR domains", () => {
@@ -134,10 +153,12 @@ test("preserves privacy, consent, editorial, and outreach boundaries", () => {
   assert.match(network, /Number\(value\) >= 100/);
   assert.match(network, /researchNotifications: input\.researchNotifications === true/);
   assert.match(network, /communityDigest: input\.communityDigest === true/);
-  assert.match(network, /fundraising: input\.fundraising === true/);
+  assert.match(network, /fundraising: typeof input\.fundraising === "boolean"/);
   assert.match(accountForm, /Research activity/);
   assert.match(accountForm, /Community digest/);
-  assert.match(accountForm, /Microbiome Medicine support[\s\S]*Optional updates and fundraising/);
+  assert.doesNotMatch(accountForm, /name="fundraising"|Microbiome Medicine support/);
+  assert.match(accountForm, /Microbiome Roundtable/);
+  assert.match(accountForm, /Historical fundraising consent is preserved but is not requested/);
   assert.match(privacy, /contact email[\s\S]{0,120}stored privately and is never displayed/i);
   assert.match(terms, /editorial control/i);
 
@@ -154,6 +175,17 @@ test("keeps private researcher surfaces out of indexes and public participation 
   const submissionForm = source("app/_components/WorkSubmissionForm.tsx");
   const researcherProfile = source("app/researchers/[orcid]/page.tsx");
   const institutionProfile = source("app/institutions/[ror]/page.tsx");
+  const privatePages = [
+    "app/researcher/works/page.tsx",
+    "app/researcher/notifications/page.tsx",
+    "app/researcher/messages/page.tsx",
+    "app/researcher/proposals/page.tsx",
+  ].map(source);
+  const accountControl = source("app/_components/ResearcherAccountControl.tsx");
+  const accountRoute = source("app/api/account/route.ts");
+  const header = source("app/_components/WikiArticle.tsx");
+  const home = source("app/_components/WikiHome.tsx");
+  const styles = source("app/globals.css");
 
   assert.match(dashboard, /robots: \{ index: false, follow: false \}/);
   assert.match(moderation, /robots: \{ index: false, follow: false \}/);
@@ -164,4 +196,156 @@ test("keeps private researcher surfaces out of indexes and public participation 
   assert.match(submissionForm, /<label>/);
   assert.match(researcherProfile, /"@type": "Person"/);
   assert.match(institutionProfile, /"@type": "Organization"/);
+  for (const page of privatePages) assert.match(page, /robots: \{ index: false, follow: false \}/);
+  assert.match(header, /<ResearcherAccountControl \/>/);
+  assert.match(home, /<ResearcherAccountControl \/>/);
+  assert.match(accountControl, /Log in with ORCID/);
+  assert.match(accountRoute, /status: 204/);
+  assert.match(accountControl, /window\.location\.pathname/);
+  assert.match(accountControl, /encodeURIComponent\(returnTo\)/);
+  assert.match(accountControl, /Dashboard/);
+  assert.match(styles, /@media \(max-width:620px\)[\s\S]*\.orcid-account-login/);
+});
+
+test("discovers ORCID works without publishing an unconfirmed match", () => {
+  assert.deepEqual(
+    classifyWorkMatch({ doi: "https://doi.org/10.1000/ABC", title: "Different" }, { doi: "doi:10.1000/abc", title: "Paper" }),
+    { matchType: "exact_doi", confidence: 100 },
+  );
+  assert.deepEqual(
+    classifyWorkMatch({ title: "Metals and the gut microbiome", year: 2024, authorName: "Ada Lovelace" }, { title: "Metals and the gut microbiome.", year: 2024, authors: ["Lovelace A", "Turing A"] }),
+    { matchType: "possible_title_author_year", confidence: 85 },
+  );
+  assert.equal(classifyWorkMatch({ title: "Metals and the gut microbiome", year: 2024, authorName: "Grace Hopper" }, { title: "Metals and the gut microbiome", year: 2024, authors: ["Lovelace A"] }), null);
+  assert.equal(classifyWorkMatch({ title: "Metals and the gut microbiome", year: 2023, authorName: "Ada Lovelace" }, { title: "Metals and the gut microbiome", year: 2024, authors: ["Lovelace A"] }), null);
+  const service = source("lib/research-network-v2.ts");
+  assert.match(service, /match\.matchType === "exact_doi"/);
+  assert.match(service, /claimStatus = exact \? "verified" : "pending"/);
+  assert.match(service, /status: "confirmed"/);
+  assert.match(service, /const removed = existing\.filter/);
+  assert.match(service, /Manual refresh is available once per day/);
+  const worksRoute = source("app/api/researcher/works/route.ts");
+  const searchRoute = source("app/api/sources/search/route.ts");
+  assert.match(worksRoute, /syncResearcherWorks\(account, "automatic"\)/);
+  assert.match(worksRoute, /cache-control": "private, no-store"/);
+  assert.match(searchRoute, /lookupResearchMetadata\(\{ type: "pmid"/);
+  assert.match(searchRoute, /Preserve local corpus search when PubMed is unavailable/);
+});
+
+test("requires a microbiome or metallomics anchor and supporting evidence for proposals", () => {
+  const valid = {
+    proposalType: "new_page",
+    primaryAnchor: "both",
+    title: "A metal–microbiome bridge",
+    rationale: "Connect the evidence.",
+    proposedContent: "Outline",
+    mechanismConnection: "Mechanism",
+    causalLimitations: "Observational only",
+    sources: [{ identifierType: "doi", identifierValue: "10.1000/example" }],
+  };
+  assert.equal(validateProposalInput(valid).primaryAnchor, "both");
+  assert.throws(() => validateProposalInput({ ...valid, primaryAnchor: "genomics" }), /microbiome, metallomics, or both/);
+  assert.throws(() => validateProposalInput({ ...valid, sources: [] }), /DOI or PMID/);
+  const service = source("lib/research-network-v2.ts");
+  const suggestionRoute = source("app/article/[id]/suggest/page.tsx");
+  assert.match(service, /submissionId: `proposal:\$\{id\}`/);
+  assert.match(service, /eq\(contentProposals\.status, "accepted"\)/);
+  assert.match(service, /Published in/);
+  assert.doesNotMatch(service, /update\([^)]*wiki|insert\([^)]*wiki/i);
+  assert.match(suggestionRoute, /redirect\(`\/propose\?target=/);
+  assert.doesNotMatch(suggestionRoute, /requireChatGPTUser|ContributionForm/);
+  assert.match(source("lib/research-network.ts"), /db\.update\(contributions\)\.set\(\{ accountId \}\)/);
+});
+
+test("enforces mutual-consent messaging and private report review", () => {
+  assert.equal(participantKey("account-b", "account-a"), "account-a:account-b");
+  const schema = source("db/schema.ts");
+  const service = source("lib/research-network-v2.ts");
+  const messages = source("app/_components/MessageCenter.tsx");
+  const discussions = source("lib/research-network.ts");
+  const migration = source("drizzle/0007_military_thanos.sql");
+  assert.match(schema, /messagingEnabled:[\s\S]{0,100}default\(false\)/);
+  assert.match(service, /thread\.status !== "accepted"/);
+  assert.match(service, /Both researchers must accept contact/);
+  assert.match(service, /messagingBlocked/);
+  assert.match(service, /Number\(value\) >= 30/);
+  assert.match(service, /You cannot report a message outside your conversations/);
+  assert.match(discussions, /thread\.status !== "published"/);
+  assert.match(discussions, /thread\.category !== "question" && !sourceUrl/);
+  assert.match(migration, /SELECT[\s\S]*, 0, "created_at"/);
+  assert.match(messages, /not end-to-end encrypted/);
+  assert.doesNotMatch(messages, /type="file"/);
+});
+
+test("recognition counts accepted quality only and remains human-gated above three stars", () => {
+  const contributions = [
+    { accepted: true, type: "proposal", id: "p1", recordId: "a" },
+    { accepted: false, type: "proposal", id: "p2", recordId: "b" },
+    { accepted: true, type: "proposal", id: "p1", recordId: "a" },
+  ];
+  assert.deepEqual(recognitionMilestones(contributions), [1]);
+  assert.deepEqual(recognitionMilestones([
+    { accepted: true, type: "proposal", id: "p1", recordId: "a" },
+    { accepted: true, type: "proposal", id: "p2", recordId: "b" },
+    { accepted: true, type: "author_context", id: "r1", recordId: "b" },
+    { accepted: true, type: "work_submission", id: "w1", recordId: "c" },
+    { accepted: true, type: "proposal", id: "p3", recordId: "d" },
+  ]), [1, 2, 3]);
+  const service = source("lib/research-network-v2.ts");
+  assert.match(service, /eq\(authorReviews\.status, "accepted"\)/);
+  assert.match(service, /eq\(workSubmissions\.status, "accepted"\)/);
+  assert.match(service, /eq\(contentProposals\.status, "accepted"\)/);
+  assert.match(service, /const unearned = \[1, 2, 3\]/);
+  assert.match(service, /if \(!isModeratorRole\(account\.role\)\)/);
+  assert.match(service, /\[4, 5\]\.includes\(level\)/);
+  assert.match(service, /eq\(recognitionEvents\.level, level - 1\)/);
+  assert.match(service, /Active \$\{level - 1\}-star recognition is required first/);
+  assert.doesNotMatch(service, /payment|supporter/i);
+});
+
+test("keeps Roundtable consent separate and invitations human-controlled", () => {
+  const schema = source("db/schema.ts");
+  const form = source("app/_components/RoundtableInterestForm.tsx");
+  const page = source("app/roundtable/page.tsx");
+  const service = source("lib/research-network-v2.ts");
+  assert.match(schema, /updatesConsent:[\s\S]{0,100}default\(false\)/);
+  assert.match(form, /name="updatesConsent"/);
+  assert.match(form, /separate from research alerts, community digests, and historical fundraising consent/);
+  assert.match(page, /interest registry.not registration for a scheduled conference/i);
+  assert.match(service, /status: "withdrawn", updatesConsent: false/);
+  assert.match(service, /highest\.get\(item\.accountId\)[^\n]*>= 4/);
+  assert.match(source("app/research-governance/page.tsx"), /organizers assess subject fit, quality, conflicts, conduct, and interdisciplinary representation/i);
+});
+
+test("records delivery truth, webhook replay protection, and one-click unsubscribe", () => {
+  assert.equal(maskEmail("researcher@example.edu"), "re••••••••@example.edu");
+  assert.match(deliveryCopy({ sent: false, reason: "email_not_configured" }, "re•••@example.edu"), /No message was sent/i);
+  assert.doesNotMatch(deliveryCopy({ sent: false, reason: "provider_error" }, "re•••@example.edu"), /check your inbox/i);
+  const email = source("lib/research-email.ts");
+  const webhook = source("app/api/webhooks/resend/route.ts");
+  const unsubscribe = source("app/api/email/unsubscribe/route.ts");
+  const migration = source("drizzle/0007_military_thanos.sql");
+  assert.match(webhook, /const rawBody = await request\.text\(\)/);
+  assert.match(webhook, /verifyResendWebhook\(request, rawBody\)/);
+  assert.match(email, /onConflictDoNothing\(\)\.returning/);
+  assert.match(migration, /CREATE UNIQUE INDEX `idx_email_webhook_events_provider`/);
+  assert.match(email, /List-Unsubscribe-Post/);
+  assert.match(unsubscribe, /export async function POST/);
+  assert.match(source("lib/research-network.ts"), /isNull\(emailVerificationTokens\.usedAt\)/);
+  assert.match(source("app/_components/OrcidAuthFeedback.tsx"), /Verification link expired/);
+});
+
+test("deduplicates notifications and separates direct replies from ordinary digests", () => {
+  const service = source("lib/research-network-v2.ts");
+  const email = source("lib/research-email.ts");
+  const dispatcher = source("app/api/research-network/notifications/dispatch/route.ts");
+  assert.match(service, /onConflictDoNothing\(\)\.returning\(\{ id: researcherNotifications\.id \}\)/);
+  assert.match(service, /immediateRecipients\.has\(accountId\) \? "immediate" : "digest"/);
+  assert.match(service, /research_activity_digest/);
+  assert.match(service, /lt\(researcherNotifications\.createdAt, before\)/);
+  assert.match(service, /eq\(contentProposals\.status, "accepted"\)/);
+  assert.match(service, /eq\(discussionPosts\.status, "published"\)/);
+  assert.match(email, /lte\(notificationOutbox\.scheduledAt/);
+  assert.match(email, /kind === "research_activity_digest"/);
+  assert.match(dispatcher, /WIKIBIOME_NOTIFICATION_DISPATCH_SECRET/);
 });

@@ -1,11 +1,6 @@
 import type { Metadata } from "next";
-import Link from "@/app/_components/NativeLink";
 import { notFound, permanentRedirect, redirect } from "next/navigation";
-import { requireChatGPTUser } from "@/app/chatgpt-auth";
-import { ContributionForm } from "@/app/_components/ContributionForm";
-import { WikiHeader } from "@/app/_components/WikiArticle";
 import { canonicalArticleAliasId, canonicalArticleId, getWikiPage, normalizeWikiId } from "@/lib/wikibiome";
-import { prepareArticleSections } from "@/lib/content-model";
 
 export const dynamic = "force-dynamic";
 type RouteProps = { params: Promise<{ id: string }> };
@@ -24,10 +19,5 @@ export default async function SuggestEditPage({ params }: RouteProps) {
   if (!page) notFound();
   const canonicalId = canonicalArticleId(id);
   if (canonicalId !== id) redirect(`/article/${canonicalId}/suggest`);
-  return <AuthenticatedSuggestion pageId={page.id} pageTitle={page.title} sections={prepareArticleSections(page).map((section) => section.heading)} />;
-}
-
-async function AuthenticatedSuggestion({ pageId, pageTitle, sections }: { pageId: string; pageTitle: string; sections: string[] }) {
-  const user = await requireChatGPTUser(`/article/${pageId}/suggest`);
-  return <><WikiHeader /><main className="suggest-page"><div className="suggest-breadcrumbs"><Link href={`/article/${pageId}`}>{pageTitle}</Link><span>/</span><b>Suggest an edit</b></div><header><span>Attributed contribution</span><h1>Improve “{pageTitle}”</h1><p>Signed in as <strong>{user.displayName}</strong>. Your proposal will be stored as a reviewable change request; it will not modify the public article automatically.</p></header><ContributionForm pageId={pageId} sections={sections} /></main></>;
+  redirect(`/propose?target=${encodeURIComponent(page.id)}`);
 }

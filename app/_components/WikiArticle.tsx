@@ -3,6 +3,8 @@ import Link from "@/app/_components/NativeLink";
 import { ArticleMediaFigure } from "@/app/_components/ArticleMediaFigure";
 import { ArticleTools } from "@/app/_components/ArticleTools";
 import { ResearchDiscussion } from "@/app/_components/ResearchDiscussion";
+import { ResearcherAccountControl } from "@/app/_components/ResearcherAccountControl";
+import { PageActivityTrail, PageCollaborationBar } from "@/app/_components/PageCollaboration";
 import { getArticleMedia } from "@/lib/article-media";
 import { contentSchemaFor, prepareArticleSections } from "@/lib/content-model";
 import { getRevisionHistory } from "@/lib/revisions";
@@ -659,14 +661,17 @@ export function WikiHeader({ query = "" }: { query?: string }) {
         <input id="global-search" name="q" defaultValue={query} placeholder={`Search ${wikiStats.totalPages} articles`} />
         <button type="submit">Search</button>
       </form>
-      <nav className="utility-nav" aria-label="Utility navigation">
-        <Link href="/explore">Explore</Link>
-        <Link href="/category/signature">Signatures</Link>
-        <Link href="/researchers">Researchers</Link>
-        <Link href="/submit-work">Submit work</Link>
-        <Link href="/about">About</Link>
-        <Link className="utility-support" href="/support">♡ Support</Link>
-      </nav>
+      <div className="header-actions">
+        <nav className="utility-nav" aria-label="Utility navigation">
+          <Link href="/explore">Explore</Link>
+          <Link href="/category/signature">Signatures</Link>
+          <Link href="/researchers">Researchers</Link>
+          <Link href="/submit-work">Submit work</Link>
+          <Link href="/about">About</Link>
+          <Link className="utility-support" href="/support">♡ Support</Link>
+        </nav>
+        <ResearcherAccountControl />
+      </div>
     </header>
   );
 }
@@ -799,6 +804,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
               <span>Updated {formatDate(page.updated)}</span>
               <ArticleTools title={page.title} canonicalPath={`/article/${page.id}`} updated={page.updated} />
             </div>
+            <PageCollaborationBar targetType="article" targetId={page.id} />
           </header>
 
           <div className="article-grid" id="article">
@@ -846,6 +852,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
               <ReferencesSection evidence={evidence} />
               <ArticleNetwork page={page} />
               <ResearchDiscussion targetType="article" targetId={page.id} />
+              <PageActivityTrail targetType="article" targetId={page.id} revisions={history.revisions} repository={history.repository} />
               <ArticleRevisionNote page={page} />
               <div className="article-end">
                 <span>Continue exploring</span>

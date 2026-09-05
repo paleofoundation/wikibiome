@@ -1,4 +1,5 @@
 import Link from "@/app/_components/NativeLink";
+import { ResearcherAccountControl } from "@/app/_components/ResearcherAccountControl";
 import { getArticleMedia } from "@/lib/article-media";
 import { categories, categoryLabel, getCategoryCount, getWikiPage, plainText, wikiStats, type WikiPage } from "@/lib/wikibiome";
 
@@ -39,7 +40,10 @@ export function WikiHome() {
             <Link href="/category/mechanism">Mechanisms</Link>
             <Link href="/category/signature">Signatures</Link>
           </nav>
-          <Link className="home-random" href="/article/gut-microbiome">Begin exploring <span>↗</span></Link>
+          <div className="home-nav-actions">
+            <ResearcherAccountControl />
+            <Link className="home-random" href="/article/gut-microbiome">Begin exploring <span>↗</span></Link>
+          </div>
         </header>
 
         <div className="home-grid">
@@ -69,7 +73,7 @@ export function WikiHome() {
               <img src="/wikibiome-human-system-v2.png" alt="" />
               <span className="body-scan" /><span className="body-axis" />
             </div>
-            {bodyLinks.map((item) => <Link className={`body-point side-${item.side} ${item.className}`} href={`/article/${item.id}`} key={item.id}><i /><span><small>{item.kind}</small><b>{item.label}</b></span></Link>)}
+            {bodyLinks.map((item) => <Link aria-label={`${item.kind}: ${item.label}`} className={`body-point side-${item.side} ${item.className}`} href={`/article/${item.id}`} key={item.id}><i /><span><small>{item.kind}</small><b>{item.label}</b></span></Link>)}
             <div className="body-caption"><span>The human ecosystem</span><b>Follow a named connection</b></div>
           </div>
         </div>

@@ -50,6 +50,20 @@
       "when": 1788345590302,
       "tag": "0006_naive_justin_hammer",
       "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1788606801703,
+      "tag": "0007_military_thanos",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1788607211756,
+      "tag": "0008_tense_luminals",
+      "breakpoints": true
     }
   ]
 }
