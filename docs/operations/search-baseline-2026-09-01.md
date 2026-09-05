@@ -1,5 +1,7 @@
 # WikiBiome search-discovery baseline — 2026-09-01
 
+Historical snapshot: preserve these September 1 observations for provenance. The current operational baseline is `docs/operations/search-baseline-2026-09-05.md`.
+
 Status: implementation validated in an isolated worktree; not deployed by this task.
 
 Base commit: `2b6444c`.

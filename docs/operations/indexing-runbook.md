@@ -26,17 +26,19 @@ Use Node.js `>=22.13.0` and run:
 ```bash
 npm install
 npm run search:verify
+npm run search:audit:public -- --images=<release-registry-count> --target=production --sample-images
 ```
 
-The gate builds the site, runs the focused rendered suite, validates the ordinary and image sitemaps, checks representative article/source/category/tool metadata and Schema.org graphs, checks every registered image endpoint, and renders the full discovered corpus for HTTP, internal-link, paragraph, and self-canonical failures.
+The first gate builds the site, runs the focused rendered suite, validates the ordinary and image sitemaps, checks representative article/source/category/tool metadata and Schema.org graphs, checks every registered image endpoint, and renders the full discovered corpus for HTTP, internal-link, paragraph, and self-canonical failures. The second command is a read-only observation of the currently deployed release. It intentionally requires an explicit image count; obtain that number from the release's reviewed registry or approved release manifest. Never copy a previous count forward as a default.
 
-Expected invariants for the September 1, 2026 registry baseline:
+Use `--target=production` before deployment so differences from the accepted candidate are reported as `liveStaleFindings`, not candidate defects. Use `--sample-images` only for a quick checkpoint; the final pre/post-release evidence must omit it and check every advertised image.
 
-- focused tests: 20 passing, 0 failing;
+Current reference invariants are recorded in `docs/operations/search-baseline-2026-09-05.md`. The release gate itself is count-driven rather than date-driven:
+
 - representative status/self-canonical/social-preview/structured-data checks: 4/4 each;
-- ordinary sitemap: 2,648 unique canonical URLs;
-- image sitemap: 8 entries for 8 reviewed registry records;
-- canonical registered image endpoints: 8/8 healthy;
+- ordinary sitemap count equals the approved generated content/sitemap release evidence;
+- image sitemap count equals the explicit reviewed registry release count;
+- canonical registered image endpoints: 100% healthy;
 - robots sitemap declarations: 2/2;
 - parameterized search: canonical `/search` plus `noindex`;
 - full corpus: 0 broken discovered article/source links and 0 self-canonical failures.
@@ -49,7 +51,10 @@ After the control task deploys the approved commit, run:
 
 ```bash
 npm run search:audit -- --base-url=https://www.wikibiome.com
+npm run search:audit:public -- --images=<deployed-registry-count> --target=candidate
 ```
+
+The first command validates the deployed search surface against the local reviewed registry. The second validates apex-to-`www`, authoritative redirects and Gone routes, 404/410 metadata, sitemap compatibility, robots exclusions, support/Stripe behavior, and every immutable image endpoint. `--target=candidate` makes any mismatch a release defect after the candidate is supposed to be live.
 
 Then perform these checks from an unauthenticated browser and retain output or screenshots with a UTC timestamp and deployment identifier:
 
@@ -74,6 +79,8 @@ Representative URLs:
 ## Google Search Console
 
 These steps require an authenticated owner or full user. Do not mark them complete from code presence alone.
+
+Known evidence as of September 2, 2026: authenticated access to the `sc-domain:wikibiome.com` property was observed; the apex ordinary and image sitemap URLs were submitted and successfully read; a homepage indexing request was acknowledged; and validation was started for the server-error, soft-404, robots-blocked, and selected-canonical groups after explicit user confirmation. These are historical submissions, not proof of current processing or successful indexing. Reinspect their current state after deployment and do not resubmit merely because this runbook is being followed.
 
 1. First look for the existing `wikibiome.com` domain property. The September 1 baseline found a public `google-site-verification` TXT record at the apex, but only the authenticated Search Console property can prove which account owns that token and whether access is current. Do not alter the record from this task.
 2. If the owner instead requires a URL-prefix verification method, copy the exact HTML token and configure `GOOGLE_SITE_VERIFICATION` in the production environment. Never commit the token.

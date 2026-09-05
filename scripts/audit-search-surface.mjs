@@ -1,10 +1,13 @@
 #!/usr/bin/env node
 
 import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
+import { articleAliasRedirects } from "../lib/article-alias-redirects.mjs";
 import {
-  AUDITED_GONE_ARTICLE_PATHS,
+  LEGACY_SIGNATURE_REDIRECTS,
+  NEVER_PUBLIC_ARTICLE_PATHS,
   PUBLIC_ORIGIN,
   ROUTING_ROBOTS_DISALLOWS,
+  SIGNATURE_EXPLORER_REDIRECTS,
 } from "../lib/routing-policy.mjs";
 
 const baseUrlArg = process.argv.find((argument) => argument.startsWith("--base-url="));
@@ -170,10 +173,10 @@ if (sitemapFullResponse.status !== 200) failures.push(`/sitemap-full.xml: HTTP $
 if (sitemapFull !== sitemap) failures.push("/sitemap-full.xml does not delegate to canonical sitemap.xml");
 
 const redirectChecks = [
-  { path: "/signature-explorer", status: 308, location: "/signatures" },
-  { path: "/signature-explorer.html?disease=autism-spectrum-disorder", status: 308, location: "/signatures?disease=autism-spectrum-disorder" },
+  ...SIGNATURE_EXPLORER_REDIRECTS.map(({ source: path, destination: location, status }) => ({ path, location, status })),
+  ...LEGACY_SIGNATURE_REDIRECTS.map(({ source: path, destination: location, status }) => ({ path, location, status })),
+  ...articleAliasRedirects.map(({ source: path, destination: location }) => ({ path, location, status: 308 })),
   { path: "/article/DNA-damage?utm_source=console", status: 301, location: "/article/dna-damage?utm_source=console" },
-  { path: "/article/autism-spectrum-disorder-signature", status: 308, location: "/article/autism-spectrum-disorder#signature" },
 ];
 for (const check of redirectChecks) {
   const response = await fetchPath(check.path, { headers: { accept: "text/html" } });
@@ -187,7 +190,7 @@ const htmlCanonical = (html) => html.match(/<link rel="canonical" href="([^"]+)"
 const htmlTitle = (html) => html.match(/<title>(.*?)<\/title>/i)?.[1];
 const boundaryChecks = [
   { path: "/article/not-a-real-record", status: 404, title: "Article not found — WikiBiome" },
-  ...AUDITED_GONE_ARTICLE_PATHS.map((path) => ({ path, status: 410, title: "Article gone — WikiBiome" })),
+  ...NEVER_PUBLIC_ARTICLE_PATHS.map((path) => ({ path, status: 410, title: "Article gone — WikiBiome" })),
 ];
 for (const check of boundaryChecks) {
   const response = await fetchPath(check.path, { headers: { accept: "text/html" } });
@@ -209,7 +212,8 @@ const report = {
   canonicalImageEndpointsHealthy: imageChecks.filter((image) => image.status === 200 && image.contentType === "image/webp" && image.cacheControl?.includes("immutable")).length,
   robotsSitemapsAdvertised: ["sitemap.xml", "image-sitemap.xml"].filter((name) => robots.includes(`Sitemap: ${PUBLIC_ORIGIN}/${name}`)).length,
   parameterizedSearchNoindex: /<meta\s+name="robots"\s+content="[^"]*noindex/i.test(searchHtml),
-  auditedGoneArticlePaths: AUDITED_GONE_ARTICLE_PATHS.length,
+  auditedRedirectPaths: redirectChecks.length,
+  auditedGoneArticlePaths: NEVER_PUBLIC_ARTICLE_PATHS.length,
   failures,
 };
 

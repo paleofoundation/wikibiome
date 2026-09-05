@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { readFileSync } from "node:fs";
 import test from "node:test";
 import {
   GONE_PATHS,
@@ -79,6 +80,14 @@ test("parses explicit public audit options", () => {
   assert.throws(() => parseArguments([]), /--images is required/);
   assert.throws(() => parseArguments(["--images=7", "--apex-status=302"]), /301 or 308/);
   assert.throws(() => parseArguments(["--images=7", "--target=preview"]), /candidate or production/);
+});
+
+test("documents count-explicit predeployment and postdeployment public audits", () => {
+  const runbook = readFileSync(new URL("../docs/operations/indexing-runbook.md", import.meta.url), "utf8");
+  assert.match(runbook, /--images=<release-registry-count> --target=production/);
+  assert.match(runbook, /--images=<deployed-registry-count> --target=candidate/);
+  assert.match(runbook, /Never copy a previous count forward as a default/);
+  assert.match(runbook, /search-baseline-2026-09-05\.md/);
 });
 
 test("derives redirects and every Gone route from authoritative policy", () => {
