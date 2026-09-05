@@ -145,15 +145,23 @@ Exactly five generation calls were made: one for each cleared route and none for
 
 | Route | Generation record | Draft SHA-256 | Bytes | Literal native-resolution audit | Standard cover |
 |---|---|---|---:|---|---|
-| `mollicutes` | `exec-939c8de0-14cb-4020-a5d2-27a1ca69e4e6.png` | `4e653aa8b1b59b56c3cf2edd972905a94feabcbcb688f6ff6b9fc41bbad41e95` | 1,608,798 | 9 bodies / 7 groups: 5 varied singles, including 1 short smooth helical tube, plus 2 touching pairs. | Safe |
+| `mollicutes` | `exec-939c8de0-14cb-4020-a5d2-27a1ca69e4e6.png` | `4e653aa8b1b59b56c3cf2edd972905a94feabcbcb688f6ff6b9fc41bbad41e95` | 1,608,798 | 9 bodies / 7 groups: 5 varied singles, including 1 short smooth helical tube, plus 2 touching pairs. | Attention cover clipped upper bodies; validated contain required. |
 | `morganella-morganii` | `exec-fe416723-2a82-44c1-8207-4a0100d75f84.png` | `5cfad5bdd3a3c8faa411c71020a13f06d038f2ff2ce57e12209f169c95f0fd71` | 1,369,671 | 8 rods / 6 groups: 4 singles and 2 touching pairs. | Safe |
 | `mortierella` | `exec-defa5267-2c44-495c-a246-9531ce680030.png` | `dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5` | 1,322,065 | 1 connected hyphal specimen; 3 upright main sporangiophores, 3 terminal globose sporangia, and 4 empty short side branches. Numerous transverse hyphal bands are visible rather than only occasional subtle septa. | Not safe; future social output must use contain if accepted. |
-| `mycobacterium-tuberculosis` | `exec-2f65ef7c-f762-4069-b4b5-240d073acfc1.png` | `13b7bb8779d04623268d66c035b513ea38c530134bd7646e95e470c7d3091a95` | 1,319,131 | 9 rods / 7 groups: 5 singles and 2 touching pairs. | Safe |
-| `mycoplasma` | `exec-7104deff-e595-414a-80df-24e1de2689fb.png` | `ba6f067147b795bead11c6003dc1b135ff8fe8957db10bed72b3dfedbdfedddb` | 1,458,852 | 11 bodies / 8 groups: 5 singles and 3 touching pairs. The output added 1 single body and 1 group versus the prompt. | Safe |
+| `mycobacterium-tuberculosis` | `exec-2f65ef7c-f762-4069-b4b5-240d073acfc1.png` | `13b7bb8779d04623268d66c035b513ea38c530134bd7646e95e470c7d3091a95` | 1,319,131 | 9 rods / 7 groups: 5 singles and 2 touching pairs. | Attention cover clipped lower rods; validated contain required. |
+| `mycoplasma` | `exec-7104deff-e595-414a-80df-24e1de2689fb.png` | `ba6f067147b795bead11c6003dc1b135ff8fe8957db10bed72b3dfedbdfedddb` | 1,458,852 | 11 bodies / 8 groups: 5 singles and 3 touching pairs. The output added 1 single body and 1 group versus the prompt. | Attention cover clipped upper bodies; validated contain required. |
 | `mycoplasma-hominis` | No call: scientific-identity hold. | No file. | — | No visual artifact exists. | — |
 
-All five generated canvases have zero pixels below luma 128 within the outer 32-pixel band. No label, text, scale bar, host material, scene, clipping, signature, or watermark was observed. Mortierella's transverse-band deviation and cover-crop failure are explicitly disclosed for Control Tower disposition; the source PNG is unchanged.
+All five generated canvases have zero pixels below luma 128 within the outer 32-pixel band. No label, text, scale bar, host material, scene, clipping, signature, or watermark was observed. Publication-stage native crop inspection found that Mollicutes, Mycobacterium tuberculosis, and Mycoplasma require containment, while Morganella morganii remains safe under the standard attention cover. Mortierella's transverse-band deviation and crop limits remain disclosed with its rejection; every source PNG is unchanged.
 
 ## Review-only publication boundary
 
 Generated originals are stored only under `work/media-drafts/microorganisms-batch-026/`. They are immutable review artifacts and master candidates, not approved public media. This packet creates no public master, WebP derivative, registry entry, endpoint, Schema.org image record, Open Graph/X image, coverage completion, or image-sitemap entry. Promotion requires a separate Control Tower original-resolution decision keyed to the exact SHA-256 of each accepted PNG.
+
+## Control Tower disposition and promotion boundary
+
+Control Tower subsequently inspected all five generated PNGs at original resolution. It accepted the exact `mollicutes`, `morganella-morganii`, `mycobacterium-tuberculosis`, and `mycoplasma` hashes recorded above and authorized promotion without regeneration or source-pixel alteration. The accepted Mycoplasma record must preserve the observed eleven bodies in eight groups rather than the prompt count.
+
+Control Tower rejected the exact Mortierella hash `dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5`: its terminal heads visually read as externally beaded or conidial clusters rather than clearly bounded globose sporangia, and numerous transverse bands weaken the intended mainly coenocytic treatment. The file remains immutable rejected review evidence only and receives no crop, master, derivative, registry ownership, structured media record, endpoint, image-sitemap entry, or coverage completion. No retry was made in this promotion turn.
+
+The `mycoplasma-hominis` scientific-identity hold remains active and asset-free. Only the four accepted current owners may be published from this batch.

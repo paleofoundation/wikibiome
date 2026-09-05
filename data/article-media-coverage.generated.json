@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "e051a1568bdf02270994bc7d10709f6649f87f989bc916d9383242584e3abd9f",
+    "registrySha256": "8e0b4721532bcf260d0d6814fa84e6ec8ece66b202b4c4f3d41411e4b2167c48",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "615f05dfef644dbba0051a9378f880886b3333c06c7a915cdda8061ab8713be8",
+    "reviewLogSha256": "c148c58dea92ae6c2deb56d11850a63ed40f39ae6b924bf6cf451be925b86ffd",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -165,8 +165,8 @@
       {
         "file": "data/article-media-batches/microorganisms-026.json",
         "batchId": "microorganisms-026",
-        "status": "awaiting-control-review",
-        "sha256": "fc159e10e25b9eaa7c73eb8f22ff8a881f65ea0d1d6ddadcf6f01fca153344dd"
+        "status": "reviewed",
+        "sha256": "ba9460f6c37099b228a4f9ef66edafd1378692f6fcb6393841dbb1a5a874500e"
       }
     ]
   },
@@ -188,20 +188,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 140,
-    "remaining": 570,
-    "rejected": 19,
+    "completed": 144,
+    "remaining": 566,
+    "rejected": 20,
     "revised": 10,
     "scientificHolds": 6,
-    "inReview": 5
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 137,
-      "remaining": 92
+      "completed": 141,
+      "remaining": 88
     },
     {
       "id": "metals",
@@ -681,6 +681,39 @@
       ],
       "requiredResolution": "Create or reconcile canonical metamycoplasma-hominis with current title Metamycoplasma hominis and NCBITaxon:2098, preserve mycoplasma-hominis only as an audited permanent asset-free 308 alias, reconcile source-era text and provenance, and return the single current biological entity to its deterministic uncovered media position.",
       "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 026 makes no queue substitution."
+    },
+    {
+      "pageId": "mortierella",
+      "controlledIdentifier": "NCBITaxon:4855",
+      "batchId": "microorganisms-026",
+      "draft": "work/media-drafts/microorganisms-batch-026/mortierella-draft.png",
+      "sha256": "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5",
+      "generationRecord": "exec-defa5267-2c44-495c-a246-9531ce680030.png",
+      "promptSha256": "82a1cb1c147ecfba5a36ab7fbbf00cd4a6a1a33a81fd406674141b7a98a56163",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "WikiBiome Control Tower original-resolution visual review",
+      "disposition": "rejected",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4855&mode=Info",
+          "https://www.indexfungorum.org/Names/genusrecord.asp?RecordId=20345",
+          "https://www.mycobank.org/MycoTaxo.aspx?Link=T&Rec=20345",
+          "https://doi.org/10.1080/12298093.2018.1551854",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3213126/"
+        ],
+        "notes": "The current genus identity and morphology evidence remain supportable; the rejection concerns whether this generated output defensibly depicts that evidence."
+      },
+      "subjectReview": {
+        "status": "fail",
+        "notes": "The terminal heads visually read as externally beaded or conidial clusters rather than clearly bounded globose sporangia, while numerous transverse bands weaken the intended mainly coenocytic treatment."
+      },
+      "accessibilityReview": {
+        "status": "not-applicable",
+        "notes": "The rejected artifact is not eligible for public alternative text, a public crop, or structured media publication."
+      },
+      "reason": "Control Tower rejected the original-resolution output because the terminal heads read as externally beaded or conidial clusters rather than clearly bounded globose sporangia and numerous transverse bands weaken the intended mainly coenocytic treatment.",
+      "routingImpact": "The exact PNG remains immutable rejected review evidence only. It has no registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion, and it was not retried in this promotion turn."
     }
   ],
   "revisedAssets": [
@@ -810,6 +843,15 @@
   ],
   "nextBatch": [
     {
+      "queuePosition": 145,
+      "id": "mortierella",
+      "title": "Mortierella",
+      "route": "/article/mortierella",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
       "queuePosition": 149,
       "id": "nakaseomyces-glabratus",
       "title": "Nakaseomyces glabratus",
@@ -851,15 +893,6 @@
       "id": "oscillospiraceae",
       "title": "Oscillospiraceae",
       "route": "/article/oscillospiraceae",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 154,
-      "id": "oscillospirales",
-      "title": "Oscillospirales",
-      "route": "/article/oscillospirales",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -3856,12 +3889,14 @@
       "route": "/article/mollicutes",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-026",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-026/mollicutes-draft.png",
-        "sha256": "4e653aa8b1b59b56c3cf2edd972905a94feabcbcb688f6ff6b9fc41bbad41e95"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "mollicutes-microbial-community-v1-master.png",
+        "publishedFile": "mollicutes-microbial-community-v1.webp",
+        "socialFile": "mollicutes-microbial-community-v1-social.webp"
       }
     },
     {
@@ -3875,12 +3910,14 @@
       "route": "/article/morganella-morganii",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-026",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-026/morganella-morganii-draft.png",
-        "sha256": "5cfad5bdd3a3c8faa411c71020a13f06d038f2ff2ce57e12209f169c95f0fd71"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "morganella-morganii-morphology-v1-master.png",
+        "publishedFile": "morganella-morganii-morphology-v1.webp",
+        "socialFile": "morganella-morganii-morphology-v1-social.webp"
       }
     },
     {
@@ -3894,13 +3931,7 @@
       "route": "/article/mortierella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-026",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-026/mortierella-draft.png",
-        "sha256": "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5"
-      }
+      "status": "queued"
     },
     {
       "queuePosition": 146,
@@ -3913,12 +3944,14 @@
       "route": "/article/mycobacterium-tuberculosis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-026",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-026/mycobacterium-tuberculosis-draft.png",
-        "sha256": "13b7bb8779d04623268d66c035b513ea38c530134bd7646e95e470c7d3091a95"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "mycobacterium-tuberculosis-morphology-v1-master.png",
+        "publishedFile": "mycobacterium-tuberculosis-morphology-v1.webp",
+        "socialFile": "mycobacterium-tuberculosis-morphology-v1-social.webp"
       }
     },
     {
@@ -3932,12 +3965,14 @@
       "route": "/article/mycoplasma",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-026",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-026/mycoplasma-draft.png",
-        "sha256": "ba6f067147b795bead11c6003dc1b135ff8fe8957db10bed72b3dfedbdfedddb"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "mycoplasma-morphology-v1-master.png",
+        "publishedFile": "mycoplasma-morphology-v1.webp",
+        "socialFile": "mycoplasma-morphology-v1-social.webp"
       }
     },
     {

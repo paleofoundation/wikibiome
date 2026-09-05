@@ -3658,6 +3658,128 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 025 as a current-circumscription representative rod and rosette reconstruction.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "methylobacterium-draft.png", "sourceSha256": "3159833f48682330877d219d73cf2dc6d90c740696dec074edb5e8cbaf5600c5", "generationRecord": "exec-e583cb09-119b-479d-b001-23db77aa391f.png" }
+    },
+    "mollicutes|mollicutes-microbial-community-v1.webp": {
+      "pageId": "mollicutes",
+      "publishedFile": "mollicutes-microbial-community-v1.webp",
+      "masterSource": "mollicutes-microbial-community-v1-master.png",
+      "socialFile": "mollicutes-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=31969&mode=Info",
+          "https://lpsn.dsmz.de/class/mollicutes",
+          "https://pubmed.ncbi.nlm.nih.gov/17978244/",
+          "https://pubmed.ncbi.nlm.nih.gov/10049810/",
+          "https://pubmed.ncbi.nlm.nih.gov/15170406/"
+        ],
+        "notes": "NCBI retains Mollicutes as current class NCBITaxon:31969 within Mycoplasmatota, while LPSN records the class and its typification caveat. Primary structural sources support selected wall-less pleomorphic and Spiroplasma-like descendant forms. The plate is explicitly selected-descendant, representative, non-exhaustive, non-universal, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted nine bodies in seven groups: five varied singles, including one short smooth helical tube, plus two touching rounded pairs. Each subject has its own ordinary boundary, and the class-level treatment does not claim one universal Mollicutes morphology."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal nine-body/seven-group output and identifies the single helical form. Caption states the class-level selected-descendant limitations. Native cover inspection clipped upper bodies, so the validated 1200 by 630 social derivative uses contain on pale #f3f7fb and retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 026 as a selected-descendant class-level diversity reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "mollicutes-draft.png", "sourceSha256": "4e653aa8b1b59b56c3cf2edd972905a94feabcbcb688f6ff6b9fc41bbad41e95", "generationRecord": "exec-939c8de0-14cb-4020-a5d2-27a1ca69e4e6.png" }
+    },
+    "morganella-morganii|morganella-morganii-morphology-v1.webp": {
+      "pageId": "morganella-morganii",
+      "publishedFile": "morganella-morganii-morphology-v1.webp",
+      "masterSource": "morganella-morganii-morphology-v1-master.png",
+      "socialFile": "morganella-morganii-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=582&mode=Info",
+          "https://lpsn.dsmz.de/species/morganella-morganii",
+          "https://bacdive.dsmz.de/strain/4986",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC88947/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Morganella morganii as current species NCBITaxon:582, and type-strain evidence supports conservative short rods. Appendages and capsules are omitted and the plate makes no diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted eight short rounded-pole rods in six groups: four singles and two touching pairs, with no visible appendage, spore, capsule, or shared envelope."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal eight-body/six-group output. Caption distinguishes reconstruction from micrograph and avoids diagnostic meaning. Native crop audit confirms the 1200 by 630 cover derivative retains every rod and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 026 as a type-strain-anchored representative species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "morganella-morganii-draft.png", "sourceSha256": "5cfad5bdd3a3c8faa411c71020a13f06d038f2ff2ce57e12209f169c95f0fd71", "generationRecord": "exec-fe416723-2a82-44c1-8207-4a0100d75f84.png" }
+    },
+    "mycobacterium-tuberculosis|mycobacterium-tuberculosis-morphology-v1.webp": {
+      "pageId": "mycobacterium-tuberculosis",
+      "publishedFile": "mycobacterium-tuberculosis-morphology-v1.webp",
+      "masterSource": "mycobacterium-tuberculosis-morphology-v1-master.png",
+      "socialFile": "mycobacterium-tuberculosis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1773&mode=Info",
+          "https://lpsn.dsmz.de/species/Mycobacterium-tuberculosis",
+          "https://wwwn.cdc.gov/phil/Details.aspx?pid=2804",
+          "https://www.cdc.gov/tb/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Mycobacterium tuberculosis as current species NCBITaxon:1773. Authoritative sources support slender straight-to-gently-curved non-sporing, nonmotile rods with possible uneven staining. CDC public-domain reference imagery informed morphology only and was not copied."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted nine slender rods in seven groups: five singles and two touching pairs. Restrained internal tonal variation does not claim a literal stain result or visual diagnosis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal nine-body/seven-group output. Caption explicitly states representative, non-diagnostic, non-micrograph, and non-stained-specimen scope. Native cover inspection clipped lower rods, so the validated 1200 by 630 social derivative uses contain on pale #f3f7fb and retains every rod and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 026 as a conservative type-strain-anchored species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "mycobacterium-tuberculosis-draft.png", "sourceSha256": "13b7bb8779d04623268d66c035b513ea38c530134bd7646e95e470c7d3091a95", "generationRecord": "exec-2f65ef7c-f762-4069-b4b5-240d073acfc1.png" }
+    },
+    "mycoplasma|mycoplasma-morphology-v1.webp": {
+      "pageId": "mycoplasma",
+      "publishedFile": "mycoplasma-morphology-v1.webp",
+      "masterSource": "mycoplasma-morphology-v1-master.png",
+      "socialFile": "mycoplasma-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2093&mode=Info",
+          "https://lpsn.dsmz.de/genus/mycoplasma",
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2102&mode=Info",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC4625578/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC523564/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Mycoplasma as current conserved genus NCBITaxon:2093 with Mycoplasma mycoides as type species. Sources support wall-less pleomorphic rounded, ovoid, and mildly irregular bodies. The plate is bounded to the current genus rather than the historical broad assemblage."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower original-resolution review accepted eleven wall-less rounded-to-ovoid bodies in eight groups: five singles and three touching pairs. This is one additional body and group relative to the prompt; the observed eleven/eight result governs every public metadata surface."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text and caption both preserve the literal eleven-body/eight-group output without implying a universal current-genus form. Native cover inspection clipped upper bodies, so the validated 1200 by 630 social derivative uses contain on pale #f3f7fb and retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 026 as a current conserved-genus, type-species-anchored representative reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "mycoplasma-draft.png", "sourceSha256": "ba6f067147b795bead11c6003dc1b135ff8fe8957db10bed72b3dfedbdfedddb", "generationRecord": "exec-7104deff-e595-414a-80df-24e1de2689fb.png" }
     }
   },
   "rejectedAssets": [
@@ -4088,6 +4210,39 @@
       ],
       "requiredResolution": "Create or reconcile canonical metamycoplasma-hominis with current title Metamycoplasma hominis and NCBITaxon:2098, preserve mycoplasma-hominis only as an audited permanent asset-free 308 alias, reconcile source-era text and provenance, and return the single current biological entity to its deterministic uncovered media position.",
       "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 026 makes no queue substitution."
+    },
+    {
+      "pageId": "mortierella",
+      "controlledIdentifier": "NCBITaxon:4855",
+      "batchId": "microorganisms-026",
+      "draft": "work/media-drafts/microorganisms-batch-026/mortierella-draft.png",
+      "sha256": "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5",
+      "generationRecord": "exec-defa5267-2c44-495c-a246-9531ce680030.png",
+      "promptSha256": "82a1cb1c147ecfba5a36ab7fbbf00cd4a6a1a33a81fd406674141b7a98a56163",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "WikiBiome Control Tower original-resolution visual review",
+      "disposition": "rejected",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4855&mode=Info",
+          "https://www.indexfungorum.org/Names/genusrecord.asp?RecordId=20345",
+          "https://www.mycobank.org/MycoTaxo.aspx?Link=T&Rec=20345",
+          "https://doi.org/10.1080/12298093.2018.1551854",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3213126/"
+        ],
+        "notes": "The current genus identity and morphology evidence remain supportable; the rejection concerns whether this generated output defensibly depicts that evidence."
+      },
+      "subjectReview": {
+        "status": "fail",
+        "notes": "The terminal heads visually read as externally beaded or conidial clusters rather than clearly bounded globose sporangia, while numerous transverse bands weaken the intended mainly coenocytic treatment."
+      },
+      "accessibilityReview": {
+        "status": "not-applicable",
+        "notes": "The rejected artifact is not eligible for public alternative text, a public crop, or structured media publication."
+      },
+      "reason": "Control Tower rejected the original-resolution output because the terminal heads read as externally beaded or conidial clusters rather than clearly bounded globose sporangia and numerous transverse bands weaken the intended mainly coenocytic treatment.",
+      "routingImpact": "The exact PNG remains immutable rejected review evidence only. It has no registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion, and it was not retried in this promotion turn."
     }
   ],
   "revisedAssets": [
