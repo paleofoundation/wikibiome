@@ -155,6 +155,12 @@
         "batchId": "microorganisms-024",
         "status": "reviewed",
         "sha256": "ebd22494830897aea0c51d6f078468cf4f766fb47b9dce6fd1ee8d39a850043f"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-025.json",
+        "batchId": "microorganisms-025",
+        "status": "awaiting-control-review",
+        "sha256": "bc98cf47ca2cb782d28600a489bde6ad54f41222a9b6c49bf0b0181cd1153d4e"
       }
     ]
   },
@@ -181,7 +187,7 @@
     "rejected": 18,
     "revised": 10,
     "scientificHolds": 5,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -777,55 +783,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 137,
-      "id": "malassezia",
-      "title": "Malassezia",
-      "route": "/article/malassezia",
+      "queuePosition": 143,
+      "id": "mollicutes",
+      "title": "Mollicutes",
+      "route": "/article/mollicutes",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 138,
-      "id": "mediterraneibacter",
-      "title": "Mediterraneibacter",
-      "route": "/article/mediterraneibacter",
+      "queuePosition": 144,
+      "id": "morganella-morganii",
+      "title": "Morganella morganii",
+      "route": "/article/morganella-morganii",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 139,
-      "id": "megamonas",
-      "title": "Megamonas",
-      "route": "/article/megamonas",
+      "queuePosition": 145,
+      "id": "mortierella",
+      "title": "Mortierella",
+      "route": "/article/mortierella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 140,
-      "id": "megasphaera",
-      "title": "Megasphaera",
-      "route": "/article/megasphaera",
+      "queuePosition": 146,
+      "id": "mycobacterium-tuberculosis",
+      "title": "Mycobacterium tuberculosis",
+      "route": "/article/mycobacterium-tuberculosis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 141,
-      "id": "methanobrevibacter",
-      "title": "Methanobrevibacter",
-      "route": "/article/methanobrevibacter",
+      "queuePosition": 147,
+      "id": "mycoplasma",
+      "title": "Mycoplasma",
+      "route": "/article/mycoplasma",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 142,
-      "id": "methylobacterium",
-      "title": "Methylobacterium",
-      "route": "/article/methylobacterium",
+      "queuePosition": 148,
+      "id": "mycoplasma-hominis",
+      "title": "Mycoplasma hominis",
+      "route": "/article/mycoplasma-hominis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -3696,7 +3702,13 @@
       "route": "/article/malassezia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-025",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-025/malassezia-draft.png",
+        "sha256": "5cda6a682d0a55bf7ff06eeac47a27ceda8aeead55639f663f2505bc61e9ec47"
+      }
     },
     {
       "queuePosition": 138,
@@ -3709,7 +3721,13 @@
       "route": "/article/mediterraneibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-025",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-025/mediterraneibacter-draft.png",
+        "sha256": "5363112200a6502616931b713fd3b7d53b164ea759bb302da1dfb8b3efbaa5bf"
+      }
     },
     {
       "queuePosition": 139,
@@ -3722,7 +3740,13 @@
       "route": "/article/megamonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-025",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-025/megamonas-draft.png",
+        "sha256": "81cc2e79b9c183a5d442528379c48d04dbab79377b2a95bb5e8b686cd2482e71"
+      }
     },
     {
       "queuePosition": 140,
@@ -3735,7 +3759,13 @@
       "route": "/article/megasphaera",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-025",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-025/megasphaera-draft.png",
+        "sha256": "423c5dc4e58dc6acef58282073fa38bf13772741c341f5840abd3701fce74a9b"
+      }
     },
     {
       "queuePosition": 141,
@@ -3748,7 +3778,13 @@
       "route": "/article/methanobrevibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-025",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-025/methanobrevibacter-draft.png",
+        "sha256": "ef1b9783f82c28b1cc98b2a8c7257933c0530fc3db92554e8efcd744fa237adb"
+      }
     },
     {
       "queuePosition": 142,
@@ -3761,7 +3797,13 @@
       "route": "/article/methylobacterium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-025",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-025/methylobacterium-draft.png",
+        "sha256": "3159833f48682330877d219d73cf2dc6d90c740696dec074edb5e8cbaf5600c5"
+      }
     },
     {
       "queuePosition": 143,
