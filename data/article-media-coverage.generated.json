@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "5ac5d1bf82ac16da6728f97af3f575e476ae10d84ecc611a1a9f22cd41502c90",
+    "registrySha256": "09c11e24a2abb071bace0e54a2141209965aa6f4a820c7ae2e21e4c18edf2c36",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "81fc1cd097fafac40c33c1b649c1a870d002eb9eab5c24ddf703c14c32d40f20",
+    "reviewLogSha256": "e04a3a4f63545e1aa8a0148f5c06fcc8f0b65059551275c95cee1097d6b43703",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -189,8 +189,8 @@
       {
         "file": "data/article-media-batches/microorganisms-030.json",
         "batchId": "microorganisms-030",
-        "status": "awaiting-control-review",
-        "sha256": "7be34e193c6b8bdfcc194c2ffa5c205efa476c8b50f025c00707622a12a925e8"
+        "status": "reviewed",
+        "sha256": "1449ca0a2215b2fea70d4fcdb998c1be49ba6737c3165a8255c5eb30a4c2719e"
       }
     ]
   },
@@ -212,20 +212,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 160,
-    "remaining": 550,
+    "completed": 166,
+    "remaining": 544,
     "rejected": 23,
     "revised": 11,
     "scientificHolds": 7,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 157,
-      "remaining": 72
+      "completed": 163,
+      "remaining": 66
     },
     {
       "id": "metals",
@@ -4491,12 +4491,14 @@
       "route": "/article/porphyromonas",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-030",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-030/porphyromonas-draft.png",
-        "sha256": "6c7ca8444c87b4b3ec9978230f837368af3678eb745eadd3347b8a7a20b4d384"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "porphyromonas-morphology-v1-master.png",
+        "publishedFile": "porphyromonas-morphology-v1.webp",
+        "socialFile": "porphyromonas-morphology-v1-social.webp"
       }
     },
     {
@@ -4510,12 +4512,14 @@
       "route": "/article/porphyromonas-bennonis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-030",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-030/porphyromonas-bennonis-draft.png",
-        "sha256": "8b8758da33cad783d2ca7077225fa19143e9e7e28866c7793e204ceee38fab42"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "porphyromonas-bennonis-morphology-v1-master.png",
+        "publishedFile": "porphyromonas-bennonis-morphology-v1.webp",
+        "socialFile": "porphyromonas-bennonis-morphology-v1-social.webp"
       }
     },
     {
@@ -4529,12 +4533,14 @@
       "route": "/article/porphyromonas-gingivalis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-030",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-030/porphyromonas-gingivalis-draft.png",
-        "sha256": "8bff14de1a510b071e6819a6d812925a37ae7e983c6f0a8c9e539b8de55d6b38"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "porphyromonas-gingivalis-morphology-v1-master.png",
+        "publishedFile": "porphyromonas-gingivalis-morphology-v1.webp",
+        "socialFile": "porphyromonas-gingivalis-morphology-v1-social.webp"
       }
     },
     {
@@ -4548,12 +4554,14 @@
       "route": "/article/prevotella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-030",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-030/prevotella-draft.png",
-        "sha256": "61f08154223d4620a5e85bcbaf19d03555f8e80fde1d72e607a398a24d87e16e"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "prevotella-morphology-v1-master.png",
+        "publishedFile": "prevotella-morphology-v1.webp",
+        "socialFile": "prevotella-morphology-v1-social.webp"
       }
     },
     {
@@ -4567,12 +4575,14 @@
       "route": "/article/prevotella-copri",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-030",
-        "decision": "generated-awaiting-control-review-authority-display-discrepancy",
-        "draft": "work/media-drafts/microorganisms-batch-030/prevotella-copri-draft.png",
-        "sha256": "44d4e85c2b68d1b08a11b925872cc36dbf24345c3d6c4605fa3e7d5652d03181"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "prevotella-copri-morphology-v1-master.png",
+        "publishedFile": "prevotella-copri-morphology-v1.webp",
+        "socialFile": "prevotella-copri-morphology-v1-social.webp"
       }
     },
     {
@@ -4586,12 +4596,14 @@
       "route": "/article/prevotella-intermedia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-030",
-        "decision": "generated-awaiting-control-review",
-        "draft": "work/media-drafts/microorganisms-batch-030/prevotella-intermedia-draft.png",
-        "sha256": "d388aa48e029941b8466269da2dc4a0fd8c0a0e10812c9caf3970f9fb223bbb2"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "prevotella-intermedia-morphology-v1-master.png",
+        "publishedFile": "prevotella-intermedia-morphology-v1.webp",
+        "socialFile": "prevotella-intermedia-morphology-v1-social.webp"
       }
     },
     {

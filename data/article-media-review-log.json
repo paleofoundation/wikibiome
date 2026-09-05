@@ -4264,6 +4264,183 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 029 as a type-species-anchored representative genus reconstruction.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "phascolarctobacterium-draft.png", "sourceSha256": "e3f44a0af5eaff6de9da6cc99f1cb298ce259b5ea15e5a341ea4dbcf4216babc", "generationRecord": "exec-945cca2d-6c89-4e32-b11f-d99e86d2ffad.png" }
+    },
+    "porphyromonas|porphyromonas-morphology-v1.webp": {
+      "pageId": "porphyromonas",
+      "publishedFile": "porphyromonas-morphology-v1.webp",
+      "masterSource": "porphyromonas-morphology-v1-master.png",
+      "socialFile": "porphyromonas-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=836&mode=Info",
+          "https://lpsn.dsmz.de/genus/porphyromonas",
+          "https://doi.org/10.1099/00207713-38-1-128"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Porphyromonas as current genus NCBITaxon:836 with P. asaccharolytica as nomenclatural type. The cross-checked original genus paper supports a type-species-anchored representative short-rod-to-coccobacillary treatment without a universal or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: eleven short rod-to-coccobacillary bodies in eight groups, five singles and three touching pairs. This is one body and group above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal 11-body/8-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 030 as a type-species-anchored representative genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "porphyromonas-draft.png", "sourceSha256": "6c7ca8444c87b4b3ec9978230f837368af3678eb745eadd3347b8a7a20b4d384", "generationRecord": "exec-b3a9aace-c8f0-4514-9d80-d67854bf5556.png" }
+    },
+    "porphyromonas-bennonis|porphyromonas-bennonis-morphology-v1.webp": {
+      "pageId": "porphyromonas-bennonis",
+      "publishedFile": "porphyromonas-bennonis-morphology-v1.webp",
+      "masterSource": "porphyromonas-bennonis-morphology-v1-master.png",
+      "socialFile": "porphyromonas-bennonis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=501496&mode=Info",
+          "https://lpsn.dsmz.de/species/porphyromonas-bennonis",
+          "https://pubmed.ncbi.nlm.nih.gov/19542133/",
+          "https://bacdive.dsmz.de/strain/12513"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Porphyromonas bennonis as current species NCBITaxon:501496. The exact primary description and type-strain record support a conservative non-spore-forming bacillary treatment without a diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: nine compact bacilli in seven groups, five singles and two touching pairs. Counts match the prompt."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal 9-body/7-group output. Caption states type-strain-anchored, representative, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 030 as a type-strain-anchored representative species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "porphyromonas-bennonis-draft.png", "sourceSha256": "8b8758da33cad783d2ca7077225fa19143e9e7e28866c7793e204ceee38fab42", "generationRecord": "exec-23037822-c263-491b-b329-89a977846d6d.png" }
+    },
+    "porphyromonas-gingivalis|porphyromonas-gingivalis-morphology-v1.webp": {
+      "pageId": "porphyromonas-gingivalis",
+      "publishedFile": "porphyromonas-gingivalis-morphology-v1.webp",
+      "masterSource": "porphyromonas-gingivalis-morphology-v1-master.png",
+      "socialFile": "porphyromonas-gingivalis-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=837&mode=Info",
+          "https://lpsn.dsmz.de/species/porphyromonas-gingivalis",
+          "https://doi.org/10.1099/00207713-38-1-128",
+          "https://bacdive.dsmz.de/strain/12506"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Porphyromonas gingivalis as current species NCBITaxon:837. The original current-combination and type-strain records support short rod-to-coccobacillary morphology; capsules and surface appendages remain omitted because expression is strain-dependent."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: eight compact short rod-to-coccobacillary bodies in six groups, four singles and two touching pairs. Counts match the prompt."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal 8-body/6-group output. Caption states type-strain-anchored, representative, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 030 as a type-strain-anchored representative species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "porphyromonas-gingivalis-draft.png", "sourceSha256": "8bff14de1a510b071e6819a6d812925a37ae7e983c6f0a8c9e539b8de55d6b38", "generationRecord": "exec-b4af1737-682e-45c0-97d6-a84274a92e9a.png" }
+    },
+    "prevotella|prevotella-morphology-v1.webp": {
+      "pageId": "prevotella",
+      "publishedFile": "prevotella-morphology-v1.webp",
+      "masterSource": "prevotella-morphology-v1-master.png",
+      "socialFile": "prevotella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=838&mode=Info",
+          "https://lpsn.dsmz.de/genus/prevotella",
+          "https://pubmed.ncbi.nlm.nih.gov/2223612/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Prevotella as current genus NCBITaxon:838 with P. melaninogenica as nomenclatural type. The exact original genus description supports a representative non-spore-forming nonmotile short-rod-to-coccobacillary plate without a universal or diagnostic claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: twelve short rod-to-coccobacillary bodies in eight groups, four singles and four touching pairs. This is one body and group above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal 12-body/8-group output. Caption states type-species-anchored, representative, non-universal, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 030 as a type-species-anchored representative genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "prevotella-draft.png", "sourceSha256": "61f08154223d4620a5e85bcbaf19d03555f8e80fde1d72e607a398a24d87e16e", "generationRecord": "exec-6d68d2c5-a305-421c-9b06-d32e258fd045.png" }
+    },
+    "prevotella-copri|prevotella-copri-morphology-v1.webp": {
+      "pageId": "prevotella-copri",
+      "publishedFile": "prevotella-copri-morphology-v1.webp",
+      "masterSource": "prevotella-copri-morphology-v1-master.png",
+      "socialFile": "prevotella-copri-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=165179&mode=Info",
+          "https://lpsn.dsmz.de/species/prevotella-copri",
+          "https://pubmed.ncbi.nlm.nih.gov/17473237/"
+        ],
+        "notes": "The biological entity is NCBITaxon:165179. LPSN treats Prevotella copri as the correct validly published and recommended medical name, while NCBI displays homotypic Segatella copri and records Prevotella copri as basionym under the same identifier. The exact primary description supports non-pigmented non-spore-forming nonmotile rods; the disagreement is preserved without a false consensus."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: ten moderately slender rods in eight groups, six singles and two touching pairs. This is one body and group above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal 10-body/8-group output. Caption explicitly preserves the LPSN/NCBI name-display disagreement and states representative, non-diagnostic, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 030 as a type-strain-anchored representative reconstruction of NCBITaxon:165179; the image does not resolve nomenclature.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "prevotella-copri-draft.png", "sourceSha256": "44d4e85c2b68d1b08a11b925872cc36dbf24345c3d6c4605fa3e7d5652d03181", "generationRecord": "exec-1b34a796-f1b0-40a4-9fe3-a5c164de6f11.png" }
+    },
+    "prevotella-intermedia|prevotella-intermedia-morphology-v1.webp": {
+      "pageId": "prevotella-intermedia",
+      "publishedFile": "prevotella-intermedia-morphology-v1.webp",
+      "masterSource": "prevotella-intermedia-morphology-v1-master.png",
+      "socialFile": "prevotella-intermedia-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=28131&mode=Info",
+          "https://lpsn.dsmz.de/species/prevotella-intermedia",
+          "https://pubmed.ncbi.nlm.nih.gov/8590668/",
+          "https://bacdive.dsmz.de/strain/12531"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Prevotella intermedia as current species NCBITaxon:28131. The exact species-confirmation and type-strain records support rod morphology without pigment, pathology, or a visual-separability claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower accepted the exact immutable PNG after native-resolution review: nine rods in seven groups, five singles and two touching pairs. One requested pair rendered as a single, yielding one fewer body while the seven-group count remained unchanged; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal 9-body/7-group output. Caption states type-strain-anchored, representative, non-diagnostic, no visual-separability claim, and non-micrograph scope. Native 1200 by 630 centered-cover review retains every body and grouping."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower in microorganisms batch 030 as a type-strain-anchored representative species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "prevotella-intermedia-draft.png", "sourceSha256": "d388aa48e029941b8466269da2dc4a0fd8c0a0e10812c9caf3970f9fb223bbb2", "generationRecord": "exec-c087be8a-1f3c-40d3-ae67-e3eb684a6423.png" }
     }
   },
   "rejectedAssets": [
