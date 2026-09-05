@@ -114,3 +114,16 @@ Constraints: Type-strain-anchored representative species arrangement only; non-d
 ## Generation boundary
 
 Each cleared route may receive exactly one built-in image-generation call from its immutable prompt above. A generated file remains review-only until its native pixels, literal subject count and grouping, edge field, crop safety, immutable hash, metadata consistency, and absence of prohibited content are independently recorded. Observed output—not requested composition—controls all downstream alt text and captions.
+
+## Immutable generation records
+
+Exactly six built-in image-generation calls were made, one per cleared route. No retry, replacement, edit, or source image was used. The project-bound originals and generation records are:
+
+- `streptococcus-agalactiae`: `exec-a4531fc4-7d3f-496c-bae0-fa1fb01bb11e.png`; SHA-256 `5e44d7416670c71411a98ad1d307ba662f2714d328603313fc3458bfd9b6920a`.
+- `streptococcus-gallolyticus`: `exec-58fd5b61-324b-4b9c-b5e7-2c71e1509204.png`; SHA-256 `7a19309d7350c6cc9225dcc70362c598fce52802492d8024ce595289760719c8`.
+- `streptococcus-mutans`: `exec-80188bb4-a992-4bf0-9955-eff87fcd8018.png`; SHA-256 `42c065c35f003776da33f4b36138dfec8949c6b36605e2fc396bd6f526894b6a`.
+- `streptococcus-pneumoniae`: `exec-acdf3c8a-5d19-4340-98b6-d025c0589d4d.png`; SHA-256 `1030b09141f397917bf5bd5388095deefafe6ef646bb19e845029dcc2c1eeae7`.
+- `streptococcus-salivarius`: `exec-632e271d-dadd-43cc-9c76-07f8b034f34a.png`; SHA-256 `a19f9e506d76ee534cec781002cdda9291268e56b2d4b032db5a65f6cc37d0e5`.
+- `streptococcus-thermophilus`: `exec-1243e062-329d-4012-8c70-3269de577c1d.png`; SHA-256 `8462afb99f47f9bd81fc3470f8678dfcfbdd9322a78dd3243a8fe216987c7d58`.
+
+All six are native 1536 by 1024 PNGs on edge-clean pale cool fields. Observed output—not requested composition—governs the manifest: *S. agalactiae* contains 15 cocci in chains of 5, 6, and 4; *S. gallolyticus* contains 12 cocci in two chains of 4 and two pairs; *S. mutans* contains 15 cocci in three chains of 5; *S. pneumoniae* contains 12 ovoid cocci in six opposed pairs; *S. salivarius* contains 14 cocci in chains of 5, 6, and 3; and *S. thermophilus* contains 17 cocci in chains of 7, 5, and 5. All remain review-only pending the exact-hash control review and promotion gate.
