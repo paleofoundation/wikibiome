@@ -1357,7 +1357,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(revisionRecord.supersededBy, rejected.supersededBy);
     assert.match(revisionRecord.outcome, /Root accepted the exact v2 hash for promotion/);
   }
-  assert.equal(program.current.revised, 10);
+  assert.equal(program.current.revised, 11);
   const batch021Hold = batch021?.assets.find((asset) => asset.pageId === "lachnoclostridium");
   assert.equal(batch021Hold?.decision, "scientific-identity-hold");
   assert.equal(batch021Hold?.generationStatus, "withheld-no-call");
@@ -2040,7 +2040,19 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(batch026HoldLog?.sourceEraIdentifier, "NCBITaxon:2098");
   assert.equal(batch026HoldLog?.currentAcceptedName, "Metamycoplasma hominis");
   assert.equal(batch026HoldLog?.proposedCanonicalPageId, "metamycoplasma-hominis");
-  assert.deepEqual(program.nextBatch.map((record) => record.id), [
+  const batch027 = batches.find((batch) => batch.batchId === "microorganisms-027");
+  assert.equal(batch027?.status, "approved-awaiting-promotion");
+  assert.equal(batch027?.publicationMetadataPlan?.reviewOnly, true);
+  assert.equal(batch027?.routeDecisionCount, 6);
+  assert.equal(batch027?.candidateCount, 6);
+  assert.equal(batch027?.scientificHoldCount, 0);
+  assert.equal(batch027?.generationCallCount, 7);
+  assert.equal(batch027?.reviewableGenerationCount, 6);
+  assert.equal(batch027?.quarantinedGenerationCount, 1);
+  assert.equal(batch027?.revisionCount, 1);
+  assert.equal(batch027?.controlReviewRequired, false);
+  const batch027Candidates = batch027?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch027Candidates.map((asset) => asset.pageId), [
     "mortierella",
     "nakaseomyces-glabratus",
     "odoribacter",
@@ -2048,11 +2060,110 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     "oscillibacter",
     "oscillospiraceae",
   ]);
+  const batch027ExpectedOutputs = new Map([
+    ["mortierella", ["NCBITaxon:4855", 2, "1ef90d8aba4f265c0bf58599d055df891d5e0e29420a23221ec6bfbc71aa709b", "ae70a134619a4715d43670e144bf93fd879c70edda15b385ce7f4aa627f699a8", 1330375, 1, 1, false, "contain"]],
+    ["nakaseomyces-glabratus", ["NCBITaxon:5478", 1, "c4c335263d80ff37c80ecacb4737c1e7c4b292fc7ac386b1d279b32e18670366", "273bfd1018215ab8289d31c619b164ad3279e75f70cf48a0cc335fcc0adc3bb4", 1480372, 12, 9, false, "contain"]],
+    ["odoribacter", ["NCBITaxon:283168", 1, "ba9b795889968a3e299ed22cc2e574e7d81a91e437d73f27e76c34d9e91105b8", "6536ddaf5283651585414b02cb25769a892c74e23c0e90c13542d995b961c9a2", 1348167, 10, 8, true, "cover"]],
+    ["olsenella", ["NCBITaxon:133925", 1, "40d058c1e6cdd65cf680962498e2da5b3c3db892c4130d1cf8f8a6d1d4814e7b", "fabcaec1294b478877b740d321062d52cf56690c4a8f5f79effe187f694df02b", 1231039, 11, 8, true, "cover"]],
+    ["oscillibacter", ["NCBITaxon:459786", 1, "28aa6cf110f3823a101273cc27de0a5b237f030839e2119d675f28ddd22cf6c0", "7419e9bd8b0165db560eb6a5069c41b0eb2a10fd76561b324594bbc3ad32aa49", 1278999, 10, 8, false, "contain"]],
+    ["oscillospiraceae", ["NCBITaxon:216572", 1, "d9ad722f7a89dab6d6a138bcfeb5f6b43cb0d8ca6636867e6b39fa093d402523", "91447adfb1668b6438014a22e21f79fcfbc2305487d6a49c950c1a1907248aad", 1294879, 11, 7, true, "cover"]],
+  ]);
+  const batch027PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-027.md", import.meta.url), "utf8");
+  const batch027DraftFileNames = readdirSync(new URL("../work/media-drafts/microorganisms-batch-027/", import.meta.url)).sort();
+  assert.deepEqual(batch027DraftFileNames, [
+    "mortierella-draft-v2.png",
+    "nakaseomyces-glabratus-draft.png",
+    "odoribacter-draft.png",
+    "olsenella-draft.png",
+    "oscillibacter-draft.png",
+    "oscillospiraceae-draft.png",
+  ]);
+  const batch027QuarantineFileNames = readdirSync(new URL("../work/media-quarantine/microorganisms-batch-027/", import.meta.url)).sort();
+  assert.deepEqual(batch027QuarantineFileNames, ["oscillibacter-stale-authority-draft.png"]);
+  const batch027GenerationRecords = new Set();
+  for (const asset of batch027Candidates) {
+    const [expectedIdentifier, expectedRevision, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount, expectedCoverSafe, expectedSocialFit] = batch027ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "approved-after-output-audit");
+    assert.equal(asset.rootReviewDisposition, "accepted");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.revision, expectedRevision);
+    assert.equal(asset.promptSha256, expectedPromptSha256);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.equal(asset.fileSizeBytes, expectedFileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.socialResizeFit, null);
+    assert.equal(asset.proposedSocialResizeFit, expectedSocialFit);
+    assert.equal(asset.socialBackground, expectedSocialFit === "contain" ? "#f3f7fb" : undefined);
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.observedDarkMarginCount, 0);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    assert.equal(asset.outputAudit?.coverSafe, expectedCoverSafe);
+    assert.match(asset.generationRecord, /^exec-[0-9a-f-]+\.png$/);
+    assert.ok(!batch027GenerationRecords.has(asset.generationRecord), `${asset.pageId} must own one distinct reviewable generation record`);
+    batch027GenerationRecords.add(asset.generationRecord);
+    assertMediaOutputAudit(asset, "microorganisms-027");
+
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, expectedFileSize);
+    assert.equal(draftBytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+    assert.equal(draftBytes.readUInt32BE(16), 1536);
+    assert.equal(draftBytes.readUInt32BE(20), 1024);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expectedSha256);
+
+    const promptMatch = batch027PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.ok(promptMatch, `${asset.pageId} immutable prompt must remain in the prompt record`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
+
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must remain outside the public registry before promotion`);
+    assert.ok(!batch025PublicMediaFiles.includes(expectedFiles.publishedFile), `${asset.pageId} review candidate must have no public article derivative`);
+    assert.ok(!batch025PublicMediaFiles.includes(expectedFiles.socialFile), `${asset.pageId} review candidate must have no public social derivative`);
+    assert.ok(!batch025MasterFiles.includes(expectedFiles.masterSource), `${asset.pageId} review candidate must have no public master`);
+    assert.ok(!batch025PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft path must not become public`);
+  }
+  assert.equal(batch027GenerationRecords.size, 6);
+  assert.equal(batch027Candidates.find((asset) => asset.pageId === "mortierella")?.outputAudit?.observedVisibleTransverseTonalSeamCount, 11);
+  assert.equal(batch027Candidates.find((asset) => asset.pageId === "mortierella")?.revisionLinkage?.rejectedDraftSha256, "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5");
+  assert.equal(batch027Candidates.find((asset) => asset.pageId === "nakaseomyces-glabratus")?.outputAudit?.observedVisibleBodyCount, 12);
+  assert.equal(batch027Candidates.find((asset) => asset.pageId === "olsenella")?.outputAudit?.observedDistinctCentralSwellingCount, 0);
+  assert.match(batch027PromptRecord, /10\.1099\/ijs\.0\.64717-0/);
+  assert.match(batch027PromptRecord, /corbicula clam/);
+  const batch027Quarantine = batch027?.quarantinedGenerations?.[0];
+  assert.equal(batch027Quarantine?.pageId, "oscillibacter");
+  assert.equal(batch027Quarantine?.decision, "generation-invalidated-stale-authority");
+  assert.equal(batch027Quarantine?.generationStatus, "quarantined-not-reviewable");
+  assert.equal(batch027Quarantine?.sha256, "a208e8aedc061ce1b4b151e4bae5c7283385ab50c5002b2b3a4b053cae519520");
+  assert.equal(batch027Quarantine?.stalePromptSha256, "1c54f8b54b475229e119c08793b5d731720c5336e78b3f72804c1afb653ed302");
+  assert.ok(!batch027GenerationRecords.has(batch027Quarantine?.generationRecord));
+  const batch027QuarantineBytes = readFileSync(new URL(`../${batch027Quarantine.quarantinedFile}`, import.meta.url));
+  assert.equal(batch027QuarantineBytes.length, 1503631);
+  assert.equal(createHash("sha256").update(batch027QuarantineBytes).digest("hex"), batch027Quarantine.sha256);
+  assert.equal(articleMediaRegistry.oscillibacter, undefined);
+  assert.ok(!batch025PublicMediaFiles.some((name) => name.startsWith("oscillibacter-")));
+  assert.ok(!batch025MasterFiles.some((name) => name.startsWith("oscillibacter-")));
+  const oscillibacterQuarantineLog = reviewLog.rejectedAssets.find((asset) => asset.pageId === "oscillibacter" && asset.batchId === "microorganisms-027");
+  assert.equal(oscillibacterQuarantineLog?.disposition, "quarantined-stale-authority");
+  assert.equal(oscillibacterQuarantineLog?.sha256, batch027Quarantine.sha256);
+  assert.match(oscillibacterQuarantineLog?.scientificReferenceCheck?.notes ?? "", /64717-0/);
+  const mortierellaRevision = reviewLog.revisedAssets.find((asset) => asset.pageId === "mortierella" && asset.batchId === "microorganisms-027");
+  assert.equal(mortierellaRevision?.disposition, "revise");
+  assert.equal(mortierellaRevision?.sha256, "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5");
+  assert.equal(mortierellaRevision?.supersededBy, "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png");
+  assert.deepEqual(program.nextBatch.map((record) => record.id), [
+    "oscillospirales",
+    "parabacteroides",
+    "parabacteroides-distasonis",
+    "paraprevotella",
+    "parasutterella",
+    "parvimonas-micra",
+  ]);
   assert.equal(program.current.completed, 144);
   assert.equal(program.current.remaining, 566);
-  assert.equal(program.current.rejected, 20);
-  assert.equal(program.current.revised, 10);
-  assert.equal(program.current.inReview, 0);
+  assert.equal(program.current.rejected, 21);
+  assert.equal(program.current.revised, 11);
+  assert.equal(program.current.inReview, 6);
   assert.equal(program.current.scientificHolds, 6);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
@@ -2101,7 +2212,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.ok(!program.nextBatch.some((record) => record.id === "bifidobacterium-longum-subsp-infantis"));
   const currentNameMediaMappings = [
     ["candida-auris", "candidozyma-auris", "NCBITaxon:498019", "reviewed"],
-    ["candida-glabrata", "nakaseomyces-glabratus", "NCBITaxon:5478", "queued"],
+    ["candida-glabrata", "nakaseomyces-glabratus", "NCBITaxon:5478", "in-review"],
     ["clostridiales", "eubacteriales", "NCBITaxon:186802", "reviewed"],
     ["clostridium-difficile", "clostridioides-difficile", "NCBITaxon:1496", "reviewed"],
     ["davidiella", "cladosporium", "NCBITaxon:5498", "reviewed"],

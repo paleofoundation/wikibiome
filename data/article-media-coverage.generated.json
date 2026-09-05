@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "8e0b4721532bcf260d0d6814fa84e6ec8ece66b202b4c4f3d41411e4b2167c48",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "c148c58dea92ae6c2deb56d11850a63ed40f39ae6b924bf6cf451be925b86ffd",
+    "reviewLogSha256": "41424c89bae469874bb9323150939a0690ab8b85edba088e8cedbadbba8abbe1",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -167,6 +167,12 @@
         "batchId": "microorganisms-026",
         "status": "reviewed",
         "sha256": "ba9460f6c37099b228a4f9ef66edafd1378692f6fcb6393841dbb1a5a874500e"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-027.json",
+        "batchId": "microorganisms-027",
+        "status": "approved-awaiting-promotion",
+        "sha256": "1b9e4fcd4dafb623241efe004443238a9b601215937d7d582a45d29f04a535c9"
       }
     ]
   },
@@ -190,10 +196,10 @@
     "total": 710,
     "completed": 144,
     "remaining": 566,
-    "rejected": 20,
-    "revised": 10,
+    "rejected": 21,
+    "revised": 11,
     "scientificHolds": 6,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -713,7 +719,41 @@
         "notes": "The rejected artifact is not eligible for public alternative text, a public crop, or structured media publication."
       },
       "reason": "Control Tower rejected the original-resolution output because the terminal heads read as externally beaded or conidial clusters rather than clearly bounded globose sporangia and numerous transverse bands weaken the intended mainly coenocytic treatment.",
-      "routingImpact": "The exact PNG remains immutable rejected review evidence only. It has no registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion, and it was not retried in this promotion turn."
+      "supersededBy": "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png",
+      "outcome": "Control Tower authorized one revision-2 generation call. The exact v2 hash ae70a134619a4715d43670e144bf93fd879c70edda15b385ce7f4aa627f699a8 was accepted at native resolution for a later promotion packet, with eleven output-specific transverse tonal seams disclosed and no universal septation claim.",
+      "routingImpact": "The exact revision-1 PNG remains immutable rejected review evidence only. It has no registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion. Only the separately reviewed revision-2 candidate may be eligible for later promotion."
+    },
+    {
+      "pageId": "oscillibacter",
+      "controlledIdentifier": "NCBITaxon:459786",
+      "batchId": "microorganisms-027",
+      "draft": "work/media-quarantine/microorganisms-batch-027/oscillibacter-stale-authority-draft.png",
+      "sha256": "a208e8aedc061ce1b4b151e4bae5c7283385ab50c5002b2b3a4b053cae519520",
+      "generationRecord": "exec-3cff9066-73b3-4618-88b7-3b211e22dde6.png",
+      "promptSha256": "1c54f8b54b475229e119c08793b5d731720c5336e78b3f72804c1afb653ed302",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "WikiBiome Control Tower scientific-source correction",
+      "disposition": "quarantined-stale-authority",
+      "scientificReferenceCheck": {
+        "status": "fail",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/17684268/",
+          "https://doi.org/10.1099/ijs.0.64717-0"
+        ],
+        "notes": "The packet cited DOI 10.1099/ijs.0.65828-0, which belongs to Pseudochrobactrum glaciei. Iino et al. 2007, PMID 17684268 and DOI 10.1099/ijs.0.64717-0, is the correct Oscillibacter valericigenes primary description."
+      },
+      "subjectReview": {
+        "status": "not-applicable",
+        "notes": "The stale-authority output is ineligible for scientific visual review regardless of its conservative rod appearance."
+      },
+      "accessibilityReview": {
+        "status": "not-applicable",
+        "notes": "The quarantined artifact is not eligible for public alternative text, a crop, structured data, or publication."
+      },
+      "reason": "A primary-authority citation error was discovered after the generation call. Control Tower permanently quarantined the exact stale-authority output and separately authorized one corrected replacement call under prompt SHA-256 28aa6cf110f3823a101273cc27de0a5b237f030839e2119d675f28ddd22cf6c0.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-027/oscillibacter-draft.png",
+      "outcome": "The corrected replacement, SHA-256 7419e9bd8b0165db560eb6a5069c41b0eb2a10fd76561b324594bbc3ad32aa49, was accepted at native resolution as the only review candidate. The stale output remains permanently ineligible.",
+      "routingImpact": "The quarantined PNG has no review-candidate status, registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion."
     }
   ],
   "revisedAssets": [
@@ -839,60 +879,72 @@
       "reason": "Root control rejected v1 because the severe black or dark upper and lower vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
       "supersededBy": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
       "outcome": "Exactly one authorized independent v2 generation call produced nine rods in seven groupings, including one C-bent and one S-bent single with zero appendages, on a uniform pale full-canvas field. Root accepted the exact v2 hash for promotion; v1 remains immutable rejected evidence, was not edited or reused, and owns no public media artifact."
+    },
+    {
+      "pageId": "mortierella",
+      "batchId": "microorganisms-027",
+      "draft": "work/media-drafts/microorganisms-batch-026/mortierella-draft.png",
+      "sha256": "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5",
+      "generationRecord": "exec-defa5267-2c44-495c-a246-9531ce680030.png",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Control Tower rejected revision 1 because its terminal heads read as externally beaded or conidial clusters rather than smoothly bounded globose sporangia, while numerous transverse bands weakened the intended mainly coenocytic treatment.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png",
+      "outcome": "Exactly one authorized revision-2 call produced three smooth closed globose sporangia with internally contained rounded bodies and no external spore cluster. Native review accepted v2 for later promotion while requiring disclosure of eleven output-specific transverse tonal seams. Revision 1 remains immutable rejected evidence and owns no public media artifact."
     }
   ],
   "nextBatch": [
     {
-      "queuePosition": 145,
-      "id": "mortierella",
-      "title": "Mortierella",
-      "route": "/article/mortierella",
+      "queuePosition": 154,
+      "id": "oscillospirales",
+      "title": "Oscillospirales",
+      "route": "/article/oscillospirales",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 149,
-      "id": "nakaseomyces-glabratus",
-      "title": "Nakaseomyces glabratus",
-      "route": "/article/nakaseomyces-glabratus",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology",
-      "controlledIdentifier": "NCBITaxon:5478"
-    },
-    {
-      "queuePosition": 150,
-      "id": "odoribacter",
-      "title": "Odoribacter",
-      "route": "/article/odoribacter",
+      "queuePosition": 155,
+      "id": "parabacteroides",
+      "title": "Parabacteroides",
+      "route": "/article/parabacteroides",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 151,
-      "id": "olsenella",
-      "title": "Olsenella",
-      "route": "/article/olsenella",
+      "queuePosition": 156,
+      "id": "parabacteroides-distasonis",
+      "title": "Parabacteroides distasonis",
+      "route": "/article/parabacteroides-distasonis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 152,
-      "id": "oscillibacter",
-      "title": "Oscillibacter",
-      "route": "/article/oscillibacter",
+      "queuePosition": 157,
+      "id": "paraprevotella",
+      "title": "Paraprevotella",
+      "route": "/article/paraprevotella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 153,
-      "id": "oscillospiraceae",
-      "title": "Oscillospiraceae",
-      "route": "/article/oscillospiraceae",
+      "queuePosition": 158,
+      "id": "parasutterella",
+      "title": "Parasutterella",
+      "route": "/article/parasutterella",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology"
+    },
+    {
+      "queuePosition": 159,
+      "id": "parvimonas-micra",
+      "title": "Parvimonas micra",
+      "route": "/article/parvimonas-micra",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -3931,7 +3983,13 @@
       "route": "/article/mortierella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-027",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png",
+        "sha256": "ae70a134619a4715d43670e144bf93fd879c70edda15b385ce7f4aa627f699a8"
+      }
     },
     {
       "queuePosition": 146,
@@ -4006,7 +4064,13 @@
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
       "controlledIdentifier": "NCBITaxon:5478",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-027",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/microorganisms-batch-027/nakaseomyces-glabratus-draft.png",
+        "sha256": "273bfd1018215ab8289d31c619b164ad3279e75f70cf48a0cc335fcc0adc3bb4"
+      }
     },
     {
       "queuePosition": 150,
@@ -4019,7 +4083,13 @@
       "route": "/article/odoribacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-027",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/microorganisms-batch-027/odoribacter-draft.png",
+        "sha256": "6536ddaf5283651585414b02cb25769a892c74e23c0e90c13542d995b961c9a2"
+      }
     },
     {
       "queuePosition": 151,
@@ -4032,7 +4102,13 @@
       "route": "/article/olsenella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-027",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/microorganisms-batch-027/olsenella-draft.png",
+        "sha256": "fabcaec1294b478877b740d321062d52cf56690c4a8f5f79effe187f694df02b"
+      }
     },
     {
       "queuePosition": 152,
@@ -4045,7 +4121,13 @@
       "route": "/article/oscillibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-027",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/microorganisms-batch-027/oscillibacter-draft.png",
+        "sha256": "7419e9bd8b0165db560eb6a5069c41b0eb2a10fd76561b324594bbc3ad32aa49"
+      }
     },
     {
       "queuePosition": 153,
@@ -4058,7 +4140,13 @@
       "route": "/article/oscillospiraceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-027",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/microorganisms-batch-027/oscillospiraceae-draft.png",
+        "sha256": "91447adfb1668b6438014a22e21f79fcfbc2305487d6a49c950c1a1907248aad"
+      }
     },
     {
       "queuePosition": 154,

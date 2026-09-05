@@ -4242,7 +4242,41 @@
         "notes": "The rejected artifact is not eligible for public alternative text, a public crop, or structured media publication."
       },
       "reason": "Control Tower rejected the original-resolution output because the terminal heads read as externally beaded or conidial clusters rather than clearly bounded globose sporangia and numerous transverse bands weaken the intended mainly coenocytic treatment.",
-      "routingImpact": "The exact PNG remains immutable rejected review evidence only. It has no registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion, and it was not retried in this promotion turn."
+      "supersededBy": "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png",
+      "outcome": "Control Tower authorized one revision-2 generation call. The exact v2 hash ae70a134619a4715d43670e144bf93fd879c70edda15b385ce7f4aa627f699a8 was accepted at native resolution for a later promotion packet, with eleven output-specific transverse tonal seams disclosed and no universal septation claim.",
+      "routingImpact": "The exact revision-1 PNG remains immutable rejected review evidence only. It has no registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion. Only the separately reviewed revision-2 candidate may be eligible for later promotion."
+    },
+    {
+      "pageId": "oscillibacter",
+      "controlledIdentifier": "NCBITaxon:459786",
+      "batchId": "microorganisms-027",
+      "draft": "work/media-quarantine/microorganisms-batch-027/oscillibacter-stale-authority-draft.png",
+      "sha256": "a208e8aedc061ce1b4b151e4bae5c7283385ab50c5002b2b3a4b053cae519520",
+      "generationRecord": "exec-3cff9066-73b3-4618-88b7-3b211e22dde6.png",
+      "promptSha256": "1c54f8b54b475229e119c08793b5d731720c5336e78b3f72804c1afb653ed302",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "WikiBiome Control Tower scientific-source correction",
+      "disposition": "quarantined-stale-authority",
+      "scientificReferenceCheck": {
+        "status": "fail",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/17684268/",
+          "https://doi.org/10.1099/ijs.0.64717-0"
+        ],
+        "notes": "The packet cited DOI 10.1099/ijs.0.65828-0, which belongs to Pseudochrobactrum glaciei. Iino et al. 2007, PMID 17684268 and DOI 10.1099/ijs.0.64717-0, is the correct Oscillibacter valericigenes primary description."
+      },
+      "subjectReview": {
+        "status": "not-applicable",
+        "notes": "The stale-authority output is ineligible for scientific visual review regardless of its conservative rod appearance."
+      },
+      "accessibilityReview": {
+        "status": "not-applicable",
+        "notes": "The quarantined artifact is not eligible for public alternative text, a crop, structured data, or publication."
+      },
+      "reason": "A primary-authority citation error was discovered after the generation call. Control Tower permanently quarantined the exact stale-authority output and separately authorized one corrected replacement call under prompt SHA-256 28aa6cf110f3823a101273cc27de0a5b237f030839e2119d675f28ddd22cf6c0.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-027/oscillibacter-draft.png",
+      "outcome": "The corrected replacement, SHA-256 7419e9bd8b0165db560eb6a5069c41b0eb2a10fd76561b324594bbc3ad32aa49, was accepted at native resolution as the only review candidate. The stale output remains permanently ineligible.",
+      "routingImpact": "The quarantined PNG has no review-candidate status, registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion."
     }
   ],
   "revisedAssets": [
@@ -4368,6 +4402,19 @@
       "reason": "Root control rejected v1 because the severe black or dark upper and lower vignette violated WikiBiome's pale cool scientific field and made the asset look like a different publication.",
       "supersededBy": "work/media-drafts/microorganisms-batch-021/lachnospira-draft-v2.png",
       "outcome": "Exactly one authorized independent v2 generation call produced nine rods in seven groupings, including one C-bent and one S-bent single with zero appendages, on a uniform pale full-canvas field. Root accepted the exact v2 hash for promotion; v1 remains immutable rejected evidence, was not edited or reused, and owns no public media artifact."
+    },
+    {
+      "pageId": "mortierella",
+      "batchId": "microorganisms-027",
+      "draft": "work/media-drafts/microorganisms-batch-026/mortierella-draft.png",
+      "sha256": "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5",
+      "generationRecord": "exec-defa5267-2c44-495c-a246-9531ce680030.png",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Control Tower rejected revision 1 because its terminal heads read as externally beaded or conidial clusters rather than smoothly bounded globose sporangia, while numerous transverse bands weakened the intended mainly coenocytic treatment.",
+      "supersededBy": "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png",
+      "outcome": "Exactly one authorized revision-2 call produced three smooth closed globose sporangia with internally contained rounded bodies and no external spore cluster. Native review accepted v2 for later promotion while requiring disclosure of eleven output-specific transverse tonal seams. Revision 1 remains immutable rejected evidence and owns no public media artifact."
     }
   ],
   "notes": [
