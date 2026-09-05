@@ -6,6 +6,13 @@ import {
   auditPublicRoutingContract,
   parseArguments,
 } from "../scripts/audit-public-routing-contract.mjs";
+import { articleAliasRedirects } from "../lib/article-alias-redirects.mjs";
+import {
+  LEGACY_SIGNATURE_REDIRECTS,
+  NEVER_PUBLIC_ARTICLE_PATHS,
+  ROUTING_ROBOTS_DISALLOWS,
+  SIGNATURE_EXPLORER_REDIRECTS,
+} from "../lib/routing-policy.mjs";
 
 const apex = "https://apex.example";
 const canonical = "https://www.example";
@@ -26,11 +33,7 @@ function fixtureFetch({ brokenRedirect = false } = {}) {
   const robots = [
     "User-agent: *",
     "Allow: /",
-    "Disallow: /api/",
-    "Disallow: /outreach",
-    "Disallow: /contributions",
-    "Disallow: /article/*/suggest",
-    "Disallow: /media-files/",
+    ...ROUTING_ROBOTS_DISALLOWS.map((path) => `Disallow: ${path}`),
     `Sitemap: ${canonical}/sitemap.xml`,
     `Sitemap: ${canonical}/image-sitemap.xml`,
   ].join("\n");
@@ -41,7 +44,7 @@ function fixtureFetch({ brokenRedirect = false } = {}) {
     const redirect = redirects.get(url.pathname);
     if (redirect) return new Response(null, { status: brokenRedirect ? 200 : redirect.status, headers: { location: `${canonical}${redirect.destination}` } });
     if (GONE_PATHS.includes(url.pathname)) {
-      return new Response(`<!doctype html><title>Gone — WikiBiome</title><meta name="robots" content="noindex, follow"><link rel="canonical" href="${canonical}/404">`, { status: 410, headers: { "x-robots-tag": "noindex, follow" } });
+      return new Response(`<!doctype html><title>Article gone — WikiBiome</title><meta name="robots" content="noindex, follow"><link rel="canonical" href="${canonical}/404">`, { status: 410 });
     }
     if (url.pathname === "/article/lineage-audit-record-that-does-not-exist") return new Response(`<!doctype html><title>Not found</title><meta name="robots" content="noindex, follow"><link rel="canonical" href="${canonical}/404">`, { status: 404 });
     if (url.pathname === "/robots.txt") return new Response(robots);
@@ -69,10 +72,23 @@ test("parses explicit public audit options", () => {
     canonicalOrigin: "https://c.example",
     expectedImages: 7,
     apexStatus: 301,
+    target: "candidate",
     checkAllImages: false,
   });
   assert.throws(() => parseArguments(["--images=-1"]), /non-negative integer/);
-  assert.throws(() => parseArguments(["--apex-status=302"]), /301 or 308/);
+  assert.throws(() => parseArguments([]), /--images is required/);
+  assert.throws(() => parseArguments(["--images=7", "--apex-status=302"]), /301 or 308/);
+  assert.throws(() => parseArguments(["--images=7", "--target=preview"]), /candidate or production/);
+});
+
+test("derives redirects and every Gone route from authoritative policy", () => {
+  assert.strictEqual(GONE_PATHS, NEVER_PUBLIC_ARTICLE_PATHS);
+  assert.ok(GONE_PATHS.length > 5, "the verifier must cover the generated exclusion set, not the former five-path sample");
+  assert.equal(
+    LEGACY_REDIRECTS.length,
+    SIGNATURE_EXPLORER_REDIRECTS.length + LEGACY_SIGNATURE_REDIRECTS.length + articleAliasRedirects.length + 1,
+  );
+  assert.ok(LEGACY_REDIRECTS.some(({ path }) => path === "/article/candida-auris/history"));
 });
 
 test("accepts a complete lineage-neutral public contract", async () => {
@@ -85,6 +101,14 @@ test("accepts a complete lineage-neutral public contract", async () => {
   assert.deepEqual(report.failures, []);
   assert.deepEqual(report.representative, { total: 4, status200: 4, selfCanonical: 4, socialPreview: 4, structuredData: 4 });
   assert.equal(report.healthyImageEndpoints, 2);
+  assert.equal(report.candidateDefectCount, 0);
+  assert.equal(report.liveStaleFindingCount, 0);
+  assert.deepEqual(report.candidateDefects, []);
+  assert.deepEqual(report.liveStaleFindings, []);
+});
+
+test("requires explicit media coverage in programmatic audits", async () => {
+  await assert.rejects(() => auditPublicRoutingContract({ fetchImpl: fixtureFetch() }), /expectedImages is required/);
 });
 
 test("reports an exact legacy status regression", async () => {
@@ -95,4 +119,21 @@ test("reports an exact legacy status regression", async () => {
     fetchImpl: fixtureFetch({ brokenRedirect: true }),
   });
   assert.ok(report.failures.some((failure) => failure.includes("/signature-explorer: HTTP 200, expected 308")));
+  assert.ok(report.candidateDefects.length > 0);
+  assert.ok(report.candidateDefectCount > 0);
+  assert.deepEqual(report.liveStaleFindings, []);
+});
+
+test("separates observed production drift from candidate defects", async () => {
+  const report = await auditPublicRoutingContract({
+    apexOrigin: apex,
+    canonicalOrigin: canonical,
+    expectedImages: 2,
+    target: "production",
+    fetchImpl: fixtureFetch({ brokenRedirect: true }),
+  });
+  assert.deepEqual(report.candidateDefects, []);
+  assert.equal(report.candidateDefectCount, 0);
+  assert.equal(report.liveStaleFindingCount, report.liveStaleFindings.length);
+  assert.ok(report.liveStaleFindings.some((finding) => finding.includes("/signature-explorer: HTTP 200, expected 308")));
 });

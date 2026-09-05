@@ -24,6 +24,7 @@
     "audit:post-cutover": "node scripts/audit-wikibiome-post-cutover.mjs",
     "audit:post-cutover:test": "node --test tests/post-cutover-audit.test.mjs",
     "search:audit": "node scripts/audit-search-surface.mjs",
+    "search:audit:public": "node scripts/audit-public-routing-contract.mjs",
     "search:verify": "npm run build && node --test tests/rendered-html.test.mjs && npm run search:audit && npm run corpus:audit",
     "media:pilot": "node scripts/process-pilot-images.mjs",
     "media:process": "node scripts/process-article-media.mjs",
