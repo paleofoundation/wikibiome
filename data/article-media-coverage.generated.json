@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "e051a1568bdf02270994bc7d10709f6649f87f989bc916d9383242584e3abd9f",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "fabd47d374f8620c219fbabf5da0491b8326a7811a78919215c86794a11f8dda",
+    "reviewLogSha256": "615f05dfef644dbba0051a9378f880886b3333c06c7a915cdda8061ab8713be8",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -161,6 +161,12 @@
         "batchId": "microorganisms-025",
         "status": "reviewed",
         "sha256": "f7c142c718c59fdc2cfcc5dfcfd8adbac686ce268f3d24296e496713fe85efa5"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-026.json",
+        "batchId": "microorganisms-026",
+        "status": "awaiting-control-review",
+        "sha256": "fc159e10e25b9eaa7c73eb8f22ff8a881f65ea0d1d6ddadcf6f01fca153344dd"
       }
     ]
   },
@@ -184,10 +190,10 @@
     "total": 710,
     "completed": 140,
     "remaining": 570,
-    "rejected": 18,
+    "rejected": 19,
     "revised": 10,
-    "scientificHolds": 5,
-    "inReview": 0
+    "scientificHolds": 6,
+    "inReview": 5
   },
   "categories": [
     {
@@ -654,6 +660,27 @@
       ],
       "requiredResolution": "Editorially adjudicate the current public naming convention. If WikiBiome follows the NCBI and Zheng et al. 2020 combination, create or reconcile canonical lacticaseibacillus-rhamnosus with title Lacticaseibacillus rhamnosus and NCBITaxon:47715, preserve lactobacillus-rhamnosus only as an audited permanent 308 alias, reconcile source-era content and provenance, and return the single current owner to its deterministic uncovered media position.",
       "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 024 makes no queue substitution."
+    },
+    {
+      "pageId": "mycoplasma-hominis",
+      "sourceEraIdentifier": "NCBITaxon:2098",
+      "batchId": "microorganisms-026",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Metamycoplasma hominis",
+      "proposedCanonicalPageId": "metamycoplasma-hominis",
+      "reason": "NCBI Taxonomy selects Metamycoplasma hominis as the current name for NCBITaxon:2098. LPSN records Mycoplasma hominis as a homotypic synonym and does not recommend the legacy combination for medical use, while the local canonical route and title still assert Mycoplasma hominis and no audited current-name route or alias exists. A media-only batch cannot choose or fabricate a public owner under the obsolete combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2098&mode=Info",
+        "https://lpsn.dsmz.de/species/mycoplasma-hominis",
+        "https://doi.org/10.1007/s10482-018-1047-3",
+        "https://doi.org/10.1099/ijsem.0.003001",
+        "local:data/content.generated.json#/pages/mycoplasma-hominis",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Create or reconcile canonical metamycoplasma-hominis with current title Metamycoplasma hominis and NCBITaxon:2098, preserve mycoplasma-hominis only as an audited permanent asset-free 308 alias, reconcile source-era text and provenance, and return the single current biological entity to its deterministic uncovered media position.",
+      "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 026 makes no queue substitution."
     }
   ],
   "revisedAssets": [
@@ -783,55 +810,56 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 143,
-      "id": "mollicutes",
-      "title": "Mollicutes",
-      "route": "/article/mollicutes",
+      "queuePosition": 149,
+      "id": "nakaseomyces-glabratus",
+      "title": "Nakaseomyces glabratus",
+      "route": "/article/nakaseomyces-glabratus",
+      "category": "microbe",
+      "coverageGroup": "microorganisms",
+      "suggestedAssetType": "morphology",
+      "controlledIdentifier": "NCBITaxon:5478"
+    },
+    {
+      "queuePosition": 150,
+      "id": "odoribacter",
+      "title": "Odoribacter",
+      "route": "/article/odoribacter",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 144,
-      "id": "morganella-morganii",
-      "title": "Morganella morganii",
-      "route": "/article/morganella-morganii",
+      "queuePosition": 151,
+      "id": "olsenella",
+      "title": "Olsenella",
+      "route": "/article/olsenella",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 145,
-      "id": "mortierella",
-      "title": "Mortierella",
-      "route": "/article/mortierella",
+      "queuePosition": 152,
+      "id": "oscillibacter",
+      "title": "Oscillibacter",
+      "route": "/article/oscillibacter",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 146,
-      "id": "mycobacterium-tuberculosis",
-      "title": "Mycobacterium tuberculosis",
-      "route": "/article/mycobacterium-tuberculosis",
+      "queuePosition": 153,
+      "id": "oscillospiraceae",
+      "title": "Oscillospiraceae",
+      "route": "/article/oscillospiraceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 147,
-      "id": "mycoplasma",
-      "title": "Mycoplasma",
-      "route": "/article/mycoplasma",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 148,
-      "id": "mycoplasma-hominis",
-      "title": "Mycoplasma hominis",
-      "route": "/article/mycoplasma-hominis",
+      "queuePosition": 154,
+      "id": "oscillospirales",
+      "title": "Oscillospirales",
+      "route": "/article/oscillospirales",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -3828,7 +3856,13 @@
       "route": "/article/mollicutes",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-026",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-026/mollicutes-draft.png",
+        "sha256": "4e653aa8b1b59b56c3cf2edd972905a94feabcbcb688f6ff6b9fc41bbad41e95"
+      }
     },
     {
       "queuePosition": 144,
@@ -3841,7 +3875,13 @@
       "route": "/article/morganella-morganii",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-026",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-026/morganella-morganii-draft.png",
+        "sha256": "5cfad5bdd3a3c8faa411c71020a13f06d038f2ff2ce57e12209f169c95f0fd71"
+      }
     },
     {
       "queuePosition": 145,
@@ -3854,7 +3894,13 @@
       "route": "/article/mortierella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-026",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-026/mortierella-draft.png",
+        "sha256": "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5"
+      }
     },
     {
       "queuePosition": 146,
@@ -3867,7 +3913,13 @@
       "route": "/article/mycobacterium-tuberculosis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-026",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-026/mycobacterium-tuberculosis-draft.png",
+        "sha256": "13b7bb8779d04623268d66c035b513ea38c530134bd7646e95e470c7d3091a95"
+      }
     },
     {
       "queuePosition": 147,
@@ -3880,7 +3932,13 @@
       "route": "/article/mycoplasma",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-026",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-026/mycoplasma-draft.png",
+        "sha256": "ba6f067147b795bead11c6003dc1b135ff8fe8957db10bed72b3dfedbdfedddb"
+      }
     },
     {
       "queuePosition": 148,
@@ -3893,7 +3951,13 @@
       "route": "/article/mycoplasma-hominis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-05",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI Taxonomy selects Metamycoplasma hominis as the current name for NCBITaxon:2098. LPSN records Mycoplasma hominis as a homotypic synonym and does not recommend the legacy combination for medical use, while the local canonical route and title still assert Mycoplasma hominis and no audited current-name route or alias exists. A media-only batch cannot choose or fabricate a public owner under the obsolete combination.",
+        "requiredResolution": "Create or reconcile canonical metamycoplasma-hominis with current title Metamycoplasma hominis and NCBITaxon:2098, preserve mycoplasma-hominis only as an audited permanent asset-free 308 alias, reconcile source-era text and provenance, and return the single current biological entity to its deterministic uncovered media position."
+      }
     },
     {
       "queuePosition": 149,

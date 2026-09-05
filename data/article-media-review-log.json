@@ -4067,6 +4067,27 @@
       ],
       "requiredResolution": "Editorially adjudicate the current public naming convention. If WikiBiome follows the NCBI and Zheng et al. 2020 combination, create or reconcile canonical lacticaseibacillus-rhamnosus with title Lacticaseibacillus rhamnosus and NCBITaxon:47715, preserve lactobacillus-rhamnosus only as an audited permanent 308 alias, reconcile source-era content and provenance, and return the single current owner to its deterministic uncovered media position.",
       "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 024 makes no queue substitution."
+    },
+    {
+      "pageId": "mycoplasma-hominis",
+      "sourceEraIdentifier": "NCBITaxon:2098",
+      "batchId": "microorganisms-026",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Metamycoplasma hominis",
+      "proposedCanonicalPageId": "metamycoplasma-hominis",
+      "reason": "NCBI Taxonomy selects Metamycoplasma hominis as the current name for NCBITaxon:2098. LPSN records Mycoplasma hominis as a homotypic synonym and does not recommend the legacy combination for medical use, while the local canonical route and title still assert Mycoplasma hominis and no audited current-name route or alias exists. A media-only batch cannot choose or fabricate a public owner under the obsolete combination.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2098&mode=Info",
+        "https://lpsn.dsmz.de/species/mycoplasma-hominis",
+        "https://doi.org/10.1007/s10482-018-1047-3",
+        "https://doi.org/10.1099/ijsem.0.003001",
+        "local:data/content.generated.json#/pages/mycoplasma-hominis",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Create or reconcile canonical metamycoplasma-hominis with current title Metamycoplasma hominis and NCBITaxon:2098, preserve mycoplasma-hominis only as an audited permanent asset-free 308 alias, reconcile source-era text and provenance, and return the single current biological entity to its deterministic uncovered media position.",
+      "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 026 makes no queue substitution."
     }
   ],
   "revisedAssets": [

@@ -1880,19 +1880,123 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(batch025Candidates.find((asset) => asset.pageId === "methanobrevibacter")?.domain, "Archaea");
   assert.equal(batch025Candidates.find((asset) => asset.pageId === "methylobacterium")?.outputAudit?.observedThreeBodyRosetteCount, 1);
   assert.ok(batch025Candidates.every((asset) => /representative, non-universal, non-diagnostic/.test(asset.proposedCaption ?? "")));
-  assert.deepEqual(program.nextBatch.map((record) => record.id), [
+  const batch026 = batches.find((batch) => batch.batchId === "microorganisms-026");
+  assert.equal(batch026?.status, "awaiting-control-review");
+  assert.equal(batch026?.publicationMetadataPlan?.reviewOnly, true);
+  assert.equal(batch026?.routeDecisionCount, 6);
+  assert.equal(batch026?.candidateCount, 5);
+  assert.equal(batch026?.scientificHoldCount, 1);
+  assert.equal(batch026?.generationCallCount, 5);
+  assert.equal(batch026?.revisionCount, 0);
+  assert.equal(batch026?.controlReviewRequired, true);
+  const batch026Candidates = batch026?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch026Candidates.map((asset) => asset.pageId), [
     "mollicutes",
     "morganella-morganii",
     "mortierella",
     "mycobacterium-tuberculosis",
     "mycoplasma",
-    "mycoplasma-hominis",
+  ]);
+  const batch026ExpectedOutputs = new Map([
+    ["mollicutes", ["NCBITaxon:31969", "eb21dbfcdf359bfbcae339aef5f70e4c59e8b1b50b2b5b9447ce12e83e745349", "4e653aa8b1b59b56c3cf2edd972905a94feabcbcb688f6ff6b9fc41bbad41e95", 1608798, 9, 7, true]],
+    ["morganella-morganii", ["NCBITaxon:582", "a97793987d2d66c81dd4a07671951c0f2b59723da3095ef165d6a6c03eccebc3", "5cfad5bdd3a3c8faa411c71020a13f06d038f2ff2ce57e12209f169c95f0fd71", 1369671, 8, 6, true]],
+    ["mortierella", ["NCBITaxon:4855", "82a1cb1c147ecfba5a36ab7fbbf00cd4a6a1a33a81fd406674141b7a98a56163", "dbfc343c267433e00c26f9afdc08a08772a7805c7fae197cda9b87afbe4e9bd5", 1322065, 1, 1, false]],
+    ["mycobacterium-tuberculosis", ["NCBITaxon:1773", "bf28eb032957538e070a901803343ad35833262bf9df9f176f63501ecf5f7ecf", "13b7bb8779d04623268d66c035b513ea38c530134bd7646e95e470c7d3091a95", 1319131, 9, 7, true]],
+    ["mycoplasma", ["NCBITaxon:2093", "53437d37041b18878130e43d632b7654e176921ad518483ff03f1c8d6a3ff49d", "ba6f067147b795bead11c6003dc1b135ff8fe8957db10bed72b3dfedbdfedddb", 1458852, 11, 8, true]],
+  ]);
+  const batch026PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-026.md", import.meta.url), "utf8");
+  const batch026DraftFileNames = readdirSync(new URL("../work/media-drafts/microorganisms-batch-026/", import.meta.url)).sort();
+  assert.deepEqual(batch026DraftFileNames, [
+    "mollicutes-draft.png",
+    "morganella-morganii-draft.png",
+    "mortierella-draft.png",
+    "mycobacterium-tuberculosis-draft.png",
+    "mycoplasma-draft.png",
+  ]);
+  const batch026GenerationRecords = new Set();
+  for (const asset of batch026Candidates) {
+    const [expectedIdentifier, expectedPromptSha256, expectedSha256, expectedFileSize, expectedBodyCount, expectedGroupingCount, expectedCoverSafe] = batch026ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.rootReviewDisposition, "pending");
+    assert.equal(asset.controlledIdentifier, expectedIdentifier);
+    assert.equal(asset.promptSha256, expectedPromptSha256);
+    assert.equal(asset.sha256, expectedSha256);
+    assert.equal(asset.fileSizeBytes, expectedFileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.socialResizeFit, null);
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, expectedBodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, expectedGroupingCount);
+    assert.equal(asset.outputAudit?.promptCountTrusted, false);
+    assert.equal(asset.outputAudit?.observedDarkMarginCount, 0);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    assert.equal(asset.outputAudit?.coverSafe, expectedCoverSafe);
+    assert.match(asset.generationRecord, /^exec-[0-9a-f-]+\.png$/);
+    assert.ok(!batch026GenerationRecords.has(asset.generationRecord), `${asset.pageId} must own one distinct generation record`);
+    batch026GenerationRecords.add(asset.generationRecord);
+    assertMediaOutputAudit(asset, "microorganisms-026");
+
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, expectedFileSize);
+    assert.equal(draftBytes.subarray(0, 8).toString("hex"), "89504e470d0a1a0a");
+    assert.equal(draftBytes.readUInt32BE(16), 1536);
+    assert.equal(draftBytes.readUInt32BE(20), 1024);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), expectedSha256);
+
+    const promptMatch = batch026PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.ok(promptMatch, `${asset.pageId} immutable prompt must remain in the prompt record`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), expectedPromptSha256);
+
+    const expectedFiles = articleMediaFileNames(asset.pageId, asset.assetType, asset.revision);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined, `${asset.pageId} must remain outside the registry before Control Tower acceptance`);
+    assert.ok(!batch025PublicMediaFiles.includes(expectedFiles.publishedFile), `${asset.pageId} review draft must not have an article derivative`);
+    assert.ok(!batch025PublicMediaFiles.includes(expectedFiles.socialFile), `${asset.pageId} review draft must not have a social derivative`);
+    assert.ok(!batch025MasterFiles.includes(expectedFiles.masterSource), `${asset.pageId} review draft must not have a public master candidate`);
+    assert.ok(!batch025PublicMediaFiles.includes(asset.draft.split("/").at(-1)), `${asset.pageId} review draft path must not become public`);
+  }
+  assert.equal(batch026GenerationRecords.size, 5);
+  assert.equal(batch026Candidates.find((asset) => asset.pageId === "mollicutes")?.outputAudit?.observedShortHelicalSingleCount, 1);
+  assert.equal(batch026Candidates.find((asset) => asset.pageId === "mortierella")?.proposedSocialResizeFit, "contain");
+  assert.equal(batch026Candidates.find((asset) => asset.pageId === "mortierella")?.outputAudit?.observedMainSporangiophoreCount, 3);
+  assert.equal(batch026Candidates.find((asset) => asset.pageId === "mortierella")?.outputAudit?.observedTerminalSporangiumCount, 3);
+  assert.match(batch026Candidates.find((asset) => asset.pageId === "mortierella")?.outputAudit?.observedSeptationDeviation ?? "", /Numerous visible transverse hyphal bands/);
+  assert.equal(batch026Candidates.find((asset) => asset.pageId === "mycoplasma")?.outputAudit?.observedVisibleBodyCount, 11);
+  assert.equal(batch026Candidates.find((asset) => asset.pageId === "mycoplasma")?.outputAudit?.observedSpatialGroupingCount, 8);
+  const batch026Hold = batch026?.assets.find((asset) => asset.pageId === "mycoplasma-hominis");
+  assert.equal(batch026Hold?.decision, "scientific-identity-hold");
+  assert.equal(batch026Hold?.generationStatus, "withheld-no-call");
+  assert.equal(batch026Hold?.sourceEraIdentifier, "NCBITaxon:2098");
+  assert.equal(batch026Hold?.currentAcceptedName, "Metamycoplasma hominis");
+  assert.equal(batch026Hold?.proposedCanonicalPageId, "metamycoplasma-hominis");
+  assert.equal(batch026Hold?.assetType, undefined);
+  assert.equal(batch026Hold?.revision, undefined);
+  assert.equal(batch026Hold?.draft, undefined);
+  assert.equal(batch026Hold?.generationRecord, undefined);
+  assert.match(batch026Hold?.reason ?? "", /homotypic synonym/);
+  assert.match(batch026Hold?.requiredResolution ?? "", /permanent asset-free 308 alias/);
+  assert.ok(!batch026DraftFileNames.some((name) => name.startsWith("mycoplasma-hominis-")));
+  assert.equal(articleMediaRegistry["mycoplasma-hominis"], undefined);
+  assert.equal(articleMediaRegistry["metamycoplasma-hominis"], undefined);
+  assert.ok(!batch025PublicMediaFiles.some((name) => name.startsWith("mycoplasma-hominis-")));
+  assert.ok(!batch025MasterFiles.some((name) => name.startsWith("mycoplasma-hominis-")));
+  const batch026HoldLog = reviewLog.rejectedAssets.find((asset) => asset.pageId === "mycoplasma-hominis");
+  assert.equal(batch026HoldLog?.batchId, "microorganisms-026");
+  assert.equal(batch026HoldLog?.disposition, "scientific-identity-hold");
+  assert.equal(batch026HoldLog?.sourceEraIdentifier, "NCBITaxon:2098");
+  assert.equal(batch026HoldLog?.currentAcceptedName, "Metamycoplasma hominis");
+  assert.equal(batch026HoldLog?.proposedCanonicalPageId, "metamycoplasma-hominis");
+  assert.deepEqual(program.nextBatch.map((record) => record.id), [
+    "nakaseomyces-glabratus",
+    "odoribacter",
+    "olsenella",
+    "oscillibacter",
+    "oscillospiraceae",
+    "oscillospirales",
   ]);
   assert.equal(program.current.completed, 140);
   assert.equal(program.current.remaining, 570);
-  assert.equal(program.current.rejected, 18);
-  assert.equal(program.current.inReview, 0);
-  assert.equal(program.current.scientificHolds, 5);
+  assert.equal(program.current.rejected, 19);
+  assert.equal(program.current.inReview, 5);
+  assert.equal(program.current.scientificHolds, 6);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -1916,6 +2020,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     "lactobacillus-plantarum",
     "lactobacillus-reuteri",
     "lactobacillus-rhamnosus",
+    "mycoplasma-hominis",
   ]);
   assert.equal(program.current.scientificHolds, activeScientificHolds.length);
   for (const hold of activeScientificHolds) {
