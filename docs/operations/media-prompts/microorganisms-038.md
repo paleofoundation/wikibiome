@@ -132,3 +132,7 @@ Exactly six built-in image-generation calls were made, one per cleared route. No
 - `trichomonas-vaginalis`: `exec-e3c20415-02ab-41b9-81d9-1d84fa61a9e3.png`; SHA-256 `b069d922d888d731ad4e2ed5ec3e5bba908607351e3bea1a82abeece782ead64`.
 
 All six are native 1536 by 1024 PNGs on edge-clean pale cool fields. Observed output—not requested composition—governs the review manifest: *Subdoligranulum* contains ten separated variable coccoid cells; *Sutterella* contains four elongated rods and four coccobacilli; *Torulaspora* contains nine mother cells with four visible buds; *Treponema* contains four complete wave-form bodies; *Trichoderma* contains one complete septate pyramidal conidiophore system; and *Trichomonas vaginalis* contains one pear-shaped trophozoite with four anterior flagella and one recurrent flagellum. All remain review-only pending the exact-hash control review and promotion gate.
+
+## Control promotion decision
+
+Control Tower accepted exact review commit `71ab28ddaf87c626ddccd6838d9c3c20fc9674b4` and only its six immutable PNG hashes. The review verified current identities, type anchoring, literal native output, edge-clean fields, and absence of prohibited content. The Trichoderma social derivative must use a centered pale-field `contain` treatment because a centered cover crop would clip the complete vertical structure. Phocaeicola and all scientific identity holds remain asset-free.
