@@ -197,6 +197,12 @@
         "batchId": "microorganisms-031",
         "status": "reviewed",
         "sha256": "2e8bdf315af8e219c52c9e76f42dc523a507e705504366de8bf0c208dca43e0c"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-032.json",
+        "batchId": "microorganisms-032",
+        "status": "awaiting-control-review",
+        "sha256": "b85d2bed4dc3c649c458f5b3d6448894845fe370d7c0451995a8ed621f3d474c"
       }
     ]
   },
@@ -223,7 +229,7 @@
     "rejected": 23,
     "revised": 11,
     "scientificHolds": 7,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -989,46 +995,46 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 178,
-      "id": "pseudomonas-aeruginosa",
-      "title": "Pseudomonas aeruginosa",
-      "route": "/article/pseudomonas-aeruginosa",
+      "queuePosition": 184,
+      "id": "rothia",
+      "title": "Rothia",
+      "route": "/article/rothia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 179,
-      "id": "purpureocillium",
-      "title": "Purpureocillium",
-      "route": "/article/purpureocillium",
+      "queuePosition": 185,
+      "id": "ruminococcaceae",
+      "title": "Ruminococcaceae",
+      "route": "/article/ruminococcaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 180,
-      "id": "ralstonia",
-      "title": "Ralstonia",
-      "route": "/article/ralstonia",
+      "queuePosition": 186,
+      "id": "ruminococcus",
+      "title": "Ruminococcus",
+      "route": "/article/ruminococcus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 181,
-      "id": "rikenella",
-      "title": "Rikenella",
-      "route": "/article/rikenella",
+      "queuePosition": 187,
+      "id": "ruminococcus-albus",
+      "title": "Ruminococcus albus",
+      "route": "/article/ruminococcus-albus",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 182,
-      "id": "roseburia",
-      "title": "Roseburia",
-      "route": "/article/roseburia",
+      "queuePosition": 188,
+      "id": "ruminococcus-bromii",
+      "title": "Ruminococcus bromii",
+      "route": "/article/ruminococcus-bromii",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -4749,7 +4755,13 @@
       "route": "/article/pseudomonas-aeruginosa",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-032",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-032/pseudomonas-aeruginosa-draft.png",
+        "sha256": "182b991b4390d7829e9393e75256a5bfedcb42c7a031cc694fc4eca0e90543b9"
+      }
     },
     {
       "queuePosition": 179,
@@ -4762,7 +4774,13 @@
       "route": "/article/purpureocillium",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-032",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-032/purpureocillium-draft.png",
+        "sha256": "75df06d8b9c45726272b89bc3adc20c6a553cf0a8f170f0d7bf5146eb2c1076b"
+      }
     },
     {
       "queuePosition": 180,
@@ -4775,7 +4793,13 @@
       "route": "/article/ralstonia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-032",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-032/ralstonia-draft.png",
+        "sha256": "dcba7131c29f52e8f7a9f0819219b56c936d562f53fd03c9f016cdbee6766c63"
+      }
     },
     {
       "queuePosition": 181,
@@ -4788,7 +4812,13 @@
       "route": "/article/rikenella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-032",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-032/rikenella-draft.png",
+        "sha256": "fa982e47e9972e446e69c933a22f4e75440271c447055f932440ab9d0cc78e96"
+      }
     },
     {
       "queuePosition": 182,
@@ -4801,7 +4831,13 @@
       "route": "/article/roseburia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-032",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-032/roseburia-draft.png",
+        "sha256": "cb37815856e831529554f5dfbe0a57ba265c9406ff7ebfa5cce8960b80d75876"
+      }
     },
     {
       "queuePosition": 183,
@@ -4814,7 +4850,13 @@
       "route": "/article/roseburia-intestinalis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-032",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-032/roseburia-intestinalis-draft.png",
+        "sha256": "e3f4bba84fedb5be866883415318df2007d1a6dbf3470ea65a7fdb2de4d05463"
+      }
     },
     {
       "queuePosition": 184,

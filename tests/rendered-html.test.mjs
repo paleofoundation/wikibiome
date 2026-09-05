@@ -2809,19 +2809,95 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch031PromptRecord, /10\.1099\/ijsem\.0\.001002/);
   assert.doesNotMatch(batch031PromptRecord, /<!-- PROMPT phocaeicola START -->/);
   assert.equal(articleMediaRegistry.phocaeicola, undefined);
-  assert.deepEqual(program.nextBatch.map((record) => record.id), [
-    "phocaeicola",
+  const batch032 = batches.find((batch) => batch.batchId === "microorganisms-032");
+  assert.equal(batch032?.status, "awaiting-control-review");
+  assert.equal(batch032?.authorizedParent, "ab2ecb0a7146e7a2e85ca491c9c88e2da9e98ef1");
+  assert.equal(batch032?.publicationMetadataPlan?.reviewOnly, true);
+  assert.equal(batch032?.routeDecisionCount, 6);
+  assert.equal(batch032?.candidateCount, 6);
+  assert.equal(batch032?.scientificHoldCount, 0);
+  assert.equal(batch032?.generationCallCount, 6);
+  assert.equal(batch032?.reviewableGenerationCount, 6);
+  assert.equal(batch032?.quarantinedGenerationCount, 0);
+  assert.equal(batch032?.revisionCount, 0);
+  assert.equal(batch032?.controlReviewRequired, true);
+  assert.equal(batch032?.controlPreliminaryVisualReview?.status, "preliminary-pass-six-candidates-promotion-not-authorized");
+  const batch032Candidates = batch032?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.deepEqual(batch032Candidates.map((asset) => asset.pageId), [
     "pseudomonas-aeruginosa",
     "purpureocillium",
     "ralstonia",
     "rikenella",
     "roseburia",
+    "roseburia-intestinalis",
+  ]);
+  const batch032ExpectedOutputs = new Map([
+    ["pseudomonas-aeruginosa", ["NCBITaxon:287", "048b7e1b33c82e70d5206813fae58e9e26473e6a01c86f1b41fcf13ff519d771", "182b991b4390d7829e9393e75256a5bfedcb42c7a031cc694fc4eca0e90543b9", 1161914, 8, 6]],
+    ["purpureocillium", ["NCBITaxon:1052105", "1b650361f9c345e7cfe82a613d6dc60d2cca9eecadcadbb51b7e54b82962fc35", "75df06d8b9c45726272b89bc3adc20c6a553cf0a8f170f0d7bf5146eb2c1076b", 1125258, 12, 2]],
+    ["ralstonia", ["NCBITaxon:48736", "54ab9d4f5a6e0ec38ad3b5bd37d9fa6c068847beafc2e3d8918da5bcec585426", "dcba7131c29f52e8f7a9f0819219b56c936d562f53fd03c9f016cdbee6766c63", 1290815, 10, 8]],
+    ["rikenella", ["NCBITaxon:28138", "fd7449d895dc7d05b68401424a0198cc646cd74df4e01939496e008f62cae527", "fa982e47e9972e446e69c933a22f4e75440271c447055f932440ab9d0cc78e96", 1223680, 10, 8]],
+    ["roseburia", ["NCBITaxon:841", "789bf703a8c4e709fd1f48ddd882265fb415817e9c3328150e5eb9794d19b9fc", "cb37815856e831529554f5dfbe0a57ba265c9406ff7ebfa5cce8960b80d75876", 1233956, 10, 8]],
+    ["roseburia-intestinalis", ["NCBITaxon:166486", "0ee7ce62781e6cc786f9afd73da338d51acd45e5052d36237fec1f4166adac41", "e3f4bba84fedb5be866883415318df2007d1a6dbf3470ea65a7fdb2de4d05463", 1171296, 9, 7]],
+  ]);
+  const batch032PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-032.md", import.meta.url), "utf8");
+  assert.deepEqual(readdirSync(new URL("../work/media-drafts/microorganisms-batch-032/", import.meta.url)).sort(), [
+    "pseudomonas-aeruginosa-draft.png",
+    "purpureocillium-draft.png",
+    "ralstonia-draft.png",
+    "rikenella-draft.png",
+    "roseburia-draft.png",
+    "roseburia-intestinalis-draft.png",
+  ]);
+  const batch032GenerationRecords = new Set();
+  for (const asset of batch032Candidates) {
+    const [identifier, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch032ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.decision, "generated-awaiting-control-review");
+    assert.equal(asset.generationStatus, "complete-single-call");
+    assert.equal(asset.rootReviewDisposition, "preliminary-visual-pass-awaiting-final-hash-disposition");
+    assert.equal(asset.controlledIdentifier, identifier);
+    assert.equal(asset.promptSha256, promptSha256);
+    assert.equal(asset.sha256, sha256);
+    assert.equal(asset.fileSizeBytes, fileSize);
+    assert.deepEqual(asset.dimensions, { width: 1536, height: 1024 });
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    assert.equal(asset.outputAudit?.coverSafe, true);
+    assertMediaOutputAudit(asset, "microorganisms-032");
+    assert.match(asset.generationRecord, /^exec-[0-9a-f-]+\.png$/);
+    assert.ok(!batch032GenerationRecords.has(asset.generationRecord));
+    batch032GenerationRecords.add(asset.generationRecord);
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(draftBytes.length, fileSize);
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), sha256);
+    const metadata = await sharp(draftBytes).metadata();
+    assert.deepEqual([metadata.width, metadata.height], [1536, 1024]);
+    const promptMatch = batch032PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.ok(promptMatch, `${asset.pageId} exact immutable prompt must remain recoverable`);
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
+    assert.equal(articleMediaRegistry[asset.pageId], undefined);
+  }
+  assert.equal(batch032GenerationRecords.size, 6);
+  assert.equal(batch032Candidates.find((asset) => asset.pageId === "purpureocillium")?.outputAudit?.observedPhialideCount, 4);
+  assert.equal(batch032Candidates.find((asset) => asset.pageId === "purpureocillium")?.outputAudit?.observedConidiumCount, 12);
+  assert.match(batch032PromptRecord, /10\.1111\/j\.1574-6968\.2011\.02322\.x/);
+  assert.match(batch032PromptRecord, /10\.1111\/j\.1348-0421\.1995\.tb03275\.x/);
+  assert.match(batch032PromptRecord, /10\.1016\/S0723-2020\(85\)80015-1/);
+  assert.match(batch032PromptRecord, /10\.1099\/00207713-33-3-618/);
+  assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
+  assert.deepEqual(program.nextBatch.map((record) => record.id), [
+    "phocaeicola",
+    "rothia",
+    "ruminococcaceae",
+    "ruminococcus",
+    "ruminococcus-albus",
+    "ruminococcus-bromii",
   ]);
   assert.equal(program.current.completed, 172);
   assert.equal(program.current.remaining, 538);
   assert.equal(program.current.rejected, 23);
   assert.equal(program.current.revised, 11);
-  assert.equal(program.current.inReview, 0);
+  assert.equal(program.current.inReview, 6);
   assert.equal(program.current.scientificHolds, 7);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
