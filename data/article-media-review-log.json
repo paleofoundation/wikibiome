@@ -3780,6 +3780,191 @@
       "disposition": "approved",
       "notes": "Accepted unchanged by WikiBiome Control Tower original-resolution review in microorganisms batch 026 as a current conserved-genus, type-species-anchored representative reconstruction.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "mycoplasma-draft.png", "sourceSha256": "ba6f067147b795bead11c6003dc1b135ff8fe8957db10bed72b3dfedbdfedddb", "generationRecord": "exec-7104deff-e595-414a-80df-24e1de2689fb.png" }
+    },
+    "mortierella|mortierella-morphology-v2.webp": {
+      "pageId": "mortierella",
+      "publishedFile": "mortierella-morphology-v2.webp",
+      "masterSource": "mortierella-morphology-v2-master.png",
+      "socialFile": "mortierella-morphology-v2-social.webp",
+      "revision": 2,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=4855&mode=Info",
+          "https://www.indexfungorum.org/Names/genusrecord.asp?RecordId=20345",
+          "https://www.mycobank.org/MycoTaxo.aspx?Link=T&Rec=20345",
+          "https://doi.org/10.1080/12298093.2018.1551854",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3213126/"
+        ],
+        "notes": "NCBI Taxonomy and current fungal nomenclature retain Mortierella as genus NCBITaxon:4855 and fungal record 20345. Current evidence supports mainly coenocytic, irregularly septate hyphae and terminal globose sporangia; the plate is type-species anchored and non-universal."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower native-resolution review accepted revision 2 with one connected hyphal network, three upright sporangiophores, and three smooth closed globose sporangia containing internal rounded bodies. Eleven transverse tonal seams are disclosed as an output-specific feature and not universalized as genus septation."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text identifies the connected specimen and three bounded sporangia without diagnosing the taxon. Caption explicitly discloses the eleven tonal seams, representative scope, and non-micrograph status. The validated 1200 by 630 social derivative uses contain on pale #f3f7fb to retain the full network and all structures."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome Control Tower native-resolution review in microorganisms batch 027 as the corrected revision-2 type-species-anchored Mortierella reconstruction.",
+      "revisionLinkage": { "supersedes": "work/media-drafts/microorganisms-batch-026/mortierella-draft.png", "supersededBy": null, "sourceDraft": "mortierella-draft-v2.png", "sourceSha256": "ae70a134619a4715d43670e144bf93fd879c70edda15b385ce7f4aa627f699a8", "generationRecord": "exec-a2f21fd4-12dd-4039-aef8-ef5e01c9f52f.png" }
+    },
+    "nakaseomyces-glabratus|nakaseomyces-glabratus-morphology-v1.webp": {
+      "pageId": "nakaseomyces-glabratus",
+      "publishedFile": "nakaseomyces-glabratus-morphology-v1.webp",
+      "masterSource": "nakaseomyces-glabratus-morphology-v1-master.png",
+      "socialFile": "nakaseomyces-glabratus-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=5478&mode=Info",
+          "https://www.indexfungorum.org/Names/NamesRecord.asp?RecordID=416322",
+          "https://www.mycobank.org/MycoTaxo.aspx?Link=T&Rec=843854",
+          "https://doi.org/10.3314/mmj.22.004",
+          "https://www.atcc.org/products/2001"
+        ],
+        "notes": "Current taxonomy and fungal nomenclature select Nakaseomyces glabratus, NCBITaxon:5478 and MycoBank MB 843854; Candida glabrata remains a historical asset-free alias. Type-strain evidence supports subglobose-to-ovoid budding cells without pseudohyphae."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower native-resolution review accepted twelve smooth subglobose-to-ovoid bodies in nine groups: six singles and three narrow-necked budding pairs. This is two bodies and two groups above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text preserves the literal twelve-body/nine-group output. Caption uses the current name and states representative, non-diagnostic, non-micrograph scope. The validated 1200 by 630 social derivative uses contain on pale #f3f7fb to retain every body and group."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower native-resolution review in microorganisms batch 027 as a current-name, type-strain-anchored species reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "nakaseomyces-glabratus-draft.png", "sourceSha256": "273bfd1018215ab8289d31c619b164ad3279e75f70cf48a0cc335fcc0adc3bb4", "generationRecord": "exec-963e9824-d1dd-4af2-9a09-c99aa8ba90be.png" }
+    },
+    "odoribacter|odoribacter-morphology-v1.webp": {
+      "pageId": "odoribacter",
+      "publishedFile": "odoribacter-morphology-v1.webp",
+      "masterSource": "odoribacter-morphology-v1-master.png",
+      "socialFile": "odoribacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=283168&mode=Info",
+          "https://lpsn.dsmz.de/genus/odoribacter",
+          "https://pubmed.ncbi.nlm.nih.gov/18175692/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3111987/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Odoribacter as current genus NCBITaxon:283168 with O. splanchnicus as type species. Evidence supports representative nonmotile, nonsporing short rods without a universal or diagnostic genus claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower native-resolution review accepted ten short rounded-pole rods in eight groups: six singles and two touching pairs. This is one body and one group above the prompt; observed counts govern public metadata."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal ten-body/eight-group output and the caption limits the plate to a representative type-species-anchored genus reconstruction. Native review confirms the 1200 by 630 attention-cover derivative retains every body and group."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower native-resolution review in microorganisms batch 027 as a type-species-anchored representative genus reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "odoribacter-draft.png", "sourceSha256": "6536ddaf5283651585414b02cb25769a892c74e23c0e90c13542d995b961c9a2", "generationRecord": "exec-67c19fc3-c835-49ef-8947-79626e5af955.png" }
+    },
+    "olsenella|olsenella-morphology-v1.webp": {
+      "pageId": "olsenella",
+      "publishedFile": "olsenella-morphology-v1.webp",
+      "masterSource": "olsenella-morphology-v1-master.png",
+      "socialFile": "olsenella-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=133925&mode=Info",
+          "https://lpsn.dsmz.de/genus/olsenella",
+          "https://doi.org/10.1099/00207713-51-5-1797",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035265/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Olsenella as current genus NCBITaxon:133925 with O. uli as type species. Evidence supports small nonmotile, nonsporing elliptical rods in singles, pairs, and short chains; the public record makes no unsupported central-swelling claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower native-resolution review accepted eleven elliptical rods in eight groups: six singles, one touching pair, and one touching three-body chain. No distinct central swelling is confidently visible; the output is not described as having one."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text preserves the literal eleven-body/eight-group output and caption limits it to representative, non-universal, non-diagnostic scope. Native review confirms the 1200 by 630 attention-cover derivative retains every body and group."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower native-resolution review in microorganisms batch 027 without a central-swelling assertion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "olsenella-draft.png", "sourceSha256": "fabcaec1294b478877b740d321062d52cf56690c4a8f5f79effe187f694df02b", "generationRecord": "exec-48c914c8-d584-480d-ab12-4a171e23a601.png" }
+    },
+    "oscillibacter|oscillibacter-morphology-v1.webp": {
+      "pageId": "oscillibacter",
+      "publishedFile": "oscillibacter-morphology-v1.webp",
+      "masterSource": "oscillibacter-morphology-v1-master.png",
+      "socialFile": "oscillibacter-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=459786&mode=Info",
+          "https://lpsn.dsmz.de/genus/oscillibacter",
+          "https://pubmed.ncbi.nlm.nih.gov/17684268/",
+          "https://doi.org/10.1099/ijs.0.64717-0",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3558957/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Oscillibacter as current genus NCBITaxon:459786 with O. valericigenes as type species. The corrected primary authority is Iino et al. 2007, PMID 17684268, DOI 10.1099/ijs.0.64717-0; the stale-authority call is permanently quarantined."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower native-resolution review accepted the corrected-authority replacement only: ten elongated straight-to-gently-curved rods in eight groups, six singles and two touching pairs. This is one body and one group above the prompt; appendages remain omitted."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text preserves the literal ten-body/eight-group output and caption states representative, non-universal, non-diagnostic scope. The validated 1200 by 630 social derivative uses contain on pale #f3f7fb to retain every body and group."
+      },
+      "disposition": "approved",
+      "notes": "Accepted by WikiBiome Control Tower native-resolution review in microorganisms batch 027 only from the corrected-authority immutable prompt and output.",
+      "revisionLinkage": { "supersedes": "work/media-quarantine/microorganisms-batch-027/oscillibacter-stale-authority-draft.png", "supersededBy": null, "sourceDraft": "oscillibacter-draft.png", "sourceSha256": "7419e9bd8b0165db560eb6a5069c41b0eb2a10fd76561b324594bbc3ad32aa49", "generationRecord": "exec-dca38528-3598-4a7b-a945-e729ed0b51af.png" }
+    },
+    "oscillospiraceae|oscillospiraceae-microbial-community-v1.webp": {
+      "pageId": "oscillospiraceae",
+      "publishedFile": "oscillospiraceae-microbial-community-v1.webp",
+      "masterSource": "oscillospiraceae-microbial-community-v1-master.png",
+      "socialFile": "oscillospiraceae-microbial-community-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-05",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=216572&mode=Info",
+          "https://lpsn.dsmz.de/family/oscillospiraceae",
+          "https://doi.org/10.1099/ijs.0.02541-0",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3558957/",
+          "https://pubmed.ncbi.nlm.nih.gov/24703782/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC5932212/"
+        ],
+        "notes": "NCBI Taxonomy and LPSN retain Oscillospiraceae as current family NCBITaxon:216572. Selected current-descendant evidence supports a limited mixture of rod and ovoid forms; the plate is explicitly representative, non-exhaustive, non-universal, and non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower native-resolution review accepted eleven selected-descendant bodies in seven groups: four varied singles, two touching pairs, and one touching three-body chain. The composition does not assert a universal family morphology."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the literal eleven-body/seven-group diversity output and caption states all higher-rank limitations. Native derivative review found automatic attention cover clipped the lower three-body group, so the prescribed cover mode uses a validated centered per-record position that retains all eleven bodies and seven groups."
+      },
+      "disposition": "approved",
+      "notes": "Accepted unchanged by WikiBiome Control Tower native-resolution review in microorganisms batch 027 as a selected-descendant family-level diversity reconstruction.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "oscillospiraceae-draft.png", "sourceSha256": "91447adfb1668b6438014a22e21f79fcfbc2305487d6a49c950c1a1907248aad", "generationRecord": "exec-99689a79-e150-4cee-834e-9e6f380dfe85.png" }
     }
   },
   "rejectedAssets": [

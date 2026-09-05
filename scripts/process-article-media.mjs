@@ -71,7 +71,7 @@ for (const media of Object.values(articleMediaRegistry)) {
   await sharp(source)
     .resize(media.socialWidth, media.socialHeight, {
       fit: media.socialResizeFit ?? "cover",
-      position: media.socialResizeFit === "contain" ? "centre" : "attention",
+      position: media.socialResizePosition ?? (media.socialResizeFit === "contain" ? "centre" : "attention"),
       background: media.socialBackground ?? "#f3f7fb",
     })
     .withXmp(xmp)

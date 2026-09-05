@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "8e0b4721532bcf260d0d6814fa84e6ec8ece66b202b4c4f3d41411e4b2167c48",
+    "registrySha256": "9c7075e8ed36d128af46c019be1ae718dece5f4e9a598773f6e8af5103a35bd5",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "41424c89bae469874bb9323150939a0690ab8b85edba088e8cedbadbba8abbe1",
+    "reviewLogSha256": "2d7116727c3b8a704b10890d4eebff47f7d7a345a502311745db2cefd3e30db5",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -171,8 +171,8 @@
       {
         "file": "data/article-media-batches/microorganisms-027.json",
         "batchId": "microorganisms-027",
-        "status": "approved-awaiting-promotion",
-        "sha256": "1b9e4fcd4dafb623241efe004443238a9b601215937d7d582a45d29f04a535c9"
+        "status": "reviewed",
+        "sha256": "32c3aa96a1d09789b5e08cff1671bd325e9dc1cd579614e7b4a5a7ae3ec9c58e"
       }
     ]
   },
@@ -194,20 +194,20 @@
   },
   "current": {
     "total": 710,
-    "completed": 144,
-    "remaining": 566,
+    "completed": 150,
+    "remaining": 560,
     "rejected": 21,
     "revised": 11,
     "scientificHolds": 6,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 141,
-      "remaining": 88
+      "completed": 147,
+      "remaining": 82
     },
     {
       "id": "metals",
@@ -3983,12 +3983,14 @@
       "route": "/article/mortierella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-027",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png",
-        "sha256": "ae70a134619a4715d43670e144bf93fd879c70edda15b385ce7f4aa627f699a8"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 2,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "mortierella-morphology-v2-master.png",
+        "publishedFile": "mortierella-morphology-v2.webp",
+        "socialFile": "mortierella-morphology-v2-social.webp"
       }
     },
     {
@@ -4064,12 +4066,14 @@
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
       "controlledIdentifier": "NCBITaxon:5478",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-027",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-027/nakaseomyces-glabratus-draft.png",
-        "sha256": "273bfd1018215ab8289d31c619b164ad3279e75f70cf48a0cc335fcc0adc3bb4"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "nakaseomyces-glabratus-morphology-v1-master.png",
+        "publishedFile": "nakaseomyces-glabratus-morphology-v1.webp",
+        "socialFile": "nakaseomyces-glabratus-morphology-v1-social.webp"
       }
     },
     {
@@ -4083,12 +4087,14 @@
       "route": "/article/odoribacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-027",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-027/odoribacter-draft.png",
-        "sha256": "6536ddaf5283651585414b02cb25769a892c74e23c0e90c13542d995b961c9a2"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "odoribacter-morphology-v1-master.png",
+        "publishedFile": "odoribacter-morphology-v1.webp",
+        "socialFile": "odoribacter-morphology-v1-social.webp"
       }
     },
     {
@@ -4102,12 +4108,14 @@
       "route": "/article/olsenella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-027",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-027/olsenella-draft.png",
-        "sha256": "fabcaec1294b478877b740d321062d52cf56690c4a8f5f79effe187f694df02b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "olsenella-morphology-v1-master.png",
+        "publishedFile": "olsenella-morphology-v1.webp",
+        "socialFile": "olsenella-morphology-v1-social.webp"
       }
     },
     {
@@ -4121,12 +4129,14 @@
       "route": "/article/oscillibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-027",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-027/oscillibacter-draft.png",
-        "sha256": "7419e9bd8b0165db560eb6a5069c41b0eb2a10fd76561b324594bbc3ad32aa49"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "oscillibacter-morphology-v1-master.png",
+        "publishedFile": "oscillibacter-morphology-v1.webp",
+        "socialFile": "oscillibacter-morphology-v1-social.webp"
       }
     },
     {
@@ -4140,12 +4150,14 @@
       "route": "/article/oscillospiraceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "microorganisms-027",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/microorganisms-batch-027/oscillospiraceae-draft.png",
-        "sha256": "91447adfb1668b6438014a22e21f79fcfbc2305487d6a49c950c1a1907248aad"
+      "status": "reviewed",
+      "media": {
+        "assetType": "microbial-community",
+        "revision": 1,
+        "reviewedOn": "2026-09-05",
+        "masterSource": "oscillospiraceae-microbial-community-v1-master.png",
+        "publishedFile": "oscillospiraceae-microbial-community-v1.webp",
+        "socialFile": "oscillospiraceae-microbial-community-v1-social.webp"
       }
     },
     {
