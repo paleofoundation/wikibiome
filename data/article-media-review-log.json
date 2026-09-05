@@ -3709,6 +3709,26 @@
       ],
       "requiredResolution": "Editorially create or reconcile the canonical current-name article limosilactobacillus-reuteri with title Limosilactobacillus reuteri and NCBITaxon:1598, preserve lactobacillus-reuteri only as an audited 308 alias, reconcile source-era content and provenance, and return the current owner to its deterministic uncovered media position.",
       "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 023 makes no queue substitution."
+    },
+    {
+      "pageId": "lactobacillus-rhamnosus",
+      "sourceEraIdentifier": "NCBITaxon:47715",
+      "batchId": "microorganisms-024",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Lacticaseibacillus rhamnosus",
+      "proposedCanonicalPageId": "lacticaseibacillus-rhamnosus",
+      "reason": "NCBI Taxonomy selects Lacticaseibacillus rhamnosus as the current name for NCBITaxon:47715 and records Lactobacillus rhamnosus as a homotypic synonym, while the local canonical route and title still assert Lactobacillus rhamnosus and no audited current-name owner or redirect exists. LPSN records the 2020 Lacticaseibacillus combination as validly published but presently exposes a taxonomic-opinion suspension in favor of Lactobacillus rhamnosus, while noting the Lacticaseibacillus name is correct if the species is retained in the separate genus. The media program does not flatten that authority difference into false agreement or choose a public owner in a media-only turn.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47715&mode=Info",
+        "https://lpsn.dsmz.de/species/lacticaseibacillus-rhamnosus",
+        "https://pubmed.ncbi.nlm.nih.gov/32293557/",
+        "local:data/content.generated.json#/pages/lactobacillus-rhamnosus",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Editorially adjudicate the current public naming convention. If WikiBiome follows the NCBI and Zheng et al. 2020 combination, create or reconcile canonical lacticaseibacillus-rhamnosus with title Lacticaseibacillus rhamnosus and NCBITaxon:47715, preserve lactobacillus-rhamnosus only as an audited permanent 308 alias, reconcile source-era content and provenance, and return the single current owner to its deterministic uncovered media position.",
+      "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 024 makes no queue substitution."
     }
   ],
   "revisedAssets": [

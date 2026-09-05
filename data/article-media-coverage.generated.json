@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "e3dd497324e7c3522d2988352dab449d5781aa44e26085dfe120f4cf556b9372",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "109e1deba9c9604535c93b094055b1d7f03607c4535f184d9aa9e5086f521d6d",
+    "reviewLogSha256": "fa41825faf0a1e48217e20ea4f867ef38ff0687d579a63ebe94064ea64b91d09",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -149,6 +149,12 @@
         "batchId": "microorganisms-023",
         "status": "reviewed",
         "sha256": "f8dd40cc20f272ce4fbebdf3430143ba6da05f0aa12ed23d148bc0990a3a9e42"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-024.json",
+        "batchId": "microorganisms-024",
+        "status": "awaiting-control-review",
+        "sha256": "2c4b6236c064c9f870284cd43e983c44c8ef6b745c987319cf4b5b9cb0f47db2"
       }
     ]
   },
@@ -172,10 +178,10 @@
     "total": 710,
     "completed": 129,
     "remaining": 581,
-    "rejected": 17,
+    "rejected": 18,
     "revised": 10,
-    "scientificHolds": 4,
-    "inReview": 0
+    "scientificHolds": 5,
+    "inReview": 5
   },
   "categories": [
     {
@@ -622,6 +628,26 @@
       ],
       "requiredResolution": "Editorially create or reconcile the canonical current-name article limosilactobacillus-reuteri with title Limosilactobacillus reuteri and NCBITaxon:1598, preserve lactobacillus-reuteri only as an audited 308 alias, reconcile source-era content and provenance, and return the current owner to its deterministic uncovered media position.",
       "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 023 makes no queue substitution."
+    },
+    {
+      "pageId": "lactobacillus-rhamnosus",
+      "sourceEraIdentifier": "NCBITaxon:47715",
+      "batchId": "microorganisms-024",
+      "reviewedOn": "2026-09-05",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Lacticaseibacillus rhamnosus",
+      "proposedCanonicalPageId": "lacticaseibacillus-rhamnosus",
+      "reason": "NCBI Taxonomy selects Lacticaseibacillus rhamnosus as the current name for NCBITaxon:47715 and records Lactobacillus rhamnosus as a homotypic synonym, while the local canonical route and title still assert Lactobacillus rhamnosus and no audited current-name owner or redirect exists. LPSN records the 2020 Lacticaseibacillus combination as validly published but presently exposes a taxonomic-opinion suspension in favor of Lactobacillus rhamnosus, while noting the Lacticaseibacillus name is correct if the species is retained in the separate genus. The media program does not flatten that authority difference into false agreement or choose a public owner in a media-only turn.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=47715&mode=Info",
+        "https://lpsn.dsmz.de/species/lacticaseibacillus-rhamnosus",
+        "https://pubmed.ncbi.nlm.nih.gov/32293557/",
+        "local:data/content.generated.json#/pages/lactobacillus-rhamnosus",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Editorially adjudicate the current public naming convention. If WikiBiome follows the NCBI and Zheng et al. 2020 combination, create or reconcile canonical lacticaseibacillus-rhamnosus with title Lacticaseibacillus rhamnosus and NCBITaxon:47715, preserve lactobacillus-rhamnosus only as an audited permanent 308 alias, reconcile source-era content and provenance, and return the single current owner to its deterministic uncovered media position.",
+      "routingImpact": "The source-era route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, structured media records, endpoints, and image sitemap entries. Batch 024 makes no queue substitution."
     }
   ],
   "revisedAssets": [
@@ -751,55 +777,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 131,
-      "id": "lactobacillus-rhamnosus",
-      "title": "Lactobacillus rhamnosus",
-      "route": "/article/lactobacillus-rhamnosus",
+      "queuePosition": 137,
+      "id": "malassezia",
+      "title": "Malassezia",
+      "route": "/article/malassezia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 132,
-      "id": "lactococcus",
-      "title": "Lactococcus",
-      "route": "/article/lactococcus",
+      "queuePosition": 138,
+      "id": "mediterraneibacter",
+      "title": "Mediterraneibacter",
+      "route": "/article/mediterraneibacter",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 133,
-      "id": "lancefieldella-parvula",
-      "title": "Lancefieldella parvula",
-      "route": "/article/lancefieldella-parvula",
+      "queuePosition": 139,
+      "id": "megamonas",
+      "title": "Megamonas",
+      "route": "/article/megamonas",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 134,
-      "id": "leptotrichia",
-      "title": "Leptotrichia",
-      "route": "/article/leptotrichia",
+      "queuePosition": 140,
+      "id": "megasphaera",
+      "title": "Megasphaera",
+      "route": "/article/megasphaera",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 135,
-      "id": "listeria",
-      "title": "Listeria",
-      "route": "/article/listeria",
+      "queuePosition": 141,
+      "id": "methanobrevibacter",
+      "title": "Methanobrevibacter",
+      "route": "/article/methanobrevibacter",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 136,
-      "id": "lodderomyces-elongisporus",
-      "title": "Lodderomyces elongisporus",
-      "route": "/article/lodderomyces-elongisporus",
+      "queuePosition": 142,
+      "id": "methylobacterium",
+      "title": "Methylobacterium",
+      "route": "/article/methylobacterium",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -3546,7 +3572,13 @@
       "route": "/article/lactobacillus-rhamnosus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-05",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI Taxonomy selects Lacticaseibacillus rhamnosus as the current name for NCBITaxon:47715 and records Lactobacillus rhamnosus as a homotypic synonym, while the local canonical route and title still assert Lactobacillus rhamnosus and no audited current-name owner or redirect exists. LPSN records the 2020 Lacticaseibacillus combination as validly published but presently exposes a taxonomic-opinion suspension in favor of Lactobacillus rhamnosus, while noting the Lacticaseibacillus name is correct if the species is retained in the separate genus. The media program does not flatten that authority difference into false agreement or choose a public owner in a media-only turn.",
+        "requiredResolution": "Editorially adjudicate the current public naming convention. If WikiBiome follows the NCBI and Zheng et al. 2020 combination, create or reconcile canonical lacticaseibacillus-rhamnosus with title Lacticaseibacillus rhamnosus and NCBITaxon:47715, preserve lactobacillus-rhamnosus only as an audited permanent 308 alias, reconcile source-era content and provenance, and return the single current owner to its deterministic uncovered media position."
+      }
     },
     {
       "queuePosition": 132,
@@ -3559,7 +3591,13 @@
       "route": "/article/lactococcus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-024",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-024/lactococcus-draft.png",
+        "sha256": "882cc3169d7cfcf9f06ef835cb0196fc75de0a20d662705f65c5b2be5c9de652"
+      }
     },
     {
       "queuePosition": 133,
@@ -3572,7 +3610,13 @@
       "route": "/article/lancefieldella-parvula",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-024",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-024/lancefieldella-parvula-draft.png",
+        "sha256": "8ded6b438d3cea7d2457e5497a536cc00e0172b20bc72d5a845b8726222614b9"
+      }
     },
     {
       "queuePosition": 134,
@@ -3585,7 +3629,13 @@
       "route": "/article/leptotrichia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-024",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-024/leptotrichia-draft.png",
+        "sha256": "27743b823e083cfbebc8c2e7e5dad67dd97c7be0207b286546ae520af160866b"
+      }
     },
     {
       "queuePosition": 135,
@@ -3598,7 +3648,13 @@
       "route": "/article/listeria",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-024",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-024/listeria-draft.png",
+        "sha256": "a7c60bdb7c7fac6d11cb8db066bc872f77bd8111eee49aeb91ddf9491c051755"
+      }
     },
     {
       "queuePosition": 136,
@@ -3611,7 +3667,13 @@
       "route": "/article/lodderomyces-elongisporus",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "microorganisms-024",
+        "decision": "generated-awaiting-control-review",
+        "draft": "work/media-drafts/microorganisms-batch-024/lodderomyces-elongisporus-draft.png",
+        "sha256": "1e0f642c3b04b9427d68959c6f90047781422831a3e52667f03bf210a28a56f2"
+      }
     },
     {
       "queuePosition": 137,
