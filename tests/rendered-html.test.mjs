@@ -2249,7 +2249,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /c6481eaf721d/);
+  assert.match(readiness, /449e8005c315/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -2715,7 +2715,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "c6481eaf721d80b46d6f192b19d4c0b351e670d8");
+  assert.equal(manifest.source.commit, "449e8005c3156d1b7943d2cdedd5b4386b9f5703");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 817);
   assert.equal(manifest.content.sources, 1939);
