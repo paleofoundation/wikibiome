@@ -12150,6 +12150,48 @@
         "sourceDraft": "epigenetics-draft.png",
         "sourceSha256": "cf5c368c8f726fc20754c6c4dd6d5af23bc7fbb8099fd532846b23db9c53984b"
       }
+    },
+    "multiple-sclerosis|multiple-sclerosis-pathology-v2.webp": {
+      "pageId": "multiple-sclerosis",
+      "publishedFile": "multiple-sclerosis-pathology-v2.webp",
+      "masterSource": "multiple-sclerosis-pathology-v2-master.png",
+      "socialFile": "multiple-sclerosis-pathology-v2-social.webp",
+      "revision": 2,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D009103",
+          "https://www.ncbi.nlm.nih.gov/medgen/10123",
+          "https://id.nlm.nih.gov/mesh/D002490",
+          "https://id.nlm.nih.gov/mesh/D009186",
+          "https://id.nlm.nih.gov/mesh/D001369",
+          "https://id.nlm.nih.gov/mesh/D009413",
+          "https://www.ninds.nih.gov/health-information/disorders/multiple-sclerosis",
+          "https://medlineplus.gov/genetics/condition/multiple-sclerosis/",
+          "https://pubmed.ncbi.nlm.nih.gov/40975101/"
+        ],
+        "notes": "MeSH and MedGen control the multiple-sclerosis identity; MeSH anatomy records constrain the normal CNS, spinal-cord, axon, myelin-sheath, and myelinated-fiber context; NINDS, MedlinePlus, and the current diagnosis review support a heterogeneous CNS condition while requiring this normal teaching orientation to remain non-diagnostic."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Dual native review confirmed exactly three separate complete normal-anatomy groups: one brain, cerebellum, brainstem, and short upper-spinal continuation assembly; one transverse spinal-cord section; and one continuous finite axon with exactly four intact sheath internodes and three natural node gaps. No lesion, demyelination, scan treatment, patient, disability trope, diagnosis, stage, biomarker, prognosis, or treatment effect is visible."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all three visible normal teaching groups and the exact four-internode count; the caption separately excludes MS lesion, scan, subtype, stage, disability, diagnosis, biomarker, prognosis, and treatment-effect inference without relying on color."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted Batch 068 revision-2 source hash only; centered-contain social derivative mandatory. Batch 053 revision 1 remains rejected, non-public evidence.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "multiple-sclerosis-draft-v2.png",
+        "sourceSha256": "7324d8985633a8b1db30686ebd8ba40f23eb494d0ca80a3b09027d4264f5b6fd",
+        "generationRecord": "exec-7fc6ccac-8ccf-446e-b93c-423ad4ac36e9.png",
+        "rejectedPredecessorSha256": "e9feb7d5ee2e33799fa9bad319e3ca7fea484897e38ec575051fed4f90d99b18"
+      }
     }
   },
   "rejectedAssets": [
@@ -13373,6 +13415,18 @@
       "reason": "Control Tower rejected revision 1 because its terminal heads read as externally beaded or conidial clusters rather than smoothly bounded globose sporangia, while numerous transverse bands weakened the intended mainly coenocytic treatment.",
       "supersededBy": "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png",
       "outcome": "Exactly one authorized revision-2 call produced three smooth closed globose sporangia with internally contained rounded bodies and no external spore cluster. Native review accepted v2 for later promotion while requiring disclosure of eleven output-specific transverse tonal seams. Revision 1 remains immutable rejected evidence and owns no public media artifact."
+    },
+    {
+      "pageId": "multiple-sclerosis",
+      "batchId": "diseases-068",
+      "draft": "work/media-drafts/diseases-batch-053/multiple-sclerosis-draft.png",
+      "sha256": "e9feb7d5ee2e33799fa9bad319e3ca7fea484897e38ec575051fed4f90d99b18",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 053 revision 1 was rejected because its principal myelinated-axon model was severed at the top, right, and bottom source edges.",
+      "supersededBy": "work/media-drafts/diseases-batch-068/multiple-sclerosis-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced three complete normal-anatomy teaching groups within an uninterrupted pale edge field: a brain and upper-spinal assembly, a transverse spinal-cord section, and a finite axon with four intact sheath internodes and three natural node gaps. Dual native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     }
   ],
   "notes": [

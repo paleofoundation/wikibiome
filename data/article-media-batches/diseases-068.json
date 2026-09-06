@@ -43,6 +43,14 @@
     "permanentlyRejectedPriorSourceSha256": ["e9feb7d5ee2e33799fa9bad319e3ca7fea484897e38ec575051fed4f90d99b18"]
   },
   "promotionRule": "Only the exact accepted revision-2 source hash may be promoted to a metadata-bearing lossless v2 master, v2 article WebP, and centered contain-mode 1200 by 630 v2 social WebP. The Batch 053 revision-1 source remains immutable, rejected, and non-public.",
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative",
+  "promotionDerivatives": {
+    "multiple-sclerosis": {
+      "masterSha256": "2cce244830958106cd69614bda5091c12fadee35e125f0e7dc41f3eb1411c7a2",
+      "articleSha256": "e96cc8c759ba70e10a667b537a2e8289349445e9c2cf9c534fdf3cb713285d84",
+      "socialSha256": "bc2c5c543c3d7aa4afb3ea04be006a4f935279e56b59d7beca721c71ae4e15fb"
+    }
+  },
   "assets": [
     {
       "pageId": "multiple-sclerosis",

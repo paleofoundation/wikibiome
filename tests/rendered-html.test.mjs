@@ -1360,7 +1360,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(revisionRecord.supersededBy, rejected.supersededBy);
     assert.match(revisionRecord.outcome, /Root accepted the exact v2 hash for promotion/);
   }
-  assert.equal(program.current.revised, 11);
+  assert.equal(program.current.revised, reviewLog.revisedAssets.length);
   const batch021Hold = batch021?.assets.find((asset) => asset.pageId === "lachnoclostridium");
   assert.equal(batch021Hold?.decision, "scientific-identity-hold");
   assert.equal(batch021Hold?.generationStatus, "withheld-no-call");
