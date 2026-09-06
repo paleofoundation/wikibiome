@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "8f0252b9819b1841ad9b2422ec3e4f6fa11c1f03a7720ce060a08e6d52a67c01",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "368fd5cd0fba29904c75ec2125b35bd78701a673257152b3fc82d52502544700",
+    "reviewLogSha256": "bd3e3719a38b972dcd98b9b723a571ab6abe5c64822dc1eb6459276a0ded015e",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -424,7 +424,7 @@
     "total": 710,
     "completed": 347,
     "remaining": 363,
-    "rejected": 47,
+    "rejected": 48,
     "revised": 11,
     "scientificHolds": 15,
     "inReview": 0
@@ -488,6 +488,19 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "dietary-lead-exposure",
+      "batchId": "mechanisms-065",
+      "draft": "work/media-drafts/mechanisms-batch-065/dietary-lead-exposure-draft.png",
+      "sha256": "2dbf1aea780317e93698bb5870d9cc2a1af86dfb42aef74f6a2c20fe91bb49d6",
+      "generationRecord": "exec-fe835fa7-bdde-4f7c-b9df-46148a1c47622.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "A black top-and-bottom vignette violates the frozen uniform pale field, and recognizable egg, apple, yogurt, spinach, oats, and rice violate the generic food-matrix boundary.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
     {
       "pageId": "developmental-metal-vulnerability",
       "batchId": "mechanisms-064",
