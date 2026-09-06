@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-070",
   "category": "mechanisms",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "fbcf6e49dc0f8f5e20cd9cb3a57897b975b1fc66",
@@ -19,7 +19,7 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, micrograph, scan, assay result, diagnostic image, treatment result, or procedural instruction",
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied. Related identifiers are explicitly distinguished from exact concept identities."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "reviewStandard": "Each of the six frozen routes received exactly one built-in generation call. All six originals were preserved and inspected independently at native 1536 by 1024 resolution. Literal output, exact body and group counts, connectivity, prohibited content, outer 32-pixel field, crop bounds, hashes, and conservative meaning controlled disposition; prompt intent was never treated as observation. Both independent reviewers agreed on all route dispositions, and crop disagreement was resolved conservatively.",
   "routeDecisionCount": 6,
   "candidateCount": 2,
@@ -42,7 +42,20 @@
     "acceptedSourceSha256": ["07e484c6e2a6e9de157a3bdfa99d406b31d6d5290fdea442b01afeccfdf6a13c", "32c5c9354ab70477fb9cd64c20b51de56c8790bebb28df68d8cc7eb3138d0496"],
     "nonPublishablePageIds": ["fermentative-metabolism", "ferroptosis", "gaba", "gene-regulation"]
   },
-  "promotionRule": "Only the exact accepted fenton-chemistry and functional-shielding source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. The fermentative-metabolism, ferroptosis, GABA, and gene-regulation originals remain immutable non-public quarantines.",
+  "promotionRule": "Only the exact accepted fenton-chemistry and functional-shielding source hashes were promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. The fermentative-metabolism, ferroptosis, GABA, and gene-regulation originals remain immutable non-public quarantines.",
+  "controlSocialCropReview": "accepted-two-centered-contain-derivatives-after-dual-independent-native-review",
+  "promotionDerivatives": {
+    "fenton-chemistry": {
+      "masterSha256": "9b35accec9fb612d5550eb37183c645f2a2873b673f72f5758769d01b873d5fb",
+      "articleSha256": "89dd143e9997b628ebb287e308794994c3530655d9786bca3eb058c70b8d7beb",
+      "socialSha256": "5f529eb41a6d19f6e0721d1e5e35f3a928579e95af02e132457f642d893450c3"
+    },
+    "functional-shielding": {
+      "masterSha256": "28b59740975854a2d1b102b850a8e6cd004a745195a2d017fb9baeffe5c885bd",
+      "articleSha256": "f8eb1abbbf98067fde6bb4a25ecb86c6802dd8a78558fa2017a5e6f4215d0a07",
+      "socialSha256": "f8c657c4dea32757c36afec1119de64b5f629e2b1f7c533d6b96d882809e1cab"
+    }
+  },
   "assets": [
     {
       "pageId": "fenton-chemistry",
@@ -60,6 +73,9 @@
       "fileSizeBytes": 1639077,
       "dimensions": {"width": 1536, "height": 1024},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "9b35accec9fb612d5550eb37183c645f2a2873b673f72f5758769d01b873d5fb",
+      "articleSha256": "89dd143e9997b628ebb287e308794994c3530655d9786bca3eb058c70b8d7beb",
+      "socialSha256": "5f529eb41a6d19f6e0721d1e5e35f3a928579e95af02e132457f642d893450c3",
       "scientificReferences": [
         "https://goldbook.iupac.org/terms/view/FT06786",
         "https://pubmed.ncbi.nlm.nih.gov/35029613/",
@@ -173,6 +189,9 @@
       "fileSizeBytes": 1812563,
       "dimensions": {"width": 1536, "height": 1024},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "28b59740975854a2d1b102b850a8e6cd004a745195a2d017fb9baeffe5c885bd",
+      "articleSha256": "f8eb1abbbf98067fde6bb4a25ecb86c6802dd8a78558fa2017a5e6f4215d0a07",
+      "socialSha256": "f8c657c4dea32757c36afec1119de64b5f629e2b1f7c533d6b96d882809e1cab",
       "scientificReferences": ["https://www.wikibiome.com/article/functional-shielding", "https://meshb.nlm.nih.gov/record/ui?ui=D018441", "https://meshb.nlm.nih.gov/record/ui?ui=D056265", "https://pubmed.ncbi.nlm.nih.gov/32183255/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC7139284/", "https://pubmed.ncbi.nlm.nih.gov/30867500/"],
       "scientificFinding": "Functional shielding is a WikiBiome literature-derived construct rather than a controlled MeSH concept; related matrix, fungal, and bacterial contexts do not establish a mixed biofilm, physical shielding, resistance, immune evasion, persistence, or universal mechanism.",
       "visualReview": "Three triangular groups contain one complete porous matrix-context slab, three separate smooth nonbudding ovoids, and five separate rounded rods—nine primary bodies in total without contact or enclosure.",

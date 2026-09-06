@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedOn": "2026-09-06",
+  "updatedOn": "2026-09-07",
   "reviewableBatchSize": 6,
   "reviewingAuthorities": {
     "wikibiome-media-program": {
@@ -12265,6 +12265,79 @@
         "supersededBy": null,
         "sourceDraft": "estrogen-recirculation-draft.png",
         "sourceSha256": "dadcb65e793b117fe268d1a9e69ec35fc407ab4eb569a4ff6da48c32a1de9ca2"
+      }
+    },
+    "fenton-chemistry|fenton-chemistry-mechanism-v1.webp": {
+      "pageId": "fenton-chemistry",
+      "publishedFile": "fenton-chemistry-mechanism-v1.webp",
+      "masterSource": "fenton-chemistry-mechanism-v1-master.png",
+      "socialFile": "fenton-chemistry-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://goldbook.iupac.org/terms/view/FT06786",
+          "https://pubmed.ncbi.nlm.nih.gov/35029613/",
+          "https://pubmed.ncbi.nlm.nih.gov/30458276/"
+        ],
+        "notes": "IUPAC controls the Fenton-reaction term, while current mechanistic literature requires condition-sensitive interpretation and does not license one universal oxidant, intermediate, reaction pathway, biological-damage event, or treatment claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Dual native review confirmed exactly three unconnected groups, six primary units, and fourteen component bodies: two related iron-context spheres, two identical four-component peroxide-context units, and two identical two-component hydroxyl-context units, without arrows, equations, direction, or biological outcome."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all three visible component-context groups without relying on color, and the caption separately excludes oxidation-state mapping, stoichiometry, reaction sequence, intermediate, kinetics, biological damage, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted Batch 070 source hash only; centered-contain social derivative mandatory.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "fenton-chemistry-draft.png",
+        "sourceSha256": "07e484c6e2a6e9de157a3bdfa99d406b31d6d5290fdea442b01afeccfdf6a13c",
+        "generationRecord": "exec-632c0ed8-ec6b-4737-b2e7-c76da6e47458.png"
+      }
+    },
+    "functional-shielding|functional-shielding-mechanism-v1.webp": {
+      "pageId": "functional-shielding",
+      "publishedFile": "functional-shielding-mechanism-v1.webp",
+      "masterSource": "functional-shielding-mechanism-v1-master.png",
+      "socialFile": "functional-shielding-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.wikibiome.com/article/functional-shielding",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D018441",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D056265",
+          "https://pubmed.ncbi.nlm.nih.gov/32183255/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC7139284/",
+          "https://pubmed.ncbi.nlm.nih.gov/30867500/"
+        ],
+        "notes": "The WikiBiome route owns the literature-derived concept. Related MeSH records and defining experimental studies support matrix, fungal, and bacterial contexts without making functional shielding a controlled synonym or establishing a universal mixed-biofilm, resistance, immune-evasion, persistence, or clinical-outcome mechanism."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Dual native review confirmed exactly one complete empty porous matrix-context slab, three separate smooth nonbudding ovoids, and five separate rounded rods in three groups; no microbial body contacts, enters, sits behind, or is enclosed by the slab."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names the one-plus-three-plus-five visible composition without relying on color, and the caption explicitly excludes mixed-biofilm, physical-shielding, resistance, immune-evasion, persistence, clinical-outcome, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted Batch 070 source hash only; centered-contain social derivative mandatory.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "functional-shielding-draft.png",
+        "sourceSha256": "32c5c9354ab70477fb9cd64c20b51de56c8790bebb28df68d8cc7eb3138d0496",
+        "generationRecord": "exec-b4289f96-8f53-4cf3-9450-530404cb9c15.png"
       }
     }
   },

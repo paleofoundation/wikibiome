@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-06",
+  "generatedOn": "2026-09-07",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
     "upstreamCommit": "449e8005c3156d1b7943d2cdedd5b4386b9f5703",
@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "f23226efd4d6a9bf4ab64b6db2c3c828d9197e746b074cf2462fb6e2d48f4a91",
+    "registrySha256": "d1743c8677c986f18f68078b875dd0c9b78a3bfe87cf2326c7f99479a50693da",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "8d1d46972843fa5054f0f32bc277af8925e8838195e9713d919dc76429eedc32",
+    "reviewLogSha256": "06389b91c9ed69926996f96b9d111f3f9df24059ed77b32c85d6956040d7d80c",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -159,8 +159,8 @@
       {
         "file": "data/article-media-batches/mechanisms-070.json",
         "batchId": "mechanisms-070",
-        "status": "approved-awaiting-promotion",
-        "sha256": "a88e04177bb861ca60c34387f1f79471c04df79f1101813caa13c485ae276dce"
+        "status": "reviewed",
+        "sha256": "6620f97c53c688018c4928231064124fd2bc2f3828505744ece96c936ce03d78"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -452,12 +452,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 356,
-    "remaining": 354,
+    "completed": 358,
+    "remaining": 352,
     "rejected": 62,
     "revised": 12,
     "scientificHolds": 15,
-    "inReview": 2
+    "inReview": 0
   },
   "categories": [
     {
@@ -485,8 +485,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 47,
-      "remaining": 186
+      "completed": 49,
+      "remaining": 184
     },
     {
       "id": "host-defenses",
@@ -10252,12 +10252,14 @@
       "route": "/article/fenton-chemistry",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-070",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-070/fenton-chemistry-draft.png",
-        "sha256": "07e484c6e2a6e9de157a3bdfa99d406b31d6d5290fdea442b01afeccfdf6a13c"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "fenton-chemistry-mechanism-v1-master.png",
+        "publishedFile": "fenton-chemistry-mechanism-v1.webp",
+        "socialFile": "fenton-chemistry-mechanism-v1-social.webp"
       }
     },
     {
@@ -10311,12 +10313,14 @@
       "route": "/article/functional-shielding",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-070",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-070/functional-shielding-draft.png",
-        "sha256": "32c5c9354ab70477fb9cd64c20b51de56c8790bebb28df68d8cc7eb3138d0496"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "functional-shielding-mechanism-v1-master.png",
+        "publishedFile": "functional-shielding-mechanism-v1.webp",
+        "socialFile": "functional-shielding-mechanism-v1-social.webp"
       }
     },
     {
