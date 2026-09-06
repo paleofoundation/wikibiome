@@ -11603,6 +11603,172 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "cuproptosis|cuproptosis-mechanism-v1.webp": {
+      "pageId": "cuproptosis",
+      "publishedFile": "cuproptosis-mechanism-v1.webp",
+      "masterSource": "cuproptosis-mechanism-v1-master.png",
+      "socialFile": "cuproptosis-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000099217",
+          "https://pubmed.ncbi.nlm.nih.gov/35298263/",
+          "https://www.wikibiome.com/article/cuproptosis"
+        ],
+        "notes": "MeSH controls cuproptosis identity; the primary Science paper supports broad copper, lipoylated TCA-protein, aggregation, iron-sulfur-protein-loss, and proteotoxic-stress context without licensing a literal structural or causal depiction."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one mitochondrion-like cutaway, four copper-colored spheres, and three folded protein-like forms in three separated groups, with no whole cell, rupture, debris, assay, disease, or treatment scene."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt, caption, description, and provenance enumerate the literal groups and exclude literal ultrastructure, accumulation, lipoylation, aggregation, observed cell death, assay, disease, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "cuproptosis-draft.png"
+      }
+    },
+    "curli|curli-mechanism-v1.webp": {
+      "pageId": "curli",
+      "publishedFile": "curli-mechanism-v1.webp",
+      "masterSource": "curli-mechanism-v1-master.png",
+      "socialFile": "curli-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/23313395/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC6173796/",
+          "https://www.wikibiome.com/article/curli"
+        ],
+        "notes": "The checked reviews support curli as extracellular bacterial functional-amyloid fibers and a biofilm-matrix component while preserving species, ultrastructure, virulence, host-response, and disease uncertainty."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one complete fiber-coated generic rod, a separate five-fiber bundle, and three complete rods within a loose mesh. The qualitative surface coat is visibly dense and is not represented as a measured count."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption state the three literal groups and explicitly exclude species identity, measured fiber number or diameter, Csg assignment, host interaction, virulence, disease, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "curli-draft.png"
+      }
+    },
+    "defensins|defensins-mechanism-v1.webp": {
+      "pageId": "defensins",
+      "publishedFile": "defensins-mechanism-v1.webp",
+      "masterSource": "defensins-mechanism-v1-master.png",
+      "socialFile": "defensins-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D023082",
+          "https://pubmed.ncbi.nlm.nih.gov/16215847/",
+          "https://www.wikibiome.com/article/defensins"
+        ],
+        "notes": "MeSH controls defensin-family identity; PMID 16215847 supports broad human antimicrobial-peptide and three-intramolecular-bridge context without converting the generic models into named or validated structures."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed three complete separated peptide teaching forms with three visible bridge-like crosslinks per form and no membrane, microbe, pore, rupture, immune cell, assay, or clinical scene."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt, caption, and description preserve the three-form and three-bridge observations while excluding subclass, sequence, validated fold, exact disulfide geometry, mechanism, susceptibility, biomarker, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "defensins-draft.png"
+      }
+    },
+    "dental-caries|dental-caries-mechanism-v1.webp": {
+      "pageId": "dental-caries",
+      "publishedFile": "dental-caries-mechanism-v1.webp",
+      "masterSource": "dental-caries-mechanism-v1-master.png",
+      "socialFile": "dental-caries-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D003731",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D017001",
+          "https://www.nidcr.nih.gov/health-info/tooth-decay/more-info/tooth-decay-process",
+          "https://www.wikibiome.com/article/dental-caries"
+        ],
+        "notes": "MeSH controls dental-caries and demineralization identity; NIDCR supports broad plaque, acid, enamel, and mineral context. None licenses patient-specific diagnosis, activity, staging, depth, or treatment interpretation."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one complete molar cutaway with one shallow occlusal depression, a separate translucent film with five distinct bacterial forms, and four mineral-context spheres; no radiograph, instrument, treatment, or progression sequence appears."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption state the literal anatomy and counts and exclude patient lesion, radiograph, activity, depth, stage, named organism, causal measurement, prognosis, and treatment guidance."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dental-caries-draft.png"
+      }
+    },
+    "dietary-arsenic-exposure|dietary-arsenic-exposure-mechanism-v1.webp": {
+      "pageId": "dietary-arsenic-exposure",
+      "publishedFile": "dietary-arsenic-exposure-mechanism-v1.webp",
+      "masterSource": "dietary-arsenic-exposure-mechanism-v1-master.png",
+      "socialFile": "dietary-arsenic-exposure-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D001151",
+          "https://www.atsdr.cdc.gov/environmental-medicine/hcp/clinician-briefs/arsenic.html",
+          "https://www.wikibiome.com/article/dietary-arsenic-exposure"
+        ],
+        "notes": "MeSH controls arsenic identity; ATSDR supports broad food, water, exposure, developmental, and health-interpretation context while requiring separation from species, dose, threshold, diagnosis, and individual-risk claims."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one water droplet, a separate dish with seven grain-like forms, and a separate group of three slate spheres plus one smaller copper-colored sphere; no ingestion, test, hazard, or health-effect scene appears."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption enumerate the literal groups and state that spatial separation does not establish arsenic in either matrix, species, concentration, dose, threshold, toxicity, or individual risk."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dietary-arsenic-exposure-draft.png"
+      }
     }
   },
   "rejectedAssets": [
