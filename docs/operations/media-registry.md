@@ -57,4 +57,6 @@ npm run media:process
 npm run media:check
 ```
 
+`npm run media:process` with no arguments deliberately rebuilds every reviewed record. During a normal batch promotion, pass each accepted owner as `--promote <page-id> --source <reviewed-png>`; the processor then creates and validates only those new masters and derivatives. The subsequent whole-registry release gate remains mandatory, so targeted processing reduces recompression work without reducing corpus validation.
+
 `npm run build` includes the current-register and scientific-media release gates through `prebuild`.

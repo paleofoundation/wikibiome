@@ -7,6 +7,7 @@ import { basename, join, resolve } from "node:path";
 import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { articleMediaXmp } from "../lib/article-media-metadata.mjs";
 import { assertArticleMediaRecord } from "../lib/article-media-validation.mjs";
+import { selectArticleMediaRecordsForProcessing } from "./article-media-processing-plan.mjs";
 
 const projectRoot = process.cwd();
 const masters = resolve(projectRoot, "media/masters");
@@ -25,9 +26,10 @@ for (let index = 0; index < args.length; index += 1) {
 await mkdir(masters, { recursive: true });
 await mkdir(output, { recursive: true });
 
+const mediaRecords = selectArticleMediaRecordsForProcessing(articleMediaRegistry, promotions);
+
 for (const promotion of promotions) {
   const media = articleMediaRegistry[promotion.pageId];
-  if (!media) throw new Error(`${promotion.pageId}: promotion is forbidden until a fully reviewed registry record exists.`);
   assertArticleMediaRecord(media);
   const target = join(masters, media.masterSource);
   if (existsSync(target)) throw new Error(`${promotion.pageId}: refusing to overwrite existing canonical master ${basename(target)}.`);
@@ -44,7 +46,7 @@ for (const promotion of promotions) {
   await rename(temporary, target);
 }
 
-for (const media of Object.values(articleMediaRegistry)) {
+for (const media of mediaRecords) {
   assertArticleMediaRecord(media);
   const source = join(masters, media.masterSource);
   const masterMetadata = await sharp(source).metadata();
@@ -81,4 +83,5 @@ for (const media of Object.values(articleMediaRegistry)) {
   await rename(socialTemporary, join(output, media.socialFile));
 }
 
-console.log(`Processed ${Object.keys(articleMediaRegistry).length} reviewed WikiBiome media records from canonical lossless masters.`);
+const scope = promotions.length > 0 ? "newly promoted" : "reviewed";
+console.log(`Processed ${mediaRecords.length} ${scope} WikiBiome media records from canonical lossless masters.`);
