@@ -13835,6 +13835,122 @@
       "reason": "Both thyroid lobes have conspicuous repeated rounded protuberances and a strongly pebbled or lobulated surface that can read as nodular, multinodular, or goitrous rather than the frozen smooth normal gland.",
       "supersededBy": null,
       "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "gut-vagina-axis",
+      "controlledIdentifier": "WikiBiome:gut-vagina-axis;related-MeSH:D000069196,D014621;related-UBERON:0000996",
+      "batchId": "mechanisms-073",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "No exact controlled identity was found for the composite, and the current article overstates strain tracking, directionality, three pathways, SCFA and metal effects, recurrence prediction, and treatment implications while its source registry contains author, DOI, and duplicate-key defects.",
+      "checkedUrls": [
+        "https://id.nlm.nih.gov/mesh/lookup/descriptor?label=Gut-Vagina%20Axis&match=exact",
+        "https://www.ebi.ac.uk/ols4/api/search?q=gut-vagina%20axis&exact=true",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014621",
+        "http://purl.obolibrary.org/obo/UBERON_0000996",
+        "https://pubmed.ncbi.nlm.nih.gov/31827467/",
+        "https://www.publishing.emanresearch.org/Journal/Abstract/microbbioacts-8110423",
+        "https://pubmed.ncbi.nlm.nih.gov/41853363/",
+        "local:data/content.generated.json#/pages/gut-vagina-axis"
+      ],
+      "requiredResolution": "Correct Quaranta authors, the Fakruddin DOI, and duplicate Zheng DOI keys; evidence-grade strain overlap versus directionality and the SCFA, metal, recurrence, and treatment claims; then independently re-audit a neutral separated component-domain plate.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, structured media records, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit. Batch 073 makes no queue substitution."
+    },
+    {
+      "pageId": "heavy-metal-neurotoxicity",
+      "controlledIdentifier": "WikiBiome:heavy-metal-neurotoxicity;nearest-MeSH:D020260;related-MeSH:D020258,D019216,D058955",
+      "batchId": "mechanisms-073",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The article conflates metals and metalloids and elemental identity with exposure species, route, dose, and endpoint; miscites a human welder cohort as animal fecal-transfer evidence; stores a wrong DOI; and overstates SHANK3, barrier-development, recovery, metabolite, and cross-disease mechanisms.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020260",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020258",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019216",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D058955",
+        "https://pubmed.ncbi.nlm.nih.gov/28031394/",
+        "https://pubmed.ncbi.nlm.nih.gov/32330797/",
+        "https://pubmed.ncbi.nlm.nih.gov/37892231/",
+        "local:data/content.generated.json#/pages/heavy-metal-neurotoxicity"
+      ],
+      "requiredResolution": "Correct chemical and citation scope; replace the fecal-transfer citation with correctly bounded animal primary evidence or remove the claim; remove unsupported universal mechanisms; and define independent route scope before media is reconsidered.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, structured media records, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit. Batch 073 makes no queue substitution."
+    },
+    {
+      "pageId": "heavy-metals",
+      "controlledIdentifier": "WikiBiome:heavy-metals;lexical-MeSH:D019216;related-MeSH:D008670,D058955",
+      "batchId": "mechanisms-073",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The lexical MeSH record is not equivalent to the current page's scientifically contested grouping of metals, a metalloid, aluminum, human nutrients, microbial cofactors, toxicants, and chemical species, with unsupported class-wide absorption and mechanism claims.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019216",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008670",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D058955",
+        "https://publications.iupac.org/pac/74/5/0793/index.html",
+        "https://ods.od.nih.gov/factsheets/chromium-Consumer/",
+        "https://www.atsdr.cdc.gov/toxprofiles/tp5.pdf",
+        "local:data/content.generated.json#/pages/heavy-metals"
+      ],
+      "requiredResolution": "Convert the route to an explicit terminology and classification caution or rename and bound it to specified elements and species; correct absorption, essentiality, speciation, and overlap before reconsidering abstract group media.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, structured media records, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit. Batch 073 makes no queue substitution."
+    },
+    {
+      "pageId": "heavy-metals-infant-foods",
+      "controlledIdentifier": "WikiBiome:heavy-metals-infant-foods;related-MeSH:D007225,D041943,D019216,D008670,D058955",
+      "batchId": "mechanisms-073",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The article conflicts with a cited survey, stores wrong DOIs, misattributes a total-diet cadmium estimate to formula, contains a 4.35-fold nickel arithmetic error, misuses exposure screening metrics, overgeneralizes FDA guidance, and omits current EU nickel limits.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007225",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D041943",
+        "https://pubmed.ncbi.nlm.nih.gov/38386635/",
+        "https://doi.org/10.1371/journal.pone.0297158",
+        "https://doi.org/10.1016/j.jfca.2020.103541",
+        "https://www.oaepublish.com/articles/jeea.2024.45",
+        "https://www.fda.gov/food/hfp-constituent-updates/fda-issues-final-guidance-industry-action-levels-lead-processed-food-intended-babies-and-young",
+        "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-action-level-inorganic-arsenic-apple-juice",
+        "https://eur-lex.europa.eu/eli/reg/2023/915/2025-07-01/eng",
+        "local:data/content.generated.json#/pages/heavy-metals-infant-foods"
+      ],
+      "requiredResolution": "Correct sources and arithmetic; distinguish detection, concentration, dose, screening values, total diet, and formula contribution; rebuild the regulatory table by jurisdiction, analyte, product, basis, unit, effective date, and legal status before media is reconsidered.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, structured media records, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit. Batch 073 makes no queue substitution."
+    },
+    {
+      "pageId": "histidine",
+      "controlledIdentifier": "MeSH:D006639;adjacency-source-CHEBI:27570;rendering-boundary:microstate-neutral",
+      "batchId": "mechanisms-073",
+      "draft": "work/media-drafts/mechanisms-batch-073/histidine-draft.png",
+      "sha256": "5d380e4c1033d87eb28ae944763ae1401a82593ddc70d5b98361a9649e1feffe",
+      "generationRecord": "exec-a7449ff0-b4b1-4d20-bd5b-0dd1c9c63d66.png",
+      "promptSha256": "a2b2a7c701c1879b65ed7ae6c6b1823ed230f2c404e7a254d94661b3fff30646",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual and alpha-channel audit",
+      "disposition": "revise",
+      "reason": "The output has twelve rather than eleven centers and connectors, one excess graphite center, and a side chain attached to ring nitrogen rather than ring carbon. It also lacks the required opaque pale field and fails both centered crop-safe regions.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. No retry is authorized by Batch 073; any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "homocysteine",
+      "controlledIdentifier": "MeSH:D006710;adjacency-source-CHEBI:17230;rendering-boundary:microstate-neutral",
+      "batchId": "mechanisms-073",
+      "draft": "work/media-drafts/mechanisms-batch-073/homocysteine-draft.png",
+      "sha256": "cbe1c253b50470bf3f58da80dd81f6a34362800447c715ab264257623885cb51",
+      "generationRecord": "exec-a1b12df4-16d3-429c-bf28-9b513c029f9c.png",
+      "promptSha256": "457d1b4b7737a5b637f522ee2ba7dc55e44bbbf589c9be0a00e5f28730ae8a1f",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual and alpha-channel audit",
+      "disposition": "revise",
+      "reason": "The heavy-atom counts and open adjacency pass, but the source lacks the required opaque pale field and its sulfur and oxygen endpoints extend beyond the centered 1200 by 630 crop and the stricter 1100 by 530 safety box.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. No retry is authorized by Batch 073; any replacement requires a new frozen revision prompt and separately authorized generation call."
     }
   ],
   "revisedAssets": [
