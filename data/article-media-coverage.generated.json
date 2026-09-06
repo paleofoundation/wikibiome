@@ -49,6 +49,12 @@
         "sha256": "a0a5b7d977c0c05966c39dba73ed999d91aeee13e9ef313c8c9bbd8c74d24dac"
       },
       {
+        "file": "data/article-media-batches/diseases-052.json",
+        "batchId": "diseases-052",
+        "status": "prompt-frozen",
+        "sha256": "989b933a7060decd3922fdbc3d3125094c46d11f92d5faa6ee0f9764e87b9292"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
