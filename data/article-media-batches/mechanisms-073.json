@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-073",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "c13b68b3a176c6dd5f9fec58dbc881c16ad8cd7a",
@@ -19,7 +19,7 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, micrograph, measured molecular structure, assay result, diagnostic image, treatment result, or procedural instruction",
     "sourceUse": "MeSH supplied article-level biomedical descriptors and ChEBI supplied heavy-atom adjacency boundaries only. The deliberately protonation-, tautomer-, bond-order-, stereochemistry-, and conformation-neutral renderings do not exactly instantiate the ChEBI records. No source image or composition was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "reviewStandard": "The four scientifically conflicted routes received no prompt and no generation call. Each of the two cleared amino-acid routes received exactly one built-in generation call. Both returned originals were copied byte-identically into the project and inspected at native 1536 by 1024 detail by Control Tower and independent reviewers. Literal center and connector counts, constitutional topology, alpha occupancy, hidden RGB, prohibited content, exact crop bounds, exact hashes, and conservative meaning controlled disposition; prompt intent was never treated as observed output. Both generated originals failed closed as immutable non-public quarantines, so this batch has no hash eligible for promotion.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
@@ -32,6 +32,27 @@
   "initialAuditCommit": "b6fd9abdf4f2b72c75fda9d36281f67385fd3f40",
   "auditCommit": "2b6c5708fb937a11f16b9084d6bc2e10038676ae",
   "promptFreezeCommit": "605cfa2a6de25169191dd567b52aae0c555e09c3",
+  "controlAcceptedReviewManifestSha256": "f66d78a58aac451a1ac9661c88990dd2e0adb4ce6af795a43bf0d78eb7828885",
+  "controlAcceptedPromptEvidenceSha256": "c3903114401dd7a068b53b53c8371af7be2c759fc375feffef16f15b6f4403a1",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-two-quarantined-four-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "a64261d44362c31e6442324cf80a8f54dd1993ad",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "gut-vagina-axis",
+      "heavy-metal-neurotoxicity",
+      "heavy-metals",
+      "heavy-metals-infant-foods",
+      "histidine",
+      "homocysteine"
+    ]
+  },
+  "promotionRule": "No Batch 073 source hash is eligible for promotion. The four editorially conflicted routes remain asset-free scientific-media holds, and both generated amino-acid originals remain immutable non-public quarantines. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-eligible-assets",
+  "promotionDerivatives": {},
   "routeDecisions": [
     {
       "pageId": "gut-vagina-axis",
