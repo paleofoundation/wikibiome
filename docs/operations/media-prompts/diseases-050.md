@@ -68,3 +68,16 @@ Use case: scientific-educational. Asset type: review-only WikiBiome gastroesopha
 - Gastroesophageal reflux is retrograde movement of gastric or duodenal contents into the distal esophagus. The plate depicts a short contained luminal flow at the junction without asserting mucosal damage, complication, or a universal sphincter defect.
 
 All six exact prompts are scientifically cleared for one built-in image-generation call each. No prompt may be changed after the audit commit without a new audit. Returned media remains review-only until literal native-resolution audit, immutable hashes, separate Control Tower acceptance, metadata reconciliation, and derivative crop review are complete. Prompt-requested content must never be reported as observed output.
+
+## Frozen prompt hashes
+
+| Route | Revision | Prompt SHA-256 |
+| --- | ---: | --- |
+| `female-infertility` | 1 | `1bfbce18db603d9f01cac8511fdd87fef0940571d45f02ed11e0bcfc6e64c233` |
+| `fibromyalgia` | 1 | `d3e3da1d90fcdf07f76e940ad9a665a32bc9975b58dc7959648d037452a45587` |
+| `gastric-adenocarcinoma` | 1 | `bc72bb5b1baf77729291f135f5e7b95443e071f9031333d3557b9f955d3f1c7a` |
+| `gastric-cancer` | 1 | `c683c7e06ede35be9c5c4748b59f56ea30963f9f2835894832f6edb1afd13d67` |
+| `gastric-ulcer` | 1 | `f22ac1ee484413bd924e49cc80f2f3cd37464fca513976fa49954fcb1b6c2e35` |
+| `gerd` | 1 | `fffe23e6c10dc31447dc6fb61d1b8cb6ea4c2d80c3619a165511824bb1a6166c` |
+
+These hashes bind the exact prompt bodies above to audit commit `b11a98b`. Any prompt change requires a new audit before generation.
