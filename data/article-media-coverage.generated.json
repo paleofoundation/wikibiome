@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "4ba5d7d9688b940d081d8ad7b289d361d3ced8771047fd2cd4573fc776a18bc2",
+    "registrySha256": "1c466140774c1de93d33eefbf47ea640bd49f034bac5ffd38091cd0a8cbc4650",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "a996634932d4d624af1303f2a15cfc1a814aa1126fca0f917a2a5dc7cd9e3f0c",
+    "reviewLogSha256": "5bd8f7866276dc1ee72af9a9dc0e36a68805589fb1a43d1d35680df15aa5c4b2",
     "batchManifests": [
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -35,6 +35,12 @@
         "batchId": "metals-044",
         "status": "reviewed",
         "sha256": "fd4052c5ee8a1c124faa3b01e67acfeb8c97c28caab5ad75ff0bf067819004f9"
+      },
+      {
+        "file": "data/article-media-batches/metals-045.json",
+        "batchId": "metals-045",
+        "status": "reviewed",
+        "sha256": "59db96330c5c9fff33efb738bcdb1d61e010649cdad4496e4378ae7bf252e9a4"
       },
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -296,8 +302,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 241,
-    "remaining": 469,
+    "completed": 245,
+    "remaining": 465,
     "rejected": 30,
     "revised": 11,
     "scientificHolds": 15,
@@ -315,8 +321,8 @@
       "id": "metals",
       "label": "Metals",
       "total": 29,
-      "completed": 25,
-      "remaining": 4
+      "completed": 29,
+      "remaining": 0
     },
     {
       "id": "diseases",
@@ -1208,40 +1214,58 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 255,
-      "id": "titanium",
-      "title": "Titanium",
-      "route": "/article/titanium",
-      "category": "metal",
-      "coverageGroup": "metals",
-      "suggestedAssetType": "technical-specimen"
+      "queuePosition": 260,
+      "id": "anxiety",
+      "title": "Anxiety Disorders",
+      "route": "/article/anxiety",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 256,
-      "id": "uranium",
-      "title": "Uranium",
-      "route": "/article/uranium",
-      "category": "metal",
-      "coverageGroup": "metals",
-      "suggestedAssetType": "technical-specimen"
+      "queuePosition": 261,
+      "id": "autism-spectrum-disorder",
+      "title": "Autism Spectrum Disorder",
+      "route": "/article/autism-spectrum-disorder",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 257,
-      "id": "vanadium",
-      "title": "Vanadium",
-      "route": "/article/vanadium",
-      "category": "metal",
-      "coverageGroup": "metals",
-      "suggestedAssetType": "technical-specimen"
+      "queuePosition": 262,
+      "id": "barretts-esophagus",
+      "title": "Barrett's Esophagus",
+      "route": "/article/barretts-esophagus",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 258,
-      "id": "zinc",
-      "title": "Zinc",
-      "route": "/article/zinc",
-      "category": "metal",
-      "coverageGroup": "metals",
-      "suggestedAssetType": "technical-specimen"
+      "queuePosition": 263,
+      "id": "bipolar-disorder",
+      "title": "Bipolar Disorder",
+      "route": "/article/bipolar-disorder",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
+    },
+    {
+      "queuePosition": 264,
+      "id": "breast-cancer",
+      "title": "Breast Cancer",
+      "route": "/article/breast-cancer",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
+    },
+    {
+      "queuePosition": 265,
+      "id": "cardiovascular-disease",
+      "title": "Cardiovascular Disease",
+      "route": "/article/cardiovascular-disease",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
     }
   ],
   "queue": [
@@ -6570,7 +6594,15 @@
       "route": "/article/titanium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "titanium-technical-specimen-v1-master.png",
+        "publishedFile": "titanium-technical-specimen-v1.webp",
+        "socialFile": "titanium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 256,
@@ -6583,7 +6615,15 @@
       "route": "/article/uranium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "uranium-technical-specimen-v1-master.png",
+        "publishedFile": "uranium-technical-specimen-v1.webp",
+        "socialFile": "uranium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 257,
@@ -6596,7 +6636,15 @@
       "route": "/article/vanadium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "vanadium-technical-specimen-v1-master.png",
+        "publishedFile": "vanadium-technical-specimen-v1.webp",
+        "socialFile": "vanadium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 258,
@@ -6609,7 +6657,15 @@
       "route": "/article/zinc",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "zinc-technical-specimen-v1-master.png",
+        "publishedFile": "zinc-technical-specimen-v1.webp",
+        "socialFile": "zinc-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 259,

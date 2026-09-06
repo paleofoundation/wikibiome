@@ -96,3 +96,7 @@ The native audit found no text, symbols, labels, people, products, ores, compoun
 ## Control Tower exact-hash acceptance
 
 Control Tower accepted immutable review commit `90cbe21` on 2026-09-06. The accepted review manifest SHA-256 is `bbc40a55f731f88992320108ae3756512407362377d2969a2bbba79aea110ee2`; the accepted prompt-evidence SHA-256 is `9f33eadefc0d168ac912f35af66173bab9b16005de789649e16a25daf579c9fb`. Promotion is limited to the four source hashes recorded above; any byte change invalidates this acceptance.
+
+## Promotion and social-crop review
+
+The four exact accepted sources were promoted as metadata-bearing lossless masters, article WebP derivatives, and centered-cover 1200 × 630 social WebP derivatives. Control Tower inspected all four social derivatives at native detail on 2026-09-06: every complete specimen and the complete uranium ampoule remain visible, legible, separated, and free of meaningful clipping.

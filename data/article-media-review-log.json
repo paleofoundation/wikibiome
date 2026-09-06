@@ -5187,6 +5187,38 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text names white tin and literal form; caption expands Sn and explicitly limits the plate to the metallic white allotrope." },
       "disposition": "approved", "notes": "Exact immutable Batch 044 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "tin-draft.png", "sourceSha256": "9c7947fb729c492b2e201b7a98626dc26cec8780dcde7023682ffb045dbca763", "generationRecord": "exec-19083048-04a1-4a49-bc9e-2aa5e9330445.png" }
+    },
+    "titanium|titanium-technical-specimen-v1.webp": {
+      "pageId": "titanium", "publishedFile": "titanium-technical-specimen-v1.webp", "masterSource": "titanium-technical-specimen-v1-master.png", "socialFile": "titanium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/22", "https://pubchem.ncbi.nlm.nih.gov/compound/23963"], "notes": "Elemental identity, atomic number 22, PubChem CID 23963, and bright silvery-white metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three bright silvery-white worked specimens without implant, product, titanium dioxide, ore, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names titanium and literal form; caption expands Ti and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 045 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "titanium-draft.png", "sourceSha256": "36a8c1d3ac9b0343eccc23e91f8285dcc9b4f4b13a20317302b589783912cd17", "generationRecord": "exec-94e1e29c-c238-44e8-ac6f-7f4e2e64c138.png" }
+    },
+    "uranium|uranium-technical-specimen-v1.webp": {
+      "pageId": "uranium", "publishedFile": "uranium-technical-specimen-v1.webp", "masterSource": "uranium-technical-specimen-v1-master.png", "socialFile": "uranium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/92", "https://pubchem.ncbi.nlm.nih.gov/compound/23989"], "notes": "Elemental identity, atomic number 92, PubChem CID 23989, radioactivity, oxidation, and containment context are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one sealed ampoule containing three gray-silver oxidized specimens without glow, hazard symbol, fuel, weapon, ore, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names uranium, containment, and literal specimen count; caption expands U and states the radioactivity and handling boundary without implying purity." },
+      "disposition": "approved", "notes": "Exact immutable Batch 045 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "uranium-draft.png", "sourceSha256": "52487a7f051e03ca874d3fad5d6b570a7e1a13b00d3deeab9fbbec0a7c6f8275", "generationRecord": "exec-29419595-8096-439c-b8f5-aa84cb99fdfd.png" }
+    },
+    "vanadium|vanadium-technical-specimen-v1.webp": {
+      "pageId": "vanadium", "publishedFile": "vanadium-technical-specimen-v1.webp", "masterSource": "vanadium-technical-specimen-v1-master.png", "socialFile": "vanadium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/23", "https://pubchem.ncbi.nlm.nih.gov/compound/23990"], "notes": "Elemental identity, atomic number 23, PubChem CID 23990, and bright pale-silver metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three bright pale-silver cut specimens without colorful compound, alloy, product, ore, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names vanadium and literal form; caption expands V and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 045 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "vanadium-draft.png", "sourceSha256": "0a0938569c61f750842c0fa3f687a39fb1e34571245632df387c70225bf27630", "generationRecord": "exec-ebb972d8-4d9f-44f0-8c06-c79bd9e8bb44.png" }
+    },
+    "zinc|zinc-technical-specimen-v1.webp": {
+      "pageId": "zinc", "publishedFile": "zinc-technical-specimen-v1.webp", "masterSource": "zinc-technical-specimen-v1-master.png", "socialFile": "zinc-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/30", "https://pubchem.ncbi.nlm.nih.gov/compound/23994"], "notes": "Elemental identity, atomic number 30, PubChem CID 23994, and bluish brittle metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three bluish-gray angular specimens with bright fracture faces and no galvanized product, supplement, zinc oxide, ore, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names zinc and literal form; caption expands Zn and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 045 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "zinc-draft.png", "sourceSha256": "aadd1f5cb1a3d94693f162a46c6aac7cd2c79993d22b27bc115d0b5868154272", "generationRecord": "exec-9d34ffcd-f670-4967-9f10-3be7b14ed71f.png" }
     }
   },
   "rejectedAssets": [
