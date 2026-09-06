@@ -61,6 +61,12 @@
         "sha256": "3d943b470af90992e2f69e370cda8ad9aff6ef45939df12fe536ba087789c443"
       },
       {
+        "file": "data/article-media-batches/diseases-054.json",
+        "batchId": "diseases-054",
+        "status": "awaiting-control-review",
+        "sha256": "f22d9e406e632fb6a705ccd84d8dba5644bae0ede3a1e27486e84fed26700604"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
@@ -355,7 +361,7 @@
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -1311,46 +1317,46 @@
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 307,
-      "id": "pancreatic-cancer",
-      "title": "Pancreatic Cancer",
-      "route": "/article/pancreatic-cancer",
+      "queuePosition": 313,
+      "id": "pcos",
+      "title": "Polycystic Ovary Syndrome",
+      "route": "/article/pcos",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 308,
-      "id": "pancreatitis",
-      "title": "Pancreatitis",
-      "route": "/article/pancreatitis",
+      "queuePosition": 314,
+      "id": "postpartum-depression",
+      "title": "Postpartum Depression",
+      "route": "/article/postpartum-depression",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 309,
-      "id": "parkinsons-disease",
-      "title": "Parkinson's Disease",
-      "route": "/article/parkinsons-disease",
+      "queuePosition": 315,
+      "id": "premature-ovarian-insufficiency",
+      "title": "Premature Ovarian Insufficiency",
+      "route": "/article/premature-ovarian-insufficiency",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 310,
-      "id": "pelvic-inflammatory-disease",
-      "title": "Pelvic Inflammatory Disease",
-      "route": "/article/pelvic-inflammatory-disease",
+      "queuePosition": 316,
+      "id": "pmdd",
+      "title": "Premenstrual Dysphoric Disorder",
+      "route": "/article/pmdd",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 311,
-      "id": "periodontitis",
-      "title": "Periodontitis",
-      "route": "/article/periodontitis",
+      "queuePosition": 317,
+      "id": "psoriasis",
+      "title": "Psoriasis",
+      "route": "/article/psoriasis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -7797,7 +7803,13 @@
       "route": "/article/pancreatic-cancer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-054",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-054/pancreatic-cancer-draft.png",
+        "sha256": "65b4843bd05fe4b33aed19cbc435d394af11efaf566694dd7d5b2f05857439ef"
+      }
     },
     {
       "queuePosition": 308,
@@ -7811,7 +7823,13 @@
       "route": "/article/pancreatitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-054",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-054/pancreatitis-draft.png",
+        "sha256": "7a264446e207f11528bc1efcb9aa1e0efc5608ea842b260e510cbb98a564d15a"
+      }
     },
     {
       "queuePosition": 309,
@@ -7825,7 +7843,13 @@
       "route": "/article/parkinsons-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-054",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-054/parkinsons-disease-draft.png",
+        "sha256": "11f44562318cb5527ac98d74d1479eb697d2cdd470d3725a89867ca79d6c028f"
+      }
     },
     {
       "queuePosition": 310,
@@ -7838,7 +7862,13 @@
       "route": "/article/pelvic-inflammatory-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-054",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-054/pelvic-inflammatory-disease-draft.png",
+        "sha256": "568218b6e514ab5deee6e027c70b49f739b556402349157d631eeae53e4abdbe"
+      }
     },
     {
       "queuePosition": 311,
@@ -7851,7 +7881,13 @@
       "route": "/article/periodontitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-054",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-054/periodontitis-draft.png",
+        "sha256": "b2246e37ee33c6265ecdf1b07b494d575cf1caf1a166ce4b22d149047e5525cd"
+      }
     },
     {
       "queuePosition": 312,
@@ -7864,7 +7900,13 @@
       "route": "/article/pneumonia",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-054",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-054/pneumonia-draft.png",
+        "sha256": "4b64670bc1b01668b1277c951b3904c1d247ee18da5411361ed3bdd1ac8b66ba"
+      }
     },
     {
       "queuePosition": 313,
