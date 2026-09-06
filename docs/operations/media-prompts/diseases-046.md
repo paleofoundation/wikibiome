@@ -65,3 +65,16 @@ Use case: scientific-educational. Asset type: review-only WikiBiome anatomical a
 - Respectful autism-language literature supports avoiding disparaging deficit metaphors and presenting no single visual as a universal autistic anatomy.
 
 All six routes are scientifically cleared for exactly one built-in image-generation call each. Outputs remain review-only and non-public until literal native-resolution audit, immutable hashes, separate Control Tower acceptance, metadata reconciliation, and derivative crop review are complete. Prompt-requested content must never be reported as observed output.
+
+## Frozen prompt hashes
+
+| Route | Prompt SHA-256 |
+| --- | --- |
+| `anxiety` | `2fb574ca940b8e7e9aee44221e9da8f2e408245d9e57ae5554952a64def259f7` |
+| `autism-spectrum-disorder` | `b1ad41e2653d587059189eb29a32794f532afeb4de98a3ee572fb4690333954b` |
+| `barretts-esophagus` | `35d274aceae1d98f2497fcbbe1d026410756c4e6731223441277b7575e30cf3e` |
+| `bipolar-disorder` | `0361f5b8db31ba02ce35961ce433f1357a9b78a3e0e5c5c21dfc5f3cac69c301` |
+| `breast-cancer` | `38ee6f27c8a2f30d86f2644d02d2495346e3b92c84ce73a6baebdbc64a64b9f7` |
+| `cardiovascular-disease` | `cc9cb23ad8d6220f073c741e1ea9bceb791d3db52570d8dfb9487c4f897a70aa` |
+
+The hashes bind the exact prompt text above to audit commit `155fe2b`; any prompt change requires a new audit before generation.
