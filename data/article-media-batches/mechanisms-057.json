@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-057",
+  "category": "mechanisms",
+  "status": "prompt-frozen",
+  "createdOn": "2026-09-06",
+  "authorizedParent": "705c747dce7e834534cd478ede2dea6c972750bd",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-057.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-057.md",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 0,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlReviewRequired": true,
+  "assets": [
+    {"pageId":"16s-rrna-sequencing","displayName":"16S rRNA Sequencing","assetType":"technical-specimen","revision":1,"decision":"cleared-for-single-generation","controlledIdentifier":"MeSH:D012336","promptSha256":"b0eed84e17c61363a82cc37bd1dd1ace82d27d5be9311bca63592b67b62c804d"},
+    {"pageId":"acetate","displayName":"Acetate","assetType":"technical-specimen","revision":1,"decision":"cleared-for-single-generation","controlledIdentifier":"PubChem:175","promptSha256":"7c4f74ab9bce39759cde118c26faaa166e682d7237ae519d69421ef21ff2add2"},
+    {"pageId":"acidic-microenvironment","displayName":"Acidic Microenvironment","assetType":"technical-specimen","revision":1,"decision":"cleared-for-single-generation","controlledIdentifier":"WikiBiome:acidic-microenvironment","promptSha256":"653cf93f3c1204c7c0e29ddb283568b72480b7a784b405c1e0aee4a08f4dd129"},
+    {"pageId":"ahr","displayName":"AhR (Aryl Hydrocarbon Receptor)","assetType":"technical-specimen","revision":1,"decision":"cleared-for-single-generation","controlledIdentifier":"UniProt:P35869","promptSha256":"917c6cae3bb5cc7872cd3baf6fa2c54cfd4a296577614216c950378981d2402c"},
+    {"pageId":"allopregnanolone","displayName":"Allopregnanolone","assetType":"technical-specimen","revision":1,"decision":"cleared-for-single-generation","controlledIdentifier":"PubChem:92786","promptSha256":"3bed34cdb7d8ba119d8c4468eed84a9836ff0db7cebc4e8c660e0a837b153198"},
+    {"pageId":"alpha-klotho","displayName":"Alpha-Klotho","assetType":"technical-specimen","revision":1,"decision":"cleared-for-single-generation","controlledIdentifier":"UniProt:Q9UEF7","promptSha256":"9b83bb43b4b27b42aa72a9a27c612b0fd72c3c726a8398798af8576664c9a8e5"}
+  ]
+}
