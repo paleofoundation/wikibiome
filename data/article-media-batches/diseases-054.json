@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "diseases-054",
   "category": "diseases",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-06",
   "authorizedParent": "f389d503bc3383dc227ee1a9f028119b534cafbb",
   "auditCommit": "28d9358",
@@ -29,7 +29,17 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "f22d9e406e632fb6a705ccd84d8dba5644bae0ede3a1e27486e84fed26700604",
+  "controlAcceptedPromptEvidenceSha256": "febdffc57e48951e044c5a30bb4e263be8fc8b9a6864111afe71cc278188f502",
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "status": "accepted-exact-hash",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "bded9e4",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["pancreatic-cancer", "pancreatitis", "parkinsons-disease", "pelvic-inflammatory-disease", "periodontitis", "pneumonia"]
+  },
+  "promotionRule": "Only the six exact accepted source hashes may be promoted to metadata-bearing lossless masters, article WebP derivatives, and centered contain-mode 1200x630 social WebP derivatives.",
   "assets": [
     {
       "pageId": "pancreatic-cancer", "displayName": "Pancreatic Cancer", "assetType": "pathology", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call",
