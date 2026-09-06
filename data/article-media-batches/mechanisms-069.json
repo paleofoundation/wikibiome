@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-069",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-06",
   "authorizedParent": "f9b8be1d9a2012b7bea2e2d4367b7894461fc1b1",
@@ -30,7 +30,19 @@
   "quarantinedGenerationCount": 3,
   "revisionCount": 0,
   "auditCommit": "08561374eaae8306418b82041bdde2576685e9fa",
-  "promptFreezeCommit": "08561374eaae8306418b82041bdde2576685e9fa",
+  "promptFreezeCommit": "b88aeaeeccf4ea81d02522e1705cf05163212a2d",
+  "controlAcceptedReviewManifestSha256": "bbde8c5634c8d0c31b180d9003b3ead69c4204a4c973b59f716212f07bac7a4b",
+  "controlAcceptedPromptEvidenceSha256": "ffe104c7b072f88f7ed74784a526ca50288a823f4f4652dbe6a762f5502814e7",
+  "controlFinalReview": {
+    "status": "accepted-two-exact-hashes-three-quarantined-one-generation-failure",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "9d1217bf38a107d2588e512aadb343cc0650123a",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["estrobolome", "estrogen-recirculation"],
+    "acceptedSourceSha256": ["14f6dacb4e9e45305d04fb62787788ea6fd98a59705f8484847caeeaf0a050a7", "dadcb65e793b117fe268d1a9e69ec35fc407ab4eb569a4ff6da48c32a1de9ca2"],
+    "nonPublishablePageIds": ["epithelial-mesenchymal-transition", "essential-oils", "fxr", "fecal-microbiota-transplant"]
+  },
+  "promotionRule": "Only the exact accepted estrobolome and estrogen-recirculation source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. The essential-oils, FXR, and FMT originals remain immutable non-public quarantines; EMT has no source raster.",
   "assets": [
     {
       "pageId": "epithelial-mesenchymal-transition",
