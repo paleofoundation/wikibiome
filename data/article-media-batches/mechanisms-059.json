@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-059",
+  "category": "mechanisms",
+  "status": "prompt-frozen",
+  "reviewedOn": null,
+  "auditCommit": null,
+  "promptFreezeCommit": null,
+  "createdOn": "2026-09-06",
+  "authorizedParent": "251122a6a3ddda71eb97503bb65e1a9f9d34c9f9",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-059.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-059.md",
+  "routeDecisionCount": 6,
+  "candidateCount": 6,
+  "scientificHoldCount": 0,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlReviewRequired": true,
+  "assets": [
+    { "pageId": "aryl-hydrocarbon-receptor", "displayName": "Aryl Hydrocarbon Receptor (AhR)", "assetType": "mechanism", "revision": 1, "decision": "cleared-for-generation", "controlledIdentifier": "UniProt:P35869", "promptSha256": "a38114939df7847b81f57daa28273ff49761ffd416eb34a5b0f41b0d0cf20055", "generationStatus": "pending-single-call", "draft": "work/media-drafts/mechanisms-batch-059/aryl-hydrocarbon-receptor-draft.png", "proposedSocialResizeFit": "contain" },
+    { "pageId": "aspirin", "displayName": "Aspirin", "assetType": "mechanism", "revision": 1, "decision": "cleared-for-generation", "controlledIdentifier": "PubChem:2244", "promptSha256": "175869f4b7bad6fbdc049a32a6a26eb1cec11d4422ed044f9fcc32b5b9603aa7", "generationStatus": "pending-single-call", "draft": "work/media-drafts/mechanisms-batch-059/aspirin-draft.png", "proposedSocialResizeFit": "contain" },
+    { "pageId": "atherosclerosis", "displayName": "Atherosclerosis", "assetType": "mechanism", "revision": 1, "decision": "cleared-for-generation", "controlledIdentifier": "MeSH:D050197", "promptSha256": "ffd2fed5f00845210f921280fb83f6d07714f81b0500152316d2948d2f268641", "generationStatus": "pending-single-call", "draft": "work/media-drafts/mechanisms-batch-059/atherosclerosis-draft.png", "proposedSocialResizeFit": "contain" },
+    { "pageId": "autophagy", "displayName": "Autophagy", "assetType": "mechanism", "revision": 1, "decision": "cleared-for-generation", "controlledIdentifier": "GO:0006914", "promptSha256": "7e99150f93cab038ed76202ff1539124f9b59267d56e33c3edf3198fb5aee031", "generationStatus": "pending-single-call", "draft": "work/media-drafts/mechanisms-batch-059/autophagy-draft.png", "proposedSocialResizeFit": "contain" },
+    { "pageId": "bacteremia", "displayName": "Bacteremia", "assetType": "mechanism", "revision": 1, "decision": "cleared-for-generation", "controlledIdentifier": "MeSH:D016470", "promptSha256": "0ffb91c43872a19f6c770be95f395393983fe858d671f7937db66c5b987994ea", "generationStatus": "pending-single-call", "draft": "work/media-drafts/mechanisms-batch-059/bacteremia-draft.png", "proposedSocialResizeFit": "contain" },
+    { "pageId": "bacterial-contamination-hypothesis", "displayName": "Bacterial Contamination Hypothesis", "assetType": "mechanism", "revision": 1, "decision": "cleared-for-generation", "controlledIdentifier": "PMID:29692669", "promptSha256": "7fe4ccded813b8672f68fd2f571b13865e0c058dba4f24c9cb0ee81f31ffd92b", "generationStatus": "pending-single-call", "draft": "work/media-drafts/mechanisms-batch-059/bacterial-contamination-hypothesis-draft.png", "proposedSocialResizeFit": "contain" }
+  ]
+}
