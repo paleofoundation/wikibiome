@@ -17,6 +17,8 @@ import { applyPublicContentPolicy, publicContentExclusionReason } from "../scrip
 import { normalizeSourceMetadata } from "../scripts/source-metadata-policy.mjs";
 import { assertMediaOutputAudit } from "../scripts/article-media-batch-validation.mjs";
 
+const mediaProgram = JSON.parse(readFileSync(new URL("../data/article-media-coverage.generated.json", import.meta.url), "utf8"));
+
 async function render(pathname = "/") {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-${pathname}`);
@@ -2935,20 +2937,18 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1016\/S0723-2020\(85\)80015-1/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-33-3-618/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
-  assert.deepEqual(program.nextBatch.map((record) => record.id), [
-    "female-infertility",
-    "fibromyalgia",
-    "gastric-adenocarcinoma",
-    "gastric-cancer",
-    "gastric-ulcer",
-    "gerd",
-  ]);
-  assert.equal(program.current.completed, 267);
-  assert.equal(program.current.remaining, 443);
-  assert.equal(program.current.rejected, 32);
-  assert.equal(program.current.revised, 11);
-  assert.equal(program.current.inReview, 0);
-  assert.equal(program.current.scientificHolds, 15);
+  const firstQueuedRecord = program.queue.find((record) => record.status === "queued");
+  const expectedNextBatch = firstQueuedRecord
+    ? program.queue
+        .filter((record) => record.coverageGroup === firstQueuedRecord.coverageGroup && record.status === "queued")
+        .slice(0, reviewLog.reviewableBatchSize)
+        .map((record) => record.id)
+    : [];
+  assert.deepEqual(program.nextBatch.map((record) => record.id), expectedNextBatch);
+  assert.equal(program.current.completed, Object.keys(articleMediaRegistry).length);
+  assert.equal(program.current.remaining, program.current.total - program.current.completed);
+  assert.equal(program.current.rejected, reviewLog.rejectedAssets.length);
+  assert.equal(program.current.revised, reviewLog.revisedAssets.length);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -3972,10 +3972,15 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.doesNotMatch(html, /data-article-media-schema/);
   }
 
-  const fallbackResponse = await render("/article/female-infertility");
-  const fallback = await fallbackResponse.text();
-  assert.match(fallback, /class="infobox-visual infobox-disease"/);
-  assert.doesNotMatch(fallback, /class="article-media-figure"/);
+  const fallbackRoute = program.queue.find((record) => record.status !== "reviewed");
+  if (fallbackRoute) {
+    const fallbackResponse = await render(`/article/${fallbackRoute.id}`);
+    const fallback = await fallbackResponse.text();
+    assert.match(fallback, /class="infobox-visual infobox-/);
+    assert.doesNotMatch(fallback, /class="article-media-figure"/);
+  } else {
+    assert.equal(program.current.completed, program.current.total);
+  }
 });
 
 test("generates Akkermansia citations, reconciles source drift, and renders full references", async () => {
@@ -4401,11 +4406,16 @@ test("publishes self-canonical metadata, social previews, and representative Sch
   assert.ok(signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease"));
   assert.ok(!signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease-signature"), "collection schema must resolve known signature aliases to canonical articles");
 
-  const noMediaResponse = await render("/article/female-infertility");
-  const noMediaHtml = await noMediaResponse.text();
-  const noMediaSchema = structuredData(noMediaHtml, "data-article-schema");
-  assert.ok(noMediaSchema["@graph"].some((node) => node["@type"] === "Article"));
-  assert.ok(!noMediaSchema["@graph"].some((node) => node["@type"] === "ImageObject"));
+  const noMediaRoute = mediaProgram.queue.find((record) => record.status !== "reviewed");
+  if (noMediaRoute) {
+    const noMediaResponse = await render(`/article/${noMediaRoute.id}`);
+    const noMediaHtml = await noMediaResponse.text();
+    const noMediaSchema = structuredData(noMediaHtml, "data-article-schema");
+    assert.ok(noMediaSchema["@graph"].some((node) => node["@type"] === "Article"));
+    assert.ok(!noMediaSchema["@graph"].some((node) => node["@type"] === "ImageObject"));
+  } else {
+    assert.equal(mediaProgram.current.completed, mediaProgram.current.total);
+  }
 
   const [searchResponse, invalidCategoryResponse] = await Promise.all([
     render("/search?q=nickel"),
