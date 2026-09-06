@@ -11607,6 +11607,19 @@
   },
   "rejectedAssets": [
     {
+      "pageId": "developmental-metal-vulnerability",
+      "batchId": "mechanisms-064",
+      "draft": "work/media-drafts/mechanisms-batch-064/developmental-metal-vulnerability-draft.png",
+      "sha256": "138442f657b018be68a24b5f9aeae32d4725e9e0e5fe348d8b6f5b48a861c5b1",
+      "generationRecord": "exec-2713edf4-dbf7-4214-b398-7350226b0b98.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The output presents recognizable fetal facial, auricular, hand, foot, umbilical, placental, and uterine anatomy despite the frozen generic-silhouette requirement and explicit prohibition on a realistic fetus.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
       "pageId": "comorbidities",
       "batchId": "mechanisms-063",
       "draft": "work/media-drafts/mechanisms-batch-063/comorbidities-draft.png",

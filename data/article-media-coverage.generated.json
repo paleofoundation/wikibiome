@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7ffaabfc91ca2405eb160483a5b178f4b7ac24b3d07a52b32d7180f99920ec40",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "cb67d6bf6f0b071f294bc83cca5430dd83ddb98852e970b30055abb18df69595",
+    "reviewLogSha256": "2004e6bd147e882274815dc62c72f3fb90e2f670192be861b5751f87c5954b37",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -123,8 +123,8 @@
       {
         "file": "data/article-media-batches/mechanisms-064.json",
         "batchId": "mechanisms-064",
-        "status": "prompt-frozen",
-        "sha256": "ef95a08e01450809bc8f515ecc5a8b872339ecb54edfacbbaabfa870f093c7c9"
+        "status": "reviewed",
+        "sha256": "68a269359f5440fb03b3614d842552879cf3d14f1b47b10213bbecdeeddf0cb2"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -418,7 +418,7 @@
     "total": 710,
     "completed": 337,
     "remaining": 373,
-    "rejected": 46,
+    "rejected": 47,
     "revised": 11,
     "scientificHolds": 15,
     "inReview": 0
@@ -482,6 +482,19 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "developmental-metal-vulnerability",
+      "batchId": "mechanisms-064",
+      "draft": "work/media-drafts/mechanisms-batch-064/developmental-metal-vulnerability-draft.png",
+      "sha256": "138442f657b018be68a24b5f9aeae32d4725e9e0e5fe348d8b6f5b48a861c5b1",
+      "generationRecord": "exec-2713edf4-dbf7-4214-b398-7350226b0b98.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The output presents recognizable fetal facial, auricular, hand, foot, umbilical, placental, and uterine anatomy despite the frozen generic-silhouette requirement and explicit prohibition on a realistic fetus.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
     {
       "pageId": "comorbidities",
       "batchId": "mechanisms-063",
