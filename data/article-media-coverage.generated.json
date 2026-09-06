@@ -171,8 +171,8 @@
       {
         "file": "data/article-media-batches/mechanisms-072.json",
         "batchId": "mechanisms-072",
-        "status": "awaiting-control-review",
-        "sha256": "0c8324eb27bfbc67c3b1fb19c050b53853374a4545437759b32b214e23c56bcc"
+        "status": "approved-awaiting-promotion",
+        "sha256": "507c7a6ffe500e43bf6cb0575a8c9df13c190a02da0dcc3d3f1b0395c64745b3"
       },
       {
         "file": "data/article-media-batches/metals-041.json",

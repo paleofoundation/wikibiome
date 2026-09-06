@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-072",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "f1079f281bcb3a6f64b16d95c4cb362746b763bf",
@@ -32,6 +32,18 @@
   "initialAuditCommit": "f572e056d61b153595b71867f4ab5df9e92975de",
   "auditCommit": "9ab8f39341e6df897bb091e584f406d546437153",
   "promptFreezeCommit": "a2fa0b9c3bbe39ef8b94a2cd87ef02923e88e612",
+  "controlAcceptedReviewManifestSha256": "0c8324eb27bfbc67c3b1fb19c050b53853374a4545437759b32b214e23c56bcc",
+  "controlAcceptedPromptEvidenceSha256": "090a46c28bf84e8b393c2284b4871dd9079649f64a5470a3066e57c4c32d4735",
+  "controlFinalReview": {
+    "status": "accepted-three-exact-hashes-one-quarantined-two-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "4fe953225bd22cdc417360b85a6f93bf0f096c32",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["gut-kidney-axis", "gut-metal-microbiome", "gut-prostate-axis"],
+    "acceptedSourceSha256": ["b37e3312e1f550f315985e16cfb4cfad4d1d1339e93bf46c1ef4ca82f9cdf363", "9aa21e52356b72d2b59646d5796d2a9b306330b857a16bb5d959748c7a854d39", "a58dcb8a4c494eb27ede661bb591824f6fdc31c2e5ca4c160e174105c5617675"],
+    "nonPublishablePageIds": ["gut-penis-axis", "gut-testis-axis", "gut-thyroid-axis"]
+  },
+  "promotionRule": "Only the exact accepted gut-kidney-axis, gut-metal-microbiome, and gut-prostate-axis source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. Gut-penis-axis and gut-testis-axis remain asset-free scientific-media holds; the gut-thyroid-axis original remains an immutable non-public quarantine.",
   "routeDecisions": [
     {
       "pageId": "gut-penis-axis",
