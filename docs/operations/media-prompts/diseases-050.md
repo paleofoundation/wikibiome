@@ -81,3 +81,11 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 | `gerd` | 1 | `fffe23e6c10dc31447dc6fb61d1b8cb6ea4c2d80c3619a165511824bb1a6166c` |
 
 These hashes bind the exact prompt bodies above to audit commit `b11a98b`. Any prompt change requires a new audit before generation.
+
+## Immutable generation, review, acceptance, and promotion
+
+Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-050/`. Native inspection, exact source hashes, literal groupings, prohibited-content checks, edge statistics, and dispositions are frozen in review packet `docs/operations/media-reviews/diseases-050.md` at commit `7d9de20`. The review packet SHA-256 is `345c399c2914f92acd9800058f91af20ff85a589e7cda7686786bf39bc2f0573`.
+
+Control Tower accepted the six exact hashes in `docs/operations/media-acceptances/diseases-050.md` at commit `0e98421`. No rejected or substitute bytes entered promotion. Each accepted source was promoted to a metadata-bearing lossless master, article WebP, and centered `contain` 1200 × 630 social WebP.
+
+Control Tower inspected every social derivative at native detail on 2026-09-06. The complete reproductive anatomy and ovarian cutaway, three-part fibromyalgia plate, opened stomach and gland-like mucosal cluster, broad stomach and nonspecific mucosal growth, opened stomach and limited ulcer crater, and upper-digestive and reflux-junction models all remain complete and legible. `cover` remains forbidden for all six; `contain` is mandatory because it preserves every scientific structure and maintains the deliberate distinction between the two gastric-neoplasm routes.

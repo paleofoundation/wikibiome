@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "efd1f2464b9c2f210bcb7daf1f028a178ea6b5d0bd6175b8ec2f10be4fe5a5ce",
+    "registrySha256": "ce8870a2bf4877ba9b9de94780e34397159cd8c2e44f5094b72ad467af11e494",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "4d3ba2f29e2da39a116ec9f9722c2229e789f995f2fedefcbc6064adb54a7a34",
+    "reviewLogSha256": "36e8ee2a49133de4b776c2322cfc0890fe1781f4e9f07d07fe3464d696930c5a",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -39,8 +39,8 @@
       {
         "file": "data/article-media-batches/diseases-050.json",
         "batchId": "diseases-050",
-        "status": "approved-awaiting-promotion",
-        "sha256": "a68e78e2ac5a036435cd35e6226cd6e52fcbbe09b6f719c6bf403da9afc08ee0"
+        "status": "reviewed",
+        "sha256": "0a915cd113fa85de16c3618ce7778f361c4d11ba1a3555afb1b195787892c5ae"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -332,12 +332,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 267,
-    "remaining": 443,
+    "completed": 273,
+    "remaining": 437,
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
@@ -358,8 +358,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 24,
-      "remaining": 42
+      "completed": 30,
+      "remaining": 36
     },
     {
       "id": "mechanisms",
@@ -7254,12 +7254,14 @@
       "route": "/article/female-infertility",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-050",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-050/female-infertility-draft.png",
-        "sha256": "b2986423fc55534e131181acfc73ac25349437038aa5461a5e7e80622ab5ef34"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "female-infertility-pathology-v1-master.png",
+        "publishedFile": "female-infertility-pathology-v1.webp",
+        "socialFile": "female-infertility-pathology-v1-social.webp"
       }
     },
     {
@@ -7274,12 +7276,14 @@
       "route": "/article/fibromyalgia",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-050",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-050/fibromyalgia-draft.png",
-        "sha256": "3d74eac8d67059f948f84cececffbedd9c80d17d9e5232c0f28552b065fb2742"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "fibromyalgia-pathology-v1-master.png",
+        "publishedFile": "fibromyalgia-pathology-v1.webp",
+        "socialFile": "fibromyalgia-pathology-v1-social.webp"
       }
     },
     {
@@ -7293,12 +7297,14 @@
       "route": "/article/gastric-adenocarcinoma",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-050",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-050/gastric-adenocarcinoma-draft.png",
-        "sha256": "12c5ea4970391b10205877940accdcfd87918557dc8d7c500f0ccb124a7886ac"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "gastric-adenocarcinoma-pathology-v1-master.png",
+        "publishedFile": "gastric-adenocarcinoma-pathology-v1.webp",
+        "socialFile": "gastric-adenocarcinoma-pathology-v1-social.webp"
       }
     },
     {
@@ -7313,12 +7319,14 @@
       "route": "/article/gastric-cancer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-050",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-050/gastric-cancer-draft.png",
-        "sha256": "e27e2dde1741b3286fd8d471ce06731c05301a68368a52b7d5bf7d64c9f38619"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "gastric-cancer-pathology-v1-master.png",
+        "publishedFile": "gastric-cancer-pathology-v1.webp",
+        "socialFile": "gastric-cancer-pathology-v1-social.webp"
       }
     },
     {
@@ -7332,12 +7340,14 @@
       "route": "/article/gastric-ulcer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-050",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-050/gastric-ulcer-draft.png",
-        "sha256": "2ddb18f7c702d6b50af6adc8a7ba7f7111d23038fc10f0f3f700cdb6e2d7938f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "gastric-ulcer-pathology-v1-master.png",
+        "publishedFile": "gastric-ulcer-pathology-v1.webp",
+        "socialFile": "gastric-ulcer-pathology-v1-social.webp"
       }
     },
     {
@@ -7352,12 +7362,14 @@
       "route": "/article/gerd",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-050",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-050/gerd-draft.png",
-        "sha256": "3d3e980de5c6b9950f3c88e8b93da48a9fd79419ead79cc4ea65669e6695224b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "gerd-pathology-v1-master.png",
+        "publishedFile": "gerd-pathology-v1.webp",
+        "socialFile": "gerd-pathology-v1-social.webp"
       }
     },
     {
