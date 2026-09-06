@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "b3f329fa6eacf36196cf79137947a34f54d3cfd985073a6a87cd4456808e157f",
+    "registrySha256": "efd1f2464b9c2f210bcb7daf1f028a178ea6b5d0bd6175b8ec2f10be4fe5a5ce",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "3f03b116c5dabecba93e8f320a4f1916819f09bb2580fa8f91429caffeba21a4",
+    "reviewLogSha256": "4d3ba2f29e2da39a116ec9f9722c2229e789f995f2fedefcbc6064adb54a7a34",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -29,6 +29,12 @@
         "batchId": "diseases-048",
         "status": "reviewed",
         "sha256": "bc0c56a8cc77ebc25028883f9a765bb36b226537d46ddc29bcf2f965105c381e"
+      },
+      {
+        "file": "data/article-media-batches/diseases-049.json",
+        "batchId": "diseases-049",
+        "status": "reviewed",
+        "sha256": "8a68c2122c1255860dd9df3e4bd5bd81c96cabf024772ff3ca41b08258dea38f"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -320,8 +326,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 261,
-    "remaining": 449,
+    "completed": 267,
+    "remaining": 443,
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
@@ -346,8 +352,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 18,
-      "remaining": 48
+      "completed": 24,
+      "remaining": 42
     },
     {
       "id": "mechanisms",
@@ -1258,55 +1264,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 276,
-      "id": "depression",
-      "title": "Depression",
-      "route": "/article/depression",
+      "queuePosition": 283,
+      "id": "female-infertility",
+      "title": "Female Infertility",
+      "route": "/article/female-infertility",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 277,
-      "id": "dermatitis-herpetiformis",
-      "title": "Dermatitis Herpetiformis",
-      "route": "/article/dermatitis-herpetiformis",
+      "queuePosition": 284,
+      "id": "fibromyalgia",
+      "title": "Fibromyalgia",
+      "route": "/article/fibromyalgia",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 278,
-      "id": "diabetic-kidney-disease",
-      "title": "Diabetic Kidney Disease",
-      "route": "/article/diabetic-kidney-disease",
+      "queuePosition": 285,
+      "id": "gastric-adenocarcinoma",
+      "title": "Gastric Adenocarcinoma",
+      "route": "/article/gastric-adenocarcinoma",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 280,
-      "id": "endometriosis",
-      "title": "Endometriosis",
-      "route": "/article/endometriosis",
+      "queuePosition": 286,
+      "id": "gastric-cancer",
+      "title": "Gastric Cancer",
+      "route": "/article/gastric-cancer",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 281,
-      "id": "epilepsy",
-      "title": "Epilepsy",
-      "route": "/article/epilepsy",
+      "queuePosition": 287,
+      "id": "gastric-ulcer",
+      "title": "Gastric Ulcer",
+      "route": "/article/gastric-ulcer",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 282,
-      "id": "erectile-dysfunction",
-      "title": "Erectile Dysfunction",
-      "route": "/article/erectile-dysfunction",
+      "queuePosition": 288,
+      "id": "gerd",
+      "title": "Gastroesophageal Reflux Disease (GERD)",
+      "route": "/article/gerd",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -7091,7 +7097,15 @@
       "route": "/article/depression",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "depression-pathology-v1-master.png",
+        "publishedFile": "depression-pathology-v1.webp",
+        "socialFile": "depression-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 277,
@@ -7104,7 +7118,15 @@
       "route": "/article/dermatitis-herpetiformis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "dermatitis-herpetiformis-pathology-v1-master.png",
+        "publishedFile": "dermatitis-herpetiformis-pathology-v1.webp",
+        "socialFile": "dermatitis-herpetiformis-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 278,
@@ -7117,7 +7139,15 @@
       "route": "/article/diabetic-kidney-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "diabetic-kidney-disease-pathology-v1-master.png",
+        "publishedFile": "diabetic-kidney-disease-pathology-v1.webp",
+        "socialFile": "diabetic-kidney-disease-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 279,
@@ -7152,7 +7182,15 @@
       "route": "/article/endometriosis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "endometriosis-pathology-v1-master.png",
+        "publishedFile": "endometriosis-pathology-v1.webp",
+        "socialFile": "endometriosis-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 281,
@@ -7166,7 +7204,15 @@
       "route": "/article/epilepsy",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "epilepsy-pathology-v1-master.png",
+        "publishedFile": "epilepsy-pathology-v1.webp",
+        "socialFile": "epilepsy-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 282,
@@ -7180,7 +7226,15 @@
       "route": "/article/erectile-dysfunction",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "erectile-dysfunction-pathology-v1-master.png",
+        "publishedFile": "erectile-dysfunction-pathology-v1.webp",
+        "socialFile": "erectile-dysfunction-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 283,

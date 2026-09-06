@@ -81,3 +81,11 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 | `erectile-dysfunction` | 1 | `35d102e8872e0330881f928fe9ee385303340cdb0a1743b8664429bee9d41c9a` |
 
 These hashes bind the exact prompt bodies above to audit commit `74c64e1`. Any prompt change requires a new audit before generation.
+
+## Immutable generation, review, acceptance, and promotion
+
+Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-049/`. Native inspection, exact source hashes, literal groupings, prohibited-content checks, edge statistics, and dispositions are frozen in review packet `docs/operations/media-reviews/diseases-049.md` at commit `62ecd8f`. The review packet SHA-256 is `a2b9494c8298f7bae9963a151bba714814e4928912826d728013a375f55bb138`.
+
+Control Tower accepted the six exact hashes in `docs/operations/media-acceptances/diseases-049.md` at commit `5e68131`. No rejected or substitute bytes entered promotion. Each accepted source was promoted to a metadata-bearing lossless master, article WebP, and centered `contain` 1200 × 630 social WebP.
+
+Control Tower inspected every social derivative at native detail on 2026-09-06. The intact brain and distributed assembly, skin and villus blocks, paired kidneys and glomerular model, complete pelvic anatomy with four foci, intact brain and neural network, and internal erectile-tissue and vessel cross-sections all remain complete and legible. `cover` remains forbidden for all six; `contain` is mandatory because it preserves every scientific structure and the edge-sensitive endometriosis field.

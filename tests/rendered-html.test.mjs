@@ -2936,15 +2936,15 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-33-3-618/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
-    "depression",
-    "dermatitis-herpetiformis",
-    "diabetic-kidney-disease",
-    "endometriosis",
-    "epilepsy",
-    "erectile-dysfunction",
+    "female-infertility",
+    "fibromyalgia",
+    "gastric-adenocarcinoma",
+    "gastric-cancer",
+    "gastric-ulcer",
+    "gerd",
   ]);
-  assert.equal(program.current.completed, 261);
-  assert.equal(program.current.remaining, 449);
+  assert.equal(program.current.completed, 267);
+  assert.equal(program.current.remaining, 443);
   assert.equal(program.current.rejected, 32);
   assert.equal(program.current.revised, 11);
   assert.equal(program.current.inReview, 0);
@@ -3972,7 +3972,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.doesNotMatch(html, /data-article-media-schema/);
   }
 
-  const fallbackResponse = await render("/article/depression");
+  const fallbackResponse = await render("/article/female-infertility");
   const fallback = await fallbackResponse.text();
   assert.match(fallback, /class="infobox-visual infobox-disease"/);
   assert.doesNotMatch(fallback, /class="article-media-figure"/);
@@ -4401,7 +4401,7 @@ test("publishes self-canonical metadata, social previews, and representative Sch
   assert.ok(signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease"));
   assert.ok(!signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease-signature"), "collection schema must resolve known signature aliases to canonical articles");
 
-  const noMediaResponse = await render("/article/depression");
+  const noMediaResponse = await render("/article/female-infertility");
   const noMediaHtml = await noMediaResponse.text();
   const noMediaSchema = structuredData(noMediaHtml, "data-article-schema");
   assert.ok(noMediaSchema["@graph"].some((node) => node["@type"] === "Article"));

@@ -5347,6 +5347,210 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text enumerates the three literal groups; caption retains multisystem scope and rejects patient, infection, genotype, universal pulmonary, stage, treatment-response, and diagnostic interpretations." },
       "disposition": "approved", "notes": "Exact immutable Batch 048 source accepted for mandatory contain-mode promotion because outer groups approach both horizontal source margins.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cystic-fibrosis-draft.png", "sourceSha256": "89b4f5b3fa22abee8544e7592fec3b933b5da67045ba57ef103410f58ebc3cdb", "generationRecord": "exec-0b5b872a-8970-4d28-a26b-324ac1a345ea.png" }
+    },
+    "depression|depression-pathology-v1.webp": {
+      "pageId": "depression",
+      "publishedFile": "depression-pathology-v1.webp",
+      "masterSource": "depression-pathology-v1-master.png",
+      "socialFile": "depression-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D003863",
+          "https://www.nimh.nih.gov/health/topics/depression"
+        ],
+        "notes": "MeSH controls broad Depression identity; NIMH supports heterogeneous clinical framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "One intact brain and one distributed network abstraction; no patient, lesion, mechanism, or diagnosis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports both literal groups; caption rejects biomarker and diagnostic interpretations."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 049 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "depression-draft.png",
+        "sourceSha256": "cb03938a90d0f1496e8702ee3dbbf37827619f8614ecba0d86440009dfda1a94",
+        "generationRecord": "exec-2bd20030-2c23-49fe-ad6a-64997fbf0b5e.png"
+      }
+    },
+    "dermatitis-herpetiformis|dermatitis-herpetiformis-pathology-v1.webp": {
+      "pageId": "dermatitis-herpetiformis",
+      "publishedFile": "dermatitis-herpetiformis-pathology-v1.webp",
+      "masterSource": "dermatitis-herpetiformis-pathology-v1-master.png",
+      "socialFile": "dermatitis-herpetiformis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D003874",
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease/definition-facts"
+        ],
+        "notes": "MeSH controls the condition and excludes a herpes interpretation; NIDDK supports celiac context."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "One skin block and one villus model; no patient, infection, biopsy, stain, or diagnosis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports both models; caption rejects herpes, patient-rash, biopsy, severity, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 049 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dermatitis-herpetiformis-draft.png",
+        "sourceSha256": "c9eac47cd01fa9c7755353932e0b5836d4fef4cb67189c1ce7f66fc61d8c1a62",
+        "generationRecord": "exec-5fcf398a-2895-46d5-9a71-57c7e06bb470.png"
+      }
+    },
+    "diabetic-kidney-disease|diabetic-kidney-disease-pathology-v1.webp": {
+      "pageId": "diabetic-kidney-disease",
+      "publishedFile": "diabetic-kidney-disease-pathology-v1.webp",
+      "masterSource": "diabetic-kidney-disease-pathology-v1-master.png",
+      "socialFile": "diabetic-kidney-disease-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D003928",
+          "https://www.niddk.nih.gov/health-information/diabetes/overview/preventing-problems/diabetic-kidney-disease"
+        ],
+        "notes": "MeSH controls Diabetic Nephropathies identity; NIDDK supports renal framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Two kidneys with ureters and one glomerular model; no diabetes marker, stage, result, or diagnosis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports literal anatomy; caption rejects unobservable and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 049 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "diabetic-kidney-disease-draft.png",
+        "sourceSha256": "be81693b3da752629287b6ce660333be3bc3a0fe42136a1db1d23d4ff0296d0c",
+        "generationRecord": "exec-712c1ac6-8c44-43ac-933e-faf835e61c2a.png"
+      }
+    },
+    "endometriosis|endometriosis-pathology-v1.webp": {
+      "pageId": "endometriosis",
+      "publishedFile": "endometriosis-pathology-v1.webp",
+      "masterSource": "endometriosis-pathology-v1-master.png",
+      "socialFile": "endometriosis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D004715",
+          "https://www.nichd.nih.gov/health/topics/endometri/conditioninfo"
+        ],
+        "notes": "MeSH controls Endometriosis identity; NICHD supports variable pelvic location."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Complete internal pelvic anatomy with exactly four superficial editorial foci; no patient, stage, or diagnosis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the four visible foci; caption rejects patient-lesion, fertility, stage, and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 049 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "endometriosis-draft.png",
+        "sourceSha256": "16d3ef1349f5410a1cb4693b77357612f02c8d2890cf2ba29389b115542d84ed",
+        "generationRecord": "exec-b3a0a820-a877-4b6b-8a90-9cc6e9833738.png"
+      }
+    },
+    "epilepsy|epilepsy-pathology-v1.webp": {
+      "pageId": "epilepsy",
+      "publishedFile": "epilepsy-pathology-v1.webp",
+      "masterSource": "epilepsy-pathology-v1-master.png",
+      "socialFile": "epilepsy-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D004827",
+          "https://www.ninds.nih.gov/health-information/disorders/epilepsy-and-seizures"
+        ],
+        "notes": "MeSH controls Epilepsy identity; NINDS supports heterogeneous recurrent-seizure framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "One intact brain and one varied network with an editorial copper grouping; no patient, EEG, lesion, or diagnosis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports both groups; caption rejects universal-focus and diagnostic interpretations."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 049 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "epilepsy-draft.png",
+        "sourceSha256": "770e6e2ce72a588bf0aede14a3866a4f876bf891cf87be594001bc05b2454fe6",
+        "generationRecord": "exec-5e434d6f-78da-49e1-a2bb-8e5f9e508991.png"
+      }
+    },
+    "erectile-dysfunction|erectile-dysfunction-pathology-v1.webp": {
+      "pageId": "erectile-dysfunction",
+      "publishedFile": "erectile-dysfunction-pathology-v1.webp",
+      "masterSource": "erectile-dysfunction-pathology-v1-master.png",
+      "socialFile": "erectile-dysfunction-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D007172",
+          "https://www.niddk.nih.gov/health-information/urologic-diseases/erectile-dysfunction/definition-facts"
+        ],
+        "notes": "MeSH controls Erectile Dysfunction identity; NIDDK supports multifactorial framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Internal erectile-tissue anatomy and one patent vessel; no person, sexual scene, treatment, or diagnosis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports internal anatomy only; caption rejects cause, state, treatment, severity, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 049 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "erectile-dysfunction-draft.png",
+        "sourceSha256": "ac31923191e63716396519116591f11ba433f4d65e926e12cdaae5225579377f",
+        "generationRecord": "exec-8e067ceb-7e98-4dbb-b215-629acff288e3.png"
+      }
     }
   },
   "rejectedAssets": [
