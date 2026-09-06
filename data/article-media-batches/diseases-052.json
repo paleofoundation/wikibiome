@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "diseases-052",
   "category": "diseases",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-06",
   "authorizedParent": "35152d4acb220de9a983a54c16780a35c8260f46",
@@ -30,7 +30,10 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "7f12542e45a38d8d5d19d9977b9a1fca750982f22fd0f7a0a64c8df4f8ba8567",
+  "controlAcceptedPromptEvidenceSha256": "1cd4d340813fffddfc95cca4134585c9824cd5a63a717dffb877ee79acfe0b31",
+  "controlReviewRequired": false,
+  "promotionRule": "Only the six exact accepted source hashes may be promoted to metadata-bearing lossless masters, article WebP derivatives, and centered contain-mode 1200x630 social WebP derivatives.",
   "assets": [
     {
       "pageId":"huntingtons-disease","displayName":"Huntington's Disease","assetType":"pathology","revision":1,"decision":"candidate-after-output-audit","generationStatus":"complete-single-call","draft":"work/media-drafts/diseases-batch-052/huntingtons-disease-draft.png","generationRecord":"exec-7b97f5b6-2105-4320-af62-af91d32d6649.png","promptSha256":"283cbabe2cb983bdab009b02c9a6b0f4ae5d154e5f193521ceb36d9436f1883f","sha256":"cba77e4bc5d91a7aed671344b4e88ba7e4e83d8724ddfe6bd709b87404dc368b","fileSizeBytes":1684521,"dimensions":{"width":1536,"height":1024},"proposedSocialResizeFit":"contain","meshHeading":"Huntington Disease","meshId":"D006816","controlledIdentifier":"MeSH:D006816","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D006816","https://www.ninds.nih.gov/sites/default/files/2025-05/huntingtons-disease-hope-through-research.pdf"],"scientificFinding":"Current inherited progressive neurodegenerative condition with variable movement, cognitive, and behavioral manifestations. A neutral neuroanatomical orientation plate cannot establish diagnosis, pathology, or stage.","visualReview":"Three complete teaching groups: one intact lateral brain, one coronal brain cutaway with paired deep structures, and one connected network containing five prominent neuron bodies. No atrophy, lesion, patient, symptom scene, gene symbol, label, clipping, signature, or watermark is visible.","outputAudit":{"reviewedBy":"WikiBiome media task native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"promptRequestedSubjectDescription":"Three complete teaching models: lateral brain, coronal cutaway, and neural network.","observedSubjectDescription":"Three complete teaching groups: an intact lateral brain, a coronal brain cutaway with paired deep blue and rose structures, and a connected network containing five prominent neuron bodies.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"observedProminentNeuronBodyCount":5,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":26,"outerBackgroundMinRgb":[109,78,67],"foregroundBoundsAtLumaBelow220":{"minX":13,"minY":245,"maxX":1521,"maxY":760},"sourceEdgeContact":false,"containRequired":true,"promptDeviation":"none material; fine terminal neuron branches approach both horizontal margins without clipping","metadataConsistency":"pass"},"proposedAlt":"Three Huntington disease orientation models: an intact lateral brain, a coronal brain cutaway, and a five-neuron network.","proposedCaption":"Neutral Huntington disease neuroanatomical reconstruction with intact brain, coronal deep-structure orientation, and a generic neural network. Representative, non-diagnostic, and not a scan or pathology specimen.","proposedDescription":"WikiBiome scientific reconstruction of three neutral neuroanatomical teaching groups for Huntington disease on a pale cool field; it does not depict atrophy, a patient, symptom, stage, or diagnostic sign.","proposedProvenance":"Generated once from the immutable batch-052 prompt after MeSH and NINDS scope audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
