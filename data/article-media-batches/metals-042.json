@@ -12,14 +12,15 @@
   "controlAcceptedReviewManifestSha256": "41b9a9caa3fbb5786423fd4d2365719c322f6053f2c4b4327a57c53482fce272",
   "controlAcceptedPromptEvidenceSha256": "57ce6ae349bb9d7e16d4489ae29adfb5b080555211c09c41d68226b452ac9d55",
   "publicationMetadataPlan": {
-    "reviewOnly": true,
+    "reviewOnly": false,
     "creator": "OpenAI built-in image generation",
     "credit": "WikiBiome / Microbiome Medicine",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
     "digitalSourceType": "trainedAlgorithmicMedia",
     "mediaDescription": "Review-only scientific algorithmic technical-specimen reconstruction, not a photograph or analytical reference material",
-    "sourceUse": "PubChem supplied identity and material constraints only; no source image or design was copied."
+    "sourceUse": "PubChem supplied identity and material constraints only; no source image or design was copied.",
+    "promotionRule": "Control Tower independently verified review commit fe8a519 and authorized promotion of only its six accepted exact immutable PNG hashes."
   },
   "reviewStandard": "Current elemental identity, atomic number, PubChem CID, elemental-versus-compound boundary, defensible specimen form, native dimensions, literal output, prohibited content, edge field, crop safety, and metadata language were checked. Each route received exactly one immutable call. Observed output controls metadata.",
   "routeDecisionCount": 6,
@@ -38,6 +39,12 @@
     "acceptedReviewCommit": "fe8a519",
     "integratedReviewCommit": "fe8a519",
     "notes": "Control Tower verified the exact parent, immutable prompts and hashes, current elemental identities, atomic numbers, PubChem CIDs, elemental-versus-compound boundaries, literal native outputs, edge fields, crop-safe bounds, prohibited content, and zero public leakage."
+  },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-six-centered-cover-derivatives",
+    "notes": "Control Tower inspected all six native social derivatives at original detail. Every accepted specimen, fracture face, restrained surface feature, and both ends of each sealed ampoule remain visible and unclipped on the pale cool field."
   },
   "assets": [
     {

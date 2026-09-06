@@ -8,15 +8,21 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "78db156d7761e646426449bbb6655c71c93ad5db1edbb0cdee352e09a91b4976",
+    "registrySha256": "07cf5f446209fc4522ff72ef3ddf21427e8359873e5f5819619e9266c4f384f9",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "0d4060ca53a0c83d275d92912dd6bd955f6bf7091b5318d8afdd02ad5c68cf12",
+    "reviewLogSha256": "6bf00863eac93d01f25e1db8ccf6cb222dadbc5d46f114e1f2dc5dcc7d406318",
     "batchManifests": [
       {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
         "sha256": "3868462fb2b067bfd4b407a0cfe802dd91f5292c542e07a03127acee78f8add8"
+      },
+      {
+        "file": "data/article-media-batches/metals-042.json",
+        "batchId": "metals-042",
+        "status": "reviewed",
+        "sha256": "170be43bd2c57f0897b51739b9b24efda689b877d0f5651c5154006275827402"
       },
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -278,8 +284,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 223,
-    "remaining": 487,
+    "completed": 229,
+    "remaining": 481,
     "rejected": 30,
     "revised": 11,
     "scientificHolds": 15,
@@ -297,8 +303,8 @@
       "id": "metals",
       "label": "Metals",
       "total": 29,
-      "completed": 7,
-      "remaining": 22
+      "completed": 13,
+      "remaining": 16
     },
     {
       "id": "diseases",
@@ -1190,55 +1196,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 236,
-      "id": "calcium",
-      "title": "Calcium",
-      "route": "/article/calcium",
+      "queuePosition": 242,
+      "id": "iron",
+      "title": "Iron",
+      "route": "/article/iron",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 237,
-      "id": "chromium",
-      "title": "Chromium",
-      "route": "/article/chromium",
+      "queuePosition": 243,
+      "id": "lead",
+      "title": "Lead",
+      "route": "/article/lead",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 238,
-      "id": "cobalt",
-      "title": "Cobalt",
-      "route": "/article/cobalt",
+      "queuePosition": 244,
+      "id": "magnesium",
+      "title": "Magnesium",
+      "route": "/article/magnesium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 239,
-      "id": "copper",
-      "title": "Copper",
-      "route": "/article/copper",
+      "queuePosition": 245,
+      "id": "manganese",
+      "title": "Manganese",
+      "route": "/article/manganese",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 240,
-      "id": "gallium",
-      "title": "Gallium",
-      "route": "/article/gallium",
+      "queuePosition": 246,
+      "id": "mercury",
+      "title": "Mercury",
+      "route": "/article/mercury",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 241,
-      "id": "iodine",
-      "title": "Iodine",
-      "route": "/article/iodine",
+      "queuePosition": 247,
+      "id": "molybdenum",
+      "title": "Molybdenum",
+      "route": "/article/molybdenum",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
@@ -6171,7 +6177,15 @@
       "route": "/article/calcium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "calcium-technical-specimen-v1-master.png",
+        "publishedFile": "calcium-technical-specimen-v1.webp",
+        "socialFile": "calcium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 237,
@@ -6184,7 +6198,15 @@
       "route": "/article/chromium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "chromium-technical-specimen-v1-master.png",
+        "publishedFile": "chromium-technical-specimen-v1.webp",
+        "socialFile": "chromium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 238,
@@ -6197,7 +6219,15 @@
       "route": "/article/cobalt",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cobalt-technical-specimen-v1-master.png",
+        "publishedFile": "cobalt-technical-specimen-v1.webp",
+        "socialFile": "cobalt-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 239,
@@ -6210,7 +6240,15 @@
       "route": "/article/copper",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "copper-technical-specimen-v1-master.png",
+        "publishedFile": "copper-technical-specimen-v1.webp",
+        "socialFile": "copper-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 240,
@@ -6223,7 +6261,15 @@
       "route": "/article/gallium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "gallium-technical-specimen-v1-master.png",
+        "publishedFile": "gallium-technical-specimen-v1.webp",
+        "socialFile": "gallium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 241,
@@ -6236,7 +6282,15 @@
       "route": "/article/iodine",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "iodine-technical-specimen-v1-master.png",
+        "publishedFile": "iodine-technical-specimen-v1.webp",
+        "socialFile": "iodine-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 242,

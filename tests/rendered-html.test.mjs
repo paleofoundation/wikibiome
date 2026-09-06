@@ -2936,15 +2936,15 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-33-3-618/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
-    "calcium",
-    "chromium",
-    "cobalt",
-    "copper",
-    "gallium",
-    "iodine",
+    "iron",
+    "lead",
+    "magnesium",
+    "manganese",
+    "mercury",
+    "molybdenum",
   ]);
-  assert.equal(program.current.completed, 223);
-  assert.equal(program.current.remaining, 487);
+  assert.equal(program.current.completed, 229);
+  assert.equal(program.current.remaining, 481);
   assert.equal(program.current.rejected, 30);
   assert.equal(program.current.revised, 11);
   assert.equal(program.current.inReview, 0);
@@ -3603,6 +3603,52 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     const socialMetadata = await sharp(readFileSync(new URL(`../public/media-files/${media.socialFile}`, import.meta.url))).metadata();
     assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
   }
+  const batch042 = batches.find((batch) => batch.batchId === "metals-042");
+  assert.equal(batch042?.status, "reviewed");
+  assert.equal(batch042?.authorizedParent, "4fe5e66dd75a34c6081d2ce75c91da4d9b150062");
+  assert.equal(batch042?.auditCommit, "ba3b733");
+  assert.equal(batch042?.publicationMetadataPlan?.reviewOnly, false);
+  assert.equal(batch042?.routeDecisionCount, 6);
+  assert.equal(batch042?.candidateCount, 6);
+  assert.equal(batch042?.generationCallCount, 6);
+  assert.equal(batch042?.controlReviewRequired, false);
+  assert.equal(batch042?.controlFinalReview?.acceptedReviewCommit, "fe8a519");
+  assert.equal(batch042?.controlSocialCropReview?.status, "accepted-six-centered-cover-derivatives");
+  assert.equal(batch042?.controlAcceptedReviewManifestSha256, "41b9a9caa3fbb5786423fd4d2365719c322f6053f2c4b4327a57c53482fce272");
+  assert.equal(batch042?.controlAcceptedPromptEvidenceSha256, "57ce6ae349bb9d7e16d4489ae29adfb5b080555211c09c41d68226b452ac9d55");
+  const batch042ExpectedOutputs = new Map([
+    ["calcium", [20, "5460341", "421952de0b6dbefe0ae431561749f5304dc98a47dbf182b76177667044131170", "438def154e2426cb6c1a11c7983ffd322c876a93d3a451bf5558d11c9313fa6d", 1278073, 4, 1]],
+    ["chromium", [24, "23976", "bff59ab716fd1e739586e907418d20c6f3594cd0e883bc1c11c47096f93a6004", "cbee2f628d709b555257748f125cab9aefb29ced7779496fe0b51589363a4c6c", 1712375, 3, 3]],
+    ["cobalt", [27, "104730", "2361bac177ab9cb54319ca4e553acf47b6a597c90b282fb1772bf2ad9981ae67", "2d3a09e07636b838ef4b0b6564a1165ced4a14ef8fe8e47a88addbf056821c7e", 1861001, 3, 3]],
+    ["copper", [29, "23978", "130be643616e94a567b0d3800b8855e5eba651bb2e041e68b8945f998b4fa4f7", "9cb88556117dca94f0586c2110651a080ce6ac9510933b596eae82f494583c76", 1844491, 3, 3]],
+    ["gallium", [31, "5360835", "2795213e2f3982dbae4f11767bf2d76053ee92ffb5a61f4b811955d19f2cb4d3", "1000d9ce51cad4246c911227e3652e2597f0488f1649c7bd188c7791a54dd08b", 1266062, 2, 1]],
+    ["iodine", [53, "807", "f3506f405c713fee461d17c21a693394f9f0e0b008d8720f34515e24771bf8f9", "3fb0245d7d328307150a7e59975eb50768901af206d3963eb4eeee1e0f188b6a", 1484196, 4, 1]],
+  ]);
+  const batch042PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/metals-042.md", import.meta.url), "utf8");
+  for (const asset of batch042?.assets ?? []) {
+    const [atomicNumber, pubChemCid, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch042ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.atomicNumber, atomicNumber);
+    assert.equal(asset.pubChemCid, pubChemCid);
+    assert.equal(asset.promptSha256, promptSha256);
+    assert.equal(asset.sha256, sha256);
+    assert.equal(asset.fileSizeBytes, fileSize);
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), sha256);
+    const promptMatch = batch042PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
+    const media = articleMediaRegistry[asset.pageId];
+    assert.equal(media.subjectKind, "element");
+    assert.ok(media.scientificIdentifiers.some((identifier) => identifier.propertyID === "atomicNumber" && identifier.value === String(atomicNumber)));
+    assert.ok(media.scientificIdentifiers.some((identifier) => identifier.propertyID === "PubChem CID" && identifier.value === pubChemCid));
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.disposition, "approved");
+    const [draftPixels, masterPixels] = await Promise.all([sharp(draftBytes).removeAlpha().raw().toBuffer(), sharp(readFileSync(new URL(`../media/masters/${media.masterSource}`, import.meta.url))).removeAlpha().raw().toBuffer()]);
+    assert.equal(Buffer.compare(draftPixels, masterPixels), 0, `${asset.pageId} master must decode pixel-identically to accepted source`);
+    const socialMetadata = await sharp(readFileSync(new URL(`../public/media-files/${media.socialFile}`, import.meta.url))).metadata();
+    assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
+  }
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => ["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition));
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [
@@ -3729,7 +3775,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.doesNotMatch(html, /data-article-media-schema/);
   }
 
-  const fallbackResponse = await render("/article/calcium");
+  const fallbackResponse = await render("/article/iron");
   const fallback = await fallbackResponse.text();
   assert.match(fallback, /class="infobox-visual infobox-metal"/);
   assert.doesNotMatch(fallback, /class="article-media-figure"/);
@@ -4158,7 +4204,7 @@ test("publishes self-canonical metadata, social previews, and representative Sch
   assert.ok(signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease"));
   assert.ok(!signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease-signature"), "collection schema must resolve known signature aliases to canonical articles");
 
-  const noMediaResponse = await render("/article/calcium");
+  const noMediaResponse = await render("/article/iron");
   const noMediaHtml = await noMediaResponse.text();
   const noMediaSchema = structuredData(noMediaHtml, "data-article-schema");
   assert.ok(noMediaSchema["@graph"].some((node) => node["@type"] === "Article"));

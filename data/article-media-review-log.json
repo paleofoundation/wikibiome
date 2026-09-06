@@ -5043,6 +5043,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text names cadmium and literal forms; caption expands Cd and separates representative appearance from analytical identification." },
       "disposition": "approved", "notes": "Exact immutable Batch 041 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cadmium-draft.png", "sourceSha256": "c9a1691a6ff02b42d09892024e76d14fb3a6e7f7225e8893efe8f48397ecba18", "generationRecord": "exec-72a80e51-aec6-49ad-b58c-c92f4208fe54.png" }
+    },
+    "calcium|calcium-technical-specimen-v1.webp": {
+      "pageId": "calcium", "publishedFile": "calcium-technical-specimen-v1.webp", "masterSource": "calcium-technical-specimen-v1-master.png", "socialFile": "calcium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/20", "https://pubchem.ncbi.nlm.nih.gov/compound/5460341"], "notes": "Elemental identity, atomic number 20, PubChem CID 5460341, silvery form, reactivity, and oxygen-excluding containment are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete sealed clear ampoule with three separated silvery pieces and no exposed-air, reaction, calcium-compound, dietary, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names calcium, containment, and literal piece count; caption expands Ca and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 042 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "calcium-draft.png", "sourceSha256": "438def154e2426cb6c1a11c7983ffd322c876a93d3a451bf5558d11c9313fa6d", "generationRecord": "exec-b1a587c4-d2dc-4215-ba46-49544799eecf.png" }
+    },
+    "chromium|chromium-technical-specimen-v1.webp": {
+      "pageId": "chromium", "publishedFile": "chromium-technical-specimen-v1.webp", "masterSource": "chromium-technical-specimen-v1-master.png", "socialFile": "chromium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/24", "https://pubchem.ncbi.nlm.nih.gov/compound/23976"], "notes": "Elemental identity, atomic number 24, PubChem CID 23976, and hard steel-gray metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three steel-gray angular specimens without chromite, plated-product, pigment, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names chromium and literal fracture form; caption expands Cr and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 042 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "chromium-draft.png", "sourceSha256": "cbee2f628d709b555257748f125cab9aefb29ced7779496fe0b51589363a4c6c", "generationRecord": "exec-aea816b8-cc9d-4169-b737-0192ef00a037.png" }
+    },
+    "cobalt|cobalt-technical-specimen-v1.webp": {
+      "pageId": "cobalt", "publishedFile": "cobalt-technical-specimen-v1.webp", "masterSource": "cobalt-technical-specimen-v1-master.png", "socialFile": "cobalt-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/27", "https://pubchem.ncbi.nlm.nih.gov/compound/104730"], "notes": "Elemental identity, atomic number 27, PubChem CID 104730, and hard silver-gray metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three silver-gray angular specimens without pigment, ore, battery, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names cobalt and literal form; caption expands Co and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 042 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cobalt-draft.png", "sourceSha256": "2d3a09e07636b838ef4b0b6564a1165ced4a14ef8fe8e47a88addbf056821c7e", "generationRecord": "exec-6ea5428a-2663-46a2-b092-ddf50ac5c321.png" }
+    },
+    "copper|copper-technical-specimen-v1.webp": {
+      "pageId": "copper", "publishedFile": "copper-technical-specimen-v1.webp", "masterSource": "copper-technical-specimen-v1-master.png", "socialFile": "copper-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/29", "https://pubchem.ncbi.nlm.nih.gov/compound/23978"], "notes": "Elemental identity, atomic number 29, PubChem CID 23978, and reddish metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three reddish-copper specimens with minor dark oxidation and no wire, coin, ore, compound, patina spectacle, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names copper and literal surface appearance; caption expands Cu and separates representative oxidation from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 042 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "copper-draft.png", "sourceSha256": "9cb88556117dca94f0586c2110651a080ce6ac9510933b596eae82f494583c76", "generationRecord": "exec-69c1f57e-9fd8-4e7f-8958-c0df13773c1e.png" }
+    },
+    "gallium|gallium-technical-specimen-v1.webp": {
+      "pageId": "gallium", "publishedFile": "gallium-technical-specimen-v1.webp", "masterSource": "gallium-technical-specimen-v1-master.png", "socialFile": "gallium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/31", "https://pubchem.ncbi.nlm.nih.gov/compound/5360835"], "notes": "Elemental identity, atomic number 31, PubChem CID 5360835, silvery form, and near-room-temperature melting context are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete sealed clear ampoule with one coherent elongated silvery sample and adjoining lobe, without hand, melting demonstration, mercury implication, compound, or product imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names gallium, containment, and the literal sample form; caption expands Ga and qualifies phase variability." },
+      "disposition": "approved", "notes": "Exact immutable Batch 042 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "gallium-draft.png", "sourceSha256": "1000d9ce51cad4246c911227e3652e2597f0488f1649c7bd188c7791a54dd08b", "generationRecord": "exec-c2454b2f-5eb2-4e3c-af55-6a8f199ac14f.png" }
+    },
+    "iodine|iodine-technical-specimen-v1.webp": {
+      "pageId": "iodine", "publishedFile": "iodine-technical-specimen-v1.webp", "masterSource": "iodine-technical-specimen-v1-master.png", "socialFile": "iodine-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/53", "https://pubchem.ncbi.nlm.nih.gov/compound/807"], "notes": "Elemental identity, atomic number 53, PubChem CID 807 molecular iodine, and dark crystalline material form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete sealed clear ampoule with three dark gray-violet crystals and no visible vapor, product, iodide, supplement, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names elemental iodine, containment, and literal crystal count; caption expands I and distinguishes the molecular element from iodide." },
+      "disposition": "approved", "notes": "Exact immutable Batch 042 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "iodine-draft.png", "sourceSha256": "3fb0245d7d328307150a7e59975eb50768901af206d3963eb4eeee1e0f188b6a", "generationRecord": "exec-2d3b582e-61fb-4c97-8d4b-f5ff0d8d0a4a.png" }
     }
   },
   "rejectedAssets": [
