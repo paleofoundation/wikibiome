@@ -2,6 +2,8 @@
 
 Every publishable scientific image is declared in `lib/article-media-registry.mjs` and must have an exact approved entry in `data/article-media-review-log.json`. The registry and review log are joint publication inputs; a file cannot appear as reviewed article media when either record is absent or inconsistent.
 
+New prompt records use paired `<!-- PROMPT <page-id> START/END -->` markers around the exact fenced input. Both media gates recompute every marker-bound prompt SHA-256 and fail on drift, duplicate or orphaned blocks, missing candidate-asset hashes, or hashed assets without a matching block. Historical unmarked prompt packets remain readable as legacy provenance.
+
 ## Canonical filenames
 
 The generator derives all three filenames from the canonical article slug, an approved asset type, and a positive revision number:

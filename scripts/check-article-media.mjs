@@ -7,7 +7,7 @@ import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { requiredEmbeddedMetadataTokens } from "../lib/article-media-metadata.mjs";
 import { assertArticleMediaRecord } from "../lib/article-media-validation.mjs";
 import { assertCanonicalMediaCorpus, loadCanonicalMediaRoutes } from "./article-media-corpus.mjs";
-import { assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
+import { assertBatchPromptIntegrity, assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
 
 const projectRoot = process.cwd();
 const masters = resolve(projectRoot, "media/masters");
@@ -105,6 +105,7 @@ for (const hold of reviewLog.rejectedAssets.filter((asset) => asset.disposition 
 
 for (const { name, data } of batchManifests) {
   if (!data.promptRecord || !existsSync(resolve(projectRoot, data.promptRecord))) throw new Error(`${name}: immutable prompt provenance is missing.`);
+  assertBatchPromptIntegrity(data, readFileSync(resolve(projectRoot, data.promptRecord), "utf8"), name);
   for (const asset of data.assets.filter((candidate) => candidate.assetType && candidate.revision)) {
     if (data.status === "reviewed") {
       if (!/^(accepted|approved)/.test(asset.decision ?? "")) throw new Error(`${name}/${asset.pageId}: reviewed batch disposition is invalid.`);

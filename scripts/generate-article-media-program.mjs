@@ -10,7 +10,7 @@ import {
   loadCanonicalMediaRoutes,
   mediaCoverageGroups,
 } from "./article-media-corpus.mjs";
-import { activeMediaReviewStatuses, assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
+import { activeMediaReviewStatuses, assertBatchPromptIntegrity, assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
 
 const projectRoot = process.cwd();
 const outputPath = resolve(projectRoot, "data/article-media-coverage.generated.json");
@@ -79,6 +79,7 @@ const batchManifests = readdirSync(batchDirectory)
 for (const { name, data } of batchManifests) {
   if (!data.batchId || !data.category || !data.status || !Array.isArray(data.assets)) throw new Error(`${name}: media batch manifest is incomplete.`);
   if (!data.promptRecord || !existsSync(resolve(projectRoot, data.promptRecord))) throw new Error(`${name}: immutable prompt record is missing.`);
+  assertBatchPromptIntegrity(data, readFileSync(resolve(projectRoot, data.promptRecord), "utf8"), name);
   if (data.status === "reviewed") {
     if (!/^\d{4}-\d{2}-\d{2}$/.test(data.reviewedOn ?? "")) throw new Error(`${name}: reviewed batch requires a review date.`);
     for (const asset of data.assets.filter((candidate) => candidate.assetType && candidate.revision)) {
