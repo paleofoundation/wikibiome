@@ -2,7 +2,10 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-058",
   "category": "mechanisms",
-  "status": "in-review",
+  "status": "reviewed",
+  "reviewedOn": "2026-09-06",
+  "auditCommit": "fe45de96bd0d67c5b46a1efc3b023ed087391d9a",
+  "promptFreezeCommit": "fe45de96bd0d67c5b46a1efc3b023ed087391d9a",
   "createdOn": "2026-09-06",
   "authorizedParent": "6c54a1a62ce929dd1412e927f05237c1bff98092",
   "generator": "OpenAI built-in image generation",
@@ -16,7 +19,16 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
+  "controlAcceptedReviewManifestSha256": "0ccfbb41804fba688a04f18b6d066db826b0dfd79383a1527653fc8d3d2fdaa4",
+  "controlAcceptedPromptEvidenceSha256": "0980ec224b5c9ab7cbc34f2a83576e54318f56695df90472502d26d49d196462",
+  "controlFinalReview": {
+    "status": "accepted-exact-hash",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "a0e25fbdbb8ad7d2deda64785eff58e85dc1f8e1",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["alpha-synuclein", "amyloid-beta", "amyloid-beta-aggregation", "antimicrobial-resistance", "arachidonic-acid", "aromatase"]
+  },
   "assets": [
     {
       "pageId": "alpha-synuclein",
