@@ -351,7 +351,7 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
   assert.match(html, /1,939/);
-  assert.match(html, /817/);
+  assert.match(html, /818/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
 
@@ -413,6 +413,62 @@ test("server-renders real article and directory pages through the shared redesig
   assert.match(directory, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(directory, /class="directory-record-media"[\s\S]*src="\/media\/image\/akkermansia-muciniphila-morphology-v2\.webp"/);
   assert.match(directory, /wikibiome-logo\.png/);
+});
+
+test("server-renders Urea and contextual H. pylori concept links", async () => {
+  const [ureaResponse, helicobacterResponse, historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/urea"),
+    render("/article/helicobacter-pylori"),
+    render("/article/urea/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [ureaResponse, helicobacterResponse, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const [urea, helicobacter, history, sitemap] = await Promise.all([
+    ureaResponse.text(),
+    helicobacterResponse.text(),
+    historyResponse.text(),
+    sitemapResponse.text(),
+  ]);
+
+  assert.equal(htmlTitle(urea), "Urea — WikiBiome");
+  assert.equal(htmlCanonical(urea), `${PUBLIC_ORIGIN}/article/urea`);
+  assert.match(urea, /Urea is not urease/i);
+  assert.match(urea, /href="\/article\/urease"/);
+  assert.match(urea, /href="\/article\/helicobacter-pylori"/);
+  assert.match(urea, /href="\/article\/chronic-kidney-disease"/);
+  assert.match(urea, /href="\/article\/uremic-toxins"/);
+  assert.match(urea, /href="\/source\/maier-2019-nickel-microbial-pathogenesis"/);
+
+  const lead = helicobacter.match(/<div class="lead-copy">([\s\S]*?)<\/div>/)?.[1] ?? "";
+  assert.match(lead, /href="\/article\/urease"/);
+  assert.match(lead, /\[NiFe\][\s\S]{0,80}href="\/article\/hydrogenase"/i);
+
+  const articleStart = helicobacter.indexOf('<article class="article-body">');
+  const referencesStart = helicobacter.indexOf('<section class="references-section"', articleStart);
+  assert.ok(articleStart >= 0 && referencesStart > articleStart);
+  const article = helicobacter.slice(articleStart, referencesStart);
+  for (const id of [
+    "urea",
+    "tight-junctions",
+    "nickel-transporters",
+    "histidine",
+    "gastric-ulcer",
+    "gastric-adenocarcinoma",
+    "bismuth",
+  ]) {
+    assert.match(
+      article,
+      new RegExp(`href="/article/${escapeRegExp(id)}"`),
+      `expected contextual link to ${id}`,
+    );
+  }
+
+  assert.match(history, /wiki\/concepts\/urea\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/urea</loc>`));
 });
 
 test("permanently redirects retired taxon URLs to one current-name canonical record", async () => {
@@ -2398,10 +2454,10 @@ test("renders the production discovery, provenance, support, and participation s
 
   assert.match(readiness, /Every route accounted for/);
   assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
-  assert.match(readiness, /817[\s\S]{0,110}records[\s\S]{0,110}710[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /818[\s\S]{0,110}records[\s\S]{0,110}711[\s\S]{0,80}canonical article routes/);
   assert.match(
     readiness,
-    new RegExp(`${Object.keys(articleMediaRegistry).length} of 710 canonical article routes currently have reviewed`),
+    new RegExp(`${Object.keys(articleMediaRegistry).length} of 711 canonical article routes currently have reviewed`),
   );
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
@@ -2411,7 +2467,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /449e8005c315/);
+  assert.match(readiness, /7ec609cd735d/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -2702,7 +2758,7 @@ test("keeps internal operational records out of the public encyclopedia", async 
 
   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   assert.equal(content._stats.analyses, 4);
-  assert.equal(content._stats.totalPages, 817);
+  assert.equal(content._stats.totalPages, 818);
   assert.ok(!content.pages.some((page) => publicContentExclusionReason(page)));
   assert.equal(publicContentExclusionReason({
     id: "weekly-content-maintenance-2026-06-01",
@@ -2877,9 +2933,9 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "449e8005c3156d1b7943d2cdedd5b4386b9f5703");
+  assert.equal(manifest.source.commit, "7ec609cd735d6389ba33b17cfa9a3d7ed8ce27ed");
   assert.equal(manifest.content.sha256, digest);
-  assert.equal(manifest.content.pages, 817);
+  assert.equal(manifest.content.pages, 818);
   assert.equal(manifest.content.sources, 1939);
   assert.equal(manifest.sourceMetadataPolicy.version, 1);
   assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
@@ -2907,7 +2963,7 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 13);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6447);
+  assert.equal(manifest.audit.generatedReferences, 6453);
   assert.equal(manifest.audit.recoveredInlineReferences, 349);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
