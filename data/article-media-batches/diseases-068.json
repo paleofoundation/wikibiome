@@ -31,6 +31,18 @@
   "quarantinedGenerationCount": 0,
   "revisionCount": 1,
   "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "cfec02112b28a4810da27c9acf8fb8383a31c142bf13ddc3c7c0a5615e2c8142",
+  "controlAcceptedPromptEvidenceSha256": "9fbd42580dd9836962524aaa6ca9a578407d8119eece3d656812461c85be81ea",
+  "controlFinalReview": {
+    "status": "accepted-exact-hash-revision-2",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "6ff4875334f5f9ab616a322b583becff8ec06391",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["multiple-sclerosis"],
+    "acceptedSourceSha256": ["7324d8985633a8b1db30686ebd8ba40f23eb494d0ca80a3b09027d4264f5b6fd"],
+    "permanentlyRejectedPriorSourceSha256": ["e9feb7d5ee2e33799fa9bad319e3ca7fea484897e38ec575051fed4f90d99b18"]
+  },
+  "promotionRule": "Only the exact accepted revision-2 source hash may be promoted to a metadata-bearing lossless v2 master, v2 article WebP, and centered contain-mode 1200 by 630 v2 social WebP. The Batch 053 revision-1 source remains immutable, rejected, and non-public.",
   "assets": [
     {
       "pageId": "multiple-sclerosis",

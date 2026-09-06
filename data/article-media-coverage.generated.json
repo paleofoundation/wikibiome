@@ -82,7 +82,7 @@
         "file": "data/article-media-batches/diseases-068.json",
         "batchId": "diseases-068",
         "status": "reviewed",
-        "sha256": "ddae0c2c7ec5af1c1e3b1c25110c01665315fe4db5691af375b7f0ce521e9c2a"
+        "sha256": "0ed91842520e86c0273fd4ccd717a8ca71bef00f521ae01c75d5da9a19381a01"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
