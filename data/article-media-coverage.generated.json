@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "b0da6c9e2e4e19414d47493c1088462eacc6d71d97336a9a9224674a186f63f4",
+    "registrySha256": "10f587695a265f7d971eab750f6dd15fcf7ef00c7086eeff561b3f9f0819bc42",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "7b611e2f6cffbfd1c149710ac513bad53d8d96b7472cf231e0de788512cc9f5c",
+    "reviewLogSha256": "3f41bbd53c718a92df4d9e1cadad3b199aa14f6f096be6126a3a6e7ee3b1fae2",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -106,7 +106,7 @@
         "file": "data/article-media-batches/mechanisms-061.json",
         "batchId": "mechanisms-061",
         "status": "reviewed",
-        "sha256": "ad65843c45e43776cd9677cca466598b6a6a9e5b43f22a3927b91f324ba4bdbc"
+        "sha256": "a73f39d09fc12399b2f36e1c0520b3f2ace2d4507f4bb67e6fb377fe8c38fe9b"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -398,9 +398,9 @@
   },
   "current": {
     "total": 710,
-    "completed": 326,
-    "remaining": 384,
-    "rejected": 39,
+    "completed": 328,
+    "remaining": 382,
+    "rejected": 43,
     "revised": 11,
     "scientificHolds": 15,
     "inReview": 0
@@ -431,8 +431,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 18,
-      "remaining": 215
+      "completed": 20,
+      "remaining": 213
     },
     {
       "id": "host-defenses",
@@ -464,6 +464,58 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "bile-salt-hydrolase",
+      "batchId": "mechanisms-061",
+      "draft": "work/media-drafts/mechanisms-batch-061/bile-salt-hydrolase-draft.png",
+      "sha256": "7333f88f9884ca8c0b019f106b1f9a67f64e7ae6554b86e71374c93aa26fff04",
+      "generationRecord": "exec-48451c09-c836-4e71-b06c-e2b3b638d82e.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Generated structures enter the frozen outer 32-pixel field at x=31 and x=1500.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "biomarkers",
+      "batchId": "mechanisms-061",
+      "draft": "work/media-drafts/mechanisms-batch-061/biomarkers-draft.png",
+      "sha256": "9d23cb5fa72716e450f2a1022535e55a21a84197e0207b011e99690746569d9f",
+      "generationRecord": "exec-777a98b6-8eb3-4985-a14a-7f839b8e3b4a.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The full-canvas blue-gray gradient and shadow field violates the immutable uniform pale-field and no-vignette requirement.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "blood-brain-barrier",
+      "batchId": "mechanisms-061",
+      "draft": "work/media-drafts/mechanisms-batch-061/blood-brain-barrier-draft.png",
+      "sha256": "8a45fa06d23dd8752ae29d4afa2f5778eff2e9327295705dbc90ae9a58572847",
+      "generationRecord": "exec-119b1930-a077-4800-8a3e-607141308bb7.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Astrocytic processes fade out at several frame boundaries and reach y=997, leaving incomplete anatomy.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "butyrate",
+      "batchId": "mechanisms-061",
+      "draft": "work/media-drafts/mechanisms-batch-061/butyrate-draft.png",
+      "sha256": "0978f70ec86202f77c1f548d5790f54aa456ca67a2af0299343301eae08a16cc",
+      "generationRecord": "exec-9a2cf59a-f84d-4b91-9634-8920490df874.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The rightmost bacterial form reaches x=1509 and enters the frozen outer 32-pixel field.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
     {
       "pageId": "bacterial-vaginosis",
       "batchId": "mechanisms-060",
@@ -8775,7 +8827,15 @@
       "route": "/article/cadaverine",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cadaverine-mechanism-v1-master.png",
+        "publishedFile": "cadaverine-mechanism-v1.webp",
+        "socialFile": "cadaverine-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 354,
@@ -8788,7 +8848,15 @@
       "route": "/article/cambialistic-enzymes",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cambialistic-enzymes-mechanism-v1-master.png",
+        "publishedFile": "cambialistic-enzymes-mechanism-v1.webp",
+        "socialFile": "cambialistic-enzymes-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 355,

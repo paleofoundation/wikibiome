@@ -11262,9 +11262,123 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "cadaverine|cadaverine-mechanism-v1.webp": {
+      "pageId": "cadaverine",
+      "publishedFile": "cadaverine-mechanism-v1.webp",
+      "masterSource": "cadaverine-mechanism-v1-master.png",
+      "socialFile": "cadaverine-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/273",
+          "https://www.wikibiome.com/article/cadaverine"
+        ],
+        "notes": "PubChem controls chemical identity; WikiBiome controls article context."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "The five-carbon/two-nitrogen identity model, four bacterial forms, and colon-lumen model are complete and separated."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption state heavy-atom identity and exclude pathway, species, concentration, toxicology, biomarker, disease, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "cambialistic-enzymes|cambialistic-enzymes-mechanism-v1.webp": {
+      "pageId": "cambialistic-enzymes",
+      "publishedFile": "cambialistic-enzymes-mechanism-v1.webp",
+      "masterSource": "cambialistic-enzymes-mechanism-v1-master.png",
+      "socialFile": "cambialistic-enzymes-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/36173172/",
+          "https://pubmed.ncbi.nlm.nih.gov/3722201/"
+        ],
+        "notes": "Two PubMed records support the limited Fe/Mn cambialistic SOD boundary."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Two matching generic enzyme models and two separated sphere tokens remain complete and do not depict exchange or activity."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude literal structure, metal assignment by color, exchange, preference, activity, species, mechanism, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [
+    {
+      "pageId": "bile-salt-hydrolase",
+      "batchId": "mechanisms-061",
+      "draft": "work/media-drafts/mechanisms-batch-061/bile-salt-hydrolase-draft.png",
+      "sha256": "7333f88f9884ca8c0b019f106b1f9a67f64e7ae6554b86e71374c93aa26fff04",
+      "generationRecord": "exec-48451c09-c836-4e71-b06c-e2b3b638d82e.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Generated structures enter the frozen outer 32-pixel field at x=31 and x=1500.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "biomarkers",
+      "batchId": "mechanisms-061",
+      "draft": "work/media-drafts/mechanisms-batch-061/biomarkers-draft.png",
+      "sha256": "9d23cb5fa72716e450f2a1022535e55a21a84197e0207b011e99690746569d9f",
+      "generationRecord": "exec-777a98b6-8eb3-4985-a14a-7f839b8e3b4a.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The full-canvas blue-gray gradient and shadow field violates the immutable uniform pale-field and no-vignette requirement.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "blood-brain-barrier",
+      "batchId": "mechanisms-061",
+      "draft": "work/media-drafts/mechanisms-batch-061/blood-brain-barrier-draft.png",
+      "sha256": "8a45fa06d23dd8752ae29d4afa2f5778eff2e9327295705dbc90ae9a58572847",
+      "generationRecord": "exec-119b1930-a077-4800-8a3e-607141308bb7.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Astrocytic processes fade out at several frame boundaries and reach y=997, leaving incomplete anatomy.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "butyrate",
+      "batchId": "mechanisms-061",
+      "draft": "work/media-drafts/mechanisms-batch-061/butyrate-draft.png",
+      "sha256": "0978f70ec86202f77c1f548d5790f54aa456ca67a2af0299343301eae08a16cc",
+      "generationRecord": "exec-9a2cf59a-f84d-4b91-9634-8920490df874.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The rightmost bacterial form reaches x=1509 and enters the frozen outer 32-pixel field.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
     {
       "pageId": "bacterial-vaginosis",
       "batchId": "mechanisms-060",
