@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "c880cf8921ac918a4eb63b9b62ff37e0f085b17e6e538f240e969cfa70510107",
+    "registrySha256": "d4e04d6ed4eee0e224976abeebaee63b33421d52cb9f0e444a1f8e3ebffa23d5",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "936fc7bd572acc6f52979aadfa55ee0d3ae998af45e5d58fddadc0018be5ebd5",
+    "reviewLogSha256": "714bf764846be35739efbc6da5b1048de4ce82a152f721ce422771d7c48ca8a1",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -75,8 +75,8 @@
       {
         "file": "data/article-media-batches/diseases-056.json",
         "batchId": "diseases-056",
-        "status": "awaiting-control-review",
-        "sha256": "dd6e49ec122f3e87ab380253d92e04ff6ad4bee883a726cfec78f1fd69f7bd10"
+        "status": "reviewed",
+        "sha256": "7ba375c16880014c343f23529b11c73c99e05e2a3df1c094e6671ebd0c241644"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -368,12 +368,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 302,
-    "remaining": 408,
+    "completed": 308,
+    "remaining": 402,
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
@@ -394,8 +394,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 59,
-      "remaining": 7
+      "completed": 65,
+      "remaining": 1
     },
     {
       "id": "mechanisms",
@@ -8029,12 +8029,14 @@
       "route": "/article/schizophrenia",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-056",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-056/schizophrenia-draft.png",
-        "sha256": "b0432d7573e55c3d8e8b60c48220adf669c3a346601273c6390b50ea2831c40d"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "schizophrenia-pathology-v1-master.png",
+        "publishedFile": "schizophrenia-pathology-v1.webp",
+        "socialFile": "schizophrenia-pathology-v1-social.webp"
       }
     },
     {
@@ -8048,12 +8050,14 @@
       "route": "/article/sepsis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-056",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-056/sepsis-draft.png",
-        "sha256": "a3bf9ec6548472dcea206e78834e8d2420eb3407330242d969f3149353c77257"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "sepsis-pathology-v1-master.png",
+        "publishedFile": "sepsis-pathology-v1.webp",
+        "socialFile": "sepsis-pathology-v1-social.webp"
       }
     },
     {
@@ -8067,12 +8071,14 @@
       "route": "/article/tuberculosis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-056",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-056/tuberculosis-draft.png",
-        "sha256": "15885e93ecf6e9369780316fcd490af65ff187bffefe45da357e1c5ef725f6fb"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "tuberculosis-pathology-v1-master.png",
+        "publishedFile": "tuberculosis-pathology-v1.webp",
+        "socialFile": "tuberculosis-pathology-v1-social.webp"
       }
     },
     {
@@ -8087,12 +8093,14 @@
       "route": "/article/type-1-diabetes",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-056",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-056/type-1-diabetes-draft.png",
-        "sha256": "4de49f02254624fd052265aa95839512c871ace53a91e9dd02c187dae9a4a814"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "type-1-diabetes-pathology-v1-master.png",
+        "publishedFile": "type-1-diabetes-pathology-v1.webp",
+        "socialFile": "type-1-diabetes-pathology-v1-social.webp"
       }
     },
     {
@@ -8107,12 +8115,14 @@
       "route": "/article/type-2-diabetes",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-056",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-056/type-2-diabetes-draft.png",
-        "sha256": "17bdcf4cb344ff8234aaca35a980225984883762b02bdaeb1f6e11d04937ed82"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "type-2-diabetes-pathology-v1-master.png",
+        "publishedFile": "type-2-diabetes-pathology-v1.webp",
+        "socialFile": "type-2-diabetes-pathology-v1-social.webp"
       }
     },
     {
@@ -8127,12 +8137,14 @@
       "route": "/article/ulcerative-colitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-056",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-056/ulcerative-colitis-draft.png",
-        "sha256": "f344f7c199a861b2adec8ff75192112b7590463e3d0b8bf2725bb9d4959df6cf"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "ulcerative-colitis-pathology-v1-master.png",
+        "publishedFile": "ulcerative-colitis-pathology-v1.webp",
+        "socialFile": "ulcerative-colitis-pathology-v1-social.webp"
       }
     },
     {

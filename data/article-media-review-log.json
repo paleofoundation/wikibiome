@@ -10517,6 +10517,192 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "schizophrenia|schizophrenia-pathology-v1.webp": {
+      "pageId": "schizophrenia",
+      "publishedFile": "schizophrenia-pathology-v1.webp",
+      "masterSource": "schizophrenia-pathology-v1-master.png",
+      "socialFile": "schizophrenia-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D012559",
+          "https://www.nimh.nih.gov/health/publications/schizophrenia"
+        ],
+        "notes": "MeSH and NIMH confirm the condition identity and heterogeneous, non-stigmatizing scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show intact brain, abstract network orientation, and three generic neurons without a patient or symptom trope."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude patient, symptom, divided-identity, lesion, network-mechanism, biomarker, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "sepsis|sepsis-pathology-v1.webp": {
+      "pageId": "sepsis",
+      "publishedFile": "sepsis-pathology-v1.webp",
+      "masterSource": "sepsis-pathology-v1-master.png",
+      "socialFile": "sepsis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D018805",
+          "https://www.cdc.gov/sepsis/about/index.html"
+        ],
+        "notes": "MeSH and CDC confirm systemic response to infection with varied pathogen classes and source sites."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete supported groups show heart, lungs, and kidneys with no pathogen, blood, or visible organ damage."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude bloodstream, pathogen, source-site, failure, stage, emergency, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "tuberculosis|tuberculosis-pathology-v1.webp": {
+      "pageId": "tuberculosis",
+      "publishedFile": "tuberculosis-pathology-v1.webp",
+      "masterSource": "tuberculosis-pathology-v1-master.png",
+      "socialFile": "tuberculosis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D014376",
+          "https://www.cdc.gov/tb/about/index.html"
+        ],
+        "notes": "MeSH and CDC confirm broad tuberculosis identity, usual lung involvement, possible extrapulmonary sites, and active/inactive distinction."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show lungs, four node-like forms, and a lumbar-spine segment without lesion or transmission cue."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude lung-only scope, prevalence, lesion, transmission, active/inactive state, stage, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "type-1-diabetes|type-1-diabetes-pathology-v1.webp": {
+      "pageId": "type-1-diabetes",
+      "publishedFile": "type-1-diabetes-pathology-v1.webp",
+      "masterSource": "type-1-diabetes-pathology-v1-master.png",
+      "socialFile": "type-1-diabetes-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D003922",
+          "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes"
+        ],
+        "notes": "MeSH and NIDDK confirm type 1 diabetes identity, pancreatic cell involvement, and possible onset at any age."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show pancreas/duodenum, one cellular cluster, and five generic cells without immune attack or damage."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude age, cell typing/count/loss, immune attack, insulin, glucose, treatment, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "type-2-diabetes|type-2-diabetes-pathology-v1.webp": {
+      "pageId": "type-2-diabetes",
+      "publishedFile": "type-2-diabetes-pathology-v1.webp",
+      "masterSource": "type-2-diabetes-pathology-v1-master.png",
+      "socialFile": "type-2-diabetes-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D003924",
+          "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes"
+        ],
+        "notes": "MeSH and NIDDK confirm type 2 diabetes identity and impaired insulin-use and insulin-production scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete neutral groups show pancreas/duodenum, liver, and muscle fascicle without patient or body-size imagery."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude body-size, lifestyle, visible insulin resistance, glucose, mechanism, stage, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "ulcerative-colitis|ulcerative-colitis-pathology-v1.webp": {
+      "pageId": "ulcerative-colitis",
+      "publishedFile": "ulcerative-colitis-pathology-v1.webp",
+      "masterSource": "ulcerative-colitis-pathology-v1-master.png",
+      "socialFile": "ulcerative-colitis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D003093",
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/ulcerative-colitis/definition-facts"
+        ],
+        "notes": "MeSH and NIDDK confirm ulcerative colitis identity and large-intestinal lining scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show colon anatomy and two layered wall models, one with a shallow bounded surface change and intact deeper layers."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude literal histology, Crohn comparison, extent, activity, complication, severity, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [

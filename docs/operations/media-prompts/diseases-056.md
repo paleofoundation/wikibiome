@@ -95,3 +95,7 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 | `ulcerative-colitis` | 1 | `d3b931145f1b3d3a3907ccb29a3d2d14e05d5c7eb8af7e3c6dbe8185bf002220` |
 
 These hashes bind the exact marker-contained prompt bodies. Any prompt change requires a new authority audit and new freeze before generation.
+
+## Immutable generation and promotion checkpoint
+
+Exactly six built-in calls were made, one for each frozen prompt. All returned 1536 × 1024 originals are preserved under `work/media-drafts/diseases-batch-056/` and passed literal native review. Control Tower accepted the six exact hashes at commit `034334e`. Each accepted source was promoted to a metadata-bearing lossless master, article WebP, and centered `contain` 1200 × 630 social WebP. Publication metadata follows observed output and retains every condition-specific limitation above.
