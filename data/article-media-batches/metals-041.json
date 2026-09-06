@@ -40,6 +40,12 @@
     "integratedReviewCommit": "7f6f949",
     "notes": "Control Tower verified the exact parent, immutable prompts and hashes, current elemental identities, atomic numbers, PubChem CIDs, elemental-versus-compound boundaries, literal native outputs, edge fields, crop-safe bounds, prohibited content, and zero public leakage."
   },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-six-centered-cover-derivatives",
+    "notes": "Control Tower inspected all six native social derivatives at original detail. Every accepted specimen, fracture face, restrained surface feature, and both sealed barium ampoule ends remain visible and unclipped on the pale cool field."
+  },
   "assets": [
     {
       "pageId": "aluminum", "displayName": "Aluminum", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",

@@ -8,10 +8,16 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "bc2364985709c4b048d1756f349ad6e6a1b6406f3ef803976f03a5a64cf897a1",
+    "registrySha256": "78db156d7761e646426449bbb6655c71c93ad5db1edbb0cdee352e09a91b4976",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f20a2713c0bfc857f3491314167572d418eb2d2b79a1715320b5acf70f3f26a8",
+    "reviewLogSha256": "0d4060ca53a0c83d275d92912dd6bd955f6bf7091b5318d8afdd02ad5c68cf12",
     "batchManifests": [
+      {
+        "file": "data/article-media-batches/metals-041.json",
+        "batchId": "metals-041",
+        "status": "reviewed",
+        "sha256": "3868462fb2b067bfd4b407a0cfe802dd91f5292c542e07a03127acee78f8add8"
+      },
       {
         "file": "data/article-media-batches/microorganisms-001.json",
         "batchId": "microorganisms-001",
@@ -272,8 +278,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 217,
-    "remaining": 493,
+    "completed": 223,
+    "remaining": 487,
     "rejected": 30,
     "revised": 11,
     "scientificHolds": 15,
@@ -291,8 +297,8 @@
       "id": "metals",
       "label": "Metals",
       "total": 29,
-      "completed": 1,
-      "remaining": 28
+      "completed": 7,
+      "remaining": 22
     },
     {
       "id": "diseases",
@@ -1184,55 +1190,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 230,
-      "id": "aluminum",
-      "title": "Aluminum",
-      "route": "/article/aluminum",
+      "queuePosition": 236,
+      "id": "calcium",
+      "title": "Calcium",
+      "route": "/article/calcium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 231,
-      "id": "antimony",
-      "title": "Antimony",
-      "route": "/article/antimony",
+      "queuePosition": 237,
+      "id": "chromium",
+      "title": "Chromium",
+      "route": "/article/chromium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 232,
-      "id": "arsenic",
-      "title": "Arsenic",
-      "route": "/article/arsenic",
+      "queuePosition": 238,
+      "id": "cobalt",
+      "title": "Cobalt",
+      "route": "/article/cobalt",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 233,
-      "id": "barium",
-      "title": "Barium",
-      "route": "/article/barium",
+      "queuePosition": 239,
+      "id": "copper",
+      "title": "Copper",
+      "route": "/article/copper",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 234,
-      "id": "bismuth",
-      "title": "Bismuth",
-      "route": "/article/bismuth",
+      "queuePosition": 240,
+      "id": "gallium",
+      "title": "Gallium",
+      "route": "/article/gallium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 235,
-      "id": "cadmium",
-      "title": "Cadmium",
-      "route": "/article/cadmium",
+      "queuePosition": 241,
+      "id": "iodine",
+      "title": "Iodine",
+      "route": "/article/iodine",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
@@ -6039,7 +6045,15 @@
       "route": "/article/aluminum",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "aluminum-technical-specimen-v1-master.png",
+        "publishedFile": "aluminum-technical-specimen-v1.webp",
+        "socialFile": "aluminum-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 231,
@@ -6052,7 +6066,15 @@
       "route": "/article/antimony",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "antimony-technical-specimen-v1-master.png",
+        "publishedFile": "antimony-technical-specimen-v1.webp",
+        "socialFile": "antimony-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 232,
@@ -6065,7 +6087,15 @@
       "route": "/article/arsenic",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "arsenic-technical-specimen-v1-master.png",
+        "publishedFile": "arsenic-technical-specimen-v1.webp",
+        "socialFile": "arsenic-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 233,
@@ -6078,7 +6108,15 @@
       "route": "/article/barium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "barium-technical-specimen-v1-master.png",
+        "publishedFile": "barium-technical-specimen-v1.webp",
+        "socialFile": "barium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 234,
@@ -6091,7 +6129,15 @@
       "route": "/article/bismuth",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "bismuth-technical-specimen-v1-master.png",
+        "publishedFile": "bismuth-technical-specimen-v1.webp",
+        "socialFile": "bismuth-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 235,
@@ -6104,7 +6150,15 @@
       "route": "/article/cadmium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cadmium-technical-specimen-v1-master.png",
+        "publishedFile": "cadmium-technical-specimen-v1.webp",
+        "socialFile": "cadmium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 236,

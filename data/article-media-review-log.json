@@ -4995,6 +4995,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal count and flagellar relationship; caption states type-species anchoring and non-diagnostic limits." },
       "disposition": "approved", "notes": "Exact immutable batch-040 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "vibrio-draft.png", "sourceSha256": "923aa09b8b58073cda4b95c384c62adfab373ca9a1d31dd82458666b0d3aa29e", "generationRecord": "exec-46d00b8c-1af1-4db7-ace4-b55db4b76ab7.png" }
+    },
+    "aluminum|aluminum-technical-specimen-v1.webp": {
+      "pageId": "aluminum", "publishedFile": "aluminum-technical-specimen-v1.webp", "masterSource": "aluminum-technical-specimen-v1-master.png", "socialFile": "aluminum-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/13", "https://pubchem.ncbi.nlm.nih.gov/compound/5359268"], "notes": "Elemental identity, atomic number 13, PubChem CID 5359268, and silvery-white material description are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three solid silvery cut specimens without bauxite, alumina, product, powder, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names aluminum and literal forms; caption expands Al and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 041 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "aluminum-draft.png", "sourceSha256": "e4be9a2c2f4759e541078cbab9e0cda2e9c3df247649689d32231384c53f5c9c", "generationRecord": "exec-e285a4bf-fb23-43fc-8a94-33195ecc3fc4.png" }
+    },
+    "antimony|antimony-technical-specimen-v1.webp": {
+      "pageId": "antimony", "publishedFile": "antimony-technical-specimen-v1.webp", "masterSource": "antimony-technical-specimen-v1-master.png", "socialFile": "antimony-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/51", "https://pubchem.ncbi.nlm.nih.gov/compound/5354495"], "notes": "Elemental identity, atomic number 51, PubChem CID 5354495, standard state, and brittle metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three silvery-gray brittle crystalline fragments without stibnite, ore, powder, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names antimony and literal fracture form; caption expands Sb and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 041 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "antimony-draft.png", "sourceSha256": "6c87fcf8a60eb6983dda3cd6cdae325c2782d9be9fef8dcb862be2d1f166d4dc", "generationRecord": "exec-d2acce3e-2677-49ab-8cd4-8294221c01d3.png" }
+    },
+    "arsenic|arsenic-technical-specimen-v1.webp": {
+      "pageId": "arsenic", "publishedFile": "arsenic-technical-specimen-v1.webp", "masterSource": "arsenic-technical-specimen-v1-master.png", "socialFile": "arsenic-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/33", "https://pubchem.ncbi.nlm.nih.gov/compound/5359596"], "notes": "Elemental identity, atomic number 33, PubChem CID 5359596, gray allotrope, and steel-gray brittle crystalline form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three steel-gray layered brittle fragments without yellow allotrope, ore, colored mineral matrix, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names gray elemental arsenic and literal form; caption expands As and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 041 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "arsenic-draft.png", "sourceSha256": "addd03fe7850c7aa059fb7c43fd89e7ef05721dd8999873edf32ceef0b00fa11", "generationRecord": "exec-d5eb71a7-28fd-44bb-9bd0-48b19db3b1e8.png" }
+    },
+    "barium|barium-technical-specimen-v1.webp": {
+      "pageId": "barium", "publishedFile": "barium-technical-specimen-v1.webp", "masterSource": "barium-technical-specimen-v1-master.png", "socialFile": "barium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/56", "https://pubchem.ncbi.nlm.nih.gov/compound/5355457"], "notes": "Elemental identity, atomic number 56, PubChem CID 5355457, silvery-white form, and oxygen-excluding storage requirement are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete sealed clear ampoule with four separated silvery pieces and no exposed-air, reaction, compound, medical-contrast, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names barium, containment, and literal piece count; caption expands Ba and explains rather than visually overclaims the containment rationale." },
+      "disposition": "approved", "notes": "Exact immutable Batch 041 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "barium-draft.png", "sourceSha256": "228806355f5db761d205b186f3359993f51391fa290e90f102fdc594dbe1c2e4", "generationRecord": "exec-912ad908-66d1-459a-9b03-85f898c5d77b.png" }
+    },
+    "bismuth|bismuth-technical-specimen-v1.webp": {
+      "pageId": "bismuth", "publishedFile": "bismuth-technical-specimen-v1.webp", "masterSource": "bismuth-technical-specimen-v1-master.png", "socialFile": "bismuth-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/83", "https://pubchem.ncbi.nlm.nih.gov/compound/5359367"], "notes": "Elemental identity, atomic number 83, PubChem CID 5359367, brittle silvery-white material, and possible iridescent tarnish are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three predominantly silvery fractured pieces with restrained undertones and ridge tarnish, without decorative hopper crystals, compound, or product imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names bismuth and literal surface appearance; caption expands Bi and separates representative tarnish from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 041 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bismuth-draft.png", "sourceSha256": "4292ce4ffd60db02e16f7e6c4342cf1d0cc27a879dafebfea9796aa841092bbb", "generationRecord": "exec-64771ea7-b263-4155-88c3-230ee65a4655.png" }
+    },
+    "cadmium|cadmium-technical-specimen-v1.webp": {
+      "pageId": "cadmium", "publishedFile": "cadmium-technical-specimen-v1.webp", "masterSource": "cadmium-technical-specimen-v1-master.png", "socialFile": "cadmium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/48", "https://pubchem.ncbi.nlm.nih.gov/compound/23973"], "notes": "Elemental identity, atomic number 48, PubChem CID 23973, and soft blue-tinged silver-white solid form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three blue-tinged silver-white solid specimens without powder, battery, pigment, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names cadmium and literal forms; caption expands Cd and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 041 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cadmium-draft.png", "sourceSha256": "c9a1691a6ff02b42d09892024e76d14fb3a6e7f7225e8893efe8f48397ecba18", "generationRecord": "exec-72a80e51-aec6-49ad-b58c-c92f4208fe54.png" }
     }
   },
   "rejectedAssets": [
