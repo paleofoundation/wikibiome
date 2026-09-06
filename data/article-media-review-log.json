@@ -13277,6 +13277,63 @@
       ],
       "requiredResolution": "Reconcile saccharomyces-boulardii as an explicit probiotic strain/product concept or audited alias under Saccharomyces cerevisiae, preserving intervention-specific content while maintaining one canonical morphology owner.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, endpoints, and image-sitemap entries. Batch 034 makes no queue substitution and does not copy or alias the Saccharomyces cerevisiae image."
+    },
+    {
+      "pageId": "epithelial-mesenchymal-transition",
+      "controlledIdentifier": "MeSH:D058750;GO:0001837",
+      "batchId": "mechanisms-069",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower generation-failure audit",
+      "disposition": "generation-failed-safety-moderation",
+      "failureRequestId": "934e4574-49c0-4ca5-bde1-cde54ac12c34",
+      "reason": "The single built-in generation request returned moderation_blocked in category sexual at output review and produced no image.",
+      "requiredResolution": "Any future attempt requires a separately frozen medically neutral revision prompt, fresh authorization, and the full scientific-media review chain; do not silently retry this call.",
+      "routingImpact": "No source asset exists. The route remains uncovered and owns no registry key, master, derivative, structured media record, endpoint, or image-sitemap entry."
+    },
+    {
+      "pageId": "essential-oils",
+      "controlledIdentifier": "MeSH:D009822;CHEBI:83630;PubChemSID:504687600;PubChemCID:none",
+      "batchId": "mechanisms-069",
+      "draft": "work/media-drafts/mechanisms-batch-069/essential-oils-draft.png",
+      "sha256": "132d273e14e8262405877a11820c1b023e09e28dc9334e790a9c7619810ff42d",
+      "generationRecord": "exec-4d5d4a17-0597-4240-a75f-1ea93e09c1cf.png",
+      "promptSha256": "04a03e27dc720e607e98fadc07a713ce2fc53392ba45e481ca351a76c15cb733",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The leaf, flower, and rind are conspicuously aligned one-for-one below the three vials, violating the frozen no-source-to-vial-alignment boundary and implying an unsupported botanical source-to-sample mapping.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "fxr",
+      "controlledIdentifier": "MeSH:D000099150;NCBIGene:9971;HGNC:7967;UniProt:Q96RI1",
+      "batchId": "mechanisms-069",
+      "draft": "work/media-drafts/mechanisms-batch-069/fxr-draft.png",
+      "sha256": "a9601e58835db71bd99c77dd537e827db5d49dd990d6385d4e3bd7983adc769c",
+      "generationRecord": "exec-bc79cbc2-81ad-459f-adb8-31013e31d86d.png",
+      "promptSha256": "94eb73931f8119d308add0e8af02f8d59cc8cf59d358481bb22d9ba5261a8caf",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The molecular-surface-like protein body has a conspicuous deep central cleft that reads as a mapped binding pocket, conflicting with the generic-folded-model and no-validated-structure-precision boundaries.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "fecal-microbiota-transplant",
+      "controlledIdentifier": "MeSH:D000069467",
+      "batchId": "mechanisms-069",
+      "draft": "work/media-drafts/mechanisms-batch-069/fecal-microbiota-transplant-draft.png",
+      "sha256": "f38271b27bae92d280a9ba47887e45a19a1eb379ca4ef8d3fbddfda9a4ed80d0",
+      "generationRecord": "exec-ac4e144d-bb5d-4115-b169-ef961eafe594.png",
+      "promptSha256": "7da2ea31504266562a6445239d74493b9cd1fa6c85a061ab887875d71b0e704c",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The microbial group contains only eight bodies—three short rods, three coccoids, and two curved or ovoid forms—not the frozen nine-body 3+3+3 composition.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
     }
   ],
   "revisedAssets": [

@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "2fd6b27c5c5d6dced342a190381e88eb73316c20d9c3a3245e8774470cc27d1b",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "0f0dad32eac56f8f1993508ef0befa668265312ef54faa4fa4d9fbf3ccac3457",
+    "reviewLogSha256": "c5edf73c95cdabd4929471fabfa68dbd7902f143737ca97dcc84b5e0cc607beb",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -153,8 +153,8 @@
       {
         "file": "data/article-media-batches/mechanisms-069.json",
         "batchId": "mechanisms-069",
-        "status": "prompt-frozen",
-        "sha256": "5f5170b841a1859ebcfd3e6536194e5a057f19b7f6873903e36fd7334a45579d"
+        "status": "awaiting-control-review",
+        "sha256": "bbde8c5634c8d0c31b180d9003b3ead69c4204a4c973b59f716212f07bac7a4b"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -448,10 +448,10 @@
     "total": 710,
     "completed": 354,
     "remaining": 356,
-    "rejected": 54,
+    "rejected": 58,
     "revised": 12,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 2
   },
   "categories": [
     {
@@ -1594,6 +1594,63 @@
       ],
       "requiredResolution": "Reconcile saccharomyces-boulardii as an explicit probiotic strain/product concept or audited alias under Saccharomyces cerevisiae, preserving intervention-specific content while maintaining one canonical morphology owner.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, endpoints, and image-sitemap entries. Batch 034 makes no queue substitution and does not copy or alias the Saccharomyces cerevisiae image."
+    },
+    {
+      "pageId": "epithelial-mesenchymal-transition",
+      "controlledIdentifier": "MeSH:D058750;GO:0001837",
+      "batchId": "mechanisms-069",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower generation-failure audit",
+      "disposition": "generation-failed-safety-moderation",
+      "failureRequestId": "934e4574-49c0-4ca5-bde1-cde54ac12c34",
+      "reason": "The single built-in generation request returned moderation_blocked in category sexual at output review and produced no image.",
+      "requiredResolution": "Any future attempt requires a separately frozen medically neutral revision prompt, fresh authorization, and the full scientific-media review chain; do not silently retry this call.",
+      "routingImpact": "No source asset exists. The route remains uncovered and owns no registry key, master, derivative, structured media record, endpoint, or image-sitemap entry."
+    },
+    {
+      "pageId": "essential-oils",
+      "controlledIdentifier": "MeSH:D009822;CHEBI:83630;PubChemSID:504687600;PubChemCID:none",
+      "batchId": "mechanisms-069",
+      "draft": "work/media-drafts/mechanisms-batch-069/essential-oils-draft.png",
+      "sha256": "132d273e14e8262405877a11820c1b023e09e28dc9334e790a9c7619810ff42d",
+      "generationRecord": "exec-4d5d4a17-0597-4240-a75f-1ea93e09c1cf.png",
+      "promptSha256": "04a03e27dc720e607e98fadc07a713ce2fc53392ba45e481ca351a76c15cb733",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The leaf, flower, and rind are conspicuously aligned one-for-one below the three vials, violating the frozen no-source-to-vial-alignment boundary and implying an unsupported botanical source-to-sample mapping.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "fxr",
+      "controlledIdentifier": "MeSH:D000099150;NCBIGene:9971;HGNC:7967;UniProt:Q96RI1",
+      "batchId": "mechanisms-069",
+      "draft": "work/media-drafts/mechanisms-batch-069/fxr-draft.png",
+      "sha256": "a9601e58835db71bd99c77dd537e827db5d49dd990d6385d4e3bd7983adc769c",
+      "generationRecord": "exec-bc79cbc2-81ad-459f-adb8-31013e31d86d.png",
+      "promptSha256": "94eb73931f8119d308add0e8af02f8d59cc8cf59d358481bb22d9ba5261a8caf",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The molecular-surface-like protein body has a conspicuous deep central cleft that reads as a mapped binding pocket, conflicting with the generic-folded-model and no-validated-structure-precision boundaries.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "fecal-microbiota-transplant",
+      "controlledIdentifier": "MeSH:D000069467",
+      "batchId": "mechanisms-069",
+      "draft": "work/media-drafts/mechanisms-batch-069/fecal-microbiota-transplant-draft.png",
+      "sha256": "f38271b27bae92d280a9ba47887e45a19a1eb379ca4ef8d3fbddfda9a4ed80d0",
+      "generationRecord": "exec-ac4e144d-bb5d-4115-b169-ef961eafe594.png",
+      "promptSha256": "7da2ea31504266562a6445239d74493b9cd1fa6c85a061ab887875d71b0e704c",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The microbial group contains only eight bodies—three short rods, three coccoids, and two curved or ovoid forms—not the frozen nine-body 3+3+3 composition.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
     }
   ],
   "revisedAssets": [
@@ -1748,55 +1805,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 391,
-      "id": "epithelial-mesenchymal-transition",
-      "title": "Epithelial-Mesenchymal Transition",
-      "route": "/article/epithelial-mesenchymal-transition",
+      "queuePosition": 397,
+      "id": "fenton-chemistry",
+      "title": "Fenton Chemistry",
+      "route": "/article/fenton-chemistry",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 392,
-      "id": "essential-oils",
-      "title": "Essential Oils",
-      "route": "/article/essential-oils",
+      "queuePosition": 398,
+      "id": "fermentative-metabolism",
+      "title": "Fermentative Metabolism",
+      "route": "/article/fermentative-metabolism",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 393,
-      "id": "estrobolome",
-      "title": "Estrobolome",
-      "route": "/article/estrobolome",
+      "queuePosition": 399,
+      "id": "ferroptosis",
+      "title": "Ferroptosis",
+      "route": "/article/ferroptosis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 394,
-      "id": "estrogen-recirculation",
-      "title": "Estrogen Recirculation",
-      "route": "/article/estrogen-recirculation",
+      "queuePosition": 400,
+      "id": "functional-shielding",
+      "title": "Functional Shielding",
+      "route": "/article/functional-shielding",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 395,
-      "id": "fxr",
-      "title": "Farnesoid X Receptor (FXR)",
-      "route": "/article/fxr",
+      "queuePosition": 401,
+      "id": "gaba",
+      "title": "GABA (Gamma-Aminobutyric Acid)",
+      "route": "/article/gaba",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 396,
-      "id": "fecal-microbiota-transplant",
-      "title": "Fecal Microbiota Transplant (FMT)",
-      "route": "/article/fecal-microbiota-transplant",
+      "queuePosition": 402,
+      "id": "gene-regulation",
+      "title": "Gene Regulation",
+      "route": "/article/gene-regulation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -10006,7 +10063,15 @@
       "route": "/article/epithelial-mesenchymal-transition",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-069",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower generation-failure audit",
+        "disposition": "generation-failed-safety-moderation",
+        "reason": "The single built-in generation request returned moderation_blocked in category sexual at output review and produced no image.",
+        "requiredResolution": "Any future attempt requires a separately frozen medically neutral revision prompt, fresh authorization, and the full scientific-media review chain; do not silently retry this call."
+      }
     },
     {
       "queuePosition": 392,
@@ -10019,7 +10084,14 @@
       "route": "/article/essential-oils",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-069",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The leaf, flower, and rind are conspicuously aligned one-for-one below the three vials, violating the frozen no-source-to-vial-alignment boundary and implying an unsupported botanical source-to-sample mapping."
+      }
     },
     {
       "queuePosition": 393,
@@ -10032,7 +10104,13 @@
       "route": "/article/estrobolome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-069",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-069/estrobolome-draft.png",
+        "sha256": "14f6dacb4e9e45305d04fb62787788ea6fd98a59705f8484847caeeaf0a050a7"
+      }
     },
     {
       "queuePosition": 394,
@@ -10045,7 +10123,13 @@
       "route": "/article/estrogen-recirculation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-069",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-069/estrogen-recirculation-draft.png",
+        "sha256": "dadcb65e793b117fe268d1a9e69ec35fc407ab4eb569a4ff6da48c32a1de9ca2"
+      }
     },
     {
       "queuePosition": 395,
@@ -10058,7 +10142,14 @@
       "route": "/article/fxr",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-069",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The molecular-surface-like protein body has a conspicuous deep central cleft that reads as a mapped binding pocket, conflicting with the generic-folded-model and no-validated-structure-precision boundaries."
+      }
     },
     {
       "queuePosition": 396,
@@ -10071,7 +10162,14 @@
       "route": "/article/fecal-microbiota-transplant",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-069",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower dual independent native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The microbial group contains only eight bodies—three short rods, three coccoids, and two curved or ovoid forms—not the frozen nine-body 3+3+3 composition."
+      }
     },
     {
       "queuePosition": 397,
