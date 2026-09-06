@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-060",
+  "category": "mechanisms",
+  "status": "prompt-frozen",
+  "createdOn": "2026-09-06",
+  "authorizedParent": "ce8e0ca44cb75daa284abdb29690350ebc6c6a84",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-060.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, micrograph, scan, assay result, or diagnostic image",
+    "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied."
+  },
+  "controlReviewRequired": true,
+  "routeDecisionCount": 6,
+  "generationCallCount": 0,
+  "assets": [
+    {"pageId":"bacterial-vaginosis","displayName":"Bacterial Vaginosis","proposedAssetType":"mechanism","revision":1,"decision":"cleared-for-single-call","generationStatus":"pending-single-call","controlledIdentifier":"MeSH:D016585","promptSha256":"1649c1b1e963d88368051be7dbf3a7ca937338537456fe6ff8233a77aea4bf88","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D016585"]},
+    {"pageId":"bacteriophages","displayName":"Bacteriophages","proposedAssetType":"mechanism","revision":1,"decision":"cleared-for-single-call","generationStatus":"pending-single-call","controlledIdentifier":"MeSH:D001435","promptSha256":"305f0cb9b491511196c6e9b79e9c735adfd6f2ca6cdab14d4092e217c7761912","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D001435"]},
+    {"pageId":"bdnf","displayName":"Brain-Derived Neurotrophic Factor (BDNF)","proposedAssetType":"mechanism","revision":1,"decision":"cleared-for-single-call","generationStatus":"pending-single-call","controlledIdentifier":"UniProt:P23560","promptSha256":"db94e55325c1afcbc7d069d4a56b82e78e2ddc6a44bd67a80841c09b5c3db7b6","scientificReferences":["https://www.uniprot.org/uniprotkb/P23560/entry"]},
+    {"pageId":"beta-glucuronidase","displayName":"Beta-Glucuronidase","proposedAssetType":"mechanism","revision":1,"decision":"cleared-for-single-call","generationStatus":"pending-single-call","controlledIdentifier":"EC:3.2.1.31","promptSha256":"bc873565fef28dc7e562365a697436f10670dfd48f140550604818c3ae70f713","scientificReferences":["https://enzyme.expasy.org/EC/3.2.1.31"]},
+    {"pageId":"beta-lactamase","displayName":"Beta-Lactamase","proposedAssetType":"mechanism","revision":1,"decision":"cleared-for-single-call","generationStatus":"pending-single-call","controlledIdentifier":"EC:3.5.2.6","promptSha256":"f371ed2f7caa1f35b4af7ed20354b16c3431e92ea14ac9d4d0fa12f7970287e8","scientificReferences":["https://enzyme.expasy.org/EC/3.5.2.6"]},
+    {"pageId":"bile-acid-metabolism","displayName":"Bile Acid Metabolism","proposedAssetType":"mechanism","revision":1,"decision":"cleared-for-single-call","generationStatus":"pending-single-call","controlledIdentifier":"WikiBiome:bile-acid-metabolism","promptSha256":"49751cf6964435aad666a974e6b9e04a361dafb16616dcf43f5147d4d9753576","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D001647"]}
+  ]
+}
