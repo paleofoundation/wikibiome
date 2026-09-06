@@ -93,3 +93,7 @@ Exactly six built-in calls were attempted, one per cleared route. Five returned 
 | `cardiovascular-disease` | `exec-53703ee3-a5a0-44f8-978b-e31ced1008a9.png` | `532077fbb73b22597570186e3edb1457519f768aa4feec22584e3b04daf62e00` | 1,967,234 | Complete heart and major vessels plus separate circular artery cross-section with restrained eccentric plaque and open lumen. `contain` required to preserve the full heart. | approve for exact-hash review |
 
 The four approved outputs contain no text, labels, people, pills, treatment scenes, blood spray, gore, diagnostic scans, or decorative metaphors. The Barrett output and absent breast-cancer output are ineligible for a registry key, master, derivative, endpoint, schema node, or sitemap entry. Prompt intent is not reported as observed fact.
+
+## Control Tower exact-hash acceptance
+
+Control Tower accepted immutable review commit `05ed476` on 2026-09-06. The accepted review-manifest SHA-256 is `e70357e797c88c138849c37ad46342546c9e17ab74bf443b53996b13092fdfa8`; the accepted prompt-evidence SHA-256 is `7f0706021267e0f0896194a9077afe7b1b9588c1403d1f5b9889266e6d9a4668`. Promotion is limited to the exact Anxiety Disorders, Autism Spectrum Disorder, Bipolar Disorder, and Cardiovascular Diseases source hashes above. Barrett Esophagus remains quarantined and Breast Cancer has no output; neither may publish from this review chain.

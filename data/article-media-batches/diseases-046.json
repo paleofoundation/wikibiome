@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "diseases-046",
   "category": "diseases",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-06",
   "authorizedParent": "062926f2117a63dc15eb3b4d3d52a9aa7ac89af0",
@@ -28,7 +28,17 @@
   "failedGenerationCount": 1,
   "quarantinedGenerationCount": 1,
   "revisionCount": 0,
-  "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "e70357e797c88c138849c37ad46342546c9e17ab74bf443b53996b13092fdfa8",
+  "controlAcceptedPromptEvidenceSha256": "7f0706021267e0f0896194a9077afe7b1b9588c1403d1f5b9889266e6d9a4668",
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "status": "accepted-exact-hash-partial-promotion",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "05ed476",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["anxiety", "autism-spectrum-disorder", "bipolar-disorder", "cardiovascular-disease"],
+    "nonPublishablePageIds": ["barretts-esophagus", "breast-cancer"]
+  },
   "assets": [
     { "pageId": "anxiety", "displayName": "Anxiety Disorders", "assetType": "pathology", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "draft": "work/media-drafts/diseases-batch-046/anxiety-draft.png", "generationRecord": "exec-cdab52c8-da43-482d-b382-02179486a3ab.png", "promptSha256": "2fb574ca940b8e7e9aee44221e9da8f2e408245d9e57ae5554952a64def259f7", "sha256": "1b9718115f1b9d82bb0d6ef1bde7f60006b7c1de412e15f62cf7c6b67b846b99", "fileSizeBytes": 1545767, "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit": "contain", "meshHeading": "Anxiety Disorders", "meshId": "D001008", "controlledIdentifier": "MeSH:D001008", "representationBoundary": "Non-diagnostic anatomical orientation to brain, autonomic pathways, and gastrointestinal tract; not a depiction of a patient, symptom severity, or a visible lesion.", "scientificReferences": ["https://meshb.nlm.nih.gov/record/ui?ui=D001008", "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders"], "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptIntentTrusted":false,"observedSubjectDescription":"One translucent anonymous anatomical model from head through pelvis showing brain, brainstem, paired descending neural pathways, stomach, and intestinal tract.","observedVisibleBodyCount":1,"observedSpatialGroupingCount":1,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[120,141,157],"foregroundBoundsAtLumaBelow220":{"minX":385,"minY":13,"maxX":1085,"maxY":1023},"sourceEdgeContact":true,"containRequired":true,"metadataConsistency":"pass"} },
     { "pageId": "autism-spectrum-disorder", "displayName": "Autism Spectrum Disorder", "assetType": "pathology", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "draft": "work/media-drafts/diseases-batch-046/autism-spectrum-disorder-draft.png", "generationRecord": "exec-12c6d148-fb5e-4cc1-8439-97020a8db26b.png", "promptSha256": "b1ad41e2653d587059189eb29a32794f532afeb4de98a3ee572fb4690333954b", "sha256": "7bdefed7a738c6d253da8c195fcbecffed1d9e14e33141052dba35c48e6dac9b", "fileSizeBytes": 1971652, "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit": "contain", "meshHeading": "Autism Spectrum Disorder", "meshId": "D000067877", "controlledIdentifier": "MeSH:D000067877", "representationBoundary": "Non-diagnostic neurodevelopmental anatomical orientation to brain, synapse, and gut-brain axis; never a damaged-brain claim or portrait of an autistic person.", "scientificReferences": ["https://meshb.nlm.nih.gov/record/ui?ui=D000067877", "https://pmc.ncbi.nlm.nih.gov/articles/PMC9066426/"], "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptIntentTrusted":false,"observedSubjectDescription":"Three separated anatomical groupings: intact brain, circular synaptic inset, and intestinal tract, with a thin descending neural connection.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[146,143,150],"foregroundBoundsAtLumaBelow220":{"minX":221,"minY":32,"maxX":1417,"maxY":999},"sourceEdgeContact":false,"containRequired":true,"metadataConsistency":"pass"} },
