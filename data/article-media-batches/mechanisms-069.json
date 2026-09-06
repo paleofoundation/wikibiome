@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-069",
   "category": "mechanisms",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-06",
   "authorizedParent": "f9b8be1d9a2012b7bea2e2d4367b7894461fc1b1",
@@ -19,7 +19,7 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, micrograph, scan, assay result, diagnostic image, treatment result, or procedural instruction",
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied. Related identifiers are explicitly distinguished from exact concept identities."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "reviewStandard": "Each of the six frozen routes received exactly one built-in generation call. One call returned no raster after output safety moderation. Five originals were preserved and inspected independently at native 1536 by 1024 resolution. Literal output, exact body and group counts, prohibited content, outer 32-pixel field, crop bounds, hashes, and conservative meaning controlled disposition; prompt intent was never treated as observation. Reviewer disagreement was resolved fail-closed.",
   "routeDecisionCount": 6,
   "candidateCount": 2,
@@ -42,7 +42,20 @@
     "acceptedSourceSha256": ["14f6dacb4e9e45305d04fb62787788ea6fd98a59705f8484847caeeaf0a050a7", "dadcb65e793b117fe268d1a9e69ec35fc407ab4eb569a4ff6da48c32a1de9ca2"],
     "nonPublishablePageIds": ["epithelial-mesenchymal-transition", "essential-oils", "fxr", "fecal-microbiota-transplant"]
   },
-  "promotionRule": "Only the exact accepted estrobolome and estrogen-recirculation source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. The essential-oils, FXR, and FMT originals remain immutable non-public quarantines; EMT has no source raster.",
+  "promotionRule": "Only the exact accepted estrobolome and estrogen-recirculation source hashes were promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. The essential-oils, FXR, and FMT originals remain immutable non-public quarantines; EMT has no source raster.",
+  "controlSocialCropReview": "accepted-two-centered-contain-derivatives-after-dual-native-review",
+  "promotionDerivatives": {
+    "estrobolome": {
+      "masterSha256": "7288250bce1bf371e5eea334de622fc4c2fdffa1ba740a5c12df513d71fdca7a",
+      "articleSha256": "6b2ce0d2de996e486db3cefbcd35309168047d28ddb86a89910c0960f1e09f98",
+      "socialSha256": "3db923ad7f014841e209c323cad6f949be89944c9a238b8d774ae7344484014d"
+    },
+    "estrogen-recirculation": {
+      "masterSha256": "f0e99bf0824b389f138aa999384b426062a0a5ce7d3a8598a9884ffdcd671410",
+      "articleSha256": "db298a6c00457b542270d2170b6bf42146c7d88f01e54d386d86ad1a680dc801",
+      "socialSha256": "160f196fbd0fb86ec300ee536ee95abdd8ef431d6a48cc901832415b3ec4f8b6"
+    }
+  },
   "assets": [
     {
       "pageId": "epithelial-mesenchymal-transition",
@@ -126,6 +139,9 @@
       "fileSizeBytes": 1729711,
       "dimensions": {"width": 1536, "height": 1024},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "7288250bce1bf371e5eea334de622fc4c2fdffa1ba740a5c12df513d71fdca7a",
+      "articleSha256": "6b2ce0d2de996e486db3cefbcd35309168047d28ddb86a89910c0960f1e09f98",
+      "socialSha256": "3db923ad7f014841e209c323cad6f949be89944c9a238b8d774ae7344484014d",
       "scientificReferences": [
         "https://www.wikibiome.com/article/estrobolome",
         "https://pubmed.ncbi.nlm.nih.gov/22018233/",
@@ -176,6 +192,9 @@
       "fileSizeBytes": 1598881,
       "dimensions": {"width": 1536, "height": 1024},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "f0e99bf0824b389f138aa999384b426062a0a5ce7d3a8598a9884ffdcd671410",
+      "articleSha256": "db298a6c00457b542270d2170b6bf42146c7d88f01e54d386d86ad1a680dc801",
+      "socialSha256": "160f196fbd0fb86ec300ee536ee95abdd8ef431d6a48cc901832415b3ec4f8b6",
       "scientificReferences": [
         "https://www.wikibiome.com/article/estrogen-recirculation",
         "https://meshb.nlm.nih.gov/record/ui?ui=D004764",

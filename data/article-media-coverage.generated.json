@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "2fd6b27c5c5d6dced342a190381e88eb73316c20d9c3a3245e8774470cc27d1b",
+    "registrySha256": "f23226efd4d6a9bf4ab64b6db2c3c828d9197e746b074cf2462fb6e2d48f4a91",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "c5edf73c95cdabd4929471fabfa68dbd7902f143737ca97dcc84b5e0cc607beb",
+    "reviewLogSha256": "b98c206a05246d9d7a9cb77605b6a12af4268254ad023d1182b8a4c8a18cd03b",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -153,8 +153,8 @@
       {
         "file": "data/article-media-batches/mechanisms-069.json",
         "batchId": "mechanisms-069",
-        "status": "approved-awaiting-promotion",
-        "sha256": "56d80329ebea2b3a39f58bb7c8c868aa88388a7b94e38dc23f59f52d2d55681c"
+        "status": "reviewed",
+        "sha256": "5c469d9886c62b93e58fd51d4bd8c5e0d894a3cc74492d173e3d37fb4e3bb13b"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -446,12 +446,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 354,
-    "remaining": 356,
+    "completed": 356,
+    "remaining": 354,
     "rejected": 58,
     "revised": 12,
     "scientificHolds": 15,
-    "inReview": 2
+    "inReview": 0
   },
   "categories": [
     {
@@ -479,8 +479,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 45,
-      "remaining": 188
+      "completed": 47,
+      "remaining": 186
     },
     {
       "id": "host-defenses",
@@ -10104,12 +10104,14 @@
       "route": "/article/estrobolome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-069",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-069/estrobolome-draft.png",
-        "sha256": "14f6dacb4e9e45305d04fb62787788ea6fd98a59705f8484847caeeaf0a050a7"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "estrobolome-mechanism-v1-master.png",
+        "publishedFile": "estrobolome-mechanism-v1.webp",
+        "socialFile": "estrobolome-mechanism-v1-social.webp"
       }
     },
     {
@@ -10123,12 +10125,14 @@
       "route": "/article/estrogen-recirculation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-069",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-069/estrogen-recirculation-draft.png",
-        "sha256": "dadcb65e793b117fe268d1a9e69ec35fc407ab4eb569a4ff6da48c32a1de9ca2"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "estrogen-recirculation-mechanism-v1-master.png",
+        "publishedFile": "estrogen-recirculation-mechanism-v1.webp",
+        "socialFile": "estrogen-recirculation-mechanism-v1-social.webp"
       }
     },
     {

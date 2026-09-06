@@ -12192,6 +12192,80 @@
         "generationRecord": "exec-7fc6ccac-8ccf-446e-b93c-423ad4ac36e9.png",
         "rejectedPredecessorSha256": "e9feb7d5ee2e33799fa9bad319e3ca7fea484897e38ec575051fed4f90d99b18"
       }
+    },
+    "estrobolome|estrobolome-mechanism-v1.webp": {
+      "pageId": "estrobolome",
+      "publishedFile": "estrobolome-mechanism-v1.webp",
+      "masterSource": "estrobolome-mechanism-v1-master.png",
+      "socialFile": "estrobolome-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.wikibiome.com/article/estrobolome",
+          "https://pubmed.ncbi.nlm.nih.gov/22018233/",
+          "https://pubmed.ncbi.nlm.nih.gov/31636122/",
+          "https://pubmed.ncbi.nlm.nih.gov/42401355/",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D004967",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D005966"
+        ],
+        "notes": "The defining literature supplies the canonical functional-gene-collection concept. Related MeSH records and current reviews constrain microbial, estrogen, and glucuronidase context without turning those identifiers into exact synonyms, a fixed taxonomic guild, universal activity, or a causal disease claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Dual native review confirmed one intact intestinal-lumen cutaway with two straight rods, two ovoids, and one curved microbial body, three equal DNA helices, and three matching non-literal four-ring context tokens, all separated and unconnected."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption enumerate the literal intestinal, microbial, DNA, and token groups and explicitly exclude taxonomic membership, gene assignment, measured enzyme activity, recirculation, and causal inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "estrobolome-draft.png",
+        "sourceSha256": "14f6dacb4e9e45305d04fb62787788ea6fd98a59705f8484847caeeaf0a050a7"
+      }
+    },
+    "estrogen-recirculation|estrogen-recirculation-mechanism-v1.webp": {
+      "pageId": "estrogen-recirculation",
+      "publishedFile": "estrogen-recirculation-mechanism-v1.webp",
+      "masterSource": "estrogen-recirculation-mechanism-v1-master.png",
+      "socialFile": "estrogen-recirculation-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.wikibiome.com/article/estrogen-recirculation",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D004764",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D004967",
+          "https://amigo.geneontology.org/amigo/term/GO:0008210",
+          "https://pubmed.ncbi.nlm.nih.gov/40180172/"
+        ],
+        "notes": "The WikiBiome route remains the exact concept owner. MeSH and GO supply related circulation, hormone, and metabolic contexts, while current literature supports conservative anatomy orientation without licensing a directional loop, measured conversion, recirculation rate, microbial causality, or disease effect."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Dual native review confirmed one complete integrated liver-gallbladder-duct assembly, one intact epithelial barrier with nothing crossing it, and four matching four-ring tokens with exactly two separate satellite beads."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption describe all three unconnected context groups and explicitly exclude direction, conversion, absorption, recirculation rate, systemic exposure, microbial causality, and disease inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "estrogen-recirculation-draft.png",
+        "sourceSha256": "dadcb65e793b117fe268d1a9e69ec35fc407ab4eb569a4ff6da48c32a1de9ca2"
+      }
     }
   },
   "rejectedAssets": [
