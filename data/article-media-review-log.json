@@ -11200,9 +11200,123 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "bacteriophages|bacteriophages-mechanism-v1.webp": {
+      "pageId": "bacteriophages",
+      "publishedFile": "bacteriophages-mechanism-v1.webp",
+      "masterSource": "bacteriophages-mechanism-v1-master.png",
+      "socialFile": "bacteriophages-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D001435",
+          "https://www.wikibiome.com/article/bacteriophages"
+        ],
+        "notes": "NLM MeSH controls the bacteriophage subject identity; WikiBiome controls the article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete separated representative virion teaching models remain host-free and non-interacting."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption identify representative forms while excluding universal morphology, lifecycle, host-interaction, taxonomy, ecology, and treatment claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "bile-acid-metabolism|bile-acid-metabolism-mechanism-v1.webp": {
+      "pageId": "bile-acid-metabolism",
+      "publishedFile": "bile-acid-metabolism-mechanism-v1.webp",
+      "masterSource": "bile-acid-metabolism-mechanism-v1-master.png",
+      "socialFile": "bile-acid-metabolism-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D001647",
+          "https://www.wikibiome.com/article/bile-acid-metabolism"
+        ],
+        "notes": "NLM MeSH controls bile-acid identity; WikiBiome controls host–microbe article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three separated hepatobiliary, token, and colon-plus-microbial context groups show no direction, conversion, or quantitative pathway."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption explicitly frame contextual orientation and exclude pathway, molecular, flux, species, biomarker, disease, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [
+    {
+      "pageId": "bacterial-vaginosis",
+      "batchId": "mechanisms-060",
+      "draft": "work/media-drafts/mechanisms-batch-060/bacterial-vaginosis-draft.png",
+      "sha256": "8411aac4c940c21ffd02f3a4138578b255e3dec483c87c3c0ca4d75daf7d36e2",
+      "generationRecord": "exec-a96d4563-69d0-4b34-81c4-5b84776fe4c2.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The immutable prompt required exactly six long rods; the output contains five.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
+    {
+      "pageId": "bdnf",
+      "batchId": "mechanisms-060",
+      "draft": "work/media-drafts/mechanisms-batch-060/bdnf-draft.png",
+      "sha256": "2cc57bcc26add322b754b9fa18851a8c0624d742cb3b5e15c0ee589aa14bd1d7",
+      "generationRecord": "exec-18358b9e-f053-4450-9374-37f491c4254b.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The synaptic-terminal teaching body fades upward out of frame, leaving its boundary incomplete and ambiguous.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
+    {
+      "pageId": "beta-glucuronidase",
+      "batchId": "mechanisms-060",
+      "draft": "work/media-drafts/mechanisms-batch-060/beta-glucuronidase-draft.png",
+      "sha256": "18420496bacd92a1c4b74958dd2143c2a20b110d4917f135795e728cca2c02db",
+      "generationRecord": "exec-02845091-8084-48ed-99cc-a34c10125d6f.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The rightmost model enters the required outer 32-pixel pale edge field at x=1504.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
+    {
+      "pageId": "beta-lactamase",
+      "batchId": "mechanisms-060",
+      "draft": "work/media-drafts/mechanisms-batch-060/beta-lactamase-draft.png",
+      "sha256": "e285271a624f299ec0eb2de27ddcfec8b4938572ac8dda058826f507ccb99656",
+      "generationRecord": "exec-128b74ca-d55e-4375-9213-d1fde179b9fe.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The enzyme model enters the required outer 32-pixel pale edge field at x=11.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
     {
       "pageId": "atherosclerosis",
       "batchId": "mechanisms-059",

@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "98357827463a65af29f923116c6bb94e3bf4cde1d72fe6bd5864e08c6e03462d",
+    "registrySha256": "b0da6c9e2e4e19414d47493c1088462eacc6d71d97336a9a9224674a186f63f4",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "b683888cb365743a8ce12074bc004bdc378f14ebe4d7446303df4f662f205fce",
+    "reviewLogSha256": "7b611e2f6cffbfd1c149710ac513bad53d8d96b7472cf231e0de788512cc9f5c",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -100,7 +100,7 @@
         "file": "data/article-media-batches/mechanisms-060.json",
         "batchId": "mechanisms-060",
         "status": "reviewed",
-        "sha256": "ff2b3bea41886d66c08b51aefd376d07b2fd0af2297c3b3828c670af23f150ca"
+        "sha256": "cd8e9c996383790f675c0fc2af95e813f4004def2e15df4a09668a9abc602a3e"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -392,9 +392,9 @@
   },
   "current": {
     "total": 710,
-    "completed": 324,
-    "remaining": 386,
-    "rejected": 35,
+    "completed": 326,
+    "remaining": 384,
+    "rejected": 39,
     "revised": 11,
     "scientificHolds": 15,
     "inReview": 0
@@ -425,8 +425,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 16,
-      "remaining": 217
+      "completed": 18,
+      "remaining": 215
     },
     {
       "id": "host-defenses",
@@ -458,6 +458,58 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "bacterial-vaginosis",
+      "batchId": "mechanisms-060",
+      "draft": "work/media-drafts/mechanisms-batch-060/bacterial-vaginosis-draft.png",
+      "sha256": "8411aac4c940c21ffd02f3a4138578b255e3dec483c87c3c0ca4d75daf7d36e2",
+      "generationRecord": "exec-a96d4563-69d0-4b34-81c4-5b84776fe4c2.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The immutable prompt required exactly six long rods; the output contains five.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
+    {
+      "pageId": "bdnf",
+      "batchId": "mechanisms-060",
+      "draft": "work/media-drafts/mechanisms-batch-060/bdnf-draft.png",
+      "sha256": "2cc57bcc26add322b754b9fa18851a8c0624d742cb3b5e15c0ee589aa14bd1d7",
+      "generationRecord": "exec-18358b9e-f053-4450-9374-37f491c4254b.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The synaptic-terminal teaching body fades upward out of frame, leaving its boundary incomplete and ambiguous.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
+    {
+      "pageId": "beta-glucuronidase",
+      "batchId": "mechanisms-060",
+      "draft": "work/media-drafts/mechanisms-batch-060/beta-glucuronidase-draft.png",
+      "sha256": "18420496bacd92a1c4b74958dd2143c2a20b110d4917f135795e728cca2c02db",
+      "generationRecord": "exec-02845091-8084-48ed-99cc-a34c10125d6f.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The rightmost model enters the required outer 32-pixel pale edge field at x=1504.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
+    {
+      "pageId": "beta-lactamase",
+      "batchId": "mechanisms-060",
+      "draft": "work/media-drafts/mechanisms-batch-060/beta-lactamase-draft.png",
+      "sha256": "e285271a624f299ec0eb2de27ddcfec8b4938572ac8dda058826f507ccb99656",
+      "generationRecord": "exec-128b74ca-d55e-4375-9213-d1fde179b9fe.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The enzyme model enters the required outer 32-pixel pale edge field at x=11.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
     {
       "pageId": "atherosclerosis",
       "batchId": "mechanisms-059",
@@ -8584,7 +8636,15 @@
       "route": "/article/bacteriophages",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "bacteriophages-mechanism-v1-master.png",
+        "publishedFile": "bacteriophages-mechanism-v1.webp",
+        "socialFile": "bacteriophages-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 345,
@@ -8636,7 +8696,15 @@
       "route": "/article/bile-acid-metabolism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "bile-acid-metabolism-mechanism-v1-master.png",
+        "publishedFile": "bile-acid-metabolism-mechanism-v1.webp",
+        "socialFile": "bile-acid-metabolism-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 349,
