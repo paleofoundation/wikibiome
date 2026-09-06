@@ -96,3 +96,7 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 | `hiv` | 1 | `a4f163910d55a359bf32edc48e2ee87a6f8f3615ccea3dd73d1dc363f6ff3882` |
 
 These hashes bind the exact prompt bodies above to audit commit `42dae80`. Any prompt change requires a new audit before generation.
+
+## Immutable generation and review checkpoint
+
+Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-051/`. Native inspection, exact source hashes, literal groupings, output limitations, prohibited-content checks, edge statistics, and Control Tower's preliminary visual pass are recorded in `docs/operations/media-reviews/diseases-051.md`. No output is public; exact-hash promotion authorization remains a separate gate.

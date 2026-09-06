@@ -45,8 +45,8 @@
       {
         "file": "data/article-media-batches/diseases-051.json",
         "batchId": "diseases-051",
-        "status": "audited",
-        "sha256": "39046da189f028b674e803a02d44737342a7b9d9397bc4538a409c15e64f1c7d"
+        "status": "awaiting-control-review",
+        "sha256": "9d70dd39e6e43f7c28b72e879381d12cf318e550163c034c1fa35d0d6a23d374"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -343,7 +343,7 @@
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -1276,55 +1276,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 289,
-      "id": "gestational-diabetes",
-      "title": "Gestational Diabetes Mellitus",
-      "route": "/article/gestational-diabetes",
+      "queuePosition": 295,
+      "id": "huntingtons-disease",
+      "title": "Huntington's Disease",
+      "route": "/article/huntingtons-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 290,
-      "id": "graves-disease",
-      "title": "Graves' Disease",
-      "route": "/article/graves-disease",
+      "queuePosition": 296,
+      "id": "hypertension",
+      "title": "Hypertension",
+      "route": "/article/hypertension",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 291,
-      "id": "hashimotos-thyroiditis",
-      "title": "Hashimoto's Thyroiditis",
-      "route": "/article/hashimotos-thyroiditis",
+      "queuePosition": 297,
+      "id": "inflammatory-bowel-disease",
+      "title": "Inflammatory Bowel Disease (IBD)",
+      "route": "/article/inflammatory-bowel-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 292,
-      "id": "hepatitis",
-      "title": "Hepatitis",
-      "route": "/article/hepatitis",
+      "queuePosition": 298,
+      "id": "ibs",
+      "title": "Irritable Bowel Syndrome (IBS)",
+      "route": "/article/ibs",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 293,
-      "id": "hidradenitis-suppurativa",
-      "title": "Hidradenitis Suppurativa",
-      "route": "/article/hidradenitis-suppurativa",
+      "queuePosition": 299,
+      "id": "long-covid",
+      "title": "Long COVID",
+      "route": "/article/long-covid",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 294,
-      "id": "hiv",
-      "title": "HIV/AIDS",
-      "route": "/article/hiv",
+      "queuePosition": 300,
+      "id": "major-depressive-disorder",
+      "title": "Major Depressive Disorder",
+      "route": "/article/major-depressive-disorder",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -7390,7 +7390,13 @@
       "route": "/article/gestational-diabetes",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-051",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-051/gestational-diabetes-draft.png",
+        "sha256": "c4ecf8031a768357599ed0306e514efb320ed2c48d20c144466f029ebfa3ab54"
+      }
     },
     {
       "queuePosition": 290,
@@ -7404,7 +7410,13 @@
       "route": "/article/graves-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-051",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-051/graves-disease-draft.png",
+        "sha256": "d57ec9151e30cbf9ec026f17e824497b902b9b63ea571e5f84478d7f6d4713b8"
+      }
     },
     {
       "queuePosition": 291,
@@ -7418,7 +7430,13 @@
       "route": "/article/hashimotos-thyroiditis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-051",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-051/hashimotos-thyroiditis-draft.png",
+        "sha256": "153c202ae634251f62de434eaf1552ddfa78e97e52c782944961d2ac1bf6d589"
+      }
     },
     {
       "queuePosition": 292,
@@ -7431,7 +7449,13 @@
       "route": "/article/hepatitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-051",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-051/hepatitis-draft.png",
+        "sha256": "46f53b90a65cfaeaaffb08cb6bc2974b4bddb6e64bbebfac12e7d2617d00b47a"
+      }
     },
     {
       "queuePosition": 293,
@@ -7444,7 +7468,13 @@
       "route": "/article/hidradenitis-suppurativa",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-051",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-051/hidradenitis-suppurativa-draft.png",
+        "sha256": "75c335cb1f68fb6c5bd322432a097359eac51a2dcd3ec4ba503ddab0e9f94a49"
+      }
     },
     {
       "queuePosition": 294,
@@ -7457,7 +7487,13 @@
       "route": "/article/hiv",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-051",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-051/hiv-draft.png",
+        "sha256": "b3ff30e631e9b575349b34e8e06c617819e4efe0e19e023f5de556ea4ff72857"
+      }
     },
     {
       "queuePosition": 295,
