@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "d1743c8677c986f18f68078b875dd0c9b78a3bfe87cf2326c7f99479a50693da",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "06389b91c9ed69926996f96b9d111f3f9df24059ed77b32c85d6956040d7d80c",
+    "reviewLogSha256": "14eff4e59692b195786059ce0522097724f7fe13a21436ee360cf0fc9016ea9b",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -165,8 +165,8 @@
       {
         "file": "data/article-media-batches/mechanisms-071.json",
         "batchId": "mechanisms-071",
-        "status": "prompt-frozen",
-        "sha256": "443ccc5d0269ef1b132cbf379c5983f2b77a67f417f275ccde2f81f848fa6034"
+        "status": "awaiting-control-review",
+        "sha256": "2605fa87f06d2e731f8dca681b947f1c269cc98ed764f97f7065eee320a6d8bc"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -460,10 +460,10 @@
     "total": 710,
     "completed": 358,
     "remaining": 352,
-    "rejected": 62,
+    "rejected": 67,
     "revised": 12,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 1
   },
   "categories": [
     {
@@ -1723,6 +1723,81 @@
       "reason": "All three requested single-stranded RNA ribbons were rendered as paired double-stranded ladder-like structures with cross-rungs.",
       "supersededBy": null,
       "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "glyoxalase",
+      "controlledIdentifier": "MeSH:D007791;GO:0004462;EC:4.4.1.5;Rhea:19069;UniProt:P0AC81;PDB:1F9Z",
+      "batchId": "mechanisms-071",
+      "draft": "work/media-drafts/mechanisms-batch-071/glyoxalase-draft.png",
+      "sha256": "3919a6386efd30990a63b78cc1d8bd23969288699ce1b8cf624e6e5c9a7b315b",
+      "generationRecord": "exec-c27bf74b-104b-4c84-bba6-e55e21045962.png",
+      "promptSha256": "1a8acc6acd0e90e4ae35a1c2e9f6fc135d3c05410dd6117fb999410ece558a0e",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The two spheres are visibly nonidentical in material and color and do not clearly occupy shared subunit-interface sites, violating the frozen E. coli exemplar composition.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "gut-barrier-dysfunction",
+      "controlledIdentifier": "WikiBiome:gut-barrier-dysfunction;related-MeSH:D000095644,D007413;related-GO:0030277",
+      "batchId": "mechanisms-071",
+      "draft": "work/media-drafts/mechanisms-batch-071/gut-barrier-dysfunction-draft.png",
+      "sha256": "0dca95fd98428a635cd9d2b3b29435974d1a59a3efc19a96c8e10261de12398f",
+      "generationRecord": "exec-b2391217-e7c7-42c8-8f7f-49671a07aab3.png",
+      "promptSha256": "d399aed3cdd03ae60208e910e74a6fe7cd6ed94baa3eb08051540564267fa9e0",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The output has seven rather than six epithelial cells and adds prohibited brush-border-like apical relief.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "gut-microbiome",
+      "controlledIdentifier": "MeSH:D000069196",
+      "batchId": "mechanisms-071",
+      "draft": "work/media-drafts/mechanisms-batch-071/gut-microbiome-draft.png",
+      "sha256": "e634ad6459f81058e0adde10bef0aad2fe49e1c1a9cc0e59a345f2fb880d8da7",
+      "generationRecord": "exec-eafe8a9b-deef-43e8-a65a-d07efb58b41e.png",
+      "promptSha256": "427077a6938b37bca42c055ab34f111bcdcee76d528718b97ea6198ef2131bba",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The gastrointestinal body is a closed-wall hollow tube rather than the frozen longitudinal half-tube cutaway.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "gut-brain-axis",
+      "controlledIdentifier": "MeSH:D000087502",
+      "batchId": "mechanisms-071",
+      "draft": "work/media-drafts/mechanisms-batch-071/gut-brain-axis-draft.png",
+      "sha256": "72e0cac5f70a8457b1aff66feca80eba9ff7a05e5e1486bf2ec8fe5bf6746d56",
+      "generationRecord": "exec-98868955-14bd-4f47-a664-7b555fe8372b.png",
+      "promptSha256": "988ce1acf77af86f77bb4769be8a537b497171e98de9e97629428067116b09aa",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The intestinal assembly is segment-specific and haustrated rather than the frozen single smooth neutral generic intestinal loop.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "gut-gonadal-axis",
+      "controlledIdentifier": "WikiBiome:gut-gonadal-axis;related-MeSH:D000069196,D006066,D000076662,D000094365",
+      "batchId": "mechanisms-071",
+      "draft": "work/media-drafts/mechanisms-batch-071/gut-gonadal-axis-draft.png",
+      "sha256": "60eef33b6cbdbdd4e81c06655cb88a6f8653bd3f24f135de33661669bc5031b1",
+      "generationRecord": "exec-bf9bcd29-b4de-494a-ae04-5b230f562625.png",
+      "promptSha256": "15014e03a3d65d59166f54445c6e63e55fdb123512d08407b7e524e872310922",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Seven microbial bodies appear in the lumen and two overlap; the ringed intestinal wall and unidentifiable nubbed ovary-context body also contradict frozen controls.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
     }
   ],
   "revisedAssets": [
@@ -1877,55 +1952,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 403,
-      "id": "gingipains",
-      "title": "Gingipains",
-      "route": "/article/gingipains",
+      "queuePosition": 409,
+      "id": "gut-kidney-axis",
+      "title": "Gut-Kidney Axis",
+      "route": "/article/gut-kidney-axis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 404,
-      "id": "glyoxalase",
-      "title": "Glyoxalase I",
-      "route": "/article/glyoxalase",
+      "queuePosition": 410,
+      "id": "gut-metal-microbiome",
+      "title": "Gut-Metal-Microbiome Interactions",
+      "route": "/article/gut-metal-microbiome",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 405,
-      "id": "gut-barrier-dysfunction",
-      "title": "Gut Barrier Dysfunction",
-      "route": "/article/gut-barrier-dysfunction",
+      "queuePosition": 411,
+      "id": "gut-penis-axis",
+      "title": "Gut-Penis Axis",
+      "route": "/article/gut-penis-axis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 406,
-      "id": "gut-microbiome",
-      "title": "Gut Microbiome",
-      "route": "/article/gut-microbiome",
+      "queuePosition": 412,
+      "id": "gut-prostate-axis",
+      "title": "Gut-Prostate Axis",
+      "route": "/article/gut-prostate-axis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 407,
-      "id": "gut-brain-axis",
-      "title": "Gut-Brain Axis",
-      "route": "/article/gut-brain-axis",
+      "queuePosition": 413,
+      "id": "gut-testis-axis",
+      "title": "Gut-Testis Axis",
+      "route": "/article/gut-testis-axis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 408,
-      "id": "gut-gonadal-axis",
-      "title": "Gut-Gonadal Axis",
-      "route": "/article/gut-gonadal-axis",
+      "queuePosition": 414,
+      "id": "gut-thyroid-axis",
+      "title": "Gut-Thyroid Axis",
+      "route": "/article/gut-thyroid-axis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -10380,7 +10455,13 @@
       "route": "/article/gingipains",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-071",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-071/gingipains-draft.png",
+        "sha256": "2e6da7173bfb51ad188f5aa55b258bd1e5a84eb3f462a83baf051693712bd10f"
+      }
     },
     {
       "queuePosition": 404,
@@ -10393,7 +10474,14 @@
       "route": "/article/glyoxalase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-071",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The two spheres are visibly nonidentical in material and color and do not clearly occupy shared subunit-interface sites, violating the frozen E. coli exemplar composition."
+      }
     },
     {
       "queuePosition": 405,
@@ -10406,7 +10494,14 @@
       "route": "/article/gut-barrier-dysfunction",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-071",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The output has seven rather than six epithelial cells and adds prohibited brush-border-like apical relief."
+      }
     },
     {
       "queuePosition": 406,
@@ -10419,7 +10514,14 @@
       "route": "/article/gut-microbiome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-071",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The gastrointestinal body is a closed-wall hollow tube rather than the frozen longitudinal half-tube cutaway."
+      }
     },
     {
       "queuePosition": 407,
@@ -10432,7 +10534,14 @@
       "route": "/article/gut-brain-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-071",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The intestinal assembly is segment-specific and haustrated rather than the frozen single smooth neutral generic intestinal loop."
+      }
     },
     {
       "queuePosition": 408,
@@ -10445,7 +10554,14 @@
       "route": "/article/gut-gonadal-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-071",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Seven microbial bodies appear in the lumen and two overlap; the ringed intestinal wall and unidentifiable nubbed ovary-context body also contradict frozen controls."
+      }
     },
     {
       "queuePosition": 409,
