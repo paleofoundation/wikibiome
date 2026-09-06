@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "8f0252b9819b1841ad9b2422ec3e4f6fa11c1f03a7720ce060a08e6d52a67c01",
+    "registrySha256": "eb12e152ba34954cba86f5afdb9eac4355c9b7f2a466c32512943d7fa0a452aa",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "bd3e3719a38b972dcd98b9b723a571ab6abe5c64822dc1eb6459276a0ded015e",
+    "reviewLogSha256": "58e5835ce828516b9076e560d382b19a3e1e821822bf71de2a6f8e0fc35f1ad4",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -136,7 +136,7 @@
         "file": "data/article-media-batches/mechanisms-066.json",
         "batchId": "mechanisms-066",
         "status": "reviewed",
-        "sha256": "f7f30e38e7f67d1e2e77a0807d050f9dc13959a030e88c58eb435bedb3fa22bd"
+        "sha256": "faeeeec2eedcb0dd2b887d535a1afaa5f9b45412abf44ca9a6e56cd3009a56cb"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -428,8 +428,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 347,
-    "remaining": 363,
+    "completed": 350,
+    "remaining": 360,
     "rejected": 48,
     "revised": 11,
     "scientificHolds": 15,
@@ -461,8 +461,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 39,
-      "remaining": 194
+      "completed": 42,
+      "remaining": 191
     },
     {
       "id": "host-defenses",
@@ -9429,7 +9429,15 @@
       "route": "/article/drug-repurposing",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "drug-repurposing-mechanism-v1-master.png",
+        "publishedFile": "drug-repurposing-mechanism-v1.webp",
+        "socialFile": "drug-repurposing-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 380,
@@ -9468,7 +9476,15 @@
       "route": "/article/efflux-pumps",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "efflux-pumps-mechanism-v1-master.png",
+        "publishedFile": "efflux-pumps-mechanism-v1.webp",
+        "socialFile": "efflux-pumps-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 383,
@@ -9481,7 +9497,15 @@
       "route": "/article/endocrine-disruption",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "endocrine-disruption-mechanism-v1-master.png",
+        "publishedFile": "endocrine-disruption-mechanism-v1.webp",
+        "socialFile": "endocrine-disruption-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 384,

@@ -11934,6 +11934,113 @@
         "supersededBy": null,
         "sourceDraft": "dna-damage-draft.png"
       }
+    },
+    "drug-repurposing|drug-repurposing-mechanism-v1.webp": {
+      "pageId": "drug-repurposing",
+      "publishedFile": "drug-repurposing-mechanism-v1.webp",
+      "masterSource": "drug-repurposing-mechanism-v1-master.png",
+      "socialFile": "drug-repurposing-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D058492",
+          "https://pubmed.ncbi.nlm.nih.gov/38637540/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11026526/",
+          "https://www.wikibiome.com/article/drug-repurposing"
+        ],
+        "notes": "MeSH controls drug-repurposing terminology, while the checked review supports generic existing-drug, screening, and target contexts without licensing a depicted hit, successful new use, efficacy, safety, approval, or clinical recommendation."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one closed unmarked capsule, one two-by-three plate with exactly six single-spheroid wells, and one separate folded target-like form with one empty pocket."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption enumerate the three literal contexts and exclude product identity, disease, selected-hit, docking, successful-reuse, efficacy, approval, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "drug-repurposing-draft.png",
+        "sourceSha256": "92fc764f504eab4c062f5c789cf3bcd9286a7a584af5c8d0aa8d6c98dd049ade"
+      }
+    },
+    "efflux-pumps|efflux-pumps-mechanism-v1.webp": {
+      "pageId": "efflux-pumps",
+      "publishedFile": "efflux-pumps-mechanism-v1.webp",
+      "masterSource": "efflux-pumps-mechanism-v1-master.png",
+      "socialFile": "efflux-pumps-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://amigo.geneontology.org/amigo/term/GO:1990281",
+          "https://amigo.geneontology.org/amigo/term/GO:0015562",
+          "https://pubmed.ncbi.nlm.nih.gov/23808339/",
+          "https://pubmed.ncbi.nlm.nih.gov/27025641/",
+          "https://www.wikibiome.com/article/efflux-pumps"
+        ],
+        "notes": "Gene Ontology controls efflux-pump complex and transporter-activity identity; the checked reviews support representative one-component and tripartite contexts without making the depicted architecture, envelope, energy source, substrate, or resistance phenotype universal."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed a not-to-scale two-bilayer envelope with one continuous tripartite assembly, a separate one-bilayer carrier model, and exactly five separated tokens: three spheres and two rounded faceted forms."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption state the literal architecture groups and exclude universal structure, transport direction, energy, substrate, resistance, pathogenicity, inhibitor-response, treatment, and clinical inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "efflux-pumps-draft.png",
+        "sourceSha256": "dc89119e08afe99fc6b8597a29bfbf5d89c54dfac4d5fcc444dd21834d5e17e4"
+      }
+    },
+    "endocrine-disruption|endocrine-disruption-mechanism-v1.webp": {
+      "pageId": "endocrine-disruption",
+      "publishedFile": "endocrine-disruption-mechanism-v1.webp",
+      "masterSource": "endocrine-disruption-mechanism-v1-master.png",
+      "socialFile": "endocrine-disruption-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D052244",
+          "https://www.epa.gov/endocrine-disruption/overview-endocrine-disruption",
+          "https://www.niehs.nih.gov/health/topics/agents/endocrine",
+          "https://pubmed.ncbi.nlm.nih.gov/31719706/",
+          "https://www.wikibiome.com/article/endocrine-disruption"
+        ],
+        "notes": "MeSH distinguishes the endocrine-disruptor effect concept from the agent concept; EPA, NIEHS, and the checked scientific statement support generic receptor-interference orientation without licensing a specific agent, receptor, binding pose, potency, exposure, or outcome."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed three similar generic receptor-pocket groups: one with a round token seated, one with a distinct token seated and a native token separate, and one with a token bridging the pocket entrance and a native token separate."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption describe the three literal receptor states and exclude observed binding, agent identity, receptor identity, affinity, potency, exposure, pathway, health outcome, diagnosis, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "endocrine-disruption-draft.png",
+        "sourceSha256": "964855402351e8f0d86e42610d52e8ed4331f1efbddd72368926e9a6fd308613"
+      }
     }
   },
   "rejectedAssets": [
