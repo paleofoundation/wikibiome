@@ -11510,9 +11510,141 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "competitive-exclusion|competitive-exclusion-mechanism-v1.webp": {
+      "pageId": "competitive-exclusion",
+      "publishedFile": "competitive-exclusion-mechanism-v1.webp",
+      "masterSource": "competitive-exclusion-mechanism-v1-master.png",
+      "socialFile": "competitive-exclusion-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/31895538/",
+          "https://www.wikibiome.com/article/competitive-exclusion"
+        ],
+        "notes": "PubMed controls competitive-exclusion context and uncertainty boundary; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Five empty recesses, a five-form resident group, and two outside rods remain complete and separated without an exclusion event."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude species identity, observed competition, winner or loser, infection, abundance, probiotic efficacy, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "cox-2|cox-2-mechanism-v1.webp": {
+      "pageId": "cox-2",
+      "publishedFile": "cox-2-mechanism-v1.webp",
+      "masterSource": "cox-2-mechanism-v1-master.png",
+      "socialFile": "cox-2-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/P35354/entry",
+          "https://www.wikibiome.com/article/cox-2"
+        ],
+        "notes": "Reviewed UniProt controls human enzyme identity and broad substrate context; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Generic membrane-associated enzyme, bent chain, and ring token remain complete and separated without binding or reaction sequence."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude literal structure, catalysis, pathway, expression, inflammation, disease, inhibitor action, efficacy, and safety inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "cross-feeding|cross-feeding-mechanism-v1.webp": {
+      "pageId": "cross-feeding",
+      "publishedFile": "cross-feeding-mechanism-v1.webp",
+      "masterSource": "cross-feeding-mechanism-v1-master.png",
+      "socialFile": "cross-feeding-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/37054671/",
+          "https://www.wikibiome.com/article/cross-feeding"
+        ],
+        "notes": "PubMed controls ecological interaction scope; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three short rods, two curved rods, four silver-blue spheres, and three copper spheres remain complete in four separated groups."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude exchange, direction, named taxa or metabolites, pathway, ecosystem function, consortium efficacy, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [
+    {
+      "pageId": "comorbidities",
+      "batchId": "mechanisms-063",
+      "draft": "work/media-drafts/mechanisms-batch-063/comorbidities-draft.png",
+      "sha256": "83fb10ff47351a226d6c036a82d9885ba9d1998be01fdc09e2242188ae4c58e2",
+      "generationRecord": "exec-fec047b8-c4e3-4eea-a7e4-f8e71067501a.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The heart teaching model includes two complete lungs, exceeding the frozen exactly-three-model scope.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "copper-dysregulation",
+      "batchId": "mechanisms-063",
+      "draft": "work/media-drafts/mechanisms-batch-063/copper-dysregulation-draft.png",
+      "sha256": "888afffcdf42574084da19d7e84c1249e5b181770fd80741daeff7703361a9bd",
+      "generationRecord": "exec-bf58b5b4-41ac-4eee-a3e6-d2c6121de504.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Recognizable nuclei, mitochondria, endoplasmic-reticulum-like membranes, and vesicles violate the no-organelle-identity boundary.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "cortisol",
+      "batchId": "mechanisms-063",
+      "draft": "work/media-drafts/mechanisms-batch-063/cortisol-draft.png",
+      "sha256": "f96d65e9fb59bcce4932bdc425043fec7f8dee85db79d8c3146c96efb896858a",
+      "generationRecord": "exec-d5f88f2f-6b63-4a55-8d0b-68da1a994c1f.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Molecular and vessel models cross both outer 32-pixel fields, producing 609 dark outer-band pixels.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
     {
       "pageId": "bile-salt-hydrolase",
       "batchId": "mechanisms-061",

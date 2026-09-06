@@ -26,6 +26,24 @@
   "controlAcceptedPromptEvidenceSha256": "7c6f69dac6cc439d880e9b803a9948f426e82e83ea6621c8074dce7ae1b570b6",
   "controlFinalReview": {"status":"accepted-three-exact-hashes-three-quarantined","acceptedOn":"2026-09-06","acceptedReviewCommit":"584b1b402cc0a033b233c5e58152c4bc12bcf6af","reviewer":"WikiBiome Control Tower","approvedPageIds":["competitive-exclusion","cox-2","cross-feeding"],"acceptedSourceSha256":["896e1a801ca6c3abce90048e52ce66872d65a13d6409addbc82d379a08912025","0d1862bdefb65e2c2d99fe862b973320507331f91cdea5f104dbe690404b869a","4890b1ae66e88f0fe24f5a25669739c4f3063a1e6e95fdaeeac483f53826368f"],"nonPublishablePageIds":["comorbidities","copper-dysregulation","cortisol"]},
   "promotionRule": "Only the three exact accepted source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200x630 social WebPs. Three rejected originals remain immutable and non-public.",
+  "controlSocialCropReview": "accepted-three-centered-contain-derivatives",
+  "promotionDerivatives": {
+    "competitive-exclusion": {
+      "masterSha256": "7ff9407e9a5635e7844622e92fdfc06669349427f2b230f1b9b5c4730851ce2e",
+      "articleSha256": "89d25f0e3dbe58f4d1e4591c040055e25c52fd4ba7a5653bd0a39fbaa0d6ac7e",
+      "socialSha256": "fb83e2db2b577865edd17b6aa81f990f39fb18015259537dffefbe7505940411"
+    },
+    "cox-2": {
+      "masterSha256": "f215fae62d8229654582cc5892b630de9ea1e613b42c66aec35c7e8533ec9ad3",
+      "articleSha256": "1abc1b9349b9f6a0e9d3fae81ccb0637df306c9a1a223bbe5af5e52e040515f6",
+      "socialSha256": "f159347282edfa14d0d95a2c7d8f2ea03e28140ecc98ce03c38309c5cee176b3"
+    },
+    "cross-feeding": {
+      "masterSha256": "58ec2f8154f681dc156327f3b7260ad8ad0386e6a340c3a77557ac9686cf0b11",
+      "articleSha256": "4a4332eb192e2b552dd5685076634649097a50c4238f23940bcec75089ed7379",
+      "socialSha256": "95b797bb174e119d104db10497dba19b2edff44717ec9926ae62951c13121c45"
+    }
+  },
   "assets": [
     {"pageId":"comorbidities","displayName":"Comorbidities","proposedAssetType":"mechanism","revision":1,"decision":"rejected-after-output-audit","generationStatus":"quarantined-single-call","rootReviewDisposition":"ineligible","draft":"work/media-drafts/mechanisms-batch-063/comorbidities-draft.png","generationRecord":"exec-fec047b8-c4e3-4eea-a7e4-f8e71067501a.png","controlledIdentifier":"MeSH:D015897","promptSha256":"b8eb0ade2fe9b16857cdb0f8beb641c5d468b7ff8e5f1ef423165b9097f06768","sha256":"83fb10ff47351a226d6c036a82d9885ba9d1998be01fdc09e2242188ae4c58e2","fileSizeBytes":1846708,"dimensions":{"width":1536,"height":1024},"scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D015897"],"quarantineReason":"Heart model includes two lungs, exceeding the frozen exactly-three-model scope."},
     {"pageId":"competitive-exclusion","displayName":"Competitive Exclusion","proposedAssetType":"mechanism","revision":1,"decision":"approved-after-output-audit","generationStatus":"complete-single-call","rootReviewDisposition":"accepted","draft":"work/media-drafts/mechanisms-batch-063/competitive-exclusion-draft.png","generationRecord":"exec-4838f02b-e773-4090-b936-6b5f5d115890.png","controlledIdentifier":"PMID:31895538","promptSha256":"d07a9644b024072d2f69e2ef21a87768913e3b1b79e70d32397d18cb45212162","sha256":"896e1a801ca6c3abce90048e52ce66872d65a13d6409addbc82d379a08912025","fileSizeBytes":1732109,"dimensions":{"width":1536,"height":1024},"proposedSocialResizeFit":"contain","scientificReferences":["https://pubmed.ncbi.nlm.nih.gov/31895538/"],"visualReview":"Five empty recesses, a five-form resident group, and a separate two-rod group remain complete with no interaction.","outputAudit":{"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"observedSubjectDescription":"One five-recess epithelial strip, three rods and two coccal clusters, plus two separate outside rods.","observedVisibleBodyCount":8,"observedSpatialGroupingCount":3,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"foregroundBoundsAtLumaBelow220":{"minX":59,"minY":217,"maxX":1464,"maxY":880},"sourceEdgeContact":false,"containRequired":true,"metadataConsistency":"pass"}},
