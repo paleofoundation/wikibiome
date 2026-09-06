@@ -12041,6 +12041,115 @@
         "sourceDraft": "endocrine-disruption-draft.png",
         "sourceSha256": "964855402351e8f0d86e42610d52e8ed4331f1efbddd72368926e9a6fd308613"
       }
+    },
+    "endothelial-dysfunction|endothelial-dysfunction-mechanism-v1.webp": {
+      "pageId": "endothelial-dysfunction",
+      "publishedFile": "endothelial-dysfunction-mechanism-v1.webp",
+      "masterSource": "endothelial-dysfunction-mechanism-v1-master.png",
+      "socialFile": "endothelial-dysfunction-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/medgen/1681929",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D004730",
+          "https://pubmed.ncbi.nlm.nih.gov/32172815/",
+          "https://pubchem.ncbi.nlm.nih.gov/compound/145068",
+          "https://www.wikibiome.com/article/endothelial-dysfunction"
+        ],
+        "notes": "MedGen and MeSH control endothelial-dysfunction and vascular-endothelium identity; PubMed and PubChem support the nitric-oxide functional context without licensing a visible lesion, measured molecule, response, diagnosis, biomarker, or treatment claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one patent vessel with four red-cell-like discs, one separate two-by-three tile of six nucleated flattened cells, and four separate paired-bead context forms."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption enumerate the three literal groups and state that the reconstruction does not visually diagnose dysfunction or encode a lesion, measured molecular structure, response, disease mechanism, biomarker, or treatment effect."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "endothelial-dysfunction-draft.png",
+        "sourceSha256": "1018f1f75544dc41882ba88d17f86561a7c2e5a6473a154221b44a84ad502f28"
+      }
+    },
+    "enterohepatic-circulation|enterohepatic-circulation-mechanism-v1.webp": {
+      "pageId": "enterohepatic-circulation",
+      "publishedFile": "enterohepatic-circulation-mechanism-v1.webp",
+      "masterSource": "enterohepatic-circulation-mechanism-v1-master.png",
+      "socialFile": "enterohepatic-circulation-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D004764",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D001647",
+          "https://pubmed.ncbi.nlm.nih.gov/12529265/",
+          "https://pubmed.ncbi.nlm.nih.gov/34555862/",
+          "https://www.wikibiome.com/article/enterohepatic-circulation"
+        ],
+        "notes": "MeSH controls the metabolic-process and bile-acid contexts; the checked papers support hepatobiliary and gut-liver orientation while requiring the added large-intestinal frame to remain context rather than a claim about principal reabsorption site, measured direction, flux, recovery, or treatment."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one integrated liver with attached gallbladder above coiled small intestine and an added outer large-intestinal frame, one amber biliary conduit, one blue portal-return conduit, and four separate four-ring tokens."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption describe the complete anatomy assembly and four context tokens while excluding principal-site, measured-direction, flux, recovery, exact-molecule, dysbiosis, disease, detoxification, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "enterohepatic-circulation-draft.png",
+        "sourceSha256": "4ca9f933d3b525dca073cfc17ea086496730ec0aa34bbd5c34a5eb5f1c726b1d"
+      }
+    },
+    "epigenetics|epigenetics-mechanism-v1.webp": {
+      "pageId": "epigenetics",
+      "publishedFile": "epigenetics-mechanism-v1.webp",
+      "masterSource": "epigenetics-mechanism-v1-master.png",
+      "socialFile": "epigenetics-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D057890",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D044127",
+          "https://amigo.geneontology.org/amigo/term/GO:0040029",
+          "https://www.genome.gov/genetics-glossary/Epigenetics",
+          "https://www.niehs.nih.gov/health/topics/science/epigenetics",
+          "https://www.wikibiome.com/article/epigenetics"
+        ],
+        "notes": "MeSH, Gene Ontology, NHGRI, and NIEHS support a field-level DNA, chromatin, and RNA regulatory context without licensing literal structures, a modification map, expression state, universal heritability, causal environmental findings, disease mechanisms, biomarkers, diagnoses, or treatment results."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one unmarked DNA-like double helix, one separate continuous chromatin-like ribbon with five complete nucleosome-like cores, and one separate unmarked RNA-like ribbon with two complete hairpin loops."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption enumerate all three separated teaching models and explicitly exclude literal molecular structure, modification, expression, heritability, causal, disease, biomarker, diagnosis, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "epigenetics-draft.png",
+        "sourceSha256": "cf5c368c8f726fc20754c6c4dd6d5af23bc7fbb8099fd532846b23db9c53984b"
+      }
     }
   },
   "rejectedAssets": [

@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "eb12e152ba34954cba86f5afdb9eac4355c9b7f2a466c32512943d7fa0a452aa",
+    "registrySha256": "76ed012c3f1021ad9b8d1a34f34da037524f0d9207c02ff3b2f00bbe0371fbdd",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "9218ed55432bbfaa8ae89a2614f05851b214e0447219999d517fba88a9192cd4",
+    "reviewLogSha256": "3b922594bfbe39eeb5e157d738fe52713082ce23505259ab1b976fae1722104c",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -142,7 +142,7 @@
         "file": "data/article-media-batches/mechanisms-067.json",
         "batchId": "mechanisms-067",
         "status": "reviewed",
-        "sha256": "bbad590a81e207b2f4180d48bf6939dadc35a3d1c9d1f674320353692596b203"
+        "sha256": "9e56fd4d4649f43dbc3c020592d7324d6863671573066bad8b5541d693ca16c8"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -434,8 +434,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 350,
-    "remaining": 360,
+    "completed": 353,
+    "remaining": 357,
     "rejected": 51,
     "revised": 11,
     "scientificHolds": 15,
@@ -467,8 +467,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 42,
-      "remaining": 191
+      "completed": 45,
+      "remaining": 188
     },
     {
       "id": "host-defenses",
@@ -9576,7 +9576,15 @@
       "route": "/article/endothelial-dysfunction",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "endothelial-dysfunction-mechanism-v1-master.png",
+        "publishedFile": "endothelial-dysfunction-mechanism-v1.webp",
+        "socialFile": "endothelial-dysfunction-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 386,
@@ -9602,7 +9610,15 @@
       "route": "/article/enterohepatic-circulation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "enterohepatic-circulation-mechanism-v1-master.png",
+        "publishedFile": "enterohepatic-circulation-mechanism-v1.webp",
+        "socialFile": "enterohepatic-circulation-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 388,
@@ -9641,7 +9657,15 @@
       "route": "/article/epigenetics",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "epigenetics-mechanism-v1-master.png",
+        "publishedFile": "epigenetics-mechanism-v1.webp",
+        "socialFile": "epigenetics-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 391,
