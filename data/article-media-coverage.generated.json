@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "55365da8727d1508211ecc8fe44eae8ea259097ab8f1f3abde3eefe773579904",
+    "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "50d0b8a1ba6dbc6d2b5f9ad8dc5d9e71287b4f4508b10969b17f6ff312f61e85",
+    "reviewLogSha256": "44c1cf72ce95beda6e1083b66724ee5bdbfd7d7261c85b2354a99c0f7ad4c45d",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -171,8 +171,8 @@
       {
         "file": "data/article-media-batches/mechanisms-072.json",
         "batchId": "mechanisms-072",
-        "status": "approved-awaiting-promotion",
-        "sha256": "507c7a6ffe500e43bf6cb0575a8c9df13c190a02da0dcc3d3f1b0395c64745b3"
+        "status": "reviewed",
+        "sha256": "40d09b782216dc1bc5700f2e508f2e5e07a19bd0d90a6fee864fd40308adba39"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -464,12 +464,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 359,
-    "remaining": 351,
+    "completed": 362,
+    "remaining": 348,
     "rejected": 70,
     "revised": 12,
     "scientificHolds": 17,
-    "inReview": 3
+    "inReview": 0
   },
   "categories": [
     {
@@ -497,8 +497,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 50,
-      "remaining": 183
+      "completed": 53,
+      "remaining": 180
     },
     {
       "id": "host-defenses",
@@ -10640,12 +10640,14 @@
       "route": "/article/gut-kidney-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-072",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-072/gut-kidney-axis-draft.png",
-        "sha256": "b37e3312e1f550f315985e16cfb4cfad4d1d1339e93bf46c1ef4ca82f9cdf363"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "gut-kidney-axis-mechanism-v1-master.png",
+        "publishedFile": "gut-kidney-axis-mechanism-v1.webp",
+        "socialFile": "gut-kidney-axis-mechanism-v1-social.webp"
       }
     },
     {
@@ -10659,12 +10661,14 @@
       "route": "/article/gut-metal-microbiome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-072",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-072/gut-metal-microbiome-draft.png",
-        "sha256": "9aa21e52356b72d2b59646d5796d2a9b306330b857a16bb5d959748c7a854d39"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "gut-metal-microbiome-mechanism-v1-master.png",
+        "publishedFile": "gut-metal-microbiome-mechanism-v1.webp",
+        "socialFile": "gut-metal-microbiome-mechanism-v1-social.webp"
       }
     },
     {
@@ -10697,12 +10701,14 @@
       "route": "/article/gut-prostate-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-072",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-072/gut-prostate-axis-draft.png",
-        "sha256": "a58dcb8a4c494eb27ede661bb591824f6fdc31c2e5ca4c160e174105c5617675"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "gut-prostate-axis-mechanism-v1-master.png",
+        "publishedFile": "gut-prostate-axis-mechanism-v1.webp",
+        "socialFile": "gut-prostate-axis-mechanism-v1-social.webp"
       }
     },
     {

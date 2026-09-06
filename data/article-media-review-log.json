@@ -12380,6 +12380,126 @@
         "sourceSha256": "2e6da7173bfb51ad188f5aa55b258bd1e5a84eb3f462a83baf051693712bd10f",
         "generationRecord": "exec-d6feaf35-8cf8-4660-bcb6-5dadf34d542f.png"
       }
+    },
+    "gut-kidney-axis|gut-kidney-axis-mechanism-v1.webp": {
+      "pageId": "gut-kidney-axis",
+      "publishedFile": "gut-kidney-axis-mechanism-v1.webp",
+      "masterSource": "gut-kidney-axis-mechanism-v1-master.png",
+      "socialFile": "gut-kidney-axis-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.wikibiome.com/article/gut-kidney-axis",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D007668",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000076662",
+          "https://purl.obolibrary.org/obo/UBERON_0002113",
+          "https://pubmed.ncbi.nlm.nih.gov/21784895/",
+          "https://pubmed.ncbi.nlm.nih.gov/32241904/",
+          "https://pubmed.ncbi.nlm.nih.gov/32317112/"
+        ],
+        "notes": "WikiBiome controls the composite concept; MeSH and UBERON identify related gastrointestinal-microbiome, interaction, and kidney components, not an exact axis. Human and preclinical CKD evidence supports a research domain, while counterevidence shows that increased circulating toxin concentration need not mean increased microbial generation."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower and three independent native-resolution reviews confirmed exactly three separated groups and seven primary models: one complete roofless U-ended gastrointestinal trough, four separate generic microbial forms, and two complete smooth external kidney models. No prohibited conduit, toxin, renal pathology, diagnosis, or treatment content is visible."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all three unconnected groups without relying on color. The caption identifies the emerging research domain while excluding an anatomical conduit, toxin mechanism, disease finding, diagnosis, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted Batch 072 source hash only; centered-contain social derivative mandatory.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "gut-kidney-axis-draft.png",
+        "sourceSha256": "b37e3312e1f550f315985e16cfb4cfad4d1d1339e93bf46c1ef4ca82f9cdf363",
+        "generationRecord": "exec-c7fbae3d-3ee2-4a2c-b67b-d921f44e1e8f.png"
+      }
+    },
+    "gut-metal-microbiome|gut-metal-microbiome-mechanism-v1.webp": {
+      "pageId": "gut-metal-microbiome",
+      "publishedFile": "gut-metal-microbiome-mechanism-v1.webp",
+      "masterSource": "gut-metal-microbiome-mechanism-v1-master.png",
+      "socialFile": "gut-metal-microbiome-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.wikibiome.com/article/gut-metal-microbiome",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D008670",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D019216",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000076662",
+          "https://pubmed.ncbi.nlm.nih.gov/23916686/",
+          "https://pubmed.ncbi.nlm.nih.gov/30575732/",
+          "https://pubmed.ncbi.nlm.nih.gov/39536359/"
+        ],
+        "notes": "WikiBiome controls the heterogeneous composite concept; MeSH records identify related microbiome, metal, heavy-metal, and host-microbial-interaction contexts only. Experimental findings vary by element or metalloid, chemical form, dose, route, host, diet, and starting community, so the plate encodes no named element or universal outcome."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower and three independent native-resolution reviews confirmed exactly three separated groups and eight primary models: one complete roofless U-ended gastrointestinal trough, four separate generic microbial forms, and three matching unmarked low rectangular silver-gray coupons. No prohibited pill, coin, named element, atom, transfer, toxicity, diagnosis, or treatment content is visible."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all three unconnected groups and identifies the coupons as generic material forms without relying on color alone. The caption explicitly excludes atoms, doses, specimens, interaction evidence, and health-effect inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted Batch 072 source hash only; centered-contain social derivative mandatory.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "gut-metal-microbiome-draft.png",
+        "sourceSha256": "9aa21e52356b72d2b59646d5796d2a9b306330b857a16bb5d959748c7a854d39",
+        "generationRecord": "exec-0c6a44e0-7999-4b1d-b515-83d0e9bf327f.png"
+      }
+    },
+    "gut-prostate-axis|gut-prostate-axis-mechanism-v1.webp": {
+      "pageId": "gut-prostate-axis",
+      "publishedFile": "gut-prostate-axis-mechanism-v1.webp",
+      "masterSource": "gut-prostate-axis-mechanism-v1-master.png",
+      "socialFile": "gut-prostate-axis-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.wikibiome.com/article/gut-prostate-axis",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D011467",
+          "https://purl.obolibrary.org/obo/UBERON_0002367",
+          "https://pubmed.ncbi.nlm.nih.gov/34516694/",
+          "https://pubmed.ncbi.nlm.nih.gov/36359196/",
+          "https://pubmed.ncbi.nlm.nih.gov/39858898/",
+          "https://pubmed.ncbi.nlm.nih.gov/41849696/"
+        ],
+        "notes": "WikiBiome controls the composite concept; MeSH and UBERON identify related gastrointestinal-microbiome and prostate components, not an exact axis. Small heterogeneous human studies, community-level null findings, and a limited post-antibiotic trial do not establish a general microbiome-to-prostate mechanism, signature, diagnosis, biomarker, or treatment effect."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower and independent native-resolution reviews confirmed exactly three separated groups and seven primary bodies: one complete roofless U-ended gastrointestinal trough, four separate generic microbial forms, and one normal bladder-neck/prostate assembly containing one smooth bladder body and one symmetric prostate body around a clean central urethral void and short outlet. No prohibited disease, diagnostic, or treatment content is visible."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all three unconnected groups without relying on color. The caption identifies the emerging research domain while excluding translocation, microbial-signature, prostate-disease, diagnosis, biomarker, and treatment-response inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted Batch 072 source hash only; centered-contain social derivative mandatory.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "gut-prostate-axis-draft.png",
+        "sourceSha256": "a58dcb8a4c494eb27ede661bb591824f6fdc31c2e5ca4c160e174105c5617675",
+        "generationRecord": "exec-0f7b5085-a173-4144-9d10-23162cdbc912.png"
+      }
     }
   },
   "rejectedAssets": [

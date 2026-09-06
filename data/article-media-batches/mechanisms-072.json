@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-072",
   "category": "mechanisms",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "f1079f281bcb3a6f64b16d95c4cb362746b763bf",
@@ -19,7 +19,7 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, micrograph, scan, assay result, diagnostic image, treatment result, or procedural instruction",
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied. Related identifiers are explicitly distinguished from exact composite-concept identities."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "routeDecisionCount": 6,
   "reviewStandard": "Four cleared routes each received exactly one built-in generation call; the two editorially conflicted routes received none. All four originals were preserved and independently inspected at native 1536 by 1024 resolution. Literal body and group counts, U-shaped open-trough geometry, anatomy or material boundaries, prohibited content, outer 32-pixel field, crop bounds, exact hashes, and conservative meaning controlled disposition. Three exact hashes are eligible for separate Control Tower acceptance; the nodular-appearing thyroid output is an immutable non-public quarantine.",
   "candidateCount": 3,
@@ -43,7 +43,25 @@
     "acceptedSourceSha256": ["b37e3312e1f550f315985e16cfb4cfad4d1d1339e93bf46c1ef4ca82f9cdf363", "9aa21e52356b72d2b59646d5796d2a9b306330b857a16bb5d959748c7a854d39", "a58dcb8a4c494eb27ede661bb591824f6fdc31c2e5ca4c160e174105c5617675"],
     "nonPublishablePageIds": ["gut-penis-axis", "gut-testis-axis", "gut-thyroid-axis"]
   },
-  "promotionRule": "Only the exact accepted gut-kidney-axis, gut-metal-microbiome, and gut-prostate-axis source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. Gut-penis-axis and gut-testis-axis remain asset-free scientific-media holds; the gut-thyroid-axis original remains an immutable non-public quarantine.",
+  "promotionRule": "Only the exact accepted gut-kidney-axis, gut-metal-microbiome, and gut-prostate-axis source hashes were promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. Gut-penis-axis and gut-testis-axis remain asset-free scientific-media holds; the gut-thyroid-axis original remains an immutable non-public quarantine.",
+  "controlSocialCropReview": "accepted-three-centered-contain-derivatives-after-independent-native-review",
+  "promotionDerivatives": {
+    "gut-kidney-axis": {
+      "masterSha256": "36d966714f79f450a5affd5c9b061d9106f7645ffac547874639cf6e95999069",
+      "articleSha256": "0d63f9a6d1f3c8739d5bb8f747bfe3a755749f811e657bf60db01c74978b7310",
+      "socialSha256": "c44b4fd6286a9f9ac4b5f12d75dd32a6bd589ea121b05fe2836f4d1c3e547e04"
+    },
+    "gut-metal-microbiome": {
+      "masterSha256": "62f038b83570aa2cc82384ce7550425d6306786de33ef7803568c5b15fc7df44",
+      "articleSha256": "b79d5d41a41dcaaaf2c18104c380423916f0741bc228a229018bfa949aae1d63",
+      "socialSha256": "a30e700a56c8f35ae0e77aaf9a04d3033f0bf2805122524787ae9e183f4a0ded"
+    },
+    "gut-prostate-axis": {
+      "masterSha256": "b3b776c241fcf9d305ac655f264d94c22c9243a6207c3652826cfcd9de5966f7",
+      "articleSha256": "24611e8e9d522daf5f6f20dc1f09cd9b6bf44335905c0cbb67ee0c6d95c325ed",
+      "socialSha256": "860d82ec085ef0887cf621e6df0d0161e6882c6585f1b75df6366d49071885e7"
+    }
+  },
   "routeDecisions": [
     {
       "pageId": "gut-penis-axis",
@@ -85,6 +103,9 @@
       "fileSizeBytes": 1419077,
       "dimensions": {"width": 1536, "height": 1024},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "36d966714f79f450a5affd5c9b061d9106f7645ffac547874639cf6e95999069",
+      "articleSha256": "0d63f9a6d1f3c8739d5bb8f747bfe3a755749f811e657bf60db01c74978b7310",
+      "socialSha256": "c44b4fd6286a9f9ac4b5f12d75dd32a6bd589ea121b05fe2836f4d1c3e547e04",
       "scientificReferences": [
         "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
         "https://meshb.nlm.nih.gov/record/ui?ui=D007668",
@@ -135,6 +156,9 @@
       "fileSizeBytes": 1393323,
       "dimensions": {"width": 1536, "height": 1024},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "62f038b83570aa2cc82384ce7550425d6306786de33ef7803568c5b15fc7df44",
+      "articleSha256": "b79d5d41a41dcaaaf2c18104c380423916f0741bc228a229018bfa949aae1d63",
+      "socialSha256": "a30e700a56c8f35ae0e77aaf9a04d3033f0bf2805122524787ae9e183f4a0ded",
       "scientificReferences": [
         "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
         "https://meshb.nlm.nih.gov/record/ui?ui=D008670",
@@ -185,6 +209,9 @@
       "fileSizeBytes": 1375470,
       "dimensions": {"width": 1536, "height": 1024},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "b3b776c241fcf9d305ac655f264d94c22c9243a6207c3652826cfcd9de5966f7",
+      "articleSha256": "24611e8e9d522daf5f6f20dc1f09cd9b6bf44335905c0cbb67ee0c6d95c325ed",
+      "socialSha256": "860d82ec085ef0887cf621e6df0d0161e6882c6585f1b75df6366d49071885e7",
       "scientificReferences": [
         "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
         "https://meshb.nlm.nih.gov/record/ui?ui=D011467",
