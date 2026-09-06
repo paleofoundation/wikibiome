@@ -69,3 +69,15 @@ Use case: scientific-educational. Asset type: review-only WikiBiome internal uro
 
 All six exact prompts are scientifically cleared for one built-in image-generation call each. No prompt may be changed after the audit commit without a new audit. Returned media remains review-only until literal native-resolution audit, immutable hashes, separate Control Tower acceptance, metadata reconciliation, and derivative crop review are complete. Prompt-requested content must never be reported as observed output.
 
+## Frozen prompt hashes
+
+| Route | Revision | Prompt SHA-256 |
+| --- | ---: | --- |
+| `depression` | 1 | `806557a6a55ddb5a24a8154f092d93d0e4515bfe3cf24ad7cd1672b8028cd726` |
+| `dermatitis-herpetiformis` | 1 | `8ee71b8a129ce996fb4a9e2ea03da549f3b6214b502a768d7a237146bf5552fe` |
+| `diabetic-kidney-disease` | 1 | `8da758cc312a78e8dcdf2fe50bfefa95aa7078c2c1e9214f7ebf2826184255ad` |
+| `endometriosis` | 1 | `b1c32859fe5497f354e651ad29f55a17715d81118758b1d72e1d56e8c84b61b9` |
+| `epilepsy` | 1 | `64be2122e7947bf7795a949f49543092b762a2a38ff0399fdf6c8395236ef838` |
+| `erectile-dysfunction` | 1 | `35d102e8872e0330881f928fe9ee385303340cdb0a1743b8664429bee9d41c9a` |
+
+These hashes bind the exact prompt bodies above to audit commit `74c64e1`. Any prompt change requires a new audit before generation.
