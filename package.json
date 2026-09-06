@@ -28,6 +28,7 @@
     "search:verify": "npm run build && node --test tests/rendered-html.test.mjs && npm run search:audit && npm run corpus:audit",
     "media:pilot": "node scripts/process-pilot-images.mjs",
     "media:process": "node scripts/process-article-media.mjs",
+    "media:reviews:merge": "node scripts/merge-article-media-reviews.mjs",
     "media:program:write": "node scripts/generate-article-media-program.mjs --write",
     "media:program:check": "node scripts/generate-article-media-program.mjs",
     "media:check": "node scripts/check-article-media.mjs",

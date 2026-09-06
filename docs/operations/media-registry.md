@@ -4,6 +4,8 @@ Every publishable scientific image is declared in `lib/article-media-registry.mj
 
 New prompt records use paired `<!-- PROMPT <page-id> START/END -->` markers around the exact fenced input. Both media gates recompute every marker-bound prompt SHA-256 and fail on drift, duplicate or orphaned blocks, missing candidate-asset hashes, or hashed assets without a matching block. Historical unmarked prompt packets remain readable as legacy provenance.
 
+Approved review entries should be assembled in a temporary JSON object keyed by `pageId|publishedFile`, then merged with `npm run media:reviews:merge -- --records <file> --updated-on YYYY-MM-DD`. The merger validates approval disposition, registered reviewing authority, scientific-reference checks, subject review, accessibility review, revision linkage, filenames, and keys; it refuses to overwrite existing reviews and never writes into the authority or rejection ledgers.
+
 ## Canonical filenames
 
 The generator derives all three filenames from the canonical article slug, an approved asset type, and a positive revision number:
