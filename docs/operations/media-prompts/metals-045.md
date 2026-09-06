@@ -80,4 +80,15 @@ Constraints: Representative elemental material only. No galvanized object, batte
 - Uranium is explicitly treated as radioactive and visually contained without implying safe handling, purity, enrichment, weapons use, or diagnostic meaning.
 - Public metadata must distinguish elemental material from compounds, products, ores, supplements, exposure scenes, analytical reference material, and photographs.
 
-All four routes are scientifically cleared. No generation has occurred. Every output remains review-only until native pixels, literal body and grouping counts, prohibited content, edge field, crop-safe bounds, immutable source hash, metadata consistency, and absence of public leakage are recorded. Observed output—not requested composition—controls downstream metadata.
+All four routes were scientifically cleared. Exactly four built-in calls completed, one per route, with no retry or revision. Every output remains review-only until separate exact-hash Control Tower acceptance and promotion. Observed output—not requested composition—controls downstream metadata.
+
+## Immutable generation records
+
+| Route | Generation record | Prompt SHA-256 | Source SHA-256 | Bytes | Literal native output | Edge and crop audit |
+| --- | --- | --- | --- | ---: | --- | --- |
+| `titanium` | `exec-94e1e29c-c238-44e8-ac6f-7f4e2e64c138.png` | `704bc76e4bbd48019a207ce1d9467ea6a2184a3f220b4a7d21e9398596f3daa6` | `36a8c1d3ac9b0343eccc23e91f8285dcc9b4f4b13a20317302b589783912cd17` | 1,521,219 | Three bright silvery-white irregular worked pieces; no prohibited content. | Edge minimum RGB `[236,244,251]`; zero dark pixels; foreground x 90–1478, y 325–691; cover safe. |
+| `uranium` | `exec-29419595-8096-439c-b8f5-aa84cb99fdfd.png` | `e7c3e7fec91a638066db7f0e1709293311109009aa1e3b1a14b7ac8f2dbbb481` | `52487a7f051e03ca874d3fad5d6b570a7e1a13b00d3deeab9fbbec0a7c6f8275` | 1,319,098 | One complete sealed ampoule with three dense-looking gray-silver oxidized pieces; no prohibited content. | Edge minimum `[234,242,251]`; zero dark pixels; foreground x 84–1454, y 385–631; cover safe. |
+| `vanadium` | `exec-ebb972d8-4d9f-44f0-8c06-c79bd9e8bb44.png` | `43ff626f291e1b990d230bf9f515c34c0aa44310ed7da9cfcf944a17b8367216` | `0a0938569c61f750842c0fa3f687a39fb1e34571245632df387c70225bf27630` | 1,556,235 | Three bright pale-silver cut pieces with restrained worked surfaces; no prohibited content. | Edge minimum `[235,244,251]`; zero dark pixels; foreground x 79–1462, y 328–743; cover safe. |
+| `zinc` | `exec-9d34ffcd-f670-4967-9f10-3be7b14ed71f.png` | `68a27de3deda1a107e5eb2992b9bb6e92b96867193f936c91c397192fed53e4a` | `aadd1f5cb1a3d94693f162a46c6aac7cd2c79993d22b27bc115d0b5868154272` | 1,610,450 | Three bluish-gray angular pieces with bright brittle-looking fracture faces; no prohibited content. | Edge minimum `[235,241,247]`; zero dark pixels; foreground x 67–1465, y 315–712; cover safe. |
+
+The native audit found no text, symbols, labels, people, products, ores, compounds, decorative particles, clipping, or scene-making. Uranium appears only within one complete sealed ampoule with three distinct contained pieces and no glow, hazard symbol, fuel, weapon, or exposure implication. Prompt intent is not reported as observed fact.
