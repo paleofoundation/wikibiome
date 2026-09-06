@@ -9,6 +9,8 @@
   "auditCommit": "ba3b733",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/metals-042.md",
+  "controlAcceptedReviewManifestSha256": "41b9a9caa3fbb5786423fd4d2365719c322f6053f2c4b4327a57c53482fce272",
+  "controlAcceptedPromptEvidenceSha256": "57ce6ae349bb9d7e16d4489ae29adfb5b080555211c09c41d68226b452ac9d55",
   "publicationMetadataPlan": {
     "reviewOnly": true,
     "creator": "OpenAI built-in image generation",
@@ -28,7 +30,15 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native-resolution exact-hash review",
+    "status": "accepted-six-exact-hashes",
+    "acceptedReviewCommit": "fe8a519",
+    "integratedReviewCommit": "fe8a519",
+    "notes": "Control Tower verified the exact parent, immutable prompts and hashes, current elemental identities, atomic numbers, PubChem CIDs, elemental-versus-compound boundaries, literal native outputs, edge fields, crop-safe bounds, prohibited content, and zero public leakage."
+  },
   "assets": [
     {
       "pageId": "calcium", "displayName": "Calcium", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call",
