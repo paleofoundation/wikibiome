@@ -97,3 +97,7 @@ The four approved outputs contain no text, labels, people, pills, treatment scen
 ## Control Tower exact-hash acceptance
 
 Control Tower accepted immutable review commit `05ed476` on 2026-09-06. The accepted review-manifest SHA-256 is `e70357e797c88c138849c37ad46342546c9e17ab74bf443b53996b13092fdfa8`; the accepted prompt-evidence SHA-256 is `7f0706021267e0f0896194a9077afe7b1b9588c1403d1f5b9889266e6d9a4668`. Promotion is limited to the exact Anxiety Disorders, Autism Spectrum Disorder, Bipolar Disorder, and Cardiovascular Diseases source hashes above. Barrett Esophagus remains quarantined and Breast Cancer has no output; neither may publish from this review chain.
+
+## Promotion and social-crop review
+
+The four exact accepted sources were promoted as metadata-bearing lossless masters, article WebP derivatives, and centered `contain` 1200 × 630 social WebP derivatives on `#f3f7fb`. Control Tower inspected every social derivative at native detail on 2026-09-06. The primary brain, gut, heart, vessel, and synaptic structures remain complete and legible without scientifically meaningful clipping. `contain` was retained because center-cover crops would remove anatomy. The Barrett and Breast Cancer routes produced no public artifact.

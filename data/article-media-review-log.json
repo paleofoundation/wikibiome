@@ -5219,9 +5219,47 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text names zinc and literal form; caption expands Zn and separates representative appearance from analytical identification." },
       "disposition": "approved", "notes": "Exact immutable Batch 045 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "zinc-draft.png", "sourceSha256": "aadd1f5cb1a3d94693f162a46c6aac7cd2c79993d22b27bc115d0b5868154272", "generationRecord": "exec-9d34ffcd-f670-4967-9f10-3be7b14ed71f.png" }
+    },
+    "anxiety|anxiety-pathology-v1.webp": {
+      "pageId": "anxiety", "publishedFile": "anxiety-pathology-v1.webp", "masterSource": "anxiety-pathology-v1-master.png", "socialFile": "anxiety-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D001008", "https://www.who.int/news-room/fact-sheets/detail/anxiety-disorders"], "notes": "MeSH controls the Anxiety Disorders identity; WHO supports heterogeneous biological, psychological, and social scope rather than a single visible lesion." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one anonymous translucent anatomical model with brain, descending neural pathways, stomach, and intestinal tract and no distress, emotion, stigma, diagnostic scan, or visible-lesion claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports literal anatomy; caption explicitly states that anxiety disorders have no single visible anatomy and that the plate is non-diagnostic." },
+      "disposition": "approved", "notes": "Exact immutable Batch 046 source accepted for contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "anxiety-draft.png", "sourceSha256": "1b9718115f1b9d82bb0d6ef1bde7f60006b7c1de412e15f62cf7c6b67b846b99", "generationRecord": "exec-cdab52c8-da43-482d-b382-02179486a3ab.png" }
+    },
+    "autism-spectrum-disorder|autism-spectrum-disorder-pathology-v1.webp": {
+      "pageId": "autism-spectrum-disorder", "publishedFile": "autism-spectrum-disorder-pathology-v1.webp", "masterSource": "autism-spectrum-disorder-pathology-v1-master.png", "socialFile": "autism-spectrum-disorder-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D000067877", "https://pmc.ncbi.nlm.nih.gov/articles/PMC9066426/"], "notes": "MeSH controls the heterogeneous Autism Spectrum Disorder identity; respectful-language literature supports the non-disparaging representation boundary." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted an intact brain, separate synaptic inset, and intestinal tract with no person, puzzle piece, stereotype, deficit metaphor, damaged brain, or diagnostic-lesion claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports the three literal groupings; caption rejects a universal visible autistic anatomy and any diagnostic interpretation." },
+      "disposition": "approved", "notes": "Exact immutable Batch 046 source accepted for contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "autism-spectrum-disorder-draft.png", "sourceSha256": "7bdefed7a738c6d253da8c195fcbecffed1d9e14e33141052dba35c48e6dac9b", "generationRecord": "exec-12c6d148-fb5e-4cc1-8439-97020a8db26b.png" }
+    },
+    "bipolar-disorder|bipolar-disorder-pathology-v1.webp": {
+      "pageId": "bipolar-disorder", "publishedFile": "bipolar-disorder-pathology-v1.webp", "masterSource": "bipolar-disorder-pathology-v1-master.png", "socialFile": "bipolar-disorder-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D001714", "https://www.nimh.nih.gov/health/topics/bipolar-disorder"], "notes": "MeSH controls the Bipolar Disorder identity and NIMH supports heterogeneous clinical scope and diagnosis by history; no visible anatomical hallmark is asserted." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one intact neutral brain and gastrointestinal grouping with no split-brain, mood theater, person, scan, or diagnostic-lesion motif." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports literal anatomy; caption explicitly rejects split-brain and diagnostic interpretations." },
+      "disposition": "approved", "notes": "Exact immutable Batch 046 source accepted for contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "bipolar-disorder-draft.png", "sourceSha256": "3b29beece62c28ec25b18ed7cf00ed28f4576958ff1fdc0ff294845f3ce7d912", "generationRecord": "exec-05c3c76c-afac-4fbc-bed8-d3e14f71f574.png" }
+    },
+    "cardiovascular-disease|cardiovascular-disease-pathology-v1.webp": {
+      "pageId": "cardiovascular-disease", "publishedFile": "cardiovascular-disease-pathology-v1.webp", "masterSource": "cardiovascular-disease-pathology-v1-master.png", "socialFile": "cardiovascular-disease-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D002318", "https://www.nhlbi.nih.gov/health/heart/anatomy"], "notes": "MeSH controls the umbrella Cardiovascular Diseases identity spanning heart, blood vessels, and pericardium; NHLBI supports heart and major-vessel anatomical orientation." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted a complete external heart with major vessels and one separate artery cross-section with eccentric plaque and open lumen; the inset is explicitly representative rather than categorical." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports the two literal groupings; caption explains the umbrella scope and rejects diagnostic or comprehensive interpretation." },
+      "disposition": "approved", "notes": "Exact immutable Batch 046 source accepted for contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cardiovascular-disease-draft.png", "sourceSha256": "532077fbb73b22597570186e3edb1457519f768aa4feec22584e3b04daf62e00", "generationRecord": "exec-53703ee3-a5a0-44f8-978b-e31ced1008a9.png" }
     }
   },
   "rejectedAssets": [
+    {
+      "pageId": "barretts-esophagus", "controlledIdentifier": "MeSH:D001471", "batchId": "diseases-046", "reviewedOn": "2026-09-06", "reviewingAuthority": "wikibiome-media-program", "disposition": "rejected-source-edge-clipping", "draft": "work/media-drafts/diseases-batch-046/barretts-esophagus-draft.png", "sha256": "1f9e61ecf2a12b4415c1f5673b0db20fd35a7483aa1efac700682fdd6203542b", "generationRecord": "exec-9555f498-5bc8-43f3-b261-227adb401876.png", "reason": "The generated esophagus and gastric-junction cutaway reaches the top, bottom, and right source edges, includes 9,523 dark edge-band pixels, and cannot satisfy the complete-organ or safe-derivative requirement.", "requiredResolution": "A future independently audited revision must use a more distant composition and preserve the complete organ and clean pale edge field.", "routingImpact": "The rejected source remains project-bound and non-public and owns no registry key, master, derivative, endpoint, schema node, or image-sitemap entry."
+    },
+    {
+      "pageId": "breast-cancer", "controlledIdentifier": "MeSH:D001943", "batchId": "diseases-046", "reviewedOn": "2026-09-06", "reviewingAuthority": "wikibiome-media-program", "disposition": "generation-failed-safety-moderation", "failureRequestId": "b02887d3-9763-447a-84fa-3da53f79480e", "reason": "The single built-in generation request returned moderation_blocked in category sexual and produced no image output.", "requiredResolution": "A future independently audited medically neutral prompt must pass the generator safety boundary before any visual review can occur.", "routingImpact": "No source asset exists. The route remains uncovered and owns no registry key, master, derivative, endpoint, schema node, or image-sitemap entry."
+    },
     {
       "pageId": "verrucomicrobia",
       "sourceEraIdentifier": "NCBITaxon:74201",

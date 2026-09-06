@@ -2936,16 +2936,16 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-33-3-618/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
-    "anxiety",
-    "autism-spectrum-disorder",
     "barretts-esophagus",
-    "bipolar-disorder",
     "breast-cancer",
-    "cardiovascular-disease",
+    "celiac-disease",
+    "cerebral-palsy",
+    "cholestasis",
+    "chronic-fatigue-syndrome",
   ]);
-  assert.equal(program.current.completed, 245);
-  assert.equal(program.current.remaining, 465);
-  assert.equal(program.current.rejected, 30);
+  assert.equal(program.current.completed, 249);
+  assert.equal(program.current.remaining, 461);
+  assert.equal(program.current.rejected, 32);
   assert.equal(program.current.revised, 11);
   assert.equal(program.current.inReview, 0);
   assert.equal(program.current.scientificHolds, 15);
@@ -3785,6 +3785,66 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     const socialMetadata = await sharp(readFileSync(new URL(`../public/media-files/${media.socialFile}`, import.meta.url))).metadata();
     assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
   }
+  const batch046 = batches.find((batch) => batch.batchId === "diseases-046");
+  assert.equal(batch046?.status, "reviewed");
+  assert.equal(batch046?.authorizedParent, "062926f2117a63dc15eb3b4d3d52a9aa7ac89af0");
+  assert.equal(batch046?.auditCommit, "155fe2b");
+  assert.equal(batch046?.publicationMetadataPlan?.reviewOnly, false);
+  assert.equal(batch046?.routeDecisionCount, 6);
+  assert.equal(batch046?.candidateCount, 4);
+  assert.equal(batch046?.generationCallCount, 6);
+  assert.equal(batch046?.reviewableGenerationCount, 4);
+  assert.equal(batch046?.failedGenerationCount, 1);
+  assert.equal(batch046?.quarantinedGenerationCount, 1);
+  assert.equal(batch046?.controlReviewRequired, false);
+  assert.equal(batch046?.controlFinalReview?.acceptedReviewCommit, "05ed476");
+  assert.equal(batch046?.controlSocialCropReview, "accepted-four-centered-contain-derivatives");
+  assert.equal(batch046?.controlAcceptedReviewManifestSha256, "e70357e797c88c138849c37ad46342546c9e17ab74bf443b53996b13092fdfa8");
+  assert.equal(batch046?.controlAcceptedPromptEvidenceSha256, "7f0706021267e0f0896194a9077afe7b1b9588c1403d1f5b9889266e6d9a4668");
+  const batch046ExpectedOutputs = new Map([
+    ["anxiety", ["D001008", "2fb574ca940b8e7e9aee44221e9da8f2e408245d9e57ae5554952a64def259f7", "1b9718115f1b9d82bb0d6ef1bde7f60006b7c1de412e15f62cf7c6b67b846b99", 1545767, 1, 1]],
+    ["autism-spectrum-disorder", ["D000067877", "b1ad41e2653d587059189eb29a32794f532afeb4de98a3ee572fb4690333954b", "7bdefed7a738c6d253da8c195fcbecffed1d9e14e33141052dba35c48e6dac9b", 1971652, 3, 3]],
+    ["bipolar-disorder", ["D001714", "0361f5b8db31ba02ce35961ce433f1357a9b78a3e0e5c5c21dfc5f3cac69c301", "3b29beece62c28ec25b18ed7cf00ed28f4576958ff1fdc0ff294845f3ce7d912", 1408769, 2, 2]],
+    ["cardiovascular-disease", ["D002318", "cc9cb23ad8d6220f073c741e1ea9bceb791d3db52570d8dfb9487c4f897a70aa", "532077fbb73b22597570186e3edb1457519f768aa4feec22584e3b04daf62e00", 1967234, 2, 2]],
+  ]);
+  const batch046PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/diseases-046.md", import.meta.url), "utf8");
+  const accepted046Assets = batch046?.assets.filter((asset) => asset.assetType && asset.revision) ?? [];
+  assert.equal(accepted046Assets.length, 4);
+  for (const asset of accepted046Assets) {
+    const [meshId, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch046ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.meshId, meshId);
+    assert.equal(asset.controlledIdentifier, `MeSH:${meshId}`);
+    assert.equal(asset.promptSha256, promptSha256);
+    assert.equal(asset.sha256, sha256);
+    assert.equal(asset.fileSizeBytes, fileSize);
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), sha256);
+    const promptMatch = batch046PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
+    const media = articleMediaRegistry[asset.pageId];
+    assert.equal(media.subjectKind, "condition");
+    assert.equal(media.socialResizeFit, "contain");
+    assert.equal(media.socialBackground, "#f3f7fb");
+    assert.ok(media.scientificIdentifiers.some((identifier) => identifier.propertyID === "MeSH" && identifier.value === meshId));
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.disposition, "approved");
+    const [draftPixels, masterPixels] = await Promise.all([sharp(draftBytes).removeAlpha().raw().toBuffer(), sharp(readFileSync(new URL(`../media/masters/${media.masterSource}`, import.meta.url))).removeAlpha().raw().toBuffer()]);
+    assert.equal(Buffer.compare(draftPixels, masterPixels), 0, `${asset.pageId} master must decode pixel-identically to accepted source`);
+    const socialMetadata = await sharp(readFileSync(new URL(`../public/media-files/${media.socialFile}`, import.meta.url))).metadata();
+    assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
+  }
+  const batch046Barrett = batch046?.assets.find((asset) => asset.pageId === "barretts-esophagus");
+  const batch046BreastCancer = batch046?.assets.find((asset) => asset.pageId === "breast-cancer");
+  assert.equal(batch046Barrett?.decision, "rejected-after-output-audit");
+  assert.equal(batch046Barrett?.outputAudit?.metadataConsistency, "fail");
+  assert.equal(batch046BreastCancer?.generationStatus, "failed-safety-moderation");
+  assert.equal(batch046BreastCancer?.outputAudit?.observedSubjectDescription, "No image was returned.");
+  for (const id of ["barretts-esophagus", "breast-cancer"]) {
+    assert.equal(articleMediaRegistry[id], undefined);
+    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)));
+  }
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => ["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition));
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [
@@ -3911,7 +3971,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.doesNotMatch(html, /data-article-media-schema/);
   }
 
-  const fallbackResponse = await render("/article/anxiety");
+  const fallbackResponse = await render("/article/barretts-esophagus");
   const fallback = await fallbackResponse.text();
   assert.match(fallback, /class="infobox-visual infobox-disease"/);
   assert.doesNotMatch(fallback, /class="article-media-figure"/);
@@ -4340,7 +4400,7 @@ test("publishes self-canonical metadata, social previews, and representative Sch
   assert.ok(signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease"));
   assert.ok(!signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease-signature"), "collection schema must resolve known signature aliases to canonical articles");
 
-  const noMediaResponse = await render("/article/anxiety");
+  const noMediaResponse = await render("/article/barretts-esophagus");
   const noMediaHtml = await noMediaResponse.text();
   const noMediaSchema = structuredData(noMediaHtml, "data-article-schema");
   assert.ok(noMediaSchema["@graph"].some((node) => node["@type"] === "Article"));

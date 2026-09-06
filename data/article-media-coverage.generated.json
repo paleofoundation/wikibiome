@@ -8,10 +8,16 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "1c466140774c1de93d33eefbf47ea640bd49f034bac5ffd38091cd0a8cbc4650",
+    "registrySha256": "da1f1e8ce4eb1f89342d79b349c85fbd60bdd3a71df2cf42e989eb6437ef3cbc",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "5bd8f7866276dc1ee72af9a9dc0e36a68805589fb1a43d1d35680df15aa5c4b2",
+    "reviewLogSha256": "73df5b9c70da8db54265bd7d66af6887ae10a66e6357fa6dbedd07fad4398e1b",
     "batchManifests": [
+      {
+        "file": "data/article-media-batches/diseases-046.json",
+        "batchId": "diseases-046",
+        "status": "reviewed",
+        "sha256": "360ca703b3355b2f0042204358654d9e1e0f3dd976bec870d6febdd100b234d5"
+      },
       {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
@@ -302,9 +308,9 @@
   },
   "current": {
     "total": 710,
-    "completed": 245,
-    "remaining": 465,
-    "rejected": 30,
+    "completed": 249,
+    "remaining": 461,
+    "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
     "inReview": 0
@@ -328,8 +334,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 2,
-      "remaining": 64
+      "completed": 6,
+      "remaining": 60
     },
     {
       "id": "mechanisms",
@@ -368,6 +374,32 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "barretts-esophagus",
+      "controlledIdentifier": "MeSH:D001471",
+      "batchId": "diseases-046",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "rejected-source-edge-clipping",
+      "draft": "work/media-drafts/diseases-batch-046/barretts-esophagus-draft.png",
+      "sha256": "1f9e61ecf2a12b4415c1f5673b0db20fd35a7483aa1efac700682fdd6203542b",
+      "generationRecord": "exec-9555f498-5bc8-43f3-b261-227adb401876.png",
+      "reason": "The generated esophagus and gastric-junction cutaway reaches the top, bottom, and right source edges, includes 9,523 dark edge-band pixels, and cannot satisfy the complete-organ or safe-derivative requirement.",
+      "requiredResolution": "A future independently audited revision must use a more distant composition and preserve the complete organ and clean pale edge field.",
+      "routingImpact": "The rejected source remains project-bound and non-public and owns no registry key, master, derivative, endpoint, schema node, or image-sitemap entry."
+    },
+    {
+      "pageId": "breast-cancer",
+      "controlledIdentifier": "MeSH:D001943",
+      "batchId": "diseases-046",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "generation-failed-safety-moderation",
+      "failureRequestId": "b02887d3-9763-447a-84fa-3da53f79480e",
+      "reason": "The single built-in generation request returned moderation_blocked in category sexual and produced no image output.",
+      "requiredResolution": "A future independently audited medically neutral prompt must pass the generator safety boundary before any visual review can occur.",
+      "routingImpact": "No source asset exists. The route remains uncovered and owns no registry key, master, derivative, endpoint, schema node, or image-sitemap entry."
+    },
     {
       "pageId": "verrucomicrobia",
       "sourceEraIdentifier": "NCBITaxon:74201",
@@ -1214,37 +1246,10 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 260,
-      "id": "anxiety",
-      "title": "Anxiety Disorders",
-      "route": "/article/anxiety",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
-      "queuePosition": 261,
-      "id": "autism-spectrum-disorder",
-      "title": "Autism Spectrum Disorder",
-      "route": "/article/autism-spectrum-disorder",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
       "queuePosition": 262,
       "id": "barretts-esophagus",
       "title": "Barrett's Esophagus",
       "route": "/article/barretts-esophagus",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
-      "queuePosition": 263,
-      "id": "bipolar-disorder",
-      "title": "Bipolar Disorder",
-      "route": "/article/bipolar-disorder",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -1259,10 +1264,37 @@
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 265,
-      "id": "cardiovascular-disease",
-      "title": "Cardiovascular Disease",
-      "route": "/article/cardiovascular-disease",
+      "queuePosition": 266,
+      "id": "celiac-disease",
+      "title": "Celiac Disease",
+      "route": "/article/celiac-disease",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
+    },
+    {
+      "queuePosition": 267,
+      "id": "cerebral-palsy",
+      "title": "Cerebral Palsy",
+      "route": "/article/cerebral-palsy",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
+    },
+    {
+      "queuePosition": 268,
+      "id": "cholestasis",
+      "title": "Cholestasis",
+      "route": "/article/cholestasis",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
+    },
+    {
+      "queuePosition": 269,
+      "id": "chronic-fatigue-syndrome",
+      "title": "Chronic Fatigue Syndrome",
+      "route": "/article/chronic-fatigue-syndrome",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -6701,7 +6733,15 @@
       "route": "/article/anxiety",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "anxiety-pathology-v1-master.png",
+        "publishedFile": "anxiety-pathology-v1.webp",
+        "socialFile": "anxiety-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 261,
@@ -6715,7 +6755,15 @@
       "route": "/article/autism-spectrum-disorder",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "autism-spectrum-disorder-pathology-v1-master.png",
+        "publishedFile": "autism-spectrum-disorder-pathology-v1.webp",
+        "socialFile": "autism-spectrum-disorder-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 262,
@@ -6742,7 +6790,15 @@
       "route": "/article/bipolar-disorder",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "bipolar-disorder-pathology-v1-master.png",
+        "publishedFile": "bipolar-disorder-pathology-v1.webp",
+        "socialFile": "bipolar-disorder-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 264,
@@ -6770,7 +6826,15 @@
       "route": "/article/cardiovascular-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cardiovascular-disease-pathology-v1-master.png",
+        "publishedFile": "cardiovascular-disease-pathology-v1.webp",
+        "socialFile": "cardiovascular-disease-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 266,
