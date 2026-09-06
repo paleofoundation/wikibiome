@@ -13657,6 +13657,64 @@
       "reason": "Seven microbial bodies appear in the lumen and two overlap; the ringed intestinal wall and unidentifiable nubbed ovary-context body also contradict frozen controls.",
       "supersededBy": null,
       "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "gut-penis-axis",
+      "controlledIdentifier": "WikiBiome:gut-penis-axis;related-MeSH:D000069196,D010413,D007172,D010410;related-UBERON:0000989",
+      "batchId": "mechanisms-072",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The current article conflates overlapping Mendelian-randomization datasets with independent replication, misattributes LPS production to Gram-positive Lachnospiraceae, uses PDE5-inhibitor efficacy to overvalidate an upstream microbiome pathway, and substantially overlaps the erectile-dysfunction entity.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010413",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007172",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010410",
+        "https://amigo.geneontology.org/amigo/term/UBERON%3A0000989",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10620728/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10773840/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11390668/",
+        "local:data/content.generated.json#/pages/gut-penis-axis"
+      ],
+      "requiredResolution": "Reconcile the route's independent scope versus an erectile-dysfunction subsection or audited alias; correct source accounting, bacterial and LPS language, and causal or clinical claims; then independently re-audit a neutral component-domain representation.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, Schema records, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit. Batch 072 makes no queue substitution."
+    },
+    {
+      "pageId": "gut-testis-axis",
+      "controlledIdentifier": "WikiBiome:gut-testis-axis;related-MeSH:D000069196,D013737,D013091,D001814;related-UBERON:0000473",
+      "batchId": "mechanisms-072",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The current article reverses the cited 3-HPAA and GPX4 ferroptosis result and adds an unsupported gut-iron and siderophore propagation inference.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013737",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013091",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D001814",
+        "https://www.ebi.ac.uk/spot/oxo/terms/UBERON%3A0000473",
+        "https://pubmed.ncbi.nlm.nih.gov/37752615/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10523725/",
+        "local:data/content.generated.json#/pages/gut-testis-axis"
+      ],
+      "requiredResolution": "Correct the 3-HPAA result, remove or independently source the siderophore inference, distinguish animal evidence from human translation, and then independently re-audit neutral component-domain media.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, Schema records, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit. Batch 072 makes no queue substitution."
+    },
+    {
+      "pageId": "gut-thyroid-axis",
+      "controlledIdentifier": "WikiBiome:gut-thyroid-axis;related-MeSH:D000069196,D013961;related-UBERON:0002046",
+      "batchId": "mechanisms-072",
+      "draft": "work/media-drafts/mechanisms-batch-072/gut-thyroid-axis-draft.png",
+      "sha256": "2e60282af9052b040db8465b6d00223f0e3fc9e364b42d826c38301f48041b15",
+      "generationRecord": "exec-a8d6a796-2db1-46eb-91dd-67f35ea67c79.png",
+      "promptSha256": "b43e0cb9322581ab5651b4f2fb640ce6cd4a14f7099bb90de6b00af09394e70b",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Both thyroid lobes have conspicuous repeated rounded protuberances and a strongly pebbled or lobulated surface that can read as nodular, multinodular, or goitrous rather than the frozen smooth normal gland.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
     }
   ],
   "revisedAssets": [

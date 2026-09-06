@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "55365da8727d1508211ecc8fe44eae8ea259097ab8f1f3abde3eefe773579904",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "8e9238306e5f7151c5590214746e04cc8874af76b0ef0531e4509ef3340e3380",
+    "reviewLogSha256": "50d0b8a1ba6dbc6d2b5f9ad8dc5d9e71287b4f4508b10969b17f6ff312f61e85",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -167,6 +167,12 @@
         "batchId": "mechanisms-071",
         "status": "reviewed",
         "sha256": "55c8976b09f42e450319127d2eaaaf0c01ddde7a698335210346c3382b714bcd"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-072.json",
+        "batchId": "mechanisms-072",
+        "status": "awaiting-control-review",
+        "sha256": "0c8324eb27bfbc67c3b1fb19c050b53853374a4545437759b32b214e23c56bcc"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -460,10 +466,10 @@
     "total": 710,
     "completed": 359,
     "remaining": 351,
-    "rejected": 67,
+    "rejected": 70,
     "revised": 12,
-    "scientificHolds": 15,
-    "inReview": 0
+    "scientificHolds": 17,
+    "inReview": 3
   },
   "categories": [
     {
@@ -1798,6 +1804,64 @@
       "reason": "Seven microbial bodies appear in the lumen and two overlap; the ringed intestinal wall and unidentifiable nubbed ovary-context body also contradict frozen controls.",
       "supersededBy": null,
       "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "gut-penis-axis",
+      "controlledIdentifier": "WikiBiome:gut-penis-axis;related-MeSH:D000069196,D010413,D007172,D010410;related-UBERON:0000989",
+      "batchId": "mechanisms-072",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The current article conflates overlapping Mendelian-randomization datasets with independent replication, misattributes LPS production to Gram-positive Lachnospiraceae, uses PDE5-inhibitor efficacy to overvalidate an upstream microbiome pathway, and substantially overlaps the erectile-dysfunction entity.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010413",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007172",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010410",
+        "https://amigo.geneontology.org/amigo/term/UBERON%3A0000989",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10620728/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10773840/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11390668/",
+        "local:data/content.generated.json#/pages/gut-penis-axis"
+      ],
+      "requiredResolution": "Reconcile the route's independent scope versus an erectile-dysfunction subsection or audited alias; correct source accounting, bacterial and LPS language, and causal or clinical claims; then independently re-audit a neutral component-domain representation.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, Schema records, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit. Batch 072 makes no queue substitution."
+    },
+    {
+      "pageId": "gut-testis-axis",
+      "controlledIdentifier": "WikiBiome:gut-testis-axis;related-MeSH:D000069196,D013737,D013091,D001814;related-UBERON:0000473",
+      "batchId": "mechanisms-072",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The current article reverses the cited 3-HPAA and GPX4 ferroptosis result and adds an unsupported gut-iron and siderophore propagation inference.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000069196",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013737",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013091",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D001814",
+        "https://www.ebi.ac.uk/spot/oxo/terms/UBERON%3A0000473",
+        "https://pubmed.ncbi.nlm.nih.gov/37752615/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10523725/",
+        "local:data/content.generated.json#/pages/gut-testis-axis"
+      ],
+      "requiredResolution": "Correct the 3-HPAA result, remove or independently source the siderophore inference, distinguish animal evidence from human translation, and then independently re-audit neutral component-domain media.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation calls, public media registry keys, masters, derivatives, Schema records, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit. Batch 072 makes no queue substitution."
+    },
+    {
+      "pageId": "gut-thyroid-axis",
+      "controlledIdentifier": "WikiBiome:gut-thyroid-axis;related-MeSH:D000069196,D013961;related-UBERON:0002046",
+      "batchId": "mechanisms-072",
+      "draft": "work/media-drafts/mechanisms-batch-072/gut-thyroid-axis-draft.png",
+      "sha256": "2e60282af9052b040db8465b6d00223f0e3fc9e364b42d826c38301f48041b15",
+      "generationRecord": "exec-a8d6a796-2db1-46eb-91dd-67f35ea67c79.png",
+      "promptSha256": "b43e0cb9322581ab5651b4f2fb640ce6cd4a14f7099bb90de6b00af09394e70b",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Both thyroid lobes have conspicuous repeated rounded protuberances and a strongly pebbled or lobulated surface that can read as nodular, multinodular, or goitrous rather than the frozen smooth normal gland.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new frozen revision prompt and separately authorized generation call."
     }
   ],
   "revisedAssets": [
@@ -1952,55 +2016,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 409,
-      "id": "gut-kidney-axis",
-      "title": "Gut-Kidney Axis",
-      "route": "/article/gut-kidney-axis",
+      "queuePosition": 415,
+      "id": "gut-vagina-axis",
+      "title": "Gut-Vagina Axis",
+      "route": "/article/gut-vagina-axis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 410,
-      "id": "gut-metal-microbiome",
-      "title": "Gut-Metal-Microbiome Interactions",
-      "route": "/article/gut-metal-microbiome",
+      "queuePosition": 416,
+      "id": "heavy-metal-neurotoxicity",
+      "title": "Heavy Metal Neurotoxicity",
+      "route": "/article/heavy-metal-neurotoxicity",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 411,
-      "id": "gut-penis-axis",
-      "title": "Gut-Penis Axis",
-      "route": "/article/gut-penis-axis",
+      "queuePosition": 417,
+      "id": "heavy-metals",
+      "title": "Heavy Metals",
+      "route": "/article/heavy-metals",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 412,
-      "id": "gut-prostate-axis",
-      "title": "Gut-Prostate Axis",
-      "route": "/article/gut-prostate-axis",
+      "queuePosition": 418,
+      "id": "heavy-metals-infant-foods",
+      "title": "Heavy Metals in Infant Foods",
+      "route": "/article/heavy-metals-infant-foods",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 413,
-      "id": "gut-testis-axis",
-      "title": "Gut-Testis Axis",
-      "route": "/article/gut-testis-axis",
+      "queuePosition": 419,
+      "id": "histidine",
+      "title": "Histidine",
+      "route": "/article/histidine",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 414,
-      "id": "gut-thyroid-axis",
-      "title": "Gut-Thyroid Axis",
-      "route": "/article/gut-thyroid-axis",
+      "queuePosition": 420,
+      "id": "homocysteine",
+      "title": "Homocysteine",
+      "route": "/article/homocysteine",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -10576,7 +10640,13 @@
       "route": "/article/gut-kidney-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-072",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-072/gut-kidney-axis-draft.png",
+        "sha256": "b37e3312e1f550f315985e16cfb4cfad4d1d1339e93bf46c1ef4ca82f9cdf363"
+      }
     },
     {
       "queuePosition": 410,
@@ -10589,7 +10659,13 @@
       "route": "/article/gut-metal-microbiome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-072",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-072/gut-metal-microbiome-draft.png",
+        "sha256": "9aa21e52356b72d2b59646d5796d2a9b306330b857a16bb5d959748c7a854d39"
+      }
     },
     {
       "queuePosition": 411,
@@ -10602,7 +10678,13 @@
       "route": "/article/gut-penis-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+        "reason": "The current article conflates overlapping Mendelian-randomization datasets with independent replication, misattributes LPS production to Gram-positive Lachnospiraceae, uses PDE5-inhibitor efficacy to overvalidate an upstream microbiome pathway, and substantially overlaps the erectile-dysfunction entity.",
+        "requiredResolution": "Reconcile the route's independent scope versus an erectile-dysfunction subsection or audited alias; correct source accounting, bacterial and LPS language, and causal or clinical claims; then independently re-audit a neutral component-domain representation."
+      }
     },
     {
       "queuePosition": 412,
@@ -10615,7 +10697,13 @@
       "route": "/article/gut-prostate-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-072",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-072/gut-prostate-axis-draft.png",
+        "sha256": "a58dcb8a4c494eb27ede661bb591824f6fdc31c2e5ca4c160e174105c5617675"
+      }
     },
     {
       "queuePosition": 413,
@@ -10628,7 +10716,13 @@
       "route": "/article/gut-testis-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower multi-reviewer scientific and editorial audit",
+        "reason": "The current article reverses the cited 3-HPAA and GPX4 ferroptosis result and adds an unsupported gut-iron and siderophore propagation inference.",
+        "requiredResolution": "Correct the 3-HPAA result, remove or independently source the siderophore inference, distinguish animal evidence from human translation, and then independently re-audit neutral component-domain media."
+      }
     },
     {
       "queuePosition": 414,
@@ -10641,7 +10735,14 @@
       "route": "/article/gut-thyroid-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-072",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower multi-reviewer native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Both thyroid lobes have conspicuous repeated rounded protuberances and a strongly pebbled or lobulated surface that can read as nodular, multinodular, or goitrous rather than the frozen smooth normal gland."
+      }
     },
     {
       "queuePosition": 415,
