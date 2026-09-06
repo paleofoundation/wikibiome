@@ -95,3 +95,11 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 | `ovarian-cancer` | 1 | `012b04d2de61d8b3c5e6de0571b3697ef6944100be6a866392cf08d60673a4f0` |
 
 These hashes bind the exact marker-contained prompt bodies. Any prompt change requires a new authority audit and new freeze before generation.
+
+## Immutable generation and review checkpoint
+
+Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-053/`. Native inspection, exact source hashes, literal teaching-model counts, prohibited-content checks, edge statistics, and dispositions are frozen in `docs/operations/media-reviews/diseases-053.md`.
+
+Control Tower accepted five exact source hashes in `docs/operations/media-acceptances/diseases-053.md` at commit `525b37e`. The Multiple Sclerosis source was rejected because its principal axon model is visibly severed by three source edges and received no public artifact. Each of the five accepted sources was promoted to a metadata-bearing lossless master, article WebP, and centered `contain` 1200 × 630 social WebP.
+
+All five social derivatives were inspected at native detail on 2026-09-06. Every reviewed group remains fully visible: three migraine groups, three NEC groups, three NAFLD/MASLD groups including all eight prominent cells, two obesity groups, and three ovarian-neoplasm groups including the single bounded growth. Pale vertical padding is uniform and no label, clipping, substitution, or model loss is present. `cover` remains forbidden for all five.

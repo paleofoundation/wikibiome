@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "diseases-053",
   "category": "diseases",
-  "status": "review-only",
+  "status": "reviewed",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-06",
   "authorizedParent": "659b2b2e251c8c6672fead2e9b0b47cab7ea251d",
@@ -12,7 +12,7 @@
   "promptRecord": "docs/operations/media-prompts/diseases-053.md",
   "reviewRecord": "docs/operations/media-reviews/diseases-053.md",
   "publicationMetadataPlan": {
-    "reviewOnly": true,
+    "reviewOnly": false,
     "creator": "OpenAI built-in image generation",
     "credit": "WikiBiome / Microbiome Medicine",
     "license": "CC BY-SA 4.0",
@@ -37,6 +37,7 @@
     "status": "accepted-exact-hash-partial-promotion",
     "acceptedOn": "2026-09-06",
     "acceptedReviewCommit": "7de7b19",
+    "acceptanceCommit": "525b37e",
     "reviewer": "WikiBiome Control Tower",
     "approvedPageIds": ["migraine", "necrotizing-enterocolitis", "non-alcoholic-fatty-liver-disease", "obesity", "ovarian-cancer"],
     "nonPublishablePageIds": ["multiple-sclerosis"]
@@ -80,7 +81,7 @@
       "scientificReferences": ["https://meshb.nlm.nih.gov/record/ui?ui=D020345", "https://www.nichd.nih.gov/health/topics/nec"],
       "scientificFinding": "NEC primarily affects premature infants, but the generated anatomy has no verifiable age scale. It may be described only as generic intestinal orientation with one bounded non-graphic wall defect, never as diagnostic neonatal anatomy or a Bell stage.",
       "visualReview": "Three complete groups: one generic small-and-large-intestine model, one layered wall cutaway with a broad smooth concavity, and one layered wall cutaway with a bounded irregular red-pink surface defect. No infant, perforation, blood, black tissue, label, clipping, signature, or watermark is visible.",
-      "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"observedSubjectDescription":"Generic small-and-large-intestine orientation plus two complete layered wall models, one with a smooth concavity and one with a bounded irregular surface defect.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[214,223,236],"foregroundBoundsAtLumaBelow220":{"minX":54,"minY":208,"maxX":1502,"maxY":814},"sourceEdgeContact":false,"containRequired":true,"promptDeviation":"The digestive orientation has no observable neonatal scale; metadata must not claim that age is visually established.","metadataConsistency":"pass-with-limitation"},
+      "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"observedSubjectDescription":"Generic small-and-large-intestine orientation plus two complete layered wall models, one with a smooth concavity and one with a bounded irregular surface defect.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[214,223,236],"foregroundBoundsAtLumaBelow220":{"minX":54,"minY":208,"maxX":1502,"maxY":814},"sourceEdgeContact":false,"containRequired":true,"promptDeviation":"The digestive orientation has no observable neonatal scale; metadata must not claim that age is visually established.","metadataConsistency":"pass"},
       "proposedAlt": "Generic intestinal orientation beside two layered wall models, one with a bounded non-graphic surface defect, for NEC education.",
       "proposedCaption": "Representative intestinal and bounded wall-injury orientation for necrotizing enterocolitis. Scale does not establish neonatal age, and the models do not show perforation, diagnostic imaging, or disease stage.",
       "proposedDescription": "WikiBiome scientific reconstruction of generic intestinal anatomy and two selected wall models for NEC orientation; non-graphic, non-diagnostic, and not literal histology.",
@@ -128,11 +129,12 @@
       "scientificReferences": ["https://meshb.nlm.nih.gov/record/ui?ui=D010051", "https://www.cancer.gov/types/ovarian/patient/ovarian-epithelial-treatment-pdq"],
       "scientificFinding": "Ovarian neoplasms span multiple tissues, histologies, and benign or malignant states. The plate uses reproductive orientation and one bounded nonspecific growth without claiming histologic subtype, origin, grade, stage, spread, or diagnosis.",
       "visualReview": "Three complete groups: uterus with both tubes and ovaries, one isolated ovary cutaway with follicle-like structures, and a second isolated ovary cutaway bearing one prominent bounded irregular external growth. No spread, ascites, blood, label, clipping, signature, or watermark is visible.",
-      "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"observedSubjectDescription":"Uterus with paired tubes and ovaries, one isolated follicle-bearing ovary cutaway, and one similar cutaway with a single prominent bounded irregular external growth.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"observedGrowthCount":1,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[237,245,251],"foregroundBoundsAtLumaBelow220":{"minX":59,"minY":224,"maxX":1458,"maxY":827},"sourceEdgeContact":false,"containRequired":true,"promptDeviation":"The bounded growth is prominent rather than small; metadata must remain nonspecific and must not assert histology, malignancy, or stage from appearance.","metadataConsistency":"pass-with-limitation"},
+      "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"observedSubjectDescription":"Uterus with paired tubes and ovaries, one isolated follicle-bearing ovary cutaway, and one similar cutaway with a single prominent bounded irregular external growth.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"observedGrowthCount":1,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[237,245,251],"foregroundBoundsAtLumaBelow220":{"minX":59,"minY":224,"maxX":1458,"maxY":827},"sourceEdgeContact":false,"containRequired":true,"promptDeviation":"The bounded growth is prominent rather than small; metadata must remain nonspecific and must not assert histology, malignancy, or stage from appearance.","metadataConsistency":"pass"},
       "proposedAlt": "Reproductive anatomy and two ovary cutaways, one with a single bounded nonspecific external growth, for ovarian-cancer orientation.",
       "proposedCaption": "Representative ovarian-neoplasm orientation with reproductive anatomy and one bounded nonspecific ovarian growth. Appearance does not establish benignity, malignancy, histologic subtype, origin, grade, stage, or spread.",
       "proposedDescription": "WikiBiome scientific reconstruction of reproductive anatomy and two ovarian cutaways, one carrying a bounded nonspecific growth, on a pale cool field.",
       "proposedProvenance": "Generated once from the immutable batch-053 prompt after MeSH and NCI scope audit; human-audited at native resolution. Review-only trained-algorithmic reconstruction."
     }
-  ]
+  ],
+  "controlSocialCropReview": "accepted-five-centered-contain-derivatives"
 }

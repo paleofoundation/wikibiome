@@ -9990,9 +9990,178 @@
         "sourceSha256": "50c7b82570fafbbf887299998ed75f10236ad897b6e86f0d8c3c1c757c665152",
         "generationRecord": "exec-f5314b6f-fae6-4487-a752-6ae54926ae25.png"
       }
+    },
+    "migraine|migraine-pathology-v1.webp": {
+      "pageId": "migraine",
+      "publishedFile": "migraine-pathology-v1.webp",
+      "masterSource": "migraine-pathology-v1-master.png",
+      "socialFile": "migraine-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D008881",
+          "https://www.ninds.nih.gov/Disorders/All-Disorders/Migraine-Information-Page"
+        ],
+        "notes": "MeSH confirms the controlled migraine identity; NINDS supports heterogeneous recurrent neurological and broad neurovascular framing without a single visible mechanism."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete neutral groups are present: intact brain with superficial vessels, generic branching nerve-like model, and patent artery segment; no attack, aura, lesion, or subtype is asserted."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names the three visible groups; caption separately states the non-diagnostic attack, aura, vascular-change, trigger, subtype, and mechanism limits."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash and centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "necrotizing-enterocolitis|necrotizing-enterocolitis-pathology-v1.webp": {
+      "pageId": "necrotizing-enterocolitis",
+      "publishedFile": "necrotizing-enterocolitis-pathology-v1.webp",
+      "masterSource": "necrotizing-enterocolitis-pathology-v1-master.png",
+      "socialFile": "necrotizing-enterocolitis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D020345",
+          "https://www.nichd.nih.gov/health/topics/nec"
+        ],
+        "notes": "MeSH and NICHD confirm NEC as serious intestinal disease primarily affecting premature infants; the generic generated anatomy does not visibly establish neonatal scale."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Generic intestinal anatomy and two complete wall models remain non-graphic and patent; one has a bounded surface defect, with no infant, perforation, radiographic sign, or stage claim."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text describes only observed generic anatomy and wall forms; caption explicitly states that scale does not establish neonatal age and excludes diagnostic imaging and staging."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash with mandatory age-scale limitation and centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "non-alcoholic-fatty-liver-disease|non-alcoholic-fatty-liver-disease-pathology-v1.webp": {
+      "pageId": "non-alcoholic-fatty-liver-disease",
+      "publishedFile": "non-alcoholic-fatty-liver-disease-pathology-v1.webp",
+      "masterSource": "non-alcoholic-fatty-liver-disease-pathology-v1-master.png",
+      "socialFile": "non-alcoholic-fatty-liver-disease-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D065626",
+          "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/definition-facts"
+        ],
+        "notes": "MeSH confirms the controlled NAFLD identity; NIDDK supports excess-liver-fat orientation and the distinction from inflammatory, fibrotic, and cirrhotic states."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Smooth liver, radial lobule-like model, and eight complete droplet-bearing hepatocyte-like cells are visible without inflammation, fibrosis, cirrhosis, tumor, or alcohol-use cue."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all three visible groups and the eight-cell count; caption excludes alcohol use, inflammation, fibrosis, cirrhosis, NASH/MASH classification, and stage."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash and centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "obesity|obesity-pathology-v1.webp": {
+      "pageId": "obesity",
+      "publishedFile": "obesity-pathology-v1.webp",
+      "masterSource": "obesity-pathology-v1-master.png",
+      "socialFile": "obesity-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D009765",
+          "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/definition-facts"
+        ],
+        "notes": "MeSH and NIDDK confirm obesity identity and measurement-based assessment; appearance alone cannot establish BMI, behavior, or health status."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Two complete non-stigmatizing tissue groups are visible: layered subcutaneous adipose tissue and a separate adipocyte-like cluster, with no person, body-size comparison, food, scale, or blame cue."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text describes tissue rather than a person; caption excludes visual diagnosis, BMI, behavior, cause, health status, severity, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash and centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "ovarian-cancer|ovarian-cancer-pathology-v1.webp": {
+      "pageId": "ovarian-cancer",
+      "publishedFile": "ovarian-cancer-pathology-v1.webp",
+      "masterSource": "ovarian-cancer-pathology-v1-master.png",
+      "socialFile": "ovarian-cancer-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D010051",
+          "https://www.cancer.gov/types/ovarian/patient/ovarian-epithelial-treatment-pdq"
+        ],
+        "notes": "MeSH confirms the broad ovarian-neoplasm identity; NCI supports heterogeneous ovarian, tubal, and peritoneal origins and multiple histologies that cannot be inferred visually here."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups are visible: reproductive anatomy and two ovarian cutaways, one with a single prominent bounded nonspecific external growth and no visible spread."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text calls the growth prominent, bounded, and nonspecific; caption excludes benignity, malignancy, histology, origin, grade, stage, spread, prognosis, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash with mandatory nonspecific-growth limitation and centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [
+    {
+      "pageId": "multiple-sclerosis",
+      "controlledIdentifier": "MeSH:D009103",
+      "batchId": "diseases-053",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "rejected-source-edge-clipping",
+      "draft": "work/media-drafts/diseases-batch-053/multiple-sclerosis-draft.png",
+      "sha256": "e9feb7d5ee2e33799fa9bad319e3ca7fea484897e38ec575051fed4f90d99b18",
+      "generationRecord": "exec-482d1307-fc15-4568-bb39-e7291b58d1ca.png",
+      "reason": "The generated principal myelinated-axon model is visibly severed at the top, right, and bottom source edges and cannot satisfy the complete-model or safe-derivative requirement.",
+      "requiredResolution": "A future independently audited revision must use a more distant composition and preserve the complete axon model and uninterrupted pale edge field.",
+      "routingImpact": "The rejected source remains project-bound and non-public and owns no registry key, master, derivative, endpoint, schema node, or image-sitemap entry."
+    },
     {
       "pageId": "barretts-esophagus",
       "controlledIdentifier": "MeSH:D001471",

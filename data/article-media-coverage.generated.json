@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "6913d1b9a18f1bb7d05e3cb453729aa741d55847b706f75eace2727e09c975ee",
+    "registrySha256": "d4c699f3627f8c9e4b135d0c9a5857d6c65ed861576a2c4a9cafe2af37e4fb13",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "1886f38b8e0d1bf608302520ed044d414e5534ba1573d947369cf764f2568fcc",
+    "reviewLogSha256": "eeedb1b0349fc09bc404ec2f99baf2b530423683637fdc6f8bb0d76334980e52",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -57,8 +57,8 @@
       {
         "file": "data/article-media-batches/diseases-053.json",
         "batchId": "diseases-053",
-        "status": "review-only",
-        "sha256": "62fda056a4432ed51215aa6ebbe6f643a5c69ce7e48e63fc079572efddf8b01c"
+        "status": "reviewed",
+        "sha256": "3d943b470af90992e2f69e370cda8ad9aff6ef45939df12fe536ba087789c443"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -350,9 +350,9 @@
   },
   "current": {
     "total": 710,
-    "completed": 285,
-    "remaining": 425,
-    "rejected": 32,
+    "completed": 290,
+    "remaining": 420,
+    "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
     "inReview": 0
@@ -376,8 +376,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 42,
-      "remaining": 24
+      "completed": 47,
+      "remaining": 19
     },
     {
       "id": "mechanisms",
@@ -416,6 +416,20 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "multiple-sclerosis",
+      "controlledIdentifier": "MeSH:D009103",
+      "batchId": "diseases-053",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "rejected-source-edge-clipping",
+      "draft": "work/media-drafts/diseases-batch-053/multiple-sclerosis-draft.png",
+      "sha256": "e9feb7d5ee2e33799fa9bad319e3ca7fea484897e38ec575051fed4f90d99b18",
+      "generationRecord": "exec-482d1307-fc15-4568-bb39-e7291b58d1ca.png",
+      "reason": "The generated principal myelinated-axon model is visibly severed at the top, right, and bottom source edges and cannot satisfy the complete-model or safe-derivative requirement.",
+      "requiredResolution": "A future independently audited revision must use a more distant composition and preserve the complete axon model and uninterrupted pale edge field.",
+      "routingImpact": "The rejected source remains project-bound and non-public and owns no registry key, master, derivative, endpoint, schema node, or image-sitemap entry."
+    },
     {
       "pageId": "barretts-esophagus",
       "controlledIdentifier": "MeSH:D001471",
@@ -1288,15 +1302,6 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 301,
-      "id": "migraine",
-      "title": "Migraine",
-      "route": "/article/migraine",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
       "queuePosition": 302,
       "id": "multiple-sclerosis",
       "title": "Multiple Sclerosis",
@@ -1306,37 +1311,46 @@
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 303,
-      "id": "necrotizing-enterocolitis",
-      "title": "Necrotizing Enterocolitis",
-      "route": "/article/necrotizing-enterocolitis",
+      "queuePosition": 307,
+      "id": "pancreatic-cancer",
+      "title": "Pancreatic Cancer",
+      "route": "/article/pancreatic-cancer",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 304,
-      "id": "non-alcoholic-fatty-liver-disease",
-      "title": "Non-Alcoholic Fatty Liver Disease",
-      "route": "/article/non-alcoholic-fatty-liver-disease",
+      "queuePosition": 308,
+      "id": "pancreatitis",
+      "title": "Pancreatitis",
+      "route": "/article/pancreatitis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 305,
-      "id": "obesity",
-      "title": "Obesity",
-      "route": "/article/obesity",
+      "queuePosition": 309,
+      "id": "parkinsons-disease",
+      "title": "Parkinson's Disease",
+      "route": "/article/parkinsons-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 306,
-      "id": "ovarian-cancer",
-      "title": "Ovarian Cancer",
-      "route": "/article/ovarian-cancer",
+      "queuePosition": 310,
+      "id": "pelvic-inflammatory-disease",
+      "title": "Pelvic Inflammatory Disease",
+      "route": "/article/pelvic-inflammatory-disease",
+      "category": "disease",
+      "coverageGroup": "diseases",
+      "suggestedAssetType": "pathology"
+    },
+    {
+      "queuePosition": 311,
+      "id": "periodontitis",
+      "title": "Periodontitis",
+      "route": "/article/periodontitis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -7660,7 +7674,15 @@
       "route": "/article/migraine",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "migraine-pathology-v1-master.png",
+        "publishedFile": "migraine-pathology-v1.webp",
+        "socialFile": "migraine-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 302,
@@ -7688,7 +7710,15 @@
       "route": "/article/necrotizing-enterocolitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "necrotizing-enterocolitis-pathology-v1-master.png",
+        "publishedFile": "necrotizing-enterocolitis-pathology-v1.webp",
+        "socialFile": "necrotizing-enterocolitis-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 304,
@@ -7701,7 +7731,15 @@
       "route": "/article/non-alcoholic-fatty-liver-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "non-alcoholic-fatty-liver-disease-pathology-v1-master.png",
+        "publishedFile": "non-alcoholic-fatty-liver-disease-pathology-v1.webp",
+        "socialFile": "non-alcoholic-fatty-liver-disease-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 305,
@@ -7715,7 +7753,15 @@
       "route": "/article/obesity",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "obesity-pathology-v1-master.png",
+        "publishedFile": "obesity-pathology-v1.webp",
+        "socialFile": "obesity-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 306,
@@ -7729,7 +7775,15 @@
       "route": "/article/ovarian-cancer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "ovarian-cancer-pathology-v1-master.png",
+        "publishedFile": "ovarian-cancer-pathology-v1.webp",
+        "socialFile": "ovarian-cancer-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 307,
