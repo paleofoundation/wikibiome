@@ -73,6 +73,12 @@
         "sha256": "45990fc0bdc0863e10cc01e3acead69c74e8ca7cc4f6513ae3102e779ae9e167"
       },
       {
+        "file": "data/article-media-batches/diseases-056.json",
+        "batchId": "diseases-056",
+        "status": "awaiting-control-review",
+        "sha256": "fde6eb597f71705a7dc689cfbcd367593889cb0a14f83092bcb376258c374b4c"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
@@ -367,7 +373,7 @@
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -1318,51 +1324,6 @@
       "id": "multiple-sclerosis",
       "title": "Multiple Sclerosis",
       "route": "/article/multiple-sclerosis",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
-      "queuePosition": 319,
-      "id": "schizophrenia",
-      "title": "Schizophrenia",
-      "route": "/article/schizophrenia",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
-      "queuePosition": 320,
-      "id": "sepsis",
-      "title": "Sepsis",
-      "route": "/article/sepsis",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
-      "queuePosition": 321,
-      "id": "tuberculosis",
-      "title": "Tuberculosis",
-      "route": "/article/tuberculosis",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
-      "queuePosition": 322,
-      "id": "type-1-diabetes",
-      "title": "Type 1 Diabetes",
-      "route": "/article/type-1-diabetes",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
-    },
-    {
-      "queuePosition": 323,
-      "id": "type-2-diabetes",
-      "title": "Type 2 Diabetes",
-      "route": "/article/type-2-diabetes",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -8068,7 +8029,13 @@
       "route": "/article/schizophrenia",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-056",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-056/schizophrenia-draft.png",
+        "sha256": "b0432d7573e55c3d8e8b60c48220adf669c3a346601273c6390b50ea2831c40d"
+      }
     },
     {
       "queuePosition": 320,
@@ -8081,7 +8048,13 @@
       "route": "/article/sepsis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-056",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-056/sepsis-draft.png",
+        "sha256": "a3bf9ec6548472dcea206e78834e8d2420eb3407330242d969f3149353c77257"
+      }
     },
     {
       "queuePosition": 321,
@@ -8094,7 +8067,13 @@
       "route": "/article/tuberculosis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-056",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-056/tuberculosis-draft.png",
+        "sha256": "15885e93ecf6e9369780316fcd490af65ff187bffefe45da357e1c5ef725f6fb"
+      }
     },
     {
       "queuePosition": 322,
@@ -8108,7 +8087,13 @@
       "route": "/article/type-1-diabetes",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-056",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-056/type-1-diabetes-draft.png",
+        "sha256": "4de49f02254624fd052265aa95839512c871ace53a91e9dd02c187dae9a4a814"
+      }
     },
     {
       "queuePosition": 323,
@@ -8122,7 +8107,13 @@
       "route": "/article/type-2-diabetes",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-056",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-056/type-2-diabetes-draft.png",
+        "sha256": "17bdcf4cb344ff8234aaca35a980225984883762b02bdaeb1f6e11d04937ed82"
+      }
     },
     {
       "queuePosition": 324,
@@ -8136,7 +8127,13 @@
       "route": "/article/ulcerative-colitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-056",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-056/ulcerative-colitis-draft.png",
+        "sha256": "f344f7c199a861b2adec8ff75192112b7590463e3d0b8bf2725bb9d4959df6cf"
+      }
     },
     {
       "queuePosition": 325,
