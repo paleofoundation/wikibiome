@@ -10890,6 +10890,192 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "alpha-synuclein|alpha-synuclein-mechanism-v1.webp": {
+      "pageId": "alpha-synuclein",
+      "publishedFile": "alpha-synuclein-mechanism-v1.webp",
+      "masterSource": "alpha-synuclein-mechanism-v1-master.png",
+      "socialFile": "alpha-synuclein-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/P37840/entry",
+          "https://www.wikibiome.com/article/alpha-synuclein"
+        ],
+        "notes": "UniProt confirms reviewed human alpha-synuclein identity and synaptic context."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Complete synaptic-terminal model, one long generic chain, and three separate short chains; no pathology or aggregation stage."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption distinguish generic orientation from conformation, pathology, mechanism, biomarker, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "amyloid-beta|amyloid-beta-mechanism-v1.webp": {
+      "pageId": "amyloid-beta",
+      "publishedFile": "amyloid-beta-mechanism-v1.webp",
+      "masterSource": "amyloid-beta-mechanism-v1-master.png",
+      "socialFile": "amyloid-beta-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D016229",
+          "https://www.uniprot.org/uniprotkb/P05067/entry"
+        ],
+        "notes": "NLM and UniProt confirm amyloid-beta peptide and human APP precursor identities."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Complete membrane precursor, separate peptide ribbon, and intact neuron; no cleavage, plaque, or toxicity."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude literal structure, sequence, cleavage, aggregation, pathology, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "amyloid-beta-aggregation|amyloid-beta-aggregation-mechanism-v1.webp": {
+      "pageId": "amyloid-beta-aggregation",
+      "publishedFile": "amyloid-beta-aggregation-mechanism-v1.webp",
+      "masterSource": "amyloid-beta-aggregation-mechanism-v1-master.png",
+      "socialFile": "amyloid-beta-aggregation-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D016229",
+          "https://www.wikibiome.com/article/amyloid-beta-aggregation"
+        ],
+        "notes": "NLM confirms peptide/fibrillar context; WikiBiome controls the process scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "One isolated ribbon, exactly four separated ribbons, and an ordered five-ribbon bundle are shown without arrows."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption explicitly reject temporal, kinetic, stoichiometric, toxic, or diagnostic interpretation."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "antimicrobial-resistance|antimicrobial-resistance-mechanism-v1.webp": {
+      "pageId": "antimicrobial-resistance",
+      "publishedFile": "antimicrobial-resistance-mechanism-v1.webp",
+      "masterSource": "antimicrobial-resistance-mechanism-v1-master.png",
+      "socialFile": "antimicrobial-resistance-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D004352",
+          "https://www.wikibiome.com/article/antimicrobial-resistance"
+        ],
+        "notes": "NLM confirms the broad microbial drug-resistance concept."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Mixed bacteria, six-disc uniform dish, and generic cell cutaway remain non-interpretive and species-neutral."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude susceptibility result, species, drug, genotype, phenotype, prevalence, and treatment guidance."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "arachidonic-acid|arachidonic-acid-mechanism-v1.webp": {
+      "pageId": "arachidonic-acid",
+      "publishedFile": "arachidonic-acid-mechanism-v1.webp",
+      "masterSource": "arachidonic-acid-mechanism-v1-master.png",
+      "socialFile": "arachidonic-acid-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/444899",
+          "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15843"
+        ],
+        "notes": "PubChem and ChEBI confirm arachidonic-acid identity as a twenty-carbon fatty acid with four cis double bonds."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Dominant model has twenty carbon and two terminal oxygen centers, with separate intact membrane and cell models."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption disclose omitted hydrogens and exclude measured conformation, pathway, inflammation, or treatment effect."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "aromatase|aromatase-mechanism-v1.webp": {
+      "pageId": "aromatase",
+      "publishedFile": "aromatase-mechanism-v1.webp",
+      "masterSource": "aromatase-mechanism-v1-master.png",
+      "socialFile": "aromatase-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/P11511/entry",
+          "https://www.wikibiome.com/article/aromatase"
+        ],
+        "notes": "UniProt confirms reviewed human aromatase identity, membrane context, heme cofactor, and catalytic scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Generic membrane enzyme with internal heme-like disc and two separate four-ring steroid scaffolds; no conversion depicted."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude measured structures, docking, catalysis, expression, hormone levels, biomarkers, and treatment claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [

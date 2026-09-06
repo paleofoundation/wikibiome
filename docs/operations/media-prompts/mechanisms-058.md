@@ -90,3 +90,7 @@ All six prompts are scientifically cleared for one built-in generation call each
 | `aromatase` | 1 | `7ab072b669bf16855ffd75ba6116bc30c17bb044fd20eaf825aa034b186bd67a` |
 
 These hashes bind the exact marker-contained prompt bodies. Any prompt change requires a new authority audit and freeze before generation.
+
+## Immutable generation and promotion checkpoint
+
+Exactly six built-in calls were made, one for each frozen prompt. Generator-owned originals remain at the recorded `exec-*.png` paths, and identical project-bound originals are preserved under `work/media-drafts/mechanisms-batch-058/`. Native review accepted the exact source hashes at commit `7456d11`. Promotion used the scoped processor and centered `contain` for every 1200 × 630 derivative. Native-detail review confirmed that every complete teaching group remains visible with pale side padding and no clipping or label leakage. Publication language reports only literal output and retains all protein, peptide, aggregation, resistance, fatty-acid, and enzyme limitations above.

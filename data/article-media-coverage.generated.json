@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "1802c0ad0508cde16a3a32dd6657ac994fd12f62ef71736540195b608cb0167d",
+    "registrySha256": "b9d3cedc3029d8720e69f25fc354a46a622cddc6c32d4b4788e784b2f4cf2667",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "a1ac64665c889f31bdc5c9fe266af0f363a23e5048c2198143c879c0f1b28969",
+    "reviewLogSha256": "2cfde45694cc32fc22497052b7766c78f21477240aee1d1ed8ffac0a20260354",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -87,8 +87,8 @@
       {
         "file": "data/article-media-batches/mechanisms-058.json",
         "batchId": "mechanisms-058",
-        "status": "approved-awaiting-promotion",
-        "sha256": "c8434d7d48bdbad6b16736b647c650549081f81422d9d103bb08c995643af2a8"
+        "status": "reviewed",
+        "sha256": "ade6b82eca90611e4ed99fe147cd681301a677d0e4efc75d7bae8758427508e8"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -380,12 +380,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 314,
-    "remaining": 396,
+    "completed": 320,
+    "remaining": 390,
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
@@ -413,8 +413,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 6,
-      "remaining": 227
+      "completed": 12,
+      "remaining": 221
     },
     {
       "id": "host-defenses",
@@ -8296,12 +8296,14 @@
       "route": "/article/alpha-synuclein",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-058",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-058/alpha-synuclein-draft.png",
-        "sha256": "8f5871b34784f5b946ca69c91dc7fc0f46466a2892525e4622f63cf8b9394a6d"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "alpha-synuclein-mechanism-v1-master.png",
+        "publishedFile": "alpha-synuclein-mechanism-v1.webp",
+        "socialFile": "alpha-synuclein-mechanism-v1-social.webp"
       }
     },
     {
@@ -8315,12 +8317,14 @@
       "route": "/article/amyloid-beta",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-058",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-058/amyloid-beta-draft.png",
-        "sha256": "dd858c210838c7698ce33930c69863ee388cc4d457176df2d68f15b25ba3ad79"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "amyloid-beta-mechanism-v1-master.png",
+        "publishedFile": "amyloid-beta-mechanism-v1.webp",
+        "socialFile": "amyloid-beta-mechanism-v1-social.webp"
       }
     },
     {
@@ -8334,12 +8338,14 @@
       "route": "/article/amyloid-beta-aggregation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-058",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-058/amyloid-beta-aggregation-draft.png",
-        "sha256": "8d668f910adbc643f3de852b299e73c081715350ff00401b93f75759d8a2e65d"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "amyloid-beta-aggregation-mechanism-v1-master.png",
+        "publishedFile": "amyloid-beta-aggregation-mechanism-v1.webp",
+        "socialFile": "amyloid-beta-aggregation-mechanism-v1-social.webp"
       }
     },
     {
@@ -8353,12 +8359,14 @@
       "route": "/article/antimicrobial-resistance",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-058",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-058/antimicrobial-resistance-draft.png",
-        "sha256": "0e77a72f9c45f7bd32162fd2ee44994f70cc91bfc22b118de6c732e6cc319ca3"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "antimicrobial-resistance-mechanism-v1-master.png",
+        "publishedFile": "antimicrobial-resistance-mechanism-v1.webp",
+        "socialFile": "antimicrobial-resistance-mechanism-v1-social.webp"
       }
     },
     {
@@ -8372,12 +8380,14 @@
       "route": "/article/arachidonic-acid",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-058",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-058/arachidonic-acid-draft.png",
-        "sha256": "4c4041a4f32c7357c3ce5f7bef7c68201b5b603cab2dd5bc5327573e55c57bad"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "arachidonic-acid-mechanism-v1-master.png",
+        "publishedFile": "arachidonic-acid-mechanism-v1.webp",
+        "socialFile": "arachidonic-acid-mechanism-v1-social.webp"
       }
     },
     {
@@ -8391,12 +8401,14 @@
       "route": "/article/aromatase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-058",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-058/aromatase-draft.png",
-        "sha256": "35de5da31326fad4ccff2c63703b273a8db007883f8bd16a589e356e1e0cfe18"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "aromatase-mechanism-v1-master.png",
+        "publishedFile": "aromatase-mechanism-v1.webp",
+        "socialFile": "aromatase-mechanism-v1-social.webp"
       }
     },
     {
