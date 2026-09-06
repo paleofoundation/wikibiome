@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "59cc876f86142bf7d1749cb9e678f390d88ec58097f7564c7a14928d845230ea",
+    "registrySha256": "6913d1b9a18f1bb7d05e3cb453729aa741d55847b706f75eace2727e09c975ee",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "eb769267c0b71b31a6a34539a38086897770ae4011dd6b46c3ac5b3e5d9ba626",
+    "reviewLogSha256": "1886f38b8e0d1bf608302520ed044d414e5534ba1573d947369cf764f2568fcc",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -51,8 +51,8 @@
       {
         "file": "data/article-media-batches/diseases-052.json",
         "batchId": "diseases-052",
-        "status": "approved-awaiting-promotion",
-        "sha256": "a75c2efe8fc800c1c72a06cd23b8ff8ffd7535415150a0c79ee4c3e0c234ca30"
+        "status": "reviewed",
+        "sha256": "b0d245f3bd623e94d4b9f2617a878b6b4443a9bb7b4502abc060088e00720979"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -344,12 +344,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 279,
-    "remaining": 431,
+    "completed": 285,
+    "remaining": 425,
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
@@ -370,8 +370,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 36,
-      "remaining": 30
+      "completed": 42,
+      "remaining": 24
     },
     {
       "id": "mechanisms",
@@ -7524,12 +7524,14 @@
       "route": "/article/huntingtons-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-052",
-        "decision": "candidate-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-052/huntingtons-disease-draft.png",
-        "sha256": "cba77e4bc5d91a7aed671344b4e88ba7e4e83d8724ddfe6bd709b87404dc368b"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "huntingtons-disease-pathology-v1-master.png",
+        "publishedFile": "huntingtons-disease-pathology-v1.webp",
+        "socialFile": "huntingtons-disease-pathology-v1-social.webp"
       }
     },
     {
@@ -7544,12 +7546,14 @@
       "route": "/article/hypertension",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-052",
-        "decision": "candidate-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-052/hypertension-draft.png",
-        "sha256": "bafbdd7618b4dc2dbbc5da403bcd00d247824d25b672210b9cc3a0604b47f3b7"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "hypertension-pathology-v1-master.png",
+        "publishedFile": "hypertension-pathology-v1.webp",
+        "socialFile": "hypertension-pathology-v1-social.webp"
       }
     },
     {
@@ -7564,12 +7568,14 @@
       "route": "/article/inflammatory-bowel-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-052",
-        "decision": "candidate-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-052/inflammatory-bowel-disease-draft.png",
-        "sha256": "a34968bb6a50c37ee5bffb908c8eac5bb565620c2645792d66762ae1b6ba09b8"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "inflammatory-bowel-disease-pathology-v1-master.png",
+        "publishedFile": "inflammatory-bowel-disease-pathology-v1.webp",
+        "socialFile": "inflammatory-bowel-disease-pathology-v1-social.webp"
       }
     },
     {
@@ -7584,12 +7590,14 @@
       "route": "/article/ibs",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-052",
-        "decision": "candidate-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-052/ibs-draft.png",
-        "sha256": "ab837454e3fad5b60165456ae0ca9124769b11e065bf046009b39db0733638eb"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "ibs-pathology-v1-master.png",
+        "publishedFile": "ibs-pathology-v1.webp",
+        "socialFile": "ibs-pathology-v1-social.webp"
       }
     },
     {
@@ -7604,12 +7612,14 @@
       "route": "/article/long-covid",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-052",
-        "decision": "candidate-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-052/long-covid-draft.png",
-        "sha256": "ba99090a6bd04e0cf26b56dd4df2ff12998ae8094c1cbe0ce2c207ee7e0d4917"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "long-covid-pathology-v1-master.png",
+        "publishedFile": "long-covid-pathology-v1.webp",
+        "socialFile": "long-covid-pathology-v1-social.webp"
       }
     },
     {
@@ -7623,12 +7633,14 @@
       "route": "/article/major-depressive-disorder",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-052",
-        "decision": "candidate-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-052/major-depressive-disorder-draft.png",
-        "sha256": "50c7b82570fafbbf887299998ed75f10236ad897b6e86f0d8c3c1c757c665152"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "major-depressive-disorder-pathology-v1-master.png",
+        "publishedFile": "major-depressive-disorder-pathology-v1.webp",
+        "socialFile": "major-depressive-disorder-pathology-v1-social.webp"
       }
     },
     {

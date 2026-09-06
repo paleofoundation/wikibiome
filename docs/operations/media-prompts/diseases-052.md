@@ -99,3 +99,7 @@ These hashes bind the exact marker-contained prompt bodies. Any prompt change re
 ## Immutable generation and review checkpoint
 
 Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-052/`. Native inspection, exact source hashes, literal teaching-model counts, prohibited-content checks, edge statistics, and candidate dispositions are frozen in `docs/operations/media-reviews/diseases-052.md`. No output is public; exact-hash promotion authorization remains a separate Control Tower gate.
+
+Control Tower accepted the six exact source hashes in `docs/operations/media-acceptances/diseases-052.md` at commit `f1b1538`. No rejected or substitute bytes entered promotion. Each accepted source was promoted to a metadata-bearing lossless master, article WebP, and centered `contain` 1200 × 630 social WebP.
+
+All six social derivatives were inspected at native detail on 2026-09-06. Every complete teaching group remains fully visible: three Huntington disease groups, three hypertension groups, three IBD groups, three IBS groups, four Long COVID groups, and two major-depressive-disorder groups. The reviewed five-neuron and nine-neuron network structures and both IBS connection strands remain visible. `cover` remains forbidden for all six.

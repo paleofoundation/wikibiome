@@ -9786,6 +9786,210 @@
         "sourceSha256": "b3ff30e631e9b575349b34e8e06c617819e4efe0e19e023f5de556ea4ff72857",
         "generationRecord": "exec-87ffa70e-4d45-4b0f-81b2-9b8ffa01344f.png"
       }
+    },
+    "huntingtons-disease|huntingtons-disease-pathology-v1.webp": {
+      "pageId": "huntingtons-disease",
+      "publishedFile": "huntingtons-disease-pathology-v1.webp",
+      "masterSource": "huntingtons-disease-pathology-v1-master.png",
+      "socialFile": "huntingtons-disease-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D006816",
+          "https://www.ninds.nih.gov/sites/default/files/2025-05/huntingtons-disease-hope-through-research.pdf"
+        ],
+        "notes": "MeSH controls Huntington disease identity; NINDS supports inherited progressive brain-disease and variable-manifestation framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show an intact brain, coronal deep-structure orientation, and five-neuron network without atrophy, lesion, named-nucleus, patient, symptom, stage, or diagnostic inference."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports all three models and the literal five-neuron count; caption rejects named-nucleus, lesion, mechanism, stage, severity, prognosis, and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Control Tower accepted the exact immutable Batch 052 source for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "huntingtons-disease-draft.png",
+        "sourceSha256": "cba77e4bc5d91a7aed671344b4e88ba7e4e83d8724ddfe6bd709b87404dc368b",
+        "generationRecord": "exec-7b97f5b6-2105-4320-af62-af91d32d6649.png"
+      }
+    },
+    "hypertension|hypertension-pathology-v1.webp": {
+      "pageId": "hypertension",
+      "publishedFile": "hypertension-pathology-v1.webp",
+      "masterSource": "hypertension-pathology-v1-master.png",
+      "socialFile": "hypertension-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D006973",
+          "https://www.nhlbi.nih.gov/health/high-blood-pressure"
+        ],
+        "notes": "MeSH controls hypertension identity; NHLBI supports measurement-based high-blood-pressure framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete undamaged models show heart and artery orientation without claiming hypertension is visually identifiable or that vascular damage is universal."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names the heart and two artery models; caption makes measurement, non-diagnostic, and non-universal-damage limits explicit."
+      },
+      "disposition": "approved",
+      "notes": "Control Tower accepted the exact immutable Batch 052 source for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "hypertension-draft.png",
+        "sourceSha256": "bafbdd7618b4dc2dbbc5da403bcd00d247824d25b672210b9cc3a0604b47f3b7",
+        "generationRecord": "exec-d7cc2aa0-e334-4443-b294-fa9a1a8c3422.png"
+      }
+    },
+    "inflammatory-bowel-disease|inflammatory-bowel-disease-pathology-v1.webp": {
+      "pageId": "inflammatory-bowel-disease",
+      "publishedFile": "inflammatory-bowel-disease-pathology-v1.webp",
+      "masterSource": "inflammatory-bowel-disease-pathology-v1-master.png",
+      "socialFile": "inflammatory-bowel-disease-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D015212",
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/crohns-disease/definition-facts"
+        ],
+        "notes": "MeSH controls the inflammatory-bowel-disease umbrella identity; NIDDK supports structural chronic bowel-inflammation framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show digestive orientation and two selected wall patterns; they are not literal endoscopy or histology and cannot classify Crohn disease or ulcerative colitis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports the digestive and two wall models; caption rejects universal morphology, subtype, stage, severity, complication, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Control Tower accepted the exact immutable Batch 052 source for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "inflammatory-bowel-disease-draft.png",
+        "sourceSha256": "a34968bb6a50c37ee5bffb908c8eac5bb565620c2645792d66762ae1b6ba09b8",
+        "generationRecord": "exec-ddbb7a08-4e31-4f8f-b4dd-d8c97fd3a865.png"
+      }
+    },
+    "ibs|ibs-pathology-v1.webp": {
+      "pageId": "ibs",
+      "publishedFile": "ibs-pathology-v1.webp",
+      "masterSource": "ibs-pathology-v1-master.png",
+      "socialFile": "ibs-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D043183",
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/definition-facts/"
+        ],
+        "notes": "MeSH controls IBS identity; NIDDK supports disorder-of-gut-brain-interaction framing without visible digestive-tract damage."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show intact bowel structures and a generic brain-bowel connection with two neutral strands; no structural inflammation or named pathway is inferred."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports all three groups and two strands; caption explicitly rejects structural-damage, named-pathway, mechanism, subtype, severity, and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Control Tower accepted the exact immutable Batch 052 source for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "ibs-draft.png",
+        "sourceSha256": "ab837454e3fad5b60165456ae0ca9124769b11e065bf046009b39db0733638eb",
+        "generationRecord": "exec-762379d0-3539-4362-820c-f95046187b4b.png"
+      }
+    },
+    "long-covid|long-covid-pathology-v1.webp": {
+      "pageId": "long-covid",
+      "publishedFile": "long-covid-pathology-v1.webp",
+      "masterSource": "long-covid-pathology-v1-master.png",
+      "socialFile": "long-covid-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D000094024",
+          "https://www.cdc.gov/long-covid/signs-symptoms/index.html"
+        ],
+        "notes": "MeSH controls post-acute COVID-19 syndrome identity; CDC supports heterogeneous multisystem and non-universal symptom framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Four complete undamaged models show selected lung, heart, brain, and muscle orientation without universal involvement or lesion, biomarker, mechanism, stage, or diagnosis."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all four selected systems; caption rejects universal organ involvement, lesion, biomarker, mechanism, symptom-set, stage, severity, disability, prognosis, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Control Tower accepted the exact immutable Batch 052 source for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "long-covid-draft.png",
+        "sourceSha256": "ba99090a6bd04e0cf26b56dd4df2ff12998ae8094c1cbe0ce2c207ee7e0d4917",
+        "generationRecord": "exec-ce76c947-7c75-452f-8564-c283edfafba7.png"
+      }
+    },
+    "major-depressive-disorder|major-depressive-disorder-pathology-v1.webp": {
+      "pageId": "major-depressive-disorder",
+      "publishedFile": "major-depressive-disorder-pathology-v1.webp",
+      "masterSource": "major-depressive-disorder-pathology-v1-master.png",
+      "socialFile": "major-depressive-disorder-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D003865",
+          "https://www.nimh.nih.gov/health/topics/depression"
+        ],
+        "notes": "MeSH controls major-depressive-disorder identity; NIMH supports heterogeneous, multi-contributor, non-stigmatizing framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Two complete groups show an intact brain and nine-neuron network without a patient, mood trope, named brain region, lesion, neurotransmitter, connectivity measurement, or mechanism inference."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports both models and the literal nine-neuron count; caption rejects patient, mood, named-region, lesion, neurotransmitter, mechanism, severity, suicide-risk, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Control Tower accepted the exact immutable Batch 052 source for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "major-depressive-disorder-draft.png",
+        "sourceSha256": "50c7b82570fafbbf887299998ed75f10236ad897b6e86f0d8c3c1c757c665152",
+        "generationRecord": "exec-f5314b6f-fae6-4487-a752-6ae54926ae25.png"
+      }
     }
   },
   "rejectedAssets": [
