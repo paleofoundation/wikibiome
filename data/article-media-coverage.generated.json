@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "96bd6c40a13ddf5f313c9b1c19f30f8d602fa16f1ff0dc5dd9178fe604f5d139",
+    "registrySha256": "4ba5d7d9688b940d081d8ad7b289d361d3ced8771047fd2cd4573fc776a18bc2",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "7065f88fd410d2730a3932c881c81ca330d0e9985fabf31071e90887aa901a0f",
+    "reviewLogSha256": "a996634932d4d624af1303f2a15cfc1a814aa1126fca0f917a2a5dc7cd9e3f0c",
     "batchManifests": [
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -29,6 +29,12 @@
         "batchId": "metals-043",
         "status": "reviewed",
         "sha256": "897b26f9200e5df75360eb244dc04a8436130ca104e23ff8f014f8b13b10d2cd"
+      },
+      {
+        "file": "data/article-media-batches/metals-044.json",
+        "batchId": "metals-044",
+        "status": "reviewed",
+        "sha256": "fd4052c5ee8a1c124faa3b01e67acfeb8c97c28caab5ad75ff0bf067819004f9"
       },
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -290,8 +296,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 235,
-    "remaining": 475,
+    "completed": 241,
+    "remaining": 469,
     "rejected": 30,
     "revised": 11,
     "scientificHolds": 15,
@@ -309,8 +315,8 @@
       "id": "metals",
       "label": "Metals",
       "total": 29,
-      "completed": 19,
-      "remaining": 10
+      "completed": 25,
+      "remaining": 4
     },
     {
       "id": "diseases",
@@ -1202,55 +1208,37 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 249,
-      "id": "platinum",
-      "title": "Platinum",
-      "route": "/article/platinum",
+      "queuePosition": 255,
+      "id": "titanium",
+      "title": "Titanium",
+      "route": "/article/titanium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 250,
-      "id": "selenium",
-      "title": "Selenium",
-      "route": "/article/selenium",
+      "queuePosition": 256,
+      "id": "uranium",
+      "title": "Uranium",
+      "route": "/article/uranium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 251,
-      "id": "silver",
-      "title": "Silver",
-      "route": "/article/silver",
+      "queuePosition": 257,
+      "id": "vanadium",
+      "title": "Vanadium",
+      "route": "/article/vanadium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 252,
-      "id": "strontium",
-      "title": "Strontium",
-      "route": "/article/strontium",
-      "category": "metal",
-      "coverageGroup": "metals",
-      "suggestedAssetType": "technical-specimen"
-    },
-    {
-      "queuePosition": 253,
-      "id": "thallium",
-      "title": "Thallium",
-      "route": "/article/thallium",
-      "category": "metal",
-      "coverageGroup": "metals",
-      "suggestedAssetType": "technical-specimen"
-    },
-    {
-      "queuePosition": 254,
-      "id": "tin",
-      "title": "Tin",
-      "route": "/article/tin",
+      "queuePosition": 258,
+      "id": "zinc",
+      "title": "Zinc",
+      "route": "/article/zinc",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
@@ -6456,7 +6444,15 @@
       "route": "/article/platinum",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "platinum-technical-specimen-v1-master.png",
+        "publishedFile": "platinum-technical-specimen-v1.webp",
+        "socialFile": "platinum-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 250,
@@ -6469,7 +6465,15 @@
       "route": "/article/selenium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "selenium-technical-specimen-v1-master.png",
+        "publishedFile": "selenium-technical-specimen-v1.webp",
+        "socialFile": "selenium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 251,
@@ -6482,7 +6486,15 @@
       "route": "/article/silver",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "silver-technical-specimen-v1-master.png",
+        "publishedFile": "silver-technical-specimen-v1.webp",
+        "socialFile": "silver-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 252,
@@ -6495,7 +6507,15 @@
       "route": "/article/strontium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "strontium-technical-specimen-v1-master.png",
+        "publishedFile": "strontium-technical-specimen-v1.webp",
+        "socialFile": "strontium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 253,
@@ -6508,7 +6528,15 @@
       "route": "/article/thallium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "thallium-technical-specimen-v1-master.png",
+        "publishedFile": "thallium-technical-specimen-v1.webp",
+        "socialFile": "thallium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 254,
@@ -6521,7 +6549,15 @@
       "route": "/article/tin",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "tin-technical-specimen-v1-master.png",
+        "publishedFile": "tin-technical-specimen-v1.webp",
+        "socialFile": "tin-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 255,

@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "metals-044",
   "category": "metals",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-06",
   "authorizedParent": "3a36d3a5bd2ce03826f5b2c3994f2ff7972d529f",
@@ -12,7 +12,7 @@
   "controlAcceptedReviewManifestSha256": "90e0df0fe16eba2d4e9cb04e2ed4a1bfdbe9e09b5e2c1eb9820bc0286a929a64",
   "controlAcceptedPromptEvidenceSha256": "f7f8bb346294f4edbd0f7bfb8de7cf07d4547043d3f2ae54bf91e637c2602ef9",
   "publicationMetadataPlan": {
-    "reviewOnly": true,
+    "reviewOnly": false,
     "creator": "OpenAI built-in image generation",
     "credit": "WikiBiome / Microbiome Medicine",
     "license": "CC BY-SA 4.0",
@@ -38,6 +38,13 @@
     "acceptedReviewCommit": "6571db5",
     "integratedReviewCommit": "6571db5",
     "notes": "Control Tower verified the exact parent, immutable prompts and source hashes, current elemental identities, atomic numbers, PubChem CIDs, elemental-versus-compound and allotrope boundaries, literal native outputs, complete sealed containment where required, clean edge fields, crop-safe bounds, prohibited-content exclusions, and zero public leakage."
+  },
+  "promotionRule": "Only the six exact accepted source SHA-256 hashes were promoted. Each metadata-bearing lossless master preserves decoded source pixels; article and social WebP derivatives are generated from that master.",
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native-resolution derivative review",
+    "status": "accepted-six-centered-cover-derivatives",
+    "notes": "All six 1200 by 630 social WebPs were inspected at native detail. Centered cover retains every complete specimen and both complete ampoules with their three contained pieces, without clipping, prohibited content, or misleading crop emphasis."
   },
   "assets": [
     { "pageId": "platinum", "displayName": "Platinum", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "draft": "work/media-drafts/metals-batch-044/platinum-draft.png", "generationRecord": "exec-f9be7558-5eda-45cc-8f19-b1bf2e11ee5b.png", "promptSha256": "bf14681b3293bb6eb8699d01cf8c887a6981457459070db13a1a60b61b094782", "sha256": "306eb6198beed5da55a6415edf6ae0574841ea97684115a09d925e7d08f43c97", "fileSizeBytes": 1554981, "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit":"cover", "elementSymbol": "Pt", "atomicNumber": 78, "pubChemCid": "23939", "controlledIdentifier": "PubChem CID:23939", "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/78", "https://pubchem.ncbi.nlm.nih.gov/compound/23939"], "outputAudit":{"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"observedSubjectDescription":"Three separated dense-looking silvery-white worked metallic pieces.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[236,243,249],"foregroundBoundsAtLumaBelow220":{"minX":75,"minY":364,"maxX":1467,"maxY":725},"coverSafe":true,"promptDeviation":"none","metadataConsistency":"pass"} },

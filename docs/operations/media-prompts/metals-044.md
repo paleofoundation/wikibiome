@@ -127,3 +127,7 @@ All six routes were scientifically cleared. Exactly six built-in calls completed
 The native audit found no text, symbols, labels, people, products, ores, compounds, decorative particles, clipping, or scene-making. Strontium and thallium each appear only within one complete sealed ampoule, with three distinct contained specimens. Selenium is limited to the observed gray brittle form; tin is limited to the observed white metallic form. Prompt intent is not reported as observed fact.
 
 Control Tower accepted only the six exact source hashes above from immutable review commit `6571db5`. The accepted pre-acceptance manifest SHA-256 is `90e0df0fe16eba2d4e9cb04e2ed4a1bfdbe9e09b5e2c1eb9820bc0286a929a64`; the accepted prompt-and-generation evidence SHA-256 is `f7f8bb346294f4edbd0f7bfb8de7cf07d4547043d3f2ae54bf91e637c2602ef9`. No regeneration, revision, or source-pixel alteration is authorized for promotion.
+
+## Promotion and social derivative review
+
+The six exact accepted hashes were promoted through metadata-bearing lossless masters into article and 1200 × 630 social WebPs. Control Tower inspected every social derivative at native detail. Centered cover preserves all three complete platinum, selenium, silver, and tin specimens and both complete sealed ampoules with their three contained strontium or thallium pieces. No crop clips a scientifically meaningful structure or introduces misleading emphasis. Public records retain explicit trained-algorithmic-media, non-photograph, non-analytical-material language.

@@ -5139,6 +5139,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text names molybdenum and literal form; caption expands Mo and separates representative appearance from analytical identification." },
       "disposition": "approved", "notes": "Exact immutable Batch 043 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "molybdenum-draft.png", "sourceSha256": "57712d35a1a7c0a832ee90fc7e46dde838d83946c38ab0b08690ec0659c5aceb", "generationRecord": "exec-ec59aaa0-c630-4d0a-b1a3-a0faa0888c5d.png" }
+    },
+    "platinum|platinum-technical-specimen-v1.webp": {
+      "pageId": "platinum", "publishedFile": "platinum-technical-specimen-v1.webp", "masterSource": "platinum-technical-specimen-v1-master.png", "socialFile": "platinum-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/78", "https://pubchem.ncbi.nlm.nih.gov/compound/23939"], "notes": "Elemental identity, atomic number 78, PubChem CID 23939, and dense silvery-white noble-metal form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three dense-looking silvery-white worked specimens without jewelry, coin, wire, catalyst, ore, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names platinum and literal form; caption expands Pt and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 044 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "platinum-draft.png", "sourceSha256": "306eb6198beed5da55a6415edf6ae0574841ea97684115a09d925e7d08f43c97", "generationRecord": "exec-f9be7558-5eda-45cc-8f19-b1bf2e11ee5b.png" }
+    },
+    "selenium|selenium-technical-specimen-v1.webp": {
+      "pageId": "selenium", "publishedFile": "selenium-technical-specimen-v1.webp", "masterSource": "selenium-technical-specimen-v1-master.png", "socialFile": "selenium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/34", "https://pubchem.ncbi.nlm.nih.gov/compound/6326970"], "notes": "Elemental identity, atomic number 34, PubChem CID 6326970, and gray selenium allotrope context are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three dark steel-gray angular brittle-looking specimens without red selenium, powder, supplement, product, ore, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names gray elemental selenium and literal form; caption expands Se and explicitly limits the plate to the gray allotrope." },
+      "disposition": "approved", "notes": "Exact immutable Batch 044 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "selenium-draft.png", "sourceSha256": "e8085bf41e8da0a06aca8a8fb43a83b4654e36e01d03e8dcefb38ce512242314", "generationRecord": "exec-f1e818a6-bd0c-4c96-a93f-39cca73b83e3.png" }
+    },
+    "silver|silver-technical-specimen-v1.webp": {
+      "pageId": "silver", "publishedFile": "silver-technical-specimen-v1.webp", "masterSource": "silver-technical-specimen-v1-master.png", "socialFile": "silver-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/47", "https://pubchem.ncbi.nlm.nih.gov/compound/23954"], "notes": "Elemental identity, atomic number 47, PubChem CID 23954, and bright silver-white metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three bright silver-white cut specimens without jewelry, coin, silverware, wire, colloid, ore, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names silver and literal form; caption expands Ag and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 044 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "silver-draft.png", "sourceSha256": "8366ac50877180eda8236c9d475d3468c46709d56811baf65ea813b8ecbb087e", "generationRecord": "exec-5bbb0a9c-34be-4b3d-9e78-091cb61836ff.png" }
+    },
+    "strontium|strontium-technical-specimen-v1.webp": {
+      "pageId": "strontium", "publishedFile": "strontium-technical-specimen-v1.webp", "masterSource": "strontium-technical-specimen-v1-master.png", "socialFile": "strontium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/38", "https://pubchem.ncbi.nlm.nih.gov/compound/5359327"], "notes": "Elemental identity, atomic number 38, PubChem CID 5359327, reactive alkaline-earth-metal form, and containment context are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete sealed ampoule containing three distinct pale silvery specimens without exposed metal, flame test, isotope source, mineral, supplement, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names strontium, complete containment, and literal specimen count; caption expands Sr without implying purity." },
+      "disposition": "approved", "notes": "Exact immutable Batch 044 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "strontium-draft.png", "sourceSha256": "32357bf400a6353b77505367c8ccee78aafc00539c130d3b5b94963e3b8ba91f", "generationRecord": "exec-324bdd87-119a-4ef5-8adf-1bafea5cffdb.png" }
+    },
+    "thallium|thallium-technical-specimen-v1.webp": {
+      "pageId": "thallium", "publishedFile": "thallium-technical-specimen-v1.webp", "masterSource": "thallium-technical-specimen-v1-master.png", "socialFile": "thallium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/81", "https://pubchem.ncbi.nlm.nih.gov/compound/5359464"], "notes": "Elemental identity, atomic number 81, PubChem CID 5359464, soft gray metallic form, toxicity, and containment context are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete sealed ampoule containing three distinct low gray specimens with bright cut faces and no exposed metal, powder, poison scene, medicine, isotope source, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names thallium, complete containment, and literal specimen count; caption expands Tl and avoids implying handling or purity." },
+      "disposition": "approved", "notes": "Exact immutable Batch 044 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "thallium-draft.png", "sourceSha256": "62c4dec10ab908c0097d29b78fb080a8a4f47cd624a3b6c329d62456d0147800", "generationRecord": "exec-cfa374d1-3668-4fa9-9984-b7a3620ce5f8.png" }
+    },
+    "tin|tin-technical-specimen-v1.webp": {
+      "pageId": "tin", "publishedFile": "tin-technical-specimen-v1.webp", "masterSource": "tin-technical-specimen-v1-master.png", "socialFile": "tin-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/50", "https://pubchem.ncbi.nlm.nih.gov/compound/5352426"], "notes": "Elemental identity, atomic number 50, PubChem CID 5352426, and white-tin metallic allotrope context are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three soft-looking silvery-white worked specimens without gray-tin powder, can, foil, solder, alloy product, ore, compound, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names white tin and literal form; caption expands Sn and explicitly limits the plate to the metallic white allotrope." },
+      "disposition": "approved", "notes": "Exact immutable Batch 044 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "tin-draft.png", "sourceSha256": "9c7947fb729c492b2e201b7a98626dc26cec8780dcde7023682ffb045dbca763", "generationRecord": "exec-19083048-04a1-4a49-bc9e-2aa5e9330445.png" }
     }
   },
   "rejectedAssets": [
