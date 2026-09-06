@@ -106,3 +106,15 @@ Constraints: Type-species-anchored representative genus morphology only; non-dia
 ## Generation boundary
 
 Exactly five cleared routes may each receive one built-in image-generation call from the immutable prompts above. Tyzzerella and Phocaeicola receive zero calls. Every generated file remains review-only until native pixels, literal subject counts and groupings, prohibited content, edge field, crop safety, immutable hash, metadata consistency, and absence of public leakage are independently recorded. Observed output—not requested composition—controls all downstream alt text and captions.
+
+## Immutable generation records
+
+Exactly five built-in image-generation calls were made, one per cleared route. No retry, replacement, edit, or source image was used. Tyzzerella received no call. The project-bound originals and generation records are:
+
+- `trichosporon-asahii`: `exec-a9743625-017f-41e6-aacf-544521288857.png`; SHA-256 `53c83b0aa841a69ce6704cbaa92e49a2054ab9cf74993bf467969fce94134f08`.
+- `turicibacter`: `exec-ca121b5c-c43b-4b6c-b675-b57a668b4097.png`; SHA-256 `6bbfd6509f9b6c6af22f65219fbdaae2aff601a1c8f7f20c08c405eef6fa1869`.
+- `ureaplasma`: `exec-ac78870d-fd1d-4748-b1ff-9134809644e9.png`; SHA-256 `e5fb19b2227f4e7b8bf510a78e744a876ed698ae6f23c9f83d0116dd8397fb4a`.
+- `ureaplasma-urealyticum`: `exec-243d70c5-ee61-4fd6-b70b-33ce18fb64f1.png`; SHA-256 `06e9b7b52d1351641dbb63417e1ea4dea78d16a3d6bb55e052de8fe37658c60c`.
+- `veillonella`: `exec-6a8070c9-6053-422d-a827-470be60e74cf.png`; SHA-256 `3a069146c74f4175acfd5239d6df40a5a72da043b9040f890efeb6beb4de51a4`.
+
+All five are native 1536 by 1024 PNGs on edge-clean pale cool fields. Literal review found seven barrel-like compartments and four lateral blastoconidia in the *Trichosporon asahii* plate; nine *Turicibacter* rods in six singles and one three-rod chain; twelve separated pleomorphic *Ureaplasma* bodies; ten separated pleomorphic *Ureaplasma urealyticum* bodies in two rows; and twelve *Veillonella* cocci in four pairs and one four-coccus chain. No prohibited scene, text, label, clipping, signature, or watermark is visible. All remain review-only pending exact-hash Control Tower acceptance.
