@@ -2,13 +2,15 @@
   "schemaVersion": 1,
   "batchId": "metals-044",
   "category": "metals",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-06",
   "authorizedParent": "3a36d3a5bd2ce03826f5b2c3994f2ff7972d529f",
   "auditCommit": "eea9327",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/metals-044.md",
+  "controlAcceptedReviewManifestSha256": "90e0df0fe16eba2d4e9cb04e2ed4a1bfdbe9e09b5e2c1eb9820bc0286a929a64",
+  "controlAcceptedPromptEvidenceSha256": "f7f8bb346294f4edbd0f7bfb8de7cf07d4547043d3f2ae54bf91e637c2602ef9",
   "publicationMetadataPlan": {
     "reviewOnly": true,
     "creator": "OpenAI built-in image generation",
@@ -28,7 +30,15 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native-resolution exact-hash review",
+    "status": "accepted-six-exact-hashes",
+    "acceptedReviewCommit": "6571db5",
+    "integratedReviewCommit": "6571db5",
+    "notes": "Control Tower verified the exact parent, immutable prompts and source hashes, current elemental identities, atomic numbers, PubChem CIDs, elemental-versus-compound and allotrope boundaries, literal native outputs, complete sealed containment where required, clean edge fields, crop-safe bounds, prohibited-content exclusions, and zero public leakage."
+  },
   "assets": [
     { "pageId": "platinum", "displayName": "Platinum", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "draft": "work/media-drafts/metals-batch-044/platinum-draft.png", "generationRecord": "exec-f9be7558-5eda-45cc-8f19-b1bf2e11ee5b.png", "promptSha256": "bf14681b3293bb6eb8699d01cf8c887a6981457459070db13a1a60b61b094782", "sha256": "306eb6198beed5da55a6415edf6ae0574841ea97684115a09d925e7d08f43c97", "fileSizeBytes": 1554981, "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit":"cover", "elementSymbol": "Pt", "atomicNumber": 78, "pubChemCid": "23939", "controlledIdentifier": "PubChem CID:23939", "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/78", "https://pubchem.ncbi.nlm.nih.gov/compound/23939"], "outputAudit":{"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"observedSubjectDescription":"Three separated dense-looking silvery-white worked metallic pieces.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[236,243,249],"foregroundBoundsAtLumaBelow220":{"minX":75,"minY":364,"maxX":1467,"maxY":725},"coverSafe":true,"promptDeviation":"none","metadataConsistency":"pass"} },
     { "pageId": "selenium", "displayName": "Selenium", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "draft": "work/media-drafts/metals-batch-044/selenium-draft.png", "generationRecord": "exec-f1e818a6-bd0c-4c96-a93f-39cca73b83e3.png", "promptSha256": "baea736e3b7a846816c5bc3e733929a31b479d52d7dde4a8f7b2bdecadc2d5df", "sha256": "e8085bf41e8da0a06aca8a8fb43a83b4654e36e01d03e8dcefb38ce512242314", "fileSizeBytes": 1634702, "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit":"cover", "elementSymbol": "Se", "atomicNumber": 34, "pubChemCid": "6326970", "controlledIdentifier": "PubChem CID:6326970", "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/34", "https://pubchem.ncbi.nlm.nih.gov/compound/6326970"], "outputAudit":{"reviewedBy":"WikiBiome Control Tower native-resolution visual audit","reviewedOn":"2026-09-06","promptCountTrusted":false,"observedSubjectDescription":"Three separated dark steel-gray angular brittle-looking pieces.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[238,243,249],"foregroundBoundsAtLumaBelow220":{"minX":73,"minY":325,"maxX":1466,"maxY":708},"coverSafe":true,"promptDeviation":"none","metadataConsistency":"pass"} },
