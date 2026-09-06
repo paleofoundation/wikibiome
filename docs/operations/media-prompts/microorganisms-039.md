@@ -118,3 +118,7 @@ Exactly five built-in image-generation calls were made, one per cleared route. N
 - `veillonella`: `exec-6a8070c9-6053-422d-a827-470be60e74cf.png`; SHA-256 `3a069146c74f4175acfd5239d6df40a5a72da043b9040f890efeb6beb4de51a4`.
 
 All five are native 1536 by 1024 PNGs on edge-clean pale cool fields. Literal review found seven barrel-like compartments and four lateral blastoconidia in the *Trichosporon asahii* plate; nine *Turicibacter* rods in six singles and one three-rod chain; twelve separated pleomorphic *Ureaplasma* bodies; ten separated pleomorphic *Ureaplasma urealyticum* bodies in two rows; and twelve *Veillonella* cocci in four pairs and one four-coccus chain. No prohibited scene, text, label, clipping, signature, or watermark is visible. All remain review-only pending exact-hash Control Tower acceptance.
+
+## Control promotion decision
+
+Control Tower accepted exact review commit `f3e4935b53337d66f9a233e890711fd35a83bdac` and only its five immutable PNG hashes. The review verified current identities, type anchoring, literal native output, edge-clean fields, crop-safe bounds, and absence of prohibited content. All five are approved for centered-cover promotion. Tyzzerella remains asset-free under its scientific identity hold.
