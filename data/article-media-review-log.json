@@ -10703,6 +10703,193 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "16s-rrna-sequencing|16s-rrna-sequencing-mechanism-v1.webp": {
+      "pageId": "16s-rrna-sequencing",
+      "publishedFile": "16s-rrna-sequencing-mechanism-v1.webp",
+      "masterSource": "16s-rrna-sequencing-mechanism-v1-master.png",
+      "socialFile": "16s-rrna-sequencing-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D012336",
+          "https://www.ncbi.nlm.nih.gov/books/NBK154091/",
+          "https://www.ncbi.nlm.nih.gov/books/NBK513764/"
+        ],
+        "notes": "NLM and NCBI confirm the target and method scope, including taxonomic-resolution limitations."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three separated groups orient to mixed microbes, sample/DNA preparation, and abstract sequencing output without literal results."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption distinguish an explanatory method reconstruction from sequence, abundance, function, or diagnostic evidence."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "acetate|acetate-mechanism-v1.webp": {
+      "pageId": "acetate",
+      "publishedFile": "acetate-mechanism-v1.webp",
+      "masterSource": "acetate-mechanism-v1-master.png",
+      "socialFile": "acetate-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/175",
+          "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:30089"
+        ],
+        "notes": "PubChem and ChEBI identify acetate anion and distinguish it from acetic acid."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Dominant model contains exactly two carbon and two oxygen heavy-atom centers; hydrogens and charge are omitted and disclosed."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption state the visible heavy-atom model and exclude structural completeness or physiological claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "acidic-microenvironment|acidic-microenvironment-mechanism-v1.webp": {
+      "pageId": "acidic-microenvironment",
+      "publishedFile": "acidic-microenvironment-mechanism-v1.webp",
+      "masterSource": "acidic-microenvironment-mechanism-v1-master.png",
+      "socialFile": "acidic-microenvironment-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.wikibiome.com/article/acidic-microenvironment",
+          "https://www.ebi.ac.uk/ols4/ontologies/chebi"
+        ],
+        "notes": "The route retains a WikiBiome-controlled local-environment identity rather than conflating it with systemic acidosis or a disease."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three intact tissue-niche models use qualitative local color variation only; no numeric pH, pathology, or damage is shown."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption do not depend on color alone and explicitly exclude measured pH or diagnostic interpretation."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "ahr|ahr-mechanism-v1.webp": {
+      "pageId": "ahr",
+      "publishedFile": "ahr-mechanism-v1.webp",
+      "masterSource": "ahr-mechanism-v1-master.png",
+      "socialFile": "ahr-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/P35869/entry",
+          "https://www.wikibiome.com/article/ahr"
+        ],
+        "notes": "UniProt identifies reviewed human AhR and supplies receptor/transcription-factor context."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Protein and ligand forms are generic abstractions separated from the nuclear teaching model, with no binding or activation asserted."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption distinguish orientation from measured structure, docking, activation, translocation, expression, or biomarker evidence."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "allopregnanolone|allopregnanolone-mechanism-v1.webp": {
+      "pageId": "allopregnanolone",
+      "publishedFile": "allopregnanolone-mechanism-v1.webp",
+      "masterSource": "allopregnanolone-mechanism-v1-master.png",
+      "socialFile": "allopregnanolone-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/92786",
+          "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:50169"
+        ],
+        "notes": "PubChem and ChEBI confirm allopregnanolone chemical identity."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "The plate contains one 6-6-6-5 fused steroid-ring scaffold, one five-part membrane-channel teaching group, and one neuron, all separate."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption disclose that the ring form is not atom-complete and exclude binding, channel state, dose, treatment, mood, pregnancy, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "alpha-klotho|alpha-klotho-mechanism-v1.webp": {
+      "pageId": "alpha-klotho",
+      "publishedFile": "alpha-klotho-mechanism-v1.webp",
+      "masterSource": "alpha-klotho-mechanism-v1-master.png",
+      "socialFile": "alpha-klotho-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/Q9UEF7/entry",
+          "https://www.wikibiome.com/article/alpha-klotho"
+        ],
+        "notes": "UniProt confirms human Klotho protein identity; WikiBiome supplies the route scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Paired kidney cutaways, one generic single-pass membrane protein, and one separate soluble protein form are complete and separated."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption distinguish generic teaching forms from conformation, cleavage, expression, activity, renal protection, anti-aging, or diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [

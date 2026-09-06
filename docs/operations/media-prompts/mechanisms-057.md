@@ -92,3 +92,7 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 | `alpha-klotho` | 1 | `9b83bb43b4b27b42aa72a9a27c612b0fd72c3c726a8398798af8576664c9a8e5` |
 
 These hashes bind the exact marker-contained prompt bodies. Any prompt change requires a new authority audit and new freeze before generation.
+
+## Immutable generation and promotion checkpoint
+
+Exactly six built-in calls were made, one for each frozen prompt. The generator-owned originals remain at the six recorded `exec-*.png` paths, and identical project-bound originals are preserved under `work/media-drafts/mechanisms-batch-057/`. Native review accepted the six exact source hashes at commit `76586bd`. Promotion used the scoped processor and centered `contain` for every 1200 × 630 social derivative. Native-detail derivative review confirmed that every complete teaching group remains visible with pale side padding and no label leakage or clipping. Publication language describes only observed output and retains the method, chemical, local-environment, receptor, neurosteroid, and protein limitations above.

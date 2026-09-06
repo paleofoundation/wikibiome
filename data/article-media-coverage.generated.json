@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "d4e04d6ed4eee0e224976abeebaee63b33421d52cb9f0e444a1f8e3ebffa23d5",
+    "registrySha256": "1802c0ad0508cde16a3a32dd6657ac994fd12f62ef71736540195b608cb0167d",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "714bf764846be35739efbc6da5b1048de4ce82a152f721ce422771d7c48ca8a1",
+    "reviewLogSha256": "a1ac64665c889f31bdc5c9fe266af0f363a23e5048c2198143c879c0f1b28969",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -81,8 +81,8 @@
       {
         "file": "data/article-media-batches/mechanisms-057.json",
         "batchId": "mechanisms-057",
-        "status": "in-review",
-        "sha256": "5911fcea1818d009b78b96fb18947cb393ce5269efebf993d002fad3d1c03b02"
+        "status": "reviewed",
+        "sha256": "240daef702b0a9667aef3b06e6d4e37aa76aed456e3869c7752a0427a42de301"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -374,8 +374,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 308,
-    "remaining": 402,
+    "completed": 314,
+    "remaining": 396,
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
@@ -407,8 +407,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 0,
-      "remaining": 233
+      "completed": 6,
+      "remaining": 227
     },
     {
       "id": "host-defenses",
@@ -8164,7 +8164,15 @@
       "route": "/article/16s-rrna-sequencing",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "16s-rrna-sequencing-mechanism-v1-master.png",
+        "publishedFile": "16s-rrna-sequencing-mechanism-v1.webp",
+        "socialFile": "16s-rrna-sequencing-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 326,
@@ -8177,7 +8185,15 @@
       "route": "/article/acetate",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "acetate-mechanism-v1-master.png",
+        "publishedFile": "acetate-mechanism-v1.webp",
+        "socialFile": "acetate-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 327,
@@ -8190,7 +8206,15 @@
       "route": "/article/acidic-microenvironment",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "acidic-microenvironment-mechanism-v1-master.png",
+        "publishedFile": "acidic-microenvironment-mechanism-v1.webp",
+        "socialFile": "acidic-microenvironment-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 328,
@@ -8203,7 +8227,15 @@
       "route": "/article/ahr",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "ahr-mechanism-v1-master.png",
+        "publishedFile": "ahr-mechanism-v1.webp",
+        "socialFile": "ahr-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 329,
@@ -8216,7 +8248,15 @@
       "route": "/article/allopregnanolone",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "allopregnanolone-mechanism-v1-master.png",
+        "publishedFile": "allopregnanolone-mechanism-v1.webp",
+        "socialFile": "allopregnanolone-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 330,
@@ -8229,7 +8269,15 @@
       "route": "/article/alpha-klotho",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "alpha-klotho-mechanism-v1-master.png",
+        "publishedFile": "alpha-klotho-mechanism-v1.webp",
+        "socialFile": "alpha-klotho-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 331,
