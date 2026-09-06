@@ -2,14 +2,17 @@
   "schemaVersion": 1,
   "batchId": "metals-041",
   "category": "metals",
-  "status": "pending-control-review",
+  "status": "reviewed",
   "createdOn": "2026-09-06",
+  "reviewedOn": "2026-09-06",
   "authorizedParent": "3c0bb3f58060feea86793d416a7035c4d2916f8f",
   "auditCommit": "268c885",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/metals-041.md",
+  "controlAcceptedReviewManifestSha256": "b25ea8e9a55887cdd8208874958fe46a205cf23fa3c7001b0161ba95fbcc6a79",
+  "controlAcceptedPromptEvidenceSha256": "08988797edbe1bcb9d7436a0dccaafe68c05dabbb21b502c6ce09e3d72b3125f",
   "publicationMetadataPlan": {
-    "reviewOnly": true,
+    "reviewOnly": false,
     "creator": "OpenAI built-in image generation",
     "credit": "WikiBiome / Microbiome Medicine",
     "license": "CC BY-SA 4.0",
@@ -17,7 +20,7 @@
     "digitalSourceType": "trainedAlgorithmicMedia",
     "mediaDescription": "Review-only scientific algorithmic technical-specimen reconstruction, not a photograph or analytical reference material",
     "sourceUse": "PubChem and its attributed authority records supplied identity and material constraints only; no source image or design was copied.",
-    "promotionRule": "No asset may be promoted until Control Tower accepts the exact immutable review commit and six source hashes."
+    "promotionRule": "Control Tower independently verified review commit 7f6f949 and authorized promotion of only its six accepted exact immutable PNG hashes."
   },
   "reviewStandard": "Current elemental identity, atomic number, PubChem CID, elemental-versus-compound boundary, defensible specimen form, native dimensions, literal output, prohibited content, edge field, crop safety, and metadata language were checked. Each route received exactly one immutable call. Observed output controls metadata.",
   "routeDecisionCount": 6,
@@ -28,10 +31,18 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native-resolution exact-hash review",
+    "status": "accepted-six-exact-hashes",
+    "acceptedReviewCommit": "7f6f949",
+    "integratedReviewCommit": "7f6f949",
+    "notes": "Control Tower verified the exact parent, immutable prompts and hashes, current elemental identities, atomic numbers, PubChem CIDs, elemental-versus-compound boundaries, literal native outputs, edge fields, crop-safe bounds, prohibited content, and zero public leakage."
+  },
   "assets": [
     {
-      "pageId": "aluminum", "displayName": "Aluminum", "assetType": "technical-specimen", "revision": 1, "decision": "pending-control-review", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending",
+      "pageId": "aluminum", "displayName": "Aluminum", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/metals-batch-041/aluminum-draft.png", "generationRecord": "exec-e285a4bf-fb23-43fc-8a94-33195ecc3fc4.png", "promptSha256": "e81283576e4c3c61262196b011e981cfdd1cdaf85790447e05976f1251f0de81", "sha256": "e4be9a2c2f4759e541078cbab9e0cda2e9c3df247649689d32231384c53f5c9c", "fileSizeBytes": 1567458,
       "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover", "elementSymbol": "Al", "atomicNumber": 13, "pubChemCid": "5359268", "controlledIdentifier": "PubChem CID:5359268",
       "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/13", "https://pubchem.ncbi.nlm.nih.gov/compound/5359268"],
@@ -44,7 +55,7 @@
       "proposedProvenance": "Generated once from the immutable Batch 041 prompt after elemental identity and material audit; human-audited at native resolution."
     },
     {
-      "pageId": "antimony", "displayName": "Antimony", "assetType": "technical-specimen", "revision": 1, "decision": "pending-control-review", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending",
+      "pageId": "antimony", "displayName": "Antimony", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/metals-batch-041/antimony-draft.png", "generationRecord": "exec-d2acce3e-2677-49ab-8cd4-8294221c01d3.png", "promptSha256": "579ad5cab0c1d71acdc5d54d6a888ecc19c1cc21567d0a7bab4b6bb8b60521f6", "sha256": "6c87fcf8a60eb6983dda3cd6cdae325c2782d9be9fef8dcb862be2d1f166d4dc", "fileSizeBytes": 1605962,
       "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover", "elementSymbol": "Sb", "atomicNumber": 51, "pubChemCid": "5354495", "controlledIdentifier": "PubChem CID:5354495",
       "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/51", "https://pubchem.ncbi.nlm.nih.gov/compound/5354495"],
@@ -57,7 +68,7 @@
       "proposedProvenance": "Generated once from the immutable Batch 041 prompt after elemental identity and material audit; human-audited at native resolution."
     },
     {
-      "pageId": "arsenic", "displayName": "Arsenic", "assetType": "technical-specimen", "revision": 1, "decision": "pending-control-review", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending",
+      "pageId": "arsenic", "displayName": "Arsenic", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/metals-batch-041/arsenic-draft.png", "generationRecord": "exec-d5eb71a7-28fd-44bb-9bd0-48b19db3b1e8.png", "promptSha256": "71f5b2fe58b74078e0ccf9b8920dea7f2636d017a7357c496391fc39f7df733c", "sha256": "addd03fe7850c7aa059fb7c43fd89e7ef05721dd8999873edf32ceef0b00fa11", "fileSizeBytes": 1712163,
       "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover", "elementSymbol": "As", "atomicNumber": 33, "pubChemCid": "5359596", "controlledIdentifier": "PubChem CID:5359596",
       "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/33", "https://pubchem.ncbi.nlm.nih.gov/compound/5359596"],
@@ -70,7 +81,7 @@
       "proposedProvenance": "Generated once from the immutable Batch 041 prompt after elemental identity, allotrope, and material audit; human-audited at native resolution."
     },
     {
-      "pageId": "barium", "displayName": "Barium", "assetType": "technical-specimen", "revision": 1, "decision": "pending-control-review", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending",
+      "pageId": "barium", "displayName": "Barium", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/metals-batch-041/barium-draft.png", "generationRecord": "exec-912ad908-66d1-459a-9b03-85f898c5d77b.png", "promptSha256": "1ed62396480405279f5769324e1a109c2a5756bedb7ddf321d53024dc01cb07a", "sha256": "228806355f5db761d205b186f3359993f51391fa290e90f102fdc594dbe1c2e4", "fileSizeBytes": 1243979,
       "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover", "elementSymbol": "Ba", "atomicNumber": 56, "pubChemCid": "5355457", "controlledIdentifier": "PubChem CID:5355457",
       "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/56", "https://pubchem.ncbi.nlm.nih.gov/compound/5355457"],
@@ -83,7 +94,7 @@
       "proposedProvenance": "Generated once from the immutable Batch 041 prompt after elemental identity, reactivity, containment, and material audit; human-audited at native resolution."
     },
     {
-      "pageId": "bismuth", "displayName": "Bismuth", "assetType": "technical-specimen", "revision": 1, "decision": "pending-control-review", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending",
+      "pageId": "bismuth", "displayName": "Bismuth", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/metals-batch-041/bismuth-draft.png", "generationRecord": "exec-64771ea7-b263-4155-88c3-230ee65a4655.png", "promptSha256": "c0c4697d2c21bcb2e4a5872296f71fc099db13c6b3e3ce7d59d4293cd7c5dee3", "sha256": "4292ce4ffd60db02e16f7e6c4342cf1d0cc27a879dafebfea9796aa841092bbb", "fileSizeBytes": 1694546,
       "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover", "elementSymbol": "Bi", "atomicNumber": 83, "pubChemCid": "5359367", "controlledIdentifier": "PubChem CID:5359367",
       "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/83", "https://pubchem.ncbi.nlm.nih.gov/compound/5359367"],
@@ -96,7 +107,7 @@
       "proposedProvenance": "Generated once from the immutable Batch 041 prompt after elemental identity and material audit; human-audited at native resolution."
     },
     {
-      "pageId": "cadmium", "displayName": "Cadmium", "assetType": "technical-specimen", "revision": 1, "decision": "pending-control-review", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending",
+      "pageId": "cadmium", "displayName": "Cadmium", "assetType": "technical-specimen", "revision": 1, "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/metals-batch-041/cadmium-draft.png", "generationRecord": "exec-72a80e51-aec6-49ad-b58c-c92f4208fe54.png", "promptSha256": "ecde61dbd92c0f8142efcdf1e99fda5204bcb58968379256779d98f02e7da9f7", "sha256": "c9a1691a6ff02b42d09892024e76d14fb3a6e7f7225e8893efe8f48397ecba18", "fileSizeBytes": 1538052,
       "dimensions": { "width": 1536, "height": 1024 }, "proposedSocialResizeFit": "cover", "elementSymbol": "Cd", "atomicNumber": 48, "pubChemCid": "23973", "controlledIdentifier": "PubChem CID:23973",
       "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/element/48", "https://pubchem.ncbi.nlm.nih.gov/compound/23973"],
