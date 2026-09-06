@@ -5577,6 +5577,30 @@
       "routingImpact": "The exact PNG remains immutable quarantined audit evidence only. It has no review-candidate status, public registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion."
     },
     {
+      "pageId": "yersinia-pestis",
+      "sourceEraIdentifier": "NCBITaxon:632",
+      "batchId": "microorganisms-040",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-media-hold",
+      "currentAcceptedName": "Yersinia pestis",
+      "reason": "The current conserved species identity, type strain, and conservative morphology cleared scientific review, but the route's single authorized built-in generation request was rejected by the input safety system and produced no raster. The route must remain asset-free rather than retrying, weakening the scientific prompt, or substituting an unreviewed image.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=632&mode=Info",
+        "https://lpsn.dsmz.de/species/yersinia-pestis",
+        "https://www.cdc.gov/plague/hcp/diagnosis-testing/index.html"
+      ],
+      "requiredResolution": "Use a separately authorized, provenance-reviewed public-domain or appropriately licensed scientific source image, or obtain explicit approval for the documented CLI fallback. Any future candidate requires a new immutable source/prompt record and full review; do not silently retry the failed built-in call.",
+      "routingImpact": "The Yersinia pestis route remains uncovered and asset-free and is excluded from registry keys, masters, derivatives, endpoints, and image-sitemap entries until a separately authorized candidate passes all gates.",
+      "generationAttempt": {
+        "tool": "OpenAI built-in image generation",
+        "status": "input-safety-rejected-no-output",
+        "requestId": "e21e5164-525c-4cce-90bd-f825980b3cdc",
+        "callCount": 1,
+        "retryCount": 0
+      }
+    },
+    {
       "pageId": "ruminococcaceae",
       "sourceEraIdentifier": "NCBITaxon:541000",
       "batchId": "microorganisms-033",

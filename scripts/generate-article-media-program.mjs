@@ -93,7 +93,7 @@ for (const { name, data } of batchManifests) {
 }
 const scientificHolds = new Map(
   reviewLog.rejectedAssets
-    .filter((asset) => asset.disposition === "scientific-identity-hold")
+    .filter((asset) => ["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition))
     .map((asset) => [asset.pageId, asset]),
 );
 const canonicalRouteIds = new Set(canonicalRoutes.map((route) => route.id));
