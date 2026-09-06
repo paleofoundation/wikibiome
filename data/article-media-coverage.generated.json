@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "eb12e152ba34954cba86f5afdb9eac4355c9b7f2a466c32512943d7fa0a452aa",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "58e5835ce828516b9076e560d382b19a3e1e821822bf71de2a6f8e0fc35f1ad4",
+    "reviewLogSha256": "9218ed55432bbfaa8ae89a2614f05851b214e0447219999d517fba88a9192cd4",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -430,7 +430,7 @@
     "total": 710,
     "completed": 350,
     "remaining": 360,
-    "rejected": 48,
+    "rejected": 51,
     "revised": 11,
     "scientificHolds": 15,
     "inReview": 0
@@ -494,6 +494,45 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "dysmenorrhea",
+      "batchId": "mechanisms-066",
+      "draft": "work/media-drafts/mechanisms-batch-066/dysmenorrhea-draft.png",
+      "sha256": "2e130025e3f34903a8077792eedba217da4ba112f212c43023fe3c55e9d34733",
+      "generationRecord": "exec-fa564615-cd7f-4e77-8b90-ad7ac1da6662.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "A severe black top-and-bottom vignette violates the uniform pale field; the wall surface is deeply folded rather than smooth; and the four requested plain spheres are lobulated cell clusters that can be mistaken for embryoid bodies.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "edta",
+      "batchId": "mechanisms-066",
+      "draft": "work/media-drafts/mechanisms-batch-066/edta-draft.png",
+      "sha256": "b3aea8f75771620963cbafe7bff39ad4d00b86c3a5fce7193d9bed700deb7841",
+      "generationRecord": "exec-8b5607e8-fb43-4a59-97fa-98d8fd4122f3.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "Both forms use explicit ball-and-stick atom and bond language, while the closed form presents a specific cage-like coordination geometry around the sphere, violating the non-literal structure boundary.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
+    {
+      "pageId": "endocrine-disruptors",
+      "batchId": "mechanisms-066",
+      "draft": "work/media-drafts/mechanisms-batch-066/endocrine-disruptors-draft.png",
+      "sha256": "6512bf359e0607169afd12cdf3a45db2752f613190c3775f8e94fcc83fa62b07",
+      "generationRecord": "exec-1dba087b-5ac3-4a26-9893-8ccf13fa08d7.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "A black vignette, colored halos, visible ball-and-stick atom and bond language, and ornate glass, geode, and cracked-rock spheres violate the pale-field, no-glow, non-literal-compound, restrained-material, and minimal-scene boundaries.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call."
+    },
     {
       "pageId": "dietary-lead-exposure",
       "batchId": "mechanisms-065",
