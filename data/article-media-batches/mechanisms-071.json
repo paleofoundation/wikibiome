@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-071",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "8438fccc4c1c54adb5d8ec96d882c96c3bc5cf81",
@@ -32,6 +32,18 @@
   "initialAuditCommit": "dfcef561fe36d0dc46ed6bcafb1db797ef71ae67",
   "auditCommit": "349a081bb5239e2e8420b649b7aa9ed02ed3f2e6",
   "promptFreezeCommit": "249be7e6df38d403774f8fa98124373976fd0d45",
+  "controlAcceptedReviewManifestSha256": "2605fa87f06d2e731f8dca681b947f1c269cc98ed764f97f7065eee320a6d8bc",
+  "controlAcceptedPromptEvidenceSha256": "0310624dd48f1da607763f2d9106150f4ab6635f7740522da2c9c0ff2bdacf95",
+  "controlFinalReview": {
+    "status": "accepted-one-exact-hash-five-quarantined",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "242eea3f59c0e1ed1b6953e1eff73cfa6f50fff5",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["gingipains"],
+    "acceptedSourceSha256": ["2e6da7173bfb51ad188f5aa55b258bd1e5a84eb3f462a83baf051693712bd10f"],
+    "nonPublishablePageIds": ["glyoxalase", "gut-barrier-dysfunction", "gut-microbiome", "gut-brain-axis", "gut-gonadal-axis"]
+  },
+  "promotionRule": "Only the exact accepted gingipains source hash may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The Glyoxalase I, Gut Barrier Dysfunction, Gut Microbiome, Gut-Brain Axis, and Gut-Gonadal Axis originals remain immutable non-public quarantines.",
   "assets": [
     {
       "pageId": "gingipains",
