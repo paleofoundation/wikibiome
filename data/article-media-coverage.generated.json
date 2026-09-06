@@ -39,8 +39,8 @@
       {
         "file": "data/article-media-batches/diseases-050.json",
         "batchId": "diseases-050",
-        "status": "audited",
-        "sha256": "1cca98847bde099877cdccb077873b2c62ab17ec985e5307fb1c4a4b9355492d"
+        "status": "awaiting-control-review",
+        "sha256": "2cfe1939718d2b6ef30d0f1f8f8aa16f1c9aba5bbbffec00109b9d16be027be3"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -337,7 +337,7 @@
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -1270,55 +1270,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 283,
-      "id": "female-infertility",
-      "title": "Female Infertility",
-      "route": "/article/female-infertility",
+      "queuePosition": 289,
+      "id": "gestational-diabetes",
+      "title": "Gestational Diabetes Mellitus",
+      "route": "/article/gestational-diabetes",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 284,
-      "id": "fibromyalgia",
-      "title": "Fibromyalgia",
-      "route": "/article/fibromyalgia",
+      "queuePosition": 290,
+      "id": "graves-disease",
+      "title": "Graves' Disease",
+      "route": "/article/graves-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 285,
-      "id": "gastric-adenocarcinoma",
-      "title": "Gastric Adenocarcinoma",
-      "route": "/article/gastric-adenocarcinoma",
+      "queuePosition": 291,
+      "id": "hashimotos-thyroiditis",
+      "title": "Hashimoto's Thyroiditis",
+      "route": "/article/hashimotos-thyroiditis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 286,
-      "id": "gastric-cancer",
-      "title": "Gastric Cancer",
-      "route": "/article/gastric-cancer",
+      "queuePosition": 292,
+      "id": "hepatitis",
+      "title": "Hepatitis",
+      "route": "/article/hepatitis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 287,
-      "id": "gastric-ulcer",
-      "title": "Gastric Ulcer",
-      "route": "/article/gastric-ulcer",
+      "queuePosition": 293,
+      "id": "hidradenitis-suppurativa",
+      "title": "Hidradenitis Suppurativa",
+      "route": "/article/hidradenitis-suppurativa",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 288,
-      "id": "gerd",
-      "title": "Gastroesophageal Reflux Disease (GERD)",
-      "route": "/article/gerd",
+      "queuePosition": 294,
+      "id": "hiv",
+      "title": "HIV/AIDS",
+      "route": "/article/hiv",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -7254,7 +7254,13 @@
       "route": "/article/female-infertility",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-050",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-050/female-infertility-draft.png",
+        "sha256": "b2986423fc55534e131181acfc73ac25349437038aa5461a5e7e80622ab5ef34"
+      }
     },
     {
       "queuePosition": 284,
@@ -7268,7 +7274,13 @@
       "route": "/article/fibromyalgia",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-050",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-050/fibromyalgia-draft.png",
+        "sha256": "3d74eac8d67059f948f84cececffbedd9c80d17d9e5232c0f28552b065fb2742"
+      }
     },
     {
       "queuePosition": 285,
@@ -7281,7 +7293,13 @@
       "route": "/article/gastric-adenocarcinoma",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-050",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-050/gastric-adenocarcinoma-draft.png",
+        "sha256": "12c5ea4970391b10205877940accdcfd87918557dc8d7c500f0ccb124a7886ac"
+      }
     },
     {
       "queuePosition": 286,
@@ -7295,7 +7313,13 @@
       "route": "/article/gastric-cancer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-050",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-050/gastric-cancer-draft.png",
+        "sha256": "e27e2dde1741b3286fd8d471ce06731c05301a68368a52b7d5bf7d64c9f38619"
+      }
     },
     {
       "queuePosition": 287,
@@ -7308,7 +7332,13 @@
       "route": "/article/gastric-ulcer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-050",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-050/gastric-ulcer-draft.png",
+        "sha256": "2ddb18f7c702d6b50af6adc8a7ba7f7111d23038fc10f0f3f700cdb6e2d7938f"
+      }
     },
     {
       "queuePosition": 288,
@@ -7322,7 +7352,13 @@
       "route": "/article/gerd",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-050",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-050/gerd-draft.png",
+        "sha256": "3d3e980de5c6b9950f3c88e8b93da48a9fd79419ead79cc4ea65669e6695224b"
+      }
     },
     {
       "queuePosition": 289,
