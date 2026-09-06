@@ -67,6 +67,12 @@
         "sha256": "befb1b1db5038a9510be057e1009ae910fb05c2b94f095918c721541c2b629df"
       },
       {
+        "file": "data/article-media-batches/diseases-055.json",
+        "batchId": "diseases-055",
+        "status": "awaiting-control-review",
+        "sha256": "293384d25fd527897a033e12bb924056440170b60b3e7690adf3cf08e6d2af94"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
@@ -361,7 +367,7 @@
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -1317,46 +1323,46 @@
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 313,
-      "id": "pcos",
-      "title": "Polycystic Ovary Syndrome",
-      "route": "/article/pcos",
+      "queuePosition": 319,
+      "id": "schizophrenia",
+      "title": "Schizophrenia",
+      "route": "/article/schizophrenia",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 314,
-      "id": "postpartum-depression",
-      "title": "Postpartum Depression",
-      "route": "/article/postpartum-depression",
+      "queuePosition": 320,
+      "id": "sepsis",
+      "title": "Sepsis",
+      "route": "/article/sepsis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 315,
-      "id": "premature-ovarian-insufficiency",
-      "title": "Premature Ovarian Insufficiency",
-      "route": "/article/premature-ovarian-insufficiency",
+      "queuePosition": 321,
+      "id": "tuberculosis",
+      "title": "Tuberculosis",
+      "route": "/article/tuberculosis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 316,
-      "id": "pmdd",
-      "title": "Premenstrual Dysphoric Disorder",
-      "route": "/article/pmdd",
+      "queuePosition": 322,
+      "id": "type-1-diabetes",
+      "title": "Type 1 Diabetes",
+      "route": "/article/type-1-diabetes",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 317,
-      "id": "psoriasis",
-      "title": "Psoriasis",
-      "route": "/article/psoriasis",
+      "queuePosition": 323,
+      "id": "type-2-diabetes",
+      "title": "Type 2 Diabetes",
+      "route": "/article/type-2-diabetes",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -7932,7 +7938,13 @@
       "route": "/article/pcos",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-055",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-055/pcos-draft.png",
+        "sha256": "7c1d3e876dea0a32846c0cae3419065d7b108e6bea8cb990c9b4488698eb5e1d"
+      }
     },
     {
       "queuePosition": 314,
@@ -7946,7 +7958,13 @@
       "route": "/article/postpartum-depression",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-055",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-055/postpartum-depression-draft.png",
+        "sha256": "534d35a89d0926668adc52e86fa5785c4a84a31d022fe97086674a0a01d240a2"
+      }
     },
     {
       "queuePosition": 315,
@@ -7959,7 +7977,13 @@
       "route": "/article/premature-ovarian-insufficiency",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-055",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-055/premature-ovarian-insufficiency-draft.png",
+        "sha256": "c659dd26e6b978996d6275c800793d0f3f2a9daa3777c7f2174b5fb16a67aaef"
+      }
     },
     {
       "queuePosition": 316,
@@ -7973,7 +7997,13 @@
       "route": "/article/pmdd",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-055",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-055/pmdd-draft.png",
+        "sha256": "ee306a2cd1810cbdb73a47c1d6e0f13cbeb22e8296d2e31b033276d91b70f1af"
+      }
     },
     {
       "queuePosition": 317,
@@ -7986,7 +8016,13 @@
       "route": "/article/psoriasis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-055",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-055/psoriasis-draft.png",
+        "sha256": "18d2fff47aa32ddd56ebf6d1ddd18d85aeb8cdd4895d1d854ea94b6df6fe22c1"
+      }
     },
     {
       "queuePosition": 318,
@@ -8000,7 +8036,13 @@
       "route": "/article/rheumatoid-arthritis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-055",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-055/rheumatoid-arthritis-draft.png",
+        "sha256": "dac5a8c347a0649dd1401c346b8ad8f097328a0d81d77bb453e994896fb02f24"
+      }
     },
     {
       "queuePosition": 319,
