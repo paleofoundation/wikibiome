@@ -76,6 +76,7 @@ Scientific references:
 - https://meshb.nlm.nih.gov/record/ui?ui=D050031
 - https://www.niddk.nih.gov/health-information/endocrine-diseases/hashimotos-disease
 - https://meshb.nlm.nih.gov/record/ui?ui=D006505
+- https://medlineplus.gov/hepatitis.html
 - https://meshb.nlm.nih.gov/record/ui?ui=D017497
 - https://www.niams.nih.gov/health-topics/hidradenitis-suppurativa-hs
 - https://meshb.nlm.nih.gov/record/ui?ui=D015658

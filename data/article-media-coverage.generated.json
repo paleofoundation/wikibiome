@@ -46,7 +46,7 @@
         "file": "data/article-media-batches/diseases-051.json",
         "batchId": "diseases-051",
         "status": "awaiting-control-review",
-        "sha256": "9d70dd39e6e43f7c28b72e879381d12cf318e550163c034c1fa35d0d6a23d374"
+        "sha256": "27b7fd2320d5ec4698a3914dde9a77c9d659ca5f16191f0ee93fd5cf85462004"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
