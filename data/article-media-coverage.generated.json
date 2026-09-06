@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "e671da61514add3abf14a49c913a4305b7062558f13f4add13e20d4289680009",
+    "registrySha256": "c880cf8921ac918a4eb63b9b62ff37e0f085b17e6e538f240e969cfa70510107",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "031853f68a827c7f9738a1fd1a62ae4b30831b61b3b58b33b8fe0325c92cd8bb",
+    "reviewLogSha256": "936fc7bd572acc6f52979aadfa55ee0d3ae998af45e5d58fddadc0018be5ebd5",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -69,8 +69,8 @@
       {
         "file": "data/article-media-batches/diseases-055.json",
         "batchId": "diseases-055",
-        "status": "awaiting-control-review",
-        "sha256": "295f8e6e855b77b9727bdff19a726eea9200e6867e88c67db824b2b30ab08557"
+        "status": "reviewed",
+        "sha256": "45990fc0bdc0863e10cc01e3acead69c74e8ca7cc4f6513ae3102e779ae9e167"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -362,12 +362,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 296,
-    "remaining": 414,
+    "completed": 302,
+    "remaining": 408,
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
@@ -388,8 +388,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 53,
-      "remaining": 13
+      "completed": 59,
+      "remaining": 7
     },
     {
       "id": "mechanisms",
@@ -7938,12 +7938,14 @@
       "route": "/article/pcos",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-055",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-055/pcos-draft.png",
-        "sha256": "7c1d3e876dea0a32846c0cae3419065d7b108e6bea8cb990c9b4488698eb5e1d"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "pcos-pathology-v1-master.png",
+        "publishedFile": "pcos-pathology-v1.webp",
+        "socialFile": "pcos-pathology-v1-social.webp"
       }
     },
     {
@@ -7958,12 +7960,14 @@
       "route": "/article/postpartum-depression",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-055",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-055/postpartum-depression-draft.png",
-        "sha256": "534d35a89d0926668adc52e86fa5785c4a84a31d022fe97086674a0a01d240a2"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "postpartum-depression-pathology-v1-master.png",
+        "publishedFile": "postpartum-depression-pathology-v1.webp",
+        "socialFile": "postpartum-depression-pathology-v1-social.webp"
       }
     },
     {
@@ -7977,12 +7981,14 @@
       "route": "/article/premature-ovarian-insufficiency",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-055",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-055/premature-ovarian-insufficiency-draft.png",
-        "sha256": "c659dd26e6b978996d6275c800793d0f3f2a9daa3777c7f2174b5fb16a67aaef"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "premature-ovarian-insufficiency-pathology-v1-master.png",
+        "publishedFile": "premature-ovarian-insufficiency-pathology-v1.webp",
+        "socialFile": "premature-ovarian-insufficiency-pathology-v1-social.webp"
       }
     },
     {
@@ -7997,12 +8003,14 @@
       "route": "/article/pmdd",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-055",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-055/pmdd-draft.png",
-        "sha256": "ee306a2cd1810cbdb73a47c1d6e0f13cbeb22e8296d2e31b033276d91b70f1af"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "pmdd-pathology-v1-master.png",
+        "publishedFile": "pmdd-pathology-v1.webp",
+        "socialFile": "pmdd-pathology-v1-social.webp"
       }
     },
     {
@@ -8016,12 +8024,14 @@
       "route": "/article/psoriasis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-055",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-055/psoriasis-draft.png",
-        "sha256": "18d2fff47aa32ddd56ebf6d1ddd18d85aeb8cdd4895d1d854ea94b6df6fe22c1"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "psoriasis-pathology-v1-master.png",
+        "publishedFile": "psoriasis-pathology-v1.webp",
+        "socialFile": "psoriasis-pathology-v1-social.webp"
       }
     },
     {
@@ -8036,12 +8046,14 @@
       "route": "/article/rheumatoid-arthritis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-055",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-055/rheumatoid-arthritis-draft.png",
-        "sha256": "dac5a8c347a0649dd1401c346b8ad8f097328a0d81d77bb453e994896fb02f24"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "rheumatoid-arthritis-pathology-v1-master.png",
+        "publishedFile": "rheumatoid-arthritis-pathology-v1.webp",
+        "socialFile": "rheumatoid-arthritis-pathology-v1-social.webp"
       }
     },
     {

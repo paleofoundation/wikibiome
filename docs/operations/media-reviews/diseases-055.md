@@ -52,4 +52,4 @@ Exactly six built-in generation calls were made, one per immutable prompt. Every
 
 ## Disposition
 
-All six exact sources pass native review with the stated limitations. They remain non-public until a separate exact-hash acceptance, metadata-bearing promotion, native-detail social-derivative review, and complete release gates. No regeneration was performed.
+All six exact sources passed native review with the stated limitations and were separately accepted at commit `6ccbb43`. They were promoted through the scoped processor to metadata-bearing lossless masters, article WebPs, and centered `contain` 1200 × 630 social WebPs. Native-detail review confirmed that every derivative retains all three complete teaching groups, pale padding, and route-specific orientation without clipping or label leakage. Registry, review-log, controlled-identifier, license, provenance, accessibility, Schema.org, image-sitemap, and canonical-filename parity must remain green. No regeneration was performed.

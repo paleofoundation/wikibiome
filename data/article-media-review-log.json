@@ -10331,6 +10331,192 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "pcos|pcos-pathology-v1.webp": {
+      "pageId": "pcos",
+      "publishedFile": "pcos-pathology-v1.webp",
+      "masterSource": "pcos-pathology-v1-master.png",
+      "socialFile": "pcos-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D011085",
+          "https://www.nichd.nih.gov/health/topics/pcos"
+        ],
+        "notes": "MeSH and NICHD confirm PCOS identity; follicles must not be described as true cysts or a diagnostic count."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show reproductive anatomy and two follicle-bearing cutaways without clipping or stigma cues."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption use follicle language and exclude cyst, reserve, phenotype, endocrine, fertility, and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "postpartum-depression|postpartum-depression-pathology-v1.webp": {
+      "pageId": "postpartum-depression",
+      "publishedFile": "postpartum-depression-pathology-v1.webp",
+      "masterSource": "postpartum-depression-pathology-v1-master.png",
+      "socialFile": "postpartum-depression-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D019052",
+          "https://www.nimh.nih.gov/health/publications/perinatal-depression"
+        ],
+        "notes": "MeSH and NIMH confirm heterogeneous postpartum depression without a single visible sign or cause."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete neutral groups show brain, generic reproductive anatomy, and an unnumbered timing ring."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude patient stereotype, symptom, mechanism, onset-window, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "premature-ovarian-insufficiency|premature-ovarian-insufficiency-pathology-v1.webp": {
+      "pageId": "premature-ovarian-insufficiency",
+      "publishedFile": "premature-ovarian-insufficiency-pathology-v1.webp",
+      "masterSource": "premature-ovarian-insufficiency-pathology-v1-master.png",
+      "socialFile": "premature-ovarian-insufficiency-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D016649",
+          "https://www.nichd.nih.gov/health/topics/poi"
+        ],
+        "notes": "MeSH and NICHD confirm current POI identity, possible presence of follicles, and distinction from premature menopause."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups include two intact follicle-bearing cutaways with no empty-ovary metaphor."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude reserve count, permanence, cause, fertility, menopause, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "pmdd|pmdd-pathology-v1.webp": {
+      "pageId": "pmdd",
+      "publishedFile": "pmdd-pathology-v1.webp",
+      "masterSource": "pmdd-pathology-v1-master.png",
+      "socialFile": "pmdd-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D065446",
+          "https://womenshealth.gov/menstrual-cycle/premenstrual-syndrome/premenstrual-dysphoric-disorder-pmdd"
+        ],
+        "notes": "MeSH and HHS confirm cyclical timing while cause is not certain; the ring cannot set a fixed timing scale."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete neutral groups show brain, reproductive anatomy, and a ten-segment unnumbered recurrence ring."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude symptom caricature, hormone level, mechanism, fixed timing, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "psoriasis|psoriasis-pathology-v1.webp": {
+      "pageId": "psoriasis",
+      "publishedFile": "psoriasis-pathology-v1.webp",
+      "masterSource": "psoriasis-pathology-v1-master.png",
+      "socialFile": "psoriasis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D011565",
+          "https://www.niams.nih.gov/health-topics/psoriasis"
+        ],
+        "notes": "MeSH and NIAMS confirm variable forms, sites, and scaly inflammatory skin features."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show neutral skin, one bounded pale scaly plaque, and a nail-unit cutaway."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude patient identity, skin tone, subtype, distribution, cause, severity, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "rheumatoid-arthritis|rheumatoid-arthritis-pathology-v1.webp": {
+      "pageId": "rheumatoid-arthritis",
+      "publishedFile": "rheumatoid-arthritis-pathology-v1.webp",
+      "masterSource": "rheumatoid-arthritis-pathology-v1-master.png",
+      "socialFile": "rheumatoid-arthritis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D001172",
+          "https://www.niams.nih.gov/health-topics/rheumatoid-arthritis"
+        ],
+        "notes": "MeSH and NIAMS confirm systemic disease primarily affecting synovial joints with variable distribution."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups show hand/wrist bones and two generic joint cutaways, one with bounded lining thickening."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude deformity, erosion, universal distribution, stage, systemic extent, and diagnosis claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [
