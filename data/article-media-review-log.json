@@ -11769,6 +11769,171 @@
         "supersededBy": null,
         "sourceDraft": "dietary-arsenic-exposure-draft.png"
       }
+    },
+    "dietary-cadmium-exposure|dietary-cadmium-exposure-mechanism-v1.webp": {
+      "pageId": "dietary-cadmium-exposure",
+      "publishedFile": "dietary-cadmium-exposure-mechanism-v1.webp",
+      "masterSource": "dietary-cadmium-exposure-mechanism-v1-master.png",
+      "socialFile": "dietary-cadmium-exposure-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D002104",
+          "https://www.atsdr.cdc.gov/toxprofiles/tp5.pdf",
+          "https://www.wikibiome.com/article/dietary-cadmium-exposure"
+        ],
+        "notes": "MeSH controls cadmium identity; ATSDR supports broad ingestion context while requiring separation from compound, dose, threshold, diagnosis, and individual-risk claims."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one water droplet, one dish with three leafy and three granular plant-food groupings, and four silver spheres, all separated and complete."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption enumerate literal groups and state that separation does not establish cadmium in a matrix or encode dose, toxicity, or risk."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dietary-cadmium-exposure-draft.png"
+      }
+    },
+    "dietary-metal-microbiome-interactions|dietary-metal-microbiome-interactions-mechanism-v1.webp": {
+      "pageId": "dietary-metal-microbiome-interactions",
+      "publishedFile": "dietary-metal-microbiome-interactions-mechanism-v1.webp",
+      "masterSource": "dietary-metal-microbiome-interactions-mechanism-v1-master.png",
+      "socialFile": "dietary-metal-microbiome-interactions-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/29902439/",
+          "https://pubmed.ncbi.nlm.nih.gov/39317009/",
+          "https://www.wikibiome.com/article/dietary-metal-microbiome-interactions"
+        ],
+        "notes": "The checked papers support dietary-metal, bacterial, and host context as a research domain without licensing a depicted direction, exchange, abundance, mechanism, or outcome."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one epithelial-and-mucus cutaway, two short rods, one curved rod, two cocci, and four spheres in three separated groups."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption state literal groups and exclude interaction direction, exchange, abundance, exposure, causal mechanism, disease, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dietary-metal-microbiome-interactions-draft.png"
+      }
+    },
+    "dietary-nickel-exposure|dietary-nickel-exposure-mechanism-v1.webp": {
+      "pageId": "dietary-nickel-exposure",
+      "publishedFile": "dietary-nickel-exposure-mechanism-v1.webp",
+      "masterSource": "dietary-nickel-exposure-mechanism-v1-master.png",
+      "socialFile": "dietary-nickel-exposure-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D009532",
+          "https://www.atsdr.cdc.gov/toxprofiles/tp15.pdf",
+          "https://www.wikibiome.com/article/dietary-nickel-exposure"
+        ],
+        "notes": "MeSH controls nickel identity; ATSDR supports broad ingestion context while requiring separation from compound, dose, allergy, toxicity, diagnosis, and individual-risk claims."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one dish with three leafy and four granular or rounded plant-food groupings, one water droplet, and four silver-blue spheres."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption enumerate literal groups and state that separation does not establish nickel in a matrix or encode dose, allergy, toxicity, or risk."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dietary-nickel-exposure-draft.png"
+      }
+    },
+    "dimethylglyoxime|dimethylglyoxime-mechanism-v1.webp": {
+      "pageId": "dimethylglyoxime",
+      "publishedFile": "dimethylglyoxime-mechanism-v1.webp",
+      "masterSource": "dimethylglyoxime-mechanism-v1-master.png",
+      "socialFile": "dimethylglyoxime-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/Dimethylglyoxime",
+          "https://pubchem.ncbi.nlm.nih.gov/compound/135459645",
+          "https://www.wikibiome.com/article/dimethylglyoxime"
+        ],
+        "notes": "PubChem controls dimethylglyoxime identity and formula; the generic forms remain expressly non-literal and do not claim structure, stoichiometry, reaction, or test performance."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one open rose two-lobed teaching form, two separate silver-blue spheres, and one closed rose-and-silver form containing two spheres."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption describe non-literal forms and exclude molecular, stoichiometric, reaction, analytical, exposure, and clinical-test inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dimethylglyoxime-draft.png"
+      }
+    },
+    "dna-damage|dna-damage-mechanism-v1.webp": {
+      "pageId": "dna-damage",
+      "publishedFile": "dna-damage-mechanism-v1.webp",
+      "masterSource": "dna-damage-mechanism-v1-master.png",
+      "socialFile": "dna-damage-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/24788233/",
+          "https://pubmed.ncbi.nlm.nih.gov/32674145/",
+          "https://www.wikibiome.com/article/dna-damage"
+        ],
+        "notes": "The checked papers support DNA-damage and repair-disruption research context without licensing a literal lesion class, causal agent, assay, mutation, or cancer depiction."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one intact helix, one separate helix with one central two-strand discontinuity, and four spheres, all complete and separated."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption state literal groups and exclude molecular structure, sequence, lesion classification, causal mechanism, assay, mutation, cancer, and diagnosis inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dna-damage-draft.png"
+      }
     }
   },
   "rejectedAssets": [

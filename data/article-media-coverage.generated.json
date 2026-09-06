@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "18e5de93b6364b4186491ad420beed51264f4ebc928f0b9c8878961636ea6981",
+    "registrySha256": "8f0252b9819b1841ad9b2422ec3e4f6fa11c1f03a7720ce060a08e6d52a67c01",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "9a32261cd5d20c876df43b0f5f3858e0987c2ae6d939d42875c25721833878f2",
+    "reviewLogSha256": "368fd5cd0fba29904c75ec2125b35bd78701a673257152b3fc82d52502544700",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -130,7 +130,7 @@
         "file": "data/article-media-batches/mechanisms-065.json",
         "batchId": "mechanisms-065",
         "status": "reviewed",
-        "sha256": "e1baf562b690b1c9d84c4f9396a5ddf84ca3af09cabade425246ec91decccfe3"
+        "sha256": "9cc2cfc5a9d4ee0879bc2e6670dd2683e844178430100f7acd67538904a691d2"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -422,8 +422,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 342,
-    "remaining": 368,
+    "completed": 347,
+    "remaining": 363,
     "rejected": 47,
     "revised": 11,
     "scientificHolds": 15,
@@ -455,8 +455,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 34,
-      "remaining": 199
+      "completed": 39,
+      "remaining": 194
     },
     {
       "id": "host-defenses",
@@ -9292,7 +9292,15 @@
       "route": "/article/dietary-cadmium-exposure",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "dietary-cadmium-exposure-mechanism-v1-master.png",
+        "publishedFile": "dietary-cadmium-exposure-mechanism-v1.webp",
+        "socialFile": "dietary-cadmium-exposure-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 374,
@@ -9318,7 +9326,15 @@
       "route": "/article/dietary-metal-microbiome-interactions",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "dietary-metal-microbiome-interactions-mechanism-v1-master.png",
+        "publishedFile": "dietary-metal-microbiome-interactions-mechanism-v1.webp",
+        "socialFile": "dietary-metal-microbiome-interactions-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 376,
@@ -9331,7 +9347,15 @@
       "route": "/article/dietary-nickel-exposure",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "dietary-nickel-exposure-mechanism-v1-master.png",
+        "publishedFile": "dietary-nickel-exposure-mechanism-v1.webp",
+        "socialFile": "dietary-nickel-exposure-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 377,
@@ -9344,7 +9368,15 @@
       "route": "/article/dimethylglyoxime",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "dimethylglyoxime-mechanism-v1-master.png",
+        "publishedFile": "dimethylglyoxime-mechanism-v1.webp",
+        "socialFile": "dimethylglyoxime-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 378,
@@ -9357,7 +9389,15 @@
       "route": "/article/dna-damage",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "dna-damage-mechanism-v1-master.png",
+        "publishedFile": "dna-damage-mechanism-v1.webp",
+        "socialFile": "dna-damage-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 379,
