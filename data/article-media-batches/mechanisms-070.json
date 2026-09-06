@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-070",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-06",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "fbcf6e49dc0f8f5e20cd9cb3a57897b975b1fc66",
@@ -31,6 +31,18 @@
   "revisionCount": 0,
   "auditCommit": "164697babc3041be260419173becaf1a8ce7a6f0",
   "promptFreezeCommit": "ec9125e117cc1ed7e6906de22c3121ae16941ace",
+  "controlAcceptedReviewManifestSha256": "b892ae49ab4b8d3835bc11623341b8b0d3ab84cc0eca43878ccc4dfac2386d57",
+  "controlAcceptedPromptEvidenceSha256": "075ccd167a89d3ab011e5e88270592b72652f0a27b480c43dfec181db0548daa",
+  "controlFinalReview": {
+    "status": "accepted-two-exact-hashes-four-quarantined",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "480875232da806cbe87a52d3ec5e389b2094e9e9",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["fenton-chemistry", "functional-shielding"],
+    "acceptedSourceSha256": ["07e484c6e2a6e9de157a3bdfa99d406b31d6d5290fdea442b01afeccfdf6a13c", "32c5c9354ab70477fb9cd64c20b51de56c8790bebb28df68d8cc7eb3138d0496"],
+    "nonPublishablePageIds": ["fermentative-metabolism", "ferroptosis", "gaba", "gene-regulation"]
+  },
+  "promotionRule": "Only the exact accepted fenton-chemistry and functional-shielding source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. The fermentative-metabolism, ferroptosis, GABA, and gene-regulation originals remain immutable non-public quarantines.",
   "assets": [
     {
       "pageId": "fenton-chemistry",
