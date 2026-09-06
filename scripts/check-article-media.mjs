@@ -8,6 +8,7 @@ import { requiredEmbeddedMetadataTokens } from "../lib/article-media-metadata.mj
 import { assertArticleMediaRecord } from "../lib/article-media-validation.mjs";
 import { assertCanonicalMediaCorpus, loadCanonicalMediaRoutes } from "./article-media-corpus.mjs";
 import { assertBatchPromptIntegrity, assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
+import { assertApprovedMediaReview } from "./article-media-review-log.mjs";
 
 const projectRoot = process.cwd();
 const masters = resolve(projectRoot, "media/masters");
@@ -131,6 +132,7 @@ console.log(`Scientific media release gate passed: ${Object.keys(articleMediaReg
 function assertApprovedReview(media) {
   const review = reviewLog.reviews[media.reviewLogKey];
   if (!review) throw new Error(`${media.pageId}: matching review-log entry ${media.reviewLogKey} is absent.`);
+  assertApprovedMediaReview(media.reviewLogKey, review, reviewLog.reviewingAuthorities);
   const authority = reviewLog.reviewingAuthorities[review.reviewingAuthority];
   if (!authority?.name || !authority?.reviewerId || !authority?.scope) throw new Error(`${media.pageId}: reviewing authority is absent or incomplete.`);
   for (const field of ["pageId", "publishedFile", "masterSource", "socialFile", "revision", "reviewedOn"]) {
