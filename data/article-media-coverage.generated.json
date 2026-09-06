@@ -157,6 +157,12 @@
         "sha256": "5c469d9886c62b93e58fd51d4bd8c5e0d894a3cc74492d173e3d37fb4e3bb13b"
       },
       {
+        "file": "data/article-media-batches/mechanisms-070.json",
+        "batchId": "mechanisms-070",
+        "status": "prompt-frozen",
+        "sha256": "c3fcf55aaf03b4ee39798fd8c3e5d57fcaa56a3d17c317dccb2e7e604b24da6f"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
