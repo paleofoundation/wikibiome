@@ -1742,55 +1742,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 339,
-      "id": "atherosclerosis",
-      "title": "Atherosclerosis",
-      "route": "/article/atherosclerosis",
+      "queuePosition": 391,
+      "id": "epithelial-mesenchymal-transition",
+      "title": "Epithelial-Mesenchymal Transition",
+      "route": "/article/epithelial-mesenchymal-transition",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 341,
-      "id": "bacteremia",
-      "title": "Bacteremia",
-      "route": "/article/bacteremia",
+      "queuePosition": 392,
+      "id": "essential-oils",
+      "title": "Essential Oils",
+      "route": "/article/essential-oils",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 343,
-      "id": "bacterial-vaginosis",
-      "title": "Bacterial Vaginosis",
-      "route": "/article/bacterial-vaginosis",
+      "queuePosition": 393,
+      "id": "estrobolome",
+      "title": "Estrobolome",
+      "route": "/article/estrobolome",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 345,
-      "id": "bdnf",
-      "title": "BDNF (Brain-Derived Neurotrophic Factor)",
-      "route": "/article/bdnf",
+      "queuePosition": 394,
+      "id": "estrogen-recirculation",
+      "title": "Estrogen Recirculation",
+      "route": "/article/estrogen-recirculation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 346,
-      "id": "beta-glucuronidase",
-      "title": "Beta-Glucuronidase",
-      "route": "/article/beta-glucuronidase",
+      "queuePosition": 395,
+      "id": "fxr",
+      "title": "Farnesoid X Receptor (FXR)",
+      "route": "/article/fxr",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 347,
-      "id": "beta-lactamase",
-      "title": "Beta-Lactamase",
-      "route": "/article/beta-lactamase",
+      "queuePosition": 396,
+      "id": "fecal-microbiota-transplant",
+      "title": "Fecal Microbiota Transplant (FMT)",
+      "route": "/article/fecal-microbiota-transplant",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -8928,7 +8928,14 @@
       "route": "/article/atherosclerosis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-059",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The longitudinal artery enters the frozen uninterrupted 32-pixel pale edge field at x=28, making the source ineligible for crop-safe publication."
+      }
     },
     {
       "queuePosition": 340,
@@ -8962,7 +8969,14 @@
       "route": "/article/bacteremia",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-059",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "A severe black top-and-bottom vignette creates 124,910 dark pixels in the 32-pixel edge band and violates the uniform pale-field publication standard."
+      }
     },
     {
       "queuePosition": 342,
@@ -8996,7 +9010,14 @@
       "route": "/article/bacterial-vaginosis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-060",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The immutable prompt required exactly six long rods; the output contains five."
+      }
     },
     {
       "queuePosition": 344,
@@ -9030,7 +9051,14 @@
       "route": "/article/bdnf",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-060",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The synaptic-terminal teaching body fades upward out of frame, leaving its boundary incomplete and ambiguous."
+      }
     },
     {
       "queuePosition": 346,
@@ -9043,7 +9071,14 @@
       "route": "/article/beta-glucuronidase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-060",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The rightmost model enters the required outer 32-pixel pale edge field at x=1504."
+      }
     },
     {
       "queuePosition": 347,
@@ -9056,7 +9091,14 @@
       "route": "/article/beta-lactamase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-060",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The enzyme model enters the required outer 32-pixel pale edge field at x=11."
+      }
     },
     {
       "queuePosition": 348,
@@ -9090,7 +9132,14 @@
       "route": "/article/bile-salt-hydrolase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-061",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Generated structures enter the frozen outer 32-pixel field at x=31 and x=1500."
+      }
     },
     {
       "queuePosition": 350,
@@ -9103,7 +9152,14 @@
       "route": "/article/biomarkers",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-061",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The full-canvas blue-gray gradient and shadow field violates the immutable uniform pale-field and no-vignette requirement."
+      }
     },
     {
       "queuePosition": 351,
@@ -9116,7 +9172,14 @@
       "route": "/article/blood-brain-barrier",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-061",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Astrocytic processes fade out at several frame boundaries and reach y=997, leaving incomplete anatomy."
+      }
     },
     {
       "queuePosition": 352,
@@ -9129,7 +9192,14 @@
       "route": "/article/butyrate",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-061",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The rightmost bacterial form reaches x=1509 and enters the frozen outer 32-pixel field."
+      }
     },
     {
       "queuePosition": 353,
@@ -9311,7 +9381,14 @@
       "route": "/article/comorbidities",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-063",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The heart teaching model includes two complete lungs, exceeding the frozen exactly-three-model scope."
+      }
     },
     {
       "queuePosition": 362,
@@ -9345,7 +9422,14 @@
       "route": "/article/copper-dysregulation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-063",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Recognizable nuclei, mitochondria, endoplasmic-reticulum-like membranes, and vesicles violate the no-organelle-identity boundary."
+      }
     },
     {
       "queuePosition": 364,
@@ -9358,7 +9442,14 @@
       "route": "/article/cortisol",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-063",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Molecular and vessel models cross both outer 32-pixel fields, producing 609 dark outer-band pixels."
+      }
     },
     {
       "queuePosition": 365,
@@ -9497,7 +9588,14 @@
       "route": "/article/developmental-metal-vulnerability",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-064",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The output presents recognizable fetal facial, auricular, hand, foot, umbilical, placental, and uterine anatomy despite the frozen generic-silhouette requirement and explicit prohibition on a realistic fetus."
+      }
     },
     {
       "queuePosition": 372,
@@ -9552,7 +9650,14 @@
       "route": "/article/dietary-lead-exposure",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-065",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "A black top-and-bottom vignette violates the frozen uniform pale field, and recognizable egg, apple, yogurt, spinach, oats, and rice violate the generic food-matrix boundary."
+      }
     },
     {
       "queuePosition": 375,
@@ -9670,7 +9775,14 @@
       "route": "/article/dysmenorrhea",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-066",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "A severe black top-and-bottom vignette violates the uniform pale field; the wall surface is deeply folded rather than smooth; and the four requested plain spheres are lobulated cell clusters that can be mistaken for embryoid bodies."
+      }
     },
     {
       "queuePosition": 381,
@@ -9683,7 +9795,14 @@
       "route": "/article/edta",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-066",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Both forms use explicit ball-and-stick atom and bond language, while the closed form presents a specific cage-like coordination geometry around the sphere, violating the non-literal structure boundary."
+      }
     },
     {
       "queuePosition": 382,
@@ -9738,7 +9857,14 @@
       "route": "/article/endocrine-disruptors",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-066",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "A black vignette, colored halos, visible ball-and-stick atom and bond language, and ornate glass, geode, and cracked-rock spheres violate the pale-field, no-glow, non-literal-compound, restrained-material, and minimal-scene boundaries."
+      }
     },
     {
       "queuePosition": 385,
@@ -9772,7 +9898,14 @@
       "route": "/article/endotoxemia",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-067",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "The vessel contains only two detached LPS-context forms rather than the frozen exact count of three, and the composition enters the outer 32-pixel field on both horizontal sides."
+      }
     },
     {
       "queuePosition": 387,
@@ -9806,7 +9939,14 @@
       "route": "/article/environmental-metal-exposure",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-067",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Foreground and shadow reach the exact right edge, violating the frozen uninterrupted pale edge and crop-safe field requirement."
+      }
     },
     {
       "queuePosition": 389,
@@ -9819,7 +9959,14 @@
       "route": "/article/epigenetic-modifications",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "mechanisms-067",
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "disposition": "revise",
+        "reason": "Literal native output violates both the frozen four-bead count and smooth-undivided-core constraint."
+      }
     },
     {
       "queuePosition": 390,

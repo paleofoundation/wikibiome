@@ -2945,6 +2945,19 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
         .map((record) => record.id)
     : [];
   assert.deepEqual(program.nextBatch.map((record) => record.id), expectedNextBatch);
+  const unresolvedRejectedIds = new Set(
+    reviewLog.rejectedAssets
+      .filter((asset) => asset.disposition !== "scientific-identity-hold-resolved" && !["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition))
+      .map((asset) => asset.pageId),
+  );
+  assert.ok(!program.nextBatch.some((record) => unresolvedRejectedIds.has(record.id)), "deterministic nextBatch must skip every unresolved rejected or quarantined route");
+  for (const id of unresolvedRejectedIds) {
+    const queueRecord = program.queue.find((record) => record.id === id);
+    if (queueRecord && !articleMediaRegistry[id]) {
+      assert.equal(queueRecord.status, "rejected", `${id} remains explicitly rejected rather than silently requeued`);
+      assert.ok(queueRecord.rejectedMedia?.reason, `${id} retains its immutable rejection reason in the generated register`);
+    }
+  }
   assert.equal(program.current.completed, Object.keys(articleMediaRegistry).length);
   assert.equal(program.current.remaining, program.current.total - program.current.completed);
   assert.equal(program.current.rejected, reviewLog.rejectedAssets.length);

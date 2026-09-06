@@ -97,6 +97,12 @@ const scientificHolds = new Map(
     .filter((asset) => ["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition))
     .map((asset) => [asset.pageId, asset]),
 );
+const resolvedRejectionDispositions = new Set(["scientific-identity-hold-resolved"]);
+const rejectedRoutes = new Map(
+  reviewLog.rejectedAssets
+    .filter((asset) => !resolvedRejectionDispositions.has(asset.disposition) && !scientificHolds.has(asset.pageId))
+    .map((asset) => [asset.pageId, asset]),
+);
 const canonicalRouteIds = new Set(canonicalRoutes.map((route) => route.id));
 for (const hold of scientificHolds.values()) {
   if (!canonicalRouteIds.has(hold.pageId)) {
@@ -115,7 +121,7 @@ for (const manifest of batchManifests.filter(({ data }) => activeMediaReviewStat
 }
 const queue = canonicalRoutes.map((route) => ({
   ...route,
-  status: reviewedIds.has(route.id) ? "reviewed" : scientificHolds.has(route.id) ? "scientific-hold" : inReview.has(route.id) ? "in-review" : "queued",
+  status: reviewedIds.has(route.id) ? "reviewed" : scientificHolds.has(route.id) ? "scientific-hold" : inReview.has(route.id) ? "in-review" : rejectedRoutes.has(route.id) ? "rejected" : "queued",
   ...(reviewedIds.has(route.id)
     ? {
         media: {
@@ -145,6 +151,18 @@ const queue = canonicalRoutes.map((route) => ({
               sha256: inReview.get(route.id).sha256,
             },
           }
+        : rejectedRoutes.has(route.id)
+          ? {
+              rejectedMedia: {
+                batchId: rejectedRoutes.get(route.id).batchId,
+                reviewedOn: rejectedRoutes.get(route.id).reviewedOn,
+                reviewingAuthority: rejectedRoutes.get(route.id).reviewingAuthority,
+                disposition: rejectedRoutes.get(route.id).disposition,
+                reason: rejectedRoutes.get(route.id).reason,
+                ...(rejectedRoutes.get(route.id).requiredResolution ? { requiredResolution: rejectedRoutes.get(route.id).requiredResolution } : {}),
+                ...(rejectedRoutes.get(route.id).supersededBy ? { supersededBy: rejectedRoutes.get(route.id).supersededBy } : {}),
+              },
+            }
         : {}),
 }));
 
