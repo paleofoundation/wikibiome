@@ -31,6 +31,17 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 4,
   "revisionCount": 0,
+  "controlAcceptedReviewManifestSha256": "1e5dd376df3cb8e728bf15ff62e759ecdb8b7d36af7e758a1a781f0aaaf38436",
+  "controlAcceptedPromptEvidenceSha256": "674021f3709bc2740f5859281896fd8be715e95df3d553f9b18daf706a97dd1d",
+  "controlFinalReview": {
+    "status": "accepted-two-exact-hashes-four-quarantined",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "8586b9a39f8b3d4f0a375d6fa42d165897af2628",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["bacteriophages", "bile-acid-metabolism"],
+    "acceptedSourceSha256": ["f2ba7539d55a4134dce364f71673e051e7110f76f10ff830513b3967435ef6e1", "b0e6f15433fecc524f249caf5f1825d40926129143ead02c466675bd7c8bc430"],
+    "nonPublishablePageIds": ["bacterial-vaginosis", "bdnf", "beta-glucuronidase", "beta-lactamase"]
+  },
   "assets": [
     {"pageId":"bacterial-vaginosis","displayName":"Bacterial Vaginosis","proposedAssetType":"mechanism","revision":1,"decision":"rejected-after-output-audit","generationStatus":"quarantined-single-call","rootReviewDisposition":"ineligible","draft":"work/media-drafts/mechanisms-batch-060/bacterial-vaginosis-draft.png","generationRecord":"exec-a96d4563-69d0-4b34-81c4-5b84776fe4c2.png","controlledIdentifier":"MeSH:D016585","promptSha256":"1649c1b1e963d88368051be7dbf3a7ca937338537456fe6ff8233a77aea4bf88","sha256":"8411aac4c940c21ffd02f3a4138578b255e3dec483c87c3c0ca4d75daf7d36e2","fileSizeBytes":1707834,"dimensions":{"width":1536,"height":1024},"scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D016585"],"visualReview":"Tissue cutaway, five uniform long rods, and ten mixed forms: six short rods, two curved rods, and two cocci.","quarantineReason":"The immutable prompt required exactly six uniform long rods; only five are visible."},
     {"pageId":"bacteriophages","displayName":"Bacteriophages","proposedAssetType":"mechanism","revision":1,"decision":"approved-after-output-audit","generationStatus":"complete-single-call","rootReviewDisposition":"accepted","draft":"work/media-drafts/mechanisms-batch-060/bacteriophages-draft.png","generationRecord":"exec-a4891c4b-ea7f-4f3e-9ed8-af769bb370b0.png","controlledIdentifier":"MeSH:D001435","promptSha256":"305f0cb9b491511196c6e9b79e9c735adfd6f2ca6cdab14d4092e217c7761912","sha256":"f2ba7539d55a4134dce364f71673e051e7110f76f10ff830513b3967435ef6e1","fileSizeBytes":1756090,"dimensions":{"width":1536,"height":1024},"proposedSocialResizeFit":"contain","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D001435"],"visualReview":"Three complete separated virion models: tailed icosahedral, filamentous, and small tailless icosahedral forms; no host, contact, labels, or clipping."},
