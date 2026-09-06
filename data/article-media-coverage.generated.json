@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "76ed012c3f1021ad9b8d1a34f34da037524f0d9207c02ff3b2f00bbe0371fbdd",
+    "registrySha256": "2fd6b27c5c5d6dced342a190381e88eb73316c20d9c3a3245e8774470cc27d1b",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "c42cc17ce77a5211de75b246b756a3641387bc9aaa9d2345622ba49739739a57",
+    "reviewLogSha256": "0f0dad32eac56f8f1993508ef0befa668265312ef54faa4fa4d9fbf3ccac3457",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -82,7 +82,7 @@
         "file": "data/article-media-batches/diseases-068.json",
         "batchId": "diseases-068",
         "status": "reviewed",
-        "sha256": "0ed91842520e86c0273fd4ccd717a8ca71bef00f521ae01c75d5da9a19381a01"
+        "sha256": "9e9074e48ef847580d00d9fe6edfe143fb17fc3b473f80a86959041c7917d2ad"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -440,10 +440,10 @@
   },
   "current": {
     "total": 710,
-    "completed": 353,
-    "remaining": 357,
+    "completed": 354,
+    "remaining": 356,
     "rejected": 54,
-    "revised": 11,
+    "revised": 12,
     "scientificHolds": 15,
     "inReview": 0
   },
@@ -466,8 +466,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 65,
-      "remaining": 1
+      "completed": 66,
+      "remaining": 0
     },
     {
       "id": "mechanisms",
@@ -1726,17 +1726,74 @@
       "reason": "Control Tower rejected revision 1 because its terminal heads read as externally beaded or conidial clusters rather than smoothly bounded globose sporangia, while numerous transverse bands weakened the intended mainly coenocytic treatment.",
       "supersededBy": "work/media-drafts/microorganisms-batch-027/mortierella-draft-v2.png",
       "outcome": "Exactly one authorized revision-2 call produced three smooth closed globose sporangia with internally contained rounded bodies and no external spore cluster. Native review accepted v2 for later promotion while requiring disclosure of eleven output-specific transverse tonal seams. Revision 1 remains immutable rejected evidence and owns no public media artifact."
+    },
+    {
+      "pageId": "multiple-sclerosis",
+      "batchId": "diseases-068",
+      "draft": "work/media-drafts/diseases-batch-053/multiple-sclerosis-draft.png",
+      "sha256": "e9feb7d5ee2e33799fa9bad319e3ca7fea484897e38ec575051fed4f90d99b18",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 053 revision 1 was rejected because its principal myelinated-axon model was severed at the top, right, and bottom source edges.",
+      "supersededBy": "work/media-drafts/diseases-batch-068/multiple-sclerosis-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced three complete normal-anatomy teaching groups within an uninterrupted pale edge field: a brain and upper-spinal assembly, a transverse spinal-cord section, and a finite axon with four intact sheath internodes and three natural node gaps. Dual native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     }
   ],
   "nextBatch": [
     {
-      "queuePosition": 302,
-      "id": "multiple-sclerosis",
-      "title": "Multiple Sclerosis",
-      "route": "/article/multiple-sclerosis",
-      "category": "disease",
-      "coverageGroup": "diseases",
-      "suggestedAssetType": "pathology"
+      "queuePosition": 339,
+      "id": "atherosclerosis",
+      "title": "Atherosclerosis",
+      "route": "/article/atherosclerosis",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 341,
+      "id": "bacteremia",
+      "title": "Bacteremia",
+      "route": "/article/bacteremia",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 343,
+      "id": "bacterial-vaginosis",
+      "title": "Bacterial Vaginosis",
+      "route": "/article/bacterial-vaginosis",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 345,
+      "id": "bdnf",
+      "title": "BDNF (Brain-Derived Neurotrophic Factor)",
+      "route": "/article/bdnf",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 346,
+      "id": "beta-glucuronidase",
+      "title": "Beta-Glucuronidase",
+      "route": "/article/beta-glucuronidase",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 347,
+      "id": "beta-lactamase",
+      "title": "Beta-Lactamase",
+      "route": "/article/beta-lactamase",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
     }
   ],
   "queue": [
@@ -8079,7 +8136,15 @@
       "route": "/article/multiple-sclerosis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 2,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "multiple-sclerosis-pathology-v2-master.png",
+        "publishedFile": "multiple-sclerosis-pathology-v2.webp",
+        "socialFile": "multiple-sclerosis-pathology-v2-social.webp"
+      }
     },
     {
       "queuePosition": 303,
