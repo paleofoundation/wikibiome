@@ -121,3 +121,12 @@ Scientific references:
 - https://pubmed.ncbi.nlm.nih.gov/8640307/
 
 Only the four marked prompt blocks may enter prompt-freeze and generation. The two held routes must remain asset-free until their editorial conflicts are resolved and independently re-audited. Every generated result remains review-only until literal native-resolution inspection, immutable exact hashes, separate Control Tower acceptance, metadata reconciliation, derivative crop review, and full release gates are complete.
+
+## Frozen prompt hashes
+
+- `gut-kidney-axis`: `769671b3ef3cd097446dd5993041a0f36383cf90734af5730e8a0061bd58ca38`
+- `gut-metal-microbiome`: `a7c41d7327deecd23fc0b65fe26e805ca935027fb91cda8a714470981c66c13b`
+- `gut-penis-axis`: no prompt; scientific-media hold.
+- `gut-prostate-axis`: `3731609ad9d39293715c2dd2b465c4f4ceaf6163f38a0eecea87b97345b68f8d`
+- `gut-testis-axis`: no prompt; scientific-media hold.
+- `gut-thyroid-axis`: `b43e0cb9322581ab5651b4f2fb640ce6cd4a14f7099bb90de6b00af09394e70b`
