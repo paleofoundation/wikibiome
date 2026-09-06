@@ -11324,6 +11324,192 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "cephalosporin|cephalosporin-mechanism-v1.webp": {
+      "pageId": "cephalosporin",
+      "publishedFile": "cephalosporin-mechanism-v1.webp",
+      "masterSource": "cephalosporin-mechanism-v1-master.png",
+      "socialFile": "cephalosporin-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D002511",
+          "https://www.wikibiome.com/article/cephalosporin"
+        ],
+        "notes": "MeSH controls antibiotic-class identity; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete separated generic fused-ring family tokens differ peripherally and make no named-drug or generation claim."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption distinguish generic class orientation from literal chemistry, susceptibility, resistance, dosing, efficacy, allergy, and treatment guidance."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "ceruloplasmin|ceruloplasmin-mechanism-v1.webp": {
+      "pageId": "ceruloplasmin",
+      "publishedFile": "ceruloplasmin-mechanism-v1.webp",
+      "masterSource": "ceruloplasmin-mechanism-v1-master.png",
+      "socialFile": "ceruloplasmin-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/P00450/entry",
+          "https://www.wikibiome.com/article/ceruloplasmin"
+        ],
+        "notes": "Reviewed UniProt controls human protein identity and broad metal context; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "One six-lobed protein form, six copper-context spheres, and two iron-context spheres remain complete, separate, and non-reactive."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude literal structure, occupancy, oxidation state, catalysis, assay, disease, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "chelation-therapy|chelation-therapy-mechanism-v1.webp": {
+      "pageId": "chelation-therapy",
+      "publishedFile": "chelation-therapy-mechanism-v1.webp",
+      "masterSource": "chelation-therapy-mechanism-v1-master.png",
+      "socialFile": "chelation-therapy-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D015913",
+          "https://www.wikibiome.com/article/chelation-therapy"
+        ],
+        "notes": "MeSH controls therapy identity; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Open ligand, isolated sphere, and closed ligand-and-sphere model remain complete and separated without clinical procedure or result."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude named chelator, clinical delivery, indication, efficacy, safety, dosing, and recommendation inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "chitotriosidase|chitotriosidase-mechanism-v1.webp": {
+      "pageId": "chitotriosidase",
+      "publishedFile": "chitotriosidase-mechanism-v1.webp",
+      "masterSource": "chitotriosidase-mechanism-v1-master.png",
+      "socialFile": "chitotriosidase-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/Q13231/entry",
+          "https://www.wikibiome.com/article/chitotriosidase"
+        ],
+        "notes": "Reviewed UniProt controls human enzyme identity and chitinase context; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "One complete two-domain form, one six-unit chain, and two three-unit chains remain complete; the source clears the 32-pixel field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude literal structure, catalytic observation, direct metal catalysis, disease marker, laboratory result, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "co-selection|co-selection-mechanism-v1.webp": {
+      "pageId": "co-selection",
+      "publishedFile": "co-selection-mechanism-v1.webp",
+      "masterSource": "co-selection-mechanism-v1-master.png",
+      "socialFile": "co-selection-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/16537105/",
+          "https://www.wikibiome.com/article/co-selection"
+        ],
+        "notes": "PubMed review controls the co-selection umbrella and mechanism boundary; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "DNA, metal, and ring-context groups remain separated with no asserted linkage, transfer, selection sequence, or phenotype."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption explicitly prevent juxtaposition from being read as genetic linkage, mechanism, phenotype, prevalence, or causality."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "colonization-resistance|colonization-resistance-mechanism-v1.webp": {
+      "pageId": "colonization-resistance",
+      "publishedFile": "colonization-resistance-mechanism-v1.webp",
+      "masterSource": "colonization-resistance-mechanism-v1-master.png",
+      "socialFile": "colonization-resistance-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/23240815/",
+          "https://www.wikibiome.com/article/colonization-resistance"
+        ],
+        "notes": "PubMed review controls the microbiota-and-host phenomenon boundary; WikiBiome controls article scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Intact epithelium, a six-form resident group, and two outside rods remain separate, complete, and non-interacting."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude species, pathogen, universal composition, abundance, exclusion mechanism, infection, biomarker, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [

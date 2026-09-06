@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "10f587695a265f7d971eab750f6dd15fcf7ef00c7086eeff561b3f9f0819bc42",
+    "registrySha256": "e9f33edcb14025511cf14b3f24a82a6d798c6a405039e9454be9232291f3faa0",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "3f41bbd53c718a92df4d9e1cadad3b199aa14f6f096be6126a3a6e7ee3b1fae2",
+    "reviewLogSha256": "544e0ba89e99339c440401283a34f646abd047ea21b6cb457eb95cd25ff3c3be",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -112,7 +112,7 @@
         "file": "data/article-media-batches/mechanisms-062.json",
         "batchId": "mechanisms-062",
         "status": "reviewed",
-        "sha256": "29e05f6ac29312c1e8dfb4ba34e8653a66ecae6595722794bbd89a8a147222dd"
+        "sha256": "39264258fc8806c8833d7fc539b18db61539ac7766f2c198c8b96b8e6d10a360"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -404,8 +404,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 328,
-    "remaining": 382,
+    "completed": 334,
+    "remaining": 376,
     "rejected": 43,
     "revised": 11,
     "scientificHolds": 15,
@@ -437,8 +437,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 20,
-      "remaining": 213
+      "completed": 26,
+      "remaining": 207
     },
     {
       "id": "host-defenses",
@@ -8875,7 +8875,15 @@
       "route": "/article/cephalosporin",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cephalosporin-mechanism-v1-master.png",
+        "publishedFile": "cephalosporin-mechanism-v1.webp",
+        "socialFile": "cephalosporin-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 356,
@@ -8888,7 +8896,15 @@
       "route": "/article/ceruloplasmin",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "ceruloplasmin-mechanism-v1-master.png",
+        "publishedFile": "ceruloplasmin-mechanism-v1.webp",
+        "socialFile": "ceruloplasmin-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 357,
@@ -8902,7 +8918,15 @@
       "route": "/article/chelation-therapy",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "chelation-therapy-mechanism-v1-master.png",
+        "publishedFile": "chelation-therapy-mechanism-v1.webp",
+        "socialFile": "chelation-therapy-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 358,
@@ -8915,7 +8939,15 @@
       "route": "/article/chitotriosidase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "chitotriosidase-mechanism-v1-master.png",
+        "publishedFile": "chitotriosidase-mechanism-v1.webp",
+        "socialFile": "chitotriosidase-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 359,
@@ -8928,7 +8960,15 @@
       "route": "/article/co-selection",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "co-selection-mechanism-v1-master.png",
+        "publishedFile": "co-selection-mechanism-v1.webp",
+        "socialFile": "co-selection-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 360,
@@ -8941,7 +8981,15 @@
       "route": "/article/colonization-resistance",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "colonization-resistance-mechanism-v1-master.png",
+        "publishedFile": "colonization-resistance-mechanism-v1.webp",
+        "socialFile": "colonization-resistance-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 361,
