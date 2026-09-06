@@ -79,6 +79,12 @@
         "sha256": "7ba375c16880014c343f23529b11c73c99e05e2a3df1c094e6671ebd0c241644"
       },
       {
+        "file": "data/article-media-batches/diseases-068.json",
+        "batchId": "diseases-068",
+        "status": "prompt-frozen",
+        "sha256": "4daf42e944b2bc32238f5bb1e9d741055027543ba70652a8a5cead16443cc8d7"
+      },
+      {
         "file": "data/article-media-batches/mechanisms-057.json",
         "batchId": "mechanisms-057",
         "status": "reviewed",
