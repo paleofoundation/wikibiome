@@ -4,7 +4,7 @@ title: Helicobacter pylori
 type: entity
 subtype: microbe
 created: 2026-04-09
-updated: 2026-04-11
+updated: 2026-09-06
 sources:
   - sugihartono-2022-gastric-microbiota-hpylori-gerd
   - chen-2023-hpylori-antibodies-gerd-mendelian-study
@@ -26,19 +26,19 @@ pathogenic_potential: obligate
 
 # Helicobacter pylori
 
-A gastric pathogen that is arguably the most nickel-dependent human pathogen known. Two of its key virulence factors — urease and [NiFe] hydrogenase — require [[nickel]], and the bacterium has evolved an elaborate nickel trafficking, storage, and regulation system to support them.
+A gastric pathogen that is arguably the most nickel-dependent human pathogen known. Two of its key virulence factors — [[urease]] and [NiFe] [[hydrogenase]] — require [[nickel]], and the bacterium has evolved an elaborate nickel trafficking, storage, and regulation system to support them.
 
 ## Nickel-Dependent Virulence Factors
 
 ### Urease
 - Up to 10% of total proteome.
-- Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.
+- Essential for in vivo survival: hydrolyzes [[urea]] → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.
 - Roles beyond acid neutralization [[maier-2019-nickel-microbial-pathogenesis]]:
  - Required for persistence even at neutral gastric pH.
  - Promotes angiogenesis.
  - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).
  - Binds Class II MHC on gastric epithelial cells → induces apoptosis.
- - Disrupts epithelial tight junctions (via ammonia production → myosin activation).
+ - Disrupts [[tight-junctions|epithelial tight junctions]] (via ammonia production → myosin activation).
  - Activates blood platelets (lipoxygenase-mediated pathway).
  - Alters mucin gene expression.
 
@@ -56,12 +56,12 @@ A gastric pathogen that is arguably the most nickel-dependent human pathogen kno
 ## Nickel Trafficking System
 
 ### Transport
-- NiuBDE (ABC-type): the only transporter operating at both acidic and neutral pH. Can also transport cobalt/bismuth (relevant to bismuth-based eradication therapy).
+- [[nickel-transporters|NiuBDE]] (ABC-type): the only transporter operating at both acidic and neutral pH. Can also transport cobalt/bismuth (relevant to bismuth-based eradication therapy).
 - NixA (NiCoT-type): secondary, Ni-only. Required in vivo (nixA mutants cannot colonize mouse stomachs) but nixA mutants retain some colonization in other models.
 - TonB-dependent FrpB4 for outer membrane transport.
 
 ### Storage
-- Hpn: 47% histidine, 20-mer binding 5 Ni(II)/monomer. Present in all gastric *Helicobacter*. Primary nickel reservoir.
+- Hpn: 47% [[histidine]], 20-mer binding 5 Ni(II)/monomer. Present in all gastric *Helicobacter*. Primary nickel reservoir.
 - HpnI (Hpn-like): 25% histidine. Restricted to *H. pylori* and *H. acinonychis*.
 - Both compete for nickel under limiting conditions.
 - Recent discovery: storage proteins interact with a wide array of metabolic proteins — AmiE (aliphatic amidase), PepA (aminopeptidase), and maturation proteins. Suggests a central hub role in nickel metabolism far beyond simple storage.
@@ -76,8 +76,8 @@ A gastric pathogen that is arguably the most nickel-dependent human pathogen kno
 ## Clinical Significance
 
 - Infects ~50% of the global population.
-- Causes gastritis, peptic ulcers, gastric adenocarcinoma, MALT lymphoma.
-- Eradication therapy often includes bismuth — which competes with nickel transport via NiuBDE [[maier-2019-nickel-microbial-pathogenesis]].
+- Causes gastritis, [[gastric-ulcer|peptic ulcers]], [[gastric-adenocarcinoma]], and MALT lymphoma.
+- Eradication therapy often includes [[bismuth]] — which competes with nickel transport via NiuBDE [[maier-2019-nickel-microbial-pathogenesis]].
 - HspA (GroES homolog with His-rich Ni-binding C-terminus) has been explored as a vaccine candidate — partial protection in mice via intranasal administration.
 
 ## Connections

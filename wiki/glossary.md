@@ -2,7 +2,7 @@
 title: Glossary
 type: reference
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-06
 platform: wikibiome
 ---
 
@@ -109,6 +109,8 @@ Alphabetical definitions of specialist terms used throughout this wiki. Where a 
 **TMAO (trimethylamine N-oxide)** -- A microbiome-derived metabolite produced from dietary choline, carnitine, and betaine via microbial TMA lyases and hepatic FMO3 oxidation. Elevated TMAO promotes [[atherosclerosis]] and [[cardiovascular-disease]]. See [[tmao]].
 
 **Transferrin** -- The primary iron transport protein in plasma, binding two Fe3+ ions with high affinity. Transferrin saturation is a clinical marker of iron status; low saturation indicates deficiency, high saturation indicates overload risk. See [[transferrin]].
+
+**Urea** -- See [[urea]] for a sourced explanation of how urea differs from urease and the urea cycle, and how it appears in microbial and gut-kidney contexts.
 
 **Urease** -- A nickel-dependent metalloenzyme that hydrolyzes urea to ammonia and CO2. Critical for [[helicobacter-pylori]] gastric acid neutralization, [[proteus-mirabilis]] urinary stone formation, and [[klebsiella-pneumoniae]] GI colonization. See [[urease]].
 

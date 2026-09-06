@@ -2,7 +2,7 @@
 title: Urease
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-06
 sources: [maier-2019-nickel-microbial-pathogenesis.md, pendergrass-2026-nickel-nec-preterm-gut.md, campanale-2014-nickel-free-diet-h-pylori.md, pendergrass-2026-fertilizers-heavy-metals-historical.md, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md, akbari-2022-metal-homeostasis-streptococci.md]
 source_count: 6
 tags: [nickel-enzyme, urease, virulence, acid-resistance, biofilm, urinary-stones, NEC, H-pylori, nickel, metalloenzyme]
@@ -18,7 +18,7 @@ The most widespread [[nickel]]-dependent virulence factor across human pathogens
 
 ## Biochemistry
 
-Urease (EC 3.5.1.5) catalyzes the hydrolysis of urea into ammonia and bicarbonate:
+Urease (EC 3.5.1.5) catalyzes the hydrolysis of [[urea]] into ammonia and bicarbonate:
 
 > (NH2)2CO + H2O --> 2 NH3 + CO2 (spontaneously: NH3 + H2O --> NH4+ + OH-; CO2 + H2O --> HCO3- + H+)
 

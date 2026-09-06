@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-01T18:15:42.888Z",
+  "_generated": "2026-09-06T18:52:32.790Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
     "entities": 328,
-    "concepts": 264,
+    "concepts": 265,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 863
+    "totalPages": 864
   },
   "pages": [
     {
@@ -9967,12 +9967,13 @@
       "isStub": false,
       "backlinks": [
         "gallium",
+        "helicobacter-pylori",
         "stop-zinc-supplementation-h-pylori"
       ],
       "related": [
         {
           "id": "nutritional-immunity",
-          "score": 7
+          "score": 9
         },
         {
           "id": "cephalosporin",
@@ -15935,6 +15936,7 @@
         "phenylalanine",
         "ruminococcaceae",
         "synbiotics",
+        "urea",
         "uremic-toxins",
         "zonulin",
         "long-covid",
@@ -29718,6 +29720,7 @@
       "isStub": false,
       "backlinks": [
         "gastric-ulcer",
+        "helicobacter-pylori",
         "nickel-transporters",
         "nickel-urease",
         "nife-hydrogenase",
@@ -29726,15 +29729,23 @@
       "related": [
         {
           "id": "nutritional-immunity",
-          "score": 15
+          "score": 17
         },
         {
           "id": "metal-dependent-virulence",
-          "score": 13
+          "score": 15
         },
         {
           "id": "gastric-cancer",
-          "score": 9
+          "score": 11
+        },
+        {
+          "id": "hydrogenase",
+          "score": 11
+        },
+        {
+          "id": "urease",
+          "score": 11
         },
         {
           "id": "klebsiella-pneumoniae",
@@ -29745,15 +29756,7 @@
           "score": 9
         },
         {
-          "id": "hydrogenase",
-          "score": 9
-        },
-        {
-          "id": "lactoferrin",
-          "score": 9
-        },
-        {
-          "id": "urease",
+          "id": "histidine",
           "score": 9
         }
       ]
@@ -30114,6 +30117,7 @@
       "isStub": false,
       "backlinks": [
         "gastric-adenocarcinoma",
+        "helicobacter-pylori",
         "nickel-transporters",
         "nickel-urease",
         "nife-hydrogenase",
@@ -30125,11 +30129,15 @@
           "score": 17
         },
         {
+          "id": "metal-dependent-virulence",
+          "score": 12
+        },
+        {
           "id": "staphylococcus-aureus",
           "score": 11
         },
         {
-          "id": "metal-dependent-virulence",
+          "id": "urease",
           "score": 10
         },
         {
@@ -30146,10 +30154,6 @@
         },
         {
           "id": "biofilm",
-          "score": 8
-        },
-        {
-          "id": "nickel-urease",
           "score": 8
         }
       ]
@@ -32140,13 +32144,13 @@
         "campanale-2014-nickel-free-diet-h-pylori"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-11T00:00:00.000Z",
+      "updated": "2026-09-06T00:00:00.000Z",
       "frontmatter": {
         "title": "Helicobacter pylori",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-11T00:00:00.000Z",
+        "updated": "2026-09-06T00:00:00.000Z",
         "sources": [
           "sugihartono-2022-gastric-microbiota-hpylori-gerd",
           "chen-2023-hpylori-antibodies-gerd-mendelian-study",
@@ -32188,7 +32192,7 @@
         "conditions_depleted_in": [],
         "pathogenic_potential": "obligate"
       },
-      "overview": "A gastric pathogen that is arguably the most nickel-dependent human pathogen known. Two of its key virulence factors — urease and [NiFe] hydrogenase — require [[nickel]], and the bacterium has evolved an elaborate nickel trafficking, storage, and regulation system to support them.",
+      "overview": "A gastric pathogen that is arguably the most nickel-dependent human pathogen known. Two of its key virulence factors — [[urease]] and [NiFe] [[hydrogenase]] — require [[nickel]], and the bacterium has evolved an elaborate nickel trafficking, storage, and regulation system to support them.",
       "sections": [
         {
           "heading": "Nickel-Dependent Virulence Factors",
@@ -32198,7 +32202,7 @@
         {
           "heading": "Urease",
           "level": 3,
-          "body": "- Up to 10% of total proteome.\n- Essential for in vivo survival: hydrolyzes urea → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.\n- Roles beyond acid neutralization [[maier-2019-nickel-microbial-pathogenesis]]:\n - Required for persistence even at neutral gastric pH.\n - Promotes angiogenesis.\n - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).\n - Binds Class II MHC on gastric epithelial cells → induces apoptosis.\n - Disrupts epithelial tight junctions (via ammonia production → myosin activation).\n - Activates blood platelets (lipoxygenase-mediated pathway).\n - Alters mucin gene expression.\n\n - Holo-urease (Ni-bound): catalytic urea hydrolysis + non-catalytic oxidant quenching (Met/Met-sulfoxide cycle with MSR repair).\n - Apo-urease (Ni-free): retains only oxidant-quenching activity.\n - Only 2-25% of urease is actually nickel-activated; the rest may serve the antioxidant role."
+          "body": "- Up to 10% of total proteome.\n- Essential for in vivo survival: hydrolyzes [[urea]] → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.\n- Roles beyond acid neutralization [[maier-2019-nickel-microbial-pathogenesis]]:\n - Required for persistence even at neutral gastric pH.\n - Promotes angiogenesis.\n - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).\n - Binds Class II MHC on gastric epithelial cells → induces apoptosis.\n - Disrupts [[tight-junctions|epithelial tight junctions]] (via ammonia production → myosin activation).\n - Activates blood platelets (lipoxygenase-mediated pathway).\n - Alters mucin gene expression.\n\n - Holo-urease (Ni-bound): catalytic urea hydrolysis + non-catalytic oxidant quenching (Met/Met-sulfoxide cycle with MSR repair).\n - Apo-urease (Ni-free): retains only oxidant-quenching activity.\n - Only 2-25% of urease is actually nickel-activated; the rest may serve the antioxidant role."
         },
         {
           "heading": "[NiFe] Hydrogenase",
@@ -32213,12 +32217,12 @@
         {
           "heading": "Transport",
           "level": 3,
-          "body": "- NiuBDE (ABC-type): the only transporter operating at both acidic and neutral pH. Can also transport cobalt/bismuth (relevant to bismuth-based eradication therapy).\n- NixA (NiCoT-type): secondary, Ni-only. Required in vivo (nixA mutants cannot colonize mouse stomachs) but nixA mutants retain some colonization in other models.\n- TonB-dependent FrpB4 for outer membrane transport."
+          "body": "- [[nickel-transporters|NiuBDE]] (ABC-type): the only transporter operating at both acidic and neutral pH. Can also transport cobalt/bismuth (relevant to bismuth-based eradication therapy).\n- NixA (NiCoT-type): secondary, Ni-only. Required in vivo (nixA mutants cannot colonize mouse stomachs) but nixA mutants retain some colonization in other models.\n- TonB-dependent FrpB4 for outer membrane transport."
         },
         {
           "heading": "Storage",
           "level": 3,
-          "body": "- Hpn: 47% histidine, 20-mer binding 5 Ni(II)/monomer. Present in all gastric *Helicobacter*. Primary nickel reservoir.\n- HpnI (Hpn-like): 25% histidine. Restricted to *H. pylori* and *H. acinonychis*.\n- Both compete for nickel under limiting conditions.\n- Recent discovery: storage proteins interact with a wide array of metabolic proteins — AmiE (aliphatic amidase), PepA (aminopeptidase), and maturation proteins. Suggests a central hub role in nickel metabolism far beyond simple storage."
+          "body": "- Hpn: 47% [[histidine]], 20-mer binding 5 Ni(II)/monomer. Present in all gastric *Helicobacter*. Primary nickel reservoir.\n- HpnI (Hpn-like): 25% histidine. Restricted to *H. pylori* and *H. acinonychis*.\n- Both compete for nickel under limiting conditions.\n- Recent discovery: storage proteins interact with a wide array of metabolic proteins — AmiE (aliphatic amidase), PepA (aminopeptidase), and maturation proteins. Suggests a central hub role in nickel metabolism far beyond simple storage."
         },
         {
           "heading": "Regulation",
@@ -32233,7 +32237,7 @@
         {
           "heading": "Clinical Significance",
           "level": 2,
-          "body": "- Infects ~50% of the global population.\n- Causes gastritis, peptic ulcers, gastric adenocarcinoma, MALT lymphoma.\n- Eradication therapy often includes bismuth — which competes with nickel transport via NiuBDE [[maier-2019-nickel-microbial-pathogenesis]].\n- HspA (GroES homolog with His-rich Ni-binding C-terminus) has been explored as a vaccine candidate — partial protection in mice via intranasal administration."
+          "body": "- Infects ~50% of the global population.\n- Causes gastritis, [[gastric-ulcer|peptic ulcers]], [[gastric-adenocarcinoma]], and MALT lymphoma.\n- Eradication therapy often includes [[bismuth]] — which competes with nickel transport via NiuBDE [[maier-2019-nickel-microbial-pathogenesis]].\n- HspA (GroES homolog with His-rich Ni-binding C-terminus) has been explored as a vaccine candidate — partial protection in mice via intranasal administration."
         },
         {
           "heading": "Connections",
@@ -32242,9 +32246,18 @@
         }
       ],
       "wikilinks": [
+        "urease",
+        "hydrogenase",
         "nickel",
+        "urea",
         "acidic-microenvironment",
         "maier-2019-nickel-microbial-pathogenesis",
+        "tight-junctions",
+        "nickel-transporters",
+        "histidine",
+        "gastric-ulcer",
+        "gastric-adenocarcinoma",
+        "bismuth",
         "metal-dependent-virulence",
         "nutritional-immunity",
         "metal-carcinogenesis",
@@ -32311,6 +32324,7 @@
         "pathogen-metal-acquisition",
         "srna",
         "transferrin",
+        "urea",
         "urease",
         "virulence-factors",
         "alzheimers-disease-signature",
@@ -32348,16 +32362,16 @@
           "score": 35
         },
         {
-          "id": "urease",
-          "score": 33
-        },
-        {
           "id": "candida-albicans",
           "score": 31
         },
         {
           "id": "copper",
           "score": 28
+        },
+        {
+          "id": "salmonella-typhimurium",
+          "score": 27
         }
       ]
     },
@@ -46390,6 +46404,7 @@
         "thyroid-autoimmunity",
         "tlr4",
         "tnf-alpha",
+        "urea",
         "urease",
         "vitamin-b12",
         "gerd",
@@ -69771,6 +69786,10 @@
           "score": 14
         },
         {
+          "id": "urease",
+          "score": 14
+        },
+        {
           "id": "copper",
           "score": 12
         },
@@ -69784,10 +69803,6 @@
         },
         {
           "id": "inflammation",
-          "score": 12
-        },
-        {
-          "id": "urease",
           "score": 12
         },
         {
@@ -86598,12 +86613,13 @@
         "chronic-kidney-disease",
         "diabetic-kidney-disease",
         "hepatitis",
+        "urea",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
           "id": "uremic-toxins",
-          "score": 21
+          "score": 23
         },
         {
           "id": "indoxyl-sulfate",
@@ -88904,6 +88920,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "helicobacter-pylori",
         "phenylalanine",
         "transferrin",
         "broken-links-2026-04-16"
@@ -88914,31 +88931,31 @@
           "score": 11
         },
         {
+          "id": "metal-dependent-virulence",
+          "score": 11
+        },
+        {
+          "id": "nutritional-immunity",
+          "score": 11
+        },
+        {
+          "id": "nickel-transporters",
+          "score": 10
+        },
+        {
+          "id": "urease",
+          "score": 10
+        },
+        {
+          "id": "gastric-adenocarcinoma",
+          "score": 9
+        },
+        {
           "id": "lactoferrin",
           "score": 9
         },
         {
-          "id": "metal-dependent-virulence",
-          "score": 9
-        },
-        {
-          "id": "nutritional-immunity",
-          "score": 9
-        },
-        {
           "id": "autism-spectrum-disorder",
-          "score": 8
-        },
-        {
-          "id": "epigenetic-modifications",
-          "score": 8
-        },
-        {
-          "id": "nickel-transporters",
-          "score": 8
-        },
-        {
-          "id": "urease",
           "score": 8
         }
       ]
@@ -89752,6 +89769,7 @@
         "campylobacter-jejuni",
         "gastric-cancer",
         "helicobacter-hepaticus",
+        "helicobacter-pylori",
         "mycobacterium-tuberculosis",
         "nickel",
         "shigella-flexneri",
@@ -97787,7 +97805,7 @@
       "related": [
         {
           "id": "urease",
-          "score": 38
+          "score": 40
         },
         {
           "id": "calprotectin",
@@ -97798,12 +97816,12 @@
           "score": 34
         },
         {
-          "id": "siderophores",
-          "score": 30
+          "id": "hydrogenase",
+          "score": 31
         },
         {
-          "id": "hydrogenase",
-          "score": 29
+          "id": "siderophores",
+          "score": 30
         },
         {
           "id": "candida-albicans",
@@ -103384,6 +103402,7 @@
       "backlinks": [
         "gastric-adenocarcinoma",
         "gastric-ulcer",
+        "helicobacter-pylori",
         "nickel-glyoxalase",
         "nickel-urease",
         "broken-links-2026-04-16"
@@ -103391,35 +103410,35 @@
       "related": [
         {
           "id": "urease",
-          "score": 14
+          "score": 16
         },
         {
           "id": "metal-dependent-virulence",
-          "score": 13
+          "score": 15
+        },
+        {
+          "id": "hydrogenase",
+          "score": 12
         },
         {
           "id": "pathogen-metal-acquisition",
           "score": 12
         },
         {
-          "id": "hydrogenase",
+          "id": "gerd",
+          "score": 10
+        },
+        {
+          "id": "histidine",
+          "score": 10
+        },
+        {
+          "id": "gerd",
           "score": 10
         },
         {
           "id": "low-nickel-diet",
           "score": 10
-        },
-        {
-          "id": "metal-sensing",
-          "score": 9
-        },
-        {
-          "id": "mis-metallation",
-          "score": 9
-        },
-        {
-          "id": "gerd",
-          "score": 8
         }
       ]
     },
@@ -113699,12 +113718,17 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "helicobacter-pylori",
         "epigenetic-modifications"
       ],
       "related": [
         {
           "id": "gut-barrier-dysfunction",
           "score": 11
+        },
+        {
+          "id": "nickel",
+          "score": 10
         },
         {
           "id": "lipopolysaccharide",
@@ -113716,10 +113740,6 @@
         },
         {
           "id": "chronic-kidney-disease",
-          "score": 8
-        },
-        {
-          "id": "nickel",
           "score": 8
         },
         {
@@ -115297,6 +115317,152 @@
       ]
     },
     {
+      "id": "urea",
+      "title": "Urea",
+      "type": "concept",
+      "category": "mechanism",
+      "tags": [
+        "urea",
+        "urease",
+        "nitrogen-metabolism",
+        "ammonia",
+        "urea-cycle",
+        "gut-kidney-axis",
+        "chronic-kidney-disease",
+        "uremic-toxins",
+        "carbamylation"
+      ],
+      "sources": [
+        "maier-2019-nickel-microbial-pathogenesis",
+        "draper-2018-menstrual-cycle-metabolomics",
+        "lin-2025-nec-serum-metabolomics-fecal-microbiome",
+        "chen-2019-microbiome-metabolome-gut-kidney-axis",
+        "alkhodor-2017-gut-microbiome-kidney-disease-bidirectional",
+        "mishra-2022-molecular-mechanisms-heavy-metals-ckd"
+      ],
+      "created": "2026-09-06T00:00:00.000Z",
+      "updated": "2026-09-06T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Urea",
+        "type": "concept",
+        "created": "2026-09-06T00:00:00.000Z",
+        "updated": "2026-09-06T00:00:00.000Z",
+        "last_substantive_update": "2026-09-06T00:00:00.000Z",
+        "sources": [
+          "maier-2019-nickel-microbial-pathogenesis",
+          "draper-2018-menstrual-cycle-metabolomics",
+          "lin-2025-nec-serum-metabolomics-fecal-microbiome",
+          "chen-2019-microbiome-metabolome-gut-kidney-axis",
+          "alkhodor-2017-gut-microbiome-kidney-disease-bidirectional",
+          "mishra-2022-molecular-mechanisms-heavy-metals-ckd"
+        ],
+        "source_count": 6,
+        "tags": [
+          "urea",
+          "urease",
+          "nitrogen-metabolism",
+          "ammonia",
+          "urea-cycle",
+          "gut-kidney-axis",
+          "chronic-kidney-disease",
+          "uremic-toxins",
+          "carbamylation"
+        ],
+        "karen_brain_primitives": [
+          4,
+          5
+        ],
+        "seo_target": "urea microbiome urease gut kidney axis",
+        "platform": "wikibiome"
+      },
+      "overview": "Urea is the substrate of [[urease]]. In the microbial systems covered by WikiBiome, urease hydrolyzes urea to ammonia and bicarbonate; those products can supply microbial nitrogen and help neutralize acidic environments [[maier-2019-nickel-microbial-pathogenesis]].\n\nAt a glance, urea is the substance being acted on, urease is the enzyme, and the urea cycle is a separate metabolic pathway [[maier-2019-nickel-microbial-pathogenesis]] [[draper-2018-menstrual-cycle-metabolomics]] [[lin-2025-nec-serum-metabolomics-fecal-microbiome]].",
+      "sections": [
+        {
+          "heading": "Urea is not urease",
+          "level": 2,
+          "body": "[[urease|Urease]] is the catalyst, not another name for urea. A pathogen-focused review in the WikiBiome evidence vault describes urease as a nickel-dependent microbial enzyme and identifies [[helicobacter-pylori|*Helicobacter pylori*]] as its most extensively studied example, where the enzyme supports survival in an acidic environment [[maier-2019-nickel-microbial-pathogenesis]]."
+        },
+        {
+          "heading": "Urea is not the urea cycle",
+          "level": 2,
+          "body": "The urea cycle is a metabolic pathway, not a molecule or enzyme. Human metabolomics sources in the vault analyze urea-cycle metabolism through amino-acid patterns that include ornithine and arginine and place it alongside other connected metabolic pathways. That is different from microbial urease acting directly on urea [[draper-2018-menstrual-cycle-metabolomics]] [[lin-2025-nec-serum-metabolomics-fecal-microbiome]] [[maier-2019-nickel-microbial-pathogenesis]]."
+        },
+        {
+          "heading": "Urea at the gut-kidney interface",
+          "level": 2,
+          "body": "Two narrative reviews describe a feedback model in [[chronic-kidney-disease]]: as kidney function declines, increased urea and other retained solutes reach the intestinal lumen. Urease-producing microorganisms then convert urea to ammonia, raising luminal pH and contributing to epithelial-barrier disruption and a shift toward proteolytic organisms [[chen-2019-microbiome-metabolome-gut-kidney-axis]] [[alkhodor-2017-gut-microbiome-kidney-disease-bidirectional]].\n\nIn this model, urea is an environmental substrate. It is not synonymous with microbially derived [[uremic-toxins|uremic toxins]] such as indoxyl sulfate, p-cresyl sulfate, and trimethylamine N-oxide, which the same reviews identify separately [[chen-2019-microbiome-metabolome-gut-kidney-axis]] [[alkhodor-2017-gut-microbiome-kidney-disease-bidirectional]]."
+        },
+        {
+          "heading": "Urea accumulation and carbamylation",
+          "level": 2,
+          "body": "A chronic-kidney-disease narrative review links urea buildup to isocyanic acid formation and irreversible protein modification at lysine residues and N-terminal amino groups, a process described as carbamylation [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]."
+        },
+        {
+          "heading": "Related pages",
+          "level": 2,
+          "body": "- [[urease]]\n- [[nickel]]\n- [[helicobacter-pylori]]\n- [[gut-kidney-axis]]\n- [[chronic-kidney-disease]]\n- [[uremic-toxins]]"
+        }
+      ],
+      "wikilinks": [
+        "urease",
+        "maier-2019-nickel-microbial-pathogenesis",
+        "draper-2018-menstrual-cycle-metabolomics",
+        "lin-2025-nec-serum-metabolomics-fecal-microbiome",
+        "helicobacter-pylori",
+        "chronic-kidney-disease",
+        "chen-2019-microbiome-metabolome-gut-kidney-axis",
+        "alkhodor-2017-gut-microbiome-kidney-disease-bidirectional",
+        "uremic-toxins",
+        "mishra-2022-molecular-mechanisms-heavy-metals-ckd",
+        "nickel",
+        "gut-kidney-axis"
+      ],
+      "sourceDir": "concepts",
+      "sourceCount": 6,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "helicobacter-pylori",
+        "urease",
+        "glossary"
+      ],
+      "related": [
+        {
+          "id": "gastric-cancer",
+          "score": 9
+        },
+        {
+          "id": "proteus-mirabilis",
+          "score": 9
+        },
+        {
+          "id": "metal-dependent-virulence",
+          "score": 9
+        },
+        {
+          "id": "nutritional-immunity",
+          "score": 9
+        },
+        {
+          "id": "oxidative-stress",
+          "score": 9
+        },
+        {
+          "id": "glyoxalase",
+          "score": 8
+        },
+        {
+          "id": "hepcidin",
+          "score": 8
+        },
+        {
+          "id": "hydrogenase",
+          "score": 8
+        }
+      ]
+    },
+    {
       "id": "urease",
       "title": "Urease",
       "type": "concept",
@@ -115322,12 +115488,12 @@
         "akbari-2022-metal-homeostasis-streptococci.md"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-06T00:00:00.000Z",
       "frontmatter": {
         "title": "Urease",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-06T00:00:00.000Z",
         "sources": [
           "maier-2019-nickel-microbial-pathogenesis.md",
           "pendergrass-2026-nickel-nec-preterm-gut.md",
@@ -115364,7 +115530,7 @@
         {
           "heading": "Biochemistry",
           "level": 2,
-          "body": "Urease (EC 3.5.1.5) catalyzes the hydrolysis of urea into ammonia and bicarbonate:\n\n> (NH2)2CO + H2O --> 2 NH3 + CO2 (spontaneously: NH3 + H2O --> NH4+ + OH-; CO2 + H2O --> HCO3- + H+)\n\nThe net effect is a rise in local pH due to ammonia production, plus generation of a nitrogen source for the microorganism."
+          "body": "Urease (EC 3.5.1.5) catalyzes the hydrolysis of [[urea]] into ammonia and bicarbonate:\n\n> (NH2)2CO + H2O --> 2 NH3 + CO2 (spontaneously: NH3 + H2O --> NH4+ + OH-; CO2 + H2O --> HCO3- + H+)\n\nThe net effect is a rise in local pH due to ammonia production, plus generation of a nitrogen source for the microorganism."
         },
         {
           "heading": "Active site structure",
@@ -115514,6 +115680,7 @@
       ],
       "wikilinks": [
         "nickel",
+        "urea",
         "helicobacter-pylori",
         "hydrogenase",
         "maier-2019-nickel-microbial-pathogenesis",
@@ -115549,6 +115716,7 @@
         "brucella",
         "campylobacter-jejuni",
         "cryptococcus-neoformans",
+        "helicobacter-pylori",
         "klebsiella-pneumoniae",
         "lactobacillus",
         "morganella-morganii",
@@ -115565,6 +115733,7 @@
         "metalloregulator",
         "nickel-urease",
         "ph-sensing",
+        "urea",
         "low-nickel-diet",
         "broken-links-2026-04-16",
         "glossary",
@@ -115791,12 +115960,13 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
-        "gut-barrier-dysfunction"
+        "gut-barrier-dysfunction",
+        "urea"
       ],
       "related": [
         {
           "id": "gut-kidney-axis",
-          "score": 21
+          "score": 23
         },
         {
           "id": "indoxyl-sulfate",
@@ -115805,6 +115975,10 @@
         {
           "id": "dietary-fiber-ckd",
           "score": 11
+        },
+        {
+          "id": "urea",
+          "score": 10
         },
         {
           "id": "phenylalanine",
@@ -115820,10 +115994,6 @@
         },
         {
           "id": "fermentative-metabolism",
-          "score": 7
-        },
-        {
-          "id": "interleukin-6",
           "score": 7
         }
       ]
@@ -119609,6 +119779,7 @@
         "phenylalanine",
         "ruminococcaceae",
         "synbiotics",
+        "urea",
         "uremic-toxins",
         "zonulin",
         "long-covid",
@@ -119641,6 +119812,10 @@
           "score": 38
         },
         {
+          "id": "nickel",
+          "score": 36
+        },
+        {
           "id": "copper",
           "score": 34
         },
@@ -119649,8 +119824,8 @@
           "score": 34
         },
         {
-          "id": "nickel",
-          "score": 34
+          "id": "uremic-toxins",
+          "score": 32
         },
         {
           "id": "autism-spectrum-disorder",
@@ -119658,10 +119833,6 @@
         },
         {
           "id": "alzheimers-disease",
-          "score": 30
-        },
-        {
-          "id": "zinc",
           "score": 30
         }
       ]
@@ -180231,15 +180402,15 @@
       "tags": [],
       "sources": [],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-06T00:00:00.000Z",
       "frontmatter": {
         "title": "Glossary",
         "type": "reference",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-06T00:00:00.000Z",
         "platform": "wikibiome"
       },
-      "overview": "Alphabetical definitions of specialist terms used throughout this wiki. Where a full concept page exists, the term links to it.\n\n---\n\n**AhR (aryl hydrocarbon receptor)** -- A ligand-activated transcription factor that senses microbial metabolites (especially [[indoles]] from [[tryptophan-metabolism]]) and environmental pollutants, regulating immune responses, barrier integrity, and xenobiotic metabolism.\n\n**AMR (antimicrobial resistance)** -- The ability of microorganisms to withstand antimicrobial agents. In this wiki, AMR frequently arises through [[co-selection]], where metal resistance genes on mobile genetic elements carry antibiotic resistance genes alongside them. See [[antimicrobial-resistance]].\n\n**BCAA (branched-chain amino acids)** -- Leucine, isoleucine, and valine -- essential amino acids whose circulating levels are elevated in [[metabolic-syndrome]], [[type-2-diabetes]], and [[obesity]], partly driven by gut microbial metabolism.\n\n**BBB (blood-brain barrier)** -- The selectively permeable endothelial barrier separating circulating blood from CNS extracellular fluid. Disrupted by heavy metals, [[inflammation]], and [[neuroinflammation]], permitting neurotoxic entry. See [[blood-brain-barrier]].\n\n**BSH (bile salt hydrolase)** -- A microbial enzyme that deconjugates primary bile acids, initiating their transformation into secondary bile acids. Central to [[bile-acid-metabolism]] and the [[enterohepatic-circulation]].\n\n**CagA** -- The cytotoxin-associated gene A oncoprotein of [[helicobacter-pylori]], injected into gastric epithelial cells via the type IV secretion system. CagA hijacks host signaling (SHP-2, Grb2) to disrupt polarity and proliferation control, driving [[gastric-cancer]].\n\n**Calprotectin** -- A calcium- and zinc-binding protein (S100A8/S100A9 heterodimer) released by neutrophils. Fecal calprotectin is the gold-standard non-invasive biomarker for intestinal [[inflammation]], distinguishing [[inflammatory-bowel-disease]] from [[ibs]]. See [[calprotectin]].\n\n**Ceruloplasmin** -- The major copper-carrying protein in plasma (binds ~95% of circulating Cu). Also functions as a ferroxidase, oxidizing Fe2+ to Fe3+ for loading onto transferrin. Elevated as an acute phase reactant; the Cu/Zn ratio (driven partly by ceruloplasmin) is a pan-disease biomarker.\n\n**Co-selection** -- The process by which selection for one resistance trait (e.g., metal tolerance) simultaneously selects for linked traits (e.g., antibiotic resistance) when genes reside on the same mobile genetic element. See [[co-selection]].\n\n**CRP (C-reactive protein)** -- An acute-phase protein produced by the liver in response to IL-6. Elevated CRP is a systemic marker of [[inflammation]] used across many diseases in this wiki, from [[depression]] to [[cardiovascular-disease]].\n\n**Cuproptosis** -- A recently described form of regulated cell death triggered by excess intracellular copper binding to lipoylated TCA cycle proteins, causing proteotoxic stress. Relevant to [[copper]] toxicity and cancer therapeutics.\n\n**Dysbiosis** -- A disruption in the composition, diversity, or metabolic output of the gut microbiome associated with disease. Characterized by loss of beneficial taxa (e.g., butyrate producers) and expansion of pathobionts. See [[dysbiosis]].\n\n**EDSS (Expanded Disability Status Scale)** -- The standard clinical scale for quantifying disability in [[multiple-sclerosis]], ranging from 0 (normal neurological exam) to 10 (death due to MS). Probiotic interventions in MS are often assessed by EDSS change.\n\n**Estrobolome** -- The aggregate of enteric bacterial genes capable of metabolizing estrogens, primarily through [[beta-glucuronidase]] activity. Dysbiosis of the estrobolome alters circulating estrogen levels, linking the microbiome to [[breast-cancer]], [[endometriosis]], and [[pcos]]. See [[estrobolome]].\n\n**Exposome** -- The totality of environmental exposures an individual encounters from conception onward, including dietary metals, pollutants, microbiome composition, and lifestyle factors. See [[exposome]].\n\n**Fenton reaction** -- The iron-catalyzed generation of hydroxyl radicals from hydrogen peroxide (Fe2+ + H2O2 -> Fe3+ + OH- + OH*). The primary mechanism linking [[iron]] excess to [[oxidative-stress]] and [[DNA-damage]] across neurodegeneration, cancer, and inflammatory disease.\n\n**Ferroptosis** -- An iron-dependent form of regulated cell death driven by lipid peroxidation, inhibited by GPX4 and glutathione. Central to pathology in [[parkinsons-disease]], [[alzheimers-disease]], [[chronic-kidney-disease]], and cancer. See [[ferroptosis]].\n\n**FMT (fecal microbiota transplantation)** -- The transfer of stool from a healthy donor to a recipient's GI tract to restore microbial diversity and function. Strongest evidence in [[ulcerative-colitis]] and C. difficile infection. See [[fecal-microbiota-transplant]].\n\n**GloI (glyoxalase I)** -- A metalloenzyme that detoxifies methylglyoxal, a reactive carbonyl compound. In some bacteria (e.g., [[klebsiella-pneumoniae]], [[helicobacter-pylori]]), GloI is nickel-dependent rather than zinc-dependent. See [[glyoxalase]].\n\n**GPX4 (glutathione peroxidase 4)** -- A selenium-dependent enzyme that reduces lipid hydroperoxides, serving as the primary defense against [[ferroptosis]]. Its activity depends on both [[selenium]] and [[glutathione]] availability.\n\n**Hepcidin** -- The master iron-regulatory hormone produced by hepatocytes. Hepcidin degrades ferroportin, blocking iron export from enterocytes and macrophages. Elevated by [[inflammation]] (IL-6), causing the anemia of chronic disease seen in [[inflammatory-bowel-disease]], [[chronic-kidney-disease]], and other conditions. See [[hepcidin]].\n\n**HIF-1-alpha (hypoxia-inducible factor 1-alpha)** -- A transcription factor stabilized under low-oxygen conditions that activates genes for angiogenesis, glycolysis, and iron metabolism. Relevant to tumor [[hypoxia]], [[inflammation]], and the [[acidic-microenvironment]] of the gut.\n\n**ICP-MS (inductively coupled plasma mass spectrometry)** -- The gold-standard analytical technique for measuring trace metal concentrations in biological samples. Used across [[metallomics]] studies to quantify metal levels in serum, tissue, hair, and stool.\n\n**IDO (indoleamine 2,3-dioxygenase)** -- An enzyme induced by IFN-gamma and TNF-alpha that diverts tryptophan from serotonin synthesis toward the kynurenine pathway. Central to [[tryptophan-metabolism]] disruption in [[depression]], [[schizophrenia]], and other inflammatory conditions.\n\n**Irving-Williams series** -- The universal stability order of divalent transition metal complexes: Mn2+ < Fe2+ < Co2+ < Ni2+ < Cu2+ > Zn2+. Explains why copper can displace other metals from binding sites, driving [[mis-metallation]] when metal homeostasis fails.\n\n**LPS (lipopolysaccharide)** -- A component of the outer membrane of Gram-negative bacteria. Translocated LPS activates TLR4-mediated [[inflammation]] and is a marker of [[intestinal-permeability]] failure (\"leaky gut\") across multiple diseases.\n\n**MAIT cells (mucosal-associated invariant T cells)** -- Innate-like T cells enriched in mucosal tissues that recognize microbial riboflavin metabolites via MR1. Relevant to mucosal immunity in [[inflammatory-bowel-disease]] and [[multiple-sclerosis]].\n\n**Metallomics** -- The comprehensive study of the metallome -- the full complement of metal and metalloid species in a biological system. Encompasses metal speciation, distribution, and functional roles. See [[metallomics]].\n\n**Metalloestrogen** -- A metal that can activate estrogen receptors (especially ERalpha) independently of endogenous estrogens. [[Cadmium]] and [[nickel]] are the best-characterized metalloestrogens, linking metal exposure to [[breast-cancer]], [[endometriosis]], and [[pcos]]. See [[metalloestrogens]].\n\n**Metallophore** -- A small molecule secreted by microbes to scavenge metals from the environment. Broader than siderophores (iron-specific); includes nickelophores and zincophores. See [[siderophores-metallophores]].\n\n**Metalloproteome** -- The subset of a proteome consisting of metalloproteins -- proteins that bind metal cofactors for structural or catalytic function. Estimated at 30-40% of all proteins; disrupted by [[mis-metallation]] when metal ratios shift.\n\n**Metallostasis** -- The maintenance of optimal intracellular metal concentrations through coordinated import, export, storage, and trafficking systems. Disruption leads to [[dyshomeostasis]], [[mis-metallation]], and disease.\n\n**Mis-metallation** -- The displacement of a native metal cofactor from a protein by a competing metal (typically one higher in the Irving-Williams series), resulting in loss of function or gain of toxic activity. See [[mis-metallation]].\n\n**MMP (matrix metalloprotease)** -- A family of zinc-dependent endopeptidases that degrade extracellular matrix components. Involved in tissue remodeling, [[inflammation]], tumor invasion, and barrier breakdown. See [[matrix-metalloproteases]].\n\n**Nickelophore** -- A metallophore specific for nickel acquisition. Staphylopine (from [[staphylococcus-aureus]]) and yersiniabactin (from [[escherichia-coli]], [[klebsiella-pneumoniae]]) can scavenge Ni2+ in addition to other metals. See [[siderophores-metallophores]].\n\n**NF-kB (nuclear factor kappa-B)** -- A transcription factor family that is the master regulator of inflammatory gene expression. Activated by LPS, cytokines, and metal-induced [[oxidative-stress]]; central to [[inflammation]] in virtually every disease in this wiki. See [[nf-kappa-b]].\n\n**NLRP3 (NOD-like receptor protein 3)** -- An inflammasome sensor that assembles a caspase-1-activating platform in response to danger signals including ROS, LPS, and crystalline particles. NLRP3 activation drives IL-1beta and IL-18 release, linking [[oxidative-stress]] and metal exposure to [[inflammation]].\n\n**NRAMP1 (natural resistance-associated macrophage protein 1)** -- A divalent metal transporter on the phagolysosomal membrane that pumps Fe2+ and Mn2+ out of the phagosome, starving intracellular pathogens of metals. A key effector of [[nutritional-immunity]].\n\n**Nutritional immunity** -- The host strategy of sequestering essential metals (Fe, Zn, Mn) to starve invading pathogens. Mediated by [[calprotectin]], [[lactoferrin]], [[hepcidin]], and [[lipocalin-2]]. See [[nutritional-immunity]].\n\n**Pathobiont** -- A commensal microorganism that can become pathogenic under conditions of dysbiosis, immune compromise, or altered metal availability. Examples include adherent-invasive [[escherichia-coli]] in [[ulcerative-colitis]] and [[ruminococcus-gnavus]] in IBD flares.\n\n**Pharmacomicrobiomics** -- The study of how the gut microbiome influences drug metabolism, efficacy, and toxicity. Relevant to [[pharmacomicrobiomics]] interactions such as bacterial azoreductase activation of sulfasalazine and microbial beta-glucuronidase reactivation of drug metabolites.\n\n**PLS-DA (partial least squares discriminant analysis)** -- A multivariate statistical method used in [[metallomics]] and microbiome studies to classify disease vs. control groups based on multi-element or multi-taxa signatures. Often paired with VIP scores.\n\n**SCFA (short-chain fatty acids)** -- Microbial fermentation products (acetate, propionate, butyrate) that serve as colonocyte fuel, immune modulators, and barrier reinforcers. Depleted in [[dysbiosis]] across IBD, depression, and metabolic disease. See [[short-chain-fatty-acids]].\n\n**Siderophore** -- A small, high-affinity iron-chelating molecule secreted by microorganisms to scavenge Fe3+ from the environment. Examples include enterobactin [[escherichia-coli]], pyoverdine [[pseudomonas-aeruginosa]], and staphyloferrin [[staphylococcus-aureus]]. See [[siderophores-metallophores]].\n\n**SNAS (systemic nickel allergy syndrome)** -- A systemic allergic response to dietary nickel in nickel-sensitized individuals, manifesting as GI symptoms identical to [[ibs]], plus extra-intestinal symptoms (headache, urticaria, fatigue). See [[nickel-allergy]].\n\n**TDI (tolerable daily intake)** -- The maximum amount of a substance that can be ingested daily over a lifetime without appreciable health risk. For metals, TDIs are set by EFSA and WHO; relevant to [[dietary-nickel-exposure]], [[dietary-cadmium-exposure]], and [[dietary-lead-exposure]].\n\n**TLR4 (toll-like receptor 4)** -- The pattern recognition receptor that detects LPS and other microbial ligands. TLR4 activation triggers NF-kB-mediated [[inflammation]] and is a key sensor in the [[intestinal-permeability]]-inflammation axis.\n\n**TMAO (trimethylamine N-oxide)** -- A microbiome-derived metabolite produced from dietary choline, carnitine, and betaine via microbial TMA lyases and hepatic FMO3 oxidation. Elevated TMAO promotes [[atherosclerosis]] and [[cardiovascular-disease]]. See [[tmao]].\n\n**Transferrin** -- The primary iron transport protein in plasma, binding two Fe3+ ions with high affinity. Transferrin saturation is a clinical marker of iron status; low saturation indicates deficiency, high saturation indicates overload risk. See [[transferrin]].\n\n**Urease** -- A nickel-dependent metalloenzyme that hydrolyzes urea to ammonia and CO2. Critical for [[helicobacter-pylori]] gastric acid neutralization, [[proteus-mirabilis]] urinary stone formation, and [[klebsiella-pneumoniae]] GI colonization. See [[urease]].\n\n**VIP score (variable importance in projection)** -- A metric from PLS-DA models indicating which variables (metals, taxa) contribute most to group discrimination. VIP > 1.0 is conventionally considered important; used in [[metallomics]] and microbiome signature analyses.\n\n**Zonulin** -- A protein that modulates tight junction permeability in the intestinal epithelium. Elevated serum zonulin is a biomarker of increased [[intestinal-permeability]] (\"leaky gut\") in [[inflammatory-bowel-disease]], [[schizophrenia]], [[type-1-diabetes]], and other conditions.",
+      "overview": "Alphabetical definitions of specialist terms used throughout this wiki. Where a full concept page exists, the term links to it.\n\n---\n\n**AhR (aryl hydrocarbon receptor)** -- A ligand-activated transcription factor that senses microbial metabolites (especially [[indoles]] from [[tryptophan-metabolism]]) and environmental pollutants, regulating immune responses, barrier integrity, and xenobiotic metabolism.\n\n**AMR (antimicrobial resistance)** -- The ability of microorganisms to withstand antimicrobial agents. In this wiki, AMR frequently arises through [[co-selection]], where metal resistance genes on mobile genetic elements carry antibiotic resistance genes alongside them. See [[antimicrobial-resistance]].\n\n**BCAA (branched-chain amino acids)** -- Leucine, isoleucine, and valine -- essential amino acids whose circulating levels are elevated in [[metabolic-syndrome]], [[type-2-diabetes]], and [[obesity]], partly driven by gut microbial metabolism.\n\n**BBB (blood-brain barrier)** -- The selectively permeable endothelial barrier separating circulating blood from CNS extracellular fluid. Disrupted by heavy metals, [[inflammation]], and [[neuroinflammation]], permitting neurotoxic entry. See [[blood-brain-barrier]].\n\n**BSH (bile salt hydrolase)** -- A microbial enzyme that deconjugates primary bile acids, initiating their transformation into secondary bile acids. Central to [[bile-acid-metabolism]] and the [[enterohepatic-circulation]].\n\n**CagA** -- The cytotoxin-associated gene A oncoprotein of [[helicobacter-pylori]], injected into gastric epithelial cells via the type IV secretion system. CagA hijacks host signaling (SHP-2, Grb2) to disrupt polarity and proliferation control, driving [[gastric-cancer]].\n\n**Calprotectin** -- A calcium- and zinc-binding protein (S100A8/S100A9 heterodimer) released by neutrophils. Fecal calprotectin is the gold-standard non-invasive biomarker for intestinal [[inflammation]], distinguishing [[inflammatory-bowel-disease]] from [[ibs]]. See [[calprotectin]].\n\n**Ceruloplasmin** -- The major copper-carrying protein in plasma (binds ~95% of circulating Cu). Also functions as a ferroxidase, oxidizing Fe2+ to Fe3+ for loading onto transferrin. Elevated as an acute phase reactant; the Cu/Zn ratio (driven partly by ceruloplasmin) is a pan-disease biomarker.\n\n**Co-selection** -- The process by which selection for one resistance trait (e.g., metal tolerance) simultaneously selects for linked traits (e.g., antibiotic resistance) when genes reside on the same mobile genetic element. See [[co-selection]].\n\n**CRP (C-reactive protein)** -- An acute-phase protein produced by the liver in response to IL-6. Elevated CRP is a systemic marker of [[inflammation]] used across many diseases in this wiki, from [[depression]] to [[cardiovascular-disease]].\n\n**Cuproptosis** -- A recently described form of regulated cell death triggered by excess intracellular copper binding to lipoylated TCA cycle proteins, causing proteotoxic stress. Relevant to [[copper]] toxicity and cancer therapeutics.\n\n**Dysbiosis** -- A disruption in the composition, diversity, or metabolic output of the gut microbiome associated with disease. Characterized by loss of beneficial taxa (e.g., butyrate producers) and expansion of pathobionts. See [[dysbiosis]].\n\n**EDSS (Expanded Disability Status Scale)** -- The standard clinical scale for quantifying disability in [[multiple-sclerosis]], ranging from 0 (normal neurological exam) to 10 (death due to MS). Probiotic interventions in MS are often assessed by EDSS change.\n\n**Estrobolome** -- The aggregate of enteric bacterial genes capable of metabolizing estrogens, primarily through [[beta-glucuronidase]] activity. Dysbiosis of the estrobolome alters circulating estrogen levels, linking the microbiome to [[breast-cancer]], [[endometriosis]], and [[pcos]]. See [[estrobolome]].\n\n**Exposome** -- The totality of environmental exposures an individual encounters from conception onward, including dietary metals, pollutants, microbiome composition, and lifestyle factors. See [[exposome]].\n\n**Fenton reaction** -- The iron-catalyzed generation of hydroxyl radicals from hydrogen peroxide (Fe2+ + H2O2 -> Fe3+ + OH- + OH*). The primary mechanism linking [[iron]] excess to [[oxidative-stress]] and [[DNA-damage]] across neurodegeneration, cancer, and inflammatory disease.\n\n**Ferroptosis** -- An iron-dependent form of regulated cell death driven by lipid peroxidation, inhibited by GPX4 and glutathione. Central to pathology in [[parkinsons-disease]], [[alzheimers-disease]], [[chronic-kidney-disease]], and cancer. See [[ferroptosis]].\n\n**FMT (fecal microbiota transplantation)** -- The transfer of stool from a healthy donor to a recipient's GI tract to restore microbial diversity and function. Strongest evidence in [[ulcerative-colitis]] and C. difficile infection. See [[fecal-microbiota-transplant]].\n\n**GloI (glyoxalase I)** -- A metalloenzyme that detoxifies methylglyoxal, a reactive carbonyl compound. In some bacteria (e.g., [[klebsiella-pneumoniae]], [[helicobacter-pylori]]), GloI is nickel-dependent rather than zinc-dependent. See [[glyoxalase]].\n\n**GPX4 (glutathione peroxidase 4)** -- A selenium-dependent enzyme that reduces lipid hydroperoxides, serving as the primary defense against [[ferroptosis]]. Its activity depends on both [[selenium]] and [[glutathione]] availability.\n\n**Hepcidin** -- The master iron-regulatory hormone produced by hepatocytes. Hepcidin degrades ferroportin, blocking iron export from enterocytes and macrophages. Elevated by [[inflammation]] (IL-6), causing the anemia of chronic disease seen in [[inflammatory-bowel-disease]], [[chronic-kidney-disease]], and other conditions. See [[hepcidin]].\n\n**HIF-1-alpha (hypoxia-inducible factor 1-alpha)** -- A transcription factor stabilized under low-oxygen conditions that activates genes for angiogenesis, glycolysis, and iron metabolism. Relevant to tumor [[hypoxia]], [[inflammation]], and the [[acidic-microenvironment]] of the gut.\n\n**ICP-MS (inductively coupled plasma mass spectrometry)** -- The gold-standard analytical technique for measuring trace metal concentrations in biological samples. Used across [[metallomics]] studies to quantify metal levels in serum, tissue, hair, and stool.\n\n**IDO (indoleamine 2,3-dioxygenase)** -- An enzyme induced by IFN-gamma and TNF-alpha that diverts tryptophan from serotonin synthesis toward the kynurenine pathway. Central to [[tryptophan-metabolism]] disruption in [[depression]], [[schizophrenia]], and other inflammatory conditions.\n\n**Irving-Williams series** -- The universal stability order of divalent transition metal complexes: Mn2+ < Fe2+ < Co2+ < Ni2+ < Cu2+ > Zn2+. Explains why copper can displace other metals from binding sites, driving [[mis-metallation]] when metal homeostasis fails.\n\n**LPS (lipopolysaccharide)** -- A component of the outer membrane of Gram-negative bacteria. Translocated LPS activates TLR4-mediated [[inflammation]] and is a marker of [[intestinal-permeability]] failure (\"leaky gut\") across multiple diseases.\n\n**MAIT cells (mucosal-associated invariant T cells)** -- Innate-like T cells enriched in mucosal tissues that recognize microbial riboflavin metabolites via MR1. Relevant to mucosal immunity in [[inflammatory-bowel-disease]] and [[multiple-sclerosis]].\n\n**Metallomics** -- The comprehensive study of the metallome -- the full complement of metal and metalloid species in a biological system. Encompasses metal speciation, distribution, and functional roles. See [[metallomics]].\n\n**Metalloestrogen** -- A metal that can activate estrogen receptors (especially ERalpha) independently of endogenous estrogens. [[Cadmium]] and [[nickel]] are the best-characterized metalloestrogens, linking metal exposure to [[breast-cancer]], [[endometriosis]], and [[pcos]]. See [[metalloestrogens]].\n\n**Metallophore** -- A small molecule secreted by microbes to scavenge metals from the environment. Broader than siderophores (iron-specific); includes nickelophores and zincophores. See [[siderophores-metallophores]].\n\n**Metalloproteome** -- The subset of a proteome consisting of metalloproteins -- proteins that bind metal cofactors for structural or catalytic function. Estimated at 30-40% of all proteins; disrupted by [[mis-metallation]] when metal ratios shift.\n\n**Metallostasis** -- The maintenance of optimal intracellular metal concentrations through coordinated import, export, storage, and trafficking systems. Disruption leads to [[dyshomeostasis]], [[mis-metallation]], and disease.\n\n**Mis-metallation** -- The displacement of a native metal cofactor from a protein by a competing metal (typically one higher in the Irving-Williams series), resulting in loss of function or gain of toxic activity. See [[mis-metallation]].\n\n**MMP (matrix metalloprotease)** -- A family of zinc-dependent endopeptidases that degrade extracellular matrix components. Involved in tissue remodeling, [[inflammation]], tumor invasion, and barrier breakdown. See [[matrix-metalloproteases]].\n\n**Nickelophore** -- A metallophore specific for nickel acquisition. Staphylopine (from [[staphylococcus-aureus]]) and yersiniabactin (from [[escherichia-coli]], [[klebsiella-pneumoniae]]) can scavenge Ni2+ in addition to other metals. See [[siderophores-metallophores]].\n\n**NF-kB (nuclear factor kappa-B)** -- A transcription factor family that is the master regulator of inflammatory gene expression. Activated by LPS, cytokines, and metal-induced [[oxidative-stress]]; central to [[inflammation]] in virtually every disease in this wiki. See [[nf-kappa-b]].\n\n**NLRP3 (NOD-like receptor protein 3)** -- An inflammasome sensor that assembles a caspase-1-activating platform in response to danger signals including ROS, LPS, and crystalline particles. NLRP3 activation drives IL-1beta and IL-18 release, linking [[oxidative-stress]] and metal exposure to [[inflammation]].\n\n**NRAMP1 (natural resistance-associated macrophage protein 1)** -- A divalent metal transporter on the phagolysosomal membrane that pumps Fe2+ and Mn2+ out of the phagosome, starving intracellular pathogens of metals. A key effector of [[nutritional-immunity]].\n\n**Nutritional immunity** -- The host strategy of sequestering essential metals (Fe, Zn, Mn) to starve invading pathogens. Mediated by [[calprotectin]], [[lactoferrin]], [[hepcidin]], and [[lipocalin-2]]. See [[nutritional-immunity]].\n\n**Pathobiont** -- A commensal microorganism that can become pathogenic under conditions of dysbiosis, immune compromise, or altered metal availability. Examples include adherent-invasive [[escherichia-coli]] in [[ulcerative-colitis]] and [[ruminococcus-gnavus]] in IBD flares.\n\n**Pharmacomicrobiomics** -- The study of how the gut microbiome influences drug metabolism, efficacy, and toxicity. Relevant to [[pharmacomicrobiomics]] interactions such as bacterial azoreductase activation of sulfasalazine and microbial beta-glucuronidase reactivation of drug metabolites.\n\n**PLS-DA (partial least squares discriminant analysis)** -- A multivariate statistical method used in [[metallomics]] and microbiome studies to classify disease vs. control groups based on multi-element or multi-taxa signatures. Often paired with VIP scores.\n\n**SCFA (short-chain fatty acids)** -- Microbial fermentation products (acetate, propionate, butyrate) that serve as colonocyte fuel, immune modulators, and barrier reinforcers. Depleted in [[dysbiosis]] across IBD, depression, and metabolic disease. See [[short-chain-fatty-acids]].\n\n**Siderophore** -- A small, high-affinity iron-chelating molecule secreted by microorganisms to scavenge Fe3+ from the environment. Examples include enterobactin [[escherichia-coli]], pyoverdine [[pseudomonas-aeruginosa]], and staphyloferrin [[staphylococcus-aureus]]. See [[siderophores-metallophores]].\n\n**SNAS (systemic nickel allergy syndrome)** -- A systemic allergic response to dietary nickel in nickel-sensitized individuals, manifesting as GI symptoms identical to [[ibs]], plus extra-intestinal symptoms (headache, urticaria, fatigue). See [[nickel-allergy]].\n\n**TDI (tolerable daily intake)** -- The maximum amount of a substance that can be ingested daily over a lifetime without appreciable health risk. For metals, TDIs are set by EFSA and WHO; relevant to [[dietary-nickel-exposure]], [[dietary-cadmium-exposure]], and [[dietary-lead-exposure]].\n\n**TLR4 (toll-like receptor 4)** -- The pattern recognition receptor that detects LPS and other microbial ligands. TLR4 activation triggers NF-kB-mediated [[inflammation]] and is a key sensor in the [[intestinal-permeability]]-inflammation axis.\n\n**TMAO (trimethylamine N-oxide)** -- A microbiome-derived metabolite produced from dietary choline, carnitine, and betaine via microbial TMA lyases and hepatic FMO3 oxidation. Elevated TMAO promotes [[atherosclerosis]] and [[cardiovascular-disease]]. See [[tmao]].\n\n**Transferrin** -- The primary iron transport protein in plasma, binding two Fe3+ ions with high affinity. Transferrin saturation is a clinical marker of iron status; low saturation indicates deficiency, high saturation indicates overload risk. See [[transferrin]].\n\n**Urea** -- See [[urea]] for a sourced explanation of how urea differs from urease and the urea cycle, and how it appears in microbial and gut-kidney contexts.\n\n**Urease** -- A nickel-dependent metalloenzyme that hydrolyzes urea to ammonia and CO2. Critical for [[helicobacter-pylori]] gastric acid neutralization, [[proteus-mirabilis]] urinary stone formation, and [[klebsiella-pneumoniae]] GI colonization. See [[urease]].\n\n**VIP score (variable importance in projection)** -- A metric from PLS-DA models indicating which variables (metals, taxa) contribute most to group discrimination. VIP > 1.0 is conventionally considered important; used in [[metallomics]] and microbiome signature analyses.\n\n**Zonulin** -- A protein that modulates tight junction permeability in the intestinal epithelium. Elevated serum zonulin is a biomarker of increased [[intestinal-permeability]] (\"leaky gut\") in [[inflammatory-bowel-disease]], [[schizophrenia]], [[type-1-diabetes]], and other conditions.",
       "sections": [],
       "wikilinks": [
         "indoles",
@@ -180313,6 +180484,7 @@
         "atherosclerosis",
         "tmao",
         "transferrin",
+        "urea",
         "proteus-mirabilis",
         "urease",
         "type-1-diabetes"
@@ -184147,6 +184319,12 @@
         "label": "Tryptophan",
         "category": "mechanism",
         "sourceCount": 15
+      },
+      {
+        "id": "urea",
+        "label": "Urea",
+        "category": "mechanism",
+        "sourceCount": 6
       },
       {
         "id": "urease",
@@ -192282,11 +192460,35 @@
       },
       {
         "source": "helicobacter-pylori",
+        "target": "urease"
+      },
+      {
+        "source": "helicobacter-pylori",
+        "target": "hydrogenase"
+      },
+      {
+        "source": "helicobacter-pylori",
         "target": "nickel"
       },
       {
         "source": "helicobacter-pylori",
+        "target": "urea"
+      },
+      {
+        "source": "helicobacter-pylori",
         "target": "acidic-microenvironment"
+      },
+      {
+        "source": "helicobacter-pylori",
+        "target": "tight-junctions"
+      },
+      {
+        "source": "helicobacter-pylori",
+        "target": "nickel-transporters"
+      },
+      {
+        "source": "helicobacter-pylori",
+        "target": "histidine"
       },
       {
         "source": "helicobacter-pylori",
@@ -203070,10 +203272,6 @@
       },
       {
         "source": "histidine",
-        "target": "helicobacter-pylori"
-      },
-      {
-        "source": "histidine",
         "target": "proteus-mirabilis"
       },
       {
@@ -203219,10 +203417,6 @@
       {
         "source": "hydrogenase",
         "target": "urease"
-      },
-      {
-        "source": "hydrogenase",
-        "target": "helicobacter-pylori"
       },
       {
         "source": "hydrogenase",
@@ -206182,10 +206376,6 @@
       },
       {
         "source": "nickel-transporters",
-        "target": "helicobacter-pylori"
-      },
-      {
-        "source": "nickel-transporters",
         "target": "escherichia-coli"
       },
       {
@@ -208817,8 +209007,24 @@
         "target": "neuroinflammation"
       },
       {
-        "source": "urease",
-        "target": "helicobacter-pylori"
+        "source": "urea",
+        "target": "urease"
+      },
+      {
+        "source": "urea",
+        "target": "chronic-kidney-disease"
+      },
+      {
+        "source": "urea",
+        "target": "uremic-toxins"
+      },
+      {
+        "source": "urea",
+        "target": "nickel"
+      },
+      {
+        "source": "urea",
+        "target": "gut-kidney-axis"
       },
       {
         "source": "urease",
@@ -217559,6 +217765,10 @@
       {
         "source": "glossary",
         "target": "transferrin"
+      },
+      {
+        "source": "glossary",
+        "target": "urea"
       },
       {
         "source": "glossary",

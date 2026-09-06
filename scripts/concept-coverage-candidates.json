@@ -1,0 +1,159 @@
+{
+  "schemaVersion": 1,
+  "terms": [
+    {
+      "id": "urea",
+      "title": "Urea",
+      "aliases": ["urea"],
+      "excludePhrases": ["urea cycle", "urea-cycle"],
+      "type": "concept",
+      "scopeFit": 5,
+      "reason": "Core substrate connecting urease, microbial nitrogen metabolism, gastric ecology, and the gut-kidney axis."
+    },
+    {
+      "id": "ammonia",
+      "title": "Ammonia",
+      "aliases": ["ammonia", "ammonium"],
+      "type": "concept",
+      "scopeFit": 5,
+      "reason": "Microbial metabolite central to urease-driven pH change, nitrogen metabolism, and uremic gut ecology."
+    },
+    {
+      "id": "urea-cycle",
+      "title": "Urea cycle",
+      "aliases": ["urea cycle", "ornithine cycle"],
+      "type": "concept",
+      "scopeFit": 3,
+      "reason": "Frequently adjacent to amino-acid and metabolomics coverage, but distinct from microbial urease."
+    },
+    {
+      "id": "bicarbonate",
+      "title": "Bicarbonate",
+      "aliases": ["bicarbonate"],
+      "type": "concept",
+      "scopeFit": 3,
+      "reason": "A urease reaction product relevant to local pH buffering; may remain a section-level topic if evidence is thin."
+    },
+    {
+      "id": "caga",
+      "title": "CagA",
+      "aliases": ["CagA", "cagA", "cytotoxin-associated gene A"],
+      "type": "concept",
+      "scopeFit": 5,
+      "ambiguityPenalty": 1,
+      "reason": "High-value bridge between Helicobacter pylori virulence, host signaling, and gastric carcinogenesis."
+    },
+    {
+      "id": "catalase",
+      "title": "Catalase",
+      "aliases": ["catalase"],
+      "type": "concept",
+      "scopeFit": 4,
+      "reason": "Commonly discussed microbial oxidative-stress enzyme with broad organism-level relevance."
+    },
+    {
+      "id": "histamine",
+      "title": "Histamine",
+      "aliases": ["histamine"],
+      "type": "concept",
+      "scopeFit": 4,
+      "reason": "Connects microbial histidine metabolism, immune signaling, and gut symptoms; requires careful evidence boundaries."
+    },
+    {
+      "id": "gastritis",
+      "title": "Gastritis",
+      "aliases": ["gastritis"],
+      "type": "entity",
+      "scopeFit": 4,
+      "ambiguityPenalty": 1,
+      "reason": "Frequent disease context for Helicobacter pylori and gastric microbial ecology."
+    },
+    {
+      "id": "nlrp3-inflammasome",
+      "title": "NLRP3 inflammasome",
+      "aliases": ["NLRP3 inflammasome", "NLRP3"],
+      "type": "concept",
+      "scopeFit": 4,
+      "ambiguityPenalty": 1,
+      "reason": "Repeated innate-immune mechanism across metal, barrier, and inflammatory disease pages."
+    },
+    {
+      "id": "inducible-nitric-oxide-synthase",
+      "title": "Inducible nitric oxide synthase",
+      "aliases": ["inducible nitric oxide synthase", "iNOS"],
+      "type": "concept",
+      "scopeFit": 4,
+      "ambiguityPenalty": 1,
+      "reason": "Repeated oxidative and inflammatory mechanism whose acronym otherwise remains unexplained."
+    },
+    {
+      "id": "interleukin-22",
+      "title": "Interleukin-22",
+      "aliases": ["interleukin-22", "IL-22"],
+      "type": "concept",
+      "scopeFit": 3,
+      "ambiguityPenalty": 1,
+      "reason": "Barrier-associated cytokine mentioned across microbiome and immune pages."
+    },
+    {
+      "id": "urease",
+      "title": "Urease",
+      "aliases": ["urease"],
+      "type": "concept",
+      "scopeFit": 5,
+      "reason": "Existing high-value page whose plain-text mentions create substantial internal-link debt."
+    },
+    {
+      "id": "histidine",
+      "title": "Histidine",
+      "aliases": ["histidine"],
+      "type": "concept",
+      "scopeFit": 5,
+      "reason": "Existing concept central to metal coordination and microbial histamine production."
+    },
+    {
+      "id": "hydrogenase",
+      "title": "Hydrogenase",
+      "aliases": ["hydrogenase", "[NiFe] hydrogenase", "NiFe hydrogenase", "NiFe-hydrogenase"],
+      "type": "concept",
+      "scopeFit": 5,
+      "ambiguityPenalty": 1,
+      "reason": "Existing enzyme page with broad microbial energy and virulence relevance."
+    },
+    {
+      "id": "tight-junctions",
+      "title": "Tight junctions",
+      "aliases": ["tight junctions", "tight junction"],
+      "type": "concept",
+      "scopeFit": 4,
+      "reason": "Existing barrier-biology page frequently mentioned without a contextual link."
+    },
+    {
+      "id": "nickel-transporters",
+      "title": "Nickel transporters",
+      "aliases": ["nickel transporters", "nickel transporter", "NixA", "NiuBDE"],
+      "type": "concept",
+      "scopeFit": 5,
+      "ambiguityPenalty": 1,
+      "reason": "Existing page that can absorb protein-level transport terms without creating fragmented micro-pages."
+    },
+    {
+      "id": "metalloregulator",
+      "title": "Metalloregulator",
+      "aliases": ["metalloregulator", "metalloregulators", "NikR"],
+      "type": "concept",
+      "scopeFit": 5,
+      "ambiguityPenalty": 1,
+      "reason": "Existing parent concept for metal-responsive regulators such as NikR."
+    },
+    {
+      "id": "metallochaperone",
+      "title": "Metallochaperone",
+      "aliases": ["metallochaperone", "metallochaperones", "HypA", "HypB", "UreE"],
+      "type": "concept",
+      "scopeFit": 5,
+      "ambiguityPenalty": 2,
+      "reason": "Existing parent concept for proteins that deliver metal cofactors to enzymes."
+    }
+  ]
+}

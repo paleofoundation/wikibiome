@@ -1,5 +1,19 @@
 # Autonomous Ingest Architecture
 
+## Reviewed concept coverage program
+
+The reviewed concept coverage program supplements the existing maintenance scans. It separates two jobs that a mention counter alone cannot distinguish:
+
+- `create_page`: a relevant term lacks a canonical page and has at least three candidate source records to inspect.
+- `backfill_links`: the page already exists, but important reader-facing articles mention it without an explicit wikilink.
+- `evidence_hold`: demand exists, but the candidate-source threshold is not met.
+
+Run `npm run concepts:plan` to write the byte-stable JSON and Markdown queue under `reports/`. Review decisions live in `scripts/concept-coverage-decisions.json`; link batches name their exact target pages so one repaired article cannot be mistaken for corpus-wide completion. The standing execution instructions are in `scripts/concept-coverage-prompt.md`. Run `npm run concepts:check` before committing an accepted batch.
+
+The planner ranks distinct reader-facing articles separately from source records, normalizes canonical IDs, ignores existing links and protected Markdown, records source-passage hashes, and exposes every score component. It never writes encyclopedia prose, pushes, or deploys. Scientific relevance and direct source support remain editorial decisions.
+
+---
+
 Four layers. Each is independent; change one without touching the others. This is the reusable skeleton for any knowledge-base build driven by a corpus of source documents.
 
 ## Layer 1 — Governance (`CLAUDE.md`)

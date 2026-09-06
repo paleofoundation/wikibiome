@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "jobs": {
+    "create_page:urea": {
+      "state": "promoted",
+      "reviewedAt": "2026-09-06",
+      "promotedAt": "2026-09-06",
+      "path": "wiki/concepts/urea.md",
+      "validatedSourceCount": 6,
+      "rationale": "Requested as the first missing concept-page example; the existing vault contains more than the three-source publication minimum."
+    },
+    "backfill_links:urease": {
+      "state": "queued",
+      "rationale": "A substantial Urease page already exists, and the Helicobacter pylori lead is a high-value contextual link location.",
+      "batches": [
+        {
+          "id": "2026-09-06-helicobacter-pylori",
+          "state": "promoted",
+          "reviewedAt": "2026-09-06",
+          "promotedAt": "2026-09-06",
+          "targets": ["helicobacter-pylori"]
+        }
+      ]
+    },
+    "backfill_links:histidine": {
+      "state": "queued",
+      "rationale": "A sourced Histidine page already exists, and the Helicobacter pylori nickel-storage section is a high-value contextual link location.",
+      "batches": [
+        {
+          "id": "2026-09-06-helicobacter-pylori",
+          "state": "promoted",
+          "reviewedAt": "2026-09-06",
+          "promotedAt": "2026-09-06",
+          "targets": ["helicobacter-pylori"]
+        }
+      ]
+    },
+    "backfill_links:hydrogenase": {
+      "state": "queued",
+      "rationale": "A sourced Hydrogenase page already exists, and the Helicobacter pylori lead is a high-value contextual link location.",
+      "batches": [
+        {
+          "id": "2026-09-06-helicobacter-pylori",
+          "state": "promoted",
+          "reviewedAt": "2026-09-06",
+          "promotedAt": "2026-09-06",
+          "targets": ["helicobacter-pylori"]
+        }
+      ]
+    },
+    "backfill_links:nickel-transporters": {
+      "state": "queued",
+      "rationale": "NiuBDE and NixA are better handled by the existing parent page than by creating fragmented protein stubs.",
+      "batches": [
+        {
+          "id": "2026-09-06-helicobacter-pylori",
+          "state": "promoted",
+          "reviewedAt": "2026-09-06",
+          "promotedAt": "2026-09-06",
+          "targets": ["helicobacter-pylori"]
+        }
+      ]
+    },
+    "backfill_links:tight-junctions": {
+      "state": "queued",
+      "rationale": "The Helicobacter pylori urease section directly invokes this existing barrier-biology concept.",
+      "batches": [
+        {
+          "id": "2026-09-06-helicobacter-pylori",
+          "state": "promoted",
+          "reviewedAt": "2026-09-06",
+          "promotedAt": "2026-09-06",
+          "targets": ["helicobacter-pylori"]
+        }
+      ]
+    }
+  }
+}
