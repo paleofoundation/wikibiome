@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "batchId": "diseases-051",
+  "category": "diseases",
+  "status": "audited",
+  "createdOn": "2026-09-06",
+  "authorizedParent": "9da4a433b21412752e423acee10a1f8961646a58",
+  "auditCommit": "42dae80",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/diseases-051.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Review-only scientific algorithmic anatomical or pathology reconstruction, not a photograph, scan, histology slide, patient record, or diagnostic image",
+    "sourceUse": "NLM MeSH supplies controlled condition identity and scope; official NIH sources supply conservative anatomical and communication boundaries only. No source image or design is copied."
+  },
+  "reviewStandard": "Current controlled condition identity, anatomically conservative and non-diagnostic representation, non-stigmatizing communication, complete pale edge field, crop-safe geometry, and exact prompt must be frozen before exactly one generation call per cleared route. Observed output controls later metadata.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 0,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlReviewRequired": true,
+  "promotionRule": "No output may receive a registry key, public master, derivative, endpoint, schema node, or sitemap entry before immutable native-resolution review and exact-hash Control Tower acceptance.",
+  "assets": [
+    {"pageId":"gestational-diabetes","displayName":"Gestational Diabetes Mellitus","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":"f94bd70756c3e842114b3ba574aeb712d69704e9a6bcbb943ebbd2421e20c4d0","meshHeading":"Diabetes, Gestational","meshId":"D016640","controlledIdentifier":"MeSH:D016640","representationBoundary":"Neutral pregnancy and glucose-regulation anatomy; no fetus, pre-existing diabetes, asserted mechanism, complication, severity, treatment, prognosis, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D016640","https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational/definition-facts"]},
+    {"pageId":"graves-disease","displayName":"Graves' Disease","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":"ccdebbef0305164f4cfd462d14d8246c11cb6e3949bd9d7c7d36840a614cf330","meshHeading":"Graves Disease","meshId":"D006111","controlledIdentifier":"MeSH:D006111","representationBoundary":"Representative diffuse thyroid and TSH-receptor-autoantibody orientation; no universal goiter or ophthalmopathy, hormone measurement, severity, treatment response, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D006111","https://www.niddk.nih.gov/health-information/endocrine-diseases/graves-disease"]},
+    {"pageId":"hashimotos-thyroiditis","displayName":"Hashimoto's Thyroiditis","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":"b57b3f9a8e331c871b03afa55881a457ad0754fd26b1ea2133d53e6685cc088c","meshHeading":"Hashimoto Disease","meshId":"D050031","controlledIdentifier":"MeSH:D050031","representationBoundary":"Representative autoimmune follicular-injury orientation; no histology claim, universal enlargement or atrophy, hormone measurement, stage, severity, treatment response, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D050031","https://www.niddk.nih.gov/health-information/endocrine-diseases/hashimotos-disease"]},
+    {"pageId":"hepatitis","displayName":"Hepatitis","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":"516a43cd311bb2cca81e6eb448eaa9fd60fbabb1328286f1918bc1c37e296df0","meshHeading":"Hepatitis","meshId":"D006505","controlledIdentifier":"MeSH:D006505","representationBoundary":"Broad etiology-neutral liver-inflammation orientation; no specific viral or nonviral cause, chronicity, fibrosis, severity, prognosis, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D006505"]},
+    {"pageId":"hidradenitis-suppurativa","displayName":"Hidradenitis Suppurativa","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":"26e75d4a50960da3da5ae7b38775ac9b12f4d28dec4aac6848238789f0626883","meshHeading":"Hidradenitis Suppurativa","meshId":"D017497","controlledIdentifier":"MeSH:D017497","representationBoundary":"Representative follicular occlusion and limited tunnel architecture; no universal lesion, contagious process, asserted cause, Hurley stage, severity, treatment response, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D017497","https://www.niams.nih.gov/health-topics/hidradenitis-suppurativa-hs"]},
+    {"pageId":"hiv","displayName":"HIV/AIDS","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":"a4f163910d55a359bf32edc48e2ee87a6f8f3615ccea3dd73d1dc363f6ff3882","meshHeading":"HIV Infections","meshId":"D015658","controlledIdentifier":"MeSH:D015658","representationBoundary":"Neutral HIV and immune-system orientation covering the spectrum that includes AIDS; no transmission, viral process, HIV type, cell count, viral load, treatment status, stage, prognosis, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D015658","https://www.hiv.gov/hiv-basics/overview/about-hiv-and-aids/what-are-hiv-and-aids","https://clinicalinfo.hiv.gov/en/glossary/immune-system"]}
+  ]
+}

@@ -83,3 +83,16 @@ Scientific references:
 - https://clinicalinfo.hiv.gov/en/glossary/immune-system
 
 All six exact prompts are scientifically cleared for one built-in image-generation call each. No prompt may be changed after the audit commit without a new audit. Returned media remains review-only until literal native-resolution audit, immutable hashes, separate Control Tower acceptance, metadata reconciliation, and derivative crop review are complete. Prompt-requested content must never be reported as observed output.
+
+## Frozen prompt hashes
+
+| Route | Revision | Prompt SHA-256 |
+| --- | ---: | --- |
+| `gestational-diabetes` | 1 | `f94bd70756c3e842114b3ba574aeb712d69704e9a6bcbb943ebbd2421e20c4d0` |
+| `graves-disease` | 1 | `ccdebbef0305164f4cfd462d14d8246c11cb6e3949bd9d7c7d36840a614cf330` |
+| `hashimotos-thyroiditis` | 1 | `b57b3f9a8e331c871b03afa55881a457ad0754fd26b1ea2133d53e6685cc088c` |
+| `hepatitis` | 1 | `516a43cd311bb2cca81e6eb448eaa9fd60fbabb1328286f1918bc1c37e296df0` |
+| `hidradenitis-suppurativa` | 1 | `26e75d4a50960da3da5ae7b38775ac9b12f4d28dec4aac6848238789f0626883` |
+| `hiv` | 1 | `a4f163910d55a359bf32edc48e2ee87a6f8f3615ccea3dd73d1dc363f6ff3882` |
+
+These hashes bind the exact prompt bodies above to audit commit `42dae80`. Any prompt change requires a new audit before generation.
