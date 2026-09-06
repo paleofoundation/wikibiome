@@ -93,8 +93,8 @@
       {
         "file": "data/article-media-batches/mechanisms-059.json",
         "batchId": "mechanisms-059",
-        "status": "prompt-frozen",
-        "sha256": "ea678fe8801aff10840dc409fa0c80842d64c0a0473ba3c8403138e40277d65a"
+        "status": "approved-awaiting-promotion",
+        "sha256": "943f75bd35c8fc72e09cb109d46aec128fa7615f4c6749bc0a5895edb7735d50"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -391,7 +391,7 @@
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 4
   },
   "categories": [
     {
@@ -8428,7 +8428,13 @@
       "route": "/article/aryl-hydrocarbon-receptor",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-059",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-059/aryl-hydrocarbon-receptor-draft.png",
+        "sha256": "fb6ce7bc8e223e88fbdb08ffd1f1688272dd976420515c1302f77124bd667105"
+      }
     },
     {
       "queuePosition": 338,
@@ -8441,7 +8447,13 @@
       "route": "/article/aspirin",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-059",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-059/aspirin-draft.png",
+        "sha256": "6072ae11332d6c938409600a73af0930e91d0b7b1b868dae70a13e9f17d498b9"
+      }
     },
     {
       "queuePosition": 339,
@@ -8468,7 +8480,13 @@
       "route": "/article/autophagy",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-059",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-059/autophagy-draft.png",
+        "sha256": "48e30b59c56f62a62d8d6671abc86a744d1585af9d08736aa134f543beb4e57c"
+      }
     },
     {
       "queuePosition": 341,
@@ -8494,7 +8512,13 @@
       "route": "/article/bacterial-contamination-hypothesis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-059",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-059/bacterial-contamination-hypothesis-draft.png",
+        "sha256": "8c82d6ee601523d55ff935f45c6f2cbefd1133157d77de3605ad3fbe85832ee9"
+      }
     },
     {
       "queuePosition": 343,

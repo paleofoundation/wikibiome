@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-059",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "reviewedOn": "2026-09-06",
   "auditCommit": "3b78051",
   "promptFreezeCommit": "3b78051",
@@ -20,11 +20,21 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 2,
   "revisionCount": 0,
-  "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "7d285880ceaf479646b388aa2c51a75cb89ce447a5c13faeff31b1706c1bb2b9",
+  "controlAcceptedPromptEvidenceSha256": "df860c5ff1c91d1340f0f5095a34cc43e6aee59ffc23eed8a1e4268cbd9e2658",
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "status": "accepted-four-exact-hashes-two-quarantined",
+    "acceptedOn": "2026-09-06",
+    "acceptedReviewCommit": "cd36692b76b14e7dc953aebe3a9f2fcacd860018",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["aryl-hydrocarbon-receptor", "aspirin", "autophagy", "bacterial-contamination-hypothesis"],
+    "nonPublishablePageIds": ["atherosclerosis", "bacteremia"]
+  },
   "assets": [
     {
       "pageId": "aryl-hydrocarbon-receptor", "displayName": "Aryl Hydrocarbon Receptor (AhR)", "assetType": "mechanism", "revision": 1,
-      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending-control",
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/mechanisms-batch-059/aryl-hydrocarbon-receptor-draft.png", "generationRecord": "exec-76b98653-3919-4113-8939-5694194ad6e7.png",
       "promptSha256": "a38114939df7847b81f57daa28273ff49761ffd416eb34a5b0f41b0d0cf20055", "sha256": "fb6ce7bc8e223e88fbdb08ffd1f1688272dd976420515c1302f77124bd667105", "fileSizeBytes": 1922445,
       "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit": "contain", "controlledIdentifier": "UniProt:P35869",
@@ -35,7 +45,7 @@
     },
     {
       "pageId": "aspirin", "displayName": "Aspirin", "assetType": "mechanism", "revision": 1,
-      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending-control",
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/mechanisms-batch-059/aspirin-draft.png", "generationRecord": "exec-f28fee70-4620-4e94-8e6a-60c59f7851f1.png",
       "promptSha256": "175869f4b7bad6fbdc049a32a6a26eb1cec11d4422ed044f9fcc32b5b9603aa7", "sha256": "6072ae11332d6c938409600a73af0930e91d0b7b1b868dae70a13e9f17d498b9", "fileSizeBytes": 1640456,
       "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit": "contain", "controlledIdentifier": "PubChem:2244",
@@ -56,7 +66,7 @@
     },
     {
       "pageId": "autophagy", "displayName": "Autophagy", "assetType": "mechanism", "revision": 1,
-      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending-control",
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/mechanisms-batch-059/autophagy-draft.png", "generationRecord": "exec-1d83646c-bc82-4134-9e00-64dc003c4ddb.png",
       "promptSha256": "7e99150f93cab038ed76202ff1539124f9b59267d56e33c3edf3198fb5aee031", "sha256": "48e30b59c56f62a62d8d6671abc86a744d1585af9d08736aa134f543beb4e57c", "fileSizeBytes": 1642707,
       "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit": "contain", "controlledIdentifier": "GO:0006914",
@@ -77,7 +87,7 @@
     },
     {
       "pageId": "bacterial-contamination-hypothesis", "displayName": "Bacterial Contamination Hypothesis", "assetType": "mechanism", "revision": 1,
-      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "pending-control",
+      "decision": "approved-after-output-audit", "generationStatus": "complete-single-call", "rootReviewDisposition": "accepted",
       "draft": "work/media-drafts/mechanisms-batch-059/bacterial-contamination-hypothesis-draft.png", "generationRecord": "exec-b9d12d15-5f25-4cbb-884c-a0f269fc6dde.png",
       "promptSha256": "7fe4ccded813b8672f68fd2f571b13865e0c058dba4f24c9cb0ee81f31ffd92b", "sha256": "8c82d6ee601523d55ff935f45c6f2cbefd1133157d77de3605ad3fbe85832ee9", "fileSizeBytes": 1528912,
       "dimensions": {"width":1536,"height":1024}, "proposedSocialResizeFit": "contain", "controlledIdentifier": "PMID:29692669",
