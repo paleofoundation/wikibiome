@@ -92,3 +92,7 @@ All four routes were scientifically cleared. Exactly four built-in calls complet
 | `zinc` | `exec-9d34ffcd-f670-4967-9f10-3be7b14ed71f.png` | `68a27de3deda1a107e5eb2992b9bb6e92b96867193f936c91c397192fed53e4a` | `aadd1f5cb1a3d94693f162a46c6aac7cd2c79993d22b27bc115d0b5868154272` | 1,610,450 | Three bluish-gray angular pieces with bright brittle-looking fracture faces; no prohibited content. | Edge minimum `[235,241,247]`; zero dark pixels; foreground x 67–1465, y 315–712; cover safe. |
 
 The native audit found no text, symbols, labels, people, products, ores, compounds, decorative particles, clipping, or scene-making. Uranium appears only within one complete sealed ampoule with three distinct contained pieces and no glow, hazard symbol, fuel, weapon, or exposure implication. Prompt intent is not reported as observed fact.
+
+## Control Tower exact-hash acceptance
+
+Control Tower accepted immutable review commit `90cbe21` on 2026-09-06. The accepted review manifest SHA-256 is `bbc40a55f731f88992320108ae3756512407362377d2969a2bbba79aea110ee2`; the accepted prompt-evidence SHA-256 is `9f33eadefc0d168ac912f35af66173bab9b16005de789649e16a25daf579c9fb`. Promotion is limited to the four source hashes recorded above; any byte change invalidates this acceptance.
