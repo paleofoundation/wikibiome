@@ -2,11 +2,12 @@
   "schemaVersion": 1,
   "batchId": "diseases-068",
   "category": "diseases",
-  "status": "prompt-frozen",
+  "status": "reviewed",
   "createdOn": "2026-09-06",
+  "reviewedOn": "2026-09-06",
   "authorizedParent": "868825bd0b66b4c87ad0953b693dbbb8d5315bc1",
   "auditCommit": "eb79d537251d6c201b59a202d81404f4bdf9fd74",
-  "promptFreezeCommit": "eb79d537251d6c201b59a202d81404f4bdf9fd74",
+  "promptFreezeCommit": "ab33b872c1b1f02427a492972bc5ee6d11f1231f",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/diseases-068.md",
   "reviewRecord": "docs/operations/media-reviews/diseases-068.md",
@@ -22,10 +23,10 @@
   },
   "reviewStandard": "The current condition identity, normal CNS and myelin anatomy context, non-diagnostic communication boundary, prior clipping failure, complete pale edge field, crop-safe geometry, and exact prompt were frozen before exactly one revision-2 call. Returned media remains review-only and literal observed output controls all later metadata.",
   "routeDecisionCount": 1,
-  "candidateCount": 0,
+  "candidateCount": 1,
   "scientificHoldCount": 0,
-  "generationCallCount": 0,
-  "reviewableGenerationCount": 0,
+  "generationCallCount": 1,
+  "reviewableGenerationCount": 1,
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 1,
@@ -36,8 +37,11 @@
       "displayName": "Multiple Sclerosis",
       "proposedAssetType": "pathology",
       "revision": 2,
-      "decision": "revision-2-prompt-frozen",
-      "generationStatus": "not-started",
+      "decision": "approved-after-output-audit",
+      "generationStatus": "complete-single-revision-call",
+      "rootReviewDisposition": "accepted",
+      "draft": "work/media-drafts/diseases-batch-068/multiple-sclerosis-draft-v2.png",
+      "generationRecord": "exec-7fc6ccac-8ccf-446e-b93c-423ad4ac36e9.png",
       "controlledIdentifier": "MeSH:D009103;MedGen:C0026769",
       "additionalIdentifiers": [
         "MeSHConcept:M0014197",
@@ -47,6 +51,12 @@
         "ORPHA:802"
       ],
       "promptSha256": "582eb9a33d959a121763ef96077ba2d1268b934f201d42d221bd0d3b522e014a",
+      "sha256": "7324d8985633a8b1db30686ebd8ba40f23eb494d0ca80a3b09027d4264f5b6fd",
+      "fileSizeBytes": 1289998,
+      "dimensions": {
+        "width": 1536,
+        "height": 1024
+      },
       "priorRejectedRevision": {
         "batchId": "diseases-053",
         "revision": 1,
@@ -65,7 +75,39 @@
         "https://www.ninds.nih.gov/health-information/disorders/multiple-sclerosis",
         "https://medlineplus.gov/genetics/condition/multiple-sclerosis/",
         "https://pubmed.ncbi.nlm.nih.gov/40975101/"
-      ]
+      ],
+      "scientificFinding": "Multiple sclerosis is a heterogeneous central-nervous-system disorder; normal CNS and myelin context can orient the reader without claiming that this image depicts a lesion, demyelination, subtype, stage, disability, diagnostic finding, biomarker, prognosis, or treatment response.",
+      "visualReview": "Exactly three separate complete normal-anatomy groups are visible: one brain with cerebellum, brainstem, and short upper-spinal continuation; one transverse spinal-cord section with a symmetric central gray-matter form; and one finite horizontal axon with four intact sheath internodes and three natural node gaps. No disease-state or diagnostic motif is visible.",
+      "outputAudit": {
+        "reviewedBy": "WikiBiome Control Tower dual independent native-resolution visual audit",
+        "reviewedOn": "2026-09-06",
+        "promptCountTrusted": false,
+        "observedSubjectDescription": "Three separate normal-anatomy teaching groups: a complete brain-cerebellum-brainstem-short-upper-spinal-cord assembly, a complete unmarked transverse spinal-cord section with symmetric central gray-matter context, and a complete finite myelinated-axon model with one continuous axon, four intact sheath internodes, three natural node gaps, and both termini visible.",
+        "observedVisibleBodyCount": 7,
+        "observedSpatialGroupingCount": 3,
+        "observedBrainAssemblyCount": 1,
+        "observedSpinalCordSectionCount": 1,
+        "observedContinuousAxonCount": 1,
+        "observedSheathInternodeCount": 4,
+        "observedNaturalNodeGapCount": 3,
+        "outerBackgroundBandWidthPx": 32,
+        "outerBackgroundDarkPixelCountBelowLuma128": 0,
+        "outerBackgroundMinRgb": [238, 244, 252],
+        "foregroundBoundsAtLumaBelow220": {
+          "minX": 61,
+          "minY": 260,
+          "maxX": 1483,
+          "maxY": 718
+        },
+        "sourceEdgeContact": false,
+        "containRequired": true,
+        "promptDeviation": "All structures are complete within a clean source edge field, but the wide brain-to-axon arrangement extends outside the centered 1200 by 630 cover-safe rectangle horizontally. Centered contain is mandatory and cover is forbidden.",
+        "metadataConsistency": "pass"
+      },
+      "proposedAlt": "Three normal teaching models show a complete brain and upper spinal continuation, an unmarked spinal-cord cross-section, and an intact axon with four sheath internodes.",
+      "proposedCaption": "Normal central-nervous-system and myelin orientation relevant to multiple sclerosis. These unmarked teaching models do not depict an MS lesion, scan, subtype, stage, disability, diagnosis, biomarker, prognosis, or treatment effect.",
+      "proposedDescription": "WikiBiome scientific reconstruction of three complete normal CNS and myelin teaching groups on a pale cool field; non-diagnostic and not a scan or histology image.",
+      "proposedProvenance": "Generated once from the immutable Batch 068 revision-2 prompt after MeSH, MedGen, NINDS, MedlinePlus, anatomy-identifier, diagnostic-boundary, and prior-clipping audits; reviewed independently at native resolution. Review-only trained-algorithmic reconstruction."
     }
   ]
 }
