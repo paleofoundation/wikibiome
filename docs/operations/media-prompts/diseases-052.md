@@ -98,4 +98,4 @@ These hashes bind the exact marker-contained prompt bodies. Any prompt change re
 
 ## Immutable generation and review checkpoint
 
-No generation call has occurred at prompt-freeze time. Generation records, byte hashes, literal observed output, edge statistics, and crop recommendations will be recorded only after the exact frozen prompts are used once each.
+Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-052/`. Native inspection, exact source hashes, literal teaching-model counts, prohibited-content checks, edge statistics, and candidate dispositions are frozen in `docs/operations/media-reviews/diseases-052.md`. No output is public; exact-hash promotion authorization remains a separate Control Tower gate.

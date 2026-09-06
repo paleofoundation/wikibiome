@@ -51,8 +51,8 @@
       {
         "file": "data/article-media-batches/diseases-052.json",
         "batchId": "diseases-052",
-        "status": "prompt-frozen",
-        "sha256": "989b933a7060decd3922fdbc3d3125094c46d11f92d5faa6ee0f9764e87b9292"
+        "status": "awaiting-control-review",
+        "sha256": "ee0650d04855fe5739ac525e31a3a2c268a4d1007be1344a347d3d9b4b083546"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -349,7 +349,7 @@
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -1282,55 +1282,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 295,
-      "id": "huntingtons-disease",
-      "title": "Huntington's Disease",
-      "route": "/article/huntingtons-disease",
+      "queuePosition": 301,
+      "id": "migraine",
+      "title": "Migraine",
+      "route": "/article/migraine",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 296,
-      "id": "hypertension",
-      "title": "Hypertension",
-      "route": "/article/hypertension",
+      "queuePosition": 302,
+      "id": "multiple-sclerosis",
+      "title": "Multiple Sclerosis",
+      "route": "/article/multiple-sclerosis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 297,
-      "id": "inflammatory-bowel-disease",
-      "title": "Inflammatory Bowel Disease (IBD)",
-      "route": "/article/inflammatory-bowel-disease",
+      "queuePosition": 303,
+      "id": "necrotizing-enterocolitis",
+      "title": "Necrotizing Enterocolitis",
+      "route": "/article/necrotizing-enterocolitis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 298,
-      "id": "ibs",
-      "title": "Irritable Bowel Syndrome (IBS)",
-      "route": "/article/ibs",
+      "queuePosition": 304,
+      "id": "non-alcoholic-fatty-liver-disease",
+      "title": "Non-Alcoholic Fatty Liver Disease",
+      "route": "/article/non-alcoholic-fatty-liver-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 299,
-      "id": "long-covid",
-      "title": "Long COVID",
-      "route": "/article/long-covid",
+      "queuePosition": 305,
+      "id": "obesity",
+      "title": "Obesity",
+      "route": "/article/obesity",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 300,
-      "id": "major-depressive-disorder",
-      "title": "Major Depressive Disorder",
-      "route": "/article/major-depressive-disorder",
+      "queuePosition": 306,
+      "id": "ovarian-cancer",
+      "title": "Ovarian Cancer",
+      "route": "/article/ovarian-cancer",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -7524,7 +7524,13 @@
       "route": "/article/huntingtons-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-052",
+        "decision": "candidate-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-052/huntingtons-disease-draft.png",
+        "sha256": "cba77e4bc5d91a7aed671344b4e88ba7e4e83d8724ddfe6bd709b87404dc368b"
+      }
     },
     {
       "queuePosition": 296,
@@ -7538,7 +7544,13 @@
       "route": "/article/hypertension",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-052",
+        "decision": "candidate-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-052/hypertension-draft.png",
+        "sha256": "bafbdd7618b4dc2dbbc5da403bcd00d247824d25b672210b9cc3a0604b47f3b7"
+      }
     },
     {
       "queuePosition": 297,
@@ -7552,7 +7564,13 @@
       "route": "/article/inflammatory-bowel-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-052",
+        "decision": "candidate-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-052/inflammatory-bowel-disease-draft.png",
+        "sha256": "a34968bb6a50c37ee5bffb908c8eac5bb565620c2645792d66762ae1b6ba09b8"
+      }
     },
     {
       "queuePosition": 298,
@@ -7566,7 +7584,13 @@
       "route": "/article/ibs",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-052",
+        "decision": "candidate-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-052/ibs-draft.png",
+        "sha256": "ab837454e3fad5b60165456ae0ca9124769b11e065bf046009b39db0733638eb"
+      }
     },
     {
       "queuePosition": 299,
@@ -7580,7 +7604,13 @@
       "route": "/article/long-covid",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-052",
+        "decision": "candidate-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-052/long-covid-draft.png",
+        "sha256": "ba99090a6bd04e0cf26b56dd4df2ff12998ae8094c1cbe0ce2c207ee7e0d4917"
+      }
     },
     {
       "queuePosition": 300,
@@ -7593,7 +7623,13 @@
       "route": "/article/major-depressive-disorder",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "diseases-052",
+        "decision": "candidate-after-output-audit",
+        "draft": "work/media-drafts/diseases-batch-052/major-depressive-disorder-draft.png",
+        "sha256": "50c7b82570fafbbf887299998ed75f10236ad897b6e86f0d8c3c1c757c665152"
+      }
     },
     {
       "queuePosition": 301,
