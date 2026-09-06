@@ -2936,18 +2936,19 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-33-3-618/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
-    "phocaeicola",
-    "veillonellaceae",
-    "verrucomicrobia",
-    "vibrio",
-    "yersinia-pestis",
+    "aluminum",
+    "antimony",
+    "arsenic",
+    "barium",
+    "bismuth",
+    "cadmium",
   ]);
-  assert.equal(program.current.completed, 215);
-  assert.equal(program.current.remaining, 495);
-  assert.equal(program.current.rejected, 28);
+  assert.equal(program.current.completed, 217);
+  assert.equal(program.current.remaining, 493);
+  assert.equal(program.current.rejected, 30);
   assert.equal(program.current.revised, 11);
   assert.equal(program.current.inReview, 0);
-  assert.equal(program.current.scientificHolds, 12);
+  assert.equal(program.current.scientificHolds, 15);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -3508,9 +3509,57 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
   }
   assert.doesNotMatch(batch039PromptRecord, /<!-- PROMPT tyzzerella START -->/);
+  const batch040 = batches.find((batch) => batch.batchId === "microorganisms-040");
+  assert.equal(batch040?.status, "reviewed");
+  assert.equal(batch040?.authorizedParent, "8368aff06a0b441f08bb7623fe511e34d46881e7");
+  assert.equal(batch040?.publicationMetadataPlan?.reviewOnly, false);
+  assert.equal(batch040?.routeDecisionCount, 4);
+  assert.equal(batch040?.candidateCount, 2);
+  assert.equal(batch040?.scientificHoldCount, 2);
+  assert.equal(batch040?.generationCallCount, 3);
+  assert.equal(batch040?.reviewableGenerationCount, 2);
+  assert.equal(batch040?.failedGenerationCount, 1);
+  assert.equal(batch040?.controlReviewRequired, false);
+  assert.equal(batch040?.controlFinalReview?.acceptedReviewCommit, "48ec0e9");
+  assert.equal(batch040?.controlSocialCropReview?.status, "accepted-two-centered-cover-derivatives");
+  assert.equal(batch040?.controlAcceptedReviewManifestSha256, "4741c4694e2340138c6fa2d65aa93e06811058b56bc0b68c1e7be43970329346");
+  assert.equal(batch040?.controlAcceptedPromptEvidenceSha256, "0b9ee4d0a17a64e9fb162640c8600cad63b5112da6c781f86e0ec849fe1906c6");
+  const batch040ExpectedOutputs = new Map([
+    ["veillonellaceae", ["NCBITaxon:31977", "e19ad6c52365338661d17a0140199c4c925ecca0d3cdae9705c1d42b6ae4c9f7", "0912fe63671bd1e4926187d2742d6a50bad337b93172834dcedf16486ee93c11", 1176738, 14, 6]],
+    ["vibrio", ["NCBITaxon:662", "c81fd306c5dcfc2748256989ea3fe9254ce0936a7c2efe007568214893f50297", "923aa09b8b58073cda4b95c384c62adfab373ca9a1d31dd82458666b0d3aa29e", 1269272, 8, 8]],
+  ]);
+  const batch040PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-040.md", import.meta.url), "utf8");
+  for (const asset of batch040?.assets ?? []) {
+    const [identifier, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch040ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.rootReviewDisposition, "accepted");
+    assert.equal(asset.controlledIdentifier, identifier);
+    assert.equal(asset.promptSha256, promptSha256);
+    assert.equal(asset.sha256, sha256);
+    assert.equal(asset.fileSizeBytes, fileSize);
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), sha256);
+    const promptMatch = batch040PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
+    const media = articleMediaRegistry[asset.pageId];
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.disposition, "approved");
+    const [draftPixels, masterPixels] = await Promise.all([sharp(draftBytes).removeAlpha().raw().toBuffer(), sharp(readFileSync(new URL(`../media/masters/${media.masterSource}`, import.meta.url))).removeAlpha().raw().toBuffer()]);
+    assert.equal(Buffer.compare(draftPixels, masterPixels), 0, `${asset.pageId} master must decode pixel-identically to accepted source`);
+    const socialMetadata = await sharp(readFileSync(new URL(`../public/media-files/${media.socialFile}`, import.meta.url))).metadata();
+    assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
+  }
+  assert.doesNotMatch(batch040PromptRecord, /<!-- PROMPT verrucomicrobia START -->/);
+  const yersiniaHold = reviewLog.rejectedAssets.find((asset) => asset.pageId === "yersinia-pestis" && asset.batchId === "microorganisms-040");
+  assert.equal(yersiniaHold?.disposition, "scientific-media-hold");
+  assert.equal(yersiniaHold?.generationAttempt?.callCount, 1);
+  assert.equal(yersiniaHold?.generationAttempt?.retryCount, 0);
+  assert.equal(articleMediaRegistry["yersinia-pestis"], undefined);
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
-  const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
+  const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => ["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition));
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [
+    "verrucomicrobia",
     "tyzzerella",
     "lachnoclostridium",
     "lachnospiraceae-family",
@@ -3519,6 +3568,8 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     "lactobacillus-rhamnosus",
     "mycoplasma-hominis",
     "oscillospirales",
+    "phocaeicola",
+    "yersinia-pestis",
     "ruminococcaceae",
     "ruminococcus-albus",
     "ruminococcus-gnavus",

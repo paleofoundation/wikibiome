@@ -39,6 +39,12 @@
     "integratedReviewCommit": "48ec0e9",
     "notes": "Control Tower verified the exact parent, immutable prompts and hashes, identities, type anchoring, literal output, edge fields, crop safety, one no-output safety rejection, and zero public leakage. Only the two recorded PNGs are approved."
   },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-two-centered-cover-derivatives",
+    "notes": "Control Tower inspected both native social derivatives at original detail. All fourteen Veillonellaceae cocci and all eight Vibrio rods with three complete single polar flagella remain visible and unclipped on the pale cool field."
+  },
   "routeDecisions": [
     {
       "pageId": "verrucomicrobia",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedOn": "2026-09-05",
+  "generatedOn": "2026-09-06",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
     "upstreamCommit": "449e8005c3156d1b7943d2cdedd5b4386b9f5703",
@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "53f93b4ab520af438ba3f6c9808e7cc3a3876d3575dd5e466b3621ccddba7397",
+    "registrySha256": "bc2364985709c4b048d1756f349ad6e6a1b6406f3ef803976f03a5a64cf897a1",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "0e82894d93d1322945dd0b216526c72e0918dd455c315377596674cbbeb6eb8c",
+    "reviewLogSha256": "f20a2713c0bfc857f3491314167572d418eb2d2b79a1715320b5acf70f3f26a8",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -245,6 +245,12 @@
         "batchId": "microorganisms-039",
         "status": "reviewed",
         "sha256": "0330eb542bf457cd5102ee0c08dc04a927596c5446fbd2e95e64467e26eee734"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-040.json",
+        "batchId": "microorganisms-040",
+        "status": "reviewed",
+        "sha256": "f63f9005238a3eb803ebbb90d7e8a6b3d5f0ce2544f0ae3042fc7aea35b00b3a"
       }
     ]
   },
@@ -266,11 +272,11 @@
   },
   "current": {
     "total": 710,
-    "completed": 215,
-    "remaining": 495,
-    "rejected": 28,
+    "completed": 217,
+    "remaining": 493,
+    "rejected": 30,
     "revised": 11,
-    "scientificHolds": 12,
+    "scientificHolds": 15,
     "inReview": 0
   },
   "categories": [
@@ -278,8 +284,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 212,
-      "remaining": 17
+      "completed": 214,
+      "remaining": 15
     },
     {
       "id": "metals",
@@ -332,6 +338,25 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "verrucomicrobia",
+      "sourceEraIdentifier": "NCBITaxon:74201",
+      "batchId": "microorganisms-040",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Verrucomicrobiota",
+      "proposedCanonicalPageId": "verrucomicrobiota",
+      "reason": "NCBI maps NCBITaxon:74201 to current phylum Verrucomicrobiota and retains Verrucomicrobia as a homotypic synonym. LPSN states that Verrucomicrobia was not validly published, has no standing, and has Verrucomicrobiota Hedlund 2021 as the correct name. The legacy route cannot own a current-phylum media asset.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=74201&mode=Info",
+        "https://lpsn.dsmz.de/phylum/verrucomicrobia",
+        "local:data/content.generated.json#/pages/verrucomicrobia",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Reconcile the canonical route to valid current phylum Verrucomicrobiota, preserve Verrucomicrobia only as an audited alias or source-era label where appropriate, and return the reconciled entity to its deterministic uncovered-media position.",
+      "routingImpact": "The Verrucomicrobia route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, endpoints, and image-sitemap entries."
+    },
     {
       "pageId": "tyzzerella",
       "sourceEraIdentifier": "NCBITaxon:1506577",
@@ -905,7 +930,32 @@
       "reason": "Control Tower rejected and quarantined the output because conspicuous flagella overstate a materially disputed current-genus structure and each tuft contains four rather than the frozen prompt's three filaments.",
       "supersededBy": null,
       "outcome": "No retry was made or authorized in batch 029. The route remains queued and uncovered for a future scientifically bounded treatment.",
+      "requiredResolution": "Keep the generated raster permanently quarantined. Resolve future coverage only through newly authoritative morphology evidence and a separately authorized immutable candidate, or a provenance-reviewed public-domain or appropriately licensed scientific source image; do not regenerate from the disputed flagellar interpretation.",
       "routingImpact": "The exact PNG remains immutable quarantined audit evidence only. It has no review-candidate status, public registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion."
+    },
+    {
+      "pageId": "yersinia-pestis",
+      "sourceEraIdentifier": "NCBITaxon:632",
+      "batchId": "microorganisms-040",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-media-hold",
+      "currentAcceptedName": "Yersinia pestis",
+      "reason": "The current conserved species identity, type strain, and conservative morphology cleared scientific review, but the route's single authorized built-in generation request was rejected by the input safety system and produced no raster. The route must remain asset-free rather than retrying, weakening the scientific prompt, or substituting an unreviewed image.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=632&mode=Info",
+        "https://lpsn.dsmz.de/species/yersinia-pestis",
+        "https://www.cdc.gov/plague/hcp/diagnosis-testing/index.html"
+      ],
+      "requiredResolution": "Use a separately authorized, provenance-reviewed public-domain or appropriately licensed scientific source image, or obtain explicit approval for the documented CLI fallback. Any future candidate requires a new immutable source/prompt record and full review; do not silently retry the failed built-in call.",
+      "routingImpact": "The Yersinia pestis route remains uncovered and asset-free and is excluded from registry keys, masters, derivatives, endpoints, and image-sitemap entries until a separately authorized candidate passes all gates.",
+      "generationAttempt": {
+        "tool": "OpenAI built-in image generation",
+        "status": "input-safety-rejected-no-output",
+        "requestId": "e21e5164-525c-4cce-90bd-f825980b3cdc",
+        "callCount": 1,
+        "retryCount": 0
+      }
     },
     {
       "pageId": "ruminococcaceae",
@@ -1134,49 +1184,58 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 165,
-      "id": "phocaeicola",
-      "title": "Phocaeicola",
-      "route": "/article/phocaeicola",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
+      "queuePosition": 230,
+      "id": "aluminum",
+      "title": "Aluminum",
+      "route": "/article/aluminum",
+      "category": "metal",
+      "coverageGroup": "metals",
+      "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 226,
-      "id": "veillonellaceae",
-      "title": "Veillonellaceae",
-      "route": "/article/veillonellaceae",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
+      "queuePosition": 231,
+      "id": "antimony",
+      "title": "Antimony",
+      "route": "/article/antimony",
+      "category": "metal",
+      "coverageGroup": "metals",
+      "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 227,
-      "id": "verrucomicrobia",
-      "title": "Verrucomicrobia",
-      "route": "/article/verrucomicrobia",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
+      "queuePosition": 232,
+      "id": "arsenic",
+      "title": "Arsenic",
+      "route": "/article/arsenic",
+      "category": "metal",
+      "coverageGroup": "metals",
+      "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 228,
-      "id": "vibrio",
-      "title": "Vibrio",
-      "route": "/article/vibrio",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
+      "queuePosition": 233,
+      "id": "barium",
+      "title": "Barium",
+      "route": "/article/barium",
+      "category": "metal",
+      "coverageGroup": "metals",
+      "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 229,
-      "id": "yersinia-pestis",
-      "title": "Yersinia pestis",
-      "route": "/article/yersinia-pestis",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
+      "queuePosition": 234,
+      "id": "bismuth",
+      "title": "Bismuth",
+      "route": "/article/bismuth",
+      "category": "metal",
+      "coverageGroup": "metals",
+      "suggestedAssetType": "technical-specimen"
+    },
+    {
+      "queuePosition": 235,
+      "id": "cadmium",
+      "title": "Cadmium",
+      "route": "/article/cadmium",
+      "category": "metal",
+      "coverageGroup": "metals",
+      "suggestedAssetType": "technical-specimen"
     }
   ],
   "queue": [
@@ -4629,7 +4688,13 @@
       "route": "/article/phocaeicola",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-05",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and native-resolution visual review",
+        "reason": "Control Tower rejected and quarantined the output because conspicuous flagella overstate a materially disputed current-genus structure and each tuft contains four rather than the frozen prompt's three filaments.",
+        "requiredResolution": "Keep the generated raster permanently quarantined. Resolve future coverage only through newly authoritative morphology evidence and a separately authorized immutable candidate, or a provenance-reviewed public-domain or appropriately licensed scientific source image; do not regenerate from the disputed flagellar interpretation."
+      }
     },
     {
       "queuePosition": 166,
@@ -5894,7 +5959,15 @@
       "route": "/article/veillonellaceae",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "veillonellaceae-morphology-v1-master.png",
+        "publishedFile": "veillonellaceae-morphology-v1.webp",
+        "socialFile": "veillonellaceae-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 227,
@@ -5907,7 +5980,13 @@
       "route": "/article/verrucomicrobia",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI maps NCBITaxon:74201 to current phylum Verrucomicrobiota and retains Verrucomicrobia as a homotypic synonym. LPSN states that Verrucomicrobia was not validly published, has no standing, and has Verrucomicrobiota Hedlund 2021 as the correct name. The legacy route cannot own a current-phylum media asset.",
+        "requiredResolution": "Reconcile the canonical route to valid current phylum Verrucomicrobiota, preserve Verrucomicrobia only as an audited alias or source-era label where appropriate, and return the reconciled entity to its deterministic uncovered-media position."
+      }
     },
     {
       "queuePosition": 228,
@@ -5920,7 +5999,15 @@
       "route": "/article/vibrio",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "vibrio-morphology-v1-master.png",
+        "publishedFile": "vibrio-morphology-v1.webp",
+        "socialFile": "vibrio-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 229,
@@ -5933,7 +6020,13 @@
       "route": "/article/yersinia-pestis",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "The current conserved species identity, type strain, and conservative morphology cleared scientific review, but the route's single authorized built-in generation request was rejected by the input safety system and produced no raster. The route must remain asset-free rather than retrying, weakening the scientific prompt, or substituting an unreviewed image.",
+        "requiredResolution": "Use a separately authorized, provenance-reviewed public-domain or appropriately licensed scientific source image, or obtain explicit approval for the documented CLI fallback. Any future candidate requires a new immutable source/prompt record and full review; do not silently retry the failed built-in call."
+      }
     },
     {
       "queuePosition": 230,

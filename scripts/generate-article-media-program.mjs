@@ -160,7 +160,7 @@ const categories = mediaCoverageGroups.map((group) => {
 });
 
 const completed = queue.filter((route) => route.status === "reviewed").length;
-const firstOpenGroup = categories.find((group) => group.remaining > 0);
+const firstOpenGroup = categories.find((group) => queue.some((route) => route.coverageGroup === group.id && route.status === "queued"));
 const nextBatch = firstOpenGroup
   ? queue
       .filter((route) => route.coverageGroup === firstOpenGroup.id && route.status === "queued")

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "updatedOn": "2026-09-05",
+  "updatedOn": "2026-09-06",
   "reviewableBatchSize": 6,
   "reviewingAuthorities": {
     "wikibiome-media-program": {
@@ -4979,6 +4979,22 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal count and grouping; caption states type-species anchoring and non-diagnostic limits." },
       "disposition": "approved", "notes": "Exact immutable batch-039 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "veillonella-draft.png", "sourceSha256": "3a069146c74f4175acfd5239d6df40a5a72da043b9040f890efeb6beb4de51a4", "generationRecord": "exec-6a8070c9-6053-422d-a827-470be60e74cf.png" }
+    },
+    "veillonellaceae|veillonellaceae-morphology-v1.webp": {
+      "pageId": "veillonellaceae", "publishedFile": "veillonellaceae-morphology-v1.webp", "masterSource": "veillonellaceae-morphology-v1-master.png", "socialFile": "veillonellaceae-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=31977&mode=Info", "https://lpsn.dsmz.de/family/veillonellaceae"], "notes": "Current family, type genus, and deliberately type-genus-anchored paired or chained coccal morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted fourteen individually countable cocci in five opposed pairs and one four-coccus chain." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal count and grouping; caption states type-genus anchoring, representative family scope, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-040 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "veillonellaceae-draft.png", "sourceSha256": "0912fe63671bd1e4926187d2742d6a50bad337b93172834dcedf16486ee93c11", "generationRecord": "exec-d83395d5-d209-47f7-92ac-cb6c0a252beb.png" }
+    },
+    "vibrio|vibrio-morphology-v1.webp": {
+      "pageId": "vibrio", "publishedFile": "vibrio-morphology-v1.webp", "masterSource": "vibrio-morphology-v1-master.png", "socialFile": "vibrio-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=662&mode=Info", "https://lpsn.dsmz.de/genus/vibrio", "https://www.ncbi.nlm.nih.gov/books/NBK8407/"], "notes": "Current genus, type species, curved rod morphology, and a single polar flagellum for the type-species anchor are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted eight curved or comma-shaped rods, exactly three each with one single polar flagellum; no universal genus-wide flagellation claim is made." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal count and flagellar relationship; caption states type-species anchoring and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-040 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "vibrio-draft.png", "sourceSha256": "923aa09b8b58073cda4b95c384c62adfab373ca9a1d31dd82458666b0d3aa29e", "generationRecord": "exec-46d00b8c-1af1-4db7-ace4-b55db4b76ab7.png" }
     }
   },
   "rejectedAssets": [
@@ -5574,6 +5590,7 @@
       "reason": "Control Tower rejected and quarantined the output because conspicuous flagella overstate a materially disputed current-genus structure and each tuft contains four rather than the frozen prompt's three filaments.",
       "supersededBy": null,
       "outcome": "No retry was made or authorized in batch 029. The route remains queued and uncovered for a future scientifically bounded treatment.",
+      "requiredResolution": "Keep the generated raster permanently quarantined. Resolve future coverage only through newly authoritative morphology evidence and a separately authorized immutable candidate, or a provenance-reviewed public-domain or appropriately licensed scientific source image; do not regenerate from the disputed flagellar interpretation.",
       "routingImpact": "The exact PNG remains immutable quarantined audit evidence only. It has no review-candidate status, public registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion."
     },
     {
