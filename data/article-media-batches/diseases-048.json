@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "batchId": "diseases-048",
+  "category": "diseases",
+  "status": "audited",
+  "createdOn": "2026-09-06",
+  "authorizedParent": "ade99a25af13fe72ef088b49148f911735018031",
+  "auditCommit": null,
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/diseases-048.md",
+  "publicationMetadataPlan": {
+    "reviewOnly": true,
+    "creator": "OpenAI built-in image generation",
+    "credit": "WikiBiome / Microbiome Medicine",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "digitalSourceType": "trainedAlgorithmicMedia",
+    "mediaDescription": "Review-only scientific algorithmic anatomical or pathology reconstruction, not a photograph, scan, histology slide, patient record, or diagnostic image",
+    "sourceUse": "NLM MeSH supplies controlled condition identity and scope; official NIH sources supply conservative anatomical and communication boundaries only. No source image or design is copied."
+  },
+  "reviewStandard": "Current controlled condition identity, anatomically conservative and non-diagnostic representation, non-stigmatizing communication, complete pale edge field, crop-safe geometry, and exact prompt must be frozen before exactly one generation call per cleared route. Observed output controls later metadata.",
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 0,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "controlReviewRequired": true,
+  "promotionRule": "No output may receive a registry key, public master, derivative, endpoint, schema node, or sitemap entry before immutable native-resolution review and exact-hash Control Tower acceptance.",
+  "assets": [
+    {"pageId":"chronic-kidney-disease","displayName":"Chronic Kidney Disease","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":null,"meshHeading":"Renal Insufficiency, Chronic","meshId":"D051436","controlledIdentifier":"MeSH:D051436","representationBoundary":"Complete paired-kidney orientation with one restrained nephron and glomerular inset; no universal gross lesion, stage, dialysis, etiology, severity, laboratory value, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D051436","https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/what-is-chronic-kidney-disease"]},
+    {"pageId":"cirrhosis","displayName":"Cirrhosis","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":null,"meshHeading":"Liver Cirrhosis","meshId":"D008103","controlledIdentifier":"MeSH:D008103","representationBoundary":"Complete liver teaching model with one limited cutaway showing representative fibrous septa around regenerative nodules; no asserted cause, stage, complication, patient, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D008103","https://www.niddk.nih.gov/health-information/liver-disease/cirrhosis/definition-facts"]},
+    {"pageId":"colorectal-cancer","displayName":"Colorectal Cancer","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":null,"meshHeading":"Colorectal Neoplasms","meshId":"D015179","controlledIdentifier":"MeSH:D015179","representationBoundary":"Complete colon and rectum teaching model with one restrained raised mucosal lesion visible through a small cutaway; no stage, metastasis, obstruction, procedure, patient, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D015179","https://www.cancer.gov/types/colorectal/screening-fact-sheet"]},
+    {"pageId":"coronary-artery-disease","displayName":"Coronary Artery Disease","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":null,"meshHeading":"Coronary Artery Disease","meshId":"D003324","controlledIdentifier":"MeSH:D003324","representationBoundary":"Complete heart and coronary-vessel orientation with a separate representative artery cross-section containing eccentric plaque and a patent lumen; no occlusion, infarction, clot, stage, symptoms, procedure, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D003324","https://www.nhlbi.nih.gov/health/coronary-heart-disease/causes"]},
+    {"pageId":"crohns-disease","displayName":"Crohn Disease","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":null,"meshHeading":"Crohn Disease","meshId":"D003424","controlledIdentifier":"MeSH:D003424","representationBoundary":"Complete terminal ileum, cecum, and colon orientation with one separate bowel-wall model showing patchy transmural inflammation; no fistula, obstruction, bleeding, distribution claim, severity, patient, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D003424","https://www.niddk.nih.gov/health-information/digestive-diseases/crohns-disease/definition-facts"]},
+    {"pageId":"cystic-fibrosis","displayName":"Cystic Fibrosis","proposedAssetType":"pathology","revision":1,"decision":"cleared-for-one-call","generationStatus":"not-started","promptSha256":null,"meshHeading":"Cystic Fibrosis","meshId":"D003550","controlledIdentifier":"MeSH:D003550","representationBoundary":"Neutral multisystem exocrine orientation with complete lungs, one airway cross-section, and a separate complete pancreas; no person, infection organism, genotype, stage, treatment, universal severity, or diagnosis.","scientificReferences":["https://meshb.nlm.nih.gov/record/ui?ui=D003550","https://www.nhlbi.nih.gov/health/cystic-fibrosis"]}
+  ]
+}
