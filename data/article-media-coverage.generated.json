@@ -87,8 +87,8 @@
       {
         "file": "data/article-media-batches/mechanisms-058.json",
         "batchId": "mechanisms-058",
-        "status": "in-review",
-        "sha256": "0ccfbb41804fba688a04f18b6d066db826b0dfd79383a1527653fc8d3d2fdaa4"
+        "status": "approved-awaiting-promotion",
+        "sha256": "c8434d7d48bdbad6b16736b647c650549081f81422d9d103bb08c995643af2a8"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -385,7 +385,7 @@
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -8296,7 +8296,13 @@
       "route": "/article/alpha-synuclein",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-058",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-058/alpha-synuclein-draft.png",
+        "sha256": "8f5871b34784f5b946ca69c91dc7fc0f46466a2892525e4622f63cf8b9394a6d"
+      }
     },
     {
       "queuePosition": 332,
@@ -8309,7 +8315,13 @@
       "route": "/article/amyloid-beta",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-058",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-058/amyloid-beta-draft.png",
+        "sha256": "dd858c210838c7698ce33930c69863ee388cc4d457176df2d68f15b25ba3ad79"
+      }
     },
     {
       "queuePosition": 333,
@@ -8322,7 +8334,13 @@
       "route": "/article/amyloid-beta-aggregation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-058",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-058/amyloid-beta-aggregation-draft.png",
+        "sha256": "8d668f910adbc643f3de852b299e73c081715350ff00401b93f75759d8a2e65d"
+      }
     },
     {
       "queuePosition": 334,
@@ -8335,7 +8353,13 @@
       "route": "/article/antimicrobial-resistance",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-058",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-058/antimicrobial-resistance-draft.png",
+        "sha256": "0e77a72f9c45f7bd32162fd2ee44994f70cc91bfc22b118de6c732e6cc319ca3"
+      }
     },
     {
       "queuePosition": 335,
@@ -8348,7 +8372,13 @@
       "route": "/article/arachidonic-acid",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-058",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-058/arachidonic-acid-draft.png",
+        "sha256": "4c4041a4f32c7357c3ce5f7bef7c68201b5b603cab2dd5bc5327573e55c57bad"
+      }
     },
     {
       "queuePosition": 336,
@@ -8361,7 +8391,13 @@
       "route": "/article/aromatase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-058",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-058/aromatase-draft.png",
+        "sha256": "35de5da31326fad4ccff2c63703b273a8db007883f8bd16a589e356e1e0cfe18"
+      }
     },
     {
       "queuePosition": 337,

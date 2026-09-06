@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-058",
   "category": "mechanisms",
-  "status": "reviewed",
+  "status": "approved-awaiting-promotion",
   "reviewedOn": "2026-09-06",
   "auditCommit": "fe45de96bd0d67c5b46a1efc3b023ed087391d9a",
   "promptFreezeCommit": "fe45de96bd0d67c5b46a1efc3b023ed087391d9a",
