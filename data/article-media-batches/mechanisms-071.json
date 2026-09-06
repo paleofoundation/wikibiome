@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-071",
   "category": "mechanisms",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "8438fccc4c1c54adb5d8ec96d882c96c3bc5cf81",
@@ -19,7 +19,7 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, micrograph, scan, assay result, diagnostic image, treatment result, or procedural instruction",
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied. Related identifiers are explicitly distinguished from exact concept identities."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "reviewStandard": "Each of the six frozen routes received exactly one built-in generation call. All six originals were preserved and inspected independently at native 1536 by 1024 resolution. Literal output, exact body and group counts, geometry, prohibited content, outer 32-pixel field, crop bounds, hashes, and conservative meaning controlled disposition; prompt intent was never treated as observation. Reviewer disagreements on sphere identity, intestinal specificity, and overlapping microbial bodies were resolved conservatively against publication.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -43,7 +43,15 @@
     "acceptedSourceSha256": ["2e6da7173bfb51ad188f5aa55b258bd1e5a84eb3f462a83baf051693712bd10f"],
     "nonPublishablePageIds": ["glyoxalase", "gut-barrier-dysfunction", "gut-microbiome", "gut-brain-axis", "gut-gonadal-axis"]
   },
-  "promotionRule": "Only the exact accepted gingipains source hash may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The Glyoxalase I, Gut Barrier Dysfunction, Gut Microbiome, Gut-Brain Axis, and Gut-Gonadal Axis originals remain immutable non-public quarantines.",
+  "promotionRule": "Only the exact accepted gingipains source hash was promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The Glyoxalase I, Gut Barrier Dysfunction, Gut Microbiome, Gut-Brain Axis, and Gut-Gonadal Axis originals remain immutable non-public quarantines.",
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative-after-independent-native-review",
+  "promotionDerivatives": {
+    "gingipains": {
+      "masterSha256": "dc01da3849ba7d0e655db99b40bc284bdd7ac5fb82d74ffc2719ec6c7e8e64fb",
+      "articleSha256": "eaffa306e032695fa4d3cac1d51544e5e2c648d23fee2dfd068c2ea4d508d8c2",
+      "socialSha256": "743b3f54545f38df70a0127b3bdc61434b6998b8cd48c36a7dd1cabd2575830f"
+    }
+  },
   "assets": [
     {
       "pageId": "gingipains",
@@ -61,6 +69,9 @@
       "fileSizeBytes": 1534961,
       "dimensions": {"width": 1536, "height": 1024},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "dc01da3849ba7d0e655db99b40bc284bdd7ac5fb82d74ffc2719ec6c7e8e64fb",
+      "articleSha256": "eaffa306e032695fa4d3cac1d51544e5e2c648d23fee2dfd068c2ea4d508d8c2",
+      "socialSha256": "743b3f54545f38df70a0127b3bdc61434b6998b8cd48c36a7dd1cabd2575830f",
       "scientificReferences": [
         "https://meshb.nlm.nih.gov/record/ui?ui=D000080867",
         "https://www.ebi.ac.uk/merops/cgi-bin/famsum?family=C25",

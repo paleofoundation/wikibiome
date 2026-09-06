@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "d1743c8677c986f18f68078b875dd0c9b78a3bfe87cf2326c7f99479a50693da",
+    "registrySha256": "55365da8727d1508211ecc8fe44eae8ea259097ab8f1f3abde3eefe773579904",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "14eff4e59692b195786059ce0522097724f7fe13a21436ee360cf0fc9016ea9b",
+    "reviewLogSha256": "8e9238306e5f7151c5590214746e04cc8874af76b0ef0531e4509ef3340e3380",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -165,8 +165,8 @@
       {
         "file": "data/article-media-batches/mechanisms-071.json",
         "batchId": "mechanisms-071",
-        "status": "approved-awaiting-promotion",
-        "sha256": "84797ba5674ad659f283518883cddccfd38a35bc8a6498c34be10f3bdd689b15"
+        "status": "reviewed",
+        "sha256": "55c8976b09f42e450319127d2eaaaf0c01ddde7a698335210346c3382b714bcd"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -458,12 +458,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 358,
-    "remaining": 352,
+    "completed": 359,
+    "remaining": 351,
     "rejected": 67,
     "revised": 12,
     "scientificHolds": 15,
-    "inReview": 1
+    "inReview": 0
   },
   "categories": [
     {
@@ -491,8 +491,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 49,
-      "remaining": 184
+      "completed": 50,
+      "remaining": 183
     },
     {
       "id": "host-defenses",
@@ -10455,12 +10455,14 @@
       "route": "/article/gingipains",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-071",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-071/gingipains-draft.png",
-        "sha256": "2e6da7173bfb51ad188f5aa55b258bd1e5a84eb3f462a83baf051693712bd10f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "gingipains-mechanism-v1-master.png",
+        "publishedFile": "gingipains-mechanism-v1.webp",
+        "socialFile": "gingipains-mechanism-v1-social.webp"
       }
     },
     {

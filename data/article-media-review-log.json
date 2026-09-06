@@ -12339,6 +12339,47 @@
         "sourceSha256": "32c5c9354ab70477fb9cd64c20b51de56c8790bebb28df68d8cc7eb3138d0496",
         "generationRecord": "exec-b4289f96-8f53-4cf3-9450-530404cb9c15.png"
       }
+    },
+    "gingipains|gingipains-mechanism-v1.webp": {
+      "pageId": "gingipains",
+      "publishedFile": "gingipains-mechanism-v1.webp",
+      "masterSource": "gingipains-mechanism-v1-master.png",
+      "socialFile": "gingipains-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.wikibiome.com/article/gingipains",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000080867",
+          "https://www.ebi.ac.uk/merops/cgi-bin/famsum?family=C25",
+          "https://enzyme.expasy.org/EC/3.4.22.37",
+          "https://enzyme.expasy.org/EC/3.4.22.47",
+          "https://www.uniprot.org/uniprotkb/P95493/entry",
+          "https://www.uniprot.org/uniprotkb/Q51817/entry",
+          "https://www.rcsb.org/structure/1CVR",
+          "https://www.rcsb.org/structure/4RBM"
+        ],
+        "notes": "MeSH and MEROPS control the gingipain protease-family identity; EC records distinguish Arg- and Lys-specific activities; UniProt and PDB records support representative RgpB and Kgp resolved-fragment contexts. These authorities identify cysteine endopeptidases and do not license a metal-dependent metalloprotease, full-length-protein, universal-architecture, virulence, disease, or treatment claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Control Tower and three independent native-resolution reviews confirmed exactly two widely separated joined protein-fragment bodies, each articulated as two connected domain masses around one empty surface cleft, with no ligand, sphere, metal, cofactor, atomic model, detached protein body, or prohibited biological scene."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text states the literal two-model, two-domain, one-cleft-per-model composition without relying on color. The caption identifies the representative RgpB and Kgp contexts while excluding full-length proteins, RgpA, catalytic events, metal dependence, virulence, disease, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted Batch 071 source hash only; centered-contain social derivative mandatory.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "gingipains-draft.png",
+        "sourceSha256": "2e6da7173bfb51ad188f5aa55b258bd1e5a84eb3f462a83baf051693712bd10f",
+        "generationRecord": "exec-d6feaf35-8cf8-4660-bcb6-5dadf34d542f.png"
+      }
     }
   },
   "rejectedAssets": [
