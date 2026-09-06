@@ -2937,18 +2937,17 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
     "phocaeicola",
-    "trichosporon-asahii",
-    "turicibacter",
-    "tyzzerella",
-    "ureaplasma",
-    "ureaplasma-urealyticum",
+    "veillonellaceae",
+    "verrucomicrobia",
+    "vibrio",
+    "yersinia-pestis",
   ]);
-  assert.equal(program.current.completed, 210);
-  assert.equal(program.current.remaining, 500);
-  assert.equal(program.current.rejected, 27);
+  assert.equal(program.current.completed, 215);
+  assert.equal(program.current.remaining, 495);
+  assert.equal(program.current.rejected, 28);
   assert.equal(program.current.revised, 11);
   assert.equal(program.current.inReview, 0);
-  assert.equal(program.current.scientificHolds, 11);
+  assert.equal(program.current.scientificHolds, 12);
   const activeReviewStatuses = new Set(["awaiting-control-review", "approved-awaiting-promotion"]);
   const pendingAssets = batches
     .filter((batch) => activeReviewStatuses.has(batch.status))
@@ -3466,9 +3465,53 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   }
   assert.equal(articleMediaRegistry.trichoderma.socialResizeFit, "contain");
   assert.doesNotMatch(batch038PromptRecord, /<!-- PROMPT phocaeicola START -->/);
+  const batch039 = batches.find((batch) => batch.batchId === "microorganisms-039");
+  assert.equal(batch039?.status, "reviewed");
+  assert.equal(batch039?.authorizedParent, "8afccdd54ae676e78a85ef9177d2e5e65277c471");
+  assert.equal(batch039?.publicationMetadataPlan?.reviewOnly, false);
+  assert.equal(batch039?.routeDecisionCount, 6);
+  assert.equal(batch039?.candidateCount, 5);
+  assert.equal(batch039?.scientificHoldCount, 1);
+  assert.equal(batch039?.generationCallCount, 5);
+  assert.equal(batch039?.controlReviewRequired, false);
+  assert.equal(batch039?.controlFinalReview?.acceptedReviewCommit, "f3e4935b53337d66f9a233e890711fd35a83bdac");
+  assert.equal(batch039?.controlSocialCropReview?.status, "accepted-five-centered-cover-derivatives");
+  assert.equal(batch039?.controlAcceptedReviewManifestSha256, "f8e90e0bf3f42c70be9fc54382958651deb3e361596e8190f3435cabcf53b165");
+  assert.equal(batch039?.controlAcceptedPromptEvidenceSha256, "5b0ca95a37df717a2148810ee170f7cb9b2a5ac85a691798129707da8072535b");
+  const batch039ExpectedOutputs = new Map([
+    ["trichosporon-asahii", ["NCBITaxon:82508", "9ad9e677c76c3b91e55af8ea3f210b9d3f2cf9a88dba4f9ae37086720994d92f", "53c83b0aa841a69ce6704cbaa92e49a2054ab9cf74993bf467969fce94134f08", 1222371, 11, 1]],
+    ["turicibacter", ["NCBITaxon:191303", "f615b3d2c8eb6dc10c4519ccdd6f8afbb907cff4234553c99a155855f27bf168", "6bbfd6509f9b6c6af22f65219fbdaae2aff601a1c8f7f20c08c405eef6fa1869", 1337424, 9, 7]],
+    ["ureaplasma", ["NCBITaxon:2129", "9ca4b11ec7fd1bb1bc48eb3173ed396c600d1c699bc5412bc89e752fca77fc9e", "e5fb19b2227f4e7b8bf510a78e744a876ed698ae6f23c9f83d0116dd8397fb4a", 1228206, 12, 12]],
+    ["ureaplasma-urealyticum", ["NCBITaxon:2130", "61b38b206a90c487376f8f705bdc3947b9c51aa0c01a4bc929ee5e08fbee497e", "06e9b7b52d1351641dbb63417e1ea4dea78d16a3d6bb55e052de8fe37658c60c", 1239106, 10, 10]],
+    ["veillonella", ["NCBITaxon:29465", "247857c758e67896de8f28e663ed2cc8c54bc09654e7bed6953d152c839e27b1", "3a069146c74f4175acfd5239d6df40a5a72da043b9040f890efeb6beb4de51a4", 1191430, 12, 5]],
+  ]);
+  const batch039PromptRecord = readFileSync(new URL("../docs/operations/media-prompts/microorganisms-039.md", import.meta.url), "utf8");
+  for (const asset of batch039?.assets ?? []) {
+    const [identifier, promptSha256, sha256, fileSize, bodyCount, groupingCount] = batch039ExpectedOutputs.get(asset.pageId);
+    assert.equal(asset.rootReviewDisposition, "accepted");
+    assert.equal(asset.controlledIdentifier, identifier);
+    assert.equal(asset.promptSha256, promptSha256);
+    assert.equal(asset.sha256, sha256);
+    assert.equal(asset.fileSizeBytes, fileSize);
+    assert.equal(asset.outputAudit?.observedVisibleBodyCount, bodyCount);
+    assert.equal(asset.outputAudit?.observedSpatialGroupingCount, groupingCount);
+    assert.equal(asset.outputAudit?.outerBackgroundDarkPixelCountBelowLuma128, 0);
+    const draftBytes = readFileSync(new URL(`../${asset.draft}`, import.meta.url));
+    assert.equal(createHash("sha256").update(draftBytes).digest("hex"), sha256);
+    const promptMatch = batch039PromptRecord.match(new RegExp("<!-- PROMPT " + asset.pageId + " START -->\\n```text\\n([\\s\\S]*?)\\n```\\n<!-- PROMPT " + asset.pageId + " END -->"));
+    assert.equal(createHash("sha256").update(promptMatch[1]).digest("hex"), promptSha256);
+    const media = articleMediaRegistry[asset.pageId];
+    assert.equal(reviewLog.reviews[media.reviewLogKey]?.disposition, "approved");
+    const [draftPixels, masterPixels] = await Promise.all([sharp(draftBytes).removeAlpha().raw().toBuffer(), sharp(readFileSync(new URL(`../media/masters/${media.masterSource}`, import.meta.url))).removeAlpha().raw().toBuffer()]);
+    assert.equal(Buffer.compare(draftPixels, masterPixels), 0, `${asset.pageId} master must decode pixel-identically to accepted source`);
+    const socialMetadata = await sharp(readFileSync(new URL(`../public/media-files/${media.socialFile}`, import.meta.url))).metadata();
+    assert.deepEqual([socialMetadata.width, socialMetadata.height], [1200, 630]);
+  }
+  assert.doesNotMatch(batch039PromptRecord, /<!-- PROMPT tyzzerella START -->/);
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => asset.disposition === "scientific-identity-hold");
   assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [
+    "tyzzerella",
     "lachnoclostridium",
     "lachnospiraceae-family",
     "lactobacillus-plantarum",

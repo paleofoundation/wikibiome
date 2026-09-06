@@ -122,3 +122,5 @@ All five are native 1536 by 1024 PNGs on edge-clean pale cool fields. Literal re
 ## Control promotion decision
 
 Control Tower accepted exact review commit `f3e4935b53337d66f9a233e890711fd35a83bdac` and only its five immutable PNG hashes. The review verified current identities, type anchoring, literal native output, edge-clean fields, crop-safe bounds, and absence of prohibited content. All five are approved for centered-cover promotion. Tyzzerella remains asset-free under its scientific identity hold.
+
+Control Tower subsequently inspected all five native 1200 by 630 centered-cover social derivatives at original detail. Every reviewed structure and body remains visible and unclipped.

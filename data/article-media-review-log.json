@@ -4939,6 +4939,46 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text names the organism and visible flagellar relationship; caption states CDC basis and non-diagnostic limits." },
       "disposition": "approved", "notes": "Exact immutable batch-038 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "trichomonas-vaginalis-draft.png", "sourceSha256": "b069d922d888d731ad4e2ed5ec3e5bba908607351e3bea1a82abeece782ead64", "generationRecord": "exec-e3c20415-02ab-41b9-81d9-1d84fa61a9e3.png" }
+    },
+    "trichosporon-asahii|trichosporon-asahii-morphology-v1.webp": {
+      "pageId": "trichosporon-asahii", "publishedFile": "trichosporon-asahii-morphology-v1.webp", "masterSource": "trichosporon-asahii-morphology-v1-master.png", "socialFile": "trichosporon-asahii-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=82508&mode=Info", "https://pubmed.ncbi.nlm.nih.gov/?term=Trichosporon+asahii+morphology+arthroconidia+blastoconidia"], "notes": "Current species, type material, and representative hyphal, arthroconidial, and blastoconidial morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted seven barrel-like compartments and four lateral blastoconidia with no colony or clinical scene." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal structures and counts; caption states type-material anchoring and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-039 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "trichosporon-asahii-draft.png", "sourceSha256": "53c83b0aa841a69ce6704cbaa92e49a2054ab9cf74993bf467969fce94134f08", "generationRecord": "exec-a9743625-017f-41e6-aacf-544521288857.png" }
+    },
+    "turicibacter|turicibacter-morphology-v1.webp": {
+      "pageId": "turicibacter", "publishedFile": "turicibacter-morphology-v1.webp", "masterSource": "turicibacter-morphology-v1-master.png", "socialFile": "turicibacter-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=191303&mode=Info", "https://lpsn.dsmz.de/genus/turicibacter", "https://doi.org/10.1099/00207713-52-4-1263"], "notes": "Current genus, type species and strain, and rod morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted nine rods as six singles and one three-rod chain with no sporulation claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal count and grouping; caption states type-species anchoring and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-039 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "turicibacter-draft.png", "sourceSha256": "6bbfd6509f9b6c6af22f65219fbdaae2aff601a1c8f7f20c08c405eef6fa1869", "generationRecord": "exec-ca121b5c-c43b-4b6c-b675-b57a668b4097.png" }
+    },
+    "ureaplasma|ureaplasma-morphology-v1.webp": {
+      "pageId": "ureaplasma", "publishedFile": "ureaplasma-morphology-v1.webp", "masterSource": "ureaplasma-morphology-v1-master.png", "socialFile": "ureaplasma-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2129&mode=Info", "https://lpsn.dsmz.de/genus/ureaplasma", "https://www.ncbi.nlm.nih.gov/books/NBK7637/"], "notes": "Current genus, type species, and wall-free pleomorphic morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted twelve separated pleomorphic bodies; gradual subtype boundaries are not overclaimed." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text states literal total and broad forms; caption states non-separability and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-039 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "ureaplasma-draft.png", "sourceSha256": "e5fb19b2227f4e7b8bf510a78e744a876ed698ae6f23c9f83d0116dd8397fb4a", "generationRecord": "exec-ac78870d-fd1d-4748-b1ff-9134809644e9.png" }
+    },
+    "ureaplasma-urealyticum|ureaplasma-urealyticum-morphology-v1.webp": {
+      "pageId": "ureaplasma-urealyticum", "publishedFile": "ureaplasma-urealyticum-morphology-v1.webp", "masterSource": "ureaplasma-urealyticum-morphology-v1-master.png", "socialFile": "ureaplasma-urealyticum-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2130&mode=Info", "https://lpsn.dsmz.de/species/ureaplasma-urealyticum", "https://www.ncbi.nlm.nih.gov/books/NBK7637/"], "notes": "Current species, type strain, and wall-free pleomorphic morphology are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted ten separated bodies in two rows with four near-spherical, three ovoid, and three softly irregular forms." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal total and forms; caption states type-strain anchoring, non-separability, and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-039 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "ureaplasma-urealyticum-draft.png", "sourceSha256": "06e9b7b52d1351641dbb63417e1ea4dea78d16a3d6bb55e052de8fe37658c60c", "generationRecord": "exec-243d70c5-ee61-4fd6-b70b-33ce18fb64f1.png" }
+    },
+    "veillonella|veillonella-morphology-v1.webp": {
+      "pageId": "veillonella", "publishedFile": "veillonella-morphology-v1.webp", "masterSource": "veillonella-morphology-v1-master.png", "socialFile": "veillonella-morphology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=29465&mode=Info", "https://lpsn.dsmz.de/genus/veillonella", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3035258/"], "notes": "Current genus, type species, and small cocci in pairs or short chains are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted twelve countable cocci in four pairs and one four-coccus chain." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text follows literal count and grouping; caption states type-species anchoring and non-diagnostic limits." },
+      "disposition": "approved", "notes": "Exact immutable batch-039 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "veillonella-draft.png", "sourceSha256": "3a069146c74f4175acfd5239d6df40a5a72da043b9040f890efeb6beb4de51a4", "generationRecord": "exec-6a8070c9-6053-422d-a827-470be60e74cf.png" }
     }
   },
   "rejectedAssets": [

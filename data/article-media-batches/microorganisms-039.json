@@ -38,6 +38,12 @@
     "integratedReviewCommit": "f3e4935b53337d66f9a233e890711fd35a83bdac",
     "notes": "Control Tower verified the exact parent, immutable prompts and hashes, identities, type anchoring, literal output, edge fields, crop safety, and zero public leakage. Only five recorded sources are approved. Tyzzerella remains asset-free."
   },
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native 1200 by 630 social-derivative review",
+    "status": "accepted-five-centered-cover-derivatives",
+    "notes": "Control Tower inspected all five native social derivatives at original detail. Every reviewed structure and body remains visible and unclipped on the pale cool field."
+  },
   "assets": [
     {
       "pageId": "trichosporon-asahii", "displayName": "Trichosporon asahii", "assetType": "morphology", "revision": 1,

@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "0ecaabc3747db9a720a3f29ecef5b0c543f676bcba3ac8718c2f6b5e7222baec",
+    "registrySha256": "53f93b4ab520af438ba3f6c9808e7cc3a3876d3575dd5e466b3621ccddba7397",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "4c9145d210e6d9f92842ea1fcbf7d7a3b50f80bdc0a518c3a14c6d8ad6b40db4",
+    "reviewLogSha256": "0e82894d93d1322945dd0b216526c72e0918dd455c315377596674cbbeb6eb8c",
     "batchManifests": [
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -239,6 +239,12 @@
         "batchId": "microorganisms-038",
         "status": "reviewed",
         "sha256": "318ac3ce202902f2fc810570dc92755430ad0b450309d406b60d2b33bc70bdf4"
+      },
+      {
+        "file": "data/article-media-batches/microorganisms-039.json",
+        "batchId": "microorganisms-039",
+        "status": "reviewed",
+        "sha256": "0330eb542bf457cd5102ee0c08dc04a927596c5446fbd2e95e64467e26eee734"
       }
     ]
   },
@@ -260,11 +266,11 @@
   },
   "current": {
     "total": 710,
-    "completed": 210,
-    "remaining": 500,
-    "rejected": 27,
+    "completed": 215,
+    "remaining": 495,
+    "rejected": 28,
     "revised": 11,
-    "scientificHolds": 11,
+    "scientificHolds": 12,
     "inReview": 0
   },
   "categories": [
@@ -272,8 +278,8 @@
       "id": "microorganisms",
       "label": "Microorganisms",
       "total": 229,
-      "completed": 207,
-      "remaining": 22
+      "completed": 212,
+      "remaining": 17
     },
     {
       "id": "metals",
@@ -326,6 +332,26 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "tyzzerella",
+      "sourceEraIdentifier": "NCBITaxon:1506577",
+      "batchId": "microorganisms-039",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "scientific-identity-hold",
+      "currentAcceptedName": "Faecalimonas",
+      "proposedCanonicalPageId": "faecalimonas",
+      "reason": "NCBI retains Tyzzerella as an effectively published current-name record, but LPSN states that the name was not validly published, has no standing, is a synonym, and has Faecalimonas as the correct genus. The proposed type Tyzzerella nexilis likewise lacks standing, so the route cannot own a current-genus media asset.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1506577&mode=Info",
+        "https://lpsn.dsmz.de/genus/tyzzerella",
+        "https://doi.org/10.1111/1462-2920.12173",
+        "local:data/content.generated.json#/pages/tyzzerella",
+        "local:data/article-id-aliases.json"
+      ],
+      "requiredResolution": "Reconcile the canonical route to the valid correct genus Faecalimonas, preserve Tyzzerella only as an audited alias or source-era label where appropriate, and return the reconciled current entity to its deterministic uncovered media position.",
+      "routingImpact": "The Tyzzerella route remains uncovered and asset-free and is excluded from prompts, generation calls, registry keys, masters, derivatives, endpoints, and image-sitemap entries."
+    },
     {
       "pageId": "akkermansia-mucinicola",
       "batchId": "microorganisms-002",
@@ -1117,46 +1143,37 @@
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 220,
-      "id": "trichosporon-asahii",
-      "title": "Trichosporon asahii",
-      "route": "/article/trichosporon-asahii",
+      "queuePosition": 226,
+      "id": "veillonellaceae",
+      "title": "Veillonellaceae",
+      "route": "/article/veillonellaceae",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 221,
-      "id": "turicibacter",
-      "title": "Turicibacter",
-      "route": "/article/turicibacter",
+      "queuePosition": 227,
+      "id": "verrucomicrobia",
+      "title": "Verrucomicrobia",
+      "route": "/article/verrucomicrobia",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 222,
-      "id": "tyzzerella",
-      "title": "Tyzzerella",
-      "route": "/article/tyzzerella",
+      "queuePosition": 228,
+      "id": "vibrio",
+      "title": "Vibrio",
+      "route": "/article/vibrio",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
     },
     {
-      "queuePosition": 223,
-      "id": "ureaplasma",
-      "title": "Ureaplasma",
-      "route": "/article/ureaplasma",
-      "category": "microbe",
-      "coverageGroup": "microorganisms",
-      "suggestedAssetType": "morphology"
-    },
-    {
-      "queuePosition": 224,
-      "id": "ureaplasma-urealyticum",
-      "title": "Ureaplasma urealyticum",
-      "route": "/article/ureaplasma-urealyticum",
+      "queuePosition": 229,
+      "id": "yersinia-pestis",
+      "title": "Yersinia pestis",
+      "route": "/article/yersinia-pestis",
       "category": "microbe",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology"
@@ -5753,7 +5770,15 @@
       "route": "/article/trichosporon-asahii",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "trichosporon-asahii-morphology-v1-master.png",
+        "publishedFile": "trichosporon-asahii-morphology-v1.webp",
+        "socialFile": "trichosporon-asahii-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 221,
@@ -5766,7 +5791,15 @@
       "route": "/article/turicibacter",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "turicibacter-morphology-v1-master.png",
+        "publishedFile": "turicibacter-morphology-v1.webp",
+        "socialFile": "turicibacter-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 222,
@@ -5779,7 +5812,13 @@
       "route": "/article/tyzzerella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-06",
+        "reviewingAuthority": "wikibiome-media-program",
+        "reason": "NCBI retains Tyzzerella as an effectively published current-name record, but LPSN states that the name was not validly published, has no standing, is a synonym, and has Faecalimonas as the correct genus. The proposed type Tyzzerella nexilis likewise lacks standing, so the route cannot own a current-genus media asset.",
+        "requiredResolution": "Reconcile the canonical route to the valid correct genus Faecalimonas, preserve Tyzzerella only as an audited alias or source-era label where appropriate, and return the reconciled current entity to its deterministic uncovered media position."
+      }
     },
     {
       "queuePosition": 223,
@@ -5792,7 +5831,15 @@
       "route": "/article/ureaplasma",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "ureaplasma-morphology-v1-master.png",
+        "publishedFile": "ureaplasma-morphology-v1.webp",
+        "socialFile": "ureaplasma-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 224,
@@ -5805,7 +5852,15 @@
       "route": "/article/ureaplasma-urealyticum",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "ureaplasma-urealyticum-morphology-v1-master.png",
+        "publishedFile": "ureaplasma-urealyticum-morphology-v1.webp",
+        "socialFile": "ureaplasma-urealyticum-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 225,
@@ -5818,7 +5873,15 @@
       "route": "/article/veillonella",
       "coverageGroup": "microorganisms",
       "suggestedAssetType": "morphology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "veillonella-morphology-v1-master.png",
+        "publishedFile": "veillonella-morphology-v1.webp",
+        "socialFile": "veillonella-morphology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 226,
