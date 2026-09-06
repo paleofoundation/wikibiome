@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "76ed012c3f1021ad9b8d1a34f34da037524f0d9207c02ff3b2f00bbe0371fbdd",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "3b922594bfbe39eeb5e157d738fe52713082ce23505259ab1b976fae1722104c",
+    "reviewLogSha256": "c42cc17ce77a5211de75b246b756a3641387bc9aaa9d2345622ba49739739a57",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -436,7 +436,7 @@
     "total": 710,
     "completed": 353,
     "remaining": 357,
-    "rejected": 51,
+    "rejected": 54,
     "revised": 11,
     "scientificHolds": 15,
     "inReview": 0
@@ -500,6 +500,110 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "endotoxemia",
+      "controlledIdentifier": "MeSH:D019446;MedGen:C0376618",
+      "batchId": "mechanisms-067",
+      "draft": "work/media-drafts/mechanisms-batch-067/endotoxemia-draft.png",
+      "sha256": "053f65ac63b713d377161045d5dda09b48e5cf71e837ea5ee36f712a27d27cc9",
+      "generationRecord": "exec-a7bd2630-a431-4283-806a-292117c54bc7.png",
+      "promptSha256": "2ef36eb4dbb72b837243313bf80968275af08c92badaa458de72e5393d2c22d7",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D019446",
+          "https://www.ncbi.nlm.nih.gov/medgen/138231",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D008070",
+          "https://pubmed.ncbi.nlm.nih.gov/35244966/"
+        ],
+        "notes": "The controlled endotoxemia and lipopolysaccharide identities remain supportable; rejection concerns literal output count and edge-field compliance only."
+      },
+      "subjectReview": {
+        "status": "fail",
+        "notes": "The vessel contains two detached LPS-context forms rather than the frozen exact count of three, so prompt intent cannot be used as observed output."
+      },
+      "accessibilityReview": {
+        "status": "not-applicable",
+        "notes": "The rejected artifact is ineligible for public alternative text, a public crop, or structured media publication."
+      },
+      "reason": "The vessel contains only two detached LPS-context forms rather than the frozen exact count of three, and the composition enters the outer 32-pixel field on both horizontal sides.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call.",
+      "routingImpact": "No registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion was created."
+    },
+    {
+      "pageId": "environmental-metal-exposure",
+      "controlledIdentifier": "MeSH:D004781+MeSH:D008670+MeSH:D058955",
+      "batchId": "mechanisms-067",
+      "draft": "work/media-drafts/mechanisms-batch-067/environmental-metal-exposure-draft.png",
+      "sha256": "a0b4a9b770149eaa46579ef1884607b4e0f301240eb3c393b56b40dc19061091",
+      "generationRecord": "exec-570eef5c-9b1d-4034-9e0c-0e0faa4334ad.png",
+      "promptSha256": "4ab11779217d8863af9904bbc2c1342af8c882f749ee2d9732094448b973eb60",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D004781",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D008670",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D058955",
+          "https://www.atsdr.cdc.gov/pha-guidance/conducting_scientific_evaluations/exposure_pathways/exposure_routes.html",
+          "https://www.epa.gov/report-environment/exposure-environmental-contaminants"
+        ],
+        "notes": "The composite exposure, metals, and arsenic identities and the ingestion, inhalation, and dermal route distinction remain supportable; rejection concerns edge-field compliance only."
+      },
+      "subjectReview": {
+        "status": "fail",
+        "notes": "Although the three barrier contexts and twelve external-side spheres are present, foreground and shadow touch the exact right edge and produce 99 dark pixels in the outer 32-pixel field."
+      },
+      "accessibilityReview": {
+        "status": "not-applicable",
+        "notes": "The rejected artifact is ineligible for public alternative text, a public crop, or structured media publication."
+      },
+      "reason": "Foreground and shadow reach the exact right edge, violating the frozen uninterrupted pale edge and crop-safe field requirement.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call.",
+      "routingImpact": "No registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion was created."
+    },
+    {
+      "pageId": "epigenetic-modifications",
+      "controlledIdentifier": "MeSH:D044127;MeSH:D019175;MeSH:D042421",
+      "batchId": "mechanisms-067",
+      "draft": "work/media-drafts/mechanisms-batch-067/epigenetic-modifications-draft.png",
+      "sha256": "bf325eb56895e92a501e0de3db1057753021d7c69ebfee6e9014006d09f42cdb",
+      "generationRecord": "exec-ba4bd35d-29a8-44b0-9076-4ce0031cebe7.png",
+      "promptSha256": "961e98ab7030df2111f3f8e8237d00a90f16025eefa7acdda3619197dd0f6291",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D044127",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D019175",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D042421",
+          "https://amigo.geneontology.org/amigo/term/GO:0040029",
+          "https://amigo.geneontology.org/amigo/term/GO:0140993"
+        ],
+        "notes": "The epigenetic-process, DNA methylation, histone modification, and regulatory contexts remain supportable; rejection concerns literal output count and core-form compliance only."
+      },
+      "subjectReview": {
+        "status": "fail",
+        "notes": "The DNA-like helix has three visible copper beads rather than the frozen count of four, and the cream core is divided into four lobes rather than remaining one smooth undivided form."
+      },
+      "accessibilityReview": {
+        "status": "not-applicable",
+        "notes": "The rejected artifact is ineligible for public alternative text, a public crop, or structured media publication."
+      },
+      "reason": "Literal native output violates both the frozen four-bead count and smooth-undivided-core constraint.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and separately authorized call.",
+      "routingImpact": "No registry key, master, derivative, structured media record, canonical media endpoint, image-sitemap entry, or coverage completion was created."
+    },
     {
       "pageId": "dysmenorrhea",
       "batchId": "mechanisms-066",
