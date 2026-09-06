@@ -70,7 +70,7 @@
         "file": "data/article-media-batches/diseases-055.json",
         "batchId": "diseases-055",
         "status": "awaiting-control-review",
-        "sha256": "293384d25fd527897a033e12bb924056440170b60b3e7690adf3cf08e6d2af94"
+        "sha256": "295f8e6e855b77b9727bdff19a726eea9200e6867e88c67db824b2b30ab08557"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
