@@ -140,3 +140,7 @@ Exactly six built-in calls completed, one per cleared route, with no retry or re
 The review packet records literal native output rather than prompt intent. Lead's bluish cast is visually subtle, so public metadata remains limited to the observed gray form. Mercury contains exactly one continuous liquid-metal body and no detached droplets. No accepted output implies purity, analytical identification, exposure, or diagnostic use.
 
 Control Tower accepted only the six exact hashes above from review commit `8fff650`. The accepted pre-acceptance manifest SHA-256 is `4e1404245316779aea0b0ec19406ebdd51e360faac1d586d78fd1d8fc4ce7412`; the accepted prompt-and-generation evidence SHA-256 is `87b7b6fbc62185c8a93ced9a3412bdabdeb2d8ed07331f0f8a2cad3172a27cad`. No regeneration or source-pixel alteration is authorized for promotion.
+
+## Promotion and social derivative review
+
+The six exact accepted hashes were promoted through metadata-bearing lossless masters into article and 1200 × 630 social WebPs. Control Tower inspected every social derivative at native detail. Centered cover preserves all complete iron, lead, magnesium, manganese, and molybdenum specimens and the complete sealed mercury ampoule with its single continuous contained liquid-metal body. No crop clips a scientifically meaningful structure or introduces misleading emphasis. The public records retain explicit trained-algorithmic-media, non-photograph, non-analytical-material language.

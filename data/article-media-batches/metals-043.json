@@ -12,7 +12,7 @@
   "controlAcceptedReviewManifestSha256": "4e1404245316779aea0b0ec19406ebdd51e360faac1d586d78fd1d8fc4ce7412",
   "controlAcceptedPromptEvidenceSha256": "87b7b6fbc62185c8a93ced9a3412bdabdeb2d8ed07331f0f8a2cad3172a27cad",
   "publicationMetadataPlan": {
-    "reviewOnly": true,
+    "reviewOnly": false,
     "creator": "OpenAI built-in image generation",
     "credit": "WikiBiome / Microbiome Medicine",
     "license": "CC BY-SA 4.0",
@@ -38,6 +38,13 @@
     "acceptedReviewCommit": "8fff650",
     "integratedReviewCommit": "8fff650",
     "notes": "Control Tower verified the exact parent, immutable prompts and hashes, current elemental identities, atomic numbers, PubChem CIDs, elemental-versus-compound boundaries, literal native outputs, edge fields, crop-safe bounds, prohibited content, and zero public leakage."
+  },
+  "promotionRule": "Only the six exact accepted source SHA-256 hashes were promoted. Each lossless metadata-bearing master preserves decoded source pixels; article and social WebP derivatives are generated from that master.",
+  "controlSocialCropReview": {
+    "reviewedOn": "2026-09-06",
+    "reviewingAuthority": "WikiBiome Control Tower native-resolution derivative review",
+    "status": "accepted-six-centered-cover-derivatives",
+    "notes": "All six 1200 by 630 social WebPs were inspected at native detail. Centered cover retains every complete specimen, fragment, ampoule, and the continuous contained mercury body without clipping, prohibited content, or misleading crop emphasis."
   },
   "assets": [
     {

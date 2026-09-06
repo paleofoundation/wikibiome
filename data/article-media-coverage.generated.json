@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "07cf5f446209fc4522ff72ef3ddf21427e8359873e5f5819619e9266c4f384f9",
+    "registrySha256": "96bd6c40a13ddf5f313c9b1c19f30f8d602fa16f1ff0dc5dd9178fe604f5d139",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "6bf00863eac93d01f25e1db8ccf6cb222dadbc5d46f114e1f2dc5dcc7d406318",
+    "reviewLogSha256": "7065f88fd410d2730a3932c881c81ca330d0e9985fabf31071e90887aa901a0f",
     "batchManifests": [
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -23,6 +23,12 @@
         "batchId": "metals-042",
         "status": "reviewed",
         "sha256": "170be43bd2c57f0897b51739b9b24efda689b877d0f5651c5154006275827402"
+      },
+      {
+        "file": "data/article-media-batches/metals-043.json",
+        "batchId": "metals-043",
+        "status": "reviewed",
+        "sha256": "897b26f9200e5df75360eb244dc04a8436130ca104e23ff8f014f8b13b10d2cd"
       },
       {
         "file": "data/article-media-batches/microorganisms-001.json",
@@ -284,8 +290,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 229,
-    "remaining": 481,
+    "completed": 235,
+    "remaining": 475,
     "rejected": 30,
     "revised": 11,
     "scientificHolds": 15,
@@ -303,8 +309,8 @@
       "id": "metals",
       "label": "Metals",
       "total": 29,
-      "completed": 13,
-      "remaining": 16
+      "completed": 19,
+      "remaining": 10
     },
     {
       "id": "diseases",
@@ -1196,55 +1202,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 242,
-      "id": "iron",
-      "title": "Iron",
-      "route": "/article/iron",
+      "queuePosition": 249,
+      "id": "platinum",
+      "title": "Platinum",
+      "route": "/article/platinum",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 243,
-      "id": "lead",
-      "title": "Lead",
-      "route": "/article/lead",
+      "queuePosition": 250,
+      "id": "selenium",
+      "title": "Selenium",
+      "route": "/article/selenium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 244,
-      "id": "magnesium",
-      "title": "Magnesium",
-      "route": "/article/magnesium",
+      "queuePosition": 251,
+      "id": "silver",
+      "title": "Silver",
+      "route": "/article/silver",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 245,
-      "id": "manganese",
-      "title": "Manganese",
-      "route": "/article/manganese",
+      "queuePosition": 252,
+      "id": "strontium",
+      "title": "Strontium",
+      "route": "/article/strontium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 246,
-      "id": "mercury",
-      "title": "Mercury",
-      "route": "/article/mercury",
+      "queuePosition": 253,
+      "id": "thallium",
+      "title": "Thallium",
+      "route": "/article/thallium",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
     },
     {
-      "queuePosition": 247,
-      "id": "molybdenum",
-      "title": "Molybdenum",
-      "route": "/article/molybdenum",
+      "queuePosition": 254,
+      "id": "tin",
+      "title": "Tin",
+      "route": "/article/tin",
       "category": "metal",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen"
@@ -6303,7 +6309,15 @@
       "route": "/article/iron",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "iron-technical-specimen-v1-master.png",
+        "publishedFile": "iron-technical-specimen-v1.webp",
+        "socialFile": "iron-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 243,
@@ -6316,7 +6330,15 @@
       "route": "/article/lead",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "lead-technical-specimen-v1-master.png",
+        "publishedFile": "lead-technical-specimen-v1.webp",
+        "socialFile": "lead-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 244,
@@ -6329,7 +6351,15 @@
       "route": "/article/magnesium",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "magnesium-technical-specimen-v1-master.png",
+        "publishedFile": "magnesium-technical-specimen-v1.webp",
+        "socialFile": "magnesium-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 245,
@@ -6342,7 +6372,15 @@
       "route": "/article/manganese",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "manganese-technical-specimen-v1-master.png",
+        "publishedFile": "manganese-technical-specimen-v1.webp",
+        "socialFile": "manganese-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 246,
@@ -6355,7 +6393,15 @@
       "route": "/article/mercury",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "mercury-technical-specimen-v1-master.png",
+        "publishedFile": "mercury-technical-specimen-v1.webp",
+        "socialFile": "mercury-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 247,
@@ -6368,7 +6414,15 @@
       "route": "/article/molybdenum",
       "coverageGroup": "metals",
       "suggestedAssetType": "technical-specimen",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "technical-specimen",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "molybdenum-technical-specimen-v1-master.png",
+        "publishedFile": "molybdenum-technical-specimen-v1.webp",
+        "socialFile": "molybdenum-technical-specimen-v1-social.webp"
+      }
     },
     {
       "queuePosition": 248,

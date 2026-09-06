@@ -5091,6 +5091,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text names elemental iodine, containment, and literal crystal count; caption expands I and distinguishes the molecular element from iodide." },
       "disposition": "approved", "notes": "Exact immutable Batch 042 source accepted for promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "iodine-draft.png", "sourceSha256": "3fb0245d7d328307150a7e59975eb50768901af206d3963eb4eeee1e0f188b6a", "generationRecord": "exec-2d3b582e-61fb-4c97-8d4b-f5ff0d8d0a4a.png" }
+    },
+    "iron|iron-technical-specimen-v1.webp": {
+      "pageId": "iron", "publishedFile": "iron-technical-specimen-v1.webp", "masterSource": "iron-technical-specimen-v1-master.png", "socialFile": "iron-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/26", "https://pubchem.ncbi.nlm.nih.gov/compound/23925"], "notes": "Elemental identity, atomic number 26, PubChem CID 23925, and dark silver-gray metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three dark silver-gray specimens with bright metallic fracture faces and no ore, oxide, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names iron and literal form; caption expands Fe and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 043 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "iron-draft.png", "sourceSha256": "391650da66769e997ecabdb960cdd3a6d7429fbbae137cbf4eb28e78d2fdff75", "generationRecord": "exec-dda5d78a-d502-47ee-b187-632abd586d54.png" }
+    },
+    "lead|lead-technical-specimen-v1.webp": {
+      "pageId": "lead", "publishedFile": "lead-technical-specimen-v1.webp", "masterSource": "lead-technical-specimen-v1-master.png", "socialFile": "lead-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/82", "https://pubchem.ncbi.nlm.nih.gov/compound/5352425"], "notes": "Elemental identity, atomic number 82, PubChem CID 5352425, and dense soft gray metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three subdued gray specimens with rounded compressed edges and no ore, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names lead and literal form; caption expands Pb and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 043 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "lead-draft.png", "sourceSha256": "32efc4a261b7ecb97ee755108dd99b09ef897429ad708b84c804b6c05784b092", "generationRecord": "exec-89567df8-9493-479e-a90e-df656d49312b.png" }
+    },
+    "magnesium|magnesium-technical-specimen-v1.webp": {
+      "pageId": "magnesium", "publishedFile": "magnesium-technical-specimen-v1.webp", "masterSource": "magnesium-technical-specimen-v1-master.png", "socialFile": "magnesium-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/12", "https://pubchem.ncbi.nlm.nih.gov/compound/5462224"], "notes": "Elemental identity, atomic number 12, PubChem CID 5462224, and pale silvery metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three pale silvery specimens with machining-like striations and no supplement, ore, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names magnesium and literal form; caption expands Mg and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 043 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "magnesium-draft.png", "sourceSha256": "272ecff931f9c016d1fd5cbf2cdb245497c39ef204f7e2ea58aa91dfab10cb40", "generationRecord": "exec-31ea3607-27c7-4b77-b173-3b9dcd88fe46.png" }
+    },
+    "manganese|manganese-technical-specimen-v1.webp": {
+      "pageId": "manganese", "publishedFile": "manganese-technical-specimen-v1.webp", "masterSource": "manganese-technical-specimen-v1-master.png", "socialFile": "manganese-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/25", "https://pubchem.ncbi.nlm.nih.gov/compound/23930"], "notes": "Elemental identity, atomic number 25, PubChem CID 23930, and hard brittle gray metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three angular gray fragments with broad fracture faces and no ore, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names manganese and literal form; caption expands Mn and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 043 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "manganese-draft.png", "sourceSha256": "0003845f3a272dfd1bcc57a637398b9287ae3085dabd7384748e85b816fc2020", "generationRecord": "exec-6fe0d8ba-6bc8-4cc1-ae5f-5288b32a207a.png" }
+    },
+    "mercury|mercury-technical-specimen-v1.webp": {
+      "pageId": "mercury", "publishedFile": "mercury-technical-specimen-v1.webp", "masterSource": "mercury-technical-specimen-v1-master.png", "socialFile": "mercury-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/80", "https://pubchem.ncbi.nlm.nih.gov/compound/23931"], "notes": "Elemental identity, atomic number 80, PubChem CID 23931, room-temperature liquid phase, and hazard context are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete sealed ampoule and one continuous pooled silvery liquid-metal body, without detached droplets, spill, exposure, product, or compound imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names mercury, containment, and one continuous liquid body; caption expands Hg and does not imply purity, spill, or exposure." },
+      "disposition": "approved", "notes": "Exact immutable Batch 043 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "mercury-draft.png", "sourceSha256": "e00fa243ee1189c033d4821539005aadc7fa20a8805689b4c1b33f59c4e01e89", "generationRecord": "exec-b9ee5c41-db11-4358-acd6-9ecbb529442e.png" }
+    },
+    "molybdenum|molybdenum-technical-specimen-v1.webp": {
+      "pageId": "molybdenum", "publishedFile": "molybdenum-technical-specimen-v1.webp", "masterSource": "molybdenum-technical-specimen-v1-master.png", "socialFile": "molybdenum-technical-specimen-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/42", "https://pubchem.ncbi.nlm.nih.gov/compound/23932"], "notes": "Elemental identity, atomic number 42, PubChem CID 23932, and hard refractory silvery-gray metallic form are authority-backed." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three hard-looking silvery-gray specimens with broad fracture faces and no molybdenite, ore, compound, product, or exposure imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text names molybdenum and literal form; caption expands Mo and separates representative appearance from analytical identification." },
+      "disposition": "approved", "notes": "Exact immutable Batch 043 source accepted for promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "molybdenum-draft.png", "sourceSha256": "57712d35a1a7c0a832ee90fc7e46dde838d83946c38ab0b08690ec0659c5aceb", "generationRecord": "exec-ec59aaa0-c630-4d0a-b1a3-a0faa0888c5d.png" }
     }
   },
   "rejectedAssets": [
