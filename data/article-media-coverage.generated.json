@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "d4c699f3627f8c9e4b135d0c9a5857d6c65ed861576a2c4a9cafe2af37e4fb13",
+    "registrySha256": "e671da61514add3abf14a49c913a4305b7062558f13f4add13e20d4289680009",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "eeedb1b0349fc09bc404ec2f99baf2b530423683637fdc6f8bb0d76334980e52",
+    "reviewLogSha256": "031853f68a827c7f9738a1fd1a62ae4b30831b61b3b58b33b8fe0325c92cd8bb",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -63,8 +63,8 @@
       {
         "file": "data/article-media-batches/diseases-054.json",
         "batchId": "diseases-054",
-        "status": "approved-awaiting-promotion",
-        "sha256": "9460b54506bc199573d1e789c56f7938cd36860420a942e1cd31d2ad0f92a8d4"
+        "status": "reviewed",
+        "sha256": "befb1b1db5038a9510be057e1009ae910fb05c2b94f095918c721541c2b629df"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -356,12 +356,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 290,
-    "remaining": 420,
+    "completed": 296,
+    "remaining": 414,
     "rejected": 33,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
@@ -382,8 +382,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 47,
-      "remaining": 19
+      "completed": 53,
+      "remaining": 13
     },
     {
       "id": "mechanisms",
@@ -7803,12 +7803,14 @@
       "route": "/article/pancreatic-cancer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-054",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-054/pancreatic-cancer-draft.png",
-        "sha256": "65b4843bd05fe4b33aed19cbc435d394af11efaf566694dd7d5b2f05857439ef"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "pancreatic-cancer-pathology-v1-master.png",
+        "publishedFile": "pancreatic-cancer-pathology-v1.webp",
+        "socialFile": "pancreatic-cancer-pathology-v1-social.webp"
       }
     },
     {
@@ -7823,12 +7825,14 @@
       "route": "/article/pancreatitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-054",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-054/pancreatitis-draft.png",
-        "sha256": "7a264446e207f11528bc1efcb9aa1e0efc5608ea842b260e510cbb98a564d15a"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "pancreatitis-pathology-v1-master.png",
+        "publishedFile": "pancreatitis-pathology-v1.webp",
+        "socialFile": "pancreatitis-pathology-v1-social.webp"
       }
     },
     {
@@ -7843,12 +7847,14 @@
       "route": "/article/parkinsons-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-054",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-054/parkinsons-disease-draft.png",
-        "sha256": "11f44562318cb5527ac98d74d1479eb697d2cdd470d3725a89867ca79d6c028f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "parkinsons-disease-pathology-v1-master.png",
+        "publishedFile": "parkinsons-disease-pathology-v1.webp",
+        "socialFile": "parkinsons-disease-pathology-v1-social.webp"
       }
     },
     {
@@ -7862,12 +7868,14 @@
       "route": "/article/pelvic-inflammatory-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-054",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-054/pelvic-inflammatory-disease-draft.png",
-        "sha256": "568218b6e514ab5deee6e027c70b49f739b556402349157d631eeae53e4abdbe"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "pelvic-inflammatory-disease-pathology-v1-master.png",
+        "publishedFile": "pelvic-inflammatory-disease-pathology-v1.webp",
+        "socialFile": "pelvic-inflammatory-disease-pathology-v1-social.webp"
       }
     },
     {
@@ -7881,12 +7889,14 @@
       "route": "/article/periodontitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-054",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-054/periodontitis-draft.png",
-        "sha256": "b2246e37ee33c6265ecdf1b07b494d575cf1caf1a166ce4b22d149047e5525cd"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "periodontitis-pathology-v1-master.png",
+        "publishedFile": "periodontitis-pathology-v1.webp",
+        "socialFile": "periodontitis-pathology-v1-social.webp"
       }
     },
     {
@@ -7900,12 +7910,14 @@
       "route": "/article/pneumonia",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-054",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-054/pneumonia-draft.png",
-        "sha256": "4b64670bc1b01668b1277c951b3904c1d247ee18da5411361ed3bdd1ac8b66ba"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "pneumonia-pathology-v1-master.png",
+        "publishedFile": "pneumonia-pathology-v1.webp",
+        "socialFile": "pneumonia-pathology-v1-social.webp"
       }
     },
     {

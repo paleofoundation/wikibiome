@@ -10145,6 +10145,192 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "pancreatic-cancer|pancreatic-cancer-pathology-v1.webp": {
+      "pageId": "pancreatic-cancer",
+      "publishedFile": "pancreatic-cancer-pathology-v1.webp",
+      "masterSource": "pancreatic-cancer-pathology-v1-master.png",
+      "socialFile": "pancreatic-cancer-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D010190",
+          "https://www.cancer.gov/types/pancreatic/patient/pancreatic-treatment-pdq"
+        ],
+        "notes": "MeSH confirms broad pancreatic-neoplasm identity; NCI confirms heterogeneous pancreatic regions and exocrine or endocrine origins that cannot be inferred visually."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete pancreatic groups are visible; one carries a single bounded nonspecific head-region growth without visible spread."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption identify neutral orientation and explicitly exclude malignancy, origin, histology, grade, stage, spread, prognosis, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "pancreatitis|pancreatitis-pathology-v1.webp": {
+      "pageId": "pancreatitis",
+      "publishedFile": "pancreatitis-pathology-v1.webp",
+      "masterSource": "pancreatitis-pathology-v1-master.png",
+      "socialFile": "pancreatitis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D010195",
+          "https://www.niddk.nih.gov/health-information/digestive-diseases/pancreatitis/definition-facts"
+        ],
+        "notes": "MeSH and NIDDK confirm pancreatitis identity and acute/chronic heterogeneity; the image cannot assign class or cause."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete pancreatic groups are visible, one with a broad bounded pinker lobulated region and no depicted complication."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption describe nonspecific tissue change and exclude classification, cause, complication, severity, prognosis, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "parkinsons-disease|parkinsons-disease-pathology-v1.webp": {
+      "pageId": "parkinsons-disease",
+      "publishedFile": "parkinsons-disease-pathology-v1.webp",
+      "masterSource": "parkinsons-disease-pathology-v1-master.png",
+      "socialFile": "parkinsons-disease-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D010300",
+          "https://www.ninds.nih.gov/current-research/focus-disorders/parkinsons-disease-research/parkinsons-disease-challenges-progress-and-promise"
+        ],
+        "notes": "MeSH and NINDS confirm Parkinson disease identity and nervous-system context; visible models cannot establish cell loss, dopamine state, or disease stage."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups are visible: lateral brain, symmetric deep-brain abstraction, and a three-cell neuron-like cluster."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption call the center model an abstraction and exclude scan, histology, dopamine state, biomarker, mechanism, symptom, stage, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "pelvic-inflammatory-disease|pelvic-inflammatory-disease-pathology-v1.webp": {
+      "pageId": "pelvic-inflammatory-disease",
+      "publishedFile": "pelvic-inflammatory-disease-pathology-v1.webp",
+      "masterSource": "pelvic-inflammatory-disease-pathology-v1-master.png",
+      "socialFile": "pelvic-inflammatory-disease-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D000292",
+          "https://www.cdc.gov/std/treatment-guidelines/pid.htm"
+        ],
+        "notes": "MeSH and CDC confirm a heterogeneous upper-genital-tract spectrum with multiple possible organisms; the plate cannot assign cause or complication."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups are visible, including one patent tube-like model with a single bounded opposing-wall region; no abscess or pathogen appears."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption avoid stigma and exclude pathogen, abscess, fertility claim, complication, severity, prognosis, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "periodontitis|periodontitis-pathology-v1.webp": {
+      "pageId": "periodontitis",
+      "publishedFile": "periodontitis-pathology-v1.webp",
+      "masterSource": "periodontitis-pathology-v1-master.png",
+      "socialFile": "periodontitis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D010518",
+          "https://www.nidcr.nih.gov/health-info/gum-disease"
+        ],
+        "notes": "MeSH and NIDCR confirm inflammation and loss of tooth-supporting tissues; appearance cannot classify progression, stage, cause, or treatment need."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete tooth-support models are visible; one has a viewer-right pocket-like separation and localized lower bone crest."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption describe bounded support change and exclude subtype, grade, stage, cause, severity, treatment, prognosis, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "pneumonia|pneumonia-pathology-v1.webp": {
+      "pageId": "pneumonia",
+      "publishedFile": "pneumonia-pathology-v1.webp",
+      "masterSource": "pneumonia-pathology-v1-master.png",
+      "socialFile": "pneumonia-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D011014",
+          "https://www.nhlbi.nih.gov/health/pneumonia"
+        ],
+        "notes": "MeSH and NHLBI confirm broad pneumonia identity, multiple infectious causes, and alveolar air-space involvement; the plate cannot assign pathogen or severity."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete groups are visible: paired lungs, open alveolar sacs, and comparable sacs with pale translucent material in multiple spaces."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption exclude pathogen, subtype, distribution, material composition, oxygenation, severity, treatment need, prognosis, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [

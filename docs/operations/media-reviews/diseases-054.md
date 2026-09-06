@@ -52,4 +52,4 @@ Exactly six built-in generation calls were made, one per immutable prompt. Every
 
 ## Disposition
 
-All six exact sources pass native review for possible promotion with the stated limitations. None is public at this checkpoint. Promotion requires immutable exact-hash acceptance, metadata and identifier parity, lossless masters, article and social derivatives, native social-crop inspection, and all media, build, search, accessibility, and corpus gates.
+All six exact sources passed native review with the stated limitations and were separately accepted at commit `78cd8ef`. They were promoted through the scoped processor to metadata-bearing lossless masters, article WebPs, and centered `contain` 1200 × 630 social WebPs. Every social derivative retained all three complete teaching groups, pale padding, and the route-specific focus without label leakage, substitution, or clipping. Registry, review-log, controlled-identifier, license, provenance, accessibility, Schema.org, image-sitemap, and canonical-filename parity are required to remain green.
