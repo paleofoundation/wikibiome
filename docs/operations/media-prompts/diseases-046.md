@@ -78,3 +78,18 @@ All six routes are scientifically cleared for exactly one built-in image-generat
 | `cardiovascular-disease` | `cc9cb23ad8d6220f073c741e1ea9bceb791d3db52570d8dfb9487c4f897a70aa` |
 
 The hashes bind the exact prompt text above to audit commit `155fe2b`; any prompt change requires a new audit before generation.
+
+## Immutable generation records and native review
+
+Exactly six built-in calls were attempted, one per cleared route. Five returned original 1536 × 1024 PNGs and one (`breast-cancer`) returned no image because output safety moderation blocked the request. No route was retried or revised. All returned originals are preserved under `work/media-drafts/diseases-batch-046/`.
+
+| Route | Generation record | Source SHA-256 | Bytes | Native review | Disposition |
+| --- | --- | --- | ---: | --- | --- |
+| `anxiety` | `exec-cdab52c8-da43-482d-b382-02179486a3ab.png` | `1b9718115f1b9d82bb0d6ef1bde7f60006b7c1de412e15f62cf7c6b67b846b99` | 1,545,767 | Anonymous translucent head-through-pelvis anatomical model; intact brain, descending neural pathways, stomach and bowel; no stigmatizing or diagnostic motif. Source touches vertical edge; `contain` required. | approve for exact-hash review |
+| `autism-spectrum-disorder` | `exec-12c6d148-fb5e-4cc1-8439-97020a8db26b.png` | `7bdefed7a738c6d253da8c195fcbecffed1d9e14e33141052dba35c48e6dac9b` | 1,971,652 | Intact brain, separate circular synaptic inset, and intestinal tract with thin neural connection; no person, stereotype, deficit metaphor, or visible diagnostic lesion. `contain` required. | approve for exact-hash review |
+| `barretts-esophagus` | `exec-9555f498-5bc8-43f3-b261-227adb401876.png` | `1f9e61ecf2a12b4415c1f5673b0db20fd35a7483aa1efac700682fdd6203542b` | 1,784,205 | Tissue reaches top, bottom, and right source edges; 9,523 dark edge-band pixels. The requested complete organ is not present. | reject and quarantine; never publish |
+| `bipolar-disorder` | `exec-05c3c76c-afac-4fbc-bed8-d3e14f71f574.png` | `3b29beece62c28ec25b18ed7cf00ed28f4576958ff1fdc0ff294845f3ce7d912` | 1,408,769 | Intact neutral brain plus stomach and intestinal tract; no split-brain, theatrical mood, person, or diagnostic-lesion motif. `contain` required. | approve for exact-hash review |
+| `breast-cancer` | no image returned; request `b02887d3-9763-447a-84fa-3da53f79480e` | none | 0 | Built-in generator output moderation returned `moderation_blocked` in category `sexual`; there is no visual output to evaluate. | failed; no asset exists |
+| `cardiovascular-disease` | `exec-53703ee3-a5a0-44f8-978b-e31ced1008a9.png` | `532077fbb73b22597570186e3edb1457519f768aa4feec22584e3b04daf62e00` | 1,967,234 | Complete heart and major vessels plus separate circular artery cross-section with restrained eccentric plaque and open lumen. `contain` required to preserve the full heart. | approve for exact-hash review |
+
+The four approved outputs contain no text, labels, people, pills, treatment scenes, blood spray, gore, diagnostic scans, or decorative metaphors. The Barrett output and absent breast-cancer output are ineligible for a registry key, master, derivative, endpoint, schema node, or sitemap entry. Prompt intent is not reported as observed fact.
