@@ -74,4 +74,13 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 
 ## Frozen prompt hashes
 
-Prompt hashes are populated only after the audit commit binds this file. Any change after that point requires a new audited revision.
+| Route | Revision | Prompt SHA-256 |
+| --- | ---: | --- |
+| `barretts-esophagus` | 2 | `807e9d3a2bae8bf32ac4a14430dea44607544b9d3108b138b2c0d7ea6aeb8f3e` |
+| `breast-cancer` | 2 | `1eb758f6e27f26c2dd3767a0d17ae97c8611acd81a3f3655e340f13b5cb1363b` |
+| `celiac-disease` | 1 | `12dcbfbde5834fa3a0beda4eefd4a9d6756b3644147d791def3d625cd9cdc932` |
+| `cerebral-palsy` | 1 | `1c91f602c7d1be5b9d8a3d63aab79672e066af95c403d073d50d6da49ff5adb9` |
+| `cholestasis` | 1 | `50f13be60dd69878ba512f91572a0dc356bf3cb90fa0424c9bc147a044f34d02` |
+| `chronic-fatigue-syndrome` | 1 | `89bf7319c61bd71ecd6fd6e284ebd8c16b0ce5980102fd006635e50f0a62ec6e` |
+
+These hashes bind the exact prompt bodies above to audit commit `1e56b08`. Any prompt change requires a new audit before generation.
