@@ -102,3 +102,12 @@ Scientific references:
 - https://pubmed.ncbi.nlm.nih.gov/20571015/
 
 Only the two marked prompt blocks may enter prompt-risk review, hash freeze, and generation. The four held routes must remain asset-free until their editorial conflicts are resolved and independently re-audited. Every generated result remains review-only until literal native-resolution inspection, immutable exact hashes, separate Control Tower acceptance, metadata reconciliation, derivative crop review, and full release gates are complete.
+
+## Frozen prompt hashes
+
+- `gut-vagina-axis`: no prompt; scientific-media hold.
+- `heavy-metal-neurotoxicity`: no prompt; scientific-media hold.
+- `heavy-metals`: no prompt; scientific-media hold.
+- `heavy-metals-infant-foods`: no prompt; scientific-media hold.
+- `histidine`: `a2b2a7c701c1879b65ed7ae6c6b1823ed230f2c404e7a254d94661b3fff30646`
+- `homocysteine`: `457d1b4b7737a5b637f522ee2ba7dc55e44bbbf589c9be0a00e5f28730ae8a1f`
