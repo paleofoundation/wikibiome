@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "ce8870a2bf4877ba9b9de94780e34397159cd8c2e44f5094b72ad467af11e494",
+    "registrySha256": "59cc876f86142bf7d1749cb9e678f390d88ec58097f7564c7a14928d845230ea",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "36e8ee2a49133de4b776c2322cfc0890fe1781f4e9f07d07fe3464d696930c5a",
+    "reviewLogSha256": "eb769267c0b71b31a6a34539a38086897770ae4011dd6b46c3ac5b3e5d9ba626",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -45,8 +45,8 @@
       {
         "file": "data/article-media-batches/diseases-051.json",
         "batchId": "diseases-051",
-        "status": "approved-awaiting-promotion",
-        "sha256": "11ad649b227e50d7e2f9f8cff24247edb4676228fa0393505b097a459f640737"
+        "status": "reviewed",
+        "sha256": "a0a5b7d977c0c05966c39dba73ed999d91aeee13e9ef313c8c9bbd8c74d24dac"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -338,12 +338,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 273,
-    "remaining": 437,
+    "completed": 279,
+    "remaining": 431,
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
@@ -364,8 +364,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 30,
-      "remaining": 36
+      "completed": 36,
+      "remaining": 30
     },
     {
       "id": "mechanisms",
@@ -7390,12 +7390,14 @@
       "route": "/article/gestational-diabetes",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-051",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-051/gestational-diabetes-draft.png",
-        "sha256": "c4ecf8031a768357599ed0306e514efb320ed2c48d20c144466f029ebfa3ab54"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "gestational-diabetes-pathology-v1-master.png",
+        "publishedFile": "gestational-diabetes-pathology-v1.webp",
+        "socialFile": "gestational-diabetes-pathology-v1-social.webp"
       }
     },
     {
@@ -7410,12 +7412,14 @@
       "route": "/article/graves-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-051",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-051/graves-disease-draft.png",
-        "sha256": "d57ec9151e30cbf9ec026f17e824497b902b9b63ea571e5f84478d7f6d4713b8"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "graves-disease-pathology-v1-master.png",
+        "publishedFile": "graves-disease-pathology-v1.webp",
+        "socialFile": "graves-disease-pathology-v1-social.webp"
       }
     },
     {
@@ -7430,12 +7434,14 @@
       "route": "/article/hashimotos-thyroiditis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-051",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-051/hashimotos-thyroiditis-draft.png",
-        "sha256": "153c202ae634251f62de434eaf1552ddfa78e97e52c782944961d2ac1bf6d589"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "hashimotos-thyroiditis-pathology-v1-master.png",
+        "publishedFile": "hashimotos-thyroiditis-pathology-v1.webp",
+        "socialFile": "hashimotos-thyroiditis-pathology-v1-social.webp"
       }
     },
     {
@@ -7449,12 +7455,14 @@
       "route": "/article/hepatitis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-051",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-051/hepatitis-draft.png",
-        "sha256": "46f53b90a65cfaeaaffb08cb6bc2974b4bddb6e64bbebfac12e7d2617d00b47a"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "hepatitis-pathology-v1-master.png",
+        "publishedFile": "hepatitis-pathology-v1.webp",
+        "socialFile": "hepatitis-pathology-v1-social.webp"
       }
     },
     {
@@ -7468,12 +7476,14 @@
       "route": "/article/hidradenitis-suppurativa",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-051",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-051/hidradenitis-suppurativa-draft.png",
-        "sha256": "75c335cb1f68fb6c5bd322432a097359eac51a2dcd3ec4ba503ddab0e9f94a49"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "hidradenitis-suppurativa-pathology-v1-master.png",
+        "publishedFile": "hidradenitis-suppurativa-pathology-v1.webp",
+        "socialFile": "hidradenitis-suppurativa-pathology-v1-social.webp"
       }
     },
     {
@@ -7487,12 +7497,14 @@
       "route": "/article/hiv",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "diseases-051",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/diseases-batch-051/hiv-draft.png",
-        "sha256": "b3ff30e631e9b575349b34e8e06c617819e4efe0e19e023f5de556ea4ff72857"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "hiv-pathology-v1-master.png",
+        "publishedFile": "hiv-pathology-v1.webp",
+        "socialFile": "hiv-pathology-v1-social.webp"
       }
     },
     {

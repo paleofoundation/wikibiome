@@ -98,6 +98,14 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 
 These hashes bind the exact prompt bodies above to audit commit `42dae80`. Any prompt change requires a new audit before generation.
 
+## Immutable generation, review, acceptance, and promotion
+
+Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-051/`. Native inspection, exact source hashes, literal teaching-model counts, prohibited-content checks, edge statistics, and dispositions are frozen in `docs/operations/media-reviews/diseases-051.md`; the accepted review packet SHA-256 is `ef21783d474ab2cbef27289d2c524c071a43c9b9885ebd233b3e177ed3cd37a1`, and the corrected prompt/evidence packet SHA-256 is `02837a78dafa57542875ae5e82ed8bf60af01b05c343c42d219b76131cd0dccd`.
+
+Control Tower accepted the six exact source hashes in `docs/operations/media-acceptances/diseases-051.md` at commit `8d7e8be`. No rejected or substitute bytes entered promotion. Each accepted source was promoted to a metadata-bearing lossless master, article WebP, and centered `contain` 1200 × 630 social WebP.
+
+Control Tower inspected every social derivative at native detail on 2026-09-06. All complete anatomy and teaching groups remain visible: three gestational-diabetes models, three Graves models, two Hashimoto models, two hepatitis models, two hidradenitis-suppurativa skin blocks, and three HIV models. `cover` remains forbidden for all six because it could remove scientifically meaningful structures or encourage unsupported identification.
+
 ## Immutable generation and review checkpoint
 
 Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-051/`. Native inspection, exact source hashes, literal groupings, output limitations, prohibited-content checks, edge statistics, and Control Tower's preliminary visual pass are recorded in `docs/operations/media-reviews/diseases-051.md`. No output is public; exact-hash promotion authorization remains a separate gate.

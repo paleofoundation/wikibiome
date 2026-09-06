@@ -9581,6 +9581,211 @@
         "sourceSha256": "3d3e980de5c6b9950f3c88e8b93da48a9fd79419ead79cc4ea65669e6695224b",
         "generationRecord": "exec-e3a12f84-da2a-4362-8c14-79e66e58d46e.png"
       }
+    },
+    "gestational-diabetes|gestational-diabetes-pathology-v1.webp": {
+      "pageId": "gestational-diabetes",
+      "publishedFile": "gestational-diabetes-pathology-v1.webp",
+      "masterSource": "gestational-diabetes-pathology-v1-master.png",
+      "socialFile": "gestational-diabetes-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D016640",
+          "https://www.niddk.nih.gov/health-information/diabetes/overview/what-is-diabetes/gestational/definition-facts"
+        ],
+        "notes": "MeSH controls gestational-diabetes identity; NIDDK supports pregnancy-onset diabetes and heterogeneous-risk framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three separate teaching models are complete; the unlabeled membrane and molecular abstraction is not assigned a molecule, receptor, biomarker, or single mechanism."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all three visible groups; caption expressly rejects molecular identification, single-mechanism, severity, outcome, and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 051 source accepted for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "gestational-diabetes-draft.png",
+        "sourceSha256": "c4ecf8031a768357599ed0306e514efb320ed2c48d20c144466f029ebfa3ab54",
+        "generationRecord": "exec-52233acf-05fa-4dc1-8933-40e9400350b6.png"
+      }
+    },
+    "graves-disease|graves-disease-pathology-v1.webp": {
+      "pageId": "graves-disease",
+      "publishedFile": "graves-disease-pathology-v1.webp",
+      "masterSource": "graves-disease-pathology-v1-master.png",
+      "socialFile": "graves-disease-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D006111",
+          "https://www.niddk.nih.gov/health-information/endocrine-diseases/graves-disease"
+        ],
+        "notes": "MeSH controls Graves-disease identity; NIDDK supports autoimmune-thyroid and heterogeneous-manifestation framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete teaching models show external thyroid orientation, a follicular cutaway, and an unlabeled membrane/Y-form abstraction; no receptor identity or eye disease is inferred."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports all three groups; caption rejects receptor, antibody, eye-disease, stage, severity, treatment-response, and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 051 source accepted for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "graves-disease-draft.png",
+        "sourceSha256": "d57ec9151e30cbf9ec026f17e824497b902b9b63ea571e5f84478d7f6d4713b8",
+        "generationRecord": "exec-d13cdad1-4055-4fbd-bc89-6b94b2eb3c44.png"
+      }
+    },
+    "hashimotos-thyroiditis|hashimotos-thyroiditis-pathology-v1.webp": {
+      "pageId": "hashimotos-thyroiditis",
+      "publishedFile": "hashimotos-thyroiditis-pathology-v1.webp",
+      "masterSource": "hashimotos-thyroiditis-pathology-v1-master.png",
+      "socialFile": "hashimotos-thyroiditis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D050031",
+          "https://www.niddk.nih.gov/health-information/endocrine-diseases/hashimotos-disease"
+        ],
+        "notes": "MeSH controls Hashimoto-disease identity; NIDDK supports autoimmune-thyroid and variable-course framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Two complete models show intact thyroid orientation and a follicular cutaway with untyped immune-cell-like elements; the plate is not diagnostic histology."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text distinguishes the two models; caption rejects cell typing, stage, activity, severity, treatment-response, and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 051 source accepted for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "hashimotos-thyroiditis-draft.png",
+        "sourceSha256": "153c202ae634251f62de434eaf1552ddfa78e97e52c782944961d2ac1bf6d589",
+        "generationRecord": "exec-e72e2109-6282-46e9-a44a-25c610003720.png"
+      }
+    },
+    "hepatitis|hepatitis-pathology-v1.webp": {
+      "pageId": "hepatitis",
+      "publishedFile": "hepatitis-pathology-v1.webp",
+      "masterSource": "hepatitis-pathology-v1-master.png",
+      "socialFile": "hepatitis-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D006505",
+          "https://medlineplus.gov/hepatitis.html"
+        ],
+        "notes": "MeSH controls broad hepatitis identity; NLM MedlinePlus independently supports liver inflammation with viral and nonviral causes."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Two complete models show whole-liver anatomy and a separate etiology-neutral hepatic microarchitecture orientation; it is not literal lobule histology."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports both models; caption rejects viral, alcohol, toxin, autoimmune, chronicity, severity, and diagnostic inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 051 source accepted for mandatory centered contain-mode promotion after the second official authority was added.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "hepatitis-draft.png",
+        "sourceSha256": "46f53b90a65cfaeaaffb08cb6bc2974b4bddb6e64bbebfac12e7d2617d00b47a",
+        "generationRecord": "exec-2d84851d-8ff8-402a-b071-7d1591ee622f.png"
+      }
+    },
+    "hidradenitis-suppurativa|hidradenitis-suppurativa-pathology-v1.webp": {
+      "pageId": "hidradenitis-suppurativa",
+      "publishedFile": "hidradenitis-suppurativa-pathology-v1.webp",
+      "masterSource": "hidradenitis-suppurativa-pathology-v1-master.png",
+      "socialFile": "hidradenitis-suppurativa-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D017497",
+          "https://www.niams.nih.gov/health-topics/hidradenitis-suppurativa-hs"
+        ],
+        "notes": "MeSH controls hidradenitis-suppurativa identity; NIAMS supports follicular blockage and tunnel architecture framing."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Two complete skin teaching blocks show an ordinary follicular unit and a schematic altered follicular/tunnel model; contents are not identified from appearance."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names the cavity, closed tract, and cell-like forms without diagnosis; caption rejects literal abscess contents, stage, severity, activity, and treatment-response claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 051 source accepted for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "hidradenitis-suppurativa-draft.png",
+        "sourceSha256": "75c335cb1f68fb6c5bd322432a097359eac51a2dcd3ec4ba503ddab0e9f94a49",
+        "generationRecord": "exec-0d175fc5-48d2-430e-81f3-d873fe529ea9.png"
+      }
+    },
+    "hiv|hiv-pathology-v1.webp": {
+      "pageId": "hiv",
+      "publishedFile": "hiv-pathology-v1.webp",
+      "masterSource": "hiv-pathology-v1-master.png",
+      "socialFile": "hiv-pathology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D015658",
+          "https://www.hiv.gov/hiv-basics/overview/about-hiv-and-aids/what-are-hiv-and-aids",
+          "https://clinicalinfo.hiv.gov/en/glossary/immune-system"
+        ],
+        "notes": "MeSH controls HIV-infection identity; HIV.gov distinguishes HIV from AIDS; ClinicalInfo supports general immune-system orientation."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three complete teaching models show a lymph-node-like cutaway, generic immune-cell, and generic enveloped particle; no exact cell, virion, stage, AIDS, or pathology identity is inferred."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text reports all three generic models; caption rejects exact virion, cell-type, lymph-node-pathology, HIV-type, viral-load, stage, AIDS, prognosis, and diagnostic claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact immutable Batch 051 source accepted for mandatory centered contain-mode promotion.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "hiv-draft.png",
+        "sourceSha256": "b3ff30e631e9b575349b34e8e06c617819e4efe0e19e023f5de556ea4ff72857",
+        "generationRecord": "exec-87ffa70e-4d45-4b0f-81b2-9b8ffa01344f.png"
+      }
     }
   },
   "rejectedAssets": [
