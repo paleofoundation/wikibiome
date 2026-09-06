@@ -117,8 +117,8 @@
       {
         "file": "data/article-media-batches/mechanisms-063.json",
         "batchId": "mechanisms-063",
-        "status": "prompt-frozen",
-        "sha256": "3fe4385a8d2b6440cbcb801fede62a6e8415a7ac569f265644f585c3fb97bb97"
+        "status": "reviewed",
+        "sha256": "2890e0986141ed7f67f35bab68eceed5e5e9cd1b0c11ec0dce84b70f82c00d22"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
