@@ -5299,6 +5299,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text enumerates the five literal groupings; caption rejects a visible signature, abnormal biomarker, exercise recommendation, and diagnosis." },
       "disposition": "approved", "notes": "Exact immutable Batch 047 source accepted for mandatory contain-mode promotion because the set approaches both horizontal source margins.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "chronic-fatigue-syndrome-draft.png", "sourceSha256": "de3d2ee79a4c892890692be51212bf6d81f6d3a23efca43ce463f5cd9854ec46", "generationRecord": "exec-0fd3f93d-41c4-4e60-a7db-6b498bc22fb2.png" }
+    },
+    "chronic-kidney-disease|chronic-kidney-disease-pathology-v1.webp": {
+      "pageId": "chronic-kidney-disease", "publishedFile": "chronic-kidney-disease-pathology-v1.webp", "masterSource": "chronic-kidney-disease-pathology-v1-master.png", "socialFile": "chronic-kidney-disease-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D051436", "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/what-is-chronic-kidney-disease"], "notes": "MeSH controls chronic renal insufficiency identity and persistence and staging scope; NIDDK supports chronic kidney-function framing without a universal visible gross lesion." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted two complete bisected kidney models with ureters and one separate nephron-and-glomerulus group; no stage, cause, dialysis, laboratory value, or diagnostic claim is made." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports literal renal and nephron anatomy; caption rejects universal gross-appearance, staging, laboratory, histologic, and diagnostic interpretations." },
+      "disposition": "approved", "notes": "Exact immutable Batch 048 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "chronic-kidney-disease-draft.png", "sourceSha256": "db3bb36f4d0fae64ad7746f0569c7869eb218021f29fff9243a92f996f0891a6", "generationRecord": "exec-fcd88070-ba80-4a85-aa1a-420c31d4d83d.png" }
+    },
+    "cirrhosis|cirrhosis-pathology-v1.webp": {
+      "pageId": "cirrhosis", "publishedFile": "cirrhosis-pathology-v1.webp", "masterSource": "cirrhosis-pathology-v1-master.png", "socialFile": "cirrhosis-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D008103", "https://www.niddk.nih.gov/health-information/liver-disease/cirrhosis/definition-facts"], "notes": "MeSH controls Liver Cirrhosis identity and fibrous-septa and regenerative-nodule scope; NIDDK supports hepatic scarring and functional framing." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete liver model with one restrained cutaway containing rounded tissue groupings separated by pale fibrous bands and no cause, complication, stage, patient, or diagnostic claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text describes the literal complete liver and cutaway architecture; caption rejects etiology, complication, stage, and diagnostic interpretations." },
+      "disposition": "approved", "notes": "Exact immutable Batch 048 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cirrhosis-draft.png", "sourceSha256": "0c427db6b6692a96c4666aaec379af0f94c37eb9a65713835fe7c85ca9b62583", "generationRecord": "exec-edcdc039-24a7-44f8-9720-7bf646217d15.png" }
+    },
+    "colorectal-cancer|colorectal-cancer-pathology-v1.webp": {
+      "pageId": "colorectal-cancer", "publishedFile": "colorectal-cancer-pathology-v1.webp", "masterSource": "colorectal-cancer-pathology-v1-master.png", "socialFile": "colorectal-cancer-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D015179", "https://www.cancer.gov/types/colorectal/screening-fact-sheet"], "notes": "MeSH controls Colorectal Neoplasms identity; NCI supports colon-and-rectum anatomy and inner-surface lesion framing." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete large-intestine model with one open sigmoid cutaway and one localized raised mucosal lesion, without obstruction, spread, staging, procedure, or diagnostic claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports the complete model, cutaway, and lesion; caption rejects stage, spread, obstruction, procedure, and diagnostic interpretations." },
+      "disposition": "approved", "notes": "Exact immutable Batch 048 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "colorectal-cancer-draft.png", "sourceSha256": "1969ec8248d3d572339dade075fdf179e923d38593ecf4de9c51bd9de5edfbbe", "generationRecord": "exec-de119133-a277-40bf-8954-22b576b8bb77.png" }
+    },
+    "coronary-artery-disease|coronary-artery-disease-pathology-v1.webp": {
+      "pageId": "coronary-artery-disease", "publishedFile": "coronary-artery-disease-pathology-v1.webp", "masterSource": "coronary-artery-disease-pathology-v1-master.png", "socialFile": "coronary-artery-disease-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D003324", "https://www.nhlbi.nih.gov/health/coronary-heart-disease/causes"], "notes": "MeSH controls Coronary Artery Disease identity across congenital, atherosclerotic, and non-atherosclerotic causes; NHLBI supports coronary anatomy and the representative plaque process." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one complete heart with surface coronary vessels and one artery cross-section with eccentric wall material and an open lumen; no occlusion, infarction, procedure, severity, or diagnostic claim is made." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports the two literal groups; caption states that atherosclerosis is representative rather than universal and rejects occlusion, infarction, severity, and diagnosis." },
+      "disposition": "approved", "notes": "Exact immutable Batch 048 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "coronary-artery-disease-draft.png", "sourceSha256": "0f82b144a22965392a99d10eece8a613dd4255631a260f002505fea5d2d24542", "generationRecord": "exec-ca961445-d3cb-4170-96fd-43522a86b42b.png" }
+    },
+    "crohns-disease|crohns-disease-pathology-v1.webp": {
+      "pageId": "crohns-disease", "publishedFile": "crohns-disease-pathology-v1.webp", "masterSource": "crohns-disease-pathology-v1-master.png", "socialFile": "crohns-disease-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D003424", "https://www.niddk.nih.gov/health-information/digestive-diseases/crohns-disease/definition-facts"], "notes": "MeSH controls Crohn Disease identity and segmental transmural inflammatory scope; NIDDK supports heterogeneous digestive-tract distribution." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted one intestinal orientation group and one bowel-wall specimen with smoother sections around a thickened irregular full-wall segment, with no complication, asserted distribution, severity, subtype, or diagnostic claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports both literal groups and the wall contrast; caption rejects universal distribution, complications, severity, subtype, and diagnosis." },
+      "disposition": "approved", "notes": "Exact immutable Batch 048 source accepted for mandatory contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "crohns-disease-draft.png", "sourceSha256": "af7288a8034a1c69f4bea912f8deed597b17952d4aaec90cf608e87654355959", "generationRecord": "exec-5218f5da-9ed3-4baa-b25e-d307901cee2f.png" }
+    },
+    "cystic-fibrosis|cystic-fibrosis-pathology-v1.webp": {
+      "pageId": "cystic-fibrosis", "publishedFile": "cystic-fibrosis-pathology-v1.webp", "masterSource": "cystic-fibrosis-pathology-v1-master.png", "socialFile": "cystic-fibrosis-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D003550", "https://www.nhlbi.nih.gov/health/cystic-fibrosis"], "notes": "MeSH controls Cystic Fibrosis identity and multisystem exocrine-gland scope; NHLBI supports lung and multisystem framing." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted three groups—an airway cross-section with a pale luminal layer, complete lungs, and a pancreas-and-duct model—with no patient, infection, genotype, stage, treatment, or diagnostic claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text enumerates the three literal groups; caption retains multisystem scope and rejects patient, infection, genotype, universal pulmonary, stage, treatment-response, and diagnostic interpretations." },
+      "disposition": "approved", "notes": "Exact immutable Batch 048 source accepted for mandatory contain-mode promotion because outer groups approach both horizontal source margins.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cystic-fibrosis-draft.png", "sourceSha256": "89b4f5b3fa22abee8544e7592fec3b933b5da67045ba57ef103410f58ebc3cdb", "generationRecord": "exec-0b5b872a-8970-4d28-a26b-324ac1a345ea.png" }
     }
   },
   "rejectedAssets": [

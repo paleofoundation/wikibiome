@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "620be6725b10ec0760ef4b505a11cb1189e5d5a4675a4546f853c725ba5438f7",
+    "registrySha256": "b3f329fa6eacf36196cf79137947a34f54d3cfd985073a6a87cd4456808e157f",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f9d47316290ae046d6493a67f05bc1f70f54a8a559b10d6d3fe939d602745bfe",
+    "reviewLogSha256": "3f03b116c5dabecba93e8f320a4f1916819f09bb2580fa8f91429caffeba21a4",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -23,6 +23,12 @@
         "batchId": "diseases-047",
         "status": "reviewed",
         "sha256": "1eac656e03faa386387bb11b647caf6eba231a61b958428825c993110a226892"
+      },
+      {
+        "file": "data/article-media-batches/diseases-048.json",
+        "batchId": "diseases-048",
+        "status": "reviewed",
+        "sha256": "bc0c56a8cc77ebc25028883f9a765bb36b226537d46ddc29bcf2f965105c381e"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -314,8 +320,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 255,
-    "remaining": 455,
+    "completed": 261,
+    "remaining": 449,
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
@@ -340,8 +346,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 12,
-      "remaining": 54
+      "completed": 18,
+      "remaining": 48
     },
     {
       "id": "mechanisms",
@@ -1252,55 +1258,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 270,
-      "id": "chronic-kidney-disease",
-      "title": "Chronic Kidney Disease",
-      "route": "/article/chronic-kidney-disease",
+      "queuePosition": 276,
+      "id": "depression",
+      "title": "Depression",
+      "route": "/article/depression",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 271,
-      "id": "cirrhosis",
-      "title": "Cirrhosis",
-      "route": "/article/cirrhosis",
+      "queuePosition": 277,
+      "id": "dermatitis-herpetiformis",
+      "title": "Dermatitis Herpetiformis",
+      "route": "/article/dermatitis-herpetiformis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 272,
-      "id": "colorectal-cancer",
-      "title": "Colorectal Cancer",
-      "route": "/article/colorectal-cancer",
+      "queuePosition": 278,
+      "id": "diabetic-kidney-disease",
+      "title": "Diabetic Kidney Disease",
+      "route": "/article/diabetic-kidney-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 273,
-      "id": "coronary-artery-disease",
-      "title": "Coronary Artery Disease",
-      "route": "/article/coronary-artery-disease",
+      "queuePosition": 280,
+      "id": "endometriosis",
+      "title": "Endometriosis",
+      "route": "/article/endometriosis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 274,
-      "id": "crohns-disease",
-      "title": "Crohn's Disease",
-      "route": "/article/crohns-disease",
+      "queuePosition": 281,
+      "id": "epilepsy",
+      "title": "Epilepsy",
+      "route": "/article/epilepsy",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 275,
-      "id": "cystic-fibrosis",
-      "title": "Cystic Fibrosis",
-      "route": "/article/cystic-fibrosis",
+      "queuePosition": 282,
+      "id": "erectile-dysfunction",
+      "title": "Erectile Dysfunction",
+      "route": "/article/erectile-dysfunction",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -6956,7 +6962,15 @@
       "route": "/article/chronic-kidney-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "chronic-kidney-disease-pathology-v1-master.png",
+        "publishedFile": "chronic-kidney-disease-pathology-v1.webp",
+        "socialFile": "chronic-kidney-disease-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 271,
@@ -6969,7 +6983,15 @@
       "route": "/article/cirrhosis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cirrhosis-pathology-v1-master.png",
+        "publishedFile": "cirrhosis-pathology-v1.webp",
+        "socialFile": "cirrhosis-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 272,
@@ -6983,7 +7005,15 @@
       "route": "/article/colorectal-cancer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "colorectal-cancer-pathology-v1-master.png",
+        "publishedFile": "colorectal-cancer-pathology-v1.webp",
+        "socialFile": "colorectal-cancer-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 273,
@@ -6996,7 +7026,15 @@
       "route": "/article/coronary-artery-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "coronary-artery-disease-pathology-v1-master.png",
+        "publishedFile": "coronary-artery-disease-pathology-v1.webp",
+        "socialFile": "coronary-artery-disease-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 274,
@@ -7010,7 +7048,15 @@
       "route": "/article/crohns-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "crohns-disease-pathology-v1-master.png",
+        "publishedFile": "crohns-disease-pathology-v1.webp",
+        "socialFile": "crohns-disease-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 275,
@@ -7023,7 +7069,15 @@
       "route": "/article/cystic-fibrosis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cystic-fibrosis-pathology-v1-master.png",
+        "publishedFile": "cystic-fibrosis-pathology-v1.webp",
+        "socialFile": "cystic-fibrosis-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 276,

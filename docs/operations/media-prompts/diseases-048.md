@@ -81,3 +81,11 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 | `cystic-fibrosis` | 1 | `2faee1c4f746c38420231b285aac90d0c6be08f332f8399af3efec2b054f918d` |
 
 These hashes bind the exact prompt bodies above to audit commit `79128c4`. Any prompt change requires a new audit before generation.
+
+## Immutable generation, review, acceptance, and promotion
+
+Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-048/`. Native inspection, exact source hashes, literal groupings, prohibited-content checks, edge statistics, and dispositions are frozen in review packet `docs/operations/media-reviews/diseases-048.md` at commit `a8c2e65`. The review packet SHA-256 is `a3d8682e7f294cea7245a978afba1ffa3ddf91a6151f1c980aafc8f58e74de3a`.
+
+Control Tower accepted the six exact hashes in `docs/operations/media-acceptances/diseases-048.md` at commit `0bc8e97`. No rejected or substitute bytes entered promotion. Each accepted source was promoted to a metadata-bearing lossless master, article WebP, and centered `contain` 1200 × 630 social WebP.
+
+Control Tower inspected every social derivative at native detail on 2026-09-06. The paired kidneys and nephron, complete liver and cutaway, complete colorectal model, heart and coronary cross-section, two Crohn-disease intestinal groups, and three cystic-fibrosis exocrine groups all remain complete and legible. `cover` remains forbidden for all six; `contain` is mandatory because it preserves the full scientific anatomy and the edge-sensitive colorectal, Crohn Disease, and Cystic Fibrosis structures.
