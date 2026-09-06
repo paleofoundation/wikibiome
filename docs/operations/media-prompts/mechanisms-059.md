@@ -90,3 +90,7 @@ All six prompts are scientifically cleared for one built-in generation call each
 | `bacterial-contamination-hypothesis` | 1 | `7fe4ccded813b8672f68fd2f571b13865e0c058dba4f24c9cb0ee81f31ffd92b` |
 
 These hashes bind the exact marker-contained prompt bodies. Any prompt change requires a new authority audit and freeze before generation.
+
+## Immutable generation and promotion checkpoint
+
+Exactly six built-in calls were made, one for each frozen prompt. Generator-owned originals remain at the recorded `exec-*.png` paths, and identical project-bound originals are preserved under `work/media-drafts/mechanisms-batch-059/`. Native review accepted four exact source hashes and rejected the atherosclerosis and bacteremia outputs. Promotion used the scoped processor only for the four accepted owners and centered `contain` for every 1200 × 630 derivative. Native-detail review confirmed all accepted teaching groups remain complete and visible with pale side padding and no clipping or label leakage. The two rejected sources own no public artifact.

@@ -11076,9 +11076,159 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "aryl-hydrocarbon-receptor|aryl-hydrocarbon-receptor-mechanism-v1.webp": {
+      "pageId": "aryl-hydrocarbon-receptor",
+      "publishedFile": "aryl-hydrocarbon-receptor-mechanism-v1.webp",
+      "masterSource": "aryl-hydrocarbon-receptor-mechanism-v1-master.png",
+      "socialFile": "aryl-hydrocarbon-receptor-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/P35869/entry",
+          "https://www.wikibiome.com/article/aryl-hydrocarbon-receptor"
+        ],
+        "notes": "UniProt confirms reviewed human AHR identity and cytoplasmic-to-nuclear cellular context."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Four complete bodies in three separated groups; no depicted binding, translocation, or transcription event."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption distinguish generic orientation from measured structure, interaction, pathway state, or diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "aspirin|aspirin-mechanism-v1.webp": {
+      "pageId": "aspirin",
+      "publishedFile": "aspirin-mechanism-v1.webp",
+      "masterSource": "aspirin-mechanism-v1-master.png",
+      "socialFile": "aspirin-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/2244",
+          "https://www.wikibiome.com/article/aspirin"
+        ],
+        "notes": "PubChem confirms aspirin identity and molecular formula C9H8O4."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Nine carbon and four oxygen heavy-atom centers are visible with three separate unmarked crystal forms."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption state hydrogen omission and exclude dose, mechanism, efficacy, safety, and treatment claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "autophagy|autophagy-mechanism-v1.webp": {
+      "pageId": "autophagy",
+      "publishedFile": "autophagy-mechanism-v1.webp",
+      "masterSource": "autophagy-mechanism-v1-master.png",
+      "socialFile": "autophagy-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://amigo.geneontology.org/amigo/term/GO:0006914",
+          "https://www.ncbi.nlm.nih.gov/books/NBK6211/"
+        ],
+        "notes": "Gene Ontology and NCBI support autophagy identity and broad macroautophagy membrane morphology."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Three separated membrane-context groups are complete and do not depict a measured fusion or flux sequence."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption describe literal forms and exclude time course, assay result, mechanism, and diagnosis."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
+    },
+    "bacterial-contamination-hypothesis|bacterial-contamination-hypothesis-mechanism-v1.webp": {
+      "pageId": "bacterial-contamination-hypothesis",
+      "publishedFile": "bacterial-contamination-hypothesis-mechanism-v1.webp",
+      "masterSource": "bacterial-contamination-hypothesis-mechanism-v1-master.png",
+      "socialFile": "bacterial-contamination-hypothesis-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/29692669/",
+          "https://www.wikibiome.com/article/bacterial-contamination-hypothesis"
+        ],
+        "notes": "PMID 29692669 establishes the named hypothesis and proposed endometriosis context."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Reproductive anatomy, eight rods, and membrane token are complete, separated, and show no route or causal contact."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt and caption explicitly frame separate hypothesis components and exclude proof, species identification, route, causation, diagnosis, and treatment."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash; centered-contain derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [
+    {
+      "pageId": "atherosclerosis",
+      "batchId": "mechanisms-059",
+      "draft": "work/media-drafts/mechanisms-batch-059/atherosclerosis-draft.png",
+      "sha256": "762f7b58a5912e37cabd0e2266b51a3c43f5533f2a880a2a8c59204b0d0def8d",
+      "generationRecord": "exec-9ec60c52-a984-44e5-bef0-604a21f90c67.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The longitudinal artery enters the frozen uninterrupted 32-pixel pale edge field at x=28, making the source ineligible for crop-safe publication.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
+    {
+      "pageId": "bacteremia",
+      "batchId": "mechanisms-059",
+      "draft": "work/media-drafts/mechanisms-batch-059/bacteremia-draft.png",
+      "sha256": "94815dd3e0aa7177deaeedf826534745049d4d5aaefad61b2528bf423f1c04e9",
+      "generationRecord": "exec-d8f234a1-2609-475b-a2bb-1c607c884cbf.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "A severe black top-and-bottom vignette creates 124,910 dark pixels in the 32-pixel edge band and violates the uniform pale-field publication standard.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
     {
       "pageId": "multiple-sclerosis",
       "controlledIdentifier": "MeSH:D009103",

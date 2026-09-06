@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "b9d3cedc3029d8720e69f25fc354a46a622cddc6c32d4b4788e784b2f4cf2667",
+    "registrySha256": "98357827463a65af29f923116c6bb94e3bf4cde1d72fe6bd5864e08c6e03462d",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "2cfde45694cc32fc22497052b7766c78f21477240aee1d1ed8ffac0a20260354",
+    "reviewLogSha256": "b683888cb365743a8ce12074bc004bdc378f14ebe4d7446303df4f662f205fce",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -93,8 +93,8 @@
       {
         "file": "data/article-media-batches/mechanisms-059.json",
         "batchId": "mechanisms-059",
-        "status": "approved-awaiting-promotion",
-        "sha256": "943f75bd35c8fc72e09cb109d46aec128fa7615f4c6749bc0a5895edb7735d50"
+        "status": "reviewed",
+        "sha256": "e1a7a80a67e1d9900a6bb846465fb4682c6adc67b019ff7d472fc2baecc1f3d7"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -386,12 +386,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 320,
-    "remaining": 390,
-    "rejected": 33,
+    "completed": 324,
+    "remaining": 386,
+    "rejected": 35,
     "revised": 11,
     "scientificHolds": 15,
-    "inReview": 4
+    "inReview": 0
   },
   "categories": [
     {
@@ -419,8 +419,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 12,
-      "remaining": 221
+      "completed": 16,
+      "remaining": 217
     },
     {
       "id": "host-defenses",
@@ -452,6 +452,32 @@
     }
   ],
   "rejectedAssets": [
+    {
+      "pageId": "atherosclerosis",
+      "batchId": "mechanisms-059",
+      "draft": "work/media-drafts/mechanisms-batch-059/atherosclerosis-draft.png",
+      "sha256": "762f7b58a5912e37cabd0e2266b51a3c43f5533f2a880a2a8c59204b0d0def8d",
+      "generationRecord": "exec-9ec60c52-a984-44e5-bef0-604a21f90c67.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "The longitudinal artery enters the frozen uninterrupted 32-pixel pale edge field at x=28, making the source ineligible for crop-safe publication.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
+    {
+      "pageId": "bacteremia",
+      "batchId": "mechanisms-059",
+      "draft": "work/media-drafts/mechanisms-batch-059/bacteremia-draft.png",
+      "sha256": "94815dd3e0aa7177deaeedf826534745049d4d5aaefad61b2528bf423f1c04e9",
+      "generationRecord": "exec-d8f234a1-2609-475b-a2bb-1c607c884cbf.png",
+      "reviewedOn": "2026-09-06",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+      "disposition": "revise",
+      "reason": "A severe black top-and-bottom vignette creates 124,910 dark pixels in the 32-pixel edge band and violates the uniform pale-field publication standard.",
+      "supersededBy": null,
+      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+    },
     {
       "pageId": "multiple-sclerosis",
       "controlledIdentifier": "MeSH:D009103",
@@ -8428,12 +8454,14 @@
       "route": "/article/aryl-hydrocarbon-receptor",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-059",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-059/aryl-hydrocarbon-receptor-draft.png",
-        "sha256": "fb6ce7bc8e223e88fbdb08ffd1f1688272dd976420515c1302f77124bd667105"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "aryl-hydrocarbon-receptor-mechanism-v1-master.png",
+        "publishedFile": "aryl-hydrocarbon-receptor-mechanism-v1.webp",
+        "socialFile": "aryl-hydrocarbon-receptor-mechanism-v1-social.webp"
       }
     },
     {
@@ -8447,12 +8475,14 @@
       "route": "/article/aspirin",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-059",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-059/aspirin-draft.png",
-        "sha256": "6072ae11332d6c938409600a73af0930e91d0b7b1b868dae70a13e9f17d498b9"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "aspirin-mechanism-v1-master.png",
+        "publishedFile": "aspirin-mechanism-v1.webp",
+        "socialFile": "aspirin-mechanism-v1-social.webp"
       }
     },
     {
@@ -8480,12 +8510,14 @@
       "route": "/article/autophagy",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-059",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-059/autophagy-draft.png",
-        "sha256": "48e30b59c56f62a62d8d6671abc86a744d1585af9d08736aa134f543beb4e57c"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "autophagy-mechanism-v1-master.png",
+        "publishedFile": "autophagy-mechanism-v1.webp",
+        "socialFile": "autophagy-mechanism-v1-social.webp"
       }
     },
     {
@@ -8512,12 +8544,14 @@
       "route": "/article/bacterial-contamination-hypothesis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-059",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-059/bacterial-contamination-hypothesis-draft.png",
-        "sha256": "8c82d6ee601523d55ff935f45c6f2cbefd1133157d77de3605ad3fbe85832ee9"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "bacterial-contamination-hypothesis-mechanism-v1-master.png",
+        "publishedFile": "bacterial-contamination-hypothesis-mechanism-v1.webp",
+        "socialFile": "bacterial-contamination-hypothesis-mechanism-v1-social.webp"
       }
     },
     {
