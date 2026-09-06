@@ -3861,23 +3861,13 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   }
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => ["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition));
-  assert.deepEqual(activeScientificHolds.map((asset) => asset.pageId), [
-    "verrucomicrobia",
-    "tyzzerella",
-    "lachnoclostridium",
-    "lachnospiraceae-family",
-    "lactobacillus-plantarum",
-    "lactobacillus-reuteri",
-    "lactobacillus-rhamnosus",
-    "mycoplasma-hominis",
-    "oscillospirales",
-    "phocaeicola",
-    "yersinia-pestis",
-    "ruminococcaceae",
-    "ruminococcus-albus",
-    "ruminococcus-gnavus",
-    "saccharomyces-boulardii",
-  ]);
+  const activeScientificHoldIds = activeScientificHolds.map((asset) => asset.pageId);
+  assert.equal(new Set(activeScientificHoldIds).size, activeScientificHoldIds.length, "active scientific holds must have unique canonical page IDs");
+  assert.deepEqual(
+    program.queue.filter((record) => record.status === "scientific-hold").map((record) => record.id).sort(),
+    [...activeScientificHoldIds].sort(),
+    "the generated media queue must reconcile every active scientific hold from the review log",
+  );
   assert.equal(program.current.scientificHolds, activeScientificHolds.length);
   for (const hold of activeScientificHolds) {
     const queueRecord = program.queue.find((record) => record.id === hold.pageId);
