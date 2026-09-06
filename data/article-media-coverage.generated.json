@@ -8,15 +8,21 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "da1f1e8ce4eb1f89342d79b349c85fbd60bdd3a71df2cf42e989eb6437ef3cbc",
+    "registrySha256": "620be6725b10ec0760ef4b505a11cb1189e5d5a4675a4546f853c725ba5438f7",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "73df5b9c70da8db54265bd7d66af6887ae10a66e6357fa6dbedd07fad4398e1b",
+    "reviewLogSha256": "f9d47316290ae046d6493a67f05bc1f70f54a8a559b10d6d3fe939d602745bfe",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
         "batchId": "diseases-046",
         "status": "reviewed",
         "sha256": "360ca703b3355b2f0042204358654d9e1e0f3dd976bec870d6febdd100b234d5"
+      },
+      {
+        "file": "data/article-media-batches/diseases-047.json",
+        "batchId": "diseases-047",
+        "status": "reviewed",
+        "sha256": "1eac656e03faa386387bb11b647caf6eba231a61b958428825c993110a226892"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -308,8 +314,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 249,
-    "remaining": 461,
+    "completed": 255,
+    "remaining": 455,
     "rejected": 32,
     "revised": 11,
     "scientificHolds": 15,
@@ -334,8 +340,8 @@
       "id": "diseases",
       "label": "Diseases",
       "total": 66,
-      "completed": 6,
-      "remaining": 60
+      "completed": 12,
+      "remaining": 54
     },
     {
       "id": "mechanisms",
@@ -1246,55 +1252,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 262,
-      "id": "barretts-esophagus",
-      "title": "Barrett's Esophagus",
-      "route": "/article/barretts-esophagus",
+      "queuePosition": 270,
+      "id": "chronic-kidney-disease",
+      "title": "Chronic Kidney Disease",
+      "route": "/article/chronic-kidney-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 264,
-      "id": "breast-cancer",
-      "title": "Breast Cancer",
-      "route": "/article/breast-cancer",
+      "queuePosition": 271,
+      "id": "cirrhosis",
+      "title": "Cirrhosis",
+      "route": "/article/cirrhosis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 266,
-      "id": "celiac-disease",
-      "title": "Celiac Disease",
-      "route": "/article/celiac-disease",
+      "queuePosition": 272,
+      "id": "colorectal-cancer",
+      "title": "Colorectal Cancer",
+      "route": "/article/colorectal-cancer",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 267,
-      "id": "cerebral-palsy",
-      "title": "Cerebral Palsy",
-      "route": "/article/cerebral-palsy",
+      "queuePosition": 273,
+      "id": "coronary-artery-disease",
+      "title": "Coronary Artery Disease",
+      "route": "/article/coronary-artery-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 268,
-      "id": "cholestasis",
-      "title": "Cholestasis",
-      "route": "/article/cholestasis",
+      "queuePosition": 274,
+      "id": "crohns-disease",
+      "title": "Crohn's Disease",
+      "route": "/article/crohns-disease",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
     },
     {
-      "queuePosition": 269,
-      "id": "chronic-fatigue-syndrome",
-      "title": "Chronic Fatigue Syndrome",
-      "route": "/article/chronic-fatigue-syndrome",
+      "queuePosition": 275,
+      "id": "cystic-fibrosis",
+      "title": "Cystic Fibrosis",
+      "route": "/article/cystic-fibrosis",
       "category": "disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology"
@@ -6777,7 +6783,15 @@
       "route": "/article/barretts-esophagus",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 2,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "barretts-esophagus-pathology-v2-master.png",
+        "publishedFile": "barretts-esophagus-pathology-v2.webp",
+        "socialFile": "barretts-esophagus-pathology-v2-social.webp"
+      }
     },
     {
       "queuePosition": 263,
@@ -6812,7 +6826,15 @@
       "route": "/article/breast-cancer",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 2,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "breast-cancer-pathology-v2-master.png",
+        "publishedFile": "breast-cancer-pathology-v2.webp",
+        "socialFile": "breast-cancer-pathology-v2-social.webp"
+      }
     },
     {
       "queuePosition": 265,
@@ -6848,7 +6870,15 @@
       "route": "/article/celiac-disease",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "celiac-disease-pathology-v1-master.png",
+        "publishedFile": "celiac-disease-pathology-v1.webp",
+        "socialFile": "celiac-disease-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 267,
@@ -6862,7 +6892,15 @@
       "route": "/article/cerebral-palsy",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cerebral-palsy-pathology-v1-master.png",
+        "publishedFile": "cerebral-palsy-pathology-v1.webp",
+        "socialFile": "cerebral-palsy-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 268,
@@ -6875,7 +6913,15 @@
       "route": "/article/cholestasis",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "cholestasis-pathology-v1-master.png",
+        "publishedFile": "cholestasis-pathology-v1.webp",
+        "socialFile": "cholestasis-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 269,
@@ -6888,7 +6934,15 @@
       "route": "/article/chronic-fatigue-syndrome",
       "coverageGroup": "diseases",
       "suggestedAssetType": "pathology",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "pathology",
+        "revision": 1,
+        "reviewedOn": "2026-09-06",
+        "masterSource": "chronic-fatigue-syndrome-pathology-v1-master.png",
+        "publishedFile": "chronic-fatigue-syndrome-pathology-v1.webp",
+        "socialFile": "chronic-fatigue-syndrome-pathology-v1-social.webp"
+      }
     },
     {
       "queuePosition": 270,

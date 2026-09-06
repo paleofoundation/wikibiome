@@ -84,3 +84,11 @@ All six exact prompts are scientifically cleared for one built-in image-generati
 | `chronic-fatigue-syndrome` | 1 | `89bf7319c61bd71ecd6fd6e284ebd8c16b0ce5980102fd006635e50f0a62ec6e` |
 
 These hashes bind the exact prompt bodies above to audit commit `1e56b08`. Any prompt change requires a new audit before generation.
+
+## Immutable generation, review, acceptance, and promotion
+
+Exactly six built-in calls were made, one for each frozen prompt. All six returned 1536 × 1024 originals preserved under `work/media-drafts/diseases-batch-047/`. Native inspection, exact source hashes, literal groupings, prohibited-content checks, edge statistics, and dispositions are frozen in review packet `docs/operations/media-reviews/diseases-047.md` at commit `2ea2349`. The review packet SHA-256 is `ff012fe2de4bc804561a63ca2e98ec96cd32ea4e2da59e707c2f5442e8ddc3b1`.
+
+Control Tower accepted the six exact hashes in `docs/operations/media-acceptances/diseases-047.md` at commit `fb6467d`. No rejected or substitute bytes entered promotion. Each accepted source was promoted to a metadata-bearing lossless master, article WebP, and centered `contain` 1200 × 630 social WebP.
+
+Control Tower inspected every social derivative at native detail on 2026-09-06. The Barrett mucosal model, internal breast gland model, paired celiac mucosal models, three cerebral-palsy motor-system groupings, complete hepatobiliary model, and five ME/CFS system groupings remain complete and legible. `cover` remains forbidden for all six; `contain` is mandatory because it preserves the complete scientific structures and the source-margin-sensitive Cholestasis and ME/CFS plates.

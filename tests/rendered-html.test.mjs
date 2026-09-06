@@ -2936,15 +2936,15 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1099\/00207713-33-3-618/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
   assert.deepEqual(program.nextBatch.map((record) => record.id), [
-    "barretts-esophagus",
-    "breast-cancer",
-    "celiac-disease",
-    "cerebral-palsy",
-    "cholestasis",
-    "chronic-fatigue-syndrome",
+    "chronic-kidney-disease",
+    "cirrhosis",
+    "colorectal-cancer",
+    "coronary-artery-disease",
+    "crohns-disease",
+    "cystic-fibrosis",
   ]);
-  assert.equal(program.current.completed, 249);
-  assert.equal(program.current.remaining, 461);
+  assert.equal(program.current.completed, 255);
+  assert.equal(program.current.remaining, 455);
   assert.equal(program.current.rejected, 32);
   assert.equal(program.current.revised, 11);
   assert.equal(program.current.inReview, 0);
@@ -3842,8 +3842,9 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.equal(batch046BreastCancer?.generationStatus, "failed-safety-moderation");
   assert.equal(batch046BreastCancer?.outputAudit?.observedSubjectDescription, "No image was returned.");
   for (const id of ["barretts-esophagus", "breast-cancer"]) {
-    assert.equal(articleMediaRegistry[id], undefined);
-    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)));
+    assert.equal(articleMediaRegistry[id]?.revision, 2, `${id} may publish only through the separately audited Batch 047 revision`);
+    assert.ok(!publishedMediaFiles.includes(`${id}-pathology-v1.webp`), `${id} Batch 046 revision must remain non-public`);
+    assert.ok(!publishedMediaFiles.includes(`${id}-pathology-v1-social.webp`), `${id} Batch 046 social revision must remain non-public`);
   }
   const resolvedHeldIds = ["akkermansia-mucinicola", "allisonella", "atopobium-parvulum", "atopobium-vaginae", "barnesella", "candida-auris", "candida-glabrata", "clostridiales", "clostridium-difficile", "davidiella", "eubacterium-eligens", "eubacterium-rectale"];
   const activeScientificHolds = reviewLog.rejectedAssets.filter((asset) => ["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition));
@@ -3971,7 +3972,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.doesNotMatch(html, /data-article-media-schema/);
   }
 
-  const fallbackResponse = await render("/article/barretts-esophagus");
+  const fallbackResponse = await render("/article/chronic-kidney-disease");
   const fallback = await fallbackResponse.text();
   assert.match(fallback, /class="infobox-visual infobox-disease"/);
   assert.doesNotMatch(fallback, /class="article-media-figure"/);
@@ -4400,7 +4401,7 @@ test("publishes self-canonical metadata, social previews, and representative Sch
   assert.ok(signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease"));
   assert.ok(!signatureUrls.includes("https://www.wikibiome.com/article/alzheimers-disease-signature"), "collection schema must resolve known signature aliases to canonical articles");
 
-  const noMediaResponse = await render("/article/barretts-esophagus");
+  const noMediaResponse = await render("/article/chronic-kidney-disease");
   const noMediaHtml = await noMediaResponse.text();
   const noMediaSchema = structuredData(noMediaHtml, "data-article-schema");
   assert.ok(noMediaSchema["@graph"].some((node) => node["@type"] === "Article"));

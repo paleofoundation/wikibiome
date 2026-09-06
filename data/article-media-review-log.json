@@ -5251,6 +5251,54 @@
       "accessibilityReview": { "status": "pass", "notes": "Alt text reports the two literal groupings; caption explains the umbrella scope and rejects diagnostic or comprehensive interpretation." },
       "disposition": "approved", "notes": "Exact immutable Batch 046 source accepted for contain-mode promotion.",
       "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cardiovascular-disease-draft.png", "sourceSha256": "532077fbb73b22597570186e3edb1457519f768aa4feec22584e3b04daf62e00", "generationRecord": "exec-53703ee3-a5a0-44f8-978b-e31ced1008a9.png" }
+    },
+    "barretts-esophagus|barretts-esophagus-pathology-v2.webp": {
+      "pageId": "barretts-esophagus", "publishedFile": "barretts-esophagus-pathology-v2.webp", "masterSource": "barretts-esophagus-pathology-v2-master.png", "socialFile": "barretts-esophagus-pathology-v2-social.webp", "revision": 2, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D001471", "https://www.niddk.nih.gov/health-information/digestive-diseases/barretts-esophagus/definition-facts"], "notes": "MeSH controls Barrett Esophagus identity and distal-esophageal metaplasia scope; NIDDK supports the esophageal-lining change and cautious public framing." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted a complete distant distal-esophagus and upper-stomach cutaway with a short salmon-toned mucosal segment and no edge contact, tumor, grade, or diagnostic claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports literal anatomy and mucosal transition; caption rejects endoscopic, histologic, grading, and diagnostic interpretations." },
+      "disposition": "approved", "notes": "Exact immutable Batch 047 revision-2 source accepted for contain-mode promotion; Batch 046 revision 1 remains permanently quarantined.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "barretts-esophagus-draft-v2.png", "sourceSha256": "cb2b5cf6ce110f9acac23a1b7dfe31d6055237058cb0e7152d8642f56528d659", "generationRecord": "exec-8eda2023-ea15-4613-b8fd-6e4fcb15cea1.png" }
+    },
+    "breast-cancer|breast-cancer-pathology-v2.webp": {
+      "pageId": "breast-cancer", "publishedFile": "breast-cancer-pathology-v2.webp", "masterSource": "breast-cancer-pathology-v2-master.png", "socialFile": "breast-cancer-pathology-v2-social.webp", "revision": 2, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D001943", "https://www.cancer.gov/types/breast/breast-changes"], "notes": "MeSH controls Breast Neoplasms identity; NCI supports cautious non-diagnostic breast-condition framing." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted an internal duct-and-lobule-like teaching model with one localized lesion and three separate regional structures, with no external body surface, patient, staging, subtype, or spread claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports literal internal structures; caption states that the regional elements are illustrative and rejects stage, subtype, receptor, spread, and diagnostic claims." },
+      "disposition": "approved", "notes": "Exact immutable Batch 047 revision-2 source accepted for contain-mode promotion after Batch 046 returned no image.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "breast-cancer-draft-v2.png", "sourceSha256": "75c5f54002e46ba1b401a3790539f4f9c70f1d22d5c8d3af9f61edeef81d8bfc", "generationRecord": "exec-b6399ad7-5229-42ce-9639-d5212935e390.png" }
+    },
+    "celiac-disease|celiac-disease-pathology-v1.webp": {
+      "pageId": "celiac-disease", "publishedFile": "celiac-disease-pathology-v1.webp", "masterSource": "celiac-disease-pathology-v1-master.png", "socialFile": "celiac-disease-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D002446", "https://www.niddk.nih.gov/health-information/digestive-diseases/celiac-disease"], "notes": "MeSH controls Celiac Disease identity and supports small-intestinal inflammation and microvilli-loss scope; NIDDK supports small-intestinal disease context." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted two complete bowel-wall models contrasting tall narrow villi with shorter broader irregular projections without grade, biopsy, grain, or treatment imagery." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text distinguishes the two literal architectures without relying on color; caption rejects biopsy, Marsh-grade, treatment-response, and diagnostic claims." },
+      "disposition": "approved", "notes": "Exact immutable Batch 047 source accepted for contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "celiac-disease-draft.png", "sourceSha256": "dd62b2716e0e225ed4160aec9421da3b9dcaf7fd7e2e3022e18b3f01811438b4", "generationRecord": "exec-bf2ee78a-ead6-4da4-9094-05e3afdba2ee.png" }
+    },
+    "cerebral-palsy|cerebral-palsy-pathology-v1.webp": {
+      "pageId": "cerebral-palsy", "publishedFile": "cerebral-palsy-pathology-v1.webp", "masterSource": "cerebral-palsy-pathology-v1-master.png", "socialFile": "cerebral-palsy-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D002547", "https://www.cdc.gov/cerebral-palsy/about/index.html"], "notes": "MeSH and CDC establish a heterogeneous nonprogressive motor-disorder scope rather than one universal lesion, posture, or severity." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted a standalone brain, separate brain-and-spinal pathway, and neutrally aligned lower-limb model with no person, mobility device, contracted pose, lesion, subtype, or severity scale." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports the two brain representations and motor anatomy; caption rejects universal-lesion, posture, subtype, severity, and diagnostic interpretations." },
+      "disposition": "approved", "notes": "Exact immutable Batch 047 source accepted for contain-mode promotion.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cerebral-palsy-draft.png", "sourceSha256": "86ed281d1f27acca1e51f3094bd658d026060cf274ca740ffb3746d051449ed6", "generationRecord": "exec-dd7ac0c5-18b3-431a-abb7-781c7f27e00b.png" }
+    },
+    "cholestasis|cholestasis-pathology-v1.webp": {
+      "pageId": "cholestasis", "publishedFile": "cholestasis-pathology-v1.webp", "masterSource": "cholestasis-pathology-v1-master.png", "socialFile": "cholestasis-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D002779", "https://id.nlm.nih.gov/mesh/D001653", "https://id.nlm.nih.gov/mesh/D006500"], "notes": "MeSH controls Cholestasis identity and the small intrahepatic and large extrahepatic bile-duct scope." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted a complete liver, gallbladder, branching intrahepatic ducts, extrahepatic duct, and short bowel segment with restrained amber duct material and no asserted cause or subtype." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text reports complete hepatobiliary anatomy; caption explains impaired-flow orientation and rejects cause, subtype, severity, and diagnostic claims." },
+      "disposition": "approved", "notes": "Exact immutable Batch 047 source accepted for mandatory contain-mode promotion because the bowel segment approaches the lower source margin.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "cholestasis-draft.png", "sourceSha256": "8fd1037049ec6efc7dce599c1105ba8a3a4be38cdf8bea6ae107d1afc8a5a26f", "generationRecord": "exec-aaa84a50-2b52-4dfd-8673-02fb213c5baa.png" }
+    },
+    "chronic-fatigue-syndrome|chronic-fatigue-syndrome-pathology-v1.webp": {
+      "pageId": "chronic-fatigue-syndrome", "publishedFile": "chronic-fatigue-syndrome-pathology-v1.webp", "masterSource": "chronic-fatigue-syndrome-pathology-v1-master.png", "socialFile": "chronic-fatigue-syndrome-pathology-v1-social.webp", "revision": 1, "reviewingAuthority": "wikibiome-media-program", "reviewedOn": "2026-09-06",
+      "scientificReferenceCheck": { "status": "pass", "checkedUrls": ["https://id.nlm.nih.gov/mesh/D015673", "https://www.cdc.gov/me-cfs/hcp/diagnosis/index.html"], "notes": "MeSH controls chronic fatigue syndrome identity and multisystem scope; CDC states that no confirmatory test or sufficiently sensitive and specific diagnostic biomarker exists." },
+      "subjectReview": { "status": "pass", "notes": "Control Tower accepted five neutral teaching groups—brain, autonomic and visceral anatomy, heart, skeletal muscle, and mitochondrion—with no patient, exhaustion metaphor, lesion, abnormal biomarker, or exercise claim." },
+      "accessibilityReview": { "status": "pass", "notes": "Alt text enumerates the five literal groupings; caption rejects a visible signature, abnormal biomarker, exercise recommendation, and diagnosis." },
+      "disposition": "approved", "notes": "Exact immutable Batch 047 source accepted for mandatory contain-mode promotion because the set approaches both horizontal source margins.",
+      "revisionLinkage": { "supersedes": null, "supersededBy": null, "sourceDraft": "chronic-fatigue-syndrome-draft.png", "sourceSha256": "de3d2ee79a4c892890692be51212bf6d81f6d3a23efca43ce463f5cd9854ec46", "generationRecord": "exec-0fd3f93d-41c4-4e60-a7db-6b498bc22fb2.png" }
     }
   },
   "rejectedAssets": [
