@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
+    "registrySha256": "7a946ce46115e9b58138ca7384dc99af8edbf06c0f4ae672993e57f7f714019d",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "744c319fb859a97a58e30ac446e14dffd05c91a38c98f5877a5088fe54ebec68",
+    "reviewLogSha256": "40880a3052e17a788b90bb20adedd62805267aa9518e36e32729e01b17b77422",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -287,6 +287,12 @@
         "batchId": "mechanisms-091",
         "status": "reviewed",
         "sha256": "ad9c0fb199e7a6082ebf782ec970917387d6d930e396486ab355705d3d8b9c88"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-092.json",
+        "batchId": "mechanisms-092",
+        "status": "reviewed",
+        "sha256": "2f96585feb6a06188007094466100d53eb88a16fd209f3fc9c9b6c9b4fc76a71"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -578,11 +584,11 @@
   },
   "current": {
     "total": 710,
-    "completed": 362,
-    "remaining": 348,
-    "rejected": 184,
+    "completed": 363,
+    "remaining": 347,
+    "rejected": 189,
     "revised": 12,
-    "scientificHolds": 129,
+    "scientificHolds": 134,
     "inReview": 0
   },
   "categories": [
@@ -611,8 +617,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 53,
-      "remaining": 180
+      "completed": 54,
+      "remaining": 179
     },
     {
       "id": "host-defenses",
@@ -3917,6 +3923,90 @@
       ],
       "requiredResolution": "Define chemical species, compartment, source cell or organism and pathway, concentration and units, sample and assay, receptor or target, model or population, outcome, and tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "synbiotic",
+      "controlledIdentifier": "ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotics-identity",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The synbiotic and synbiotics routes carry the same title and concept with overlapping but divergent content and sources, so two independent primary images would reinforce a duplicate canonical identity.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32826966/",
+        "local:data/content.generated.json#/pages/synbiotic",
+        "local:data/content.generated.json#/pages/synbiotics"
+      ],
+      "requiredResolution": "Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until identity reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "synbiotics",
+      "controlledIdentifier": "ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotic-identity",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The synbiotic and synbiotics routes carry the same title and concept with overlapping but divergent content and sources, so two independent primary images would reinforce a duplicate canonical identity.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32826966/",
+        "local:data/content.generated.json#/pages/synbiotic",
+        "local:data/content.generated.json#/pages/synbiotics"
+      ],
+      "requiredResolution": "Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until identity reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "systemic-inflammation",
+      "controlledIdentifier": "PMID:31806905;heterogeneous-systemic-chronic-inflammation-phenotype",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route collapses diverse triggers, compartments, biomarkers, and diseases into one visually unified causal endpoint without a singular diagnostic anatomy or morphology.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31806905/",
+        "local:data/content.generated.json#/pages/systemic-inflammation"
+      ],
+      "requiredResolution": "Separate acute versus chronic state, compartment, trigger, biomarker, specimen, assay, population, disease context, and certainty.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "tau-phosphorylation",
+      "controlledIdentifier": "NCBI-Gene:4137;UniProt:P10636;isoform-and-site-specific",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Multiple MAPT isoforms and heterogeneous physiological and pathological phosphorylation sites are merged with metals, microbial products, aggregation, and clinical outcomes into one causal cascade.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/gene/4137",
+        "https://www.uniprot.org/uniprotkb/P10636/entry",
+        "https://pubmed.ncbi.nlm.nih.gov/33892381/",
+        "https://pubmed.ncbi.nlm.nih.gov/38556838/",
+        "https://pubmed.ncbi.nlm.nih.gov/34090488/",
+        "local:data/content.generated.json#/pages/tau-phosphorylation"
+      ],
+      "requiredResolution": "Specify exact human isoform, residue or defined site set, modification state, compartment, assay, structure source, disease, comparator, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "testosterone",
+      "controlledIdentifier": "PubChem:6013;ChEBI:17347;stereochemistry-specific",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exact molecule is embedded in a route that conflates free and total hormone, metabolites, binding proteins, tissues, populations, exposures, microbiome associations, and unsupported causal cycles; a generic steroid scaffold is not uniquely testosterone.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/6013",
+        "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17347",
+        "https://pubmed.ncbi.nlm.nih.gov/35283442/",
+        "https://pubmed.ncbi.nlm.nih.gov/40256744/",
+        "local:data/content.generated.json#/pages/testosterone"
+      ],
+      "requiredResolution": "Define exact chemical species or product, stereochemical rendering source, compartment, specimen, assay, population, exposure or intervention, comparator, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -4071,55 +4161,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 529,
-      "id": "synbiotic",
-      "title": "Synbiotics",
-      "route": "/article/synbiotic",
+      "queuePosition": 535,
+      "id": "tgf-beta",
+      "title": "TGF-beta (Transforming Growth Factor Beta)",
+      "route": "/article/tgf-beta",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 530,
-      "id": "synbiotics",
-      "title": "Synbiotics",
-      "route": "/article/synbiotics",
+      "queuePosition": 536,
+      "id": "th17-treg-balance",
+      "title": "Th17/Treg Balance",
+      "route": "/article/th17-treg-balance",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 531,
-      "id": "systemic-inflammation",
-      "title": "Systemic Inflammation",
-      "route": "/article/systemic-inflammation",
+      "queuePosition": 537,
+      "id": "exposome",
+      "title": "The Exposome",
+      "route": "/article/exposome",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 532,
-      "id": "tau-phosphorylation",
-      "title": "Tau Phosphorylation",
-      "route": "/article/tau-phosphorylation",
+      "queuePosition": 538,
+      "id": "thyroid-autoimmunity",
+      "title": "Thyroid Autoimmunity",
+      "route": "/article/thyroid-autoimmunity",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 533,
-      "id": "taurine",
-      "title": "Taurine",
-      "route": "/article/taurine",
+      "queuePosition": 539,
+      "id": "tight-junctions",
+      "title": "Tight Junctions",
+      "route": "/article/tight-junctions",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 534,
-      "id": "testosterone",
-      "title": "Testosterone",
-      "route": "/article/testosterone",
+      "queuePosition": 540,
+      "id": "tlr4",
+      "title": "TLR4",
+      "route": "/article/tlr4",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -14985,7 +15075,13 @@
       "route": "/article/synbiotic",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The synbiotic and synbiotics routes carry the same title and concept with overlapping but divergent content and sources, so two independent primary images would reinforce a duplicate canonical identity.",
+        "requiredResolution": "Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and evidence tier."
+      }
     },
     {
       "queuePosition": 530,
@@ -14998,7 +15094,13 @@
       "route": "/article/synbiotics",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The synbiotic and synbiotics routes carry the same title and concept with overlapping but divergent content and sources, so two independent primary images would reinforce a duplicate canonical identity.",
+        "requiredResolution": "Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and evidence tier."
+      }
     },
     {
       "queuePosition": 531,
@@ -15011,7 +15113,13 @@
       "route": "/article/systemic-inflammation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route collapses diverse triggers, compartments, biomarkers, and diseases into one visually unified causal endpoint without a singular diagnostic anatomy or morphology.",
+        "requiredResolution": "Separate acute versus chronic state, compartment, trigger, biomarker, specimen, assay, population, disease context, and certainty."
+      }
     },
     {
       "queuePosition": 532,
@@ -15024,7 +15132,13 @@
       "route": "/article/tau-phosphorylation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Multiple MAPT isoforms and heterogeneous physiological and pathological phosphorylation sites are merged with metals, microbial products, aggregation, and clinical outcomes into one causal cascade.",
+        "requiredResolution": "Specify exact human isoform, residue or defined site set, modification state, compartment, assay, structure source, disease, comparator, and evidence tier."
+      }
     },
     {
       "queuePosition": 533,
@@ -15037,7 +15151,15 @@
       "route": "/article/taurine",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "taurine-mechanism-v1-master.png",
+        "publishedFile": "taurine-mechanism-v1.webp",
+        "socialFile": "taurine-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 534,
@@ -15050,7 +15172,13 @@
       "route": "/article/testosterone",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The exact molecule is embedded in a route that conflates free and total hormone, metabolites, binding proteins, tissues, populations, exposures, microbiome associations, and unsupported causal cycles; a generic steroid scaffold is not uniquely testosterone.",
+        "requiredResolution": "Define exact chemical species or product, stereochemical rendering source, compartment, specimen, assay, population, exposure or intervention, comparator, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 535,
