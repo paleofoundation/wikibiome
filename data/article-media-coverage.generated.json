@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "400e1e898463bf0f729478bd0329406c6873d7cad0816c221a22837c683efd66",
+    "reviewLogSha256": "2f8f7c66c010efa434e20456322c80c819bd53141d393e030aab0ee44bb56c95",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -263,6 +263,12 @@
         "batchId": "mechanisms-087",
         "status": "reviewed",
         "sha256": "1165278deb5e233b6d03278652d9612693ae4a701b867cbd2d2066851c98f4e6"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-088.json",
+        "batchId": "mechanisms-088",
+        "status": "reviewed",
+        "sha256": "ecd7b93f41a395d2d264804e48d7580fd013178e7a86c2dcadb2b4a126d447b3"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -556,9 +562,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 160,
+    "rejected": 166,
     "revised": 12,
-    "scientificHolds": 105,
+    "scientificHolds": 111,
     "inReview": 0
   },
   "categories": [
@@ -3497,6 +3503,105 @@
       ],
       "requiredResolution": "Create drug–enzyme–organism records with substrate and product, compartment, assay, exposure, pharmacokinetic endpoint, replication and covariates, and intervention evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "phenylalanine",
+      "controlledIdentifier": "L-phenylalanine;MeSH:D010663",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Host and microbial pathways, metabolites, diseases, and interventions are conflated, and phenylalanine hydroxylase is wrongly called the catecholamine rate-limiting step.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/17513421/",
+        "https://pubmed.ncbi.nlm.nih.gov/32142679/",
+        "https://pubmed.ncbi.nlm.nih.gov/38124458/",
+        "local:data/content.generated.json#/pages/phenylalanine"
+      ],
+      "requiredResolution": "Split exact host and microbial reactions by analyte, enzyme or gene, organism, compartment, substrate and product, assay, cohort, causal tier, and endpoint.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "phosphodiesterase",
+      "controlledIdentifier": "multi-superfamily-phosphodiesterase-umbrella",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A four-link stub merges human PDE5 and cGMP pharmacology with bacterial cyclic-di-GMP enzymes and an unspecified universal zinc claim.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK549843/",
+        "https://pubmed.ncbi.nlm.nih.gov/21600849/",
+        "local:data/content.generated.json#/pages/phosphodiesterase"
+      ],
+      "requiredResolution": "Create exact enzyme or protein records with organism, substrate and product, catalytic family, cofactor, structure, assay, inhibitor, and phenotype.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "plant-metal-hyperaccumulation",
+      "controlledIdentifier": "species-and-element-specific-botanical-phenotype",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Natural hyperaccumulation, chelate-assisted extraction, ordinary crop uptake, bioconcentration, food risk, rhizosphere biology, and remediation are conflated.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24938121/",
+        "https://pubmed.ncbi.nlm.nih.gov/33219524/",
+        "https://pubmed.ncbi.nlm.nih.gov/40772044/",
+        "local:data/content.generated.json#/pages/plant-metal-hyperaccumulation"
+      ],
+      "requiredResolution": "Define accepted taxon, element species, natural substrate, shoot dry-weight threshold, voucher and locality, uptake and translocation factors, method, tolerance, and use status.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "polyamines",
+      "controlledIdentifier": "putrescine-spermidine-spermine-cadaverine-umbrella",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Distinct molecules and host, diet, microbial, cancer, immune, and experimental processes are presented as one dose-independent class effect, including an unsupported pyridoxal-phosphate and zinc claim.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31355206/",
+        "https://pubmed.ncbi.nlm.nih.gov/30923709/",
+        "https://pubmed.ncbi.nlm.nih.gov/40234982/",
+        "local:data/content.generated.json#/pages/polyamines"
+      ],
+      "requiredResolution": "Split by polyamine and pathway and define source, organism or cell, enzymes, reaction, concentration, sample, assay, exposure, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "polyphenols",
+      "controlledIdentifier": "structurally-diverse-polyphenol-umbrella",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Thousands of compounds, foods, metabolites, metabotypes, chelation conditions, organisms, doses, and preclinical or clinical outcomes are generalized.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38428187/",
+        "https://pubmed.ncbi.nlm.nih.gov/39899845/",
+        "https://pubmed.ncbi.nlm.nih.gov/27490306/",
+        "local:data/content.generated.json#/pages/polyphenols"
+      ],
+      "requiredResolution": "Create compound-specific records with identifier, matrix and dose, parent and metabolites, organism and enzymes, ADME, metal and assay conditions, trial endpoint, and certainty.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "polyunsaturated-fatty-acids",
+      "controlledIdentifier": "omega-3-omega-6-multi-fatty-acid-umbrella",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "EPA, DHA, linoleic, arachidonic, and other fatty acids are merged with universal microbiome and inflammatory directions without exposure or evidence boundaries.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42163966/",
+        "local:data/content.generated.json#/pages/polyunsaturated-fatty-acids"
+      ],
+      "requiredResolution": "Split by exact fatty acid and define formulation or diet, dose, duration, population or model, sample, microbiome or lipid assay, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -3651,55 +3756,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 505,
-      "id": "phenylalanine",
-      "title": "Phenylalanine",
-      "route": "/article/phenylalanine",
+      "queuePosition": 511,
+      "id": "postbiotic",
+      "title": "Postbiotics",
+      "route": "/article/postbiotic",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 506,
-      "id": "phosphodiesterase",
-      "title": "Phosphodiesterase",
-      "route": "/article/phosphodiesterase",
+      "queuePosition": 512,
+      "id": "prebiotics",
+      "title": "Prebiotics",
+      "route": "/article/prebiotics",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 507,
-      "id": "plant-metal-hyperaccumulation",
-      "title": "Plant Metal Hyperaccumulation",
-      "route": "/article/plant-metal-hyperaccumulation",
+      "queuePosition": 513,
+      "id": "premenstrual-syndrome",
+      "title": "Premenstrual Syndrome",
+      "route": "/article/premenstrual-syndrome",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 508,
-      "id": "polyamines",
-      "title": "Polyamines",
-      "route": "/article/polyamines",
+      "queuePosition": 514,
+      "id": "prenatal-metal-exposure",
+      "title": "Prenatal Metal Exposure",
+      "route": "/article/prenatal-metal-exposure",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 509,
-      "id": "polyphenols",
-      "title": "Polyphenols",
-      "route": "/article/polyphenols",
+      "queuePosition": 515,
+      "id": "preterm-birth",
+      "title": "Preterm Birth",
+      "route": "/article/preterm-birth",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 510,
-      "id": "polyunsaturated-fatty-acids",
-      "title": "Polyunsaturated Fatty Acids (PUFAs)",
-      "route": "/article/polyunsaturated-fatty-acids",
+      "queuePosition": 516,
+      "id": "probiotics",
+      "title": "Probiotics",
+      "route": "/article/probiotics",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -14109,7 +14214,13 @@
       "route": "/article/phenylalanine",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Host and microbial pathways, metabolites, diseases, and interventions are conflated, and phenylalanine hydroxylase is wrongly called the catecholamine rate-limiting step.",
+        "requiredResolution": "Split exact host and microbial reactions by analyte, enzyme or gene, organism, compartment, substrate and product, assay, cohort, causal tier, and endpoint."
+      }
     },
     {
       "queuePosition": 506,
@@ -14122,7 +14233,13 @@
       "route": "/article/phosphodiesterase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A four-link stub merges human PDE5 and cGMP pharmacology with bacterial cyclic-di-GMP enzymes and an unspecified universal zinc claim.",
+        "requiredResolution": "Create exact enzyme or protein records with organism, substrate and product, catalytic family, cofactor, structure, assay, inhibitor, and phenotype."
+      }
     },
     {
       "queuePosition": 507,
@@ -14135,7 +14252,13 @@
       "route": "/article/plant-metal-hyperaccumulation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Natural hyperaccumulation, chelate-assisted extraction, ordinary crop uptake, bioconcentration, food risk, rhizosphere biology, and remediation are conflated.",
+        "requiredResolution": "Define accepted taxon, element species, natural substrate, shoot dry-weight threshold, voucher and locality, uptake and translocation factors, method, tolerance, and use status."
+      }
     },
     {
       "queuePosition": 508,
@@ -14148,7 +14271,13 @@
       "route": "/article/polyamines",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Distinct molecules and host, diet, microbial, cancer, immune, and experimental processes are presented as one dose-independent class effect, including an unsupported pyridoxal-phosphate and zinc claim.",
+        "requiredResolution": "Split by polyamine and pathway and define source, organism or cell, enzymes, reaction, concentration, sample, assay, exposure, outcome, and evidence tier."
+      }
     },
     {
       "queuePosition": 509,
@@ -14161,7 +14290,13 @@
       "route": "/article/polyphenols",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Thousands of compounds, foods, metabolites, metabotypes, chelation conditions, organisms, doses, and preclinical or clinical outcomes are generalized.",
+        "requiredResolution": "Create compound-specific records with identifier, matrix and dose, parent and metabolites, organism and enzymes, ADME, metal and assay conditions, trial endpoint, and certainty."
+      }
     },
     {
       "queuePosition": 510,
@@ -14174,7 +14309,13 @@
       "route": "/article/polyunsaturated-fatty-acids",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "EPA, DHA, linoleic, arachidonic, and other fatty acids are merged with universal microbiome and inflammatory directions without exposure or evidence boundaries.",
+        "requiredResolution": "Split by exact fatty acid and define formulation or diet, dose, duration, population or model, sample, microbiome or lipid assay, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 511,
