@@ -19,8 +19,28 @@
     "mediaDescription": "No generated media; these iron-supplementation caution pages do not resolve formulation, route, deficiency or anemia state, disease phenotype, treatment protocol, or a non-prescriptive physical subject",
     "sourceUse": "Current controlled records, clinical guidance, and local source-resolution evidence define asset-free scientific holds."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "0900bcf0238d23564c34e6d1de14d9913fe86a8f",
+  "controlAcceptedReviewManifestSha256": "056c5660c0fb6a25e82c3ceeb24b1638f51fa6ae436cfc383ad2be15f321fc55",
+  "controlAcceptedPromptEvidenceSha256": "5e877ebbb859f4a24ad3ae73fbce0f14f0684efde523abc930a8cc12ec1d7d81",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "9a37ca784a323ebefdc1d9748ce724fff3fa08e7",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-iron-supplementation-cardiovascular-disease",
+      "stop-iron-supplementation-colorectal-cancer",
+      "stop-iron-supplementation-crohns",
+      "stop-iron-supplementation-depression",
+      "stop-iron-supplementation-endometriosis",
+      "stop-iron-supplementation-graves"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out tablets or infusions, disease anatomy used as evidence for a treatment recommendation, or elemental Iron media substituted for a clinical formulation. All six routes fail before prompt creation.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
