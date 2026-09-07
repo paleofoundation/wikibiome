@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "8ecaf6aa71e8dc1b437840125c493b909567bd5e10ca255bde00eba3285abef0",
+    "registrySha256": "747e8f45d96d17271c8cdbb317f89d95a35bfaaf53e3cb9ff60028774fedc375",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "e6abda48f03ef4ec4efd760c8b5c89b1c977fa42b275f039ad25f9f5d325fc21",
+    "reviewLogSha256": "f51411c85f9b1b3017cb613fc4ceb2aee6f389a759dbdbb516463908e28c0fe9",
     "batchManifests": [
       {
         "file": "data/article-media-batches/clinical-cautions-114.json",
@@ -483,8 +483,8 @@
       {
         "file": "data/article-media-batches/mechanisms-revisions-124.json",
         "batchId": "mechanisms-revisions-124",
-        "status": "approved-awaiting-promotion",
-        "sha256": "f5d922384fbebef32ff570cd000d21d2e9659c3b4a12ea68ef3dcbe8f5d9d212"
+        "status": "reviewed",
+        "sha256": "093b204e11296b56f5a1d4ee9545c6612983850a927f1abe51f8f0956f2b539d"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -776,12 +776,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 373,
-    "remaining": 337,
-    "rejected": 355,
-    "revised": 12,
+    "completed": 376,
+    "remaining": 334,
+    "rejected": 358,
+    "revised": 15,
     "scientificHolds": 289,
-    "inReview": 3
+    "inReview": 0
   },
   "categories": [
     {
@@ -809,8 +809,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 58,
-      "remaining": 175
+      "completed": 61,
+      "remaining": 172
     },
     {
       "id": "host-defenses",
@@ -1112,8 +1112,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The immutable prompt required exactly six long rods; the output contains five.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/bacterial-vaginosis-draft-v2.png",
+      "outcome": "One separately authorized revision-2 call corrected the microbial counts but violated the immutable 150-pixel top and bottom source-safe field. Revision 2 remains immutable non-public evidence and requires a new revision before publication."
     },
     {
       "pageId": "bdnf",
@@ -1125,8 +1125,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The synaptic-terminal teaching body fades upward out of frame, leaving its boundary incomplete and ambiguous.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/bdnf-draft-v2.png",
+      "outcome": "One separately authorized revision-2 call preserved three complete groups but produced six vesicles rather than the frozen five and violated the source-safe field. Revision 2 remains immutable non-public evidence and requires a new revision before publication."
     },
     {
       "pageId": "beta-glucuronidase",
@@ -1138,8 +1138,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The rightmost model enters the required outer 32-pixel pale edge field at x=1504.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/beta-glucuronidase-draft-v2.png",
+      "outcome": "One separately authorized revision-2 call produced three complete groups but violated the immutable source-safe field at the top, bottom, and right. Revision 2 remains immutable non-public evidence and requires a new revision before publication."
     },
     {
       "pageId": "beta-lactamase",
@@ -1151,8 +1151,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The enzyme model enters the required outer 32-pixel pale edge field at x=11.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/beta-lactamase-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced three complete enzyme and ring-context groups within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     },
     {
       "pageId": "atherosclerosis",
@@ -1164,8 +1164,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The longitudinal artery enters the frozen uninterrupted 32-pixel pale edge field at x=28, making the source ineligible for crop-safe publication.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/atherosclerosis-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced two complete patent artery models within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     },
     {
       "pageId": "bacteremia",
@@ -1177,8 +1177,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "A severe black top-and-bottom vignette creates 124,910 dark pixels in the 32-pixel edge band and violates the uniform pale-field publication standard.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/bacteremia-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced two complete vessel models with the audited sparse microbial counts on a uniform pale field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     },
     {
       "pageId": "multiple-sclerosis",
@@ -6918,6 +6918,60 @@
       ],
       "requiredResolution": "A future separately authorized revision prompt and new call must retain the correct fused indole system and opaque pale field while producing exactly ten carbon, two nitrogen, and one oxygen centers with exactly two successive carbon centers between the ring and terminal nitrogen.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "bacterial-vaginosis",
+      "controlledIdentifier": "MeSH:D016585",
+      "batchId": "mechanisms-revisions-124",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-124/bacterial-vaginosis-draft-v2.png",
+      "sha256": "9214401638941bff2217e58b70adb36005b98e426f5458c471e48d510e12d0a3",
+      "generationRecord": "exec-252dd62e-f8f4-486a-bc50-5327742d26bc.png",
+      "promptSha256": "ecada6d5e270c2096ef5e5db1398e33d34dcca465396fd4aea8b76cf2f4346cd",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "The output reconciled the frozen tissue and microbial counts but the foreground reaches y=148 and y=883, violating the immutable 150-pixel top and bottom source-safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact tissue and microbial grouping while keeping all foreground and shadow within x=150..1385 and y=150..873.",
+      "outcome": "Revision 2 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision after earlier untouched routes are exhausted."
+    },
+    {
+      "pageId": "bdnf",
+      "controlledIdentifier": "UniProt:P23560;NCBI-Gene:627",
+      "batchId": "mechanisms-revisions-124",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-124/bdnf-draft-v2.png",
+      "sha256": "ea90c76c0aef0cf045ae83ad025d7399f2580daf0706398a8883f0d7327877c4",
+      "generationRecord": "exec-c0a84d81-473d-48f7-8382-e11c3c757968.png",
+      "promptSha256": "6591745c7db240806682e2e5f8ef1408fd3a3e43ad6efb241d9c6f5b8b025c53",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "The three teaching groups are complete, but the terminal contains six vesicles rather than the immutable five and the composition extends beyond the frozen source-safe field at x=88..1377 and y=109..871.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain three separate non-mechanistic orientation groups, exactly five vesicles, and the complete source-safe field.",
+      "outcome": "Revision 2 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision after earlier untouched routes are exhausted."
+    },
+    {
+      "pageId": "beta-glucuronidase",
+      "controlledIdentifier": "EC:3.2.1.31",
+      "batchId": "mechanisms-revisions-124",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-124/beta-glucuronidase-draft-v2.png",
+      "sha256": "a50e83e6352727ce025351e21af3ca08c988d192bfab13b28441d6c6fb0896ae",
+      "generationRecord": "exec-fe8a8f41-e606-4d73-b152-42bf1d8fb805.png",
+      "promptSha256": "c70ff3d889d2b0bcb701387deb2a9707b8f204a15f4075edde6a70a52f74478b",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "All three requested teaching groups are complete, but the composition reaches x=1386, y=60, and y=908 and therefore violates the immutable 150-pixel source-safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain the three generic enzyme, conjugate-context, and deconjugated-context groups while keeping all foreground and shadow within the complete source-safe field.",
+      "outcome": "Revision 2 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision after earlier untouched routes are exhausted."
     }
   ],
   "revisedAssets": [
@@ -7068,6 +7122,42 @@
       "reason": "Batch 053 revision 1 was rejected because its principal myelinated-axon model was severed at the top, right, and bottom source edges.",
       "supersededBy": "work/media-drafts/diseases-batch-068/multiple-sclerosis-draft-v2.png",
       "outcome": "Exactly one separately authorized revision-2 call produced three complete normal-anatomy teaching groups within an uninterrupted pale edge field: a brain and upper-spinal assembly, a transverse spinal-cord section, and a finite axon with four intact sheath internodes and three natural node gaps. Dual native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
+    },
+    {
+      "pageId": "atherosclerosis",
+      "batchId": "mechanisms-revisions-124",
+      "draft": "work/media-drafts/mechanisms-batch-059/atherosclerosis-draft.png",
+      "sha256": "762f7b58a5912e37cabd0e2266b51a3c43f5533f2a880a2a8c59204b0d0def8d",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 059 revision 1 entered the frozen outer pale edge field and was ineligible for crop-safe publication.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/atherosclerosis-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced two complete patent artery models within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
+    },
+    {
+      "pageId": "bacteremia",
+      "batchId": "mechanisms-revisions-124",
+      "draft": "work/media-drafts/mechanisms-batch-059/bacteremia-draft.png",
+      "sha256": "94815dd3e0aa7177deaeedf826534745049d4d5aaefad61b2528bf423f1c04e9",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 059 revision 1 had a severe black top-and-bottom vignette and failed the uniform pale-field publication standard.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/bacteremia-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced two complete vessel models with the audited sparse microbial counts on a uniform pale field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
+    },
+    {
+      "pageId": "beta-lactamase",
+      "batchId": "mechanisms-revisions-124",
+      "draft": "work/media-drafts/mechanisms-batch-060/beta-lactamase-draft.png",
+      "sha256": "e285271a624f299ec0eb2de27ddcfec8b4938572ac8dda058826f507ccb99656",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 060 revision 1 entered the required outer 32-pixel pale edge field.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/beta-lactamase-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced three complete enzyme and ring-context groups within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     }
   ],
   "nextBatch": [
@@ -7080,9 +7170,10 @@
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-060",
+        "batchId": "mechanisms-revisions-124",
         "disposition": "revise",
-        "reason": "The immutable prompt required exactly six long rods; the output contains five."
+        "reason": "The output reconciled the frozen tissue and microbial counts but the foreground reaches y=148 and y=883, violating the immutable 150-pixel top and bottom source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact tissue and microbial grouping while keeping all foreground and shadow within x=150..1385 and y=150..873."
       }
     },
     {
@@ -7094,9 +7185,10 @@
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-060",
+        "batchId": "mechanisms-revisions-124",
         "disposition": "revise",
-        "reason": "The synaptic-terminal teaching body fades upward out of frame, leaving its boundary incomplete and ambiguous."
+        "reason": "The three teaching groups are complete, but the terminal contains six vesicles rather than the immutable five and the composition extends beyond the frozen source-safe field at x=88..1377 and y=109..871.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must retain three separate non-mechanistic orientation groups, exactly five vesicles, and the complete source-safe field."
       }
     },
     {
@@ -7108,9 +7200,10 @@
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-060",
+        "batchId": "mechanisms-revisions-124",
         "disposition": "revise",
-        "reason": "The rightmost model enters the required outer 32-pixel pale edge field at x=1504."
+        "reason": "All three requested teaching groups are complete, but the composition reaches x=1386, y=60, and y=908 and therefore violates the immutable 150-pixel source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must retain the three generic enzyme, conjugate-context, and deconjugated-context groups while keeping all foreground and shadow within the complete source-safe field."
       }
     },
     {
@@ -14288,12 +14381,14 @@
       "route": "/article/atherosclerosis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-revisions-124",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-revisions-batch-124/atherosclerosis-draft-v2.png",
-        "sha256": "a9680ac2034cae8858b3ff4297a7207432753af9bd630a003731784031aac51d"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 2,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "atherosclerosis-mechanism-v2-master.png",
+        "publishedFile": "atherosclerosis-mechanism-v2.webp",
+        "socialFile": "atherosclerosis-mechanism-v2-social.webp"
       }
     },
     {
@@ -14328,12 +14423,14 @@
       "route": "/article/bacteremia",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-revisions-124",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-revisions-batch-124/bacteremia-draft-v2.png",
-        "sha256": "9dec3725e145e88b6c95960d2c0878bf90e741db259e505aa6aabc7cfa96fa88"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 2,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "bacteremia-mechanism-v2-master.png",
+        "publishedFile": "bacteremia-mechanism-v2.webp",
+        "socialFile": "bacteremia-mechanism-v2-social.webp"
       }
     },
     {
@@ -14370,11 +14467,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-060",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "batchId": "mechanisms-revisions-124",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
         "disposition": "revise",
-        "reason": "The immutable prompt required exactly six long rods; the output contains five."
+        "reason": "The output reconciled the frozen tissue and microbial counts but the foreground reaches y=148 and y=883, violating the immutable 150-pixel top and bottom source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact tissue and microbial grouping while keeping all foreground and shadow within x=150..1385 and y=150..873."
       }
     },
     {
@@ -14411,11 +14509,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-060",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "batchId": "mechanisms-revisions-124",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
         "disposition": "revise",
-        "reason": "The synaptic-terminal teaching body fades upward out of frame, leaving its boundary incomplete and ambiguous."
+        "reason": "The three teaching groups are complete, but the terminal contains six vesicles rather than the immutable five and the composition extends beyond the frozen source-safe field at x=88..1377 and y=109..871.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must retain three separate non-mechanistic orientation groups, exactly five vesicles, and the complete source-safe field."
       }
     },
     {
@@ -14431,11 +14530,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-060",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "batchId": "mechanisms-revisions-124",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
         "disposition": "revise",
-        "reason": "The rightmost model enters the required outer 32-pixel pale edge field at x=1504."
+        "reason": "All three requested teaching groups are complete, but the composition reaches x=1386, y=60, and y=908 and therefore violates the immutable 150-pixel source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must retain the three generic enzyme, conjugate-context, and deconjugated-context groups while keeping all foreground and shadow within the complete source-safe field."
       }
     },
     {
@@ -14449,12 +14549,14 @@
       "route": "/article/beta-lactamase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-revisions-124",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-revisions-batch-124/beta-lactamase-draft-v2.png",
-        "sha256": "512e0fb5f76834cf47db846c8bf92386a989feb6e952d73ff4493f9353369fee"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 2,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "beta-lactamase-mechanism-v2-master.png",
+        "publishedFile": "beta-lactamase-mechanism-v2.webp",
+        "socialFile": "beta-lactamase-mechanism-v2-social.webp"
       }
     },
     {

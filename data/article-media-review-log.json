@@ -12900,6 +12900,123 @@
         "articleSha256": "fc0ad02ef829c27db9274604feee60a9e3b8fb4546653bd08292d6c335004f64",
         "socialSha256": "a41df0839a05233a6e126bf656e86a968bf5990dee170256a90121675f3a1544"
       }
+    },
+    "atherosclerosis|atherosclerosis-mechanism-v2.webp": {
+      "pageId": "atherosclerosis",
+      "publishedFile": "atherosclerosis-mechanism-v2.webp",
+      "masterSource": "atherosclerosis-mechanism-v2-master.png",
+      "socialFile": "atherosclerosis-mechanism-v2-social.webp",
+      "revision": 2,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D050197",
+          "https://id.nlm.nih.gov/mesh/D058226",
+          "https://www.wikibiome.com/article/atherosclerosis"
+        ],
+        "notes": "Current MeSH records control atherosclerosis identity and define atherosclerotic plaque within the arterial intima. The canonical WikiBiome article supplies route scope. The reconstruction remains generic and does not claim lesion stage, stenosis, plaque instability, diagnosis, prognosis, or treatment result."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed exactly two separated complete patent artery teaching models, one longitudinal and one circular, each with one restrained eccentric pale-yellow intimal region. Both vessel walls, lumens, and shadows are complete; there is no source-edge contact."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text identifies both artery orientations and patent lumens without relying on color; the caption separately excludes patient-specific lesion, stenosis, stability, diagnosis, prognosis, and treatment inference."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 a9680ac2034cae8858b3ff4297a7207432753af9bd630a003731784031aac51d; master cb152338f18d81c484ce180ca5cb8e1f3377eed769188f6470f65730d42de1fb; article d00584103fb350b393e43243e3c3306018b617eae361edf41be05d49f2edb590; centered-contain social 413713c23ffa0d7c6cd9c3957e7e46cfb5952566a119629449c3fefca3a0169e. Batch 059 revision 1 remains immutable non-public evidence.",
+      "revisionLinkage": {
+        "supersedes": "atherosclerosis-mechanism-v1-rejected",
+        "supersededBy": null,
+        "sourceDraft": "atherosclerosis-draft-v2.png",
+        "sourceSha256": "a9680ac2034cae8858b3ff4297a7207432753af9bd630a003731784031aac51d",
+        "generationRecord": "exec-7bc76c20-9da3-4f95-a2a8-57cfbed74a1d.png",
+        "rejectedPredecessorSha256": "762f7b58a5912e37cabd0e2266b51a3c43f5533f2a880a2a8c59204b0d0def8d",
+        "masterSha256": "cb152338f18d81c484ce180ca5cb8e1f3377eed769188f6470f65730d42de1fb",
+        "articleSha256": "d00584103fb350b393e43243e3c3306018b617eae361edf41be05d49f2edb590",
+        "socialSha256": "413713c23ffa0d7c6cd9c3957e7e46cfb5952566a119629449c3fefca3a0169e"
+      }
+    },
+    "bacteremia|bacteremia-mechanism-v2.webp": {
+      "pageId": "bacteremia",
+      "publishedFile": "bacteremia-mechanism-v2.webp",
+      "masterSource": "bacteremia-mechanism-v2-master.png",
+      "socialFile": "bacteremia-mechanism-v2-social.webp",
+      "revision": 2,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://id.nlm.nih.gov/mesh/D016470",
+          "https://id.nlm.nih.gov/mesh/D018805",
+          "https://www.wikibiome.com/article/bacteremia"
+        ],
+        "notes": "Current MeSH records control bacteremia identity and distinguish it from sepsis; the canonical WikiBiome article supplies route scope. The plate is limited to sparse generic bacterial forms in bloodstream contexts and cannot identify an organism or establish burden, source, culture result, sepsis, or outcome."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed two separated complete vessel models. The longitudinal lumen contains exactly four rods and two cocci; the circular lumen contains exactly two rods. Sparse muted red-cell forms are present, and every vessel and microbial form is complete with no source-edge contact."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names both vessel contexts and generic microbial morphologies without relying on color; the caption excludes organism identity, burden, culture, sepsis, diagnosis, and treatment guidance."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 9dec3725e145e88b6c95960d2c0878bf90e741db259e505aa6aabc7cfa96fa88; master 389a508ac1b3ab53fc7c14fd1b07c564f4e422c17b8e9491bef7dd73d89a8141; article 28f3758ca53b9e57f4d2240c5b1f797dacbf307ce65dc4328a6aa4d3460a8528; centered-contain social 57275a60572d3d2ab45f557516b81a7b934815f6a09332eb4408285c6182bb36. Batch 059 revision 1 remains immutable non-public evidence.",
+      "revisionLinkage": {
+        "supersedes": "bacteremia-mechanism-v1-rejected",
+        "supersededBy": null,
+        "sourceDraft": "bacteremia-draft-v2.png",
+        "sourceSha256": "9dec3725e145e88b6c95960d2c0878bf90e741db259e505aa6aabc7cfa96fa88",
+        "generationRecord": "exec-d931e709-39ce-4966-95c1-9ad87b5453b8.png",
+        "rejectedPredecessorSha256": "94815dd3e0aa7177deaeedf826534745049d4d5aaefad61b2528bf423f1c04e9",
+        "masterSha256": "389a508ac1b3ab53fc7c14fd1b07c564f4e422c17b8e9491bef7dd73d89a8141",
+        "articleSha256": "28f3758ca53b9e57f4d2240c5b1f797dacbf307ce65dc4328a6aa4d3460a8528",
+        "socialSha256": "57275a60572d3d2ab45f557516b81a7b934815f6a09332eb4408285c6182bb36"
+      }
+    },
+    "beta-lactamase|beta-lactamase-mechanism-v2.webp": {
+      "pageId": "beta-lactamase",
+      "publishedFile": "beta-lactamase-mechanism-v2.webp",
+      "masterSource": "beta-lactamase-mechanism-v2-master.png",
+      "socialFile": "beta-lactamase-mechanism-v2-social.webp",
+      "revision": 2,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://enzyme.expasy.org/EC/3.5.2.6",
+          "https://www.rhea-db.org/rhea?query=ec:3.5.2.6",
+          "https://www.wikibiome.com/article/beta-lactamase"
+        ],
+        "notes": "ExPASy ENZYME controls EC 3.5.2.6 beta-lactamase identity and variable specificity, while Rhea supplies curated reaction context and the canonical WikiBiome article supplies route scope. Zinc is not generalized beyond class B, and the plate makes no subclass, antibiotic, resistance, species, susceptibility, or treatment claim."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed exactly three separated complete teaching groups: one generic folded-enzyme form, one closed four-membered ring-context form, and one opened-ring context form. There are no labels, bacterial context, metal center, clipping, or source-edge contact."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names all three visible groups and distinguishes closed from opened ring context without relying on color; the caption excludes enzyme subclass, antibiotic, resistance gene, bacterial species, susceptibility result, and treatment outcome."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 512e0fb5f76834cf47db846c8bf92386a989feb6e952d73ff4493f9353369fee; master c6f40a28731f57e4eb65de4e351fea56cee85b7b981b8728b87ceb8b7c118d1c; article 15ed600538ab82b66c50c53c877fbed35cb1cb3b0caec66a230cc81d8eaa9c31; centered-contain social d274d26f4160a49b25835013cb4dc77576166272a0d2357fc762720c846edf98. Batch 060 revision 1 remains immutable non-public evidence.",
+      "revisionLinkage": {
+        "supersedes": "beta-lactamase-mechanism-v1-rejected",
+        "supersededBy": null,
+        "sourceDraft": "beta-lactamase-draft-v2.png",
+        "sourceSha256": "512e0fb5f76834cf47db846c8bf92386a989feb6e952d73ff4493f9353369fee",
+        "generationRecord": "exec-dadb6a17-a233-49ca-8e3e-279a1599b19f.png",
+        "rejectedPredecessorSha256": "e285271a624f299ec0eb2de27ddcfec8b4938572ac8dda058826f507ccb99656",
+        "masterSha256": "c6f40a28731f57e4eb65de4e351fea56cee85b7b981b8728b87ceb8b7c118d1c",
+        "articleSha256": "15ed600538ab82b66c50c53c877fbed35cb1cb3b0caec66a230cc81d8eaa9c31",
+        "socialSha256": "d274d26f4160a49b25835013cb4dc77576166272a0d2357fc762720c846edf98"
+      }
     }
   },
   "rejectedAssets": [
@@ -13173,8 +13290,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The immutable prompt required exactly six long rods; the output contains five.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/bacterial-vaginosis-draft-v2.png",
+      "outcome": "One separately authorized revision-2 call corrected the microbial counts but violated the immutable 150-pixel top and bottom source-safe field. Revision 2 remains immutable non-public evidence and requires a new revision before publication."
     },
     {
       "pageId": "bdnf",
@@ -13186,8 +13303,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The synaptic-terminal teaching body fades upward out of frame, leaving its boundary incomplete and ambiguous.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/bdnf-draft-v2.png",
+      "outcome": "One separately authorized revision-2 call preserved three complete groups but produced six vesicles rather than the frozen five and violated the source-safe field. Revision 2 remains immutable non-public evidence and requires a new revision before publication."
     },
     {
       "pageId": "beta-glucuronidase",
@@ -13199,8 +13316,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The rightmost model enters the required outer 32-pixel pale edge field at x=1504.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/beta-glucuronidase-draft-v2.png",
+      "outcome": "One separately authorized revision-2 call produced three complete groups but violated the immutable source-safe field at the top, bottom, and right. Revision 2 remains immutable non-public evidence and requires a new revision before publication."
     },
     {
       "pageId": "beta-lactamase",
@@ -13212,8 +13329,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The enzyme model enters the required outer 32-pixel pale edge field at x=11.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/beta-lactamase-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced three complete enzyme and ring-context groups within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     },
     {
       "pageId": "atherosclerosis",
@@ -13225,8 +13342,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "The longitudinal artery enters the frozen uninterrupted 32-pixel pale edge field at x=28, making the source ineligible for crop-safe publication.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/atherosclerosis-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced two complete patent artery models within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     },
     {
       "pageId": "bacteremia",
@@ -13238,8 +13355,8 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
       "disposition": "revise",
       "reason": "A severe black top-and-bottom vignette creates 124,910 dark pixels in the 32-pixel edge band and violates the uniform pale-field publication standard.",
-      "supersededBy": null,
-      "outcome": "Revision 1 remains immutable non-public evidence. Any replacement requires a new revision prompt and explicitly authorized call."
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/bacteremia-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced two complete vessel models with the audited sparse microbial counts on a uniform pale field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     },
     {
       "pageId": "multiple-sclerosis",
@@ -18979,6 +19096,60 @@
       ],
       "requiredResolution": "A future separately authorized revision prompt and new call must retain the correct fused indole system and opaque pale field while producing exactly ten carbon, two nitrogen, and one oxygen centers with exactly two successive carbon centers between the ring and terminal nitrogen.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "bacterial-vaginosis",
+      "controlledIdentifier": "MeSH:D016585",
+      "batchId": "mechanisms-revisions-124",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-124/bacterial-vaginosis-draft-v2.png",
+      "sha256": "9214401638941bff2217e58b70adb36005b98e426f5458c471e48d510e12d0a3",
+      "generationRecord": "exec-252dd62e-f8f4-486a-bc50-5327742d26bc.png",
+      "promptSha256": "ecada6d5e270c2096ef5e5db1398e33d34dcca465396fd4aea8b76cf2f4346cd",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "The output reconciled the frozen tissue and microbial counts but the foreground reaches y=148 and y=883, violating the immutable 150-pixel top and bottom source-safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact tissue and microbial grouping while keeping all foreground and shadow within x=150..1385 and y=150..873.",
+      "outcome": "Revision 2 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision after earlier untouched routes are exhausted."
+    },
+    {
+      "pageId": "bdnf",
+      "controlledIdentifier": "UniProt:P23560;NCBI-Gene:627",
+      "batchId": "mechanisms-revisions-124",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-124/bdnf-draft-v2.png",
+      "sha256": "ea90c76c0aef0cf045ae83ad025d7399f2580daf0706398a8883f0d7327877c4",
+      "generationRecord": "exec-c0a84d81-473d-48f7-8382-e11c3c757968.png",
+      "promptSha256": "6591745c7db240806682e2e5f8ef1408fd3a3e43ad6efb241d9c6f5b8b025c53",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "The three teaching groups are complete, but the terminal contains six vesicles rather than the immutable five and the composition extends beyond the frozen source-safe field at x=88..1377 and y=109..871.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain three separate non-mechanistic orientation groups, exactly five vesicles, and the complete source-safe field.",
+      "outcome": "Revision 2 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision after earlier untouched routes are exhausted."
+    },
+    {
+      "pageId": "beta-glucuronidase",
+      "controlledIdentifier": "EC:3.2.1.31",
+      "batchId": "mechanisms-revisions-124",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-124/beta-glucuronidase-draft-v2.png",
+      "sha256": "a50e83e6352727ce025351e21af3ca08c988d192bfab13b28441d6c6fb0896ae",
+      "generationRecord": "exec-fe8a8f41-e606-4d73-b152-42bf1d8fb805.png",
+      "promptSha256": "c70ff3d889d2b0bcb701387deb2a9707b8f204a15f4075edde6a70a52f74478b",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "All three requested teaching groups are complete, but the composition reaches x=1386, y=60, and y=908 and therefore violates the immutable 150-pixel source-safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain the three generic enzyme, conjugate-context, and deconjugated-context groups while keeping all foreground and shadow within the complete source-safe field.",
+      "outcome": "Revision 2 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision after earlier untouched routes are exhausted."
     }
   ],
   "revisedAssets": [
@@ -19129,6 +19300,42 @@
       "reason": "Batch 053 revision 1 was rejected because its principal myelinated-axon model was severed at the top, right, and bottom source edges.",
       "supersededBy": "work/media-drafts/diseases-batch-068/multiple-sclerosis-draft-v2.png",
       "outcome": "Exactly one separately authorized revision-2 call produced three complete normal-anatomy teaching groups within an uninterrupted pale edge field: a brain and upper-spinal assembly, a transverse spinal-cord section, and a finite axon with four intact sheath internodes and three natural node gaps. Dual native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
+    },
+    {
+      "pageId": "atherosclerosis",
+      "batchId": "mechanisms-revisions-124",
+      "draft": "work/media-drafts/mechanisms-batch-059/atherosclerosis-draft.png",
+      "sha256": "762f7b58a5912e37cabd0e2266b51a3c43f5533f2a880a2a8c59204b0d0def8d",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 059 revision 1 entered the frozen outer pale edge field and was ineligible for crop-safe publication.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/atherosclerosis-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced two complete patent artery models within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
+    },
+    {
+      "pageId": "bacteremia",
+      "batchId": "mechanisms-revisions-124",
+      "draft": "work/media-drafts/mechanisms-batch-059/bacteremia-draft.png",
+      "sha256": "94815dd3e0aa7177deaeedf826534745049d4d5aaefad61b2528bf423f1c04e9",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 059 revision 1 had a severe black top-and-bottom vignette and failed the uniform pale-field publication standard.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/bacteremia-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced two complete vessel models with the audited sparse microbial counts on a uniform pale field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
+    },
+    {
+      "pageId": "beta-lactamase",
+      "batchId": "mechanisms-revisions-124",
+      "draft": "work/media-drafts/mechanisms-batch-060/beta-lactamase-draft.png",
+      "sha256": "e285271a624f299ec0eb2de27ddcfec8b4938572ac8dda058826f507ccb99656",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 060 revision 1 entered the required outer 32-pixel pale edge field.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/beta-lactamase-draft-v2.png",
+      "outcome": "Exactly one separately authorized revision-2 call produced three complete enzyme and ring-context groups within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
     }
   ],
   "notes": [

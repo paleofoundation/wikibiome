@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-revisions-124",
   "category": "mechanisms",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "2a113f5a706b609f83ef28701d68165f6fa4220d",
@@ -22,6 +22,45 @@
   "controlAcceptedReviewManifestSha256": "1c8b4e226fcd8e83a6fbc0cf65e517fbf5357669ed9c5c50fe3e5184bdac7974",
   "controlAcceptedPromptEvidenceSha256": "7f997098f3e9394d62981253207206916173913da7c767df031ebd726a7190f3",
   "controlReviewRequired": false,
+  "controlFinalReview": {
+    "status": "accepted-three-exact-revision-2-hashes-three-quarantined",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "9ae3e2ff2b24acb8c241c7bfd96edb5b55fbc4ad",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [
+      "atherosclerosis",
+      "bacteremia",
+      "beta-lactamase"
+    ],
+    "acceptedSourceSha256": [
+      "a9680ac2034cae8858b3ff4297a7207432753af9bd630a003731784031aac51d",
+      "9dec3725e145e88b6c95960d2c0878bf90e741db259e505aa6aabc7cfa96fa88",
+      "512e0fb5f76834cf47db846c8bf92386a989feb6e952d73ff4493f9353369fee"
+    ],
+    "nonPublishablePageIds": [
+      "bacterial-vaginosis",
+      "bdnf",
+      "beta-glucuronidase"
+    ]
+  },
+  "controlSocialCropReview": "accepted-three-centered-contain-1200x630-derivatives-after-native-detail-review",
+  "promotionDerivatives": {
+    "atherosclerosis": {
+      "masterSha256": "cb152338f18d81c484ce180ca5cb8e1f3377eed769188f6470f65730d42de1fb",
+      "articleSha256": "d00584103fb350b393e43243e3c3306018b617eae361edf41be05d49f2edb590",
+      "socialSha256": "413713c23ffa0d7c6cd9c3957e7e46cfb5952566a119629449c3fefca3a0169e"
+    },
+    "bacteremia": {
+      "masterSha256": "389a508ac1b3ab53fc7c14fd1b07c564f4e422c17b8e9491bef7dd73d89a8141",
+      "articleSha256": "28f3758ca53b9e57f4d2240c5b1f797dacbf307ce65dc4328a6aa4d3460a8528",
+      "socialSha256": "57275a60572d3d2ab45f557516b81a7b934815f6a09332eb4408285c6182bb36"
+    },
+    "beta-lactamase": {
+      "masterSha256": "c6f40a28731f57e4eb65de4e351fea56cee85b7b981b8728b87ceb8b7c118d1c",
+      "articleSha256": "15ed600538ab82b66c50c53c877fbed35cb1cb3b0caec66a230cc81d8eaa9c31",
+      "socialSha256": "d274d26f4160a49b25835013cb4dc77576166272a0d2357fc762720c846edf98"
+    }
+  },
   "initialAuditCommit": "b1b2fd8ab1363be945ef707a92fc2ec094f44726",
   "promptFreezeCommit": "410035f57a6e2c02d53df3202f9b1ec2eac32d9a",
   "reviewStandard": "Six deterministic disposition-revise records are re-audited against current controlled authorities and their literal revision-1 failures. Each old source remains immutable and non-public. Exactly one independent revision-2 call is permitted per hash-frozen prompt, followed by literal native-resolution output, prohibited-content, edge-field, crop, and exact-hash audit.",
@@ -56,6 +95,9 @@
       "visualReview": "Exactly two separated complete artery teaching models are visible: one short longitudinal cutaway and one circular cross-section. Each has one restrained eccentric pale-yellow intimal region and a clearly patent lumen; both outer walls and shadows are complete.",
       "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution scientific, visual, pixel-field, and exact-hash review","reviewedOn":"2026-09-07","promptCountTrusted":false,"observedSubjectDescription":"One complete longitudinal artery cutaway and one complete circular artery cross-section, each with a patent lumen and one eccentric pale-yellow intimal region.","observedVisibleBodyCount":2,"observedSpatialGroupingCount":2,"observedLongitudinalArteryCount":1,"observedCircularArteryCount":1,"observedIntimalPlaqueRegionCount":2,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[238,244,251],"foregroundBoundsAtLumaBelow220":{"minX":158,"minY":309,"maxX":1404,"maxY":734},"sourceEdgeContact":false,"containRequired":true,"metadataConsistency":"pass"},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "cb152338f18d81c484ce180ca5cb8e1f3377eed769188f6470f65730d42de1fb",
+      "articleSha256": "d00584103fb350b393e43243e3c3306018b617eae361edf41be05d49f2edb590",
+      "socialSha256": "413713c23ffa0d7c6cd9c3957e7e46cfb5952566a119629449c3fefca3a0169e",
       "proposedAlt": "Two complete teaching models show longitudinal and circular artery cutaways with patent lumens and restrained eccentric intimal plaque.",
       "proposedCaption": "Generic arterial-wall and intimal-plaque orientation for atherosclerosis. This reconstruction does not show a patient-specific lesion, stenosis measurement, plaque stability, diagnosis, prognosis, or treatment result.",
       "proposedDescription": "WikiBiome scientific reconstruction of two complete patent artery teaching models with restrained eccentric intimal thickening on a pale cool field.",
@@ -82,6 +124,9 @@
       "visualReview": "Exactly two separated complete vessel teaching models are visible. The longitudinal lumen contains exactly four purple rods and two blue spherical forms among muted red-cell forms; the circular lumen contains exactly two purple rods among muted red-cell forms. Every vessel and microbial form is complete.",
       "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution scientific, visual, pixel-field, and exact-hash review","reviewedOn":"2026-09-07","promptCountTrusted":false,"observedSubjectDescription":"One complete longitudinal vessel with four rods and two cocci and one complete circular vessel with two rods, each also containing sparse muted red-cell forms.","observedVisibleBodyCount":10,"observedSpatialGroupingCount":2,"observedVesselModelCount":2,"observedLongitudinalRodCount":4,"observedLongitudinalCoccusCount":2,"observedCircularRodCount":2,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[238,245,251],"foregroundBoundsAtLumaBelow220":{"minX":144,"minY":346,"maxX":1360,"maxY":687},"sourceEdgeContact":false,"containRequired":true,"metadataConsistency":"pass"},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "389a508ac1b3ab53fc7c14fd1b07c564f4e422c17b8e9491bef7dd73d89a8141",
+      "articleSha256": "28f3758ca53b9e57f4d2240c5b1f797dacbf307ce65dc4328a6aa4d3460a8528",
+      "socialSha256": "57275a60572d3d2ab45f557516b81a7b934815f6a09332eb4408285c6182bb36",
       "proposedAlt": "Two complete vessel teaching models contain sparse generic rods and cocci among muted red blood-cell forms.",
       "proposedCaption": "Sparse bloodstream-context orientation for bacteremia. The illustrative forms do not identify an organism, quantify burden, show a culture result, depict sepsis, or provide diagnosis or treatment guidance.",
       "proposedDescription": "WikiBiome scientific reconstruction of two complete vessel teaching models with sparse generic bacterial forms on a pale cool field.",
@@ -186,6 +231,9 @@
       "visualReview": "Exactly three separated complete teaching groups are visible: one compact folded ribbon-like enzyme form, one closed four-membered ring-context form with a small side group, and one separate opened-ring context form. No labels, bacterial context, metal center, clipping, or edge contact is visible.",
       "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution scientific, visual, pixel-field, and exact-hash review","reviewedOn":"2026-09-07","promptCountTrusted":false,"observedSubjectDescription":"One complete generic folded-enzyme form, one complete closed four-membered ring-context form, and one complete separate opened-ring context form.","observedVisibleBodyCount":3,"observedSpatialGroupingCount":3,"observedEnzymeModelCount":1,"observedClosedRingContextCount":1,"observedOpenedRingContextCount":1,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[238,245,252],"foregroundBoundsAtLumaBelow220":{"minX":253,"minY":186,"maxX":1300,"maxY":797},"sourceEdgeContact":false,"containRequired":true,"metadataConsistency":"pass"},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "c6f40a28731f57e4eb65de4e351fea56cee85b7b981b8728b87ceb8b7c118d1c",
+      "articleSha256": "15ed600538ab82b66c50c53c877fbed35cb1cb3b0caec66a230cc81d8eaa9c31",
+      "socialSha256": "d274d26f4160a49b25835013cb4dc77576166272a0d2357fc762720c846edf98",
       "proposedAlt": "Three complete groups show a generic enzyme form, a closed beta-lactam-ring token, and a separate opened-ring context token.",
       "proposedCaption": "Generic enzyme-class and ring-context orientation for beta-lactamase. This reconstruction does not identify an enzyme subclass, antibiotic, resistance gene, bacterial species, susceptibility result, or treatment outcome.",
       "proposedDescription": "WikiBiome scientific reconstruction of a generic enzyme and separated closed- and opened-ring teaching tokens on a pale cool field.",
