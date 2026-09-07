@@ -14750,6 +14750,78 @@
       "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D006026", "https://pubmed.ncbi.nlm.nih.gov/25936979/", "https://pubmed.ncbi.nlm.nih.gov/26433695/", "https://pubmed.ncbi.nlm.nih.gov/37741057/", "https://pubmed.ncbi.nlm.nih.gov/39455640/", "local:data/content.generated.json#/pages/n-glycosylation"],
       "requiredResolution": "Select organism, compartment, substrate/site, glycan structure, enzyme/pathway identifiers, analytical method, phenotype, and evidence; remove or substantiate metal dependence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "neurodegeneration",
+      "controlledIdentifier": "MeSH:D019636;broad-disease-class",
+      "batchId": "mechanisms-084",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Distinct diseases, brain regions, metal observations, barriers, cell-death processes, aggregation, and gut-brain hypotheses are collapsed into one causal pathway.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019636", "https://pubmed.ncbi.nlm.nih.gov/34740866/", "local:data/content.generated.json#/pages/neurodegeneration"],
+      "requiredResolution": "Select a named disease and define specimen/region, metal species, method, comparator, pathology, effect direction, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "neuroinflammation",
+      "controlledIdentifier": "process-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-084",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Glial, vascular, peripheral-immune, infectious, toxicant, and disease processes are merged using obsolete M1/M2 microglial framing.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/36327895/", "https://pubmed.ncbi.nlm.nih.gov/36453496/", "https://pubmed.ncbi.nlm.nih.gov/37566021/", "local:data/content.generated.json#/pages/neuroinflammation"],
+      "requiredResolution": "Define species, region, insult, time, cell markers/state data, compartment, measured mediator, comparator, and function using current nomenclature.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nf-kappa-b",
+      "controlledIdentifier": "MeSH:D016328",
+      "batchId": "mechanisms-084",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The canonical branch is treated as the whole NF-kappa B network while noncanonical signaling, dimer diversity, feedback, cell context, timing, and assay are omitted.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D016328", "https://meshb.nlm.nih.gov/record/ui?ui=D051550", "https://pubmed.ncbi.nlm.nih.gov/38634218/", "https://pubmed.ncbi.nlm.nih.gov/41669117/", "local:data/content.generated.json#/pages/nf-kappa-b"],
+      "requiredResolution": "Specify canonical and noncanonical receptors, proteins, dimers, cell type, stimulus, time, localization, assay, and source-bound evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nickel-allergy",
+      "controlledIdentifier": "MeSH:D017449;nickel-specific-causation-requires-exposure-evidence",
+      "batchId": "mechanisms-084",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Non-specific eczema is merged with localized, systemic, dietary, mucosal, diagnostic, regulatory, and treatment claims.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D017449", "https://pubmed.ncbi.nlm.nih.gov/37283623/", "https://pubmed.ncbi.nlm.nih.gov/38768899/", "local:data/content.generated.json#/pages/nickel-allergy"],
+      "requiredResolution": "Select one presentation and route with confirmed sensitization context, acute/chronic morphology, differential diagnosis, and evidence-qualified systemic claims.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nickel-reproductive-toxicity",
+      "controlledIdentifier": "toxicological-endpoint-umbrella;no-single-controlled-condition",
+      "batchId": "mechanisms-084",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Human associations, placental transfer, mixed exposures, animal findings, biomonitoring, and proposed mechanisms are presented as one causal human lesion.",
+      "checkedUrls": ["https://www.atsdr.cdc.gov/ToxProfiles/tp15.pdf", "https://pubmed.ncbi.nlm.nih.gov/39702049/", "https://pubmed.ncbi.nlm.nih.gov/37963536/", "local:data/content.generated.json#/pages/nickel-reproductive-toxicity"],
+      "requiredResolution": "Define nickel species, route, dose, timing, biomatrix, design, species, endpoint, mixture/confounder handling, comparator, uncertainty, and causal status.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nickel-neurotoxicity",
+      "controlledIdentifier": "toxicological-endpoint-umbrella;no-established-human-clinical-phenotype",
+      "batchId": "mechanisms-084",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "One intraperitoneal rat study and broad mechanistic claims are generalized toward environmental human neurotoxicity.",
+      "checkedUrls": ["https://www.atsdr.cdc.gov/ToxProfiles/tp15.pdf", "local:data/content.generated.json#/pages/nickel-neurotoxicity"],
+      "requiredResolution": "Rebuild as a study-specific record or synthesis preserving chemical form, route, dose, tissue level, species/sex, assay, comparator, and human-extrapolation boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
