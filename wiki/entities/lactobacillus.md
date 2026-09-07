@@ -32,7 +32,7 @@ A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) tha
 - Four-part protective mechanism:
  1. Intestinal metal sequestration: cell wall binding of Cd ions in the gut lumen.
  2. Oxidative stress alleviation: counteracted Cd-induced ROS.
- 3. Tight junction protection: preserved ZO-1, ZO-2, occludin, claudin-1 expression.
+ 3. [[tight-junctions|Tight junction]] protection: preserved ZO-1, ZO-2, occludin, claudin-1 expression.
  4. Immune modulation: maintained secretory IgA and balanced cytokine profiles.
 - L. plantarum CCFM8661 also effective for Cd and [[lead]] detoxification [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 

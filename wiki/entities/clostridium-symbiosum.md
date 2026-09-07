@@ -78,7 +78,7 @@ The 7α-dehydroxylase activity is the clinical hallmark of pathogenic bile acid 
 
 - Primary bile acids (CA, CDCA): Potent FXR agonists; activate protective anti-inflammatory signaling in colonocytes and hepatocytes.
 - Secondary bile acids (DCA, LCA): Weak or antagonistic FXR signaling; instead activate TGR5 (G protein-coupled bile acid receptor 1), which can drive pro-inflammatory IL-23 production ([[rezen-2022-bile-acids-carcinogenesis-review]]).
-- *C. symbiosum*-driven PBA → SBA conversion reduces FXR signaling, disrupting the colonocyte's ability to maintain tight junctions and produce anti-inflammatory IL-22.
+- *C. symbiosum*-driven PBA → SBA conversion reduces FXR signaling, disrupting the colonocyte's ability to maintain [[tight-junctions|tight junctions]] and produce anti-inflammatory IL-22.
 
 ### NF-κB Activation and Epithelial Inflammation
 

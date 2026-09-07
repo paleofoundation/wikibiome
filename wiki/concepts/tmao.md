@@ -42,7 +42,7 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 - Activates [[nlrp3-inflammasome|NLRP3 inflammasome]] via TXNIP (thioredoxin-interacting protein).
 
 ### Endothelial Dysfunction
-- Activates HMGB1/TLR4 signaling, destroying tight junction proteins (ZO-2, occludin, VE-cadherin).
+- Activates HMGB1/TLR4 signaling, destroying [[tight-junctions|tight junction]] proteins (ZO-2, occludin, VE-cadherin).
 - Increases endothelial permeability, allowing LDL oxidation in the intima.
 - Activates PKC/NF-kB, upregulating VCAM-1 and ICAM-1 adhesion molecules [[zhen-2023-tmao-cardiovascular-diseases-review]].
 

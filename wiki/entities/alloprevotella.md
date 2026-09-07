@@ -60,7 +60,7 @@ Many older microbiota studies reported "Prevotella" changes in T2D but did not r
  - Propionate directly suppresses de novo lipogenesis in the liver
 
 3. Intestinal Barrier Function and Endotoxemia
- - Alloprevotella's propionate production maintains tight junction protein expression (claudin-2, occludin, ZO-1) ([[hoyles-2018-propionate-blood-brain-barrier-microbiome]])
+ - Alloprevotella's propionate production maintains [[tight-junctions|tight junction]] protein expression (claudin-2, occludin, ZO-1) ([[hoyles-2018-propionate-blood-brain-barrier-microbiome]])
  - Depletion is associated with increased gut permeability and elevated fasting endotoxemia (LPS) (Cani et al. 2007 Diabetes)
  - LPS is a key driver of systemic inflammation and insulin resistance in T2D ([[herrema-2020-intestinal-microbial-metabolites-t2d]])
 

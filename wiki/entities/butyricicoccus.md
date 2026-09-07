@@ -40,7 +40,7 @@ As a strictly anaerobic Firmicute, *Butyricicoccus* requires [[iron]] for iron-s
 
 ### Butyrate Production and Barrier Integrity
 
-*Butyricicoccus* contributes to the pool of gut butyrate producers alongside *Faecalibacterium prausnitzii*, *Roseburia*, and other Clostridiales. Butyrate serves multiple protective functions: fueling colonocyte metabolism, maintaining tight junction integrity, suppressing NF-kB-mediated inflammation, and promoting regulatory T cell differentiation. The loss of *Butyricicoccus* and other butyrate producers is a recurring feature of conditions marked by barrier breakdown and chronic inflammation.
+*Butyricicoccus* contributes to the pool of gut butyrate producers alongside *Faecalibacterium prausnitzii*, *Roseburia*, and other Clostridiales. Butyrate serves multiple protective functions: fueling colonocyte metabolism, maintaining [[tight-junctions|tight junction]] integrity, suppressing NF-kB-mediated inflammation, and promoting regulatory T cell differentiation. The loss of *Butyricicoccus* and other butyrate producers is a recurring feature of conditions marked by barrier breakdown and chronic inflammation.
 
 ### Oral-Gut Presence
 

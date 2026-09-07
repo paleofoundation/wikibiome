@@ -87,7 +87,7 @@ The *P. copri*-dominant dysbiosis in RA involves:
 ### Mechanism: Iron-Driven Selection and Epithelial Dysfunction
 
 - High-iron gut environment selects for *P. copri*, which outcompetes barrier-supportive anaerobes.
-- Loss of [[faecalibacterium-prausnitzii]] and other butyrogenic commensals → reduced butyrate production → loss of HDAC inhibition → reduced histone acetylation → downregulation of tight junction genes.
+- Loss of [[faecalibacterium-prausnitzii]] and other butyrogenic commensals → reduced butyrate production → loss of HDAC inhibition → reduced histone acetylation → downregulation of [[tight-junctions|tight junction]] genes.
 - Barrier breakdown increases intestinal permeability, allowing increased LPS translocation and systemic endotoxemia.
 - Systemic endotoxemia (LPS + bacterial lipoteichoic acids) drives TLR4/TLR2 signaling on immune cells, promoting Th17 differentiation and anti-microbial Th1 responses -- both pathogenic in RA.
 - T cell and B cell responses to *P. copri* antigens (oral tolerance loss) may contribute to RA initiation or progression.

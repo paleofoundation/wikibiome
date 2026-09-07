@@ -37,7 +37,7 @@ Several heavy metals directly trigger EMT through well-characterized signaling p
 
 ## Gut Barrier Relevance
 
-In the intestinal epithelium, partial EMT compromises the tight junction network, increasing permeability. This connects metal exposure to [[intestinal-permeability|leaky-gut]] and downstream systemic inflammation. Microbiome-derived signals can either promote EMT (through chronic inflammation and [[biofilm]]-associated toxins) or suppress it (through [[butyrate]]-mediated maintenance of epithelial phenotype).
+In the intestinal epithelium, partial EMT compromises the [[tight-junctions|tight junction]] network, increasing permeability. This connects metal exposure to [[intestinal-permeability|leaky-gut]] and downstream systemic inflammation. Microbiome-derived signals can either promote EMT (through chronic inflammation and [[biofilm]]-associated toxins) or suppress it (through [[butyrate]]-mediated maintenance of epithelial phenotype).
 
 ## The Metal-Microbiome-EMT Triangle
 

@@ -20,7 +20,7 @@ Microbial tryptophan metabolites produced by gut bacteria through the third bran
 
 ### Indole
 - Direct deamination product of tryptophan by bacterial tryptophanase (TnaA), expressed by E. coli, Bacteroides, Clostridium.
-- Strengthens epithelial barrier via pregnane X receptor (PXR) activation; increases tight junction protein expression.
+- Strengthens epithelial barrier via pregnane X receptor (PXR) activation; increases [[tight-junctions|tight junction]] protein expression.
 
 ### Indole-3-Propionic Acid (IPA)
 - Produced primarily by *Clostridium sporogenes* via the reductive tryptophan pathway.

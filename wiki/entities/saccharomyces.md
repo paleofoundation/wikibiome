@@ -27,7 +27,7 @@ A genus of ascomycete yeasts that includes both a proven therapeutic probiotic (
 - The best-characterized fungal probiotic, with demonstrated efficacy in:
  - C. difficile infection: reduces recurrence by 50-60% when combined with antibiotics (McFarland 2006 Am J Gastroenterol; Surawicz et al. 2000 Clin Infect Dis); inhibits toxin A/B binding to colonocytes and degrades toxin receptor sites (Castagliuolo et al. 1999 Infect Immun).
  - Anti-inflammatory effects: secretes anti-inflammatory factors that inhibit NF-kB signaling and reduce IL-8 and TNF-alpha production in intestinal epithelial cells (Sougioultzis et al. 2006 BBRC).
- - Barrier protection: upregulates tight junction proteins and secretory IgA production (Czerucka et al. 2007 Aliment Pharmacol Ther).
+ - Barrier protection: upregulates [[tight-junctions|tight junction]] proteins and secretory IgA production (Czerucka et al. 2007 Aliment Pharmacol Ther).
  - Antibiotic-associated diarrhea: reduces incidence by approximately 50% across meta-analyses (Szajewska & Kołodziej 2015 Aliment Pharmacol Ther; Hempel et al. 2012 JAMA).
  - Multiple sclerosis adjunctive use: evaluated as an adjunctive microbiome-targeted intervention in RCT [[motlagh-asghari-2023-saccharomyces-boulardii-ms-rct]].
 - Unlike bacterial probiotics, *S. boulardii* is inherently resistant to all antibacterial antibiotics, making it uniquely suited for co-administration during antibiotic therapy (Czerucka et al. 2007 Aliment Pharmacol Ther).

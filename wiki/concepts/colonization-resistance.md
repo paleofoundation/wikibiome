@@ -30,7 +30,7 @@ The commensal microbiome occupies metabolic niches that deprive incoming pathoge
 
 SCFA-producing commensals (*Faecalibacterium prausnitzii*, *Roseburia*, *Bifidobacterium*) create an environment inhospitable to many pathogens:
 
-- [[butyrate|Butyrate]] maintains epithelial tight junctions, preventing pathogen translocation
+- [[butyrate|Butyrate]] maintains epithelial [[tight-junctions|tight junctions]], preventing pathogen translocation
 - SCFAs lower luminal pH, inhibiting pH-sensitive pathogens
 - Butyrate promotes epithelial oxygen consumption, maintaining the anaerobic environment that favors obligate anaerobe commensals over facultative aerobe pathobionts (Enterobacteriaceae)
 

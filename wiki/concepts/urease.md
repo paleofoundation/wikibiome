@@ -54,7 +54,7 @@ Critically, only 2-25% of H. pylori urease is actually nickel-activated. The rem
 - Persistence at neutral pH: urease is required for chronic colonization even when gastric pH is not acidic, indicating roles beyond simple acid buffering.
 - Angiogenesis: urease promotes new blood vessel formation in the gastric mucosa.
 - Apoptosis induction: urease binds Class II MHC molecules on gastric epithelial cells, triggering programmed cell death.
-- Tight junction disruption: ammonia-mediated myosin activation opens epithelial tight junctions, increasing permeability.
+- [[tight-junctions|Tight junction]] disruption: ammonia-mediated myosin activation opens epithelial tight junctions, increasing permeability.
 - Platelet activation: urease activates blood platelets via a lipoxygenase-mediated pathway.
 - Mucin gene alteration: urease modifies mucin gene expression in gastric epithelium.
 - Pro-inflammatory cytokine induction: stimulates neutrophil and monocyte chemotaxis.

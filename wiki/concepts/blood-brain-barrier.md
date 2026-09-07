@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-10
 
 # Blood-Brain Barrier
 
-A selective semipermeable border formed by brain endothelial cells connected by tight junctions, pericytes, and astrocytic end-feet. The BBB restricts passage of most molecules from blood to brain, protecting the CNS from toxins, pathogens, and inflammatory mediators. Multiple heavy metals breach this barrier, and the gut microbiome modulates its integrity -- making the BBB a critical node linking metal exposure, microbial [[dysbiosis]], and [[neurodegeneration]].
+A selective semipermeable border formed by brain endothelial cells connected by [[tight-junctions|tight junctions]], pericytes, and astrocytic end-feet. The BBB restricts passage of most molecules from blood to brain, protecting the CNS from toxins, pathogens, and inflammatory mediators. Multiple heavy metals breach this barrier, and the gut microbiome modulates its integrity -- making the BBB a critical node linking metal exposure, microbial [[dysbiosis]], and [[neurodegeneration]].
 
 ## Metal Penetration of the BBB
 

@@ -16,7 +16,7 @@ platform: wikibiome
 
 Gut barrier dysfunction -- colloquially "leaky gut" -- is the pathological increase in intestinal permeability that permits translocation of bacteria, bacterial products (LPS, peptidoglycan), metals, and dietary antigens from the gut lumen into the systemic circulation. It is the gateway mechanism through which the gut-metal-microbiome triad produces systemic disease. When the barrier fails, problems that would otherwise remain confined to the intestinal lumen become whole-body problems.
 
-For the molecular details of tight junction architecture and zonulin signaling, see [[intestinal-permeability]]. This page focuses on the broader concept of barrier failure as a disease mechanism, emphasizing the metal and microbiome dimensions.
+For the molecular details of [[tight-junctions|tight junction]] architecture and zonulin signaling, see [[intestinal-permeability]]. This page focuses on the broader concept of barrier failure as a disease mechanism, emphasizing the metal and microbiome dimensions.
 
 ## The Three Layers of Defense
 

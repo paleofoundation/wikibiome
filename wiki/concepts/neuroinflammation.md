@@ -30,7 +30,7 @@ Chronic inflammatory activation within the central nervous system, driven by mic
 
 ### Blood-Brain Barrier (BBB) Disruption
 - The BBB normally restricts peripheral immune cell and toxin entry to the brain.
-- [[lead]], [[cadmium]], and [[mercury]] directly damage BBB tight junction proteins, increasing paracellular permeability [[ahmed-2025-metals-alzheimers-mechanistic-review]].
+- [[lead]], [[cadmium]], and [[mercury]] directly damage BBB [[tight-junctions|tight junction]] proteins, increasing paracellular permeability [[ahmed-2025-metals-alzheimers-mechanistic-review]].
 - BBB disruption permits entry of peripheral inflammatory mediators, LPS, metals, and immune cells, amplifying central inflammation.
 - TMAO crosses the BBB and promotes neuroinflammation in [[alzheimers-disease]] [[khatoon-2023-gut-microbiota-neurodegenerative]].
 

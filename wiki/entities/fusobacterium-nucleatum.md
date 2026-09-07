@@ -75,7 +75,7 @@ A Gram-negative obligate anaerobe that has emerged as a major pathogen in colore
 - Mechanistic link: Iron-rich inflamed tissue selects for *Fusobacterium*. High iron availability sustains FadA expression, driving E-cadherin cleavage and Wnt activation [[zhao-2021-colorectal-cancer-microbiome-patterns-signatures]].
 - *F. nucleatum* DNA is detectable in tumors, with CFU counts correlating with worse clinical outcomes [[thomas-2016-tissue-bacteria-rectal-carcinoma-16s]] [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]].
 - CRC microbiome signatures consistently show elevated *Fusobacterium* alongside iron and manganese elevation [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]] [[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]].
-- FadA-mediated epithelial transformation is synergistic with dysplasia: the combination of disrupted tight junctions and oncogenic signaling accelerates malignant progression [[wu-2021-microbial-markers-populations-early-crc]] [[saito-2019-metagenomic-gut-microbiota-colorectal-adenoma]].
+- FadA-mediated epithelial transformation is synergistic with dysplasia: the combination of disrupted [[tight-junctions|tight junctions]] and oncogenic signaling accelerates malignant progression [[wu-2021-microbial-markers-populations-early-crc]] [[saito-2019-metagenomic-gut-microbiota-colorectal-adenoma]].
 - FMT and dietary interventions that deplete *Fusobacterium* are under active investigation as adjuncts to CRC chemo- and immunotherapy [[xu-2022-fmt-antitumor-cancer-immunotherapy]] [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc]].
 
 ### Other Gastrointestinal and Gynecologic Cancers

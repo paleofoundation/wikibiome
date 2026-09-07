@@ -52,7 +52,7 @@ Every published survey of commercial infant foods finds the same pattern: all pr
 
 Immature detoxification. [[glutathione]] synthesis, metallothionein expression, and renal clearance are all underdeveloped in infants. The liver's Phase II conjugation pathways — which adults use to neutralize and excrete metals — operate at a fraction of adult capacity [[pendergrass-2026-age-window-vulnerability-vegetable-baby-foods]].
 
-Higher absorption rates. The infant gut is more permeable than the adult gut (intestinal tight junctions are still maturing), and calcium/iron channel expression is upregulated for rapid growth — channels that heavy metals exploit through [[mis-metallation]].
+Higher absorption rates. The infant gut is more permeable than the adult gut (intestinal [[tight-junctions|tight junctions]] are still maturing), and calcium/iron channel expression is upregulated for rapid growth — channels that heavy metals exploit through [[mis-metallation]].
 
 Body-weight exposure ratio. A 7 kg infant eating 100g of baby food ingests ~14 μg Ni/kg body weight from a high-nickel product. An 70 kg adult eating the same food ingests ~1.4 μg/kg — a 10x difference in body-weight-adjusted exposure from identical products.
 

@@ -41,7 +41,7 @@ The most extensively referenced missing concept in this wiki. SCFAs -- acetate (
 Butyrate is the most potent SCFA inhibitor of histone deacetylases (HDACs), particularly class I and II. This produces broad anti-inflammatory and anti-proliferative effects:
 - Upregulates Foxp3 expression, driving naive T cell differentiation into regulatory T cells (Tregs) that suppress autoimmunity and inflammation.
 - Inhibits NF-kB activation in macrophages, reducing TNF-alpha and IL-6 production.
-- Promotes expression of tight junction proteins (claudins, occludin, ZO-1) in colonocytes.
+- Promotes expression of [[tight-junctions|tight junction]] proteins (claudins, occludin, ZO-1) in colonocytes.
 - Inhibits cancer cell proliferation and induces apoptosis -- the basis of butyrate's protective role against [[colorectal-cancer]].
 
 ## Gut Barrier Maintenance

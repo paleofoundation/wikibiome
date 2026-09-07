@@ -39,7 +39,7 @@ Exogenous / xenobiotic ligands (often disruptive):
 
 Activation by microbial indoles produces profoundly different effects than activation by dioxins. Indole-driven AhR signaling promotes:
 
-- Barrier integrity — upregulates tight junction proteins and mucin production; protects against leaky gut
+- Barrier integrity — upregulates [[tight-junctions|tight junction]] proteins and mucin production; protects against leaky gut
 - [[interleukin-22|IL-22]] production — promotes intestinal epithelial regeneration and antimicrobial peptide secretion
 - Treg/Th17 balance — physiological AhR activation favors regulatory T cells; supports immune tolerance
 - ILC3 activation — innate lymphoid cells that defend mucosal barriers

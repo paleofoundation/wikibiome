@@ -34,7 +34,7 @@ A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming 
 - Probiotic species used therapeutically in Japan and parts of Asia.
 - Produces butyrate via butyryl-CoA:acetate CoA-transferase pathway.
 - Protective against [[clostridioides-difficile]] infection and necrotizing enterocolitis in premature infants.
-- Enhances gut barrier integrity through butyrate-mediated upregulation of tight junction proteins.
+- Enhances gut barrier integrity through butyrate-mediated upregulation of [[tight-junctions|tight junction]] proteins.
 
 ## Pathogenic Species
 

@@ -19,7 +19,7 @@ The developing infant represents a uniquely vulnerable window for heavy metal to
 ## Why Infants Are Uniquely Vulnerable
 
 1. Higher intake per body weight: Infants consume 3-5x more food per kilogram than adults, concentrating any contaminants proportionally.
-2. Immature gut barrier: The neonatal intestinal epithelium has looser tight junctions and higher permeability, allowing greater metal absorption.
+2. Immature gut barrier: The neonatal intestinal epithelium has looser [[tight-junctions|tight junctions]] and higher permeability, allowing greater metal absorption.
 3. Developing microbiome: The infant gut microbiome is in its colonization phase -- metal exposure during this period can permanently alter the trajectory of microbial community assembly.
 4. Immature detoxification: Hepatic metallothionein, glutathione synthesis, and renal excretion pathways are not yet fully functional.
 5. Rapid neurological development: Myelination, synaptogenesis, and neural circuit formation make the infant brain exquisitely sensitive to [[heavy-metal-neurotoxicity]].

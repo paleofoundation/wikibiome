@@ -26,7 +26,7 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 ## Butyrate Production and Barrier Protection
 
 - Produces butyrate as its primary fermentation end-product. Butyrate is the preferred energy source for colonocytes and the most potent SCFA for:
- - Strengthening tight junction protein expression (ZO-1, occludin, claudin-1).
+ - Strengthening [[tight-junctions|tight junction]] protein expression (ZO-1, occludin, claudin-1).
  - Suppressing NF-kB-mediated [[inflammation]] via HDAC inhibition and GPR109A signaling.
  - Promoting regulatory T cell (Treg) differentiation -- critical for immune tolerance.
  - Maintaining epithelial oxygen consumption, preserving the anaerobic luminal environment that favors beneficial obligate anaerobes over facultative pathobionts.

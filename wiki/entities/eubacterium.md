@@ -27,7 +27,7 @@ A genus of Gram-positive, obligate anaerobic bacteria within the Firmicutes phyl
 ### E. rectale
 - One of the most abundant butyrate producers in the healthy human colon, often ranking alongside *F. prausnitzii* in absolute abundance.
 - Ferments dietary fiber (resistant starch, xylan) via the butyryl-CoA:acetate CoA-transferase pathway.
-- Butyrate output supports colonocyte energy metabolism, tight junction integrity, and anti-inflammatory HDAC inhibition.
+- Butyrate output supports colonocyte energy metabolism, [[tight-junctions|tight junction]] integrity, and anti-inflammatory HDAC inhibition.
 - Depleted in [[cardiovascular-disease]]: part of the butyrate-producing guild lost in CVD patients [[almeida-2023-gut-microbiota-cardiovascular-axis]].
 
 ### E. hallii (Anaerobutyricum hallii)

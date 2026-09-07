@@ -25,7 +25,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (famil
 ## Role in Gut Ecosystem
 
 - One of the few Bacteroidetes members that produces significant butyrate, placing it in an unusual metabolic niche -- most Bacteroidetes produce acetate, propionate, or succinate rather than butyrate.
-- Butyrate production supports colonocyte energy metabolism, tight junction protein expression, and Treg differentiation via HDAC inhibition and GPR109A signaling.
+- Butyrate production supports colonocyte energy metabolism, [[tight-junctions|tight junction]] protein expression, and Treg differentiation via HDAC inhibition and GPR109A signaling.
 - Contributes to colonization resistance as part of the diverse anaerobic community that prevents pathogen expansion.
 - Name derives from "butyric acid" (butyrici-) and "unit" (monas), reflecting its defining metabolic feature.
 

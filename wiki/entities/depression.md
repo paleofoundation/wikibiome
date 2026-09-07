@@ -29,7 +29,7 @@ The most robust metal-depression association. Serum zinc is consistently lower i
 - Zinc is required for NMDA receptor modulation, BDNF expression, and synaptic plasticity
 - Zinc deficiency increases [[inflammation]] (IL-6, TNF-alpha) and [[oxidative-stress]] [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 - Multiple RCTs have evaluated zinc as SSRI augmentation, with modest effects most pronounced in zinc-deficient populations.
-- Zinc also supports [[immune-balance]] (Treg function) and [[intestinal-permeability]] (tight junction integrity)
+- Zinc also supports [[immune-balance]] (Treg function) and [[intestinal-permeability]] ([[tight-junctions|tight junction]] integrity)
 
 ### Copper -- The Double-Edged Metal
 Serum copper and ceruloplasmin are elevated in depression, creating a high Cu/Zn ratio that is among the most replicated findings in biological psychiatry:

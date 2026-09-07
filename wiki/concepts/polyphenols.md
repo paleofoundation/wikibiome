@@ -61,7 +61,7 @@ Polyphenols act as selective antimicrobials and prebiotics:
 - Prebiotic effects: Promote growth of [[bifidobacterium]], [[lactobacillus]], and [[akkermansia-muciniphila]] -- organisms associated with gut health and barrier integrity [[appunni-2021-dietary-factors-gut-microbiome-crc]].
 - Antimicrobial effects: Inhibit pathogenic species including *E. coli*, *Clostridium perfringens*, and *Helicobacter pylori* at concentrations achievable in the colon.
 - SCFA enhancement: Increase production of [[butyrate]] and other [[short-chain-fatty-acids]] by supporting saccharolytic fermentation.
-- Barrier protection: Strengthen tight junctions and reduce [[intestinal-permeability]] through multiple mechanisms including ZO-1 upregulation and inflammatory cytokine suppression.
+- Barrier protection: Strengthen [[tight-junctions|tight junctions]] and reduce [[intestinal-permeability]] through multiple mechanisms including ZO-1 upregulation and inflammatory cytokine suppression.
 
 ## Disease-Specific Evidence
 

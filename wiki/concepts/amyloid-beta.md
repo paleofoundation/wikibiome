@@ -77,7 +77,7 @@ H. pylori and Aβ: *Helicobacter pylori* infection is associated with elevated s
 
 FMT reduces brain amyloid: Fecal microbiota transplant from healthy donors into AD mouse models reduced tau phosphorylation and brain Aβ levels, and improved synaptic plasticity [[alonso-garcia-2021-gut-microbiota-proteinopathies]]. This causal experiment establishes the gut microbiome as a functional upstream modulator of brain amyloid pathology — not merely a correlate.
 
-SCFA depletion increases amyloid burden: SCFA-producing bacteria (*Faecalibacterium prausnitzii*, *Roseburia*, *Bifidobacterium*) are depleted in AD microbiomes. Butyrate inhibits HDAC activity in brain tissue, maintains blood-brain barrier tight junctions, and suppresses neuroinflammatory gene expression. Loss of these bacteria removes multiple layers of protection against Aβ accumulation and aggregation.
+SCFA depletion increases amyloid burden: SCFA-producing bacteria (*Faecalibacterium prausnitzii*, *Roseburia*, *Bifidobacterium*) are depleted in AD microbiomes. Butyrate inhibits HDAC activity in brain tissue, maintains blood-brain barrier [[tight-junctions|tight junctions]], and suppresses neuroinflammatory gene expression. Loss of these bacteria removes multiple layers of protection against Aβ accumulation and aggregation.
 
 ## Blood-Brain Barrier Failure as the Gateway
 

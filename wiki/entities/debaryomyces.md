@@ -59,7 +59,7 @@ Debaryomyces is often overlooked in Crohn's disease discussion because Candida s
 
 - Fungal β-glucans also activate the IL-17 axis via Dectin-1 → Card9 → NF-κB signaling ([[zhang-2017-intestinal-microbiota-immune-response-ibd]]; Leonardi et al. 2018 Science)
 - Debaryomyces presence correlates with elevated ileal IL-17A and IL-17F mRNA in CD patients ([[huang-2024-gut-fungi-ibd-colorectal-cancer]])
-- Th17 cells produce pro-inflammatory IL-17, TNF-α, and [[interleukin-22|IL-22]], which impair tight junction integrity and promote tissue remodeling
+- Th17 cells produce pro-inflammatory IL-17, TNF-α, and [[interleukin-22|IL-22]], which impair [[tight-junctions|tight junction]] integrity and promote tissue remodeling
 
 ### Barrier Dysfunction and Epithelial Damage
 

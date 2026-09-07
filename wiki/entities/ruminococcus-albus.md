@@ -187,7 +187,7 @@ Ruminococcus albus restoration is among the most important therapeutic targets i
 - [[colorectal-cancer]] – butyrate-mediated protection against neoplastic progression
 - [[obesity]] – associated with healthy body weight in population studies
 - [[depression]] – butyrate crosses BBB; low R. albus associated with depression risk
-- [[nutritional-immunity|nutritional immunity]] – butyrate maintains tight junctions via HDAC inhibition
+- [[nutritional-immunity|nutritional immunity]] – butyrate maintains [[tight-junctions|tight junctions]] via HDAC inhibition
 - [[iron]] – iron-sulfur clusters essential for fermentation efficiency
 - [[zinc]] – zinc metalloproteases and enzyme cofactor roles
 - – dramatically depleted in low-fiber Western diets

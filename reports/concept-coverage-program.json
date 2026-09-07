@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "48a80840f344f38e1be1dcea6b35e7a35387abd31a23ebd8bfcbc07730fad8c6",
+    "corpusSha256": "b1fcaa759b7d14a6d6847e84d15ca9e19917e3157c1ef8a0e1d25da883a79490",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
-    "decisionsSha256": "5a943fca3a84c2ab8441d7d61a2d449c3a30b05dad42f3ab456e59b2ac7906c7",
+    "decisionsSha256": "0bf910c029403fb8de009ad0ba556fea03d0ae69b1e6d37f9ca2e95b119d7e8f",
     "publicArticles": 592,
     "sourceRecords": 1939
   },
@@ -23,12 +23,12 @@
     ]
   },
   "summary": {
-    "totalJobs": 207,
+    "totalJobs": 206,
     "createPage": 4,
-    "backfillLinks": 202,
+    "backfillLinks": 201,
     "evidenceHold": 1,
     "accepted": 0,
-    "promoted": 19
+    "promoted": 20
   },
   "activeReviews": [],
   "completedJobs": [
@@ -136,6 +136,116 @@
       "key": "backfill_links:nlrp3-inflammasome#2026-09-07-core-nlrp3-contexts",
       "jobKey": "backfill_links:nlrp3-inflammasome",
       "batchId": "2026-09-07-core-nlrp3-contexts"
+    },
+    {
+      "id": "tight-junctions",
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "targets": [
+        "ahr",
+        "amyloid-beta-aggregation",
+        "amyloid-beta",
+        "autoimmunity",
+        "blood-brain-barrier",
+        "butyrate",
+        "colonization-resistance",
+        "cortisol",
+        "dysbiosis",
+        "edta",
+        "endotoxemia",
+        "epigenetic-modifications",
+        "epithelial-mesenchymal-transition",
+        "fecal-microbiota-transplant",
+        "fxr",
+        "gut-barrier-dysfunction",
+        "gut-kidney-axis",
+        "gut-metal-microbiome",
+        "gut-microbiome",
+        "gut-penis-axis",
+        "gut-thyroid-axis",
+        "heavy-metal-neurotoxicity",
+        "heavy-metals-infant-foods",
+        "hmos",
+        "indoles",
+        "infant-exposure",
+        "inflammation",
+        "intestinal-permeability",
+        "lipopolysaccharide",
+        "matrix-metalloproteases",
+        "metal-dependent-virulence",
+        "microbiome-derived-metabolites",
+        "neuroinflammation",
+        "parenteral-nutrition",
+        "polyphenols",
+        "prebiotics",
+        "probiotics",
+        "ruminococcaceae",
+        "short-chain-fatty-acids",
+        "tmao",
+        "toll-like-receptors",
+        "urease",
+        "zinc-metalloprotease",
+        "zonulin",
+        "akkermansia-muciniphila",
+        "alloprevotella",
+        "bacteroides-vulgatus",
+        "bifidobacterium-longum",
+        "breast-cancer",
+        "butyricicoccus",
+        "butyricimonas",
+        "cadmium",
+        "candida-albicans",
+        "cardiovascular-disease",
+        "celiac-disease",
+        "chromium",
+        "clostridia",
+        "clostridium-symbiosum",
+        "clostridium",
+        "collinsella",
+        "colorectal-cancer",
+        "coprococcus",
+        "crohns-disease",
+        "cryptococcus-neoformans",
+        "debaryomyces",
+        "depression",
+        "desulfovibrio",
+        "desulfovibrionales",
+        "eggerthella-lenta",
+        "eubacterium",
+        "faecalibacterium-prausnitzii",
+        "firmicutes",
+        "fusobacterium-nucleatum",
+        "fusobacterium-varium",
+        "gastric-adenocarcinoma",
+        "gastric-cancer",
+        "gastric-ulcer",
+        "gerd",
+        "hypertension",
+        "lactobacillus",
+        "lead",
+        "long-covid",
+        "necrotizing-enterocolitis",
+        "nickel",
+        "odoribacter",
+        "oscillospiraceae",
+        "parkinsons-disease",
+        "parvimonas-micra",
+        "porphyromonas-gingivalis",
+        "prevotella-copri",
+        "rheumatoid-arthritis",
+        "roseburia",
+        "ruminococcus-albus",
+        "saccharomyces-boulardii",
+        "saccharomyces-cerevisiae",
+        "saccharomyces",
+        "streptococcus-thermophilus",
+        "type-1-diabetes",
+        "type-2-diabetes"
+      ],
+      "key": "backfill_links:tight-junctions#2026-09-07-corpus-wide-tight-junction-contexts",
+      "jobKey": "backfill_links:tight-junctions",
+      "batchId": "2026-09-07-corpus-wide-tight-junction-contexts"
     },
     {
       "id": "urease",
@@ -357,469 +467,6 @@
     }
   ],
   "jobs": [
-    {
-      "key": "backfill_links:tight-junctions",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": {
-        "state": "queued",
-        "rationale": "The Helicobacter pylori urease section directly invokes this existing barrier-biology concept.",
-        "batches": [
-          {
-            "id": "2026-09-06-helicobacter-pylori",
-            "state": "promoted",
-            "reviewedAt": "2026-09-06",
-            "promotedAt": "2026-09-06",
-            "targets": [
-              "helicobacter-pylori"
-            ]
-          }
-        ]
-      },
-      "id": "tight-junctions",
-      "title": "Tight junctions",
-      "pageType": "concept",
-      "aliases": [
-        "Tight junctions",
-        "Tight Junctions",
-        "tight junctions",
-        "tight junction"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing barrier-biology page frequently mentioned without a contextual link.",
-      "existingPage": {
-        "path": "wiki/concepts/tight-junctions.md",
-        "sourceCount": 6
-      },
-      "priority": 95.5,
-      "scoreComponents": {
-        "demand": 25,
-        "evidence": 25,
-        "graphGain": 20,
-        "scopeFit": 12,
-        "outlineReadiness": 13.5,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 102,
-        "totalPlainMentions": 161,
-        "linkedArticles": 3,
-        "unlinkedArticles": 99,
-        "linkCoveragePercent": 3,
-        "leadMentions": 3,
-        "headingMentions": 1,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "fungus",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 69,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 438.948
-      },
-      "affectedPages": [
-        {
-          "id": "blood-brain-barrier",
-          "title": "Blood-Brain Barrier",
-          "path": "wiki/concepts/blood-brain-barrier.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 16
-        },
-        {
-          "id": "zonulin",
-          "title": "Zonulin",
-          "path": "wiki/concepts/zonulin.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "gut-barrier-dysfunction",
-          "title": "Gut Barrier Dysfunction",
-          "path": "wiki/concepts/gut-barrier-dysfunction.md",
-          "category": "concept",
-          "plainMentions": 9,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "intestinal-permeability",
-          "title": "Intestinal Permeability",
-          "path": "wiki/concepts/intestinal-permeability.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 33
-        },
-        {
-          "id": "dysbiosis",
-          "title": "Dysbiosis",
-          "path": "wiki/concepts/dysbiosis.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 148
-        },
-        {
-          "id": "nickel",
-          "title": "Nickel",
-          "path": "wiki/entities/nickel.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 137
-        },
-        {
-          "id": "cadmium",
-          "title": "Cadmium",
-          "path": "wiki/entities/cadmium.md",
-          "category": "metal",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 135
-        },
-        {
-          "id": "lead",
-          "title": "Lead",
-          "path": "wiki/entities/lead.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 108
-        },
-        {
-          "id": "faecalibacterium-prausnitzii",
-          "title": "Faecalibacterium prausnitzii",
-          "path": "wiki/entities/faecalibacterium-prausnitzii.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 101
-        },
-        {
-          "id": "short-chain-fatty-acids",
-          "title": "Short-Chain Fatty Acids (SCFAs)",
-          "path": "wiki/concepts/short-chain-fatty-acids.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
-        },
-        {
-          "id": "colorectal-cancer",
-          "title": "Colorectal Cancer",
-          "path": "wiki/entities/colorectal-cancer.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 81
-        },
-        {
-          "id": "butyrate",
-          "title": "Butyrate",
-          "path": "wiki/concepts/butyrate.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 79
-        },
-        {
-          "id": "gut-metal-microbiome",
-          "title": "Gut-Metal-Microbiome Interactions",
-          "path": "wiki/concepts/gut-metal-microbiome.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 75
-        },
-        {
-          "id": "urease",
-          "title": "Urease",
-          "path": "wiki/concepts/urease.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 74
-        },
-        {
-          "id": "cardiovascular-disease",
-          "title": "Cardiovascular Disease",
-          "path": "wiki/entities/cardiovascular-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 71
-        },
-        {
-          "id": "lactobacillus",
-          "title": "Lactobacillus",
-          "path": "wiki/entities/lactobacillus.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 58
-        },
-        {
-          "id": "roseburia",
-          "title": "Roseburia",
-          "path": "wiki/entities/roseburia.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 53
-        },
-        {
-          "id": "candida-albicans",
-          "title": "Candida albicans",
-          "path": "wiki/entities/candida-albicans.md",
-          "category": "fungus",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 51
-        },
-        {
-          "id": "parkinsons-disease",
-          "title": "Parkinson's Disease",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 49
-        },
-        {
-          "id": "crohns-disease",
-          "title": "Crohn's Disease",
-          "path": "wiki/entities/crohns-disease.md",
-          "category": "disease",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 43
-        },
-        {
-          "id": "depression",
-          "title": "Depression",
-          "path": "wiki/entities/depression.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 40
-        },
-        {
-          "id": "metal-dependent-virulence",
-          "title": "Metal-Dependent Virulence",
-          "path": "wiki/concepts/metal-dependent-virulence.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 39
-        },
-        {
-          "id": "type-2-diabetes",
-          "title": "Type 2 Diabetes",
-          "path": "wiki/entities/type-2-diabetes.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 38
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "geng-2026-probiotic-therapy-gut-microbiota-omega-oxidation-ovarian-cancer",
-          "title": "Geng 2026 — The Protective Effect of Probiotic Therapy on Gut Microbiota and the Activation of Omega-Oxidation After Ovarian Cancer Surgery",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/geng-2026-probiotic-therapy-gut-microbiota-omega-oxidation-ovarian-cancer.md",
-          "passage": {
-            "excerpt": "- **Study type**: Preclinical (animal model) study of probiotic intervention after ovarian cancer surgery. - **Model**: Post-surgical ovarian cancer model (specific model details to be confirmed from full text). - **Intervention groups**: Control, OC surger...",
-            "sha256": "6e9e4315fd34103ef1df489649c229018fbf5b8ee55dfed32ee4aa85c5d4289c"
-          }
-        },
-        {
-          "id": "li-2026-ibd-erectile-dysfunction-mechanistic-link",
-          "title": "Li 2026 — IBD and Male Erectile Dysfunction: Mechanistic Insights and Novel Therapeutic Perspectives",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/li-2026-ibd-erectile-dysfunction-mechanistic-link.md",
-          "passage": {
-            "excerpt": "1. **Intestinal barrier dysfunction and dysbiosis**: IBD reduces beneficial commensal bacteria and expands pro-inflammatory species. Reduced short chain fatty acids (SCFAs — butyrate, acetate, propionate) weakens epithelial barrier integrity by disrupting t...",
-            "sha256": "669df7ad3ac775ce5267aae287ac4b1582438753d540a2b156cdd207092f2319"
-          }
-        },
-        {
-          "id": "maes-2026-shotgun-metagenomics-mdd-nimetox",
-          "title": "Maes 2026 — Functional Shotgun Metagenomic Insights into Gut Microbial Pathway and Enzyme Disruptions Linking Metabolism, Affect, Cognition, and Suicidal Ideation in Major Depressive Disorder",
-          "evidenceLevel": "case-control",
-          "year": 2026,
-          "path": "wiki/sources/maes-2026-shotgun-metagenomics-mdd-nimetox.md",
-          "passage": {
-            "excerpt": "- **MDD-enriched taxa reflect a dysbiosis enterotype** linked to gut barrier disruption and NIMETOX (neuro-immune, metabolic, oxidative stress) mechanisms. The top discriminant taxa in the multivariate model were *Ruminococcus gnavus*, *Veillonella rogosae*...",
-            "sha256": "45afbe458ef04b0cfd059f065de5bff3ae04376cc55b2b30f86405789b3b734c"
-          }
-        },
-        {
-          "id": "xu-2026-gut-prostate-axis-bph-systematic-review",
-          "title": "Xu 2026 — The Gut-Prostate Axis in Benign Prostatic Hyperplasia: Systematic Review of Microbial Dysbiosis and Pathogenic Mechanisms",
-          "evidenceLevel": "systematic-review-meta-analysis",
-          "year": 2026,
-          "path": "wiki/sources/xu-2026-gut-prostate-axis-bph-systematic-review.md",
-          "passage": {
-            "excerpt": "- **IL-6** is elevated in BPH patients. Negatively correlated with hexanoate and butyrate, positively correlated with acetate. - **IL-18** exhibits moderate positive correlation with isocaproate. - Alterations in short-chain fatty acid (SCFA) profiles media...",
-            "sha256": "4bb1a50d7d33431768e3269c416219062fab1b79c32ddf645e2b4e1720c1e702"
-          }
-        },
-        {
-          "id": "alageel-2025-microbiome-composition-gerd-systematic-review",
-          "title": "Alageel 2025 — Examining the Microbiome Composition in Patients with Gastroesophageal Reflux Disease: A Systematic Review",
-          "evidenceLevel": "systematic-review-meta-analysis",
-          "year": 2025,
-          "path": "wiki/sources/alageel-2025-microbiome-composition-gerd-systematic-review.md",
-          "passage": {
-            "excerpt": "- **Consistent cross-study pattern**: Shift from *Streptococcus*-dominated (healthy) to Gram-negative anaerobe-enriched (*Prevotella*, *Veillonella*, *Leptotrichia*, *Fusobacterium*) microbiome in GERD and Barrett's esophagus across 11 studies spanning 2015...",
-            "sha256": "4af60f789e7afc13fa8292eba909b0a89a328f6cf856c556535bf1ae5ab81996"
-          }
-        },
-        {
-          "id": "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
-          "title": "Alobaidi 2025 — The Gut-Kidney Axis in CKD: Mechanisms, Microbial Metabolites, and Microbiome-Targeted Therapeutics",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics.md",
-          "passage": {
-            "excerpt": "- **The gut-kidney axis is a bidirectional pathogenic loop in CKD**: Kidney dysfunction alters the intestinal environment (urea influx, altered pH), which drives dysbiosis, which produces uremic toxins that further damage the kidneys (this study, expert opi...",
-            "sha256": "693a0ae386a24a2f64909a90671e42429444c6a2be58eb2d2e1535f53b4e63bf"
-          }
-        },
-        {
-          "id": "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
-          "title": "Heavy Metal-Gut Microbiota Interactions: Probiotics Modulation and Biosensors Detection",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors.md",
-          "passage": {
-            "excerpt": "- **Study type**: Comprehensive review integrating microbiome disruption, probiotic modulation, and biosensor detection - Metal-specific microbiota effects reviewed: As (increased pathogenic bacteria, decreased Firmicutes), Cd (barrier integrity loss via ZO...",
-            "sha256": "36889c9a3246da33560f4d281489ee818c2a27196a974e3e3c396451076330bd"
-          }
-        },
-        {
-          "id": "chao-2025-microbiota-gut-brain",
-          "title": "Chao et al. 2025 — Microbiota-Gut-Brain Axis in Perinatal Depression",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/chao-2025-microbiota-gut-brain.md",
-          "passage": {
-            "excerpt": "- **Dysbiosis patterns**: Pregnancy and postpartum involve characteristic microbiota shifts; dysbiotic states include reduced Faecalibacterium prausnitzii, reduced Akkermansia muciniphila, increased proteobacteria - **Barrier function**: Dysbiosis impairs t...",
-            "sha256": "8d5a19c21050e50f853c75941859b9f1b2c2b3f092c167e46ada918346134dae"
-          }
-        },
-        {
-          "id": "didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response",
-          "title": "Didenko et al 2025 — Intestinal Microbiota and Short-Chain Fatty Acids in Patients with Post-COVID Immune Response",
-          "evidenceLevel": "cross-sectional",
-          "year": 2025,
-          "path": "wiki/sources/didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response.md",
-          "passage": {
-            "excerpt": "3. **SCFA insufficiency consequences:** - Reduced butyrate → impaired histone deacetylase inhibition → reduced tight junction expression → intestinal barrier dysfunction - Reduced SCFA signaling through GPR43/GPR41 → impaired Treg differentiation → immune d...",
-            "sha256": "33115a2a057e230efcc643520b05b96b20521bef6661815ef14401e2e07a1b89"
-          }
-        },
-        {
-          "id": "high-fiber-diet-2025-gut-microbiome-diabetes-interventions",
-          "title": "High-Fiber Diet 2025 — Gut Microbiome Effects in Diabetes and Prediabetes",
-          "evidenceLevel": null,
-          "year": 2025,
-          "path": "wiki/sources/high-fiber-diet-2025-gut-microbiome-diabetes-interventions.md",
-          "passage": {
-            "excerpt": "- **zinc**: High-fiber diets may reduce zinc bioavailability through phytate binding -- zinc supplementation may be needed - **iron**: Fiber reduces iron absorption, which may be protective in iron-overload states but problematic in deficiency - **selenium*...",
-            "sha256": "2e808f82eb6e883df52d893ac941abe3b44a1f78b019dcca46d4c1d80cfd419d"
-          }
-        },
-        {
-          "id": "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility",
-          "title": "Kurhaluk 2025 — Oxidative Stress, Antioxidants, Gut Microbiota and Male Fertility",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility.md",
-          "passage": {
-            "excerpt": "1. **Ion mimicry** — Cd, Pb displace essential cofactors (Zn, Ca) via calcium channels, disrupting protein folding and enzyme activity critical for spermatogenesis. 2. **Cell signalling disruption** — Toxic metals alter MAPK, Nrf2, NF-kB, and PI3K pathways,...",
-            "sha256": "ed31339270de0418e8c527cc55b64b93b6fb53d69becbc1646861da6fd0f6035"
-          }
-        },
-        {
-          "id": "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
-          "title": "Sodium Butyrate Attenuates Microglia-Mediated Neuroinflammation by Modulating the TLR4/MyD88/NF-kB Pathway and Microbiome-Gut-Brain Axis in Cardiac Arrest Mice",
-          "evidenceLevel": "animal-model",
-          "year": 2025,
-          "path": "wiki/sources/sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest.md",
-          "passage": {
-            "excerpt": "- **Study type**: In vivo (C57BL/6 mouse CA/CPR model) and in vitro (BV2 microglia/HT22 neurons OGD/R) - **Design**: 4 groups (Sham+Vehicle, Sham+SB, CA/CPR+Vehicle, CA/CPR+SB); SB 300mg/kg i.p. twice daily - **Methods**: 16S rDNA sequencing; GC-MS for SCFA...",
-            "sha256": "46dfddf000bc836d64f84ea9275972a5f6c93b1eabe2c1439dbbf74e4b5bc6b5"
-          }
-        }
-      ]
-    },
     {
       "key": "backfill_links:hydrogenase",
       "lane": "backfill_links",
@@ -2257,7 +1904,7 @@
         ],
         "candidateEvidenceSources": 915,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 881.224
+        "weightedGraphGain": 885.588
       },
       "affectedPages": [
         {
@@ -4054,7 +3701,7 @@
         ],
         "candidateEvidenceSources": 373,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 485.409
+        "weightedGraphGain": 489.774
       },
       "affectedPages": [
         {
@@ -4201,6 +3848,17 @@
           "inboundLinks": 135
         },
         {
+          "id": "tight-junctions",
+          "title": "Tight Junctions",
+          "path": "wiki/concepts/tight-junctions.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 102
+        },
+        {
           "id": "endometriosis",
           "title": "Endometriosis",
           "path": "wiki/entities/endometriosis.md",
@@ -4309,17 +3967,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 48
-        },
-        {
-          "id": "manganese",
-          "title": "Manganese",
-          "path": "wiki/entities/manganese.md",
-          "category": "metal",
-          "plainMentions": 9,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 44
         }
       ],
       "candidateSources": [
@@ -4502,7 +4149,7 @@
         ],
         "candidateEvidenceSources": 235,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 462.858
+        "weightedGraphGain": 467.222
       },
       "affectedPages": [
         {
@@ -4748,6 +4395,17 @@
           "inboundLinks": 1
         },
         {
+          "id": "tight-junctions",
+          "title": "Tight Junctions",
+          "path": "wiki/concepts/tight-junctions.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 102
+        },
+        {
           "id": "akkermansia-muciniphila",
           "title": "Akkermansia muciniphila",
           "path": "wiki/entities/akkermansia-muciniphila.md",
@@ -4757,17 +4415,6 @@
           "leadMention": false,
           "headingMention": true,
           "inboundLinks": 36
-        },
-        {
-          "id": "rheumatoid-arthritis",
-          "title": "Rheumatoid Arthritis",
-          "path": "wiki/entities/rheumatoid-arthritis.md",
-          "category": "disease",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 11
         }
       ],
       "candidateSources": [
@@ -5845,7 +5492,7 @@
         ],
         "candidateEvidenceSources": 196,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 326.221
+        "weightedGraphGain": 330.586
       },
       "affectedPages": [
         {
@@ -5913,6 +5560,17 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 108
+        },
+        {
+          "id": "tight-junctions",
+          "title": "Tight Junctions",
+          "path": "wiki/concepts/tight-junctions.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 102
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -6100,17 +5758,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 27
-        },
-        {
-          "id": "developmental-metal-vulnerability",
-          "title": "Developmental Metal Vulnerability: Critical Windows of Susceptibility",
-          "path": "wiki/concepts/developmental-metal-vulnerability.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 23
         }
       ],
       "candidateSources": [
@@ -6292,7 +5939,7 @@
         ],
         "candidateEvidenceSources": 87,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 301.173
+        "weightedGraphGain": 305.537
       },
       "affectedPages": [
         {
@@ -6371,6 +6018,17 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 135
+        },
+        {
+          "id": "tight-junctions",
+          "title": "Tight Junctions",
+          "path": "wiki/concepts/tight-junctions.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 102
         },
         {
           "id": "inflammation",
@@ -6547,17 +6205,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 20
-        },
-        {
-          "id": "porphyromonas-gingivalis",
-          "title": "Porphyromonas gingivalis",
-          "path": "wiki/entities/porphyromonas-gingivalis.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 19
         }
       ],
       "candidateSources": [

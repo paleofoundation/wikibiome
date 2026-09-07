@@ -70,7 +70,7 @@ MMP-mediated degradation of cartilage collagen and proteoglycans is central to j
 
 ### Blood-Brain Barrier Disruption
 
-MMP-2 and MMP-9 degrade tight junction proteins and basement membrane components of the BBB. Implicated in neuroinflammation, stroke, and neurodegenerative disease progression. Pathogen crossing of the BBB (e.g., *N. meningitidis*, *S. pneumoniae*, *C. neoformans*) may involve MMP-mediated barrier disruption [[patil-2021-infection-metallomics-critical-care]].
+MMP-2 and MMP-9 degrade [[tight-junctions|tight junction]] proteins and basement membrane components of the BBB. Implicated in neuroinflammation, stroke, and neurodegenerative disease progression. Pathogen crossing of the BBB (e.g., *N. meningitidis*, *S. pneumoniae*, *C. neoformans*) may involve MMP-mediated barrier disruption [[patil-2021-infection-metallomics-critical-care]].
 
 ## Microbial Metalloproteases
 

@@ -94,7 +94,7 @@ A Gram-negative obligate anaerobe that exemplifies the commensal-pathobiont spec
 - *B. vulgatus* is significantly enriched in CRC tissue compared to healthy mucosa and adenoma precursors [[shi-2023-appendectomy-microbiome-crc]].
 - Proposed mechanisms:
  - Iron acquisition: CRC tissue bleeds and is high-iron; *B. vulgatus* siderophore activity selects for it over iron-limited commensals.
- - Barrier disruption: *B. vulgatus* produces metalloproteases and other virulence factors that damage epithelial tight junctions.
+ - Barrier disruption: *B. vulgatus* produces metalloproteases and other virulence factors that damage epithelial [[tight-junctions|tight junctions]].
  - Oncogenic signaling: *B. vulgatus*-derived LPS activates TLR4 → NF-kB → IL-6, IL-8 production → cancer-promoting inflammation.
  - Estrogen metabolism: Beta-glucuronidase activity extends estrogen reabsorption, and elevated systemic estrogen is a CRC risk factor (particularly in post-menopausal women).
 

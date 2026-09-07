@@ -42,7 +42,7 @@ Non-digestible food substrates that selectively stimulate the growth and/or acti
 1. Selective fermentation: Prebiotic fibers are metabolized by saccharolytic bacteria (especially Bifidobacterium), producing [[short-chain-fatty-acids]] that lower colonic pH, inhibit pathogen growth, and fuel colonocytes.
 2. Competitive exclusion: By boosting beneficial populations, prebiotics indirectly suppress pathobionts.
 3. Immune modulation: SCFA production drives Treg differentiation via HDAC inhibition and GPR109A signaling.
-4. Barrier reinforcement: Increased butyrate strengthens tight junctions; increased Akkermansia promotes mucus layer thickness.
+4. Barrier reinforcement: Increased butyrate strengthens [[tight-junctions|tight junctions]]; increased Akkermansia promotes mucus layer thickness.
 
 ## Disease Evidence
 

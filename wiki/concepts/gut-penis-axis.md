@@ -25,7 +25,7 @@ Erectile dysfunction (ED) has long been recognized as a sentinel marker for [[ca
 The gut-penis axis operates through a five-step cascade [[li-2026-ibd-male-ed-mechanistic-review]]:
 
 1. Gut dysbiosis -- Expansion of pro-inflammatory taxa and depletion of SCFA-producing commensals shifts the luminal environment toward LPS overproduction
-2. Barrier breakdown -- Reduced [[butyrate]] production deprives colonocytes of their primary fuel, weakening tight junctions and increasing [[intestinal-permeability]]
+2. Barrier breakdown -- Reduced [[butyrate]] production deprives colonocytes of their primary fuel, weakening [[tight-junctions|tight junctions]] and increasing [[intestinal-permeability]]
 3. Endotoxemia -- Bacterial lipopolysaccharide (LPS) translocates into systemic circulation
 4. eNOS suppression -- LPS activates [[tlr4]] on penile vascular endothelial cells. TNF-alpha and IL-6 produced downstream suppress endothelial nitric oxide synthase (eNOS) activity
 5. Erectile failure -- Reduced NO synthesis impairs smooth muscle relaxation in the corpus cavernosum, preventing adequate blood flow for erection

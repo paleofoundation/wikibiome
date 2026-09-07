@@ -57,7 +57,7 @@ Notable bacterial zinc-metalloproteases:
 
 BFT toxin ([[bacteroides-fragilis|B. fragilis]] fragilysin):
 - Zinc-dependent serine protease (unusual: serine = nucleophile, but zinc still required for activity)
-- Cleaves E-cadherin → disrupts epithelial tight junctions
+- Cleaves E-cadherin → disrupts epithelial [[tight-junctions|tight junctions]]
 - Enables [[bacteroides-fragilis|B. fragilis]] invasion and immune evasion
 - Expressed primarily by pathogenic (enterotoxigenic) strains of B. fragilis
 

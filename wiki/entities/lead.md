@@ -74,7 +74,7 @@ This section covers what is arguably the least appreciated dimension of lead tox
 
 ### Gut Barrier Destruction
 
-Lead directly damages the intestinal barrier by reducing colonic MUC2, ZO-1, claudin-1, and occludin -- the core tight junction proteins that maintain gut integrity [[ghosh-2023-heavy-metals-gut-barrier-integrity]], [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]. This barrier breach creates a vicious cycle: lead damages the gut, allowing more lead and other metals to enter systemic circulation, amplifying the original insult [[zhang-2021-lead-exposure-gut-microbiome-neurodegeneration]].
+Lead directly damages the intestinal barrier by reducing colonic MUC2, ZO-1, claudin-1, and occludin -- the core [[tight-junctions|tight junction]] proteins that maintain gut integrity [[ghosh-2023-heavy-metals-gut-barrier-integrity]], [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]. This barrier breach creates a vicious cycle: lead damages the gut, allowing more lead and other metals to enter systemic circulation, amplifying the original insult [[zhang-2021-lead-exposure-gut-microbiome-neurodegeneration]].
 
 ### Dysbiosis Pattern
 

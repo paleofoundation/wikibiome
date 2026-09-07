@@ -90,7 +90,7 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 2. Gut microbial metal stress -- selective pressure on microbiome
 3. Enrichment of metal-resistant pathobionts (Enterobacteriaceae, siderophore producers)
 4. Loss of SCFA-producing commensals (Prevotellaceae, Lachnospiraceae, Faecalibacterium)
-5. Impaired gut barrier -- reduced tight junction integrity
+5. Impaired gut barrier -- reduced [[tight-junctions|tight junction]] integrity
 6. LPS/bacterial product translocation -- endotoxemia
 7. Systemic and neuroinflammation -- microglia activation, cytokine cascades
 8. Alpha-synuclein misfolding in enteric and central nervous system

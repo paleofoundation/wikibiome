@@ -132,7 +132,7 @@ Fungi represent ~0.1% of gut microorganisms but play important roles in CRC:
 - Candida albicans and Saccharomyces cerevisiae show significantly increasing abundance in CRC vs healthy controls, validated by qPCR (n=402)
 - Basidiomycota/Ascomycota ratio increases with disease progression through the adenoma-carcinoma sequence
 - Bacterial-fungal antagonistic interactions (R = -0.17 to -0.32) suggest disruption of cross-kingdom balance contributes to CRC
-- Fungal beta-glucans can be protective (upregulating tight junction proteins Claudin-1 and ZO-1), while *C. albicans* can be destructive (GelE-mediated E-cadherin degradation)
+- Fungal beta-glucans can be protective (upregulating [[tight-junctions|tight junction]] proteins Claudin-1 and ZO-1), while *C. albicans* can be destructive (GelE-mediated E-cadherin degradation)
 - Dectin-1 and TLR4 signaling are essential for anti-fungal immunity in the gut; *C. albicans* can inhibit NLRP3/NLRP6 inflammasomes
 
 ## Viral Microbiome (Virome) in CRC

@@ -53,7 +53,7 @@ FXR activation orchestrates a broad metabolic program:
 - Bile acid homeostasis: FXR induces FGF15/19 in the ileum, which travels to the liver and suppresses CYP7A1 (the rate-limiting enzyme in bile acid synthesis), preventing toxic bile acid accumulation
 - Glucose metabolism: Intestinal FXR activation improves insulin sensitivity and suppresses hepatic gluconeogenesis
 - Lipid metabolism: FXR reduces hepatic triglyceride synthesis and promotes fatty acid oxidation
-- Barrier integrity: FXR maintains tight junction protein expression and reduces intestinal permeability
+- Barrier integrity: FXR maintains [[tight-junctions|tight junction]] protein expression and reduces intestinal permeability
 - Immune regulation: FXR activation in intestinal immune cells suppresses NF-kB signaling, reducing inflammatory cytokine production
 
 ## Cardiovascular Relevance

@@ -96,7 +96,7 @@ SCFAs protect against CVD through multiple mechanisms:
 - Blood pressure regulation: butyrate suppresses intrarenal renin-angiotensin system via PRR; propionate modulates renin release via Olfr78 receptor; GPR41 and Olfr78 play opposing roles creating a buffering system
 - Anti-atherosclerotic: butyrate inhibits HDAC3, induces FGF21, promotes lipid oxidation; SCFAs suppress NF-kB and [[nlrp3-inflammasome|NLRP3 inflammasome]] in macrophages; reduce VCAM-1 and MCP-1 expression
 - Post-MI protection: SCFAs promote M2 macrophage polarization; butyrate downregulates TNF-alpha and IL-1beta while upregulating IL-10
-- Gut barrier maintenance: butyrate induces tight junction proteins and mucin production, preventing LPS translocation -- a key pathway in CVD pathogenesis
+- Gut barrier maintenance: butyrate induces [[tight-junctions|tight junction]] proteins and mucin production, preventing LPS translocation -- a key pathway in CVD pathogenesis
 - Appetite and metabolism: colonic SCFAs increase fat oxidation and energy expenditure; propionate stimulates PYY and GLP-1 release
 
 Metal-induced depletion of SCFA-producing bacteria (*Roseburia*, *F. prausnitzii*, Clostridia) directly reduces these cardioprotective effects, creating a vicious cycle of barrier disruption, endotoxemia, and vascular inflammation.

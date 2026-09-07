@@ -102,7 +102,7 @@ The gut-kidney axis intersects with metallomics in ways unique to CKD:
 
 CKD erodes the intestinal barrier through multiple mechanisms:
 
-- Uremic toxins directly damage tight junction proteins
+- Uremic toxins directly damage [[tight-junctions|tight junction]] proteins
 - Ammonia from bacterial urease activity disrupts epithelial integrity
 - Reduced butyrate production removes the primary fuel for colonocytes
 - The resulting increased intestinal permeability allows bacterial translocation and endotoxemia, driving systemic inflammation (CRP, IL-6, TNF-alpha) that accelerates both kidney and cardiovascular disease

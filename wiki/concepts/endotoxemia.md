@@ -29,7 +29,7 @@ Endotoxemia is the presence of bacterial endotoxin (lipopolysaccharide, LPS) in 
 
 ## Mechanism
 
-1. Gut barrier disruption: Loss of tight junction integrity (ZO-1, occludin, claudin) allows LPS from Gram-negative bacteria to translocate across the intestinal epithelium into the portal circulation.
+1. Gut barrier disruption: Loss of [[tight-junctions|tight junction]] integrity (ZO-1, occludin, claudin) allows LPS from Gram-negative bacteria to translocate across the intestinal epithelium into the portal circulation.
 2. TLR4 activation: LPS binds [[toll-like-receptors|TLR4]] on macrophages, dendritic cells, and hepatocytes, activating [[nf-kappa-b]] signaling.
 3. Cytokine cascade: NF-kB drives production of [[interleukin-6|IL-6]], TNF-alpha, IL-1beta — the same pro-inflammatory cytokines elevated across virtually every disease signature in this wiki.
 4. Systemic consequences: Chronic low-grade endotoxemia drives insulin resistance, endothelial dysfunction, neuroinflammation, and hepatic inflammation.

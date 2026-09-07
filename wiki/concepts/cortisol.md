@@ -27,7 +27,7 @@ Cortisol is the primary glucocorticoid stress hormone, produced by the adrenal c
 
 - P. gingivalis virulence: Cortisol promotes surface translocation of [[porphyromonas-gingivalis]] in a concentration-dependent manner, upregulating T9SS-associated genes and fimbrial proteins [[kim-2022-cortisol-surface-translocation-pgingivalis]]. This is the most direct evidence of a stress hormone activating a specific pathogen's virulence program.
 - Catecholamine-responsive bacteria: Cortisol's downstream catecholamines (norepinephrine) are sensed by enteric bacteria, promoting growth and virulence factor expression in Enterobacteriaceae.
-- Immunosuppression: Cortisol suppresses secretory IgA, mucosal immune cell function, and tight junction integrity — removing immune barriers to pathogen expansion.
+- Immunosuppression: Cortisol suppresses secretory IgA, mucosal immune cell function, and [[tight-junctions|tight junction]] integrity — removing immune barriers to pathogen expansion.
 
 ## Stress-Disease Connections
 

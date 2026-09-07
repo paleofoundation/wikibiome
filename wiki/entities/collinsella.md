@@ -30,7 +30,7 @@ A genus of Gram-positive, obligate anaerobic bacteria within the Actinobacteria 
 - Deconjugated bile acids are more readily converted to secondary bile acids (DCA, LCA) by other bacteria, compounds that are pro-inflammatory and potentially genotoxic in the colon.
 
 ### Gut Barrier Disruption
-- Collinsella increases intestinal permeability by downregulating tight junction proteins in colonocytes.
+- Collinsella increases intestinal permeability by downregulating [[tight-junctions|tight junction]] proteins in colonocytes.
 - Promotes a "leaky gut" state that enables LPS translocation and systemic [[inflammation]] -- a direct pathway to atherosclerosis.
 - Produces hydrogen and CO2 gas, contributing to bloating and GI discomfort.
 

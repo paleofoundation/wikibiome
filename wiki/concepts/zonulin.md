@@ -23,7 +23,7 @@ karen_brain_primitives: [2, 5]
 
 # Zonulin
 
-A protein (pre-haptoglobin-2) that reversibly modulates tight junction permeability in the intestinal epithelium. Identified by Alessio Fasano in 2000, zonulin is the only known physiological regulator of intestinal paracellular permeability and has become the most widely used biomarker for "leaky gut" -- a state of increased intestinal permeability implicated in autoimmune, neuropsychiatric, and metabolic diseases.
+A protein (pre-haptoglobin-2) that reversibly modulates [[tight-junctions|tight junction]] permeability in the intestinal epithelium. Identified by Alessio Fasano in 2000, zonulin is the only known physiological regulator of intestinal paracellular permeability and has become the most widely used biomarker for "leaky gut" -- a state of increased intestinal permeability implicated in autoimmune, neuropsychiatric, and metabolic diseases.
 
 ## Mechanism
 

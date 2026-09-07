@@ -34,7 +34,7 @@ The CagA oncoprotein translocation depends on the energy derived from nickel met
 - H. pylori injects CagA into gastric epithelial cells via the type IV secretion system (T4SS)
 - T4SS assembly and function require ATP generated in part by hydrogenase-dependent metabolism
 - CagA is phosphorylated by host kinases, then hijacks SHP-2, Grb2, and other signaling molecules
-- CagA disrupts cell polarity, tight junctions, and proliferation control -- the "oncoprotein"
+- CagA disrupts cell polarity, [[tight-junctions|tight junctions]], and proliferation control -- the "oncoprotein"
 - Higher nickel availability → more active urease/hydrogenase → denser colonization → more CagA delivery → higher cancer risk
 
 ### Step 3: The Carcinogenic Cascade

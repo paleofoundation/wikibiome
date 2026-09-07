@@ -80,7 +80,7 @@ Epidemiologically, patients with severe periodontitis have 2–3× higher CRC ri
 | Lipoteichoic acid (LTA) | TLR2 on epithelial and immune cells | PAMPs (pathogen-associated molecular patterns); trigger innate immune response |
 | Outer surface proteins | Fibronectin, collagen, laminin | Extracellular matrix adhesion; especially in damaged epithelium |
 
-These adhesins are particularly effective at sites of epithelial disruption — adenomatous polyps, ulcerated lesions, or dysbiotic low-butyrate areas where tight junctions are compromised.
+These adhesins are particularly effective at sites of epithelial disruption — adenomatous polyps, ulcerated lesions, or dysbiotic low-butyrate areas where [[tight-junctions|tight junctions]] are compromised.
 
 ## Biofilm Formation and Polymicrobial Consortia
 

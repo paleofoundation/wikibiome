@@ -25,7 +25,7 @@ Produced primarily through anaerobic fermentation of dietary fiber in the distal
 Butyrate is the single most-studied SCFA and the primary energy substrate for colonocytes:
 - Inhibits histone deacetylases (HDACs) — acting as an epigenetic regulator of gene expression in colonocytes, immune cells, and (via the gut-brain axis) neurons
 - Activates GPR109A and GPR41 receptors on immune cells, driving Treg differentiation and anti-inflammatory cytokine production
-- Maintains tight junctions and mucus layer integrity; butyrate deficiency leads to increased intestinal permeability
+- Maintains [[tight-junctions|tight junctions]] and mucus layer integrity; butyrate deficiency leads to increased intestinal permeability
 - Stimulates the enteroendocrine system — GLP-1, PYY, GLP-2 release — influencing satiety, metabolism, and gut motility
 
 Propionate (see [[propionic-acid]]) has metabolic effects in the liver (gluconeogenesis, lipid metabolism) and signaling roles (GPR41/43 activation for PYY and GLP-1 release), but in excess — driven by Bacteroidetes enrichment and loss of butyrate-producing Firmicutes — it acts as a neurotoxin, crossing the blood-brain barrier to cause mitochondrial dysfunction and neuroinflammation.

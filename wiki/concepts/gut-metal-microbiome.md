@@ -84,7 +84,7 @@ Microbial metabolites regulate host responses to metal stress:
 
 Heavy metals directly damage the intestinal epithelial barrier through downregulation of critical junction proteins:
 
-| Metal | Tight Junction Targets | Additional Effects |
+| Metal | [[tight-junctions]] targets | Additional Effects |
 |-------|----------------------|-------------------|
 | Arsenic | Colonic epithelial structure disrupted | IL-6, IL-8, TNF-alpha induction |
 | Lead | MUC2, ZO-1, claudin-1, occludin reduced | SCFA production impaired |

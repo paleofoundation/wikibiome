@@ -18,7 +18,7 @@ The intestinal epithelium is a single-cell-thick barrier separating the lumen --
 
 ## Tight Junction Architecture
 
-Paracellular permeability is governed by the tight junction (TJ) complex:
+Paracellular permeability is governed by the [[tight-junctions|tight junction]] (TJ) complex:
 
 - Occludin -- the first TJ protein discovered; regulates macromolecular flux and is downregulated by cadmium and arsenic exposure.
 - Claudins -- a family of ~27 proteins forming the structural backbone of TJ strands. Claudin-2 is "pore-forming" (increases permeability); claudin-1, -3, -4 are "sealing." Metal exposure shifts the ratio toward pore-forming claudins.

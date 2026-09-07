@@ -70,7 +70,7 @@ Endometriosis is characterized by:
 - Enriched estrobolome members including [[eggerthella-lenta]], [[bacteroides-fragilis]], and other β-glucuronidase producers.
 - Elevated iron and hemoglobin degradation products from ectopic endometrial bleeding.
 - Elevated molybdenum (elevated alongside iron in inflammatory lesions).
-- Reduced gut barrier function (elevated zonula occludens-1 permeability; altered tight junction protein expression).
+- Reduced gut barrier function (elevated zonula occludens-1 permeability; altered [[tight-junctions|tight junction]] protein expression).
 
 ### Estrogen Feedback on Dysbiosis
 

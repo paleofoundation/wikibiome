@@ -86,7 +86,7 @@ Across 11 studies (2015–2025) [[alageel-2025-microbiome-composition-gerd-syste
 ### Healthy vs GERD Microbiome
 - Healthy esophagus: dominated by *Streptococcus* and gram-positive aerobes (Type I microbiome)
 - GERD and Barrett's esophagus: shift toward gram-negative anaerobes — Veillonella, Prevotella, Fusobacterium, Neisseria (Type II microbiome)
-- This dysbiotic shift activates TLR2/TLR4 signaling: TLR2 expression elevated 2.1-fold and claudin-1 (tight junction protein) decreased 47% in GERD patients with gram-negative dysbiosis, providing a direct molecular mechanism for barrier failure [[alageel-2025-microbiome-composition-gerd-systematic-review]]
+- This dysbiotic shift activates TLR2/TLR4 signaling: TLR2 expression elevated 2.1-fold and claudin-1 ([[tight-junctions|tight junction]] protein) decreased 47% in GERD patients with gram-negative dysbiosis, providing a direct molecular mechanism for barrier failure [[alageel-2025-microbiome-composition-gerd-systematic-review]]
 
 ### Progression Signature: GERD → Barrett's → Esophageal Adenocarcinoma
 Lopetuso et al. (2020, n=26) documented the microbiome transition across disease stages:

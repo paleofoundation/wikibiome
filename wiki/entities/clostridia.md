@@ -63,7 +63,7 @@ Spore-forming Clostridia (primarily clusters IV and XIVa) stimulate enterochroma
 Clostridia clusters IV and XIVa are the most potent microbial inducers of colonic regulatory T cells (Tregs). Their SCFA production -- particularly butyrate -- supports:
 - Colonocyte energy metabolism
 - Anti-inflammatory signaling via HDAC inhibition
-- Gut barrier integrity via tight junction protein expression
+- Gut barrier integrity via [[tight-junctions|tight junction]] protein expression
 - Cancer immune surveillance
 
 ### Spore Formation

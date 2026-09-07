@@ -48,7 +48,7 @@ Psychological and physiological stress activate the hypothalamic-pituitary-adren
 
 ### Gut Barrier Failure
 
-Loss of SCFA-producing bacteria -- particularly butyrate producers like [[faecalibacterium-prausnitzii]] and Roseburia -- starves colonocytes of their preferred energy source. Butyrate fuels 60-70% of colonocyte metabolism and is required for tight junction protein expression (claudins, occludin, ZO-1) and mucin production. Without adequate butyrate, the epithelial barrier becomes permeable ("leaky gut"), measurable by the lactulose/mannitol ratio test. Barrier failure permits translocation of bacteria, LPS, food antigens, and metals into the lamina propria and systemic circulation.
+Loss of SCFA-producing bacteria -- particularly butyrate producers like [[faecalibacterium-prausnitzii]] and Roseburia -- starves colonocytes of their preferred energy source. Butyrate fuels 60-70% of colonocyte metabolism and is required for [[tight-junctions|tight junction]] protein expression (claudins, occludin, ZO-1) and mucin production. Without adequate butyrate, the epithelial barrier becomes permeable ("leaky gut"), measurable by the lactulose/mannitol ratio test. Barrier failure permits translocation of bacteria, LPS, food antigens, and metals into the lamina propria and systemic circulation.
 
 ### Systemic Inflammation
 

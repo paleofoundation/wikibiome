@@ -44,7 +44,7 @@ platform: wikibiome
 - Pathogen exclusion: Competes with pathogenic bacteria and fungi for adhesion sites and nutrients.
 - Toxin neutralization: Produces proteases that degrade *Clostridioides difficile* toxins A and B.
 - Anti-inflammatory signaling: Modulates NF-kB, reduces pro-inflammatory cytokine production (TNF-alpha, [[interleukin-6|IL-6]], IL-8), and enhances anti-inflammatory IL-10.
-- Barrier protection: Stimulates secretory IgA production and enhances tight junction integrity.
+- Barrier protection: Stimulates secretory IgA production and enhances [[tight-junctions|tight junction]] integrity.
 - SCFA modulation: Increases butyrate-producing bacterial populations indirectly.
 
 ## Clinical Evidence by Condition

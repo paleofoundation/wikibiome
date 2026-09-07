@@ -43,7 +43,7 @@ TLR4 is covered in depth on its own page ([[tlr4]]), but its significance warran
 
 ## TLR2: Barrier Integrity and Esophageal Dysbiosis
 
-TLR2 plays a protective role in maintaining epithelial barrier integrity. In the esophagus, [[dysbiosis]] with loss of normal flora disrupts TLR2 signaling, contributing to barrier breakdown in [[gerd|gastroesophageal reflux disease]] [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]]. This is a counterpoint to the pro-inflammatory reputation of TLRs: TLR2 activation by commensal-derived lipoteichoic acid actually strengthens tight junctions.
+TLR2 plays a protective role in maintaining epithelial barrier integrity. In the esophagus, [[dysbiosis]] with loss of normal flora disrupts TLR2 signaling, contributing to barrier breakdown in [[gerd|gastroesophageal reflux disease]] [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]]. This is a counterpoint to the pro-inflammatory reputation of TLRs: TLR2 activation by commensal-derived lipoteichoic acid actually strengthens [[tight-junctions|tight junctions]].
 
 ## TLRs in the Gut-Brain Axis
 

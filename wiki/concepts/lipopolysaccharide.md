@@ -42,7 +42,7 @@ Not all LPS is equally inflammatory. [[porphyromonas]] species produce atypical 
 
 ## Metabolic Endotoxemia
 
-When the intestinal barrier is compromised — whether by metal-induced tight junction damage, SCFA depletion, or [[akkermansia-muciniphila]] loss — LPS translocates from the gut lumen into portal and systemic circulation. This low-grade chronic endotoxemia drives:
+When the intestinal barrier is compromised — whether by metal-induced [[tight-junctions|tight junction]] damage, SCFA depletion, or [[akkermansia-muciniphila]] loss — LPS translocates from the gut lumen into portal and systemic circulation. This low-grade chronic endotoxemia drives:
 
 - [[obesity]] — LPS activates TLR4 on adipose tissue macrophages, promoting insulin resistance and adipose inflammation
 - [[erectile-dysfunction]] — Circulating LPS activates TLR4 on endothelial cells, upregulating TNF-alpha and IL-6 which suppress eNOS in penile vasculature

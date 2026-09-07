@@ -28,7 +28,7 @@ A genus of Gram-positive, obligate anaerobic, flagellated bacteria within the [[
 - Butyrate from Roseburia acts through multiple anti-inflammatory pathways:
  - HDAC inhibition: butyrate inhibits histone deacetylases in colonocytes and immune cells, promoting anti-inflammatory gene expression and Treg differentiation.
  - GPR109A signaling: butyrate activates the GPR109A receptor on colonic epithelial cells and dendritic cells, inducing IL-10 production and suppressing NF-kB-mediated [[inflammation]].
- - Barrier maintenance: supports tight junction integrity (ZO-1, occludin, claudin-1) and maintains colonocyte oxygen consumption, preserving the anaerobic lumen.
+ - Barrier maintenance: supports [[tight-junctions|tight junction]] integrity (ZO-1, occludin, claudin-1) and maintains colonocyte oxygen consumption, preserving the anaerobic lumen.
 - Flagellin from *R. hominis* specifically activates TLR5 signaling in a beneficial context, promoting mucosal immune homeostasis rather than inflammation [[li-2021-gut-microbiome-brain-structure-function-schizophrenia]].
 
 ## Depletion Across Disease States

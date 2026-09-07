@@ -196,6 +196,6 @@ The CVB4 virus experiments demonstrate that steps 1–4 can be triggered by vira
 - [[bacteroides]] — Bacteroidetes enriched in T1D; Bacteroidia and Bacteroidales causally increase T1D risk (MR evidence)
 - [[lachnospiraceae]] — Multiple source-defined genera or groups (UCG008, *Eubacterium eligens group*, Dorea) with inverse MR associations
 - [[dysbiosis]] — Early-life microbiome disruption precedes autoimmune seroconversion; CVB4-driven dysbiosis is transferable via FMT
-- [[intestinal-permeability|gut-barrier]] — Compromised tight junctions enable LPS/bacterial translocation to PLN; CVB4 reduces barrier by 2-fold
+- [[intestinal-permeability|gut-barrier]] — Compromised [[tight-junctions|tight junctions]] enable LPS/bacterial translocation to PLN; CVB4 reduces barrier by 2-fold
 - [[immune-balance]] — Th1/Th2 shift, Treg dysfunction, GPR43/SCFA signaling in T1D pathogenesis
 - [[developmental-metal-vulnerability]] — Critical windows for metal-microbiome-immune programming in infancy

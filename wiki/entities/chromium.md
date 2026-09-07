@@ -106,7 +106,7 @@ In infants, serum chromium was among the metals associated with shifts in gut mi
 
 ### Gut Barrier Disruption
 
-Hexavalent chromium exposure damages the intestinal epithelial barrier through downregulation of key tight junction proteins -- ZO-1, occludin, and claudin-1 -- and the mucin MUC2 [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. This barrier disruption involves activation of the [[nlrp3-inflammasome|NLRP3 inflammasome]], linking Cr(VI) exposure to inflammatory signaling cascades in the gut [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. The probiotic strain *Lactobacillus plantarum* TW1-1 partially reversed Cr-exposure-linked effects and reduced chromium accumulation in experimental models [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
+Hexavalent chromium exposure damages the intestinal epithelial barrier through downregulation of key [[tight-junctions|tight junction]] proteins -- ZO-1, occludin, and claudin-1 -- and the mucin MUC2 [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. This barrier disruption involves activation of the [[nlrp3-inflammasome|NLRP3 inflammasome]], linking Cr(VI) exposure to inflammatory signaling cascades in the gut [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. The probiotic strain *Lactobacillus plantarum* TW1-1 partially reversed Cr-exposure-linked effects and reduced chromium accumulation in experimental models [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 
 ### Microbial Chromate Reduction
 

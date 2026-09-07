@@ -44,7 +44,7 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 ### Butyrate Bioavailability and Host Effects
 
 - Intestinal epithelial fuel: Colonocytes derive 60-80% of energy from butyrate oxidation; butyrate deficiency impairs epithelial energetics.
-- Histone deacetylase (HDAC) inhibition: Butyrate inhibits HDAC classes 1 and 2, increasing histone acetylation and gene expression related to barrier function genes, tight junction proteins (claudins, occludin, ZO-1), and anti-inflammatory markers.
+- Histone deacetylase (HDAC) inhibition: Butyrate inhibits HDAC classes 1 and 2, increasing histone acetylation and gene expression related to barrier function genes, [[tight-junctions|tight junction]] proteins (claudins, occludin, ZO-1), and anti-inflammatory markers.
 - GPR43 and GPR109A signaling: Butyrate activates these G-protein-coupled receptors on epithelial cells and immune cells (dendritic cells, T cells), promoting IL-10-producing regulatory T cells (Tregs) and suppressing pro-inflammatory Th17 differentiation.
 - Colonic pH: Butyrate fermentation lowers pH, creating selective pressure against pathogens and favoring beneficial anaerobes.
 

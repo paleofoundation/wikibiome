@@ -69,7 +69,7 @@ In metal-exposed individuals, the acute-to-chronic transition is favored because
 - This is the primary route by which gut metal exposure drives distant organ inflammation (brain, joints, thyroid, vasculature).
 
 ### Via Barrier Disruption
-- Metals damage tight junctions in gut epithelium (claudins, occludin, ZO-1), increasing paracellular permeability.
+- Metals damage [[tight-junctions|tight junctions]] in gut epithelium (claudins, occludin, ZO-1), increasing paracellular permeability.
 - The "leaky gut" permits bacterial products, food antigens, and additional metals to access the lamina propria, triggering immune responses.
 - ZIP8 (SLC39A8) A391T variant in Crohn's disease directly links metal transport dysfunction to barrier integrity and inflammation [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 

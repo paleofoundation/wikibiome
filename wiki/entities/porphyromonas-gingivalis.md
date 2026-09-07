@@ -98,7 +98,7 @@ Gingipains perform multiple virulence roles:
 
 - *P. gingivalis* is a biofilm specialist that organizes complex polymicrobial communities in the subgingival pocket.
 - Produces extracellular polysaccharides (mostly glucose polymers) that form the biofilm matrix, creating anaerobic microenvironments.
-- Exhibits synergistic virulence with [[prevotella-intermedia]], [[fusobacterium-nucleatum]], and other Gram-negative anaerobes: FadA and gingipains together degrade epithelial tight junctions more effectively than either alone.
+- Exhibits synergistic virulence with [[prevotella-intermedia]], [[fusobacterium-nucleatum]], and other Gram-negative anaerobes: FadA and gingipains together degrade epithelial [[tight-junctions|tight junctions]] more effectively than either alone.
 - Biofilm structure is resistant to both host immune attack and antimicrobial peptides/antibiotics.
 
 ## Oral Dysbiosis and Periodontitis

@@ -57,7 +57,7 @@ A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut m
 ### Hemolysins and Proteases
 
 - Fusolysin (hepta-acylated lipid A mimetic) -- outer membrane-derived; activates Toll-like receptor 4 and drives pro-inflammatory IL-6, TNF-α, and IL-8 secretion from epithelial cells and macrophages.
-- Serine proteases -- cleave tight junction proteins (claudins, occludin, zonula occludens-1); disrupt intestinal barrier integrity.
+- Serine proteases -- cleave [[tight-junctions|tight junction]] proteins (claudins, occludin, zonula occludens-1); disrupt intestinal barrier integrity.
 - Lipopolysaccharide (LPS) -- Gram-negative endotoxin; triggers TLR4 signaling and NF-κB activation.
 
 ### Invasive Phenotype

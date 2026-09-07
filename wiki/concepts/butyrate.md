@@ -37,7 +37,7 @@ Butyrate is oxidized via beta-oxidation in colonocytes, consuming oxygen and mai
 Butyrate inhibits class I and II histone deacetylases, broadly opening chromatin and altering gene expression:
 - Foxp3 upregulation: Drives naive T cell differentiation into regulatory T cells (Tregs), suppressing autoimmunity and chronic [[inflammation]].
 - NF-kB suppression: Reduces macrophage production of TNF-alpha, IL-6, and IL-12.
-- Tight junction induction: Upregulates claudins, occludin, and ZO-1 expression in epithelial cells.
+- [[tight-junctions|Tight junction]] induction: Upregulates claudins, occludin, and ZO-1 expression in epithelial cells.
 - Anti-proliferative: Inhibits cancer cell growth and induces apoptosis -- the Warburg paradox (cancer cells ferment glucose rather than oxidize butyrate, so butyrate accumulates as an HDAC inhibitor).
 
 ### GPR109A (HCAR2) Signaling

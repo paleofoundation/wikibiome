@@ -26,7 +26,7 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 
 - Primary butyrate producer via the butyryl-CoA:acetate CoA-transferase pathway, generating the most potent anti-inflammatory SCFA in the colon.
 - *C. catus* also produces significant propionate via the acrylate pathway, making it one of few organisms that produces both butyrate and propionate.
-- Contributes to colonization resistance and gut barrier maintenance through butyrate-mediated upregulation of tight junction proteins and mucin production.
+- Contributes to colonization resistance and gut barrier maintenance through butyrate-mediated upregulation of [[tight-junctions|tight junction]] proteins and mucin production.
 - Cross-feeds with acetate producers and mucin-degrading bacteria like [[akkermansia-muciniphila]] in the healthy gut fermentation network.
 
 ## The "Happiness Bug" -- Mental Health Link

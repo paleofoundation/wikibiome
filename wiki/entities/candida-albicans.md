@@ -67,7 +67,7 @@ A growing therapeutic approach [[do-carmo-2023-metal-nanoparticles-candida-revie
 
 - Urease activity promotes crossing of the blood-brain barrier.
 - Urease-negative mutants show dramatically reduced brain colonization in animal models.
-- Ammonia production from urease may damage endothelial tight junctions (paralleling [[helicobacter-pylori]] urease disruption of gastric tight junctions).
+- Ammonia production from urease may damage endothelial [[tight-junctions|tight junctions]] (paralleling [[helicobacter-pylori]] urease disruption of gastric tight junctions).
 - *C. neoformans* causes cryptococcal meningitis, a leading killer of HIV/AIDS patients, making its Ni-urease a critical virulence factor in the global HIV burden.
 
 ## Nutritional Immunity and Fungal Pathogens

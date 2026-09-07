@@ -142,7 +142,7 @@ Streptococcus thermophilus is a Gram-positive, facultative anaerobic coccus that
 ### Randomized Controlled Trials
 
 - Lactose intolerance: RCTs demonstrate 50–70% symptom reduction with yogurt-based probiotic intervention (high-lactase strains most effective) (Savaiano 2014 Am J Clin Nutr; EFSA Panel on Dietetic Products 2010)
-- Intestinal barrier function: Studies show improved intestinal permeability (lactulose:mannitol ratio) and increased tight junction protein expression (claudins, occludin) ([[dargahi-2020-streptococcus-thermophilus-ms]])
+- Intestinal barrier function: Studies show improved intestinal permeability (lactulose:mannitol ratio) and increased [[tight-junctions|tight junction]] protein expression (claudins, occludin) ([[dargahi-2020-streptococcus-thermophilus-ms]])
 - Antibiotic-associated diarrhea (AAD): Meta-analyses show modest risk reduction (~10–15% absolute risk reduction) when given during antibiotic course (Hempel et al. 2012 JAMA)
 - IBS and functional GI: Some strains show benefit in symptom reduction, though effect sizes are modest ([[shen-2014-probiotics-remission-uc-cd-pouchitis-meta-analysis]])
 - Systemic immune function: Modest increases in IgA and reductions in fecal calprotectin (marker of intestinal inflammation) ([[tao-2020-probiotics-effects-t2d-meta-analysis]])

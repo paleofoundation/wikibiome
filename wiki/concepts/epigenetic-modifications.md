@@ -33,7 +33,7 @@ Epigenetic modifications — heritable changes in gene expression without alteri
 - Foxp3 promoter: Butyrate-driven acetylation promotes [[th17-treg-balance|Treg]] differentiation → immune tolerance [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]].
 - [[bdnf|BDNF]] gene: Butyrate crosses the blood-brain barrier and upregulates BDNF in the hippocampus via HDAC inhibition → neuroprotection, neuroplasticity.
 - Tumor suppressor genes: Butyrate reactivates silenced tumor suppressors (p21, BAX) in colonocytes → anti-proliferative → CRC protection [[feitelson-2023-scfas-cancer-pathogenesis]].
-- Tight junction genes: Butyrate upregulates [[tight-junctions|claudin-1, occludin, ZO-1]] expression → barrier integrity.
+- [[tight-junctions|Tight junction]] genes: Butyrate upregulates claudin-1, occludin, and ZO-1 expression → barrier integrity.
 
 Dysbiosis-driven butyrate depletion → reduced HDAC inhibition → epigenetic silencing of protective genes → disease. This is why the loss of butyrate producers has effects far beyond SCFA energy supply — it removes an entire layer of epigenetic regulation.
 

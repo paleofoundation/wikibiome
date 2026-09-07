@@ -32,7 +32,7 @@ The metal connection: heavy metal-driven dysbiosis selects for pathobionts whose
 
 The gut barrier is the immune system's primary interface with the microbial world. When it fails, microbial antigens flood the lamina propria, overwhelming tolerance mechanisms:
 
-- Metal-driven barrier damage: [[cadmium]], [[lead]], and [[mercury]] directly damage tight junction proteins (claudin, occludin, ZO-1), increasing intestinal permeability [[mercury]].
+- Metal-driven barrier damage: [[cadmium]], [[lead]], and [[mercury]] directly damage [[tight-junctions|tight junction]] proteins (claudin, occludin, ZO-1), increasing intestinal permeability [[mercury]].
 - SCFA depletion: Metal-driven loss of butyrate-producing commensals reduces [[butyrate]] availability, the primary fuel for colonocyte tight junction maintenance.
 - LPS translocation: Increased permeability allows lipopolysaccharide to enter systemic circulation, driving chronic low-grade inflammation (endotoxemia).
 

@@ -99,7 +99,7 @@ The most clinically meaningful signal is not the F/B ratio itself but the deplet
 ### Butyrate Production and Barrier Maintenance
 Firmicutes SCFA producers are the primary source of butyrate in the colon. Butyrate:
 - Fuels colonocyte energy metabolism (preferred substrate over glucose)
-- Maintains epithelial tight junctions and barrier integrity
+- Maintains epithelial [[tight-junctions|tight junctions]] and barrier integrity
 - Induces regulatory T cells (Treg) via HDAC inhibition
 - Creates the oxygen gradient that maintains anaerobic conditions favoring commensals
 

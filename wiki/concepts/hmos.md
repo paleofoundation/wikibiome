@@ -65,7 +65,7 @@ HMOs have direct biological activities beyond feeding bacteria:
 
 - Pathogen decoys: HMO structures mimic epithelial cell surface glycans, acting as soluble decoys that prevent pathogen adhesion.
 - Immune modulation: Certain HMOs directly modulate dendritic cell and T cell function.
-- Barrier maturation: HMOs promote intestinal epithelial cell maturation and tight junction development.
+- Barrier maturation: HMOs promote intestinal epithelial cell maturation and [[tight-junctions|tight junction]] development.
 - Anti-inflammatory: Specific HMOs suppress NF-kB signaling in intestinal epithelium.
 
 ## Metal Biology Connections

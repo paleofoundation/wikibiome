@@ -81,7 +81,7 @@ The gut microbiome is the primary educator of the mucosal and systemic immune sy
 
 ### 4. Barrier Maintenance
 
-The gut barrier — a single layer of columnar epithelial cells joined by tight junctions, overlaid by a mucus layer maintained by goblet cells — is the physical interface between the microbial world and systemic circulation:
+The gut barrier — a single layer of columnar epithelial cells joined by [[tight-junctions|tight junctions]], overlaid by a mucus layer maintained by goblet cells — is the physical interface between the microbial world and systemic circulation:
 - Butyrate-fueled colonocytes maintain tight junction protein expression (claudin-1, occludin, ZO-1); butyrate deficiency reduces these proteins and increases paracellular permeability
 - [[akkermansia-muciniphila]] stimulates mucus production and turns over the mucus layer; its depletion in dysbiosis leaves the epithelium directly exposed to luminal bacteria
 - Heavy metals (Cd, Hg, Pb) directly disrupt tight junction proteins: cadmium downregulates ZO-1, ZO-2, occludin, and claudin-1; mercury suppresses claudin-1, occludin, ZO-1, and JAM-1 [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]

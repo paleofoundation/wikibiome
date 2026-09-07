@@ -35,7 +35,7 @@ SCFAs regulate blood pressure through opposing receptor systems:
 ### TMAO and Vascular Remodeling
 - Prolonged [[tmao]] elevation activates pro-inflammatory vascular remodeling pathways, contributing to arterial stiffness and increased peripheral resistance [[zhen-2023-tmao-cardiovascular-diseases-review]].
 - TMAO-associated Firmicutes/Bacteroidetes ratio elevation is characteristic of hypertensive microbiomes.
-- TMAO promotes endothelial dysfunction via HMGB1/TLR4 signaling and tight junction destruction.
+- TMAO promotes endothelial dysfunction via HMGB1/TLR4 signaling and [[tight-junctions|tight junction]] destruction.
 
 ### Bile Acid-FXR Axis
 - FXR agonist CDCA reduces blood pressure in spontaneously hypertensive rat models through iNOS expression [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].

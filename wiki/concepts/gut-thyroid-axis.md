@@ -55,7 +55,7 @@ The axis is bidirectional. Thyroid hormones directly affect gut function:
 
 - Gut motility: Hypothyroidism slows motility (constipation), promoting small intestinal bacterial overgrowth (SIBO). Hyperthyroidism accelerates motility (diarrhea).
 - Gastric acid secretion: Hypothyroidism reduces gastric acid, permitting oral bacteria to colonize the gut (similar to PPI effects)
-- Intestinal barrier: Thyroid hormones regulate tight junction protein expression
+- Intestinal barrier: Thyroid hormones regulate [[tight-junctions|tight junction]] protein expression
 - Microbiome composition: Thyroid hormone levels directly correlate with microbial diversity and community structure
 
 ## Autoimmune Thyroid Disease

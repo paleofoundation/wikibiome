@@ -138,7 +138,7 @@ Zinc is critical for NEC prevention through its role in Paneth cell function Sam
 Maternal dietary intake of indole-3-carbinol (I3C) -- found in cruciferous vegetables -- activates the aryl hydrocarbon receptor (AHR) in neonatal intestinal epithelium via breast milk Lu et al. 2021. AHR activation promotes:
 
 - Intestinal epithelial barrier maturation
-- [[interleukin-22|IL-22]] production (strengthens tight junctions)
+- [[interleukin-22|IL-22]] production (strengthens [[tight-junctions|tight junctions]])
 - Regulatory T-cell development
 - Reduced TLR4 expression
 

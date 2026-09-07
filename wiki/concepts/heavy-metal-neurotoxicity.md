@@ -64,7 +64,7 @@ Heavy metals do not only damage the brain directly. By reshaping the gut microbi
 
 2. Barrier disruption: Metals damage both the gut barrier (increasing LPS translocation) and the [[blood-brain-barrier]] (permitting neuroinflammatory molecule entry).
 
-3. SCFA depletion: Metal-driven depletion of butyrate-producing commensals (Faecalibacterium, Roseburia, Lachnospiraceae) reduces [[butyrate]] availability, impairing BBB tight junction maintenance.
+3. SCFA depletion: Metal-driven depletion of butyrate-producing commensals (Faecalibacterium, Roseburia, Lachnospiraceae) reduces [[butyrate]] availability, impairing BBB [[tight-junctions|tight junction]] maintenance.
 
 4. Serotonin disruption: Dysbiotic communities divert tryptophan toward [[kynurenine]] and away from [[serotonin]], simultaneously generating neurotoxic quinolinic acid and depleting a neuroprotective neurotransmitter.
 

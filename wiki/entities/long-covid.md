@@ -59,7 +59,7 @@ Mendelian randomization analyses provide causal support: specific gut taxa (Lach
 - [[glutathione]] depleted: Reduced antioxidant metabolites [[saito-2024-metabolomic-immune-alterations-long-covid-cfs]].
 
 ## Gut-Brain Axis
-LPS translocation crosses the BBB; reduced butyrate impairs BBB tight junctions; altered tryptophan metabolism (reduced kynurenine/AhR signaling) drives neuroinflammation and microglial activation, explaining "brain fog" and cognitive symptoms [[plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive]], [[brown-2024-covid-19-neuroinflammation-pathophysiology]].
+LPS translocation crosses the BBB; reduced butyrate impairs BBB [[tight-junctions|tight junctions]]; altered tryptophan metabolism (reduced kynurenine/AhR signaling) drives neuroinflammation and microglial activation, explaining "brain fog" and cognitive symptoms [[plummer-2023-gut-brain-pathogenesis-post-acute-covid-neurocognitive]], [[brown-2024-covid-19-neuroinflammation-pathophysiology]].
 
 ## Gut-Lung Axis
 SCFA depletion impairs respiratory mucosal immunity; reduced sIgA production; impaired Treg migration to respiratory tract [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]].

@@ -76,7 +76,7 @@ In the healthy gut, *B. longum* provides:
 
 - Colonization resistance — Competitive exclusion of pathogens through acetate production and pH reduction
 - Immune programming (subsp. *infantis*) — Shapes neonatal immune development through HMO-derived metabolites and direct interaction with intestinal dendritic cells
-- Barrier maintenance — Supports tight junction integrity through SCFA production and direct epithelial cell signaling
+- Barrier maintenance — Supports [[tight-junctions|tight junction]] integrity through SCFA production and direct epithelial cell signaling
 - Cross-feeding — Acetate produced by *B. longum* is consumed by butyrate-producing [[faecalibacterium-prausnitzii]] and [[roseburia]], linking Bifidobacterium metabolism to the butyrate economy
 
 ## Conditions Associated
