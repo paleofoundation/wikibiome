@@ -19,8 +19,8 @@
     "sourceUse": "Controlled scientific records supplied current identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
-  "initialAuditCommit": "6f68cdc6afc0f60f26b3b26a0be0fb08d642901f",
-  "promptFreezeCommit": "pending-current-commit",
+  "initialAuditCommit": "6f68cdc59c6f860477ba040fd7379de6bada0760",
+  "promptFreezeCommit": "d502d58c061b22525cf4bc62a3cf2fab72d392d0",
   "reviewStandard": "Only exact E. coli Nissle 1917 is cleared for one immutable strain-anchored morphology call. The other five routes fail material, protocol, product, formulation, source, population, measurement, or causal-interpretation gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,

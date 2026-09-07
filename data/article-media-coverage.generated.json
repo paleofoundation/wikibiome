@@ -130,7 +130,7 @@
         "file": "data/article-media-batches/interventions-104.json",
         "batchId": "interventions-104",
         "status": "prompt-frozen",
-        "sha256": "e1c6f8aafd2f7a999824a9633cebdaac28a77ce5d2e3517585bb208bc087f61f"
+        "sha256": "9d3c029a4b990dcfea116279da3a80855e00c3d00da9f878278b5287b9239326"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
