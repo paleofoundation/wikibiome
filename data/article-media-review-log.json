@@ -15893,6 +15893,84 @@
       ],
       "requiredResolution": "Define exact chemical species or product, stereochemical rendering source, compartment, specimen, assay, population, exposure or intervention, comparator, endpoint, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "tgf-beta",
+      "controlledIdentifier": "ambiguous-TGF-beta-family;candidate-TGFB1-NCBI-Gene:7040;UniProt:P01137",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route does not specify TGF-beta family member, processed state, ligand/receptor complex, species, tissue, or assay.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/gene/7040",
+        "https://www.uniprot.org/uniprotkb/P01137/entry",
+        "local:data/content.generated.json#/pages/tgf-beta"
+      ],
+      "requiredResolution": "Specify exact family member, precursor/mature and latent/active state, species, oligomeric or receptor-bound state, compartment, structure source, assay, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "th17-treg-balance",
+      "controlledIdentifier": "context-dependent-Th17-Treg-population-relationship;PMID:38558800",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Heterogeneous immune-cell populations, markers, tissues, time points, diseases, and cytokine contexts are collapsed into a universal balance and causal switch.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38558800/",
+        "local:data/content.generated.json#/pages/th17-treg-balance"
+      ],
+      "requiredResolution": "Define population, specimen, markers/gating, assay, time point, disease/model, cytokine context, comparator, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "exposome",
+      "controlledIdentifier": "MeSH:D000081413;lifetime-all-source-exposure-measure",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exposome is an all-source lifetime exposure construct rather than one bounded specimen, anatomy, mixture, or measurable state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000081413",
+        "local:data/content.generated.json#/pages/exposome"
+      ],
+      "requiredResolution": "Define exposome domain, population, life stage, geography, exposure panel, matrix, measurement method, time window, endpoint, and uncertainty model.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "thyroid-autoimmunity",
+      "controlledIdentifier": "umbrella-AITD;related-MeSH:D013967;distinct-Graves-and-Hashimoto-routes",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route merges distinct autoimmune thyroid diseases and already-reviewed disease pages with minerals, toxicants, microbiome observations, antibodies, and causal claims.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013967",
+        "https://pubmed.ncbi.nlm.nih.gov/31434818/",
+        "local:data/content.generated.json#/pages/thyroid-autoimmunity"
+      ],
+      "requiredResolution": "Choose canonical umbrella or disease-specific scope and define exact condition, tissue/pathology state, antibody or analyte, specimen, assay, population, comparator, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "tlr4",
+      "controlledIdentifier": "NCBI-Gene:7099;multiple-human-isoforms;state-specific-PDB:3FXI",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route does not specify human TLR4 isoform, domain, membrane state, MD-2/CD14/LPS complex, ligand, activation state, or structure source.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/gene/7099",
+        "https://www.rcsb.org/structure/3FXI",
+        "local:data/content.generated.json#/pages/tlr4"
+      ],
+      "requiredResolution": "Specify species, exact transcript/protein isoform, domain/full-length state, membrane context, partner and ligand composition, activation state, structure accession, and depicted claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
