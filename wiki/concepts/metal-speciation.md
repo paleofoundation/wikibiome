@@ -35,7 +35,7 @@ Many biologically relevant metals exist in multiple oxidation states with dramat
 
 ## Gut Speciation Environment
 
-The gut lumen presents a complex speciation landscape. pH gradients from stomach to colon shift metal solubility (see [[pH-sensing]]). Dietary ligands — phytate, polyphenols, amino acids — chelate metals with varying affinity. Microbial metabolites, particularly organic acids and hydrogen sulfide, further alter speciation. Siderophores produced by gut bacteria convert insoluble Fe3+ to bioavailable chelated forms, giving siderophore producers a competitive edge.
+The gut lumen presents a complex speciation landscape. pH gradients from stomach to colon shift metal solubility (see [[pH-sensing]]). Dietary ligands — phytate, polyphenols, amino acids — chelate metals with varying affinity. [[microbiome-derived-metabolites|Microbial metabolites]], particularly organic acids and hydrogen sulfide, further alter speciation. Siderophores produced by gut bacteria convert insoluble Fe3+ to bioavailable chelated forms, giving siderophore producers a competitive edge.
 
 ## Implications for Metal Toxicity
 

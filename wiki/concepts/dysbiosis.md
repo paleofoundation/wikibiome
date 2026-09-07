@@ -137,7 +137,7 @@ Historically used as a simple dysbiosis metric -- decreased F/B ratio in IBD and
 - Fecal SCFA levels: butyrate, propionate, acetate measured by GC-MS.
 - Fecal calprotectin: neutrophil-derived marker of intestinal inflammation; also an active participant in [[nutritional-immunity]].
 - Fecal LPS/endotoxin: direct measurement of barrier failure.
-- Urinary indoxyl sulfate and p-cresol sulfate: microbial metabolites elevated in dysbiosis.
+- Urinary indoxyl sulfate and p-cresol sulfate: [[microbiome-derived-metabolites|microbial metabolites]] elevated in dysbiosis.
 
 ## Dysbiosis Across Disease Domains
 

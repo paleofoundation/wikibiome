@@ -87,7 +87,7 @@ Elevated phenylalanine/tyrosine ratio is part of the amino acid dysregulation pa
 
 ## Cross-References
 
-- [[microbiome-derived-metabolites]] -- PAGln as novel cardiovascular risk metabolite
+- Microbiome-derived metabolites -- PAGln as novel cardiovascular risk metabolite
 - [[fermentative-metabolism]] -- phenylalanine as proteolytic fermentation substrate
 - [[dopamine]] -- phenylalanine as upstream precursor
 - [[parkinsons-disease]] -- levodopa bioavailability affected by bacterial metabolism

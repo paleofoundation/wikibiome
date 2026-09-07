@@ -154,6 +154,15 @@
       "scopeFit": 5,
       "ambiguityPenalty": 2,
       "reason": "Existing parent concept for proteins that deliver metal cofactors to enzymes."
+    },
+    {
+      "id": "microbiome-derived-metabolites",
+      "title": "Microbiome-Derived Metabolites",
+      "aliases": ["microbial metabolites", "microbiota-derived metabolites", "gut-derived metabolites", "gut microbial metabolites"],
+      "type": "concept",
+      "scopeFit": 5,
+      "ambiguityPenalty": 1,
+      "reason": "Canonical functional-output concept; intentionally excludes the unqualified word metabolites because it also describes host, drug, environmental, and metal chemistry."
     }
   ]
 }

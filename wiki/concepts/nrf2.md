@@ -30,7 +30,7 @@ Nrf2 is a master transcription factor that regulates the expression of antioxida
 ## Relevance to WikiBiome
 
 - Metal-Nrf2 interactions: [[heavy-metals]] (cadmium, arsenic, lead) can activate or inhibit Nrf2, depending on dose and chronicity. Acute exposure activates Nrf2 as a defense response; chronic exposure can deplete the Nrf2 pathway.
-- Microbiome-Nrf2 crosstalk: Gut microbial metabolites (e.g., [[butyrate]], sulforaphane from dietary sources) can activate Nrf2, while [[dysbiosis]]-associated metabolites may impair it.
+- Microbiome-Nrf2 crosstalk: [[microbiome-derived-metabolites|Gut microbial metabolites]] (e.g., [[butyrate]], sulforaphane from dietary sources) can activate Nrf2, while [[dysbiosis]]-associated metabolites may impair it.
 - Disease relevance: Nrf2 dysregulation is implicated in multiple sclerosis ([[bucciero-2026-diet-ms-oxidative-stress-nrf2]]), neurodegeneration, and inflammatory bowel disease.
 
 ## Cross-References

@@ -33,7 +33,7 @@ A Gram-negative, microaerophilic genus within the Proteobacteria phylum (family 
 
 ### Autism Spectrum Disorder
 - Consistently enriched in ASD across multiple studies, making it one of the more reproducible ASD-associated taxa [[bezawada-2020-asd-gut-microbiota-children-systematic-review]].
-- IgA degradation may contribute to the increased gut permeability ("leaky gut") reported in ASD children, potentially allowing microbial metabolites and bacterial products to cross the gut barrier and affect the CNS via the [[gut-brain-axis]].
+- IgA degradation may contribute to the increased gut permeability ("leaky gut") reported in ASD children, potentially allowing [[microbiome-derived-metabolites|microbial metabolites]] and bacterial products to cross the gut barrier and affect the CNS via the [[gut-brain-axis]].
 
 ### Multiple Sclerosis
 - Increased in MS patients on immunomodulatory therapy (treatment effect rather than disease effect), suggesting that immune suppression may create a niche for *Sutterella* expansion [[jangi-2016-gut-microbiome-alterations-ms]].

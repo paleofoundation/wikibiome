@@ -21,7 +21,7 @@ karen_brain_primitives: [4, 5]
 
 ## Overview
 
-Indole is a microbial metabolite produced from tryptophan by bacterial tryptophanase (TnaA). It is one of the most abundant microbial signals in the gut (concentrations reach 250–1,100 µM in the colon) and the primary endogenous ligand for the aryl hydrocarbon receptor (AhR) — a transcription factor that regulates barrier integrity, immune tolerance, and xenobiotic metabolism. With 120 source mentions, indole derivatives are among the most discussed microbial metabolites in this wiki.
+Indole is a microbial metabolite produced from tryptophan by bacterial tryptophanase (TnaA). It is one of the most abundant microbial signals in the gut (concentrations reach 250–1,100 µM in the colon) and the primary endogenous ligand for the aryl hydrocarbon receptor (AhR) — a transcription factor that regulates barrier integrity, immune tolerance, and xenobiotic metabolism. With 120 source mentions, indole derivatives are among the most discussed [[microbiome-derived-metabolites|microbial metabolites]] in this wiki.
 
 ## Key Indole Derivatives
 
@@ -53,4 +53,4 @@ Across these metabolites, [[interleukin-22|IL-22]] is represented as an AhR-resp
 - [[kynurenine-pathway]] — competing tryptophan catabolism route
 - [[faecalibacterium-prausnitzii]] — F. hominis indole production
 - [[chlamydia-trachomatis]] — indole rescues tryptophan starvation
-- [[metabolites]] — broader microbial metabolite context
+- microbiome-derived metabolites — broader microbial metabolite context

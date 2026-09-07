@@ -75,7 +75,7 @@ FM patients show elevated serum butyrate despite depletion of canonical butyrate
 Central sensitization in FM is not merely a CNS phenomenon -- it is driven in part by peripheral signals from the gut:
 
 - Tryptophan-serotonin pathway dysfunction: Dysbiotic communities shunt tryptophan toward kynurenine (via IDO upregulation from pro-inflammatory cytokines), reducing serotonin availability and generating neurotoxic quinolinic acid
-- Glutathione depletion: GPX3 decreased 0.85x in FM patients Duran-Gonzalez et al. 2025, reducing capacity to neutralize oxidative stress from copper excess and microbial metabolites
+- Glutathione depletion: GPX3 decreased 0.85x in FM patients Duran-Gonzalez et al. 2025, reducing capacity to neutralize oxidative stress from copper excess and [[microbiome-derived-metabolites|microbial metabolites]]
 - LPS translocation: Barrier dysfunction permits endotoxin entry, activating TLR4 on microglia and amplifying neuroinflammation
 - SCFA signaling disruption: Reduced butyrate at the colonocyte impairs vagal afferent signaling, disrupting the anti-inflammatory cholinergic pathway
 

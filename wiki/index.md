@@ -340,7 +340,7 @@ updated: 2026-04-19
 - [[matrix-metalloproteases]]
 - [[mediterranean-diet]]
 - [[metabolic-syndrome]]
-- [[metabolites]]
+- [[microbiome-derived-metabolites]]
 - [[microbial-metallomics]]
 - [[molecular-mimicry]]
 - [[metal-carcinogenesis]]

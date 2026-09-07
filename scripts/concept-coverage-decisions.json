@@ -1110,6 +1110,53 @@
         }
       ]
     },
+    "backfill_links:microbiome-derived-metabolites": {
+      "state": "queued",
+      "rationale": "The overlapping Microbial Metabolites page was consolidated into the more specific Microbiome-Derived Metabolites canonical identity. The twelve-source page distinguishes direct microbial products, microbially transformed compounds, and host-microbial co-metabolites; it also separates production from absorption and clearance. Backlinks are limited to reviewed phrases that explicitly identify microbial or gut-derived metabolites. The unqualified word metabolites is intentionally excluded because it also denotes host, drug, environmental, and metal chemistry.",
+      "batches": [
+        {
+          "id": "2026-09-07-corpus-wide-microbiome-derived-metabolite-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "autophagy",
+            "blood-brain-barrier",
+            "cardiovascular-disease",
+            "chronic-fatigue-syndrome",
+            "colorectal-cancer",
+            "coronary-artery-disease",
+            "dietary-lead-exposure",
+            "dopamine",
+            "dysbiosis",
+            "dysmenorrhea",
+            "endocrine-disruption",
+            "epigenetic-modifications",
+            "epigenetics",
+            "fibromyalgia",
+            "gut-brain-axis",
+            "gut-metal-microbiome",
+            "gut-microbiome",
+            "gut-prostate-axis",
+            "gut-testis-axis",
+            "hypertension",
+            "indole",
+            "major-depressive-disorder",
+            "metal-speciation",
+            "microbial-biomarkers",
+            "mitochondrial-dysfunction",
+            "nlrp3-inflammasome",
+            "nrf2",
+            "p-cresol",
+            "polyamines",
+            "postbiotic",
+            "selenomonas",
+            "sutterella",
+            "tryptophan"
+          ]
+        }
+      ]
+    },
     "backfill_links:nickel-transporters": {
       "state": "queued",
       "rationale": "NiuBDE and NixA are better handled by the existing parent page than by creating fragmented protein stubs.",

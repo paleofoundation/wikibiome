@@ -25,7 +25,7 @@ platform: wikibiome
 
 # Major Depressive Disorder
 
-Major depressive disorder (MDD) is a psychiatric condition characterized by persistent depressed mood, anhedonia, and cognitive/somatic symptoms. In the WikiBiome framework, MDD is a paradigm case for the [[gut-brain-axis]]: gut [[dysbiosis]] drives [[systemic-inflammation]] and [[neuroinflammation]] through [[endotoxemia]], tryptophan-kynurenine shunting, and loss of neuroactive microbial metabolites ([[serotonin]], [[gaba]]).
+Major depressive disorder (MDD) is a psychiatric condition characterized by persistent depressed mood, anhedonia, and cognitive/somatic symptoms. In the WikiBiome framework, MDD is a paradigm case for the [[gut-brain-axis]]: gut [[dysbiosis]] drives [[systemic-inflammation]] and [[neuroinflammation]] through [[endotoxemia]], tryptophan-kynurenine shunting, and loss of neuroactive [[microbiome-derived-metabolites|microbial metabolites]] ([[serotonin]], [[gaba]]).
 
 ## Microbiome Signature
 

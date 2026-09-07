@@ -78,7 +78,7 @@ Endocrine disruption rarely involves a single chemical. The [[exposome]] framewo
 
 - Heavy metals (dietary, occupational, environmental)
 - Organic EDCs (plastics, pesticides, personal care products)
-- Microbial metabolites that mimic or modulate hormones
+- [[microbiome-derived-metabolites|Microbial metabolites]] that mimic or modulate hormones
 
 These exposures interact synergistically. Cadmium + BPA may have greater estrogenic effect than either alone. Metal-induced [[oxidative-stress]] may sensitize estrogen receptors to organic EDCs. And the microbiome integrates all these exposures, creating a personalized endocrine-disrupting milieu.
 

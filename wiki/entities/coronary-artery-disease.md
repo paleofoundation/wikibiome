@@ -30,7 +30,7 @@ wikipedia_differentiation: "Gut microbial metabolite-driven plaque progression w
 
 ## Overview
 
-Coronary artery disease (CAD) -- the progressive narrowing of coronary arteries by atherosclerotic plaque -- is the single leading cause of death globally, responsible for approximately 9 million deaths annually. CAD encompasses stable angina, unstable angina, and myocardial infarction (heart attack). While conventional risk factors (hypertension, dyslipidemia, smoking, diabetes) are well established, the [[gut-microbiome]] adds an underappreciated dimension: microbial metabolites directly promote plaque formation, bacteria translocate into arterial plaques, and the metal environment modulates both microbial and vascular pathology.
+Coronary artery disease (CAD) -- the progressive narrowing of coronary arteries by atherosclerotic plaque -- is the single leading cause of death globally, responsible for approximately 9 million deaths annually. CAD encompasses stable angina, unstable angina, and myocardial infarction (heart attack). While conventional risk factors (hypertension, dyslipidemia, smoking, diabetes) are well established, the [[gut-microbiome]] adds an underappreciated dimension: [[microbiome-derived-metabolites|microbial metabolites]] directly promote plaque formation, bacteria translocate into arterial plaques, and the metal environment modulates both microbial and vascular pathology.
 
 CAD is closely related to the broader [[cardiovascular-disease]] and [[atherosclerosis]] pages in this wiki, but is distinguished by its focus on coronary-specific pathology and the increasingly detailed metabolomic-microbiome data linking gut bacteria to plaque severity.
 

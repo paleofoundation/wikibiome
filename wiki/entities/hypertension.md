@@ -20,7 +20,7 @@ wikipedia_differentiation: "SCFA-mediated blood pressure regulation via opposing
 
 # Hypertension
 
-Sustained elevation of systemic blood pressure, affecting an estimated 1.3 billion adults worldwide and the leading modifiable risk factor for [[cardiovascular-disease]], stroke, and [[chronic-kidney-disease]]. The [[gut-microbiome]]-blood pressure axis has emerged as a major research area, with [[short-chain-fatty-acids]], [[tmao]], the mycobiome, and microbial metabolites all contributing to BP regulation. [[heavy-metals]] -- particularly [[lead]] and [[cadmium]] -- are established environmental risk factors operating through both direct vascular toxicity and microbiome-mediated pathways.
+Sustained elevation of systemic blood pressure, affecting an estimated 1.3 billion adults worldwide and the leading modifiable risk factor for [[cardiovascular-disease]], stroke, and [[chronic-kidney-disease]]. The [[gut-microbiome]]-blood pressure axis has emerged as a major research area, with [[short-chain-fatty-acids]], [[tmao]], the mycobiome, and [[microbiome-derived-metabolites|microbial metabolites]] all contributing to BP regulation. [[heavy-metals]] -- particularly [[lead]] and [[cadmium]] -- are established environmental risk factors operating through both direct vascular toxicity and microbiome-mediated pathways.
 
 ## Gut Microbiome-Blood Pressure Axis
 

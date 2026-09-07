@@ -75,7 +75,7 @@ ME/CFS is characterized by impaired cellular energy production:
 - Reduced ATP generation under metabolic stress
 - Impaired oxidative phosphorylation
 - This may connect to metal homeostasis: iron-sulfur clusters are essential components of the electron transport chain, and metal dyshomeostasis could impair mitochondrial function
-- Gut-derived metabolites (indoxyl sulfate, p-cresol) from the dysbiotic microbiome directly inhibit mitochondrial complex activity
+- [[microbiome-derived-metabolites|Gut-derived metabolites]] (indoxyl sulfate, p-cresol) from the dysbiotic microbiome directly inhibit mitochondrial complex activity
 
 ## Post-Infectious Trigger and Long-COVID Overlap
 

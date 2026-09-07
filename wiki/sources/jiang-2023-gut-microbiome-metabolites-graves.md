@@ -65,7 +65,7 @@ Random Forest analysis identified Bacteroides, Alistipes, and Prevotella as the 
 - Informs [[short-chain-fatty-acids]] concept page on SCFA-immune axis in autoimmune disease
 - Connects [[bacteroides-fragilis]] entity page to propionic acid production and Treg/Th17 balance
 - Relevant to [[faecalibacterium-prausnitzii]] as a key butyrate producer depleted in GD
-- Polyamine metabolism data informs potential [[metabolites]] concept page
+- Polyamine metabolism data informs the [[microbiome-derived-metabolites]] concept page
 - Diagnostic biomarker data (3-genus panel at 85% accuracy) relevant to [[graves-disease]] entity page
 - HDAC inhibition by SCFAs connects to epigenetic regulation mechanisms
 

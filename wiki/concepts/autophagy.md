@@ -55,7 +55,7 @@ Excess [[iron]] can paradoxically suppress autophagy through mTOR activation whi
 ### Microbial Regulation of Autophagy
 - SCFAs and autophagy: [[butyrate|Butyrate]] activates autophagy in colonocytes through AMPK signaling, promoting mitochondrial quality control and barrier integrity. Loss of butyrate-producing bacteria impairs this autophagic housekeeping.
 - LPS and autophagy: Bacterial lipopolysaccharide induces autophagy via TLR4 signaling, which is initially protective (xenophagy of invading bacteria) but becomes pathological when chronic.
-- Microbial metabolites: Indole derivatives and other [[microbiome-derived-metabolites]] modulate autophagic flux through AhR and other signaling pathways.
+- [[microbiome-derived-metabolites|Microbial metabolites]]: Indole derivatives and other microbiome-derived metabolites modulate autophagic flux through AhR and other signaling pathways.
 
 ### Autophagy Regulation of the Microbiome
 - Xenophagy in intestinal defense: Autophagy in Paneth cells and intestinal epithelial cells clears intracellular bacteria, maintaining the mucosal barrier. Defective xenophagy -- as in ATG16L1 and IRGM variants associated with [[crohns-disease]] -- permits intracellular bacterial survival and drives chronic [[inflammation]] [[brusaferro-2018-gut-dysbiosis-paediatric-crohns]].

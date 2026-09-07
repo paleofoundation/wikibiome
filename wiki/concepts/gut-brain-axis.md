@@ -23,7 +23,7 @@ Bidirectional communication between the gut microbiota and the central nervous s
 The vagus nerve (cranial nerve X) provides the most direct and rapid gut-to-brain connection, with ~80% of fibers being afferent (gut-to-brain) and ~20% efferent (brain-to-gut).
 
 Afferent signaling (gut to brain):
-- Vagal afferent terminals in the gut mucosa and muscularis detect microbial metabolites (SCFAs, indoles), gut hormones (GLP-1, PYY, CCK), and inflammatory signals.
+- Vagal afferent terminals in the gut mucosa and muscularis detect [[microbiome-derived-metabolites|microbial metabolites]] (SCFAs, indoles), gut hormones (GLP-1, PYY, CCK), and inflammatory signals.
 - SCFAs activate vagal afferents via FFAR2/FFAR3 receptors, signaling satiety and modulating [[inflammation]].
 - Bacterial metabolites that activate vagal afferents include serotonin (produced by enterochromaffin cells stimulated by microbial SCFAs), tryptamine, and GABA.
 - Vagal signals terminate in the nucleus tractus solitarius (NTS) in the brainstem, which relays to the hypothalamus, amygdala, and cortex.

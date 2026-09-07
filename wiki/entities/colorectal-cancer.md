@@ -40,7 +40,7 @@ wikipedia_differentiation: "Integrated metallomic-taxonomic analysis connecting 
 
 ## Overview
 
-Colorectal cancer (CRC) is the third most common cancer worldwide and the second leading cause of cancer death. Over 90% of cases are sporadic, driven by a complex interplay between genetic predisposition, dietary habits, [[gut-microbiome]] composition, and environmental exposures. The metallomic and microbiome dimensions of CRC are deeply intertwined: metal dyshomeostasis shapes the microbial community, while microbial metabolites (bile acids, SCFAs, genotoxins) drive or suppress carcinogenesis at the colonic epithelium. CRC rates vary dramatically by geography and diet -- common in Western populations (65 per 100,000 in African Americans) and rare in rural Africa (<5 per 100,000) -- underscoring the dominance of environmental and dietary factors over genetics alone.
+Colorectal cancer (CRC) is the third most common cancer worldwide and the second leading cause of cancer death. Over 90% of cases are sporadic, driven by a complex interplay between genetic predisposition, dietary habits, [[gut-microbiome]] composition, and environmental exposures. The metallomic and microbiome dimensions of CRC are deeply intertwined: metal dyshomeostasis shapes the microbial community, while [[microbiome-derived-metabolites|microbial metabolites]] (bile acids, SCFAs, genotoxins) drive or suppress carcinogenesis at the colonic epithelium. CRC rates vary dramatically by geography and diet -- common in Western populations (65 per 100,000 in African Americans) and rare in rural Africa (<5 per 100,000) -- underscoring the dominance of environmental and dietary factors over genetics alone.
 
 ## Metallomic Signature
 

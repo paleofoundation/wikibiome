@@ -78,7 +78,7 @@ The [[gut-microbiome]] influences host epigenetics through several mechanisms:
 
 - SCFA-mediated histone modification: [[butyrate|Butyrate]] is a potent HDAC inhibitor, promoting histone acetylation and open chromatin in colonocytes and immune cells. This is one of the primary mechanisms by which butyrate exerts anti-inflammatory and anti-cancer effects. Loss of butyrate-producing bacteria reduces this epigenetic regulation.
 - Folate production: Gut bacteria synthesize folate and other B vitamins essential for the one-carbon metabolism cycle that produces SAM. [[dysbiosis]] that reduces folate-producing organisms may limit methyl donor availability, compounding metal-induced SAM depletion.
-- Microbial metabolites: Various bacterial metabolites (including [[indoles]], [[polyphenols]] metabolites, and bile acid derivatives) influence DNMT and HDAC activity in intestinal epithelial cells.
+- [[microbiome-derived-metabolites|Microbial metabolites]]: Various bacterial metabolites (including [[indoles]], [[polyphenols]] metabolites, and bile acid derivatives) influence DNMT and HDAC activity in intestinal epithelial cells.
 - Bidirectional relationship: Metal-induced epigenetic changes in intestinal epithelial cells alter antimicrobial peptide expression, mucin production, and immune signaling, reshaping the microbiome -- which in turn produces metabolites that further modify the epigenome.
 
 ## Disease Relevance

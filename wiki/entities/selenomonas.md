@@ -38,7 +38,7 @@ A genus of Gram-negative, crescent-shaped, strictly anaerobic bacteria found in 
 
 ### In the Oral Cavity
 
-*Selenomonas* is a normal resident of the human oral cavity, particularly in subgingival plaque. In schizophrenia, oral *Selenomonas* is among the H2S-producing bacteria enriched in patients with first-episode psychosis, correlating with neuroinflammation markers including CRP, IFN-gamma, TNF-alpha, IL-8, IL-1beta, and S100B ([[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]], cross-sectional). H2S can bind [[iron]], [[copper]], and [[zinc]] in metalloenzymes, potentially contributing to [[mis-metallation]] -- a mechanism that links oral microbial metabolites to systemic metal homeostasis disruption.
+*Selenomonas* is a normal resident of the human oral cavity, particularly in subgingival plaque. In schizophrenia, oral *Selenomonas* is among the H2S-producing bacteria enriched in patients with first-episode psychosis, correlating with neuroinflammation markers including CRP, IFN-gamma, TNF-alpha, IL-8, IL-1beta, and S100B ([[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]], cross-sectional). H2S can bind [[iron]], [[copper]], and [[zinc]] in metalloenzymes, potentially contributing to [[mis-metallation]] -- a mechanism that links oral [[microbiome-derived-metabolites|microbial metabolites]] to systemic metal homeostasis disruption.
 
 ### In the Gut
 

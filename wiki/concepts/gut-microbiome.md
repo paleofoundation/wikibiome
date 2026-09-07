@@ -89,7 +89,7 @@ The gut barrier — a single layer of columnar epithelial cells joined by [[tigh
 ### 5. Neuromodulation and the Gut-Brain Axis
 
 The gut-brain axis connects gut microbiome composition to brain function through neural (vagal), hormonal, and immunological routes:
-- Vagal afferents: Enteroendocrine cells in the intestinal lining sense microbial metabolites and transmit signals to the brain via the vagus nerve within seconds — the fastest gut-brain communication pathway
+- Vagal afferents: Enteroendocrine cells in the intestinal lining sense [[microbiome-derived-metabolites|microbial metabolites]] and transmit signals to the brain via the vagus nerve within seconds — the fastest gut-brain communication pathway
 - HPA axis: Gut dysbiosis activates the hypothalamic-pituitary-adrenal axis, elevating cortisol and sustaining low-grade systemic stress responses
 - Serotonin: ~90% of body serotonin is gut-derived and regulates intestinal motility, secretion, and bidirectional gut-brain communication [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
 - Direct neurological disease risk: The gut-first hypothesis for Parkinson's disease proposes that alpha-synuclein misfolding begins in enteric neurons and propagates rostrally via the vagus nerve — positioning gut microbiome composition as an upstream driver of neurodegenerative pathology [[alonso-garcia-2021-gut-microbiota-proteinopathies]]
@@ -148,7 +148,7 @@ Dietary modification: The most powerful long-term intervention. A high-fiber, pl
 
 - [[gut-metal-microbiome]] — the metal-specific dimension of gut microbiome interactions
 - dysbiosis — the pathological disruption of microbiome composition and function
-- [[microbiome-derived-metabolites]] — the functional outputs of microbiome composition
+- microbiome-derived metabolites — the functional outputs of microbiome composition
 - [[short-chain-fatty-acids]] — the central beneficial metabolite class
 - [[nutritional-immunity]] — how host metal sequestration intersects with microbiome ecology
 - [[gut-brain-axis]] — neural, hormonal, and immunological connections between gut and brain

@@ -66,7 +66,7 @@ The [[gut-microbiome]] influences dysmenorrhea through several routes:
 - [[estrobolome]]: Gut bacteria with [[beta-glucuronidase]] activity deconjugate estrogens, increasing circulating estradiol. Higher estrogen drives endometrial proliferation and prostaglandin production.
 - Systemic inflammation: [[dysbiosis]] increases intestinal permeability and LPS translocation, amplifying the baseline inflammatory state that worsens menstrual pain.
 - SCFA production: [[short-chain-fatty-acids]] from commensal bacteria (especially [[butyrate]]) suppress NF-kB and reduce systemic inflammation. Depletion of butyrate-producing taxa removes this anti-inflammatory brake.
-- Prostaglandin modulation: Microbial metabolites influence COX-2 expression in distant tissues, including the endometrium.
+- Prostaglandin modulation: [[microbiome-derived-metabolites|Microbial metabolites]] influence COX-2 expression in distant tissues, including the endometrium.
 
 ## Environmental Exposures
 

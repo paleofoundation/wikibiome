@@ -71,7 +71,7 @@ Polyamines have a dual role in cancer biology:
 - Anti-tumorigenic: Spermidine-modified pullulan reduces the immunosuppressive tumor microenvironment [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 - Polyamine biosynthesis is enriched in ketogenic diet-fed mice with accelerated ovarian cancer growth [[alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse]].
 
-The dual nature parallels many microbial metabolites: beneficial at physiological concentrations, harmful when [[dysbiosis]] drives overproduction or when the wrong cell types are exposed.
+The dual nature parallels many [[microbiome-derived-metabolites|microbial metabolites]]: beneficial at physiological concentrations, harmful when [[dysbiosis]] drives overproduction or when the wrong cell types are exposed.
 
 ## Metal Connections
 
@@ -92,7 +92,7 @@ Polyamine metabolism intersects with metal biology at several points:
 
 - [[cardiovascular-disease]] -- spermidine cardioprotection
 - [[colorectal-cancer]] -- polyamine dual role in tumor microenvironment
-- [[microbiome-derived-metabolites]] -- broader metabolite framework
+- microbiome-derived metabolites -- broader metabolite framework
 - [[multiple-sclerosis]] -- spermidine as EAE therapeutic candidate
 - [[butyrate]] -- co-produced SCFA with synergistic anti-inflammatory effects
 - [[fermentative-metabolism]] -- amino acid fermentation producing polyamines

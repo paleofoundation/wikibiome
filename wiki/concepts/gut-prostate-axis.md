@@ -17,7 +17,7 @@ karen_brain_primitives: [1, 5, 8]
 
 ## Overview
 
-The gut-prostate axis describes the bidirectional communication between the [[gut-microbiome]] and the prostate gland. Gut-derived microbial metabolites, inflammatory mediators, and immune signals influence prostatic health, while prostatic disease states alter systemic [[inflammation]] and, reciprocally, gut microbial composition.
+The gut-prostate axis describes the bidirectional communication between the [[gut-microbiome]] and the prostate gland. Gut-derived [[microbiome-derived-metabolites|microbial metabolites]], inflammatory mediators, and immune signals influence prostatic health, while prostatic disease states alter systemic [[inflammation]] and, reciprocally, gut microbial composition.
 
 Systematic review evidence supports gut microbiome involvement in benign prostatic hyperplasia (BPH), with specific taxonomic shifts — including enrichment of pro-inflammatory Proteobacteria and depletion of SCFA-producing Firmicutes — consistently observed across BPH cohorts ([[xu-2026-gut-prostate-axis-bph-systematic-review]]). The mechanistic pathways implicated include microbial translocation through a compromised gut barrier, systemic endotoxemia, and androgen metabolism by gut bacteria.
 

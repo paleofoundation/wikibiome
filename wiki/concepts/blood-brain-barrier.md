@@ -60,7 +60,7 @@ A selective semipermeable border formed by brain endothelial cells connected by 
 
 - Alzheimer's disease: Al, Pb, and Hg accumulation in brain tissue; LPS from dysbiotic gut exacerbates neuroinflammation.
 - Parkinson's disease: Mn accumulation in basal ganglia; reduced SCFA production weakens BBB and increases microglial activation.
-- Multiple sclerosis: BBB breakdown allows immune cell infiltration into CNS; gut-derived metabolites modulate this permeability.
+- Multiple sclerosis: BBB breakdown allows immune cell infiltration into CNS; [[microbiome-derived-metabolites|gut-derived metabolites]] modulate this permeability.
 - Autism spectrum disorder: Early-life metal exposure (Pb, Hg) crosses immature BBB; microbial metabolites (p-cresol, 4-EPS) also penetrate to affect microglial function.
 
 ## See Also

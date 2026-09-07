@@ -48,7 +48,7 @@ keystone: false
 - **[[obesity]]** — microbiome manipulation of eating as contributor to obesity.
 - **[[competitive-exclusion]]** — diverse microbiomes reduce individual species' ability to manipulate host behavior.
 - **[[leptin]]** — microbial effects on appetite regulation intersect with leptin/ghrelin signaling.
-- **[[metabolites]]** — microbial metabolites as behavior-modulating signals.
+- **[[microbiome-derived-metabolites|Microbial metabolites]]** — behavior-modulating signals.
 
 ## Open Questions
 

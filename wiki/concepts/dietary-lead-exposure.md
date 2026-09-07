@@ -67,7 +67,7 @@ Lead exposure alters gut microbial ecology:
 - Lead shifts microbiota composition toward increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[lactobacillus|Lactobacillus]] — a classic dysbiotic signature
 - Lead depletes [[glutathione]] reserves, the same detoxification molecule cadmium depletes
 - Co-exposure with other dietary metals (Cd, As) produces synergistic gut disruption
-- Gut microbial metabolites influence lead methylation and bioavailability
+- [[microbiome-derived-metabolites|Gut microbial metabolites]] influence lead methylation and bioavailability
 
 ## Regulatory Landscape
 

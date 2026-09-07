@@ -74,7 +74,7 @@ Specific examples include siderophore production by Pseudomonas, sulfide product
 
 ### Metabolite-Mediated Protection
 
-Microbial metabolites regulate host responses to metal stress:
+[[microbiome-derived-metabolites|Microbial metabolites]] regulate host responses to metal stress:
 - SCFAs ([[butyrate]], propionate, acetate): Enhance epithelial barrier integrity, reduce [[inflammation]] via GPR41/43/109A receptors
 - Indole derivatives: Anti-inflammatory via aryl hydrocarbon receptor (AhR) activation
 - Bile acids: Immunomodulation via FXR and TGR5 receptors

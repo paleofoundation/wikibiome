@@ -34,5 +34,5 @@ Succinate is a Krebs cycle intermediate and a microbial metabolite produced by [
 
 - [[dialister]] — primary microbial succinate producer
 - [[short-chain-fatty-acids]] — related microbial metabolite class
-- [[metabolites]] — broader microbial metabolite context
+- [[microbiome-derived-metabolites]] — broader microbial metabolite context
 - inflammation — succinate-HIF-1α-IL-1β pro-inflammatory axis

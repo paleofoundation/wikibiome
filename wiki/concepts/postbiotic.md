@@ -19,7 +19,7 @@ karen_brain_primitives: [5]
 
 ## Overview
 
-Postbiotics are defined by ISAPP (2021) as "preparations of inanimate microorganisms and/or their components that confer a health benefit on the host." They include heat-killed bacteria, cell-free supernatants, bacterial lysates, and purified microbial metabolites (SCFAs, bacteriocins, exopolysaccharides). Postbiotics offer the functional benefits of probiotics without the risks of live organism administration — relevant for immunocompromised patients, neonates, and conditions where live bacteria could cause [[bacteremia]].
+Postbiotics are defined by ISAPP (2021) as "preparations of inanimate microorganisms and/or their components that confer a health benefit on the host." They include heat-killed bacteria, cell-free supernatants, bacterial lysates, and purified [[microbiome-derived-metabolites|microbial metabolites]] (SCFAs, bacteriocins, exopolysaccharides). Postbiotics offer the functional benefits of probiotics without the risks of live organism administration — relevant for immunocompromised patients, neonates, and conditions where live bacteria could cause [[bacteremia]].
 
 ## Advantages
 
@@ -40,4 +40,4 @@ Postbiotics are defined by ISAPP (2021) as "preparations of inanimate microorgan
 - [[prebiotics]] — substrate for live microbial postbiotic production
 - [[synbiotic]] — live probiotic + prebiotic combination (distinct from postbiotic)
 - [[short-chain-fatty-acids]] — primary postbiotic metabolite class
-- [[metabolites]] — broader microbial metabolite context
+- microbiome-derived metabolites — broader microbial metabolite context

@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-07T11:02:04.950Z",
+  "_generated": "2026-09-07T11:43:51.515Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
     "entities": 328,
-    "concepts": 270,
+    "concepts": 269,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 869
+    "totalPages": 868
   },
   "pages": [
     {
@@ -13574,7 +13574,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Cardiovascular disease (CVD) -- encompassing atherosclerosis, coronary artery disease, hypertension, myocardial infarction, heart failure, and stroke -- is the leading cause of death globally. The gut-heart axis has emerged as a central paradigm linking microbial metabolites (TMAO, SCFAs, bile acids, tryptophan derivatives) to CVD pathogenesis. Metallomic profiling reveals a consistent signature of copper elevation and selenium depletion in acute events, while chronic exposures to lead and cadmium drive CVD risk through both direct vascular toxicity and microbiome-mediated pathways. The convergence of metal dyshomeostasis, microbial [[dysbiosis]], and metabolite disruption creates a multi-layered framework for understanding CVD etiology."
+          "body": "Cardiovascular disease (CVD) -- encompassing atherosclerosis, coronary artery disease, hypertension, myocardial infarction, heart failure, and stroke -- is the leading cause of death globally. The gut-heart axis has emerged as a central paradigm linking [[microbiome-derived-metabolites|microbial metabolites]] (TMAO, SCFAs, bile acids, tryptophan derivatives) to CVD pathogenesis. Metallomic profiling reveals a consistent signature of copper elevation and selenium depletion in acute events, while chronic exposures to lead and cadmium drive CVD risk through both direct vascular toxicity and microbiome-mediated pathways. The convergence of metal dyshomeostasis, microbial [[dysbiosis]], and metabolite disruption creates a multi-layered framework for understanding CVD etiology."
         },
         {
           "heading": "Metallomic Signature",
@@ -13679,11 +13679,12 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[metal-disease-matrix]]\n- [[atherosclerosis]] -- lead and cadmium exposure accelerate atherosclerotic plaque formation via endothelial damage\n- [[tmao]] -- microbiome-derived TMAO promotes atherosclerosis and thrombosis; elevated in CVD patients\n- [[biomarkers]] -- Cu/Zn ratio, Fe/Cu ratio, Se levels, and CRP as metallomic and inflammatory CVD biomarkers\n- [[microbiome-derived-metabolites]] -- TMAO, SCFAs, and bile acids as microbiome-CVD mediators\n- [[environmental-metal-exposure]] -- occupational and dietary Pb/Cd exposure as modifiable CVD risk factors"
+          "body": "- [[metal-disease-matrix]]\n- [[atherosclerosis]] -- lead and cadmium exposure accelerate atherosclerotic plaque formation via endothelial damage\n- [[tmao]] -- microbiome-derived TMAO promotes atherosclerosis and thrombosis; elevated in CVD patients\n- [[biomarkers]] -- Cu/Zn ratio, Fe/Cu ratio, Se levels, and CRP as metallomic and inflammatory CVD biomarkers\n- microbiome-derived metabolites -- TMAO, SCFAs, and bile acids as microbiome-CVD mediators\n- [[environmental-metal-exposure]] -- occupational and dietary Pb/Cd exposure as modifiable CVD risk factors"
         }
       ],
       "wikilinks": [
         "cardiovascular-disease-signature",
+        "microbiome-derived-metabolites",
         "dysbiosis",
         "lim-2023-plasma-metallomics-ami",
         "copper",
@@ -13715,7 +13716,6 @@
         "atherosclerosis",
         "tmao",
         "biomarkers",
-        "microbiome-derived-metabolites",
         "environmental-metal-exposure"
       ],
       "sourceDir": "entities",
@@ -15615,7 +15615,7 @@
         {
           "heading": "Mitochondrial Dysfunction",
           "level": 2,
-          "body": "ME/CFS is characterized by impaired cellular energy production:\n\n- Reduced ATP generation under metabolic stress\n- Impaired oxidative phosphorylation\n- This may connect to metal homeostasis: iron-sulfur clusters are essential components of the electron transport chain, and metal dyshomeostasis could impair mitochondrial function\n- Gut-derived metabolites (indoxyl sulfate, p-cresol) from the dysbiotic microbiome directly inhibit mitochondrial complex activity"
+          "body": "ME/CFS is characterized by impaired cellular energy production:\n\n- Reduced ATP generation under metabolic stress\n- Impaired oxidative phosphorylation\n- This may connect to metal homeostasis: iron-sulfur clusters are essential components of the electron transport chain, and metal dyshomeostasis could impair mitochondrial function\n- [[microbiome-derived-metabolites|Gut-derived metabolites]] (indoxyl sulfate, p-cresol) from the dysbiotic microbiome directly inhibit mitochondrial complex activity"
         },
         {
           "heading": "Post-Infectious Trigger and Long-COVID Overlap",
@@ -15664,6 +15664,7 @@
         "tlr4",
         "neuroinflammation",
         "nutritional-immunity",
+        "microbiome-derived-metabolites",
         "fibromyalgia",
         "ibs",
         "depression",
@@ -16084,6 +16085,7 @@
         "intestinal-permeability",
         "metabolomics",
         "metallothionein",
+        "microbiome-derived-metabolites",
         "oxalate",
         "oxalates",
         "oxidative-stress",
@@ -16129,18 +16131,18 @@
         },
         {
           "id": "tight-junctions",
-          "score": 34
+          "score": 36
         },
         {
           "id": "bifidobacterium",
           "score": 33
         },
         {
-          "id": "enterobacteriaceae",
-          "score": 30
+          "id": "short-chain-fatty-acids",
+          "score": 32
         },
         {
-          "id": "short-chain-fatty-acids",
+          "id": "enterobacteriaceae",
           "score": 30
         },
         {
@@ -18380,7 +18382,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Colorectal cancer (CRC) is the third most common cancer worldwide and the second leading cause of cancer death. Over 90% of cases are sporadic, driven by a complex interplay between genetic predisposition, dietary habits, [[gut-microbiome]] composition, and environmental exposures. The metallomic and microbiome dimensions of CRC are deeply intertwined: metal dyshomeostasis shapes the microbial community, while microbial metabolites (bile acids, SCFAs, genotoxins) drive or suppress carcinogenesis at the colonic epithelium. CRC rates vary dramatically by geography and diet -- common in Western populations (65 per 100,000 in African Americans) and rare in rural Africa (<5 per 100,000) -- underscoring the dominance of environmental and dietary factors over genetics alone."
+          "body": "Colorectal cancer (CRC) is the third most common cancer worldwide and the second leading cause of cancer death. Over 90% of cases are sporadic, driven by a complex interplay between genetic predisposition, dietary habits, [[gut-microbiome]] composition, and environmental exposures. The metallomic and microbiome dimensions of CRC are deeply intertwined: metal dyshomeostasis shapes the microbial community, while [[microbiome-derived-metabolites|microbial metabolites]] (bile acids, SCFAs, genotoxins) drive or suppress carcinogenesis at the colonic epithelium. CRC rates vary dramatically by geography and diet -- common in Western populations (65 per 100,000 in African Americans) and rare in rural Africa (<5 per 100,000) -- underscoring the dominance of environmental and dietary factors over genetics alone."
         },
         {
           "heading": "Metallomic Signature",
@@ -18491,6 +18493,7 @@
       "wikilinks": [
         "colorectal-cancer-signature",
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "zhang-2022-metallomics-cancer-review",
         "copper",
         "zinc",
@@ -19676,7 +19679,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Coronary artery disease (CAD) -- the progressive narrowing of coronary arteries by atherosclerotic plaque -- is the single leading cause of death globally, responsible for approximately 9 million deaths annually. CAD encompasses stable angina, unstable angina, and myocardial infarction (heart attack). While conventional risk factors (hypertension, dyslipidemia, smoking, diabetes) are well established, the [[gut-microbiome]] adds an underappreciated dimension: microbial metabolites directly promote plaque formation, bacteria translocate into arterial plaques, and the metal environment modulates both microbial and vascular pathology.\n\nCAD is closely related to the broader [[cardiovascular-disease]] and [[atherosclerosis]] pages in this wiki, but is distinguished by its focus on coronary-specific pathology and the increasingly detailed metabolomic-microbiome data linking gut bacteria to plaque severity."
+          "body": "Coronary artery disease (CAD) -- the progressive narrowing of coronary arteries by atherosclerotic plaque -- is the single leading cause of death globally, responsible for approximately 9 million deaths annually. CAD encompasses stable angina, unstable angina, and myocardial infarction (heart attack). While conventional risk factors (hypertension, dyslipidemia, smoking, diabetes) are well established, the [[gut-microbiome]] adds an underappreciated dimension: [[microbiome-derived-metabolites|microbial metabolites]] directly promote plaque formation, bacteria translocate into arterial plaques, and the metal environment modulates both microbial and vascular pathology.\n\nCAD is closely related to the broader [[cardiovascular-disease]] and [[atherosclerosis]] pages in this wiki, but is distinguished by its focus on coronary-specific pathology and the increasingly detailed metabolomic-microbiome data linking gut bacteria to plaque severity."
         },
         {
           "heading": "Metallomic Signature",
@@ -19741,6 +19744,7 @@
       ],
       "wikilinks": [
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "cardiovascular-disease",
         "atherosclerosis",
         "copper",
@@ -22698,7 +22702,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Dopamine is a catecholamine neurotransmitter central to reward, motivation, motor control, and executive function. Its synthesis is directly dependent on iron -- the rate-limiting enzyme tyrosine hydroxylase (TH) requires Fe2+ as a cofactor. This iron dependency makes dopamine biology uniquely vulnerable to metal dyshomeostasis and positions it at the intersection of metallomics, the [[gut-microbiome]], and neurodegeneration.\n\nThe gut produces dopamine independently of the brain. Certain gut bacteria (*Bacillus*, *Serratia*, *Staphylococcus*) synthesize dopamine directly, and the enteric nervous system (ENS) expresses dopaminergic signaling systems identical to the CNS -- directly exposed to luminal metals and microbial metabolites."
+          "body": "Dopamine is a catecholamine neurotransmitter central to reward, motivation, motor control, and executive function. Its synthesis is directly dependent on iron -- the rate-limiting enzyme tyrosine hydroxylase (TH) requires Fe2+ as a cofactor. This iron dependency makes dopamine biology uniquely vulnerable to metal dyshomeostasis and positions it at the intersection of metallomics, the [[gut-microbiome]], and neurodegeneration.\n\nThe gut produces dopamine independently of the brain. Certain gut bacteria (*Bacillus*, *Serratia*, *Staphylococcus*) synthesize dopamine directly, and the enteric nervous system (ENS) expresses dopaminergic signaling systems identical to the CNS -- directly exposed to luminal metals and [[microbiome-derived-metabolites|microbial metabolites]]."
         },
         {
           "heading": "Iron-Dependent Synthesis",
@@ -22753,11 +22757,12 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[iron]] -- TH requires Fe2+; iron accumulation drives ferroptosis in dopaminergic neurons\n- [[ferroptosis]] -- Iron-dependent cell death mechanism for dopamine neuron loss\n- [[fenton-chemistry]] -- Hydroxyl radical generation from labile iron in SN\n- [[gut-brain-axis]] -- ENS dopamine systems exposed to microbial metabolites\n- [[serotonin]] -- Parallel monoamine neurotransmitter with microbiome connections\n- [[alpha-synuclein]] -- Aggregation in dopaminergic neurons; metal-catalyzed\n- [[microbiome-derived-metabolites]] -- p-cresol, SCFAs affecting dopamine biology\n- [[tryptophan-metabolism]] -- Shared precursor pathways and competition"
+          "body": "- [[iron]] -- TH requires Fe2+; iron accumulation drives ferroptosis in dopaminergic neurons\n- [[ferroptosis]] -- Iron-dependent cell death mechanism for dopamine neuron loss\n- [[fenton-chemistry]] -- Hydroxyl radical generation from labile iron in SN\n- [[gut-brain-axis]] -- ENS dopamine systems exposed to microbial metabolites\n- [[serotonin]] -- Parallel monoamine neurotransmitter with microbiome connections\n- [[alpha-synuclein]] -- Aggregation in dopaminergic neurons; metal-catalyzed\n- microbiome-derived metabolites -- p-cresol, SCFAs affecting dopamine biology\n- [[tryptophan-metabolism]] -- Shared precursor pathways and competition"
         }
       ],
       "wikilinks": [
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "riederer-2021-iron-concert-master-parkinsons",
         "novikova-2025-microbiome-derived-metabolites-parkinsons-thesis",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
@@ -22781,7 +22786,6 @@
         "gut-brain-axis",
         "serotonin",
         "alpha-synuclein",
-        "microbiome-derived-metabolites",
         "tryptophan-metabolism"
       ],
       "sourceDir": "entities",
@@ -27379,7 +27383,7 @@
         {
           "heading": "Central Sensitization and the Gut-Brain Axis",
           "level": 2,
-          "body": "Central sensitization in FM is not merely a CNS phenomenon -- it is driven in part by peripheral signals from the gut:\n\n- Tryptophan-serotonin pathway dysfunction: Dysbiotic communities shunt tryptophan toward kynurenine (via IDO upregulation from pro-inflammatory cytokines), reducing serotonin availability and generating neurotoxic quinolinic acid\n- Glutathione depletion: GPX3 decreased 0.85x in FM patients Duran-Gonzalez et al. 2025, reducing capacity to neutralize oxidative stress from copper excess and microbial metabolites\n- LPS translocation: Barrier dysfunction permits endotoxin entry, activating TLR4 on microglia and amplifying neuroinflammation\n- SCFA signaling disruption: Reduced butyrate at the colonocyte impairs vagal afferent signaling, disrupting the anti-inflammatory cholinergic pathway"
+          "body": "Central sensitization in FM is not merely a CNS phenomenon -- it is driven in part by peripheral signals from the gut:\n\n- Tryptophan-serotonin pathway dysfunction: Dysbiotic communities shunt tryptophan toward kynurenine (via IDO upregulation from pro-inflammatory cytokines), reducing serotonin availability and generating neurotoxic quinolinic acid\n- Glutathione depletion: GPX3 decreased 0.85x in FM patients Duran-Gonzalez et al. 2025, reducing capacity to neutralize oxidative stress from copper excess and [[microbiome-derived-metabolites|microbial metabolites]]\n- LPS translocation: Barrier dysfunction permits endotoxin entry, activating TLR4 on microglia and amplifying neuroinflammation\n- SCFA signaling disruption: Reduced butyrate at the colonocyte impairs vagal afferent signaling, disrupting the anti-inflammatory cholinergic pathway"
         },
         {
           "heading": "Diagnostic Potential",
@@ -27408,6 +27412,7 @@
         "butyrate",
         "bifidobacterium",
         "lachnospiraceae",
+        "microbiome-derived-metabolites",
         "haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia",
         "depression",
         "ibs",
@@ -33782,7 +33787,7 @@
         "seo_target": "hypertension microbiome gut bacteria SCFAs blood pressure heavy metals",
         "wikipedia_differentiation": "SCFA-mediated blood pressure regulation via opposing Olfr78/GPR41 receptor systems, mycobiome dysbiosis with Malassezia enrichment, and FMT RCT evidence for microbiome-mediated BP reduction"
       },
-      "overview": "Sustained elevation of systemic blood pressure, affecting an estimated 1.3 billion adults worldwide and the leading modifiable risk factor for [[cardiovascular-disease]], stroke, and [[chronic-kidney-disease]]. The [[gut-microbiome]]-blood pressure axis has emerged as a major research area, with [[short-chain-fatty-acids]], [[tmao]], the mycobiome, and microbial metabolites all contributing to BP regulation. [[heavy-metals]] -- particularly [[lead]] and [[cadmium]] -- are established environmental risk factors operating through both direct vascular toxicity and microbiome-mediated pathways.",
+      "overview": "Sustained elevation of systemic blood pressure, affecting an estimated 1.3 billion adults worldwide and the leading modifiable risk factor for [[cardiovascular-disease]], stroke, and [[chronic-kidney-disease]]. The [[gut-microbiome]]-blood pressure axis has emerged as a major research area, with [[short-chain-fatty-acids]], [[tmao]], the mycobiome, and [[microbiome-derived-metabolites|microbial metabolites]] all contributing to BP regulation. [[heavy-metals]] -- particularly [[lead]] and [[cadmium]] -- are established environmental risk factors operating through both direct vascular toxicity and microbiome-mediated pathways.",
       "sections": [
         {
           "heading": "Gut Microbiome-Blood Pressure Axis",
@@ -33867,6 +33872,7 @@
         "gut-microbiome",
         "short-chain-fatty-acids",
         "tmao",
+        "microbiome-derived-metabolites",
         "heavy-metals",
         "lead",
         "cadmium",
@@ -41027,7 +41033,7 @@
         ],
         "platform": "wikibiome"
       },
-      "overview": "Major depressive disorder (MDD) is a psychiatric condition characterized by persistent depressed mood, anhedonia, and cognitive/somatic symptoms. In the WikiBiome framework, MDD is a paradigm case for the [[gut-brain-axis]]: gut [[dysbiosis]] drives [[systemic-inflammation]] and [[neuroinflammation]] through [[endotoxemia]], tryptophan-kynurenine shunting, and loss of neuroactive microbial metabolites ([[serotonin]], [[gaba]]).",
+      "overview": "Major depressive disorder (MDD) is a psychiatric condition characterized by persistent depressed mood, anhedonia, and cognitive/somatic symptoms. In the WikiBiome framework, MDD is a paradigm case for the [[gut-brain-axis]]: gut [[dysbiosis]] drives [[systemic-inflammation]] and [[neuroinflammation]] through [[endotoxemia]], tryptophan-kynurenine shunting, and loss of neuroactive [[microbiome-derived-metabolites|microbial metabolites]] ([[serotonin]], [[gaba]]).",
       "sections": [
         {
           "heading": "Microbiome Signature",
@@ -41051,6 +41057,7 @@
         "systemic-inflammation",
         "neuroinflammation",
         "endotoxemia",
+        "microbiome-derived-metabolites",
         "serotonin",
         "gaba",
         "dialister",
@@ -46811,7 +46818,6 @@
         "irving-williams-series",
         "matrix-metalloproteases",
         "metabolic-syndrome",
-        "metabolites",
         "metal-carcinogenesis",
         "metal-chelation-therapy",
         "metal-dependent-virulence",
@@ -46880,7 +46886,7 @@
         },
         {
           "id": "butyrate",
-          "score": 89
+          "score": 87
         },
         {
           "id": "metal-dependent-virulence",
@@ -60815,7 +60821,7 @@
         {
           "heading": "In the Oral Cavity",
           "level": 3,
-          "body": "*Selenomonas* is a normal resident of the human oral cavity, particularly in subgingival plaque. In schizophrenia, oral *Selenomonas* is among the H2S-producing bacteria enriched in patients with first-episode psychosis, correlating with neuroinflammation markers including CRP, IFN-gamma, TNF-alpha, IL-8, IL-1beta, and S100B ([[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]], cross-sectional). H2S can bind [[iron]], [[copper]], and [[zinc]] in metalloenzymes, potentially contributing to [[mis-metallation]] -- a mechanism that links oral microbial metabolites to systemic metal homeostasis disruption."
+          "body": "*Selenomonas* is a normal resident of the human oral cavity, particularly in subgingival plaque. In schizophrenia, oral *Selenomonas* is among the H2S-producing bacteria enriched in patients with first-episode psychosis, correlating with neuroinflammation markers including CRP, IFN-gamma, TNF-alpha, IL-8, IL-1beta, and S100B ([[qing-2021-salivary-microbiome-dysbiotic-schizophrenia]], cross-sectional). H2S can bind [[iron]], [[copper]], and [[zinc]] in metalloenzymes, potentially contributing to [[mis-metallation]] -- a mechanism that links oral [[microbiome-derived-metabolites|microbial metabolites]] to systemic metal homeostasis disruption."
         },
         {
           "heading": "In the Gut",
@@ -60850,6 +60856,7 @@
         "copper",
         "zinc",
         "mis-metallation",
+        "microbiome-derived-metabolites",
         "lachnospiraceae",
         "vacca-2023-synbiotic-ckd-stage-iiib-iv",
         "gao-2015-microbiota-disbiosis-colorectal-cancer",
@@ -61411,7 +61418,6 @@
         "heavy-metal-neurotoxicity",
         "ifn-gamma",
         "indoxyl-sulfate",
-        "metabolites",
         "metabolomics",
         "premenstrual-syndrome",
         "quinolinic-acid",
@@ -61424,7 +61430,7 @@
       "related": [
         {
           "id": "butyrate",
-          "score": 28
+          "score": 26
         },
         {
           "id": "tryptophan",
@@ -61436,7 +61442,7 @@
         },
         {
           "id": "gaba",
-          "score": 20
+          "score": 18
         },
         {
           "id": "multiple-sclerosis",
@@ -65187,7 +65193,7 @@
         {
           "heading": "Autism Spectrum Disorder",
           "level": 3,
-          "body": "- Consistently enriched in ASD across multiple studies, making it one of the more reproducible ASD-associated taxa [[bezawada-2020-asd-gut-microbiota-children-systematic-review]].\n- IgA degradation may contribute to the increased gut permeability (\"leaky gut\") reported in ASD children, potentially allowing microbial metabolites and bacterial products to cross the gut barrier and affect the CNS via the [[gut-brain-axis]]."
+          "body": "- Consistently enriched in ASD across multiple studies, making it one of the more reproducible ASD-associated taxa [[bezawada-2020-asd-gut-microbiota-children-systematic-review]].\n- IgA degradation may contribute to the increased gut permeability (\"leaky gut\") reported in ASD children, potentially allowing [[microbiome-derived-metabolites|microbial metabolites]] and bacterial products to cross the gut barrier and affect the CNS via the [[gut-brain-axis]]."
         },
         {
           "heading": "Multiple Sclerosis",
@@ -65233,6 +65239,7 @@
       "wikilinks": [
         "short-chain-fatty-acids",
         "bezawada-2020-asd-gut-microbiota-children-systematic-review",
+        "microbiome-derived-metabolites",
         "gut-brain-axis",
         "jangi-2016-gut-microbiome-alterations-ms",
         "martinelli-2022-gut-oriented-interventions-ms",
@@ -70563,7 +70570,7 @@
         "indoxyl-sulfate",
         "infant-exposure",
         "interleukin-22",
-        "metabolites",
+        "microbiome-derived-metabolites",
         "tryptophan",
         "multiple-sclerosis",
         "necrotizing-enterocolitis-signature",
@@ -70598,11 +70605,11 @@
           "score": 15
         },
         {
-          "id": "serotonin",
-          "score": 15
+          "id": "bifidobacterium",
+          "score": 14
         },
         {
-          "id": "bifidobacterium",
+          "id": "schizophrenia",
           "score": 14
         }
       ]
@@ -73165,7 +73172,7 @@
         {
           "heading": "Microbial Regulation of Autophagy",
           "level": 3,
-          "body": "- SCFAs and autophagy: [[butyrate|Butyrate]] activates autophagy in colonocytes through AMPK signaling, promoting mitochondrial quality control and barrier integrity. Loss of butyrate-producing bacteria impairs this autophagic housekeeping.\n- LPS and autophagy: Bacterial lipopolysaccharide induces autophagy via TLR4 signaling, which is initially protective (xenophagy of invading bacteria) but becomes pathological when chronic.\n- Microbial metabolites: Indole derivatives and other [[microbiome-derived-metabolites]] modulate autophagic flux through AhR and other signaling pathways."
+          "body": "- SCFAs and autophagy: [[butyrate|Butyrate]] activates autophagy in colonocytes through AMPK signaling, promoting mitochondrial quality control and barrier integrity. Loss of butyrate-producing bacteria impairs this autophagic housekeeping.\n- LPS and autophagy: Bacterial lipopolysaccharide induces autophagy via TLR4 signaling, which is initially protective (xenophagy of invading bacteria) but becomes pathological when chronic.\n- [[microbiome-derived-metabolites|Microbial metabolites]]: Indole derivatives and other microbiome-derived metabolites modulate autophagic flux through AhR and other signaling pathways."
         },
         {
           "heading": "Autophagy Regulation of the Microbiome",
@@ -74645,7 +74652,6 @@
         "enterohepatic-circulation",
         "fxr",
         "lipid-metabolism",
-        "metabolites",
         "metabolomics",
         "microbiome-derived-metabolites",
         "statins",
@@ -74664,12 +74670,12 @@
       ],
       "related": [
         {
-          "id": "butyrate",
+          "id": "gut-microbiome",
           "score": 33
         },
         {
-          "id": "gut-microbiome",
-          "score": 33
+          "id": "butyrate",
+          "score": 31
         },
         {
           "id": "type-2-diabetes",
@@ -74688,11 +74694,11 @@
           "score": 20
         },
         {
-          "id": "tmao",
-          "score": 20
+          "id": "obesity",
+          "score": 19
         },
         {
-          "id": "obesity",
+          "id": "oxidative-stress",
           "score": 19
         }
       ]
@@ -75372,7 +75378,7 @@
         {
           "heading": "Disease Relevance",
           "level": 2,
-          "body": "- Alzheimer's disease: Al, Pb, and Hg accumulation in brain tissue; LPS from dysbiotic gut exacerbates neuroinflammation.\n- Parkinson's disease: Mn accumulation in basal ganglia; reduced SCFA production weakens BBB and increases microglial activation.\n- Multiple sclerosis: BBB breakdown allows immune cell infiltration into CNS; gut-derived metabolites modulate this permeability.\n- Autism spectrum disorder: Early-life metal exposure (Pb, Hg) crosses immature BBB; microbial metabolites (p-cresol, 4-EPS) also penetrate to affect microglial function."
+          "body": "- Alzheimer's disease: Al, Pb, and Hg accumulation in brain tissue; LPS from dysbiotic gut exacerbates neuroinflammation.\n- Parkinson's disease: Mn accumulation in basal ganglia; reduced SCFA production weakens BBB and increases microglial activation.\n- Multiple sclerosis: BBB breakdown allows immune cell infiltration into CNS; [[microbiome-derived-metabolites|gut-derived metabolites]] modulate this permeability.\n- Autism spectrum disorder: Early-life metal exposure (Pb, Hg) crosses immature BBB; microbial metabolites (p-cresol, 4-EPS) also penetrate to affect microglial function."
         },
         {
           "heading": "See Also",
@@ -75395,6 +75401,7 @@
         "short-chain-fatty-acids",
         "butyrate",
         "indoles",
+        "microbiome-derived-metabolites",
         "neuroinflammation",
         "gut-brain-axis"
       ],
@@ -75776,7 +75783,6 @@
         "lipid-metabolism",
         "lipid-peroxidation",
         "lipopolysaccharide",
-        "metabolites",
         "metabolomics",
         "microbial-biomarkers",
         "microbial-metallomics",
@@ -75843,8 +75849,8 @@
           "score": 96
         },
         {
-          "id": "gut-brain-axis",
-          "score": 96
+          "id": "colorectal-cancer",
+          "score": 95
         }
       ]
     },
@@ -75934,10 +75940,6 @@
           "score": 8
         },
         {
-          "id": "metabolites",
-          "score": 7
-        },
-        {
           "id": "prevotella",
           "score": 5
         },
@@ -75959,6 +75961,10 @@
         },
         {
           "id": "fxr",
+          "score": 4
+        },
+        {
+          "id": "microbiome-derived-metabolites",
           "score": 4
         }
       ]
@@ -77679,10 +77685,6 @@
           "score": 7
         },
         {
-          "id": "metabolites",
-          "score": 7
-        },
-        {
           "id": "siderophore-competition",
           "score": 7
         },
@@ -77692,6 +77694,10 @@
         },
         {
           "id": "lead",
+          "score": 5
+        },
+        {
+          "id": "sepsis",
           "score": 5
         }
       ]
@@ -80216,7 +80222,7 @@
         {
           "heading": "Lead and the Gut Microbiome",
           "level": 2,
-          "body": "Lead exposure alters gut microbial ecology:\n\n- Lead shifts microbiota composition toward increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[lactobacillus|Lactobacillus]] — a classic dysbiotic signature\n- Lead depletes [[glutathione]] reserves, the same detoxification molecule cadmium depletes\n- Co-exposure with other dietary metals (Cd, As) produces synergistic gut disruption\n- Gut microbial metabolites influence lead methylation and bioavailability"
+          "body": "Lead exposure alters gut microbial ecology:\n\n- Lead shifts microbiota composition toward increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[lactobacillus|Lactobacillus]] — a classic dysbiotic signature\n- Lead depletes [[glutathione]] reserves, the same detoxification molecule cadmium depletes\n- Co-exposure with other dietary metals (Cd, As) produces synergistic gut disruption\n- [[microbiome-derived-metabolites|Gut microbial metabolites]] influence lead methylation and bioavailability"
         },
         {
           "heading": "Regulatory Landscape",
@@ -80241,6 +80247,7 @@
         "enterobacteriaceae",
         "lactobacillus",
         "glutathione",
+        "microbiome-derived-metabolites",
         "heavy-metals-infant-foods",
         "dietary-cadmium-exposure",
         "developmental-metal-vulnerability",
@@ -81231,7 +81238,7 @@
         {
           "heading": "Functional Markers",
           "level": 3,
-          "body": "- Fecal SCFA levels: butyrate, propionate, acetate measured by GC-MS.\n- Fecal calprotectin: neutrophil-derived marker of intestinal inflammation; also an active participant in [[nutritional-immunity]].\n- Fecal LPS/endotoxin: direct measurement of barrier failure.\n- Urinary indoxyl sulfate and p-cresol sulfate: microbial metabolites elevated in dysbiosis."
+          "body": "- Fecal SCFA levels: butyrate, propionate, acetate measured by GC-MS.\n- Fecal calprotectin: neutrophil-derived marker of intestinal inflammation; also an active participant in [[nutritional-immunity]].\n- Fecal LPS/endotoxin: direct measurement of barrier failure.\n- Urinary indoxyl sulfate and p-cresol sulfate: [[microbiome-derived-metabolites|microbial metabolites]] elevated in dysbiosis."
         },
         {
           "heading": "Dysbiosis Across Disease Domains",
@@ -81305,6 +81312,7 @@
         "yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome",
         "kang-2023-diagnosis-crohns-uc-microbiome",
         "nutritional-immunity",
+        "microbiome-derived-metabolites",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
         "lombardi-2020-snas-probiotics-dysbiosis",
@@ -82014,7 +82022,7 @@
         {
           "heading": "Mechanistic Pathways",
           "level": 3,
-          "body": "The [[gut-microbiome]] influences dysmenorrhea through several routes:\n\n- [[estrobolome]]: Gut bacteria with [[beta-glucuronidase]] activity deconjugate estrogens, increasing circulating estradiol. Higher estrogen drives endometrial proliferation and prostaglandin production.\n- Systemic inflammation: [[dysbiosis]] increases intestinal permeability and LPS translocation, amplifying the baseline inflammatory state that worsens menstrual pain.\n- SCFA production: [[short-chain-fatty-acids]] from commensal bacteria (especially [[butyrate]]) suppress NF-kB and reduce systemic inflammation. Depletion of butyrate-producing taxa removes this anti-inflammatory brake.\n- Prostaglandin modulation: Microbial metabolites influence COX-2 expression in distant tissues, including the endometrium."
+          "body": "The [[gut-microbiome]] influences dysmenorrhea through several routes:\n\n- [[estrobolome]]: Gut bacteria with [[beta-glucuronidase]] activity deconjugate estrogens, increasing circulating estradiol. Higher estrogen drives endometrial proliferation and prostaglandin production.\n- Systemic inflammation: [[dysbiosis]] increases intestinal permeability and LPS translocation, amplifying the baseline inflammatory state that worsens menstrual pain.\n- SCFA production: [[short-chain-fatty-acids]] from commensal bacteria (especially [[butyrate]]) suppress NF-kB and reduce systemic inflammation. Depletion of butyrate-producing taxa removes this anti-inflammatory brake.\n- Prostaglandin modulation: [[microbiome-derived-metabolites|Microbial metabolites]] influence COX-2 expression in distant tissues, including the endometrium."
         },
         {
           "heading": "Environmental Exposures",
@@ -82060,6 +82068,7 @@
         "dysbiosis",
         "short-chain-fatty-acids",
         "butyrate",
+        "microbiome-derived-metabolites",
         "qin-2020-smoking-dysmenorrhea-meta-analysis",
         "metalloestrogens",
         "cadmium",
@@ -82543,7 +82552,7 @@
         {
           "heading": "The Exposome Perspective",
           "level": 2,
-          "body": "Endocrine disruption rarely involves a single chemical. The [[exposome]] framework recognizes that humans are exposed to complex mixtures of:\n\n- Heavy metals (dietary, occupational, environmental)\n- Organic EDCs (plastics, pesticides, personal care products)\n- Microbial metabolites that mimic or modulate hormones\n\nThese exposures interact synergistically. Cadmium + BPA may have greater estrogenic effect than either alone. Metal-induced [[oxidative-stress]] may sensitize estrogen receptors to organic EDCs. And the microbiome integrates all these exposures, creating a personalized endocrine-disrupting milieu."
+          "body": "Endocrine disruption rarely involves a single chemical. The [[exposome]] framework recognizes that humans are exposed to complex mixtures of:\n\n- Heavy metals (dietary, occupational, environmental)\n- Organic EDCs (plastics, pesticides, personal care products)\n- [[microbiome-derived-metabolites|Microbial metabolites]] that mimic or modulate hormones\n\nThese exposures interact synergistically. Cadmium + BPA may have greater estrogenic effect than either alone. Metal-induced [[oxidative-stress]] may sensitize estrogen receptors to organic EDCs. And the microbiome integrates all these exposures, creating a personalized endocrine-disrupting milieu."
         },
         {
           "heading": "Conditions Linked to Endocrine Disruption",
@@ -82585,6 +82594,7 @@
         "akkermansia-muciniphila",
         "kim-2023-edcs-phthalates-pfas-ppd-infant-neurodevelopment",
         "exposome",
+        "microbiome-derived-metabolites",
         "oxidative-stress",
         "pcos",
         "smovrsnik-2023-heavy-metals-oxidative-stress-pcos",
@@ -83657,7 +83667,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Epigenetic modifications — heritable changes in gene expression without altering the DNA sequence — are a primary mechanism through which both [[heavy-metals]] and the [[gut-microbiome]] influence disease across the lifespan. The three major epigenetic mechanisms (DNA methylation, histone modification, non-coding RNA) are all modulated by metal exposure and microbial metabolites, making epigenetics the molecular layer where metallomics and the microbiome converge on host gene expression."
+          "body": "Epigenetic modifications — heritable changes in gene expression without altering the DNA sequence — are a primary mechanism through which both [[heavy-metals]] and the [[gut-microbiome]] influence disease across the lifespan. The three major epigenetic mechanisms (DNA methylation, histone modification, non-coding RNA) are all modulated by metal exposure and [[microbiome-derived-metabolites|microbial metabolites]], making epigenetics the molecular layer where metallomics and the microbiome converge on host gene expression."
         },
         {
           "heading": "The Microbiome-Epigenome Interface",
@@ -83723,6 +83733,7 @@
       "wikilinks": [
         "heavy-metals",
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "butyrate",
         "faecalibacterium-prausnitzii",
         "roseburia",
@@ -83924,7 +83935,7 @@
         {
           "heading": "Microbiome-Epigenome Interactions",
           "level": 2,
-          "body": "The [[gut-microbiome]] influences host epigenetics through several mechanisms:\n\n- SCFA-mediated histone modification: [[butyrate|Butyrate]] is a potent HDAC inhibitor, promoting histone acetylation and open chromatin in colonocytes and immune cells. This is one of the primary mechanisms by which butyrate exerts anti-inflammatory and anti-cancer effects. Loss of butyrate-producing bacteria reduces this epigenetic regulation.\n- Folate production: Gut bacteria synthesize folate and other B vitamins essential for the one-carbon metabolism cycle that produces SAM. [[dysbiosis]] that reduces folate-producing organisms may limit methyl donor availability, compounding metal-induced SAM depletion.\n- Microbial metabolites: Various bacterial metabolites (including [[indoles]], [[polyphenols]] metabolites, and bile acid derivatives) influence DNMT and HDAC activity in intestinal epithelial cells.\n- Bidirectional relationship: Metal-induced epigenetic changes in intestinal epithelial cells alter antimicrobial peptide expression, mucin production, and immune signaling, reshaping the microbiome -- which in turn produces metabolites that further modify the epigenome."
+          "body": "The [[gut-microbiome]] influences host epigenetics through several mechanisms:\n\n- SCFA-mediated histone modification: [[butyrate|Butyrate]] is a potent HDAC inhibitor, promoting histone acetylation and open chromatin in colonocytes and immune cells. This is one of the primary mechanisms by which butyrate exerts anti-inflammatory and anti-cancer effects. Loss of butyrate-producing bacteria reduces this epigenetic regulation.\n- Folate production: Gut bacteria synthesize folate and other B vitamins essential for the one-carbon metabolism cycle that produces SAM. [[dysbiosis]] that reduces folate-producing organisms may limit methyl donor availability, compounding metal-induced SAM depletion.\n- [[microbiome-derived-metabolites|Microbial metabolites]]: Various bacterial metabolites (including [[indoles]], [[polyphenols]] metabolites, and bile acid derivatives) influence DNMT and HDAC activity in intestinal epithelial cells.\n- Bidirectional relationship: Metal-induced epigenetic changes in intestinal epithelial cells alter antimicrobial peptide expression, mucin production, and immune signaling, reshaping the microbiome -- which in turn produces metabolites that further modify the epigenome."
         },
         {
           "heading": "Disease Relevance",
@@ -83952,6 +83963,7 @@
         "gut-microbiome",
         "butyrate",
         "dysbiosis",
+        "microbiome-derived-metabolites",
         "indoles",
         "polyphenols",
         "metal-carcinogenesis",
@@ -86560,7 +86572,6 @@
         "lactobacillus-reuteri",
         "major-depressive-disorder",
         "allopregnanolone",
-        "metabolites",
         "serotonin-estrogen-axis"
       ],
       "related": [
@@ -87698,7 +87709,7 @@
         {
           "heading": "Vagal Pathway (Neural -- Direct)",
           "level": 3,
-          "body": "The vagus nerve (cranial nerve X) provides the most direct and rapid gut-to-brain connection, with ~80% of fibers being afferent (gut-to-brain) and ~20% efferent (brain-to-gut).\n\nAfferent signaling (gut to brain):\n- Vagal afferent terminals in the gut mucosa and muscularis detect microbial metabolites (SCFAs, indoles), gut hormones (GLP-1, PYY, CCK), and inflammatory signals.\n- SCFAs activate vagal afferents via FFAR2/FFAR3 receptors, signaling satiety and modulating [[inflammation]].\n- Bacterial metabolites that activate vagal afferents include serotonin (produced by enterochromaffin cells stimulated by microbial SCFAs), tryptamine, and GABA.\n- Vagal signals terminate in the nucleus tractus solitarius (NTS) in the brainstem, which relays to the hypothalamus, amygdala, and cortex.\n\nEfferent signaling (brain to gut):\n- The vagal efferent \"cholinergic anti-inflammatory pathway\" releases acetylcholine, which binds alpha-7 nicotinic receptors on macrophages, suppressing TNF-alpha and IL-1beta release.\n- Stress-induced vagal withdrawal reduces this anti-inflammatory brake, contributing to gut inflammation.\n- Vagal efferents modulate gut motility, acid secretion, and mucosal blood flow.\n\nCritical evidence: Vagotomy (severing the vagus nerve) is associated with lower Parkinson's disease risk in epidemiological studies [[gentile-2020-diet-microbiota-brain-health]], providing direct evidence that the vagus nerve serves as a conduit for gut-to-brain pathology."
+          "body": "The vagus nerve (cranial nerve X) provides the most direct and rapid gut-to-brain connection, with ~80% of fibers being afferent (gut-to-brain) and ~20% efferent (brain-to-gut).\n\nAfferent signaling (gut to brain):\n- Vagal afferent terminals in the gut mucosa and muscularis detect [[microbiome-derived-metabolites|microbial metabolites]] (SCFAs, indoles), gut hormones (GLP-1, PYY, CCK), and inflammatory signals.\n- SCFAs activate vagal afferents via FFAR2/FFAR3 receptors, signaling satiety and modulating [[inflammation]].\n- Bacterial metabolites that activate vagal afferents include serotonin (produced by enterochromaffin cells stimulated by microbial SCFAs), tryptamine, and GABA.\n- Vagal signals terminate in the nucleus tractus solitarius (NTS) in the brainstem, which relays to the hypothalamus, amygdala, and cortex.\n\nEfferent signaling (brain to gut):\n- The vagal efferent \"cholinergic anti-inflammatory pathway\" releases acetylcholine, which binds alpha-7 nicotinic receptors on macrophages, suppressing TNF-alpha and IL-1beta release.\n- Stress-induced vagal withdrawal reduces this anti-inflammatory brake, contributing to gut inflammation.\n- Vagal efferents modulate gut motility, acid secretion, and mucosal blood flow.\n\nCritical evidence: Vagotomy (severing the vagus nerve) is associated with lower Parkinson's disease risk in epidemiological studies [[gentile-2020-diet-microbiota-brain-health]], providing direct evidence that the vagus nerve serves as a conduit for gut-to-brain pathology."
         },
         {
           "heading": "Enteric Nervous System",
@@ -87778,6 +87789,7 @@
       ],
       "wikilinks": [
         "heavy-metals",
+        "microbiome-derived-metabolites",
         "inflammation",
         "gentile-2020-diet-microbiota-brain-health",
         "dysbiosis",
@@ -87871,7 +87883,6 @@
         "interleukin-6",
         "kynurenine-pathway",
         "maternal-immune-activation",
-        "metabolites",
         "microbial-metallomics",
         "microbiome-derived-metabolites",
         "microglia",
@@ -88273,10 +88284,6 @@
           "score": 14
         },
         {
-          "id": "metabolites",
-          "score": 10
-        },
-        {
           "id": "cardiovascular-disease",
           "score": 10
         },
@@ -88285,8 +88292,12 @@
           "score": 9
         },
         {
-          "id": "microbiome-derived-metabolites",
-          "score": 9
+          "id": "arsenic",
+          "score": 8
+        },
+        {
+          "id": "cadmium",
+          "score": 8
         }
       ]
     },
@@ -88432,7 +88443,7 @@
         {
           "heading": "Metabolite-Mediated Protection",
           "level": 3,
-          "body": "Microbial metabolites regulate host responses to metal stress:\n- SCFAs ([[butyrate]], propionate, acetate): Enhance epithelial barrier integrity, reduce [[inflammation]] via GPR41/43/109A receptors\n- Indole derivatives: Anti-inflammatory via aryl hydrocarbon receptor (AhR) activation\n- Bile acids: Immunomodulation via FXR and TGR5 receptors\n- Urolithin A: A gut microbial metabolite that protects colon epithelial cells against arsenic-induced [[oxidative-stress]] and barrier dysfunction"
+          "body": "[[microbiome-derived-metabolites|Microbial metabolites]] regulate host responses to metal stress:\n- SCFAs ([[butyrate]], propionate, acetate): Enhance epithelial barrier integrity, reduce [[inflammation]] via GPR41/43/109A receptors\n- Indole derivatives: Anti-inflammatory via aryl hydrocarbon receptor (AhR) activation\n- Bile acids: Immunomodulation via FXR and TGR5 receptors\n- Urolithin A: A gut microbial metabolite that protects colon epithelial cells against arsenic-induced [[oxidative-stress]] and barrier dysfunction"
         },
         {
           "heading": "Gut Barrier Disruption by Metals",
@@ -88492,6 +88503,7 @@
         "urease",
         "hydrogenase",
         "ammonia",
+        "microbiome-derived-metabolites",
         "butyrate",
         "inflammation",
         "oxidative-stress",
@@ -88763,7 +88775,7 @@
         {
           "heading": "5. Neuromodulation and the Gut-Brain Axis",
           "level": 3,
-          "body": "The gut-brain axis connects gut microbiome composition to brain function through neural (vagal), hormonal, and immunological routes:\n- Vagal afferents: Enteroendocrine cells in the intestinal lining sense microbial metabolites and transmit signals to the brain via the vagus nerve within seconds — the fastest gut-brain communication pathway\n- HPA axis: Gut dysbiosis activates the hypothalamic-pituitary-adrenal axis, elevating cortisol and sustaining low-grade systemic stress responses\n- Serotonin: ~90% of body serotonin is gut-derived and regulates intestinal motility, secretion, and bidirectional gut-brain communication [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]\n- Direct neurological disease risk: The gut-first hypothesis for Parkinson's disease proposes that alpha-synuclein misfolding begins in enteric neurons and propagates rostrally via the vagus nerve — positioning gut microbiome composition as an upstream driver of neurodegenerative pathology [[alonso-garcia-2021-gut-microbiota-proteinopathies]]"
+          "body": "The gut-brain axis connects gut microbiome composition to brain function through neural (vagal), hormonal, and immunological routes:\n- Vagal afferents: Enteroendocrine cells in the intestinal lining sense [[microbiome-derived-metabolites|microbial metabolites]] and transmit signals to the brain via the vagus nerve within seconds — the fastest gut-brain communication pathway\n- HPA axis: Gut dysbiosis activates the hypothalamic-pituitary-adrenal axis, elevating cortisol and sustaining low-grade systemic stress responses\n- Serotonin: ~90% of body serotonin is gut-derived and regulates intestinal motility, secretion, and bidirectional gut-brain communication [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]\n- Direct neurological disease risk: The gut-first hypothesis for Parkinson's disease proposes that alpha-synuclein misfolding begins in enteric neurons and propagates rostrally via the vagus nerve — positioning gut microbiome composition as an upstream driver of neurodegenerative pathology [[alonso-garcia-2021-gut-microbiota-proteinopathies]]"
         },
         {
           "heading": "The Metal-Microbiome Interface",
@@ -88788,7 +88800,7 @@
         {
           "heading": "See Also",
           "level": 2,
-          "body": "- [[gut-metal-microbiome]] — the metal-specific dimension of gut microbiome interactions\n- dysbiosis — the pathological disruption of microbiome composition and function\n- [[microbiome-derived-metabolites]] — the functional outputs of microbiome composition\n- [[short-chain-fatty-acids]] — the central beneficial metabolite class\n- [[nutritional-immunity]] — how host metal sequestration intersects with microbiome ecology\n- [[gut-brain-axis]] — neural, hormonal, and immunological connections between gut and brain\n- [[mycobiome]] — the fungal component of the gut microbiome\n- [[probiotics]] — therapeutic restoration of beneficial microbiome members\n- [[fecal-microbiota-transplant]] — community-level restoration strategy\n- [[co-selection]] — how metal exposure drives antibiotic resistance in gut bacteria"
+          "body": "- [[gut-metal-microbiome]] — the metal-specific dimension of gut microbiome interactions\n- dysbiosis — the pathological disruption of microbiome composition and function\n- microbiome-derived metabolites — the functional outputs of microbiome composition\n- [[short-chain-fatty-acids]] — the central beneficial metabolite class\n- [[nutritional-immunity]] — how host metal sequestration intersects with microbiome ecology\n- [[gut-brain-axis]] — neural, hormonal, and immunological connections between gut and brain\n- [[mycobiome]] — the fungal component of the gut microbiome\n- [[probiotics]] — therapeutic restoration of beneficial microbiome members\n- [[fecal-microbiota-transplant]] — community-level restoration strategy\n- [[co-selection]] — how metal exposure drives antibiotic resistance in gut bacteria"
         }
       ],
       "wikilinks": [
@@ -88813,6 +88825,7 @@
         "tight-junctions",
         "heavy-metals",
         "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
+        "microbiome-derived-metabolites",
         "alonso-garcia-2021-gut-microbiota-proteinopathies",
         "gut-metal-microbiome",
         "oxidative-stress",
@@ -88822,7 +88835,6 @@
         "hydrogenase",
         "inflammation",
         "luqman-2024-intestinal-microbiome-cvd-intervention",
-        "microbiome-derived-metabolites",
         "nutritional-immunity",
         "gut-brain-axis",
         "probiotics",
@@ -89335,7 +89347,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "The gut-prostate axis describes the bidirectional communication between the [[gut-microbiome]] and the prostate gland. Gut-derived microbial metabolites, inflammatory mediators, and immune signals influence prostatic health, while prostatic disease states alter systemic [[inflammation]] and, reciprocally, gut microbial composition.\n\nSystematic review evidence supports gut microbiome involvement in benign prostatic hyperplasia (BPH), with specific taxonomic shifts — including enrichment of pro-inflammatory Proteobacteria and depletion of SCFA-producing Firmicutes — consistently observed across BPH cohorts ([[xu-2026-gut-prostate-axis-bph-systematic-review]]). The mechanistic pathways implicated include microbial translocation through a compromised gut barrier, systemic endotoxemia, and androgen metabolism by gut bacteria."
+          "body": "The gut-prostate axis describes the bidirectional communication between the [[gut-microbiome]] and the prostate gland. Gut-derived [[microbiome-derived-metabolites|microbial metabolites]], inflammatory mediators, and immune signals influence prostatic health, while prostatic disease states alter systemic [[inflammation]] and, reciprocally, gut microbial composition.\n\nSystematic review evidence supports gut microbiome involvement in benign prostatic hyperplasia (BPH), with specific taxonomic shifts — including enrichment of pro-inflammatory Proteobacteria and depletion of SCFA-producing Firmicutes — consistently observed across BPH cohorts ([[xu-2026-gut-prostate-axis-bph-systematic-review]]). The mechanistic pathways implicated include microbial translocation through a compromised gut barrier, systemic endotoxemia, and androgen metabolism by gut bacteria."
         },
         {
           "heading": "Therapeutic Implications",
@@ -89350,6 +89362,7 @@
       ],
       "wikilinks": [
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "inflammation",
         "xu-2026-gut-prostate-axis-bph-systematic-review",
         "vocca-2025-probiotics-chronic-bacterial-prostatitis-rct",
@@ -89455,7 +89468,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "The gut-testis axis describes the bidirectional communication between the [[gut-microbiome]] and the male reproductive system. Gut-derived microbial metabolites, immune signals, and systemic inflammatory mediators influence testicular function, testosterone biosynthesis, and spermatogenesis, while androgen levels reciprocally shape gut microbial composition.\n\nIron-dependent cell death (ferroptosis) in spermatogenic cells represents one mechanistic node of this axis. The microbial metabolite 3-hydroxyphenylacetic acid (3-HPAA) has been shown to trigger ferroptosis in testicular tissue, directly linking gut microbial metabolism to spermatogenic failure ([[jin-2023-3hpaa-spermatogenesis-ferroptosis]]). This iron-ecology dimension connects the gut-testis axis to broader metallomics — iron availability in the gut selects for siderophore-producing bacteria whose metabolic outputs may propagate reproductive toxicity.\n\n[[oxidative-stress]] mediated by dysbiotic gut communities further impairs male fertility through systemic pathways ([[kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility]]), while comprehensive reviews establish the gut microbiota as a regulator of testosterone levels, sperm quality, and blood-testis barrier integrity ([[lv-2024-gut-microbiota-male-reproductive-function-review]])."
+          "body": "The gut-testis axis describes the bidirectional communication between the [[gut-microbiome]] and the male reproductive system. Gut-derived [[microbiome-derived-metabolites|microbial metabolites]], immune signals, and systemic inflammatory mediators influence testicular function, testosterone biosynthesis, and spermatogenesis, while androgen levels reciprocally shape gut microbial composition.\n\nIron-dependent cell death (ferroptosis) in spermatogenic cells represents one mechanistic node of this axis. The microbial metabolite 3-hydroxyphenylacetic acid (3-HPAA) has been shown to trigger ferroptosis in testicular tissue, directly linking gut microbial metabolism to spermatogenic failure ([[jin-2023-3hpaa-spermatogenesis-ferroptosis]]). This iron-ecology dimension connects the gut-testis axis to broader metallomics — iron availability in the gut selects for siderophore-producing bacteria whose metabolic outputs may propagate reproductive toxicity.\n\n[[oxidative-stress]] mediated by dysbiotic gut communities further impairs male fertility through systemic pathways ([[kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility]]), while comprehensive reviews establish the gut microbiota as a regulator of testosterone levels, sperm quality, and blood-testis barrier integrity ([[lv-2024-gut-microbiota-male-reproductive-function-review]])."
         },
         {
           "heading": "Cross-References",
@@ -89465,6 +89478,7 @@
       ],
       "wikilinks": [
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "jin-2023-3hpaa-spermatogenesis-ferroptosis",
         "oxidative-stress",
         "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility",
@@ -91640,7 +91654,6 @@
       "backlinks": [
         "cadaverine",
         "cysteine",
-        "metabolites",
         "saccharolytic-fermentation",
         "taurine",
         "hbot"
@@ -91667,15 +91680,15 @@
           "score": 5
         },
         {
-          "id": "nickel",
-          "score": 5
-        },
-        {
           "id": "porphyromonas-bennonis",
           "score": 5
         },
         {
           "id": "acetate",
+          "score": 5
+        },
+        {
+          "id": "bile-salt-hydrolase",
           "score": 5
         }
       ]
@@ -93808,10 +93821,6 @@
           "score": 7
         },
         {
-          "id": "microbiome-derived-metabolites",
-          "score": 7
-        },
-        {
           "id": "cardiovascular-disease",
           "score": 6
         },
@@ -93821,6 +93830,10 @@
         },
         {
           "id": "bile-acid-metabolism",
+          "score": 6
+        },
+        {
+          "id": "cardiovascular-disease-signature",
           "score": 6
         }
       ]
@@ -93889,7 +93902,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Indole is a microbial metabolite produced from tryptophan by bacterial tryptophanase (TnaA). It is one of the most abundant microbial signals in the gut (concentrations reach 250–1,100 µM in the colon) and the primary endogenous ligand for the aryl hydrocarbon receptor (AhR) — a transcription factor that regulates barrier integrity, immune tolerance, and xenobiotic metabolism. With 120 source mentions, indole derivatives are among the most discussed microbial metabolites in this wiki."
+          "body": "Indole is a microbial metabolite produced from tryptophan by bacterial tryptophanase (TnaA). It is one of the most abundant microbial signals in the gut (concentrations reach 250–1,100 µM in the colon) and the primary endogenous ligand for the aryl hydrocarbon receptor (AhR) — a transcription factor that regulates barrier integrity, immune tolerance, and xenobiotic metabolism. With 120 source mentions, indole derivatives are among the most discussed [[microbiome-derived-metabolites|microbial metabolites]] in this wiki."
         },
         {
           "heading": "Key Indole Derivatives",
@@ -93909,10 +93922,11 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[tryptophan]] — precursor amino acid\n- [[ahr]] — primary receptor for indole derivatives\n- [[kynurenine-pathway]] — competing tryptophan catabolism route\n- [[faecalibacterium-prausnitzii]] — F. hominis indole production\n- [[chlamydia-trachomatis]] — indole rescues tryptophan starvation\n- [[metabolites]] — broader microbial metabolite context"
+          "body": "- [[tryptophan]] — precursor amino acid\n- [[ahr]] — primary receptor for indole derivatives\n- [[kynurenine-pathway]] — competing tryptophan catabolism route\n- [[faecalibacterium-prausnitzii]] — F. hominis indole production\n- [[chlamydia-trachomatis]] — indole rescues tryptophan starvation\n- microbiome-derived metabolites — broader microbial metabolite context"
         }
       ],
       "wikilinks": [
+        "microbiome-derived-metabolites",
         "interleukin-22",
         "zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms",
         "colonization-resistance",
@@ -93922,8 +93936,7 @@
         "ahr",
         "kynurenine-pathway",
         "faecalibacterium-prausnitzii",
-        "chlamydia-trachomatis",
-        "metabolites"
+        "chlamydia-trachomatis"
       ],
       "sourceDir": "concepts",
       "sourceCount": 5,
@@ -94117,7 +94130,6 @@
         "gut-kidney-axis",
         "gut-microbiome",
         "interleukin-22",
-        "metabolites",
         "metabolomics",
         "tryptophan-metabolism",
         "tryptophan",
@@ -94127,24 +94139,20 @@
       ],
       "related": [
         {
-          "id": "butyrate",
-          "score": 31
-        },
-        {
           "id": "inflammation",
           "score": 30
         },
         {
-          "id": "iron",
-          "score": 23
-        },
-        {
-          "id": "ahr",
-          "score": 22
+          "id": "butyrate",
+          "score": 29
         },
         {
           "id": "microbiome-derived-metabolites",
-          "score": 22
+          "score": 27
+        },
+        {
+          "id": "iron",
+          "score": 23
         },
         {
           "id": "oxidative-stress",
@@ -94152,6 +94160,10 @@
         },
         {
           "id": "depression",
+          "score": 20
+        },
+        {
+          "id": "ahr",
           "score": 20
         },
         {
@@ -95895,15 +95907,15 @@
           "score": 12
         },
         {
+          "id": "microbiome-derived-metabolites",
+          "score": 11
+        },
+        {
           "id": "nutritional-immunity",
           "score": 10
         },
         {
           "id": "colorectal-cancer",
-          "score": 9
-        },
-        {
-          "id": "gut-brain-axis",
           "score": 9
         }
       ]
@@ -99353,193 +99365,6 @@
       ]
     },
     {
-      "id": "metabolites",
-      "title": "Microbial Metabolites",
-      "type": "concept",
-      "category": "mechanism",
-      "tags": [
-        "metabolites",
-        "SCFA",
-        "TMAO",
-        "bile-acids",
-        "tryptophan",
-        "indoles",
-        "LPS",
-        "p-cresol",
-        "uremic-toxins",
-        "metabolomics",
-        "neuroactive",
-        "signaling"
-      ],
-      "sources": [
-        "daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac",
-        "mafra-2022-fermented-food-cardiometabolic-diseases",
-        "luo-2022-gut-microbiota-metabolites-heart-failure-mr",
-        "ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice",
-        "hayashi-2019-gut-microbiome-metabolites-heart-failure",
-        "jiang-2023-gut-microbiome-metabolites-graves",
-        "weir-2013-stool-microbiome-metabolome-crc-healthy"
-      ],
-      "created": "2026-04-21T00:00:00.000Z",
-      "updated": "2026-04-21T00:00:00.000Z",
-      "frontmatter": {
-        "title": "Microbial Metabolites",
-        "type": "concept",
-        "created": "2026-04-21T00:00:00.000Z",
-        "updated": "2026-04-21T00:00:00.000Z",
-        "last_substantive_update": "2026-04-21T00:00:00.000Z",
-        "sources": [
-          "daniel-2024-mendelian-randomization-gut-bacteria-metabolites-pdac",
-          "mafra-2022-fermented-food-cardiometabolic-diseases",
-          "luo-2022-gut-microbiota-metabolites-heart-failure-mr",
-          "ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice",
-          "hayashi-2019-gut-microbiome-metabolites-heart-failure",
-          "jiang-2023-gut-microbiome-metabolites-graves",
-          "weir-2013-stool-microbiome-metabolome-crc-healthy"
-        ],
-        "source_count": 7,
-        "tags": [
-          "metabolites",
-          "SCFA",
-          "TMAO",
-          "bile-acids",
-          "tryptophan",
-          "indoles",
-          "LPS",
-          "p-cresol",
-          "uremic-toxins",
-          "metabolomics",
-          "neuroactive",
-          "signaling"
-        ],
-        "seo_target": "microbial metabolites gut microbiome SCFA TMAO bile acids",
-        "platform": "wikibiome",
-        "karen_brain_primitives": [
-          1,
-          4,
-          5
-        ]
-      },
-      "overview": "",
-      "sections": [
-        {
-          "heading": "Overview",
-          "level": 2,
-          "body": "Microbial metabolites are the chemical products of microbial metabolism that act as signaling molecules, nutrients, or toxins within and beyond the gut. They are the functional output of the microbiome — the mechanism by which microbial composition translates into host physiology and disease. With 418 source mentions across the vault, metabolites are the most frequently discussed functional concept in WikiBiome."
-        },
-        {
-          "heading": "Major Metabolite Classes",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Short-Chain Fatty Acids (SCFAs)",
-          "level": 3,
-          "body": "The most studied beneficial microbial metabolites. See [[short-chain-fatty-acids]], [[butyrate]], [[propionic-acid]].\n- Butyrate: Colonocyte fuel, HDAC inhibitor, barrier protector, anti-inflammatory via GPR109A.\n- Propionate: Hepatic gluconeogenesis modulator; anti-inflammatory.\n- Acetate: Most abundant SCFA; appetite regulation, peripheral metabolism."
-        },
-        {
-          "heading": "Trimethylamine N-Oxide (TMAO)",
-          "level": 3,
-          "body": "Microbial metabolism of choline/carnitine → TMA → hepatic oxidation → [[tmao|TMAO]]. Pro-atherosclerotic. See dedicated page."
-        },
-        {
-          "heading": "Bile Acid Metabolites",
-          "level": 3,
-          "body": "Bacterial bile salt hydrolases (BSH) deconjugate primary bile acids; 7α-dehydroxylases convert to secondary bile acids. See [[bile-acid-metabolism]]."
-        },
-        {
-          "heading": "Tryptophan Metabolites",
-          "level": 3,
-          "body": "Microbial tryptophan metabolism produces indoles ([[indoles]]), kynurenine pathway intermediates, and serotonin precursors. These activate [[ahr|AhR]] (aryl hydrocarbon receptor) and modulate [[gut-brain-axis]] signaling."
-        },
-        {
-          "heading": "Neuroactive Metabolites",
-          "level": 3,
-          "body": "- [[gaba|GABA]]: Produced by Lactobacillus, Bifidobacterium via glutamate decarboxylase.\n- [[serotonin]]: ~95% of body serotonin produced in the gut, modulated by microbial metabolites.\n- Dopamine precursors: Microbial tyrosine decarboxylase."
-        },
-        {
-          "heading": "Uremic Toxins",
-          "level": 3,
-          "body": "- p-Cresol sulfate, indoxyl sulfate: Microbial metabolites that accumulate in CKD, driving cardiovascular and neurological complications."
-        },
-        {
-          "heading": "Gaseous Metabolites",
-          "level": 3,
-          "body": "- [[hydrogen-sulfide]]: Produced by sulfate-reducing bacteria; cytotoxic at high concentrations, signaling molecule at low concentrations.\n- H₂: Substrate for [[nickel]]-dependent NiFe-hydrogenases in pathogenic Enterobacteriaceae."
-        },
-        {
-          "heading": "Metal-Metabolite Interface",
-          "level": 2,
-          "body": "Microbial metabolites and metals interact bidirectionally:\n- SCFA production requires iron-sulfur cluster enzymes (butyryl-CoA dehydrogenase) — metal availability directly affects metabolite output.\n- Siderophores are themselves metabolites — iron-chelating molecules that shape both microbial ecology and host iron homeostasis.\n- Metal exposure alters metabolite profiles: Cadmium exposure shifts fecal metabolomics, reducing beneficial SCFAs and increasing uremic toxin precursors."
-        },
-        {
-          "heading": "Cross-References",
-          "level": 2,
-          "body": "- [[short-chain-fatty-acids]] — the primary beneficial metabolite class\n- [[tmao]] — pro-atherosclerotic metabolite\n- [[bile-acid-metabolism]] — microbial bile acid transformation\n- [[indoles]] — tryptophan-derived AhR ligands\n- [[gaba]] — microbial-produced inhibitory neurotransmitter\n- [[serotonin]] — gut-produced neuroactive amine\n- [[siderophores]] — iron-chelating metabolites\n- [[gut-brain-axis]] — neuroactive metabolites as gut-brain mediators\n- [[microbiome-derived-metabolites]] — related page"
-        }
-      ],
-      "wikilinks": [
-        "short-chain-fatty-acids",
-        "butyrate",
-        "propionic-acid",
-        "tmao",
-        "bile-acid-metabolism",
-        "indoles",
-        "ahr",
-        "gut-brain-axis",
-        "gaba",
-        "serotonin",
-        "hydrogen-sulfide",
-        "nickel",
-        "siderophores",
-        "microbiome-derived-metabolites"
-      ],
-      "sourceDir": "concepts",
-      "sourceCount": 7,
-      "threshold": 3,
-      "belowThreshold": false,
-      "isStub": false,
-      "backlinks": [
-        "indole",
-        "postbiotic",
-        "succinate"
-      ],
-      "related": [
-        {
-          "id": "necrotizing-enterocolitis",
-          "score": 11
-        },
-        {
-          "id": "gut-kidney-axis",
-          "score": 10
-        },
-        {
-          "id": "metabolomics",
-          "score": 9
-        },
-        {
-          "id": "cardiovascular-disease",
-          "score": 8
-        },
-        {
-          "id": "postbiotic",
-          "score": 8
-        },
-        {
-          "id": "cadaverine",
-          "score": 7
-        },
-        {
-          "id": "colonization-resistance",
-          "score": 7
-        },
-        {
-          "id": "fermentative-metabolism",
-          "score": 7
-        }
-      ]
-    },
-    {
       "id": "metabolomics",
       "title": "Metabolomics",
       "type": "concept",
@@ -99700,6 +99525,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "microbiome-derived-metabolites",
         "broken-links-2026-04-16"
       ],
       "related": [
@@ -99708,7 +99534,7 @@
           "score": 11
         },
         {
-          "id": "metabolites",
+          "id": "gut-brain-axis",
           "score": 9
         },
         {
@@ -99716,11 +99542,11 @@
           "score": 9
         },
         {
-          "id": "gut-brain-axis",
+          "id": "microbial-biomarkers",
           "score": 7
         },
         {
-          "id": "microbial-biomarkers",
+          "id": "propionic-acid",
           "score": 7
         },
         {
@@ -101023,7 +100849,7 @@
         {
           "heading": "Gut Speciation Environment",
           "level": 2,
-          "body": "The gut lumen presents a complex speciation landscape. pH gradients from stomach to colon shift metal solubility (see [[pH-sensing]]). Dietary ligands — phytate, polyphenols, amino acids — chelate metals with varying affinity. Microbial metabolites, particularly organic acids and hydrogen sulfide, further alter speciation. Siderophores produced by gut bacteria convert insoluble Fe3+ to bioavailable chelated forms, giving siderophore producers a competitive edge."
+          "body": "The gut lumen presents a complex speciation landscape. pH gradients from stomach to colon shift metal solubility (see [[pH-sensing]]). Dietary ligands — phytate, polyphenols, amino acids — chelate metals with varying affinity. [[microbiome-derived-metabolites|Microbial metabolites]], particularly organic acids and hydrogen sulfide, further alter speciation. Siderophores produced by gut bacteria convert insoluble Fe3+ to bioavailable chelated forms, giving siderophore producers a competitive edge."
         },
         {
           "heading": "Implications for Metal Toxicity",
@@ -101038,6 +100864,7 @@
       ],
       "wikilinks": [
         "ph-sensing",
+        "microbiome-derived-metabolites",
         "biomarkers",
         "gut-microbiome",
         "iron",
@@ -102566,7 +102393,7 @@
         "seo_target": "microbial biomarkers",
         "last_substantive_update": "2026-04-10T00:00:00.000Z"
       },
-      "overview": "The use of [[gut-microbiome]] composition, microbial metabolites, or microbial products as diagnostic, prognostic, or monitoring tools for disease. Unlike traditional clinical biomarkers, microbial biomarkers capture the functional state of the host-microbiome ecosystem and can reflect both local (gut) and systemic disease processes.",
+      "overview": "The use of [[gut-microbiome]] composition, [[microbiome-derived-metabolites|microbial metabolites]], or microbial products as diagnostic, prognostic, or monitoring tools for disease. Unlike traditional clinical biomarkers, microbial biomarkers capture the functional state of the host-microbiome ecosystem and can reflect both local (gut) and systemic disease processes.",
       "sections": [
         {
           "heading": "Taxa-Based Biomarkers",
@@ -102611,6 +102438,7 @@
       ],
       "wikilinks": [
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "colorectal-cancer",
         "porphyromonas",
         "atherosclerosis",
@@ -102905,183 +102733,292 @@
       "type": "concept",
       "category": "mechanism",
       "tags": [
-        "metabolites",
+        "microbial-metabolites",
+        "host-microbial-co-metabolism",
         "SCFAs",
         "bile-acids",
         "TMAO",
         "tryptophan",
         "indoles",
-        "kynurenine",
         "uremic-toxins",
-        "microbiome",
-        "gut-metal-microbiome",
-        "p-cresol",
-        "gut-brain-axis"
+        "metabolomics",
+        "gut-brain-axis",
+        "gut-kidney-axis",
+        "gut-metal-microbiome"
       ],
       "sources": [
-        "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
-        "zhang-2025-gut-microbiota-cvd-mini-review",
-        "zhu-2024-toxic-essential-metals-gut-microbiota",
-        "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
-        "zhuang-2024-asd-pathogenesis-biomarker-intervention",
-        "wang-2022-gut-microbiota-health-cvd",
-        "alonso-garcia-2021-gut-microbiota-proteinopathies"
+        "spivak-2023-local-systemic-microbiome-derived-metabolites",
+        "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+        "chambers-2018-scfa-metabolic-cardiovascular-health",
+        "di-ciaula-2017-bile-acid-physiology",
+        "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
+        "zhen-2023-tmao-cardiovascular-diseases-review",
+        "chen-2019-microbiome-metabolome-gut-kidney-axis",
+        "yang-2021-dietary-fiber-uremic-toxins-ckd-meta-analysis",
+        "fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum",
+        "weir-2013-stool-microbiome-metabolome-crc-healthy",
+        "lu-2014-arsenic-gut-microbiome-metabolomics",
+        "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-16T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Microbiome-Derived Metabolites",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-16T00:00:00.000Z",
-        "last_substantive_update": "2026-04-16T00:00:00.000Z",
-        "sources": [
-          "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
-          "zhang-2025-gut-microbiota-cvd-mini-review",
-          "zhu-2024-toxic-essential-metals-gut-microbiota",
-          "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
-          "zhuang-2024-asd-pathogenesis-biomarker-intervention",
-          "wang-2022-gut-microbiota-health-cvd",
-          "alonso-garcia-2021-gut-microbiota-proteinopathies"
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
+        "aliases": [
+          "Microbial Metabolites",
+          "microbiota-derived metabolites",
+          "gut-derived metabolites",
+          "gut microbial metabolites"
         ],
-        "source_count": 7,
+        "sources": [
+          "spivak-2023-local-systemic-microbiome-derived-metabolites",
+          "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+          "chambers-2018-scfa-metabolic-cardiovascular-health",
+          "di-ciaula-2017-bile-acid-physiology",
+          "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
+          "zhen-2023-tmao-cardiovascular-diseases-review",
+          "chen-2019-microbiome-metabolome-gut-kidney-axis",
+          "yang-2021-dietary-fiber-uremic-toxins-ckd-meta-analysis",
+          "fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum",
+          "weir-2013-stool-microbiome-metabolome-crc-healthy",
+          "lu-2014-arsenic-gut-microbiome-metabolomics",
+          "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota"
+        ],
+        "source_count": 12,
         "tags": [
-          "metabolites",
+          "microbial-metabolites",
+          "host-microbial-co-metabolism",
           "SCFAs",
           "bile-acids",
           "TMAO",
           "tryptophan",
           "indoles",
-          "kynurenine",
           "uremic-toxins",
-          "microbiome",
-          "gut-metal-microbiome",
-          "p-cresol",
-          "gut-brain-axis"
+          "metabolomics",
+          "gut-brain-axis",
+          "gut-kidney-axis",
+          "gut-metal-microbiome"
         ],
+        "seo_target": "microbiome derived metabolites microbial metabolites SCFAs bile acids TMAO indoles",
         "platform": "wikibiome",
-        "seo_target": "gut microbiome metabolites SCFAs bile acids TMAO disease",
         "karen_brain_primitives": [
           1,
+          3,
           4,
           5,
           7
         ]
       },
-      "overview": "Small molecules produced, modified, or activated by gut microbiota that function as the primary chemical language between the microbiome and its host. These metabolites are not passive byproducts — they regulate gene expression, immune cell differentiation, gut barrier integrity, neuroendocrine signaling, and cardiovascular risk. When the microbiome composition shifts under metal exposure, antibiotic pressure, or dietary change, the metabolite landscape shifts with it, and these functional consequences ripple through every organ system.\n\nMicrobiome-derived metabolites translate community-level composition changes into physiological effects that can be measured in blood, urine, and tissue samples. They are the molecular mechanism by which [[dysbiosis]] causes disease — not through bacteria themselves crossing the gut barrier, but through their chemical outputs doing so.",
+      "overview": "Microbiome-derived metabolites are small molecules made, consumed, or chemically transformed through activity in the [[gut-microbiome]] and other host-associated communities. They connect community function to host biology, but the phrase covers several kinds of provenance: a molecule may be produced directly by microbes, converted from a dietary or host substrate, or completed through sequential microbial and host reactions. Reviews therefore group together chemically diverse families whose production sites, transport, receptors, and evidence bases differ substantially [[spivak-2023-local-systemic-microbiome-derived-metabolites]].\n\nThe term should not be used as a synonym for every molecule detected in stool, blood, or urine. A metabolomics association can identify a candidate functional signal without proving which organism produced it, whether it entered the circulation, or whether it caused an observed phenotype.",
       "sections": [
         {
-          "heading": "Short-Chain Fatty Acids (SCFAs)",
+          "heading": "Scope and Terminology",
           "level": 2,
-          "body": "Produced primarily through anaerobic fermentation of dietary fiber in the distal ileum and colon. The principal SCFAs are acetate (C2), propionate (C3), and [[butyrate]] (C4), produced in approximate molar ratios of 60:20:20.\n\nButyrate is the single most-studied SCFA and the primary energy substrate for colonocytes:\n- Inhibits histone deacetylases (HDACs) — acting as an epigenetic regulator of gene expression in colonocytes, immune cells, and (via the gut-brain axis) neurons\n- Activates GPR109A and GPR41 receptors on immune cells, driving Treg differentiation and anti-inflammatory cytokine production\n- Maintains [[tight-junctions|tight junctions]] and mucus layer integrity; butyrate deficiency leads to increased intestinal permeability\n- Stimulates the enteroendocrine system — GLP-1, PYY, GLP-2 release — influencing satiety, metabolism, and gut motility\n\nPropionate (see [[propionic-acid]]) has metabolic effects in the liver (gluconeogenesis, lipid metabolism) and signaling roles (GPR41/43 activation for PYY and GLP-1 release), but in excess — driven by Bacteroidetes enrichment and loss of butyrate-producing Firmicutes — it acts as a neurotoxin, crossing the blood-brain barrier to cause mitochondrial dysfunction and neuroinflammation.\n\nAcetate is the most abundant SCFA; serves as a substrate for lipogenesis in the liver and as a signaling molecule via GPR41/43 on adipocytes, immune cells, and colonic epithelium.\n\nDisease relevance of SCFA disruption:\n- Neurodegenerative diseases: SCFA producers (*Faecalibacterium prausnitzii*, *Roseburia*, *Blautia*) are among the most consistently depleted taxa in Parkinson's and Alzheimer's disease signatures [[alonso-garcia-2021-gut-microbiota-proteinopathies]]\n- IBD: Butyrate deficiency drives colonocyte energy starvation and tight junction breakdown — the intestinal permeability hallmark of Crohn's disease and UC\n- ASD: Elevated propionate and reduced Lachnospiraceae (butyrate producers) are among the most replicated microbiome findings in autism spectrum disorder [[zhuang-2024-asd-pathogenesis-biomarker-intervention]]\n- Cardiovascular disease: Butyrate and propionate signal via GPR41 on vascular smooth muscle cells and regulate blood pressure [[zhang-2025-gut-microbiota-cvd-mini-review]]\n\nMetal interactions with SCFA production:\n- Cadmium, lead, arsenic, and mercury deplete the Firmicutes taxa responsible for SCFA production [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]\n- Iron supplementation shifts the [[gut-microbiome]] away from SCFA-producing commensals toward pathobiont-enriched communities — an important clinical consideration in IBD management [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]\n- Zinc deficiency impairs colonocyte utilization of butyrate, reducing its functional effectiveness even when production is maintained"
+          "body": ""
         },
         {
-          "heading": "Bile Acid Metabolites",
-          "level": 2,
-          "body": "Primary bile acids (cholic acid, chenodeoxycholic acid) are synthesized in the liver from cholesterol and conjugated with glycine or taurine before secretion into the duodenum. Gut bacteria transform these into secondary bile acids through two key reactions: deconjugation (bile salt hydrolases, BSH) and 7-alpha-dehydroxylation (converting primary to secondary bile acids like deoxycholic acid and lithocholic acid).\n\nSecondary bile acids are potent signaling molecules that activate:\n- FXR (farnesoid X receptor): Regulates bile acid synthesis feedback, lipid metabolism, and intestinal barrier function\n- TGR5: G protein-coupled receptor on enterocytes, bile duct cells, and immune cells; regulates GLP-1 secretion, energy metabolism, and macrophage function\n- The gut-liver axis: Secondary bile acids recirculate via the portal vein, influencing hepatic gene expression programs\n\nDisease relevance:\n- Disrupted bile acid metabolism is documented in IBD, colorectal cancer, NAFLD, type 2 diabetes, and cardiovascular disease\n- In colorectal cancer, deoxycholic acid (a secondary bile acid) promotes epithelial proliferation and suppresses apoptosis — its elevation in dysbiotic microbiomes is mechanistically relevant to CRC risk\n- In Parkinson's disease, altered secondary bile acid profiles are detected in fecal metabolomics and may reflect dysbiosis rather than primary disease [[alonso-garcia-2021-gut-microbiota-proteinopathies]]\n\nMetal interactions:\n- Arsenic exposure disrupts bile acid homeostasis by altering BSH-expressing Bacteroidetes populations [[zhu-2024-toxic-essential-metals-gut-microbiota]]\n- Nickel exposure at occupational levels upregulates primary bile acid biosynthesis pathways while disrupting secondary bile acid production — a metal-specific metabolomic signature\n- Zinc deficiency alters bile acid pool composition through impaired FXR signaling"
+          "heading": "Direct Microbial Products",
+          "level": 3,
+          "body": "Direct products are synthesized by microbial pathways. Examples include [[short-chain-fatty-acids|short-chain fatty acids]] such as [[propionic-acid|propionate]] generated during fermentation, indoles made from tryptophan, and gases such as hydrogen sulfide. Even here, production depends on substrate availability, strain-level genes, cross-feeding, oxygen state, and the local ecological community."
         },
         {
-          "heading": "TMAO (Trimethylamine N-Oxide)",
-          "level": 2,
-          "body": "Produced through a two-step pathway: dietary choline, phosphatidylcholine, L-carnitine, and betaine are metabolized by gut bacteria to trimethylamine (TMA), which is absorbed and converted in the liver by FMO3 to TMAO.\n\nTMAO is the canonical example of a microbiome-derived metabolite that causes disease through a mechanism invisible to conventional dietary epidemiology: red meat consumption increases TMAO not through the meat itself but through the microbiome composition of the consumer.\n\nCardiovascular mechanisms [[zhang-2025-gut-microbiota-cvd-mini-review]]:\n- TMAO promotes foam cell formation in arterial walls (accelerates atherosclerosis)\n- Enhances platelet hyperreactivity — increases cardiovascular event risk independent of cholesterol levels\n- Induces endothelial dysfunction — reduces nitric oxide bioavailability and promotes vascular [[inflammation]]\n- Stimulates macrophage cholesterol uptake — the cellular mechanism of plaque formation\n\nPrimary TMAO-producing bacteria include *Prevotella*, *Hungatella*, and certain *Clostridiales*. TMAO production is microbiome-dependent: germ-free animals eating a high-choline diet do not develop elevated TMAO or accelerated atherosclerosis."
+          "heading": "Microbially Transformed Compounds",
+          "level": 3,
+          "body": "Some molecules begin as host or dietary compounds and are transformed by microbes. Primary bile acids are synthesized by the host, then deconjugated and converted by microbial enzymes into secondary bile acids. Those products participate in enterohepatic circulation and signal through receptors including FXR and TGR5 [[di-ciaula-2017-bile-acid-physiology]]."
         },
         {
-          "heading": "Tryptophan Metabolites",
-          "level": 2,
-          "body": "The essential amino acid tryptophan has three main microbial metabolism pathways, each producing metabolites with distinct physiological roles:\n\nIndole pathway (gut bacteria, primarily *Lactobacillus*, *Clostridium*, *Peptostreptococcus*):\n- Produces indole, indole-3-acetic acid (IAA), indole-3-propionic acid (IPA), and indole-3-aldehyde (IAld)\n- Activates the aryl hydrocarbon receptor (AhR) on intestinal epithelial cells and immune cells — promoting Treg differentiation, maintaining intestinal barrier integrity, and dampening mucosal inflammation\n- IPA is neuroprotective and crosses the blood-brain barrier; reduced IPA is documented in ASD, Alzheimer's disease, and depression\n\nKynurenine pathway (predominantly host enzymes IDO1/TDO, modulated by microbial metabolites):\n- Gut dysbiosis shifts tryptophan metabolism toward the kynurenine pathway by elevating IDO1 activity (driven by LPS/interferon signaling from Proteobacteria enrichment)\n- Kynurenine and its metabolites (quinolinic acid, kynurenic acid) are neuroactive: quinolinic acid is a potent NMDA receptor agonist and neurotoxin elevated in neuroinflammatory conditions; kynurenic acid is neuroprotective but its elevation in schizophrenia and ASD may reflect dysregulated pathway activity\n- Loss of indole-producing bacteria (Lactobacillus depletion in ASD) diverts tryptophan to kynurenine metabolism, reducing serotonin precursors and neuroprotective indoles simultaneously [[zhuang-2024-asd-pathogenesis-biomarker-intervention]]\n\nSerotonin pathway (enterochromaffin cells, modulated by gut bacteria):\n- 90–95% of the body's serotonin is produced in the gut; *Sporeforming Clostridia* promote serotonin synthesis by enterochromaffin cells\n- Gut serotonin regulates intestinal motility, secretion, and vagal signaling — connecting gut microbiome composition to gut-brain axis communication\n- Depletion of serotonin-stimulating bacteria contributes to constipation, mood dysregulation, and altered gut-brain signaling across neurological and psychiatric conditions\n\nMetal interactions with tryptophan metabolism:\n- IDO1 (the rate-limiting enzyme of the kynurenine pathway) is iron-dependent — iron availability modulates kynurenine/indole pathway balance\n- Zinc deficiency impairs *Lactobacillus* viability, reducing indole production; excess zinc from dysbiosis-associated inflammation drives IDO1 upregulation via immune activation [[zhu-2024-toxic-essential-metals-gut-microbiota]]"
+          "heading": "Host-Microbial Co-Metabolites",
+          "level": 3,
+          "body": "Other compounds require both microbial and host steps. Gut microbes convert choline, carnitine, and related substrates to trimethylamine; hepatic FMO enzymes then oxidize it to [[tmao|trimethylamine N-oxide]] [[zhen-2023-tmao-cardiovascular-diseases-review]]. Indoxyl sulfate similarly combines microbial conversion of tryptophan to indole with host absorption and hepatic conjugation. Calling such molecules “microbiome-derived” describes a causal contribution from the microbiome, not exclusive microbial synthesis."
         },
         {
-          "heading": "Uremic Toxins",
-          "level": 2,
-          "body": "In conditions of gut dysbiosis — particularly in chronic kidney disease where the uremic milieu further selects for pathogenic bacteria — specific metabolites accumulate to pathological levels:\n\n- Indoxyl sulfate: Produced when *E. coli* and other Proteobacteria generate indole from tryptophan, which is then sulfated in the liver. Indoxyl sulfate is nephrotoxic, pro-inflammatory, and accelerates CKD progression — a product of the same dysbiotic community that its accumulation further selects for.\n- p-Cresyl sulfate: Produced from tyrosine by gut bacteria (*Clostridiales*, *Bacteroidetes*). Accumulates in CKD; nephrotoxic and cardiotoxic.\n- Phenylacetylglutamine: Produced from phenylalanine by gut bacteria; activates adrenergic receptors on platelets, increasing platelet aggregation and cardiovascular event risk — a newly identified TMAO-independent cardiovascular risk metabolite."
+          "heading": "What Does Not Automatically Count",
+          "level": 3,
+          "body": "Host metabolites, drug metabolites, metal complexes, and dietary molecules are not microbiome-derived merely because they appear in a microbiome study. Structural microbial products such as lipopolysaccharide are also often discussed alongside metabolites because they signal to the host, but they are better described as microbial molecular products than as products of small-molecule metabolism [[spivak-2023-local-systemic-microbiome-derived-metabolites]]."
         },
         {
-          "heading": "Metal Interactions: Summary",
+          "heading": "From Production to Host Exposure",
           "level": 2,
-          "body": "The metallomic view of microbiome-derived metabolites reveals a systematic pattern: heavy metal exposure depletes the bacteria that produce beneficial metabolites, while enriching the bacteria that produce harmful ones.\n\n| Metal Exposure | Metabolite Change | Mechanism |\n|---------------|------------------|-----------|\n| Cd, Pb, Hg, As | ↓ Butyrate, ↓ propionate (within normal range), ↓ acetate | Kills Firmicutes SCFA producers [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]] |\n| Iron excess | ↑ TMAO, ↓ butyrate | Enriches Proteobacteria over Firmicutes; displaces Lactobacillus [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]] |\n| Nickel (occupational) | ↑ Primary bile acids, ↓ purine degradation | Depletes Lachnospiraceae, Blautia; enriches Parabacteroides [[zhu-2024-toxic-essential-metals-gut-microbiota]] |\n| Arsenic | Disrupted bile acid pool | Alters BSH-expressing Bacteroidetes composition |\n| Zinc deficiency | ↓ Indoles, ↓ butyrate efficacy | Depletes Lactobacillus; reduces colonocyte butyrate utilization |"
+          "body": "A detected molecule can occupy several distinct compartments:\n\n1. Luminal production occurs where microbes and substrates meet.\n2. Microbes or neighboring taxa may consume or transform the initial product.\n3. The intestinal epithelium may absorb, exclude, or metabolize what remains.\n4. The liver can conjugate or oxidize absorbed precursors before systemic release.\n5. Host tissues may respond through receptors, transporters, epigenetic enzymes, or immune pathways.\n6. The kidneys, bile, lungs, and intestine determine clearance and recirculation.\n\nThis sequence explains why fecal abundance, portal exposure, peripheral-blood concentration, and tissue dose are not interchangeable measurements. A low fecal concentration can reflect low production, high absorption, or rapid consumption; a high circulating concentration can reflect increased generation, reduced clearance, or both."
         },
         {
-          "heading": "Cross-References",
+          "heading": "Major Metabolite Families",
           "level": 2,
-          "body": "- [[short-chain-fatty-acids]] — the most studied class, with the most therapeutic evidence\n- butyrate — the flagship SCFA; anti-inflammatory, barrier-protective, epigenetic\n- [[propionic-acid]] — excess propionate and its neurotoxic effects in ASD\n- [[bile-acid-metabolism]] — secondary bile acid production and FXR/TGR5 signaling\n- [[tmao]] — cardiovascular risk metabolite; choline/carnitine → TMA → TMAO\n- [[gut-brain-axis]] — the route by which gut metabolites affect neurotransmission and neuroinflammation\n- dysbiosis — metabolite profile shifts are the functional readout of dysbiotic community changes\n- inflammation — metabolites mediate anti- (butyrate, indoles) and pro-inflammatory (TMAO, LPS) signaling\n- [[gut-metal-microbiome]] — metal exposure reshapes the organisms that produce each metabolite class\n- [[nutritional-immunity]] — metabolite signals help calibrate host metal sequestration responses"
+          "body": ""
+        },
+        {
+          "heading": "Short-Chain Fatty Acids",
+          "level": 3,
+          "body": "Acetate, propionate, and [[butyrate]] are produced during microbial fermentation of carbohydrates and other substrates. They can serve as fuels and signal through free-fatty-acid receptors; butyrate also inhibits histone deacetylases and can support [[tight-junctions|tight-junction]] regulation. Their effects on barrier function and [[inflammation]] vary by molecule, concentration, anatomical site, receptor distribution, and disease context. Reviews of intestinal and cardiovascular biology emphasize barrier, immune, endocrine, and metabolic pathways while also noting uncertainty about physiologically relevant tissue concentrations [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]] [[chambers-2018-scfa-metabolic-cardiovascular-health]]."
+        },
+        {
+          "heading": "Bile Acid Products",
+          "level": 3,
+          "body": "Microbial bile salt hydrolases and other enzymes reshape the host bile-acid pool. Secondary bile acids can alter intestinal ecology while signaling through host receptors involved in bile-acid synthesis, glucose and lipid metabolism, epithelial function, and immunity. “More” or “less” secondary bile acid is not a universal health direction: individual molecules can have different and sometimes opposing effects [[di-ciaula-2017-bile-acid-physiology]]."
+        },
+        {
+          "heading": "Tryptophan and Aromatic-Amino-Acid Products",
+          "level": 3,
+          "body": "Microbial tryptophan metabolism generates indole, indole-3-acetic acid, indole-3-propionic acid, indole-3-lactic acid, tryptamine, and related compounds. Some act as ligands for the [[ahr|aryl hydrocarbon receptor]], but effects depend on the ligand and responding cell type. The host-dominant kynurenine and serotonin pathways are distinct pathways that can nevertheless be influenced by microbial substrates and immune signals [[paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd]].\n\nTyrosine and phenylalanine metabolism also yields microbial precursors of p-cresyl sulfate and phenylacetylglutamine. These examples illustrate why aromatic-amino-acid metabolism must be described as a network of direct microbial products and host–microbial co-metabolites, not as one pathway with one net effect."
+        },
+        {
+          "heading": "Trimethylamine Pathway",
+          "level": 3,
+          "body": "The TMA/TMAO pathway is substrate-, microbiome-, liver-, sex-, and kidney-dependent. TMAO has been studied in atherosclerosis, thrombosis, heart failure, and renal disease, but a circulating value integrates dietary precursor exposure, microbial TMA-forming capacity, hepatic oxidation, and renal clearance. It is therefore not a microbiome-only measurement [[zhen-2023-tmao-cardiovascular-diseases-review]]."
+        },
+        {
+          "heading": "Uremic Solutes",
+          "level": 3,
+          "body": "In [[chronic-kidney-disease]], reduced renal clearance allows compounds including indoxyl sulfate, p-cresyl sulfate, and TMAO to accumulate. Kidney dysfunction also changes the intestinal environment, creating a feedback loop between urea handling, barrier function, microbial ecology, and proteolytic fermentation [[chen-2019-microbiome-metabolome-gut-kidney-axis]]. These molecules should be interpreted through both production and clearance rather than attributed to community composition alone."
+        },
+        {
+          "heading": "Local and Systemic Effects",
+          "level": 2,
+          "body": "Some microbial products act primarily near their site of production, whereas others reach the portal circulation or systemic tissues. SCFAs and bile-acid products can affect epithelial and immune cells locally; absorbed products may reach the liver, kidney, vasculature, or nervous system. A systems review maps these local and systemic routes but does not imply that every detected association represents a causal endocrine signal [[spivak-2023-local-systemic-microbiome-derived-metabolites]].\n\nLarge multi-omic studies can connect metagenomic functions with circulating or urinary features across human disease states. In the 1,241-person MetaCardis cohort, microbiome and metabolome features varied across the cardiometabolic disease spectrum, while treatment and disease stage complicated simple healthy-versus-diseased interpretations [[fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum]]. Smaller case-control work can generate useful hypotheses but has less power to distinguish disease, diet, medication, and sampling effects; a colorectal-cancer study of 21 participants illustrates both paired microbiome–metabolome measurement and this limitation [[weir-2013-stool-microbiome-metabolome-crc-healthy]]."
+        },
+        {
+          "heading": "Metal and Environmental Interactions",
+          "level": 2,
+          "body": "Metals can alter microbial metabolism by changing community composition, substrate competition, enzyme activity, redox conditions, and host barrier or immune state. Conversely, microbial products can affect metal solubility, absorption, sequestration, and host responses, including the metal-withholding and redistribution processes grouped under [[nutritional-immunity]]. These relationships belong to the [[gut-metal-microbiome]] interface, but the direction is metal-, dose-, model-, and metabolite-specific.\n\nFor example, an integrated mouse study found that arsenic exposure changed microbial composition and hundreds of fecal molecular features across bile-acid, lipid, amino-acid, and indole-related chemistry [[lu-2014-arsenic-gut-microbiome-metabolomics]]. Reviews of intestinal iron homeostasis likewise describe links among iron availability, community remodeling, SCFA production, indole signaling, and bile-acid metabolism [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]. These findings support an interaction framework; they do not establish that all metal exposures uniformly suppress beneficial metabolites or increase harmful ones in humans."
+        },
+        {
+          "heading": "Measuring and Attributing Origin",
+          "level": 2,
+          "body": "Common approaches answer different questions:\n\n- Targeted assays quantify predefined molecules with relatively strong chemical specificity.\n- Untargeted metabolomics surveys many molecular features but may leave annotations provisional.\n- Metagenomics identifies genes with potential metabolic capacity, not necessarily active flux.\n- Metatranscriptomics and metaproteomics add activity evidence but still do not directly measure metabolite transfer.\n- Culture, gnotobiotic experiments, isotope tracing, and gene perturbation provide stronger evidence of microbial production or transformation.\n- Paired stool, portal, plasma, urine, and tissue measurements help separate local production, absorption, distribution, and clearance.\n\nAssociating a taxon with a molecule is not enough to identify a producer. Cross-feeding means one organism may create a precursor while another makes the measured end product, and host enzymes may complete the pathway."
+        },
+        {
+          "heading": "Evidence Interpretation",
+          "level": 2,
+          "body": "The most defensible interpretation specifies:\n\n- the exact molecule rather than an undifferentiated “metabolite profile”;\n- whether the molecule is directly microbial, microbially transformed, or a host–microbial co-metabolite;\n- the sampled compartment and timing;\n- the evidence type used to attribute microbial origin;\n- diet, medication, kidney and liver function, age, and other major confounders;\n- whether the result is associative, mechanistic, or interventional.\n\nChanges in community composition and changes in metabolic function can diverge. Different taxa may perform the same reaction, while closely related strains can have different pathway genes. Functional claims should therefore not be inferred from taxonomy alone."
+        },
+        {
+          "heading": "Intervention Boundaries",
+          "level": 2,
+          "body": "Microbial metabolites are not uniformly beneficial or harmful, and a metabolite-associated pathway is not automatically an intervention target. Increasing a precursor, organism, or end product can have different effects depending on dose, site, host clearance, and concurrent disease.\n\nThere is condition-specific interventional evidence. A meta-analysis of 10 randomized trials involving 292 people with CKD found that dietary-fiber supplementation reduced indoxyl sulfate and p-cresyl sulfate, with heterogeneity across fiber types and study designs [[yang-2021-dietary-fiber-uremic-toxins-ckd-meta-analysis]]. That result supports substrate-sensitive microbial metabolism in a defined clinical context; it does not establish a universal fiber dose or justify treating an abnormal metabolomics result without clinical evaluation."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[metabolomics]] — measurement of small-molecule profiles and pathway features\n- [[bile-acid-metabolism]] — host synthesis and microbial transformation of the bile-acid pool\n- [[tryptophan-metabolism]] — microbial indole production and host-dominant kynurenine and serotonin pathways\n- [[uremic-toxins]] — gut-derived precursors combined with host conjugation and renal clearance\n- [[gut-brain-axis]] — neural, immune, endocrine, and metabolic communication routes\n- [[dysbiosis]] — ecological disruption that may change function without a single universal metabolite signature"
         }
       ],
       "wikilinks": [
-        "dysbiosis",
+        "gut-microbiome",
+        "spivak-2023-local-systemic-microbiome-derived-metabolites",
+        "short-chain-fatty-acids",
+        "propionic-acid",
+        "di-ciaula-2017-bile-acid-physiology",
+        "tmao",
+        "zhen-2023-tmao-cardiovascular-diseases-review",
         "butyrate",
         "tight-junctions",
-        "propionic-acid",
-        "alonso-garcia-2021-gut-microbiota-proteinopathies",
-        "zhuang-2024-asd-pathogenesis-biomarker-intervention",
-        "zhang-2025-gut-microbiota-cvd-mini-review",
-        "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
-        "gut-microbiome",
-        "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
-        "zhu-2024-toxic-essential-metals-gut-microbiota",
         "inflammation",
-        "short-chain-fatty-acids",
-        "bile-acid-metabolism",
-        "tmao",
-        "gut-brain-axis",
+        "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+        "chambers-2018-scfa-metabolic-cardiovascular-health",
+        "ahr",
+        "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
+        "chronic-kidney-disease",
+        "chen-2019-microbiome-metabolome-gut-kidney-axis",
+        "fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum",
+        "weir-2013-stool-microbiome-metabolome-crc-healthy",
+        "nutritional-immunity",
         "gut-metal-microbiome",
-        "nutritional-immunity"
+        "lu-2014-arsenic-gut-microbiome-metabolomics",
+        "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+        "yang-2021-dietary-fiber-uremic-toxins-ckd-meta-analysis",
+        "metabolomics",
+        "bile-acid-metabolism",
+        "tryptophan-metabolism",
+        "uremic-toxins",
+        "gut-brain-axis",
+        "dysbiosis"
       ],
       "sourceDir": "concepts",
-      "sourceCount": 7,
+      "sourceCount": 12,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
         "alzheimers-disease",
         "cardiovascular-disease",
+        "chronic-fatigue-syndrome",
+        "colorectal-cancer",
+        "coronary-artery-disease",
         "dopamine",
+        "fibromyalgia",
+        "hypertension",
         "inflammatory-bowel-disease",
         "kynurenine",
+        "major-depressive-disorder",
         "parkinsons-disease",
+        "selenomonas",
         "serotonin",
+        "sutterella",
         "autophagy",
+        "blood-brain-barrier",
+        "dietary-lead-exposure",
+        "dysbiosis",
+        "dysmenorrhea",
+        "endocrine-disruption",
+        "epigenetic-modifications",
+        "epigenetics",
+        "gut-brain-axis",
+        "gut-metal-microbiome",
         "gut-microbiome",
+        "gut-prostate-axis",
+        "gut-testis-axis",
+        "indole",
         "indoxyl-sulfate",
-        "metabolites",
         "metabolomics",
+        "metal-speciation",
+        "microbial-biomarkers",
+        "mitochondrial-dysfunction",
+        "nlrp3-inflammasome",
+        "nrf2",
         "p-cresol",
         "phenylalanine",
         "polyamines",
+        "postbiotic",
+        "succinate",
         "tryptophan",
         "uremic-toxins"
       ],
       "related": [
         {
           "id": "oxidative-stress",
-          "score": 29
-        },
-        {
-          "id": "parkinsons-disease",
-          "score": 24
+          "score": 50
         },
         {
           "id": "cardiovascular-disease",
-          "score": 22
-        },
-        {
-          "id": "indoles",
-          "score": 22
+          "score": 35
         },
         {
           "id": "iron",
-          "score": 21
+          "score": 35
         },
         {
-          "id": "chronic-kidney-disease",
-          "score": 20
+          "id": "cadmium",
+          "score": 30
         },
         {
-          "id": "tryptophan-metabolism",
-          "score": 19
+          "id": "cardiovascular-disease",
+          "score": 30
         },
         {
-          "id": "depression",
-          "score": 18
+          "id": "heavy-metals",
+          "score": 29
+        },
+        {
+          "id": "faecalibacterium-prausnitzii",
+          "score": 28
+        },
+        {
+          "id": "indoles",
+          "score": 27
         }
       ]
     },
@@ -103866,7 +103803,7 @@
         "seo_target": "mitochondrial dysfunction heavy metals microbiome",
         "platform": "wikibiome"
       },
-      "overview": "Mitochondrial dysfunction refers to the impairment of mitochondrial energy production, redox balance, and signaling functions. Mitochondria are the primary targets of heavy metal toxicity in human cells, and they are also the organelles most dependent on metal cofactors for function -- creating a paradox where both metal excess and metal deficiency can collapse mitochondrial performance. The emerging connection between the [[gut-microbiome]] and mitochondrial health adds another layer: microbial metabolites like [[butyrate]] and [[short-chain-fatty-acids]] directly support mitochondrial function, while microbial-derived toxins ([[tmao|uremic-toxins]], LPS) impair it.",
+      "overview": "Mitochondrial dysfunction refers to the impairment of mitochondrial energy production, redox balance, and signaling functions. Mitochondria are the primary targets of heavy metal toxicity in human cells, and they are also the organelles most dependent on metal cofactors for function -- creating a paradox where both metal excess and metal deficiency can collapse mitochondrial performance. The emerging connection between the [[gut-microbiome]] and mitochondrial health adds another layer: [[microbiome-derived-metabolites|microbial metabolites]] like [[butyrate]] and [[short-chain-fatty-acids]] directly support mitochondrial function, while microbial-derived toxins ([[tmao|uremic-toxins]], LPS) impair it.",
       "sections": [
         {
           "heading": "Why Mitochondria Are Metal Vulnerable",
@@ -103946,6 +103883,7 @@
       ],
       "wikilinks": [
         "gut-microbiome",
+        "microbiome-derived-metabolites",
         "butyrate",
         "short-chain-fatty-acids",
         "tmao",
@@ -106626,7 +106564,7 @@
         "seo_target": "NLRP3 inflammasome microbiome inflammation",
         "platform": "wikibiome"
       },
-      "overview": "The NLRP3 inflammasome is a host innate-immune signaling complex that connects cellular danger signals to caspase-1 activation. In the canonical pathway represented in WikiBiome's evidence vault, caspase-1 processes the inflammatory cytokines IL-1beta and IL-18 and cleaves gasdermin D, whose membrane-forming fragment participates in pyroptotic cell death [[luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis]].\n\nNLRP3 is not a microorganism or a microbial product. It is a host response system that can be engaged by signals arising from infection, microbial metabolites, barrier failure, tissue damage, [[oxidative-stress]], or toxicant exposure. Its importance to WikiBiome is therefore relational: it is one route by which changes in microbial ecology and metal exposure can become host [[inflammation]] [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]] [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].",
+      "overview": "The NLRP3 inflammasome is a host innate-immune signaling complex that connects cellular danger signals to caspase-1 activation. In the canonical pathway represented in WikiBiome's evidence vault, caspase-1 processes the inflammatory cytokines IL-1beta and IL-18 and cleaves gasdermin D, whose membrane-forming fragment participates in pyroptotic cell death [[luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis]].\n\nNLRP3 is not a microorganism or a microbial product. It is a host response system that can be engaged by signals arising from infection, [[microbiome-derived-metabolites|microbial metabolites]], barrier failure, tissue damage, [[oxidative-stress]], or toxicant exposure. Its importance to WikiBiome is therefore relational: it is one route by which changes in microbial ecology and metal exposure can become host [[inflammation]] [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]] [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].",
       "sections": [
         {
           "heading": "From sensing to inflammatory output",
@@ -106661,6 +106599,7 @@
       ],
       "wikilinks": [
         "luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis",
+        "microbiome-derived-metabolites",
         "oxidative-stress",
         "inflammation",
         "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
@@ -106798,7 +106737,7 @@
         {
           "heading": "Relevance to WikiBiome",
           "level": 2,
-          "body": "- Metal-Nrf2 interactions: [[heavy-metals]] (cadmium, arsenic, lead) can activate or inhibit Nrf2, depending on dose and chronicity. Acute exposure activates Nrf2 as a defense response; chronic exposure can deplete the Nrf2 pathway.\n- Microbiome-Nrf2 crosstalk: Gut microbial metabolites (e.g., [[butyrate]], sulforaphane from dietary sources) can activate Nrf2, while [[dysbiosis]]-associated metabolites may impair it.\n- Disease relevance: Nrf2 dysregulation is implicated in multiple sclerosis ([[bucciero-2026-diet-ms-oxidative-stress-nrf2]]), neurodegeneration, and inflammatory bowel disease."
+          "body": "- Metal-Nrf2 interactions: [[heavy-metals]] (cadmium, arsenic, lead) can activate or inhibit Nrf2, depending on dose and chronicity. Acute exposure activates Nrf2 as a defense response; chronic exposure can deplete the Nrf2 pathway.\n- Microbiome-Nrf2 crosstalk: [[microbiome-derived-metabolites|Gut microbial metabolites]] (e.g., [[butyrate]], sulforaphane from dietary sources) can activate Nrf2, while [[dysbiosis]]-associated metabolites may impair it.\n- Disease relevance: Nrf2 dysregulation is implicated in multiple sclerosis ([[bucciero-2026-diet-ms-oxidative-stress-nrf2]]), neurodegeneration, and inflammatory bowel disease."
         },
         {
           "heading": "Cross-References",
@@ -106810,6 +106749,7 @@
         "oxidative-stress",
         "inflammation",
         "heavy-metals",
+        "microbiome-derived-metabolites",
         "butyrate",
         "dysbiosis",
         "bucciero-2026-diet-ms-oxidative-stress-nrf2",
@@ -108745,7 +108685,7 @@
         {
           "heading": "Parkinson's Disease",
           "level": 2,
-          "body": "p-Cresol has been identified among the altered microbial metabolites in PD gut-brain axis studies [[tan-2021-microbiome-derived-metabolites-parkinsons]]. Its DBH-inhibiting activity is particularly relevant given the catecholaminergic neurodegeneration in PD."
+          "body": "p-Cresol has been identified among the altered [[microbiome-derived-metabolites|microbial metabolites]] in PD gut-brain axis studies [[tan-2021-microbiome-derived-metabolites-parkinsons]]. Its DBH-inhibiting activity is particularly relevant given the catecholaminergic neurodegeneration in PD."
         },
         {
           "heading": "Metal Connections",
@@ -108760,7 +108700,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[clostridioides-difficile]] -- primary p-cresol producer\n- [[autism-spectrum-disorder]] -- urinary p-cresol as ASD biomarker\n- [[chronic-kidney-disease]] -- p-cresol sulfate as protein-bound uremic toxin\n- [[dopamine]] -- p-cresol inhibits dopamine beta-hydroxylase\n- [[blood-brain-barrier]] -- p-cresol crosses BBB\n- butyrate -- saccharolytic (butyrate) vs proteolytic (p-cresol) fermentation balance\n- dysbiosis -- proteolytic shift increases p-cresol production\n- [[microbiome-derived-metabolites]] -- p-cresol as key microbial metabolite"
+          "body": "- [[clostridioides-difficile]] -- primary p-cresol producer\n- [[autism-spectrum-disorder]] -- urinary p-cresol as ASD biomarker\n- [[chronic-kidney-disease]] -- p-cresol sulfate as protein-bound uremic toxin\n- [[dopamine]] -- p-cresol inhibits dopamine beta-hydroxylase\n- [[blood-brain-barrier]] -- p-cresol crosses BBB\n- butyrate -- saccharolytic (butyrate) vs proteolytic (p-cresol) fermentation balance\n- dysbiosis -- proteolytic shift increases p-cresol production\n- microbiome-derived metabolites -- p-cresol as key microbial metabolite"
         }
       ],
       "wikilinks": [
@@ -108772,12 +108712,12 @@
         "vernocchi-2023-gut-microbiota-vocs-asd-biomarkers-predictors",
         "hu-2020-high-throughput-sequencing-intestinal-flora-esrd-ckd",
         "butyrate",
+        "microbiome-derived-metabolites",
         "tan-2021-microbiome-derived-metabolites-parkinsons",
         "alpha-klotho",
         "autism-spectrum-disorder",
         "chronic-kidney-disease",
-        "dopamine",
-        "microbiome-derived-metabolites"
+        "dopamine"
       ],
       "sourceDir": "concepts",
       "sourceCount": 5,
@@ -108950,12 +108890,12 @@
           "score": 7
         },
         {
-          "id": "metabolites",
+          "id": "siderophore-competition",
           "score": 7
         },
         {
-          "id": "siderophore-competition",
-          "score": 7
+          "id": "iron",
+          "score": 6
         }
       ]
     },
@@ -110053,7 +109993,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[microbiome-derived-metabolites]] -- PAGln as novel cardiovascular risk metabolite\n- [[fermentative-metabolism]] -- phenylalanine as proteolytic fermentation substrate\n- [[dopamine]] -- phenylalanine as upstream precursor\n- [[parkinsons-disease]] -- levodopa bioavailability affected by bacterial metabolism\n- [[cardiovascular-disease]] -- PAGln-mediated platelet activation\n- [[autism-spectrum-disorder]] -- aromatic amino acid metabolite dysregulation\n- [[chronic-kidney-disease]] -- phenylalanine-derived uremic toxins\n- [[histidine]] -- co-regulated aromatic amino acid"
+          "body": "- Microbiome-derived metabolites -- PAGln as novel cardiovascular risk metabolite\n- [[fermentative-metabolism]] -- phenylalanine as proteolytic fermentation substrate\n- [[dopamine]] -- phenylalanine as upstream precursor\n- [[parkinsons-disease]] -- levodopa bioavailability affected by bacterial metabolism\n- [[cardiovascular-disease]] -- PAGln-mediated platelet activation\n- [[autism-spectrum-disorder]] -- aromatic amino acid metabolite dysregulation\n- [[chronic-kidney-disease]] -- phenylalanine-derived uremic toxins\n- [[histidine]] -- co-regulated aromatic amino acid"
         }
       ],
       "wikilinks": [
@@ -110485,7 +110425,7 @@
         {
           "heading": "Cancer -- Context-Dependent",
           "level": 3,
-          "body": "Polyamines have a dual role in cancer biology:\n\n- Pro-tumorigenic: High concentrations promote tumor cell proliferation and immune suppression in the tumor microenvironment [[hanus-2021-immune-microbiota-metabolites-crc-triad]].\n- Anti-tumorigenic: Spermidine-modified pullulan reduces the immunosuppressive tumor microenvironment [[hanus-2021-immune-microbiota-metabolites-crc-triad]].\n- Polyamine biosynthesis is enriched in ketogenic diet-fed mice with accelerated ovarian cancer growth [[alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse]].\n\nThe dual nature parallels many microbial metabolites: beneficial at physiological concentrations, harmful when [[dysbiosis]] drives overproduction or when the wrong cell types are exposed."
+          "body": "Polyamines have a dual role in cancer biology:\n\n- Pro-tumorigenic: High concentrations promote tumor cell proliferation and immune suppression in the tumor microenvironment [[hanus-2021-immune-microbiota-metabolites-crc-triad]].\n- Anti-tumorigenic: Spermidine-modified pullulan reduces the immunosuppressive tumor microenvironment [[hanus-2021-immune-microbiota-metabolites-crc-triad]].\n- Polyamine biosynthesis is enriched in ketogenic diet-fed mice with accelerated ovarian cancer growth [[alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse]].\n\nThe dual nature parallels many [[microbiome-derived-metabolites|microbial metabolites]]: beneficial at physiological concentrations, harmful when [[dysbiosis]] drives overproduction or when the wrong cell types are exposed."
         },
         {
           "heading": "Metal Connections",
@@ -110500,7 +110440,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[cardiovascular-disease]] -- spermidine cardioprotection\n- [[colorectal-cancer]] -- polyamine dual role in tumor microenvironment\n- [[microbiome-derived-metabolites]] -- broader metabolite framework\n- [[multiple-sclerosis]] -- spermidine as EAE therapeutic candidate\n- [[butyrate]] -- co-produced SCFA with synergistic anti-inflammatory effects\n- [[fermentative-metabolism]] -- amino acid fermentation producing polyamines\n- [[autism-spectrum-disorder]] -- ornithine deficit impairing polyamine synthesis"
+          "body": "- [[cardiovascular-disease]] -- spermidine cardioprotection\n- [[colorectal-cancer]] -- polyamine dual role in tumor microenvironment\n- microbiome-derived metabolites -- broader metabolite framework\n- [[multiple-sclerosis]] -- spermidine as EAE therapeutic candidate\n- [[butyrate]] -- co-produced SCFA with synergistic anti-inflammatory effects\n- [[fermentative-metabolism]] -- amino acid fermentation producing polyamines\n- [[autism-spectrum-disorder]] -- ornithine deficit impairing polyamine synthesis"
         }
       ],
       "wikilinks": [
@@ -110512,11 +110452,11 @@
         "duarte-silva-2022-microbial-metabolites-ms",
         "hanus-2021-immune-microbiota-metabolites-crc-triad",
         "alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse",
+        "microbiome-derived-metabolites",
         "dysbiosis",
         "autism-spectrum-disorder",
         "chang-2024-metabolome-amino-acids-asd",
         "colorectal-cancer",
-        "microbiome-derived-metabolites",
         "multiple-sclerosis",
         "butyrate",
         "fermentative-metabolism"
@@ -110957,7 +110897,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Postbiotics are defined by ISAPP (2021) as \"preparations of inanimate microorganisms and/or their components that confer a health benefit on the host.\" They include heat-killed bacteria, cell-free supernatants, bacterial lysates, and purified microbial metabolites (SCFAs, bacteriocins, exopolysaccharides). Postbiotics offer the functional benefits of probiotics without the risks of live organism administration — relevant for immunocompromised patients, neonates, and conditions where live bacteria could cause [[bacteremia]]."
+          "body": "Postbiotics are defined by ISAPP (2021) as \"preparations of inanimate microorganisms and/or their components that confer a health benefit on the host.\" They include heat-killed bacteria, cell-free supernatants, bacterial lysates, and purified [[microbiome-derived-metabolites|microbial metabolites]] (SCFAs, bacteriocins, exopolysaccharides). Postbiotics offer the functional benefits of probiotics without the risks of live organism administration — relevant for immunocompromised patients, neonates, and conditions where live bacteria could cause [[bacteremia]]."
         },
         {
           "heading": "Advantages",
@@ -110972,16 +110912,16 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[prebiotics]] — substrate for live microbial postbiotic production\n- [[synbiotic]] — live probiotic + prebiotic combination (distinct from postbiotic)\n- [[short-chain-fatty-acids]] — primary postbiotic metabolite class\n- [[metabolites]] — broader microbial metabolite context"
+          "body": "- [[prebiotics]] — substrate for live microbial postbiotic production\n- [[synbiotic]] — live probiotic + prebiotic combination (distinct from postbiotic)\n- [[short-chain-fatty-acids]] — primary postbiotic metabolite class\n- microbiome-derived metabolites — broader microbial metabolite context"
         }
       ],
       "wikilinks": [
+        "microbiome-derived-metabolites",
         "bacteremia",
         "short-chain-fatty-acids",
         "butyrate",
         "prebiotics",
-        "synbiotic",
-        "metabolites"
+        "synbiotic"
       ],
       "sourceDir": "concepts",
       "sourceCount": 3,
@@ -112004,26 +111944,17 @@
         "mycoplasma",
         "propionibacterium",
         "selenomonas",
-        "metabolites",
         "microbiome-derived-metabolites",
         "ursodeoxycholic-acid",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
-          "id": "microbiome-derived-metabolites",
-          "score": 17
-        },
-        {
           "id": "parkinsons-disease",
           "score": 10
         },
         {
           "id": "gut-metal-microbiome",
-          "score": 10
-        },
-        {
-          "id": "indoles",
           "score": 10
         },
         {
@@ -112035,11 +111966,19 @@
           "score": 9
         },
         {
-          "id": "bile-acid-metabolism",
-          "score": 9
+          "id": "colorectal-cancer",
+          "score": 8
         },
         {
-          "id": "colorectal-cancer",
+          "id": "schizophrenia",
+          "score": 8
+        },
+        {
+          "id": "alpha-synuclein",
+          "score": 8
+        },
+        {
+          "id": "amyloid-beta",
           "score": 8
         }
       ]
@@ -112169,7 +112108,7 @@
           "score": 5
         },
         {
-          "id": "microbiome-derived-metabolites",
+          "id": "anxiety-signature",
           "score": 5
         }
       ]
@@ -113190,6 +113129,10 @@
           "score": 6
         },
         {
+          "id": "microbiome-derived-metabolites",
+          "score": 5
+        },
+        {
           "id": "zonulin",
           "score": 4
         },
@@ -113211,10 +113154,6 @@
         },
         {
           "id": "erectile-dysfunction",
-          "score": 3
-        },
-        {
-          "id": "lactobacillus-jensenii",
           "score": 3
         }
       ]
@@ -113619,7 +113558,6 @@
         "intestinal-permeability",
         "iron-sulfur-clusters",
         "lipid-metabolism",
-        "metabolites",
         "metabolomics",
         "microbial-biomarkers",
         "microbiome-derived-metabolites",
@@ -114505,7 +114443,6 @@
         "hypoxia",
         "lipid-peroxidation",
         "lipocalin-2",
-        "metabolites",
         "microbial-metallomics",
         "polyphenols",
         "berberine",
@@ -114514,7 +114451,7 @@
       "related": [
         {
           "id": "nickel",
-          "score": 37
+          "score": 35
         },
         {
           "id": "metal-dependent-virulence",
@@ -114537,12 +114474,12 @@
           "score": 23
         },
         {
-          "id": "butyrate",
+          "id": "gut-microbiome",
           "score": 21
         },
         {
-          "id": "gut-microbiome",
-          "score": 21
+          "id": "inter-kingdom-metal-shielding",
+          "score": 20
         }
       ]
     },
@@ -114823,7 +114760,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[dialister]] — primary microbial succinate producer\n- [[short-chain-fatty-acids]] — related microbial metabolite class\n- [[metabolites]] — broader microbial metabolite context\n- inflammation — succinate-HIF-1α-IL-1β pro-inflammatory axis"
+          "body": "- [[dialister]] — primary microbial succinate producer\n- [[short-chain-fatty-acids]] — related microbial metabolite class\n- [[microbiome-derived-metabolites]] — broader microbial metabolite context\n- inflammation — succinate-HIF-1α-IL-1β pro-inflammatory axis"
         }
       ],
       "wikilinks": [
@@ -114834,7 +114771,7 @@
         "peng-2023-gut-microbiome-brain-metabolic-remodeling-cp-epilepsy",
         "romano-2023-gut-microbiome-children-mental-health-umbrella-review",
         "short-chain-fatty-acids",
-        "metabolites"
+        "microbiome-derived-metabolites"
       ],
       "sourceDir": "concepts",
       "sourceCount": 3,
@@ -117304,7 +117241,6 @@
         "gut-kidney-axis",
         "gut-penis-axis",
         "lipid-metabolism",
-        "metabolites",
         "microbial-biomarkers",
         "microbiome-derived-metabolites",
         "mitochondrial-dysfunction",
@@ -117318,19 +117254,19 @@
       "related": [
         {
           "id": "butyrate",
-          "score": 31
+          "score": 29
         },
         {
           "id": "oxidative-stress",
           "score": 27
         },
         {
-          "id": "cadmium",
-          "score": 22
+          "id": "microbiome-derived-metabolites",
+          "score": 24
         },
         {
-          "id": "bile-acid-metabolism",
-          "score": 20
+          "id": "cadmium",
+          "score": 22
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -117341,12 +117277,12 @@
           "score": 18
         },
         {
-          "id": "atherosclerosis-signature",
+          "id": "bile-acid-metabolism",
           "score": 18
         },
         {
-          "id": "calprotectin",
-          "score": 16
+          "id": "chronic-kidney-disease",
+          "score": 18
         }
       ]
     },
@@ -118028,10 +117964,6 @@
           "score": 5
         },
         {
-          "id": "metabolites",
-          "score": 5
-        },
-        {
           "id": "anxiety-signature",
           "score": 5
         },
@@ -118045,6 +117977,10 @@
         },
         {
           "id": "nrf2",
+          "score": 4
+        },
+        {
+          "id": "ph-sensing",
           "score": 4
         }
       ]
@@ -118237,6 +118173,7 @@
         "interleukin-22",
         "kynurenine-pathway",
         "metabolomics",
+        "microbiome-derived-metabolites",
         "neuroinflammation",
         "tryptophan",
         "broken-links-2026-04-16",
@@ -118248,12 +118185,12 @@
           "score": 40
         },
         {
-          "id": "depression",
-          "score": 28
+          "id": "butyrate",
+          "score": 29
         },
         {
-          "id": "butyrate",
-          "score": 27
+          "id": "depression",
+          "score": 28
         },
         {
           "id": "depression",
@@ -118268,12 +118205,12 @@
           "score": 24
         },
         {
-          "id": "parkinsons-disease",
+          "id": "ahr",
           "score": 24
         },
         {
-          "id": "ahr",
-          "score": 22
+          "id": "parkinsons-disease",
+          "score": 24
         }
       ]
     },
@@ -118357,7 +118294,7 @@
         "seo_target": "tryptophan gut microbiome",
         "platform": "wikibiome"
       },
-      "overview": "Tryptophan (Trp) is an essential amino acid that the human body cannot synthesize and must obtain from diet. It occupies a uniquely important position at the intersection of neuroscience, immunology, and microbial ecology because it is the sole precursor to serotonin, a major substrate for the [[kynurenine-pathway]], and the raw material for a suite of microbial metabolites that shape gut-brain communication. What makes tryptophan particularly relevant to the metallomics story is that the enzymes controlling its fate are metal-dependent: the rate-limiting enzymes of the kynurenine pathway (IDO and TDO) both require heme [[iron]] as a cofactor, meaning that metal availability directly determines how tryptophan is metabolized and which downstream products predominate.",
+      "overview": "Tryptophan (Trp) is an essential amino acid that the human body cannot synthesize and must obtain from diet. It occupies a uniquely important position at the intersection of neuroscience, immunology, and microbial ecology because it is the sole precursor to serotonin, a major substrate for the [[kynurenine-pathway]], and the raw material for a suite of [[microbiome-derived-metabolites|microbial metabolites]] that shape gut-brain communication. What makes tryptophan particularly relevant to the metallomics story is that the enzymes controlling its fate are metal-dependent: the rate-limiting enzymes of the kynurenine pathway (IDO and TDO) both require heme [[iron]] as a cofactor, meaning that metal availability directly determines how tryptophan is metabolized and which downstream products predominate.",
       "sections": [
         {
           "heading": "Dietary Sources and Absorption",
@@ -118397,11 +118334,12 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[tryptophan-metabolism]] -- detailed pathway biochemistry and regulation\n- [[kynurenine-pathway]] -- the dominant catabolic route and its neuroactive products\n- [[ahr]] -- aryl hydrocarbon receptor activation by microbial indoles\n- [[indoles]] -- microbial tryptophan derivatives\n- [[serotonin]] -- the neurotransmitter product\n- [[iron]] -- cofactor for IDO/TDO\n- [[gut-brain-axis]] -- the communication system tryptophan metabolites mediate\n- [[microbiome-derived-metabolites]] -- broader context for microbial tryptophan products\n- [[neuroinflammation]] -- downstream consequence of kynurenine pathway imbalance"
+          "body": "- [[tryptophan-metabolism]] -- detailed pathway biochemistry and regulation\n- [[kynurenine-pathway]] -- the dominant catabolic route and its neuroactive products\n- [[ahr]] -- aryl hydrocarbon receptor activation by microbial indoles\n- [[indoles]] -- microbial tryptophan derivatives\n- [[serotonin]] -- the neurotransmitter product\n- [[iron]] -- cofactor for IDO/TDO\n- [[gut-brain-axis]] -- the communication system tryptophan metabolites mediate\n- microbiome-derived metabolites -- broader context for microbial tryptophan products\n- [[neuroinflammation]] -- downstream consequence of kynurenine pathway imbalance"
         }
       ],
       "wikilinks": [
         "kynurenine-pathway",
+        "microbiome-derived-metabolites",
         "iron",
         "blood-brain-barrier",
         "tryptophan-metabolism",
@@ -118421,7 +118359,6 @@
         "cheng-2025-neuroinflammation-pms-pmdd-review",
         "indoles",
         "serotonin",
-        "microbiome-derived-metabolites",
         "neuroinflammation"
       ],
       "sourceDir": "concepts",
@@ -119185,6 +119122,7 @@
       "backlinks": [
         "ammonia",
         "gut-barrier-dysfunction",
+        "microbiome-derived-metabolites",
         "urea"
       ],
       "related": [
@@ -119217,8 +119155,8 @@
           "score": 9
         },
         {
-          "id": "fermentative-metabolism",
-          "score": 7
+          "id": "tight-junctions",
+          "score": 8
         }
       ]
     },
@@ -123013,6 +122951,7 @@
         "intestinal-permeability",
         "metabolomics",
         "metallothionein",
+        "microbiome-derived-metabolites",
         "oxalate",
         "oxalates",
         "oxidative-stress",
@@ -123046,23 +122985,23 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 70
+          "score": 72
         },
         {
           "id": "inflammation",
-          "score": 63
+          "score": 65
         },
         {
           "id": "gut-microbiome",
-          "score": 56
+          "score": 58
+        },
+        {
+          "id": "butyrate",
+          "score": 51
         },
         {
           "id": "oxidative-stress",
           "score": 51
-        },
-        {
-          "id": "butyrate",
-          "score": 49
         },
         {
           "id": "autism-spectrum-disorder",
@@ -143351,6 +143290,10 @@
           "score": 13
         },
         {
+          "id": "microbiome-derived-metabolites",
+          "score": 12
+        },
+        {
           "id": "coronary-artery-disease",
           "score": 11
         },
@@ -143360,10 +143303,6 @@
         },
         {
           "id": "type-2-diabetes-signature",
-          "score": 9
-        },
-        {
-          "id": "metal-disease-matrix",
           "score": 9
         }
       ]
@@ -157243,6 +157182,10 @@
           "score": 7
         },
         {
+          "id": "microbiome-derived-metabolites",
+          "score": 6
+        },
+        {
           "id": "stop-iron-supplementation-colorectal-cancer",
           "score": 6
         },
@@ -157260,10 +157203,6 @@
         },
         {
           "id": "hepcidin",
-          "score": 5
-        },
-        {
-          "id": "inflammation",
           "score": 5
         }
       ]
@@ -163759,6 +163698,10 @@
           "score": 15
         },
         {
+          "id": "microbiome-derived-metabolites",
+          "score": 13
+        },
+        {
           "id": "tmao",
           "score": 12
         },
@@ -163777,10 +163720,6 @@
         {
           "id": "obesity",
           "score": 11
-        },
-        {
-          "id": "stop-iron-supplementation-obesity",
-          "score": 10
         }
       ]
     },
@@ -168233,6 +168172,10 @@
           "score": 15
         },
         {
+          "id": "microbiome-derived-metabolites",
+          "score": 13
+        },
+        {
           "id": "tmao",
           "score": 12
         },
@@ -168251,10 +168194,6 @@
         {
           "id": "obesity",
           "score": 11
-        },
-        {
-          "id": "stop-iron-supplementation-obesity",
-          "score": 10
         }
       ]
     },
@@ -168431,7 +168370,7 @@
           "score": 8
         },
         {
-          "id": "stop-iron-supplementation-type-2-diabetes",
+          "id": "microbiome-derived-metabolites",
           "score": 8
         }
       ]
@@ -186982,12 +186921,6 @@
         "sourceCount": 8
       },
       {
-        "id": "metabolites",
-        "label": "Microbial Metabolites",
-        "category": "mechanism",
-        "sourceCount": 7
-      },
-      {
         "id": "metabolomics",
         "label": "Metabolomics",
         "category": "mechanism",
@@ -187093,7 +187026,7 @@
         "id": "microbiome-derived-metabolites",
         "label": "Microbiome-Derived Metabolites",
         "category": "mechanism",
-        "sourceCount": 7
+        "sourceCount": 12
       },
       {
         "id": "microbiome-diversity-metrics",
@@ -192469,6 +192402,10 @@
       },
       {
         "source": "cardiovascular-disease",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "cardiovascular-disease",
         "target": "dysbiosis"
       },
       {
@@ -192558,10 +192495,6 @@
       {
         "source": "cardiovascular-disease",
         "target": "biomarkers"
-      },
-      {
-        "source": "cardiovascular-disease",
-        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "cardiovascular-disease",
@@ -193010,6 +192943,10 @@
       {
         "source": "chronic-fatigue-syndrome",
         "target": "nutritional-immunity"
+      },
+      {
+        "source": "chronic-fatigue-syndrome",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "chronic-fatigue-syndrome",
@@ -193661,6 +193598,10 @@
       },
       {
         "source": "colorectal-cancer",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "colorectal-cancer",
         "target": "copper"
       },
       {
@@ -193890,6 +193831,10 @@
       {
         "source": "coronary-artery-disease",
         "target": "gut-microbiome"
+      },
+      {
+        "source": "coronary-artery-disease",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "coronary-artery-disease",
@@ -194705,6 +194650,10 @@
       },
       {
         "source": "dopamine",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "dopamine",
         "target": "dysbiosis"
       },
       {
@@ -194766,10 +194715,6 @@
       {
         "source": "dopamine",
         "target": "alpha-synuclein"
-      },
-      {
-        "source": "dopamine",
-        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "dopamine",
@@ -195838,6 +195783,10 @@
       {
         "source": "fibromyalgia",
         "target": "lachnospiraceae"
+      },
+      {
+        "source": "fibromyalgia",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "fibromyalgia",
@@ -197285,6 +197234,10 @@
       },
       {
         "source": "hypertension",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "hypertension",
         "target": "heavy-metals"
       },
       {
@@ -198714,6 +198667,10 @@
       {
         "source": "major-depressive-disorder",
         "target": "endotoxemia"
+      },
+      {
+        "source": "major-depressive-disorder",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "major-depressive-disorder",
@@ -203065,6 +203022,10 @@
       },
       {
         "source": "selenomonas",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "selenomonas",
         "target": "lachnospiraceae"
       },
       {
@@ -203846,6 +203807,10 @@
       {
         "source": "sutterella",
         "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "sutterella",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "sutterella",
@@ -206025,6 +205990,10 @@
       },
       {
         "source": "blood-brain-barrier",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "blood-brain-barrier",
         "target": "neuroinflammation"
       },
       {
@@ -207189,6 +207158,10 @@
       },
       {
         "source": "dietary-lead-exposure",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "dietary-lead-exposure",
         "target": "heavy-metals-infant-foods"
       },
       {
@@ -207461,6 +207434,10 @@
       },
       {
         "source": "dysbiosis",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "dysbiosis",
         "target": "mediterranean-diet"
       },
       {
@@ -207606,6 +207583,10 @@
       {
         "source": "dysmenorrhea",
         "target": "butyrate"
+      },
+      {
+        "source": "dysmenorrhea",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "dysmenorrhea",
@@ -207762,6 +207743,10 @@
       {
         "source": "endocrine-disruption",
         "target": "exposome"
+      },
+      {
+        "source": "endocrine-disruption",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "endocrine-disruption",
@@ -208085,6 +208070,10 @@
       },
       {
         "source": "epigenetic-modifications",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "epigenetic-modifications",
         "target": "butyrate"
       },
       {
@@ -208170,6 +208159,10 @@
       {
         "source": "epigenetics",
         "target": "dysbiosis"
+      },
+      {
+        "source": "epigenetics",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "epigenetics",
@@ -209141,6 +209134,10 @@
       },
       {
         "source": "gut-brain-axis",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "gut-brain-axis",
         "target": "inflammation"
       },
       {
@@ -209333,6 +209330,10 @@
       },
       {
         "source": "gut-metal-microbiome",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "gut-metal-microbiome",
         "target": "butyrate"
       },
       {
@@ -209413,6 +209414,10 @@
       },
       {
         "source": "gut-microbiome",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "gut-microbiome",
         "target": "oxidative-stress"
       },
       {
@@ -209426,10 +209431,6 @@
       {
         "source": "gut-microbiome",
         "target": "inflammation"
-      },
-      {
-        "source": "gut-microbiome",
-        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "gut-microbiome",
@@ -209513,6 +209514,10 @@
       },
       {
         "source": "gut-prostate-axis",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "gut-prostate-axis",
         "target": "inflammation"
       },
       {
@@ -209534,6 +209539,10 @@
       {
         "source": "gut-testis-axis",
         "target": "gut-microbiome"
+      },
+      {
+        "source": "gut-testis-axis",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "gut-testis-axis",
@@ -210777,6 +210786,10 @@
       },
       {
         "source": "indole",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "indole",
         "target": "interleukin-22"
       },
       {
@@ -210802,10 +210815,6 @@
       {
         "source": "indole",
         "target": "chlamydia-trachomatis"
-      },
-      {
-        "source": "indole",
-        "target": "metabolites"
       },
       {
         "source": "indoles",
@@ -212168,62 +212177,6 @@
         "target": "metal-carcinogenesis"
       },
       {
-        "source": "metabolites",
-        "target": "short-chain-fatty-acids"
-      },
-      {
-        "source": "metabolites",
-        "target": "butyrate"
-      },
-      {
-        "source": "metabolites",
-        "target": "propionic-acid"
-      },
-      {
-        "source": "metabolites",
-        "target": "tmao"
-      },
-      {
-        "source": "metabolites",
-        "target": "bile-acid-metabolism"
-      },
-      {
-        "source": "metabolites",
-        "target": "indoles"
-      },
-      {
-        "source": "metabolites",
-        "target": "ahr"
-      },
-      {
-        "source": "metabolites",
-        "target": "gut-brain-axis"
-      },
-      {
-        "source": "metabolites",
-        "target": "gaba"
-      },
-      {
-        "source": "metabolites",
-        "target": "serotonin"
-      },
-      {
-        "source": "metabolites",
-        "target": "hydrogen-sulfide"
-      },
-      {
-        "source": "metabolites",
-        "target": "nickel"
-      },
-      {
-        "source": "metabolites",
-        "target": "siderophores"
-      },
-      {
-        "source": "metabolites",
-        "target": "microbiome-derived-metabolites"
-      },
-      {
         "source": "metabolomics",
         "target": "short-chain-fatty-acids"
       },
@@ -212541,6 +212494,10 @@
       },
       {
         "source": "metal-speciation",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "metal-speciation",
         "target": "biomarkers"
       },
       {
@@ -212829,6 +212786,10 @@
       },
       {
         "source": "microbial-biomarkers",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "microbial-biomarkers",
         "target": "colorectal-cancer"
       },
       {
@@ -212981,7 +212942,15 @@
       },
       {
         "source": "microbiome-derived-metabolites",
-        "target": "dysbiosis"
+        "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "propionic-acid"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "tmao"
       },
       {
         "source": "microbiome-derived-metabolites",
@@ -212993,15 +212962,19 @@
       },
       {
         "source": "microbiome-derived-metabolites",
-        "target": "propionic-acid"
-      },
-      {
-        "source": "microbiome-derived-metabolites",
         "target": "inflammation"
       },
       {
         "source": "microbiome-derived-metabolites",
-        "target": "short-chain-fatty-acids"
+        "target": "ahr"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "chronic-kidney-disease"
+      },
+      {
+        "source": "microbiome-derived-metabolites",
+        "target": "nutritional-immunity"
       },
       {
         "source": "microbiome-derived-metabolites",
@@ -213009,19 +212982,11 @@
       },
       {
         "source": "microbiome-derived-metabolites",
-        "target": "tmao"
+        "target": "tryptophan-metabolism"
       },
       {
         "source": "microbiome-derived-metabolites",
-        "target": "gut-brain-axis"
-      },
-      {
-        "source": "microbiome-derived-metabolites",
-        "target": "gut-metal-microbiome"
-      },
-      {
-        "source": "microbiome-derived-metabolites",
-        "target": "nutritional-immunity"
+        "target": "uremic-toxins"
       },
       {
         "source": "microbiome-diversity-metrics",
@@ -213126,6 +213091,10 @@
       {
         "source": "mitochondrial-dysfunction",
         "target": "gut-microbiome"
+      },
+      {
+        "source": "mitochondrial-dysfunction",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "mitochondrial-dysfunction",
@@ -213821,6 +213790,10 @@
       },
       {
         "source": "nlrp3-inflammasome",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "nlrp3-inflammasome",
         "target": "oxidative-stress"
       },
       {
@@ -213858,6 +213831,10 @@
       {
         "source": "nrf2",
         "target": "heavy-metals"
+      },
+      {
+        "source": "nrf2",
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "nrf2",
@@ -214185,6 +214162,10 @@
       },
       {
         "source": "p-cresol",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "p-cresol",
         "target": "autism-spectrum-disorder"
       },
       {
@@ -214194,10 +214175,6 @@
       {
         "source": "p-cresol",
         "target": "dopamine"
-      },
-      {
-        "source": "p-cresol",
-        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "ph-sensing",
@@ -214541,6 +214518,10 @@
       },
       {
         "source": "polyamines",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "polyamines",
         "target": "dysbiosis"
       },
       {
@@ -214550,10 +214531,6 @@
       {
         "source": "polyamines",
         "target": "colorectal-cancer"
-      },
-      {
-        "source": "polyamines",
-        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "polyamines",
@@ -214665,6 +214642,10 @@
       },
       {
         "source": "postbiotic",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "postbiotic",
         "target": "bacteremia"
       },
       {
@@ -214682,10 +214663,6 @@
       {
         "source": "postbiotic",
         "target": "synbiotic"
-      },
-      {
-        "source": "postbiotic",
-        "target": "metabolites"
       },
       {
         "source": "prebiotics",
@@ -215617,7 +215594,7 @@
       },
       {
         "source": "succinate",
-        "target": "metabolites"
+        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "superoxide-dismutase",
@@ -216629,6 +216606,10 @@
       },
       {
         "source": "tryptophan",
+        "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "tryptophan",
         "target": "iron"
       },
       {
@@ -216670,10 +216651,6 @@
       {
         "source": "tryptophan",
         "target": "serotonin"
-      },
-      {
-        "source": "tryptophan",
-        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "tryptophan",
@@ -216806,10 +216783,6 @@
       {
         "source": "uremic-toxins",
         "target": "tmao"
-      },
-      {
-        "source": "uremic-toxins",
-        "target": "microbiome-derived-metabolites"
       },
       {
         "source": "uremic-toxins",

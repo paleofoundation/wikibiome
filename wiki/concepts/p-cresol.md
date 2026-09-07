@@ -66,7 +66,7 @@ The CKD-dysbiosis axis involves expansion of proteolytic bacteria (Clostridiacea
 
 ## Parkinson's Disease
 
-p-Cresol has been identified among the altered microbial metabolites in PD gut-brain axis studies [[tan-2021-microbiome-derived-metabolites-parkinsons]]. Its DBH-inhibiting activity is particularly relevant given the catecholaminergic neurodegeneration in PD.
+p-Cresol has been identified among the altered [[microbiome-derived-metabolites|microbial metabolites]] in PD gut-brain axis studies [[tan-2021-microbiome-derived-metabolites-parkinsons]]. Its DBH-inhibiting activity is particularly relevant given the catecholaminergic neurodegeneration in PD.
 
 ## Metal Connections
 
@@ -91,4 +91,4 @@ While p-cresol itself is not a metal-related molecule, its production and effect
 - [[blood-brain-barrier]] -- p-cresol crosses BBB
 - butyrate -- saccharolytic (butyrate) vs proteolytic (p-cresol) fermentation balance
 - dysbiosis -- proteolytic shift increases p-cresol production
-- [[microbiome-derived-metabolites]] -- p-cresol as key microbial metabolite
+- microbiome-derived metabolites -- p-cresol as key microbial metabolite
