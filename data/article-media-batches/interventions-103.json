@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-103",
   "category": "interventions",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "47046579925257de11de0e33dc8d514a570615d0",
   "generator": "OpenAI built-in image generation",
@@ -19,6 +19,8 @@
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "5e5ce358049a04d8ac0559cd407a5a6128a91d05",
+  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Only exact neutral curcumin is cleared for one immutable heavy-atom connectivity call. The other five routes fail material, formulation, protocol, source, population, measurement, causal-interpretation, or state gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,

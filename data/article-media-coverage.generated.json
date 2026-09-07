@@ -123,8 +123,8 @@
       {
         "file": "data/article-media-batches/interventions-103.json",
         "batchId": "interventions-103",
-        "status": "audited",
-        "sha256": "9b4716a435ebce3f69ecf86607b87fb6109e1e2f8f8b1f7f713685356044969c"
+        "status": "prompt-frozen",
+        "sha256": "32e653687f624a5816c96385eb7c495cc097c8f6f6c2d3c6f31b8998431180be"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
