@@ -85,6 +85,11 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 11:04 Asia/Nicosia — WB-PR-3 ACCEPTED
+Tag: STATUS
+
+**WB-PR-2 PASS received; WB-PR-3 accepted.** Adding only the automated 30-URL flagship-subset assertion to `npm run test:seo`, with the documented set checked for synchronization.
+
 ### 2026-09-07 10:50 Asia/Nicosia — WB-PR-2 READY
 Tag: PR
 
