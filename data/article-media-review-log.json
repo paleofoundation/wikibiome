@@ -12746,6 +12746,45 @@
         "sourceSha256": "f09e2ccf5e0850f01be54c50c0c7753163f8e10a14d939072ed97acc95ce29f7",
         "generationRecord": "exec-c0331dfb-432d-45c5-8c71-23db9a203eb1.png"
       }
+    },
+    "ecoli-nissle-1917|ecoli-nissle-1917-morphology-v1.webp": {
+      "pageId": "ecoli-nissle-1917",
+      "publishedFile": "ecoli-nissle-1917-morphology-v1.webp",
+      "masterSource": "ecoli-nissle-1917-morphology-v1-master.png",
+      "socialFile": "ecoli-nissle-1917-morphology-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=316435&mode=Info",
+          "https://www.ncbi.nlm.nih.gov/nuccore/CP007799.1",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC11349737/",
+          "https://pmc.ncbi.nlm.nih.gov/articles/PMC3572096/"
+        ],
+        "notes": "NCBI Taxonomy and GenBank establish current Nissle 1917 strain identity and complete-genome accession; direct microscopy supports regular rod dimensions, flagella, and pili; the genome paper supports DSM 6601 and O6:K5:H1 context."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native source and 1200 by 630 derivative review observed six complete rounded rods in exactly four separated groupings—two singles and two end-touching pairs—with sparse long flagella and much shorter fine pili, an opaque pale field, no shared web or capsule halo, no labels, and no clipping. Morphology is explicitly non-diagnostic for strain identity."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text identifies the six rods, four groupings, flagella, and pili without relying on color; the caption separates visible orientation from unclaimed product identity, viability, purity, genome, dose, colonization, safety, probiotic action, and clinical effect."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65; master d6addf66af811331bbf2a0c4fd63e435b13f87bed4f7bbaa9289ddf881dab875; article cffc284c6c1430917a39aed1edf16287b29dc8422e2834c6f9645194045779ea; centered-contain social 60388dcfd6196de653df4e10419311699c7dba54fe176ec600abaea1b869740a.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "ecoli-nissle-1917-draft.png",
+        "sourceSha256": "16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65",
+        "generationRecord": "exec-0685f209-4a9d-4347-bde0-672bafbcfd3d.png",
+        "masterSha256": "d6addf66af811331bbf2a0c4fd63e435b13f87bed4f7bbaa9289ddf881dab875",
+        "articleSha256": "cffc284c6c1430917a39aed1edf16287b29dc8422e2834c6f9645194045779ea",
+        "socialSha256": "60388dcfd6196de653df4e10419311699c7dba54fe176ec600abaea1b869740a"
+      }
     }
   },
   "rejectedAssets": [

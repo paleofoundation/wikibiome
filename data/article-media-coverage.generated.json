@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "5a4b9fe87cacbae68c7965db6ca4aaeebc11376122bd81af58cc1cf34d8f712f",
+    "registrySha256": "3223d74e10ff5c5a7cf9e804c266a40ef75b62be805a644be35d9ae56ca8fa65",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "2cef9684847c964e6bd5dd0b876c2e71327d97ad62fb2fa46916f8d6b6038e5f",
+    "reviewLogSha256": "d48181734f3b29e5df4062eadb819777da1056f5d5a9c1e908346d14e3e0e764",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -129,8 +129,8 @@
       {
         "file": "data/article-media-batches/interventions-104.json",
         "batchId": "interventions-104",
-        "status": "approved-awaiting-promotion",
-        "sha256": "60b972adefa3b400984aa8ecece237b508b8618c8bf56a48f3e74d53638cbabd"
+        "status": "reviewed",
+        "sha256": "1a3b6cbd33a784fdb9f5fdfc8f10a22775db31c13a014c10939a14aacfb961f8"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -656,12 +656,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 369,
-    "remaining": 341,
+    "completed": 370,
+    "remaining": 340,
     "rejected": 252,
     "revised": 12,
     "scientificHolds": 194,
-    "inReview": 1
+    "inReview": 0
   },
   "categories": [
     {
@@ -703,8 +703,8 @@
       "id": "interventions",
       "label": "Interventions",
       "total": 69,
-      "completed": 0,
-      "remaining": 69
+      "completed": 1,
+      "remaining": 68
     },
     {
       "id": "clinical-cautions",
@@ -17525,12 +17525,14 @@
       "route": "/article/ecoli-nissle-1917",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "interventions-104",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/interventions-batch-104/ecoli-nissle-1917-draft.png",
-        "sha256": "16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65"
+      "status": "reviewed",
+      "media": {
+        "assetType": "morphology",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "ecoli-nissle-1917-morphology-v1-master.png",
+        "publishedFile": "ecoli-nissle-1917-morphology-v1.webp",
+        "socialFile": "ecoli-nissle-1917-morphology-v1-social.webp"
       }
     },
     {

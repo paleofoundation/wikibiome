@@ -6,7 +6,7 @@ import { join, resolve } from "node:path";
 import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { requiredEmbeddedMetadataTokens } from "../lib/article-media-metadata.mjs";
 import { assertArticleMediaRecord } from "../lib/article-media-validation.mjs";
-import { assertCanonicalMediaCorpus, loadCanonicalMediaRoutes } from "./article-media-corpus.mjs";
+import { assertCanonicalMediaCorpus, isArticleMediaTypeCompatible, loadCanonicalMediaRoutes } from "./article-media-corpus.mjs";
 import { assertBatchPromptIntegrity, assertMediaOutputAudit, parseStrictJson } from "./article-media-batch-validation.mjs";
 import { assertApprovedMediaReview } from "./article-media-review-log.mjs";
 
@@ -27,17 +27,6 @@ const batchManifests = readdirSync(batchDirectory)
   .sort()
   .map((name) => ({ name, data: parseStrictJson(readFileSync(resolve(batchDirectory, name), "utf8"), name) }));
 
-const compatibleTypes = Object.freeze({
-  microorganisms: new Set(["morphology", "microbial-community"]),
-  metals: new Set(["technical-specimen"]),
-  diseases: new Set(["pathology", "microbial-community"]),
-  mechanisms: new Set(["mechanism"]),
-  "host-defenses": new Set(["host-defense"]),
-  interventions: new Set(["intervention"]),
-  "clinical-cautions": new Set(["clinical-caution"]),
-  "entity-analysis-reference": new Set(["evidence-index"]),
-});
-
 if (!existsSync(registerPath)) throw new Error("Article media program register is missing. Run npm run media:program:write.");
 const program = JSON.parse(readFileSync(registerPath, "utf8"));
 if (program.current.total !== canonicalRoutes.length) throw new Error("Article media program total does not match the canonical corpus.");
@@ -52,7 +41,7 @@ for (const [id, media] of Object.entries(articleMediaRegistry)) {
   if (id !== media.pageId) throw new Error(`${id}: registry key does not match pageId.`);
   const route = routesById.get(id);
   if (!route) throw new Error(`${id}: reviewed media is not attached to a canonical article route.`);
-  if (!compatibleTypes[route.coverageGroup].has(media.assetType)) {
+  if (!isArticleMediaTypeCompatible(route, media)) {
     throw new Error(`${id}: ${media.assetType} is not an approved treatment for ${route.coverageGroup}.`);
   }
   assertApprovedReview(media);

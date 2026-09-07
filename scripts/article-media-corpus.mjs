@@ -33,6 +33,31 @@ export const initialMediaBaseline = Object.freeze({
 
 const groupById = new Map(mediaCoverageGroups.map((group) => [group.id, group]));
 
+const compatibleMediaTypes = Object.freeze({
+  microorganisms: new Set(["morphology", "microbial-community"]),
+  metals: new Set(["technical-specimen"]),
+  diseases: new Set(["pathology", "microbial-community"]),
+  mechanisms: new Set(["mechanism"]),
+  "host-defenses": new Set(["host-defense"]),
+  interventions: new Set(["intervention"]),
+  "clinical-cautions": new Set(["clinical-caution"]),
+  "entity-analysis-reference": new Set(["evidence-index"]),
+});
+
+export function isArticleMediaTypeCompatible(route, media) {
+  if (compatibleMediaTypes[route?.coverageGroup]?.has(media?.assetType)) return true;
+
+  // A named live-biotherapeutic strain may be filed as an intervention article while
+  // its primary image truthfully depicts only the verified taxon, not a protocol or
+  // clinical effect. Keep this exception narrower than the page category itself.
+  return Boolean(route?.coverageGroup === "interventions"
+    && media?.assetType === "morphology"
+    && media?.subjectKind === "taxon"
+    && media.scientificIdentifiers?.some(
+      (identifier) => identifier.authority === "NCBI Taxonomy" && identifier.propertyID === "NCBITaxon" && identifier.value,
+    ));
+}
+
 export function normalizeArticleId(value) {
   return String(value ?? "")
     .replace(/\.md$/i, "")

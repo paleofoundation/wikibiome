@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-104",
   "category": "interventions",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "05c9ac6a66192ab5b088b58e100890921a0a6b24",
@@ -10,7 +10,7 @@
   "promptRecord": "docs/operations/media-prompts/interventions-104.md",
   "reviewRecord": "docs/operations/media-reviews/interventions-104.md",
   "publicationMetadataPlan": {
-    "reviewOnly": true,
+    "reviewOnly": false,
     "creator": "OpenAI built-in image generation",
     "credit": "WikiBiome / Microbiome Medicine",
     "license": "CC BY-SA 4.0",
@@ -53,8 +53,14 @@
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
   "promotionRule": "Only source SHA-256 16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65 may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The other five routes remain non-public scientific holds.",
-  "controlSocialCropReview": "pending-promoted-centered-contain-derivative",
-  "promotionDerivatives": {},
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative; native 1200 by 630 inspection preserves all six complete rods, all four groupings, and their visible flagella and pili without clipping or label leakage",
+  "promotionDerivatives": {
+    "ecoli-nissle-1917": {
+      "masterSha256": "d6addf66af811331bbf2a0c4fd63e435b13f87bed4f7bbaa9289ddf881dab875",
+      "articleSha256": "cffc284c6c1430917a39aed1edf16287b29dc8422e2834c6f9645194045779ea",
+      "socialSha256": "60388dcfd6196de653df4e10419311699c7dba54fe176ec600abaea1b869740a"
+    }
+  },
   "routeDecisions": [
     {
       "pageId": "dietary-fiber-ckd",
@@ -109,13 +115,16 @@
       "assetType": "morphology",
       "revision": 1,
       "decision": "approved-after-output-audit",
-      "generationStatus": "reviewed-single-call",
+      "generationStatus": "complete-single-call",
       "draft": "work/media-drafts/interventions-batch-104/ecoli-nissle-1917-draft.png",
       "generationRecord": "exec-0685f209-4a9d-4347-bde0-672bafbcfd3d.png",
       "rootReviewDisposition": "eligible",
       "controlledIdentifier": "NCBITaxon:316435;GenBank:CP007799.1;DSM:6601;serotype:O6:K5:H1",
       "promptSha256": "3d454ce12518333685fdd6c64c327c9b6a77c83e091c427740a3c32c3d942341",
       "sha256": "16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65",
+      "masterSha256": "d6addf66af811331bbf2a0c4fd63e435b13f87bed4f7bbaa9289ddf881dab875",
+      "articleSha256": "cffc284c6c1430917a39aed1edf16287b29dc8422e2834c6f9645194045779ea",
+      "socialSha256": "60388dcfd6196de653df4e10419311699c7dba54fe176ec600abaea1b869740a",
       "fileSizeBytes": 1773469,
       "dimensions": {
         "width": 1536,
