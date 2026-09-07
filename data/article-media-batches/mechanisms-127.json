@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-127",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "reviewedOn": "2026-09-07",
   "createdOn": "2026-09-07",
   "authorizedParent": "7bfb2c5cf88a61362fef4644cd31903162e49faa",
@@ -19,7 +19,17 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, scan, molecular measurement, protein structure, laboratory result, biomarker result, treatment recommendation, or diagnostic image",
     "sourceUse": "Current ChEBI, PubChem, ExPASy ENZYME, Rhea, reviewed UniProtKB, NCBI Gene, and NLM MeSH records supply controlled identity and conservative representation boundaries only; no source image or design is copied."
   },
-  "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "d6e1c839b0759d2b9bf9071cc48425dcb3b253bc82e6935fc16537cbda257b89",
+  "controlAcceptedPromptEvidenceSha256": "835e685064b569fcf32ed5cbdfcf78dad75f515160960738da5ca13cbd0e6efb",
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "status": "accepted-six-exact-hashes",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "dcc73c17eadf903bc0afbee2b1c1cd910d8023e2",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["ammonia", "caga", "catalase", "interleukin-22", "nlrp3-inflammasome", "urea"],
+    "acceptedSourceSha256": ["135bea1987433d10f4788fcd0b01e7e9c1e5f6f7cd5d19fb30b9186bc0a3379e", "8b06508ddab54c474c3bc99709094497f1b9a891ea5ea7921d1f33f1b451f565", "6dd50708a07c8c476159575c50b6247cce43b828a78e73ec73e36c9a371a828d", "c3b0e62e8851c08cb28c5f08e33aa77e3dbe2675df8fc9d62639852d4caa6879", "98fad1673fe395819226987aa8ca593395dc5c4999492486a99a7a7abf442785", "62ac2298ee59294a05df4bfe2dfa11a8218705b75fd862efb2c02876b45e579f"]
+  },
   "initialAuditCommit": "6a695cf83a0b817813aa9920b74abafa3053fb32",
   "promptFreezeCommit": "975fe248a970a17e164c55d78134050c90fa7317",
   "reviewStandard": "Six deterministic mechanism routes are audited against current controlled authorities. Exactly one independent call is permitted for each hash-frozen prompt. Every output remains review-only pending literal native-resolution structure accounting, prohibited-content and source-safe-field checks, exact hash, separate acceptance, metadata reconciliation, social crop review, and all release gates.",

@@ -483,8 +483,8 @@
       {
         "file": "data/article-media-batches/mechanisms-127.json",
         "batchId": "mechanisms-127",
-        "status": "awaiting-control-review",
-        "sha256": "b6bbbe872ef7d033464fcd1bfb879430d7e530ae3d148f5915ec43e6aca47505"
+        "status": "approved-awaiting-promotion",
+        "sha256": "494bad9b14a13b4d2837e43ca31b5c2bd115f027e8033dd731f0817adbc19937"
       },
       {
         "file": "data/article-media-batches/mechanisms-revisions-124.json",
