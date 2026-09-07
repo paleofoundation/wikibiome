@@ -19,8 +19,25 @@
     "mediaDescription": "No generated media; these clinical-caution routes do not resolve exact probiotic or zinc products, clinical protocols, populations, outcomes, or non-prescriptive physical subjects",
     "sourceUse": "Current NLM and NCBI controlled records plus local source-resolution evidence define asset-free scientific holds."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "96d3dcd808fe88996a9f3dc203c984b2420ae861",
+  "controlAcceptedReviewManifestSha256": "48d4786878f7abfdd3f10c87010aeadc1bb011f622e8bd80676de04f5b8f53bb",
+  "controlAcceptedPromptEvidenceSha256": "809437d4aa93dcf9f5129ae02501e8843dee9129b153aa6d6a84cf7ee2e18cd6",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-three-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "0c9b43553789225af754e1cf32a5f8a0a9a3fd40",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-wrong-strain-probiotics-schizophrenia",
+      "stop-zinc-supplementation-endometriosis",
+      "stop-zinc-supplementation-h-pylori"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out supplements, stigmatizing psychiatric or gynecologic patient imagery, condition anatomy used as treatment evidence, or existing Zinc and microorganism media substituted for unspecified clinical products. All three routes fail before prompt creation.",
   "routeDecisionCount": 3,
   "candidateCount": 0,
