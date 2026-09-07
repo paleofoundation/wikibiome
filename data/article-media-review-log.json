@@ -18137,6 +18137,109 @@
       ],
       "requiredResolution": "Define a specific assay, specimen, pre-analytic protocol, feature set, validation cohort, prespecified cutoff, sensitivity, specificity, intended-use population, comparator, regulatory status, and versioned evidence state.",
       "routingImpact": "The route remains uncovered and asset-free; evidence maturity should be communicated by interface semantics, not scientific primary media."
+    },
+    {
+      "pageId": "stop-formula-feeding-without-supplementation-nec",
+      "controlledIdentifier": "Infant-Formula-MeSH:D041943;Enterocolitis-Necrotizing-MeSH:D020345;feeding-substrate-fortifier-probiotic-and-neonatal-protocol-unresolved;zero-resolvable-sources",
+      "batchId": "clinical-cautions-115",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source neonatal route does not resolve gestational age, birth weight, milk availability, formula, fortifier, probiotic, feeding protocol, growth needs, comparator, or NEC outcome; current guidance preserves conditional formula use and fortification needs.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D041943",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020345",
+        "https://publications.aap.org/pediatrics/article/157/2/e2025073625/206082/Promoting-Human-Milk-and-Breastfeeding-for-the",
+        "local:data/content.generated.json#/pages/stop-formula-feeding-without-supplementation-nec"
+      ],
+      "requiredResolution": "Add direct neonatal evidence and guideline context; define gestational age, birth weight, feeding substrate and product, donor-milk availability, fortifier, probiotic protocol, timing and volume, NICU setting, population, comparator, growth and NEC outcomes, contraindications, and emergency exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no feeding-prohibition or generic neonatal media may be published."
+    },
+    {
+      "pageId": "stop-high-protein-keto-diet-ckd",
+      "controlledIdentifier": "Renal-Insufficiency-Chronic-MeSH:D051436;Diet-Ketogenic-MeSH:D055423;Diet-High-Protein-Low-Carbohydrate-MeSH:D000076107;diet-composition-and-CKD-stage-conflated",
+      "batchId": "clinical-cautions-115",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route conflates ketogenic and high-protein low-carbohydrate diets and does not resolve composition, CKD stage, albuminuria, dialysis, nutritional state, duration, comparator, or outcomes; protein needs vary across CKD states.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051436",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D055423",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000076107",
+        "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease",
+        "local:data/content.generated.json#/pages/stop-high-protein-keto-diet-ckd"
+      ],
+      "requiredResolution": "Separate ketogenic from high-protein low-carbohydrate scope; define macronutrient and energy composition, protein source, CKD stage, albuminuria, dialysis, comorbidities, nutritional state, duration, population, comparator, outcomes, monitoring, and contraindications.",
+      "routingImpact": "The route remains uncovered and asset-free; no generic kidney, ketone, food, or restriction image may be published."
+    },
+    {
+      "pageId": "stop-iodine-supplementation-graves",
+      "controlledIdentifier": "Graves-Disease-MeSH:D006111;iodine-compound-product-dose-deficiency-treatment-and-thyroid-state-unresolved",
+      "batchId": "clinical-cautions-115",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Iodine compound, product, dose, baseline status, pregnancy, Graves state, concurrent therapy, monitoring, and outcomes are unresolved; essentiality, deficiency, excess, and autoimmune susceptibility cannot be collapsed into one prohibition image.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D006111",
+        "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iodine-supplementation-graves"
+      ],
+      "requiredResolution": "Define iodine compound and source, product and lot, elemental content, dose and duration, baseline iodine and thyroid status, Graves phenotype, pregnancy, concurrent therapy, population, comparator, monitoring, outcomes, adverse events, and contraindications.",
+      "routingImpact": "The route remains uncovered and asset-free; no thyroid, food, supplement, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iodine-supplementation-hashimotos",
+      "controlledIdentifier": "Hashimoto-Disease-MeSH:D050031;iodine-compound-product-dose-deficiency-treatment-and-thyroid-state-unresolved",
+      "batchId": "clinical-cautions-115",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Iodine form, dose, diet, deficiency, pregnancy, thyroid function, autoantibodies, concurrent therapy, population, monitoring, and outcomes are unresolved; conditional susceptibility cannot be represented as a universal stop instruction.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D050031",
+        "https://ods.od.nih.gov/factsheets/Iodine-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iodine-supplementation-hashimotos"
+      ],
+      "requiredResolution": "Define iodine compound and source, product and lot, elemental content, dose and duration, dietary intake, baseline iodine and thyroid status, autoantibodies, pregnancy, concurrent therapy, population, comparator, monitoring, outcomes, adverse events, and contraindications.",
+      "routingImpact": "The route remains uncovered and asset-free; no thyroid, food, supplement, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-ibd",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Inflammatory-Bowel-Diseases-MeSH:D015212;Iron-Deficiencies-MeSH:D000090463;iron-deficiency-anemia-route-formulation-and-inflammation-state-unresolved",
+      "batchId": "clinical-cautions-115",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route does not resolve deficiency or anemia, IBD activity, bleeding, absorption, oral versus intravenous route, formulation, elemental dose, tolerance, monitoring, or outcomes; current guidance supports individualized iron repletion rather than a categorical stop.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015212",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://gastro.org/clinical-guidance/management-of-iron-deficiency-anemia/",
+        "https://doi.org/10.1016/j.cgh.2024.03.046",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-ibd"
+      ],
+      "requiredResolution": "Define IBD phenotype and activity, deficiency and anemia criteria, route, exact compound and formulation, elemental dose, schedule, duration, absorption and tolerance, bleeding, population, comparator, monitoring, outcomes, adverse events, and escalation rules; reconcile the categorical title.",
+      "routingImpact": "The route remains uncovered and asset-free; elemental Iron or generic supplement imagery may not substitute for a clinical product and protocol."
+    },
+    {
+      "pageId": "stop-iron-supplementation-alzheimers",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Alzheimer-Disease-MeSH:D000544;iron-deficiency-overload-formulation-trial-and-disease-stage-unresolved",
+      "batchId": "clinical-cautions-115",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The linked records are mechanistic or associative and do not define deficiency, anemia, overload, systemic or CNS biomarkers, formulation, route, dose, Alzheimer stage, population, comparator, monitoring, cognition, or safety outcomes.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000544",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-alzheimers"
+      ],
+      "requiredResolution": "Add direct clinical supplementation evidence and guidance; define deficiency, anemia and overload criteria, systemic and CNS biomarkers, exact formulation and route, elemental dose and duration, Alzheimer phenotype and stage, comorbidities, population, comparator, monitoring, cognitive and safety outcomes, and contraindications.",
+      "routingImpact": "The route remains uncovered and asset-free; Alzheimer disease and elemental Iron media cannot be combined as evidence for this clinical claim."
     }
   ],
   "revisedAssets": [
