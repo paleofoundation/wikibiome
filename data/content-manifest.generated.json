@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T13:40:37.634Z",
+  "generatedAt": "2026-09-07T14:25:44.220Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "712dcb1dbd90209cb033ee77ad289541a8262226",
-    "contentGeneratedAt": "2026-09-07T13:39:32.751Z",
+    "commit": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+    "contentGeneratedAt": "2026-09-07T14:21:26.902Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "7f3f5ee3f73c7430756fd7d855ee728c71d6b41b694ab9dc0abcb1a464a96c07",
+    "sha256": "381068db765b8a5b16914c702ce7e80268d034890c4219867d7f373e1f18f882",
     "pages": 822,
     "sources": 1940
   },
@@ -1416,7 +1416,7 @@
     ]
   },
   "editorialNormalization": {
-    "leadPromotionCount": 341,
+    "leadPromotionCount": 340,
     "leadPromotionSamples": [
       {
         "id": "actinobacteria",
@@ -1522,10 +1522,10 @@
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "712dcb1dbd90209cb033ee77ad289541a8262226",
+    "sourceCommit": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
     "registeredCount": 112,
     "appliedRecordCount": 121,
-    "registrySha256": "ccae6dc874c8a0f840106b895542a0a83f7576b358a8d1b883b975f9aec447ad"
+    "registrySha256": "261f5db11511d81a1bada4d5804ab675cb71ff6945ba35eeca6ecfded655e047"
   },
   "articleIdentityPolicy": {
     "version": 1,
@@ -1607,9 +1607,9 @@
       "type-2-diabetes"
     ],
     "pagesWithReferences": 768,
-    "generatedReferences": 6497,
-    "pagesWithSourceDrift": 480,
-    "recoveredInlineReferences": 347,
+    "generatedReferences": 6499,
+    "pagesWithSourceDrift": 479,
+    "recoveredInlineReferences": 348,
     "declaredOnlyReferences": 1971,
     "missingSourceMetadataIds": [],
     "resolvedSourceAliasIds": [

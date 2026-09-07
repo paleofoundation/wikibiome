@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T13:41:18.218Z",
+  "generatedAt": "2026-09-07T14:26:24.634Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "712dcb1dbd90209cb033ee77ad289541a8262226",
+  "sourceCommit": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
   "records": 822,
   "canonicalIds": 757,
-  "revisions": 4474,
+  "revisions": 4491,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -3712,6 +3712,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/cadmium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -3845,15 +3854,6 @@
           "path": "wiki/entities/cadmium.md",
           "additions": 3,
           "deletions": 1
-        },
-        {
-          "hash": "cce0a2396516068c7b00eeb1c46ee40d1d671665",
-          "date": "2026-04-10T15:45:50+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-10 15:45",
-          "path": "wiki/entities/cadmium.md",
-          "additions": 107,
-          "deletions": 22
         }
       ]
     },
@@ -4926,6 +4926,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/chromium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -5157,6 +5166,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -5290,15 +5308,6 @@
           "path": "wiki/entities/chronic-kidney-disease.md",
           "additions": 1,
           "deletions": 4
-        },
-        {
-          "hash": "8dc3538d2bc63dbe96dcbf185bbea6f4c460a711",
-          "date": "2026-04-13T12:54:33+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
-          "path": "wiki/entities/chronic-kidney-disease.md",
-          "additions": 6,
-          "deletions": 0
         }
       ]
     },
@@ -6090,6 +6099,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/colorectal-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
           "date": "2026-09-07T14:44:04+03:00",
           "author": "Karen Pendergrass",
@@ -6222,15 +6240,6 @@
           "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
           "path": "wiki/entities/colorectal-cancer.md",
           "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/colorectal-cancer.md",
-          "additions": 1,
           "deletions": 0
         }
       ]
@@ -6999,6 +7008,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
           "date": "2026-09-07T16:28:57+03:00",
           "author": "Karen Pendergrass",
@@ -7132,15 +7150,6 @@
           "path": "wiki/entities/depression.md",
           "additions": 2,
           "deletions": 10
-        },
-        {
-          "hash": "8dc3538d2bc63dbe96dcbf185bbea6f4c460a711",
-          "date": "2026-04-13T12:54:33+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
-          "path": "wiki/entities/depression.md",
-          "additions": 6,
-          "deletions": 0
         }
       ]
     },
@@ -8060,6 +8069,15 @@
         "wiki/entities/enterobacteriaceae.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/enterobacteriaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -13995,6 +14013,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/mercury.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
           "date": "2026-09-07T16:28:57+03:00",
           "author": "Karen Pendergrass",
@@ -14966,6 +14993,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/necrotizing-enterocolitis.md",
+          "additions": 4,
+          "deletions": 4
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -15099,15 +15135,6 @@
           "path": "cureva/signatures/necrotizing-enterocolitis.md",
           "additions": 194,
           "deletions": 0
-        },
-        {
-          "hash": "7eb46919905f2ab54765864883fd2a1c8cac5d2b",
-          "date": "2026-04-16T03:36:49+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Citation integrity pass: 38 citations added, 24 parenthesized citations fixed",
-          "path": "wiki/entities/necrotizing-enterocolitis.md",
-          "additions": 9,
-          "deletions": 9
         }
       ]
     },
@@ -15186,6 +15213,15 @@
         "wiki/entities/nickel.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/nickel.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
           "date": "2026-09-07T16:28:57+03:00",
@@ -15320,15 +15356,6 @@
           "path": "wiki/entities/nickel.md",
           "additions": 2,
           "deletions": 2
-        },
-        {
-          "hash": "432d7cea939d8ce1d615dfc8eaf93f03612f0e28",
-          "date": "2026-04-18T22:05:01+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "semantic integrity pass: boundary fixes, 10 interventions, 31 STOPs, 2 supersessions, keystone revalidation",
-          "path": "wiki/entities/nickel.md",
-          "additions": 2,
-          "deletions": 2
         }
       ]
     },
@@ -15381,6 +15408,15 @@
         "wiki/entities/obesity.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/obesity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
           "date": "2026-09-07T15:34:43+03:00",
@@ -15514,15 +15550,6 @@
           "subject": "WikiBiome update — 2026-04-15 17:23",
           "path": "cureva/signatures/obesity.md",
           "additions": 1,
-          "deletions": 1
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/entities/obesity.md",
-          "additions": 0,
           "deletions": 1
         }
       ]
@@ -17128,6 +17155,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/peptostreptococcus-anaerobius.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -18477,6 +18513,15 @@
         "wiki/entities/proteobacteria.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/entities/proteobacteria.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -24077,6 +24122,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/bacterial-contamination-hypothesis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -26404,6 +26458,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
           "date": "2026-09-07T15:34:43+03:00",
           "author": "Karen Pendergrass",
@@ -26537,15 +26600,6 @@
           "path": "wiki/concepts/dysbiosis.md",
           "additions": 5,
           "deletions": 3
-        },
-        {
-          "hash": "2f95f2f0a2a18d69cb543c687269b06ca03ab2d4",
-          "date": "2026-04-11T22:49:04+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-11 22:49",
-          "path": "wiki/concepts/dysbiosis.md",
-          "additions": 128,
-          "deletions": 21
         }
       ]
     },
@@ -28635,6 +28689,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
           "date": "2026-09-07T14:44:04+03:00",
           "author": "Karen Pendergrass",
@@ -29067,6 +29130,15 @@
         "wiki/concepts/gut-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
           "date": "2026-09-07T16:28:57+03:00",
@@ -31119,6 +31191,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
           "date": "2026-09-07T16:28:57+03:00",
           "author": "Karen Pendergrass",
@@ -31505,6 +31586,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/interleukin-6.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -31574,6 +31664,15 @@
         "wiki/concepts/intestinal-permeability.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/intestinal-permeability.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -34403,6 +34502,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "712dcb1dbd90209cb033ee77ad289541a8262226",
           "date": "2026-09-07T16:40:00+03:00",
           "author": "Karen Pendergrass",
@@ -34544,6 +34652,15 @@
         "wiki/concepts/nf-kappa-b.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/nf-kappa-b.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -37192,6 +37309,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/short-chain-fatty-acids.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -38085,6 +38211,15 @@
       ],
       "revisions": [
         {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/tight-junctions.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
           "date": "2026-09-07T16:28:57+03:00",
           "author": "Karen Pendergrass",
@@ -38145,6 +38280,15 @@
         "wiki/concepts/tlr4.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/tlr4.md",
+          "additions": 63,
+          "deletions": 91
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -38355,6 +38499,15 @@
         "wiki/concepts/toll-like-receptors.md"
       ],
       "revisions": [
+        {
+          "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+          "date": "2026-09-07T17:24:50+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen TLR4 and link high-leverage contexts",
+          "path": "wiki/concepts/toll-like-receptors.md",
+          "additions": 4,
+          "deletions": 4
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",

@@ -1662,7 +1662,7 @@ test("server-renders strengthened Neuroinflammation and its first high-leverage 
     .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("neuroinflammation"))
     .map((page) => page.id))]
     .sort();
-  assert.equal(linkedContextIds.length, 47);
+  assert.equal(linkedContextIds.length, 48);
   for (const id of batchIds) assert.ok(linkedContextIds.includes(id), `expected generated Neuroinflammation backlink from ${id}`);
 
   const [pageResponse, historyResponse, sitemapResponse, ...contextResponses] = await Promise.all([
@@ -1724,6 +1724,103 @@ test("server-renders strengthened Neuroinflammation and its first high-leverage 
   const sitemap = await sitemapResponse.text();
   assert.match(history, /wiki\/concepts\/neuroinflammation\.md/);
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/neuroinflammation</loc>`));
+});
+
+test("server-renders strengthened TLR4 and its first high-leverage link batch", async () => {
+  const batchIds = [
+    "peptostreptococcus-anaerobius",
+    "necrotizing-enterocolitis",
+    "toll-like-receptors",
+    "bacterial-contamination-hypothesis",
+    "dysbiosis",
+    "inflammation",
+    "gut-microbiome",
+    "nickel",
+    "cadmium",
+    "tight-junctions",
+    "short-chain-fatty-acids",
+    "colorectal-cancer",
+    "gut-brain-axis",
+    "chronic-kidney-disease",
+    "neuroinflammation",
+    "mercury",
+    "depression",
+    "intestinal-permeability",
+    "nf-kappa-b",
+    "obesity",
+    "enterobacteriaceae",
+    "proteobacteria",
+    "interleukin-6",
+    "chromium",
+  ];
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const linkedContextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("tlr4"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(linkedContextIds.length, 35);
+  for (const id of batchIds) assert.ok(linkedContextIds.includes(id), `expected generated TLR4 backlink from ${id}`);
+
+  const [pageResponse, historyResponse, sitemapResponse, ...contextResponses] = await Promise.all([
+    render("/article/tlr4"),
+    render("/article/tlr4/history"),
+    render("/sitemap.xml"),
+    ...batchIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [pageResponse, historyResponse, sitemapResponse, ...contextResponses]) {
+    assert.equal(response.status, 200);
+  }
+
+  const page = await pageResponse.text();
+  assert.equal(htmlTitle(page), "TLR4 — WikiBiome");
+  assert.equal(htmlCanonical(page), `${PUBLIC_ORIGIN}/article/tlr4`);
+  for (const heading of [
+    "What TLR4 Senses",
+    "Signaling Outputs",
+    "Barrier and Tissue Contexts",
+    "Disease-Associated Pathways",
+    "Metals Beyond Direct Nickel Sensing",
+    "What Intervention Studies Establish",
+    "Reading the Evidence",
+  ]) {
+    assert.match(page, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "ahlstrom-2019-nickel-allergy-review",
+    "davis-richardson-2015-bacteroides-dorei-t1d-model",
+    "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
+    "appunni-2021-dietary-factors-gut-microbiome-crc",
+    "perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain",
+    "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
+  ]) {
+    assert.match(page, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${batchIds[index]}`);
+    const articleHtml = html.slice(articleStart, referencesStart);
+    const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+    const narrativeStart = signatureStart >= 0
+      ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+      : -1;
+    const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+      ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+      : articleHtml;
+    assert.equal(
+      (contextualHtml.match(/href="\/article\/tlr4"/g) ?? []).length,
+      1,
+      `expected exactly one contextual TLR4 link in ${batchIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/tlr4\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/tlr4</loc>`));
 });
 
 test("server-renders Catalase and its reviewed contextual-link batch", async () => {
@@ -3967,7 +4064,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /712dcb1dbd90/);
+  assert.match(readiness, /91894b118beb/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -4433,7 +4530,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "712dcb1dbd90209cb033ee77ad289541a8262226");
+  assert.equal(manifest.source.commit, "91894b118beb8020a2cdf05bdf74bc73082f63e3");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 822);
   assert.equal(manifest.content.sources, 1940);
@@ -4449,7 +4546,7 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.publicContentPolicy.version, 3);
   assert.equal(manifest.publicContentPolicy.excludedCount, 47);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
-  assert.equal(manifest.editorialNormalization.leadPromotionCount, 341);
+  assert.equal(manifest.editorialNormalization.leadPromotionCount, 340);
   assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
   assert.equal(manifest.editorialStatusPolicy.version, 1);
   assert.equal(manifest.editorialStatusPolicy.sourceCommit, manifest.source.commit);
@@ -4464,8 +4561,8 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.articleIdentityPolicy.canonicalArticleCount, 1);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6497);
-  assert.equal(manifest.audit.recoveredInlineReferences, 347);
+  assert.equal(manifest.audit.generatedReferences, 6499);
+  assert.equal(manifest.audit.recoveredInlineReferences, 348);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
   assert.equal(manifest.audit.invalidSourceYears.length, 0);
