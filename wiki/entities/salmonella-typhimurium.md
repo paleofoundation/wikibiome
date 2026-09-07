@@ -26,7 +26,7 @@ pathogenic_potential: obligate
 
 # Salmonella enterica serovar Typhimurium
 
-A Gram-negative enteric pathogen that possesses four distinct [NiFe] hydrogenases -- the most of any well-characterized human pathogen. These hydrogenases are critical for intracellular survival within macrophages, and a triple hydrogenase mutant is 100% avirulent in mouse typhoid models, making nickel-dependent hydrogen metabolism (via [[nife-hydrogenase]]) a central pillar of Salmonella virulence.
+A Gram-negative enteric pathogen that possesses four distinct [[hydrogenase|hydrogenases]] of the [NiFe] class -- the most of any well-characterized human pathogen. These hydrogenases are critical for intracellular survival within macrophages, and a triple hydrogenase mutant is 100% avirulent in mouse typhoid models, making nickel-dependent hydrogen metabolism a central pillar of Salmonella virulence.
 
 ## Metal-Dependent Virulence Factors
 

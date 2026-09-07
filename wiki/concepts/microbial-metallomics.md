@@ -54,7 +54,7 @@ The neurodegeneration pathway is the most striking example of microbial metallom
 
 ### Preterm Infant Disease: Nickel → Pathogens → NEC
 
-- Nickel in preterm formula selectively enriches nickel-dependent pathogens (Klebsiella, Citrobacter, Enterobacter, Ureaplasma) via urease, NiFe-hydrogenase, and glyoxalase activation.
+- Nickel in preterm formula selectively enriches nickel-dependent pathogens (Klebsiella, Citrobacter, Enterobacter, Ureaplasma) via urease, NiFe [[hydrogenase]], and glyoxalase activation.
 - These organisms bloom in the preterm gut before NEC onset, connecting a specific dietary metal to a specific disease via specific microbial metal dependencies [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### Obesity: Cadmium/Lead → Dysbiosis → Metabolic Disease

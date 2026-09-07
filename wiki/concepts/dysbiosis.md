@@ -99,7 +99,7 @@ Across toxic metals (As, Cd, Pb, Hg, Ni), exposure consistently produces a recog
 - Cadmium: dose-dependent and sex-dependent effects; 42 genera altered; enhances mammary tumorigenesis through microbiome-mediated pathways [[tao-2024-cadmium-gut-microbiota-dwarf-hamsters]]. Akkermansia muciniphila is particularly sensitive to low-dose Cd.
 - Lead: time-dependent changes; reduces Ruminococcus, Coprococcus, Oscillospira, Blautia; prenatal exposure alters childhood gut microbiome [[tizabi-2023-lead-gut-microbiota-asd]].
 - Mercury: methylmercury concentrates in the gut lumen; reduces Lactobacillus and Bifidobacterium; increases Desulfovibrio and Clostridium.
-- Nickel: occupational exposure increases Parabacteroides, Escherichia-Shigella; decreases Lactobacillus; Ni-dependent virulence enzymes ([[urease]], hydrogenase) in gut pathogens contribute to ammonia-mediated epithelial damage.
+- Nickel: occupational exposure increases Parabacteroides, Escherichia-Shigella; decreases Lactobacillus; Ni-dependent virulence enzymes ([[urease]], [[hydrogenase]]) in gut pathogens contribute to ammonia-mediated epithelial damage.
 - Iron: both deficiency and excess are dysbiotic; supplementation increases Enterobacteriaceae, decreases Lactobacillus. The iron paradox is especially acute in IBD -- see [[crohns-disease]].
 
 ## The Dysbiosis-Disease Vicious Cycle

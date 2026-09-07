@@ -97,7 +97,7 @@ Pendergrass (2026) presents the most complete illustration of inter-kingdom meta
 
 1. Dietary nickel input: Soy-based infant formula delivers ~10x more nickel (0.45 mg/L) than cow's milk formula (0.03 mg/L) and orders of magnitude more than human breast milk (0.005-0.016 mg/L).
 2. Overwhelmed host defenses: The preterm infant's immature calprotectin and lactoferrin systems cannot sequester the nickel load.
-3. Pathogen activation: Excess nickel fuels Ni-dependent virulence enzymes (urease, [NiFe]-hydrogenase, GloI) in NEC-associated pathogens (*E. coli*, *Klebsiella*, *Enterobacter*, *Citrobacter*, *Ureaplasma*).
+3. Pathogen activation: Excess nickel fuels Ni-dependent virulence enzymes (urease, [NiFe] [[hydrogenase]], GloI) in NEC-associated pathogens (*E. coli*, *Klebsiella*, *Enterobacter*, *Citrobacter*, *Ureaplasma*).
 4. Positive feedback: Urease-generated ammonia raises gut pH, favoring Proteobacteria over acid-producing commensals like *Lactobacillus*, creating a self-reinforcing dysbiosis.
 5. Community-level effect: The enriched pathogen community collectively produces more Ni-enzymes, further altering the gut environment.
 6. Breast milk as evolved countermeasure: Human breast milk's naturally low nickel content may represent an evolved [[nutritional-immunity]] strategy -- starving Ni-dependent gut pathogens of their essential cofactor.

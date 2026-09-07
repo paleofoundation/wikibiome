@@ -108,7 +108,7 @@ How the microbiome modulates metal handling [[zhu-2024-toxic-essential-metals-gu
 - Biosorption: Metal ions adsorb to bacterial cell surfaces and extracellular polymeric substances (EPS) containing phosphoryl, carboxyl, and hydroxyl groups — sequestering metals and reducing their bioavailability for absorption
 - Biotransformation: Gut bacteria chemically modify metals — *Bacillus* spp. reduce Hg(II) to volatile Hg(0); arsenic is methylated to less toxic organic forms by anaerobic bacteria
 - Siderophore competition: The gut is the primary arena where host-derived iron-sequestering proteins (lactoferrin, calprotectin) compete with bacterial siderophores for iron. The composition of the siderophore-producing community determines the outcome of this competition.
-- Essential metal provision: Bacteria with metal cofactor-requiring enzymes ([[urease]] for nickel, hydrogenase for nickel/iron, vitamin B12 for cobalt) deplete specific essential metals from the gut lumen, affecting host absorption
+- Essential metal provision: Bacteria with metal cofactor-requiring enzymes ([[urease]] for nickel, [[hydrogenase]] for nickel/iron, vitamin B12 for cobalt) deplete specific essential metals from the gut lumen, affecting host absorption
 
 The iron paradox: Iron deficiency reduces Lactobacillus and promotes Bacteroidetes/Proteobacteria expansion; iron supplementation in deficient individuals (especially in iron-deficient African children) increases Enterobacteriaceae and reduces Lactobacillus — enriching the community most adapted to exploit iron-rich environments [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]. This means iron supplementation can worsen the gut ecology it is intended to support in nutritionally compromised populations.
 

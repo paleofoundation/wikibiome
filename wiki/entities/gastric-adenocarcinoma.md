@@ -27,7 +27,7 @@ The most common malignancy of the stomach, accounting for over 95% of gastric ca
 
 The mechanistic link between *H. pylori* and gastric carcinogenesis runs through nickel-dependent enzymes:
 
-- NiFe-hydrogenase oxidizes molecular hydrogen (H2) in the gastric environment, generating proton motive force that powers the type IV secretion system (T4SS) responsible for injecting the oncoprotein [[caga|CagA]] into gastric epithelial cells [[maier-2019-nickel-microbial-pathogenesis]].
+- [[hydrogenase|NiFe hydrogenase]] oxidizes molecular hydrogen (H2) in the gastric environment, generating proton motive force that powers the type IV secretion system (T4SS) responsible for injecting the oncoprotein [[caga|CagA]] into gastric epithelial cells [[maier-2019-nickel-microbial-pathogenesis]].
 - CagA is phosphorylated by host kinases and disrupts cell polarity, [[tight-junctions|tight junctions]], and proliferation signaling -- directly promoting the transformation toward malignancy.
 - Hydrogenase deletion mutants of *H. pylori* cannot translocate CagA and fail to induce gastric cancer in the Mongolian gerbil model, establishing that nickel-powered hydrogen metabolism is essential for carcinogenesis [[maier-2019-nickel-microbial-pathogenesis]].
 - Strains isolated from gastric cancer patients show higher hydrogenase activity than strains from patients with gastritis alone, suggesting a dose-response relationship between nickel enzyme activity and cancer risk.

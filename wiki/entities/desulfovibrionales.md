@@ -50,7 +50,7 @@ Molybdenum:
 - Molybdenum bioavailability may be a rate-limiting factor for sulfate-reducing metabolism in low-Mo environments.
 
 Nickel:
-- [NiFe] hydrogenases are widespread in Desulfovibrionales, enabling H2 oxidation as an energy source -- a critical function in interspecies hydrogen transfer within the gut.
+- [NiFe] [[hydrogenase|hydrogenases]] are widespread in Desulfovibrionales, enabling H2 oxidation as an energy source -- a critical function in interspecies hydrogen transfer within the gut.
 - Nickel-dependent hydrogenase activity links Desulfovibrionales to the broader H2 economy of the gut microbiome.
 
 ## Key Enzymes and Virulence Factors

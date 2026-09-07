@@ -76,7 +76,7 @@ A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) tha
 
 ## The Anti-Pathogen Metal Dynamic
 
-*Lactobacillus* occupies a unique ecological position: it does not depend on nickel for virulence (no urease, no [NiFe] hydrogenase, no Ni-GloI) while it actively opposes nickel-dependent pathogens by producing acid (lowering pH, inhibiting urease function) and competing for gut niches. Dietary nickel excess that fuels pathogens simultaneously depletes the *Lactobacillus* populations that would normally keep those pathogens in check.
+*Lactobacillus* occupies a unique ecological position: it does not depend on nickel for virulence (no urease, no [NiFe] [[hydrogenase]], no Ni-GloI) while it actively opposes nickel-dependent pathogens by producing acid (lowering pH, inhibiting urease function) and competing for gut niches. Dietary nickel excess that fuels pathogens simultaneously depletes the *Lactobacillus* populations that would normally keep those pathogens in check.
 
 ## Key Sources
 

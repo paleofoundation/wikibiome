@@ -32,7 +32,7 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
 ## Metal-Dependent Virulence Factors
 
 ### [NiFe] Hydrogenases
-*E. coli* encodes multiple [NiFe] hydrogenases [[maier-2019-nickel-microbial-pathogenesis]]:
+*E. coli* encodes multiple [NiFe] [[hydrogenase|hydrogenases]] [[maier-2019-nickel-microbial-pathogenesis]]:
 
 - Hyd-1 (HyaABC): membrane-bound, H2-uptake. Expressed under aerobic/microaerobic conditions.
 - Hyd-2 (HybOABC): membrane-bound, H2-uptake. Most active under anaerobic conditions with alternative electron acceptors.

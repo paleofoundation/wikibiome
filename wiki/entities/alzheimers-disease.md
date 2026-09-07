@@ -66,7 +66,7 @@ This is the defining metallomic feature of Alzheimer's disease:
 - Ni2+ enhances A-beta-40 aggregation 5.7-fold at 100 uM [[benoit-2021-nickel-chelator-inhibits-amyloid-beta]].
 - Commercial recombinant A-beta-40 preparations contain 1,005 ug Ni per gram of peptide, reflecting intrinsic Ni binding [[benoit-2021-nickel-chelator-inhibits-amyloid-beta]].
 - The nickel chelator dimethylglyoxime (DMG) inhibits A-beta-40 aggregation 40-85% in a dose-dependent manner [[benoit-2021-nickel-chelator-dmg-amyloid-beta]].
-- Ni chelation represents a dual therapeutic strategy against both the "metal hypothesis" and the "infection hypothesis" of AD by disabling Ni-dependent pathogen enzymes (hydrogenase, [[urease]]) [[benoit-2021-nickel-chelator-dmg-amyloid-beta]].
+- Ni chelation represents a dual therapeutic strategy against both the "metal hypothesis" and the "infection hypothesis" of AD by disabling Ni-dependent pathogen enzymes ([[hydrogenase]], [[urease]]) [[benoit-2021-nickel-chelator-dmg-amyloid-beta]].
 
 ### Aluminum: Controversial but Persistent
 

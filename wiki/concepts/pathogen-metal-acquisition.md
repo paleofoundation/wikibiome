@@ -86,7 +86,7 @@ Best characterized in *[[helicobacter-pylori]]*:
 
 - Hpn: Extraordinary small His-rich protein -- 47% of residues are histidine. Forms 20-mers, each monomer binding 5 Ni(II) ions. Present in all gastric *Helicobacter* species. Functions as the primary nickel reservoir, buffering against fluctuations in nickel availability [[maier-2019-nickel-microbial-pathogenesis]].
 - HpnI (Hpn-like): 25% histidine, binds 2 Ni(II) per monomer. Restricted to *H. pylori* and *H. acinonychis*. Competes with Hpn for nickel under low-nickel conditions.
-- Recent work reveals Hpn/HpnI interact with a much wider array of proteins than expected, including urease/hydrogenase maturation enzymes (delivering nickel to these virulence factors), AmiE (aliphatic amidase), and PepA (aminopeptidase). They function as central nickel distribution hubs in the cell [[maier-2019-nickel-microbial-pathogenesis]].
+- Recent work reveals Hpn/HpnI interact with a much wider array of proteins than expected, including urease/[[hydrogenase]] maturation enzymes (delivering nickel to these virulence factors), AmiE (aliphatic amidase), and PepA (aminopeptidase). They function as central nickel distribution hubs in the cell [[maier-2019-nickel-microbial-pathogenesis]].
 - HspA: A GroES (chaperonin) homolog with a unique His-rich C-terminus for nickel binding. Dual function: protein folding chaperone and nickel storage. Candidate for anti-*H. pylori* vaccine [[maier-2019-nickel-microbial-pathogenesis]].
 
 ### Iron Storage

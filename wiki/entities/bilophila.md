@@ -30,7 +30,7 @@ pathogenic_potential: commensal-turned-pathogen
 - Taurine-conjugated bile acids increase with high-saturated-fat diets, providing the metabolic substrate that fuels *B. wadsworthia* expansion.
 
 ### Hydrogen Utilization
-- Uses H2 as an energy source via hydrogenase enzymes, positioning it within the gut hydrogen economy.
+- Uses H2 as an energy source via [[hydrogenase]] enzymes, positioning it within the gut hydrogen economy.
 - H2 consumption by *B. wadsworthia* can shift the thermodynamics of fermentation by other gut bacteria, influencing overall community metabolism.
 
 ### Iron and Molybdenum Dependencies
@@ -79,4 +79,4 @@ The abundance of *B. wadsworthia* is highly responsive to diet:
 - [[cardiovascular-disease]] -- altered in CVD and hypertension contexts
 - [[oxidative-stress]] -- H2S and sulfide-mediated oxidative damage
 - [[arsenic]] -- As exposure increases Bilophila abundance
-- [[hydrogenase]] -- uses H2 as energy source via hydrogenase enzymes
+- Hydrogenase -- uses H2 as energy source via hydrogenase enzymes

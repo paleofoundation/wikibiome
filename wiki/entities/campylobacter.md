@@ -33,7 +33,7 @@ Campylobacter is a genus of Gram-negative, microaerophilic, spiral-shaped bacter
 ## Metal Dependencies
 
 - Iron: Campylobacter possesses multiple iron uptake systems including siderophore receptors and heme/hemoglobin acquisition proteins. Iron restriction impairs colonization [[maier-2019-nickel-microbial-pathogenesis]].
-- Nickel: NiFe-hydrogenase is essential for *C. jejuni* colonization of the chicken cecum and human gut — hydrogen oxidation provides a colonization advantage in the microaerobic niche [[maier-2019-nickel-microbial-pathogenesis]].
+- Nickel: NiFe [[hydrogenase]] is essential for *C. jejuni* colonization of the chicken cecum and human gut — hydrogen oxidation provides a colonization advantage in the microaerobic niche [[maier-2019-nickel-microbial-pathogenesis]].
 - Co-selection: The AcrAB-TolC efflux pump confers resistance to both fluoroquinolones AND metals, making environmental metal exposure a driver of antibiotic-resistant Campylobacter [[srivastava-2016-environmental-resistance-microbes-review]] [[baker-austin-2006-co-selection-antibiotic-metal-resistance]].
 
 ## Disease Associations

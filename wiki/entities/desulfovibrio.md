@@ -34,7 +34,7 @@ A genus of Gram-negative, obligate anaerobic, sulfate-reducing bacteria (SRB) th
 
 ## Metal Dependencies
 
-- Iron: Iron-sulfur clusters are central to the dissimilatory sulfate reduction pathway. Desulfovibrio requires substantial iron for its [Fe]-hydrogenase and ferredoxin electron carriers.
+- Iron: Iron-sulfur clusters are central to the dissimilatory sulfate reduction pathway. Desulfovibrio requires substantial iron for its [Fe] [[hydrogenase]] and ferredoxin electron carriers.
 - Nickel: Some species possess [NiFe]-hydrogenase for hydrogen-dependent sulfate reduction, linking their metabolism to [[nickel]] availability in the gut.
 - Molybdenum: Certain sulfate reductases use [[molybdenum]] cofactors.
 - Mercury: Desulfovibrio species are enriched by [[mercury]] exposure in the gut, and some SRB can methylate inorganic mercury to neurotoxic methylmercury [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].

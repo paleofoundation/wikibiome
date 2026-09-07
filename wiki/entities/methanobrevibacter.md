@@ -34,7 +34,7 @@ The only archaeon represented in this wiki -- *Methanobrevibacter smithii* is th
 
 - Nickel: The key enzyme methyl-coenzyme M reductase (MCR) contains coenzyme F430, a Ni-tetrapyrrole unique to methanogens. Without nickel, methanogenesis cannot occur. This makes *Methanobrevibacter* exquisitely sensitive to nickel availability and competition.
 - Cobalt: Required for corrinoid cofactors involved in methyl group transfer during methanogenesis.
-- Iron: Fe-S clusters are essential for hydrogenase enzymes that oxidize H2 -- the first step of hydrogenotrophic methanogenesis.
+- Iron: Fe-S clusters are essential for [[hydrogenase]] enzymes that oxidize H2 -- the first step of hydrogenotrophic methanogenesis.
 - Zinc: Structural roles in metalloenzymes.
 - Copper sensitivity: Cu is toxic to methanogens at very low concentrations (1.9 umol/L inhibits the related *Methanococcus maripaludis*). Zinc at 1.0 mmol/L can rescue copper toxicity through competitive transporter interactions [[abdel-azim-2018-heavy-metals-vfas-methanococcus]].
 

@@ -32,7 +32,7 @@ oxygen_requirement: "microaerophilic"
 
 # Helicobacter hepaticus
 
-A Gram-negative, microaerophilic bacterium within the Epsilonproteobacteria (family Helicobacteraceae) that is the primary murine model of hepatobiliary and intestinal disease. Unlike its more famous relative [[helicobacter-pylori]], which colonizes the stomach, *H. hepaticus* targets the liver and lower intestinal tract, causing chronic hepatitis, hepatocellular carcinoma, and colitis in susceptible mouse strains. Its relevance to WikiBiome lies in its nickel-dependent hydrogenase -- a metalloenzyme that powers amino acid uptake and cell growth in the hepatobiliary niche.
+A Gram-negative, microaerophilic bacterium within the Epsilonproteobacteria (family Helicobacteraceae) that is the primary murine model of hepatobiliary and intestinal disease. Unlike its more famous relative [[helicobacter-pylori]], which colonizes the stomach, *H. hepaticus* targets the liver and lower intestinal tract, causing chronic hepatitis, hepatocellular carcinoma, and colitis in susceptible mouse strains. Its relevance to WikiBiome lies in its nickel-dependent [[hydrogenase]] -- a metalloenzyme that powers amino acid uptake and cell growth in the hepatobiliary niche.
 
 ## Taxonomy
 
@@ -91,7 +91,7 @@ Dietary zinc imbalance affects *H. hepaticus* abundance in the gut. In a murine 
 
 - [[helicobacter-pylori]] -- closest relative; contrasting metalloenzyme strategy (urease + hydrogenase vs. hydrogenase alone)
 - [[nickel]] -- essential cofactor for the hydrogenase powering H. hepaticus virulence
-- [[hydrogenase]] -- the NiFe metalloenzyme enabling H2-dependent energy generation
+- Hydrogenase -- the NiFe metalloenzyme enabling H2-dependent energy generation
 - [[metal-dependent-virulence]] -- H. hepaticus as a case study in nickel-powered pathogenesis
 - [[zinc]] -- dietary zinc imbalance affects H. hepaticus abundance
 - [[colorectal-cancer]] -- H. hepaticus accelerates tumorigenesis in murine models

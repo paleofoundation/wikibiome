@@ -27,7 +27,7 @@ platform: wikibiome
 
 # Enterobacter
 
-Enterobacter is a genus of Gram-negative, facultatively anaerobic bacteria in the [[enterobacteriaceae]] family. Key species include *[[enterobacter-cloacae]]* (the most clinically relevant) and *E. hormaechei*. Like other Enterobacteriaceae, Enterobacter possesses iron-dependent [[siderophores]] and nickel-dependent NiFe-hydrogenases that provide competitive advantages during [[dysbiosis]].
+Enterobacter is a genus of Gram-negative, facultatively anaerobic bacteria in the [[enterobacteriaceae]] family. Key species include *[[enterobacter-cloacae]]* (the most clinically relevant) and *E. hormaechei*. Like other Enterobacteriaceae, Enterobacter possesses iron-dependent [[siderophores]] and nickel-dependent NiFe [[hydrogenase|hydrogenases]] that provide competitive advantages during [[dysbiosis]].
 
 ## Key Associations
 

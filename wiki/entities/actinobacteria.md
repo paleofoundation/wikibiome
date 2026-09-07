@@ -48,7 +48,7 @@ Mendelian randomization studies in the vault consistently identify Actinobacteri
 
 | Genus | Key Function | Metal Biology |
 |-------|-------------|---------------|
-| [[mycobacterium-tuberculosis]] | TB pathogen; intracellular survival | NiFe-hydrogenase; Ni-urease; mycobactin siderophores |
+| [[mycobacterium-tuberculosis]] | TB pathogen; intracellular survival | NiFe [[hydrogenase]]; Ni-urease; mycobactin siderophores |
 
 ### Members Without Dedicated Pages
 

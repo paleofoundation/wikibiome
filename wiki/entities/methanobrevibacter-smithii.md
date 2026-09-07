@@ -40,7 +40,7 @@ Methanobrevibacter smithii is the dominant methanogenic archaeon in the human gu
 - Uses nickel-iron clusters ([NiFe] cofactors) to oxidize H2.
 - In the gut, this enzyme scavenges hydrogen produced by fermentative bacteria (e.g., *Bacteroides*, *Faecalibacterium*) (Samuel & Gordon 2006 PNAS; [[abdel-azim-2018-heavy-metals-vfas-methanococcus]]).
 - H2 would otherwise accumulate, creating a hostile reducing environment; methanogenesis by *M. smithii* converts H2 to the more storable methane.
-- Nickel deprivation eliminates hydrogenase assembly and suppressively slows methanogenesis, effectively starving *M. smithii*.
+- Nickel deprivation eliminates [[hydrogenase]] assembly and suppressively slows methanogenesis, effectively starving *M. smithii*.
 
 ### Methyl-Coenzyme M Reductase (Mcr)
 - The terminal enzyme in methanogenesis; uses a unique nickel-containing cofactor (Ni-F430).

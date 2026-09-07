@@ -50,7 +50,7 @@ Inflammation-driven [[hepcidin]] elevation sequesters systemic iron but floods t
 
 ### Nickel
 
-- NiFe-hydrogenases (Hya, Hyb, Hyc, Hyd): Oxidize H2 for energy during anaerobic respiration, providing competitive advantage in the inflamed gut [[maier-2019-nickel-microbial-pathogenesis]].
+- NiFe [[hydrogenase|hydrogenases]] (Hya, Hyb, Hyc, Hyd): Oxidize H2 for energy during anaerobic respiration, providing competitive advantage in the inflamed gut [[maier-2019-nickel-microbial-pathogenesis]].
 
 ## The Universal Dysbiosis Bloom
 

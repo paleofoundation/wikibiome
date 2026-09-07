@@ -24,7 +24,7 @@ Virulence factors are the molecular tools that enable a microorganism to coloniz
 
 Toxins directly damage host tissues. Many are metalloproteins:
 
-For *H. pylori*, the [[caga|CagA]] effector is delivered through a nickel-hydrogenase-powered type IV secretion system; the nickel relationship is indirect rather than a metal cofactor within CagA itself.
+For *H. pylori*, the [[caga|CagA]] effector is delivered through a nickel-[[hydrogenase]]-powered type IV secretion system; the nickel relationship is indirect rather than a metal cofactor within CagA itself.
 
 | Toxin | Organism | Metal Cofactor | Mechanism |
 |-------|----------|---------------|-----------|

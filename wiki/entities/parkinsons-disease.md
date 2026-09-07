@@ -98,7 +98,7 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 
 ### Nickel-Dependent Virulence in the PD Gut
 
-- [[nickel]]-dependent bacterial enzymes ([[urease]], [NiFe]-hydrogenase) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- [[nickel]]-dependent bacterial enzymes ([[urease]], [NiFe] [[hydrogenase]]) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - This compounds iron-driven ferroptosis by worsening gut barrier breakdown.
 
 ### PD-Specific Dysbiosis Pattern

@@ -36,7 +36,7 @@ For species-level detail, see [[klebsiella-pneumoniae]].
 ## Metal Dependencies
 
 - Iron: Klebsiella produces multiple siderophores — enterobactin, yersiniabactin (a dual iron/nickel metallophore), and salmochelin — giving it one of the most comprehensive iron acquisition toolkits among enteric pathogens [[bushman-2025-nutrient-metals-bacteria-gut-infection]].
-- Nickel: NiFe-hydrogenases support anaerobic hydrogen oxidation in the inflamed gut, providing competitive advantage [[maier-2019-nickel-microbial-pathogenesis]] [[pendergrass-2026-nickel-nec-preterm-gut]].
+- Nickel: NiFe [[hydrogenase|hydrogenases]] support anaerobic hydrogen oxidation in the inflamed gut, providing competitive advantage [[maier-2019-nickel-microbial-pathogenesis]] [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Manganese: Required for superoxide dismutase (MnSOD) defense against the oxidative burst.
 - Co-selection: Metal resistance genes co-located with carbapenem resistance on shared plasmids — environmental metal exposure drives the evolution of carbapenem-resistant Klebsiella (CR-KP), one of the most urgent AMR threats globally [[baker-austin-2006-co-selection-antibiotic-metal-resistance]] [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].
 

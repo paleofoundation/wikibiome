@@ -21,13 +21,13 @@ pathogenic_potential: obligate
 
 # Mycobacterium tuberculosis
 
-The causative agent of tuberculosis (TB), the leading infectious disease killer worldwide (~1.3 million deaths annually). *M. tuberculosis* has an exceptionally complex metal biology: it deploys [[nickel]]-dependent hydrogenase and [[urease]] for intracellular survival, species-specific [[siderophores-metallophores|siderophores]] (mycobactins) for [[iron]] scavenging, and must resist host [[copper]] intoxication within macrophage phagosomes.
+The causative agent of tuberculosis (TB), the leading infectious disease killer worldwide (~1.3 million deaths annually). *M. tuberculosis* has an exceptionally complex metal biology: it deploys [[nickel]]-dependent [[hydrogenase]] and [[urease]] for intracellular survival, species-specific [[siderophores-metallophores|siderophores]] (mycobactins) for [[iron]] scavenging, and must resist host [[copper]] intoxication within macrophage phagosomes.
 
 ## Nickel-Dependent Virulence
 
 ### [NiFe] Hydrogenase (Hyc)
 
-- *M. tuberculosis* possesses a Hyc-type [NiFe] [[hydrogenase]] that is upregulated during macrophage infection [[maier-2019-nickel-microbial-pathogenesis]].
+- *M. tuberculosis* possesses a Hyc-type [NiFe] hydrogenase that is upregulated during macrophage infection [[maier-2019-nickel-microbial-pathogenesis]].
 - Within the phagosome, conventional carbon sources are scarce. H2 oxidation provides an alternative energy source (PMF generation) for survival in this nutrient-limited intracellular niche.
 - The upregulation specifically during macrophage residence suggests the bacterium shifts to H2-dependent energy metabolism as part of its intracellular persistence program.
 - Connects to the broader theme of hydrogenase-dependent intracellular survival seen in [[salmonella-typhimurium]] and [[shigella-flexneri]].
@@ -80,7 +80,7 @@ The causative agent of tuberculosis (TB), the leading infectious disease killer 
 
 ## Connections
 
-- [[hydrogenase]] -- Hyc upregulated in macrophages for intracellular energy generation
+- Hydrogenase -- Hyc upregulated in macrophages for intracellular energy generation
 - Urease -- nitrogen acquisition during chronic/latent infection
 - [[siderophores-metallophores]] -- mycobactins/carboxymycobactins for iron acquisition
 - [[nickel]] -- cofactor for hydrogenase and urease

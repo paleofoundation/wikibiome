@@ -34,7 +34,7 @@ Iron siderophores are the archetypal metal-scavenging molecules. Virtually all b
 
 ## Nickelophores: The Newer Story
 
-By analogy with siderophores (iron-specific chelators), "nickelophores" are small molecules that chelate nickel for pathogen uptake. This is a more recently appreciated category, reflecting the growing recognition that Ni-dependent virulence factors ([[urease]], hydrogenase, GloI) require dedicated nickel acquisition systems [[maier-2019-nickel-microbial-pathogenesis]].
+By analogy with siderophores (iron-specific chelators), "nickelophores" are small molecules that chelate nickel for pathogen uptake. This is a more recently appreciated category, reflecting the growing recognition that Ni-dependent virulence factors ([[urease]], [[hydrogenase]], GloI) require dedicated nickel acquisition systems [[maier-2019-nickel-microbial-pathogenesis]].
 
 ### Staphylopine
 

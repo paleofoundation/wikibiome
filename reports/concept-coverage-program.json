@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "d35a5b3f1dc8ef6484823b777b0e9fd9ef62eac705b26a43394cf5ae006a385a",
+    "corpusSha256": "b29eadcc2f530c290523f153777da84ae902a8aac31c1aca517396d6e0162333",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
-    "decisionsSha256": "0bf910c029403fb8de009ad0ba556fea03d0ae69b1e6d37f9ca2e95b119d7e8f",
+    "decisionsSha256": "4f1aea11dc4f104b98c6168fa2b564d074bd2729acdff4ed048e83765e546332",
     "publicArticles": 592,
     "sourceRecords": 1939
   },
@@ -28,7 +28,7 @@
     "backfillLinks": 201,
     "evidenceHold": 1,
     "accepted": 0,
-    "promoted": 20
+    "promoted": 21
   },
   "activeReviews": [],
   "completedJobs": [
@@ -83,6 +83,58 @@
       "key": "backfill_links:catalase#2026-09-07-core-catalase-contexts",
       "jobKey": "backfill_links:catalase",
       "batchId": "2026-09-07-core-catalase-contexts"
+    },
+    {
+      "id": "hydrogenase",
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "targets": [
+        "actinobacteria",
+        "alzheimers-disease",
+        "bilophila",
+        "calprotectin",
+        "campylobacter",
+        "citrobacter",
+        "desulfovibrio",
+        "desulfovibrionales",
+        "dimethylglyoxime",
+        "dysbiosis",
+        "endometriosis",
+        "enterobacter",
+        "enterobacteriaceae",
+        "escherichia",
+        "escherichia-coli",
+        "fermentative-metabolism",
+        "gastric-adenocarcinoma",
+        "gastric-ulcer",
+        "gerd",
+        "gut-metal-microbiome",
+        "gut-microbiome",
+        "helicobacter-hepaticus",
+        "inter-kingdom-metal-shielding",
+        "klebsiella",
+        "lactobacillus",
+        "metal-dependent-virulence",
+        "methanobrevibacter",
+        "methanobrevibacter-smithii",
+        "microbial-metallomics",
+        "mis-metallation",
+        "mycobacterium-tuberculosis",
+        "nickel",
+        "nickel-transporters",
+        "nutritional-immunity",
+        "oxygen-state",
+        "parkinsons-disease",
+        "pathogen-metal-acquisition",
+        "salmonella",
+        "salmonella-typhimurium",
+        "siderophores-metallophores",
+        "virulence-factors"
+      ],
+      "key": "backfill_links:hydrogenase#2026-09-07-corpus-wide-hydrogenase-contexts",
+      "jobKey": "backfill_links:hydrogenase",
+      "batchId": "2026-09-07-corpus-wide-hydrogenase-contexts"
     },
     {
       "id": "interleukin-22",
@@ -467,470 +519,6 @@
     }
   ],
   "jobs": [
-    {
-      "key": "backfill_links:hydrogenase",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": {
-        "state": "queued",
-        "rationale": "A sourced Hydrogenase page already exists, and the Helicobacter pylori lead is a high-value contextual link location.",
-        "batches": [
-          {
-            "id": "2026-09-06-helicobacter-pylori",
-            "state": "promoted",
-            "reviewedAt": "2026-09-06",
-            "promotedAt": "2026-09-06",
-            "targets": [
-              "helicobacter-pylori"
-            ]
-          }
-        ]
-      },
-      "id": "hydrogenase",
-      "title": "Hydrogenase",
-      "pageType": "concept",
-      "aliases": [
-        "Hydrogenase",
-        "hydrogenase",
-        "[NiFe] hydrogenase",
-        "NiFe hydrogenase",
-        "NiFe-hydrogenase"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing enzyme page with broad microbial energy and virulence relevance.",
-      "existingPage": {
-        "path": "wiki/concepts/hydrogenase.md",
-        "sourceCount": 4
-      },
-      "priority": 95.5,
-      "scoreComponents": {
-        "demand": 25,
-        "evidence": 25,
-        "graphGain": 20,
-        "scopeFit": 15,
-        "outlineReadiness": 13.5,
-        "ambiguityPenalty": -3
-      },
-      "metrics": {
-        "distinctArticles": 52,
-        "totalPlainMentions": 153,
-        "linkedArticles": 10,
-        "unlinkedArticles": 42,
-        "linkCoveragePercent": 19,
-        "leadMentions": 5,
-        "headingMentions": 5,
-        "articleCategories": [
-          "archaea",
-          "concept",
-          "disease",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 14,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 190.106
-      },
-      "affectedPages": [
-        {
-          "id": "salmonella-typhimurium",
-          "title": "Salmonella enterica serovar Typhimurium",
-          "path": "wiki/entities/salmonella-typhimurium.md",
-          "category": "microbe",
-          "plainMentions": 10,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": true,
-          "inboundLinks": 17
-        },
-        {
-          "id": "nickel-transporters",
-          "title": "Nickel Transporters",
-          "path": "wiki/concepts/nickel-transporters.md",
-          "category": "concept",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "mycobacterium-tuberculosis",
-          "title": "Mycobacterium tuberculosis",
-          "path": "wiki/entities/mycobacterium-tuberculosis.md",
-          "category": "microbe",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "helicobacter-hepaticus",
-          "title": "Helicobacter hepaticus",
-          "path": "wiki/entities/helicobacter-hepaticus.md",
-          "category": "microbe",
-          "plainMentions": 13,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "escherichia-coli",
-          "title": "Escherichia coli",
-          "path": "wiki/entities/escherichia-coli.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 63
-        },
-        {
-          "id": "gastric-adenocarcinoma",
-          "title": "Gastric Adenocarcinoma",
-          "path": "wiki/entities/gastric-adenocarcinoma.md",
-          "category": "disease",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 6
-        },
-        {
-          "id": "nutritional-immunity",
-          "title": "Nutritional Immunity (Metal Sequestration)",
-          "path": "wiki/concepts/nutritional-immunity.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 156
-        },
-        {
-          "id": "dysbiosis",
-          "title": "Dysbiosis",
-          "path": "wiki/concepts/dysbiosis.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 148
-        },
-        {
-          "id": "nickel",
-          "title": "Nickel",
-          "path": "wiki/entities/nickel.md",
-          "category": "metal",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 137
-        },
-        {
-          "id": "endometriosis",
-          "title": "Endometriosis",
-          "path": "wiki/entities/endometriosis.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 81
-        },
-        {
-          "id": "gut-metal-microbiome",
-          "title": "Gut-Metal-Microbiome Interactions",
-          "path": "wiki/concepts/gut-metal-microbiome.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 75
-        },
-        {
-          "id": "mis-metallation",
-          "title": "Mis-Metallation",
-          "path": "wiki/concepts/mis-metallation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 73
-        },
-        {
-          "id": "lactobacillus",
-          "title": "Lactobacillus",
-          "path": "wiki/entities/lactobacillus.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 58
-        },
-        {
-          "id": "calprotectin",
-          "title": "Calprotectin (S100A8/A9)",
-          "path": "wiki/concepts/calprotectin.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 52
-        },
-        {
-          "id": "parkinsons-disease",
-          "title": "Parkinson's Disease",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 49
-        },
-        {
-          "id": "metal-dependent-virulence",
-          "title": "Metal-Dependent Virulence",
-          "path": "wiki/concepts/metal-dependent-virulence.md",
-          "category": "concept",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 39
-        },
-        {
-          "id": "alzheimers-disease",
-          "title": "Alzheimer's Disease",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 36
-        },
-        {
-          "id": "enterobacteriaceae",
-          "title": "Enterobacteriaceae",
-          "path": "wiki/entities/enterobacteriaceae.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 27
-        },
-        {
-          "id": "siderophores-metallophores",
-          "title": "Siderophores and Metallophores",
-          "path": "wiki/concepts/siderophores-metallophores.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 26
-        },
-        {
-          "id": "desulfovibrio",
-          "title": "Desulfovibrio",
-          "path": "wiki/entities/desulfovibrio.md",
-          "category": "microbe",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 18
-        },
-        {
-          "id": "gerd",
-          "title": "Gastroesophageal Reflux Disease (GERD)",
-          "path": "wiki/entities/gerd.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 15
-        },
-        {
-          "id": "gut-microbiome",
-          "title": "Gut Microbiome",
-          "path": "wiki/concepts/gut-microbiome.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 15
-        },
-        {
-          "id": "inter-kingdom-metal-shielding",
-          "title": "Inter-Kingdom Metal Shielding",
-          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "nife-hydrogenase",
-          "title": "NiFe-Hydrogenase",
-          "path": "wiki/concepts/nife-hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 20,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 10
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "pendergrass-2026-endometriosis-conference",
-          "title": "Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/pendergrass-2026-endometriosis-conference.md",
-          "passage": {
-            "excerpt": "The presentation demonstrated that endometriosis is an ecological disease driven by metal-dependent microbial communities, with nickel as the central actionable target. Key findings include 90.3% nickel allergy prevalence in endometriosis patients, the role...",
-            "sha256": "764cd2ad3506c8ce4c4090bc660640498930b47c4f6f91df15aaf8d02c96b9e1"
-          }
-        },
-        {
-          "id": "pendergrass-2026-nickel-nec-preterm-gut",
-          "title": "Nickel as a Catalytic Driver of Necrotizing Enterocolitis: Dietary Nickel, Microbial Metallomics, and the Activation of Nickel-Dependent Virulence Pathways in the Preterm Gut",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/pendergrass-2026-nickel-nec-preterm-gut.md",
-          "passage": {
-            "excerpt": "- Dietary nickel from infant formula (especially soy-based) may be a critical but overlooked contributor to necrotizing enterocolitis (NEC) pathogenesis in preterm infants - Key NEC-associated pathogens (E. coli, Klebsiella, Enterobacter, Citrobacter, Ureap...",
-            "sha256": "70a99a649a084527c002d8ba1049189b44fb7aa8d6759e456e1104f491bf4933"
-          }
-        },
-        {
-          "id": "chen-2025-machine-learning-gut-microbiome-diagnostic-eoc",
-          "title": "Chen 2025 — Machine Learning-Derived Diagnostic Model of Epithelial Ovarian Cancer Based on Gut Microbiome Signatures",
-          "evidenceLevel": "cross-sectional",
-          "year": 2025,
-          "path": "wiki/sources/chen-2025-machine-learning-gut-microbiome-diagnostic-eoc.md",
-          "passage": {
-            "excerpt": "The identification of E. coli as pro-tumorigenic is consistent with WikiBiome's broader framework linking escherichia coli to multiple disease states through its metal-dependent virulence factors, biofilm formation, and inflammatory capacity. E. coli's depe...",
-            "sha256": "8a08639f28bdf6bede2ba5090f990e736f68b89acbb8d7f1c7e83e8a30ea1586"
-          }
-        },
-        {
-          "id": "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
-          "title": "Microbial Metallomics and Parkinson's Disease: A Unified Metal-Driven Framework Linking Ferroptosis, Dysbiosis, and alpha-Synuclein Pathology",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md",
-          "passage": {
-            "excerpt": "- Proposes a unified metal-driven framework for Parkinson's disease (PD) that connects gut microbial metallomics, intestinal dysbiosis, ferroptosis, and alpha-synuclein pathology through shared metal-dependent mechanisms - Heavy metals (particularly iron, m...",
-            "sha256": "b5137e1565123c58ac3c8ef797ad8c20b34a10152221ac3955e9f68cc52c7828"
-          }
-        },
-        {
-          "id": "wu-2025-distinct-diet-microbiome-associations-asd",
-          "title": "Wu 2025 — Distinct Diet-Microbiome Associations in Autism Spectrum Disorder",
-          "evidenceLevel": "cross-sectional",
-          "year": 2025,
-          "path": "wiki/sources/wu-2025-distinct-diet-microbiome-associations-asd.md",
-          "passage": {
-            "excerpt": "- **Peptide/nickel transport system**: The finding that nickel transport is the main metabolic pathway in ASD-associated differential species is a direct metallomic connection -- nickel-dependent urease and hydrogenase pathways may be selectively enriched i...",
-            "sha256": "d6687c0e9ec08066cb0ee173151ecb5f93c0a2aa4859374e3eb045f9a4fd8aaf"
-          }
-        },
-        {
-          "id": "capdevila-2024-bacterial-metallostasis-sensing-trafficking",
-          "title": "Capdevila 2024 — Bacterial Metallostasis: Metal Sensing, Metalloproteome Remodeling, and Metal Trafficking",
-          "evidenceLevel": "expert-opinion",
-          "year": 2024,
-          "path": "wiki/sources/capdevila-2024-bacterial-metallostasis-sensing-trafficking.md",
-          "passage": {
-            "excerpt": "- MnII plays diverse roles: phosphatases, arginase, Mn-SOD, ribonucleotide reductases - Fewer than ten Ni metalloenzymes are known, but they drive global carbon, nitrogen, and oxygen cycles - NiII urease and [NiFe]-hydrogenase are critical metal dependent v...",
-            "sha256": "4ff310d8a708c5bc610f3c383eec1c19305ad783b08f1f28c23996e08cc9bcd9"
-          }
-        },
-        {
-          "id": "liu-2024-gut-microbiota-chronic-renal-failure-mr",
-          "title": "Liu et al. 2024 — Causal Relationship between Gut Microbiota and Chronic Renal Failure: A Two-Sample MR Study",
-          "evidenceLevel": "computational-prediction",
-          "year": 2024,
-          "path": "wiki/sources/liu-2024-gut-microbiota-chronic-renal-failure-mr.md",
-          "passage": {
-            "excerpt": "From a metallomics perspective, Escherichia species are highly dependent on iron (via siderophore systems including enterobactin) and express nickel-dependent enzymes (urease, hydrogenase). Their causal role in CRF connects the metals-as-selective-pressures...",
-            "sha256": "0aa9e75722ddf1729b3ef901a1a4b3d0ef9405e5bf2c171d37e7763bf81c76c9"
-          }
-        },
-        {
-          "id": "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
-          "title": "Sugihartono 2022 — Gastric Microbiota and H. pylori in GERD",
-          "evidenceLevel": "cross-sectional",
-          "year": 2022,
-          "path": "wiki/sources/sugihartono-2022-gastric-microbiota-h-pylori-gerd.md",
-          "passage": {
-            "excerpt": "This study enriches the helicobacter pylori entity page with evidence for its paradoxical protective role in GERD — a key narrative for WikiBiome's nuanced view of pathogens. The inverse relationship challenges the simplistic \"eradicate all pathogens\" appro...",
-            "sha256": "d70d5566a62a4e20da8bb3bd7960d2d8ffd69a01932310e22dfd69ab393ace91"
-          }
-        },
-        {
-          "id": "swierc-2022-nickel-intestinal-microbiota-disturbances",
-          "title": "The influence of nickel on intestinal microbiota disturbances",
-          "evidenceLevel": "expert-opinion",
-          "year": 2022,
-          "path": "wiki/sources/swierc-2022-nickel-intestinal-microbiota-disturbances.md",
-          "passage": {
-            "excerpt": "- nickel is an essential element for certain biochemical reactions in microorganisms but excess intake contributes to dysbiosis, especially in patients with systemic nickel allergy syndrome - Nickel-dependent enzymes (urease, hydrogenase, CO-dehydrogenase)...",
-            "sha256": "400bc5116cfba40ccddbfa389a0f3c87a3d59a5f96e6f548832aafc0f9579b22"
-          }
-        },
-        {
-          "id": "benoit-2021-nickel-chelator-dmg-amyloid-beta",
-          "title": "The nickel-chelator dimethylglyoxime inhibits human amyloid beta peptide in vitro aggregation",
-          "evidenceLevel": "in-vitro",
-          "year": 2021,
-          "path": "wiki/sources/benoit-2021-nickel-chelator-dmg-amyloid-beta.md",
-          "passage": {
-            "excerpt": "- nickel (Ni2+) enhances amyloid beta (A-beta-40) peptide aggregation in vitro -- a 5.7-fold increase at 100 uM NiSO4 -- making it a previously unrecognized contributor to alzheimers disease pathology - Commercial recombinant A-beta-40 peptide preparations...",
-            "sha256": "7f0de0998aa952f473adb093ed8e6c04c1f86184a5768841dac2e6dbf9b9d99b"
-          }
-        },
-        {
-          "id": "patil-2021-infection-metallomics-critical-care",
-          "title": "Infection metallomics for critical care in the post-COVID era",
-          "evidenceLevel": "in-vitro",
-          "year": 2021,
-          "path": "wiki/sources/patil-2021-infection-metallomics-critical-care.md",
-          "passage": {
-            "excerpt": "- iron -- iron acquisition via siderophores is the fundamental host-pathogen battleground; nutritional immunity involves host \"withholding\" Fe - copper -- dual role: toxic to microbes (innate immune defense) but exploited by pathogens through Cu-binding yer...",
-            "sha256": "487f30b918922181d0b203520fdc4daa772f2093acf4c26364dfb95f0027cbfd"
-          }
-        },
-        {
-          "id": "benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens",
-          "title": "Benoit et al. 2019 — Nickel Chelation Therapy as an Approach to Combat Multi-Drug Resistant Enteric Pathogens",
-          "evidenceLevel": "animal-model",
-          "year": 2019,
-          "path": "wiki/sources/benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens.md",
-          "passage": {
-            "excerpt": "- **DMG abolishes Salmonella hydrogenase activity**: H₂-uptake NiFe-hydrogenase activity was completely abolished at 10 mM DMG. Addition of 50 µM NiCl₂ restored some hydrogenase activity at lower DMG concentrations, confirming the mechanism is nickel chelat...",
-            "sha256": "a9646d3d5ff73b8cde8deae5354ae5e3c4224965ada4325ff03389dc755c59e9"
-          }
-        }
-      ]
-    },
     {
       "key": "backfill_links:ammonia",
       "lane": "backfill_links",
@@ -1454,7 +1042,7 @@
         ],
         "candidateEvidenceSources": 29,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 116.86
+        "weightedGraphGain": 118.516
       },
       "affectedPages": [
         {
@@ -1524,6 +1112,17 @@
           "inboundLinks": 73
         },
         {
+          "id": "hydrogenase",
+          "title": "Hydrogenase",
+          "path": "wiki/concepts/hydrogenase.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 51
+        },
+        {
           "id": "lactoferrin",
           "title": "Lactoferrin",
           "path": "wiki/concepts/lactoferrin.md",
@@ -1544,17 +1143,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 36
-        },
-        {
-          "id": "hydrogenase",
-          "title": "Hydrogenase",
-          "path": "wiki/concepts/hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 14
         },
         {
           "id": "superoxide-dismutase",
@@ -1598,7 +1186,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 10
+          "inboundLinks": 9
         },
         {
           "id": "pancreatic-cancer",
@@ -1904,7 +1492,7 @@
         ],
         "candidateEvidenceSources": 915,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 885.602
+        "weightedGraphGain": 885.465
       },
       "affectedPages": [
         {
@@ -2352,7 +1940,7 @@
         ],
         "candidateEvidenceSources": 607,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 827.044
+        "weightedGraphGain": 828.838
       },
       "affectedPages": [
         {
@@ -6833,7 +6421,7 @@
         ],
         "candidateEvidenceSources": 77,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 289.005
+        "weightedGraphGain": 288.868
       },
       "affectedPages": [
         {
@@ -10410,7 +9998,7 @@
         ],
         "candidateEvidenceSources": 168,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 209.31
+        "weightedGraphGain": 209.172
       },
       "affectedPages": [
         {
@@ -11303,7 +10891,7 @@
         ],
         "candidateEvidenceSources": 29,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 195.724
+        "weightedGraphGain": 195.586
       },
       "affectedPages": [
         {
@@ -11749,7 +11337,7 @@
         ],
         "candidateEvidenceSources": 104,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 178.801
+        "weightedGraphGain": 180.594
       },
       "affectedPages": [
         {
@@ -11896,6 +11484,17 @@
           "inboundLinks": 52
         },
         {
+          "id": "hydrogenase",
+          "title": "Hydrogenase",
+          "path": "wiki/concepts/hydrogenase.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 51
+        },
+        {
           "id": "lachnospiraceae",
           "title": "Lachnospiraceae",
           "path": "wiki/entities/lachnospiraceae.md",
@@ -11966,17 +11565,6 @@
           "title": "Clostridium",
           "path": "wiki/entities/clostridium.md",
           "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 14
-        },
-        {
-          "id": "hydrogenase",
-          "title": "Hydrogenase",
-          "path": "wiki/concepts/hydrogenase.md",
-          "category": "concept",
           "plainMentions": 1,
           "linked": false,
           "leadMention": false,
@@ -26178,7 +25766,7 @@
         ],
         "candidateEvidenceSources": 37,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 128.433
+        "weightedGraphGain": 128.296
       },
       "affectedPages": [
         {
@@ -26303,17 +25891,6 @@
           "inboundLinks": 10
         },
         {
-          "id": "nife-hydrogenase",
-          "title": "NiFe-Hydrogenase",
-          "path": "wiki/concepts/nife-hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 10
-        },
-        {
           "id": "pathogen-metal-acquisition",
           "title": "Pathogen Metal Acquisition Systems",
           "path": "wiki/concepts/pathogen-metal-acquisition.md",
@@ -26339,6 +25916,17 @@
           "id": "DNA-damage",
           "title": "DNA Damage in Metal Carcinogenesis",
           "path": "wiki/concepts/DNA-damage.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 9
+        },
+        {
+          "id": "nife-hydrogenase",
+          "title": "NiFe-Hydrogenase",
+          "path": "wiki/concepts/nife-hydrogenase.md",
           "category": "concept",
           "plainMentions": 1,
           "linked": false,
@@ -27023,6 +26611,266 @@
           "passage": {
             "excerpt": "- Long-term SSRI use may contribute to cervical cancer onset through dysbiosis-immunity-carcinogenesis axis: SSRIs promote antibiotic resistance in bacteria and disrupt estrogen-serotonin-prolactin cross-talk - SSRIs at clinically relevant concentrations pr...",
             "sha256": "c0cf557f222636bb7875922ed0a667d5375662f8d421e51788a1729c52cbc2d2"
+          }
+        }
+      ]
+    },
+    {
+      "key": "backfill_links:hydrogenase",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": {
+        "state": "queued",
+        "rationale": "The existing four-source Hydrogenase page is now linked from the first explanatory occurrence in 51 of 52 relevant articles. Later repetitions remain plain text to avoid overlinking. The separate NiFe-Hydrogenase page is intentionally held for canonical identity consolidation because it substantially overlaps the broad enzyme page and cannot responsibly be counted as an ordinary backlink.",
+        "batches": [
+          {
+            "id": "2026-09-06-helicobacter-pylori",
+            "state": "promoted",
+            "reviewedAt": "2026-09-06",
+            "promotedAt": "2026-09-06",
+            "targets": [
+              "helicobacter-pylori"
+            ]
+          },
+          {
+            "id": "2026-09-07-corpus-wide-hydrogenase-contexts",
+            "state": "promoted",
+            "reviewedAt": "2026-09-07",
+            "promotedAt": "2026-09-07",
+            "targets": [
+              "actinobacteria",
+              "alzheimers-disease",
+              "bilophila",
+              "calprotectin",
+              "campylobacter",
+              "citrobacter",
+              "desulfovibrio",
+              "desulfovibrionales",
+              "dimethylglyoxime",
+              "dysbiosis",
+              "endometriosis",
+              "enterobacter",
+              "enterobacteriaceae",
+              "escherichia",
+              "escherichia-coli",
+              "fermentative-metabolism",
+              "gastric-adenocarcinoma",
+              "gastric-ulcer",
+              "gerd",
+              "gut-metal-microbiome",
+              "gut-microbiome",
+              "helicobacter-hepaticus",
+              "inter-kingdom-metal-shielding",
+              "klebsiella",
+              "lactobacillus",
+              "metal-dependent-virulence",
+              "methanobrevibacter",
+              "methanobrevibacter-smithii",
+              "microbial-metallomics",
+              "mis-metallation",
+              "mycobacterium-tuberculosis",
+              "nickel",
+              "nickel-transporters",
+              "nutritional-immunity",
+              "oxygen-state",
+              "parkinsons-disease",
+              "pathogen-metal-acquisition",
+              "salmonella",
+              "salmonella-typhimurium",
+              "siderophores-metallophores",
+              "virulence-factors"
+            ]
+          }
+        ]
+      },
+      "id": "hydrogenase",
+      "title": "Hydrogenase",
+      "pageType": "concept",
+      "aliases": [
+        "Hydrogenase",
+        "hydrogenase",
+        "[NiFe] hydrogenase",
+        "NiFe hydrogenase",
+        "NiFe-hydrogenase"
+      ],
+      "excludePhrases": [],
+      "reason": "Existing enzyme page with broad microbial energy and virulence relevance.",
+      "existingPage": {
+        "path": "wiki/concepts/hydrogenase.md",
+        "sourceCount": 4
+      },
+      "priority": 87.18,
+      "scoreComponents": {
+        "demand": 25,
+        "evidence": 25,
+        "graphGain": 11.68,
+        "scopeFit": 15,
+        "outlineReadiness": 13.5,
+        "ambiguityPenalty": -3
+      },
+      "metrics": {
+        "distinctArticles": 52,
+        "totalPlainMentions": 130,
+        "linkedArticles": 51,
+        "unlinkedArticles": 1,
+        "linkCoveragePercent": 98,
+        "leadMentions": 2,
+        "headingMentions": 5,
+        "articleCategories": [
+          "archaea",
+          "concept",
+          "disease",
+          "metal",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 14,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 4.322
+      },
+      "affectedPages": [
+        {
+          "id": "nife-hydrogenase",
+          "title": "NiFe-Hydrogenase",
+          "path": "wiki/concepts/nife-hydrogenase.md",
+          "category": "concept",
+          "plainMentions": 20,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 9
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "pendergrass-2026-endometriosis-conference",
+          "title": "Pendergrass 2026 — Endometriosis Conference Presentation (Amsterdam)",
+          "evidenceLevel": "expert-opinion",
+          "year": 2026,
+          "path": "wiki/sources/pendergrass-2026-endometriosis-conference.md",
+          "passage": {
+            "excerpt": "The presentation demonstrated that endometriosis is an ecological disease driven by metal-dependent microbial communities, with nickel as the central actionable target. Key findings include 90.3% nickel allergy prevalence in endometriosis patients, the role...",
+            "sha256": "764cd2ad3506c8ce4c4090bc660640498930b47c4f6f91df15aaf8d02c96b9e1"
+          }
+        },
+        {
+          "id": "pendergrass-2026-nickel-nec-preterm-gut",
+          "title": "Nickel as a Catalytic Driver of Necrotizing Enterocolitis: Dietary Nickel, Microbial Metallomics, and the Activation of Nickel-Dependent Virulence Pathways in the Preterm Gut",
+          "evidenceLevel": "expert-opinion",
+          "year": 2026,
+          "path": "wiki/sources/pendergrass-2026-nickel-nec-preterm-gut.md",
+          "passage": {
+            "excerpt": "- Dietary nickel from infant formula (especially soy-based) may be a critical but overlooked contributor to necrotizing enterocolitis (NEC) pathogenesis in preterm infants - Key NEC-associated pathogens (E. coli, Klebsiella, Enterobacter, Citrobacter, Ureap...",
+            "sha256": "70a99a649a084527c002d8ba1049189b44fb7aa8d6759e456e1104f491bf4933"
+          }
+        },
+        {
+          "id": "chen-2025-machine-learning-gut-microbiome-diagnostic-eoc",
+          "title": "Chen 2025 — Machine Learning-Derived Diagnostic Model of Epithelial Ovarian Cancer Based on Gut Microbiome Signatures",
+          "evidenceLevel": "cross-sectional",
+          "year": 2025,
+          "path": "wiki/sources/chen-2025-machine-learning-gut-microbiome-diagnostic-eoc.md",
+          "passage": {
+            "excerpt": "The identification of E. coli as pro-tumorigenic is consistent with WikiBiome's broader framework linking escherichia coli to multiple disease states through its metal-dependent virulence factors, biofilm formation, and inflammatory capacity. E. coli's depe...",
+            "sha256": "8a08639f28bdf6bede2ba5090f990e736f68b89acbb8d7f1c7e83e8a30ea1586"
+          }
+        },
+        {
+          "id": "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+          "title": "Microbial Metallomics and Parkinson's Disease: A Unified Metal-Driven Framework Linking Ferroptosis, Dysbiosis, and alpha-Synuclein Pathology",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md",
+          "passage": {
+            "excerpt": "- Proposes a unified metal-driven framework for Parkinson's disease (PD) that connects gut microbial metallomics, intestinal dysbiosis, ferroptosis, and alpha-synuclein pathology through shared metal-dependent mechanisms - Heavy metals (particularly iron, m...",
+            "sha256": "b5137e1565123c58ac3c8ef797ad8c20b34a10152221ac3955e9f68cc52c7828"
+          }
+        },
+        {
+          "id": "wu-2025-distinct-diet-microbiome-associations-asd",
+          "title": "Wu 2025 — Distinct Diet-Microbiome Associations in Autism Spectrum Disorder",
+          "evidenceLevel": "cross-sectional",
+          "year": 2025,
+          "path": "wiki/sources/wu-2025-distinct-diet-microbiome-associations-asd.md",
+          "passage": {
+            "excerpt": "- **Peptide/nickel transport system**: The finding that nickel transport is the main metabolic pathway in ASD-associated differential species is a direct metallomic connection -- nickel-dependent urease and hydrogenase pathways may be selectively enriched i...",
+            "sha256": "d6687c0e9ec08066cb0ee173151ecb5f93c0a2aa4859374e3eb045f9a4fd8aaf"
+          }
+        },
+        {
+          "id": "capdevila-2024-bacterial-metallostasis-sensing-trafficking",
+          "title": "Capdevila 2024 — Bacterial Metallostasis: Metal Sensing, Metalloproteome Remodeling, and Metal Trafficking",
+          "evidenceLevel": "expert-opinion",
+          "year": 2024,
+          "path": "wiki/sources/capdevila-2024-bacterial-metallostasis-sensing-trafficking.md",
+          "passage": {
+            "excerpt": "- MnII plays diverse roles: phosphatases, arginase, Mn-SOD, ribonucleotide reductases - Fewer than ten Ni metalloenzymes are known, but they drive global carbon, nitrogen, and oxygen cycles - NiII urease and [NiFe]-hydrogenase are critical metal dependent v...",
+            "sha256": "4ff310d8a708c5bc610f3c383eec1c19305ad783b08f1f28c23996e08cc9bcd9"
+          }
+        },
+        {
+          "id": "liu-2024-gut-microbiota-chronic-renal-failure-mr",
+          "title": "Liu et al. 2024 — Causal Relationship between Gut Microbiota and Chronic Renal Failure: A Two-Sample MR Study",
+          "evidenceLevel": "computational-prediction",
+          "year": 2024,
+          "path": "wiki/sources/liu-2024-gut-microbiota-chronic-renal-failure-mr.md",
+          "passage": {
+            "excerpt": "From a metallomics perspective, Escherichia species are highly dependent on iron (via siderophore systems including enterobactin) and express nickel-dependent enzymes (urease, hydrogenase). Their causal role in CRF connects the metals-as-selective-pressures...",
+            "sha256": "0aa9e75722ddf1729b3ef901a1a4b3d0ef9405e5bf2c171d37e7763bf81c76c9"
+          }
+        },
+        {
+          "id": "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
+          "title": "Sugihartono 2022 — Gastric Microbiota and H. pylori in GERD",
+          "evidenceLevel": "cross-sectional",
+          "year": 2022,
+          "path": "wiki/sources/sugihartono-2022-gastric-microbiota-h-pylori-gerd.md",
+          "passage": {
+            "excerpt": "This study enriches the helicobacter pylori entity page with evidence for its paradoxical protective role in GERD — a key narrative for WikiBiome's nuanced view of pathogens. The inverse relationship challenges the simplistic \"eradicate all pathogens\" appro...",
+            "sha256": "d70d5566a62a4e20da8bb3bd7960d2d8ffd69a01932310e22dfd69ab393ace91"
+          }
+        },
+        {
+          "id": "swierc-2022-nickel-intestinal-microbiota-disturbances",
+          "title": "The influence of nickel on intestinal microbiota disturbances",
+          "evidenceLevel": "expert-opinion",
+          "year": 2022,
+          "path": "wiki/sources/swierc-2022-nickel-intestinal-microbiota-disturbances.md",
+          "passage": {
+            "excerpt": "- nickel is an essential element for certain biochemical reactions in microorganisms but excess intake contributes to dysbiosis, especially in patients with systemic nickel allergy syndrome - Nickel-dependent enzymes (urease, hydrogenase, CO-dehydrogenase)...",
+            "sha256": "400bc5116cfba40ccddbfa389a0f3c87a3d59a5f96e6f548832aafc0f9579b22"
+          }
+        },
+        {
+          "id": "benoit-2021-nickel-chelator-dmg-amyloid-beta",
+          "title": "The nickel-chelator dimethylglyoxime inhibits human amyloid beta peptide in vitro aggregation",
+          "evidenceLevel": "in-vitro",
+          "year": 2021,
+          "path": "wiki/sources/benoit-2021-nickel-chelator-dmg-amyloid-beta.md",
+          "passage": {
+            "excerpt": "- nickel (Ni2+) enhances amyloid beta (A-beta-40) peptide aggregation in vitro -- a 5.7-fold increase at 100 uM NiSO4 -- making it a previously unrecognized contributor to alzheimers disease pathology - Commercial recombinant A-beta-40 peptide preparations...",
+            "sha256": "7f0de0998aa952f473adb093ed8e6c04c1f86184a5768841dac2e6dbf9b9d99b"
+          }
+        },
+        {
+          "id": "patil-2021-infection-metallomics-critical-care",
+          "title": "Infection metallomics for critical care in the post-COVID era",
+          "evidenceLevel": "in-vitro",
+          "year": 2021,
+          "path": "wiki/sources/patil-2021-infection-metallomics-critical-care.md",
+          "passage": {
+            "excerpt": "- iron -- iron acquisition via siderophores is the fundamental host-pathogen battleground; nutritional immunity involves host \"withholding\" Fe - copper -- dual role: toxic to microbes (innate immune defense) but exploited by pathogens through Cu-binding yer...",
+            "sha256": "487f30b918922181d0b203520fdc4daa772f2093acf4c26364dfb95f0027cbfd"
+          }
+        },
+        {
+          "id": "benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens",
+          "title": "Benoit et al. 2019 — Nickel Chelation Therapy as an Approach to Combat Multi-Drug Resistant Enteric Pathogens",
+          "evidenceLevel": "animal-model",
+          "year": 2019,
+          "path": "wiki/sources/benoit-2019-nickel-chelation-therapy-mdr-enteric-pathogens.md",
+          "passage": {
+            "excerpt": "- **DMG abolishes Salmonella hydrogenase activity**: H₂-uptake NiFe-hydrogenase activity was completely abolished at 10 mM DMG. Addition of 50 µM NiCl₂ restored some hydrogenase activity at lower DMG concentrations, confirming the mechanism is nickel chelat...",
+            "sha256": "a9646d3d5ff73b8cde8deae5354ae5e3c4224965ada4325ff03389dc755c59e9"
           }
         }
       ]
@@ -41207,11 +41055,11 @@
         "path": "wiki/concepts/metallochaperone.md",
         "sourceCount": 3
       },
-      "priority": 81.85,
+      "priority": 81.95,
       "scoreComponents": {
         "demand": 17.22,
         "evidence": 25,
-        "graphGain": 17.13,
+        "graphGain": 17.23,
         "scopeFit": 15,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": -6
@@ -41231,7 +41079,7 @@
         ],
         "candidateEvidenceSources": 9,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 60.384
+        "weightedGraphGain": 62.178
       },
       "affectedPages": [
         {
@@ -41309,7 +41157,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 14
+          "inboundLinks": 51
         },
         {
           "id": "labile-metal-pool",
@@ -41511,11 +41359,11 @@
         "path": "wiki/concepts/metalloregulator.md",
         "sourceCount": 3
       },
-      "priority": 81.59,
+      "priority": 81.69,
       "scoreComponents": {
         "demand": 17.22,
         "evidence": 25,
-        "graphGain": 16.87,
+        "graphGain": 16.97,
         "scopeFit": 15,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": -3
@@ -41535,7 +41383,7 @@
         ],
         "candidateEvidenceSources": 13,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 55.634
+        "weightedGraphGain": 57.427
       },
       "affectedPages": [
         {
@@ -41616,6 +41464,17 @@
           "inboundLinks": 54
         },
         {
+          "id": "hydrogenase",
+          "title": "Hydrogenase",
+          "path": "wiki/concepts/hydrogenase.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 51
+        },
+        {
           "id": "manganese",
           "title": "Manganese",
           "path": "wiki/entities/manganese.md",
@@ -41625,17 +41484,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 44
-        },
-        {
-          "id": "hydrogenase",
-          "title": "Hydrogenase",
-          "path": "wiki/concepts/hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 14
         },
         {
           "id": "metal-homeostasis",
@@ -42735,6 +42583,243 @@
       ]
     },
     {
+      "key": "backfill_links:dietary-nickel-exposure",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": null,
+      "id": "dietary-nickel-exposure",
+      "title": "Dietary Nickel Exposure",
+      "pageType": "concept",
+      "aliases": [
+        "Dietary Nickel Exposure",
+        "dietary nickel exposure"
+      ],
+      "excludePhrases": [],
+      "reason": "Existing public concept with eligible plain-text mentions.",
+      "existingPage": {
+        "path": "wiki/concepts/dietary-nickel-exposure.md",
+        "sourceCount": 5
+      },
+      "priority": 80.44,
+      "scoreComponents": {
+        "demand": 20.47,
+        "evidence": 25,
+        "graphGain": 15.47,
+        "scopeFit": 9,
+        "outlineReadiness": 10.5,
+        "ambiguityPenalty": 0
+      },
+      "metrics": {
+        "distinctArticles": 24,
+        "totalPlainMentions": 6,
+        "linkedArticles": 19,
+        "unlinkedArticles": 5,
+        "linkCoveragePercent": 79,
+        "leadMentions": 0,
+        "headingMentions": 2,
+        "articleCategories": [
+          "concept",
+          "disease",
+          "metal",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 48,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 24.059
+      },
+      "affectedPages": [
+        {
+          "id": "urease",
+          "title": "Urease",
+          "path": "wiki/concepts/urease.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 74
+        },
+        {
+          "id": "hydrogenase",
+          "title": "Hydrogenase",
+          "path": "wiki/concepts/hydrogenase.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 51
+        },
+        {
+          "id": "nf-kappa-b",
+          "title": "NF-kB Signaling Pathway",
+          "path": "wiki/concepts/nf-kappa-b.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 34
+        },
+        {
+          "id": "microbial-metallomics",
+          "title": "Microbial Metallomics",
+          "path": "wiki/concepts/microbial-metallomics.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 3
+        },
+        {
+          "id": "hyperaccumulator",
+          "title": "Hyperaccumulator Plants",
+          "path": "wiki/concepts/hyperaccumulator.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 0
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "NOTE-evaluation-risk-ptes-italy-fish-products",
+          "title": "Evaluation of the Risk from Potentially Toxic Elements (PTEs) in Italy's Most Consumed Processed Fish Products",
+          "evidenceLevel": "not yet classified",
+          "year": "Unknown",
+          "path": "wiki/sources/NOTE-evaluation-risk-ptes-italy-fish-products.md",
+          "passage": {
+            "excerpt": "- Evaluates concentrations of potentially toxic elements (likely As, Cd, Hg, Pb, Ni, Cr, and/or other metals) in commercially processed fish products consumed in Italy - Probably includes health risk assessment using hazard quotients, target hazard quotient...",
+            "sha256": "00b67d8c3f3cab4b461b4b2d725d4b1220b1d25cc397c08556a544f1b0cb9f23"
+          }
+        },
+        {
+          "id": "pendergrass-2026-fertilizers-heavy-metals-historical",
+          "title": "Heavy Metals in Fertilizers: A Historical Analysis of Contamination Trends (1960-2025)",
+          "evidenceLevel": "expert-opinion",
+          "year": 2026,
+          "path": "wiki/sources/pendergrass-2026-fertilizers-heavy-metals-historical.md",
+          "passage": {
+            "excerpt": "- heavy metals -- fertilizer-derived contamination of agricultural soils - cadmium -- dominant contaminant in phosphate fertilizers - nickel -- dual role as urease cofactor and toxicant in urea fertilizers - lead -- 100-200 year soil persistence from legacy...",
+            "sha256": "f8649d0c84f9d062bb142b9b8613b2fc69968b87206967e63f0de694512c49d4"
+          }
+        },
+        {
+          "id": "dobrzynska-2025-nickel-children-food",
+          "title": "Nickel Exposure from Food and Levels in Children's Blood and Tissues: Health Implications",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/dobrzynska-2025-nickel-children-food.md",
+          "passage": {
+            "excerpt": "Narrative review synthesizing 21 studies on dietary nickel exposure and tissue levels in children aged 0-18 years. Establishes that children are a particularly vulnerable population for nickel toxicity due to immature detoxification systems, higher food int...",
+            "sha256": "e92a73e2e8a18d420e46a470d6134d7087282d56176e92d35c3417e044ece12c"
+          }
+        },
+        {
+          "id": "huang-2024-zinc-intake-endometriosis-risk",
+          "title": "Exploring the link between dietary zinc intake and endometriosis risk: insights from a cross-sectional analysis of American women",
+          "evidenceLevel": "cross-sectional",
+          "year": 2024,
+          "path": "wiki/sources/huang-2024-zinc-intake-endometriosis-risk.md",
+          "passage": {
+            "excerpt": "- nickel -- zinc and nickel are both trace elements that interact with similar biological systems; both are found in similar food sources (nuts, whole grains, legumes, shellfish); zinc's role parallels nickel's potential as a metalloestrogen affecting repro...",
+            "sha256": "f33912c3a49cde5ff17a1f6dbab3e5d8bb4449a86007ed93eddfef6e3458cde1"
+          }
+        },
+        {
+          "id": "perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort",
+          "title": "Gut microbiome in endometriosis: a cohort study on 1000 individuals",
+          "evidenceLevel": "case-control",
+          "year": 2024,
+          "path": "wiki/sources/perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort.md",
+          "passage": {
+            "excerpt": "- endometriosis -- largest shotgun metagenomics study (n=1000) finds no robust gut microbiome differences - dysbiosis -- null results after FDR correction challenge the gut dysbiosis hypothesis in endometriosis - gut metal microbiome -- functional KEGG anal...",
+            "sha256": "9e6eef09529de3b5d880501a65badd1728a9438e4744582429ed43c5f00c0af6"
+          }
+        },
+        {
+          "id": "tassoulas-2024-dinickel-enzyme-metformin-microbiome",
+          "title": "Tassoulas et al. 2024 — Dinickel Enzyme Evolved to Metabolize the Pharmaceutical Metformin and Its Implications for Wastewater and Human Microbiomes",
+          "evidenceLevel": "in-vitro",
+          "year": 2024,
+          "path": "wiki/sources/tassoulas-2024-dinickel-enzyme-metformin-microbiome.md",
+          "passage": {
+            "excerpt": "- **Pharmacomicrobiomics implications**: If gut bacteria possess MfmAB homologs, they could alter metformin bioavailability. Since the enzyme is nickel-dependent, **dietary nickel exposure could modulate metformin efficacy** through its effect on microbial...",
+            "sha256": "b95a628491853214062627ddedf27512d40f01a99a5e22a66887534b0820b5a8"
+          }
+        },
+        {
+          "id": "barnard-2023-nutrition-prevention-treatment-endometriosis",
+          "title": "Nutrition in the prevention and treatment of endometriosis: A review",
+          "evidenceLevel": "prospective-cohort",
+          "year": 2023,
+          "path": "wiki/sources/barnard-2023-nutrition-prevention-treatment-endometriosis.md",
+          "passage": {
+            "excerpt": "- nickel -- not directly discussed, but plant-based diets recommended here may increase dietary nickel exposure through legumes, whole grains, nuts, and soy - oxidative stress -- antioxidant intake (vitamins C, E) directly addresses oxidative stress in endo...",
+            "sha256": "4ead079d0db7553a9022179e1d6ea790f4cb50171404df7542ac1623845e24a9"
+          }
+        },
+        {
+          "id": "colonetti-2023-gut-vaginal-microbiota-endometriosis-meta-analysis",
+          "title": "Gut and Vaginal Microbiota in the Endometriosis: Systematic Review and Meta-Analysis",
+          "evidenceLevel": "systematic-review-meta-analysis",
+          "year": 2023,
+          "path": "wiki/sources/colonetti-2023-gut-vaginal-microbiota-endometriosis-meta-analysis.md",
+          "passage": {
+            "excerpt": "- endometriosis -- meta-analysis of 16 studies across gut, vaginal, and peritoneal microbiota - dysbiosis -- pooled alpha diversity not significantly different, but high heterogeneity masks subgroup effects - gut metal microbiome -- dietary metals and medic...",
+            "sha256": "789db023b311b2137e58ccd6d2bde0ef89a85f5afa0968dad9e8c698810f9c49"
+          }
+        },
+        {
+          "id": "lopez-botella-2023-peritoneal-fluid-metals-endometriosis",
+          "title": "Elevated Lead, Nickel, and Bismuth Levels in the Peritoneal Fluid of a Peritoneal Endometriosis Patient without Toxic Habits or Occupational Exposure following a Vegetarian Diet",
+          "evidenceLevel": "case-report",
+          "year": 2023,
+          "path": "wiki/sources/lopez-botella-2023-peritoneal-fluid-metals-endometriosis.md",
+          "passage": {
+            "excerpt": "- nickel -- significantly elevated (4:1 ratio) in peritoneal fluid of endometriosis patient; may be ingested through vegetable consumption and accumulate in the peritoneal environment - dietary nickel exposure -- vegetarian diet identified as a plausible ro...",
+            "sha256": "2e8ee0d084ec9e73193f64136d5a2d107bedfcf91686edbc37ff7f6f0bd4e38d"
+          }
+        },
+        {
+          "id": "mazza-2023-endometriosis-dietary-choices-everyday-life",
+          "title": "The impact of endometriosis on dietary choices and activities of everyday life: a cross-sectional study",
+          "evidenceLevel": "cross-sectional",
+          "year": 2023,
+          "path": "wiki/sources/mazza-2023-endometriosis-dietary-choices-everyday-life.md",
+          "passage": {
+            "excerpt": "- dietary nickel exposure -- while this study does not specifically address nickel, the common dietary modifications (eliminating legumes, whole grains, soy, increasing vegetables) intersect with foods that vary in nickel content - inflammation -- anti-infl...",
+            "sha256": "894e800985bc3cdd11297ed1b76ae1d11e4f92e8b257da34688c6787f450c99b"
+          }
+        },
+        {
+          "id": "rebelytics-2023-nickel-in-foods-summary",
+          "title": "Nickel in Foods: Summary Tables, Unweighted Averages",
+          "evidenceLevel": null,
+          "year": 2023,
+          "path": "wiki/sources/rebelytics-2023-nickel-in-foods-summary.md",
+          "passage": {
+            "excerpt": "- low nickel diet -- essential reference for dietary planning and food selection - -- the most comprehensive per-serving nickel database identified - -- dietary nickel triggers relevant to SNAS management - dietary nickel exposure -- enables calculation of...",
+            "sha256": "f42458c15fe35990280ba7b06384a270f81e553fa333a2aa1a25126477d4c8d2"
+          }
+        },
+        {
+          "id": "piecuch-2022-nutrition-endometriosis-review",
+          "title": "I Am the 1 in 10 -- What Should I Eat? A Research Review of Nutrition in Endometriosis",
+          "evidenceLevel": "in-vitro",
+          "year": 2022,
+          "path": "wiki/sources/piecuch-2022-nutrition-endometriosis-review.md",
+          "passage": {
+            "excerpt": "- nickel -- dietary nickel identified as a potential contributor to IBS-like symptoms in endometriosis via allergic contact mucositis - nickel allergy -- Ni ACM prevalence may be high in endometriosis patients, suggesting a causative role in GI symptoms - d...",
+            "sha256": "a1bef203a142aa9cdc0605070680f6d39eec549d3fcd1c2f2aabddf50a76de37"
+          }
+        }
+      ]
+    },
+    {
       "key": "backfill_links:ferroportin",
       "lane": "backfill_links",
       "state": "queued",
@@ -42978,243 +43063,6 @@
           "passage": {
             "excerpt": "- Iron increases with age in the SN; transferrin has been shown to be decreased by 35% in the SN of PD (Ayton et al., 2016) - Lactoferrin is increased in PD SN (Faucheux et al., 1995; Leveugle et al., 1996) - Iron export protein ferroportin expression is in...",
             "sha256": "c5b1d6cf69a2a906a5cc0f929dbc3e520985728c05785bfba09d446ee2b39c9f"
-          }
-        }
-      ]
-    },
-    {
-      "key": "backfill_links:dietary-nickel-exposure",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "dietary-nickel-exposure",
-      "title": "Dietary Nickel Exposure",
-      "pageType": "concept",
-      "aliases": [
-        "Dietary Nickel Exposure",
-        "dietary nickel exposure"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/dietary-nickel-exposure.md",
-        "sourceCount": 5
-      },
-      "priority": 80.2,
-      "scoreComponents": {
-        "demand": 20.47,
-        "evidence": 25,
-        "graphGain": 15.23,
-        "scopeFit": 9,
-        "outlineReadiness": 10.5,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 24,
-        "totalPlainMentions": 6,
-        "linkedArticles": 19,
-        "unlinkedArticles": 5,
-        "linkCoveragePercent": 79,
-        "leadMentions": 0,
-        "headingMentions": 2,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 48,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 22.265
-      },
-      "affectedPages": [
-        {
-          "id": "urease",
-          "title": "Urease",
-          "path": "wiki/concepts/urease.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 74
-        },
-        {
-          "id": "nf-kappa-b",
-          "title": "NF-kB Signaling Pathway",
-          "path": "wiki/concepts/nf-kappa-b.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 34
-        },
-        {
-          "id": "hydrogenase",
-          "title": "Hydrogenase",
-          "path": "wiki/concepts/hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 14
-        },
-        {
-          "id": "microbial-metallomics",
-          "title": "Microbial Metallomics",
-          "path": "wiki/concepts/microbial-metallomics.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "hyperaccumulator",
-          "title": "Hyperaccumulator Plants",
-          "path": "wiki/concepts/hyperaccumulator.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 0
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "NOTE-evaluation-risk-ptes-italy-fish-products",
-          "title": "Evaluation of the Risk from Potentially Toxic Elements (PTEs) in Italy's Most Consumed Processed Fish Products",
-          "evidenceLevel": "not yet classified",
-          "year": "Unknown",
-          "path": "wiki/sources/NOTE-evaluation-risk-ptes-italy-fish-products.md",
-          "passage": {
-            "excerpt": "- Evaluates concentrations of potentially toxic elements (likely As, Cd, Hg, Pb, Ni, Cr, and/or other metals) in commercially processed fish products consumed in Italy - Probably includes health risk assessment using hazard quotients, target hazard quotient...",
-            "sha256": "00b67d8c3f3cab4b461b4b2d725d4b1220b1d25cc397c08556a544f1b0cb9f23"
-          }
-        },
-        {
-          "id": "pendergrass-2026-fertilizers-heavy-metals-historical",
-          "title": "Heavy Metals in Fertilizers: A Historical Analysis of Contamination Trends (1960-2025)",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/pendergrass-2026-fertilizers-heavy-metals-historical.md",
-          "passage": {
-            "excerpt": "- heavy metals -- fertilizer-derived contamination of agricultural soils - cadmium -- dominant contaminant in phosphate fertilizers - nickel -- dual role as urease cofactor and toxicant in urea fertilizers - lead -- 100-200 year soil persistence from legacy...",
-            "sha256": "f8649d0c84f9d062bb142b9b8613b2fc69968b87206967e63f0de694512c49d4"
-          }
-        },
-        {
-          "id": "dobrzynska-2025-nickel-children-food",
-          "title": "Nickel Exposure from Food and Levels in Children's Blood and Tissues: Health Implications",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/dobrzynska-2025-nickel-children-food.md",
-          "passage": {
-            "excerpt": "Narrative review synthesizing 21 studies on dietary nickel exposure and tissue levels in children aged 0-18 years. Establishes that children are a particularly vulnerable population for nickel toxicity due to immature detoxification systems, higher food int...",
-            "sha256": "e92a73e2e8a18d420e46a470d6134d7087282d56176e92d35c3417e044ece12c"
-          }
-        },
-        {
-          "id": "huang-2024-zinc-intake-endometriosis-risk",
-          "title": "Exploring the link between dietary zinc intake and endometriosis risk: insights from a cross-sectional analysis of American women",
-          "evidenceLevel": "cross-sectional",
-          "year": 2024,
-          "path": "wiki/sources/huang-2024-zinc-intake-endometriosis-risk.md",
-          "passage": {
-            "excerpt": "- nickel -- zinc and nickel are both trace elements that interact with similar biological systems; both are found in similar food sources (nuts, whole grains, legumes, shellfish); zinc's role parallels nickel's potential as a metalloestrogen affecting repro...",
-            "sha256": "f33912c3a49cde5ff17a1f6dbab3e5d8bb4449a86007ed93eddfef6e3458cde1"
-          }
-        },
-        {
-          "id": "perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort",
-          "title": "Gut microbiome in endometriosis: a cohort study on 1000 individuals",
-          "evidenceLevel": "case-control",
-          "year": 2024,
-          "path": "wiki/sources/perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort.md",
-          "passage": {
-            "excerpt": "- endometriosis -- largest shotgun metagenomics study (n=1000) finds no robust gut microbiome differences - dysbiosis -- null results after FDR correction challenge the gut dysbiosis hypothesis in endometriosis - gut metal microbiome -- functional KEGG anal...",
-            "sha256": "9e6eef09529de3b5d880501a65badd1728a9438e4744582429ed43c5f00c0af6"
-          }
-        },
-        {
-          "id": "tassoulas-2024-dinickel-enzyme-metformin-microbiome",
-          "title": "Tassoulas et al. 2024 — Dinickel Enzyme Evolved to Metabolize the Pharmaceutical Metformin and Its Implications for Wastewater and Human Microbiomes",
-          "evidenceLevel": "in-vitro",
-          "year": 2024,
-          "path": "wiki/sources/tassoulas-2024-dinickel-enzyme-metformin-microbiome.md",
-          "passage": {
-            "excerpt": "- **Pharmacomicrobiomics implications**: If gut bacteria possess MfmAB homologs, they could alter metformin bioavailability. Since the enzyme is nickel-dependent, **dietary nickel exposure could modulate metformin efficacy** through its effect on microbial...",
-            "sha256": "b95a628491853214062627ddedf27512d40f01a99a5e22a66887534b0820b5a8"
-          }
-        },
-        {
-          "id": "barnard-2023-nutrition-prevention-treatment-endometriosis",
-          "title": "Nutrition in the prevention and treatment of endometriosis: A review",
-          "evidenceLevel": "prospective-cohort",
-          "year": 2023,
-          "path": "wiki/sources/barnard-2023-nutrition-prevention-treatment-endometriosis.md",
-          "passage": {
-            "excerpt": "- nickel -- not directly discussed, but plant-based diets recommended here may increase dietary nickel exposure through legumes, whole grains, nuts, and soy - oxidative stress -- antioxidant intake (vitamins C, E) directly addresses oxidative stress in endo...",
-            "sha256": "4ead079d0db7553a9022179e1d6ea790f4cb50171404df7542ac1623845e24a9"
-          }
-        },
-        {
-          "id": "colonetti-2023-gut-vaginal-microbiota-endometriosis-meta-analysis",
-          "title": "Gut and Vaginal Microbiota in the Endometriosis: Systematic Review and Meta-Analysis",
-          "evidenceLevel": "systematic-review-meta-analysis",
-          "year": 2023,
-          "path": "wiki/sources/colonetti-2023-gut-vaginal-microbiota-endometriosis-meta-analysis.md",
-          "passage": {
-            "excerpt": "- endometriosis -- meta-analysis of 16 studies across gut, vaginal, and peritoneal microbiota - dysbiosis -- pooled alpha diversity not significantly different, but high heterogeneity masks subgroup effects - gut metal microbiome -- dietary metals and medic...",
-            "sha256": "789db023b311b2137e58ccd6d2bde0ef89a85f5afa0968dad9e8c698810f9c49"
-          }
-        },
-        {
-          "id": "lopez-botella-2023-peritoneal-fluid-metals-endometriosis",
-          "title": "Elevated Lead, Nickel, and Bismuth Levels in the Peritoneal Fluid of a Peritoneal Endometriosis Patient without Toxic Habits or Occupational Exposure following a Vegetarian Diet",
-          "evidenceLevel": "case-report",
-          "year": 2023,
-          "path": "wiki/sources/lopez-botella-2023-peritoneal-fluid-metals-endometriosis.md",
-          "passage": {
-            "excerpt": "- nickel -- significantly elevated (4:1 ratio) in peritoneal fluid of endometriosis patient; may be ingested through vegetable consumption and accumulate in the peritoneal environment - dietary nickel exposure -- vegetarian diet identified as a plausible ro...",
-            "sha256": "2e8ee0d084ec9e73193f64136d5a2d107bedfcf91686edbc37ff7f6f0bd4e38d"
-          }
-        },
-        {
-          "id": "mazza-2023-endometriosis-dietary-choices-everyday-life",
-          "title": "The impact of endometriosis on dietary choices and activities of everyday life: a cross-sectional study",
-          "evidenceLevel": "cross-sectional",
-          "year": 2023,
-          "path": "wiki/sources/mazza-2023-endometriosis-dietary-choices-everyday-life.md",
-          "passage": {
-            "excerpt": "- dietary nickel exposure -- while this study does not specifically address nickel, the common dietary modifications (eliminating legumes, whole grains, soy, increasing vegetables) intersect with foods that vary in nickel content - inflammation -- anti-infl...",
-            "sha256": "894e800985bc3cdd11297ed1b76ae1d11e4f92e8b257da34688c6787f450c99b"
-          }
-        },
-        {
-          "id": "rebelytics-2023-nickel-in-foods-summary",
-          "title": "Nickel in Foods: Summary Tables, Unweighted Averages",
-          "evidenceLevel": null,
-          "year": 2023,
-          "path": "wiki/sources/rebelytics-2023-nickel-in-foods-summary.md",
-          "passage": {
-            "excerpt": "- low nickel diet -- essential reference for dietary planning and food selection - -- the most comprehensive per-serving nickel database identified - -- dietary nickel triggers relevant to SNAS management - dietary nickel exposure -- enables calculation of...",
-            "sha256": "f42458c15fe35990280ba7b06384a270f81e553fa333a2aa1a25126477d4c8d2"
-          }
-        },
-        {
-          "id": "piecuch-2022-nutrition-endometriosis-review",
-          "title": "I Am the 1 in 10 -- What Should I Eat? A Research Review of Nutrition in Endometriosis",
-          "evidenceLevel": "in-vitro",
-          "year": 2022,
-          "path": "wiki/sources/piecuch-2022-nutrition-endometriosis-review.md",
-          "passage": {
-            "excerpt": "- nickel -- dietary nickel identified as a potential contributor to IBS-like symptoms in endometriosis via allergic contact mucositis - nickel allergy -- Ni ACM prevalence may be high in endometriosis patients, suggesting a causative role in GI symptoms - d...",
-            "sha256": "a1bef203a142aa9cdc0605070680f6d39eec549d3fcd1c2f2aabddf50a76de37"
           }
         }
       ]
@@ -44356,11 +44204,11 @@
         "path": "wiki/concepts/taurine.md",
         "sourceCount": 3
       },
-      "priority": 79.13,
+      "priority": 79.24,
       "scoreComponents": {
         "demand": 16.31,
         "evidence": 25,
-        "graphGain": 15.32,
+        "graphGain": 15.43,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -44379,7 +44227,7 @@
         ],
         "candidateEvidenceSources": 16,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 50.602
+        "weightedGraphGain": 52.395
       },
       "affectedPages": [
         {
@@ -44402,7 +44250,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 14
+          "inboundLinks": 51
         },
         {
           "id": "bile-acid-metabolism",
@@ -46560,6 +46408,272 @@
       ]
     },
     {
+      "key": "create_page:gastritis",
+      "lane": "create_page",
+      "state": "queued",
+      "decision": null,
+      "id": "gastritis",
+      "title": "Gastritis",
+      "pageType": "entity",
+      "aliases": [
+        "Gastritis",
+        "gastritis"
+      ],
+      "excludePhrases": [],
+      "reason": "Frequent disease context for Helicobacter pylori and gastric microbial ecology.",
+      "existingPage": null,
+      "priority": 76.74,
+      "scoreComponents": {
+        "demand": 15.25,
+        "evidence": 25,
+        "graphGain": 16.24,
+        "scopeFit": 12,
+        "outlineReadiness": 11.25,
+        "ambiguityPenalty": -3
+      },
+      "metrics": {
+        "distinctArticles": 10,
+        "totalPlainMentions": 28,
+        "linkedArticles": 0,
+        "unlinkedArticles": 10,
+        "linkCoveragePercent": 0,
+        "leadMentions": 1,
+        "headingMentions": 0,
+        "articleCategories": [
+          "concept",
+          "disease",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 10,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 45.647
+      },
+      "affectedPages": [
+        {
+          "id": "gastric-ulcer",
+          "title": "Gastric Ulcer",
+          "path": "wiki/entities/gastric-ulcer.md",
+          "category": "disease",
+          "plainMentions": 3,
+          "linked": false,
+          "leadMention": true,
+          "headingMention": false,
+          "inboundLinks": 6
+        },
+        {
+          "id": "helicobacter-pylori",
+          "title": "Helicobacter pylori",
+          "path": "wiki/entities/helicobacter-pylori.md",
+          "category": "microbe",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 54
+        },
+        {
+          "id": "hydrogenase",
+          "title": "Hydrogenase",
+          "path": "wiki/concepts/hydrogenase.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 51
+        },
+        {
+          "id": "metal-dependent-virulence",
+          "title": "Metal-Dependent Virulence",
+          "path": "wiki/concepts/metal-dependent-virulence.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 39
+        },
+        {
+          "id": "gerd",
+          "title": "Gastroesophageal Reflux Disease (GERD)",
+          "path": "wiki/entities/gerd.md",
+          "category": "disease",
+          "plainMentions": 3,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 15
+        },
+        {
+          "id": "caga",
+          "title": "CagA",
+          "path": "wiki/concepts/caga.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 9
+        },
+        {
+          "id": "gastric-adenocarcinoma",
+          "title": "Gastric Adenocarcinoma",
+          "path": "wiki/entities/gastric-adenocarcinoma.md",
+          "category": "disease",
+          "plainMentions": 4,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 6
+        },
+        {
+          "id": "gastric-cancer",
+          "title": "Gastric Cancer",
+          "path": "wiki/entities/gastric-cancer.md",
+          "category": "disease",
+          "plainMentions": 9,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 5
+        },
+        {
+          "id": "nickel-urease",
+          "title": "Nickel-Urease",
+          "path": "wiki/concepts/nickel-urease.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 4
+        },
+        {
+          "id": "barretts-esophagus",
+          "title": "Barrett's Esophagus",
+          "path": "wiki/entities/barretts-esophagus.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 1
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "franceschi-2026-paracetamol-nsaid-adr-gut-microbiota",
+          "title": "Franceschi 2026 — Paracetamol and NSAIDs Adverse Drug Reactions in the Emergency Department: Potential Role of the Gut Microbiota",
+          "evidenceLevel": "retrospective-cohort",
+          "year": 2026,
+          "path": "wiki/sources/franceschi-2026-paracetamol-nsaid-adr-gut-microbiota.md",
+          "passage": {
+            "excerpt": "- **ADRs were significantly more frequent in female patients** (61% of 897 total ADR cases were adult females), a pattern observed across both paracetamol and NSAID drug classes (franceschi 2026 paracetamol nsaid adr gut microbiota, retrospective cohort, n=...",
+            "sha256": "056ce19c6cdf61d973b25638990f80e59ec15ffd8559c7e0f912fa776cea4f06"
+          }
+        },
+        {
+          "id": "zhang-2026-bile-acids-pediatric-gastroesophageal-reflux-metabolomics",
+          "title": "Mechanisms of action of bile acids in pediatric gastroesophageal reflux: Exploration through non-targeted and targeted metabolomics methods",
+          "evidenceLevel": "cross-sectional",
+          "year": 2026,
+          "path": "wiki/sources/zhang-2026-bile-acids-pediatric-gastroesophageal-reflux-metabolomics.md",
+          "passage": {
+            "excerpt": "- Non-targeted metabolomics identified the top 10 differential metabolites in gastric juice between pediatric bile reflux gastritis (BRG) and controls, including fatty acids, phospholipids, 23-carbon compounds, amines, vitamins, steroids, peptide hormones,...",
+            "sha256": "521e419cc8a2d6566926d9be76b9427d20a3799801419c70fb72d0a000a4047f"
+          }
+        },
+        {
+          "id": "brylinski-2025-trace-elements-thyroid-diseases",
+          "title": "Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases — A Literature Review",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/brylinski-2025-trace-elements-thyroid-diseases.md",
+          "passage": {
+            "excerpt": "**Iron and thyroid.** Fe enters the composition of TPO (heme-dependent enzyme). TPO catalyzes H2O2-dependent oxidation reactions converting iodide to iodonium intermediate compound. Fe deficiency results in decreased TPO activity, consequent decrease in T3/...",
+            "sha256": "7dcb9c3a8ea92628d51d9dfb177dc34e8633e2ab64ca0a799dc89dd737ed8874"
+          }
+        },
+        {
+          "id": "kim-2025-inhalational-exposure-gastroesophageal-disease-meta-analysis",
+          "title": "Gastroesophageal disease risk and inhalational exposure: a systematic review and meta-analysis",
+          "evidenceLevel": "systematic-review-meta-analysis",
+          "year": 2025,
+          "path": "wiki/sources/kim-2025-inhalational-exposure-gastroesophageal-disease-meta-analysis.md",
+          "passage": {
+            "excerpt": "- **Study type**: Systematic review and meta-analysis following PRISMA guidelines - **Search**: PubMed (N=764) and Web of Science (N=1,036); 111 studies met eligibility criteria - **Exposures**: PM2.5, PM10, cigarette/tobacco smoke, waterpipe tobacco, vape/...",
+            "sha256": "b877f492dab7de3c3416b48fd7f00be6116518eb151d17f2658b94a6cd964010"
+          }
+        },
+        {
+          "id": "li-2025-trace-elements-autoimmune-thyroid-disease",
+          "title": "Recent advances of trace elements in autoimmune thyroid disease",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/li-2025-trace-elements-autoimmune-thyroid-disease.md",
+          "passage": {
+            "excerpt": "- Se supplementation: meta-analysis shows TPOAb reduction, but most clinical trials are limited by small sample sizes, short follow-up, and inconsistent selenium forms and dosages - Vitamin D: consistent epidemiological association with AITD, but causal dir...",
+            "sha256": "aaf2f6edf37731868e87bcef04897d91a54080f66a844a7bf6139149d7853395"
+          }
+        },
+        {
+          "id": "kravchenko-2023-thyroid-hormones-minerals-AITD",
+          "title": "Kravchenko 2023 — Thyroid hormones and minerals in immunocorrection of disorders in autoimmune thyroid diseases",
+          "evidenceLevel": "expert-opinion",
+          "year": 2023,
+          "path": "wiki/sources/kravchenko-2023-thyroid-hormones-minerals-AITD.md",
+          "passage": {
+            "excerpt": "**Iron and copper:** Fe deficiency impairs TPO activity (TPO requires Fe^2+ as prosthetic group), is associated with higher prevalence of TPOAb (not TgAb) in pregnant and non-pregnant women with subclinical hypothyroidism, and results in autoimmune gastriti...",
+            "sha256": "59119ef17fd7c5a58a313ffdbfb105588e7e17d964f8fb269134cf290a1d7852"
+          }
+        },
+        {
+          "id": "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
+          "title": "Sugihartono 2022 — Gastric Microbiota and H. pylori in GERD",
+          "evidenceLevel": "cross-sectional",
+          "year": 2022,
+          "path": "wiki/sources/sugihartono-2022-gastric-microbiota-h-pylori-gerd.md",
+          "passage": {
+            "excerpt": "The **inverse H. pylori-ERD relationship** (only 5.2% H. pylori prevalence in ERD vs. higher rates in NERD and functional dyspepsia) adds to growing evidence that H. pylori may serve a protective function in the gastroesophageal tract. The proposed mechanis...",
+            "sha256": "b9077f1c16c1749f187931840a4c2bc713faf9c219fcff792ae1682301b62d79"
+          }
+        },
+        {
+          "id": "sugihartono-2022-gastric-microbiota-hpylori-gerd",
+          "title": "Analysis of gastric microbiota and Helicobacter pylori infection in gastroesophageal reflux disease",
+          "evidenceLevel": "cross-sectional",
+          "year": 2022,
+          "path": "wiki/sources/sugihartono-2022-gastric-microbiota-hpylori-gerd.md",
+          "passage": {
+            "excerpt": "- Gastric microbiota diversity differs significantly between gerd subtypes (ERD, NERD) and gastritis, with Shannon and Simpson indices showing significant differences (P=0.0016 and P=0.017 respectively) - helicobacter pylori infection rate was lowest in ERD...",
+            "sha256": "5b03e02e310c12de7a85121fc38c67d7dc8ce23a20729f97ac42185213668f06"
+          }
+        },
+        {
+          "id": "maier-2019-nickel-microbial-pathogenesis",
+          "title": "Role of Nickel in Microbial Pathogenesis",
+          "evidenceLevel": "animal-model",
+          "year": 2019,
+          "path": "wiki/sources/maier-2019-nickel-microbial-pathogenesis.md",
+          "passage": {
+            "excerpt": "- nife hydrogenase enzymes catalyze H₂ oxidation, providing energy (PMF) for the pathogen. - **helicobacter pylori**: single H₂-uptake hydrogenase (*hydABCDE* operon). - H₂ is chronically available in the stomach (~80 μM in human stomachs, well above the en...",
+            "sha256": "d0f426585fd966125eb36da705b857a260166b345697dc25184ca072daa15b9c"
+          }
+        },
+        {
+          "id": "hu-rayman-2017-nutritional-factors-hashimotos-review",
+          "title": "Hu & Rayman 2017 — Multiple nutritional factors and the risk of Hashimoto's thyroiditis",
+          "evidenceLevel": "expert-opinion",
+          "year": 2017,
+          "path": "wiki/sources/hu-rayman-2017-nutritional-factors-hashimotos-review.md",
+          "passage": {
+            "excerpt": "- **Iodine**: Chronic excess induces autoimmune thyroiditis. Highly-iodinated thyroglobulin exposes neo-epitopes and is more immunogenic. Observational studies after universal salt iodization programs (China, Denmark, Italy) show transient HT incidence incr...",
+            "sha256": "25f866a71a5a7a782c975273f0ce454a9e8598c77e1e2fba3f940642d09527a6"
+          }
+        }
+      ]
+    },
+    {
       "key": "backfill_links:preterm-birth",
       "lane": "backfill_links",
       "state": "queued",
@@ -46801,272 +46915,6 @@
           "passage": {
             "excerpt": "A 2007 study showed selenomethionine 200 ug/day during pregnancy and postpartum in euthyroid women with anti-TPO antibodies decreased risk of permanent hypothyroidism and postpartum thyroiditis vs placebo, with significantly reduced anti-TPO and improved th...",
             "sha256": "917182e9485ac686a02b4f5a7f04d7b09ce498e51a8d935c3f9c06a7477125d9"
-          }
-        }
-      ]
-    },
-    {
-      "key": "create_page:gastritis",
-      "lane": "create_page",
-      "state": "queued",
-      "decision": null,
-      "id": "gastritis",
-      "title": "Gastritis",
-      "pageType": "entity",
-      "aliases": [
-        "Gastritis",
-        "gastritis"
-      ],
-      "excludePhrases": [],
-      "reason": "Frequent disease context for Helicobacter pylori and gastric microbial ecology.",
-      "existingPage": null,
-      "priority": 76.61,
-      "scoreComponents": {
-        "demand": 15.25,
-        "evidence": 25,
-        "graphGain": 16.11,
-        "scopeFit": 12,
-        "outlineReadiness": 11.25,
-        "ambiguityPenalty": -3
-      },
-      "metrics": {
-        "distinctArticles": 10,
-        "totalPlainMentions": 28,
-        "linkedArticles": 0,
-        "unlinkedArticles": 10,
-        "linkCoveragePercent": 0,
-        "leadMentions": 1,
-        "headingMentions": 0,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 10,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 43.854
-      },
-      "affectedPages": [
-        {
-          "id": "gastric-ulcer",
-          "title": "Gastric Ulcer",
-          "path": "wiki/entities/gastric-ulcer.md",
-          "category": "disease",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "helicobacter-pylori",
-          "title": "Helicobacter pylori",
-          "path": "wiki/entities/helicobacter-pylori.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 54
-        },
-        {
-          "id": "metal-dependent-virulence",
-          "title": "Metal-Dependent Virulence",
-          "path": "wiki/concepts/metal-dependent-virulence.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 39
-        },
-        {
-          "id": "gerd",
-          "title": "Gastroesophageal Reflux Disease (GERD)",
-          "path": "wiki/entities/gerd.md",
-          "category": "disease",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 15
-        },
-        {
-          "id": "hydrogenase",
-          "title": "Hydrogenase",
-          "path": "wiki/concepts/hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 14
-        },
-        {
-          "id": "caga",
-          "title": "CagA",
-          "path": "wiki/concepts/caga.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 9
-        },
-        {
-          "id": "gastric-adenocarcinoma",
-          "title": "Gastric Adenocarcinoma",
-          "path": "wiki/entities/gastric-adenocarcinoma.md",
-          "category": "disease",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "gastric-cancer",
-          "title": "Gastric Cancer",
-          "path": "wiki/entities/gastric-cancer.md",
-          "category": "disease",
-          "plainMentions": 9,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 5
-        },
-        {
-          "id": "nickel-urease",
-          "title": "Nickel-Urease",
-          "path": "wiki/concepts/nickel-urease.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "barretts-esophagus",
-          "title": "Barrett's Esophagus",
-          "path": "wiki/entities/barretts-esophagus.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 1
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "franceschi-2026-paracetamol-nsaid-adr-gut-microbiota",
-          "title": "Franceschi 2026 — Paracetamol and NSAIDs Adverse Drug Reactions in the Emergency Department: Potential Role of the Gut Microbiota",
-          "evidenceLevel": "retrospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/franceschi-2026-paracetamol-nsaid-adr-gut-microbiota.md",
-          "passage": {
-            "excerpt": "- **ADRs were significantly more frequent in female patients** (61% of 897 total ADR cases were adult females), a pattern observed across both paracetamol and NSAID drug classes (franceschi 2026 paracetamol nsaid adr gut microbiota, retrospective cohort, n=...",
-            "sha256": "056ce19c6cdf61d973b25638990f80e59ec15ffd8559c7e0f912fa776cea4f06"
-          }
-        },
-        {
-          "id": "zhang-2026-bile-acids-pediatric-gastroesophageal-reflux-metabolomics",
-          "title": "Mechanisms of action of bile acids in pediatric gastroesophageal reflux: Exploration through non-targeted and targeted metabolomics methods",
-          "evidenceLevel": "cross-sectional",
-          "year": 2026,
-          "path": "wiki/sources/zhang-2026-bile-acids-pediatric-gastroesophageal-reflux-metabolomics.md",
-          "passage": {
-            "excerpt": "- Non-targeted metabolomics identified the top 10 differential metabolites in gastric juice between pediatric bile reflux gastritis (BRG) and controls, including fatty acids, phospholipids, 23-carbon compounds, amines, vitamins, steroids, peptide hormones,...",
-            "sha256": "521e419cc8a2d6566926d9be76b9427d20a3799801419c70fb72d0a000a4047f"
-          }
-        },
-        {
-          "id": "brylinski-2025-trace-elements-thyroid-diseases",
-          "title": "Effects of Trace Elements on Endocrine Function and Pathogenesis of Thyroid Diseases — A Literature Review",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/brylinski-2025-trace-elements-thyroid-diseases.md",
-          "passage": {
-            "excerpt": "**Iron and thyroid.** Fe enters the composition of TPO (heme-dependent enzyme). TPO catalyzes H2O2-dependent oxidation reactions converting iodide to iodonium intermediate compound. Fe deficiency results in decreased TPO activity, consequent decrease in T3/...",
-            "sha256": "7dcb9c3a8ea92628d51d9dfb177dc34e8633e2ab64ca0a799dc89dd737ed8874"
-          }
-        },
-        {
-          "id": "kim-2025-inhalational-exposure-gastroesophageal-disease-meta-analysis",
-          "title": "Gastroesophageal disease risk and inhalational exposure: a systematic review and meta-analysis",
-          "evidenceLevel": "systematic-review-meta-analysis",
-          "year": 2025,
-          "path": "wiki/sources/kim-2025-inhalational-exposure-gastroesophageal-disease-meta-analysis.md",
-          "passage": {
-            "excerpt": "- **Study type**: Systematic review and meta-analysis following PRISMA guidelines - **Search**: PubMed (N=764) and Web of Science (N=1,036); 111 studies met eligibility criteria - **Exposures**: PM2.5, PM10, cigarette/tobacco smoke, waterpipe tobacco, vape/...",
-            "sha256": "b877f492dab7de3c3416b48fd7f00be6116518eb151d17f2658b94a6cd964010"
-          }
-        },
-        {
-          "id": "li-2025-trace-elements-autoimmune-thyroid-disease",
-          "title": "Recent advances of trace elements in autoimmune thyroid disease",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/li-2025-trace-elements-autoimmune-thyroid-disease.md",
-          "passage": {
-            "excerpt": "- Se supplementation: meta-analysis shows TPOAb reduction, but most clinical trials are limited by small sample sizes, short follow-up, and inconsistent selenium forms and dosages - Vitamin D: consistent epidemiological association with AITD, but causal dir...",
-            "sha256": "aaf2f6edf37731868e87bcef04897d91a54080f66a844a7bf6139149d7853395"
-          }
-        },
-        {
-          "id": "kravchenko-2023-thyroid-hormones-minerals-AITD",
-          "title": "Kravchenko 2023 — Thyroid hormones and minerals in immunocorrection of disorders in autoimmune thyroid diseases",
-          "evidenceLevel": "expert-opinion",
-          "year": 2023,
-          "path": "wiki/sources/kravchenko-2023-thyroid-hormones-minerals-AITD.md",
-          "passage": {
-            "excerpt": "**Iron and copper:** Fe deficiency impairs TPO activity (TPO requires Fe^2+ as prosthetic group), is associated with higher prevalence of TPOAb (not TgAb) in pregnant and non-pregnant women with subclinical hypothyroidism, and results in autoimmune gastriti...",
-            "sha256": "59119ef17fd7c5a58a313ffdbfb105588e7e17d964f8fb269134cf290a1d7852"
-          }
-        },
-        {
-          "id": "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
-          "title": "Sugihartono 2022 — Gastric Microbiota and H. pylori in GERD",
-          "evidenceLevel": "cross-sectional",
-          "year": 2022,
-          "path": "wiki/sources/sugihartono-2022-gastric-microbiota-h-pylori-gerd.md",
-          "passage": {
-            "excerpt": "The **inverse H. pylori-ERD relationship** (only 5.2% H. pylori prevalence in ERD vs. higher rates in NERD and functional dyspepsia) adds to growing evidence that H. pylori may serve a protective function in the gastroesophageal tract. The proposed mechanis...",
-            "sha256": "b9077f1c16c1749f187931840a4c2bc713faf9c219fcff792ae1682301b62d79"
-          }
-        },
-        {
-          "id": "sugihartono-2022-gastric-microbiota-hpylori-gerd",
-          "title": "Analysis of gastric microbiota and Helicobacter pylori infection in gastroesophageal reflux disease",
-          "evidenceLevel": "cross-sectional",
-          "year": 2022,
-          "path": "wiki/sources/sugihartono-2022-gastric-microbiota-hpylori-gerd.md",
-          "passage": {
-            "excerpt": "- Gastric microbiota diversity differs significantly between gerd subtypes (ERD, NERD) and gastritis, with Shannon and Simpson indices showing significant differences (P=0.0016 and P=0.017 respectively) - helicobacter pylori infection rate was lowest in ERD...",
-            "sha256": "5b03e02e310c12de7a85121fc38c67d7dc8ce23a20729f97ac42185213668f06"
-          }
-        },
-        {
-          "id": "maier-2019-nickel-microbial-pathogenesis",
-          "title": "Role of Nickel in Microbial Pathogenesis",
-          "evidenceLevel": "animal-model",
-          "year": 2019,
-          "path": "wiki/sources/maier-2019-nickel-microbial-pathogenesis.md",
-          "passage": {
-            "excerpt": "- nife hydrogenase enzymes catalyze H₂ oxidation, providing energy (PMF) for the pathogen. - **helicobacter pylori**: single H₂-uptake hydrogenase (*hydABCDE* operon). - H₂ is chronically available in the stomach (~80 μM in human stomachs, well above the en...",
-            "sha256": "d0f426585fd966125eb36da705b857a260166b345697dc25184ca072daa15b9c"
-          }
-        },
-        {
-          "id": "hu-rayman-2017-nutritional-factors-hashimotos-review",
-          "title": "Hu & Rayman 2017 — Multiple nutritional factors and the risk of Hashimoto's thyroiditis",
-          "evidenceLevel": "expert-opinion",
-          "year": 2017,
-          "path": "wiki/sources/hu-rayman-2017-nutritional-factors-hashimotos-review.md",
-          "passage": {
-            "excerpt": "- **Iodine**: Chronic excess induces autoimmune thyroiditis. Highly-iodinated thyroglobulin exposes neo-epitopes and is more immunogenic. Observational studies after universal salt iodization programs (China, Denmark, Italy) show transient HT incidence incr...",
-            "sha256": "25f866a71a5a7a782c975273f0ce454a9e8598c77e1e2fba3f940642d09527a6"
           }
         }
       ]
@@ -58866,11 +58714,11 @@
         "path": "wiki/concepts/nickel-transporters.md",
         "sourceCount": 4
       },
-      "priority": 60.43,
+      "priority": 60.42,
       "scoreComponents": {
         "demand": 18.01,
         "evidence": 6.25,
-        "graphGain": 18.32,
+        "graphGain": 18.31,
         "scopeFit": 15,
         "outlineReadiness": 5.85,
         "ambiguityPenalty": -3
@@ -58891,7 +58739,7 @@
         ],
         "candidateEvidenceSources": 2,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 59.204
+        "weightedGraphGain": 59.067
       },
       "affectedPages": [
         {
@@ -58991,7 +58839,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 10
+          "inboundLinks": 9
         },
         {
           "id": "gastric-ulcer",
@@ -63436,11 +63284,11 @@
         "path": "wiki/concepts/fermentative-metabolism.md",
         "sourceCount": 8
       },
-      "priority": 36.43,
+      "priority": 36.72,
       "scoreComponents": {
         "demand": 15.25,
         "evidence": 0,
-        "graphGain": 12.18,
+        "graphGain": 12.47,
         "scopeFit": 9,
         "outlineReadiness": 0,
         "ambiguityPenalty": 0
@@ -63459,9 +63307,20 @@
         ],
         "candidateEvidenceSources": 0,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 18.672
+        "weightedGraphGain": 20.465
       },
       "affectedPages": [
+        {
+          "id": "hydrogenase",
+          "title": "Hydrogenase",
+          "path": "wiki/concepts/hydrogenase.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 51
+        },
         {
           "id": "fusobacterium-nucleatum",
           "title": "Fusobacterium nucleatum",
@@ -63472,17 +63331,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 28
-        },
-        {
-          "id": "hydrogenase",
-          "title": "Hydrogenase",
-          "path": "wiki/concepts/hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 14
         },
         {
           "id": "fecal-microbiota-transplant",

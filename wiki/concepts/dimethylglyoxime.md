@@ -30,7 +30,7 @@ The Benoit et al. (2019) study demonstrated that oral DMG is effective against m
 ### In Vitro
 
 - Growth inhibition: DMG is bacteriostatic against MDR *[[klebsiella-pneumoniae]]* (NDM-1+, carbapenem-resistant) and MDR *[[salmonella]]* Typhimurium at 5–10 mM.
-- Hydrogenase abolished: [[nickel|NiFe-hydrogenase]] activity in *Salmonella* completely eliminated at 10 mM DMG. Adding NiCl₂ restored activity, confirming the mechanism is nickel sequestration.
+- [[hydrogenase|Hydrogenase]] abolished: NiFe hydrogenase activity in *Salmonella* completely eliminated at 10 mM DMG. Adding NiCl₂ restored activity, confirming the mechanism is nickel sequestration.
 - [[urease|Urease]] abolished: urease activity in *Klebsiella* completely eliminated at 5 mM DMG. Since urease-negative *K. pneumoniae* mutants cannot colonize the intestine, this predicts in vivo efficacy.
 
 ### In Vivo

@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Nickel Transporters
 
-Specialized membrane proteins that import [[nickel]] into bacterial cells, supplying the essential cofactor for virulence enzymes including [[urease]], NiFe-hydrogenase, and Ni-glyoxalase. Because mammals produce no known nickel-requiring proteins, these transporters represent a uniquely attractive therapeutic target: blocking nickel import disables multiple virulence factors simultaneously without disrupting host metabolism.
+Specialized membrane proteins that import [[nickel]] into bacterial cells, supplying the essential cofactor for virulence enzymes including [[urease]], [[hydrogenase|NiFe hydrogenase]], and Ni-glyoxalase. Because mammals produce no known nickel-requiring proteins, these transporters represent a uniquely attractive therapeutic target: blocking nickel import disables multiple virulence factors simultaneously without disrupting host metabolism.
 
 ## Primary Transporter Families
 

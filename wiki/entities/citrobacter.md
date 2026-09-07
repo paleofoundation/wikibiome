@@ -44,7 +44,7 @@ Like other Enterobacteriaceae, Citrobacter produces enterobactin and other sider
 
 ### Nickel
 
-*C. freundii* harbors NiFe-hydrogenase for anaerobic hydrogen oxidation, linking it to the nickel-dependent pathogen network in this wiki [[pendergrass-2026-nickel-nec-preterm-gut]].
+*C. freundii* harbors NiFe [[hydrogenase]] for anaerobic hydrogen oxidation, linking it to the nickel-dependent pathogen network in this wiki [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### Arsenic Biotransformation
 

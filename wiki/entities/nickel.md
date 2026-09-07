@@ -51,7 +51,7 @@ Consensus: not proven essential in humans. While animal studies show nickel depr
 
 ## Evolutionary Context: Nickel as an Ancient Cofactor
 
-Nickel's importance to microbial life is not incidental -- it is among the most ancient biologically utilized metals on Earth. Analysis of the palaeo-metallome from 3.33-billion-year-old carbonaceous material in the Barberton greenstone belt reveals that nickel was one of nine bio-functional elements enriched in the earliest known biogenic material, alongside iron, vanadium, and cobalt [[hickman-lewis-2020-metallomics-deep-time-ocean-chemistry]]. The ancient metallome of these Archaean organisms most closely resembles modern anaerobic, methanogenic, or diazotrophic thermophiles -- organisms that still depend on nickel-containing enzymes like [[urease]] and [NiFe]-hydrogenase. In contrast, [[zinc]] and [[molybdenum]] are absent from the pre-Great Oxygenation Event (GOE) record, suggesting they became biologically important only after atmospheric oxygenation changed ocean chemistry [[hickman-lewis-2020-metallomics-deep-time-ocean-chemistry]].
+Nickel's importance to microbial life is not incidental -- it is among the most ancient biologically utilized metals on Earth. Analysis of the palaeo-metallome from 3.33-billion-year-old carbonaceous material in the Barberton greenstone belt reveals that nickel was one of nine bio-functional elements enriched in the earliest known biogenic material, alongside iron, vanadium, and cobalt [[hickman-lewis-2020-metallomics-deep-time-ocean-chemistry]]. The ancient metallome of these Archaean organisms most closely resembles modern anaerobic, methanogenic, or diazotrophic thermophiles -- organisms that still depend on nickel-containing enzymes like [[urease]] and [NiFe] [[hydrogenase]]. In contrast, [[zinc]] and [[molybdenum]] are absent from the pre-Great Oxygenation Event (GOE) record, suggesting they became biologically important only after atmospheric oxygenation changed ocean chemistry [[hickman-lewis-2020-metallomics-deep-time-ocean-chemistry]].
 
 This deep evolutionary history explains why nickel-dependent enzymes remain so widespread in prokaryotes: urease, [NiFe]-hydrogenase, nickel-glyoxalase, Ni-SOD, acireductone dioxygenase, and CO-dehydrogenase are relics of a 3.3-billion-year metabolic heritage [[maier-2019-nickel-microbial-pathogenesis]], [[capdevila-2024-bacterial-metallostasis-sensing-trafficking]]. The total number of known nickel metalloenzymes is fewer than ten, but they collectively drive global carbon, nitrogen, and oxygen cycles [[capdevila-2024-bacterial-metallostasis-sensing-trafficking]]. That mammals abandoned nickel-dependent biochemistry while their microbial pathogens retained it creates the evolutionary asymmetry that makes [[nutritional-immunity]] possible.
 
@@ -175,7 +175,7 @@ Recurrent aphthous stomatitis (RAS):
 - 45.7% of nickel-sensitive RAS patients had positive oral DBPC challenge; 21/32 improved on nickel-free diet [[pacor-2003-nickel-recurrent-aphthous-stomatitis]].
 
 Helicobacter pylori eradication:
-- Nickel-free diet nearly doubled H. pylori eradication rate when combined with standard triple therapy: 84% vs 46% (p<0.01). The diet starves H. pylori of the nickel required for its urease and [[hydrogenase]] virulence enzymes [[campanale-2014-nickel-free-diet-h-pylori]].
+- Nickel-free diet nearly doubled H. pylori eradication rate when combined with standard triple therapy: 84% vs 46% (p<0.01). The diet starves H. pylori of the nickel required for its urease and hydrogenase virulence enzymes [[campanale-2014-nickel-free-diet-h-pylori]].
 
 Gut dysbiosis:
 - Low-Ni diet + targeted [[probiotics]] resolved gut dysbiosis in 72.73% of SNAS patients vs 41.38% with diet alone. Fermentative dysbiosis (small intestine, elevated indican) is the predominant type in SNAS (64.71%). Benefits wane 4-6 weeks after treatment cessation [[lombardi-2020-snas-probiotics-dysbiosis]].
@@ -275,7 +275,7 @@ A striking connection has emerged between nickel sensitivity and [[endometriosis
 ### Parkinson's Disease
 
 - Nickel exposure is associated with increased risk of [[parkinsons-disease]], with the gut microbiome mediating part of the association [[ji-2025-nickel-exposure-parkinsons-microbiome]]. Nickel alters the abundance of specific bacterial taxa implicated in PD: pro-inflammatory Enterobacteriaceae are enriched while SCFA-producing commensals are depleted [[ji-2025-nickel-exposure-parkinsons-microbiome]].
-- Nickel-dependent bacterial enzymes (urease, [[hydrogenase]]) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage, compounding iron-driven [[ferroptosis]] in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. The nickel-microbiome-neurodegeneration axis represents a specific instance of the broader metal dyshomeostasis framework for PD, where metal exposure reshapes gut ecology which in turn drives neuroinflammation through the [[gut-brain-axis]] [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].
+- Nickel-dependent bacterial enzymes (urease, hydrogenase) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage, compounding iron-driven [[ferroptosis]] in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. The nickel-microbiome-neurodegeneration axis represents a specific instance of the broader metal dyshomeostasis framework for PD, where metal exposure reshapes gut ecology which in turn drives neuroinflammation through the [[gut-brain-axis]] [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].
 - See [[nickel-neurotoxicity]] for details.
 
 ---
@@ -307,7 +307,7 @@ Children are a particularly vulnerable population due to immature detoxification
 ### Nickel as a Catalytic Driver of NEC in Preterm Infants
 
 - Dietary nickel from infant formula may be a critical but overlooked contributor to necrotizing enterocolitis (NEC) pathogenesis [[pendergrass-2026-nickel-nec-preterm-gut]].
-- Key NEC-associated pathogens (E. coli, Klebsiella, Enterobacter, Citrobacter, Ureaplasma) all rely on nickel-dependent enzymes: urease, [[hydrogenase]], [[glyoxalase]].
+- Key NEC-associated pathogens (E. coli, Klebsiella, Enterobacter, Citrobacter, Ureaplasma) all rely on nickel-dependent enzymes: urease, hydrogenase, [[glyoxalase]].
 - Excess dietary nickel creates a positive feedback loop: Ni-fueled urease raises gut pH, favoring Proteobacteria over acid-producing commensals.
 - Human breast milk is naturally nickel-poor -- potentially an evolved [[nutritional-immunity]] mechanism starving Ni-dependent pathogens of their essential cofactor [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Proposed biomarkers: fecal urease activity, ammonia levels, and stool nickel content as early NEC risk indicators [[pendergrass-2026-nickel-nec-preterm-gut]].
@@ -358,7 +358,7 @@ Mammals do not synthesize known Ni-requiring proteins, yet nickel is essential f
 ### Key Ni-Enzymes
 
 - Urease: acid neutralization + nitrogen source. Essential for [[helicobacter-pylori]], [[staphylococcus-aureus]], [[proteus-mirabilis]], *Cryptococcus neoformans*, and many others.
-- [[hydrogenase]] ([NiFe]): H2 oxidation for energy. Critical for *H. pylori* ([[caga|CagA]] translocation, CO2 fixation), [[salmonella-typhimurium]], *Campylobacter jejuni*.
+- Hydrogenase ([NiFe]): H2 oxidation for energy. Critical for *H. pylori* ([[caga|CagA]] translocation, CO2 fixation), [[salmonella-typhimurium]], *Campylobacter jejuni*.
 - [[glyoxalase]] I (GloI): methylglyoxal detoxification. Drug target in *Leishmania donovani*. E. coli GlxI specifically requires Ni2+ [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Acireductone dioxygenase (ARD): methionine salvage. Found in all pathogenic gamma-proteobacteriaceae.
 - Ni-SOD: rare; [[oxidative-stress]] defense in *Streptomyces* [[maier-2019-nickel-microbial-pathogenesis]].
@@ -554,5 +554,5 @@ Disease associations:
 - [[environmental-metal-exposure]] -- dietary nickel, occupational exposure, fertilizers, and consumer product contact as primary exposure routes
 - [[gut-metal-microbiome]] -- nickel shapes microbial community composition
 - [[gut-brain-axis]] -- nickel-driven dysbiosis mediates neurodegeneration
-- Urease, [[hydrogenase]], [[glyoxalase]] -- nickel-dependent virulence enzymes
+- Urease, hydrogenase, [[glyoxalase]] -- nickel-dependent virulence enzymes
 - [[calprotectin]] -- host protein that sequesters nickel alongside Mn and Zn at infection sites

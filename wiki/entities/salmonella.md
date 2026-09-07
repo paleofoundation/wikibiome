@@ -60,7 +60,7 @@ Manganese is essential for Salmonella's defense against oxidative killing inside
 
 ### Nickel
 
-- Salmonella harbors NiFe-hydrogenases that support anaerobic respiration during gut colonization [[maier-2019-nickel-microbial-pathogenesis]]. Hydrogen oxidation provides a competitive advantage in the inflamed gut environment.
+- Salmonella harbors NiFe [[hydrogenase|hydrogenases]] that support anaerobic respiration during gut colonization [[maier-2019-nickel-microbial-pathogenesis]]. Hydrogen oxidation provides a competitive advantage in the inflamed gut environment.
 
 ## Nutritional Immunity Battleground
 

@@ -40,7 +40,7 @@ Lead: Time-dependent changes in community structure. Reduces Ruminococcus, Copro
 
 Mercury/Methylmercury: Increases Bacteroidetes at phylum level. Alters gut-brain metabolites including neurotransmitter precursors. Pathogenic bacteria are enriched. MeHg metabolism involves methylation/demethylation cycles mediated by gut microbiota. Dental fillings increase Hg-resistant and antibiotic-resistant bacteria in the oral-gut continuum.
 
-Nickel: Occupational Ni exposure increased Parabacteroides, Escherichia-Shigella and decreased Lactobacillus, Lachnospiraceae, and Blautia. Impaired purine degradation and upregulated primary bile acid biosynthesis. Combined Cr-Ni exposure showed antagonistic effects between the two metals. Nickel-dependent bacterial virulence enzymes ([[urease]], [NiFe]-hydrogenase) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage.
+Nickel: Occupational Ni exposure increased Parabacteroides, Escherichia-Shigella and decreased Lactobacillus, Lachnospiraceae, and Blautia. Impaired purine degradation and upregulated primary bile acid biosynthesis. Combined Cr-Ni exposure showed antagonistic effects between the two metals. Nickel-dependent bacterial virulence enzymes ([[urease]], [NiFe] [[hydrogenase]]) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage.
 
 Iron: Both deficiency and excess disrupt the microbiome. Iron deficiency reduces Lactobacillus and Bacillota; iron supplementation increases Enterobacteriaceae and decreases Lactobacillus in infants. Siderophore-producing Enterobacteriaceae outcompete commensals under high-iron conditions.
 

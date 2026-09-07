@@ -44,7 +44,7 @@ Major fermentation pathways:
  - Example taxa: [[phascolarctobacterium]], [[bacteroides-vulgatus]]
 
 Metal cofactors in fermentation:
-- Nickel: Ni-dependent hydrogenases enable H₂ production; crucial for H₂ cycling and [[nickel-glyoxalase]]-mediated detoxification.
+- Nickel: Ni-dependent [[hydrogenase|hydrogenases]] enable H₂ production; crucial for H₂ cycling and [[nickel-glyoxalase]]-mediated detoxification.
 - Iron: Fe-dependent ferredoxins shuttle electrons in anaerobic pathways.
 - Magnesium: Mg²⁺ cofactor for glycolytic enzymes and pyruvate carboxylase.
 - Zinc: Zn²⁺ in aldolase and other glycolytic enzymes; dysbiotic taxa often have Zn-dependent enzyme variants.
