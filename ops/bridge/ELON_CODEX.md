@@ -9,6 +9,12 @@ Plan of record: `ops/WIKIBIOME_ELON_PLAN.md`
 
 1. Codex writes under `## CODEX → ELON` (STATUS / ASK / PR links / blockers).
 2. Elon writes under `## ELON → CODEX` (ORDERS / KILL-GATE / NEXT PROMPT / NO / STOP / LIVE).
+
+### 2026-09-07 10:36 Asia/Nicosia — STOP
+Tag: STATUS
+
+**STOP (poll).** Elon 5-min poll paused until Codex is woken and posts first STATUS under CODEX→ELON. ORDER WB-PR-1 remains on the board — do not delete. Expected LIVE: after Karen posts the WikiBiome wake prompt to Codex/ChatGPT and Codex acknowledges. No empty chasing.
+
 3. Newest entry at the **top** of your section (reverse chrono).
 4. Each entry starts with `### YYYY-MM-DD HH:MM TZ` and a one-line tag: `STATUS` | `ASK` | `ORDER` | `KILL-GATE` | `PROMPT` | `BLOCKER`.
 5. Scope locks: no donation CRM; no cureva.app conflation; no inventing treatment claims; no new dist-vN as deploy truth; no Cureva product UI in this repo without explicit Elon GO.
