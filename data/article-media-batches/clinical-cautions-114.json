@@ -19,8 +19,26 @@
     "mediaDescription": "No generated media; these conditional clinical-caution pages do not resolve a single non-prescriptive physical subject, agent, protocol, evidence state, or claim boundary",
     "sourceUse": "Current controlled records, public-health guidance, and local source-resolution evidence define asset-free scientific holds."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "e1198de8069f5ba6d8527b85eac05ca0c7f1d856",
+  "controlAcceptedReviewManifestSha256": "9a12ada27420cc044af6b662962c31b207708aaca6bb2c9fb85f88239bb33684",
+  "controlAcceptedPromptEvidenceSha256": "c2ac0df565dc73bd661582a3e5aff188ecca3b172e5a308a5bf974d0d630b214",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "64781af0377d8ac33a2cbcea127101a4aea277af",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-antibiotics-during-chemotherapy-ovarian-cancer",
+      "stop-broad-spectrum-antibiotics-crohns",
+      "stop-broad-spectrum-antibiotics-dysbiosis",
+      "stop-broad-spectrum-antibiotics-long-covid",
+      "stop-calcium-supplementation-cadmium-exposure",
+      "stop-diagnostic-overclaiming-discovery-phase"
+    ]
+  },
   "controlSocialCropReview": "not-applicable-zero-generated-assets",
   "promotionDerivatives": {},
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, stop-sign imagery, implied treatment-withholding scenes, invented products, or a disease image that could be mistaken for evidence supporting the page's recommendation. All six routes fail before prompt creation.",
