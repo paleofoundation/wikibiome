@@ -19,9 +19,21 @@
     "mediaDescription": "Scientific algorithmic chemical-identity teaching reconstruction, not a source structure image, measured conformer, assay result, biomarker result, treatment recommendation, or diagnostic image",
     "sourceUse": "Current PubChem, ChEBI, LPSN, NCBI Taxonomy, and local source-resolution records define identity and conservative representation boundaries only; no source image or design is copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "b856e405ba7aa5fe5c587fc8e941a1551dcd177b",
   "promptFreezeCommit": "7b81dfe7bb743ac14b6e70c39e1353b777e82a47",
+  "controlAcceptedReviewManifestSha256": "690dd5217caf1dad613a6ff78527bdf2ce625a77853541e9a866d63bb3cb4946",
+  "controlAcceptedPromptEvidenceSha256": "f4ed892983c49e6e8a92e45e433794727dc28b98cbc11f6d34d5a115f16e7087",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-three-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "91d9b1ce62f6341b38863e3bcfe38f48374b0254",
+    "supersedesAcceptanceCommit": "fc12b3befbacc61c79b78a05a04f2b05e334452c",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific, visual, pixel-field, and exact-hash review",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": ["parvimonas", "serotonin", "shared-pathobionts-across-signatures", "overview"]
+  },
   "reviewStandard": "Only exact neutral Serotonin is cleared for one immutable heavy-atom connectivity call. The stale source-free Parvimonas route, unversioned shared-pathobiont analysis, and source-free obsolete overview fail category, evidence, stable-subject, or governed-dataset gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 4,
   "candidateCount": 0,
