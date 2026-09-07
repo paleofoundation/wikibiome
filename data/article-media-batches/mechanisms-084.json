@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-084",
+  "category": "mechanisms",
+  "status": "awaiting-control-review",
+  "createdOn": "2026-09-07",
+  "authorizedParent": "631f31402cd3c2b34762898e5539982b9c11f61d",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-084.md",
+  "reviewRecord": "docs/operations/media-reviews/mechanisms-084.md",
+  "controlReviewRequired": true,
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 084 route is eligible for generation or promotion until its documented identity, scope, evidence-tier, representation, nomenclature, exposure, species, and causal conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"neurodegeneration","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D019636;broad-disease-class","reason":"Distinct diseases, brain regions, metal observations, barriers, cell-death processes, aggregation, and gut-brain hypotheses are collapsed into one causal pathway.","requiredResolution":"Select a named disease and define specimen/region, metal species, method, comparator, pathology, effect direction, and evidence tier."},
+    {"pageId":"neuroinflammation","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"process-umbrella;no-single-controlled-entity","reason":"Glial, vascular, peripheral-immune, infectious, toxicant, and disease processes are merged using obsolete M1/M2 microglial framing.","requiredResolution":"Define species, region, insult, time, cell markers/state data, compartment, measured mediator, comparator, and function using current nomenclature."},
+    {"pageId":"nf-kappa-b","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D016328","reason":"The canonical branch is treated as the whole NF-kappa B network while noncanonical signaling, dimer diversity, feedback, cell context, timing, and assay are omitted.","requiredResolution":"Specify canonical and noncanonical receptors, proteins, dimers, cell type, stimulus, time, localization, assay, and source-bound evidence."},
+    {"pageId":"nickel-allergy","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D017449;nickel-specific-causation-requires-exposure-evidence","reason":"Non-specific eczema is merged with localized, systemic, dietary, mucosal, diagnostic, regulatory, and treatment claims.","requiredResolution":"Select one presentation and route with confirmed sensitization context, acute/chronic morphology, differential diagnosis, and evidence-qualified systemic claims."},
+    {"pageId":"nickel-reproductive-toxicity","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"toxicological-endpoint-umbrella;no-single-controlled-condition","reason":"Human associations, placental transfer, mixed exposures, animal findings, biomonitoring, and proposed mechanisms are presented as one causal human lesion.","requiredResolution":"Define nickel species, route, dose, timing, biomatrix, design, species, endpoint, mixture/confounder handling, comparator, uncertainty, and causal status."},
+    {"pageId":"nickel-neurotoxicity","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"toxicological-endpoint-umbrella;no-established-human-clinical-phenotype","reason":"One intraperitoneal rat study and broad mechanistic claims are generalized toward environmental human neurotoxicity.","requiredResolution":"Rebuild as a study-specific record or synthesis preserving chemical form, route, dose, tissue level, species/sex, assay, comparator, and human-extrapolation boundary."}
+  ],
+  "assets": []
+}
