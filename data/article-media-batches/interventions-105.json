@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-105",
   "category": "interventions",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "21c550d0e48c5242c396045d09753ef2c39b9ffb",
@@ -19,9 +19,30 @@
     "mediaDescription": "Scientific algorithmic intervention-device reconstruction, not a source photograph, product rendering, engineering drawing, operating instruction, treatment scene, efficacy evidence, recommendation, or diagnostic image",
     "sourceUse": "Controlled scientific and regulatory records supplied intervention identity and conservative representation boundaries only; no source image or design was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "b7ce3a197bddc5d296198c93e05e62af094ed1f2",
   "promptFreezeCommit": "e5be00e42e8878770ef442cf53136732bbc2e879",
+  "controlAcceptedReviewManifestSha256": "9a48b478304bada15f6cae1a8597e7af75dda3182956a3722220b431ef1bdeea",
+  "controlAcceptedPromptEvidenceSha256": "950216e61ee6fd71a0cead7d9f4c1a2b8bd1d389e13e03d180c7c8390c58675b",
+  "controlFinalReview": {
+    "status": "accepted-exact-hash",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "aed47b6b2692f9f50328b666779db6ae00300c99",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [
+      "hbot"
+    ],
+    "acceptedSourceSha256": [
+      "4718f4941c0c4429335414de7ae52a56b5ac24caa7a4efdc5db97d85b837c9f9"
+    ],
+    "nonPublishablePageIds": [
+      "ferrichrome-probiotics",
+      "glutathione-supplementation",
+      "gluten-free-diet",
+      "high-fiber-diet",
+      "high-fiber-prebiotics"
+    ]
+  },
   "reviewStandard": "Only a generic unoccupied monoplace hyperbaric chamber is cleared for one immutable device-orientation call. The other five routes fail material, formulation, protocol, source, population, measurement, or causal-interpretation gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -31,7 +52,9 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "promotionRule": "Only a literal single complete unoccupied monoplace chamber assembly matching the frozen device-form, pale-field, prohibited-content, and crop-safe requirements may proceed to exact-hash review. The other five routes remain non-public scientific holds.",
+  "promotionRule": "Only source SHA-256 4718f4941c0c4429335414de7ae52a56b5ac24caa7a4efdc5db97d85b837c9f9 may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The other five routes remain non-public scientific holds.",
+  "controlSocialCropReview": "pending-promoted-centered-contain-derivative",
+  "promotionDerivatives": {},
   "routeDecisions": [
     {
       "pageId": "ferrichrome-probiotics",

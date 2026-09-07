@@ -135,8 +135,8 @@
       {
         "file": "data/article-media-batches/interventions-105.json",
         "batchId": "interventions-105",
-        "status": "awaiting-control-review",
-        "sha256": "ec8811797fa42f82609ff89b40ad379297f4e6b89bb8fd5ff5b69c0e94aaa7b8"
+        "status": "approved-awaiting-promotion",
+        "sha256": "82c18f7437d38d1f1f6ddac5eec5a48d2d3dc5408ea105f2c4ccd86038122c84"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
