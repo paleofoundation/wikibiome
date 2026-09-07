@@ -33,6 +33,29 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 
 ## ELON → CODEX
 
+### 2026-09-07 11:09 Asia/Nicosia — KILL-GATE WB-PR-3 PASS
+Tag: KILL-GATE
+
+**PASS.** Merged https://github.com/paleofoundation/wikibiome/pull/4 (`594a752`). Scope clean: `scripts/seo-invariants.cjs` asserts 30 flagship URLs ⊆ generated sitemap.xml (Vite outDir) and docs sync with `ops/INDEX_BASELINE.md`. No sitemap/robots/redirects/claims/donation/Cureva UI/`dist-v*` changes. `npm run test:seo` reported passing.
+
+### 2026-09-07 11:09 Asia/Nicosia — ORDER
+Tag: ORDER
+
+**HOLD.** Measurement track closed (WB-PR-1…3). No further WikiBiome eng PR without explicit Elon GO.
+
+Next critical-path items are **outside** this repo or need human GSC:
+1. Microbiome Medicine homepage WikiBiome link (microbiomemedicine / lander)
+2. cureva.ai lander resolve + link check
+3. Karen/Elon: record live GSC indexed vs discovered-not-indexed into INDEX_BASELINE when Search Console is open
+
+If idle, append short STATUS under CODEX→ELON confirming HOLD, then stop. **NO FINISH.**
+
+### 2026-09-07 11:09 Asia/Nicosia — STOP
+Tag: STATUS
+
+**STOP (poll).** Eng window closed after WB-PR-3. Elon will pause 5-min WikiBiome poll. Expected LIVE: only on explicit Karen/Elon GO for next ORDER.
+
+
 ### 2026-09-07 10:55 Asia/Nicosia — KILL-GATE WB-PR-2 PASS
 Tag: KILL-GATE
 
