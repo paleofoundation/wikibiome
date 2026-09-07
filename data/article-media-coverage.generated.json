@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "2f8f7c66c010efa434e20456322c80c819bd53141d393e030aab0ee44bb56c95",
+    "reviewLogSha256": "02b3ab2fc29c4b25b7282383fc2c8c21e89459d538fcc8f7b5318054a5c3a3b9",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -269,6 +269,12 @@
         "batchId": "mechanisms-088",
         "status": "reviewed",
         "sha256": "ecd7b93f41a395d2d264804e48d7580fd013178e7a86c2dcadb2b4a126d447b3"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-089.json",
+        "batchId": "mechanisms-089",
+        "status": "reviewed",
+        "sha256": "c55f2364db97552066818e7af9c4124329626290e67511820a13c7812ab9ede6"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -562,9 +568,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 166,
+    "rejected": 172,
     "revised": 12,
-    "scientificHolds": 111,
+    "scientificHolds": 117,
     "inReview": 0
   },
   "categories": [
@@ -3602,6 +3608,107 @@
       ],
       "requiredResolution": "Split by exact fatty acid and define formulation or diet, dose, duration, population or model, sample, microbiome or lipid assay, endpoint, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "postbiotic",
+      "controlledIdentifier": "ISAPP-2021-postbiotic-preparation-definition",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Inanimate-cell preparations, cell-free supernatants, purified metabolites, lysates, and class-wide benefits and safety are conflated contrary to the consensus boundary.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33948025/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10807003/",
+        "local:data/content.generated.json#/pages/postbiotic"
+      ],
+      "requiredResolution": "Define exact source strain, inactivation method, retained cells or components, metabolites, composition, dose, target host, comparator, endpoint, safety, and evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "prebiotics",
+      "controlledIdentifier": "MeSH:D056692;ISAPP-2017-prebiotic-definition",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Chemically diverse substrates, foods, taxa, cross-feeding, branded products, disease claims, and synbiotic evidence are generalized as one prebiotic effect.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D056692",
+        "https://pubmed.ncbi.nlm.nih.gov/28611480/",
+        "local:data/content.generated.json#/pages/prebiotics"
+      ],
+      "requiredResolution": "Split by defined substrate, matrix and dose, target host and site, utilizing organism and pathway, assay, comparator, health endpoint, and certainty.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "premenstrual-syndrome",
+      "controlledIdentifier": "MeSH:D011293;prospectively-timed-clinical-syndrome",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "PMS and PMDD, smoking and metal exposures, hormones, microbiome associations, speculative mechanisms, and interventions are merged with causal wording.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011293",
+        "https://www.acog.org/womens-health/faqs/premenstrual-syndrome",
+        "https://pubmed.ncbi.nlm.nih.gov/37973069/",
+        "https://pubmed.ncbi.nlm.nih.gov/36948390/",
+        "local:data/content.generated.json#/pages/premenstrual-syndrome"
+      ],
+      "requiredResolution": "Rebuild around prospective criteria, separate PMS from PMDD, and define population, cycle phase, specimen, assay, exposure or intervention, comparator, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "prenatal-metal-exposure",
+      "controlledIdentifier": "multi-element-multi-species-prenatal-exposure-umbrella",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Distinct elements and species, exposure matrices, placental transfer, fetal dose, gestational windows, epigenetic and microbiome associations, and outcomes are conflated.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/22717874/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3491942/",
+        "https://pubmed.ncbi.nlm.nih.gov/39863768/",
+        "local:data/content.generated.json#/pages/prenatal-metal-exposure"
+      ],
+      "requiredResolution": "Split by exact element or species, source, maternal or placental or cord matrix, timing, transfer metric, dose and units, endpoint, cohort or model, assay, confounders, and certainty.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "preterm-birth",
+      "controlledIdentifier": "birth-before-37-completed-weeks;heterogeneous-clinical-outcome",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Spontaneous and indicated preterm birth, vaginal associations, infection pathways, neonatal sequelae, post-delivery exposures, and prevention are collapsed into one chain.",
+      "checkedUrls": [
+        "https://www.cdc.gov/maternal-infant-health/preterm-birth/index.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9106729/",
+        "https://pubmed.ncbi.nlm.nih.gov/39863768/",
+        "local:data/content.generated.json#/pages/preterm-birth"
+      ],
+      "requiredResolution": "Split by phenotype and gestational subgroup and define population, sampling time and site, community method, exposure or intervention, comparator, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "probiotics",
+      "controlledIdentifier": "MeSH:D019936;ISAPP-2014-live-defined-microorganism-definition",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Strain-, product-, dose-, population-, and endpoint-specific results are generalized across a class and mixed across models, trials, reviews, and engineered organisms.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://pubmed.ncbi.nlm.nih.gov/24912386/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7925329/",
+        "local:data/content.generated.json#/pages/probiotics"
+      ],
+      "requiredResolution": "Create exact strain and product records with taxonomy, strain identifier, viable dose, formulation, route, population or model, comparator, endpoint, safety, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -3756,55 +3863,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 511,
-      "id": "postbiotic",
-      "title": "Postbiotics",
-      "route": "/article/postbiotic",
+      "queuePosition": 517,
+      "id": "propionic-acid",
+      "title": "Propionic Acid",
+      "route": "/article/propionic-acid",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 512,
-      "id": "prebiotics",
-      "title": "Prebiotics",
-      "route": "/article/prebiotics",
+      "queuePosition": 518,
+      "id": "quinolinic-acid",
+      "title": "Quinolinic Acid",
+      "route": "/article/quinolinic-acid",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 513,
-      "id": "premenstrual-syndrome",
-      "title": "Premenstrual Syndrome",
-      "route": "/article/premenstrual-syndrome",
+      "queuePosition": 519,
+      "id": "quorum-sensing",
+      "title": "Quorum Sensing",
+      "route": "/article/quorum-sensing",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 514,
-      "id": "prenatal-metal-exposure",
-      "title": "Prenatal Metal Exposure",
-      "route": "/article/prenatal-metal-exposure",
+      "queuePosition": 520,
+      "id": "riboswitch",
+      "title": "Riboswitch",
+      "route": "/article/riboswitch",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 515,
-      "id": "preterm-birth",
-      "title": "Preterm Birth",
-      "route": "/article/preterm-birth",
+      "queuePosition": 521,
+      "id": "saccharolytic-fermentation",
+      "title": "Saccharolytic Fermentation",
+      "route": "/article/saccharolytic-fermentation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 516,
-      "id": "probiotics",
-      "title": "Probiotics",
-      "route": "/article/probiotics",
+      "queuePosition": 522,
+      "id": "semen-microbiome",
+      "title": "Semen Microbiome",
+      "route": "/article/semen-microbiome",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -14328,7 +14435,13 @@
       "route": "/article/postbiotic",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Inanimate-cell preparations, cell-free supernatants, purified metabolites, lysates, and class-wide benefits and safety are conflated contrary to the consensus boundary.",
+        "requiredResolution": "Define exact source strain, inactivation method, retained cells or components, metabolites, composition, dose, target host, comparator, endpoint, safety, and evidence."
+      }
     },
     {
       "queuePosition": 512,
@@ -14341,7 +14454,13 @@
       "route": "/article/prebiotics",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Chemically diverse substrates, foods, taxa, cross-feeding, branded products, disease claims, and synbiotic evidence are generalized as one prebiotic effect.",
+        "requiredResolution": "Split by defined substrate, matrix and dose, target host and site, utilizing organism and pathway, assay, comparator, health endpoint, and certainty."
+      }
     },
     {
       "queuePosition": 513,
@@ -14354,7 +14473,13 @@
       "route": "/article/premenstrual-syndrome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "PMS and PMDD, smoking and metal exposures, hormones, microbiome associations, speculative mechanisms, and interventions are merged with causal wording.",
+        "requiredResolution": "Rebuild around prospective criteria, separate PMS from PMDD, and define population, cycle phase, specimen, assay, exposure or intervention, comparator, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 514,
@@ -14367,7 +14492,13 @@
       "route": "/article/prenatal-metal-exposure",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Distinct elements and species, exposure matrices, placental transfer, fetal dose, gestational windows, epigenetic and microbiome associations, and outcomes are conflated.",
+        "requiredResolution": "Split by exact element or species, source, maternal or placental or cord matrix, timing, transfer metric, dose and units, endpoint, cohort or model, assay, confounders, and certainty."
+      }
     },
     {
       "queuePosition": 515,
@@ -14380,7 +14511,13 @@
       "route": "/article/preterm-birth",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Spontaneous and indicated preterm birth, vaginal associations, infection pathways, neonatal sequelae, post-delivery exposures, and prevention are collapsed into one chain.",
+        "requiredResolution": "Split by phenotype and gestational subgroup and define population, sampling time and site, community method, exposure or intervention, comparator, outcome, and evidence tier."
+      }
     },
     {
       "queuePosition": 516,
@@ -14393,7 +14530,13 @@
       "route": "/article/probiotics",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Strain-, product-, dose-, population-, and endpoint-specific results are generalized across a class and mixed across models, trials, reviews, and engineered organisms.",
+        "requiredResolution": "Create exact strain and product records with taxonomy, strain identifier, viable dose, formulation, route, population or model, comparator, endpoint, safety, and evidence tier."
+      }
     },
     {
       "queuePosition": 517,
