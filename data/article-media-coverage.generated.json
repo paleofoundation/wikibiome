@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "5a4b9fe87cacbae68c7965db6ca4aaeebc11376122bd81af58cc1cf34d8f712f",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "a32ebdfa701a0d9c3b204d44f51f830b40f4ddfe962a71d28f2c3e2623a1553d",
+    "reviewLogSha256": "4e281dcfe0de7f743d6983c0d6376dd85378ff1976f6f8ad54a36de951aad23d",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -107,6 +107,12 @@
         "batchId": "host-defenses-100",
         "status": "reviewed",
         "sha256": "edd04b364fc45d9324ee1cc7add34d5ff82c37667c0c87af9b8885de321bcbf3"
+      },
+      {
+        "file": "data/article-media-batches/host-defenses-101.json",
+        "batchId": "host-defenses-101",
+        "status": "reviewed",
+        "sha256": "52caa8d0038929bcbb4c35656bbb371993701ca085a4bd152f3e4015e74147e4"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -634,9 +640,9 @@
     "total": 710,
     "completed": 369,
     "remaining": 341,
-    "rejected": 230,
+    "rejected": 235,
     "revised": 12,
-    "scientificHolds": 174,
+    "scientificHolds": 179,
     "inReview": 0
   },
   "categories": [
@@ -4713,6 +4719,88 @@
       ],
       "requiredResolution": "Choose one exact chemical species and charge or spin state, source reaction, organism and compartment, concentration or flux, time point, detection method, specimen, target and endpoint.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one chemical and measurement state passes a new audit."
+    },
+    {
+      "pageId": "siderophore-competition",
+      "controlledIdentifier": "related-MeSH:D017262;multi-organism-multi-ligand-ecological-process",
+      "batchId": "host-defenses-101",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines multiple producers, chemically distinct siderophores, ferric chelation and uptake, piracy, host lipocalin-2, commensal strategies, infections, antibiotic conjugates, and chelation interventions rather than one observed competitive configuration.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D017262",
+        "https://www.wikibiome.com/article/siderophore-competition",
+        "local:data/content.generated.json#/pages/siderophore-competition"
+      ],
+      "requiredResolution": "Choose exact competing organisms and strains, siderophore identity and stereochemistry, iron species and occupancy, medium and spatial arrangement, concentrations, time point, receptor context, assay, and measured outcome.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one measured competition state passes a new audit."
+    },
+    {
+      "pageId": "siderophores",
+      "controlledIdentifier": "MeSH:D017262;heterogeneous-chemical-function-class",
+      "batchId": "host-defenses-101",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The controlled class contains chemically and stereochemically distinct siderophores from different producers, while the article spans many compounds, ferric complexes, receptors, host responses, diagnostics, and applications. No single molecular graph is canonical.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D017262",
+        "https://www.wikibiome.com/article/siderophores",
+        "local:data/content.generated.json#/pages/siderophores"
+      ],
+      "requiredResolution": "Select one exact compound with controlled chemical identity, stereochemistry and protonation state, producer strain, apo or specified ferric complex, stoichiometry, structure source, compartment, receptor context, assay, and claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one exact molecular and experimental state passes a new audit."
+    },
+    {
+      "pageId": "siderophores-metallophores",
+      "controlledIdentifier": "related-MeSH:D017262;multi-metal-multi-compound-function-class",
+      "batchId": "host-defenses-101",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The umbrella route combines non-equivalent chelators, multiple metal species and oxidation states, extracellular sequestration, import, toxicity protection, virulence, diagnostics, and applications without one controlled molecular identity or occupancy state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D017262",
+        "https://www.wikibiome.com/article/siderophores-metallophores",
+        "local:data/content.generated.json#/pages/siderophores-metallophores"
+      ],
+      "requiredResolution": "Choose one named compound and controlled chemical identity, exact metal species and oxidation state, stoichiometry and occupancy, producer strain, receptor or transporter, compartment, experimental condition, assay, and measured endpoint.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one exact compound-metal-organism state passes a new audit."
+    },
+    {
+      "pageId": "superoxide-dismutase",
+      "controlledIdentifier": "MeSH:D013482;EC:1.15.1.1;multi-protein-multi-cofactor-enzyme-class",
+      "batchId": "host-defenses-101",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines non-equivalent human and microbial SOD proteins, organisms, sequences, oligomers, compartments, copper, zinc, manganese, iron and nickel cofactors, metallation states, infection phenotypes, and biomarker claims rather than one verifiable structure.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013482",
+        "https://enzyme.expasy.org/EC/1.15.1.1",
+        "https://www.wikibiome.com/article/superoxide-dismutase",
+        "local:data/content.generated.json#/pages/superoxide-dismutase"
+      ],
+      "requiredResolution": "Select organism and strain, exact gene product and sequence, mature construct, oligomer, cofactor and oxidation state, metallation state, structure accession, retained ligands, compartment, assay, and bounded claim.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one exact protein and experimental state passes a new audit."
+    },
+    {
+      "pageId": "transferrin",
+      "controlledIdentifier": "MeSH:D014168;UniProt:P02787;NCBITaxon:9606;multi-iron-loading-state-glycoprotein",
+      "batchId": "host-defenses-101",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Human serotransferrin is identifiable, but the article combines apo, monoferric and diferric states, isoforms and glycosylation, receptor-mediated uptake, pH-dependent release, serum measurements, other-metal binding, host defense, diseases, and microbial acquisition. Available structures are state-specific.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014168",
+        "https://www.uniprot.org/uniprotkb/P02787/entry",
+        "https://www.wikibiome.com/article/transferrin",
+        "local:data/content.generated.json#/pages/transferrin"
+      ],
+      "requiredResolution": "Select exact species and sequence, isoform and mature chain, glycoform, apo/monoferric/diferric state, ferric-site occupancy and synergistic anion, oligomer and structure accession, retained partners, compartment or specimen, assay, and claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one molecular, iron-loading, structural, and assay state passes a new audit."
     }
   ],
   "revisedAssets": [
@@ -4867,49 +4955,58 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 582,
-      "id": "siderophore-competition",
-      "title": "Siderophore Competition",
-      "route": "/article/siderophore-competition",
-      "category": "defense",
-      "coverageGroup": "host-defenses",
-      "suggestedAssetType": "host-defense"
+      "queuePosition": 587,
+      "id": "acarbose-fiber-synergy",
+      "title": "Acarbose + High-Fiber Diet Synergy for PCOS",
+      "route": "/article/acarbose-fiber-synergy",
+      "category": "intervention",
+      "coverageGroup": "interventions",
+      "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 583,
-      "id": "siderophores",
-      "title": "Siderophores",
-      "route": "/article/siderophores",
-      "category": "defense",
-      "coverageGroup": "host-defenses",
-      "suggestedAssetType": "host-defense"
+      "queuePosition": 588,
+      "id": "aip-diet-hashimotos",
+      "title": "Autoimmune Protocol (AIP) Diet for Hashimoto's Thyroiditis",
+      "route": "/article/aip-diet-hashimotos",
+      "category": "intervention",
+      "coverageGroup": "interventions",
+      "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 584,
-      "id": "siderophores-metallophores",
-      "title": "Siderophores and Metallophores",
-      "route": "/article/siderophores-metallophores",
-      "category": "defense",
-      "coverageGroup": "host-defenses",
-      "suggestedAssetType": "host-defense"
+      "queuePosition": 589,
+      "id": "b-cell-depletion-therapy-ms",
+      "title": "B-Cell Depletion Therapy for Multiple Sclerosis",
+      "route": "/article/b-cell-depletion-therapy-ms",
+      "category": "intervention",
+      "coverageGroup": "interventions",
+      "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 585,
-      "id": "superoxide-dismutase",
-      "title": "Superoxide Dismutase",
-      "route": "/article/superoxide-dismutase",
-      "category": "defense",
-      "coverageGroup": "host-defenses",
-      "suggestedAssetType": "host-defense"
+      "queuePosition": 590,
+      "id": "berberine",
+      "title": "Berberine",
+      "route": "/article/berberine",
+      "category": "intervention",
+      "coverageGroup": "interventions",
+      "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 586,
-      "id": "transferrin",
-      "title": "Transferrin",
-      "route": "/article/transferrin",
-      "category": "defense",
-      "coverageGroup": "host-defenses",
-      "suggestedAssetType": "host-defense"
+      "queuePosition": 591,
+      "id": "berberine-methimazole",
+      "title": "Berberine + Methimazole for Graves' Disease",
+      "route": "/article/berberine-methimazole",
+      "category": "intervention",
+      "coverageGroup": "interventions",
+      "suggestedAssetType": "intervention"
+    },
+    {
+      "queuePosition": 592,
+      "id": "breast-milk-hmo-nec",
+      "title": "Breast Milk and Human Milk Oligosaccharides (HMOs) for NEC Prevention",
+      "route": "/article/breast-milk-hmo-nec",
+      "category": "intervention",
+      "coverageGroup": "interventions",
+      "suggestedAssetType": "intervention"
     }
   ],
   "queue": [
@@ -16795,7 +16892,13 @@
       "route": "/article/siderophore-competition",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route combines multiple producers, chemically distinct siderophores, ferric chelation and uptake, piracy, host lipocalin-2, commensal strategies, infections, antibiotic conjugates, and chelation interventions rather than one observed competitive configuration.",
+        "requiredResolution": "Choose exact competing organisms and strains, siderophore identity and stereochemistry, iron species and occupancy, medium and spatial arrangement, concentrations, time point, receptor context, assay, and measured outcome."
+      }
     },
     {
       "queuePosition": 583,
@@ -16808,7 +16911,13 @@
       "route": "/article/siderophores",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The controlled class contains chemically and stereochemically distinct siderophores from different producers, while the article spans many compounds, ferric complexes, receptors, host responses, diagnostics, and applications. No single molecular graph is canonical.",
+        "requiredResolution": "Select one exact compound with controlled chemical identity, stereochemistry and protonation state, producer strain, apo or specified ferric complex, stoichiometry, structure source, compartment, receptor context, assay, and claim boundary."
+      }
     },
     {
       "queuePosition": 584,
@@ -16821,7 +16930,13 @@
       "route": "/article/siderophores-metallophores",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The umbrella route combines non-equivalent chelators, multiple metal species and oxidation states, extracellular sequestration, import, toxicity protection, virulence, diagnostics, and applications without one controlled molecular identity or occupancy state.",
+        "requiredResolution": "Choose one named compound and controlled chemical identity, exact metal species and oxidation state, stoichiometry and occupancy, producer strain, receptor or transporter, compartment, experimental condition, assay, and measured endpoint."
+      }
     },
     {
       "queuePosition": 585,
@@ -16834,7 +16949,13 @@
       "route": "/article/superoxide-dismutase",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route combines non-equivalent human and microbial SOD proteins, organisms, sequences, oligomers, compartments, copper, zinc, manganese, iron and nickel cofactors, metallation states, infection phenotypes, and biomarker claims rather than one verifiable structure.",
+        "requiredResolution": "Select organism and strain, exact gene product and sequence, mature construct, oligomer, cofactor and oxidation state, metallation state, structure accession, retained ligands, compartment, assay, and bounded claim."
+      }
     },
     {
       "queuePosition": 586,
@@ -16847,7 +16968,13 @@
       "route": "/article/transferrin",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Human serotransferrin is identifiable, but the article combines apo, monoferric and diferric states, isoforms and glycosylation, receptor-mediated uptake, pH-dependent release, serum measurements, other-metal binding, host defense, diseases, and microbial acquisition. Available structures are state-specific.",
+        "requiredResolution": "Select exact species and sequence, isoform and mature chain, glycoform, apo/monoferric/diferric state, ferric-site occupancy and synergistic anion, oligomer and structure accession, retained partners, compartment or specimen, assay, and claim boundary."
+      }
     },
     {
       "queuePosition": 587,
