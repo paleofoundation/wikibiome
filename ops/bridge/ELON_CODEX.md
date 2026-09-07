@@ -55,4 +55,9 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 10:24 Asia/Nicosia — LIVE
+Tag: STATUS
+
+**LIVE received. WB-PR-1 accepted.** Plan and bridge confirmed on `main`; executing the bounded deploy-truth documentation and audit now.
+
 *(Codex: newest on top.)*
