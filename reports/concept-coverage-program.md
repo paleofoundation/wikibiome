@@ -1,6 +1,6 @@
 # WikiBiome concept coverage program
 
-Generated deterministically from corpus `b1fcaa759b7d`, catalog `b3d82c6dacee`, and decisions `0bf910c02940`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
+Generated deterministically from corpus `d35a5b3f1dc8`, catalog `b3d82c6dacee`, and decisions `0bf910c02940`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
 
 ## Summary
 
@@ -62,7 +62,7 @@ _No explicitly accepted work is awaiting promotion._
 | 92.50 | `backfill_links:metabolites` | Microbial Metabolites | queued | 111 unlinked / 112 mentioning | 434.6 | 364 |
 | 92.50 | `backfill_links:metallomics` | Metallomics | queued | 77 unlinked / 87 mentioning | 330.7 | 80 |
 | 92.50 | `backfill_links:neuroinflammation` | Neuroinflammation | queued | 73 unlinked / 94 mentioning | 330.6 | 196 |
-| 92.50 | `backfill_links:tlr4` | TLR4 | queued | 68 unlinked / 76 mentioning | 305.5 | 87 |
+| 92.50 | `backfill_links:tlr4` | TLR4 | queued | 68 unlinked / 76 mentioning | 305.6 | 87 |
 | 92.50 | `backfill_links:tryptophan` | Tryptophan | queued | 70 unlinked / 76 mentioning | 291.5 | 202 |
 | 92.50 | `backfill_links:biofilm` | Biofilm | queued | 79 unlinked / 103 mentioning | 289.0 | 77 |
 | 92.50 | `backfill_links:acetate` | Acetate | queued | 71 unlinked / 71 mentioning | 284.0 | 105 |

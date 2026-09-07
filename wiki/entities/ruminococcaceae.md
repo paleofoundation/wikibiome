@@ -41,7 +41,7 @@ Ruminococcaceae depletion is among the most consistent microbiome findings acros
 ## Functional Significance
 
 Ruminococcaceae's depletion removes:
-1. [[butyrate]] — colonocyte fuel, HDAC inhibitor, barrier protector, Treg inducer.
+1. [[butyrate]] — colonocyte fuel, HDAC inhibitor, [[tight-junctions|tight junction]] and epithelial-barrier protector, Treg inducer.
 2. Fiber degradation — cellulose, xylan, and resistant starch breakdown ([[saccharolytic-fermentation]]).
 3. [[cross-feeding]] — acetate→butyrate conversion for downstream SCFA production.
 4. Colonization resistance — niche occupation preventing pathobiont expansion.

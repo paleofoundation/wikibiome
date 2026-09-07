@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T05:53:52.556Z",
+  "_generated": "2026-09-07T06:00:26.651Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -57245,7 +57245,7 @@
         {
           "heading": "Functional Significance",
           "level": 2,
-          "body": "Ruminococcaceae's depletion removes:\n1. [[butyrate]] — colonocyte fuel, HDAC inhibitor, barrier protector, Treg inducer.\n2. Fiber degradation — cellulose, xylan, and resistant starch breakdown ([[saccharolytic-fermentation]]).\n3. [[cross-feeding]] — acetate→butyrate conversion for downstream SCFA production.\n4. Colonization resistance — niche occupation preventing pathobiont expansion."
+          "body": "Ruminococcaceae's depletion removes:\n1. [[butyrate]] — colonocyte fuel, HDAC inhibitor, [[tight-junctions|tight junction]] and epithelial-barrier protector, Treg inducer.\n2. Fiber degradation — cellulose, xylan, and resistant starch breakdown ([[saccharolytic-fermentation]]).\n3. [[cross-feeding]] — acetate→butyrate conversion for downstream SCFA production.\n4. Colonization resistance — niche occupation preventing pathobiont expansion."
         },
         {
           "heading": "Metal Connection",
@@ -57268,6 +57268,7 @@
         "ross-2024-diet-gut-microbiome-interplay-health-disease",
         "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
         "butyrate",
+        "tight-junctions",
         "saccharolytic-fermentation",
         "cross-feeding",
         "short-chain-fatty-acids",
@@ -114819,6 +114820,7 @@
         "prevotella-copri",
         "rheumatoid-arthritis",
         "roseburia",
+        "ruminococcaceae",
         "ruminococcus-albus",
         "saccharomyces-boulardii",
         "saccharomyces-cerevisiae",
@@ -114865,7 +114867,6 @@
         "polyphenols",
         "prebiotics",
         "probiotics",
-        "ruminococcaceae",
         "short-chain-fatty-acids",
         "tmao",
         "toll-like-receptors",
@@ -198579,6 +198580,10 @@
       },
       {
         "source": "ruminococcaceae",
+        "target": "tight-junctions"
+      },
+      {
+        "source": "ruminococcaceae",
         "target": "saccharolytic-fermentation"
       },
       {
@@ -209668,10 +209673,6 @@
       {
         "source": "ruminococcaceae",
         "target": "intestinal-permeability"
-      },
-      {
-        "source": "ruminococcaceae",
-        "target": "tight-junctions"
       },
       {
         "source": "ruminococcaceae",

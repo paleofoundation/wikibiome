@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "b1fcaa759b7d14a6d6847e84d15ca9e19917e3157c1ef8a0e1d25da883a79490",
+    "corpusSha256": "d35a5b3f1dc8ef6484823b777b0e9fd9ef62eac705b26a43394cf5ae006a385a",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
     "decisionsSha256": "0bf910c029403fb8de009ad0ba556fea03d0ae69b1e6d37f9ca2e95b119d7e8f",
     "publicArticles": 592,
@@ -1904,7 +1904,7 @@
         ],
         "candidateEvidenceSources": 915,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 885.588
+        "weightedGraphGain": 885.602
       },
       "affectedPages": [
         {
@@ -3701,7 +3701,7 @@
         ],
         "candidateEvidenceSources": 373,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 489.774
+        "weightedGraphGain": 489.788
       },
       "affectedPages": [
         {
@@ -3856,7 +3856,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 102
+          "inboundLinks": 103
         },
         {
           "id": "endometriosis",
@@ -4149,7 +4149,7 @@
         ],
         "candidateEvidenceSources": 235,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 467.222
+        "weightedGraphGain": 467.236
       },
       "affectedPages": [
         {
@@ -4403,7 +4403,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 102
+          "inboundLinks": 103
         },
         {
           "id": "akkermansia-muciniphila",
@@ -5492,7 +5492,7 @@
         ],
         "candidateEvidenceSources": 196,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 330.586
+        "weightedGraphGain": 330.599
       },
       "affectedPages": [
         {
@@ -5570,7 +5570,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 102
+          "inboundLinks": 103
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -5939,7 +5939,7 @@
         ],
         "candidateEvidenceSources": 87,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 305.537
+        "weightedGraphGain": 305.551
       },
       "affectedPages": [
         {
@@ -6028,7 +6028,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 102
+          "inboundLinks": 103
         },
         {
           "id": "inflammation",
