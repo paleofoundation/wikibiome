@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "fb4fcf8783dc118a8d312eb1a461617e5fac6c992c2de70aa16bbb357a72573e",
+    "reviewLogSha256": "d0eef5949542356a609e36067976748d1ad5d35675016adf5c7587cde6d19fb0",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -233,6 +233,12 @@
         "batchId": "mechanisms-082",
         "status": "reviewed",
         "sha256": "43adc6c1811e963eacb8566c2aa5e0510a4617e1c149975bc437fbd47cd703d6"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-083.json",
+        "batchId": "mechanisms-083",
+        "status": "reviewed",
+        "sha256": "5538fd90d9a693db5fbe68d12ddf664acb5ea73d682739f19ff46e780c265487"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -526,9 +532,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 130,
+    "rejected": 136,
     "revised": 12,
-    "scientificHolds": 75,
+    "scientificHolds": 81,
     "inReview": 0
   },
   "categories": [
@@ -2971,6 +2977,110 @@
       ],
       "requiredResolution": "Merge or distinguish the duplicate route and bound each compound by identity, origin evidence, pathway, compartment, concentration, target, model, and human causal status.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "microglia",
+      "controlledIdentifier": "MeSH:D017628",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Heterogeneous context-dependent cell states are reduced to M1/M2 polarity and a universal metal-gut-brain neurodegeneration mediator.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D017628",
+        "https://pubmed.ncbi.nlm.nih.gov/?term=36327895",
+        "https://pubmed.ncbi.nlm.nih.gov/41991797/",
+        "local:data/content.generated.json#/pages/microglia"
+      ],
+      "requiredResolution": "Specify species, age, region, model, cell markers, state data, exposure dose/route/time, comparator, and measured function using current nomenclature.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "mis-metallation",
+      "controlledIdentifier": "mechanism-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Protein metalation, ionic mimicry, transport competition, toxicology, host defense, exposure biomarkers, and proposed treatments are conflated.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34763208/",
+        "https://pubmed.ncbi.nlm.nih.gov/38960447/",
+        "local:data/content.generated.json#/pages/mis-metallation"
+      ],
+      "requiredResolution": "Split by protein/accession, organism/compartment, cognate and competing species, site/stoichiometry, availability, assay, phenotype, and in-vivo evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "mitochondrial-dysfunction",
+      "controlledIdentifier": "functional-phenotype-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Many organelles, tissues, assays, toxicants, diseases, and cell-death mechanisms are presented as one measurable causal pathway.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34740866/",
+        "local:data/content.generated.json#/pages/mitochondrial-dysfunction"
+      ],
+      "requiredResolution": "Define tissue/cell/model, perturbation, dose/time, respiratory substrate and assay, membrane potential, redox/morphology/quality-control measures, comparator, and causal intervention.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "molecular-mimicry",
+      "controlledIdentifier": "MeSH:D008969;immunological-mechanism-umbrella",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "One established infection association and several proposed microbiome links are presented together as a primary causal mechanism without epitope-level proof.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008969",
+        "https://pubmed.ncbi.nlm.nih.gov/22095454/",
+        "https://pubmed.ncbi.nlm.nih.gov/35572569/",
+        "https://pubmed.ncbi.nlm.nih.gov/36136068/",
+        "https://pubmed.ncbi.nlm.nih.gov/38415936/",
+        "local:data/content.generated.json#/pages/molecular-mimicry"
+      ],
+      "requiredResolution": "Document foreign and self epitopes, structural/sequence similarity, HLA, cross-reactivity assay, cohort, epidemiology, model transfer, and alternatives for each example.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "mycobiome",
+      "controlledIdentifier": "community-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Body-site, transient, colonizing, pathogenic, and low-biomass fungal signals are merged with strong disease and functional claims.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39189314/",
+        "https://pubmed.ncbi.nlm.nih.gov/40278100/",
+        "https://pubmed.ncbi.nlm.nih.gov/40990048/",
+        "https://pubmed.ncbi.nlm.nih.gov/41369685/",
+        "local:data/content.generated.json#/pages/mycobiome"
+      ],
+      "requiredResolution": "Define body site, specimen, biomass controls, method, primers/database, absolute burden, viability/residency, taxon resolution, confounders, replication, and function.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "n-glycosylation",
+      "controlledIdentifier": "MeSH:D006026;process-umbrella",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Eukaryotic, bacterial, fungal, host-protein, microbial-protein, and glycome-association findings are conflated, including an unsupported metal-dependent enzyme claim.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D006026",
+        "https://pubmed.ncbi.nlm.nih.gov/25936979/",
+        "https://pubmed.ncbi.nlm.nih.gov/26433695/",
+        "https://pubmed.ncbi.nlm.nih.gov/37741057/",
+        "https://pubmed.ncbi.nlm.nih.gov/39455640/",
+        "local:data/content.generated.json#/pages/n-glycosylation"
+      ],
+      "requiredResolution": "Select organism, compartment, substrate/site, glycan structure, enzyme/pathway identifiers, analytical method, phenotype, and evidence; remove or substantiate metal dependence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -3125,55 +3235,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 475,
-      "id": "microglia",
-      "title": "Microglia",
-      "route": "/article/microglia",
+      "queuePosition": 481,
+      "id": "neurodegeneration",
+      "title": "Neurodegeneration and Metals",
+      "route": "/article/neurodegeneration",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 476,
-      "id": "mis-metallation",
-      "title": "Mis-Metallation",
-      "route": "/article/mis-metallation",
+      "queuePosition": 482,
+      "id": "neuroinflammation",
+      "title": "Neuroinflammation",
+      "route": "/article/neuroinflammation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 477,
-      "id": "mitochondrial-dysfunction",
-      "title": "Mitochondrial Dysfunction",
-      "route": "/article/mitochondrial-dysfunction",
+      "queuePosition": 483,
+      "id": "nf-kappa-b",
+      "title": "NF-kB Signaling Pathway",
+      "route": "/article/nf-kappa-b",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 478,
-      "id": "molecular-mimicry",
-      "title": "Molecular Mimicry",
-      "route": "/article/molecular-mimicry",
+      "queuePosition": 484,
+      "id": "nickel-allergy",
+      "title": "Nickel Allergy and Allergic Contact Dermatitis",
+      "route": "/article/nickel-allergy",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 479,
-      "id": "mycobiome",
-      "title": "Mycobiome",
-      "route": "/article/mycobiome",
+      "queuePosition": 485,
+      "id": "nickel-reproductive-toxicity",
+      "title": "Nickel and Reproductive/Developmental Toxicity",
+      "route": "/article/nickel-reproductive-toxicity",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 480,
-      "id": "n-glycosylation",
-      "title": "N-Glycosylation",
-      "route": "/article/n-glycosylation",
+      "queuePosition": 486,
+      "id": "nickel-neurotoxicity",
+      "title": "Nickel Neurotoxicity",
+      "route": "/article/nickel-neurotoxicity",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -13013,7 +13123,13 @@
       "route": "/article/microglia",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Heterogeneous context-dependent cell states are reduced to M1/M2 polarity and a universal metal-gut-brain neurodegeneration mediator.",
+        "requiredResolution": "Specify species, age, region, model, cell markers, state data, exposure dose/route/time, comparator, and measured function using current nomenclature."
+      }
     },
     {
       "queuePosition": 476,
@@ -13026,7 +13142,13 @@
       "route": "/article/mis-metallation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Protein metalation, ionic mimicry, transport competition, toxicology, host defense, exposure biomarkers, and proposed treatments are conflated.",
+        "requiredResolution": "Split by protein/accession, organism/compartment, cognate and competing species, site/stoichiometry, availability, assay, phenotype, and in-vivo evidence."
+      }
     },
     {
       "queuePosition": 477,
@@ -13039,7 +13161,13 @@
       "route": "/article/mitochondrial-dysfunction",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Many organelles, tissues, assays, toxicants, diseases, and cell-death mechanisms are presented as one measurable causal pathway.",
+        "requiredResolution": "Define tissue/cell/model, perturbation, dose/time, respiratory substrate and assay, membrane potential, redox/morphology/quality-control measures, comparator, and causal intervention."
+      }
     },
     {
       "queuePosition": 478,
@@ -13052,7 +13180,13 @@
       "route": "/article/molecular-mimicry",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "One established infection association and several proposed microbiome links are presented together as a primary causal mechanism without epitope-level proof.",
+        "requiredResolution": "Document foreign and self epitopes, structural/sequence similarity, HLA, cross-reactivity assay, cohort, epidemiology, model transfer, and alternatives for each example."
+      }
     },
     {
       "queuePosition": 479,
@@ -13065,7 +13199,13 @@
       "route": "/article/mycobiome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Body-site, transient, colonizing, pathogenic, and low-biomass fungal signals are merged with strong disease and functional claims.",
+        "requiredResolution": "Define body site, specimen, biomass controls, method, primers/database, absolute burden, viability/residency, taxon resolution, confounders, replication, and function."
+      }
     },
     {
       "queuePosition": 480,
@@ -13078,7 +13218,13 @@
       "route": "/article/n-glycosylation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Eukaryotic, bacterial, fungal, host-protein, microbial-protein, and glycome-association findings are conflated, including an unsupported metal-dependent enzyme claim.",
+        "requiredResolution": "Select organism, compartment, substrate/site, glycan structure, enzyme/pathway identifiers, analytical method, phenotype, and evidence; remove or substantiate metal dependence."
+      }
     },
     {
       "queuePosition": 481,
