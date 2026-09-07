@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "2478fee60e2ab507edbf559b3bf93931d500b4953c95d16d233782d2e83f2942",
+    "corpusSha256": "d6363b8bba7d9d00b9ea90d6b303426203d6e69f5527407b0dfce1850b33f195",
     "catalogSha256": "3750202ce01edab52a50e7bfee63cbd657b70fa455f69dc6a11eb683476a8b4e",
     "decisionsSha256": "df73eab659d3ce04e97676241d28b370bac4d713e5a37111dd769d4b83e06b2b",
     "publicArticles": 591,
-    "sourceRecords": 1939
+    "sourceRecords": 1940
   },
   "policy": {
     "minimumDirectSources": 3,
