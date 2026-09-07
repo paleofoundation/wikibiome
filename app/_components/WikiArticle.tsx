@@ -809,12 +809,12 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
 
           <div className="article-grid" id="article">
             <article className="article-body">
+              {media && <div className="article-mobile-media"><ArticleMediaFigure media={media} /></div>}
               <EditorialStatusNotice status={page.editorialStatus} />
               {schema.kind === "stop" && <aside className="template-notice caution"><span>Clinical caution record</span><p>This page preserves an evidence-linked caution from the WikiBiome corpus. It is educational context, not individualized medical advice.</p></aside>}
               {schema.kind === "analysis" && <aside className="template-notice synthesis"><span>Cross-record synthesis</span><p>This analysis connects evidence across multiple WikiBiome records; use the inline citations to inspect each underlying source.</p></aside>}
               {schema.kind === "intervention" && <aside className="template-notice intervention"><span>Intervention evidence</span><p>Mechanism, reported outcomes, limitations, and cautions are kept together so an intervention is not separated from its evidence boundaries.</p></aside>}
               <div className="lead-copy"><RichText text={page.overview ?? "This WikiBiome record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
-              {media && <div className="article-mobile-media"><ArticleMediaFigure media={media} /></div>}
               <EvidenceIntegrity evidence={evidence} />
               <ClaimProvenance evidence={evidence} />
               {!!contents.length && (

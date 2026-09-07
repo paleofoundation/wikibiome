@@ -395,7 +395,7 @@ test("server-renders real article and directory pages through the shared redesig
   const leadStart = article.indexOf('class="lead-copy"');
   const mobileMediaStart = article.indexOf('class="article-mobile-media"');
   const evidenceStart = article.indexOf('class="evidence-integrity"');
-  assert.ok(leadStart >= 0 && mobileMediaStart > leadStart && evidenceStart > mobileMediaStart, "responsive scientific media must follow the article lead instead of the full article body");
+  assert.ok(mobileMediaStart >= 0 && leadStart > mobileMediaStart && evidenceStart > leadStart, "responsive scientific media must appear before the article lead so it is discoverable in the first mobile viewport");
   const responsiveCss = readFileSync(new URL("../app/globals.css", import.meta.url), "utf8");
   assert.match(responsiveCss, /\.article-mobile-media \{ display:none; \}/);
   assert.match(responsiveCss, /@media \(max-width:900px\)[\s\S]*?\.article-mobile-media \{[^}]*display:block;[\s\S]*?\.article-aside \.article-media-figure,\.disease-aside \.article-media-figure \{ display:none; \}/);
@@ -5703,6 +5703,9 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   assert.match(html, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(html, /curli amyloid/i);
   assert.match(html, /The Copper Paradox: Brain Depletion, Peripheral Excess/);
+  const diseaseMobileMediaStart = html.indexOf('class="article-mobile-media"');
+  const diseaseLeadStart = html.indexOf('class="lead-copy disease-lead"');
+  assert.ok(diseaseMobileMediaStart >= 0 && diseaseLeadStart > diseaseMobileMediaStart, "disease media must also appear before the lead in the mobile document order");
   assert.doesNotMatch(html, /id="article-key-sources"/);
   assert.doesNotMatch(html, /<br\s*\/><br\s*\/>/);
   assert.match(html, /class="open-question-list"/);

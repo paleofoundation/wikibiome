@@ -303,9 +303,9 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
 
           <div className="article-grid disease-grid" id="overview">
             <article className="article-body disease-body">
+              {media && <div className="article-mobile-media"><ArticleMediaFigure media={media} /></div>}
               {editorialStatuses.map((status) => <EditorialStatusNotice status={status} key={status.group} />)}
               <div className="lead-copy disease-lead"><RichText text={page.overview ?? "This WikiBiome disease record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
-              {media && <div className="article-mobile-media"><ArticleMediaFigure media={media} /></div>}
               <EvidenceIntegrity evidence={evidence} />
               <ClaimProvenance evidence={evidence} />
 
