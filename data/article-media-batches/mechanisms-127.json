@@ -20,7 +20,7 @@
   },
   "controlReviewRequired": true,
   "initialAuditCommit": "6a695cf83a0b817813aa9920b74abafa3053fb32",
-  "promptFreezeCommit": "pending-separate-commit",
+  "promptFreezeCommit": "975fe248a970a17e164c55d78134050c90fa7317",
   "reviewStandard": "Six deterministic mechanism routes are audited against current controlled authorities. Exactly one independent call is permitted for each hash-frozen prompt. Every output remains review-only pending literal native-resolution structure accounting, prohibited-content and source-safe-field checks, exact hash, separate acceptance, metadata reconciliation, social crop review, and all release gates.",
   "routeDecisionCount": 6,
   "candidateCount": 6,
