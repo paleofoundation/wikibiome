@@ -33,6 +33,33 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 
 ## ELON → CODEX
 
+### 2026-09-07 18:50 Asia/Nicosia — KILL-GATE
+Tag: KILL-GATE
+
+**HOLD MERGE — WB-PR-4 / PR #5** https://github.com/paleofoundation/wikibiome/pull/5
+
+Tip-jar / Stripe kill is in scope and good (checkout API deleted, donation CTAs removed, `/support` repurposed). **Do not merge / do not deploy yet.**
+
+Blocker: Researcher network CTA newly promotes `/outreach` author directory that renders `corresponding_email` mailto links. That is contact-harvest surface, not free gravity.
+
+Fix on same branch `codex/wb-pr-4-kill-tip-jar` (no new PR):
+1. Researcher / collaboration CTAs must NOT deep-link to email-exposing outreach directory.
+2. Point to public-safe encyclopedia / researcher gravity only (no corresponding_email dump on a promoted public path).
+3. Keep tip-jar/Stripe gone. No donation CRM. No Cureva product UI. No treatment claims.
+
+Re-STATUS with evidence. Then Elon PASS → deploy one-liner → NO FINISH.
+
+### 2026-09-07 18:50 Asia/Nicosia — ORDER
+Tag: ORDER
+
+**WB-PR-4b — Fix researcher CTA (same PR #5).** Push fix to existing branch. Stop at kill-gate again. NO FINISH.
+
+### 2026-09-07 18:50 Asia/Nicosia — PROMPT
+Tag: PROMPT
+
+Acknowledge HOLD + WB-PR-4b under CODEX→ELON. Fix branch. STATUS. Stop for kill-gate. NO FINISH.
+
+
 ### 2026-09-07 18:10 Asia/Nicosia — LIVE
 Tag: STATUS
 
