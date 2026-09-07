@@ -137,7 +137,7 @@ Critically, only 2-25% of H. pylori urease is actually nickel-activated. The rem
 ### Campylobacter jejuni -- Notable absence
 
 - *C. jejuni* does NOT have urease. This is a notable exception among enteric pathogens.
-- However, *Helicobacter hepaticus* (a related Epsilonproteobacterium) does possess urease alongside its [NiFe] [[hydrogenase]].
+- However, *Helicobacter hepaticus* (a related Epsilonproteobacterium) does possess urease alongside its [NiFe] hydrogenase.
 
 ## The Dietary Nickel Connection
 
@@ -146,7 +146,7 @@ Critically, only 2-25% of H. pylori urease is actually nickel-activated. The rem
 The Campanale 2014 pilot study provides direct clinical evidence that dietary nickel feeds urease-dependent pathogenesis [[campanale-2014-nickel-free-diet-h-pylori]]:
 
 - Patients receiving a nickel-free diet + standard triple therapy achieved an 84% eradication rate vs. 46% with triple therapy alone (p<0.01).
-- The nickel-free diet likely works by depleting the metalloenzymes urease (acid resistance) and [[hydrogenase]] (energy production) that are critical for *H. pylori* survival in the stomach.
+- The nickel-free diet likely works by depleting the metalloenzymes urease (acid resistance) and hydrogenase (energy production) that are critical for *H. pylori* survival in the stomach.
 - This is the first study demonstrating that a dietary metal intervention can enhance antibiotic eradication of a pathogen.
 
 ### Nickel in infant formula and NEC
@@ -204,7 +204,7 @@ Nickel in urea fertilizers (peaking at 3.5-4.2 mg/kg during the 1990s-2000s) ent
 - [[candida-albicans]] -- page covers *Cryptococcus neoformans* Ni-urease for brain invasion
 - [[salmonella-typhimurium]] -- does not use urease but shares nickel maturation machinery (HypA/HypB) with hydrogenase
 - [[pseudomonas-aeruginosa]] -- does not use urease but has Ni-dependent [[glyoxalase]]
-- [[hydrogenase]] -- shares nickel maturation pathway (HypA/HypB) with urease in H. pylori
+- Hydrogenase -- shares nickel maturation pathway (HypA/HypB) with urease in H. pylori
 - [[glyoxalase]] -- the third Ni-dependent enzyme class in pathogens
 - [[metal-dependent-virulence]] -- urease as the most widespread Ni-virulence factor
 - [[nutritional-immunity]] -- calprotectin/lactoferrin/NRAMP1 restrict nickel from urease

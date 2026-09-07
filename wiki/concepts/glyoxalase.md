@@ -153,7 +153,7 @@ This breadth of potential targets makes Ni-GloI inhibitor development an attract
 
 ### Nickel ties GloI to the broader urease/hydrogenase story
 
-GloI extends the nickel-pathogen narrative beyond the well-characterized [[urease]] and [[hydrogenase]] systems. While urease and hydrogenase have obvious virulence phenotypes (acid survival, energy generation, CagA translocation), GloI represents a more subtle dependency: metabolic housekeeping that enables sustained pathogen growth.
+GloI extends the nickel-pathogen narrative beyond the well-characterized [[urease]] and hydrogenase systems. While urease and hydrogenase have obvious virulence phenotypes (acid survival, energy generation, CagA translocation), GloI represents a more subtle dependency: metabolic housekeeping that enables sustained pathogen growth.
 
 A pathogen colonizing a host needs all three:
 1. Urease to survive acid stress.
@@ -179,7 +179,7 @@ The host-vs-pathogen metal selectivity of GloI is a striking example of what mig
 - [[salmonella-typhimurium]] -- predicted Ni-GloI across all Enterobacteriaceae
 - [[proteus-mirabilis]] -- predicted Ni-GloI
 - [[urease]] -- the most widespread Ni-enzyme; GloI adds a third dimension to nickel-dependent virulence
-- [[hydrogenase]] -- the second Ni-enzyme; GloI completes the triad
+- Hydrogenase -- the second Ni-enzyme; GloI completes the triad
 - [[metal-dependent-virulence]] -- GloI as the third Ni-virulence factor class
 - [[mis-metallation]] -- divergent metallation of GloI (Ni in pathogens vs. Zn in host) exemplifies metal-dependent enzyme evolution
 - [[nutritional-immunity]] -- nickel sequestration by calprotectin/lactoferrin would inhibit pathogen GloI alongside urease and hydrogenase

@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T06:24:21.839Z",
+  "_generated": "2026-09-07T06:31:08.565Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -12412,7 +12412,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[hydrogenase]] -- [NiFe] hydrogenase essential for chicken colonization\n- Urease -- notably absent; contrasts with H. pylori\n- [[nickel]] -- essential cofactor for hydrogenase\n- [[iron]] -- acquired via siderophore piracy and dedicated transporters\n- [[metal-dependent-virulence]] -- hydrogenase-only Ni-dependent virulence model\n- [[helicobacter-pylori]] -- closely related but with very different Ni-enzyme complement\n- [[gut-metal-microbiome]] -- H2 availability in the gut lumen enables hydrogenase function\n- [[nutritional-immunity]] -- host iron restriction limits C. jejuni colonization"
+          "body": "- Hydrogenase -- [NiFe] hydrogenase essential for chicken colonization\n- Urease -- notably absent; contrasts with H. pylori\n- [[nickel]] -- essential cofactor for hydrogenase\n- [[iron]] -- acquired via siderophore piracy and dedicated transporters\n- [[metal-dependent-virulence]] -- hydrogenase-only Ni-dependent virulence model\n- [[helicobacter-pylori]] -- closely related but with very different Ni-enzyme complement\n- [[gut-metal-microbiome]] -- H2 availability in the gut lumen enables hydrogenase function\n- [[nutritional-immunity]] -- host iron restriction limits C. jejuni colonization"
         }
       ],
       "wikilinks": [
@@ -29934,7 +29934,7 @@
         {
           "heading": "Step 1: Nickel Enables Colonization",
           "level": 3,
-          "body": "H. pylori cannot survive gastric acid without two nickel-dependent enzymes:\n- [[urease|Urease]] -- a Ni-containing enzyme that hydrolyzes urea to ammonia + CO2, locally neutralizing gastric acid. Contains 24 nickel ions per holoenzyme. Without nickel, urease is inactive and H. pylori cannot colonize.\n- [Ni-Fe] [[hydrogenase]] -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density."
+          "body": "H. pylori cannot survive gastric acid without two nickel-dependent enzymes:\n- [[urease|Urease]] -- a Ni-containing enzyme that hydrolyzes urea to ammonia + CO2, locally neutralizing gastric acid. Contains 24 nickel ions per holoenzyme. Without nickel, urease is inactive and H. pylori cannot colonize.\n- [Ni-Fe] hydrogenase -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density."
         },
         {
           "heading": "Step 2: Nickel Powers Virulence",
@@ -29989,7 +29989,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[helicobacter-pylori]] -- the causative organism; nickel-dependent urease and hydrogenase power colonization and CagA delivery\n- [[nickel]] -- essential cofactor for H. pylori urease and [Ni-Fe] hydrogenase; dietary nickel fuels virulence\n- [[hydrogenase]] -- nickel-dependent energy enzyme enabling full colonization density\n- [[cadmium]] -- IARC Group 1 carcinogen targeting gastric mucosa; synergizes with H. pylori inflammation\n- [[iron]] -- H. pylori sequesters host iron; iron deficiency from chronic gastritis paradoxically promotes proliferation\n- [[lead]] -- associated with gastric cancer risk in occupational cohorts; inhibits DNA repair\n- [[selenium]] -- deficiency associates with gastric cancer risk; antioxidant defense via glutathione peroxidase\n- [[inflammation]] -- chronic NF-kB-driven inflammation powers the Correa cascade from gastritis to adenocarcinoma\n- [[oxidative-stress]] -- metal-induced and infection-driven ROS as central mutagenic mechanism\n- [[DNA-damage]] -- the molecular basis of carcinogenic transformation from H. pylori and metal exposure\n- [[metal-carcinogenesis]] -- gastric cancer exemplifies the metal-infection-cancer triad\n- [[dietary-nickel-exposure]] -- dietary nickel as substrate for H. pylori metalloenzymes in infected individuals\n- [[probiotics]] -- Lactobacillus supplementation during H. pylori eradication improves outcomes\n- [[pharmacomicrobiomics]] -- H. pylori eradication therapy reshapes the gastric and intestinal microbiome\n- [[colorectal-cancer]] -- shared metal-carcinogenesis pathways and microbiome-driven inflammation"
+          "body": "- [[helicobacter-pylori]] -- the causative organism; nickel-dependent urease and hydrogenase power colonization and CagA delivery\n- [[nickel]] -- essential cofactor for H. pylori urease and [Ni-Fe] hydrogenase; dietary nickel fuels virulence\n- Hydrogenase -- nickel-dependent energy enzyme enabling full colonization density\n- [[cadmium]] -- IARC Group 1 carcinogen targeting gastric mucosa; synergizes with H. pylori inflammation\n- [[iron]] -- H. pylori sequesters host iron; iron deficiency from chronic gastritis paradoxically promotes proliferation\n- [[lead]] -- associated with gastric cancer risk in occupational cohorts; inhibits DNA repair\n- [[selenium]] -- deficiency associates with gastric cancer risk; antioxidant defense via glutathione peroxidase\n- [[inflammation]] -- chronic NF-kB-driven inflammation powers the Correa cascade from gastritis to adenocarcinoma\n- [[oxidative-stress]] -- metal-induced and infection-driven ROS as central mutagenic mechanism\n- [[DNA-damage]] -- the molecular basis of carcinogenic transformation from H. pylori and metal exposure\n- [[metal-carcinogenesis]] -- gastric cancer exemplifies the metal-infection-cancer triad\n- [[dietary-nickel-exposure]] -- dietary nickel as substrate for H. pylori metalloenzymes in infected individuals\n- [[probiotics]] -- Lactobacillus supplementation during H. pylori eradication improves outcomes\n- [[pharmacomicrobiomics]] -- H. pylori eradication therapy reshapes the gastric and intestinal microbiome\n- [[colorectal-cancer]] -- shared metal-carcinogenesis pathways and microbiome-driven inflammation"
         }
       ],
       "wikilinks": [
@@ -61410,7 +61410,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[hydrogenase]] -- [NiFe] Hya/Hyb for phagolysosomal acid survival\n- [[glyoxalase]] -- predicted Ni-GloI for metabolic stress detoxification\n- [[nickel]] -- essential cofactor for hydrogenase maturation\n- [[iron]] -- acquired via aerobactin and enterobactin\n- [[metal-dependent-virulence]] -- intracellular acid survival via Ni-hydrogenase\n- [[nutritional-immunity]] -- host iron restriction at mucosal surfaces\n- [[salmonella-typhimurium]] -- another intracellular Enterobacteriaceae using hydrogenase for macrophage survival\n- [[escherichia-coli]] -- closely related; shares Ni-enzyme complement\n- [[gut-metal-microbiome]] -- metal-driven Enterobacteriaceae enrichment in endemic settings"
+          "body": "- Hydrogenase -- [NiFe] Hya/Hyb for phagolysosomal acid survival\n- [[glyoxalase]] -- predicted Ni-GloI for metabolic stress detoxification\n- [[nickel]] -- essential cofactor for hydrogenase maturation\n- [[iron]] -- acquired via aerobactin and enterobactin\n- [[metal-dependent-virulence]] -- intracellular acid survival via Ni-hydrogenase\n- [[nutritional-immunity]] -- host iron restriction at mucosal surfaces\n- [[salmonella-typhimurium]] -- another intracellular Enterobacteriaceae using hydrogenase for macrophage survival\n- [[escherichia-coli]] -- closely related; shares Ni-enzyme complement\n- [[gut-metal-microbiome]] -- metal-driven Enterobacteriaceae enrichment in endemic settings"
         }
       ],
       "wikilinks": [
@@ -75339,7 +75339,7 @@
         {
           "heading": "Related pages",
           "level": 2,
-          "body": "- [[helicobacter-pylori]]\n- [[gastric-cancer]]\n- [[gastric-adenocarcinoma]]\n- [[gastric-ulcer]]\n- [[virulence-factors]]\n- [[hydrogenase]]\n- [[nickel]]\n- [[nickel-transporters]]\n- [[metal-dependent-virulence]]\n- [[tight-junctions]]\n- [[gerd]]\n- [[hashimotos-thyroiditis]]"
+          "body": "- [[helicobacter-pylori]]\n- [[gastric-cancer]]\n- [[gastric-adenocarcinoma]]\n- [[gastric-ulcer]]\n- [[virulence-factors]]\n- Hydrogenase\n- [[nickel]]\n- [[nickel-transporters]]\n- [[metal-dependent-virulence]]\n- [[tight-junctions]]\n- [[gerd]]\n- [[hashimotos-thyroiditis]]"
         }
       ],
       "wikilinks": [
@@ -86338,7 +86338,7 @@
         {
           "heading": "Nickel ties GloI to the broader urease/hydrogenase story",
           "level": 3,
-          "body": "GloI extends the nickel-pathogen narrative beyond the well-characterized [[urease]] and [[hydrogenase]] systems. While urease and hydrogenase have obvious virulence phenotypes (acid survival, energy generation, CagA translocation), GloI represents a more subtle dependency: metabolic housekeeping that enables sustained pathogen growth.\n\nA pathogen colonizing a host needs all three:\n1. Urease to survive acid stress.\n2. Hydrogenase to generate energy from H2.\n3. GloI to detoxify the methylglyoxal produced by its own glycolysis.\n\nAll three require nickel. This means nickel restriction (dietary, chelation-based, or host-mediated) potentially disables three independent virulence/survival pathways simultaneously."
+          "body": "GloI extends the nickel-pathogen narrative beyond the well-characterized [[urease]] and hydrogenase systems. While urease and hydrogenase have obvious virulence phenotypes (acid survival, energy generation, CagA translocation), GloI represents a more subtle dependency: metabolic housekeeping that enables sustained pathogen growth.\n\nA pathogen colonizing a host needs all three:\n1. Urease to survive acid stress.\n2. Hydrogenase to generate energy from H2.\n3. GloI to detoxify the methylglyoxal produced by its own glycolysis.\n\nAll three require nickel. This means nickel restriction (dietary, chelation-based, or host-mediated) potentially disables three independent virulence/survival pathways simultaneously."
         },
         {
           "heading": "Mis-metallation in reverse",
@@ -86348,7 +86348,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[nickel]] -- essential cofactor for the pathogen GloI active site\n- [[zinc]] -- cofactor for the human GloI; the Ni-vs-Zn selectivity is key to therapeutic potential\n- [[pseudomonas-aeruginosa]] -- key model for bacterial Ni-GloI\n- [[escherichia-coli]] -- GlxI confirmed Ni-dependent; NEC-associated metabolic stress survival\n- [[salmonella-typhimurium]] -- predicted Ni-GloI across all Enterobacteriaceae\n- [[proteus-mirabilis]] -- predicted Ni-GloI\n- [[urease]] -- the most widespread Ni-enzyme; GloI adds a third dimension to nickel-dependent virulence\n- [[hydrogenase]] -- the second Ni-enzyme; GloI completes the triad\n- [[metal-dependent-virulence]] -- GloI as the third Ni-virulence factor class\n- [[mis-metallation]] -- divergent metallation of GloI (Ni in pathogens vs. Zn in host) exemplifies metal-dependent enzyme evolution\n- [[nutritional-immunity]] -- nickel sequestration by calprotectin/lactoferrin would inhibit pathogen GloI alongside urease and hydrogenase\n- [[pathogen-metal-acquisition]] -- nickel transport systems feed GloI metalation"
+          "body": "- [[nickel]] -- essential cofactor for the pathogen GloI active site\n- [[zinc]] -- cofactor for the human GloI; the Ni-vs-Zn selectivity is key to therapeutic potential\n- [[pseudomonas-aeruginosa]] -- key model for bacterial Ni-GloI\n- [[escherichia-coli]] -- GlxI confirmed Ni-dependent; NEC-associated metabolic stress survival\n- [[salmonella-typhimurium]] -- predicted Ni-GloI across all Enterobacteriaceae\n- [[proteus-mirabilis]] -- predicted Ni-GloI\n- [[urease]] -- the most widespread Ni-enzyme; GloI adds a third dimension to nickel-dependent virulence\n- Hydrogenase -- the second Ni-enzyme; GloI completes the triad\n- [[metal-dependent-virulence]] -- GloI as the third Ni-virulence factor class\n- [[mis-metallation]] -- divergent metallation of GloI (Ni in pathogens vs. Zn in host) exemplifies metal-dependent enzyme evolution\n- [[nutritional-immunity]] -- nickel sequestration by calprotectin/lactoferrin would inhibit pathogen GloI alongside urease and hydrogenase\n- [[pathogen-metal-acquisition]] -- nickel transport systems feed GloI metalation"
         }
       ],
       "wikilinks": [
@@ -99498,7 +99498,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[labile-metal-pool]] -- metallochaperones bypass the labile pool for safe delivery\n- [[irving-williams-series]] -- explains why strong-binding metals need chaperone delivery\n- [[mis-metallation]] -- chaperone failure enables mis-metallation\n- [[nutritional-immunity]] -- metal restriction increases dependence on chaperone efficiency\n- [[metal-homeostasis]] -- chaperones are a core component of metallostasis\n- [[urease]] -- requires UreE chaperone for nickel loading\n- [[hydrogenase]] -- requires HypA/HypB for nickel insertion\n- [[copper]] -- most chaperone-dependent metal in biology"
+          "body": "- [[labile-metal-pool]] -- metallochaperones bypass the labile pool for safe delivery\n- [[irving-williams-series]] -- explains why strong-binding metals need chaperone delivery\n- [[mis-metallation]] -- chaperone failure enables mis-metallation\n- [[nutritional-immunity]] -- metal restriction increases dependence on chaperone efficiency\n- [[metal-homeostasis]] -- chaperones are a core component of metallostasis\n- [[urease]] -- requires UreE chaperone for nickel loading\n- Hydrogenase -- requires HypA/HypB for nickel insertion\n- [[copper]] -- most chaperone-dependent metal in biology"
         }
       ],
       "wikilinks": [
@@ -116854,7 +116854,7 @@
         {
           "heading": "Campylobacter jejuni -- Notable absence",
           "level": 3,
-          "body": "- *C. jejuni* does NOT have urease. This is a notable exception among enteric pathogens.\n- However, *Helicobacter hepaticus* (a related Epsilonproteobacterium) does possess urease alongside its [NiFe] [[hydrogenase]]."
+          "body": "- *C. jejuni* does NOT have urease. This is a notable exception among enteric pathogens.\n- However, *Helicobacter hepaticus* (a related Epsilonproteobacterium) does possess urease alongside its [NiFe] hydrogenase."
         },
         {
           "heading": "The Dietary Nickel Connection",
@@ -116864,7 +116864,7 @@
         {
           "heading": "Clinical evidence: nickel-free diet enhances H. pylori eradication",
           "level": 3,
-          "body": "The Campanale 2014 pilot study provides direct clinical evidence that dietary nickel feeds urease-dependent pathogenesis [[campanale-2014-nickel-free-diet-h-pylori]]:\n\n- Patients receiving a nickel-free diet + standard triple therapy achieved an 84% eradication rate vs. 46% with triple therapy alone (p<0.01).\n- The nickel-free diet likely works by depleting the metalloenzymes urease (acid resistance) and [[hydrogenase]] (energy production) that are critical for *H. pylori* survival in the stomach.\n- This is the first study demonstrating that a dietary metal intervention can enhance antibiotic eradication of a pathogen."
+          "body": "The Campanale 2014 pilot study provides direct clinical evidence that dietary nickel feeds urease-dependent pathogenesis [[campanale-2014-nickel-free-diet-h-pylori]]:\n\n- Patients receiving a nickel-free diet + standard triple therapy achieved an 84% eradication rate vs. 46% with triple therapy alone (p<0.01).\n- The nickel-free diet likely works by depleting the metalloenzymes urease (acid resistance) and hydrogenase (energy production) that are critical for *H. pylori* survival in the stomach.\n- This is the first study demonstrating that a dietary metal intervention can enhance antibiotic eradication of a pathogen."
         },
         {
           "heading": "Nickel in infant formula and NEC",
@@ -116909,7 +116909,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[nickel]] -- essential cofactor; the urease-nickel axis is the most clinically significant nickel-pathogen interaction\n- [[helicobacter-pylori]] -- the paradigmatic urease-dependent pathogen; up to 10% of proteome\n- [[staphylococcus-aureus]] -- urease for skin/biofilm/kidney colonization\n- [[proteus-mirabilis]] -- urease-driven crystalline biofilm and struvite stones\n- [[escherichia-coli]] -- STEC acid survival; NEC-associated urease activity\n- [[candida-albicans]] -- page covers *Cryptococcus neoformans* Ni-urease for brain invasion\n- [[salmonella-typhimurium]] -- does not use urease but shares nickel maturation machinery (HypA/HypB) with hydrogenase\n- [[pseudomonas-aeruginosa]] -- does not use urease but has Ni-dependent [[glyoxalase]]\n- [[hydrogenase]] -- shares nickel maturation pathway (HypA/HypB) with urease in H. pylori\n- [[glyoxalase]] -- the third Ni-dependent enzyme class in pathogens\n- [[metal-dependent-virulence]] -- urease as the most widespread Ni-virulence factor\n- [[nutritional-immunity]] -- calprotectin/lactoferrin/NRAMP1 restrict nickel from urease\n- [[dietary-nickel-exposure]] -- dietary nickel feeds urease-positive pathogens\n- [[nickel-allergy]] -- nickel-free diet (used for allergy management) also enhances H. pylori eradication\n- [[inter-kingdom-metal-shielding]] -- biofilm communities modulate nickel access to urease\n- [[pathogen-metal-acquisition]] -- nickel transport systems that feed urease metalation\n- [[gut-metal-microbiome]] -- urease-driven pH shift reshapes gut microbial communities"
+          "body": "- [[nickel]] -- essential cofactor; the urease-nickel axis is the most clinically significant nickel-pathogen interaction\n- [[helicobacter-pylori]] -- the paradigmatic urease-dependent pathogen; up to 10% of proteome\n- [[staphylococcus-aureus]] -- urease for skin/biofilm/kidney colonization\n- [[proteus-mirabilis]] -- urease-driven crystalline biofilm and struvite stones\n- [[escherichia-coli]] -- STEC acid survival; NEC-associated urease activity\n- [[candida-albicans]] -- page covers *Cryptococcus neoformans* Ni-urease for brain invasion\n- [[salmonella-typhimurium]] -- does not use urease but shares nickel maturation machinery (HypA/HypB) with hydrogenase\n- [[pseudomonas-aeruginosa]] -- does not use urease but has Ni-dependent [[glyoxalase]]\n- Hydrogenase -- shares nickel maturation pathway (HypA/HypB) with urease in H. pylori\n- [[glyoxalase]] -- the third Ni-dependent enzyme class in pathogens\n- [[metal-dependent-virulence]] -- urease as the most widespread Ni-virulence factor\n- [[nutritional-immunity]] -- calprotectin/lactoferrin/NRAMP1 restrict nickel from urease\n- [[dietary-nickel-exposure]] -- dietary nickel feeds urease-positive pathogens\n- [[nickel-allergy]] -- nickel-free diet (used for allergy management) also enhances H. pylori eradication\n- [[inter-kingdom-metal-shielding]] -- biofilm communities modulate nickel access to urease\n- [[pathogen-metal-acquisition]] -- nickel transport systems that feed urease metalation\n- [[gut-metal-microbiome]] -- urease-driven pH shift reshapes gut microbial communities"
         }
       ],
       "wikilinks": [

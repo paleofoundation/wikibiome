@@ -64,7 +64,7 @@ The leading bacterial cause of diarrheal disease worldwide, with an estimated 40
 
 ## Connections
 
-- [[hydrogenase]] -- [NiFe] hydrogenase essential for chicken colonization
+- Hydrogenase -- [NiFe] hydrogenase essential for chicken colonization
 - Urease -- notably absent; contrasts with H. pylori
 - [[nickel]] -- essential cofactor for hydrogenase
 - [[iron]] -- acquired via siderophore piracy and dedicated transporters

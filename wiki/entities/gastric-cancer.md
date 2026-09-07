@@ -27,7 +27,7 @@ The fifth most common cancer worldwide and third leading cause of cancer death, 
 ### Step 1: Nickel Enables Colonization
 H. pylori cannot survive gastric acid without two nickel-dependent enzymes:
 - [[urease|Urease]] -- a Ni-containing enzyme that hydrolyzes urea to ammonia + CO2, locally neutralizing gastric acid. Contains 24 nickel ions per holoenzyme. Without nickel, urease is inactive and H. pylori cannot colonize.
-- [Ni-Fe] [[hydrogenase]] -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density.
+- [Ni-Fe] hydrogenase -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density.
 
 ### Step 2: Nickel Powers Virulence
 The CagA oncoprotein translocation depends on the energy derived from nickel metalloenzymes:
@@ -98,7 +98,7 @@ H. pylori dominates the gastric microbiome in infected individuals but is not al
 
 - [[helicobacter-pylori]] -- the causative organism; nickel-dependent urease and hydrogenase power colonization and CagA delivery
 - [[nickel]] -- essential cofactor for H. pylori urease and [Ni-Fe] hydrogenase; dietary nickel fuels virulence
-- [[hydrogenase]] -- nickel-dependent energy enzyme enabling full colonization density
+- Hydrogenase -- nickel-dependent energy enzyme enabling full colonization density
 - [[cadmium]] -- IARC Group 1 carcinogen targeting gastric mucosa; synergizes with H. pylori inflammation
 - [[iron]] -- H. pylori sequesters host iron; iron deficiency from chronic gastritis paradoxically promotes proliferation
 - [[lead]] -- associated with gastric cancer risk in occupational cohorts; inhibits DNA repair

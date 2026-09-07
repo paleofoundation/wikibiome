@@ -63,7 +63,7 @@ A Gram-negative intracellular pathogen causing bacillary dysentery (shigellosis)
 
 ## Connections
 
-- [[hydrogenase]] -- [NiFe] Hya/Hyb for phagolysosomal acid survival
+- Hydrogenase -- [NiFe] Hya/Hyb for phagolysosomal acid survival
 - [[glyoxalase]] -- predicted Ni-GloI for metabolic stress detoxification
 - [[nickel]] -- essential cofactor for hydrogenase maturation
 - [[iron]] -- acquired via aerobactin and enterobactin

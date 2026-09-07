@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "b29eadcc2f530c290523f153777da84ae902a8aac31c1aca517396d6e0162333",
+    "corpusSha256": "2938aa41ec17ae60504d533fe98105cd485de689ece3a61d36d23de4a0b914c6",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
     "decisionsSha256": "4f1aea11dc4f104b98c6168fa2b564d074bd2729acdff4ed048e83765e546332",
     "publicArticles": 592,
@@ -26710,7 +26710,7 @@
       },
       "metrics": {
         "distinctArticles": 52,
-        "totalPlainMentions": 130,
+        "totalPlainMentions": 141,
         "linkedArticles": 51,
         "unlinkedArticles": 1,
         "linkCoveragePercent": 98,
