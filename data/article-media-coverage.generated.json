@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "83937709f0955fab1ce73acb6443c49a220e2cc784f67644dbda1da3b13268ef",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "31c8396284dc76893dfd53ec85021b79b26e9f1422eca3d40ce2fac006e57457",
+    "reviewLogSha256": "089f61cb22795e73c28a57fc82b317a2b293b38c875aa4b0aaa0be19c401b1a3",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -303,8 +303,8 @@
       {
         "file": "data/article-media-batches/mechanisms-094.json",
         "batchId": "mechanisms-094",
-        "status": "prompt-frozen",
-        "sha256": "d7b1114d10dbe3e2fe287ec21d46a7693aaf7cc3e29a76c23d174832069266f8"
+        "status": "reviewing",
+        "sha256": "4a2f64c95cf3875dfcdbce3a25aecc2e2c3071649849c7038dc41bb068515d55"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -598,9 +598,9 @@
     "total": 710,
     "completed": 364,
     "remaining": 346,
-    "rejected": 194,
+    "rejected": 197,
     "revised": 12,
-    "scientificHolds": 139,
+    "scientificHolds": 142,
     "inReview": 0
   },
   "categories": [
@@ -4097,6 +4097,53 @@
       ],
       "requiredResolution": "Specify species, exact transcript/protein isoform, domain/full-length state, membrane context, partner and ligand composition, activation state, structure accession, and depicted claim boundary.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "tnf-alpha",
+      "controlledIdentifier": "NCBI-Gene:7124;UniProt:P01375;multiple-processed-and-oligomeric-states",
+      "batchId": "mechanisms-094",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route spans membrane precursor, cleaved soluble TNF, receptor interactions, cell sources, and disease contexts without selecting one processed state, oligomeric state, receptor complex, structure accession, tissue, or assay.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/gene/7124",
+        "https://www.uniprot.org/uniprotkb/P01375/entry",
+        "local:data/content.generated.json#/pages/tnf-alpha"
+      ],
+      "requiredResolution": "Specify membrane or soluble processed form, sequence range, oligomeric or receptor-bound state, species, structure accession or explicitly non-structural representation boundary, compartment, tissue, assay, and claim scope.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "toll-like-receptors",
+      "controlledIdentifier": "MeSH:D051193;human-family-TLR1-through-TLR10",
+      "batchId": "mechanisms-094",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route is a family umbrella combining ten human receptors across surface and endolysosomal compartments with different ligands, partners, and active complexes; MeSH explicitly prefers specific members.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051193",
+        "https://www.ncbi.nlm.nih.gov/books/NBK459455/",
+        "local:data/content.generated.json#/pages/toll-like-receptors"
+      ],
+      "requiredResolution": "Choose an exact receptor or approve a family-atlas specification defining every included member, compartment, ligand, partner, active state, structure source, and depiction boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "tryptophan-metabolism",
+      "controlledIdentifier": "multi-pathway-host-and-microbial-network;related-MeSH:D014364",
+      "batchId": "mechanisms-094",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines host kynurenine, serotonin, and microbial indole pathways across multiple enzymes, cofactors, organisms, compartments, products, and disease contexts rather than one controlled physical subject.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014364",
+        "local:data/content.generated.json#/pages/tryptophan-metabolism"
+      ],
+      "requiredResolution": "Define one pathway, organism and tissue, reaction sequence, enzyme and metabolite set, compartment, specimen or model, evidence tier, and measured-versus-orientation boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -4251,24 +4298,6 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 541,
-      "id": "tnf-alpha",
-      "title": "TNF-alpha (Tumor Necrosis Factor Alpha)",
-      "route": "/article/tnf-alpha",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
-    },
-    {
-      "queuePosition": 542,
-      "id": "toll-like-receptors",
-      "title": "Toll-Like Receptors",
-      "route": "/article/toll-like-receptors",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
-    },
-    {
       "queuePosition": 543,
       "id": "tmao",
       "title": "Trimethylamine N-Oxide (TMAO)",
@@ -4296,10 +4325,28 @@
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 546,
-      "id": "tryptophan-metabolism",
-      "title": "Tryptophan Metabolism",
-      "route": "/article/tryptophan-metabolism",
+      "queuePosition": 547,
+      "id": "urease",
+      "title": "Urease",
+      "route": "/article/urease",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 548,
+      "id": "uremic-toxins",
+      "title": "Uremic Toxins",
+      "route": "/article/uremic-toxins",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 549,
+      "id": "ursodeoxycholic-acid",
+      "title": "Ursodeoxycholic Acid (UDCA)",
+      "route": "/article/ursodeoxycholic-acid",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -15397,7 +15444,13 @@
       "route": "/article/tnf-alpha",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route spans membrane precursor, cleaved soluble TNF, receptor interactions, cell sources, and disease contexts without selecting one processed state, oligomeric state, receptor complex, structure accession, tissue, or assay.",
+        "requiredResolution": "Specify membrane or soluble processed form, sequence range, oligomeric or receptor-bound state, species, structure accession or explicitly non-structural representation boundary, compartment, tissue, assay, and claim scope."
+      }
     },
     {
       "queuePosition": 542,
@@ -15410,7 +15463,13 @@
       "route": "/article/toll-like-receptors",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route is a family umbrella combining ten human receptors across surface and endolysosomal compartments with different ligands, partners, and active complexes; MeSH explicitly prefers specific members.",
+        "requiredResolution": "Choose an exact receptor or approve a family-atlas specification defining every included member, compartment, ligand, partner, active state, structure source, and depiction boundary."
+      }
     },
     {
       "queuePosition": 543,
@@ -15462,7 +15521,13 @@
       "route": "/article/tryptophan-metabolism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route combines host kynurenine, serotonin, and microbial indole pathways across multiple enzymes, cofactors, organisms, compartments, products, and disease contexts rather than one controlled physical subject.",
+        "requiredResolution": "Define one pathway, organism and tissue, reaction sequence, enzyme and metabolite set, compartment, specimen or model, evidence tier, and measured-versus-orientation boundary."
+      }
     },
     {
       "queuePosition": 547,
