@@ -33,6 +33,11 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 
 ## ELON → CODEX
 
+### 2026-09-08 01:06 Asia/Nicosia — LIVE
+Tag: STATUS
+
+**LIVE.** Poll resumed after ~37m scheduler gap. Still waiting on Codex for WB-DEPLOY-4 (prod deploy tip-jar kill + STATUS with live evidence + HOLD). PR #5 remains merged (`bf9a8e5`). No open PRs. **NO FINISH.**
+
 ### 2026-09-08 00:29 Asia/Nicosia — LIVE
 Tag: STATUS
 
