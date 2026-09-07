@@ -1,6 +1,27 @@
 {
   "schemaVersion": 1,
   "jobs": {
+    "create_page:interleukin-22": {
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "path": "wiki/concepts/interleukin-22.md",
+      "validatedSourceCount": 7,
+      "rationale": "Highest-scoring remaining creation candidate; seven complementary vault sources support IL-22's immune-cell origin, epithelial barrier role, microbiome-linked AhR and SCFA pathways, context-dependent inflammatory effects, and positive and null human associations."
+    },
+    "backfill_links:interleukin-22": {
+      "state": "queued",
+      "rationale": "The new Interleukin-22 page resolves a recurring mucosal immune signal across metabolite, barrier, fungal, cytokine, diet, and organism contexts. The Clostridium symbiosum mention remains queued for claim-level review because it attributes IL-22 production to colonocytes rather than immune cells acting on epithelium.",
+      "batches": [
+        {
+          "id": "2026-09-07-core-interleukin-22-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": ["tryptophan-metabolism", "necrotizing-enterocolitis", "indoles", "ahr", "mycobiome", "immune-balance", "bacteroides-vulgatus", "tryptophan", "bacteroides-thetaiotaomicron", "prevotella-copri", "th17-treg-balance", "debaryomyces", "infant-exposure", "peptostreptococcus-stomatis", "ruminococcus-gnavus", "indole", "ketone-bodies"]
+        }
+      ]
+    },
     "create_page:caga": {
       "state": "promoted",
       "reviewedAt": "2026-09-07",

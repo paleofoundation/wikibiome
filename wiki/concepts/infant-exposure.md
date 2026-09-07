@@ -85,7 +85,7 @@ Early-life metal exposure is linked to later disease risk:
 The WikiBiome perspective emphasizes that protection involves both reducing exposure and supporting the infant's ecological defenses:
 
 - Breastfeeding: Lactoferrin chelates iron, HMOs feed Bifidobacterium, creating a self-reinforcing protective ecosystem.
-- Maternal AhR activation: Maternal intake of cruciferous vegetables provides indole-3-carbinol, which activates the [[ahr]] in neonatal intestinal epithelium via breast milk, promoting barrier maturation and IL-22 production [[necrotizing-enterocolitis]].
+- Maternal AhR activation: Maternal intake of cruciferous vegetables provides indole-3-carbinol, which activates the [[ahr]] in neonatal intestinal epithelium via breast milk, promoting barrier maturation and [[interleukin-22|IL-22]] production [[necrotizing-enterocolitis]].
 - Aluminum-depleted PN: Available but not yet universally adopted despite evidence.
 - Diverse complementary feeding: Avoiding reliance on rice-based cereals; rotating food sources to minimize single-metal accumulation.
 

@@ -43,7 +43,7 @@ Gut bacteria directly metabolize tryptophan to produce indole derivatives:
 - Indole: Produced by tryptophanase (TnaA) in E. coli, Bacteroides, Clostridium, Proteus.
 - Indole-3-propionic acid (IPA): Produced by Clostridium sporogenes; atheroprotective in [[cardiovascular-disease]]; inversely correlated with arterial plaque size [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
 - Indole-3-acetic acid (IAA): Produced by multiple genera; AhR ligand.
-- Indole-3-aldehyde (IAld): Produced by Lactobacillus; potent AhR activator driving IL-22 production.
+- Indole-3-aldehyde (IAld): Produced by Lactobacillus; potent AhR activator driving [[interleukin-22|IL-22]] production.
 - Tryptamine: Produced by Clostridium and Ruminococcus; serotonin receptor agonist.
 
 ### AhR Activation: The Therapeutic Target

@@ -29,7 +29,7 @@ Microbial tryptophan metabolites produced by gut bacteria through the third bran
 
 ### Indole-3-Aldehyde (3-IAld)
 - Produced by [[lactobacillus]] species via aromatic amino acid aminotransferases.
-- Strong AhR activator; promotes IL-22 production by ILC3 cells; antifungal defense at mucosal surfaces.
+- Strong AhR activator; promotes [[interleukin-22|IL-22]] production by ILC3 cells; antifungal defense at mucosal surfaces.
 
 ### Indole-3-Acetic Acid (IAA)
 - Produced by multiple gut bacteria from tryptophan; also a major plant growth hormone (auxin).

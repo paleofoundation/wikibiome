@@ -21,7 +21,7 @@ The fungal component of the human microbiome, comprising ~0.1-1% of the total gu
 ### Candida
 - Most abundant and best-studied gut fungus; *C. albicans* is the dominant species.
 - Enriched in obesity (contributes to elevated intestinal free fatty acids), T2DM, coronary artery disease, and heart failure [[wei-2025-gut-mycobiome-cardiometabolic-disease]].
-- In colon cancer, Candida-dominant tumors show reduced survival via IL-22, TP53, and CD44 pathways [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].
+- In colon cancer, Candida-dominant tumors show reduced survival via [[interleukin-22|IL-22]], TP53, and CD44 pathways [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].
 - Capable of yeast-to-hyphal transition, forming biofilms and invading epithelium when immune surveillance is compromised.
 
 ### Saccharomyces

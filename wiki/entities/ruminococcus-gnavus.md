@@ -39,7 +39,7 @@ A Gram-positive obligate anaerobe that has emerged as a pro-inflammatory pathobi
 - *R. gnavus* synthesizes a species-specific, immunostimulatory polysaccharide distinct from the neutral polysaccharides of commensal *Ruminococcus* species.
 - This polysaccharide activates group 3 innate lymphoid cells (ILC3s) via recognition receptors on intestinal innate immune cells.
 - ILC3 activation leads to:
- - IL-17 and IL-22 production → chronic intestinal inflammation and Th17 differentiation.
+ - IL-17 and [[interleukin-22|IL-22]] production → chronic intestinal inflammation and Th17 differentiation.
  - Dysregulation of microbial sensing → loss of tolerance to commensals.
  - Epithelial remodeling → mucus layer thinning and barrier dysfunction.
 

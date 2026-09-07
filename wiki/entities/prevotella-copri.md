@@ -97,7 +97,7 @@ The *P. copri*-dominant dysbiosis in RA involves:
 - *P. copri* dominance is associated with insulin resistance and metabolic dysbiosis.
 - Proposed mechanisms:
  - Hyperacetylation (from unopposed *P. copri* acetate production) promotes lipogenesis and glucose intolerance.
- - Loss of butyrate → loss of GPR43/GPR41 signaling and IL-22 induction → compromised intestinal barrier and systemic inflammation.
+ - Loss of butyrate → loss of GPR43/GPR41 signaling and [[interleukin-22|IL-22]] induction → compromised intestinal barrier and systemic inflammation.
  - *P. copri*-derived lipopolysaccharide (LPS) as a chronic metabolic endotoxemia driver.
 
 ## Ecological Interactions

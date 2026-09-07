@@ -29,7 +29,7 @@ The Th17/Treg balance is the immunological equilibrium between pro-inflammatory 
 
 ### Th17 Cells
 - Differentiate under IL-6 + [[tgf-beta|TGF-beta]] signaling; express transcription factor RORγt.
-- Produce IL-17A, IL-17F, IL-22 — cytokines that recruit neutrophils, drive antimicrobial peptide production, and maintain mucosal barrier integrity at physiological levels.
+- Produce IL-17A, IL-17F, [[interleukin-22|IL-22]] — cytokines that recruit neutrophils, drive antimicrobial peptide production, and maintain mucosal barrier integrity at physiological levels.
 - At pathological levels, Th17 excess drives autoimmune tissue destruction in IBD, MS, RA, Hashimoto's, Graves', psoriasis, and schizophrenia.
 - Segmented filamentous bacteria (SFB) are the strongest known microbial inducers of Th17 differentiation in the gut.
 

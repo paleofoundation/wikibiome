@@ -105,7 +105,7 @@ A Gram-negative obligate anaerobe that exemplifies the commensal-pathobiont spec
  - Dysbiotic *B. vulgatus* enrichment → reduced [[faecalibacterium-prausnitzii]] and SCFA producers → loss of butyrate → barrier dysfunction.
  - Barrier breakdown → increased LPS and bacterial translocation → systemic endotoxemia.
  - Systemic LPS + pro-inflammatory cytokines (IL-6, TNF-alpha, IL-17) → blood-brain barrier disruption → neuroinflammation → microglial activation → depression.
- - Additionally, dysbiotic reduction in tryptophan-metabolizing commensals and SCFA producers → reduced aryl hydrocarbon receptor (Ahr) signaling → loss of IL-22 and barrier support → vicious cycle.
+ - Additionally, dysbiotic reduction in tryptophan-metabolizing commensals and SCFA producers → reduced aryl hydrocarbon receptor (Ahr) signaling → loss of [[interleukin-22|IL-22]] and barrier support → vicious cycle.
 
 ### Associated Conditions
 

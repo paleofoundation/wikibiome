@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-07T04:44:08.647Z",
+  "_generated": "2026-09-07T04:57:55.843Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
     "entities": 328,
-    "concepts": 269,
+    "concepts": 270,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 868
+    "totalPages": 869
   },
   "pages": [
     {
@@ -6602,7 +6602,7 @@
         {
           "heading": "Tryptophan Metabolism and AhR Signaling",
           "level": 2,
-          "body": "*B. thetaiotaomicron* contributes to the production of indole derivatives — including indole-3-lactate and indole-3-propionate — from dietary tryptophan. These metabolites act as aryl hydrocarbon receptor (AhR) ligands, activating mucosal immune programs that support IL-22 production, antimicrobial peptide expression, and barrier repair. The loss of *B. thetaiotaomicron* in dysbiotic states therefore reduces AhR tone, with downstream effects on both local inflammation and systemic immunity."
+          "body": "*B. thetaiotaomicron* contributes to the production of indole derivatives — including indole-3-lactate and indole-3-propionate — from dietary tryptophan. These metabolites act as aryl hydrocarbon receptor (AhR) ligands, activating mucosal immune programs that support [[interleukin-22|IL-22]] production, antimicrobial peptide expression, and barrier repair. The loss of *B. thetaiotaomicron* in dysbiotic states therefore reduces AhR tone, with downstream effects on both local inflammation and systemic immunity."
         },
         {
           "heading": "Disease Associations",
@@ -6624,6 +6624,7 @@
         "ma-2021-dietary-fiber-gut-microbiome-inflammation-men",
         "rohaun-2024-microbes-strategic-metalation-mononuclear-enzymes",
         "bushman-2025-nutrient-metals-bacteria-gut-infection",
+        "interleukin-22",
         "gutmann-2025-functional-microbiome-diet-ms",
         "bacteroides-fragilis",
         "bacteroides-vulgatus",
@@ -6985,7 +6986,7 @@
         {
           "heading": "Depression",
           "level": 3,
-          "body": "- *B. vulgatus* is enriched in depression microbiomes, particularly in those with gastrointestinal symptoms.\n\n - Dysbiotic *B. vulgatus* enrichment → reduced [[faecalibacterium-prausnitzii]] and SCFA producers → loss of butyrate → barrier dysfunction.\n - Barrier breakdown → increased LPS and bacterial translocation → systemic endotoxemia.\n - Systemic LPS + pro-inflammatory cytokines (IL-6, TNF-alpha, IL-17) → blood-brain barrier disruption → neuroinflammation → microglial activation → depression.\n - Additionally, dysbiotic reduction in tryptophan-metabolizing commensals and SCFA producers → reduced aryl hydrocarbon receptor (Ahr) signaling → loss of IL-22 and barrier support → vicious cycle."
+          "body": "- *B. vulgatus* is enriched in depression microbiomes, particularly in those with gastrointestinal symptoms.\n\n - Dysbiotic *B. vulgatus* enrichment → reduced [[faecalibacterium-prausnitzii]] and SCFA producers → loss of butyrate → barrier dysfunction.\n - Barrier breakdown → increased LPS and bacterial translocation → systemic endotoxemia.\n - Systemic LPS + pro-inflammatory cytokines (IL-6, TNF-alpha, IL-17) → blood-brain barrier disruption → neuroinflammation → microglial activation → depression.\n - Additionally, dysbiotic reduction in tryptophan-metabolizing commensals and SCFA producers → reduced aryl hydrocarbon receptor (Ahr) signaling → loss of [[interleukin-22|IL-22]] and barrier support → vicious cycle."
         },
         {
           "heading": "Associated Conditions",
@@ -7065,6 +7066,7 @@
         "bacteroides-fragilis",
         "faecalibacterium-prausnitzii",
         "shi-2023-appendectomy-microbiome-crc",
+        "interleukin-22",
         "yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome",
         "ruminococcus-gnavus",
         "bifidobacterium",
@@ -20668,7 +20670,7 @@
         {
           "heading": "Type 17 Immunity (Th17 Axis)",
           "level": 3,
-          "body": "- Fungal β-glucans also activate the IL-17 axis via Dectin-1 → Card9 → NF-κB signaling ([[zhang-2017-intestinal-microbiota-immune-response-ibd]]; Leonardi et al. 2018 Science)\n- Debaryomyces presence correlates with elevated ileal IL-17A and IL-17F mRNA in CD patients ([[huang-2024-gut-fungi-ibd-colorectal-cancer]])\n- Th17 cells produce pro-inflammatory IL-17, TNF-α, and IL-22, which impair tight junction integrity and promote tissue remodeling"
+          "body": "- Fungal β-glucans also activate the IL-17 axis via Dectin-1 → Card9 → NF-κB signaling ([[zhang-2017-intestinal-microbiota-immune-response-ibd]]; Leonardi et al. 2018 Science)\n- Debaryomyces presence correlates with elevated ileal IL-17A and IL-17F mRNA in CD patients ([[huang-2024-gut-fungi-ibd-colorectal-cancer]])\n- Th17 cells produce pro-inflammatory IL-17, TNF-α, and [[interleukin-22|IL-22]], which impair tight junction integrity and promote tissue remodeling"
         },
         {
           "heading": "Barrier Dysfunction and Epithelial Damage",
@@ -20741,6 +20743,7 @@
         "huang-2024-gut-fungi-ibd-colorectal-cancer",
         "rashed-2022-manipulation-gut-microbiota-crohns",
         "zhang-2017-intestinal-microbiota-immune-response-ibd",
+        "interleukin-22",
         "enterococcus",
         "bacteroides-fragilis",
         "nutritional-immunity",
@@ -45212,7 +45215,7 @@
         {
           "heading": "Maternal AHR Activation",
           "level": 2,
-          "body": "Maternal dietary intake of indole-3-carbinol (I3C) -- found in cruciferous vegetables -- activates the aryl hydrocarbon receptor (AHR) in neonatal intestinal epithelium via breast milk Lu et al. 2021. AHR activation promotes:\n\n- Intestinal epithelial barrier maturation\n- IL-22 production (strengthens tight junctions)\n- Regulatory T-cell development\n- Reduced TLR4 expression\n\nThis represents a maternal dietary intervention that protects the infant through breast milk signaling."
+          "body": "Maternal dietary intake of indole-3-carbinol (I3C) -- found in cruciferous vegetables -- activates the aryl hydrocarbon receptor (AHR) in neonatal intestinal epithelium via breast milk Lu et al. 2021. AHR activation promotes:\n\n- Intestinal epithelial barrier maturation\n- [[interleukin-22|IL-22]] production (strengthens tight junctions)\n- Regulatory T-cell development\n- Reduced TLR4 expression\n\nThis represents a maternal dietary intervention that protects the infant through breast milk signaling."
         },
         {
           "heading": "Non-Toxigenic Clostridia as Novel Probiotics",
@@ -45263,6 +45266,7 @@
         "till-2015-intestinal-microbiome-disruptions-nec-sbs-haec",
         "bifidobacterium",
         "stewart-2013-preterm-gut-microbiome-twins-nec-sepsis",
+        "interleukin-22",
         "martin-2011-bile-acids-mucin2-nec",
         "hulzebos-2017-fecal-bile-salts-nec-preterm",
         "manohar-2023-gut-brain-nec-neurodevelopmental",
@@ -51296,7 +51300,7 @@
         {
           "heading": "Colibactin-Mediated Carcinogenesis",
           "level": 3,
-          "body": "The CRC signature associated with *P. stomatis* includes:\n\n- Elevated colibactin-specific DNA lesions: γH2AX+ colonocytes; pks-specific DNA adducts (detectable by LC-MS).\n- Th17-skewed immunity: IL-17, IL-6 elevation; reduced IL-22 (gut barrier-protective cytokine).\n- APC mutations: Adenomatous polyposis coli (APC) gene disruption via colibactin-induced mutagenesis; truncating APC mutations enable adenoma initiation.\n- Field defect: Pre-neoplastic mucosa surrounding the tumor shows colibactin-induced DNA damage; indicates field carcinogenesis (multifocal transformation risk)."
+          "body": "The CRC signature associated with *P. stomatis* includes:\n\n- Elevated colibactin-specific DNA lesions: γH2AX+ colonocytes; pks-specific DNA adducts (detectable by LC-MS).\n- Th17-skewed immunity: IL-17, IL-6 elevation; reduced [[interleukin-22|IL-22]] (gut barrier-protective cytokine).\n- APC mutations: Adenomatous polyposis coli (APC) gene disruption via colibactin-induced mutagenesis; truncating APC mutations enable adenoma initiation.\n- Field defect: Pre-neoplastic mucosa surrounding the tumor shows colibactin-induced DNA damage; indicates field carcinogenesis (multifocal transformation risk)."
         },
         {
           "heading": "Distinction from Non-Pathogenic Streptococci",
@@ -51340,6 +51344,7 @@
         "parvimonas-micra",
         "clostridium-symbiosum",
         "bacteroides-fragilis",
+        "interleukin-22",
         "dna-damage",
         "colorectal-cancer",
         "iron",
@@ -53787,7 +53792,7 @@
         {
           "heading": "Metabolic Syndrome and Obesity",
           "level": 2,
-          "body": "- *P. copri* dominance is associated with insulin resistance and metabolic dysbiosis.\n- Proposed mechanisms:\n - Hyperacetylation (from unopposed *P. copri* acetate production) promotes lipogenesis and glucose intolerance.\n - Loss of butyrate → loss of GPR43/GPR41 signaling and IL-22 induction → compromised intestinal barrier and systemic inflammation.\n - *P. copri*-derived lipopolysaccharide (LPS) as a chronic metabolic endotoxemia driver."
+          "body": "- *P. copri* dominance is associated with insulin resistance and metabolic dysbiosis.\n- Proposed mechanisms:\n - Hyperacetylation (from unopposed *P. copri* acetate production) promotes lipogenesis and glucose intolerance.\n - Loss of butyrate → loss of GPR43/GPR41 signaling and [[interleukin-22|IL-22]] induction → compromised intestinal barrier and systemic inflammation.\n - *P. copri*-derived lipopolysaccharide (LPS) as a chronic metabolic endotoxemia driver."
         },
         {
           "heading": "Ecological Interactions",
@@ -53835,6 +53840,7 @@
         "faecalibacterium-prausnitzii",
         "akkermansia-muciniphila",
         "calprotectin",
+        "interleukin-22",
         "prevotella-intermedia",
         "bacteroides-vulgatus",
         "fusobacterium-nucleatum",
@@ -57756,7 +57762,7 @@
         {
           "heading": "A Unique Pro-Inflammatory Glycan",
           "level": 3,
-          "body": "- *R. gnavus* synthesizes a species-specific, immunostimulatory polysaccharide distinct from the neutral polysaccharides of commensal *Ruminococcus* species.\n- This polysaccharide activates group 3 innate lymphoid cells (ILC3s) via recognition receptors on intestinal innate immune cells.\n- ILC3 activation leads to:\n - IL-17 and IL-22 production → chronic intestinal inflammation and Th17 differentiation.\n - Dysregulation of microbial sensing → loss of tolerance to commensals.\n - Epithelial remodeling → mucus layer thinning and barrier dysfunction."
+          "body": "- *R. gnavus* synthesizes a species-specific, immunostimulatory polysaccharide distinct from the neutral polysaccharides of commensal *Ruminococcus* species.\n- This polysaccharide activates group 3 innate lymphoid cells (ILC3s) via recognition receptors on intestinal innate immune cells.\n- ILC3 activation leads to:\n - IL-17 and [[interleukin-22|IL-22]] production → chronic intestinal inflammation and Th17 differentiation.\n - Dysregulation of microbial sensing → loss of tolerance to commensals.\n - Epithelial remodeling → mucus layer thinning and barrier dysfunction."
         },
         {
           "heading": "Iron and Polysaccharide Synthesis",
@@ -57873,6 +57879,7 @@
         "crohns-disease",
         "depression",
         "multiple-sclerosis",
+        "interleukin-22",
         "akkermansia-muciniphila",
         "calprotectin",
         "prevotella-copri",
@@ -69916,7 +69923,7 @@
         {
           "heading": "AhR in Gut-Immune Regulation",
           "level": 2,
-          "body": "Activation by microbial indoles produces profoundly different effects than activation by dioxins. Indole-driven AhR signaling promotes:\n\n- Barrier integrity — upregulates tight junction proteins and mucin production; protects against leaky gut\n- IL-22 production — promotes intestinal epithelial regeneration and antimicrobial peptide secretion\n- Treg/Th17 balance — physiological AhR activation favors regulatory T cells; supports immune tolerance\n- ILC3 activation — innate lymphoid cells that defend mucosal barriers\n\nPathological AhR signaling (dioxin-like, or absent signaling from indole depletion) produces:\n- Barrier failure — reduced tight junctions, increased intestinal permeability\n- Th17 bias — pro-inflammatory immune skewing associated with autoimmunity\n- Neuroinflammation — AhR is expressed in microglia and astrocytes; disrupted signaling contributes to neuroinflammatory cascades"
+          "body": "Activation by microbial indoles produces profoundly different effects than activation by dioxins. Indole-driven AhR signaling promotes:\n\n- Barrier integrity — upregulates tight junction proteins and mucin production; protects against leaky gut\n- [[interleukin-22|IL-22]] production — promotes intestinal epithelial regeneration and antimicrobial peptide secretion\n- Treg/Th17 balance — physiological AhR activation favors regulatory T cells; supports immune tolerance\n- ILC3 activation — innate lymphoid cells that defend mucosal barriers\n\nPathological AhR signaling (dioxin-like, or absent signaling from indole depletion) produces:\n- Barrier failure — reduced tight junctions, increased intestinal permeability\n- Th17 bias — pro-inflammatory immune skewing associated with autoimmunity\n- Neuroinflammation — AhR is expressed in microglia and astrocytes; disrupted signaling contributes to neuroinflammatory cascades"
         },
         {
           "heading": "Microbiome Connection",
@@ -69935,6 +69942,7 @@
         }
       ],
       "wikilinks": [
+        "interleukin-22",
         "autism-spectrum-disorder-signature",
         "multiple-sclerosis",
         "hashimotos-thyroiditis",
@@ -69962,6 +69970,7 @@
         "indole",
         "indoxyl-sulfate",
         "infant-exposure",
+        "interleukin-22",
         "metabolites",
         "tryptophan",
         "multiple-sclerosis",
@@ -69985,6 +69994,10 @@
           "score": 17
         },
         {
+          "id": "short-chain-fatty-acids",
+          "score": 17
+        },
+        {
           "id": "bacteroides-thetaiotaomicron",
           "score": 15
         },
@@ -69994,10 +70007,6 @@
         },
         {
           "id": "butyrate",
-          "score": 15
-        },
-        {
-          "id": "short-chain-fatty-acids",
           "score": 15
         },
         {
@@ -76441,16 +76450,16 @@
           "score": 6
         },
         {
+          "id": "interleukin-22",
+          "score": 6
+        },
+        {
           "id": "nlrp3-inflammasome",
           "score": 6
         },
         {
           "id": "schizophrenia",
           "score": 6
-        },
-        {
-          "id": "ahr",
-          "score": 5
         }
       ]
     },
@@ -91343,12 +91352,13 @@
       "isStub": false,
       "backlinks": [
         "il-17",
+        "interleukin-22",
         "vitamin-d"
       ],
       "related": [
         {
           "id": "il-17",
-          "score": 11
+          "score": 13
         },
         {
           "id": "il-1beta",
@@ -91363,20 +91373,20 @@
           "score": 8
         },
         {
+          "id": "short-chain-fatty-acids",
+          "score": 7
+        },
+        {
           "id": "arachidonic-acid",
+          "score": 6
+        },
+        {
+          "id": "interleukin-22",
           "score": 6
         },
         {
           "id": "polyunsaturated-fatty-acids",
           "score": 6
-        },
-        {
-          "id": "vitamin-d",
-          "score": 6
-        },
-        {
-          "id": "short-chain-fatty-acids",
-          "score": 5
         }
       ]
     },
@@ -91471,7 +91481,9 @@
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
-      "backlinks": [],
+      "backlinks": [
+        "interleukin-22"
+      ],
       "related": [
         {
           "id": "vitamin-d",
@@ -91502,7 +91514,7 @@
           "score": 5
         },
         {
-          "id": "molecular-mimicry",
+          "id": "interleukin-22",
           "score": 5
         }
       ]
@@ -91867,7 +91879,7 @@
         {
           "heading": "Th17 (Barrier Immunity/Autoimmunity)",
           "level": 3,
-          "body": "- Signature cytokines: IL-17A, IL-17F, IL-22\n- Function: Neutrophil recruitment, antimicrobial peptide induction, mucosal defense\n- Metal connection: Nickel strongly activates Th17 in allergic individuals [[nickel-allergy]]; arsenic promotes Th17 differentiation; IL-17 drives tissue damage in [[crohns-disease]], [[rheumatoid-arthritis]], [[autoimmunity|psoriasis]]"
+          "body": "- Signature cytokines: IL-17A, IL-17F, [[interleukin-22|IL-22]]\n- Function: Neutrophil recruitment, antimicrobial peptide induction, mucosal defense\n- Metal connection: Nickel strongly activates Th17 in allergic individuals [[nickel-allergy]]; arsenic promotes Th17 differentiation; IL-17 drives tissue damage in [[crohns-disease]], [[rheumatoid-arthritis]], [[autoimmunity|psoriasis]]"
         },
         {
           "heading": "Treg (Immune Regulation)",
@@ -91907,6 +91919,7 @@
       ],
       "wikilinks": [
         "inflammation",
+        "interleukin-22",
         "nickel-allergy",
         "crohns-disease",
         "rheumatoid-arthritis",
@@ -91937,6 +91950,7 @@
         "il-10",
         "il-17",
         "immunotherapy",
+        "interleukin-22",
         "molecular-mimicry",
         "tgf-beta",
         "th17-treg-balance",
@@ -92261,7 +92275,7 @@
         {
           "heading": "Key Indole Derivatives",
           "level": 2,
-          "body": "| Metabolite | Producer | Receptor | Function |\n|-----------|----------|----------|----------|\n| Indole | E. coli, Bacteroides, Clostridium (TnaA+) | AhR | Barrier integrity, IL-22 induction |\n| Indole-3-aldehyde (3-IAld) | Lactobacillus | AhR | Tolerogenic immunity in MS [[zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms]] |\n| Indole-3-propionic acid (IPA) | Clostridium sporogenes | PXR, AhR | Neuroprotection, barrier strengthening |\n| Indole-3-acetic acid (IAA) | Multiple genera | AhR | Anti-inflammatory |\n| Indoxyl sulfate | Host liver sulfation of indole | Toxic at high levels | Uremic toxin in CKD |"
+          "body": "Across these metabolites, [[interleukin-22|IL-22]] is represented as an AhR-responsive mucosal signal connecting microbial indole chemistry to epithelial defense.\n\n| Metabolite | Producer | Receptor | Function |\n|-----------|----------|----------|----------|\n| Indole | E. coli, Bacteroides, Clostridium (TnaA+) | AhR | Barrier integrity, IL-22 induction |\n| Indole-3-aldehyde (3-IAld) | Lactobacillus | AhR | Tolerogenic immunity in MS [[zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms]] |\n| Indole-3-propionic acid (IPA) | Clostridium sporogenes | PXR, AhR | Neuroprotection, barrier strengthening |\n| Indole-3-acetic acid (IAA) | Multiple genera | AhR | Anti-inflammatory |\n| Indoxyl sulfate | Host liver sulfation of indole | Toxic at high levels | Uremic toxin in CKD |"
         },
         {
           "heading": "Dual Role",
@@ -92280,6 +92294,7 @@
         }
       ],
       "wikilinks": [
+        "interleukin-22",
         "zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms",
         "colonization-resistance",
         "yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr",
@@ -92411,7 +92426,7 @@
         {
           "heading": "Indole-3-Aldehyde (3-IAld)",
           "level": 3,
-          "body": "- Produced by [[lactobacillus]] species via aromatic amino acid aminotransferases.\n- Strong AhR activator; promotes IL-22 production by ILC3 cells; antifungal defense at mucosal surfaces."
+          "body": "- Produced by [[lactobacillus]] species via aromatic amino acid aminotransferases.\n- Strong AhR activator; promotes [[interleukin-22|IL-22]] production by ILC3 cells; antifungal defense at mucosal surfaces."
         },
         {
           "heading": "Indole-3-Acetic Acid (IAA)",
@@ -92452,6 +92467,7 @@
       "wikilinks": [
         "tryptophan-metabolism",
         "lactobacillus",
+        "interleukin-22",
         "gutmann-2025-functional-microbiome-diet-ms",
         "spivak-2023-local-systemic-microbiome-derived-metabolites",
         "neuroinflammation",
@@ -92479,6 +92495,7 @@
         "fecal-microbiota-transplant",
         "gut-kidney-axis",
         "gut-microbiome",
+        "interleukin-22",
         "metabolites",
         "metabolomics",
         "tryptophan-metabolism",
@@ -92497,6 +92514,10 @@
           "score": 23
         },
         {
+          "id": "ahr",
+          "score": 22
+        },
+        {
           "id": "microbiome-derived-metabolites",
           "score": 22
         },
@@ -92505,16 +92526,12 @@
           "score": 20
         },
         {
-          "id": "ahr",
+          "id": "inflammation",
           "score": 20
         },
         {
           "id": "parkinsons-disease",
           "score": 19
-        },
-        {
-          "id": "inflammation",
-          "score": 18
         },
         {
           "id": "depression",
@@ -92805,7 +92822,7 @@
         {
           "heading": "Protective Strategies",
           "level": 2,
-          "body": "The WikiBiome perspective emphasizes that protection involves both reducing exposure and supporting the infant's ecological defenses:\n\n- Breastfeeding: Lactoferrin chelates iron, HMOs feed Bifidobacterium, creating a self-reinforcing protective ecosystem.\n- Maternal AhR activation: Maternal intake of cruciferous vegetables provides indole-3-carbinol, which activates the [[ahr]] in neonatal intestinal epithelium via breast milk, promoting barrier maturation and IL-22 production [[necrotizing-enterocolitis]].\n- Aluminum-depleted PN: Available but not yet universally adopted despite evidence.\n- Diverse complementary feeding: Avoiding reliance on rice-based cereals; rotating food sources to minimize single-metal accumulation."
+          "body": "The WikiBiome perspective emphasizes that protection involves both reducing exposure and supporting the infant's ecological defenses:\n\n- Breastfeeding: Lactoferrin chelates iron, HMOs feed Bifidobacterium, creating a self-reinforcing protective ecosystem.\n- Maternal AhR activation: Maternal intake of cruciferous vegetables provides indole-3-carbinol, which activates the [[ahr]] in neonatal intestinal epithelium via breast milk, promoting barrier maturation and [[interleukin-22|IL-22]] production [[necrotizing-enterocolitis]].\n- Aluminum-depleted PN: Available but not yet universally adopted despite evidence.\n- Diverse complementary feeding: Avoiding reliance on rice-based cereals; rotating food sources to minimize single-metal accumulation."
         },
         {
           "heading": "Open Questions",
@@ -92834,6 +92851,7 @@
         "nickel",
         "autism-spectrum-disorder",
         "ahr",
+        "interleukin-22",
         "bifidobacterium",
         "developmental-metal-vulnerability"
       ],
@@ -93199,6 +93217,7 @@
         "il-1beta",
         "immune-balance",
         "innate-immunity",
+        "interleukin-22",
         "interleukin-6",
         "intestinal-permeability",
         "kynurenine-pathway",
@@ -93885,6 +93904,189 @@
       ]
     },
     {
+      "id": "interleukin-22",
+      "title": "Interleukin-22",
+      "type": "concept",
+      "category": "mechanism",
+      "tags": [
+        "IL-22",
+        "cytokine",
+        "ILC3",
+        "Th17",
+        "mucosal-immunity",
+        "epithelial-barrier",
+        "antimicrobial-defense",
+        "AhR",
+        "short-chain-fatty-acids",
+        "mycobiome"
+      ],
+      "sources": [
+        "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
+        "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+        "kong-2021-ketogenic-diet-colitis-ilc3-microbiome",
+        "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+        "thirion-2023-gut-microbiota-ms-disease-activity",
+        "cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd",
+        "ahlstrom-2019-nickel-allergy-review"
+      ],
+      "created": "2026-09-07T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Interleukin-22",
+        "type": "concept",
+        "created": "2026-09-07T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
+        "sources": [
+          "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
+          "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+          "kong-2021-ketogenic-diet-colitis-ilc3-microbiome",
+          "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+          "thirion-2023-gut-microbiota-ms-disease-activity",
+          "cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd",
+          "ahlstrom-2019-nickel-allergy-review"
+        ],
+        "source_count": 7,
+        "tags": [
+          "IL-22",
+          "cytokine",
+          "ILC3",
+          "Th17",
+          "mucosal-immunity",
+          "epithelial-barrier",
+          "antimicrobial-defense",
+          "AhR",
+          "short-chain-fatty-acids",
+          "mycobiome"
+        ],
+        "karen_brain_primitives": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "seo_target": "interleukin-22 IL-22 microbiome gut barrier",
+        "platform": "wikibiome"
+      },
+      "overview": "Interleukin-22 (IL-22) is an immune signaling protein that helps coordinate host responses at epithelial surfaces. In the gut evidence represented by WikiBiome, group 3 innate lymphoid cells (ILC3s) are a prominent source, while Th17-associated responses can also include IL-22. Its target context is the tissue barrier: IL-22 can support epithelial integrity, antimicrobial defense, and repair rather than acting only as a general marker of systemic [[inflammation]] [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]] [[ahlstrom-2019-nickel-allergy-review]].\n\nIL-22 is not uniformly beneficial or harmful. Its meaning depends on the producing cell, tissue, initiating signal, duration, disease state, and accompanying cytokines. Barrier-supporting activity in one model can coexist with inflammatory or tumor-associated activity in another.",
+      "sections": [
+        {
+          "heading": "Microbiome-to-barrier signaling",
+          "level": 2,
+          "body": "One route begins with microbial [[tryptophan-metabolism]]. Indole metabolites can activate the [[ahr|aryl hydrocarbon receptor]], which regulates ILC3 activity and promotes IL-22 production in mucosal immunity. This provides a mechanistic bridge from microbial metabolism to a host epithelial response, but the direction and magnitude depend on the specific ligand and cell type [[paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd]].\n\nA second route begins with [[short-chain-fatty-acids]]. A review of SCFA receptors describes FFAR2 signaling in ILC3s and places IL-22 downstream of this immune-cell program, where it supports tissue integrity and host defense. The same review emphasizes that SCFA receptors are expressed across epithelial and immune-cell populations, so an observed SCFA association should not automatically be assigned to IL-22 without pathway-level measurements [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].\n\nThese pathways explain why loss of indole-producing or SCFA-producing organisms can be discussed as loss of IL-22-supporting ecological function. They do not establish that the abundance of any single organism determines a person's IL-22 level."
+        },
+        {
+          "heading": "Barrier defense and tissue repair",
+          "level": 2,
+          "body": "Within homeostatic mucosal signaling, IL-22 is linked to epithelial repair and antimicrobial defense. It is often discussed alongside tight-junction integrity, mucin, IgA, and antimicrobial-peptide programs. These outcomes are related but are not interchangeable measurements: detecting IL-22 does not prove that the barrier has recovered, and improved barrier markers do not prove that IL-22 caused the improvement [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].\n\nThe producing-versus-responding-cell distinction is important. The evidence summarized here places IL-22 production in immune populations such as ILC3 or Th17-associated cells; epithelial cells are represented primarily as the responding tissue. Claims that colonocytes themselves produce IL-22 require separate direct evidence."
+        },
+        {
+          "heading": "Context-dependent inflammatory effects",
+          "level": 2,
+          "body": "An animal study of DSS colitis illustrates the context problem. A ketogenic diet altered the microbiome, reduced colonic ILC3 abundance and IL-22 expression, improved barrier markers, and reduced disease severity; fecal transfer reproduced part of the protective effect in germ-free mice [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]]. In that model, lower IL-22 accompanied improvement even though IL-22 can support barrier integrity in other settings. The study therefore argues against labeling every increase as protective or every decrease as harmful.\n\nOutside the gut, a clinical review of nickel allergic contact dermatitis places IL-22 within a Th1/Th17-skewed T-cell response that also includes IFN-gamma and IL-17. This is a skin hypersensitivity context and should not be generalized to intestinal homeostasis [[ahlstrom-2019-nickel-allergy-review]]."
+        },
+        {
+          "heading": "Fungal and tumor contexts",
+          "level": 2,
+          "body": "Fungal signals add another layer. A cancer-mycobiome review describes *Candida*- and other fungus-associated IL-22/ILC pathways within immunosuppressive and tumor-promoting microenvironments. It also reports poorer survival in a Candida-dominant gastrointestinal-cancer pattern associated with IL-22 and several tumor pathways [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]]. These findings support an IL-22 connection in cancer ecology but do not show that IL-22 alone caused the survival difference.\n\nThis is why “barrier-protective cytokine” is an incomplete definition. IL-22 can participate in epithelial defense while also appearing in chronic inflammatory or tumor-associated networks. A page or study must specify tissue, cell source, disease state, and measured outcome before assigning direction."
+        },
+        {
+          "heading": "Human association and negative evidence",
+          "level": 2,
+          "body": "In a prospective case-control study of multiple sclerosis, disease-associated microbial species correlated with plasma IL-22 and other inflammatory cytokines. Such correlations connect microbiome composition to an immune profile, but they do not establish which organisms produced the signal or whether IL-22 drove disease activity [[thirion-2023-gut-microbiota-ms-disease-activity]].\n\nNegative findings are equally important. A case-control study of children and adolescents with autism reported several cytokine differences, but IL-22 was not significantly different between groups [[cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd]]. WikiBiome treats that result as outcome-specific negative evidence rather than omitting it or interpreting it as proof that IL-22 is irrelevant to every autism subgroup."
+        },
+        {
+          "heading": "Evidence interpretation",
+          "level": 2,
+          "body": "- IL-22 concentration is a context-specific measurement, not a universal score of barrier health or inflammation.\n- ILC3 and Th17-associated cells can produce IL-22; epithelial tissue is a major response compartment in the evidence summarized here.\n- Microbial indoles and SCFAs provide plausible upstream routes, but organism abundance alone does not prove IL-22 pathway activity [[paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd]] [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].\n- Animal diet, colitis, or fecal-transfer experiments establish biological plausibility; they do not prove a human dietary treatment effect [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]].\n- Tumor, skin-allergy, neurologic, and intestinal findings should not be merged into a single beneficial-or-harmful label.\n- A null result in one cohort and specimen type should remain visible alongside positive associations from other settings [[cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd]]."
+        },
+        {
+          "heading": "Related pages",
+          "level": 2,
+          "body": "- [[ahr]]\n- [[indoles]]\n- [[tryptophan-metabolism]]\n- [[short-chain-fatty-acids]]\n- [[th17-treg-balance]]\n- [[immune-balance]]\n- [[tight-junctions]]\n- [[intestinal-permeability]]\n- [[mycobiome]]\n- [[inflammation]]\n- [[il-17]]\n- [[il-10]]"
+        }
+      ],
+      "wikilinks": [
+        "inflammation",
+        "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+        "ahlstrom-2019-nickel-allergy-review",
+        "tryptophan-metabolism",
+        "ahr",
+        "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
+        "short-chain-fatty-acids",
+        "kong-2021-ketogenic-diet-colitis-ilc3-microbiome",
+        "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+        "thirion-2023-gut-microbiota-ms-disease-activity",
+        "cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd",
+        "indoles",
+        "th17-treg-balance",
+        "immune-balance",
+        "tight-junctions",
+        "intestinal-permeability",
+        "mycobiome",
+        "il-17",
+        "il-10"
+      ],
+      "sourceDir": "concepts",
+      "sourceCount": 7,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "bacteroides-thetaiotaomicron",
+        "bacteroides-vulgatus",
+        "debaryomyces",
+        "necrotizing-enterocolitis",
+        "peptostreptococcus-stomatis",
+        "prevotella-copri",
+        "ruminococcus-gnavus",
+        "ahr",
+        "immune-balance",
+        "indole",
+        "indoles",
+        "infant-exposure",
+        "ketone-bodies",
+        "mycobiome",
+        "th17-treg-balance",
+        "tryptophan-metabolism",
+        "tryptophan"
+      ],
+      "related": [
+        {
+          "id": "dysbiosis",
+          "score": 17
+        },
+        {
+          "id": "iron",
+          "score": 16
+        },
+        {
+          "id": "faecalibacterium-prausnitzii",
+          "score": 12
+        },
+        {
+          "id": "nutritional-immunity",
+          "score": 10
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 9
+        },
+        {
+          "id": "gut-brain-axis",
+          "score": 9
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 9
+        },
+        {
+          "id": "multiple-sclerosis",
+          "score": 9
+        }
+      ]
+    },
+    {
       "id": "interleukin-6",
       "title": "Interleukin-6 (IL-6)",
       "type": "concept",
@@ -94286,6 +94488,7 @@
         "gut-penis-axis",
         "hypoxia",
         "immune-balance",
+        "interleukin-22",
         "lipopolysaccharide",
         "mitochondrial-dysfunction",
         "pharmacomicrobiomics",
@@ -94909,7 +95112,7 @@
         {
           "heading": "Microbiome Connection",
           "level": 2,
-          "body": "- The [[ketogenic-diet]] profoundly alters gut microbiome composition: increases Akkermansia, reduces Bifidobacterium, and shifts SCFA profiles [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] [[shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol]].\n- BHB modulates intestinal ILC3 cells and IL-22 production [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]].\n- Clinical applications: epilepsy (established), ASD (emerging), neurodegeneration (investigational) [[li-2021-ketogenic-diet-treatment-asd-review]]."
+          "body": "- The [[ketogenic-diet]] profoundly alters gut microbiome composition: increases Akkermansia, reduces Bifidobacterium, and shifts SCFA profiles [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] [[shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol]].\n- BHB modulates intestinal ILC3 cells and [[interleukin-22|IL-22]] production [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]].\n- Clinical applications: epilepsy (established), ASD (emerging), neurodegeneration (investigational) [[li-2021-ketogenic-diet-treatment-asd-review]]."
         },
         {
           "heading": "Cross-References",
@@ -94922,6 +95125,7 @@
         "butyrate",
         "kong-2021-ketogenic-diet-colitis-ilc3-microbiome",
         "shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol",
+        "interleukin-22",
         "li-2021-ketogenic-diet-treatment-asd-review",
         "lipid-metabolism"
       ],
@@ -102121,7 +102325,7 @@
         {
           "heading": "Candida",
           "level": 3,
-          "body": "- Most abundant and best-studied gut fungus; *C. albicans* is the dominant species.\n- Enriched in obesity (contributes to elevated intestinal free fatty acids), T2DM, coronary artery disease, and heart failure [[wei-2025-gut-mycobiome-cardiometabolic-disease]].\n- In colon cancer, Candida-dominant tumors show reduced survival via IL-22, TP53, and CD44 pathways [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].\n- Capable of yeast-to-hyphal transition, forming biofilms and invading epithelium when immune surveillance is compromised."
+          "body": "- Most abundant and best-studied gut fungus; *C. albicans* is the dominant species.\n- Enriched in obesity (contributes to elevated intestinal free fatty acids), T2DM, coronary artery disease, and heart failure [[wei-2025-gut-mycobiome-cardiometabolic-disease]].\n- In colon cancer, Candida-dominant tumors show reduced survival via [[interleukin-22|IL-22]], TP53, and CD44 pathways [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].\n- Capable of yeast-to-hyphal transition, forming biofilms and invading epithelium when immune surveillance is compromised."
         },
         {
           "heading": "Saccharomyces",
@@ -102162,6 +102366,7 @@
       "wikilinks": [
         "dysbiosis",
         "wei-2025-gut-mycobiome-cardiometabolic-disease",
+        "interleukin-22",
         "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
         "zou-2022-mycobiome-dysbiosis-hypertension-light-chains",
         "patil-2021-infection-metallomics-critical-care",
@@ -102187,6 +102392,7 @@
         "chitotriosidase",
         "fecal-microbiota-transplant",
         "gut-microbiome",
+        "interleukin-22",
         "nlrp3-inflammasome",
         "shotgun-metagenomics",
         "cardiovascular-disease-signature",
@@ -110005,6 +110211,10 @@
           "score": 4
         },
         {
+          "id": "interleukin-22",
+          "score": 4
+        },
+        {
           "id": "mycobiome",
           "score": 4
         },
@@ -110022,10 +110232,6 @@
         },
         {
           "id": "fusarium",
-          "score": 3
-        },
-        {
-          "id": "penicillium",
           "score": 3
         }
       ]
@@ -111320,6 +111526,7 @@
         "immunotherapy",
         "indoles",
         "inflammation",
+        "interleukin-22",
         "interleukin-6",
         "intestinal-permeability",
         "iron-sulfur-clusters",
@@ -114010,7 +114217,7 @@
         {
           "heading": "Th17 Cells",
           "level": 3,
-          "body": "- Differentiate under IL-6 + [[tgf-beta|TGF-beta]] signaling; express transcription factor RORγt.\n- Produce IL-17A, IL-17F, IL-22 — cytokines that recruit neutrophils, drive antimicrobial peptide production, and maintain mucosal barrier integrity at physiological levels.\n- At pathological levels, Th17 excess drives autoimmune tissue destruction in IBD, MS, RA, Hashimoto's, Graves', psoriasis, and schizophrenia.\n- Segmented filamentous bacteria (SFB) are the strongest known microbial inducers of Th17 differentiation in the gut."
+          "body": "- Differentiate under IL-6 + [[tgf-beta|TGF-beta]] signaling; express transcription factor RORγt.\n- Produce IL-17A, IL-17F, [[interleukin-22|IL-22]] — cytokines that recruit neutrophils, drive antimicrobial peptide production, and maintain mucosal barrier integrity at physiological levels.\n- At pathological levels, Th17 excess drives autoimmune tissue destruction in IBD, MS, RA, Hashimoto's, Graves', psoriasis, and schizophrenia.\n- Segmented filamentous bacteria (SFB) are the strongest known microbial inducers of Th17 differentiation in the gut."
         },
         {
           "heading": "Treg Cells",
@@ -114040,6 +114247,7 @@
       ],
       "wikilinks": [
         "tgf-beta",
+        "interleukin-22",
         "butyrate",
         "faecalibacterium-prausnitzii",
         "roseburia",
@@ -114069,16 +114277,21 @@
         "ifn-gamma",
         "il-10",
         "il-17",
+        "interleukin-22",
         "vitamin-d"
       ],
       "related": [
         {
           "id": "il-17",
-          "score": 17
+          "score": 19
         },
         {
           "id": "il-10",
-          "score": 15
+          "score": 17
+        },
+        {
+          "id": "tight-junctions",
+          "score": 7
         },
         {
           "id": "vitamin-d",
@@ -114098,10 +114311,6 @@
         },
         {
           "id": "ruminococcaceae",
-          "score": 5
-        },
-        {
-          "id": "tight-junctions",
           "score": 5
         }
       ]
@@ -114438,7 +114647,8 @@
       "backlinks": [
         "helicobacter-pylori",
         "caga",
-        "epigenetic-modifications"
+        "epigenetic-modifications",
+        "interleukin-22"
       ],
       "related": [
         {
@@ -114450,15 +114660,19 @@
           "score": 11
         },
         {
+          "id": "immune-balance",
+          "score": 11
+        },
+        {
           "id": "lipopolysaccharide",
           "score": 10
         },
         {
-          "id": "immune-balance",
-          "score": 9
+          "id": "chronic-kidney-disease",
+          "score": 8
         },
         {
-          "id": "chronic-kidney-disease",
+          "id": "short-chain-fatty-acids",
           "score": 8
         },
         {
@@ -114468,10 +114682,6 @@
         {
           "id": "metal-disease-matrix",
           "score": 8
-        },
-        {
-          "id": "gastric-cancer",
-          "score": 7
         }
       ]
     },
@@ -115706,7 +115916,7 @@
         {
           "heading": "3. Microbial Indole Pathway",
           "level": 3,
-          "body": "Gut bacteria directly metabolize tryptophan to produce indole derivatives:\n- Indole: Produced by tryptophanase (TnaA) in E. coli, Bacteroides, Clostridium, Proteus.\n- Indole-3-propionic acid (IPA): Produced by Clostridium sporogenes; atheroprotective in [[cardiovascular-disease]]; inversely correlated with arterial plaque size [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].\n- Indole-3-acetic acid (IAA): Produced by multiple genera; AhR ligand.\n- Indole-3-aldehyde (IAld): Produced by Lactobacillus; potent AhR activator driving IL-22 production.\n- Tryptamine: Produced by Clostridium and Ruminococcus; serotonin receptor agonist."
+          "body": "Gut bacteria directly metabolize tryptophan to produce indole derivatives:\n- Indole: Produced by tryptophanase (TnaA) in E. coli, Bacteroides, Clostridium, Proteus.\n- Indole-3-propionic acid (IPA): Produced by Clostridium sporogenes; atheroprotective in [[cardiovascular-disease]]; inversely correlated with arterial plaque size [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].\n- Indole-3-acetic acid (IAA): Produced by multiple genera; AhR ligand.\n- Indole-3-aldehyde (IAld): Produced by Lactobacillus; potent AhR activator driving [[interleukin-22|IL-22]] production.\n- Tryptamine: Produced by Clostridium and Ruminococcus; serotonin receptor agonist."
         },
         {
           "heading": "AhR Activation: The Therapeutic Target",
@@ -115761,6 +115971,7 @@
         "neuroinflammation",
         "cardiovascular-disease",
         "hoffelner-2025-emerging-therapy-targets-microbiome-cvd",
+        "interleukin-22",
         "multiple-sclerosis",
         "martinelli-2022-gut-oriented-interventions-ms",
         "yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr",
@@ -115798,6 +116009,7 @@
         "gut-brain-axis",
         "indoles",
         "indoxyl-sulfate",
+        "interleukin-22",
         "kynurenine-pathway",
         "metabolomics",
         "neuroinflammation",
@@ -115831,11 +116043,11 @@
           "score": 23
         },
         {
-          "id": "serotonin",
-          "score": 21
+          "id": "ahr",
+          "score": 22
         },
         {
-          "id": "kynurenine-pathway",
+          "id": "serotonin",
           "score": 21
         }
       ]
@@ -115945,7 +116157,7 @@
         {
           "heading": "The Microbial Indole Pathway",
           "level": 3,
-          "body": "Gut bacteria directly metabolize tryptophan via tryptophanase and other enzymes to produce indole derivatives: indole-3-propionic acid (IPA), indole-3-acetic acid (IAA), indole-3-aldehyde (IAld), and tryptamine. These metabolites activate the aryl hydrocarbon receptor ([[ahr|AhR]]) on gut epithelial cells and immune cells, driving IL-22 production and strengthening barrier integrity. IPA produced by *Clostridium sporogenes* is atheroprotective and inversely correlated with arterial plaque burden [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]]."
+          "body": "Gut bacteria directly metabolize tryptophan via tryptophanase and other enzymes to produce indole derivatives: indole-3-propionic acid (IPA), indole-3-acetic acid (IAA), indole-3-aldehyde (IAld), and tryptamine. These metabolites activate the aryl hydrocarbon receptor ([[ahr|AhR]]) on gut epithelial cells and immune cells, driving [[interleukin-22|IL-22]] production and strengthening barrier integrity. IPA produced by *Clostridium sporogenes* is atheroprotective and inversely correlated with arterial plaque burden [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]]."
         },
         {
           "heading": "Metal Connections",
@@ -115971,6 +116183,7 @@
         "inflammation",
         "gut-brain-axis",
         "ahr",
+        "interleukin-22",
         "hoffelner-2025-emerging-therapy-targets-microbiome-cvd",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "rasin-2025-cadmium-exposure-health-review",
@@ -184351,6 +184564,12 @@
         "sourceCount": 12
       },
       {
+        "id": "interleukin-22",
+        "label": "Interleukin-22",
+        "category": "mechanism",
+        "sourceCount": 7
+      },
+      {
         "id": "interleukin-6",
         "label": "Interleukin-6 (IL-6)",
         "category": "mechanism",
@@ -188064,6 +188283,10 @@
       },
       {
         "source": "bacteroides-thetaiotaomicron",
+        "target": "interleukin-22"
+      },
+      {
+        "source": "bacteroides-thetaiotaomicron",
         "target": "bacteroides-fragilis"
       },
       {
@@ -188185,6 +188408,10 @@
       {
         "source": "bacteroides-vulgatus",
         "target": "faecalibacterium-prausnitzii"
+      },
+      {
+        "source": "bacteroides-vulgatus",
+        "target": "interleukin-22"
       },
       {
         "source": "bacteroides-vulgatus",
@@ -190953,6 +191180,10 @@
       {
         "source": "cystic-fibrosis",
         "target": "zinc-metalloprotease"
+      },
+      {
+        "source": "debaryomyces",
+        "target": "interleukin-22"
       },
       {
         "source": "debaryomyces",
@@ -195500,6 +195731,10 @@
       },
       {
         "source": "necrotizing-enterocolitis",
+        "target": "interleukin-22"
+      },
+      {
+        "source": "necrotizing-enterocolitis",
         "target": "klebsiella-pneumoniae"
       },
       {
@@ -196664,6 +196899,10 @@
       },
       {
         "source": "peptostreptococcus-stomatis",
+        "target": "interleukin-22"
+      },
+      {
+        "source": "peptostreptococcus-stomatis",
         "target": "dna-damage"
       },
       {
@@ -197133,6 +197372,10 @@
       {
         "source": "prevotella-copri",
         "target": "calprotectin"
+      },
+      {
+        "source": "prevotella-copri",
+        "target": "interleukin-22"
       },
       {
         "source": "prevotella-copri",
@@ -197937,6 +198180,10 @@
       {
         "source": "ruminococcus-gnavus",
         "target": "multiple-sclerosis"
+      },
+      {
+        "source": "ruminococcus-gnavus",
+        "target": "interleukin-22"
       },
       {
         "source": "ruminococcus-gnavus",
@@ -199813,6 +200060,10 @@
       {
         "source": "acidic-microenvironment",
         "target": "nickel"
+      },
+      {
+        "source": "ahr",
+        "target": "interleukin-22"
       },
       {
         "source": "ahr",
@@ -204776,6 +205027,10 @@
       },
       {
         "source": "immune-balance",
+        "target": "interleukin-22"
+      },
+      {
+        "source": "immune-balance",
         "target": "nickel-allergy"
       },
       {
@@ -204912,6 +205167,10 @@
       },
       {
         "source": "indole",
+        "target": "interleukin-22"
+      },
+      {
+        "source": "indole",
         "target": "colonization-resistance"
       },
       {
@@ -204945,6 +205204,10 @@
       {
         "source": "indoles",
         "target": "lactobacillus"
+      },
+      {
+        "source": "indoles",
+        "target": "interleukin-22"
       },
       {
         "source": "indoles",
@@ -205057,6 +205320,10 @@
       {
         "source": "infant-exposure",
         "target": "ahr"
+      },
+      {
+        "source": "infant-exposure",
+        "target": "interleukin-22"
       },
       {
         "source": "infant-exposure",
@@ -205281,6 +205548,42 @@
       {
         "source": "inter-kingdom-metal-shielding",
         "target": "environmental-metal-exposure"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "inflammation"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "tryptophan-metabolism"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "th17-treg-balance"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "tight-junctions"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "intestinal-permeability"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "mycobiome"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "il-17"
+      },
+      {
+        "source": "interleukin-22",
+        "target": "il-10"
       },
       {
         "source": "interleukin-6",
@@ -205617,6 +205920,10 @@
       {
         "source": "ketone-bodies",
         "target": "butyrate"
+      },
+      {
+        "source": "ketone-bodies",
+        "target": "interleukin-22"
       },
       {
         "source": "ketone-bodies",
@@ -209957,6 +210264,10 @@
       {
         "source": "tryptophan",
         "target": "ahr"
+      },
+      {
+        "source": "tryptophan",
+        "target": "interleukin-22"
       },
       {
         "source": "tryptophan",

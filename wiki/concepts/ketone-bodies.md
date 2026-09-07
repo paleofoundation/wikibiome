@@ -22,7 +22,7 @@ Ketone bodies (beta-hydroxybutyrate [BHB], acetoacetate, acetone) are produced b
 ## Microbiome Connection
 
 - The [[ketogenic-diet]] profoundly alters gut microbiome composition: increases Akkermansia, reduces Bifidobacterium, and shifts SCFA profiles [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]] [[shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol]].
-- BHB modulates intestinal ILC3 cells and IL-22 production [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]].
+- BHB modulates intestinal ILC3 cells and [[interleukin-22|IL-22]] production [[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]].
 - Clinical applications: epilepsy (established), ASD (emerging), neurodegeneration (investigational) [[li-2021-ketogenic-diet-treatment-asd-review]].
 
 ## Cross-References

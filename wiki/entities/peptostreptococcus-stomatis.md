@@ -138,7 +138,7 @@ This stage-specific enrichment pattern suggests *P. stomatis* accelerates the ad
 The CRC signature associated with *P. stomatis* includes:
 
 - Elevated colibactin-specific DNA lesions: γH2AX+ colonocytes; pks-specific DNA adducts (detectable by LC-MS).
-- Th17-skewed immunity: IL-17, IL-6 elevation; reduced IL-22 (gut barrier-protective cytokine).
+- Th17-skewed immunity: IL-17, IL-6 elevation; reduced [[interleukin-22|IL-22]] (gut barrier-protective cytokine).
 - APC mutations: Adenomatous polyposis coli (APC) gene disruption via colibactin-induced mutagenesis; truncating APC mutations enable adenoma initiation.
 - Field defect: Pre-neoplastic mucosa surrounding the tumor shows colibactin-induced DNA damage; indicates field carcinogenesis (multifocal transformation risk).
 

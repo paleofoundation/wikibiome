@@ -38,7 +38,7 @@ Tryptophan hydroxylase (TPH1 in gut, TPH2 in brain) converts tryptophan to 5-HTP
 
 ### The Microbial Indole Pathway
 
-Gut bacteria directly metabolize tryptophan via tryptophanase and other enzymes to produce indole derivatives: indole-3-propionic acid (IPA), indole-3-acetic acid (IAA), indole-3-aldehyde (IAld), and tryptamine. These metabolites activate the aryl hydrocarbon receptor ([[ahr|AhR]]) on gut epithelial cells and immune cells, driving IL-22 production and strengthening barrier integrity. IPA produced by *Clostridium sporogenes* is atheroprotective and inversely correlated with arterial plaque burden [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
+Gut bacteria directly metabolize tryptophan via tryptophanase and other enzymes to produce indole derivatives: indole-3-propionic acid (IPA), indole-3-acetic acid (IAA), indole-3-aldehyde (IAld), and tryptamine. These metabolites activate the aryl hydrocarbon receptor ([[ahr|AhR]]) on gut epithelial cells and immune cells, driving [[interleukin-22|IL-22]] production and strengthening barrier integrity. IPA produced by *Clostridium sporogenes* is atheroprotective and inversely correlated with arterial plaque burden [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
 
 ## Metal Connections
 

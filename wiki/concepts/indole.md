@@ -25,6 +25,8 @@ Indole is a microbial metabolite produced from tryptophan by bacterial tryptopha
 
 ## Key Indole Derivatives
 
+Across these metabolites, [[interleukin-22|IL-22]] is represented as an AhR-responsive mucosal signal connecting microbial indole chemistry to epithelial defense.
+
 | Metabolite | Producer | Receptor | Function |
 |-----------|----------|----------|----------|
 | Indole | E. coli, Bacteroides, Clostridium (TnaA+) | AhR | Barrier integrity, IL-22 induction |

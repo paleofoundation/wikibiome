@@ -29,7 +29,7 @@ The immune system is not a monolith but a dynamic equilibrium between pro-inflam
 - Metal connection: Mercury shifts toward Th2 (shown in murine models); cadmium promotes allergic sensitization; aluminum adjuvants in vaccines leverage Th2 polarization
 
 ### Th17 (Barrier Immunity/Autoimmunity)
-- Signature cytokines: IL-17A, IL-17F, IL-22
+- Signature cytokines: IL-17A, IL-17F, [[interleukin-22|IL-22]]
 - Function: Neutrophil recruitment, antimicrobial peptide induction, mucosal defense
 - Metal connection: Nickel strongly activates Th17 in allergic individuals [[nickel-allergy]]; arsenic promotes Th17 differentiation; IL-17 drives tissue damage in [[crohns-disease]], [[rheumatoid-arthritis]], [[autoimmunity|psoriasis]]
 

@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "02110b68fdfcfcfe7e6762defdc3162c1db9eba8ee04ae4c508df1a43d94e7f8",
+    "corpusSha256": "7e64b51216033dcb2b20f4c435c028c5bedbf5e0ae3781578b5e7f0ac751d6fe",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
-    "decisionsSha256": "6ab4314f26d0d2b61ed9e206f83dabc62b93eb22b780b609e4d86a7cd87b1d7a",
-    "publicArticles": 591,
+    "decisionsSha256": "2e9c853c6200594c017ce9cc04f15cc74646500fb233d3d7710e39dddbc97c03",
+    "publicArticles": 592,
     "sourceRecords": 1939
   },
   "policy": {
@@ -24,11 +24,11 @@
   },
   "summary": {
     "totalJobs": 207,
-    "createPage": 5,
-    "backfillLinks": 201,
+    "createPage": 4,
+    "backfillLinks": 202,
     "evidenceHold": 1,
     "accepted": 0,
-    "promoted": 14
+    "promoted": 16
   },
   "activeReviews": [],
   "completedJobs": [
@@ -83,6 +83,34 @@
       "key": "backfill_links:catalase#2026-09-07-core-catalase-contexts",
       "jobKey": "backfill_links:catalase",
       "batchId": "2026-09-07-core-catalase-contexts"
+    },
+    {
+      "id": "interleukin-22",
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "targets": [
+        "tryptophan-metabolism",
+        "necrotizing-enterocolitis",
+        "indoles",
+        "ahr",
+        "mycobiome",
+        "immune-balance",
+        "bacteroides-vulgatus",
+        "tryptophan",
+        "bacteroides-thetaiotaomicron",
+        "prevotella-copri",
+        "th17-treg-balance",
+        "debaryomyces",
+        "infant-exposure",
+        "peptostreptococcus-stomatis",
+        "ruminococcus-gnavus",
+        "indole",
+        "ketone-bodies"
+      ],
+      "key": "backfill_links:interleukin-22#2026-09-07-core-interleukin-22-contexts",
+      "jobKey": "backfill_links:interleukin-22",
+      "batchId": "2026-09-07-core-interleukin-22-contexts"
     },
     {
       "id": "nlrp3-inflammasome",
@@ -141,6 +169,17 @@
       "key": "create_page:catalase",
       "jobKey": "create_page:catalase",
       "id": "catalase"
+    },
+    {
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "path": "wiki/concepts/interleukin-22.md",
+      "validatedSourceCount": 7,
+      "rationale": "Highest-scoring remaining creation candidate; seven complementary vault sources support IL-22's immune-cell origin, epithelial barrier role, microbiome-linked AhR and SCFA pathways, context-dependent inflammatory effects, and positive and null human associations.",
+      "key": "create_page:interleukin-22",
+      "jobKey": "create_page:interleukin-22",
+      "id": "interleukin-22"
     },
     {
       "state": "promoted",
@@ -731,11 +770,11 @@
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 101,
+        "distinctArticles": 102,
         "totalPlainMentions": 161,
-        "linkedArticles": 2,
+        "linkedArticles": 3,
         "unlinkedArticles": 99,
-        "linkCoveragePercent": 2,
+        "linkCoveragePercent": 3,
         "leadMentions": 3,
         "headingMentions": 1,
         "articleCategories": [
@@ -747,7 +786,7 @@
         ],
         "candidateEvidenceSources": 69,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 437.044
+        "weightedGraphGain": 437.304
       },
       "affectedPages": [
         {
@@ -792,7 +831,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 32
+          "inboundLinks": 33
         },
         {
           "id": "dysbiosis",
@@ -858,7 +897,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "inflammation",
@@ -869,7 +908,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "colorectal-cancer",
@@ -2587,7 +2626,7 @@
         ],
         "candidateEvidenceSources": 915,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 877.457
+        "weightedGraphGain": 879.58
       },
       "affectedPages": [
         {
@@ -3018,9 +3057,9 @@
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 278,
-        "totalPlainMentions": 625,
-        "linkedArticles": 53,
+        "distinctArticles": 279,
+        "totalPlainMentions": 626,
+        "linkedArticles": 54,
         "unlinkedArticles": 225,
         "linkCoveragePercent": 19,
         "leadMentions": 26,
@@ -3035,7 +3074,7 @@
         ],
         "candidateEvidenceSources": 607,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 827.778
+        "weightedGraphGain": 828.53
       },
       "affectedPages": [
         {
@@ -3116,22 +3155,22 @@
           "inboundLinks": 20
         },
         {
-          "id": "metal-homeostasis",
-          "title": "Metal Homeostasis",
-          "path": "wiki/concepts/metal-homeostasis.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 13
-        },
-        {
           "id": "ahr",
           "title": "AhR (Aryl Hydrocarbon Receptor)",
           "path": "wiki/concepts/ahr.md",
           "category": "concept",
           "plainMentions": 1,
+          "linked": false,
+          "leadMention": true,
+          "headingMention": false,
+          "inboundLinks": 14
+        },
+        {
+          "id": "metal-homeostasis",
+          "title": "Metal Homeostasis",
+          "path": "wiki/concepts/metal-homeostasis.md",
+          "category": "concept",
+          "plainMentions": 2,
           "linked": false,
           "leadMention": true,
           "headingMention": false,
@@ -3485,7 +3524,7 @@
         ],
         "candidateEvidenceSources": 665,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 740.245
+        "weightedGraphGain": 740.841
       },
       "affectedPages": [
         {
@@ -3607,7 +3646,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "arsenic",
@@ -3673,7 +3712,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "tmao",
@@ -3706,7 +3745,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "celiac-disease",
@@ -3935,7 +3974,7 @@
         ],
         "candidateEvidenceSources": 306,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 638.64
+        "weightedGraphGain": 638.82
       },
       "affectedPages": [
         {
@@ -3958,7 +3997,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "roseburia",
@@ -4384,7 +4423,7 @@
         ],
         "candidateEvidenceSources": 373,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 485.029
+        "weightedGraphGain": 485.409
       },
       "affectedPages": [
         {
@@ -4451,7 +4490,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "copper",
@@ -4832,7 +4871,7 @@
         ],
         "candidateEvidenceSources": 235,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 462.099
+        "weightedGraphGain": 462.858
       },
       "affectedPages": [
         {
@@ -4866,7 +4905,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "gut-brain-axis",
@@ -5263,11 +5302,11 @@
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 111,
-        "totalPlainMentions": 205,
-        "linkedArticles": 2,
-        "unlinkedArticles": 109,
-        "linkCoveragePercent": 2,
+        "distinctArticles": 112,
+        "totalPlainMentions": 207,
+        "linkedArticles": 1,
+        "unlinkedArticles": 111,
+        "linkCoveragePercent": 1,
         "leadMentions": 15,
         "headingMentions": 12,
         "articleCategories": [
@@ -5280,7 +5319,7 @@
         ],
         "candidateEvidenceSources": 364,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 426.953
+        "weightedGraphGain": 434.64
       },
       "affectedPages": [
         {
@@ -5303,7 +5342,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 15
+          "inboundLinks": 16
         },
         {
           "id": "saccharomyces-cerevisiae",
@@ -5336,7 +5375,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "kynurenine-pathway",
@@ -5728,7 +5767,7 @@
         ],
         "candidateEvidenceSources": 80,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 332.153
+        "weightedGraphGain": 332.168
       },
       "affectedPages": [
         {
@@ -5773,7 +5812,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "bifidobacterium",
@@ -6175,7 +6214,7 @@
         ],
         "candidateEvidenceSources": 196,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 325.678
+        "weightedGraphGain": 326.221
       },
       "affectedPages": [
         {
@@ -6264,7 +6303,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "oxidative-stress",
@@ -6622,7 +6661,7 @@
         ],
         "candidateEvidenceSources": 87,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 300.572
+        "weightedGraphGain": 301.173
       },
       "affectedPages": [
         {
@@ -6711,7 +6750,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "short-chain-fatty-acids",
@@ -6722,7 +6761,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "colorectal-cancer",
@@ -6799,7 +6838,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 32
+          "inboundLinks": 33
         },
         {
           "id": "neuroinflammation",
@@ -7069,7 +7108,7 @@
         ],
         "candidateEvidenceSources": 202,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 291.266
+        "weightedGraphGain": 291.517
       },
       "affectedPages": [
         {
@@ -7103,7 +7142,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "indoles",
@@ -7114,7 +7153,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 15
+          "inboundLinks": 16
         },
         {
           "id": "indoxyl-sulfate",
@@ -7516,7 +7555,7 @@
         ],
         "candidateEvidenceSources": 77,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 287.262
+        "weightedGraphGain": 287.361
       },
       "affectedPages": [
         {
@@ -7964,7 +8003,7 @@
         ],
         "candidateEvidenceSources": 105,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 283.855
+        "weightedGraphGain": 283.977
       },
       "affectedPages": [
         {
@@ -7976,7 +8015,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "propionic-acid",
@@ -8411,7 +8450,7 @@
         ],
         "candidateEvidenceSources": 84,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 240.649
+        "weightedGraphGain": 240.664
       },
       "affectedPages": [
         {
@@ -8522,7 +8561,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "copper",
@@ -8858,7 +8897,7 @@
         ],
         "candidateEvidenceSources": 133,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 233.794
+        "weightedGraphGain": 233.909
       },
       "affectedPages": [
         {
@@ -8881,7 +8920,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "periodontitis",
@@ -8903,7 +8942,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "oxidative-stress",
@@ -9304,7 +9343,7 @@
         ],
         "candidateEvidenceSources": 278,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 231.777
+        "weightedGraphGain": 231.955
       },
       "affectedPages": [
         {
@@ -9316,7 +9355,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "microbial-biomarkers",
@@ -9752,7 +9791,7 @@
         ],
         "candidateEvidenceSources": 54,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 223.139
+        "weightedGraphGain": 223.239
       },
       "affectedPages": [
         {
@@ -9984,7 +10023,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "inter-kingdom-metal-shielding",
@@ -10199,7 +10238,7 @@
         ],
         "candidateEvidenceSources": 60,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 222.744
+        "weightedGraphGain": 222.759
       },
       "affectedPages": [
         {
@@ -10332,7 +10371,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "butyrate",
@@ -11986,7 +12025,7 @@
         ],
         "candidateEvidenceSources": 29,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 195.624
+        "weightedGraphGain": 195.724
       },
       "affectedPages": [
         {
@@ -12251,7 +12290,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         }
       ],
       "candidateSources": [
@@ -13756,11 +13795,11 @@
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 60,
+        "distinctArticles": 61,
         "totalPlainMentions": 43,
-        "linkedArticles": 25,
+        "linkedArticles": 26,
         "unlinkedArticles": 35,
-        "linkCoveragePercent": 42,
+        "linkCoveragePercent": 43,
         "leadMentions": 3,
         "headingMentions": 2,
         "articleCategories": [
@@ -13772,7 +13811,7 @@
         ],
         "candidateEvidenceSources": 110,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 137.117
+        "weightedGraphGain": 137.304
       },
       "affectedPages": [
         {
@@ -13927,7 +13966,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 15
+          "inboundLinks": 16
         },
         {
           "id": "ahr",
@@ -13938,7 +13977,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "bacteroides-vulgatus",
@@ -15482,7 +15521,7 @@
         ],
         "candidateEvidenceSources": 94,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 114.103
+        "weightedGraphGain": 114.202
       },
       "affectedPages": [
         {
@@ -15516,7 +15555,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "insulin-resistance",
@@ -16711,9 +16750,9 @@
         "path": "wiki/concepts/indole.md",
         "sourceCount": 5
       },
-      "priority": 91.7,
+      "priority": 91.84,
       "scoreComponents": {
-        "demand": 24.2,
+        "demand": 24.34,
         "evidence": 25,
         "graphGain": 20,
         "scopeFit": 9,
@@ -16721,10 +16760,10 @@
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 44,
-        "totalPlainMentions": 121,
+        "distinctArticles": 45,
+        "totalPlainMentions": 123,
         "linkedArticles": 1,
-        "unlinkedArticles": 43,
+        "unlinkedArticles": 44,
         "linkCoveragePercent": 2,
         "leadMentions": 3,
         "headingMentions": 4,
@@ -16736,7 +16775,7 @@
         ],
         "candidateEvidenceSources": 86,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 191.025
+        "weightedGraphGain": 196.446
       },
       "affectedPages": [
         {
@@ -16748,7 +16787,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "indoles",
@@ -16759,7 +16798,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 15
+          "inboundLinks": 16
         },
         {
           "id": "indoxyl-sulfate",
@@ -16927,6 +16966,17 @@
           "inboundLinks": 17
         },
         {
+          "id": "interleukin-22",
+          "title": "Interleukin-22",
+          "path": "wiki/concepts/interleukin-22.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 17
+        },
+        {
           "id": "blood-brain-barrier",
           "title": "Blood-Brain Barrier",
           "path": "wiki/concepts/blood-brain-barrier.md",
@@ -16938,6 +16988,17 @@
           "inboundLinks": 16
         },
         {
+          "id": "ahr",
+          "title": "AhR (Aryl Hydrocarbon Receptor)",
+          "path": "wiki/concepts/ahr.md",
+          "category": "concept",
+          "plainMentions": 11,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 14
+        },
+        {
           "id": "clostridium",
           "title": "Clostridium",
           "path": "wiki/entities/clostridium.md",
@@ -16947,17 +17008,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 14
-        },
-        {
-          "id": "ahr",
-          "title": "AhR (Aryl Hydrocarbon Receptor)",
-          "path": "wiki/concepts/ahr.md",
-          "category": "concept",
-          "plainMentions": 11,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 13
         },
         {
           "id": "anaerostipes",
@@ -16991,17 +17041,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 9
-        },
-        {
-          "id": "bacteroides-thetaiotaomicron",
-          "title": "Bacteroides thetaiotaomicron",
-          "path": "wiki/entities/bacteroides-thetaiotaomicron.md",
-          "category": "microbe",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 8
         }
       ],
       "candidateSources": [
@@ -18075,7 +18114,7 @@
         ],
         "candidateEvidenceSources": 61,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 198.543
+        "weightedGraphGain": 198.607
       },
       "affectedPages": [
         {
@@ -18307,7 +18346,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "metallomics",
@@ -18942,9 +18981,9 @@
         "path": "wiki/concepts/mycobiome.md",
         "sourceCount": 3
       },
-      "priority": 90.46,
+      "priority": 90.63,
       "scoreComponents": {
-        "demand": 22.96,
+        "demand": 23.13,
         "evidence": 25,
         "graphGain": 20,
         "scopeFit": 9,
@@ -18952,10 +18991,10 @@
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 36,
-        "totalPlainMentions": 95,
+        "distinctArticles": 37,
+        "totalPlainMentions": 96,
         "linkedArticles": 5,
-        "unlinkedArticles": 31,
+        "unlinkedArticles": 32,
         "linkCoveragePercent": 14,
         "leadMentions": 6,
         "headingMentions": 16,
@@ -18968,7 +19007,7 @@
         ],
         "candidateEvidenceSources": 69,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 93.192
+        "weightedGraphGain": 98.362
       },
       "affectedPages": [
         {
@@ -19170,6 +19209,17 @@
           "inboundLinks": 36
         },
         {
+          "id": "interleukin-22",
+          "title": "Interleukin-22",
+          "path": "wiki/concepts/interleukin-22.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 17
+        },
+        {
           "id": "nlrp3-inflammasome",
           "title": "NLRP3 Inflammasome",
           "path": "wiki/concepts/nlrp3-inflammasome.md",
@@ -19223,17 +19273,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 3
-        },
-        {
-          "id": "homocysteine",
-          "title": "Homocysteine",
-          "path": "wiki/concepts/homocysteine.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 2
         }
       ],
       "candidateSources": [
@@ -19389,21 +19428,21 @@
         "path": "wiki/concepts/tryptophan-metabolism.md",
         "sourceCount": 9
       },
-      "priority": 90.27,
+      "priority": 90.44,
       "scoreComponents": {
-        "demand": 23.13,
+        "demand": 23.29,
         "evidence": 25,
-        "graphGain": 19.64,
+        "graphGain": 19.65,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 37,
+        "distinctArticles": 38,
         "totalPlainMentions": 41,
-        "linkedArticles": 13,
+        "linkedArticles": 14,
         "unlinkedArticles": 24,
-        "linkCoveragePercent": 35,
+        "linkCoveragePercent": 37,
         "leadMentions": 1,
         "headingMentions": 3,
         "articleCategories": [
@@ -19414,7 +19453,7 @@
         ],
         "candidateEvidenceSources": 106,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 89.545
+        "weightedGraphGain": 89.645
       },
       "affectedPages": [
         {
@@ -19484,6 +19523,17 @@
           "inboundLinks": 15
         },
         {
+          "id": "ahr",
+          "title": "AhR (Aryl Hydrocarbon Receptor)",
+          "path": "wiki/concepts/ahr.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 14
+        },
+        {
           "id": "clostridium",
           "title": "Clostridium",
           "path": "wiki/entities/clostridium.md",
@@ -19493,17 +19543,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 14
-        },
-        {
-          "id": "ahr",
-          "title": "AhR (Aryl Hydrocarbon Receptor)",
-          "path": "wiki/concepts/ahr.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 13
         },
         {
           "id": "postpartum-depression",
@@ -20306,7 +20345,7 @@
         ],
         "candidateEvidenceSources": 57,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 137.136
+        "weightedGraphGain": 137.372
       },
       "affectedPages": [
         {
@@ -20351,7 +20390,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "short-chain-fatty-acids",
@@ -20362,7 +20401,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "butyrate",
@@ -20461,6 +20500,17 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
+          "inboundLinks": 14
+        },
+        {
+          "id": "immune-balance",
+          "title": "Immune Balance",
+          "path": "wiki/concepts/immune-balance.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
           "inboundLinks": 13
         },
         {
@@ -20479,17 +20529,6 @@
           "title": "Fibromyalgia",
           "path": "wiki/entities/fibromyalgia.md",
           "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "immune-balance",
-          "title": "Immune Balance",
-          "path": "wiki/concepts/immune-balance.md",
-          "category": "concept",
           "plainMentions": 1,
           "linked": false,
           "leadMention": false,
@@ -20753,7 +20792,7 @@
         ],
         "candidateEvidenceSources": 72,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 144.417
+        "weightedGraphGain": 144.94
       },
       "affectedPages": [
         {
@@ -20765,7 +20804,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 12
+          "inboundLinks": 13
         },
         {
           "id": "magnesium",
@@ -20842,7 +20881,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "inflammation",
@@ -20853,7 +20892,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "butyrate",
@@ -20930,7 +20969,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "type-1-diabetes",
@@ -20944,22 +20983,22 @@
           "inboundLinks": 14
         },
         {
-          "id": "anaerostipes",
-          "title": "Anaerostipes",
-          "path": "wiki/entities/anaerostipes.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 13
-        },
-        {
           "id": "ahr",
           "title": "AhR (Aryl Hydrocarbon Receptor)",
           "path": "wiki/concepts/ahr.md",
           "category": "concept",
           "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 14
+        },
+        {
+          "id": "anaerostipes",
+          "title": "Anaerostipes",
+          "path": "wiki/entities/anaerostipes.md",
+          "category": "microbe",
+          "plainMentions": 2,
           "linked": false,
           "leadMention": false,
           "headingMention": false,
@@ -21018,7 +21057,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 5
+          "inboundLinks": 6
         }
       ],
       "candidateSources": [
@@ -22094,7 +22133,7 @@
         ],
         "candidateEvidenceSources": 71,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 176.99
+        "weightedGraphGain": 177.097
       },
       "affectedPages": [
         {
@@ -22252,6 +22291,17 @@
           "inboundLinks": 14
         },
         {
+          "id": "immune-balance",
+          "title": "Immune Balance",
+          "path": "wiki/concepts/immune-balance.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 13
+        },
+        {
           "id": "postpartum-depression",
           "title": "Postpartum Depression",
           "path": "wiki/entities/postpartum-depression.md",
@@ -22268,17 +22318,6 @@
           "path": "wiki/entities/fibromyalgia.md",
           "category": "disease",
           "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "immune-balance",
-          "title": "Immune Balance",
-          "path": "wiki/concepts/immune-balance.md",
-          "category": "concept",
-          "plainMentions": 1,
           "linked": false,
           "leadMention": false,
           "headingMention": false,
@@ -23854,11 +23893,11 @@
         "path": "wiki/concepts/kynurenine-pathway.md",
         "sourceCount": 10
       },
-      "priority": 88.56,
+      "priority": 88.57,
       "scoreComponents": {
         "demand": 21.63,
         "evidence": 25,
-        "graphGain": 19.43,
+        "graphGain": 19.44,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -23879,7 +23918,7 @@
         ],
         "candidateEvidenceSources": 53,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 83.848
+        "weightedGraphGain": 84.099
       },
       "affectedPages": [
         {
@@ -23891,7 +23930,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "indoles",
@@ -23902,7 +23941,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 15
+          "inboundLinks": 16
         },
         {
           "id": "kynurenine",
@@ -23990,7 +24029,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "postpartum-depression",
@@ -25184,7 +25223,7 @@
         ],
         "candidateEvidenceSources": 13,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 91.778
+        "weightedGraphGain": 91.793
       },
       "affectedPages": [
         {
@@ -25229,7 +25268,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "metal-dependent-virulence",
@@ -25631,7 +25670,7 @@
         ],
         "candidateEvidenceSources": 34,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 40.575
+        "weightedGraphGain": 40.59
       },
       "affectedPages": [
         {
@@ -25687,7 +25726,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "copper",
@@ -28357,7 +28396,7 @@
         ],
         "candidateEvidenceSources": 48,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 108.205
+        "weightedGraphGain": 108.293
       },
       "affectedPages": [
         {
@@ -28479,7 +28518,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 15
+          "inboundLinks": 16
         },
         {
           "id": "tryptophan",
@@ -28802,7 +28841,7 @@
         ],
         "candidateEvidenceSources": 74,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 97.124
+        "weightedGraphGain": 97.139
       },
       "affectedPages": [
         {
@@ -28869,7 +28908,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "parkinsons-disease",
@@ -32124,11 +32163,11 @@
         "path": "wiki/concepts/molecular-mimicry.md",
         "sourceCount": 6
       },
-      "priority": 85.59,
+      "priority": 85.6,
       "scoreComponents": {
         "demand": 19.05,
         "evidence": 25,
-        "graphGain": 19.04,
+        "graphGain": 19.05,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -32149,7 +32188,7 @@
         ],
         "candidateEvidenceSources": 18,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 74.275
+        "weightedGraphGain": 74.382
       },
       "affectedPages": [
         {
@@ -32238,7 +32277,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 12
+          "inboundLinks": 13
         },
         {
           "id": "rheumatoid-arthritis",
@@ -34062,7 +34101,7 @@
         ],
         "candidateEvidenceSources": 80,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 108.59
+        "weightedGraphGain": 108.654
       },
       "affectedPages": [
         {
@@ -34184,7 +34223,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "gut-microbiome",
@@ -35334,7 +35373,7 @@
         ],
         "candidateEvidenceSources": 26,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 71.954
+        "weightedGraphGain": 71.969
       },
       "affectedPages": [
         {
@@ -35401,7 +35440,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "hashimotos-thyroiditis",
@@ -36453,7 +36492,7 @@
         ],
         "candidateEvidenceSources": 161,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 83.49
+        "weightedGraphGain": 83.589
       },
       "affectedPages": [
         {
@@ -36553,7 +36592,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "dialister",
@@ -37703,7 +37742,7 @@
         ],
         "candidateEvidenceSources": 33,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 76.173
+        "weightedGraphGain": 76.279
       },
       "affectedPages": [
         {
@@ -37781,7 +37820,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 12
+          "inboundLinks": 13
         },
         {
           "id": "tlr4",
@@ -39210,7 +39249,7 @@
         ],
         "candidateEvidenceSources": 69,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 79.631
+        "weightedGraphGain": 79.646
       },
       "affectedPages": [
         {
@@ -39244,7 +39283,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "colorectal-cancer",
@@ -39554,11 +39593,11 @@
         "path": "wiki/concepts/quinolinic-acid.md",
         "sourceCount": 3
       },
-      "priority": 83.05,
+      "priority": 83.06,
       "scoreComponents": {
         "demand": 19.36,
         "evidence": 25,
-        "graphGain": 19.19,
+        "graphGain": 19.2,
         "scopeFit": 9,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": 0
@@ -39579,7 +39618,7 @@
         ],
         "candidateEvidenceSources": 18,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 77.81
+        "weightedGraphGain": 77.874
       },
       "affectedPages": [
         {
@@ -39635,7 +39674,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "microbiome-derived-metabolites",
@@ -39980,7 +40019,7 @@
         ],
         "candidateEvidenceSources": 44,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 66.903
+        "weightedGraphGain": 66.918
       },
       "affectedPages": [
         {
@@ -40014,7 +40053,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "endometriosis",
@@ -40522,7 +40561,7 @@
         ],
         "candidateEvidenceSources": 38,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 93.434
+        "weightedGraphGain": 93.522
       },
       "affectedPages": [
         {
@@ -40633,7 +40672,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 15
+          "inboundLinks": 16
         },
         {
           "id": "atherosclerosis",
@@ -42216,11 +42255,11 @@
         "path": "wiki/concepts/propionic-acid.md",
         "sourceCount": 5
       },
-      "priority": 81.16,
+      "priority": 81.17,
       "scoreComponents": {
         "demand": 19.05,
         "evidence": 25,
-        "graphGain": 16.86,
+        "graphGain": 16.87,
         "scopeFit": 9,
         "outlineReadiness": 11.25,
         "ambiguityPenalty": 0
@@ -42240,7 +42279,7 @@
         ],
         "candidateEvidenceSources": 41,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 55.484
+        "weightedGraphGain": 55.647
       },
       "affectedPages": [
         {
@@ -42307,7 +42346,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "ahr",
@@ -42318,7 +42357,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 13
+          "inboundLinks": 14
         },
         {
           "id": "tryptophan",
@@ -43421,11 +43460,11 @@
         "path": "wiki/concepts/nlrp3-inflammasome.md",
         "sourceCount": 7
       },
-      "priority": 79.98,
+      "priority": 80,
       "scoreComponents": {
         "demand": 19.65,
         "evidence": 25,
-        "graphGain": 15.83,
+        "graphGain": 15.85,
         "scopeFit": 12,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": -3
@@ -43446,7 +43485,7 @@
         ],
         "candidateEvidenceSources": 37,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 27.038
+        "weightedGraphGain": 27.145
       },
       "affectedPages": [
         {
@@ -43480,7 +43519,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 12
+          "inboundLinks": 13
         },
         {
           "id": "rheumatoid-arthritis",
@@ -44450,6 +44489,287 @@
       ]
     },
     {
+      "key": "backfill_links:indoles",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": null,
+      "id": "indoles",
+      "title": "Indoles",
+      "pageType": "concept",
+      "aliases": [
+        "Indoles",
+        "indoles"
+      ],
+      "excludePhrases": [],
+      "reason": "Existing public concept with eligible plain-text mentions.",
+      "existingPage": {
+        "path": "wiki/concepts/indoles.md",
+        "sourceCount": 4
+      },
+      "priority": 79.42,
+      "scoreComponents": {
+        "demand": 19.65,
+        "evidence": 25,
+        "graphGain": 17.52,
+        "scopeFit": 9,
+        "outlineReadiness": 8.25,
+        "ambiguityPenalty": 0
+      },
+      "metrics": {
+        "distinctArticles": 21,
+        "totalPlainMentions": 15,
+        "linkedArticles": 12,
+        "unlinkedArticles": 9,
+        "linkCoveragePercent": 57,
+        "leadMentions": 0,
+        "headingMentions": 0,
+        "articleCategories": [
+          "concept",
+          "disease",
+          "metabolite",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 35,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 46.131
+      },
+      "affectedPages": [
+        {
+          "id": "dysbiosis",
+          "title": "Dysbiosis",
+          "path": "wiki/concepts/dysbiosis.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 148
+        },
+        {
+          "id": "gut-brain-axis",
+          "title": "Gut-Brain Axis",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 74
+        },
+        {
+          "id": "microbiome-derived-metabolites",
+          "title": "Microbiome-Derived Metabolites",
+          "path": "wiki/concepts/microbiome-derived-metabolites.md",
+          "category": "concept",
+          "plainMentions": 3,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 17
+        },
+        {
+          "id": "interleukin-22",
+          "title": "Interleukin-22",
+          "path": "wiki/concepts/interleukin-22.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 17
+        },
+        {
+          "id": "ahr",
+          "title": "AhR (Aryl Hydrocarbon Receptor)",
+          "path": "wiki/concepts/ahr.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 14
+        },
+        {
+          "id": "tryptophan",
+          "title": "Tryptophan",
+          "path": "wiki/concepts/tryptophan.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 10
+        },
+        {
+          "id": "bacteroides-thetaiotaomicron",
+          "title": "Bacteroides thetaiotaomicron",
+          "path": "wiki/entities/bacteroides-thetaiotaomicron.md",
+          "category": "microbe",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 8
+        },
+        {
+          "id": "fermentative-metabolism",
+          "title": "Fermentative Metabolism",
+          "path": "wiki/concepts/fermentative-metabolism.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 6
+        },
+        {
+          "id": "metabolites",
+          "title": "Microbial Metabolites",
+          "path": "wiki/concepts/metabolites.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 3
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review",
+          "title": "Gut Microbiota and Thyroid Diseases: A Comprehensive Review of Mechanisms and Clinical Implications",
+          "evidenceLevel": "systematic-review-meta-analysis",
+          "year": 2025,
+          "path": "wiki/sources/bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review.md",
+          "passage": {
+            "excerpt": "- Gut microbes not only influence thyroid hormone synthesis and metabolism through metabolites such as short chain fatty acids, proteobacteria, secondary bile acid metabolism, and indoles, but also play critical roles in immune homeostasis, contributing to...",
+            "sha256": "7b3297b356c0ab5d1b54baf8a5f07d8df788a73596a75dfb3471068039e8a094"
+          }
+        },
+        {
+          "id": "chen-2024-indoles-microbiome-parkinsons",
+          "title": "Chen 2025 -- Indole Metabolites and Gut Microbiome in Parkinson's Disease",
+          "evidenceLevel": "cross-sectional",
+          "year": 2025,
+          "path": "wiki/sources/chen-2024-indoles-microbiome-parkinsons.md",
+          "passage": {
+            "excerpt": "This study characterizes indole metabolite profiles and their relationship to gut microbiome composition in parkinsons disease. Indoles are produced by microbial tryptophan metabolism and serve as ligands for the aryl hydrocarbon receptor (AhR), a key regul...",
+            "sha256": "bb04a33a06f7645539abbf716ecb76a74cb5b75e75a30eb8195073c9456aaa87"
+          }
+        },
+        {
+          "id": "gutmann-2025-functional-microbiome-diet-ms",
+          "title": "Functional Microbiome Reprogramming Links Dietary Interventions to Neuroinflammatory Outcomes in Multiple Sclerosis",
+          "evidenceLevel": "randomized-controlled-trial",
+          "year": 2025,
+          "path": "wiki/sources/gutmann-2025-functional-microbiome-diet-ms.md",
+          "passage": {
+            "excerpt": "- Ketogenic diet (KD) benefits MS primarily through direct modulation of gut microbial function, enriching propionate production and glycerol metabolism modules linked to lower MRI lesion volume - Three anaerobic SCFA-producing species -- *Romboutsia timone...",
+            "sha256": "b0dd435386a48f385fa939a1eaab30e19478190ac92acd383df0223ed30947bc"
+          }
+        },
+        {
+          "id": "xie-2025-gut-microbiome-pregnancy-disorders",
+          "title": "Xie 2025 — Unraveling the Role of the Gut Microbiome in Pregnancy Disorders: Insights and Implications",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/xie-2025-gut-microbiome-pregnancy-disorders.md",
+          "passage": {
+            "excerpt": "- **Design**: Review of gut microbiota-gestational disease associations; mechanisms including LPS, kynurenine, indoles, bile acid hydrolase, SCFAs, serotonin pathways - **Key figure**: Gut dysbiosis leading to neuroinflammation and PPD via multiple metaboli...",
+            "sha256": "232ba33d72318784414bade4686ee24c003810976749775731698ffe14435123"
+          }
+        },
+        {
+          "id": "zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders",
+          "title": "Zhou 2025 — Role of Gut Microbiota in Neuroinflammation: A Focus on Perioperative Neurocognitive Disorders",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders.md",
+          "passage": {
+            "excerpt": "6. **Gut microbiota metabolites**: SCFAs (acetate, propionate, butyrate) inhibit microglial activation and NF-kB signaling. Gut bacteria produce ~60% of colonic 5-HT; surgical dysbiosis disrupts 5-HT metabolism causing hippocampal deficiency. *Lactobacillus...",
+            "sha256": "ea5b44dcc3fc9aeeae684a3ce966b2667ad67520437baff6877ce35289e2f70d"
+          }
+        },
+        {
+          "id": "diallo-2024-microbiome-derived-metabolites-autoimmune",
+          "title": "Microbiome-Derived Metabolites as Therapeutic Targets in Autoimmune Diseases",
+          "evidenceLevel": "expert-opinion",
+          "year": 2024,
+          "path": "wiki/sources/diallo-2024-microbiome-derived-metabolites-autoimmune.md",
+          "passage": {
+            "excerpt": "- **Design**: Brief review from Cheikh Anta Diop University, Dakar, Senegal - **Metabolite classes covered**: SCFAs (microbial fermentation products), tryptophan catabolites (indoles and kynurenines via AhR), bile acids (primary to secondary conversion by g...",
+            "sha256": "3f9d8b1419a52164609469df3cf2aefe0ed2c220de7015ba752274fdfa76ee97"
+          }
+        },
+        {
+          "id": "heinzel-2024-microbial-biomarkers-parkinsons-multiomics",
+          "title": "Heinzel 2024 -- Microbial Biomarkers for Parkinson's Disease: A Multi-Omics Approach",
+          "evidenceLevel": "prospective-cohort",
+          "year": 2024,
+          "path": "wiki/sources/heinzel-2024-microbial-biomarkers-parkinsons-multiomics.md",
+          "passage": {
+            "excerpt": "Multi-omics biomarker integration is essential for capturing the metallomic dimension of parkinsons disease gut dysbiosis. Fecal calprotectin (already included in inflammatory marker panels) is itself a zinc/manganese-sequestering protein of the nutritional...",
+            "sha256": "00ee002217e7e6f6b0734e0e19905b449715804c0c3029f963f77d8d929de188"
+          }
+        },
+        {
+          "id": "natowicz-2024-postmortem-brain-tissue-autism-science",
+          "title": "Natowicz 2024 — A Most Important Gift: The Critical Role of Postmortem Brain Tissue in Autism Science",
+          "evidenceLevel": "expert-opinion",
+          "year": 2024,
+          "path": "wiki/sources/natowicz-2024-postmortem-brain-tissue-autism-science.md",
+          "passage": {
+            "excerpt": "- Can multi-omics analysis of postmortem ASD brain tissue reveal metal dyshomeostasis patterns consistent with peripheral findings? - How do gut-derived metabolites (SCFA, indoles, LPS) influence brain pathology measurable only in postmortem tissue? - What...",
+            "sha256": "08ef746979fe9dd58b03d75c2692b0b711857a2c341234a69782e218ab279252"
+          }
+        },
+        {
+          "id": "zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms",
+          "title": "A microbially produced AhR ligand promotes a Tph1-driven tolerogenic program in multiple sclerosis",
+          "evidenceLevel": "animal-model",
+          "year": 2024,
+          "path": "wiki/sources/zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms.md",
+          "passage": {
+            "excerpt": "- 3-IAld --> AHR activation in mast cells --> Tph1 upregulation --> serotonin release --> tolerogenic cytokine milieu in lymph nodes - This creates a regulatory network where microbial indoles maintain peripheral tolerance via mast cell serotonin production",
+            "sha256": "29dad2e5389853b3fc8f1f01f77deab4304c4ea5d126c0c1cd5691f935afb23b"
+          }
+        },
+        {
+          "id": "zhuang-2024-asd-pathogenesis-biomarker-intervention",
+          "title": "Zhuang 2024 — Autism Spectrum Disorder: Pathogenesis, Biomarker, and Intervention Therapy",
+          "evidenceLevel": "expert-opinion",
+          "year": 2024,
+          "path": "wiki/sources/zhuang-2024-asd-pathogenesis-biomarker-intervention.md",
+          "passage": {
+            "excerpt": "- Mitochondrial dysfunction (imperfect electron transfer) - Elevated iron metabolism (Fenton chemistry if dysregulated) - Dysbiotic microbiota-derived metabolites (phenols, indoles can auto-oxidize)",
+            "sha256": "db332221e1d6e3b11dcbdfa71c9ba8e9772f4023c9e5a9a42779296f11ef8bfc"
+          }
+        },
+        {
+          "id": "bronzini-2023-feeding-gut-microbiome-ms",
+          "title": "Feeding the gut microbiome: impact on multiple sclerosis",
+          "evidenceLevel": "animal-model",
+          "year": 2023,
+          "path": "wiki/sources/bronzini-2023-feeding-gut-microbiome-ms.md",
+          "passage": {
+            "excerpt": "- **High-fat diet**: increases EAE severity via Th1/Th17 differentiation through p38/MAPK pathway - **High-salt diet**: increases CNS infiltration of Th17; mitigated by *Lactobacillus murinus* supplementation - **Dietary fibers**: increase short chain fatty...",
+            "sha256": "44c5a31275b23e84132720ef5d91ac15f845576c710b74796e2edadd9f329e6d"
+          }
+        },
+        {
+          "id": "feng-2023-probiotics-asd-gut-brain-axis-review",
+          "title": "Feng 2023 — Probiotics in Treatment of ASD: Gut-Brain Axis Perspectives",
+          "evidenceLevel": "expert-opinion",
+          "year": 2023,
+          "path": "wiki/sources/feng-2023-probiotics-asd-gut-brain-axis-review.md",
+          "passage": {
+            "excerpt": "- **Metal-dependent metabolite production**: Clostridial propionic acid synthesis requires cobalt-dependent enzymes; dysbiotic metal availability drives neurotoxic metabolite production - **BBB permeability**: Propionic acid and LPS increase BBB permeabilit...",
+            "sha256": "404a0a167c5c8a246acd8dd574872726a2bbe97121f1c8e358f4f1eab6402321"
+          }
+        }
+      ]
+    },
+    {
       "key": "backfill_links:taurine",
       "lane": "backfill_links",
       "state": "queued",
@@ -44762,276 +45082,6 @@
       ]
     },
     {
-      "key": "backfill_links:indoles",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "indoles",
-      "title": "Indoles",
-      "pageType": "concept",
-      "aliases": [
-        "Indoles",
-        "indoles"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/indoles.md",
-        "sourceCount": 4
-      },
-      "priority": 78.75,
-      "scoreComponents": {
-        "demand": 19.36,
-        "evidence": 25,
-        "graphGain": 17.14,
-        "scopeFit": 9,
-        "outlineReadiness": 8.25,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 20,
-        "totalPlainMentions": 14,
-        "linkedArticles": 12,
-        "unlinkedArticles": 8,
-        "linkCoveragePercent": 60,
-        "leadMentions": 0,
-        "headingMentions": 0,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "metabolite",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 35,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 40.862
-      },
-      "affectedPages": [
-        {
-          "id": "dysbiosis",
-          "title": "Dysbiosis",
-          "path": "wiki/concepts/dysbiosis.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 148
-        },
-        {
-          "id": "gut-brain-axis",
-          "title": "Gut-Brain Axis",
-          "path": "wiki/concepts/gut-brain-axis.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 74
-        },
-        {
-          "id": "microbiome-derived-metabolites",
-          "title": "Microbiome-Derived Metabolites",
-          "path": "wiki/concepts/microbiome-derived-metabolites.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 17
-        },
-        {
-          "id": "ahr",
-          "title": "AhR (Aryl Hydrocarbon Receptor)",
-          "path": "wiki/concepts/ahr.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 13
-        },
-        {
-          "id": "tryptophan",
-          "title": "Tryptophan",
-          "path": "wiki/concepts/tryptophan.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 10
-        },
-        {
-          "id": "bacteroides-thetaiotaomicron",
-          "title": "Bacteroides thetaiotaomicron",
-          "path": "wiki/entities/bacteroides-thetaiotaomicron.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 8
-        },
-        {
-          "id": "fermentative-metabolism",
-          "title": "Fermentative Metabolism",
-          "path": "wiki/concepts/fermentative-metabolism.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "metabolites",
-          "title": "Microbial Metabolites",
-          "path": "wiki/concepts/metabolites.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review",
-          "title": "Gut Microbiota and Thyroid Diseases: A Comprehensive Review of Mechanisms and Clinical Implications",
-          "evidenceLevel": "systematic-review-meta-analysis",
-          "year": 2025,
-          "path": "wiki/sources/bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review.md",
-          "passage": {
-            "excerpt": "- Gut microbes not only influence thyroid hormone synthesis and metabolism through metabolites such as short chain fatty acids, proteobacteria, secondary bile acid metabolism, and indoles, but also play critical roles in immune homeostasis, contributing to...",
-            "sha256": "7b3297b356c0ab5d1b54baf8a5f07d8df788a73596a75dfb3471068039e8a094"
-          }
-        },
-        {
-          "id": "chen-2024-indoles-microbiome-parkinsons",
-          "title": "Chen 2025 -- Indole Metabolites and Gut Microbiome in Parkinson's Disease",
-          "evidenceLevel": "cross-sectional",
-          "year": 2025,
-          "path": "wiki/sources/chen-2024-indoles-microbiome-parkinsons.md",
-          "passage": {
-            "excerpt": "This study characterizes indole metabolite profiles and their relationship to gut microbiome composition in parkinsons disease. Indoles are produced by microbial tryptophan metabolism and serve as ligands for the aryl hydrocarbon receptor (AhR), a key regul...",
-            "sha256": "bb04a33a06f7645539abbf716ecb76a74cb5b75e75a30eb8195073c9456aaa87"
-          }
-        },
-        {
-          "id": "gutmann-2025-functional-microbiome-diet-ms",
-          "title": "Functional Microbiome Reprogramming Links Dietary Interventions to Neuroinflammatory Outcomes in Multiple Sclerosis",
-          "evidenceLevel": "randomized-controlled-trial",
-          "year": 2025,
-          "path": "wiki/sources/gutmann-2025-functional-microbiome-diet-ms.md",
-          "passage": {
-            "excerpt": "- Ketogenic diet (KD) benefits MS primarily through direct modulation of gut microbial function, enriching propionate production and glycerol metabolism modules linked to lower MRI lesion volume - Three anaerobic SCFA-producing species -- *Romboutsia timone...",
-            "sha256": "b0dd435386a48f385fa939a1eaab30e19478190ac92acd383df0223ed30947bc"
-          }
-        },
-        {
-          "id": "xie-2025-gut-microbiome-pregnancy-disorders",
-          "title": "Xie 2025 — Unraveling the Role of the Gut Microbiome in Pregnancy Disorders: Insights and Implications",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/xie-2025-gut-microbiome-pregnancy-disorders.md",
-          "passage": {
-            "excerpt": "- **Design**: Review of gut microbiota-gestational disease associations; mechanisms including LPS, kynurenine, indoles, bile acid hydrolase, SCFAs, serotonin pathways - **Key figure**: Gut dysbiosis leading to neuroinflammation and PPD via multiple metaboli...",
-            "sha256": "232ba33d72318784414bade4686ee24c003810976749775731698ffe14435123"
-          }
-        },
-        {
-          "id": "zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders",
-          "title": "Zhou 2025 — Role of Gut Microbiota in Neuroinflammation: A Focus on Perioperative Neurocognitive Disorders",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/zhou-2025-gut-microbiota-neuroinflammation-perioperative-neurocognitive-disorders.md",
-          "passage": {
-            "excerpt": "6. **Gut microbiota metabolites**: SCFAs (acetate, propionate, butyrate) inhibit microglial activation and NF-kB signaling. Gut bacteria produce ~60% of colonic 5-HT; surgical dysbiosis disrupts 5-HT metabolism causing hippocampal deficiency. *Lactobacillus...",
-            "sha256": "ea5b44dcc3fc9aeeae684a3ce966b2667ad67520437baff6877ce35289e2f70d"
-          }
-        },
-        {
-          "id": "diallo-2024-microbiome-derived-metabolites-autoimmune",
-          "title": "Microbiome-Derived Metabolites as Therapeutic Targets in Autoimmune Diseases",
-          "evidenceLevel": "expert-opinion",
-          "year": 2024,
-          "path": "wiki/sources/diallo-2024-microbiome-derived-metabolites-autoimmune.md",
-          "passage": {
-            "excerpt": "- **Design**: Brief review from Cheikh Anta Diop University, Dakar, Senegal - **Metabolite classes covered**: SCFAs (microbial fermentation products), tryptophan catabolites (indoles and kynurenines via AhR), bile acids (primary to secondary conversion by g...",
-            "sha256": "3f9d8b1419a52164609469df3cf2aefe0ed2c220de7015ba752274fdfa76ee97"
-          }
-        },
-        {
-          "id": "heinzel-2024-microbial-biomarkers-parkinsons-multiomics",
-          "title": "Heinzel 2024 -- Microbial Biomarkers for Parkinson's Disease: A Multi-Omics Approach",
-          "evidenceLevel": "prospective-cohort",
-          "year": 2024,
-          "path": "wiki/sources/heinzel-2024-microbial-biomarkers-parkinsons-multiomics.md",
-          "passage": {
-            "excerpt": "Multi-omics biomarker integration is essential for capturing the metallomic dimension of parkinsons disease gut dysbiosis. Fecal calprotectin (already included in inflammatory marker panels) is itself a zinc/manganese-sequestering protein of the nutritional...",
-            "sha256": "00ee002217e7e6f6b0734e0e19905b449715804c0c3029f963f77d8d929de188"
-          }
-        },
-        {
-          "id": "natowicz-2024-postmortem-brain-tissue-autism-science",
-          "title": "Natowicz 2024 — A Most Important Gift: The Critical Role of Postmortem Brain Tissue in Autism Science",
-          "evidenceLevel": "expert-opinion",
-          "year": 2024,
-          "path": "wiki/sources/natowicz-2024-postmortem-brain-tissue-autism-science.md",
-          "passage": {
-            "excerpt": "- Can multi-omics analysis of postmortem ASD brain tissue reveal metal dyshomeostasis patterns consistent with peripheral findings? - How do gut-derived metabolites (SCFA, indoles, LPS) influence brain pathology measurable only in postmortem tissue? - What...",
-            "sha256": "08ef746979fe9dd58b03d75c2692b0b711857a2c341234a69782e218ab279252"
-          }
-        },
-        {
-          "id": "zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms",
-          "title": "A microbially produced AhR ligand promotes a Tph1-driven tolerogenic program in multiple sclerosis",
-          "evidenceLevel": "animal-model",
-          "year": 2024,
-          "path": "wiki/sources/zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms.md",
-          "passage": {
-            "excerpt": "- 3-IAld --> AHR activation in mast cells --> Tph1 upregulation --> serotonin release --> tolerogenic cytokine milieu in lymph nodes - This creates a regulatory network where microbial indoles maintain peripheral tolerance via mast cell serotonin production",
-            "sha256": "29dad2e5389853b3fc8f1f01f77deab4304c4ea5d126c0c1cd5691f935afb23b"
-          }
-        },
-        {
-          "id": "zhuang-2024-asd-pathogenesis-biomarker-intervention",
-          "title": "Zhuang 2024 — Autism Spectrum Disorder: Pathogenesis, Biomarker, and Intervention Therapy",
-          "evidenceLevel": "expert-opinion",
-          "year": 2024,
-          "path": "wiki/sources/zhuang-2024-asd-pathogenesis-biomarker-intervention.md",
-          "passage": {
-            "excerpt": "- Mitochondrial dysfunction (imperfect electron transfer) - Elevated iron metabolism (Fenton chemistry if dysregulated) - Dysbiotic microbiota-derived metabolites (phenols, indoles can auto-oxidize)",
-            "sha256": "db332221e1d6e3b11dcbdfa71c9ba8e9772f4023c9e5a9a42779296f11ef8bfc"
-          }
-        },
-        {
-          "id": "bronzini-2023-feeding-gut-microbiome-ms",
-          "title": "Feeding the gut microbiome: impact on multiple sclerosis",
-          "evidenceLevel": "animal-model",
-          "year": 2023,
-          "path": "wiki/sources/bronzini-2023-feeding-gut-microbiome-ms.md",
-          "passage": {
-            "excerpt": "- **High-fat diet**: increases EAE severity via Th1/Th17 differentiation through p38/MAPK pathway - **High-salt diet**: increases CNS infiltration of Th17; mitigated by *Lactobacillus murinus* supplementation - **Dietary fibers**: increase short chain fatty...",
-            "sha256": "44c5a31275b23e84132720ef5d91ac15f845576c710b74796e2edadd9f329e6d"
-          }
-        },
-        {
-          "id": "feng-2023-probiotics-asd-gut-brain-axis-review",
-          "title": "Feng 2023 — Probiotics in Treatment of ASD: Gut-Brain Axis Perspectives",
-          "evidenceLevel": "expert-opinion",
-          "year": 2023,
-          "path": "wiki/sources/feng-2023-probiotics-asd-gut-brain-axis-review.md",
-          "passage": {
-            "excerpt": "- **Metal-dependent metabolite production**: Clostridial propionic acid synthesis requires cobalt-dependent enzymes; dysbiotic metal availability drives neurotoxic metabolite production - **BBB permeability**: Propionic acid and LPS increase BBB permeabilit...",
-            "sha256": "404a0a167c5c8a246acd8dd574872726a2bbe97121f1c8e358f4f1eab6402321"
-          }
-        }
-      ]
-    },
-    {
       "key": "backfill_links:ahr",
       "lane": "backfill_links",
       "state": "queued",
@@ -45049,9 +45099,9 @@
         "path": "wiki/concepts/ahr.md",
         "sourceCount": 5
       },
-      "priority": 78.48,
+      "priority": 78.82,
       "scoreComponents": {
-        "demand": 18.38,
+        "demand": 18.72,
         "evidence": 25,
         "graphGain": 15.6,
         "scopeFit": 9,
@@ -45059,11 +45109,11 @@
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 17,
+        "distinctArticles": 18,
         "totalPlainMentions": 7,
-        "linkedArticles": 12,
+        "linkedArticles": 13,
         "unlinkedArticles": 5,
-        "linkCoveragePercent": 71,
+        "linkCoveragePercent": 72,
         "leadMentions": 0,
         "headingMentions": 1,
         "articleCategories": [
@@ -46941,384 +46991,6 @@
       ]
     },
     {
-      "key": "create_page:interleukin-22",
-      "lane": "create_page",
-      "state": "queued",
-      "decision": null,
-      "id": "interleukin-22",
-      "title": "Interleukin-22",
-      "pageType": "concept",
-      "aliases": [
-        "Interleukin-22",
-        "interleukin-22",
-        "IL-22"
-      ],
-      "excludePhrases": [],
-      "reason": "Barrier-associated cytokine mentioned across microbiome and immune pages.",
-      "existingPage": null,
-      "priority": 76.8,
-      "scoreComponents": {
-        "demand": 18.72,
-        "evidence": 25,
-        "graphGain": 18.83,
-        "scopeFit": 9,
-        "outlineReadiness": 8.25,
-        "ambiguityPenalty": -3
-      },
-      "metrics": {
-        "distinctArticles": 18,
-        "totalPlainMentions": 22,
-        "linkedArticles": 0,
-        "unlinkedArticles": 18,
-        "linkCoveragePercent": 0,
-        "leadMentions": 0,
-        "headingMentions": 0,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "fungus",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 12,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 69.517
-      },
-      "affectedPages": [
-        {
-          "id": "tryptophan-metabolism",
-          "title": "Tryptophan Metabolism",
-          "path": "wiki/concepts/tryptophan-metabolism.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 21
-        },
-        {
-          "id": "necrotizing-enterocolitis",
-          "title": "Necrotizing Enterocolitis",
-          "path": "wiki/entities/necrotizing-enterocolitis.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 20
-        },
-        {
-          "id": "indoles",
-          "title": "Indoles",
-          "path": "wiki/concepts/indoles.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 15
-        },
-        {
-          "id": "ahr",
-          "title": "AhR (Aryl Hydrocarbon Receptor)",
-          "path": "wiki/concepts/ahr.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 13
-        },
-        {
-          "id": "mycobiome",
-          "title": "Mycobiome",
-          "path": "wiki/concepts/mycobiome.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 13
-        },
-        {
-          "id": "immune-balance",
-          "title": "Immune Balance",
-          "path": "wiki/concepts/immune-balance.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "bacteroides-vulgatus",
-          "title": "Bacteroides vulgatus",
-          "path": "wiki/entities/bacteroides-vulgatus.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 11
-        },
-        {
-          "id": "tryptophan",
-          "title": "Tryptophan",
-          "path": "wiki/concepts/tryptophan.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 10
-        },
-        {
-          "id": "bacteroides-thetaiotaomicron",
-          "title": "Bacteroides thetaiotaomicron",
-          "path": "wiki/entities/bacteroides-thetaiotaomicron.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 8
-        },
-        {
-          "id": "prevotella-copri",
-          "title": "Prevotella copri",
-          "path": "wiki/entities/prevotella-copri.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 5
-        },
-        {
-          "id": "th17-treg-balance",
-          "title": "Th17/Treg Balance",
-          "path": "wiki/concepts/th17-treg-balance.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 5
-        },
-        {
-          "id": "debaryomyces",
-          "title": "Debaryomyces",
-          "path": "wiki/entities/debaryomyces.md",
-          "category": "fungus",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "infant-exposure",
-          "title": "Infant Exposure",
-          "path": "wiki/concepts/infant-exposure.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "peptostreptococcus-stomatis",
-          "title": "Peptostreptococcus stomatis",
-          "path": "wiki/entities/peptostreptococcus-stomatis.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "clostridium-symbiosum",
-          "title": "Clostridium symbiosum",
-          "path": "wiki/entities/clostridium-symbiosum.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "ruminococcus-gnavus",
-          "title": "Ruminococcus gnavus",
-          "path": "wiki/entities/ruminococcus-gnavus.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "indole",
-          "title": "Indole and Indole Derivatives",
-          "path": "wiki/concepts/indole.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "ketone-bodies",
-          "title": "Ketone Bodies",
-          "path": "wiki/concepts/ketone-bodies.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 0
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "chen-2024-indoles-microbiome-parkinsons",
-          "title": "Chen 2025 -- Indole Metabolites and Gut Microbiome in Parkinson's Disease",
-          "evidenceLevel": "cross-sectional",
-          "year": 2025,
-          "path": "wiki/sources/chen-2024-indoles-microbiome-parkinsons.md",
-          "passage": {
-            "excerpt": "- Indole metabolite profiles are significantly altered in PD patients - Specific indole derivatives (indole-3-propionic acid, indole-3-acetic acid) are reduced in PD - Reduced indole production correlates with depletion of tryptophan-metabolizing bacteria -...",
-            "sha256": "cf8b92e0d23eae6ca4daf2b7286b2f764d7c7a644d39ab5e6a2e8dfaa6c4e2e2"
-          }
-        },
-        {
-          "id": "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
-          "title": "The mycobiome in human cancer: analytical challenges, molecular mechanisms, and therapeutic implications",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/ding-2025-mycobiome-human-cancer-mechanisms-therapeutics.md",
-          "passage": {
-            "excerpt": "- **Polymorphic microbiome is now a new hallmark of cancer** (14th feature in the 2022 Hallmarks update). Fungal microbes (mycobiome), representing ~0.1-1% of the microbiome (~3 x 10^5 species), are a critical immunologically active component of the tumor m...",
-            "sha256": "b07fd7210c7c804d0c563e81983f7d080e3586828452c7116e82bb64f75225df"
-          }
-        },
-        {
-          "id": "thirion-2023-gut-microbiota-ms-disease-activity",
-          "title": "The Gut Microbiota in Multiple Sclerosis Varies with Disease Activity",
-          "evidenceLevel": "case-control",
-          "year": 2023,
-          "path": "wiki/sources/thirion-2023-gut-microbiota-ms-disease-activity.md",
-          "passage": {
-            "excerpt": "- 61 bacterial species were differentially abundant between 148 MS cases and 148 matched healthy controls; 31 enriched in MS and 30 depleted - In treatment-naive cases with clinically active disease, bacterial species richness correlated with number of rela...",
-            "sha256": "c0c0a7ee3457ac414588dd4d24b32d8ddff5fe22829dd1ba4b9bb5837db00082"
-          }
-        },
-        {
-          "id": "zhong-2023-causal-effects-gut-microbiome-covid-19-mendelian-randomization",
-          "title": "Zhong et al 2023 — Causal Effects of Gut Microbiome on COVID-19 Susceptibility and Severity: A Mendelian Randomization Study",
-          "evidenceLevel": "computational-prediction",
-          "year": 2023,
-          "path": "wiki/sources/zhong-2023-causal-effects-gut-microbiome-covid-19-mendelian-randomization.md",
-          "passage": {
-            "excerpt": "**Primary findings for COVID-19 susceptibility:** - Multiple taxa with statistically significant causal effects on susceptibility - Protective taxa likely: Produce SCFA, stimulate IL-22, support Treg differentiation - Risk taxa likely: Trigger pro-inflammat...",
-            "sha256": "28b029d680fa57e0191104a8e88d1e991eb0c6c28ea8030d342ee3940ee2564b"
-          }
-        },
-        {
-          "id": "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
-          "title": "Microbiota-derived tryptophan metabolites in vascular inflammation and cardiovascular disease",
-          "evidenceLevel": "expert-opinion",
-          "year": 2022,
-          "path": "wiki/sources/paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd.md",
-          "passage": {
-            "excerpt": "- Indole metabolites (indole, IPA, IAA, tryptamine) are AHR activators - AHR can have pro- or anti-inflammatory effects depending on ligand and cell type - AHR activation regulates ILC3s, promotes IL-22 production, and regulates mucosal immunity - AHR in va...",
-            "sha256": "7c894b212fce42a73d13c28bb3543b310601d80cdbbcde29bd1f940d7bc85ad9"
-          }
-        },
-        {
-          "id": "zhu-2022-berberine-uc-cancer-therapy",
-          "title": "Berberine a Traditional Chinese Drug Repurposing: Its Actions in Inflammation-Associated Ulcerative Colitis and Cancer Therapy",
-          "evidenceLevel": "expert-opinion",
-          "year": 2022,
-          "path": "wiki/sources/zhu-2022-berberine-uc-cancer-therapy.md",
-          "passage": {
-            "excerpt": "- Berberine (BBR), an isoquinoline alkaloid from Coptidis Rhizoma, is a multi-target drug candidate for inflammation-associated ulcerative colitis (UC) and colorectal cancer therapy - BBR modulates gut microbiota composition by boosting Blautia, Lactobacill...",
-            "sha256": "22c1533d45f845fb85aeb5b6f7e93cea44eca6e7971f3432da7d866ead84c2d3"
-          }
-        },
-        {
-          "id": "cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd",
-          "title": "Cao 2021 — Dysbiotic Gut Microbiota and Dysregulation of Cytokine Profile in Children and Teens With Autism Spectrum Disorder",
-          "evidenceLevel": "case-control",
-          "year": 2021,
-          "path": "wiki/sources/cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd.md",
-          "passage": {
-            "excerpt": "No significant differences: IL-1beta, IL-8, IL-12 p70, IL-17A, IL-17F, IL-22",
-            "sha256": "3d6670f46e40ff0255f401f025f7a4d0231d7779ba0d769bbe518fa28367ed28"
-          }
-        },
-        {
-          "id": "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
-          "title": "Participation of short-chain fatty acids and their receptors in gut inflammation and colon cancer",
-          "evidenceLevel": "expert-opinion",
-          "year": 2021,
-          "path": "wiki/sources/carretta-2021-scfas-receptors-gut-inflammation-colon-cancer.md",
-          "passage": {
-            "excerpt": "- **SCFAs signal through three G-protein-coupled receptors:** FFAR3/GPR41, FFAR2/GPR43, and HCAR2/GPR109A, expressed on gut epithelial cells, neutrophils, eosinophils, dendritic cells, ILC3, and other immune cells (carretta 2021 scfas receptors gut inflamma...",
-            "sha256": "9ebba5b5a02377df153d07b90bc0de7ef92142ff6659fa860e26f6ab362f3b5c"
-          }
-        },
-        {
-          "id": "kong-2021-ketogenic-diet-colitis-ilc3-microbiome",
-          "title": "Ketogenic Diet Alleviates Colitis by Reduction of Colonic Group 3 Innate Lymphoid Cells Through Altering Gut Microbiome",
-          "evidenceLevel": "animal-model",
-          "year": 2021,
-          "path": "wiki/sources/kong-2021-ketogenic-diet-colitis-ilc3-microbiome.md",
-          "passage": {
-            "excerpt": "- Ketogenic diet (KD) alleviates DSS-induced colitis in mice by reducing colonic group 3 innate lymphoid cells (ILC3s) and their effector cytokines (IL-17a, IL-22, IL-18, Ccl4) - KD uniquely increases Akkermansia abundance while low-carbohydrate diet (LCD)...",
-            "sha256": "5623c545987c881af564f29d685d7e7f0704f5b7202b9fac54f95c3b8f82f67a"
-          }
-        },
-        {
-          "id": "shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol",
-          "title": "The Impact of Ketogenic Diet on Colorectal Cancer Progression and the Co-evolution of Gut Microbiota: A Research Protocol",
-          "evidenceLevel": "animal-model",
-          "year": 2021,
-          "path": "wiki/sources/shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol.md",
-          "passage": {
-            "excerpt": "- **Design**: Research protocol using ApcMin/+ (Multiple Intestinal Neoplasia) CRC mouse model on C57BL/6J background - **Methods**: Normal chow vs. KD for 8 weeks; 16S rRNA sequencing of V4-V5 hypervariable regions; qPCR for Th17 cytokine gene expression (...",
-            "sha256": "c0e06a605cc191f1a8dccdfdf6aaab04063a163be09f5060cce45068a9744b8c"
-          }
-        },
-        {
-          "id": "honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity",
-          "title": "Honkanen 2020 — Fungal Dysbiosis and Intestinal Inflammation in Children with Beta-Cell Autoimmunity",
-          "evidenceLevel": "case-control",
-          "year": 2020,
-          "path": "wiki/sources/honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity.md",
-          "passage": {
-            "excerpt": "- Bacterial 16S and fungal ITS2 sequencing performed - Fecal human beta-defensin-2 (HBD2), calprotectin, secretory total IgA measured - ASCA and circulating cytokines (IFNG, IL-17, IL-22) analyzed - Children followed for median 8 years; 9 autoantibody-posit...",
-            "sha256": "e3686e19629adc647c8fc45a80147f14f6b56c555d3c6e0d748c177805b15d65"
-          }
-        },
-        {
-          "id": "ahlstrom-2019-nickel-allergy-review",
-          "title": "Nickel Allergy and Allergic Contact Dermatitis: A Clinical Review",
-          "evidenceLevel": "expert-opinion",
-          "year": 2019,
-          "path": "wiki/sources/ahlstrom-2019-nickel-allergy-review.md",
-          "passage": {
-            "excerpt": "- **Innate immunity:** Nickel directly activates Toll-like receptor 4 (TLR-4) on dendritic cells and keratinocytes, triggering pro-inflammatory cytokine release. This TLR-4 activation is specific to humans (the relevant histidine residues are absent in mice...",
-            "sha256": "fee099daa594605c7d1ceb3114dbfd4478527a2aea09785262260e1b0a1508ac"
-          }
-        }
-      ]
-    },
-    {
       "key": "create_page:gastritis",
       "lane": "create_page",
       "state": "queued",
@@ -47870,7 +47542,7 @@
         ],
         "candidateEvidenceSources": 14,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 66.198
+        "weightedGraphGain": 66.213
       },
       "affectedPages": [
         {
@@ -47904,7 +47576,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "colorectal-cancer",
@@ -48417,11 +48089,11 @@
         "path": "wiki/concepts/innate-immunity.md",
         "sourceCount": 6
       },
-      "priority": 75.8,
+      "priority": 75.81,
       "scoreComponents": {
         "demand": 14.64,
         "evidence": 25,
-        "graphGain": 15.91,
+        "graphGain": 15.92,
         "scopeFit": 9,
         "outlineReadiness": 11.25,
         "ambiguityPenalty": 0
@@ -48442,7 +48114,7 @@
         ],
         "candidateEvidenceSources": 17,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 27.669
+        "weightedGraphGain": 27.768
       },
       "affectedPages": [
         {
@@ -48468,6 +48140,17 @@
           "inboundLinks": 26
         },
         {
+          "id": "mycobiome",
+          "title": "Mycobiome",
+          "path": "wiki/concepts/mycobiome.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 14
+        },
+        {
           "id": "type-1-diabetes",
           "title": "Type 1 Diabetes",
           "path": "wiki/entities/type-1-diabetes.md",
@@ -48483,17 +48166,6 @@
           "title": "Anaerostipes",
           "path": "wiki/entities/anaerostipes.md",
           "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 13
-        },
-        {
-          "id": "mycobiome",
-          "title": "Mycobiome",
-          "path": "wiki/concepts/mycobiome.md",
-          "category": "concept",
           "plainMentions": 1,
           "linked": false,
           "leadMention": false,
@@ -51013,7 +50685,7 @@
         ],
         "candidateEvidenceSources": 19,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 25.629
+        "weightedGraphGain": 25.644
       },
       "affectedPages": [
         {
@@ -51025,7 +50697,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "arsenic",
@@ -51244,11 +50916,11 @@
       "excludePhrases": [],
       "reason": "Connects microbial histidine metabolism, immune signaling, and gut symptoms; requires careful evidence boundaries.",
       "existingPage": null,
-      "priority": 72.56,
+      "priority": 72.57,
       "scoreComponents": {
         "demand": 15.25,
         "evidence": 15.63,
-        "graphGain": 16.18,
+        "graphGain": 16.19,
         "scopeFit": 12,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -51268,7 +50940,7 @@
         ],
         "candidateEvidenceSources": 5,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 44.844
+        "weightedGraphGain": 44.994
       },
       "affectedPages": [
         {
@@ -51313,7 +50985,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 32
+          "inboundLinks": 33
         },
         {
           "id": "gerd",
@@ -51346,7 +51018,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 12
+          "inboundLinks": 13
         },
         {
           "id": "ibs",
@@ -52604,11 +52276,11 @@
         "path": "wiki/concepts/zonulin.md",
         "sourceCount": 8
       },
-      "priority": 71.14,
+      "priority": 71.15,
       "scoreComponents": {
         "demand": 11.39,
         "evidence": 25,
-        "graphGain": 12.25,
+        "graphGain": 12.26,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -52627,7 +52299,7 @@
         ],
         "candidateEvidenceSources": 14,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 19.089
+        "weightedGraphGain": 19.132
       },
       "affectedPages": [
         {
@@ -52650,7 +52322,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 32
+          "inboundLinks": 33
         },
         {
           "id": "schizophrenia",
@@ -55375,9 +55047,9 @@
         "path": "wiki/concepts/immune-balance.md",
         "sourceCount": 9
       },
-      "priority": 67.81,
+      "priority": 68.25,
       "scoreComponents": {
-        "demand": 16.78,
+        "demand": 17.22,
         "evidence": 25,
         "graphGain": 8.78,
         "scopeFit": 9,
@@ -55385,11 +55057,11 @@
         "ambiguityPenalty": 0
       },
       "metrics": {
-        "distinctArticles": 13,
+        "distinctArticles": 14,
         "totalPlainMentions": 1,
-        "linkedArticles": 12,
+        "linkedArticles": 13,
         "unlinkedArticles": 1,
-        "linkCoveragePercent": 92,
+        "linkCoveragePercent": 93,
         "leadMentions": 0,
         "headingMentions": 0,
         "articleCategories": [
@@ -56183,6 +55855,231 @@
           "passage": {
             "excerpt": "- Heme is the most abundant iron source in vertebrates, representing up to 80% of total body iron. - *S. aureus* hemolysins (alpha-hemolysin, bi-component leukocidins) lyse red blood cells to release hemoglobin, which is further degraded to heme and free ir...",
             "sha256": "0d8c17d7e251d8b557608be28b2aa4535642826f3c901284ac3ce7c624faf431"
+          }
+        }
+      ]
+    },
+    {
+      "key": "backfill_links:interleukin-22",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": {
+        "state": "queued",
+        "rationale": "The new Interleukin-22 page resolves a recurring mucosal immune signal across metabolite, barrier, fungal, cytokine, diet, and organism contexts. The Clostridium symbiosum mention remains queued for claim-level review because it attributes IL-22 production to colonocytes rather than immune cells acting on epithelium.",
+        "batches": [
+          {
+            "id": "2026-09-07-core-interleukin-22-contexts",
+            "state": "promoted",
+            "reviewedAt": "2026-09-07",
+            "promotedAt": "2026-09-07",
+            "targets": [
+              "tryptophan-metabolism",
+              "necrotizing-enterocolitis",
+              "indoles",
+              "ahr",
+              "mycobiome",
+              "immune-balance",
+              "bacteroides-vulgatus",
+              "tryptophan",
+              "bacteroides-thetaiotaomicron",
+              "prevotella-copri",
+              "th17-treg-balance",
+              "debaryomyces",
+              "infant-exposure",
+              "peptostreptococcus-stomatis",
+              "ruminococcus-gnavus",
+              "indole",
+              "ketone-bodies"
+            ]
+          }
+        ]
+      },
+      "id": "interleukin-22",
+      "title": "Interleukin-22",
+      "pageType": "concept",
+      "aliases": [
+        "Interleukin-22",
+        "interleukin 22",
+        "interleukin-22",
+        "IL-22"
+      ],
+      "excludePhrases": [],
+      "reason": "Barrier-associated cytokine mentioned across microbiome and immune pages.",
+      "existingPage": {
+        "path": "wiki/concepts/interleukin-22.md",
+        "sourceCount": 7
+      },
+      "priority": 67.48,
+      "scoreComponents": {
+        "demand": 18.72,
+        "evidence": 25,
+        "graphGain": 9.51,
+        "scopeFit": 9,
+        "outlineReadiness": 8.25,
+        "ambiguityPenalty": -3
+      },
+      "metrics": {
+        "distinctArticles": 18,
+        "totalPlainMentions": 6,
+        "linkedArticles": 17,
+        "unlinkedArticles": 1,
+        "linkCoveragePercent": 94,
+        "leadMentions": 0,
+        "headingMentions": 0,
+        "articleCategories": [
+          "concept",
+          "disease",
+          "fungus",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 12,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 3
+      },
+      "affectedPages": [
+        {
+          "id": "clostridium-symbiosum",
+          "title": "Clostridium symbiosum",
+          "path": "wiki/entities/clostridium-symbiosum.md",
+          "category": "microbe",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 3
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "chen-2024-indoles-microbiome-parkinsons",
+          "title": "Chen 2025 -- Indole Metabolites and Gut Microbiome in Parkinson's Disease",
+          "evidenceLevel": "cross-sectional",
+          "year": 2025,
+          "path": "wiki/sources/chen-2024-indoles-microbiome-parkinsons.md",
+          "passage": {
+            "excerpt": "- Indole metabolite profiles are significantly altered in PD patients - Specific indole derivatives (indole-3-propionic acid, indole-3-acetic acid) are reduced in PD - Reduced indole production correlates with depletion of tryptophan-metabolizing bacteria -...",
+            "sha256": "cf8b92e0d23eae6ca4daf2b7286b2f764d7c7a644d39ab5e6a2e8dfaa6c4e2e2"
+          }
+        },
+        {
+          "id": "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+          "title": "The mycobiome in human cancer: analytical challenges, molecular mechanisms, and therapeutic implications",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/ding-2025-mycobiome-human-cancer-mechanisms-therapeutics.md",
+          "passage": {
+            "excerpt": "- **Polymorphic microbiome is now a new hallmark of cancer** (14th feature in the 2022 Hallmarks update). Fungal microbes (mycobiome), representing ~0.1-1% of the microbiome (~3 x 10^5 species), are a critical immunologically active component of the tumor m...",
+            "sha256": "b07fd7210c7c804d0c563e81983f7d080e3586828452c7116e82bb64f75225df"
+          }
+        },
+        {
+          "id": "thirion-2023-gut-microbiota-ms-disease-activity",
+          "title": "The Gut Microbiota in Multiple Sclerosis Varies with Disease Activity",
+          "evidenceLevel": "case-control",
+          "year": 2023,
+          "path": "wiki/sources/thirion-2023-gut-microbiota-ms-disease-activity.md",
+          "passage": {
+            "excerpt": "- 61 bacterial species were differentially abundant between 148 MS cases and 148 matched healthy controls; 31 enriched in MS and 30 depleted - In treatment-naive cases with clinically active disease, bacterial species richness correlated with number of rela...",
+            "sha256": "c0c0a7ee3457ac414588dd4d24b32d8ddff5fe22829dd1ba4b9bb5837db00082"
+          }
+        },
+        {
+          "id": "zhong-2023-causal-effects-gut-microbiome-covid-19-mendelian-randomization",
+          "title": "Zhong et al 2023 — Causal Effects of Gut Microbiome on COVID-19 Susceptibility and Severity: A Mendelian Randomization Study",
+          "evidenceLevel": "computational-prediction",
+          "year": 2023,
+          "path": "wiki/sources/zhong-2023-causal-effects-gut-microbiome-covid-19-mendelian-randomization.md",
+          "passage": {
+            "excerpt": "**Primary findings for COVID-19 susceptibility:** - Multiple taxa with statistically significant causal effects on susceptibility - Protective taxa likely: Produce SCFA, stimulate IL-22, support Treg differentiation - Risk taxa likely: Trigger pro-inflammat...",
+            "sha256": "28b029d680fa57e0191104a8e88d1e991eb0c6c28ea8030d342ee3940ee2564b"
+          }
+        },
+        {
+          "id": "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
+          "title": "Microbiota-derived tryptophan metabolites in vascular inflammation and cardiovascular disease",
+          "evidenceLevel": "expert-opinion",
+          "year": 2022,
+          "path": "wiki/sources/paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd.md",
+          "passage": {
+            "excerpt": "- Indole metabolites (indole, IPA, IAA, tryptamine) are AHR activators - AHR can have pro- or anti-inflammatory effects depending on ligand and cell type - AHR activation regulates ILC3s, promotes IL-22 production, and regulates mucosal immunity - AHR in va...",
+            "sha256": "7c894b212fce42a73d13c28bb3543b310601d80cdbbcde29bd1f940d7bc85ad9"
+          }
+        },
+        {
+          "id": "zhu-2022-berberine-uc-cancer-therapy",
+          "title": "Berberine a Traditional Chinese Drug Repurposing: Its Actions in Inflammation-Associated Ulcerative Colitis and Cancer Therapy",
+          "evidenceLevel": "expert-opinion",
+          "year": 2022,
+          "path": "wiki/sources/zhu-2022-berberine-uc-cancer-therapy.md",
+          "passage": {
+            "excerpt": "- Berberine (BBR), an isoquinoline alkaloid from Coptidis Rhizoma, is a multi-target drug candidate for inflammation-associated ulcerative colitis (UC) and colorectal cancer therapy - BBR modulates gut microbiota composition by boosting Blautia, Lactobacill...",
+            "sha256": "22c1533d45f845fb85aeb5b6f7e93cea44eca6e7971f3432da7d866ead84c2d3"
+          }
+        },
+        {
+          "id": "cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd",
+          "title": "Cao 2021 — Dysbiotic Gut Microbiota and Dysregulation of Cytokine Profile in Children and Teens With Autism Spectrum Disorder",
+          "evidenceLevel": "case-control",
+          "year": 2021,
+          "path": "wiki/sources/cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd.md",
+          "passage": {
+            "excerpt": "No significant differences: IL-1beta, IL-8, IL-12 p70, IL-17A, IL-17F, IL-22",
+            "sha256": "3d6670f46e40ff0255f401f025f7a4d0231d7779ba0d769bbe518fa28367ed28"
+          }
+        },
+        {
+          "id": "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+          "title": "Participation of short-chain fatty acids and their receptors in gut inflammation and colon cancer",
+          "evidenceLevel": "expert-opinion",
+          "year": 2021,
+          "path": "wiki/sources/carretta-2021-scfas-receptors-gut-inflammation-colon-cancer.md",
+          "passage": {
+            "excerpt": "- **SCFAs signal through three G-protein-coupled receptors:** FFAR3/GPR41, FFAR2/GPR43, and HCAR2/GPR109A, expressed on gut epithelial cells, neutrophils, eosinophils, dendritic cells, ILC3, and other immune cells (carretta 2021 scfas receptors gut inflamma...",
+            "sha256": "9ebba5b5a02377df153d07b90bc0de7ef92142ff6659fa860e26f6ab362f3b5c"
+          }
+        },
+        {
+          "id": "kong-2021-ketogenic-diet-colitis-ilc3-microbiome",
+          "title": "Ketogenic Diet Alleviates Colitis by Reduction of Colonic Group 3 Innate Lymphoid Cells Through Altering Gut Microbiome",
+          "evidenceLevel": "animal-model",
+          "year": 2021,
+          "path": "wiki/sources/kong-2021-ketogenic-diet-colitis-ilc3-microbiome.md",
+          "passage": {
+            "excerpt": "- Ketogenic diet (KD) alleviates DSS-induced colitis in mice by reducing colonic group 3 innate lymphoid cells (ILC3s) and their effector cytokines (IL-17a, IL-22, IL-18, Ccl4) - KD uniquely increases Akkermansia abundance while low-carbohydrate diet (LCD)...",
+            "sha256": "5623c545987c881af564f29d685d7e7f0704f5b7202b9fac54f95c3b8f82f67a"
+          }
+        },
+        {
+          "id": "shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol",
+          "title": "The Impact of Ketogenic Diet on Colorectal Cancer Progression and the Co-evolution of Gut Microbiota: A Research Protocol",
+          "evidenceLevel": "animal-model",
+          "year": 2021,
+          "path": "wiki/sources/shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol.md",
+          "passage": {
+            "excerpt": "- **Design**: Research protocol using ApcMin/+ (Multiple Intestinal Neoplasia) CRC mouse model on C57BL/6J background - **Methods**: Normal chow vs. KD for 8 weeks; 16S rRNA sequencing of V4-V5 hypervariable regions; qPCR for Th17 cytokine gene expression (...",
+            "sha256": "c0e06a605cc191f1a8dccdfdf6aaab04063a163be09f5060cce45068a9744b8c"
+          }
+        },
+        {
+          "id": "honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity",
+          "title": "Honkanen 2020 — Fungal Dysbiosis and Intestinal Inflammation in Children with Beta-Cell Autoimmunity",
+          "evidenceLevel": "case-control",
+          "year": 2020,
+          "path": "wiki/sources/honkanen-2020-fungal-dysbiosis-intestinal-inflammation-beta-cell-autoimmunity.md",
+          "passage": {
+            "excerpt": "- Bacterial 16S and fungal ITS2 sequencing performed - Fecal human beta-defensin-2 (HBD2), calprotectin, secretory total IgA measured - ASCA and circulating cytokines (IFNG, IL-17, IL-22) analyzed - Children followed for median 8 years; 9 autoantibody-posit...",
+            "sha256": "e3686e19629adc647c8fc45a80147f14f6b56c555d3c6e0d748c177805b15d65"
+          }
+        },
+        {
+          "id": "ahlstrom-2019-nickel-allergy-review",
+          "title": "Nickel Allergy and Allergic Contact Dermatitis: A Clinical Review",
+          "evidenceLevel": "expert-opinion",
+          "year": 2019,
+          "path": "wiki/sources/ahlstrom-2019-nickel-allergy-review.md",
+          "passage": {
+            "excerpt": "- **Innate immunity:** Nickel directly activates Toll-like receptor 4 (TLR-4) on dendritic cells and keratinocytes, triggering pro-inflammatory cytokine release. This TLR-4 activation is specific to humans (the relevant histidine residues are absent in mice...",
+            "sha256": "fee099daa594605c7d1ceb3114dbfd4478527a2aea09785262260e1b0a1508ac"
           }
         }
       ]
@@ -59023,11 +58920,11 @@
         "path": "wiki/concepts/tryptamine.md",
         "sourceCount": 3
       },
-      "priority": 61.73,
+      "priority": 61.74,
       "scoreComponents": {
         "demand": 8.81,
         "evidence": 25,
-        "graphGain": 10.67,
+        "graphGain": 10.68,
         "scopeFit": 9,
         "outlineReadiness": 8.25,
         "ambiguityPenalty": 0
@@ -59045,7 +58942,7 @@
         ],
         "candidateEvidenceSources": 10,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 17.148
+        "weightedGraphGain": 17.212
       },
       "affectedPages": [
         {
@@ -59068,7 +58965,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 21
+          "inboundLinks": 22
         },
         {
           "id": "tryptophan",
@@ -60846,7 +60743,7 @@
         ],
         "candidateEvidenceSources": 4,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 38.927
+        "weightedGraphGain": 38.942
       },
       "affectedPages": [
         {
@@ -60869,7 +60766,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 95
+          "inboundLinks": 96
         },
         {
           "id": "gut-brain-axis",
@@ -62131,11 +62028,11 @@
         "path": "wiki/concepts/aryl-hydrocarbon-receptor.md",
         "sourceCount": 8
       },
-      "priority": 56.45,
+      "priority": 56.46,
       "scoreComponents": {
         "demand": 11.39,
         "evidence": 15.63,
-        "graphGain": 12.18,
+        "graphGain": 12.19,
         "scopeFit": 9,
         "outlineReadiness": 8.25,
         "ambiguityPenalty": 0
@@ -62154,7 +62051,7 @@
         ],
         "candidateEvidenceSources": 5,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 18.629
+        "weightedGraphGain": 18.717
       },
       "affectedPages": [
         {
@@ -62166,7 +62063,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 15
+          "inboundLinks": 16
         },
         {
           "id": "tryptophan",
