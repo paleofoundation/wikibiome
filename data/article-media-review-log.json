@@ -12785,6 +12785,46 @@
         "articleSha256": "cffc284c6c1430917a39aed1edf16287b29dc8422e2834c6f9645194045779ea",
         "socialSha256": "60388dcfd6196de653df4e10419311699c7dba54fe176ec600abaea1b869740a"
       }
+    },
+    "hbot|hbot-intervention-v1.webp": {
+      "pageId": "hbot",
+      "publishedFile": "hbot-intervention-v1.webp",
+      "masterSource": "hbot-intervention-v1-master.png",
+      "socialFile": "hbot-intervention-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubmed.ncbi.nlm.nih.gov/?term=%22Hyperbaric+Oxygenation%22%5BMeSH+Terms%5D",
+          "https://www.fda.gov/medical-devices/letters-health-care-providers/follow-instructions-safe-use-hyperbaric-oxygen-therapy-devices-letter-health-care-providers",
+          "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpcd/classification.cfm?ID=CBF",
+          "https://www.accessdata.fda.gov/cdrh_docs/pdf5/K052866.pdf",
+          "https://www.wikibiome.com/article/hbot"
+        ],
+        "notes": "NLM supplies the controlled Hyperbaric Oxygenation term; FDA establishes HBOT as breathing 100% oxygen in a pressurized chamber, classifies the chamber under 21 CFR 868.5470 and product code CBF, and documents a representative rigid single-occupant monoplace form. These authorities do not validate the local page's broader microbiome or indication claims."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native source and 1200 by 630 centered-contain derivative review observed one complete unoccupied chamber assembly: one rigid horizontal cylindrical pressure vessel with a broad clear viewing section, two opaque end structures, one aligned three-cushion support carriage and base, plus one adjacent compact pedestal with a blank display and unlabeled controls. No patient, treatment action, label, brand, disease, biological process, or clipping is visible."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text identifies the unoccupied representative monoplace chamber, transparent vessel, and patient support without relying on color; the caption distinguishes the visible device form from unclaimed manufacturer, dose, indication, clearance, microbiome, efficacy, safety, or recommendation assertions."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 4718f4941c0c4429335414de7ae52a56b5ac24caa7a4efdc5db97d85b837c9f9; master 46bfdf7ce9f49a61ae08fd961419658e9d5486bd5bcfb613d05618ac22baee84; article 5d649b1c3902d35163e243303dfea365edb97ad9d0632d964a08bef9caec03ca; centered-contain social c767e17404536e56213c4c2dbd51a08acfc84927a18ebfb69b59a443780d3cf0.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "hbot-draft.png",
+        "sourceSha256": "4718f4941c0c4429335414de7ae52a56b5ac24caa7a4efdc5db97d85b837c9f9",
+        "generationRecord": "exec-11f96d78-0342-43bb-929e-9fa8ba6c21ef.png",
+        "masterSha256": "46bfdf7ce9f49a61ae08fd961419658e9d5486bd5bcfb613d05618ac22baee84",
+        "articleSha256": "5d649b1c3902d35163e243303dfea365edb97ad9d0632d964a08bef9caec03ca",
+        "socialSha256": "c767e17404536e56213c4c2dbd51a08acfc84927a18ebfb69b59a443780d3cf0"
+      }
     }
   },
   "rejectedAssets": [

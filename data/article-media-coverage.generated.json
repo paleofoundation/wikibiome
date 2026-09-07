@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "3223d74e10ff5c5a7cf9e804c266a40ef75b62be805a644be35d9ae56ca8fa65",
+    "registrySha256": "f4c9a783427cd9d764f09a3b3a2eef33a70bd2b7103a22c9ce4ff7c7a279472e",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f4916c90bed5b5612bd013f539a9116f509ffc6817aad0e1120732241aa252ce",
+    "reviewLogSha256": "cbf767c83de06666048179dc2cd9ee3aff70e9ef67390df730f370bd2bfe6c35",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -135,8 +135,8 @@
       {
         "file": "data/article-media-batches/interventions-105.json",
         "batchId": "interventions-105",
-        "status": "approved-awaiting-promotion",
-        "sha256": "82c18f7437d38d1f1f6ddac5eec5a48d2d3dc5408ea105f2c4ccd86038122c84"
+        "status": "reviewed",
+        "sha256": "84367038fe8747f1931475a345da9e2fb33f07e7b6c8110684aadb3142d7c911"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -662,12 +662,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 370,
-    "remaining": 340,
+    "completed": 371,
+    "remaining": 339,
     "rejected": 257,
     "revised": 12,
     "scientificHolds": 199,
-    "inReview": 1
+    "inReview": 0
   },
   "categories": [
     {
@@ -709,8 +709,8 @@
       "id": "interventions",
       "label": "Interventions",
       "total": 69,
-      "completed": 1,
-      "remaining": 68
+      "completed": 2,
+      "remaining": 67
     },
     {
       "id": "clinical-cautions",
@@ -17798,12 +17798,14 @@
       "route": "/article/hbot",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "interventions-105",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/interventions-batch-105/hbot-draft.png",
-        "sha256": "4718f4941c0c4429335414de7ae52a56b5ac24caa7a4efdc5db97d85b837c9f9"
+      "status": "reviewed",
+      "media": {
+        "assetType": "intervention",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "hbot-intervention-v1-master.png",
+        "publishedFile": "hbot-intervention-v1.webp",
+        "socialFile": "hbot-intervention-v1-social.webp"
       }
     },
     {
