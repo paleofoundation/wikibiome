@@ -14678,6 +14678,78 @@
       "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39284033/", "https://pubmed.ncbi.nlm.nih.gov/31848305/", "https://pubmed.ncbi.nlm.nih.gov/39702677/", "https://pubmed.ncbi.nlm.nih.gov/42485525/", "local:data/content.generated.json#/pages/microbiome-derived-metabolites", "local:data/content.generated.json#/pages/metabolites"],
       "requiredResolution": "Merge or distinguish the duplicate route and bound each compound by identity, origin evidence, pathway, compartment, concentration, target, model, and human causal status.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "microglia",
+      "controlledIdentifier": "MeSH:D017628",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Heterogeneous context-dependent cell states are reduced to M1/M2 polarity and a universal metal-gut-brain neurodegeneration mediator.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D017628", "https://pubmed.ncbi.nlm.nih.gov/?term=36327895", "https://pubmed.ncbi.nlm.nih.gov/41991797/", "local:data/content.generated.json#/pages/microglia"],
+      "requiredResolution": "Specify species, age, region, model, cell markers, state data, exposure dose/route/time, comparator, and measured function using current nomenclature.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "mis-metallation",
+      "controlledIdentifier": "mechanism-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Protein metalation, ionic mimicry, transport competition, toxicology, host defense, exposure biomarkers, and proposed treatments are conflated.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/34763208/", "https://pubmed.ncbi.nlm.nih.gov/38960447/", "local:data/content.generated.json#/pages/mis-metallation"],
+      "requiredResolution": "Split by protein/accession, organism/compartment, cognate and competing species, site/stoichiometry, availability, assay, phenotype, and in-vivo evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "mitochondrial-dysfunction",
+      "controlledIdentifier": "functional-phenotype-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Many organelles, tissues, assays, toxicants, diseases, and cell-death mechanisms are presented as one measurable causal pathway.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/34740866/", "local:data/content.generated.json#/pages/mitochondrial-dysfunction"],
+      "requiredResolution": "Define tissue/cell/model, perturbation, dose/time, respiratory substrate and assay, membrane potential, redox/morphology/quality-control measures, comparator, and causal intervention.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "molecular-mimicry",
+      "controlledIdentifier": "MeSH:D008969;immunological-mechanism-umbrella",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "One established infection association and several proposed microbiome links are presented together as a primary causal mechanism without epitope-level proof.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D008969", "https://pubmed.ncbi.nlm.nih.gov/22095454/", "https://pubmed.ncbi.nlm.nih.gov/35572569/", "https://pubmed.ncbi.nlm.nih.gov/36136068/", "https://pubmed.ncbi.nlm.nih.gov/38415936/", "local:data/content.generated.json#/pages/molecular-mimicry"],
+      "requiredResolution": "Document foreign and self epitopes, structural/sequence similarity, HLA, cross-reactivity assay, cohort, epidemiology, model transfer, and alternatives for each example.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "mycobiome",
+      "controlledIdentifier": "community-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Body-site, transient, colonizing, pathogenic, and low-biomass fungal signals are merged with strong disease and functional claims.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39189314/", "https://pubmed.ncbi.nlm.nih.gov/40278100/", "https://pubmed.ncbi.nlm.nih.gov/40990048/", "https://pubmed.ncbi.nlm.nih.gov/41369685/", "local:data/content.generated.json#/pages/mycobiome"],
+      "requiredResolution": "Define body site, specimen, biomass controls, method, primers/database, absolute burden, viability/residency, taxon resolution, confounders, replication, and function.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "n-glycosylation",
+      "controlledIdentifier": "MeSH:D006026;process-umbrella",
+      "batchId": "mechanisms-083",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Eukaryotic, bacterial, fungal, host-protein, microbial-protein, and glycome-association findings are conflated, including an unsupported metal-dependent enzyme claim.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D006026", "https://pubmed.ncbi.nlm.nih.gov/25936979/", "https://pubmed.ncbi.nlm.nih.gov/26433695/", "https://pubmed.ncbi.nlm.nih.gov/37741057/", "https://pubmed.ncbi.nlm.nih.gov/39455640/", "local:data/content.generated.json#/pages/n-glycosylation"],
+      "requiredResolution": "Select organism, compartment, substrate/site, glycan structure, enzyme/pathway identifiers, analytical method, phenotype, and evidence; remove or substantiate metal dependence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
