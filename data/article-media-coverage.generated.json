@@ -3,10 +3,10 @@
   "generatedOn": "2026-09-05",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
-    "upstreamCommit": "7ec609cd735d6389ba33b17cfa9a3d7ed8ce27ed",
+    "upstreamCommit": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
     "contentManifest": "data/content-manifest.generated.json",
     "contentFile": "data/content.generated.json",
-    "contentSha256": "54a0185eeffca2853f984ee3841391bc5a23559b9045345f251e7be33b05e030",
+    "contentSha256": "f99aad7da6bef52aa4895ba20b312fe32534afcd8323dad39d47e8f0135b7a01",
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "8e0b4721532bcf260d0d6814fa84e6ec8ece66b202b4c4f3d41411e4b2167c48",
     "reviewLog": "data/article-media-review-log.json",
@@ -187,9 +187,9 @@
     }
   },
   "current": {
-    "total": 711,
+    "total": 712,
     "completed": 144,
-    "remaining": 567,
+    "remaining": 568,
     "rejected": 20,
     "revised": 10,
     "scientificHolds": 6,
@@ -220,9 +220,9 @@
     {
       "id": "mechanisms",
       "label": "Mechanisms",
-      "total": 234,
+      "total": 235,
       "completed": 0,
-      "remaining": 234
+      "remaining": 235
     },
     {
       "id": "host-defenses",
@@ -6443,6 +6443,19 @@
     },
     {
       "queuePosition": 332,
+      "id": "ammonia",
+      "title": "Ammonia",
+      "category": "mechanism",
+      "sourceCategories": [
+        "mechanism"
+      ],
+      "route": "/article/ammonia",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism",
+      "status": "queued"
+    },
+    {
+      "queuePosition": 333,
       "id": "amyloid-beta",
       "title": "Amyloid-Beta",
       "category": "mechanism",
@@ -6455,7 +6468,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 333,
+      "queuePosition": 334,
       "id": "amyloid-beta-aggregation",
       "title": "Amyloid-Beta Aggregation",
       "category": "mechanism",
@@ -6468,7 +6481,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 334,
+      "queuePosition": 335,
       "id": "antimicrobial-resistance",
       "title": "Antimicrobial Resistance",
       "category": "mechanism",
@@ -6481,7 +6494,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 335,
+      "queuePosition": 336,
       "id": "arachidonic-acid",
       "title": "Arachidonic Acid",
       "category": "mechanism",
@@ -6494,7 +6507,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 336,
+      "queuePosition": 337,
       "id": "aromatase",
       "title": "Aromatase",
       "category": "mechanism",
@@ -6507,7 +6520,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 337,
+      "queuePosition": 338,
       "id": "aryl-hydrocarbon-receptor",
       "title": "Aryl Hydrocarbon Receptor (AhR)",
       "category": "mechanism",
@@ -6520,7 +6533,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 338,
+      "queuePosition": 339,
       "id": "aspirin",
       "title": "Aspirin",
       "category": "mechanism",
@@ -6533,7 +6546,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 339,
+      "queuePosition": 340,
       "id": "atherosclerosis",
       "title": "Atherosclerosis",
       "category": "mechanism",
@@ -6547,7 +6560,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 340,
+      "queuePosition": 341,
       "id": "autophagy",
       "title": "Autophagy",
       "category": "mechanism",
@@ -6560,7 +6573,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 341,
+      "queuePosition": 342,
       "id": "bacteremia",
       "title": "Bacteremia",
       "category": "mechanism",
@@ -6573,7 +6586,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 342,
+      "queuePosition": 343,
       "id": "bacterial-contamination-hypothesis",
       "title": "Bacterial Contamination Hypothesis",
       "category": "mechanism",
@@ -6586,7 +6599,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 343,
+      "queuePosition": 344,
       "id": "bacterial-vaginosis",
       "title": "Bacterial Vaginosis",
       "category": "mechanism",
@@ -6599,7 +6612,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 344,
+      "queuePosition": 345,
       "id": "bacteriophages",
       "title": "Bacteriophages",
       "category": "mechanism",
@@ -6612,7 +6625,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 345,
+      "queuePosition": 346,
       "id": "bdnf",
       "title": "BDNF (Brain-Derived Neurotrophic Factor)",
       "category": "mechanism",
@@ -6625,7 +6638,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 346,
+      "queuePosition": 347,
       "id": "beta-glucuronidase",
       "title": "Beta-Glucuronidase",
       "category": "mechanism",
@@ -6638,7 +6651,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 347,
+      "queuePosition": 348,
       "id": "beta-lactamase",
       "title": "Beta-Lactamase",
       "category": "mechanism",
@@ -6651,7 +6664,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 348,
+      "queuePosition": 349,
       "id": "bile-acid-metabolism",
       "title": "Bile Acid Metabolism",
       "category": "mechanism",
@@ -6664,7 +6677,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 349,
+      "queuePosition": 350,
       "id": "bile-salt-hydrolase",
       "title": "Bile Salt Hydrolase (BSH)",
       "category": "mechanism",
@@ -6677,7 +6690,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 350,
+      "queuePosition": 351,
       "id": "biomarkers",
       "title": "Biomarkers",
       "category": "mechanism",
@@ -6690,7 +6703,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 351,
+      "queuePosition": 352,
       "id": "blood-brain-barrier",
       "title": "Blood-Brain Barrier",
       "category": "mechanism",
@@ -6703,7 +6716,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 352,
+      "queuePosition": 353,
       "id": "butyrate",
       "title": "Butyrate",
       "category": "mechanism",
@@ -6716,7 +6729,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 353,
+      "queuePosition": 354,
       "id": "cadaverine",
       "title": "Cadaverine",
       "category": "mechanism",
@@ -6729,7 +6742,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 354,
+      "queuePosition": 355,
       "id": "cambialistic-enzymes",
       "title": "Cambialistic Enzymes",
       "category": "mechanism",
@@ -6742,7 +6755,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 355,
+      "queuePosition": 356,
       "id": "cephalosporin",
       "title": "Cephalosporins",
       "category": "mechanism",
@@ -6755,7 +6768,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 356,
+      "queuePosition": 357,
       "id": "ceruloplasmin",
       "title": "Ceruloplasmin",
       "category": "mechanism",
@@ -6768,7 +6781,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 357,
+      "queuePosition": 358,
       "id": "chelation-therapy",
       "title": "Chelation Therapy",
       "category": "mechanism",
@@ -6782,7 +6795,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 358,
+      "queuePosition": 359,
       "id": "chitotriosidase",
       "title": "Chitotriosidase",
       "category": "mechanism",
@@ -6795,7 +6808,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 359,
+      "queuePosition": 360,
       "id": "co-selection",
       "title": "Co-Selection",
       "category": "mechanism",
@@ -6808,7 +6821,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 360,
+      "queuePosition": 361,
       "id": "colonization-resistance",
       "title": "Colonization Resistance",
       "category": "mechanism",
@@ -6821,7 +6834,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 361,
+      "queuePosition": 362,
       "id": "comorbidities",
       "title": "Comorbidities",
       "category": "mechanism",
@@ -6834,7 +6847,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 362,
+      "queuePosition": 363,
       "id": "competitive-exclusion",
       "title": "Competitive Exclusion",
       "category": "mechanism",
@@ -6847,7 +6860,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 363,
+      "queuePosition": 364,
       "id": "copper-dysregulation",
       "title": "Copper Dysregulation",
       "category": "mechanism",
@@ -6860,7 +6873,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 364,
+      "queuePosition": 365,
       "id": "cortisol",
       "title": "Cortisol",
       "category": "mechanism",
@@ -6873,7 +6886,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 365,
+      "queuePosition": 366,
       "id": "cox-2",
       "title": "COX-2 (Cyclooxygenase-2)",
       "category": "mechanism",
@@ -6886,7 +6899,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 366,
+      "queuePosition": 367,
       "id": "cross-feeding",
       "title": "Cross-Feeding",
       "category": "mechanism",
@@ -6899,7 +6912,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 367,
+      "queuePosition": 368,
       "id": "cuproptosis",
       "title": "Cuproptosis",
       "category": "mechanism",
@@ -6912,7 +6925,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 368,
+      "queuePosition": 369,
       "id": "curli",
       "title": "Curli Amyloid Fibers",
       "category": "mechanism",
@@ -6925,7 +6938,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 369,
+      "queuePosition": 370,
       "id": "defensins",
       "title": "Defensins",
       "category": "mechanism",
@@ -6938,7 +6951,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 370,
+      "queuePosition": 371,
       "id": "dental-caries",
       "title": "Dental Caries",
       "category": "mechanism",
@@ -6951,7 +6964,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 371,
+      "queuePosition": 372,
       "id": "developmental-metal-vulnerability",
       "title": "Developmental Metal Vulnerability: Critical Windows of Susceptibility",
       "category": "mechanism",
@@ -6964,7 +6977,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 372,
+      "queuePosition": 373,
       "id": "dietary-arsenic-exposure",
       "title": "Dietary Arsenic Exposure",
       "category": "mechanism",
@@ -6977,7 +6990,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 373,
+      "queuePosition": 374,
       "id": "dietary-cadmium-exposure",
       "title": "Dietary Cadmium Exposure",
       "category": "mechanism",
@@ -6990,7 +7003,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 374,
+      "queuePosition": 375,
       "id": "dietary-lead-exposure",
       "title": "Dietary Lead Exposure",
       "category": "mechanism",
@@ -7003,7 +7016,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 375,
+      "queuePosition": 376,
       "id": "dietary-metal-microbiome-interactions",
       "title": "Dietary Metal-Microbiome Interactions",
       "category": "mechanism",
@@ -7016,7 +7029,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 376,
+      "queuePosition": 377,
       "id": "dietary-nickel-exposure",
       "title": "Dietary Nickel Exposure",
       "category": "mechanism",
@@ -7029,7 +7042,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 377,
+      "queuePosition": 378,
       "id": "dimethylglyoxime",
       "title": "Dimethylglyoxime (DMG)",
       "category": "mechanism",
@@ -7042,7 +7055,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 378,
+      "queuePosition": 379,
       "id": "dna-damage",
       "title": "DNA Damage in Metal Carcinogenesis",
       "category": "mechanism",
@@ -7055,7 +7068,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 379,
+      "queuePosition": 380,
       "id": "drug-repurposing",
       "title": "Drug Repurposing",
       "category": "mechanism",
@@ -7068,7 +7081,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 380,
+      "queuePosition": 381,
       "id": "dysmenorrhea",
       "title": "Dysmenorrhea",
       "category": "mechanism",
@@ -7081,7 +7094,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 381,
+      "queuePosition": 382,
       "id": "edta",
       "title": "EDTA",
       "category": "mechanism",
@@ -7094,7 +7107,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 382,
+      "queuePosition": 383,
       "id": "efflux-pumps",
       "title": "Efflux Pumps",
       "category": "mechanism",
@@ -7107,7 +7120,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 383,
+      "queuePosition": 384,
       "id": "endocrine-disruption",
       "title": "Endocrine Disruption",
       "category": "mechanism",
@@ -7120,7 +7133,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 384,
+      "queuePosition": 385,
       "id": "endocrine-disruptors",
       "title": "Endocrine Disruptors",
       "category": "mechanism",
@@ -7133,7 +7146,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 385,
+      "queuePosition": 386,
       "id": "endothelial-dysfunction",
       "title": "Endothelial Dysfunction",
       "category": "mechanism",
@@ -7146,7 +7159,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 386,
+      "queuePosition": 387,
       "id": "endotoxemia",
       "title": "Endotoxemia",
       "category": "mechanism",
@@ -7159,7 +7172,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 387,
+      "queuePosition": 388,
       "id": "enterohepatic-circulation",
       "title": "Enterohepatic Circulation",
       "category": "mechanism",
@@ -7172,7 +7185,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 388,
+      "queuePosition": 389,
       "id": "environmental-metal-exposure",
       "title": "Environmental Metal Exposure",
       "category": "mechanism",
@@ -7185,7 +7198,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 389,
+      "queuePosition": 390,
       "id": "epigenetic-modifications",
       "title": "Epigenetic Modifications",
       "category": "mechanism",
@@ -7198,7 +7211,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 390,
+      "queuePosition": 391,
       "id": "epigenetics",
       "title": "Epigenetics",
       "category": "mechanism",
@@ -7211,7 +7224,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 391,
+      "queuePosition": 392,
       "id": "epithelial-mesenchymal-transition",
       "title": "Epithelial-Mesenchymal Transition",
       "category": "mechanism",
@@ -7224,7 +7237,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 392,
+      "queuePosition": 393,
       "id": "essential-oils",
       "title": "Essential Oils",
       "category": "mechanism",
@@ -7237,7 +7250,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 393,
+      "queuePosition": 394,
       "id": "estrobolome",
       "title": "Estrobolome",
       "category": "mechanism",
@@ -7250,7 +7263,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 394,
+      "queuePosition": 395,
       "id": "estrogen-recirculation",
       "title": "Estrogen Recirculation",
       "category": "mechanism",
@@ -7263,7 +7276,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 395,
+      "queuePosition": 396,
       "id": "fxr",
       "title": "Farnesoid X Receptor (FXR)",
       "category": "mechanism",
@@ -7276,7 +7289,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 396,
+      "queuePosition": 397,
       "id": "fecal-microbiota-transplant",
       "title": "Fecal Microbiota Transplant (FMT)",
       "category": "mechanism",
@@ -7289,7 +7302,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 397,
+      "queuePosition": 398,
       "id": "fenton-chemistry",
       "title": "Fenton Chemistry",
       "category": "mechanism",
@@ -7302,7 +7315,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 398,
+      "queuePosition": 399,
       "id": "fermentative-metabolism",
       "title": "Fermentative Metabolism",
       "category": "mechanism",
@@ -7315,7 +7328,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 399,
+      "queuePosition": 400,
       "id": "ferroptosis",
       "title": "Ferroptosis",
       "category": "mechanism",
@@ -7328,7 +7341,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 400,
+      "queuePosition": 401,
       "id": "functional-shielding",
       "title": "Functional Shielding",
       "category": "mechanism",
@@ -7341,7 +7354,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 401,
+      "queuePosition": 402,
       "id": "gaba",
       "title": "GABA (Gamma-Aminobutyric Acid)",
       "category": "mechanism",
@@ -7354,7 +7367,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 402,
+      "queuePosition": 403,
       "id": "gene-regulation",
       "title": "Gene Regulation",
       "category": "mechanism",
@@ -7367,7 +7380,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 403,
+      "queuePosition": 404,
       "id": "gingipains",
       "title": "Gingipains",
       "category": "mechanism",
@@ -7380,7 +7393,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 404,
+      "queuePosition": 405,
       "id": "glyoxalase",
       "title": "Glyoxalase I",
       "category": "mechanism",
@@ -7393,7 +7406,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 405,
+      "queuePosition": 406,
       "id": "gut-barrier-dysfunction",
       "title": "Gut Barrier Dysfunction",
       "category": "mechanism",
@@ -7406,7 +7419,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 406,
+      "queuePosition": 407,
       "id": "gut-microbiome",
       "title": "Gut Microbiome",
       "category": "mechanism",
@@ -7419,7 +7432,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 407,
+      "queuePosition": 408,
       "id": "gut-brain-axis",
       "title": "Gut-Brain Axis",
       "category": "mechanism",
@@ -7432,7 +7445,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 408,
+      "queuePosition": 409,
       "id": "gut-gonadal-axis",
       "title": "Gut-Gonadal Axis",
       "category": "mechanism",
@@ -7445,7 +7458,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 409,
+      "queuePosition": 410,
       "id": "gut-kidney-axis",
       "title": "Gut-Kidney Axis",
       "category": "mechanism",
@@ -7458,7 +7471,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 410,
+      "queuePosition": 411,
       "id": "gut-metal-microbiome",
       "title": "Gut-Metal-Microbiome Interactions",
       "category": "mechanism",
@@ -7471,7 +7484,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 411,
+      "queuePosition": 412,
       "id": "gut-penis-axis",
       "title": "Gut-Penis Axis",
       "category": "mechanism",
@@ -7484,7 +7497,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 412,
+      "queuePosition": 413,
       "id": "gut-prostate-axis",
       "title": "Gut-Prostate Axis",
       "category": "mechanism",
@@ -7497,7 +7510,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 413,
+      "queuePosition": 414,
       "id": "gut-testis-axis",
       "title": "Gut-Testis Axis",
       "category": "mechanism",
@@ -7510,7 +7523,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 414,
+      "queuePosition": 415,
       "id": "gut-thyroid-axis",
       "title": "Gut-Thyroid Axis",
       "category": "mechanism",
@@ -7523,7 +7536,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 415,
+      "queuePosition": 416,
       "id": "gut-vagina-axis",
       "title": "Gut-Vagina Axis",
       "category": "mechanism",
@@ -7536,7 +7549,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 416,
+      "queuePosition": 417,
       "id": "heavy-metal-neurotoxicity",
       "title": "Heavy Metal Neurotoxicity",
       "category": "mechanism",
@@ -7549,7 +7562,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 417,
+      "queuePosition": 418,
       "id": "heavy-metals",
       "title": "Heavy Metals",
       "category": "mechanism",
@@ -7562,7 +7575,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 418,
+      "queuePosition": 419,
       "id": "heavy-metals-infant-foods",
       "title": "Heavy Metals in Infant Foods",
       "category": "mechanism",
@@ -7575,7 +7588,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 419,
+      "queuePosition": 420,
       "id": "histidine",
       "title": "Histidine",
       "category": "mechanism",
@@ -7588,7 +7601,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 420,
+      "queuePosition": 421,
       "id": "homocysteine",
       "title": "Homocysteine",
       "category": "mechanism",
@@ -7601,7 +7614,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 421,
+      "queuePosition": 422,
       "id": "horizontal-gene-transfer",
       "title": "Horizontal Gene Transfer and Mobile Genetic Elements",
       "category": "mechanism",
@@ -7614,7 +7627,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 422,
+      "queuePosition": 423,
       "id": "hmos",
       "title": "Human Milk Oligosaccharides (HMOs)",
       "category": "mechanism",
@@ -7627,7 +7640,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 423,
+      "queuePosition": 424,
       "id": "hydrogen-sulfide",
       "title": "Hydrogen Sulfide (H₂S)",
       "category": "mechanism",
@@ -7640,7 +7653,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 424,
+      "queuePosition": 425,
       "id": "hydrogenase",
       "title": "Hydrogenase",
       "category": "mechanism",
@@ -7653,7 +7666,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 425,
+      "queuePosition": 426,
       "id": "hyperaccumulator",
       "title": "Hyperaccumulator Plants",
       "category": "mechanism",
@@ -7666,7 +7679,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 426,
+      "queuePosition": 427,
       "id": "hyperandrogenism",
       "title": "Hyperandrogenism",
       "category": "mechanism",
@@ -7679,7 +7692,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 427,
+      "queuePosition": 428,
       "id": "hyperparathyroidism",
       "title": "Hyperparathyroidism",
       "category": "mechanism",
@@ -7692,7 +7705,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 428,
+      "queuePosition": 429,
       "id": "hypoxia",
       "title": "Hypoxia",
       "category": "mechanism",
@@ -7705,7 +7718,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 429,
+      "queuePosition": 430,
       "id": "hypoxic-signaling",
       "title": "Hypoxic Signaling (HIF-1α Pathway)",
       "category": "mechanism",
@@ -7718,7 +7731,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 430,
+      "queuePosition": 431,
       "id": "il-10",
       "title": "IL-10 (Interleukin-10)",
       "category": "mechanism",
@@ -7731,7 +7744,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 431,
+      "queuePosition": 432,
       "id": "il-17",
       "title": "IL-17 (Interleukin-17)",
       "category": "mechanism",
@@ -7744,7 +7757,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 432,
+      "queuePosition": 433,
       "id": "il-1beta",
       "title": "IL-1beta (Interleukin-1 Beta)",
       "category": "mechanism",
@@ -7757,7 +7770,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 433,
+      "queuePosition": 434,
       "id": "il-8",
       "title": "IL-8 (Interleukin-8 / CXCL8)",
       "category": "mechanism",
@@ -7770,7 +7783,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 434,
+      "queuePosition": 435,
       "id": "immune-balance",
       "title": "Immune Balance",
       "category": "mechanism",
@@ -7783,7 +7796,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 435,
+      "queuePosition": 436,
       "id": "immunotherapy",
       "title": "Immunotherapy",
       "category": "mechanism",
@@ -7796,7 +7809,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 436,
+      "queuePosition": 437,
       "id": "indole",
       "title": "Indole and Indole Derivatives",
       "category": "mechanism",
@@ -7809,7 +7822,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 437,
+      "queuePosition": 438,
       "id": "indoles",
       "title": "Indoles",
       "category": "mechanism",
@@ -7822,7 +7835,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 438,
+      "queuePosition": 439,
       "id": "indoxyl-sulfate",
       "title": "Indoxyl Sulfate",
       "category": "mechanism",
@@ -7835,7 +7848,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 439,
+      "queuePosition": 440,
       "id": "infant-exposure",
       "title": "Infant Exposure",
       "category": "mechanism",
@@ -7848,7 +7861,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 440,
+      "queuePosition": 441,
       "id": "insulin-resistance",
       "title": "Insulin Resistance",
       "category": "mechanism",
@@ -7861,7 +7874,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 441,
+      "queuePosition": 442,
       "id": "interleukin-6",
       "title": "Interleukin-6 (IL-6)",
       "category": "mechanism",
@@ -7874,7 +7887,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 442,
+      "queuePosition": 443,
       "id": "intestinal-permeability",
       "title": "Intestinal Permeability",
       "category": "mechanism",
@@ -7887,7 +7900,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 443,
+      "queuePosition": 444,
       "id": "iron-sulfur-clusters",
       "title": "Iron-Sulfur Clusters",
       "category": "mechanism",
@@ -7900,7 +7913,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 444,
+      "queuePosition": 445,
       "id": "irving-williams-series",
       "title": "Irving-Williams Series",
       "category": "mechanism",
@@ -7913,7 +7926,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 445,
+      "queuePosition": 446,
       "id": "isoflavones",
       "title": "Isoflavones",
       "category": "mechanism",
@@ -7926,7 +7939,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 446,
+      "queuePosition": 447,
       "id": "ketone-bodies",
       "title": "Ketone Bodies",
       "category": "mechanism",
@@ -7939,7 +7952,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 447,
+      "queuePosition": 448,
       "id": "kynurenine-pathway",
       "title": "Kynurenine Pathway",
       "category": "mechanism",
@@ -7952,7 +7965,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 448,
+      "queuePosition": 449,
       "id": "labile-metal-pool",
       "title": "Labile Metal Pool",
       "category": "mechanism",
@@ -7965,7 +7978,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 449,
+      "queuePosition": 450,
       "id": "leptin",
       "title": "Leptin",
       "category": "mechanism",
@@ -7978,7 +7991,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 450,
+      "queuePosition": 451,
       "id": "lipid-metabolism",
       "title": "Lipid Metabolism",
       "category": "mechanism",
@@ -7991,7 +8004,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 451,
+      "queuePosition": 452,
       "id": "lipid-peroxidation",
       "title": "Lipid Peroxidation",
       "category": "mechanism",
@@ -8004,7 +8017,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 452,
+      "queuePosition": 453,
       "id": "lipopolysaccharide",
       "title": "Lipopolysaccharide",
       "category": "mechanism",
@@ -8017,7 +8030,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 453,
+      "queuePosition": 454,
       "id": "maternal-immune-activation",
       "title": "Maternal Immune Activation",
       "category": "mechanism",
@@ -8030,7 +8043,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 454,
+      "queuePosition": 455,
       "id": "matrix-metalloproteases",
       "title": "Matrix Metalloproteases (MMPs)",
       "category": "mechanism",
@@ -8043,7 +8056,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 455,
+      "queuePosition": 456,
       "id": "mediterranean-diet",
       "title": "Mediterranean Diet",
       "category": "mechanism",
@@ -8057,7 +8070,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 456,
+      "queuePosition": 457,
       "id": "mendelian-randomization",
       "title": "Mendelian Randomization",
       "category": "mechanism",
@@ -8070,7 +8083,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 457,
+      "queuePosition": 458,
       "id": "metabolic-syndrome",
       "title": "Metabolic Syndrome and Metal Exposure",
       "category": "mechanism",
@@ -8083,7 +8096,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 458,
+      "queuePosition": 459,
       "id": "metabolomics",
       "title": "Metabolomics",
       "category": "mechanism",
@@ -8096,7 +8109,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 459,
+      "queuePosition": 460,
       "id": "metal-carcinogenesis",
       "title": "Metal Carcinogenesis",
       "category": "mechanism",
@@ -8109,7 +8122,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 460,
+      "queuePosition": 461,
       "id": "metal-chelation-therapy",
       "title": "Metal Chelation Therapy",
       "category": "mechanism",
@@ -8122,7 +8135,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 461,
+      "queuePosition": 462,
       "id": "metal-resistance-genes",
       "title": "Metal Resistance Genes",
       "category": "mechanism",
@@ -8135,7 +8148,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 462,
+      "queuePosition": 463,
       "id": "metal-sensing",
       "title": "Metal Sensing",
       "category": "mechanism",
@@ -8148,7 +8161,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 463,
+      "queuePosition": 464,
       "id": "metal-speciation",
       "title": "Metal Speciation",
       "category": "mechanism",
@@ -8161,7 +8174,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 464,
+      "queuePosition": 465,
       "id": "metallochaperone",
       "title": "Metallochaperone",
       "category": "mechanism",
@@ -8174,7 +8187,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 465,
+      "queuePosition": 466,
       "id": "metalloestrogen",
       "title": "Metalloestrogen",
       "category": "mechanism",
@@ -8187,7 +8200,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 466,
+      "queuePosition": 467,
       "id": "metalloestrogens",
       "title": "Metalloestrogens",
       "category": "mechanism",
@@ -8200,7 +8213,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 467,
+      "queuePosition": 468,
       "id": "metallomics",
       "title": "Metallomics",
       "category": "mechanism",
@@ -8213,7 +8226,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 468,
+      "queuePosition": 469,
       "id": "metalloregulator",
       "title": "Metalloregulator",
       "category": "mechanism",
@@ -8226,7 +8239,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 469,
+      "queuePosition": 470,
       "id": "metallothionein",
       "title": "Metallothionein",
       "category": "mechanism",
@@ -8239,7 +8252,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 470,
+      "queuePosition": 471,
       "id": "methylation",
       "title": "Methylation",
       "category": "mechanism",
@@ -8252,7 +8265,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 471,
+      "queuePosition": 472,
       "id": "microbial-biomarkers",
       "title": "Microbial Biomarkers",
       "category": "mechanism",
@@ -8265,7 +8278,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 472,
+      "queuePosition": 473,
       "id": "metabolites",
       "title": "Microbial Metabolites",
       "category": "mechanism",
@@ -8278,7 +8291,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 473,
+      "queuePosition": 474,
       "id": "microbiome-diversity-metrics",
       "title": "Microbiome Diversity Metrics (Alpha and Beta Diversity)",
       "category": "mechanism",
@@ -8291,7 +8304,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 474,
+      "queuePosition": 475,
       "id": "microbiome-derived-metabolites",
       "title": "Microbiome-Derived Metabolites",
       "category": "mechanism",
@@ -8304,7 +8317,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 475,
+      "queuePosition": 476,
       "id": "microglia",
       "title": "Microglia",
       "category": "mechanism",
@@ -8317,7 +8330,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 476,
+      "queuePosition": 477,
       "id": "mis-metallation",
       "title": "Mis-Metallation",
       "category": "mechanism",
@@ -8330,7 +8343,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 477,
+      "queuePosition": 478,
       "id": "mitochondrial-dysfunction",
       "title": "Mitochondrial Dysfunction",
       "category": "mechanism",
@@ -8343,7 +8356,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 478,
+      "queuePosition": 479,
       "id": "molecular-mimicry",
       "title": "Molecular Mimicry",
       "category": "mechanism",
@@ -8356,7 +8369,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 479,
+      "queuePosition": 480,
       "id": "mycobiome",
       "title": "Mycobiome",
       "category": "mechanism",
@@ -8369,7 +8382,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 480,
+      "queuePosition": 481,
       "id": "n-glycosylation",
       "title": "N-Glycosylation",
       "category": "mechanism",
@@ -8382,7 +8395,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 481,
+      "queuePosition": 482,
       "id": "neurodegeneration",
       "title": "Neurodegeneration and Metals",
       "category": "mechanism",
@@ -8395,7 +8408,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 482,
+      "queuePosition": 483,
       "id": "neuroinflammation",
       "title": "Neuroinflammation",
       "category": "mechanism",
@@ -8408,7 +8421,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 483,
+      "queuePosition": 484,
       "id": "nf-kappa-b",
       "title": "NF-kB Signaling Pathway",
       "category": "mechanism",
@@ -8421,7 +8434,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 484,
+      "queuePosition": 485,
       "id": "nickel-allergy",
       "title": "Nickel Allergy and Allergic Contact Dermatitis",
       "category": "mechanism",
@@ -8434,7 +8447,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 485,
+      "queuePosition": 486,
       "id": "nickel-reproductive-toxicity",
       "title": "Nickel and Reproductive/Developmental Toxicity",
       "category": "mechanism",
@@ -8447,7 +8460,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 486,
+      "queuePosition": 487,
       "id": "nickel-neurotoxicity",
       "title": "Nickel Neurotoxicity",
       "category": "mechanism",
@@ -8460,7 +8473,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 487,
+      "queuePosition": 488,
       "id": "nickel-transporters",
       "title": "Nickel Transporters",
       "category": "mechanism",
@@ -8473,7 +8486,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 488,
+      "queuePosition": 489,
       "id": "nickel-glyoxalase",
       "title": "Nickel-Glyoxalase",
       "category": "mechanism",
@@ -8486,7 +8499,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 489,
+      "queuePosition": 490,
       "id": "nickel-urease",
       "title": "Nickel-Urease",
       "category": "mechanism",
@@ -8499,7 +8512,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 490,
+      "queuePosition": 491,
       "id": "nife-hydrogenase",
       "title": "NiFe-Hydrogenase",
       "category": "mechanism",
@@ -8512,7 +8525,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 491,
+      "queuePosition": 492,
       "id": "nitric-oxide",
       "title": "Nitric Oxide",
       "category": "mechanism",
@@ -8525,7 +8538,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 492,
+      "queuePosition": 493,
       "id": "nrf2",
       "title": "Nrf2 (Nuclear Factor Erythroid 2-Related Factor 2)",
       "category": "mechanism",
@@ -8538,7 +8551,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 493,
+      "queuePosition": 494,
       "id": "oral-microbiome",
       "title": "Oral Microbiome",
       "category": "mechanism",
@@ -8551,7 +8564,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 494,
+      "queuePosition": 495,
       "id": "outer-membrane",
       "title": "Outer Membrane",
       "category": "mechanism",
@@ -8564,7 +8577,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 495,
+      "queuePosition": 496,
       "id": "oxalate",
       "title": "Oxalate",
       "category": "mechanism",
@@ -8577,7 +8590,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 496,
+      "queuePosition": 497,
       "id": "oxalates",
       "title": "Oxalates",
       "category": "mechanism",
@@ -8590,7 +8603,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 497,
+      "queuePosition": 498,
       "id": "oxidative-stress",
       "title": "Oxidative Stress",
       "category": "mechanism",
@@ -8603,7 +8616,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 498,
+      "queuePosition": 499,
       "id": "oxygen-state",
       "title": "Oxygen State",
       "category": "mechanism",
@@ -8616,7 +8629,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 499,
+      "queuePosition": 500,
       "id": "p-cresol",
       "title": "p-Cresol",
       "category": "mechanism",
@@ -8629,7 +8642,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 500,
+      "queuePosition": 501,
       "id": "parenteral-nutrition",
       "title": "Parenteral Nutrition",
       "category": "mechanism",
@@ -8642,7 +8655,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 501,
+      "queuePosition": 502,
       "id": "peptidoglycan",
       "title": "Peptidoglycan",
       "category": "mechanism",
@@ -8655,7 +8668,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 502,
+      "queuePosition": 503,
       "id": "ph-sensing",
       "title": "pH Sensing",
       "category": "mechanism",
@@ -8668,7 +8681,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 503,
+      "queuePosition": 504,
       "id": "phage-therapy",
       "title": "Phage Therapy",
       "category": "mechanism",
@@ -8681,7 +8694,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 504,
+      "queuePosition": 505,
       "id": "pharmacomicrobiomics",
       "title": "Pharmacomicrobiomics",
       "category": "mechanism",
@@ -8694,7 +8707,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 505,
+      "queuePosition": 506,
       "id": "phenylalanine",
       "title": "Phenylalanine",
       "category": "mechanism",
@@ -8707,7 +8720,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 506,
+      "queuePosition": 507,
       "id": "phosphodiesterase",
       "title": "Phosphodiesterase",
       "category": "mechanism",
@@ -8720,7 +8733,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 507,
+      "queuePosition": 508,
       "id": "plant-metal-hyperaccumulation",
       "title": "Plant Metal Hyperaccumulation",
       "category": "mechanism",
@@ -8733,7 +8746,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 508,
+      "queuePosition": 509,
       "id": "polyamines",
       "title": "Polyamines",
       "category": "mechanism",
@@ -8746,7 +8759,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 509,
+      "queuePosition": 510,
       "id": "polyphenols",
       "title": "Polyphenols",
       "category": "mechanism",
@@ -8759,7 +8772,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 510,
+      "queuePosition": 511,
       "id": "polyunsaturated-fatty-acids",
       "title": "Polyunsaturated Fatty Acids (PUFAs)",
       "category": "mechanism",
@@ -8772,7 +8785,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 511,
+      "queuePosition": 512,
       "id": "postbiotic",
       "title": "Postbiotics",
       "category": "mechanism",
@@ -8785,7 +8798,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 512,
+      "queuePosition": 513,
       "id": "prebiotics",
       "title": "Prebiotics",
       "category": "mechanism",
@@ -8798,7 +8811,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 513,
+      "queuePosition": 514,
       "id": "premenstrual-syndrome",
       "title": "Premenstrual Syndrome",
       "category": "mechanism",
@@ -8811,7 +8824,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 514,
+      "queuePosition": 515,
       "id": "prenatal-metal-exposure",
       "title": "Prenatal Metal Exposure",
       "category": "mechanism",
@@ -8824,7 +8837,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 515,
+      "queuePosition": 516,
       "id": "preterm-birth",
       "title": "Preterm Birth",
       "category": "mechanism",
@@ -8837,7 +8850,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 516,
+      "queuePosition": 517,
       "id": "probiotics",
       "title": "Probiotics",
       "category": "mechanism",
@@ -8850,7 +8863,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 517,
+      "queuePosition": 518,
       "id": "propionic-acid",
       "title": "Propionic Acid",
       "category": "mechanism",
@@ -8863,7 +8876,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 518,
+      "queuePosition": 519,
       "id": "quinolinic-acid",
       "title": "Quinolinic Acid",
       "category": "mechanism",
@@ -8876,7 +8889,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 519,
+      "queuePosition": 520,
       "id": "quorum-sensing",
       "title": "Quorum Sensing",
       "category": "mechanism",
@@ -8889,7 +8902,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 520,
+      "queuePosition": 521,
       "id": "riboswitch",
       "title": "Riboswitch",
       "category": "mechanism",
@@ -8902,7 +8915,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 521,
+      "queuePosition": 522,
       "id": "saccharolytic-fermentation",
       "title": "Saccharolytic Fermentation",
       "category": "mechanism",
@@ -8915,7 +8928,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 522,
+      "queuePosition": 523,
       "id": "semen-microbiome",
       "title": "Semen Microbiome",
       "category": "mechanism",
@@ -8928,7 +8941,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 523,
+      "queuePosition": 524,
       "id": "serotonin-estrogen-axis",
       "title": "Serotonin-Estrogen Axis",
       "category": "mechanism",
@@ -8941,7 +8954,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 524,
+      "queuePosition": 525,
       "id": "short-chain-fatty-acids",
       "title": "Short-Chain Fatty Acids (SCFAs)",
       "category": "mechanism",
@@ -8954,7 +8967,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 525,
+      "queuePosition": 526,
       "id": "shotgun-metagenomics",
       "title": "Shotgun Metagenomics",
       "category": "mechanism",
@@ -8967,7 +8980,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 526,
+      "queuePosition": 527,
       "id": "srna",
       "title": "sRNA (Small Regulatory RNA)",
       "category": "mechanism",
@@ -8980,7 +8993,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 527,
+      "queuePosition": 528,
       "id": "statins",
       "title": "Statins",
       "category": "mechanism",
@@ -8993,7 +9006,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 528,
+      "queuePosition": 529,
       "id": "succinate",
       "title": "Succinate",
       "category": "mechanism",
@@ -9006,7 +9019,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 529,
+      "queuePosition": 530,
       "id": "synbiotic",
       "title": "Synbiotics",
       "category": "mechanism",
@@ -9019,7 +9032,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 530,
+      "queuePosition": 531,
       "id": "synbiotics",
       "title": "Synbiotics",
       "category": "mechanism",
@@ -9032,7 +9045,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 531,
+      "queuePosition": 532,
       "id": "systemic-inflammation",
       "title": "Systemic Inflammation",
       "category": "mechanism",
@@ -9045,7 +9058,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 532,
+      "queuePosition": 533,
       "id": "tau-phosphorylation",
       "title": "Tau Phosphorylation",
       "category": "mechanism",
@@ -9058,7 +9071,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 533,
+      "queuePosition": 534,
       "id": "taurine",
       "title": "Taurine",
       "category": "mechanism",
@@ -9071,7 +9084,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 534,
+      "queuePosition": 535,
       "id": "testosterone",
       "title": "Testosterone",
       "category": "mechanism",
@@ -9084,7 +9097,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 535,
+      "queuePosition": 536,
       "id": "tgf-beta",
       "title": "TGF-beta (Transforming Growth Factor Beta)",
       "category": "mechanism",
@@ -9097,7 +9110,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 536,
+      "queuePosition": 537,
       "id": "th17-treg-balance",
       "title": "Th17/Treg Balance",
       "category": "mechanism",
@@ -9110,7 +9123,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 537,
+      "queuePosition": 538,
       "id": "exposome",
       "title": "The Exposome",
       "category": "mechanism",
@@ -9123,7 +9136,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 538,
+      "queuePosition": 539,
       "id": "thyroid-autoimmunity",
       "title": "Thyroid Autoimmunity",
       "category": "mechanism",
@@ -9136,7 +9149,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 539,
+      "queuePosition": 540,
       "id": "tight-junctions",
       "title": "Tight Junctions",
       "category": "mechanism",
@@ -9149,7 +9162,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 540,
+      "queuePosition": 541,
       "id": "tlr4",
       "title": "TLR4",
       "category": "mechanism",
@@ -9162,7 +9175,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 541,
+      "queuePosition": 542,
       "id": "tnf-alpha",
       "title": "TNF-alpha (Tumor Necrosis Factor Alpha)",
       "category": "mechanism",
@@ -9175,7 +9188,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 542,
+      "queuePosition": 543,
       "id": "toll-like-receptors",
       "title": "Toll-Like Receptors",
       "category": "mechanism",
@@ -9188,7 +9201,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 543,
+      "queuePosition": 544,
       "id": "tmao",
       "title": "Trimethylamine N-Oxide (TMAO)",
       "category": "mechanism",
@@ -9201,7 +9214,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 544,
+      "queuePosition": 545,
       "id": "tryptamine",
       "title": "Tryptamine",
       "category": "mechanism",
@@ -9214,7 +9227,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 545,
+      "queuePosition": 546,
       "id": "tryptophan",
       "title": "Tryptophan",
       "category": "mechanism",
@@ -9227,7 +9240,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 546,
+      "queuePosition": 547,
       "id": "tryptophan-metabolism",
       "title": "Tryptophan Metabolism",
       "category": "mechanism",
@@ -9240,7 +9253,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 547,
+      "queuePosition": 548,
       "id": "urea",
       "title": "Urea",
       "category": "mechanism",
@@ -9253,7 +9266,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 548,
+      "queuePosition": 549,
       "id": "urease",
       "title": "Urease",
       "category": "mechanism",
@@ -9266,7 +9279,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 549,
+      "queuePosition": 550,
       "id": "uremic-toxins",
       "title": "Uremic Toxins",
       "category": "mechanism",
@@ -9279,7 +9292,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 550,
+      "queuePosition": 551,
       "id": "ursodeoxycholic-acid",
       "title": "Ursodeoxycholic Acid (UDCA)",
       "category": "mechanism",
@@ -9292,7 +9305,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 551,
+      "queuePosition": 552,
       "id": "vancomycin",
       "title": "Vancomycin",
       "category": "mechanism",
@@ -9305,7 +9318,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 552,
+      "queuePosition": 553,
       "id": "viral-microbiota",
       "title": "Viral Microbiota",
       "category": "mechanism",
@@ -9318,7 +9331,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 553,
+      "queuePosition": 554,
       "id": "virome",
       "title": "Virome",
       "category": "mechanism",
@@ -9331,7 +9344,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 554,
+      "queuePosition": 555,
       "id": "virulence-factors",
       "title": "Virulence Factors",
       "category": "mechanism",
@@ -9344,7 +9357,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 555,
+      "queuePosition": 556,
       "id": "vitamin-b12",
       "title": "Vitamin B12",
       "category": "mechanism",
@@ -9357,7 +9370,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 556,
+      "queuePosition": 557,
       "id": "vitamin-d",
       "title": "Vitamin D",
       "category": "mechanism",
@@ -9370,7 +9383,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 557,
+      "queuePosition": 558,
       "id": "zinc-metalloprotease",
       "title": "Zinc-Metalloprotease",
       "category": "mechanism",
@@ -9383,7 +9396,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 558,
+      "queuePosition": 559,
       "id": "zonulin",
       "title": "Zonulin",
       "category": "mechanism",
@@ -9396,7 +9409,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 559,
+      "queuePosition": 560,
       "id": "antimicrobial-metals",
       "title": "Antimicrobial Metals",
       "category": "defense",
@@ -9409,7 +9422,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 560,
+      "queuePosition": 561,
       "id": "autoimmunity",
       "title": "Autoimmunity",
       "category": "defense",
@@ -9422,7 +9435,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 561,
+      "queuePosition": 562,
       "id": "biofilm",
       "title": "Biofilm",
       "category": "defense",
@@ -9435,7 +9448,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 562,
+      "queuePosition": 563,
       "id": "calprotectin",
       "title": "Calprotectin (S100A8/A9)",
       "category": "defense",
@@ -9448,7 +9461,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 563,
+      "queuePosition": 564,
       "id": "cysteine",
       "title": "Cysteine",
       "category": "defense",
@@ -9461,7 +9474,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 564,
+      "queuePosition": 565,
       "id": "dietary-iron-gut-ecology",
       "title": "Dietary Iron and Gut Ecology",
       "category": "defense",
@@ -9474,7 +9487,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 565,
+      "queuePosition": 566,
       "id": "dyshomeostasis",
       "title": "Dyshomeostasis",
       "category": "defense",
@@ -9487,7 +9500,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 566,
+      "queuePosition": 567,
       "id": "ferritin",
       "title": "Ferritin",
       "category": "defense",
@@ -9500,7 +9513,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 567,
+      "queuePosition": 568,
       "id": "ferroportin",
       "title": "Ferroportin",
       "category": "defense",
@@ -9513,7 +9526,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 568,
+      "queuePosition": 569,
       "id": "glutathione",
       "title": "Glutathione (GSH)",
       "category": "defense",
@@ -9526,7 +9539,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 569,
+      "queuePosition": 570,
       "id": "hepcidin",
       "title": "Hepcidin",
       "category": "defense",
@@ -9539,7 +9552,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 570,
+      "queuePosition": 571,
       "id": "ifn-gamma",
       "title": "IFN-gamma (Interferon Gamma)",
       "category": "defense",
@@ -9552,7 +9565,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 571,
+      "queuePosition": 572,
       "id": "innate-immunity",
       "title": "Innate Immunity",
       "category": "defense",
@@ -9565,7 +9578,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 572,
+      "queuePosition": 573,
       "id": "inter-kingdom-metal-shielding",
       "title": "Inter-Kingdom Metal Shielding",
       "category": "defense",
@@ -9578,7 +9591,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 573,
+      "queuePosition": 574,
       "id": "lactoferrin",
       "title": "Lactoferrin",
       "category": "defense",
@@ -9591,7 +9604,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 574,
+      "queuePosition": 575,
       "id": "lipocalin-2",
       "title": "Lipocalin-2",
       "category": "defense",
@@ -9604,7 +9617,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 575,
+      "queuePosition": 576,
       "id": "metal-homeostasis",
       "title": "Metal Homeostasis",
       "category": "defense",
@@ -9617,7 +9630,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 576,
+      "queuePosition": 577,
       "id": "metal-dependent-virulence",
       "title": "Metal-Dependent Virulence",
       "category": "defense",
@@ -9630,7 +9643,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 577,
+      "queuePosition": 578,
       "id": "inflammation",
       "title": "Metal-Driven Inflammation",
       "category": "defense",
@@ -9643,7 +9656,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 578,
+      "queuePosition": 579,
       "id": "microbial-metallomics",
       "title": "Microbial Metallomics",
       "category": "defense",
@@ -9656,7 +9669,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 579,
+      "queuePosition": 580,
       "id": "n-acetyl-cysteine",
       "title": "N-Acetylcysteine (NAC)",
       "category": "defense",
@@ -9669,7 +9682,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 580,
+      "queuePosition": 581,
       "id": "nutritional-immunity",
       "title": "Nutritional Immunity (Metal Sequestration)",
       "category": "defense",
@@ -9682,7 +9695,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 581,
+      "queuePosition": 582,
       "id": "pathogen-metal-acquisition",
       "title": "Pathogen Metal Acquisition Systems",
       "category": "defense",
@@ -9695,7 +9708,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 582,
+      "queuePosition": 583,
       "id": "reactive-oxygen-species",
       "title": "Reactive Oxygen Species (ROS)",
       "category": "defense",
@@ -9708,7 +9721,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 583,
+      "queuePosition": 584,
       "id": "siderophore-competition",
       "title": "Siderophore Competition",
       "category": "defense",
@@ -9721,7 +9734,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 584,
+      "queuePosition": 585,
       "id": "siderophores",
       "title": "Siderophores",
       "category": "defense",
@@ -9734,7 +9747,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 585,
+      "queuePosition": 586,
       "id": "siderophores-metallophores",
       "title": "Siderophores and Metallophores",
       "category": "defense",
@@ -9747,7 +9760,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 586,
+      "queuePosition": 587,
       "id": "superoxide-dismutase",
       "title": "Superoxide Dismutase",
       "category": "defense",
@@ -9760,7 +9773,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 587,
+      "queuePosition": 588,
       "id": "transferrin",
       "title": "Transferrin",
       "category": "defense",
@@ -9773,7 +9786,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 588,
+      "queuePosition": 589,
       "id": "acarbose-fiber-synergy",
       "title": "Acarbose + High-Fiber Diet Synergy for PCOS",
       "category": "intervention",
@@ -9786,7 +9799,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 589,
+      "queuePosition": 590,
       "id": "aip-diet-hashimotos",
       "title": "Autoimmune Protocol (AIP) Diet for Hashimoto's Thyroiditis",
       "category": "intervention",
@@ -9799,7 +9812,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 590,
+      "queuePosition": 591,
       "id": "b-cell-depletion-therapy-ms",
       "title": "B-Cell Depletion Therapy for Multiple Sclerosis",
       "category": "intervention",
@@ -9812,7 +9825,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 591,
+      "queuePosition": 592,
       "id": "berberine",
       "title": "Berberine",
       "category": "intervention",
@@ -9825,7 +9838,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 592,
+      "queuePosition": 593,
       "id": "berberine-methimazole",
       "title": "Berberine + Methimazole for Graves' Disease",
       "category": "intervention",
@@ -9838,7 +9851,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 593,
+      "queuePosition": 594,
       "id": "breast-milk-hmo-nec",
       "title": "Breast Milk and Human Milk Oligosaccharides (HMOs) for NEC Prevention",
       "category": "intervention",
@@ -9851,7 +9864,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 594,
+      "queuePosition": 595,
       "id": "citrus-fruits",
       "title": "Citrus Fruits for Endometriosis",
       "category": "intervention",
@@ -9864,7 +9877,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 595,
+      "queuePosition": 596,
       "id": "curcumin",
       "title": "Curcumin",
       "category": "intervention",
@@ -9877,7 +9890,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 596,
+      "queuePosition": 597,
       "id": "dietary-fiber",
       "title": "Dietary Fiber (Cross-Condition)",
       "category": "intervention",
@@ -9890,7 +9903,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 597,
+      "queuePosition": 598,
       "id": "dietary-fiber-probiotics-cp-constipation",
       "title": "Dietary Fiber + Probiotics for Cerebral Palsy Constipation",
       "category": "intervention",
@@ -9903,7 +9916,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 598,
+      "queuePosition": 599,
       "id": "dietary-fiber-colorectal-cancer",
       "title": "Dietary Fiber for Colorectal Cancer Prevention",
       "category": "intervention",
@@ -9916,7 +9929,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 599,
+      "queuePosition": 600,
       "id": "dietary-fiber-ovarian-cancer",
       "title": "Dietary Fiber for Ovarian Cancer Risk Reduction",
       "category": "intervention",
@@ -9929,7 +9942,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 600,
+      "queuePosition": 601,
       "id": "dietary-fiber-ckd",
       "title": "Dietary Fiber Supplementation for CKD",
       "category": "intervention",
@@ -9942,7 +9955,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 601,
+      "queuePosition": 602,
       "id": "ecoli-nissle-1917",
       "title": "E. coli Nissle 1917",
       "category": "intervention",
@@ -9955,7 +9968,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 602,
+      "queuePosition": 603,
       "id": "exercise-schizophrenia",
       "title": "Exercise for Schizophrenia",
       "category": "intervention",
@@ -9968,7 +9981,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 603,
+      "queuePosition": 604,
       "id": "faecalibacterium-restoration",
       "title": "Faecalibacterium prausnitzii Restoration",
       "category": "intervention",
@@ -9981,7 +9994,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 604,
+      "queuePosition": 605,
       "id": "fmt-autism",
       "title": "Fecal Microbiota Transplant (FMT) for Autism Spectrum Disorder",
       "category": "intervention",
@@ -9994,7 +10007,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 605,
+      "queuePosition": 606,
       "id": "fmt-intervention",
       "title": "Fecal Microbiota Transplantation (FMT)",
       "category": "intervention",
@@ -10007,7 +10020,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 606,
+      "queuePosition": 607,
       "id": "ferrichrome-probiotics",
       "title": "Ferrichrome-Producing Probiotics",
       "category": "intervention",
@@ -10020,7 +10033,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 607,
+      "queuePosition": 608,
       "id": "glutathione-supplementation",
       "title": "Glutathione Supplementation",
       "category": "intervention",
@@ -10033,7 +10046,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 608,
+      "queuePosition": 609,
       "id": "gluten-free-diet",
       "title": "Gluten-Free Diet",
       "category": "intervention",
@@ -10046,7 +10059,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 609,
+      "queuePosition": 610,
       "id": "high-fiber-diet",
       "title": "High-Fiber Diet (Cross-Condition)",
       "category": "intervention",
@@ -10059,7 +10072,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 610,
+      "queuePosition": 611,
       "id": "high-fiber-prebiotics",
       "title": "High-Fiber Prebiotics for Crohn's Disease",
       "category": "intervention",
@@ -10072,7 +10085,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 611,
+      "queuePosition": 612,
       "id": "hbot",
       "title": "Hyperbaric Oxygen Therapy (HBOT)",
       "category": "intervention",
@@ -10085,7 +10098,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 612,
+      "queuePosition": 613,
       "id": "indole-3-carbinol-ovarian-cancer",
       "title": "Indole-3-Carbinol (I3C) for Ovarian Cancer",
       "category": "intervention",
@@ -10098,7 +10111,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 613,
+      "queuePosition": 614,
       "id": "iron-management",
       "title": "Iron Management",
       "category": "intervention",
@@ -10111,7 +10124,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 614,
+      "queuePosition": 615,
       "id": "ketogenic-diet",
       "title": "Ketogenic Diet",
       "category": "intervention",
@@ -10124,7 +10137,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 615,
+      "queuePosition": 616,
       "id": "ketogenic-diet-ms",
       "title": "Ketogenic Diet for Multiple Sclerosis",
       "category": "intervention",
@@ -10137,7 +10150,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 616,
+      "queuePosition": 617,
       "id": "l-rhamnosus-gg-early-life",
       "title": "L. rhamnosus GG Early-Life Supplementation for T1D Prevention",
       "category": "intervention",
@@ -10150,7 +10163,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 617,
+      "queuePosition": 618,
       "id": "lactoferrin-lgg-nec-prevention",
       "title": "Lactoferrin + L. rhamnosus GG for NEC Prevention",
       "category": "intervention",
@@ -10163,7 +10176,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 618,
+      "queuePosition": 619,
       "id": "lactoferrin-supplementation",
       "title": "Lactoferrin Supplementation (Cross-Condition)",
       "category": "intervention",
@@ -10176,7 +10189,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 619,
+      "queuePosition": 620,
       "id": "low-carbohydrate-diet-gerd",
       "title": "Low-Carbohydrate Diet for GERD",
       "category": "intervention",
@@ -10189,7 +10202,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 620,
+      "queuePosition": 621,
       "id": "low-carbohydrate-diet",
       "title": "Low-Carbohydrate Diet for PCOS",
       "category": "intervention",
@@ -10202,7 +10215,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 621,
+      "queuePosition": 622,
       "id": "low-fat-diet",
       "title": "Low-Fat Diet for Endometriosis",
       "category": "intervention",
@@ -10215,7 +10228,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 622,
+      "queuePosition": 623,
       "id": "low-nickel-diet",
       "title": "Low-Nickel Diet",
       "category": "intervention",
@@ -10228,7 +10241,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 623,
+      "queuePosition": 624,
       "id": "low-red-meat-diet",
       "title": "Low-Red-Meat Diet for Endometriosis",
       "category": "intervention",
@@ -10241,7 +10254,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 624,
+      "queuePosition": 625,
       "id": "magnesium-supplementation",
       "title": "Magnesium Supplementation for Fibromyalgia",
       "category": "intervention",
@@ -10254,7 +10267,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 625,
+      "queuePosition": 626,
       "id": "mediterranean-diet-fibromyalgia",
       "title": "Mediterranean Diet for Fibromyalgia",
       "category": "intervention",
@@ -10267,7 +10280,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 626,
+      "queuePosition": 627,
       "id": "mediterranean-diet-gerd",
       "title": "Mediterranean Diet for GERD",
       "category": "intervention",
@@ -10280,7 +10293,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 627,
+      "queuePosition": 628,
       "id": "mediterranean-diet-ovarian-cancer",
       "title": "Mediterranean Diet for Ovarian Cancer Survival",
       "category": "intervention",
@@ -10293,7 +10306,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 628,
+      "queuePosition": 629,
       "id": "mediterranean-diet-t1d",
       "title": "Mediterranean Diet for Type 1 Diabetes",
       "category": "intervention",
@@ -10306,7 +10319,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 629,
+      "queuePosition": 630,
       "id": "melatonin",
       "title": "Melatonin",
       "category": "intervention",
@@ -10319,7 +10332,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 630,
+      "queuePosition": 631,
       "id": "metformin-intervention",
       "title": "Metformin",
       "category": "intervention",
@@ -10332,7 +10345,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 631,
+      "queuePosition": 632,
       "id": "multi-strain-synbiotic-schizophrenia",
       "title": "Multi-Strain Synbiotic for Schizophrenia",
       "category": "intervention",
@@ -10345,7 +10358,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 632,
+      "queuePosition": 633,
       "id": "nac-autism",
       "title": "N-Acetylcysteine (NAC) for Autism Spectrum Disorder",
       "category": "intervention",
@@ -10358,7 +10371,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 633,
+      "queuePosition": 634,
       "id": "nac-supplementation",
       "title": "N-Acetylcysteine (NAC) Supplementation (Cross-Condition)",
       "category": "intervention",
@@ -10371,7 +10384,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 634,
+      "queuePosition": 635,
       "id": "omega-3-fatty-acids",
       "title": "Omega-3 Fatty Acids (EPA/DHA)",
       "category": "intervention",
@@ -10384,7 +10397,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 635,
+      "queuePosition": 636,
       "id": "plant-based-diet-ckd",
       "title": "Plant-Based Diet for CKD",
       "category": "intervention",
@@ -10397,7 +10410,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 636,
+      "queuePosition": 637,
       "id": "prebiotics-inulin-fructo-oligosaccharide",
       "title": "Prebiotics (Inulin + FOS) for PCOS",
       "category": "intervention",
@@ -10410,7 +10423,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 637,
+      "queuePosition": 638,
       "id": "probiotic-combination-ckd",
       "title": "Probiotic Combination for CKD",
       "category": "intervention",
@@ -10423,7 +10436,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 638,
+      "queuePosition": 639,
       "id": "probiotics-general",
       "title": "Probiotics (General)",
       "category": "intervention",
@@ -10436,7 +10449,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 639,
+      "queuePosition": 640,
       "id": "probiotics-lactobacillus-bifidobacterium",
       "title": "Probiotics (Lactobacillus + Bifidobacterium) for PCOS",
       "category": "intervention",
@@ -10449,7 +10462,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 640,
+      "queuePosition": 641,
       "id": "probiotics-asd-dysbiosis",
       "title": "Probiotics for ASD Dysbiosis",
       "category": "intervention",
@@ -10462,7 +10475,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 641,
+      "queuePosition": 642,
       "id": "probiotics-thyroid",
       "title": "Probiotics for Hashimoto's Thyroiditis",
       "category": "intervention",
@@ -10475,7 +10488,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 642,
+      "queuePosition": 643,
       "id": "probiotics-ppd",
       "title": "Probiotics for Postpartum Depression",
       "category": "intervention",
@@ -10488,7 +10501,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 643,
+      "queuePosition": 644,
       "id": "probiotics-with-ppi-gerd",
       "title": "Probiotics with PPI Therapy for GERD",
       "category": "intervention",
@@ -10501,7 +10514,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 644,
+      "queuePosition": 645,
       "id": "quercetin",
       "title": "Quercetin (Cross-Condition)",
       "category": "intervention",
@@ -10514,7 +10527,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 645,
+      "queuePosition": 646,
       "id": "resveratrol",
       "title": "Resveratrol",
       "category": "intervention",
@@ -10527,7 +10540,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 646,
+      "queuePosition": 647,
       "id": "selenium-supplementation",
       "title": "Selenium Supplementation",
       "category": "intervention",
@@ -10540,7 +10553,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 647,
+      "queuePosition": 648,
       "id": "selenium-supplementation-200mcg",
       "title": "Selenium Supplementation (200mcg/day) for Hashimoto's Thyroiditis",
       "category": "intervention",
@@ -10553,7 +10566,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 648,
+      "queuePosition": 649,
       "id": "statin-simvastatin-colorectal-cancer",
       "title": "Simvastatin for Colorectal Cancer",
       "category": "intervention",
@@ -10566,7 +10579,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 649,
+      "queuePosition": 650,
       "id": "statin-therapy",
       "title": "Statin Therapy",
       "category": "intervention",
@@ -10579,7 +10592,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 650,
+      "queuePosition": 651,
       "id": "statin",
       "title": "Statins",
       "category": "intervention",
@@ -10592,7 +10605,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 651,
+      "queuePosition": 652,
       "id": "synbiotics-pdac",
       "title": "Synbiotics for Pancreatic Ductal Adenocarcinoma",
       "category": "intervention",
@@ -10605,7 +10618,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 652,
+      "queuePosition": 653,
       "id": "vitamin-d-probiotic-schizophrenia",
       "title": "Vitamin D + Probiotic Combination for Schizophrenia",
       "category": "intervention",
@@ -10618,7 +10631,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 653,
+      "queuePosition": 654,
       "id": "vitamin-d-probiotic-synergy",
       "title": "Vitamin D + Probiotic Synergy (Cross-Condition)",
       "category": "intervention",
@@ -10631,7 +10644,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 654,
+      "queuePosition": 655,
       "id": "vitamin-d-supplementation",
       "title": "Vitamin D Supplementation",
       "category": "intervention",
@@ -10644,7 +10657,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 655,
+      "queuePosition": 656,
       "id": "zinc-supplementation",
       "title": "Zinc Supplementation",
       "category": "intervention",
@@ -10657,7 +10670,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 656,
+      "queuePosition": 657,
       "id": "zinc-supplementation-autism",
       "title": "Zinc Supplementation for Autism Spectrum Disorder",
       "category": "intervention",
@@ -10670,7 +10683,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 657,
+      "queuePosition": 658,
       "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
       "title": "STOP: Broad-Spectrum Antibiotics During Ovarian Cancer Chemotherapy",
       "category": "stop",
@@ -10683,7 +10696,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 658,
+      "queuePosition": 659,
       "id": "stop-broad-spectrum-antibiotics-crohns",
       "title": "STOP: Broad-Spectrum Antibiotics for Crohn's Disease",
       "category": "stop",
@@ -10696,7 +10709,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 659,
+      "queuePosition": 660,
       "id": "stop-broad-spectrum-antibiotics-dysbiosis",
       "title": "STOP: Broad-Spectrum Antibiotics for Gut Dysbiosis",
       "category": "stop",
@@ -10709,7 +10722,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 660,
+      "queuePosition": 661,
       "id": "stop-broad-spectrum-antibiotics-long-covid",
       "title": "STOP: Broad-Spectrum Antibiotics for Long COVID",
       "category": "stop",
@@ -10722,7 +10735,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 661,
+      "queuePosition": 662,
       "id": "stop-calcium-supplementation-cadmium-exposure",
       "title": "STOP: Calcium Supplementation with Cadmium Exposure",
       "category": "stop",
@@ -10735,7 +10748,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 662,
+      "queuePosition": 663,
       "id": "stop-diagnostic-overclaiming-discovery-phase",
       "title": "STOP: Diagnostic Overclaiming from Discovery-Phase Microbiome Data (Pancreatic Cancer)",
       "category": "stop",
@@ -10748,7 +10761,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 663,
+      "queuePosition": 664,
       "id": "stop-formula-feeding-without-supplementation-nec",
       "title": "STOP: Exclusive Formula Feeding Without Supplementation for NEC-Risk Infants",
       "category": "stop",
@@ -10761,7 +10774,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 664,
+      "queuePosition": 665,
       "id": "stop-high-protein-keto-diet-ckd",
       "title": "STOP: High-Protein or Ketogenic Diet for CKD",
       "category": "stop",
@@ -10774,7 +10787,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 665,
+      "queuePosition": 666,
       "id": "stop-iodine-supplementation-graves",
       "title": "STOP: Iodine Supplementation for Graves' Disease",
       "category": "stop",
@@ -10787,7 +10800,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 666,
+      "queuePosition": 667,
       "id": "stop-iodine-supplementation-hashimotos",
       "title": "STOP: Iodine Supplementation for Hashimoto's Thyroiditis",
       "category": "stop",
@@ -10800,7 +10813,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 667,
+      "queuePosition": 668,
       "id": "stop-iron-supplementation-ibd",
       "title": "STOP: Iron Supplementation (Oral) for IBD/Crohn's Disease",
       "category": "stop",
@@ -10813,7 +10826,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 668,
+      "queuePosition": 669,
       "id": "stop-iron-supplementation-alzheimers",
       "title": "STOP: Iron Supplementation for Alzheimer's Disease",
       "category": "stop",
@@ -10826,7 +10839,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 669,
+      "queuePosition": 670,
       "id": "stop-iron-supplementation-cardiovascular-disease",
       "title": "STOP: Iron Supplementation for Cardiovascular Disease-Associated Anemia",
       "category": "stop",
@@ -10839,7 +10852,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 670,
+      "queuePosition": 671,
       "id": "stop-iron-supplementation-colorectal-cancer",
       "title": "STOP: Iron Supplementation for Colorectal Cancer",
       "category": "stop",
@@ -10852,7 +10865,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 671,
+      "queuePosition": 672,
       "id": "stop-iron-supplementation-crohns",
       "title": "STOP: Iron Supplementation for Crohn's Disease",
       "category": "stop",
@@ -10865,7 +10878,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 672,
+      "queuePosition": 673,
       "id": "stop-iron-supplementation-depression",
       "title": "STOP: Iron Supplementation for Depression-Associated Low Serum Metals",
       "category": "stop",
@@ -10878,7 +10891,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 673,
+      "queuePosition": 674,
       "id": "stop-iron-supplementation-endometriosis",
       "title": "STOP: Iron Supplementation for Endometriosis",
       "category": "stop",
@@ -10891,7 +10904,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 674,
+      "queuePosition": 675,
       "id": "stop-iron-supplementation-graves",
       "title": "STOP: Iron Supplementation for Graves' Disease",
       "category": "stop",
@@ -10904,7 +10917,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 675,
+      "queuePosition": 676,
       "id": "stop-iron-supplementation-long-covid",
       "title": "STOP: Iron Supplementation for Long COVID",
       "category": "stop",
@@ -10917,7 +10930,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 676,
+      "queuePosition": 677,
       "id": "stop-iron-supplementation-ms",
       "title": "STOP: Iron Supplementation for Multiple Sclerosis Anemia",
       "category": "stop",
@@ -10930,7 +10943,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 677,
+      "queuePosition": 678,
       "id": "stop-iron-supplementation-obesity",
       "title": "STOP: Iron Supplementation for Obesity-Associated Anemia",
       "category": "stop",
@@ -10943,7 +10956,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 678,
+      "queuePosition": 679,
       "id": "stop-iron-supplementation-parkinsons",
       "title": "STOP: Iron Supplementation for Parkinson's Disease Anemia",
       "category": "stop",
@@ -10956,7 +10969,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 679,
+      "queuePosition": 680,
       "id": "stop-iron-supplementation-pcos",
       "title": "STOP: Iron Supplementation for PCOS",
       "category": "stop",
@@ -10969,7 +10982,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 680,
+      "queuePosition": 681,
       "id": "stop-iron-supplementation-type-2-diabetes",
       "title": "STOP: Iron Supplementation for Type 2 Diabetes-Associated Anemia",
       "category": "stop",
@@ -10982,7 +10995,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 681,
+      "queuePosition": 682,
       "id": "stop-iron-supplementation-asd",
       "title": "STOP: Iron Supplementation in ASD Dysbiosis (Without Metal Dysregulation Assessment)",
       "category": "stop",
@@ -10995,7 +11008,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 682,
+      "queuePosition": 683,
       "id": "stop-iron-supplementation-schizophrenia",
       "title": "STOP: Iron Supplementation in Schizophrenia with Neuroinflammation",
       "category": "stop",
@@ -11008,7 +11021,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 683,
+      "queuePosition": 684,
       "id": "stop-iron-phosphate-binders-ckd",
       "title": "STOP: Iron-Based Phosphate Binders in CKD Without Microbiome Monitoring",
       "category": "stop",
@@ -11021,7 +11034,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 684,
+      "queuePosition": 685,
       "id": "stop-isolated-zinc-supplementation-pcos",
       "title": "STOP: Isolated Zinc Supplementation for PCOS",
       "category": "stop",
@@ -11034,7 +11047,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 685,
+      "queuePosition": 686,
       "id": "stop-ppi-monotherapy-without-microbiome-support-gerd",
       "title": "STOP: Long-Term PPI Monotherapy Without Microbiome Support in GERD",
       "category": "stop",
@@ -11047,7 +11060,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 686,
+      "queuePosition": 687,
       "id": "stop-neglecting-constipation-ckd",
       "title": "STOP: Neglecting Constipation Management in CKD",
       "category": "stop",
@@ -11060,7 +11073,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 687,
+      "queuePosition": 688,
       "id": "stop-nickel-rich-foods-snas",
       "title": "STOP: Nickel-Rich 'Healthy' Foods in SNAS/Nickel Allergy",
       "category": "stop",
@@ -11073,7 +11086,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 688,
+      "queuePosition": 689,
       "id": "stop-nsaids-ckd",
       "title": "STOP: NSAIDs in Chronic Kidney Disease",
       "category": "stop",
@@ -11086,7 +11099,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 689,
+      "queuePosition": 690,
       "id": "stop-probiotics-without-stress-management-ovarian-cancer",
       "title": "STOP: Probiotics Without Stress Management in Ovarian Cancer",
       "category": "stop",
@@ -11099,7 +11112,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 690,
+      "queuePosition": 691,
       "id": "stop-broad-spectrum-antibiotics-pre-nec",
       "title": "STOP: Prophylactic Broad-Spectrum Antibiotics for NEC Prevention",
       "category": "stop",
@@ -11112,7 +11125,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 691,
+      "queuePosition": 692,
       "id": "stop-scfa-replacement-without-dysbiosis-restoration-ms",
       "title": "STOP: SCFA Supplementation Without Clostridial Restoration in Multiple Sclerosis",
       "category": "stop",
@@ -11125,7 +11138,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 692,
+      "queuePosition": 693,
       "id": "stop-standard-probiotics-endometriosis",
       "title": "STOP: Standard (Unselected) Probiotics for Endometriosis",
       "category": "stop",
@@ -11138,7 +11151,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 693,
+      "queuePosition": 694,
       "id": "stop-wrong-strain-probiotics-schizophrenia",
       "title": "STOP: Wrong-Strain Probiotics for Schizophrenia Psychiatric Symptoms",
       "category": "stop",
@@ -11151,7 +11164,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 694,
+      "queuePosition": 695,
       "id": "stop-zinc-supplementation-endometriosis",
       "title": "STOP: Zinc Supplementation for Endometriosis",
       "category": "stop",
@@ -11164,7 +11177,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 695,
+      "queuePosition": 696,
       "id": "stop-zinc-supplementation-h-pylori",
       "title": "STOP: Zinc Supplementation in H. pylori Infection",
       "category": "stop",
@@ -11177,7 +11190,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 696,
+      "queuePosition": 697,
       "id": "dietary-metal-exposure-by-life-stage",
       "title": "Dietary Metal Exposure by Life Stage",
       "category": "analysis",
@@ -11190,7 +11203,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 697,
+      "queuePosition": 698,
       "id": "dietary-metal-paradoxes",
       "title": "Dietary Metal Paradoxes: When Healthy Foods and Good Intentions Backfire",
       "category": "analysis",
@@ -11203,7 +11216,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 698,
+      "queuePosition": 699,
       "id": "dopamine",
       "title": "Dopamine",
       "category": "entity",
@@ -11216,7 +11229,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 699,
+      "queuePosition": 700,
       "id": "glossary",
       "title": "Glossary",
       "category": "reference",
@@ -11229,7 +11242,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 700,
+      "queuePosition": 701,
       "id": "hungatella",
       "title": "Hungatella",
       "category": "other",
@@ -11242,7 +11255,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 701,
+      "queuePosition": 702,
       "id": "intestinibacter",
       "title": "Intestinibacter",
       "category": "other",
@@ -11255,7 +11268,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 702,
+      "queuePosition": 703,
       "id": "kynurenine",
       "title": "Kynurenine",
       "category": "entity",
@@ -11268,7 +11281,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 703,
+      "queuePosition": 704,
       "id": "metal-disease-matrix",
       "title": "Metal-Disease Matrix: A Cross-Source Synthesis",
       "category": "analysis",
@@ -11281,7 +11294,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 704,
+      "queuePosition": 705,
       "id": "metformin",
       "title": "Metformin",
       "category": "entity",
@@ -11294,7 +11307,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 705,
+      "queuePosition": 706,
       "id": "methanobrevibacter-smithii",
       "title": "Methanobrevibacter smithii",
       "category": "entity",
@@ -11307,7 +11320,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 706,
+      "queuePosition": 707,
       "id": "neisseria-meningitidis",
       "title": "Neisseria Meningitidis",
       "category": "other",
@@ -11320,7 +11333,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 707,
+      "queuePosition": 708,
       "id": "oxalobacter",
       "title": "Oxalobacter",
       "category": "other",
@@ -11333,7 +11346,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 708,
+      "queuePosition": 709,
       "id": "parvimonas",
       "title": "Parvimonas",
       "category": "other",
@@ -11346,7 +11359,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 709,
+      "queuePosition": 710,
       "id": "serotonin",
       "title": "Serotonin",
       "category": "entity",
@@ -11359,7 +11372,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 710,
+      "queuePosition": 711,
       "id": "shared-pathobionts-across-signatures",
       "title": "Shared Pathobionts Across Disease Signatures",
       "category": "analysis",
@@ -11372,7 +11385,7 @@
       "status": "queued"
     },
     {
-      "queuePosition": 711,
+      "queuePosition": 712,
       "id": "overview",
       "title": "WikiBiome Overview",
       "category": "reference",

@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-06T18:55:39.740Z",
+  "generatedAt": "2026-09-07T03:49:19.379Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "7ec609cd735d6389ba33b17cfa9a3d7ed8ce27ed",
-  "records": 818,
-  "canonicalIds": 753,
-  "revisions": 2936,
+  "sourceCommit": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
+  "records": 819,
+  "canonicalIds": 754,
+  "revisions": 2942,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -7535,6 +7535,15 @@
       ],
       "revisions": [
         {
+          "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
+          "date": "2026-09-07T06:47:53+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Ammonia concept coverage",
+          "path": "wiki/entities/helicobacter-pylori.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "7ec609cd735d6389ba33b17cfa9a3d7ed8ce27ed",
           "date": "2026-09-06T21:53:39+03:00",
           "author": "Karen Pendergrass",
@@ -12923,6 +12932,15 @@
       ],
       "revisions": [
         {
+          "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
+          "date": "2026-09-07T06:47:53+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Ammonia concept coverage",
+          "path": "wiki/entities/proteus-mirabilis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -15732,6 +15750,15 @@
       ],
       "revisions": [
         {
+          "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
+          "date": "2026-09-07T06:47:53+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Ammonia concept coverage",
+          "path": "wiki/entities/ureaplasma.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -16263,6 +16290,22 @@
           "subject": "WikiBiome update — 2026-04-10 23:44",
           "path": "wiki/concepts/alpha-synuclein.md",
           "additions": 30,
+          "deletions": 0
+        }
+      ]
+    },
+    "ammonia": {
+      "paths": [
+        "wiki/concepts/ammonia.md"
+      ],
+      "revisions": [
+        {
+          "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
+          "date": "2026-09-07T06:47:53+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Ammonia concept coverage",
+          "path": "wiki/concepts/ammonia.md",
+          "additions": 60,
           "deletions": 0
         }
       ]
@@ -25105,6 +25148,15 @@
       ],
       "revisions": [
         {
+          "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
+          "date": "2026-09-07T06:47:53+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Ammonia concept coverage",
+          "path": "wiki/concepts/urea.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "7ec609cd735d6389ba33b17cfa9a3d7ed8ce27ed",
           "date": "2026-09-06T21:53:39+03:00",
           "author": "Karen Pendergrass",
@@ -25120,6 +25172,15 @@
         "wiki/concepts/urease.md"
       ],
       "revisions": [
+        {
+          "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
+          "date": "2026-09-07T06:47:53+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Ammonia concept coverage",
+          "path": "wiki/concepts/urease.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "7ec609cd735d6389ba33b17cfa9a3d7ed8ce27ed",
           "date": "2026-09-06T21:53:39+03:00",
