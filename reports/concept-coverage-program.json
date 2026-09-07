@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "a32da31ad78786845b8df04632c611cd9639567bf4e3e97b33116259b923530e",
+    "corpusSha256": "c7fb392cfe3b6249939734778b9e8b3b53e1579dbe5863bfea824a886ac4c65f",
     "catalogSha256": "3750202ce01edab52a50e7bfee63cbd657b70fa455f69dc6a11eb683476a8b4e",
     "decisionsSha256": "44bda9dc987eaf7613bce4920473b7847a5714aff9157feaa39b0441048a1323",
     "publicArticles": 591,
@@ -5521,7 +5521,7 @@
       },
       "metrics": {
         "distinctArticles": 54,
-        "totalPlainMentions": 78,
+        "totalPlainMentions": 79,
         "linkedArticles": 4,
         "unlinkedArticles": 50,
         "linkCoveragePercent": 7,
@@ -8647,7 +8647,7 @@
       },
       "metrics": {
         "distinctArticles": 62,
-        "totalPlainMentions": 97,
+        "totalPlainMentions": 98,
         "linkedArticles": 45,
         "unlinkedArticles": 17,
         "linkCoveragePercent": 73,
@@ -16124,7 +16124,7 @@
       },
       "metrics": {
         "distinctArticles": 35,
-        "totalPlainMentions": 55,
+        "totalPlainMentions": 56,
         "linkedArticles": 9,
         "unlinkedArticles": 26,
         "linkCoveragePercent": 26,
@@ -41587,7 +41587,7 @@
       },
       "metrics": {
         "distinctArticles": 21,
-        "totalPlainMentions": 21,
+        "totalPlainMentions": 22,
         "linkedArticles": 14,
         "unlinkedArticles": 7,
         "linkCoveragePercent": 67,

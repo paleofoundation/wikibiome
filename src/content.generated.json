@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T13:27:44.129Z",
+  "_generated": "2026-09-07T13:39:32.751Z",
   "_platform": "all",
   "_stats": {
     "sources": 1940,
@@ -104903,7 +104903,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[inflammation]] — the broader biological response; central and peripheral inflammation must be distinguished\n- [[microglia]] — resident CNS immune cells with diverse, context-dependent states\n- [[blood-brain-barrier]] — neurovascular interface regulating exchange between blood and CNS tissue\n- [[gut-brain-axis]] — immune, metabolic, vascular, and neural communication routes\n- [[nlrp3-inflammasome]] — one inflammatory signaling complex studied in reactive microglia\n- [[oxidative-stress]] — an interacting process that can both provoke and result from inflammatory signaling\n- [[ferroptosis]] — iron-dependent lipid-peroxidation cell death, not a synonym for neuroinflammation\n- [[short-chain-fatty-acids]] — microbial metabolites with context-dependent barrier and immune effects\n- [[tryptophan-metabolism]] — source of immune- and neuroactive metabolites\n- [[neurodegeneration]] — neuronal dysfunction or loss that may precede, accompany, or follow inflammation"
+          "body": "- [[inflammation]] — the broader biological response; central and peripheral inflammation must be distinguished\n- microglia — resident CNS immune cells with diverse, context-dependent states\n- blood–brain barrier — neurovascular interface regulating exchange between blood and CNS tissue\n- gut–brain axis — immune, metabolic, vascular, and neural communication routes\n- NLRP3 inflammasome — one inflammatory signaling complex studied in reactive microglia\n- oxidative stress — an interacting process that can both provoke and result from inflammatory signaling\n- ferroptosis — iron-dependent lipid-peroxidation cell death, not a synonym for neuroinflammation\n- short-chain fatty acids — microbial metabolites with context-dependent barrier and immune effects\n- [[tryptophan-metabolism]] — source of immune- and neuroactive metabolites\n- neurodegeneration — neuronal dysfunction or loss that may precede, accompany, or follow inflammation"
         }
       ],
       "wikilinks": [

@@ -94,12 +94,12 @@ These questions matter because neuroinflammation is a dynamic response shared by
 ## Connections
 
 - [[inflammation]] — the broader biological response; central and peripheral inflammation must be distinguished
-- [[microglia]] — resident CNS immune cells with diverse, context-dependent states
-- [[blood-brain-barrier]] — neurovascular interface regulating exchange between blood and CNS tissue
-- [[gut-brain-axis]] — immune, metabolic, vascular, and neural communication routes
-- [[nlrp3-inflammasome]] — one inflammatory signaling complex studied in reactive microglia
-- [[oxidative-stress]] — an interacting process that can both provoke and result from inflammatory signaling
-- [[ferroptosis]] — iron-dependent lipid-peroxidation cell death, not a synonym for neuroinflammation
-- [[short-chain-fatty-acids]] — microbial metabolites with context-dependent barrier and immune effects
+- microglia — resident CNS immune cells with diverse, context-dependent states
+- blood–brain barrier — neurovascular interface regulating exchange between blood and CNS tissue
+- gut–brain axis — immune, metabolic, vascular, and neural communication routes
+- NLRP3 inflammasome — one inflammatory signaling complex studied in reactive microglia
+- oxidative stress — an interacting process that can both provoke and result from inflammatory signaling
+- ferroptosis — iron-dependent lipid-peroxidation cell death, not a synonym for neuroinflammation
+- short-chain fatty acids — microbial metabolites with context-dependent barrier and immune effects
 - [[tryptophan-metabolism]] — source of immune- and neuroactive metabolites
-- [[neurodegeneration]] — neuronal dysfunction or loss that may precede, accompany, or follow inflammation
+- neurodegeneration — neuronal dysfunction or loss that may precede, accompany, or follow inflammation
