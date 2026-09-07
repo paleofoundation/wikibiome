@@ -31,8 +31,6 @@
     "acceptedSourceSha256": [],
     "nonPublishablePageIds": ["dyshomeostasis", "ferritin", "ferroportin", "glutathione", "hepcidin", "ifn-gamma"]
   },
-  "initialAuditCommit": "882cf62",
-  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Five scientifically underbounded routes received no prompt or call. Reduced L-glutathione received exactly one immutable built-in generation call. Native inspection and programmatic color segmentation observed twenty-four heavy-atom centers—twelve graphite carbon-context, three blue nitrogen-context, eight rose oxygen-context, and one gold sulfur-context—rather than the required twenty centers and 10/3/6/1 composition. The displayed graph also contains an extra two-oxygen carbonyl unit directly joined to a nitrogen. Prompt intent was never treated as observed output, and the exact original is quarantined non-public.",
   "routeDecisionCount": 6,
   "candidateCount": 0,

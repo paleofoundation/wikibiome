@@ -1,12 +1,27 @@
 import assert from "node:assert/strict";
 import test from "node:test";
 import { createHash } from "node:crypto";
-import { assertBatchPromptIntegrity } from "../scripts/article-media-batch-validation.mjs";
+import { assertBatchPromptIntegrity, parseStrictJson } from "../scripts/article-media-batch-validation.mjs";
 
 const prompt = "Exact frozen scientific prompt.";
 const promptSha256 = createHash("sha256").update(prompt).digest("hex");
 const promptRecord = `<!-- PROMPT example-route START -->\n\`\`\`text\n${prompt}\n\`\`\`\n<!-- PROMPT example-route END -->`;
 const batch = { assets: [{ pageId: "example-route", promptSha256 }] };
+
+test("rejects duplicate JSON keys before media manifests are parsed", () => {
+  assert.deepEqual(parseStrictJson('{"status":"reviewed","assets":[{"pageId":"one"}]}', "valid.json"), {
+    status: "reviewed",
+    assets: [{ pageId: "one" }],
+  });
+  assert.throws(
+    () => parseStrictJson('{"status":"reviewed","status":"prompt-frozen"}', "duplicate.json"),
+    /duplicate\.json: duplicate key "status"/,
+  );
+  assert.throws(
+    () => parseStrictJson('{"assets":[{"pageId":"one","pageId":"two"}]}', "nested.json"),
+    /nested\.json: duplicate key "pageId"/,
+  );
+});
 
 test("verifies marker-bound immutable prompt hashes", () => {
   assert.deepEqual(assertBatchPromptIntegrity(batch, promptRecord, "example.json"), {

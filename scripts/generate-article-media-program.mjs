@@ -10,7 +10,7 @@ import {
   loadCanonicalMediaRoutes,
   mediaCoverageGroups,
 } from "./article-media-corpus.mjs";
-import { activeMediaReviewStatuses, assertBatchPromptIntegrity, assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
+import { activeMediaReviewStatuses, assertBatchPromptIntegrity, assertMediaOutputAudit, parseStrictJson } from "./article-media-batch-validation.mjs";
 
 const projectRoot = process.cwd();
 const outputPath = resolve(projectRoot, "data/article-media-coverage.generated.json");
@@ -74,7 +74,7 @@ const batchManifests = readdirSync(batchDirectory)
   .sort()
   .map((name) => {
     const path = resolve(batchDirectory, name);
-    return { name, path, data: JSON.parse(readFileSync(path, "utf8")) };
+    return { name, path, data: parseStrictJson(readFileSync(path, "utf8"), name) };
   });
 for (const { name, data } of batchManifests) {
   if (!data.batchId || !data.category || !data.status || !Array.isArray(data.assets)) throw new Error(`${name}: media batch manifest is incomplete.`);

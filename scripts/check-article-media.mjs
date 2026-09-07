@@ -7,7 +7,7 @@ import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { requiredEmbeddedMetadataTokens } from "../lib/article-media-metadata.mjs";
 import { assertArticleMediaRecord } from "../lib/article-media-validation.mjs";
 import { assertCanonicalMediaCorpus, loadCanonicalMediaRoutes } from "./article-media-corpus.mjs";
-import { assertBatchPromptIntegrity, assertMediaOutputAudit } from "./article-media-batch-validation.mjs";
+import { assertBatchPromptIntegrity, assertMediaOutputAudit, parseStrictJson } from "./article-media-batch-validation.mjs";
 import { assertApprovedMediaReview } from "./article-media-review-log.mjs";
 
 const projectRoot = process.cwd();
@@ -25,7 +25,7 @@ if (reviewLog.schemaVersion !== 2 || !reviewLog.reviews || !reviewLog.reviewingA
 const batchManifests = readdirSync(batchDirectory)
   .filter((name) => name.endsWith(".json"))
   .sort()
-  .map((name) => ({ name, data: JSON.parse(readFileSync(resolve(batchDirectory, name), "utf8")) }));
+  .map((name) => ({ name, data: parseStrictJson(readFileSync(resolve(batchDirectory, name), "utf8"), name) }));
 
 const compatibleTypes = Object.freeze({
   microorganisms: new Set(["morphology", "microbial-community"]),
