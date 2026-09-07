@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "521787f67f24313da44a8bcc45bc0e92d3a4a9c097221a853c0369fb00afd288",
+    "reviewLogSha256": "079adc4510b6b1192da5cfc5f869c923c0829ec68669cbb190518d48ba65965d",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -215,6 +215,12 @@
         "batchId": "mechanisms-079",
         "status": "reviewed",
         "sha256": "66b7577c958eca9ef9085a4ecaf1fed326cf9a0930d17995f81e5161824e0b2d"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-080.json",
+        "batchId": "mechanisms-080",
+        "status": "reviewed",
+        "sha256": "15b8bacec42d195991ea9456722a42d4f2ad7f73aae69b2eb46d337bd802254b"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -508,9 +514,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 112,
+    "rejected": 118,
     "revised": 12,
-    "scientificHolds": 57,
+    "scientificHolds": 63,
     "inReview": 0
   },
   "categories": [
@@ -2643,6 +2649,105 @@
       ],
       "requiredResolution": "Center estimands, assumptions, instruments, harmonization, multiplicity, replication, sensitivity, ancestry and taxonomic limits, and cautious interpretation.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metabolic-syndrome",
+      "controlledIdentifier": "MeSH:D024821",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The syndrome is reduced to contradictory cross-sectional nickel studies while prevalence comparisons and oxidative-stress markers risk implying causality.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D024821",
+        "local:data/content.generated.json#/pages/metabolic-syndrome"
+      ],
+      "requiredResolution": "Define diagnostic criteria, specimen/biomarker, exposure, timing, kidney adjustment, population, covariates, multiplicity, and prospective evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metabolomics",
+      "controlledIdentifier": "MeSH:D055432",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A measurement discipline is presented as a platform and biomarker catalog with analytical generalizations and no specimen, identification, QC, normalization, or validation standards.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D055432",
+        "https://pubmed.ncbi.nlm.nih.gov/24039616/",
+        "https://pubmed.ncbi.nlm.nih.gov/34928621/",
+        "local:data/content.generated.json#/pages/metabolomics"
+      ],
+      "requiredResolution": "Rebuild around design, specimen, preparation, platform, separation, ionization, calibration, QC, normalization, annotation confidence, validation, batch effects, and deposition.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-carcinogenesis",
+      "controlledIdentifier": "mechanism-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Distinct elements, species, routes, doses, tissues, and cancer sites are compressed into three universal mechanistic paradigms and one repair-inhibition theme.",
+      "checkedUrls": [
+        "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/carcinogens",
+        "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/chromium",
+        "https://dceg.cancer.gov/research/public-health-impact/occupation",
+        "local:data/content.generated.json#/pages/metal-carcinogenesis"
+      ],
+      "requiredResolution": "Separate agent/species, exposure route, target site, human evidence, mechanistic model, dose, co-exposure, and regulatory classification.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-chelation-therapy",
+      "controlledIdentifier": "MeSH:D002612",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Prescription treatment is presented as a simplified chelator-by-metal protocol with approval, indication, threshold, first-line, safety, and efficacy claims requiring current toxicology guidance.",
+      "checkedUrls": [
+        "https://www.fda.gov/drugs/medication-health-fraud/questions-and-answers-unapproved-chelation-products",
+        "https://www.fda.gov/drugs/drug-safety-and-availability/fda-warns-consumers-about-potential-health-risks-using-thorne-researchs-captomer-products",
+        "https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=1203&toxid=22",
+        "local:data/content.generated.json#/pages/metal-chelation-therapy"
+      ],
+      "requiredResolution": "Replace protocols with a non-prescriptive, dated jurisdictional overview linked to toxicology guidance, exact approvals, contraindications, monitoring, source control, and emergency referral.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-resistance-genes",
+      "controlledIdentifier": "gene-family-ecology-umbrella;no-single-controlled-identifier",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Selected genes, taxa, environments, mobile elements, and co-selection examples become universal automatic AMR-selection and clinical-risk claims.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38897736/",
+        "https://pubmed.ncbi.nlm.nih.gov/35170159/",
+        "local:data/content.generated.json#/pages/metal-resistance-genes"
+      ],
+      "requiredResolution": "Separate resistance mechanisms and require host-linked genomic and functional evidence, expression, transfer, metal species/concentration, environment, and clinical outcome.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-sensing",
+      "controlledIdentifier": "regulatory-system-umbrella;no-single-controlled-identifier",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Diverse organism-specific protein and RNA sensors become one compatibility and flow theory with universal virulence and therapeutic-target claims.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39658019/",
+        "https://pubmed.ncbi.nlm.nih.gov/39755956/",
+        "https://pubmed.ncbi.nlm.nih.gov/25160631/",
+        "local:data/content.generated.json#/pages/metal-sensing"
+      ],
+      "requiredResolution": "Rebuild by sensor family, organism and identifier, cognate species, structure, stoichiometry, regulon, assay, condition, and in-vivo evidence; separate hypotheses from validated targets.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -2797,55 +2902,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 457,
-      "id": "metabolic-syndrome",
-      "title": "Metabolic Syndrome and Metal Exposure",
-      "route": "/article/metabolic-syndrome",
+      "queuePosition": 463,
+      "id": "metal-speciation",
+      "title": "Metal Speciation",
+      "route": "/article/metal-speciation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 458,
-      "id": "metabolomics",
-      "title": "Metabolomics",
-      "route": "/article/metabolomics",
+      "queuePosition": 464,
+      "id": "metallochaperone",
+      "title": "Metallochaperone",
+      "route": "/article/metallochaperone",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 459,
-      "id": "metal-carcinogenesis",
-      "title": "Metal Carcinogenesis",
-      "route": "/article/metal-carcinogenesis",
+      "queuePosition": 465,
+      "id": "metalloestrogen",
+      "title": "Metalloestrogen",
+      "route": "/article/metalloestrogen",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 460,
-      "id": "metal-chelation-therapy",
-      "title": "Metal Chelation Therapy",
-      "route": "/article/metal-chelation-therapy",
+      "queuePosition": 466,
+      "id": "metalloestrogens",
+      "title": "Metalloestrogens",
+      "route": "/article/metalloestrogens",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 461,
-      "id": "metal-resistance-genes",
-      "title": "Metal Resistance Genes",
-      "route": "/article/metal-resistance-genes",
+      "queuePosition": 467,
+      "id": "metallomics",
+      "title": "Metallomics",
+      "route": "/article/metallomics",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 462,
-      "id": "metal-sensing",
-      "title": "Metal Sensing",
-      "route": "/article/metal-sensing",
+      "queuePosition": 468,
+      "id": "metalloregulator",
+      "title": "Metalloregulator",
+      "route": "/article/metalloregulator",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -12343,7 +12448,13 @@
       "route": "/article/metabolic-syndrome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The syndrome is reduced to contradictory cross-sectional nickel studies while prevalence comparisons and oxidative-stress markers risk implying causality.",
+        "requiredResolution": "Define diagnostic criteria, specimen/biomarker, exposure, timing, kidney adjustment, population, covariates, multiplicity, and prospective evidence."
+      }
     },
     {
       "queuePosition": 458,
@@ -12356,7 +12467,13 @@
       "route": "/article/metabolomics",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A measurement discipline is presented as a platform and biomarker catalog with analytical generalizations and no specimen, identification, QC, normalization, or validation standards.",
+        "requiredResolution": "Rebuild around design, specimen, preparation, platform, separation, ionization, calibration, QC, normalization, annotation confidence, validation, batch effects, and deposition."
+      }
     },
     {
       "queuePosition": 459,
@@ -12369,7 +12486,13 @@
       "route": "/article/metal-carcinogenesis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Distinct elements, species, routes, doses, tissues, and cancer sites are compressed into three universal mechanistic paradigms and one repair-inhibition theme.",
+        "requiredResolution": "Separate agent/species, exposure route, target site, human evidence, mechanistic model, dose, co-exposure, and regulatory classification."
+      }
     },
     {
       "queuePosition": 460,
@@ -12382,7 +12505,13 @@
       "route": "/article/metal-chelation-therapy",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Prescription treatment is presented as a simplified chelator-by-metal protocol with approval, indication, threshold, first-line, safety, and efficacy claims requiring current toxicology guidance.",
+        "requiredResolution": "Replace protocols with a non-prescriptive, dated jurisdictional overview linked to toxicology guidance, exact approvals, contraindications, monitoring, source control, and emergency referral."
+      }
     },
     {
       "queuePosition": 461,
@@ -12395,7 +12524,13 @@
       "route": "/article/metal-resistance-genes",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Selected genes, taxa, environments, mobile elements, and co-selection examples become universal automatic AMR-selection and clinical-risk claims.",
+        "requiredResolution": "Separate resistance mechanisms and require host-linked genomic and functional evidence, expression, transfer, metal species/concentration, environment, and clinical outcome."
+      }
     },
     {
       "queuePosition": 462,
@@ -12408,7 +12543,13 @@
       "route": "/article/metal-sensing",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Diverse organism-specific protein and RNA sensors become one compatibility and flow theory with universal virulence and therapeutic-target claims.",
+        "requiredResolution": "Rebuild by sensor family, organism and identifier, cognate species, structure, stoichiometry, regulon, assay, condition, and in-vivo evidence; separate hypotheses from validated targets."
+      }
     },
     {
       "queuePosition": 463,
