@@ -22,7 +22,7 @@ Metal resistance genes encode proteins that allow bacteria to survive toxic meta
 
 | Gene/System | Metal Target | Mechanism | Notable Carriers |
 |-------------|-------------|-----------|-----------------|
-| cadA | Cadmium, zinc | P-type ATPase efflux pump | *Staphylococcus*, [[enterococcus]], [[dysbiosis|listeria-monocytogenes]] |
+| cadA | Cadmium, zinc | P-type ATPase efflux pump | *Staphylococcus*, [[enterococcus]], [[listeria-monocytogenes]] |
 | arsC / arsABC | Arsenic | Arsenate reductase + efflux | Widely distributed; *E. coli*, [[pseudomonas-aeruginosa]] |
 | merA / merB | Mercury | Mercuric reductase (Hg2+ to Hg0) | *Pseudomonas*, *Serratia*, *Staphylococcus* |
 | tcrB | Copper | Copper efflux | [[enterococcus-faecium]] — co-located with vanA and ermB |

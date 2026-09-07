@@ -1,6 +1,6 @@
 # WikiBiome concept coverage program
 
-Generated deterministically from corpus `3feea2d814f1`, catalog `b3d82c6dacee`, and decisions `b9f2d5b3073f`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
+Generated deterministically from corpus `aabe42ed691b`, catalog `b3d82c6dacee`, and decisions `b9f2d5b3073f`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
 
 ## Summary
 
@@ -63,7 +63,7 @@ _No explicitly accepted work is awaiting promotion._
 | 92.50 | `backfill_links:metallomics` | Metallomics | queued | 77 unlinked / 87 mentioning | 331.8 | 80 |
 | 92.50 | `backfill_links:neuroinflammation` | Neuroinflammation | queued | 73 unlinked / 94 mentioning | 330.6 | 196 |
 | 92.50 | `backfill_links:tlr4` | TLR4 | queued | 68 unlinked / 76 mentioning | 306.7 | 87 |
-| 92.50 | `backfill_links:tryptophan` | Tryptophan | queued | 70 unlinked / 76 mentioning | 292.7 | 202 |
+| 92.50 | `backfill_links:tryptophan` | Tryptophan | queued | 70 unlinked / 76 mentioning | 292.6 | 202 |
 | 92.50 | `backfill_links:biofilm` | Biofilm | queued | 79 unlinked / 103 mentioning | 290.0 | 77 |
 | 92.50 | `backfill_links:acetate` | Acetate | queued | 71 unlinked / 71 mentioning | 285.1 | 105 |
 | 92.50 | `backfill_links:glutathione` | Glutathione (GSH) | queued | 51 unlinked / 65 mentioning | 240.7 | 84 |
@@ -71,7 +71,7 @@ _No explicitly accepted work is awaiting promotion._
 | 92.50 | `backfill_links:biomarkers` | Biomarkers | queued | 50 unlinked / 64 mentioning | 233.6 | 278 |
 | 92.50 | `backfill_links:neurodegeneration` | Neurodegeneration and Metals | queued | 52 unlinked / 56 mentioning | 223.9 | 60 |
 | 92.50 | `backfill_links:siderophores` | Siderophores | queued | 58 unlinked / 71 mentioning | 223.2 | 54 |
-| 92.50 | `backfill_links:probiotics` | Probiotics | queued | 56 unlinked / 76 mentioning | 211.2 | 417 |
+| 92.50 | `backfill_links:probiotics` | Probiotics | queued | 56 unlinked / 76 mentioning | 211.1 | 417 |
 | 92.50 | `backfill_links:mendelian-randomization` | Mendelian Randomization | queued | 56 unlinked / 59 mentioning | 210.3 | 106 |
 | 92.50 | `backfill_links:nutritional-immunity` | Nutritional Immunity (Metal Sequestration) | queued | 49 unlinked / 174 mentioning | 209.2 | 168 |
 | 92.50 | `backfill_links:virulence-factors` | Virulence Factors | queued | 47 unlinked / 50 mentioning | 195.6 | 29 |
