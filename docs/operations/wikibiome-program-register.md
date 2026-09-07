@@ -13,13 +13,14 @@ Last reconciled: **2026-09-07** (Asia/Nicosia)
 
 - Production release controller: WikiBiome program control tower.
 - Current integration branch: `main`.
-- Current evidenced production release: public Sites version 44 at outer commit
-  `b353882397f86318376982419ec0d3400c9a478d`.
-- Current production Sites environment revision: 3, activated by redeploying
-  saved version 43 on 2026-09-02 without DNS changes.
-- Current production scientific-media coverage: 144 reviewed assets.
+- Current evidenced production release: public Sites version 68 at exact source
+  commit `8c37632b5126f594b338922389181534cc418aae`.
+- Current production Sites environment revision: 6. Version 68 was published
+  without DNS or access-policy changes and adds the verified mobile article-media
+  placement fix.
+- Current production scientific-media coverage: 377 reviewed assets.
 - Current accepted local control commit:
-  `a498ad8637401fcf287c714fa608ff59efe30a3d`. It includes the complete
+  `b45acedf773ebc86a02255d7fc9abc32773d4168`. It includes the complete
   29/29 metal and 66/66 disease media sets, Batch 100's accepted and promoted
   N-acetyl-L-cysteine asset, Batch 101's five zero-call host-defense holds, and
   Batches 102 and 103's ten zero-call intervention holds plus quarantined
@@ -143,11 +144,19 @@ Last reconciled: **2026-09-07** (Asia/Nicosia)
   immutable and non-public: four exceed the frozen source-safe field and the
   Biomarkers source has a severe full-canvas black vignette. No failed source
   was cropped, repaired, reused, or promoted.
+  Batch 126 then promotes corrected Beta-glucuronidase revision 4 and Bile Salt
+  Hydrolase revision 3 assets while retaining BDNF, Biomarkers,
+  Blood-Brain-Barrier, and Butyrate revisions as immutable non-public failures.
+  Batch 127 adds reviewed Ammonia, CagA, Catalase, Interleukin-22,
+  NLRP3-inflammasome, and Urea mechanism media with exact source hashes,
+  lossless metadata-bearing masters, article and social derivatives, controlled
+  identifiers, strict review records, and native-detail crop acceptance.
 - Current accepted local scientific-media promotion commit:
-  `32bad6111d9541e0ac5af7edcbfef6b9ed99f5df` (Batch 125).
+  `b45acedf773ebc86a02255d7fc9abc32773d4168` (Batch 127).
 - Current accepted local scientific-media review commit:
-  `7fce7ab7c943d5c7fa4ba2362bcf3ddcd6e00f6f` (Batch 125; exact-hash
-  acceptance `d2864d1`, promotion `32bad61`).
+  `dcc73c17eadf903bc0afbee2b1c1cd910d8023e2` (Batch 127; exact-hash
+  acceptance `34fc2daeb5c8bfbe9102a824b0920571cbd05182`, promotion
+  `b45acedf773ebc86a02255d7fc9abc32773d4168`).
 - Current synchronized upstream content commit:
   `449e8005c3156d1b7943d2cdedd5b4386b9f5703`.
 - Upstream check: the only source-content delta from `c6481eaf` to `449e8005`
@@ -162,12 +171,15 @@ Last reconciled: **2026-09-07** (Asia/Nicosia)
 
 ## Current production evidence
 
-- Sites version 44 is the last evidenced public artifact, from exact source
-  commit `b353882`.
-- The September 7 live scientific-media audit found 144 reviewed records. The
-  accepted local candidate contains 377; the 233-asset delta is not yet released. This
-  production staleness is why only Nickel currently appears with reviewed media
-  on the live metal category even though the candidate contains all 29 metals.
+- Sites version 68 is the last evidenced public artifact, from exact source
+  commit `8c37632b5126f594b338922389181534cc418aae` and environment revision 6.
+- Version 68 contains 377 reviewed records, including all 29 metals and all 66
+  diseases. Mobile verification at 390 by 844 for Nickel and Alzheimer's disease
+  confirms reviewed media appears immediately after the lead, the late sidebar
+  duplicate is hidden, and no horizontal overflow occurs.
+- The accepted local candidate contains 385 reviewed records. The eight-asset
+  delta consists of Batch 126's two accepted revisions and Batch 127's six
+  accepted mechanisms; it is validated but not yet released.
 - The Sites production error log returned no events for the three-hour release
   verification window.
 - The retained Vercel deployment remains the rollback target; version 41 is a
@@ -191,8 +203,8 @@ Last reconciled: **2026-09-07** (Asia/Nicosia)
 | --- | --- | --- | --- |
 | Researcher collaboration | Version 3 code accepted; external services partly activated | Researcher Network v3 is integrated at `4aa2cc6` on top of the accepted v2, responsive-navigation, dashboard, and event-consent lineage. ORCID production activation was smoke-tested successfully. The combined production build and 76/76 tests pass; additive migrations 0000-0010 apply cleanly. Public researcher discovery now includes searchable evidence-derived expertise clusters and separate verified-work, Keystone, and linked-article footprint metrics without popularity ranking. Researchers can publish a validated professional portrait through dedicated private-storage/public-delivery routes, confirm ORCID DOI matches through moderated intake without automatic publication, and create human-reviewed provisional organization identities that can later upgrade to ROR without duplication. Roundtable consent, private email, mutual-consent messaging, contribution recognition, authoritative ROR, moderation, privacy, and fail-closed boundaries remain intact. | Apply production D1 migrations through 0010; provision Resend, the private `MANUSCRIPTS` R2 binding used by profile photos and the separately gated manuscript quarantine/scanner workflow, moderator IDs, and counsel-approved outreach policy. Keep manuscript uploads and outreach disabled until those gates are evidenced. The broader forum/Keystone candidate is undergoing current-lineage reconciliation and is not yet accepted. |
 | Editorial completion | Complete in control main; local routing delta unreleased | The candidate contains 817 records / 710 canonical routes, 1,939 sources, 6,447 article-reference placements, 349 recovered inline citations, 696 ready records, 121 explicit dispositions, 0 review, 0 blocked, 0 missing source metadata, and 0 malformed DOI output. All 13 retired identities export permanent article/history/suggest aliases, and worker routing parity is integrated through `730615c`. | Future expansion of evidence-insufficient and source-structure-deferred records must originate from new upstream evidence or source-authored leads. Retired labels remain aliases only. Publish only as part of a provenance-matched, control-approved release. |
-| Search visibility | Candidate complete; live routing and media remain stale | The accepted candidate passes 5,368 rendered routes, 3,415/3,415 indexable self-canonicals, 2,692 ordinary sitemap URLs, 377/377 image registry/sitemap/endpoints, four representative metadata/structured-data routes, all 43 authoritative redirects, all 46 generated Gone routes, and all internal article/source-link checks. The September 7 count-explicit public verifier found 144/144 healthy live image endpoints, four passing representative structured-data routes, no candidate defects, and three production-drift findings: the apex host still returns 200 instead of redirecting, it does not preserve path/query normalization to `www`, and the live image count differs from the earlier 129-image expectation. The authenticated September 5 checkpoint records 31 indexed and 819 historically not-indexed URLs (August 28 data), successful ordinary/image sitemap reads with only 670/2 discovered pages, representative stored URL Inspection results, 583 Web impressions/2 clicks and zero Image impressions over three months, insufficient CWV field data, healthy HTTPS, and no manual or security issues. | Publish only an exact provenance-matched accepted commit after fresh authorization, then rerun the full public gate with 377 images and recheck Google validation, sitemap discovery, representative selected canonicals, CWV, and Web/Image performance. Bing ownership and evidence remain account-gated. |
-| Scientific media | 144 live; 377 reviewed locally; explicit revision queue active | The deterministic register covers all 710 canonical routes with 377 reviewed assets and 333 routes lacking public media. Every route has received an initial disposition: 377 reviewed, 289 explicit scientific holds, and 44 currently rejected or quarantined routes. Diseases are complete at 66/66, metals are complete at 29/29, microorganisms are 214/229, mechanisms are 62/233, host defenses are 2/29, interventions are 3/69, clinical cautions are 0/39 with all 39 individually dispositioned, and entity/analysis/reference routes are 1/16. The 377-entry registry, strict review log, image sitemap, canonical endpoints, masters, derivatives, embedded metadata, controlled identifiers, licensing, review state, trained-algorithmic-media disclosure, Schema linkage, accessibility text, caption, and provenance agree. There are 363 rejected/failure/quarantine/hold audit records, 289 scientific holds, 16 revised records, and zero in-review records. Batch 125 promotes Bacterial Vaginosis revision 3 only; BDNF and Beta-glucuronidase revision 3 and Bile Salt Hydrolase, Biomarkers, and Blood-Brain Barrier revision 2 remain immutable non-public failures. The scheduler continues explicit `revise` routes only after all untouched routes are dispositioned; permanent rejections, quarantines, safety failures, and holds remain excluded. Direct comparison of the live image sitemap and `/category/metal` HTML confirms that production has 144 total images but only Nickel among the 29 metal routes. The candidate has all 29; all metal endpoints and category cards are mandatory post-deploy smoke checks. | Deterministic mechanism revision Batch 126 is pinned to `bdnf`, `beta-glucuronidase`, `bile-salt-hydrolase`, `biomarkers`, `blood-brain-barrier`, and `butyrate`. Use new revision prompts and one independent built-in call per route; never edit or reuse rejected sources. Continue explicit revisions while preserving all holds, permanent rejections, quarantines, and safety refusals. |
+| Search visibility | Candidate complete; latest eight media assets unreleased | The accepted candidate passes 5,381 rendered routes, 3,426/3,426 indexable self-canonicals, 2,698 ordinary sitemap URLs, 385/385 image registry/sitemap/endpoints, four representative metadata/structured-data routes, all 46 authoritative redirects, all 47 generated Gone routes, and all internal article/source-link checks. Version 68 already contains the mobile media placement fix and 377 reviewed images. The authenticated September 5 checkpoint records 31 indexed and 819 historically not-indexed URLs (August 28 data), successful ordinary/image sitemap reads with only 670/2 discovered pages, representative stored URL Inspection results, 583 Web impressions/2 clicks and zero Image impressions over three months, insufficient CWV field data, healthy HTTPS, and no manual or security issues. | Publish only exact candidate `b45aced` after fresh authorization, then rerun the public gate with 385 images and recheck Google validation, sitemap discovery, representative selected canonicals, CWV, and Web/Image performance. Bing ownership and evidence remain account-gated. |
+| Scientific media | 377 live; 385 reviewed locally; explicit revision queue active | The deterministic register covers all 715 canonical routes with 385 reviewed assets and 330 routes lacking public media. Metals are complete at 29/29, diseases at 66/66, microorganisms at 214/229, mechanisms at 70/238, host defenses at 2/29, interventions at 3/69, clinical cautions at 0/39 with every route individually dispositioned, and entity/analysis/reference routes at 1/16. The 385-entry registry, strict review log, image sitemap, canonical endpoints, masters, derivatives, embedded metadata, controlled identifiers, licensing, review state, trained-algorithmic-media disclosure, Schema linkage, accessibility text, captions, and provenance agree. Current disposition metrics are 366 rejected/failure/quarantine/hold records, 288 scientific holds, 18 revised records, and zero in-review records. Batch 126 promotes Beta-glucuronidase revision 4 and Bile Salt Hydrolase revision 3; Batch 127 promotes Ammonia, CagA, Catalase, Interleukin-22, NLRP3-inflammasome, and Urea. | The deterministic next batch is `bdnf`, `biomarkers`, `blood-brain-barrier`, `butyrate`, `comorbidities`, and `copper-dysregulation`. Use a new immutable revision prompt and one independent built-in call per route; never edit or reuse rejected sources. Continue explicit revisions while preserving all holds, permanent rejections, quarantines, and safety refusals. |
 | Cutover closeout | Audit gate open; production action still authorization-gated | Baseline commits `343fbdc` and `5106b7b`; audit runner/template commits `384259d` and `16b51a9`; 9/9 evaluator tests pass; the 2026-09-07 00:00 Asia/Nicosia time gate has elapsed; Vercel rollback deployment `dpl_5ShUos99yjK3vWMbarbfmxkDQWEH` remains the retained rollback target. | Run and retain the final public plus authenticated evidence audit. Deployment, DNS change, and rollback retirement each still require their own explicit bounded approval. |
 | Upstream content operations | Remote synchronized; one verified local correction awaits authorization | Generated public content remains synchronized to remote `449e8005`: 817 pages, 1,939 sources, 6,447 article-reference placements, 349 recovered inline citations, 0 missing source metadata, and 0 malformed DOI values. Local upstream commit `c12dac4eb721a4223a48365a83638aaeabcb3a2c` corrects Oscillibacter type-species provenance from “freshwater fish” to Japanese corbicula clam, adds the primary Iino et al. source (PMID 17684268; DOI `10.1099/ijs.0.64717-0`), and passes the upstream build and SEO invariants. | Obtain bounded authorization to push `c12dac4e`, then run the guarded outer content refresh, re-attest commit-bound editorial/media provenance, and reproduce combined gates before any release. Continue release-driven review of every future upstream diff; automation may regenerate and test but may not push or deploy. |
 
