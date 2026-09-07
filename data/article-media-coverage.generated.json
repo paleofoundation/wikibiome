@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "1afbe2d0d58241518fbe9765010a7499f07f048f8d2c2e901582a2efa3f3daa2",
+    "reviewLogSha256": "521787f67f24313da44a8bcc45bc0e92d3a4a9c097221a853c0369fb00afd288",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -209,6 +209,12 @@
         "batchId": "mechanisms-078",
         "status": "reviewed",
         "sha256": "2f4b6b0de488319fb65dfc57573d1f8359633db0b89bdd408602c542d7e4eab5"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-079.json",
+        "batchId": "mechanisms-079",
+        "status": "reviewed",
+        "sha256": "66b7577c958eca9ef9085a4ecaf1fed326cf9a0930d17995f81e5161824e0b2d"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -502,9 +508,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 106,
+    "rejected": 112,
     "revised": 12,
-    "scientificHolds": 51,
+    "scientificHolds": 57,
     "inReview": 0
   },
   "categories": [
@@ -2542,6 +2548,101 @@
       ],
       "requiredResolution": "Choose a bounded lipid class, organism, tissue, compartment, process, and physiological or disease question, or convert the route into a navigational overview.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "lipid-peroxidation",
+      "controlledIdentifier": "MeSH:D015227",
+      "batchId": "mechanisms-079",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A defined chemical process is reduced to selected metals and speculative microbiome protection without lipid, compartment, initiation, assay, or evidence boundaries.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015227",
+        "local:data/content.generated.json#/pages/lipid-peroxidation"
+      ],
+      "requiredResolution": "Separate oxidation modes, lipid and compartment, chain stages, biomarkers, measurement limits, and human versus model evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "lipopolysaccharide",
+      "controlledIdentifier": "MeSH:D008070",
+      "batchId": "mechanisms-079",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A structurally diverse bacterial class is treated as one pathogenic signal and connected to universal dysbiosis, translocation, disease, and metal-amplification chains.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008070",
+        "local:data/content.generated.json#/pages/lipopolysaccharide"
+      ],
+      "requiredResolution": "Specify organism/strain, chemotype, molecular species, host, compartment, dose, purity, receptor system, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "maternal-immune-activation",
+      "controlledIdentifier": "research-model-hypothesis;no-single-controlled-entity",
+      "batchId": "mechanisms-079",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Heterogeneous human exposures and experimental animal models become one deterministic fetal cytokine, microglial, microbiome, metal, and neurodevelopmental cascade.",
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754471/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9021321/",
+        "https://pubmed.ncbi.nlm.nih.gov/37123361/",
+        "local:data/content.generated.json#/pages/maternal-immune-activation"
+      ],
+      "requiredResolution": "Separate human epidemiology from each animal model, exposure, timing, compartment, species, sex, outcome, and intervention.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "matrix-metalloproteases",
+      "controlledIdentifier": "MeSH:D020782",
+      "batchId": "mechanisms-079",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The human MMP family is conflated with unrelated microbial zinc proteases and dietary zinc, metal substitution, metastasis, and endometriosis claims.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020782",
+        "local:data/content.generated.json#/pages/matrix-metalloproteases"
+      ],
+      "requiredResolution": "Separate protease families and bind each claim to a specific enzyme, structure, activation state, tissue, substrate, exposure, and study design.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "mediterranean-diet",
+      "controlledIdentifier": "MeSH:D060242",
+      "batchId": "mechanisms-079",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A variable dietary pattern becomes a duplicated prescriptive PCOS/nickel intervention page with unsupported universal screening, contraindication, and substitution advice.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Mediterranean+Diet",
+        "local:data/content.generated.json#/pages/mediterranean-diet"
+      ],
+      "requiredResolution": "Reconcile duplicates; define index and population; separate evidence tiers; remove unsupported prescriptions; distinguish allergy diagnosis from prevalence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "mendelian-randomization",
+      "controlledIdentifier": "MeSH:D000092404",
+      "batchId": "mechanisms-079",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A causal-inference method is presented through unreplicated microbiome findings as a causal backbone that directly determines intervention targets.",
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7217228/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6041728/",
+        "https://pubmed.ncbi.nlm.nih.gov/33462485/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11389083/",
+        "local:data/content.generated.json#/pages/mendelian-randomization"
+      ],
+      "requiredResolution": "Center estimands, assumptions, instruments, harmonization, multiplicity, replication, sensitivity, ancestry and taxonomic limits, and cautious interpretation.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -2696,55 +2797,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 451,
-      "id": "lipid-peroxidation",
-      "title": "Lipid Peroxidation",
-      "route": "/article/lipid-peroxidation",
+      "queuePosition": 457,
+      "id": "metabolic-syndrome",
+      "title": "Metabolic Syndrome and Metal Exposure",
+      "route": "/article/metabolic-syndrome",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 452,
-      "id": "lipopolysaccharide",
-      "title": "Lipopolysaccharide",
-      "route": "/article/lipopolysaccharide",
+      "queuePosition": 458,
+      "id": "metabolomics",
+      "title": "Metabolomics",
+      "route": "/article/metabolomics",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 453,
-      "id": "maternal-immune-activation",
-      "title": "Maternal Immune Activation",
-      "route": "/article/maternal-immune-activation",
+      "queuePosition": 459,
+      "id": "metal-carcinogenesis",
+      "title": "Metal Carcinogenesis",
+      "route": "/article/metal-carcinogenesis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 454,
-      "id": "matrix-metalloproteases",
-      "title": "Matrix Metalloproteases (MMPs)",
-      "route": "/article/matrix-metalloproteases",
+      "queuePosition": 460,
+      "id": "metal-chelation-therapy",
+      "title": "Metal Chelation Therapy",
+      "route": "/article/metal-chelation-therapy",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 455,
-      "id": "mediterranean-diet",
-      "title": "Mediterranean Diet",
-      "route": "/article/mediterranean-diet",
+      "queuePosition": 461,
+      "id": "metal-resistance-genes",
+      "title": "Metal Resistance Genes",
+      "route": "/article/metal-resistance-genes",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 456,
-      "id": "mendelian-randomization",
-      "title": "Mendelian Randomization",
-      "route": "/article/mendelian-randomization",
+      "queuePosition": 462,
+      "id": "metal-sensing",
+      "title": "Metal Sensing",
+      "route": "/article/metal-sensing",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -12127,7 +12228,13 @@
       "route": "/article/lipid-peroxidation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A defined chemical process is reduced to selected metals and speculative microbiome protection without lipid, compartment, initiation, assay, or evidence boundaries.",
+        "requiredResolution": "Separate oxidation modes, lipid and compartment, chain stages, biomarkers, measurement limits, and human versus model evidence."
+      }
     },
     {
       "queuePosition": 452,
@@ -12140,7 +12247,13 @@
       "route": "/article/lipopolysaccharide",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A structurally diverse bacterial class is treated as one pathogenic signal and connected to universal dysbiosis, translocation, disease, and metal-amplification chains.",
+        "requiredResolution": "Specify organism/strain, chemotype, molecular species, host, compartment, dose, purity, receptor system, and evidence tier."
+      }
     },
     {
       "queuePosition": 453,
@@ -12153,7 +12266,13 @@
       "route": "/article/maternal-immune-activation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Heterogeneous human exposures and experimental animal models become one deterministic fetal cytokine, microglial, microbiome, metal, and neurodevelopmental cascade.",
+        "requiredResolution": "Separate human epidemiology from each animal model, exposure, timing, compartment, species, sex, outcome, and intervention."
+      }
     },
     {
       "queuePosition": 454,
@@ -12166,7 +12285,13 @@
       "route": "/article/matrix-metalloproteases",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The human MMP family is conflated with unrelated microbial zinc proteases and dietary zinc, metal substitution, metastasis, and endometriosis claims.",
+        "requiredResolution": "Separate protease families and bind each claim to a specific enzyme, structure, activation state, tissue, substrate, exposure, and study design."
+      }
     },
     {
       "queuePosition": 455,
@@ -12180,7 +12305,13 @@
       "route": "/article/mediterranean-diet",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A variable dietary pattern becomes a duplicated prescriptive PCOS/nickel intervention page with unsupported universal screening, contraindication, and substitution advice.",
+        "requiredResolution": "Reconcile duplicates; define index and population; separate evidence tiers; remove unsupported prescriptions; distinguish allergy diagnosis from prevalence."
+      }
     },
     {
       "queuePosition": 456,
@@ -12193,7 +12324,13 @@
       "route": "/article/mendelian-randomization",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A causal-inference method is presented through unreplicated microbiome findings as a causal backbone that directly determines intervention targets.",
+        "requiredResolution": "Center estimands, assumptions, instruments, harmonization, multiplicity, replication, sensitivity, ancestry and taxonomic limits, and cautious interpretation."
+      }
     },
     {
       "queuePosition": 457,
