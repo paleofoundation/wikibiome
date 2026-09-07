@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T04:59:29.754Z",
+  "generatedAt": "2026-09-07T05:32:25.285Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+  "sourceCommit": "4f91227e76cc4865f24f6e5c177e72b0f6b1468e",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 2993,
+  "revisions": 3053,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -141,6 +141,15 @@
         "wiki/entities/actinobacteria.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/actinobacteria.md",
+          "additions": 4,
+          "deletions": 4
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -754,6 +763,15 @@
         "wiki/entities/alzheimers-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -2191,6 +2209,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/bismuth.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2745,6 +2772,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/campylobacter-jejuni.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2830,6 +2866,15 @@
         "wiki/entities/candida-albicans.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/candida-albicans.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -3732,6 +3777,15 @@
         "wiki/entities/cirrhosis.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/cirrhosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5493,6 +5547,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/endometriosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -5667,6 +5730,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/enterobacteriaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -5768,6 +5840,15 @@
         "wiki/entities/enterococcus.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/enterococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5986,6 +6067,15 @@
         "wiki/entities/escherichia-coli.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/escherichia-coli.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -6998,6 +7088,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/gastric-adenocarcinoma.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",
           "author": "Karen Pendergrass",
@@ -7031,6 +7130,15 @@
         "wiki/entities/gastric-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/gastric-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",
@@ -7120,6 +7228,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/gastric-ulcer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",
           "author": "Karen Pendergrass",
@@ -7179,6 +7296,15 @@
         "wiki/entities/gerd.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/gerd.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -7617,6 +7743,15 @@
         "wiki/entities/helicobacter-hepaticus.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/helicobacter-hepaticus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -8984,6 +9119,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/lactobacillus.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -10136,6 +10280,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/morganella-morganii.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -10319,6 +10472,15 @@
         "wiki/entities/mycobacterium-tuberculosis.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/mycobacterium-tuberculosis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -10641,6 +10803,15 @@
         "wiki/entities/nickel.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/nickel.md",
+          "additions": 6,
+          "deletions": 6
+        },
         {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",
@@ -11666,6 +11837,15 @@
         "wiki/entities/parkinsons-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -13078,6 +13258,24 @@
       ],
       "revisions": [
         {
+          "hash": "4f91227e76cc4865f24f6e5c177e72b0f6b1468e",
+          "date": "2026-09-07T08:31:22+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Fix Urease links in structured tables",
+          "path": "wiki/entities/proteobacteria.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/proteobacteria.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13102,6 +13300,15 @@
         "wiki/entities/proteus-mirabilis.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/proteus-mirabilis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
           "date": "2026-09-07T06:47:53+03:00",
@@ -13575,6 +13782,15 @@
         "wiki/entities/rothia.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/rothia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -14663,6 +14879,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/staphylococcus-aureus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -14757,6 +14982,24 @@
         "wiki/entities/staphylococcus.md"
       ],
       "revisions": [
+        {
+          "hash": "4f91227e76cc4865f24f6e5c177e72b0f6b1468e",
+          "date": "2026-09-07T08:31:22+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Fix Urease links in structured tables",
+          "path": "wiki/entities/staphylococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/staphylococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -14981,6 +15224,15 @@
         "wiki/entities/streptococcus-salivarius.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/streptococcus-salivarius.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -15923,6 +16175,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/ureaplasma-urealyticum.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -15938,6 +16199,15 @@
         "wiki/entities/ureaplasma.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/entities/ureaplasma.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
           "date": "2026-09-07T06:47:53+03:00",
@@ -16464,6 +16734,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/alpha-synuclein.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -16547,6 +16826,15 @@
         "wiki/concepts/amyloid-beta.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/amyloid-beta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -17140,6 +17428,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/biofilm.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -17388,6 +17685,15 @@
         "wiki/concepts/calprotectin.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/calprotectin.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -18222,6 +18528,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/dietary-metal-microbiome-interactions.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18344,6 +18659,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/dimethylglyoxime.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18384,6 +18708,15 @@
         "wiki/concepts/dysbiosis.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -18743,6 +19076,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/environmental-metal-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18923,6 +19265,15 @@
         "wiki/concepts/essential-oils.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/essential-oils.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -19537,6 +19888,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/gene-regulation.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19811,6 +20171,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/gut-kidney-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19844,6 +20213,15 @@
         "wiki/concepts/gut-metal-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "14cd16ba8f04aabec5ac507754da154146372528",
           "date": "2026-09-07T07:22:07+03:00",
@@ -19923,6 +20301,15 @@
         "wiki/concepts/gut-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20291,6 +20678,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/histidine.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "7e9ce596d185e958af54a5fff28257f9ea0ac211",
           "date": "2026-09-01T13:19:39+03:00",
           "author": "Karen Pendergrass",
@@ -20324,6 +20720,15 @@
         "wiki/concepts/hmos.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/hmos.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20560,6 +20965,15 @@
         "wiki/concepts/hypoxia.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/hypoxia.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20996,6 +21410,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/infant-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
           "author": "Karen Pendergrass",
@@ -21176,6 +21599,15 @@
         "wiki/concepts/inter-kingdom-metal-shielding.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22118,6 +22550,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/metal-dependent-virulence.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",
           "author": "Karen Pendergrass",
@@ -22273,6 +22714,24 @@
         "wiki/concepts/metal-sensing.md"
       ],
       "revisions": [
+        {
+          "hash": "4f91227e76cc4865f24f6e5c177e72b0f6b1468e",
+          "date": "2026-09-07T08:31:22+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Fix Urease links in structured tables",
+          "path": "wiki/concepts/metal-sensing.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/metal-sensing.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22650,6 +23109,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/microbial-metallomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22758,6 +23226,15 @@
         "wiki/concepts/mis-metallation.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/mis-metallation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -23444,6 +23921,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/nickel-transporters.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",
           "author": "Karen Pendergrass",
@@ -23693,6 +24179,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/nutritional-immunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23872,6 +24367,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "06ac7a2cb24f32d8520b1124b7a933fb94fa111d",
           "date": "2026-09-07T07:04:01+03:00",
           "author": "Karen Pendergrass",
@@ -24038,6 +24542,15 @@
         "wiki/concepts/pathogen-metal-acquisition.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/pathogen-metal-acquisition.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -24843,6 +25356,15 @@
         "wiki/concepts/siderophores-metallophores.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/siderophores-metallophores.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25739,6 +26261,15 @@
       ],
       "revisions": [
         {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/uremic-toxins.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -25845,6 +26376,15 @@
         "wiki/concepts/virulence-factors.md"
       ],
       "revisions": [
+        {
+          "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
+          "date": "2026-09-07T08:25:29+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete reviewed Urease contextual coverage",
+          "path": "wiki/concepts/virulence-factors.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",

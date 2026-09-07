@@ -471,6 +471,98 @@ test("server-renders Urea and contextual H. pylori concept links", async () => {
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/urea</loc>`));
 });
 
+test("server-renders the reviewed corpus-wide Urease link batch without overlinking", async () => {
+  const contextIds = [
+    "candida-albicans",
+    "proteus-mirabilis",
+    "ureaplasma",
+    "campylobacter-jejuni",
+    "mycobacterium-tuberculosis",
+    "nickel-transporters",
+    "ureaplasma-urealyticum",
+    "oxidative-stress",
+    "escherichia-coli",
+    "biofilm",
+    "staphylococcus-aureus",
+    "metal-dependent-virulence",
+    "inter-kingdom-metal-shielding",
+    "nutritional-immunity",
+    "dysbiosis",
+    "nickel",
+    "endometriosis",
+    "gut-metal-microbiome",
+    "mis-metallation",
+    "lactobacillus",
+    "calprotectin",
+    "parkinsons-disease",
+    "alzheimers-disease",
+    "enterobacteriaceae",
+    "siderophores-metallophores",
+    "environmental-metal-exposure",
+    "proteobacteria",
+    "gerd",
+    "alpha-synuclein",
+    "gut-microbiome",
+    "amyloid-beta",
+    "enterococcus",
+    "pathogen-metal-acquisition",
+    "gastric-ulcer",
+    "actinobacteria",
+    "gastric-adenocarcinoma",
+    "gastric-cancer",
+    "gut-kidney-axis",
+    "metal-sensing",
+    "hypoxia",
+    "infant-exposure",
+    "microbial-metallomics",
+    "histidine",
+    "uremic-toxins",
+    "virulence-factors",
+    "bismuth",
+    "rothia",
+    "ph-sensing",
+    "helicobacter-hepaticus",
+    "morganella-morganii",
+    "gene-regulation",
+    "staphylococcus",
+    "cirrhosis",
+    "dietary-metal-microbiome-interactions",
+    "hmos",
+    "dimethylglyoxime",
+    "streptococcus-salivarius",
+    "essential-oils",
+    "srna",
+  ];
+  const [ureaseResponse, ...contextResponses] = await Promise.all([
+    render("/article/urease"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+
+  for (const response of [ureaseResponse, ...contextResponses]) assert.equal(response.status, 200);
+
+  const urease = await ureaseResponse.text();
+  assert.equal(htmlTitle(urease), "Urease — WikiBiome");
+  assert.equal(htmlCanonical(urease), `${PUBLIC_ORIGIN}/article/urease`);
+  assert.match(urease, /Dual catalytic and antioxidant function/i);
+  assert.match(urease, /Virulence Roles by Pathogen/i);
+  assert.match(urease, /Therapeutic Targeting of Urease/i);
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const diseaseNarrativeStart = html.indexOf('<section class="disease-narrative" id="article"', articleStart);
+    const proseStart = diseaseNarrativeStart >= 0 ? diseaseNarrativeStart : articleStart;
+    const referencesStart = html.indexOf('<section class="references-section"', proseStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    const article = html.slice(proseStart, referencesStart);
+    assert.equal(
+      (article.match(/href="\/article\/urease"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Urease link in ${contextIds[index]}`,
+    );
+  }
+});
+
 test("server-renders Ammonia and its reviewed contextual-link batch", async () => {
   const ids = ["ammonia", "urea", "urease", "helicobacter-pylori", "proteus-mirabilis", "ureaplasma"];
   const [ammoniaResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
@@ -2757,7 +2849,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /b8fab66d5435/);
+  assert.match(readiness, /4f91227e76cc/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -3223,7 +3315,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "b8fab66d543502e976ec85a8f04bdee093390dfa");
+  assert.equal(manifest.source.commit, "4f91227e76cc4865f24f6e5c177e72b0f6b1468e");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 823);
   assert.equal(manifest.content.sources, 1939);
