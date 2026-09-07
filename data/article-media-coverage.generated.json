@@ -129,8 +129,8 @@
       {
         "file": "data/article-media-batches/interventions-104.json",
         "batchId": "interventions-104",
-        "status": "reviewing",
-        "sha256": "8336aa6271bb044a2ec0890fafc68549a643e15596ddd2f6e5b18e8bf8b4d60e"
+        "status": "approved-awaiting-promotion",
+        "sha256": "60b972adefa3b400984aa8ecece237b508b8618c8bf56a48f3e74d53638cbabd"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -661,7 +661,7 @@
     "rejected": 252,
     "revised": 12,
     "scientificHolds": 194,
-    "inReview": 0
+    "inReview": 1
   },
   "categories": [
     {
@@ -5242,15 +5242,6 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 600,
-      "id": "ecoli-nissle-1917",
-      "title": "E. coli Nissle 1917",
-      "route": "/article/ecoli-nissle-1917",
-      "category": "intervention",
-      "coverageGroup": "interventions",
-      "suggestedAssetType": "intervention"
-    },
-    {
       "queuePosition": 605,
       "id": "ferrichrome-probiotics",
       "title": "Ferrichrome-Producing Probiotics",
@@ -5291,6 +5282,15 @@
       "id": "high-fiber-prebiotics",
       "title": "High-Fiber Prebiotics for Crohn's Disease",
       "route": "/article/high-fiber-prebiotics",
+      "category": "intervention",
+      "coverageGroup": "interventions",
+      "suggestedAssetType": "intervention"
+    },
+    {
+      "queuePosition": 610,
+      "id": "hbot",
+      "title": "Hyperbaric Oxygen Therapy (HBOT)",
+      "route": "/article/hbot",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
@@ -17525,7 +17525,13 @@
       "route": "/article/ecoli-nissle-1917",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "interventions-104",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/interventions-batch-104/ecoli-nissle-1917-draft.png",
+        "sha256": "16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65"
+      }
     },
     {
       "queuePosition": 601,

@@ -2,8 +2,9 @@
   "schemaVersion": 1,
   "batchId": "interventions-104",
   "category": "interventions",
-  "status": "reviewing",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
   "authorizedParent": "05c9ac6a66192ab5b088b58e100890921a0a6b24",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/interventions-104.md",
@@ -18,9 +19,30 @@
     "mediaDescription": "Scientific algorithmic morphology reconstruction, not a photograph, micrograph, culture result, product image, assay result, treatment recommendation, or diagnostic image",
     "sourceUse": "Controlled scientific records supplied current identity and conservative representation boundaries only; no source image or design was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "6f68cdc59c6f860477ba040fd7379de6bada0760",
   "promptFreezeCommit": "d502d58c061b22525cf4bc62a3cf2fab72d392d0",
+  "controlAcceptedReviewManifestSha256": "60cffb6497950541fe0ddfe8cef1382a91c72a671ef55f0a7572225625166577",
+  "controlAcceptedPromptEvidenceSha256": "603a69109b30e3477b914c73e582c14313e48e39e3298bae95b2efe98a39360e",
+  "controlFinalReview": {
+    "status": "accepted-exact-hash",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "a1d6354bc64d00e2b94e91cb873c1956801c0d8c",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [
+      "ecoli-nissle-1917"
+    ],
+    "acceptedSourceSha256": [
+      "16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65"
+    ],
+    "nonPublishablePageIds": [
+      "dietary-fiber-ckd",
+      "exercise-schizophrenia",
+      "faecalibacterium-restoration",
+      "fmt-autism",
+      "fmt-intervention"
+    ]
+  },
   "reviewStandard": "Only exact E. coli Nissle 1917 is cleared for one immutable strain-anchored morphology call. The other five routes fail material, protocol, product, formulation, source, population, measurement, or causal-interpretation gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -30,7 +52,9 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "promotionRule": "Only a literal six-body, four-grouping E. coli Nissle 1917 morphology output matching the frozen rod, appendage, pale-field, and crop-safe requirements may proceed to exact-hash review. The other five routes remain non-public scientific holds.",
+  "promotionRule": "Only source SHA-256 16b1da28158015b9726d5ed4803596960aa466c273db54fdf86fb16692fa0c65 may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The other five routes remain non-public scientific holds.",
+  "controlSocialCropReview": "pending-promoted-centered-contain-derivative",
+  "promotionDerivatives": {},
   "routeDecisions": [
     {
       "pageId": "dietary-fiber-ckd",
