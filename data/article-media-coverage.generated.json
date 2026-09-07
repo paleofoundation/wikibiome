@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "5a4b9fe87cacbae68c7965db6ca4aaeebc11376122bd81af58cc1cf34d8f712f",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "4e281dcfe0de7f743d6983c0d6376dd85378ff1976f6f8ad54a36de951aad23d",
+    "reviewLogSha256": "a4b0e6369ff58dbb43ea8d6a784c794571393831746d62ae28fc05204d42bf17",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -117,8 +117,8 @@
       {
         "file": "data/article-media-batches/interventions-102.json",
         "batchId": "interventions-102",
-        "status": "prompt-frozen",
-        "sha256": "74d1becfed5d358671f79a84d8a5f1e9346a0971033942968945b92c155d99df"
+        "status": "reviewing",
+        "sha256": "908ca479a19128289d612cb3b750a4d95c87300655f2b279f56bfa733c756431"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -646,9 +646,9 @@
     "total": 710,
     "completed": 369,
     "remaining": 341,
-    "rejected": 235,
+    "rejected": 241,
     "revised": 12,
-    "scientificHolds": 179,
+    "scientificHolds": 184,
     "inReview": 0
   },
   "categories": [
@@ -4807,6 +4807,101 @@
       ],
       "requiredResolution": "Select exact species and sequence, isoform and mature chain, glycoform, apo/monoferric/diferric state, ferric-site occupancy and synergistic anion, oligomer and structure accession, retained partners, compartment or specimen, assay, and claim boundary.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one molecular, iron-loading, structural, and assay state passes a new audit."
+    },
+    {
+      "pageId": "acarbose-fiber-synergy",
+      "controlledIdentifier": "MeSH:D020909-plus-unspecified-high-fiber-protocol;zero-resolvable-sources",
+      "batchId": "interventions-102",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The evidence-limited route supplies no resolvable references and does not define acarbose product, dose, fiber type or composition, diet background, PCOS population, specimen, time point, or outcome. A drug-and-food scene would imply a standardized synergistic regimen.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020909",
+        "local:data/content.generated.json#/pages/acarbose-fiber-synergy"
+      ],
+      "requiredResolution": "Choose exact acarbose formulation and dose, fiber identity and composition, diet background, population, comparator, specimen, analytical method, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed regimen and measured state passes a new audit."
+    },
+    {
+      "pageId": "aip-diet-hashimotos",
+      "controlledIdentifier": "WikiBiome:aip-diet-hashimotos;unstabilized-multiphase-dietary-protocol;zero-resolvable-sources",
+      "batchId": "interventions-102",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The evidence-limited route has no resolvable sources and combines elimination, multiple food classes, reintroduction, nutritional adequacy, intestinal and immune mechanisms, symptoms, and thyroid endpoints without one standardized intervention or material state.",
+      "checkedUrls": [
+        "local:data/content.generated.json#/pages/aip-diet-hashimotos"
+      ],
+      "requiredResolution": "Select one documented protocol, exact phase and food definitions, nutrient controls, population, duration, adherence method, specimen, assay, comparator, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed protocol and measured state passes a new audit."
+    },
+    {
+      "pageId": "b-cell-depletion-therapy-ms",
+      "controlledIdentifier": "class-level-CD20-directed-therapy;includes-ocrelizumab-rituximab-ofatumumab;multi-state-intervention",
+      "batchId": "interventions-102",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines several anti-CD20 antibodies, products and schedules, B-cell states, MS phenotypes, immune and microbiome compartments, metabolites, infection risks, and outcomes rather than one physical treatment or measured state.",
+      "checkedUrls": [
+        "https://www.accessdata.fda.gov/drugsatfda_docs/label/2026/761053s038lbl.pdf",
+        "local:data/content.generated.json#/pages/b-cell-depletion-therapy-ms"
+      ],
+      "requiredResolution": "Choose one exact antibody and product, route, dose and schedule, population and MS phenotype, cell or tissue compartment, time point, specimen, assay, comparator, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed treatment and measured state passes a new audit."
+    },
+    {
+      "pageId": "berberine",
+      "controlledIdentifier": "PubChem:2353;ChEBI:16118;MeSH:D001599;InChIKey:YBHILYKTIRIUTE-UHFFFAOYSA-N",
+      "batchId": "interventions-102",
+      "draft": "work/media-drafts/interventions-batch-102/berberine-draft.png",
+      "sha256": "4839608b85a035cc40379b236a4ad8761d5bfbf84630ab7c1507d9d84876126f",
+      "generationRecord": "exec-00fdf7ee-c437-499b-b981-410e35557ce8.png",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual and programmatic edge-field audit",
+      "disposition": "rejected-after-output-audit",
+      "reason": "The one-call output contains the correct visible 20-carbon, 1-nitrogen, 4-oxygen count but prints a large white plus glyph on the nitrogen despite the explicit no-glyph constraint. Perspective overlap also prevents complete edge-by-edge constitutional-graph certification from the raster.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/2353",
+        "https://www.ebi.ac.uk/chebi/CHEBI:16118",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D001599",
+        "local:work/media-drafts/interventions-batch-102/berberine-draft.png"
+      ],
+      "requiredResolution": "A future revision requires a new authority audit, a new immutable prompt, and one newly authorized generation call whose native output independently passes exact 20-carbon, 1-nitrogen, 4-oxygen count, berberine-cation constitutional adjacency, no-label or charge-glyph content, opaque pale-field, and crop gates.",
+      "routingImpact": "The exact revision-1 source remains immutable non-public quarantine evidence and is excluded from registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "berberine-methimazole",
+      "controlledIdentifier": "berberine-plus-methimazole-combination;zero-resolvable-sources;unspecified-formulation-dose-and-state",
+      "batchId": "interventions-102",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The evidence-limited route supplies no resolvable sources and combines two compounds, unspecified salt or product forms and doses, Graves' disease, inflammatory signaling, microbiome claims, and outcomes. Two molecule models would not represent the intervention or its evidence.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/2353",
+        "local:data/content.generated.json#/pages/berberine-methimazole"
+      ],
+      "requiredResolution": "Choose exact compound and salt identities, products, formulations, doses, route and schedule, population, comparator, specimen, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed combination and measured state passes a new audit."
+    },
+    {
+      "pageId": "breast-milk-hmo-nec",
+      "controlledIdentifier": "MeSH:D008895-human-milk;related-MeSH:D009844-oligosaccharides;variable-biological-matrix-and-chemical-family;zero-resolvable-sources",
+      "batchId": "interventions-102",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The evidence-limited route has no resolvable sources and combines variable human milk, a structurally diverse HMO family, fortification and feeding practices, preterm populations, microbes, proteins, metals, and NEC outcomes rather than one specimen or molecule.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008895",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009844",
+        "local:data/content.generated.json#/pages/breast-milk-hmo-nec"
+      ],
+      "requiredResolution": "Choose one milk source and processing state or one exact controlled HMO, composition and dose, feeding protocol, population, comparator, specimen, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed specimen or compound and measured state passes a new audit."
     }
   ],
   "revisedAssets": [
@@ -4961,55 +5056,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 587,
-      "id": "acarbose-fiber-synergy",
-      "title": "Acarbose + High-Fiber Diet Synergy for PCOS",
-      "route": "/article/acarbose-fiber-synergy",
+      "queuePosition": 593,
+      "id": "citrus-fruits",
+      "title": "Citrus Fruits for Endometriosis",
+      "route": "/article/citrus-fruits",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 588,
-      "id": "aip-diet-hashimotos",
-      "title": "Autoimmune Protocol (AIP) Diet for Hashimoto's Thyroiditis",
-      "route": "/article/aip-diet-hashimotos",
+      "queuePosition": 594,
+      "id": "curcumin",
+      "title": "Curcumin",
+      "route": "/article/curcumin",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 589,
-      "id": "b-cell-depletion-therapy-ms",
-      "title": "B-Cell Depletion Therapy for Multiple Sclerosis",
-      "route": "/article/b-cell-depletion-therapy-ms",
+      "queuePosition": 595,
+      "id": "dietary-fiber",
+      "title": "Dietary Fiber (Cross-Condition)",
+      "route": "/article/dietary-fiber",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 590,
-      "id": "berberine",
-      "title": "Berberine",
-      "route": "/article/berberine",
+      "queuePosition": 596,
+      "id": "dietary-fiber-probiotics-cp-constipation",
+      "title": "Dietary Fiber + Probiotics for Cerebral Palsy Constipation",
+      "route": "/article/dietary-fiber-probiotics-cp-constipation",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 591,
-      "id": "berberine-methimazole",
-      "title": "Berberine + Methimazole for Graves' Disease",
-      "route": "/article/berberine-methimazole",
+      "queuePosition": 597,
+      "id": "dietary-fiber-colorectal-cancer",
+      "title": "Dietary Fiber for Colorectal Cancer Prevention",
+      "route": "/article/dietary-fiber-colorectal-cancer",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 592,
-      "id": "breast-milk-hmo-nec",
-      "title": "Breast Milk and Human Milk Oligosaccharides (HMOs) for NEC Prevention",
-      "route": "/article/breast-milk-hmo-nec",
+      "queuePosition": 598,
+      "id": "dietary-fiber-ovarian-cancer",
+      "title": "Dietary Fiber for Ovarian Cancer Risk Reduction",
+      "route": "/article/dietary-fiber-ovarian-cancer",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
@@ -16993,7 +17088,13 @@
       "route": "/article/acarbose-fiber-synergy",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The evidence-limited route supplies no resolvable references and does not define acarbose product, dose, fiber type or composition, diet background, PCOS population, specimen, time point, or outcome. A drug-and-food scene would imply a standardized synergistic regimen.",
+        "requiredResolution": "Choose exact acarbose formulation and dose, fiber identity and composition, diet background, population, comparator, specimen, analytical method, time point, endpoint, and direct evidence."
+      }
     },
     {
       "queuePosition": 588,
@@ -17006,7 +17107,13 @@
       "route": "/article/aip-diet-hashimotos",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The evidence-limited route has no resolvable sources and combines elimination, multiple food classes, reintroduction, nutritional adequacy, intestinal and immune mechanisms, symptoms, and thyroid endpoints without one standardized intervention or material state.",
+        "requiredResolution": "Select one documented protocol, exact phase and food definitions, nutrient controls, population, duration, adherence method, specimen, assay, comparator, outcome, and evidence tier."
+      }
     },
     {
       "queuePosition": 589,
@@ -17019,7 +17126,13 @@
       "route": "/article/b-cell-depletion-therapy-ms",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route combines several anti-CD20 antibodies, products and schedules, B-cell states, MS phenotypes, immune and microbiome compartments, metabolites, infection risks, and outcomes rather than one physical treatment or measured state.",
+        "requiredResolution": "Choose one exact antibody and product, route, dose and schedule, population and MS phenotype, cell or tissue compartment, time point, specimen, assay, comparator, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 590,
@@ -17032,7 +17145,15 @@
       "route": "/article/berberine",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "interventions-102",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual and programmatic edge-field audit",
+        "disposition": "rejected-after-output-audit",
+        "reason": "The one-call output contains the correct visible 20-carbon, 1-nitrogen, 4-oxygen count but prints a large white plus glyph on the nitrogen despite the explicit no-glyph constraint. Perspective overlap also prevents complete edge-by-edge constitutional-graph certification from the raster.",
+        "requiredResolution": "A future revision requires a new authority audit, a new immutable prompt, and one newly authorized generation call whose native output independently passes exact 20-carbon, 1-nitrogen, 4-oxygen count, berberine-cation constitutional adjacency, no-label or charge-glyph content, opaque pale-field, and crop gates."
+      }
     },
     {
       "queuePosition": 591,
@@ -17045,7 +17166,13 @@
       "route": "/article/berberine-methimazole",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The evidence-limited route supplies no resolvable sources and combines two compounds, unspecified salt or product forms and doses, Graves' disease, inflammatory signaling, microbiome claims, and outcomes. Two molecule models would not represent the intervention or its evidence.",
+        "requiredResolution": "Choose exact compound and salt identities, products, formulations, doses, route and schedule, population, comparator, specimen, assay, time point, endpoint, and direct evidence."
+      }
     },
     {
       "queuePosition": 592,
@@ -17058,7 +17185,13 @@
       "route": "/article/breast-milk-hmo-nec",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The evidence-limited route has no resolvable sources and combines variable human milk, a structurally diverse HMO family, fortification and feeding practices, preterm populations, microbes, proteins, metals, and NEC outcomes rather than one specimen or molecule.",
+        "requiredResolution": "Choose one milk source and processing state or one exact controlled HMO, composition and dose, feeding protocol, population, comparator, specimen, assay, time point, endpoint, and direct evidence."
+      }
     },
     {
       "queuePosition": 593,
