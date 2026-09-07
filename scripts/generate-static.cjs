@@ -939,7 +939,7 @@ function generateSpecialPageHtml(specialPath) {
       title: 'Researchers and partners — WikiBiome',
       description: 'Explore WikiBiome, researcher resources, Microbiome Medicine, and Cureva for labs and clinics.',
       html: `<h1>Explore and collaborate</h1>
-      <p>Browse the <a href="/explore">WikiBiome encyclopedia</a>, visit the <a href="/outreach">researcher network</a>, or learn more at <a href="https://microbiomemedicine.com">Microbiome Medicine</a> and <a href="https://cureva.ai">Cureva for labs and clinics</a>.</p>`,
+      <p>Browse the <a href="/explore">WikiBiome encyclopedia</a>, <a href="/submit">submit peer-reviewed research</a> for editorial review, or learn more at <a href="https://microbiomemedicine.com">Microbiome Medicine</a> and <a href="https://cureva.ai">Cureva for labs and clinics</a>.</p>`,
     },
     '/submit': {
       title: 'Submit research — WikiBiome',

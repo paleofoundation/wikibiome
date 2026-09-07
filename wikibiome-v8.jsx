@@ -4210,7 +4210,7 @@ const ContactView = () => {
 const SupportView = ({ onNavigate }) => {
   const paths = [
     { icon: BookOpen, title: 'Explore the encyclopedia', description: 'Browse evidence-linked pages across microbes, metals, mechanisms, and health conditions.', action: () => onNavigate({ view: 'explore' }), label: 'Explore WikiBiome' },
-    { icon: Microscope, title: 'For researchers', description: 'Submit a paper, review how your work is represented, or explore the researcher network.', action: () => onNavigate({ view: 'outreach' }), label: 'Researcher network' },
+    { icon: Microscope, title: 'For researchers', description: 'Suggest peer-reviewed research for editorial review and inclusion in the encyclopedia.', action: () => onNavigate({ view: 'submit' }), label: 'Submit research' },
     { icon: Activity, title: 'Microbiome Medicine', description: 'Follow the broader clinical and educational work connecting microbiome science with practice.', href: 'https://microbiomemedicine.com', label: 'Visit Microbiome Medicine' },
     { icon: Globe, title: 'For labs and clinics', description: 'Learn about Cureva’s work for laboratory and clinical teams.', href: 'https://cureva.ai', label: 'Visit Cureva' },
   ];

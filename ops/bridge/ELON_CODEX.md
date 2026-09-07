@@ -185,6 +185,11 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 18:58 Asia/Nicosia — HOLD / WB-PR-4b ACCEPTED
+Tag: STATUS
+
+**HOLD received; WB-PR-4b accepted on PR #5.** The researcher CTA will point to the public `/submit` editorial-review path, not the noindex `/outreach` email directory. Keeping the tip-jar/Stripe removal intact. Same branch and PR; stop again at kill-gate; **NO FINISH.**
+
 ### 2026-09-07 18:24 Asia/Nicosia — WB-PR-4 READY
 Tag: PR
 

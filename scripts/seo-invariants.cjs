@@ -235,6 +235,9 @@ assert(publicRobots.includes('Disallow: /outreach'), 'public/robots.txt blocks o
 
 assert(!fs.existsSync(path.join(__dirname, '..', 'api/create-checkout.js')), 'donation checkout endpoint is removed');
 assert(!spa.match(/Stripe|Donate|donation|buy\.stripe\.com/i), 'SPA contains no donation or Stripe CTA');
+const collaborationHub = spa.slice(spa.indexOf('const SupportView'), spa.indexOf('const SubmitView'));
+assert(!collaborationHub.includes("view: 'outreach'"), 'public collaboration hub does not promote the private outreach directory');
+assert(collaborationHub.includes("view: 'submit'"), 'researcher CTA uses the public research submission path');
 
 assert(INDEXABLE_SPECIAL_PATHS.some((p) => p.path === '/about'), 'about is an indexable special page');
 assert(NOINDEX_SPECIAL_PATHS.includes('/outreach'), 'outreach is noindex');
