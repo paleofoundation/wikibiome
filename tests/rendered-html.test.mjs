@@ -95,6 +95,13 @@ test("keeps internal navigation independent of the vinext client-link runtime", 
   assert.deepEqual(offenders, []);
 });
 
+test("keeps contextual article links recognizable without color alone", () => {
+  const css = readFileSync(new URL("../app/internal-concept-links.css", import.meta.url), "utf8");
+  assert.match(css, /a\[href\^="\/article\/"\]/);
+  assert.match(css, /text-decoration-line:\s*underline/);
+  assert.match(css, /:focus-visible/);
+});
+
 test("counts only recognized search-engine referrers as search landings", () => {
   assert.equal(classifySearchReferrer("https://www.google.com/search?q=nickel"), "google");
   assert.equal(classifySearchReferrer("https://www.google.co.uk/search?q=nickel"), "google");
@@ -220,13 +227,14 @@ test("rejects prompt-derived or unreconciled generated-media counts", () => {
   );
 });
 
-test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities during public generation", () => {
+test("rejects retired, obsolete, duplicate, or unsupported article identities during public generation", () => {
   const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   const aliases = getArticleAliases();
   const audit = validateArticleIdentityPolicy(generated);
 
-  assert.equal(audit.aliasCount, 13);
+  assert.equal(audit.aliasCount, 14);
   assert.equal(audit.canonicalTaxonCount, 13);
+  assert.equal(audit.canonicalArticleCount, 1);
   for (const [alias, target] of Object.entries(aliases)) {
     assert.equal(generated.pages.some((page) => page.id === alias), false, `${alias} must not remain indexable`);
     assert.equal(generated.pages.filter((page) => page.id === target).length, 1, `${target} must be unique`);
@@ -359,8 +367,8 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
-  assert.match(html, /1,939/);
-  assert.match(html, /817/);
+  assert.match(html, /1,940/);
+  assert.match(html, /822/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
 
@@ -440,7 +448,1652 @@ test("server-renders real article and directory pages through the shared redesig
   }
 });
 
-test("permanently redirects retired taxon URLs to one current-name canonical record", async () => {
+test("server-renders Urea and contextual H. pylori concept links", async () => {
+  const [ureaResponse, helicobacterResponse, historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/urea"),
+    render("/article/helicobacter-pylori"),
+    render("/article/urea/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [ureaResponse, helicobacterResponse, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const [urea, helicobacter, history, sitemap] = await Promise.all([
+    ureaResponse.text(),
+    helicobacterResponse.text(),
+    historyResponse.text(),
+    sitemapResponse.text(),
+  ]);
+
+  assert.equal(htmlTitle(urea), "Urea — WikiBiome");
+  assert.equal(htmlCanonical(urea), `${PUBLIC_ORIGIN}/article/urea`);
+  assert.match(urea, /Urea is not urease/i);
+  assert.match(urea, /href="\/article\/urease"/);
+  assert.match(urea, /href="\/article\/helicobacter-pylori"/);
+  assert.match(urea, /href="\/article\/chronic-kidney-disease"/);
+  assert.match(urea, /href="\/article\/uremic-toxins"/);
+  assert.match(urea, /href="\/source\/maier-2019-nickel-microbial-pathogenesis"/);
+
+  const lead = helicobacter.match(/<div class="lead-copy">([\s\S]*?)<\/div>/)?.[1] ?? "";
+  assert.match(lead, /href="\/article\/urease"/);
+  assert.match(lead, /\[NiFe\][\s\S]{0,80}href="\/article\/hydrogenase"/i);
+
+  const articleStart = helicobacter.indexOf('<article class="article-body">');
+  const referencesStart = helicobacter.indexOf('<section class="references-section"', articleStart);
+  assert.ok(articleStart >= 0 && referencesStart > articleStart);
+  const article = helicobacter.slice(articleStart, referencesStart);
+  for (const id of [
+    "urea",
+    "tight-junctions",
+    "nickel-transporters",
+    "histidine",
+    "gastric-ulcer",
+    "gastric-adenocarcinoma",
+    "bismuth",
+  ]) {
+    assert.match(
+      article,
+      new RegExp(`href="/article/${escapeRegExp(id)}"`),
+      `expected contextual link to ${id}`,
+    );
+  }
+
+  assert.match(history, /wiki\/concepts\/urea\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/urea</loc>`));
+});
+
+test("server-renders the reviewed corpus-wide Urease link batch without overlinking", async () => {
+  const contextIds = [
+    "candida-albicans",
+    "proteus-mirabilis",
+    "ureaplasma",
+    "campylobacter-jejuni",
+    "mycobacterium-tuberculosis",
+    "nickel-transporters",
+    "ureaplasma-urealyticum",
+    "oxidative-stress",
+    "escherichia-coli",
+    "biofilm",
+    "staphylococcus-aureus",
+    "metal-dependent-virulence",
+    "inter-kingdom-metal-shielding",
+    "nutritional-immunity",
+    "dysbiosis",
+    "nickel",
+    "endometriosis",
+    "gut-metal-microbiome",
+    "mis-metallation",
+    "lactobacillus",
+    "calprotectin",
+    "parkinsons-disease",
+    "alzheimers-disease",
+    "enterobacteriaceae",
+    "siderophores-metallophores",
+    "environmental-metal-exposure",
+    "proteobacteria",
+    "gerd",
+    "alpha-synuclein",
+    "gut-microbiome",
+    "amyloid-beta",
+    "enterococcus",
+    "pathogen-metal-acquisition",
+    "gastric-ulcer",
+    "actinobacteria",
+    "gastric-adenocarcinoma",
+    "gastric-cancer",
+    "gut-kidney-axis",
+    "metal-sensing",
+    "hypoxia",
+    "infant-exposure",
+    "microbial-metallomics",
+    "histidine",
+    "uremic-toxins",
+    "virulence-factors",
+    "bismuth",
+    "rothia",
+    "ph-sensing",
+    "helicobacter-hepaticus",
+    "morganella-morganii",
+    "gene-regulation",
+    "staphylococcus",
+    "cirrhosis",
+    "dietary-metal-microbiome-interactions",
+    "hmos",
+    "dimethylglyoxime",
+    "streptococcus-salivarius",
+    "essential-oils",
+    "srna",
+  ];
+  const [ureaseResponse, ...contextResponses] = await Promise.all([
+    render("/article/urease"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+
+  for (const response of [ureaseResponse, ...contextResponses]) assert.equal(response.status, 200);
+
+  const urease = await ureaseResponse.text();
+  assert.equal(htmlTitle(urease), "Urease — WikiBiome");
+  assert.equal(htmlCanonical(urease), `${PUBLIC_ORIGIN}/article/urease`);
+  assert.match(urease, /Dual catalytic and antioxidant function/i);
+  assert.match(urease, /Virulence Roles by Pathogen/i);
+  assert.match(urease, /Therapeutic Targeting of Urease/i);
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const diseaseNarrativeStart = html.indexOf('<section class="disease-narrative" id="article"', articleStart);
+    const proseStart = diseaseNarrativeStart >= 0 ? diseaseNarrativeStart : articleStart;
+    const referencesStart = html.indexOf('<section class="references-section"', proseStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    const article = html.slice(proseStart, referencesStart);
+    assert.equal(
+      (article.match(/href="\/article\/urease"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Urease link in ${contextIds[index]}`,
+    );
+  }
+});
+
+test("server-renders complete Tight junctions contextual coverage without overlinking", async () => {
+  const contextIds = [
+    "ahr",
+    "amyloid-beta-aggregation",
+    "amyloid-beta",
+    "autoimmunity",
+    "blood-brain-barrier",
+    "butyrate",
+    "caga",
+    "colonization-resistance",
+    "cortisol",
+    "dysbiosis",
+    "edta",
+    "endotoxemia",
+    "epigenetic-modifications",
+    "epithelial-mesenchymal-transition",
+    "fecal-microbiota-transplant",
+    "fxr",
+    "gut-barrier-dysfunction",
+    "gut-kidney-axis",
+    "gut-metal-microbiome",
+    "gut-microbiome",
+    "gut-penis-axis",
+    "gut-thyroid-axis",
+    "heavy-metal-neurotoxicity",
+    "heavy-metals-infant-foods",
+    "helicobacter-pylori",
+    "hmos",
+    "indoles",
+    "infant-exposure",
+    "inflammation",
+    "intestinal-permeability",
+    "interleukin-22",
+    "lipopolysaccharide",
+    "matrix-metalloproteases",
+    "metal-dependent-virulence",
+    "microbiome-derived-metabolites",
+    "neuroinflammation",
+    "parenteral-nutrition",
+    "polyphenols",
+    "prebiotics",
+    "probiotics",
+    "ruminococcaceae",
+    "short-chain-fatty-acids",
+    "tmao",
+    "toll-like-receptors",
+    "urease",
+    "zinc-metalloprotease",
+    "zonulin",
+    "akkermansia-muciniphila",
+    "alloprevotella",
+    "bacteroides-vulgatus",
+    "bifidobacterium-longum",
+    "breast-cancer",
+    "butyricicoccus",
+    "butyricimonas",
+    "cadmium",
+    "candida-albicans",
+    "cardiovascular-disease",
+    "celiac-disease",
+    "chromium",
+    "clostridia",
+    "clostridium-symbiosum",
+    "clostridium",
+    "collinsella",
+    "colorectal-cancer",
+    "coprococcus",
+    "crohns-disease",
+    "cryptococcus-neoformans",
+    "debaryomyces",
+    "depression",
+    "desulfovibrio",
+    "desulfovibrionales",
+    "eggerthella-lenta",
+    "eubacterium",
+    "faecalibacterium-prausnitzii",
+    "firmicutes",
+    "fusobacterium-nucleatum",
+    "fusobacterium-varium",
+    "gastric-adenocarcinoma",
+    "gastric-cancer",
+    "gastric-ulcer",
+    "gerd",
+    "hypertension",
+    "lactobacillus",
+    "lead",
+    "long-covid",
+    "necrotizing-enterocolitis",
+    "nickel",
+    "odoribacter",
+    "oscillospiraceae",
+    "parkinsons-disease",
+    "parvimonas-micra",
+    "porphyromonas-gingivalis",
+    "prevotella-copri",
+    "rheumatoid-arthritis",
+    "roseburia",
+    "ruminococcus-albus",
+    "saccharomyces-boulardii",
+    "saccharomyces-cerevisiae",
+    "saccharomyces",
+    "streptococcus-thermophilus",
+    "type-1-diabetes",
+    "type-2-diabetes",
+  ];
+  assert.equal(contextIds.length, 102);
+
+  const [conceptResponse, ...contextResponses] = await Promise.all([
+    render("/article/tight-junctions"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [conceptResponse, ...contextResponses]) assert.equal(response.status, 200);
+
+  const concept = await conceptResponse.text();
+  assert.equal(htmlTitle(concept), "Tight Junctions — WikiBiome");
+  assert.equal(htmlCanonical(concept), `${PUBLIC_ORIGIN}/article/tight-junctions`);
+  for (const sourceId of [
+    "ghosh-2023-heavy-metals-gut-barrier-integrity",
+    "chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd",
+    "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+  ]) {
+    assert.match(concept, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const diseaseNarrativeStart = html.indexOf('<section class="disease-narrative" id="article"', articleStart);
+    const proseStart = diseaseNarrativeStart >= 0 ? diseaseNarrativeStart : articleStart;
+    const referencesStart = html.indexOf('<section class="references-section"', proseStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    assert.equal(
+      (html.slice(proseStart, referencesStart).match(/href="\/article\/tight-junctions"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Tight junctions link in ${contextIds[index]}`,
+    );
+  }
+});
+
+test("server-renders complete Hydrogenase contextual coverage without overlinking", async () => {
+  const contextIds = [
+    "actinobacteria",
+    "alzheimers-disease",
+    "bilophila",
+    "caga",
+    "calprotectin",
+    "campylobacter",
+    "campylobacter-jejuni",
+    "citrobacter",
+    "desulfovibrio",
+    "desulfovibrionales",
+    "developmental-metal-vulnerability",
+    "dimethylglyoxime",
+    "dysbiosis",
+    "endometriosis",
+    "enterobacter",
+    "enterobacteriaceae",
+    "escherichia",
+    "escherichia-coli",
+    "fermentative-metabolism",
+    "gastric-adenocarcinoma",
+    "gastric-cancer",
+    "gastric-ulcer",
+    "gerd",
+    "glyoxalase",
+    "gut-metal-microbiome",
+    "gut-microbiome",
+    "heavy-metals",
+    "helicobacter-hepaticus",
+    "helicobacter-pylori",
+    "inter-kingdom-metal-shielding",
+    "klebsiella",
+    "lactobacillus",
+    "low-nickel-diet",
+    "metal-dependent-virulence",
+    "metallochaperone",
+    "methanobrevibacter",
+    "methanobrevibacter-smithii",
+    "microbial-metallomics",
+    "mis-metallation",
+    "mycobacterium-tuberculosis",
+    "nickel",
+    "nickel-transporters",
+    "nutritional-immunity",
+    "oxygen-state",
+    "parkinsons-disease",
+    "pathogen-metal-acquisition",
+    "salmonella",
+    "salmonella-typhimurium",
+    "shigella-flexneri",
+    "siderophores-metallophores",
+    "urease",
+    "virulence-factors",
+  ];
+  assert.equal(contextIds.length, 52);
+
+  const [conceptResponse, ...contextResponses] = await Promise.all([
+    render("/article/hydrogenase"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [conceptResponse, ...contextResponses]) assert.equal(response.status, 200);
+
+  const concept = await conceptResponse.text();
+  assert.equal(htmlTitle(concept), "Hydrogenase — WikiBiome");
+  assert.equal(htmlCanonical(concept), `${PUBLIC_ORIGIN}/article/hydrogenase`);
+  assert.match(concept, /Three classes of hydrogenase/i);
+  assert.match(concept, /Virulence Roles by Pathogen/i);
+  assert.match(concept, /CagA-Hydrogenase-Cancer Connection/i);
+  for (const sourceId of [
+    "maier-2019-nickel-microbial-pathogenesis",
+    "pendergrass-2026-nickel-nec-preterm-gut",
+    "campanale-2014-nickel-free-diet-h-pylori",
+  ]) {
+    assert.match(concept, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    assert.equal(
+      (html.slice(articleStart, referencesStart).match(/href="\/article\/hydrogenase"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Hydrogenase link in ${contextIds[index]}`,
+    );
+  }
+});
+
+test("server-renders complete Ammonia contextual coverage without overlinking", async () => {
+  const contextIds = [
+    "actinomyces",
+    "amyloid-beta",
+    "biofilm",
+    "candida-albicans",
+    "cirrhosis",
+    "cryptococcus-neoformans",
+    "dysbiosis",
+    "enterobacteriaceae",
+    "escherichia-coli",
+    "fermentative-metabolism",
+    "gastric-cancer",
+    "gastric-ulcer",
+    "gut-kidney-axis",
+    "gut-metal-microbiome",
+    "helicobacter-pylori",
+    "hypoxia",
+    "inter-kingdom-metal-shielding",
+    "metal-dependent-virulence",
+    "microbial-metallomics",
+    "mis-metallation",
+    "morganella-morganii",
+    "mycobacterium-tuberculosis",
+    "nickel",
+    "nickel-glyoxalase",
+    "nickel-urease",
+    "parkinsons-disease",
+    "proteus-mirabilis",
+    "saccharolytic-fermentation",
+    "siderophores-metallophores",
+    "staphylococcus-aureus",
+    "streptococcus-salivarius",
+    "urea",
+    "ureaplasma",
+    "ureaplasma-urealyticum",
+    "urease",
+    "uremic-toxins",
+    "virulence-factors",
+  ];
+  assert.equal(contextIds.length, 37);
+  const [ammoniaResponse, ...contextResponses] = await Promise.all([
+    render("/article/ammonia"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+  const [historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/ammonia/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [ammoniaResponse, ...contextResponses, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const ammonia = await ammoniaResponse.text();
+  assert.equal(htmlTitle(ammonia), "Ammonia — WikiBiome");
+  assert.equal(htmlCanonical(ammonia), `${PUBLIC_ORIGIN}/article/ammonia`);
+  assert.match(ammonia, /Urease-driven ammonia production/i);
+  assert.match(ammonia, /Ammonia at the gut-kidney interface/i);
+  assert.match(ammonia, /Ammonia oxidation and metal dependence/i);
+  for (const sourceId of [
+    "maier-2019-nickel-microbial-pathogenesis",
+    "chen-2019-microbiome-metabolome-gut-kidney-axis",
+    "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
+    "oudova-rivera-2026-copper-niche-ammonia-oxidizers",
+  ]) {
+    assert.match(ammonia, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    assert.equal(
+      (html.slice(articleStart, referencesStart).match(/href="\/article\/ammonia"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Ammonia link in ${contextIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/ammonia\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/ammonia</loc>`));
+});
+
+test("server-renders complete Histidine contextual coverage without overlinking", async () => {
+  const contextIds = [
+    "amyloid-beta-aggregation",
+    "cysteine",
+    "heavy-metal-neurotoxicity",
+    "hydrogenase",
+    "infant-exposure",
+    "lactoferrin",
+    "matrix-metalloproteases",
+    "mis-metallation",
+    "nickel-transporters",
+    "nickel-urease",
+    "nife-hydrogenase",
+    "nutritional-immunity",
+    "pathogen-metal-acquisition",
+    "phenylalanine",
+    "superoxide-dismutase",
+    "tlr4",
+    "tnf-alpha",
+    "toll-like-receptors",
+    "transferrin",
+    "urease",
+    "alzheimers-disease",
+    "bismuth",
+    "copper",
+    "dialister-histaminiformans",
+    "helicobacter-pylori",
+    "lactobacillus-reuteri",
+    "nickel",
+    "pancreatic-cancer",
+    "proteus-mirabilis",
+  ];
+  assert.equal(contextIds.length, 29);
+  const [histidineResponse, ...contextResponses] = await Promise.all([
+    render("/article/histidine"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+  const [historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/histidine/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [histidineResponse, ...contextResponses, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const histidine = await histidineResponse.text();
+  assert.equal(htmlTitle(histidine), "Histidine — WikiBiome");
+  assert.equal(htmlCanonical(histidine), `${PUBLIC_ORIGIN}/article/histidine`);
+  assert.match(histidine, /Histidine as Metal Coordinator/i);
+  assert.match(histidine, /Histidine as Histamine Precursor/i);
+  assert.match(histidine, /Histidine in Oxidative Stress Defense/i);
+  for (const sourceId of [
+    "maier-2019-nickel-microbial-pathogenesis",
+    "nong-2026-sod-deficiency-oxidative-stress-ecoli",
+    "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
+  ]) {
+    assert.match(histidine, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    assert.equal(
+      (html.slice(articleStart, referencesStart).match(/href="\/article\/histidine"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Histidine link in ${contextIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/histidine\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/histidine</loc>`));
+});
+
+test("server-renders corpus-wide Dysbiosis links without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => !["reference", "overview"].includes(page.type) && page.frontmatter?.platform !== "cureva")
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("dysbiosis"))
+    .map((page) => page.type === "signature" ? page.id.replace(/-signature$/, "") : page.id))]
+    .sort();
+  assert.equal(contextIds.length, 329);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-dysbiosis-corpus`);
+  const { default: dysbiosisWorker } = await import(workerUrl.href);
+  const renderDysbiosisRoute = (pathname) => dysbiosisWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [dysbiosisResponse, historyResponse, sitemapResponse] = await Promise.all([
+    renderDysbiosisRoute("/article/dysbiosis"),
+    renderDysbiosisRoute("/article/dysbiosis/history"),
+    renderDysbiosisRoute("/sitemap.xml"),
+  ]);
+  for (const response of [dysbiosisResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+
+  const dysbiosis = await dysbiosisResponse.text();
+  assert.equal(htmlTitle(dysbiosis), "Dysbiosis — WikiBiome");
+  assert.equal(htmlCanonical(dysbiosis), `${PUBLIC_ORIGIN}/article/dysbiosis`);
+  for (const heading of [
+    "Definition and Scope",
+    "Causes of Dysbiosis",
+    "Consequences of Dysbiosis",
+    "Metal-Induced Dysbiosis: The Common Pattern",
+    "Diagnostic Markers of Dysbiosis",
+    "Restoration Strategies",
+  ]) {
+    assert.match(dysbiosis, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+    "ghosh-2023-heavy-metals-gut-barrier-integrity",
+    "rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review",
+  ]) {
+    assert.match(dysbiosis, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderDysbiosisRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/dysbiosis"/g) ?? []).length,
+        1,
+        `expected exactly one contextual Dysbiosis link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/dysbiosis\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/dysbiosis</loc>`));
+});
+
+test("server-renders corpus-wide Inflammation links without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("inflammation"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(contextIds.length, 279);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-inflammation-corpus`);
+  const { default: inflammationWorker } = await import(workerUrl.href);
+  const renderInflammationRoute = (pathname) => inflammationWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [inflammationResponse, historyResponse, sitemapResponse] = await Promise.all([
+    renderInflammationRoute("/article/inflammation"),
+    renderInflammationRoute("/article/inflammation/history"),
+    renderInflammationRoute("/sitemap.xml"),
+  ]);
+  for (const response of [inflammationResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+
+  const inflammation = await inflammationResponse.text();
+  assert.equal(htmlTitle(inflammation), "Metal-Driven Inflammation — WikiBiome");
+  assert.equal(htmlCanonical(inflammation), `${PUBLIC_ORIGIN}/article/inflammation`);
+  for (const heading of [
+    "Acute vs Chronic Inflammation",
+    "Direct Metal Activation of Inflammatory Pathways",
+    "Indirect Metal-Driven Inflammation",
+    "Resolution Mechanisms and Their Failure",
+    "The Host Defense Inflammatory Response",
+    "Disease-Specific Inflammatory Patterns",
+    "Biomarkers",
+  ]) {
+    assert.match(inflammation, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "briffa-2020-heavy-metal-pollution-environment-toxicology",
+    "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
+    "amerikanou-2022-ibd-biomarkers-trace-metals",
+  ]) {
+    assert.match(inflammation, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderInflammationRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/inflammation"/g) ?? []).length,
+        1,
+        `expected exactly one contextual Inflammation link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/inflammation\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/inflammation</loc>`));
+});
+
+test("server-renders corpus-wide Gut Microbiome links without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("gut-microbiome"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(contextIds.length, 222);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-gut-microbiome-corpus`);
+  const { default: gutMicrobiomeWorker } = await import(workerUrl.href);
+  const renderGutMicrobiomeRoute = (pathname) => gutMicrobiomeWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [gutMicrobiomeResponse, historyResponse, sitemapResponse] = await Promise.all([
+    renderGutMicrobiomeRoute("/article/gut-microbiome"),
+    renderGutMicrobiomeRoute("/article/gut-microbiome/history"),
+    renderGutMicrobiomeRoute("/sitemap.xml"),
+  ]);
+  for (const response of [gutMicrobiomeResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+
+  const gutMicrobiome = await gutMicrobiomeResponse.text();
+  assert.equal(htmlTitle(gutMicrobiome), "Gut Microbiome — WikiBiome");
+  assert.equal(htmlCanonical(gutMicrobiome), `${PUBLIC_ORIGIN}/article/gut-microbiome`);
+  for (const heading of [
+    "Composition and Diversity",
+    "Core Functions",
+    "The Metal-Microbiome Interface",
+    "Dysbiosis",
+    "Restoration Strategies",
+  ]) {
+    assert.match(gutMicrobiome, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
+    "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+    "zhu-2024-toxic-essential-metals-gut-microbiota",
+  ]) {
+    assert.match(gutMicrobiome, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderGutMicrobiomeRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/gut-microbiome"/g) ?? []).length,
+        1,
+        `expected exactly one contextual Gut Microbiome link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/gut-microbiome\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/gut-microbiome</loc>`));
+});
+
+test("server-renders corpus-wide Butyrate links without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("butyrate"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(contextIds.length, 202);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-butyrate-corpus`);
+  const { default: butyrateWorker } = await import(workerUrl.href);
+  const renderButyrateRoute = (pathname) => butyrateWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [butyrateResponse, historyResponse, sitemapResponse] = await Promise.all([
+    renderButyrateRoute("/article/butyrate"),
+    renderButyrateRoute("/article/butyrate/history"),
+    renderButyrateRoute("/sitemap.xml"),
+  ]);
+  for (const response of [butyrateResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+
+  const butyrate = await butyrateResponse.text();
+  assert.equal(htmlTitle(butyrate), "Butyrate — WikiBiome");
+  assert.equal(htmlCanonical(butyrate), `${PUBLIC_ORIGIN}/article/butyrate`);
+  for (const heading of [
+    "Production and Fate",
+    "Epithelial Barrier and Oxygen Ecology",
+    "Host Signaling",
+    "Evidence Across Disease Contexts",
+    "Diet, Metals, and Microbial Ecology",
+    "Intervention Evidence and Limits",
+  ]) {
+    assert.match(butyrate, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+    "liu-2020-high-fat-diet-heavy-metal-gut-microbiota-kidney",
+    "yasuno-2024-dysbiosis-gut-microbiota-ckd-stages",
+  ]) {
+    assert.match(butyrate, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderButyrateRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/butyrate"/g) ?? []).length,
+        1,
+        `expected exactly one contextual Butyrate link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/butyrate\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/butyrate</loc>`));
+});
+
+test("server-renders corpus-wide Oxidative Stress links without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("oxidative-stress"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(contextIds.length, 184);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-oxidative-stress-corpus`);
+  const { default: oxidativeStressWorker } = await import(workerUrl.href);
+  const renderOxidativeStressRoute = (pathname) => oxidativeStressWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [oxidativeStressResponse, historyResponse, sitemapResponse] = await Promise.all([
+    renderOxidativeStressRoute("/article/oxidative-stress"),
+    renderOxidativeStressRoute("/article/oxidative-stress/history"),
+    renderOxidativeStressRoute("/sitemap.xml"),
+  ]);
+  for (const response of [oxidativeStressResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+
+  const oxidativeStress = await oxidativeStressResponse.text();
+  assert.equal(htmlTitle(oxidativeStress), "Oxidative Stress — WikiBiome");
+  assert.equal(htmlCanonical(oxidativeStress), `${PUBLIC_ORIGIN}/article/oxidative-stress`);
+  for (const heading of [
+    "Biochemistry of Reactive Oxygen Species",
+    "Antioxidant Defense Systems",
+    "Metal-Specific ROS Generation",
+    "Biomarkers of Oxidative Stress",
+    "Evidence Interpretation",
+    "Oxidative Stress in Host-Pathogen Interactions",
+    "Therapeutic Implications",
+  ]) {
+    assert.match(oxidativeStress, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "salnikov-2008-metal-carcinogenesis",
+    "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
+    "maier-2019-nickel-microbial-pathogenesis",
+  ]) {
+    assert.match(oxidativeStress, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderOxidativeStressRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/oxidative-stress"/g) ?? []).length,
+        1,
+        `expected exactly one contextual Oxidative Stress link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/oxidative-stress\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/oxidative-stress</loc>`));
+});
+
+test("server-renders corpus-wide Heavy Metals links without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("heavy-metals"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(contextIds.length, 110);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-heavy-metals-corpus`);
+  const { default: heavyMetalsWorker } = await import(workerUrl.href);
+  const renderHeavyMetalsRoute = (pathname) => heavyMetalsWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [heavyMetalsResponse, historyResponse, sitemapResponse] = await Promise.all([
+    renderHeavyMetalsRoute("/article/heavy-metals"),
+    renderHeavyMetalsRoute("/article/heavy-metals/history"),
+    renderHeavyMetalsRoute("/sitemap.xml"),
+  ]);
+  for (const response of [heavyMetalsResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+
+  const heavyMetals = await heavyMetalsResponse.text();
+  assert.equal(htmlTitle(heavyMetals), "Heavy Metals — WikiBiome");
+  assert.equal(htmlCanonical(heavyMetals), `${PUBLIC_ORIGIN}/article/heavy-metals`);
+  for (const heading of [
+    "Operational Classification",
+    "Elements Without an Established Nutritional Requirement",
+    "Form-Dependent Hazards",
+    "Essential Metals That Become Harmful Outside Homeostatic Ranges",
+    "Exposure Is Not the Same as Toxicity",
+    "Shared Toxicity Mechanisms",
+    "The Gut-Metal-Microbiome Interface",
+    "Evidence Interpretation",
+    "Intervention Boundaries",
+  ]) {
+    assert.match(heavyMetals, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "briffa-2020-heavy-metal-pollution-environment-toxicology",
+    "jaishankar-2014-heavy-metal-toxicity-mechanisms",
+    "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
+    "rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review",
+    "chen-2022-living-microorganisms-detoxification-heavy-metals",
+  ]) {
+    assert.match(heavyMetals, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderHeavyMetalsRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/heavy-metals"/g) ?? []).length,
+        1,
+        `expected exactly one contextual Heavy Metals link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/heavy-metals\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/heavy-metals</loc>`));
+});
+
+test("server-renders the canonical microbiome-derived metabolite graph without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("microbiome-derived-metabolites"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(contextIds.length, 43);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-microbiome-derived-metabolites`);
+  const { default: metaboliteWorker } = await import(workerUrl.href);
+  const renderMetaboliteRoute = (pathname) => metaboliteWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [pageResponse, historyResponse, sitemapResponse, legacyResponse, legacyHistoryResponse, legacySuggestResponse] = await Promise.all([
+    renderMetaboliteRoute("/article/microbiome-derived-metabolites"),
+    renderMetaboliteRoute("/article/microbiome-derived-metabolites/history"),
+    renderMetaboliteRoute("/sitemap.xml"),
+    renderMetaboliteRoute("/article/metabolites"),
+    renderMetaboliteRoute("/article/metabolites/history"),
+    renderMetaboliteRoute("/article/metabolites/suggest"),
+  ]);
+  for (const response of [pageResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+  for (const [response, suffix] of [[legacyResponse, ""], [legacyHistoryResponse, "/history"], [legacySuggestResponse, "/suggest"]]) {
+    assert.equal(response.status, 308);
+    assert.equal(response.headers.get("location"), `/article/microbiome-derived-metabolites${suffix}`);
+  }
+
+  const page = await pageResponse.text();
+  assert.equal(htmlTitle(page), "Microbiome-Derived Metabolites — WikiBiome");
+  assert.equal(htmlCanonical(page), `${PUBLIC_ORIGIN}/article/microbiome-derived-metabolites`);
+  for (const heading of [
+    "Scope and Terminology",
+    "Direct Microbial Products",
+    "Host-Microbial Co-Metabolites",
+    "What Does Not Automatically Count",
+    "From Production to Host Exposure",
+    "Major Metabolite Families",
+    "Measuring and Attributing Origin",
+    "Evidence Interpretation",
+    "Intervention Boundaries",
+  ]) {
+    assert.match(page, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "spivak-2023-local-systemic-microbiome-derived-metabolites",
+    "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+    "di-ciaula-2017-bile-acid-physiology",
+    "zhen-2023-tmao-cardiovascular-diseases-review",
+    "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+  ]) {
+    assert.match(page, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderMetaboliteRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/microbiome-derived-metabolites"/g) ?? []).length,
+        1,
+        `expected exactly one contextual microbiome-derived metabolite link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/microbiome-derived-metabolites\.md/);
+  assert.match(history, /wiki\/concepts\/metabolites\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/microbiome-derived-metabolites</loc>`));
+  assert.doesNotMatch(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/metabolites</loc>`));
+});
+
+test("server-renders strengthened Metallomics and its first high-leverage link batch", async () => {
+  const batchIds = [
+    "parkinsons-disease",
+    "comorbidities",
+    "dysbiosis",
+    "inflammation",
+    "bifidobacterium",
+    "lactobacillus",
+    "biofilm",
+    "autism-spectrum-disorder",
+    "depression",
+    "inflammatory-bowel-disease",
+    "alzheimers-disease",
+    "pcos",
+    "obesity",
+    "biomarkers",
+    "clostridioides-difficile",
+    "ibs",
+    "atherosclerosis",
+    "tryptophan",
+  ];
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const linkedContextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("metallomics"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(linkedContextIds.length, 36);
+  for (const id of batchIds) assert.ok(linkedContextIds.includes(id), `expected generated Metallomics backlink from ${id}`);
+
+  const [pageResponse, historyResponse, sitemapResponse, ...contextResponses] = await Promise.all([
+    render("/article/metallomics"),
+    render("/article/metallomics/history"),
+    render("/sitemap.xml"),
+    ...batchIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [pageResponse, historyResponse, sitemapResponse, ...contextResponses]) {
+    assert.equal(response.status, 200);
+  }
+
+  const page = await pageResponse.text();
+  assert.equal(htmlTitle(page), "Metallomics — WikiBiome");
+  assert.equal(htmlCanonical(page), `${PUBLIC_ORIGIN}/article/metallomics`);
+  for (const heading of [
+    "What the Metallome Includes",
+    "Analytical Layers",
+    "From Measurement to a Metallomic Signature",
+    "Metallomics Versus Adjacent Measurements",
+    "Evidence Interpretation",
+    "Clinical and Intervention Boundaries",
+  ]) {
+    assert.match(page, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "morel-2022-mouse-metallomic-landscape-aging-metabolism",
+    "blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans",
+    "zhang-2022-metallomics-cancer-review",
+    "scholefield-2024-brain-metallomics-dementia",
+    "patil-2021-infection-metallomics-critical-care",
+    "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+  ]) {
+    assert.match(page, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${batchIds[index]}`);
+    const articleHtml = html.slice(articleStart, referencesStart);
+    const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+    const narrativeStart = signatureStart >= 0
+      ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+      : -1;
+    const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+      ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+      : articleHtml;
+    assert.equal(
+      (contextualHtml.match(/href="\/article\/metallomics"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Metallomics link in ${batchIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/metallomics\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/metallomics</loc>`));
+});
+
+test("server-renders strengthened Neuroinflammation and its first high-leverage link batch", async () => {
+  const batchIds = [
+    "porphyromonas-gingivalis",
+    "polyamines",
+    "tau-phosphorylation",
+    "inflammation",
+    "gut-microbiome",
+    "oxidative-stress",
+    "nickel",
+    "zinc",
+    "lead",
+    "tight-junctions",
+    "gut-metal-microbiome",
+    "multiple-sclerosis",
+    "parkinsons-disease",
+    "autism-spectrum-disorder",
+    "manganese",
+    "mercury",
+    "depression",
+    "alzheimers-disease",
+  ];
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const linkedContextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("neuroinflammation"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(linkedContextIds.length, 48);
+  for (const id of batchIds) assert.ok(linkedContextIds.includes(id), `expected generated Neuroinflammation backlink from ${id}`);
+
+  const [pageResponse, historyResponse, sitemapResponse, ...contextResponses] = await Promise.all([
+    render("/article/neuroinflammation"),
+    render("/article/neuroinflammation/history"),
+    render("/sitemap.xml"),
+    ...batchIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [pageResponse, historyResponse, sitemapResponse, ...contextResponses]) {
+    assert.equal(response.status, 200);
+  }
+
+  const page = await pageResponse.text();
+  assert.equal(htmlTitle(page), "Neuroinflammation — WikiBiome");
+  assert.equal(htmlCanonical(page), `${PUBLIC_ORIGIN}/article/neuroinflammation`);
+  for (const heading of [
+    "What Counts as Neuroinflammation",
+    "Cells and Tissue Interfaces",
+    "How Peripheral and Gut Signals Reach the CNS",
+    "Metals and Neuroinflammatory Pathways",
+    "Disease Contexts",
+    "What Intervention Studies Establish",
+    "Reading the Evidence",
+  ]) {
+    assert.match(page, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "gao-2023-microglia-neurodegenerative-diseases",
+    "spencer-2018-vascular-pathology-ms-blood-brain-barrier",
+    "bhargava-2020-bile-acid-metabolism-ms-neuroinflammation",
+    "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
+    "tizabi-2023-lead-gut-microbiota-asd",
+    "comer-2020-inflamed-brain-schizophrenia-neuroinflammation",
+  ]) {
+    assert.match(page, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${batchIds[index]}`);
+    const articleHtml = html.slice(articleStart, referencesStart);
+    const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+    const narrativeStart = signatureStart >= 0
+      ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+      : -1;
+    const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+      ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+      : articleHtml;
+    assert.equal(
+      (contextualHtml.match(/href="\/article\/neuroinflammation"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Neuroinflammation link in ${batchIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/neuroinflammation\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/neuroinflammation</loc>`));
+});
+
+test("server-renders strengthened TLR4 and its first high-leverage link batch", async () => {
+  const batchIds = [
+    "peptostreptococcus-anaerobius",
+    "necrotizing-enterocolitis",
+    "toll-like-receptors",
+    "bacterial-contamination-hypothesis",
+    "dysbiosis",
+    "inflammation",
+    "gut-microbiome",
+    "nickel",
+    "cadmium",
+    "tight-junctions",
+    "short-chain-fatty-acids",
+    "colorectal-cancer",
+    "gut-brain-axis",
+    "chronic-kidney-disease",
+    "neuroinflammation",
+    "mercury",
+    "depression",
+    "intestinal-permeability",
+    "nf-kappa-b",
+    "obesity",
+    "enterobacteriaceae",
+    "proteobacteria",
+    "interleukin-6",
+    "chromium",
+  ];
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const linkedContextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("tlr4"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(linkedContextIds.length, 35);
+  for (const id of batchIds) assert.ok(linkedContextIds.includes(id), `expected generated TLR4 backlink from ${id}`);
+
+  const [pageResponse, historyResponse, sitemapResponse, ...contextResponses] = await Promise.all([
+    render("/article/tlr4"),
+    render("/article/tlr4/history"),
+    render("/sitemap.xml"),
+    ...batchIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [pageResponse, historyResponse, sitemapResponse, ...contextResponses]) {
+    assert.equal(response.status, 200);
+  }
+
+  const page = await pageResponse.text();
+  assert.equal(htmlTitle(page), "TLR4 — WikiBiome");
+  assert.equal(htmlCanonical(page), `${PUBLIC_ORIGIN}/article/tlr4`);
+  for (const heading of [
+    "What TLR4 Senses",
+    "Signaling Outputs",
+    "Barrier and Tissue Contexts",
+    "Disease-Associated Pathways",
+    "Metals Beyond Direct Nickel Sensing",
+    "What Intervention Studies Establish",
+    "Reading the Evidence",
+  ]) {
+    assert.match(page, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "ahlstrom-2019-nickel-allergy-review",
+    "davis-richardson-2015-bacteroides-dorei-t1d-model",
+    "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
+    "appunni-2021-dietary-factors-gut-microbiome-crc",
+    "perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain",
+    "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
+  ]) {
+    assert.match(page, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${batchIds[index]}`);
+    const articleHtml = html.slice(articleStart, referencesStart);
+    const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+    const narrativeStart = signatureStart >= 0
+      ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+      : -1;
+    const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+      ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+      : articleHtml;
+    assert.equal(
+      (contextualHtml.match(/href="\/article\/tlr4"/g) ?? []).length,
+      1,
+      `expected exactly one contextual TLR4 link in ${batchIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/tlr4\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/tlr4</loc>`));
+});
+
+test("server-renders Catalase and its reviewed contextual-link batch", async () => {
+  const ids = ["catalase", "oxidative-stress", "streptococcus-mutans", "metal-dependent-virulence", "iron", "aerococcus"];
+  const [catalaseResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
+  const [historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/catalase/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [catalaseResponse, ...contextResponses, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const catalase = await catalaseResponse.text();
+  assert.equal(htmlTitle(catalase), "Catalase — WikiBiome");
+  assert.equal(htmlCanonical(catalase), `${PUBLIC_ORIGIN}/article/catalase`);
+  assert.match(catalase, /The peroxide-defense sequence/i);
+  assert.match(catalase, /Catalase-negative microbial ecology/i);
+  assert.match(catalase, /Metal homeostasis can disable catalase defense/i);
+  for (const sourceId of [
+    "cassat-2012-metal-acquisition-staphylococcus-aureus",
+    "chandrangsu-2016-zinc-intoxication-perr-heme-toxicity",
+    "bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus",
+    "nong-2026-sod-deficiency-oxidative-stress-ecoli",
+    "williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans",
+    "goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros",
+  ]) {
+    assert.match(catalase, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body">');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${ids[index + 1]}`);
+    assert.match(
+      html.slice(articleStart, referencesStart),
+      /href="\/article\/catalase"/,
+      `expected contextual Catalase link in ${ids[index + 1]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/catalase\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/catalase</loc>`));
+});
+
+test("server-renders NLRP3 Inflammasome and its reviewed contextual-link batch", async () => {
+  const ids = [
+    "nlrp3-inflammasome",
+    "dysbiosis",
+    "cadmium",
+    "zinc",
+    "inflammation",
+    "colorectal-cancer",
+    "gut-metal-microbiome",
+    "cardiovascular-disease",
+    "chronic-kidney-disease",
+    "neuroinflammation",
+    "hashimotos-thyroiditis",
+    "chromium",
+    "tmao",
+    "microglia",
+    "il-1beta",
+  ];
+  const [nlrp3Response, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
+  const [historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/nlrp3-inflammasome/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [nlrp3Response, ...contextResponses, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const nlrp3 = await nlrp3Response.text();
+  assert.equal(htmlTitle(nlrp3), "NLRP3 Inflammasome — WikiBiome");
+  assert.equal(htmlCanonical(nlrp3), `${PUBLIC_ORIGIN}/article/nlrp3-inflammasome`);
+  assert.match(nlrp3, /From sensing to inflammatory output/i);
+  assert.match(nlrp3, /Microbial signals and barrier failure/i);
+  assert.match(nlrp3, /Context-dependent effects in the gut/i);
+  assert.match(nlrp3, /Evidence interpretation/i);
+  for (const sourceId of [
+    "luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis",
+    "mohamed-2023-nsaid-dysbiosis-autoimmune-liver-asd",
+    "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
+    "nucera-2024-non-essential-heavy-metals-cvd-systematic-review",
+    "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos",
+    "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+    "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+  ]) {
+    assert.match(nlrp3, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body">');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    const article = articleStart >= 0 && referencesStart > articleStart
+      ? html.slice(articleStart, referencesStart)
+      : html;
+    assert.match(
+      article,
+      /href="\/article\/nlrp3-inflammasome"/,
+      `expected contextual NLRP3 link in ${ids[index + 1]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/nlrp3-inflammasome\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/nlrp3-inflammasome</loc>`));
+});
+
+test("server-renders CagA and its reviewed contextual-link batch", async () => {
+  const ids = [
+    "caga",
+    "hydrogenase",
+    "gastric-cancer",
+    "gastric-adenocarcinoma",
+    "nickel",
+    "helicobacter-pylori",
+    "metal-dependent-virulence",
+    "gastric-ulcer",
+    "nickel-transporters",
+    "virulence-factors",
+  ];
+  const [cagaResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
+  const [historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/caga/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [cagaResponse, ...contextResponses, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const caga = await cagaResponse.text();
+  assert.equal(htmlTitle(caga), "CagA — WikiBiome");
+  assert.equal(htmlCanonical(caga), `${PUBLIC_ORIGIN}/article/caga`);
+  assert.match(caga, /Delivery by the type IV secretion system/i);
+  assert.match(caga, /What strain status and antibodies can show/i);
+  assert.match(caga, /Associations beyond gastric cancer/i);
+  assert.match(caga, /Evidence interpretation/i);
+  for (const sourceId of [
+    "maier-2019-nickel-microbial-pathogenesis",
+    "campanale-2014-nickel-free-diet-h-pylori",
+    "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
+    "chen-2023-hpylori-antibodies-gerd-mendelian-study",
+    "wang-2019-microbiome-occurrence-development-treatment-pancreatic-cancer",
+    "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos",
+  ]) {
+    assert.match(caga, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body">');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    const article = articleStart >= 0 && referencesStart > articleStart
+      ? html.slice(articleStart, referencesStart)
+      : html;
+    assert.match(
+      article,
+      /href="\/article\/caga"/,
+      `expected contextual CagA link in ${ids[index + 1]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/caga\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/caga</loc>`));
+});
+
+test("server-renders Interleukin-22 and its reviewed contextual-link batch", async () => {
+  const ids = [
+    "interleukin-22",
+    "tryptophan-metabolism",
+    "necrotizing-enterocolitis",
+    "indoles",
+    "ahr",
+    "mycobiome",
+    "immune-balance",
+    "bacteroides-vulgatus",
+    "tryptophan",
+    "bacteroides-thetaiotaomicron",
+    "prevotella-copri",
+    "th17-treg-balance",
+    "debaryomyces",
+    "infant-exposure",
+    "peptostreptococcus-stomatis",
+    "ruminococcus-gnavus",
+    "indole",
+    "ketone-bodies",
+  ];
+  const [il22Response, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
+  const [historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/interleukin-22/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [il22Response, ...contextResponses, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const il22 = await il22Response.text();
+  assert.equal(htmlTitle(il22), "Interleukin-22 — WikiBiome");
+  assert.equal(htmlCanonical(il22), `${PUBLIC_ORIGIN}/article/interleukin-22`);
+  assert.match(il22, /Microbiome-to-barrier signaling/i);
+  assert.match(il22, /Context-dependent inflammatory effects/i);
+  assert.match(il22, /Human association and negative evidence/i);
+  assert.match(il22, /Evidence interpretation/i);
+  for (const sourceId of [
+    "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
+    "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+    "kong-2021-ketogenic-diet-colitis-ilc3-microbiome",
+    "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+    "thirion-2023-gut-microbiota-ms-disease-activity",
+    "cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd",
+    "ahlstrom-2019-nickel-allergy-review",
+  ]) {
+    assert.match(il22, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body">');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    const article = articleStart >= 0 && referencesStart > articleStart
+      ? html.slice(articleStart, referencesStart)
+      : html;
+    assert.match(
+      article,
+      /href="\/article\/interleukin-22"/,
+      `expected contextual Interleukin-22 link in ${ids[index + 1]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/interleukin-22\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/interleukin-22</loc>`));
+});
+
+test("permanently redirects retired article URLs to one canonical record", async () => {
   const aliases = getArticleAliases();
   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
     for (const suffix of ["", "/history", "/suggest"]) {
@@ -4046,7 +5699,7 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   assert.doesNotMatch(html, /id="article-key-sources"/);
   assert.doesNotMatch(html, /<br\s*\/><br\s*\/>/);
   assert.match(html, /class="open-question-list"/);
-  assert.match(html, /<details><summary><span>01<\/span><strong>Can brain Cu be restored without raising peripheral levels\?/);
+  assert.match(html, /<details><summary><span>01<\/span><strong>Can brain copper \(Cu\) be restored without raising peripheral levels\?/);
 
   const enrichedStart = html.indexOf("Enriched taxa");
   const depletedStart = html.indexOf("Depleted taxa");
@@ -4213,11 +5866,11 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(explore, /href="\/clusters"/);
 
   assert.match(readiness, /Every route accounted for/);
-  assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
-  assert.match(readiness, /817[\s\S]{0,110}records[\s\S]{0,110}710[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /47 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
+  assert.match(readiness, /822[\s\S]{0,110}records[\s\S]{0,110}715[\s\S]{0,80}canonical article routes/);
   assert.match(
     readiness,
-    new RegExp(`${Object.keys(articleMediaRegistry).length} of 710 canonical article routes currently have reviewed`),
+    new RegExp(`${Object.keys(articleMediaRegistry).length} of 715 canonical article routes currently have reviewed`),
   );
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
@@ -4227,7 +5880,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /449e8005c315/);
+  assert.match(readiness, /8f8608b6f99c/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -4525,7 +6178,7 @@ test("keeps internal operational records out of the public encyclopedia", async 
 
   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   assert.equal(content._stats.analyses, 4);
-  assert.equal(content._stats.totalPages, 817);
+  assert.equal(content._stats.totalPages, 822);
   assert.ok(!content.pages.some((page) => publicContentExclusionReason(page)));
   assert.equal(publicContentExclusionReason({
     id: "weekly-content-maintenance-2026-06-01",
@@ -4700,10 +6353,10 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "449e8005c3156d1b7943d2cdedd5b4386b9f5703");
+  assert.equal(manifest.source.commit, "8f8608b6f99c8818cae1617aaecc5d2d9760d04a");
   assert.equal(manifest.content.sha256, digest);
-  assert.equal(manifest.content.pages, 817);
-  assert.equal(manifest.content.sources, 1939);
+  assert.equal(manifest.content.pages, 822);
+  assert.equal(manifest.content.sources, 1940);
   assert.equal(manifest.sourceMetadataPolicy.version, 1);
   assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
   assert.equal(manifest.sourceMetadataPolicy.omittedYearCount, 3);
@@ -4714,9 +6367,9 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].year, undefined);
   assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].doi, undefined);
   assert.equal(manifest.publicContentPolicy.version, 3);
-  assert.equal(manifest.publicContentPolicy.excludedCount, 46);
+  assert.equal(manifest.publicContentPolicy.excludedCount, 47);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
-  assert.equal(manifest.editorialNormalization.leadPromotionCount, 343);
+  assert.equal(manifest.editorialNormalization.leadPromotionCount, 340);
   assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
   assert.equal(manifest.editorialStatusPolicy.version, 1);
   assert.equal(manifest.editorialStatusPolicy.sourceCommit, manifest.source.commit);
@@ -4725,13 +6378,14 @@ test("binds generated content to the fetched upstream commit", () => {
   const statusRegistry = readFileSync(new URL("../data/editorial-statuses.json", import.meta.url));
   assert.equal(manifest.editorialStatusPolicy.registrySha256, createHash("sha256").update(statusRegistry).digest("hex"));
   assert.equal(manifest.articleIdentityPolicy.version, 1);
-  assert.equal(manifest.articleIdentityPolicy.aliasCount, 13);
-  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 13);
+  assert.equal(manifest.articleIdentityPolicy.aliasCount, 14);
+  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 14);
   assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 13);
+  assert.equal(manifest.articleIdentityPolicy.canonicalArticleCount, 1);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6447);
-  assert.equal(manifest.audit.recoveredInlineReferences, 349);
+  assert.equal(manifest.audit.generatedReferences, 6499);
+  assert.equal(manifest.audit.recoveredInlineReferences, 348);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
   assert.equal(manifest.audit.invalidSourceYears.length, 0);

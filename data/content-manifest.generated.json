@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-05T12:48:13.068Z",
+  "generatedAt": "2026-09-07T14:49:41.987Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "449e8005c3156d1b7943d2cdedd5b4386b9f5703",
-    "contentGeneratedAt": "2026-09-05T12:48:12.473Z",
+    "commit": "8f8608b6f99c8818cae1617aaecc5d2d9760d04a",
+    "contentGeneratedAt": "2026-09-07T14:49:06.181Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
-    "pages": 817,
-    "sources": 1939
+    "sha256": "d2508890e9405faa0aa14ea543a07060818dcd75587984ca586f9302e4ff48f4",
+    "pages": 822,
+    "sources": 1940
   },
   "sourceMetadataPolicy": {
     "version": 1,
@@ -1176,7 +1176,7 @@
   "publicContentPolicy": {
     "version": 3,
     "minimumAnalysisReferences": 2,
-    "excludedCount": 46,
+    "excludedCount": 47,
     "excludedPages": [
       {
         "id": "adversarial-audit-2026-04-19",
@@ -1281,6 +1281,11 @@
       {
         "id": "link-health-2026-04-19",
         "title": "Link Health Audit — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "link-health-2026-09-07",
+        "title": "Link Health Audit — 2026-09-07",
         "reason": "internal-operational-analysis"
       },
       {
@@ -1411,7 +1416,7 @@
     ]
   },
   "editorialNormalization": {
-    "leadPromotionCount": 343,
+    "leadPromotionCount": 340,
     "leadPromotionSamples": [
       {
         "id": "actinobacteria",
@@ -1517,19 +1522,20 @@
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "449e8005c3156d1b7943d2cdedd5b4386b9f5703",
+    "sourceCommit": "8f8608b6f99c8818cae1617aaecc5d2d9760d04a",
     "registeredCount": 112,
     "appliedRecordCount": 121,
-    "registrySha256": "0159570461bce3be0481441cc70166a2559e70789873c8a790607d8ffcf83064"
+    "registrySha256": "77fd650f03ab0118e4e99c264b7258e2f2e58df0cc5ffae6ce45f1a9f40600b6"
   },
   "articleIdentityPolicy": {
     "version": 1,
-    "reviewedAt": "2026-09-01",
+    "reviewedAt": "2026-09-07",
     "authority": "WikiBiome delegated scientific identity reconciliation",
-    "registrySha256": "c30513bf1bb7cd48bd41a2e640929183cdc8ff7f3ef17f6fc944916527537c96",
-    "aliasCount": 13,
-    "retiredCanonicalCount": 13,
+    "registrySha256": "a2c2f51dbc6c952c87ebe4d8a1a03f76e186e17317fd58312758567b49ea0d09",
+    "aliasCount": 14,
+    "retiredCanonicalCount": 14,
     "canonicalTaxonCount": 13,
+    "canonicalArticleCount": 1,
     "forbiddenPatternCount": 10
   },
   "audit": {
@@ -1600,11 +1606,11 @@
       "type-1-diabetes",
       "type-2-diabetes"
     ],
-    "pagesWithReferences": 763,
-    "generatedReferences": 6447,
-    "pagesWithSourceDrift": 484,
-    "recoveredInlineReferences": 349,
-    "declaredOnlyReferences": 1979,
+    "pagesWithReferences": 768,
+    "generatedReferences": 6499,
+    "pagesWithSourceDrift": 479,
+    "recoveredInlineReferences": 348,
+    "declaredOnlyReferences": 1971,
     "missingSourceMetadataIds": [],
     "resolvedSourceAliasIds": [
       "abraham-2005-drug-therapy-graves",

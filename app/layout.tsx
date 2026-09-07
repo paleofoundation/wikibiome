@@ -6,6 +6,7 @@ import { OrcidAuthFeedback } from "@/app/_components/OrcidAuthFeedback";
 import { WikiFooter } from "@/app/_components/WikiFooter";
 import { publicPageMetadata, SITE_DESCRIPTION, siteIdentityStructuredData } from "@/lib/search-discovery";
 import "./globals.css";
+import "./internal-concept-links.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

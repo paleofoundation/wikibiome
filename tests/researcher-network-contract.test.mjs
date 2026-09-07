@@ -387,7 +387,6 @@ test("publishes only validated researcher portrait formats through a dedicated p
   assert.match(publicPhoto, /x-content-type-options/);
   assert.match(form, /Used by screen readers/);
 });
-
 test("records delivery truth, webhook replay protection, and one-click unsubscribe", () => {
   assert.equal(maskEmail("researcher@example.edu"), "re••••••••@example.edu");
   assert.match(deliveryCopy({ sent: false, reason: "email_not_configured" }, "re•••@example.edu"), /No message was sent/i);

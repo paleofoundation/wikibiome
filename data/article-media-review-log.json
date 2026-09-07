@@ -15389,24 +15389,6 @@
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "metabolites",
-      "controlledIdentifier": "chemical-class-umbrella;duplicate-overlapping-route",
-      "batchId": "mechanisms-082",
-      "reviewedOn": "2026-09-07",
-      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
-      "disposition": "scientific-media-hold",
-      "reason": "Host, microbial, co-metabolic, dietary, and hepatic products are combined with categorical beneficial, toxic, and causal disease labels.",
-      "checkedUrls": [
-        "https://pubmed.ncbi.nlm.nih.gov/24631493/",
-        "https://pubmed.ncbi.nlm.nih.gov/31848305/",
-        "https://pubmed.ncbi.nlm.nih.gov/39702677/",
-        "local:data/content.generated.json#/pages/metabolites",
-        "local:data/content.generated.json#/pages/microbiome-derived-metabolites"
-      ],
-      "requiredResolution": "Reconcile the duplicate route and organize by compound identifier, source/precursor, organism/enzyme evidence, host co-metabolism, matrix, assay, concentration, and validated effect.",
-      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
-    },
-    {
       "pageId": "microbiome-diversity-metrics",
       "controlledIdentifier": "statistical-method-umbrella;no-single-biological-entity",
       "batchId": "mechanisms-082",

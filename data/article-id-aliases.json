@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "reviewedAt": "2026-09-01",
+  "reviewedAt": "2026-09-07",
   "authority": "WikiBiome delegated scientific identity reconciliation",
   "aliases": {
     "akkermansia-mucinicola": "akkermansia-muciniphila",
@@ -15,7 +15,8 @@
     "clostridium-difficile": "clostridioides-difficile",
     "davidiella": "cladosporium",
     "eubacterium-eligens": "lachnospira-eligens",
-    "eubacterium-rectale": "agathobacter-rectalis"
+    "eubacterium-rectale": "agathobacter-rectalis",
+    "metabolites": "microbiome-derived-metabolites"
   },
   "canonicalTaxa": {
     "akkermansia-muciniphila": {
@@ -75,6 +76,12 @@
       "revisionPaths": ["wiki/entities/eubacterium-rectale.md"]
     }
   },
+  "canonicalArticles": {
+    "microbiome-derived-metabolites": {
+      "title": "Microbiome-Derived Metabolites",
+      "revisionPaths": ["wiki/concepts/metabolites.md"]
+    }
+  },
   "retiredCanonicalIds": [
     "akkermansia-mucinicola",
     "allisonella",
@@ -88,7 +95,8 @@
     "clostridium-difficile",
     "davidiella",
     "eubacterium-eligens",
-    "eubacterium-rectale"
+    "eubacterium-rectale",
+    "metabolites"
   ],
   "forbiddenCanonicalTitles": [
     "Akkermansia mucinicola",
@@ -103,7 +111,8 @@
     "Clostridium difficile",
     "Davidiella",
     "Eubacterium eligens",
-    "Eubacterium rectale"
+    "Eubacterium rectale",
+    "Microbial Metabolites"
   ],
   "forbiddenPublicPatterns": [
     "Allisonella hiatal",

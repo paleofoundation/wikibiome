@@ -23,7 +23,6 @@ import {
   getWikiPage,
   normalizeDoi,
   normalizeWikiId,
-  plainText,
   relationshipExplanation,
   resolveRelated,
   wikiStats,
@@ -454,7 +453,7 @@ export function OpenQuestionsSection({ body, citationNumbers, id = "open-questio
       <div className="open-question-list">
         {questions.map((item, index) => (
           <details key={`${item.question}-${index}`}>
-            <summary><span>{String(index + 1).padStart(2, "0")}</span><strong>{plainText(item.question)}</strong><i aria-hidden="true">+</i></summary>
+            <summary><span>{String(index + 1).padStart(2, "0")}</span><strong>{inlineMarkup(item.question, citationNumbers, new Set())}</strong><i aria-hidden="true">+</i></summary>
             <div>{item.answer ? <RichText text={item.answer} citationNumbers={citationNumbers} /> : <p>The current WikiBiome record identifies this as an unresolved evidence gap.</p>}</div>
           </details>
         ))}
