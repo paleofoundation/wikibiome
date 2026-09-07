@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-revisions-126",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "reviewedOn": "2026-09-07",
   "createdOn": "2026-09-07",
   "authorizedParent": "f24a9a880ba66dcdb4079edd4d5e477372c211e7",
@@ -19,7 +19,18 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, scan, histology slide, laboratory result, measured structure, biomarker result, treatment recommendation, or diagnostic image",
     "sourceUse": "Current NLM MeSH, CDC, reviewed UniProtKB, NCBI Bookshelf, PubMed, ExPASy ENZYME, Rhea, PubChem, and ChEBI records supply controlled identity and conservative representation boundaries only; no source image or design is copied."
   },
-  "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "97d3170bc70cd2b321a1f0bfc0cbfb31ff2a3ee2be0371a5596e20503502c526",
+  "controlAcceptedPromptEvidenceSha256": "2bd7d5240b4459bfbf1e11a0b11e588d4567ff39e8ac28c91ea91af3e62c9486",
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "status": "accepted-two-exact-revision-hashes-four-quarantined",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "e3f95b843492afa1bdb2874e052fa91ed7c46c9a",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["beta-glucuronidase", "bile-salt-hydrolase"],
+    "acceptedSourceSha256": ["a01350d6089c58145a7d1eb154a3e04c3980a1206f1349a755132ee52242d19c", "6236f175fe2f85ce368edbe66e0a0c9cbdd8f0142821eabbe4f917d5bc1e5880"],
+    "nonPublishablePageIds": ["bdnf", "biomarkers", "blood-brain-barrier", "butyrate"]
+  },
   "initialAuditCommit": "891af9eabd2c509ce65640d652a9bd5a4a76e088",
   "promptFreezeCommit": "99ae0dbf4f6db949cd80fc26970258f7763b6485",
   "reviewStandard": "Six deterministic disposition-revise records are re-audited against current controlled authorities and their latest literal failures. Every prior source remains immutable and non-public. Exactly one independent call at the stated new revision is permitted per hash-frozen prompt, followed by native-resolution literal-output, prohibited-content, strict safe-field, crop, alpha/opacity, and exact-hash audit.",
@@ -31,7 +42,7 @@
   "failedGenerationCount": 4,
   "quarantinedGenerationCount": 4,
   "revisionCount": 6,
-  "promotionRule": "Only a new-revision output matching its frozen identity, representation boundary, fully opaque flat pale field, exact object counts, and centered 835 by 484 source-safe area may proceed to separate exact-hash Control Tower acceptance. Every prior source remains immutable, rejected, and non-public.",
+  "promotionRule": "Only the exact accepted beta-glucuronidase revision-4 and bile-salt-hydrolase revision-3 source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. All prior sources and the four quarantined Batch 126 sources remain immutable and non-public.",
   "assets": [
     {
       "pageId": "bdnf", "displayName": "BDNF (Brain-Derived Neurotrophic Factor)", "proposedAssetType": "mechanism", "revision": 4,

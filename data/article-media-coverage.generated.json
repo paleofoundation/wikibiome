@@ -493,6 +493,12 @@
         "sha256": "81c484cfc844733e353e2f58cfbc02571eb63949c78b2ddf989a9d1f0b958cd8"
       },
       {
+        "file": "data/article-media-batches/mechanisms-revisions-126.json",
+        "batchId": "mechanisms-revisions-126",
+        "status": "approved-awaiting-promotion",
+        "sha256": "5163c592d86e3f4d2550e20ed887a91f65803d6208f1f54a0293b684ae89c507"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
@@ -787,7 +793,7 @@
     "rejected": 362,
     "revised": 16,
     "scientificHolds": 288,
-    "inReview": 0
+    "inReview": 2
   },
   "categories": [
     {
@@ -14599,14 +14605,12 @@
       "route": "/article/beta-glucuronidase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "rejected",
-      "rejectedMedia": {
-        "batchId": "mechanisms-revisions-125",
-        "reviewedOn": "2026-09-07",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
-        "disposition": "revise",
-        "reason": "The three complete enzyme/reaction-context groups span x=180..1400 and violate the immutable x=250..1285 source-safe field.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups while keeping all foreground and shadow within the strict source-safe field."
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-revisions-126",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-revisions-batch-126/beta-glucuronidase-draft-v4.png",
+        "sha256": "a01350d6089c58145a7d1eb154a3e04c3980a1206f1349a755132ee52242d19c"
       }
     },
     {
@@ -14662,14 +14666,12 @@
       "route": "/article/bile-salt-hydrolase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "rejected",
-      "rejectedMedia": {
-        "batchId": "mechanisms-revisions-125",
-        "reviewedOn": "2026-09-07",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
-        "disposition": "revise",
-        "reason": "The three complete enzyme/reaction-context groups span x=201..1363 and violate the immutable x=250..1285 source-safe field.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the generic enzyme, conjugated-context, and product-context groups while keeping all foreground inside the strict source-safe field."
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-revisions-126",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-revisions-batch-126/bile-salt-hydrolase-draft-v3.png",
+        "sha256": "6236f175fe2f85ce368edbe66e0a0c9cbdd8f0142821eabbe4f917d5bc1e5880"
       }
     },
     {
