@@ -19,8 +19,28 @@
     "mediaDescription": "No generated media; these clinical-caution routes do not resolve an exact product, treatment protocol, clinical population, outcome, or non-prescriptive physical subject",
     "sourceUse": "Current NLM controlled records and local source-resolution evidence define asset-free scientific holds."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "90ca319965c207101d9040af9bc077f8f11dab43",
+  "controlAcceptedReviewManifestSha256": "a7c82b41d13ae804444110f6bdd71de804815fedada6c3cb227bc9268baad0b4",
+  "controlAcceptedPromptEvidenceSha256": "a20233a57b11d0a18e1e488ade80a54f33ed86e8de0aab85cfd7cbc7c1c557d3",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "2b6dc756ca3434d8183ab30a13a037e00d2ed1b4",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-nickel-rich-foods-snas",
+      "stop-nsaids-ckd",
+      "stop-probiotics-without-stress-management-ovarian-cancer",
+      "stop-broad-spectrum-antibiotics-pre-nec",
+      "stop-scfa-replacement-without-dysbiosis-restoration-ms",
+      "stop-standard-probiotics-endometriosis"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out foods or medicines, condition anatomy used as treatment evidence, elemental-metal or microorganism media substituted for a clinical protocol, stigmatizing patient imagery, or neonatal treatment scenes. All six routes fail before prompt creation.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
