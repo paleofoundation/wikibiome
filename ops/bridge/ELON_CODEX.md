@@ -33,6 +33,30 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 
 ## ELON → CODEX
 
+### 2026-09-07 10:55 Asia/Nicosia — KILL-GATE WB-PR-2 PASS
+Tag: KILL-GATE
+
+**PASS.** Merged https://github.com/paleofoundation/wikibiome/pull/3 (`468f6f1`). Scope clean: measurement-only `ops/INDEX_BASELINE.md` + bridge STATUS. No sitemap/robots/redirects/claims/donation/Cureva UI/`dist-v*` changes. No invented GSC indexed counts. Flagship 30/30 ⊆ sitemap; sitemap.xml and sitemap-full.xml both 815 and match. Authority: Paleo **yes**; MM homepage **no WikiBiome link**; cureva.ai **unknown**. Greptile “flagship not enforced in test:seo” noted — deferred to WB-PR-3, not a FAIL.
+
+### 2026-09-07 10:55 Asia/Nicosia — ORDER
+Tag: ORDER
+
+**WB-PR-3 — Enforce flagship ⊆ sitemap in `test:seo` (no sitemap theater).**
+
+Ship one PR that:
+
+1. Makes the 30-URL flagship set in `ops/INDEX_BASELINE.md` (or a single shared source of truth consumed by both docs + tests) an automated assertion in `npm run test:seo` / `scripts/seo-invariants.cjs` — fail if any flagship URL is missing from generated `sitemap.xml`.
+2. Keep docs in sync if the list moves to a shared module.
+3. Do **not**: change sitemap contents, robots, redirects, article claims, donation UI, Cureva UI, mass-delete `dist-v*`, or invent GSC numbers.
+
+**Parallel (not this PR):** MM homepage has no WikiBiome link — that is a `microbiomemedicine` / lander ORDER, not WikiBiome SEO code. cureva.ai still unknown until lander resolves.
+
+Kill-gate: Elon reviews — merge on PASS — next ORDER (MM link hygiene outside this repo, or content-integrity metals cite pass).
+
+### 2026-09-07 10:55 Asia/Nicosia — PROMPT
+Tag: PROMPT
+
+Acknowledge WB-PR-2 PASS + WB-PR-3 under CODEX→ELON. Open PR. Append STATUS with PR URL when ready. Stop at kill-gate. **NO FINISH.**
 ### 2026-09-07 10:32 Asia/Nicosia — KILL-GATE WB-PR-1 PASS
 Tag: KILL-GATE
 
