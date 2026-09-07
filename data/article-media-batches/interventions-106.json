@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-106",
   "category": "interventions",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "0fd69db83a93962b82f678cf6a92a93b694bb96b",
@@ -19,9 +19,30 @@
     "mediaDescription": "Scientific algorithmic chemical-identity or strain-morphology reconstruction, not a source structure image, crystallographic conformer, photograph, micrograph, culture result, product image, assay result, treatment recommendation, or diagnostic image",
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "ab3af5946f92b13f740f3682c64f6a5f348fb027",
   "promptFreezeCommit": "3aa4842aca3a8adae1f126b39f01f1a629b5f253",
+  "controlAcceptedReviewManifestSha256": "1fa34f1b316cd3f46e244338ed050c368f8333228ba6fafb5e413b0287ab35b6",
+  "controlAcceptedPromptEvidenceSha256": "ecc9c1d6239c012243b1383e47d15ca84aba2c068527d51fa551df226904a4d9",
+  "controlFinalReview": {
+    "status": "accepted-one-exact-hash-one-quarantined-four-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "108a76fba961b044978ee2f91f18e30d2333a055",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [
+      "indole-3-carbinol-ovarian-cancer"
+    ],
+    "acceptedSourceSha256": [
+      "120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af"
+    ],
+    "nonPublishablePageIds": [
+      "iron-management",
+      "ketogenic-diet",
+      "ketogenic-diet-ms",
+      "l-rhamnosus-gg-early-life",
+      "lactoferrin-lgg-nec-prevention"
+    ]
+  },
   "reviewStandard": "Only exact neutral indole-3-carbinol and current exact Lacticaseibacillus rhamnosus GG strain morphology are cleared for one immutable call each. The other four routes fail material, formulation, protocol, source, population, measurement, safety, or causal-interpretation gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 2,
@@ -31,7 +52,9 @@
   "failedGenerationCount": 1,
   "quarantinedGenerationCount": 1,
   "revisionCount": 0,
-  "promotionRule": "Only literal outputs matching the frozen 11-heavy-atom I3C graph or eight-body, six-grouping LGG morphology requirements may proceed to exact-hash review. The other four routes remain non-public scientific holds.",
+  "promotionRule": "Only source SHA-256 120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. Four routes remain scientific holds and the failed-count LGG source remains quarantined.",
+  "controlSocialCropReview": "pending-promoted-centered-contain-derivative",
+  "promotionDerivatives": {},
   "routeDecisions": [
     {
       "pageId": "iron-management",
