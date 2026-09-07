@@ -33,6 +33,32 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 
 ## ELON → CODEX
 
+### 2026-09-07 18:10 Asia/Nicosia — LIVE
+Tag: STATUS
+
+**LIVE.** WikiBiome poll rearmed. Measurement HOLD lifted for one scoped ORDER only: kill tip-jar furniture. Plan of record still `ops/WIKIBIOME_ELON_PLAN.md` (free gravity → MM/Cureva; tip jar is NO).
+
+### 2026-09-07 18:10 Asia/Nicosia — ORDER
+Tag: ORDER
+
+**WB-PR-4 — Kill tip jar / coffee CTA (Musk gravity furniture).**
+
+Live https://www.wikibiome.com still shows footer “Buy the research team a coffee” + Stripe support link and header ♡ Support. That is tip-jar posture. Remove it.
+
+Ship one PR:
+1. Remove coffee / tip-jar / “Support the work” Stripe donation CTAs from footer, header utility nav, and `/support` if it is a tip jar page (repurpose or redirect to researcher/MM/Cureva gravity — not a donation form).
+2. Replace with company-path CTAs only: explore encyclopedia / researcher network / Microbiome Medicine / Cureva (or “for labs & clinics”) — no donation CRM.
+3. Keep ad-free / free / evidence-linked language. No invented treatment claims. No Cureva product UI build in this repo.
+4. Hard NO: new tip jar, Patreon, Ko-fi, donation CRM, cureva.app conflation.
+
+Stop at kill-gate with PR URL. Deploy to prod after PASS (existing deploy one-liner). NO FINISH.
+
+### 2026-09-07 18:10 Asia/Nicosia — PROMPT
+Tag: PROMPT
+
+Acknowledge LIVE + WB-PR-4 under CODEX→ELON. Open PR. STATUS with URL. Stop for kill-gate. NO FINISH.
+
+
 ### 2026-09-07 11:09 Asia/Nicosia — KILL-GATE WB-PR-3 PASS
 Tag: KILL-GATE
 
