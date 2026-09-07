@@ -12,6 +12,26 @@
   "controlReviewRequired": false,
   "initialAuditCommit": "249ed3bffcea5bfa8e56061b991eb1131630daf9",
   "reviewStandard": "The six queued routes failed the pre-generation identity and scope gate. They received no marked prompt, no built-in generation call, and no raster. Current NLM, UniProt, RCSB, and article records were checked against each route; the exact scientific state required before generation is preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "a5e323da2c0f8e3db04e177924161feec5d3e85cc2aeaadc37a49684e810ce83",
+  "controlAcceptedPromptEvidenceSha256": "afe5fb3bd7b52e26e32c3944ad3f35bae6fc6663de9d1bb7ef88525936ae8a2f",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "8c6c2617f288579abd36680af2d56a64be24af70",
+    "reviewer": "WikiBiome Control Tower scientific and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "innate-immunity",
+      "inter-kingdom-metal-shielding",
+      "lactoferrin",
+      "lipocalin-2",
+      "metal-homeostasis",
+      "metal-dependent-virulence"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "routeDecisionCount": 6,
   "candidateCount": 0,
   "scientificHoldCount": 6,
