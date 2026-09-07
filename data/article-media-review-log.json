@@ -17685,6 +17685,104 @@
       ],
       "requiredResolution": "A future separately authorized revision prompt and new call must reproduce exactly 20-plus-2 and 22-plus-2 heavy-atom centers, five and six all-cis chain double bonds, two separate complete graphs, an encoded opaque uniform pale cool field, zero glow or haze, and broad crop-safe margins.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "prebiotics-inulin-fructo-oligosaccharide",
+      "controlledIdentifier": "MeSH:D056692;Inulin-MeSH:D007444;Fructans-MeSH:D005630;PCOS-MeSH:D011085;zero-resolvable-sources",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source PCOS route does not select exact inulin or fructooligosaccharide composition, molecular distribution, source, ratio, product, protocol, population, assay, or endpoint.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D056692",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007444",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D005630",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011085",
+        "local:data/content.generated.json#/pages/prebiotics-inulin-fructo-oligosaccharide"
+      ],
+      "requiredResolution": "Link direct evidence and choose exact ingredient specifications, chain-length distributions and linkages, source and processing, ratio, purity, formulation, dose, PCOS population, comparator, adherence, specimen, assay, time point, endpoint, and safety boundary.",
+      "routingImpact": "The route remains uncovered and asset-free until exact ingredients and a directly sourced protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotic-combination-ckd",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;CKD-MeSH:D051436;multi-organism-product-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route lists three organism labels without strain accessions, per-strain counts, product composition, storage, CKD stage, dose, comparator, assay, or endpoint.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051436",
+        "local:data/content.generated.json#/pages/probiotic-combination-ckd"
+      ],
+      "requiredResolution": "Link direct evidence and recover current taxon names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, CKD stage and population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until an exact probiotic product and CKD protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotics-general",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;multi-genus-multi-strain-multi-product-class;one-resolvable-source",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The class page spans many bacterial and yeast taxa, products, populations, doses, mechanisms, and safety states; its sole resolved source addresses strain 35624 taxonomy rather than a representative probiotic identity.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "local:data/content.generated.json#/pages/probiotics-general",
+        "local:data/content.generated.json#/sourceLookup/altmann-2016-bifidobacterium-longum-35624-genome"
+      ],
+      "requiredResolution": "Adopt a governed class-level visual taxonomy or scope the route to a specific product with current taxon names, exact strain accessions, counts, formulation, storage, dose, population, comparator, assay, endpoint, evidence, and safety boundaries.",
+      "routingImpact": "The route remains uncovered and asset-free until one honest class-level or product-level visual state passes a new audit."
+    },
+    {
+      "pageId": "probiotics-lactobacillus-bifidobacterium",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;PCOS-MeSH:D011085;four-species-level-labels-without-strains;zero-resolvable-sources",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source PCOS route names four organisms but no current strain accessions, viable-count allocation, product, formulation, storage, dose, comparator, assay, endpoint, or safety state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011085",
+        "local:data/content.generated.json#/pages/probiotics-lactobacillus-bifidobacterium"
+      ],
+      "requiredResolution": "Link direct evidence and recover current organism names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, PCOS population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until an exact composition and directly sourced PCOS protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotics-asd-dysbiosis",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;ASD-MeSH:D000067877;five-malformed-local-source-identifiers;multi-organism-protocol-unspecified",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "All five declared local source identifiers retain erroneous `.md` suffixes and fail normal resolution; the route also spans incompletely identified taxa, variable products and doses, heterogeneous outcomes, and speculative mechanisms.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000067877",
+        "local:data/content.generated.json#/pages/probiotics-asd-dysbiosis"
+      ],
+      "requiredResolution": "Correct all source identifiers, reconcile claims to direct evidence, and select current taxon names, exact strain accessions and counts, product and lot, formulation, storage, dose, ASD population, comparator, adherence, specimen, assay, time point, endpoint, non-stigmatizing visual scope, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until source resolution and one non-stigmatizing, reproducible protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotics-thyroid",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;Hashimoto-MeSH:D050031;multi-organism-product-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source Hashimoto route uses only broad Lactobacillus and Bifidobacterium labels without strains, counts, product, storage, dose, disease state, comparator, assay, endpoint, or safety conditions.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D050031",
+        "local:data/content.generated.json#/pages/probiotics-thyroid"
+      ],
+      "requiredResolution": "Link direct evidence and select current taxon names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, Hashimoto disease state, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until an exact probiotic composition and Hashimoto protocol pass a new audit."
     }
   ],
   "revisedAssets": [

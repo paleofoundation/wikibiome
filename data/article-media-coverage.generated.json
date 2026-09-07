@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "22191c5abe09b5619b20a38f42d62f393836640a37fd8fe974f46c53f3d5a0f2",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f0d5067a6421135485028ef3fa5ba3c0b5efa9253131aae4c7ca0e1db8e5e3e8",
+    "reviewLogSha256": "5717423fb18262fc223b14d463fa248364f08743f832a662cb45773a6e961668",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -161,6 +161,12 @@
         "batchId": "interventions-109",
         "status": "reviewed",
         "sha256": "63f8f07e4e8bd5369b135fa676bf149255e9ac59edc39628eb77f742905e075f"
+      },
+      {
+        "file": "data/article-media-batches/interventions-110.json",
+        "batchId": "interventions-110",
+        "status": "awaiting-control-review",
+        "sha256": "579176fa2669159c313e25ed46b64407fec7a7fc2679207b17287ce0318cf664"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -688,9 +694,9 @@
     "total": 710,
     "completed": 372,
     "remaining": 338,
-    "rejected": 280,
+    "rejected": 286,
     "revised": 12,
-    "scientificHolds": 219,
+    "scientificHolds": 225,
     "inReview": 0
   },
   "categories": [
@@ -5571,6 +5577,104 @@
       ],
       "requiredResolution": "A future separately authorized revision prompt and new call must reproduce exactly 20-plus-2 and 22-plus-2 heavy-atom centers, five and six all-cis chain double bonds, two separate complete graphs, an encoded opaque uniform pale cool field, zero glow or haze, and broad crop-safe margins.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "prebiotics-inulin-fructo-oligosaccharide",
+      "controlledIdentifier": "MeSH:D056692;Inulin-MeSH:D007444;Fructans-MeSH:D005630;PCOS-MeSH:D011085;zero-resolvable-sources",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source PCOS route does not select exact inulin or fructooligosaccharide composition, molecular distribution, source, ratio, product, protocol, population, assay, or endpoint.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D056692",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007444",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D005630",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011085",
+        "local:data/content.generated.json#/pages/prebiotics-inulin-fructo-oligosaccharide"
+      ],
+      "requiredResolution": "Link direct evidence and choose exact ingredient specifications, chain-length distributions and linkages, source and processing, ratio, purity, formulation, dose, PCOS population, comparator, adherence, specimen, assay, time point, endpoint, and safety boundary.",
+      "routingImpact": "The route remains uncovered and asset-free until exact ingredients and a directly sourced protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotic-combination-ckd",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;CKD-MeSH:D051436;multi-organism-product-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route lists three organism labels without strain accessions, per-strain counts, product composition, storage, CKD stage, dose, comparator, assay, or endpoint.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051436",
+        "local:data/content.generated.json#/pages/probiotic-combination-ckd"
+      ],
+      "requiredResolution": "Link direct evidence and recover current taxon names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, CKD stage and population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until an exact probiotic product and CKD protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotics-general",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;multi-genus-multi-strain-multi-product-class;one-resolvable-source",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The class page spans many bacterial and yeast taxa, products, populations, doses, mechanisms, and safety states; its sole resolved source addresses strain 35624 taxonomy rather than a representative probiotic identity.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "local:data/content.generated.json#/pages/probiotics-general",
+        "local:data/content.generated.json#/sourceLookup/altmann-2016-bifidobacterium-longum-35624-genome"
+      ],
+      "requiredResolution": "Adopt a governed class-level visual taxonomy or scope the route to a specific product with current taxon names, exact strain accessions, counts, formulation, storage, dose, population, comparator, assay, endpoint, evidence, and safety boundaries.",
+      "routingImpact": "The route remains uncovered and asset-free until one honest class-level or product-level visual state passes a new audit."
+    },
+    {
+      "pageId": "probiotics-lactobacillus-bifidobacterium",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;PCOS-MeSH:D011085;four-species-level-labels-without-strains;zero-resolvable-sources",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source PCOS route names four organisms but no current strain accessions, viable-count allocation, product, formulation, storage, dose, comparator, assay, endpoint, or safety state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011085",
+        "local:data/content.generated.json#/pages/probiotics-lactobacillus-bifidobacterium"
+      ],
+      "requiredResolution": "Link direct evidence and recover current organism names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, PCOS population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until an exact composition and directly sourced PCOS protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotics-asd-dysbiosis",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;ASD-MeSH:D000067877;five-malformed-local-source-identifiers;multi-organism-protocol-unspecified",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "All five declared local source identifiers retain erroneous `.md` suffixes and fail normal resolution; the route also spans incompletely identified taxa, variable products and doses, heterogeneous outcomes, and speculative mechanisms.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000067877",
+        "local:data/content.generated.json#/pages/probiotics-asd-dysbiosis"
+      ],
+      "requiredResolution": "Correct all source identifiers, reconcile claims to direct evidence, and select current taxon names, exact strain accessions and counts, product and lot, formulation, storage, dose, ASD population, comparator, adherence, specimen, assay, time point, endpoint, non-stigmatizing visual scope, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until source resolution and one non-stigmatizing, reproducible protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotics-thyroid",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;Hashimoto-MeSH:D050031;multi-organism-product-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-110",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source Hashimoto route uses only broad Lactobacillus and Bifidobacterium labels without strains, counts, product, storage, dose, disease state, comparator, assay, endpoint, or safety conditions.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D050031",
+        "local:data/content.generated.json#/pages/probiotics-thyroid"
+      ],
+      "requiredResolution": "Link direct evidence and select current taxon names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, Hashimoto disease state, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until an exact probiotic composition and Hashimoto protocol pass a new audit."
     }
   ],
   "revisedAssets": [
@@ -5725,55 +5829,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 635,
-      "id": "prebiotics-inulin-fructo-oligosaccharide",
-      "title": "Prebiotics (Inulin + FOS) for PCOS",
-      "route": "/article/prebiotics-inulin-fructo-oligosaccharide",
+      "queuePosition": 641,
+      "id": "probiotics-ppd",
+      "title": "Probiotics for Postpartum Depression",
+      "route": "/article/probiotics-ppd",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 636,
-      "id": "probiotic-combination-ckd",
-      "title": "Probiotic Combination for CKD",
-      "route": "/article/probiotic-combination-ckd",
+      "queuePosition": 642,
+      "id": "probiotics-with-ppi-gerd",
+      "title": "Probiotics with PPI Therapy for GERD",
+      "route": "/article/probiotics-with-ppi-gerd",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 637,
-      "id": "probiotics-general",
-      "title": "Probiotics (General)",
-      "route": "/article/probiotics-general",
+      "queuePosition": 643,
+      "id": "quercetin",
+      "title": "Quercetin (Cross-Condition)",
+      "route": "/article/quercetin",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 638,
-      "id": "probiotics-lactobacillus-bifidobacterium",
-      "title": "Probiotics (Lactobacillus + Bifidobacterium) for PCOS",
-      "route": "/article/probiotics-lactobacillus-bifidobacterium",
+      "queuePosition": 644,
+      "id": "resveratrol",
+      "title": "Resveratrol",
+      "route": "/article/resveratrol",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 639,
-      "id": "probiotics-asd-dysbiosis",
-      "title": "Probiotics for ASD Dysbiosis",
-      "route": "/article/probiotics-asd-dysbiosis",
+      "queuePosition": 645,
+      "id": "selenium-supplementation",
+      "title": "Selenium Supplementation",
+      "route": "/article/selenium-supplementation",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 640,
-      "id": "probiotics-thyroid",
-      "title": "Probiotics for Hashimoto's Thyroiditis",
-      "route": "/article/probiotics-thyroid",
+      "queuePosition": 646,
+      "id": "selenium-supplementation-200mcg",
+      "title": "Selenium Supplementation (200mcg/day) for Hashimoto's Thyroiditis",
+      "route": "/article/selenium-supplementation-200mcg",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
@@ -18685,7 +18789,13 @@
       "route": "/article/prebiotics-inulin-fructo-oligosaccharide",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source PCOS route does not select exact inulin or fructooligosaccharide composition, molecular distribution, source, ratio, product, protocol, population, assay, or endpoint.",
+        "requiredResolution": "Link direct evidence and choose exact ingredient specifications, chain-length distributions and linkages, source and processing, ratio, purity, formulation, dose, PCOS population, comparator, adherence, specimen, assay, time point, endpoint, and safety boundary."
+      }
     },
     {
       "queuePosition": 636,
@@ -18698,7 +18808,13 @@
       "route": "/article/probiotic-combination-ckd",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source route lists three organism labels without strain accessions, per-strain counts, product composition, storage, CKD stage, dose, comparator, assay, or endpoint.",
+        "requiredResolution": "Link direct evidence and recover current taxon names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, CKD stage and population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions."
+      }
     },
     {
       "queuePosition": 637,
@@ -18711,7 +18827,13 @@
       "route": "/article/probiotics-general",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The class page spans many bacterial and yeast taxa, products, populations, doses, mechanisms, and safety states; its sole resolved source addresses strain 35624 taxonomy rather than a representative probiotic identity.",
+        "requiredResolution": "Adopt a governed class-level visual taxonomy or scope the route to a specific product with current taxon names, exact strain accessions, counts, formulation, storage, dose, population, comparator, assay, endpoint, evidence, and safety boundaries."
+      }
     },
     {
       "queuePosition": 638,
@@ -18724,7 +18846,13 @@
       "route": "/article/probiotics-lactobacillus-bifidobacterium",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source PCOS route names four organisms but no current strain accessions, viable-count allocation, product, formulation, storage, dose, comparator, assay, endpoint, or safety state.",
+        "requiredResolution": "Link direct evidence and recover current organism names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, PCOS population, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions."
+      }
     },
     {
       "queuePosition": 639,
@@ -18737,7 +18865,13 @@
       "route": "/article/probiotics-asd-dysbiosis",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "All five declared local source identifiers retain erroneous `.md` suffixes and fail normal resolution; the route also spans incompletely identified taxa, variable products and doses, heterogeneous outcomes, and speculative mechanisms.",
+        "requiredResolution": "Correct all source identifiers, reconcile claims to direct evidence, and select current taxon names, exact strain accessions and counts, product and lot, formulation, storage, dose, ASD population, comparator, adherence, specimen, assay, time point, endpoint, non-stigmatizing visual scope, and safety exclusions."
+      }
     },
     {
       "queuePosition": 640,
@@ -18750,7 +18884,13 @@
       "route": "/article/probiotics-thyroid",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source Hashimoto route uses only broad Lactobacillus and Bifidobacterium labels without strains, counts, product, storage, dose, disease state, comparator, assay, endpoint, or safety conditions.",
+        "requiredResolution": "Link direct evidence and select current taxon names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, Hashimoto disease state, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions."
+      }
     },
     {
       "queuePosition": 641,
