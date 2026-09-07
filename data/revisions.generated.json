@@ -1,17 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T08:53:14.532Z",
+  "generatedAt": "2026-09-07T09:17:30.501Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "bea385a8caf525b177dc1a14e1ce73fbcdc8d9a1",
+  "sourceCommit": "64a95e9c30a288aa382990c7c2659af53b366935",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 3782,
+  "revisions": 3989,
   "histories": {
     "acidaminococcus": {
       "paths": [
         "wiki/entities/acidaminococcus.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/acidaminococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -62,6 +71,15 @@
         "wiki/entities/acinetobacter.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/acinetobacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -325,6 +343,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/adlercreutzia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -479,6 +506,15 @@
         "wiki/entities/akkermansia-muciniphila.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/akkermansia-muciniphila.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -872,6 +908,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -1039,6 +1084,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/anaerostipes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -1125,6 +1179,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/antimony.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1149,6 +1212,15 @@
         "wiki/entities/anxiety.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/anxiety.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -1210,6 +1282,15 @@
         "wiki/entities/arsenic.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/arsenic.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -1648,6 +1729,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/bacteroides-caccae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1858,6 +1948,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/bacteroides-uniformis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -2034,6 +2133,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/bacteroides.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2058,6 +2166,15 @@
         "wiki/entities/bacteroidetes.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/bacteroidetes.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -2286,6 +2403,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/bifidobacterium-bifidum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2334,6 +2460,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/bifidobacterium-longum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -2376,6 +2511,15 @@
         "wiki/entities/bifidobacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/bifidobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -2543,6 +2687,15 @@
         "wiki/entities/bipolar-disorder.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/bipolar-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -2736,6 +2889,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/borrelia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2769,6 +2931,15 @@
         "wiki/entities/breast-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/breast-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -2946,6 +3117,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/burkholderiales.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2961,6 +3141,15 @@
         "wiki/entities/butyricicoccus.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/butyricicoccus.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -3004,6 +3193,15 @@
         "wiki/entities/butyricimonas.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/butyricimonas.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -3099,6 +3297,15 @@
         "wiki/entities/cadmium.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/cadmium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -3672,6 +3879,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/cardiovascular-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -3805,15 +4021,6 @@
           "path": "wiki/entities/cardiovascular-disease.md",
           "additions": 9,
           "deletions": 7
-        },
-        {
-          "hash": "cce0a2396516068c7b00eeb1c46ee40d1d671665",
-          "date": "2026-04-10T15:45:50+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-10 15:45",
-          "path": "wiki/entities/cardiovascular-disease.md",
-          "additions": 6,
-          "deletions": 2
         }
       ]
     },
@@ -3847,6 +4054,15 @@
         "wiki/entities/celiac-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/celiac-disease.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -3936,6 +4152,15 @@
         "wiki/entities/cerebral-palsy.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/cerebral-palsy.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -4111,6 +4336,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/cholestasis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -4135,6 +4369,15 @@
         "wiki/entities/christensenellaceae.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/christensenellaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -4169,6 +4412,15 @@
         "wiki/entities/chromium.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/chromium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -4285,6 +4537,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/chronic-fatigue-syndrome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -4346,6 +4607,15 @@
         "wiki/entities/chronic-kidney-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -4488,6 +4758,15 @@
         "wiki/entities/cirrhosis.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/cirrhosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -4645,6 +4924,15 @@
         "wiki/entities/clostridia.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/clostridia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -5199,6 +5487,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/colorectal-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -5332,15 +5629,6 @@
           "path": "wiki/entities/colorectal-cancer.md",
           "additions": 10,
           "deletions": 8
-        },
-        {
-          "hash": "cce0a2396516068c7b00eeb1c46ee40d1d671665",
-          "date": "2026-04-10T15:45:50+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-10 15:45",
-          "path": "wiki/entities/colorectal-cancer.md",
-          "additions": 4,
-          "deletions": 0
         }
       ]
     },
@@ -5349,6 +5637,15 @@
         "wiki/entities/copper.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/copper.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -5447,6 +5744,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/coprococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -5535,6 +5841,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/coronary-artery-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -5612,6 +5927,15 @@
         "wiki/entities/crohns-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/crohns-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -5746,15 +6070,6 @@
           "path": "wiki/entities/crohns-disease.md",
           "additions": 11,
           "deletions": 9
-        },
-        {
-          "hash": "cce0a2396516068c7b00eeb1c46ee40d1d671665",
-          "date": "2026-04-10T15:45:50+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-10 15:45",
-          "path": "wiki/entities/crohns-disease.md",
-          "additions": 4,
-          "deletions": 0
         }
       ]
     },
@@ -5842,6 +6157,15 @@
         "wiki/entities/cystic-fibrosis.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/cystic-fibrosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -6142,6 +6466,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/dermatitis-herpetiformis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -6273,6 +6606,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/desulfovibrionales.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -6333,6 +6675,15 @@
         "wiki/entities/diabetic-kidney-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/diabetic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -6489,6 +6840,15 @@
         "wiki/entities/dopamine.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/dopamine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -7207,6 +7567,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/epilepsy.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -7250,6 +7619,15 @@
         "wiki/entities/erectile-dysfunction.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/erectile-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -7644,6 +8022,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/faecalibacterium-prausnitzii.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -7791,6 +8178,15 @@
         "wiki/entities/female-infertility.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/female-infertility.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -7987,6 +8383,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/finegoldia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -8070,6 +8475,15 @@
         "wiki/entities/flavonifractor.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/flavonifractor.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -8418,6 +8832,15 @@
         "wiki/entities/fusobacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/fusobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -9077,6 +9500,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/gestational-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -9322,6 +9754,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/haemophilus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -9489,6 +9930,15 @@
         "wiki/entities/helicobacter-hepaticus.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/helicobacter-hepaticus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -9665,6 +10115,15 @@
         "wiki/entities/hepatitis.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/hepatitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -9863,6 +10322,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/huntingtons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -9887,6 +10355,15 @@
         "wiki/entities/hypertension.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/hypertension.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -10301,6 +10778,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/iodine.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -10379,6 +10865,15 @@
         "wiki/entities/iron.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/iron.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -10651,6 +11146,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/lachnobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -10726,6 +11230,15 @@
         "wiki/entities/lachnospira.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/lachnospira.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -11336,6 +11849,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/lead.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -11580,6 +12102,15 @@
         "wiki/entities/long-covid.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/long-covid.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -11870,6 +12401,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/manganese.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -12035,6 +12575,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/megasphaera.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -12068,6 +12617,15 @@
         "wiki/entities/mercury.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/mercury.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -12156,6 +12714,15 @@
         "wiki/entities/metformin.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/metformin.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -12279,6 +12846,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/methanobrevibacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -12373,6 +12949,15 @@
         "wiki/entities/migraine.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/migraine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -12503,6 +13088,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/morganella-morganii.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -12580,6 +13174,15 @@
         "wiki/entities/multiple-sclerosis.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/multiple-sclerosis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -12714,15 +13317,6 @@
           "path": "wiki/entities/multiple-sclerosis.md",
           "additions": 2,
           "deletions": 0
-        },
-        {
-          "hash": "ef7fa013a793c2bb580ddcb6f0424f870181fbbe",
-          "date": "2026-04-09T21:51:02+03:00",
-          "author": "Karen Pendergrass",
-          "subject": "WikiBiome v7 — interactive microbiome metallomics encyclopedia",
-          "path": "wiki/entities/multiple-sclerosis.md",
-          "additions": 125,
-          "deletions": 0
         }
       ]
     },
@@ -12835,6 +13429,15 @@
         "wiki/entities/mycoplasma.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/mycoplasma.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -13117,6 +13720,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/nickel.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -13250,15 +13862,6 @@
           "path": "wiki/entities/nickel.md",
           "additions": 0,
           "deletions": 1
-        },
-        {
-          "hash": "4f3cc0ecd5270611194ddcef6e22e7f33566e61a",
-          "date": "2026-04-13T13:01:25+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "wiki: bulk entity upgrades, new article pages, and site regeneration",
-          "path": "wiki/entities/nickel.md",
-          "additions": 6,
-          "deletions": 0
         }
       ]
     },
@@ -13311,6 +13914,15 @@
         "wiki/entities/obesity.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/obesity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -13445,15 +14057,6 @@
           "path": "cureva/signatures/obesity.md",
           "additions": 14,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/obesity.md",
-          "additions": 21,
-          "deletions": 9
         }
       ]
     },
@@ -13462,6 +14065,15 @@
         "wiki/entities/odoribacter.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/odoribacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -13542,6 +14154,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/olsenella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "7e9ce596d185e958af54a5fff28257f9ea0ac211",
           "date": "2026-09-01T13:19:39+03:00",
           "author": "Karen Pendergrass",
@@ -13575,6 +14196,15 @@
         "wiki/entities/oscillibacter.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/oscillibacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -13724,6 +14354,15 @@
         "wiki/entities/oscillospirales.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/oscillospirales.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -14140,6 +14779,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/parabacteroides-distasonis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -14173,6 +14821,15 @@
         "wiki/entities/parabacteroides.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/parabacteroides.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -14349,6 +15006,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -14482,15 +15148,6 @@
           "path": "wiki/entities/parkinsons-disease.md",
           "additions": 6,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "additions": 13,
-          "deletions": 3
         }
       ]
     },
@@ -14668,6 +15325,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/pcos.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -14801,15 +15467,6 @@
           "path": "wiki/entities/pcos.md",
           "additions": 8,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/pcos.md",
-          "additions": 13,
-          "deletions": 1
         }
       ]
     },
@@ -14818,6 +15475,15 @@
         "wiki/entities/pelvic-inflammatory-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/pelvic-inflammatory-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -15235,6 +15901,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/platinum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -15278,6 +15953,15 @@
         "wiki/entities/pmdd.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/pmdd.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -15612,6 +16296,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/postpartum-depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -15736,6 +16429,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/premature-ovarian-insufficiency.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -15778,6 +16480,15 @@
         "wiki/entities/prevotella-copri.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/prevotella-copri.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -16335,6 +17046,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/psoriasis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -16448,6 +17168,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/ralstonia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -16463,6 +17192,15 @@
         "wiki/entities/rheumatoid-arthritis.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/rheumatoid-arthritis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -16570,6 +17308,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/rikenella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -16619,6 +17366,15 @@
         "wiki/entities/roseburia.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/roseburia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -17086,6 +17842,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/ruminococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -17165,6 +17930,15 @@
         "wiki/interventions/saccharomyces-boulardii.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/saccharomyces-boulardii.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -17535,6 +18309,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/schizophrenia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -17813,6 +18596,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/serotonin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -17993,6 +18785,15 @@
         "wiki/entities/shigella.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/shigella.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -18519,6 +19320,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/streptococcus-salivarius.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -18866,6 +19676,15 @@
         "wiki/entities/thallium.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/thallium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -19217,6 +20036,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/type-1-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -19323,6 +20151,15 @@
         "wiki/entities/type-2-diabetes.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/type-2-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -19697,6 +20534,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/veillonella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -19894,6 +20740,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/entities/zinc.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -20011,6 +20866,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/acetate.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20106,6 +20970,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/ahr.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -20185,6 +21058,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/allopregnanolone.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -20218,6 +21100,15 @@
         "wiki/concepts/alpha-klotho.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/alpha-klotho.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -20270,6 +21161,15 @@
         "wiki/concepts/alpha-synuclein.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/alpha-synuclein.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -20348,6 +21248,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/amyloid-beta-aggregation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
           "author": "Karen Pendergrass",
@@ -20390,6 +21299,15 @@
         "wiki/concepts/amyloid-beta.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/amyloid-beta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -20504,6 +21422,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/antimicrobial-resistance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -20565,6 +21492,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/arachidonic-acid.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -20598,6 +21534,15 @@
         "wiki/concepts/aromatase.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/aromatase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -20676,6 +21621,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/aspirin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20753,6 +21707,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/autoimmunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -20813,6 +21776,15 @@
         "wiki/concepts/autophagy.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/autophagy.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -21011,6 +21983,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/bdnf.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -21114,6 +22095,15 @@
         "wiki/concepts/beta-lactamase.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/beta-lactamase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -21383,6 +22373,15 @@
         "wiki/concepts/blood-brain-barrier.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/blood-brain-barrier.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -21694,6 +22693,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/cephalosporin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -21753,6 +22761,15 @@
         "wiki/interventions/chelation-therapy.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/chelation-therapy.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -21831,6 +22848,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/co-selection.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -21873,6 +22899,15 @@
         "wiki/concepts/colonization-resistance.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/colonization-resistance.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -21934,6 +22969,15 @@
         "wiki/concepts/comorbidities.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/comorbidities.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -22004,6 +23048,15 @@
         "wiki/concepts/competitive-exclusion.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/competitive-exclusion.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22088,6 +23141,15 @@
         "wiki/concepts/cox-2.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/cox-2.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -22290,6 +23352,15 @@
         "wiki/concepts/developmental-metal-vulnerability.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/developmental-metal-vulnerability.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -22519,6 +23590,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/dietary-iron-gut-ecology.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -22631,6 +23711,15 @@
         "wiki/concepts/dietary-metal-microbiome-interactions.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/dietary-metal-microbiome-interactions.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -22806,6 +23895,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/drug-repurposing.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22830,6 +23928,15 @@
         "wiki/concepts/dysbiosis.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -22946,6 +24053,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/dyshomeostasis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -23025,6 +24141,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/dysmenorrhea.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -23058,6 +24183,15 @@
         "wiki/concepts/edta.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/edta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -23118,6 +24252,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/endocrine-disruption.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23142,6 +24285,15 @@
         "wiki/concepts/endocrine-disruptors.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/endocrine-disruptors.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -23342,6 +24494,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/environmental-metal-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -23420,6 +24581,15 @@
         "wiki/concepts/epigenetic-modifications.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/epigenetic-modifications.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -23500,6 +24670,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/epigenetics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -23577,6 +24756,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/essential-oils.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -23610,6 +24798,15 @@
         "wiki/concepts/estrobolome.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/estrobolome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -24302,6 +25499,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/fxr.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -24612,6 +25818,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -24691,6 +25906,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/gut-gonadal-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -24724,6 +25948,15 @@
         "wiki/concepts/gut-kidney-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/gut-kidney-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -24803,6 +26036,15 @@
         "wiki/concepts/gut-metal-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -25034,6 +26276,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/gut-penis-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -25086,6 +26337,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/gut-prostate-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -25120,6 +26380,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/gut-testis-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -25135,6 +26404,15 @@
         "wiki/concepts/gut-thyroid-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/gut-thyroid-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -25231,6 +26509,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/heavy-metal-neurotoxicity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -25291,6 +26578,15 @@
         "wiki/concepts/heavy-metals-infant-foods.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/heavy-metals-infant-foods.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -25414,6 +26710,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/hepcidin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -25502,6 +26807,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/histidine.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -25563,6 +26877,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/hmos.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -25615,6 +26938,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/homocysteine.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -25639,6 +26971,15 @@
         "wiki/concepts/horizontal-gene-transfer.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/horizontal-gene-transfer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25778,6 +27119,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/hyperaccumulator.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -25793,6 +27143,15 @@
         "wiki/concepts/hyperandrogenism.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/hyperandrogenism.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -25827,6 +27186,15 @@
         "wiki/concepts/hyperparathyroidism.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/hyperparathyroidism.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -26172,6 +27540,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/immune-balance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -26269,6 +27646,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/immunotherapy.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -26327,6 +27713,15 @@
         "wiki/concepts/indoles.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/indoles.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -26449,6 +27844,15 @@
         "wiki/concepts/infant-exposure.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/infant-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -26633,6 +28037,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/insulin-resistance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -26702,6 +28115,15 @@
         "wiki/concepts/inter-kingdom-metal-shielding.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -26825,6 +28247,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/interleukin-6.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -26938,6 +28369,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/iron-sulfur-clusters.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -27024,6 +28464,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/isoflavones.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27039,6 +28488,15 @@
         "wiki/concepts/ketone-bodies.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/ketone-bodies.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -27212,6 +28670,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/leptin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -27246,6 +28713,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/lipid-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27261,6 +28737,15 @@
         "wiki/concepts/lipid-peroxidation.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/lipid-peroxidation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -27532,6 +29017,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/mediterranean-diet.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -27664,6 +29158,15 @@
         "wiki/concepts/mendelian-randomization.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/mendelian-randomization.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -28185,6 +29688,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/metal-speciation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -28278,6 +29790,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/metalloestrogens.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -28347,6 +29868,15 @@
         "wiki/concepts/metallomics.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/metallomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -28486,6 +30016,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/methylation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -28510,6 +30049,15 @@
         "wiki/concepts/microbial-biomarkers.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/microbial-biomarkers.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -28572,6 +30120,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/microbial-metallomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -28623,6 +30180,15 @@
         "wiki/concepts/microbiome-derived-metabolites.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/microbiome-derived-metabolites.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -28718,6 +30284,15 @@
         "wiki/concepts/microglia.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/microglia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -28895,6 +30470,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/mitochondrial-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -29014,6 +30598,15 @@
         "wiki/concepts/n-acetyl-cysteine.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/n-acetyl-cysteine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -30079,6 +31672,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/outer-membrane.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -30121,6 +31723,15 @@
         "wiki/concepts/oxalate.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/oxalate.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -30368,6 +31979,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/parenteral-nutrition.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -30549,6 +32169,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/pharmacomicrobiomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -30609,6 +32238,15 @@
         "wiki/concepts/phenylalanine.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/phenylalanine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -30712,6 +32350,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/polyamines.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -30754,6 +32401,15 @@
         "wiki/concepts/polyphenols.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/polyphenols.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -30806,6 +32462,15 @@
         "wiki/concepts/polyunsaturated-fatty-acids.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/polyunsaturated-fatty-acids.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -30900,6 +32565,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/premenstrual-syndrome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -30952,6 +32626,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/prenatal-metal-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -30977,6 +32660,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/preterm-birth.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -31001,6 +32693,15 @@
         "wiki/concepts/probiotics.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/probiotics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -31090,6 +32791,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/propionic-acid.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -31132,6 +32842,15 @@
         "wiki/concepts/quinolinic-acid.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/quinolinic-acid.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -31271,6 +32990,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/semen-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -31305,6 +33033,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/serotonin-estrogen-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -31338,6 +33075,15 @@
         "wiki/concepts/short-chain-fatty-acids.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/short-chain-fatty-acids.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -31451,6 +33197,15 @@
         "wiki/concepts/siderophore-competition.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/siderophore-competition.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -31662,6 +33417,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/statins.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -31780,6 +33544,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/synbiotics.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -31829,6 +33602,15 @@
         "wiki/concepts/tau-phosphorylation.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/tau-phosphorylation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -31880,6 +33662,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/testosterone.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -31914,6 +33705,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/tgf-beta.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -31938,6 +33738,15 @@
         "wiki/concepts/th17-treg-balance.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/th17-treg-balance.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -31981,6 +33790,15 @@
         "wiki/concepts/thyroid-autoimmunity.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/thyroid-autoimmunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -32083,6 +33901,15 @@
         "wiki/concepts/tmao.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/tmao.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -32370,6 +34197,15 @@
         "wiki/concepts/tryptophan-metabolism.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/tryptophan-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -32696,6 +34532,15 @@
       ],
       "revisions": [
         {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/uremic-toxins.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -32763,6 +34608,15 @@
         "wiki/concepts/vancomycin.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/vancomycin.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -32933,6 +34787,15 @@
         "wiki/concepts/vitamin-d.md"
       ],
       "revisions": [
+        {
+          "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
+          "date": "2026-09-07T12:13:37+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill gut microbiome concept links",
+          "path": "wiki/concepts/vitamin-d.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
