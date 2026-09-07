@@ -1,11 +1,11 @@
 # WikiBiome concept coverage program
 
-Generated deterministically from corpus `d75f3bc10cde`, catalog `b3d82c6dacee`, and decisions `dbe6079ae0ac`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
+Generated deterministically from corpus `5f759f8a214f`, catalog `b3d82c6dacee`, and decisions `dbe6079ae0ac`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
 
 ## Summary
 
 - 4 create-page candidates
-- 195 existing pages with contextual-link debt
+- 194 existing pages with contextual-link debt
 - 1 candidates held for evidence
 - 0 explicitly accepted jobs
 - 29 completed jobs recorded

@@ -55,7 +55,7 @@ Three measurements answer different questions:
 
 1. **External exposure measurements** quantify a metal in water, food, air, soil, or another source.
 2. **Internal-dose biomarkers** quantify a metal or metabolite in blood, urine, hair, nails, or tissue, each with a different exposure window and susceptibility to contamination.
-3. **Effect biomarkers** assess downstream biology such as renal injury, altered heme synthesis, inflammation, or [[oxidative-stress]].
+3. **Effect biomarkers** assess downstream biology such as renal injury, altered heme synthesis, [[inflammation]], or [[oxidative-stress]].
 
 An environmental concentration alone does not establish the absorbed dose, and a biomarker alone does not necessarily identify the source or prove that the measured metal caused a clinical outcome.
 
@@ -116,7 +116,7 @@ Microbial binding and probiotic strategies are biologically plausible. Reviews d
 - [[metal-homeostasis]] — uptake, trafficking, storage, and export
 - [[metallomics]] — systems-level measurement of elemental states
 - [[gut-metal-microbiome]] — bidirectional metal-microbe interactions
-- [[oxidative-stress]] — a common but nonspecific injury pathway
+- Oxidative Stress — a common but nonspecific injury pathway
 - [[mis-metallation]] — displacement of native metal cofactors
 - [[intestinal-permeability]] — one proposed mediator of systemic effects
 - [[metal-carcinogenesis]] — compound-specific genotoxic and epigenetic mechanisms

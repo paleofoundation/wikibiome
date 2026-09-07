@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T10:54:27.049Z",
+  "_generated": "2026-09-07T11:02:04.950Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -4842,12 +4842,12 @@
       ],
       "related": [
         {
-          "id": "copper",
-          "score": 80
+          "id": "inflammation",
+          "score": 81
         },
         {
-          "id": "inflammation",
-          "score": 79
+          "id": "copper",
+          "score": 80
         },
         {
           "id": "bifidobacterium",
@@ -15475,12 +15475,12 @@
           "score": 32
         },
         {
-          "id": "gut-metal-microbiome",
-          "score": 27
+          "id": "inflammation",
+          "score": 28
         },
         {
-          "id": "inflammation",
-          "score": 26
+          "id": "gut-metal-microbiome",
+          "score": 27
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -35742,7 +35742,7 @@
       "related": [
         {
           "id": "inflammation",
-          "score": 292
+          "score": 294
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -83574,7 +83574,7 @@
         },
         {
           "id": "inflammation",
-          "score": 29
+          "score": 31
         },
         {
           "id": "arsenic",
@@ -90350,7 +90350,7 @@
         {
           "heading": "Exposure Is Not the Same as Toxicity",
           "level": 2,
-          "body": "Metals may be encountered through contaminated food or water, inhaled dusts and fumes, tobacco smoke, consumer or occupational materials, soil, and other environmental media. The biologically effective dose depends on absorption, chemical speciation, particle size, nutritional status, age, pregnancy, kidney function, co-exposures, and the tissue in which the element is retained [[briffa-2020-heavy-metal-pollution-environment-toxicology]], [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]].\n\nThree measurements answer different questions:\n\n1. **External exposure measurements** quantify a metal in water, food, air, soil, or another source.\n2. **Internal-dose biomarkers** quantify a metal or metabolite in blood, urine, hair, nails, or tissue, each with a different exposure window and susceptibility to contamination.\n3. **Effect biomarkers** assess downstream biology such as renal injury, altered heme synthesis, inflammation, or [[oxidative-stress]].\n\nAn environmental concentration alone does not establish the absorbed dose, and a biomarker alone does not necessarily identify the source or prove that the measured metal caused a clinical outcome."
+          "body": "Metals may be encountered through contaminated food or water, inhaled dusts and fumes, tobacco smoke, consumer or occupational materials, soil, and other environmental media. The biologically effective dose depends on absorption, chemical speciation, particle size, nutritional status, age, pregnancy, kidney function, co-exposures, and the tissue in which the element is retained [[briffa-2020-heavy-metal-pollution-environment-toxicology]], [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]].\n\nThree measurements answer different questions:\n\n1. **External exposure measurements** quantify a metal in water, food, air, soil, or another source.\n2. **Internal-dose biomarkers** quantify a metal or metabolite in blood, urine, hair, nails, or tissue, each with a different exposure window and susceptibility to contamination.\n3. **Effect biomarkers** assess downstream biology such as renal injury, altered heme synthesis, [[inflammation]], or [[oxidative-stress]].\n\nAn environmental concentration alone does not establish the absorbed dose, and a biomarker alone does not necessarily identify the source or prove that the measured metal caused a clinical outcome."
         },
         {
           "heading": "Shared Toxicity Mechanisms",
@@ -90395,7 +90395,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[environmental-metal-exposure]] — sources, routes, and exposure context\n- [[metal-homeostasis]] — uptake, trafficking, storage, and export\n- [[metallomics]] — systems-level measurement of elemental states\n- [[gut-metal-microbiome]] — bidirectional metal-microbe interactions\n- [[oxidative-stress]] — a common but nonspecific injury pathway\n- [[mis-metallation]] — displacement of native metal cofactors\n- [[intestinal-permeability]] — one proposed mediator of systemic effects\n- [[metal-carcinogenesis]] — compound-specific genotoxic and epigenetic mechanisms\n- [[heavy-metal-neurotoxicity]] — nervous-system mechanisms and evidence\n- [[nutritional-immunity]] — host control of biologically required metals during infection"
+          "body": "- [[environmental-metal-exposure]] — sources, routes, and exposure context\n- [[metal-homeostasis]] — uptake, trafficking, storage, and export\n- [[metallomics]] — systems-level measurement of elemental states\n- [[gut-metal-microbiome]] — bidirectional metal-microbe interactions\n- Oxidative Stress — a common but nonspecific injury pathway\n- [[mis-metallation]] — displacement of native metal cofactors\n- [[intestinal-permeability]] — one proposed mediator of systemic effects\n- [[metal-carcinogenesis]] — compound-specific genotoxic and epigenetic mechanisms\n- [[heavy-metal-neurotoxicity]] — nervous-system mechanisms and evidence\n- [[nutritional-immunity]] — host control of biologically required metals during infection"
         }
       ],
       "wikilinks": [
@@ -90418,6 +90418,7 @@
         "manganese",
         "metal-homeostasis",
         "guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration",
+        "inflammation",
         "oxidative-stress",
         "mis-metallation",
         "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
@@ -90562,10 +90563,6 @@
           "score": 133
         },
         {
-          "id": "inflammation",
-          "score": 130
-        },
-        {
           "id": "butyrate",
           "score": 105
         },
@@ -90587,6 +90584,10 @@
         },
         {
           "id": "autism-spectrum-disorder",
+          "score": 42
+        },
+        {
+          "id": "roseburia",
           "score": 42
         }
       ]
@@ -94987,6 +94988,7 @@
         "gut-prostate-axis",
         "gut-thyroid-axis",
         "heavy-metal-neurotoxicity",
+        "heavy-metals",
         "hepcidin",
         "histidine",
         "hydrogen-sulfide",
@@ -95068,7 +95070,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 292
+          "score": 294
         },
         {
           "id": "gut-microbiome",
@@ -95080,7 +95082,7 @@
         },
         {
           "id": "zinc",
-          "score": 163
+          "score": 165
         },
         {
           "id": "escherichia-coli",
@@ -95092,7 +95094,7 @@
         },
         {
           "id": "copper",
-          "score": 105
+          "score": 107
         },
         {
           "id": "bacteroides-fragilis",
@@ -99900,7 +99902,7 @@
         },
         {
           "id": "inflammation",
-          "score": 26
+          "score": 28
         },
         {
           "id": "nutritional-immunity",
@@ -101973,7 +101975,7 @@
         },
         {
           "id": "inflammation",
-          "score": 32
+          "score": 34
         },
         {
           "id": "dysbiosis",
@@ -107179,7 +107181,7 @@
         },
         {
           "id": "inflammation",
-          "score": 179
+          "score": 181
         },
         {
           "id": "zinc",
@@ -118958,12 +118960,12 @@
       ],
       "related": [
         {
-          "id": "oxidative-stress",
+          "id": "inflammation",
           "score": 76
         },
         {
-          "id": "inflammation",
-          "score": 74
+          "id": "oxidative-stress",
+          "score": 76
         },
         {
           "id": "iron",
@@ -209855,6 +209857,10 @@
       },
       {
         "source": "heavy-metals",
+        "target": "inflammation"
+      },
+      {
+        "source": "heavy-metals",
         "target": "oxidative-stress"
       },
       {
@@ -210976,10 +210982,6 @@
       {
         "source": "infant-exposure",
         "target": "developmental-metal-vulnerability"
-      },
-      {
-        "source": "inflammation",
-        "target": "heavy-metals"
       },
       {
         "source": "inflammation",

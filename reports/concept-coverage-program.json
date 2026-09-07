@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "d75f3bc10cde1dbf59decf8e22a576c2aed1d96ffabb9444f228428091047266",
+    "corpusSha256": "5f759f8a214f0bd8a1e155ff5e764c4a9cd07d9576c05a9627b82e4820e7b2d0",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
     "decisionsSha256": "dbe6079ae0ac6472ab4ad3fae7b17afc9bd977025ee3aac5eb3311b5415f8ff1",
     "publicArticles": 592,
@@ -23,9 +23,9 @@
     ]
   },
   "summary": {
-    "totalJobs": 200,
+    "totalJobs": 199,
     "createPage": 4,
-    "backfillLinks": 195,
+    "backfillLinks": 194,
     "evidenceHold": 1,
     "accepted": 0,
     "promoted": 29
@@ -2273,7 +2273,7 @@
         ],
         "candidateEvidenceSources": 196,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 337.204
+        "weightedGraphGain": 337.209
       },
       "affectedPages": [
         {
@@ -2318,7 +2318,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-microbiome",
@@ -2721,7 +2721,7 @@
         ],
         "candidateEvidenceSources": 80,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 333.059
+        "weightedGraphGain": 333.064
       },
       "affectedPages": [
         {
@@ -2766,7 +2766,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "bifidobacterium",
@@ -3168,7 +3168,7 @@
         ],
         "candidateEvidenceSources": 87,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 312.054
+        "weightedGraphGain": 312.059
       },
       "affectedPages": [
         {
@@ -3235,7 +3235,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-microbiome",
@@ -4956,7 +4956,7 @@
         ],
         "candidateEvidenceSources": 278,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 243.829
+        "weightedGraphGain": 243.834
       },
       "affectedPages": [
         {
@@ -4968,7 +4968,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "microbial-biomarkers",
@@ -5403,7 +5403,7 @@
         ],
         "candidateEvidenceSources": 84,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 238.433
+        "weightedGraphGain": 238.438
       },
       "affectedPages": [
         {
@@ -5470,7 +5470,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",
@@ -6298,7 +6298,7 @@
         ],
         "candidateEvidenceSources": 60,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 218.681
+        "weightedGraphGain": 218.686
       },
       "affectedPages": [
         {
@@ -6409,7 +6409,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "nickel",
@@ -16405,7 +16405,7 @@
         ],
         "candidateEvidenceSources": 57,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 132.53
+        "weightedGraphGain": 132.535
       },
       "affectedPages": [
         {
@@ -16450,7 +16450,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "short-chain-fatty-acids",
@@ -16852,7 +16852,7 @@
         ],
         "candidateEvidenceSources": 72,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 140.391
+        "weightedGraphGain": 140.396
       },
       "affectedPages": [
         {
@@ -16941,7 +16941,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "short-chain-fatty-acids",
@@ -18484,7 +18484,7 @@
         ],
         "candidateEvidenceSources": 133,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 189.603
+        "weightedGraphGain": 189.608
       },
       "affectedPages": [
         {
@@ -18507,7 +18507,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "copper",
@@ -23620,7 +23620,7 @@
         ],
         "candidateEvidenceSources": 34,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 42.119
+        "weightedGraphGain": 42.124
       },
       "affectedPages": [
         {
@@ -23665,7 +23665,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "cadmium",
@@ -24995,439 +24995,6 @@
           "passage": {
             "excerpt": "- **DMG abolishes Salmonella hydrogenase activity**: H₂-uptake NiFe-hydrogenase activity was completely abolished at 10 mM DMG. Addition of 50 µM NiCl₂ restored some hydrogenase activity at lower DMG concentrations, confirming the mechanism is nickel chelat...",
             "sha256": "a9646d3d5ff73b8cde8deae5354ae5e3c4224965ada4325ff03389dc755c59e9"
-          }
-        }
-      ]
-    },
-    {
-      "key": "backfill_links:inflammation",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": {
-        "state": "queued",
-        "rationale": "The twelve-source Metal-Driven Inflammation page is now linked from the first explanatory occurrence in every qualifying public entity and concept article. Reviewed coverage spans acute, chronic, local, systemic, mucosal, vascular, renal, hepatic, neuroimmune, cancer, metal, and microbiome contexts; later repetitions remain plain text to avoid overlinking.",
-        "batches": [
-          {
-            "id": "2026-09-07-corpus-wide-inflammation-contexts",
-            "state": "promoted",
-            "reviewedAt": "2026-09-07",
-            "promotedAt": "2026-09-07",
-            "targets": [
-              "acinetobacter",
-              "actinomyces",
-              "adherent-invasive-e-coli",
-              "alloprevotella",
-              "alzheimers-disease",
-              "anaerostipes",
-              "anaerotruncus",
-              "anxiety",
-              "atopobium",
-              "autism-spectrum-disorder",
-              "bacteroides-fragilis",
-              "bacteroides-thetaiotaomicron",
-              "bacteroides-uniformis",
-              "bacteroides-vulgatus",
-              "barretts-esophagus",
-              "bilophila",
-              "breast-cancer",
-              "butyricicoccus",
-              "cadmium",
-              "campylobacter-jejuni",
-              "candida-tropicalis",
-              "cardiovascular-disease",
-              "cerebral-palsy",
-              "chlamydia-trachomatis",
-              "christensenellaceae",
-              "chronic-fatigue-syndrome",
-              "chronic-kidney-disease",
-              "cirrhosis",
-              "clostridium-symbiosum",
-              "colorectal-cancer",
-              "copper",
-              "coprococcus",
-              "coronary-artery-disease",
-              "cystic-fibrosis",
-              "debaryomyces",
-              "dermatitis-herpetiformis",
-              "desulfovibrionales",
-              "diabetic-kidney-disease",
-              "eggerthella-lenta",
-              "endometriosis",
-              "enterobacter-cloacae",
-              "enterococcus-faecalis",
-              "epilepsy",
-              "escherichia-coli",
-              "escherichia",
-              "eubacteriales",
-              "faecalibacterium",
-              "female-infertility",
-              "firmicutes",
-              "flavonifractor",
-              "fusicatenibacter",
-              "fusobacteriales",
-              "fusobacterium-nucleatum",
-              "fusobacterium-varium",
-              "gastric-adenocarcinoma",
-              "gerd",
-              "gordonibacter-urolithinfaciens",
-              "graves-disease",
-              "haemophilus",
-              "helicobacter-hepaticus",
-              "hepatitis",
-              "hiv",
-              "ibs",
-              "inflammatory-bowel-disease",
-              "intestinimonas",
-              "klebsiella",
-              "kynurenine",
-              "lachnospira",
-              "lachnospiraceae-family",
-              "lead",
-              "leptotrichia",
-              "long-covid",
-              "major-depressive-disorder",
-              "malassezia",
-              "manganese",
-              "mercury",
-              "multiple-sclerosis",
-              "necrotizing-enterocolitis",
-              "nickel",
-              "non-alcoholic-fatty-liver-disease",
-              "odoribacter",
-              "oscillospiraceae",
-              "oscillospirales",
-              "ovarian-cancer",
-              "pancreatic-cancer",
-              "pancreatitis",
-              "parabacteroides-distasonis",
-              "parabacteroides",
-              "parkinsons-disease",
-              "parvimonas-micra",
-              "pcos",
-              "pelvic-inflammatory-disease",
-              "peptostreptococcus-anaerobius",
-              "peptostreptococcus-stomatis",
-              "peptostreptococcus",
-              "periodontitis",
-              "pmdd",
-              "porphyromonas-gingivalis",
-              "porphyromonas",
-              "premature-ovarian-insufficiency",
-              "prevotella-copri",
-              "prevotella",
-              "prevotellaceae",
-              "propionibacterium",
-              "proteobacteria",
-              "psoriasis",
-              "rheumatoid-arthritis",
-              "roseburia-intestinalis",
-              "ruminococcus-albus",
-              "ruminococcus-gnavus",
-              "saccharomyces-cerevisiae",
-              "schizophrenia",
-              "selenium",
-              "serotonin",
-              "shigella-flexneri",
-              "shigella",
-              "streptococcus-agalactiae",
-              "streptococcus-gallolyticus",
-              "streptococcus-thermophilus",
-              "streptococcus",
-              "torulaspora",
-              "type-1-diabetes",
-              "type-2-diabetes",
-              "ulcerative-colitis",
-              "zinc",
-              "ahr",
-              "allopregnanolone",
-              "alpha-klotho",
-              "amyloid-beta",
-              "arachidonic-acid",
-              "aromatase",
-              "aryl-hydrocarbon-receptor",
-              "autoimmunity",
-              "autophagy",
-              "bacteremia",
-              "bacterial-contamination-hypothesis",
-              "bacteriophages",
-              "bdnf",
-              "bile-acid-metabolism",
-              "biofilm",
-              "biomarkers",
-              "caga",
-              "calprotectin",
-              "ceruloplasmin",
-              "chitotriosidase",
-              "colonization-resistance",
-              "copper-dysregulation",
-              "cox-2",
-              "curli",
-              "developmental-metal-vulnerability",
-              "dysbiosis",
-              "dysmenorrhea",
-              "endothelial-dysfunction",
-              "enterohepatic-circulation",
-              "epithelial-mesenchymal-transition",
-              "estrobolome",
-              "estrogen-recirculation",
-              "fenton-chemistry",
-              "fermentative-metabolism",
-              "ferritin",
-              "ferroportin",
-              "ferroptosis",
-              "gut-brain-axis",
-              "gut-kidney-axis",
-              "gut-metal-microbiome",
-              "gut-microbiome",
-              "gut-penis-axis",
-              "gut-prostate-axis",
-              "gut-thyroid-axis",
-              "heavy-metal-neurotoxicity",
-              "hepcidin",
-              "histidine",
-              "hydrogen-sulfide",
-              "hydrogenase",
-              "hyperparathyroidism",
-              "hypoxia",
-              "il-10",
-              "il-8",
-              "immunotherapy",
-              "indoxyl-sulfate",
-              "innate-immunity",
-              "interleukin-6",
-              "iron-sulfur-clusters",
-              "lactoferrin",
-              "leptin",
-              "lipocalin-2",
-              "lipopolysaccharide",
-              "maternal-immune-activation",
-              "metabolomics",
-              "metal-homeostasis",
-              "microbial-biomarkers",
-              "microbial-metallomics",
-              "microbiome-derived-metabolites",
-              "mis-metallation",
-              "neurodegeneration",
-              "neuroinflammation",
-              "nf-kappa-b",
-              "nickel-allergy",
-              "nickel-urease",
-              "nitric-oxide",
-              "nrf2",
-              "outer-membrane",
-              "oxidative-stress",
-              "oxygen-state",
-              "phosphodiesterase",
-              "polyphenols",
-              "premenstrual-syndrome",
-              "preterm-birth",
-              "probiotics",
-              "quinolinic-acid",
-              "ruminococcaceae",
-              "semen-microbiome",
-              "serotonin-estrogen-axis",
-              "short-chain-fatty-acids",
-              "siderophores-metallophores",
-              "statins",
-              "succinate",
-              "systemic-inflammation",
-              "th17-treg-balance",
-              "tlr4",
-              "tnf-alpha",
-              "toll-like-receptors",
-              "transferrin",
-              "zinc-metalloprotease",
-              "zonulin"
-            ]
-          }
-        ]
-      },
-      "id": "inflammation",
-      "title": "Metal-Driven Inflammation",
-      "pageType": "concept",
-      "aliases": [
-        "Metal-Driven Inflammation",
-        "inflammation"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/inflammation.md",
-        "sourceCount": 12
-      },
-      "priority": 87.07,
-      "scoreComponents": {
-        "demand": 25,
-        "evidence": 25,
-        "graphGain": 14.57,
-        "scopeFit": 9,
-        "outlineReadiness": 13.5,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 280,
-        "totalPlainMentions": 490,
-        "linkedArticles": 279,
-        "unlinkedArticles": 1,
-        "linkCoveragePercent": 100,
-        "leadMentions": 5,
-        "headingMentions": 9,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "fungus",
-          "metabolite",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 607,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 7.794
-      },
-      "affectedPages": [
-        {
-          "id": "heavy-metals",
-          "title": "Heavy Metals",
-          "path": "wiki/concepts/heavy-metals.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 110
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "microbiome-diet-endometriosis-food-tables",
-          "title": "Microbiome Diet for Endometriosis - Categorized Food Tables",
-          "evidenceLevel": null,
-          "year": "Unknown",
-          "path": "wiki/sources/microbiome-diet-endometriosis-food-tables.md",
-          "passage": {
-            "excerpt": "- nickel - one of the key metals used to filter food inclusion/exclusion; directly relevant to nickel toxicology wiki - cadmium - foods filtered for low cadmium content - lead - foods filtered for low lead content - zinc - foods filtered for low zinc conten...",
-            "sha256": "beb0e770a6c2b7b397fe1cfd210d1cce06ec203646bc89913316a1fc3514b8d1"
-          }
-        },
-        {
-          "id": "abdollahpour-2026-lactobacillus-casei-ppd-rct",
-          "title": "Abdollahpour 2026 — The Effect of Lactobacillus casei on Postpartum Depression: A Randomized Controlled Trial",
-          "evidenceLevel": "randomized-controlled-trial",
-          "year": 2026,
-          "path": "wiki/sources/abdollahpour-2026-lactobacillus-casei-ppd-rct.md",
-          "passage": {
-            "excerpt": "- Null finding highlights strain-specificity and timing importance for probiotic interventions in postpartum depression - Short duration may not allow sufficient dysbiosis correction via gut brain axis - Complements rauniyar 2023 maternal mental health prob...",
-            "sha256": "989ca4045c76c5ef3064027ec853dfec99a1efc5cafae4a601d6f1979730237d"
-          }
-        },
-        {
-          "id": "bucciero-2026-diet-ms-oxidative-stress-nrf2",
-          "title": "The Diet-Multiple Sclerosis Connection: Oxidative Stress and Emerging Mechanisms",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/bucciero-2026-diet-ms-oxidative-stress-nrf2.md",
-          "passage": {
-            "excerpt": "- Nrf2 (nuclear factor erythroid 2-related factor 2) is a master regulator of antioxidant defense whose upregulation is associated with beneficial effects in MS; Nrf2-deficient mice show exacerbated EAE with enhanced inflammation and demyelination - Several...",
-            "sha256": "083ffd97051301f28b415225fb246b55405558fb29c0772ad96a92ac06414e3a"
-          }
-        },
-        {
-          "id": "chuan-2026-inflammatory-cytokines-gut-microbiota-ovarian-cancer-mr",
-          "title": "Chuan 2026 — Genetically Predicted Inflammatory Cytokines Mediate the Associations Between the Gut Microbiota and Ovarian Cancer",
-          "evidenceLevel": "computational-prediction",
-          "year": 2026,
-          "path": "wiki/sources/chuan-2026-inflammatory-cytokines-gut-microbiota-ovarian-cancer-mr.md",
-          "passage": {
-            "excerpt": "- **Inflammatory cytokines mediate the causal association** between specific gut microbiota taxa and ovarian cancer risk, as demonstrated through two-sample bidirectional Mendelian randomization (MR) with mediation analysis (this study, computational-predic...",
-            "sha256": "4d7c66d94d652b0d80c4d7c8603bcd9c69b9e63be5435fad3ccd5e4de58595b4"
-          }
-        },
-        {
-          "id": "foroughi-2026-periodontal-biomarkers-cvd",
-          "title": "Periodontal Biomarkers in Cardiovascular Disease: Mechanisms, Diagnostics, and Clinical Implications",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/foroughi-2026-periodontal-biomarkers-cvd.md",
-          "passage": {
-            "excerpt": "- Periodontal disease is independently associated with increased risks of coronary heart disease, stroke, and atherosclerosis, beyond shared traditional CVD risk factors - Periodontal pathogens (*P. gingivalis*, *A. actinomycetemcomitans*) and host immune r...",
-            "sha256": "553e01c0d7df0cad9c56bb72baa90175afd5f0e0b5981859949739d0a09b0b39"
-          }
-        },
-        {
-          "id": "franceschi-2026-nsaids-paracetamol-adverse-reactions-gut-microbiota",
-          "title": "Paracetamol and NSAIDs Adverse Drug Reactions: Potential Role of the Gut Microbiota",
-          "evidenceLevel": "retrospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/franceschi-2026-nsaids-paracetamol-adverse-reactions-gut-microbiota.md",
-          "passage": {
-            "excerpt": "NSAIDs cause GI damage through both direct (COX inhibition reducing protective prostaglandins) and indirect (microbiome disruption) mechanisms. NSAID-induced changes in gut microbiota composition reduce barrier-protective organisms and may promote expansion...",
-            "sha256": "4763e25ce70bf90d64b497e8392164f6f0e4638084b709fc976a4136bb04e8bf"
-          }
-        },
-        {
-          "id": "franceschi-2026-paracetamol-nsaid-adr-gut-microbiota",
-          "title": "Franceschi 2026 — Paracetamol and NSAIDs Adverse Drug Reactions in the Emergency Department: Potential Role of the Gut Microbiota",
-          "evidenceLevel": "retrospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/franceschi-2026-paracetamol-nsaid-adr-gut-microbiota.md",
-          "passage": {
-            "excerpt": "- **ADRs were significantly more frequent in female patients** (61% of 897 total ADR cases were adult females), a pattern observed across both paracetamol and NSAID drug classes (franceschi 2026 paracetamol nsaid adr gut microbiota, retrospective cohort, n=...",
-            "sha256": "056ce19c6cdf61d973b25638990f80e59ec15ffd8559c7e0f912fa776cea4f06"
-          }
-        },
-        {
-          "id": "gao-2026-ketogenic-diet-fxr-nfkb-crc",
-          "title": "Ketogenic diet suppresses colorectal cancer through reshaping gut microbiota and modulating the intestinal FXR/NF-kB signaling pathway",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/gao-2026-ketogenic-diet-fxr-nfkb-crc.md",
-          "passage": {
-            "excerpt": "- KD mechanism via bile acids connects to ajouz 2014 secondary bile acids colon cancer showing DCA promotes CRC through DNA damage - FXR pathway relates to cao 2025 metabolic interactions microbial metabolites crc bile acid coverage - *Akkermansia* enrichme...",
-            "sha256": "5122e6e9968cc845a39b99c341f105867751e6e8c8513967c51b72b3b5f7baca"
-          }
-        },
-        {
-          "id": "geng-2026-probiotic-therapy-gut-microbiota-omega-oxidation-ovarian-cancer",
-          "title": "Geng 2026 — The Protective Effect of Probiotic Therapy on Gut Microbiota and the Activation of Omega-Oxidation After Ovarian Cancer Surgery",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/geng-2026-probiotic-therapy-gut-microbiota-omega-oxidation-ovarian-cancer.md",
-          "passage": {
-            "excerpt": "The iron connection is through CYP enzymes, which are heme-iron-dependent. CYP4F3 and CYP4A10 require functional iron-heme centers, meaning their activity is influenced by iron homeostasis. Post-surgical inflammation and the associated hepcidin response can...",
-            "sha256": "0ee70926cea66bdb0521b0f5d182c996feb534867a030afc89c8db1affbc277b"
-          }
-        },
-        {
-          "id": "gimeno-2026-diet-microbiota-pregnancy-success-mediterranean",
-          "title": "Diet-microbiota interactions influence pregnancy success in females undergoing artificial insemination: insights from the vaginal microbiota and Mediterranean diet",
-          "evidenceLevel": "prospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/gimeno-2026-diet-microbiota-pregnancy-success-mediterranean.md",
-          "passage": {
-            "excerpt": "The mechanistic connection between diet and vaginal microbiota is not fully elucidated but may involve systemic metabolic and immune effects. Diet shapes gut microbiota, which modulates systemic inflammation and immune function, which in turn affects vagina...",
-            "sha256": "3898e64728bba228bb77c03b89e5c88c88b784d6f4bd1c0c7846bd0b3a55981f"
-          }
-        },
-        {
-          "id": "kim-2026-estropausal-fmt-ovarian-function-rejuvenation",
-          "title": "Estropausal gut microbiota transplant improves measures of ovarian function in adult mice",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/kim-2026-estropausal-fmt-ovarian-function-rejuvenation.md",
-          "passage": {
-            "excerpt": "- **Heterochronic FMT from young mice remodeled the ovarian transcriptome** in aged recipients, reducing inflammation-related gene expression and upregulating genes associated with healthy ovarian function (kim 2026 estropausal fmt ovarian function rejuvena...",
-            "sha256": "ce559d5c8ad7f2c32a47ab3e5c89baf728efaeb0fe07db3b077d704779cd1007"
-          }
-        },
-        {
-          "id": "li-2026-ibd-erectile-dysfunction-mechanistic-link",
-          "title": "Li 2026 — IBD and Male Erectile Dysfunction: Mechanistic Insights and Novel Therapeutic Perspectives",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/li-2026-ibd-erectile-dysfunction-mechanistic-link.md",
-          "passage": {
-            "excerpt": "- **IBD patients exhibit dramatically elevated ED prevalence**, with a pooled meta-analytic estimate of 27% and individual study rates ranging from 43% to 92%, compared to 12.5% in healthy controls (li 2026 ibd erectile dysfunction mechanistic link, expert...",
-            "sha256": "843a5397b1c3a38c548ab973e6e4e17ed1087cfdf840048ac1af3eca90e2d68f"
           }
         }
       ]
@@ -27250,7 +26817,7 @@
         ],
         "candidateEvidenceSources": 74,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 103.592
+        "weightedGraphGain": 103.598
       },
       "affectedPages": [
         {
@@ -27317,7 +26884,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-microbiome",
@@ -32499,7 +32066,7 @@
         ],
         "candidateEvidenceSources": 26,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 74.727
+        "weightedGraphGain": 74.733
       },
       "affectedPages": [
         {
@@ -32566,7 +32133,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "hashimotos-thyroiditis",
@@ -37234,7 +36801,7 @@
         ],
         "candidateEvidenceSources": 69,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 84.9
+        "weightedGraphGain": 84.905
       },
       "affectedPages": [
         {
@@ -37268,7 +36835,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-microbiome",
@@ -38004,7 +37571,7 @@
         ],
         "candidateEvidenceSources": 44,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 72.43
+        "weightedGraphGain": 72.435
       },
       "affectedPages": [
         {
@@ -38038,7 +37605,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "endometriosis",
@@ -45527,7 +45094,7 @@
         ],
         "candidateEvidenceSources": 14,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 67.7
+        "weightedGraphGain": 67.705
       },
       "affectedPages": [
         {
@@ -45539,7 +45106,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",
@@ -48670,7 +48237,7 @@
         ],
         "candidateEvidenceSources": 19,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 27.174
+        "weightedGraphGain": 27.179
       },
       "affectedPages": [
         {
@@ -48682,7 +48249,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "arsenic",
@@ -58591,7 +58158,7 @@
         ],
         "candidateEvidenceSources": 4,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 40.471
+        "weightedGraphGain": 40.476
       },
       "affectedPages": [
         {
@@ -58603,7 +58170,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",
