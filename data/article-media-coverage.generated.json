@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "95ab381b3dcf18776bfd35f9de70f43530740aa68d013bbd09c46fad1ad51c7c",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f8844334a5745cd7965e912e368946b55ab17ee5a519c931e932aafbe48bdc50",
+    "reviewLogSha256": "dd10ea47ffa17c64555573f8e78480c2808be9071941c60bb0c62a1f48886d43",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -307,6 +307,12 @@
         "sha256": "dc3ed8bfe1e6cae40b6ffdafadad7d30404453a67fb6fac29d095c202ef9dfff"
       },
       {
+        "file": "data/article-media-batches/mechanisms-095.json",
+        "batchId": "mechanisms-095",
+        "status": "reviewed",
+        "sha256": "f4bf7dccdc04856401560a4638165745302313fa9aab8bdcdff2fe3031b3e57c"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
@@ -598,9 +604,9 @@
     "total": 710,
     "completed": 367,
     "remaining": 343,
-    "rejected": 197,
+    "rejected": 203,
     "revised": 12,
-    "scientificHolds": 142,
+    "scientificHolds": 148,
     "inReview": 0
   },
   "categories": [
@@ -4144,6 +4150,100 @@
       ],
       "requiredResolution": "Define one pathway, organism and tissue, reaction sequence, enzyme and metabolite set, compartment, specimen or model, evidence tier, and measured-versus-orientation boundary.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "urease",
+      "controlledIdentifier": "MeSH:D014510;EC:3.5.1.5;multi-species-enzyme-and-assembly-family",
+      "batchId": "mechanisms-095",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route spans ureases from multiple prokaryotic and eukaryotic species, catalytic and apo states, distinct accessory systems, active-site metalation, and organism-specific oligomeric assemblies without selecting one sequence, species, assembly, structure accession, or biochemical state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014510",
+        "local:data/content.generated.json#/pages/urease"
+      ],
+      "requiredResolution": "Choose one species and exact urease subunit or complex, sequence/accession, oligomeric and metalation state, ligand/substrate state, structure accession or explicitly non-structural reaction boundary, compartment, and claim scope.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until scientific reconciliation passes a new audit."
+    },
+    {
+      "pageId": "uremic-toxins",
+      "controlledIdentifier": "MeSH:D000087527;heterogeneous-uremic-retention-solute-class",
+      "batchId": "mechanisms-095",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The controlled term is a class of retained biological solutes, while the route combines indoxyl sulfate, p-cresyl sulfate, trimethylamine N-oxide, protein binding, microbial production, renal clearance, and several host effects as one visual subject.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000087527",
+        "local:data/content.generated.json#/pages/uremic-toxins"
+      ],
+      "requiredResolution": "Split by exact analyte and chemical form, precursor, organism/pathway, specimen, protein-bound fraction, concentration and units, renal-function stratum, assay, comparator, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until scientific reconciliation passes a new audit."
+    },
+    {
+      "pageId": "ursodeoxycholic-acid",
+      "controlledIdentifier": "PubChem-CID:31401;ChEBI:9907;InChIKey:RUDATBOHQWOJDD-UZVSRGJWSA-N",
+      "batchId": "mechanisms-095",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "UDCA is an exact C24 steroid whose identity depends on multiple stereocenters, including the 7-beta hydroxyl orientation that distinguishes it from related bile acids. A generated heavy-atom connectivity model would not independently verify those stereochemical assignments and could falsely depict a related bile acid as UDCA.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/31401",
+        "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:9907",
+        "local:data/content.generated.json#/pages/ursodeoxycholic-acid"
+      ],
+      "requiredResolution": "Use an independently licensed or project-rendered structure derived deterministically from the authoritative CID/ChEBI connection table with explicit stereochemical validation, then audit atom count, bond graph, stereocenters, protonation state, conformation boundary, and derivative framing.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a deterministic stereochemically validated rendering passes a new audit."
+    },
+    {
+      "pageId": "vancomycin",
+      "controlledIdentifier": "PubChem-CID:14969;ChEBI:28001;MeSH:D014640;InChIKey:MYPYJXKWCTUITO-LYRMYLQWSA-N",
+      "batchId": "mechanisms-095",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Vancomycin is a 1449.2-Da glycopeptide with 66 carbons, 24 oxygens, 9 nitrogens, 2 chlorines, many stereocenters, and no PubChem computed 3D conformer because the record exceeds its conformer limits. A one-call generated molecular portrait cannot be literally verified at this complexity, while a generic vial or powder would not establish chemical identity.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/14969",
+        "https://www.ebi.ac.uk/chebi/CHEBI:28001",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014640",
+        "local:data/content.generated.json#/pages/vancomycin"
+      ],
+      "requiredResolution": "Approve a deterministic structure rendering from an authoritative connection table or an exact labeled product/specimen record, including form and salt, stereochemistry, protonation, hydration, formulation, structure source, license, and non-photographic boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a form-specific deterministic representation passes a new audit."
+    },
+    {
+      "pageId": "viral-microbiota",
+      "controlledIdentifier": "MeSH:D000083422-entry-term:Viral-Microbiome;local-canonical-duplication-with-virome",
+      "batchId": "mechanisms-095",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "NLM MeSH treats Viral Microbiome as an entry term for Virome, and the local page states that it is a redirect and cross-reference to the comprehensive virome page while still occupying a separate canonical route. A separate image would duplicate or contradict one controlled concept.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000083422",
+        "local:data/content.generated.json#/pages/viral-microbiota",
+        "local:data/content.generated.json#/pages/virome"
+      ],
+      "requiredResolution": "Retire this route to a permanent alias of virome, or define a narrower non-duplicative niche, specimen, viral fraction, sequencing method, taxonomic scope, population, and evidence boundary before media review.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until canonical routing or narrower scope passes a new audit."
+    },
+    {
+      "pageId": "virome",
+      "controlledIdentifier": "MeSH:D000083422;multi-virus-niche-specific-ecological-community",
+      "batchId": "mechanisms-095",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "MeSH defines a virome as all viruses within a particular biological niche. The route combines bacteriophages, eukaryotic viruses, endogenous elements, many host sites and diseases, ecological interactions, sequencing observations, and therapy; no exact niche, specimen, composition, taxonomy, or measured community is selected.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000083422",
+        "local:data/content.generated.json#/pages/virome"
+      ],
+      "requiredResolution": "Define one biological niche and specimen, collection and viral-enrichment protocol, sequencing platform and database version, taxonomic or vOTU composition, abundance threshold, host assignment method, population/model, comparator, time point, and whether the image represents measured data or a reviewed orientation atlas.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a niche-specific evidence model passes a new audit."
     }
   ],
   "revisedAssets": [
@@ -4298,55 +4398,46 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 547,
-      "id": "urease",
-      "title": "Urease",
-      "route": "/article/urease",
+      "queuePosition": 553,
+      "id": "virulence-factors",
+      "title": "Virulence Factors",
+      "route": "/article/virulence-factors",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 548,
-      "id": "uremic-toxins",
-      "title": "Uremic Toxins",
-      "route": "/article/uremic-toxins",
+      "queuePosition": 554,
+      "id": "vitamin-b12",
+      "title": "Vitamin B12",
+      "route": "/article/vitamin-b12",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 549,
-      "id": "ursodeoxycholic-acid",
-      "title": "Ursodeoxycholic Acid (UDCA)",
-      "route": "/article/ursodeoxycholic-acid",
+      "queuePosition": 555,
+      "id": "vitamin-d",
+      "title": "Vitamin D",
+      "route": "/article/vitamin-d",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 550,
-      "id": "vancomycin",
-      "title": "Vancomycin",
-      "route": "/article/vancomycin",
+      "queuePosition": 556,
+      "id": "zinc-metalloprotease",
+      "title": "Zinc-Metalloprotease",
+      "route": "/article/zinc-metalloprotease",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 551,
-      "id": "viral-microbiota",
-      "title": "Viral Microbiota",
-      "route": "/article/viral-microbiota",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
-    },
-    {
-      "queuePosition": 552,
-      "id": "virome",
-      "title": "Virome",
-      "route": "/article/virome",
+      "queuePosition": 557,
+      "id": "zonulin",
+      "title": "Zonulin",
+      "route": "/article/zonulin",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -15564,7 +15655,13 @@
       "route": "/article/urease",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route spans ureases from multiple prokaryotic and eukaryotic species, catalytic and apo states, distinct accessory systems, active-site metalation, and organism-specific oligomeric assemblies without selecting one sequence, species, assembly, structure accession, or biochemical state.",
+        "requiredResolution": "Choose one species and exact urease subunit or complex, sequence/accession, oligomeric and metalation state, ligand/substrate state, structure accession or explicitly non-structural reaction boundary, compartment, and claim scope."
+      }
     },
     {
       "queuePosition": 548,
@@ -15577,7 +15674,13 @@
       "route": "/article/uremic-toxins",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The controlled term is a class of retained biological solutes, while the route combines indoxyl sulfate, p-cresyl sulfate, trimethylamine N-oxide, protein binding, microbial production, renal clearance, and several host effects as one visual subject.",
+        "requiredResolution": "Split by exact analyte and chemical form, precursor, organism/pathway, specimen, protein-bound fraction, concentration and units, renal-function stratum, assay, comparator, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 549,
@@ -15590,7 +15693,13 @@
       "route": "/article/ursodeoxycholic-acid",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "UDCA is an exact C24 steroid whose identity depends on multiple stereocenters, including the 7-beta hydroxyl orientation that distinguishes it from related bile acids. A generated heavy-atom connectivity model would not independently verify those stereochemical assignments and could falsely depict a related bile acid as UDCA.",
+        "requiredResolution": "Use an independently licensed or project-rendered structure derived deterministically from the authoritative CID/ChEBI connection table with explicit stereochemical validation, then audit atom count, bond graph, stereocenters, protonation state, conformation boundary, and derivative framing."
+      }
     },
     {
       "queuePosition": 550,
@@ -15603,7 +15712,13 @@
       "route": "/article/vancomycin",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Vancomycin is a 1449.2-Da glycopeptide with 66 carbons, 24 oxygens, 9 nitrogens, 2 chlorines, many stereocenters, and no PubChem computed 3D conformer because the record exceeds its conformer limits. A one-call generated molecular portrait cannot be literally verified at this complexity, while a generic vial or powder would not establish chemical identity.",
+        "requiredResolution": "Approve a deterministic structure rendering from an authoritative connection table or an exact labeled product/specimen record, including form and salt, stereochemistry, protonation, hydration, formulation, structure source, license, and non-photographic boundary."
+      }
     },
     {
       "queuePosition": 551,
@@ -15616,7 +15731,13 @@
       "route": "/article/viral-microbiota",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "NLM MeSH treats Viral Microbiome as an entry term for Virome, and the local page states that it is a redirect and cross-reference to the comprehensive virome page while still occupying a separate canonical route. A separate image would duplicate or contradict one controlled concept.",
+        "requiredResolution": "Retire this route to a permanent alias of virome, or define a narrower non-duplicative niche, specimen, viral fraction, sequencing method, taxonomic scope, population, and evidence boundary before media review."
+      }
     },
     {
       "queuePosition": 552,
@@ -15629,7 +15750,13 @@
       "route": "/article/virome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "MeSH defines a virome as all viruses within a particular biological niche. The route combines bacteriophages, eukaryotic viruses, endogenous elements, many host sites and diseases, ecological interactions, sequencing observations, and therapy; no exact niche, specimen, composition, taxonomy, or measured community is selected.",
+        "requiredResolution": "Define one biological niche and specimen, collection and viral-enrichment protocol, sequencing platform and database version, taxonomic or vOTU composition, abundance threshold, host assignment method, population/model, comparator, time point, and whether the image represents measured data or a reviewed orientation atlas."
+      }
     },
     {
       "queuePosition": 553,
