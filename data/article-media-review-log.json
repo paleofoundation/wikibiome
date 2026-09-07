@@ -14462,6 +14462,78 @@
       "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC7217228/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC6041728/", "https://pubmed.ncbi.nlm.nih.gov/33462485/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC11389083/", "local:data/content.generated.json#/pages/mendelian-randomization"],
       "requiredResolution": "Center estimands, assumptions, instruments, harmonization, multiplicity, replication, sensitivity, ancestry and taxonomic limits, and cautious interpretation.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metabolic-syndrome",
+      "controlledIdentifier": "MeSH:D024821",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The syndrome is reduced to contradictory cross-sectional nickel studies while prevalence comparisons and oxidative-stress markers risk implying causality.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D024821", "local:data/content.generated.json#/pages/metabolic-syndrome"],
+      "requiredResolution": "Define diagnostic criteria, specimen/biomarker, exposure, timing, kidney adjustment, population, covariates, multiplicity, and prospective evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metabolomics",
+      "controlledIdentifier": "MeSH:D055432",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A measurement discipline is presented as a platform and biomarker catalog with analytical generalizations and no specimen, identification, QC, normalization, or validation standards.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D055432", "https://pubmed.ncbi.nlm.nih.gov/24039616/", "https://pubmed.ncbi.nlm.nih.gov/34928621/", "local:data/content.generated.json#/pages/metabolomics"],
+      "requiredResolution": "Rebuild around design, specimen, preparation, platform, separation, ionization, calibration, QC, normalization, annotation confidence, validation, batch effects, and deposition.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-carcinogenesis",
+      "controlledIdentifier": "mechanism-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Distinct elements, species, routes, doses, tissues, and cancer sites are compressed into three universal mechanistic paradigms and one repair-inhibition theme.",
+      "checkedUrls": ["https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/carcinogens", "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/chromium", "https://dceg.cancer.gov/research/public-health-impact/occupation", "local:data/content.generated.json#/pages/metal-carcinogenesis"],
+      "requiredResolution": "Separate agent/species, exposure route, target site, human evidence, mechanistic model, dose, co-exposure, and regulatory classification.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-chelation-therapy",
+      "controlledIdentifier": "MeSH:D002612",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Prescription treatment is presented as a simplified chelator-by-metal protocol with approval, indication, threshold, first-line, safety, and efficacy claims requiring current toxicology guidance.",
+      "checkedUrls": ["https://www.fda.gov/drugs/medication-health-fraud/questions-and-answers-unapproved-chelation-products", "https://www.fda.gov/drugs/drug-safety-and-availability/fda-warns-consumers-about-potential-health-risks-using-thorne-researchs-captomer-products", "https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=1203&toxid=22", "local:data/content.generated.json#/pages/metal-chelation-therapy"],
+      "requiredResolution": "Replace protocols with a non-prescriptive, dated jurisdictional overview linked to toxicology guidance, exact approvals, contraindications, monitoring, source control, and emergency referral.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-resistance-genes",
+      "controlledIdentifier": "gene-family-ecology-umbrella;no-single-controlled-identifier",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Selected genes, taxa, environments, mobile elements, and co-selection examples become universal automatic AMR-selection and clinical-risk claims.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/38897736/", "https://pubmed.ncbi.nlm.nih.gov/35170159/", "local:data/content.generated.json#/pages/metal-resistance-genes"],
+      "requiredResolution": "Separate resistance mechanisms and require host-linked genomic and functional evidence, expression, transfer, metal species/concentration, environment, and clinical outcome.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-sensing",
+      "controlledIdentifier": "regulatory-system-umbrella;no-single-controlled-identifier",
+      "batchId": "mechanisms-080",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Diverse organism-specific protein and RNA sensors become one compatibility and flow theory with universal virulence and therapeutic-target claims.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39658019/", "https://pubmed.ncbi.nlm.nih.gov/39755956/", "https://pubmed.ncbi.nlm.nih.gov/25160631/", "local:data/content.generated.json#/pages/metal-sensing"],
+      "requiredResolution": "Rebuild by sensor family, organism and identifier, cognate species, structure, stoichiometry, regulon, assay, condition, and in-vivo evidence; separate hypotheses from validated targets.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
