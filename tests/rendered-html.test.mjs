@@ -86,6 +86,13 @@ test("keeps internal navigation independent of the vinext client-link runtime", 
   assert.deepEqual(offenders, []);
 });
 
+test("keeps contextual article links recognizable without color alone", () => {
+  const css = readFileSync(new URL("../app/internal-concept-links.css", import.meta.url), "utf8");
+  assert.match(css, /a\[href\^="\/article\/"\]/);
+  assert.match(css, /text-decoration-line:\s*underline/);
+  assert.match(css, /:focus-visible/);
+});
+
 test("counts only recognized search-engine referrers as search landings", () => {
   assert.equal(classifySearchReferrer("https://www.google.com/search?q=nickel"), "google");
   assert.equal(classifySearchReferrer("https://www.google.co.uk/search?q=nickel"), "google");
@@ -877,6 +884,84 @@ test("server-renders complete Ammonia contextual coverage without overlinking", 
   const sitemap = await sitemapResponse.text();
   assert.match(history, /wiki\/concepts\/ammonia\.md/);
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/ammonia</loc>`));
+});
+
+test("server-renders complete Histidine contextual coverage without overlinking", async () => {
+  const contextIds = [
+    "amyloid-beta-aggregation",
+    "cysteine",
+    "heavy-metal-neurotoxicity",
+    "hydrogenase",
+    "infant-exposure",
+    "lactoferrin",
+    "matrix-metalloproteases",
+    "mis-metallation",
+    "nickel-transporters",
+    "nickel-urease",
+    "nife-hydrogenase",
+    "nutritional-immunity",
+    "pathogen-metal-acquisition",
+    "phenylalanine",
+    "superoxide-dismutase",
+    "tlr4",
+    "tnf-alpha",
+    "toll-like-receptors",
+    "transferrin",
+    "urease",
+    "alzheimers-disease",
+    "bismuth",
+    "copper",
+    "dialister-histaminiformans",
+    "helicobacter-pylori",
+    "lactobacillus-reuteri",
+    "nickel",
+    "pancreatic-cancer",
+    "proteus-mirabilis",
+  ];
+  assert.equal(contextIds.length, 29);
+  const [histidineResponse, ...contextResponses] = await Promise.all([
+    render("/article/histidine"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+  const [historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/histidine/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [histidineResponse, ...contextResponses, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const histidine = await histidineResponse.text();
+  assert.equal(htmlTitle(histidine), "Histidine — WikiBiome");
+  assert.equal(htmlCanonical(histidine), `${PUBLIC_ORIGIN}/article/histidine`);
+  assert.match(histidine, /Histidine as Metal Coordinator/i);
+  assert.match(histidine, /Histidine as Histamine Precursor/i);
+  assert.match(histidine, /Histidine in Oxidative Stress Defense/i);
+  for (const sourceId of [
+    "maier-2019-nickel-microbial-pathogenesis",
+    "nong-2026-sod-deficiency-oxidative-stress-ecoli",
+    "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
+  ]) {
+    assert.match(histidine, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    assert.equal(
+      (html.slice(articleStart, referencesStart).match(/href="\/article\/histidine"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Histidine link in ${contextIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/histidine\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/histidine</loc>`));
 });
 
 test("server-renders Catalase and its reviewed contextual-link batch", async () => {
@@ -3120,7 +3205,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /4066d7ef3d4c/);
+  assert.match(readiness, /da69a1e16285/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -3586,7 +3671,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "4066d7ef3d4cf6beccf662550dd80452b4cc4c95");
+  assert.equal(manifest.source.commit, "da69a1e162858a7e74632f9a292808c261281378");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 823);
   assert.equal(manifest.content.sources, 1939);

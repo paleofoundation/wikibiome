@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T06:57:10.633Z",
+  "generatedAt": "2026-09-07T07:22:12.057Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
+  "sourceCommit": "da69a1e162858a7e74632f9a292808c261281378",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 3240,
+  "revisions": 3265,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -799,6 +799,15 @@
         "wiki/entities/alzheimers-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -2280,6 +2289,15 @@
         "wiki/entities/bismuth.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/entities/bismuth.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -4729,6 +4747,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/entities/copper.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -5602,6 +5629,15 @@
         "wiki/entities/dialister-histaminiformans.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/entities/dialister-histaminiformans.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "7e9ce596d185e958af54a5fff28257f9ea0ac211",
           "date": "2026-09-01T13:19:39+03:00",
@@ -9654,6 +9690,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/entities/lactobacillus-reuteri.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -11470,6 +11515,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/entities/nickel.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -11603,15 +11657,6 @@
           "path": "wiki/entities/nickel.md",
           "additions": 147,
           "deletions": 126
-        },
-        {
-          "hash": "ef7fa013a793c2bb580ddcb6f0424f870181fbbe",
-          "date": "2026-04-09T21:51:02+03:00",
-          "author": "Karen Pendergrass",
-          "subject": "WikiBiome v7 — interactive microbiome metallomics encyclopedia",
-          "path": "wiki/entities/nickel.md",
-          "additions": 369,
-          "deletions": 0
         }
       ]
     },
@@ -12217,6 +12262,15 @@
         "wiki/entities/pancreatic-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/entities/pancreatic-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -14065,6 +14119,15 @@
         "wiki/entities/proteus-mirabilis.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/entities/proteus-mirabilis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -17738,6 +17801,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/amyloid-beta-aggregation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -19218,6 +19290,15 @@
         "wiki/concepts/cysteine.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/cysteine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -21739,6 +21820,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/heavy-metal-neurotoxicity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -22107,6 +22197,15 @@
         "wiki/concepts/hydrogenase.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/hydrogenase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",
@@ -22715,6 +22814,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/infant-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -23263,6 +23371,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/lactoferrin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23500,6 +23617,15 @@
         "wiki/concepts/matrix-metalloproteases.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/matrix-metalloproteases.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -24667,6 +24793,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/mis-metallation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -25397,6 +25532,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/nickel-transporters.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -25448,6 +25592,15 @@
         "wiki/concepts/nickel-urease.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/nickel-urease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -25536,6 +25689,15 @@
         "wiki/concepts/nife-hydrogenase.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/nife-hydrogenase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25672,6 +25834,15 @@
         "wiki/concepts/nutritional-immunity.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/nutritional-immunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -26063,6 +26234,15 @@
         "wiki/concepts/pathogen-metal-acquisition.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/pathogen-metal-acquisition.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -27140,6 +27320,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/superoxide-dismutase.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "9ea549e93d89a831a044e380a62acdbab67792f5",
           "date": "2026-09-01T16:23:31+03:00",
           "author": "Karen Pendergrass",
@@ -27379,6 +27568,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/tlr4.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27483,6 +27681,15 @@
       ],
       "revisions": [
         {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/tnf-alpha.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27498,6 +27705,15 @@
         "wiki/concepts/toll-like-receptors.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/toll-like-receptors.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -27783,6 +27999,15 @@
         "wiki/concepts/urease.md"
       ],
       "revisions": [
+        {
+          "hash": "da69a1e162858a7e74632f9a292808c261281378",
+          "date": "2026-09-07T10:18:03+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed Histidine concept coverage",
+          "path": "wiki/concepts/urease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
           "date": "2026-09-07T09:34:31+03:00",
