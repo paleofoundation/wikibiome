@@ -25,7 +25,7 @@ Polyunsaturated fatty acids (PUFAs) are fatty acids with multiple double bonds, 
 
 ## Microbiome Interface
 
-- PUFAs modulate gut microbiome composition: omega-3 supplementation increases Lactobacillus and Bifidobacterium; omega-6 excess favors Enterobacteriaceae.
+- PUFAs modulate [[gut-microbiome]] composition: omega-3 supplementation increases Lactobacillus and Bifidobacterium; omega-6 excess favors Enterobacteriaceae.
 - Gut bacteria metabolize PUFAs, producing conjugated linoleic acid (CLA) and other bioactive lipid derivatives.
 - PUFA membrane composition affects epithelial barrier integrity and susceptibility to [[lipid-peroxidation]].
 

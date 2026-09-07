@@ -32,7 +32,7 @@ platform: wikibiome
 
 Lachnobacterium is a genus of Gram-positive, obligate anaerobic bacteria within the family Lachnospiraceae (phylum Firmicutes). It is a commensal member of the healthy human gut microbiota, though relatively understudied compared to other Lachnospiraceae genera.
 
-Lachnobacterium has been identified as depleted in gynecological conditions involving gut microbiome disruption. Reduced abundance has been reported in endometriosis ([[svensson-2021-associations-endometriosis-gut-microbiota]], cross-sectional) and premature ovarian insufficiency ([[wu-2021-premature-ovarian-insufficiency-gut-microbiota]], cross-sectional), consistent with broader Lachnospiraceae loss observed in estrogen-related disorders.
+Lachnobacterium has been identified as depleted in gynecological conditions involving [[gut-microbiome]] disruption. Reduced abundance has been reported in endometriosis ([[svensson-2021-associations-endometriosis-gut-microbiota]], cross-sectional) and premature ovarian insufficiency ([[wu-2021-premature-ovarian-insufficiency-gut-microbiota]], cross-sectional), consistent with broader Lachnospiraceae loss observed in estrogen-related disorders.
 
 ## Cross-References
 

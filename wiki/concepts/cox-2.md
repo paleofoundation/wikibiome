@@ -46,7 +46,7 @@ The identical cascade is triggered by microbial LPS via TLR4 — making metal-dr
 
 NSAIDs block COX-2, reducing PGE₂ and inflammation. But they also:
 - Damage gut epithelium → increased [[intestinal-permeability]] → more LPS translocation → more COX-2 activation — a paradoxical feed-forward loop.
-- Disrupt the gut microbiome → dysbiosis → loss of [[colonization-resistance]].
+- Disrupt the [[gut-microbiome]] → dysbiosis → loss of [[colonization-resistance]].
 - Block prostaglandin-dependent mucosal protection in the stomach and small intestine.
 
 This is why [[aspirin]] and ibuprofen reduce inflammation systemically while causing GI injury locally — the microbiome pays the price for COX-2 inhibition.

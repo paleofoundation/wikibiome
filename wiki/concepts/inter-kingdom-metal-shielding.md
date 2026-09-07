@@ -16,7 +16,7 @@ last_substantive_update: 2026-04-09
 
 ## Overview
 
-Microbial communities do not acquire and use metals in isolation. Within biofilms, polymicrobial infections, and the gut microbiome, microbes engage in complex cooperative and competitive relationships mediated by metals -- sharing metallophores, concentrating metals in biofilm matrices, and collectively resisting host [[nutritional-immunity]]. These inter-species and inter-kingdom metal dynamics can amplify virulence beyond what any single pathogen achieves alone, and they connect biofilm biology, polymicrobial infection, and the gut ecosystem into a unified framework of community-level metal ecology.
+Microbial communities do not acquire and use metals in isolation. Within biofilms, polymicrobial infections, and the [[gut-microbiome]], microbes engage in complex cooperative and competitive relationships mediated by metals -- sharing metallophores, concentrating metals in biofilm matrices, and collectively resisting host [[nutritional-immunity]]. These inter-species and inter-kingdom metal dynamics can amplify virulence beyond what any single pathogen achieves alone, and they connect biofilm biology, polymicrobial infection, and the gut ecosystem into a unified framework of community-level metal ecology.
 
 ## Biofilm Metal Dynamics
 

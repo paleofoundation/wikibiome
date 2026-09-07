@@ -80,7 +80,7 @@ Dietary zinc imbalance affects *H. hepaticus* abundance in the gut. In a murine 
 ## Interkingdom Relationships
 
 - *H. hepaticus* relies on H2 produced by fermentative bacteria in the gut -- a form of syntrophic cross-feeding where the metabolic waste of anaerobic fermenters becomes the energy source for hydrogenase-equipped pathogens.
-- This positions *H. hepaticus* within the same ecological framework as [[helicobacter-pylori]]: both exploit the H2 economy of the gut microbiome, but in different anatomical niches.
+- This positions *H. hepaticus* within the same ecological framework as [[helicobacter-pylori]]: both exploit the H2 economy of the [[gut-microbiome]], but in different anatomical niches.
 
 ## Key Studies
 

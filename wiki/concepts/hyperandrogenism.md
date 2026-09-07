@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-Hyperandrogenism -- the clinical or biochemical excess of androgens (testosterone, androstenedione, DHEA-S) -- is a defining feature of [[pcos|polycystic ovary syndrome (PCOS)]], affecting 60-80% of women with the condition. It manifests as hirsutism, acne, androgenic alopecia, and oligo/anovulation. While conventionally attributed to ovarian and adrenal overproduction, the gut microbiome is now recognized as a significant modulator of androgen metabolism through the emerging gut-gonadal axis concept.
+Hyperandrogenism -- the clinical or biochemical excess of androgens (testosterone, androstenedione, DHEA-S) -- is a defining feature of [[pcos|polycystic ovary syndrome (PCOS)]], affecting 60-80% of women with the condition. It manifests as hirsutism, acne, androgenic alopecia, and oligo/anovulation. While conventionally attributed to ovarian and adrenal overproduction, the [[gut-microbiome]] is now recognized as a significant modulator of androgen metabolism through the emerging gut-gonadal axis concept.
 
 ## The Gut-Gonadal Axis
 

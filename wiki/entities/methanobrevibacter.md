@@ -25,7 +25,7 @@ The only archaeon represented in this wiki -- *Methanobrevibacter smithii* is th
 ## Archaeal Biology -- Not Bacteria
 
 - Archaea are a distinct domain of life, separate from Bacteria and Eukarya. *Methanobrevibacter* has a fundamentally different cell wall (pseudopeptidoglycan rather than peptidoglycan), membrane lipids (ether-linked isoprenoids), and metabolic machinery.
-- Despite being non-bacterial, *M. smithii* is detected by 16S rRNA sequencing and is increasingly recognized as an important functional member of the gut microbiome.
+- Despite being non-bacterial, *M. smithii* is detected by 16S rRNA sequencing and is increasingly recognized as an important functional member of the [[gut-microbiome]].
 - Estimated to colonize 70-80% of human guts, reaching densities of 10^8 to 10^10 organisms per gram of stool.
 
 ## Metal Dependencies

@@ -92,7 +92,7 @@ This degradation occurs in the proximal colon before flavonoids can be absorbed 
 
 ### Autism Spectrum Disorder
 
-- Identified in ASD-associated gut microbiome signatures in Chinese pediatric cohorts [[wang-2023-gut-microbiota-signature-asd-gi-symptoms-china]].
+- Identified in ASD-associated [[gut-microbiome]] signatures in Chinese pediatric cohorts [[wang-2023-gut-microbiota-signature-asd-gi-symptoms-china]].
 - Whether this reflects a primary role or secondary enrichment driven by the restrictive dietary patterns common in ASD requires further investigation.
 
 ## Clinical Significance

@@ -26,7 +26,7 @@ Isoflavones (genistein, daidzein, glycitein) are phytoestrogens found primarily 
 ## Microbiome Dependence
 
 - Only ~30-50% of Western populations harbor equol-producing bacteria (primarily certain Clostridia and [[gordonibacter]]). "Equol producers" have stronger clinical responses to soy isoflavones than "non-producers."
-- Equol production is a function of gut microbiome composition, making isoflavone efficacy a pharmacomicrobiomics question.
+- Equol production is a function of [[gut-microbiome]] composition, making isoflavone efficacy a pharmacomicrobiomics question.
 
 ## Disease Relevance
 

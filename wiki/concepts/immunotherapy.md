@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-Immunotherapy harnesses the patient's own immune system to fight disease, most notably cancer. Immune checkpoint inhibitors (ICIs) -- antibodies that block PD-1, PD-L1, or CTLA-4 -- have revolutionized oncology since their introduction in the 2010s, producing durable responses in melanoma, lung cancer, renal cell carcinoma, and other malignancies. However, only 20-40% of patients respond to ICIs, and the search for response predictors has converged on an unexpected target: the gut microbiome.
+Immunotherapy harnesses the patient's own immune system to fight disease, most notably cancer. Immune checkpoint inhibitors (ICIs) -- antibodies that block PD-1, PD-L1, or CTLA-4 -- have revolutionized oncology since their introduction in the 2010s, producing durable responses in melanoma, lung cancer, renal cell carcinoma, and other malignancies. However, only 20-40% of patients respond to ICIs, and the search for response predictors has converged on an unexpected target: the [[gut-microbiome]].
 
 In the WikiBiome framework, immunotherapy sits at the intersection of [[immune-balance]], [[microbial-biomarkers]], and metal-dependent immune regulation. The microbiome determines whether the immune system can be effectively unleashed against tumors, and metal status modulates both immune checkpoint expression and microbial community composition.
 

@@ -17,7 +17,7 @@ karen_brain_primitives: [1, 5]
 
 ## Overview
 
-Aspirin (acetylsalicylic acid) is a non-steroidal anti-inflammatory drug (NSAID) that irreversibly inhibits cyclooxygenase (COX) enzymes, suppressing prostaglandin synthesis. While widely used as an antiplatelet and anti-inflammatory agent, aspirin carries significant implications for the gut microbiome and intestinal barrier integrity.
+Aspirin (acetylsalicylic acid) is a non-steroidal anti-inflammatory drug (NSAID) that irreversibly inhibits cyclooxygenase (COX) enzymes, suppressing prostaglandin synthesis. While widely used as an antiplatelet and anti-inflammatory agent, aspirin carries significant implications for the [[gut-microbiome]] and intestinal barrier integrity.
 
 COX inhibition reduces protective prostaglandin production in the gastrointestinal mucosa, predisposing to NSAID enteropathy — a condition characterized by increased intestinal permeability, mucosal erosion, and shifts in microbial community composition ([[wang-2021-gut-microbiota-nsaid-enteropathy]]). The resulting barrier damage can facilitate bacterial translocation and low-grade endotoxemia.
 

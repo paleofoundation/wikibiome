@@ -31,7 +31,7 @@ platform: wikibiome
 
 # Ralstonia
 
-Ralstonia is a genus of Gram-negative, aerobic bacteria in the class Betaproteobacteria. While Wikipedia focuses on *R. solanacearum* (a plant pathogen), the WikiBiome-relevant species are *R. pickettii* and *R. metallidurans* (now *Cupriavidus metallidurans*) — organisms with extreme multi-metal tolerance that appear in human gut microbiome studies, particularly in metal-exposed populations.
+Ralstonia is a genus of Gram-negative, aerobic bacteria in the class Betaproteobacteria. While Wikipedia focuses on *R. solanacearum* (a plant pathogen), the WikiBiome-relevant species are *R. pickettii* and *R. metallidurans* (now *Cupriavidus metallidurans*) — organisms with extreme multi-metal tolerance that appear in human [[gut-microbiome]] studies, particularly in metal-exposed populations.
 
 ## Metal Resistance — The CzcCBA Paradigm
 

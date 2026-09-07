@@ -152,7 +152,7 @@ See [[dietary-metal-paradoxes]] for the broader pattern. AD-specific paradoxes i
 
 1. Can brain Cu be restored without raising peripheral levels? The Cu paradox demands compartment-specific therapeutics -- a major pharmacological challenge.
 2. What is the critical window for Pb exposure? Epigenetic evidence points to early life, but cumulative bone Pb suggests lifelong accumulation matters.
-3. Is the gut microbiome a viable therapeutic target for AD? FMT results in mice are promising; human trials are needed.
+3. Is the [[gut-microbiome]] a viable therapeutic target for AD? FMT results in mice are promising; human trials are needed.
 4. How do metal mixtures interact in AD risk? Nearly all studies examine single metals, but real-world exposure involves complex mixtures.
 5. Does aluminum genuinely contribute to AD, or is brain Al accumulation an epiphenomenon? Decades of debate remain unresolved.
 6. Can metallomic brain profiling become an in vivo diagnostic? Post-mortem data is extensive [[scholefield-2024-brain-metallomics-dementia]]; translating to MRI-based or biofluid-based diagnostics is the challenge.

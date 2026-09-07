@@ -22,7 +22,7 @@ platform: wikibiome
 
 # Parenteral Nutrition
 
-Parenteral nutrition (PN) -- the delivery of nutrients directly into the bloodstream via intravenous infusion -- is a life-saving intervention for patients who cannot absorb nutrition enterally. However, PN presents unique challenges for the metal-microbiome axis: it introduces metals directly into systemic circulation (bypassing gut-mediated regulation), it starves the gut microbiome of substrates, and it contains documented heavy metal contaminants, most notably [[aluminum]].
+Parenteral nutrition (PN) -- the delivery of nutrients directly into the bloodstream via intravenous infusion -- is a life-saving intervention for patients who cannot absorb nutrition enterally. However, PN presents unique challenges for the metal-microbiome axis: it introduces metals directly into systemic circulation (bypassing gut-mediated regulation), it starves the [[gut-microbiome]] of substrates, and it contains documented heavy metal contaminants, most notably [[aluminum]].
 
 ## Metal Contamination in PN
 

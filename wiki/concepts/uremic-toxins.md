@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Uremic Toxins
 
-Uremic toxins are metabolic waste products that accumulate in the blood when kidney function declines. A striking proportion of the most clinically significant uremic toxins are produced not by human metabolism but by the gut microbiome -- making the gut-kidney axis a central driver of [[chronic-kidney-disease]] progression and its cardiovascular complications. The connection to metals runs through two routes: heavy metals cause kidney damage that initiates uremic toxin accumulation, and the same metals reshape the gut microbiome toward toxin-producing species.
+Uremic toxins are metabolic waste products that accumulate in the blood when kidney function declines. A striking proportion of the most clinically significant uremic toxins are produced not by human metabolism but by the [[gut-microbiome]] -- making the gut-kidney axis a central driver of [[chronic-kidney-disease]] progression and its cardiovascular complications. The connection to metals runs through two routes: heavy metals cause kidney damage that initiates uremic toxin accumulation, and the same metals reshape the gut microbiome toward toxin-producing species.
 
 ## The Big Three: Microbiome-Derived Uremic Toxins
 

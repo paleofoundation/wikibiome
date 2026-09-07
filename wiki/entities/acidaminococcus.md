@@ -65,7 +65,7 @@ Iron:
 Consistently up-regulated in schizophrenia across multiple studies in a systematic vote-counting meta-analysis, alongside [[prevotella]], Succinivibrio, and other taxa [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]].
 
 ### Type 2 Diabetes
-Identified as a key disease-discriminating taxon (absolute R-value > 0.6) in a multi-omics study of the gut microbiome-metabolome axis in T2D patients [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]].
+Identified as a key disease-discriminating taxon (absolute R-value > 0.6) in a multi-omics study of the [[gut-microbiome]]-metabolome axis in T2D patients [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]].
 
 ### COVID-19 Recovery
 *Acidaminococcus massiliensis* was a key predictive feature in a random forest model distinguishing COVID-19 recovery status (AUC 0.99). Dynamic cycling was observed: enriched at baseline and 6 months but absent at 3 months, suggesting fluctuating dominance during immune reconstitution [[li-2025-long-term-gut-microbiota-alterations-covid-recovery]].

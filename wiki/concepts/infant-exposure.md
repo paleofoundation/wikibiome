@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Infant Exposure
 
-The developing infant represents a uniquely vulnerable window for heavy metal toxicity. Three factors converge to make the first years of life a critical period: an immature and rapidly assembling gut microbiome, a developing blood-brain barrier, and proportionally higher metal intake per kilogram of body weight. What happens during this window has consequences that can persist into adulthood.
+The developing infant represents a uniquely vulnerable window for heavy metal toxicity. Three factors converge to make the first years of life a critical period: an immature and rapidly assembling [[gut-microbiome]], a developing blood-brain barrier, and proportionally higher metal intake per kilogram of body weight. What happens during this window has consequences that can persist into adulthood.
 
 ## Why Infants Are Uniquely Vulnerable
 

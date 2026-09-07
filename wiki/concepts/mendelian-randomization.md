@@ -17,7 +17,7 @@ platform: wikibiome
 
 ## Overview
 
-Mendelian randomization (MR) is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (e.g., gut microbiome composition) and an outcome (e.g., disease). Because genetic variants are randomly allocated at conception ("nature's randomized trial"), MR can distinguish causation from correlation in observational data -- a critical capability for microbiome research, where most evidence is cross-sectional and confounded.
+Mendelian randomization (MR) is a statistical method that uses genetic variants as instrumental variables to infer causal relationships between an exposure (e.g., [[gut-microbiome]] composition) and an outcome (e.g., disease). Because genetic variants are randomly allocated at conception ("nature's randomized trial"), MR can distinguish causation from correlation in observational data -- a critical capability for microbiome research, where most evidence is cross-sectional and confounded.
 
 In the WikiBiome vault, MR studies provide the strongest available evidence for causal direction: does [[dysbiosis]] cause disease, or does disease cause dysbiosis? The answer is often "both" (bidirectional MR), which has profound implications for intervention timing and strategy.
 
@@ -105,7 +105,7 @@ MR studies serve as the causal backbone of WikiBiome's knowledge graph. While ob
 
 ## Cross-References
 
-- [[gut-microbiome]] -- The exposure most commonly instrumented in microbiome MR
+- gut microbiome -- The exposure most commonly instrumented in microbiome MR
 - [[biomarkers]] -- MR distinguishes causal targets from biomarkers
 - [[bifidobacterium]] -- The paradox case
 - [[akkermansia-muciniphila]] -- Consequence, not cause, in schizophrenia

@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-10
 
 # Microbial Biomarkers
 
-The use of gut microbiome composition, microbial metabolites, or microbial products as diagnostic, prognostic, or monitoring tools for disease. Unlike traditional clinical biomarkers, microbial biomarkers capture the functional state of the host-microbiome ecosystem and can reflect both local (gut) and systemic disease processes.
+The use of [[gut-microbiome]] composition, microbial metabolites, or microbial products as diagnostic, prognostic, or monitoring tools for disease. Unlike traditional clinical biomarkers, microbial biomarkers capture the functional state of the host-microbiome ecosystem and can reflect both local (gut) and systemic disease processes.
 
 ## Taxa-Based Biomarkers
 

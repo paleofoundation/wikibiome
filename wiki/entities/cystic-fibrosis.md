@@ -73,7 +73,7 @@ Indoor air quality, particularly mold exposure ([[aspergillus]], [[alternaria]])
 ## Open Questions
 
 - Can gallium-based therapies be combined with iron chelation to create a dual-strategy attack on *P. aeruginosa* iron metabolism?
-- Does the gut microbiome influence CF lung disease progression via the gut-lung axis?
+- Does the [[gut-microbiome]] influence CF lung disease progression via the gut-lung axis?
 - Can zinc-based nutritional immunity strategies complement iron restriction approaches?
 
 ## Cross-References

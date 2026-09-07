@@ -66,7 +66,7 @@ In the oral cavity, *S. salivarius* is a pioneer colonizer that establishes comp
 In the gut, *S. salivarius* detection carries different significance depending on context:
 
 - In healthy adults, it represents normal oral-gut transit at low abundance
-- In preterm neonates, enrichment of *S. salivarius* (along with *Rothia mucilaginosa*) was detected in the gut microbiome before NEC onset, suggesting oral-origin organisms as early warning biomarkers for [[necrotizing-enterocolitis]] [[liu-2022-nec-scfa-gut-microbiota-biomarkers-pilot]]
+- In preterm neonates, enrichment of *S. salivarius* (along with *Rothia mucilaginosa*) was detected in the [[gut-microbiome]] before NEC onset, suggesting oral-origin organisms as early warning biomarkers for [[necrotizing-enterocolitis]] [[liu-2022-nec-scfa-gut-microbiota-biomarkers-pilot]]
 - In [[fibromyalgia]], *S. salivarius* was among 19 differentially abundant zOTUs in a multi-omics diagnostic signature [[duran-gonzalez-2025-fibromyalgia-multi-omics-diagnosis]]
 - In [[chronic-kidney-disease]], sucroferric oxyhydroxide (iron phosphate binder) notably enriches *S. salivarius*, suggesting iron tolerance enables expansion under high-iron conditions
 

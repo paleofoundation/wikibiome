@@ -42,7 +42,7 @@ shared_signature_taxa: {}
 
 ## Overview
 
-Cholestasis is the impairment or cessation of bile flow from the liver to the duodenum. It can be intrahepatic (hepatocyte or bile ductule dysfunction) or extrahepatic (mechanical obstruction). Beyond its direct hepatic consequences, cholestasis profoundly disrupts the gut microbiome by removing bile acids — a major ecological regulator — from the intestinal environment.
+Cholestasis is the impairment or cessation of bile flow from the liver to the duodenum. It can be intrahepatic (hepatocyte or bile ductule dysfunction) or extrahepatic (mechanical obstruction). Beyond its direct hepatic consequences, cholestasis profoundly disrupts the [[gut-microbiome]] by removing bile acids — a major ecological regulator — from the intestinal environment.
 
 ## Microbiome Associations
 

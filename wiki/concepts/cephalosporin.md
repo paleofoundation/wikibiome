@@ -17,7 +17,7 @@ karen_brain_primitives: [4, 5]
 
 # Cephalosporins
 
-Cephalosporins are a class of beta-lactam antibiotics (five generations) that inhibit bacterial cell wall synthesis by binding penicillin-binding proteins. They are among the most prescribed antibiotic classes and among the most disruptive to the gut microbiome.
+Cephalosporins are a class of beta-lactam antibiotics (five generations) that inhibit bacterial cell wall synthesis by binding penicillin-binding proteins. They are among the most prescribed antibiotic classes and among the most disruptive to the [[gut-microbiome]].
 
 ## Microbiome Disruption
 

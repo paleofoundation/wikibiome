@@ -52,7 +52,7 @@ Premature ovarian insufficiency (POI), previously called premature ovarian failu
 
 ## Microbiome Associations
 
-POI patients show distinct gut microbiome alterations compared to age-matched controls:
+POI patients show distinct [[gut-microbiome]] alterations compared to age-matched controls:
 
 - Bacteroides enrichment — Elevated Bacteroides species in POI patients; in mouse models, [[bacteroides-fragilis]] gavage caused ovarian fibrosis, providing causal evidence that specific gut bacteria can directly damage ovarian tissue [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]]
 - Prevotella enrichment — Enriched in POI; gram-negative anaerobe associated with gut [[inflammation]] and altered sex hormone profiles

@@ -85,7 +85,7 @@ The co-occurrence of metal resistance and antibiotic resistance genes on mobile 
 The primary clinical burden: ventilator-associated pneumonia (VAP), catheter-associated bloodstream infections (CLABSI), wound infections, and urinary tract infections — predominantly in ICU patients. Carbapenem-resistant *A. baumannii* (CRAB) is a WHO Priority 1 pathogen with limited treatment options.
 
 ### Cardiovascular Associations
-Enriched in the gut microbiome of acute coronary syndrome patients post-STEMI compared to healthy controls [[gao-2020-gut-microbial-biomarkers-acs-post-stemi]]. Its presence in the gut — despite being an aerobic organism that prefers environmental over gut niches — suggests translocation or metabolic product-mediated systemic [[inflammation]] in cardiovascular disease.
+Enriched in the [[gut-microbiome]] of acute coronary syndrome patients post-STEMI compared to healthy controls [[gao-2020-gut-microbial-biomarkers-acs-post-stemi]]. Its presence in the gut — despite being an aerobic organism that prefers environmental over gut niches — suggests translocation or metabolic product-mediated systemic [[inflammation]] in cardiovascular disease.
 
 ### Infant Gut and Metal Exposure
 Serum metal levels in infants correlate with *Acinetobacter* abundance, suggesting that early-life metal exposure shapes initial colonization [[yan-2025-infant-serum-metals-gut-microbiota-china]]. Elevated heavy metal burden in infants may select for metal-resistant *Acinetobacter* strains in the developing gut microbiome.

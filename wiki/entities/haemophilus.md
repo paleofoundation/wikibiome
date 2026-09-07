@@ -24,7 +24,7 @@ conditions_depleted_in: [schizophrenia]
 
 Haemophilus is a genus of small, Gram-negative, facultatively anaerobic coccobacilli that inhabit the upper respiratory tract, oral cavity, and gastrointestinal tract. The genus name literally means "blood-loving" -- a direct reference to its absolute requirement for heme-derived growth factors (X factor, hemin) and NAD (V factor) that it cannot synthesize on its own. This metal dependency makes *Haemophilus* a revealing indicator of iron ecology across body sites.
 
-While *H. influenzae* dominates clinical attention as a respiratory pathogen, the species most commonly encountered in gut microbiome studies is Haemophilus parainfluenzae, a commensal of the oropharynx that appears across esophageal, gastric, and intestinal niches. Its enrichment in inflammatory conditions of the esophagus and gut positions it as a marker of oral-gut microbial translocation and disrupted mucosal immunity.
+While *H. influenzae* dominates clinical attention as a respiratory pathogen, the species most commonly encountered in [[gut-microbiome]] studies is Haemophilus parainfluenzae, a commensal of the oropharynx that appears across esophageal, gastric, and intestinal niches. Its enrichment in inflammatory conditions of the esophagus and gut positions it as a marker of oral-gut microbial translocation and disrupted mucosal immunity.
 
 ## Metal Dependencies
 

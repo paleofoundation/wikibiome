@@ -74,7 +74,7 @@ This has profound implications: the metal burden of a grandmother may influence 
 
 ## Microbiome-Epigenome Interactions
 
-The gut microbiome influences host epigenetics through several mechanisms:
+The [[gut-microbiome]] influences host epigenetics through several mechanisms:
 
 - SCFA-mediated histone modification: [[butyrate|Butyrate]] is a potent HDAC inhibitor, promoting histone acetylation and open chromatin in colonocytes and immune cells. This is one of the primary mechanisms by which butyrate exerts anti-inflammatory and anti-cancer effects. Loss of butyrate-producing bacteria reduces this epigenetic regulation.
 - Folate production: Gut bacteria synthesize folate and other B vitamins essential for the one-carbon metabolism cycle that produces SAM. [[dysbiosis]] that reduces folate-producing organisms may limit methyl donor availability, compounding metal-induced SAM depletion.

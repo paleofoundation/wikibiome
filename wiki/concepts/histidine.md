@@ -73,7 +73,7 @@ Free histidine also acts as a direct antioxidant through:
 
 ## Prenatal Lead and Histidine Metabolism
 
-Prenatal [[lead]] exposure differentially affects histidine biosynthesis pathways in the developing gut microbiome, with trimester-specific effects. L-histidine biosynthesis was among the amino acid pathways uniquely affected by trimester-specific Pb exposure [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].
+Prenatal [[lead]] exposure differentially affects histidine biosynthesis pathways in the developing [[gut-microbiome]], with trimester-specific effects. L-histidine biosynthesis was among the amino acid pathways uniquely affected by trimester-specific Pb exposure [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].
 
 ## Open Questions
 

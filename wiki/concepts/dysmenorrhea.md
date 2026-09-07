@@ -61,7 +61,7 @@ A Mendelian randomization study identified causal relationships between specific
 
 ### Mechanistic Pathways
 
-The gut microbiome influences dysmenorrhea through several routes:
+The [[gut-microbiome]] influences dysmenorrhea through several routes:
 
 - [[estrobolome]]: Gut bacteria with [[beta-glucuronidase]] activity deconjugate estrogens, increasing circulating estradiol. Higher estrogen drives endometrial proliferation and prostaglandin production.
 - Systemic inflammation: [[dysbiosis]] increases intestinal permeability and LPS translocation, amplifying the baseline inflammatory state that worsens menstrual pain.

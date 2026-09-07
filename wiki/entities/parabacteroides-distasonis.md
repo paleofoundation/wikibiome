@@ -38,7 +38,7 @@ conditions_depleted_in:
 
 ## Overview
 
-Parabacteroides distasonis is a Gram-negative obligate anaerobe formerly classified within *Bacteroides*. It is a core member of the healthy human gut microbiome, typically found in the colon where it contributes to polysaccharide degradation and [[bile-acid-metabolism]].
+Parabacteroides distasonis is a Gram-negative obligate anaerobe formerly classified within *Bacteroides*. It is a core member of the healthy human [[gut-microbiome]], typically found in the colon where it contributes to polysaccharide degradation and [[bile-acid-metabolism]].
 
 ## Metal Dependencies
 

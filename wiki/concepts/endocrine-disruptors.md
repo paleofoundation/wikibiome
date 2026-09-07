@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Endocrine Disruptors
 
-Exogenous chemicals that interfere with hormone synthesis, secretion, transport, binding, or elimination, mimicking or blocking endogenous hormones at physiologically relevant concentrations. In the metallomics-microbiome framework, endocrine disruptors occupy a critical intersection: heavy metals act as endocrine disruptors directly (metalloestrogens), while also reshaping the gut microbiome in ways that amplify hormonal disruption through the [[estrobolome]].
+Exogenous chemicals that interfere with hormone synthesis, secretion, transport, binding, or elimination, mimicking or blocking endogenous hormones at physiologically relevant concentrations. In the metallomics-microbiome framework, endocrine disruptors occupy a critical intersection: heavy metals act as endocrine disruptors directly (metalloestrogens), while also reshaping the [[gut-microbiome]] in ways that amplify hormonal disruption through the [[estrobolome]].
 
 ## Metalloestrogens
 

@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Autoimmunity
 
-Autoimmunity occurs when the immune system attacks the body's own tissues. What has emerged over the past two decades is that the gut microbiome is not merely associated with autoimmune disease -- it is a mechanistic driver of immune tolerance breakdown. Metals add a second layer: they reshape microbial communities, disrupt barrier function, and directly modulate immune cell behavior, creating conditions that favor autoimmune activation.
+Autoimmunity occurs when the immune system attacks the body's own tissues. What has emerged over the past two decades is that the [[gut-microbiome]] is not merely associated with autoimmune disease -- it is a mechanistic driver of immune tolerance breakdown. Metals add a second layer: they reshape microbial communities, disrupt barrier function, and directly modulate immune cell behavior, creating conditions that favor autoimmune activation.
 
 ## The Three Pillars of Autoimmune Initiation
 

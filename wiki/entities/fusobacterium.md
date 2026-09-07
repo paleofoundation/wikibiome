@@ -20,7 +20,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Fusobacterium
 
-A Gram-negative, obligate anaerobic bacterium that has emerged as the most consistently CRC-associated microorganism in human gut microbiome studies. *F. nucleatum* is the primary species of concern, originally a commensal of the oral cavity that translocates to colorectal tumors where it promotes tumorigenesis through multiple virulence mechanisms. It was the most frequently cancer-enriched genus across 45 cancer studies in a major meta-analysis [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
+A Gram-negative, obligate anaerobic bacterium that has emerged as the most consistently CRC-associated microorganism in human [[gut-microbiome]] studies. *F. nucleatum* is the primary species of concern, originally a commensal of the oral cavity that translocates to colorectal tumors where it promotes tumorigenesis through multiple virulence mechanisms. It was the most frequently cancer-enriched genus across 45 cancer studies in a major meta-analysis [[islam-2022-opposing-microbiome-signatures-autoimmune-cancer]].
 
 ## Mechanisms of Colorectal Carcinogenesis
 

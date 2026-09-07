@@ -15,7 +15,7 @@ last_substantive_update: 2026-04-09
 
 ## Overview
 
-The estrobolome is the aggregate of enteric bacterial genes whose products are capable of metabolizing estrogens. First proposed by Plottel and Blaser (2011), the concept describes how the gut microbiome acts as an endocrine organ, modulating circulating estrogen levels through enzymatic deconjugation.
+The estrobolome is the aggregate of enteric bacterial genes whose products are capable of metabolizing estrogens. First proposed by Plottel and Blaser (2011), the concept describes how the [[gut-microbiome]] acts as an endocrine organ, modulating circulating estrogen levels through enzymatic deconjugation.
 
 This concept is central to understanding why gut [[dysbiosis]] contributes to estrogen-dependent conditions including [[endometriosis]], breast cancer, and [[pcos]].
 

@@ -14,7 +14,7 @@ karen_brain_primitives: [1, 3, 5, 9]
 
 # Alpha-Synuclein
 
-A 140-amino-acid presynaptic protein whose misfolding into insoluble fibrils and their deposition in Lewy bodies is the defining neuropathological hallmark of [[parkinsons-disease]] and the broader family of synucleinopathies (including Lewy body dementia and multiple system atrophy). Under normal conditions, alpha-synuclein is a soluble monomer involved in synaptic vesicle regulation and neurotransmitter release. The transition from functional monomer to toxic fibril is the central event in Parkinson's pathogenesis — and the gut microbiome is increasingly implicated in triggering it.
+A 140-amino-acid presynaptic protein whose misfolding into insoluble fibrils and their deposition in Lewy bodies is the defining neuropathological hallmark of [[parkinsons-disease]] and the broader family of synucleinopathies (including Lewy body dementia and multiple system atrophy). Under normal conditions, alpha-synuclein is a soluble monomer involved in synaptic vesicle regulation and neurotransmitter release. The transition from functional monomer to toxic fibril is the central event in Parkinson's pathogenesis — and the [[gut-microbiome]] is increasingly implicated in triggering it.
 
 ## The Gut-First Hypothesis (Braak Staging)
 

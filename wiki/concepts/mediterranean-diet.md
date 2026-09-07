@@ -35,7 +35,7 @@ The strongest metallomic-relevant evidence for the MD comes from PCOS:
 - Endometriosis: MD recommended in nutritional guidelines for endometriosis, emphasizing anti-inflammatory and antioxidant properties [[barnard-2023-nutrition-prevention-treatment-endometriosis]], [[piecuch-2022-nutrition-endometriosis-review]]].
 - IBD: anti-inflammatory dietary patterns including MD show benefit in Crohn's and UC.
 - Rheumatoid arthritis: MD's anti-inflammatory profile relevant to autoimmune disease management.
-- Neurodegeneration: MD adherence associated with reduced AD and PD risk, potentially through gut microbiome modulation and reduced neuroinflammation.
+- Neurodegeneration: MD adherence associated with reduced AD and PD risk, potentially through [[gut-microbiome]] modulation and reduced neuroinflammation.
 
 ## The Fiber Connection
 

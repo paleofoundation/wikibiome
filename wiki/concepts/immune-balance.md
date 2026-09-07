@@ -50,7 +50,7 @@ The innate immune system provides the first response and shapes downstream adapt
 
 ## Microbiome Modulation of Immune Balance
 
-The gut microbiome is the largest immune organ by proxy:
+The [[gut-microbiome]] is the largest immune organ by proxy:
 
 - [[short-chain-fatty-acids]] (butyrate, propionate, acetate) -- potent Treg inducers. Butyrate promotes FoxP3 expression via HDAC inhibition. Metal-driven [[dysbiosis]] depletes SCFA producers, removing this Treg brake.
 - Segmented filamentous bacteria (SFB) -- the canonical Th17 inducers in the gut. Their presence/absence shifts the Th17/Treg ratio.

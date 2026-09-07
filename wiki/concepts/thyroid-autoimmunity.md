@@ -16,7 +16,7 @@ platform: wikibiome
 
 Autoimmune thyroid diseases (AITDs) -- [[hashimotos-thyroiditis]] and [[graves-disease]] -- are the most common organ-specific autoimmune conditions, affecting 5-10% of the global population. The thyroid gland sits at a remarkable intersection of metal biology and immune regulation: it concentrates more [[selenium]] than any other organ, depends on [[iodine]] for hormone synthesis, requires [[iron]] for thyroperoxidase activity, and is vulnerable to displacement by toxic metals that exploit these essential mineral pathways.
 
-The emerging gut-thyroid axis adds another dimension: the gut microbiome modulates thyroid function through nutrient absorption, immune education, and metabolite production.
+The emerging gut-thyroid axis adds another dimension: the [[gut-microbiome]] modulates thyroid function through nutrient absorption, immune education, and metabolite production.
 
 ## The Mineral Dependencies
 

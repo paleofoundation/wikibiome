@@ -21,7 +21,7 @@ Beta-lactamases are bacterial enzymes that hydrolyze the beta-lactam ring of pen
 
 ## Co-Selection with Metal Resistance
 
-Beta-lactamase genes frequently co-locate with metal resistance genes on the same plasmids and mobile genetic elements — meaning environmental metal exposure selects for beta-lactamase-producing bacteria without antibiotic exposure [[baker-austin-2006-co-selection-antibiotic-metal-resistance]] [[srivastava-2016-environmental-resistance-microbes-review]]. This is documented in CKD gut microbiome [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].
+Beta-lactamase genes frequently co-locate with metal resistance genes on the same plasmids and mobile genetic elements — meaning environmental metal exposure selects for beta-lactamase-producing bacteria without antibiotic exposure [[baker-austin-2006-co-selection-antibiotic-metal-resistance]] [[srivastava-2016-environmental-resistance-microbes-review]]. This is documented in CKD [[gut-microbiome]] [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].
 
 ## WikiBiome Relevance
 

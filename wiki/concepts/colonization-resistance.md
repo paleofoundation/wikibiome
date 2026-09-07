@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Colonization Resistance
 
-The collective ability of the resident gut microbiome to prevent colonization by exogenous pathogens and suppress expansion of resident pathobionts. Colonization resistance is not a property of any single organism but an emergent function of the whole microbial community -- a biological firewall built from nutrient competition, metabolite-mediated inhibition, immune priming, and ecological niche occupation. When this firewall fails -- through antibiotics, heavy metal exposure, dietary disruption, or disease-driven [[dysbiosis]] -- the consequences cascade through virtually every disease domain covered in this wiki.
+The collective ability of the resident [[gut-microbiome]] to prevent colonization by exogenous pathogens and suppress expansion of resident pathobionts. Colonization resistance is not a property of any single organism but an emergent function of the whole microbial community -- a biological firewall built from nutrient competition, metabolite-mediated inhibition, immune priming, and ecological niche occupation. When this firewall fails -- through antibiotics, heavy metal exposure, dietary disruption, or disease-driven [[dysbiosis]] -- the consequences cascade through virtually every disease domain covered in this wiki.
 
 ## Mechanisms
 
@@ -97,4 +97,4 @@ Colonization resistance has a distinctly metallomic dimension that distinguishes
 - [[antimicrobial-resistance]] -- antibiotic disruption of colonization resistance
 - [[iron]] -- luminal iron ecology shapes competitive dynamics
 - [[lactoferrin]] -- iron chelation supporting colonization resistance
-- [[gut-microbiome]] -- colonization resistance as an emergent community property
+- gut microbiome -- colonization resistance as an emergent community property

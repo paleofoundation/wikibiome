@@ -66,7 +66,7 @@ Polyphenols act as selective antimicrobials and prebiotics:
 ## Disease-Specific Evidence
 
 ### Neurodegenerative Diseases
-Polyphenols show neuroprotective effects across multiple neurodegenerative conditions. In Parkinson's disease, dietary polyphenol intake correlates with favorable gut microbiome composition and reduced [[neuroinflammation]] [[cilia-2020-microbiome-gut-dietary-interventions-parkinsons]]. The Mediterranean diet's neuroprotective association is partly attributed to its high polyphenol content [[perez-pardo-2022-mediterranean-diet-parkinsons-microbiome]].
+Polyphenols show neuroprotective effects across multiple neurodegenerative conditions. In Parkinson's disease, dietary polyphenol intake correlates with favorable [[gut-microbiome]] composition and reduced [[neuroinflammation]] [[cilia-2020-microbiome-gut-dietary-interventions-parkinsons]]. The Mediterranean diet's neuroprotective association is partly attributed to its high polyphenol content [[perez-pardo-2022-mediterranean-diet-parkinsons-microbiome]].
 
 ### Schizophrenia
 Polyphenols including EGCG, resveratrol, and curcumin demonstrate antipsychotic-like effects in preclinical models through antioxidant, anti-inflammatory, and gut-microbiome-modulating mechanisms. Their metal chelation properties may contribute by reducing metal-driven [[oxidative-stress]] in the brain [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].

@@ -67,7 +67,7 @@ Copper stabilizes hypoxia-inducible factor 1-alpha (HIF-1alpha) by mediating inh
 - Environmental: Farm soil contamination from pesticides and fungicides -- high soil Cu correlated with RA disease activity in Taiwan [[yang-2016-copper-farm-soils-rheumatoid-arthritis]]. Copper and nickel commonly co-contaminate freshwater environments (log-log correlation R2 = 0.493 across 239 global water bodies) [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
 - Occupational: Mining, smelting, welding, electronics manufacturing, brick kiln factories. A randomized controlled trial in Pakistani brick kiln workers (n=152) found blood Cu levels of 1,246 +/- 20.7 ug/L at baseline, substantially above population norms [[feng-2022-pediococcus-gr1-heavy-metals-gut-microbiota-metabolome]].
 - Supplements and devices: Copper IUDs; multivitamins; some traditional remedies.
-- Prenatal transfer: Maternal hair trace element levels predict infant gut microbiome diversity; Shannon diversity in 3-month-old infants correlated negatively with copper exposure [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
+- Prenatal transfer: Maternal hair trace element levels predict infant [[gut-microbiome]] diversity; Shannon diversity in 3-month-old infants correlated negatively with copper exposure [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
 
 ## Mechanisms of Toxicity
 

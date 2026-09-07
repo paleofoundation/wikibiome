@@ -73,7 +73,7 @@ A critical finding: in metabolite-depleted stationary phase cells, manganese sup
 
 ## Ecological Role
 
-*Borrelia* is an obligate pathogen maintained in a tick-mammal transmission cycle. It does not colonize the human gut microbiome and has no commensal niche. Its ecological strategy is one of extreme metabolic minimalism: a very small genome (approximately 1.5 Mb), limited biosynthetic capacity, and dependence on the host for most nutrients. The iron-free biology is part of this minimalist strategy -- rather than investing in complex iron acquisition systems, *Borrelia* simply abandoned iron dependency entirely.
+*Borrelia* is an obligate pathogen maintained in a tick-mammal transmission cycle. It does not colonize the human [[gut-microbiome]] and has no commensal niche. Its ecological strategy is one of extreme metabolic minimalism: a very small genome (approximately 1.5 Mb), limited biosynthetic capacity, and dependence on the host for most nutrients. The iron-free biology is part of this minimalist strategy -- rather than investing in complex iron acquisition systems, *Borrelia* simply abandoned iron dependency entirely.
 
 ### Comparison with Other Metal Strategies
 

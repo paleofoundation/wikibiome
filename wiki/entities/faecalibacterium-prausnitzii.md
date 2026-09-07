@@ -39,7 +39,7 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 - The landmark Coryell et al. (2018) study demonstrated that *F. prausnitzii* is sufficient for at least partial protection against acute arsenic toxicity [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]].
 - Germ-free mice mono-associated with *E. coli* alone died rapidly from arsenic exposure; bi-colonization with *E. coli + F. prausnitzii* significantly extended survival.
 - *F. prausnitzii* abundance was consistently associated with survival across human stool transplant experiments.
-- The gut microbiome is required for full arsenic protection; antibiotic-treated mice accumulate more arsenic in organs and excrete less in feces.
+- The [[gut-microbiome]] is required for full arsenic protection; antibiotic-treated mice accumulate more arsenic in organs and excrete less in feces.
 
 ### Cadmium and Lead
 

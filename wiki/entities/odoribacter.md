@@ -84,7 +84,7 @@ Found in tissue-associated bacterial communities of rectal carcinoma [[thomas-20
 Implicated in extraintestinal manifestations of [[inflammatory-bowel-disease]] through MR analyses, suggesting that *Odoribacter*'s metabolic products have systemic effects extending beyond the gut lumen [[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]]. Its depletion in IBD is consistent with the broader loss of SCFA-producing Bacteroidetes commensals.
 
 ### Multiple Sclerosis
-Depleted in MS patients — specifically, decreased *Barnesiellaceae*, *Barnesiella*, and *Odoribacter* in the bacterial microbiome, while *Eggerthellaceae* and *Blautia* increase [[yadav-2022-ms-gut-mycobiome-fungal-bacterial]]. The MS gut microbiome also shows an increased fungal-to-bacterial richness ratio, suggesting that *Odoribacter* depletion may facilitate fungal expansion through reduced butyrate production.
+Depleted in MS patients — specifically, decreased *Barnesiellaceae*, *Barnesiella*, and *Odoribacter* in the bacterial microbiome, while *Eggerthellaceae* and *Blautia* increase [[yadav-2022-ms-gut-mycobiome-fungal-bacterial]]. The MS [[gut-microbiome]] also shows an increased fungal-to-bacterial richness ratio, suggesting that *Odoribacter* depletion may facilitate fungal expansion through reduced butyrate production.
 
 ## Metformin Treatment Response Prediction
 

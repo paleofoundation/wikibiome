@@ -17,7 +17,7 @@ karen_brain_primitives: [4, 5]
 
 # Oxalate
 
-Oxalate (oxalic acid) is a dietary compound (spinach, rhubarb, nuts, chocolate) and endogenous metabolic end-product that forms insoluble calcium oxalate crystals — the primary component of ~80% of kidney stones. The gut microbiome is the primary route of oxalate degradation via Oxalobacter formigenes and other oxalate-degrading bacteria ([[oxalobacter]]).
+Oxalate (oxalic acid) is a dietary compound (spinach, rhubarb, nuts, chocolate) and endogenous metabolic end-product that forms insoluble calcium oxalate crystals — the primary component of ~80% of kidney stones. The [[gut-microbiome]] is the primary route of oxalate degradation via Oxalobacter formigenes and other oxalate-degrading bacteria ([[oxalobacter]]).
 
 ## Microbiome Connection
 

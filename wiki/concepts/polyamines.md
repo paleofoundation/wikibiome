@@ -22,7 +22,7 @@ platform: wikibiome
 
 # Polyamines
 
-Polyamines -- putrescine, spermidine, spermine, and cadaverine -- are small polycationic molecules produced by both the host and the gut microbiome. They regulate cell growth, differentiation, apoptosis, and immune function. In the gut ecosystem, polyamines are metabolic products of amino acid decarboxylation, and their production by specific bacterial communities connects microbial ecology to cardiovascular health, cancer biology, neuroinflammation, and aging.
+Polyamines -- putrescine, spermidine, spermine, and cadaverine -- are small polycationic molecules produced by both the host and the [[gut-microbiome]]. They regulate cell growth, differentiation, apoptosis, and immune function. In the gut ecosystem, polyamines are metabolic products of amino acid decarboxylation, and their production by specific bacterial communities connects microbial ecology to cardiovascular health, cancer biology, neuroinflammation, and aging.
 
 ## The Major Polyamines
 

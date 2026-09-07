@@ -41,7 +41,7 @@ Despite their commensal dominance, Bacteroides species exhibit remarkable functi
 
 - Bacteroides dorei -- Produces TLR4-antagonist LPS that is immunoinhibitory, potentially preventing immune education. Enriched in early gut microbiomes of children who later develop [[type-1-diabetes]] [[davis-richardson-2015-bacteroides-dorei-t1d-model]].
 - Bacteroides uniformis -- Mentioned in [[chronic-kidney-disease]] context; propionate producer.
-- Bacteroides caccae -- Associated with prenatal lead exposure effects on childhood gut microbiome.
+- Bacteroides caccae -- Associated with prenatal lead exposure effects on childhood [[gut-microbiome]].
 - Bacteroides ovatus -- Arabinoxylan degradation specialist.
 
 ## The T1D-Bacteroides Connection

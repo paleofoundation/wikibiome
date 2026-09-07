@@ -88,7 +88,7 @@ Gut bacteria produce serotonin (5-HT), dopamine, GABA, norepinephrine, and hista
 ## Metal Disruption of the Gut-Brain Axis
 
 ### Lead and Neurodevelopment
-- Prenatal and early-life Pb exposure reshapes the child gut microbiome, reducing SCFA-producing commensals and increasing pathobionts [[tizabi-2023-lead-gut-microbiota-asd]].
+- Prenatal and early-life Pb exposure reshapes the child [[gut-microbiome]], reducing SCFA-producing commensals and increasing pathobionts [[tizabi-2023-lead-gut-microbiota-asd]].
 - Pb-induced dysbiosis alters neurotransmitter precursor production, potentially contributing to neurodevelopmental disorders including ASD and ADHD.
 - The developing gut-brain axis is particularly vulnerable during the critical windows of microbiome establishment and neural circuit formation.
 - Pb mimics Ca in synaptic signaling, disrupting neurotransmitter release at CNS synapses while simultaneously damaging the gut microbiome that produces neurotransmitter precursors.

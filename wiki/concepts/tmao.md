@@ -14,7 +14,7 @@ last_substantive_update: 2026-09-07
 
 # Trimethylamine N-Oxide (TMAO)
 
-A gut microbiome-derived metabolite that has emerged as one of the strongest microbial biomarkers for [[cardiovascular-disease]] risk. TMAO exemplifies how microbial metabolism of dietary nutrients can generate systemically toxic products -- a fundamentally different paradigm from pathogen-driven disease.
+A [[gut-microbiome]]-derived metabolite that has emerged as one of the strongest microbial biomarkers for [[cardiovascular-disease]] risk. TMAO exemplifies how microbial metabolism of dietary nutrients can generate systemically toxic products -- a fundamentally different paradigm from pathogen-driven disease.
 
 ## Biosynthesis Pathway
 

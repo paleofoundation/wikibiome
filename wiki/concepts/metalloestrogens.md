@@ -103,7 +103,7 @@ In practice, these mechanisms operate simultaneously, and the net effect on estr
 - No studies have evaluated chronic low-dose metalloestrogen exposure during critical developmental windows (prenatal, puberty, postmenopausal)
 - The interaction between metalloestrogen exposure and genetic susceptibility (e.g., BRCA1/2 carriers, CYP polymorphisms) is unexplored
 - Whether metalloestrogen activity is additive, synergistic, or antagonistic with organic xenoestrogens (BPA, phthalates) is unknown
-- The contribution of the gut microbiome's estrobolome to metalloestrogen processing has not been investigated
+- The contribution of the [[gut-microbiome]]'s estrobolome to metalloestrogen processing has not been investigated
 
 ## Key Sources
 

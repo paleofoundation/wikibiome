@@ -56,7 +56,7 @@ Manganese-parkinsonism provides the clearest occupational dose-response evidence
 - A worker with 20 years of welding exposure would be predicted to have nearly a 7-point increase in UPDRS3 score [[racette-2017-manganese-parkinsonism-welders]].
 - Mn primarily affects the basal ganglia (globus pallidus, striatum) rather than the substantia nigra, producing a phenotype distinct from idiopathic PD [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
 - Mn impairs autophagy at low concentrations; Drp1 inhibition protects against Mn-induced autophagic impairment [[ahmed-2025-metals-alzheimers-mechanistic-review]].
-- FMT in rats has alleviated Mn-induced neurotoxicity, linking Mn-parkinsonism to the gut microbiome [[racette-2017-manganese-parkinsonism-welders]].
+- FMT in rats has alleviated Mn-induced neurotoxicity, linking Mn-parkinsonism to the [[gut-microbiome]] [[racette-2017-manganese-parkinsonism-welders]].
 
 ### Copper: Brain Depletion (Shared with AD)
 

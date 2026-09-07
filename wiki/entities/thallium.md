@@ -74,7 +74,7 @@ Tl+ enters cells through:
 
 ## Microbiome Interactions
 
-The gut microbiome dimensions of thallium toxicity are virtually unstudied. Thallium was measured in infant serum alongside gut microbiota composition [[yan-2025-infant-serum-metals-gut-microbiota]], but direct microbiome effects have not been characterized.
+The [[gut-microbiome]] dimensions of thallium toxicity are virtually unstudied. Thallium was measured in infant serum alongside gut microbiota composition [[yan-2025-infant-serum-metals-gut-microbiota]], but direct microbiome effects have not been characterized.
 
 Theoretical considerations:
 - Bacterial potassium transport systems (Trk, Kdp, Kup) may also transport Tl+, potentially concentrating it in bacterial cells

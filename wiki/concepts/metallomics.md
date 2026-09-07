@@ -109,7 +109,7 @@ A distinct branch of metallomics focuses on detecting microbial metallophores --
 
 ## Microbial Metallomics
 
-The emerging field of microbial metallomics extends the metallomic approach to the gut microbiome and host-microbe metal interactions. The Pendergrass framework applies microbial metallomics to Parkinson's disease, examining how dietary/environmental metals reshape gut microbial communities through competitive metal stress, connecting peripheral metal-microbiome disruption to central neurodegeneration.
+The emerging field of microbial metallomics extends the metallomic approach to the [[gut-microbiome]] and host-microbe metal interactions. The Pendergrass framework applies microbial metallomics to Parkinson's disease, examining how dietary/environmental metals reshape gut microbial communities through competitive metal stress, connecting peripheral metal-microbiome disruption to central neurodegeneration.
 
 ## Metallomic Signatures as a Diagnostic Pillar
 

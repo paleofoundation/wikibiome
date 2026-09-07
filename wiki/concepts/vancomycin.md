@@ -26,7 +26,7 @@ Vancomycin is a glycopeptide antibiotic targeting Gram-positive bacteria by bind
 ## Microbiome Impact
 
 - Vancomycin dramatically reduces Gram-positive commensals (Firmicutes, especially [[lachnospiraceae]], [[ruminococcaceae]]) while sparing Gram-negatives → Proteobacteria bloom.
-- Early-life vancomycin exposure alters gut microbiome development and increases autoimmune diabetes risk in NOD mice [[candon-2015-antibiotics-early-life-gut-microbiome-autoimmune-diabetes-nod]].
+- Early-life vancomycin exposure alters [[gut-microbiome]] development and increases autoimmune diabetes risk in NOD mice [[candon-2015-antibiotics-early-life-gut-microbiome-autoimmune-diabetes-nod]].
 - Destroys [[colonization-resistance]] → enables secondary infections [[bing-2019-antibiotic-induced-dysbiosis-gut-microbiota]].
 
 ## VRE and Metal Co-Selection

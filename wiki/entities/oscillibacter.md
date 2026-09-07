@@ -46,7 +46,7 @@ Oscillibacter is a genus of Gram-negative, strictly anaerobic, motile bacteria w
 
 In the healthy gut, *Oscillibacter* is a moderately abundant member of the Firmicutes community that contributes to the SCFA pool and bile acid metabolism. Its ecological significance becomes apparent under stress:
 
-- Metal exposure indicator: The reproducible depletion of *Oscillibacter* under both cadmium and lead exposure makes it a candidate biomarker for environmental metal stress on the gut microbiome.
+- Metal exposure indicator: The reproducible depletion of *Oscillibacter* under both cadmium and lead exposure makes it a candidate biomarker for environmental metal stress on the [[gut-microbiome]].
 - Diet-responsive: On a low-carbohydrate, high-fat (non-ketogenic) diet, *Oscillibacter* was enriched alongside *Escherichia/Shigella*, and this LCD-associated community worsened colitis outcomes in mice -- contrasting with the ketogenic diet, which enriched beneficial *Akkermansia* and *Roseburia* instead ([[kong-2021-ketogenic-diet-colitis-ilc3-microbiome]], animal-model).
 - Metformin response: *Oscillibacter* increased in both healthy and T2D subjects after metformin treatment ([[elbere-2020-baseline-gut-microbiome-metformin-efficacy-t2d]], prospective-cohort).
 - Cancer ecology: In CRC tumor tissue, *Oscillibacter* abundance correlated with steroid biosynthesis and terpenoid pathways ([[loke-2018-metabolomics-16s-crc-mucosa]], cross-sectional). After FMT in CRC mice, *Oscillibacter* was negatively correlated with anti-cancer cytokines, suggesting its reduction may be beneficial in the tumor microenvironment ([[yu-2023-fmt-inhibits-crc-progression]], animal-model).

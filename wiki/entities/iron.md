@@ -18,7 +18,7 @@ source_count: 55
 
 # Iron (Fe)
 
-The most abundant transition metal in the human body and arguably the most consequential metal in biology. Iron sits at the center of a paradox that drives pathology across virtually every disease domain: organisms need it for oxygen transport, energy metabolism, DNA synthesis, and immune defense, yet its redox activity makes it dangerous when uncontrolled. This tension between necessity and toxicity shapes the ecology of the gut microbiome, the outcome of infections, and the trajectory of neurodegeneration, cancer, and cardiovascular disease.
+The most abundant transition metal in the human body and arguably the most consequential metal in biology. Iron sits at the center of a paradox that drives pathology across virtually every disease domain: organisms need it for oxygen transport, energy metabolism, DNA synthesis, and immune defense, yet its redox activity makes it dangerous when uncontrolled. This tension between necessity and toxicity shapes the ecology of the [[gut-microbiome]], the outcome of infections, and the trajectory of neurodegeneration, cancer, and cardiovascular disease.
 
 What sets iron apart from every other metal in this wiki is its role as the primary currency of the war between hosts and pathogens. The host sequesters iron to starve invaders. Pathogens evolve siderophores, hemolysins, and heme receptors to steal it back. The microbiome's composition at any given moment is, in large part, a reflection of who is winning the iron war.
 
@@ -282,7 +282,7 @@ Iron-containing enzymes are targets for disruption by toxic metals:
 - [[parkinsons-disease]] -- iron accumulation in substantia nigra; ferroptotic dopaminergic neuron death
 - [[alzheimers-disease]] -- iron accumulation in hippocampus and cortex; amyloid-beta aggregation
 - [[postpartum-depression]] -- iron deficiency anemia increases PPD risk 1.89-fold
-- [[gut-microbiome]] -- iron status shapes commensal vs pathogen balance
+- gut microbiome -- iron status shapes commensal vs pathogen balance
 - [[gut-brain-axis]] -- iron-microbiome-neurodegeneration link
 - [[nickel]] -- Ni disrupts Fe homeostasis via enzyme active site substitution and Fe-S cluster damage
 - [[copper]] -- Cu destroys Fe-S clusters; Fe/Cu ratio as cardiovascular biomarker

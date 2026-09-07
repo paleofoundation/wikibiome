@@ -31,7 +31,7 @@ Chronic [[inflammation]] (elevated IFN-γ, [[interleukin-6|IL-6]], [[tnf-alpha|T
 
 ## Microbiome Connection
 
-The gut microbiome determines tryptophan partitioning: [[dysbiosis]] → inflammation → IDO induction → tryptophan shunting from [[serotonin]] synthesis to kynurenine → QA accumulation in the brain. Restoring SCFA-producing commensals reduces inflammation → reduces IDO → restores serotonin production and reduces QA.
+The [[gut-microbiome]] determines tryptophan partitioning: [[dysbiosis]] → inflammation → IDO induction → tryptophan shunting from [[serotonin]] synthesis to kynurenine → QA accumulation in the brain. Restoring SCFA-producing commensals reduces inflammation → reduces IDO → restores serotonin production and reduces QA.
 
 ## Cross-References
 

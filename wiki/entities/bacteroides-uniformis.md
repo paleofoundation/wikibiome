@@ -41,7 +41,7 @@ A Gram-negative, obligate anaerobic bacterium within the phylum Bacteroidetes an
 
 *B. uniformis* depletion is a recurring finding across conditions with distinct metal and inflammatory profiles:
 
-- Chronic kidney disease (CKD): Depleted in CKD rat models, where uremic toxin accumulation and metal dyshomeostasis reshape the gut microbiome. Fecal microbiota transplantation from healthy donors restores *B. uniformis* abundance alongside improvements in renal function markers [[liu-2022-fmt-restores-ckd-rats]].
+- Chronic kidney disease (CKD): Depleted in CKD rat models, where uremic toxin accumulation and metal dyshomeostasis reshape the [[gut-microbiome]]. Fecal microbiota transplantation from healthy donors restores *B. uniformis* abundance alongside improvements in renal function markers [[liu-2022-fmt-restores-ckd-rats]].
 - Autism spectrum disorder (ASD): Reduced in young ASD children compared to neurotypical controls. The depletion correlates with altered [[short-chain-fatty-acids]] profiles and may contribute to the GI symptoms common in ASD [[coretti-2018-gut-microbiota-young-asd-children]].
 - Gastroesophageal reflux disease (GERD): Identified as a depleted taxon in GERD patients in systematic review findings, suggesting a role in upper GI homeostasis [[alageel-2025-microbiome-composition-gerd-systematic-review]].
 

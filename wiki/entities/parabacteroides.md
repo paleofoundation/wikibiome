@@ -51,7 +51,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 - *Parabacteroides* abundance is associated with premenstrual symptom patterns in reproductive-age women, implicating it in the gut-brain-hormone axis of PMS/[[pmdd]] [[takeda-2022-gut-microbiota-premenstrual-symptoms]].
 
 ### Fibromyalgia
-- Altered *Parabacteroides* abundance identified in the fibromyalgia gut microbiome signature, consistent with its broader pattern of depletion in inflammatory and pain-associated conditions [[minerbi-2019-altered-microbiome-fibromyalgia]].
+- Altered *Parabacteroides* abundance identified in the fibromyalgia [[gut-microbiome]] signature, consistent with its broader pattern of depletion in inflammatory and pain-associated conditions [[minerbi-2019-altered-microbiome-fibromyalgia]].
 
 ## Key Metabolites
 

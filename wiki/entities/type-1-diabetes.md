@@ -26,7 +26,7 @@ wikipedia_differentiation: "Mendelian-randomization evidence for source-defined 
 
 Type 1 diabetes is an autoimmune disease in which immune-mediated destruction of insulin-producing beta cells in the pancreatic islets of Langerhans leads to lifelong insulin dependence. T1D is fundamentally distinct from type 2 diabetes, which is characterized by insulin resistance rather than autoimmune beta cell loss. T1D accounts for approximately 5–10% of all diabetes cases, with incidence rising 3–4% annually in Europe [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]. Global incidence is highest in Finland, Sardinia, and Scandinavia, reflecting the combined influence of HLA-DR genetic risk, environmental exposures, and early-life microbiome composition.
 
-Three environmental factors now have strong mechanistic evidence: heavy metal status (particularly zinc and iron), enteroviral infection, and gut microbiome [[dysbiosis]] — and all three converge during the developmentally critical first three years of life.
+Three environmental factors now have strong mechanistic evidence: heavy metal status (particularly zinc and iron), enteroviral infection, and [[gut-microbiome]] [[dysbiosis]] — and all three converge during the developmentally critical first three years of life.
 
 ## Metal Associations
 

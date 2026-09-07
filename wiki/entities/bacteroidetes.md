@@ -23,7 +23,7 @@ conditions_depleted_in: [obesity, endometriosis, asd, cadmium-exposure]
 
 ## Overview
 
-Bacteroidetes (recently reclassified as Bacteroidota) is one of the two dominant bacterial phyla in the human gut, together with [[firmicutes]] typically comprising >90% of the intestinal microbiota. Bacteroidetes are Gram-negative, obligately anaerobic, non-spore-forming rods characterized by their extraordinary capacity for complex polysaccharide degradation. They encode some of the largest repertoires of carbohydrate-active enzymes (CAZymes) in the gut microbiome, enabling them to break down dietary fiber, host mucins, and other glycans that the human genome cannot digest.
+Bacteroidetes (recently reclassified as Bacteroidota) is one of the two dominant bacterial phyla in the human gut, together with [[firmicutes]] typically comprising >90% of the intestinal microbiota. Bacteroidetes are Gram-negative, obligately anaerobic, non-spore-forming rods characterized by their extraordinary capacity for complex polysaccharide degradation. They encode some of the largest repertoires of carbohydrate-active enzymes (CAZymes) in the [[gut-microbiome]], enabling them to break down dietary fiber, host mucins, and other glycans that the human genome cannot digest.
 
 The phylum's abundance relative to Firmicutes -- the Firmicutes/Bacteroidetes (F/B) ratio -- has been one of the most widely reported microbiome metrics in disease research, though its utility is now understood to be limited by the functional diversity within each phylum.
 
@@ -98,6 +98,6 @@ In the healthy gut, Bacteroidetes occupy the mucus-adjacent niche, specializing 
 - [[proteobacteria]] -- Phylum that expands when both Firmicutes and Bacteroidetes decline
 - [[short-chain-fatty-acids]] -- Bacteroidetes are major propionate producers
 - [[bile-acid-metabolism]] -- Bacteroidetes genera participate in bile acid biotransformation
-- [[gut-microbiome]] -- Bacteroidetes as one of two dominant phyla
+- gut microbiome -- Bacteroidetes as one of two dominant phyla
 - [[cadmium]] -- Cd significantly depletes Bacteroidetes
 - dysbiosis -- F/B ratio as (imperfect) dysbiosis metric

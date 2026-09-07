@@ -83,7 +83,7 @@ Causal risk factor (OR = 2.45) via MR analysis for [[hidradenitis-suppurativa]],
 Significantly more abundant in ASD children in Chinese cohorts [[niu-2019-intestinal-microbiota-probiotics-asd-china]] and identified as part of the robust ASD microbiome signature in machine-learning analysis [[peralta-marzal-2024-robust-microbiome-signature-asd-machine-learning]]. This enrichment in ASD contrasts with its depletion in cardiovascular and renal disease, suggesting context-dependent immune effects.
 
 ### Schizophrenia — Causally Elevated by SCZ
-In reverse MR analysis, schizophrenia causally increases *Lachnospira* (OR=1.05), establishing that SCZ as a disease state alters the gut microbiome to enrich this genus [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]]. This is bidirectional: SCZ enriches *Lachnospira* as a disease consequence, separate from whatever causal effects *Lachnospira* may have on SCZ risk.
+In reverse MR analysis, schizophrenia causally increases *Lachnospira* (OR=1.05), establishing that SCZ as a disease state alters the [[gut-microbiome]] to enrich this genus [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]]. This is bidirectional: SCZ enriches *Lachnospira* as a disease consequence, separate from whatever causal effects *Lachnospira* may have on SCZ risk.
 
 ## Context-Dependent Effects — Interpretive Framework
 

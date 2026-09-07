@@ -26,7 +26,7 @@ Cirrhosis is end-stage liver fibrosis characterized by nodular regeneration, por
 
 ## Key Connections
 
-- Gut [[dysbiosis]]: Cirrhosis depletes Bacteroidetes and SCFA producers while enriching oral-origin taxa (Streptococcus, Veillonella) that translocate to the gut — a distinctive "oralization" of the gut microbiome [[jie-2017-gut-microbiome-acvd]].
+- Gut [[dysbiosis]]: Cirrhosis depletes Bacteroidetes and SCFA producers while enriching oral-origin taxa (Streptococcus, Veillonella) that translocate to the gut — a distinctive "oralization" of the [[gut-microbiome]] [[jie-2017-gut-microbiome-acvd]].
 - Hepatic encephalopathy: [[urease|Urease]]-producing gut bacteria ([[helicobacter-pylori]], [[klebsiella]], [[proteus-mirabilis]]) generate [[ammonia]] → portal circulation → brain toxicity.
 - Metal hepatotoxicity: Chronic [[cadmium]], [[arsenic]], [[lead]] exposure drives hepatic fibrosis independently of viral or alcoholic causes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].
 - Mediterranean diet: Protective dietary pattern associated with reduced cirrhosis progression [[latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet]].

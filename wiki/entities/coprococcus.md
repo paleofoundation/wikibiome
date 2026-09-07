@@ -61,7 +61,7 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 - Depleted in CRC; part of the butyrate-producing consortium lost during tumorigenesis [[sambruni-2023-colon-cancer-microbiome-rna-seq-reconstruction]].
 
 ### Ovarian Cancer
-- Altered *Coprococcus* abundance contributes to the diagnostic gut microbiome signature distinguishing ovarian tumor patients from healthy controls, consistent with the broad depletion of butyrate producers across gynecological cancers [[gong-2025-gut-microbiota-diagnostic-ovarian-tumor]].
+- Altered *Coprococcus* abundance contributes to the diagnostic [[gut-microbiome]] signature distinguishing ovarian tumor patients from healthy controls, consistent with the broad depletion of butyrate producers across gynecological cancers [[gong-2025-gut-microbiota-diagnostic-ovarian-tumor]].
 
 ### Chronic Kidney Disease
 - Depleted as part of the broader loss of butyrate-producing consortia in CKD; reduced SCFA availability contributes to uremic toxin accumulation and gut-kidney axis dysfunction [[gao-2021-butyrate-producing-microbiota-reduced-ckd]] [[he-2024-gut-microbial-scfas-ckd]].

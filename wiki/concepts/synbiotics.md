@@ -46,7 +46,7 @@ Meta-analyses across multiple conditions suggest that prebiotics and synbiotics 
 |-----------|------------|----------------|--------|
 | [[pcos]] | Decreased FPG, FBI, TG; improved quality of life | RCTs, meta-analyses | [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]], [[hariri-2024-synbiotic-pcos-quality-of-life-rct]] |
 | [[hashimotos-thyroiditis]] | Significant TSH reduction (SMD: -1.10) | Meta-analysis (9 RCTs) | [[karimi-2025-probiotics-synbiotics-thyroid-meta-analysis]] |
-| [[parkinsons-disease]] | Gut microbiome modulation; clinical trial in progress | RCT | [[nurrahma-2024-synbiotics-parkinsons-gut-microbiome]], [[niesler-2025-synbiotics-parkinsons-clinical-trial]] |
+| [[parkinsons-disease]] | [[gut-microbiome]] modulation; clinical trial in progress | RCT | [[nurrahma-2024-synbiotics-parkinsons-gut-microbiome]], [[niesler-2025-synbiotics-parkinsons-clinical-trial]] |
 | [[autism-spectrum-disorder]] | GI improvement; behavioral and anxiety effects | RCTs, meta-analysis | [[mitchell-2024-synbiotics-gdh-gi-behavior-anxiety-asd]], [[rahim-2023-probiotics-prebiotics-synbiotics-asd-meta-analysis]] |
 | [[schizophrenia]] | Improved metabolic syndrome parameters | RCT | [[basafa-roodi-2024-synbiotic-metabolic-syndrome-schizophrenia-rct]] |
 | [[breast-cancer]] | Benefit during chemotherapy | RCT | [[khazaei-2023-synbiotics-chemotherapy-breast-cancer-rct]] |
@@ -80,5 +80,5 @@ Synbiotics are particularly relevant to WikiBiome's thesis because:
 - [[firmicutes]] -- Phylum housing the SCFA producers synbiotics aim to restore
 - [[bifidobacterium]] -- Common probiotic genus in synbiotic formulations
 - [[iron-sulfur-clusters]] -- Metabolic vulnerability that synbiotics help compensate for
-- [[gut-microbiome]] -- The ecosystem synbiotics aim to modulate
+- gut microbiome -- The ecosystem synbiotics aim to modulate
 - [[mediterranean-diet]] -- Dietary pattern that provides prebiotic fiber naturally

@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # Pharmacomicrobiomics
 
-Pharmacomicrobiomics is the study of bidirectional interactions between drugs and the microbiome. The gut microbiome is not a passive bystander in pharmacology -- it actively metabolizes drugs, alters their bioavailability, and modulates therapeutic efficacy. Conversely, many common drugs reshape the microbiome in ways that influence disease trajectory. In the metallomics context, this field intersects with metals at every level: metal-containing drugs, metal-dependent microbial enzymes that metabolize drugs, and drug-induced [[dysbiosis]] that alters metal handling.
+Pharmacomicrobiomics is the study of bidirectional interactions between drugs and the microbiome. The [[gut-microbiome]] is not a passive bystander in pharmacology -- it actively metabolizes drugs, alters their bioavailability, and modulates therapeutic efficacy. Conversely, many common drugs reshape the microbiome in ways that influence disease trajectory. In the metallomics context, this field intersects with metals at every level: metal-containing drugs, metal-dependent microbial enzymes that metabolize drugs, and drug-induced [[dysbiosis]] that alters metal handling.
 
 ## Microbiome Metabolizes Drugs
 

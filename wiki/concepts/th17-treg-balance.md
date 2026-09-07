@@ -23,7 +23,7 @@ karen_brain_primitives: [2, 5]
 
 ## Overview
 
-The Th17/Treg balance is the immunological equilibrium between pro-inflammatory T helper 17 (Th17) cells and anti-inflammatory regulatory T (Treg) cells. This balance is the master switch between immune tolerance and autoimmune/inflammatory pathology — and the gut microbiome is its primary regulator. With 157 file mentions, the Th17/Treg axis is the most referenced immune concept in the WikiBiome vault without a dedicated page.
+The Th17/Treg balance is the immunological equilibrium between pro-inflammatory T helper 17 (Th17) cells and anti-inflammatory regulatory T (Treg) cells. This balance is the master switch between immune tolerance and autoimmune/inflammatory pathology — and the [[gut-microbiome]] is its primary regulator. With 157 file mentions, the Th17/Treg axis is the most referenced immune concept in the WikiBiome vault without a dedicated page.
 
 ## The Two Arms
 

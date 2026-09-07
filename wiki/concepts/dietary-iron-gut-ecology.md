@@ -19,7 +19,7 @@ last_substantive_update: 2026-04-11
 
 ## Two Forms, Two Ecological Effects
 
-Dietary iron comes in two fundamentally different forms with different gut microbiome consequences:
+Dietary iron comes in two fundamentally different forms with different [[gut-microbiome]] consequences:
 
 ### Heme Iron (Animal Sources)
 Found in red meat, organ meats, poultry, and fish. Absorbed through the HCP1 receptor at 15-35% efficiency, largely independent of gut conditions.

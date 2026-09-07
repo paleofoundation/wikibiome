@@ -29,7 +29,7 @@ Hyperaccumulator plants are species that concentrate heavy metals in their tissu
 
 ## Connection to Disease
 
-Dietary metal exposure from hyperaccumulating food plants → gut microbiome metal burden → selective enrichment of metal-dependent/metal-tolerant pathogens → [[dysbiosis]] → disease. This is the upstream entry point for Karen's Brain Primitive 1 (Metals as Selective Pressures).
+Dietary metal exposure from hyperaccumulating food plants → [[gut-microbiome]] metal burden → selective enrichment of metal-dependent/metal-tolerant pathogens → [[dysbiosis]] → disease. This is the upstream entry point for Karen's Brain Primitive 1 (Metals as Selective Pressures).
 
 ## Cross-References
 

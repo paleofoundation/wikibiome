@@ -69,7 +69,7 @@ Microplastics represent an emerging co-selection vector [[imran-2019-co-selectio
 
 ## Evidence in Human Gut Bacteria
 
-Co-selection has been demonstrated directly in the human gut microbiome:
+Co-selection has been demonstrated directly in the human [[gut-microbiome]]:
 
 Dental amalgam mercury: Mercury released from dental amalgam is associated with elevated mercury resistance genes in oral and intestinal bacteria; these bacteria carry co-selected antibiotic resistance genes at significantly higher frequencies than in amalgam-free controls [[baker-austin-2006-co-selection-antibiotic-metal-resistance]].
 

@@ -40,7 +40,7 @@ Like [[ureaplasma]] (a fellow Mollicute), Mycoplasma species are parasitic, depe
 
 ## Gut and Systemic Associations
 
-- Multiple sclerosis: Mycoplasma detected in gut microbiome studies of MS patients [[bronzini-2023-feeding-gut-microbiome-ms]].
+- Multiple sclerosis: Mycoplasma detected in [[gut-microbiome]] studies of MS patients [[bronzini-2023-feeding-gut-microbiome-ms]].
 - Crohn's disease: Part of gut microbiome shifts during Crohn's remission/relapse cycles [[jacobs-2022-crohns-remission-obesity-mli-microbiome]].
 - Oral microbiome: Affected by common medications [[declercq-2021-common-medications-oral-microbiome]].
 

@@ -61,7 +61,7 @@ The primary active compound in cinnamon oil:
 
 Essential oil components do not sterilize the gut -- they exert selective pressure on microbial communities [[bauer-2019-oregano-streptococcus-scfa-microbiota]]:
 
-- Oregano oil supplementation shifts the gut microbiome, increasing [[short-chain-fatty-acids]] (butyrate, propionate) production
+- Oregano oil supplementation shifts the [[gut-microbiome]], increasing [[short-chain-fatty-acids]] (butyrate, propionate) production
 - Selective activity against pathogenic Streptococcus species while sparing beneficial lactobacilli
 - Sub-inhibitory concentrations alter gene expression in surviving bacteria, including virulence factor regulation
 

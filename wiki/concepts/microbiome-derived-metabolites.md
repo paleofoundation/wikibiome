@@ -40,7 +40,7 @@ Disease relevance of SCFA disruption:
 
 Metal interactions with SCFA production:
 - Cadmium, lead, arsenic, and mercury deplete the Firmicutes taxa responsible for SCFA production [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]
-- Iron supplementation shifts the gut microbiome away from SCFA-producing commensals toward pathobiont-enriched communities — an important clinical consideration in IBD management [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
+- Iron supplementation shifts the [[gut-microbiome]] away from SCFA-producing commensals toward pathobiont-enriched communities — an important clinical consideration in IBD management [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
 - Zinc deficiency impairs colonocyte utilization of butyrate, reducing its functional effectiveness even when production is maintained
 
 ## Bile Acid Metabolites

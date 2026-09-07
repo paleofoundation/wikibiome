@@ -28,7 +28,7 @@ wikipedia_differentiation: "Gut-skin axis connecting intestinal dysbiosis to ker
 
 Psoriasis is a chronic, immune-mediated inflammatory skin disease characterized by keratinocyte hyperproliferation, resulting in well-demarcated erythematous plaques with silvery scales. Affecting approximately 2-3% of the global population, psoriasis is now understood as a systemic inflammatory condition rather than merely a skin disease -- it associates strongly with [[cardiovascular-disease]], [[type-2-diabetes]], [[depression]], and [[inflammatory-bowel-disease]], sharing inflammatory pathways and microbiome signatures with all of these conditions.
 
-The IL-17/IL-23 axis is the central immunological driver, with Th17 cells producing IL-17A/F that stimulates keratinocyte proliferation and recruits neutrophils to the epidermis. What WikiBiome adds to this picture is the recognition that the gut microbiome regulates Th17/Treg balance, that metals modulate immune polarization, and that the gut-skin axis creates a systemic inflammatory circuit.
+The IL-17/IL-23 axis is the central immunological driver, with Th17 cells producing IL-17A/F that stimulates keratinocyte proliferation and recruits neutrophils to the epidermis. What WikiBiome adds to this picture is the recognition that the [[gut-microbiome]] regulates Th17/Treg balance, that metals modulate immune polarization, and that the gut-skin axis creates a systemic inflammatory circuit.
 
 ## The Gut-Skin Axis
 

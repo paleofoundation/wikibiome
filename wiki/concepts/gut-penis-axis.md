@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-The gut-penis axis is an emerging concept describing the systemic pathway by which gut microbiome [[dysbiosis]] impairs erectile function through endothelial nitric oxide (NO) suppression and chronic [[inflammation]]. Though less established than the gut-brain or gut-heart axes, this axis is supported by three concordant Mendelian randomization (MR) studies and a detailed mechanistic pathway linking intestinal barrier dysfunction to penile vascular impairment.
+The gut-penis axis is an emerging concept describing the systemic pathway by which [[gut-microbiome]] [[dysbiosis]] impairs erectile function through endothelial nitric oxide (NO) suppression and chronic [[inflammation]]. Though less established than the gut-brain or gut-heart axes, this axis is supported by three concordant Mendelian randomization (MR) studies and a detailed mechanistic pathway linking intestinal barrier dysfunction to penile vascular impairment.
 
 Erectile dysfunction (ED) has long been recognized as a sentinel marker for [[cardiovascular-disease]] -- penile arteries are smaller than coronary arteries and show endothelial dysfunction 3-5 years earlier. The gut-penis axis provides a mechanistic explanation for this association: the same dysbiosis-driven inflammatory pathway damages both vascular beds.
 

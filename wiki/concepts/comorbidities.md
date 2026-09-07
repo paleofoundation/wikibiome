@@ -62,7 +62,7 @@ dysbiosis is the common denominator linking disparate diseases:
 
 The metal-microbiome-inflammation triad explains comorbidity through convergent pathology:
 
-1. Metal exposure disrupts the gut microbiome.
+1. Metal exposure disrupts the [[gut-microbiome]].
 2. Dysbiosis reduces SCFA/indole production and increases LPS/TMAO.
 3. Barrier breakdown allows metal absorption, bacterial translocation, and endotoxemia.
 4. Systemic inflammation damages cardiovascular, neurological, metabolic, and immune systems simultaneously.

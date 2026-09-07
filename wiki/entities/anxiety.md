@@ -43,7 +43,7 @@ The gut-brain axis connects intestinal microbiome composition to anxiety through
 - Vagal signaling: Gut-to-brain signaling via vagal afferents; probiotics' anxiolytic effects are abolished by vagotomy in animal models.
 
 ### SSRI-Microbiome Bidirectionality
-Selective serotonin reuptake inhibitors (SSRIs) affect gut microbiome composition, and baseline microbiome may predict treatment response -- a [[pharmacomicrobiomics]] interaction [[sjostedt-2021-ssri-gut-microbiome-serotonin]].
+Selective serotonin reuptake inhibitors (SSRIs) affect [[gut-microbiome]] composition, and baseline microbiome may predict treatment response -- a [[pharmacomicrobiomics]] interaction [[sjostedt-2021-ssri-gut-microbiome-serotonin]].
 
 ## Anxiety as Comorbidity
 

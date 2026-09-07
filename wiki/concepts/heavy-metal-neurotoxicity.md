@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Heavy Metal Neurotoxicity
 
-Heavy metals exert some of their most devastating effects on the nervous system. [[lead]], [[mercury]], and [[arsenic]] are the three metals with the most extensively documented neurotoxic mechanisms, but [[cadmium]], [[manganese]], [[aluminum]], and [[nickel]] also contribute to neurological damage through distinct pathways. What makes the neurotoxicity story especially interesting from a microbiome perspective is that the gut-brain axis provides a second route of injury: metals reshape the gut microbiome, and the resulting [[dysbiosis]] produces its own neurotoxic metabolites.
+Heavy metals exert some of their most devastating effects on the nervous system. [[lead]], [[mercury]], and [[arsenic]] are the three metals with the most extensively documented neurotoxic mechanisms, but [[cadmium]], [[manganese]], [[aluminum]], and [[nickel]] also contribute to neurological damage through distinct pathways. What makes the neurotoxicity story especially interesting from a microbiome perspective is that the gut-brain axis provides a second route of injury: metals reshape the [[gut-microbiome]], and the resulting [[dysbiosis]] produces its own neurotoxic metabolites.
 
 ## Metal-Specific Neurotoxic Mechanisms
 

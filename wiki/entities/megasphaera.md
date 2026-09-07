@@ -35,7 +35,7 @@ platform: wikibiome
 
 # Megasphaera
 
-Megasphaera is a genus of obligate anaerobic, Gram-negative bacteria in the family Veillonellaceae (class Negativicutes, phylum Firmicutes). The genus occupies two distinct ecological niches — the vaginal microbiome (where it is a hallmark of bacterial vaginosis) and the gut microbiome (where it functions as a beneficial SCFA producer). This dual role makes Megasphaera one of the most context-dependent organisms in the WikiBiome knowledge graph.
+Megasphaera is a genus of obligate anaerobic, Gram-negative bacteria in the family Veillonellaceae (class Negativicutes, phylum Firmicutes). The genus occupies two distinct ecological niches — the vaginal microbiome (where it is a hallmark of bacterial vaginosis) and the [[gut-microbiome]] (where it functions as a beneficial SCFA producer). This dual role makes Megasphaera one of the most context-dependent organisms in the WikiBiome knowledge graph.
 
 ## Vaginal Microbiome — BV Association
 

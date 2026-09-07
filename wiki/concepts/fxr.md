@@ -58,7 +58,7 @@ FXR activation orchestrates a broad metabolic program:
 
 ## Cardiovascular Relevance
 
-FXR agonist CDCA reduces blood pressure in spontaneously hypertensive rat models through iNOS expression, connecting bile acid sensing to vascular regulation [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]. This positions FXR at the intersection of gut microbiome composition, bile acid metabolism, and cardiovascular disease risk.
+FXR agonist CDCA reduces blood pressure in spontaneously hypertensive rat models through iNOS expression, connecting bile acid sensing to vascular regulation [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]. This positions FXR at the intersection of [[gut-microbiome]] composition, bile acid metabolism, and cardiovascular disease risk.
 
 ## Microbiome Disruption of FXR
 

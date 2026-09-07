@@ -156,7 +156,7 @@ A patchwork of regulations exists:
 
 ## Connections to Other Concepts
 
-- [[gut-metal-microbiome]] -- dietary metal exposure is the primary route by which metals contact the gut microbiome; food contamination levels directly determine gut-microbiome disruption
+- [[gut-metal-microbiome]] -- dietary metal exposure is the primary route by which metals contact the [[gut-microbiome]]; food contamination levels directly determine gut-microbiome disruption
 - [[ferroptosis]] -- iron overload from dietary sources or supplementation can drive ferroptotic damage in gut epithelium and other tissues
 - [[mis-metallation]] -- the dose and chemical form of metal exposure determines which mis-metallation events dominate in a given tissue
 - [[metalloestrogens]] -- dietary cadmium (rice, vegetables, shellfish) and nickel (legumes, chocolate, grains) are the primary exposure routes for metalloestrogen effects

@@ -47,7 +47,7 @@ In a healthy gut, M. morganii remains at trace abundance, outcompeted by dominan
 
 ## Conditions Associated
 
-M. morganii is clinically significant in nosocomial infections and has been detected at elevated levels in gut microbiome profiles of patients with [[inflammatory-bowel-disease]] and post-surgical complications. Its intrinsic resistance to multiple antibiotics, including ampicillin and first-generation cephalosporins, complicates treatment.
+M. morganii is clinically significant in nosocomial infections and has been detected at elevated levels in [[gut-microbiome]] profiles of patients with [[inflammatory-bowel-disease]] and post-surgical complications. Its intrinsic resistance to multiple antibiotics, including ampicillin and first-generation cephalosporins, complicates treatment.
 
 ## Cross-References
 

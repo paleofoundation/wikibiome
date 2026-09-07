@@ -48,7 +48,7 @@ Toenail antimony was assessed in the Sister Study prospective analysis of breast
 
 ### Infant Exposure
 
-Antimony is present in commercially prepared baby foods, contributing to the total metalloid burden during critical developmental windows [[meli-2024-baby-food-chemical-characterization-italy]]. The developing gut microbiome's response to antimony exposure has not been studied.
+Antimony is present in commercially prepared baby foods, contributing to the total metalloid burden during critical developmental windows [[meli-2024-baby-food-chemical-characterization-italy]]. The developing [[gut-microbiome]]'s response to antimony exposure has not been studied.
 
 ## Microbiome Interactions
 

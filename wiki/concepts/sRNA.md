@@ -78,7 +78,7 @@ sRNAs reveal a sophisticated layer of bacterial metal adaptation that has direct
 
 - Can sRNA-targeting antisense oligonucleotides disable bacterial metal-sparing responses, enhancing nutritional immunity?
 - Do commensal bacteria use sRNAs to coordinate metal sharing within biofilm communities?
-- Is there a gut microbiome-wide sRNA regulatory network that responds to dietary metal fluctuations?
+- Is there a [[gut-microbiome]]-wide sRNA regulatory network that responds to dietary metal fluctuations?
 - Can sRNA profiles serve as biomarkers for infection stage or metal stress in clinical settings?
 
 ## Cross-References

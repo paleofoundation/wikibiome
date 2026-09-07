@@ -83,7 +83,7 @@ In the healthy gut, *B. longum* provides:
 
 ### Lead Sensitivity
 
-Prenatal lead exposure consistently depletes *B. longum* in childhood gut microbiome (ages 9-11), alongside [[bacteroides-caccae]], *Bifidobacterium bifidum*, and *Alistipes indistinctus* [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]. This represents one of the most reproducible findings in the prenatal metal-microbiome field, with *B. longum* exceeding the WQS importance threshold in ≥80% of repeated holdouts.
+Prenatal lead exposure consistently depletes *B. longum* in childhood [[gut-microbiome]] (ages 9-11), alongside [[bacteroides-caccae]], *Bifidobacterium bifidum*, and *Alistipes indistinctus* [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]. This represents one of the most reproducible findings in the prenatal metal-microbiome field, with *B. longum* exceeding the WQS importance threshold in ≥80% of repeated holdouts.
 
 ### Female Fertility
 

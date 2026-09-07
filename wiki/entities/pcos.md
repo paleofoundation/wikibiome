@@ -83,7 +83,7 @@ The metalloestrogen hypothesis provides a mechanistic bridge between environment
 
 ## Gut Microbiome Connection
 
-PCOS is increasingly recognized as a disease with a strong gut microbiome component:
+PCOS is increasingly recognized as a disease with a strong [[gut-microbiome]] component:
 
 - High-fiber diets and acarbose remodel gut microbiota and improve PCOS outcomes [[wang-2022-high-fiber-acarbose-pcos]].
 - Probiotics significantly decrease FPG, FBI, TG, and inflammatory markers (CRP, MDA) across multiple meta-analyses [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]].

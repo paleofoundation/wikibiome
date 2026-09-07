@@ -15,7 +15,7 @@ last_substantive_update: 2026-04-11
 
 # Dietary Metal-Microbiome Interactions
 
-Every meal delivers metals to the gut lumen — essential minerals, trace elements, and contaminants alike. These metals do not passively transit the GI tract. They actively reshape the microbial ecosystem, selecting for metal-tolerant organisms, enabling virulence in metal-dependent pathogens, and depleting commensals that lack metal defense mechanisms. Diet is the primary modifiable variable that determines the metal environment the gut microbiome experiences.
+Every meal delivers metals to the gut lumen — essential minerals, trace elements, and contaminants alike. These metals do not passively transit the GI tract. They actively reshape the microbial ecosystem, selecting for metal-tolerant organisms, enabling virulence in metal-dependent pathogens, and depleting commensals that lack metal defense mechanisms. Diet is the primary modifiable variable that determines the metal environment the [[gut-microbiome]] experiences.
 
 ## The Dual Effect: Metals Shape Microbiota, Microbiota Shape Metal Fate
 

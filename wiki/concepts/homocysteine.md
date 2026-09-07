@@ -21,7 +21,7 @@ karen_brain_primitives: [1, 5]
 
 ## Overview
 
-Homocysteine is a sulfur-containing amino acid intermediate in the methionine cycle. Elevated plasma homocysteine (hyperhomocysteinemia) is an established risk factor for [[cardiovascular-disease]], [[endothelial-dysfunction]], and neurodegenerative disease. The gut microbiome modulates homocysteine metabolism through B-vitamin (B12, folate, B6) production, methionine cycling, and one-carbon metabolism.
+Homocysteine is a sulfur-containing amino acid intermediate in the methionine cycle. Elevated plasma homocysteine (hyperhomocysteinemia) is an established risk factor for [[cardiovascular-disease]], [[endothelial-dysfunction]], and neurodegenerative disease. The [[gut-microbiome]] modulates homocysteine metabolism through B-vitamin (B12, folate, B6) production, methionine cycling, and one-carbon metabolism.
 
 ## Microbiome Connection
 

@@ -17,7 +17,7 @@ karen_brain_primitives: [1, 5, 8]
 
 ## Overview
 
-The gut-testis axis describes the bidirectional communication between the gut microbiome and the male reproductive system. Gut-derived microbial metabolites, immune signals, and systemic inflammatory mediators influence testicular function, testosterone biosynthesis, and spermatogenesis, while androgen levels reciprocally shape gut microbial composition.
+The gut-testis axis describes the bidirectional communication between the [[gut-microbiome]] and the male reproductive system. Gut-derived microbial metabolites, immune signals, and systemic inflammatory mediators influence testicular function, testosterone biosynthesis, and spermatogenesis, while androgen levels reciprocally shape gut microbial composition.
 
 Iron-dependent cell death (ferroptosis) in spermatogenic cells represents one mechanistic node of this axis. The microbial metabolite 3-hydroxyphenylacetic acid (3-HPAA) has been shown to trigger ferroptosis in testicular tissue, directly linking gut microbial metabolism to spermatogenic failure ([[jin-2023-3hpaa-spermatogenesis-ferroptosis]]). This iron-ecology dimension connects the gut-testis axis to broader metallomics — iron availability in the gut selects for siderophore-producing bacteria whose metabolic outputs may propagate reproductive toxicity.
 

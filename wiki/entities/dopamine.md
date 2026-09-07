@@ -18,7 +18,7 @@ wikipedia_differentiation: "Iron-dependent tyrosine hydroxylase as the metal-mic
 
 ## Overview
 
-Dopamine is a catecholamine neurotransmitter central to reward, motivation, motor control, and executive function. Its synthesis is directly dependent on iron -- the rate-limiting enzyme tyrosine hydroxylase (TH) requires Fe2+ as a cofactor. This iron dependency makes dopamine biology uniquely vulnerable to metal dyshomeostasis and positions it at the intersection of metallomics, the gut microbiome, and neurodegeneration.
+Dopamine is a catecholamine neurotransmitter central to reward, motivation, motor control, and executive function. Its synthesis is directly dependent on iron -- the rate-limiting enzyme tyrosine hydroxylase (TH) requires Fe2+ as a cofactor. This iron dependency makes dopamine biology uniquely vulnerable to metal dyshomeostasis and positions it at the intersection of metallomics, the [[gut-microbiome]], and neurodegeneration.
 
 The gut produces dopamine independently of the brain. Certain gut bacteria (*Bacillus*, *Serratia*, *Staphylococcus*) synthesize dopamine directly, and the enteric nervous system (ENS) expresses dopaminergic signaling systems identical to the CNS -- directly exposed to luminal metals and microbial metabolites.
 

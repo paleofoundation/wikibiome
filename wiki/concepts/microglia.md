@@ -42,7 +42,7 @@ A critical feature of metal-activated microglia is their resistance to phenotype
 
 ## The Gut-Brain-Microglia Axis
 
-The gut microbiome controls microglial function through several routes:
+The [[gut-microbiome]] controls microglial function through several routes:
 
 ### LPS Translocation
 When [[gut-barrier-dysfunction]] permits LPS translocation into the bloodstream, circulating LPS reaches the brain through circumventricular organs (which lack a BBB) and through TLR4-mediated transcytosis. LPS is among the most potent microglial activators, driving rapid M1 polarization via the TLR4/NF-kB pathway [[perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain]].

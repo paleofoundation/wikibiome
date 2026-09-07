@@ -35,7 +35,7 @@ platform: wikibiome
 
 ## Overview
 
-The gut-gonadal axis describes the bidirectional communication between the intestinal microbiome and the reproductive endocrine system. Gut bacteria modulate sex hormone levels through enzymatic activity (particularly [[beta-glucuronidase]]-mediated estrogen deconjugation), metabolite production (SCFAs influencing GnRH pulsatility), and immune signaling. Conversely, sex hormones reshape the gut microbiome — testosterone, estrogen, and progesterone all influence microbial community composition and barrier function.
+The gut-gonadal axis describes the bidirectional communication between the intestinal microbiome and the reproductive endocrine system. Gut bacteria modulate sex hormone levels through enzymatic activity (particularly [[beta-glucuronidase]]-mediated estrogen deconjugation), metabolite production (SCFAs influencing GnRH pulsatility), and immune signaling. Conversely, sex hormones reshape the [[gut-microbiome]] — testosterone, estrogen, and progesterone all influence microbial community composition and barrier function.
 
 This axis explains why reproductive disorders such as [[pcos]], [[female-infertility]], and [[premature-ovarian-insufficiency]] consistently show gut microbiome alterations, and why metabolic drugs targeting gut hormones (GLP-1 agonists, metformin) have unexpected fertility benefits.
 

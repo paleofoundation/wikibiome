@@ -36,7 +36,7 @@ Heavy metals are potent inducers of IL-6 through multiple converging pathways:
 
 ## Microbiome-IL-6 Interactions
 
-The gut microbiome is both a target and a driver of IL-6 signaling:
+The [[gut-microbiome]] is both a target and a driver of IL-6 signaling:
 
 ### Dysbiosis Drives IL-6
 

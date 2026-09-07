@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-Endocrine-disrupting chemicals (EDCs) are exogenous substances that interfere with hormone synthesis, secretion, transport, binding, action, or elimination. The classical EDC list -- BPA, phthalates, dioxins, PCBs, pesticides -- is well established. What WikiBiome adds to this picture is the recognition that metals are endocrine disruptors and that the gut microbiome is both a target of and a mediator for EDC effects.
+Endocrine-disrupting chemicals (EDCs) are exogenous substances that interfere with hormone synthesis, secretion, transport, binding, action, or elimination. The classical EDC list -- BPA, phthalates, dioxins, PCBs, pesticides -- is well established. What WikiBiome adds to this picture is the recognition that metals are endocrine disruptors and that the [[gut-microbiome]] is both a target of and a mediator for EDC effects.
 
 The convergence of metallomic and microbiome perspectives reveals a more complete picture: EDCs do not act in isolation on hormone receptors. They reshape the microbial communities that metabolize hormones, and the resulting [[dysbiosis]] amplifies endocrine disruption through inflammatory and metabolic pathways.
 

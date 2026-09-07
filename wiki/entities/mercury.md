@@ -18,7 +18,7 @@ source_count: 53
 
 # Mercury (Hg)
 
-Mercury is the most toxic heavy metal with no known biological function. Its organic form -- methylmercury (MeHg) -- is the primary concern for dietary exposure via fish consumption. Mercury's toxicity centers on thiol group binding, glutathione depletion, and blood-brain barrier penetration, making it an especially potent neurotoxin [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. What sets mercury apart from other toxic metals in ecological terms is the gut microbiome's direct role in mercury speciation: intestinal bacteria both methylate inorganic mercury into the more toxic MeHg form and demethylate MeHg back to inorganic Hg, making the gut a critical metabolic interface for mercury toxicity [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]].
+Mercury is the most toxic heavy metal with no known biological function. Its organic form -- methylmercury (MeHg) -- is the primary concern for dietary exposure via fish consumption. Mercury's toxicity centers on thiol group binding, glutathione depletion, and blood-brain barrier penetration, making it an especially potent neurotoxin [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. What sets mercury apart from other toxic metals in ecological terms is the [[gut-microbiome]]'s direct role in mercury speciation: intestinal bacteria both methylate inorganic mercury into the more toxic MeHg form and demethylate MeHg back to inorganic Hg, making the gut a critical metabolic interface for mercury toxicity [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]].
 
 ## Chemical Properties and Forms
 

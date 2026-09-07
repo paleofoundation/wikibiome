@@ -51,7 +51,7 @@ platform: wikibiome
 
 ### Multiple Sclerosis
 
-An RCT demonstrated that *S. boulardii* supplementation in MS patients modulated gut microbiome composition and immune markers [[motlagh-asghari-2023-saccharomyces-boulardii-ms-rct]]. This is notable as one of the few fungal probiotic trials in neuroinflammatory disease.
+An RCT demonstrated that *S. boulardii* supplementation in MS patients modulated [[gut-microbiome]] composition and immune markers [[motlagh-asghari-2023-saccharomyces-boulardii-ms-rct]]. This is notable as one of the few fungal probiotic trials in neuroinflammatory disease.
 
 ### Inflammatory Bowel Disease
 

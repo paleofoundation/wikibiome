@@ -22,7 +22,7 @@ seo_target: "epigenetic modifications metals microbiome butyrate HDAC"
 
 ## Overview
 
-Epigenetic modifications — heritable changes in gene expression without altering the DNA sequence — are a primary mechanism through which both heavy metals and the gut microbiome influence disease across the lifespan. The three major epigenetic mechanisms (DNA methylation, histone modification, non-coding RNA) are all modulated by metal exposure and microbial metabolites, making epigenetics the molecular layer where metallomics and the microbiome converge on host gene expression.
+Epigenetic modifications — heritable changes in gene expression without altering the DNA sequence — are a primary mechanism through which both heavy metals and the [[gut-microbiome]] influence disease across the lifespan. The three major epigenetic mechanisms (DNA methylation, histone modification, non-coding RNA) are all modulated by metal exposure and microbial metabolites, making epigenetics the molecular layer where metallomics and the microbiome converge on host gene expression.
 
 ## The Microbiome-Epigenome Interface
 

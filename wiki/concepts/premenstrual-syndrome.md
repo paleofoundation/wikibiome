@@ -18,7 +18,7 @@ platform: wikibiome
 
 # Premenstrual Syndrome
 
-Premenstrual syndrome (PMS) affects an estimated 20-40% of women of reproductive age, characterized by cyclical physical and psychological symptoms in the luteal phase (post-ovulation, pre-menstruation). While PMS has traditionally been attributed solely to hormonal fluctuations, emerging evidence points to the gut microbiome, heavy metal exposure, and microbial hormone metabolism as contributors to symptom severity.
+Premenstrual syndrome (PMS) affects an estimated 20-40% of women of reproductive age, characterized by cyclical physical and psychological symptoms in the luteal phase (post-ovulation, pre-menstruation). While PMS has traditionally been attributed solely to hormonal fluctuations, emerging evidence points to the [[gut-microbiome]], heavy metal exposure, and microbial hormone metabolism as contributors to symptom severity.
 
 PMS exists on a spectrum with its severe form, [[pmdd]] (premenstrual dysphoric disorder), which involves clinically significant mood disturbance and functional impairment.
 

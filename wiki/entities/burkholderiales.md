@@ -28,7 +28,7 @@ conditions_depleted_in: []
 
 Burkholderiales is an order of Gram-negative Betaproteobacteria that includes environmentally versatile genera such as *Ralstonia*, *Burkholderia*, and *Sutterella*. Many members are notable for their metal resistance mechanisms, which enable survival in heavy metal-contaminated environments — a property that translates to competitive advantage in metal-burdened gut ecosystems.
 
-In murine models of endometriosis, Burkholderiales abundance shifts as part of the broader gut microbiota alterations induced by the disease ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]]). Members of this order have also been identified in gut microbiome profiling of autism spectrum disorder cohorts, though their contribution to GI symptoms remains unclear ([[deng-2022-gi-symptoms-minor-impact-asd-microbiota-scfa]]).
+In murine models of endometriosis, Burkholderiales abundance shifts as part of the broader gut microbiota alterations induced by the disease ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]]). Members of this order have also been identified in [[gut-microbiome]] profiling of autism spectrum disorder cohorts, though their contribution to GI symptoms remains unclear ([[deng-2022-gi-symptoms-minor-impact-asd-microbiota-scfa]]).
 
 ## Cross-References
 

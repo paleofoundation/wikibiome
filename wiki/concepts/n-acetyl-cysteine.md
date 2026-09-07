@@ -65,7 +65,7 @@ NAC's multi-target mechanism makes it relevant across several WikiBiome conditio
 
 ## Microbiome Considerations
 
-NAC's effects on the gut microbiome are complex. Its biofilm-disrupting properties may transiently alter microbial community structure. Oral NAC increases luminal cysteine availability, which could theoretically benefit sulfur-metabolizing bacteria including [[desulfovibrio]] — an organism enriched in several disease states. This potential downside warrants consideration in conditions where sulfate-reducing bacteria are already elevated.
+NAC's effects on the [[gut-microbiome]] are complex. Its biofilm-disrupting properties may transiently alter microbial community structure. Oral NAC increases luminal cysteine availability, which could theoretically benefit sulfur-metabolizing bacteria including [[desulfovibrio]] — an organism enriched in several disease states. This potential downside warrants consideration in conditions where sulfate-reducing bacteria are already elevated.
 
 ## Cross-References
 

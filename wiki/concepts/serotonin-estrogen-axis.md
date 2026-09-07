@@ -21,7 +21,7 @@ karen_brain_primitives: [5, 7]
 
 ## Overview
 
-The serotonin-estrogen axis describes the bidirectional relationship between estrogen signaling and serotonin (5-HT) neurotransmission — a neuroendocrine interface that is profoundly modulated by the gut microbiome. Estrogen regulates serotonin synthesis (via tryptophan hydroxylase expression), serotonin receptor density (5-HT2A), and serotonin reuptake transporter (SERT) expression. Conversely, serotonin modulates hypothalamic GnRH pulsatility, affecting estrogen production. The gut microbiome sits at the center of both systems: it controls estrogen recirculation ([[estrobolome]]) and produces ~95% of the body's serotonin via enterochromaffin cell stimulation.
+The serotonin-estrogen axis describes the bidirectional relationship between estrogen signaling and serotonin (5-HT) neurotransmission — a neuroendocrine interface that is profoundly modulated by the [[gut-microbiome]]. Estrogen regulates serotonin synthesis (via tryptophan hydroxylase expression), serotonin receptor density (5-HT2A), and serotonin reuptake transporter (SERT) expression. Conversely, serotonin modulates hypothalamic GnRH pulsatility, affecting estrogen production. The gut microbiome sits at the center of both systems: it controls estrogen recirculation ([[estrobolome]]) and produces ~95% of the body's serotonin via enterochromaffin cell stimulation.
 
 ## The Microbiome Connection
 

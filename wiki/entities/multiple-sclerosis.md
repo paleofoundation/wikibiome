@@ -27,7 +27,7 @@ wikipedia_differentiation: "Probiotic trial meta-analysis with specific strain-l
 
 ## Overview
 
-Multiple sclerosis (MS) is a chronic autoimmune demyelinating disease of the central nervous system, with a global prevalence of approximately 2.8 million [[attfield-2022-immunology-ms-nature-review]]. The conventional framing centers on genetic susceptibility (HLA-DRB1*15:01), autoreactive T cells attacking myelin, and environmental triggers (EBV infection, vitamin D deficiency, smoking) [[attfield-2022-immunology-ms-nature-review]]. The metallomic angle for MS is notably thinner than for the other diseases in this wiki -- there is no well-characterized metal signature in MS biofluids comparable to the Cu/Zn disruption in cancer or the Zn depletion in diabetes. However, the gut-brain axis connection is exceptionally strong, with probiotic trials demonstrating clinically meaningful improvements in disability scores, inflammatory markers, and cytokine profiles. Because gut microbiome composition is shaped by dietary metal exposure, the metal-microbiome-brain pathway provides the most relevant lens for MS in this wiki.
+Multiple sclerosis (MS) is a chronic autoimmune demyelinating disease of the central nervous system, with a global prevalence of approximately 2.8 million [[attfield-2022-immunology-ms-nature-review]]. The conventional framing centers on genetic susceptibility (HLA-DRB1*15:01), autoreactive T cells attacking myelin, and environmental triggers (EBV infection, vitamin D deficiency, smoking) [[attfield-2022-immunology-ms-nature-review]]. The metallomic angle for MS is notably thinner than for the other diseases in this wiki -- there is no well-characterized metal signature in MS biofluids comparable to the Cu/Zn disruption in cancer or the Zn depletion in diabetes. However, the gut-brain axis connection is exceptionally strong, with probiotic trials demonstrating clinically meaningful improvements in disability scores, inflammatory markers, and cytokine profiles. Because [[gut-microbiome]] composition is shaped by dietary metal exposure, the metal-microbiome-brain pathway provides the most relevant lens for MS in this wiki.
 
 ## Metallomic Signature
 
@@ -140,7 +140,7 @@ The gap in environmental metal-MS research is striking given the strong microbio
 - [[manganese]] -- TCA cycle enzyme cofactor; metabolic shift in MS T cells involves Mn pathways
 - [[nickel]] -- S. thermophilus is a Streptococcus species; metal homeostasis in Streptococci is relevant to understanding probiotic mechanisms
 - [[neurodegeneration]] -- progressive MS involves iron-driven neurodegeneration with ferroptosis in oligodendrocytes
-- [[gut-microbiome]] -- MS microbiome shows reduced SCFA producers and enriched pro-inflammatory taxa
+- gut microbiome -- MS microbiome shows reduced SCFA producers and enriched pro-inflammatory taxa
 - [[biomarkers]] -- EDSS, CSF neurofilaments, and brain iron on MRI as MS progression markers
 - [[indoles]] -- microbial indole derivatives activate astrocytic AhR, suppressing neuroinflammation; depleted in MS gut
 

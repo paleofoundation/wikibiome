@@ -19,7 +19,7 @@ wikipedia_differentiation: "Gut-ovarian axis concept showing causal microbiome-t
 
 # Female Infertility
 
-Affects approximately 48 million women worldwide (WHO global infertility prevalence estimates). From a microbiome-metallomics perspective, female infertility sits at the intersection of the estrobolome (microbial estrogen metabolism), heavy metal reproductive toxicity (Cd, Pb as endocrine disruptors) [[lee-2020-female-infertility-blood-lead-cadmium]], [[lin-2023-heavy-metals-infertility-nhanes]], and an emerging concept: the gut-ovarian axis — direct causal links between gut microbiome composition and ovarian function [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]], [[kim-2026-estropausal-fmt-ovarian-function-rejuvenation]].
+Affects approximately 48 million women worldwide (WHO global infertility prevalence estimates). From a microbiome-metallomics perspective, female infertility sits at the intersection of the estrobolome (microbial estrogen metabolism), heavy metal reproductive toxicity (Cd, Pb as endocrine disruptors) [[lee-2020-female-infertility-blood-lead-cadmium]], [[lin-2023-heavy-metals-infertility-nhanes]], and an emerging concept: the gut-ovarian axis — direct causal links between [[gut-microbiome]] composition and ovarian function [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]], [[kim-2026-estropausal-fmt-ovarian-function-rejuvenation]].
 
 ## The Gut-Ovarian Axis
 

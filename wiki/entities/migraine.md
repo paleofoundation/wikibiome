@@ -44,7 +44,7 @@ Migraine is a complex neurological disorder characterized by recurrent episodes 
 
 ## Microbiome Associations
 
-Migraine patients show altered gut microbiome composition, with enrichment of nitrate-reducing bacteria — organisms that convert dietary nitrate to nitrite and nitric oxide (NO). Excess NO is a known migraine trigger through vasodilation and CGRP release. Taxa enriched in migraine include certain Streptococcus and Haemophilus species. Depletion of butyrate-producing Faecalibacterium and Roseburia has also been reported, suggesting impaired gut barrier function.
+Migraine patients show altered [[gut-microbiome]] composition, with enrichment of nitrate-reducing bacteria — organisms that convert dietary nitrate to nitrite and nitric oxide (NO). Excess NO is a known migraine trigger through vasodilation and CGRP release. Taxa enriched in migraine include certain Streptococcus and Haemophilus species. Depletion of butyrate-producing Faecalibacterium and Roseburia has also been reported, suggesting impaired gut barrier function.
 
 ## Metal Associations
 

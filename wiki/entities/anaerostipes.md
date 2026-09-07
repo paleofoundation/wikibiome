@@ -69,7 +69,7 @@ Beyond butyrate production, *Anaerostipes* contributes to the gut's tryptophan m
 Depleted in CKD alongside *Blautia*, *Coprococcus*, *Lachnospira*, and *Roseburia* as part of the Lachnospiraceae decline that begins at stage 3b [[yasuno-2024-dysbiosis-gut-microbiota-ckd]]. Butyrate deficit contributes to uremic toxin accumulation and systemic [[inflammation]] characteristic of CKD [[dysbiosis]].
 
 ### Multiple Sclerosis
-Listed among the depleted taxa in MS gut microbiome characterization, alongside *Faecalibacterium* and multiple Clostridia cluster IV/XIVa species [[miyake-2015-dysbiosis-ms-clostridia-depletion]]. The loss of butyrate producers in MS parallels reduced gut-brain axis regulatory capacity.
+Listed among the depleted taxa in MS [[gut-microbiome]] characterization, alongside *Faecalibacterium* and multiple Clostridia cluster IV/XIVa species [[miyake-2015-dysbiosis-ms-clostridia-depletion]]. The loss of butyrate producers in MS parallels reduced gut-brain axis regulatory capacity.
 
 ### Graves' Disease Orbitopathy
 Anaerostipes and Firmicutes broadly are significantly downregulated in Graves' orbitopathy patients, with corresponding decreases in serum ILA, IPA, and IAA [[yang-2025-tryptophan-metabolites-graves-orbitopathy]]. This links *Anaerostipes* depletion to both butyrate deficiency and tryptophan metabolite depletion in the context of thyroid autoimmunity.

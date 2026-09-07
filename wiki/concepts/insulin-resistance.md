@@ -48,7 +48,7 @@ Lead: Associated with IR and MetS in NHANES and occupational cohorts. Pb disrupt
 A key finding: dietary fiber intake and BMI are independent predictors of HOMA-IR, explaining 54% of the variance in insulin resistance in PCOS women [[cutler-2019-fiber-magnesium-pcos]]:
 - Women with PCOS consumed significantly less fiber (19.6 vs 24.7 g) and magnesium (238.9 vs 273.9 mg) than controls.
 - Low fiber tertile had significantly higher testosterone and DHEAS.
-- Fiber's effects may be mediated through gut microbiome modulation (SCFA production, barrier integrity), linking IR to [[dysbiosis]].
+- Fiber's effects may be mediated through [[gut-microbiome]] modulation (SCFA production, barrier integrity), linking IR to [[dysbiosis]].
 - This finding persisted despite similar total caloric intake between groups.
 
 ## Dietary Interventions

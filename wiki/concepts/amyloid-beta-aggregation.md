@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Amyloid-Beta Aggregation
 
-The process by which soluble amyloid-beta (Aβ) monomers assemble into neurotoxic oligomers and insoluble fibrillar plaques in the brain -- the defining neuropathological event of [[alzheimers-disease]]. What distinguishes WikiBiome's treatment of this process from conventional neuroscience is the recognition that amyloid-beta aggregation is not a spontaneous protein misfolding event but a metal-catalyzed process that is accelerated by copper, zinc, and iron, modulated by the gut microbiome, and potentially triggered by chronic innate immune responses to microbial products.
+The process by which soluble amyloid-beta (Aβ) monomers assemble into neurotoxic oligomers and insoluble fibrillar plaques in the brain -- the defining neuropathological event of [[alzheimers-disease]]. What distinguishes WikiBiome's treatment of this process from conventional neuroscience is the recognition that amyloid-beta aggregation is not a spontaneous protein misfolding event but a metal-catalyzed process that is accelerated by copper, zinc, and iron, modulated by the [[gut-microbiome]], and potentially triggered by chronic innate immune responses to microbial products.
 
 For the broader biology of the peptide (antimicrobial function, infection hypothesis, gut-brain interactions), see [[amyloid-beta]]. This page focuses specifically on the aggregation mechanism and the metals that drive it.
 

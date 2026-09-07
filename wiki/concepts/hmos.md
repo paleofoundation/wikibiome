@@ -18,7 +18,7 @@ platform: wikibiome
 
 # Human Milk Oligosaccharides (HMOs)
 
-Human milk oligosaccharides are a diverse family of over 200 structurally distinct complex sugars found in breast milk. They are the third most abundant solid component of human milk (after lactose and lipids), yet they are not digestible by the infant. Their sole purpose is to feed and shape the infant gut microbiome -- making breast milk an evolutionary solution to the problem of microbial ecosystem assembly.
+Human milk oligosaccharides are a diverse family of over 200 structurally distinct complex sugars found in breast milk. They are the third most abundant solid component of human milk (after lactose and lipids), yet they are not digestible by the infant. Their sole purpose is to feed and shape the infant [[gut-microbiome]] -- making breast milk an evolutionary solution to the problem of microbial ecosystem assembly.
 
 ## Structure and Diversity
 

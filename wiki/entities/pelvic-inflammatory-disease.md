@@ -57,7 +57,7 @@ A cross-sectional analysis of NHANES 2015–2018 data (n=2,345 women) found that
 
 ## Open Questions
 
-- Whether gut microbiome restoration could reduce PID recurrence — by improving vaginal Lactobacillus colonization through the gut-vagina axis — remains untested in clinical trials.
+- Whether [[gut-microbiome]] restoration could reduce PID recurrence — by improving vaginal Lactobacillus colonization through the gut-vagina axis — remains untested in clinical trials.
 - Whether the fiber-PID association is causal or reflects confounding by overall health behaviors requires prospective cohort and interventional confirmation.
 
 ## Cross-References

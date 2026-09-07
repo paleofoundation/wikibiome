@@ -37,7 +37,7 @@ conditions_depleted_in: []
 
 ## Overview
 
-Olsenella is a Gram-positive obligate anaerobic genus within the Coriobacteriaceae (Actinobacteria). Species such as *O. uli* and *O. profusa* were originally isolated from the oral cavity but are increasingly detected in gut microbiome surveys, particularly in disease states.
+Olsenella is a Gram-positive obligate anaerobic genus within the Coriobacteriaceae (Actinobacteria). Species such as *O. uli* and *O. profusa* were originally isolated from the oral cavity but are increasingly detected in [[gut-microbiome]] surveys, particularly in disease states.
 
 ## Metal Dependencies
 

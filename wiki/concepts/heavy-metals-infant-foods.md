@@ -56,7 +56,7 @@ Higher absorption rates. The infant gut is more permeable than the adult gut (in
 
 Body-weight exposure ratio. A 7 kg infant eating 100g of baby food ingests ~14 μg Ni/kg body weight from a high-nickel product. An 70 kg adult eating the same food ingests ~1.4 μg/kg — a 10x difference in body-weight-adjusted exposure from identical products.
 
-Developmental sensitivity. The brain, kidneys, immune system, and gut microbiome are all in critical developmental phases. Metal exposure during these windows can produce permanent structural and functional changes that do not occur from identical adult exposure.
+Developmental sensitivity. The brain, kidneys, immune system, and [[gut-microbiome]] are all in critical developmental phases. Metal exposure during these windows can produce permanent structural and functional changes that do not occur from identical adult exposure.
 
 ## The Plant Hyperaccumulation Problem
 

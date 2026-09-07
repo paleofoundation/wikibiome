@@ -38,6 +38,6 @@ Maternal gut *Finegoldia* abundance has been associated with postpartum depressi
 ## Cross-References
 
 - [[endometriosis]] — vaginal microbiome associations
-- [[postpartum-depression]] — maternal gut microbiome and PPD
+- [[postpartum-depression]] — maternal [[gut-microbiome]] and PPD
 - [[semen-microbiome]] — male reproductive tract presence
 - [[peptostreptococcus]] — former taxonomic classification

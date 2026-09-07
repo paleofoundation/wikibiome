@@ -14,7 +14,7 @@ seo_target: "amyloid beta gut microbiome Alzheimer's disease metals aggregation"
 
 # Amyloid-Beta
 
-Amyloid-beta (Aβ) is a 36–43 amino acid peptide derived from the proteolytic cleavage of amyloid precursor protein (APP) by beta-secretase (BACE1) and gamma-secretase. Its aggregation from soluble monomers into insoluble fibrillar plaques in the brain is the defining neuropathological feature of [[alzheimers-disease]]. However, the story of amyloid-beta is more complex than a simple pathological protein — it is a normal physiological peptide with antimicrobial functions whose relationship to infection and the gut microbiome has become mechanistically central to understanding Alzheimer's pathogenesis.
+Amyloid-beta (Aβ) is a 36–43 amino acid peptide derived from the proteolytic cleavage of amyloid precursor protein (APP) by beta-secretase (BACE1) and gamma-secretase. Its aggregation from soluble monomers into insoluble fibrillar plaques in the brain is the defining neuropathological feature of [[alzheimers-disease]]. However, the story of amyloid-beta is more complex than a simple pathological protein — it is a normal physiological peptide with antimicrobial functions whose relationship to infection and the [[gut-microbiome]] has become mechanistically central to understanding Alzheimer's pathogenesis.
 
 ## Normal Function: An Antimicrobial Peptide
 

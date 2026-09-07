@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Siderophore Competition
 
-Small, high-affinity iron-chelating molecules secreted by bacteria and fungi to scavenge ferric iron (Fe3+) from the environment. Siderophore competition is a fundamental ecological force in the gut microbiome: organisms with superior iron acquisition systems gain a decisive growth advantage, and the balance of siderophore warfare shapes which species dominate in health and disease.
+Small, high-affinity iron-chelating molecules secreted by bacteria and fungi to scavenge ferric iron (Fe3+) from the environment. Siderophore competition is a fundamental ecological force in the [[gut-microbiome]]: organisms with superior iron acquisition systems gain a decisive growth advantage, and the balance of siderophore warfare shapes which species dominate in health and disease.
 
 This concept maps directly to Karen's Brain Primitive 8: Siderophore Competition and Iron Ecology -- the principle that competitive exclusion via superior iron acquisition is a primary mechanism of microbial community assembly.
 

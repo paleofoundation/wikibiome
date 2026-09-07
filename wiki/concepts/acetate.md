@@ -27,7 +27,7 @@ Acetate (acetic acid, C2) is the most abundant SCFA in the colon (~60% of total 
 - [[cross-feeding]] substrate: Acetate is converted to [[butyrate]] by butyrate-producing Firmicutes ([[roseburia]], [[faecalibacterium-prausnitzii]]) via butyryl-CoA:acetate CoA-transferase. This acetate→butyrate chain means acetate producers are upstream of the entire butyrate-dependent protective cascade [[louis-2022-microbial-lactate-utilisation-gut-stability]].
 - Appetite regulation: Acetate crosses the blood-brain barrier and reduces appetite via hypothalamic signaling.
 - Immune modulation: Activates GPR43 (FFAR2) on immune cells, promoting neutrophil recruitment and Treg differentiation.
-- Histone acetylation: Systemic acetate contributes to histone H3/H4 acetylation in peripheral tissues — an epigenetic mechanism linking gut microbiome to systemic gene regulation.
+- Histone acetylation: Systemic acetate contributes to histone H3/H4 acetylation in peripheral tissues — an epigenetic mechanism linking [[gut-microbiome]] to systemic gene regulation.
 - Cancer: Context-dependent effects — anti-proliferative via HDAC inhibition in some cancers, but Acetyl-CoA supply for lipogenesis in others [[feitelson-2023-scfas-cancer-pathogenesis]].
 
 ## Cross-References

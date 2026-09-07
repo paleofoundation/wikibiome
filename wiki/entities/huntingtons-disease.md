@@ -59,7 +59,7 @@ Post-mortem examination of HD brain tissue has revealed fungal elements includin
 
 ### Gut Microbiome
 
-HD patients and presymptomatic gene carriers show altered gut microbiome composition compared to healthy controls. [[intestinimonas]] has been reported as enriched in HD, consistent with its enrichment in other inflammatory and neurodegenerative states. Gut-brain axis disruption in HD may contribute to the gastrointestinal symptoms (weight loss, dysphagia, altered motility) that precede or accompany motor decline.
+HD patients and presymptomatic gene carriers show altered [[gut-microbiome]] composition compared to healthy controls. [[intestinimonas]] has been reported as enriched in HD, consistent with its enrichment in other inflammatory and neurodegenerative states. Gut-brain axis disruption in HD may contribute to the gastrointestinal symptoms (weight loss, dysphagia, altered motility) that precede or accompany motor decline.
 
 ## Metal Associations
 

@@ -22,7 +22,7 @@ karen_brain_primitives: [1, 5]
 
 ## Overview
 
-Lipid metabolism — the synthesis, transport, and degradation of fats — is profoundly modulated by both the gut microbiome and metal homeostasis. The microbiome influences lipid metabolism through bile acid transformation, SCFA production, [[tmao|TMAO]] generation, and direct enzymatic modification of dietary lipids. Metals affect lipid metabolism through oxidative modification ([[lipid-peroxidation]]), enzyme cofactor roles, and disruption of hepatic lipid processing.
+Lipid metabolism — the synthesis, transport, and degradation of fats — is profoundly modulated by both the [[gut-microbiome]] and metal homeostasis. The microbiome influences lipid metabolism through bile acid transformation, SCFA production, [[tmao|TMAO]] generation, and direct enzymatic modification of dietary lipids. Metals affect lipid metabolism through oxidative modification ([[lipid-peroxidation]]), enzyme cofactor roles, and disruption of hepatic lipid processing.
 
 ## Microbiome-Lipid Interactions
 

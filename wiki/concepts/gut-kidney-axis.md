@@ -24,7 +24,7 @@ platform: wikibiome
 
 ## Overview
 
-The gut-kidney axis describes the bidirectional relationship between the gut microbiome and kidney function. As kidney disease progresses, the resulting biochemical changes (uremia, altered pH, fluid shifts) reshape the gut microbiome. The dysbiotic microbiome, in turn, generates uremic toxins and inflammatory mediators that accelerate kidney damage -- creating a vicious cycle that is the hallmark of [[chronic-kidney-disease]] progression.
+The gut-kidney axis describes the bidirectional relationship between the [[gut-microbiome]] and kidney function. As kidney disease progresses, the resulting biochemical changes (uremia, altered pH, fluid shifts) reshape the gut microbiome. The dysbiotic microbiome, in turn, generates uremic toxins and inflammatory mediators that accelerate kidney damage -- creating a vicious cycle that is the hallmark of [[chronic-kidney-disease]] progression.
 
 This axis is distinctive in the WikiBiome knowledge graph because it illustrates the amplification loop principle: the disease changes the microbiome, and the changed microbiome worsens the disease. Metals add a third dimension, as declining kidney function impairs metal excretion, increasing metal-driven toxicity and microbial selection pressure.
 

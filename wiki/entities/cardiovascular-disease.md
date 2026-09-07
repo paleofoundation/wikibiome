@@ -58,7 +58,7 @@ The Cu/Se ratio captures both copper elevation and selenium depletion in a singl
 
 ### Pb and Cd as CVD Risk Factors
 
-Lead and cadmium exert cardiovascular toxicity through both direct and microbiome-mediated mechanisms. Smoking status is the predominant determinant of non-essential/toxic element plasma levels (Al, Cd, Rb, Sr, U, V). Cadmium drives vascular damage through oxidative stress, endothelial dysfunction, and disruption of the gut microbiome toward pro-inflammatory configurations. Lead exposure contributes to hypertension and atherosclerosis progression.
+Lead and cadmium exert cardiovascular toxicity through both direct and microbiome-mediated mechanisms. Smoking status is the predominant determinant of non-essential/toxic element plasma levels (Al, Cd, Rb, Sr, U, V). Cadmium drives vascular damage through oxidative stress, endothelial dysfunction, and disruption of the [[gut-microbiome]] toward pro-inflammatory configurations. Lead exposure contributes to hypertension and atherosclerosis progression.
 
 ## Gut Microbiome-CVD Axis
 

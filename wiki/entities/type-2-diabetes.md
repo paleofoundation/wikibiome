@@ -67,7 +67,7 @@ The [[lu-2024-nickel-diabetes-meta-analysis|Lu et al. (2024)]] meta-analysis of 
 
 ## Gut Microbiome Connection
 
-The gut microbiome mediates several metal-diabetes pathways:
+The [[gut-microbiome]] mediates several metal-diabetes pathways:
 
 Metal-induced [[dysbiosis]] drives metabolic dysfunction. [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li et al. (2019)]] demonstrated that environmentally relevant cadmium and arsenic exposure significantly perturbs gut microbiota and metabolome in ways linked to T2D pathways. Cadmium caused significant decreases in microbial diversity, reduced Bacteroidetes, and disrupted bile acid metabolism and amino acid profiles. Both metals affected butyrate-producing bacteria -- the same taxa whose loss is associated with insulin resistance.
 

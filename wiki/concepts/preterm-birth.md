@@ -30,7 +30,7 @@ Preterm birth (<37 weeks gestation) is the leading cause of neonatal mortality a
 
 ## Metal Connection
 
-- Prenatal trace element exposure affects infant gut microbiome programming and preterm birth risk [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
+- Prenatal trace element exposure affects infant [[gut-microbiome]] programming and preterm birth risk [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
 - Nickel in preterm formula may fuel pathogen expansion contributing to [[necrotizing-enterocolitis]] post-delivery [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Statins explored for preterm delivery prevention [[whitaker-2021-statins-preterm-delivery-prevention]].
 

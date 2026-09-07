@@ -36,7 +36,7 @@ The first trimester is particularly sensitive to metal-induced epigenetic disrup
 
 ## Microbiome Consequences
 
-Prenatal metal exposure shapes the infant gut microbiome through at least two pathways. First, metals alter maternal gut microbiome composition during pregnancy, changing the microbial inoculum transferred during vaginal delivery. Second, metals that reach the fetal gut (via swallowed amniotic fluid) may directly select for metal-tolerant pioneer colonizers, biasing the infant microbiome toward organisms with robust metal efflux systems — often Proteobacteria over Bifidobacterium.
+Prenatal metal exposure shapes the infant [[gut-microbiome]] through at least two pathways. First, metals alter maternal gut microbiome composition during pregnancy, changing the microbial inoculum transferred during vaginal delivery. Second, metals that reach the fetal gut (via swallowed amniotic fluid) may directly select for metal-tolerant pioneer colonizers, biasing the infant microbiome toward organisms with robust metal efflux systems — often Proteobacteria over Bifidobacterium.
 
 ## The DOHaD Connection
 

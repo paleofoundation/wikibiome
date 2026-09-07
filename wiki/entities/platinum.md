@@ -24,7 +24,7 @@ wikipedia_differentiation: "Microbiome-dependent cisplatin efficacy — gut dysb
 
 # Platinum (Pt)
 
-A dense, chemically inert noble metal with no known biological function -- yet platinum compounds are the backbone of chemotherapy for ovarian, testicular, lung, and bladder cancers. The discovery that cisplatin inhibits bacterial cell division (Rosenberg, 1965) led to one of oncology's most important drug classes. What is only now emerging is that the gut microbiome profoundly influences whether platinum chemotherapy works or fails.
+A dense, chemically inert noble metal with no known biological function -- yet platinum compounds are the backbone of chemotherapy for ovarian, testicular, lung, and bladder cancers. The discovery that cisplatin inhibits bacterial cell division (Rosenberg, 1965) led to one of oncology's most important drug classes. What is only now emerging is that the [[gut-microbiome]] profoundly influences whether platinum chemotherapy works or fails.
 
 ## Cisplatin Mechanism
 

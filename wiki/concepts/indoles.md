@@ -47,7 +47,7 @@ Indole metabolites converge on the aryl hydrocarbon receptor, which:
 - Modulates microglial activation in the CNS, reducing [[neuroinflammation]].
 - Maintains intestinal stem cell homeostasis.
 
-The AhR pathway represents a key mechanism by which the gut microbiome communicates with the immune system and the brain via the [[gut-brain-axis]].
+The AhR pathway represents a key mechanism by which the [[gut-microbiome]] communicates with the immune system and the brain via the [[gut-brain-axis]].
 
 ## Disease Relevance
 

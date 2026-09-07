@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # Tryptophan Metabolism
 
-Tryptophan (Trp) is an essential amino acid metabolized via three competing pathways: the kynurenine pathway, the serotonin pathway, and the microbial indole pathway. The balance among these pathways is profoundly influenced by the gut microbiome, [[inflammation]], and metal cofactors, making tryptophan metabolism a critical node in the [[gut-brain-axis]] and a convergent disruption point across neurological, autoimmune, and metabolic diseases.
+Tryptophan (Trp) is an essential amino acid metabolized via three competing pathways: the kynurenine pathway, the serotonin pathway, and the microbial indole pathway. The balance among these pathways is profoundly influenced by the [[gut-microbiome]], [[inflammation]], and metal cofactors, making tryptophan metabolism a critical node in the [[gut-brain-axis]] and a convergent disruption point across neurological, autoimmune, and metabolic diseases.
 
 ## The Three Pathways
 

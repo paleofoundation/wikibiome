@@ -27,7 +27,7 @@ TGF-beta is a pleiotropic cytokine with dual roles: immunosuppressive (driving r
 ## Microbiome Connection
 
 - SCFA-driven Treg induction: Butyrate from [[faecalibacterium-prausnitzii]] and other SCFA producers promotes TGF-beta-dependent Treg differentiation in the gut — the primary mechanism by which the microbiome maintains immune tolerance. [[dysbiosis]]-driven butyrate loss reduces TGF-beta/Treg signaling, enabling inflammatory and autoimmune pathology.
-- Endometriosis: TGF-beta drives endometrial stromal cell proliferation and fibrosis; gut microbiome disruption (antibiotic-induced) affects TGF-beta-dependent endometriotic lesion progression [[chadchan-2019-metronidazole-antibiotics-endometriosis-gut-microbiota]].
+- Endometriosis: TGF-beta drives endometrial stromal cell proliferation and fibrosis; [[gut-microbiome]] disruption (antibiotic-induced) affects TGF-beta-dependent endometriotic lesion progression [[chadchan-2019-metronidazole-antibiotics-endometriosis-gut-microbiota]].
 - Hashimoto's thyroiditis: TGF-beta-mediated Treg/Th17 balance disrupted via gut microbiota-immune crosstalk [[pei-2024-immune-cells-gut-microbiota-hashimotos-mendelian]].
 - ASD: Immunoregulatory TGF-beta pathways altered in ASD [[arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd]].
 

@@ -71,7 +71,7 @@ Because 16S rRNA sequencing cannot reliably distinguish *Escherichia* from *Shig
 - Inflammatory bowel disease: Enrichment of *Escherichia/Shigella* is one of the most reproducible IBD microbiome findings, driven by [[inflammation]]-associated iron availability favoring siderophore producers [[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]] [[kang-2023-diagnosis-crohns-uc-microbiome]] [[cronin-2023-diet-microbiome-crohns-hidradenitis]].
 - Heart failure: Part of the Enterobacteriaceae bloom in decompensated heart failure [[hayashi-2019-gut-microbiome-metabolites-heart-failure]] [[gao-2020-gut-microbial-biomarkers-acs-post-stemi]].
 - ASD: Enrichment reported in altered gut microbiota of ASD children [[strati-2017-altered-gut-microbiota-mycobiota-asd]].
-- CKD: *Escherichia/Shigella* enrichment associated with metalloid resistance genes in CKD gut microbiome [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].
+- CKD: *Escherichia/Shigella* enrichment associated with metalloid resistance genes in CKD [[gut-microbiome]] [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].
 - Estrogen recirculation: *Escherichia/Shigella* species possess beta-glucuronidase activity, contributing to estrogen deconjugation in the estrobolome [[kaliannan-2018-estrogen-gut-microbiome-metabolic-syndrome]].
 
 ## Metal-Antibiotic Resistance

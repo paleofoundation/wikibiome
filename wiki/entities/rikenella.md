@@ -33,7 +33,7 @@ Rikenella is a genus of obligate anaerobic, Gram-negative bacteria in the family
 ## Disease Associations
 
 - CVD: Bidirectional MR suggests causal protective association [[dai-2024-bidirectional-mr-gut-microbiota-cvd]].
-- Schizophrenia: Depleted in schizophrenia gut microbiome [[szeligowski-2020-gut-microbiome-schizophrenia-review]].
+- Schizophrenia: Depleted in schizophrenia [[gut-microbiome]] [[szeligowski-2020-gut-microbiome-schizophrenia-review]].
 - T1D: Early-life antibiotic exposure depletes Rikenella, associated with autoimmune diabetes [[candon-2015-antibiotics-early-life-gut-microbiome-autoimmune-diabetes-nod]].
 - Endometriosis: Depleted in endometriosis gut microbiota [[svensson-2021-endometriosis-gut-microbiota-associations]].
 - Prostate: Part of altered gut microbiome in prostatic disease [[cao-2024-gut-microbiome-preventive-therapeutic-prostatic-disease]].

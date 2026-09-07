@@ -53,7 +53,7 @@ Iron dysregulation is reported in bipolar disorder, with elevated ferritin durin
 
 ### Bacterial Dysbiosis
 
-The bipolar gut microbiome shows alterations consistent with other neuropsychiatric conditions [[chrobak-2016-gut-microbiome-cns-schizophrenia-bipolar-depression]] [[hashimoto-2023-host-microbiome-neuropsychiatric-disorders]]:
+The bipolar [[gut-microbiome]] shows alterations consistent with other neuropsychiatric conditions [[chrobak-2016-gut-microbiome-cns-schizophrenia-bipolar-depression]] [[hashimoto-2023-host-microbiome-neuropsychiatric-disorders]]:
 
 - Depleted: [[faecalibacterium-prausnitzii]] (anti-inflammatory butyrate producer), [[bifidobacterium]], [[lactobacillus]]
 - Enriched: [[enterobacteriaceae]], certain Clostridia species

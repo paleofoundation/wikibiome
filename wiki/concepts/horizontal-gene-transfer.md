@@ -17,7 +17,7 @@ platform: wikibiome
 
 ## Overview
 
-Horizontal gene transfer (HGT) is the movement of genetic material between organisms outside of parent-to-offspring inheritance. In the gut microbiome, HGT -- primarily mediated by mobile genetic elements (MGEs) including plasmids, transposons, integrons, and integrative conjugative elements (ICEs) -- is the primary mechanism by which antibiotic resistance genes (ARGs) and metal resistance genes (MRGs) spread across bacterial species and phyla.
+Horizontal gene transfer (HGT) is the movement of genetic material between organisms outside of parent-to-offspring inheritance. In the [[gut-microbiome]], HGT -- primarily mediated by mobile genetic elements (MGEs) including plasmids, transposons, integrons, and integrative conjugative elements (ICEs) -- is the primary mechanism by which antibiotic resistance genes (ARGs) and metal resistance genes (MRGs) spread across bacterial species and phyla.
 
 For WikiBiome, HGT is the genetic vehicle for [[co-selection]]: when metal resistance genes and antibiotic resistance genes co-locate on the same MGE, selecting for one automatically selects for both. This means environmental heavy metal contamination directly drives antibiotic resistance through MGE-mediated co-transfer.
 

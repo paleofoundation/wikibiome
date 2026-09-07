@@ -51,7 +51,7 @@ Aromatase and the estrobolome are two halves of estrogen homeostasis — one con
 
 ### Adipose Aromatase and Obesity-Microbiome Axis
 
-In obesity, adipose tissue becomes a major estrogen source via aromatase expression. The gut microbiome drives obesity-related inflammation → adipose expansion → increased aromatase → peripheral estrogen production. This explains:
+In obesity, adipose tissue becomes a major estrogen source via aromatase expression. The [[gut-microbiome]] drives obesity-related inflammation → adipose expansion → increased aromatase → peripheral estrogen production. This explains:
 - Sex differences in CRC: Higher estrogen from adipose aromatase in obese men may be protective or pathogenic depending on context [[wu-2024-sex-differences-crc-hormone-microbiome-axis]].
 - Postmenopausal breast cancer: Adipose aromatase becomes the primary estrogen source after ovarian cessation; obesity-driven microbiome inflammation amplifies this.
 

@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-Statins (HMG-CoA reductase inhibitors) are the most widely prescribed drug class globally, used primarily for cholesterol lowering and cardiovascular risk reduction. Over 200 million people take statins worldwide. Beyond their canonical mechanism of inhibiting cholesterol synthesis, statins have pleiotropic effects on [[inflammation]], immune function, and -- as increasingly recognized -- the gut microbiome. In the WikiBiome framework, statins are a prime example of [[pharmacomicrobiomics]]: a drug whose off-target microbiome effects may contribute to both therapeutic benefits and adverse effects.
+Statins (HMG-CoA reductase inhibitors) are the most widely prescribed drug class globally, used primarily for cholesterol lowering and cardiovascular risk reduction. Over 200 million people take statins worldwide. Beyond their canonical mechanism of inhibiting cholesterol synthesis, statins have pleiotropic effects on [[inflammation]], immune function, and -- as increasingly recognized -- the [[gut-microbiome]]. In the WikiBiome framework, statins are a prime example of [[pharmacomicrobiomics]]: a drug whose off-target microbiome effects may contribute to both therapeutic benefits and adverse effects.
 
 ## Canonical Mechanism
 

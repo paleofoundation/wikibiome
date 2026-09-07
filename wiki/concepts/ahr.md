@@ -18,7 +18,7 @@ seo_target: "ahr aryl hydrocarbon receptor indole microbiome tryptophan"
 last_substantive_update: 2026-04-22
 ---
 
-The aryl hydrocarbon receptor (AhR) is a ligand-activated transcription factor that functions as a master sensor at the intersection of gut microbial metabolism, environmental chemical exposure, and immune regulation. It is expressed broadly across immune cells, intestinal epithelium, neurons, and liver cells. AhR represents one of the key mechanisms through which gut microbiome-derived metabolites directly influence host immunity and systemic [[inflammation]].
+The aryl hydrocarbon receptor (AhR) is a ligand-activated transcription factor that functions as a master sensor at the intersection of gut microbial metabolism, environmental chemical exposure, and immune regulation. It is expressed broadly across immune cells, intestinal epithelium, neurons, and liver cells. AhR represents one of the key mechanisms through which [[gut-microbiome]]-derived metabolites directly influence host immunity and systemic [[inflammation]].
 
 ## What AhR Senses
 

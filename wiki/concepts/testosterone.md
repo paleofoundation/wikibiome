@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Testosterone
 
-The primary androgen in human biology, testosterone sits at a critical intersection in WikiBiome's framework: it is both regulated by the gut microbiome and disrupted by heavy metals, making it a node where environmental metal exposure, microbial ecology, and endocrine pathology converge. This convergence is most visible in [[pcos]], where hyperandrogenism, gut [[dysbiosis]], and metallomic disruption co-occur in a pattern that no single-cause model adequately explains.
+The primary androgen in human biology, testosterone sits at a critical intersection in WikiBiome's framework: it is both regulated by the [[gut-microbiome]] and disrupted by heavy metals, making it a node where environmental metal exposure, microbial ecology, and endocrine pathology converge. This convergence is most visible in [[pcos]], where hyperandrogenism, gut [[dysbiosis]], and metallomic disruption co-occur in a pattern that no single-cause model adequately explains.
 
 ## Testosterone-Microbiome Axis
 

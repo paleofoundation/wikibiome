@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Mitochondrial Dysfunction
 
-Mitochondrial dysfunction refers to the impairment of mitochondrial energy production, redox balance, and signaling functions. Mitochondria are the primary targets of heavy metal toxicity in human cells, and they are also the organelles most dependent on metal cofactors for function -- creating a paradox where both metal excess and metal deficiency can collapse mitochondrial performance. The emerging connection between the gut microbiome and mitochondrial health adds another layer: microbial metabolites like [[butyrate]] and [[short-chain-fatty-acids]] directly support mitochondrial function, while microbial-derived toxins ([[tmao|uremic-toxins]], LPS) impair it.
+Mitochondrial dysfunction refers to the impairment of mitochondrial energy production, redox balance, and signaling functions. Mitochondria are the primary targets of heavy metal toxicity in human cells, and they are also the organelles most dependent on metal cofactors for function -- creating a paradox where both metal excess and metal deficiency can collapse mitochondrial performance. The emerging connection between the [[gut-microbiome]] and mitochondrial health adds another layer: microbial metabolites like [[butyrate]] and [[short-chain-fatty-acids]] directly support mitochondrial function, while microbial-derived toxins ([[tmao|uremic-toxins]], LPS) impair it.
 
 ## Why Mitochondria Are Metal Vulnerable
 

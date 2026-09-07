@@ -24,7 +24,7 @@ signature_page: "[[epilepsy-signature]]"
 
 Epilepsy is a chronic neurological disorder characterized by recurrent unprovoked seizures, affecting ~50 million people worldwide. Approximately 30% of patients have drug-resistant epilepsy -- a population where microbiome-targeted interventions (particularly the ketogenic diet) have shown the most clinical impact.
 
-The gut microbiome's role in epilepsy operates through the [[gut-brain-axis]]: microbially-derived neuroactive metabolites ([[kynurenine]] pathway products, GABA, [[serotonin]], SCFAs) directly modulate neuronal excitability and seizure thresholds.
+The [[gut-microbiome]]'s role in epilepsy operates through the [[gut-brain-axis]]: microbially-derived neuroactive metabolites ([[kynurenine]] pathway products, GABA, [[serotonin]], SCFAs) directly modulate neuronal excitability and seizure thresholds.
 
 ## Microbiome Associations
 

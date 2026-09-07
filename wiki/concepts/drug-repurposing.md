@@ -18,7 +18,7 @@ platform: wikibiome
 
 Drug repurposing (also called drug repositioning) is the strategy of identifying new therapeutic uses for existing approved drugs. It dramatically accelerates the path from bench to bedside because safety, pharmacokinetics, and manufacturing are already established. In the WikiBiome context, drug repurposing is particularly powerful because many existing drugs have unrecognized microbiome effects or metal-modulating properties that map to disease signatures in ways their original developers never intended.
 
-The convergence of [[pharmacomicrobiomics]] and metallomics creates a rich landscape for repurposing: a drug developed for one purpose may happen to restrict a critical metal cofactor, reshape the gut microbiome toward a healthier configuration, or disable a metal-dependent virulence factor in a pathogenic organism.
+The convergence of [[pharmacomicrobiomics]] and metallomics creates a rich landscape for repurposing: a drug developed for one purpose may happen to restrict a critical metal cofactor, reshape the [[gut-microbiome]] toward a healthier configuration, or disable a metal-dependent virulence factor in a pathogenic organism.
 
 ## Paradigm Examples
 

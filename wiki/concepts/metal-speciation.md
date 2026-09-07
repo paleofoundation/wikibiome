@@ -39,7 +39,7 @@ The gut lumen presents a complex speciation landscape. pH gradients from stomach
 
 ## Implications for Metal Toxicity
 
-Speciation explains why total dietary metal intake poorly predicts health outcomes. Cadmium bound to phytometallotheionein in plant foods has different bioavailability than ionic cadmium in water. Lead speciation in the gut depends on phosphate and calcium concentrations. Understanding speciation is essential for interpreting both [[biomarkers]] of metal exposure and the ecological effects of metals on the gut microbiome.
+Speciation explains why total dietary metal intake poorly predicts health outcomes. Cadmium bound to phytometallotheionein in plant foods has different bioavailability than ionic cadmium in water. Lead speciation in the gut depends on phosphate and calcium concentrations. Understanding speciation is essential for interpreting both [[biomarkers]] of metal exposure and the ecological effects of metals on the [[gut-microbiome]].
 
 ## Cross-References
 

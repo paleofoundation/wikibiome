@@ -263,7 +263,7 @@ A notable cross-condition pattern emerges from the evidence: Mn depletion appear
 ## Open Questions
 
 - Whether Mn-induced parkinsonism is truly distinct from idiopathic Parkinson's disease or represents an accelerated/modified form of the same pathology.
-- The role of gut microbiome-mediated Mn metabolism in modulating neurotoxicity risk, and whether probiotic interventions could be protective.
+- The role of [[gut-microbiome]]-mediated Mn metabolism in modulating neurotoxicity risk, and whether probiotic interventions could be protective.
 - Whether the dramatically elevated Mn in baby food (40x recommended) translates to neurodevelopmental risk at population level.
 - The significance of low Mn in PCOS -- is it a cause (reduced MnSOD capacity) or consequence of the disease?
 - Whether dietary metal ratios (e.g., high Zn relative to Mn in processed food) create chronic low-grade mis-metallation in commensal organisms [[robinson-2020-metalation-natures-challenge]].

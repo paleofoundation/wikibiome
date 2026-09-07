@@ -27,7 +27,7 @@ shared_signature_taxa: {cardiovascular-disease: [lachnospiraceae-enriched, rumin
 
 # Erectile Dysfunction (ED)
 
-Erectile dysfunction (ED) affects 30-50% of men aged 40-70 Feldman et al. 1994, with prevalence increasing with age. Conventionally understood as a vascular and/or neurogenic disorder, ED is now recognized as a condition with a significant gut microbiome component -- the emerging gut-penis axis concept Li et al. 2026. Three concordant Mendelian randomization studies have validated specific causal taxa, and the mechanistic pathway from gut [[dysbiosis]] to penile vascular dysfunction is well-characterized.
+Erectile dysfunction (ED) affects 30-50% of men aged 40-70 Feldman et al. 1994, with prevalence increasing with age. Conventionally understood as a vascular and/or neurogenic disorder, ED is now recognized as a condition with a significant [[gut-microbiome]] component -- the emerging gut-penis axis concept Li et al. 2026. Three concordant Mendelian randomization studies have validated specific causal taxa, and the mechanistic pathway from gut [[dysbiosis]] to penile vascular dysfunction is well-characterized.
 
 ## The Gut-Penis Axis
 

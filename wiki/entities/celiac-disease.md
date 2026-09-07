@@ -27,7 +27,7 @@ wikipedia_differentiation: "Gluten-free diet nickel paradox showing how GFD subs
 
 Celiac disease is a chronic autoimmune condition triggered by dietary gluten (gliadin proteins from wheat, barley, and rye) in genetically susceptible individuals (HLA-DQ2/DQ8, carried by ~30-40% of Europeans but penetrant in only ~1% of carriers). Gluten exposure causes immune-mediated destruction of small intestinal villi (Marsh grade 3 villous atrophy at diagnosis), resulting in malabsorption of iron, zinc, selenium, copper, calcium, magnesium, folate, and fat-soluble vitamins. Global prevalence is ~0.7-1.4% by serology, with clinical diagnosis lagging considerably (Singh et al. 2018 meta-analysis; Lebwohl & Rubio-Tapia 2021).
 
-The pathogenesis proceeds in three coupled steps: (1) intestinal permeability allows gliadin to reach the lamina propria; (2) tissue transglutaminase 2 (tTG2) deamidates gliadin peptides, enhancing HLA-DQ2/DQ8 binding affinity; (3) CD4+ T cells activate against deamidated gliadin, and intraepithelial lymphocytes driven by IL-15 lyse enterocytes. Each step is modifiable by the gut microbiome and by metal status.
+The pathogenesis proceeds in three coupled steps: (1) intestinal permeability allows gliadin to reach the lamina propria; (2) tissue transglutaminase 2 (tTG2) deamidates gliadin peptides, enhancing HLA-DQ2/DQ8 binding affinity; (3) CD4+ T cells activate against deamidated gliadin, and intraepithelial lymphocytes driven by IL-15 lyse enterocytes. Each step is modifiable by the [[gut-microbiome]] and by metal status.
 
 ## Metallomic Angle
 
@@ -86,7 +86,7 @@ Celiac disease shares serological, genetic, and microbial patterns with several 
 - [[dietary-nickel-exposure]] — gluten-free foods as a high-nickel exposure pathway
 - [[iron]] — malabsorption as a mechanism distinct from nutritional immunity
 - [[zinc]] — malabsorption in untreated celiac disease
-- [[gut-microbiome]] — dysbiosis co-occurring with celiac
+- gut microbiome — dysbiosis co-occurring with celiac
 - [[type-1-diabetes]] — shared autoimmune HLA-DQ associations and Bifidobacterium depletion
 - [[hashimotos-thyroiditis]] — autoimmune comorbidity with shared metal malabsorption (iron, zinc, selenium)
 - [[intestinal-permeability]] — villous atrophy and [[tight-junctions|tight junction]] disruption drive nutrient malabsorption

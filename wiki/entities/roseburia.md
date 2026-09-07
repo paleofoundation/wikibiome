@@ -51,7 +51,7 @@ Roseburia depletion is among the most reproducible microbiome findings in human 
 - Roseburia is particularly sensitive to heavy metal stress, more so than many other gut commensals.
 - Iron-sulfur cluster enzymes in the butyrate synthesis pathway are vulnerable to disruption by [[cadmium]], [[lead]], and other toxic metals that compete for iron binding sites.
 - Under metal-stressed conditions, Roseburia is outcompeted by siderophore-producing [[enterobacteriaceae]] that aggressively scavenge [[iron]], compounding its depletion.
-- This metal sensitivity positions Roseburia as an early biomarker for environmental metal exposure effects on the gut microbiome.
+- This metal sensitivity positions Roseburia as an early biomarker for environmental metal exposure effects on the [[gut-microbiome]].
 
 ## Key Metabolites
 

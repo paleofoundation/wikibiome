@@ -58,7 +58,7 @@ The primary description, NCBI Taxonomy, and LPSN all identify *Akkermansia mucin
 - Multiple sclerosis: altered abundance in MS patients. Some studies report increased *Akkermansia* in MS (possibly pro-inflammatory in this context), illustrating context-dependent effects [[bronzini-2023-feeding-gut-microbiome-ms]].
 - Obesity and type 2 diabetes: consistently depleted; inversely correlated with metabolic syndrome markers [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]].
 - Parkinson's disease: altered abundance linked to gut-brain axis dysfunction. Metal-induced [[dysbiosis]] in the gut may promote alpha-synuclein aggregation [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- Autism spectrum disorder: altered in ASD gut microbiome profiles [[amadi-2022-dietary-interventions-asd-systematic-review]].
+- Autism spectrum disorder: altered in ASD [[gut-microbiome]] profiles [[amadi-2022-dietary-interventions-asd-systematic-review]].
 - Cardiovascular disease: oral supplementation of *A. muciniphila* inhibits abdominal aortic aneurysm formation in mice by restoring microbial diversity and modulating IL-33 and peripheral immune factors [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
 
 ## Next-Generation Probiotic Potential

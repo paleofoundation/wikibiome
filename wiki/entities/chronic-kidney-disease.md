@@ -44,7 +44,7 @@ This bidirectional relationship is the defining metallomic feature of CKD:
 - Blood Cd >1 mcg/L associated with CKD and albuminuria [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 - Cd impairs electron transport chain complexes II/III, induces ER stress, disrupts autophagy [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 - Cd specifically targets the proximal tubule, where it accumulates bound to metallothionein [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]].
-- In the gut microbiome, Cd exposure at low doses specifically decreases *Akkermansia muciniphila*, a gut barrier-protective species, and selects for cadmium-resistant Proteobacteria carrying cadA resistance genes [[ghosh-2023-heavy-metals-gut-barrier-integrity]] [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].
+- In the [[gut-microbiome]], Cd exposure at low doses specifically decreases *Akkermansia muciniphila*, a gut barrier-protective species, and selects for cadmium-resistant Proteobacteria carrying cadA resistance genes [[ghosh-2023-heavy-metals-gut-barrier-integrity]] [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].
 
 ### Lead: Dose-Dependent Nephrotoxicity with Racial Disparities
 

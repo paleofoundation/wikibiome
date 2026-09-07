@@ -20,7 +20,7 @@ shared_signature_taxa: {depression: [faecalibacterium-depleted, blautia-depleted
 
 # Premenstrual Dysphoric Disorder (PMDD)
 
-Premenstrual Dysphoric Disorder (PMDD) affects 3-8% of menstruating individuals Epperson et al. 2012, causing severe mood disturbances, irritability, anxiety, and physical symptoms during the luteal phase of the menstrual cycle. Distinguished from premenstrual syndrome (PMS) by the severity of affective symptoms, PMDD is increasingly recognized as a neuroimmune disorder in which gut microbiome composition modulates hormonal sensitivity, tryptophan metabolism, and GABAergic neurotransmission.
+Premenstrual Dysphoric Disorder (PMDD) affects 3-8% of menstruating individuals Epperson et al. 2012, causing severe mood disturbances, irritability, anxiety, and physical symptoms during the luteal phase of the menstrual cycle. Distinguished from premenstrual syndrome (PMS) by the severity of affective symptoms, PMDD is increasingly recognized as a neuroimmune disorder in which [[gut-microbiome]] composition modulates hormonal sensitivity, tryptophan metabolism, and GABAergic neurotransmission.
 
 ## Microbiome Associations
 

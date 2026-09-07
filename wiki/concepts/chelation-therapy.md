@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-Chelation therapy uses high-affinity metal-binding molecules to form stable, excretable complexes with toxic metals, removing them from the body. The term derives from Greek "chele" (claw) -- the chelator grips the metal ion at multiple coordination sites. While chelation is life-saving in acute metal poisoning, its broader application raises important questions from the microbiome perspective: chelators do not distinguish between metal in human tissue and metal sustaining the gut microbiome, creating the potential for unintended ecological disruption.
+Chelation therapy uses high-affinity metal-binding molecules to form stable, excretable complexes with toxic metals, removing them from the body. The term derives from Greek "chele" (claw) -- the chelator grips the metal ion at multiple coordination sites. While chelation is life-saving in acute metal poisoning, its broader application raises important questions from the microbiome perspective: chelators do not distinguish between metal in human tissue and metal sustaining the [[gut-microbiome]], creating the potential for unintended ecological disruption.
 
 For a comprehensive guide to individual chelating agents, see [[metal-chelation-therapy]]. This page focuses on the microbiome implications and the broader conceptual framework.
 

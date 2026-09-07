@@ -29,7 +29,7 @@ conditions_depleted_in: [endometriosis, multiple-sclerosis]
 
 ## Disease Associations
 
-*Adlercreutzia* is consistently depleted in conditions characterized by estrogen dysregulation and neuroinflammation. In endometriosis, reduced *Adlercreutzia* abundance correlates with impaired equol production, potentially exacerbating estrogen-driven disease progression ([[svensson-2021-associations-endometriosis-gut-microbiota]]). In multiple sclerosis, dietary interventions targeting the gut microbiome identify *Adlercreutzia* as a beneficial taxon whose restoration may support anti-inflammatory metabolite production ([[bronzini-2023-feeding-gut-microbiome-ms]]).
+*Adlercreutzia* is consistently depleted in conditions characterized by estrogen dysregulation and neuroinflammation. In endometriosis, reduced *Adlercreutzia* abundance correlates with impaired equol production, potentially exacerbating estrogen-driven disease progression ([[svensson-2021-associations-endometriosis-gut-microbiota]]). In multiple sclerosis, dietary interventions targeting the [[gut-microbiome]] identify *Adlercreutzia* as a beneficial taxon whose restoration may support anti-inflammatory metabolite production ([[bronzini-2023-feeding-gut-microbiome-ms]]).
 
 The genus has also been identified in reviews of gut microbiota and male reproductive function, where equol-producing bacteria influence testosterone metabolism and spermatogenesis ([[lv-2024-gut-microbiota-male-reproductive-function-review]]).
 

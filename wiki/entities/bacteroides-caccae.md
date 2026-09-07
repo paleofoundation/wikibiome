@@ -63,7 +63,7 @@ In the healthy gut, *B. caccae* contributes to the primary degradation of dietar
 
 ## Lead Sensitivity — The Defining Feature
 
-The PROGRESS cohort study (prospective, n=123, Mexico City) demonstrated that prenatal lead exposure in both the 2nd and 3rd trimesters was consistently associated with depletion of *B. caccae* in the childhood gut microbiome at ages 9-11 years [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]. Key findings:
+The PROGRESS cohort study (prospective, n=123, Mexico City) demonstrated that prenatal lead exposure in both the 2nd and 3rd trimesters was consistently associated with depletion of *B. caccae* in the childhood [[gut-microbiome]] at ages 9-11 years [[eggers-2023-prenatal-lead-exposure-gut-microbiome-childhood]]. Key findings:
 
 - *B. caccae* exceeded the weighted quantile sum (WQS) importance threshold in ≥80% of repeated holdouts for both trimesters, making it one of the most reproducibly Pb-depleted taxa
 - This depletion persisted years after the prenatal exposure window, consistent with developmental programming of the gut microbiome

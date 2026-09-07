@@ -40,7 +40,7 @@ At the concentrations found in healthy adult gut microbiomes, propionate has ben
 
 Hepatic metabolism: Propionate is transported to the liver via the portal vein, where it inhibits cholesterol synthesis (via HMGCS inhibition) and contributes to hepatic gluconeogenesis. At physiological concentrations, it contributes to glucose homeostasis.
 
-Appetite regulation: Propionate activates FFAR3 (GPR41) and FFAR2 (GPR43) receptors on enteroendocrine L cells and adipocytes, stimulating release of PYY and GLP-1. These gut hormones signal satiety, reduce gastric emptying, and inhibit food intake — making propionate part of the gut microbiome's contribution to satiety signaling [[zhang-2025-gut-microbiota-cvd-mini-review]].
+Appetite regulation: Propionate activates FFAR3 (GPR41) and FFAR2 (GPR43) receptors on enteroendocrine L cells and adipocytes, stimulating release of PYY and GLP-1. These gut hormones signal satiety, reduce gastric emptying, and inhibit food intake — making propionate part of the [[gut-microbiome]]'s contribution to satiety signaling [[zhang-2025-gut-microbiota-cvd-mini-review]].
 
 Blood pressure regulation: Like other SCFAs, propionate activates olfactory receptor Olfr78 (expressed on afferent arterioles) and FFAR3 on sympathetic nerve terminals, contributing to blood pressure regulation. SCFA signaling via these receptors is one mechanism by which gut microbiome composition influences cardiovascular physiology.
 

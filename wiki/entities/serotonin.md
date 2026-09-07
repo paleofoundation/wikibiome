@@ -20,7 +20,7 @@ wikipedia_differentiation: "90%+ gut-produced serotonin regulated by microbiome;
 
 Serotonin (5-hydroxytryptamine, 5-HT) is a monoamine neurotransmitter with a remarkable split life: ~90-95% of body serotonin is produced in the gut by enterochromaffin (EC) cells, not in the brain. This peripheral serotonin regulates intestinal motility, secretion, visceral sensation, and vagal signaling. Brain serotonin -- synthesized independently because gut 5-HT does not cross the blood-brain barrier -- controls mood, appetite, sleep, and cognition.
 
-The gut microbiome directly regulates serotonin production. Spore-forming Clostridia stimulate EC cells to produce serotonin, and tryptophan availability (the precursor) is shaped by microbial consumption and metabolic diversion. This makes serotonin biology a primary pathway through which [[dysbiosis]] affects both gut function and brain health.
+The [[gut-microbiome]] directly regulates serotonin production. Spore-forming Clostridia stimulate EC cells to produce serotonin, and tryptophan availability (the precursor) is shaped by microbial consumption and metabolic diversion. This makes serotonin biology a primary pathway through which [[dysbiosis]] affects both gut function and brain health.
 
 ## Synthesis and the Tryptophan Fork
 

@@ -82,7 +82,7 @@ Re-elevated blood Pb → further VitD disruption
 - Phosphate retention (from reduced glomerular filtration) further stimulates PTH.
 - CKD-mineral bone disorder (CKD-MBD) is a major cause of morbidity in dialysis patients.
 - Heavy metal accumulation in CKD (cadmium, arsenic) may compound the renal hydroxylation deficit.
-- The gut microbiome in CKD generates uremic toxins ([[indoxyl-sulfate]], p-cresyl sulfate) that further damage remaining renal function, worsening the mineral metabolism disruption.
+- The [[gut-microbiome]] in CKD generates uremic toxins ([[indoxyl-sulfate]], p-cresyl sulfate) that further damage remaining renal function, worsening the mineral metabolism disruption.
 
 ## Gut Microbiome Connections
 

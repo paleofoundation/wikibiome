@@ -20,7 +20,7 @@ karen_brain_primitives: [1, 3]
 
 ## Overview
 
-Methylation is the addition of a methyl group (-CH₃) to DNA, histones, proteins, or small molecules. DNA methylation (at CpG sites) is the primary epigenetic mechanism silencing gene expression, and it requires the methyl donor S-adenosylmethionine (SAMe), which depends on the methionine cycle — itself dependent on [[vitamin-b12|B12]], folate, and [[homocysteine]] metabolism. The gut microbiome produces B12 and folate, making it a direct regulator of the host's methylation capacity.
+Methylation is the addition of a methyl group (-CH₃) to DNA, histones, proteins, or small molecules. DNA methylation (at CpG sites) is the primary epigenetic mechanism silencing gene expression, and it requires the methyl donor S-adenosylmethionine (SAMe), which depends on the methionine cycle — itself dependent on [[vitamin-b12|B12]], folate, and [[homocysteine]] metabolism. The [[gut-microbiome]] produces B12 and folate, making it a direct regulator of the host's methylation capacity.
 
 ## Metal-Methylation Interface
 

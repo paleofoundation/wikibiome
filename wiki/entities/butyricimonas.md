@@ -42,7 +42,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (famil
 - Abundance altered by antidepressant medications (fluoxetine, amitriptyline), suggesting that drug-microbiome interactions modulate this genus [[zhang-2021-antidepressants-fluoxetine-amitriptyline-gut-microbiome]].
 
 ### Endometriosis
-- Identified among differentially abundant taxa in [[endometriosis]]-associated gut microbiome profiles [[svensson-2021-endometriosis-gut-microbiota-associations]].
+- Identified among differentially abundant taxa in [[endometriosis]]-associated [[gut-microbiome]] profiles [[svensson-2021-endometriosis-gut-microbiota-associations]].
 
 ### Thyroid Disease
 - MR evidence links *Butyricimonas* to thyroid disease risk across multiple thyroid conditions [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]].

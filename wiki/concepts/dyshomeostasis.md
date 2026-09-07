@@ -61,7 +61,7 @@ A striking genetic demonstration of dyshomeostasis as a causal IBD mechanism com
 
 - ZIP8 is a metal transporter expressed at the apical surface of intestinal epithelial cells. The A391T variant alters its transport kinetics.
 - Knock-in mice homozygous for the A391T variant show increased cobalt, cadmium, and manganese in mucosal tissue and reduced luminal availability of iron, cobalt, copper, zinc, cadmium, and manganese compared to wild-type.
-- This metal redistribution — more metal absorbed into the mucosa, less available in the lumen to gut bacteria — reshapes the gut microbiome composition in an age-dependent manner, with genotype accounting for 3% of microbiome variance at 2 months increasing to 9% at 12 months.
+- This metal redistribution — more metal absorbed into the mucosa, less available in the lumen to gut bacteria — reshapes the [[gut-microbiome]] composition in an age-dependent manner, with genotype accounting for 3% of microbiome variance at 2 months increasing to 9% at 12 months.
 - By 10 months, MUT mice develop spontaneous intestinal inflammation — absent at 5 months. The progression from metal dyshomeostasis to [[dysbiosis]] to inflammation follows the temporal pattern expected if metal availability restructures the microbial community, which then drives inflammatory pathology.
 
 This study establishes metal transporter polymorphism → metal dyshomeostasis → microbiome dysbiosis → inflammation as a causal chain in IBD — making dyshomeostasis not just a downstream consequence of disease but a primary upstream driver.

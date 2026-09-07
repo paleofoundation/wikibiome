@@ -22,7 +22,7 @@ conditions_depleted_in: [colorectal-cancer, multiple-sclerosis, inflammatory-bow
 
 # Butyricicoccus
 
-A genus of Gram-positive, strictly anaerobic, butyrate-producing bacteria in the order Clostridiales (phylum Firmicutes). The type species, *Butyricicoccus pullicaecorum*, was originally isolated from chicken caecal content but has since been identified as a significant member of the healthy human gut microbiome. *Butyricicoccus* has attracted attention as a candidate next-generation probiotic because of its consistent depletion in colorectal cancer, multiple sclerosis, and inflammatory bowel disease -- conditions characterized by impaired butyrate production and compromised gut barrier integrity.
+A genus of Gram-positive, strictly anaerobic, butyrate-producing bacteria in the order Clostridiales (phylum Firmicutes). The type species, *Butyricicoccus pullicaecorum*, was originally isolated from chicken caecal content but has since been identified as a significant member of the healthy human [[gut-microbiome]]. *Butyricicoccus* has attracted attention as a candidate next-generation probiotic because of its consistent depletion in colorectal cancer, multiple sclerosis, and inflammatory bowel disease -- conditions characterized by impaired butyrate production and compromised gut barrier integrity.
 
 ## Metal Dependencies
 
@@ -66,4 +66,4 @@ As a strictly anaerobic Firmicute, *Butyricicoccus* requires [[iron]] for iron-s
 - [[faecalibacterium-prausnitzii]] -- Fellow butyrate producer; co-depleted in multiple conditions
 - [[roseburia]] -- Fellow butyrate producer in the Clostridiales order
 - [[dysbiosis]] -- *Butyricicoccus* loss as marker of impaired butyrate ecology
-- [[gut-microbiome]] -- Candidate next-generation probiotic for butyrate restoration
+- gut microbiome -- Candidate next-generation probiotic for butyrate restoration

@@ -20,7 +20,7 @@ wikipedia_differentiation: "Heavy metals as upstream obesogens framework connect
 
 # Obesity
 
-A chronic metabolic condition affecting over 1 billion people globally, characterized by excess adipose tissue accumulation, systemic low-grade [[inflammation]], and gut microbiome disruption [[pendergrass-2026-heavy-metals-obesity-epidemic]]. From a metallomics perspective, obesity is increasingly understood not merely as a caloric imbalance but as a condition with significant environmental metal contributions -- particularly the Pendergrass framework positioning heavy metals as upstream permissive factors in the obesity epidemic [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+A chronic metabolic condition affecting over 1 billion people globally, characterized by excess adipose tissue accumulation, systemic low-grade [[inflammation]], and [[gut-microbiome]] disruption [[pendergrass-2026-heavy-metals-obesity-epidemic]]. From a metallomics perspective, obesity is increasingly understood not merely as a caloric imbalance but as a condition with significant environmental metal contributions -- particularly the Pendergrass framework positioning heavy metals as upstream permissive factors in the obesity epidemic [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 
 ## The Microbiome in Obesity
 

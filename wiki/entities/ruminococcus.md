@@ -34,7 +34,7 @@ The genus *Ruminococcus* originally encompassed a broader group of fiber-degradi
 ### R. bromii — Keystone Starch Degrader
 - The primary degrader of resistant starch in the human colon, often designated a "keystone species" because other bacteria depend on its initial breakdown of complex starches into oligosaccharides.
 - Initiates the trophic cascade: resistant starch → *R. bromii* degradation → oligosaccharides → cross-feeding to butyrate producers [[roseburia]], [[faecalibacterium-prausnitzii]], and [[anaerostipes]].
-- Uses amylase and glucanase enzymes that are among the most specialized starch-degrading systems in the human gut microbiome.
+- Uses amylase and glucanase enzymes that are among the most specialized starch-degrading systems in the human [[gut-microbiome]].
 - Its absence significantly reduces the community's capacity to ferment dietary fiber into [[short-chain-fatty-acids]], with downstream effects on gut barrier function and immune modulation.
 - Depleted by low-fiber Western diets that eliminate its primary substrate.
 

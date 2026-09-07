@@ -57,7 +57,7 @@ Unlike most diseases in this wiki where nickel is elevated or unchanged, the Pak
 
 ## Gut Microbiome Connection
 
-While no source pages in this collection directly studied the gut microbiome in RA, the connections are well-established in the broader literature and supported by indirect evidence from these sources:
+While no source pages in this collection directly studied the [[gut-microbiome]] in RA, the connections are well-established in the broader literature and supported by indirect evidence from these sources:
 
 - Molecular mimicry and metal modification: Heavy metals (Pb, Cd) shift Th1/Th2 balance and may trigger autoimmunity through immune system attacks on self-molecules modified by metal binding. This parallels the "molecular mimicry" hypothesis for RA where microbial antigens cross-react with joint proteins.
 - Gut permeability: The same metals that disrupt [[tight-junctions|tight junctions]] in the intestinal epithelium (Pb reduces ZO-1, claudin-1, occludin; Cd reduces ZO-1, ZO-2, JAM-A) are elevated in RA patients. Metal-induced gut barrier dysfunction could promote bacterial translocation and systemic immune activation.

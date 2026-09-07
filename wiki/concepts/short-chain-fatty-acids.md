@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # Short-Chain Fatty Acids (SCFAs)
 
-The most extensively referenced missing concept in this wiki. SCFAs -- acetate (C2), propionate (C3), and butyrate (C4) -- are the primary metabolic products of anaerobic bacterial fermentation of dietary fiber in the colon. They serve as the critical molecular link between diet, the gut microbiome, and host physiology. Their depletion is a near-universal feature of every disease covered in this wiki.
+The most extensively referenced missing concept in this wiki. SCFAs -- acetate (C2), propionate (C3), and butyrate (C4) -- are the primary metabolic products of anaerobic bacterial fermentation of dietary fiber in the colon. They serve as the critical molecular link between diet, the [[gut-microbiome]], and host physiology. Their depletion is a near-universal feature of every disease covered in this wiki.
 
 ## Production and Producers
 

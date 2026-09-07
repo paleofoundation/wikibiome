@@ -122,7 +122,7 @@ Greater adherence to a Mediterranean diet is associated with a 58% lower risk of
 
 ### Exclusive Enteral Nutrition (EEN)
 
-EEN is the first-line induction therapy for pediatric CD in most guidelines, achieving remission rates comparable to corticosteroids (approximately 80%) without steroid side effects. EEN works partly by dramatically altering the gut microbiome and reducing luminal antigens. Its metal implications are significant: by controlling the exact nutritional composition entering the gut, EEN effectively manages luminal metal availability -- a form of controlled [[nutritional-immunity]].
+EEN is the first-line induction therapy for pediatric CD in most guidelines, achieving remission rates comparable to corticosteroids (approximately 80%) without steroid side effects. EEN works partly by dramatically altering the [[gut-microbiome]] and reducing luminal antigens. Its metal implications are significant: by controlling the exact nutritional composition entering the gut, EEN effectively manages luminal metal availability -- a form of controlled [[nutritional-immunity]].
 
 ### The Fiber Paradox
 

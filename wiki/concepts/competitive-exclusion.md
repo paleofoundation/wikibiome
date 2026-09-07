@@ -21,7 +21,7 @@ karen_brain_primitives: [4, 5, 8]
 
 ## Overview
 
-Competitive exclusion is the ecological principle that two species competing for the same limiting resource cannot coexist indefinitely — one will outcompete the other. In the gut microbiome, competitive exclusion is the primary mechanism by which commensal bacteria prevent pathogen colonization, and it is the mechanistic basis for probiotic intervention (Karen's Brain Primitive 5).
+Competitive exclusion is the ecological principle that two species competing for the same limiting resource cannot coexist indefinitely — one will outcompete the other. In the [[gut-microbiome]], competitive exclusion is the primary mechanism by which commensal bacteria prevent pathogen colonization, and it is the mechanistic basis for probiotic intervention (Karen's Brain Primitive 5).
 
 ## Mechanisms in the Gut
 

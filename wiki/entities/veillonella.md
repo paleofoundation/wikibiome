@@ -69,7 +69,7 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Ne
 
 ## Connections
 
-- [[multiple-sclerosis]] -- enriched in MS oral and gut microbiome; oral-gut translocation marker
+- [[multiple-sclerosis]] -- enriched in MS oral and [[gut-microbiome]]; oral-gut translocation marker
 - [[graves-disease]] -- enriched in GD; part of pro-inflammatory gut signature
 - [[methanobrevibacter]] -- H2 cross-feeding; both elevated in MS
 - [[dorea]] -- both enriched in MS; potential metabolic network via H2 production

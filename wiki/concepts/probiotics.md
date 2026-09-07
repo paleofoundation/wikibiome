@@ -55,7 +55,7 @@ Three lines of evidence support probiotic benefit in [[multiple-sclerosis]]:
 
 1. Clinical improvement: A 12-week RCT (L. acidophilus, L. casei, B. bifidum, L. fermentum) improved EDSS scores, depression, anxiety, hs-CRP, insulin resistance (HOMA-IR), and lipid profiles in MS patients [[kouchaki-2017-clinical-metabolic-probiotic-ms]].
 2. Immune modulation: *S. thermophilus* ST285 shifts the immune response from pro-inflammatory Th1 to anti-inflammatory Th2, significantly increasing IL-4, IL-5, and IL-10 while decreasing IFN-gamma and IL-1beta. The IL-10 increase could drive Treg differentiation, further supporting an anti-inflammatory phenotype [[dargahi-2020-streptococcus-thermophilus-ms]].
-3. Microbiome modulation: VSL#3 modulates both gut microbiome composition and peripheral immune responses (including Treg populations) in MS patients, providing clinical evidence for the [[gut-brain-axis]] hypothesis [[tankou-2018-probiotic-microbiome-ms]].
+3. Microbiome modulation: VSL#3 modulates both [[gut-microbiome]] composition and peripheral immune responses (including Treg populations) in MS patients, providing clinical evidence for the [[gut-brain-axis]] hypothesis [[tankou-2018-probiotic-microbiome-ms]].
 
 ## Thyroid
 

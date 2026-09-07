@@ -84,7 +84,7 @@ A critical methodological note: the Sister Study using toenail biomarkers found 
 
 ## Gut Microbiome Connection
 
-[[altinok-dindar-2023-gut-microbiota-breast-cancer-diet|Altinok Dindar et al. (2023)]] found that breast cancer patients have significantly reduced gut microbiome alpha-diversity (Shannon, Observed, Inverse Simpson, Pielou indices) compared to age-matched controls. Three genera -- *Acidaminococcus*, *Hungatella*, and *Tyzzerella* -- were enriched in breast cancer patients, while *Christensenellaceae*, *Oscillospirales*, and *Dialister* were depleted.
+[[altinok-dindar-2023-gut-microbiota-breast-cancer-diet|Altinok Dindar et al. (2023)]] found that breast cancer patients have significantly reduced [[gut-microbiome]] alpha-diversity (Shannon, Observed, Inverse Simpson, Pielou indices) compared to age-matched controls. Three genera -- *Acidaminococcus*, *Hungatella*, and *Tyzzerella* -- were enriched in breast cancer patients, while *Christensenellaceae*, *Oscillospirales*, and *Dialister* were depleted.
 
 The microbiome connection operates through several metal-relevant pathways:
 

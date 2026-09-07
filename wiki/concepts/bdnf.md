@@ -20,7 +20,7 @@ karen_brain_primitives: [5]
 
 ## Overview
 
-BDNF is the primary neurotrophin supporting neuronal survival, synaptic plasticity, and memory formation in the hippocampus and prefrontal cortex. Reduced BDNF is a consistent finding in depression, schizophrenia, and neurodegeneration. The gut microbiome modulates BDNF through butyrate-mediated HDAC inhibition and vagal nerve signaling.
+BDNF is the primary neurotrophin supporting neuronal survival, synaptic plasticity, and memory formation in the hippocampus and prefrontal cortex. Reduced BDNF is a consistent finding in depression, schizophrenia, and neurodegeneration. The [[gut-microbiome]] modulates BDNF through butyrate-mediated HDAC inhibition and vagal nerve signaling.
 
 ## Microbiome → BDNF Pathway
 

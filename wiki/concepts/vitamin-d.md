@@ -31,7 +31,7 @@ Vitamin D (calciferol; active form: calcitriol/1,25(OH)₂D₃) is a secosteroid
 
 ## Microbiome Interactions
 
-- Vitamin D supplementation alters gut microbiome composition — increases Bacteroidetes, modulates Firmicutes:Bacteroidetes ratio.
+- Vitamin D supplementation alters [[gut-microbiome]] composition — increases Bacteroidetes, modulates Firmicutes:Bacteroidetes ratio.
 - VDR expression in the gut epithelium regulates barrier integrity and antimicrobial peptide production.
 - Vitamin D + probiotic: Combined supplementation (vitamin D + Lactobacillus/Bifidobacterium) improved metabolic parameters in schizophrenia RCT [[ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct]].
 

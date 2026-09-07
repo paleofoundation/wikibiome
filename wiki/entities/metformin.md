@@ -18,7 +18,7 @@ wikipedia_differentiation: "Metformin's therapeutic effects partially mediated t
 
 ## Overview
 
-Metformin is a biguanide antihyperglycemic drug and the most widely prescribed medication for [[type-2-diabetes]] worldwide (~150 million users). While traditionally understood to work through hepatic AMPK activation and gluconeogenesis suppression, landmark studies have demonstrated that metformin's therapeutic effects are partially mediated through the gut microbiome -- a paradigm-shifting finding that explains its GI side effects, its surprisingly broad efficacy across conditions, and why its effects vary between patients.
+Metformin is a biguanide antihyperglycemic drug and the most widely prescribed medication for [[type-2-diabetes]] worldwide (~150 million users). While traditionally understood to work through hepatic AMPK activation and gluconeogenesis suppression, landmark studies have demonstrated that metformin's therapeutic effects are partially mediated through the [[gut-microbiome]] -- a paradigm-shifting finding that explains its GI side effects, its surprisingly broad efficacy across conditions, and why its effects vary between patients.
 
 Metformin is the most studied example of [[pharmacomicrobiomics]] -- the bidirectional interaction between drugs and the microbiome.
 
@@ -78,5 +78,5 @@ Metformin's microbiome-mediated effects extend its potential far beyond T2D:
 - [[type-2-diabetes]] -- Primary indication
 - [[pcos]] -- Established microbiome-mediated benefit
 - [[short-chain-fatty-acids]] -- SCFA production enhanced
-- [[gut-microbiome]] -- Target of metformin's microbiome remodeling
+- gut microbiome -- Target of metformin's microbiome remodeling
 - [[proteobacteria]] -- Escherichia-Shigella bloom causing GI side effects

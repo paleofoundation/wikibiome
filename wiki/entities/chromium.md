@@ -212,7 +212,7 @@ No significant differences in serum chromium were found between PCOS women and c
 | Key reductant | Ascorbate (~90%) | N/A | GSH/SAM | N/A |
 | Repair pathway inhibited | MMR (hMLH1) | NER | NER, BER | OGG1, XPA |
 | Intracellular accumulation | Massive (100x in 24h via sulfate channels) | Moderate | Via methylation | Slow (half-life 17-30y) |
-| Gut microbiome effect | Reduces alpha diversity, 10 genera affected | 37 genera affected | 17 genera affected | Reduces Akkermansia |
+| [[gut-microbiome]] effect | Reduces alpha diversity, 10 genera affected | 37 genera affected | 17 genera affected | Reduces Akkermansia |
 | Gut barrier disruption | ZO-1, occludin, claudin-1, MUC2 down | Not characterized | Paracellular transport up | E-cadherin, ZO-1 down |
 
 Data from [[salnikov-2008-metal-carcinogenesis]], [[richardson-2018-toxic-metals-rat-gut-microbiota]], [[ghosh-2023-heavy-metals-gut-barrier-integrity]], [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].

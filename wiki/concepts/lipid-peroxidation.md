@@ -34,7 +34,7 @@ Heavy metals are potent initiators of lipid peroxidation:
 
 ## Microbiome Connection
 
-The gut microbiome modulates lipid peroxidation through:
+The [[gut-microbiome]] modulates lipid peroxidation through:
 - Glutathione production: Certain commensals contribute to glutathione synthesis; [[dysbiosis]] reduces the antioxidant pool.
 - SCFA-mediated protection: Butyrate enhances mitochondrial function and reduces ROS generation.
 - Iron ecology: Microbial iron acquisition ([[siderophores]]) alters the labile iron pool available for Fenton chemistry.

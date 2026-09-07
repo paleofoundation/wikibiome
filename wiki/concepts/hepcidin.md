@@ -37,7 +37,7 @@ Elevated hepcidin during infection represents the host INTENTIONALLY restricting
 - In inflammatory states (IBD, chronic infection, autoimmune disease), hepcidin is elevated and serum iron/ferritin may appear low.
 - Clinicians interpret low iron markers as deficiency and prescribe iron supplementation.
 - However, high hepcidin means supplemental iron is poorly absorbed (blocked at the enterocyte) and what IS absorbed may feed iron-requiring pathogens rather than reaching the host's erythroid compartment.
-- Unabsorbed oral iron reaches the colon, where it feeds siderophore-producing Enterobacteriaceae and disrupts the gut microbiome [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
+- Unabsorbed oral iron reaches the colon, where it feeds siderophore-producing Enterobacteriaceae and disrupts the [[gut-microbiome]] [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 
 ### Infection Context
 - Hepcidin elevation during infection is part of a coordinated host defense that includes [[lactoferrin]] (iron sequestration at mucosal surfaces), ferritin (intracellular iron storage), and transferrin (limiting free plasma iron).

@@ -16,7 +16,7 @@ karen_brain_primitives: [1, 4, 5]
 
 The ability of microorganisms to survive and replicate in the presence of antimicrobial agents — antibiotics, antifungals, antivirals, antiparasitic drugs — at concentrations that would normally inhibit or kill them. Antimicrobial resistance (AMR) is designated by the WHO as one of the greatest threats to global public health, projected to cause 10 million deaths annually by 2050.
 
-Within the WikiBiome framework, the central insight is this: heavy metal exposure is a major, underappreciated driver of antimicrobial resistance — and it operates through the gut microbiome. When metals contaminate food, water, soil, or the gut environment, they select for metal-tolerant bacteria. Because metal resistance genes and antibiotic resistance genes frequently co-exist on the same mobile genetic elements, metal selection simultaneously selects for antibiotic resistance. This process — [[co-selection]] — creates a direct causal pathway from dietary metal exposure to clinical antibiotic treatment failure.
+Within the WikiBiome framework, the central insight is this: heavy metal exposure is a major, underappreciated driver of antimicrobial resistance — and it operates through the [[gut-microbiome]]. When metals contaminate food, water, soil, or the gut environment, they select for metal-tolerant bacteria. Because metal resistance genes and antibiotic resistance genes frequently co-exist on the same mobile genetic elements, metal selection simultaneously selects for antibiotic resistance. This process — [[co-selection]] — creates a direct causal pathway from dietary metal exposure to clinical antibiotic treatment failure.
 
 ## How Resistance Arises
 

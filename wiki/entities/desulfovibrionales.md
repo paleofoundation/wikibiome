@@ -51,7 +51,7 @@ Molybdenum:
 
 Nickel:
 - [NiFe] [[hydrogenase|hydrogenases]] are widespread in Desulfovibrionales, enabling H2 oxidation as an energy source -- a critical function in interspecies hydrogen transfer within the gut.
-- Nickel-dependent hydrogenase activity links Desulfovibrionales to the broader H2 economy of the gut microbiome.
+- Nickel-dependent hydrogenase activity links Desulfovibrionales to the broader H2 economy of the [[gut-microbiome]].
 
 ## Key Enzymes and Virulence Factors
 

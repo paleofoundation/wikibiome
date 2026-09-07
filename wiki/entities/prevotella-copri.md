@@ -29,7 +29,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Prevotella copri
 
-A Gram-negative obligate anaerobe that occupies a unique context-dependent niche in the human gut microbiome. *P. copri* is significantly enriched in [[rheumatoid-arthritis]] patients and is associated with metabolic syndrome and obesity, yet in other contexts it can function as a commensal or even beneficial fiber-degrader. Its abundance and pathogenic potential are modulated by iron availability and by the presence of other community members -- making *P. copri* a key example of the commensal-pathobiont spectrum.
+A Gram-negative obligate anaerobe that occupies a unique context-dependent niche in the human [[gut-microbiome]]. *P. copri* is significantly enriched in [[rheumatoid-arthritis]] patients and is associated with metabolic syndrome and obesity, yet in other contexts it can function as a commensal or even beneficial fiber-degrader. Its abundance and pathogenic potential are modulated by iron availability and by the presence of other community members -- making *P. copri* a key example of the commensal-pathobiont spectrum.
 
 ## The Paradox of Prevotella copri
 

@@ -36,7 +36,7 @@ Arsenic: Increases Bacteroidetes and Bilophila; perturbs bile acid homeostasis a
 
 Cadmium: Multiple mouse studies show decreased SCFAs, increased LPS, disrupted gut barrier. Cd exposure causes dose-dependent and sex-dependent effects. Akkermansia muciniphila is particularly sensitive to low-dose Cd. Cd enhances mammary tumorigenesis through microbiome-mediated pathways, disrupting the gut-liver axis. Exposure alters 42 genera at the genus level, with Bacteroidetes significantly decreased and Proteobacteria increased.
 
-Lead: Time-dependent changes in community structure. Reduces Ruminococcus, Coprococcus, Oscillospira, and Blautia. Decreases vitamin E, bile acids, and nitrogen/energy metabolism pathways. Pb-intolerant gut microbes (A. muciniphila, F. prausnitzii, O. ruminantium) can reduce Pb burden when supplemented. Prenatal lead exposure alters childhood gut microbiome composition.
+Lead: Time-dependent changes in community structure. Reduces Ruminococcus, Coprococcus, Oscillospira, and Blautia. Decreases vitamin E, bile acids, and nitrogen/energy metabolism pathways. Pb-intolerant gut microbes (A. muciniphila, F. prausnitzii, O. ruminantium) can reduce Pb burden when supplemented. Prenatal lead exposure alters childhood [[gut-microbiome]] composition.
 
 Mercury/Methylmercury: Increases Bacteroidetes at phylum level. Alters gut-brain metabolites including neurotransmitter precursors. Pathogenic bacteria are enriched. MeHg metabolism involves methylation/demethylation cycles mediated by gut microbiota. Dental fillings increase Hg-resistant and antibiotic-resistant bacteria in the oral-gut continuum.
 
