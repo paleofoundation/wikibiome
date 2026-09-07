@@ -3,10 +3,10 @@
   "generatedOn": "2026-09-05",
   "sourceEvidence": {
     "upstreamRepository": "https://github.com/paleofoundation/wikibiome.git",
-    "upstreamCommit": "1e427339f573860a1df67aa529e22459a699c171",
+    "upstreamCommit": "bea385a8caf525b177dc1a14e1ce73fbcdc8d9a1",
     "contentManifest": "data/content-manifest.generated.json",
     "contentFile": "data/content.generated.json",
-    "contentSha256": "a5a8817ddb1fb5415f0238fd6d04d4356c32e2b69fbae06f669de0be87895d45",
+    "contentSha256": "a205ce31ebebe1838a07cf1551451466b161dd5637128204d08e8678e5e4debf",
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "8e0b4721532bcf260d0d6814fa84e6ec8ece66b202b4c4f3d41411e4b2167c48",
     "reviewLog": "data/article-media-review-log.json",

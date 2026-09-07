@@ -1044,6 +1044,87 @@ test("server-renders corpus-wide Dysbiosis links without overlinking", async () 
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/dysbiosis</loc>`));
 });
 
+test("server-renders corpus-wide Inflammation links without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("inflammation"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(contextIds.length, 279);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-inflammation-corpus`);
+  const { default: inflammationWorker } = await import(workerUrl.href);
+  const renderInflammationRoute = (pathname) => inflammationWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [inflammationResponse, historyResponse, sitemapResponse] = await Promise.all([
+    renderInflammationRoute("/article/inflammation"),
+    renderInflammationRoute("/article/inflammation/history"),
+    renderInflammationRoute("/sitemap.xml"),
+  ]);
+  for (const response of [inflammationResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+
+  const inflammation = await inflammationResponse.text();
+  assert.equal(htmlTitle(inflammation), "Metal-Driven Inflammation — WikiBiome");
+  assert.equal(htmlCanonical(inflammation), `${PUBLIC_ORIGIN}/article/inflammation`);
+  for (const heading of [
+    "Acute vs Chronic Inflammation",
+    "Direct Metal Activation of Inflammatory Pathways",
+    "Indirect Metal-Driven Inflammation",
+    "Resolution Mechanisms and Their Failure",
+    "The Host Defense Inflammatory Response",
+    "Disease-Specific Inflammatory Patterns",
+    "Biomarkers",
+  ]) {
+    assert.match(inflammation, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "briffa-2020-heavy-metal-pollution-environment-toxicology",
+    "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
+    "amerikanou-2022-ibd-biomarkers-trace-metals",
+  ]) {
+    assert.match(inflammation, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderInflammationRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/inflammation"/g) ?? []).length,
+        1,
+        `expected exactly one contextual Inflammation link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/inflammation\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/inflammation</loc>`));
+});
+
 test("server-renders Catalase and its reviewed contextual-link batch", async () => {
   const ids = ["catalase", "oxidative-stress", "streptococcus-mutans", "metal-dependent-virulence", "iron", "aerococcus"];
   const [catalaseResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
@@ -3285,7 +3366,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /1e427339f573/);
+  assert.match(readiness, /bea385a8caf5/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -3751,7 +3832,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "1e427339f573860a1df67aa529e22459a699c171");
+  assert.equal(manifest.source.commit, "bea385a8caf525b177dc1a14e1ce73fbcdc8d9a1");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 823);
   assert.equal(manifest.content.sources, 1939);
