@@ -767,6 +767,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
   const sections = prepareArticleSections(page);
   const contents = sections.filter((section) => section.level === 2);
   const evidence = generateArticleEvidence(page);
+  const media = getArticleMedia(page.id);
   const history = getRevisionHistory(page);
   const referenceCount = evidence.references.length;
   const consumedSections = new Set<number>();
@@ -813,6 +814,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
               {schema.kind === "analysis" && <aside className="template-notice synthesis"><span>Cross-record synthesis</span><p>This analysis connects evidence across multiple WikiBiome records; use the inline citations to inspect each underlying source.</p></aside>}
               {schema.kind === "intervention" && <aside className="template-notice intervention"><span>Intervention evidence</span><p>Mechanism, reported outcomes, limitations, and cautions are kept together so an intervention is not separated from its evidence boundaries.</p></aside>}
               <div className="lead-copy"><RichText text={page.overview ?? "This WikiBiome record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
+              {media && <div className="article-mobile-media"><ArticleMediaFigure media={media} /></div>}
               <EvidenceIntegrity evidence={evidence} />
               <ClaimProvenance evidence={evidence} />
               {!!contents.length && (

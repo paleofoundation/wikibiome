@@ -392,6 +392,13 @@ test("server-renders real article and directory pages through the shared redesig
   assert.match(article, /class="article-system-art"/);
   assert.match(article, /class="article-media-figure"/);
   assert.match(article, /src="\/media\/image\/nickel-technical-specimen-v2\.webp"/);
+  const leadStart = article.indexOf('class="lead-copy"');
+  const mobileMediaStart = article.indexOf('class="article-mobile-media"');
+  const evidenceStart = article.indexOf('class="evidence-integrity"');
+  assert.ok(leadStart >= 0 && mobileMediaStart > leadStart && evidenceStart > mobileMediaStart, "responsive scientific media must follow the article lead instead of the full article body");
+  const responsiveCss = readFileSync(new URL("../app/globals.css", import.meta.url), "utf8");
+  assert.match(responsiveCss, /\.article-mobile-media \{ display:none; \}/);
+  assert.match(responsiveCss, /@media \(max-width:900px\)[\s\S]*?\.article-mobile-media \{[^}]*display:block;[\s\S]*?\.article-aside \.article-media-figure,\.disease-aside \.article-media-figure \{ display:none; \}/);
   assert.match(article, /143/);
   assert.match(article, /generated references/);
   assert.match(article, /href="\/source\/braud-2010-siderophores-pseudomonas-metal-tolerance"/);

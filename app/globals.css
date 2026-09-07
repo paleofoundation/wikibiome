@@ -195,6 +195,7 @@ button,input { font:inherit; }
 .mobile-contents { display:none; }
 
 .article-aside { min-width:0;padding:30px 24px;background:#f9fbfd; }
+.article-mobile-media { display:none; }
 .infobox { position:static;overflow:hidden;border:1px solid #bfcddd;border-radius:14px;background:#fff;box-shadow:0 14px 35px rgba(38,78,134,.07); }
 .infobox-visual { position:relative;height:170px;display:grid;place-items:center;overflow:hidden;background-image:linear-gradient(180deg,rgba(6,20,48,.15),rgba(8,27,61,.72)),url('/hero-microbiome-1.jpg');background-size:cover;background-position:center; }
 .infobox-visual::after { content:"";position:absolute;inset:14px;border:1px solid rgba(182,216,255,.35);border-radius:50%;animation:meshFloat 10s ease-in-out infinite; }
@@ -266,6 +267,9 @@ button,input { font:inherit; }
   .wiki-header { height:auto;min-height:74px;padding:12px 20px;grid-template-columns:auto 1fr;gap:10px 18px; }.wiki-brand { grid-row:1; }.global-search { grid-column:1/-1;grid-row:2; }.utility-nav { grid-column:2;grid-row:1; }
   .wiki-shell { display:block; }.wiki-rail { display:none; }.article-page { padding:24px 20px 70px; }
   .article-grid { grid-template-columns:minmax(0,1fr); }.article-body { border-right:0; }.article-aside { display:grid;grid-template-columns:1fr 1fr;gap:18px;border-top:1px solid var(--line); }.infobox { position:static;grid-row:span 2; }.related-card { margin:0; }.corpus-note { align-self:start;margin:0; }
+  .article-mobile-media { margin:0 0 30px;display:block;overflow:hidden;border:1px solid #bdcbd7;border-radius:12px;background:#eef2f5;box-shadow:0 13px 30px rgba(35,65,91,.08); }
+  .article-mobile-media .article-media-figure { border-bottom:0; }
+  .article-aside .article-media-figure,.disease-aside .article-media-figure { display:none; }
   .article-end > div { grid-template-columns:1fr 1fr; }
   .references-section > header { grid-template-columns:1fr; }.article-network > div { grid-template-columns:1fr; }
   .mobile-contents { margin:30px 0;display:grid;border:1px solid var(--line);border-radius:9px;background:#f8fbff; }.mobile-contents summary { padding:13px 15px;color:#315e9c;font-size:10px;font-weight:700;cursor:pointer; }.mobile-contents a { padding:8px 15px;border-top:1px solid #e3e9f1;font-size:9px; }
@@ -1036,6 +1040,7 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
   .article-network section { padding:18px; }.article-network h3 { font-size:18px; }.article-network section a { padding:8px 10px;font-size:13px; }
 
   .article-aside,.disease-aside { padding:18px;background:#f5f7f9; }
+  .article-mobile-media { margin:0 -1px 28px;border-radius:9px;box-shadow:none; }
   .infobox { border-radius:9px;box-shadow:none; }
   .article-media-caption-head strong,.infobox-title span,.fact-list > span,.related-card > span,.tag-list a { font-size:11px; }
   .article-media-caption-head > span { font-size:10px; }

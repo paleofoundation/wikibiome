@@ -259,6 +259,7 @@ function OriginalDiseaseArticle({ record }: { record: DiseaseRecord }) {
 
 export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
   const { page, signature, evidence } = record;
+  const media = getArticleMedia(page.id);
   const history = getRevisionHistory(page);
   const related = resolveRelated(page, 6);
   const signatureSourceCount = new Set(record.signaturePages.flatMap((item) => item.sources ?? []).map(normalizeWikiId)).size;
@@ -304,6 +305,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
             <article className="article-body disease-body">
               {editorialStatuses.map((status) => <EditorialStatusNotice status={status} key={status.group} />)}
               <div className="lead-copy disease-lead"><RichText text={page.overview ?? "This WikiBiome disease record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
+              {media && <div className="article-mobile-media"><ArticleMediaFigure media={media} /></div>}
               <EvidenceIntegrity evidence={evidence} />
               <ClaimProvenance evidence={evidence} />
 
