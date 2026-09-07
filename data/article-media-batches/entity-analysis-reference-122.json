@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "entity-analysis-reference-122",
   "category": "entity-analysis-reference",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "f42be3354b4af5db20bd8063608ee842e49b9b1a",
   "generator": "OpenAI built-in image generation",
@@ -19,7 +19,7 @@
     "sourceUse": "Current PubChem, LPSN, NCBI Taxonomy, and local source-resolution records define identity and conservative representation boundaries only; no source image or design is copied."
   },
   "controlReviewRequired": true,
-  "initialAuditCommit": "pending-current-commit",
+  "initialAuditCommit": "67a9b45a2ba72bf31f17e2e6000bed2e605ec9d5",
   "promptFreezeCommit": "pending-separate-commit",
   "reviewStandard": "Only exact neutral L-kynurenine and neutral metformin are cleared for one immutable heavy-atom connectivity call each. The matrix and three microorganism routes fail stable-subject, category, or morphology-authority gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
