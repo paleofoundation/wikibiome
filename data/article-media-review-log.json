@@ -17390,6 +17390,96 @@
       ],
       "requiredResolution": "A future separately authorized prompt revision and new call would have to produce exactly eight complete rods in six groups while preserving the current-name strain and non-diagnostic morphology boundary.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "lactoferrin-supplementation",
+      "controlledIdentifier": "MeSH:D007781;unspecified-protein-source-state-and-supplement-product;zero-resolvable-sources",
+      "batchId": "interventions-107",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines unspecified biological sources, molecular and iron-loading states, oral products, doses, populations, microbial mechanisms, immune effects, and clinical outcomes rather than one controlled supplement.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007781",
+        "local:data/content.generated.json#/pages/lactoferrin-supplementation"
+      ],
+      "requiredResolution": "Choose species and biological source, exact sequence or product specification, processing, purity, glycosylation and iron-loading state, formulation and excipients, route, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed product or molecular state passes a new audit."
+    },
+    {
+      "pageId": "low-carbohydrate-diet-gerd",
+      "controlledIdentifier": "MeSH:D050528;GERD-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-107",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route does not select a carbohydrate definition, energy target, food composition, duration, GERD phenotype, medication context, adherence measure, reflux assay, or endpoint.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D050528",
+        "local:data/content.generated.json#/pages/low-carbohydrate-diet-gerd"
+      ],
+      "requiredResolution": "Choose operational diet composition, energy and carbohydrate definition, exact foods or formulation, duration, GERD criteria and population, medication context, comparator, adherence measure, reflux assay, time point, endpoint, safety boundary, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed GERD diet protocol passes a new audit."
+    },
+    {
+      "pageId": "low-carbohydrate-diet",
+      "controlledIdentifier": "MeSH:D050528;PCOS-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-107",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines multiple carbohydrate thresholds, PCOS and GERD contexts, energy and weight states, foods, fiber, probiotics, biomarkers, mechanisms, and outcomes rather than one controlled diet.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D050528",
+        "local:data/content.generated.json#/pages/low-carbohydrate-diet"
+      ],
+      "requiredResolution": "Choose one PCOS diet protocol, carbohydrate amount and quality, energy balance, exact foods or formulation, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, safety boundary, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed PCOS diet protocol passes a new audit."
+    },
+    {
+      "pageId": "low-fat-diet",
+      "controlledIdentifier": "MeSH:D018752;endometriosis-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-107",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines total and specific fats, substitutions, energy and weight, bile acids, hormones, prostaglandins, microbiota, symptoms, and nutrient cautions without one protocol.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D018752",
+        "local:data/content.generated.json#/pages/low-fat-diet"
+      ],
+      "requiredResolution": "Choose one endometriosis diet protocol, total and saturated fat targets, exact foods and substitutions, energy balance, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, nutrient-safety boundary, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed endometriosis diet protocol passes a new audit."
+    },
+    {
+      "pageId": "low-nickel-diet",
+      "controlledIdentifier": "MeSH:D009532-plus-uncontrolled-dietary-restriction-protocol;multi-population-multi-food-system;29-local-sources",
+      "batchId": "interventions-107",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Twenty-nine sources span multiple diagnoses, food lists, analytical methods, intake estimates, preparations, phenotypes, challenges, co-interventions, durations, and outcomes; no single meal or food set is universally low nickel.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009532",
+        "local:data/content.generated.json#/pages/low-nickel-diet"
+      ],
+      "requiredResolution": "Choose jurisdiction and food-composition dataset, analytical method and units, exact foods and preparation/storage, intake threshold, complete menu and duration, diagnostic and sensitization phenotype, comparator, adherence measure, specimen, assay, time point, endpoint, contraindications, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed and jurisdictionally bounded low-nickel protocol passes a new audit."
+    },
+    {
+      "pageId": "low-red-meat-diet",
+      "controlledIdentifier": "MeSH:D000069466;endometriosis-specific-restriction-and-substitution-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-107",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route does not fix red-meat definition, baseline and target servings, processing, species, cut, preparation, replacement foods, energy balance, duration, population, adherence, specimen, assay, or endpoint.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000069466",
+        "local:data/content.generated.json#/pages/low-red-meat-diet"
+      ],
+      "requiredResolution": "Choose red-meat definition, baseline and target intake, exact species/cuts and preparation, processed-meat boundary, substitutions and nutrient equivalence, energy balance, duration, endometriosis population, comparator, adherence measure, specimen, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed endometriosis restriction-and-substitution protocol passes a new audit."
     }
   ],
   "revisedAssets": [
