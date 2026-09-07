@@ -1,6 +1,27 @@
 {
   "schemaVersion": 1,
   "jobs": {
+    "create_page:caga": {
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "path": "wiki/concepts/caga.md",
+      "validatedSourceCount": 6,
+      "rationale": "Highest-scoring remaining creation candidate; six vault sources support CagA's H. pylori effector identity, hydrogenase-linked translocation, gastric carcinogenesis, and clearly bounded observational associations."
+    },
+    "backfill_links:caga": {
+      "state": "queued",
+      "rationale": "The new CagA page resolves a recurrent H. pylori virulence mechanism across gastric disease and nickel-dependent pathogen-energy contexts; tangential amyloid-beta and glyoxalase mentions remain queued for later evidence review.",
+      "batches": [
+        {
+          "id": "2026-09-07-core-caga-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": ["hydrogenase", "gastric-cancer", "gastric-adenocarcinoma", "nickel", "helicobacter-pylori", "metal-dependent-virulence", "gastric-ulcer", "nickel-transporters", "virulence-factors"]
+        }
+      ]
+    },
     "create_page:nlrp3-inflammasome": {
       "state": "promoted",
       "reviewedAt": "2026-09-07",

@@ -76,5 +76,5 @@ The asymmetry between microbial nickel dependence and host nickel independence c
 - [[calprotectin]] -- nickel-sequestering host protein
 - [[helicobacter-pylori]] -- organism most dependent on nickel transport
 - [[gastric-ulcer]] -- disease driven by nickel-dependent virulence
-- [[gastric-adenocarcinoma]] -- cancer linked to nickel-hydrogenase-powered CagA
+- [[gastric-adenocarcinoma]] -- cancer linked to nickel-hydrogenase-powered [[caga|CagA]]
 - [[efflux-pumps]] -- complementary metal export mechanisms

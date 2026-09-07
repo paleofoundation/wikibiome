@@ -49,7 +49,7 @@ A gastric pathogen that is arguably the most nickel-dependent human pathogen kno
 ### [NiFe] Hydrogenase
 - Single H₂-uptake type (*hydABCDE* operon).
 - H₂ is chronically available in the stomach (dissolved H₂ ~80 μM; enzyme Km ~1.8 μM — always saturated).
-- Powers CagA translocation: the carcinogenic effector. Hydrogenase deletion mutants cannot translocate CagA and do not induce gastric cancer in gerbils.
+- Powers [[caga|CagA]] translocation: the carcinogenic effector. Hydrogenase deletion mutants cannot translocate CagA and do not induce gastric cancer in gerbils.
 - Enables H₂-stimulated CO₂ fixation (mixotrophy) — a growth mode never before described in a human pathogen.
 - Strains from cancer patients have higher hydrogenase activity than gastritis-only strains.
 

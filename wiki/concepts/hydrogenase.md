@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # Hydrogenase
 
-[NiFe] hydrogenases are the second major [[nickel]]-dependent virulence factor class in human pathogens. Less widespread than [[urease]] but critical for energy metabolism in gastric, enteric, and intracellular pathogens. The discovery that *H. pylori* hydrogenase powers CagA translocation -- the carcinogenic effector protein -- makes this enzyme a direct link between nickel availability and gastric cancer.
+[NiFe] hydrogenases are the second major [[nickel]]-dependent virulence factor class in human pathogens. Less widespread than [[urease]] but critical for energy metabolism in gastric, enteric, and intracellular pathogens. The discovery that *H. pylori* hydrogenase powers [[caga|CagA]] translocation -- the carcinogenic effector protein -- makes this enzyme a direct link between nickel availability and gastric cancer.
 
 ## Biochemistry
 

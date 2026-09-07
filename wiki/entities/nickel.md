@@ -358,7 +358,7 @@ Mammals do not synthesize known Ni-requiring proteins, yet nickel is essential f
 ### Key Ni-Enzymes
 
 - [[urease]]: acid neutralization + nitrogen source. Essential for [[helicobacter-pylori]], [[staphylococcus-aureus]], [[proteus-mirabilis]], *Cryptococcus neoformans*, and many others.
-- [[hydrogenase]] ([NiFe]): H2 oxidation for energy. Critical for *H. pylori* (CagA translocation, CO2 fixation), [[salmonella-typhimurium]], *Campylobacter jejuni*.
+- [[hydrogenase]] ([NiFe]): H2 oxidation for energy. Critical for *H. pylori* ([[caga|CagA]] translocation, CO2 fixation), [[salmonella-typhimurium]], *Campylobacter jejuni*.
 - [[glyoxalase]] I (GloI): methylglyoxal detoxification. Drug target in *Leishmania donovani*. E. coli GlxI specifically requires Ni2+ [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Acireductone dioxygenase (ARD): methionine salvage. Found in all pathogenic gamma-proteobacteriaceae.
 - Ni-SOD: rare; [[oxidative-stress]] defense in *Streptomyces* [[maier-2019-nickel-microbial-pathogenesis]].

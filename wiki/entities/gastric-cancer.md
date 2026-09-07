@@ -20,7 +20,7 @@ wikipedia_differentiation: "Complete nickel-to-cancer chain showing how nickel c
 
 # Gastric Cancer
 
-The fifth most common cancer worldwide and third leading cause of cancer death, with over 1 million new cases annually. Gastric cancer stands unique in this wiki as the disease where a single microorganism -- [[helicobacter-pylori]] -- provides the dominant causal pathway, and where that pathogen's virulence depends critically on nickel-dependent metalloenzymes. The chain from [[nickel]] → [[hydrogenase]] → CagA translocation → gastric carcinogenesis is one of the most direct metal-to-cancer pathways in human disease.
+The fifth most common cancer worldwide and third leading cause of cancer death, with over 1 million new cases annually. Gastric cancer stands unique in this wiki as the disease where a single microorganism -- [[helicobacter-pylori]] -- provides the dominant causal pathway, and where that pathogen's virulence depends critically on nickel-dependent metalloenzymes. The chain from [[nickel]] → [[hydrogenase]] → [[caga|CagA]] translocation → gastric carcinogenesis is one of the most direct metal-to-cancer pathways in human disease.
 
 ## The H. pylori-Nickel-Cancer Chain
 
