@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "83937709f0955fab1ce73acb6443c49a220e2cc784f67644dbda1da3b13268ef",
+    "registrySha256": "95ab381b3dcf18776bfd35f9de70f43530740aa68d013bbd09c46fad1ad51c7c",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "089f61cb22795e73c28a57fc82b317a2b293b38c875aa4b0aaa0be19c401b1a3",
+    "reviewLogSha256": "f8844334a5745cd7965e912e368946b55ab17ee5a519c931e932aafbe48bdc50",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -303,8 +303,8 @@
       {
         "file": "data/article-media-batches/mechanisms-094.json",
         "batchId": "mechanisms-094",
-        "status": "reviewing",
-        "sha256": "4a2f64c95cf3875dfcdbce3a25aecc2e2c3071649849c7038dc41bb068515d55"
+        "status": "reviewed",
+        "sha256": "dc3ed8bfe1e6cae40b6ffdafadad7d30404453a67fb6fac29d095c202ef9dfff"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -596,8 +596,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 364,
-    "remaining": 346,
+    "completed": 367,
+    "remaining": 343,
     "rejected": 197,
     "revised": 12,
     "scientificHolds": 142,
@@ -629,8 +629,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 55,
-      "remaining": 178
+      "completed": 58,
+      "remaining": 175
     },
     {
       "id": "host-defenses",
@@ -4298,33 +4298,6 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 543,
-      "id": "tmao",
-      "title": "Trimethylamine N-Oxide (TMAO)",
-      "route": "/article/tmao",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
-    },
-    {
-      "queuePosition": 544,
-      "id": "tryptamine",
-      "title": "Tryptamine",
-      "route": "/article/tryptamine",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
-    },
-    {
-      "queuePosition": 545,
-      "id": "tryptophan",
-      "title": "Tryptophan",
-      "route": "/article/tryptophan",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
-    },
-    {
       "queuePosition": 547,
       "id": "urease",
       "title": "Urease",
@@ -4347,6 +4320,33 @@
       "id": "ursodeoxycholic-acid",
       "title": "Ursodeoxycholic Acid (UDCA)",
       "route": "/article/ursodeoxycholic-acid",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 550,
+      "id": "vancomycin",
+      "title": "Vancomycin",
+      "route": "/article/vancomycin",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 551,
+      "id": "viral-microbiota",
+      "title": "Viral Microbiota",
+      "route": "/article/viral-microbiota",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism"
+    },
+    {
+      "queuePosition": 552,
+      "id": "virome",
+      "title": "Virome",
+      "route": "/article/virome",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -15482,7 +15482,15 @@
       "route": "/article/tmao",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "tmao-mechanism-v1-master.png",
+        "publishedFile": "tmao-mechanism-v1.webp",
+        "socialFile": "tmao-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 544,
@@ -15495,7 +15503,15 @@
       "route": "/article/tryptamine",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "tryptamine-mechanism-v1-master.png",
+        "publishedFile": "tryptamine-mechanism-v1.webp",
+        "socialFile": "tryptamine-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 545,
@@ -15508,7 +15524,15 @@
       "route": "/article/tryptophan",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "tryptophan-mechanism-v1-master.png",
+        "publishedFile": "tryptophan-mechanism-v1.webp",
+        "socialFile": "tryptophan-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 546,

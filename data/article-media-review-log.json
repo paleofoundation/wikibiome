@@ -12568,6 +12568,112 @@
         "sourceSha256": "e6514ce71ebb35cf022b4f2367b1cc9ebfe09920f420a107f1d3f7966422dd89",
         "generationRecord": "exec-6e4ea90f-a45a-4ebf-8e20-1c5f3691c8f5.png"
       }
+    },
+    "tmao|tmao-mechanism-v1.webp": {
+      "pageId": "tmao",
+      "publishedFile": "tmao-mechanism-v1.webp",
+      "masterSource": "tmao-mechanism-v1-master.png",
+      "socialFile": "tmao-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/1145",
+          "https://www.ebi.ac.uk/chebi/CHEBI:15724",
+          "https://www.wikibiome.com/article/tmao"
+        ],
+        "notes": "PubChem and ChEBI establish trimethylamine N-oxide identity, formula, InChIKey, and N-to-three-carbon-plus-oxygen heavy-atom connectivity; the canonical WikiBiome article supplies page scope only."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review observed one complete five-center model with one central blue center joined directly to three separate graphite centers and one rose center, matching the controlled heavy-atom identity boundary."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text supplies element names and counts without relying on color; the caption distinguishes visible connectivity from omitted hydrogens, charge mapping, measured conformation, concentration, pathway, and disease claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash 844b7c34d9d0f30194927414089c1e33a032c79f27cba5508d77704b24d95d65; centered-contain social derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "tmao-draft.png",
+        "sourceSha256": "844b7c34d9d0f30194927414089c1e33a032c79f27cba5508d77704b24d95d65",
+        "generationRecord": "exec-99e30e9c-76e8-4567-b8f8-b62020502937.png"
+      }
+    },
+    "tryptamine|tryptamine-mechanism-v1.webp": {
+      "pageId": "tryptamine",
+      "publishedFile": "tryptamine-mechanism-v1.webp",
+      "masterSource": "tryptamine-mechanism-v1-master.png",
+      "socialFile": "tryptamine-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/1150",
+          "https://www.ebi.ac.uk/chebi/CHEBI:16765",
+          "https://www.wikibiome.com/article/tryptamine"
+        ],
+        "notes": "PubChem and ChEBI establish neutral tryptamine identity, formula, InChIKey, fused-indole and two-carbon amino-side-chain connectivity; the canonical WikiBiome article supplies page scope only."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review observed one complete twelve-center model with ten graphite and two blue centers, including one ring blue center and one side-chain-terminal blue center in the controlled connectivity."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text supplies element names and counts without relying on color; the caption separates visible heavy-atom connectivity from omitted hydrogens, protonation changes, measured conformation, receptor binding, microbial production, and disease claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash 9d230f6c9dd4dc101407231c88e11a3d65f39bae6d8b20632d6553e93ab6a17c; centered-contain social derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "tryptamine-draft.png",
+        "sourceSha256": "9d230f6c9dd4dc101407231c88e11a3d65f39bae6d8b20632d6553e93ab6a17c",
+        "generationRecord": "exec-0ec4fba8-7bf3-41fe-9424-06782dc66f4d.png"
+      }
+    },
+    "tryptophan|tryptophan-mechanism-v1.webp": {
+      "pageId": "tryptophan",
+      "publishedFile": "tryptophan-mechanism-v1.webp",
+      "masterSource": "tryptophan-mechanism-v1-master.png",
+      "socialFile": "tryptophan-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/6305",
+          "https://www.ebi.ac.uk/chebi/CHEBI:16828",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D014364",
+          "https://www.wikibiome.com/article/tryptophan"
+        ],
+        "notes": "PubChem, ChEBI, and MeSH establish L-tryptophan identity and human amino-acid scope; the plate is limited to heavy-atom connectivity and does not claim a measured or assay-confirmed stereochemical pose."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review observed one complete fifteen-center model with eleven graphite, two blue, and two rose centers in the indole, methylene, alpha-carbon/amino, and two-oxygen carboxyl connectivity boundary."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text supplies element names and counts without relying on color; the caption separates visible heavy-atom connectivity from omitted hydrogens, measured conformation, assay-confirmed stereochemical pose, metabolic fate, concentration, and disease claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash 9f464f0e832a417037ac76f80639954324481ab65314cb9a1f5ff79867af4e1d; centered-contain social derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "tryptophan-draft.png",
+        "sourceSha256": "9f464f0e832a417037ac76f80639954324481ab65314cb9a1f5ff79867af4e1d",
+        "generationRecord": "exec-d05ac41b-1de1-4b5b-855c-52afe96bb6f5.png"
+      }
     }
   },
   "rejectedAssets": [

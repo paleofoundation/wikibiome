@@ -47,6 +47,24 @@
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
   "promotionRule": "Only the three exact accepted source hashes may be promoted to metadata-bearing lossless masters, article WebPs, and centered contain-mode 1200 by 630 social WebPs. The other three routes remain non-public scientific holds.",
+  "controlSocialCropReview": "accepted-three-centered-contain-derivatives; native 1200 by 630 inspection preserves every heavy-atom center and connector for TMAO, tryptamine, and tryptophan without clipping or label leakage",
+  "promotionDerivatives": {
+    "tmao": {
+      "masterSha256": "82be2f97a8bd86b9b217c2de529f77a36f3cd6117b8ac06a834fc7462ec2b8f2",
+      "articleSha256": "c32d9a96bebd8b916c4c018beb105f8ea496016d57ebda2b028da5bf678b2bad",
+      "socialSha256": "077a0bcd2bde853bb9e4459a14eaa385ab49a5c453d2fd54ca5daca6f1b5a715"
+    },
+    "tryptamine": {
+      "masterSha256": "6f06072061bf6c784eac781e56e33587ad3c164f4ee880adaa1da14d7e395abf",
+      "articleSha256": "2754ee9e737e4dc78472bf463ecab2f2404f150ee614e0215e58cbd61b8c168a",
+      "socialSha256": "db14842307dc5662a47805e8c9e080e19716aabe6a7a00e03db6a0842c72f719"
+    },
+    "tryptophan": {
+      "masterSha256": "999679914b45de1be24f2187d6f022ef9c49aa138e4175d589fb7af81ad104ac",
+      "articleSha256": "8c4e58dcfdf83c1b1f340bc4fa8352ae2d41b0417b7dc62b381fc4a7a81946e5",
+      "socialSha256": "9ac9f435a42c2ff04dac28a07bd1b1779f5fb4b87554b4c2f02d9c7713403f56"
+    }
+  },
   "routeDecisions": [
     {
       "pageId": "tnf-alpha",
@@ -89,6 +107,9 @@
       "controlledIdentifier": "PubChem:1145;ChEBI:15724;InChIKey:UYPYRKYUKCHHIB-UHFFFAOYSA-N",
       "promptSha256": "1893d5e308c3daa44e7b64cb4b65fd7581d096c36a98d0673b642bce09ab745f",
       "sha256": "844b7c34d9d0f30194927414089c1e33a032c79f27cba5508d77704b24d95d65",
+      "masterSha256": "82be2f97a8bd86b9b217c2de529f77a36f3cd6117b8ac06a834fc7462ec2b8f2",
+      "articleSha256": "c32d9a96bebd8b916c4c018beb105f8ea496016d57ebda2b028da5bf678b2bad",
+      "socialSha256": "077a0bcd2bde853bb9e4459a14eaa385ab49a5c453d2fd54ca5daca6f1b5a715",
       "fileSizeBytes": 1177808,
       "dimensions": {"width": 1536, "height": 1024},
       "scientificReferences": [
@@ -135,6 +156,9 @@
       "controlledIdentifier": "PubChem:1150;ChEBI:16765;InChIKey:APJYDQYYACXCRM-UHFFFAOYSA-N",
       "promptSha256": "cfbdc1a93c20416561b9b8b6e0389e705599cc207776c1b37b027bd8d634a416",
       "sha256": "9d230f6c9dd4dc101407231c88e11a3d65f39bae6d8b20632d6553e93ab6a17c",
+      "masterSha256": "6f06072061bf6c784eac781e56e33587ad3c164f4ee880adaa1da14d7e395abf",
+      "articleSha256": "2754ee9e737e4dc78472bf463ecab2f2404f150ee614e0215e58cbd61b8c168a",
+      "socialSha256": "db14842307dc5662a47805e8c9e080e19716aabe6a7a00e03db6a0842c72f719",
       "fileSizeBytes": 1342383,
       "dimensions": {"width": 1536, "height": 1024},
       "scientificReferences": [
@@ -181,6 +205,9 @@
       "controlledIdentifier": "PubChem:6305;ChEBI:16828;MeSH:D014364;InChIKey:QIVBCDIJIAJPQS-VIFPVBQESA-N",
       "promptSha256": "1b9ffc0988bfe3f142fe298f570728048696730a8886fee09d753ab1f72b37a8",
       "sha256": "9f464f0e832a417037ac76f80639954324481ab65314cb9a1f5ff79867af4e1d",
+      "masterSha256": "999679914b45de1be24f2187d6f022ef9c49aa138e4175d589fb7af81ad104ac",
+      "articleSha256": "8c4e58dcfdf83c1b1f340bc4fa8352ae2d41b0417b7dc62b381fc4a7a81946e5",
+      "socialSha256": "9ac9f435a42c2ff04dac28a07bd1b1779f5fb4b87554b4c2f02d9c7713403f56",
       "fileSizeBytes": 1219057,
       "dimensions": {"width": 1536, "height": 1024},
       "scientificReferences": [
