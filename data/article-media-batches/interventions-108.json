@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-108",
   "category": "interventions",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "920ce932832e16029c065e42b88dbdbeb8fe01c0",
   "generator": "OpenAI built-in image generation",
@@ -19,6 +19,8 @@
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "497c4992d74dac80c283cb1f7b2fee20f3f86132",
+  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Only exact neutral melatonin is cleared for one immutable chemical-identity call. The five supplement or diet-protocol routes fail material, formulation, protocol, evidence, population, measurement, safety, or non-prescriptive-representation gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
