@@ -165,8 +165,8 @@
       {
         "file": "data/article-media-batches/interventions-110.json",
         "batchId": "interventions-110",
-        "status": "awaiting-control-review",
-        "sha256": "579176fa2669159c313e25ed46b64407fec7a7fc2679207b17287ce0318cf664"
+        "status": "reviewed",
+        "sha256": "5e6df8d5bde9aaadb29b65bc932a854983a72a6e4d013a81c8095ccfaf296dc7"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
