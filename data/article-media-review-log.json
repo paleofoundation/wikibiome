@@ -15176,6 +15176,41 @@
       "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/Succinate%20dianion", "https://pubchem.ncbi.nlm.nih.gov/compound/1110", "https://pubmed.ncbi.nlm.nih.gov/30583500/", "https://pubmed.ncbi.nlm.nih.gov/41080558/", "local:data/content.generated.json#/pages/succinate"],
       "requiredResolution": "Define chemical species, compartment, source cell or organism and pathway, concentration and units, sample and assay, receptor or target, model or population, outcome, and tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "synbiotic", "controlledIdentifier": "ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotics-identity", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The synbiotic and synbiotics routes carry the same title and concept with overlapping but divergent content and sources, so two independent primary images would reinforce a duplicate canonical identity.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/32826966/", "local:data/content.generated.json#/pages/synbiotic", "local:data/content.generated.json#/pages/synbiotics"],
+      "requiredResolution": "Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until identity reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "synbiotics", "controlledIdentifier": "ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotic-identity", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The synbiotic and synbiotics routes carry the same title and concept with overlapping but divergent content and sources, so two independent primary images would reinforce a duplicate canonical identity.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/32826966/", "local:data/content.generated.json#/pages/synbiotic", "local:data/content.generated.json#/pages/synbiotics"],
+      "requiredResolution": "Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until identity reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "systemic-inflammation", "controlledIdentifier": "PMID:31806905;heterogeneous-systemic-chronic-inflammation-phenotype", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The route collapses diverse triggers, compartments, biomarkers, and diseases into one visually unified causal endpoint without a singular diagnostic anatomy or morphology.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/31806905/", "local:data/content.generated.json#/pages/systemic-inflammation"],
+      "requiredResolution": "Separate acute versus chronic state, compartment, trigger, biomarker, specimen, assay, population, disease context, and certainty.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "tau-phosphorylation", "controlledIdentifier": "NCBI-Gene:4137;UniProt:P10636;isoform-and-site-specific", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "Multiple MAPT isoforms and heterogeneous physiological and pathological phosphorylation sites are merged with metals, microbial products, aggregation, and clinical outcomes into one causal cascade.",
+      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/gene/4137", "https://www.uniprot.org/uniprotkb/P10636/entry", "https://pubmed.ncbi.nlm.nih.gov/33892381/", "https://pubmed.ncbi.nlm.nih.gov/38556838/", "https://pubmed.ncbi.nlm.nih.gov/34090488/", "local:data/content.generated.json#/pages/tau-phosphorylation"],
+      "requiredResolution": "Specify exact human isoform, residue or defined site set, modification state, compartment, assay, structure source, disease, comparator, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "testosterone", "controlledIdentifier": "PubChem:6013;ChEBI:17347;stereochemistry-specific", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The exact molecule is embedded in a route that conflates free and total hormone, metabolites, binding proteins, tissues, populations, exposures, microbiome associations, and unsupported causal cycles; a generic steroid scaffold is not uniquely testosterone.",
+      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/6013", "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17347", "https://pubmed.ncbi.nlm.nih.gov/35283442/", "https://pubmed.ncbi.nlm.nih.gov/40256744/", "local:data/content.generated.json#/pages/testosterone"],
+      "requiredResolution": "Define exact chemical species or product, stereochemical rendering source, compartment, specimen, assay, population, exposure or intervention, comparator, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
