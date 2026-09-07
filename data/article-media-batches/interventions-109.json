@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-109",
   "category": "interventions",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "79347eee3747150ebc1fe12f9e22a4cba5b16209",
   "generator": "OpenAI built-in image generation",
@@ -19,6 +19,8 @@
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "a8f61fa60b759fca4b17cf9e62dd89e5b1d52ec9",
+  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Only the explicitly named neutral all-cis EPA and DHA pair is cleared for one immutable chemical-identity call. Metformin and both NAC intervention routes duplicate separate canonical chemical-identity pages; the synbiotic cannot visually encode its twelve unresolved strain-level organisms and fructooligosaccharide composition; and the zero-source CKD diet route does not select one physical protocol. Those five routes receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -87,6 +89,7 @@
       "draft": "work/media-drafts/interventions-batch-109/omega-3-fatty-acids-draft.png",
       "rootReviewDisposition": "pending-native-output-review",
       "controlledIdentifier": "MeSH:D015525;EPA-PubChem:5282847;EPA-ChEBI:28364;DHA-PubChem:445580;DHA-ChEBI:28125",
+      "promptSha256": "70c3a13c8c33e12063ec4cea0efe2ec92f66a3318c9cb2d5f49ea24393252a6c",
       "scientificReferences": [
         "https://meshb.nlm.nih.gov/record/ui?ui=D015525",
         "https://pubchem.ncbi.nlm.nih.gov/compound/5282847",
