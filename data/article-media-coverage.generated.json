@@ -117,8 +117,8 @@
       {
         "file": "data/article-media-batches/interventions-102.json",
         "batchId": "interventions-102",
-        "status": "audited",
-        "sha256": "d4265ef6600f7660c1a00e94035effa0542302c4630b7fa0eeb022e31b2153f8"
+        "status": "prompt-frozen",
+        "sha256": "74d1becfed5d358671f79a84d8a5f1e9346a0971033942968945b92c155d99df"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
