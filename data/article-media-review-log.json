@@ -16941,6 +16941,102 @@
       ],
       "requiredResolution": "Choose one milk source and processing state or one exact controlled HMO, composition and dose, feeding protocol, population, comparator, specimen, assay, time point, endpoint, and direct evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed specimen or compound and measured state passes a new audit."
+    },
+    {
+      "pageId": "citrus-fruits",
+      "controlledIdentifier": "MeSH:D002957;NCBITaxon:2706;multi-species-multi-material-food-intervention;zero-resolvable-sources",
+      "batchId": "interventions-103",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The evidence-limited route supplies no resolvable references and combines multiple Citrus species and hybrids, plant parts, food forms, preparations, flavonoids, doses, interactions, population, and endometriosis outcomes rather than one controlled material and regimen.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68002957",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2706",
+        "local:data/content.generated.json#/pages/citrus-fruits"
+      ],
+      "requiredResolution": "Choose exact species and cultivar, edible part, preparation and processing state, composition or analyte, dose and schedule, medication context, population, comparator, specimen, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed material and regimen pass a new audit."
+    },
+    {
+      "pageId": "curcumin",
+      "controlledIdentifier": "PubChem:969516;ChEBI:3962;MeSH:D003474;InChIKey:VFLDPWHFBUODDF-FCXRPNKRSA-N",
+      "batchId": "interventions-103",
+      "draft": "work/media-drafts/interventions-batch-103/curcumin-draft.png",
+      "sha256": "1bfbef6446d0599d116e352181cd65ed09537b6b2dd1fb68e95e04c0aa2fe022",
+      "generationRecord": "exec-803e0630-bf3a-4241-a439-6e0ac2f8f454.png",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual and programmatic alpha-field audit",
+      "disposition": "rejected-after-output-audit",
+      "reason": "The one-call output contains the correct visible 21-carbon, 6-oxygen neutral-curcumin graph, but the canvas is transparent rather than an opaque pale field and rose oxygen centers carry prohibited glow or haze. A centered cover crop would also clip both terminal ends.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/969516",
+        "https://www.ebi.ac.uk/chebi/CHEBI:3962",
+        "https://www.ncbi.nlm.nih.gov/mesh/68003474",
+        "local:work/media-drafts/interventions-batch-103/curcumin-draft.png"
+      ],
+      "requiredResolution": "A future revision requires a new authority audit, a new immutable prompt, and one newly authorized generation call whose native output independently passes exact 21-carbon and 6-oxygen count, neutral-curcumin diketo adjacency, opaque pale-field, no-glow, no-label, and crop gates.",
+      "routingImpact": "The exact revision-1 source remains immutable non-public quarantine evidence and is excluded from registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "dietary-fiber",
+      "controlledIdentifier": "MeSH:D004043;heterogeneous-polysaccharide-and-lignin-class;below-source-threshold",
+      "batchId": "interventions-103",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Dietary fiber is a heterogeneous class, and the route combines resistant starch, inulin, fructooligosaccharides, beta-glucan, multiple foods, microbiota, fermentation products, tissues, diseases, and outcomes rather than one material or measured intervention state.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68004043",
+        "local:data/content.generated.json#/pages/dietary-fiber"
+      ],
+      "requiredResolution": "Choose exact fiber identity, botanical or manufactured source, processing state, composition, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one material and measured state pass a new audit."
+    },
+    {
+      "pageId": "dietary-fiber-probiotics-cp-constipation",
+      "controlledIdentifier": "MeSH:D004043-plus-unspecified-psyllium-and-multistrain-probiotic-regimen;zero-resolvable-sources",
+      "batchId": "interventions-103",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route has no resolvable sources and does not define the psyllium material, probiotic strains and viable counts, products, doses, schedule, pediatric phenotype, comparator, specimen, assay, or clinical endpoint.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68004043",
+        "local:data/content.generated.json#/pages/dietary-fiber-probiotics-cp-constipation"
+      ],
+      "requiredResolution": "Choose exact fiber and probiotic identities, viable counts, formulations, doses and schedule, duration, population and cerebral-palsy classification, comparator, specimen, assay, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed combination and measured state pass a new audit."
+    },
+    {
+      "pageId": "dietary-fiber-colorectal-cancer",
+      "controlledIdentifier": "MeSH:D004043-plus-colorectal-cancer-prevention-context;multi-material-multi-stage;zero-resolvable-sources",
+      "batchId": "interventions-103",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route has no resolvable sources and combines multiple foods and fiber chemistries, doses, populations, cancer stages, prevention and recurrence endpoints, microbes, metabolites, cell experiments, animal models, and epidemiology.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68004043",
+        "local:data/content.generated.json#/pages/dietary-fiber-colorectal-cancer"
+      ],
+      "requiredResolution": "Choose one fiber material and regimen, population and cancer context, comparator, specimen, assay, time point, endpoint, and directly resolvable evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed material and measured state pass a new audit."
+    },
+    {
+      "pageId": "dietary-fiber-ovarian-cancer",
+      "controlledIdentifier": "MeSH:D004043-plus-ovarian-cancer-risk-context;heterogeneous-exposure;below-source-threshold",
+      "batchId": "interventions-103",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines heterogeneous dietary-fiber exposures, observational risk estimates, ovarian-cancer scope, multiple microbial genera, short-chain fatty acids, estrogen metabolism, and Mendelian-randomization claims rather than one physical intervention state.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68004043",
+        "local:data/content.generated.json#/pages/dietary-fiber-ovarian-cancer"
+      ],
+      "requiredResolution": "Choose one material or operational exposure definition, dose, population, comparator, ovarian-cancer scope, specimen, assay, time point, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed material or exposure and measured state pass a new audit."
     }
   ],
   "revisedAssets": [
