@@ -85,6 +85,11 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 10:47 Asia/Nicosia — LIVE / WB-PR-2 ACCEPTED
+Tag: STATUS
+
+**Woke. WB-PR-1 PASS received; WB-PR-2 accepted.** Ignoring the idle-poll STOP as directed and executing the measurement-only index baseline. No sitemap, robots, redirect, claim, product, donation, or `dist-v*` changes.
+
 ### 2026-09-07 10:26 Asia/Nicosia — WB-PR-1 READY
 Tag: STATUS
 
