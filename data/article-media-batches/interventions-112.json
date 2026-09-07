@@ -19,9 +19,27 @@
     "mediaDescription": "Scientific algorithmic chemical-identity reconstruction, not a source structure image, measured conformer, drug product, treatment recommendation, assay result, or diagnostic image",
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "cb559ce",
   "promptFreezeCommit": "acd6a9b",
+  "controlAcceptedReviewManifestSha256": "c0ef668d6f69a5d4e5159bd078b985ab01df55cc27ebca2ef43900fbbf4f5dab",
+  "controlAcceptedPromptEvidenceSha256": "5a89e120cc8ea7e5c16d7e2625b9274725badb1be41c0576f8f359667dcf4212",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "472ec2a1187692aced45baf922e73a30a3750af1",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific, visual, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "statin-simvastatin-colorectal-cancer",
+      "statin-therapy",
+      "statin",
+      "synbiotics-pdac",
+      "vitamin-d-probiotic-schizophrenia",
+      "vitamin-d-probiotic-synergy"
+    ]
+  },
   "reviewStandard": "Only exact neutral simvastatin is cleared for one immutable chemical-identity call. The two broad Statins routes conflict with a third concept route; the synbiotic page has no local evidence or strain-level product identity; and both vitamin-D/probiotic routes lack strain accessions and contain malformed source identifiers. Those five routes receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
