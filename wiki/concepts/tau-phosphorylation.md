@@ -16,7 +16,7 @@ platform: wikibiome
 
 Tau is a microtubule-associated protein essential for maintaining the structural integrity of neuronal axons. In health, tau binds to and stabilizes microtubules, enabling axonal transport of organelles, vesicles, and signaling molecules. When tau becomes hyperphosphorylated -- acquiring excess phosphate groups at specific serine and threonine residues -- it detaches from microtubules, misfolds, and aggregates into neurofibrillary tangles (NFTs), one of the two hallmark pathological features of [[alzheimers-disease]] (the other being [[amyloid-beta]] plaques).
 
-The metallomics perspective reveals that [[heavy-metals]] promote tau hyperphosphorylation through multiple converging mechanisms, and that the [[gut-microbiome]] contributes to this process via neuroinflammatory signaling through the [[gut-brain-axis]].
+The metallomics perspective reveals that [[heavy-metals]] promote tau hyperphosphorylation through multiple converging mechanisms, and that the [[gut-microbiome]] contributes to this process via [[neuroinflammation|neuroinflammatory signaling]] through the [[gut-brain-axis]].
 
 ## Normal Tau Biology
 
@@ -96,7 +96,7 @@ Hyperphosphorylated tau is found in multiple neurodegenerative conditions (colle
 - Progressive supranuclear palsy: Predominantly 4-repeat tau
 - Parkinson's disease: Tau pathology co-occurs with [[alpha-synuclein]] in some cases
 
-The common thread across these conditions is that metal dyshomeostasis and [[neuroinflammation]] converge on the same kinase/phosphatase imbalance that drives tau hyperphosphorylation.
+The common thread across these conditions is that metal dyshomeostasis and neuroinflammation converge on the same kinase/phosphatase imbalance that drives tau hyperphosphorylation.
 
 ## Cross-References
 
@@ -106,7 +106,7 @@ The common thread across these conditions is that metal dyshomeostasis and [[neu
 - [[lead]] -- developmental epigenetic programming of late-life tau pathology
 - [[zinc]] -- promotes PHF assembly from hyperphosphorylated tau
 - [[microglia]] -- neuroinflammatory mediators that activate tau kinases
-- [[neuroinflammation]] -- the inflammatory driver of kinase/phosphatase imbalance
+- neuroinflammation -- the inflammatory driver of kinase/phosphatase imbalance
 - [[kynurenine-pathway]] -- quinolinic acid promotes tau phosphorylation
 - oxidative stress -- ROS activate upstream tau kinases
 - [[epigenetics]] -- lead-induced epigenetic changes prime late-life tau pathology

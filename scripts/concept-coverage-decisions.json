@@ -1189,6 +1189,38 @@
         }
       ]
     },
+    "backfill_links:neuroinflammation": {
+      "state": "queued",
+      "rationale": "The Neuroinflammation destination is being strengthened to distinguish a central nervous system immune response from systemic inflammation, isolated glial activation, and neurodegeneration; to replace a binary M1/M2 account with a state-spectrum model; and to separate direct CNS evidence from peripheral proxies and preclinical mechanisms. Contextual links are limited to reviewed passages that actually invoke a brain or spinal-cord inflammatory process, while shorthand relationship lists and speculative shared-condition claims remain queued.",
+      "batches": [
+        {
+          "id": "2026-09-07-neuroinflammation-high-leverage-contexts-01",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "porphyromonas-gingivalis",
+            "polyamines",
+            "tau-phosphorylation",
+            "inflammation",
+            "gut-microbiome",
+            "oxidative-stress",
+            "nickel",
+            "zinc",
+            "lead",
+            "tight-junctions",
+            "gut-metal-microbiome",
+            "multiple-sclerosis",
+            "parkinsons-disease",
+            "autism-spectrum-disorder",
+            "manganese",
+            "mercury",
+            "depression",
+            "alzheimers-disease"
+          ]
+        }
+      ]
+    },
     "backfill_links:nickel-transporters": {
       "state": "queued",
       "rationale": "NiuBDE and NixA are better handled by the existing parent page than by creating fragmented protein stubs.",

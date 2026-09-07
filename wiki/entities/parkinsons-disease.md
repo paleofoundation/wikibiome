@@ -92,7 +92,7 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 4. Loss of SCFA-producing commensals (Prevotellaceae, Lachnospiraceae, Faecalibacterium)
 5. Impaired gut barrier -- reduced [[tight-junctions|tight junction]] integrity
 6. LPS/bacterial product translocation -- endotoxemia
-7. Systemic and neuroinflammation -- microglia activation, cytokine cascades
+7. Systemic and [[neuroinflammation]] -- microglia activation, cytokine cascades
 8. Alpha-synuclein misfolding in enteric and central nervous system
 9. Ferroptotic dopaminergic neuron death
 

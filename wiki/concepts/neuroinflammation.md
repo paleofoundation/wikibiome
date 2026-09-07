@@ -3,96 +3,103 @@ title: Neuroinflammation
 type: concept
 created: 2026-04-09
 updated: 2026-09-07
-sources: [gao-2023-microglia-neurodegenerative-diseases, ahmed-2025-metals-alzheimers-mechanistic-review, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest, tizabi-2023-lead-gut-microbiota-asd, zhou-2025-gut-microbiota-immune-nervous-system-asd, arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd, spencer-2018-vascular-pathology-ms-blood-brain-barrier, martinelli-2022-gut-oriented-interventions-ms]
-source_count: 9
-tags: [neuroinflammation, microglia, blood-brain-barrier, cytokines, LPS, neurodegeneration, gut-brain-axis, metals, NF-kB, M1-M2-polarization]
+last_substantive_update: 2026-09-07
+sources: [gao-2023-microglia-neurodegenerative-diseases, spencer-2018-vascular-pathology-ms-blood-brain-barrier, martinelli-2022-gut-oriented-interventions-ms, bhargava-2020-bile-acid-metabolism-ms-neuroinflammation, sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest, tizabi-2023-lead-gut-microbiota-asd, zhou-2025-gut-microbiota-immune-nervous-system-asd, arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd, ahmed-2025-metals-alzheimers-mechanistic-review, chin-chan-2015-environmental-pollutants-ad-pd, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, comer-2020-inflamed-brain-schizophrenia-neuroinflammation]
+source_count: 12
+tags: [neuroinflammation, microglia, astrocytes, blood-brain-barrier, cytokines, gut-brain-axis, neurodegeneration, metals, evidence-interpretation]
 platform: wikibiome
 karen_brain_primitives: [1, 3]
-seo_target: "neuroinflammation microbiome"
-last_substantive_update: 2026-09-07
+seo_target: "neuroinflammation microglia gut brain axis metals"
 ---
 
 # Neuroinflammation
 
-Chronic inflammatory activation within the central nervous system, driven by microglia, astrocytes, and infiltrating peripheral immune cells. Neuroinflammation is a convergent pathological mechanism across [[alzheimers-disease]], [[parkinsons-disease]], [[multiple-sclerosis]], and [[autism-spectrum-disorder]], and represents the brain-side consequence of the [[gut-brain-axis]] disruption that metals produce.
+**Neuroinflammation** is an immune response within the central nervous system (CNS)—the brain and spinal cord. It involves changing states of [[microglia]], astrocytes, cells of the neurovascular unit, and, in some settings, immune cells recruited from the circulation. The response can help contain injury and clear damaged material, but persistent or dysregulated activity can also impair synapses, myelin, or neurons [[gao-2023-microglia-neurodegenerative-diseases]] [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]].
 
-## Cellular Mediators
+The term does not mean every rise in a blood inflammatory marker is inflammation in the brain. It is also not interchangeable with microglial activation, [[systemic-inflammation]], or [[neurodegeneration]]. Those processes can overlap, but evidence for one does not by itself establish the others [[gao-2023-microglia-neurodegenerative-diseases]] [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]].
+
+## What Counts as Neuroinflammation
+
+Neuroinflammation is a tissue response rather than a single molecule or test result. Stronger evidence comes from measurements within the CNS—such as brain or spinal-cord tissue, cerebrospinal fluid, CNS-focused imaging, or a convergent set of central markers. Circulating cytokines, gut-microbiome differences, or an inflammatory diagnosis can support a pathway hypothesis, but they are indirect proxies unless a central response is also demonstrated [[gao-2023-microglia-neurodegenerative-diseases]] [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]].
+
+Three distinctions prevent the term from becoming too broad:
+
+- **Protective versus damaging:** microglia can clear debris and abnormal proteins, yet prolonged or poorly regulated responses can amplify tissue injury [[gao-2023-microglia-neurodegenerative-diseases]].
+- **Acute versus persistent:** a short response to infection or injury is biologically different from a self-sustaining inflammatory state in chronic disease [[gao-2023-microglia-neurodegenerative-diseases]].
+- **Central versus peripheral:** blood cytokines and systemic immune activation can influence the CNS, but they are not themselves proof of inflammation inside CNS tissue [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]].
+
+## Cells and Tissue Interfaces
 
 ### Microglia
-- The CNS-resident macrophages; constitute 5-12% of brain cells.
-- Exist on a polarization spectrum: M1 (pro-inflammatory) produces TNF-alpha, IL-1beta, IL-6, ROS, and reactive nitrogen species; M2 (anti-inflammatory) produces IL-10, TGF-beta, and neurotrophic factors.
-- [[heavy-metals]] (Pb, Hg, Mn, Cd, Al) activate microglia toward a persistent M1 phenotype via ROS, NF-kB, and pattern recognition receptor signaling [[gao-2023-microglia-neurodegenerative-diseases]].
-- Metal-activated microglia are resistant to switching back to the M2 state, creating chronic neuroinflammation that outlasts the initial insult.
 
-### Astrocytes
-- Reactive astrocytosis amplifies neuroinflammation via cytokine release and impaired glutamate clearance.
-- Mn accumulates preferentially in astrocytes, disrupting glutamate-glutamine cycling and producing excitotoxicity.
+Microglia are the CNS-resident immune cells that survey their local environment, remove debris, remodel synapses, and respond to infection or injury. Single-cell studies show that reactive microglia occupy diverse, time- and region-dependent states. The familiar “M1” and “M2” labels can be useful experimental shorthand for selected pro-inflammatory and repair-associated markers, but they do not describe two fixed cell types or the full range of human microglial biology [[gao-2023-microglia-neurodegenerative-diseases]].
 
-### Blood-Brain Barrier (BBB) Disruption
-- The BBB normally restricts peripheral immune cell and toxin entry to the brain.
-- [[lead]], [[cadmium]], and [[mercury]] directly damage BBB [[tight-junctions|tight junction]] proteins, increasing paracellular permeability [[ahmed-2025-metals-alzheimers-mechanistic-review]].
-- BBB disruption permits entry of peripheral inflammatory mediators, LPS, metals, and immune cells, amplifying central [[inflammation]].
-- TMAO crosses the BBB and promotes neuroinflammation in [[alzheimers-disease]] [[khatoon-2023-gut-microbiota-neurodegenerative]].
+Microglial effects are context-dependent. Around protein aggregates, some states support clearance, whereas others release inflammatory mediators, activate the [[nlrp3-inflammasome]], or promote pathological protein spread. The direction can change with disease stage, anatomical region, genetics, and signals from infiltrating immune cells [[gao-2023-microglia-neurodegenerative-diseases]].
 
-## Gut-Brain Axis Origins of Neuroinflammation
+### Astrocytes and the Neurovascular Unit
 
-The [[gut-brain-axis]] provides a major pathway by which peripheral events drive brain inflammation:
+Astrocytes regulate neurotransmitter handling, metabolic support, and the environment surrounding neurons and blood vessels. In multiple-sclerosis tissue and experimental models, astrocyte and microglial states respond to bile-acid receptor signaling, illustrating that glial inflammation is shaped by metabolic as well as immune inputs [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]].
 
-### LPS Translocation Pathway
-1. Metal-induced [[dysbiosis]] enriches gram-negative, LPS-producing Enterobacteriaceae.
-2. Loss of [[short-chain-fatty-acids]] ([[butyrate]]) compromises gut barrier integrity.
-3. LPS translocates into systemic circulation ("metabolic endotoxemia").
-4. Circulating LPS activates microglia via TLR4/[[nf-kappa-b]] signaling [[gao-2023-microglia-neurodegenerative-diseases]].
-5. Activated microglia release neurotoxic mediators, damaging neurons.
+The [[blood-brain-barrier]] is a multicellular interface formed by vascular endothelial cells, supporting cells, basement membranes, and glial end-feet. Loss of endothelial [[tight-junctions|tight junction integrity]] can allow more circulating mediators and immune cells to influence CNS tissue. In multiple sclerosis, barrier disruption can appear early, although whether it initiates lesions or partly reflects ongoing inflammation remains unsettled [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]].
 
-### Vagal Signaling
-- The vagus nerve transmits gut inflammatory signals directly to brainstem nuclei.
-- Alpha-synuclein aggregation may propagate from the enteric nervous system to the substantia nigra via the vagus nerve (Braak hypothesis in [[parkinsons-disease]]) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+## How Peripheral and Gut Signals Reach the CNS
 
-### Cytokine Trafficking
-- Peripheral pro-inflammatory cytokines (IL-6, TNF-alpha, IL-1beta) produced by gut immune activation cross the BBB at circumventricular organs and activate central immune responses.
+The [[gut-brain-axis]] offers several routes by which intestinal events may alter CNS immune activity. These routes should be separated rather than compressed into a single “leaky gut causes brain inflammation” claim.
 
-## Metal-Driven Neuroinflammation
+1. **Barrier and vascular signaling:** microbial products and circulating cytokines can activate vascular or immune signaling at CNS interfaces; altered barrier integrity may increase their influence [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]] [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]].
+2. **Immune-cell trafficking:** intestinal immune programs can affect circulating T-cell populations. A review of multiple-sclerosis evidence describes intestine-associated Th17 responses as one route into CNS autoimmunity, while emphasizing that human intervention evidence remains limited [[martinelli-2022-gut-oriented-interventions-ms]].
+3. **Microbial metabolites:** [[short-chain-fatty-acids]], bile acids, and tryptophan-derived molecules can modify barrier, immune, and glial signaling. Their effects depend on molecule, concentration, receptor, and disease model; they are not uniformly anti-inflammatory [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]] [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].
+4. **Neural signaling:** vagal and enteric pathways can transmit physiological information without requiring a bacterium or metabolite to enter brain tissue. Reviews of autism and Parkinson’s-related models treat this as one route among several, not proof that a gut change caused a CNS lesion [[zhou-2025-gut-microbiota-immune-nervous-system-asd]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
-Each neurotoxic metal has a distinct neuroinflammatory profile:
+Gut [[dysbiosis]] is therefore a possible upstream contributor, not a synonym for neuroinflammation. A microbiome association becomes a mechanistic claim only when the intervening barrier, immune, metabolic, or neural steps are supported [[martinelli-2022-gut-oriented-interventions-ms]] [[zhou-2025-gut-microbiota-immune-nervous-system-asd]].
 
-| Metal | Primary Mechanism | Disease Association |
+## Metals and Neuroinflammatory Pathways
+
+Metals can intersect with CNS inflammation directly through neural or vascular exposure and indirectly through systemic or microbial pathways. Experimental studies reviewed for arsenic, manganese, lead, and cadmium report overlapping effects involving [[oxidative-stress]], mitochondrial or autophagic dysfunction, protein aggregation, and barrier injury. Most of those findings come from cell or animal models and should not be read as proof that a measured human metal concentration caused neuroinflammation [[ahmed-2025-metals-alzheimers-mechanistic-review]].
+
+Broader environmental literature links [[lead]], [[mercury]], arsenic, [[manganese]], and other [[heavy-metals|pollutant metals]] to processes relevant to Alzheimer’s or Parkinson’s disease, including altered protein handling, redox stress, and developmental epigenetic effects. Exposure timing, chemical form, dose, and tissue distribution matter, and the reviewed evidence mixes epidemiological observations with experimental models [[chin-chan-2015-environmental-pollutants-ad-pd]].
+
+An additional WikiBiome hypothesis is ecological: metal exposure may reshape the [[gut-microbiome]], weaken metabolite and barrier functions, and thereby alter signals reaching the brain. The vault’s Parkinson’s framework integrates that proposed chain with [[ferroptosis]] and [[alpha-synuclein]] biology, but it is a founder-authored conference synthesis rather than an independently validated causal model [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+
+## Disease Contexts
+
+| Context | What the cited evidence supports | Important boundary |
 |---|---|---|
-| [[lead]] | BBB disruption, calcium mimicry, epigenetic reprogramming | [[alzheimers-disease]], [[autism-spectrum-disorder]] |
-| [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |
-| [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |
-| [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |
-| [[aluminum]] | Inflammasome and NF-kB activation | AD (controversial) |
-| [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |
+| [[alzheimers-disease]] | Microglial states can participate in aggregate clearance or inflammatory amplification; metal-exposure models converge on several Alzheimer-relevant pathways [[gao-2023-microglia-neurodegenerative-diseases]] [[ahmed-2025-metals-alzheimers-mechanistic-review]] | Neuroinflammation is one component of a multifactorial disease, not a stand-alone diagnosis or proven single cause. |
+| [[parkinsons-disease]] | Reactive microglia, inflammasome activity, peripheral immune input, and alpha-synuclein-related signaling are studied as interacting mechanisms [[gao-2023-microglia-neurodegenerative-diseases]] | The relative contribution of gut, metal, immune, and protein-aggregation pathways remains unresolved. |
+| [[multiple-sclerosis]] | Early barrier change, immune-cell entry, glial activation, and altered bile-acid signaling connect vascular, immune, and metabolic evidence [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]] [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]] | Human metabolomic associations and EAE treatment effects are different evidence layers. |
+| [[autism-spectrum-disorder]] | Reviews describe altered cytokines, immune-cell balance, microglial findings, gut-brain signaling, and lead-related experimental pathways [[tizabi-2023-lead-gut-microbiota-asd]] [[zhou-2025-gut-microbiota-immune-nervous-system-asd]] | Heterogeneous findings do not establish neuroinflammation as a universal cause of autism. |
+| [[schizophrenia]] | Genetic immune signals, environmental exposures, microglial function, barrier abnormalities, and gut-brain hypotheses converge in a neuroinflammatory framework [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]] | A framework built from several evidence types is not a single validated biomarker. |
 
-For aluminum, the proposed neuroinflammatory profile includes [[nlrp3-inflammasome|NLRP3 inflammasome]] and NF-kB activation, although its association with Alzheimer's disease remains controversial [[ahmed-2025-metals-alzheimers-mechanistic-review]]. More broadly, these metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in inflammation.
+## What Intervention Studies Establish
 
-## Disease-Specific Neuroinflammatory Patterns
+Preclinical intervention results can test mechanisms without establishing clinical treatment. In a mouse cardiac-arrest model, sodium [[butyrate]] altered gut measures, TLR4/MyD88/[[nf-kappa-b|NF-kB]] signaling, microglial marker patterns, and neurological outcomes. That experiment supports pathway plausibility in that model; it does not establish butyrate as a general treatment for neuroinflammatory disease [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].
 
-- Alzheimer's disease: Microglial activation around amyloid plaques; bacterial amyloids (curli from E. coli) cross-seed A-beta aggregation; LPS enhances A-beta fibrillization [[ahmed-2025-metals-alzheimers-mechanistic-review]].
-- Parkinson's disease: Iron accumulation in substantia nigra drives ferroptotic neuroinflammation; gut-origin alpha-synuclein propagation via vagus nerve [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- Multiple sclerosis: Th17 cells originating in the intestine drive CNS autoimmunity; BBB disruption permits immune cell infiltration and demyelination [[martinelli-2022-gut-oriented-interventions-ms]].
-- Autism spectrum disorder: Elevated pro-inflammatory cytokines (IL-6, TNF-alpha) in CSF and brain; maternal immune activation during pregnancy as risk factor; altered [[tryptophan-metabolism]] reduces AhR-mediated neuroprotection [[zhou-2025-gut-microbiota-immune-nervous-system-asd]].
+In multiple sclerosis research, human metabolomics identified altered bile-acid profiles, while cell and EAE experiments found that TUDCA affected astrocyte and microglial states through GPBAR1. The study links a human association to experimental mechanism, but the disease-modifying effect was demonstrated in a model rather than a therapeutic trial in people with MS [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]].
 
-## Therapeutic Approaches
+A review of small randomized trials of immunoregulatory or anti-inflammatory agents in autism reported some symptom signals and mixed findings, with short follow-up and small samples limiting inference. Those trials do not make neuroinflammation a diagnostic test for autism or show that one inflammatory mechanism explains all participants [[arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd]].
 
-- Sodium butyrate: Reduces microglial activation, shifts M1-to-M2 polarization, attenuates neuroinflammation after cardiac arrest [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].
-- Iron chelation (deferiprone): Reduces ferroptotic neuroinflammation in AD and PD.
-- AhR ligands: Microbial indole derivatives activate AhR on astrocytes, suppressing neuroinflammation -- therapeutic in MS models.
-- Probiotics: Bifidobacterium breve A1 improved cognition in AD patients, potentially via neuroinflammation reduction.
+## Reading the Evidence
 
-## Key Sources
+When a study uses the word *neuroinflammation*, ask:
 
-- [[tizabi-2023-lead-gut-microbiota-asd]]
-- [[arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd]]
-- [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]]
+- Was the signal measured in brain or spinal-cord tissue, cerebrospinal fluid, CNS-focused imaging, blood, or stool?
+- Does the marker identify an inflammatory cell state, or only a correlated molecule?
+- Is the study in people, an animal model, cultured cells, or a review integrating several layers?
+- Was the response protective, damaging, or different at separate disease stages?
+- Does an intervention modify a pathway marker, a clinical outcome, or both?
+
+These questions matter because neuroinflammation is a dynamic response shared by many conditions, not a single disease, biomarker, or treatment target with one meaning [[gao-2023-microglia-neurodegenerative-diseases]].
 
 ## Connections
 
-- inflammation -- neuroinflammation is the CNS manifestation of the broader metal-driven inflammatory response
-- [[gut-brain-axis]] -- the primary route by which peripheral dysbiosis drives brain inflammation
-- [[ferroptosis]] -- iron-dependent lipid peroxidation as a neuroinflammatory cell death mechanism
-- [[short-chain-fatty-acids]] -- butyrate depletion removes anti-neuroinflammatory brake
-- [[nf-kappa-b]] -- central signaling hub activated by both metals and LPS in microglia
-- [[tryptophan-metabolism]] -- AhR ligand depletion removes neuroprotective signaling
-- oxidative stress -- ROS generation drives and amplifies microglial activation
+- [[inflammation]] — the broader biological response; central and peripheral inflammation must be distinguished
+- [[microglia]] — resident CNS immune cells with diverse, context-dependent states
+- [[blood-brain-barrier]] — neurovascular interface regulating exchange between blood and CNS tissue
+- [[gut-brain-axis]] — immune, metabolic, vascular, and neural communication routes
+- [[nlrp3-inflammasome]] — one inflammatory signaling complex studied in reactive microglia
+- [[oxidative-stress]] — an interacting process that can both provoke and result from inflammatory signaling
+- [[ferroptosis]] — iron-dependent lipid-peroxidation cell death, not a synonym for neuroinflammation
+- [[short-chain-fatty-acids]] — microbial metabolites with context-dependent barrier and immune effects
+- [[tryptophan-metabolism]] — source of immune- and neuroactive metabolites
+- [[neurodegeneration]] — neuronal dysfunction or loss that may precede, accompany, or follow inflammation

@@ -44,7 +44,7 @@ ROS generation. Beyond GSH depletion, Hg directly stimulates reactive oxygen spe
 
 Enzyme inhibition. Hg inactivates enzymes through thiol binding, disrupting critical metabolic pathways. In the kidney, aquaporin mRNA is reduced, impairing water transport, and Na+/H+ exchangers and aquaporin-1 are inhibited in kidney tubules [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 
-Neuroinflammation and demyelination. Hg triggers glial reactivity, increases TNF, IL-1, IL-6, and generates autoantibodies against neuronal proteins. MeHg downregulates myelin basic protein (MBP) expression, contributing to axonal demyelination in the CNS [[blazewicz-2023-metal-profiles-asd]].
+[[neuroinflammation|Neuroinflammation]] and demyelination. Hg triggers glial reactivity, increases TNF, IL-1, IL-6, and generates autoantibodies against neuronal proteins. MeHg downregulates myelin basic protein (MBP) expression, contributing to axonal demyelination in the CNS [[blazewicz-2023-metal-profiles-asd]].
 
 Cardiovascular damage. MeHg drives cardiovascular toxicity through ROS/lipid peroxidation, LDL oxidation, PLA2 activation, and inactivation of paraoxonase (PON), which reduces HDL's protective capacity. Perinatal MeHg exposure has been linked to hypertension onset in adolescence [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].
 

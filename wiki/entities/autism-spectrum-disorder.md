@@ -133,7 +133,7 @@ ASD is the paradigmatic disease of developmental metal vulnerability:
 |---|---|---|
 | Zinc supplementation | Moderate [[ogrady-2025-metal-dyshomeostasis-asd]] | Counters functional Zn deficiency; restores barrier function; competes with toxic metals for binding sites |
 | Metal chelation (EDTA, DMSA) | Limited clinical [[ogrady-2025-metal-dyshomeostasis-asd]] | Reduces toxic metal burden; alleviates inflammation and barrier dysfunction |
-| Probiotics/prebiotics | Moderate [[tizabi-2023-lead-gut-microbiota-asd]] | Reduce neuroinflammation; restore SCFA production; potentially sequester metals |
+| Probiotics/prebiotics | Moderate [[tizabi-2023-lead-gut-microbiota-asd]] | Reduce [[neuroinflammation]]; restore SCFA production; potentially sequester metals |
 | GOS (galactooligosaccharides) | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Prebiotic that promotes beneficial bacteria; may reduce metal absorption |
 | FMT | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Restore gut microbiota composition; improve GI symptoms |
 | Butyrate supplementation | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Restore barrier function; reduce neuroinflammation; counter PPA effects |

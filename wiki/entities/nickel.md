@@ -275,7 +275,7 @@ A striking connection has emerged between nickel sensitivity and [[endometriosis
 ### Parkinson's Disease
 
 - Nickel exposure is associated with increased risk of [[parkinsons-disease]], with the [[gut-microbiome]] mediating part of the association [[ji-2025-nickel-exposure-parkinsons-microbiome]]. Nickel alters the abundance of specific bacterial taxa implicated in PD: pro-inflammatory Enterobacteriaceae are enriched while SCFA-producing commensals are depleted [[ji-2025-nickel-exposure-parkinsons-microbiome]].
-- Nickel-dependent bacterial enzymes (urease, hydrogenase) in gut pathogens contribute to dysbiosis and [[ammonia]]-mediated epithelial damage, compounding iron-driven [[ferroptosis]] in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. The nickel-microbiome-neurodegeneration axis represents a specific instance of the broader metal dyshomeostasis framework for PD, where metal exposure reshapes gut ecology which in turn drives neuroinflammation through the [[gut-brain-axis]] [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].
+- Nickel-dependent bacterial enzymes (urease, hydrogenase) in gut pathogens contribute to dysbiosis and [[ammonia]]-mediated epithelial damage, compounding iron-driven [[ferroptosis]] in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. The nickel-microbiome-neurodegeneration axis represents a specific instance of the broader metal dyshomeostasis framework for PD, where metal exposure reshapes gut ecology which in turn drives [[neuroinflammation]] through the [[gut-brain-axis]] [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].
 - See [[nickel-neurotoxicity]] for details.
 
 ---

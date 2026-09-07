@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T12:33:21.183Z",
+  "_generated": "2026-09-07T13:27:44.129Z",
   "_platform": "all",
   "_stats": {
     "sources": 1940,
@@ -8,8 +8,8 @@
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
-    "analyses": 47,
-    "totalPages": 868
+    "analyses": 48,
+    "totalPages": 869
   },
   "pages": [
     {
@@ -3164,7 +3164,6 @@
         "heavy-metals",
         "infant-exposure",
         "neurodegeneration",
-        "neuroinflammation",
         "parenteral-nutrition",
         "tau-phosphorylation",
         "broken-links-2026-04-16",
@@ -3173,19 +3172,19 @@
       "related": [
         {
           "id": "lead",
-          "score": 39
+          "score": 37
         },
         {
           "id": "iron",
-          "score": 31
+          "score": 29
         },
         {
           "id": "manganese",
-          "score": 31
+          "score": 29
         },
         {
           "id": "mercury",
-          "score": 29
+          "score": 27
         },
         {
           "id": "zinc",
@@ -3196,12 +3195,12 @@
           "score": 24
         },
         {
-          "id": "heavy-metals",
-          "score": 23
-        },
-        {
           "id": "copper",
           "score": 22
+        },
+        {
+          "id": "heavy-metals",
+          "score": 21
         }
       ]
     },
@@ -3387,7 +3386,7 @@
         {
           "heading": "Shared Mechanistic Pathways",
           "level": 2,
-          "body": "All metals converge on a small set of overlapping AD-relevant pathways [[ahmed-2025-metals-alzheimers-mechanistic-review]]:\n\n1. Oxidative stress and mitochondrial dysfunction -- universal across all metals\n2. Amyloid-beta aggregation -- Cu and Zn bind A-beta directly; As increases BACE1-mediated production\n3. Tau hyperphosphorylation -- As activates GSK3-beta and ERK1/2; Pb affects protein phosphorylation [[ahmed-2025-metals-alzheimers-mechanistic-review]]\n4. BBB disruption -- Pb and Cd specifically damage the blood-brain barrier [[ahmed-2025-metals-alzheimers-mechanistic-review]]\n5. Neuroinflammation -- microglial activation by metals; LPS from gut bacteria amplifies via NF-kB [[gao-2023-microglia-neurodegenerative-diseases]]\n6. Epigenetic modification -- Pb produces latent epigenetic effects decades after exposure; As depletes SAM (universal methyl donor) [[bakulski-2025-heavy-metals-late-onset-alzheimers]]"
+          "body": "All metals converge on a small set of overlapping AD-relevant pathways [[ahmed-2025-metals-alzheimers-mechanistic-review]]:\n\n1. Oxidative stress and mitochondrial dysfunction -- universal across all metals\n2. Amyloid-beta aggregation -- Cu and Zn bind A-beta directly; As increases BACE1-mediated production\n3. Tau hyperphosphorylation -- As activates GSK3-beta and ERK1/2; Pb affects protein phosphorylation [[ahmed-2025-metals-alzheimers-mechanistic-review]]\n4. BBB disruption -- Pb and Cd specifically damage the blood-brain barrier [[ahmed-2025-metals-alzheimers-mechanistic-review]]\n5. [[neuroinflammation|Neuroinflammation]] -- microglial activation by metals; LPS from gut bacteria amplifies via NF-kB [[gao-2023-microglia-neurodegenerative-diseases]]\n6. Epigenetic modification -- Pb produces latent epigenetic effects decades after exposure; As depletes SAM (universal methyl donor) [[bakulski-2025-heavy-metals-late-onset-alzheimers]]"
         },
         {
           "heading": "Gut Microbiome Connection",
@@ -3449,6 +3448,7 @@
         "hydrogenase",
         "urease",
         "klotz-2017-aluminum-health-effects-review",
+        "neuroinflammation",
         "gao-2023-microglia-neurodegenerative-diseases",
         "bakulski-2025-heavy-metals-late-onset-alzheimers",
         "gentile-2020-diet-microbiota-brain-health",
@@ -5461,7 +5461,7 @@
         {
           "heading": "Current Interventions with Metal Relevance",
           "level": 2,
-          "body": "| Intervention | Evidence | Metal Mechanism |\n|---|---|---|\n| Zinc supplementation | Moderate [[ogrady-2025-metal-dyshomeostasis-asd]] | Counters functional Zn deficiency; restores barrier function; competes with toxic metals for binding sites |\n| Metal chelation (EDTA, DMSA) | Limited clinical [[ogrady-2025-metal-dyshomeostasis-asd]] | Reduces toxic metal burden; alleviates inflammation and barrier dysfunction |\n| Probiotics/prebiotics | Moderate [[tizabi-2023-lead-gut-microbiota-asd]] | Reduce neuroinflammation; restore SCFA production; potentially sequester metals |\n| GOS (galactooligosaccharides) | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Prebiotic that promotes beneficial bacteria; may reduce metal absorption |\n| FMT | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Restore gut microbiota composition; improve GI symptoms |\n| Butyrate supplementation | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Restore barrier function; reduce neuroinflammation; counter PPA effects |\n| Gluten-free/casein-free diet | Limited [[ogrady-2025-metal-dyshomeostasis-asd]] | May reduce gut inflammation; unclear metal relevance |\n| Vitamins B1, B5, B6, D | Limited [[ogrady-2025-metal-dyshomeostasis-asd]] | Support metal-dependent enzyme function; anti-inflammatory |\n| Pb exposure reduction | Public health [[tizabi-2023-lead-gut-microbiota-asd]] | Prevention: reduce developmental Pb burden |"
+          "body": "| Intervention | Evidence | Metal Mechanism |\n|---|---|---|\n| Zinc supplementation | Moderate [[ogrady-2025-metal-dyshomeostasis-asd]] | Counters functional Zn deficiency; restores barrier function; competes with toxic metals for binding sites |\n| Metal chelation (EDTA, DMSA) | Limited clinical [[ogrady-2025-metal-dyshomeostasis-asd]] | Reduces toxic metal burden; alleviates inflammation and barrier dysfunction |\n| Probiotics/prebiotics | Moderate [[tizabi-2023-lead-gut-microbiota-asd]] | Reduce [[neuroinflammation]]; restore SCFA production; potentially sequester metals |\n| GOS (galactooligosaccharides) | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Prebiotic that promotes beneficial bacteria; may reduce metal absorption |\n| FMT | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Restore gut microbiota composition; improve GI symptoms |\n| Butyrate supplementation | Preclinical [[tizabi-2023-lead-gut-microbiota-asd]] | Restore barrier function; reduce neuroinflammation; counter PPA effects |\n| Gluten-free/casein-free diet | Limited [[ogrady-2025-metal-dyshomeostasis-asd]] | May reduce gut inflammation; unclear metal relevance |\n| Vitamins B1, B5, B6, D | Limited [[ogrady-2025-metal-dyshomeostasis-asd]] | Support metal-dependent enzyme function; anti-inflammatory |\n| Pb exposure reduction | Public health [[tizabi-2023-lead-gut-microbiota-asd]] | Prevention: reduce developmental Pb burden |"
         },
         {
           "heading": "Open Questions",
@@ -5492,6 +5492,7 @@
         "zhou-2025-hair-heavy-metals-asd-severity",
         "inflammation",
         "butyrate",
+        "neuroinflammation",
         "chen-2022-living-microorganisms-detoxification-heavy-metals",
         "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
         "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
@@ -5597,7 +5598,7 @@
       "related": [
         {
           "id": "gut-microbiome",
-          "score": 63
+          "score": 65
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -5621,11 +5622,11 @@
         },
         {
           "id": "schizophrenia",
-          "score": 39
+          "score": 41
         },
         {
-          "id": "chronic-kidney-disease",
-          "score": 38
+          "id": "schizophrenia",
+          "score": 40
         }
       ]
     },
@@ -12079,7 +12080,6 @@
         "metallothionein",
         "mitochondrial-dysfunction",
         "n-acetyl-cysteine",
-        "neuroinflammation",
         "nf-kappa-b",
         "nitric-oxide",
         "nlrp3-inflammasome",
@@ -12126,7 +12126,7 @@
         },
         {
           "id": "mercury",
-          "score": 134
+          "score": 132
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -21307,7 +21307,7 @@
         {
           "heading": "Intestinal Permeability",
           "level": 3,
-          "body": "Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic inflammation → neuroinflammation [[gao-2023-microglia-neurodegenerative-diseases]]. This \"leaky gut\" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects."
+          "body": "Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic inflammation → [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]]. This \"leaky gut\" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects."
         },
         {
           "heading": "Comorbidity Web",
@@ -21332,7 +21332,7 @@
         {
           "heading": "Gut-Brain and Microbiome",
           "level": 3,
-          "body": "- [[gut-brain-axis]] -- bidirectional vagal, endocrine, and immune communication linking gut dysbiosis to mood\n- [[tryptophan-metabolism]] -- IDO-mediated shunting from serotonin to neurotoxic kynurenine metabolites\n- dysbiosis -- depletion of butyrate producers and enrichment of pro-inflammatory taxa\n- inflammation -- peripheral and central inflammation converge on depression via IL-6, TNF-alpha, CRP\n- [[neuroinflammation]] -- microglial activation, kynurenine pathway, and BBB disruption\n- [[short-chain-fatty-acids]] -- butyrate depletion weakens barrier function and reduces anti-inflammatory signaling\n- [[coprococcus]] -- consistently depleted genus in depression; butyrate producer with DOPAC synthesis capacity\n- [[faecalibacterium-prausnitzii]] -- anti-inflammatory commensal depleted in depressed patients\n- [[probiotics]] -- psychobiotics (L. helveticus, B. longum) show modest antidepressant effects in RCTs\n- [[fecal-microbiota-transplant]] -- emerging FMT evidence for treatment-resistant depression via gut-brain axis restoration"
+          "body": "- [[gut-brain-axis]] -- bidirectional vagal, endocrine, and immune communication linking gut dysbiosis to mood\n- [[tryptophan-metabolism]] -- IDO-mediated shunting from serotonin to neurotoxic kynurenine metabolites\n- dysbiosis -- depletion of butyrate producers and enrichment of pro-inflammatory taxa\n- inflammation -- peripheral and central inflammation converge on depression via IL-6, TNF-alpha, CRP\n- neuroinflammation -- microglial activation, kynurenine pathway, and BBB disruption\n- [[short-chain-fatty-acids]] -- butyrate depletion weakens barrier function and reduces anti-inflammatory signaling\n- [[coprococcus]] -- consistently depleted genus in depression; butyrate producer with DOPAC synthesis capacity\n- [[faecalibacterium-prausnitzii]] -- anti-inflammatory commensal depleted in depressed patients\n- [[probiotics]] -- psychobiotics (L. helveticus, B. longum) show modest antidepressant effects in RCTs\n- [[fecal-microbiota-transplant]] -- emerging FMT evidence for treatment-resistant depression via gut-brain axis restoration"
         },
         {
           "heading": "Comorbidities and Related Diseases",
@@ -21364,6 +21364,7 @@
         "butyrate",
         "capuco-2020-gut-microbiome-dysbiosis-depression-review",
         "short-chain-fatty-acids",
+        "neuroinflammation",
         "gao-2023-microglia-neurodegenerative-diseases",
         "inflammatory-bowel-disease",
         "chronic-kidney-disease",
@@ -21381,7 +21382,6 @@
         "mercury",
         "gut-brain-axis",
         "tryptophan-metabolism",
-        "neuroinflammation",
         "coprococcus",
         "faecalibacterium-prausnitzii",
         "probiotics",
@@ -35708,7 +35708,6 @@
         "microglia",
         "mitochondrial-dysfunction",
         "neurodegeneration",
-        "neuroinflammation",
         "nickel-urease",
         "nife-hydrogenase",
         "oxalates",
@@ -35754,7 +35753,7 @@
       "related": [
         {
           "id": "inflammation",
-          "score": 294
+          "score": 292
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -35762,7 +35761,7 @@
         },
         {
           "id": "lead",
-          "score": 152
+          "score": 150
         },
         {
           "id": "colorectal-cancer",
@@ -35774,7 +35773,7 @@
         },
         {
           "id": "tight-junctions",
-          "score": 104
+          "score": 102
         },
         {
           "id": "bifidobacterium",
@@ -39724,7 +39723,7 @@
         {
           "heading": "Autism Spectrum Disorder",
           "level": 3,
-          "body": "Lead is consistently elevated in hair, blood, teeth, and nails of ASD children. Hair lead was dramatically elevated in severe ASD (1.778 vs 0.881 ug/g in controls, P < 0.001), with a dose-dependent relationship to severity [[zhou-2025-hair-heavy-metals-asd-severity]], [[blazewicz-2023-metal-profiles-asd]]. The gut-brain axis disruption model posits that Pb alters gut microbiota, increases neuroinflammation via microglial activation, and disrupts GABA/glutamate balance through calcium mimicry [[tizabi-2023-lead-gut-microbiota-asd]]. Children with the lowest social behaviors had a sixfold increase in odds of high heavy metal loads [[krajewski-2025-heavy-metals-microbiome-metabolites-children-behavior]].\n\nA PRISMA systematic review of 37 controlled studies confirmed that lead, mercury, cadmium, and zinc deficiency produce overlapping gut pathologies -- barrier dysfunction, permeability, inflammation, and dysbiosis. The unifying mechanism: toxic metals reduce zinc bioavailability through protein-binding competition, mimicking zinc deficiency, with 30-70% of children with ASD suffering some form of GI disturbance [[ogrady-2025-metal-dyshomeostasis-asd]]."
+          "body": "Lead is consistently elevated in hair, blood, teeth, and nails of ASD children. Hair lead was dramatically elevated in severe ASD (1.778 vs 0.881 ug/g in controls, P < 0.001), with a dose-dependent relationship to severity [[zhou-2025-hair-heavy-metals-asd-severity]], [[blazewicz-2023-metal-profiles-asd]]. The gut-brain axis disruption model posits that Pb alters gut microbiota, increases [[neuroinflammation]] via microglial activation, and disrupts GABA/glutamate balance through calcium mimicry [[tizabi-2023-lead-gut-microbiota-asd]]. Children with the lowest social behaviors had a sixfold increase in odds of high heavy metal loads [[krajewski-2025-heavy-metals-microbiome-metabolites-children-behavior]].\n\nA PRISMA systematic review of 37 controlled studies confirmed that lead, mercury, cadmium, and zinc deficiency produce overlapping gut pathologies -- barrier dysfunction, permeability, inflammation, and dysbiosis. The unifying mechanism: toxic metals reduce zinc bioavailability through protein-binding competition, mimicking zinc deficiency, with 30-70% of children with ASD suffering some form of GI disturbance [[ogrady-2025-metal-dyshomeostasis-asd]]."
         },
         {
           "heading": "Parkinson's Disease",
@@ -39844,6 +39843,7 @@
         "ahmed-2025-metals-alzheimers-mechanistic-review",
         "scholefield-2024-brain-metallomics-dementia",
         "zhou-2025-hair-heavy-metals-asd-severity",
+        "neuroinflammation",
         "danziger-2022-susceptibility-heavy-metal-toxicity-ckd",
         "yin-2024-heavy-metals-renal-injury-longitudinal",
         "nucera-2024-non-essential-heavy-metals-cvd-systematic-review",
@@ -41578,7 +41578,7 @@
         {
           "heading": "Parkinsonism and Neurotoxicity",
           "level": 3,
-          "body": "Mn neurotoxicity is the most thoroughly documented health effect. Dose-dependent parkinsonism in welders shows an annual UPDRS3 increase of 0.24 points per mg Mn/m3-year of cumulative exposure (p<0.001); a worker with 20 years of welding would show nearly a 7-point increase [[racette-2017-manganese-parkinsonism-welders]]. The phenotype predominantly affects upper limb bradykinesia, rigidity, and impaired speech/facial expression [[racette-2017-manganese-parkinsonism-welders]]. Workers whose baseline examination was within 5 years of first Mn exposure showed dramatically higher progression (4.45 vs 0.23 UPDRS3/year), suggesting an early vulnerability window [[racette-2017-manganese-parkinsonism-welders]]. FCAW in confined spaces showed a 6.7-fold higher progression rate than non-confined FCAW [[racette-2017-manganese-parkinsonism-welders]].\n\nMn accumulates preferentially in the globus pallidus and striatum of the basal ganglia, unlike most toxic metals that target cortical regions [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]. Mechanism involves oxidative stress in dopaminergic neurons through mitochondrial accumulation, electron transport chain disruption, and ROS generation via Fenton-like chemistry [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]. In the metal-driven PD framework, Mn acts alongside iron and nickel to reshape gut microbial communities, with downstream neuroinflammation converging on dopaminergic neuron vulnerability [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
+          "body": "Mn neurotoxicity is the most thoroughly documented health effect. Dose-dependent parkinsonism in welders shows an annual UPDRS3 increase of 0.24 points per mg Mn/m3-year of cumulative exposure (p<0.001); a worker with 20 years of welding would show nearly a 7-point increase [[racette-2017-manganese-parkinsonism-welders]]. The phenotype predominantly affects upper limb bradykinesia, rigidity, and impaired speech/facial expression [[racette-2017-manganese-parkinsonism-welders]]. Workers whose baseline examination was within 5 years of first Mn exposure showed dramatically higher progression (4.45 vs 0.23 UPDRS3/year), suggesting an early vulnerability window [[racette-2017-manganese-parkinsonism-welders]]. FCAW in confined spaces showed a 6.7-fold higher progression rate than non-confined FCAW [[racette-2017-manganese-parkinsonism-welders]].\n\nMn accumulates preferentially in the globus pallidus and striatum of the basal ganglia, unlike most toxic metals that target cortical regions [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]. Mechanism involves oxidative stress in dopaminergic neurons through mitochondrial accumulation, electron transport chain disruption, and ROS generation via Fenton-like chemistry [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]]. In the metal-driven PD framework, Mn acts alongside iron and nickel to reshape gut microbial communities, with downstream [[neuroinflammation]] converging on dopaminergic neuron vulnerability [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
         },
         {
           "heading": "Alzheimer's Disease",
@@ -41707,6 +41707,7 @@
         "blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans",
         "nies-2025-flow-equilibrium-model-mis-metalation-zinc",
         "doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons",
+        "neuroinflammation",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "ahmed-2025-metals-alzheimers-mechanistic-review",
         "bakulski-2020-heavy-metals-alzheimers-dementias",
@@ -41807,12 +41808,12 @@
           "score": 100
         },
         {
-          "id": "cadmium",
-          "score": 74
-        },
-        {
           "id": "lead",
           "score": 73
+        },
+        {
+          "id": "cadmium",
+          "score": 72
         },
         {
           "id": "dysbiosis",
@@ -42588,7 +42589,7 @@
         {
           "heading": "Mechanism of Toxicity",
           "level": 3,
-          "body": "Mercury exerts toxicity through several converging pathways:\n\nThiol binding and glutathione depletion. Hg binds to GSH and sulfhydryl groups on proteins, depleting the cell's primary antioxidant defense. Hg conjugates GSH, inhibits glutathione peroxidase, and disrupts the entire thiol-dependent antioxidant network [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]], [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. In PCOS patients, serum mercury shows a strong negative correlation with GSH levels (P < 0.01), directly demonstrating this depletion mechanism in a clinical population [[abudawood-2021-antioxidant-heavy-metals-pcos]].\n\nROS generation. Beyond GSH depletion, Hg directly stimulates reactive oxygen species production, creating a dual assault on cellular redox balance [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]. [[heavy-metals]] collectively impair carbohydrate, lipid, and amino acid metabolism, with ROS as the central mediator [[akash-2023-metabolomics-heavy-metal-toxicities]].\n\nEnzyme inhibition. Hg inactivates enzymes through thiol binding, disrupting critical metabolic pathways. In the kidney, aquaporin mRNA is reduced, impairing water transport, and Na+/H+ exchangers and aquaporin-1 are inhibited in kidney tubules [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].\n\nNeuroinflammation and demyelination. Hg triggers glial reactivity, increases TNF, IL-1, IL-6, and generates autoantibodies against neuronal proteins. MeHg downregulates myelin basic protein (MBP) expression, contributing to axonal demyelination in the CNS [[blazewicz-2023-metal-profiles-asd]].\n\nCardiovascular damage. MeHg drives cardiovascular toxicity through ROS/lipid peroxidation, LDL oxidation, PLA2 activation, and inactivation of paraoxonase (PON), which reduces HDL's protective capacity. Perinatal MeHg exposure has been linked to hypertension onset in adolescence [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].\n\nHepatotoxicity. MeHg exposure alters bile acid metabolism and cholesterol pathways, with metabolomics revealing Hg-specific perturbations in the gut-liver axis [[akash-2023-metabolomics-heavy-metal-toxicities]].\n\nAutoimmune induction. Mercury exposure induces lupus-like syndrome in autoimmune-prone mice, altering B cell receptor signaling via SYK phosphorylation, reducing Bank1 expression, and increasing NF-kB and TLR-9 activation [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]].\n\nThyroid disruption. Mercury interferes with TSH production, inhibits thyroid peroxidase (TPO), and both MeHg and inorganic Hg compounds inhibit thyroglobulin (Tg) iodination -- the critical step in thyroid hormone synthesis [[brylinski-2025-trace-elements-thyroid-diseases]]."
+          "body": "Mercury exerts toxicity through several converging pathways:\n\nThiol binding and glutathione depletion. Hg binds to GSH and sulfhydryl groups on proteins, depleting the cell's primary antioxidant defense. Hg conjugates GSH, inhibits glutathione peroxidase, and disrupts the entire thiol-dependent antioxidant network [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]], [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. In PCOS patients, serum mercury shows a strong negative correlation with GSH levels (P < 0.01), directly demonstrating this depletion mechanism in a clinical population [[abudawood-2021-antioxidant-heavy-metals-pcos]].\n\nROS generation. Beyond GSH depletion, Hg directly stimulates reactive oxygen species production, creating a dual assault on cellular redox balance [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]. [[heavy-metals]] collectively impair carbohydrate, lipid, and amino acid metabolism, with ROS as the central mediator [[akash-2023-metabolomics-heavy-metal-toxicities]].\n\nEnzyme inhibition. Hg inactivates enzymes through thiol binding, disrupting critical metabolic pathways. In the kidney, aquaporin mRNA is reduced, impairing water transport, and Na+/H+ exchangers and aquaporin-1 are inhibited in kidney tubules [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].\n\n[[neuroinflammation|Neuroinflammation]] and demyelination. Hg triggers glial reactivity, increases TNF, IL-1, IL-6, and generates autoantibodies against neuronal proteins. MeHg downregulates myelin basic protein (MBP) expression, contributing to axonal demyelination in the CNS [[blazewicz-2023-metal-profiles-asd]].\n\nCardiovascular damage. MeHg drives cardiovascular toxicity through ROS/lipid peroxidation, LDL oxidation, PLA2 activation, and inactivation of paraoxonase (PON), which reduces HDL's protective capacity. Perinatal MeHg exposure has been linked to hypertension onset in adolescence [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].\n\nHepatotoxicity. MeHg exposure alters bile acid metabolism and cholesterol pathways, with metabolomics revealing Hg-specific perturbations in the gut-liver axis [[akash-2023-metabolomics-heavy-metal-toxicities]].\n\nAutoimmune induction. Mercury exposure induces lupus-like syndrome in autoimmune-prone mice, altering B cell receptor signaling via SYK phosphorylation, reducing Bank1 expression, and increasing NF-kB and TLR-9 activation [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]].\n\nThyroid disruption. Mercury interferes with TSH production, inhibits thyroid peroxidase (TPO), and both MeHg and inorganic Hg compounds inhibit thyroglobulin (Tg) iodination -- the critical step in thyroid hormone synthesis [[brylinski-2025-trace-elements-thyroid-diseases]]."
         },
         {
           "heading": "Dietary and Environmental Sources",
@@ -42742,6 +42743,7 @@
         "abudawood-2021-antioxidant-heavy-metals-pcos",
         "heavy-metals",
         "akash-2023-metabolomics-heavy-metal-toxicities",
+        "neuroinflammation",
         "blazewicz-2023-metal-profiles-asd",
         "nucera-2024-non-essential-heavy-metals-cvd-systematic-review",
         "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
@@ -44629,7 +44631,7 @@
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- [[metal-disease-matrix]] -- Cross-disease metallomic comparison; MS metal signature is thin but included\n- [[gut-metal-microbiome]] -- The primary pathway connecting metals to MS is through microbiome modulation\n- [[probiotics]] -- Strongest intervention evidence in this disease; multi-strain formulations improve EDSS\n- [[iron]] -- CNS iron accumulation in progressive MS; ferroptosis mechanisms\n- [[zinc]] -- Essential for oligodendrocyte function and remyelination\n- [[manganese]] -- TCA cycle enzyme cofactor; metabolic shift in MS T cells involves Mn pathways\n- [[nickel]] -- S. thermophilus is a Streptococcus species; metal homeostasis in Streptococci is relevant to understanding probiotic mechanisms\n- [[neurodegeneration]] -- progressive MS involves iron-driven neurodegeneration with ferroptosis in oligodendrocytes\n- gut microbiome -- MS microbiome shows reduced SCFA producers and enriched pro-inflammatory taxa\n- [[biomarkers]] -- EDSS, CSF neurofilaments, and brain iron on MRI as MS progression markers\n- [[indoles]] -- microbial indole derivatives activate astrocytic AhR, suppressing neuroinflammation; depleted in MS gut"
+          "body": "- [[metal-disease-matrix]] -- Cross-disease metallomic comparison; MS metal signature is thin but included\n- [[gut-metal-microbiome]] -- The primary pathway connecting metals to MS is through microbiome modulation\n- [[probiotics]] -- Strongest intervention evidence in this disease; multi-strain formulations improve EDSS\n- [[iron]] -- CNS iron accumulation in progressive MS; ferroptosis mechanisms\n- [[zinc]] -- Essential for oligodendrocyte function and remyelination\n- [[manganese]] -- TCA cycle enzyme cofactor; metabolic shift in MS T cells involves Mn pathways\n- [[nickel]] -- S. thermophilus is a Streptococcus species; metal homeostasis in Streptococci is relevant to understanding probiotic mechanisms\n- [[neurodegeneration]] -- progressive MS involves iron-driven neurodegeneration with ferroptosis in oligodendrocytes\n- gut microbiome -- MS microbiome shows reduced SCFA producers and enriched pro-inflammatory taxa\n- [[biomarkers]] -- EDSS, CSF neurofilaments, and brain iron on MRI as MS progression markers\n- [[indoles]] -- microbial indole derivatives activate astrocytic AhR, suppressing [[neuroinflammation]]; depleted in MS gut"
         },
         {
           "heading": "Additional Supporting Evidence",
@@ -44667,6 +44669,7 @@
         "neurodegeneration",
         "biomarkers",
         "indoles",
+        "neuroinflammation",
         "bhargava-2020-bile-acid-metabolism-ms-neuroinflammation",
         "butyrate",
         "becker-2021-scfas-intestinal-inflammation-ms-female-susceptibility",
@@ -44793,7 +44796,7 @@
           "score": 48
         },
         {
-          "id": "cadmium",
+          "id": "roseburia",
           "score": 42
         }
       ]
@@ -46395,7 +46398,7 @@
         {
           "heading": "Parkinson's Disease",
           "level": 3,
-          "body": "- Nickel exposure is associated with increased risk of [[parkinsons-disease]], with the [[gut-microbiome]] mediating part of the association [[ji-2025-nickel-exposure-parkinsons-microbiome]]. Nickel alters the abundance of specific bacterial taxa implicated in PD: pro-inflammatory Enterobacteriaceae are enriched while SCFA-producing commensals are depleted [[ji-2025-nickel-exposure-parkinsons-microbiome]].\n- Nickel-dependent bacterial enzymes (urease, hydrogenase) in gut pathogens contribute to dysbiosis and [[ammonia]]-mediated epithelial damage, compounding iron-driven [[ferroptosis]] in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. The nickel-microbiome-neurodegeneration axis represents a specific instance of the broader metal dyshomeostasis framework for PD, where metal exposure reshapes gut ecology which in turn drives neuroinflammation through the [[gut-brain-axis]] [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].\n- See [[nickel-neurotoxicity]] for details.\n\n---"
+          "body": "- Nickel exposure is associated with increased risk of [[parkinsons-disease]], with the [[gut-microbiome]] mediating part of the association [[ji-2025-nickel-exposure-parkinsons-microbiome]]. Nickel alters the abundance of specific bacterial taxa implicated in PD: pro-inflammatory Enterobacteriaceae are enriched while SCFA-producing commensals are depleted [[ji-2025-nickel-exposure-parkinsons-microbiome]].\n- Nickel-dependent bacterial enzymes (urease, hydrogenase) in gut pathogens contribute to dysbiosis and [[ammonia]]-mediated epithelial damage, compounding iron-driven [[ferroptosis]] in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. The nickel-microbiome-neurodegeneration axis represents a specific instance of the broader metal dyshomeostasis framework for PD, where metal exposure reshapes gut ecology which in turn drives [[neuroinflammation]] through the [[gut-brain-axis]] [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].\n- See [[nickel-neurotoxicity]] for details.\n\n---"
         },
         {
           "heading": "Reproductive and Developmental Toxicity",
@@ -46620,6 +46623,7 @@
         "ammonia",
         "ferroptosis",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+        "neuroinflammation",
         "gut-brain-axis",
         "pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic",
         "nickel-neurotoxicity",
@@ -50166,7 +50170,7 @@
         {
           "heading": "Metal-Driven Dysbiosis Cascade",
           "level": 3,
-          "body": "A multi-step causal framework links metals to PD through the gut [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]:\n\n1. Dietary/environmental metal exposure (Fe, Mn, Ni, Pb, Cd)\n2. Gut microbial metal stress -- selective pressure on microbiome\n3. Enrichment of metal-resistant pathobionts (Enterobacteriaceae, siderophore producers)\n4. Loss of SCFA-producing commensals (Prevotellaceae, Lachnospiraceae, Faecalibacterium)\n5. Impaired gut barrier -- reduced [[tight-junctions|tight junction]] integrity\n6. LPS/bacterial product translocation -- endotoxemia\n7. Systemic and neuroinflammation -- microglia activation, cytokine cascades\n8. Alpha-synuclein misfolding in enteric and central nervous system\n9. Ferroptotic dopaminergic neuron death"
+          "body": "A multi-step causal framework links metals to PD through the gut [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]:\n\n1. Dietary/environmental metal exposure (Fe, Mn, Ni, Pb, Cd)\n2. Gut microbial metal stress -- selective pressure on microbiome\n3. Enrichment of metal-resistant pathobionts (Enterobacteriaceae, siderophore producers)\n4. Loss of SCFA-producing commensals (Prevotellaceae, Lachnospiraceae, Faecalibacterium)\n5. Impaired gut barrier -- reduced [[tight-junctions|tight junction]] integrity\n6. LPS/bacterial product translocation -- endotoxemia\n7. Systemic and [[neuroinflammation]] -- microglia activation, cytokine cascades\n8. Alpha-synuclein misfolding in enteric and central nervous system\n9. Ferroptotic dopaminergic neuron death"
         },
         {
           "heading": "Nickel-Dependent Virulence in the PD Gut",
@@ -50234,6 +50238,7 @@
         "escherichia-coli",
         "alonso-garcia-2021-gut-microbiota-proteinopathies",
         "tight-junctions",
+        "neuroinflammation",
         "nickel",
         "urease",
         "hydrogenase",
@@ -50352,12 +50357,16 @@
           "score": 51
         },
         {
+          "id": "schizophrenia",
+          "score": 49
+        },
+        {
           "id": "faecalibacterium-prausnitzii",
           "score": 47
         },
         {
           "id": "schizophrenia",
-          "score": 47
+          "score": 46
         },
         {
           "id": "short-chain-fatty-acids",
@@ -50369,10 +50378,6 @@
         },
         {
           "id": "autism-spectrum-disorder",
-          "score": 44
-        },
-        {
-          "id": "schizophrenia",
           "score": 44
         },
         {
@@ -53302,7 +53307,7 @@
         "conditions_depleted_in": [],
         "pathogenic_potential": "commensal-turned-pathogen"
       },
-      "overview": "A Gram-negative obligate anaerobe and keystone pathogen of the oral microbiome that causes chronic periodontitis and is increasingly implicated in systemic diseases including [[alzheimers-disease]] and [[cardiovascular-disease]]. *P. gingivalis* virulence is fundamentally dependent on zinc, iron, and manganese, particularly for the expression and activity of its signature gingipains -- virulence proteases that directly link the oral pathobiont to neuroinflammation and atherosclerosis.",
+      "overview": "A Gram-negative obligate anaerobe and keystone pathogen of the oral microbiome that causes chronic periodontitis and is increasingly implicated in systemic diseases including [[alzheimers-disease]] and [[cardiovascular-disease]]. *P. gingivalis* virulence is fundamentally dependent on zinc, iron, and manganese, particularly for the expression and activity of its signature gingipains -- virulence proteases that directly link the oral pathobiont to [[neuroinflammation]] and atherosclerosis.",
       "sections": [
         {
           "heading": "Gingipains: Zinc-Dependent Virulence Proteases",
@@ -53398,6 +53403,7 @@
       "wikilinks": [
         "alzheimers-disease",
         "cardiovascular-disease",
+        "neuroinflammation",
         "calprotectin",
         "inflammation",
         "dysbiosis",
@@ -60162,6 +60168,7 @@
         "maternal-immune-activation",
         "mendelian-randomization",
         "n-acetyl-cysteine",
+        "neuroinflammation",
         "synbiotics",
         "viral-microbiota",
         "zonulin",
@@ -60185,11 +60192,11 @@
       "related": [
         {
           "id": "autism-spectrum-disorder",
-          "score": 39
+          "score": 41
         },
         {
           "id": "autism-spectrum-disorder",
-          "score": 38
+          "score": 40
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -60212,8 +60219,8 @@
           "score": 28
         },
         {
-          "id": "colorectal-cancer",
-          "score": 27
+          "id": "short-chain-fatty-acids",
+          "score": 28
         }
       ]
     },
@@ -69483,7 +69490,7 @@
         {
           "heading": "Autism Spectrum Disorder",
           "level": 3,
-          "body": "A primary pathology of ASD may be trace metal imbalance characterized by lack of zinc during brain development. Zinc is consistently decreased in hair of ASD children -- the most reproducible finding in ASD metallomics [[blazewicz-2023-metal-profiles-asd]].\n\n- Toxic metals (Pb, Hg, Cd) compete with Zn for protein binding sites on ~10% of the human proteome, creating functional zinc deficiency -- proposed as the unifying mechanism linking toxic metal exposure to ASD gut and brain pathology [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]].\n- 30-70% of children with ASD suffer GI disturbances; zinc deficiency produces overlapping gut pathologies with Hg, Cd, and Pb exposure: barrier dysfunction, increased permeability, gut inflammation, and microbiota dysbiosis [[ogrady-2025-metal-dyshomeostasis-asd]].\n- Meta-analytic confirmation: A 2024 meta-analysis (N = 706) confirmed significantly lower Zn in ASD children: MD = -6.707 (95% CI: -12.691, -0.722), p = 0.028, with moderate effect size (SMD = -0.498) [[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis]].\n- Metallome-ome cascade: Zn deficiency increases gut permeability, provokes IL-6 and GFAP-mediated inflammation, and may trigger [[nlrp3-inflammasome|NLRP3-driven]] neuroinflammation [[stanton-2021-metallome-omes-link-asd]].\n- Cu/Zn ratio elevation: Autistic individuals show significantly elevated plasma copper and Cu/Zn ratio. Copper decreased significantly after zinc therapy only in the GI disease subgroup, suggesting the gut is a critical site for copper-zinc competition [[russo-2011-copper-zinc-autism-gi-disease]].\n- Hair vs serum discrepancy: A 2025 Chinese hair study (N = 181) found no significant hair zinc difference in ASD vs controls (p = 0.663), contrasting with blood/serum studies and potentially reflecting matrix-specific differences or regional dietary variation [[zhou-2025-hair-heavy-metals-asd-severity]].\n- Prenatal zinc-copper rhythm disruption: Altered Zn-Cu rhythms in fetal and postnatal tissue (measured via tooth-matrix biomarkers) are linked to ASD; phthalate exposure may mediate this disruption [[bolte-2019-environmental-exposure-asd-etiology]]."
+          "body": "A primary pathology of ASD may be trace metal imbalance characterized by lack of zinc during brain development. Zinc is consistently decreased in hair of ASD children -- the most reproducible finding in ASD metallomics [[blazewicz-2023-metal-profiles-asd]].\n\n- Toxic metals (Pb, Hg, Cd) compete with Zn for protein binding sites on ~10% of the human proteome, creating functional zinc deficiency -- proposed as the unifying mechanism linking toxic metal exposure to ASD gut and brain pathology [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]].\n- 30-70% of children with ASD suffer GI disturbances; zinc deficiency produces overlapping gut pathologies with Hg, Cd, and Pb exposure: barrier dysfunction, increased permeability, gut inflammation, and microbiota dysbiosis [[ogrady-2025-metal-dyshomeostasis-asd]].\n- Meta-analytic confirmation: A 2024 meta-analysis (N = 706) confirmed significantly lower Zn in ASD children: MD = -6.707 (95% CI: -12.691, -0.722), p = 0.028, with moderate effect size (SMD = -0.498) [[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis]].\n- Metallome-ome cascade: Zn deficiency increases gut permeability, provokes IL-6 and GFAP-mediated inflammation, and may trigger [[nlrp3-inflammasome|NLRP3-driven]] [[neuroinflammation]] [[stanton-2021-metallome-omes-link-asd]].\n- Cu/Zn ratio elevation: Autistic individuals show significantly elevated plasma copper and Cu/Zn ratio. Copper decreased significantly after zinc therapy only in the GI disease subgroup, suggesting the gut is a critical site for copper-zinc competition [[russo-2011-copper-zinc-autism-gi-disease]].\n- Hair vs serum discrepancy: A 2025 Chinese hair study (N = 181) found no significant hair zinc difference in ASD vs controls (p = 0.663), contrasting with blood/serum studies and potentially reflecting matrix-specific differences or regional dietary variation [[zhou-2025-hair-heavy-metals-asd-severity]].\n- Prenatal zinc-copper rhythm disruption: Altered Zn-Cu rhythms in fetal and postnatal tissue (measured via tooth-matrix biomarkers) are linked to ASD; phthalate exposure may mediate this disruption [[bolte-2019-environmental-exposure-asd-etiology]]."
         },
         {
           "heading": "Type 2 Diabetes",
@@ -69612,6 +69619,7 @@
         "schilling-2020-urine-metallomics-pancreatic-cancer",
         "lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis",
         "nlrp3-inflammasome",
+        "neuroinflammation",
         "russo-2011-copper-zinc-autism-gi-disease",
         "zhou-2025-hair-heavy-metals-asd-severity",
         "bolte-2019-environmental-exposure-asd-etiology",
@@ -71084,6 +71092,7 @@
         "kynurenine-pathway",
         "microglia",
         "mitochondrial-dysfunction",
+        "neuroinflammation",
         "statins",
         "tau-phosphorylation",
         "tlr4",
@@ -71092,32 +71101,32 @@
       ],
       "related": [
         {
+          "id": "alzheimers-disease",
+          "score": 28
+        },
+        {
           "id": "amyloid-beta",
           "score": 27
         },
         {
-          "id": "alzheimers-disease",
-          "score": 26
-        },
-        {
           "id": "butyrate",
-          "score": 23
+          "score": 25
         },
         {
           "id": "neurodegeneration",
-          "score": 23
+          "score": 25
         },
         {
           "id": "inflammation",
-          "score": 22
+          "score": 24
         },
         {
           "id": "alzheimers-disease",
-          "score": 22
+          "score": 24
         },
         {
           "id": "oxidative-stress",
-          "score": 21
+          "score": 23
         },
         {
           "id": "parkinsons-disease-signature",
@@ -75437,6 +75446,7 @@
         "heavy-metal-neurotoxicity",
         "inflammation",
         "microglia",
+        "neuroinflammation",
         "p-cresol",
         "ruminococcaceae",
         "tryptophan",
@@ -75449,10 +75459,14 @@
       "related": [
         {
           "id": "inflammation",
-          "score": 25
+          "score": 27
         },
         {
           "id": "depression",
+          "score": 24
+        },
+        {
+          "id": "oxidative-stress",
           "score": 24
         },
         {
@@ -75464,20 +75478,16 @@
           "score": 23
         },
         {
-          "id": "oxidative-stress",
+          "id": "lead",
           "score": 22
+        },
+        {
+          "id": "alzheimers-disease",
+          "score": 21
         },
         {
           "id": "chronic-kidney-disease",
           "score": 20
-        },
-        {
-          "id": "lead",
-          "score": 20
-        },
-        {
-          "id": "alzheimers-disease",
-          "score": 19
         }
       ]
     },
@@ -75837,11 +75847,11 @@
       "related": [
         {
           "id": "gut-microbiome",
-          "score": 236
+          "score": 238
         },
         {
           "id": "iron",
-          "score": 191
+          "score": 189
         },
         {
           "id": "oxidative-stress",
@@ -75849,7 +75859,7 @@
         },
         {
           "id": "cadmium",
-          "score": 132
+          "score": 130
         },
         {
           "id": "lead",
@@ -81687,11 +81697,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 311
+          "score": 309
         },
         {
           "id": "cadmium",
-          "score": 211
+          "score": 209
         },
         {
           "id": "nickel",
@@ -85062,6 +85072,10 @@
           "score": 16
         },
         {
+          "id": "neuroinflammation",
+          "score": 16
+        },
+        {
           "id": "metallomics",
           "score": 15
         },
@@ -85075,10 +85089,6 @@
         },
         {
           "id": "inflammatory-bowel-disease",
-          "score": 14
-        },
-        {
-          "id": "iron",
           "score": 14
         }
       ]
@@ -86074,11 +86084,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 117
+          "score": 115
         },
         {
           "id": "gut-microbiome",
-          "score": 70
+          "score": 72
         },
         {
           "id": "nutritional-immunity",
@@ -86090,7 +86100,7 @@
         },
         {
           "id": "cadmium",
-          "score": 61
+          "score": 59
         },
         {
           "id": "parkinsons-disease",
@@ -87925,7 +87935,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 82
+          "score": 80
         },
         {
           "id": "parkinsons-disease",
@@ -88469,7 +88479,7 @@
         {
           "heading": "The Gut-Brain Axis Connection",
           "level": 2,
-          "body": "The gut-metal-microbiome interaction extends to the central nervous system through the gut-brain axis:\n\n- Neurotransmitter production: Gut microbiota produce serotonin (5-HT), dopamine, GABA, and norepinephrine; metal-induced dysbiosis disrupts this production\n- SCFA signaling: SCFAs activate free fatty acid receptors (FFARs) and tryptophan hydroxylase (TPH1) for 5-HT production, influencing the neuroendocrine-HPA axis\n- Neuroinflammation: LPS translocation from a compromised gut activates microglia and drives neuroinflammation\n- Alpha-synuclein propagation: In Parkinson's disease, metal-induced gut dysbiosis may promote alpha-synuclein aggregation in the enteric nervous system, with subsequent vagal nerve transmission to the brain (Braak hypothesis)\n- Autism spectrum disorders: 30-70% of children with ASD have GI disturbances; metal-induced microbiome disruption and zinc displacement may contribute through the gut-brain axis"
+          "body": "The gut-metal-microbiome interaction extends to the central nervous system through the gut-brain axis:\n\n- Neurotransmitter production: Gut microbiota produce serotonin (5-HT), dopamine, GABA, and norepinephrine; metal-induced dysbiosis disrupts this production\n- SCFA signaling: SCFAs activate free fatty acid receptors (FFARs) and tryptophan hydroxylase (TPH1) for 5-HT production, influencing the neuroendocrine-HPA axis\n- [[neuroinflammation|Neuroinflammation]]: LPS translocation from a compromised gut activates microglia and drives neuroinflammation\n- Alpha-synuclein propagation: In Parkinson's disease, metal-induced gut dysbiosis may promote alpha-synuclein aggregation in the enteric nervous system, with subsequent vagal nerve transmission to the brain (Braak hypothesis)\n- Autism spectrum disorders: 30-70% of children with ASD have GI disturbances; metal-induced microbiome disruption and zinc displacement may contribute through the gut-brain axis"
         },
         {
           "heading": "Probiotic Protective Strategies",
@@ -88526,6 +88536,7 @@
         "tight-junctions",
         "nlrp3-inflammasome",
         "ghosh-2023-heavy-metals-gut-barrier-integrity",
+        "neuroinflammation",
         "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
         "zhu-2024-toxic-essential-metals-gut-microbiota",
         "li-2019-heavy-metal-metabolic-health-gut-microbiome",
@@ -88806,7 +88817,7 @@
         {
           "heading": "Restoration Strategies",
           "level": 2,
-          "body": "Probiotics: Live beneficial microorganisms with documented health effects. *Lactobacillus* and *Bifidobacterium* strains are most studied; newer candidates include *Akkermansia muciniphila*, *Faecalibacterium prausnitzii*, and *Christensenella minuta*. Probiotic efficacy is strain-specific and context-specific — general supplementation is insufficient; matching strain to functional deficit is necessary [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].\n\nPrebiotics: Non-digestible substrates that selectively feed beneficial taxa. Inulin, FOS, resistant starch, and pectins selectively feed Bifidobacterium and Lachnospiraceae, increasing butyrate production. Galactooligosaccharides (GOS) have shown effects on both gut microbiome and behavior in children [[alonso-garcia-2021-gut-microbiota-proteinopathies]].\n\nFecal microbiota transplant (FMT): Transfer of a complete fecal community from a healthy donor. Highly effective for recurrent *C. difficile* infection; evidence building for IBD, metabolic syndrome, and neurodegenerative disease. FMT from young mice to aged mice reduces neuroinflammation and improves cognitive performance — suggesting systemic aging effects are partly microbiome-mediated [[alonso-garcia-2021-gut-microbiota-proteinopathies]].\n\nDietary modification: The most powerful long-term intervention. A high-fiber, plant-diverse diet shifts the microbiome toward SCFA producers within days; Mediterranean diet adherence is associated with higher Faecalibacterium and Bifidobacterium and lower TMAO producers [[zhang-2025-gut-microbiota-cvd-mini-review]]."
+          "body": "Probiotics: Live beneficial microorganisms with documented health effects. *Lactobacillus* and *Bifidobacterium* strains are most studied; newer candidates include *Akkermansia muciniphila*, *Faecalibacterium prausnitzii*, and *Christensenella minuta*. Probiotic efficacy is strain-specific and context-specific — general supplementation is insufficient; matching strain to functional deficit is necessary [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].\n\nPrebiotics: Non-digestible substrates that selectively feed beneficial taxa. Inulin, FOS, resistant starch, and pectins selectively feed Bifidobacterium and Lachnospiraceae, increasing butyrate production. Galactooligosaccharides (GOS) have shown effects on both gut microbiome and behavior in children [[alonso-garcia-2021-gut-microbiota-proteinopathies]].\n\nFecal microbiota transplant (FMT): Transfer of a complete fecal community from a healthy donor. Highly effective for recurrent *C. difficile* infection; evidence building for IBD, metabolic syndrome, and neurodegenerative disease. FMT from young mice to aged mice reduces [[neuroinflammation]] and improves cognitive performance — suggesting systemic aging effects are partly microbiome-mediated [[alonso-garcia-2021-gut-microbiota-proteinopathies]].\n\nDietary modification: The most powerful long-term intervention. A high-fiber, plant-diverse diet shifts the microbiome toward SCFA producers within days; Mediterranean diet adherence is associated with higher Faecalibacterium and Bifidobacterium and lower TMAO producers [[zhang-2025-gut-microbiota-cvd-mini-review]]."
         },
         {
           "heading": "Key Sources",
@@ -88850,6 +88861,7 @@
         "urease",
         "hydrogenase",
         "inflammation",
+        "neuroinflammation",
         "luqman-2024-intestinal-microbiome-cvd-intervention",
         "nutritional-immunity",
         "gut-brain-axis",
@@ -89050,6 +89062,7 @@
         "mitochondrial-dysfunction",
         "mycobiome",
         "n-acetyl-cysteine",
+        "neuroinflammation",
         "oral-microbiome",
         "outer-membrane",
         "oxalate",
@@ -89097,7 +89110,7 @@
         },
         {
           "id": "lead",
-          "score": 138
+          "score": 140
         },
         {
           "id": "nickel",
@@ -90590,7 +90603,7 @@
       "related": [
         {
           "id": "gut-microbiome",
-          "score": 133
+          "score": 135
         },
         {
           "id": "butyrate",
@@ -90613,11 +90626,11 @@
           "score": 49
         },
         {
-          "id": "autism-spectrum-disorder",
-          "score": 42
+          "id": "neuroinflammation",
+          "score": 47
         },
         {
-          "id": "roseburia",
+          "id": "autism-spectrum-disorder",
           "score": 42
         }
       ]
@@ -94683,7 +94696,7 @@
         {
           "heading": "Microglial Activation",
           "level": 3,
-          "body": "- In the CNS, metals activate microglia -- the brain's resident immune cells -- through ROS, NF-kB, and pattern recognition receptor signaling [[gao-2023-microglia-neurodegenerative-diseases]].\n- Activated microglia release pro-inflammatory cytokines, ROS, and reactive nitrogen species that damage neurons.\n- Metal-activated microglia adopt a pro-inflammatory M1 phenotype resistant to switching back to the anti-inflammatory M2 state.\n- LPS from gut dysbiosis crosses the [[blood-brain-barrier]] and activates microglia via TLR4, linking gut inflammation to neuroinflammation.\n- In Parkinson's disease, microglial activation drives dopaminergic neuron loss in the substantia nigra [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- In Alzheimer's disease, microglial activation promotes amyloid-beta aggregation and tau phosphorylation."
+          "body": "- In the CNS, metals activate microglia -- the brain's resident immune cells -- through ROS, NF-kB, and pattern recognition receptor signaling [[gao-2023-microglia-neurodegenerative-diseases]].\n- Activated microglia release pro-inflammatory cytokines, ROS, and reactive nitrogen species that damage neurons.\n- Metal-activated microglia adopt a pro-inflammatory M1 phenotype resistant to switching back to the anti-inflammatory M2 state.\n- LPS from gut dysbiosis crosses the [[blood-brain-barrier]] and activates microglia via TLR4, linking gut inflammation to [[neuroinflammation]].\n- In Parkinson's disease, microglial activation drives dopaminergic neuron loss in the substantia nigra [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- In Alzheimer's disease, microglial activation promotes amyloid-beta aggregation and tau phosphorylation."
         },
         {
           "heading": "Indirect Metal-Driven Inflammation",
@@ -94773,6 +94786,7 @@
         "kravchenko-2023-thyroid-hormones-minerals-aitd",
         "gao-2023-microglia-neurodegenerative-diseases",
         "blood-brain-barrier",
+        "neuroinflammation",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
         "tight-junctions",
@@ -95099,11 +95113,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 294
+          "score": 292
         },
         {
           "id": "gut-microbiome",
-          "score": 240
+          "score": 242
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -103315,6 +103329,7 @@
         "endotoxemia",
         "gut-barrier-dysfunction",
         "interleukin-6",
+        "neuroinflammation",
         "quinolinic-acid",
         "tau-phosphorylation",
         "tnf-alpha",
@@ -103323,31 +103338,31 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 27
+          "score": 29
         },
         {
           "id": "inflammation",
-          "score": 26
+          "score": 28
         },
         {
           "id": "alzheimers-disease",
-          "score": 20
+          "score": 22
         },
         {
           "id": "lead",
-          "score": 18
+          "score": 20
         },
         {
           "id": "neurodegeneration",
-          "score": 17
+          "score": 19
         },
         {
           "id": "alzheimers-disease",
-          "score": 16
+          "score": 18
         },
         {
           "id": "parkinsons-disease",
-          "score": 15
+          "score": 17
         },
         {
           "id": "depression",
@@ -103933,6 +103948,10 @@
           "score": 17
         },
         {
+          "id": "neuroinflammation",
+          "score": 17
+        },
+        {
           "id": "depression",
           "score": 16
         },
@@ -103947,10 +103966,6 @@
         {
           "id": "epigenetics",
           "score": 15
-        },
-        {
-          "id": "dysbiosis",
-          "score": 14
         }
       ]
     },
@@ -104729,12 +104744,13 @@
         "multiple-sclerosis",
         "parkinsons-disease",
         "blood-brain-barrier",
-        "mitochondrial-dysfunction"
+        "mitochondrial-dysfunction",
+        "neuroinflammation"
       ],
       "related": [
         {
           "id": "alzheimers-disease",
-          "score": 52
+          "score": 54
         },
         {
           "id": "alzheimers-disease-signature",
@@ -104742,7 +104758,7 @@
         },
         {
           "id": "parkinsons-disease",
-          "score": 46
+          "score": 48
         },
         {
           "id": "parkinsons-disease-signature",
@@ -104754,15 +104770,15 @@
         },
         {
           "id": "alzheimers-disease",
-          "score": 30
+          "score": 32
+        },
+        {
+          "id": "neuroinflammation",
+          "score": 31
         },
         {
           "id": "tau-phosphorylation",
           "score": 27
-        },
-        {
-          "id": "alpha-synuclein",
-          "score": 23
         }
       ]
     },
@@ -104774,25 +104790,27 @@
       "tags": [
         "neuroinflammation",
         "microglia",
+        "astrocytes",
         "blood-brain-barrier",
         "cytokines",
-        "LPS",
-        "neurodegeneration",
         "gut-brain-axis",
+        "neurodegeneration",
         "metals",
-        "NF-kB",
-        "M1-M2-polarization"
+        "evidence-interpretation"
       ],
       "sources": [
         "gao-2023-microglia-neurodegenerative-diseases",
-        "ahmed-2025-metals-alzheimers-mechanistic-review",
-        "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+        "spencer-2018-vascular-pathology-ms-blood-brain-barrier",
+        "martinelli-2022-gut-oriented-interventions-ms",
+        "bhargava-2020-bile-acid-metabolism-ms-neuroinflammation",
         "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
         "tizabi-2023-lead-gut-microbiota-asd",
         "zhou-2025-gut-microbiota-immune-nervous-system-asd",
         "arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd",
-        "spencer-2018-vascular-pathology-ms-blood-brain-barrier",
-        "martinelli-2022-gut-oriented-interventions-ms"
+        "ahmed-2025-metals-alzheimers-mechanistic-review",
+        "chin-chan-2015-environmental-pollutants-ad-pd",
+        "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+        "comer-2020-inflamed-brain-schizophrenia-neuroinflammation"
       ],
       "created": "2026-04-09T00:00:00.000Z",
       "updated": "2026-09-07T00:00:00.000Z",
@@ -104801,151 +104819,154 @@
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
         "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "sources": [
           "gao-2023-microglia-neurodegenerative-diseases",
-          "ahmed-2025-metals-alzheimers-mechanistic-review",
-          "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+          "spencer-2018-vascular-pathology-ms-blood-brain-barrier",
+          "martinelli-2022-gut-oriented-interventions-ms",
+          "bhargava-2020-bile-acid-metabolism-ms-neuroinflammation",
           "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
           "tizabi-2023-lead-gut-microbiota-asd",
           "zhou-2025-gut-microbiota-immune-nervous-system-asd",
           "arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd",
-          "spencer-2018-vascular-pathology-ms-blood-brain-barrier",
-          "martinelli-2022-gut-oriented-interventions-ms"
+          "ahmed-2025-metals-alzheimers-mechanistic-review",
+          "chin-chan-2015-environmental-pollutants-ad-pd",
+          "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+          "comer-2020-inflamed-brain-schizophrenia-neuroinflammation"
         ],
-        "source_count": 9,
+        "source_count": 12,
         "tags": [
           "neuroinflammation",
           "microglia",
+          "astrocytes",
           "blood-brain-barrier",
           "cytokines",
-          "LPS",
-          "neurodegeneration",
           "gut-brain-axis",
+          "neurodegeneration",
           "metals",
-          "NF-kB",
-          "M1-M2-polarization"
+          "evidence-interpretation"
         ],
         "platform": "wikibiome",
         "karen_brain_primitives": [
           1,
           3
         ],
-        "seo_target": "neuroinflammation microbiome",
-        "last_substantive_update": "2026-09-07T00:00:00.000Z"
+        "seo_target": "neuroinflammation microglia gut brain axis metals"
       },
-      "overview": "Chronic inflammatory activation within the central nervous system, driven by microglia, astrocytes, and infiltrating peripheral immune cells. Neuroinflammation is a convergent pathological mechanism across [[alzheimers-disease]], [[parkinsons-disease]], [[multiple-sclerosis]], and [[autism-spectrum-disorder]], and represents the brain-side consequence of the [[gut-brain-axis]] disruption that metals produce.",
+      "overview": "**Neuroinflammation** is an immune response within the central nervous system (CNS)—the brain and spinal cord. It involves changing states of [[microglia]], astrocytes, cells of the neurovascular unit, and, in some settings, immune cells recruited from the circulation. The response can help contain injury and clear damaged material, but persistent or dysregulated activity can also impair synapses, myelin, or neurons [[gao-2023-microglia-neurodegenerative-diseases]] [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]].\n\nThe term does not mean every rise in a blood inflammatory marker is inflammation in the brain. It is also not interchangeable with microglial activation, [[systemic-inflammation]], or [[neurodegeneration]]. Those processes can overlap, but evidence for one does not by itself establish the others [[gao-2023-microglia-neurodegenerative-diseases]] [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]].",
       "sections": [
         {
-          "heading": "Cellular Mediators",
+          "heading": "What Counts as Neuroinflammation",
+          "level": 2,
+          "body": "Neuroinflammation is a tissue response rather than a single molecule or test result. Stronger evidence comes from measurements within the CNS—such as brain or spinal-cord tissue, cerebrospinal fluid, CNS-focused imaging, or a convergent set of central markers. Circulating cytokines, gut-microbiome differences, or an inflammatory diagnosis can support a pathway hypothesis, but they are indirect proxies unless a central response is also demonstrated [[gao-2023-microglia-neurodegenerative-diseases]] [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]].\n\nThree distinctions prevent the term from becoming too broad:\n\n- **Protective versus damaging:** microglia can clear debris and abnormal proteins, yet prolonged or poorly regulated responses can amplify tissue injury [[gao-2023-microglia-neurodegenerative-diseases]].\n- **Acute versus persistent:** a short response to infection or injury is biologically different from a self-sustaining inflammatory state in chronic disease [[gao-2023-microglia-neurodegenerative-diseases]].\n- **Central versus peripheral:** blood cytokines and systemic immune activation can influence the CNS, but they are not themselves proof of inflammation inside CNS tissue [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]]."
+        },
+        {
+          "heading": "Cells and Tissue Interfaces",
           "level": 2,
           "body": ""
         },
         {
           "heading": "Microglia",
           "level": 3,
-          "body": "- The CNS-resident macrophages; constitute 5-12% of brain cells.\n- Exist on a polarization spectrum: M1 (pro-inflammatory) produces TNF-alpha, IL-1beta, IL-6, ROS, and reactive nitrogen species; M2 (anti-inflammatory) produces IL-10, TGF-beta, and neurotrophic factors.\n- [[heavy-metals]] (Pb, Hg, Mn, Cd, Al) activate microglia toward a persistent M1 phenotype via ROS, NF-kB, and pattern recognition receptor signaling [[gao-2023-microglia-neurodegenerative-diseases]].\n- Metal-activated microglia are resistant to switching back to the M2 state, creating chronic neuroinflammation that outlasts the initial insult."
+          "body": "Microglia are the CNS-resident immune cells that survey their local environment, remove debris, remodel synapses, and respond to infection or injury. Single-cell studies show that reactive microglia occupy diverse, time- and region-dependent states. The familiar “M1” and “M2” labels can be useful experimental shorthand for selected pro-inflammatory and repair-associated markers, but they do not describe two fixed cell types or the full range of human microglial biology [[gao-2023-microglia-neurodegenerative-diseases]].\n\nMicroglial effects are context-dependent. Around protein aggregates, some states support clearance, whereas others release inflammatory mediators, activate the [[nlrp3-inflammasome]], or promote pathological protein spread. The direction can change with disease stage, anatomical region, genetics, and signals from infiltrating immune cells [[gao-2023-microglia-neurodegenerative-diseases]]."
         },
         {
-          "heading": "Astrocytes",
+          "heading": "Astrocytes and the Neurovascular Unit",
           "level": 3,
-          "body": "- Reactive astrocytosis amplifies neuroinflammation via cytokine release and impaired glutamate clearance.\n- Mn accumulates preferentially in astrocytes, disrupting glutamate-glutamine cycling and producing excitotoxicity."
+          "body": "Astrocytes regulate neurotransmitter handling, metabolic support, and the environment surrounding neurons and blood vessels. In multiple-sclerosis tissue and experimental models, astrocyte and microglial states respond to bile-acid receptor signaling, illustrating that glial inflammation is shaped by metabolic as well as immune inputs [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]].\n\nThe [[blood-brain-barrier]] is a multicellular interface formed by vascular endothelial cells, supporting cells, basement membranes, and glial end-feet. Loss of endothelial [[tight-junctions|tight junction integrity]] can allow more circulating mediators and immune cells to influence CNS tissue. In multiple sclerosis, barrier disruption can appear early, although whether it initiates lesions or partly reflects ongoing inflammation remains unsettled [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]]."
         },
         {
-          "heading": "Blood-Brain Barrier (BBB) Disruption",
-          "level": 3,
-          "body": "- The BBB normally restricts peripheral immune cell and toxin entry to the brain.\n- [[lead]], [[cadmium]], and [[mercury]] directly damage BBB [[tight-junctions|tight junction]] proteins, increasing paracellular permeability [[ahmed-2025-metals-alzheimers-mechanistic-review]].\n- BBB disruption permits entry of peripheral inflammatory mediators, LPS, metals, and immune cells, amplifying central [[inflammation]].\n- TMAO crosses the BBB and promotes neuroinflammation in [[alzheimers-disease]] [[khatoon-2023-gut-microbiota-neurodegenerative]]."
-        },
-        {
-          "heading": "Gut-Brain Axis Origins of Neuroinflammation",
+          "heading": "How Peripheral and Gut Signals Reach the CNS",
           "level": 2,
-          "body": "The [[gut-brain-axis]] provides a major pathway by which peripheral events drive brain inflammation:"
+          "body": "The [[gut-brain-axis]] offers several routes by which intestinal events may alter CNS immune activity. These routes should be separated rather than compressed into a single “leaky gut causes brain inflammation” claim.\n\n1. **Barrier and vascular signaling:** microbial products and circulating cytokines can activate vascular or immune signaling at CNS interfaces; altered barrier integrity may increase their influence [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]] [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]].\n2. **Immune-cell trafficking:** intestinal immune programs can affect circulating T-cell populations. A review of multiple-sclerosis evidence describes intestine-associated Th17 responses as one route into CNS autoimmunity, while emphasizing that human intervention evidence remains limited [[martinelli-2022-gut-oriented-interventions-ms]].\n3. **Microbial metabolites:** [[short-chain-fatty-acids]], bile acids, and tryptophan-derived molecules can modify barrier, immune, and glial signaling. Their effects depend on molecule, concentration, receptor, and disease model; they are not uniformly anti-inflammatory [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]] [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].\n4. **Neural signaling:** vagal and enteric pathways can transmit physiological information without requiring a bacterium or metabolite to enter brain tissue. Reviews of autism and Parkinson’s-related models treat this as one route among several, not proof that a gut change caused a CNS lesion [[zhou-2025-gut-microbiota-immune-nervous-system-asd]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n\nGut [[dysbiosis]] is therefore a possible upstream contributor, not a synonym for neuroinflammation. A microbiome association becomes a mechanistic claim only when the intervening barrier, immune, metabolic, or neural steps are supported [[martinelli-2022-gut-oriented-interventions-ms]] [[zhou-2025-gut-microbiota-immune-nervous-system-asd]]."
         },
         {
-          "heading": "LPS Translocation Pathway",
-          "level": 3,
-          "body": "1. Metal-induced [[dysbiosis]] enriches gram-negative, LPS-producing Enterobacteriaceae.\n2. Loss of [[short-chain-fatty-acids]] ([[butyrate]]) compromises gut barrier integrity.\n3. LPS translocates into systemic circulation (\"metabolic endotoxemia\").\n4. Circulating LPS activates microglia via TLR4/[[nf-kappa-b]] signaling [[gao-2023-microglia-neurodegenerative-diseases]].\n5. Activated microglia release neurotoxic mediators, damaging neurons."
-        },
-        {
-          "heading": "Vagal Signaling",
-          "level": 3,
-          "body": "- The vagus nerve transmits gut inflammatory signals directly to brainstem nuclei.\n- Alpha-synuclein aggregation may propagate from the enteric nervous system to the substantia nigra via the vagus nerve (Braak hypothesis in [[parkinsons-disease]]) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
-        },
-        {
-          "heading": "Cytokine Trafficking",
-          "level": 3,
-          "body": "- Peripheral pro-inflammatory cytokines (IL-6, TNF-alpha, IL-1beta) produced by gut immune activation cross the BBB at circumventricular organs and activate central immune responses."
-        },
-        {
-          "heading": "Metal-Driven Neuroinflammation",
+          "heading": "Metals and Neuroinflammatory Pathways",
           "level": 2,
-          "body": "Each neurotoxic metal has a distinct neuroinflammatory profile:\n\n| Metal | Primary Mechanism | Disease Association |\n|---|---|---|\n| [[lead]] | BBB disruption, calcium mimicry, epigenetic reprogramming | [[alzheimers-disease]], [[autism-spectrum-disorder]] |\n| [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |\n| [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |\n| [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |\n| [[aluminum]] | Inflammasome and NF-kB activation | AD (controversial) |\n| [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |\n\nFor aluminum, the proposed neuroinflammatory profile includes [[nlrp3-inflammasome|NLRP3 inflammasome]] and NF-kB activation, although its association with Alzheimer's disease remains controversial [[ahmed-2025-metals-alzheimers-mechanistic-review]]. More broadly, these metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in inflammation."
+          "body": "Metals can intersect with CNS inflammation directly through neural or vascular exposure and indirectly through systemic or microbial pathways. Experimental studies reviewed for arsenic, manganese, lead, and cadmium report overlapping effects involving [[oxidative-stress]], mitochondrial or autophagic dysfunction, protein aggregation, and barrier injury. Most of those findings come from cell or animal models and should not be read as proof that a measured human metal concentration caused neuroinflammation [[ahmed-2025-metals-alzheimers-mechanistic-review]].\n\nBroader environmental literature links [[lead]], [[mercury]], arsenic, [[manganese]], and other [[heavy-metals|pollutant metals]] to processes relevant to Alzheimer’s or Parkinson’s disease, including altered protein handling, redox stress, and developmental epigenetic effects. Exposure timing, chemical form, dose, and tissue distribution matter, and the reviewed evidence mixes epidemiological observations with experimental models [[chin-chan-2015-environmental-pollutants-ad-pd]].\n\nAn additional WikiBiome hypothesis is ecological: metal exposure may reshape the [[gut-microbiome]], weaken metabolite and barrier functions, and thereby alter signals reaching the brain. The vault’s Parkinson’s framework integrates that proposed chain with [[ferroptosis]] and [[alpha-synuclein]] biology, but it is a founder-authored conference synthesis rather than an independently validated causal model [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
         },
         {
-          "heading": "Disease-Specific Neuroinflammatory Patterns",
+          "heading": "Disease Contexts",
           "level": 2,
-          "body": "- Alzheimer's disease: Microglial activation around amyloid plaques; bacterial amyloids (curli from E. coli) cross-seed A-beta aggregation; LPS enhances A-beta fibrillization [[ahmed-2025-metals-alzheimers-mechanistic-review]].\n- Parkinson's disease: Iron accumulation in substantia nigra drives ferroptotic neuroinflammation; gut-origin alpha-synuclein propagation via vagus nerve [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- Multiple sclerosis: Th17 cells originating in the intestine drive CNS autoimmunity; BBB disruption permits immune cell infiltration and demyelination [[martinelli-2022-gut-oriented-interventions-ms]].\n- Autism spectrum disorder: Elevated pro-inflammatory cytokines (IL-6, TNF-alpha) in CSF and brain; maternal immune activation during pregnancy as risk factor; altered [[tryptophan-metabolism]] reduces AhR-mediated neuroprotection [[zhou-2025-gut-microbiota-immune-nervous-system-asd]]."
+          "body": "| Context | What the cited evidence supports | Important boundary |\n|---|---|---|\n| [[alzheimers-disease]] | Microglial states can participate in aggregate clearance or inflammatory amplification; metal-exposure models converge on several Alzheimer-relevant pathways [[gao-2023-microglia-neurodegenerative-diseases]] [[ahmed-2025-metals-alzheimers-mechanistic-review]] | Neuroinflammation is one component of a multifactorial disease, not a stand-alone diagnosis or proven single cause. |\n| [[parkinsons-disease]] | Reactive microglia, inflammasome activity, peripheral immune input, and alpha-synuclein-related signaling are studied as interacting mechanisms [[gao-2023-microglia-neurodegenerative-diseases]] | The relative contribution of gut, metal, immune, and protein-aggregation pathways remains unresolved. |\n| [[multiple-sclerosis]] | Early barrier change, immune-cell entry, glial activation, and altered bile-acid signaling connect vascular, immune, and metabolic evidence [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]] [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]] | Human metabolomic associations and EAE treatment effects are different evidence layers. |\n| [[autism-spectrum-disorder]] | Reviews describe altered cytokines, immune-cell balance, microglial findings, gut-brain signaling, and lead-related experimental pathways [[tizabi-2023-lead-gut-microbiota-asd]] [[zhou-2025-gut-microbiota-immune-nervous-system-asd]] | Heterogeneous findings do not establish neuroinflammation as a universal cause of autism. |\n| [[schizophrenia]] | Genetic immune signals, environmental exposures, microglial function, barrier abnormalities, and gut-brain hypotheses converge in a neuroinflammatory framework [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]] | A framework built from several evidence types is not a single validated biomarker. |"
         },
         {
-          "heading": "Therapeutic Approaches",
+          "heading": "What Intervention Studies Establish",
           "level": 2,
-          "body": "- Sodium butyrate: Reduces microglial activation, shifts M1-to-M2 polarization, attenuates neuroinflammation after cardiac arrest [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].\n- Iron chelation (deferiprone): Reduces ferroptotic neuroinflammation in AD and PD.\n- AhR ligands: Microbial indole derivatives activate AhR on astrocytes, suppressing neuroinflammation -- therapeutic in MS models.\n- Probiotics: Bifidobacterium breve A1 improved cognition in AD patients, potentially via neuroinflammation reduction."
+          "body": "Preclinical intervention results can test mechanisms without establishing clinical treatment. In a mouse cardiac-arrest model, sodium [[butyrate]] altered gut measures, TLR4/MyD88/[[nf-kappa-b|NF-kB]] signaling, microglial marker patterns, and neurological outcomes. That experiment supports pathway plausibility in that model; it does not establish butyrate as a general treatment for neuroinflammatory disease [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].\n\nIn multiple sclerosis research, human metabolomics identified altered bile-acid profiles, while cell and EAE experiments found that TUDCA affected astrocyte and microglial states through GPBAR1. The study links a human association to experimental mechanism, but the disease-modifying effect was demonstrated in a model rather than a therapeutic trial in people with MS [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]].\n\nA review of small randomized trials of immunoregulatory or anti-inflammatory agents in autism reported some symptom signals and mixed findings, with short follow-up and small samples limiting inference. Those trials do not make neuroinflammation a diagnostic test for autism or show that one inflammatory mechanism explains all participants [[arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd]]."
         },
         {
-          "heading": "Key Sources",
+          "heading": "Reading the Evidence",
           "level": 2,
-          "body": "- [[tizabi-2023-lead-gut-microbiota-asd]]\n- [[arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd]]\n- [[spencer-2018-vascular-pathology-ms-blood-brain-barrier]]"
+          "body": "When a study uses the word *neuroinflammation*, ask:\n\n- Was the signal measured in brain or spinal-cord tissue, cerebrospinal fluid, CNS-focused imaging, blood, or stool?\n- Does the marker identify an inflammatory cell state, or only a correlated molecule?\n- Is the study in people, an animal model, cultured cells, or a review integrating several layers?\n- Was the response protective, damaging, or different at separate disease stages?\n- Does an intervention modify a pathway marker, a clinical outcome, or both?\n\nThese questions matter because neuroinflammation is a dynamic response shared by many conditions, not a single disease, biomarker, or treatment target with one meaning [[gao-2023-microglia-neurodegenerative-diseases]]."
         },
         {
           "heading": "Connections",
           "level": 2,
-          "body": "- inflammation -- neuroinflammation is the CNS manifestation of the broader metal-driven inflammatory response\n- [[gut-brain-axis]] -- the primary route by which peripheral dysbiosis drives brain inflammation\n- [[ferroptosis]] -- iron-dependent lipid peroxidation as a neuroinflammatory cell death mechanism\n- [[short-chain-fatty-acids]] -- butyrate depletion removes anti-neuroinflammatory brake\n- [[nf-kappa-b]] -- central signaling hub activated by both metals and LPS in microglia\n- [[tryptophan-metabolism]] -- AhR ligand depletion removes neuroprotective signaling\n- oxidative stress -- ROS generation drives and amplifies microglial activation"
+          "body": "- [[inflammation]] — the broader biological response; central and peripheral inflammation must be distinguished\n- [[microglia]] — resident CNS immune cells with diverse, context-dependent states\n- [[blood-brain-barrier]] — neurovascular interface regulating exchange between blood and CNS tissue\n- [[gut-brain-axis]] — immune, metabolic, vascular, and neural communication routes\n- [[nlrp3-inflammasome]] — one inflammatory signaling complex studied in reactive microglia\n- [[oxidative-stress]] — an interacting process that can both provoke and result from inflammatory signaling\n- [[ferroptosis]] — iron-dependent lipid-peroxidation cell death, not a synonym for neuroinflammation\n- [[short-chain-fatty-acids]] — microbial metabolites with context-dependent barrier and immune effects\n- [[tryptophan-metabolism]] — source of immune- and neuroactive metabolites\n- [[neurodegeneration]] — neuronal dysfunction or loss that may precede, accompany, or follow inflammation"
         }
       ],
       "wikilinks": [
+        "microglia",
+        "gao-2023-microglia-neurodegenerative-diseases",
+        "spencer-2018-vascular-pathology-ms-blood-brain-barrier",
+        "systemic-inflammation",
+        "neurodegeneration",
+        "comer-2020-inflamed-brain-schizophrenia-neuroinflammation",
+        "nlrp3-inflammasome",
+        "bhargava-2020-bile-acid-metabolism-ms-neuroinflammation",
+        "blood-brain-barrier",
+        "tight-junctions",
+        "gut-brain-axis",
+        "martinelli-2022-gut-oriented-interventions-ms",
+        "short-chain-fatty-acids",
+        "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
+        "zhou-2025-gut-microbiota-immune-nervous-system-asd",
+        "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+        "dysbiosis",
+        "oxidative-stress",
+        "ahmed-2025-metals-alzheimers-mechanistic-review",
+        "lead",
+        "mercury",
+        "manganese",
+        "heavy-metals",
+        "chin-chan-2015-environmental-pollutants-ad-pd",
+        "gut-microbiome",
+        "ferroptosis",
+        "alpha-synuclein",
         "alzheimers-disease",
         "parkinsons-disease",
         "multiple-sclerosis",
         "autism-spectrum-disorder",
-        "gut-brain-axis",
-        "heavy-metals",
-        "gao-2023-microglia-neurodegenerative-diseases",
-        "lead",
-        "cadmium",
-        "mercury",
-        "tight-junctions",
-        "ahmed-2025-metals-alzheimers-mechanistic-review",
-        "inflammation",
-        "khatoon-2023-gut-microbiota-neurodegenerative",
-        "dysbiosis",
-        "short-chain-fatty-acids",
+        "tizabi-2023-lead-gut-microbiota-asd",
+        "schizophrenia",
         "butyrate",
         "nf-kappa-b",
-        "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
-        "manganese",
-        "iron",
-        "ferroptosis",
-        "aluminum",
-        "nlrp3-inflammasome",
-        "oxidative-stress",
-        "martinelli-2022-gut-oriented-interventions-ms",
-        "tryptophan-metabolism",
-        "zhou-2025-gut-microbiota-immune-nervous-system-asd",
-        "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
-        "tizabi-2023-lead-gut-microbiota-asd",
         "arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd",
-        "spencer-2018-vascular-pathology-ms-blood-brain-barrier"
+        "inflammation",
+        "tryptophan-metabolism"
       ],
       "sourceDir": "concepts",
-      "sourceCount": 9,
+      "sourceCount": 12,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "alzheimers-disease",
+        "autism-spectrum-disorder",
         "chronic-fatigue-syndrome",
         "depression",
         "huntingtons-disease",
+        "lead",
         "major-depressive-disorder",
+        "manganese",
+        "mercury",
+        "multiple-sclerosis",
+        "nickel",
+        "parkinsons-disease",
+        "porphyromonas-gingivalis",
         "schizophrenia",
+        "zinc",
         "alpha-synuclein",
         "amyloid-beta",
         "autophagy",
@@ -104958,15 +104979,21 @@
         "gaba",
         "gut-barrier-dysfunction",
         "gut-brain-axis",
+        "gut-metal-microbiome",
+        "gut-microbiome",
         "indoles",
+        "inflammation",
         "kynurenine-pathway",
         "maternal-immune-activation",
         "microglia",
+        "oxidative-stress",
+        "polyamines",
         "polyphenols",
         "propionic-acid",
         "quinolinic-acid",
         "short-chain-fatty-acids",
         "tau-phosphorylation",
+        "tight-junctions",
         "tmao",
         "toll-like-receptors",
         "tryptophan-metabolism",
@@ -104978,36 +105005,36 @@
       ],
       "related": [
         {
-          "id": "gut-microbiome",
-          "score": 45
+          "id": "iron",
+          "score": 60
         },
         {
-          "id": "microglia",
-          "score": 41
+          "id": "cadmium",
+          "score": 38
         },
         {
-          "id": "alpha-synuclein",
-          "score": 25
+          "id": "zinc",
+          "score": 35
         },
         {
-          "id": "intestinal-permeability",
-          "score": 25
-        },
-        {
-          "id": "amyloid-beta",
-          "score": 22
+          "id": "copper",
+          "score": 32
         },
         {
           "id": "depression",
-          "score": 21
+          "score": 32
         },
         {
           "id": "faecalibacterium-prausnitzii",
-          "score": 21
+          "score": 31
         },
         {
-          "id": "blood-brain-barrier",
-          "score": 21
+          "id": "arsenic",
+          "score": 30
+        },
+        {
+          "id": "gut-metal-microbiome",
+          "score": 29
         }
       ]
     },
@@ -105241,16 +105268,16 @@
           "score": 37
         },
         {
-          "id": "iron",
-          "score": 31
-        },
-        {
           "id": "gut-microbiome",
-          "score": 31
+          "score": 33
         },
         {
           "id": "tight-junctions",
           "score": 30
+        },
+        {
+          "id": "iron",
+          "score": 29
         },
         {
           "id": "alzheimers-disease",
@@ -106634,12 +106661,12 @@
       ],
       "related": [
         {
-          "id": "butyrate",
-          "score": 24
+          "id": "gut-microbiome",
+          "score": 25
         },
         {
-          "id": "gut-microbiome",
-          "score": 23
+          "id": "butyrate",
+          "score": 24
         },
         {
           "id": "heavy-metals",
@@ -106662,8 +106689,8 @@
           "score": 16
         },
         {
-          "id": "iron",
-          "score": 16
+          "id": "copper",
+          "score": 14
         }
       ]
     },
@@ -107979,7 +108006,7 @@
         {
           "heading": "Manganese -- Mitochondrial Dysfunction",
           "level": 3,
-          "body": "[[manganese]] paradoxically serves as the cofactor for the mitochondrial antioxidant Mn-SOD (SOD2) but is neurotoxic at elevated levels:\n- Excess Mn disrupts mitochondrial function, inducing cytochrome C release and caspase activation in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- Mn accumulates preferentially in the globus pallidus and striatum, causing parkinsonism distinct from idiopathic Parkinson's disease.\n- Metal-driven gut [[dysbiosis]] by Mn (and Fe, Ni) initiates a cascade: loss of barrier integrity, bacterial translocation, systemic [[inflammation]], and neuroinflammation converging on dopaminergic neuron vulnerability [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
+          "body": "[[manganese]] paradoxically serves as the cofactor for the mitochondrial antioxidant Mn-SOD (SOD2) but is neurotoxic at elevated levels:\n- Excess Mn disrupts mitochondrial function, inducing cytochrome C release and caspase activation in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- Mn accumulates preferentially in the globus pallidus and striatum, causing parkinsonism distinct from idiopathic Parkinson's disease.\n- Metal-driven gut [[dysbiosis]] by Mn (and Fe, Ni) initiates a cascade: loss of barrier integrity, bacterial translocation, systemic [[inflammation]], and [[neuroinflammation]] converging on dopaminergic neuron vulnerability [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
         },
         {
           "heading": "Biomarkers of Oxidative Stress",
@@ -108174,6 +108201,7 @@
         "blazewicz-2023-metal-profiles-asd",
         "dysbiosis",
         "inflammation",
+        "neuroinflammation",
         "autism-spectrum-disorder",
         "ogrady-2025-metal-dyshomeostasis-asd",
         "lopez-botella-2023-peritoneal-fluid-metals-endometriosis",
@@ -108397,7 +108425,7 @@
       "related": [
         {
           "id": "gut-microbiome",
-          "score": 155
+          "score": 157
         },
         {
           "id": "butyrate",
@@ -110388,7 +110416,7 @@
         "seo_target": "polyamines spermidine putrescine gut microbiome health",
         "platform": "wikibiome"
       },
-      "overview": "Polyamines -- putrescine, spermidine, spermine, and cadaverine -- are small polycationic molecules produced by both the host and the [[gut-microbiome]]. They regulate cell growth, differentiation, apoptosis, and immune function. In the gut ecosystem, polyamines are metabolic products of amino acid decarboxylation, and their production by specific bacterial communities connects microbial ecology to cardiovascular health, cancer biology, neuroinflammation, and aging.",
+      "overview": "Polyamines -- putrescine, spermidine, spermine, and cadaverine -- are small polycationic molecules produced by both the host and the [[gut-microbiome]]. They regulate cell growth, differentiation, apoptosis, and immune function. In the gut ecosystem, polyamines are metabolic products of amino acid decarboxylation, and their production by specific bacterial communities connects microbial ecology to cardiovascular health, cancer biology, [[neuroinflammation]], and aging.",
       "sections": [
         {
           "heading": "The Major Polyamines",
@@ -110438,6 +110466,7 @@
       ],
       "wikilinks": [
         "gut-microbiome",
+        "neuroinflammation",
         "nitric-oxide",
         "noga-2012-csf-metabolomics-eae-rat-model",
         "cardiovascular-disease",
@@ -113586,7 +113615,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 89
+          "score": 87
         },
         {
           "id": "oxidative-stress",
@@ -113594,7 +113623,7 @@
         },
         {
           "id": "cadmium",
-          "score": 64
+          "score": 62
         },
         {
           "id": "roseburia",
@@ -115484,6 +115513,7 @@
         "major-depressive-disorder",
         "bacteremia",
         "cortisol",
+        "neuroinflammation",
         "tight-junctions",
         "tnf-alpha"
       ],
@@ -115501,6 +115531,14 @@
           "score": 12
         },
         {
+          "id": "tight-junctions",
+          "score": 12
+        },
+        {
+          "id": "gut-brain-axis",
+          "score": 11
+        },
+        {
           "id": "lipopolysaccharide",
           "score": 11
         },
@@ -115509,15 +115547,7 @@
           "score": 10
         },
         {
-          "id": "tight-junctions",
-          "score": 10
-        },
-        {
           "id": "chromium",
-          "score": 9
-        },
-        {
-          "id": "faecalibacterium-prausnitzii",
           "score": 9
         }
       ]
@@ -115600,7 +115630,7 @@
         "seo_target": "tau phosphorylation metals Alzheimer",
         "platform": "wikibiome"
       },
-      "overview": "Tau is a microtubule-associated protein essential for maintaining the structural integrity of neuronal axons. In health, tau binds to and stabilizes microtubules, enabling axonal transport of organelles, vesicles, and signaling molecules. When tau becomes hyperphosphorylated -- acquiring excess phosphate groups at specific serine and threonine residues -- it detaches from microtubules, misfolds, and aggregates into neurofibrillary tangles (NFTs), one of the two hallmark pathological features of [[alzheimers-disease]] (the other being [[amyloid-beta]] plaques).\n\nThe metallomics perspective reveals that [[heavy-metals]] promote tau hyperphosphorylation through multiple converging mechanisms, and that the [[gut-microbiome]] contributes to this process via neuroinflammatory signaling through the [[gut-brain-axis]].",
+      "overview": "Tau is a microtubule-associated protein essential for maintaining the structural integrity of neuronal axons. In health, tau binds to and stabilizes microtubules, enabling axonal transport of organelles, vesicles, and signaling molecules. When tau becomes hyperphosphorylated -- acquiring excess phosphate groups at specific serine and threonine residues -- it detaches from microtubules, misfolds, and aggregates into neurofibrillary tangles (NFTs), one of the two hallmark pathological features of [[alzheimers-disease]] (the other being [[amyloid-beta]] plaques).\n\nThe metallomics perspective reveals that [[heavy-metals]] promote tau hyperphosphorylation through multiple converging mechanisms, and that the [[gut-microbiome]] contributes to this process via [[neuroinflammation|neuroinflammatory signaling]] through the [[gut-brain-axis]].",
       "sections": [
         {
           "heading": "Normal Tau Biology",
@@ -115665,12 +115695,12 @@
         {
           "heading": "Tau Pathology Beyond Alzheimer's",
           "level": 2,
-          "body": "Hyperphosphorylated tau is found in multiple neurodegenerative conditions (collectively called \"tauopathies\"):\n- Frontotemporal dementia: Tau mutations directly cause some familial forms\n- Chronic traumatic encephalopathy (CTE): Repetitive head trauma promotes tau phosphorylation\n- Progressive supranuclear palsy: Predominantly 4-repeat tau\n- Parkinson's disease: Tau pathology co-occurs with [[alpha-synuclein]] in some cases\n\nThe common thread across these conditions is that metal dyshomeostasis and [[neuroinflammation]] converge on the same kinase/phosphatase imbalance that drives tau hyperphosphorylation."
+          "body": "Hyperphosphorylated tau is found in multiple neurodegenerative conditions (collectively called \"tauopathies\"):\n- Frontotemporal dementia: Tau mutations directly cause some familial forms\n- Chronic traumatic encephalopathy (CTE): Repetitive head trauma promotes tau phosphorylation\n- Progressive supranuclear palsy: Predominantly 4-repeat tau\n- Parkinson's disease: Tau pathology co-occurs with [[alpha-synuclein]] in some cases\n\nThe common thread across these conditions is that metal dyshomeostasis and neuroinflammation converge on the same kinase/phosphatase imbalance that drives tau hyperphosphorylation."
         },
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[alzheimers-disease]] -- the primary disease context for tau pathology\n- [[amyloid-beta]] -- the co-pathology that triggers the tau cascade\n- [[aluminum]] -- the metal most directly linked to tau aggregation\n- [[lead]] -- developmental epigenetic programming of late-life tau pathology\n- [[zinc]] -- promotes PHF assembly from hyperphosphorylated tau\n- [[microglia]] -- neuroinflammatory mediators that activate tau kinases\n- [[neuroinflammation]] -- the inflammatory driver of kinase/phosphatase imbalance\n- [[kynurenine-pathway]] -- quinolinic acid promotes tau phosphorylation\n- oxidative stress -- ROS activate upstream tau kinases\n- [[epigenetics]] -- lead-induced epigenetic changes prime late-life tau pathology\n- [[gut-brain-axis]] -- the route by which gut dysbiosis reaches neuronal tau"
+          "body": "- [[alzheimers-disease]] -- the primary disease context for tau pathology\n- [[amyloid-beta]] -- the co-pathology that triggers the tau cascade\n- [[aluminum]] -- the metal most directly linked to tau aggregation\n- [[lead]] -- developmental epigenetic programming of late-life tau pathology\n- [[zinc]] -- promotes PHF assembly from hyperphosphorylated tau\n- [[microglia]] -- neuroinflammatory mediators that activate tau kinases\n- neuroinflammation -- the inflammatory driver of kinase/phosphatase imbalance\n- [[kynurenine-pathway]] -- quinolinic acid promotes tau phosphorylation\n- oxidative stress -- ROS activate upstream tau kinases\n- [[epigenetics]] -- lead-induced epigenetic changes prime late-life tau pathology\n- [[gut-brain-axis]] -- the route by which gut dysbiosis reaches neuronal tau"
         }
       ],
       "wikilinks": [
@@ -115678,6 +115708,7 @@
         "amyloid-beta",
         "heavy-metals",
         "gut-microbiome",
+        "neuroinflammation",
         "gut-brain-axis",
         "zhang-2024-recent-advances-alzheimers-mechanisms-trials",
         "aluminum",
@@ -115700,8 +115731,7 @@
         "short-chain-fatty-acids",
         "dysbiosis",
         "alonso-garcia-2021-gut-microbiota-proteinopathies",
-        "alpha-synuclein",
-        "neuroinflammation"
+        "alpha-synuclein"
       ],
       "sourceDir": "concepts",
       "sourceCount": 10,
@@ -116620,7 +116650,7 @@
         {
           "heading": "Claudins",
           "level": 3,
-          "body": "Claudin family proteins (27 members in humans) form the backbone of tight junction strands. Claudin-1, -3, -4, -5, and -7 are \"sealing\" claudins that restrict paracellular permeability; claudin-2 is a pore-forming claudin that increases permeability when upregulated (common in IBD). Claudin-5 is the primary tight junction protein of the blood-brain barrier — its downregulation enables neuroinflammation [[safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis]]."
+          "body": "Claudin family proteins (27 members in humans) form the backbone of tight junction strands. Claudin-1, -3, -4, -5, and -7 are \"sealing\" claudins that restrict paracellular permeability; claudin-2 is a pore-forming claudin that increases permeability when upregulated (common in IBD). Claudin-5 is the primary tight junction protein of the blood-brain barrier — its downregulation enables [[neuroinflammation]] [[safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis]]."
         },
         {
           "heading": "Occludin",
@@ -116666,6 +116696,7 @@
       "wikilinks": [
         "endotoxemia",
         "bacteremia",
+        "neuroinflammation",
         "safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis",
         "heavy-metals",
         "cadmium",
@@ -116798,11 +116829,11 @@
       "related": [
         {
           "id": "gut-microbiome",
-          "score": 110
+          "score": 112
         },
         {
           "id": "iron",
-          "score": 104
+          "score": 102
         },
         {
           "id": "nickel",
@@ -117030,10 +117061,6 @@
           "score": 19
         },
         {
-          "id": "neuroinflammation",
-          "score": 14
-        },
-        {
           "id": "nickel-allergy",
           "score": 12
         },
@@ -117048,6 +117075,10 @@
         {
           "id": "type-1-diabetes",
           "score": 12
+        },
+        {
+          "id": "lipopolysaccharide",
+          "score": 11
         }
       ]
     },
@@ -117484,6 +117515,10 @@
           "score": 23
         },
         {
+          "id": "neuroinflammation",
+          "score": 16
+        },
+        {
           "id": "gut-microbiome",
           "score": 15
         },
@@ -117505,10 +117540,6 @@
         },
         {
           "id": "intestinal-permeability",
-          "score": 12
-        },
-        {
-          "id": "schizophrenia",
           "score": 12
         }
       ]
@@ -120507,11 +120538,11 @@
           "score": 5
         },
         {
-          "id": "arsenic",
-          "score": 4
+          "id": "neuroinflammation",
+          "score": 5
         },
         {
-          "id": "cadmium",
+          "id": "arsenic",
           "score": 4
         }
       ]
@@ -120972,7 +121003,7 @@
         },
         {
           "id": "iron",
-          "score": 60
+          "score": 58
         },
         {
           "id": "oxidative-stress",
@@ -121465,7 +121496,7 @@
         },
         {
           "id": "gut-microbiome",
-          "score": 61
+          "score": 63
         },
         {
           "id": "inflammation",
@@ -128642,7 +128673,7 @@
         },
         {
           "id": "iron",
-          "score": 72
+          "score": 70
         },
         {
           "id": "butyrate",
@@ -128650,7 +128681,7 @@
         },
         {
           "id": "gut-microbiome",
-          "score": 56
+          "score": 58
         },
         {
           "id": "cardiovascular-disease",
@@ -130956,11 +130987,11 @@
         },
         {
           "id": "iron",
-          "score": 73
+          "score": 71
         },
         {
           "id": "gut-microbiome",
-          "score": 60
+          "score": 62
         },
         {
           "id": "oxidative-stress",
@@ -130976,7 +131007,7 @@
         },
         {
           "id": "cadmium",
-          "score": 52
+          "score": 50
         }
       ]
     },
@@ -132904,6 +132935,7 @@
         "maternal-immune-activation",
         "mendelian-randomization",
         "n-acetyl-cysteine",
+        "neuroinflammation",
         "synbiotics",
         "viral-microbiota",
         "zonulin",
@@ -132926,36 +132958,36 @@
       ],
       "related": [
         {
+          "id": "dysbiosis",
+          "score": 58
+        },
+        {
           "id": "schizophrenia-signature",
           "score": 58
         },
         {
-          "id": "dysbiosis",
-          "score": 56
-        },
-        {
           "id": "butyrate",
-          "score": 46
+          "score": 48
         },
         {
           "id": "inflammation",
-          "score": 42
+          "score": 44
         },
         {
           "id": "autism-spectrum-disorder",
-          "score": 39
+          "score": 41
         },
         {
           "id": "autism-spectrum-disorder",
-          "score": 38
+          "score": 40
         },
         {
           "id": "gut-brain-axis",
-          "score": 38
+          "score": 40
         },
         {
           "id": "gut-microbiome",
-          "score": 38
+          "score": 40
         }
       ]
     },
@@ -149235,16 +149267,16 @@
           "score": 12
         },
         {
+          "id": "neuroinflammation",
+          "score": 11
+        },
+        {
           "id": "postpartum-depression",
           "score": 11
         },
         {
           "id": "depression-signature",
           "score": 11
-        },
-        {
-          "id": "crohns-disease",
-          "score": 10
         }
       ]
     },
@@ -166178,15 +166210,15 @@
           "score": 5
         },
         {
+          "id": "neuroinflammation",
+          "score": 5
+        },
+        {
           "id": "inflammatory-bowel-disease",
           "score": 4
         },
         {
           "id": "schizophrenia",
-          "score": 4
-        },
-        {
-          "id": "gut-metal-microbiome",
           "score": 4
         }
       ]
@@ -170729,15 +170761,15 @@
           "score": 5
         },
         {
+          "id": "neuroinflammation",
+          "score": 5
+        },
+        {
           "id": "b-cell-depletion-therapy-ms",
           "score": 5
         },
         {
           "id": "inflammatory-bowel-disease",
-          "score": 4
-        },
-        {
-          "id": "schizophrenia",
           "score": 4
         }
       ]
@@ -178552,6 +178584,10 @@
           "score": 5
         },
         {
+          "id": "link-health-2026-09-07",
+          "score": 3
+        },
+        {
           "id": "lint-report-2026-04-12",
           "score": 3
         },
@@ -178565,10 +178601,6 @@
         },
         {
           "id": "lint-report-2026-04-21",
-          "score": 3
-        },
-        {
-          "id": "lint-report-2026-04-26",
           "score": 3
         }
       ]
@@ -179532,6 +179564,10 @@
           "score": 3
         },
         {
+          "id": "link-health-2026-09-07",
+          "score": 3
+        },
+        {
           "id": "zero-reference-pages-2026-04-19",
           "score": 3
         },
@@ -179553,10 +179589,6 @@
         },
         {
           "id": "batch-preview-2026-04-19-operational-cureva",
-          "score": 1
-        },
-        {
-          "id": "batch-preview-2026-04-19-stub-demotions",
           "score": 1
         }
       ]
@@ -179921,6 +179953,10 @@
       ],
       "related": [
         {
+          "id": "link-health-2026-09-07",
+          "score": 9
+        },
+        {
           "id": "doi-corrections-2026-04-19",
           "score": 5
         },
@@ -179947,9 +179983,163 @@
         {
           "id": "lint-2026-04-13",
           "score": 3
+        }
+      ]
+    },
+    {
+      "id": "link-health-2026-09-07",
+      "title": "Link Health Audit — 2026-09-07",
+      "type": "analysis",
+      "category": "analysis",
+      "tags": [
+        "lint",
+        "link-health",
+        "doi-validation",
+        "audit"
+      ],
+      "sources": [],
+      "created": "2026-09-07T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Link Health Audit — 2026-09-07",
+        "type": "analysis",
+        "created": "2026-09-07T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "sources": [],
+        "tags": [
+          "lint",
+          "link-health",
+          "doi-validation",
+          "audit"
+        ]
+      },
+      "overview": "Run mode: **offline**",
+      "sections": [
+        {
+          "heading": "DOI audit",
+          "level": 2,
+          "body": "- Total source pages: 1940\n- Format-valid DOIs: 1696\n- Missing (`doi:` field empty): 27\n- Explicitly not-applicable: 0\n- Marked `not yet verified`: 217\n- Bad format: 0"
+        },
+        {
+          "heading": "Missing DOIs",
+          "level": 3,
+          "body": "27 source pages have empty `doi:` fields. Run `node scripts/lookup-dois.cjs` to attempt recovery via Crossref/Zenodo title search."
+        },
+        {
+          "heading": "Crossref resolution",
+          "level": 2,
+          "body": "Not run in offline mode. Re-run with `--online` to validate DOIs against api.crossref.org."
+        },
+        {
+          "heading": "Internal wikilink audit",
+          "level": 2,
+          "body": "- Files scanned: 2711\n- Wikilinks found: 39985\n- Broken targets (unique file/target pairs): 286"
+        },
+        {
+          "heading": "Top 50 broken wikilink targets",
+          "level": 3,
+          "body": "| Target | Incoming count | Example files |\n|---|---|---|\n| `[[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid]]` | 6 | entities/escherichia-coli.md, entities/klebsiella-pneumoniae.md, entities/long-covid.md |\n| `[[interkingdom-relationships]]` | 6 | analyses/link-health-2026-04-19.md, sources/ding-2025-mycobiome-human-cancer-mechanisms-therapeutics.md, sources/fungal-dysbiosis-2026-pregnancy-gdm-reference.md |\n| `[[akkermansia-mucinicola]]` | 5 | analyses/gaps-and-improvements-2026-04-12.md, analyses/health-check-2026-04-14.md, analyses/lint-report-2026-04-12.md |\n| `[[prostate-cancer]]` | 4 | entities/propionibacterium.md, sources/cao-2024-gut-microbiome-preventive-therapeutic-prostatic-disease.md, sources/magri-2018-multidisciplinary-prostatitis.md |\n| `[[bile-acids]]` | 3 | entities/necrotizing-enterocolitis.md, analyses/lint-report-2026-04-21.md, sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md |\n| `[[note-evaluation-risk-ptes-italy-fish-products]]` | 3 | entities/nickel.md, analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[candida-auris]]` | 3 | analyses/gaps-and-improvements-2026-04-13.md, analyses/lint-report-2026-04-12.md, analyses/lint-report-2026-04-13.md |\n| `[[oral-gut-axis]]` | 3 | analyses/link-health-2026-04-19.md, sources/16s-rrna-t2d-subgingival-plaque-microbiota.md, sources/periodontitis-t2d-microbial-biomarkers.md |\n| `[[wikilink]]` | 3 | analyses/lint-report-2026-04-19.md, analyses/lint-report-2026-04-26.md, analyses/lint-report-2026-05-03.md |\n| `[[blood-testis-barrier]]` | 3 | sources/cai-2022-gut-microbiota-male-reproduction.md, sources/kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility.md, sources/lv-2024-gut-microbiota-male-reproductive-function-review.md |\n| `[[vaginal-microbiome]]` | 3 | sources/daungsupawong-2024-ai-drug-repurposing-chronic-vaginitis.md, sources/ser-2023-current-updates-microbiome-endometriosis-review.md, sources/yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics.md |\n| `[[neisseria]]` | 3 | sources/docimo-2020-human-microbiota-endocrinology-thyroid.md, sources/hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis.md, sources/kun-2023-microbiota-thyroid-cancer.md |\n| `[[diabetes]]` | 3 | sources/kouidrat-2017-erectile-dysfunction-diabetes.md, sources/nabeh-2024-diabetes-pms-gut-microbiome-review.md, sources/shamloul-2013-erectile-dysfunction-seminar.md |\n| `[[akkermansia]]` | 3 | sources/latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet.md, sources/ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice.md, sources/ser-2023-current-updates-microbiome-endometriosis-review.md |\n| `[[scfa]]` | 3 | sources/minerbi-2020-gut-microbiome-pertinence-fibromyalgia-review.md, sources/yu-2025-microbiota-gut-brain-perimenopausal-depression.md, sources/zhao-2025-gut-microbiota-pain-sensitization-review.md |\n| `[[equol]]` | 2 | entities/adlercreutzia.md, entities/gordonibacter.md |\n| `[[bacterial-translocation]]` | 2 | entities/alishewanella.md, entities/sphingobium.md |\n| `[[ke2022-microbiome-covid-metagenome-genomes]]` | 2 | entities/long-covid.md, signatures/long-covid-signature.md |\n| `[[prostatitis]]` | 2 | entities/trichomonas-vaginalis.md, concepts/gut-prostate-axis.md |\n| `[[stop-unrestricted-plant-diet-advanced-ckd]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[stop-probiotics-alone-uremic-toxins-ckd]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[faecalibacterium-hominis-4p15]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[karen-pendergrass]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[zinc-endometriosis-2024]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[lactoferrin-genital-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[endo-vaginal-microbiota-glycome]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[altered-microbiota-ovarian-endometrioma-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[antibiotics-metronidazole-endo-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[associations-endo-gut-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[fecal-metabolomics-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[effect-endo-fecal-bacteriota-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[endo-induces-gut-alterations-2018]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[gut-imbalance-hormone-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[inflammatory-cytokines-peritoneal-2018]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[microbiome-deep-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[microbiome-lower-genital-chinese]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[microbiota-composition-distribution-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[molecular-intrauterine-colonization-2016]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[gut-dysbiosis-treg-th17-graves-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[graves-targeted-therapy-2025]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[graves-ibd-mendelian-2023]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[graves-ra-mendelian-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[antonelli-2016-graves-epidemiology]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[uncovering-causal-gut-thyroid-2024]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[maciejewski-2025-trace-elements-thyroid]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[yao-2023-oral-gut-thyroid-cancer]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[selenium-thyroid-autoimmunity-2015]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[abraham-2005-drug-therapy-graves]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[preliminary-flora-changes-graves-2022]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[berberine-methimazole-graves-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |"
+        },
+        {
+          "heading": "How to act on this report",
+          "level": 2,
+          "body": "1. **Bad-format DOIs**: Either fix from the source PDF or demote to `doi: \"not yet verified\"`. Never guess.\n2. **Crossref 404s**: Almost always fabricated. Use `node scripts/lookup-dois.cjs` to attempt Crossref title search for the correct DOI; if nothing comes back, demote to `doi: \"not yet verified\"` and flag the page with `<!-- NEEDS VERIFICATION -->`.\n3. **Title mismatches**: The DOI is real but points to a different paper than what the frontmatter claims. Investigate manually — either the DOI is wrong or the frontmatter metadata was fabricated.\n4. **Broken wikilinks**: Create the target page as a stub (per §2f and Rule 13) or fix the wikilink source spelling."
+        },
+        {
+          "heading": "Re-running",
+          "level": 2,
+          "body": "```\nnode scripts/link-health-audit.cjs --offline\n\nnode scripts/link-health-audit.cjs --online\n\nnode scripts/link-health-audit.cjs --online --sample 50\n```"
+        }
+      ],
+      "wikilinks": [
+        "bernard-raichon2022-dysbiosis-translocation-bacteremia-covid",
+        "interkingdom-relationships",
+        "akkermansia-mucinicola",
+        "prostate-cancer",
+        "bile-acids",
+        "note-evaluation-risk-ptes-italy-fish-products",
+        "candida-auris",
+        "oral-gut-axis",
+        "wikilink",
+        "blood-testis-barrier",
+        "vaginal-microbiome",
+        "neisseria",
+        "diabetes",
+        "akkermansia",
+        "scfa",
+        "equol",
+        "bacterial-translocation",
+        "ke2022-microbiome-covid-metagenome-genomes",
+        "prostatitis",
+        "stop-unrestricted-plant-diet-advanced-ckd",
+        "stop-probiotics-alone-uremic-toxins-ckd",
+        "faecalibacterium-hominis-4p15",
+        "karen-pendergrass",
+        "zinc-endometriosis-2024",
+        "lactoferrin-genital-2019",
+        "endo-vaginal-microbiota-glycome",
+        "altered-microbiota-ovarian-endometrioma-2021",
+        "antibiotics-metronidazole-endo-2019",
+        "associations-endo-gut-2020",
+        "fecal-metabolomics-endo-2020",
+        "effect-endo-fecal-bacteriota-2019",
+        "endo-induces-gut-alterations-2018",
+        "gut-imbalance-hormone-endo-2020",
+        "inflammatory-cytokines-peritoneal-2018",
+        "microbiome-deep-endo-2020",
+        "microbiome-lower-genital-chinese",
+        "microbiota-composition-distribution-2020",
+        "molecular-intrauterine-colonization-2016",
+        "gut-dysbiosis-treg-th17-graves-2020",
+        "graves-targeted-therapy-2025",
+        "graves-ibd-mendelian-2023",
+        "graves-ra-mendelian-2021",
+        "antonelli-2016-graves-epidemiology",
+        "uncovering-causal-gut-thyroid-2024",
+        "maciejewski-2025-trace-elements-thyroid",
+        "yao-2023-oral-gut-thyroid-cancer",
+        "selenium-thyroid-autoimmunity-2015",
+        "abraham-2005-drug-therapy-graves",
+        "preliminary-flora-changes-graves-2022",
+        "berberine-methimazole-graves-2021"
+      ],
+      "sourceDir": "analyses",
+      "sourceCount": 0,
+      "threshold": 3,
+      "belowThreshold": true,
+      "isStub": false,
+      "backlinks": [],
+      "related": [
+        {
+          "id": "link-health-2026-04-19",
+          "score": 9
+        },
+        {
+          "id": "doi-corrections-2026-04-19",
+          "score": 3
+        },
+        {
+          "id": "health-check-2026-04-14",
+          "score": 3
+        },
+        {
+          "id": "ingest-audit-2026-04-18",
+          "score": 3
+        },
+        {
+          "id": "lint-2026-04-13",
+          "score": 3
+        },
+        {
+          "id": "lint-report-2026-04-12",
+          "score": 3
         },
         {
           "id": "lint-report-2026-04-13",
+          "score": 3
+        },
+        {
+          "id": "lint-report-2026-04-14",
           "score": 3
         }
       ]
@@ -183553,6 +183743,10 @@
           "score": 3
         },
         {
+          "id": "link-health-2026-09-07",
+          "score": 3
+        },
+        {
           "id": "adversarial-audit-2026-04-19",
           "score": 1
         },
@@ -183562,10 +183756,6 @@
         },
         {
           "id": "auto-discovered-stubs-2026-04-19",
-          "score": 1
-        },
-        {
-          "id": "batch-preview-2026-04-19-auto-discovered-stubs",
           "score": 1
         }
       ]
@@ -187080,7 +187270,7 @@
         "id": "neuroinflammation",
         "label": "Neuroinflammation",
         "category": "mechanism",
-        "sourceCount": 9
+        "sourceCount": 12
       },
       {
         "id": "nf-kappa-b",
@@ -189015,6 +189205,12 @@
         "sourceCount": 0
       },
       {
+        "id": "link-health-2026-09-07",
+        "label": "Link Health Audit — 2026-09-07",
+        "category": "analysis",
+        "sourceCount": 0
+      },
+      {
         "id": "lint-2026-04-13",
         "label": "Wiki Lint Report — 2026-04-13",
         "category": "analysis",
@@ -189864,6 +190060,10 @@
       },
       {
         "source": "alzheimers-disease",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "alzheimers-disease",
         "target": "escherichia-coli"
       },
       {
@@ -190425,6 +190625,10 @@
       {
         "source": "autism-spectrum-disorder",
         "target": "butyrate"
+      },
+      {
+        "source": "autism-spectrum-disorder",
+        "target": "neuroinflammation"
       },
       {
         "source": "autism-spectrum-disorder",
@@ -194280,6 +194484,10 @@
       },
       {
         "source": "depression",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "depression",
         "target": "inflammatory-bowel-disease"
       },
       {
@@ -194337,10 +194545,6 @@
       {
         "source": "depression",
         "target": "tryptophan-metabolism"
-      },
-      {
-        "source": "depression",
-        "target": "neuroinflammation"
       },
       {
         "source": "depression",
@@ -198436,6 +198640,10 @@
       },
       {
         "source": "lead",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "lead",
         "target": "zinc"
       },
       {
@@ -198800,6 +199008,10 @@
       },
       {
         "source": "manganese",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "manganese",
         "target": "inflammation"
       },
       {
@@ -198981,6 +199193,10 @@
       {
         "source": "mercury",
         "target": "heavy-metals"
+      },
+      {
+        "source": "mercury",
+        "target": "neuroinflammation"
       },
       {
         "source": "mercury",
@@ -199432,6 +199648,10 @@
       },
       {
         "source": "multiple-sclerosis",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "multiple-sclerosis",
         "target": "butyrate"
       },
       {
@@ -199781,6 +200001,10 @@
       {
         "source": "nickel",
         "target": "ferroptosis"
+      },
+      {
+        "source": "nickel",
+        "target": "neuroinflammation"
       },
       {
         "source": "nickel",
@@ -200576,6 +200800,10 @@
       },
       {
         "source": "parkinsons-disease",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "parkinsons-disease",
         "target": "urease"
       },
       {
@@ -201317,6 +201545,10 @@
       {
         "source": "porphyromonas-gingivalis",
         "target": "cardiovascular-disease"
+      },
+      {
+        "source": "porphyromonas-gingivalis",
+        "target": "neuroinflammation"
       },
       {
         "source": "porphyromonas-gingivalis",
@@ -204557,6 +204789,10 @@
       {
         "source": "zinc",
         "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "zinc",
+        "target": "neuroinflammation"
       },
       {
         "source": "zinc",
@@ -209408,6 +209644,10 @@
       },
       {
         "source": "gut-metal-microbiome",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "gut-metal-microbiome",
         "target": "mis-metallation"
       },
       {
@@ -209485,6 +209725,10 @@
       {
         "source": "gut-microbiome",
         "target": "inflammation"
+      },
+      {
+        "source": "gut-microbiome",
+        "target": "neuroinflammation"
       },
       {
         "source": "gut-microbiome",
@@ -211069,6 +211313,10 @@
       {
         "source": "inflammation",
         "target": "blood-brain-barrier"
+      },
+      {
+        "source": "inflammation",
+        "target": "neuroinflammation"
       },
       {
         "source": "inflammation",
@@ -213412,35 +213660,15 @@
       },
       {
         "source": "neuroinflammation",
-        "target": "alzheimers-disease"
+        "target": "systemic-inflammation"
       },
       {
         "source": "neuroinflammation",
-        "target": "parkinsons-disease"
+        "target": "neurodegeneration"
       },
       {
         "source": "neuroinflammation",
-        "target": "multiple-sclerosis"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "autism-spectrum-disorder"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "heavy-metals"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "lead"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "cadmium"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "mercury"
+        "target": "nlrp3-inflammasome"
       },
       {
         "source": "neuroinflammation",
@@ -213448,7 +213676,7 @@
       },
       {
         "source": "neuroinflammation",
-        "target": "inflammation"
+        "target": "short-chain-fatty-acids"
       },
       {
         "source": "neuroinflammation",
@@ -213456,7 +213684,15 @@
       },
       {
         "source": "neuroinflammation",
-        "target": "short-chain-fatty-acids"
+        "target": "oxidative-stress"
+      },
+      {
+        "source": "neuroinflammation",
+        "target": "heavy-metals"
+      },
+      {
+        "source": "neuroinflammation",
+        "target": "ferroptosis"
       },
       {
         "source": "neuroinflammation",
@@ -213465,30 +213701,6 @@
       {
         "source": "neuroinflammation",
         "target": "nf-kappa-b"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "manganese"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "iron"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "ferroptosis"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "aluminum"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "nlrp3-inflammasome"
-      },
-      {
-        "source": "neuroinflammation",
-        "target": "oxidative-stress"
       },
       {
         "source": "neuroinflammation",
@@ -214573,6 +214785,10 @@
       {
         "source": "polyamines",
         "target": "gut-microbiome"
+      },
+      {
+        "source": "polyamines",
+        "target": "neuroinflammation"
       },
       {
         "source": "polyamines",
@@ -215960,6 +216176,10 @@
       },
       {
         "source": "tau-phosphorylation",
+        "target": "neuroinflammation"
+      },
+      {
+        "source": "tau-phosphorylation",
         "target": "gut-brain-axis"
       },
       {
@@ -216013,10 +216233,6 @@
       {
         "source": "tau-phosphorylation",
         "target": "alpha-synuclein"
-      },
-      {
-        "source": "tau-phosphorylation",
-        "target": "neuroinflammation"
       },
       {
         "source": "taurine",

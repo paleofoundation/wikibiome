@@ -130,7 +130,7 @@ Probiotics: Live beneficial microorganisms with documented health effects. *Lact
 
 Prebiotics: Non-digestible substrates that selectively feed beneficial taxa. Inulin, FOS, resistant starch, and pectins selectively feed Bifidobacterium and Lachnospiraceae, increasing butyrate production. Galactooligosaccharides (GOS) have shown effects on both gut microbiome and behavior in children [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
 
-Fecal microbiota transplant (FMT): Transfer of a complete fecal community from a healthy donor. Highly effective for recurrent *C. difficile* infection; evidence building for IBD, metabolic syndrome, and neurodegenerative disease. FMT from young mice to aged mice reduces neuroinflammation and improves cognitive performance — suggesting systemic aging effects are partly microbiome-mediated [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
+Fecal microbiota transplant (FMT): Transfer of a complete fecal community from a healthy donor. Highly effective for recurrent *C. difficile* infection; evidence building for IBD, metabolic syndrome, and neurodegenerative disease. FMT from young mice to aged mice reduces [[neuroinflammation]] and improves cognitive performance — suggesting systemic aging effects are partly microbiome-mediated [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
 
 Dietary modification: The most powerful long-term intervention. A high-fiber, plant-diverse diet shifts the microbiome toward SCFA producers within days; Mediterranean diet adherence is associated with higher Faecalibacterium and Bifidobacterium and lower TMAO producers [[zhang-2025-gut-microbiota-cvd-mini-review]].
 

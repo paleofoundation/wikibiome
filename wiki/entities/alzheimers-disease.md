@@ -94,7 +94,7 @@ All metals converge on a small set of overlapping AD-relevant pathways [[ahmed-2
 2. Amyloid-beta aggregation -- Cu and Zn bind A-beta directly; As increases BACE1-mediated production
 3. Tau hyperphosphorylation -- As activates GSK3-beta and ERK1/2; Pb affects protein phosphorylation [[ahmed-2025-metals-alzheimers-mechanistic-review]]
 4. BBB disruption -- Pb and Cd specifically damage the blood-brain barrier [[ahmed-2025-metals-alzheimers-mechanistic-review]]
-5. Neuroinflammation -- microglial activation by metals; LPS from gut bacteria amplifies via NF-kB [[gao-2023-microglia-neurodegenerative-diseases]]
+5. [[neuroinflammation|Neuroinflammation]] -- microglial activation by metals; LPS from gut bacteria amplifies via NF-kB [[gao-2023-microglia-neurodegenerative-diseases]]
 6. Epigenetic modification -- Pb produces latent epigenetic effects decades after exposure; As depletes SAM (universal methyl donor) [[bakulski-2025-heavy-metals-late-onset-alzheimers]]
 
 ## Gut Microbiome Connection

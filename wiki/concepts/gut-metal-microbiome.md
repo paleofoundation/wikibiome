@@ -100,7 +100,7 @@ The gut-metal-microbiome interaction extends to the central nervous system throu
 
 - Neurotransmitter production: Gut microbiota produce serotonin (5-HT), dopamine, GABA, and norepinephrine; metal-induced dysbiosis disrupts this production
 - SCFA signaling: SCFAs activate free fatty acid receptors (FFARs) and tryptophan hydroxylase (TPH1) for 5-HT production, influencing the neuroendocrine-HPA axis
-- Neuroinflammation: LPS translocation from a compromised gut activates microglia and drives neuroinflammation
+- [[neuroinflammation|Neuroinflammation]]: LPS translocation from a compromised gut activates microglia and drives neuroinflammation
 - Alpha-synuclein propagation: In Parkinson's disease, metal-induced gut dysbiosis may promote alpha-synuclein aggregation in the enteric nervous system, with subsequent vagal nerve transmission to the brain (Braak hypothesis)
 - Autism spectrum disorders: 30-70% of children with ASD have GI disturbances; metal-induced microbiome disruption and zinc displacement may contribute through the gut-brain axis
 

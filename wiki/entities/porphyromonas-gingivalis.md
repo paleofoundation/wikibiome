@@ -38,7 +38,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Porphyromonas gingivalis
 
-A Gram-negative obligate anaerobe and keystone pathogen of the oral microbiome that causes chronic periodontitis and is increasingly implicated in systemic diseases including [[alzheimers-disease]] and [[cardiovascular-disease]]. *P. gingivalis* virulence is fundamentally dependent on zinc, iron, and manganese, particularly for the expression and activity of its signature gingipains -- virulence proteases that directly link the oral pathobiont to neuroinflammation and atherosclerosis.
+A Gram-negative obligate anaerobe and keystone pathogen of the oral microbiome that causes chronic periodontitis and is increasingly implicated in systemic diseases including [[alzheimers-disease]] and [[cardiovascular-disease]]. *P. gingivalis* virulence is fundamentally dependent on zinc, iron, and manganese, particularly for the expression and activity of its signature gingipains -- virulence proteases that directly link the oral pathobiont to [[neuroinflammation]] and atherosclerosis.
 
 ## Gingipains: Zinc-Dependent Virulence Proteases
 

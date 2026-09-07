@@ -56,7 +56,7 @@ In metal-exposed individuals, the acute-to-chronic transition is favored because
 - In the CNS, metals activate microglia -- the brain's resident immune cells -- through ROS, NF-kB, and pattern recognition receptor signaling [[gao-2023-microglia-neurodegenerative-diseases]].
 - Activated microglia release pro-inflammatory cytokines, ROS, and reactive nitrogen species that damage neurons.
 - Metal-activated microglia adopt a pro-inflammatory M1 phenotype resistant to switching back to the anti-inflammatory M2 state.
-- LPS from gut dysbiosis crosses the [[blood-brain-barrier]] and activates microglia via TLR4, linking gut inflammation to neuroinflammation.
+- LPS from gut dysbiosis crosses the [[blood-brain-barrier]] and activates microglia via TLR4, linking gut inflammation to [[neuroinflammation]].
 - In Parkinson's disease, microglial activation drives dopaminergic neuron loss in the substantia nigra [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - In Alzheimer's disease, microglial activation promotes amyloid-beta aggregation and tau phosphorylation.
 

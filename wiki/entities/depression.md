@@ -68,7 +68,7 @@ The IDO (indoleamine 2,3-dioxygenase) pathway is central:
 - The microbiome further modulates tryptophan availability (bacterial tryptophanase, indole production) [[zhu-2025-microbiota-gut-brain-axis-depression-review]]
 
 ### Intestinal Permeability
-Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic inflammation → neuroinflammation [[gao-2023-microglia-neurodegenerative-diseases]]. This "leaky gut" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects.
+Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic inflammation → [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]]. This "leaky gut" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects.
 
 ## Comorbidity Web
 
@@ -101,7 +101,7 @@ Depression co-occurs with virtually every disease in this wiki, amplified by sha
 - [[tryptophan-metabolism]] -- IDO-mediated shunting from serotonin to neurotoxic kynurenine metabolites
 - dysbiosis -- depletion of butyrate producers and enrichment of pro-inflammatory taxa
 - inflammation -- peripheral and central inflammation converge on depression via IL-6, TNF-alpha, CRP
-- [[neuroinflammation]] -- microglial activation, kynurenine pathway, and BBB disruption
+- neuroinflammation -- microglial activation, kynurenine pathway, and BBB disruption
 - [[short-chain-fatty-acids]] -- butyrate depletion weakens barrier function and reduces anti-inflammatory signaling
 - [[coprococcus]] -- consistently depleted genus in depression; butyrate producer with DOPAC synthesis capacity
 - [[faecalibacterium-prausnitzii]] -- anti-inflammatory commensal depleted in depressed patients
