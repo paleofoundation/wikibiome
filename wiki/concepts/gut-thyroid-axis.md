@@ -76,7 +76,7 @@ The axis is bidirectional. Thyroid hormones directly affect gut function:
 
 ### Metal Connections
 
-Heavy metals compound thyroid-microbiome disruption:
+[[heavy-metals]] compound thyroid-microbiome disruption:
 - Cadmium interferes with iodine uptake AND disrupts the gut microbiome, creating dual thyroid insult
 - Nickel alters TSH secretion and activates [[tlr4]] in thyroid tissue
 - Mercury inhibits selenoenzymes (deiodinases) critical for T4→T3 conversion

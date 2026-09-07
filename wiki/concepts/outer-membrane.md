@@ -74,7 +74,7 @@ Gram-negative bacteria have inherently higher metal tolerance than Gram-positive
 3. Contains LPS that can bind and sequester metal ions in the outer leaflet.
 4. Provides periplasmic space for metal-binding chaperones and detoxification enzymes.
 
-This is why Proteobacteria (Gram-negative) are consistently enriched in metal-contaminated environments and dysbiotic guts: their outer membrane gives them a survival advantage when heavy metals select against metal-sensitive organisms.
+This is why Proteobacteria (Gram-negative) are consistently enriched in metal-contaminated environments and dysbiotic guts: their outer membrane gives them a survival advantage when [[heavy-metals]] select against metal-sensitive organisms.
 
 ## Antibiotic Resistance Connection
 

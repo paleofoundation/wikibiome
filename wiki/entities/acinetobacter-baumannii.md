@@ -51,7 +51,7 @@ MurD itself requires [[manganese]] or magnesium as catalytic cofactors, meaning 
 
 ## Ecological Role
 
-*A. baumannii* is unusual among ESKAPE pathogens in being a strict aerobe, which limits gut colonization but enhances environmental persistence on dry hospital surfaces. Its ecological strategy centers on rapid metal acquisition and robust metal efflux, allowing it to thrive in environments contaminated with heavy metals -- the same environments where antibiotic resistance is co-selected.
+*A. baumannii* is unusual among ESKAPE pathogens in being a strict aerobe, which limits gut colonization but enhances environmental persistence on dry hospital surfaces. Its ecological strategy centers on rapid metal acquisition and robust metal efflux, allowing it to thrive in environments contaminated with [[heavy-metals]] -- the same environments where antibiotic resistance is co-selected.
 
 ### Cadmium as a Selective Pressure
 

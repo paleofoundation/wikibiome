@@ -118,7 +118,7 @@ A unifying framework proposes that metal dyshomeostasis initiates vulnerability,
 
 ### Metal-Microbiome-Behavior Link
 
-Heavy metal load, microbiome-associated metabolites, and catecholamine ratios together account for 32% of variance in social behaviors in children. The gut microbiome alters the metabolic outcomes of heavy metals, and heavy metals influence microbiome viability and metabolism -- creating a bidirectional interaction where iron, zinc, and copper displacement by toxic metals disrupts microbial enzyme function [[krajewski-2025-heavy-metals-microbiome-metabolites-children-behavior]].
+Heavy metal load, microbiome-associated metabolites, and catecholamine ratios together account for 32% of variance in social behaviors in children. The gut microbiome alters the metabolic outcomes of [[heavy-metals]], and heavy metals influence microbiome viability and metabolism -- creating a bidirectional interaction where iron, zinc, and copper displacement by toxic metals disrupts microbial enzyme function [[krajewski-2025-heavy-metals-microbiome-metabolites-children-behavior]].
 
 ## Nutritional Immunity
 

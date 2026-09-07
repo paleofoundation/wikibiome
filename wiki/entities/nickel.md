@@ -270,7 +270,7 @@ A striking connection has emerged between nickel sensitivity and [[endometriosis
 ### Alzheimer's Disease
 
 - Nickel promotes [[amyloid-beta]] aggregation 5.7-fold and is the most abundant metal contaminant in recombinant Abeta40 (72.5 mmol/mol) [[benoit-2021-nickel-chelator-inhibits-amyloid-beta]]. The nickel-specific chelator DMG inhibited aggregation 40-85%, suggesting nickel removal as a therapeutic target distinct from the well-studied copper and zinc chelation approaches (see Mis-metallation section above).
-- Included in reviews of dietary heavy metals and neurodegeneration [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]], [[ahmed-2025-metals-alzheimers-mechanistic-review]].
+- Included in reviews of dietary [[heavy-metals]] and neurodegeneration [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]], [[ahmed-2025-metals-alzheimers-mechanistic-review]].
 
 ### Parkinson's Disease
 
@@ -550,7 +550,7 @@ Disease associations:
 - [[metal-carcinogenesis]] -- IARC Group 1; epigenetic mechanisms
 - [[metallomics]] -- serum Ni as biomarker in lung cancer and COPD
 - [[developmental-metal-vulnerability]] -- children exceed TDI; NEC in preterm infants
-- [[heavy-metals]] -- nickel is classified among the toxic heavy metals; IARC Group 1 carcinogen (nickel compounds)
+- Heavy Metals -- nickel is classified among the toxic heavy metals; IARC Group 1 carcinogen (nickel compounds)
 - [[environmental-metal-exposure]] -- dietary nickel, occupational exposure, fertilizers, and consumer product contact as primary exposure routes
 - [[gut-metal-microbiome]] -- nickel shapes microbial community composition
 - [[gut-brain-axis]] -- nickel-driven dysbiosis mediates neurodegeneration

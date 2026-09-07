@@ -72,7 +72,7 @@ Magnesium deficiency is consistently associated with metabolic features of PCOS:
 
 - Lead follows ionic mechanisms similar to Ca2+, Mg2+, and Fe2+, meaning Pb can displace Mg from binding sites [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].
 - Adequate Mg status may provide partial protection against heavy metal toxicity through competition at shared binding sites.
-- Mg is frequently co-measured with toxic metals in PCOS studies, where it is typically low while heavy metals are elevated [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]].
+- Mg is frequently co-measured with toxic metals in PCOS studies, where it is typically low while [[heavy-metals]] are elevated [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]].
 
 ## Connections
 

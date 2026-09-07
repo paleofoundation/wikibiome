@@ -16,7 +16,7 @@ platform: wikibiome
 
 Tau is a microtubule-associated protein essential for maintaining the structural integrity of neuronal axons. In health, tau binds to and stabilizes microtubules, enabling axonal transport of organelles, vesicles, and signaling molecules. When tau becomes hyperphosphorylated -- acquiring excess phosphate groups at specific serine and threonine residues -- it detaches from microtubules, misfolds, and aggregates into neurofibrillary tangles (NFTs), one of the two hallmark pathological features of [[alzheimers-disease]] (the other being [[amyloid-beta]] plaques).
 
-The metallomics perspective reveals that heavy metals promote tau hyperphosphorylation through multiple converging mechanisms, and that the [[gut-microbiome]] contributes to this process via neuroinflammatory signaling through the [[gut-brain-axis]].
+The metallomics perspective reveals that [[heavy-metals]] promote tau hyperphosphorylation through multiple converging mechanisms, and that the [[gut-microbiome]] contributes to this process via neuroinflammatory signaling through the [[gut-brain-axis]].
 
 ## Normal Tau Biology
 

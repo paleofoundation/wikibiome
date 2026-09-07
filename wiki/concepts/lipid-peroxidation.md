@@ -26,7 +26,7 @@ Lipid peroxidation is the oxidative degradation of polyunsaturated fatty acids (
 
 ## Metal Drivers
 
-Heavy metals are potent initiators of lipid peroxidation:
+[[heavy-metals]] are potent initiators of lipid peroxidation:
 
 - Iron: Fe2+ catalyzes Fenton chemistry (Fe2+ + H2O2 → Fe3+ + OH• + OH−), generating hydroxyl radicals that attack membrane PUFAs. This is the basis of [[ferroptosis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[riederer-2021-iron-concert-master-parkinsons]].
 - Nickel: Induces lipid peroxidation in brain tissue, correlating with neurobehavioral deficits [[lamtai-2018-nickel-neurobehavior]].

@@ -66,7 +66,7 @@ The gut resistome is modulated by diet:
 
 ## The Persistence Problem
 
-Metals are permanent selective pressures -- unlike antibiotics, which degrade and can be withdrawn, heavy metals persist indefinitely in soils, water, and the food chain. This means MGEs carrying co-located MRGs and ARGs are maintained in bacterial populations even in the complete absence of antibiotic use, as long as metal contamination persists [[baker-austin-2006-co-selection-antibiotic-metal-resistance]].
+Metals are permanent selective pressures -- unlike antibiotics, which degrade and can be withdrawn, [[heavy-metals]] persist indefinitely in soils, water, and the food chain. This means MGEs carrying co-located MRGs and ARGs are maintained in bacterial populations even in the complete absence of antibiotic use, as long as metal contamination persists [[baker-austin-2006-co-selection-antibiotic-metal-resistance]].
 
 ## Biofilm and HGT
 

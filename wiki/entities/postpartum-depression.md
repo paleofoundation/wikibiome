@@ -127,7 +127,7 @@ Tryptophan metabolism is disrupted during the peripartum period in PPD patients:
 
 [[jacobson-2022-environmental-chemicals-perinatal-psychopathology|Jacobson et al. (2022)]] provided the most comprehensive review of environmental chemical exposures and perinatal depression:
 
-- Heavy metals: Evidence is sparse with mixed results. Only one longitudinal study on prenatal manganese reported a positive association with PPD (beta=0.13, 95% CI 0.04-0.21 for 3rd trimester blood Mn). Lead and cadmium studies were limited.
+- [[heavy-metals]]: Evidence is sparse with mixed results. Only one longitudinal study on prenatal manganese reported a positive association with PPD (beta=0.13, 95% CI 0.04-0.21 for 3rd trimester blood Mn). Lead and cadmium studies were limited.
 - Environmental tobacco smoke: The most consistent environmental exposure, with OR=1.49 (95% CI 1.23-1.80) for PPD. ETS carries Cd, Pb, and Ni alongside organic toxicants.
 - Traffic-related air pollution: [[hu-2025-traffic-air-pollution-hdp-postpartum-depression|Hu et al. (2025)]] found that prenatal NO2 from major roads was associated with 3.06% higher postpartum distress scores. Major road PM carries trace metals from brake/tire wear.
 - PBDEs: Consistently associated with increased antenatal depression; BDE-47 drove mixture effects (OR=2.93).

@@ -33,7 +33,7 @@ Endothelial dysfunction is the impairment of the vascular endothelium's ability 
 
 ## Metal Connections
 
-- Heavy metals generate [[reactive-oxygen-species|ROS]] that scavenge NO (superoxide + NO → peroxynitrite), directly impairing vasodilation.
+- [[heavy-metals]] generate [[reactive-oxygen-species|ROS]] that scavenge NO (superoxide + NO → peroxynitrite), directly impairing vasodilation.
 - Lead and cadmium impair eNOS cofactor (BH4) recycling.
 
 ## Cross-References

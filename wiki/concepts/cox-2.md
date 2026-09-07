@@ -28,7 +28,7 @@ Cyclooxygenase-2 (COX-2) is the inducible enzyme that converts [[arachidonic-aci
 
 This is the core inflammatory pathway connecting metal exposure to prostaglandin-mediated disease:
 
-1. Heavy metals ([[cadmium]], [[nickel]], [[lead]], [[arsenic]]) generate [[reactive-oxygen-species|ROS]] → oxidize IkB kinase → activate [[nf-kappa-b]] [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]] [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].
+1. [[heavy-metals]] ([[cadmium]], [[nickel]], [[lead]], [[arsenic]]) generate [[reactive-oxygen-species|ROS]] → oxidize IkB kinase → activate [[nf-kappa-b]] [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]] [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].
 2. NF-kB translocates to the nucleus → transcribes COX-2, [[interleukin-6|IL-6]], [[tnf-alpha|TNF-alpha]], [[il-1beta]], and iNOS.
 3. COX-2 converts membrane [[arachidonic-acid]] to PGE₂.
 4. PGE₂ drives vasodilation, edema, pain, fever, and — critically — promotes tumor cell proliferation, angiogenesis, and immune evasion in cancer.

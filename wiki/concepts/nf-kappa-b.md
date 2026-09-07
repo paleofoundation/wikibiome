@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # NF-kB Signaling Pathway
 
-Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB) is a family of transcription factors that regulate [[inflammation]], immune responses, cell survival, and proliferation. NF-kB is a convergence point where metal toxicity, pathogen signaling, and chronic disease intersect -- activated by heavy metals, LPS, cytokines, and [[oxidative-stress]] through overlapping upstream pathways.
+Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB) is a family of transcription factors that regulate [[inflammation]], immune responses, cell survival, and proliferation. NF-kB is a convergence point where metal toxicity, pathogen signaling, and chronic disease intersect -- activated by [[heavy-metals]], LPS, cytokines, and [[oxidative-stress]] through overlapping upstream pathways.
 
 ## Core Pathway
 

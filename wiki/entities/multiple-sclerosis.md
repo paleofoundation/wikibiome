@@ -96,7 +96,7 @@ The missing link is step 1 applied specifically to MS. Do MS patients have alter
 
 ## Environmental Metal Exposure Links
 
-Direct case-control evidence links environmental metal exposure to MS risk: in a Turkish cohort, urinary Ni, Cd, Pb, Al, As, Cu, Mn, Ag, Ba, Cs, Rb, and Sr were all significantly elevated in MS patients, and heavy metals collectively carried ~1.5-fold increased MS risk [[gunal-2018-heavy-metals-sialic-acid-ms]]. Beyond this:
+Direct case-control evidence links environmental metal exposure to MS risk: in a Turkish cohort, urinary Ni, Cd, Pb, Al, As, Cu, Mn, Ag, Ba, Cs, Rb, and Sr were all significantly elevated in MS patients, and [[heavy-metals]] collectively carried ~1.5-fold increased MS risk [[gunal-2018-heavy-metals-sialic-acid-ms]]. Beyond this:
 
 - Smoking (Cd, Pb, Ni) is an established MS risk factor, increasing risk approximately 1.5-fold
 - Mercury from dental amalgams was historically hypothesized as an MS trigger, but epidemiological evidence does not support a causal link

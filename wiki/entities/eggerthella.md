@@ -34,7 +34,7 @@ What distinguishes *Eggerthella* from a WikiBiome perspective is its role at the
 - Cobalt: The cardiac glycoside reductase (Cgr) operon that inactivates digoxin requires cobalamin (vitamin B12) as a cofactor, linking cobalt availability to drug metabolism.
 - Molybdenum: Molybdopterin-dependent enzymes participate in the reductive metabolism that defines the genus.
 
-Unlike many strict anaerobes that are sensitive to heavy metals, *Eggerthella* appears to be metal-tolerant. In multiple sclerosis cohorts, *E. lenta* expands precisely when metal-sensitive Clostridia are depleted -- a pattern consistent with [[cadmium]], [[lead]], and [[nickel]] exposure selectively removing competitors ([[miyake-2015-dysbiosis-ms-clostridia-depletion]], cross-sectional).
+Unlike many strict anaerobes that are sensitive to [[heavy-metals]], *Eggerthella* appears to be metal-tolerant. In multiple sclerosis cohorts, *E. lenta* expands precisely when metal-sensitive Clostridia are depleted -- a pattern consistent with [[cadmium]], [[lead]], and [[nickel]] exposure selectively removing competitors ([[miyake-2015-dysbiosis-ms-clostridia-depletion]], cross-sectional).
 
 ## Key Enzymes and Virulence Factors
 

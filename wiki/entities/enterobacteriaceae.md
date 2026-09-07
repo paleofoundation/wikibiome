@@ -48,7 +48,7 @@ Enterobacteriaceae expansion is enriched in virtually every disease state:
 ## Metal-Antibiotic Co-Resistance
 
 - Enterobacteriaceae frequently carry plasmids encoding both metal resistance genes and antibiotic resistance genes on the same mobile genetic elements.
-- Exposure to heavy metals can co-select for antibiotic resistance even without antibiotic exposure, through co-resistance and cross-resistance mechanisms.
+- Exposure to [[heavy-metals]] can co-select for antibiotic resistance even without antibiotic exposure, through co-resistance and cross-resistance mechanisms.
 - Metal efflux pumps (e.g., CzcCBA for Cd/Zn/Co, CopA for Cu) share regulatory elements with multidrug efflux systems.
 - This co-resistance positions Enterobacteriaceae as a nexus linking environmental metal contamination to the antimicrobial resistance crisis.
 

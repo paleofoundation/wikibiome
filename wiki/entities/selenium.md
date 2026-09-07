@@ -198,7 +198,7 @@ Selenium depletion is one of the most consistent findings across cancer metallom
 
 ### Autism Spectrum Disorder
 
-- In a hair element study of 181 children (57 controls, 53 mild-moderate ASD, 71 severe ASD), no significant differences in selenium, zinc, iron, or magnesium were found between groups -- though heavy metals (V, Co, Ni, As, Cd, Pb) were significantly elevated in severe ASD [[zhou-2025-heavy-metals-essential-minerals-hair-asd-severity]].
+- In a hair element study of 181 children (57 controls, 53 mild-moderate ASD, 71 severe ASD), no significant differences in selenium, zinc, iron, or magnesium were found between groups -- though [[heavy-metals]] (V, Co, Ni, As, Cd, Pb) were significantly elevated in severe ASD [[zhou-2025-heavy-metals-essential-minerals-hair-asd-severity]].
 - In a meta-analysis of two enriched-risk pregnancy cohorts (n=401), prenatal selenium was not consistently associated with ASD risk, though cadmium above detection level was associated with 1.69x higher ASD risk [[dou-2024-heavy-metals-utero-asd-age3-meta-analysis]].
 
 ### Environmental and Thyroid Disruption

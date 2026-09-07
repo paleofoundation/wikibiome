@@ -81,7 +81,7 @@ The virome does not operate in isolation. In schizophrenia, tripartite analysis 
 
 ## Open Questions
 
-- Metal effects on phages: Do heavy metals directly affect phage stability or host range? Prophage induction under metal stress could reshape the virome.
+- Metal effects on phages: Do [[heavy-metals]] directly affect phage stability or host range? Prophage induction under metal stress could reshape the virome.
 - Phage-metal resistance transfer: Phages are major vectors for horizontal gene transfer -- do they spread metal resistance genes alongside ARGs?
 - Temporal dynamics: The NEC virome convergence finding suggests phage shifts precede bacterial dysbiosis. Is this pattern general across diseases?
 - Therapeutic targeting: Can phage cocktails be designed to selectively remove metal-tolerant pathobionts while sparing Fe-S-dependent commensals?

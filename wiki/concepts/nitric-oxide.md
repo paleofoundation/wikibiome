@@ -32,7 +32,7 @@ last_substantive_update: 2026-04-22
 
 ## Overview
 
-Nitric oxide (NO) is a gaseous signaling molecule with roles spanning vasodilation, immune defense, neurotransmission, and gut barrier maintenance. In the microbiome context, NO sits at the intersection of host physiology and microbial metabolism — gut bacteria both produce and consume nitrogen oxides, while heavy metals interfere with the host enzymes that generate NO.
+Nitric oxide (NO) is a gaseous signaling molecule with roles spanning vasodilation, immune defense, neurotransmission, and gut barrier maintenance. In the microbiome context, NO sits at the intersection of host physiology and microbial metabolism — gut bacteria both produce and consume nitrogen oxides, while [[heavy-metals]] interfere with the host enzymes that generate NO.
 
 ## Biosynthesis
 

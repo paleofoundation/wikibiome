@@ -84,7 +84,7 @@ SCFA depletion increases amyloid burden: SCFA-producing bacteria (*Faecalibacter
 The blood-brain barrier (BBB) normally prevents LPS, microbial products, and amyloid-seeding proteins from reaching brain parenchyma. Gut dysbiosis compromises the BBB through multiple mechanisms:
 - Decreased butyrate production reduces tight junction protein expression in BBB endothelial cells
 - Systemic LPS directly increases BBB permeability via TLR4 signaling
-- Heavy metals (lead, cadmium) directly disrupt BBB tight junctions — providing the gateway for microbial products to reach the brain at concentrations that drive chronic Aβ overproduction [[ahmed-2025-metals-alzheimers-mechanistic-review]]
+- [[heavy-metals]] (lead, cadmium) directly disrupt BBB tight junctions — providing the gateway for microbial products to reach the brain at concentrations that drive chronic Aβ overproduction [[ahmed-2025-metals-alzheimers-mechanistic-review]]
 
 Once the BBB is compromised, the loop closes: microbial products drive more Aβ production, Aβ aggregation drives neuroinflammation, neuroinflammation increases BBB permeability, and more microbial products enter.
 

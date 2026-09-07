@@ -24,7 +24,7 @@ conditions_depleted_in: [crohns-disease, ulcerative-colitis, breast-cancer, colo
 
 Christensenellaceae is a family of Gram-negative, strictly anaerobic bacteria within the order Clostridiales (phylum Firmicutes) that has emerged as one of the most consistently health-associated and heritable members of the human [[gut-microbiome]]. First formally described in 2012, the family's flagship member is the R-7 group, a phylotype that appears across microbiome studies as a reliable indicator of metabolic health.
 
-What makes Christensenellaceae remarkable is a paradox: it is among the most heritable gut taxa (twin studies show host genetics strongly influence its abundance), yet it is also exquisitely sensitive to environmental perturbation. This combination positions it as a keystone commensal -- a family whose depletion signals that the gut ecosystem has been destabilized, whether by heavy metals, [[inflammation]], or metabolic disease.
+What makes Christensenellaceae remarkable is a paradox: it is among the most heritable gut taxa (twin studies show host genetics strongly influence its abundance), yet it is also exquisitely sensitive to environmental perturbation. This combination positions it as a keystone commensal -- a family whose depletion signals that the gut ecosystem has been destabilized, whether by [[heavy-metals]], [[inflammation]], or metabolic disease.
 
 ## Metal Dependencies
 

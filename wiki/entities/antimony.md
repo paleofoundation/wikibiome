@@ -36,7 +36,7 @@ Antimony has no known essential biological function. Its toxicological significa
 
 ### PCOS Association
 
-Antimony has been measured alongside other heavy metals in PCOS metallomic studies. The PCOS metallomic profile includes elevations of multiple toxic metals (Cd, Pb, Ni, and Sb) alongside oxidative stress marker disruption [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]], [[kirmizi-2020-heavy-metals-pcos]]. Whether antimony independently contributes to PCOS pathophysiology or is a marker of broader environmental metal burden remains unresolved.
+Antimony has been measured alongside other [[heavy-metals]] in PCOS metallomic studies. The PCOS metallomic profile includes elevations of multiple toxic metals (Cd, Pb, Ni, and Sb) alongside oxidative stress marker disruption [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]], [[kirmizi-2020-heavy-metals-pcos]]. Whether antimony independently contributes to PCOS pathophysiology or is a marker of broader environmental metal burden remains unresolved.
 
 ### Rheumatoid Arthritis
 
@@ -71,5 +71,5 @@ These are plausible but unverified hypotheses. <!-- NEEDS VERIFICATION: No direc
 - [[arsenic]] -- chemical cousin; shared Group 15 chemistry and aquaporin entry
 - [[pcos]] -- co-elevated with other toxic metals in metallomic studies
 - [[lead]] -- co-occurs in environmental exposures and alloys
-- [[heavy-metals]] -- classification and general mechanisms
+- Heavy Metals -- classification and general mechanisms
 - oxidative stress -- primary mechanism of antimony toxicity

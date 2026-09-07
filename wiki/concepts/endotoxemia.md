@@ -36,7 +36,7 @@ Endotoxemia is the presence of bacterial endotoxin (lipopolysaccharide, LPS) in 
 
 ## Metal-Microbiome Connection
 
-Heavy metals drive endotoxemia through a two-hit mechanism:
+[[heavy-metals]] drive endotoxemia through a two-hit mechanism:
 
 - Hit 1: Metals ([[cadmium]], [[lead]], [[arsenic]]) damage tight junctions directly, increasing paracellular permeability [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 - Hit 2: Metals selectively enrich LPS-rich Gram-negative Enterobacteriaceae while depleting barrier-protective SCFA producers ([[faecalibacterium-prausnitzii]], [[roseburia]]), increasing the luminal LPS load available for translocation.

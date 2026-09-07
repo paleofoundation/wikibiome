@@ -203,7 +203,7 @@ The historical epidemic of cadmium poisoning in Toyama Prefecture, Japan (1910s-
 
 *Enterococcus* species carry metal tolerance (MeT) genes for mercury, arsenic, and copper that co-occur with antibiotic resistance (ABR) genes on mobile genetic elements. MeT genes have been present since at least the 1900s, but co-occurrence with ABR genes has increased since the 1990s. These resistance cassettes transfer horizontally across genera [[rebelo-2021-enterococcus-metal-antibiotic-resistance]].
 
-Three molecular mechanisms drive co-selection: (1) co-resistance --- physical linkage on the same plasmid or transposon; (2) cross-resistance --- the same gene conferring resistance to both (e.g., CzcCBA system expelling Co, Zn, Cd and certain antibiotics); and (3) co-regulatory mechanisms --- shared transcriptional responses [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]. Heavy metals, unlike antibiotics, are non-degradable and represent a permanent selective pressure in contaminated environments.
+Three molecular mechanisms drive co-selection: (1) co-resistance --- physical linkage on the same plasmid or transposon; (2) cross-resistance --- the same gene conferring resistance to both (e.g., CzcCBA system expelling Co, Zn, Cd and certain antibiotics); and (3) co-regulatory mechanisms --- shared transcriptional responses [[baker-austin-2006-co-selection-antibiotic-metal-resistance]]. [[heavy-metals]], unlike antibiotics, are non-degradable and represent a permanent selective pressure in contaminated environments.
 
 ## Biomarkers
 
@@ -249,7 +249,7 @@ Three molecular mechanisms drive co-selection: (1) co-resistance --- physical li
 - [[gastric-cancer]] -- Cd elevated in gastric cancer tissue
 - [[metal-chelation-therapy]] -- EDTA and DMSA used for Cd poisoning; limited efficacy due to renal Cd accumulation
 - [[environmental-metal-exposure]] -- dietary and tobacco Cd are the dominant non-occupational exposure routes
-- [[heavy-metals]] -- Cd is among the most toxic heavy metals with a 25--30 year biological half-life
+- Heavy Metals -- Cd is among the most toxic heavy metals with a 25--30 year biological half-life
 - [[biomarkers]] -- urinary Cd and blood Cd as exposure biomarkers; beta-2-microglobulin for nephrotoxicity
 - [[ferroptosis]] -- iron-dependent cell death in Cd-damaged renal tubular cells
 - [[estrobolome]] -- Cd mimics estradiol at picomolar affinity; same glucuronidase enzymes mediate estrogen and androgen recirculation

@@ -41,7 +41,7 @@ TNF-alpha is initially produced as a transmembrane protein (mTNF) and cleaved by
 
 ## Metal-Driven TNF-alpha Production
 
-Heavy metals are potent inducers of TNF-alpha:
+[[heavy-metals]] are potent inducers of TNF-alpha:
 
 - [[cadmium]], [[lead]], [[nickel]], [[arsenic]]: Activate [[nf-kappa-b]] via ROS generation, driving TNF-alpha gene transcription [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
 - Cadmium exposure elevates colonic TNF-alpha alongside IL-6 and dysbiotic microbiome shifts [[liu-2023-environmental-cadmium-rat-microbiota-metabolome]].

@@ -15,7 +15,7 @@ last_substantive_update: 2026-04-11
 
 # Dietary Arsenic Exposure
 
-[[arsenic]] (As) is unique among dietary heavy metals because it exists in two fundamentally different forms with dramatically different toxicities: inorganic arsenic (iAs, the dangerous form) and organic arsenic (arsenobetaine, arsenosugars — largely non-toxic). Understanding which form dominates in which food is essential to evaluating true exposure risk.
+[[arsenic]] (As) is unique among dietary [[heavy-metals]] because it exists in two fundamentally different forms with dramatically different toxicities: inorganic arsenic (iAs, the dangerous form) and organic arsenic (arsenobetaine, arsenosugars — largely non-toxic). Understanding which form dominates in which food is essential to evaluating true exposure risk.
 
 ## Inorganic vs. Organic Arsenic
 

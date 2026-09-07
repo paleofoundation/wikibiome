@@ -61,7 +61,7 @@ The [[nutritional-immunity]] question applies here: is iron deficiency in AITD t
 
 ## Toxic Metal Interference
 
-Heavy metals exploit the thyroid's mineral dependencies:
+[[heavy-metals]] exploit the thyroid's mineral dependencies:
 
 | Metal | Mechanism | Evidence |
 |-------|-----------|----------|

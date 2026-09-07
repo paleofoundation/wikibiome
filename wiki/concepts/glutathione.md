@@ -24,7 +24,7 @@ The most abundant intracellular thiol and the master antioxidant of mammalian ce
 - GSH/GSSG ratio is a primary indicator of cellular redox status; [[oxidative-stress]] shifts this ratio toward GSSG (oxidized glutathione).
 
 ### Metal Detoxification
-- GSH conjugates with heavy metals via its thiol group, facilitating their excretion.
+- GSH conjugates with [[heavy-metals]] via its thiol group, facilitating their excretion.
 - Mercury binds GSH thiol groups with extremely high affinity, depleting the intracellular GSH pool and inhibiting glutathione peroxidase [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
 - Cadmium depletes GSH and induces metallothionein as a secondary defense; Cd-GSH conjugates are transported to the kidney, contributing to nephrotoxicity [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 - Lead reduces GSH, SOD, catalase, and GPx while increasing lipid peroxidation (MDA) and H2O2 in liver and kidney tissue [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].

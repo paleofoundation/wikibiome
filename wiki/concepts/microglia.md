@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Microglia
 
-Microglia are the resident immune cells of the central nervous system, constituting 5-12% of all brain cells. They function as the brain's surveillance and defense system -- scanning for damage, clearing debris, pruning synapses during development, and mounting inflammatory responses against pathogens. What makes microglia critically relevant to the metallomics-microbiome story is that they are the primary brain cells activated by both heavy metals and gut-derived inflammatory signals, making them the cellular mediator through which the [[gut-brain-axis]] produces neurodegeneration.
+Microglia are the resident immune cells of the central nervous system, constituting 5-12% of all brain cells. They function as the brain's surveillance and defense system -- scanning for damage, clearing debris, pruning synapses during development, and mounting inflammatory responses against pathogens. What makes microglia critically relevant to the metallomics-microbiome story is that they are the primary brain cells activated by both [[heavy-metals]] and gut-derived inflammatory signals, making them the cellular mediator through which the [[gut-brain-axis]] produces neurodegeneration.
 
 ## Biology and Polarization States
 

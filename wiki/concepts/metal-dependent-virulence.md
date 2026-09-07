@@ -118,7 +118,7 @@ The fundamental dynamic is an arms race: pathogens evolve increasingly sophistic
 Who wins this arms race determines infection outcome. And critically, this balance can be externally disrupted:
 
 - Dietary/environmental metal excess: Soy-based infant formula delivers 10x more nickel than cow's milk formula, potentially overwhelming calprotectin-mediated Ni sequestration and fueling NEC-associated pathogen virulence [[pendergrass-2026-nickel-nec-preterm-gut]]. Iron supplementation in infants increases Enterobacteriaceae and decreases *Lactobacillus* [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
-- Metal-driven dysbiosis: Heavy metals selectively enrich metal-tolerant pathobionts over SCFA-producing commensals, creating conditions favorable to infection [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Metal-driven dysbiosis: [[heavy-metals]] selectively enrich metal-tolerant pathobionts over SCFA-producing commensals, creating conditions favorable to infection [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - Co-selection of metal and antibiotic resistance: Environmental metal exposure drives co-selection for antibiotic resistance genes on the same mobile elements, compounding the virulence threat [[rebelo-2021-enterococcus-metal-antibiotic-resistance]].
 
 Human breast milk may represent an evolved countermeasure: it is naturally nickel-poor (0.005-0.016 mg/L), potentially starving Ni-dependent gut pathogens of their essential cofactor [[pendergrass-2026-nickel-nec-preterm-gut]].

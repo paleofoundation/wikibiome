@@ -55,7 +55,7 @@ A Gram-negative intracellular pathogen causing bacillary dysentery (shigellosis)
 - Children under 5: bear the greatest burden; shigellosis is a leading cause of diarrheal death in this age group.
 - Antibiotic resistance: multidrug-resistant *Shigella* is increasingly common; WHO lists fluoroquinolone-resistant *Shigella* as a priority pathogen.
 - Reactive arthritis: post-infectious joint [[inflammation]], similar to [[campylobacter-jejuni]].
-- Metal exposure in endemic regions (contaminated water sources containing heavy metals) may promote Enterobacteriaceae enrichment in the gut, potentially favoring *Shigella* colonization [[zhu-2024-toxic-essential-metals-gut-microbiota]].
+- Metal exposure in endemic regions (contaminated water sources containing [[heavy-metals]]) may promote Enterobacteriaceae enrichment in the gut, potentially favoring *Shigella* colonization [[zhu-2024-toxic-essential-metals-gut-microbiota]].
 
 ## Key Sources
 

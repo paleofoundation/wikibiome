@@ -54,7 +54,7 @@ platform: wikibiome
 
 ## Metal Detoxification Capacity
 
-One of the most distinctive aspects of *L. rhamnosus* from a WikiBiome perspective is its ability to bind and sequester heavy metals:
+One of the most distinctive aspects of *L. rhamnosus* from a WikiBiome perspective is its ability to bind and sequester [[heavy-metals]]:
 
 - Cadmium and lead biosorption — Cell wall components (peptidoglycan, teichoic acids, polysaccharides) provide binding sites for Cd2+ and Pb2+, reducing their bioavailability in the gut lumen
 - Mercury binding — Thiol groups in cell wall proteins chelate Hg2+

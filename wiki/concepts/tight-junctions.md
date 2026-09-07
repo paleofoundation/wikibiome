@@ -30,7 +30,7 @@ Tight junctions are the multiprotein complexes that seal the paracellular space 
 Claudin family proteins (27 members in humans) form the backbone of tight junction strands. Claudin-1, -3, -4, -5, and -7 are "sealing" claudins that restrict paracellular permeability; claudin-2 is a pore-forming claudin that increases permeability when upregulated (common in IBD). Claudin-5 is the primary tight junction protein of the blood-brain barrier — its downregulation enables neuroinflammation [[safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis]].
 
 ### Occludin
-Occludin regulates tight junction assembly and stability. Its phosphorylation state determines whether it promotes barrier tightening or loosening. Heavy metals ([[cadmium]], [[lead]]) disrupt occludin localization [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
+Occludin regulates tight junction assembly and stability. Its phosphorylation state determines whether it promotes barrier tightening or loosening. [[heavy-metals]] ([[cadmium]], [[lead]]) disrupt occludin localization [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 
 ### Zonula Occludens (ZO-1, ZO-2, ZO-3)
 ZO proteins are cytoplasmic scaffolding proteins that anchor claudins and occludin to the actin cytoskeleton. ZO-1 downregulation is a consistent finding in [[dysbiosis]]-associated barrier failure. [[zonulin]] (pre-haptoglobin-2) triggers ZO-1 disassembly, opening the paracellular pathway.

@@ -22,7 +22,7 @@ wikipedia_differentiation: "Bidirectional vicious cycle analysis showing metals 
 
 # Chronic Kidney Disease (CKD)
 
-A progressive loss of kidney function affecting approximately 850 million people worldwide (10–14% of adults), causing 1.2 million deaths annually. CKD is unique among diseases in this wiki because it occupies both sides of the metal-disease equation: heavy metals (Cd, Pb, Hg, As) directly cause nephrotoxic injury, AND kidney dysfunction impairs metal excretion, creating a vicious cycle of accumulation and damage. Beyond metals, two independent lines of Mendelian randomization evidence now establish that specific gut and oral microbiome taxa are causally linked to CKD risk and progression.
+A progressive loss of kidney function affecting approximately 850 million people worldwide (10–14% of adults), causing 1.2 million deaths annually. CKD is unique among diseases in this wiki because it occupies both sides of the metal-disease equation: [[heavy-metals]] (Cd, Pb, Hg, As) directly cause nephrotoxic injury, AND kidney dysfunction impairs metal excretion, creating a vicious cycle of accumulation and damage. Beyond metals, two independent lines of Mendelian randomization evidence now establish that specific gut and oral microbiome taxa are causally linked to CKD risk and progression.
 
 ## Metallomic Signature
 

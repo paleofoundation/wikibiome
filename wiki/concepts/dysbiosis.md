@@ -108,7 +108,7 @@ Metal-induced dysbiosis is self-amplifying:
 
 1. Metal exposure kills sensitive commensals, favoring metal-tolerant pathobionts.
 2. Loss of SCFA producers weakens the gut epithelial barrier (butyrate fuels colonocytes and maintains tight junctions).
-3. Barrier breakdown increases metal absorption (germ-free mice absorb significantly more heavy metals than conventional mice) [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
+3. Barrier breakdown increases metal absorption (germ-free mice absorb significantly more [[heavy-metals]] than conventional mice) [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 4. Increased metal absorption further disrupts the microbiome systemically.
 5. LPS translocation through the leaky barrier activates systemic inflammation.
 6. Inflammation reinforces dysbiosis: hepcidin elevation, calprotectin release, and [[oxidative-stress]] further alter the luminal metal environment, selecting against commensals.

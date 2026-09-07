@@ -19,7 +19,7 @@ The 6-24 month developmental window — when infants transition from breast milk
 
 ## The Core Problem
 
-Every published survey of commercial infant foods finds the same pattern: all products contain detectable heavy metals, and many exceed safety thresholds when evaluated against developing bodies.
+Every published survey of commercial infant foods finds the same pattern: all products contain detectable [[heavy-metals]], and many exceed safety thresholds when evaluated against developing bodies.
 
 | Study | Country | Products | Key Findings |
 |-------|---------|----------|-------------|

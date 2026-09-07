@@ -87,7 +87,7 @@ Glutathione (gamma-glutamyl-cysteinyl-glycine) is the most abundant intracellula
 - A conjugation agent for electrophilic xenobiotics (via glutathione S-transferases).
 - A reservoir of cysteine for protein synthesis.
 
-The GSH/GSSG ratio (reduced-to-oxidized glutathione) is a key indicator of cellular redox status. Heavy metals interact with GSH in multiple ways: [[arsenic]] and [[mercury]] deplete GSH through direct thiol binding and conjugation [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]; [[cadmium]] forms organo-metallic complexes with GSH sulfhydryl groups [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]; [[chromium]](VI) reduction to Cr(III) by GSH generates hydroxyl radicals as intermediates [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
+The GSH/GSSG ratio (reduced-to-oxidized glutathione) is a key indicator of cellular redox status. [[heavy-metals]] interact with GSH in multiple ways: [[arsenic]] and [[mercury]] deplete GSH through direct thiol binding and conjugation [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]; [[cadmium]] forms organo-metallic complexes with GSH sulfhydryl groups [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]; [[chromium]](VI) reduction to Cr(III) by GSH generates hydroxyl radicals as intermediates [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
 
 PCOS patients show significantly decreased serum GSH levels (6.24 vs 8.09 mg/ml; P < 0.001) with strong negative correlations between heavy metals (As, Pb, Hg) and GSH [[abudawood-2021-antioxidant-heavy-metals-pcos]].
 

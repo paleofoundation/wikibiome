@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Epigenetics
 
-Epigenetics is the study of heritable changes in gene expression that occur without alterations to the DNA sequence itself. These changes -- primarily DNA methylation, histone modifications, and non-coding RNA regulation -- represent a molecular memory system that can be reprogrammed by environmental exposures, including heavy metals and microbial signals. Epigenetics provides the mechanistic bridge between metal exposure and long-term disease risk, explaining how a transient environmental insult can produce lasting biological consequences, and why developmental timing of exposure matters as much as dose.
+Epigenetics is the study of heritable changes in gene expression that occur without alterations to the DNA sequence itself. These changes -- primarily DNA methylation, histone modifications, and non-coding RNA regulation -- represent a molecular memory system that can be reprogrammed by environmental exposures, including [[heavy-metals]] and microbial signals. Epigenetics provides the mechanistic bridge between metal exposure and long-term disease risk, explaining how a transient environmental insult can produce lasting biological consequences, and why developmental timing of exposure matters as much as dose.
 
 For the specific role of epigenetic mechanisms in cancer, see [[epigenetic-modifications]].
 

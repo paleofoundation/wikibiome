@@ -45,7 +45,7 @@ Hydrogen sulfide is a gaseous signaling molecule (gasotransmitter) produced by b
 
 ## Metal Connection
 
-- H₂S binds and precipitates heavy metals (forming insoluble metal sulfides), potentially serving as a detoxification mechanism in the gut — but this also alters metal bioavailability for the microbiome.
+- H₂S binds and precipitates [[heavy-metals]] (forming insoluble metal sulfides), potentially serving as a detoxification mechanism in the gut — but this also alters metal bioavailability for the microbiome.
 - Iron-sulfur cluster enzymes throughout the microbiome are sensitive to H₂S levels.
 
 ## Cross-References

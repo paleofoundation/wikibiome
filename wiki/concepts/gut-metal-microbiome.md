@@ -16,7 +16,7 @@ last_substantive_update: 2026-09-07
 
 ## Overview
 
-The relationship between heavy metals and the gut microbiota is bidirectional: metals reshape microbial community composition and metabolic output, while the microbiota modulates metal absorption, speciation, and toxicity. The gut microbiota serves as the first line of defense against ingested heavy metals, and its disruption by metal exposure creates a vicious cycle of [[dysbiosis]], barrier breakdown, increased absorption, and systemic toxicity. This is one of the most densely supported topics in the metal toxicology literature, with evidence spanning animal models, human cohorts, and in vitro systems.
+The relationship between [[heavy-metals]] and the gut microbiota is bidirectional: metals reshape microbial community composition and metabolic output, while the microbiota modulates metal absorption, speciation, and toxicity. The gut microbiota serves as the first line of defense against ingested heavy metals, and its disruption by metal exposure creates a vicious cycle of [[dysbiosis]], barrier breakdown, increased absorption, and systemic toxicity. This is one of the most densely supported topics in the metal toxicology literature, with evidence spanning animal models, human cohorts, and in vitro systems.
 
 ## Direction 1: Metals Alter the Microbiome
 

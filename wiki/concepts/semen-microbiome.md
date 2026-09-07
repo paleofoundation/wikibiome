@@ -23,7 +23,7 @@ Unlike the well-characterized vaginal microbiome, the semen microbiome is an eme
 
 ## Environmental and Metal Influences
 
-Environmental exposures, including heavy metals, significantly alter seminal microbial composition and sperm quality ([[neto-2024-environmental-factors-seminal-microbiome-sperm-quality]]). Metal-dependent selective pressure on seminal bacteria parallels patterns observed in the gut: organisms with superior metal acquisition or resistance mechanisms gain competitive advantage in metal-burdened environments. Probiotic interventions targeting the gut-prostate axis have shown promise in modulating both prostatic [[inflammation]] and associated seminal microbial shifts ([[vocca-2025-probiotics-chronic-bacterial-prostatitis-rct]]).
+Environmental exposures, including [[heavy-metals]], significantly alter seminal microbial composition and sperm quality ([[neto-2024-environmental-factors-seminal-microbiome-sperm-quality]]). Metal-dependent selective pressure on seminal bacteria parallels patterns observed in the gut: organisms with superior metal acquisition or resistance mechanisms gain competitive advantage in metal-burdened environments. Probiotic interventions targeting the gut-prostate axis have shown promise in modulating both prostatic [[inflammation]] and associated seminal microbial shifts ([[vocca-2025-probiotics-chronic-bacterial-prostatitis-rct]]).
 
 ## Cross-References
 

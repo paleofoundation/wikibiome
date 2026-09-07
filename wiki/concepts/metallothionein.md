@@ -22,7 +22,7 @@ platform: wikibiome
 
 # Metallothionein
 
-A family of small (6-7 kDa), cysteine-rich proteins that bind heavy metals with extraordinary affinity. Metallothioneins (MTs) are the cell's primary chemical defense against metal toxicity -- they sequester cadmium, mercury, lead, and other toxic metals, preventing them from reaching sensitive enzyme targets. But the metallothionein story is more nuanced than simple detoxification. These proteins also regulate the homeostasis of essential metals (zinc and copper), and in cancer biology, their protective role paradoxically enables tumor progression and drug resistance.
+A family of small (6-7 kDa), cysteine-rich proteins that bind [[heavy-metals]] with extraordinary affinity. Metallothioneins (MTs) are the cell's primary chemical defense against metal toxicity -- they sequester cadmium, mercury, lead, and other toxic metals, preventing them from reaching sensitive enzyme targets. But the metallothionein story is more nuanced than simple detoxification. These proteins also regulate the homeostasis of essential metals (zinc and copper), and in cancer biology, their protective role paradoxically enables tumor progression and drug resistance.
 
 ## Structure and Binding
 

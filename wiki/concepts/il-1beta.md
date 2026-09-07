@@ -21,7 +21,7 @@ karen_brain_primitives: [1, 2]
 
 ## Overview
 
-Interleukin-1 beta (IL-1β) is a master pro-inflammatory cytokine and the primary product of the [[nlrp3-inflammasome|NLRP3 inflammasome]]. Unlike [[interleukin-6|IL-6]] and [[tnf-alpha|TNF-alpha]] (which are transcriptionally regulated by [[nf-kappa-b]]), IL-1β requires a two-step activation: (1) NF-kB-driven transcription of pro-IL-1β, then (2) caspase-1 cleavage within the NLRP3 inflammasome complex to release the active cytokine. This two-signal requirement makes IL-1β the most tightly regulated of the inflammatory triad — and heavy metals can provide both signals.
+Interleukin-1 beta (IL-1β) is a master pro-inflammatory cytokine and the primary product of the [[nlrp3-inflammasome|NLRP3 inflammasome]]. Unlike [[interleukin-6|IL-6]] and [[tnf-alpha|TNF-alpha]] (which are transcriptionally regulated by [[nf-kappa-b]]), IL-1β requires a two-step activation: (1) NF-kB-driven transcription of pro-IL-1β, then (2) caspase-1 cleavage within the NLRP3 inflammasome complex to release the active cytokine. This two-signal requirement makes IL-1β the most tightly regulated of the inflammatory triad — and [[heavy-metals]] can provide both signals.
 
 ## Metal Connection
 

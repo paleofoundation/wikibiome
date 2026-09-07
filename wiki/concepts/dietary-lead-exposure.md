@@ -58,7 +58,7 @@ Children absorb 40-50% of ingested lead (vs. 3-10% in adults) due to immature gu
 - All 10 commercial baby food products tested in one study contained detectable lead [[garuba-2024-heavy-metals-commercial-baby-foods]]
 - Baby food jars (Tenerife study) showed lead among detected contaminants, alongside aluminum, nickel, and cadmium [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]]
 - FDA has established an action level of 20 ppb for lead in baby food (one of the few regulated metals in infant foods) [[pendergrass-2026-certification-infant-food-metals]]
-- 345 pending legal claims related to heavy metals in baby food underscore the regulatory failure
+- 345 pending legal claims related to [[heavy-metals]] in baby food underscore the regulatory failure
 
 ## Lead and the Gut Microbiome
 

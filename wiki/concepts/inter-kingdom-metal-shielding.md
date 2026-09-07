@@ -76,7 +76,7 @@ The gut microbiome functions as a collective metal-processing system that determ
 
 ### Commensal Metal Sequestration
 
-- Commensal bacteria bind, bioaccumulate, and transform heavy metals, reducing their bioavailability to both pathogens and the host [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
+- Commensal bacteria bind, bioaccumulate, and transform [[heavy-metals]], reducing their bioavailability to both pathogens and the host [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 - Probiotics binding metals: *Lactobacillus* and *Bifidobacterium* species biosorb Cd, Pb, and other heavy metals on their cell surfaces, facilitating fecal excretion [[chen-2022-living-microorganisms-detoxification-heavy-metals]].
 - *Pseudomonas* spp. in the gut produce siderophores and H2S that form insoluble metal complexes [[chen-2022-living-microorganisms-detoxification-heavy-metals]].
 - Sulfate-reducing bacteria precipitate metals as insoluble sulfides.

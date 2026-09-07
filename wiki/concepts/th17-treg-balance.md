@@ -63,7 +63,7 @@ The critical insight: dysbiosis doesn't just correlate with Th17/Treg imbalance 
 
 ## Metal Connection
 
-- Heavy metals ([[cadmium]], [[lead]]) promote Th17 differentiation and suppress Treg, compounding dysbiosis-driven imbalance.
+- [[heavy-metals]] ([[cadmium]], [[lead]]) promote Th17 differentiation and suppress Treg, compounding dysbiosis-driven imbalance.
 - [[interleukin-6|IL-6]] (metal-induced via NF-kB) is the critical cytokine that tips TGF-beta signaling from Treg → Th17 differentiation. When IL-6 is present alongside TGF-beta, naive T cells become Th17; when IL-6 is absent, they become Treg. Metal-driven IL-6 elevation thus directly skews the balance toward autoimmunity.
 
 ## Cross-References

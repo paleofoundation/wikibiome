@@ -56,7 +56,7 @@ The mycobiome does not exist in isolation. Fungi and bacteria interact through:
 
 ## Metal Connections
 
-- Candida biosorption: *C. albicans* can biosorb heavy metals (Cd, Pb, Cu), potentially sequestering metals in the gut lumen but also shifting competitive dynamics with metal-sensitive bacteria.
+- Candida biosorption: *C. albicans* can biosorb [[heavy-metals]] (Cd, Pb, Cu), potentially sequestering metals in the gut lumen but also shifting competitive dynamics with metal-sensitive bacteria.
 - Aspergillus siderophores: Iron-chelating metallophores (TAFC, ferricrocin, coprogen) are virulence factors that compete with host [[nutritional-immunity]] for iron.
 - Metal-driven fungal bloom: Heavy metal-induced bacterial dysbiosis (loss of SCFA producers and pH control) creates conditions permissive for fungal overgrowth, paralleling antibiotic-induced candidiasis.
 

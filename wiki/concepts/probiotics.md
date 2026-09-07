@@ -27,7 +27,7 @@ The most mechanistically detailed probiotic-metal study in this collection uses 
 3. [[tight-junctions|Tight junction]] protection: Preserved expression of ZO-1, ZO-2, occludin, and claudin-1, preventing the vicious cycle where metal-disrupted junctions allow more metal absorption
 4. Gut immune modulation: Maintained secretory IgA levels and balanced cytokine profiles in the intestinal mucosa
 
-In vivo (mouse, 8 weeks), CCFM8610 increased fecal Cd excretion while decreasing Cd accumulation in liver and kidneys. The critical insight is that effective probiotic intervention against heavy metals requires dual functionality -- both metal-binding capacity and antioxidative capacity [[zhai-2016-probiotics-cadmium]].
+In vivo (mouse, 8 weeks), CCFM8610 increased fecal Cd excretion while decreasing Cd accumulation in liver and kidneys. The critical insight is that effective probiotic intervention against [[heavy-metals]] requires dual functionality -- both metal-binding capacity and antioxidative capacity [[zhai-2016-probiotics-cadmium]].
 
 ### Broader Probiotic Detoxification Mechanisms
 

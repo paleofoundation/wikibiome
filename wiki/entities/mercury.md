@@ -40,7 +40,7 @@ Mercury exerts toxicity through several converging pathways:
 
 Thiol binding and glutathione depletion. Hg binds to GSH and sulfhydryl groups on proteins, depleting the cell's primary antioxidant defense. Hg conjugates GSH, inhibits glutathione peroxidase, and disrupts the entire thiol-dependent antioxidant network [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]], [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. In PCOS patients, serum mercury shows a strong negative correlation with GSH levels (P < 0.01), directly demonstrating this depletion mechanism in a clinical population [[abudawood-2021-antioxidant-heavy-metals-pcos]].
 
-ROS generation. Beyond GSH depletion, Hg directly stimulates reactive oxygen species production, creating a dual assault on cellular redox balance [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]. Heavy metals collectively impair carbohydrate, lipid, and amino acid metabolism, with ROS as the central mediator [[akash-2023-metabolomics-heavy-metal-toxicities]].
+ROS generation. Beyond GSH depletion, Hg directly stimulates reactive oxygen species production, creating a dual assault on cellular redox balance [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]. [[heavy-metals]] collectively impair carbohydrate, lipid, and amino acid metabolism, with ROS as the central mediator [[akash-2023-metabolomics-heavy-metal-toxicities]].
 
 Enzyme inhibition. Hg inactivates enzymes through thiol binding, disrupting critical metabolic pathways. In the kidney, aquaporin mRNA is reduced, impairing water transport, and Na+/H+ exchangers and aquaporin-1 are inhibited in kidney tubules [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 
@@ -249,7 +249,7 @@ Mercury showed negative/protective SHAP values for both general arthritis (-0.00
 - [[gut-metal-microbiome]] -- bidirectional Hg-microbiota interaction; methylation/demethylation cycle; barrier disruption
 - [[neurodegeneration]] -- MeHg crosses BBB; accumulates in CNS; implicated in AD and cognitive decline
 - [[cardiovascular-disease]] -- PON-1 inactivation, LDL oxidation, endothelial dysfunction
-- [[heavy-metals]] -- Hg is the prototypical purely toxic heavy metal with no biological function
+- Heavy Metals -- Hg is the prototypical purely toxic heavy metal with no biological function
 - [[biomarkers]] -- blood, hair, urine, teeth, and cord blood Hg as exposure biomarkers across time windows
 - [[metal-chelation-therapy]] -- DMSA, DMPS, and BAL used for mercury poisoning
 - [[alpha-klotho]] -- mediates 34.55% of the Hg-CKD association; renoprotective via NF-kB suppression

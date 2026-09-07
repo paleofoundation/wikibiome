@@ -26,7 +26,7 @@ Reactive oxygen species — superoxide (O2•−), hydrogen peroxide (H2O2), and
 
 ## Metal-Driven ROS Generation
 
-Heavy metals amplify ROS through multiple mechanisms:
+[[heavy-metals]] amplify ROS through multiple mechanisms:
 
 - Fenton chemistry: Fe2+ + H2O2 → Fe3+ + OH• + OH−. Iron is the primary catalyst; excess iron drives [[lipid-peroxidation]] and [[ferroptosis]] [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 - Redox cycling: Copper alternates between Cu+ and Cu2+, generating superoxide at each transition.

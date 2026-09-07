@@ -21,7 +21,7 @@ Chronic inflammatory activation within the central nervous system, driven by mic
 ### Microglia
 - The CNS-resident macrophages; constitute 5-12% of brain cells.
 - Exist on a polarization spectrum: M1 (pro-inflammatory) produces TNF-alpha, IL-1beta, IL-6, ROS, and reactive nitrogen species; M2 (anti-inflammatory) produces IL-10, TGF-beta, and neurotrophic factors.
-- Heavy metals (Pb, Hg, Mn, Cd, Al) activate microglia toward a persistent M1 phenotype via ROS, NF-kB, and pattern recognition receptor signaling [[gao-2023-microglia-neurodegenerative-diseases]].
+- [[heavy-metals]] (Pb, Hg, Mn, Cd, Al) activate microglia toward a persistent M1 phenotype via ROS, NF-kB, and pattern recognition receptor signaling [[gao-2023-microglia-neurodegenerative-diseases]].
 - Metal-activated microglia are resistant to switching back to the M2 state, creating chronic neuroinflammation that outlasts the initial insult.
 
 ### Astrocytes

@@ -33,7 +33,7 @@ Epithelial-mesenchymal transition (EMT) is a cellular program in which polarized
 
 ## Metal Induction of EMT
 
-Several heavy metals directly trigger EMT through well-characterized signaling pathways. Cadmium activates EMT via TGF-beta/Smad signaling and PI3K/Akt pathways, downregulating E-cadherin and upregulating vimentin and N-cadherin. Nickel induces EMT through HIF-1alpha stabilization under normoxic conditions, mimicking hypoxia. Arsenic promotes EMT through ROS-mediated activation of NF-kB. These metal-induced EMT events link chronic environmental exposure to cancer initiation and progression.
+Several [[heavy-metals]] directly trigger EMT through well-characterized signaling pathways. Cadmium activates EMT via TGF-beta/Smad signaling and PI3K/Akt pathways, downregulating E-cadherin and upregulating vimentin and N-cadherin. Nickel induces EMT through HIF-1alpha stabilization under normoxic conditions, mimicking hypoxia. Arsenic promotes EMT through ROS-mediated activation of NF-kB. These metal-induced EMT events link chronic environmental exposure to cancer initiation and progression.
 
 ## Gut Barrier Relevance
 

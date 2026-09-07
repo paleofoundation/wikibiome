@@ -118,7 +118,7 @@ Differential metal utilization varies dramatically between microorganisms: *Ente
 
 ### Co-Selection of Antibiotic Resistance
 
-Chromium is among the heavy metals (alongside Hg, Pb, Cu, Zn, Cd, Ni) that trigger co-selection of antibiotic resistance in bacteria through both co-resistance (resistance genes on the same mobile element) and cross-resistance (shared efflux pumps) mechanisms [[imran-2019-co-selection-antibiotic-resistance-metal-microplastic]]. Metal resistance genes in *Bacillus* species frequently co-locate with antibiotic resistance determinants on mobile genetic elements [[alotaibi-2021-heavy-metal-detoxification-bacillus-bioremediation]]. Unlike antibiotics, which degrade in the environment, metals persist indefinitely, creating sustained selective pressure for resistance [[imran-2019-co-selection-antibiotic-resistance-metal-microplastic]]. This means chromium contamination in soil, water, or the gut creates an enduring reservoir of antibiotic-resistant organisms even in the absence of antibiotic use.
+Chromium is among the [[heavy-metals]] (alongside Hg, Pb, Cu, Zn, Cd, Ni) that trigger co-selection of antibiotic resistance in bacteria through both co-resistance (resistance genes on the same mobile element) and cross-resistance (shared efflux pumps) mechanisms [[imran-2019-co-selection-antibiotic-resistance-metal-microplastic]]. Metal resistance genes in *Bacillus* species frequently co-locate with antibiotic resistance determinants on mobile genetic elements [[alotaibi-2021-heavy-metal-detoxification-bacillus-bioremediation]]. Unlike antibiotics, which degrade in the environment, metals persist indefinitely, creating sustained selective pressure for resistance [[imran-2019-co-selection-antibiotic-resistance-metal-microplastic]]. This means chromium contamination in soil, water, or the gut creates an enduring reservoir of antibiotic-resistant organisms even in the absence of antibiotic use.
 
 ## Nutritional Immunity
 
@@ -233,7 +233,7 @@ Data from [[salnikov-2008-metal-carcinogenesis]], [[richardson-2018-toxic-metals
 - [[DNA-damage]] -- primary Cr(VI) carcinogenic mechanism
 - oxidative stress -- convergent pathway with other toxic metals
 - [[metal-carcinogenesis]] -- overarching concept
-- [[heavy-metals]] -- Cr(VI) is an IARC Group 1 carcinogen
+- Heavy Metals -- Cr(VI) is an IARC Group 1 carcinogen
 - [[environmental-metal-exposure]] -- occupational (chrome plating, stainless steel welding) and environmental (contaminated water, soil) exposure
 - [[antimicrobial-resistance]] -- Cr co-selects antibiotic resistance genes
 - [[mis-metallation]] -- Cr(III) substitutes for Fe(III) in transferrin

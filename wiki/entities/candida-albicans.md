@@ -16,7 +16,7 @@ wikipedia_differentiation: "Metal biosorption capacity, nickel-dependent virulen
 
 # Candida albicans (and Cryptococcus neoformans)
 
-An opportunistic fungal pathogen whose relationship with metals is multifaceted: *C. albicans* can biosorb heavy metals from its environment, heavy metal exposure promotes its virulence in immunocompromised hosts, and metal nanoparticles are being developed as antifungal weapons against it. This page also covers *Cryptococcus neoformans*, a related fungal pathogen that uses Ni-dependent [[urease]] for brain invasion.
+An opportunistic fungal pathogen whose relationship with metals is multifaceted: *C. albicans* can biosorb [[heavy-metals]] from its environment, heavy metal exposure promotes its virulence in immunocompromised hosts, and metal nanoparticles are being developed as antifungal weapons against it. This page also covers *Cryptococcus neoformans*, a related fungal pathogen that uses Ni-dependent [[urease]] for brain invasion.
 
 ## Candida albicans
 

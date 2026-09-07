@@ -75,7 +75,7 @@ A genus of lipophilic basidiomycete yeasts that is the dominant fungus on human 
 - [[saccharomyces]] -- co-occurring in gut mycobiome; both altered in CVD
 - inflammation -- lipase-mediated oleic acid release; Dectin-1/TLR2 activation
 - dysbiosis -- fungal dysbiosis precedes clinical hypertension
-- [[gut-metal-microbiome]] -- indirect metal interactions; heavy metals may shift bacterial communities that normally suppress Malassezia
+- [[gut-metal-microbiome]] -- indirect metal interactions; [[heavy-metals]] may shift bacterial communities that normally suppress Malassezia
 - [[roseburia]] -- negatively correlated in IBD; bacterial-fungal competitive dynamics
 - [[biofilm]] -- forms biofilms on skin; potential for gut biofilm formation
 - [[oxidative-stress]] -- arachidonic acid metabolites promote oxidative inflammatory damage

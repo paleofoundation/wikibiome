@@ -41,7 +41,7 @@ The most abundant mineral in the human body, with ~99% stored in bones and teeth
 
 ## The Hijacked Gateway: Calcium Channels and Toxic Metal Entry
 
-Calcium's ion channels and binding proteins are the primary entry routes for two of the most harmful heavy metals. This is not incidental -- it is a consequence of ionic mimicry driven by size and charge similarity.
+Calcium's ion channels and binding proteins are the primary entry routes for two of the most harmful [[heavy-metals]]. This is not incidental -- it is a consequence of ionic mimicry driven by size and charge similarity.
 
 ### Lead (Pb2+) Mimics Ca2+
 

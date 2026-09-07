@@ -33,7 +33,7 @@ The primary description, NCBI Taxonomy, and LPSN all identify *Akkermansia mucin
 - Specializes in degrading intestinal mucins (MUC2), using the breakdown products as carbon and nitrogen sources [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 - Paradoxically, mucin degradation by *A. muciniphila* stimulates mucin production by goblet cells, maintaining a thicker and healthier mucus layer [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
 - Produces [[short-chain-fatty-acids]] (acetate, propionate) that support epithelial barrier function and feed [[butyrate]]-producing bacteria like [[faecalibacterium-prausnitzii]] via cross-feeding [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
-- Strengthens [[tight-junctions|tight junction]] protein expression (ZO-1, occludin, claudin), opposing the barrier-disrupting effects of heavy metals [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
+- Strengthens [[tight-junctions|tight junction]] protein expression (ZO-1, occludin, claudin), opposing the barrier-disrupting effects of [[heavy-metals]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 
 ## Sensitivity to Heavy Metals
 

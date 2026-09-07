@@ -46,7 +46,7 @@ Metals also disrupt thyroid function, connecting to the [[gut-thyroid-axis]]:
 
 ### Androgen Disruption
 
-Heavy metals disrupt androgen metabolism at multiple levels:
+[[heavy-metals]] disrupt androgen metabolism at multiple levels:
 - Zinc depletion impairs aromatase (see [[hyperandrogenism]])
 - Cadmium disrupts testicular steroidogenesis
 - Lead impairs hypothalamic-pituitary-gonadal axis signaling

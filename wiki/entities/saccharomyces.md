@@ -56,7 +56,7 @@ A genus of ascomycete yeasts that includes both a proven therapeutic probiotic (
 
 ## Metal Biosorption
 
-- Saccharomyces species have significant metal biosorption capacity, binding heavy metals to cell wall components (mannoproteins, glucans, chitin) (Wang & Chen 2006 Biotechnol Adv).
+- Saccharomyces species have significant metal biosorption capacity, binding [[heavy-metals]] to cell wall components (mannoproteins, glucans, chitin) (Wang & Chen 2006 Biotechnol Adv).
 - *S. cerevisiae* cell walls bind [[cadmium]], [[lead]], [[copper]], [[zinc]], and [[chromium]] from solution, a property exploited in industrial bioremediation (Wang & Chen 2006 Biotechnol Adv; Machado et al. 2010 J Hazard Mater).
 - In the gut context, dietary or supplemental yeast may reduce bioavailable metal concentrations, potentially mitigating metal-induced dysbiosis.
 - [[zinc]]-dependent alcohol dehydrogenase and Cu/Zn-superoxide dismutase are key metalloenzymes in Saccharomyces biology.

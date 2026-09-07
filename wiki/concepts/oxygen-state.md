@@ -60,7 +60,7 @@ This "oxygen hypothesis of dysbiosis" explains why [[proteobacteria]] blooms are
 
 ## Metal Connections
 
-Heavy metals contribute to oxygen gradient collapse through multiple mechanisms:
+[[heavy-metals]] contribute to oxygen gradient collapse through multiple mechanisms:
 
 - Iron excess — Luminal iron excess feeds siderophore-producing Proteobacteria; simultaneously, iron catalyzes Fenton chemistry generating ROS that damage anaerobic commensals
 - Cadmium and lead — Damage iron-sulfur clusters in butyrate-producing Firmicutes, reducing SCFA output and breaking the colonocyte oxygen consumption cycle

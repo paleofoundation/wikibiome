@@ -16,7 +16,7 @@ last_substantive_update: 2026-04-09
 
 ## Overview
 
-This page addresses the practical question: how do toxic metals get into people? Metal toxicology research identifies the mechanisms of harm, but understanding exposure routes -- dietary, occupational, environmental, and consumer product-mediated -- is essential for prevention. Heavy metals enter humans via four primary routes: ingestion of contaminated food and water, inhalation of contaminated air, dermal/mucosal contact, and occupational exposure. For the general population, dietary ingestion is the dominant pathway.
+This page addresses the practical question: how do toxic metals get into people? Metal toxicology research identifies the mechanisms of harm, but understanding exposure routes -- dietary, occupational, environmental, and consumer product-mediated -- is essential for prevention. [[heavy-metals]] enter humans via four primary routes: ingestion of contaminated food and water, inhalation of contaminated air, dermal/mucosal contact, and occupational exposure. For the general population, dietary ingestion is the dominant pathway.
 
 ## Dietary Exposure
 

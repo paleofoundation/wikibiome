@@ -40,7 +40,7 @@ Mendelian randomization studies in the vault consistently identify Actinobacteri
 
 | Genus | Key Function | Metal Biology |
 |-------|-------------|---------------|
-| [[collinsella]] | Bile acid deconjugation; enriched by heavy metals; atherosclerosis | Coriobacteriaceae member |
+| [[collinsella]] | Bile acid deconjugation; enriched by [[heavy-metals]]; atherosclerosis | Coriobacteriaceae member |
 | [[eggerthella-lenta]] | [[beta-glucuronidase]] (estrogen deconjugation); drug metabolism | Iron and molybdenum dependent |
 | [[actinomyces]] | Oral pathobiont; enriched in CRC, MS, endometriosis | Nickel-urease for acid tolerance |
 

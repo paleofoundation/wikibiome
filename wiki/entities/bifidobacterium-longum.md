@@ -56,7 +56,7 @@ platform: wikibiome
 
 ## Metal Detoxification Capacity
 
-*B. longum* demonstrates significant capacity to bind and sequester heavy metals:
+*B. longum* demonstrates significant capacity to bind and sequester [[heavy-metals]]:
 
 - Cadmium biosorption — Cell wall exopolysaccharides (EPS) and peptidoglycan provide binding sites for Cd2+, reducing its bioavailability in the gut lumen and limiting intestinal absorption
 - Lead binding — Similar cell wall-mediated biosorption of Pb2+; both live and heat-killed cells retain binding capacity, though live cells additionally maintain barrier function

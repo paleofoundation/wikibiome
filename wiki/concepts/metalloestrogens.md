@@ -75,7 +75,7 @@ Evidence for nickel as a metalloestrogen is supportive but weaker than for cadmi
 Heavy metal metalloestrogen activity is most studied in the context of breast cancer. Elevated Cu, Cd levels and decreased Se, Zn are consistently found in breast cancer patients. The Cu/Zn ratio is increased in breast cancer blood/serum. Metallomic signatures may eventually complement traditional diagnostic approaches.
 
 ### Polycystic Ovary Syndrome (PCOS)
-PCOS is characterized by hyperandrogenism and is influenced by environmental endocrine disruptors. Studies have documented elevated levels of multiple heavy metals (including Cd and Ni) in PCOS patients compared to controls. Metal-induced disruption of estrogen/androgen balance may contribute to ovarian dysfunction and metabolic complications.
+PCOS is characterized by hyperandrogenism and is influenced by environmental endocrine disruptors. Studies have documented elevated levels of multiple [[heavy-metals]] (including Cd and Ni) in PCOS patients compared to controls. Metal-induced disruption of estrogen/androgen balance may contribute to ovarian dysfunction and metabolic complications.
 
 ### Endometriosis
 Metals including Ni, Cd, Pb, and Cr have been detected in peritoneal fluid of endometriosis patients. The remarkable prevalence of nickel sensitivity in endometriosis patients (90.3%) and the improvement of endometriosis symptoms on low-nickel diets suggest that dietary nickel may potentiate the estrogen-dependent proliferative processes underlying endometriosis.

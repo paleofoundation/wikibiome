@@ -87,7 +87,7 @@ Certain probiotic species can modify gut iron ecology [[anchidin-norocel-2025-he
 
 - Lactobacillus species can reduce free iron availability through surface binding and intracellular sequestration
 - Bifidobacterium species compete effectively in low-iron niches, potentially displacing siderophore-producing pathogens
-- Saccharomyces species can bind heavy metals including iron at the cell wall
+- Saccharomyces species can bind [[heavy-metals]] including iron at the cell wall
 - These organisms provide competitive exclusion (Primitive 5) — suppressing pathogens not by killing them but by denying them resources
 
 ## Connections

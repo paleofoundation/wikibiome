@@ -62,7 +62,7 @@ The livestock food chain is the primary conduit for metal-selected antibiotic re
 ## Microplastics as Co-Selection Hotspots
 
 Microplastics represent an emerging co-selection vector [[imran-2019-co-selection-antibiotic-resistance-metal-microplastic]]:
-- Microplastic surfaces adsorb heavy metals (Ni, Cd, Pb, Cu, Zn) from surrounding water, concentrating metal loads many times above environmental background.
+- Microplastic surfaces adsorb [[heavy-metals]] (Ni, Cd, Pb, Cu, Zn) from surrounding water, concentrating metal loads many times above environmental background.
 - Bacteria colonize microplastic surfaces in high-density biofilms. The confined space, elevated metal concentration, and biofilm architecture accelerate horizontal gene transfer (HGT) between phylogenetically distant bacteria.
 - HGT on microplastic surfaces occurs at substantially higher rates than among free-living microbes.
 - Pathogenic *Vibrio* spp. colonize marine microplastics and use them as vectors for global dispersal, carrying co-selected metal and antibiotic resistance determinants.

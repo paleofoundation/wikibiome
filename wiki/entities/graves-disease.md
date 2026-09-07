@@ -146,7 +146,7 @@ Se (200 ug/day) combined with vitamin D and methimazole represents the best-stud
 
 ### Fish and Mercury Balance
 
-Omega-3 PUFA from fish is beneficial for thyroid autoimmunity, but fish consumption also exposes to mercury and other heavy metals that impair thyroid function. Selenium co-supplementation may mitigate this risk through Se-Hg antagonism.
+Omega-3 PUFA from fish is beneficial for thyroid autoimmunity, but fish consumption also exposes to mercury and other [[heavy-metals]] that impair thyroid function. Selenium co-supplementation may mitigate this risk through Se-Hg antagonism.
 
 ## Comorbidities
 

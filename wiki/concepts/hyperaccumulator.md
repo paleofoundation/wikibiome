@@ -19,7 +19,7 @@ karen_brain_primitives: [1, 3]
 
 ## Overview
 
-Hyperaccumulator plants are species that concentrate heavy metals in their tissues at 10–100× the levels found in non-accumulating species growing in the same soil. Over 700 plant species are known hyperaccumulators — primarily for nickel (~530 species), but also zinc, cadmium, cobalt, manganese, and selenium. In the WikiBiome framework, hyperaccumulators are relevant as dietary metal exposure vectors: food crops grown in contaminated soils or naturally accumulating species consumed as food deliver metals directly to the human gut, where they act as selective pressures on the microbiome.
+Hyperaccumulator plants are species that concentrate [[heavy-metals]] in their tissues at 10–100× the levels found in non-accumulating species growing in the same soil. Over 700 plant species are known hyperaccumulators — primarily for nickel (~530 species), but also zinc, cadmium, cobalt, manganese, and selenium. In the WikiBiome framework, hyperaccumulators are relevant as dietary metal exposure vectors: food crops grown in contaminated soils or naturally accumulating species consumed as food deliver metals directly to the human gut, where they act as selective pressures on the microbiome.
 
 ## Dietary Relevance
 

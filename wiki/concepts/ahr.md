@@ -33,7 +33,7 @@ Exogenous / xenobiotic ligands (often disruptive):
 - Polycyclic aromatic hydrocarbons (PAHs) — from combustion, smoked foods
 - Dioxins (TCDD) — persistent organic pollutants; the prototypical AhR agonist at toxic doses
 - PCBs — polychlorinated biphenyls
-- Cadmium, arsenic, and certain heavy metals — can activate or disrupt AhR signaling
+- Cadmium, arsenic, and certain [[heavy-metals]] — can activate or disrupt AhR signaling
 
 ## AhR in Gut-Immune Regulation
 

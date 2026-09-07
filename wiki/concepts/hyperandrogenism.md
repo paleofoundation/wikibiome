@@ -37,7 +37,7 @@ The bidirectional relationship between the gut microbiome and sex hormones is ce
 
 ### Trace Element Dysregulation in PCOS
 
-Heavy metals and trace elements play an underappreciated role in hyperandrogenism [[smovrsnik-2025-trace-elements-pcos]] [[abudawood-2021-antioxidant-heavy-metals-pcos]]:
+[[heavy-metals]] and trace elements play an underappreciated role in hyperandrogenism [[smovrsnik-2025-trace-elements-pcos]] [[abudawood-2021-antioxidant-heavy-metals-pcos]]:
 
 | Metal | Direction in PCOS | Mechanism |
 |-------|-------------------|-----------|

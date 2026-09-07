@@ -33,7 +33,7 @@ Lipid metabolism — the synthesis, transport, and degradation of fats — is pr
 
 ## Metal Interference
 
-- Heavy metals ([[cadmium]], [[lead]], [[mercury]]) disrupt hepatic lipid processing enzymes, promoting dyslipidemia [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].
+- [[heavy-metals]] ([[cadmium]], [[lead]], [[mercury]]) disrupt hepatic lipid processing enzymes, promoting dyslipidemia [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].
 - Fatty acid profiles: Altered in diabetic ED patients, with implications for endothelial function and NO signaling [[ben-khedher-2017-fatty-acids-diabetic-erectile-dysfunction]].
 - High-fat diet + metal exposure compounds gut microbiota disruption and lipid dysregulation [[wu-2025-high-fat-diet-gut-microbiota-precocious-puberty]].
 

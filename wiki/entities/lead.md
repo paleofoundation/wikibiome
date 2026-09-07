@@ -62,7 +62,7 @@ Contaminated soil (legacy leaded gasoline, paint), drinking water (lead pipes an
 
 ### Dietary Sources
 
-Diet is the main exposure source for non-professionally exposed populations [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]. Baby foods and infant formulas contain detectable lead at low but measurable levels. All 10 commercial baby food products tested from Houston, TX contained lead (0.0-0.008 ug/g), with contamination originating from food type and soil rather than packaging [[garuba-2024-heavy-metals-commercial-baby-foods]]. Baby food jars from Tenerife, Spain showed lead levels producing margin of exposure (MOE) values of 112.5-450, far below the safe threshold [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]]. Approximately 60% of ingested heavy metals are absorbed in the intestine [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
+Diet is the main exposure source for non-professionally exposed populations [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]. Baby foods and infant formulas contain detectable lead at low but measurable levels. All 10 commercial baby food products tested from Houston, TX contained lead (0.0-0.008 ug/g), with contamination originating from food type and soil rather than packaging [[garuba-2024-heavy-metals-commercial-baby-foods]]. Baby food jars from Tenerife, Spain showed lead levels producing margin of exposure (MOE) values of 112.5-450, far below the safe threshold [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]]. Approximately 60% of ingested [[heavy-metals]] are absorbed in the intestine [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 
 ### Consumer Products and Socioeconomic Gradient
 
@@ -232,7 +232,7 @@ Lead exposure paradoxically can mitigate chemically induced colitis in mice at s
 - [[mis-metallation]] -- Pb entering via Ca channels and displacing Zn from metalloprotein binding sites
 - [[neurodegeneration]] -- cumulative Pb exposure associates with cognitive decline and AD risk
 - [[environmental-metal-exposure]] -- legacy paint, contaminated soil, water pipes, baby foods, consumer products
-- [[heavy-metals]] -- Pb is the most extensively studied purely toxic heavy metal
+- Heavy Metals -- Pb is the most extensively studied purely toxic heavy metal
 - [[biomarkers]] -- blood lead level (BLL) is the standard exposure biomarker; bone Pb reflects cumulative dose
 - [[co-selection]] -- Pb drives co-selection of antibiotic resistance genes in gut bacteria
 - [[developmental-metal-vulnerability]] -- prenatal and early-life exposure windows

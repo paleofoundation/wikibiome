@@ -53,7 +53,7 @@ primary_exposure: "Diet (rice, drinking water), occupational"
 
 # Arsenic (As)
 
-Arsenic is a metalloid and potent carcinogen (IARC Group 1) that ranks among the most widespread environmental toxicants affecting human health. An estimated 225 million people worldwide are chronically exposed through contaminated drinking water alone [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. Unlike many heavy metals whose toxicity is primarily direct, arsenic's health effects are increasingly understood to be mediated through a bidirectional relationship with the [[gut-microbiome]]: the microbiome transforms arsenic into species of varying toxicity, while arsenic reshapes microbial communities in ways that compound its harm [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]], [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
+Arsenic is a metalloid and potent carcinogen (IARC Group 1) that ranks among the most widespread environmental toxicants affecting human health. An estimated 225 million people worldwide are chronically exposed through contaminated drinking water alone [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. Unlike many [[heavy-metals]] whose toxicity is primarily direct, arsenic's health effects are increasingly understood to be mediated through a bidirectional relationship with the [[gut-microbiome]]: the microbiome transforms arsenic into species of varying toxicity, while arsenic reshapes microbial communities in ways that compound its harm [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]], [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 
 What sets arsenic apart from other toxic metals is a methylation paradox — the same metabolic pathway that facilitates excretion also generates intermediates (particularly MMA(III)) that are more reactive and potentially more carcinogenic than the parent inorganic compound [[salnikov-2008-metal-carcinogenesis]], [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. This paradox plays out both in host tissues and within the gut microbiome, where microbial arsenic methyltransferases (arsM) produce these same dangerous intermediates [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]].
 
@@ -285,6 +285,6 @@ Arsenic exposure is linked to cardiovascular disease and hypertension [[su-2023-
 - [[gut-metal-microbiome]] — bidirectional arsenic-microbiome relationship
 - [[developmental-metal-vulnerability]] — prenatal arsenic exposure programs offspring microbiome
 - [[iron]] — shared intestinal transporters; iron-importing genes upregulated under arsenic stress [[richardson-2018-toxic-metals-rat-gut-microbiota]]
-- [[heavy-metals]] — arsenic as metalloid classified among toxic heavy metals
+- Heavy Metals — arsenic as metalloid classified among toxic heavy metals
 - [[environmental-metal-exposure]] — arsenic in groundwater, rice, and infant foods
 - [[metal-carcinogenesis]] — overarching framework for arsenic carcinogenesis

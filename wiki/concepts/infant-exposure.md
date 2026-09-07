@@ -28,7 +28,7 @@ The developing infant represents a uniquely vulnerable window for heavy metal to
 
 ### Baby Food Contamination
 
-Commercial baby foods have been documented to contain concerning levels of heavy metals:
+Commercial baby foods have been documented to contain concerning levels of [[heavy-metals]]:
 
 - [[arsenic]]: Rice-based cereals and rice puffs are primary sources. Inorganic As concentrations in infant rice cereal frequently exceed proposed FDA limits.
 - [[lead]]: Root vegetables (carrots, sweet potatoes) and fruit juices. No safe blood lead level exists.

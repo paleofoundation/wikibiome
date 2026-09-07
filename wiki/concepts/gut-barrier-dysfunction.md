@@ -36,7 +36,7 @@ Secretory IgA, antimicrobial peptides (defensins, cathelicidins), and the lamina
 
 ## How Metals Break the Barrier
 
-Heavy metals disrupt each layer through distinct mechanisms:
+[[heavy-metals]] disrupt each layer through distinct mechanisms:
 
 - Cadmium: Downregulates occludin and claudin-1, increases claudin-2 (pore-forming), disrupts ZO-1 localization. Depletes glutathione in epithelial cells, increasing oxidative damage. Thins the mucus layer [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 - Arsenic: Induces epithelial cell apoptosis at environmentally relevant doses, increases paracellular permeability, and alters the microbiome composition toward gram-negative dominance (increasing LPS burden) [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]].

@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # Gut-Brain Axis
 
-Bidirectional communication between the gut microbiota and the central nervous system, mediated by neural (vagus nerve, enteric nervous system), immune (cytokines, microglia), endocrine (HPA axis), and metabolic (SCFAs, neurotransmitter precursors, tryptophan metabolites, bile acids) pathways. Heavy metals disrupt this axis at multiple points, linking environmental metal exposure to neurodevelopmental and neurodegenerative disease. The gut-brain axis is relevant to at least seven diseases in this wiki: Parkinson's, Alzheimer's, multiple sclerosis, ASD, ADHD, depression, and anxiety.
+Bidirectional communication between the gut microbiota and the central nervous system, mediated by neural (vagus nerve, enteric nervous system), immune (cytokines, microglia), endocrine (HPA axis), and metabolic (SCFAs, neurotransmitter precursors, tryptophan metabolites, bile acids) pathways. [[heavy-metals]] disrupt this axis at multiple points, linking environmental metal exposure to neurodevelopmental and neurodegenerative disease. The gut-brain axis is relevant to at least seven diseases in this wiki: Parkinson's, Alzheimer's, multiple sclerosis, ASD, ADHD, depression, and anxiety.
 
 ## Communication Pathways
 

@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Autophagy
 
-Autophagy (from Greek, "self-eating") is the cellular process of degrading and recycling damaged organelles, misfolded proteins, and intracellular pathogens through lysosomal digestion. It is the cell's primary quality control mechanism -- a housekeeping system that becomes critically important under stress. Heavy metals disrupt autophagy at multiple levels, and the [[gut-microbiome]] both regulates and is regulated by autophagic activity, making autophagy a convergent node where metal toxicity meets microbial ecology.
+Autophagy (from Greek, "self-eating") is the cellular process of degrading and recycling damaged organelles, misfolded proteins, and intracellular pathogens through lysosomal digestion. It is the cell's primary quality control mechanism -- a housekeeping system that becomes critically important under stress. [[heavy-metals]] disrupt autophagy at multiple levels, and the [[gut-microbiome]] both regulates and is regulated by autophagic activity, making autophagy a convergent node where metal toxicity meets microbial ecology.
 
 ## Types of Autophagy
 

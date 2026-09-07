@@ -51,7 +51,7 @@ When the intestinal barrier is compromised — whether by metal-induced [[tight-
 
 ## Metal Interactions
 
-Heavy metals amplify LPS-mediated pathology through several mechanisms:
+[[heavy-metals]] amplify LPS-mediated pathology through several mechanisms:
 
 - Barrier disruption: Cadmium, lead, and arsenic damage tight junction proteins (ZO-1, occludin, claudin-1), increasing paracellular LPS translocation
 - Immune priming: Metal-induced NF-kB activation lowers the threshold for TLR4 signaling, creating synergistic inflammation between metal exposure and LPS

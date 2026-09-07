@@ -88,7 +88,7 @@ A Gram-negative enteric pathogen that possesses four distinct [[hydrogenase|hydr
 
 - Gut H2 is produced by commensal microbiota during fermentation of dietary fiber -- dietary patterns that increase colonic H2 production could theoretically provide more energy substrate for Salmonella hydrogenases.
 - Environmental nickel in drinking water or food may increase nickel availability for hydrogenase metalation during gut colonization.
-- Agricultural use of heavy metals in livestock operations promotes metal-tolerant Salmonella populations.
+- Agricultural use of [[heavy-metals]] in livestock operations promotes metal-tolerant Salmonella populations.
 
 ## Connections
 

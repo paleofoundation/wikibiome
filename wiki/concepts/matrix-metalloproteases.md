@@ -103,7 +103,7 @@ Zinc occupies a paradoxical position in MMP biology:
 Environmental metal exposure may dysregulate MMP expression and activity through several mechanisms:
 
 - Direct metalloenzyme effects: Cadmium, nickel, and other metals can substitute for zinc at the MMP catalytic site or alter zinc availability, changing MMP activity.
-- ROS-mediated activation: Heavy metals generate reactive oxygen species that can activate pro-MMPs via the cysteine switch mechanism.
+- ROS-mediated activation: [[heavy-metals]] generate reactive oxygen species that can activate pro-MMPs via the cysteine switch mechanism.
 - NF-kB activation: Many heavy metals activate NF-kB signaling, which transcriptionally upregulates MMP expression.
 - TIMP suppression: Some metals suppress TIMP expression, shifting the MMP/TIMP balance toward net proteolysis.
 - Cadmium as zinc mimic: Cadmium (a known [[metalloestrogens|metalloestrogen]]) can displace zinc from metalloproteins, potentially dysregulating MMP function in reproductive tissues.

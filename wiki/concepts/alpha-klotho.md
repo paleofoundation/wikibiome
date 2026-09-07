@@ -40,7 +40,7 @@ Alpha-klotho exerts renal and systemic protection through multiple mechanisms [[
 
 ## The Metal-Klotho-CKD Axis
 
-A machine learning analysis of 51 pollutants identified heavy metals (cadmium, [[thallium]], [[lead]], [[mercury]]) as the most impactful on CKD risk [[liu-2025-low-concentration-metals-ckd-alpha-klotho]]. Alpha-klotho sits at the center of this relationship:
+A machine learning analysis of 51 pollutants identified [[heavy-metals]] (cadmium, [[thallium]], [[lead]], [[mercury]]) as the most impactful on CKD risk [[liu-2025-low-concentration-metals-ckd-alpha-klotho]]. Alpha-klotho sits at the center of this relationship:
 
 ### Mediation Evidence
 

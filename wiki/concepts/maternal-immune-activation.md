@@ -30,7 +30,7 @@ MIA operates through a cascade of interlinked disruptions:
 
 ## Metal Amplification
 
-Heavy metals amplify MIA through multiple converging mechanisms:
+[[heavy-metals]] amplify MIA through multiple converging mechanisms:
 
 - Lead and mercury cross the placenta readily and accumulate in fetal brain tissue, priming microglia independently of infection. When MIA and metal exposure co-occur, the neuroinflammatory effect is synergistic rather than additive.
 - Cadmium disrupts placental function, reducing nutrient transfer and increasing [[oxidative-stress]] — creating a vulnerable fetal environment where even mild maternal infection produces outsized neurological effects.
