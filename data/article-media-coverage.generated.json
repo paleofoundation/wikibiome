@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "079adc4510b6b1192da5cfc5f869c923c0829ec68669cbb190518d48ba65965d",
+    "reviewLogSha256": "5660f7b5b97b4668cc5dd8cb5cdbe9465bc75eb94ad04c852184c835be0ab368",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -221,6 +221,12 @@
         "batchId": "mechanisms-080",
         "status": "reviewed",
         "sha256": "15b8bacec42d195991ea9456722a42d4f2ad7f73aae69b2eb46d337bd802254b"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-081.json",
+        "batchId": "mechanisms-081",
+        "status": "reviewed",
+        "sha256": "c296d03620b1b9b9bdc1427154f36881e5b9146dcbfbd950161a7cd6ca9f6d19"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -514,9 +520,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 118,
+    "rejected": 124,
     "revised": 12,
-    "scientificHolds": 63,
+    "scientificHolds": 69,
     "inReview": 0
   },
   "categories": [
@@ -2748,6 +2754,111 @@
       ],
       "requiredResolution": "Rebuild by sensor family, organism and identifier, cognate species, structure, stoichiometry, regulon, assay, condition, and in-vivo evidence; separate hypotheses from validated targets.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metal-speciation",
+      "controlledIdentifier": "IUPAC:ST06861",
+      "batchId": "mechanisms-081",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Oxidation state, chemical species, fractionation, and bioavailability are conflated, with categorical biological claims that omit matrix, pH, ligands, kinetics, preservation, and analytical method.",
+      "checkedUrls": [
+        "https://goldbook.iupac.org/terms/view/ST06861",
+        "https://goldbook.iupac.org/terms/view/ST06848",
+        "https://publications.iupac.org/pac/72/8/1453/index.html",
+        "https://pubmed.ncbi.nlm.nih.gov/39532431/",
+        "local:data/content.generated.json#/pages/metal-speciation"
+      ],
+      "requiredResolution": "Define one element, matrix, physical-chemical conditions, time scale, preservation, separation/detection method, and operationally identified species.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metallochaperone",
+      "controlledIdentifier": "protein-function-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-081",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Diverse direct-transfer, scaffold, carrier, accessory, and energy-dependent systems are presented as one universal escort and kinetic-control mechanism.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/28487396/",
+        "https://pubmed.ncbi.nlm.nih.gov/39658019/",
+        "local:data/content.generated.json#/pages/metallochaperone"
+      ],
+      "requiredResolution": "Rebuild by organism, protein identifier/structure, metal species, client, compartment, stoichiometry, nucleotide dependence, demonstrated interaction, and assay.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metalloestrogen",
+      "controlledIdentifier": "duplicate-concept-route;no-unique-controlled-entity",
+      "batchId": "mechanisms-081",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The singular and plural routes cover the same concept while receptor, concentration, epidemiological, and disease-causality claims exceed the cited evidence.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/22161274/",
+        "https://pubmed.ncbi.nlm.nih.gov/22970719/",
+        "local:data/content.generated.json#/pages/metalloestrogen",
+        "local:data/content.generated.json#/pages/metalloestrogens"
+      ],
+      "requiredResolution": "Reconcile the duplicate canonical identity and separate chemical species, receptor, assay, concentration, model, tissue, and human outcome.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metalloestrogens",
+      "controlledIdentifier": "concept-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-081",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Heterogeneous ions, species, assays, receptors, doses, and disease observations are combined into one causal class despite conflicting human evidence.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10770491/",
+        "https://pubmed.ncbi.nlm.nih.gov/12873394/",
+        "https://pubmed.ncbi.nlm.nih.gov/22161274/",
+        "https://pubmed.ncbi.nlm.nih.gov/22970719/",
+        "local:data/content.generated.json#/pages/metalloestrogens"
+      ],
+      "requiredResolution": "Merge or distinguish the duplicate route; grade evidence per chemical species and endpoint and separate hypotheses from established human effects.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metallomics",
+      "controlledIdentifier": "analytical-discipline-umbrella;no-single-controlled-identifier",
+      "batchId": "mechanisms-081",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Exploratory multi-element studies are presented as disease-specific diagnostic tiers despite heterogeneous matrices and methods, small cohorts, and absent prospective validation.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34048228/",
+        "https://pubmed.ncbi.nlm.nih.gov/39532431/",
+        "https://pubmed.ncbi.nlm.nih.gov/7741231/",
+        "local:data/content.generated.json#/pages/metallomics"
+      ],
+      "requiredResolution": "Rebuild around specimen, analyte, preanalytics, platform, calibration/QC, interference control, batch correction, multiplicity, external validation, and intended use.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metalloregulator",
+      "controlledIdentifier": "protein-family-umbrella;no-single-controlled-entity",
+      "batchId": "mechanisms-081",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Organism- and family-specific sensors are generalized into universal ligand, network-collapse, virulence, co-selection, and drug-target rules.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16158234/",
+        "https://pubmed.ncbi.nlm.nih.gov/17216355/",
+        "https://pubmed.ncbi.nlm.nih.gov/25160631/",
+        "https://pubmed.ncbi.nlm.nih.gov/28344348/",
+        "https://pubmed.ncbi.nlm.nih.gov/39658019/",
+        "local:data/content.generated.json#/pages/metalloregulator"
+      ],
+      "requiredResolution": "Rebuild by organism/strain, regulator identifier/structure, family, metal species, sites/stoichiometry, operator/regulon, assay, mutant phenotype, and in-vivo evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -2902,55 +3013,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 463,
-      "id": "metal-speciation",
-      "title": "Metal Speciation",
-      "route": "/article/metal-speciation",
+      "queuePosition": 469,
+      "id": "metallothionein",
+      "title": "Metallothionein",
+      "route": "/article/metallothionein",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 464,
-      "id": "metallochaperone",
-      "title": "Metallochaperone",
-      "route": "/article/metallochaperone",
+      "queuePosition": 470,
+      "id": "methylation",
+      "title": "Methylation",
+      "route": "/article/methylation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 465,
-      "id": "metalloestrogen",
-      "title": "Metalloestrogen",
-      "route": "/article/metalloestrogen",
+      "queuePosition": 471,
+      "id": "microbial-biomarkers",
+      "title": "Microbial Biomarkers",
+      "route": "/article/microbial-biomarkers",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 466,
-      "id": "metalloestrogens",
-      "title": "Metalloestrogens",
-      "route": "/article/metalloestrogens",
+      "queuePosition": 472,
+      "id": "metabolites",
+      "title": "Microbial Metabolites",
+      "route": "/article/metabolites",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 467,
-      "id": "metallomics",
-      "title": "Metallomics",
-      "route": "/article/metallomics",
+      "queuePosition": 473,
+      "id": "microbiome-diversity-metrics",
+      "title": "Microbiome Diversity Metrics (Alpha and Beta Diversity)",
+      "route": "/article/microbiome-diversity-metrics",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 468,
-      "id": "metalloregulator",
-      "title": "Metalloregulator",
-      "route": "/article/metalloregulator",
+      "queuePosition": 474,
+      "id": "microbiome-derived-metabolites",
+      "title": "Microbiome-Derived Metabolites",
+      "route": "/article/microbiome-derived-metabolites",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -12562,7 +12673,13 @@
       "route": "/article/metal-speciation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Oxidation state, chemical species, fractionation, and bioavailability are conflated, with categorical biological claims that omit matrix, pH, ligands, kinetics, preservation, and analytical method.",
+        "requiredResolution": "Define one element, matrix, physical-chemical conditions, time scale, preservation, separation/detection method, and operationally identified species."
+      }
     },
     {
       "queuePosition": 464,
@@ -12575,7 +12692,13 @@
       "route": "/article/metallochaperone",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Diverse direct-transfer, scaffold, carrier, accessory, and energy-dependent systems are presented as one universal escort and kinetic-control mechanism.",
+        "requiredResolution": "Rebuild by organism, protein identifier/structure, metal species, client, compartment, stoichiometry, nucleotide dependence, demonstrated interaction, and assay."
+      }
     },
     {
       "queuePosition": 465,
@@ -12588,7 +12711,13 @@
       "route": "/article/metalloestrogen",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The singular and plural routes cover the same concept while receptor, concentration, epidemiological, and disease-causality claims exceed the cited evidence.",
+        "requiredResolution": "Reconcile the duplicate canonical identity and separate chemical species, receptor, assay, concentration, model, tissue, and human outcome."
+      }
     },
     {
       "queuePosition": 466,
@@ -12601,7 +12730,13 @@
       "route": "/article/metalloestrogens",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Heterogeneous ions, species, assays, receptors, doses, and disease observations are combined into one causal class despite conflicting human evidence.",
+        "requiredResolution": "Merge or distinguish the duplicate route; grade evidence per chemical species and endpoint and separate hypotheses from established human effects."
+      }
     },
     {
       "queuePosition": 467,
@@ -12614,7 +12749,13 @@
       "route": "/article/metallomics",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Exploratory multi-element studies are presented as disease-specific diagnostic tiers despite heterogeneous matrices and methods, small cohorts, and absent prospective validation.",
+        "requiredResolution": "Rebuild around specimen, analyte, preanalytics, platform, calibration/QC, interference control, batch correction, multiplicity, external validation, and intended use."
+      }
     },
     {
       "queuePosition": 468,
@@ -12627,7 +12768,13 @@
       "route": "/article/metalloregulator",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Organism- and family-specific sensors are generalized into universal ligand, network-collapse, virulence, co-selection, and drug-target rules.",
+        "requiredResolution": "Rebuild by organism/strain, regulator identifier/structure, family, metal species, sites/stoichiometry, operator/regulon, assay, mutant phenotype, and in-vivo evidence."
+      }
     },
     {
       "queuePosition": 469,
