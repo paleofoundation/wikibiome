@@ -14067,6 +14067,113 @@
       ],
       "requiredResolution": "Remove the false zinc-aromatase mechanism, correct source metadata, rebuild trace-element outcomes, distinguish hyperandrogenism from PCOS, evidence-grade microbiome associations, and remove unsupported treatment claims.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "hyperparathyroidism",
+      "controlledIdentifier": "MeSH:D006961;related-MeSH:D049950",
+      "batchId": "mechanisms-075",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The general condition is reframed as a causal metal-driven secondary pathway and chelation hypothesis from insufficient evidence.",
+      "checkedUrls": [
+        "https://id.nlm.nih.gov/mesh/D006961",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D049950",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6340919/",
+        "https://kdigo.org/wp-content/uploads/2025/02/KDIGO-2025-CKD-MBD-Controversies-Conference-Report_Final.pdf",
+        "local:data/content.generated.json#/pages/hyperparathyroidism"
+      ],
+      "requiredResolution": "Restore clinical disease taxonomy and guideline scope; verify the association source and units; remove causal and chelation extrapolations; and distinguish primary, secondary, and tertiary disease before re-audit.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "hypoxia",
+      "controlledIdentifier": "MeSH:D000860",
+      "batchId": "mechanisms-075",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A universal threshold and simple ecological model conflate physiologic, inflammatory, and tumour hypoxia and include incorrect organism and urease claims.",
+      "checkedUrls": [
+        "https://id.nlm.nih.gov/mesh/D000860",
+        "https://journals.physiology.org/doi/10.1152/ajpcell.00191.2015",
+        "https://www.ncbi.nlm.nih.gov/books/NBK2417/",
+        "https://pubmed.ncbi.nlm.nih.gov/7934918/",
+        "local:data/content.generated.json#/pages/hypoxia"
+      ],
+      "requiredResolution": "Use context-specific oxygen measurements, correct organism physiology and urease function, distinguish physiologic from inflammatory and tumour settings, source ecological claims, and repair broken links.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "hypoxic-signaling",
+      "controlledIdentifier": "related-MeSH:D051793",
+      "batchId": "mechanisms-075",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The HIF pathway is reduced to nickel carcinogenesis and includes identity conflation, unsupported uniqueness, and chemically incoherent prolyl-hydroxylation language.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051793",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC1257550/",
+        "https://pubmed.ncbi.nlm.nih.gov/15866766/",
+        "local:data/content.generated.json#/pages/hypoxic-signaling"
+      ],
+      "requiredResolution": "Bound HIF-1 and HIF-1alpha identity, correct hydroxylation chemistry, separate normoxic regulation from metal-induced signaling, and grade cell and model evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "il-10",
+      "controlledIdentifier": "MeSH:D016753;UniProt:P22301",
+      "batchId": "mechanisms-075",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The cytokine is described as universally primary and deficient, while context-dependent animal and compartment-specific associations become treatment targets.",
+      "checkedUrls": [
+        "https://id.nlm.nih.gov/mesh/D016753",
+        "https://www.uniprot.org/uniprotkb/P22301/entry",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4741283/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6352895/",
+        "local:data/content.generated.json#/pages/il-10"
+      ],
+      "requiredResolution": "Bound human protein, receptor, cell, compartment, cohort, knockout-model, microbiota, and therapeutic evidence before re-audit.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "il-17",
+      "controlledIdentifier": "MeSH:D020381;UniProt:Q16552",
+      "batchId": "mechanisms-075",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The family, IL-17A/F, Th17 and other sources, murine SFB results, mucosal defense, autoimmunity, and indication-specific blockade are conflated.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020381",
+        "https://www.uniprot.org/uniprotkb/Q16552/entry",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6050222/",
+        "https://www.nature.com/articles/s41385-020-00335-w",
+        "https://www.nature.com/articles/s41385-018-0050-3",
+        "local:data/content.generated.json#/pages/il-17"
+      ],
+      "requiredResolution": "Define the exact ligand and family, distinguish species and cell sources, and preserve protective, pathogenic, tissue, and clinical context before re-audit.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "il-1beta",
+      "controlledIdentifier": "MeSH:D053583;UniProt:P01584",
+      "batchId": "mechanisms-075",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "NLRP3 is treated as the exclusive primary source and distinct metals and forms are universalized as dual-signal activators and disease mechanisms.",
+      "checkedUrls": [
+        "https://id.nlm.nih.gov/mesh/D053583",
+        "https://www.uniprot.org/uniprotkb/P01584/entry",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007375",
+        "local:data/content.generated.json#/pages/il-1beta"
+      ],
+      "requiredResolution": "Define human IL-1beta, precursor and processing routes; distinguish NLRP3 from other pathways; and bound material, form, dose, cell, assay, and disease evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
