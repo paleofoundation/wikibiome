@@ -10,8 +10,14 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "22191c5abe09b5619b20a38f42d62f393836640a37fd8fe974f46c53f3d5a0f2",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "6a9cb75c371bd1ba15f0761ee14dbdbfe576675a1a7c5f4f1ff70cb3ecc287e5",
+    "reviewLogSha256": "da65d08069a8ad6c7e8e955f01a0e1d4ceba5e369d939e28746d1b37c8425c51",
     "batchManifests": [
+      {
+        "file": "data/article-media-batches/clinical-cautions-114.json",
+        "batchId": "clinical-cautions-114",
+        "status": "reviewed",
+        "sha256": "65d6b5e61256c096714cea417643b01fbcd11c7ebbab7f836b18dce09a513ddf"
+      },
       {
         "file": "data/article-media-batches/diseases-046.json",
         "batchId": "diseases-046",
@@ -712,9 +718,9 @@
     "total": 710,
     "completed": 372,
     "remaining": 338,
-    "rejected": 301,
+    "rejected": 307,
     "revised": 12,
-    "scientificHolds": 238,
+    "scientificHolds": 244,
     "inReview": 0
   },
   "categories": [
@@ -5943,6 +5949,110 @@
       ],
       "requiredResolution": "Link direct evidence and reconcile this route with `zinc-supplementation`; select exact compound, elemental content, product and lot, formulation, dose, schedule, baseline zinc/copper status, age and autism phenotype, comparator, adherence, specimens, assays, time points, endpoints, adverse-event monitoring, and a non-stigmatizing representation.",
       "routingImpact": "The route remains uncovered and asset-free until exact product, evidence, canonical scope, safety boundaries, and a non-stigmatizing visual subject pass a new audit."
+    },
+    {
+      "pageId": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
+      "controlledIdentifier": "Anti-Bacterial-Agents-MeSH:D000900;Ovarian-Neoplasms-MeSH:D010051;agent-infection-chemotherapy-and-clinical-scope-unresolved;local-source-identifiers-malformed",
+      "batchId": "clinical-cautions-114",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The conditional treatment-caution route does not select an antibacterial agent, pathogen, indication, route, dose, chemotherapy regimen, neutropenia state, or population; both source identifiers carry unresolved `.md` suffixes. Any prohibition image could imply withholding urgent infection treatment.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000900",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010051",
+        "https://www.cancer.gov/about-cancer/treatment/side-effects/infection",
+        "local:data/content.generated.json#/pages/stop-antibiotics-during-chemotherapy-ovarian-cancer"
+      ],
+      "requiredResolution": "Repair source identifiers; reconcile the title and claims to current guidance; define agent, pathogen, infection criteria, spectrum, route, dose, timing, chemotherapy regimen, neutropenia state, population, comparator, outcomes, and emergency exceptions; then identify a non-prescriptive subject.",
+      "routingImpact": "The route remains uncovered and asset-free; no treatment-withholding or generic warning media may be published."
+    },
+    {
+      "pageId": "stop-broad-spectrum-antibiotics-crohns",
+      "controlledIdentifier": "Anti-Bacterial-Agents-MeSH:D000900;Crohn-Disease-MeSH:D003424;agent-indication-protocol-and-clinical-evidence-unresolved",
+      "batchId": "clinical-cautions-114",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The linked arsenic-mouse and ZIP8-metal-dyshomeostasis sources do not establish a clinical broad-spectrum-antibiotic regimen in Crohn disease; agent, infection, phenotype, protocol, outcomes, and exceptions are unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000900",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D003424",
+        "https://www.cdc.gov/antibiotic-use/hcp/core-elements/index.html",
+        "local:data/content.generated.json#/pages/stop-broad-spectrum-antibiotics-crohns"
+      ],
+      "requiredResolution": "Add direct clinical evidence and guideline context; select the exact agent, indication, pathogen, Crohn phenotype, complication state, dose, route, duration, population, comparator, endpoints, harms, and exceptions; then define a non-prescriptive subject.",
+      "routingImpact": "The route remains uncovered and asset-free until its clinical recommendation and safe visual boundary are resolved."
+    },
+    {
+      "pageId": "stop-broad-spectrum-antibiotics-dysbiosis",
+      "controlledIdentifier": "Anti-Bacterial-Agents-MeSH:D000900;Dysbiosis-MeSH:D064806;heterogeneous-agents-microbiota-and-mechanisms;clinical-protocol-unresolved",
+      "batchId": "clinical-cautions-114",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines unspecified agents, taxa, biofilms, resistance states, metals, immune effects, metabolites, and alternatives. Dysbiosis is context-dependent, so one community image would invent composition, baseline, effect, and causal direction.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000900",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D064806",
+        "https://www.cdc.gov/antibiotic-use/hcp/core-elements/index.html",
+        "local:data/content.generated.json#/pages/stop-broad-spectrum-antibiotics-dysbiosis"
+      ],
+      "requiredResolution": "Select an exact agent or regimen, indication, microbiome compartment, baseline composition, assay, time points, population, comparator, measured ecological effects, clinical outcomes, and exceptions, and resolve proposed alternatives to direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free; no generic microbiome-loss or crossed-out-drug illustration may be published."
+    },
+    {
+      "pageId": "stop-broad-spectrum-antibiotics-long-covid",
+      "controlledIdentifier": "Anti-Bacterial-Agents-MeSH:D000900;Post-Acute-COVID-19-Syndrome-MeSH:D000094024;acute-COVID-source-versus-Long-COVID-claim;agent-and-protocol-unresolved",
+      "batchId": "clinical-cautions-114",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The only linked study concerns antibiotic-treated acute COVID-19 patients, while the route makes a Long COVID caution. Agent, bacterial-infection indication, phenotype, regimen, population, assays, outcomes, and exceptions are unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000900",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000094024",
+        "https://www.cdc.gov/long-covid/hcp/clinical-guidance/index.html",
+        "https://doi.org/10.1038/s41467-022-33395-6",
+        "local:data/content.generated.json#/pages/stop-broad-spectrum-antibiotics-long-covid"
+      ],
+      "requiredResolution": "Add direct Long COVID evidence and current guidance; separate acute COVID findings; select agent, infection criteria, pathogen, phenotype, route, dose, duration, population, comparator, specimens, assays, time points, endpoints, and emergency exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free until acute and post-acute evidence plus the treatment boundary are reconciled."
+    },
+    {
+      "pageId": "stop-calcium-supplementation-cadmium-exposure",
+      "controlledIdentifier": "Calcium-Dietary-MeSH:D002136;Cadmium-MeSH:D002104;supplement-compound-product-contamination-and-clinical-threshold-unresolved",
+      "batchId": "clinical-cautions-114",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route spans several calcium compounds and products, unmeasured contamination, exposure matrices, transport mechanisms, organs, and clinical thresholds. ATSDR's calcium boundary is conditional rather than a categorical STOP.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D002136",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D002104",
+        "https://ods.od.nih.gov/factsheets/calcium-HealthProfessional/",
+        "https://www.atsdr.cdc.gov/toxprofiles/tp5-c3.pdf",
+        "local:data/content.generated.json#/pages/stop-calcium-supplementation-cadmium-exposure"
+      ],
+      "requiredResolution": "Reconcile the clinical claim; select exact calcium compound, formulation, product and lot, measured cadmium content and method, exposure matrix, dose, population, baseline calcium and renal state, comparator, monitoring, thresholds, outcomes, contraindications, and provenance.",
+      "routingImpact": "The route remains uncovered and asset-free until product, contamination, exposure, and conditional clinical boundaries are resolved."
+    },
+    {
+      "pageId": "stop-diagnostic-overclaiming-discovery-phase",
+      "controlledIdentifier": "Pancreatic-Neoplasms-MeSH:D010190;Biomarkers-Tumor-MeSH:D014408;discovery-versus-validation-state;no-single-physical-subject",
+      "batchId": "clinical-cautions-114",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route is an evidence-maturity caution combining heterogeneous study designs, not a validated physical assay. A pancreas, panel, specimen, curve, or device would imply a defined cutoff, performance estimate, or cleared diagnostic that is absent.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010190",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014408",
+        "https://www.cancer.gov/types/pancreatic/research",
+        "local:data/content.generated.json#/pages/stop-diagnostic-overclaiming-discovery-phase"
+      ],
+      "requiredResolution": "Define a specific assay, specimen, pre-analytic protocol, feature set, validation cohort, prespecified cutoff, sensitivity, specificity, intended-use population, comparator, regulatory status, and versioned evidence state.",
+      "routingImpact": "The route remains uncovered and asset-free; evidence maturity should be communicated by interface semantics, not scientific primary media."
     }
   ],
   "revisedAssets": [
@@ -6097,55 +6207,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 656,
-      "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
-      "title": "STOP: Broad-Spectrum Antibiotics During Ovarian Cancer Chemotherapy",
-      "route": "/article/stop-antibiotics-during-chemotherapy-ovarian-cancer",
+      "queuePosition": 662,
+      "id": "stop-formula-feeding-without-supplementation-nec",
+      "title": "STOP: Exclusive Formula Feeding Without Supplementation for NEC-Risk Infants",
+      "route": "/article/stop-formula-feeding-without-supplementation-nec",
       "category": "stop",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution"
     },
     {
-      "queuePosition": 657,
-      "id": "stop-broad-spectrum-antibiotics-crohns",
-      "title": "STOP: Broad-Spectrum Antibiotics for Crohn's Disease",
-      "route": "/article/stop-broad-spectrum-antibiotics-crohns",
+      "queuePosition": 663,
+      "id": "stop-high-protein-keto-diet-ckd",
+      "title": "STOP: High-Protein or Ketogenic Diet for CKD",
+      "route": "/article/stop-high-protein-keto-diet-ckd",
       "category": "stop",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution"
     },
     {
-      "queuePosition": 658,
-      "id": "stop-broad-spectrum-antibiotics-dysbiosis",
-      "title": "STOP: Broad-Spectrum Antibiotics for Gut Dysbiosis",
-      "route": "/article/stop-broad-spectrum-antibiotics-dysbiosis",
+      "queuePosition": 664,
+      "id": "stop-iodine-supplementation-graves",
+      "title": "STOP: Iodine Supplementation for Graves' Disease",
+      "route": "/article/stop-iodine-supplementation-graves",
       "category": "stop",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution"
     },
     {
-      "queuePosition": 659,
-      "id": "stop-broad-spectrum-antibiotics-long-covid",
-      "title": "STOP: Broad-Spectrum Antibiotics for Long COVID",
-      "route": "/article/stop-broad-spectrum-antibiotics-long-covid",
+      "queuePosition": 665,
+      "id": "stop-iodine-supplementation-hashimotos",
+      "title": "STOP: Iodine Supplementation for Hashimoto's Thyroiditis",
+      "route": "/article/stop-iodine-supplementation-hashimotos",
       "category": "stop",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution"
     },
     {
-      "queuePosition": 660,
-      "id": "stop-calcium-supplementation-cadmium-exposure",
-      "title": "STOP: Calcium Supplementation with Cadmium Exposure",
-      "route": "/article/stop-calcium-supplementation-cadmium-exposure",
+      "queuePosition": 666,
+      "id": "stop-iron-supplementation-ibd",
+      "title": "STOP: Iron Supplementation (Oral) for IBD/Crohn's Disease",
+      "route": "/article/stop-iron-supplementation-ibd",
       "category": "stop",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution"
     },
     {
-      "queuePosition": 661,
-      "id": "stop-diagnostic-overclaiming-discovery-phase",
-      "title": "STOP: Diagnostic Overclaiming from Discovery-Phase Microbiome Data (Pancreatic Cancer)",
-      "route": "/article/stop-diagnostic-overclaiming-discovery-phase",
+      "queuePosition": 667,
+      "id": "stop-iron-supplementation-alzheimers",
+      "title": "STOP: Iron Supplementation for Alzheimer's Disease",
+      "route": "/article/stop-iron-supplementation-alzheimers",
       "category": "stop",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution"
@@ -19460,7 +19570,13 @@
       "route": "/article/stop-antibiotics-during-chemotherapy-ovarian-cancer",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+        "reason": "The conditional treatment-caution route does not select an antibacterial agent, pathogen, indication, route, dose, chemotherapy regimen, neutropenia state, or population; both source identifiers carry unresolved `.md` suffixes. Any prohibition image could imply withholding urgent infection treatment.",
+        "requiredResolution": "Repair source identifiers; reconcile the title and claims to current guidance; define agent, pathogen, infection criteria, spectrum, route, dose, timing, chemotherapy regimen, neutropenia state, population, comparator, outcomes, and emergency exceptions; then identify a non-prescriptive subject."
+      }
     },
     {
       "queuePosition": 657,
@@ -19473,7 +19589,13 @@
       "route": "/article/stop-broad-spectrum-antibiotics-crohns",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+        "reason": "The linked arsenic-mouse and ZIP8-metal-dyshomeostasis sources do not establish a clinical broad-spectrum-antibiotic regimen in Crohn disease; agent, infection, phenotype, protocol, outcomes, and exceptions are unresolved.",
+        "requiredResolution": "Add direct clinical evidence and guideline context; select the exact agent, indication, pathogen, Crohn phenotype, complication state, dose, route, duration, population, comparator, endpoints, harms, and exceptions; then define a non-prescriptive subject."
+      }
     },
     {
       "queuePosition": 658,
@@ -19486,7 +19608,13 @@
       "route": "/article/stop-broad-spectrum-antibiotics-dysbiosis",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+        "reason": "The route combines unspecified agents, taxa, biofilms, resistance states, metals, immune effects, metabolites, and alternatives. Dysbiosis is context-dependent, so one community image would invent composition, baseline, effect, and causal direction.",
+        "requiredResolution": "Select an exact agent or regimen, indication, microbiome compartment, baseline composition, assay, time points, population, comparator, measured ecological effects, clinical outcomes, and exceptions, and resolve proposed alternatives to direct evidence."
+      }
     },
     {
       "queuePosition": 659,
@@ -19499,7 +19627,13 @@
       "route": "/article/stop-broad-spectrum-antibiotics-long-covid",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+        "reason": "The only linked study concerns antibiotic-treated acute COVID-19 patients, while the route makes a Long COVID caution. Agent, bacterial-infection indication, phenotype, regimen, population, assays, outcomes, and exceptions are unresolved.",
+        "requiredResolution": "Add direct Long COVID evidence and current guidance; separate acute COVID findings; select agent, infection criteria, pathogen, phenotype, route, dose, duration, population, comparator, specimens, assays, time points, endpoints, and emergency exceptions."
+      }
     },
     {
       "queuePosition": 660,
@@ -19512,7 +19646,13 @@
       "route": "/article/stop-calcium-supplementation-cadmium-exposure",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+        "reason": "The route spans several calcium compounds and products, unmeasured contamination, exposure matrices, transport mechanisms, organs, and clinical thresholds. ATSDR's calcium boundary is conditional rather than a categorical STOP.",
+        "requiredResolution": "Reconcile the clinical claim; select exact calcium compound, formulation, product and lot, measured cadmium content and method, exposure matrix, dose, population, baseline calcium and renal state, comparator, monitoring, thresholds, outcomes, contraindications, and provenance."
+      }
     },
     {
       "queuePosition": 661,
@@ -19525,7 +19665,13 @@
       "route": "/article/stop-diagnostic-overclaiming-discovery-phase",
       "coverageGroup": "clinical-cautions",
       "suggestedAssetType": "clinical-caution",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+        "reason": "The route is an evidence-maturity caution combining heterogeneous study designs, not a validated physical assay. A pancreas, panel, specimen, curve, or device would imply a defined cutoff, performance estimate, or cleared diagnostic that is absent.",
+        "requiredResolution": "Define a specific assay, specimen, pre-analytic protocol, feature set, validation cohort, prespecified cutoff, sensitivity, specificity, intended-use population, comparator, regulatory status, and versioned evidence state."
+      }
     },
     {
       "queuePosition": 662,
