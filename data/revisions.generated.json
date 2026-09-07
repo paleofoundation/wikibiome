@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T04:05:37.444Z",
+  "generatedAt": "2026-09-07T04:26:12.080Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "06ac7a2cb24f32d8520b1124b7a933fb94fa111d",
-  "records": 820,
-  "canonicalIds": 755,
-  "revisions": 2948,
+  "sourceCommit": "02fb2690497cd59e10bfa965e6c19e1ad489f1a3",
+  "records": 821,
+  "canonicalIds": 756,
+  "revisions": 2965,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -2605,6 +2605,15 @@
       ],
       "revisions": [
         {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/entities/cadmium.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -3024,6 +3033,15 @@
       ],
       "revisions": [
         {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/entities/cardiovascular-disease.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "7e9ce596d185e958af54a5fff28257f9ea0ac211",
           "date": "2026-09-01T13:19:39+03:00",
           "author": "Karen Pendergrass",
@@ -3432,6 +3450,15 @@
       ],
       "revisions": [
         {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/entities/chromium.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -3563,6 +3590,15 @@
         "wiki/entities/chronic-kidney-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
           "date": "2026-09-01T21:13:18+03:00",
@@ -4244,6 +4280,15 @@
         "wiki/entities/colorectal-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/entities/colorectal-cancer.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -7403,6 +7448,15 @@
         "wiki/entities/hashimotos-thyroiditis.md"
       ],
       "revisions": [
+        {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/entities/hashimotos-thyroiditis.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
           "date": "2026-04-19T08:31:59+03:00",
@@ -16015,6 +16069,15 @@
       ],
       "revisions": [
         {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/entities/zinc.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18189,6 +18252,15 @@
       ],
       "revisions": [
         {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19640,6 +19712,24 @@
       ],
       "revisions": [
         {
+          "hash": "14cd16ba8f04aabec5ac507754da154146372528",
+          "date": "2026-09-07T07:22:07+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Render NLRP3 link outside barrier table",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20499,6 +20589,15 @@
       ],
       "revisions": [
         {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/concepts/il-1beta.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20752,6 +20851,15 @@
         "wiki/concepts/inflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22405,6 +22513,15 @@
       ],
       "revisions": [
         {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/concepts/microglia.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22721,6 +22838,24 @@
         "wiki/concepts/neuroinflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "02fb2690497cd59e10bfa965e6c19e1ad489f1a3",
+          "date": "2026-09-07T07:25:11+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Render NLRP3 neuroinflammation link in prose",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -23277,6 +23412,22 @@
           "subject": "maintenance: 409 source fixes, 34 entity updates, 17 concept updates, 30 analysis outputs",
           "path": "wiki/concepts/nitric-oxide.md",
           "additions": 74,
+          "deletions": 0
+        }
+      ]
+    },
+    "nlrp3-inflammasome": {
+      "paths": [
+        "wiki/concepts/nlrp3-inflammasome.md"
+      ],
+      "revisions": [
+        {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/concepts/nlrp3-inflammasome.md",
+          "additions": 75,
           "deletions": 0
         }
       ]
@@ -24898,6 +25049,15 @@
         "wiki/concepts/tmao.md"
       ],
       "revisions": [
+        {
+          "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
+          "date": "2026-09-07T07:17:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add NLRP3 inflammasome concept and link batch",
+          "path": "wiki/concepts/tmao.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",

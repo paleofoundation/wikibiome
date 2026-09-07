@@ -1,17 +1,17 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T04:05:06.021Z",
+  "generatedAt": "2026-09-07T04:25:37.254Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "06ac7a2cb24f32d8520b1124b7a933fb94fa111d",
-    "contentGeneratedAt": "2026-09-07T04:03:46.779Z",
+    "commit": "02fb2690497cd59e10bfa965e6c19e1ad489f1a3",
+    "contentGeneratedAt": "2026-09-07T04:25:05.671Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "a430bb3f4565d43e133c6cbc97cba3e80a8214a2bd42245976b9b529b6b4d5c3",
-    "pages": 820,
+    "sha256": "fc25bcb689b90be92a7a9cc3272ddf2a2c2aad67d8ca40841f39f54783c03b34",
+    "pages": 821,
     "sources": 1939
   },
   "sourceMetadataPolicy": {
@@ -1517,10 +1517,10 @@
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "06ac7a2cb24f32d8520b1124b7a933fb94fa111d",
+    "sourceCommit": "02fb2690497cd59e10bfa965e6c19e1ad489f1a3",
     "registeredCount": 112,
     "appliedRecordCount": 121,
-    "registrySha256": "77ddc86d8a6d8f5df0ce1d23fd2db1e7e62a1a0ca0b93a1cf31039fb15424ce7"
+    "registrySha256": "2a4416f2143704608e66880c471ece5d9861fd91727abf087aea107cb2fbf6a8"
   },
   "articleIdentityPolicy": {
     "version": 1,
@@ -1600,8 +1600,8 @@
       "type-1-diabetes",
       "type-2-diabetes"
     ],
-    "pagesWithReferences": 766,
-    "generatedReferences": 6463,
+    "pagesWithReferences": 767,
+    "generatedReferences": 6470,
     "pagesWithSourceDrift": 484,
     "recoveredInlineReferences": 349,
     "declaredOnlyReferences": 1979,
