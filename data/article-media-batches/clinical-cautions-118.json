@@ -2,8 +2,9 @@
   "schemaVersion": 1,
   "batchId": "clinical-cautions-118",
   "category": "clinical-cautions",
-  "status": "audited",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
   "authorizedParent": "76a53aeb589c46d5eb740a9ba6a7bd4302b7ddd1",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/clinical-cautions-118.md",
@@ -19,6 +20,7 @@
     "sourceUse": "Current controlled records and local source-resolution evidence define asset-free scientific holds."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "df0561777b966bbe30c1849e51b2cf4ea13c6263",
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out products, stigmatizing patient imagery, condition anatomy used as treatment evidence, or elemental-metal media substituted for a clinical product. All six routes fail before prompt creation.",
   "routeDecisionCount": 6,
   "candidateCount": 0,

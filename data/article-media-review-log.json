@@ -18456,6 +18456,60 @@
       ],
       "requiredResolution": "Add direct clinical evidence; define type 2 diabetes phenotype, duration, control and complications, kidney function, inflammation and bleeding, absolute versus functional deficiency and anemia, route, compound, formulation, elemental dose, schedule, population, comparator, monitoring, glycemic, renal and hematologic outcomes, adverse events, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no pancreas, glucose, kidney, blood, supplement, infusion, elemental Iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-asd",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Autism-Spectrum-Disorder-MeSH:D000067877;child-iron-state-metal-assessment-product-protocol-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The page exempts true pediatric iron deficiency; autism and microbiome sources do not establish withholding or resolve hepcidin assessment, deficiency, anemia, product, route, dose, population, outcomes, safety, or exceptions.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019266", "https://meshb.nlm.nih.gov/record/ui?ui=D000090463", "https://meshb.nlm.nih.gov/record/ui?ui=D000067877", "local:data/content.generated.json#/pages/stop-iron-supplementation-asd"],
+      "requiredResolution": "Add direct pediatric evidence and define population, deficiency/anemia and hepcidin criteria, product, formulation, route, elemental dose, schedule, diet, comparator, monitoring, developmental and hematologic outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no child, brain, gut, blood, supplement, elemental Iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-schizophrenia",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Schizophrenia-MeSH:D012559;neuroinflammation-anemia-product-protocol-and-psychiatric-outcomes-unresolved",
+      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The page exempts true iron deficiency; its sources do not establish withholding or resolve neuroinflammation, anemia, product, route, dose, antipsychotic treatment, psychiatric outcomes, safety, or exceptions.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019266", "https://meshb.nlm.nih.gov/record/ui?ui=D000090463", "https://meshb.nlm.nih.gov/record/ui?ui=D012559", "local:data/content.generated.json#/pages/stop-iron-supplementation-schizophrenia"],
+      "requiredResolution": "Add direct evidence and define schizophrenia phenotype and treatment, neuroinflammation assessment, deficiency/anemia, product, route, dose, population, comparator, monitoring, psychiatric and hematologic outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no stigmatizing patient, brain, blood, supplement, iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-phosphate-binders-ckd",
+      "controlledIdentifier": "Renal-Insufficiency-Chronic-MeSH:D051436;iron-based-phosphate-binder-product-ckd-stage-dialysis-protocol-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "CKD microbiome reviews do not establish discontinuation; exact binder, CKD stage, dialysis, phosphate and iron status, dose, comparator, monitoring, outcomes, safety, and exceptions are unresolved.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D051436", "local:data/content.generated.json#/pages/stop-iron-phosphate-binders-ckd"],
+      "requiredResolution": "Select the exact binder and define CKD stage, dialysis, phosphate and iron status, dose, schedule, concurrent therapy, population, comparator, microbiome method, biochemical and clinical outcomes, adverse events, monitoring, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no kidney, tablet, elemental Iron, gut, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-isolated-zinc-supplementation-pcos",
+      "controlledIdentifier": "Zinc-MeSH:D015032;Polycystic-Ovary-Syndrome-MeSH:D011085;zinc-compound-isolation-copper-status-dose-protocol-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The linked records concern other metals, not a zinc intervention; compound, dose, copper status, PCOS phenotype, reproductive context, outcomes, safety, and exceptions are unresolved.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015032", "https://meshb.nlm.nih.gov/record/ui?ui=D011085", "local:data/content.generated.json#/pages/stop-isolated-zinc-supplementation-pcos"],
+      "requiredResolution": "Add direct zinc-intervention evidence and define compound, formulation, elemental dose, duration, zinc/copper status, diet, PCOS phenotype, reproductive context, population, comparator, monitoring, outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no elemental Zinc, supplement, ovary, follicle, patient, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-ppi-monotherapy-without-microbiome-support-gerd",
+      "controlledIdentifier": "Proton-Pump-Inhibitors-MeSH:D054328;Gastroesophageal-Reflux-MeSH:D005764;ppi-agent-duration-probiotic-strain-protocol-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "PPIs remain indicated, while no exact PPI plus probiotic strain/product combination, duration, GERD phenotype, comparator, microbiome method, outcomes, safety, or exceptions are defined.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D054328", "https://meshb.nlm.nih.gov/record/ui?ui=D005764", "local:data/content.generated.json#/pages/stop-ppi-monotherapy-without-microbiome-support-gerd"],
+      "requiredResolution": "Select exact PPI and probiotic agents, formulations, doses and timing; define GERD phenotype, population, comparator, treatment duration, microbiome method, symptom, mucosal and safety outcomes, monitoring, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no reflux anatomy, pill, microbe, combined product, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-neglecting-constipation-ckd",
+      "controlledIdentifier": "Constipation-MeSH:D003248;Renal-Insufficiency-Chronic-MeSH:D051436;constipation-cause-ckd-stage-treatment-protocol-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "One observational record does not define management; constipation cause, CKD stage, dialysis, fluid/electrolyte constraints, exact intervention, dose, outcomes, contraindications, safety, and exceptions are unresolved.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D003248", "https://meshb.nlm.nih.gov/record/ui?ui=D051436", "local:data/content.generated.json#/pages/stop-neglecting-constipation-ckd"],
+      "requiredResolution": "Add current guidance and define constipation cause, CKD stage and dialysis, fluid/electrolyte limits, exact intervention, formulation, dose, schedule, population, comparator, monitoring, bowel and renal outcomes, adverse events, contraindications, escalation, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no bowel, kidney, stool, laxative, or warning image may be published."
     }
   ],
   "revisedAssets": [
