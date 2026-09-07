@@ -20,7 +20,7 @@ wikipedia_differentiation: "Hepcidin-mediated iron sequestration reframed as nut
 
 # Inflammatory Bowel Disease (IBD)
 
-An umbrella term for chronic relapsing-remitting inflammatory conditions of the gastrointestinal tract, principally [[crohns-disease]] (CD; transmural, any GI segment) and ulcerative colitis (UC; mucosal, colon only). Approximately 6 million patients worldwide. IBD represents the most direct manifestation of gut [[dysbiosis]], barrier failure, and immune dysregulation -- the same triad that metals produce -- making it a central disease in the metallomics-microbiome framework.
+An umbrella term for chronic relapsing-remitting inflammatory conditions of the gastrointestinal tract, principally [[crohns-disease]] (CD; transmural, any GI segment) and ulcerative colitis (UC; mucosal, colon only). Approximately 6 million patients worldwide. IBD represents the most direct manifestation of gut [[dysbiosis]], barrier failure, and immune dysregulation -- the same triad that metals produce -- making it a central disease in the [[metallomics]]-microbiome framework.
 
 ## Metallomic Signature
 

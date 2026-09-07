@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Tryptophan
 
-Tryptophan (Trp) is an essential amino acid that the human body cannot synthesize and must obtain from diet. It occupies a uniquely important position at the intersection of neuroscience, immunology, and microbial ecology because it is the sole precursor to serotonin, a major substrate for the [[kynurenine-pathway]], and the raw material for a suite of [[microbiome-derived-metabolites|microbial metabolites]] that shape gut-brain communication. What makes tryptophan particularly relevant to the metallomics story is that the enzymes controlling its fate are metal-dependent: the rate-limiting enzymes of the kynurenine pathway (IDO and TDO) both require heme [[iron]] as a cofactor, meaning that metal availability directly determines how tryptophan is metabolized and which downstream products predominate.
+Tryptophan (Trp) is an essential amino acid that the human body cannot synthesize and must obtain from diet. It occupies a uniquely important position at the intersection of neuroscience, immunology, and microbial ecology because it is the sole precursor to serotonin, a major substrate for the [[kynurenine-pathway]], and the raw material for a suite of [[microbiome-derived-metabolites|microbial metabolites]] that shape gut-brain communication. What makes tryptophan particularly relevant to the [[metallomics]] story is that the enzymes controlling its fate are metal-dependent: the rate-limiting enzymes of the kynurenine pathway (IDO and TDO) both require heme [[iron]] as a cofactor, meaning that metal availability directly determines how tryptophan is metabolized and which downstream products predominate.
 
 ## Dietary Sources and Absorption
 

@@ -21,7 +21,7 @@ pathogenic_potential: commensal
 
 # Lactobacillus
 
-A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) that are among the most extensively studied probiotics. In the metallomics context, *Lactobacillus* species are critical for two reasons: they actively detoxify [[heavy-metals]] through binding and sequestration, and they are preferentially depleted by heavy metal exposure -- making their loss a key driver of metal-induced [[dysbiosis]].
+A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) that are among the most extensively studied probiotics. In the [[metallomics]] context, *Lactobacillus* species are critical for two reasons: they actively detoxify [[heavy-metals]] through binding and sequestration, and they are preferentially depleted by heavy metal exposure -- making their loss a key driver of metal-induced [[dysbiosis]].
 
 ## Metal Detoxification Capacity
 

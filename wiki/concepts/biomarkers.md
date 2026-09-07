@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-10
 
 # Biomarkers
 
-Measurable indicators of biological state, exposure, or disease. In the metallomics context, biomarkers span three interconnected domains: metal biomarkers (quantifying exposure and body burden), microbiome biomarkers (reflecting microbial community disruption), and metabolite biomarkers (capturing downstream functional consequences). Integrating these layers is the promise of the [[metallomics]] approach.
+Measurable indicators of biological state, exposure, or disease. In the [[metallomics]] context, biomarkers span three interconnected domains: metal biomarkers (quantifying exposure and body burden), microbiome biomarkers (reflecting microbial community disruption), and metabolite biomarkers (capturing downstream functional consequences). Integrating these layers is the promise of the metallomics approach.
 
 ## Metal Biomarkers
 
@@ -56,7 +56,7 @@ See [[microbial-biomarkers]] for detailed treatment. Key examples:
 
 ## Metallomic Signatures
 
-The [[metallomics]] approach measures the complete metal profile (ionome) rather than individual metals, revealing patterns invisible to single-metal analysis:
+The metallomics approach measures the complete metal profile (ionome) rather than individual metals, revealing patterns invisible to single-metal analysis:
 - Multi-metal signatures in pancreatic cancer (urinary Cd, Ni, Co patterns) [[akash-2023-metabolomics-heavy-metal-toxicities]].
 - Hair metal ratios (e.g., Zn/Cu, Fe/Pb) as integrative exposure metrics.
 - Serum metallome changes tracking disease progression in Alzheimer's, Parkinson's, and cardiovascular disease.
@@ -69,7 +69,7 @@ The [[metallomics]] approach measures the complete metal profile (ionome) rather
 
 ## See Also
 
-- [[metallomics]] -- systems-level metal analysis
+- Metallomics -- systems-level metal analysis
 - [[microbial-biomarkers]] -- microbiome-specific diagnostics
 - [[calprotectin]] -- fecal inflammation biomarker
 - [[hepcidin]] -- iron homeostasis biomarker

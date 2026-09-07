@@ -2,168 +2,128 @@
 title: Metallomics
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
-sources: [zhang-2022-metallomics-cancer-review, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd, scholefield-2024-brain-metallomics-dementia, schilling-2020-urine-metallomics-pancreatic-cancer, lim-2023-plasma-metallomics-ami, patil-2021-infection-metallomics-critical-care, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, brylinski-2025-trace-elements-thyroid-diseases, saleh-2020-serum-trace-elements-prostate-cancer, blazewicz-2023-metal-profiles-asd]
-source_count: 10
-tags: [metallomics, biomarkers, ICP-MS, cancer-diagnostics, metal-profiling, copper-zinc-ratio, selenoproteins, infection-metallomics, brain-metallomics, precision-medicine]
+updated: 2026-09-07
+last_substantive_update: 2026-09-07
+sources: [morel-2022-mouse-metallomic-landscape-aging-metabolism, blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans, zhang-2022-metallomics-cancer-review, callejon-leblic-2023-metallomic-signatures-lung-cancer-copd, scholefield-2024-brain-metallomics-dementia, schilling-2020-urine-metallomics-pancreatic-cancer, lim-2023-plasma-metallomics-ami, patil-2021-infection-metallomics-critical-care, stanton-2021-metallome-omes-link-asd, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, brylinski-2025-trace-elements-thyroid-diseases, saleh-2020-serum-trace-elements-prostate-cancer, blazewicz-2023-metal-profiles-asd]
+source_count: 13
+tags: [metallomics, metallome, metal-speciation, ICP-MS, isotope-ratios, metalloproteins, metallophores, multi-omics, biomarkers, microbial-metallomics]
 platform: wikibiome
 karen_brain_primitives: [1, 3, 4, 8]
-seo_target: "metallomics microbiome"
-last_substantive_update: 2026-04-09
+seo_target: "metallomics metallome metal speciation ICP-MS microbial metallomics"
 ---
 
 # Metallomics
 
-## Definition
+Metallomics is the systematic study of metals and metalloids in a biological system. The **metallome** is the set of metal and metalloid species present in a defined organism, tissue, cell, fluid, or microbial community; **metallomics** is the measurement and interpretation of that set. A metallomic study may examine total elemental concentrations, chemical forms, isotope composition, spatial distribution, metal-binding molecules, or changes across conditions. It is therefore broader than a single blood-metal test and more specific than using “metal exposure” as a synonym for any measured element [[morel-2022-mouse-metallomic-landscape-aging-metabolism]] [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].
 
-Metallomics is the systematic study of the entirety of metal and metalloid species within a biological system -- their concentrations, speciation (chemical forms), spatial distributions, and functional roles. As a discipline, metallomics integrates analytical chemistry (primarily ICP-MS), bioinformatics, genomics (metalloprotein genes), and clinical medicine to generate comprehensive metal profiles that can serve as disease biomarkers, mechanistic insights, and therapeutic targets.
+The central idea is relational: metal biology depends on where an element is, which chemical species carries it, what it is bound to, and how the rest of the metallome changes with it. An excess of one metal can alter the abundance or binding distribution of another, so a multi-element profile can reveal interactions that isolated measurements miss [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].
 
-The term parallels genomics, proteomics, and metabolomics, and reflects the recognition that metals are not passive passengers in biology but active participants whose homeostatic status profoundly influences health and disease.
+## What the Metallome Includes
 
-## Analytical Methods
+A metallome is always defined by a biological compartment and a measurement scope. It can include:
 
-### ICP-MS (Inductively Coupled Plasma Mass Spectrometry)
-The workhorse of metallomics. Enables simultaneous quantification of 20-30+ elements in a single sample with detection limits in the parts-per-trillion range. Variants include:
-- ICP-MS/MS (triple quadrupole): Enhanced interference removal for complex biological matrices
-- MC-ICP-MS (multi-collector): Enables measurement of natural stable isotope ratios (e.g., Zn isotope fractionation)
-- HPLC-ICP-MS: Coupling liquid chromatography with ICP-MS for metal speciation (e.g., inorganic vs. organic arsenic)
-- LA-ICP-MS (laser ablation): Spatial mapping of metals in tissue sections
+- essential elements such as iron, zinc, copper, manganese, selenium, cobalt, and molybdenum;
+- non-essential or toxic elements such as lead, cadmium, and mercury;
+- free or labile ions, small-molecule complexes, protein-bound fractions, mineral stores, and excreted species;
+- isotope ratios that reflect transport, binding, or redistribution; and
+- microbial metal-acquisition products such as siderophores and other metallophores.
 
-### Complementary Methods
-- MALDI-MS and FTICR-MS: For identification of metal-containing biomolecules (metallophores, metallopeptides)
-- LC-ESI-MS: For detecting metallophores with isotope data filtering to selectively identify metal-containing species
-- Synchrotron X-ray fluorescence: Subcellular metal mapping
+“The human metallome” is not one fixed vector. Liver, brain, kidney, heart, muscle, serum, urine, stool, and microbial biomass can have different profiles. In mice, organ identity explained much of the observed metallomic variation, and aging produced smaller shifts within those organ-specific patterns [[morel-2022-mouse-metallomic-landscape-aging-metabolism]]. This compartment dependence is why a serum association cannot automatically be transferred to brain tissue, intestinal lumen, or intracellular metal pools.
 
-## Cancer Metallomics
+## Analytical Layers
 
-### Universal Patterns Across Cancer Types
+### Total Element Concentration
 
-A comprehensive review of metallomic studies across lung, prostate, colorectal, gastric, esophageal, breast, thyroid, pancreatic, laryngeal, gallbladder, renal cell, and hepatocellular cancers reveals recurring patterns:
+Inductively coupled plasma mass spectrometry (ICP-MS) and related techniques can quantify many elements in one sample. ICP-MS/MS can reduce spectral interferences in complex matrices, while ICP atomic-emission or optical-emission methods are also used for selected elements. These measurements answer **how much of each element was detected in the analyzed sample**, but not necessarily its oxidation state, ligand, cellular location, or bioavailability [[lim-2023-plasma-metallomics-ami]] [[morel-2022-mouse-metallomic-landscape-aging-metabolism]].
 
-- Copper elevation is the most consistent finding across nearly all cancer types in blood/serum/plasma, suggesting Cu accumulation as a general cancer biomarker
-- Zinc dysregulation shows mixed patterns but the Cu/Zn ratio is consistently increased in cancer patients
-- Selenium tends to decrease across cancers, reflecting impaired selenoprotein-mediated antioxidant defense
-- Cadmium accumulation is elevated in multiple cancer types, consistent with its IARC Group 1 carcinogen status
+### Chemical Speciation and Binding Fractions
 
-### Cancer-Specific Metallomic Fingerprints
+[[metal-speciation|Metal speciation]] separates an element into chemically or operationally distinct fractions. Chromatographic separation coupled to ICP-MS can distinguish high-molecular-mass, low-molecular-mass, and inorganic fractions or resolve particular compounds. In a *C. elegans* model, combined total-element and size-exclusion ICP-MS measurements showed that iron exposure changed manganese distribution and that manganese or iron exposure displaced zinc from protein-associated fractions; total concentration alone would not describe those shifts [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].
 
-| Cancer Type | Elevated Elements | Decreased Elements | Notable Ratios |
-|------------|-------------------|-------------------|----------------|
-| Lung | Cr, Cd, Cu, Zn, Ni, Se (urine); Al, Pb | Mn, Fe, Zn (biofluids) | Ni 1.60-fold in LC |
-| Prostate | Fe, Cu, Ni, Cd | Zn, Se | Cu/Zn elevated |
-| Colorectal | Cu, Fe, Ni | Se, Zn, Mn | Cu/Zn as new marker |
-| Breast | Cu, Cd | Se, Zn | Cu/Zn increased |
-| Thyroid | As, Cd, Cr, Cu, Pb, Se | Zn, Fe, Ni | Metal pair correlations |
-| Pancreatic | Cu, Cd | Zn, Se | Ca+Mg+Zn+Cu AUC=0.99 |
+### Spatial and Isotopic Information
 
-### Lung Cancer and COPD Metallomic Signatures
+Laser-ablation ICP-MS and X-ray methods can map elements across tissues, while multi-collector ICP-MS can measure stable-isotope ratios. A pancreatic-cancer discovery study combined urinary calcium, magnesium, copper, and zinc concentrations with zinc-isotope measurements, illustrating that isotope composition may add information beyond concentration [[schilling-2020-urine-metallomics-pancreatic-cancer]]. Spatial or isotope differences still require biological interpretation; they do not by themselves identify a causal mechanism.
 
-A study of 191 serum samples from the CHAIN cohort demonstrated that lung cancer (LC) and COPD have significantly different metallomic signatures, and that COPD patients who later developed LC (COPD-LC) show the most altered profiles. Nickel was significantly elevated 1.60-fold in LC and 1.37-fold in COPD-LC. PCA/PLS-DA analysis achieved clear separation between disease groups. Disrupted metal-metal correlation patterns (e.g., loss of Zn-Se and Cu-Fe correlations present in healthy controls) illustrate how metallomics reveals systemic dyshomeostasis beyond individual element changes.
+### Metal-Binding Molecules
 
-### Pancreatic Cancer Urine Metallomics
+Mass spectrometry can also identify metal-associated biomolecules. Infection metallomics uses LC-MS, MALDI-MS, FTICR-MS, elemental detection, and isotope-pattern filtering to detect microbial metallophores in clinical or experimental samples. This is analytically distinct from measuring total iron or zinc because the molecule and its metal-binding function are part of the target [[patil-2021-infection-metallomics-critical-care]].
 
-Urine metallomics achieved 99.5% sensitivity for discriminating pancreatic ductal adenocarcinoma (PDAC) from healthy controls using a combined analysis of Ca, Mg, Cu, and Zn concentrations. A breakthrough finding was that natural stable Zn isotope composition differs significantly in PDAC, with preferential excretion of isotopically light zinc reflecting disrupted metalloprotein biology. The loss of the Zn concentration/Cu ratio correlation that exists in healthy individuals (r2=0.66 vs. 0.0002 in PDAC) indicates fundamental disruption of zinc regulation.
+## From Measurement to a Metallomic Signature
 
-### Metalloprotein Genetics
+A **metallomic signature** is a reproducible pattern across multiple elements, species, ratios, isotopes, or locations. Building one usually involves:
 
-Metallomic studies are increasingly integrated with genetics:
-- MMP gene variants (Zn-dependent matrix metalloproteinases): linked to carcinogenesis across multiple cancers
-- Selenoprotein gene variants (GPX1, GPX4, TXNRD1/2): associated with cancer risk
-- Cu-transporting ATPase variants (ATP7B): linked to chemotherapy response
-- Cu/Zn-SOD and ceruloplasmin variants: associated with cancer susceptibility
+1. defining the biological compartment, collection time, and comparison groups;
+2. controlling collection vessels, digestion, contamination, detection limits, and batch effects;
+3. quantifying or identifying the chosen metallomic features;
+4. normalizing for dilution, tissue mass, or another justified denominator;
+5. modeling correlated features without allowing data leakage; and
+6. validating the resulting pattern in an independent population or experiment.
 
-## Brain Metallomics and Dementia
+The word *signature* should not imply a validated diagnostic test. Several studies in the WikiBiome vault are discovery studies that report strong separation within their original cohorts. Those results establish candidates for replication, not clinical readiness.
 
-Post-mortem brain metallomic profiling using ICP-MS across 10 brain regions can distinguish between dementia with Lewy bodies (DLB), Alzheimer's disease (AD), and Parkinson's disease dementia (PDD):
+## Biological and Clinical Research Applications
 
-- Widespread copper decreases are common across all three dementias, suggesting shared pathogenic mechanisms
-- Despite shared Cu deficiencies, other metal alterations (Na, Mn, Ca, Fe, Se) differ between disease types, creating distinct metallomic signatures
-- PCA and PLS-DA analysis of as few as three brain regions achieves clear disease separation
-- Cu changes contribute most to variable importance in projection (VIP) scores
-- [[oxidative-stress]] implications: Cu, Mn, Fe, and Se are all cofactors for antioxidant enzymes (SOD1, SOD2, GPX, TrxR), and their coordinated dysregulation indicates widespread loss of antioxidant defense
+### Organ, Aging, and Multi-Omic Biology
 
-## Cardiovascular Metallomics
+Metallomics can connect metal measurements to the proteome, metabolome, transcriptome, epigenome, and microbiome. Mouse organ profiling linked iron and copper measures with metabolic traits and with proteomic or metabolomic pathways involving oxidative phosphorylation and fatty-acid metabolism [[morel-2022-mouse-metallomic-landscape-aging-metabolism]]. Reviews of autism-related biology similarly describe the metallome as an interacting layer that can affect metal-binding proteins, signaling, microbial ecology, and other omes, while emphasizing that these cross-system links are mechanistic hypotheses of varying evidentiary strength [[stanton-2021-metallome-omes-link-asd]] [[blazewicz-2023-metal-profiles-asd]].
 
-Plasma metallomic profiling identifies biomarkers for acute myocardial infarction (AMI):
+### Cancer and Cardiovascular Discovery Studies
 
-- Copper significantly elevated and selenium decreased in AMI patients
-- Element-pair ratios (Cu/Se, Fe/Cu) are more sensitive than individual element concentrations
-- Random forest models incorporating metallomic features (Cu/Se, Fe/Cu) alongside traditional risk factors achieved AUC of 0.942 in a 10-feature model -- not from metals alone
-- Longitudinal tracking shows Cu and Se remain significantly altered at 6 months post-infarction while Fe normalizes
-- Essential elements exhibit ambivalent (U- or J-shaped) relationships with AMI risk, meaning both deficiency and excess are harmful
+A review across multiple cancers reports recurring changes in copper, zinc, selenium, and other elements, but the direction and magnitude vary by cancer type, tissue, sample matrix, and study. Copper elevation in circulating samples and altered copper-to-zinc ratios are recurring observations, not a universal cancer rule [[zhang-2022-metallomics-cancer-review]]. A prostate-cancer case-control study, for example, found higher serum copper and iron with lower zinc, selenium, and manganese in its cohort [[saleh-2020-serum-trace-elements-prostate-cancer]].
 
-## Infection Metallomics
+Individual discovery studies illustrate both the potential and the limits of classification. A serum study compared lung cancer, COPD, COPD with later lung cancer, and healthy-control groups using an 18-element ICP-MS panel; multivariate models separated groups within that cohort [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]. A urinary pancreatic-cancer study reported strong performance for a four-element model in 21 cases and 46 controls [[schilling-2020-urine-metallomics-pancreatic-cancer]]. A plasma acute-myocardial-infarction study reported a ten-feature random-forest model that combined metallomic ratios with traditional risk factors; the reported performance was not attributable to metals alone [[lim-2023-plasma-metallomics-ami]].
 
-A distinct branch of metallomics focuses on detecting microbial metallophores -- metal-chelating small molecules produced by pathogens as virulence factors:
+### Brain Metallomics
 
-### Metallophore Types
-- Bacterial siderophores: Enterobactin, yersiniabactin (binds Fe and Cu), aerobactin, pyoverdine
-- Mycobacterial siderophores: Mycobactins and carboxymycobactins from M. tuberculosis
-- Fungal siderophores: TAFC (triacetylfusarinine C), ferricrocin from [[aspergillus|*Aspergillus fumigatus*]]
+Brain metallomics adds spatial context because different regions can show different metal patterns. A post-mortem study measured metals in ten brain regions from dementia with Lewy bodies cases and controls, then compared the pattern with previously generated Alzheimer’s and Parkinson’s-disease-dementia datasets. Copper decreases were widespread, while other regional differences contributed to multivariate separation. The study was small and post-mortem, so it supports a tissue-level research signature rather than a living-patient diagnostic test [[scholefield-2024-brain-metallomics-dementia]].
 
-### Clinical Applications
-- TAFC detected in human serum and urine of aspergillosis patients, enabling real-time fungal infection tracking
-- Yersiniabactin copper complex detected in patient urine during UTI
-- Isotope data filtering can discriminate invasive disease from benign colonization -- critical in ICU settings
-- Post-COVID applications include monitoring secondary bacterial/fungal superinfections (aspergillosis incidence in critically ill COVID patients had 19.4% mortality)
+### Infection Metallomics
 
-## Microbial Metallomics
+Infection metallomics focuses on pathogen-produced or pathogen-associated metal-binding molecules. Siderophores and other metallophores help microbes acquire nutrients or withstand metal stress, making them potential biomarkers of active microbial behavior. Human-sample observations include detection of the fungal siderophore TAFC and a copper-yersiniabactin complex, while other proposed applications remain experimental [[patil-2021-infection-metallomics-critical-care]]. Detection of a metallophore can provide different information from organism abundance, but claims that it distinguishes invasion from colonization remain pathogen-, molecule-, specimen-, and validation-specific.
 
-The emerging field of microbial metallomics extends the metallomic approach to the [[gut-microbiome]] and host-microbe metal interactions. The Pendergrass framework applies microbial metallomics to Parkinson's disease, examining how dietary/environmental metals reshape gut microbial communities through competitive metal stress, connecting peripheral metal-microbiome disruption to central neurodegeneration.
+### Microbial Metallomics
 
-## Metallomic Signatures as a Diagnostic Pillar
+[[microbial-metallomics|Microbial metallomics]] applies metallomic reasoning to microorganisms and host-associated ecosystems. Its possible measurements include metals in microbial biomass, extracellular complexes, metalloproteins, metallophores, gene-linked metal use, and metal distribution between host, diet, lumen, and community. This differs from sequencing a [[gut-microbiome|gut microbiome]]: taxonomic or functional sequencing estimates organisms and genes, whereas metallomics measures elemental or metal-associated chemical features.
 
-A key insight emerging from the convergence of these studies: diseases have metallomic signatures — characteristic, reproducible patterns of metal elevation and depletion that are disease-specific and diagnostically useful. This parallels the established concept of microbiome signatures (taxonomic profiles that distinguish disease states) and metabolomic signatures (metabolite panels that identify pathology).
+The host-microbiome boundary is especially important. Stool metal concentration can reflect intake, absorption, host secretion, microbial uptake, chemical binding, and transit simultaneously. A conference framework in the vault proposes that metal availability can reshape gut ecology and connect dysbiosis with Parkinson’s-related mechanisms, but it is explicitly a founder-authored, non-peer-reviewed synthesis and should be treated as hypothesis-generating [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
-The evidence across this wiki demonstrates three tiers of metallomic diagnostic power:
+## Metallomics Versus Adjacent Measurements
 
-### Tier 1: Disease Detection (Is disease present?)
-- Pancreatic cancer: Ca+Mg+Zn+Cu urine panel achieves AUC 0.99 [[schilling-2020-urine-metallomics-pancreatic-cancer]]
-- AMI: Random forest model achieves AUC 0.942 -- in a 10-feature model combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]]
-- Lung cancer: Al and Mn achieve near-perfect AUC [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
+- **Elemental analysis** measures one or more elements. It becomes metallomic when the study is designed and interpreted as a system-level metal profile.
+- **Biomonitoring** estimates exposure or body burden in a defined specimen. Metallomics may include biomonitoring, but also examines essential elements, binding, interactions, localization, and function.
+- **Ionomics** often refers to high-throughput profiling of inorganic ions, especially in plants and genetics. Its practical overlap with metallomics is substantial, but terminology depends on field and study design.
+- **Metal speciation** determines chemical forms of an element. It is one layer of metallomics, not a synonym for the entire discipline.
+- **Metalloproteomics** focuses on metal-binding proteins and their metal occupancy. Metallomics can incorporate those data alongside non-protein species and total-element measurements.
+- **Metabolomics** profiles small molecules. Combined metallomics-metabolomics can test whether changes in metal state accompany changes in metabolic pathways [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].
 
-### Tier 2: Disease Differentiation (Which disease is it?)
-- DLB vs AD vs PDD: PCA/PLS-DA on brain metals from 3 regions separates all three dementias with 94% sensitivity/specificity [[scholefield-2024-brain-metallomics-dementia]]
-- Lung cancer vs COPD: Distinct serum metallomic profiles despite overlapping symptoms [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]
-- ASD severity grading: Hair metal patterns correlate with autism severity [[zhou-2025-hair-heavy-metals-asd-severity]]
+## Evidence Interpretation
 
-### Tier 3: Mechanistic Insight (Why does this pattern exist?)
-- Metal-metal correlation disruption reveals systemic dyshomeostasis (loss of Zn-Se correlation in cancer, Cu-Fe decoupling in DLB)
-- Zn isotope fractionation in pancreatic cancer reflects metalloprotein biology disruption — a dimension beyond concentration
-- Fe accumulation in substantia nigra + Se depletion in PVC = coordinated antioxidant system failure in DLB
+Metallomic associations are sensitive to study design. Readers should ask:
 
-### The Convergence with Microbial Metallomics
-The diagnostic power of metallomic signatures extends to the host-microbiome interface. Infection metallomics (detecting pathogen metallophores in clinical samples) and gut metallomic profiling (fecal metal patterns) represent the microbiome-facing side of the same coin. In the future, an integrated metallomic-taxonomic-metabolomic signature may provide the most complete disease fingerprint — capturing what metals are dysregulated, which organisms are exploiting that dysregulation, and what metabolic consequences follow.
+- Which compartment and time point were measured?
+- Was total concentration, chemical species, isotope ratio, or spatial distribution measured?
+- Were diet, supplements, smoking, renal function, inflammation, medications, age, sex, and collection materials addressed?
+- Was the model evaluated outside the cohort used to select its features?
+- Does a measured change represent exposure, redistribution, binding, excretion, tissue damage, or altered clearance?
+- Are claims about one element actually supported by a multi-element analysis?
 
-## Critical Limitation
+Inflammation can redistribute iron, copper, zinc, and selenium, while kidney or liver function can change circulating and urinary concentrations. Reviews of thyroid disease show that the same element can have different associations across disease states and that essential elements can be harmful in both deficiency and excess [[brylinski-2025-trace-elements-thyroid-diseases]]. Consequently, a case-control difference does not establish that correcting the measured value will improve health.
 
-Critical limitation: All metallomic diagnostic panels described here are from discovery-phase studies with small cohorts (n=21-101). Biomarker discovery studies routinely show high AUC values that shrink or fail to replicate in independent validation cohorts. No metallomic diagnostic panel has been validated in a prospective clinical trial as of 2025.
+## Clinical and Intervention Boundaries
 
-## Emerging Directions
+No metallomic pattern described in the cited WikiBiome evidence should be used alone to diagnose cancer, dementia, myocardial infarction, autism, infection, or another condition. High performance reported in a discovery cohort requires independent validation, standardized preanalytics, calibration, prospective evaluation, and comparison with accepted clinical methods. Multivariate models can also overfit when the number of candidate features is large relative to the number of participants.
 
-### Metal Isotope Ratios as Biomarkers
-Zinc isotope fractionation in urine distinguishes pancreatic cancer from healthy controls, representing a novel dimension beyond concentration-based analysis. This approach could extend to Cu, Fe, and other isotope systems.
+Likewise, a metallomic result is not automatically a treatment prescription. Supplementation, dietary restriction, or chelation can alter multiple elements and may cause deficiency, toxicity, or drug interactions. Clinical decisions require condition-specific interpretation and established medical testing rather than an unvalidated omics panel.
 
-### Multi-Metal Diagnostic Panels
-Single-element measurements are giving way to integrated multi-element panels and element ratios that capture the systemic nature of metal dyshomeostasis. Combined biomarker approaches consistently outperform individual elements (e.g., four-element urine panel achieving AUC=0.99 for pancreatic cancer).
+## Connections
 
-### Integration with Other -Omics
-Metallomics combined with genomics (metalloprotein gene variants), metabolomics (metal-dependent metabolic pathways), and microbiomics (gut metal ecology) promises a systems-level understanding of metal biology in health and disease.
-
-## Key Sources
-
-- [[zhang-2022-metallomics-cancer-review]]
-- [[patil-2021-infection-metallomics-critical-care]]
-- [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]
-- [[brylinski-2025-trace-elements-thyroid-diseases]]
-- [[saleh-2020-serum-trace-elements-prostate-cancer]]
-- [[blazewicz-2023-metal-profiles-asd]]
-
-## Connections to Other Concepts
-
-- [[ferroptosis]] -- metallomic profiling can detect the iron dysregulation and selenium deficiency that predispose to ferroptotic cell death
-- [[mis-metallation]] -- metallomics reveals the essential-metal-depletion/toxic-metal-elevation patterns that indicate active mis-metallation
-- [[gut-metal-microbiome]] -- microbial metallomics and fecal metallomic profiling extend the approach to the gut ecosystem
-- [[metalloestrogens]] -- metallomic signatures in breast tissue and peritoneal fluid can detect cadmium and nickel levels relevant to estrogenic disruption
-- [[environmental-metal-exposure]] -- metallomics provides the analytical framework for exposure assessment and biomonitoring
-- [[biomarkers]] -- metallomic profiles serve as multi-element biomarkers for disease diagnosis, staging, and treatment monitoring
+- [[metal-homeostasis]] — processes that regulate acquisition, distribution, storage, use, and excretion
+- [[metal-speciation]] — chemical-form information within a metallomic analysis
+- [[mis-metallation]] — inappropriate metal occupancy that total concentrations may fail to reveal
+- [[microbial-metallomics]] — organism- and community-level metal biology
+- [[gut-metal-microbiome]] — the ecological interface among diet, host, metals, and microorganisms
+- [[biomarkers]] — candidate signatures require independent analytical and clinical validation
+- [[metabolomics]] — a complementary small-molecule layer for multi-omic integration
+- [[oxidative-stress]] — one possible consequence of altered redox-active metal handling
+- [[ferroptosis]] — iron-dependent lipid-peroxidation cell death, not equivalent to iron elevation alone
+- [[nutritional-immunity]] — host control of nutrient metals during infection

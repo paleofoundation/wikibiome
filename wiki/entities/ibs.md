@@ -20,7 +20,7 @@ wikipedia_differentiation: "Nickel allergic contact mucositis (ACM) as undiagnos
 
 # Irritable Bowel Syndrome (IBS)
 
-A functional gastrointestinal disorder affecting 10-15% of the global population, characterized by chronic abdominal pain, bloating, and altered bowel habits (diarrhea-predominant, constipation-predominant, or mixed) without identifiable structural pathology. From a metallomics perspective, IBS is remarkable for its overlap with systemic [[nickel-allergy]] syndrome (SNAS), where nickel-rich foods trigger IBS-identical symptoms in nickel-sensitized individuals -- raising the question of how many "IBS" patients actually have an undiagnosed metal hypersensitivity.
+A functional gastrointestinal disorder affecting 10-15% of the global population, characterized by chronic abdominal pain, bloating, and altered bowel habits (diarrhea-predominant, constipation-predominant, or mixed) without identifiable structural pathology. From a [[metallomics]] perspective, IBS is remarkable for its overlap with systemic [[nickel-allergy]] syndrome (SNAS), where nickel-rich foods trigger IBS-identical symptoms in nickel-sensitized individuals -- raising the question of how many "IBS" patients actually have an undiagnosed metal hypersensitivity.
 
 ## The Nickel-IBS Connection
 

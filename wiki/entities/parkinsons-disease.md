@@ -20,7 +20,7 @@ wikipedia_differentiation: "Pheomelanin-neuromelanin hypothesis linking MC1R var
 
 # Parkinson's Disease (PD)
 
-The second most common neurodegenerative disease, affecting over 10 million people worldwide [[dorsey-2018-parkinsons-incidence-meta-analysis]]. Characterized by progressive loss of dopaminergic neurons in the substantia nigra, alpha-synuclein aggregation (Lewy bodies), and motor symptoms (tremor, rigidity, bradykinesia) [[balestrino-2020-systematic-review-parkinsons-basal-ganglia]]. From a metallomics perspective, PD is the disease where ferroptosis is most directly established as a cell death mechanism, manganese-parkinsonism provides the clearest occupational dose-response evidence, and the gut-brain axis offers a compelling metal-microbiome-neurodegeneration framework. Approximately 14 source pages address PD's metallomic dimensions.
+The second most common neurodegenerative disease, affecting over 10 million people worldwide [[dorsey-2018-parkinsons-incidence-meta-analysis]]. Characterized by progressive loss of dopaminergic neurons in the substantia nigra, alpha-synuclein aggregation (Lewy bodies), and motor symptoms (tremor, rigidity, bradykinesia) [[balestrino-2020-systematic-review-parkinsons-basal-ganglia]]. From a [[metallomics]] perspective, PD is the disease where ferroptosis is most directly established as a cell death mechanism, manganese-parkinsonism provides the clearest occupational dose-response evidence, and the gut-brain axis offers a compelling metal-microbiome-neurodegeneration framework. Approximately 14 source pages address PD's metallomic dimensions.
 
 ## Metallomic Signature
 

@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # Biofilm
 
-Structured microbial communities encased in a self-produced extracellular polymeric substance (EPS) matrix. Biofilms are the predominant mode of bacterial and fungal growth in chronic infections, device-associated infections, and the gut. From a metallomics perspective, biofilms create distinct metal microenvironments that shield microbes from host [[nutritional-immunity]] and concentrate metals for microbial use.
+Structured microbial communities encased in a self-produced extracellular polymeric substance (EPS) matrix. Biofilms are the predominant mode of bacterial and fungal growth in chronic infections, device-associated infections, and the gut. From a [[metallomics]] perspective, biofilms create distinct metal microenvironments that shield microbes from host [[nutritional-immunity]] and concentrate metals for microbial use.
 
 ## Metal Dynamics in Biofilms
 

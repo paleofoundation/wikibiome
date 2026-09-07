@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-10
 
 # Atherosclerosis
 
-Progressive inflammatory disease of the arterial wall characterized by lipid accumulation, immune cell infiltration, and fibrous plaque formation. In the metallomics framework, atherosclerosis sits at the convergence of three interacting systems: heavy metal toxicity, gut/oral microbial [[dysbiosis]], and chronic [[inflammation]].
+Progressive inflammatory disease of the arterial wall characterized by lipid accumulation, immune cell infiltration, and fibrous plaque formation. In the [[metallomics]] framework, atherosclerosis sits at the convergence of three interacting systems: heavy metal toxicity, gut/oral microbial [[dysbiosis]], and chronic [[inflammation]].
 
 ## The Microbiome-Atherosclerosis Axis
 

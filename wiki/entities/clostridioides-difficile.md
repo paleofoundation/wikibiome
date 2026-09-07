@@ -37,7 +37,7 @@ historical_names: [Clostridium difficile]
 
 *Clostridioides difficile* is the current NCBI name for NCBITaxon:1496 and the correct, medically recommended combination recorded by LPSN. Both records retain *Clostridium difficile* as a validly published homotypic synonym of the same organism rather than a separate species [[ncbi-taxonomy-clostridioides-difficile]] [[lpsn-clostridioides-difficile]].
 
-It is a Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the metallomics framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-[[dysbiosis]] opportunism, and [[zinc]]-dependent toxin activity.
+It is a Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the [[metallomics]] framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-[[dysbiosis]] opportunism, and [[zinc]]-dependent toxin activity.
 
 ## Nomenclature and Historical-Label Boundary
 

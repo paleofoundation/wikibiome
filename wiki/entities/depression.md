@@ -20,7 +20,7 @@ wikipedia_differentiation: "Cu/Zn ratio as biological psychiatry biomarker, tryp
 
 # Depression (Major Depressive Disorder)
 
-Depression is the most prevalent mental health disorder globally, affecting over 280 million people [[zhu-2025-microbiota-gut-brain-axis-depression-review]], and one of the most metal-sensitive conditions in this wiki. It sits at the convergence of nearly every pathway catalogued here: [[oxidative-stress]], [[inflammation]], [[dysbiosis]], [[intestinal-permeability]], and the gut-brain axis. From a metallomics perspective, depression features a distinctive signature of zinc depletion, copper elevation, and iron dysregulation [[ogundare-2024-metals-behavioral-factors-depression-women]], with toxic metals (lead, cadmium, mercury) acting as additional risk factors.
+Depression is the most prevalent mental health disorder globally, affecting over 280 million people [[zhu-2025-microbiota-gut-brain-axis-depression-review]], and one of the most metal-sensitive conditions in this wiki. It sits at the convergence of nearly every pathway catalogued here: [[oxidative-stress]], [[inflammation]], [[dysbiosis]], [[intestinal-permeability]], and the gut-brain axis. From a [[metallomics]] perspective, depression features a distinctive signature of zinc depletion, copper elevation, and iron dysregulation [[ogundare-2024-metals-behavioral-factors-depression-women]], with toxic metals (lead, cadmium, mercury) acting as additional risk factors.
 
 ## Metal Signatures
 

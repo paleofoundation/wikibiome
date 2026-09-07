@@ -14,7 +14,7 @@ last_substantive_update: 2026-09-07
 
 # Metal-Driven Inflammation
 
-Inflammation is a broad concept, but in the metallomics context it has a specific character: [[heavy-metals]] and pathogens activate overlapping inflammatory pathways, creating convergent pathology where distinguishing the metal contribution from the microbial contribution is often impossible. This page focuses on the mechanisms by which metals directly and indirectly drive inflammatory responses, the distinction between acute and chronic inflammation, the biomarkers used to track it, and the resolution mechanisms that fail in metal-exposed individuals.
+Inflammation is a broad concept, but in the [[metallomics]] context it has a specific character: [[heavy-metals]] and pathogens activate overlapping inflammatory pathways, creating convergent pathology where distinguishing the metal contribution from the microbial contribution is often impossible. This page focuses on the mechanisms by which metals directly and indirectly drive inflammatory responses, the distinction between acute and chronic inflammation, the biomarkers used to track it, and the resolution mechanisms that fail in metal-exposed individuals.
 
 ## Acute vs Chronic Inflammation
 

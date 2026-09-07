@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-10
 
 # Comorbidities
 
-The co-occurrence of multiple diseases in the same individual at rates exceeding chance. Comorbidity patterns are a central puzzle in medicine -- why do IBD patients develop CVD? Why does PCOS cluster with T2D? Why do neurodegenerative diseases associate with depression? The metallomics framework offers an explanation: shared upstream drivers (metal exposure) and shared mediators ([[dysbiosis]], [[inflammation]]) produce parallel downstream pathology across organ systems.
+The co-occurrence of multiple diseases in the same individual at rates exceeding chance. Comorbidity patterns are a central puzzle in medicine -- why do IBD patients develop CVD? Why does PCOS cluster with T2D? Why do neurodegenerative diseases associate with depression? The [[metallomics]] framework offers an explanation: shared upstream drivers (metal exposure) and shared mediators ([[dysbiosis]], [[inflammation]]) produce parallel downstream pathology across organ systems.
 
 ## Metal Exposure as Shared Upstream Driver
 

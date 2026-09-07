@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T11:50:03.434Z",
+  "_generated": "2026-09-07T12:33:21.183Z",
   "_platform": "all",
   "_stats": {
     "sources": 1940,
@@ -3337,7 +3337,7 @@
         "seo_target": "Alzheimer's disease heavy metals microbiome copper iron",
         "wikipedia_differentiation": "Brain copper paradox analysis (depletion vs peripheral excess), lead epigenetic latency evidence, and amyloid cross-seeding from gut bacterial curli fibers connecting microbiome to neurodegeneration"
       },
-      "overview": "The most common form of dementia, affecting an estimated 55 million people worldwide and projected to triple by 2050 [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]]. Characterized by progressive memory loss, cognitive decline, amyloid-beta plaques, and neurofibrillary tau tangles [[passeri-2024-recent-advances-therapeutics-alzheimers]]. From a metallomics perspective, Alzheimer's disease presents one of the most complex metal signatures of any disease -- featuring a central paradox of brain copper depletion alongside peripheral copper elevation, iron accumulation in plaques, and the strongest epidemiological evidence for lead as a neurodegenerative risk factor. Approximately 23 source pages address AD's metallomic dimensions.",
+      "overview": "The most common form of dementia, affecting an estimated 55 million people worldwide and projected to triple by 2050 [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]]. Characterized by progressive memory loss, cognitive decline, amyloid-beta plaques, and neurofibrillary tau tangles [[passeri-2024-recent-advances-therapeutics-alzheimers]]. From a [[metallomics]] perspective, Alzheimer's disease presents one of the most complex metal signatures of any disease -- featuring a central paradox of brain copper depletion alongside peripheral copper elevation, iron accumulation in plaques, and the strongest epidemiological evidence for lead as a neurodegenerative risk factor. Approximately 23 source pages address AD's metallomic dimensions.",
       "sections": [
         {
           "heading": "Metallomic Signature",
@@ -3434,6 +3434,7 @@
         "alzheimers-disease-signature",
         "zhang-2024-recent-advances-alzheimers-mechanisms-trials",
         "passeri-2024-recent-advances-therapeutics-alzheimers",
+        "metallomics",
         "metal-disease-matrix",
         "scholefield-2024-brain-metallomics-dementia",
         "doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons",
@@ -5021,7 +5022,6 @@
         "penicillium",
         "purpureocillium",
         "chitotriosidase",
-        "metallomics",
         "shotgun-metagenomics",
         "long-covid",
         "pancreatitis-signature",
@@ -5049,15 +5049,15 @@
           "score": 10
         },
         {
-          "id": "oxidative-stress",
-          "score": 10
-        },
-        {
           "id": "cladosporium",
           "score": 9
         },
         {
           "id": "escherichia-coli",
+          "score": 9
+        },
+        {
+          "id": "faecalibacterium-prausnitzii",
           "score": 9
         }
       ]
@@ -5386,7 +5386,7 @@
         "seo_target": "autism spectrum disorder heavy metals microbiome zinc lead gut-brain",
         "wikipedia_differentiation": "Metal profile (metallome) concept showing interconnected metal dysregulation rather than single-metal effects, mis-metallation of SHANK3 zinc-finger proteins at synapses, and multi-kingdom dysbiosis analysis including fungal biofilm shielding"
       },
-      "overview": "A neurodevelopmental condition affecting approximately 1 in 36 children (US CDC 2023 estimate), characterized by differences in social communication, restricted interests, and repetitive behaviors. From a metallomics perspective, ASD presents a compelling convergence of essential metal depletion (Fe, Zn), toxic metal elevation (Pb, Hg, Cd), and gut [[dysbiosis]] as potentially interconnected pathways. The concept of mis-metallation -- toxic metals displacing essential metals from protein binding sites -- offers a unifying mechanism. Approximately 14 source pages address ASD's metallomic dimensions, including 11 newly ingested sources.",
+      "overview": "A neurodevelopmental condition affecting approximately 1 in 36 children (US CDC 2023 estimate), characterized by differences in social communication, restricted interests, and repetitive behaviors. From a [[metallomics]] perspective, ASD presents a compelling convergence of essential metal depletion (Fe, Zn), toxic metal elevation (Pb, Hg, Cd), and gut [[dysbiosis]] as potentially interconnected pathways. The concept of mis-metallation -- toxic metals displacing essential metals from protein binding sites -- offers a unifying mechanism. Approximately 14 source pages address ASD's metallomic dimensions, including 11 newly ingested sources.",
       "sections": [
         {
           "heading": "Metallomic Signature",
@@ -5481,6 +5481,7 @@
       ],
       "wikilinks": [
         "autism-spectrum-disorder-signature",
+        "metallomics",
         "dysbiosis",
         "metal-disease-matrix",
         "blazewicz-2023-metal-profiles-asd",
@@ -9250,7 +9251,7 @@
         ],
         "pathogenic_potential": "commensal"
       },
-      "overview": "A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant [[gut-microbiome]] and remain important commensals throughout life. *Bifidobacterium* species are distinctive in the metallomics context because some species possess Ni-dependent [[urease]] -- an unusual feature for a commensal genus -- while the genus as a whole functions as a key probiotic with metal-binding and detoxification properties.",
+      "overview": "A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant [[gut-microbiome]] and remain important commensals throughout life. *Bifidobacterium* species are distinctive in the [[metallomics]] context because some species possess Ni-dependent [[urease]] -- an unusual feature for a commensal genus -- while the genus as a whole functions as a key probiotic with metal-binding and detoxification properties.",
       "sections": [
         {
           "heading": "Nickel-Dependent Urease in Select Species",
@@ -9285,6 +9286,7 @@
       ],
       "wikilinks": [
         "gut-microbiome",
+        "metallomics",
         "urease",
         "maier-2019-nickel-microbial-pathogenesis",
         "dysbiosis",
@@ -16926,7 +16928,7 @@
           "Clostridium difficile"
         ]
       },
-      "overview": "*Clostridioides difficile* is the current NCBI name for NCBITaxon:1496 and the correct, medically recommended combination recorded by LPSN. Both records retain *Clostridium difficile* as a validly published homotypic synonym of the same organism rather than a separate species [[ncbi-taxonomy-clostridioides-difficile]] [[lpsn-clostridioides-difficile]].\n\nIt is a Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the metallomics framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-[[dysbiosis]] opportunism, and [[zinc]]-dependent toxin activity.",
+      "overview": "*Clostridioides difficile* is the current NCBI name for NCBITaxon:1496 and the correct, medically recommended combination recorded by LPSN. Both records retain *Clostridium difficile* as a validly published homotypic synonym of the same organism rather than a separate species [[ncbi-taxonomy-clostridioides-difficile]] [[lpsn-clostridioides-difficile]].\n\nIt is a Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the [[metallomics]] framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-[[dysbiosis]] opportunism, and [[zinc]]-dependent toxin activity.",
       "sections": [
         {
           "heading": "Nomenclature and Historical-Label Boundary",
@@ -16982,6 +16984,7 @@
       "wikilinks": [
         "ncbi-taxonomy-clostridioides-difficile",
         "lpsn-clostridioides-difficile",
+        "metallomics",
         "dysbiosis",
         "zinc",
         "lawson-2016-clostridioides-difficile-reclassification",
@@ -21259,7 +21262,7 @@
         "seo_target": "depression heavy metals microbiome zinc copper gut-brain axis",
         "wikipedia_differentiation": "Cu/Zn ratio as biological psychiatry biomarker, tryptophan-IDO-kynurenine pathway analysis connecting metal-driven inflammation to serotonin depletion, and gut-brain axis evidence linking dysbiosis to neuroinflammation"
       },
-      "overview": "Depression is the most prevalent mental health disorder globally, affecting over 280 million people [[zhu-2025-microbiota-gut-brain-axis-depression-review]], and one of the most metal-sensitive conditions in this wiki. It sits at the convergence of nearly every pathway catalogued here: [[oxidative-stress]], [[inflammation]], [[dysbiosis]], [[intestinal-permeability]], and the gut-brain axis. From a metallomics perspective, depression features a distinctive signature of zinc depletion, copper elevation, and iron dysregulation [[ogundare-2024-metals-behavioral-factors-depression-women]], with toxic metals (lead, cadmium, mercury) acting as additional risk factors.",
+      "overview": "Depression is the most prevalent mental health disorder globally, affecting over 280 million people [[zhu-2025-microbiota-gut-brain-axis-depression-review]], and one of the most metal-sensitive conditions in this wiki. It sits at the convergence of nearly every pathway catalogued here: [[oxidative-stress]], [[inflammation]], [[dysbiosis]], [[intestinal-permeability]], and the gut-brain axis. From a [[metallomics]] perspective, depression features a distinctive signature of zinc depletion, copper elevation, and iron dysregulation [[ogundare-2024-metals-behavioral-factors-depression-women]], with toxic metals (lead, cadmium, mercury) acting as additional risk factors.",
       "sections": [
         {
           "heading": "Metal Signatures",
@@ -21349,6 +21352,7 @@
         "inflammation",
         "dysbiosis",
         "intestinal-permeability",
+        "metallomics",
         "ogundare-2024-metals-behavioral-factors-depression-women",
         "althomali-2024-heavy-metals-neurocognitive-systematic-review",
         "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
@@ -34050,7 +34054,7 @@
         "seo_target": "IBS nickel allergy microbiome low nickel diet SNAS",
         "wikipedia_differentiation": "Nickel allergic contact mucositis (ACM) as undiagnosed driver of IBS symptoms, with patch test prevalence data (30-65%) and low-nickel diet outcomes reframing functional GI disease as metal hypersensitivity"
       },
-      "overview": "A functional gastrointestinal disorder affecting 10-15% of the global population, characterized by chronic abdominal pain, bloating, and altered bowel habits (diarrhea-predominant, constipation-predominant, or mixed) without identifiable structural pathology. From a metallomics perspective, IBS is remarkable for its overlap with systemic [[nickel-allergy]] syndrome (SNAS), where nickel-rich foods trigger IBS-identical symptoms in nickel-sensitized individuals -- raising the question of how many \"IBS\" patients actually have an undiagnosed metal hypersensitivity.",
+      "overview": "A functional gastrointestinal disorder affecting 10-15% of the global population, characterized by chronic abdominal pain, bloating, and altered bowel habits (diarrhea-predominant, constipation-predominant, or mixed) without identifiable structural pathology. From a [[metallomics]] perspective, IBS is remarkable for its overlap with systemic [[nickel-allergy]] syndrome (SNAS), where nickel-rich foods trigger IBS-identical symptoms in nickel-sensitized individuals -- raising the question of how many \"IBS\" patients actually have an undiagnosed metal hypersensitivity.",
       "sections": [
         {
           "heading": "The Nickel-IBS Connection",
@@ -34110,6 +34114,7 @@
       ],
       "wikilinks": [
         "ibs-signature",
+        "metallomics",
         "nickel-allergy",
         "inflammation",
         "dietary-nickel-exposure",
@@ -34337,7 +34342,7 @@
         "seo_target": "inflammatory bowel disease heavy metals microbiome iron zinc dysbiosis",
         "wikipedia_differentiation": "Hepcidin-mediated iron sequestration reframed as nutritional immunity rather than simple deficiency, oral iron paradox analysis, and FMT evidence for microbiome-mediated remission"
       },
-      "overview": "An umbrella term for chronic relapsing-remitting inflammatory conditions of the gastrointestinal tract, principally [[crohns-disease]] (CD; transmural, any GI segment) and ulcerative colitis (UC; mucosal, colon only). Approximately 6 million patients worldwide. IBD represents the most direct manifestation of gut [[dysbiosis]], barrier failure, and immune dysregulation -- the same triad that metals produce -- making it a central disease in the metallomics-microbiome framework.",
+      "overview": "An umbrella term for chronic relapsing-remitting inflammatory conditions of the gastrointestinal tract, principally [[crohns-disease]] (CD; transmural, any GI segment) and ulcerative colitis (UC; mucosal, colon only). Approximately 6 million patients worldwide. IBD represents the most direct manifestation of gut [[dysbiosis]], barrier failure, and immune dysregulation -- the same triad that metals produce -- making it a central disease in the [[metallomics]]-microbiome framework.",
       "sections": [
         {
           "heading": "Metallomic Signature",
@@ -34389,6 +34394,7 @@
         "inflammatory-bowel-disease-signature",
         "crohns-disease",
         "dysbiosis",
+        "metallomics",
         "inflammation",
         "hepcidin",
         "oxidative-stress",
@@ -38887,7 +38893,7 @@
         ],
         "pathogenic_potential": "commensal"
       },
-      "overview": "A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) that are among the most extensively studied probiotics. In the metallomics context, *Lactobacillus* species are critical for two reasons: they actively detoxify [[heavy-metals]] through binding and sequestration, and they are preferentially depleted by heavy metal exposure -- making their loss a key driver of metal-induced [[dysbiosis]].",
+      "overview": "A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) that are among the most extensively studied probiotics. In the [[metallomics]] context, *Lactobacillus* species are critical for two reasons: they actively detoxify [[heavy-metals]] through binding and sequestration, and they are preferentially depleted by heavy metal exposure -- making their loss a key driver of metal-induced [[dysbiosis]].",
       "sections": [
         {
           "heading": "Metal Detoxification Capacity",
@@ -38946,6 +38952,7 @@
         }
       ],
       "wikilinks": [
+        "metallomics",
         "heavy-metals",
         "dysbiosis",
         "cadmium",
@@ -47232,7 +47239,7 @@
         "seo_target": "obesity heavy metals microbiome gut bacteria nickel cadmium",
         "wikipedia_differentiation": "Heavy metals as upstream obesogens framework connecting agricultural cadmium/nickel contamination to SCFA-producer depletion, plus nickel allergy prevalence data (59.7% in overweight women) and low-nickel diet weight loss evidence"
       },
-      "overview": "A chronic metabolic condition affecting over 1 billion people globally, characterized by excess adipose tissue accumulation, systemic low-grade [[inflammation]], and [[gut-microbiome]] disruption [[pendergrass-2026-heavy-metals-obesity-epidemic]]. From a metallomics perspective, obesity is increasingly understood not merely as a caloric imbalance but as a condition with significant environmental metal contributions -- particularly the Pendergrass framework positioning [[heavy-metals]] as upstream permissive factors in the obesity epidemic [[pendergrass-2026-heavy-metals-obesity-epidemic]].",
+      "overview": "A chronic metabolic condition affecting over 1 billion people globally, characterized by excess adipose tissue accumulation, systemic low-grade [[inflammation]], and [[gut-microbiome]] disruption [[pendergrass-2026-heavy-metals-obesity-epidemic]]. From a [[metallomics]] perspective, obesity is increasingly understood not merely as a caloric imbalance but as a condition with significant environmental metal contributions -- particularly the Pendergrass framework positioning [[heavy-metals]] as upstream permissive factors in the obesity epidemic [[pendergrass-2026-heavy-metals-obesity-epidemic]].",
       "sections": [
         {
           "heading": "The Microbiome in Obesity",
@@ -47295,6 +47302,7 @@
         "inflammation",
         "gut-microbiome",
         "pendergrass-2026-heavy-metals-obesity-epidemic",
+        "metallomics",
         "heavy-metals",
         "ismail-2022-gut-microbiome-obesity-t1d-review",
         "ross-2024-diet-gut-microbiome-interplay-health-disease",
@@ -50113,7 +50121,7 @@
         "seo_target": "Parkinson's disease heavy metals microbiome iron ferroptosis",
         "wikipedia_differentiation": "Pheomelanin-neuromelanin hypothesis linking MC1R variants to iron chelation capacity in substantia nigra, plus full gut-brain ferroptosis pathway with microbial iron piracy mechanisms"
       },
-      "overview": "The second most common neurodegenerative disease, affecting over 10 million people worldwide [[dorsey-2018-parkinsons-incidence-meta-analysis]]. Characterized by progressive loss of dopaminergic neurons in the substantia nigra, alpha-synuclein aggregation (Lewy bodies), and motor symptoms (tremor, rigidity, bradykinesia) [[balestrino-2020-systematic-review-parkinsons-basal-ganglia]]. From a metallomics perspective, PD is the disease where ferroptosis is most directly established as a cell death mechanism, manganese-parkinsonism provides the clearest occupational dose-response evidence, and the gut-brain axis offers a compelling metal-microbiome-neurodegeneration framework. Approximately 14 source pages address PD's metallomic dimensions.",
+      "overview": "The second most common neurodegenerative disease, affecting over 10 million people worldwide [[dorsey-2018-parkinsons-incidence-meta-analysis]]. Characterized by progressive loss of dopaminergic neurons in the substantia nigra, alpha-synuclein aggregation (Lewy bodies), and motor symptoms (tremor, rigidity, bradykinesia) [[balestrino-2020-systematic-review-parkinsons-basal-ganglia]]. From a [[metallomics]] perspective, PD is the disease where ferroptosis is most directly established as a cell death mechanism, manganese-parkinsonism provides the clearest occupational dose-response evidence, and the gut-brain axis offers a compelling metal-microbiome-neurodegeneration framework. Approximately 14 source pages address PD's metallomic dimensions.",
       "sections": [
         {
           "heading": "Metallomic Signature",
@@ -50210,6 +50218,7 @@
         "parkinsons-disease-signature",
         "dorsey-2018-parkinsons-incidence-meta-analysis",
         "balestrino-2020-systematic-review-parkinsons-basal-ganglia",
+        "metallomics",
         "metal-disease-matrix",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads",
@@ -50905,7 +50914,7 @@
         "seo_target": "PCOS heavy metals microbiome copper cadmium",
         "wikipedia_differentiation": "Comprehensive metallomic signature with copper meta-analysis data (SMD 0.51), toxic metal co-elevation patterns, and ecological analysis distinguishing PCOS dysbiosis from endometriosis via androgen-mediated vs estrogen-mediated pathways"
       },
-      "overview": "A metabolic-endocrine disorder affecting 6-20% of reproductive-age women worldwide, characterized by hyperandrogenism, oligo/anovulation, and polycystic ovary morphology (Rotterdam criteria) [[barrea-2019-mediterranean-diet-pcos]]. PCOS is the leading cause of anovulatory infertility [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. From a metallomics perspective, PCOS is among the most thoroughly studied diseases, with ~30 source pages documenting a distinctive metallomic signature of [[copper]] elevation, toxic metal burden, antioxidant depletion, and metalloestrogen activity.",
+      "overview": "A metabolic-endocrine disorder affecting 6-20% of reproductive-age women worldwide, characterized by hyperandrogenism, oligo/anovulation, and polycystic ovary morphology (Rotterdam criteria) [[barrea-2019-mediterranean-diet-pcos]]. PCOS is the leading cause of anovulatory infertility [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. From a [[metallomics]] perspective, PCOS is among the most thoroughly studied diseases, with ~30 source pages documenting a distinctive metallomic signature of [[copper]] elevation, toxic metal burden, antioxidant depletion, and metalloestrogen activity.",
       "sections": [
         {
           "heading": "Metallomic Signature",
@@ -51002,6 +51011,7 @@
         "pcos-signature",
         "barrea-2019-mediterranean-diet-pcos",
         "huang-2024-fmt-pcos-metabolic-ovarian-dysfunction",
+        "metallomics",
         "copper",
         "metal-disease-matrix",
         "jiang-2021-copper-pcos-meta-analysis",
@@ -72740,7 +72750,7 @@
         "seo_target": "atherosclerosis microbiome",
         "last_substantive_update": "2026-04-10T00:00:00.000Z"
       },
-      "overview": "Progressive inflammatory disease of the arterial wall characterized by lipid accumulation, immune cell infiltration, and fibrous plaque formation. In the metallomics framework, atherosclerosis sits at the convergence of three interacting systems: heavy metal toxicity, gut/oral microbial [[dysbiosis]], and chronic [[inflammation]].",
+      "overview": "Progressive inflammatory disease of the arterial wall characterized by lipid accumulation, immune cell infiltration, and fibrous plaque formation. In the [[metallomics]] framework, atherosclerosis sits at the convergence of three interacting systems: heavy metal toxicity, gut/oral microbial [[dysbiosis]], and chronic [[inflammation]].",
       "sections": [
         {
           "heading": "The Microbiome-Atherosclerosis Axis",
@@ -72794,6 +72804,7 @@
         }
       ],
       "wikilinks": [
+        "metallomics",
         "dysbiosis",
         "inflammation",
         "tmao",
@@ -74895,7 +74906,7 @@
         "seo_target": "biofilm microbiome",
         "last_substantive_update": "2026-04-09T00:00:00.000Z"
       },
-      "overview": "Structured microbial communities encased in a self-produced extracellular polymeric substance (EPS) matrix. Biofilms are the predominant mode of bacterial and fungal growth in chronic infections, device-associated infections, and the gut. From a metallomics perspective, biofilms create distinct metal microenvironments that shield microbes from host [[nutritional-immunity]] and concentrate metals for microbial use.",
+      "overview": "Structured microbial communities encased in a self-produced extracellular polymeric substance (EPS) matrix. Biofilms are the predominant mode of bacterial and fungal growth in chronic infections, device-associated infections, and the gut. From a [[metallomics]] perspective, biofilms create distinct metal microenvironments that shield microbes from host [[nutritional-immunity]] and concentrate metals for microbial use.",
       "sections": [
         {
           "heading": "Metal Dynamics in Biofilms",
@@ -74964,6 +74975,7 @@
         }
       ],
       "wikilinks": [
+        "metallomics",
         "nutritional-immunity",
         "inter-kingdom-metal-shielding",
         "calprotectin",
@@ -75137,7 +75149,7 @@
         "seo_target": "biomarkers microbiome",
         "last_substantive_update": "2026-04-10T00:00:00.000Z"
       },
-      "overview": "Measurable indicators of biological state, exposure, or disease. In the metallomics context, biomarkers span three interconnected domains: metal biomarkers (quantifying exposure and body burden), microbiome biomarkers (reflecting microbial community disruption), and metabolite biomarkers (capturing downstream functional consequences). Integrating these layers is the promise of the [[metallomics]] approach.",
+      "overview": "Measurable indicators of biological state, exposure, or disease. In the [[metallomics]] context, biomarkers span three interconnected domains: metal biomarkers (quantifying exposure and body burden), microbiome biomarkers (reflecting microbial community disruption), and metabolite biomarkers (capturing downstream functional consequences). Integrating these layers is the promise of the metallomics approach.",
       "sections": [
         {
           "heading": "Metal Biomarkers",
@@ -75177,7 +75189,7 @@
         {
           "heading": "Metallomic Signatures",
           "level": 2,
-          "body": "The [[metallomics]] approach measures the complete metal profile (ionome) rather than individual metals, revealing patterns invisible to single-metal analysis:\n- Multi-metal signatures in pancreatic cancer (urinary Cd, Ni, Co patterns) [[akash-2023-metabolomics-heavy-metal-toxicities]].\n- Hair metal ratios (e.g., Zn/Cu, Fe/Pb) as integrative exposure metrics.\n- Serum metallome changes tracking disease progression in Alzheimer's, Parkinson's, and cardiovascular disease."
+          "body": "The metallomics approach measures the complete metal profile (ionome) rather than individual metals, revealing patterns invisible to single-metal analysis:\n- Multi-metal signatures in pancreatic cancer (urinary Cd, Ni, Co patterns) [[akash-2023-metabolomics-heavy-metal-toxicities]].\n- Hair metal ratios (e.g., Zn/Cu, Fe/Pb) as integrative exposure metrics.\n- Serum metallome changes tracking disease progression in Alzheimer's, Parkinson's, and cardiovascular disease."
         },
         {
           "heading": "Challenges",
@@ -75187,7 +75199,7 @@
         {
           "heading": "See Also",
           "level": 2,
-          "body": "- [[metallomics]] -- systems-level metal analysis\n- [[microbial-biomarkers]] -- microbiome-specific diagnostics\n- [[calprotectin]] -- fecal inflammation biomarker\n- [[hepcidin]] -- iron homeostasis biomarker"
+          "body": "- Metallomics -- systems-level metal analysis\n- [[microbial-biomarkers]] -- microbiome-specific diagnostics\n- [[calprotectin]] -- fecal inflammation biomarker\n- [[hepcidin]] -- iron homeostasis biomarker"
         }
       ],
       "wikilinks": [
@@ -77759,7 +77771,7 @@
         "seo_target": "comorbidities microbiome",
         "last_substantive_update": "2026-04-10T00:00:00.000Z"
       },
-      "overview": "The co-occurrence of multiple diseases in the same individual at rates exceeding chance. Comorbidity patterns are a central puzzle in medicine -- why do IBD patients develop CVD? Why does PCOS cluster with T2D? Why do neurodegenerative diseases associate with depression? The metallomics framework offers an explanation: shared upstream drivers (metal exposure) and shared mediators ([[dysbiosis]], [[inflammation]]) produce parallel downstream pathology across organ systems.",
+      "overview": "The co-occurrence of multiple diseases in the same individual at rates exceeding chance. Comorbidity patterns are a central puzzle in medicine -- why do IBD patients develop CVD? Why does PCOS cluster with T2D? Why do neurodegenerative diseases associate with depression? The [[metallomics]] framework offers an explanation: shared upstream drivers (metal exposure) and shared mediators ([[dysbiosis]], [[inflammation]]) produce parallel downstream pathology across organ systems.",
       "sections": [
         {
           "heading": "Metal Exposure as Shared Upstream Driver",
@@ -77818,6 +77830,7 @@
         }
       ],
       "wikilinks": [
+        "metallomics",
         "dysbiosis",
         "inflammation",
         "spivak-2023-local-systemic-microbiome-derived-metabolites",
@@ -81131,7 +81144,7 @@
         "seo_target": "dysbiosis",
         "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
-      "overview": "Disruption of the normal composition and metabolic function of microbial communities, particularly the [[gut-microbiome]]. In the metallomics context, dysbiosis is both a consequence of metal toxicity and an amplifier of further disease -- creating vicious cycles where metal exposure, microbial imbalance, barrier breakdown, and systemic [[inflammation]] feed forward into progressive pathology. With inbound links from virtually every page in this wiki, dysbiosis is the single most cross-referenced concept in WikiBiome, reflecting its role as the central mediating process between environmental metal exposure and human disease.",
+      "overview": "Disruption of the normal composition and metabolic function of microbial communities, particularly the [[gut-microbiome]]. In the [[metallomics]] context, dysbiosis is both a consequence of metal toxicity and an amplifier of further disease -- creating vicious cycles where metal exposure, microbial imbalance, barrier breakdown, and systemic [[inflammation]] feed forward into progressive pathology. With inbound links from virtually every page in this wiki, dysbiosis is the single most cross-referenced concept in WikiBiome, reflecting its role as the central mediating process between environmental metal exposure and human disease.",
       "sections": [
         {
           "heading": "Definition and Scope",
@@ -81291,6 +81304,7 @@
       ],
       "wikilinks": [
         "gut-microbiome",
+        "metallomics",
         "inflammation",
         "short-chain-fatty-acids",
         "ammonia",
@@ -83554,7 +83568,6 @@
         "matrix-metalloproteases",
         "metal-chelation-therapy",
         "metalloestrogens",
-        "metallomics",
         "mis-metallation",
         "pathogen-metal-acquisition",
         "stop-calcium-supplementation-cadmium-exposure",
@@ -83567,7 +83580,7 @@
         },
         {
           "id": "oxidative-stress",
-          "score": 56
+          "score": 54
         },
         {
           "id": "lead",
@@ -85049,6 +85062,10 @@
           "score": 16
         },
         {
+          "id": "metallomics",
+          "score": 15
+        },
+        {
           "id": "short-chain-fatty-acids",
           "score": 15
         },
@@ -85062,10 +85079,6 @@
         },
         {
           "id": "iron",
-          "score": 14
-        },
-        {
-          "id": "nutritional-immunity",
           "score": 14
         }
       ]
@@ -86068,12 +86081,12 @@
           "score": 70
         },
         {
-          "id": "copper",
-          "score": 63
+          "id": "nutritional-immunity",
+          "score": 64
         },
         {
-          "id": "nutritional-immunity",
-          "score": 62
+          "id": "copper",
+          "score": 63
         },
         {
           "id": "cadmium",
@@ -88637,7 +88650,7 @@
         },
         {
           "id": "nutritional-immunity",
-          "score": 70
+          "score": 72
         },
         {
           "id": "arsenic",
@@ -94630,7 +94643,7 @@
         "seo_target": "metal-driven inflammation microbiome",
         "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
-      "overview": "Inflammation is a broad concept, but in the metallomics context it has a specific character: [[heavy-metals]] and pathogens activate overlapping inflammatory pathways, creating convergent pathology where distinguishing the metal contribution from the microbial contribution is often impossible. This page focuses on the mechanisms by which metals directly and indirectly drive inflammatory responses, the distinction between acute and chronic inflammation, the biomarkers used to track it, and the resolution mechanisms that fail in metal-exposed individuals.",
+      "overview": "Inflammation is a broad concept, but in the [[metallomics]] context it has a specific character: [[heavy-metals]] and pathogens activate overlapping inflammatory pathways, creating convergent pathology where distinguishing the metal contribution from the microbial contribution is often impossible. This page focuses on the mechanisms by which metals directly and indirectly drive inflammatory responses, the distinction between acute and chronic inflammation, the biomarkers used to track it, and the resolution mechanisms that fail in metal-exposed individuals.",
       "sections": [
         {
           "heading": "Acute vs Chronic Inflammation",
@@ -94744,6 +94757,7 @@
         }
       ],
       "wikilinks": [
+        "metallomics",
         "heavy-metals",
         "calprotectin",
         "dysbiosis",
@@ -99528,6 +99542,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "metallomics",
         "microbiome-derived-metabolites",
         "broken-links-2026-04-16"
       ],
@@ -99535,6 +99550,10 @@
         {
           "id": "tryptophan",
           "score": 11
+        },
+        {
+          "id": "metallomics",
+          "score": 10
         },
         {
           "id": "gut-brain-axis",
@@ -99545,24 +99564,20 @@
           "score": 9
         },
         {
-          "id": "microbial-biomarkers",
+          "id": "metal-speciation",
+          "score": 8
+        },
+        {
+          "id": "mis-metallation",
+          "score": 8
+        },
+        {
+          "id": "gut-metal-microbiome",
           "score": 7
         },
         {
-          "id": "propionic-acid",
+          "id": "gut-microbiome",
           "score": 7
-        },
-        {
-          "id": "hypoxia",
-          "score": 6
-        },
-        {
-          "id": "indoxyl-sulfate",
-          "score": 6
-        },
-        {
-          "id": "labile-metal-pool",
-          "score": 6
         }
       ]
     },
@@ -100408,6 +100423,7 @@
         "metal-sensing",
         "metallochaperone",
         "metalloestrogen",
+        "metallomics",
         "metalloregulator",
         "metallothionein",
         "zinc-metalloprotease",
@@ -100880,6 +100896,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "metallomics",
         "ph-sensing",
         "transferrin",
         "broken-links-2026-04-16"
@@ -100888,6 +100905,14 @@
         {
           "id": "nickel",
           "score": 10
+        },
+        {
+          "id": "oxidative-stress",
+          "score": 10
+        },
+        {
+          "id": "metallomics",
+          "score": 9
         },
         {
           "id": "copper",
@@ -100906,16 +100931,8 @@
           "score": 8
         },
         {
-          "id": "oxidative-stress",
+          "id": "metabolomics",
           "score": 8
-        },
-        {
-          "id": "cadmium",
-          "score": 7
-        },
-        {
-          "id": "acidic-microenvironment",
-          "score": 7
         }
       ]
     },
@@ -101474,7 +101491,6 @@
         "hyperandrogenism",
         "matrix-metalloproteases",
         "metalloestrogen",
-        "metallomics",
         "mis-metallation",
         "nf-kappa-b",
         "endometriosis-signature",
@@ -101529,59 +101545,66 @@
       "category": "mechanism",
       "tags": [
         "metallomics",
-        "biomarkers",
+        "metallome",
+        "metal-speciation",
         "ICP-MS",
-        "cancer-diagnostics",
-        "metal-profiling",
-        "copper-zinc-ratio",
-        "selenoproteins",
-        "infection-metallomics",
-        "brain-metallomics",
-        "precision-medicine"
+        "isotope-ratios",
+        "metalloproteins",
+        "metallophores",
+        "multi-omics",
+        "biomarkers",
+        "microbial-metallomics"
       ],
       "sources": [
+        "morel-2022-mouse-metallomic-landscape-aging-metabolism",
+        "blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans",
         "zhang-2022-metallomics-cancer-review",
         "callejon-leblic-2023-metallomic-signatures-lung-cancer-copd",
         "scholefield-2024-brain-metallomics-dementia",
         "schilling-2020-urine-metallomics-pancreatic-cancer",
         "lim-2023-plasma-metallomics-ami",
         "patil-2021-infection-metallomics-critical-care",
+        "stanton-2021-metallome-omes-link-asd",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "brylinski-2025-trace-elements-thyroid-diseases",
         "saleh-2020-serum-trace-elements-prostate-cancer",
         "blazewicz-2023-metal-profiles-asd"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Metallomics",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "sources": [
+          "morel-2022-mouse-metallomic-landscape-aging-metabolism",
+          "blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans",
           "zhang-2022-metallomics-cancer-review",
           "callejon-leblic-2023-metallomic-signatures-lung-cancer-copd",
           "scholefield-2024-brain-metallomics-dementia",
           "schilling-2020-urine-metallomics-pancreatic-cancer",
           "lim-2023-plasma-metallomics-ami",
           "patil-2021-infection-metallomics-critical-care",
+          "stanton-2021-metallome-omes-link-asd",
           "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
           "brylinski-2025-trace-elements-thyroid-diseases",
           "saleh-2020-serum-trace-elements-prostate-cancer",
           "blazewicz-2023-metal-profiles-asd"
         ],
-        "source_count": 10,
+        "source_count": 13,
         "tags": [
           "metallomics",
-          "biomarkers",
+          "metallome",
+          "metal-speciation",
           "ICP-MS",
-          "cancer-diagnostics",
-          "metal-profiling",
-          "copper-zinc-ratio",
-          "selenoproteins",
-          "infection-metallomics",
-          "brain-metallomics",
-          "precision-medicine"
+          "isotope-ratios",
+          "metalloproteins",
+          "metallophores",
+          "multi-omics",
+          "biomarkers",
+          "microbial-metallomics"
         ],
         "platform": "wikibiome",
         "karen_brain_primitives": [
@@ -101590,234 +101613,199 @@
           4,
           8
         ],
-        "seo_target": "metallomics microbiome",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z"
+        "seo_target": "metallomics metallome metal speciation ICP-MS microbial metallomics"
       },
-      "overview": "",
+      "overview": "Metallomics is the systematic study of metals and metalloids in a biological system. The **metallome** is the set of metal and metalloid species present in a defined organism, tissue, cell, fluid, or microbial community; **metallomics** is the measurement and interpretation of that set. A metallomic study may examine total elemental concentrations, chemical forms, isotope composition, spatial distribution, metal-binding molecules, or changes across conditions. It is therefore broader than a single blood-metal test and more specific than using “metal exposure” as a synonym for any measured element [[morel-2022-mouse-metallomic-landscape-aging-metabolism]] [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].\n\nThe central idea is relational: metal biology depends on where an element is, which chemical species carries it, what it is bound to, and how the rest of the metallome changes with it. An excess of one metal can alter the abundance or binding distribution of another, so a multi-element profile can reveal interactions that isolated measurements miss [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].",
       "sections": [
         {
-          "heading": "Definition",
+          "heading": "What the Metallome Includes",
           "level": 2,
-          "body": "Metallomics is the systematic study of the entirety of metal and metalloid species within a biological system -- their concentrations, speciation (chemical forms), spatial distributions, and functional roles. As a discipline, metallomics integrates analytical chemistry (primarily ICP-MS), bioinformatics, genomics (metalloprotein genes), and clinical medicine to generate comprehensive metal profiles that can serve as disease biomarkers, mechanistic insights, and therapeutic targets.\n\nThe term parallels genomics, proteomics, and metabolomics, and reflects the recognition that metals are not passive passengers in biology but active participants whose homeostatic status profoundly influences health and disease."
+          "body": "A metallome is always defined by a biological compartment and a measurement scope. It can include:\n\n- essential elements such as iron, zinc, copper, manganese, selenium, cobalt, and molybdenum;\n- non-essential or toxic elements such as lead, cadmium, and mercury;\n- free or labile ions, small-molecule complexes, protein-bound fractions, mineral stores, and excreted species;\n- isotope ratios that reflect transport, binding, or redistribution; and\n- microbial metal-acquisition products such as siderophores and other metallophores.\n\n“The human metallome” is not one fixed vector. Liver, brain, kidney, heart, muscle, serum, urine, stool, and microbial biomass can have different profiles. In mice, organ identity explained much of the observed metallomic variation, and aging produced smaller shifts within those organ-specific patterns [[morel-2022-mouse-metallomic-landscape-aging-metabolism]]. This compartment dependence is why a serum association cannot automatically be transferred to brain tissue, intestinal lumen, or intracellular metal pools."
         },
         {
-          "heading": "Analytical Methods",
-          "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "ICP-MS (Inductively Coupled Plasma Mass Spectrometry)",
-          "level": 3,
-          "body": "The workhorse of metallomics. Enables simultaneous quantification of 20-30+ elements in a single sample with detection limits in the parts-per-trillion range. Variants include:\n- ICP-MS/MS (triple quadrupole): Enhanced interference removal for complex biological matrices\n- MC-ICP-MS (multi-collector): Enables measurement of natural stable isotope ratios (e.g., Zn isotope fractionation)\n- HPLC-ICP-MS: Coupling liquid chromatography with ICP-MS for metal speciation (e.g., inorganic vs. organic arsenic)\n- LA-ICP-MS (laser ablation): Spatial mapping of metals in tissue sections"
-        },
-        {
-          "heading": "Complementary Methods",
-          "level": 3,
-          "body": "- MALDI-MS and FTICR-MS: For identification of metal-containing biomolecules (metallophores, metallopeptides)\n- LC-ESI-MS: For detecting metallophores with isotope data filtering to selectively identify metal-containing species\n- Synchrotron X-ray fluorescence: Subcellular metal mapping"
-        },
-        {
-          "heading": "Cancer Metallomics",
+          "heading": "Analytical Layers",
           "level": 2,
           "body": ""
         },
         {
-          "heading": "Universal Patterns Across Cancer Types",
+          "heading": "Total Element Concentration",
           "level": 3,
-          "body": "A comprehensive review of metallomic studies across lung, prostate, colorectal, gastric, esophageal, breast, thyroid, pancreatic, laryngeal, gallbladder, renal cell, and hepatocellular cancers reveals recurring patterns:\n\n- Copper elevation is the most consistent finding across nearly all cancer types in blood/serum/plasma, suggesting Cu accumulation as a general cancer biomarker\n- Zinc dysregulation shows mixed patterns but the Cu/Zn ratio is consistently increased in cancer patients\n- Selenium tends to decrease across cancers, reflecting impaired selenoprotein-mediated antioxidant defense\n- Cadmium accumulation is elevated in multiple cancer types, consistent with its IARC Group 1 carcinogen status"
+          "body": "Inductively coupled plasma mass spectrometry (ICP-MS) and related techniques can quantify many elements in one sample. ICP-MS/MS can reduce spectral interferences in complex matrices, while ICP atomic-emission or optical-emission methods are also used for selected elements. These measurements answer **how much of each element was detected in the analyzed sample**, but not necessarily its oxidation state, ligand, cellular location, or bioavailability [[lim-2023-plasma-metallomics-ami]] [[morel-2022-mouse-metallomic-landscape-aging-metabolism]]."
         },
         {
-          "heading": "Cancer-Specific Metallomic Fingerprints",
+          "heading": "Chemical Speciation and Binding Fractions",
           "level": 3,
-          "body": "| Cancer Type | Elevated Elements | Decreased Elements | Notable Ratios |\n|------------|-------------------|-------------------|----------------|\n| Lung | Cr, Cd, Cu, Zn, Ni, Se (urine); Al, Pb | Mn, Fe, Zn (biofluids) | Ni 1.60-fold in LC |\n| Prostate | Fe, Cu, Ni, Cd | Zn, Se | Cu/Zn elevated |\n| Colorectal | Cu, Fe, Ni | Se, Zn, Mn | Cu/Zn as new marker |\n| Breast | Cu, Cd | Se, Zn | Cu/Zn increased |\n| Thyroid | As, Cd, Cr, Cu, Pb, Se | Zn, Fe, Ni | Metal pair correlations |\n| Pancreatic | Cu, Cd | Zn, Se | Ca+Mg+Zn+Cu AUC=0.99 |"
+          "body": "[[metal-speciation|Metal speciation]] separates an element into chemically or operationally distinct fractions. Chromatographic separation coupled to ICP-MS can distinguish high-molecular-mass, low-molecular-mass, and inorganic fractions or resolve particular compounds. In a *C. elegans* model, combined total-element and size-exclusion ICP-MS measurements showed that iron exposure changed manganese distribution and that manganese or iron exposure displaced zinc from protein-associated fractions; total concentration alone would not describe those shifts [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]]."
         },
         {
-          "heading": "Lung Cancer and COPD Metallomic Signatures",
+          "heading": "Spatial and Isotopic Information",
           "level": 3,
-          "body": "A study of 191 serum samples from the CHAIN cohort demonstrated that lung cancer (LC) and COPD have significantly different metallomic signatures, and that COPD patients who later developed LC (COPD-LC) show the most altered profiles. Nickel was significantly elevated 1.60-fold in LC and 1.37-fold in COPD-LC. PCA/PLS-DA analysis achieved clear separation between disease groups. Disrupted metal-metal correlation patterns (e.g., loss of Zn-Se and Cu-Fe correlations present in healthy controls) illustrate how metallomics reveals systemic dyshomeostasis beyond individual element changes."
+          "body": "Laser-ablation ICP-MS and X-ray methods can map elements across tissues, while multi-collector ICP-MS can measure stable-isotope ratios. A pancreatic-cancer discovery study combined urinary calcium, magnesium, copper, and zinc concentrations with zinc-isotope measurements, illustrating that isotope composition may add information beyond concentration [[schilling-2020-urine-metallomics-pancreatic-cancer]]. Spatial or isotope differences still require biological interpretation; they do not by themselves identify a causal mechanism."
         },
         {
-          "heading": "Pancreatic Cancer Urine Metallomics",
+          "heading": "Metal-Binding Molecules",
           "level": 3,
-          "body": "Urine metallomics achieved 99.5% sensitivity for discriminating pancreatic ductal adenocarcinoma (PDAC) from healthy controls using a combined analysis of Ca, Mg, Cu, and Zn concentrations. A breakthrough finding was that natural stable Zn isotope composition differs significantly in PDAC, with preferential excretion of isotopically light zinc reflecting disrupted metalloprotein biology. The loss of the Zn concentration/Cu ratio correlation that exists in healthy individuals (r2=0.66 vs. 0.0002 in PDAC) indicates fundamental disruption of zinc regulation."
+          "body": "Mass spectrometry can also identify metal-associated biomolecules. Infection metallomics uses LC-MS, MALDI-MS, FTICR-MS, elemental detection, and isotope-pattern filtering to detect microbial metallophores in clinical or experimental samples. This is analytically distinct from measuring total iron or zinc because the molecule and its metal-binding function are part of the target [[patil-2021-infection-metallomics-critical-care]]."
         },
         {
-          "heading": "Metalloprotein Genetics",
-          "level": 3,
-          "body": "Metallomic studies are increasingly integrated with genetics:\n- MMP gene variants (Zn-dependent matrix metalloproteinases): linked to carcinogenesis across multiple cancers\n- Selenoprotein gene variants (GPX1, GPX4, TXNRD1/2): associated with cancer risk\n- Cu-transporting ATPase variants (ATP7B): linked to chemotherapy response\n- Cu/Zn-SOD and ceruloplasmin variants: associated with cancer susceptibility"
-        },
-        {
-          "heading": "Brain Metallomics and Dementia",
+          "heading": "From Measurement to a Metallomic Signature",
           "level": 2,
-          "body": "Post-mortem brain metallomic profiling using ICP-MS across 10 brain regions can distinguish between dementia with Lewy bodies (DLB), Alzheimer's disease (AD), and Parkinson's disease dementia (PDD):\n\n- Widespread copper decreases are common across all three dementias, suggesting shared pathogenic mechanisms\n- Despite shared Cu deficiencies, other metal alterations (Na, Mn, Ca, Fe, Se) differ between disease types, creating distinct metallomic signatures\n- PCA and PLS-DA analysis of as few as three brain regions achieves clear disease separation\n- Cu changes contribute most to variable importance in projection (VIP) scores\n- [[oxidative-stress]] implications: Cu, Mn, Fe, and Se are all cofactors for antioxidant enzymes (SOD1, SOD2, GPX, TrxR), and their coordinated dysregulation indicates widespread loss of antioxidant defense"
+          "body": "A **metallomic signature** is a reproducible pattern across multiple elements, species, ratios, isotopes, or locations. Building one usually involves:\n\n1. defining the biological compartment, collection time, and comparison groups;\n2. controlling collection vessels, digestion, contamination, detection limits, and batch effects;\n3. quantifying or identifying the chosen metallomic features;\n4. normalizing for dilution, tissue mass, or another justified denominator;\n5. modeling correlated features without allowing data leakage; and\n6. validating the resulting pattern in an independent population or experiment.\n\nThe word *signature* should not imply a validated diagnostic test. Several studies in the WikiBiome vault are discovery studies that report strong separation within their original cohorts. Those results establish candidates for replication, not clinical readiness."
         },
         {
-          "heading": "Cardiovascular Metallomics",
+          "heading": "Biological and Clinical Research Applications",
           "level": 2,
-          "body": "Plasma metallomic profiling identifies biomarkers for acute myocardial infarction (AMI):\n\n- Copper significantly elevated and selenium decreased in AMI patients\n- Element-pair ratios (Cu/Se, Fe/Cu) are more sensitive than individual element concentrations\n- Random forest models incorporating metallomic features (Cu/Se, Fe/Cu) alongside traditional risk factors achieved AUC of 0.942 in a 10-feature model -- not from metals alone\n- Longitudinal tracking shows Cu and Se remain significantly altered at 6 months post-infarction while Fe normalizes\n- Essential elements exhibit ambivalent (U- or J-shaped) relationships with AMI risk, meaning both deficiency and excess are harmful"
+          "body": ""
+        },
+        {
+          "heading": "Organ, Aging, and Multi-Omic Biology",
+          "level": 3,
+          "body": "Metallomics can connect metal measurements to the proteome, metabolome, transcriptome, epigenome, and microbiome. Mouse organ profiling linked iron and copper measures with metabolic traits and with proteomic or metabolomic pathways involving oxidative phosphorylation and fatty-acid metabolism [[morel-2022-mouse-metallomic-landscape-aging-metabolism]]. Reviews of autism-related biology similarly describe the metallome as an interacting layer that can affect metal-binding proteins, signaling, microbial ecology, and other omes, while emphasizing that these cross-system links are mechanistic hypotheses of varying evidentiary strength [[stanton-2021-metallome-omes-link-asd]] [[blazewicz-2023-metal-profiles-asd]]."
+        },
+        {
+          "heading": "Cancer and Cardiovascular Discovery Studies",
+          "level": 3,
+          "body": "A review across multiple cancers reports recurring changes in copper, zinc, selenium, and other elements, but the direction and magnitude vary by cancer type, tissue, sample matrix, and study. Copper elevation in circulating samples and altered copper-to-zinc ratios are recurring observations, not a universal cancer rule [[zhang-2022-metallomics-cancer-review]]. A prostate-cancer case-control study, for example, found higher serum copper and iron with lower zinc, selenium, and manganese in its cohort [[saleh-2020-serum-trace-elements-prostate-cancer]].\n\nIndividual discovery studies illustrate both the potential and the limits of classification. A serum study compared lung cancer, COPD, COPD with later lung cancer, and healthy-control groups using an 18-element ICP-MS panel; multivariate models separated groups within that cohort [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]. A urinary pancreatic-cancer study reported strong performance for a four-element model in 21 cases and 46 controls [[schilling-2020-urine-metallomics-pancreatic-cancer]]. A plasma acute-myocardial-infarction study reported a ten-feature random-forest model that combined metallomic ratios with traditional risk factors; the reported performance was not attributable to metals alone [[lim-2023-plasma-metallomics-ami]]."
+        },
+        {
+          "heading": "Brain Metallomics",
+          "level": 3,
+          "body": "Brain metallomics adds spatial context because different regions can show different metal patterns. A post-mortem study measured metals in ten brain regions from dementia with Lewy bodies cases and controls, then compared the pattern with previously generated Alzheimer’s and Parkinson’s-disease-dementia datasets. Copper decreases were widespread, while other regional differences contributed to multivariate separation. The study was small and post-mortem, so it supports a tissue-level research signature rather than a living-patient diagnostic test [[scholefield-2024-brain-metallomics-dementia]]."
         },
         {
           "heading": "Infection Metallomics",
-          "level": 2,
-          "body": "A distinct branch of metallomics focuses on detecting microbial metallophores -- metal-chelating small molecules produced by pathogens as virulence factors:"
-        },
-        {
-          "heading": "Metallophore Types",
           "level": 3,
-          "body": "- Bacterial siderophores: Enterobactin, yersiniabactin (binds Fe and Cu), aerobactin, pyoverdine\n- Mycobacterial siderophores: Mycobactins and carboxymycobactins from M. tuberculosis\n- Fungal siderophores: TAFC (triacetylfusarinine C), ferricrocin from [[aspergillus|*Aspergillus fumigatus*]]"
-        },
-        {
-          "heading": "Clinical Applications",
-          "level": 3,
-          "body": "- TAFC detected in human serum and urine of aspergillosis patients, enabling real-time fungal infection tracking\n- Yersiniabactin copper complex detected in patient urine during UTI\n- Isotope data filtering can discriminate invasive disease from benign colonization -- critical in ICU settings\n- Post-COVID applications include monitoring secondary bacterial/fungal superinfections (aspergillosis incidence in critically ill COVID patients had 19.4% mortality)"
+          "body": "Infection metallomics focuses on pathogen-produced or pathogen-associated metal-binding molecules. Siderophores and other metallophores help microbes acquire nutrients or withstand metal stress, making them potential biomarkers of active microbial behavior. Human-sample observations include detection of the fungal siderophore TAFC and a copper-yersiniabactin complex, while other proposed applications remain experimental [[patil-2021-infection-metallomics-critical-care]]. Detection of a metallophore can provide different information from organism abundance, but claims that it distinguishes invasion from colonization remain pathogen-, molecule-, specimen-, and validation-specific."
         },
         {
           "heading": "Microbial Metallomics",
+          "level": 3,
+          "body": "[[microbial-metallomics|Microbial metallomics]] applies metallomic reasoning to microorganisms and host-associated ecosystems. Its possible measurements include metals in microbial biomass, extracellular complexes, metalloproteins, metallophores, gene-linked metal use, and metal distribution between host, diet, lumen, and community. This differs from sequencing a [[gut-microbiome|gut microbiome]]: taxonomic or functional sequencing estimates organisms and genes, whereas metallomics measures elemental or metal-associated chemical features.\n\nThe host-microbiome boundary is especially important. Stool metal concentration can reflect intake, absorption, host secretion, microbial uptake, chemical binding, and transit simultaneously. A conference framework in the vault proposes that metal availability can reshape gut ecology and connect dysbiosis with Parkinson’s-related mechanisms, but it is explicitly a founder-authored, non-peer-reviewed synthesis and should be treated as hypothesis-generating [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
+        },
+        {
+          "heading": "Metallomics Versus Adjacent Measurements",
           "level": 2,
-          "body": "The emerging field of microbial metallomics extends the metallomic approach to the [[gut-microbiome]] and host-microbe metal interactions. The Pendergrass framework applies microbial metallomics to Parkinson's disease, examining how dietary/environmental metals reshape gut microbial communities through competitive metal stress, connecting peripheral metal-microbiome disruption to central neurodegeneration."
+          "body": "- **Elemental analysis** measures one or more elements. It becomes metallomic when the study is designed and interpreted as a system-level metal profile.\n- **Biomonitoring** estimates exposure or body burden in a defined specimen. Metallomics may include biomonitoring, but also examines essential elements, binding, interactions, localization, and function.\n- **Ionomics** often refers to high-throughput profiling of inorganic ions, especially in plants and genetics. Its practical overlap with metallomics is substantial, but terminology depends on field and study design.\n- **Metal speciation** determines chemical forms of an element. It is one layer of metallomics, not a synonym for the entire discipline.\n- **Metalloproteomics** focuses on metal-binding proteins and their metal occupancy. Metallomics can incorporate those data alongside non-protein species and total-element measurements.\n- **Metabolomics** profiles small molecules. Combined metallomics-metabolomics can test whether changes in metal state accompany changes in metabolic pathways [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]]."
         },
         {
-          "heading": "Metallomic Signatures as a Diagnostic Pillar",
+          "heading": "Evidence Interpretation",
           "level": 2,
-          "body": "A key insight emerging from the convergence of these studies: diseases have metallomic signatures — characteristic, reproducible patterns of metal elevation and depletion that are disease-specific and diagnostically useful. This parallels the established concept of microbiome signatures (taxonomic profiles that distinguish disease states) and metabolomic signatures (metabolite panels that identify pathology).\n\nThe evidence across this wiki demonstrates three tiers of metallomic diagnostic power:"
+          "body": "Metallomic associations are sensitive to study design. Readers should ask:\n\n- Which compartment and time point were measured?\n- Was total concentration, chemical species, isotope ratio, or spatial distribution measured?\n- Were diet, supplements, smoking, renal function, inflammation, medications, age, sex, and collection materials addressed?\n- Was the model evaluated outside the cohort used to select its features?\n- Does a measured change represent exposure, redistribution, binding, excretion, tissue damage, or altered clearance?\n- Are claims about one element actually supported by a multi-element analysis?\n\nInflammation can redistribute iron, copper, zinc, and selenium, while kidney or liver function can change circulating and urinary concentrations. Reviews of thyroid disease show that the same element can have different associations across disease states and that essential elements can be harmful in both deficiency and excess [[brylinski-2025-trace-elements-thyroid-diseases]]. Consequently, a case-control difference does not establish that correcting the measured value will improve health."
         },
         {
-          "heading": "Tier 1: Disease Detection (Is disease present?)",
-          "level": 3,
-          "body": "- Pancreatic cancer: Ca+Mg+Zn+Cu urine panel achieves AUC 0.99 [[schilling-2020-urine-metallomics-pancreatic-cancer]]\n- AMI: Random forest model achieves AUC 0.942 -- in a 10-feature model combining metallomic ratios (Cu/Se, Fe/Cu) WITH traditional risk factors, not from metals alone [[lim-2023-plasma-metallomics-ami]]\n- Lung cancer: Al and Mn achieve near-perfect AUC [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]"
-        },
-        {
-          "heading": "Tier 2: Disease Differentiation (Which disease is it?)",
-          "level": 3,
-          "body": "- DLB vs AD vs PDD: PCA/PLS-DA on brain metals from 3 regions separates all three dementias with 94% sensitivity/specificity [[scholefield-2024-brain-metallomics-dementia]]\n- Lung cancer vs COPD: Distinct serum metallomic profiles despite overlapping symptoms [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]]\n- ASD severity grading: Hair metal patterns correlate with autism severity [[zhou-2025-hair-heavy-metals-asd-severity]]"
-        },
-        {
-          "heading": "Tier 3: Mechanistic Insight (Why does this pattern exist?)",
-          "level": 3,
-          "body": "- Metal-metal correlation disruption reveals systemic dyshomeostasis (loss of Zn-Se correlation in cancer, Cu-Fe decoupling in DLB)\n- Zn isotope fractionation in pancreatic cancer reflects metalloprotein biology disruption — a dimension beyond concentration\n- Fe accumulation in substantia nigra + Se depletion in PVC = coordinated antioxidant system failure in DLB"
-        },
-        {
-          "heading": "The Convergence with Microbial Metallomics",
-          "level": 3,
-          "body": "The diagnostic power of metallomic signatures extends to the host-microbiome interface. Infection metallomics (detecting pathogen metallophores in clinical samples) and gut metallomic profiling (fecal metal patterns) represent the microbiome-facing side of the same coin. In the future, an integrated metallomic-taxonomic-metabolomic signature may provide the most complete disease fingerprint — capturing what metals are dysregulated, which organisms are exploiting that dysregulation, and what metabolic consequences follow."
-        },
-        {
-          "heading": "Critical Limitation",
+          "heading": "Clinical and Intervention Boundaries",
           "level": 2,
-          "body": "Critical limitation: All metallomic diagnostic panels described here are from discovery-phase studies with small cohorts (n=21-101). Biomarker discovery studies routinely show high AUC values that shrink or fail to replicate in independent validation cohorts. No metallomic diagnostic panel has been validated in a prospective clinical trial as of 2025."
+          "body": "No metallomic pattern described in the cited WikiBiome evidence should be used alone to diagnose cancer, dementia, myocardial infarction, autism, infection, or another condition. High performance reported in a discovery cohort requires independent validation, standardized preanalytics, calibration, prospective evaluation, and comparison with accepted clinical methods. Multivariate models can also overfit when the number of candidate features is large relative to the number of participants.\n\nLikewise, a metallomic result is not automatically a treatment prescription. Supplementation, dietary restriction, or chelation can alter multiple elements and may cause deficiency, toxicity, or drug interactions. Clinical decisions require condition-specific interpretation and established medical testing rather than an unvalidated omics panel."
         },
         {
-          "heading": "Emerging Directions",
+          "heading": "Connections",
           "level": 2,
-          "body": ""
-        },
-        {
-          "heading": "Metal Isotope Ratios as Biomarkers",
-          "level": 3,
-          "body": "Zinc isotope fractionation in urine distinguishes pancreatic cancer from healthy controls, representing a novel dimension beyond concentration-based analysis. This approach could extend to Cu, Fe, and other isotope systems."
-        },
-        {
-          "heading": "Multi-Metal Diagnostic Panels",
-          "level": 3,
-          "body": "Single-element measurements are giving way to integrated multi-element panels and element ratios that capture the systemic nature of metal dyshomeostasis. Combined biomarker approaches consistently outperform individual elements (e.g., four-element urine panel achieving AUC=0.99 for pancreatic cancer)."
-        },
-        {
-          "heading": "Integration with Other -Omics",
-          "level": 3,
-          "body": "Metallomics combined with genomics (metalloprotein gene variants), metabolomics (metal-dependent metabolic pathways), and microbiomics (gut metal ecology) promises a systems-level understanding of metal biology in health and disease."
-        },
-        {
-          "heading": "Key Sources",
-          "level": 2,
-          "body": "- [[zhang-2022-metallomics-cancer-review]]\n- [[patil-2021-infection-metallomics-critical-care]]\n- [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]\n- [[brylinski-2025-trace-elements-thyroid-diseases]]\n- [[saleh-2020-serum-trace-elements-prostate-cancer]]\n- [[blazewicz-2023-metal-profiles-asd]]"
-        },
-        {
-          "heading": "Connections to Other Concepts",
-          "level": 2,
-          "body": "- [[ferroptosis]] -- metallomic profiling can detect the iron dysregulation and selenium deficiency that predispose to ferroptotic cell death\n- [[mis-metallation]] -- metallomics reveals the essential-metal-depletion/toxic-metal-elevation patterns that indicate active mis-metallation\n- [[gut-metal-microbiome]] -- microbial metallomics and fecal metallomic profiling extend the approach to the gut ecosystem\n- [[metalloestrogens]] -- metallomic signatures in breast tissue and peritoneal fluid can detect cadmium and nickel levels relevant to estrogenic disruption\n- [[environmental-metal-exposure]] -- metallomics provides the analytical framework for exposure assessment and biomonitoring\n- [[biomarkers]] -- metallomic profiles serve as multi-element biomarkers for disease diagnosis, staging, and treatment monitoring"
+          "body": "- [[metal-homeostasis]] — processes that regulate acquisition, distribution, storage, use, and excretion\n- [[metal-speciation]] — chemical-form information within a metallomic analysis\n- [[mis-metallation]] — inappropriate metal occupancy that total concentrations may fail to reveal\n- [[microbial-metallomics]] — organism- and community-level metal biology\n- [[gut-metal-microbiome]] — the ecological interface among diet, host, metals, and microorganisms\n- [[biomarkers]] — candidate signatures require independent analytical and clinical validation\n- [[metabolomics]] — a complementary small-molecule layer for multi-omic integration\n- [[oxidative-stress]] — one possible consequence of altered redox-active metal handling\n- [[ferroptosis]] — iron-dependent lipid-peroxidation cell death, not equivalent to iron elevation alone\n- [[nutritional-immunity]] — host control of nutrient metals during infection"
         }
       ],
       "wikilinks": [
-        "oxidative-stress",
-        "aspergillus",
-        "gut-microbiome",
-        "schilling-2020-urine-metallomics-pancreatic-cancer",
+        "morel-2022-mouse-metallomic-landscape-aging-metabolism",
+        "blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans",
         "lim-2023-plasma-metallomics-ami",
+        "metal-speciation",
+        "schilling-2020-urine-metallomics-pancreatic-cancer",
+        "patil-2021-infection-metallomics-critical-care",
+        "stanton-2021-metallome-omes-link-asd",
+        "blazewicz-2023-metal-profiles-asd",
+        "zhang-2022-metallomics-cancer-review",
+        "saleh-2020-serum-trace-elements-prostate-cancer",
         "callejon-leblic-2023-metallomic-signatures-lung-cancer-copd",
         "scholefield-2024-brain-metallomics-dementia",
-        "zhou-2025-hair-heavy-metals-asd-severity",
-        "zhang-2022-metallomics-cancer-review",
-        "patil-2021-infection-metallomics-critical-care",
+        "microbial-metallomics",
+        "gut-microbiome",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "brylinski-2025-trace-elements-thyroid-diseases",
-        "saleh-2020-serum-trace-elements-prostate-cancer",
-        "blazewicz-2023-metal-profiles-asd",
-        "ferroptosis",
+        "metal-homeostasis",
         "mis-metallation",
         "gut-metal-microbiome",
-        "metalloestrogens",
-        "environmental-metal-exposure",
-        "biomarkers"
+        "biomarkers",
+        "metabolomics",
+        "oxidative-stress",
+        "ferroptosis",
+        "nutritional-immunity"
       ],
       "sourceDir": "concepts",
-      "sourceCount": 10,
+      "sourceCount": 13,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
         "aluminum",
+        "alzheimers-disease",
         "aspergillus",
+        "autism-spectrum-disorder",
+        "bifidobacterium",
+        "clostridioides-difficile",
         "copper",
+        "depression",
+        "ibs",
+        "inflammatory-bowel-disease",
+        "lactobacillus",
         "nickel",
+        "obesity",
         "pancreatic-cancer",
+        "parkinsons-disease",
+        "pcos",
         "selenium",
         "sepsis",
         "zinc",
+        "atherosclerosis",
+        "biofilm",
         "biomarkers",
+        "comorbidities",
+        "dysbiosis",
         "environmental-metal-exposure",
         "ferroptosis",
         "gut-metal-microbiome",
         "heavy-metals",
+        "inflammation",
         "metal-homeostasis",
         "metalloestrogens",
         "microbial-biomarkers",
         "microbial-metallomics",
         "mis-metallation",
         "siderophores-metallophores",
+        "tryptophan",
         "broken-links-2026-04-16",
         "glossary"
       ],
       "related": [
         {
-          "id": "iron",
-          "score": 41
-        },
-        {
-          "id": "copper",
-          "score": 40
-        },
-        {
-          "id": "zinc",
-          "score": 38
-        },
-        {
-          "id": "nickel",
-          "score": 35
-        },
-        {
           "id": "inflammation",
-          "score": 34
+          "score": 64
         },
         {
           "id": "dysbiosis",
-          "score": 30
+          "score": 58
         },
         {
-          "id": "selenium",
-          "score": 29
+          "id": "iron",
+          "score": 57
+        },
+        {
+          "id": "nickel",
+          "score": 55
+        },
+        {
+          "id": "zinc",
+          "score": 55
+        },
+        {
+          "id": "copper",
+          "score": 50
         },
         {
           "id": "metal-disease-matrix",
-          "score": 29
+          "score": 43
+        },
+        {
+          "id": "cadmium",
+          "score": 41
         }
       ]
     },
@@ -102693,7 +102681,8 @@
       "backlinks": [
         "escherichia",
         "curli",
-        "dimethylglyoxime"
+        "dimethylglyoxime",
+        "metallomics"
       ],
       "related": [
         {
@@ -107078,6 +107067,7 @@
         "metal-homeostasis",
         "metal-sensing",
         "metallochaperone",
+        "metallomics",
         "metalloregulator",
         "microbial-metallomics",
         "microbiome-derived-metabolites",
@@ -107132,7 +107122,7 @@
         },
         {
           "id": "gut-microbiome",
-          "score": 98
+          "score": 100
         },
         {
           "id": "calprotectin",
@@ -107147,8 +107137,8 @@
           "score": 86
         },
         {
-          "id": "copper",
-          "score": 81
+          "id": "mis-metallation",
+          "score": 83
         }
       ]
     },
@@ -117272,6 +117262,10 @@
           "score": 22
         },
         {
+          "id": "metallomics",
+          "score": 19
+        },
+        {
           "id": "faecalibacterium-prausnitzii",
           "score": 18
         },
@@ -117281,10 +117275,6 @@
         },
         {
           "id": "bile-acid-metabolism",
-          "score": 18
-        },
-        {
-          "id": "chronic-kidney-disease",
           "score": 18
         }
       ]
@@ -118297,7 +118287,7 @@
         "seo_target": "tryptophan gut microbiome",
         "platform": "wikibiome"
       },
-      "overview": "Tryptophan (Trp) is an essential amino acid that the human body cannot synthesize and must obtain from diet. It occupies a uniquely important position at the intersection of neuroscience, immunology, and microbial ecology because it is the sole precursor to serotonin, a major substrate for the [[kynurenine-pathway]], and the raw material for a suite of [[microbiome-derived-metabolites|microbial metabolites]] that shape gut-brain communication. What makes tryptophan particularly relevant to the metallomics story is that the enzymes controlling its fate are metal-dependent: the rate-limiting enzymes of the kynurenine pathway (IDO and TDO) both require heme [[iron]] as a cofactor, meaning that metal availability directly determines how tryptophan is metabolized and which downstream products predominate.",
+      "overview": "Tryptophan (Trp) is an essential amino acid that the human body cannot synthesize and must obtain from diet. It occupies a uniquely important position at the intersection of neuroscience, immunology, and microbial ecology because it is the sole precursor to serotonin, a major substrate for the [[kynurenine-pathway]], and the raw material for a suite of [[microbiome-derived-metabolites|microbial metabolites]] that shape gut-brain communication. What makes tryptophan particularly relevant to the [[metallomics]] story is that the enzymes controlling its fate are metal-dependent: the rate-limiting enzymes of the kynurenine pathway (IDO and TDO) both require heme [[iron]] as a cofactor, meaning that metal availability directly determines how tryptophan is metabolized and which downstream products predominate.",
       "sections": [
         {
           "heading": "Dietary Sources and Absorption",
@@ -118343,6 +118333,7 @@
       "wikilinks": [
         "kynurenine-pathway",
         "microbiome-derived-metabolites",
+        "metallomics",
         "iron",
         "blood-brain-barrier",
         "tryptophan-metabolism",
@@ -182272,6 +182263,10 @@
           "score": 54
         },
         {
+          "id": "metallomics",
+          "score": 43
+        },
+        {
           "id": "type-2-diabetes",
           "score": 42
         },
@@ -182281,10 +182276,6 @@
         },
         {
           "id": "pcos",
-          "score": 41
-        },
-        {
-          "id": "glutathione",
           "score": 41
         }
       ]
@@ -186993,7 +186984,7 @@
         "id": "metallomics",
         "label": "Metallomics",
         "category": "mechanism",
-        "sourceCount": 10
+        "sourceCount": 13
       },
       {
         "id": "metalloregulator",
@@ -189841,6 +189832,10 @@
       },
       {
         "source": "alzheimers-disease",
+        "target": "metallomics"
+      },
+      {
+        "source": "alzheimers-disease",
         "target": "metal-disease-matrix"
       },
       {
@@ -190406,6 +190401,10 @@
       {
         "source": "autism-spectrum-disorder",
         "target": "autism-spectrum-disorder-signature"
+      },
+      {
+        "source": "autism-spectrum-disorder",
+        "target": "metallomics"
       },
       {
         "source": "autism-spectrum-disorder",
@@ -191342,6 +191341,10 @@
       {
         "source": "bifidobacterium",
         "target": "gut-microbiome"
+      },
+      {
+        "source": "bifidobacterium",
+        "target": "metallomics"
       },
       {
         "source": "bifidobacterium",
@@ -193277,6 +193280,10 @@
       },
       {
         "source": "clostridioides-difficile",
+        "target": "metallomics"
+      },
+      {
+        "source": "clostridioides-difficile",
         "target": "dysbiosis"
       },
       {
@@ -194246,6 +194253,10 @@
       {
         "source": "depression",
         "target": "intestinal-permeability"
+      },
+      {
+        "source": "depression",
+        "target": "metallomics"
       },
       {
         "source": "depression",
@@ -197289,6 +197300,10 @@
       },
       {
         "source": "ibs",
+        "target": "metallomics"
+      },
+      {
+        "source": "ibs",
         "target": "nickel-allergy"
       },
       {
@@ -197358,6 +197373,10 @@
       {
         "source": "inflammatory-bowel-disease",
         "target": "dysbiosis"
+      },
+      {
+        "source": "inflammatory-bowel-disease",
+        "target": "metallomics"
       },
       {
         "source": "inflammatory-bowel-disease",
@@ -198294,6 +198313,10 @@
       {
         "source": "lactobacillus-rhamnosus",
         "target": "lead"
+      },
+      {
+        "source": "lactobacillus",
+        "target": "metallomics"
       },
       {
         "source": "lactobacillus",
@@ -199909,6 +199932,10 @@
       },
       {
         "source": "obesity",
+        "target": "metallomics"
+      },
+      {
+        "source": "obesity",
         "target": "heavy-metals"
       },
       {
@@ -200529,6 +200556,10 @@
       },
       {
         "source": "parkinsons-disease",
+        "target": "metallomics"
+      },
+      {
+        "source": "parkinsons-disease",
         "target": "metal-disease-matrix"
       },
       {
@@ -200730,6 +200761,10 @@
       {
         "source": "pcos",
         "target": "pcos-signature"
+      },
+      {
+        "source": "pcos",
+        "target": "metallomics"
       },
       {
         "source": "pcos",
@@ -205265,6 +205300,10 @@
       },
       {
         "source": "atherosclerosis",
+        "target": "metallomics"
+      },
+      {
+        "source": "atherosclerosis",
         "target": "dysbiosis"
       },
       {
@@ -205873,6 +205912,10 @@
       },
       {
         "source": "biofilm",
+        "target": "metallomics"
+      },
+      {
+        "source": "biofilm",
         "target": "nutritional-immunity"
       },
       {
@@ -206430,6 +206473,10 @@
       {
         "source": "colonization-resistance",
         "target": "iron"
+      },
+      {
+        "source": "comorbidities",
+        "target": "metallomics"
       },
       {
         "source": "comorbidities",
@@ -207386,6 +207433,10 @@
       {
         "source": "dysbiosis",
         "target": "gut-microbiome"
+      },
+      {
+        "source": "dysbiosis",
+        "target": "metallomics"
       },
       {
         "source": "dysbiosis",
@@ -210997,6 +211048,10 @@
       },
       {
         "source": "inflammation",
+        "target": "metallomics"
+      },
+      {
+        "source": "inflammation",
         "target": "arsenic"
       },
       {
@@ -212645,7 +212700,11 @@
       },
       {
         "source": "metallomics",
-        "target": "oxidative-stress"
+        "target": "metal-speciation"
+      },
+      {
+        "source": "metallomics",
+        "target": "microbial-metallomics"
       },
       {
         "source": "metallomics",
@@ -212654,6 +212713,18 @@
       {
         "source": "metallomics",
         "target": "mis-metallation"
+      },
+      {
+        "source": "metallomics",
+        "target": "metabolomics"
+      },
+      {
+        "source": "metallomics",
+        "target": "oxidative-stress"
+      },
+      {
+        "source": "metallomics",
+        "target": "nutritional-immunity"
       },
       {
         "source": "metalloregulator",
@@ -212842,10 +212913,6 @@
       {
         "source": "microbial-biomarkers",
         "target": "hepcidin"
-      },
-      {
-        "source": "microbial-metallomics",
-        "target": "metallomics"
       },
       {
         "source": "microbial-metallomics",
@@ -216610,6 +216677,10 @@
       {
         "source": "tryptophan",
         "target": "microbiome-derived-metabolites"
+      },
+      {
+        "source": "tryptophan",
+        "target": "metallomics"
       },
       {
         "source": "tryptophan",

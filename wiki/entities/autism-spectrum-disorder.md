@@ -20,7 +20,7 @@ wikipedia_differentiation: "Metal profile (metallome) concept showing interconne
 
 # Autism Spectrum Disorder (ASD)
 
-A neurodevelopmental condition affecting approximately 1 in 36 children (US CDC 2023 estimate), characterized by differences in social communication, restricted interests, and repetitive behaviors. From a metallomics perspective, ASD presents a compelling convergence of essential metal depletion (Fe, Zn), toxic metal elevation (Pb, Hg, Cd), and gut [[dysbiosis]] as potentially interconnected pathways. The concept of mis-metallation -- toxic metals displacing essential metals from protein binding sites -- offers a unifying mechanism. Approximately 14 source pages address ASD's metallomic dimensions, including 11 newly ingested sources.
+A neurodevelopmental condition affecting approximately 1 in 36 children (US CDC 2023 estimate), characterized by differences in social communication, restricted interests, and repetitive behaviors. From a [[metallomics]] perspective, ASD presents a compelling convergence of essential metal depletion (Fe, Zn), toxic metal elevation (Pb, Hg, Cd), and gut [[dysbiosis]] as potentially interconnected pathways. The concept of mis-metallation -- toxic metals displacing essential metals from protein binding sites -- offers a unifying mechanism. Approximately 14 source pages address ASD's metallomic dimensions, including 11 newly ingested sources.
 
 ## Metallomic Signature
 

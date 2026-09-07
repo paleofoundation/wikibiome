@@ -1157,6 +1157,38 @@
         }
       ]
     },
+    "backfill_links:metallomics": {
+      "state": "queued",
+      "rationale": "The Metallomics destination now distinguishes the metallome from metallomic measurement, separates total concentration from speciation, spatial, isotope, and metal-binding-molecule layers, and explicitly limits discovery signatures and intervention claims. Contextual linking proceeds in reviewed high-leverage batches so readers reach the strengthened thirteen-source definition without repeated links.",
+      "batches": [
+        {
+          "id": "2026-09-07-metallomics-high-leverage-contexts-01",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "parkinsons-disease",
+            "comorbidities",
+            "dysbiosis",
+            "inflammation",
+            "bifidobacterium",
+            "lactobacillus",
+            "biofilm",
+            "autism-spectrum-disorder",
+            "depression",
+            "inflammatory-bowel-disease",
+            "alzheimers-disease",
+            "pcos",
+            "obesity",
+            "biomarkers",
+            "clostridioides-difficile",
+            "ibs",
+            "atherosclerosis",
+            "tryptophan"
+          ]
+        }
+      ]
+    },
     "backfill_links:nickel-transporters": {
       "state": "queued",
       "rationale": "NiuBDE and NixA are better handled by the existing parent page than by creating fragmented protein stubs.",

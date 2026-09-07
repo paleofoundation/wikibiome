@@ -20,7 +20,7 @@ wikipedia_differentiation: "Brain copper paradox analysis (depletion vs peripher
 
 # Alzheimer's Disease (AD)
 
-The most common form of dementia, affecting an estimated 55 million people worldwide and projected to triple by 2050 [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]]. Characterized by progressive memory loss, cognitive decline, amyloid-beta plaques, and neurofibrillary tau tangles [[passeri-2024-recent-advances-therapeutics-alzheimers]]. From a metallomics perspective, Alzheimer's disease presents one of the most complex metal signatures of any disease -- featuring a central paradox of brain copper depletion alongside peripheral copper elevation, iron accumulation in plaques, and the strongest epidemiological evidence for lead as a neurodegenerative risk factor. Approximately 23 source pages address AD's metallomic dimensions.
+The most common form of dementia, affecting an estimated 55 million people worldwide and projected to triple by 2050 [[zhang-2024-recent-advances-alzheimers-mechanisms-trials]]. Characterized by progressive memory loss, cognitive decline, amyloid-beta plaques, and neurofibrillary tau tangles [[passeri-2024-recent-advances-therapeutics-alzheimers]]. From a [[metallomics]] perspective, Alzheimer's disease presents one of the most complex metal signatures of any disease -- featuring a central paradox of brain copper depletion alongside peripheral copper elevation, iron accumulation in plaques, and the strongest epidemiological evidence for lead as a neurodegenerative risk factor. Approximately 23 source pages address AD's metallomic dimensions.
 
 ## Metallomic Signature
 

@@ -20,7 +20,7 @@ wikipedia_differentiation: "Comprehensive metallomic signature with copper meta-
 
 # Polycystic Ovary Syndrome (PCOS)
 
-A metabolic-endocrine disorder affecting 6-20% of reproductive-age women worldwide, characterized by hyperandrogenism, oligo/anovulation, and polycystic ovary morphology (Rotterdam criteria) [[barrea-2019-mediterranean-diet-pcos]]. PCOS is the leading cause of anovulatory infertility [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. From a metallomics perspective, PCOS is among the most thoroughly studied diseases, with ~30 source pages documenting a distinctive metallomic signature of [[copper]] elevation, toxic metal burden, antioxidant depletion, and metalloestrogen activity.
+A metabolic-endocrine disorder affecting 6-20% of reproductive-age women worldwide, characterized by hyperandrogenism, oligo/anovulation, and polycystic ovary morphology (Rotterdam criteria) [[barrea-2019-mediterranean-diet-pcos]]. PCOS is the leading cause of anovulatory infertility [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. From a [[metallomics]] perspective, PCOS is among the most thoroughly studied diseases, with ~30 source pages documenting a distinctive metallomic signature of [[copper]] elevation, toxic metal burden, antioxidant depletion, and metalloestrogen activity.
 
 ## Metallomic Signature
 

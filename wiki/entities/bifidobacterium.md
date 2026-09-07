@@ -21,7 +21,7 @@ pathogenic_potential: commensal
 
 # Bifidobacterium
 
-A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant [[gut-microbiome]] and remain important commensals throughout life. *Bifidobacterium* species are distinctive in the metallomics context because some species possess Ni-dependent [[urease]] -- an unusual feature for a commensal genus -- while the genus as a whole functions as a key probiotic with metal-binding and detoxification properties.
+A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant [[gut-microbiome]] and remain important commensals throughout life. *Bifidobacterium* species are distinctive in the [[metallomics]] context because some species possess Ni-dependent [[urease]] -- an unusual feature for a commensal genus -- while the genus as a whole functions as a key probiotic with metal-binding and detoxification properties.
 
 ## Nickel-Dependent Urease in Select Species
 
