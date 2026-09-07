@@ -19,8 +19,28 @@
     "mediaDescription": "No generated media; these clinical-caution routes do not resolve exact product, protocol, disease state, population, outcome, or a non-prescriptive physical subject",
     "sourceUse": "Current controlled records and local source-resolution evidence define asset-free scientific holds."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "df0561777b966bbe30c1849e51b2cf4ea13c6263",
+  "controlAcceptedReviewManifestSha256": "576c1b84aaa44fab8f028680ab49720a252c8db4978011c0e1c9e82aacb2972c",
+  "controlAcceptedPromptEvidenceSha256": "a4e3384dc161d888ded117c155217d04951a0f11f18ea475a9a7bac86e305a73",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "32395d844ab90c961baed514b13b5f2eced37856",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-iron-supplementation-asd",
+      "stop-iron-supplementation-schizophrenia",
+      "stop-iron-phosphate-binders-ckd",
+      "stop-isolated-zinc-supplementation-pcos",
+      "stop-ppi-monotherapy-without-microbiome-support-gerd",
+      "stop-neglecting-constipation-ckd"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out products, stigmatizing patient imagery, condition anatomy used as treatment evidence, or elemental-metal media substituted for a clinical product. All six routes fail before prompt creation.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
