@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T08:42:25.218Z",
+  "_generated": "2026-09-07T08:51:10.589Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -57454,7 +57454,7 @@
         {
           "heading": "Why Ruminococcaceae Depletion Matters",
           "level": 2,
-          "body": "Ruminococcaceae depletion is among the most consistent microbiome findings across disease states — paralleling and overlapping with [[lachnospiraceae]] depletion:\n\n- Schizophrenia: Ruminococcaceae depletion correlates with negative symptoms and poorer functioning; FEP patients show the most pronounced loss [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]] [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].\n- MS: Depleted in MS patients; diet-responsive (Mediterranean diet enriches Ruminococcaceae) [[bronzini-2023-feeding-gut-microbiome-ms]].\n- IBD, PD, CRC, obesity: Consistently depleted across inflammatory and neurodegenerative conditions.\n- Diet-responsive: Fiber-rich and Mediterranean diets selectively enrich Ruminococcaceae [[ross-2024-diet-gut-microbiome-interplay-health-disease]] [[latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet]]."
+          "body": "Ruminococcaceae depletion is among the most consistent microbiome findings across disease states — paralleling and overlapping with [[lachnospiraceae]] depletion:\n\n- Schizophrenia: Ruminococcaceae depletion correlates with negative symptoms and poorer functioning; FEP patients show the most pronounced loss [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]] [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].\n- MS: Depleted in MS patients; diet-responsive (Mediterranean diet enriches Ruminococcaceae) [[bronzini-2023-feeding-gut-microbiome-ms]].\n- IBD, PD, CRC, obesity: Consistently depleted across [[inflammation|inflammatory]] and neurodegenerative conditions.\n- Diet-responsive: Fiber-rich and Mediterranean diets selectively enrich Ruminococcaceae [[ross-2024-diet-gut-microbiome-interplay-health-disease]] [[latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet]]."
         },
         {
           "heading": "Functional Significance",
@@ -57479,6 +57479,7 @@
         "li-2024-alterations-gut-microbiota-schizophrenia-vote-counting",
         "theleritis-2024-gut-dysbiosis-first-episode-psychosis-review",
         "bronzini-2023-feeding-gut-microbiome-ms",
+        "inflammation",
         "ross-2024-diet-gut-microbiome-interplay-health-disease",
         "latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet",
         "butyrate",
@@ -94016,6 +94017,7 @@
         "rheumatoid-arthritis",
         "roseburia-intestinalis",
         "roseburia",
+        "ruminococcaceae",
         "ruminococcus-albus",
         "ruminococcus-gnavus",
         "ruminococcus",
@@ -94140,7 +94142,6 @@
         "probiotics",
         "quinolinic-acid",
         "reactive-oxygen-species",
-        "ruminococcaceae",
         "semen-microbiome",
         "serotonin-estrogen-axis",
         "short-chain-fatty-acids",
@@ -200339,6 +200340,10 @@
       },
       {
         "source": "ruminococcaceae",
+        "target": "inflammation"
+      },
+      {
+        "source": "ruminococcaceae",
         "target": "butyrate"
       },
       {
@@ -212132,10 +212137,6 @@
       {
         "source": "ruminococcaceae",
         "target": "intestinal-permeability"
-      },
-      {
-        "source": "ruminococcaceae",
-        "target": "inflammation"
       },
       {
         "source": "ruminococcaceae",

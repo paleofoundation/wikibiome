@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "de6b98df34b39c49e3855103cebb384dcdf0c6317e6ec3b8cd87c2169d8058ea",
+    "corpusSha256": "d4a90de4b4e93f937cf8bf00ae03a78c4a32b62584f9238096e60f96e3f5845e",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
     "decisionsSha256": "81cdde0c7e13cb75ba656285de31e8544d03f69a70eaaf96b2ad960727ab74a9",
     "publicArticles": 592,
@@ -1616,7 +1616,7 @@
         ],
         "candidateEvidenceSources": 306,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 641.479
+        "weightedGraphGain": 641.484
       },
       "affectedPages": [
         {
@@ -2065,7 +2065,7 @@
         ],
         "candidateEvidenceSources": 373,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 495.354
+        "weightedGraphGain": 495.359
       },
       "affectedPages": [
         {
@@ -2121,7 +2121,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "lead",
@@ -2513,7 +2513,7 @@
         ],
         "candidateEvidenceSources": 235,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 469.895
+        "weightedGraphGain": 469.9
       },
       "affectedPages": [
         {
@@ -2547,7 +2547,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-brain-axis",
@@ -3409,7 +3409,7 @@
         ],
         "candidateEvidenceSources": 80,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 333.341
+        "weightedGraphGain": 333.346
       },
       "affectedPages": [
         {
@@ -3454,7 +3454,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "bifidobacterium",
@@ -3856,7 +3856,7 @@
         ],
         "candidateEvidenceSources": 196,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 332.129
+        "weightedGraphGain": 332.134
       },
       "affectedPages": [
         {
@@ -3901,7 +3901,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "nickel",
@@ -4303,7 +4303,7 @@
         ],
         "candidateEvidenceSources": 87,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 308.21
+        "weightedGraphGain": 308.215
       },
       "affectedPages": [
         {
@@ -4370,7 +4370,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "nickel",
@@ -6092,7 +6092,7 @@
         ],
         "candidateEvidenceSources": 84,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 242.193
+        "weightedGraphGain": 242.198
       },
       "affectedPages": [
         {
@@ -6159,7 +6159,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",
@@ -6538,7 +6538,7 @@
         ],
         "candidateEvidenceSources": 278,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 235.128
+        "weightedGraphGain": 235.134
       },
       "affectedPages": [
         {
@@ -6550,7 +6550,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "microbial-biomarkers",
@@ -6985,7 +6985,7 @@
         ],
         "candidateEvidenceSources": 60,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 225.418
+        "weightedGraphGain": 225.423
       },
       "affectedPages": [
         {
@@ -7096,7 +7096,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "nickel",
@@ -17093,7 +17093,7 @@
         ],
         "candidateEvidenceSources": 57,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 140.031
+        "weightedGraphGain": 140.036
       },
       "affectedPages": [
         {
@@ -17138,7 +17138,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "short-chain-fatty-acids",
@@ -17987,7 +17987,7 @@
         ],
         "candidateEvidenceSources": 72,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 147.599
+        "weightedGraphGain": 147.604
       },
       "affectedPages": [
         {
@@ -18076,7 +18076,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "short-chain-fatty-acids",
@@ -19619,7 +19619,7 @@
         ],
         "candidateEvidenceSources": 133,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 189.825
+        "weightedGraphGain": 189.83
       },
       "affectedPages": [
         {
@@ -19642,7 +19642,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "copper",
@@ -24086,7 +24086,7 @@
         ],
         "candidateEvidenceSources": 34,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 42.119
+        "weightedGraphGain": 42.124
       },
       "affectedPages": [
         {
@@ -24131,7 +24131,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "cadmium",
@@ -27070,7 +27070,7 @@
         ],
         "candidateEvidenceSources": 74,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 99.798
+        "weightedGraphGain": 99.803
       },
       "affectedPages": [
         {
@@ -27137,7 +27137,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "parkinsons-disease",
@@ -33190,7 +33190,7 @@
         ],
         "candidateEvidenceSources": 26,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 74.628
+        "weightedGraphGain": 74.633
       },
       "affectedPages": [
         {
@@ -33257,7 +33257,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "hashimotos-thyroiditis",
@@ -37925,7 +37925,7 @@
         ],
         "candidateEvidenceSources": 69,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 81.176
+        "weightedGraphGain": 81.181
       },
       "affectedPages": [
         {
@@ -37959,7 +37959,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "colorectal-cancer",
@@ -38695,7 +38695,7 @@
         ],
         "candidateEvidenceSources": 44,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 72.484
+        "weightedGraphGain": 72.489
       },
       "affectedPages": [
         {
@@ -38729,7 +38729,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "endometriosis",
@@ -46218,7 +46218,7 @@
         ],
         "candidateEvidenceSources": 14,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 67.742
+        "weightedGraphGain": 67.747
       },
       "affectedPages": [
         {
@@ -46230,7 +46230,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",
@@ -49361,7 +49361,7 @@
         ],
         "candidateEvidenceSources": 19,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 27.174
+        "weightedGraphGain": 27.179
       },
       "affectedPages": [
         {
@@ -49373,7 +49373,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "arsenic",
@@ -59260,7 +59260,7 @@
         ],
         "candidateEvidenceSources": 4,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 40.471
+        "weightedGraphGain": 40.476
       },
       "affectedPages": [
         {
@@ -59272,7 +59272,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",

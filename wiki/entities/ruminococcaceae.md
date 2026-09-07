@@ -35,7 +35,7 @@ Ruminococcaceae depletion is among the most consistent microbiome findings acros
 
 - Schizophrenia: Ruminococcaceae depletion correlates with negative symptoms and poorer functioning; FEP patients show the most pronounced loss [[li-2024-alterations-gut-microbiota-schizophrenia-vote-counting]] [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]].
 - MS: Depleted in MS patients; diet-responsive (Mediterranean diet enriches Ruminococcaceae) [[bronzini-2023-feeding-gut-microbiome-ms]].
-- IBD, PD, CRC, obesity: Consistently depleted across inflammatory and neurodegenerative conditions.
+- IBD, PD, CRC, obesity: Consistently depleted across [[inflammation|inflammatory]] and neurodegenerative conditions.
 - Diet-responsive: Fiber-rich and Mediterranean diets selectively enrich Ruminococcaceae [[ross-2024-diet-gut-microbiome-interplay-health-disease]] [[latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet]].
 
 ## Functional Significance

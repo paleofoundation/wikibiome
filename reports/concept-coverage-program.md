@@ -1,6 +1,6 @@
 # WikiBiome concept coverage program
 
-Generated deterministically from corpus `de6b98df34b3`, catalog `b3d82c6dacee`, and decisions `81cdde0c7e13`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
+Generated deterministically from corpus `d4a90de4b4e9`, catalog `b3d82c6dacee`, and decisions `81cdde0c7e13`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
 
 ## Summary
 
