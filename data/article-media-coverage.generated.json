@@ -481,6 +481,12 @@
         "sha256": "df3532989b53f06275befb14bb3e906f934e72f192858f32bb88f5c051248de8"
       },
       {
+        "file": "data/article-media-batches/mechanisms-revisions-124.json",
+        "batchId": "mechanisms-revisions-124",
+        "status": "awaiting-control-review",
+        "sha256": "5852eb4d3ca4de3cec4bb509efcda69d39ad1a77a4a1ff79b0cbc102b0a4dd34"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
@@ -775,7 +781,7 @@
     "rejected": 355,
     "revised": 12,
     "scientificHolds": 289,
-    "inReview": 0
+    "inReview": 3
   },
   "categories": [
     {
@@ -7066,34 +7072,6 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 339,
-      "id": "atherosclerosis",
-      "title": "Atherosclerosis",
-      "route": "/article/atherosclerosis",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism",
-      "revisionOf": {
-        "batchId": "mechanisms-059",
-        "disposition": "revise",
-        "reason": "The longitudinal artery enters the frozen uninterrupted 32-pixel pale edge field at x=28, making the source ineligible for crop-safe publication."
-      }
-    },
-    {
-      "queuePosition": 341,
-      "id": "bacteremia",
-      "title": "Bacteremia",
-      "route": "/article/bacteremia",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism",
-      "revisionOf": {
-        "batchId": "mechanisms-059",
-        "disposition": "revise",
-        "reason": "A severe black top-and-bottom vignette creates 124,910 dark pixels in the 32-pixel edge band and violates the uniform pale-field publication standard."
-      }
-    },
-    {
       "queuePosition": 343,
       "id": "bacterial-vaginosis",
       "title": "Bacterial Vaginosis",
@@ -7136,17 +7114,45 @@
       }
     },
     {
-      "queuePosition": 347,
-      "id": "beta-lactamase",
-      "title": "Beta-Lactamase",
-      "route": "/article/beta-lactamase",
+      "queuePosition": 349,
+      "id": "bile-salt-hydrolase",
+      "title": "Bile Salt Hydrolase (BSH)",
+      "route": "/article/bile-salt-hydrolase",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-060",
+        "batchId": "mechanisms-061",
         "disposition": "revise",
-        "reason": "The enzyme model enters the required outer 32-pixel pale edge field at x=11."
+        "reason": "Generated structures enter the frozen outer 32-pixel field at x=31 and x=1500."
+      }
+    },
+    {
+      "queuePosition": 350,
+      "id": "biomarkers",
+      "title": "Biomarkers",
+      "route": "/article/biomarkers",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-061",
+        "disposition": "revise",
+        "reason": "The full-canvas blue-gray gradient and shadow field violates the immutable uniform pale-field and no-vignette requirement."
+      }
+    },
+    {
+      "queuePosition": 351,
+      "id": "blood-brain-barrier",
+      "title": "Blood-Brain Barrier",
+      "route": "/article/blood-brain-barrier",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-061",
+        "disposition": "revise",
+        "reason": "Astrocytic processes fade out at several frame boundaries and reach y=997, leaving incomplete anatomy."
       }
     }
   ],
@@ -14282,13 +14288,12 @@
       "route": "/article/atherosclerosis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "rejected",
-      "rejectedMedia": {
-        "batchId": "mechanisms-059",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
-        "disposition": "revise",
-        "reason": "The longitudinal artery enters the frozen uninterrupted 32-pixel pale edge field at x=28, making the source ineligible for crop-safe publication."
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-revisions-124",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-revisions-batch-124/atherosclerosis-draft-v2.png",
+        "sha256": "a9680ac2034cae8858b3ff4297a7207432753af9bd630a003731784031aac51d"
       }
     },
     {
@@ -14323,13 +14328,12 @@
       "route": "/article/bacteremia",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "rejected",
-      "rejectedMedia": {
-        "batchId": "mechanisms-059",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
-        "disposition": "revise",
-        "reason": "A severe black top-and-bottom vignette creates 124,910 dark pixels in the 32-pixel edge band and violates the uniform pale-field publication standard."
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-revisions-124",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-revisions-batch-124/bacteremia-draft-v2.png",
+        "sha256": "9dec3725e145e88b6c95960d2c0878bf90e741db259e505aa6aabc7cfa96fa88"
       }
     },
     {
@@ -14445,13 +14449,12 @@
       "route": "/article/beta-lactamase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "rejected",
-      "rejectedMedia": {
-        "batchId": "mechanisms-060",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
-        "disposition": "revise",
-        "reason": "The enzyme model enters the required outer 32-pixel pale edge field at x=11."
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-revisions-124",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-revisions-batch-124/beta-lactamase-draft-v2.png",
+        "sha256": "512e0fb5f76834cf47db846c8bf92386a989feb6e952d73ff4493f9353369fee"
       }
     },
     {
