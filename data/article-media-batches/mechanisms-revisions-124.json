@@ -20,7 +20,7 @@
   },
   "controlReviewRequired": true,
   "initialAuditCommit": "b1b2fd8ab1363be945ef707a92fc2ec094f44726",
-  "promptFreezeCommit": "pending-separate-commit",
+  "promptFreezeCommit": "410035f57a6e2c02d53df3202f9b1ec2eac32d9a",
   "reviewStandard": "Six deterministic disposition-revise records are re-audited against current controlled authorities and their literal revision-1 failures. Each old source remains immutable and non-public. Exactly one independent revision-2 call is permitted per hash-frozen prompt, followed by literal native-resolution output, prohibited-content, edge-field, crop, and exact-hash audit.",
   "routeDecisionCount": 6,
   "candidateCount": 6,
