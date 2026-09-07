@@ -481,6 +481,12 @@
         "sha256": "df3532989b53f06275befb14bb3e906f934e72f192858f32bb88f5c051248de8"
       },
       {
+        "file": "data/article-media-batches/mechanisms-127.json",
+        "batchId": "mechanisms-127",
+        "status": "awaiting-control-review",
+        "sha256": "b6bbbe872ef7d033464fcd1bfb879430d7e530ae3d148f5915ec43e6aca47505"
+      },
+      {
         "file": "data/article-media-batches/mechanisms-revisions-124.json",
         "batchId": "mechanisms-revisions-124",
         "status": "reviewed",
@@ -793,7 +799,7 @@
     "rejected": 366,
     "revised": 18,
     "scientificHolds": 288,
-    "inReview": 0
+    "inReview": 6
   },
   "categories": [
     {
@@ -7357,58 +7363,92 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 332,
-      "id": "ammonia",
-      "title": "Ammonia",
-      "route": "/article/ammonia",
+      "queuePosition": 346,
+      "id": "bdnf",
+      "title": "BDNF (Brain-Derived Neurotrophic Factor)",
+      "route": "/article/bdnf",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-revisions-126",
+        "disposition": "revise",
+        "reason": "The three complete groups and strict source-safe field pass, but the terminal contains six vesicles rather than the immutable count of five.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the compact three-group field while depicting exactly five terminal vesicles."
+      }
     },
     {
-      "queuePosition": 355,
-      "id": "caga",
-      "title": "CagA",
-      "route": "/article/caga",
+      "queuePosition": 351,
+      "id": "biomarkers",
+      "title": "Biomarkers",
+      "route": "/article/biomarkers",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-revisions-126",
+        "disposition": "revise",
+        "reason": "The requested specimen-context counts pass, but a severe black and transparent vignette fills the entire source and directly violates the fully opaque flat pale field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three specimen-context groups while producing a fully opaque flat pale field with no black pixels, transparency, vignette, glow, horizon, or ground plane."
+      }
     },
     {
-      "queuePosition": 357,
-      "id": "catalase",
-      "title": "Catalase",
-      "route": "/article/catalase",
+      "queuePosition": 352,
+      "id": "blood-brain-barrier",
+      "title": "Blood-Brain Barrier",
+      "route": "/article/blood-brain-barrier",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-revisions-126",
+        "disposition": "revise",
+        "reason": "The complete capillary model and all literal cellular counts pass, but foreground y=240..746 violates the immutable y=300..723 safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the one-model cellular organization and exact counts while keeping every structure and shadow inside x=350..1185 and y=300..723."
+      }
     },
     {
-      "queuePosition": 444,
-      "id": "interleukin-22",
-      "title": "Interleukin-22",
-      "route": "/article/interleukin-22",
+      "queuePosition": 353,
+      "id": "butyrate",
+      "title": "Butyrate",
+      "route": "/article/butyrate",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-revisions-126",
+        "disposition": "revise",
+        "reason": "The source-safe field, tissue, and four-rod context pass, but the heavy-atom identity model contains six carbon-like centers rather than butyrate's four.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve current PubChem CID 104775 and ChEBI 17968 identity and depict exactly four carbon-like and two oxygen-like heavy-atom centers."
+      }
     },
     {
-      "queuePosition": 495,
-      "id": "nlrp3-inflammasome",
-      "title": "NLRP3 Inflammasome",
-      "route": "/article/nlrp3-inflammasome",
+      "queuePosition": 364,
+      "id": "comorbidities",
+      "title": "Comorbidities",
+      "route": "/article/comorbidities",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-063",
+        "disposition": "revise",
+        "reason": "The heart teaching model includes two complete lungs, exceeding the frozen exactly-three-model scope."
+      }
     },
     {
-      "queuePosition": 551,
-      "id": "urea",
-      "title": "Urea",
-      "route": "/article/urea",
+      "queuePosition": 366,
+      "id": "copper-dysregulation",
+      "title": "Copper Dysregulation",
+      "route": "/article/copper-dysregulation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-063",
+        "disposition": "revise",
+        "reason": "Recognizable nuclei, mitochondria, endoplasmic-reticulum-like membranes, and vesicles violate the no-organelle-identity boundary."
+      }
     }
   ],
   "queue": [
@@ -14395,7 +14435,13 @@
       "route": "/article/ammonia",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-127",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-127/ammonia-draft-v1.png",
+        "sha256": "135bea1987433d10f4788fcd0b01e7e9c1e5f6f7cd5d19fb30b9186bc0a3379e"
+      }
     },
     {
       "queuePosition": 333,
@@ -14871,7 +14917,13 @@
       "route": "/article/caga",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-127",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-127/caga-draft-v1.png",
+        "sha256": "8b06508ddab54c474c3bc99709094497f1b9a891ea5ea7921d1f33f1b451f565"
+      }
     },
     {
       "queuePosition": 356,
@@ -14905,7 +14957,13 @@
       "route": "/article/catalase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-127",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-127/catalase-draft-v1.png",
+        "sha256": "6dd50708a07c8c476159575c50b6247cce43b828a78e73ec73e36c9a371a828d"
+      }
     },
     {
       "queuePosition": 358,
@@ -16647,7 +16705,13 @@
       "route": "/article/interleukin-22",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-127",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-127/interleukin-22-draft-v1.png",
+        "sha256": "c3b0e62e8851c08cb28c5f08e33aa77e3dbe2675df8fc9d62639852d4caa6879"
+      }
     },
     {
       "queuePosition": 445,
@@ -17611,7 +17675,13 @@
       "route": "/article/nlrp3-inflammasome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-127",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-127/nlrp3-inflammasome-draft-v1.png",
+        "sha256": "98fad1673fe395819226987aa8ca593395dc5c4999492486a99a7a7abf442785"
+      }
     },
     {
       "queuePosition": 496,
@@ -18679,7 +18749,13 @@
       "route": "/article/urea",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-127",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-batch-127/urea-draft-v1.png",
+        "sha256": "62ac2298ee59294a05df4bfe2dfa11a8218705b75fd862efb2c02876b45e579f"
+      }
     },
     {
       "queuePosition": 552,
