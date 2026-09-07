@@ -73,7 +73,7 @@ The Cu/Zn ratio was first proposed as a CRC biomarker and captures the two most 
 
 - FadA adhesin disrupts E-cadherin, activating beta-catenin/Wnt signaling and promoting proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
 - Fap2 protein binds TIGIT receptor on NK cells, inhibiting anti-tumor immunity, and binds Gal-GalNAc on tumor cells for selective colonization [[hanus-2021-immune-microbiota-metabolites-crc-triad]]
-- LPS-TLR4 interaction activates NF-kB signaling, autophagy, and chemotherapy resistance (5-FU)
+- LPS–[[tlr4|TLR4]] interaction activates NF-kB signaling, autophagy, and chemotherapy resistance (5-FU)
 - miR21/TLR4/NF-kB axis and ULK1/ATG7 autophagy pathway activation
 
 *F. nucleatum* abundance increases progressively through the adenoma-carcinoma sequence, validated by qPCR in cohorts exceeding 400 patients [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]].

@@ -67,7 +67,7 @@ The Proteobacteria bloom is not random -- it reflects specific ecological advant
 
 3. Metal tolerance: Proteobacteria carry dedicated metal resistance genes (cadA for cadmium, arsR for arsenic, merA for mercury) that enable survival under heavy metal stress that kills sensitive commensals [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].
 
-4. LPS as inflammatory amplifier: Proteobacterial LPS activates TLR4, driving NF-kB-mediated inflammation that further oxygenates the lumen and damages the epithelial barrier -- a self-reinforcing cycle [[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]].
+4. LPS as inflammatory amplifier: Some proteobacterial LPS structures activate [[tlr4|TLR4]], driving NF-kB-mediated inflammation that can further oxygenate the lumen and damage the epithelial barrier—a proposed self-reinforcing cycle [[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]].
 
 ## Metal Interactions
 

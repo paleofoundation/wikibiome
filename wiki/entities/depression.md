@@ -68,7 +68,7 @@ The IDO (indoleamine 2,3-dioxygenase) pathway is central:
 - The microbiome further modulates tryptophan availability (bacterial tryptophanase, indole production) [[zhu-2025-microbiota-gut-brain-axis-depression-review]]
 
 ### Intestinal Permeability
-Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic inflammation → [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]]. This "leaky gut" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects.
+Increased [[intestinal-permeability]] has been proposed to permit LPS translocation → [[tlr4|TLR4]] activation → systemic inflammation → [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]]. This “leaky gut” sequence is one hypothesized route connecting peripheral and central inflammatory findings in depression; those associations do not establish it as a universal cause or treatment target.
 
 ## Comorbidity Web
 

@@ -266,6 +266,10 @@ function authorSimilarity(storedAuthors, crossrefAuthors) {
 
 // ---------- Internal wikilink audit ----------
 
+function shouldSkipWikilinkAuditFile(directory, file) {
+  return directory === 'analyses' && /^link-health-\d{4}-\d{2}-\d{2}\.md$/.test(file);
+}
+
 function auditWikilinks() {
   const pageIds = buildPageIdSet();
   const broken = []; // { file, target, context }
@@ -278,6 +282,10 @@ function auditWikilinks() {
     if (!fs.existsSync(p)) continue;
     for (const f of fs.readdirSync(p)) {
       if (!f.endsWith('.md')) continue;
+      // Generated link-health reports intentionally quote unresolved targets as
+      // examples. Scanning those reports would turn diagnostics into new broken
+      // links and inflate the total on every rerun.
+      if (shouldSkipWikilinkAuditFile(d, f)) continue;
       filesScanned++;
       const content = fs.readFileSync(path.join(p, f), 'utf8');
       let m;
@@ -489,4 +497,8 @@ async function main() {
   console.log(`Report: ${path.relative(ROOT, out)}`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+if (require.main === module) {
+  main().catch(e => { console.error(e); process.exit(1); });
+}
+
+module.exports = { shouldSkipWikilinkAuditFile };

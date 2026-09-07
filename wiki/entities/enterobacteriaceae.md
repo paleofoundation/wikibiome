@@ -41,7 +41,7 @@ Enterobacteriaceae expansion is enriched in virtually every disease state:
 
 - Cardiovascular disease: enriched in ACVD with increased TMA lyase genes (CutC/D, YeaW/X) for TMAO production. LPS biosynthesis genes also enriched [[jie-2017-gut-microbiome-acvd]].
 - Colorectal cancer: enriched in CRC patients; alcohol consumption further increases abundance [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]. pks+ E. coli produces colibactin causing DNA double-strand breaks.
-- Parkinson's disease: consistently increased in PD; LPS translocation triggers neuroinflammation via TLR4/NF-kB [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Parkinson's disease: reported as increased in multiple PD datasets; LPS translocation is proposed to contribute to neuroinflammation via [[tlr4|TLR4]]/NF-kB [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - IBD: blooms during flares when oxygen leaks into the lumen through damaged epithelium, favoring facultative anaerobes over obligate anaerobes.
 - Heavy metal exposure: enriched with As, Pb, Hg, and Cd exposure, as these bacteria possess metal efflux pumps and siderophores that confer metal tolerance [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]].
 

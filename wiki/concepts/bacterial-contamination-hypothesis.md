@@ -19,7 +19,7 @@ platform: wikibiome
 
 The bacterial contamination hypothesis proposes that bacterial endotoxin (LPS) contamination of menstrual blood and endometrial tissue is a key driver of endometriosis pathogenesis. First formalized by Khan et al. (2018), this hypothesis shifts endometriosis from a purely hormonal or immunological disease to one with a significant microbial component -- and connects it to WikiBiome's core themes of metal-microbe interaction and ecological disruption.
 
-The central claim: [[escherichia-coli]] contamination of menstrual blood activates the LPS/TLR4/NF-kB inflammatory cascade in endometriotic tissue, driving growth factor production, angiogenesis, and lesion proliferation. Iron accumulation in the peritoneal environment synergizes with this bacterial contamination, creating a self-reinforcing cycle of [[inflammation]] and pathogen expansion.
+The central claim: [[escherichia-coli]] contamination of menstrual blood activates the LPS/[[tlr4|TLR4]]/NF-kB inflammatory cascade in endometriotic tissue, driving growth factor production, angiogenesis, and lesion proliferation. Iron accumulation in the peritoneal environment synergizes with this bacterial contamination, creating a self-reinforcing cycle of [[inflammation]] and pathogen expansion.
 
 ## Key Evidence
 

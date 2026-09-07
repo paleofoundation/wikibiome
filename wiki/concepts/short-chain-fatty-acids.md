@@ -66,7 +66,7 @@ This is the most critical metal connection in the wiki:
 2. SCFA depletion compromises gut barrier integrity (reduced butyrate for colonocytes, reduced tight junction expression).
 3. Barrier failure increases paracellular permeability to bacterial LPS, food antigens, AND the metals themselves.
 4. Increased metal absorption further damages SCFA producers, completing the vicious cycle.
-5. Systemic consequences: LPS translocation activates inflammation via TLR4/[[nf-kappa-b]]; reduced Treg induction permits autoimmunity; loss of colonocyte energy shifts metabolism.
+5. Systemic consequences: LPS translocation can activate inflammation via [[tlr4|TLR4]]/[[nf-kappa-b]]; reduced Treg induction permits autoimmunity; loss of colonocyte energy shifts metabolism.
 
 This cycle operates in virtually every disease in the wiki -- from [[inflammatory-bowel-disease]] and [[cardiovascular-disease]] to [[alzheimers-disease]], [[parkinsons-disease]], [[autism-spectrum-disorder]], and [[obesity]].
 

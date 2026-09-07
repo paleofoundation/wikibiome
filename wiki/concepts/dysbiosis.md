@@ -54,7 +54,7 @@ Loss of SCFA-producing bacteria -- particularly butyrate producers like [[faecal
 
 Dysbiosis drives chronic low-grade inflammation through multiple routes:
 
-- LPS translocation: Gram-negative pathobiont enrichment increases endotoxin load; LPS crossing the compromised barrier activates TLR4/[[nf-kappa-b]] on macrophages, hepatocytes, and microglia.
+- LPS translocation: Gram-negative pathobiont enrichment increases endotoxin load; LPS crossing the compromised barrier activates [[tlr4|TLR4]]/[[nf-kappa-b]] on macrophages, hepatocytes, and microglia.
 - Cytokine cascades: NF-kB activation drives transcription of IL-6, TNF-alpha, IL-1beta, and COX-2.
 - [[nlrp3-inflammasome|NLRP3 inflammasome]]: Bacterial products and damage-associated molecular patterns activate the NLRP3 inflammasome, driving IL-1beta and IL-18 maturation.
 - Molecular mimicry: Bacterial antigens can cross-react with host tissues, triggering autoimmune responses (relevant to RA, MS, Hashimoto's, Graves').

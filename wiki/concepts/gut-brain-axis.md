@@ -51,7 +51,7 @@ The immune route is slower but more sustained than vagal signaling:
 - Circulating LPS activates peripheral monocytes/macrophages, which produce TNF-alpha, IL-1beta, and IL-6.
 - IL-6 crosses the [[blood-brain-barrier]] via saturable transport systems and activates the JAK/STAT3 pathway in microglia and astrocytes.
 - TNF-alpha signals through circumventricular organs (which lack a BBB) and through TNF receptor-mediated transcytosis.
-- Circulating LPS directly activates microglia via TLR4/[[nf-kappa-b]] signaling, driving [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]].
+- Circulating LPS can activate microglial [[tlr4|TLR4]]/[[nf-kappa-b]] signaling in experimental models, contributing to [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]].
 - Activated microglia adopt a pro-inflammatory M1 phenotype, releasing ROS, NO, and additional cytokines that damage neurons.
 - In Alzheimer's disease, this microglial activation promotes amyloid-beta aggregation and tau phosphorylation [[passeri-2024-recent-advances-therapeutics-alzheimers]].
 - Metal exposure amplifies this pathway: metals directly activate NF-kB in microglia, and metal-driven gut dysbiosis increases the LPS load reaching the brain.

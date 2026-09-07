@@ -146,7 +146,7 @@ Lactose intolerance: 63-74% of SNAS patients have concomitant lactose intoleranc
 
 ### Allergic Contact Mucositis (Ni ACM)
 
-A specific form of SNAS where dietary nickel triggers IBS-like GI symptoms via TLR4-dependent innate immune response on the gastrointestinal mucosa. Diagnosed by the nickel oral mucosa patch test (Ni omPT) [[borghini-2020-low-nickel-diet-celiac]], [[borghini-2020-endometriosis-nickel-ibs]].
+A specific form of SNAS where dietary nickel is proposed to trigger IBS-like GI symptoms via a [[tlr4|TLR4]]-dependent innate immune response on the gastrointestinal mucosa. Diagnosed by the nickel oral mucosa patch test (Ni omPT) [[borghini-2020-low-nickel-diet-celiac]], [[borghini-2020-endometriosis-nickel-ibs]].
 
 ### Hormonal Modulation of Nickel Allergy
 
@@ -397,7 +397,7 @@ A particularly concerning aspect of nickel's ecological impact is its ability to
 
 ### IBD
 
-- Trace metal biomarkers including nickel studied in IBD patients [[americanou-2022-ibd-biomarkers-trace-metals]].
+- Trace metal biomarkers including nickel studied in IBD patients [[amerikanou-2022-ibd-biomarkers-trace-metals]].
 
 ### PCOS
 
@@ -425,7 +425,7 @@ A particularly concerning aspect of nickel's ecological impact is its ability to
 - No maximum residue level for nickel in baby food [[pereira-2020-nickel-baby-foods]].
 - Soil concentrations: background 3-1000 ppm; near nickel-producing industries, soils can reach 9,000 ppm [[cameron-2011-nickel-genotoxicity-carcinogenicity]]. Intensive urea-fertilizer regions show 35-85 mg/kg vs. background of 20-30 mg/kg [[pendergrass-2026-fertilizers-heavy-metals-historical]].
 - Water: rivers typically 0.3 ppb; seawater 0.5-2 ppb; drinking water <10 ug/L contributes 7.5-15.0 ug daily intake [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]].
-- Nickel contamination documented in fruit juices [[fatima-2020-heavy-metals-fruit-juices-pakistan]], [[onyeneto-2015-trace-metals-fruit-juices-nigeria]], [[mehboob-2023-apple-juice-metals-pakistan]], leafy vegetables [[agboola-2023-heavy-metals-leafy-vegetables-lagos]], and fish products [[note-evaluation-risk-ptes-italy-fish-products]].
+- Nickel contamination documented in fruit juices [[fatima-2020-heavy-metals-fruit-juices-pakistan]], [[onyeneto-2015-trace-metals-fruit-juices-nigeria]], [[mehboob-2023-apple-juice-metals-pakistan]], leafy vegetables [[agboola-2023-heavy-metals-leafy-vegetables-lagos]], and fish products [[NOTE-evaluation-risk-ptes-italy-fish-products]].
 - Stainless steel cookware can elevate nickel content in food during cooking [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]].
 - Phytoremediation: hyperaccumulator plants (Alyssum murale, Sebertia acuminata) accumulate >1000 mg Ni/kg dry weight [[genchi-2020-nickel-human-health-environmental-toxicology]].
 

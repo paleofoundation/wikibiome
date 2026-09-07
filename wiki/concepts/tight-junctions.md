@@ -44,7 +44,7 @@ ZO proteins are cytoplasmic scaffolding proteins that anchor claudins and occlud
 
 ### Dysbiosis
 - Loss of [[butyrate]]-producing commensals ([[faecalibacterium-prausnitzii]], [[roseburia]]) removes the primary stimulus for tight junction protein expression — butyrate upregulates claudin-1, occludin, and ZO-1 via AMPK and HDAC inhibition.
-- Pathobiont LPS activates TLR4 → myosin light chain kinase (MLCK) → contractile opening of tight junctions.
+- Pathobiont LPS can activate [[tlr4|TLR4]] → myosin light chain kinase (MLCK) → contractile opening of tight junctions.
 - [[zonulin]] release triggered by gliadin and certain bacteria opens tight junctions.
 
 ### Inflammation

@@ -77,7 +77,7 @@ The gut microbiome is the primary educator of the mucosal and systemic immune sy
 - Treg induction: SCFA (especially butyrate) binding GPR109A and GPR41 on colonic regulatory T cell precursors drives Treg differentiation — the foundational mechanism of gut immune tolerance
 - Th17/Treg balance: Segmented filamentous bacteria and similar organisms calibrate Th17 cell populations essential for mucosal defense; imbalance toward Th17 dominance is a feature of IBD, MS, and psoriasis
 - IgA induction: Commensal microbiota drive secretory IgA production that coats bacteria in the lumen, preventing mucosal invasion without requiring inflammatory responses
-- Innate immune calibration: Pattern recognition by commensal-derived MAMPs (microbial-associated molecular patterns) through TLR2 and TLR9 establishes baseline mucosal immune tone; Proteobacteria enrichment shifts TLR signaling toward TLR4 (LPS receptor) and TLR5 (flagellin receptor), elevating systemic inflammatory tone [[zhuang-2024-asd-pathogenesis-biomarker-intervention]]
+- Innate immune calibration: Pattern recognition by commensal-derived MAMPs (microbial-associated molecular patterns) through TLR2 and TLR9 establishes baseline mucosal immune tone; Proteobacteria enrichment can shift TLR signaling toward [[tlr4|TLR4]] (an LPS receptor) and TLR5 (a flagellin receptor), altering inflammatory tone [[zhuang-2024-asd-pathogenesis-biomarker-intervention]]
 
 ### 4. Barrier Maintenance
 

@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T13:39:32.751Z",
+  "_generated": "2026-09-07T14:21:26.902Z",
   "_platform": "all",
   "_stats": {
     "sources": 1940,
@@ -5774,6 +5774,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "necrotizing-enterocolitis",
         "dietary-metal-microbiome-interactions",
         "broken-links-2026-04-16",
         "gaps-and-improvements-2026-04-13",
@@ -5792,12 +5793,12 @@
           "score": 17
         },
         {
-          "id": "probiotics",
+          "id": "dysbiosis",
           "score": 14
         },
         {
-          "id": "dysbiosis",
-          "score": 12
+          "id": "probiotics",
+          "score": 14
         },
         {
           "id": "akkermansia-muciniphila",
@@ -6496,7 +6497,6 @@
         "propionic-acid",
         "short-chain-fatty-acids",
         "shotgun-metagenomics",
-        "tlr4",
         "toll-like-receptors",
         "transferrin",
         "virome",
@@ -6540,14 +6540,10 @@
         },
         {
           "id": "butyrate",
-          "score": 70
+          "score": 68
         },
         {
           "id": "candida-albicans",
-          "score": 45
-        },
-        {
-          "id": "fusobacterium-nucleatum",
           "score": 45
         },
         {
@@ -6561,6 +6557,10 @@
         {
           "id": "hepcidin",
           "score": 44
+        },
+        {
+          "id": "fusobacterium-nucleatum",
+          "score": 43
         }
       ]
     },
@@ -11817,7 +11817,7 @@
         {
           "heading": "Type 2 Diabetes",
           "level": 3,
-          "body": "A burden-of-disease analysis across 46 studies (n=56,191) estimated that eliminating cadmium exposure would reduce T2D incidence by approximately 65% (population attributable fraction). The dose-response relationship is linear: RR of 1.47 at 1.5--2.0 ug/L blood Cd, 2.43 at 2.0--2.5 ug/L, and 4.00 at >2.5 ug/L [[li-2023-diabetes-dietary-cadmium-china]]. Cd disrupts pancreatic beta-cell lipid metabolism, induces pancreatic [[inflammation]], and alters glucose homeostasis. Cd aggravated diabetic nephropathy through TLR4/NF-kB activation in an animal model [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]]."
+          "body": "A burden-of-disease analysis across 46 studies (n=56,191) estimated that eliminating cadmium exposure would reduce T2D incidence by approximately 65% (population attributable fraction). The dose-response relationship is linear: RR of 1.47 at 1.5--2.0 ug/L blood Cd, 2.43 at 2.0--2.5 ug/L, and 4.00 at >2.5 ug/L [[li-2023-diabetes-dietary-cadmium-china]]. Cd disrupts pancreatic beta-cell lipid metabolism, induces pancreatic [[inflammation]], and alters glucose homeostasis. Cd aggravated diabetic nephropathy alongside [[tlr4|TLR4]]/NF-kB activation in an animal model [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]]."
         },
         {
           "heading": "Neurodegenerative Disease",
@@ -11934,6 +11934,7 @@
         "nucera-2024-non-essential-heavy-metals-cvd-systematic-review",
         "nlrp3-inflammasome",
         "inflammation",
+        "tlr4",
         "bakulski-2020-heavy-metals-alzheimers-dementias",
         "smovrsnik-2023-heavy-metals-oxidative-stress-pcos",
         "rebelo-2021-enterococcus-metal-antibiotic-resistance",
@@ -14376,7 +14377,6 @@
         "necrotizing-enterocolitis",
         "heavy-metal-neurotoxicity",
         "metabolomics",
-        "tlr4",
         "epilepsy-signature",
         "necrotizing-enterocolitis-signature",
         "dietary-fiber-probiotics-cp-constipation"
@@ -14395,11 +14395,11 @@
           "score": 13
         },
         {
-          "id": "parkinsons-disease",
-          "score": 13
+          "id": "kynurenine",
+          "score": 11
         },
         {
-          "id": "kynurenine",
+          "id": "parkinsons-disease",
           "score": 11
         },
         {
@@ -14407,12 +14407,12 @@
           "score": 10
         },
         {
-          "id": "parkinsons-disease",
+          "id": "epilepsy-signature",
           "score": 10
         },
         {
-          "id": "epilepsy-signature",
-          "score": 10
+          "id": "alzheimers-disease",
+          "score": 9
         }
       ]
     },
@@ -15299,7 +15299,7 @@
         {
           "heading": "Route-Dependent Toxicogenomics",
           "level": 3,
-          "body": "Bioinformatic analysis of gene expression data revealed distinct molecular pathways depending on Cr exposure route [[shin-2023-chromium-toxicogenomics]]:\n\n| Exposure Route | Key Mechanisms | Hub Genes | Cancer Association |\n|---|---|---|---|\n| Dermal | DNA damage, immune disorders, allergic reactions | CXCL8, PTGS2, FOS, HMOX1 | Allergic contact dermatitis |\n| Inhalation | DNA damage, cell cycle alteration, immune disorder | TLR4, TGM2, KIT, ZEB1 | Lung cancer (squamous cell) |\n| Ingestion | DNA damage, metastasis, liver dysfunction | VEGFA, EGFR, APP, JUN, TLR2 | Colorectal cancer, GI diseases |\n\nDNA damage and metastasis were common toxic mechanisms across all three exposure routes [[shin-2023-chromium-toxicogenomics]]."
+          "body": "Bioinformatic analysis of gene expression data revealed distinct molecular pathways depending on Cr exposure route [[shin-2023-chromium-toxicogenomics]]:\n\n| Exposure Route | Key Mechanisms | Hub Genes | Cancer Association |\n|---|---|---|---|\n| Dermal | DNA damage, immune disorders, allergic reactions | CXCL8, PTGS2, FOS, HMOX1 | Allergic contact dermatitis |\n| Inhalation | DNA damage, cell cycle alteration, immune disorder | [[tlr4|TLR4]], TGM2, KIT, ZEB1 | Lung cancer (squamous cell) |\n| Ingestion | DNA damage, metastasis, liver dysfunction | VEGFA, EGFR, APP, JUN, TLR2 | Colorectal cancer, GI diseases |\n\nDNA damage and metastasis were common toxic mechanisms across all three exposure routes [[shin-2023-chromium-toxicogenomics]]."
         },
         {
           "heading": "Neurotoxicity",
@@ -15399,6 +15399,7 @@
         "lancaster-2014-metallomics-microorganisms-bioremediation",
         "heavy-metals",
         "imran-2019-co-selection-antibiotic-resistance-metal-microplastic",
+        "tlr4",
         "oxidative-stress",
         "zhang-2022-metallomics-cancer-review",
         "liu-2022-heavy-metals-breast-cancer-meta-analysis",
@@ -15906,7 +15907,7 @@
         {
           "heading": "Alpha-Klotho as Mediator",
           "level": 3,
-          "body": "- [[alpha-klotho]] mediates the Hg-CKD association with 34.55% mediation proportion [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].\n- Mendelian randomization confirmed higher alpha-klotho levels causally associated with reduced CKD risk (OR 0.9842) [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].\n- Klotho functions: antioxidant enzyme regulation (SOD, CAT, GPX-4), TLR4 signaling suppression, NF-kappaB inhibition, autophagy promotion, Ca/vitamin D homeostasis [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].\n- DNA hypomethylation of the klotho promoter by TGF-beta drives fibrosis in CKD [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]."
+          "body": "- [[alpha-klotho]] mediates the Hg-CKD association with 34.55% mediation proportion [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].\n- Mendelian randomization confirmed higher alpha-klotho levels causally associated with reduced CKD risk (OR 0.9842) [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].\n- Klotho functions discussed by the source include antioxidant enzyme regulation (SOD, CAT, GPX-4), [[tlr4|TLR4]] signaling suppression, NF-kappaB inhibition, autophagy promotion, and Ca/vitamin D homeostasis [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].\n- DNA hypomethylation of the klotho promoter by TGF-beta drives fibrosis in CKD [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]."
         },
         {
           "heading": "Ferroptosis in Renal Tubular Cells",
@@ -16004,6 +16005,7 @@
         "zinc",
         "tsai-2018-heavy-metals-soil-ckd-progression-esrd",
         "alpha-klotho",
+        "tlr4",
         "parkinsons-disease",
         "alzheimers-disease",
         "butyrate",
@@ -17370,6 +17372,10 @@
           "score": 8
         },
         {
+          "id": "bacillus",
+          "score": 7
+        },
+        {
           "id": "eggerthella",
           "score": 7
         },
@@ -17388,10 +17394,6 @@
         {
           "id": "butyrate",
           "score": 6
-        },
-        {
-          "id": "bacillus",
-          "score": 5
         }
       ]
     },
@@ -18410,7 +18412,7 @@
         {
           "heading": "Fusobacterium nucleatum as Key Pathobiont",
           "level": 3,
-          "body": "*Fusobacterium nucleatum* is the most consistently enriched bacterium in CRC across global cohorts [[marchesi-2011-towards-human-crc-microbiome]] [[gao-2015-microbiota-disbiosis-colorectal-cancer]]. Its pro-tumorigenic mechanisms are multifaceted:\n\n- FadA adhesin disrupts E-cadherin, activating beta-catenin/Wnt signaling and promoting proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]\n- Fap2 protein binds TIGIT receptor on NK cells, inhibiting anti-tumor immunity, and binds Gal-GalNAc on tumor cells for selective colonization [[hanus-2021-immune-microbiota-metabolites-crc-triad]]\n- LPS-TLR4 interaction activates NF-kB signaling, autophagy, and chemotherapy resistance (5-FU)\n- miR21/TLR4/NF-kB axis and ULK1/ATG7 autophagy pathway activation\n\n*F. nucleatum* abundance increases progressively through the adenoma-carcinoma sequence, validated by qPCR in cohorts exceeding 400 patients [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]]."
+          "body": "*Fusobacterium nucleatum* is the most consistently enriched bacterium in CRC across global cohorts [[marchesi-2011-towards-human-crc-microbiome]] [[gao-2015-microbiota-disbiosis-colorectal-cancer]]. Its pro-tumorigenic mechanisms are multifaceted:\n\n- FadA adhesin disrupts E-cadherin, activating beta-catenin/Wnt signaling and promoting proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]\n- Fap2 protein binds TIGIT receptor on NK cells, inhibiting anti-tumor immunity, and binds Gal-GalNAc on tumor cells for selective colonization [[hanus-2021-immune-microbiota-metabolites-crc-triad]]\n- LPS–[[tlr4|TLR4]] interaction activates NF-kB signaling, autophagy, and chemotherapy resistance (5-FU)\n- miR21/TLR4/NF-kB axis and ULK1/ATG7 autophagy pathway activation\n\n*F. nucleatum* abundance increases progressively through the adenoma-carcinoma sequence, validated by qPCR in cohorts exceeding 400 patients [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]]."
         },
         {
           "heading": "Bacteroides fragilis BFT Toxin",
@@ -18510,6 +18512,7 @@
         "marchesi-2011-towards-human-crc-microbiome",
         "gao-2015-microbiota-disbiosis-colorectal-cancer",
         "hanus-2021-immune-microbiota-metabolites-crc-triad",
+        "tlr4",
         "li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort",
         "metz-2019-drug-discovery-bft-inhibition",
         "butyrate",
@@ -18616,6 +18619,7 @@
         "ruminococcaceae",
         "short-chain-fatty-acids",
         "superoxide-dismutase",
+        "tlr4",
         "transferrin",
         "ursodeoxycholic-acid",
         "viral-microbiota",
@@ -18662,12 +18666,12 @@
           "score": 58
         },
         {
-          "id": "escherichia-coli",
-          "score": 56
+          "id": "fusobacterium-nucleatum",
+          "score": 57
         },
         {
-          "id": "fusobacterium-nucleatum",
-          "score": 55
+          "id": "escherichia-coli",
+          "score": 56
         },
         {
           "id": "bacteroides-fragilis",
@@ -21307,7 +21311,7 @@
         {
           "heading": "Intestinal Permeability",
           "level": 3,
-          "body": "Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic inflammation → [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]]. This \"leaky gut\" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects."
+          "body": "Increased [[intestinal-permeability]] has been proposed to permit LPS translocation → [[tlr4|TLR4]] activation → systemic inflammation → [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]]. This “leaky gut” sequence is one hypothesized route connecting peripheral and central inflammatory findings in depression; those associations do not establish it as a universal cause or treatment target."
         },
         {
           "heading": "Comorbidity Web",
@@ -21364,6 +21368,7 @@
         "butyrate",
         "capuco-2020-gut-microbiome-dysbiosis-depression-review",
         "short-chain-fatty-acids",
+        "tlr4",
         "neuroinflammation",
         "gao-2023-microglia-neurodegenerative-diseases",
         "inflammatory-bowel-disease",
@@ -23813,6 +23818,7 @@
         "premenstrual-syndrome",
         "siderophores-metallophores",
         "tgf-beta",
+        "tlr4",
         "transferrin",
         "zinc-metalloprotease",
         "ovarian-cancer",
@@ -23849,7 +23855,7 @@
         },
         {
           "id": "butyrate",
-          "score": 66
+          "score": 68
         },
         {
           "id": "estrobolome",
@@ -23865,11 +23871,11 @@
         },
         {
           "id": "colorectal-cancer",
-          "score": 51
+          "score": 53
         },
         {
           "id": "colorectal-cancer",
-          "score": 48
+          "score": 50
         },
         {
           "id": "beta-glucuronidase",
@@ -24245,7 +24251,7 @@
         {
           "heading": "Dysbiosis Bloom",
           "level": 2,
-          "body": "Enterobacteriaceae expansion is enriched in virtually every disease state:\n\n- Cardiovascular disease: enriched in ACVD with increased TMA lyase genes (CutC/D, YeaW/X) for TMAO production. LPS biosynthesis genes also enriched [[jie-2017-gut-microbiome-acvd]].\n- Colorectal cancer: enriched in CRC patients; alcohol consumption further increases abundance [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]. pks+ E. coli produces colibactin causing DNA double-strand breaks.\n- Parkinson's disease: consistently increased in PD; LPS translocation triggers neuroinflammation via TLR4/NF-kB [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- IBD: blooms during flares when oxygen leaks into the lumen through damaged epithelium, favoring facultative anaerobes over obligate anaerobes.\n- Heavy metal exposure: enriched with As, Pb, Hg, and Cd exposure, as these bacteria possess metal efflux pumps and siderophores that confer metal tolerance [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]]."
+          "body": "Enterobacteriaceae expansion is enriched in virtually every disease state:\n\n- Cardiovascular disease: enriched in ACVD with increased TMA lyase genes (CutC/D, YeaW/X) for TMAO production. LPS biosynthesis genes also enriched [[jie-2017-gut-microbiome-acvd]].\n- Colorectal cancer: enriched in CRC patients; alcohol consumption further increases abundance [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]. pks+ E. coli produces colibactin causing DNA double-strand breaks.\n- Parkinson's disease: reported as increased in multiple PD datasets; LPS translocation is proposed to contribute to neuroinflammation via [[tlr4|TLR4]]/NF-kB [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- IBD: blooms during flares when oxygen leaks into the lumen through damaged epithelium, favoring facultative anaerobes over obligate anaerobes.\n- Heavy metal exposure: enriched with As, Pb, Hg, and Cd exposure, as these bacteria possess metal efflux pumps and siderophores that confer metal tolerance [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]]."
         },
         {
           "heading": "Metal-Antibiotic Co-Resistance",
@@ -24286,6 +24292,7 @@
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "jie-2017-gut-microbiome-acvd",
         "hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic",
+        "tlr4",
         "rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review",
         "heavy-metals",
         "inflammation",
@@ -28877,7 +28884,7 @@
         },
         {
           "id": "bacteroides-fragilis",
-          "score": 45
+          "score": 43
         },
         {
           "id": "zinc",
@@ -42654,7 +42661,7 @@
         {
           "heading": "Nutritional Immunity",
           "level": 2,
-          "body": "Mercury is not a metal that the host deliberately sequesters through nutritional immunity (as iron and zinc are). Instead, the host's primary defense against mercury is glutathione conjugation and excretion, mediated by glutathione S-transferase (GST) enzymes.\n\nGenetic variation in GST enzymes creates a wide spectrum of individual susceptibility to mercury. GSTT1, GSTM1, and GSTP1 polymorphisms modify the host's capacity to conjugate and eliminate Hg. Null (DD) genotypes for GSTT1 and GSTM1 impair detoxification capacity, while *GSTP1* Ile105Val (rs1695) modifies the gene-environment interaction: carriers of the Ile/Ile genotype who consume canned fish show 59% higher mean blood mercury, while Val/Val carriers show no elevation [[zaman-2023-blood-mercury-gst-jamaican-children]].\n\nSelenium-mercury antagonism is the most important protective interaction. Selenium reduces mercury toxicity by binding to Hg and facilitating biliary excretion. In the thyroid -- the organ with the highest selenium concentration in the body -- selenium builds the deiodinases (DIO1, DIO2, DIO3) essential for T4 to T3 conversion and the glutathione peroxidases (GPx) protecting thyrocytes from oxidative damage [[brock-2015-selenium-thyroid-autoimmunity]], [[brylinski-2025-trace-elements-thyroid-diseases]]. Mercury's inhibition of TPO and Tg iodination thus compounds selenium depletion: Hg both directly impairs thyroid function and depletes the selenium needed for selenoprotein-dependent thyroid hormone metabolism [[brylinski-2025-trace-elements-thyroid-diseases]].\n\nAlpha-klotho has recently been identified as a mediator of mercury's nephrotoxic effects. Alpha-klotho mediates the Hg-CKD association with a 34.55% mediation proportion, and Mendelian randomization confirmed that higher alpha-klotho levels are causally associated with reduced CKD risk (OR 0.9842). Alpha-klotho exerts renoprotection through antioxidant enzyme regulation (SOD, CAT, GPX-4), TLR4 signaling suppression, NF-kappaB inhibition, and autophagy promotion [[liu-2025-low-concentration-metals-ckd-alpha-klotho]]."
+          "body": "Mercury is not a metal that the host deliberately sequesters through nutritional immunity (as iron and zinc are). Instead, the host's primary defense against mercury is glutathione conjugation and excretion, mediated by glutathione S-transferase (GST) enzymes.\n\nGenetic variation in GST enzymes creates a wide spectrum of individual susceptibility to mercury. GSTT1, GSTM1, and GSTP1 polymorphisms modify the host's capacity to conjugate and eliminate Hg. Null (DD) genotypes for GSTT1 and GSTM1 impair detoxification capacity, while *GSTP1* Ile105Val (rs1695) modifies the gene-environment interaction: carriers of the Ile/Ile genotype who consume canned fish show 59% higher mean blood mercury, while Val/Val carriers show no elevation [[zaman-2023-blood-mercury-gst-jamaican-children]].\n\nSelenium-mercury antagonism is the most important protective interaction. Selenium reduces mercury toxicity by binding to Hg and facilitating biliary excretion. In the thyroid -- the organ with the highest selenium concentration in the body -- selenium builds the deiodinases (DIO1, DIO2, DIO3) essential for T4 to T3 conversion and the glutathione peroxidases (GPx) protecting thyrocytes from oxidative damage [[brock-2015-selenium-thyroid-autoimmunity]], [[brylinski-2025-trace-elements-thyroid-diseases]]. Mercury's inhibition of TPO and Tg iodination thus compounds selenium depletion: Hg both directly impairs thyroid function and depletes the selenium needed for selenoprotein-dependent thyroid hormone metabolism [[brylinski-2025-trace-elements-thyroid-diseases]].\n\nAlpha-klotho has recently been identified as a mediator of mercury's nephrotoxic effects. Alpha-klotho mediates the Hg-CKD association with a 34.55% mediation proportion, and Mendelian randomization confirmed that higher alpha-klotho levels are causally associated with reduced CKD risk (OR 0.9842). Proposed renoprotective functions include antioxidant enzyme regulation (SOD, CAT, GPX-4), [[tlr4|TLR4]] signaling suppression, NF-kappaB inhibition, and autophagy promotion [[liu-2025-low-concentration-metals-ckd-alpha-klotho]]."
         },
         {
           "heading": "Conditions Associated",
@@ -42767,6 +42774,7 @@
         "srivastava-2016-environmental-resistance-microbes-review",
         "kukde-2019-heavy-metals-candida-hiv",
         "brock-2015-selenium-thyroid-autoimmunity",
+        "tlr4",
         "liu-2025-low-concentration-metals-ckd-alpha-klotho",
         "chin-chan-2015-environmental-pollutants-ad-pd",
         "bakulski-2025-heavy-metals-late-onset-alzheimers",
@@ -43614,15 +43622,15 @@
           "score": 4
         },
         {
+          "id": "bacillus",
+          "score": 3
+        },
+        {
           "id": "bacteroides",
           "score": 3
         },
         {
           "id": "bifidobacterium",
-          "score": 3
-        },
-        {
-          "id": "citrobacter",
           "score": 3
         }
       ]
@@ -45563,7 +45571,7 @@
         {
           "heading": "TLR4: Master Regulator of NEC",
           "level": 2,
-          "body": "Toll-like receptor 4 (TLR4) is the central molecular switch in NEC pathogenesis:\n\n- TLR4 is physiologically upregulated in premature intestinal epithelium Sampah & Hackam 2020 -- it serves a developmental role in gut maturation, but this makes the preterm intestine hypersensitive to bacterial LPS\n- In the mature gut, TLR4 signaling is dampened by commensal bacteria; in the preterm gut, the absence of commensals leaves TLR4 constitutively active\n- LPS from Proteobacteria activates TLR4, triggering epithelial apoptosis, mucosal barrier breakdown, and bacterial translocation\n- TLR4 activation simultaneously inhibits enterocyte proliferation and migration, preventing mucosal repair\n- The result is a feed-forward loop: barrier breakdown permits more LPS translocation, which activates more TLR4, causing more damage"
+          "body": "Toll-like receptor 4 ([[tlr4|TLR4]]) is a prominent molecular switch in current models of NEC pathogenesis:\n\n- TLR4 is physiologically upregulated in premature intestinal epithelium Sampah & Hackam 2020 -- it serves a developmental role in gut maturation, but this makes the preterm intestine hypersensitive to bacterial LPS\n- In the mature gut, TLR4 signaling is dampened by commensal bacteria; in the preterm gut, the absence of commensals leaves TLR4 constitutively active\n- LPS from Proteobacteria activates TLR4, triggering epithelial apoptosis, mucosal barrier breakdown, and bacterial translocation\n- TLR4 activation simultaneously inhibits enterocyte proliferation and migration, preventing mucosal repair\n- The result is a feed-forward loop: barrier breakdown permits more LPS translocation, which activates more TLR4, causing more damage"
         },
         {
           "heading": "Microbiome Associations",
@@ -45663,12 +45671,13 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[cerebral-palsy]] -- 20% of NEC survivors develop CP via the NEC-to-CP pathway\n- [[klebsiella-pneumoniae]] -- primary NEC pathobiont, predictive biomarker\n- [[bifidobacterium]] -- key protective taxon, HMO metabolism\n- [[lactoferrin]] -- iron chelation as NEC prevention\n- [[zinc]] -- Paneth cell function and defensin production\n- [[ahr]] -- maternal AHR activation protects neonatal gut\n- [[iron]] -- parenteral iron feeds siderophore-producing Enterobacteriaceae; lactoferrin chelation is protective\n- [[enterobacteriaceae]] -- Proteobacteria bloom family driving NEC pathogenesis\n- [[klebsiella-pneumoniae]] -- primary NEC pathobiont species within Klebsiella\n- [[methylobacterium]] -- environmental alpha-Proteobacterium enriched at NEC onset; NICU colonization signal\n- [[clostridium-butyricum]] -- enriched at NEC onset; strain-level distinction critical\n- [[bacillus-subtilis]] -- 5-fold elevated in healthy vs NEC rats; probiotic candidate\n- [[sphingomonas]] -- significantly associated with NEC (p=0.0001); NICU environmental source\n- [[clostridium-perfringens]] -- detected in NEC tissue across 2 distinct OTUs; gas-producing alpha-toxin\n- [[bile-acids]] -- unconjugated fecal bile salts 3-4x elevated in NEC; 5-6 day pre-diagnostic window\n- [[muc2]] -- mucin-2 depletion via ASBT-mediated bile acid accumulation; mucosal barrier loss"
+          "body": "- [[cerebral-palsy]] -- 20% of NEC survivors develop CP via the NEC-to-CP pathway\n- [[klebsiella-pneumoniae]] -- primary NEC pathobiont, predictive biomarker\n- [[bifidobacterium]] -- key protective taxon, HMO metabolism\n- [[lactoferrin]] -- iron chelation as NEC prevention\n- [[zinc]] -- Paneth cell function and defensin production\n- [[ahr]] -- maternal AHR activation protects neonatal gut\n- [[iron]] -- parenteral iron feeds siderophore-producing Enterobacteriaceae; lactoferrin chelation is protective\n- [[enterobacteriaceae]] -- Proteobacteria bloom family driving NEC pathogenesis\n- [[klebsiella-pneumoniae]] -- primary NEC pathobiont species within Klebsiella\n- [[methylobacterium]] -- environmental alpha-Proteobacterium enriched at NEC onset; NICU colonization signal\n- [[clostridium-butyricum]] -- enriched at NEC onset; strain-level distinction critical\n- *[[bacillus|Bacillus subtilis]]* -- 5-fold elevated in healthy vs NEC rats; probiotic candidate\n- [[sphingomonas]] -- significantly associated with NEC (p=0.0001); NICU environmental source\n- [[clostridium-perfringens]] -- detected in NEC tissue across 2 distinct OTUs; gas-producing alpha-toxin\n- [[bile-acid-metabolism|Bile acids]] -- unconjugated fecal bile salts 3-4x elevated in NEC; 5-6 day pre-diagnostic window\n- MUC2 -- mucin-2 depletion via ASBT-mediated bile acid accumulation; mucosal barrier loss"
         }
       ],
       "wikilinks": [
         "necrotizing-enterocolitis-signature",
         "inflammation",
+        "tlr4",
         "stewart-2013-bacterial-fungal-viability-preterm-nec",
         "lin-2023-gut-microbiota-alteration-surgery-nec",
         "brower-sinning-2014-mucosa-bacterial-diversity-nec",
@@ -45695,11 +45704,10 @@
         "enterobacteriaceae",
         "methylobacterium",
         "clostridium-butyricum",
-        "bacillus-subtilis",
+        "bacillus",
         "sphingomonas",
         "clostridium-perfringens",
-        "bile-acids",
-        "muc2"
+        "bile-acid-metabolism"
       ],
       "sourceDir": "entities",
       "sourceCount": 18,
@@ -45754,6 +45762,10 @@
           "score": 14
         },
         {
+          "id": "colorectal-cancer",
+          "score": 13
+        },
+        {
           "id": "roseburia",
           "score": 13
         },
@@ -45764,10 +45776,6 @@
         {
           "id": "urease",
           "score": 12
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 11
         }
       ]
     },
@@ -46313,7 +46321,7 @@
         {
           "heading": "Allergic Contact Mucositis (Ni ACM)",
           "level": 3,
-          "body": "A specific form of SNAS where dietary nickel triggers IBS-like GI symptoms via TLR4-dependent innate immune response on the gastrointestinal mucosa. Diagnosed by the nickel oral mucosa patch test (Ni omPT) [[borghini-2020-low-nickel-diet-celiac]], [[borghini-2020-endometriosis-nickel-ibs]]."
+          "body": "A specific form of SNAS where dietary nickel is proposed to trigger IBS-like GI symptoms via a [[tlr4|TLR4]]-dependent innate immune response on the gastrointestinal mucosa. Diagnosed by the nickel oral mucosa patch test (Ni omPT) [[borghini-2020-low-nickel-diet-celiac]], [[borghini-2020-endometriosis-nickel-ibs]]."
         },
         {
           "heading": "Hormonal Modulation of Nickel Allergy",
@@ -46483,7 +46491,7 @@
         {
           "heading": "IBD",
           "level": 3,
-          "body": "- Trace metal biomarkers including nickel studied in IBD patients [[americanou-2022-ibd-biomarkers-trace-metals]]."
+          "body": "- Trace metal biomarkers including nickel studied in IBD patients [[amerikanou-2022-ibd-biomarkers-trace-metals]]."
         },
         {
           "heading": "PCOS",
@@ -46508,7 +46516,7 @@
         {
           "heading": "Environmental and Regulatory Context",
           "level": 2,
-          "body": "- EU Drinking Water Directive sets nickel limit at 20 ug/L [[eu-2020-drinking-water-directive]].\n- EFSA TDI: 13 ug/kg b.w./day (2020); previous value 2.8 ug/kg b.w./day.\n- No maximum residue level for nickel in baby food [[pereira-2020-nickel-baby-foods]].\n- Soil concentrations: background 3-1000 ppm; near nickel-producing industries, soils can reach 9,000 ppm [[cameron-2011-nickel-genotoxicity-carcinogenicity]]. Intensive urea-fertilizer regions show 35-85 mg/kg vs. background of 20-30 mg/kg [[pendergrass-2026-fertilizers-heavy-metals-historical]].\n- Water: rivers typically 0.3 ppb; seawater 0.5-2 ppb; drinking water <10 ug/L contributes 7.5-15.0 ug daily intake [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]].\n- Nickel contamination documented in fruit juices [[fatima-2020-heavy-metals-fruit-juices-pakistan]], [[onyeneto-2015-trace-metals-fruit-juices-nigeria]], [[mehboob-2023-apple-juice-metals-pakistan]], leafy vegetables [[agboola-2023-heavy-metals-leafy-vegetables-lagos]], and fish products [[note-evaluation-risk-ptes-italy-fish-products]].\n- Stainless steel cookware can elevate nickel content in food during cooking [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]].\n- Phytoremediation: hyperaccumulator plants (Alyssum murale, Sebertia acuminata) accumulate >1000 mg Ni/kg dry weight [[genchi-2020-nickel-human-health-environmental-toxicology]]."
+          "body": "- EU Drinking Water Directive sets nickel limit at 20 ug/L [[eu-2020-drinking-water-directive]].\n- EFSA TDI: 13 ug/kg b.w./day (2020); previous value 2.8 ug/kg b.w./day.\n- No maximum residue level for nickel in baby food [[pereira-2020-nickel-baby-foods]].\n- Soil concentrations: background 3-1000 ppm; near nickel-producing industries, soils can reach 9,000 ppm [[cameron-2011-nickel-genotoxicity-carcinogenicity]]. Intensive urea-fertilizer regions show 35-85 mg/kg vs. background of 20-30 mg/kg [[pendergrass-2026-fertilizers-heavy-metals-historical]].\n- Water: rivers typically 0.3 ppb; seawater 0.5-2 ppb; drinking water <10 ug/L contributes 7.5-15.0 ug daily intake [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]].\n- Nickel contamination documented in fruit juices [[fatima-2020-heavy-metals-fruit-juices-pakistan]], [[onyeneto-2015-trace-metals-fruit-juices-nigeria]], [[mehboob-2023-apple-juice-metals-pakistan]], leafy vegetables [[agboola-2023-heavy-metals-leafy-vegetables-lagos]], and fish products [[NOTE-evaluation-risk-ptes-italy-fish-products]].\n- Stainless steel cookware can elevate nickel content in food during cooking [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]].\n- Phytoremediation: hyperaccumulator plants (Alyssum murale, Sebertia acuminata) accumulate >1000 mg Ni/kg dry weight [[genchi-2020-nickel-human-health-environmental-toxicology]]."
         },
         {
           "heading": "Nickel in Fertilizers and Agricultural Contamination",
@@ -46582,6 +46590,7 @@
         "benoit-2021-nickel-chelator-inhibits-amyloid-beta",
         "ahlstrom-2019-nickel-allergy-review",
         "braga-2013-snas-nosologic-framework",
+        "tlr4",
         "borghini-2020-low-nickel-diet-celiac",
         "borghini-2020-endometriosis-nickel-ibs",
         "bonamonte-2005-nickel-allergy-menstrual-cycle",
@@ -46666,7 +46675,7 @@
         "chen-2022-living-microorganisms-detoxification-heavy-metals",
         "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
         "gunal-2018-heavy-metals-sialic-acid-ms",
-        "americanou-2022-ibd-biomarkers-trace-metals",
+        "amerikanou-2022-ibd-biomarkers-trace-metals",
         "kirmizi-2020-heavy-metals-pcos",
         "abudawood-2021-antioxidant-heavy-metals-pcos",
         "pokorska-niewiada-2022-trace-elements-erythrocytes-pcos",
@@ -47263,7 +47272,7 @@
         {
           "heading": "Adipose Tissue Inflammation",
           "level": 3,
-          "body": "- Gut barrier disruption permits LPS translocation (\"metabolic endotoxemia\"), activating TLR4/[[nf-kappa-b]] on adipose tissue macrophages [[pendergrass-2026-heavy-metals-obesity-epidemic]].\n- This drives the chronic low-grade inflammation characteristic of obesity: elevated TNF-alpha, IL-6, MCP-1 in visceral adipose.\n- [[tmao]] contributes to vascular inflammation and [[cardiovascular-disease]] risk in obese individuals [[zhen-2023-tmao-cardiovascular-diseases-review]] [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]."
+          "body": "- Gut barrier disruption permits LPS translocation (“metabolic endotoxemia”), which can activate [[tlr4|TLR4]]/[[nf-kappa-b]] on adipose-tissue macrophages [[pendergrass-2026-heavy-metals-obesity-epidemic]].\n- This drives the chronic low-grade inflammation characteristic of obesity: elevated TNF-alpha, IL-6, MCP-1 in visceral adipose.\n- [[tmao]] contributes to vascular inflammation and [[cardiovascular-disease]] risk in obese individuals [[zhen-2023-tmao-cardiovascular-diseases-review]] [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]]."
         },
         {
           "heading": "The Nickel-Allergy-Obesity Connection",
@@ -47317,6 +47326,7 @@
         "faecalibacterium-prausnitzii",
         "oscillospiraceae",
         "he-2022-akkermansia-muciniphila-immune-system-cvd-mice",
+        "tlr4",
         "nf-kappa-b",
         "tmao",
         "cardiovascular-disease",
@@ -50381,7 +50391,7 @@
           "score": 44
         },
         {
-          "id": "roseburia",
+          "id": "colorectal-cancer",
           "score": 41
         }
       ]
@@ -51524,7 +51534,7 @@
         "gram_stain": "positive",
         "oxygen_requirement": "obligate anaerobe"
       },
-      "overview": "A Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Peptostreptococcaceae) that has emerged as a consistently enriched organism in the colorectal cancer tumor microenvironment. While [[fusobacterium-nucleatum]] receives the most attention as a CRC-associated bacterium, *P. anaerobius* operates through a distinct pro-tumorigenic mechanism involving TLR2/TLR4 signaling, NF-kB activation, and cholesterol biosynthesis pathway upregulation -- making it a complementary driver of colorectal carcinogenesis rather than a redundant player.",
+      "overview": "A Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Peptostreptococcaceae) that has emerged as a consistently enriched organism in the colorectal cancer tumor microenvironment. While [[fusobacterium-nucleatum]] receives the most attention as a CRC-associated bacterium, *P. anaerobius* operates through a distinct pro-tumorigenic mechanism involving TLR2/[[tlr4|TLR4]] signaling, NF-kB activation, and cholesterol biosynthesis pathway upregulation -- making it a complementary driver of colorectal carcinogenesis rather than a redundant player.",
       "sections": [
         {
           "heading": "Taxonomy",
@@ -51579,6 +51589,7 @@
       ],
       "wikilinks": [
         "fusobacterium-nucleatum",
+        "tlr4",
         "parvimonas",
         "peptostreptococcus-stomatis",
         "bacteroides-fragilis",
@@ -55287,7 +55298,7 @@
         {
           "heading": "Why Proteobacteria Bloom in Dysbiosis",
           "level": 2,
-          "body": "The Proteobacteria bloom is not random -- it reflects specific ecological advantages these organisms possess in the inflamed gut:\n\n1. Facultative aerobiosis: Unlike obligate anaerobe commensals ([[firmicutes]], [[bacteroidetes]]), Proteobacteria can respire oxygen. When [[inflammation]] disrupts the epithelial barrier and oxygenates the normally anaerobic lumen, Proteobacteria gain a respiratory advantage [[sampah-2021-prenatal-immunity-nec]].\n\n2. Superior iron acquisition: Proteobacteria encode the most sophisticated [[siderophores-metallophores]] systems in the gut. When [[calprotectin]] and [[lactoferrin]] sequester free iron, organisms with high-affinity siderophores (enterobactin Kd ~10^-52 M) outcompete commensals for the remaining iron [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].\n\n3. Metal tolerance: Proteobacteria carry dedicated metal resistance genes (cadA for cadmium, arsR for arsenic, merA for mercury) that enable survival under heavy metal stress that kills sensitive commensals [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].\n\n4. LPS as inflammatory amplifier: Proteobacterial LPS activates TLR4, driving NF-kB-mediated inflammation that further oxygenates the lumen and damages the epithelial barrier -- a self-reinforcing cycle [[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]]."
+          "body": "The Proteobacteria bloom is not random -- it reflects specific ecological advantages these organisms possess in the inflamed gut:\n\n1. Facultative aerobiosis: Unlike obligate anaerobe commensals ([[firmicutes]], [[bacteroidetes]]), Proteobacteria can respire oxygen. When [[inflammation]] disrupts the epithelial barrier and oxygenates the normally anaerobic lumen, Proteobacteria gain a respiratory advantage [[sampah-2021-prenatal-immunity-nec]].\n\n2. Superior iron acquisition: Proteobacteria encode the most sophisticated [[siderophores-metallophores]] systems in the gut. When [[calprotectin]] and [[lactoferrin]] sequester free iron, organisms with high-affinity siderophores (enterobactin Kd ~10^-52 M) outcompete commensals for the remaining iron [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].\n\n3. Metal tolerance: Proteobacteria carry dedicated metal resistance genes (cadA for cadmium, arsR for arsenic, merA for mercury) that enable survival under heavy metal stress that kills sensitive commensals [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].\n\n4. LPS as inflammatory amplifier: Some proteobacterial LPS structures activate [[tlr4|TLR4]], driving NF-kB-mediated inflammation that can further oxygenate the lumen and damage the epithelial barrier—a proposed self-reinforcing cycle [[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]]."
         },
         {
           "heading": "Metal Interactions",
@@ -55342,6 +55353,7 @@
         "lactoferrin",
         "khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics",
         "miranda-2022-metalloids-antibiotic-resistance-ckd-gut",
+        "tlr4",
         "wang-2024-ibd-integrated-16s-metagenomics-virulence-factors",
         "li-2019-heavy-metal-metabolic-health-gut-microbiome",
         "chen-2021-imbalanced-zinc-gut-microbiota-markers",
@@ -55431,8 +55443,8 @@
           "score": 19
         },
         {
-          "id": "bacteroides-fragilis",
-          "score": 17
+          "id": "endometriosis",
+          "score": 18
         }
       ]
     },
@@ -63356,16 +63368,16 @@
           "score": 9
         },
         {
+          "id": "bacillus",
+          "score": 8
+        },
+        {
           "id": "biofilm",
           "score": 8
         },
         {
           "id": "cambialistic-enzymes",
           "score": 8
-        },
-        {
-          "id": "clostridium-perfringens",
-          "score": 7
         }
       ]
     },
@@ -73513,7 +73525,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "The bacterial contamination hypothesis proposes that bacterial endotoxin (LPS) contamination of menstrual blood and endometrial tissue is a key driver of endometriosis pathogenesis. First formalized by Khan et al. (2018), this hypothesis shifts endometriosis from a purely hormonal or immunological disease to one with a significant microbial component -- and connects it to WikiBiome's core themes of metal-microbe interaction and ecological disruption.\n\nThe central claim: [[escherichia-coli]] contamination of menstrual blood activates the LPS/TLR4/NF-kB inflammatory cascade in endometriotic tissue, driving growth factor production, angiogenesis, and lesion proliferation. Iron accumulation in the peritoneal environment synergizes with this bacterial contamination, creating a self-reinforcing cycle of [[inflammation]] and pathogen expansion."
+          "body": "The bacterial contamination hypothesis proposes that bacterial endotoxin (LPS) contamination of menstrual blood and endometrial tissue is a key driver of endometriosis pathogenesis. First formalized by Khan et al. (2018), this hypothesis shifts endometriosis from a purely hormonal or immunological disease to one with a significant microbial component -- and connects it to WikiBiome's core themes of metal-microbe interaction and ecological disruption.\n\nThe central claim: [[escherichia-coli]] contamination of menstrual blood activates the LPS/[[tlr4|TLR4]]/NF-kB inflammatory cascade in endometriotic tissue, driving growth factor production, angiogenesis, and lesion proliferation. Iron accumulation in the peritoneal environment synergizes with this bacterial contamination, creating a self-reinforcing cycle of [[inflammation]] and pathogen expansion."
         },
         {
           "heading": "Key Evidence",
@@ -73568,6 +73580,7 @@
       ],
       "wikilinks": [
         "escherichia-coli",
+        "tlr4",
         "inflammation",
         "khan-2018-bacterial-contamination-hypothesis-endometriosis",
         "khan-2016-intrauterine-microbial-colonization-endometriosis",
@@ -73597,8 +73610,8 @@
       ],
       "related": [
         {
-          "id": "tlr4",
-          "score": 12
+          "id": "lipopolysaccharide",
+          "score": 11
         },
         {
           "id": "endometriosis-signature",
@@ -73621,11 +73634,11 @@
           "score": 9
         },
         {
-          "id": "lipopolysaccharide",
-          "score": 9
+          "id": "actinomyces",
+          "score": 8
         },
         {
-          "id": "actinomyces",
+          "id": "aerococcus",
           "score": 8
         }
       ]
@@ -74662,6 +74675,7 @@
         "female-infertility",
         "hypertension",
         "mediterraneibacter",
+        "necrotizing-enterocolitis",
         "non-alcoholic-fatty-liver-disease",
         "obesity",
         "odoribacter",
@@ -74693,12 +74707,12 @@
       ],
       "related": [
         {
-          "id": "gut-microbiome",
+          "id": "butyrate",
           "score": 33
         },
         {
-          "id": "butyrate",
-          "score": 31
+          "id": "gut-microbiome",
+          "score": 33
         },
         {
           "id": "type-2-diabetes",
@@ -74709,19 +74723,19 @@
           "score": 22
         },
         {
+          "id": "iron",
+          "score": 22
+        },
+        {
           "id": "type-2-diabetes",
           "score": 22
         },
         {
-          "id": "iron",
-          "score": 20
+          "id": "oxidative-stress",
+          "score": 21
         },
         {
           "id": "obesity",
-          "score": 19
-        },
-        {
-          "id": "oxidative-stress",
           "score": 19
         }
       ]
@@ -75870,12 +75884,12 @@
           "score": 105
         },
         {
-          "id": "zinc",
-          "score": 96
+          "id": "colorectal-cancer",
+          "score": 97
         },
         {
-          "id": "colorectal-cancer",
-          "score": 95
+          "id": "zinc",
+          "score": 96
         }
       ]
     },
@@ -81199,7 +81213,7 @@
         {
           "heading": "Systemic Inflammation",
           "level": 3,
-          "body": "Dysbiosis drives chronic low-grade inflammation through multiple routes:\n\n- LPS translocation: Gram-negative pathobiont enrichment increases endotoxin load; LPS crossing the compromised barrier activates TLR4/[[nf-kappa-b]] on macrophages, hepatocytes, and microglia.\n- Cytokine cascades: NF-kB activation drives transcription of IL-6, TNF-alpha, IL-1beta, and COX-2.\n- [[nlrp3-inflammasome|NLRP3 inflammasome]]: Bacterial products and damage-associated molecular patterns activate the NLRP3 inflammasome, driving IL-1beta and IL-18 maturation.\n- Molecular mimicry: Bacterial antigens can cross-react with host tissues, triggering autoimmune responses (relevant to RA, MS, Hashimoto's, Graves')."
+          "body": "Dysbiosis drives chronic low-grade inflammation through multiple routes:\n\n- LPS translocation: Gram-negative pathobiont enrichment increases endotoxin load; LPS crossing the compromised barrier activates [[tlr4|TLR4]]/[[nf-kappa-b]] on macrophages, hepatocytes, and microglia.\n- Cytokine cascades: NF-kB activation drives transcription of IL-6, TNF-alpha, IL-1beta, and COX-2.\n- [[nlrp3-inflammasome|NLRP3 inflammasome]]: Bacterial products and damage-associated molecular patterns activate the NLRP3 inflammasome, driving IL-1beta and IL-18 maturation.\n- Molecular mimicry: Bacterial antigens can cross-react with host tissues, triggering autoimmune responses (relevant to RA, MS, Hashimoto's, Graves')."
         },
         {
           "heading": "Immune Dysregulation",
@@ -81326,6 +81340,7 @@
         "depression",
         "faecalibacterium-prausnitzii",
         "tight-junctions",
+        "tlr4",
         "nf-kappa-b",
         "nlrp3-inflammasome",
         "tao-2024-cadmium-gut-microbiota-dwarf-hamsters",
@@ -83132,6 +83147,7 @@
         "leptin",
         "systemic-inflammation",
         "tight-junctions",
+        "tlr4",
         "tnf-alpha",
         "hbot",
         "omega-3-fatty-acids"
@@ -83139,15 +83155,19 @@
       "related": [
         {
           "id": "systemic-inflammation",
-          "score": 19
+          "score": 21
         },
         {
           "id": "gut-brain-axis",
-          "score": 14
+          "score": 16
         },
         {
           "id": "endothelial-dysfunction",
           "score": 13
+        },
+        {
+          "id": "nickel",
+          "score": 11
         },
         {
           "id": "tnf-alpha",
@@ -83158,15 +83178,11 @@
           "score": 9
         },
         {
-          "id": "nickel",
+          "id": "necrotizing-enterocolitis",
           "score": 9
         },
         {
           "id": "bacteremia",
-          "score": 9
-        },
-        {
-          "id": "gut-microbiome",
           "score": 9
         }
       ]
@@ -87745,7 +87761,7 @@
         {
           "heading": "Immune Signaling (Cytokines Crossing the BBB)",
           "level": 3,
-          "body": "The immune route is slower but more sustained than vagal signaling:\n\n- Gut [[dysbiosis]] increases intestinal permeability, permitting translocation of LPS and bacterial metabolites into systemic circulation.\n- Circulating LPS activates peripheral monocytes/macrophages, which produce TNF-alpha, IL-1beta, and IL-6.\n- IL-6 crosses the [[blood-brain-barrier]] via saturable transport systems and activates the JAK/STAT3 pathway in microglia and astrocytes.\n- TNF-alpha signals through circumventricular organs (which lack a BBB) and through TNF receptor-mediated transcytosis.\n- Circulating LPS directly activates microglia via TLR4/[[nf-kappa-b]] signaling, driving [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]].\n- Activated microglia adopt a pro-inflammatory M1 phenotype, releasing ROS, NO, and additional cytokines that damage neurons.\n- In Alzheimer's disease, this microglial activation promotes amyloid-beta aggregation and tau phosphorylation [[passeri-2024-recent-advances-therapeutics-alzheimers]].\n- Metal exposure amplifies this pathway: metals directly activate NF-kB in microglia, and metal-driven gut dysbiosis increases the LPS load reaching the brain."
+          "body": "The immune route is slower but more sustained than vagal signaling:\n\n- Gut [[dysbiosis]] increases intestinal permeability, permitting translocation of LPS and bacterial metabolites into systemic circulation.\n- Circulating LPS activates peripheral monocytes/macrophages, which produce TNF-alpha, IL-1beta, and IL-6.\n- IL-6 crosses the [[blood-brain-barrier]] via saturable transport systems and activates the JAK/STAT3 pathway in microglia and astrocytes.\n- TNF-alpha signals through circumventricular organs (which lack a BBB) and through TNF receptor-mediated transcytosis.\n- Circulating LPS can activate microglial [[tlr4|TLR4]]/[[nf-kappa-b]] signaling in experimental models, contributing to [[neuroinflammation]] [[gao-2023-microglia-neurodegenerative-diseases]].\n- Activated microglia adopt a pro-inflammatory M1 phenotype, releasing ROS, NO, and additional cytokines that damage neurons.\n- In Alzheimer's disease, this microglial activation promotes amyloid-beta aggregation and tau phosphorylation [[passeri-2024-recent-advances-therapeutics-alzheimers]].\n- Metal exposure amplifies this pathway: metals directly activate NF-kB in microglia, and metal-driven gut dysbiosis increases the LPS load reaching the brain."
         },
         {
           "heading": "Metabolite Signaling",
@@ -87820,6 +87836,7 @@
         "gentile-2020-diet-microbiota-brain-health",
         "dysbiosis",
         "blood-brain-barrier",
+        "tlr4",
         "nf-kappa-b",
         "neuroinflammation",
         "gao-2023-microglia-neurodegenerative-diseases",
@@ -87919,6 +87936,7 @@
         "serotonin-estrogen-axis",
         "short-chain-fatty-acids",
         "tau-phosphorylation",
+        "tlr4",
         "tnf-alpha",
         "tryptamine",
         "tryptophan-metabolism",
@@ -87939,7 +87957,7 @@
         },
         {
           "id": "parkinsons-disease",
-          "score": 72
+          "score": 74
         },
         {
           "id": "depression",
@@ -87958,12 +87976,12 @@
           "score": 55
         },
         {
-          "id": "depression",
-          "score": 54
+          "id": "parkinsons-disease",
+          "score": 55
         },
         {
-          "id": "alzheimers-disease",
-          "score": 53
+          "id": "depression",
+          "score": 54
         }
       ]
     },
@@ -88792,7 +88810,7 @@
         {
           "heading": "3. Immune Education and Calibration",
           "level": 3,
-          "body": "The gut microbiome is the primary educator of the mucosal and systemic immune systems:\n- Treg induction: SCFA (especially butyrate) binding GPR109A and GPR41 on colonic regulatory T cell precursors drives Treg differentiation — the foundational mechanism of gut immune tolerance\n- Th17/Treg balance: Segmented filamentous bacteria and similar organisms calibrate Th17 cell populations essential for mucosal defense; imbalance toward Th17 dominance is a feature of IBD, MS, and psoriasis\n- IgA induction: Commensal microbiota drive secretory IgA production that coats bacteria in the lumen, preventing mucosal invasion without requiring inflammatory responses\n- Innate immune calibration: Pattern recognition by commensal-derived MAMPs (microbial-associated molecular patterns) through TLR2 and TLR9 establishes baseline mucosal immune tone; Proteobacteria enrichment shifts TLR signaling toward TLR4 (LPS receptor) and TLR5 (flagellin receptor), elevating systemic inflammatory tone [[zhuang-2024-asd-pathogenesis-biomarker-intervention]]"
+          "body": "The gut microbiome is the primary educator of the mucosal and systemic immune systems:\n- Treg induction: SCFA (especially butyrate) binding GPR109A and GPR41 on colonic regulatory T cell precursors drives Treg differentiation — the foundational mechanism of gut immune tolerance\n- Th17/Treg balance: Segmented filamentous bacteria and similar organisms calibrate Th17 cell populations essential for mucosal defense; imbalance toward Th17 dominance is a feature of IBD, MS, and psoriasis\n- IgA induction: Commensal microbiota drive secretory IgA production that coats bacteria in the lumen, preventing mucosal invasion without requiring inflammatory responses\n- Innate immune calibration: Pattern recognition by commensal-derived MAMPs (microbial-associated molecular patterns) through TLR2 and TLR9 establishes baseline mucosal immune tone; Proteobacteria enrichment can shift TLR signaling toward [[tlr4|TLR4]] (an LPS receptor) and TLR5 (a flagellin receptor), altering inflammatory tone [[zhuang-2024-asd-pathogenesis-biomarker-intervention]]"
         },
         {
           "heading": "4. Barrier Maintenance",
@@ -88848,6 +88866,7 @@
         "butyrate",
         "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
         "zhang-2025-gut-microbiota-cvd-mini-review",
+        "tlr4",
         "zhuang-2024-asd-pathogenesis-biomarker-intervention",
         "tight-junctions",
         "heavy-metals",
@@ -94681,7 +94700,7 @@
         {
           "heading": "NF-kB Pathway",
           "level": 3,
-          "body": "- [[nickel]], [[cadmium]], [[lead]], [[mercury]], and low-dose [[arsenic]] all activate [[nf-kappa-b]], driving transcription of IL-6, TNF-alpha, IL-1beta, COX-2, and iNOS [[briffa-2020-heavy-metal-pollution-environment-toxicology]].\n- Metal-induced ROS oxidize IkB kinase, triggering the canonical NF-kB cascade.\n- This produces the same inflammatory mediators generated by bacterial LPS signaling via TLR4 -- making metal and microbial inflammation molecularly indistinguishable at the cytokine level.\n- NF-kB activation is documented in virtually every disease in this wiki: IBD (barrier disruption), CRC (tumor promotion via beta-catenin cross-talk), neurodegeneration (microglial activation), endometriosis (H2S amplification loop), and autoimmune thyroid disease."
+          "body": "- [[nickel]], [[cadmium]], [[lead]], [[mercury]], and low-dose [[arsenic]] all activate [[nf-kappa-b]], driving transcription of IL-6, TNF-alpha, IL-1beta, COX-2, and iNOS [[briffa-2020-heavy-metal-pollution-environment-toxicology]].\n- Metal-induced ROS oxidize IkB kinase, triggering the canonical NF-kB cascade.\n- This can converge on some of the same inflammatory mediators generated by bacterial LPS signaling via [[tlr4|TLR4]], even though the initiating exposure and evidence for each pathway differ.\n- NF-kB activation is documented in virtually every disease in this wiki: IBD (barrier disruption), CRC (tumor promotion via beta-catenin cross-talk), neurodegeneration (microglial activation), endometriosis (H2S amplification loop), and autoimmune thyroid disease."
         },
         {
           "heading": "NLRP3 Inflammasome",
@@ -94781,6 +94800,7 @@
         "arsenic",
         "nf-kappa-b",
         "briffa-2020-heavy-metal-pollution-environment-toxicology",
+        "tlr4",
         "nlrp3-inflammasome",
         "iodine",
         "kravchenko-2023-thyroid-hormones-minerals-aitd",
@@ -95141,7 +95161,7 @@
         },
         {
           "id": "bacteroides-fragilis",
-          "score": 98
+          "score": 96
         }
       ]
     },
@@ -96040,7 +96060,7 @@
         {
           "heading": "Metal-Driven IL-6 Production",
           "level": 2,
-          "body": "[[heavy-metals]] are potent inducers of IL-6 through multiple converging pathways:\n\n- [[nickel]], [[cadmium]], [[lead]], and [[arsenic]] activate [[nf-kappa-b]], which directly drives IL-6 gene transcription [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]. This produces the same IL-6 surge generated by bacterial LPS via TLR4 — making metal and microbial inflammation molecularly indistinguishable at the cytokine level metal-driven inflammation.\n- Cadmium exposure in animal models elevates colonic IL-6 alongside dysbiotic shifts, particularly expansion of Proteobacteria and depletion of SCFA producers [[liu-2023-environmental-cadmium-rat-microbiota-metabolome]].\n- [[zinc]] deficiency amplifies IL-6 production by impairing the zinc-finger transcription factors that normally restrain NF-kB signaling. Paradoxically, zinc supplementation can reduce IL-6 levels — one of the few interventions that directly addresses the metal-cytokine axis.\n- [[copper]] and [[iron]] status modulate IL-6 production during perinatal depression, with dysregulated trace element homeostasis correlating with elevated IL-6 and TNF-alpha [[silva-fernandes-2024-inflammatory-biomarkers-perinatal-depression]]."
+          "body": "[[heavy-metals]] are potent inducers of IL-6 through multiple converging pathways:\n\n- [[nickel]], [[cadmium]], [[lead]], and [[arsenic]] can activate [[nf-kappa-b]], which drives IL-6 gene transcription in relevant models [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]. Bacterial LPS signaling through [[tlr4|TLR4]] can converge on the same mediator, but shared cytokine output does not make the initiating metal and microbial pathways identical.\n- Cadmium exposure in animal models elevates colonic IL-6 alongside dysbiotic shifts, particularly expansion of Proteobacteria and depletion of SCFA producers [[liu-2023-environmental-cadmium-rat-microbiota-metabolome]].\n- [[zinc]] deficiency amplifies IL-6 production by impairing the zinc-finger transcription factors that normally restrain NF-kB signaling. Paradoxically, zinc supplementation can reduce IL-6 levels — one of the few interventions that directly addresses the metal-cytokine axis.\n- [[copper]] and [[iron]] status modulate IL-6 production during perinatal depression, with dysregulated trace element homeostasis correlating with elevated IL-6 and TNF-alpha [[silva-fernandes-2024-inflammatory-biomarkers-perinatal-depression]]."
         },
         {
           "heading": "Microbiome-IL-6 Interactions",
@@ -96099,6 +96119,7 @@
         "arsenic",
         "nf-kappa-b",
         "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
+        "tlr4",
         "liu-2023-environmental-cadmium-rat-microbiota-metabolome",
         "zinc",
         "copper",
@@ -96271,7 +96292,7 @@
         {
           "heading": "Metal-Induced Barrier Disruption",
           "level": 2,
-          "body": "| Metal | Primary Mechanism | Key TJ Targets |\n|-------|------------------|----------------|\n| Cadmium | [[oxidative-stress]], [[mitochondrial-dysfunction]], direct claudin displacement | Occludin, ZO-1, claudin-1 |\n| Lead | PKC activation, calcium mimicry at TJ signaling | ZO-1, occludin phosphorylation |\n| Arsenic | [[nf-kappa-b]] activation, mucus layer degradation | Claudin-1, -4; MUC2 depletion |\n| Mercury | Thiol binding on TJ proteins, cytoskeletal disruption | Actin ring, ZO-1 |\n| Nickel | TLR4 activation, mast cell degranulation (in sensitized individuals) | Histamine-mediated TJ opening |\n\nAll five metals converge on oxidative stress as a common final pathway for TJ disruption. [[dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side."
+          "body": "| Metal | Primary Mechanism | Key TJ Targets |\n|-------|------------------|----------------|\n| Cadmium | [[oxidative-stress]], [[mitochondrial-dysfunction]], direct claudin displacement | Occludin, ZO-1, claudin-1 |\n| Lead | PKC activation, calcium mimicry at TJ signaling | ZO-1, occludin phosphorylation |\n| Arsenic | [[nf-kappa-b]] activation, mucus layer degradation | Claudin-1, -4; MUC2 depletion |\n| Mercury | Thiol binding on TJ proteins, cytoskeletal disruption | Actin ring, ZO-1 |\n| Nickel | [[tlr4|TLR4]] activation, mast cell degranulation (in sensitized individuals) | Histamine-mediated TJ opening |\n\nAll five metals converge on oxidative stress as a common final pathway for TJ disruption. [[dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side."
         },
         {
           "heading": "The Gateway Mechanism",
@@ -96307,6 +96328,7 @@
         "oxidative-stress",
         "mitochondrial-dysfunction",
         "nf-kappa-b",
+        "tlr4",
         "dysbiosis",
         "short-chain-fatty-acids",
         "calprotectin",
@@ -98408,25 +98430,26 @@
         "endotoxemia",
         "interleukin-6",
         "peptidoglycan",
+        "tlr4",
         "tnf-alpha",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
           "id": "endotoxemia",
-          "score": 17
+          "score": 19
         },
         {
           "id": "cadmium",
-          "score": 15
+          "score": 17
+        },
+        {
+          "id": "toll-like-receptors",
+          "score": 16
         },
         {
           "id": "interleukin-6",
           "score": 15
-        },
-        {
-          "id": "toll-like-receptors",
-          "score": 14
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -98437,12 +98460,12 @@
           "score": 13
         },
         {
-          "id": "roseburia",
+          "id": "nickel",
           "score": 13
         },
         {
-          "id": "arsenic",
-          "score": 11
+          "id": "roseburia",
+          "score": 13
         }
       ]
     },
@@ -103332,17 +103355,18 @@
         "neuroinflammation",
         "quinolinic-acid",
         "tau-phosphorylation",
+        "tlr4",
         "tnf-alpha",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
-          "id": "dysbiosis",
-          "score": 29
+          "id": "inflammation",
+          "score": 30
         },
         {
-          "id": "inflammation",
-          "score": 28
+          "id": "dysbiosis",
+          "score": 29
         },
         {
           "id": "alzheimers-disease",
@@ -103353,6 +103377,10 @@
           "score": 20
         },
         {
+          "id": "parkinsons-disease",
+          "score": 19
+        },
+        {
           "id": "neurodegeneration",
           "score": 19
         },
@@ -103361,12 +103389,8 @@
           "score": 18
         },
         {
-          "id": "parkinsons-disease",
-          "score": 17
-        },
-        {
-          "id": "depression",
-          "score": 14
+          "id": "nf-kappa-b",
+          "score": 16
         }
       ]
     },
@@ -104893,7 +104917,7 @@
         {
           "heading": "What Intervention Studies Establish",
           "level": 2,
-          "body": "Preclinical intervention results can test mechanisms without establishing clinical treatment. In a mouse cardiac-arrest model, sodium [[butyrate]] altered gut measures, TLR4/MyD88/[[nf-kappa-b|NF-kB]] signaling, microglial marker patterns, and neurological outcomes. That experiment supports pathway plausibility in that model; it does not establish butyrate as a general treatment for neuroinflammatory disease [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].\n\nIn multiple sclerosis research, human metabolomics identified altered bile-acid profiles, while cell and EAE experiments found that TUDCA affected astrocyte and microglial states through GPBAR1. The study links a human association to experimental mechanism, but the disease-modifying effect was demonstrated in a model rather than a therapeutic trial in people with MS [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]].\n\nA review of small randomized trials of immunoregulatory or anti-inflammatory agents in autism reported some symptom signals and mixed findings, with short follow-up and small samples limiting inference. Those trials do not make neuroinflammation a diagnostic test for autism or show that one inflammatory mechanism explains all participants [[arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd]]."
+          "body": "Preclinical intervention results can test mechanisms without establishing clinical treatment. In a mouse cardiac-arrest model, sodium [[butyrate]] altered gut measures, [[tlr4|TLR4]]/MyD88/[[nf-kappa-b|NF-kB]] signaling, microglial marker patterns, and neurological outcomes. That experiment supports pathway plausibility in that model; it does not establish butyrate as a general treatment for neuroinflammatory disease [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].\n\nIn multiple sclerosis research, human metabolomics identified altered bile-acid profiles, while cell and EAE experiments found that TUDCA affected astrocyte and microglial states through GPBAR1. The study links a human association to experimental mechanism, but the disease-modifying effect was demonstrated in a model rather than a therapeutic trial in people with MS [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]].\n\nA review of small randomized trials of immunoregulatory or anti-inflammatory agents in autism reported some symptom signals and mixed findings, with short follow-up and small samples limiting inference. Those trials do not make neuroinflammation a diagnostic test for autism or show that one inflammatory mechanism explains all participants [[arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd]]."
         },
         {
           "heading": "Reading the Evidence",
@@ -104941,6 +104965,7 @@
         "tizabi-2023-lead-gut-microbiota-asd",
         "schizophrenia",
         "butyrate",
+        "tlr4",
         "nf-kappa-b",
         "arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd",
         "inflammation",
@@ -104994,6 +105019,7 @@
         "short-chain-fatty-acids",
         "tau-phosphorylation",
         "tight-junctions",
+        "tlr4",
         "tmao",
         "toll-like-receptors",
         "tryptophan-metabolism",
@@ -105010,7 +105036,7 @@
         },
         {
           "id": "cadmium",
-          "score": 38
+          "score": 40
         },
         {
           "id": "zinc",
@@ -105033,8 +105059,8 @@
           "score": 30
         },
         {
-          "id": "gut-metal-microbiome",
-          "score": 29
+          "id": "nickel",
+          "score": 30
         }
       ]
     },
@@ -105142,7 +105168,7 @@
         {
           "heading": "Lead",
           "level": 3,
-          "body": "- Activates NF-kB in the CNS, contributing to neuroinflammation. LPS from Pb-induced gut [[dysbiosis]] further amplifies NF-kB signaling via TLR4 in microglia [[ahmed-2025-metals-alzheimers-mechanistic-review]]."
+          "body": "- Activates NF-kB in the CNS, contributing to neuroinflammation. LPS from Pb-induced gut [[dysbiosis]] may further amplify NF-kB signaling via [[tlr4|TLR4]] in microglia [[ahmed-2025-metals-alzheimers-mechanistic-review]]."
         },
         {
           "heading": "Mercury",
@@ -105202,6 +105228,7 @@
         "arsenic",
         "mishra-2022-molecular-mechanisms-heavy-metals-ckd",
         "dysbiosis",
+        "tlr4",
         "ahmed-2025-metals-alzheimers-mechanistic-review",
         "kravchenko-2023-thyroid-hormones-minerals-aitd",
         "khan-2020-environmental-exposures-autoimmune-gut-microbiome",
@@ -105252,6 +105279,7 @@
         "short-chain-fatty-acids",
         "systemic-inflammation",
         "tight-junctions",
+        "tlr4",
         "tmao",
         "tnf-alpha",
         "broken-links-2026-04-16",
@@ -105261,7 +105289,7 @@
       "related": [
         {
           "id": "butyrate",
-          "score": 41
+          "score": 43
         },
         {
           "id": "short-chain-fatty-acids",
@@ -105280,15 +105308,15 @@
           "score": 29
         },
         {
-          "id": "alzheimers-disease",
-          "score": 25
-        },
-        {
-          "id": "chronic-kidney-disease",
-          "score": 25
-        },
-        {
           "id": "gut-brain-axis",
+          "score": 27
+        },
+        {
+          "id": "neuroinflammation",
+          "score": 26
+        },
+        {
+          "id": "alzheimers-disease",
           "score": 25
         }
       ]
@@ -105423,6 +105451,7 @@
         "dimethylglyoxime",
         "immune-balance",
         "mediterranean-diet",
+        "tlr4",
         "toll-like-receptors",
         "urease",
         "low-nickel-diet",
@@ -105447,12 +105476,12 @@
           "score": 24
         },
         {
-          "id": "escherichia-coli",
-          "score": 20
+          "id": "butyrate",
+          "score": 21
         },
         {
-          "id": "butyrate",
-          "score": 19
+          "id": "escherichia-coli",
+          "score": 20
         },
         {
           "id": "depression",
@@ -106657,16 +106686,17 @@
         "inflammation",
         "microglia",
         "neuroinflammation",
+        "tlr4",
         "tmao"
       ],
       "related": [
         {
-          "id": "gut-microbiome",
-          "score": 25
+          "id": "butyrate",
+          "score": 26
         },
         {
-          "id": "butyrate",
-          "score": 24
+          "id": "gut-microbiome",
+          "score": 25
         },
         {
           "id": "heavy-metals",
@@ -106677,20 +106707,20 @@
           "score": 21
         },
         {
-          "id": "tight-junctions",
-          "score": 19
+          "id": "nickel",
+          "score": 20
         },
         {
-          "id": "nickel",
-          "score": 18
+          "id": "tight-junctions",
+          "score": 19
         },
         {
           "id": "arsenic",
           "score": 16
         },
         {
-          "id": "copper",
-          "score": 14
+          "id": "colorectal-cancer",
+          "score": 15
         }
       ]
     },
@@ -113442,7 +113472,7 @@
         {
           "heading": "The Metal-SCFA Vicious Cycle",
           "level": 2,
-          "body": "This is the most critical metal connection in the wiki:\n\n1. Metal exposure (Cd, Ni, Pb, Hg, As) selectively eliminates SCFA-producing bacteria -- Roseburia, [[faecalibacterium-prausnitzii]], [[bifidobacterium]] -- which are metal-sensitive obligate anaerobes [[pendergrass-2026-heavy-metals-obesity-epidemic]].\n2. SCFA depletion compromises gut barrier integrity (reduced butyrate for colonocytes, reduced tight junction expression).\n3. Barrier failure increases paracellular permeability to bacterial LPS, food antigens, AND the metals themselves.\n4. Increased metal absorption further damages SCFA producers, completing the vicious cycle.\n5. Systemic consequences: LPS translocation activates inflammation via TLR4/[[nf-kappa-b]]; reduced Treg induction permits autoimmunity; loss of colonocyte energy shifts metabolism.\n\nThis cycle operates in virtually every disease in the wiki -- from [[inflammatory-bowel-disease]] and [[cardiovascular-disease]] to [[alzheimers-disease]], [[parkinsons-disease]], [[autism-spectrum-disorder]], and [[obesity]]."
+          "body": "This is the most critical metal connection in the wiki:\n\n1. Metal exposure (Cd, Ni, Pb, Hg, As) selectively eliminates SCFA-producing bacteria -- Roseburia, [[faecalibacterium-prausnitzii]], [[bifidobacterium]] -- which are metal-sensitive obligate anaerobes [[pendergrass-2026-heavy-metals-obesity-epidemic]].\n2. SCFA depletion compromises gut barrier integrity (reduced butyrate for colonocytes, reduced tight junction expression).\n3. Barrier failure increases paracellular permeability to bacterial LPS, food antigens, AND the metals themselves.\n4. Increased metal absorption further damages SCFA producers, completing the vicious cycle.\n5. Systemic consequences: LPS translocation can activate inflammation via [[tlr4|TLR4]]/[[nf-kappa-b]]; reduced Treg induction permits autoimmunity; loss of colonocyte energy shifts metabolism.\n\nThis cycle operates in virtually every disease in the wiki -- from [[inflammatory-bowel-disease]] and [[cardiovascular-disease]] to [[alzheimers-disease]], [[parkinsons-disease]], [[autism-spectrum-disorder]], and [[obesity]]."
         },
         {
           "heading": "SCFAs and Blood Pressure Regulation",
@@ -113479,6 +113509,7 @@
         "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese",
         "liu-2019-altered-gut-microbiota-scfa-chinese-children-asd",
         "pendergrass-2026-heavy-metals-obesity-epidemic",
+        "tlr4",
         "nf-kappa-b",
         "inflammatory-bowel-disease",
         "cardiovascular-disease",
@@ -115515,6 +115546,7 @@
         "cortisol",
         "neuroinflammation",
         "tight-junctions",
+        "tlr4",
         "tnf-alpha"
       ],
       "related": [
@@ -115527,7 +115559,19 @@
           "score": 16
         },
         {
+          "id": "gut-brain-axis",
+          "score": 13
+        },
+        {
+          "id": "lipopolysaccharide",
+          "score": 13
+        },
+        {
           "id": "endothelial-dysfunction",
+          "score": 12
+        },
+        {
+          "id": "intestinal-permeability",
           "score": 12
         },
         {
@@ -115535,20 +115579,8 @@
           "score": 12
         },
         {
-          "id": "gut-brain-axis",
+          "id": "microglia",
           "score": 11
-        },
-        {
-          "id": "lipopolysaccharide",
-          "score": 11
-        },
-        {
-          "id": "intestinal-permeability",
-          "score": 10
-        },
-        {
-          "id": "chromium",
-          "score": 9
         }
       ]
     },
@@ -116675,7 +116707,7 @@
         {
           "heading": "Dysbiosis",
           "level": 3,
-          "body": "- Loss of [[butyrate]]-producing commensals ([[faecalibacterium-prausnitzii]], [[roseburia]]) removes the primary stimulus for tight junction protein expression — butyrate upregulates claudin-1, occludin, and ZO-1 via AMPK and HDAC inhibition.\n- Pathobiont LPS activates TLR4 → myosin light chain kinase (MLCK) → contractile opening of tight junctions.\n- [[zonulin]] release triggered by gliadin and certain bacteria opens tight junctions."
+          "body": "- Loss of [[butyrate]]-producing commensals ([[faecalibacterium-prausnitzii]], [[roseburia]]) removes the primary stimulus for tight junction protein expression — butyrate upregulates claudin-1, occludin, and ZO-1 via AMPK and HDAC inhibition.\n- Pathobiont LPS can activate [[tlr4|TLR4]] → myosin light chain kinase (MLCK) → contractile opening of tight junctions.\n- [[zonulin]] release triggered by gliadin and certain bacteria opens tight junctions."
         },
         {
           "heading": "Inflammation",
@@ -116710,6 +116742,7 @@
         "butyrate",
         "faecalibacterium-prausnitzii",
         "roseburia",
+        "tlr4",
         "interleukin-6",
         "tnf-alpha",
         "nf-kappa-b",
@@ -116878,34 +116911,36 @@
         "nickel-activation"
       ],
       "sources": [
-        "khan-2018-bacterial-contamination-hypothesis-endometriosis",
-        "sampah-2021-prenatal-immunity-nec",
-        "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
-        "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
         "ahlstrom-2019-nickel-allergy-review",
         "davis-richardson-2015-bacteroides-dorei-t1d-model",
+        "khan-2018-bacterial-contamination-hypothesis-endometriosis",
+        "sampah-2021-prenatal-immunity-nec",
+        "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
         "appunni-2021-dietary-factors-gut-microbiome-crc",
-        "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review"
+        "perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain",
+        "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
+        "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest"
       ],
       "created": "2026-04-17T00:00:00.000Z",
-      "updated": "2026-04-17T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "TLR4",
         "type": "concept",
         "created": "2026-04-17T00:00:00.000Z",
-        "updated": "2026-04-17T00:00:00.000Z",
-        "last_substantive_update": "2026-04-17T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "sources": [
-          "khan-2018-bacterial-contamination-hypothesis-endometriosis",
-          "sampah-2021-prenatal-immunity-nec",
-          "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
-          "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
           "ahlstrom-2019-nickel-allergy-review",
           "davis-richardson-2015-bacteroides-dorei-t1d-model",
+          "khan-2018-bacterial-contamination-hypothesis-endometriosis",
+          "sampah-2021-prenatal-immunity-nec",
+          "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
           "appunni-2021-dietary-factors-gut-microbiome-crc",
-          "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review"
+          "perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain",
+          "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
+          "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest"
         ],
-        "source_count": 8,
+        "source_count": 9,
         "tags": [
           "TLR4",
           "toll-like-receptor",
@@ -116923,112 +116958,89 @@
           4,
           9
         ],
-        "seo_target": "TLR4 LPS microbiome inflammation gut barrier",
+        "seo_target": "TLR4 toll-like receptor 4 LPS microbiome inflammation",
         "platform": "wikibiome"
       },
-      "overview": "",
+      "overview": "Toll-like receptor 4 (TLR4) is a cell-surface pattern-recognition receptor in the [[toll-like-receptors]] family. It is best known for detecting particular forms of bacterial [[lipopolysaccharide|lipopolysaccharide (LPS)]] through a receptor complex and converting that detection into innate immune signaling. TLR4 is therefore one route by which microbial products, tissue context, and—in a special human case—nickel exposure can alter [[inflammation|inflammatory responses]]. It is not a general measure of “bad bacteria,” and detecting TLR4 or LPS alone does not establish that the pathway caused a disease [[davis-richardson-2015-bacteroides-dorei-t1d-model]], [[ahlstrom-2019-nickel-allergy-review]].",
       "sections": [
         {
-          "heading": "Overview",
+          "heading": "What TLR4 Senses",
           "level": 2,
-          "body": "Toll-like receptor 4 (TLR4) is the primary innate immune sensor for bacterial lipopolysaccharide (LPS) -- the endotoxin coating the outer membrane of all Gram-negative bacteria. TLR4 activation triggers the NF-kB signaling cascade, driving production of pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6, IL-8) that orchestrate the immune response. In the WikiBiome context, TLR4 is the molecular bridge between [[proteobacteria]] expansion (LPS source) and systemic [[inflammation]] -- and it is directly activated by nickel, creating a metal-immune axis unique to humans."
+          "body": "LPS is a component of the outer membrane of Gram-negative bacteria, but LPS molecules are not immunologically interchangeable. Their structures vary among organisms and can produce different signaling strength. A review centered on *Bacteroides dorei* describes an LPS preparation that antagonized rather than activated TLR4, illustrating why the phrases “Gram-negative,” “LPS-rich,” and “TLR4-activating” should not be treated as synonyms [[davis-richardson-2015-bacteroides-dorei-t1d-model]].\n\nTLR4 can also respond outside the canonical LPS setting. The strongest metal-specific example represented in the WikiBiome source vault is [[nickel]]: a clinical review describes direct activation of human TLR4 on dendritic cells and keratinocytes, dependent on receptor [[histidine]] residues absent from the corresponding mouse receptor. This supports a mechanism in nickel contact allergy, but it should not be generalized to every nickel exposure, tissue, dose, or clinical syndrome [[ahlstrom-2019-nickel-allergy-review]]."
         },
         {
-          "heading": "Signaling Cascade",
+          "heading": "Signaling Outputs",
           "level": 2,
-          "body": "```\nLPS (from Gram-negative bacteria)\n    │\n    └─→ LBP → CD14 → MD-2/TLR4 complex\n                            │\n                   ┌────────┴────────┐\n                   │                 │\n              MyD88-dependent    TRIF-dependent\n                   │                 │\n              NF-kB activation   IRF3 activation\n                   │                 │\n           TNF-alpha, IL-1beta   IFN-beta\n           IL-6, IL-8, COX-2    Type I interferons\n```"
+          "body": "TLR4 activation can engage MyD88-linked signaling and [[nf-kappa-b|NF-kB]], increasing transcription of inflammatory mediators. Depending on the cell, ligand, exposure pattern, and experimental system, downstream measurements may include cytokines, barrier changes, or activation of complexes such as the [[nlrp3-inflammasome|NLRP3 inflammasome]]. A systematic review of NSAID enteropathy, for example, describes an LPS–TLR4–NF-kB–NLRP3 sequence in injured small-intestinal tissue; this is a context-specific pathway model, not proof that every TLR4 response activates every downstream branch [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]].\n\nStudies report TLR4 evidence at different levels: receptor expression, ligand exposure, pathway-associated protein changes, cytokine output, and perturbation by blockade or genetic manipulation. These levels are not equivalent. An increase in receptor abundance may indicate responsiveness, while a blocking experiment provides stronger evidence that signaling through that receptor was required under the tested conditions."
         },
         {
-          "heading": "Metal Activation of TLR4",
+          "heading": "Barrier and Tissue Contexts",
           "level": 2,
-          "body": ""
+          "body": "In necrotizing enterocolitis (NEC), a narrative review describes high TLR4 expression in the premature intestinal epithelium and links LPS-responsive signaling to epithelial injury, impaired repair, and downstream neurodevelopmental mechanisms. This makes TLR4 prominent in current mechanistic models of [[necrotizing-enterocolitis]], while the review design and reliance on experimental models limit direct clinical causal inference [[sampah-2021-prenatal-immunity-nec]].\n\nIn NSAID enteropathy, the initiating tissue injury and microbial exposure are jointly important. The systematic review reports that germ-free animals resist some forms of NSAID small-intestinal injury and that Gram-negative colonization can restore susceptibility, consistent with microbial products amplifying damage through TLR4-related signaling. This does not mean TLR4 initiates all NSAID injury or that the same mechanism applies unchanged to other causes of [[intestinal-permeability]] [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]]."
         },
         {
-          "heading": "Nickel: Direct TLR4 Activation (Human-Specific)",
-          "level": 3,
-          "body": "Nickel directly activates TLR4 on dendritic cells -- a mechanism that is human-specific because it depends on [[histidine]] residues (H456 and H458) in human TLR4 that are absent in mouse TLR4 [[ahlstrom-2019-nickel-allergy-review]]. This explains:\n- Why nickel allergy is the most common contact allergy in humans (~15% prevalence).\n- Why mouse models poorly recapitulate nickel-driven inflammation.\n- Why nickel from dietary sources, dental materials, and occupational exposure can trigger systemic inflammation through a pathway distinct from LPS."
-        },
-        {
-          "heading": "Cadmium: TLR4/NF-kB Aggravation",
-          "level": 3,
-          "body": "Cadmium aggravates diabetic nephropathy through the TLR4/NF-kB pathway. Zinc + curcumin intervention attenuates this Cd-TLR4 signaling [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]]."
-        },
-        {
-          "heading": "TLR4 in Disease",
+          "heading": "Disease-Associated Pathways",
           "level": 2,
-          "body": ""
+          "body": "In endometriosis research, a review synthesizing the authors’ clinical and laboratory program reports higher LPS in menstrual or peritoneal samples and LPS-responsive cytokine production. Anti-TLR4 antibody reduced LPS-stimulated endometriotic-cell proliferation in the described experimental setting, supporting functional involvement in the [[bacterial-contamination-hypothesis|bacterial-contamination model]] without establishing TLR4 as the sole cause of [[endometriosis]] [[khan-2018-bacterial-contamination-hypothesis-endometriosis]].\n\nIn colorectal-cancer literature, a narrative review reports a *[[fusobacterium-nucleatum]]*–miR-21–TLR4–NF-kB axis among several proposed microbial mechanisms. The evidence supports a pathway hypothesis within a broader, heterogeneous disease process; it does not make TLR4 signaling specific to [[colorectal-cancer]] or sufficient for tumor formation [[appunni-2021-dietary-factors-gut-microbiome-crc]].\n\nA Parkinson’s-disease review places TLR4 among receptors studied in the microbiome–gut–brain axis and distinguishes it from TLR2, which is emphasized for recognition of [[alpha-synuclein]] aggregates. Much of the mechanistic evidence summarized is preclinical, so reported expression changes in gut or brain tissue should not be read as a validated diagnostic marker or treatment target for [[parkinsons-disease]] [[perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain]]."
         },
         {
-          "heading": "Necrotizing Enterocolitis",
-          "level": 3,
-          "body": "TLR4 is the master regulator of NEC. The premature intestine over-expresses TLR4, creating hypersensitivity to luminal LPS. TLR4 activation in the neonatal gut:\n- Triggers epithelial apoptosis and barrier breakdown\n- Impairs mucosal repair (inhibits Wnt/beta-catenin signaling)\n- Activates microglia and causes dysmyelination in the developing brain -- linking intestinal NEC to [[cerebral-palsy]] [[sampah-2021-prenatal-immunity-nec]]"
-        },
-        {
-          "heading": "Endometriosis ([[bacterial-contamination-hypothesis]])",
-          "level": 3,
-          "body": "LPS/TLR4/NF-kB cascade in endometriotic tissue drives HGF, VEGF, and inflammatory cytokine production. Anti-TLR4 antibody blocked LPS-stimulated endometriotic cell proliferation, confirming functional requirement [[khan-2018-bacterial-contamination-hypothesis-endometriosis]]."
-        },
-        {
-          "heading": "Colorectal Cancer",
-          "level": 3,
-          "body": "[[fusobacterium-nucleatum]] promotes tumorigenesis via miR21/TLR4/NF-kB signaling [[appunni-2021-dietary-factors-gut-microbiome-crc]]."
-        },
-        {
-          "heading": "Neurodegeneration",
-          "level": 3,
-          "body": "[[alpha-synuclein]] aggregates activate microglia through TLR4, driving neuroinflammation in [[parkinsons-disease]]."
-        },
-        {
-          "heading": "Type 1 Diabetes",
-          "level": 3,
-          "body": "*[[bacteroides-fragilis]]* *dorei* produces TLR4-antagonist LPS that is immunoinhibitory -- preventing immune education and potentially contributing to autoimmune risk [[davis-richardson-2015-bacteroides-dorei-t1d-model]]."
-        },
-        {
-          "heading": "TLR4 Modulators",
+          "heading": "Metals Beyond Direct Nickel Sensing",
           "level": 2,
-          "body": ""
+          "body": "Other metal studies can implicate a TLR4-associated pathway without showing that the metal binds TLR4. In a streptozotocin diabetic-mouse model, [[cadmium]] exposure was accompanied by renal TLR4/NF-kB activation and worse nephropathy. A zinc–curcumin complex changed renal, microbiome, and pathway measurements, with fecal-transfer experiments supporting microbiome mediation in that model. These results do not establish cadmium as a direct TLR4 ligand or the intervention as a human treatment [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]].\n\nThat distinction—direct receptor activation versus a downstream pathway association—is essential when interpreting metal–immune claims. Nickel has a described human receptor interaction in contact-allergy biology; cadmium in the cited study altered a TLR4-associated inflammatory pathway in mice. Those are different evidence claims."
         },
         {
-          "heading": "Suppressors",
-          "level": 3,
-          "body": "| Agent | Mechanism | Source |\n|-------|-----------|--------|\n| [[butyrate]] | Suppresses TLR4/MyD88/NF-kB pathway | [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]] |\n| BHB (ketone body) | Directly inhibits TLR4 signaling | Ketogenic diet studies |\n| Anti-TLR4 antibody | Blocks LPS binding | [[khan-2018-bacterial-contamination-hypothesis-endometriosis]] |\n| Zinc + curcumin | Attenuates Cd-TLR4 signaling | [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]] |"
-        },
-        {
-          "heading": "Activators",
-          "level": 3,
-          "body": "| Agent | Mechanism |\n|-------|-----------|\n| LPS (Gram-negative) | Canonical TLR4 ligand |\n| Nickel (Ni2+) | Direct binding to H456/H458 (human-specific) |\n| Cadmium (Cd2+) | TLR4/NF-kB aggravation |\n| Alpha-synuclein aggregates | Microglial TLR4 activation |\n| Saturated fatty acids | Non-canonical TLR4 activation |"
-        },
-        {
-          "heading": "Cross-References",
+          "heading": "What Intervention Studies Establish",
           "level": 2,
-          "body": "- [[proteobacteria]] -- Primary LPS source in the dysbiotic gut\n- [[bacterial-contamination-hypothesis]] -- LPS/TLR4 in endometriosis\n- [[nickel]] -- Human-specific TLR4 activation\n- [[cadmium]] -- Cd-TLR4/NF-kB in diabetic nephropathy\n- butyrate -- TLR4 suppressor\n- inflammation -- TLR4 as master inflammatory switch\n- [[necrotizing-enterocolitis]] -- TLR4 over-expression as disease driver\n- [[fusobacterium-nucleatum]] -- TLR4-mediated tumorigenesis\n- [[alpha-synuclein]] -- TLR4-mediated neuroinflammation\n- [[intestinal-permeability]] -- TLR4 activation disrupts barrier"
+          "body": "In a mouse cardiac-arrest model with cultured-cell experiments, sodium [[butyrate]] changed TLR4, MyD88, phosphorylated NF-kB, microglial markers, gut measures, and neurological outcomes. The study supports pathway plausibility linking the [[gut-brain-axis]] and [[neuroinflammation]] in that model. It does not establish butyrate as a general TLR4 inhibitor or a treatment for human neurological disease [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].\n\nThe endometriosis antibody experiment and the two animal intervention studies show why pathway perturbation is more informative than receptor measurement alone. They still remain bounded by tissue, species, dose, and study design. No source used on this page establishes routine clinical TLR4 testing or a broadly effective TLR4-directed therapy."
+        },
+        {
+          "heading": "Reading the Evidence",
+          "level": 2,
+          "body": "When a WikiBiome article invokes TLR4, four questions help calibrate the claim:\n\n1. Was the evidence a ligand measurement, receptor-expression result, downstream pathway marker, or direct perturbation?\n2. Was TLR4 distinguished experimentally from another receptor such as TLR2?\n3. Was the model human, animal, cultured cell, or a review synthesis?\n4. Does the source show direct receptor engagement, or only an association with a TLR4-linked pathway?\n\nThese distinctions prevent a familiar chain of overinterpretation: microbial or metal exposure → TLR4 marker change → assumed systemic disease cause → assumed treatment target. Each arrow requires its own evidence."
+        },
+        {
+          "heading": "Connections",
+          "level": 2,
+          "body": "- [[endotoxemia]] — circulation of microbial products is one exposure context in which TLR4 is often discussed\n- [[systemic-inflammation]] — a possible downstream state, not a synonym for receptor activation\n- [[proteobacteria]] — a broad Gram-negative group whose members produce structurally diverse LPS\n- [[microglia]] — CNS-resident immune cells in which TLR signaling is studied in preclinical disease models\n- [[nickel-allergy]] — the best-supported clinical setting here for direct human nickel–TLR4 activation"
         }
       ],
       "wikilinks": [
-        "proteobacteria",
+        "toll-like-receptors",
+        "lipopolysaccharide",
         "inflammation",
-        "histidine",
+        "davis-richardson-2015-bacteroides-dorei-t1d-model",
         "ahlstrom-2019-nickel-allergy-review",
-        "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
-        "cerebral-palsy",
+        "nickel",
+        "histidine",
+        "nf-kappa-b",
+        "nlrp3-inflammasome",
+        "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
+        "necrotizing-enterocolitis",
         "sampah-2021-prenatal-immunity-nec",
+        "intestinal-permeability",
         "bacterial-contamination-hypothesis",
+        "endometriosis",
         "khan-2018-bacterial-contamination-hypothesis-endometriosis",
         "fusobacterium-nucleatum",
+        "colorectal-cancer",
         "appunni-2021-dietary-factors-gut-microbiome-crc",
         "alpha-synuclein",
         "parkinsons-disease",
-        "bacteroides-fragilis",
-        "davis-richardson-2015-bacteroides-dorei-t1d-model",
-        "butyrate",
-        "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
-        "nickel",
+        "perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain",
         "cadmium",
-        "necrotizing-enterocolitis",
-        "intestinal-permeability"
+        "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
+        "butyrate",
+        "gut-brain-axis",
+        "neuroinflammation",
+        "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
+        "endotoxemia",
+        "systemic-inflammation",
+        "proteobacteria",
+        "microglia",
+        "nickel-allergy"
       ],
       "sourceDir": "concepts",
-      "sourceCount": 8,
+      "sourceCount": 9,
       "threshold": 3,
       "belowThreshold": false,
       "isStub": false,
@@ -117036,49 +117048,72 @@
         "anxiety",
         "bacteroides",
         "barretts-esophagus",
+        "cadmium",
+        "chromium",
         "chronic-fatigue-syndrome",
+        "chronic-kidney-disease",
+        "colorectal-cancer",
+        "depression",
         "diabetic-kidney-disease",
+        "enterobacteriaceae",
         "epilepsy",
+        "mercury",
+        "necrotizing-enterocolitis",
+        "nickel",
+        "obesity",
         "pancreatitis",
+        "peptostreptococcus-anaerobius",
+        "proteobacteria",
         "psoriasis",
+        "bacterial-contamination-hypothesis",
+        "dysbiosis",
+        "gut-brain-axis",
+        "gut-microbiome",
         "gut-penis-axis",
         "gut-thyroid-axis",
+        "inflammation",
+        "interleukin-6",
+        "intestinal-permeability",
+        "neuroinflammation",
+        "nf-kappa-b",
         "nlrp3-inflammasome",
+        "short-chain-fatty-acids",
+        "tight-junctions",
         "toll-like-receptors",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
           "id": "dysbiosis",
-          "score": 25
-        },
-        {
-          "id": "toll-like-receptors",
-          "score": 20
+          "score": 65
         },
         {
           "id": "gut-microbiome",
-          "score": 19
+          "score": 43
         },
         {
-          "id": "nickel-allergy",
-          "score": 12
+          "id": "oxidative-stress",
+          "score": 41
+        },
+        {
+          "id": "heavy-metals",
+          "score": 35
+        },
+        {
+          "id": "faecalibacterium-prausnitzii",
+          "score": 32
+        },
+        {
+          "id": "tight-junctions",
+          "score": 31
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 12
+          "score": 30
         },
         {
-          "id": "depression",
-          "score": 12
-        },
-        {
-          "id": "type-1-diabetes",
-          "score": 12
-        },
-        {
-          "id": "lipopolysaccharide",
-          "score": 11
+          "id": "escherichia-coli",
+          "score": 28
         }
       ]
     },
@@ -117606,17 +117641,17 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Toll-like receptors (TLRs) are a family of pattern recognition receptors (PRRs) that form the front line of the innate immune system. They detect conserved molecular patterns from microbes -- pathogen-associated molecular patterns (PAMPs) -- and damage-associated molecular patterns (DAMPs) from injured host tissue. In the gut, TLRs are the molecular interface between the microbiome and the immune system, continuously sampling luminal contents and calibrating inflammatory responses.\n\nWhat makes TLRs distinctive in the WikiBiome framework is their dual role as microbe sensors and metal responders. Nickel directly activates TLR4 in a human-specific manner, and metal-induced tissue damage generates DAMPs that trigger TLR signaling. This positions TLRs at the intersection of metallomics, microbiology, and immunology."
+          "body": "Toll-like receptors (TLRs) are a family of pattern recognition receptors (PRRs) that form the front line of the innate immune system. They detect conserved molecular patterns from microbes -- pathogen-associated molecular patterns (PAMPs) -- and damage-associated molecular patterns (DAMPs) from injured host tissue. In the gut, TLRs are the molecular interface between the microbiome and the immune system, continuously sampling luminal contents and calibrating inflammatory responses.\n\nWhat makes TLRs distinctive in the WikiBiome framework is their dual role as microbe sensors and metal responders. Nickel directly activates [[tlr4|TLR4]] in a human-specific manner, and metal-induced tissue damage generates DAMPs that trigger TLR signaling. This positions TLRs at the intersection of metallomics, microbiology, and immunology."
         },
         {
           "heading": "The TLR Family",
           "level": 2,
-          "body": "| Receptor | Location | Ligand | Microbial Source | Metal Connection |\n|----------|----------|--------|-----------------|-----------------|\n| TLR1/2 | Cell surface | Triacyl lipopeptides | Gram-positive bacteria | -- |\n| TLR2 | Cell surface | Lipoteichoic acid, zymosan | Gram-positives, fungi | Barrier integrity in esophageal [[dysbiosis]] [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]] |\n| TLR3 | Endosomal | dsRNA | Viruses | -- |\n| [[tlr4|TLR4]] | Cell surface | LPS | Gram-negative bacteria | Nickel direct activation (human-specific) [[ahlstrom-2019-nickel-allergy-review]] |\n| TLR5 | Cell surface | Flagellin | Motile bacteria | -- |\n| TLR7/8 | Endosomal | ssRNA | Viruses | -- |\n| TLR9 | Endosomal | CpG DNA | Bacteria, viruses | -- |"
+          "body": "| Receptor | Location | Ligand | Microbial Source | Metal Connection |\n|----------|----------|--------|-----------------|-----------------|\n| TLR1/2 | Cell surface | Triacyl lipopeptides | Gram-positive bacteria | -- |\n| TLR2 | Cell surface | Lipoteichoic acid, zymosan | Gram-positives, fungi | Barrier integrity in esophageal [[dysbiosis]] [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]] |\n| TLR3 | Endosomal | dsRNA | Viruses | -- |\n| TLR4 | Cell surface | LPS | Gram-negative bacteria | Nickel direct activation (human-specific) [[ahlstrom-2019-nickel-allergy-review]] |\n| TLR5 | Cell surface | Flagellin | Motile bacteria | -- |\n| TLR7/8 | Endosomal | ssRNA | Viruses | -- |\n| TLR9 | Endosomal | CpG DNA | Bacteria, viruses | -- |"
         },
         {
           "heading": "TLR4: The Metal-Responsive Sentinel",
           "level": 2,
-          "body": "TLR4 is covered in depth on its own page ([[tlr4]]), but its significance warrants summary here. TLR4 is the primary receptor for bacterial lipopolysaccharide (LPS) and is directly activated by nickel through [[histidine]] residues (H456, H458) unique to the human receptor [[ahlstrom-2019-nickel-allergy-review]]. This means:\n\n- Dietary nickel can trigger innate immune activation without any microbial involvement\n- Mouse models fail to recapitulate nickel-driven [[inflammation]] because murine TLR4 lacks these histidine residues\n- Nickel allergy (affecting ~15% of humans) is fundamentally a TLR4-mediated response\n- The combination of nickel exposure and Gram-negative dysbiosis (LPS source) creates additive TLR4 activation"
+          "body": "TLR4 is covered in depth on its own page, but its significance warrants summary here. TLR4 is the canonical receptor for many forms of bacterial lipopolysaccharide (LPS) and is directly activated by nickel through [[histidine]] residues (H456, H458) unique to the human receptor [[ahlstrom-2019-nickel-allergy-review]]. This means:\n\n- Dietary nickel can trigger innate immune activation without any microbial involvement\n- Mouse models fail to recapitulate nickel-driven [[inflammation]] because murine TLR4 lacks these histidine residues\n- Nickel allergy (affecting ~15% of humans) is fundamentally a TLR4-mediated response\n- The combination of nickel exposure and Gram-negative dysbiosis (LPS source) creates additive TLR4 activation"
         },
         {
           "heading": "TLR2: Barrier Integrity and Esophageal Dysbiosis",
@@ -117661,13 +117696,13 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[tlr4]] -- detailed TLR4 biology and disease connections\n- [[nickel-allergy]] -- TLR4-mediated contact allergy\n- [[neuroinflammation]] -- TLR-driven brain inflammation\n- [[bacterial-contamination-hypothesis]] -- TLR4/LPS in endometriosis\n- inflammation -- NF-kB as convergence node\n- [[alpha-synuclein]] -- TLR4 ligand in neurodegeneration"
+          "body": "- TLR4 -- detailed receptor biology and disease connections\n- [[nickel-allergy]] -- TLR4-mediated contact allergy\n- [[neuroinflammation]] -- TLR-driven brain inflammation\n- [[bacterial-contamination-hypothesis]] -- TLR4/LPS in endometriosis\n- inflammation -- NF-kB as convergence node\n- [[alpha-synuclein]] -- TLR4 ligand in neurodegeneration"
         }
       ],
       "wikilinks": [
+        "tlr4",
         "dysbiosis",
         "chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd",
-        "tlr4",
         "ahlstrom-2019-nickel-allergy-review",
         "histidine",
         "inflammation",
@@ -117695,15 +117730,20 @@
         "endotoxemia",
         "innate-immunity",
         "peptidoglycan",
+        "tlr4",
         "broken-links-2026-04-16"
       ],
       "related": [
+        {
+          "id": "lipopolysaccharide",
+          "score": 16
+        },
         {
           "id": "interleukin-6",
           "score": 14
         },
         {
-          "id": "lipopolysaccharide",
+          "id": "microglia",
           "score": 14
         },
         {
@@ -117711,20 +117751,16 @@
           "score": 13
         },
         {
-          "id": "microglia",
-          "score": 12
+          "id": "intestinal-permeability",
+          "score": 13
+        },
+        {
+          "id": "nf-kappa-b",
+          "score": 13
         },
         {
           "id": "nutritional-immunity",
           "score": 12
-        },
-        {
-          "id": "intestinal-permeability",
-          "score": 11
-        },
-        {
-          "id": "nf-kappa-b",
-          "score": 11
         },
         {
           "id": "ibs",
@@ -122384,7 +122420,6 @@
         "necrotizing-enterocolitis",
         "heavy-metal-neurotoxicity",
         "metabolomics",
-        "tlr4",
         "epilepsy-signature",
         "necrotizing-enterocolitis-signature",
         "dietary-fiber-probiotics-cp-constipation"
@@ -122403,15 +122438,7 @@
           "score": 12
         },
         {
-          "id": "inflammation",
-          "score": 12
-        },
-        {
           "id": "kynurenine",
-          "score": 11
-        },
-        {
-          "id": "parkinsons-disease",
           "score": 11
         },
         {
@@ -122419,8 +122446,16 @@
           "score": 11
         },
         {
-          "id": "parkinsons-disease",
+          "id": "serotonin",
           "score": 10
+        },
+        {
+          "id": "inflammation",
+          "score": 10
+        },
+        {
+          "id": "depression",
+          "score": 9
         }
       ]
     },
@@ -123595,6 +123630,7 @@
         "ruminococcaceae",
         "short-chain-fatty-acids",
         "superoxide-dismutase",
+        "tlr4",
         "transferrin",
         "ursodeoxycholic-acid",
         "viral-microbiota",
@@ -123622,7 +123658,7 @@
       "related": [
         {
           "id": "inflammation",
-          "score": 138
+          "score": 140
         },
         {
           "id": "dysbiosis",
@@ -123634,7 +123670,7 @@
         },
         {
           "id": "butyrate",
-          "score": 93
+          "score": 95
         },
         {
           "id": "cardiovascular-disease",
@@ -123650,7 +123686,7 @@
         },
         {
           "id": "cadmium",
-          "score": 60
+          "score": 62
         }
       ]
     },
@@ -125227,6 +125263,7 @@
         "premenstrual-syndrome",
         "siderophores-metallophores",
         "tgf-beta",
+        "tlr4",
         "transferrin",
         "zinc-metalloprotease",
         "ovarian-cancer",
@@ -125263,7 +125300,7 @@
         },
         {
           "id": "inflammation",
-          "score": 92
+          "score": 94
         },
         {
           "id": "gut-microbiome",
@@ -125271,19 +125308,19 @@
         },
         {
           "id": "nickel",
-          "score": 66
+          "score": 68
         },
         {
           "id": "butyrate",
-          "score": 66
+          "score": 68
+        },
+        {
+          "id": "cadmium",
+          "score": 62
         },
         {
           "id": "iron",
           "score": 62
-        },
-        {
-          "id": "cadmium",
-          "score": 60
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -131003,7 +131040,7 @@
         },
         {
           "id": "gut-brain-axis",
-          "score": 53
+          "score": 55
         },
         {
           "id": "cadmium",
@@ -145276,11 +145313,7 @@
           "score": 7
         },
         {
-          "id": "stop-broad-spectrum-antibiotics-pre-nec",
-          "score": 6
-        },
-        {
-          "id": "stop-formula-feeding-without-supplementation-nec",
+          "id": "tlr4",
           "score": 6
         },
         {
@@ -145289,6 +145322,10 @@
         },
         {
           "id": "stop-formula-feeding-without-supplementation-nec",
+          "score": 6
+        },
+        {
+          "id": "stop-broad-spectrum-antibiotics-pre-nec",
           "score": 6
         }
       ]
@@ -162788,15 +162825,15 @@
           "score": 4
         },
         {
+          "id": "bacillus",
+          "score": 2
+        },
+        {
           "id": "bacteroides",
           "score": 2
         },
         {
           "id": "bifidobacterium",
-          "score": 2
-        },
-        {
-          "id": "cerebral-palsy",
           "score": 2
         }
       ]
@@ -167434,15 +167471,15 @@
           "score": 4
         },
         {
+          "id": "bacillus",
+          "score": 2
+        },
+        {
           "id": "bacteroides",
           "score": 2
         },
         {
           "id": "bifidobacterium",
-          "score": 2
-        },
-        {
-          "id": "cerebral-palsy",
           "score": 2
         }
       ]
@@ -180033,12 +180070,12 @@
         {
           "heading": "Internal wikilink audit",
           "level": 2,
-          "body": "- Files scanned: 2711\n- Wikilinks found: 39985\n- Broken targets (unique file/target pairs): 286"
+          "body": "- Files scanned: 2710\n- Wikilinks found: 39956\n- Broken targets (unique file/target pairs): 235"
         },
         {
           "heading": "Top 50 broken wikilink targets",
           "level": 3,
-          "body": "| Target | Incoming count | Example files |\n|---|---|---|\n| `[[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid]]` | 6 | entities/escherichia-coli.md, entities/klebsiella-pneumoniae.md, entities/long-covid.md |\n| `[[interkingdom-relationships]]` | 6 | analyses/link-health-2026-04-19.md, sources/ding-2025-mycobiome-human-cancer-mechanisms-therapeutics.md, sources/fungal-dysbiosis-2026-pregnancy-gdm-reference.md |\n| `[[akkermansia-mucinicola]]` | 5 | analyses/gaps-and-improvements-2026-04-12.md, analyses/health-check-2026-04-14.md, analyses/lint-report-2026-04-12.md |\n| `[[prostate-cancer]]` | 4 | entities/propionibacterium.md, sources/cao-2024-gut-microbiome-preventive-therapeutic-prostatic-disease.md, sources/magri-2018-multidisciplinary-prostatitis.md |\n| `[[bile-acids]]` | 3 | entities/necrotizing-enterocolitis.md, analyses/lint-report-2026-04-21.md, sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md |\n| `[[note-evaluation-risk-ptes-italy-fish-products]]` | 3 | entities/nickel.md, analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[candida-auris]]` | 3 | analyses/gaps-and-improvements-2026-04-13.md, analyses/lint-report-2026-04-12.md, analyses/lint-report-2026-04-13.md |\n| `[[oral-gut-axis]]` | 3 | analyses/link-health-2026-04-19.md, sources/16s-rrna-t2d-subgingival-plaque-microbiota.md, sources/periodontitis-t2d-microbial-biomarkers.md |\n| `[[wikilink]]` | 3 | analyses/lint-report-2026-04-19.md, analyses/lint-report-2026-04-26.md, analyses/lint-report-2026-05-03.md |\n| `[[blood-testis-barrier]]` | 3 | sources/cai-2022-gut-microbiota-male-reproduction.md, sources/kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility.md, sources/lv-2024-gut-microbiota-male-reproductive-function-review.md |\n| `[[vaginal-microbiome]]` | 3 | sources/daungsupawong-2024-ai-drug-repurposing-chronic-vaginitis.md, sources/ser-2023-current-updates-microbiome-endometriosis-review.md, sources/yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics.md |\n| `[[neisseria]]` | 3 | sources/docimo-2020-human-microbiota-endocrinology-thyroid.md, sources/hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis.md, sources/kun-2023-microbiota-thyroid-cancer.md |\n| `[[diabetes]]` | 3 | sources/kouidrat-2017-erectile-dysfunction-diabetes.md, sources/nabeh-2024-diabetes-pms-gut-microbiome-review.md, sources/shamloul-2013-erectile-dysfunction-seminar.md |\n| `[[akkermansia]]` | 3 | sources/latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet.md, sources/ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice.md, sources/ser-2023-current-updates-microbiome-endometriosis-review.md |\n| `[[scfa]]` | 3 | sources/minerbi-2020-gut-microbiome-pertinence-fibromyalgia-review.md, sources/yu-2025-microbiota-gut-brain-perimenopausal-depression.md, sources/zhao-2025-gut-microbiota-pain-sensitization-review.md |\n| `[[equol]]` | 2 | entities/adlercreutzia.md, entities/gordonibacter.md |\n| `[[bacterial-translocation]]` | 2 | entities/alishewanella.md, entities/sphingobium.md |\n| `[[ke2022-microbiome-covid-metagenome-genomes]]` | 2 | entities/long-covid.md, signatures/long-covid-signature.md |\n| `[[prostatitis]]` | 2 | entities/trichomonas-vaginalis.md, concepts/gut-prostate-axis.md |\n| `[[stop-unrestricted-plant-diet-advanced-ckd]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[stop-probiotics-alone-uremic-toxins-ckd]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[faecalibacterium-hominis-4p15]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[karen-pendergrass]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[zinc-endometriosis-2024]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[lactoferrin-genital-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[endo-vaginal-microbiota-glycome]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[altered-microbiota-ovarian-endometrioma-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[antibiotics-metronidazole-endo-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[associations-endo-gut-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[fecal-metabolomics-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[effect-endo-fecal-bacteriota-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[endo-induces-gut-alterations-2018]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[gut-imbalance-hormone-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[inflammatory-cytokines-peritoneal-2018]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[microbiome-deep-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[microbiome-lower-genital-chinese]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[microbiota-composition-distribution-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[molecular-intrauterine-colonization-2016]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[gut-dysbiosis-treg-th17-graves-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[graves-targeted-therapy-2025]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[graves-ibd-mendelian-2023]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[graves-ra-mendelian-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[antonelli-2016-graves-epidemiology]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[uncovering-causal-gut-thyroid-2024]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[maciejewski-2025-trace-elements-thyroid]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[yao-2023-oral-gut-thyroid-cancer]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[selenium-thyroid-autoimmunity-2015]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[abraham-2005-drug-therapy-graves]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[preliminary-flora-changes-graves-2022]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |\n| `[[berberine-methimazole-graves-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |"
+          "body": "| Target | Incoming count | Example files |\n|---|---|---|\n| `[[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid]]` | 6 | entities/escherichia-coli.md, entities/klebsiella-pneumoniae.md, entities/long-covid.md |\n| `[[akkermansia-mucinicola]]` | 5 | analyses/gaps-and-improvements-2026-04-12.md, analyses/health-check-2026-04-14.md, analyses/lint-report-2026-04-12.md |\n| `[[interkingdom-relationships]]` | 5 | sources/ding-2025-mycobiome-human-cancer-mechanisms-therapeutics.md, sources/fungal-dysbiosis-2026-pregnancy-gdm-reference.md, sources/hu-2021-glp2-sbs-bacterial-fungal-dysbiosis.md |\n| `[[prostate-cancer]]` | 4 | entities/propionibacterium.md, sources/cao-2024-gut-microbiome-preventive-therapeutic-prostatic-disease.md, sources/magri-2018-multidisciplinary-prostatitis.md |\n| `[[candida-auris]]` | 3 | analyses/gaps-and-improvements-2026-04-13.md, analyses/lint-report-2026-04-12.md, analyses/lint-report-2026-04-13.md |\n| `[[wikilink]]` | 3 | analyses/lint-report-2026-04-19.md, analyses/lint-report-2026-04-26.md, analyses/lint-report-2026-05-03.md |\n| `[[blood-testis-barrier]]` | 3 | sources/cai-2022-gut-microbiota-male-reproduction.md, sources/kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility.md, sources/lv-2024-gut-microbiota-male-reproductive-function-review.md |\n| `[[vaginal-microbiome]]` | 3 | sources/daungsupawong-2024-ai-drug-repurposing-chronic-vaginitis.md, sources/ser-2023-current-updates-microbiome-endometriosis-review.md, sources/yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics.md |\n| `[[neisseria]]` | 3 | sources/docimo-2020-human-microbiota-endocrinology-thyroid.md, sources/hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis.md, sources/kun-2023-microbiota-thyroid-cancer.md |\n| `[[diabetes]]` | 3 | sources/kouidrat-2017-erectile-dysfunction-diabetes.md, sources/nabeh-2024-diabetes-pms-gut-microbiome-review.md, sources/shamloul-2013-erectile-dysfunction-seminar.md |\n| `[[akkermansia]]` | 3 | sources/latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet.md, sources/ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice.md, sources/ser-2023-current-updates-microbiome-endometriosis-review.md |\n| `[[scfa]]` | 3 | sources/minerbi-2020-gut-microbiome-pertinence-fibromyalgia-review.md, sources/yu-2025-microbiota-gut-brain-perimenopausal-depression.md, sources/zhao-2025-gut-microbiota-pain-sensitization-review.md |\n| `[[equol]]` | 2 | entities/adlercreutzia.md, entities/gordonibacter.md |\n| `[[bacterial-translocation]]` | 2 | entities/alishewanella.md, entities/sphingobium.md |\n| `[[ke2022-microbiome-covid-metagenome-genomes]]` | 2 | entities/long-covid.md, signatures/long-covid-signature.md |\n| `[[prostatitis]]` | 2 | entities/trichomonas-vaginalis.md, concepts/gut-prostate-axis.md |\n| `[[bile-acids]]` | 2 | analyses/lint-report-2026-04-21.md, sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md |\n| `[[oral-gut-axis]]` | 2 | sources/16s-rrna-t2d-subgingival-plaque-microbiota.md, sources/periodontitis-t2d-microbial-biomarkers.md |\n| `[[reproductive-tract-microbiome]]` | 2 | sources/ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis.md, sources/guo-2024-viral-infections-semen-infertility.md |\n| `[[propionibacterium-acnes]]` | 2 | sources/bautista-2025-reprogramming-prostate-cancer-microbiome.md, sources/javurek-2016-seminal-fluid-microbiome-esr1.md |\n| `[[oscillospira]]` | 2 | sources/chen-2024-gut-microbiota-six-thyroid-diseases-mr.md, sources/svensson-2021-associations-endometriosis-gut-microbiota.md |\n| `[[cobalamin]]` | 2 | sources/chen-2025-blood-metabolites-mediators-erectile-dysfunction-proteomics.md, sources/maes-2026-shotgun-metagenomics-mdd-nimetox.md |\n| `[[neurosteroids]]` | 2 | sources/gao-2023-allopregnanolone-gaba-receptor-pmdd.md, sources/nguyen-2017-steroid-metabolome-pmdd-gnrh-suppression.md |\n| `[[anaerobutyricum-hallii]]` | 2 | sources/griffith-2026-lifestyle-probiotic-t2d-testosterone-case-report.md, sources/maes-2026-shotgun-metagenomics-mdd-nimetox.md |\n| `[[helicobacter]]` | 2 | sources/jin-2023-3hpaa-spermatogenesis-ferroptosis.md, sources/ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice.md |\n| `[[mucosal-immunity]]` | 2 | sources/lingasamy-2024-immunome-microbiome-reproductive-health.md, sources/ughade-2024-genital-dysbiosis-fertility-review.md |\n| `[[dietary-patterns]]` | 2 | sources/shi-2024-dietary-patterns-premenstrual-disorders-china.md, sources/silva-2022-anti-inflammatory-low-fodmap-fibromyalgia-rct.md |\n| `[[lipopolysaccharides]]` | 2 | sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md, sources/wu-2025-high-fat-diet-gut-microbiota-precocious-puberty.md |\n| `[[gut-immune-axis]]` | 2 | sources/yang-2023-childhood-asthma-allergy-premenstrual-disorders.md, sources/yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice.md |\n| `[[tlr4-nf-kb]]` | 2 | sources/yu-2025-microbiota-gut-brain-perimenopausal-depression.md, sources/zhao-2025-gut-microbiota-pain-sensitization-review.md |\n| `[[cervical-cancer]]` | 1 | entities/anaerococcus.md |\n| `[[cervical-microbiome]]` | 1 | entities/flavobacterium.md |\n| `[[vaginolysin]]` | 1 | entities/gardnerella-vaginalis.md |\n| `[[heart-failure]]` | 1 | entities/megamonas.md |\n| `[[adenomyosis]]` | 1 | entities/staphylococcus-epidermidis.md |\n| `[[gut-barrier]]` | 1 | concepts/aspirin.md |\n| `[[adiponectin]]` | 1 | concepts/leptin.md |\n| `[[listeria-monocytogenes]]` | 1 | concepts/metal-resistance-genes.md |\n| `[[male-infertility]]` | 1 | concepts/semen-microbiome.md |\n| `[[romboutsia]]` | 1 | signatures/pancreatic-cancer-signature.md |\n| `[[kravchenko-2023-thyroid-hormones-minerals-aitd]]` | 1 | stops/stop-iron-supplementation-graves.md |\n| `[[eubacterium-rectale]]` | 1 | analyses/broken-links-2026-04-16.md |\n| `[[stop-unrestricted-plant-diet-advanced-ckd]]` | 1 | analyses/broken-links-2026-04-16.md |\n| `[[stop-probiotics-alone-uremic-toxins-ckd]]` | 1 | analyses/broken-links-2026-04-16.md |\n| `[[faecalibacterium-hominis-4p15]]` | 1 | analyses/broken-links-2026-04-16.md |\n| `[[karen-pendergrass]]` | 1 | analyses/broken-links-2026-04-16.md |\n| `[[zinc-endometriosis-2024]]` | 1 | analyses/broken-links-2026-04-16.md |\n| `[[lactoferrin-genital-2019]]` | 1 | analyses/broken-links-2026-04-16.md |\n| `[[endo-vaginal-microbiota-glycome]]` | 1 | analyses/broken-links-2026-04-16.md |\n| `[[altered-microbiota-ovarian-endometrioma-2021]]` | 1 | analyses/broken-links-2026-04-16.md |"
         },
         {
           "heading": "How to act on this report",
@@ -180053,13 +180090,10 @@
       ],
       "wikilinks": [
         "bernard-raichon2022-dysbiosis-translocation-bacteremia-covid",
-        "interkingdom-relationships",
         "akkermansia-mucinicola",
+        "interkingdom-relationships",
         "prostate-cancer",
-        "bile-acids",
-        "note-evaluation-risk-ptes-italy-fish-products",
         "candida-auris",
-        "oral-gut-axis",
         "wikilink",
         "blood-testis-barrier",
         "vaginal-microbiome",
@@ -180071,6 +180105,32 @@
         "bacterial-translocation",
         "ke2022-microbiome-covid-metagenome-genomes",
         "prostatitis",
+        "bile-acids",
+        "oral-gut-axis",
+        "reproductive-tract-microbiome",
+        "propionibacterium-acnes",
+        "oscillospira",
+        "cobalamin",
+        "neurosteroids",
+        "anaerobutyricum-hallii",
+        "helicobacter",
+        "mucosal-immunity",
+        "dietary-patterns",
+        "lipopolysaccharides",
+        "gut-immune-axis",
+        "tlr4-nf-kb",
+        "cervical-cancer",
+        "cervical-microbiome",
+        "vaginolysin",
+        "heart-failure",
+        "adenomyosis",
+        "gut-barrier",
+        "adiponectin",
+        "listeria-monocytogenes",
+        "male-infertility",
+        "romboutsia",
+        "kravchenko-2023-thyroid-hormones-minerals-aitd",
+        "eubacterium-rectale",
         "stop-unrestricted-plant-diet-advanced-ckd",
         "stop-probiotics-alone-uremic-toxins-ckd",
         "faecalibacterium-hominis-4p15",
@@ -180078,30 +180138,7 @@
         "zinc-endometriosis-2024",
         "lactoferrin-genital-2019",
         "endo-vaginal-microbiota-glycome",
-        "altered-microbiota-ovarian-endometrioma-2021",
-        "antibiotics-metronidazole-endo-2019",
-        "associations-endo-gut-2020",
-        "fecal-metabolomics-endo-2020",
-        "effect-endo-fecal-bacteriota-2019",
-        "endo-induces-gut-alterations-2018",
-        "gut-imbalance-hormone-endo-2020",
-        "inflammatory-cytokines-peritoneal-2018",
-        "microbiome-deep-endo-2020",
-        "microbiome-lower-genital-chinese",
-        "microbiota-composition-distribution-2020",
-        "molecular-intrauterine-colonization-2016",
-        "gut-dysbiosis-treg-th17-graves-2020",
-        "graves-targeted-therapy-2025",
-        "graves-ibd-mendelian-2023",
-        "graves-ra-mendelian-2021",
-        "antonelli-2016-graves-epidemiology",
-        "uncovering-causal-gut-thyroid-2024",
-        "maciejewski-2025-trace-elements-thyroid",
-        "yao-2023-oral-gut-thyroid-cancer",
-        "selenium-thyroid-autoimmunity-2015",
-        "abraham-2005-drug-therapy-graves",
-        "preliminary-flora-changes-graves-2022",
-        "berberine-methimazole-graves-2021"
+        "altered-microbiota-ovarian-endometrioma-2021"
       ],
       "sourceDir": "analyses",
       "sourceCount": 0,
@@ -187666,7 +187703,7 @@
         "id": "tlr4",
         "label": "TLR4",
         "category": "mechanism",
-        "sourceCount": 8
+        "sourceCount": 9
       },
       {
         "id": "tmao",
@@ -192204,6 +192241,10 @@
       },
       {
         "source": "cadmium",
+        "target": "tlr4"
+      },
+      {
+        "source": "cadmium",
         "target": "heavy-metals"
       },
       {
@@ -193052,6 +193093,10 @@
       },
       {
         "source": "chromium",
+        "target": "tlr4"
+      },
+      {
+        "source": "chromium",
         "target": "oxidative-stress"
       },
       {
@@ -193221,6 +193266,10 @@
       {
         "source": "chronic-kidney-disease",
         "target": "alpha-klotho"
+      },
+      {
+        "source": "chronic-kidney-disease",
+        "target": "tlr4"
       },
       {
         "source": "chronic-kidney-disease",
@@ -193837,6 +193886,10 @@
       {
         "source": "colorectal-cancer",
         "target": "nickel"
+      },
+      {
+        "source": "colorectal-cancer",
+        "target": "tlr4"
       },
       {
         "source": "colorectal-cancer",
@@ -194481,6 +194534,10 @@
       {
         "source": "depression",
         "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "depression",
+        "target": "tlr4"
       },
       {
         "source": "depression",
@@ -195361,6 +195418,10 @@
       {
         "source": "enterobacteriaceae",
         "target": "hydrogenase"
+      },
+      {
+        "source": "enterobacteriaceae",
+        "target": "tlr4"
       },
       {
         "source": "enterobacteriaceae",
@@ -199208,6 +199269,10 @@
       },
       {
         "source": "mercury",
+        "target": "tlr4"
+      },
+      {
+        "source": "mercury",
         "target": "oxidative-stress"
       },
       {
@@ -199796,6 +199861,10 @@
       },
       {
         "source": "necrotizing-enterocolitis",
+        "target": "tlr4"
+      },
+      {
+        "source": "necrotizing-enterocolitis",
         "target": "dysbiosis"
       },
       {
@@ -199848,7 +199917,15 @@
       },
       {
         "source": "necrotizing-enterocolitis",
+        "target": "bacillus"
+      },
+      {
+        "source": "necrotizing-enterocolitis",
         "target": "sphingomonas"
+      },
+      {
+        "source": "necrotizing-enterocolitis",
+        "target": "bile-acid-metabolism"
       },
       {
         "source": "neisseria-meningitidis",
@@ -199969,6 +200046,10 @@
       {
         "source": "nickel",
         "target": "oxidative-stress"
+      },
+      {
+        "source": "nickel",
+        "target": "tlr4"
       },
       {
         "source": "nickel",
@@ -200177,6 +200258,10 @@
       {
         "source": "obesity",
         "target": "oscillospiraceae"
+      },
+      {
+        "source": "obesity",
+        "target": "tlr4"
       },
       {
         "source": "obesity",
@@ -201172,6 +201257,10 @@
       },
       {
         "source": "peptostreptococcus-anaerobius",
+        "target": "tlr4"
+      },
+      {
+        "source": "peptostreptococcus-anaerobius",
         "target": "parvimonas"
       },
       {
@@ -202085,6 +202174,10 @@
       {
         "source": "proteobacteria",
         "target": "lactoferrin"
+      },
+      {
+        "source": "proteobacteria",
+        "target": "tlr4"
       },
       {
         "source": "proteobacteria",
@@ -205808,6 +205901,10 @@
       },
       {
         "source": "bacterial-contamination-hypothesis",
+        "target": "tlr4"
+      },
+      {
+        "source": "bacterial-contamination-hypothesis",
         "target": "inflammation"
       },
       {
@@ -207696,6 +207793,10 @@
       },
       {
         "source": "dysbiosis",
+        "target": "tlr4"
+      },
+      {
+        "source": "dysbiosis",
         "target": "nf-kappa-b"
       },
       {
@@ -209432,6 +209533,10 @@
       },
       {
         "source": "gut-brain-axis",
+        "target": "tlr4"
+      },
+      {
+        "source": "gut-brain-axis",
         "target": "nf-kappa-b"
       },
       {
@@ -209697,6 +209802,10 @@
       {
         "source": "gut-microbiome",
         "target": "butyrate"
+      },
+      {
+        "source": "gut-microbiome",
+        "target": "tlr4"
       },
       {
         "source": "gut-microbiome",
@@ -211304,6 +211413,10 @@
       },
       {
         "source": "inflammation",
+        "target": "tlr4"
+      },
+      {
+        "source": "inflammation",
         "target": "nlrp3-inflammasome"
       },
       {
@@ -211560,6 +211673,10 @@
       },
       {
         "source": "interleukin-6",
+        "target": "tlr4"
+      },
+      {
+        "source": "interleukin-6",
         "target": "zinc"
       },
       {
@@ -211653,6 +211770,10 @@
       {
         "source": "intestinal-permeability",
         "target": "nf-kappa-b"
+      },
+      {
+        "source": "intestinal-permeability",
+        "target": "tlr4"
       },
       {
         "source": "intestinal-permeability",
@@ -213700,6 +213821,10 @@
       },
       {
         "source": "neuroinflammation",
+        "target": "tlr4"
+      },
+      {
+        "source": "neuroinflammation",
         "target": "nf-kappa-b"
       },
       {
@@ -213729,6 +213854,10 @@
       {
         "source": "nf-kappa-b",
         "target": "arsenic"
+      },
+      {
+        "source": "nf-kappa-b",
+        "target": "tlr4"
       },
       {
         "source": "nf-kappa-b",
@@ -215560,6 +215689,10 @@
       },
       {
         "source": "short-chain-fatty-acids",
+        "target": "tlr4"
+      },
+      {
+        "source": "short-chain-fatty-acids",
         "target": "nf-kappa-b"
       },
       {
@@ -216508,6 +216641,10 @@
       },
       {
         "source": "tight-junctions",
+        "target": "tlr4"
+      },
+      {
+        "source": "tight-junctions",
         "target": "interleukin-6"
       },
       {
@@ -216524,11 +216661,11 @@
       },
       {
         "source": "tlr4",
-        "target": "proteobacteria"
+        "target": "toll-like-receptors"
       },
       {
         "source": "tlr4",
-        "target": "inflammation"
+        "target": "lipopolysaccharide"
       },
       {
         "source": "tlr4",
@@ -216536,11 +216673,7 @@
       },
       {
         "source": "tlr4",
-        "target": "cerebral-palsy"
-      },
-      {
-        "source": "tlr4",
-        "target": "bacterial-contamination-hypothesis"
+        "target": "endometriosis"
       },
       {
         "source": "tlr4",
@@ -216556,27 +216689,23 @@
       },
       {
         "source": "tlr4",
-        "target": "bacteroides-fragilis"
-      },
-      {
-        "source": "tlr4",
         "target": "butyrate"
       },
       {
         "source": "tlr4",
-        "target": "nickel"
+        "target": "endotoxemia"
       },
       {
         "source": "tlr4",
-        "target": "cadmium"
+        "target": "systemic-inflammation"
       },
       {
         "source": "tlr4",
-        "target": "necrotizing-enterocolitis"
+        "target": "microglia"
       },
       {
         "source": "tlr4",
-        "target": "intestinal-permeability"
+        "target": "nickel-allergy"
       },
       {
         "source": "tmao",
@@ -216705,10 +216834,6 @@
       {
         "source": "toll-like-receptors",
         "target": "dysbiosis"
-      },
-      {
-        "source": "toll-like-receptors",
-        "target": "tlr4"
       },
       {
         "source": "toll-like-receptors",

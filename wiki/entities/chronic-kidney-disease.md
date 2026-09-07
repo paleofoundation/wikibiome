@@ -74,7 +74,7 @@ This bidirectional relationship is the defining metallomic feature of CKD:
 
 - [[alpha-klotho]] mediates the Hg-CKD association with 34.55% mediation proportion [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].
 - Mendelian randomization confirmed higher alpha-klotho levels causally associated with reduced CKD risk (OR 0.9842) [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].
-- Klotho functions: antioxidant enzyme regulation (SOD, CAT, GPX-4), TLR4 signaling suppression, NF-kappaB inhibition, autophagy promotion, Ca/vitamin D homeostasis [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].
+- Klotho functions discussed by the source include antioxidant enzyme regulation (SOD, CAT, GPX-4), [[tlr4|TLR4]] signaling suppression, NF-kappaB inhibition, autophagy promotion, and Ca/vitamin D homeostasis [[liu-2025-low-concentration-metals-ckd-alpha-klotho]].
 - DNA hypomethylation of the klotho promoter by TGF-beta drives fibrosis in CKD [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 
 ### Ferroptosis in Renal Tubular Cells

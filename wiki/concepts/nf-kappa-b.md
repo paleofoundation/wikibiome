@@ -46,7 +46,7 @@ Nuclear factor kappa-light-chain-enhancer of activated B cells (NF-kB) is a fami
 - NF-kB activation contributes to cadmium-induced renal inflammation and progressive nephron loss.
 
 ### Lead
-- Activates NF-kB in the CNS, contributing to neuroinflammation. LPS from Pb-induced gut [[dysbiosis]] further amplifies NF-kB signaling via TLR4 in microglia [[ahmed-2025-metals-alzheimers-mechanistic-review]].
+- Activates NF-kB in the CNS, contributing to neuroinflammation. LPS from Pb-induced gut [[dysbiosis]] may further amplify NF-kB signaling via [[tlr4|TLR4]] in microglia [[ahmed-2025-metals-alzheimers-mechanistic-review]].
 
 ### Mercury
 - Hg compounds activate NF-kB through thiol oxidation and ROS generation, driving autoimmune and inflammatory responses.

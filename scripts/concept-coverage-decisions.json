@@ -1221,6 +1221,44 @@
         }
       ]
     },
+    "backfill_links:tlr4": {
+      "state": "queued",
+      "rationale": "The TLR4 destination is being strengthened before wider linking so that canonical LPS recognition is distinguished from variable LPS agonism or antagonism, pathway activation is distinguished from direct receptor binding, human nickel sensing is separated from rodent metal-association experiments, and disease or intervention claims remain bounded by study design. This first batch is limited to the planner's highest-leverage passages whose prose explicitly invokes TLR4 as a receptor or named signaling pathway; later shorthand and lower-context mentions remain queued for review.",
+      "batches": [
+        {
+          "id": "2026-09-07-tlr4-high-leverage-contexts-01",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "peptostreptococcus-anaerobius",
+            "necrotizing-enterocolitis",
+            "toll-like-receptors",
+            "bacterial-contamination-hypothesis",
+            "dysbiosis",
+            "inflammation",
+            "gut-microbiome",
+            "nickel",
+            "cadmium",
+            "tight-junctions",
+            "short-chain-fatty-acids",
+            "colorectal-cancer",
+            "gut-brain-axis",
+            "chronic-kidney-disease",
+            "neuroinflammation",
+            "mercury",
+            "depression",
+            "intestinal-permeability",
+            "nf-kappa-b",
+            "obesity",
+            "enterobacteriaceae",
+            "proteobacteria",
+            "interleukin-6",
+            "chromium"
+          ]
+        }
+      ]
+    },
     "backfill_links:nickel-transporters": {
       "state": "queued",
       "rationale": "NiuBDE and NixA are better handled by the existing parent page than by creating fragmented protein stubs.",

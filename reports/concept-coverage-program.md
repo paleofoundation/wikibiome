@@ -1,6 +1,6 @@
 # WikiBiome concept coverage program
 
-Generated deterministically from corpus `c7fb392cfe3b`, catalog `3750202ce01e`, and decisions `44bda9dc987e`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
+Generated deterministically from corpus `3d4fdee7133f`, catalog `3750202ce01e`, and decisions `b5284074f4f1`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
 
 ## Summary
 
@@ -8,7 +8,7 @@ Generated deterministically from corpus `c7fb392cfe3b`, catalog `3750202ce01e`, 
 - 195 existing pages with contextual-link debt
 - 1 candidates held for evidence
 - 0 explicitly accepted jobs
-- 32 completed jobs recorded
+- 33 completed jobs recorded
 
 ## Active reviewed batch
 
@@ -34,6 +34,7 @@ _No explicitly accepted work is awaiting promotion._
 - `backfill_links:nlrp3-inflammasome#2026-09-07-core-nlrp3-contexts` — 2026-09-07 — targets: `dysbiosis`, `cadmium`, `zinc`, `inflammation`, `colorectal-cancer`, `gut-metal-microbiome`, `cardiovascular-disease`, `chronic-kidney-disease`, `neuroinflammation`, `hashimotos-thyroiditis`, `chromium`, `tmao`, `microglia`, `il-1beta`
 - `backfill_links:oxidative-stress#2026-09-07-corpus-wide-oxidative-stress-contexts` — 2026-09-07 — targets: `bacteriophages`, `cambialistic-enzymes`, `cuproptosis`, `cysteine`, `dysbiosis`, `dyshomeostasis`, `essential-oils`, `fenton-chemistry`, `ferritin`, `ferroptosis`, `functional-shielding`, `glutathione`, `glyoxalase`, `gut-brain-axis`, `gut-kidney-axis`, `gut-metal-microbiome`, `gut-microbiome`, `gut-penis-axis`, `gut-testis-axis`, `heavy-metal-neurotoxicity`, `histidine`, `hyperandrogenism`, `indoxyl-sulfate`, `inflammation`, `inter-kingdom-metal-shielding`, `intestinal-permeability`, `iron-sulfur-clusters`, `maternal-immune-activation`, `metabolomics`, `metal-dependent-virulence`, `metal-sensing`, `metalloestrogens`, `metallomics`, `metalloregulator`, `metallothionein`, `mis-metallation`, `n-acetyl-cysteine`, `neurodegeneration`, `nf-kappa-b`, `nickel-glyoxalase`, `nlrp3-inflammasome`, `nrf2`, `nutritional-immunity`, `pathogen-metal-acquisition`, `peptidoglycan`, `phenylalanine`, `propionic-acid`, `reactive-oxygen-species`, `riboswitch`, `testosterone`, `thyroid-autoimmunity`, `tight-junctions`, `virome`, `alternaria`, `aluminum`, `alzheimers-disease`, `antimony`, `bacillus`, `bacteroides-caccae`, `bifidobacterium-bifidum`, `bipolar-disorder`, `bismuth`, `breast-cancer`, `cadmium`, `candida-albicans`, `cardiovascular-disease`, `caulobacter`, `christensenellaceae`, `chromium`, `chronic-kidney-disease`, `clostridium-symbiosum`, `copper`, `corynebacterium`, `deinococcus`, `diabetic-kidney-disease`, `endometriosis`, `enterobacter-cloacae`, `enterococcus-faecalis`, `fibromyalgia`, `fusobacteriales`, `fusobacterium-nucleatum`, `gordonibacter-urolithinfaciens`, `helicobacter-hepaticus`, `huntingtons-disease`, `hypertension`, `inflammatory-bowel-disease`, `iron`, `lachnospiraceae-family`, `lactobacillus-crispatus`, `lactobacillus-iners`, `lactobacillus`, `lactococcus`, `lead`, `manganese`, `mercury`, `nakaseomyces-glabratus`, `necrotizing-enterocolitis`, `oscillibacter`, `oscillospirales`, `ovarian-cancer`, `parkinsons-disease`, `pcos`, `platinum`, `pmdd`, `porphyromonas`, `postpartum-depression`, `prevotella-intermedia`, `purpureocillium`, `rheumatoid-arthritis`, `rothia`, `saccharomyces-cerevisiae`, `saccharomyces`, `salmonella`, `schizophrenia`, `selenium`, `staphylococcus-aureus`, `staphylococcus`, `streptococcus-gallolyticus`, `streptococcus-mutans`, `streptococcus-pneumoniae`, `streptococcus`, `torulaspora`, `trichosporon-asahii`, `type-1-diabetes`
 - `backfill_links:tight-junctions#2026-09-07-corpus-wide-tight-junction-contexts` — 2026-09-07 — targets: `ahr`, `amyloid-beta-aggregation`, `amyloid-beta`, `autoimmunity`, `blood-brain-barrier`, `butyrate`, `colonization-resistance`, `cortisol`, `dysbiosis`, `edta`, `endotoxemia`, `epigenetic-modifications`, `epithelial-mesenchymal-transition`, `fecal-microbiota-transplant`, `fxr`, `gut-barrier-dysfunction`, `gut-kidney-axis`, `gut-metal-microbiome`, `gut-microbiome`, `gut-penis-axis`, `gut-thyroid-axis`, `heavy-metal-neurotoxicity`, `heavy-metals-infant-foods`, `hmos`, `indoles`, `infant-exposure`, `inflammation`, `intestinal-permeability`, `lipopolysaccharide`, `matrix-metalloproteases`, `metal-dependent-virulence`, `microbiome-derived-metabolites`, `neuroinflammation`, `parenteral-nutrition`, `polyphenols`, `prebiotics`, `probiotics`, `ruminococcaceae`, `short-chain-fatty-acids`, `tmao`, `toll-like-receptors`, `urease`, `zinc-metalloprotease`, `zonulin`, `akkermansia-muciniphila`, `alloprevotella`, `bacteroides-vulgatus`, `bifidobacterium-longum`, `breast-cancer`, `butyricicoccus`, `butyricimonas`, `cadmium`, `candida-albicans`, `cardiovascular-disease`, `celiac-disease`, `chromium`, `clostridia`, `clostridium-symbiosum`, `clostridium`, `collinsella`, `colorectal-cancer`, `coprococcus`, `crohns-disease`, `cryptococcus-neoformans`, `debaryomyces`, `depression`, `desulfovibrio`, `desulfovibrionales`, `eggerthella-lenta`, `eubacterium`, `faecalibacterium-prausnitzii`, `firmicutes`, `fusobacterium-nucleatum`, `fusobacterium-varium`, `gastric-adenocarcinoma`, `gastric-cancer`, `gastric-ulcer`, `gerd`, `hypertension`, `lactobacillus`, `lead`, `long-covid`, `necrotizing-enterocolitis`, `nickel`, `odoribacter`, `oscillospiraceae`, `parkinsons-disease`, `parvimonas-micra`, `porphyromonas-gingivalis`, `prevotella-copri`, `rheumatoid-arthritis`, `roseburia`, `ruminococcus-albus`, `saccharomyces-boulardii`, `saccharomyces-cerevisiae`, `saccharomyces`, `streptococcus-thermophilus`, `type-1-diabetes`, `type-2-diabetes`
+- `backfill_links:tlr4#2026-09-07-tlr4-high-leverage-contexts-01` — 2026-09-07 — targets: `peptostreptococcus-anaerobius`, `necrotizing-enterocolitis`, `toll-like-receptors`, `bacterial-contamination-hypothesis`, `dysbiosis`, `inflammation`, `gut-microbiome`, `nickel`, `cadmium`, `tight-junctions`, `short-chain-fatty-acids`, `colorectal-cancer`, `gut-brain-axis`, `chronic-kidney-disease`, `neuroinflammation`, `mercury`, `depression`, `intestinal-permeability`, `nf-kappa-b`, `obesity`, `enterobacteriaceae`, `proteobacteria`, `interleukin-6`, `chromium`
 - `backfill_links:urease#2026-09-07-extended-urease-contexts` — 2026-09-07 — targets: `siderophores-metallophores`, `environmental-metal-exposure`, `proteobacteria`, `gerd`, `alpha-synuclein`, `gut-microbiome`, `amyloid-beta`, `enterococcus`, `pathogen-metal-acquisition`, `gastric-ulcer`, `actinobacteria`, `gastric-adenocarcinoma`, `gastric-cancer`, `gut-kidney-axis`, `metal-sensing`, `hypoxia`, `infant-exposure`, `microbial-metallomics`, `histidine`, `uremic-toxins`, `virulence-factors`, `bismuth`, `rothia`
 - `backfill_links:urease#2026-09-07-high-leverage-urease-contexts` — 2026-09-07 — targets: `candida-albicans`, `proteus-mirabilis`, `ureaplasma`, `campylobacter-jejuni`, `mycobacterium-tuberculosis`, `nickel-transporters`, `ureaplasma-urealyticum`, `oxidative-stress`, `escherichia-coli`, `biofilm`, `staphylococcus-aureus`, `metal-dependent-virulence`, `inter-kingdom-metal-shielding`, `nutritional-immunity`, `dysbiosis`, `nickel`, `endometriosis`, `gut-metal-microbiome`, `mis-metallation`, `lactobacillus`, `calprotectin`, `parkinsons-disease`, `alzheimers-disease`, `enterobacteriaceae`
 - `backfill_links:urease#2026-09-07-long-tail-urease-contexts` — 2026-09-07 — targets: `ph-sensing`, `helicobacter-hepaticus`, `morganella-morganii`, `gene-regulation`, `staphylococcus`, `cirrhosis`, `dietary-metal-microbiome-interactions`, `hmos`, `dimethylglyoxime`, `streptococcus-salivarius`, `essential-oils`, `srna`
@@ -54,7 +55,7 @@ _No explicitly accepted work is awaiting promotion._
 | Score | Job | Term | State | Reader demand | Graph gain | Candidate sources |
 |---:|---|---|---|---:|---:|---:|
 | 76.74 | `create_page:gastritis` | Gastritis | queued | 10 articles | 45.6 | 10 |
-| 76.52 | `create_page:inducible-nitric-oxide-synthase` | Inducible nitric oxide synthase | queued | 13 articles | 67.6 | 14 |
+| 76.53 | `create_page:inducible-nitric-oxide-synthase` | Inducible nitric oxide synthase | queued | 13 articles | 67.7 | 14 |
 | 73.02 | `create_page:histamine` | Histamine | queued | 10 articles | 51.7 | 5 |
 | 49.01 | `create_page:urea-cycle` | Urea cycle | queued | 2 articles | 9.5 | 3 |
 
@@ -62,36 +63,36 @@ _No explicitly accepted work is awaiting promotion._
 
 | Score | Job | Term | State | Reader demand | Graph gain | Candidate sources |
 |---:|---|---|---|---:|---:|---:|
-| 92.50 | `backfill_links:tlr4` | TLR4 | queued | 68 unlinked / 76 mentioning | 313.1 | 87 |
-| 92.50 | `backfill_links:tryptophan` | Tryptophan | queued | 70 unlinked / 76 mentioning | 303.5 | 202 |
-| 92.50 | `backfill_links:acetate` | Acetate | queued | 70 unlinked / 70 mentioning | 290.4 | 105 |
+| 92.50 | `backfill_links:tryptophan` | Tryptophan | queued | 70 unlinked / 76 mentioning | 303.4 | 202 |
+| 92.50 | `backfill_links:acetate` | Acetate | queued | 70 unlinked / 70 mentioning | 290.2 | 105 |
 | 92.50 | `backfill_links:biofilm` | Biofilm | queued | 78 unlinked / 102 mentioning | 282.6 | 77 |
 | 92.50 | `backfill_links:biomarkers` | Biomarkers | queued | 51 unlinked / 65 mentioning | 244.4 | 278 |
 | 92.50 | `backfill_links:glutathione` | Glutathione (GSH) | queued | 50 unlinked / 64 mentioning | 238.3 | 84 |
 | 92.50 | `backfill_links:siderophores` | Siderophores | queued | 57 unlinked / 70 mentioning | 225.8 | 54 |
-| 92.50 | `backfill_links:metallomics` | Metallomics | queued | 59 unlinked / 87 mentioning | 224.7 | 80 |
-| 92.50 | `backfill_links:neurodegeneration` | Neurodegeneration and Metals | queued | 50 unlinked / 54 mentioning | 213.9 | 60 |
+| 92.50 | `backfill_links:metallomics` | Metallomics | queued | 59 unlinked / 87 mentioning | 225.1 | 80 |
+| 92.50 | `backfill_links:neurodegeneration` | Neurodegeneration and Metals | queued | 50 unlinked / 54 mentioning | 214.6 | 60 |
+| 92.50 | `backfill_links:probiotics` | Probiotics | queued | 55 unlinked / 75 mentioning | 210.5 | 417 |
 | 92.50 | `backfill_links:mendelian-randomization` | Mendelian Randomization | queued | 56 unlinked / 59 mentioning | 210.4 | 106 |
-| 92.50 | `backfill_links:probiotics` | Probiotics | queued | 55 unlinked / 75 mentioning | 209.9 | 417 |
-| 92.50 | `backfill_links:nutritional-immunity` | Nutritional Immunity (Metal Sequestration) | queued | 49 unlinked / 175 mentioning | 209.7 | 168 |
-| 92.50 | `backfill_links:bile-acid-metabolism` | Bile Acid Metabolism | queued | 47 unlinked / 66 mentioning | 176.5 | 104 |
+| 92.50 | `backfill_links:nutritional-immunity` | Nutritional Immunity (Metal Sequestration) | queued | 49 unlinked / 175 mentioning | 209.9 | 168 |
+| 92.50 | `backfill_links:bile-acid-metabolism` | Bile Acid Metabolism | queued | 47 unlinked / 67 mentioning | 176.5 | 104 |
 | 92.50 | `backfill_links:environmental-metal-exposure` | Environmental Metal Exposure | queued | 40 unlinked / 57 mentioning | 166.2 | 41 |
-| 92.50 | `backfill_links:intestinal-permeability` | Intestinal Permeability | queued | 34 unlinked / 61 mentioning | 133.1 | 110 |
+| 92.50 | `backfill_links:intestinal-permeability` | Intestinal Permeability | queued | 34 unlinked / 61 mentioning | 133.2 | 110 |
 | 92.50 | `backfill_links:ferroptosis` | Ferroptosis | queued | 17 unlinked / 62 mentioning | 92.0 | 81 |
-| 92.37 | `backfill_links:insulin-resistance` | Insulin Resistance | queued | 42 unlinked / 49 mentioning | 190.8 | 67 |
+| 92.37 | `backfill_links:insulin-resistance` | Insulin Resistance | queued | 42 unlinked / 49 mentioning | 191.1 | 67 |
 | 92.37 | `backfill_links:virulence-factors` | Virulence Factors | queued | 46 unlinked / 49 mentioning | 190.1 | 29 |
-| 92.37 | `backfill_links:fenton-chemistry` | Fenton Chemistry | queued | 38 unlinked / 49 mentioning | 178.3 | 48 |
+| 92.37 | `backfill_links:fenton-chemistry` | Fenton Chemistry | queued | 38 unlinked / 49 mentioning | 178.4 | 48 |
 | 92.37 | `backfill_links:superoxide-dismutase` | Superoxide Dismutase | queued | 39 unlinked / 49 mentioning | 148.7 | 42 |
 | 92.21 | `backfill_links:urea` | Urea | queued | 23 unlinked / 26 mentioning | 105.7 | 21 |
 | 92.11 | `backfill_links:metabolic-syndrome` | Metabolic Syndrome and Metal Exposure | queued | 36 unlinked / 47 mentioning | 118.0 | 94 |
 | 92.11 | `backfill_links:estrobolome` | Estrobolome | queued | 18 unlinked / 47 mentioning | 77.6 | 67 |
-| 91.70 | `backfill_links:indole` | Indole and Indole Derivatives | queued | 43 unlinked / 44 mentioning | 193.4 | 86 |
-| 91.56 | `backfill_links:atherosclerosis` | Atherosclerosis | queued | 34 unlinked / 43 mentioning | 146.2 | 71 |
-| 91.42 | `backfill_links:metal-homeostasis` | Metal Homeostasis | queued | 30 unlinked / 42 mentioning | 125.5 | 111 |
+| 91.70 | `backfill_links:indole` | Indole and Indole Derivatives | queued | 43 unlinked / 44 mentioning | 193.5 | 86 |
+| 91.56 | `backfill_links:atherosclerosis` | Atherosclerosis | queued | 34 unlinked / 43 mentioning | 146.4 | 71 |
+| 91.42 | `backfill_links:metal-homeostasis` | Metal Homeostasis | queued | 30 unlinked / 42 mentioning | 125.6 | 111 |
 | 90.96 | `backfill_links:dyshomeostasis` | Dyshomeostasis | queued | 37 unlinked / 39 mentioning | 194.5 | 61 |
 | 90.96 | `backfill_links:lipid-peroxidation` | Lipid Peroxidation | queued | 34 unlinked / 39 mentioning | 181.1 | 54 |
-| 90.63 | `backfill_links:mycobiome` | Mycobiome | queued | 32 unlinked / 37 mentioning | 98.2 | 69 |
+| 90.63 | `backfill_links:mycobiome` | Mycobiome | queued | 32 unlinked / 37 mentioning | 98.3 | 69 |
 | 90.45 | `backfill_links:dysbiosis` | Dysbiosis | queued | 2 unlinked / 327 mentioning | 10.5 | 915 |
+| 90.37 | `backfill_links:tryptophan-metabolism` | Tryptophan Metabolism | queued | 23 unlinked / 37 mentioning | 92.1 | 106 |
 
 ## Evidence hold
 

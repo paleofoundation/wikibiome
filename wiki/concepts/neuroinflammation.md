@@ -73,7 +73,7 @@ An additional WikiBiome hypothesis is ecological: metal exposure may reshape the
 
 ## What Intervention Studies Establish
 
-Preclinical intervention results can test mechanisms without establishing clinical treatment. In a mouse cardiac-arrest model, sodium [[butyrate]] altered gut measures, TLR4/MyD88/[[nf-kappa-b|NF-kB]] signaling, microglial marker patterns, and neurological outcomes. That experiment supports pathway plausibility in that model; it does not establish butyrate as a general treatment for neuroinflammatory disease [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].
+Preclinical intervention results can test mechanisms without establishing clinical treatment. In a mouse cardiac-arrest model, sodium [[butyrate]] altered gut measures, [[tlr4|TLR4]]/MyD88/[[nf-kappa-b|NF-kB]] signaling, microglial marker patterns, and neurological outcomes. That experiment supports pathway plausibility in that model; it does not establish butyrate as a general treatment for neuroinflammatory disease [[sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest]].
 
 In multiple sclerosis research, human metabolomics identified altered bile-acid profiles, while cell and EAE experiments found that TUDCA affected astrocyte and microglial states through GPBAR1. The study links a human association to experimental mechanism, but the disease-modifying effect was demonstrated in a model rather than a therapeutic trial in people with MS [[bhargava-2020-bile-acid-metabolism-ms-neuroinflammation]].
 

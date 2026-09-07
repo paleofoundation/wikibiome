@@ -30,22 +30,19 @@ Not run in offline mode. Re-run with `--online` to validate DOIs against api.cro
 
 ## Internal wikilink audit
 
-- Files scanned: 2711
-- Wikilinks found: 39985
-- Broken targets (unique file/target pairs): 286
+- Files scanned: 2710
+- Wikilinks found: 39956
+- Broken targets (unique file/target pairs): 235
 
 ### Top 50 broken wikilink targets
 
 | Target | Incoming count | Example files |
 |---|---|---|
 | `[[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid]]` | 6 | entities/escherichia-coli.md, entities/klebsiella-pneumoniae.md, entities/long-covid.md |
-| `[[interkingdom-relationships]]` | 6 | analyses/link-health-2026-04-19.md, sources/ding-2025-mycobiome-human-cancer-mechanisms-therapeutics.md, sources/fungal-dysbiosis-2026-pregnancy-gdm-reference.md |
 | `[[akkermansia-mucinicola]]` | 5 | analyses/gaps-and-improvements-2026-04-12.md, analyses/health-check-2026-04-14.md, analyses/lint-report-2026-04-12.md |
+| `[[interkingdom-relationships]]` | 5 | sources/ding-2025-mycobiome-human-cancer-mechanisms-therapeutics.md, sources/fungal-dysbiosis-2026-pregnancy-gdm-reference.md, sources/hu-2021-glp2-sbs-bacterial-fungal-dysbiosis.md |
 | `[[prostate-cancer]]` | 4 | entities/propionibacterium.md, sources/cao-2024-gut-microbiome-preventive-therapeutic-prostatic-disease.md, sources/magri-2018-multidisciplinary-prostatitis.md |
-| `[[bile-acids]]` | 3 | entities/necrotizing-enterocolitis.md, analyses/lint-report-2026-04-21.md, sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md |
-| `[[note-evaluation-risk-ptes-italy-fish-products]]` | 3 | entities/nickel.md, analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
 | `[[candida-auris]]` | 3 | analyses/gaps-and-improvements-2026-04-13.md, analyses/lint-report-2026-04-12.md, analyses/lint-report-2026-04-13.md |
-| `[[oral-gut-axis]]` | 3 | analyses/link-health-2026-04-19.md, sources/16s-rrna-t2d-subgingival-plaque-microbiota.md, sources/periodontitis-t2d-microbial-biomarkers.md |
 | `[[wikilink]]` | 3 | analyses/lint-report-2026-04-19.md, analyses/lint-report-2026-04-26.md, analyses/lint-report-2026-05-03.md |
 | `[[blood-testis-barrier]]` | 3 | sources/cai-2022-gut-microbiota-male-reproduction.md, sources/kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility.md, sources/lv-2024-gut-microbiota-male-reproductive-function-review.md |
 | `[[vaginal-microbiome]]` | 3 | sources/daungsupawong-2024-ai-drug-repurposing-chronic-vaginitis.md, sources/ser-2023-current-updates-microbiome-endometriosis-review.md, sources/yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics.md |
@@ -57,37 +54,40 @@ Not run in offline mode. Re-run with `--online` to validate DOIs against api.cro
 | `[[bacterial-translocation]]` | 2 | entities/alishewanella.md, entities/sphingobium.md |
 | `[[ke2022-microbiome-covid-metagenome-genomes]]` | 2 | entities/long-covid.md, signatures/long-covid-signature.md |
 | `[[prostatitis]]` | 2 | entities/trichomonas-vaginalis.md, concepts/gut-prostate-axis.md |
-| `[[stop-unrestricted-plant-diet-advanced-ckd]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[stop-probiotics-alone-uremic-toxins-ckd]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[faecalibacterium-hominis-4p15]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[karen-pendergrass]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[zinc-endometriosis-2024]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[lactoferrin-genital-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[endo-vaginal-microbiota-glycome]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[altered-microbiota-ovarian-endometrioma-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[antibiotics-metronidazole-endo-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[associations-endo-gut-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[fecal-metabolomics-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[effect-endo-fecal-bacteriota-2019]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[endo-induces-gut-alterations-2018]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[gut-imbalance-hormone-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[inflammatory-cytokines-peritoneal-2018]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[microbiome-deep-endo-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[microbiome-lower-genital-chinese]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[microbiota-composition-distribution-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[molecular-intrauterine-colonization-2016]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[gut-dysbiosis-treg-th17-graves-2020]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[graves-targeted-therapy-2025]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[graves-ibd-mendelian-2023]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[graves-ra-mendelian-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[antonelli-2016-graves-epidemiology]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[uncovering-causal-gut-thyroid-2024]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[maciejewski-2025-trace-elements-thyroid]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[yao-2023-oral-gut-thyroid-cancer]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[selenium-thyroid-autoimmunity-2015]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[abraham-2005-drug-therapy-graves]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[preliminary-flora-changes-graves-2022]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
-| `[[berberine-methimazole-graves-2021]]` | 2 | analyses/broken-links-2026-04-16.md, analyses/link-health-2026-04-19.md |
+| `[[bile-acids]]` | 2 | analyses/lint-report-2026-04-21.md, sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md |
+| `[[oral-gut-axis]]` | 2 | sources/16s-rrna-t2d-subgingival-plaque-microbiota.md, sources/periodontitis-t2d-microbial-biomarkers.md |
+| `[[reproductive-tract-microbiome]]` | 2 | sources/ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis.md, sources/guo-2024-viral-infections-semen-infertility.md |
+| `[[propionibacterium-acnes]]` | 2 | sources/bautista-2025-reprogramming-prostate-cancer-microbiome.md, sources/javurek-2016-seminal-fluid-microbiome-esr1.md |
+| `[[oscillospira]]` | 2 | sources/chen-2024-gut-microbiota-six-thyroid-diseases-mr.md, sources/svensson-2021-associations-endometriosis-gut-microbiota.md |
+| `[[cobalamin]]` | 2 | sources/chen-2025-blood-metabolites-mediators-erectile-dysfunction-proteomics.md, sources/maes-2026-shotgun-metagenomics-mdd-nimetox.md |
+| `[[neurosteroids]]` | 2 | sources/gao-2023-allopregnanolone-gaba-receptor-pmdd.md, sources/nguyen-2017-steroid-metabolome-pmdd-gnrh-suppression.md |
+| `[[anaerobutyricum-hallii]]` | 2 | sources/griffith-2026-lifestyle-probiotic-t2d-testosterone-case-report.md, sources/maes-2026-shotgun-metagenomics-mdd-nimetox.md |
+| `[[helicobacter]]` | 2 | sources/jin-2023-3hpaa-spermatogenesis-ferroptosis.md, sources/ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice.md |
+| `[[mucosal-immunity]]` | 2 | sources/lingasamy-2024-immunome-microbiome-reproductive-health.md, sources/ughade-2024-genital-dysbiosis-fertility-review.md |
+| `[[dietary-patterns]]` | 2 | sources/shi-2024-dietary-patterns-premenstrual-disorders-china.md, sources/silva-2022-anti-inflammatory-low-fodmap-fibromyalgia-rct.md |
+| `[[lipopolysaccharides]]` | 2 | sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md, sources/wu-2025-high-fat-diet-gut-microbiota-precocious-puberty.md |
+| `[[gut-immune-axis]]` | 2 | sources/yang-2023-childhood-asthma-allergy-premenstrual-disorders.md, sources/yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice.md |
+| `[[tlr4-nf-kb]]` | 2 | sources/yu-2025-microbiota-gut-brain-perimenopausal-depression.md, sources/zhao-2025-gut-microbiota-pain-sensitization-review.md |
+| `[[cervical-cancer]]` | 1 | entities/anaerococcus.md |
+| `[[cervical-microbiome]]` | 1 | entities/flavobacterium.md |
+| `[[vaginolysin]]` | 1 | entities/gardnerella-vaginalis.md |
+| `[[heart-failure]]` | 1 | entities/megamonas.md |
+| `[[adenomyosis]]` | 1 | entities/staphylococcus-epidermidis.md |
+| `[[gut-barrier]]` | 1 | concepts/aspirin.md |
+| `[[adiponectin]]` | 1 | concepts/leptin.md |
+| `[[listeria-monocytogenes]]` | 1 | concepts/metal-resistance-genes.md |
+| `[[male-infertility]]` | 1 | concepts/semen-microbiome.md |
+| `[[romboutsia]]` | 1 | signatures/pancreatic-cancer-signature.md |
+| `[[kravchenko-2023-thyroid-hormones-minerals-aitd]]` | 1 | stops/stop-iron-supplementation-graves.md |
+| `[[eubacterium-rectale]]` | 1 | analyses/broken-links-2026-04-16.md |
+| `[[stop-unrestricted-plant-diet-advanced-ckd]]` | 1 | analyses/broken-links-2026-04-16.md |
+| `[[stop-probiotics-alone-uremic-toxins-ckd]]` | 1 | analyses/broken-links-2026-04-16.md |
+| `[[faecalibacterium-hominis-4p15]]` | 1 | analyses/broken-links-2026-04-16.md |
+| `[[karen-pendergrass]]` | 1 | analyses/broken-links-2026-04-16.md |
+| `[[zinc-endometriosis-2024]]` | 1 | analyses/broken-links-2026-04-16.md |
+| `[[lactoferrin-genital-2019]]` | 1 | analyses/broken-links-2026-04-16.md |
+| `[[endo-vaginal-microbiota-glycome]]` | 1 | analyses/broken-links-2026-04-16.md |
+| `[[altered-microbiota-ovarian-endometrioma-2021]]` | 1 | analyses/broken-links-2026-04-16.md |
 
 ## How to act on this report
 

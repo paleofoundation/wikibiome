@@ -147,7 +147,7 @@ Bioinformatic analysis of gene expression data revealed distinct molecular pathw
 | Exposure Route | Key Mechanisms | Hub Genes | Cancer Association |
 |---|---|---|---|
 | Dermal | DNA damage, immune disorders, allergic reactions | CXCL8, PTGS2, FOS, HMOX1 | Allergic contact dermatitis |
-| Inhalation | DNA damage, cell cycle alteration, immune disorder | TLR4, TGM2, KIT, ZEB1 | Lung cancer (squamous cell) |
+| Inhalation | DNA damage, cell cycle alteration, immune disorder | [[tlr4|TLR4]], TGM2, KIT, ZEB1 | Lung cancer (squamous cell) |
 | Ingestion | DNA damage, metastasis, liver dysfunction | VEGFA, EGFR, APP, JUN, TLR2 | Colorectal cancer, GI diseases |
 
 DNA damage and metastasis were common toxic mechanisms across all three exposure routes [[shin-2023-chromium-toxicogenomics]].

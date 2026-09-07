@@ -37,7 +37,7 @@ A chronic metabolic condition affecting over 1 billion people globally, characte
 - Reduced microbial diversity correlates with metabolic dysfunction severity [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
 
 ### Adipose Tissue Inflammation
-- Gut barrier disruption permits LPS translocation ("metabolic endotoxemia"), activating TLR4/[[nf-kappa-b]] on adipose tissue macrophages [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- Gut barrier disruption permits LPS translocation (“metabolic endotoxemia”), which can activate [[tlr4|TLR4]]/[[nf-kappa-b]] on adipose-tissue macrophages [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - This drives the chronic low-grade inflammation characteristic of obesity: elevated TNF-alpha, IL-6, MCP-1 in visceral adipose.
 - [[tmao]] contributes to vascular inflammation and [[cardiovascular-disease]] risk in obese individuals [[zhen-2023-tmao-cardiovascular-diseases-review]] [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 

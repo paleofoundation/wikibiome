@@ -41,7 +41,7 @@ Necrotizing enterocolitis (NEC) is the most common and lethal gastrointestinal e
 
 ## TLR4: Master Regulator of NEC
 
-Toll-like receptor 4 (TLR4) is the central molecular switch in NEC pathogenesis:
+Toll-like receptor 4 ([[tlr4|TLR4]]) is a prominent molecular switch in current models of NEC pathogenesis:
 
 - TLR4 is physiologically upregulated in premature intestinal epithelium Sampah & Hackam 2020 -- it serves a developmental role in gut maturation, but this makes the preterm intestine hypersensitive to bacterial LPS
 - In the mature gut, TLR4 signaling is dampened by commensal bacteria; in the preterm gut, the absence of commensals leaves TLR4 constitutively active
@@ -217,8 +217,8 @@ Human RCT evidence for BCFA supplementation in preterm formula is not yet availa
 - [[klebsiella-pneumoniae]] -- primary NEC pathobiont species within Klebsiella
 - [[methylobacterium]] -- environmental alpha-Proteobacterium enriched at NEC onset; NICU colonization signal
 - [[clostridium-butyricum]] -- enriched at NEC onset; strain-level distinction critical
-- [[bacillus-subtilis]] -- 5-fold elevated in healthy vs NEC rats; probiotic candidate
+- *[[bacillus|Bacillus subtilis]]* -- 5-fold elevated in healthy vs NEC rats; probiotic candidate
 - [[sphingomonas]] -- significantly associated with NEC (p=0.0001); NICU environmental source
 - [[clostridium-perfringens]] -- detected in NEC tissue across 2 distinct OTUs; gas-producing alpha-toxin
-- [[bile-acids]] -- unconjugated fecal bile salts 3-4x elevated in NEC; 5-6 day pre-diagnostic window
-- [[muc2]] -- mucin-2 depletion via ASBT-mediated bile acid accumulation; mucosal barrier loss
+- [[bile-acid-metabolism|Bile acids]] -- unconjugated fecal bile salts 3-4x elevated in NEC; 5-6 day pre-diagnostic window
+- MUC2 -- mucin-2 depletion via ASBT-mediated bile acid accumulation; mucosal barrier loss

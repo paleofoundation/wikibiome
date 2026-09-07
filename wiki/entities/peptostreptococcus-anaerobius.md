@@ -32,7 +32,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Peptostreptococcus anaerobius
 
-A Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Peptostreptococcaceae) that has emerged as a consistently enriched organism in the colorectal cancer tumor microenvironment. While [[fusobacterium-nucleatum]] receives the most attention as a CRC-associated bacterium, *P. anaerobius* operates through a distinct pro-tumorigenic mechanism involving TLR2/TLR4 signaling, NF-kB activation, and cholesterol biosynthesis pathway upregulation -- making it a complementary driver of colorectal carcinogenesis rather than a redundant player.
+A Gram-positive, obligate anaerobic bacterium within the Firmicutes phylum (family Peptostreptococcaceae) that has emerged as a consistently enriched organism in the colorectal cancer tumor microenvironment. While [[fusobacterium-nucleatum]] receives the most attention as a CRC-associated bacterium, *P. anaerobius* operates through a distinct pro-tumorigenic mechanism involving TLR2/[[tlr4|TLR4]] signaling, NF-kB activation, and cholesterol biosynthesis pathway upregulation -- making it a complementary driver of colorectal carcinogenesis rather than a redundant player.
 
 ## Taxonomy
 

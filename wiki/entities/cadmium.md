@@ -167,7 +167,7 @@ Cd also drives cardiovascular risk indirectly through the microbiome: Cd-induced
 
 ### Type 2 Diabetes
 
-A burden-of-disease analysis across 46 studies (n=56,191) estimated that eliminating cadmium exposure would reduce T2D incidence by approximately 65% (population attributable fraction). The dose-response relationship is linear: RR of 1.47 at 1.5--2.0 ug/L blood Cd, 2.43 at 2.0--2.5 ug/L, and 4.00 at >2.5 ug/L [[li-2023-diabetes-dietary-cadmium-china]]. Cd disrupts pancreatic beta-cell lipid metabolism, induces pancreatic [[inflammation]], and alters glucose homeostasis. Cd aggravated diabetic nephropathy through TLR4/NF-kB activation in an animal model [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]].
+A burden-of-disease analysis across 46 studies (n=56,191) estimated that eliminating cadmium exposure would reduce T2D incidence by approximately 65% (population attributable fraction). The dose-response relationship is linear: RR of 1.47 at 1.5--2.0 ug/L blood Cd, 2.43 at 2.0--2.5 ug/L, and 4.00 at >2.5 ug/L [[li-2023-diabetes-dietary-cadmium-china]]. Cd disrupts pancreatic beta-cell lipid metabolism, induces pancreatic [[inflammation]], and alters glucose homeostasis. Cd aggravated diabetic nephropathy alongside [[tlr4|TLR4]]/NF-kB activation in an animal model [[sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy]].
 
 ### Neurodegenerative Disease
 
