@@ -13056,6 +13056,84 @@
         "articleSha256": "def963c8ba5ffaaa75a60be00238bd441959624b38e3a43585551ec4fa270a96",
         "socialSha256": "df7b5358153142ebd2acfbc6568cf704fd10441141f7133b79823bd590809f8e"
       }
+    },
+    "beta-glucuronidase|beta-glucuronidase-mechanism-v4.webp": {
+      "pageId": "beta-glucuronidase",
+      "publishedFile": "beta-glucuronidase-mechanism-v4.webp",
+      "masterSource": "beta-glucuronidase-mechanism-v4-master.png",
+      "socialFile": "beta-glucuronidase-mechanism-v4-social.webp",
+      "revision": 4,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://enzyme.expasy.org/EC/3.2.1.31",
+          "https://www.rhea-db.org/rhea?query=ec:3.2.1.31",
+          "https://www.wikibiome.com/article/beta-glucuronidase"
+        ],
+        "notes": "ExPASy and Rhea control EC 3.2.1.31 enzyme-class identity and generic glucuronoside hydrolysis context; WikiBiome supplies canonical route scope. No species, measured structure, literal clinical substrate, observed catalysis, pathway flux, biomarker, diagnosis, prognosis, or treatment is claimed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed exactly three complete separated groups: one four-lobed generic enzyme form, one linked ring-and-aglycone context token, and one separated ring-plus-aglycone product-context group. Pixel audit confirmed full opacity and foreground x=435–1104, y=302–683 inside the frozen source-safe field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text describes the enzyme form and linked versus separated contexts without relying on color or asserting measured chemistry, organism identity, disease, diagnosis, prognosis, or treatment."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 a01350d6089c58145a7d1eb154a3e04c3980a1206f1349a755132ee52242d19c; master 4fcde680c43e9e271325c2d4facf06080c727639139883864cb0c99b3848017f; article 3f077dfd9fcafa35ee01d7a045a0a183a47be78dcb40a7bd575d2a151398f858; centered-contain social f893d58e33482045f5570ec32bc32cfba7796f63b0646758b8b84a1ff6946c39. Revisions 1 through 3 remain immutable non-public evidence.",
+      "revisionLinkage": {
+        "supersedes": "beta-glucuronidase-mechanism-v3-rejected",
+        "supersededBy": null,
+        "sourceDraft": "beta-glucuronidase-draft-v4.png",
+        "sourceSha256": "a01350d6089c58145a7d1eb154a3e04c3980a1206f1349a755132ee52242d19c",
+        "generationRecord": "exec-f2576658-3971-4828-92cc-7d95464bd08b.png",
+        "rejectedPredecessorSha256": "d9b51c9b5e6d12040fdbf893e33f7d8c2d120ac3c1c4794d085236b99ff8e655",
+        "masterSha256": "4fcde680c43e9e271325c2d4facf06080c727639139883864cb0c99b3848017f",
+        "articleSha256": "3f077dfd9fcafa35ee01d7a045a0a183a47be78dcb40a7bd575d2a151398f858",
+        "socialSha256": "f893d58e33482045f5570ec32bc32cfba7796f63b0646758b8b84a1ff6946c39"
+      }
+    },
+    "bile-salt-hydrolase|bile-salt-hydrolase-mechanism-v3.webp": {
+      "pageId": "bile-salt-hydrolase",
+      "publishedFile": "bile-salt-hydrolase-mechanism-v3.webp",
+      "masterSource": "bile-salt-hydrolase-mechanism-v3-master.png",
+      "socialFile": "bile-salt-hydrolase-mechanism-v3-social.webp",
+      "revision": 3,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://enzyme.expasy.org/EC/3.5.1.24",
+          "https://www.rhea-db.org/rhea?query=ec:3.5.1.24",
+          "https://www.wikibiome.com/article/bile-salt-hydrolase"
+        ],
+        "notes": "ExPASy and Rhea control EC 3.5.1.24 choloylglycine-hydrolase identity and generic conjugated/product context; WikiBiome supplies canonical route scope. No glycine-versus-taurine assignment, organism, literal molecule, measured reaction, pathway flux, disease, diagnosis, prognosis, or treatment is claimed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed exactly three complete separated groups: one compact generic folded-enzyme form, one joined four-ring-and-bead context token, and one four-ring token with a detached bead group. Pixel audit confirmed full opacity and foreground x=456–1117, y=302–680 inside the frozen source-safe field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text describes the enzyme form and joined versus detached contexts without relying on color or asserting literal molecular identity, organism identity, disease, diagnosis, prognosis, or treatment."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 6236f175fe2f85ce368edbe66e0a0c9cbdd8f0142821eabbe4f917d5bc1e5880; master b632b535b70071718db69d07b87a623a53ae0bc9bb61af1edd5dca64f00502b6; article 1bc50c7f5e34ec028e3fdcaeb88bb1456c84b135de693fc007b8302f79c24f1c; centered-contain social 21a9f843b1fd97ba662fcd21cce31cce2a76dfe714767814119c96317aca4f9e. Revisions 1 and 2 remain immutable non-public evidence.",
+      "revisionLinkage": {
+        "supersedes": "bile-salt-hydrolase-mechanism-v2-rejected",
+        "supersededBy": null,
+        "sourceDraft": "bile-salt-hydrolase-draft-v3.png",
+        "sourceSha256": "6236f175fe2f85ce368edbe66e0a0c9cbdd8f0142821eabbe4f917d5bc1e5880",
+        "generationRecord": "exec-798e6e5d-8a1f-4f95-a095-574b6a8ff3a4.png",
+        "rejectedPredecessorSha256": "59c528c45e60ebbaddcc2167a51c3b86eea470393b0dd6953d6231525c844227",
+        "masterSha256": "b632b535b70071718db69d07b87a623a53ae0bc9bb61af1edd5dca64f00502b6",
+        "articleSha256": "1bc50c7f5e34ec028e3fdcaeb88bb1456c84b135de693fc007b8302f79c24f1c",
+        "socialSha256": "21a9f843b1fd97ba662fcd21cce31cce2a76dfe714767814119c96317aca4f9e"
+      }
     }
   },
   "rejectedAssets": [
@@ -19203,10 +19281,10 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
       "disposition": "revise",
       "reason": "The three complete enzyme/reaction-context groups span x=180..1400 and violate the immutable x=250..1285 source-safe field.",
-      "supersededBy": null,
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-126/beta-glucuronidase-draft-v4.png",
       "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups while keeping all foreground and shadow within the strict source-safe field.",
-      "outcome": "Revision 3 remains immutable non-public evidence and owns no public media artifact.",
-      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+      "outcome": "Exactly one separately authorized revision-4 call preserved the three generic enzyme/reaction-context groups inside the stricter x=350..1185 and y=300..723 safe field. Native review and exact-hash Control Tower acceptance approved revision 4 only; revision 3 remains immutable non-public evidence.",
+      "routingImpact": "Resolved by the reviewed revision-4 registry asset; this revision-3 source owns no public artifact."
     },
     {
       "pageId": "bile-salt-hydrolase",
@@ -19221,10 +19299,10 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
       "disposition": "revise",
       "reason": "The three complete enzyme/reaction-context groups span x=201..1363 and violate the immutable x=250..1285 source-safe field.",
-      "supersededBy": null,
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-126/bile-salt-hydrolase-draft-v3.png",
       "requiredResolution": "A future separately authorized revision prompt and new call must preserve the generic enzyme, conjugated-context, and product-context groups while keeping all foreground inside the strict source-safe field.",
-      "outcome": "Revision 2 remains immutable non-public evidence and owns no public media artifact.",
-      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+      "outcome": "Exactly one separately authorized revision-3 call preserved the generic enzyme, conjugated-context, and product-context groups inside the stricter x=350..1185 and y=300..723 safe field. Native review and exact-hash Control Tower acceptance approved revision 3 only; revision 2 remains immutable non-public evidence.",
+      "routingImpact": "Resolved by the reviewed revision-3 registry asset; this revision-2 source owns no public artifact."
     },
     {
       "pageId": "biomarkers",
@@ -19260,6 +19338,78 @@
       "supersededBy": null,
       "requiredResolution": "A future separately authorized revision prompt and new call must retain compact complete finite BBB cellular context while keeping every structure and shadow inside the strict source-safe field.",
       "outcome": "Revision 2 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "bdnf",
+      "controlledIdentifier": "UniProt:P23560;NCBI-Gene:627",
+      "batchId": "mechanisms-revisions-126",
+      "revision": 4,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-126/bdnf-draft-v4.png",
+      "sha256": "fa9adf5f2d2059149a7afa2841064b1444d3f2590ccbb6b53a20cb14a5f2d54d",
+      "generationRecord": "exec-8d5308ea-025b-4f1c-af33-b83b4225fa5b.png",
+      "promptSha256": "0be4c54066d77cce01c302562c5ecffc56b246188a17d03e2fa8c5f33e15f654",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
+      "disposition": "revise",
+      "reason": "The three complete groups and strict source-safe field pass, but the terminal contains six vesicles rather than the immutable count of five.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the compact three-group field while depicting exactly five terminal vesicles.",
+      "outcome": "Revision 4 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "biomarkers",
+      "controlledIdentifier": "MeSH:D015415",
+      "batchId": "mechanisms-revisions-126",
+      "revision": 3,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-126/biomarkers-draft-v3.png",
+      "sha256": "f0c95e6bb4791718d4e8cc33cbe41d930b188352f7a487d142c95296f96ac87d",
+      "generationRecord": "exec-39d30650-7987-4a5e-99fa-ac51369e8f3d.png",
+      "promptSha256": "aee3748e5b1ff6ccd36557501881ae975436636a4da88ba661e7a2eb95212adb",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
+      "disposition": "revise",
+      "reason": "The requested specimen-context counts pass, but a severe black and transparent vignette fills the entire source and directly violates the fully opaque flat pale field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three specimen-context groups while producing a fully opaque flat pale field with no black pixels, transparency, vignette, glow, horizon, or ground plane.",
+      "outcome": "Revision 3 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "blood-brain-barrier",
+      "controlledIdentifier": "MeSH:D001812",
+      "batchId": "mechanisms-revisions-126",
+      "revision": 3,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-126/blood-brain-barrier-draft-v3.png",
+      "sha256": "090da08447eb0c517d531b5fc6a7452637ff9acf1182296f05a4e4b8f84c56c1",
+      "generationRecord": "exec-7bcd4260-d4ec-4884-bb5b-8a0b18559e4d.png",
+      "promptSha256": "0253331b6cafaac780155b136772d448dd5c16aefcfacf496cda7dc9c866a34f",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
+      "disposition": "revise",
+      "reason": "The complete capillary model and all literal cellular counts pass, but foreground y=240..746 violates the immutable y=300..723 safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the one-model cellular organization and exact counts while keeping every structure and shadow inside x=350..1185 and y=300..723.",
+      "outcome": "Revision 3 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "butyrate",
+      "controlledIdentifier": "PubChem:104775;ChEBI:17968;InChIKey:FERIUCNNQQJTOY-UHFFFAOYSA-M",
+      "batchId": "mechanisms-revisions-126",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-126/butyrate-draft-v2.png",
+      "sha256": "f90e23f619a42fda7306dec725058826669b63cee74e79bf55cec1cf3643a8fa",
+      "generationRecord": "exec-7f77816b-b104-4155-ae1c-d669f602ffd8.png",
+      "promptSha256": "fafed24a677cb8c96f0b2399a343a25872f3ce14f2ba221b27922fdf37c7acb6",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
+      "disposition": "revise",
+      "reason": "The source-safe field, tissue, and four-rod context pass, but the heavy-atom identity model contains six carbon-like centers rather than butyrate's four.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve current PubChem CID 104775 and ChEBI 17968 identity and depict exactly four carbon-like and two oxygen-like heavy-atom centers.",
+      "outcome": "Revision 2 remains immutable non-public evidence. The stale historical CID 264 remains retired and owns no current media authority.",
       "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
     }
   ],
@@ -19460,6 +19610,32 @@
       "reason": "Batch 124 revision 2 reconciled the frozen tissue and microbial counts but violated the source-safe field at the top and bottom.",
       "supersededBy": "work/media-drafts/mechanisms-revisions-batch-125/bacterial-vaginosis-draft-v3.png",
       "outcome": "Exactly one separately authorized revision-3 call retained one intact tissue group, four long rods, and six mixed forms while remaining inside the stricter safe field. Native review and exact-hash Control Tower acceptance approved revision 3 only; revisions 1 and 2 remain immutable rejected evidence and own no public artifact."
+    },
+    {
+      "pageId": "beta-glucuronidase",
+      "batchId": "mechanisms-revisions-126",
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/beta-glucuronidase-draft-v3.png",
+      "sha256": "d9b51c9b5e6d12040fdbf893e33f7d8c2d120ac3c1c4794d085236b99ff8e655",
+      "generationRecord": "exec-2ea7a10b-226b-481e-83b3-03d9ebf3f152.png",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 125 revision 3 preserved the generic enzyme and reaction-context groups but violated the horizontal source-safe field.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-126/beta-glucuronidase-draft-v4.png",
+      "outcome": "Exactly one separately authorized revision-4 call preserved the three groups within the stricter safe field. Native review and exact-hash Control Tower acceptance approved revision 4 only; revisions 1 through 3 remain immutable rejected evidence and own no public artifact."
+    },
+    {
+      "pageId": "bile-salt-hydrolase",
+      "batchId": "mechanisms-revisions-126",
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/bile-salt-hydrolase-draft-v2.png",
+      "sha256": "59c528c45e60ebbaddcc2167a51c3b86eea470393b0dd6953d6231525c844227",
+      "generationRecord": "exec-85b4faa3-e73a-40ae-8171-471d1f6ba2b9.png",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 125 revision 2 preserved the generic enzyme, conjugated-context, and product-context groups but violated the horizontal source-safe field.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-126/bile-salt-hydrolase-draft-v3.png",
+      "outcome": "Exactly one separately authorized revision-3 call preserved the three groups within the stricter safe field. Native review and exact-hash Control Tower acceptance approved revision 3 only; revisions 1 and 2 remain immutable rejected evidence and own no public artifact."
     }
   ],
   "notes": [

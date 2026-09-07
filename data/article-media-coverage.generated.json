@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "d2508890e9405faa0aa14ea543a07060818dcd75587984ca586f9302e4ff48f4",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "615bf4a7dd007836a4ed11745eacfa99fe7162ef0edd43b8bbcd4110b3d5e7c9",
+    "registrySha256": "e525a8877e6faa1f59c697ab1617ef7eeb24352330bf91624e5d5ecbe430cb06",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "dcb84b98795b738f94a6068faab045631fbb7662e198ceab4eaed7cc3618037d",
+    "reviewLogSha256": "83271cfe58137032cb7effebe090e83b945bfbf5c03fbd59bd81fa795d0298be",
     "batchManifests": [
       {
         "file": "data/article-media-batches/clinical-cautions-114.json",
@@ -495,8 +495,8 @@
       {
         "file": "data/article-media-batches/mechanisms-revisions-126.json",
         "batchId": "mechanisms-revisions-126",
-        "status": "approved-awaiting-promotion",
-        "sha256": "5163c592d86e3f4d2550e20ed887a91f65803d6208f1f54a0293b684ae89c507"
+        "status": "reviewed",
+        "sha256": "ea67267b7e94df16a9d85bc9e1c726b92249f4d17996bb5b4fde67a141882d08"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -788,12 +788,12 @@
   },
   "current": {
     "total": 715,
-    "completed": 377,
-    "remaining": 338,
-    "rejected": 362,
-    "revised": 16,
+    "completed": 379,
+    "remaining": 336,
+    "rejected": 366,
+    "revised": 18,
     "scientificHolds": 288,
-    "inReview": 2
+    "inReview": 0
   },
   "categories": [
     {
@@ -821,8 +821,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 238,
-      "completed": 62,
-      "remaining": 176
+      "completed": 64,
+      "remaining": 174
     },
     {
       "id": "host-defenses",
@@ -6998,10 +6998,10 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
       "disposition": "revise",
       "reason": "The three complete enzyme/reaction-context groups span x=180..1400 and violate the immutable x=250..1285 source-safe field.",
-      "supersededBy": null,
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-126/beta-glucuronidase-draft-v4.png",
       "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups while keeping all foreground and shadow within the strict source-safe field.",
-      "outcome": "Revision 3 remains immutable non-public evidence and owns no public media artifact.",
-      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+      "outcome": "Exactly one separately authorized revision-4 call preserved the three generic enzyme/reaction-context groups inside the stricter x=350..1185 and y=300..723 safe field. Native review and exact-hash Control Tower acceptance approved revision 4 only; revision 3 remains immutable non-public evidence.",
+      "routingImpact": "Resolved by the reviewed revision-4 registry asset; this revision-3 source owns no public artifact."
     },
     {
       "pageId": "bile-salt-hydrolase",
@@ -7016,10 +7016,10 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
       "disposition": "revise",
       "reason": "The three complete enzyme/reaction-context groups span x=201..1363 and violate the immutable x=250..1285 source-safe field.",
-      "supersededBy": null,
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-126/bile-salt-hydrolase-draft-v3.png",
       "requiredResolution": "A future separately authorized revision prompt and new call must preserve the generic enzyme, conjugated-context, and product-context groups while keeping all foreground inside the strict source-safe field.",
-      "outcome": "Revision 2 remains immutable non-public evidence and owns no public media artifact.",
-      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+      "outcome": "Exactly one separately authorized revision-3 call preserved the generic enzyme, conjugated-context, and product-context groups inside the stricter x=350..1185 and y=300..723 safe field. Native review and exact-hash Control Tower acceptance approved revision 3 only; revision 2 remains immutable non-public evidence.",
+      "routingImpact": "Resolved by the reviewed revision-3 registry asset; this revision-2 source owns no public artifact."
     },
     {
       "pageId": "biomarkers",
@@ -7055,6 +7055,78 @@
       "supersededBy": null,
       "requiredResolution": "A future separately authorized revision prompt and new call must retain compact complete finite BBB cellular context while keeping every structure and shadow inside the strict source-safe field.",
       "outcome": "Revision 2 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "bdnf",
+      "controlledIdentifier": "UniProt:P23560;NCBI-Gene:627",
+      "batchId": "mechanisms-revisions-126",
+      "revision": 4,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-126/bdnf-draft-v4.png",
+      "sha256": "fa9adf5f2d2059149a7afa2841064b1444d3f2590ccbb6b53a20cb14a5f2d54d",
+      "generationRecord": "exec-8d5308ea-025b-4f1c-af33-b83b4225fa5b.png",
+      "promptSha256": "0be4c54066d77cce01c302562c5ecffc56b246188a17d03e2fa8c5f33e15f654",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
+      "disposition": "revise",
+      "reason": "The three complete groups and strict source-safe field pass, but the terminal contains six vesicles rather than the immutable count of five.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the compact three-group field while depicting exactly five terminal vesicles.",
+      "outcome": "Revision 4 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "biomarkers",
+      "controlledIdentifier": "MeSH:D015415",
+      "batchId": "mechanisms-revisions-126",
+      "revision": 3,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-126/biomarkers-draft-v3.png",
+      "sha256": "f0c95e6bb4791718d4e8cc33cbe41d930b188352f7a487d142c95296f96ac87d",
+      "generationRecord": "exec-39d30650-7987-4a5e-99fa-ac51369e8f3d.png",
+      "promptSha256": "aee3748e5b1ff6ccd36557501881ae975436636a4da88ba661e7a2eb95212adb",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
+      "disposition": "revise",
+      "reason": "The requested specimen-context counts pass, but a severe black and transparent vignette fills the entire source and directly violates the fully opaque flat pale field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three specimen-context groups while producing a fully opaque flat pale field with no black pixels, transparency, vignette, glow, horizon, or ground plane.",
+      "outcome": "Revision 3 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "blood-brain-barrier",
+      "controlledIdentifier": "MeSH:D001812",
+      "batchId": "mechanisms-revisions-126",
+      "revision": 3,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-126/blood-brain-barrier-draft-v3.png",
+      "sha256": "090da08447eb0c517d531b5fc6a7452637ff9acf1182296f05a4e4b8f84c56c1",
+      "generationRecord": "exec-7bcd4260-d4ec-4884-bb5b-8a0b18559e4d.png",
+      "promptSha256": "0253331b6cafaac780155b136772d448dd5c16aefcfacf496cda7dc9c866a34f",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
+      "disposition": "revise",
+      "reason": "The complete capillary model and all literal cellular counts pass, but foreground y=240..746 violates the immutable y=300..723 safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the one-model cellular organization and exact counts while keeping every structure and shadow inside x=350..1185 and y=300..723.",
+      "outcome": "Revision 3 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "butyrate",
+      "controlledIdentifier": "PubChem:104775;ChEBI:17968;InChIKey:FERIUCNNQQJTOY-UHFFFAOYSA-M",
+      "batchId": "mechanisms-revisions-126",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-126/butyrate-draft-v2.png",
+      "sha256": "f90e23f619a42fda7306dec725058826669b63cee74e79bf55cec1cf3643a8fa",
+      "generationRecord": "exec-7f77816b-b104-4155-ae1c-d669f602ffd8.png",
+      "promptSha256": "fafed24a677cb8c96f0b2399a343a25872f3ce14f2ba221b27922fdf37c7acb6",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
+      "disposition": "revise",
+      "reason": "The source-safe field, tissue, and four-rod context pass, but the heavy-atom identity model contains six carbon-like centers rather than butyrate's four.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve current PubChem CID 104775 and ChEBI 17968 identity and depict exactly four carbon-like and two oxygen-like heavy-atom centers.",
+      "outcome": "Revision 2 remains immutable non-public evidence. The stale historical CID 264 remains retired and owns no current media authority.",
       "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
     }
   ],
@@ -7255,6 +7327,32 @@
       "reason": "Batch 124 revision 2 reconciled the frozen tissue and microbial counts but violated the source-safe field at the top and bottom.",
       "supersededBy": "work/media-drafts/mechanisms-revisions-batch-125/bacterial-vaginosis-draft-v3.png",
       "outcome": "Exactly one separately authorized revision-3 call retained one intact tissue group, four long rods, and six mixed forms while remaining inside the stricter safe field. Native review and exact-hash Control Tower acceptance approved revision 3 only; revisions 1 and 2 remain immutable rejected evidence and own no public artifact."
+    },
+    {
+      "pageId": "beta-glucuronidase",
+      "batchId": "mechanisms-revisions-126",
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/beta-glucuronidase-draft-v3.png",
+      "sha256": "d9b51c9b5e6d12040fdbf893e33f7d8c2d120ac3c1c4794d085236b99ff8e655",
+      "generationRecord": "exec-2ea7a10b-226b-481e-83b3-03d9ebf3f152.png",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 125 revision 3 preserved the generic enzyme and reaction-context groups but violated the horizontal source-safe field.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-126/beta-glucuronidase-draft-v4.png",
+      "outcome": "Exactly one separately authorized revision-4 call preserved the three groups within the stricter safe field. Native review and exact-hash Control Tower acceptance approved revision 4 only; revisions 1 through 3 remain immutable rejected evidence and own no public artifact."
+    },
+    {
+      "pageId": "bile-salt-hydrolase",
+      "batchId": "mechanisms-revisions-126",
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/bile-salt-hydrolase-draft-v2.png",
+      "sha256": "59c528c45e60ebbaddcc2167a51c3b86eea470393b0dd6953d6231525c844227",
+      "generationRecord": "exec-85b4faa3-e73a-40ae-8171-471d1f6ba2b9.png",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 125 revision 2 preserved the generic enzyme, conjugated-context, and product-context groups but violated the horizontal source-safe field.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-126/bile-salt-hydrolase-draft-v3.png",
+      "outcome": "Exactly one separately authorized revision-3 call preserved the three groups within the stricter safe field. Native review and exact-hash Control Tower acceptance approved revision 3 only; revisions 1 and 2 remain immutable rejected evidence and own no public artifact."
     }
   ],
   "nextBatch": [
@@ -14586,12 +14684,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-revisions-125",
+        "batchId": "mechanisms-revisions-126",
         "reviewedOn": "2026-09-07",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
         "disposition": "revise",
-        "reason": "Three complete groups and exactly five terminal vesicles are visible, but foreground spans x=148..1355 and violates the immutable x=250..1285 source-safe field.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups and five vesicles while keeping all foreground and shadow within x=250..1285 and y=220..803."
+        "reason": "The three complete groups and strict source-safe field pass, but the terminal contains six vesicles rather than the immutable count of five.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the compact three-group field while depicting exactly five terminal vesicles."
       }
     },
     {
@@ -14605,12 +14703,14 @@
       "route": "/article/beta-glucuronidase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-revisions-126",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-revisions-batch-126/beta-glucuronidase-draft-v4.png",
-        "sha256": "a01350d6089c58145a7d1eb154a3e04c3980a1206f1349a755132ee52242d19c"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 4,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "beta-glucuronidase-mechanism-v4-master.png",
+        "publishedFile": "beta-glucuronidase-mechanism-v4.webp",
+        "socialFile": "beta-glucuronidase-mechanism-v4-social.webp"
       }
     },
     {
@@ -14666,12 +14766,14 @@
       "route": "/article/bile-salt-hydrolase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-revisions-126",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-revisions-batch-126/bile-salt-hydrolase-draft-v3.png",
-        "sha256": "6236f175fe2f85ce368edbe66e0a0c9cbdd8f0142821eabbe4f917d5bc1e5880"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 3,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "bile-salt-hydrolase-mechanism-v3-master.png",
+        "publishedFile": "bile-salt-hydrolase-mechanism-v3.webp",
+        "socialFile": "bile-salt-hydrolase-mechanism-v3-social.webp"
       }
     },
     {
@@ -14687,12 +14789,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-revisions-125",
+        "batchId": "mechanisms-revisions-126",
         "reviewedOn": "2026-09-07",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
         "disposition": "revise",
-        "reason": "The three specimen-context counts pass, but a severe black vignette and radial shadow occupy the complete canvas and all source edges, with 159744 outer-band pixels below luma 128.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic specimen-context groups while encoding a fully opaque flat pale field with no vignette, glow, horizon, or ground plane."
+        "reason": "The requested specimen-context counts pass, but a severe black and transparent vignette fills the entire source and directly violates the fully opaque flat pale field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three specimen-context groups while producing a fully opaque flat pale field with no black pixels, transparency, vignette, glow, horizon, or ground plane."
       }
     },
     {
@@ -14708,12 +14810,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-revisions-125",
+        "batchId": "mechanisms-revisions-126",
         "reviewedOn": "2026-09-07",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
         "disposition": "revise",
-        "reason": "Principal capillary and cellular counts pass, but the top and lower pads and right neural group extend beyond the immutable source-safe field at x=328..1340 and y=163..811.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must retain compact complete finite BBB cellular context while keeping every structure and shadow inside the strict source-safe field."
+        "reason": "The complete capillary model and all literal cellular counts pass, but foreground y=240..746 violates the immutable y=300..723 safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the one-model cellular organization and exact counts while keeping every structure and shadow inside x=350..1185 and y=300..723."
       }
     },
     {
@@ -14729,11 +14831,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-061",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "batchId": "mechanisms-revisions-126",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, programmatic pixel-field, opacity, and exact-count audit",
         "disposition": "revise",
-        "reason": "The rightmost bacterial form reaches x=1509 and enters the frozen outer 32-pixel field."
+        "reason": "The source-safe field, tissue, and four-rod context pass, but the heavy-atom identity model contains six carbon-like centers rather than butyrate's four.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve current PubChem CID 104775 and ChEBI 17968 identity and depict exactly four carbon-like and two oxygen-like heavy-atom centers."
       }
     },
     {

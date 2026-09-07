@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-revisions-126",
   "category": "mechanisms",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "reviewedOn": "2026-09-07",
   "createdOn": "2026-09-07",
   "authorizedParent": "f24a9a880ba66dcdb4079edd4d5e477372c211e7",
@@ -30,6 +30,19 @@
     "approvedPageIds": ["beta-glucuronidase", "bile-salt-hydrolase"],
     "acceptedSourceSha256": ["a01350d6089c58145a7d1eb154a3e04c3980a1206f1349a755132ee52242d19c", "6236f175fe2f85ce368edbe66e0a0c9cbdd8f0142821eabbe4f917d5bc1e5880"],
     "nonPublishablePageIds": ["bdnf", "biomarkers", "blood-brain-barrier", "butyrate"]
+  },
+  "controlSocialCropReview": "accepted-two-centered-contain-1200x630-derivatives-after-native-detail-review",
+  "promotionDerivatives": {
+    "beta-glucuronidase": {
+      "masterSha256": "4fcde680c43e9e271325c2d4facf06080c727639139883864cb0c99b3848017f",
+      "articleSha256": "3f077dfd9fcafa35ee01d7a045a0a183a47be78dcb40a7bd575d2a151398f858",
+      "socialSha256": "f893d58e33482045f5570ec32bc32cfba7796f63b0646758b8b84a1ff6946c39"
+    },
+    "bile-salt-hydrolase": {
+      "masterSha256": "b632b535b70071718db69d07b87a623a53ae0bc9bb61af1edd5dca64f00502b6",
+      "articleSha256": "1bc50c7f5e34ec028e3fdcaeb88bb1456c84b135de693fc007b8302f79c24f1c",
+      "socialSha256": "21a9f843b1fd97ba662fcd21cce31cce2a76dfe714767814119c96317aca4f9e"
+    }
   },
   "initialAuditCommit": "891af9eabd2c509ce65640d652a9bd5a4a76e088",
   "promptFreezeCommit": "99ae0dbf4f6db949cd80fc26970258f7763b6485",
@@ -71,6 +84,9 @@
       "visualReview": "Exactly three complete separated teaching groups are visible: a four-lobed generic enzyme form, one linked ring-and-aglycone token, and one separated ring-plus-aglycone product-context pair. The entire opaque composition passes the frozen source-safe field.",
       "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution scientific, visual, pixel-field, opacity, and exact-hash review","reviewedOn":"2026-09-07","promptCountTrusted":false,"observedSubjectDescription":"One four-lobed enzyme teaching form, one linked ring-and-aglycone context token, and one product-context group containing a ring token and separate neutral aglycone token.","observedVisibleBodyCount":6,"observedSpatialGroupingCount":3,"observedEnzymeLobeCount":4,"observedLinkedContextTokenCount":1,"observedSeparatedProductContextCount":1,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[241,246,252],"foregroundBoundsAtLumaBelow220":{"minX":435,"minY":302,"maxX":1104,"maxY":683},"strictSafeField":"pass-x350-1185-y300-723","sourceEdgeContact":false,"alphaMinimum":255,"containRequired":true,"metadataConsistency":"pass"},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "4fcde680c43e9e271325c2d4facf06080c727639139883864cb0c99b3848017f",
+      "articleSha256": "3f077dfd9fcafa35ee01d7a045a0a183a47be78dcb40a7bd575d2a151398f858",
+      "socialSha256": "f893d58e33482045f5570ec32bc32cfba7796f63b0646758b8b84a1ff6946c39",
       "proposedAlt": "A compact generic four-lobed enzyme form is separated from one linked substrate-context token and one separated product-context pair.",
       "proposedCaption": "Generic enzyme-class and reaction-context orientation for beta-glucuronidase. This reconstruction does not show a measured structure, species assignment, clinical substrate, catalytic event, pathway flux, biomarker, or treatment claim.",
       "proposedDescription": "WikiBiome scientific reconstruction of a generic enzyme and restrained substrate/product context on a flat pale cool field.",
@@ -87,6 +103,9 @@
       "visualReview": "Exactly three complete separated teaching groups are visible: one compact generic folded-enzyme form, one joined four-ring-and-bead context token, and one four-ring token with a detached bead group. The entire opaque composition passes the frozen source-safe field.",
       "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution scientific, visual, pixel-field, opacity, and exact-hash review","reviewedOn":"2026-09-07","promptCountTrusted":false,"observedSubjectDescription":"One compact folded-enzyme teaching form, one joined four-ring-and-bead context token, and one product-context group containing a four-ring token plus detached bead group.","observedVisibleBodyCount":5,"observedSpatialGroupingCount":3,"observedEnzymeContextCount":1,"observedJoinedContextTokenCount":1,"observedSeparatedProductContextCount":1,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[244,248,252],"foregroundBoundsAtLumaBelow220":{"minX":456,"minY":302,"maxX":1117,"maxY":680},"strictSafeField":"pass-x350-1185-y300-723","sourceEdgeContact":false,"alphaMinimum":255,"containRequired":true,"metadataConsistency":"pass"},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "b632b535b70071718db69d07b87a623a53ae0bc9bb61af1edd5dca64f00502b6",
+      "articleSha256": "1bc50c7f5e34ec028e3fdcaeb88bb1456c84b135de693fc007b8302f79c24f1c",
+      "socialSha256": "21a9f843b1fd97ba662fcd21cce31cce2a76dfe714767814119c96317aca4f9e",
       "proposedAlt": "A compact generic enzyme is separated from one conjugated bile-salt context token and one detached product-context pair.",
       "proposedCaption": "Generic enzyme-class and reaction-context orientation for bile salt hydrolase. The forms do not identify a literal molecule, organism, measured reaction, pathway flux, diagnosis, or treatment effect.",
       "proposedDescription": "WikiBiome scientific reconstruction of a generic enzyme and restrained conjugated/product teaching contexts on a flat pale cool field.",
