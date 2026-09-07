@@ -19,6 +19,7 @@
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "cb559ce",
   "reviewStandard": "Only exact neutral simvastatin is cleared for one immutable chemical-identity call. The two broad Statins routes conflict with a third concept route; the synbiotic page has no local evidence or strain-level product identity; and both vitamin-D/probiotic routes lack strain accessions and contain malformed source identifiers. Those five routes receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -87,6 +88,7 @@
       "draft": "work/media-drafts/interventions-batch-112/statin-simvastatin-colorectal-cancer-draft.png",
       "rootReviewDisposition": "pending-native-output-review",
       "controlledIdentifier": "PubChem:54454;ChEBI:9150;MeSH:D019821;InChIKey:RYMZZMVNJRMUDD-HGQWONQESA-N",
+      "promptSha256": "4426cee692e43968f138b807e91fe9b451d17a60f451f45014a84b860905f25d",
       "scientificReferences": [
         "https://pubchem.ncbi.nlm.nih.gov/compound/54454",
         "https://www.ebi.ac.uk/chebi/CHEBI:9150",
