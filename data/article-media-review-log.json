@@ -14606,6 +14606,78 @@
       "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/16158234/", "https://pubmed.ncbi.nlm.nih.gov/17216355/", "https://pubmed.ncbi.nlm.nih.gov/25160631/", "https://pubmed.ncbi.nlm.nih.gov/28344348/", "https://pubmed.ncbi.nlm.nih.gov/39658019/", "local:data/content.generated.json#/pages/metalloregulator"],
       "requiredResolution": "Rebuild by organism/strain, regulator identifier/structure, family, metal species, sites/stoichiometry, operator/regulon, assay, mutant phenotype, and in-vivo evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metallothionein",
+      "controlledIdentifier": "MeSH:D008676;protein-family-umbrella",
+      "batchId": "mechanisms-082",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Mammalian isoforms, species-specific proteins, metalation states, stoichiometries, tissues, and disease claims are compressed into one fixed structure and binding hierarchy.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D008676", "https://pubmed.ncbi.nlm.nih.gov/29431781/", "https://pubmed.ncbi.nlm.nih.gov/35327552/", "https://pubmed.ncbi.nlm.nih.gov/32784815/", "local:data/content.generated.json#/pages/metallothionein"],
+      "requiredResolution": "Select an organism and isoform/accession or PDB structure, exact metalation state, conditions, stoichiometry, and experimentally supported function.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "methylation",
+      "controlledIdentifier": "MeSH:D008745;process-umbrella",
+      "batchId": "mechanisms-082",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "DNA, histone, protein, and xenobiotic methylation are conflated with one-carbon metabolism and broad microbiome and metal causality.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D008745", "https://pubmed.ncbi.nlm.nih.gov/10754536/", "https://pubmed.ncbi.nlm.nih.gov/42278572/", "local:data/content.generated.json#/pages/methylation"],
+      "requiredResolution": "Split by process and specify substrate/site, enzyme, donor, organism/tissue, exposure, assay, genomic context, direction, and causal evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "microbial-biomarkers",
+      "controlledIdentifier": "biomarker-category-umbrella;no-qualified-context-of-use",
+      "batchId": "mechanisms-082",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Associations, pathogens, host inflammatory markers, metabolites, and experimental metallophores are presented as clinical tools without analytical or clinical validation.",
+      "checkedUrls": ["https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification", "https://www.fda.gov/drugs/biomarker-qualification-program/qualifying-biomarker-through-biomarker-qualification-program", "https://pubmed.ncbi.nlm.nih.gov/39243797/", "https://pubmed.ncbi.nlm.nih.gov/39647502/", "local:data/content.generated.json#/pages/microbial-biomarkers"],
+      "requiredResolution": "Define BEST category, specimen, measurand, assay, preanalytics, threshold, population, context of use, validation, performance, calibration, and qualification status.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "metabolites",
+      "controlledIdentifier": "chemical-class-umbrella;duplicate-overlapping-route",
+      "batchId": "mechanisms-082",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Host, microbial, co-metabolic, dietary, and hepatic products are combined with categorical beneficial, toxic, and causal disease labels.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/24631493/", "https://pubmed.ncbi.nlm.nih.gov/31848305/", "https://pubmed.ncbi.nlm.nih.gov/39702677/", "local:data/content.generated.json#/pages/metabolites", "local:data/content.generated.json#/pages/microbiome-derived-metabolites"],
+      "requiredResolution": "Reconcile the duplicate route and organize by compound identifier, source/precursor, organism/enzyme evidence, host co-metabolism, matrix, assay, concentration, and validated effect.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "microbiome-diversity-metrics",
+      "controlledIdentifier": "statistical-method-umbrella;no-single-biological-entity",
+      "batchId": "mechanisms-082",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Estimators and distances with different assumptions are treated as interchangeable disease markers, with generic significance implied without design or model conditions.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39753610/", "https://pubmed.ncbi.nlm.nih.gov/41326814/", "local:data/content.generated.json#/pages/microbiome-diversity-metrics"],
+      "requiredResolution": "Document formulas, assumptions, feature construction, preprocessing, sampling depth, covariates, dispersion, null hypothesis, effect size, uncertainty, and interpretation.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "microbiome-derived-metabolites",
+      "controlledIdentifier": "chemical-class-umbrella;duplicate-overlapping-route",
+      "batchId": "mechanisms-082",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Microbial attribution, host co-metabolism, concentration, compartment, and causality are blurred across many molecules and diseases.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39284033/", "https://pubmed.ncbi.nlm.nih.gov/31848305/", "https://pubmed.ncbi.nlm.nih.gov/39702677/", "https://pubmed.ncbi.nlm.nih.gov/42485525/", "local:data/content.generated.json#/pages/microbiome-derived-metabolites", "local:data/content.generated.json#/pages/metabolites"],
+      "requiredResolution": "Merge or distinguish the duplicate route and bound each compound by identity, origin evidence, pathway, compartment, concentration, target, model, and human causal status.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
