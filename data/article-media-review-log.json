@@ -12533,6 +12533,41 @@
         "supersedes": null,
         "supersededBy": null
       }
+    },
+    "tight-junctions|tight-junctions-mechanism-v1.webp": {
+      "pageId": "tight-junctions",
+      "publishedFile": "tight-junctions-mechanism-v1.webp",
+      "masterSource": "tight-junctions-mechanism-v1-master.png",
+      "socialFile": "tight-junctions-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://meshb.nlm.nih.gov/record/ui?ui=D019108",
+          "https://pubmed.ncbi.nlm.nih.gov/38859584/",
+          "https://www.wikibiome.com/article/tight-junctions"
+        ],
+        "notes": "MeSH establishes the controlled tight-junction identity and epithelial sealing scope; the reviewed claudin-architecture source supports a limited apical contact and submembrane scaffold orientation; the canonical WikiBiome article supplies page scope only."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review observed one group with exactly two complete epithelial-like cell bodies, one upper copper-colored junction band composed of three closely stacked bead-like rows, two sparse submembrane meshes, and separated lateral membranes below, without leakage or a disease state."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text identifies the two cells, apical band, and submembrane meshes without relying on color; the caption separates visible structure from intentionally unclaimed protein subtype, copy number, molecular structure, permeability, and disease state."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash e6514ce71ebb35cf022b4f2367b1cc9ebfe09920f420a107f1d3f7966422dd89; centered-contain social derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "tight-junctions-draft.png",
+        "sourceSha256": "e6514ce71ebb35cf022b4f2367b1cc9ebfe09920f420a107f1d3f7966422dd89",
+        "generationRecord": "exec-6e4ea90f-a45a-4ebf-8e20-1c5f3691c8f5.png"
+      }
     }
   },
   "rejectedAssets": [

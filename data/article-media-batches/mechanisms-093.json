@@ -32,7 +32,15 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "promotionRule": "Only a literal Tight Junctions output satisfying the frozen two-complete-cell, one-apical-sealing-band, no-leakage boundary may proceed to exact-hash review. The other five routes remain non-public scientific holds.",
+  "promotionRule": "Only the exact accepted Tight Junctions source hash may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The other five routes remain non-public scientific holds.",
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative; native 1200 by 630 inspection preserves both complete cell bodies, both apical surfaces, the full junction band, both scaffold meshes, and both basal margins without clipping or label leakage",
+  "promotionDerivatives": {
+    "tight-junctions": {
+      "masterSha256": "c7f2ce6623346cd48823a6770e0a9c43b71386e7e0901f563336e1ac6f910571",
+      "articleSha256": "3b2c368f57d30c9d69bc5d3e3325c9247ef57403754169d0c4dc6ce7d34fbe07",
+      "socialSha256": "0581c89ad7bac025abd2ec582ab1481990cae812adebfd021bc4729eb1819f79"
+    }
+  },
   "routeDecisions": [
     {"pageId":"tgf-beta","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"ambiguous-TGF-beta-family;candidate-TGFB1-NCBI-Gene:7040;UniProt:P01137","reason":"The route does not specify TGF-beta family member, processed state, ligand/receptor complex, species, tissue, or assay.","requiredResolution":"Specify exact family member, precursor/mature and latent/active state, species, oligomeric or receptor-bound state, compartment, structure source, assay, endpoint, and evidence tier."},
     {"pageId":"th17-treg-balance","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"context-dependent-Th17-Treg-population-relationship;PMID:38558800","reason":"Heterogeneous immune-cell populations, markers, tissues, time points, diseases, and cytokine contexts are collapsed into a universal balance and causal switch.","requiredResolution":"Define population, specimen, markers/gating, assay, time point, disease/model, cytokine context, comparator, endpoint, and evidence tier."},
@@ -53,6 +61,9 @@
       "controlledIdentifier": "MeSH:D019108",
       "promptSha256": "5448a1cf18438234e9f66829a48d4244142956ef23d70d571df478dc80735c5b",
       "sha256": "e6514ce71ebb35cf022b4f2367b1cc9ebfe09920f420a107f1d3f7966422dd89",
+      "masterSha256": "c7f2ce6623346cd48823a6770e0a9c43b71386e7e0901f563336e1ac6f910571",
+      "articleSha256": "3b2c368f57d30c9d69bc5d3e3325c9247ef57403754169d0c4dc6ce7d34fbe07",
+      "socialSha256": "0581c89ad7bac025abd2ec582ab1481990cae812adebfd021bc4729eb1819f79",
       "fileSizeBytes": 2397905,
       "dimensions": {"width": 1536, "height": 1024},
       "scientificReferences": ["https://meshb.nlm.nih.gov/record/ui?ui=D019108", "https://pubmed.ncbi.nlm.nih.gov/38859584/"],
