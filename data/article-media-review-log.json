@@ -14246,6 +14246,78 @@
       "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/Indoxyl-Sulfate", "https://www.ebi.ac.uk/chebi/CHEBI%3A43355", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228088/", "https://doi.org/10.1046/j.1471-4159.2002.01108.x", "https://pubmed.ncbi.nlm.nih.gov/25349205/", "https://pubmed.ncbi.nlm.nih.gov/26912554/", "local:data/content.generated.json#/pages/indoxyl-sulfate"],
       "requiredResolution": "Preserve the exact chemical pathway while separating cell, animal, human, renal-clearance, transporter-direction, association, and intervention evidence; remove deterministic cadmium and disease chains.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "infant-exposure",
+      "controlledIdentifier": "WikiBiome:infant-exposure;no-exact-controlled-identifier",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Heterogeneous prenatal, dietary, environmental, and iatrogenic exposures are collapsed into one infant phenotype and include unsafe prenatal-chelation framing.",
+      "checkedUrls": ["https://www.fda.gov/food/hfp-constituent-updates/fda-issues-final-guidance-industry-action-levels-lead-processed-food-intended-babies-and-young", "https://www.fda.gov/media/164684/download", "https://www.cdc.gov/lead-prevention/media/pdfs/2025/03/cdc_147837_DS1.pdf", "https://www.cdc.gov/lead-prevention/hcp/clinical-guidance/index.html", "local:data/content.generated.json#/pages/infant-exposure"],
+      "requiredResolution": "Separate age, route, analyte/species, dose, product, geography, endpoint, and evidence; remove generalized chelation framing and reconcile overlapping routes.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "insulin-resistance",
+      "controlledIdentifier": "MeSH:D007333",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A measurable physiological state is dominated by PCOS and metal narratives and turns uncertain chromium biology, associations, and experimental interventions into general mechanisms and advice.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D007333", "local:data/content.generated.json#/pages/insulin-resistance"],
+      "requiredResolution": "Rebuild around operational definitions and measurement; separate tissues and syndromes, association and causation, human and model evidence, and guideline-grounded care.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "interleukin-6",
+      "controlledIdentifier": "MeSH:D015850;UniProt:P05231",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exact cytokine is identifiable, but classic, trans-, and cluster signaling, metal causality, disease mediation, biomarkers, supplementation, and treatment implications are overgeneralized.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015850", "https://www.uniprot.org/uniprot/P05231.html", "https://pubmed.ncbi.nlm.nih.gov/24986424/", "https://pubmed.ncbi.nlm.nih.gov/37069261/", "local:data/content.generated.json#/pages/interleukin-6"],
+      "requiredResolution": "Rebuild around exact protein and receptor identities, cell and tissue context, timing, signaling modes, and evidence-bounded disease examples.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "intestinal-permeability",
+      "controlledIdentifier": "MeSH:D000095644",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A broad physiological process becomes a universal disease gateway while serum zonulin and causal and treatment claims exceed assay and clinical evidence.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D000095644", "https://pubmed.ncbi.nlm.nih.gov/29459849/", "https://pubmed.ncbi.nlm.nih.gov/32563954/", "https://pubmed.ncbi.nlm.nih.gov/34513903/", "local:data/content.generated.json#/pages/intestinal-permeability"],
+      "requiredResolution": "Define pathway, site, probe, and method; separate injury from permeability, remove universal causal chains, and distinguish research biomarkers from validated clinical tests and treatments.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "iron-sulfur-clusters",
+      "controlledIdentifier": "related-MeSH:D007506;no-single-cluster-identifier",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Diverse cofactors, proteins, organisms, compartments, assembly systems, and damage modes are collapsed into a universal toxic-metal mechanism with unsupported organism dependencies.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D007506", "https://pubmed.ncbi.nlm.nih.gov/26488283/", "https://pubmed.ncbi.nlm.nih.gov/38744662/", "https://pubmed.ncbi.nlm.nih.gov/29019354/", "local:data/content.generated.json#/pages/iron-sulfur-clusters"],
+      "requiredResolution": "Specify cluster, protein, organism, compartment, assembly pathway, exposure, concentration, and evidence; remove universal damage and dependency claims.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "irving-williams-series",
+      "controlledIdentifier": "named-chemistry-principle;no-exact-MeSH",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A conditional affinity trend is presented as an exceptionless rule for all ligands, proteins, metals, cells, toxicants, and diseases.",
+      "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC7239837/", "https://pubmed.ncbi.nlm.nih.gov/36124565/", "https://pubmed.ncbi.nlm.nih.gov/35236987/", "local:data/content.generated.json#/pages/irving-williams-series"],
+      "requiredResolution": "Bound the chemical domain; distinguish thermodynamics, kinetics, buffered availability, transport, oxidation state, geometry, and cellular selectivity; handle non-series ions separately.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
