@@ -32,7 +32,15 @@
   "failedGenerationCount": 0,
   "quarantinedGenerationCount": 0,
   "revisionCount": 0,
-  "promotionRule": "Only a literal Taurine output with exactly seven visible heavy-atom centers and the frozen two-carbon, one-nitrogen, one-sulfur, three-oxygen connectivity may proceed to exact-hash review. The other five routes remain non-public scientific holds.",
+  "promotionRule": "Only the exact accepted Taurine source hash may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. The other five routes remain non-public scientific holds.",
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative; native 1200 by 630 inspection preserves all seven centers and every connector without clipping or label leakage, with symmetric pale side padding",
+  "promotionDerivatives": {
+    "taurine": {
+      "masterSha256": "a0e1bf091344d77a0f09ed80cc034d9dfadadc52b15cdc741d7ca2611a5c7e64",
+      "articleSha256": "24252311352fc134e0dfc50a5614c894cfe0edcf92739e47356a88233d743770",
+      "socialSha256": "eabc73ff2fb053c6821efea90a2e05c111c427bb0c01a2433bfd5d43b9883a6f"
+    }
+  },
   "routeDecisions": [
     {"pageId":"synbiotic","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotics-identity","reason":"This route and synbiotics represent the same named concept with overlapping but divergent content and sources.","requiredResolution":"Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and tier."},
     {"pageId":"synbiotics","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotic-identity","reason":"This route and synbiotic represent the same named concept with overlapping but divergent content and sources.","requiredResolution":"Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and tier."},
@@ -53,6 +61,9 @@
       "controlledIdentifier": "PubChem:1123;ChEBI:15891",
       "promptSha256": "cd156bf3fecbc9da2d9bceb76b2e016587bdef31f0120fc2e2f4a2f8f6ea915a",
       "sha256": "843429b5e64a94d58269e4fb0c025401524359ff1eaf69da98d25c9ddcb0d787",
+      "masterSha256": "a0e1bf091344d77a0f09ed80cc034d9dfadadc52b15cdc741d7ca2611a5c7e64",
+      "articleSha256": "24252311352fc134e0dfc50a5614c894cfe0edcf92739e47356a88233d743770",
+      "socialSha256": "eabc73ff2fb053c6821efea90a2e05c111c427bb0c01a2433bfd5d43b9883a6f",
       "fileSizeBytes": 1097009,
       "dimensions": {"width": 1536, "height": 1024},
       "scientificReferences": ["https://pubchem.ncbi.nlm.nih.gov/compound/1123", "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15891", "https://pubmed.ncbi.nlm.nih.gov/35954180/"],

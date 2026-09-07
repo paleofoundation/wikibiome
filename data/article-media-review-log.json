@@ -12500,6 +12500,38 @@
         "sourceSha256": "a58dcb8a4c494eb27ede661bb591824f6fdc31c2e5ca4c160e174105c5617675",
         "generationRecord": "exec-0f7b5085-a173-4144-9d10-23162cdbc912.png"
       }
+    },
+    "taurine|taurine-mechanism-v1.webp": {
+      "pageId": "taurine",
+      "publishedFile": "taurine-mechanism-v1.webp",
+      "masterSource": "taurine-mechanism-v1-master.png",
+      "socialFile": "taurine-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/1123",
+          "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15891",
+          "https://pubmed.ncbi.nlm.nih.gov/35954180/"
+        ],
+        "notes": "PubChem and ChEBI establish taurine identity and heavy-atom connectivity while distinguishing related protonation states; the PubMed review supplies bile-acid and microbiota context without being depicted as an observed effect."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review observed exactly seven centers in N-C-C-S(-O)3 connectivity: one nitrogen-colored center, two carbon-colored centers, one sulfur-colored center, and three oxygen-colored centers, with no extras or labels."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names the visible center types and connectivity without relying on color; the caption discloses omitted hydrogens, charge, protonation state, conformation, and experimental-structure status."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source hash 843429b5e64a94d58269e4fb0c025401524359ff1eaf69da98d25c9ddcb0d787; centered-contain social derivative only.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null
+      }
     }
   },
   "rejectedAssets": [
@@ -14183,7 +14215,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The exact human protein is identifiable, but the page reduces it to one gingipain narrative and lacks a defensible structure or tissue representation boundary.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D016209", "https://www.uniprot.org/uniprotkb/P10145/entry", "local:data/content.generated.json#/pages/il-8"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D016209",
+        "https://www.uniprot.org/uniprotkb/P10145/entry",
+        "local:data/content.generated.json#/pages/il-8"
+      ],
       "requiredResolution": "Rebuild around human CXCL8 identity, receptors, processing, cellular sources, and bounded disease contexts; then select an exact structure or explicitly contextual tissue representation.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14195,7 +14231,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A non-canonical umbrella term presents heterogeneous, plastic immune states and broad metal, microbiome, disease, and treatment claims as a single binary equilibrium.",
-      "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC3494736/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3905679/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4681807/", "local:data/content.generated.json#/pages/immune-balance"],
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3494736/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3905679/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4681807/",
+        "local:data/content.generated.json#/pages/immune-balance"
+      ],
       "requiredResolution": "Define a narrower measurable construct, separate immune compartments and evidence levels, remove binary causal simplifications, verify exposures, and remove unsourced treatment advice.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14207,7 +14248,14 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A broad treatment class is represented almost entirely as cancer checkpoint inhibition while cohort associations, experimental FMT, taxa, metabolites, and supplementation become deterministic clinical rules.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D007167", "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy", "https://pubmed.ncbi.nlm.nih.gov/35228751/", "https://pubmed.ncbi.nlm.nih.gov/42168704/", "https://pubmed.ncbi.nlm.nih.gov/32358520/", "local:data/content.generated.json#/pages/immunotherapy"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007167",
+        "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy",
+        "https://pubmed.ncbi.nlm.nih.gov/35228751/",
+        "https://pubmed.ncbi.nlm.nih.gov/42168704/",
+        "https://pubmed.ncbi.nlm.nih.gov/32358520/",
+        "local:data/content.generated.json#/pages/immunotherapy"
+      ],
       "requiredResolution": "Narrow the route or cover the full class; separate association from intervention, human from model evidence, regimen-specific findings, trials, and standard care.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14219,7 +14267,14 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The exact parent compound is mixed with a heterogeneous derivative family and context-dependent receptor, concentration, species, disease, and organism claims.",
-      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/798", "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=16881", "https://pubmed.ncbi.nlm.nih.gov/26235394/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3990014/", "https://pubmed.ncbi.nlm.nih.gov/25065623/", "local:data/content.generated.json#/pages/indole"],
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/798",
+        "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=16881",
+        "https://pubmed.ncbi.nlm.nih.gov/26235394/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3990014/",
+        "https://pubmed.ncbi.nlm.nih.gov/25065623/",
+        "local:data/content.generated.json#/pages/indole"
+      ],
       "requiredResolution": "Separate parent from derivatives; specify structures, concentrations, receptors, species, cells, and models; and resolve duplication with the indoles route.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14231,7 +14286,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A broad chemical class is redefined as an exclusively microbial pathway and compounds with distinct structures, producers, host transformations, receptors, and effects are collapsed into one protective axis.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/mesh/68007211", "https://www.ebi.ac.uk/chebi/CHEBI%3A24828", "https://pubmed.ncbi.nlm.nih.gov/25065623/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3990014/", "local:data/content.generated.json#/pages/indoles"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68007211",
+        "https://www.ebi.ac.uk/chebi/CHEBI%3A24828",
+        "https://pubmed.ncbi.nlm.nih.gov/25065623/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3990014/",
+        "local:data/content.generated.json#/pages/indoles"
+      ],
       "requiredResolution": "Choose chemical-class or microbial-metabolite scope, reconcile the singular duplicate, and source each compound-specific pathway, receptor, concentration, species, and model.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14243,7 +14304,15 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The exact metabolite is identifiable, but model and association evidence become universal producers, causal organ damage, a cadmium mechanism, BBB passage, biomarkers, and treatment implications.",
-      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/Indoxyl-Sulfate", "https://www.ebi.ac.uk/chebi/CHEBI%3A43355", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228088/", "https://doi.org/10.1046/j.1471-4159.2002.01108.x", "https://pubmed.ncbi.nlm.nih.gov/25349205/", "https://pubmed.ncbi.nlm.nih.gov/26912554/", "local:data/content.generated.json#/pages/indoxyl-sulfate"],
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/Indoxyl-Sulfate",
+        "https://www.ebi.ac.uk/chebi/CHEBI%3A43355",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228088/",
+        "https://doi.org/10.1046/j.1471-4159.2002.01108.x",
+        "https://pubmed.ncbi.nlm.nih.gov/25349205/",
+        "https://pubmed.ncbi.nlm.nih.gov/26912554/",
+        "local:data/content.generated.json#/pages/indoxyl-sulfate"
+      ],
       "requiredResolution": "Preserve the exact chemical pathway while separating cell, animal, human, renal-clearance, transporter-direction, association, and intervention evidence; remove deterministic cadmium and disease chains.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14255,7 +14324,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Heterogeneous prenatal, dietary, environmental, and iatrogenic exposures are collapsed into one infant phenotype and include unsafe prenatal-chelation framing.",
-      "checkedUrls": ["https://www.fda.gov/food/hfp-constituent-updates/fda-issues-final-guidance-industry-action-levels-lead-processed-food-intended-babies-and-young", "https://www.fda.gov/media/164684/download", "https://www.cdc.gov/lead-prevention/media/pdfs/2025/03/cdc_147837_DS1.pdf", "https://www.cdc.gov/lead-prevention/hcp/clinical-guidance/index.html", "local:data/content.generated.json#/pages/infant-exposure"],
+      "checkedUrls": [
+        "https://www.fda.gov/food/hfp-constituent-updates/fda-issues-final-guidance-industry-action-levels-lead-processed-food-intended-babies-and-young",
+        "https://www.fda.gov/media/164684/download",
+        "https://www.cdc.gov/lead-prevention/media/pdfs/2025/03/cdc_147837_DS1.pdf",
+        "https://www.cdc.gov/lead-prevention/hcp/clinical-guidance/index.html",
+        "local:data/content.generated.json#/pages/infant-exposure"
+      ],
       "requiredResolution": "Separate age, route, analyte/species, dose, product, geography, endpoint, and evidence; remove generalized chelation framing and reconcile overlapping routes.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14267,7 +14342,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A measurable physiological state is dominated by PCOS and metal narratives and turns uncertain chromium biology, associations, and experimental interventions into general mechanisms and advice.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D007333", "local:data/content.generated.json#/pages/insulin-resistance"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007333",
+        "local:data/content.generated.json#/pages/insulin-resistance"
+      ],
       "requiredResolution": "Rebuild around operational definitions and measurement; separate tissues and syndromes, association and causation, human and model evidence, and guideline-grounded care.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14279,7 +14357,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The exact cytokine is identifiable, but classic, trans-, and cluster signaling, metal causality, disease mediation, biomarkers, supplementation, and treatment implications are overgeneralized.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015850", "https://www.uniprot.org/uniprot/P05231.html", "https://pubmed.ncbi.nlm.nih.gov/24986424/", "https://pubmed.ncbi.nlm.nih.gov/37069261/", "local:data/content.generated.json#/pages/interleukin-6"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015850",
+        "https://www.uniprot.org/uniprot/P05231.html",
+        "https://pubmed.ncbi.nlm.nih.gov/24986424/",
+        "https://pubmed.ncbi.nlm.nih.gov/37069261/",
+        "local:data/content.generated.json#/pages/interleukin-6"
+      ],
       "requiredResolution": "Rebuild around exact protein and receptor identities, cell and tissue context, timing, signaling modes, and evidence-bounded disease examples.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14291,7 +14375,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A broad physiological process becomes a universal disease gateway while serum zonulin and causal and treatment claims exceed assay and clinical evidence.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D000095644", "https://pubmed.ncbi.nlm.nih.gov/29459849/", "https://pubmed.ncbi.nlm.nih.gov/32563954/", "https://pubmed.ncbi.nlm.nih.gov/34513903/", "local:data/content.generated.json#/pages/intestinal-permeability"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000095644",
+        "https://pubmed.ncbi.nlm.nih.gov/29459849/",
+        "https://pubmed.ncbi.nlm.nih.gov/32563954/",
+        "https://pubmed.ncbi.nlm.nih.gov/34513903/",
+        "local:data/content.generated.json#/pages/intestinal-permeability"
+      ],
       "requiredResolution": "Define pathway, site, probe, and method; separate injury from permeability, remove universal causal chains, and distinguish research biomarkers from validated clinical tests and treatments.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14303,7 +14393,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Diverse cofactors, proteins, organisms, compartments, assembly systems, and damage modes are collapsed into a universal toxic-metal mechanism with unsupported organism dependencies.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D007506", "https://pubmed.ncbi.nlm.nih.gov/26488283/", "https://pubmed.ncbi.nlm.nih.gov/38744662/", "https://pubmed.ncbi.nlm.nih.gov/29019354/", "local:data/content.generated.json#/pages/iron-sulfur-clusters"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007506",
+        "https://pubmed.ncbi.nlm.nih.gov/26488283/",
+        "https://pubmed.ncbi.nlm.nih.gov/38744662/",
+        "https://pubmed.ncbi.nlm.nih.gov/29019354/",
+        "local:data/content.generated.json#/pages/iron-sulfur-clusters"
+      ],
       "requiredResolution": "Specify cluster, protein, organism, compartment, assembly pathway, exposure, concentration, and evidence; remove universal damage and dependency claims.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14315,7 +14411,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A conditional affinity trend is presented as an exceptionless rule for all ligands, proteins, metals, cells, toxicants, and diseases.",
-      "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC7239837/", "https://pubmed.ncbi.nlm.nih.gov/36124565/", "https://pubmed.ncbi.nlm.nih.gov/35236987/", "local:data/content.generated.json#/pages/irving-williams-series"],
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7239837/",
+        "https://pubmed.ncbi.nlm.nih.gov/36124565/",
+        "https://pubmed.ncbi.nlm.nih.gov/35236987/",
+        "local:data/content.generated.json#/pages/irving-williams-series"
+      ],
       "requiredResolution": "Bound the chemical domain; distinguish thermodynamics, kinetics, buffered availability, transport, oxidation state, geometry, and cellular selectivity; handle non-series ions separately.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14327,7 +14428,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A broad chemical class is reduced to soy, equol-producer prevalence, and generalized disease-response claims without compound, population, dose, or evidence boundaries.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D007529", "local:data/content.generated.json#/pages/isoflavones"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007529",
+        "local:data/content.generated.json#/pages/isoflavones"
+      ],
       "requiredResolution": "Define class versus selected compounds; distinguish daidzein metabolism; verify taxa and human evidence; bind claims to compound, dose, model, and outcome.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14339,7 +14443,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A sparse class page conflates endogenous ketone metabolism, ketogenic-diet microbiome effects, beta-hydroxybutyrate signaling, and clinical indications.",
-      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/pathway/Reactome:R-HSA-74182", "local:data/content.generated.json#/pages/ketone-bodies"],
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/pathway/Reactome:R-HSA-74182",
+        "local:data/content.generated.json#/pages/ketone-bodies"
+      ],
       "requiredResolution": "Separate the three compounds, ketogenesis and ketolysis, physiological and pathological ketosis, endogenous signaling, diet effects, and indication-level evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14351,7 +14458,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A compartment- and concentration-dependent pathway is split into universal neuroprotective and neurotoxic arms and tied to unsupported iron-driven activation and disease causality.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/42315009/", "https://pubmed.ncbi.nlm.nih.gov/34862742/", "local:data/content.generated.json#/pages/kynurenine-pathway"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42315009/",
+        "https://pubmed.ncbi.nlm.nih.gov/34862742/",
+        "local:data/content.generated.json#/pages/kynurenine-pathway"
+      ],
       "requiredResolution": "Correct enzyme/cofactor claims and bind every metabolite and disease statement to compartment, concentration, specimen, species, assay, and evidence level.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14363,7 +14474,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Organism- and condition-specific labile pools are presented through a mixed, dimensionally suspect table and universal buffering, metalation, and cross-metal mechanisms.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39755956/", "https://pubmed.ncbi.nlm.nih.gov/33454001/", "local:data/content.generated.json#/pages/labile-metal-pool"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39755956/",
+        "https://pubmed.ncbi.nlm.nih.gov/33454001/",
+        "local:data/content.generated.json#/pages/labile-metal-pool"
+      ],
       "requiredResolution": "Rebuild per organism, ion, compartment, method, species, and condition; distinguish thermodynamic availability, concentration, total quota, and sensor inference.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14375,7 +14490,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The exact hormone is identifiable, but a sparse article presents a deterministic microbiome-metal-obesity feedback loop instead of receptor-, tissue-, and evidence-bounded biology.",
-      "checkedUrls": ["https://www.uniprot.org/uniprotkb/P41159/entry", "local:data/content.generated.json#/pages/leptin"],
+      "checkedUrls": [
+        "https://www.uniprot.org/uniprotkb/P41159/entry",
+        "local:data/content.generated.json#/pages/leptin"
+      ],
       "requiredResolution": "Rebuild around protein/receptor identity, secretion, central/peripheral actions, deficiency versus resistance, and bounded microbiome and exposure findings.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14387,7 +14505,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "An extremely broad physiological domain is represented by a few microbiome, metabolite, sex, disease, and heavy-metal claims and cannot map to one honest image.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D050356", "local:data/content.generated.json#/pages/lipid-metabolism"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D050356",
+        "local:data/content.generated.json#/pages/lipid-metabolism"
+      ],
       "requiredResolution": "Choose a bounded lipid class, organism, tissue, compartment, process, and physiological or disease question, or convert the route into a navigational overview.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14399,7 +14520,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A defined chemical process is reduced to selected metals and speculative microbiome protection without lipid, compartment, initiation, assay, or evidence boundaries.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015227", "local:data/content.generated.json#/pages/lipid-peroxidation"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015227",
+        "local:data/content.generated.json#/pages/lipid-peroxidation"
+      ],
       "requiredResolution": "Separate oxidation modes, lipid and compartment, chain stages, biomarkers, measurement limits, and human versus model evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14411,7 +14535,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A structurally diverse bacterial class is treated as one pathogenic signal and connected to universal dysbiosis, translocation, disease, and metal-amplification chains.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D008070", "local:data/content.generated.json#/pages/lipopolysaccharide"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008070",
+        "local:data/content.generated.json#/pages/lipopolysaccharide"
+      ],
       "requiredResolution": "Specify organism/strain, chemotype, molecular species, host, compartment, dose, purity, receptor system, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14423,7 +14550,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Heterogeneous human exposures and experimental animal models become one deterministic fetal cytokine, microglial, microbiome, metal, and neurodevelopmental cascade.",
-      "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC8754471/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC9021321/", "https://pubmed.ncbi.nlm.nih.gov/37123361/", "local:data/content.generated.json#/pages/maternal-immune-activation"],
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8754471/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9021321/",
+        "https://pubmed.ncbi.nlm.nih.gov/37123361/",
+        "local:data/content.generated.json#/pages/maternal-immune-activation"
+      ],
       "requiredResolution": "Separate human epidemiology from each animal model, exposure, timing, compartment, species, sex, outcome, and intervention.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14435,7 +14567,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The human MMP family is conflated with unrelated microbial zinc proteases and dietary zinc, metal substitution, metastasis, and endometriosis claims.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D020782", "local:data/content.generated.json#/pages/matrix-metalloproteases"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020782",
+        "local:data/content.generated.json#/pages/matrix-metalloproteases"
+      ],
       "requiredResolution": "Separate protease families and bind each claim to a specific enzyme, structure, activation state, tissue, substrate, exposure, and study design.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14447,7 +14582,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A variable dietary pattern becomes a duplicated prescriptive PCOS/nickel intervention page with unsupported universal screening, contraindication, and substitution advice.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/mesh/?term=Mediterranean+Diet", "local:data/content.generated.json#/pages/mediterranean-diet"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Mediterranean+Diet",
+        "local:data/content.generated.json#/pages/mediterranean-diet"
+      ],
       "requiredResolution": "Reconcile duplicates; define index and population; separate evidence tiers; remove unsupported prescriptions; distinguish allergy diagnosis from prevalence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14459,7 +14597,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A causal-inference method is presented through unreplicated microbiome findings as a causal backbone that directly determines intervention targets.",
-      "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC7217228/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC6041728/", "https://pubmed.ncbi.nlm.nih.gov/33462485/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC11389083/", "local:data/content.generated.json#/pages/mendelian-randomization"],
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7217228/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6041728/",
+        "https://pubmed.ncbi.nlm.nih.gov/33462485/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11389083/",
+        "local:data/content.generated.json#/pages/mendelian-randomization"
+      ],
       "requiredResolution": "Center estimands, assumptions, instruments, harmonization, multiplicity, replication, sensitivity, ancestry and taxonomic limits, and cautious interpretation.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14471,7 +14615,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The syndrome is reduced to contradictory cross-sectional nickel studies while prevalence comparisons and oxidative-stress markers risk implying causality.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D024821", "local:data/content.generated.json#/pages/metabolic-syndrome"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D024821",
+        "local:data/content.generated.json#/pages/metabolic-syndrome"
+      ],
       "requiredResolution": "Define diagnostic criteria, specimen/biomarker, exposure, timing, kidney adjustment, population, covariates, multiplicity, and prospective evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14483,7 +14630,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A measurement discipline is presented as a platform and biomarker catalog with analytical generalizations and no specimen, identification, QC, normalization, or validation standards.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D055432", "https://pubmed.ncbi.nlm.nih.gov/24039616/", "https://pubmed.ncbi.nlm.nih.gov/34928621/", "local:data/content.generated.json#/pages/metabolomics"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D055432",
+        "https://pubmed.ncbi.nlm.nih.gov/24039616/",
+        "https://pubmed.ncbi.nlm.nih.gov/34928621/",
+        "local:data/content.generated.json#/pages/metabolomics"
+      ],
       "requiredResolution": "Rebuild around design, specimen, preparation, platform, separation, ionization, calibration, QC, normalization, annotation confidence, validation, batch effects, and deposition.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14495,7 +14647,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Distinct elements, species, routes, doses, tissues, and cancer sites are compressed into three universal mechanistic paradigms and one repair-inhibition theme.",
-      "checkedUrls": ["https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/carcinogens", "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/chromium", "https://dceg.cancer.gov/research/public-health-impact/occupation", "local:data/content.generated.json#/pages/metal-carcinogenesis"],
+      "checkedUrls": [
+        "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/carcinogens",
+        "https://www.cancer.gov/about-cancer/causes-prevention/risk/substances/chromium",
+        "https://dceg.cancer.gov/research/public-health-impact/occupation",
+        "local:data/content.generated.json#/pages/metal-carcinogenesis"
+      ],
       "requiredResolution": "Separate agent/species, exposure route, target site, human evidence, mechanistic model, dose, co-exposure, and regulatory classification.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14507,7 +14664,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Prescription treatment is presented as a simplified chelator-by-metal protocol with approval, indication, threshold, first-line, safety, and efficacy claims requiring current toxicology guidance.",
-      "checkedUrls": ["https://www.fda.gov/drugs/medication-health-fraud/questions-and-answers-unapproved-chelation-products", "https://www.fda.gov/drugs/drug-safety-and-availability/fda-warns-consumers-about-potential-health-risks-using-thorne-researchs-captomer-products", "https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=1203&toxid=22", "local:data/content.generated.json#/pages/metal-chelation-therapy"],
+      "checkedUrls": [
+        "https://www.fda.gov/drugs/medication-health-fraud/questions-and-answers-unapproved-chelation-products",
+        "https://www.fda.gov/drugs/drug-safety-and-availability/fda-warns-consumers-about-potential-health-risks-using-thorne-researchs-captomer-products",
+        "https://wwwn.cdc.gov/TSP/MMG/MMGDetails.aspx?mmgid=1203&toxid=22",
+        "local:data/content.generated.json#/pages/metal-chelation-therapy"
+      ],
       "requiredResolution": "Replace protocols with a non-prescriptive, dated jurisdictional overview linked to toxicology guidance, exact approvals, contraindications, monitoring, source control, and emergency referral.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14519,7 +14681,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Selected genes, taxa, environments, mobile elements, and co-selection examples become universal automatic AMR-selection and clinical-risk claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/38897736/", "https://pubmed.ncbi.nlm.nih.gov/35170159/", "local:data/content.generated.json#/pages/metal-resistance-genes"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38897736/",
+        "https://pubmed.ncbi.nlm.nih.gov/35170159/",
+        "local:data/content.generated.json#/pages/metal-resistance-genes"
+      ],
       "requiredResolution": "Separate resistance mechanisms and require host-linked genomic and functional evidence, expression, transfer, metal species/concentration, environment, and clinical outcome.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14531,7 +14697,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Diverse organism-specific protein and RNA sensors become one compatibility and flow theory with universal virulence and therapeutic-target claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39658019/", "https://pubmed.ncbi.nlm.nih.gov/39755956/", "https://pubmed.ncbi.nlm.nih.gov/25160631/", "local:data/content.generated.json#/pages/metal-sensing"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39658019/",
+        "https://pubmed.ncbi.nlm.nih.gov/39755956/",
+        "https://pubmed.ncbi.nlm.nih.gov/25160631/",
+        "local:data/content.generated.json#/pages/metal-sensing"
+      ],
       "requiredResolution": "Rebuild by sensor family, organism and identifier, cognate species, structure, stoichiometry, regulon, assay, condition, and in-vivo evidence; separate hypotheses from validated targets.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14543,7 +14714,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Oxidation state, chemical species, fractionation, and bioavailability are conflated, with categorical biological claims that omit matrix, pH, ligands, kinetics, preservation, and analytical method.",
-      "checkedUrls": ["https://goldbook.iupac.org/terms/view/ST06861", "https://goldbook.iupac.org/terms/view/ST06848", "https://publications.iupac.org/pac/72/8/1453/index.html", "https://pubmed.ncbi.nlm.nih.gov/39532431/", "local:data/content.generated.json#/pages/metal-speciation"],
+      "checkedUrls": [
+        "https://goldbook.iupac.org/terms/view/ST06861",
+        "https://goldbook.iupac.org/terms/view/ST06848",
+        "https://publications.iupac.org/pac/72/8/1453/index.html",
+        "https://pubmed.ncbi.nlm.nih.gov/39532431/",
+        "local:data/content.generated.json#/pages/metal-speciation"
+      ],
       "requiredResolution": "Define one element, matrix, physical-chemical conditions, time scale, preservation, separation/detection method, and operationally identified species.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14555,7 +14732,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Diverse direct-transfer, scaffold, carrier, accessory, and energy-dependent systems are presented as one universal escort and kinetic-control mechanism.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/28487396/", "https://pubmed.ncbi.nlm.nih.gov/39658019/", "local:data/content.generated.json#/pages/metallochaperone"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/28487396/",
+        "https://pubmed.ncbi.nlm.nih.gov/39658019/",
+        "local:data/content.generated.json#/pages/metallochaperone"
+      ],
       "requiredResolution": "Rebuild by organism, protein identifier/structure, metal species, client, compartment, stoichiometry, nucleotide dependence, demonstrated interaction, and assay.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14567,7 +14748,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The singular and plural routes cover the same concept while receptor, concentration, epidemiological, and disease-causality claims exceed the cited evidence.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/22161274/", "https://pubmed.ncbi.nlm.nih.gov/22970719/", "local:data/content.generated.json#/pages/metalloestrogen", "local:data/content.generated.json#/pages/metalloestrogens"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/22161274/",
+        "https://pubmed.ncbi.nlm.nih.gov/22970719/",
+        "local:data/content.generated.json#/pages/metalloestrogen",
+        "local:data/content.generated.json#/pages/metalloestrogens"
+      ],
       "requiredResolution": "Reconcile the duplicate canonical identity and separate chemical species, receptor, assay, concentration, model, tissue, and human outcome.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14579,7 +14765,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Heterogeneous ions, species, assays, receptors, doses, and disease observations are combined into one causal class despite conflicting human evidence.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/10770491/", "https://pubmed.ncbi.nlm.nih.gov/12873394/", "https://pubmed.ncbi.nlm.nih.gov/22161274/", "https://pubmed.ncbi.nlm.nih.gov/22970719/", "local:data/content.generated.json#/pages/metalloestrogens"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10770491/",
+        "https://pubmed.ncbi.nlm.nih.gov/12873394/",
+        "https://pubmed.ncbi.nlm.nih.gov/22161274/",
+        "https://pubmed.ncbi.nlm.nih.gov/22970719/",
+        "local:data/content.generated.json#/pages/metalloestrogens"
+      ],
       "requiredResolution": "Merge or distinguish the duplicate route; grade evidence per chemical species and endpoint and separate hypotheses from established human effects.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14591,7 +14783,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Exploratory multi-element studies are presented as disease-specific diagnostic tiers despite heterogeneous matrices and methods, small cohorts, and absent prospective validation.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/34048228/", "https://pubmed.ncbi.nlm.nih.gov/39532431/", "https://pubmed.ncbi.nlm.nih.gov/7741231/", "local:data/content.generated.json#/pages/metallomics"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34048228/",
+        "https://pubmed.ncbi.nlm.nih.gov/39532431/",
+        "https://pubmed.ncbi.nlm.nih.gov/7741231/",
+        "local:data/content.generated.json#/pages/metallomics"
+      ],
       "requiredResolution": "Rebuild around specimen, analyte, preanalytics, platform, calibration/QC, interference control, batch correction, multiplicity, external validation, and intended use.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14603,7 +14800,14 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Organism- and family-specific sensors are generalized into universal ligand, network-collapse, virulence, co-selection, and drug-target rules.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/16158234/", "https://pubmed.ncbi.nlm.nih.gov/17216355/", "https://pubmed.ncbi.nlm.nih.gov/25160631/", "https://pubmed.ncbi.nlm.nih.gov/28344348/", "https://pubmed.ncbi.nlm.nih.gov/39658019/", "local:data/content.generated.json#/pages/metalloregulator"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16158234/",
+        "https://pubmed.ncbi.nlm.nih.gov/17216355/",
+        "https://pubmed.ncbi.nlm.nih.gov/25160631/",
+        "https://pubmed.ncbi.nlm.nih.gov/28344348/",
+        "https://pubmed.ncbi.nlm.nih.gov/39658019/",
+        "local:data/content.generated.json#/pages/metalloregulator"
+      ],
       "requiredResolution": "Rebuild by organism/strain, regulator identifier/structure, family, metal species, sites/stoichiometry, operator/regulon, assay, mutant phenotype, and in-vivo evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14615,7 +14819,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Mammalian isoforms, species-specific proteins, metalation states, stoichiometries, tissues, and disease claims are compressed into one fixed structure and binding hierarchy.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D008676", "https://pubmed.ncbi.nlm.nih.gov/29431781/", "https://pubmed.ncbi.nlm.nih.gov/35327552/", "https://pubmed.ncbi.nlm.nih.gov/32784815/", "local:data/content.generated.json#/pages/metallothionein"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008676",
+        "https://pubmed.ncbi.nlm.nih.gov/29431781/",
+        "https://pubmed.ncbi.nlm.nih.gov/35327552/",
+        "https://pubmed.ncbi.nlm.nih.gov/32784815/",
+        "local:data/content.generated.json#/pages/metallothionein"
+      ],
       "requiredResolution": "Select an organism and isoform/accession or PDB structure, exact metalation state, conditions, stoichiometry, and experimentally supported function.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14627,7 +14837,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "DNA, histone, protein, and xenobiotic methylation are conflated with one-carbon metabolism and broad microbiome and metal causality.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D008745", "https://pubmed.ncbi.nlm.nih.gov/10754536/", "https://pubmed.ncbi.nlm.nih.gov/42278572/", "local:data/content.generated.json#/pages/methylation"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008745",
+        "https://pubmed.ncbi.nlm.nih.gov/10754536/",
+        "https://pubmed.ncbi.nlm.nih.gov/42278572/",
+        "local:data/content.generated.json#/pages/methylation"
+      ],
       "requiredResolution": "Split by process and specify substrate/site, enzyme, donor, organism/tissue, exposure, assay, genomic context, direction, and causal evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14639,7 +14854,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Associations, pathogens, host inflammatory markers, metabolites, and experimental metallophores are presented as clinical tools without analytical or clinical validation.",
-      "checkedUrls": ["https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification", "https://www.fda.gov/drugs/biomarker-qualification-program/qualifying-biomarker-through-biomarker-qualification-program", "https://pubmed.ncbi.nlm.nih.gov/39243797/", "https://pubmed.ncbi.nlm.nih.gov/39647502/", "local:data/content.generated.json#/pages/microbial-biomarkers"],
+      "checkedUrls": [
+        "https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification",
+        "https://www.fda.gov/drugs/biomarker-qualification-program/qualifying-biomarker-through-biomarker-qualification-program",
+        "https://pubmed.ncbi.nlm.nih.gov/39243797/",
+        "https://pubmed.ncbi.nlm.nih.gov/39647502/",
+        "local:data/content.generated.json#/pages/microbial-biomarkers"
+      ],
       "requiredResolution": "Define BEST category, specimen, measurand, assay, preanalytics, threshold, population, context of use, validation, performance, calibration, and qualification status.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14651,7 +14872,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Host, microbial, co-metabolic, dietary, and hepatic products are combined with categorical beneficial, toxic, and causal disease labels.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/24631493/", "https://pubmed.ncbi.nlm.nih.gov/31848305/", "https://pubmed.ncbi.nlm.nih.gov/39702677/", "local:data/content.generated.json#/pages/metabolites", "local:data/content.generated.json#/pages/microbiome-derived-metabolites"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24631493/",
+        "https://pubmed.ncbi.nlm.nih.gov/31848305/",
+        "https://pubmed.ncbi.nlm.nih.gov/39702677/",
+        "local:data/content.generated.json#/pages/metabolites",
+        "local:data/content.generated.json#/pages/microbiome-derived-metabolites"
+      ],
       "requiredResolution": "Reconcile the duplicate route and organize by compound identifier, source/precursor, organism/enzyme evidence, host co-metabolism, matrix, assay, concentration, and validated effect.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14663,7 +14890,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Estimators and distances with different assumptions are treated as interchangeable disease markers, with generic significance implied without design or model conditions.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39753610/", "https://pubmed.ncbi.nlm.nih.gov/41326814/", "local:data/content.generated.json#/pages/microbiome-diversity-metrics"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39753610/",
+        "https://pubmed.ncbi.nlm.nih.gov/41326814/",
+        "local:data/content.generated.json#/pages/microbiome-diversity-metrics"
+      ],
       "requiredResolution": "Document formulas, assumptions, feature construction, preprocessing, sampling depth, covariates, dispersion, null hypothesis, effect size, uncertainty, and interpretation.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14675,7 +14906,14 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Microbial attribution, host co-metabolism, concentration, compartment, and causality are blurred across many molecules and diseases.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39284033/", "https://pubmed.ncbi.nlm.nih.gov/31848305/", "https://pubmed.ncbi.nlm.nih.gov/39702677/", "https://pubmed.ncbi.nlm.nih.gov/42485525/", "local:data/content.generated.json#/pages/microbiome-derived-metabolites", "local:data/content.generated.json#/pages/metabolites"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39284033/",
+        "https://pubmed.ncbi.nlm.nih.gov/31848305/",
+        "https://pubmed.ncbi.nlm.nih.gov/39702677/",
+        "https://pubmed.ncbi.nlm.nih.gov/42485525/",
+        "local:data/content.generated.json#/pages/microbiome-derived-metabolites",
+        "local:data/content.generated.json#/pages/metabolites"
+      ],
       "requiredResolution": "Merge or distinguish the duplicate route and bound each compound by identity, origin evidence, pathway, compartment, concentration, target, model, and human causal status.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14687,7 +14925,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Heterogeneous context-dependent cell states are reduced to M1/M2 polarity and a universal metal-gut-brain neurodegeneration mediator.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D017628", "https://pubmed.ncbi.nlm.nih.gov/?term=36327895", "https://pubmed.ncbi.nlm.nih.gov/41991797/", "local:data/content.generated.json#/pages/microglia"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D017628",
+        "https://pubmed.ncbi.nlm.nih.gov/?term=36327895",
+        "https://pubmed.ncbi.nlm.nih.gov/41991797/",
+        "local:data/content.generated.json#/pages/microglia"
+      ],
       "requiredResolution": "Specify species, age, region, model, cell markers, state data, exposure dose/route/time, comparator, and measured function using current nomenclature.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14699,7 +14942,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Protein metalation, ionic mimicry, transport competition, toxicology, host defense, exposure biomarkers, and proposed treatments are conflated.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/34763208/", "https://pubmed.ncbi.nlm.nih.gov/38960447/", "local:data/content.generated.json#/pages/mis-metallation"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34763208/",
+        "https://pubmed.ncbi.nlm.nih.gov/38960447/",
+        "local:data/content.generated.json#/pages/mis-metallation"
+      ],
       "requiredResolution": "Split by protein/accession, organism/compartment, cognate and competing species, site/stoichiometry, availability, assay, phenotype, and in-vivo evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14711,7 +14958,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Many organelles, tissues, assays, toxicants, diseases, and cell-death mechanisms are presented as one measurable causal pathway.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/34740866/", "local:data/content.generated.json#/pages/mitochondrial-dysfunction"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34740866/",
+        "local:data/content.generated.json#/pages/mitochondrial-dysfunction"
+      ],
       "requiredResolution": "Define tissue/cell/model, perturbation, dose/time, respiratory substrate and assay, membrane potential, redox/morphology/quality-control measures, comparator, and causal intervention.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14723,7 +14973,14 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "One established infection association and several proposed microbiome links are presented together as a primary causal mechanism without epitope-level proof.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D008969", "https://pubmed.ncbi.nlm.nih.gov/22095454/", "https://pubmed.ncbi.nlm.nih.gov/35572569/", "https://pubmed.ncbi.nlm.nih.gov/36136068/", "https://pubmed.ncbi.nlm.nih.gov/38415936/", "local:data/content.generated.json#/pages/molecular-mimicry"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008969",
+        "https://pubmed.ncbi.nlm.nih.gov/22095454/",
+        "https://pubmed.ncbi.nlm.nih.gov/35572569/",
+        "https://pubmed.ncbi.nlm.nih.gov/36136068/",
+        "https://pubmed.ncbi.nlm.nih.gov/38415936/",
+        "local:data/content.generated.json#/pages/molecular-mimicry"
+      ],
       "requiredResolution": "Document foreign and self epitopes, structural/sequence similarity, HLA, cross-reactivity assay, cohort, epidemiology, model transfer, and alternatives for each example.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14735,7 +14992,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Body-site, transient, colonizing, pathogenic, and low-biomass fungal signals are merged with strong disease and functional claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39189314/", "https://pubmed.ncbi.nlm.nih.gov/40278100/", "https://pubmed.ncbi.nlm.nih.gov/40990048/", "https://pubmed.ncbi.nlm.nih.gov/41369685/", "local:data/content.generated.json#/pages/mycobiome"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/39189314/",
+        "https://pubmed.ncbi.nlm.nih.gov/40278100/",
+        "https://pubmed.ncbi.nlm.nih.gov/40990048/",
+        "https://pubmed.ncbi.nlm.nih.gov/41369685/",
+        "local:data/content.generated.json#/pages/mycobiome"
+      ],
       "requiredResolution": "Define body site, specimen, biomass controls, method, primers/database, absolute burden, viability/residency, taxon resolution, confounders, replication, and function.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14747,7 +15010,14 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Eukaryotic, bacterial, fungal, host-protein, microbial-protein, and glycome-association findings are conflated, including an unsupported metal-dependent enzyme claim.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D006026", "https://pubmed.ncbi.nlm.nih.gov/25936979/", "https://pubmed.ncbi.nlm.nih.gov/26433695/", "https://pubmed.ncbi.nlm.nih.gov/37741057/", "https://pubmed.ncbi.nlm.nih.gov/39455640/", "local:data/content.generated.json#/pages/n-glycosylation"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D006026",
+        "https://pubmed.ncbi.nlm.nih.gov/25936979/",
+        "https://pubmed.ncbi.nlm.nih.gov/26433695/",
+        "https://pubmed.ncbi.nlm.nih.gov/37741057/",
+        "https://pubmed.ncbi.nlm.nih.gov/39455640/",
+        "local:data/content.generated.json#/pages/n-glycosylation"
+      ],
       "requiredResolution": "Select organism, compartment, substrate/site, glycan structure, enzyme/pathway identifiers, analytical method, phenotype, and evidence; remove or substantiate metal dependence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14759,7 +15029,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Distinct diseases, brain regions, metal observations, barriers, cell-death processes, aggregation, and gut-brain hypotheses are collapsed into one causal pathway.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019636", "https://pubmed.ncbi.nlm.nih.gov/34740866/", "local:data/content.generated.json#/pages/neurodegeneration"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019636",
+        "https://pubmed.ncbi.nlm.nih.gov/34740866/",
+        "local:data/content.generated.json#/pages/neurodegeneration"
+      ],
       "requiredResolution": "Select a named disease and define specimen/region, metal species, method, comparator, pathology, effect direction, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14771,7 +15045,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Glial, vascular, peripheral-immune, infectious, toxicant, and disease processes are merged using obsolete M1/M2 microglial framing.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/36327895/", "https://pubmed.ncbi.nlm.nih.gov/36453496/", "https://pubmed.ncbi.nlm.nih.gov/37566021/", "local:data/content.generated.json#/pages/neuroinflammation"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/36327895/",
+        "https://pubmed.ncbi.nlm.nih.gov/36453496/",
+        "https://pubmed.ncbi.nlm.nih.gov/37566021/",
+        "local:data/content.generated.json#/pages/neuroinflammation"
+      ],
       "requiredResolution": "Define species, region, insult, time, cell markers/state data, compartment, measured mediator, comparator, and function using current nomenclature.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14783,7 +15062,13 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The canonical branch is treated as the whole NF-kappa B network while noncanonical signaling, dimer diversity, feedback, cell context, timing, and assay are omitted.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D016328", "https://meshb.nlm.nih.gov/record/ui?ui=D051550", "https://pubmed.ncbi.nlm.nih.gov/38634218/", "https://pubmed.ncbi.nlm.nih.gov/41669117/", "local:data/content.generated.json#/pages/nf-kappa-b"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D016328",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051550",
+        "https://pubmed.ncbi.nlm.nih.gov/38634218/",
+        "https://pubmed.ncbi.nlm.nih.gov/41669117/",
+        "local:data/content.generated.json#/pages/nf-kappa-b"
+      ],
       "requiredResolution": "Specify canonical and noncanonical receptors, proteins, dimers, cell type, stimulus, time, localization, assay, and source-bound evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14795,7 +15080,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Non-specific eczema is merged with localized, systemic, dietary, mucosal, diagnostic, regulatory, and treatment claims.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D017449", "https://pubmed.ncbi.nlm.nih.gov/37283623/", "https://pubmed.ncbi.nlm.nih.gov/38768899/", "local:data/content.generated.json#/pages/nickel-allergy"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D017449",
+        "https://pubmed.ncbi.nlm.nih.gov/37283623/",
+        "https://pubmed.ncbi.nlm.nih.gov/38768899/",
+        "local:data/content.generated.json#/pages/nickel-allergy"
+      ],
       "requiredResolution": "Select one presentation and route with confirmed sensitization context, acute/chronic morphology, differential diagnosis, and evidence-qualified systemic claims.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14807,7 +15097,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Human associations, placental transfer, mixed exposures, animal findings, biomonitoring, and proposed mechanisms are presented as one causal human lesion.",
-      "checkedUrls": ["https://www.atsdr.cdc.gov/ToxProfiles/tp15.pdf", "https://pubmed.ncbi.nlm.nih.gov/39702049/", "https://pubmed.ncbi.nlm.nih.gov/37963536/", "local:data/content.generated.json#/pages/nickel-reproductive-toxicity"],
+      "checkedUrls": [
+        "https://www.atsdr.cdc.gov/ToxProfiles/tp15.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/39702049/",
+        "https://pubmed.ncbi.nlm.nih.gov/37963536/",
+        "local:data/content.generated.json#/pages/nickel-reproductive-toxicity"
+      ],
       "requiredResolution": "Define nickel species, route, dose, timing, biomatrix, design, species, endpoint, mixture/confounder handling, comparator, uncertainty, and causal status.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14819,7 +15114,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "One intraperitoneal rat study and broad mechanistic claims are generalized toward environmental human neurotoxicity.",
-      "checkedUrls": ["https://www.atsdr.cdc.gov/ToxProfiles/tp15.pdf", "local:data/content.generated.json#/pages/nickel-neurotoxicity"],
+      "checkedUrls": [
+        "https://www.atsdr.cdc.gov/ToxProfiles/tp15.pdf",
+        "local:data/content.generated.json#/pages/nickel-neurotoxicity"
+      ],
       "requiredResolution": "Rebuild as a study-specific record or synthesis preserving chemical form, route, dose, tissue level, species/sex, assay, comparator, and human-extrapolation boundary.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14831,7 +15129,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Non-homologous permeases, ABC complexes, broad channels, metallophores, regulators, and host sequestration are merged across organisms and compartments.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/24036122/", "local:data/content.generated.json#/pages/nickel-transporters"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24036122/",
+        "local:data/content.generated.json#/pages/nickel-transporters"
+      ],
       "requiredResolution": "Split by protein/complex identifier, organism/strain, topology/stoichiometry, membrane, substrate species, energy source, regulation, assay, and phenotype.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14843,7 +15144,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Valid E. coli nickel-activated glyoxalase chemistry is mixed with an incorrect reaction label and unsupported disease, diet, zinc, chelation, and antimicrobial claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/10913283/", "https://pubmed.ncbi.nlm.nih.gov/14641060/", "https://pubmed.ncbi.nlm.nih.gov/18533363/", "local:data/content.generated.json#/pages/nickel-glyoxalase"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/10913283/",
+        "https://pubmed.ncbi.nlm.nih.gov/14641060/",
+        "https://pubmed.ncbi.nlm.nih.gov/18533363/",
+        "local:data/content.generated.json#/pages/nickel-glyoxalase"
+      ],
       "requiredResolution": "Define enzyme sequence/structure and organism, correct hemithioacetal chemistry and coordination, metal-activation assay, growth condition, phenotype, and evidence-qualified relevance.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14855,7 +15161,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The active-site ligation is incorrect and organism-specific acid acclimation is extended into unsupported eradication, chelation, disease, and unrelated-protein claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/24036122/", "https://pubmed.ncbi.nlm.nih.gov/41724831/", "local:data/content.generated.json#/pages/nickel-urease"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24036122/",
+        "https://pubmed.ncbi.nlm.nih.gov/41724831/",
+        "local:data/content.generated.json#/pages/nickel-urease"
+      ],
       "requiredResolution": "Select organism and urease/PDB; correct histidine/aspartate/carbamylated-lysine ligation, reaction, oligomer/accessory architecture, pH/activity, phenotype, and clinical evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14867,7 +15177,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Nickel ligation is incorrect and diverse oxygen-sensitive and oxygen-tolerant enzymes are merged with broad pathogen, gut, biofilm, and therapeutic narratives.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/27493211/", "https://pubmed.ncbi.nlm.nih.gov/33753519/", "https://pubmed.ncbi.nlm.nih.gov/40411749/", "local:data/content.generated.json#/pages/nife-hydrogenase"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/27493211/",
+        "https://pubmed.ncbi.nlm.nih.gov/33753519/",
+        "https://pubmed.ncbi.nlm.nih.gov/40411749/",
+        "local:data/content.generated.json#/pages/nife-hydrogenase"
+      ],
       "requiredResolution": "Define enzyme/organism/PDB, subunits and Fe-S relay, catalytic state, four-cysteine nickel ligation, directionality, electron partners, oxygen response, assay, and phenotype.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14879,7 +15194,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Mammalian NOS isoforms, microbial nitrate reduction, gastric chemistry, gut respiration, metal toxicology, and disease associations are collapsed without compartment or flux boundaries.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D009569", "https://meshb.nlm.nih.gov/record/ui?ui=D019001", "https://meshb.nlm.nih.gov/record/ui?ui=D026361", "local:data/content.generated.json#/pages/nitric-oxide"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009569",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019001",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D026361",
+        "local:data/content.generated.json#/pages/nitric-oxide"
+      ],
       "requiredResolution": "Split by cell/compartment and define enzyme, reactants/products, cofactors/oxygen, concentration/flux/time, analytical method, target, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14891,7 +15211,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The sparse route omits KEAP1 turnover, stabilization, translocation, DNA binding, targets, context, assay, and source-qualified microbiome claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/42574364/", "local:data/content.generated.json#/pages/nrf2"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42574364/",
+        "local:data/content.generated.json#/pages/nrf2"
+      ],
       "requiredResolution": "Define NFE2L2/KEAP1 identity, species/cell, exposure/dose/time, protein state/localization, DNA-binding and target-gene readouts, metabolite provenance, and disease-specific evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14903,7 +15226,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Distinct oral habitats, community members, spatial scales, translocation routes, metals, and systemic associations are merged into one generalized ecosystem.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/37700024/", "https://pubmed.ncbi.nlm.nih.gov/32791109/", "local:data/content.generated.json#/pages/oral-microbiome"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/37700024/",
+        "https://pubmed.ncbi.nlm.nih.gov/32791109/",
+        "local:data/content.generated.json#/pages/oral-microbiome"
+      ],
       "requiredResolution": "Split by sampled oral site and define spatial scale, host state, assay, taxonomic resolution, community organization, and evidence-qualified association.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14915,7 +15242,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A general asymmetric membrane is mixed with incorrectly localized transport components and unsupported universal metal-tolerance, disease, and therapeutic claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/12960164/", "local:data/content.generated.json#/pages/outer-membrane"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/12960164/",
+        "local:data/content.generated.json#/pages/outer-membrane"
+      ],
       "requiredResolution": "Select one organism/envelope and define both membranes, periplasm, peptidoglycan, outer-leaflet chemistry, named protein topology, transport direction and energy, and phenotype.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14927,7 +15257,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The route duplicates oxalates and overstates organism loss and colonization as causal stone-risk and therapeutic effects without chemical, host, diet, assay, and outcome boundaries.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D010002", "https://pubmed.ncbi.nlm.nih.gov/34190610/", "https://pubmed.ncbi.nlm.nih.gov/41409368/", "local:data/content.generated.json#/pages/oxalate"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010002",
+        "https://pubmed.ncbi.nlm.nih.gov/34190610/",
+        "https://pubmed.ncbi.nlm.nih.gov/41409368/",
+        "local:data/content.generated.json#/pages/oxalate"
+      ],
       "requiredResolution": "Merge the canonical record; define chemical species, calcium oxalate, microbial degradation, host transport, urinary crystallization, diet, population, assay, and clinical outcome.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14939,7 +15274,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The duplicate route combines food content, endogenous synthesis, diverse microbial pathways, mineral binding, disease, and interventions while overstating ecological exclusivity.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D010002", "https://pubmed.ncbi.nlm.nih.gov/33769280/", "https://pubmed.ncbi.nlm.nih.gov/38422861/", "local:data/content.generated.json#/pages/oxalates"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010002",
+        "https://pubmed.ncbi.nlm.nih.gov/33769280/",
+        "https://pubmed.ncbi.nlm.nih.gov/38422861/",
+        "local:data/content.generated.json#/pages/oxalates"
+      ],
       "requiredResolution": "Merge with oxalate and separate chemical speciation, diet, microbial pathway and taxon, intestinal handling, urine supersaturation, disease endpoint, and intervention evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14951,7 +15291,12 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Multiple reactive species, compartments, organisms, metals, defenses, biomarkers, diseases, and interventions are collapsed into one universal mechanism.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/16987039/", "https://pubmed.ncbi.nlm.nih.gov/28698768/", "https://pubmed.ncbi.nlm.nih.gov/26415143/", "local:data/content.generated.json#/pages/oxidative-stress"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16987039/",
+        "https://pubmed.ncbi.nlm.nih.gov/28698768/",
+        "https://pubmed.ncbi.nlm.nih.gov/26415143/",
+        "local:data/content.generated.json#/pages/oxidative-stress"
+      ],
       "requiredResolution": "Split by species and compartment; define exposure, dose/time, redox target/pathway, assay and sample, biomarker specificity, damage endpoint, organism, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
@@ -14963,252 +15308,588 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "A colon epithelial gradient hypothesis is generalized across metals, respiration modes, intestinal and extraintestinal diseases, and interventions without measurement or location boundaries.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/23812038/", "https://pubmed.ncbi.nlm.nih.gov/27078066/", "local:data/content.generated.json#/pages/oxygen-state"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/23812038/",
+        "https://pubmed.ncbi.nlm.nih.gov/27078066/",
+        "local:data/content.generated.json#/pages/oxygen-state"
+      ],
       "requiredResolution": "Define intestinal segment and radial location, host state, oxygen or redox variable, method and time, metabolite flux, organism respiration phenotype, and evidence tier; separate other body sites.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "p-cresol", "controlledIdentifier": "4-methylphenol;MeSH-Cresols;registry:1MXY2UM8NV", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "p-cresol",
+      "controlledIdentifier": "4-methylphenol;MeSH-Cresols;registry:1MXY2UM8NV",
+      "batchId": "mechanisms-087",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Unconjugated p-cresol, host conjugates, compartments, assays, CKD retention, and ASD/PD hypotheses are conflated with causal claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/40672444/", "https://pubmed.ncbi.nlm.nih.gov/34744609/", "https://pubmed.ncbi.nlm.nih.gov/40534235/", "local:data/content.generated.json#/pages/p-cresol"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40672444/",
+        "https://pubmed.ncbi.nlm.nih.gov/34744609/",
+        "https://pubmed.ncbi.nlm.nih.gov/40534235/",
+        "local:data/content.generated.json#/pages/p-cresol"
+      ],
       "requiredResolution": "Define exact analyte and identifier, precursor and microbial pathway, host conjugation, compartment, assay and units, population and renal state, outcome, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "parenteral-nutrition", "controlledIdentifier": "MeSH-parenteral-nutrition;multi-component-clinical-intervention", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "parenteral-nutrition",
+      "controlledIdentifier": "MeSH-parenteral-nutrition;multi-component-clinical-intervention",
+      "batchId": "mechanisms-087",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Formulations, aluminum and trace elements, enteral deprivation, microbiota, populations, and outcomes are merged; the page includes an invalid linear developmental extrapolation and unsupported intravenous-iron gut mechanism.",
-      "checkedUrls": ["https://www.fda.gov/media/163799/download", "https://pubmed.ncbi.nlm.nih.gov/32682806/", "https://pubmed.ncbi.nlm.nih.gov/35730416/", "local:data/content.generated.json#/pages/parenteral-nutrition"],
+      "checkedUrls": [
+        "https://www.fda.gov/media/163799/download",
+        "https://pubmed.ncbi.nlm.nih.gov/32682806/",
+        "https://pubmed.ncbi.nlm.nih.gov/35730416/",
+        "local:data/content.generated.json#/pages/parenteral-nutrition"
+      ],
       "requiredResolution": "Split by component and population; define formulation, route, dose, duration, age and organ function, comparator, microbiota or clinical outcome, and certainty.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "peptidoglycan", "controlledIdentifier": "bacterial-peptidoglycan;organism-and-chemotype-specific", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "peptidoglycan",
+      "controlledIdentifier": "bacterial-peptidoglycan;organism-and-chemotype-specific",
+      "batchId": "mechanisms-087",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The sparse route omits polymer structure and variation and oversimplifies TLR2, NOD1/NOD2, PGRP, wall context, and disease recognition.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/29292393/", "https://pubmed.ncbi.nlm.nih.gov/17057187/", "local:data/content.generated.json#/pages/peptidoglycan"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/29292393/",
+        "https://pubmed.ncbi.nlm.nih.gov/17057187/",
+        "local:data/content.generated.json#/pages/peptidoglycan"
+      ],
       "requiredResolution": "Select organism and chemotype; define repeat and cross-link, wall context and modification, released fragment, receptor and compartment, assay, cell, and immune outcome.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "ph-sensing", "controlledIdentifier": "multi-organism-pH-response-umbrella", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "ph-sensing",
+      "controlledIdentifier": "multi-organism-pH-response-umbrella",
+      "batchId": "mechanisms-087",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Bacterial signal systems, acid-resistance enzymes, fungal Rim101, urease, gut gradients, fermentation, and metal speciation are merged and contain an internal chemistry contradiction.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/40603778/", "local:data/content.generated.json#/pages/ph-sensing"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40603778/",
+        "local:data/content.generated.json#/pages/ph-sensing"
+      ],
       "requiredResolution": "Split by organism and named sensor; define compartment, pH range and stimulus, downstream response, growth condition, metal species if relevant, measurement, and phenotype.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "phage-therapy", "controlledIdentifier": "therapeutic-bacteriophage-and-derived-product-umbrella", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "phage-therapy",
+      "controlledIdentifier": "therapeutic-bacteriophage-and-derived-product-umbrella",
+      "batchId": "mechanisms-087",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Whole phages, cocktails, enzymes, virome associations, and engineered vectors are conflated with universal efficacy, biofilm, resistance, and microbiome claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/31724901/", "https://pubmed.ncbi.nlm.nih.gov/35335222/", "https://pubmed.ncbi.nlm.nih.gov/42257516/", "local:data/content.generated.json#/pages/phage-therapy"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31724901/",
+        "https://pubmed.ncbi.nlm.nih.gov/35335222/",
+        "https://pubmed.ncbi.nlm.nih.gov/42257516/",
+        "local:data/content.generated.json#/pages/phage-therapy"
+      ],
       "requiredResolution": "Split by modality and exact product; define phage and genome, strain and receptor and host range, formulation and route and dose, model, comparator, endpoint, resistance and safety, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "pharmacomicrobiomics", "controlledIdentifier": "field-level-drug-microbiome-interaction-umbrella", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "pharmacomicrobiomics",
+      "controlledIdentifier": "field-level-drug-microbiome-interaction-umbrella",
+      "batchId": "mechanisms-087",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Many drugs, reactions, organisms, effect directions, clinical stages, and speculative metal links are merged; pyridoxal phosphate is incorrectly labeled metal-dependent.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/40102479/", "local:data/content.generated.json#/pages/pharmacomicrobiomics"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40102479/",
+        "local:data/content.generated.json#/pages/pharmacomicrobiomics"
+      ],
       "requiredResolution": "Create drug–enzyme–organism records with substrate and product, compartment, assay, exposure, pharmacokinetic endpoint, replication and covariates, and intervention evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "phenylalanine", "controlledIdentifier": "L-phenylalanine;MeSH:D010663", "batchId": "mechanisms-088", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "phenylalanine",
+      "controlledIdentifier": "L-phenylalanine;MeSH:D010663",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Host and microbial pathways, metabolites, diseases, and interventions are conflated, and phenylalanine hydroxylase is wrongly called the catecholamine rate-limiting step.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/17513421/", "https://pubmed.ncbi.nlm.nih.gov/32142679/", "https://pubmed.ncbi.nlm.nih.gov/38124458/", "local:data/content.generated.json#/pages/phenylalanine"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/17513421/",
+        "https://pubmed.ncbi.nlm.nih.gov/32142679/",
+        "https://pubmed.ncbi.nlm.nih.gov/38124458/",
+        "local:data/content.generated.json#/pages/phenylalanine"
+      ],
       "requiredResolution": "Split exact host and microbial reactions by analyte, enzyme or gene, organism, compartment, substrate and product, assay, cohort, causal tier, and endpoint.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "phosphodiesterase", "controlledIdentifier": "multi-superfamily-phosphodiesterase-umbrella", "batchId": "mechanisms-088", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "phosphodiesterase",
+      "controlledIdentifier": "multi-superfamily-phosphodiesterase-umbrella",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "A four-link stub merges human PDE5 and cGMP pharmacology with bacterial cyclic-di-GMP enzymes and an unspecified universal zinc claim.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/books/NBK549843/", "https://pubmed.ncbi.nlm.nih.gov/21600849/", "local:data/content.generated.json#/pages/phosphodiesterase"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/books/NBK549843/",
+        "https://pubmed.ncbi.nlm.nih.gov/21600849/",
+        "local:data/content.generated.json#/pages/phosphodiesterase"
+      ],
       "requiredResolution": "Create exact enzyme or protein records with organism, substrate and product, catalytic family, cofactor, structure, assay, inhibitor, and phenotype.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "plant-metal-hyperaccumulation", "controlledIdentifier": "species-and-element-specific-botanical-phenotype", "batchId": "mechanisms-088", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "plant-metal-hyperaccumulation",
+      "controlledIdentifier": "species-and-element-specific-botanical-phenotype",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Natural hyperaccumulation, chelate-assisted extraction, ordinary crop uptake, bioconcentration, food risk, rhizosphere biology, and remediation are conflated.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/24938121/", "https://pubmed.ncbi.nlm.nih.gov/33219524/", "https://pubmed.ncbi.nlm.nih.gov/40772044/", "local:data/content.generated.json#/pages/plant-metal-hyperaccumulation"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24938121/",
+        "https://pubmed.ncbi.nlm.nih.gov/33219524/",
+        "https://pubmed.ncbi.nlm.nih.gov/40772044/",
+        "local:data/content.generated.json#/pages/plant-metal-hyperaccumulation"
+      ],
       "requiredResolution": "Define accepted taxon, element species, natural substrate, shoot dry-weight threshold, voucher and locality, uptake and translocation factors, method, tolerance, and use status.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "polyamines", "controlledIdentifier": "putrescine-spermidine-spermine-cadaverine-umbrella", "batchId": "mechanisms-088", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "polyamines",
+      "controlledIdentifier": "putrescine-spermidine-spermine-cadaverine-umbrella",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Distinct molecules and host, diet, microbial, cancer, immune, and experimental processes are presented as one dose-independent class effect, including an unsupported pyridoxal-phosphate and zinc claim.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/31355206/", "https://pubmed.ncbi.nlm.nih.gov/30923709/", "https://pubmed.ncbi.nlm.nih.gov/40234982/", "local:data/content.generated.json#/pages/polyamines"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31355206/",
+        "https://pubmed.ncbi.nlm.nih.gov/30923709/",
+        "https://pubmed.ncbi.nlm.nih.gov/40234982/",
+        "local:data/content.generated.json#/pages/polyamines"
+      ],
       "requiredResolution": "Split by polyamine and pathway and define source, organism or cell, enzymes, reaction, concentration, sample, assay, exposure, outcome, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "polyphenols", "controlledIdentifier": "structurally-diverse-polyphenol-umbrella", "batchId": "mechanisms-088", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "polyphenols",
+      "controlledIdentifier": "structurally-diverse-polyphenol-umbrella",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Thousands of compounds, foods, metabolites, metabotypes, chelation conditions, organisms, doses, and preclinical or clinical outcomes are generalized.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/38428187/", "https://pubmed.ncbi.nlm.nih.gov/39899845/", "https://pubmed.ncbi.nlm.nih.gov/27490306/", "local:data/content.generated.json#/pages/polyphenols"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38428187/",
+        "https://pubmed.ncbi.nlm.nih.gov/39899845/",
+        "https://pubmed.ncbi.nlm.nih.gov/27490306/",
+        "local:data/content.generated.json#/pages/polyphenols"
+      ],
       "requiredResolution": "Create compound-specific records with identifier, matrix and dose, parent and metabolites, organism and enzymes, ADME, metal and assay conditions, trial endpoint, and certainty.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "polyunsaturated-fatty-acids", "controlledIdentifier": "omega-3-omega-6-multi-fatty-acid-umbrella", "batchId": "mechanisms-088", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "polyunsaturated-fatty-acids",
+      "controlledIdentifier": "omega-3-omega-6-multi-fatty-acid-umbrella",
+      "batchId": "mechanisms-088",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "EPA, DHA, linoleic, arachidonic, and other fatty acids are merged with universal microbiome and inflammatory directions without exposure or evidence boundaries.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/42163966/", "local:data/content.generated.json#/pages/polyunsaturated-fatty-acids"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/42163966/",
+        "local:data/content.generated.json#/pages/polyunsaturated-fatty-acids"
+      ],
       "requiredResolution": "Split by exact fatty acid and define formulation or diet, dose, duration, population or model, sample, microbiome or lipid assay, endpoint, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "postbiotic", "controlledIdentifier": "ISAPP-2021-postbiotic-preparation-definition", "batchId": "mechanisms-089", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "postbiotic",
+      "controlledIdentifier": "ISAPP-2021-postbiotic-preparation-definition",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Inanimate-cell preparations, cell-free supernatants, purified metabolites, lysates, and class-wide benefits and safety are conflated contrary to the consensus boundary.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/33948025/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC10807003/", "local:data/content.generated.json#/pages/postbiotic"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/33948025/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10807003/",
+        "local:data/content.generated.json#/pages/postbiotic"
+      ],
       "requiredResolution": "Define exact source strain, inactivation method, retained cells or components, metabolites, composition, dose, target host, comparator, endpoint, safety, and evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "prebiotics", "controlledIdentifier": "MeSH:D056692;ISAPP-2017-prebiotic-definition", "batchId": "mechanisms-089", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "prebiotics",
+      "controlledIdentifier": "MeSH:D056692;ISAPP-2017-prebiotic-definition",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Chemically diverse substrates, foods, taxa, cross-feeding, branded products, disease claims, and synbiotic evidence are generalized as one prebiotic effect.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D056692", "https://pubmed.ncbi.nlm.nih.gov/28611480/", "local:data/content.generated.json#/pages/prebiotics"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D056692",
+        "https://pubmed.ncbi.nlm.nih.gov/28611480/",
+        "local:data/content.generated.json#/pages/prebiotics"
+      ],
       "requiredResolution": "Split by defined substrate, matrix and dose, target host and site, utilizing organism and pathway, assay, comparator, health endpoint, and certainty.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "premenstrual-syndrome", "controlledIdentifier": "MeSH:D011293;prospectively-timed-clinical-syndrome", "batchId": "mechanisms-089", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "premenstrual-syndrome",
+      "controlledIdentifier": "MeSH:D011293;prospectively-timed-clinical-syndrome",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "PMS and PMDD, smoking and metal exposures, hormones, microbiome associations, speculative mechanisms, and interventions are merged with causal wording.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D011293", "https://www.acog.org/womens-health/faqs/premenstrual-syndrome", "https://pubmed.ncbi.nlm.nih.gov/37973069/", "https://pubmed.ncbi.nlm.nih.gov/36948390/", "local:data/content.generated.json#/pages/premenstrual-syndrome"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011293",
+        "https://www.acog.org/womens-health/faqs/premenstrual-syndrome",
+        "https://pubmed.ncbi.nlm.nih.gov/37973069/",
+        "https://pubmed.ncbi.nlm.nih.gov/36948390/",
+        "local:data/content.generated.json#/pages/premenstrual-syndrome"
+      ],
       "requiredResolution": "Rebuild around prospective criteria, separate PMS from PMDD, and define population, cycle phase, specimen, assay, exposure or intervention, comparator, endpoint, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "prenatal-metal-exposure", "controlledIdentifier": "multi-element-multi-species-prenatal-exposure-umbrella", "batchId": "mechanisms-089", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "prenatal-metal-exposure",
+      "controlledIdentifier": "multi-element-multi-species-prenatal-exposure-umbrella",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Distinct elements and species, exposure matrices, placental transfer, fetal dose, gestational windows, epigenetic and microbiome associations, and outcomes are conflated.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/22717874/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3491942/", "https://pubmed.ncbi.nlm.nih.gov/39863768/", "local:data/content.generated.json#/pages/prenatal-metal-exposure"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/22717874/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC3491942/",
+        "https://pubmed.ncbi.nlm.nih.gov/39863768/",
+        "local:data/content.generated.json#/pages/prenatal-metal-exposure"
+      ],
       "requiredResolution": "Split by exact element or species, source, maternal or placental or cord matrix, timing, transfer metric, dose and units, endpoint, cohort or model, assay, confounders, and certainty.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "preterm-birth", "controlledIdentifier": "birth-before-37-completed-weeks;heterogeneous-clinical-outcome", "batchId": "mechanisms-089", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "preterm-birth",
+      "controlledIdentifier": "birth-before-37-completed-weeks;heterogeneous-clinical-outcome",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Spontaneous and indicated preterm birth, vaginal associations, infection pathways, neonatal sequelae, post-delivery exposures, and prevention are collapsed into one chain.",
-      "checkedUrls": ["https://www.cdc.gov/maternal-infant-health/preterm-birth/index.html", "https://pmc.ncbi.nlm.nih.gov/articles/PMC9106729/", "https://pubmed.ncbi.nlm.nih.gov/39863768/", "local:data/content.generated.json#/pages/preterm-birth"],
+      "checkedUrls": [
+        "https://www.cdc.gov/maternal-infant-health/preterm-birth/index.html",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9106729/",
+        "https://pubmed.ncbi.nlm.nih.gov/39863768/",
+        "local:data/content.generated.json#/pages/preterm-birth"
+      ],
       "requiredResolution": "Split by phenotype and gestational subgroup and define population, sampling time and site, community method, exposure or intervention, comparator, outcome, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "probiotics", "controlledIdentifier": "MeSH:D019936;ISAPP-2014-live-defined-microorganism-definition", "batchId": "mechanisms-089", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "probiotics",
+      "controlledIdentifier": "MeSH:D019936;ISAPP-2014-live-defined-microorganism-definition",
+      "batchId": "mechanisms-089",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Strain-, product-, dose-, population-, and endpoint-specific results are generalized across a class and mixed across models, trials, reviews, and engineered organisms.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019936", "https://pubmed.ncbi.nlm.nih.gov/24912386/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC7925329/", "local:data/content.generated.json#/pages/probiotics"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://pubmed.ncbi.nlm.nih.gov/24912386/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7925329/",
+        "local:data/content.generated.json#/pages/probiotics"
+      ],
       "requiredResolution": "Create exact strain and product records with taxonomy, strain identifier, viable dose, formulation, route, population or model, comparator, endpoint, safety, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "propionic-acid", "controlledIdentifier": "PubChem-CID:1032;InChIKey:XBDQKXXYIPTUBI-UHFFFAOYSA-N", "batchId": "mechanisms-090", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "propionic-acid",
+      "controlledIdentifier": "PubChem-CID:1032;InChIKey:XBDQKXXYIPTUBI-UHFFFAOYSA-N",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "An exact molecule is surrounded by generalized human ASD causation, concentration, taxon, diet, metal-synergy, and intervention claims extrapolated from heterogeneous evidence.",
-      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/1032", "local:data/content.generated.json#/pages/propionic-acid"],
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1032",
+        "local:data/content.generated.json#/pages/propionic-acid"
+      ],
       "requiredResolution": "Separate acid and salts, compartments, microbial pathways, measurements, animal exposure models, human associations, and interventions with dose, matrix, assay, population, endpoint, and tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "quinolinic-acid", "controlledIdentifier": "PubChem-CID:1066;quinolinate-conjugate-states", "batchId": "mechanisms-090", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "quinolinic-acid",
+      "controlledIdentifier": "PubChem-CID:1066;quinolinate-conjugate-states",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "An exact molecule is embedded in a universal peripheral-to-central dysbiosis, cytokine, serotonin, excitotoxicity, and multi-disease chain without concentration or compartment boundaries.",
-      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/Quinolinic-Acid", "https://pubmed.ncbi.nlm.nih.gov/8973572/", "https://pubmed.ncbi.nlm.nih.gov/24089628/", "local:data/content.generated.json#/pages/quinolinic-acid"],
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/Quinolinic-Acid",
+        "https://pubmed.ncbi.nlm.nih.gov/8973572/",
+        "https://pubmed.ncbi.nlm.nih.gov/24089628/",
+        "local:data/content.generated.json#/pages/quinolinic-acid"
+      ],
       "requiredResolution": "Define molecular species, compartment, producing cell and enzymes, concentration and assay, model, receptor and endpoint, cohort, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "quorum-sensing", "controlledIdentifier": "multi-signal-multi-organism-communication-umbrella", "batchId": "mechanisms-090", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "quorum-sensing",
+      "controlledIdentifier": "multi-signal-multi-organism-communication-umbrella",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "AHL, peptide, AI-2, indole, and fungal systems, organisms, environmental contexts, outputs, and inhibition strategies are generalized as one density switch.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/31612240/", "https://pubmed.ncbi.nlm.nih.gov/41627464/", "local:data/content.generated.json#/pages/quorum-sensing"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31612240/",
+        "https://pubmed.ncbi.nlm.nih.gov/41627464/",
+        "local:data/content.generated.json#/pages/quorum-sensing"
+      ],
       "requiredResolution": "Split by named signal, synthase, receptor, organism, concentration and diffusion context, regulated target, assay, phenotype, and intervention.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "riboswitch", "controlledIdentifier": "multi-class-regulatory-RNA-umbrella", "batchId": "mechanisms-090", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "riboswitch",
+      "controlledIdentifier": "multi-class-regulatory-RNA-umbrella",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Diverse metabolite and ion-sensing RNA classes, architectures, genomic contexts, ligands, kinetics, and outputs are collapsed into a universal metal-sensing model.",
-      "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC5473149/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465474/", "https://pubmed.ncbi.nlm.nih.gov/19298181/", "local:data/content.generated.json#/pages/riboswitch"],
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5473149/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465474/",
+        "https://pubmed.ncbi.nlm.nih.gov/19298181/",
+        "local:data/content.generated.json#/pages/riboswitch"
+      ],
       "requiredResolution": "Split by class and exact sequence and organism, genomic context, ligand, structure accession, expression platform, kinetic regime, assay, target gene, and phenotype.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "saccharolytic-fermentation", "controlledIdentifier": "multi-substrate-multi-organism-fermentation-network", "batchId": "mechanisms-090", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "saccharolytic-fermentation",
+      "controlledIdentifier": "multi-substrate-multi-organism-fermentation-network",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Carbohydrate fermentation is labeled uniformly beneficial and protein fermentation uniformly toxic while substrates, organisms, cross-feeding, products, spatial gradients, diets, and endpoints are conflated.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/22121108/", "https://pubmed.ncbi.nlm.nih.gov/29298101/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC9120404/", "local:data/content.generated.json#/pages/saccharolytic-fermentation"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/22121108/",
+        "https://pubmed.ncbi.nlm.nih.gov/29298101/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9120404/",
+        "local:data/content.generated.json#/pages/saccharolytic-fermentation"
+      ],
       "requiredResolution": "Create substrate–organism–pathway–product modules with location, flux or concentration, assay, diet, host or model, comparator, endpoint, and certainty.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "semen-microbiome", "controlledIdentifier": "low-biomass-semen-and-seminal-fluid-microbiome-field", "batchId": "mechanisms-090", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "semen-microbiome",
+      "controlledIdentifier": "low-biomass-semen-and-seminal-fluid-microbiome-field",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Core taxa, dysbiosis, metal selection, sperm effects, and probiotic promise are asserted without specimen, contamination-control, microbial-load, viability, method, or cohort boundaries.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/32794312/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC12176750/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC13407389/", "local:data/content.generated.json#/pages/semen-microbiome"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32794312/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12176750/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13407389/",
+        "local:data/content.generated.json#/pages/semen-microbiome"
+      ],
       "requiredResolution": "Define specimen, collection, negative controls, extraction, sequencing workflow, host depletion, absolute load, viability, cohort, phenotype, covariates, and replicated evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "serotonin-estrogen-axis", "controlledIdentifier": "proposed-multi-compartment-neuroendocrine-microbiome-axis", "batchId": "mechanisms-091", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "serotonin-estrogen-axis",
+      "controlledIdentifier": "proposed-multi-compartment-neuroendocrine-microbiome-axis",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Central and peripheral serotonin, estrogens, receptors, microbial pathways, life stages, and multiple clinical phenotypes are merged into one causal axis.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/34502396/", "local:data/content.generated.json#/pages/serotonin-estrogen-axis"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34502396/",
+        "local:data/content.generated.json#/pages/serotonin-estrogen-axis"
+      ],
       "requiredResolution": "Split by compartment, hormone or metabolite, receptor or enzyme, cell, cycle or life stage, specimen, assay, phenotype, intervention, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "short-chain-fatty-acids", "controlledIdentifier": "multi-analyte-SCFA-class;matrix-and-conjugate-state-specific", "batchId": "mechanisms-091", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "short-chain-fatty-acids",
+      "controlledIdentifier": "multi-analyte-SCFA-class;matrix-and-conjugate-state-specific",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Distinct acids, sources, sinks, matrices, receptors, concentrations, and context-dependent effects are generalized into universal depletion and metal-disease mechanisms.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/28300535/", "https://pubmed.ncbi.nlm.nih.gov/36362272/", "local:data/content.generated.json#/pages/short-chain-fatty-acids"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/28300535/",
+        "https://pubmed.ncbi.nlm.nih.gov/36362272/",
+        "local:data/content.generated.json#/pages/short-chain-fatty-acids"
+      ],
       "requiredResolution": "Split by exact analyte and matrix with units, processing, method, substrate, organism and pathway, host target, model or population, endpoint, and certainty.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "shotgun-metagenomics", "controlledIdentifier": "whole-metagenome-shotgun-workflow-family", "batchId": "mechanisms-091", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "shotgun-metagenomics",
+      "controlledIdentifier": "whole-metagenome-shotgun-workflow-family",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "A multistep sampling, laboratory, sequencing, and computational workflow is presented with universal depth, cost, resolution, kingdom coverage, and direct-function claims.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/32768390/", "https://pubmed.ncbi.nlm.nih.gov/37731336/", "https://pubmed.ncbi.nlm.nih.gov/42014453/", "local:data/content.generated.json#/pages/shotgun-metagenomics"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32768390/",
+        "https://pubmed.ncbi.nlm.nih.gov/37731336/",
+        "https://pubmed.ncbi.nlm.nih.gov/42014453/",
+        "local:data/content.generated.json#/pages/shotgun-metagenomics"
+      ],
       "requiredResolution": "Define specimen, controls, extraction, library, platform and read type, depth, host depletion, database and version, profiler or assembler, thresholds, outputs, validation, and reporting standard.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "srna", "controlledIdentifier": "heterogeneous-bacterial-small-regulatory-RNA-class", "batchId": "mechanisms-091", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "srna",
+      "controlledIdentifier": "heterogeneous-bacterial-small-regulatory-RNA-class",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Cis and trans RNAs, sizes, chaperones, mechanisms, organisms, metal conditions, targets, phenotypes, and therapeutic speculation are collapsed into one metal-response mechanism.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/24003243/", "local:data/content.generated.json#/pages/srna"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24003243/",
+        "local:data/content.generated.json#/pages/srna"
+      ],
       "requiredResolution": "Split by organism, locus or sequence accession, regulator, chaperone, direct target, validated interaction, metal condition and concentration, assay, phenotype, and tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "statins", "controlledIdentifier": "MeSH:D019161;multi-drug-HMGCR-inhibitor-class", "batchId": "mechanisms-091", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "statins",
+      "controlledIdentifier": "MeSH:D019161;multi-drug-HMGCR-inhibitor-class",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Distinct drugs and exposures plus in-vitro, observational, intervention, and genetic-proxy evidence are generalized into one microbiome, metal, cancer, neurodegeneration, and adverse-effect mechanism.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/mesh/68019161", "https://pubmed.ncbi.nlm.nih.gov/39734574/", "local:data/content.generated.json#/pages/statins"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68019161",
+        "https://pubmed.ncbi.nlm.nih.gov/39734574/",
+        "local:data/content.generated.json#/pages/statins"
+      ],
       "requiredResolution": "Split by exact drug, dose and formulation, route, indication, population or model, duration, specimen, microbiome method, pharmacokinetics, comparator, outcome, and tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "succinate", "controlledIdentifier": "PubChem-CID:160419-succinate-dianion;CID:1110-succinic-acid-distinct", "batchId": "mechanisms-091", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "succinate",
+      "controlledIdentifier": "PubChem-CID:160419-succinate-dianion;CID:1110-succinic-acid-distinct",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Host mitochondrial, immune, extracellular, microbial luminal, and brain pools are conflated with universal inflammatory and unsupported Dialister-depression causality.",
-      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/Succinate%20dianion", "https://pubchem.ncbi.nlm.nih.gov/compound/1110", "https://pubmed.ncbi.nlm.nih.gov/30583500/", "https://pubmed.ncbi.nlm.nih.gov/41080558/", "local:data/content.generated.json#/pages/succinate"],
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/Succinate%20dianion",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1110",
+        "https://pubmed.ncbi.nlm.nih.gov/30583500/",
+        "https://pubmed.ncbi.nlm.nih.gov/41080558/",
+        "local:data/content.generated.json#/pages/succinate"
+      ],
       "requiredResolution": "Define chemical species, compartment, source cell or organism and pathway, concentration and units, sample and assay, receptor or target, model or population, outcome, and tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "synbiotic", "controlledIdentifier": "ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotics-identity", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "synbiotic",
+      "controlledIdentifier": "ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotics-identity",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The synbiotic and synbiotics routes carry the same title and concept with overlapping but divergent content and sources, so two independent primary images would reinforce a duplicate canonical identity.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/32826966/", "local:data/content.generated.json#/pages/synbiotic", "local:data/content.generated.json#/pages/synbiotics"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32826966/",
+        "local:data/content.generated.json#/pages/synbiotic",
+        "local:data/content.generated.json#/pages/synbiotics"
+      ],
       "requiredResolution": "Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until identity reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "synbiotics", "controlledIdentifier": "ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotic-identity", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "synbiotics",
+      "controlledIdentifier": "ISAPP-PMID:32826966;duplicate-WikiBiome-synbiotic-identity",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The synbiotic and synbiotics routes carry the same title and concept with overlapping but divergent content and sources, so two independent primary images would reinforce a duplicate canonical identity.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/32826966/", "local:data/content.generated.json#/pages/synbiotic", "local:data/content.generated.json#/pages/synbiotics"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32826966/",
+        "local:data/content.generated.json#/pages/synbiotic",
+        "local:data/content.generated.json#/pages/synbiotics"
+      ],
       "requiredResolution": "Choose one canonical route, alias or merge the duplicate, then define an exact microorganism–substrate formulation, dose, viability, selective utilization, host, outcome, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until identity reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "systemic-inflammation", "controlledIdentifier": "PMID:31806905;heterogeneous-systemic-chronic-inflammation-phenotype", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "systemic-inflammation",
+      "controlledIdentifier": "PMID:31806905;heterogeneous-systemic-chronic-inflammation-phenotype",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The route collapses diverse triggers, compartments, biomarkers, and diseases into one visually unified causal endpoint without a singular diagnostic anatomy or morphology.",
-      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/31806905/", "local:data/content.generated.json#/pages/systemic-inflammation"],
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31806905/",
+        "local:data/content.generated.json#/pages/systemic-inflammation"
+      ],
       "requiredResolution": "Separate acute versus chronic state, compartment, trigger, biomarker, specimen, assay, population, disease context, and certainty.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "tau-phosphorylation", "controlledIdentifier": "NCBI-Gene:4137;UniProt:P10636;isoform-and-site-specific", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "tau-phosphorylation",
+      "controlledIdentifier": "NCBI-Gene:4137;UniProt:P10636;isoform-and-site-specific",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Multiple MAPT isoforms and heterogeneous physiological and pathological phosphorylation sites are merged with metals, microbial products, aggregation, and clinical outcomes into one causal cascade.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/gene/4137", "https://www.uniprot.org/uniprotkb/P10636/entry", "https://pubmed.ncbi.nlm.nih.gov/33892381/", "https://pubmed.ncbi.nlm.nih.gov/38556838/", "https://pubmed.ncbi.nlm.nih.gov/34090488/", "local:data/content.generated.json#/pages/tau-phosphorylation"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/gene/4137",
+        "https://www.uniprot.org/uniprotkb/P10636/entry",
+        "https://pubmed.ncbi.nlm.nih.gov/33892381/",
+        "https://pubmed.ncbi.nlm.nih.gov/38556838/",
+        "https://pubmed.ncbi.nlm.nih.gov/34090488/",
+        "local:data/content.generated.json#/pages/tau-phosphorylation"
+      ],
       "requiredResolution": "Specify exact human isoform, residue or defined site set, modification state, compartment, assay, structure source, disease, comparator, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     },
     {
-      "pageId": "testosterone", "controlledIdentifier": "PubChem:6013;ChEBI:17347;stereochemistry-specific", "batchId": "mechanisms-092", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "pageId": "testosterone",
+      "controlledIdentifier": "PubChem:6013;ChEBI:17347;stereochemistry-specific",
+      "batchId": "mechanisms-092",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The exact molecule is embedded in a route that conflates free and total hormone, metabolites, binding proteins, tissues, populations, exposures, microbiome associations, and unsupported causal cycles; a generic steroid scaffold is not uniquely testosterone.",
-      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/6013", "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17347", "https://pubmed.ncbi.nlm.nih.gov/35283442/", "https://pubmed.ncbi.nlm.nih.gov/40256744/", "local:data/content.generated.json#/pages/testosterone"],
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/6013",
+        "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:17347",
+        "https://pubmed.ncbi.nlm.nih.gov/35283442/",
+        "https://pubmed.ncbi.nlm.nih.gov/40256744/",
+        "local:data/content.generated.json#/pages/testosterone"
+      ],
       "requiredResolution": "Define exact chemical species or product, stereochemical rendering source, compartment, specimen, assay, population, exposure or intervention, comparator, endpoint, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
