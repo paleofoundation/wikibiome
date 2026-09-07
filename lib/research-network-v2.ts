@@ -28,11 +28,14 @@ import {
 } from "@/db/schema";
 import {
   cleanText,
+  createWorkSubmission,
   getPublicResearchersByAccountIds,
   isModeratorRole,
+  recalculateInferredExpertise,
   recordAudit,
   type ResearcherSession,
 } from "@/lib/research-network";
+import { lookupResearchMetadata } from "@/lib/research-metadata";
 import { allSources, findPagesUsingSource, getSource, getWikiPage, normalizeDoi } from "@/lib/wikibiome";
 import {
   classifyWorkMatch,
@@ -267,19 +270,45 @@ export async function syncResearcherWorks(account: ResearcherSession, mode: "aut
 
 export async function listResearcherWorkDiscovery(accountId: string) {
   const db = await getResearchDb();
-  const [works, matches, claims, sync] = await Promise.all([
+  const [works, matches, claims, submissions, sync] = await Promise.all([
     db.select().from(researcherWorks).where(eq(researcherWorks.accountId, accountId)).orderBy(desc(researcherWorks.year), asc(researcherWorks.title)).limit(500),
     db.select().from(workMatchSuggestions).where(eq(workMatchSuggestions.accountId, accountId)).orderBy(desc(workMatchSuggestions.confidence), desc(workMatchSuggestions.updatedAt)).limit(500),
     db.select().from(sourceClaims).where(eq(sourceClaims.accountId, accountId)).limit(500),
+    db.select().from(workSubmissions).where(eq(workSubmissions.accountId, accountId)).limit(500),
     db.select().from(orcidSyncState).where(eq(orcidSyncState.accountId, accountId)).limit(1).then((rows) => rows[0] ?? null),
   ]);
   const workMap = new Map(works.map((work) => [work.id, work]));
   const claimMap = new Map(claims.map((claim) => [claim.sourceId, claim]));
+  const submissionsByDoi = new Map(submissions.filter((submission) => submission.identifierType === "doi").map((submission) => [normalizeWorkDoi(submission.identifierValue), submission.status]));
   return {
     sync,
-    works,
+    works: works.map((work) => ({ ...work, submissionStatus: work.doi ? submissionsByDoi.get(normalizeWorkDoi(work.doi)) ?? null : null })),
     matches: matches.map((match) => ({ ...match, work: workMap.get(match.researcherWorkId) ?? null, source: getSource(match.sourceId) ?? null, claim: claimMap.get(match.sourceId) ?? null })),
   };
+}
+
+export async function submitSyncedOrcidWork(account: ResearcherSession, workIdValue: unknown) {
+  assertVerified(account);
+  const workId = cleanText(workIdValue, 100);
+  const work = (await (await getResearchDb()).select().from(researcherWorks).where(and(eq(researcherWorks.id, workId), eq(researcherWorks.accountId, account.accountId))).limit(1))[0];
+  if (!work) throw new Error("ORCID work not found. Refresh your public works and try again.");
+  const doi = normalizeWorkDoi(work.doi);
+  if (!doi) throw new Error("This ORCID work has no DOI. Use the full submission form with a PMID or preprint URL.");
+  const metadata = await lookupResearchMetadata({ type: "doi", value: doi });
+  const submission = await createWorkSubmission({
+    account,
+    identifierType: "doi",
+    identifierValue: doi,
+    title: metadata.title || work.title,
+    authors: metadata.authors,
+    year: metadata.year || work.year || undefined,
+    abstractText: metadata.abstractText,
+    metadata: { ...((metadata.raw && typeof metadata.raw === "object") ? metadata.raw : {}), orcidWorkKey: work.workKey, importedFromOrcid: true },
+    rightsAttested: false,
+    license: metadata.license,
+  });
+  await recordAudit(account.accountId, "orcid.work_submitted", "work_submission", submission.id, { researcherWorkId: work.id, doi });
+  return submission;
 }
 
 export async function confirmWorkMatch(account: ResearcherSession, matchIdValue: unknown, decisionValue: unknown) {
@@ -306,6 +335,7 @@ export async function confirmWorkMatch(account: ResearcherSession, matchIdValue:
   if (claim) await db.update(sourceClaims).set({ status: claim.status === "verified" ? "verified" : claimStatus, verificationMethod: exact ? "orcid_confirmed_exact_doi" : "orcid_possible_match_manual_review", updatedAt: new Date().toISOString() }).where(eq(sourceClaims.id, claim.id));
   else await db.insert(sourceClaims).values({ id: claimId, sourceId: match.sourceId, sourceDoi: normalized.status === "valid" ? normalized.bare : null, accountId: account.accountId, status: claimStatus, verificationMethod: exact ? "orcid_confirmed_exact_doi" : "orcid_possible_match_manual_review", evidenceNote: exact ? "Confirmed from the researcher’s public ORCID works." : "Researcher confirmed a possible title/year match." });
   await db.update(workMatchSuggestions).set({ status: "confirmed", updatedAt: new Date().toISOString() }).where(eq(workMatchSuggestions.id, match.id));
+  if (claimStatus === "verified") await recalculateInferredExpertise(account.accountId);
   await recordAudit(account.accountId, "orcid.match_confirmed", "source", match.sourceId, { matchId, matchType: match.matchType, claimStatus });
   return { status: "confirmed", claim: { id: claimId, status: claimStatus, sourceId: match.sourceId } };
 }

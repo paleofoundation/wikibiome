@@ -45,6 +45,7 @@ test("applies every researcher-network migration to a clean SQLite database", ()
       "0007_military_thanos.sql",
       "0008_tense_luminals.sql",
       "0009_massive_the_hood.sql",
+      "0010_tiresome_nico_minoru.sql",
     ]);
     for (const migration of migrations) {
       const result = spawnSync("/usr/bin/sqlite3", [database], { input: source(`drizzle/${migration}`), encoding: "utf8" });
@@ -76,6 +77,12 @@ test("applies every researcher-network migration to a clean SQLite database", ()
     assert.match(eventColumns.stdout, /event_types_json/);
     assert.match(eventColumns.stdout, /early_invite_consent/);
     assert.match(eventColumns.stdout, /early_invite_consented_at/);
+    const profileColumns = spawnSync("/usr/bin/sqlite3", [database, "SELECT name FROM pragma_table_info('researcher_profiles') ORDER BY cid;"], { encoding: "utf8" });
+    assert.match(profileColumns.stdout, /photo_r2_key/);
+    assert.match(profileColumns.stdout, /photo_alt/);
+    const institutionColumns = spawnSync("/usr/bin/sqlite3", [database, "SELECT name FROM pragma_table_info('institutions') ORDER BY cid;"], { encoding: "utf8" });
+    assert.match(institutionColumns.stdout, /identity_status/);
+    assert.match(institutionColumns.stdout, /website_url/);
   } finally {
     rmSync(working, { recursive: true, force: true });
   }
@@ -129,17 +136,22 @@ test("ORCID failures remain visible and preserve return URLs with fragments", ()
   assert.match(feedback, /role=\{orcidStatus === "cancelled" \|\| emailStatus === "verified" \? "status" : "alert"\}/);
 });
 
-test("institution domain verification uses only authoritative ROR domains", () => {
+test("institution access uses authoritative ROR domains or a reviewed provisional identity", () => {
   const authoritativeDomains = ["research.example.edu"];
   assert.equal(institutionEmailMatchesAuthoritativeDomains("author@spoofed.example", authoritativeDomains), false);
   assert.equal(institutionEmailMatchesAuthoritativeDomains("author@research.example.edu", authoritativeDomains), true);
   assert.equal(institutionEmailMatchesAuthoritativeDomains("author@lab.research.example.edu", authoritativeDomains), true);
   const network = source("lib/research-network.ts");
   const route = source("app/api/institutions/route.ts");
-  assert.match(network, /createInstitution\(input: \{ account: ResearcherSession; ror: unknown; description\?: unknown \}\)/);
-  assert.match(network, /lookupRorOrganization\(input\.ror\)/);
-  assert.match(network, /domainSource: "ror_api"/);
-  assert.doesNotMatch(route, /payload\.(?:name|domains|country)/);
+  assert.match(network, /requestedRor \? "ror_api" : "website_and_manual_review"/);
+  assert.match(network, /lookupRorOrganization\(requestedRor\)/);
+  assert.match(network, /identityStatus: "provisional"/);
+  assert.match(network, /websiteMatchesAuthoritativeDomains/);
+  assert.match(network, /identityStatus: "ror_verified"/);
+  assert.match(network, /Add the organization’s public website while ROR is pending/);
+  assert.match(network, /Record the public evidence used for manual relationship verification/);
+  assert.match(route, /name: payload\.name/);
+  assert.doesNotMatch(route, /payload\.(?:domains|country)/);
 });
 
 test("preserves privacy, consent, editorial, and outreach boundaries", () => {
@@ -337,6 +349,43 @@ test("automatically imports public ORCID works on the researcher dashboard", () 
   assert.match(importPanel, /fetch\("\/api\/researcher\/works"/);
   assert.match(importPanel, /Importing your public ORCID works/);
   assert.match(importPanel, /does not make an authorship claim public/);
+});
+
+test("offers moderated DOI intake for unmatched ORCID works without auto-publishing", () => {
+  const service = source("lib/research-network-v2.ts");
+  const route = source("app/api/researcher/orcid-works/[id]/submit/route.ts");
+  const discovery = source("app/_components/WorkDiscovery.tsx");
+  assert.match(service, /lookupResearchMetadata\(\{ type: "doi", value: doi \}\)/);
+  assert.match(service, /createWorkSubmission\(/);
+  assert.match(service, /importedFromOrcid: true/);
+  assert.doesNotMatch(service.slice(service.indexOf("export async function submitSyncedOrcidWork"), service.indexOf("export async function confirmWorkMatch")), /editorialChangePackets|sourceClaims/);
+  assert.match(route, /assertSameOriginRequest/);
+  assert.match(discovery, /Send to editorial intake/);
+  assert.match(discovery, /reviewer checks it before any source or article page becomes public/);
+});
+
+test("keeps research impact distinct from contribution recognition and avoids popularity mechanics", () => {
+  const profile = source("app/researchers/[orcid]/page.tsx");
+  const directory = source("app/researchers/page.tsx");
+  const discovery = source("lib/researcher-discovery.ts");
+  assert.match(profile, /These are evidence relationships, not popularity scores/);
+  assert.match(profile, /Stars separately recognize accepted author context, submissions, and proposals/);
+  assert.match(directory, /not from popularity/);
+  assert.match(discovery, /keystoneWorks/);
+  assert.match(discovery, /linkedArticles/);
+  assert.match(discovery, /heavy-metals-microbial-metallomics/);
+});
+
+test("publishes only validated researcher portrait formats through a dedicated public route", () => {
+  const upload = source("app/api/researcher/profile-photo/route.ts");
+  const publicPhoto = source("app/researchers/[orcid]/photo/route.ts");
+  const form = source("app/_components/ResearcherPhotoForm.tsx");
+  assert.match(upload, /5 \* 1024 \* 1024/);
+  assert.match(upload, /matchesImageSignature/);
+  assert.match(upload, /profile-images\/\$\{account\.accountId\}/);
+  assert.doesNotMatch(upload, /image\/svg/);
+  assert.match(publicPhoto, /x-content-type-options/);
+  assert.match(form, /Used by screen readers/);
 });
 
 test("records delivery truth, webhook replay protection, and one-click unsubscribe", () => {

@@ -53,6 +53,10 @@ export const researcherProfiles = sqliteTable("researcher_profiles", {
   affiliationsJson: text("affiliations_json").notNull().default("[]"),
   expertiseSelfJson: text("expertise_self_json").notNull().default("[]"),
   expertiseInferredJson: text("expertise_inferred_json").notNull().default("[]"),
+  photoR2Key: text("photo_r2_key"),
+  photoMimeType: text("photo_mime_type"),
+  photoAlt: text("photo_alt").notNull().default(""),
+  photoUpdatedAt: text("photo_updated_at"),
   messagingEnabled: integer("messaging_enabled", { mode: "boolean" }).notNull().default(false),
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
   updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
@@ -253,14 +257,23 @@ export const researcherBlocks = sqliteTable("researcher_blocks", {
 export const institutions = sqliteTable("institutions", {
   id: text("id").primaryKey(),
   ror: text("ror").notNull(),
+  slug: text("slug"),
   name: text("name").notNull(),
   country: text("country"),
   domainsJson: text("domains_json").notNull().default("[]"),
+  websiteUrl: text("website_url"),
+  organizationType: text("organization_type").notNull().default("research_institute"),
+  identityStatus: text("identity_status").notNull().default("ror_verified"),
+  evidenceNote: text("evidence_note").notNull().default(""),
   description: text("description").notNull().default(""),
   status: text("status").notNull().default("pending"),
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
   updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
-}, (table) => [uniqueIndex("idx_institutions_ror").on(table.ror)]);
+}, (table) => [
+  uniqueIndex("idx_institutions_ror").on(table.ror),
+  uniqueIndex("idx_institutions_slug").on(table.slug),
+  index("idx_institutions_status_name").on(table.status, table.name),
+]);
 
 export const institutionMemberships = sqliteTable("institution_memberships", {
   id: text("id").primaryKey(),

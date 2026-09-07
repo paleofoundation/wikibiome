@@ -4448,9 +4448,10 @@ test("renders the claim, contribute, collaborate researcher network", async () =
   const [network, standard, submit, institutions, source, dashboard] = await Promise.all([
     networkResponse.text(), standardResponse.text(), submitResponse.text(), institutionsResponse.text(), sourceResponse.text(), dashboardResponse.text(),
   ]);
-  assert.match(network, /Claim → Contribute → Collaborate/);
-  assert.match(network, /1,939[\s\S]{0,30}evidence records/);
-  assert.match(network, /Identity earns attribution—not control/);
+  assert.match(network, /Find the people behind the evidence/);
+  assert.match(network, /Evidence-based expertise clusters/);
+  assert.match(network, /Expertise inferred from verified work is labeled separately/);
+  assert.match(network, /without turning scholarship into a popularity contest/);
   assert.match(network, /href="\/api\/auth\/orcid\/start\?returnTo=\/researcher\/dashboard"/);
 
   assert.match(standard, /WikiBiome-Ready Research/);
@@ -4463,7 +4464,8 @@ test("renders the claim, contribute, collaborate researcher network", async () =
   assert.match(submit, /Add evidence without bypassing editorial review/);
   assert.match(submit, /Continue with ORCID/);
   assert.match(submit, /Acceptance creates an editorial change packet/);
-  assert.match(institutions, /ROR-identified institutions|Institution network/);
+  assert.match(institutions, /Research organization network/);
+  assert.match(institutions, /delayed ROR record no longer blocks a reviewed provisional profile/);
   assert.match(institutions, /without paid placement, citation guarantees, or competitive rankings/);
 
   assert.match(source, /Are you an author of this work\?/);

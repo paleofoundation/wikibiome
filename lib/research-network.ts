@@ -27,6 +27,7 @@ import {
   researcherFollows,
   researcherBlocks,
   researcherProfiles,
+  recognitionEvents,
   sourceClaims,
   submissionFiles,
   suppressionList,
@@ -34,6 +35,7 @@ import {
 } from "@/db/schema";
 import { getSource, getWikiPage, normalizeDoi } from "@/lib/wikibiome";
 import { lookupRorOrganization } from "@/lib/research-metadata";
+import { buildResearchImpact, normalizeOrganizationSlug } from "@/lib/researcher-discovery";
 import { discussionPublishingDecision, institutionEmailMatchesAuthoritativeDomains } from "@/lib/research-trust-policy.mjs";
 
 export const researcherRoles = ["researcher", "trusted_contributor", "topic_steward", "moderator", "institution_admin", "site_admin"] as const;
@@ -53,6 +55,9 @@ export type ResearcherSession = {
   affiliations: string[];
   expertiseSelf: string[];
   expertiseInferred: string[];
+  photoAvailable: boolean;
+  photoAlt: string;
+  photoUpdatedAt: string | null;
   messagingEnabled: boolean;
   email: string | null;
   emailVerified: boolean;
@@ -69,9 +74,12 @@ export type PublicResearcher = {
   name: string;
   biography: string;
   affiliations: string[];
-  verifiedAffiliations: Array<{ name: string; ror: string }>;
+  verifiedAffiliations: Array<{ name: string; identifier: string; ror: string | null; identityStatus: string; websiteUrl: string | null }>;
   expertiseSelf: string[];
   expertiseInferred: string[];
+  photoAvailable: boolean;
+  photoAlt: string;
+  photoUpdatedAt: string | null;
   role: ResearcherRole;
 };
 
@@ -218,6 +226,9 @@ async function getResearcherSessionFromToken(token: string): Promise<ResearcherS
     affiliations: parseStringArray(profile.affiliationsJson),
     expertiseSelf: parseStringArray(profile.expertiseSelfJson),
     expertiseInferred: parseStringArray(profile.expertiseInferredJson),
+    photoAvailable: Boolean(profile.photoR2Key),
+    photoAlt: profile.photoAlt,
+    photoUpdatedAt: profile.photoUpdatedAt,
     messagingEnabled: Boolean(profile.messagingEnabled),
     email: email?.email ?? null,
     emailVerified: Boolean(email?.verifiedAt),
@@ -344,6 +355,54 @@ export async function updateResearcherAccount(accountId: string, input: {
   await recordAudit(accountId, "profile.updated", "account", accountId, {});
 }
 
+export async function setResearcherProfilePhoto(account: ResearcherSession, input: { r2Key: string; mimeType: string; alt: unknown }) {
+  assertVerifiedResearcher(account);
+  const db = await getResearchDb();
+  const profile = (await db.select().from(researcherProfiles).where(eq(researcherProfiles.accountId, account.accountId)).limit(1))[0];
+  if (!profile) throw new Error("Researcher profile not found.");
+  const updatedAt = new Date().toISOString();
+  await db.update(researcherProfiles).set({
+    photoR2Key: cleanText(input.r2Key, 500),
+    photoMimeType: cleanText(input.mimeType, 100),
+    photoAlt: cleanText(input.alt, 180) || `Professional portrait of ${profile.name}`,
+    photoUpdatedAt: updatedAt,
+    updatedAt,
+  }).where(eq(researcherProfiles.accountId, account.accountId));
+  await recordAudit(account.accountId, "profile.photo_updated", "account", account.accountId, {});
+  return { previousR2Key: profile.photoR2Key, photoUpdatedAt: updatedAt };
+}
+
+export async function removeResearcherProfilePhoto(account: ResearcherSession) {
+  assertVerifiedResearcher(account);
+  const db = await getResearchDb();
+  const profile = (await db.select().from(researcherProfiles).where(eq(researcherProfiles.accountId, account.accountId)).limit(1))[0];
+  if (!profile) throw new Error("Researcher profile not found.");
+  await db.update(researcherProfiles).set({ photoR2Key: null, photoMimeType: null, photoAlt: "", photoUpdatedAt: null, updatedAt: new Date().toISOString() }).where(eq(researcherProfiles.accountId, account.accountId));
+  await recordAudit(account.accountId, "profile.photo_removed", "account", account.accountId, {});
+  return { previousR2Key: profile.photoR2Key };
+}
+
+export async function getResearcherProfilePhoto(orcid: unknown) {
+  try {
+    const profile = (await (await getResearchDb()).select({
+      r2Key: researcherProfiles.photoR2Key,
+      mimeType: researcherProfiles.photoMimeType,
+      updatedAt: researcherProfiles.photoUpdatedAt,
+    }).from(researcherProfiles).where(eq(researcherProfiles.orcid, normalizeOrcid(orcid))).limit(1))[0];
+    return profile?.r2Key && profile.mimeType ? { r2Key: profile.r2Key, mimeType: profile.mimeType, updatedAt: profile.updatedAt } : null;
+  } catch {
+    return null;
+  }
+}
+
+export async function recalculateInferredExpertise(accountId: string) {
+  const db = await getResearchDb();
+  const claims = await db.select({ sourceId: sourceClaims.sourceId }).from(sourceClaims).where(and(eq(sourceClaims.accountId, accountId), eq(sourceClaims.status, "verified"))).limit(500);
+  const inferred = buildResearchImpact(claims.map((claim) => claim.sourceId)).inferredExpertise;
+  await db.update(researcherProfiles).set({ expertiseInferredJson: JSON.stringify(inferred), updatedAt: new Date().toISOString() }).where(eq(researcherProfiles.accountId, accountId));
+  return inferred;
+}
+
 export async function beginEmailVerification(accountId: string, input: {
   email: unknown;
   researchNotifications?: unknown;
@@ -441,7 +500,17 @@ export async function getPublicResearchersByAccountIds(accountIds: string[]) {
         if (!profile) continue;
         const verifiedAffiliations = memberships
           .filter((item) => item.accountId === account.id)
-          .flatMap((item) => { const institution = institutionMap.get(item.institutionId); return institution ? [{ name: institution.name, ror: institution.ror }] : []; });
+          .flatMap((item) => {
+            const institution = institutionMap.get(item.institutionId);
+            if (!institution) return [];
+            return [{
+              name: institution.name,
+              identifier: institution.slug || institution.ror,
+              ror: institution.identityStatus === "ror_verified" ? institution.ror : null,
+              identityStatus: institution.identityStatus,
+              websiteUrl: institution.websiteUrl,
+            }];
+          });
         result.set(account.id, publicResearcher(account, profile, verifiedAffiliations));
       }
     }
@@ -449,6 +518,31 @@ export async function getPublicResearchersByAccountIds(accountIds: string[]) {
     // Public corpus routes must stay readable while a new migration is pending.
   }
   return result;
+}
+
+export async function listPublicResearcherDirectory() {
+  try {
+    const db = await getResearchDb();
+    const profiles = await db.select({ accountId: researcherProfiles.accountId }).from(researcherProfiles).orderBy(asc(researcherProfiles.name)).limit(500);
+    const ids = profiles.map((profile) => profile.accountId);
+    const [people, claims, recognition] = await Promise.all([
+      getPublicResearchersByAccountIds(ids),
+      ids.length ? db.select({ accountId: sourceClaims.accountId, sourceId: sourceClaims.sourceId }).from(sourceClaims).where(and(inArray(sourceClaims.accountId, ids), eq(sourceClaims.status, "verified"))).limit(5000) : Promise.resolve([]),
+      ids.length ? db.select({ accountId: recognitionEvents.accountId, level: recognitionEvents.level }).from(recognitionEvents).where(and(inArray(recognitionEvents.accountId, ids), eq(recognitionEvents.status, "active"))).limit(2500) : Promise.resolve([]),
+    ]);
+    return [...people.values()].map((researcher) => {
+      const impact = buildResearchImpact(claims.filter((claim) => claim.accountId === researcher.accountId).map((claim) => claim.sourceId));
+      const contributionLevel = recognition.filter((event) => event.accountId === researcher.accountId).reduce((level, event) => Math.max(level, event.level), 0);
+      return {
+        ...researcher,
+        expertiseInferred: [...new Set([...researcher.expertiseInferred, ...impact.inferredExpertise])],
+        impact,
+        contributionLevel,
+      };
+    });
+  } catch {
+    return [];
+  }
 }
 
 export async function createSourceClaim(input: { sourceId: string; account: ResearcherSession; evidenceNote?: unknown }) {
@@ -737,9 +831,22 @@ export async function getInstitutionByRor(ror: string) {
   }
 }
 
+export async function getInstitutionByIdentifier(identifier: string) {
+  try {
+    const value = cleanText(identifier, 100);
+    return (await (await getResearchDb()).select().from(institutions).where(or(eq(institutions.ror, value), eq(institutions.slug, value))).limit(1))[0] ?? null;
+  } catch {
+    return null;
+  }
+}
+
+export function institutionPublicIdentifier(institution: { ror: string; slug: string | null }) {
+  return institution.slug || institution.ror;
+}
+
 export async function listApprovedInstitutions() {
   try {
-    return (await getResearchDb()).select().from(institutions).where(eq(institutions.status, "approved")).orderBy(asc(institutions.name)).limit(500);
+    return await (await getResearchDb()).select().from(institutions).where(eq(institutions.status, "approved")).orderBy(asc(institutions.name)).limit(500);
   } catch {
     return [];
   }
@@ -779,34 +886,100 @@ export async function listInstitutionAccess(accountId: string) {
   }
 }
 
-export async function createInstitution(input: { account: ResearcherSession; ror: unknown; description?: unknown }) {
+export async function createInstitution(input: {
+  account: ResearcherSession;
+  ror?: unknown;
+  name?: unknown;
+  website?: unknown;
+  organizationType?: unknown;
+  relationship?: unknown;
+  description?: unknown;
+  evidenceNote?: unknown;
+}) {
   assertVerifiedResearcher(input.account);
   await enforceRateLimit(input.account.accountId, "institution.request", 3, 1440);
-  const organization = await lookupRorOrganization(input.ror);
-  const domainVerified = Boolean(input.account.emailVerified && institutionEmailMatchesAuthoritativeDomains(input.account.email, organization.domains));
   const db = await getResearchDb();
-  const existingInstitution = (await db.select().from(institutions).where(eq(institutions.ror, organization.ror)).limit(1))[0];
+  const requestedRor = cleanText(input.ror, 64);
+  const organizationType = cleanText(input.organizationType, 40) || "research_institute";
+  if (!["research_institute", "research_program", "nonprofit", "professional_association", "publisher", "data_resource"].includes(organizationType)) throw new Error("Choose a valid organization type.");
+  const relationship = cleanText(input.relationship, 40) || "member";
+  if (!["founder", "director", "researcher", "administrator", "member"].includes(relationship)) throw new Error("Choose your relationship to the organization.");
+
+  let organization: { ror: string; name: string; country: string; domains: string[]; websiteUrl: string | null; slug: string; identityStatus: string };
+  let existingInstitution: typeof institutions.$inferSelect | undefined;
+  if (requestedRor) {
+    const ror = await lookupRorOrganization(requestedRor);
+    existingInstitution = (await db.select().from(institutions).where(eq(institutions.ror, ror.ror)).limit(1))[0];
+    if (!existingInstitution && ror.domains.length) {
+      const provisional = await db.select().from(institutions).where(eq(institutions.identityStatus, "provisional")).limit(500);
+      existingInstitution = provisional.find((candidate) => websiteMatchesAuthoritativeDomains(candidate.websiteUrl, ror.domains));
+    }
+    organization = { ...ror, websiteUrl: existingInstitution?.websiteUrl || cleanUrl(input.website) || null, slug: existingInstitution?.slug || await availableInstitutionSlug(db, ror.name), identityStatus: "ror_verified" };
+    if (existingInstitution) await db.update(institutions).set({
+      ror: organization.ror,
+      slug: organization.slug,
+      name: organization.name,
+      country: organization.country || null,
+      domainsJson: JSON.stringify(organization.domains),
+      websiteUrl: organization.websiteUrl,
+      identityStatus: "ror_verified",
+      updatedAt: new Date().toISOString(),
+    }).where(eq(institutions.id, existingInstitution.id));
+  } else {
+    const name = cleanText(input.name, 300);
+    const websiteUrl = cleanUrl(input.website);
+    const evidenceNote = cleanText(input.evidenceNote, 3000);
+    if (name.length < 2) throw new Error("Add the organization name.");
+    if (!websiteUrl) throw new Error("Add the organization’s public website while ROR is pending.");
+    if (!evidenceNote) throw new Error("Add a public way for moderators to verify the organization and your relationship to it.");
+    const hostname = new URL(websiteUrl).hostname.replace(/^www\./i, "");
+    existingInstitution = (await db.select().from(institutions).where(eq(institutions.websiteUrl, websiteUrl)).limit(1))[0];
+    const institutionId = existingInstitution?.id ?? crypto.randomUUID();
+    organization = {
+      ror: existingInstitution?.ror || `provisional:${institutionId}`,
+      name,
+      country: "",
+      domains: [hostname],
+      websiteUrl,
+      slug: existingInstitution?.slug || await availableInstitutionSlug(db, name),
+      identityStatus: "provisional",
+    };
+  }
+
+  const domainVerified = Boolean(input.account.emailVerified && institutionEmailMatchesAuthoritativeDomains(input.account.email, organization.domains));
   const institutionId = existingInstitution?.id ?? crypto.randomUUID();
   const existingMembership = (await db.select().from(institutionMemberships).where(and(eq(institutionMemberships.institutionId, institutionId), eq(institutionMemberships.accountId, input.account.accountId))).limit(1))[0];
-  if (existingMembership) throw new Error("You already have an institution access request for this ROR organization.");
+  if (existingMembership) throw new Error("You already have an access request for this organization.");
   const membershipId = crypto.randomUUID();
   if (existingInstitution) {
-    await db.insert(institutionMemberships).values({ id: membershipId, institutionId, accountId: input.account.accountId, role: "admin", domainVerified });
+    await db.insert(institutionMemberships).values({ id: membershipId, institutionId, accountId: input.account.accountId, role: relationship, domainVerified });
   } else {
     await db.batch([
-      db.insert(institutions).values({ id: institutionId, ror: organization.ror, name: organization.name, country: organization.country || null, domainsJson: JSON.stringify(organization.domains), description: cleanText(input.description, 3000) }),
-      db.insert(institutionMemberships).values({ id: membershipId, institutionId, accountId: input.account.accountId, role: "admin", domainVerified }),
+      db.insert(institutions).values({
+        id: institutionId,
+        ror: organization.ror,
+        slug: organization.slug,
+        name: organization.name,
+        country: organization.country || null,
+        domainsJson: JSON.stringify(organization.domains),
+        websiteUrl: organization.websiteUrl,
+        organizationType,
+        identityStatus: organization.identityStatus,
+        evidenceNote: cleanText(input.evidenceNote, 3000),
+        description: cleanText(input.description, 3000),
+      }),
+      db.insert(institutionMemberships).values({ id: membershipId, institutionId, accountId: input.account.accountId, role: relationship, domainVerified }),
     ]);
   }
-  await recordAudit(input.account.accountId, "institution.requested", "institution", institutionId, { ror: organization.ror, domainVerified, domainSource: "ror_api" });
-  return { institutionId, ror: organization.ror, organization };
+  await recordAudit(input.account.accountId, "institution.requested", "institution", institutionId, { ror: requestedRor ? organization.ror : null, domainVerified, domainSource: requestedRor ? "ror_api" : "website_and_manual_review", relationship });
+  return { institutionId, identifier: organization.slug || organization.ror, ror: requestedRor ? organization.ror : null, organization };
 }
 
 export async function createInstitutionBatch(input: { account: ResearcherSession; institutionId: unknown; format: unknown; identifiers: unknown }) {
   assertVerifiedResearcher(input.account);
   const institutionId = cleanText(input.institutionId, 100);
-  const membership = (await (await getResearchDb()).select().from(institutionMemberships).where(and(eq(institutionMemberships.institutionId, institutionId), eq(institutionMemberships.accountId, input.account.accountId), eq(institutionMemberships.role, "admin"))).limit(1))[0];
-  if (!membership || membership.status !== "approved") throw new Error("An approved institution administrator is required.");
+  const membership = (await (await getResearchDb()).select().from(institutionMemberships).where(and(eq(institutionMemberships.institutionId, institutionId), eq(institutionMemberships.accountId, input.account.accountId))).limit(1))[0];
+  if (!membership || membership.status !== "approved" || !["founder", "director", "administrator", "admin"].includes(membership.role)) throw new Error("An approved organization administrator is required.");
   const format = cleanText(input.format, 20);
   if (!["doi", "pmid", "csv", "ris", "bibtex"].includes(format)) throw new Error("Choose a supported batch format.");
   const identifiers = cleanStringList(input.identifiers, 1000, 1000);
@@ -852,7 +1025,12 @@ export async function moderateResearchItem(account: ResearcherSession, input: { 
   const note = cleanText(input.note, 4000);
   const now = new Date().toISOString();
   const db = (await getResearchDb());
-  if (kind === "claim" && claimStatuses.includes(status as (typeof claimStatuses)[number])) await db.update(sourceClaims).set({ status, reviewerNote: note || null, updatedAt: now }).where(eq(sourceClaims.id, id));
+  if (kind === "claim" && claimStatuses.includes(status as (typeof claimStatuses)[number])) {
+    const claim = (await db.select().from(sourceClaims).where(eq(sourceClaims.id, id)).limit(1))[0];
+    if (!claim) throw new Error("Source claim not found.");
+    await db.update(sourceClaims).set({ status, reviewerNote: note || null, updatedAt: now }).where(eq(sourceClaims.id, id));
+    await recalculateInferredExpertise(claim.accountId);
+  }
   else if (kind === "author_review" && ["accepted", "declined", "needs_revision"].includes(status)) await db.update(authorReviews).set({ status, moderatorNote: note || null, updatedAt: now }).where(eq(authorReviews.id, id));
   else if (kind === "work_submission" && submissionStatuses.includes(status as (typeof submissionStatuses)[number])) {
     const submission = (await db.select().from(workSubmissions).where(eq(workSubmissions.id, id)).limit(1))[0];
@@ -871,7 +1049,7 @@ export async function moderateResearchItem(account: ResearcherSession, input: { 
   else if (kind === "institution_membership" && ["approved", "declined"].includes(status)) {
     const membership = (await db.select().from(institutionMemberships).where(eq(institutionMemberships.id, id)).limit(1))[0];
     if (!membership) throw new Error("Institution membership not found.");
-    if (status === "approved" && !membership.domainVerified) throw new Error("The researcher’s verified email does not match a registered institution domain.");
+    if (status === "approved" && !membership.domainVerified && !note) throw new Error("Record the public evidence used for manual relationship verification.");
     await db.update(institutionMemberships).set({ status }).where(eq(institutionMemberships.id, id));
   }
   else if (kind === "institution_batch" && ["accepted", "declined"].includes(status)) await db.update(institutionBatches).set({ status }).where(eq(institutionBatches.id, id));
@@ -992,7 +1170,26 @@ function normalizeFingerprintPart(value: unknown) {
   return cleanText(value, 1000).normalize("NFKD").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 }
 
-function publicResearcher(account: typeof accounts.$inferSelect, profile: typeof researcherProfiles.$inferSelect, verifiedAffiliations: Array<{ name: string; ror: string }> = []): PublicResearcher {
+async function availableInstitutionSlug(db: Awaited<ReturnType<typeof getResearchDb>>, name: string) {
+  const base = normalizeOrganizationSlug(name);
+  const existing = (await db.select({ id: institutions.id }).from(institutions).where(eq(institutions.slug, base)).limit(1))[0];
+  return existing ? `${base}-${crypto.randomUUID().slice(0, 8)}` : base;
+}
+
+function websiteMatchesAuthoritativeDomains(websiteUrl: string | null, domains: string[]) {
+  if (!websiteUrl) return false;
+  try {
+    const hostname = new URL(websiteUrl).hostname.toLowerCase().replace(/^www\./, "");
+    return domains.some((value) => {
+      const domain = value.toLowerCase().replace(/^www\./, "");
+      return hostname === domain || hostname.endsWith(`.${domain}`) || domain.endsWith(`.${hostname}`);
+    });
+  } catch {
+    return false;
+  }
+}
+
+function publicResearcher(account: typeof accounts.$inferSelect, profile: typeof researcherProfiles.$inferSelect, verifiedAffiliations: PublicResearcher["verifiedAffiliations"] = []): PublicResearcher {
   return {
     accountId: account.id,
     orcid: profile.orcid,
@@ -1002,6 +1199,9 @@ function publicResearcher(account: typeof accounts.$inferSelect, profile: typeof
     verifiedAffiliations,
     expertiseSelf: parseStringArray(profile.expertiseSelfJson),
     expertiseInferred: parseStringArray(profile.expertiseInferredJson),
+    photoAvailable: Boolean(profile.photoR2Key),
+    photoAlt: profile.photoAlt,
+    photoUpdatedAt: profile.photoUpdatedAt,
     role: isResearcherRole(account.role) ? account.role : "researcher",
   };
 }
