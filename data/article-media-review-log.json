@@ -16544,6 +16544,109 @@
       ],
       "requiredResolution": "A future revision requires a new authority audit, a new immutable prompt, and one newly authorized generation call whose native output independently passes exact 10-carbon, 3-nitrogen, 6-oxygen, 1-sulfur count, reduced-glutathione constitutional adjacency, opaque pale-field, and crop gates.",
       "routingImpact": "The exact revision-1 source remains immutable non-public quarantine evidence and is excluded from registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "innate-immunity",
+      "controlledIdentifier": "MeSH:D007113;system-level-multicomponent-defense",
+      "batchId": "host-defenses-099",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The controlled term and article span barriers, soluble mediators, pattern-recognition systems, immune-cell classes, phagosome metal intoxication, nutritional immunity, tissues, and diseases rather than one bounded subject.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007113",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000094406",
+        "local:data/content.generated.json#/pages/innate-immunity"
+      ],
+      "requiredResolution": "Choose one organism, tissue and compartment, cell type, receptor or effector, activation state, stimulus, time point, specimen or assay, measured endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a bounded state passes a new audit."
+    },
+    {
+      "pageId": "inter-kingdom-metal-shielding",
+      "controlledIdentifier": "WikiBiome:inter-kingdom-metal-shielding;no-exact-controlled-identifier",
+      "batchId": "host-defenses-099",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The locally synthesized umbrella concept combines bacterial and fungal biofilms, matrices, siderophore sharing, urease mineralization, biosorption, nanoparticles, co-selection, gut ecology, and a proposed NEC chain without one standardized observable configuration.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D018441",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007239",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008670",
+        "local:data/content.generated.json#/pages/inter-kingdom-metal-shielding"
+      ],
+      "requiredResolution": "Define one named cross-kingdom community with strains, anatomical or material surface, matrix, exact metal species and concentration, spatial scale, developmental stage, assay, endpoint, and directly supporting evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a bounded state passes a new audit."
+    },
+    {
+      "pageId": "lactoferrin",
+      "controlledIdentifier": "MeSH:D007781;UniProt:P02788;NCBITaxon:9606;multi-state-glycoprotein",
+      "batchId": "host-defenses-099",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The article combines apo and iron-saturated forms, variable glycosylation, intact protein and lactoferricin, several secretions and compartments, dietary and neutrophil sources, antimicrobial processes, and biomarker interpretation. Available structures are state-specific.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007781",
+        "https://www.uniprot.org/uniprotkb/P02788/entry",
+        "https://www.rcsb.org/structure/1CB6",
+        "https://www.rcsb.org/structure/1FCK",
+        "local:data/content.generated.json#/pages/lactoferrin"
+      ],
+      "requiredResolution": "Select exact species and sequence, isoform or mature chain, glycoform, apo or specified metal occupancy, oligomer and structure accession, retained partners, compartment or specimen, assay, and claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one molecular state passes a new audit."
+    },
+    {
+      "pageId": "lipocalin-2",
+      "controlledIdentifier": "MeSH:C489506;UniProt:P80188;NCBITaxon:9606;multi-ligand-multi-oligomer-state",
+      "batchId": "host-defenses-099",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The article combines unliganded and siderophore-bound protein, iron states, monomeric and oligomeric contexts, several producing cells and tissues, antimicrobial action, ecological selection, and fecal or urinary biomarker use.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=C489506",
+        "https://www.uniprot.org/uniprotkb/P80188/entry",
+        "https://www.rcsb.org/structure/1L6M",
+        "https://www.rcsb.org/structure/3CMP",
+        "local:data/content.generated.json#/pages/lipocalin-2"
+      ],
+      "requiredResolution": "Choose exact species and isoform, mature chain and glycosylation, oligomer, apo or named siderophore and iron complex, structure accession, compartment, specimen or assay, units, time point, and endpoint.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one molecular state passes a new audit."
+    },
+    {
+      "pageId": "metal-homeostasis",
+      "controlledIdentifier": "MeSH:D006706-related-homeostasis;MeSH:D008670-metals;multi-element-multi-organism-network",
+      "batchId": "host-defenses-099",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines multiple elements and chemical forms across human systemic physiology, intracellular compartments, bacterial regulation, import, export, storage, sensing, disease, and microbiome disruption rather than one measurable state.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68006706",
+        "https://www.ncbi.nlm.nih.gov/mesh/68008670",
+        "https://pubmed.ncbi.nlm.nih.gov/22337135/",
+        "local:data/content.generated.json#/pages/metal-homeostasis"
+      ],
+      "requiredResolution": "Split or choose one element and chemical form, organism, tissue or cell, compartment, transporter or regulator, concentration state, perturbation, specimen, assay, time point, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one measurable state passes a new audit."
+    },
+    {
+      "pageId": "metal-dependent-virulence",
+      "controlledIdentifier": "WikiBiome:metal-dependent-virulence;related-MeSH:D014766;multi-organism-multi-metal-process-class",
+      "batchId": "host-defenses-099",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route aggregates nickel enzymes, iron acquisition, heme uptake, siderophores, zinc metalloproteases, copper and manganese defenses, numerous pathogens, host compartments, exposures, and clinical extrapolations. Virulence is a phenotype rather than one structure.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014766",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008670",
+        "https://www.ncbi.nlm.nih.gov/books/NBK569686/",
+        "local:data/content.generated.json#/pages/metal-dependent-virulence"
+      ],
+      "requiredResolution": "Choose one pathogen and strain, exact virulence factor or pathway, metal species and occupancy, host niche, infection stage, experimental model, specimen and assay, measured phenotype, and evidence grade.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one measurable state passes a new audit."
     }
   ],
   "revisedAssets": [
