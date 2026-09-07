@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-108",
   "category": "interventions",
-  "status": "awaiting-control-review",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "920ce932832e16029c065e42b88dbdbeb8fe01c0",
@@ -19,9 +19,27 @@
     "mediaDescription": "Scientific algorithmic chemical-identity reconstruction, not a source structure image, crystallographic conformer, photograph, supplement product, assay result, treatment recommendation, or diagnostic image",
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "497c4992d74dac80c283cb1f7b2fee20f3f86132",
   "promptFreezeCommit": "23345552c70e9e53a3d0ffdd4a5ada269c9129d3",
+  "controlAcceptedReviewManifestSha256": "3e1c02218a81ee011d04af8341b1c291b623d6e9539e00887c441055fc05f75e",
+  "controlAcceptedPromptEvidenceSha256": "399c901664943abc7cd6ca819f63487aa3a30f6fbc97ef887a15df8691158010",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "36b3b00a49da9904f9fd790dab59c2671a090287",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "magnesium-supplementation",
+      "mediterranean-diet-fibromyalgia",
+      "mediterranean-diet-gerd",
+      "mediterranean-diet-ovarian-cancer",
+      "mediterranean-diet-t1d",
+      "melatonin"
+    ]
+  },
   "reviewStandard": "Only exact neutral melatonin is cleared for one immutable chemical-identity call. The five supplement or diet-protocol routes fail material, formulation, protocol, evidence, population, measurement, safety, or non-prescriptive-representation gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
@@ -32,6 +50,8 @@
   "quarantinedGenerationCount": 1,
   "revisionCount": 0,
   "promotionRule": "No Batch 108 source hash is eligible for promotion. Five routes remain asset-free scientific holds, and the single generated melatonin original remains immutable non-public quarantine evidence. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-eligible-assets",
+  "promotionDerivatives": {},
   "routeDecisions": [
     {
       "pageId": "magnesium-supplementation",
