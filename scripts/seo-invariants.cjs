@@ -233,10 +233,8 @@ assert(publicRobots.includes('Sitemap: https://www.wikibiome.com/sitemap.xml'), 
 assert(publicRobots.includes('Disallow: /api/'), 'public/robots.txt blocks API');
 assert(publicRobots.includes('Disallow: /outreach'), 'public/robots.txt blocks outreach');
 
-const checkout = fs.readFileSync(path.join(__dirname, '..', 'api/create-checkout.js'), 'utf8');
-assert(checkout.includes('function getStripe'), 'Stripe client is lazily constructed');
-assert(checkout.includes("req.method !== 'POST'"), 'checkout rejects non-POST without crashing');
-assert(checkout.includes('X-Robots-Tag'), 'checkout sends noindex header');
+assert(!fs.existsSync(path.join(__dirname, '..', 'api/create-checkout.js')), 'donation checkout endpoint is removed');
+assert(!spa.match(/Stripe|Donate|donation|buy\.stripe\.com/i), 'SPA contains no donation or Stripe CTA');
 
 assert(INDEXABLE_SPECIAL_PATHS.some((p) => p.path === '/about'), 'about is an indexable special page');
 assert(NOINDEX_SPECIAL_PATHS.includes('/outreach'), 'outreach is noindex');

@@ -158,6 +158,11 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 18:16 Asia/Nicosia — LIVE / WB-PR-4 ACCEPTED
+Tag: STATUS
+
+**LIVE received; WB-PR-4 accepted.** Removing the header, mobile, sidebar, footer, submission-flow, and `/support` tip-jar surfaces plus the Stripe checkout path. Replacing `/support` with free encyclopedia, researcher, Microbiome Medicine, and Cureva-for-labs-and-clinics paths only. No treatment claims or Cureva product UI. One PR; stop at kill-gate; **NO FINISH.**
+
 ### 2026-09-07 11:06 Asia/Nicosia — WB-PR-3 READY
 Tag: PR
 

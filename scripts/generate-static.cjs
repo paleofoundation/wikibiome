@@ -917,9 +917,9 @@ function generateSpecialPageHtml(specialPath) {
     },
     '/privacy': {
       title: 'Privacy — WikiBiome',
-      description: 'How WikiBiome handles accounts, submissions, analytics, and support payments.',
+      description: 'How WikiBiome handles accounts, submissions, and analytics.',
       html: `<h1>Privacy Policy</h1>
-      <p>WikiBiome collects the minimum information needed to operate the site. Account email is used only for submissions and optional updates. Payment processing is handled by Stripe; we do not store card numbers.</p>
+      <p>WikiBiome collects the minimum information needed to operate the site. Account email is used only for submissions and optional updates.</p>
       <p>Contact <a href="mailto:privacy@wikibiome.com">privacy@wikibiome.com</a> for privacy requests.</p>`,
     },
     '/terms': {
@@ -936,10 +936,10 @@ function generateSpecialPageHtml(specialPath) {
       <p>To suggest a paper, use the <a href="/submit">submit</a> form.</p>`,
     },
     '/support': {
-      title: 'Support WikiBiome',
-      description: 'Support the research and infrastructure behind the open WikiBiome encyclopedia.',
-      html: `<h1>Support WikiBiome</h1>
-      <p>Donations keep the encyclopedia’s research intake, editorial review, and hosting running. The interactive giving form loads after this page hydrates.</p>`,
+      title: 'Researchers and partners — WikiBiome',
+      description: 'Explore WikiBiome, researcher resources, Microbiome Medicine, and Cureva for labs and clinics.',
+      html: `<h1>Explore and collaborate</h1>
+      <p>Browse the <a href="/explore">WikiBiome encyclopedia</a>, visit the <a href="/outreach">researcher network</a>, or learn more at <a href="https://microbiomemedicine.com">Microbiome Medicine</a> and <a href="https://cureva.ai">Cureva for labs and clinics</a>.</p>`,
     },
     '/submit': {
       title: 'Submit research — WikiBiome',
