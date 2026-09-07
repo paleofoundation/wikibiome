@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-revisions-124",
   "category": "mechanisms",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "2a113f5a706b609f83ef28701d68165f6fa4220d",
   "generator": "OpenAI built-in image generation",
@@ -19,7 +19,7 @@
     "sourceUse": "Current NLM MeSH, reviewed UniProtKB, and ExPASy ENZYME records supply controlled identity and conservative representation boundaries only; no source image or design is copied."
   },
   "controlReviewRequired": true,
-  "initialAuditCommit": "pending-current-commit",
+  "initialAuditCommit": "b1b2fd8ab1363be945ef707a92fc2ec094f44726",
   "promptFreezeCommit": "pending-separate-commit",
   "reviewStandard": "Six deterministic disposition-revise records are re-audited against current controlled authorities and their literal revision-1 failures. Each old source remains immutable and non-public. Exactly one independent revision-2 call is permitted per hash-frozen prompt, followed by literal native-resolution output, prohibited-content, edge-field, crop, and exact-hash audit.",
   "routeDecisionCount": 6,
