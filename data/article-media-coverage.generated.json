@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "df43e0642a66b17b1baafd71ba5cf2fbaaa0f6469a20e0aa7c8ad54884930c88",
+    "reviewLogSha256": "1916e0929a0a239c7eefb4683c445871f1233738263eaa3dfdaef99a518d8dd9",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -251,6 +251,12 @@
         "batchId": "mechanisms-085",
         "status": "reviewed",
         "sha256": "6bfcc63693f489b1764f2eba80653ec3db584f2720cbbd3152556d56b239ad11"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-086.json",
+        "batchId": "mechanisms-086",
+        "status": "reviewed",
+        "sha256": "3e8f0a2a50be143bf56cfcc67bd65825a2f692abe81e7b6510bf3312d0f19f9c"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -544,9 +550,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 148,
+    "rejected": 154,
     "revised": 12,
-    "scientificHolds": 93,
+    "scientificHolds": 99,
     "inReview": 0
   },
   "categories": [
@@ -3290,6 +3296,104 @@
       ],
       "requiredResolution": "Define NFE2L2/KEAP1 identity, species/cell, exposure/dose/time, protein state/localization, DNA-binding and target-gene readouts, metabolite provenance, and disease-specific evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "oral-microbiome",
+      "controlledIdentifier": "MeSH:D064307;multi-niche-oral-microbial-ecosystem",
+      "batchId": "mechanisms-086",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Distinct oral habitats, community members, spatial scales, translocation routes, metals, and systemic associations are merged into one generalized ecosystem.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/37700024/",
+        "https://pubmed.ncbi.nlm.nih.gov/32791109/",
+        "local:data/content.generated.json#/pages/oral-microbiome"
+      ],
+      "requiredResolution": "Split by sampled oral site and define spatial scale, host state, assay, taxonomic resolution, community organization, and evidence-qualified association.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "outer-membrane",
+      "controlledIdentifier": "diderm-bacterial-outer-membrane;organism-specific",
+      "batchId": "mechanisms-086",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A general asymmetric membrane is mixed with incorrectly localized transport components and unsupported universal metal-tolerance, disease, and therapeutic claims.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/12960164/",
+        "local:data/content.generated.json#/pages/outer-membrane"
+      ],
+      "requiredResolution": "Select one organism/envelope and define both membranes, periplasm, peptidoglycan, outer-leaflet chemistry, named protein topology, transport direction and energy, and phenotype.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "oxalate",
+      "controlledIdentifier": "MeSH:D010002;duplicate-with-oxalates",
+      "batchId": "mechanisms-086",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route duplicates oxalates and overstates organism loss and colonization as causal stone-risk and therapeutic effects without chemical, host, diet, assay, and outcome boundaries.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010002",
+        "https://pubmed.ncbi.nlm.nih.gov/34190610/",
+        "https://pubmed.ncbi.nlm.nih.gov/41409368/",
+        "local:data/content.generated.json#/pages/oxalate"
+      ],
+      "requiredResolution": "Merge the canonical record; define chemical species, calcium oxalate, microbial degradation, host transport, urinary crystallization, diet, population, assay, and clinical outcome.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "oxalates",
+      "controlledIdentifier": "MeSH:D010002;duplicate-with-oxalate",
+      "batchId": "mechanisms-086",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The duplicate route combines food content, endogenous synthesis, diverse microbial pathways, mineral binding, disease, and interventions while overstating ecological exclusivity.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010002",
+        "https://pubmed.ncbi.nlm.nih.gov/33769280/",
+        "https://pubmed.ncbi.nlm.nih.gov/38422861/",
+        "local:data/content.generated.json#/pages/oxalates"
+      ],
+      "requiredResolution": "Merge with oxalate and separate chemical speciation, diet, microbial pathway and taxon, intestinal handling, urine supersaturation, disease endpoint, and intervention evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "oxidative-stress",
+      "controlledIdentifier": "MeSH:D018384;context-dependent-redox-disruption",
+      "batchId": "mechanisms-086",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Multiple reactive species, compartments, organisms, metals, defenses, biomarkers, diseases, and interventions are collapsed into one universal mechanism.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/16987039/",
+        "https://pubmed.ncbi.nlm.nih.gov/28698768/",
+        "https://pubmed.ncbi.nlm.nih.gov/26415143/",
+        "local:data/content.generated.json#/pages/oxidative-stress"
+      ],
+      "requiredResolution": "Split by species and compartment; define exposure, dose/time, redox target/pathway, assay and sample, biomarker specificity, damage endpoint, organism, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "oxygen-state",
+      "controlledIdentifier": "intestinal-oxygen-redox-gradient;no-single-controlled-state",
+      "batchId": "mechanisms-086",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A colon epithelial gradient hypothesis is generalized across metals, respiration modes, intestinal and extraintestinal diseases, and interventions without measurement or location boundaries.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/23812038/",
+        "https://pubmed.ncbi.nlm.nih.gov/27078066/",
+        "local:data/content.generated.json#/pages/oxygen-state"
+      ],
+      "requiredResolution": "Define intestinal segment and radial location, host state, oxygen or redox variable, method and time, metabolite flux, organism respiration phenotype, and evidence tier; separate other body sites.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -3444,55 +3548,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 493,
-      "id": "oral-microbiome",
-      "title": "Oral Microbiome",
-      "route": "/article/oral-microbiome",
+      "queuePosition": 499,
+      "id": "p-cresol",
+      "title": "p-Cresol",
+      "route": "/article/p-cresol",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 494,
-      "id": "outer-membrane",
-      "title": "Outer Membrane",
-      "route": "/article/outer-membrane",
+      "queuePosition": 500,
+      "id": "parenteral-nutrition",
+      "title": "Parenteral Nutrition",
+      "route": "/article/parenteral-nutrition",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 495,
-      "id": "oxalate",
-      "title": "Oxalate",
-      "route": "/article/oxalate",
+      "queuePosition": 501,
+      "id": "peptidoglycan",
+      "title": "Peptidoglycan",
+      "route": "/article/peptidoglycan",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 496,
-      "id": "oxalates",
-      "title": "Oxalates",
-      "route": "/article/oxalates",
+      "queuePosition": 502,
+      "id": "ph-sensing",
+      "title": "pH Sensing",
+      "route": "/article/ph-sensing",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 497,
-      "id": "oxidative-stress",
-      "title": "Oxidative Stress",
-      "route": "/article/oxidative-stress",
+      "queuePosition": 503,
+      "id": "phage-therapy",
+      "title": "Phage Therapy",
+      "route": "/article/phage-therapy",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 498,
-      "id": "oxygen-state",
-      "title": "Oxygen State",
-      "route": "/article/oxygen-state",
+      "queuePosition": 504,
+      "id": "pharmacomicrobiomics",
+      "title": "Pharmacomicrobiomics",
+      "route": "/article/pharmacomicrobiomics",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -13674,7 +13778,13 @@
       "route": "/article/oral-microbiome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Distinct oral habitats, community members, spatial scales, translocation routes, metals, and systemic associations are merged into one generalized ecosystem.",
+        "requiredResolution": "Split by sampled oral site and define spatial scale, host state, assay, taxonomic resolution, community organization, and evidence-qualified association."
+      }
     },
     {
       "queuePosition": 494,
@@ -13687,7 +13797,13 @@
       "route": "/article/outer-membrane",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A general asymmetric membrane is mixed with incorrectly localized transport components and unsupported universal metal-tolerance, disease, and therapeutic claims.",
+        "requiredResolution": "Select one organism/envelope and define both membranes, periplasm, peptidoglycan, outer-leaflet chemistry, named protein topology, transport direction and energy, and phenotype."
+      }
     },
     {
       "queuePosition": 495,
@@ -13700,7 +13816,13 @@
       "route": "/article/oxalate",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route duplicates oxalates and overstates organism loss and colonization as causal stone-risk and therapeutic effects without chemical, host, diet, assay, and outcome boundaries.",
+        "requiredResolution": "Merge the canonical record; define chemical species, calcium oxalate, microbial degradation, host transport, urinary crystallization, diet, population, assay, and clinical outcome."
+      }
     },
     {
       "queuePosition": 496,
@@ -13713,7 +13835,13 @@
       "route": "/article/oxalates",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The duplicate route combines food content, endogenous synthesis, diverse microbial pathways, mineral binding, disease, and interventions while overstating ecological exclusivity.",
+        "requiredResolution": "Merge with oxalate and separate chemical speciation, diet, microbial pathway and taxon, intestinal handling, urine supersaturation, disease endpoint, and intervention evidence."
+      }
     },
     {
       "queuePosition": 497,
@@ -13726,7 +13854,13 @@
       "route": "/article/oxidative-stress",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Multiple reactive species, compartments, organisms, metals, defenses, biomarkers, diseases, and interventions are collapsed into one universal mechanism.",
+        "requiredResolution": "Split by species and compartment; define exposure, dose/time, redox target/pathway, assay and sample, biomarker specificity, damage endpoint, organism, and evidence tier."
+      }
     },
     {
       "queuePosition": 498,
@@ -13739,7 +13873,13 @@
       "route": "/article/oxygen-state",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A colon epithelial gradient hypothesis is generalized across metals, respiration modes, intestinal and extraintestinal diseases, and interventions without measurement or location boundaries.",
+        "requiredResolution": "Define intestinal segment and radial location, host state, oxygen or redox variable, method and time, metabolite flux, organism respiration phenotype, and evidence tier; separate other body sites."
+      }
     },
     {
       "queuePosition": 499,
