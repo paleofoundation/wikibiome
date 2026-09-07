@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "02b3ab2fc29c4b25b7282383fc2c8c21e89459d538fcc8f7b5318054a5c3a3b9",
+    "reviewLogSha256": "fd794f731b280f3a5088031c36d8694106ca06b0a8a158b807a52f632dc1a7e1",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -275,6 +275,12 @@
         "batchId": "mechanisms-089",
         "status": "reviewed",
         "sha256": "c55f2364db97552066818e7af9c4124329626290e67511820a13c7812ab9ede6"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-090.json",
+        "batchId": "mechanisms-090",
+        "status": "reviewed",
+        "sha256": "6826aa756a978e45f6a385c801ffa23dc935a1dc9cb03a55a60e49a9b51d1f02"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -568,9 +574,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 172,
+    "rejected": 178,
     "revised": 12,
-    "scientificHolds": 117,
+    "scientificHolds": 123,
     "inReview": 0
   },
   "categories": [
@@ -3709,6 +3715,105 @@
       ],
       "requiredResolution": "Create exact strain and product records with taxonomy, strain identifier, viable dose, formulation, route, population or model, comparator, endpoint, safety, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "propionic-acid",
+      "controlledIdentifier": "PubChem-CID:1032;InChIKey:XBDQKXXYIPTUBI-UHFFFAOYSA-N",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "An exact molecule is surrounded by generalized human ASD causation, concentration, taxon, diet, metal-synergy, and intervention claims extrapolated from heterogeneous evidence.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1032",
+        "local:data/content.generated.json#/pages/propionic-acid"
+      ],
+      "requiredResolution": "Separate acid and salts, compartments, microbial pathways, measurements, animal exposure models, human associations, and interventions with dose, matrix, assay, population, endpoint, and tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "quinolinic-acid",
+      "controlledIdentifier": "PubChem-CID:1066;quinolinate-conjugate-states",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "An exact molecule is embedded in a universal peripheral-to-central dysbiosis, cytokine, serotonin, excitotoxicity, and multi-disease chain without concentration or compartment boundaries.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/Quinolinic-Acid",
+        "https://pubmed.ncbi.nlm.nih.gov/8973572/",
+        "https://pubmed.ncbi.nlm.nih.gov/24089628/",
+        "local:data/content.generated.json#/pages/quinolinic-acid"
+      ],
+      "requiredResolution": "Define molecular species, compartment, producing cell and enzymes, concentration and assay, model, receptor and endpoint, cohort, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "quorum-sensing",
+      "controlledIdentifier": "multi-signal-multi-organism-communication-umbrella",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "AHL, peptide, AI-2, indole, and fungal systems, organisms, environmental contexts, outputs, and inhibition strategies are generalized as one density switch.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31612240/",
+        "https://pubmed.ncbi.nlm.nih.gov/41627464/",
+        "local:data/content.generated.json#/pages/quorum-sensing"
+      ],
+      "requiredResolution": "Split by named signal, synthase, receptor, organism, concentration and diffusion context, regulated target, assay, phenotype, and intervention.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "riboswitch",
+      "controlledIdentifier": "multi-class-regulatory-RNA-umbrella",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Diverse metabolite and ion-sensing RNA classes, architectures, genomic contexts, ligands, kinetics, and outputs are collapsed into a universal metal-sensing model.",
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5473149/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5465474/",
+        "https://pubmed.ncbi.nlm.nih.gov/19298181/",
+        "local:data/content.generated.json#/pages/riboswitch"
+      ],
+      "requiredResolution": "Split by class and exact sequence and organism, genomic context, ligand, structure accession, expression platform, kinetic regime, assay, target gene, and phenotype.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "saccharolytic-fermentation",
+      "controlledIdentifier": "multi-substrate-multi-organism-fermentation-network",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Carbohydrate fermentation is labeled uniformly beneficial and protein fermentation uniformly toxic while substrates, organisms, cross-feeding, products, spatial gradients, diets, and endpoints are conflated.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/22121108/",
+        "https://pubmed.ncbi.nlm.nih.gov/29298101/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9120404/",
+        "local:data/content.generated.json#/pages/saccharolytic-fermentation"
+      ],
+      "requiredResolution": "Create substrate–organism–pathway–product modules with location, flux or concentration, assay, diet, host or model, comparator, endpoint, and certainty.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "semen-microbiome",
+      "controlledIdentifier": "low-biomass-semen-and-seminal-fluid-microbiome-field",
+      "batchId": "mechanisms-090",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Core taxa, dysbiosis, metal selection, sperm effects, and probiotic promise are asserted without specimen, contamination-control, microbial-load, viability, method, or cohort boundaries.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32794312/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12176750/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC13407389/",
+        "local:data/content.generated.json#/pages/semen-microbiome"
+      ],
+      "requiredResolution": "Define specimen, collection, negative controls, extraction, sequencing workflow, host depletion, absolute load, viability, cohort, phenotype, covariates, and replicated evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -3863,55 +3968,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 517,
-      "id": "propionic-acid",
-      "title": "Propionic Acid",
-      "route": "/article/propionic-acid",
+      "queuePosition": 523,
+      "id": "serotonin-estrogen-axis",
+      "title": "Serotonin-Estrogen Axis",
+      "route": "/article/serotonin-estrogen-axis",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 518,
-      "id": "quinolinic-acid",
-      "title": "Quinolinic Acid",
-      "route": "/article/quinolinic-acid",
+      "queuePosition": 524,
+      "id": "short-chain-fatty-acids",
+      "title": "Short-Chain Fatty Acids (SCFAs)",
+      "route": "/article/short-chain-fatty-acids",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 519,
-      "id": "quorum-sensing",
-      "title": "Quorum Sensing",
-      "route": "/article/quorum-sensing",
+      "queuePosition": 525,
+      "id": "shotgun-metagenomics",
+      "title": "Shotgun Metagenomics",
+      "route": "/article/shotgun-metagenomics",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 520,
-      "id": "riboswitch",
-      "title": "Riboswitch",
-      "route": "/article/riboswitch",
+      "queuePosition": 526,
+      "id": "srna",
+      "title": "sRNA (Small Regulatory RNA)",
+      "route": "/article/srna",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 521,
-      "id": "saccharolytic-fermentation",
-      "title": "Saccharolytic Fermentation",
-      "route": "/article/saccharolytic-fermentation",
+      "queuePosition": 527,
+      "id": "statins",
+      "title": "Statins",
+      "route": "/article/statins",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 522,
-      "id": "semen-microbiome",
-      "title": "Semen Microbiome",
-      "route": "/article/semen-microbiome",
+      "queuePosition": 528,
+      "id": "succinate",
+      "title": "Succinate",
+      "route": "/article/succinate",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -14549,7 +14654,13 @@
       "route": "/article/propionic-acid",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "An exact molecule is surrounded by generalized human ASD causation, concentration, taxon, diet, metal-synergy, and intervention claims extrapolated from heterogeneous evidence.",
+        "requiredResolution": "Separate acid and salts, compartments, microbial pathways, measurements, animal exposure models, human associations, and interventions with dose, matrix, assay, population, endpoint, and tier."
+      }
     },
     {
       "queuePosition": 518,
@@ -14562,7 +14673,13 @@
       "route": "/article/quinolinic-acid",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "An exact molecule is embedded in a universal peripheral-to-central dysbiosis, cytokine, serotonin, excitotoxicity, and multi-disease chain without concentration or compartment boundaries.",
+        "requiredResolution": "Define molecular species, compartment, producing cell and enzymes, concentration and assay, model, receptor and endpoint, cohort, and evidence tier."
+      }
     },
     {
       "queuePosition": 519,
@@ -14575,7 +14692,13 @@
       "route": "/article/quorum-sensing",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "AHL, peptide, AI-2, indole, and fungal systems, organisms, environmental contexts, outputs, and inhibition strategies are generalized as one density switch.",
+        "requiredResolution": "Split by named signal, synthase, receptor, organism, concentration and diffusion context, regulated target, assay, phenotype, and intervention."
+      }
     },
     {
       "queuePosition": 520,
@@ -14588,7 +14711,13 @@
       "route": "/article/riboswitch",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Diverse metabolite and ion-sensing RNA classes, architectures, genomic contexts, ligands, kinetics, and outputs are collapsed into a universal metal-sensing model.",
+        "requiredResolution": "Split by class and exact sequence and organism, genomic context, ligand, structure accession, expression platform, kinetic regime, assay, target gene, and phenotype."
+      }
     },
     {
       "queuePosition": 521,
@@ -14601,7 +14730,13 @@
       "route": "/article/saccharolytic-fermentation",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Carbohydrate fermentation is labeled uniformly beneficial and protein fermentation uniformly toxic while substrates, organisms, cross-feeding, products, spatial gradients, diets, and endpoints are conflated.",
+        "requiredResolution": "Create substrate–organism–pathway–product modules with location, flux or concentration, assay, diet, host or model, comparator, endpoint, and certainty."
+      }
     },
     {
       "queuePosition": 522,
@@ -14614,7 +14749,13 @@
       "route": "/article/semen-microbiome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Core taxa, dysbiosis, metal selection, sperm effects, and probiotic promise are asserted without specimen, contamination-control, microbial-load, viability, method, or cohort boundaries.",
+        "requiredResolution": "Define specimen, collection, negative controls, extraction, sequencing workflow, host depletion, absolute load, viability, cohort, phenotype, covariates, and replicated evidence."
+      }
     },
     {
       "queuePosition": 523,
