@@ -43,9 +43,9 @@ Zur regulates zinc homeostasis and is critical at the host-pathogen interface wh
 
 NikR controls nickel homeostasis and is especially important in [[helicobacter-pylori]] [[maier-2019-nickel-microbial-pathogenesis]]:
 
-- Mechanism: Ni2+-bound NikR both represses nickel import (NikABCDE) and activates nickel storage and urease expression
+- Mechanism: Ni2+-bound NikR both represses nickel import (NikABCDE) and activates nickel storage and [[urease]] expression
 - Dual function: NikR is unusual in functioning as both a repressor and activator depending on the target gene
-- Clinical relevance: NikR links dietary nickel availability to [[nickel-urease]] and [[nife-hydrogenase]] expression -- the two primary virulence factors of H. pylori
+- Clinical relevance: NikR links dietary nickel availability to nickel-urease and [[nife-hydrogenase]] expression -- the two primary virulence factors of H. pylori
 
 ## Riboswitches
 

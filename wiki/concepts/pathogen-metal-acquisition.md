@@ -27,7 +27,7 @@ The highest-affinity metal import systems in bacteria. Consist of a periplasmic/
 Nickel-specific:
 - NikABCDE (*E. coli*): The prototypical bacterial nickel importer. NikA is the periplasmic binding protein; NikB/C form the transmembrane channel; NikD/E provide the ATPase. High affinity, capable of scavenging nickel at very low concentrations [[maier-2019-nickel-microbial-pathogenesis]].
 - NiuBDE (*H. pylori*): ABC-type nickel transporter that operates at acidic pH -- essential for the gastric niche where low pH is constant [[maier-2019-nickel-microbial-pathogenesis]].
-- UreMQO (*S. salivarius*): The only characterized nickel transporter in Streptococci. Part of the Ni-dependent urease operon [[akbari-2022-metal-homeostasis-streptococci]].
+- UreMQO (*S. salivarius*): The only characterized nickel transporter in Streptococci. Part of the Ni-dependent [[urease]] operon [[akbari-2022-metal-homeostasis-streptococci]].
 
 Iron-specific:
 - PitABCD (Streptococci): Iron import system.

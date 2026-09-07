@@ -30,7 +30,7 @@ The strategy by which mammalian hosts withhold essential metals from invading pa
 ### Why Nickel is a Good Target
 - Mammals do not synthesize known Ni-requiring proteins — so restricting nickel imposes no cost on the host.
 - Nickel is already scarce in mammalian tissues: <5 ppm in most organs, <0.1% of zinc levels.
-- Many important pathogens ([[helicobacter-pylori]], [[staphylococcus-aureus]], *Salmonella*, [[brucella|*Brucella*]]) depend on Ni-enzymes (urease, hydrogenase) for virulence.
+- Many important pathogens ([[helicobacter-pylori]], [[staphylococcus-aureus]], *Salmonella*, [[brucella|*Brucella*]]) depend on Ni-enzymes ([[urease]], hydrogenase) for virulence.
 
 ### Host Proteins Involved
 - Calprotectin (S100A8/A9): neutrophil-derived; >1 mg/mL at infection sites [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. Canonically sequesters Mn and Zn to starve *S. aureus* of Mn-SOD cofactors [[cassat-2012-metal-acquisition-staphylococcus-aureus]], [[martin-2022-manganese-homeostasis-stress-pathogenesis]]. Recent finding: also coordinates Ni(II) at the hexahistidine site preferentially over Zn(II), sequestering nickel from *S. aureus* and *K. pneumoniae* and inhibiting their urease activity [[maier-2019-nickel-microbial-pathogenesis]]. In response, *S. aureus* activates the small RNA RsaC to suppress Mn-dependent SodA translation, freeing scarce Mn for other essential processes [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]].

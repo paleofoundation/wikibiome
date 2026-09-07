@@ -32,7 +32,7 @@ pH sensing refers to the molecular mechanisms by which bacteria detect and respo
 
 ## pH and Metal Bioavailability
 
-pH directly controls the solubility and speciation of metals in the gut lumen. At acidic pH, iron (Fe2+/Fe3+), zinc, and nickel become more soluble and bioavailable. At neutral to alkaline pH, these metals precipitate or bind to organic ligands, reducing free concentrations. This means that pH-modifying organisms — urease producers like [[helicobacter-pylori]] and [[morganella-morganii]] — can effectively "unlock" metal resources by alkalinizing their local environment.
+pH directly controls the solubility and speciation of metals in the gut lumen. At acidic pH, iron (Fe2+/Fe3+), zinc, and nickel become more soluble and bioavailable. At neutral to alkaline pH, these metals precipitate or bind to organic ligands, reducing free concentrations. This means that pH-modifying organisms — [[urease]] producers like [[helicobacter-pylori]] and [[morganella-morganii]] — can effectively "unlock" metal resources by alkalinizing their local environment.
 
 ## Bacterial pH-Sensing Systems
 
@@ -45,6 +45,6 @@ pH gradients create spatial niches within the gut. Butyrate-producing anaerobes 
 ## Cross-References
 
 - [[metal-speciation]] — pH-dependent oxidation states
-- [[urease]] — pH manipulation enzyme
+- Urease — pH manipulation enzyme
 - [[acidic-microenvironment]] — tumor and inflammatory pH shifts
 - [[butyrate]] — fermentative acidification of colon

@@ -21,7 +21,7 @@ pathogenic_potential: obligate
 
 # Mycobacterium tuberculosis
 
-The causative agent of tuberculosis (TB), the leading infectious disease killer worldwide (~1.3 million deaths annually). *M. tuberculosis* has an exceptionally complex metal biology: it deploys [[nickel]]-dependent hydrogenase and urease for intracellular survival, species-specific [[siderophores-metallophores|siderophores]] (mycobactins) for [[iron]] scavenging, and must resist host [[copper]] intoxication within macrophage phagosomes.
+The causative agent of tuberculosis (TB), the leading infectious disease killer worldwide (~1.3 million deaths annually). *M. tuberculosis* has an exceptionally complex metal biology: it deploys [[nickel]]-dependent hydrogenase and [[urease]] for intracellular survival, species-specific [[siderophores-metallophores|siderophores]] (mycobactins) for [[iron]] scavenging, and must resist host [[copper]] intoxication within macrophage phagosomes.
 
 ## Nickel-Dependent Virulence
 
@@ -81,7 +81,7 @@ The causative agent of tuberculosis (TB), the leading infectious disease killer 
 ## Connections
 
 - [[hydrogenase]] -- Hyc upregulated in macrophages for intracellular energy generation
-- [[urease]] -- nitrogen acquisition during chronic/latent infection
+- Urease -- nitrogen acquisition during chronic/latent infection
 - [[siderophores-metallophores]] -- mycobactins/carboxymycobactins for iron acquisition
 - [[nickel]] -- cofactor for hydrogenase and urease
 - [[iron]] -- the most critical metal for TB virulence; mycobactin-dependent

@@ -31,7 +31,7 @@ The Benoit et al. (2019) study demonstrated that oral DMG is effective against m
 
 - Growth inhibition: DMG is bacteriostatic against MDR *[[klebsiella-pneumoniae]]* (NDM-1+, carbapenem-resistant) and MDR *[[salmonella]]* Typhimurium at 5–10 mM.
 - Hydrogenase abolished: [[nickel|NiFe-hydrogenase]] activity in *Salmonella* completely eliminated at 10 mM DMG. Adding NiCl₂ restored activity, confirming the mechanism is nickel sequestration.
-- Urease abolished: [[urease]] activity in *Klebsiella* completely eliminated at 5 mM DMG. Since urease-negative *K. pneumoniae* mutants cannot colonize the intestine, this predicts in vivo efficacy.
+- [[urease|Urease]] abolished: urease activity in *Klebsiella* completely eliminated at 5 mM DMG. Since urease-negative *K. pneumoniae* mutants cannot colonize the intestine, this predicts in vivo efficacy.
 
 ### In Vivo
 
@@ -77,7 +77,7 @@ DMG is also the standard dermatological spot-test reagent for detecting nickel o
 - [[metal-chelation-therapy]] — selective vs. non-selective chelation
 - [[nutritional-immunity]] — DMG extends host metal restriction pharmacologically
 - [[microbial-metallomics]] — the framework predicting this intervention
-- [[urease]] — Ni-dependent enzyme disabled by DMG
+- Urease — Ni-dependent enzyme disabled by DMG
 - [[nife-hydrogenase]] — Ni-dependent enzyme disabled by DMG
 - [[amyloid-beta]] — nickel-dependent aggregation reduced by DMG
 - [[curli]] — Enterobacteriaceae amyloid connection

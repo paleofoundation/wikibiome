@@ -56,7 +56,7 @@ platform: wikibiome
 ## Key Enzymes and Functional Features
 
 - Salivaricin A and B — Lanthibiotic bacteriocins (BLIS: bacteriocin-like inhibitory substances) that inhibit *Streptococcus pyogenes*, *Streptococcus pneumoniae*, and *Streptococcus mutans*. The K12 strain produces salivaricin A2 and B; the M18 strain targets cariogenic bacteria.
-- Urease — Some strains express urease that hydrolyzes urea to ammonia, raising local pH. In the oral cavity this may protect against acid-mediated caries; in the gut this activity can contribute to ammonia production relevant to hepatic encephalopathy.
+- [[urease|Urease]] — Some strains express urease that hydrolyzes urea to ammonia, raising local pH. In the oral cavity this may protect against acid-mediated caries; in the gut this activity can contribute to ammonia production relevant to hepatic encephalopathy.
 - EPS production — Produces fructans (levan, inulin-type fructooligosaccharides) that serve as prebiotics for other commensals.
 
 ## Ecological Role

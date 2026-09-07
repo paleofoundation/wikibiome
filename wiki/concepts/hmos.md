@@ -73,7 +73,7 @@ HMOs have direct biological activities beyond feeding bacteria:
 HMOs intersect with metal biology at several points:
 
 - Iron ecology: By establishing Bifidobacterium dominance, HMOs reduce the abundance of siderophore-producing Enterobacteriaceae that compete for iron. This complements lactoferrin's iron-chelating function.
-- Nickel pathobionts: The Proteobacteria suppressed by HMO-fed Bifidobacterium include nickel-dependent pathogens (urease-positive Klebsiella, E. coli) implicated in NEC [[pendergrass-2026-nickel-nec-preterm-gut]].
+- Nickel pathobionts: The Proteobacteria suppressed by HMO-fed Bifidobacterium include nickel-dependent pathogens ([[urease]]-positive Klebsiella, E. coli) implicated in NEC [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Zinc and barrier function: HMO-promoted barrier maturation works alongside zinc-dependent tight junction proteins.
 
 ## Formula vs. Breast Milk

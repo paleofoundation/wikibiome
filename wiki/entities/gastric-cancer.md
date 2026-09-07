@@ -26,7 +26,7 @@ The fifth most common cancer worldwide and third leading cause of cancer death, 
 
 ### Step 1: Nickel Enables Colonization
 H. pylori cannot survive gastric acid without two nickel-dependent enzymes:
-- Urease -- a Ni-containing enzyme that hydrolyzes urea to ammonia + CO2, locally neutralizing gastric acid. Contains 24 nickel ions per holoenzyme. Without nickel, urease is inactive and H. pylori cannot colonize.
+- [[urease|Urease]] -- a Ni-containing enzyme that hydrolyzes urea to ammonia + CO2, locally neutralizing gastric acid. Contains 24 nickel ions per holoenzyme. Without nickel, urease is inactive and H. pylori cannot colonize.
 - [Ni-Fe] [[hydrogenase]] -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density.
 
 ### Step 2: Nickel Powers Virulence

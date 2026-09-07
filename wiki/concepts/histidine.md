@@ -23,7 +23,7 @@ The imidazole ring of histidine coordinates transition metals through its nitrog
 ### Nickel Storage and Handling
 
 - Hpn in [[helicobacter-pylori]]: 47% histidine content, 20-mer binding 5 Ni(II) per monomer. The primary nickel reservoir in gastric Helicobacter [[maier-2019-nickel-microbial-pathogenesis]].
-- HypB in [[proteus-mirabilis]]: 39% histidine in its histidine-rich region, serving as a nickel chaperone for urease assembly [[proteus-mirabilis]].
+- HypB in [[proteus-mirabilis]]: 39% histidine in its histidine-rich region, serving as a nickel chaperone for [[urease]] assembly [[proteus-mirabilis]].
 - The convergent evolution of histidine-rich nickel buffers in urease-dependent pathogens (H. pylori, P. mirabilis) underscores nickel's role as a virulence-enabling metal.
 
 ### Zinc Binding

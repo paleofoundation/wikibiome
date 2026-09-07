@@ -40,7 +40,7 @@ Uremic toxins are metabolic waste products that accumulate in the blood when kid
 
 In CKD, the gut microbiome undergoes a characteristic shift from saccharolytic (fiber-fermenting, SCFA-producing) to proteolytic (amino acid-fermenting, toxin-producing) metabolism. This shift is driven by:
 
-1. Uremic milieu: Urea diffusing into the gut lumen is hydrolyzed by bacterial urease to ammonia, raising intestinal pH and favoring proteolytic organisms
+1. Uremic milieu: Urea diffusing into the gut lumen is hydrolyzed by bacterial [[urease]] to ammonia, raising intestinal pH and favoring proteolytic organisms
 2. Dietary protein restriction paradox: While low-protein diets reduce some uremic toxin precursors, they also reduce fiber intake, limiting saccharolytic fermentation
 3. Antibiotic exposure: Frequent antibiotic use in CKD patients depletes SCFA-producing commensals
 4. Constipation: Common in CKD, prolonging colonic transit time and increasing protein fermentation [[lu-2019-constipation-esrd-risk-ckd]]

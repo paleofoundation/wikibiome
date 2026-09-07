@@ -48,7 +48,7 @@ The relationship between *H. pylori* and GERD is controversial and paradoxical:
 - *H. pylori* eradication has been associated with increased GERD symptoms in some patients, particularly those with corpus-predominant gastritis where the bacterium was suppressing acid secretion
 - However, *H. pylori* is a clear risk factor for peptic ulcer disease and gastric cancer, creating a clinical dilemma
 - The "African enigma" -- high *H. pylori* prevalence in Africa with low GERD rates -- supports the protective hypothesis
-- See [[helicobacter-pylori]] for the broader metal-microbiome interactions of this organism, including its nickel-dependent urease and hydrogenase enzymes
+- See [[helicobacter-pylori]] for the broader metal-microbiome interactions of this organism, including its nickel-dependent [[urease]] and hydrogenase enzymes
 
 ## Causal Microbiome-GERD Relationships
 

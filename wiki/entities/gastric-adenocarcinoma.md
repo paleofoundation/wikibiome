@@ -36,7 +36,7 @@ The mechanistic link between *H. pylori* and gastric carcinogenesis runs through
 
 Gastric carcinogenesis follows a well-characterized progression, with microbial involvement at each stage:
 
-1. Normal mucosa to chronic active gastritis -- driven by *H. pylori* urease-mediated mucosal inflammation
+1. Normal mucosa to chronic active gastritis -- driven by *H. pylori* [[urease]]-mediated mucosal inflammation
 2. Atrophic gastritis -- loss of parietal cells, rising pH, shifting microbial community
 3. Intestinal metaplasia -- goblet cell appearance, further microbial community change
 4. Dysplasia to adenocarcinoma -- accumulated genetic damage from chronic inflammation and CagA signaling

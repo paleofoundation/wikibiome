@@ -43,7 +43,7 @@ Fur mis-metallation: Manganese excess can mis-metallate Fur, causing iron import
 | Sensor | Metal | Key Function | Organisms |
 |--------|-------|-------------|-----------|
 | MntR | Mn2+ | Manganese import/export balance; works with SczA in pneumococcus | Streptococci, *E. coli*, *B. subtilis* |
-| NikR | Ni2+ | Dual activator/repressor; controls [[nickel-urease]] and Ni import | *H. pylori* (essential for gastric survival) [[maier-2019-nickel-microbial-pathogenesis]] |
+| NikR | Ni2+ | Dual activator/repressor; controls [[urease|nickel-dependent urease]] and Ni import | *H. pylori* (essential for gastric survival) [[maier-2019-nickel-microbial-pathogenesis]] |
 | CadR | Cd2+ | ~480-fold induction of czcE upon Cd exposure | [[acinetobacter]] |
 | CopY/CsoR | Cu+ | Copper efflux pump expression | Streptococci, *M. tuberculosis* |
 | SczA | Zn2+ | Zinc efflux; works with MntR for Zn-Mn discrimination | *S. pneumoniae* |
@@ -94,7 +94,7 @@ Metal sensors are potential therapeutic targets:
 - [[mis-metallation]] -- Sensor mis-metallation as vulnerability
 - [[irving-williams-series]] -- Thermodynamic basis for sensor design
 - [[nutritional-immunity]] -- Host pressure that sensors respond to
-- [[nickel-urease]] -- NikR-controlled virulence system
+- Nickel-urease -- NikR-controlled virulence system
 - [[calprotectin]] -- Host metal restriction triggering sensor responses
 - [[iron-sulfur-clusters]] -- IscR as Fe-S-dependent metal sensor
 - [[calcium]] -- yybP-ykoY dual Mn/Ca sensing

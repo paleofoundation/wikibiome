@@ -38,7 +38,7 @@ A Gram-negative, microaerophilic bacterium within the Epsilonproteobacteria (fam
 
 - *Helicobacter hepaticus* -- type strain ATCC 51449; first isolated from livers of mice with chronic hepatitis (Fox *et al.*, 1994).
 - Family Helicobacteraceae, order Campylobacterales, class Epsilonproteobacteria.
-- Closely related to [[helicobacter-pylori]], but lacks urease -- a striking divergence given urease's central role in H. pylori gastric colonization.
+- Closely related to [[helicobacter-pylori]], but lacks [[urease]] -- a striking divergence given urease's central role in H. pylori gastric colonization.
 
 ## Metal Dependencies
 

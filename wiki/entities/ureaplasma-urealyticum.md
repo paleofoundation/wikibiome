@@ -32,7 +32,7 @@ platform: wikibiome
 
 *See also: [[ureaplasma]] (genus page with full biology and metal dependency profile)*
 
-*Ureaplasma urealyticum* is one of two human-pathogenic Ureaplasma species (alongside *U. parvum*). Like all Ureaplasma, it depends on nickel-dependent urease for energy generation.
+*Ureaplasma urealyticum* is one of two human-pathogenic Ureaplasma species (alongside *U. parvum*). Like all Ureaplasma, it depends on nickel-dependent [[urease]] for energy generation.
 
 ## Key Associations
 
@@ -42,4 +42,4 @@ platform: wikibiome
 ## Cross-References
 
 - [[ureaplasma]] — genus page with complete metal dependency and mechanism detail
-- [[nickel-urease]] — the essential nickel-dependent enzyme
+- Nickel-urease — the essential nickel-dependent enzyme

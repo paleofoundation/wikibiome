@@ -44,7 +44,7 @@ The tissue metallomic signature from the [[endometriosis|endometriosis signature
 
 | Metal | Peritoneal Fluid Finding | Systemic Relevance |
 |-------|-------------------------|-------------------|
-| [[nickel|Ni]] | 40.4 ug/L vs. <LOD in control (4:1 ratio); 77.8% literature consensus | Cofactor for urease, glyoxalase, hydrogenase in pathogenic taxa; Ni ACM prevalence 90.3% in symptomatic patients |
+| [[nickel|Ni]] | 40.4 ug/L vs. <LOD in control (4:1 ratio); 77.8% literature consensus | Cofactor for [[urease]], glyoxalase, hydrogenase in pathogenic taxa; Ni ACM prevalence 90.3% in symptomatic patients |
 | [[iron|Fe]] | Elevated in peritoneal fluid via retrograde menstruation | 70.4% literature consensus; siderophore competition; functional anemia via hepcidin (host defense, NOT deficiency) |
 | [[lead|Pb]] | 75 ug/L vs. 0.72 ug/L in control (90:1 ratio) | 59.3% consensus; mis-metallation via Ca channels; synergistic with Cd for oxidative stress |
 | [[cadmium|Cd]] | Elevated in peritoneal environment | 18.5% consensus; metalloestrogen (ERa binding); synergistic with Pb |

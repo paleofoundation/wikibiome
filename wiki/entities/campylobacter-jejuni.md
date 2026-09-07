@@ -21,7 +21,7 @@ pathogenic_potential: obligate
 
 # Campylobacter jejuni
 
-The leading bacterial cause of diarrheal disease worldwide, with an estimated 400-500 million cases annually. *C. jejuni* is notable in the metallomics context for possessing a [[nickel]]-dependent [NiFe] [[hydrogenase]] essential for colonization but lacking urease -- a striking contrast with the closely related [[helicobacter-pylori]].
+The leading bacterial cause of diarrheal disease worldwide, with an estimated 400-500 million cases annually. *C. jejuni* is notable in the metallomics context for possessing a [[nickel]]-dependent [NiFe] [[hydrogenase]] essential for colonization but lacking [[urease]] -- a striking contrast with the closely related [[helicobacter-pylori]].
 
 ## Nickel-Dependent Virulence
 
@@ -65,7 +65,7 @@ The leading bacterial cause of diarrheal disease worldwide, with an estimated 40
 ## Connections
 
 - [[hydrogenase]] -- [NiFe] hydrogenase essential for chicken colonization
-- [[urease]] -- notably absent; contrasts with H. pylori
+- Urease -- notably absent; contrasts with H. pylori
 - [[nickel]] -- essential cofactor for hydrogenase
 - [[iron]] -- acquired via siderophore piracy and dedicated transporters
 - [[metal-dependent-virulence]] -- hydrogenase-only Ni-dependent virulence model

@@ -21,7 +21,7 @@ Every meal delivers metals to the gut lumen — essential minerals, trace elemen
 
 This is a bidirectional relationship:
 
-Metals → Microbiota. Dietary metals act as selective pressures (Primitive 1). Iron feeds siderophore-producers. Nickel enables urease-positive organisms. Cadmium selects for metallothionein-expressing taxa. The metal profile of the diet determines which microbial niches are viable.
+Metals → Microbiota. Dietary metals act as selective pressures (Primitive 1). Iron feeds siderophore-producers. Nickel enables [[urease]]-positive organisms. Cadmium selects for metallothionein-expressing taxa. The metal profile of the diet determines which microbial niches are viable.
 
 Microbiota → Metal fate. Gut bacteria modify metal speciation, bioavailability, and host absorption. Bacteria can methylate arsenic (changing its toxicity), reduce chromium (changing its valence state), bind lead and cadmium to cell walls (reducing absorption), and produce organic acids that solubilize insoluble metal complexes. The composition of your gut microbiome determines how much dietary metal actually reaches your tissues [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 

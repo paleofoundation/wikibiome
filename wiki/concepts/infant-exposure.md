@@ -69,7 +69,7 @@ The infant microbiome assembles in a predictable sequence that metals can disrup
 | 6-24 months | Diversification; Firmicutes expand with solid foods | Metals select for resistant taxa, reducing diversity |
 | 2-5 years | Adult-like composition stabilizes | Altered trajectory may persist into adulthood |
 
-Nickel and NEC: [[nickel]] exposure in preterm infants is associated with [[necrotizing-enterocolitis]] through promotion of Ni-dependent pathobionts (urease-positive Klebsiella, E. coli) that drive the Proteobacteria bloom preceding NEC [[pendergrass-2026-nickel-nec-preterm-gut]].
+Nickel and NEC: [[nickel]] exposure in preterm infants is associated with [[necrotizing-enterocolitis]] through promotion of Ni-dependent pathobionts ([[urease]]-positive Klebsiella, E. coli) that drive the Proteobacteria bloom preceding NEC [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ## Disease Associations
 

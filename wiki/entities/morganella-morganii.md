@@ -39,7 +39,7 @@ Morganella morganii is a Gram-negative, facultatively anaerobic rod belonging to
 
 ## Metal Dependencies
 
-M. morganii produces a potent nickel-dependent urease that hydrolyzes urea to ammonia, raising local pH. This pH shift increases the bioavailability of iron and zinc, creating a self-reinforcing niche. The organism also deploys siderophore systems for iron acquisition in competition with the host's [[nutritional-immunity]] defenses.
+M. morganii produces a potent nickel-dependent [[urease]] that hydrolyzes urea to ammonia, raising local pH. This pH shift increases the bioavailability of iron and zinc, creating a self-reinforcing niche. The organism also deploys siderophore systems for iron acquisition in competition with the host's [[nutritional-immunity]] defenses.
 
 ## Ecological Role
 
@@ -53,5 +53,5 @@ M. morganii is clinically significant in nosocomial infections and has been dete
 
 - [[nickel]] — urease cofactor
 - [[iron]] — siderophore competition
-- [[urease]] — key virulence enzyme
+- Urease — key virulence enzyme
 - [[nutritional-immunity]] — host metal sequestration

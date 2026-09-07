@@ -34,7 +34,7 @@ From a WikiBiome perspective, *Rothia* is significant because it bridges oral an
 ## Key Enzymes and Virulence Factors
 
 - Nitrate reductase: *Rothia* is among the key oral nitrate-reducing bacteria that convert dietary nitrate (from leafy greens) to nitrite, which is subsequently reduced to nitric oxide (NO) in the stomach. This enterosalivary nitrate-nitrite-NO pathway contributes to blood pressure regulation and antimicrobial defense. Its disruption (e.g., by antiseptic mouthwash) has been linked to hypertension.
-- Urease: Some *Rothia* strains produce urease, enabling survival in acidic environments and contributing to nitrogen cycling in the oral cavity.
+- [[urease|Urease]]: Some *Rothia* strains produce urease, enabling survival in acidic environments and contributing to nitrogen cycling in the oral cavity.
 - Biofilm formation: *Rothia* participates in multi-species oral biofilms and can contribute to dental caries when ecological balance is disrupted.
 
 ## Ecological Role

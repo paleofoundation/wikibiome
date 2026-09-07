@@ -33,7 +33,7 @@ Mendelian randomization studies in the vault consistently identify Actinobacteri
 
 | Genus | Key Function | Metal Biology |
 |-------|-------------|---------------|
-| [[bifidobacterium]] | Premier probiotic; SCFA production; immune education | Metal-binding cell surfaces; Ni-urease in some species |
+| [[bifidobacterium]] | Premier probiotic; SCFA production; immune education | Metal-binding cell surfaces; nickel-dependent [[urease]] in some species |
 | [[gordonibacter-urolithinfaciens]] | Urolithin production from ellagitannins | Specialized secondary metabolism |
 
 ### Pathobionts / Context-Dependent
@@ -42,7 +42,7 @@ Mendelian randomization studies in the vault consistently identify Actinobacteri
 |-------|-------------|---------------|
 | [[collinsella]] | Bile acid deconjugation; enriched by heavy metals; atherosclerosis | Coriobacteriaceae member |
 | [[eggerthella-lenta]] | [[beta-glucuronidase]] (estrogen deconjugation); drug metabolism | Iron and molybdenum dependent |
-| [[actinomyces]] | Oral pathobiont; enriched in CRC, MS, endometriosis | [[nickel-urease]] for acid tolerance |
+| [[actinomyces]] | Oral pathobiont; enriched in CRC, MS, endometriosis | Nickel-urease for acid tolerance |
 
 ### Pathogens
 
@@ -64,7 +64,7 @@ Actinobacteria display unusually diverse metal biology within a single phylum:
 
 | Metal System | Genera | Function |
 |---|---|---|
-| [[nickel-urease]] | Actinomyces, Bifidobacterium spp., Mycobacterium | Acid tolerance; nitrogen metabolism |
+| Nickel-urease | Actinomyces, Bifidobacterium spp., Mycobacterium | Acid tolerance; nitrogen metabolism |
 | Ni-SOD | Streptomyces | Unique Ni-dependent [[superoxide-dismutase]] (only known in prokaryotes) |
 | NiFe-hydrogenase | Mycobacterium | H2 oxidation for energy in macrophage phagosome |
 | Iron/Molybdenum enzymes | Eggerthella | Specialized oxidoreductases |
@@ -111,7 +111,7 @@ Bifidobacterium produces acetate and lactate through the "bifid shunt" (fructose
 - [[bacteroidetes]] -- Partner dominant phylum
 - [[proteobacteria]] -- Phylum that expands as Actinobacteria declines
 - [[bifidobacterium]] -- Cornerstone commensal genus
-- [[nickel-urease]] -- Metal-dependent enzyme across multiple genera
+- Nickel-urease -- Metal-dependent enzyme across multiple genera
 - [[superoxide-dismutase]] -- Ni-SOD unique to Streptomyces
 - [[beta-glucuronidase]] -- Eggerthella's estrobolome role
 - [[mendelian-randomization]] -- MR evidence for causal protection

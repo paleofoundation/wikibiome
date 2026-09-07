@@ -47,7 +47,7 @@ Metabolic consequences:
 
 Metal metabolism shifts: Under anaerobiosis:
 - [[iron]] becomes the limiting nutrient (oxygen-dependent siderophore synthesis is partially blocked; alternative anaerobic iron uptake pathways activate)
-- [[nickel]]-dependent urease ([[helicobacter-pylori|H. pylori]] archetype) becomes selectively advantageous in low-pH/low-O₂ niches
+- [[nickel]]-dependent [[urease]] ([[helicobacter-pylori|H. pylori]] archetype) becomes selectively advantageous in low-pH/low-O₂ niches
 - Sulfate reduction ([[desulfovibrio]] et al.) increases; produces H₂S, which modulates [[zinc]] bioavailability and creates additional anaerobic micro-domains
 
 ## Role in Disease
@@ -69,7 +69,7 @@ Tumor microenvironments:
 Hypoxia reshapes metal utilization hierarchies:
 
 - Iron ecology: Anaerobic bacteria rely more heavily on [[siderophores|siderophore]]-mediated iron acquisition because oxygen-dependent iron uptake (ferroxidase activity) is impaired. [[lipocalin-2]] sequestration becomes more potent as a selective pressure.
-- Nickel dependence: Anaerobic pathogens like [[helicobacter-pylori|H. pylori]] and oral [[porphyromonas-gingivalis|Porphyromonas gingivalis]] activate [[nickel-urease]] as an energy source; urease-driven ammonia production raises local pH and protects against acids in hypoxic, low-pH niches.
+- Nickel dependence: Anaerobic pathogens like [[helicobacter-pylori|H. pylori]] and oral [[porphyromonas-gingivalis|Porphyromonas gingivalis]] activate nickel-urease as an energy source; urease-driven ammonia production raises local pH and protects against acids in hypoxic, low-pH niches.
 - Zinc and sulfide: Sulfate-reducing bacteria produce H₂S; excess H₂S precipitates bioavailable [[zinc]], shifting zinc speciation and potentially reducing [[zinc]]-dependent immune functions ([[metallothionein]], [[metal-homeostasis|zinc-finger]] transcription factors).
 
 ## Connections
@@ -83,7 +83,7 @@ Related organisms:
 - [[escherichia-coli|Escherichia coli]] — facultative anaerobe; thrives in hypoxic dysbiosis
 - [[bacteroides-fragilis|bacteroides]] — obligate anaerobe; dominates in low-oxygen states
 - [[fusobacterium-nucleatum|Fusobacterium nucleatum]] — anaerobic pathobiont; selected in colorectal cancer
-- [[helicobacter-pylori|Helicobacter pylori]] — microaerophile; requires low oxygen and [[nickel-urease]]
+- [[helicobacter-pylori|Helicobacter pylori]] — microaerophile; requires low oxygen and nickel-urease
 
 Related concepts:
 - [[nutritional-immunity]] — oxygen-dependent defense mechanisms are compromised in hypoxia

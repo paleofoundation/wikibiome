@@ -32,7 +32,7 @@ A versatile Gram-positive pathogen with one of the best-characterized nutritiona
 ## Metal-Dependent Virulence Factors
 
 ### Ni-Dependent Urease
-- Urease is critical for skin survival: human sweat contains ~22 mM urea, and urease-mediated hydrolysis provides ammonia for acid neutralization and nitrogen acquisition on the skin surface [[maier-2019-nickel-microbial-pathogenesis]].
+- [[urease|Urease]] is critical for skin survival: human sweat contains ~22 mM urea, and urease-mediated hydrolysis provides ammonia for acid neutralization and nitrogen acquisition on the skin surface [[maier-2019-nickel-microbial-pathogenesis]].
 - Required for kidney colonization in systemic infection models.
 - Urease genes are upregulated in biofilm-embedded cells, linking nickel metabolism directly to chronic/device-associated infections.
 - Biofilm formation on implanted medical devices depends partly on urease activity.

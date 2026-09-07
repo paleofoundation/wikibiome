@@ -41,13 +41,13 @@ Proteobacteria enrichment is the most consistent microbiome signature across inf
 | [[enterobacteriaceae]] | Family | Shared siderophore systems; LPS; type III secretion |
 | [[salmonella-typhimurium]] | *S.* Typhimurium | SodCI (Cu/Zn-SOD); intracellular survival |
 | [[shigella-flexneri]] | *S. flexneri* | Intracellular invasion; iron acquisition |
-| [[proteus-mirabilis]] | *P. mirabilis* | Urease (Ni-dependent); urinary stones |
+| [[proteus-mirabilis]] | *P. mirabilis* | [[urease|Urease]] (Ni-dependent); urinary stones |
 
 ### Commensal/Context-Dependent Members
 
 | Genus | Notable Species | Ecological Role |
 |---|---|---|
-| [[helicobacter-pylori]] | *H. pylori* | Gastric pathogen; Ni-dependent [[nickel-urease]] |
+| [[helicobacter-pylori]] | *H. pylori* | Gastric pathogen; Ni-dependent urease |
 | [[campylobacter-jejuni]] | *C. jejuni* | Foodborne pathogen; microaerophilic |
 | [[desulfovibrio]] | Multiple species | Sulfate reduction; H2S production; Fe-S dependent |
 | [[bilophila]] | *B. wadsworthensis* | Taurine-derived H2S production; dsrAB Fe-S clusters |

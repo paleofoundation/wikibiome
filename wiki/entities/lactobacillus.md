@@ -64,7 +64,7 @@ A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) tha
 
 ### NEC Protection
 
-- *Lactobacillus* is a key protective genus against necrotizing enterocolitis. Its acid production lowers gut pH, inhibiting the Proteobacteria (urease-positive pathogens) that drive NEC [[pendergrass-2026-nickel-nec-preterm-gut]].
+- *Lactobacillus* is a key protective genus against necrotizing enterocolitis. Its acid production lowers gut pH, inhibiting the Proteobacteria ([[urease]]-positive pathogens) that drive NEC [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Critically, *Lactobacillus* does not rely on Ni-dependent virulence enzymes -- it thrives in a nickel-poor environment and creates conditions hostile to Ni-enzyme-dependent pathogens.
 - Probiotic *Lactobacillus* supplementation is one of the most evidence-supported interventions for NEC prevention; meta-analyses in very low birth weight preterm infants show significant reductions in NEC incidence [[zhou-2023-probiotics-prevent-nec-vlbw-meta]].
 - *Lactobacillus* depletion is consistently reported alongside reduced SCFA output in preterm infants who develop NEC [[liu-2022-nec-scfa-gut-microbiota-biomarkers-pilot]] [[torrazza-2013-intestinal-microbial-ecology-nec]].
@@ -89,7 +89,7 @@ A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) tha
 - [[lead]] -- detoxification via cell surface binding
 - [[nickel]] -- not Ni-dependent; benefits from Ni-poor environment
 - [[iron]] -- depleted by iron supplementation; competes with siderophore-producing pathogens
-- [[urease]] -- opposes urease-positive pathogens via acid production
+- Urease -- opposes urease-positive pathogens via acid production
 - [[multiple-sclerosis]] -- inversely correlated with disease severity
 - [[faecalibacterium-prausnitzii]] -- complementary SCFA producer; co-depleted under metal stress
 - [[akkermansia-muciniphila]] -- complementary barrier-protective commensal

@@ -25,7 +25,7 @@ Calprotectin possesses two distinct metal-binding sites:
 
 ### Functional Implications
 - Calprotectin simultaneously restricts multiple metals at infection sites, creating a multi-metal "desert" that pathogens must overcome to establish infection.
-- The preferential Ni coordination is significant because it means calprotectin can selectively target nickel-dependent virulence factors (urease, [NiFe]-hydrogenase) even in the presence of higher zinc concentrations.
+- The preferential Ni coordination is significant because it means calprotectin can selectively target nickel-dependent virulence factors ([[urease]], [NiFe]-hydrogenase) even in the presence of higher zinc concentrations.
 
 ## Release and Distribution
 

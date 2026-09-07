@@ -64,7 +64,7 @@ A landmark study of 381 isolates spanning 1900-2019 reveals the co-evolution of 
 
 ## Nutritional Immunity Context
 
-- Enterococci are not classic "metal-dependent virulence" pathogens like urease-producers -- their metal story is about resistance and co-selection rather than metal-dependent enzymes.
+- Enterococci are not classic "metal-dependent virulence" pathogens like [[urease]]-producers -- their metal story is about resistance and co-selection rather than metal-dependent enzymes.
 - However, metal homeostasis is still critical: manganese is required for superoxide dismutase, and zinc for multiple metalloenzymes.
 - Host nutritional immunity (calprotectin-mediated Zn/Mn sequestration) affects Enterococcal survival at infection sites.
 - The cadmium metabolic reprogramming demonstrates that Enterococci have sophisticated metal stress responses that likely also engage during host-imposed metal challenges.

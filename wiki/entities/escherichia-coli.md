@@ -45,7 +45,7 @@ A Gram-negative bacterium that spans the commensal-pathogen spectrum, with patho
  - Energy generation in nutrient-limited intracellular niches (for UPEC inside bladder epithelial cells).
 
 ### Urease (in Shiga Toxin-Producing E. coli)
-- STEC/EHEC strains use urease for acid survival during gastric transit [[maier-2019-nickel-microbial-pathogenesis]].
+- STEC/EHEC strains use [[urease]] for acid survival during gastric transit [[maier-2019-nickel-microbial-pathogenesis]].
 - Urease-mediated ammonia production buffers pH, enabling survival through the stomach to reach the intestinal colonization site.
 - Not all *E. coli* pathotypes carry urease -- it is primarily found in STEC and some UPEC strains.
 

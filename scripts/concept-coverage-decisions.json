@@ -116,7 +116,7 @@
     },
     "backfill_links:urease": {
       "state": "queued",
-      "rationale": "A substantial Urease page already exists, and the Helicobacter pylori lead is a high-value contextual link location.",
+      "rationale": "A substantial Urease page already exists. Reviewed batches promote the first explanatory occurrence on high-value pathogen, metal, disease, and mechanism pages while leaving repeated mentions unlinked. The separate Nickel-Urease route is held for canonical identity consolidation because it describes the same enzyme and should not be miscounted as an ordinary backlink.",
       "batches": [
         {
           "id": "2026-09-06-helicobacter-pylori",
@@ -124,6 +124,89 @@
           "reviewedAt": "2026-09-06",
           "promotedAt": "2026-09-06",
           "targets": ["helicobacter-pylori"]
+        },
+        {
+          "id": "2026-09-07-high-leverage-urease-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "candida-albicans",
+            "proteus-mirabilis",
+            "ureaplasma",
+            "campylobacter-jejuni",
+            "mycobacterium-tuberculosis",
+            "nickel-transporters",
+            "ureaplasma-urealyticum",
+            "oxidative-stress",
+            "escherichia-coli",
+            "biofilm",
+            "staphylococcus-aureus",
+            "metal-dependent-virulence",
+            "inter-kingdom-metal-shielding",
+            "nutritional-immunity",
+            "dysbiosis",
+            "nickel",
+            "endometriosis",
+            "gut-metal-microbiome",
+            "mis-metallation",
+            "lactobacillus",
+            "calprotectin",
+            "parkinsons-disease",
+            "alzheimers-disease",
+            "enterobacteriaceae"
+          ]
+        },
+        {
+          "id": "2026-09-07-extended-urease-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "siderophores-metallophores",
+            "environmental-metal-exposure",
+            "proteobacteria",
+            "gerd",
+            "alpha-synuclein",
+            "gut-microbiome",
+            "amyloid-beta",
+            "enterococcus",
+            "pathogen-metal-acquisition",
+            "gastric-ulcer",
+            "actinobacteria",
+            "gastric-adenocarcinoma",
+            "gastric-cancer",
+            "gut-kidney-axis",
+            "metal-sensing",
+            "hypoxia",
+            "infant-exposure",
+            "microbial-metallomics",
+            "histidine",
+            "uremic-toxins",
+            "virulence-factors",
+            "bismuth",
+            "rothia"
+          ]
+        },
+        {
+          "id": "2026-09-07-long-tail-urease-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "pH-sensing",
+            "helicobacter-hepaticus",
+            "morganella-morganii",
+            "gene-regulation",
+            "staphylococcus",
+            "cirrhosis",
+            "dietary-metal-microbiome-interactions",
+            "hmos",
+            "dimethylglyoxime",
+            "streptococcus-salivarius",
+            "essential-oils",
+            "sRNA"
+          ]
         }
       ]
     },

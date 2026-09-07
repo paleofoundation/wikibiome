@@ -56,7 +56,7 @@ A growing family of sRNAs coordinates bacterial responses to host-imposed metal 
 
 ### NikS -- Nickel Sensing (*H. pylori*)
 
-- NikS in [[helicobacter-pylori]] is a Ni-responsive sRNA that coordinates urease and other nickel-dependent functions based on nickel availability.
+- NikS in [[helicobacter-pylori]] is a Ni-responsive sRNA that coordinates [[urease]] and other nickel-dependent functions based on nickel availability.
 
 ### RusT -- Zinc Stress (*Caulobacter*)
 

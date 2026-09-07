@@ -256,7 +256,7 @@ Pathogens have evolved antioxidant defenses to survive the oxidative burst:
 
 ### H. pylori Urease Antioxidant Function
 
-*[[helicobacter-pylori]]* urease has a remarkable dual function beyond urea hydrolysis: the holo-enzyme (Ni-bound) acts as both a urea hydrolase and an oxidant quencher via a Met/Met-sulfoxide cycle. Even the apo-enzyme (Ni-free) retains this antioxidant role. This allows *H. pylori* to survive the oxidative environment of the inflamed gastric mucosa [[maier-2019-nickel-microbial-pathogenesis]].
+*[[helicobacter-pylori]]* [[urease]] has a remarkable dual function beyond urea hydrolysis: the holo-enzyme (Ni-bound) acts as both a urea hydrolase and an oxidant quencher via a Met/Met-sulfoxide cycle. Even the apo-enzyme (Ni-free) retains this antioxidant role. This allows *H. pylori* to survive the oxidative environment of the inflamed gastric mucosa [[maier-2019-nickel-microbial-pathogenesis]].
 
 ### Hydrogenases and Acid/Oxidative Stress
 

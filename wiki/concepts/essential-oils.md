@@ -36,7 +36,7 @@ Thymol (2-isopropyl-5-methylphenol) is the structural isomer of carvacrol, found
 - Similar membrane-disrupting mechanism to carvacrol
 - Antimicrobial activity against both Gram-positive and Gram-negative bacteria
 - Synergistic with thymoquinone against drug-resistant organisms [[rahman-2024-nigella-sativa-thymoquinone-thymol-antimicrobial]]
-- Inhibits [[nickel-urease]] activity in vitro, potentially relevant to [[helicobacter-pylori]] management
+- Inhibits [[urease|nickel-urease]] activity in vitro, potentially relevant to [[helicobacter-pylori]] management
 
 ### Thymoquinone
 

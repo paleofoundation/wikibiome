@@ -73,7 +73,7 @@ LPS-driven neuroinflammation: Gram-negative gut pathobionts (*E. coli*, *Klebsie
 
 LPS has been detected in amyloid plaques at concentrations 3× higher than in age-matched controls without AD [[romano-2021-microbiome-host-interactions-alzheimers]].
 
-H. pylori and Aβ: *Helicobacter pylori* infection is associated with elevated serum amyloid and increased AD risk in epidemiological studies. *H. pylori* produces ammonia (via nickel-dependent urease), vacuolating toxin VacA, and CagA protein — all of which trigger mucosal and systemic inflammatory responses that chronically stimulate Aβ production.
+H. pylori and Aβ: *Helicobacter pylori* infection is associated with elevated serum amyloid and increased AD risk in epidemiological studies. *H. pylori* produces ammonia (via nickel-dependent [[urease]]), vacuolating toxin VacA, and CagA protein — all of which trigger mucosal and systemic inflammatory responses that chronically stimulate Aβ production.
 
 FMT reduces brain amyloid: Fecal microbiota transplant from healthy donors into AD mouse models reduced tau phosphorylation and brain Aβ levels, and improved synaptic plasticity [[alonso-garcia-2021-gut-microbiota-proteinopathies]]. This causal experiment establishes the gut microbiome as a functional upstream modulator of brain amyloid pathology — not merely a correlate.
 

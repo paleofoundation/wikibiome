@@ -67,7 +67,7 @@ Post-2000 regulatory frameworks have reduced metal concentrations in newly manuf
 
 ### Nickel's Dual Role in Agriculture
 
-Nickel in urea fertilizers has a unique dual role: it is an essential cofactor for the urease enzyme (catalyzing urea hydrolysis) and therefore required for nitrogen cycling in plants. Optimal nickel concentrations (0.25-0.5 ppm) increase plant growth and yield, but higher levels (above 1-2 ppm) produce toxicity. Soil nickel concentrations in intensive urea-fertilizer regions have reached 35-85 mg/kg vs. background of 20-30 mg/kg.
+Nickel in urea fertilizers has a unique dual role: it is an essential cofactor for the [[urease]] enzyme (catalyzing urea hydrolysis) and therefore required for nitrogen cycling in plants. Optimal nickel concentrations (0.25-0.5 ppm) increase plant growth and yield, but higher levels (above 1-2 ppm) produce toxicity. Soil nickel concentrations in intensive urea-fertilizer regions have reached 35-85 mg/kg vs. background of 20-30 mg/kg.
 
 ## Occupational Exposure
 
