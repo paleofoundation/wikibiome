@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T11:53:13.251Z",
+  "generatedAt": "2026-09-07T12:36:15.510Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "207e1599fd22ecd6d5edf6d48fc5f01fc5ae5c80",
+  "sourceCommit": "9af99db2c517d0a65a40568ed2e57d85889269d4",
   "records": 822,
   "canonicalIds": 757,
-  "revisions": 4447,
+  "revisions": 4460,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -998,6 +998,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -1131,15 +1140,6 @@
           "path": "wiki/entities/alzheimers-disease.md",
           "additions": 2,
           "deletions": 3
-        },
-        {
-          "hash": "8dc3538d2bc63dbe96dcbf185bbea6f4c460a711",
-          "date": "2026-04-13T12:54:33+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "additions": 6,
-          "deletions": 0
         }
       ]
     },
@@ -1664,6 +1664,15 @@
         "wiki/entities/autism-spectrum-disorder.md"
       ],
       "revisions": [
+        {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/autism-spectrum-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -2781,6 +2790,15 @@
         "wiki/entities/bifidobacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/bifidobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -5536,6 +5554,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/clostridioides-difficile.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -6963,6 +6990,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -7096,15 +7132,6 @@
           "path": "wiki/entities/depression.md",
           "additions": 38,
           "deletions": 8
-        },
-        {
-          "hash": "2f95f2f0a2a18d69cb543c687269b06ca03ab2d4",
-          "date": "2026-04-11T22:49:04+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-11 22:49",
-          "path": "wiki/entities/depression.md",
-          "additions": 92,
-          "deletions": 0
         }
       ]
     },
@@ -11506,6 +11533,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/ibs.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -11611,6 +11647,15 @@
         "wiki/entities/inflammatory-bowel-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/inflammatory-bowel-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -12808,6 +12853,15 @@
         "wiki/entities/lactobacillus.md"
       ],
       "revisions": [
+        {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/lactobacillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -15292,6 +15346,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/obesity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -15425,15 +15488,6 @@
           "path": "wiki/entities/obesity.md",
           "additions": 0,
           "deletions": 1
-        },
-        {
-          "hash": "8dc3538d2bc63dbe96dcbf185bbea6f4c460a711",
-          "date": "2026-04-13T12:54:33+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
-          "path": "wiki/entities/obesity.md",
-          "additions": 6,
-          "deletions": 0
         }
       ]
     },
@@ -16482,6 +16536,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -16615,15 +16678,6 @@
           "path": "wiki/entities/parkinsons-disease.md",
           "additions": 1,
           "deletions": 4
-        },
-        {
-          "hash": "8dc3538d2bc63dbe96dcbf185bbea6f4c460a711",
-          "date": "2026-04-13T12:54:33+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "additions": 6,
-          "deletions": 0
         }
       ]
     },
@@ -16810,6 +16864,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/entities/pcos.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -16942,15 +17005,6 @@
           "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
           "path": "wiki/entities/pcos.md",
           "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/pcos.md",
-          "additions": 4,
           "deletions": 0
         }
       ]
@@ -23707,6 +23761,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/concepts/atherosclerosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -24358,6 +24421,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/concepts/biofilm.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -24445,6 +24517,15 @@
         "wiki/concepts/biomarkers.md"
       ],
       "revisions": [
+        {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/concepts/biomarkers.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -25192,6 +25273,15 @@
         "wiki/concepts/comorbidities.md"
       ],
       "revisions": [
+        {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/concepts/comorbidities.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -26260,6 +26350,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
           "date": "2026-09-07T14:44:04+03:00",
           "author": "Karen Pendergrass",
@@ -26393,15 +26492,6 @@
           "path": "wiki/concepts/dysbiosis.md",
           "additions": 128,
           "deletions": 21
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/concepts/dysbiosis.md",
-          "additions": 16,
-          "deletions": 8
         }
       ]
     },
@@ -30966,6 +31056,15 @@
       ],
       "revisions": [
         {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -33182,6 +33281,15 @@
         "wiki/concepts/metallomics.md"
       ],
       "revisions": [
+        {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/concepts/metallomics.md",
+          "additions": 77,
+          "deletions": 117
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -38383,6 +38491,15 @@
         "wiki/concepts/tryptophan.md"
       ],
       "revisions": [
+        {
+          "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+          "date": "2026-09-07T15:34:43+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Strengthen Metallomics and link high-leverage contexts",
+          "path": "wiki/concepts/tryptophan.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
           "date": "2026-09-07T14:44:04+03:00",

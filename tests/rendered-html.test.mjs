@@ -1545,6 +1545,96 @@ test("server-renders the canonical microbiome-derived metabolite graph without o
   assert.doesNotMatch(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/metabolites</loc>`));
 });
 
+test("server-renders strengthened Metallomics and its first high-leverage link batch", async () => {
+  const batchIds = [
+    "parkinsons-disease",
+    "comorbidities",
+    "dysbiosis",
+    "inflammation",
+    "bifidobacterium",
+    "lactobacillus",
+    "biofilm",
+    "autism-spectrum-disorder",
+    "depression",
+    "inflammatory-bowel-disease",
+    "alzheimers-disease",
+    "pcos",
+    "obesity",
+    "biomarkers",
+    "clostridioides-difficile",
+    "ibs",
+    "atherosclerosis",
+    "tryptophan",
+  ];
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const linkedContextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("metallomics"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(linkedContextIds.length, 36);
+  for (const id of batchIds) assert.ok(linkedContextIds.includes(id), `expected generated Metallomics backlink from ${id}`);
+
+  const [pageResponse, historyResponse, sitemapResponse, ...contextResponses] = await Promise.all([
+    render("/article/metallomics"),
+    render("/article/metallomics/history"),
+    render("/sitemap.xml"),
+    ...batchIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [pageResponse, historyResponse, sitemapResponse, ...contextResponses]) {
+    assert.equal(response.status, 200);
+  }
+
+  const page = await pageResponse.text();
+  assert.equal(htmlTitle(page), "Metallomics — WikiBiome");
+  assert.equal(htmlCanonical(page), `${PUBLIC_ORIGIN}/article/metallomics`);
+  for (const heading of [
+    "What the Metallome Includes",
+    "Analytical Layers",
+    "From Measurement to a Metallomic Signature",
+    "Metallomics Versus Adjacent Measurements",
+    "Evidence Interpretation",
+    "Clinical and Intervention Boundaries",
+  ]) {
+    assert.match(page, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "morel-2022-mouse-metallomic-landscape-aging-metabolism",
+    "blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans",
+    "zhang-2022-metallomics-cancer-review",
+    "scholefield-2024-brain-metallomics-dementia",
+    "patil-2021-infection-metallomics-critical-care",
+    "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
+  ]) {
+    assert.match(page, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${batchIds[index]}`);
+    const articleHtml = html.slice(articleStart, referencesStart);
+    const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+    const narrativeStart = signatureStart >= 0
+      ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+      : -1;
+    const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+      ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+      : articleHtml;
+    assert.equal(
+      (contextualHtml.match(/href="\/article\/metallomics"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Metallomics link in ${batchIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/metallomics\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/metallomics</loc>`));
+});
+
 test("server-renders Catalase and its reviewed contextual-link batch", async () => {
   const ids = ["catalase", "oxidative-stress", "streptococcus-mutans", "metal-dependent-virulence", "iron", "aerococcus"];
   const [catalaseResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
@@ -3786,7 +3876,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /207e1599fd22/);
+  assert.match(readiness, /9af99db2c517/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -4252,7 +4342,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "207e1599fd22ecd6d5edf6d48fc5f01fc5ae5c80");
+  assert.equal(manifest.source.commit, "9af99db2c517d0a65a40568ed2e57d85889269d4");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 822);
   assert.equal(manifest.content.sources, 1940);
@@ -4268,7 +4358,7 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.publicContentPolicy.version, 3);
   assert.equal(manifest.publicContentPolicy.excludedCount, 46);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
-  assert.equal(manifest.editorialNormalization.leadPromotionCount, 342);
+  assert.equal(manifest.editorialNormalization.leadPromotionCount, 341);
   assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
   assert.equal(manifest.editorialStatusPolicy.version, 1);
   assert.equal(manifest.editorialStatusPolicy.sourceCommit, manifest.source.commit);
@@ -4283,8 +4373,8 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.articleIdentityPolicy.canonicalArticleCount, 1);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6493);
-  assert.equal(manifest.audit.recoveredInlineReferences, 349);
+  assert.equal(manifest.audit.generatedReferences, 6495);
+  assert.equal(manifest.audit.recoveredInlineReferences, 348);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
   assert.equal(manifest.audit.invalidSourceYears.length, 0);
