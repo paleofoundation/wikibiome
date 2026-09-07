@@ -14966,6 +14966,48 @@
       "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/23812038/", "https://pubmed.ncbi.nlm.nih.gov/27078066/", "local:data/content.generated.json#/pages/oxygen-state"],
       "requiredResolution": "Define intestinal segment and radial location, host state, oxygen or redox variable, method and time, metabolite flux, organism respiration phenotype, and evidence tier; separate other body sites.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "p-cresol", "controlledIdentifier": "4-methylphenol;MeSH-Cresols;registry:1MXY2UM8NV", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "Unconjugated p-cresol, host conjugates, compartments, assays, CKD retention, and ASD/PD hypotheses are conflated with causal claims.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/40672444/", "https://pubmed.ncbi.nlm.nih.gov/34744609/", "https://pubmed.ncbi.nlm.nih.gov/40534235/", "local:data/content.generated.json#/pages/p-cresol"],
+      "requiredResolution": "Define exact analyte and identifier, precursor and microbial pathway, host conjugation, compartment, assay and units, population and renal state, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "parenteral-nutrition", "controlledIdentifier": "MeSH-parenteral-nutrition;multi-component-clinical-intervention", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "Formulations, aluminum and trace elements, enteral deprivation, microbiota, populations, and outcomes are merged; the page includes an invalid linear developmental extrapolation and unsupported intravenous-iron gut mechanism.",
+      "checkedUrls": ["https://www.fda.gov/media/163799/download", "https://pubmed.ncbi.nlm.nih.gov/32682806/", "https://pubmed.ncbi.nlm.nih.gov/35730416/", "local:data/content.generated.json#/pages/parenteral-nutrition"],
+      "requiredResolution": "Split by component and population; define formulation, route, dose, duration, age and organ function, comparator, microbiota or clinical outcome, and certainty.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "peptidoglycan", "controlledIdentifier": "bacterial-peptidoglycan;organism-and-chemotype-specific", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The sparse route omits polymer structure and variation and oversimplifies TLR2, NOD1/NOD2, PGRP, wall context, and disease recognition.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/29292393/", "https://pubmed.ncbi.nlm.nih.gov/17057187/", "local:data/content.generated.json#/pages/peptidoglycan"],
+      "requiredResolution": "Select organism and chemotype; define repeat and cross-link, wall context and modification, released fragment, receptor and compartment, assay, cell, and immune outcome.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "ph-sensing", "controlledIdentifier": "multi-organism-pH-response-umbrella", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "Bacterial signal systems, acid-resistance enzymes, fungal Rim101, urease, gut gradients, fermentation, and metal speciation are merged and contain an internal chemistry contradiction.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/40603778/", "local:data/content.generated.json#/pages/ph-sensing"],
+      "requiredResolution": "Split by organism and named sensor; define compartment, pH range and stimulus, downstream response, growth condition, metal species if relevant, measurement, and phenotype.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "phage-therapy", "controlledIdentifier": "therapeutic-bacteriophage-and-derived-product-umbrella", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "Whole phages, cocktails, enzymes, virome associations, and engineered vectors are conflated with universal efficacy, biofilm, resistance, and microbiome claims.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/31724901/", "https://pubmed.ncbi.nlm.nih.gov/35335222/", "https://pubmed.ncbi.nlm.nih.gov/42257516/", "local:data/content.generated.json#/pages/phage-therapy"],
+      "requiredResolution": "Split by modality and exact product; define phage and genome, strain and receptor and host range, formulation and route and dose, model, comparator, endpoint, resistance and safety, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "pharmacomicrobiomics", "controlledIdentifier": "field-level-drug-microbiome-interaction-umbrella", "batchId": "mechanisms-087", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "Many drugs, reactions, organisms, effect directions, clinical stages, and speculative metal links are merged; pyridoxal phosphate is incorrectly labeled metal-dependent.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/40102479/", "local:data/content.generated.json#/pages/pharmacomicrobiomics"],
+      "requiredResolution": "Create drug–enzyme–organism records with substrate and product, compartment, assay, exposure, pharmacokinetic endpoint, replication and covariates, and intervention evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
