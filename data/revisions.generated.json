@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T04:45:23.329Z",
+  "generatedAt": "2026-09-07T04:59:29.754Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "c2e3575db41c78ac9448e8ee4a6a7b38f4f38cdf",
-  "records": 822,
-  "canonicalIds": 757,
-  "revisions": 2975,
+  "sourceCommit": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+  "records": 823,
+  "canonicalIds": 758,
+  "revisions": 2993,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -1500,6 +1500,15 @@
       ],
       "revisions": [
         {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/entities/bacteroides-thetaiotaomicron.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1594,6 +1603,15 @@
         "wiki/entities/bacteroides-vulgatus.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/entities/bacteroides-vulgatus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -4832,6 +4850,15 @@
         "wiki/entities/debaryomyces.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/entities/debaryomyces.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -10421,6 +10448,15 @@
       ],
       "revisions": [
         {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/entities/necrotizing-enterocolitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "7fb63c8e99d4124c484d1d79a7d62c44eb751609",
           "date": "2026-05-04T14:46:51-06:00",
           "author": "Karen Pendergrass",
@@ -12104,6 +12140,15 @@
       ],
       "revisions": [
         {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/entities/peptostreptococcus-stomatis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -12799,6 +12844,15 @@
         "wiki/entities/prevotella-copri.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/entities/prevotella-copri.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -13703,6 +13757,15 @@
         "wiki/entities/ruminococcus-gnavus.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/entities/ruminococcus-gnavus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -16298,6 +16361,15 @@
         "wiki/concepts/ahr.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/ahr.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20700,6 +20772,15 @@
       ],
       "revisions": [
         {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/immune-balance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20795,6 +20876,15 @@
       ],
       "revisions": [
         {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/indole.md",
+          "additions": 2,
+          "deletions": 0
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20810,6 +20900,15 @@
         "wiki/concepts/indoles.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/indoles.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20896,6 +20995,15 @@
         "wiki/concepts/infant-exposure.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/infant-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -21124,6 +21232,22 @@
         }
       ]
     },
+    "interleukin-22": {
+      "paths": [
+        "wiki/concepts/interleukin-22.md"
+      ],
+      "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/interleukin-22.md",
+          "additions": 82,
+          "deletions": 0
+        }
+      ]
+    },
     "interleukin-6": {
       "paths": [
         "wiki/concepts/interleukin-6.md"
@@ -21281,6 +21405,15 @@
         "wiki/concepts/ketone-bodies.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/ketone-bodies.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22763,6 +22896,15 @@
         "wiki/concepts/mycobiome.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/mycobiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25056,6 +25198,15 @@
       ],
       "revisions": [
         {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/th17-treg-balance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -25335,6 +25486,15 @@
       ],
       "revisions": [
         {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/tryptophan-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -25404,6 +25564,15 @@
         "wiki/concepts/tryptophan.md"
       ],
       "revisions": [
+        {
+          "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
+          "date": "2026-09-07T07:58:16+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add Interleukin-22 concept and contextual links",
+          "path": "wiki/concepts/tryptophan.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
