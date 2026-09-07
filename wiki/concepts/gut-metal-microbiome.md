@@ -90,9 +90,9 @@ Heavy metals directly damage the intestinal epithelial barrier through downregul
 | Lead | MUC2, ZO-1, claudin-1, occludin reduced | SCFA production impaired |
 | Mercury | Claudin-1, occludin, ZO-1, JAM1 downregulated | Increased cell volume and membrane permeability |
 | Cadmium | ZO-1, ZO-2, JAM-A, occludin, claudin-1 reduced | Gut-liver axis modification |
-| Chromium | ZO-1, occludin, claudin-1, MUC2 downregulated | [[nlrp3-inflammasome|NLRP3 inflammasome]] activation |
+| Chromium | ZO-1, occludin, claudin-1, MUC2 downregulated | Inflammasome activation |
 
-This barrier disruption permits bacterial translocation and LPS leakage into systemic circulation, driving chronic low-grade inflammation.
+For chromium, this barrier injury is reported alongside [[nlrp3-inflammasome|NLRP3 inflammasome]] activation [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. More generally, barrier disruption permits bacterial translocation and LPS leakage into systemic circulation, driving chronic low-grade inflammation.
 
 ## The Gut-Brain Axis Connection
 

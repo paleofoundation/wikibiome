@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T04:17:29.804Z",
+  "_generated": "2026-09-07T04:22:02.005Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -87137,7 +87137,7 @@
         {
           "heading": "Gut Barrier Disruption by Metals",
           "level": 2,
-          "body": "Heavy metals directly damage the intestinal epithelial barrier through downregulation of critical junction proteins:\n\n| Metal | Tight Junction Targets | Additional Effects |\n|-------|----------------------|-------------------|\n| Arsenic | Colonic epithelial structure disrupted | IL-6, IL-8, TNF-alpha induction |\n| Lead | MUC2, ZO-1, claudin-1, occludin reduced | SCFA production impaired |\n| Mercury | Claudin-1, occludin, ZO-1, JAM1 downregulated | Increased cell volume and membrane permeability |\n| Cadmium | ZO-1, ZO-2, JAM-A, occludin, claudin-1 reduced | Gut-liver axis modification |\n| Chromium | ZO-1, occludin, claudin-1, MUC2 downregulated | [[nlrp3-inflammasome|NLRP3 inflammasome]] activation |\n\nThis barrier disruption permits bacterial translocation and LPS leakage into systemic circulation, driving chronic low-grade inflammation."
+          "body": "Heavy metals directly damage the intestinal epithelial barrier through downregulation of critical junction proteins:\n\n| Metal | Tight Junction Targets | Additional Effects |\n|-------|----------------------|-------------------|\n| Arsenic | Colonic epithelial structure disrupted | IL-6, IL-8, TNF-alpha induction |\n| Lead | MUC2, ZO-1, claudin-1, occludin reduced | SCFA production impaired |\n| Mercury | Claudin-1, occludin, ZO-1, JAM1 downregulated | Increased cell volume and membrane permeability |\n| Cadmium | ZO-1, ZO-2, JAM-A, occludin, claudin-1 reduced | Gut-liver axis modification |\n| Chromium | ZO-1, occludin, claudin-1, MUC2 downregulated | Inflammasome activation |\n\nFor chromium, this barrier injury is reported alongside [[nlrp3-inflammasome|NLRP3 inflammasome]] activation [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. More generally, barrier disruption permits bacterial translocation and LPS leakage into systemic circulation, driving chronic low-grade inflammation."
         },
         {
           "heading": "The Gut-Brain Axis Connection",
@@ -87187,9 +87187,9 @@
       ],
       "wikilinks": [
         "nlrp3-inflammasome",
+        "ghosh-2023-heavy-metals-gut-barrier-integrity",
         "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
         "zhu-2024-toxic-essential-metals-gut-microbiota",
-        "ghosh-2023-heavy-metals-gut-barrier-integrity",
         "li-2019-heavy-metal-metabolic-health-gut-microbiome",
         "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
         "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
