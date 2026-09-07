@@ -563,6 +563,145 @@ test("server-renders the reviewed corpus-wide Urease link batch without overlink
   }
 });
 
+test("server-renders complete Tight junctions contextual coverage without overlinking", async () => {
+  const contextIds = [
+    "ahr",
+    "amyloid-beta-aggregation",
+    "amyloid-beta",
+    "autoimmunity",
+    "blood-brain-barrier",
+    "butyrate",
+    "caga",
+    "colonization-resistance",
+    "cortisol",
+    "dysbiosis",
+    "edta",
+    "endotoxemia",
+    "epigenetic-modifications",
+    "epithelial-mesenchymal-transition",
+    "fecal-microbiota-transplant",
+    "fxr",
+    "gut-barrier-dysfunction",
+    "gut-kidney-axis",
+    "gut-metal-microbiome",
+    "gut-microbiome",
+    "gut-penis-axis",
+    "gut-thyroid-axis",
+    "heavy-metal-neurotoxicity",
+    "heavy-metals-infant-foods",
+    "helicobacter-pylori",
+    "hmos",
+    "indoles",
+    "infant-exposure",
+    "inflammation",
+    "intestinal-permeability",
+    "interleukin-22",
+    "lipopolysaccharide",
+    "matrix-metalloproteases",
+    "metal-dependent-virulence",
+    "microbiome-derived-metabolites",
+    "neuroinflammation",
+    "parenteral-nutrition",
+    "polyphenols",
+    "prebiotics",
+    "probiotics",
+    "ruminococcaceae",
+    "short-chain-fatty-acids",
+    "tmao",
+    "toll-like-receptors",
+    "urease",
+    "zinc-metalloprotease",
+    "zonulin",
+    "akkermansia-muciniphila",
+    "alloprevotella",
+    "bacteroides-vulgatus",
+    "bifidobacterium-longum",
+    "breast-cancer",
+    "butyricicoccus",
+    "butyricimonas",
+    "cadmium",
+    "candida-albicans",
+    "cardiovascular-disease",
+    "celiac-disease",
+    "chromium",
+    "clostridia",
+    "clostridium-symbiosum",
+    "clostridium",
+    "collinsella",
+    "colorectal-cancer",
+    "coprococcus",
+    "crohns-disease",
+    "cryptococcus-neoformans",
+    "debaryomyces",
+    "depression",
+    "desulfovibrio",
+    "desulfovibrionales",
+    "eggerthella-lenta",
+    "eubacterium",
+    "faecalibacterium-prausnitzii",
+    "firmicutes",
+    "fusobacterium-nucleatum",
+    "fusobacterium-varium",
+    "gastric-adenocarcinoma",
+    "gastric-cancer",
+    "gastric-ulcer",
+    "gerd",
+    "hypertension",
+    "lactobacillus",
+    "lead",
+    "long-covid",
+    "necrotizing-enterocolitis",
+    "nickel",
+    "odoribacter",
+    "oscillospiraceae",
+    "parkinsons-disease",
+    "parvimonas-micra",
+    "porphyromonas-gingivalis",
+    "prevotella-copri",
+    "rheumatoid-arthritis",
+    "roseburia",
+    "ruminococcus-albus",
+    "saccharomyces-boulardii",
+    "saccharomyces-cerevisiae",
+    "saccharomyces",
+    "streptococcus-thermophilus",
+    "type-1-diabetes",
+    "type-2-diabetes",
+  ];
+  assert.equal(contextIds.length, 102);
+
+  const [conceptResponse, ...contextResponses] = await Promise.all([
+    render("/article/tight-junctions"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [conceptResponse, ...contextResponses]) assert.equal(response.status, 200);
+
+  const concept = await conceptResponse.text();
+  assert.equal(htmlTitle(concept), "Tight Junctions — WikiBiome");
+  assert.equal(htmlCanonical(concept), `${PUBLIC_ORIGIN}/article/tight-junctions`);
+  for (const sourceId of [
+    "ghosh-2023-heavy-metals-gut-barrier-integrity",
+    "chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd",
+    "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+  ]) {
+    assert.match(concept, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const diseaseNarrativeStart = html.indexOf('<section class="disease-narrative" id="article"', articleStart);
+    const proseStart = diseaseNarrativeStart >= 0 ? diseaseNarrativeStart : articleStart;
+    const referencesStart = html.indexOf('<section class="references-section"', proseStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    assert.equal(
+      (html.slice(proseStart, referencesStart).match(/href="\/article\/tight-junctions"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Tight junctions link in ${contextIds[index]}`,
+    );
+  }
+});
+
 test("server-renders Ammonia and its reviewed contextual-link batch", async () => {
   const ids = ["ammonia", "urea", "urease", "helicobacter-pylori", "proteus-mirabilis", "ureaplasma"];
   const [ammoniaResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
@@ -2849,7 +2988,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /4f91227e76cc/);
+  assert.match(readiness, /1e79e03225c7/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -3315,7 +3454,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "4f91227e76cc4865f24f6e5c177e72b0f6b1468e");
+  assert.equal(manifest.source.commit, "1e79e03225c7961d992d57fc8c2d305ed63731e1");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 823);
   assert.equal(manifest.content.sources, 1939);

@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T05:32:25.285Z",
+  "generatedAt": "2026-09-07T06:03:14.148Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "4f91227e76cc4865f24f6e5c177e72b0f6b1468e",
+  "sourceCommit": "1e79e03225c7961d992d57fc8c2d305ed63731e1",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 3053,
+  "revisions": 3153,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -426,6 +426,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/akkermansia-muciniphila.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "53b4cb4d91d642b41bf75cadf1f9d0e9ba19bc7e",
           "date": "2026-09-01T13:20:17+03:00",
           "author": "Karen Pendergrass",
@@ -590,6 +599,15 @@
         "wiki/entities/alloprevotella.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/alloprevotella.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -1622,6 +1640,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/bacteroides-vulgatus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
           "author": "Karen Pendergrass",
@@ -2001,6 +2028,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/bifidobacterium-longum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
           "date": "2026-09-01T14:34:32+03:00",
           "author": "Karen Pendergrass",
@@ -2374,6 +2410,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/breast-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2539,6 +2584,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/butyricicoccus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2563,6 +2617,15 @@
         "wiki/entities/butyricimonas.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/butyricimonas.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -2649,6 +2712,15 @@
         "wiki/entities/cadmium.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/cadmium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -2866,6 +2938,15 @@
         "wiki/entities/candida-albicans.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/candida-albicans.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -3096,6 +3177,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/cardiovascular-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
           "author": "Karen Pendergrass",
@@ -3253,6 +3343,15 @@
         "wiki/entities/celiac-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/celiac-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -3512,6 +3611,15 @@
         "wiki/entities/chromium.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/chromium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -3890,6 +3998,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/clostridia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
           "date": "2026-09-01T18:04:16+03:00",
           "author": "Karen Pendergrass",
@@ -4108,6 +4225,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/clostridium-symbiosum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -4177,6 +4303,15 @@
         "wiki/entities/clostridium.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/clostridium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -4291,6 +4426,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/collinsella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -4352,6 +4496,15 @@
         "wiki/entities/colorectal-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/colorectal-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -4565,6 +4718,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/coprococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -4685,6 +4847,15 @@
         "wiki/entities/crohns-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/crohns-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -4819,6 +4990,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/cryptococcus-neoformans.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -4904,6 +5084,15 @@
         "wiki/entities/debaryomyces.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/debaryomyces.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -5009,6 +5198,15 @@
         "wiki/entities/depression.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5141,6 +5339,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/desulfovibrio.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -5201,6 +5408,15 @@
         "wiki/entities/desulfovibrionales.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/desulfovibrionales.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5441,6 +5657,15 @@
         "wiki/entities/eggerthella-lenta.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/eggerthella-lenta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -6206,6 +6431,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/eubacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -6275,6 +6509,15 @@
         "wiki/entities/faecalibacterium-prausnitzii.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/faecalibacterium-prausnitzii.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -6590,6 +6833,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/firmicutes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -6758,6 +7010,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/fusobacterium-nucleatum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -6827,6 +7088,15 @@
         "wiki/entities/fusobacterium-varium.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/fusobacterium-varium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -7088,6 +7358,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/gastric-adenocarcinoma.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -7130,6 +7409,15 @@
         "wiki/entities/gastric-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/gastric-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -7228,6 +7516,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/gastric-ulcer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -7296,6 +7593,15 @@
         "wiki/entities/gerd.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/gerd.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -8078,6 +8384,15 @@
         "wiki/entities/hypertension.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/hypertension.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -9119,6 +9434,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/lactobacillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -9292,6 +9616,15 @@
         "wiki/entities/lead.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/lead.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -9492,6 +9825,15 @@
         "wiki/entities/long-covid.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/long-covid.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -10610,6 +10952,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/necrotizing-enterocolitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
           "author": "Karen Pendergrass",
@@ -10803,6 +11154,15 @@
         "wiki/entities/nickel.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/nickel.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -11105,6 +11465,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/odoribacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -11224,6 +11593,15 @@
         "wiki/entities/oscillospiraceae.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/oscillospiraceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -11838,6 +12216,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -11952,6 +12339,15 @@
         "wiki/entities/parvimonas-micra.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/parvimonas-micra.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -12744,6 +13140,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/porphyromonas-gingivalis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13024,6 +13429,15 @@
         "wiki/entities/prevotella-copri.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/prevotella-copri.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -13584,6 +13998,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/rheumatoid-arthritis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13713,6 +14136,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/roseburia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13818,6 +14250,24 @@
       ],
       "revisions": [
         {
+          "hash": "1e79e03225c7961d992d57fc8c2d305ed63731e1",
+          "date": "2026-09-07T09:01:40+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Link canonical Ruminococcaceae barrier context",
+          "path": "wiki/entities/ruminococcaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/ruminococcaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13869,6 +14319,15 @@
         "wiki/entities/ruminococcus-albus.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/ruminococcus-albus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -14115,6 +14574,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/saccharomyces-boulardii.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "9ea549e93d89a831a044e380a62acdbab67792f5",
           "date": "2026-09-01T16:23:31+03:00",
           "author": "Karen Pendergrass",
@@ -14166,6 +14634,15 @@
         "wiki/entities/saccharomyces-cerevisiae.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/saccharomyces-cerevisiae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -14236,6 +14713,15 @@
         "wiki/entities/saccharomyces.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/saccharomyces.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -15259,6 +15745,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/streptococcus-thermophilus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -15860,6 +16355,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/type-1-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
           "date": "2026-09-01T21:13:18+03:00",
           "author": "Karen Pendergrass",
@@ -15939,6 +16443,15 @@
         "wiki/entities/type-2-diabetes.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/entities/type-2-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -16632,6 +17145,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/ahr.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
           "author": "Karen Pendergrass",
@@ -16802,6 +17324,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/amyloid-beta-aggregation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -16826,6 +17357,15 @@
         "wiki/concepts/amyloid-beta.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/amyloid-beta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -17080,6 +17620,15 @@
         "wiki/concepts/autoimmunity.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/autoimmunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -17550,6 +18099,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/blood-brain-barrier.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -17601,6 +18159,15 @@
         "wiki/concepts/butyrate.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/butyrate.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -17941,6 +18508,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/colonization-resistance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18067,6 +18643,15 @@
         "wiki/concepts/cortisol.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/cortisol.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -18709,6 +19294,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -18874,6 +19468,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/edta.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18989,6 +19592,15 @@
         "wiki/concepts/endotoxemia.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/endotoxemia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -19155,6 +19767,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/epigenetic-modifications.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19240,6 +19861,15 @@
         "wiki/concepts/epithelial-mesenchymal-transition.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/epithelial-mesenchymal-transition.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -19482,6 +20112,15 @@
         "wiki/concepts/fecal-microbiota-transplant.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/fecal-microbiota-transplant.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -19847,6 +20486,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/fxr.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20060,6 +20708,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/gut-barrier-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20171,6 +20828,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/gut-kidney-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -20213,6 +20879,15 @@
         "wiki/concepts/gut-metal-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -20302,6 +20977,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -20363,6 +21047,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/gut-penis-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20419,6 +21112,15 @@
         "wiki/concepts/gut-thyroid-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/gut-thyroid-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20479,6 +21181,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/heavy-metal-neurotoxicity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20503,6 +21214,15 @@
         "wiki/concepts/heavy-metals-infant-foods.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/heavy-metals-infant-foods.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20720,6 +21440,15 @@
         "wiki/concepts/hmos.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/hmos.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -21315,6 +22044,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/indoles.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
           "author": "Karen Pendergrass",
@@ -21410,6 +22148,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/infant-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -21452,6 +22199,15 @@
         "wiki/concepts/inflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -21710,6 +22466,15 @@
         "wiki/concepts/intestinal-permeability.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/intestinal-permeability.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22092,6 +22857,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/lipopolysaccharide.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22141,6 +22915,15 @@
         "wiki/concepts/matrix-metalloproteases.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/matrix-metalloproteases.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22549,6 +23332,15 @@
         "wiki/concepts/metal-dependent-virulence.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/metal-dependent-virulence.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -23134,6 +23926,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/microbiome-derived-metabolites.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23536,6 +24337,15 @@
         "wiki/concepts/neuroinflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "02fb2690497cd59e10bfa965e6c19e1ad489f1a3",
           "date": "2026-09-07T07:25:11+03:00",
@@ -24509,6 +25319,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/parenteral-nutrition.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -24824,6 +25643,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/polyphenols.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -24880,6 +25708,15 @@
         "wiki/concepts/prebiotics.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/prebiotics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25007,6 +25844,15 @@
         "wiki/concepts/probiotics.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/probiotics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25245,6 +26091,15 @@
         "wiki/concepts/short-chain-fatty-acids.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/short-chain-fatty-acids.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25811,6 +26666,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/tmao.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
           "author": "Karen Pendergrass",
@@ -25896,6 +26760,15 @@
         "wiki/concepts/toll-like-receptors.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/toll-like-receptors.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -26172,6 +27045,15 @@
         "wiki/concepts/urease.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/urease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "ae0594005dd9c7634ef7c6e374f18787d5eb62c8",
           "date": "2026-09-07T06:47:53+03:00",
@@ -26452,6 +27334,15 @@
       ],
       "revisions": [
         {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/zinc-metalloprotease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26512,6 +27403,15 @@
         "wiki/concepts/zonulin.md"
       ],
       "revisions": [
+        {
+          "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
+          "date": "2026-09-07T08:54:52+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Tight junctions contextual coverage",
+          "path": "wiki/concepts/zonulin.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
