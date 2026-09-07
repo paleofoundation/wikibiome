@@ -14822,6 +14822,78 @@
       "checkedUrls": ["https://www.atsdr.cdc.gov/ToxProfiles/tp15.pdf", "local:data/content.generated.json#/pages/nickel-neurotoxicity"],
       "requiredResolution": "Rebuild as a study-specific record or synthesis preserving chemical form, route, dose, tissue level, species/sex, assay, comparator, and human-extrapolation boundary.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nickel-transporters",
+      "controlledIdentifier": "transport-family-umbrella;no-single-protein-or-complex",
+      "batchId": "mechanisms-085",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Non-homologous permeases, ABC complexes, broad channels, metallophores, regulators, and host sequestration are merged across organisms and compartments.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/24036122/", "local:data/content.generated.json#/pages/nickel-transporters"],
+      "requiredResolution": "Split by protein/complex identifier, organism/strain, topology/stoichiometry, membrane, substrate species, energy source, regulation, assay, and phenotype.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nickel-glyoxalase",
+      "controlledIdentifier": "EC:4.4.1.5;organism-and-metal-specific",
+      "batchId": "mechanisms-085",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Valid E. coli nickel-activated glyoxalase chemistry is mixed with an incorrect reaction label and unsupported disease, diet, zinc, chelation, and antimicrobial claims.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/10913283/", "https://pubmed.ncbi.nlm.nih.gov/14641060/", "https://pubmed.ncbi.nlm.nih.gov/18533363/", "local:data/content.generated.json#/pages/nickel-glyoxalase"],
+      "requiredResolution": "Define enzyme sequence/structure and organism, correct hemithioacetal chemistry and coordination, metal-activation assay, growth condition, phenotype, and evidence-qualified relevance.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nickel-urease",
+      "controlledIdentifier": "EC:3.5.1.5;nickel-dependent-active-site",
+      "batchId": "mechanisms-085",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The active-site ligation is incorrect and organism-specific acid acclimation is extended into unsupported eradication, chelation, disease, and unrelated-protein claims.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/24036122/", "https://pubmed.ncbi.nlm.nih.gov/41724831/", "local:data/content.generated.json#/pages/nickel-urease"],
+      "requiredResolution": "Select organism and urease/PDB; correct histidine/aspartate/carbamylated-lysine ligation, reaction, oligomer/accessory architecture, pH/activity, phenotype, and clinical evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nife-hydrogenase",
+      "controlledIdentifier": "EC-class:1.12;multi-subgroup-enzyme-family",
+      "batchId": "mechanisms-085",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Nickel ligation is incorrect and diverse oxygen-sensitive and oxygen-tolerant enzymes are merged with broad pathogen, gut, biofilm, and therapeutic narratives.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/27493211/", "https://pubmed.ncbi.nlm.nih.gov/33753519/", "https://pubmed.ncbi.nlm.nih.gov/40411749/", "local:data/content.generated.json#/pages/nife-hydrogenase"],
+      "requiredResolution": "Define enzyme/organism/PDB, subunits and Fe-S relay, catalytic state, four-cysteine nickel ligation, directionality, electron partners, oxygen response, assay, and phenotype.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nitric-oxide",
+      "controlledIdentifier": "MeSH:D009569;CAS:10102-43-9",
+      "batchId": "mechanisms-085",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Mammalian NOS isoforms, microbial nitrate reduction, gastric chemistry, gut respiration, metal toxicology, and disease associations are collapsed without compartment or flux boundaries.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D009569", "https://meshb.nlm.nih.gov/record/ui?ui=D019001", "https://meshb.nlm.nih.gov/record/ui?ui=D026361", "local:data/content.generated.json#/pages/nitric-oxide"],
+      "requiredResolution": "Split by cell/compartment and define enzyme, reactants/products, cofactors/oxygen, concentration/flux/time, analytical method, target, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "nrf2",
+      "controlledIdentifier": "NFE2L2-pathway;source-sparse-route",
+      "batchId": "mechanisms-085",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The sparse route omits KEAP1 turnover, stabilization, translocation, DNA binding, targets, context, assay, and source-qualified microbiome claims.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/42574364/", "local:data/content.generated.json#/pages/nrf2"],
+      "requiredResolution": "Define NFE2L2/KEAP1 identity, species/cell, exposure/dose/time, protein state/localization, DNA-binding and target-gene readouts, metabolite provenance, and disease-specific evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
