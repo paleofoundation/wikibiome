@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-07T04:25:05.671Z",
+  "_generated": "2026-09-07T04:44:08.647Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
     "entities": 328,
-    "concepts": 268,
+    "concepts": 269,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 867
+    "totalPages": 868
   },
   "pages": [
     {
@@ -29669,7 +29669,7 @@
         {
           "heading": "The Nickel-Hydrogenase-CagA Axis",
           "level": 2,
-          "body": "The mechanistic link between *H. pylori* and gastric carcinogenesis runs through nickel-dependent enzymes:\n\n- NiFe-hydrogenase oxidizes molecular hydrogen (H2) in the gastric environment, generating proton motive force that powers the type IV secretion system (T4SS) responsible for injecting the oncoprotein CagA into gastric epithelial cells [[maier-2019-nickel-microbial-pathogenesis]].\n- CagA is phosphorylated by host kinases and disrupts cell polarity, tight junctions, and proliferation signaling -- directly promoting the transformation toward malignancy.\n- Hydrogenase deletion mutants of *H. pylori* cannot translocate CagA and fail to induce gastric cancer in the Mongolian gerbil model, establishing that nickel-powered hydrogen metabolism is essential for carcinogenesis [[maier-2019-nickel-microbial-pathogenesis]].\n- Strains isolated from gastric cancer patients show higher hydrogenase activity than strains from patients with gastritis alone, suggesting a dose-response relationship between nickel enzyme activity and cancer risk."
+          "body": "The mechanistic link between *H. pylori* and gastric carcinogenesis runs through nickel-dependent enzymes:\n\n- NiFe-hydrogenase oxidizes molecular hydrogen (H2) in the gastric environment, generating proton motive force that powers the type IV secretion system (T4SS) responsible for injecting the oncoprotein [[caga|CagA]] into gastric epithelial cells [[maier-2019-nickel-microbial-pathogenesis]].\n- CagA is phosphorylated by host kinases and disrupts cell polarity, tight junctions, and proliferation signaling -- directly promoting the transformation toward malignancy.\n- Hydrogenase deletion mutants of *H. pylori* cannot translocate CagA and fail to induce gastric cancer in the Mongolian gerbil model, establishing that nickel-powered hydrogen metabolism is essential for carcinogenesis [[maier-2019-nickel-microbial-pathogenesis]].\n- Strains isolated from gastric cancer patients show higher hydrogenase activity than strains from patients with gastritis alone, suggesting a dose-response relationship between nickel enzyme activity and cancer risk."
         },
         {
           "heading": "The Correa Cascade",
@@ -29709,6 +29709,7 @@
       ],
       "wikilinks": [
         "helicobacter-pylori",
+        "caga",
         "maier-2019-nickel-microbial-pathogenesis",
         "catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis",
         "fusobacterium-nucleatum",
@@ -29731,6 +29732,7 @@
       "backlinks": [
         "gastric-ulcer",
         "helicobacter-pylori",
+        "caga",
         "nickel-transporters",
         "nickel-urease",
         "nife-hydrogenase",
@@ -29738,20 +29740,20 @@
       ],
       "related": [
         {
+          "id": "metal-dependent-virulence",
+          "score": 17
+        },
+        {
           "id": "nutritional-immunity",
           "score": 17
         },
         {
-          "id": "metal-dependent-virulence",
-          "score": 15
-        },
-        {
           "id": "gastric-cancer",
-          "score": 11
+          "score": 13
         },
         {
           "id": "hydrogenase",
-          "score": 11
+          "score": 13
         },
         {
           "id": "urease",
@@ -29867,7 +29869,7 @@
         "seo_target": "gastric cancer Helicobacter pylori nickel microbiome",
         "wikipedia_differentiation": "Complete nickel-to-cancer chain showing how nickel cofactors enable H. pylori urease and hydrogenase, powering CagA oncoprotein translocation -- the most direct metal-to-carcinogenesis pathway in human disease"
       },
-      "overview": "The fifth most common cancer worldwide and third leading cause of cancer death, with over 1 million new cases annually. Gastric cancer stands unique in this wiki as the disease where a single microorganism -- [[helicobacter-pylori]] -- provides the dominant causal pathway, and where that pathogen's virulence depends critically on nickel-dependent metalloenzymes. The chain from [[nickel]] → [[hydrogenase]] → CagA translocation → gastric carcinogenesis is one of the most direct metal-to-cancer pathways in human disease.",
+      "overview": "The fifth most common cancer worldwide and third leading cause of cancer death, with over 1 million new cases annually. Gastric cancer stands unique in this wiki as the disease where a single microorganism -- [[helicobacter-pylori]] -- provides the dominant causal pathway, and where that pathogen's virulence depends critically on nickel-dependent metalloenzymes. The chain from [[nickel]] → [[hydrogenase]] → [[caga|CagA]] translocation → gastric carcinogenesis is one of the most direct metal-to-cancer pathways in human disease.",
       "sections": [
         {
           "heading": "The H. pylori-Nickel-Cancer Chain",
@@ -29940,6 +29942,7 @@
         "helicobacter-pylori",
         "nickel",
         "hydrogenase",
+        "caga",
         "inflammation",
         "nf-kappa-b",
         "oxidative-stress",
@@ -29965,6 +29968,7 @@
         "fusobacterium",
         "helicobacter-pylori",
         "nickel",
+        "caga",
         "gerd-signature",
         "pancreatic-cancer-signature",
         "gaps-and-improvements-2026-04-13",
@@ -29993,16 +29997,16 @@
           "score": 16
         },
         {
+          "id": "gerd",
+          "score": 15
+        },
+        {
           "id": "ovarian-cancer",
           "score": 15
         },
         {
           "id": "ulcerative-colitis",
           "score": 15
-        },
-        {
-          "id": "alzheimers-disease",
-          "score": 14
         }
       ]
     },
@@ -30081,7 +30085,7 @@
         {
           "heading": "Helicobacter pylori and the Nickel Connection",
           "level": 2,
-          "body": "The dominant microbial cause of gastric ulceration is *H. pylori*, whose pathogenesis depends on nickel-containing enzymes that enable survival in the acidic gastric environment:\n\n- Nickel-urease constitutes up to 10% of the total *H. pylori* proteome and catalyzes urea hydrolysis to ammonia and bicarbonate, neutralizing gastric acid in the immediate periplasmic environment [[maier-2019-nickel-microbial-pathogenesis]].\n- Beyond acid buffering, urease has non-catalytic roles: promoting angiogenesis, disrupting tight junctions, inducing apoptosis in gastric epithelial cells, and activating blood platelets -- all contributing to ulcer formation and persistence.\n- NiFe-hydrogenase provides metabolic energy by oxidizing molecular hydrogen (H2), which is chronically available in the human stomach at approximately 80 microM. This energy powers the type IV secretion system and CagA translocation [[maier-2019-nickel-microbial-pathogenesis]].\n\nThe [[nickel]] dependency of *H. pylori* virulence makes this metal a selective pressure in gastric ecology: dietary and environmental nickel exposure may influence the severity of *H. pylori*-mediated disease."
+          "body": "The dominant microbial cause of gastric ulceration is *H. pylori*, whose pathogenesis depends on nickel-containing enzymes that enable survival in the acidic gastric environment:\n\n- Nickel-urease constitutes up to 10% of the total *H. pylori* proteome and catalyzes urea hydrolysis to ammonia and bicarbonate, neutralizing gastric acid in the immediate periplasmic environment [[maier-2019-nickel-microbial-pathogenesis]].\n- Beyond acid buffering, urease has non-catalytic roles: promoting angiogenesis, disrupting tight junctions, inducing apoptosis in gastric epithelial cells, and activating blood platelets -- all contributing to ulcer formation and persistence.\n- NiFe-hydrogenase provides metabolic energy by oxidizing molecular hydrogen (H2), which is chronically available in the human stomach at approximately 80 microM. This energy powers the type IV secretion system and [[caga|CagA]] translocation [[maier-2019-nickel-microbial-pathogenesis]].\n\nThe [[nickel]] dependency of *H. pylori* virulence makes this metal a selective pressure in gastric ecology: dietary and environmental nickel exposure may influence the severity of *H. pylori*-mediated disease."
         },
         {
           "heading": "Nickel Transport as an Achilles' Heel",
@@ -30114,6 +30118,7 @@
         "gerd",
         "gastric-adenocarcinoma",
         "maier-2019-nickel-microbial-pathogenesis",
+        "caga",
         "nickel",
         "nickel-transporters",
         "dong-2018-ppi-acid-test-microbiome-composition-editorial",
@@ -30128,6 +30133,7 @@
       "backlinks": [
         "gastric-adenocarcinoma",
         "helicobacter-pylori",
+        "caga",
         "nickel-transporters",
         "nickel-urease",
         "nife-hydrogenase",
@@ -30140,7 +30146,7 @@
         },
         {
           "id": "metal-dependent-virulence",
-          "score": 12
+          "score": 14
         },
         {
           "id": "staphylococcus-aureus",
@@ -30155,15 +30161,15 @@
           "score": 9
         },
         {
+          "id": "gastric-cancer",
+          "score": 9
+        },
+        {
           "id": "escherichia-coli",
           "score": 8
         },
         {
           "id": "iron",
-          "score": 8
-        },
-        {
-          "id": "biofilm",
           "score": 8
         }
       ]
@@ -30559,6 +30565,7 @@
         "helicobacter-pylori",
         "mollicutes",
         "nickel",
+        "caga",
         "mendelian-randomization",
         "oral-microbiome",
         "toll-like-receptors",
@@ -30581,7 +30588,11 @@
         },
         {
           "id": "nickel",
-          "score": 19
+          "score": 21
+        },
+        {
+          "id": "hashimotos-thyroiditis",
+          "score": 17
         },
         {
           "id": "multiple-sclerosis",
@@ -30601,10 +30612,6 @@
         },
         {
           "id": "colorectal-cancer",
-          "score": 15
-        },
-        {
-          "id": "endometriosis",
           "score": 15
         }
       ]
@@ -31888,6 +31895,7 @@
         "veillonellaceae",
         "ahr",
         "autoimmunity",
+        "caga",
         "endocrine-disruption",
         "gut-thyroid-axis",
         "immune-balance",
@@ -32218,7 +32226,7 @@
         {
           "heading": "[NiFe] Hydrogenase",
           "level": 3,
-          "body": "- Single H₂-uptake type (*hydABCDE* operon).\n- H₂ is chronically available in the stomach (dissolved H₂ ~80 μM; enzyme Km ~1.8 μM — always saturated).\n- Powers CagA translocation: the carcinogenic effector. Hydrogenase deletion mutants cannot translocate CagA and do not induce gastric cancer in gerbils.\n- Enables H₂-stimulated CO₂ fixation (mixotrophy) — a growth mode never before described in a human pathogen.\n- Strains from cancer patients have higher hydrogenase activity than gastritis-only strains."
+          "body": "- Single H₂-uptake type (*hydABCDE* operon).\n- H₂ is chronically available in the stomach (dissolved H₂ ~80 μM; enzyme Km ~1.8 μM — always saturated).\n- Powers [[caga|CagA]] translocation: the carcinogenic effector. Hydrogenase deletion mutants cannot translocate CagA and do not induce gastric cancer in gerbils.\n- Enables H₂-stimulated CO₂ fixation (mixotrophy) — a growth mode never before described in a human pathogen.\n- Strains from cancer patients have higher hydrogenase activity than gastritis-only strains."
         },
         {
           "heading": "Nickel Trafficking System",
@@ -32265,6 +32273,7 @@
         "acidic-microenvironment",
         "maier-2019-nickel-microbial-pathogenesis",
         "tight-junctions",
+        "caga",
         "nickel-transporters",
         "histidine",
         "gastric-ulcer",
@@ -32316,6 +32325,7 @@
         "alpha-synuclein",
         "ammonia",
         "amyloid-beta",
+        "caga",
         "chelation-therapy",
         "drug-repurposing",
         "essential-oils",
@@ -46026,7 +46036,7 @@
         {
           "heading": "Key Ni-Enzymes",
           "level": 3,
-          "body": "- [[urease]]: acid neutralization + nitrogen source. Essential for [[helicobacter-pylori]], [[staphylococcus-aureus]], [[proteus-mirabilis]], *Cryptococcus neoformans*, and many others.\n- [[hydrogenase]] ([NiFe]): H2 oxidation for energy. Critical for *H. pylori* (CagA translocation, CO2 fixation), [[salmonella-typhimurium]], *Campylobacter jejuni*.\n- [[glyoxalase]] I (GloI): methylglyoxal detoxification. Drug target in *Leishmania donovani*. E. coli GlxI specifically requires Ni2+ [[pendergrass-2026-nickel-nec-preterm-gut]].\n- Acireductone dioxygenase (ARD): methionine salvage. Found in all pathogenic gamma-proteobacteriaceae.\n- Ni-SOD: rare; [[oxidative-stress]] defense in *Streptomyces* [[maier-2019-nickel-microbial-pathogenesis]]."
+          "body": "- [[urease]]: acid neutralization + nitrogen source. Essential for [[helicobacter-pylori]], [[staphylococcus-aureus]], [[proteus-mirabilis]], *Cryptococcus neoformans*, and many others.\n- [[hydrogenase]] ([NiFe]): H2 oxidation for energy. Critical for *H. pylori* ([[caga|CagA]] translocation, CO2 fixation), [[salmonella-typhimurium]], *Campylobacter jejuni*.\n- [[glyoxalase]] I (GloI): methylglyoxal detoxification. Drug target in *Leishmania donovani*. E. coli GlxI specifically requires Ni2+ [[pendergrass-2026-nickel-nec-preterm-gut]].\n- Acireductone dioxygenase (ARD): methionine salvage. Found in all pathogenic gamma-proteobacteriaceae.\n- Ni-SOD: rare; [[oxidative-stress]] defense in *Streptomyces* [[maier-2019-nickel-microbial-pathogenesis]]."
         },
         {
           "heading": "Staphylopine: A Broad-Spectrum Nickel Metallophore",
@@ -46213,6 +46223,7 @@
         "helicobacter-pylori",
         "staphylococcus-aureus",
         "proteus-mirabilis",
+        "caga",
         "salmonella-typhimurium",
         "cassat-2012-metal-acquisition-staphylococcus-aureus",
         "calprotectin",
@@ -46363,6 +46374,7 @@
         "bacterial-contamination-hypothesis",
         "bacterial-vaginosis",
         "biofilm",
+        "caga",
         "calprotectin",
         "cox-2",
         "dietary-cadmium-exposure",
@@ -46465,12 +46477,12 @@
           "score": 86
         },
         {
-          "id": "dietary-metal-paradoxes",
+          "id": "metal-dependent-virulence",
           "score": 79
         },
         {
-          "id": "metal-dependent-virulence",
-          "score": 77
+          "id": "dietary-metal-paradoxes",
+          "score": 79
         },
         {
           "id": "breast-cancer",
@@ -75127,6 +75139,169 @@
       ]
     },
     {
+      "id": "caga",
+      "title": "CagA",
+      "type": "concept",
+      "category": "mechanism",
+      "tags": [
+        "CagA",
+        "Helicobacter-pylori",
+        "virulence-factor",
+        "type-IV-secretion",
+        "gastric-cancer",
+        "nickel",
+        "hydrogenase",
+        "gastric-epithelium"
+      ],
+      "sources": [
+        "maier-2019-nickel-microbial-pathogenesis",
+        "campanale-2014-nickel-free-diet-h-pylori",
+        "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
+        "chen-2023-hpylori-antibodies-gerd-mendelian-study",
+        "wang-2019-microbiome-occurrence-development-treatment-pancreatic-cancer",
+        "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos"
+      ],
+      "created": "2026-09-07T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
+      "frontmatter": {
+        "title": "CagA",
+        "type": "concept",
+        "created": "2026-09-07T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
+        "sources": [
+          "maier-2019-nickel-microbial-pathogenesis",
+          "campanale-2014-nickel-free-diet-h-pylori",
+          "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
+          "chen-2023-hpylori-antibodies-gerd-mendelian-study",
+          "wang-2019-microbiome-occurrence-development-treatment-pancreatic-cancer",
+          "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos"
+        ],
+        "source_count": 6,
+        "tags": [
+          "CagA",
+          "Helicobacter-pylori",
+          "virulence-factor",
+          "type-IV-secretion",
+          "gastric-cancer",
+          "nickel",
+          "hydrogenase",
+          "gastric-epithelium"
+        ],
+        "karen_brain_primitives": [
+          1,
+          2,
+          4,
+          5
+        ],
+        "seo_target": "CagA Helicobacter pylori virulence gastric cancer",
+        "platform": "wikibiome"
+      },
+      "overview": "CagA is an effector protein produced by some strains of [[helicobacter-pylori]]. Its name derives from “cytotoxin-associated gene A.” CagA is delivered into gastric epithelial cells through the bacterium's type IV secretion system and is therefore different from a freely secreted toxin or a host inflammatory protein. In WikiBiome's evidence vault, it is principally represented as a carcinogenic virulence effector whose delivery links bacterial energy metabolism to host tissue injury and [[gastric-cancer]] [[maier-2019-nickel-microbial-pathogenesis]].\n\nThe distinction between possessing CagA and delivering it matters. A strain may be described as CagA-positive because it carries or expresses the relevant bacterial determinant, while tissue-level activity additionally depends on a functioning secretion system, sufficient bacterial fitness, contact with host cells, and successful translocation.",
+      "sections": [
+        {
+          "heading": "Delivery by the type IV secretion system",
+          "level": 2,
+          "body": "The strongest mechanistic evidence represented in the vault connects CagA translocation to *H. pylori*'s nickel-dependent NiFe [[hydrogenase]]. Hydrogen oxidation supplies energy to the bacterium. A review of nickel in microbial pathogenesis reports that hydrogenase-deletion mutants could not translocate CagA and did not induce gastric cancer in a Mongolian-gerbil model; isolates from patients with cancer also showed higher hydrogenase activity than isolates from patients with gastritis alone [[maier-2019-nickel-microbial-pathogenesis]].\n\nThis is an indirect metal dependency. CagA is not described in these sources as a nickel-binding protein or metalloenzyme. Rather, [[nickel]] supports hydrogenase maturation and bacterial metabolism, and that upstream system enables efficient CagA delivery. The same distinction applies to dietary nickel: a small pilot study found higher *H. pylori* eradication with a low-nickel diet added to antibiotic therapy, but its proposed hydrogenase–CagA explanation is mechanistic interpretation rather than a direct measurement of CagA translocation in participants [[campanale-2014-nickel-free-diet-h-pylori]]."
+        },
+        {
+          "heading": "Gastric carcinogenesis",
+          "level": 2,
+          "body": "CagA provides a defined route by which a microbial virulence program can contribute to host carcinogenesis. In the animal-model evidence summarized above, disrupting the bacterial energy system prevented both CagA delivery and tumor induction. This supports a pathway from nickel acquisition to hydrogenase activity, type IV secretion, CagA translocation, and gastric epithelial consequences [[maier-2019-nickel-microbial-pathogenesis]].\n\nThat pathway should not be reduced to a single exposure equation. CagA status is one component of *H. pylori* pathogenicity; colonization density, duration, gastric location, host susceptibility, inflammation, diet, and other bacterial factors can alter the outcome. Evidence that a strain is CagA-positive does not establish that a particular person will develop cancer."
+        },
+        {
+          "heading": "What strain status and antibodies can show",
+          "level": 2,
+          "body": "“CagA-positive” usually classifies an *H. pylori* strain or infection context; “CagA antibody” refers to a host immune marker of exposure. Neither measurement directly quantifies how much protein is being delivered into gastric cells at the time of sampling.\n\nA two-sample Mendelian-randomization study tested genetically predicted antibody levels to several *H. pylori* proteins. It reported a very small association between overall *H. pylori* IgG and GERD risk, but no causal association for the CagA antibody individually [[chen-2023-hpylori-antibodies-gerd-mendelian-study]]. This result concerns the studied GERD outcome and serologic instrument; it does not negate CagA's experimentally supported role in gastric virulence."
+        },
+        {
+          "heading": "Associations beyond gastric cancer",
+          "level": 2,
+          "body": "A cross-sectional gastric-microbiome study found *H. pylori* less often in erosive reflux disease than in comparison groups. The authors discussed reduced acid output, including proposed CagA-mediated effects on parietal cells and atrophic gastritis, as one possible explanation. Because the design was cross-sectional, it cannot establish that CagA protects against reflux or that the proposed mechanism caused the observed pattern [[sugihartono-2022-gastric-microbiota-h-pylori-gerd]].\n\nA pancreatic-cancer microbiome review reported stronger associations for CagA-positive *H. pylori* strains than for *H. pylori* infection considered without strain qualification. This is an epidemiologic association in a non-gastric cancer context, not evidence that CagA is delivered to pancreatic tissue or independently causes pancreatic cancer [[wang-2019-microbiome-occurrence-development-treatment-pancreatic-cancer]].\n\nA gut-thyroid-axis review describes nucleotide-sequence similarity between CagA-positive *H. pylori* strains and thyroid peroxidase in a molecular-mimicry hypothesis. The source is a narrative review and explicitly places microbiome-to-thyroid causation and therapeutic implications in an emerging-evidence category; the proposed similarity should not be treated as proof that CagA causes autoimmune thyroid disease [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]]."
+        },
+        {
+          "heading": "Evidence interpretation",
+          "level": 2,
+          "body": "- CagA-positive strain status identifies a bacterial virulence characteristic; it does not measure active protein delivery.\n- CagA antibody measurements indicate an immune response or genetically instrumented exposure proxy, not current gastric-cell translocation.\n- Hydrogenase knockout evidence supports an upstream bacterial-energy requirement in an animal model; it does not show that CagA itself requires nickel [[maier-2019-nickel-microbial-pathogenesis]].\n- Observational associations involving GERD, pancreatic cancer, or thyroid autoimmunity should remain separate from the stronger gastric mechanistic evidence.\n- Dietary nickel restriction should not be presented as an established CagA-targeted therapy. The available pilot study combined diet with antibiotic treatment and did not directly measure the proposed CagA pathway [[campanale-2014-nickel-free-diet-h-pylori]]."
+        },
+        {
+          "heading": "Related pages",
+          "level": 2,
+          "body": "- [[helicobacter-pylori]]\n- [[gastric-cancer]]\n- [[gastric-adenocarcinoma]]\n- [[gastric-ulcer]]\n- [[virulence-factors]]\n- [[hydrogenase]]\n- [[nickel]]\n- [[nickel-transporters]]\n- [[metal-dependent-virulence]]\n- [[tight-junctions]]\n- [[gerd]]\n- [[hashimotos-thyroiditis]]"
+        }
+      ],
+      "wikilinks": [
+        "helicobacter-pylori",
+        "gastric-cancer",
+        "maier-2019-nickel-microbial-pathogenesis",
+        "hydrogenase",
+        "nickel",
+        "campanale-2014-nickel-free-diet-h-pylori",
+        "chen-2023-hpylori-antibodies-gerd-mendelian-study",
+        "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
+        "wang-2019-microbiome-occurrence-development-treatment-pancreatic-cancer",
+        "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos",
+        "gastric-adenocarcinoma",
+        "gastric-ulcer",
+        "virulence-factors",
+        "nickel-transporters",
+        "metal-dependent-virulence",
+        "tight-junctions",
+        "gerd",
+        "hashimotos-thyroiditis"
+      ],
+      "sourceDir": "concepts",
+      "sourceCount": 6,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "gastric-adenocarcinoma",
+        "gastric-cancer",
+        "gastric-ulcer",
+        "helicobacter-pylori",
+        "nickel",
+        "hydrogenase",
+        "metal-dependent-virulence",
+        "nickel-transporters",
+        "virulence-factors"
+      ],
+      "related": [
+        {
+          "id": "nutritional-immunity",
+          "score": 19
+        },
+        {
+          "id": "urease",
+          "score": 15
+        },
+        {
+          "id": "escherichia-coli",
+          "score": 12
+        },
+        {
+          "id": "proteus-mirabilis",
+          "score": 11
+        },
+        {
+          "id": "calprotectin",
+          "score": 11
+        },
+        {
+          "id": "dietary-nickel-exposure",
+          "score": 11
+        },
+        {
+          "id": "metal-carcinogenesis",
+          "score": 11
+        },
+        {
+          "id": "salmonella-typhimurium",
+          "score": 10
+        }
+      ]
+    },
+    {
       "id": "calprotectin",
       "title": "Calprotectin (S100A8/A9)",
       "type": "concept",
@@ -89994,7 +90169,7 @@
         "seo_target": "hydrogenase microbiome",
         "last_substantive_update": "2026-04-09T00:00:00.000Z"
       },
-      "overview": "[NiFe] hydrogenases are the second major [[nickel]]-dependent virulence factor class in human pathogens. Less widespread than [[urease]] but critical for energy metabolism in gastric, enteric, and intracellular pathogens. The discovery that *H. pylori* hydrogenase powers CagA translocation -- the carcinogenic effector protein -- makes this enzyme a direct link between nickel availability and gastric cancer.",
+      "overview": "[NiFe] hydrogenases are the second major [[nickel]]-dependent virulence factor class in human pathogens. Less widespread than [[urease]] but critical for energy metabolism in gastric, enteric, and intracellular pathogens. The discovery that *H. pylori* hydrogenase powers [[caga|CagA]] translocation -- the carcinogenic effector protein -- makes this enzyme a direct link between nickel availability and gastric cancer.",
       "sections": [
         {
           "heading": "Biochemistry",
@@ -90085,6 +90260,7 @@
       "wikilinks": [
         "nickel",
         "urease",
+        "caga",
         "helicobacter-pylori",
         "maier-2019-nickel-microbial-pathogenesis",
         "salmonella-typhimurium",
@@ -90113,6 +90289,7 @@
         "mycobacterium-tuberculosis",
         "nickel",
         "shigella-flexneri",
+        "caga",
         "developmental-metal-vulnerability",
         "glyoxalase",
         "heavy-metals",
@@ -90144,15 +90321,15 @@
           "score": 16
         },
         {
+          "id": "nickel-transporters",
+          "score": 14
+        },
+        {
           "id": "siderophores-metallophores",
           "score": 14
         },
         {
-          "id": "inter-kingdom-metal-shielding",
-          "score": 13
-        },
-        {
-          "id": "dietary-metal-paradoxes",
+          "id": "gastric-adenocarcinoma",
           "score": 13
         }
       ]
@@ -97980,7 +98157,7 @@
         {
           "heading": "[NiFe] Hydrogenase",
           "level": 3,
-          "body": "Catalyzes H2 oxidation, providing energy (proton motive force) to the pathogen.\n\n- [[helicobacter-pylori]]: Single H2-uptake hydrogenase (*hydABCDE* operon). H2 is chronically available in the human stomach (~80 uM, well above the enzyme Km of ~1.8 uM). Powers CagA translocation -- the carcinogenic effector protein. Hydrogenase deletion mutants cannot translocate CagA or induce gastric cancer in gerbils. Higher hydrogenase activity correlates with strains from cancer patients vs. gastritis patients. Also enables H2-stimulated CO2 fixation (\"mixotrophy\"), a growth mode never before described in a human pathogen [[maier-2019-nickel-microbial-pathogenesis]].\n- [[helicobacter-hepaticus]]: Hydrogenase supports amino acid uptake and cell growth; linked to liver lesions in mice.\n- [[salmonella-typhimurium]]: Possesses 4 distinct [NiFe] hydrogenases (Hya, Hyb, Hyc, Hyd). Hyb is most important for virulence. Triple mutant (delta-hya/delta-hyb/delta-hyd) is completely avirulent -- 100% survival in a typhoid fever mouse model.\n- [[campylobacter-jejuni]]: Membrane-bound [NiFe] hydrogenase essential for growth and chicken colonization.\n- [[shigella-flexneri]]: H2-uptake hydrogenases combat acid stress in phagolysosomes."
+          "body": "Catalyzes H2 oxidation, providing energy (proton motive force) to the pathogen.\n\n- [[helicobacter-pylori]]: Single H2-uptake hydrogenase (*hydABCDE* operon). H2 is chronically available in the human stomach (~80 uM, well above the enzyme Km of ~1.8 uM). Powers [[caga|CagA]] translocation -- the carcinogenic effector protein. Hydrogenase deletion mutants cannot translocate CagA or induce gastric cancer in gerbils. Higher hydrogenase activity correlates with strains from cancer patients vs. gastritis patients. Also enables H2-stimulated CO2 fixation (\"mixotrophy\"), a growth mode never before described in a human pathogen [[maier-2019-nickel-microbial-pathogenesis]].\n- [[helicobacter-hepaticus]]: Hydrogenase supports amino acid uptake and cell growth; linked to liver lesions in mice.\n- [[salmonella-typhimurium]]: Possesses 4 distinct [NiFe] hydrogenases (Hya, Hyb, Hyc, Hyd). Hyb is most important for virulence. Triple mutant (delta-hya/delta-hyb/delta-hyd) is completely avirulent -- 100% survival in a typhoid fever mouse model.\n- [[campylobacter-jejuni]]: Membrane-bound [NiFe] hydrogenase essential for growth and chicken colonization.\n- [[shigella-flexneri]]: H2-uptake hydrogenases combat acid stress in phagolysosomes."
         },
         {
           "heading": "Glyoxalase I (GloI)",
@@ -98075,6 +98252,7 @@
         "staphylococcus-aureus",
         "proteus-mirabilis",
         "pendergrass-2026-nickel-nec-preterm-gut",
+        "caga",
         "helicobacter-hepaticus",
         "salmonella-typhimurium",
         "campylobacter-jejuni",
@@ -98126,6 +98304,7 @@
         "staphylococcus-aureus",
         "streptococcus-pneumoniae",
         "yersinia-pestis",
+        "caga",
         "cambialistic-enzymes",
         "catalase",
         "developmental-metal-vulnerability",
@@ -98163,7 +98342,7 @@
         },
         {
           "id": "hydrogenase",
-          "score": 31
+          "score": 33
         },
         {
           "id": "siderophores",
@@ -103631,7 +103810,7 @@
           "score": 5
         },
         {
-          "id": "ferroptosis",
+          "id": "caga",
           "score": 5
         }
       ]
@@ -103729,7 +103908,7 @@
         {
           "heading": "Cross-References",
           "level": 2,
-          "body": "- [[nickel]] -- the metal imported by these systems\n- [[nutritional-immunity]] -- host countermeasures against nickel acquisition\n- [[calprotectin]] -- nickel-sequestering host protein\n- [[helicobacter-pylori]] -- organism most dependent on nickel transport\n- [[gastric-ulcer]] -- disease driven by nickel-dependent virulence\n- [[gastric-adenocarcinoma]] -- cancer linked to nickel-hydrogenase-powered CagA\n- [[efflux-pumps]] -- complementary metal export mechanisms"
+          "body": "- [[nickel]] -- the metal imported by these systems\n- [[nutritional-immunity]] -- host countermeasures against nickel acquisition\n- [[calprotectin]] -- nickel-sequestering host protein\n- [[helicobacter-pylori]] -- organism most dependent on nickel transport\n- [[gastric-ulcer]] -- disease driven by nickel-dependent virulence\n- [[gastric-adenocarcinoma]] -- cancer linked to nickel-hydrogenase-powered [[caga|CagA]]\n- [[efflux-pumps]] -- complementary metal export mechanisms"
         }
       ],
       "wikilinks": [
@@ -103745,6 +103924,7 @@
         "klebsiella-pneumoniae",
         "gastric-ulcer",
         "gastric-adenocarcinoma",
+        "caga",
         "efflux-pumps"
       ],
       "sourceDir": "concepts",
@@ -103756,21 +103936,26 @@
         "gastric-adenocarcinoma",
         "gastric-ulcer",
         "helicobacter-pylori",
+        "caga",
         "nickel-glyoxalase",
         "nickel-urease",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
+          "id": "metal-dependent-virulence",
+          "score": 17
+        },
+        {
           "id": "urease",
           "score": 16
         },
         {
-          "id": "metal-dependent-virulence",
-          "score": 15
+          "id": "hydrogenase",
+          "score": 14
         },
         {
-          "id": "hydrogenase",
+          "id": "gerd",
           "score": 12
         },
         {
@@ -103779,14 +103964,10 @@
         },
         {
           "id": "gerd",
-          "score": 10
+          "score": 12
         },
         {
           "id": "histidine",
-          "score": 10
-        },
-        {
-          "id": "gerd",
           "score": 10
         },
         {
@@ -114256,16 +114437,17 @@
       "isStub": false,
       "backlinks": [
         "helicobacter-pylori",
+        "caga",
         "epigenetic-modifications"
       ],
       "related": [
         {
-          "id": "gut-barrier-dysfunction",
-          "score": 11
+          "id": "nickel",
+          "score": 12
         },
         {
-          "id": "nickel",
-          "score": 10
+          "id": "gut-barrier-dysfunction",
+          "score": 11
         },
         {
           "id": "lipopolysaccharide",
@@ -114288,7 +114470,7 @@
           "score": 8
         },
         {
-          "id": "defensins",
+          "id": "gastric-cancer",
           "score": 7
         }
       ]
@@ -117216,7 +117398,7 @@
         {
           "heading": "Toxins",
           "level": 3,
-          "body": "Toxins directly damage host tissues. Many are metalloproteins:\n\n| Toxin | Organism | Metal Cofactor | Mechanism |\n|-------|----------|---------------|-----------|\n| BFT (Fragilysin) | [[bacteroides-fragilis]] | Zinc | [[zinc-metalloprotease]]; cleaves E-cadherin, disrupts epithelial barrier |\n| Pneumolysin | [[streptococcus-pneumoniae]] | -- | Cholesterol-dependent cytolysin; pore formation |\n| Alpha-hemolysin | [[staphylococcus-aureus]] | -- | Pore-forming toxin |\n| CagA | [[helicobacter-pylori]] | Nickel (indirect) | Translocated by [[nife-hydrogenase]]-powered type IV secretion; oncogenic effector |\n| Shiga toxin | [[escherichia-coli]] | -- | Ribosome-inactivating protein |"
+          "body": "Toxins directly damage host tissues. Many are metalloproteins:\n\nFor *H. pylori*, the [[caga|CagA]] effector is delivered through a nickel-hydrogenase-powered type IV secretion system; the nickel relationship is indirect rather than a metal cofactor within CagA itself.\n\n| Toxin | Organism | Metal Cofactor | Mechanism |\n|-------|----------|---------------|-----------|\n| BFT (Fragilysin) | [[bacteroides-fragilis]] | Zinc | [[zinc-metalloprotease]]; cleaves E-cadherin, disrupts epithelial barrier |\n| Pneumolysin | [[streptococcus-pneumoniae]] | -- | Cholesterol-dependent cytolysin; pore formation |\n| Alpha-hemolysin | [[staphylococcus-aureus]] | -- | Pore-forming toxin |\n| CagA | [[helicobacter-pylori]] | Nickel (indirect) | Translocated by [[nife-hydrogenase]]-powered type IV secretion; oncogenic effector |\n| Shiga toxin | [[escherichia-coli]] | -- | Ribosome-inactivating protein |"
         },
         {
           "heading": "Metal-Dependent Enzymes",
@@ -117266,6 +117448,7 @@
       ],
       "wikilinks": [
         "nutritional-immunity",
+        "caga",
         "bacteroides-fragilis",
         "zinc-metalloprotease",
         "streptococcus-pneumoniae",
@@ -117299,6 +117482,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "caga",
         "chelation-therapy",
         "shotgun-metagenomics",
         "broken-links-2026-04-16"
@@ -117313,7 +117497,15 @@
           "score": 11
         },
         {
+          "id": "nickel",
+          "score": 10
+        },
+        {
           "id": "salmonella",
+          "score": 10
+        },
+        {
+          "id": "hydrogenase",
           "score": 10
         },
         {
@@ -117321,19 +117513,11 @@
           "score": 10
         },
         {
+          "id": "gastric-adenocarcinoma",
+          "score": 9
+        },
+        {
           "id": "cobalt",
-          "score": 8
-        },
-        {
-          "id": "escherichia",
-          "score": 8
-        },
-        {
-          "id": "klebsiella",
-          "score": 8
-        },
-        {
-          "id": "nickel",
           "score": 8
         }
       ]
@@ -123964,6 +124148,7 @@
         "helicobacter-pylori",
         "mollicutes",
         "nickel",
+        "caga",
         "mendelian-randomization",
         "oral-microbiome",
         "toll-like-receptors",
@@ -123985,12 +124170,12 @@
           "score": 18
         },
         {
-          "id": "barretts-esophagus",
-          "score": 17
+          "id": "helicobacter-pylori",
+          "score": 18
         },
         {
-          "id": "helicobacter-pylori",
-          "score": 16
+          "id": "barretts-esophagus",
+          "score": 17
         },
         {
           "id": "barretts-esophagus-signature",
@@ -124861,6 +125046,7 @@
         "veillonellaceae",
         "ahr",
         "autoimmunity",
+        "caga",
         "endocrine-disruption",
         "gut-thyroid-axis",
         "immune-balance",
@@ -168617,6 +168803,10 @@
       "backlinks": [],
       "related": [
         {
+          "id": "caga",
+          "score": 8
+        },
+        {
           "id": "crohns-disease",
           "score": 7
         },
@@ -168642,10 +168832,6 @@
         },
         {
           "id": "stop-iron-supplementation-ibd",
-          "score": 6
-        },
-        {
-          "id": "dietary-metal-paradoxes",
           "score": 6
         }
       ]
@@ -183553,6 +183739,12 @@
         "sourceCount": 3
       },
       {
+        "id": "caga",
+        "label": "CagA",
+        "category": "mechanism",
+        "sourceCount": 6
+      },
+      {
         "id": "calprotectin",
         "label": "Calprotectin (S100A8/A9)",
         "category": "defense",
@@ -192620,6 +192812,10 @@
       },
       {
         "source": "gastric-adenocarcinoma",
+        "target": "caga"
+      },
+      {
+        "source": "gastric-adenocarcinoma",
         "target": "fusobacterium-nucleatum"
       },
       {
@@ -192665,6 +192861,10 @@
       {
         "source": "gastric-cancer",
         "target": "hydrogenase"
+      },
+      {
+        "source": "gastric-cancer",
+        "target": "caga"
       },
       {
         "source": "gastric-cancer",
@@ -192725,6 +192925,10 @@
       {
         "source": "gastric-ulcer",
         "target": "gerd"
+      },
+      {
+        "source": "gastric-ulcer",
+        "target": "caga"
       },
       {
         "source": "gastric-ulcer",
@@ -193077,6 +193281,10 @@
       {
         "source": "helicobacter-pylori",
         "target": "tight-junctions"
+      },
+      {
+        "source": "helicobacter-pylori",
+        "target": "caga"
       },
       {
         "source": "helicobacter-pylori",
@@ -195477,6 +195685,10 @@
       {
         "source": "nickel",
         "target": "proteus-mirabilis"
+      },
+      {
+        "source": "nickel",
+        "target": "caga"
       },
       {
         "source": "nickel",
@@ -200741,6 +200953,34 @@
       {
         "source": "cadaverine",
         "target": "hydrogen-sulfide"
+      },
+      {
+        "source": "caga",
+        "target": "hydrogenase"
+      },
+      {
+        "source": "caga",
+        "target": "virulence-factors"
+      },
+      {
+        "source": "caga",
+        "target": "nickel-transporters"
+      },
+      {
+        "source": "caga",
+        "target": "metal-dependent-virulence"
+      },
+      {
+        "source": "caga",
+        "target": "tight-junctions"
+      },
+      {
+        "source": "caga",
+        "target": "gerd"
+      },
+      {
+        "source": "caga",
+        "target": "hashimotos-thyroiditis"
       },
       {
         "source": "calprotectin",
