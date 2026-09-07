@@ -121,6 +121,12 @@
         "sha256": "2c219a3122e4a22ff41996bad927cd58e991bfd72f6dfe9c3ddd94cb1764e343"
       },
       {
+        "file": "data/article-media-batches/interventions-103.json",
+        "batchId": "interventions-103",
+        "status": "audited",
+        "sha256": "9b4716a435ebce3f69ecf86607b87fb6109e1e2f8f8b1f7f713685356044969c"
+      },
+      {
         "file": "data/article-media-batches/mechanisms-057.json",
         "batchId": "mechanisms-057",
         "status": "reviewed",
