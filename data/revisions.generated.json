@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T14:45:41.672Z",
+  "generatedAt": "2026-09-07T14:50:23.217Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "0b8929da4e780449942f9548e7b05f1a82a86685",
+  "sourceCommit": "8f8608b6f99c8818cae1617aaecc5d2d9760d04a",
   "records": 822,
   "canonicalIds": 757,
   "revisions": 4492,
@@ -4926,6 +4926,15 @@
       ],
       "revisions": [
         {
+          "hash": "8f8608b6f99c8818cae1617aaecc5d2d9760d04a",
+          "date": "2026-09-07T17:49:18+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Place chromium TLR4 link in narrative",
+          "path": "wiki/entities/chromium.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
           "date": "2026-09-07T17:24:50+03:00",
           "author": "Karen Pendergrass",
@@ -5059,15 +5068,6 @@
           "path": "wiki/entities/chromium.md",
           "additions": 3,
           "deletions": 1
-        },
-        {
-          "hash": "ef7fa013a793c2bb580ddcb6f0424f870181fbbe",
-          "date": "2026-04-09T21:51:02+03:00",
-          "author": "Karen Pendergrass",
-          "subject": "WikiBiome v7 — interactive microbiome metallomics encyclopedia",
-          "path": "wiki/entities/chromium.md",
-          "additions": 86,
-          "deletions": 0
         }
       ]
     },

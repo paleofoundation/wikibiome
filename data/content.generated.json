@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T14:43:14.620Z",
+  "_generated": "2026-09-07T14:49:06.181Z",
   "_platform": "all",
   "_stats": {
     "sources": 1940,
@@ -15129,7 +15129,7 @@
         {
           "heading": "Route-Dependent Toxicogenomics",
           "level": 3,
-          "body": "Bioinformatic analysis of gene expression data revealed distinct molecular pathways depending on Cr exposure route [[shin-2023-chromium-toxicogenomics]]:\n\n| Exposure Route | Key Mechanisms | Hub Genes | Cancer Association |\n|---|---|---|---|\n| Dermal | DNA damage, immune disorders, allergic reactions | CXCL8, PTGS2, FOS, HMOX1 | Allergic contact dermatitis |\n| Inhalation | DNA damage, cell cycle alteration, immune disorder | [[tlr4|TLR4]], TGM2, KIT, ZEB1 | Lung cancer (squamous cell) |\n| Ingestion | DNA damage, metastasis, liver dysfunction | VEGFA, EGFR, APP, JUN, TLR2 | Colorectal cancer, GI diseases |\n\nDNA damage and metastasis were common toxic mechanisms across all three exposure routes [[shin-2023-chromium-toxicogenomics]]."
+          "body": "Bioinformatic analysis of gene expression data revealed distinct molecular pathways depending on Cr exposure route [[shin-2023-chromium-toxicogenomics]]:\n\n| Exposure Route | Key Mechanisms | Hub Genes | Cancer Association |\n|---|---|---|---|\n| Dermal | DNA damage, immune disorders, allergic reactions | CXCL8, PTGS2, FOS, HMOX1 | Allergic contact dermatitis |\n| Inhalation | DNA damage, cell cycle alteration, immune disorder | TLR4, TGM2, KIT, ZEB1 | Lung cancer (squamous cell) |\n| Ingestion | DNA damage, metastasis, liver dysfunction | VEGFA, EGFR, APP, JUN, TLR2 | Colorectal cancer, GI diseases |\n\nIn the inhalation dataset, [[tlr4|TLR4]] was identified as one hub gene; this is a gene-expression association, not evidence that chromium directly binds the receptor. DNA damage and metastasis were common toxic mechanisms across all three exposure routes [[shin-2023-chromium-toxicogenomics]]."
         },
         {
           "heading": "Neurotoxicity",
