@@ -1,17 +1,26 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T09:17:30.501Z",
+  "generatedAt": "2026-09-07T09:55:52.616Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "64a95e9c30a288aa382990c7c2659af53b366935",
+  "sourceCommit": "1f7357e6c3d4b3fca709237bd75ca0286a68e574",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 3989,
+  "revisions": 4171,
   "histories": {
     "acidaminococcus": {
       "paths": [
         "wiki/entities/acidaminococcus.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/acidaminococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -169,6 +178,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/actinobacteria.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -299,6 +317,15 @@
         "wiki/entities/adherent-invasive-e-coli.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/adherent-invasive-e-coli.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -464,6 +491,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/agathobacter-rectalis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
           "date": "2026-09-01T21:13:18+03:00",
           "author": "Karen Pendergrass",
@@ -506,6 +542,15 @@
         "wiki/entities/akkermansia-muciniphila.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/akkermansia-muciniphila.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -908,6 +953,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -1041,15 +1095,6 @@
           "path": "wiki/entities/alzheimers-disease.md",
           "additions": 18,
           "deletions": 2
-        },
-        {
-          "hash": "ef7fa013a793c2bb580ddcb6f0424f870181fbbe",
-          "date": "2026-04-09T21:51:02+03:00",
-          "author": "Karen Pendergrass",
-          "subject": "WikiBiome v7 — interactive microbiome metallomics encyclopedia",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "additions": 151,
-          "deletions": 0
         }
       ]
     },
@@ -1083,6 +1128,15 @@
         "wiki/entities/anaerostipes.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/anaerostipes.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -1144,6 +1198,15 @@
         "wiki/entities/anaerotruncus.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/anaerotruncus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -1282,6 +1345,15 @@
         "wiki/entities/arsenic.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/arsenic.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -1512,6 +1584,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/autism-spectrum-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -1713,6 +1794,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bacteroidales.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1728,6 +1818,15 @@
         "wiki/entities/bacteroides-caccae.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bacteroides-caccae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -1948,6 +2047,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bacteroides-uniformis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -1999,6 +2107,15 @@
         "wiki/entities/bacteroides-vulgatus.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bacteroides-vulgatus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -2166,6 +2283,15 @@
         "wiki/entities/bacteroidetes.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bacteroidetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -2387,6 +2513,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bifidobacterium-adolescentis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2460,6 +2595,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bifidobacterium-longum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -2511,6 +2655,15 @@
         "wiki/entities/bifidobacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bifidobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -2600,6 +2753,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bilophila.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -2687,6 +2849,15 @@
         "wiki/entities/bipolar-disorder.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/bipolar-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -2819,6 +2990,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/blautia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -2931,6 +3111,15 @@
         "wiki/entities/breast-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/breast-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -3142,6 +3331,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/butyricicoccus.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -3193,6 +3391,15 @@
         "wiki/entities/butyricimonas.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/butyricimonas.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -3282,6 +3489,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/butyrivibrio.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -3297,6 +3513,15 @@
         "wiki/entities/cadmium.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/cadmium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -3879,6 +4104,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/cardiovascular-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -4012,15 +4246,6 @@
           "path": "wiki/entities/cardiovascular-disease.md",
           "additions": 8,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/cardiovascular-disease.md",
-          "additions": 9,
-          "deletions": 7
         }
       ]
     },
@@ -4054,6 +4279,15 @@
         "wiki/entities/celiac-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/celiac-disease.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -4152,6 +4386,15 @@
         "wiki/entities/cerebral-palsy.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/cerebral-palsy.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -4370,6 +4613,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/christensenellaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -4537,6 +4789,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/chronic-fatigue-syndrome.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -4607,6 +4868,15 @@
         "wiki/entities/chronic-kidney-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -4741,15 +5011,6 @@
           "path": "wiki/entities/chronic-kidney-disease.md",
           "additions": 14,
           "deletions": 3
-        },
-        {
-          "hash": "ef7fa013a793c2bb580ddcb6f0424f870181fbbe",
-          "date": "2026-04-09T21:51:02+03:00",
-          "author": "Karen Pendergrass",
-          "subject": "WikiBiome v7 — interactive microbiome metallomics encyclopedia",
-          "path": "wiki/entities/chronic-kidney-disease.md",
-          "additions": 154,
-          "deletions": 0
         }
       ]
     },
@@ -4924,6 +5185,15 @@
         "wiki/entities/clostridia.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/clostridia.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -5120,6 +5390,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/clostridium-butyricum.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -5187,6 +5466,15 @@
         "wiki/entities/clostridium-symbiosum.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/clostridium-symbiosum.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -5284,6 +5572,15 @@
         "wiki/entities/clostridium.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/clostridium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -5487,6 +5784,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/colorectal-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -5620,15 +5926,6 @@
           "path": "wiki/entities/colorectal-cancer.md",
           "additions": 7,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/colorectal-cancer.md",
-          "additions": 10,
-          "deletions": 8
         }
       ]
     },
@@ -5744,6 +6041,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/coprococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -5841,6 +6147,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/coronary-artery-disease.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -5927,6 +6242,15 @@
         "wiki/entities/crohns-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/crohns-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -6061,15 +6385,6 @@
           "path": "wiki/entities/crohns-disease.md",
           "additions": 7,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/crohns-disease.md",
-          "additions": 11,
-          "deletions": 9
         }
       ]
     },
@@ -6200,6 +6515,15 @@
         "wiki/entities/debaryomyces.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/debaryomyces.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -6332,6 +6656,15 @@
         "wiki/entities/depression.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -6518,6 +6851,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/desulfovibrio.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -6605,6 +6947,15 @@
         "wiki/entities/desulfovibrionales.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/desulfovibrionales.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -6762,6 +7113,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/dialister.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -6884,6 +7244,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/dorea.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -6944,6 +7313,15 @@
         "wiki/entities/eggerthella-lenta.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/eggerthella-lenta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -7620,6 +7998,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/erectile-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -7909,6 +8296,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/eubacteriales.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -7942,6 +8338,15 @@
         "wiki/entities/eubacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/eubacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -8021,6 +8426,15 @@
         "wiki/entities/faecalibacterium-prausnitzii.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/faecalibacterium-prausnitzii.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -8128,6 +8542,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/faecalibacterium.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -8178,6 +8601,15 @@
         "wiki/entities/female-infertility.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/female-infertility.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -8295,6 +8727,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/fibromyalgia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -8408,6 +8849,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/firmicutes.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -8475,6 +8925,15 @@
         "wiki/entities/flavonifractor.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/flavonifractor.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -8571,6 +9030,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/fusicatenibacter.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -8656,6 +9124,15 @@
         "wiki/entities/fusobacterium-nucleatum.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/fusobacterium-nucleatum.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -8754,6 +9231,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/fusobacterium-varium.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -8832,6 +9318,15 @@
         "wiki/entities/fusobacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/fusobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -9367,6 +9862,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/gerd.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -9543,6 +10047,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/gordonibacter-urolithinfaciens.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -9629,6 +10142,15 @@
         "wiki/entities/graves-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/graves-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -9797,6 +10319,15 @@
         "wiki/entities/hashimotos-thyroiditis.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/hashimotos-thyroiditis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -10218,6 +10749,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/holdemanella.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -10355,6 +10895,15 @@
         "wiki/entities/hypertension.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/hypertension.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -10744,6 +11293,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/intestinimonas.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -10865,6 +11423,15 @@
         "wiki/entities/iron.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/iron.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -11171,6 +11738,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/lachnoclostridium.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -11230,6 +11806,15 @@
         "wiki/entities/lachnospira.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/lachnospira.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -11319,6 +11904,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/lachnospiraceae-family.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -11370,6 +11964,15 @@
         "wiki/entities/lachnospiraceae.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/lachnospiraceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -11849,6 +12452,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/lead.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -12103,6 +12715,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/long-covid.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -12305,6 +12926,15 @@
         "wiki/entities/major-depressive-disorder.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/major-depressive-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -12541,6 +13171,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/megamonas.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -12574,6 +13213,15 @@
         "wiki/entities/megasphaera.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/megasphaera.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -12715,6 +13363,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/metformin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -12748,6 +13405,15 @@
         "wiki/entities/methanobrevibacter-smithii.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/methanobrevibacter-smithii.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -12845,6 +13511,15 @@
         "wiki/entities/methanobrevibacter.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/methanobrevibacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -12949,6 +13624,15 @@
         "wiki/entities/migraine.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/migraine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -13175,6 +13859,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/multiple-sclerosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -13307,15 +14000,6 @@
           "subject": "WikiBiome update — 2026-04-11 22:49",
           "path": "wiki/entities/multiple-sclerosis.md",
           "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/multiple-sclerosis.md",
-          "additions": 2,
           "deletions": 0
         }
       ]
@@ -13455,6 +14139,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/nakaseomyces-glabratus.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -13498,6 +14191,15 @@
         "wiki/entities/necrotizing-enterocolitis.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/necrotizing-enterocolitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -13631,15 +14333,6 @@
           "subject": "Health check fixes: 40 intervention pages + 14 entity Connections sections",
           "path": "wiki/entities/necrotizing-enterocolitis.md",
           "additions": 3,
-          "deletions": 0
-        },
-        {
-          "hash": "93bbcada03d238a28f8b3344a77e68ed2178d6d9",
-          "date": "2026-04-15T10:51:44+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Final 5 condition signatures + chelation library (Primitive 4/8)",
-          "path": "wiki/entities/necrotizing-enterocolitis.md",
-          "additions": 121,
           "deletions": 0
         }
       ]
@@ -13915,6 +14608,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/obesity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -14048,15 +14750,6 @@
           "path": "cureva/signatures/obesity.md",
           "additions": 35,
           "deletions": 1
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "cureva/signatures/obesity.md",
-          "additions": 14,
-          "deletions": 0
         }
       ]
     },
@@ -14065,6 +14758,15 @@
         "wiki/entities/odoribacter.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/odoribacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -14197,6 +14899,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/oscillibacter.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -14239,6 +14950,15 @@
         "wiki/entities/oscillospiraceae.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/oscillospiraceae.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -14354,6 +15074,15 @@
         "wiki/entities/oscillospirales.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/oscillospirales.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -14822,6 +15551,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/parabacteroides.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -14926,6 +15664,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/parasutterella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -15005,6 +15752,15 @@
         "wiki/entities/parkinsons-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -15139,15 +15895,6 @@
           "path": "wiki/entities/parkinsons-disease.md",
           "additions": 5,
           "deletions": 0
-        },
-        {
-          "hash": "2f95f2f0a2a18d69cb543c687269b06ca03ab2d4",
-          "date": "2026-04-11T22:49:04+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-11 22:49",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "additions": 6,
-          "deletions": 0
         }
       ]
     },
@@ -15156,6 +15903,15 @@
         "wiki/entities/parvimonas-micra.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/parvimonas-micra.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -15596,6 +16352,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/peptostreptococcus-stomatis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -15797,6 +16562,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/phascolarctobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -15953,6 +16727,15 @@
         "wiki/entities/pmdd.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/pmdd.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -16429,6 +17212,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/premature-ovarian-insufficiency.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -16480,6 +17272,15 @@
         "wiki/entities/prevotella-copri.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/prevotella-copri.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -16795,6 +17596,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/proteobacteria.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -17045,6 +17855,15 @@
         "wiki/entities/psoriasis.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/psoriasis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -17333,6 +18152,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/roseburia-intestinalis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -17366,6 +18194,15 @@
         "wiki/entities/roseburia.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/roseburia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -17508,6 +18345,24 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/ruminococcaceae.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/ruminococcaceae.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "bea385a8caf525b177dc1a14e1ce73fbcdc8d9a1",
           "date": "2026-09-07T11:52:01+03:00",
           "author": "Karen Pendergrass",
@@ -17604,6 +18459,15 @@
         "wiki/entities/ruminococcus-albus.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/ruminococcus-albus.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -17702,6 +18566,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/ruminococcus-bromii.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -17744,6 +18617,15 @@
         "wiki/entities/ruminococcus-gnavus.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/ruminococcus-gnavus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -17842,6 +18724,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/ruminococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -17931,6 +18822,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/saccharomyces-boulardii.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -18009,6 +18909,15 @@
         "wiki/entities/saccharomyces-cerevisiae.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/saccharomyces-cerevisiae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -18308,6 +19217,15 @@
         "wiki/entities/schizophrenia.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/schizophrenia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -19372,6 +20290,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/streptococcus-thermophilus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -20036,6 +20963,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/type-1-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -20151,6 +21087,15 @@
         "wiki/entities/type-2-diabetes.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/type-2-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -20285,6 +21230,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/tyzzerella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20309,6 +21263,15 @@
         "wiki/entities/ulcerative-colitis.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/ulcerative-colitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -20533,6 +21496,15 @@
         "wiki/entities/veillonella.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/entities/veillonella.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -20866,6 +21838,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/acetate.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -20890,6 +21871,15 @@
         "wiki/concepts/acidic-microenvironment.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/acidic-microenvironment.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -21248,6 +22238,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/amyloid-beta-aggregation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -21299,6 +22298,15 @@
         "wiki/concepts/amyloid-beta.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/amyloid-beta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -21646,6 +22654,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/atherosclerosis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -21706,6 +22723,15 @@
         "wiki/concepts/autoimmunity.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/autoimmunity.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -21776,6 +22802,15 @@
         "wiki/concepts/autophagy.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/autophagy.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -21982,6 +23017,15 @@
         "wiki/concepts/bdnf.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/bdnf.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -22313,6 +23357,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/biomarkers.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -22373,6 +23426,15 @@
         "wiki/concepts/blood-brain-barrier.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/blood-brain-barrier.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -22443,6 +23505,24 @@
         "wiki/concepts/butyrate.md"
       ],
       "revisions": [
+        {
+          "hash": "1f7357e6c3d4b3fca709237bd75ca0286a68e574",
+          "date": "2026-09-07T12:54:10+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Preserve Butyrate inflammation link",
+          "path": "wiki/concepts/butyrate.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/butyrate.md",
+          "additions": 61,
+          "deletions": 46
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -22900,6 +23980,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/colonization-resistance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -23184,6 +24273,15 @@
         "wiki/concepts/cross-feeding.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/cross-feeding.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -23590,6 +24688,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/dietary-iron-gut-ecology.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -23711,6 +24818,15 @@
         "wiki/concepts/dietary-metal-microbiome-interactions.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/dietary-metal-microbiome-interactions.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -23929,6 +25045,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -24052,6 +25177,15 @@
         "wiki/concepts/dyshomeostasis.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/dyshomeostasis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -24183,6 +25317,15 @@
         "wiki/concepts/edta.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/edta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -24362,6 +25505,15 @@
         "wiki/concepts/endotoxemia.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/endotoxemia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -24582,6 +25734,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/epigenetic-modifications.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -24670,6 +25831,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/epigenetics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -24713,6 +25883,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/epithelial-mesenchymal-transition.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -24755,6 +25934,15 @@
         "wiki/concepts/essential-oils.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/essential-oils.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -25027,6 +26215,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/fecal-microbiota-transplant.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -25130,6 +26327,15 @@
         "wiki/concepts/fermentative-metabolism.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/fermentative-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -25766,6 +26972,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/gut-barrier-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -25817,6 +27032,15 @@
         "wiki/concepts/gut-brain-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -25906,6 +27130,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/gut-gonadal-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -25948,6 +27181,15 @@
         "wiki/concepts/gut-kidney-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/gut-kidney-axis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -26036,6 +27278,15 @@
         "wiki/concepts/gut-metal-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -26276,6 +27527,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/gut-penis-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -26405,6 +27665,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/gut-thyroid-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -26508,6 +27777,15 @@
         "wiki/concepts/heavy-metal-neurotoxicity.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/heavy-metal-neurotoxicity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -26877,6 +28155,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/hmos.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -27005,6 +28292,15 @@
         "wiki/concepts/hydrogen-sulfide.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/hydrogen-sulfide.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -27143,6 +28439,15 @@
         "wiki/concepts/hyperandrogenism.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/hyperandrogenism.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -27422,6 +28727,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/il-10.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -27540,6 +28854,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/immune-balance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -27645,6 +28968,15 @@
         "wiki/concepts/immunotherapy.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/immunotherapy.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -27793,6 +29125,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/indoxyl-sulfate.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -27923,6 +29264,15 @@
         "wiki/concepts/inflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -28247,6 +29597,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/interleukin-6.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -28298,6 +29657,15 @@
         "wiki/concepts/intestinal-permeability.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/intestinal-permeability.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -28368,6 +29736,15 @@
         "wiki/concepts/iron-sulfur-clusters.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/iron-sulfur-clusters.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -28488,6 +29865,15 @@
         "wiki/concepts/ketone-bodies.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/ketone-bodies.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -28713,6 +30099,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/lipid-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -28737,6 +30132,15 @@
         "wiki/concepts/lipid-peroxidation.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/lipid-peroxidation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -28850,6 +30254,15 @@
         "wiki/concepts/lipopolysaccharide.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/lipopolysaccharide.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -30050,6 +31463,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/microbial-biomarkers.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -30120,6 +31542,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/microbial-metallomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -30180,6 +31611,15 @@
         "wiki/concepts/microbiome-derived-metabolites.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/microbiome-derived-metabolites.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -30284,6 +31724,15 @@
         "wiki/concepts/microglia.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/microglia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -30469,6 +31918,15 @@
         "wiki/concepts/mitochondrial-dysfunction.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/mitochondrial-dysfunction.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -30727,6 +32185,15 @@
         "wiki/concepts/neuroinflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -31489,6 +32956,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/nrf2.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -31889,6 +33365,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/oxygen-state.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -31941,6 +33426,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/p-cresol.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -31978,6 +33472,15 @@
         "wiki/concepts/parenteral-nutrition.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/parenteral-nutrition.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -32168,6 +33671,15 @@
         "wiki/concepts/pharmacomicrobiomics.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/pharmacomicrobiomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -32488,6 +34000,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/postbiotic.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -32503,6 +34024,15 @@
         "wiki/concepts/prebiotics.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/prebiotics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -32564,6 +34094,15 @@
         "wiki/concepts/premenstrual-syndrome.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/premenstrual-syndrome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -32791,6 +34330,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/propionic-acid.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -32947,6 +34495,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/saccharolytic-fermentation.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -33033,6 +34590,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/serotonin-estrogen-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -33075,6 +34641,15 @@
         "wiki/concepts/short-chain-fatty-acids.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/short-chain-fatty-acids.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -33544,6 +35119,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/synbiotics.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -33577,6 +35161,15 @@
         "wiki/concepts/systemic-inflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/systemic-inflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -33705,6 +35298,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/tgf-beta.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -33738,6 +35340,15 @@
         "wiki/concepts/th17-treg-balance.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/th17-treg-balance.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -33834,6 +35445,15 @@
       ],
       "revisions": [
         {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/tight-junctions.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -33858,6 +35478,15 @@
         "wiki/concepts/tlr4.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/tlr4.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -33998,6 +35627,15 @@
         "wiki/concepts/tnf-alpha.md"
       ],
       "revisions": [
+        {
+          "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
+          "date": "2026-09-07T12:47:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill butyrate concept links",
+          "path": "wiki/concepts/tnf-alpha.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
