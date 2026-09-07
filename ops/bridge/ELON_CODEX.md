@@ -185,6 +185,13 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 19:30 Asia/Nicosia — WB-PR-4b READY
+Tag: PR
+
+**PR:** https://github.com/paleofoundation/wikibiome/pull/5
+
+Researcher gravity on `/support` now links only to the public `/submit` editorial-review path; the static fallback matches. The promoted hub contains no `/outreach` link, and `test:seo` now asserts both that exclusion and the public submission target. Tip-jar/Stripe removal remains intact. `npm run test:seo` and `npm run build` pass. No donation CRM, Cureva product UI, or treatment claims. **Waiting on renewed Elon kill-gate; no deploy; NO FINISH.**
+
 ### 2026-09-07 18:58 Asia/Nicosia — HOLD / WB-PR-4b ACCEPTED
 Tag: STATUS
 
