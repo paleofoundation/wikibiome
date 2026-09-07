@@ -65,7 +65,6 @@ A gut-thyroid-axis review describes nucleotide-sequence similarity between CagA-
 - [[gastric-adenocarcinoma]]
 - [[gastric-ulcer]]
 - [[virulence-factors]]
-- Hydrogenase
 - [[nickel]]
 - [[nickel-transporters]]
 - [[metal-dependent-virulence]]

@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "2938aa41ec17ae60504d533fe98105cd485de689ece3a61d36d23de4a0b914c6",
+    "corpusSha256": "94b27ffc2d648b85e69622a98cbb5a3a49027b980cf98ff95866558f47eaceab",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
     "decisionsSha256": "4f1aea11dc4f104b98c6168fa2b564d074bd2729acdff4ed048e83765e546332",
     "publicArticles": 592,
@@ -26710,7 +26710,7 @@
       },
       "metrics": {
         "distinctArticles": 52,
-        "totalPlainMentions": 141,
+        "totalPlainMentions": 133,
         "linkedArticles": 51,
         "unlinkedArticles": 1,
         "linkCoveragePercent": 98,
@@ -41066,7 +41066,7 @@
       },
       "metrics": {
         "distinctArticles": 14,
-        "totalPlainMentions": 58,
+        "totalPlainMentions": 56,
         "linkedArticles": 0,
         "unlinkedArticles": 14,
         "linkCoveragePercent": 0,
@@ -41131,7 +41131,7 @@
           "title": "Urease",
           "path": "wiki/concepts/urease.md",
           "category": "concept",
-          "plainMentions": 10,
+          "plainMentions": 8,
           "linked": false,
           "leadMention": false,
           "headingMention": false,

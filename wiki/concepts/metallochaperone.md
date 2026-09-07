@@ -89,5 +89,4 @@ Metallochaperones are the cell's defense against [[mis-metallation]]. When chape
 - [[nutritional-immunity]] -- metal restriction increases dependence on chaperone efficiency
 - [[metal-homeostasis]] -- chaperones are a core component of metallostasis
 - [[urease]] -- requires UreE chaperone for nickel loading
-- Hydrogenase -- requires HypA/HypB for nickel insertion
 - [[copper]] -- most chaperone-dependent metal in biology

@@ -204,7 +204,6 @@ Nickel in urea fertilizers (peaking at 3.5-4.2 mg/kg during the 1990s-2000s) ent
 - [[candida-albicans]] -- page covers *Cryptococcus neoformans* Ni-urease for brain invasion
 - [[salmonella-typhimurium]] -- does not use urease but shares nickel maturation machinery (HypA/HypB) with hydrogenase
 - [[pseudomonas-aeruginosa]] -- does not use urease but has Ni-dependent [[glyoxalase]]
-- Hydrogenase -- shares nickel maturation pathway (HypA/HypB) with urease in H. pylori
 - [[glyoxalase]] -- the third Ni-dependent enzyme class in pathogens
 - [[metal-dependent-virulence]] -- urease as the most widespread Ni-virulence factor
 - [[nutritional-immunity]] -- calprotectin/lactoferrin/NRAMP1 restrict nickel from urease

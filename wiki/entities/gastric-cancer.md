@@ -98,7 +98,6 @@ H. pylori dominates the gastric microbiome in infected individuals but is not al
 
 - [[helicobacter-pylori]] -- the causative organism; nickel-dependent urease and hydrogenase power colonization and CagA delivery
 - [[nickel]] -- essential cofactor for H. pylori urease and [Ni-Fe] hydrogenase; dietary nickel fuels virulence
-- Hydrogenase -- nickel-dependent energy enzyme enabling full colonization density
 - [[cadmium]] -- IARC Group 1 carcinogen targeting gastric mucosa; synergizes with H. pylori inflammation
 - [[iron]] -- H. pylori sequesters host iron; iron deficiency from chronic gastritis paradoxically promotes proliferation
 - [[lead]] -- associated with gastric cancer risk in occupational cohorts; inhibits DNA repair
