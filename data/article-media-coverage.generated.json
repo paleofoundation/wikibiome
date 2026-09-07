@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "d2508890e9405faa0aa14ea543a07060818dcd75587984ca586f9302e4ff48f4",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "e525a8877e6faa1f59c697ab1617ef7eeb24352330bf91624e5d5ecbe430cb06",
+    "registrySha256": "70f33c1c8e6dde0e40ec7f50e15f752ed56289ee4c735901a348624569db3237",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "83271cfe58137032cb7effebe090e83b945bfbf5c03fbd59bd81fa795d0298be",
+    "reviewLogSha256": "4326078c8421b1dad6e179b85cb1fc04fec008cdc942437c2f09ac84eb50fe21",
     "batchManifests": [
       {
         "file": "data/article-media-batches/clinical-cautions-114.json",
@@ -483,8 +483,8 @@
       {
         "file": "data/article-media-batches/mechanisms-127.json",
         "batchId": "mechanisms-127",
-        "status": "approved-awaiting-promotion",
-        "sha256": "494bad9b14a13b4d2837e43ca31b5c2bd115f027e8033dd731f0817adbc19937"
+        "status": "reviewed",
+        "sha256": "ee855d3f30f3580b68ac4d7616a9d61384ae5f98e299fdc63316a4a2af89e794"
       },
       {
         "file": "data/article-media-batches/mechanisms-revisions-124.json",
@@ -794,12 +794,12 @@
   },
   "current": {
     "total": 715,
-    "completed": 379,
-    "remaining": 336,
+    "completed": 385,
+    "remaining": 330,
     "rejected": 366,
     "revised": 18,
     "scientificHolds": 288,
-    "inReview": 6
+    "inReview": 0
   },
   "categories": [
     {
@@ -827,8 +827,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 238,
-      "completed": 64,
-      "remaining": 174
+      "completed": 70,
+      "remaining": 168
     },
     {
       "id": "host-defenses",
@@ -14435,12 +14435,14 @@
       "route": "/article/ammonia",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-127",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-127/ammonia-draft-v1.png",
-        "sha256": "135bea1987433d10f4788fcd0b01e7e9c1e5f6f7cd5d19fb30b9186bc0a3379e"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "ammonia-mechanism-v1-master.png",
+        "publishedFile": "ammonia-mechanism-v1.webp",
+        "socialFile": "ammonia-mechanism-v1-social.webp"
       }
     },
     {
@@ -14917,12 +14919,14 @@
       "route": "/article/caga",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-127",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-127/caga-draft-v1.png",
-        "sha256": "8b06508ddab54c474c3bc99709094497f1b9a891ea5ea7921d1f33f1b451f565"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "caga-mechanism-v1-master.png",
+        "publishedFile": "caga-mechanism-v1.webp",
+        "socialFile": "caga-mechanism-v1-social.webp"
       }
     },
     {
@@ -14957,12 +14961,14 @@
       "route": "/article/catalase",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-127",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-127/catalase-draft-v1.png",
-        "sha256": "6dd50708a07c8c476159575c50b6247cce43b828a78e73ec73e36c9a371a828d"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "catalase-mechanism-v1-master.png",
+        "publishedFile": "catalase-mechanism-v1.webp",
+        "socialFile": "catalase-mechanism-v1-social.webp"
       }
     },
     {
@@ -16705,12 +16711,14 @@
       "route": "/article/interleukin-22",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-127",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-127/interleukin-22-draft-v1.png",
-        "sha256": "c3b0e62e8851c08cb28c5f08e33aa77e3dbe2675df8fc9d62639852d4caa6879"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "interleukin-22-mechanism-v1-master.png",
+        "publishedFile": "interleukin-22-mechanism-v1.webp",
+        "socialFile": "interleukin-22-mechanism-v1-social.webp"
       }
     },
     {
@@ -17675,12 +17683,14 @@
       "route": "/article/nlrp3-inflammasome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-127",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-127/nlrp3-inflammasome-draft-v1.png",
-        "sha256": "98fad1673fe395819226987aa8ca593395dc5c4999492486a99a7a7abf442785"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "nlrp3-inflammasome-mechanism-v1-master.png",
+        "publishedFile": "nlrp3-inflammasome-mechanism-v1.webp",
+        "socialFile": "nlrp3-inflammasome-mechanism-v1-social.webp"
       }
     },
     {
@@ -18749,12 +18759,14 @@
       "route": "/article/urea",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-127",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-batch-127/urea-draft-v1.png",
-        "sha256": "62ac2298ee59294a05df4bfe2dfa11a8218705b75fd862efb2c02876b45e579f"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "urea-mechanism-v1-master.png",
+        "publishedFile": "urea-mechanism-v1.webp",
+        "socialFile": "urea-mechanism-v1-social.webp"
       }
     },
     {

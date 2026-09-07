@@ -13134,6 +13134,235 @@
         "articleSha256": "1bc50c7f5e34ec028e3fdcaeb88bb1456c84b135de693fc007b8302f79c24f1c",
         "socialSha256": "21a9f843b1fd97ba662fcd21cce31cce2a76dfe714767814119c96317aca4f9e"
       }
+    },
+    "ammonia|ammonia-mechanism-v1.webp": {
+      "pageId": "ammonia",
+      "publishedFile": "ammonia-mechanism-v1.webp",
+      "masterSource": "ammonia-mechanism-v1-master.png",
+      "socialFile": "ammonia-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ebi.ac.uk/chebi/CHEBI:16134",
+          "https://pubchem.ncbi.nlm.nih.gov/compound/222",
+          "https://www.wikibiome.com/article/ammonia"
+        ],
+        "notes": "Current ChEBI and PubChem records control neutral ammonia identity, formula, and one-nitrogen/three-hydrogen connectivity; WikiBiome supplies canonical route scope. No ammonium, measured geometry, concentration, reaction, exposure, diagnosis, or treatment is claimed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one complete trigonal-pyramidal teaching model with one larger blue-slate center, three smaller ivory centers, and three bonds. Pixel audit confirmed full opacity and foreground x=626–900, y=412–620 inside the stricter frozen source-safe field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text states the observable one-center/three-center connectivity without relying on color or presenting the reconstruction as measured geometry or a clinical result."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 135bea1987433d10f4788fcd0b01e7e9c1e5f6f7cd5d19fb30b9186bc0a3379e; master 4f2c943b3e9547aabfa24ff189e5646d0700d687477b1ca3162763ce637b912b; article 0220ab619ca07e748a257b246deead086ed2adcf053d89f8e1e1af0a290d174c; centered-contain social 28dbd676ec2ac739554be7440d135f6cea01364d1b76a43d855132ffb7239327.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "ammonia-draft-v1.png",
+        "sourceSha256": "135bea1987433d10f4788fcd0b01e7e9c1e5f6f7cd5d19fb30b9186bc0a3379e",
+        "generationRecord": "exec-81b899b9-8b80-44da-ab26-2df254820ba5.png",
+        "masterSha256": "4f2c943b3e9547aabfa24ff189e5646d0700d687477b1ca3162763ce637b912b",
+        "articleSha256": "0220ab619ca07e748a257b246deead086ed2adcf053d89f8e1e1af0a290d174c",
+        "socialSha256": "28dbd676ec2ac739554be7440d135f6cea01364d1b76a43d855132ffb7239327"
+      }
+    },
+    "caga|caga-mechanism-v1.webp": {
+      "pageId": "caga",
+      "publishedFile": "caga-mechanism-v1.webp",
+      "masterSource": "caga-mechanism-v1-master.png",
+      "socialFile": "caga-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/P55980/entry",
+          "https://www.ncbi.nlm.nih.gov/research/TIGRFAMs/family?acc=NF033422",
+          "https://www.wikibiome.com/article/caga"
+        ],
+        "notes": "Reviewed UniProtKB and NCBIfam control CagA identity and type-IV-secretion association; WikiBiome supplies canonical route scope. No literal protein/apparatus, observed translocation, biopsy, cancer, diagnosis, prognosis, or treatment is claimed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed three complete separated groups: one curved rod with four polar flagella, one finite paired-bilayer interface with one channel, and one complete epithelial cell containing one violet token. Pixel audit confirmed full opacity and foreground x=381–1148, y=354–655 inside the frozen source-safe field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text identifies the three separated teaching contexts and generic effector token without implying observed transfer, disease, patient anatomy, or a measured structure."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 8b06508ddab54c474c3bc99709094497f1b9a891ea5ea7921d1f33f1b451f565; master ba0170bf5c921204ad97d1c56f4595eeac228f542317155b3860dd94851d3d9c; article 1c233eb2a31836292547a43b74addb79911d2674d24169aa097b1e0d8703fb46; centered-contain social c8acb0ee02369fe3ed579c1e6c8895802b09fc75ebd0e0d9e4a40fda6ad344a4.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "caga-draft-v1.png",
+        "sourceSha256": "8b06508ddab54c474c3bc99709094497f1b9a891ea5ea7921d1f33f1b451f565",
+        "generationRecord": "exec-44967a6c-fe5e-46a7-853d-0a5cc50d249c.png",
+        "masterSha256": "ba0170bf5c921204ad97d1c56f4595eeac228f542317155b3860dd94851d3d9c",
+        "articleSha256": "1c233eb2a31836292547a43b74addb79911d2674d24169aa097b1e0d8703fb46",
+        "socialSha256": "c8acb0ee02369fe3ed579c1e6c8895802b09fc75ebd0e0d9e4a40fda6ad344a4"
+      }
+    },
+    "catalase|catalase-mechanism-v1.webp": {
+      "pageId": "catalase",
+      "publishedFile": "catalase-mechanism-v1.webp",
+      "masterSource": "catalase-mechanism-v1-master.png",
+      "socialFile": "catalase-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://enzyme.expasy.org/EC/1.11.1.6",
+          "https://www.rhea-db.org/rhea/20309",
+          "https://www.wikibiome.com/article/catalase"
+        ],
+        "notes": "ExPASy ENZYME and Rhea control catalase EC 1.11.1.6 identity and 2 H2O2 = O2 + 2 H2O reaction stoichiometry; WikiBiome supplies canonical route scope. No species, cofactor, measured structure, observed catalysis, pathway flux, diagnosis, or treatment is claimed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one four-lobed enzyme form, two complete peroxide tokens, and one product group containing one oxygen pair and two separate water-like tokens. Pixel audit confirmed full opacity and foreground x=548–1006, y=325–670 inside the frozen source-safe field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names the observable enzyme and substrate/product teaching groups without relying on color or implying literal molecular identity, measured catalysis, or a clinical result."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 6dd50708a07c8c476159575c50b6247cce43b828a78e73ec73e36c9a371a828d; master 275de9eef0ef6f669be6f76eea4ebc4286109b481307ebcbcbf2e77bf24c9100; article 154182a1bc8f33ed0188d234d3ff3abab2f8eedabce27ed4f3bbc5f3ec13af41; centered-contain social b3147fdd2f793fb14b5e58d18b6a18541c5ceea06a6696f4c27bbfe6b151fb7f.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "catalase-draft-v1.png",
+        "sourceSha256": "6dd50708a07c8c476159575c50b6247cce43b828a78e73ec73e36c9a371a828d",
+        "generationRecord": "exec-b634cdce-1dc3-4fed-a77c-af4f442bf0f0.png",
+        "masterSha256": "275de9eef0ef6f669be6f76eea4ebc4286109b481307ebcbcbf2e77bf24c9100",
+        "articleSha256": "154182a1bc8f33ed0188d234d3ff3abab2f8eedabce27ed4f3bbc5f3ec13af41",
+        "socialSha256": "b3147fdd2f793fb14b5e58d18b6a18541c5ceea06a6696f4c27bbfe6b151fb7f"
+      }
+    },
+    "interleukin-22|interleukin-22-mechanism-v1.webp": {
+      "pageId": "interleukin-22",
+      "publishedFile": "interleukin-22-mechanism-v1.webp",
+      "masterSource": "interleukin-22-mechanism-v1-master.png",
+      "socialFile": "interleukin-22-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ncbi.nlm.nih.gov/gene/50616",
+          "https://www.uniprot.org/uniprotkb/Q9GZX6/entry",
+          "https://www.wikibiome.com/article/interleukin-22"
+        ],
+        "notes": "NCBI Gene and reviewed UniProtKB control human IL-22 identity and cytokine context; WikiBiome supplies canonical route scope. No measured conformation, binding, signaling, expression result, biomarker, diagnosis, prognosis, or treatment is claimed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one paired-lobe surface-style cytokine form, two distinct upright receptor-context forms, and one intact sheet of five joined epithelial cells. Pixel audit confirmed full opacity and foreground x=543–1029, y=300–709 within the frozen source-safe field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text states the observable cytokine, two receptor-context forms, and five-cell sheet without relying on color or presenting surface/ribbon styling as measured protein structure."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 c3b0e62e8851c08cb28c5f08e33aa77e3dbe2675df8fc9d62639852d4caa6879; master d7cffbc2e3466913159721b30a873e2fb10871f4f7de16ef25247c40417aa6d2; article 5c4c8df8d8ece5fba4b9aa9753f75004c26ee8e1764baf1baa5b1a3b2200c78a; centered-contain social b1b9f663303ed4a002aef1247ff6d978c4a19c729746b31c24f9d2ad5b23ea1b.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "interleukin-22-draft-v1.png",
+        "sourceSha256": "c3b0e62e8851c08cb28c5f08e33aa77e3dbe2675df8fc9d62639852d4caa6879",
+        "generationRecord": "exec-9a706759-58ea-418b-9648-a2f3abbdaf1a.png",
+        "masterSha256": "d7cffbc2e3466913159721b30a873e2fb10871f4f7de16ef25247c40417aa6d2",
+        "articleSha256": "5c4c8df8d8ece5fba4b9aa9753f75004c26ee8e1764baf1baa5b1a3b2200c78a",
+        "socialSha256": "b1b9f663303ed4a002aef1247ff6d978c4a19c729746b31c24f9d2ad5b23ea1b"
+      }
+    },
+    "nlrp3-inflammasome|nlrp3-inflammasome-mechanism-v1.webp": {
+      "pageId": "nlrp3-inflammasome",
+      "publishedFile": "nlrp3-inflammasome-mechanism-v1.webp",
+      "masterSource": "nlrp3-inflammasome-mechanism-v1-master.png",
+      "socialFile": "nlrp3-inflammasome-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.uniprot.org/uniprotkb/Q96P20/entry",
+          "https://www.ncbi.nlm.nih.gov/gene/114548",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D058847",
+          "https://www.wikibiome.com/article/nlrp3-inflammasome"
+        ],
+        "notes": "Reviewed UniProtKB, NCBI Gene, and NLM MeSH control human NLRP3 and the general inflammasome-complex concept; WikiBiome supplies canonical route scope. No measured structure, active assembly, binding, pore, cytokine release, pyroptosis, diagnosis, or treatment is claimed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one joined three-part sensor-context form, one circular eight-subunit complex teaching model, and one generic whole-cell cutaway with an intact unbroken double-layer boundary and no pore. Pixel audit confirmed full opacity and foreground x=561–974, y=353–663 inside the frozen source-safe field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text describes the third group as a generic whole-cell cutaway rather than inferring a visually identifiable immune-cell type; it does not claim active inflammasome assembly or downstream effects."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 98fad1673fe395819226987aa8ca593395dc5c4999492486a99a7a7abf442785; master eb2106e61036ceff94848f8cc2ecfb1939cef3e5522eb9b1a0532233f3495cf6; article f4fe222636a34bec980cb6890d29fa8eca3d4bc3d6b6b2bc43ff4054a34fd8c6; centered-contain social 7acb29533fa07e2f9991207ed10dc4f4489ee18b006d68fb0a4c0d3310cc52c9.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "nlrp3-inflammasome-draft-v1.png",
+        "sourceSha256": "98fad1673fe395819226987aa8ca593395dc5c4999492486a99a7a7abf442785",
+        "generationRecord": "exec-298bc550-40e7-4a4d-b84f-1a699b68c6a9.png",
+        "masterSha256": "eb2106e61036ceff94848f8cc2ecfb1939cef3e5522eb9b1a0532233f3495cf6",
+        "articleSha256": "f4fe222636a34bec980cb6890d29fa8eca3d4bc3d6b6b2bc43ff4054a34fd8c6",
+        "socialSha256": "7acb29533fa07e2f9991207ed10dc4f4489ee18b006d68fb0a4c0d3310cc52c9"
+      }
+    },
+    "urea|urea-mechanism-v1.webp": {
+      "pageId": "urea",
+      "publishedFile": "urea-mechanism-v1.webp",
+      "masterSource": "urea-mechanism-v1-master.png",
+      "socialFile": "urea-mechanism-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://www.ebi.ac.uk/chebi/CHEBI:16199",
+          "https://pubchem.ncbi.nlm.nih.gov/compound/1176",
+          "https://www.wikibiome.com/article/urea"
+        ],
+        "notes": "Current ChEBI and PubChem records control urea identity, formula, and one-carbon/one-oxygen/two-nitrogen heavy-atom connectivity; WikiBiome supplies canonical route scope. No measured geometry, urea cycle, urease reaction, renal function, diagnosis, or treatment is claimed."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native review confirmed one complete heavy-atom model with one central carbon-like center, one oxygen-like center joined by two bonds, two nitrogen-like centers joined by one bond each, and no hydrogen centers. Pixel audit confirmed full opacity and foreground x=648–886, y=388–597 inside the stricter frozen source-safe field."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text states the observable four-center heavy-atom connectivity and explicitly notes omitted hydrogens without relying on color or presenting the reconstruction as a measured conformation."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 62ac2298ee59294a05df4bfe2dfa11a8218705b75fd862efb2c02876b45e579f; master 06532861784c073b4df6108b51cbdd499be8349b59b6212e3c03f0115b37e690; article 70e1acd73e28934e71492db58303585246ba3b1bc94c18bff56bda53425a5b97; centered-contain social bbbfc9489ff8e845e11f73abd1f23d42626d48d2eb6da05871dc290cd4d02ee5.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "urea-draft-v1.png",
+        "sourceSha256": "62ac2298ee59294a05df4bfe2dfa11a8218705b75fd862efb2c02876b45e579f",
+        "generationRecord": "exec-5d35bb30-9796-417e-9b1f-3cea413fa9f2.png",
+        "masterSha256": "06532861784c073b4df6108b51cbdd499be8349b59b6212e3c03f0115b37e690",
+        "articleSha256": "70e1acd73e28934e71492db58303585246ba3b1bc94c18bff56bda53425a5b97",
+        "socialSha256": "bbbfc9489ff8e845e11f73abd1f23d42626d48d2eb6da05871dc290cd4d02ee5"
+      }
     }
   },
   "rejectedAssets": [
