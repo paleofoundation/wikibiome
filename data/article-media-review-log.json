@@ -17154,6 +17154,81 @@
       ],
       "requiredResolution": "Choose one preparation, screening and manufacturing state, delivery protocol, indication and population, comparator, specimen, assay, time point, endpoint, and direct source set.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "ferrichrome-probiotics",
+      "controlledIdentifier": "MeSH:D005291;probiotic-intervention-not-ferrichrome-identity;zero-resolvable-sources",
+      "batchId": "interventions-105",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Ferrichrome identity does not define a probiotic intervention, and the route has no sources, strain, product, manufacturing state, viable count, formulation, dose, delivery, population, assay, or endpoint.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68005291",
+        "local:data/content.generated.json#/pages/ferrichrome-probiotics"
+      ],
+      "requiredResolution": "Choose an exact ferrichrome-producing strain, culture collection, manufacturing and viability state, product and formulation, dose and schedule, delivery, population, comparator, specimen, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed probiotic intervention and measured state pass a new audit."
+    },
+    {
+      "pageId": "glutathione-supplementation",
+      "controlledIdentifier": "MeSH:D005978;supplement-intervention-not-chemical-identity;below-source-threshold",
+      "batchId": "interventions-105",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Two sources remain below threshold and do not fix reduced or oxidized state, salt or protonation state, formulation, route, product, purity, dose, population, comparator, assay, or endpoint.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68005978",
+        "local:data/content.generated.json#/pages/glutathione-supplementation"
+      ],
+      "requiredResolution": "Choose exact chemical and redox state, formulation and excipients, product or manufacturing specification, route, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and sufficient direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed supplement formulation and protocol pass a new audit."
+    },
+    {
+      "pageId": "gluten-free-diet",
+      "controlledIdentifier": "MeSH:D055050;broad-diet-category;unpopulated-local-evidence-structure",
+      "batchId": "interventions-105",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The page remains an unpopulated evidence placeholder and does not define one menu, ingredient standard, cross-contact control, duration, population, comparator, adherence measure, specimen, assay, time point, or endpoint.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68055050",
+        "local:data/content.generated.json#/pages/gluten-free-diet"
+      ],
+      "requiredResolution": "Choose an operational gluten-free dietary protocol, ingredient and cross-contact standard, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, and direct route-linked evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed dietary protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "high-fiber-diet",
+      "controlledIdentifier": "MeSH:D004043;heterogeneous-whole-diet-and-fiber-class;below-source-threshold",
+      "batchId": "interventions-105",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "One source and a broad whole-diet pattern combine many foods, fiber chemistries, doses, microbial states, metabolites, diseases, and outcomes rather than one controlled intervention.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68004043",
+        "local:data/content.generated.json#/pages/high-fiber-diet"
+      ],
+      "requiredResolution": "Choose diet composition, exact fiber sources and chemistry, preparation and processing, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and sufficient direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed whole-diet protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "high-fiber-prebiotics",
+      "controlledIdentifier": "MeSH:D056692;multi-material-prebiotic-regimen;zero-resolvable-sources",
+      "batchId": "interventions-105",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route has no sources and combines inulin, fructooligosaccharides, resistant starch, differing products and doses, Crohn's disease states, taxa, metabolites, immune effects, and cautions without one protocol.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68056692",
+        "local:data/content.generated.json#/pages/high-fiber-prebiotics"
+      ],
+      "requiredResolution": "Choose exact prebiotic material and source, composition, formulation, dose and schedule, Crohn's disease state and population, comparator, specimen, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed prebiotic protocol and measured state pass a new audit."
     }
   ],
   "revisedAssets": [
