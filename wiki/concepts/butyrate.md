@@ -37,7 +37,7 @@ Reviews of metabolic and cardiovascular evidence emphasize that the site and rat
 
 ### Histone-Deacetylase Inhibition
 
-Butyrate can inhibit histone deacetylases, changing chromatin accessibility and transcription. Reported downstream effects include support for regulatory T-cell programs and suppression of some inflammatory pathways. These effects are cell- and dose-dependent; “HDAC inhibition” is a mechanism, not by itself evidence that a butyrate intervention improves a clinical outcome [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].
+Butyrate can inhibit histone deacetylases, changing chromatin accessibility and transcription. Reported downstream effects include support for regulatory T-cell programs and suppression of some [[inflammation|inflammatory]] pathways. These effects are cell- and dose-dependent; “HDAC inhibition” is a mechanism, not by itself evidence that a butyrate intervention improves a clinical outcome [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].
 
 ### Receptor-Mediated Effects
 

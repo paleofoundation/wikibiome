@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "5792717f4946e70c8afb6f98347b59e1d2450533571e1ab96f6fcfbc3743c622",
+    "corpusSha256": "6c7e5228125c6d7c170c21d9b13dc2e3c160556c983d4404cdc2c6c0d77a4f51",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
     "decisionsSha256": "431dc3f5dac205df510c8bde90c31386674298cbcef45afebe64125ec088848f",
     "publicArticles": 592,
@@ -1574,7 +1574,7 @@
         ],
         "candidateEvidenceSources": 373,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 499.148
+        "weightedGraphGain": 499.153
       },
       "affectedPages": [
         {
@@ -1630,7 +1630,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "lead",
@@ -2022,7 +2022,7 @@
         ],
         "candidateEvidenceSources": 235,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 466.453
+        "weightedGraphGain": 466.458
       },
       "affectedPages": [
         {
@@ -2056,7 +2056,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-brain-axis",
@@ -2917,7 +2917,7 @@
         ],
         "candidateEvidenceSources": 196,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 335.923
+        "weightedGraphGain": 335.928
       },
       "affectedPages": [
         {
@@ -2962,7 +2962,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-microbiome",
@@ -3365,7 +3365,7 @@
         ],
         "candidateEvidenceSources": 80,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 333.211
+        "weightedGraphGain": 333.216
       },
       "affectedPages": [
         {
@@ -3410,7 +3410,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "bifidobacterium",
@@ -3812,7 +3812,7 @@
         ],
         "candidateEvidenceSources": 87,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 312.127
+        "weightedGraphGain": 312.132
       },
       "affectedPages": [
         {
@@ -3879,7 +3879,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-microbiome",
@@ -5601,7 +5601,7 @@
         ],
         "candidateEvidenceSources": 84,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 242.193
+        "weightedGraphGain": 242.198
       },
       "affectedPages": [
         {
@@ -5668,7 +5668,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",
@@ -6047,7 +6047,7 @@
         ],
         "candidateEvidenceSources": 278,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 235.058
+        "weightedGraphGain": 235.063
       },
       "affectedPages": [
         {
@@ -6059,7 +6059,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "microbial-biomarkers",
@@ -6942,7 +6942,7 @@
         ],
         "candidateEvidenceSources": 60,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 218.096
+        "weightedGraphGain": 218.101
       },
       "affectedPages": [
         {
@@ -7053,7 +7053,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "nickel",
@@ -17049,7 +17049,7 @@
         ],
         "candidateEvidenceSources": 57,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 132.709
+        "weightedGraphGain": 132.714
       },
       "affectedPages": [
         {
@@ -17094,7 +17094,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "short-chain-fatty-acids",
@@ -17496,7 +17496,7 @@
         ],
         "candidateEvidenceSources": 72,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 140.376
+        "weightedGraphGain": 140.382
       },
       "affectedPages": [
         {
@@ -17585,7 +17585,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "short-chain-fatty-acids",
@@ -19128,7 +19128,7 @@
         ],
         "candidateEvidenceSources": 133,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 189.603
+        "weightedGraphGain": 189.608
       },
       "affectedPages": [
         {
@@ -19151,7 +19151,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "copper",
@@ -23595,7 +23595,7 @@
         ],
         "candidateEvidenceSources": 34,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 42.119
+        "weightedGraphGain": 42.124
       },
       "affectedPages": [
         {
@@ -23640,7 +23640,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "cadmium",
@@ -27461,7 +27461,7 @@
         ],
         "candidateEvidenceSources": 74,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 103.592
+        "weightedGraphGain": 103.598
       },
       "affectedPages": [
         {
@@ -27528,7 +27528,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-microbiome",
@@ -32710,7 +32710,7 @@
         ],
         "candidateEvidenceSources": 26,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 74.727
+        "weightedGraphGain": 74.733
       },
       "affectedPages": [
         {
@@ -32777,7 +32777,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "hashimotos-thyroiditis",
@@ -37445,7 +37445,7 @@
         ],
         "candidateEvidenceSources": 69,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 84.9
+        "weightedGraphGain": 84.905
       },
       "affectedPages": [
         {
@@ -37479,7 +37479,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "gut-microbiome",
@@ -38215,7 +38215,7 @@
         ],
         "candidateEvidenceSources": 44,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 72.484
+        "weightedGraphGain": 72.489
       },
       "affectedPages": [
         {
@@ -38249,7 +38249,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "endometriosis",
@@ -45738,7 +45738,7 @@
         ],
         "candidateEvidenceSources": 14,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 67.742
+        "weightedGraphGain": 67.747
       },
       "affectedPages": [
         {
@@ -45750,7 +45750,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",
@@ -48881,7 +48881,7 @@
         ],
         "candidateEvidenceSources": 19,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 27.174
+        "weightedGraphGain": 27.179
       },
       "affectedPages": [
         {
@@ -48893,7 +48893,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "arsenic",
@@ -58802,7 +58802,7 @@
         ],
         "candidateEvidenceSources": 4,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 40.471
+        "weightedGraphGain": 40.476
       },
       "affectedPages": [
         {
@@ -58814,7 +58814,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 279
+          "inboundLinks": 280
         },
         {
           "id": "iron",

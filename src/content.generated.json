@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T09:46:18.183Z",
+  "_generated": "2026-09-07T09:53:52.919Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -75455,7 +75455,7 @@
         {
           "heading": "Histone-Deacetylase Inhibition",
           "level": 3,
-          "body": "Butyrate can inhibit histone deacetylases, changing chromatin accessibility and transcription. Reported downstream effects include support for regulatory T-cell programs and suppression of some inflammatory pathways. These effects are cell- and dose-dependent; “HDAC inhibition” is a mechanism, not by itself evidence that a butyrate intervention improves a clinical outcome [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]]."
+          "body": "Butyrate can inhibit histone deacetylases, changing chromatin accessibility and transcription. Reported downstream effects include support for regulatory T-cell programs and suppression of some [[inflammation|inflammatory]] pathways. These effects are cell- and dose-dependent; “HDAC inhibition” is a mechanism, not by itself evidence that a butyrate intervention improves a clinical outcome [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]]."
         },
         {
           "heading": "Receptor-Mediated Effects",
@@ -75500,6 +75500,7 @@
         "acetate",
         "lipopolysaccharide",
         "spivak-2023-local-systemic-microbiome-derived-metabolites",
+        "inflammation",
         "nf-kappa-b",
         "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
         "pietrucci-2020-butyrogenic-fibers-parkinsons",
@@ -75725,10 +75726,6 @@
       ],
       "related": [
         {
-          "id": "inflammation",
-          "score": 283
-        },
-        {
           "id": "gut-microbiome",
           "score": 236
         },
@@ -75755,6 +75752,10 @@
         {
           "id": "colorectal-cancer",
           "score": 95
+        },
+        {
+          "id": "bifidobacterium",
+          "score": 93
         }
       ]
     },
@@ -78547,6 +78548,10 @@
           "score": 8
         },
         {
+          "id": "inflammation",
+          "score": 6
+        },
+        {
           "id": "obesity",
           "score": 5
         },
@@ -78556,10 +78561,6 @@
         },
         {
           "id": "colonization-resistance",
-          "score": 5
-        },
-        {
-          "id": "gut-microbiome",
           "score": 5
         }
       ]
@@ -92416,6 +92417,10 @@
           "score": 13
         },
         {
+          "id": "inflammation",
+          "score": 11
+        },
+        {
           "id": "copper",
           "score": 10
         },
@@ -92433,10 +92438,6 @@
         },
         {
           "id": "dysbiosis",
-          "score": 9
-        },
-        {
-          "id": "inflammation",
           "score": 9
         }
       ]
@@ -94665,6 +94666,7 @@
         "bile-acid-metabolism",
         "biofilm",
         "biomarkers",
+        "butyrate",
         "caga",
         "calprotectin",
         "ceruloplasmin",
@@ -94790,7 +94792,7 @@
         },
         {
           "id": "faecalibacterium-prausnitzii",
-          "score": 186
+          "score": 188
         },
         {
           "id": "zinc",
@@ -94801,12 +94803,12 @@
           "score": 110
         },
         {
-          "id": "copper",
-          "score": 107
+          "id": "roseburia",
+          "score": 108
         },
         {
-          "id": "roseburia",
-          "score": 106
+          "id": "copper",
+          "score": 107
         },
         {
           "id": "bacteroides-fragilis",
@@ -205243,6 +205245,10 @@
       },
       {
         "source": "butyrate",
+        "target": "inflammation"
+      },
+      {
+        "source": "butyrate",
         "target": "nf-kappa-b"
       },
       {
@@ -210060,10 +210066,6 @@
       {
         "source": "inflammation",
         "target": "glutathione"
-      },
-      {
-        "source": "inflammation",
-        "target": "butyrate"
       },
       {
         "source": "inflammation",

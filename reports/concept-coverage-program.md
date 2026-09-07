@@ -1,6 +1,6 @@
 # WikiBiome concept coverage program
 
-Generated deterministically from corpus `5792717f4946`, catalog `b3d82c6dacee`, and decisions `431dc3f5dac2`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
+Generated deterministically from corpus `6c7e5228125c`, catalog `b3d82c6dacee`, and decisions `431dc3f5dac2`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
 
 ## Summary
 
@@ -57,7 +57,7 @@ _No explicitly accepted work is awaiting promotion._
 
 | Score | Job | Term | State | Reader demand | Graph gain | Candidate sources |
 |---:|---|---|---|---:|---:|---:|
-| 92.50 | `backfill_links:oxidative-stress` | Oxidative Stress | queued | 124 unlinked / 184 mentioning | 499.1 | 373 |
+| 92.50 | `backfill_links:oxidative-stress` | Oxidative Stress | queued | 124 unlinked / 184 mentioning | 499.2 | 373 |
 | 92.50 | `backfill_links:heavy-metals` | Heavy Metals | queued | 107 unlinked / 110 mentioning | 466.5 | 235 |
 | 92.50 | `backfill_links:metabolites` | Microbial Metabolites | queued | 111 unlinked / 112 mentioning | 439.6 | 364 |
 | 92.50 | `backfill_links:neuroinflammation` | Neuroinflammation | queued | 73 unlinked / 94 mentioning | 335.9 | 196 |
