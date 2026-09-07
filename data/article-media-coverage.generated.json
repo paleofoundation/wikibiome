@@ -91,6 +91,12 @@
         "sha256": "7e68450dd21a402c0fa48e5abc66051aa39ebd71bf7234958e1c2a21403a3894"
       },
       {
+        "file": "data/article-media-batches/host-defenses-098.json",
+        "batchId": "host-defenses-098",
+        "status": "prompt-frozen",
+        "sha256": "4184194f8592936382c76da1f46f29540774c692aa5783456e78ab6128129291"
+      },
+      {
         "file": "data/article-media-batches/mechanisms-057.json",
         "batchId": "mechanisms-057",
         "status": "reviewed",
