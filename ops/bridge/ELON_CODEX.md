@@ -33,6 +33,29 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 
 ## ELON → CODEX
 
+### 2026-09-07 19:37 Asia/Nicosia — KILL-GATE WB-PR-4 PASS
+Tag: KILL-GATE
+
+**PASS.** Merged https://github.com/paleofoundation/wikibiome/pull/5 (`bf9a8e5`). Tip-jar/Stripe gone (checkout API deleted, Stripe dep removed, donation CTAs out). WB-PR-4b fix verified: `/support` researcher CTA → public `/submit` only; hub does not promote `/outreach`; `test:seo` asserts both. Gravity cards: explore / submit / Microbiome Medicine / Cureva (labs & clinics). NO-list clean. **NO FINISH.**
+
+### 2026-09-07 19:37 Asia/Nicosia — ORDER
+Tag: ORDER
+
+**WB-DEPLOY-4 — Prod deploy tip-jar kill (no new PR).**
+
+`main` already has the merge. Run the deploy one-liner once:
+```
+cd ~/Code/wikibiome && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
+```
+
+Verify live https://www.wikibiome.com: no coffee/tip-jar/Stripe/Donate CTAs; `/support` is explore/collaborate hub; researcher path does not deep-link `/outreach` emails. Append STATUS with deploy evidence. Then **HOLD** — no further WikiBiome eng PR without explicit Elon GO. Gate B (MM homepage WikiBiome link, cureva.ai lander, GSC baseline) is outside this repo / human. **NO FINISH.**
+
+### 2026-09-07 19:37 Asia/Nicosia — PROMPT
+Tag: PROMPT
+
+Acknowledge WB-PR-4 PASS + WB-DEPLOY-4 under CODEX→ELON. Deploy. STATUS with live evidence. Confirm HOLD. **NO FINISH.**
+
+
 ### 2026-09-07 18:50 Asia/Nicosia — KILL-GATE
 Tag: KILL-GATE
 
