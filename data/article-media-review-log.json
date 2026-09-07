@@ -13951,6 +13951,122 @@
       "reason": "The heavy-atom counts and open adjacency pass, but the source lacks the required opaque pale field and its sulfur and oxygen endpoints extend beyond the centered 1200 by 630 crop and the stricter 1100 by 530 safety box.",
       "supersededBy": null,
       "outcome": "Revision 1 remains immutable non-public evidence. No retry is authorized by Batch 073; any replacement requires a new frozen revision prompt and separately authorized generation call."
+    },
+    {
+      "pageId": "horizontal-gene-transfer",
+      "controlledIdentifier": "MeSH:D022761;scope-conflict:mobile-genetic-elements",
+      "batchId": "mechanisms-074",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The page conflates horizontal transfer processes with mobile genetic elements and universalizes co-selection, intI1, persistence, diet, and biofilm claims beyond the cited evidence.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D022761",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11253441/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4438328/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC103744/",
+        "https://www.nature.com/articles/s41522-025-00799-3",
+        "local:data/content.generated.json#/pages/horizontal-gene-transfer"
+      ],
+      "requiredResolution": "Separate transfer mechanisms from genetic vehicles; distinguish integron capture from independent mobility; evidence-grade co-selection and environmental claims; source biofilm claims; and bound the diet study before re-audit.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "hmos",
+      "controlledIdentifier": "WikiBiome:hmos;related-MeSH:D009844,D008895,C031420",
+      "batchId": "mechanisms-074",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The heterogeneous HMO family lacks one exact controlled identity and the page contains obsolete formula claims, teleology, absolutes, and unbounded microbiome and NEC causation.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009844",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008895",
+        "https://meshb.nlm.nih.gov/record/ui?name=2%27-Fucosyllactose",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC9304252/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10026937/",
+        "https://doi.org/10.1038/s41564-026-02297-4",
+        "local:data/content.generated.json#/pages/hmos"
+      ],
+      "requiredResolution": "Define family scope; update formula supplementation; separate mechanistic, observational, organoid, and clinical evidence; remove absolutes; and bound structure-, strain-, product-, and population-specific findings.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "hydrogen-sulfide",
+      "controlledIdentifier": "MeSH:D006862;ChEBI:16136;related-ChEBI:29919",
+      "batchId": "mechanisms-074",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The page collapses pH-dependent H2S/HS− speciation, understates microbial production routes, relies on a protocol for disease claims, and overgeneralizes dose, diet, metal, and disease effects.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D006862",
+        "https://www.ebi.ac.uk/chebi/CHEBI%3A14414",
+        "https://pubmed.ncbi.nlm.nih.gov/28766244/",
+        "https://pubmed.ncbi.nlm.nih.gov/30461448/",
+        "https://www.frontiersin.org/journals/microbiology/articles/10.3389/fmicb.2021.705583/full",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6325523/",
+        "local:data/content.generated.json#/pages/hydrogen-sulfide"
+      ],
+      "requiredResolution": "Separate chemical species, total sulfide, and donors; cover major microbial routes; replace mis-scoped citations; and bound all tissue-, dose-, assay-, and model-specific effects.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "hydrogenase",
+      "controlledIdentifier": "WikiBiome:hydrogenase;non-equivalent-MeSH:D006864",
+      "batchId": "mechanisms-074",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A generic family title is used for a pathogen-focused [NiFe] thesis with malformed source keys and unsupported saturation, nickel, virulence, cancer, diet, and therapeutic extrapolations.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D006864",
+        "https://pubmed.ncbi.nlm.nih.gov/11524134/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4817680/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5037454/",
+        "https://doi.org/10.3390/inorganics7070080",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4992972/",
+        "local:data/content.generated.json#/pages/hydrogenase"
+      ],
+      "requiredResolution": "Choose a general family or narrow pathogen scope, normalize source keys, map claims to primary organism/model evidence, and remove unsupported host, dietary, clinical, and treatment causation.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "hyperaccumulator",
+      "controlledIdentifier": "WikiBiome:hyperaccumulator;no-exact-MeSH",
+      "batchId": "mechanisms-074",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The definition is nonstandard and the page misclassifies ordinary food crops as botanical hyperaccumulators while asserting an unsupported food-to-microbiome-to-disease chain.",
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11221517/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4510833/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC6359332/",
+        "https://pubmed.ncbi.nlm.nih.gov/17766822/",
+        "local:data/content.generated.json#/pages/hyperaccumulator"
+      ],
+      "requiredResolution": "Use element-specific ecological criteria, distinguish true hyperaccumulators from crop contaminant accumulation, separate phytoextraction from dietary exposure, and remove the unsupported causal chain.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "hyperandrogenism",
+      "controlledIdentifier": "MeSH:D017588",
+      "batchId": "mechanisms-074",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The page falsely calls aromatase zinc-dependent, stores the trace-element study under an unrelated DOI, and overstates heterogeneous PCOS microbiome associations as central mechanisms and treatment targets.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D017588",
+        "https://www.uniprot.org/uniprotkb/P11511/entry",
+        "https://doi.org/10.3390/metabo15020079",
+        "https://pubmed.ncbi.nlm.nih.gov/37208218/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC10413517/",
+        "local:data/content.generated.json#/pages/hyperandrogenism"
+      ],
+      "requiredResolution": "Remove the false zinc-aromatase mechanism, correct source metadata, rebuild trace-element outcomes, distinguish hyperandrogenism from PCOS, evidence-grade microbiome associations, and remove unsupported treatment claims.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
