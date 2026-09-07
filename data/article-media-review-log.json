@@ -14174,6 +14174,78 @@
       ],
       "requiredResolution": "Define human IL-1beta, precursor and processing routes; distinguish NLRP3 from other pathways; and bound material, form, dose, cell, assay, and disease evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "il-8",
+      "controlledIdentifier": "MeSH:D016209;UniProt:P10145",
+      "batchId": "mechanisms-076",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exact human protein is identifiable, but the page reduces it to one gingipain narrative and lacks a defensible structure or tissue representation boundary.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D016209", "https://www.uniprot.org/uniprotkb/P10145/entry", "local:data/content.generated.json#/pages/il-8"],
+      "requiredResolution": "Rebuild around human CXCL8 identity, receptors, processing, cellular sources, and bounded disease contexts; then select an exact structure or explicitly contextual tissue representation.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "immune-balance",
+      "controlledIdentifier": "WikiBiome:immune-balance;no-exact-controlled-identifier",
+      "batchId": "mechanisms-076",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A non-canonical umbrella term presents heterogeneous, plastic immune states and broad metal, microbiome, disease, and treatment claims as a single binary equilibrium.",
+      "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC3494736/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3905679/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC4681807/", "local:data/content.generated.json#/pages/immune-balance"],
+      "requiredResolution": "Define a narrower measurable construct, separate immune compartments and evidence levels, remove binary causal simplifications, verify exposures, and remove unsourced treatment advice.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "immunotherapy",
+      "controlledIdentifier": "MeSH:D007167;scope-conflict:immune-checkpoint-inhibitors",
+      "batchId": "mechanisms-076",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A broad treatment class is represented almost entirely as cancer checkpoint inhibition while cohort associations, experimental FMT, taxa, metabolites, and supplementation become deterministic clinical rules.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D007167", "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy", "https://pubmed.ncbi.nlm.nih.gov/35228751/", "https://pubmed.ncbi.nlm.nih.gov/42168704/", "https://pubmed.ncbi.nlm.nih.gov/32358520/", "local:data/content.generated.json#/pages/immunotherapy"],
+      "requiredResolution": "Narrow the route or cover the full class; separate association from intervention, human from model evidence, regimen-specific findings, trials, and standard care.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "indole",
+      "controlledIdentifier": "PubChem:CID798;ChEBI:16881",
+      "batchId": "mechanisms-076",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exact parent compound is mixed with a heterogeneous derivative family and context-dependent receptor, concentration, species, disease, and organism claims.",
+      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/798", "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=16881", "https://pubmed.ncbi.nlm.nih.gov/26235394/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3990014/", "https://pubmed.ncbi.nlm.nih.gov/25065623/", "local:data/content.generated.json#/pages/indole"],
+      "requiredResolution": "Separate parent from derivatives; specify structures, concentrations, receptors, species, cells, and models; and resolve duplication with the indoles route.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "indoles",
+      "controlledIdentifier": "MeSH:D007211;ChEBI:24828",
+      "batchId": "mechanisms-076",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A broad chemical class is redefined as an exclusively microbial pathway and compounds with distinct structures, producers, host transformations, receptors, and effects are collapsed into one protective axis.",
+      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/mesh/68007211", "https://www.ebi.ac.uk/chebi/CHEBI%3A24828", "https://pubmed.ncbi.nlm.nih.gov/25065623/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC3990014/", "local:data/content.generated.json#/pages/indoles"],
+      "requiredResolution": "Choose chemical-class or microbial-metabolite scope, reconcile the singular duplicate, and source each compound-specific pathway, receptor, concentration, species, and model.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "indoxyl-sulfate",
+      "controlledIdentifier": "PubChem:CID10258;ChEBI:43355",
+      "batchId": "mechanisms-076",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exact metabolite is identifiable, but model and association evidence become universal producers, causal organ damage, a cadmium mechanism, BBB passage, biomarkers, and treatment implications.",
+      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/compound/Indoxyl-Sulfate", "https://www.ebi.ac.uk/chebi/CHEBI%3A43355", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8228088/", "https://doi.org/10.1046/j.1471-4159.2002.01108.x", "https://pubmed.ncbi.nlm.nih.gov/25349205/", "https://pubmed.ncbi.nlm.nih.gov/26912554/", "local:data/content.generated.json#/pages/indoxyl-sulfate"],
+      "requiredResolution": "Preserve the exact chemical pathway while separating cell, animal, human, renal-clearance, transporter-direction, association, and intervention evidence; remove deterministic cadmium and disease chains.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
