@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T12:36:15.510Z",
+  "generatedAt": "2026-09-07T13:41:18.218Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+  "sourceCommit": "712dcb1dbd90209cb033ee77ad289541a8262226",
   "records": 822,
   "canonicalIds": 757,
-  "revisions": 4460,
+  "revisions": 4474,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -998,6 +998,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
           "date": "2026-09-07T15:34:43+03:00",
           "author": "Karen Pendergrass",
@@ -1131,15 +1140,6 @@
           "path": "wiki/entities/alzheimers-disease.md",
           "additions": 1,
           "deletions": 1
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "additions": 2,
-          "deletions": 3
         }
       ]
     },
@@ -1664,6 +1664,15 @@
         "wiki/entities/autism-spectrum-disorder.md"
       ],
       "revisions": [
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/autism-spectrum-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
           "date": "2026-09-07T15:34:43+03:00",
@@ -6990,6 +6999,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/depression.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
           "date": "2026-09-07T15:34:43+03:00",
           "author": "Karen Pendergrass",
@@ -7123,15 +7141,6 @@
           "path": "wiki/entities/depression.md",
           "additions": 6,
           "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/depression.md",
-          "additions": 38,
-          "deletions": 8
         }
       ]
     },
@@ -13091,6 +13100,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/lead.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -13724,6 +13742,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/manganese.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -13967,6 +13994,15 @@
         "wiki/entities/mercury.md"
       ],
       "revisions": [
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/mercury.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -14588,6 +14624,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/multiple-sclerosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -14720,15 +14765,6 @@
           "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
           "path": "wiki/entities/multiple-sclerosis.md",
           "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/multiple-sclerosis.md",
-          "additions": 4,
           "deletions": 0
         }
       ]
@@ -15151,6 +15187,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/nickel.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -15284,15 +15329,6 @@
           "path": "wiki/entities/nickel.md",
           "additions": 2,
           "deletions": 2
-        },
-        {
-          "hash": "d647895ead372de3dfe182323ff691a91fca0748",
-          "date": "2026-04-16T18:39:26+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Priority 5 batch migration: 100 source pages + source_count fixes + broken-links + orphans + index recount",
-          "path": "wiki/entities/nickel.md",
-          "additions": 1,
-          "deletions": 1
         }
       ]
     },
@@ -16536,6 +16572,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
           "date": "2026-09-07T15:34:43+03:00",
           "author": "Karen Pendergrass",
@@ -16669,15 +16714,6 @@
           "path": "cureva/signatures/parkinsons-disease.md",
           "additions": 313,
           "deletions": 0
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "additions": 1,
-          "deletions": 4
         }
       ]
     },
@@ -17702,6 +17738,15 @@
         "wiki/entities/porphyromonas-gingivalis.md"
       ],
       "revisions": [
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/porphyromonas-gingivalis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -22773,6 +22818,15 @@
         "wiki/entities/zinc.md"
       ],
       "revisions": [
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/entities/zinc.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -28863,6 +28917,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
           "date": "2026-09-07T14:44:04+03:00",
           "author": "Karen Pendergrass",
@@ -28996,15 +29059,6 @@
           "path": "wiki/concepts/gut-metal-microbiome.md",
           "additions": 1,
           "deletions": 0
-        },
-        {
-          "hash": "1a6ceda2d61f1c3e463b06f29b0a2fd81aa735f9",
-          "date": "2026-04-18T21:04:01+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "pre-overnight checkpoint 2026-04-18",
-          "path": "wiki/concepts/gut-metal-microbiome.md",
-          "additions": 5,
-          "deletions": 3
         }
       ]
     },
@@ -29013,6 +29067,15 @@
         "wiki/concepts/gut-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
           "date": "2026-09-07T14:44:04+03:00",
@@ -31055,6 +31118,15 @@
         "wiki/concepts/inflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "9af99db2c517d0a65a40568ed2e57d85889269d4",
           "date": "2026-09-07T15:34:43+03:00",
@@ -34331,6 +34403,24 @@
       ],
       "revisions": [
         {
+          "hash": "712dcb1dbd90209cb033ee77ad289541a8262226",
+          "date": "2026-09-07T16:40:00+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Normalize Neuroinflammation cross-links",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 8,
+          "deletions": 8
+        },
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 70,
+          "deletions": 63
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -35530,6 +35620,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -36204,6 +36303,15 @@
         "wiki/concepts/polyamines.md"
       ],
       "revisions": [
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/concepts/polyamines.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
           "date": "2026-09-07T14:44:04+03:00",
@@ -37656,6 +37764,15 @@
       ],
       "revisions": [
         {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/concepts/tau-phosphorylation.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -37967,6 +38084,15 @@
         "wiki/concepts/tight-junctions.md"
       ],
       "revisions": [
+        {
+          "hash": "d0b56b7247e278d5f799762d7f73943ad994efb3",
+          "date": "2026-09-07T16:28:57+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Add reviewed neuroinflammation coverage batch",
+          "path": "wiki/concepts/tight-junctions.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",

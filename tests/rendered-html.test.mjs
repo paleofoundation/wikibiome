@@ -1133,7 +1133,7 @@ test("server-renders corpus-wide Gut Microbiome links without overlinking", asyn
     .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("gut-microbiome"))
     .map((page) => page.id))]
     .sort();
-  assert.equal(contextIds.length, 221);
+  assert.equal(contextIds.length, 222);
 
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-gut-microbiome-corpus`);
@@ -1633,6 +1633,97 @@ test("server-renders strengthened Metallomics and its first high-leverage link b
   const sitemap = await sitemapResponse.text();
   assert.match(history, /wiki\/concepts\/metallomics\.md/);
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/metallomics</loc>`));
+});
+
+test("server-renders strengthened Neuroinflammation and its first high-leverage link batch", async () => {
+  const batchIds = [
+    "porphyromonas-gingivalis",
+    "polyamines",
+    "tau-phosphorylation",
+    "inflammation",
+    "gut-microbiome",
+    "oxidative-stress",
+    "nickel",
+    "zinc",
+    "lead",
+    "tight-junctions",
+    "gut-metal-microbiome",
+    "multiple-sclerosis",
+    "parkinsons-disease",
+    "autism-spectrum-disorder",
+    "manganese",
+    "mercury",
+    "depression",
+    "alzheimers-disease",
+  ];
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const linkedContextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("neuroinflammation"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(linkedContextIds.length, 47);
+  for (const id of batchIds) assert.ok(linkedContextIds.includes(id), `expected generated Neuroinflammation backlink from ${id}`);
+
+  const [pageResponse, historyResponse, sitemapResponse, ...contextResponses] = await Promise.all([
+    render("/article/neuroinflammation"),
+    render("/article/neuroinflammation/history"),
+    render("/sitemap.xml"),
+    ...batchIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [pageResponse, historyResponse, sitemapResponse, ...contextResponses]) {
+    assert.equal(response.status, 200);
+  }
+
+  const page = await pageResponse.text();
+  assert.equal(htmlTitle(page), "Neuroinflammation — WikiBiome");
+  assert.equal(htmlCanonical(page), `${PUBLIC_ORIGIN}/article/neuroinflammation`);
+  for (const heading of [
+    "What Counts as Neuroinflammation",
+    "Cells and Tissue Interfaces",
+    "How Peripheral and Gut Signals Reach the CNS",
+    "Metals and Neuroinflammatory Pathways",
+    "Disease Contexts",
+    "What Intervention Studies Establish",
+    "Reading the Evidence",
+  ]) {
+    assert.match(page, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "gao-2023-microglia-neurodegenerative-diseases",
+    "spencer-2018-vascular-pathology-ms-blood-brain-barrier",
+    "bhargava-2020-bile-acid-metabolism-ms-neuroinflammation",
+    "sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest",
+    "tizabi-2023-lead-gut-microbiota-asd",
+    "comer-2020-inflamed-brain-schizophrenia-neuroinflammation",
+  ]) {
+    assert.match(page, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${batchIds[index]}`);
+    const articleHtml = html.slice(articleStart, referencesStart);
+    const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+    const narrativeStart = signatureStart >= 0
+      ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+      : -1;
+    const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+      ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+      : articleHtml;
+    assert.equal(
+      (contextualHtml.match(/href="\/article\/neuroinflammation"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Neuroinflammation link in ${batchIds[index]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/neuroinflammation\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/neuroinflammation</loc>`));
 });
 
 test("server-renders Catalase and its reviewed contextual-link batch", async () => {
@@ -3862,7 +3953,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(explore, /href="\/clusters"/);
 
   assert.match(readiness, /Every route accounted for/);
-  assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
+  assert.match(readiness, /47 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
   assert.match(readiness, /822[\s\S]{0,110}records[\s\S]{0,110}715[\s\S]{0,80}canonical article routes/);
   assert.match(
     readiness,
@@ -3876,7 +3967,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /9af99db2c517/);
+  assert.match(readiness, /712dcb1dbd90/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -4342,7 +4433,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "9af99db2c517d0a65a40568ed2e57d85889269d4");
+  assert.equal(manifest.source.commit, "712dcb1dbd90209cb033ee77ad289541a8262226");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 822);
   assert.equal(manifest.content.sources, 1940);
@@ -4356,7 +4447,7 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].year, undefined);
   assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].doi, undefined);
   assert.equal(manifest.publicContentPolicy.version, 3);
-  assert.equal(manifest.publicContentPolicy.excludedCount, 46);
+  assert.equal(manifest.publicContentPolicy.excludedCount, 47);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
   assert.equal(manifest.editorialNormalization.leadPromotionCount, 341);
   assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
@@ -4373,8 +4464,8 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.articleIdentityPolicy.canonicalArticleCount, 1);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6495);
-  assert.equal(manifest.audit.recoveredInlineReferences, 348);
+  assert.equal(manifest.audit.generatedReferences, 6497);
+  assert.equal(manifest.audit.recoveredInlineReferences, 347);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
   assert.equal(manifest.audit.invalidSourceYears.length, 0);

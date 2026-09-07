@@ -1,16 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T12:35:31.505Z",
+  "generatedAt": "2026-09-07T13:40:37.634Z",
   "source": {
     "repository": "https://github.com/paleofoundation/wikibiome.git",
     "branch": "main",
-    "commit": "9af99db2c517d0a65a40568ed2e57d85889269d4",
-    "contentGeneratedAt": "2026-09-07T12:33:21.183Z",
+    "commit": "712dcb1dbd90209cb033ee77ad289541a8262226",
+    "contentGeneratedAt": "2026-09-07T13:39:32.751Z",
     "platform": "all"
   },
   "content": {
     "path": "data/content.generated.json",
-    "sha256": "51efcbd21d936f4d1d4215b9db98ef7a0bc2b4092cf403c3487c1f3c40ed149a",
+    "sha256": "7f3f5ee3f73c7430756fd7d855ee728c71d6b41b694ab9dc0abcb1a464a96c07",
     "pages": 822,
     "sources": 1940
   },
@@ -1176,7 +1176,7 @@
   "publicContentPolicy": {
     "version": 3,
     "minimumAnalysisReferences": 2,
-    "excludedCount": 46,
+    "excludedCount": 47,
     "excludedPages": [
       {
         "id": "adversarial-audit-2026-04-19",
@@ -1281,6 +1281,11 @@
       {
         "id": "link-health-2026-04-19",
         "title": "Link Health Audit — 2026-04-19",
+        "reason": "internal-operational-analysis"
+      },
+      {
+        "id": "link-health-2026-09-07",
+        "title": "Link Health Audit — 2026-09-07",
         "reason": "internal-operational-analysis"
       },
       {
@@ -1517,10 +1522,10 @@
   },
   "editorialStatusPolicy": {
     "version": 1,
-    "sourceCommit": "9af99db2c517d0a65a40568ed2e57d85889269d4",
+    "sourceCommit": "712dcb1dbd90209cb033ee77ad289541a8262226",
     "registeredCount": 112,
     "appliedRecordCount": 121,
-    "registrySha256": "59c412b7ac59fd1fcb141f0f00db2327e897c7e052fe8ab34ea0c3c6864c2b8a"
+    "registrySha256": "ccae6dc874c8a0f840106b895542a0a83f7576b358a8d1b883b975f9aec447ad"
   },
   "articleIdentityPolicy": {
     "version": 1,
@@ -1602,9 +1607,9 @@
       "type-2-diabetes"
     ],
     "pagesWithReferences": 768,
-    "generatedReferences": 6495,
-    "pagesWithSourceDrift": 481,
-    "recoveredInlineReferences": 348,
+    "generatedReferences": 6497,
+    "pagesWithSourceDrift": 480,
+    "recoveredInlineReferences": 347,
     "declaredOnlyReferences": 1971,
     "missingSourceMetadataIds": [],
     "resolvedSourceAliasIds": [
