@@ -17881,6 +17881,108 @@
       ],
       "requiredResolution": "A future separately authorized revision prompt and new call must retain the exact 15-carbon, 7-oxygen, 22-heavy-atom graph while encoding a fully opaque uniform pale cool field, opaque countable centers and connectors, zero glow or haze, and broad crop-safe margins.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "statin-therapy",
+      "controlledIdentifier": "MeSH:D019161;broad-statin-class;overlapping-statin-and-statins-routes",
+      "batchId": "interventions-112",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route spans rosuvastatin and unspecified statin therapy, conflicts with two other Statins routes, and does not select an exact compound, formulation, dose, protocol, population, assay, or endpoint.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019161",
+        "local:data/content.generated.json#/pages/statin-therapy",
+        "local:data/content.generated.json#/pages/statin",
+        "local:data/content.generated.json#/pages/statins"
+      ],
+      "requiredResolution": "Reconcile the three Statins routes and define media ownership or reuse; then select an exact compound or governed class representation with formulation, route, dose, population, comparator, specimen, assay, time point, endpoint, and claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free until canonical scope and a scientifically verifiable representation pass a new audit."
+    },
+    {
+      "pageId": "statin",
+      "controlledIdentifier": "MeSH:D019161;multi-drug-multi-condition-class;overlapping-statin-therapy-and-statins-routes",
+      "batchId": "interventions-112",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines multiple statin compounds, conditions, and mechanisms and overlaps `statin-therapy` and the `statins` concept route. No one molecule or clinical scene can represent the class without silent narrowing.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019161",
+        "local:data/content.generated.json#/pages/statin",
+        "local:data/content.generated.json#/pages/statin-therapy",
+        "local:data/content.generated.json#/pages/statins"
+      ],
+      "requiredResolution": "Reconcile canonical ownership among the three routes; define any controlled multi-compound or reuse policy; and map retained claims to drug identity, formulation, dose, population, and evidence.",
+      "routingImpact": "The route remains uncovered and asset-free until canonical ownership and class-representation rules pass a new audit."
+    },
+    {
+      "pageId": "synbiotics-pdac",
+      "controlledIdentifier": "MeSH:D058616;PDAC-synbiotic-product-and-strains-unresolved;zero-local-sources",
+      "batchId": "interventions-112",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The page has zero linked sources and does not select exact strain accessions, per-strain allocation, product and lot, complete prebiotic composition, perioperative protocol, population, comparator, assay, endpoint, or safety state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D058616",
+        "https://doi.org/10.1007/s00262-024-03686-6",
+        "local:data/content.generated.json#/pages/synbiotics-pdac"
+      ],
+      "requiredResolution": "Link direct evidence and select exact current strain accessions and counts, product and lot, complete probiotic and prebiotic composition, storage, route, schedule, PDAC surgical population, comparator, adherence, specimen, assay, time point, endpoints, and adverse-event boundary.",
+      "routingImpact": "The route remains uncovered and asset-free until one reproducible synbiotic protocol and non-promotional visual plan pass a new audit."
+    },
+    {
+      "pageId": "vitamin-d-probiotic-schizophrenia",
+      "controlledIdentifier": "DOI:10.1186/s12888-019-2059-x;cholecalciferol-plus-four-species-level-probiotic-labels;malformed-local-source-ids",
+      "batchId": "interventions-112",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The RCT specifies vitamin D3, four species-level labels and counts, manufacturers, dose, and duration but no strain accessions, and both local source IDs are malformed by `.md` suffixes.",
+      "checkedUrls": [
+        "https://doi.org/10.1186/s12888-019-2059-x",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "local:data/content.generated.json#/pages/vitamin-d-probiotic-schizophrenia"
+      ],
+      "requiredResolution": "Correct the source identifiers and recover exact strain accessions, product and lot records, formulation and excipients, storage, viable counts, vitamin-D3 product identity, schedule, population, comparator, adherence, specimens, assays, time points, endpoints, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until exact strain and product identity plus corrected provenance pass a new audit."
+    },
+    {
+      "pageId": "vitamin-d-probiotic-synergy",
+      "controlledIdentifier": "DOI:10.1186/s12888-019-2059-x;cross-condition-generalization;malformed-local-source-id",
+      "batchId": "interventions-112",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route relies on one malformed link to a schizophrenia RCT while generalizing to other conditions and protocols; exact strains, products, doses, populations, assays, endpoints, and evidence tiers are unresolved.",
+      "checkedUrls": [
+        "https://doi.org/10.1186/s12888-019-2059-x",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "local:data/content.generated.json#/pages/vitamin-d-probiotic-synergy"
+      ],
+      "requiredResolution": "Correct the source link; separate the schizophrenia protocol from cross-condition hypotheses; add direct evidence for each retained condition; and select exact strains, products, formulations, doses, populations, comparators, specimens, assays, time points, endpoints, and safety boundaries.",
+      "routingImpact": "The route remains uncovered and asset-free until its cross-condition scope and protocol identities pass a new audit."
+    },
+    {
+      "pageId": "statin-simvastatin-colorectal-cancer",
+      "controlledIdentifier": "PubChem:54454;ChEBI:9150;MeSH:D019821;InChIKey:RYMZZMVNJRMUDD-HGQWONQESA-N",
+      "batchId": "interventions-112",
+      "draft": "work/media-drafts/interventions-batch-112/statin-simvastatin-colorectal-cancer-draft.png",
+      "sha256": "07a1f0986ec275e1b0a8e992227510f97bb0eb63e2874a2d428df4d5b1acaf05",
+      "generationRecord": "exec-37fb330a-c597-47b8-bf87-b8307769ef48.png",
+      "promptSha256": "4426cee692e43968f138b807e91fe9b451d17a60f451f45014a84b860905f25d",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and alpha-field audit",
+      "disposition": "rejected-wrong-heavy-atom-count-transparent-background-glow-and-edge-field",
+      "reason": "The output contains 28 graphite and five rose centers, adding three carbon-like centers beyond neutral simvastatin's 25 carbon and five oxygen heavy atoms. It also has 1,372,776 fully transparent pixels, 200,088 intermediate-alpha pixels, zero fully opaque pixels, broad glow or haze, and 452 nonzero-alpha pixels in the outer safety band.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/54454",
+        "https://www.ebi.ac.uk/chebi/CHEBI:9150",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019821"
+      ],
+      "requiredResolution": "A future separately authorized revision prompt and new call must produce one exact 25-carbon, five-oxygen, 30-heavy-atom neutral-simvastatin graph with an encoded fully opaque uniform pale cool field, zero glow or haze, and broad crop-safe margins.",
+      "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
     }
   ],
   "revisedAssets": [
