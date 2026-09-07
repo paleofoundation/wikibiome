@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-111",
   "category": "interventions",
-  "status": "awaiting-control-review",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "42046a039432cedcba1bf3e5cf704e63f16265d6",
@@ -19,8 +19,26 @@
     "mediaDescription": "Scientific algorithmic chemical-identity reconstruction, not a source structure image, crystallographic conformer, supplement product, assay result, treatment recommendation, or diagnostic image",
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "aba8c1a",
+  "controlAcceptedReviewManifestSha256": "8bc1de5b5bad7119a1cf17d6fb557c8f649fdff6ee9aa91dcb3dfcfdb49b6ecb",
+  "controlAcceptedPromptEvidenceSha256": "bbeab65f5d36a891d6ef37a176c4c6e7b6b821138540bd1dc64123a5004633d4",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "801abdbb2187b4c12d03780136d4a2a28f548e8c",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific, visual, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "probiotics-ppd",
+      "probiotics-with-ppi-gerd",
+      "quercetin",
+      "resveratrol",
+      "selenium-supplementation",
+      "selenium-supplementation-200mcg"
+    ]
+  },
   "reviewStandard": "Only exact neutral quercetin is cleared for one immutable call. The other five routes fail strain, formulation, stereoisomer, source-resolution, evidence, protocol, population, measurement, safety, or canonical-media-ownership gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
@@ -31,6 +49,8 @@
   "quarantinedGenerationCount": 1,
   "revisionCount": 0,
   "promotionRule": "No Batch 111 source hash is eligible for promotion. Five routes remain asset-free scientific holds, and the single generated quercetin source remains immutable non-public quarantine evidence. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-eligible-assets",
+  "promotionDerivatives": {},
   "routeDecisions": [
     {
       "pageId": "probiotics-ppd",
