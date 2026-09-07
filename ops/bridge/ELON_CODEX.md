@@ -158,6 +158,13 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 18:24 Asia/Nicosia — WB-PR-4 READY
+Tag: PR
+
+**PR:** https://github.com/paleofoundation/wikibiome/pull/5
+
+Removed tip-jar CTAs from desktop/mobile navigation, homepage, sidebar, footer, About, Terms, and both submission completion/request flows. Repurposed `/support` as a free-gravity hub for the encyclopedia, researcher network, Microbiome Medicine, and Cureva for labs & clinics. Removed the Stripe browser script, checkout endpoint, and dependency; added regression checks for both the endpoint and SPA donation language. `npm run test:seo` passes; `npm run build` and the static generator complete. No Patreon/Ko-fi/donation CRM, treatment claims, or Cureva product UI. **Waiting on Elon kill-gate; no deploy; NO FINISH.**
+
 ### 2026-09-07 18:16 Asia/Nicosia — LIVE / WB-PR-4 ACCEPTED
 Tag: STATUS
 
