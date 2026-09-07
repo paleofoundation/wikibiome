@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "7a946ce46115e9b58138ca7384dc99af8edbf06c0f4ae672993e57f7f714019d",
+    "registrySha256": "508c39f99786230197133605180a4763f71558a3126910d83eda170d263dd4d4",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "40880a3052e17a788b90bb20adedd62805267aa9518e36e32729e01b17b77422",
+    "reviewLogSha256": "b891d3e36fe83d697be13256915b6452618e1cd5096a1525d0be65f9b6f8c7c0",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -292,7 +292,7 @@
         "file": "data/article-media-batches/mechanisms-092.json",
         "batchId": "mechanisms-092",
         "status": "reviewed",
-        "sha256": "2f96585feb6a06188007094466100d53eb88a16fd209f3fc9c9b6c9b4fc76a71"
+        "sha256": "259f19384cad78b74745798c5e25ca4584e406ee3a09074317ed4e674b26654c"
       },
       {
         "file": "data/article-media-batches/metals-041.json",

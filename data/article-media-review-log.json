@@ -12514,9 +12514,10 @@
         "checkedUrls": [
           "https://pubchem.ncbi.nlm.nih.gov/compound/1123",
           "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15891",
-          "https://pubmed.ncbi.nlm.nih.gov/35954180/"
+          "https://pubmed.ncbi.nlm.nih.gov/35954180/",
+          "https://www.wikibiome.com/article/taurine"
         ],
-        "notes": "PubChem and ChEBI establish taurine identity and heavy-atom connectivity while distinguishing related protonation states; the PubMed review supplies bile-acid and microbiota context without being depicted as an observed effect."
+        "notes": "PubChem and ChEBI establish taurine identity and heavy-atom connectivity while distinguishing related protonation states; the PubMed review supplies bile-acid and microbiota context without being depicted as an observed effect; the canonical WikiBiome article supplies page scope only."
       },
       "subjectReview": {
         "status": "pass",

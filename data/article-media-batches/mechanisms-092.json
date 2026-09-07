@@ -37,7 +37,7 @@
   "promotionDerivatives": {
     "taurine": {
       "masterSha256": "a0e1bf091344d77a0f09ed80cc034d9dfadadc52b15cdc741d7ca2611a5c7e64",
-      "articleSha256": "24252311352fc134e0dfc50a5614c894cfe0edcf92739e47356a88233d743770",
+      "articleSha256": "13c000840648b893e7250a7582e4b02d92a9e2a1fa59a39acae16bbd97e8cf0b",
       "socialSha256": "eabc73ff2fb053c6821efea90a2e05c111c427bb0c01a2433bfd5d43b9883a6f"
     }
   },
@@ -62,7 +62,7 @@
       "promptSha256": "cd156bf3fecbc9da2d9bceb76b2e016587bdef31f0120fc2e2f4a2f8f6ea915a",
       "sha256": "843429b5e64a94d58269e4fb0c025401524359ff1eaf69da98d25c9ddcb0d787",
       "masterSha256": "a0e1bf091344d77a0f09ed80cc034d9dfadadc52b15cdc741d7ca2611a5c7e64",
-      "articleSha256": "24252311352fc134e0dfc50a5614c894cfe0edcf92739e47356a88233d743770",
+      "articleSha256": "13c000840648b893e7250a7582e4b02d92a9e2a1fa59a39acae16bbd97e8cf0b",
       "socialSha256": "eabc73ff2fb053c6821efea90a2e05c111c427bb0c01a2433bfd5d43b9883a6f",
       "fileSizeBytes": 1097009,
       "dimensions": {"width": 1536, "height": 1024},
