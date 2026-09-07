@@ -19,8 +19,23 @@
     "mediaDescription": "No generated media; intervention identity, formulation, evidence, protocol, safety, or canonical-ownership requirements remain unresolved",
     "sourceUse": "Current controlled records and local source-resolution evidence define the asset-free scientific holds."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "9693d44",
+  "controlAcceptedReviewManifestSha256": "60d27130ce9afa3246dfc60363e5a8e56a49d5b59dc1456d085a6280c7e72b17",
+  "controlAcceptedPromptEvidenceSha256": "5e5806945c8da0e81be60761fa094fb7d75f7b87e888371b8296cd0f99378606",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-three-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "1eff245ebebdf0679037ded43dcbc33bb42959ce",
+    "reviewer": "WikiBiome Control Tower scientific, source-resolution, canonical-ownership, safety, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "vitamin-d-supplementation",
+      "zinc-supplementation",
+      "zinc-supplementation-autism"
+    ]
+  },
   "controlSocialCropReview": "not-applicable-zero-generated-assets",
   "promotionDerivatives": {},
   "reviewStandard": "All three zero-source supplementation routes fail identity, formulation, evidence, protocol, safety, duplicate-ownership, or non-stigmatizing-representation gates. No prompt marker or generation call is permitted.",
