@@ -33,8 +33,14 @@
     "acceptedSourceSha256": ["724066cf4801eb95e6735c074564651645f85bd0cb3c9b8fa45618982ab064ba"],
     "nonPublishablePageIds": ["antimicrobial-metals", "autoimmunity", "biofilm", "calprotectin", "dietary-iron-gut-ecology"]
   },
-  "controlSocialCropReview": "pending-native-1200-by-630-cover-derivative-review",
-  "promotionDerivatives": {},
+  "controlSocialCropReview": "accepted-centered-cover-derivative; native 1200 by 630 inspection preserves all seven heavy-atom centers and every connector without clipping or label leakage",
+  "promotionDerivatives": {
+    "cysteine": {
+      "masterSha256": "1bfd7665dbd44bc204797c3dd2aa7db3653890cfae61e10b529ab0ebc0eba2d1",
+      "articleSha256": "4e924f12b4d5df13cbbea2fc58effb2c489d3c4c59598e4b0fbb9e2b643b0e34",
+      "socialSha256": "15831a9a4726e4ea64a459570af5269c2b6867f8f60d37126d3e68d7f4c1f776"
+    }
+  },
   "reviewStandard": "Only exact L-cysteine is cleared for one immutable heavy-atom connectivity call. Antimicrobial metals, autoimmunity, biofilm, calprotectin, and dietary iron-gut ecology fail material, process, organism, molecular-state, specimen, or network-scope gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -106,6 +112,9 @@
       "controlledIdentifier": "PubChem:5862;ChEBI:17561;MeSH:D003545;InChIKey:XUJNEKJLAYXESH-REOHCLBHSA-N",
       "promptSha256": "91fd766aa47bcc8f4088dbe065379cccd5028b66326c8c0fb41d7350c237683b",
       "sha256": "724066cf4801eb95e6735c074564651645f85bd0cb3c9b8fa45618982ab064ba",
+      "masterSha256": "1bfd7665dbd44bc204797c3dd2aa7db3653890cfae61e10b529ab0ebc0eba2d1",
+      "articleSha256": "4e924f12b4d5df13cbbea2fc58effb2c489d3c4c59598e4b0fbb9e2b643b0e34",
+      "socialSha256": "15831a9a4726e4ea64a459570af5269c2b6867f8f60d37126d3e68d7f4c1f776",
       "fileSizeBytes": 1332549,
       "dimensions": {"width": 1536, "height": 1024},
       "scientificReferences": [
