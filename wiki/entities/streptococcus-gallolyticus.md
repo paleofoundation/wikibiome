@@ -36,7 +36,7 @@ A Gram-positive, facultatively anaerobic bacterium formerly classified as *Strep
 ## Metal Dependencies
 
 Manganese:
-- Like other streptococci, *S. gallolyticus* relies heavily on manganese for superoxide dismutase (SodA) activity, protecting against oxidative stress in the inflammatory tumor microenvironment.
+- Like other streptococci, *S. gallolyticus* relies heavily on manganese for superoxide dismutase (SodA) activity, protecting against [[oxidative-stress]] in the inflammatory tumor microenvironment.
 - Manganese-dependent phosphoglyceromutase is essential for glycolytic metabolism.
 
 Iron:

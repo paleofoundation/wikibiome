@@ -63,7 +63,7 @@ Unlike iron, manganese, and zinc, [[copper]] levels increase at infection sites.
 | Staphyloferrin A/B | Iron | Stealth siderophores evading lipocalin-2 |
 | Staphylopine (Cnt) | Zn/Ni/Co/Fe | Broad-spectrum metallophore competing with calprotectin |
 | MntABC/MntH | Manganese | Redundant Mn import for SOD metalation |
-| SodA/SodM | Mn (or Fe) | Superoxide dismutases for oxidative stress defense |
+| SodA/SodM | Mn (or Fe) | Superoxide dismutases for [[oxidative-stress]] defense |
 | CopAZ | Copper | Phagolysosomal copper efflux |
 | CzrAB | Zinc | Zinc export under intoxication conditions |
 | [[urease]] | Nickel | Skin survival in urea-rich sweat |

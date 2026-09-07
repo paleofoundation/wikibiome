@@ -80,7 +80,7 @@ A Gram-positive, aerobic to facultatively anaerobic, spore-forming genus that br
 - [[lead]] -- cell wall components bind Pb, reducing intestinal absorption
 - [[arsenic]] -- ars operon-mediated resistance and efflux
 - [[iron]] -- bacillibactin siderophore production; shares iron acquisition strategies with other pathogens
-- [[manganese]] -- Mn-SOD enzymes for oxidative stress resistance
+- [[manganese]] -- Mn-SOD enzymes for [[oxidative-stress]] resistance
 - [[lactobacillus]] -- fellow probiotic genus; Bacillus offers superior heat stability
 - [[bifidobacterium]] -- complementary probiotic with different ecological niche
 - [[veillonella]] -- lactate cross-feeding from B. coagulans

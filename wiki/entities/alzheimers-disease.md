@@ -50,7 +50,7 @@ This is the defining metallomic feature of Alzheimer's disease:
 - Pb is the most extensively studied metal in relation to AD; cumulative bone lead levels provide better exposure estimates than blood lead [[bakulski-2020-heavy-metals-alzheimers-dementias]].
 - Higher tibia lead associated with cognitive decline in older adults [[bakulski-2020-heavy-metals-alzheimers-dementias]].
 - Early-life Pb exposure produces latent effects on AD-related gene expression through epigenetic mechanisms that manifest decades later -- the "developmental origins" hypothesis [[bakulski-2020-heavy-metals-alzheimers-dementias]].
-- Pb disrupts calcium signaling (mimics Ca2+ in signaling pathways), promotes oxidative stress, and affects protein phosphorylation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
+- Pb disrupts calcium signaling (mimics Ca2+ in signaling pathways), promotes [[oxidative-stress]], and affects protein phosphorylation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
 - Pb induces BBB disruption, enabling further metal and toxin entry to the brain [[ahmed-2025-metals-alzheimers-mechanistic-review]].
 - 21 of 46 mechanistic studies reviewed focused on Pb -- the most of any metal [[ahmed-2025-metals-alzheimers-mechanistic-review]].
 
@@ -174,7 +174,7 @@ See [[dietary-metal-paradoxes]] for the broader pattern. AD-specific paradoxes i
 ## Connections
 
 - Metals: [[copper]], [[iron]], [[lead]], [[zinc]], [[aluminum]], [[cadmium]], [[mercury]], [[arsenic]], [[manganese]], [[selenium]]
-- Concepts: [[ferroptosis]], [[amyloid-beta]], [[blood-brain-barrier]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[mis-metallation]], [[gut-brain-axis]]
+- Concepts: [[ferroptosis]], [[amyloid-beta]], [[blood-brain-barrier]], oxidative stress, [[epigenetic-modifications]], [[mis-metallation]], [[gut-brain-axis]]
 - Analyses: [[metal-disease-matrix]], [[dietary-metal-paradoxes]]
 - Related diseases: [[parkinsons-disease]] (shared Fe/Cu brain dysregulation, ferroptosis, gut-brain axis), [[chronic-kidney-disease]] (shared ferroptosis pathway), [[type-2-diabetes]] ("type-3 diabetes" hypothesis)
 - Pathogens: [[helicobacter-pylori]] (increased in AD gut), [[escherichia-coli]] (curli cross-seeding with A-beta)

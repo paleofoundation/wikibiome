@@ -38,7 +38,7 @@ The most toxic heavy metal, with organic methylmercury (MeHg) as the primary con
 
 ### Arsenic (As)
 
-- Oxidative stress cascade: As depletes glutathione and generates reactive oxygen species, causing widespread neuronal apoptosis.
+- [[oxidative-stress]] cascade: As depletes glutathione and generates reactive oxygen species, causing widespread neuronal apoptosis.
 - Peripheral neuropathy: Chronic As exposure causes both central and peripheral nervous system damage.
 - Cognitive decline: Epidemiological studies link chronic As exposure to reduced IQ scores and impaired executive function in children.
 

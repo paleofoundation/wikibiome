@@ -18,7 +18,7 @@ source_count: 50
 
 # Selenium (Se)
 
-An essential trace element that is primarily protective in its biological roles. Unlike most metals in this wiki, selenium's toxicological significance lies more in the consequences of its *deficiency* than its excess. Selenium is the backbone of the selenoproteome -- a family of ~25 selenoproteins including glutathione peroxidases, thioredoxin reductases, and iodothyronine deiodinases -- that collectively defend against oxidative stress, regulate thyroid hormone metabolism, and modulate immune function. Selenium depletion is among the most consistent metallomic findings across cancer, cardiovascular disease, inflammatory bowel disease, and neurodegeneration, positioning it as a critical node in the metal-microbe-disease landscape.
+An essential trace element that is primarily protective in its biological roles. Unlike most metals in this wiki, selenium's toxicological significance lies more in the consequences of its *deficiency* than its excess. Selenium is the backbone of the selenoproteome -- a family of ~25 selenoproteins including glutathione peroxidases, thioredoxin reductases, and iodothyronine deiodinases -- that collectively defend against [[oxidative-stress]], regulate thyroid hormone metabolism, and modulate immune function. Selenium depletion is among the most consistent metallomic findings across cancer, cardiovascular disease, inflammatory bowel disease, and neurodegeneration, positioning it as a critical node in the metal-microbe-disease landscape.
 
 ## Chemical Properties and Forms
 
@@ -288,7 +288,7 @@ Mg modulates Se bioavailability and tissue distribution; indirectly supports T4-
 - [[mercury]] -- Se-Hg binding provides protective effects; Hg hijacks selenoprotein active sites
 - [[zinc]] -- Zn-Se correlation disrupted in disease states; co-depletion in IBD and autoimmunity
 - [[iodine]] -- Two-way thyroid relationship; combined Se+I deficiency requires careful repletion
-- [[oxidative-stress]] -- selenoproteins are the primary enzymatic antioxidant network
+- oxidative stress -- selenoproteins are the primary enzymatic antioxidant network
 - [[metallomics]] -- Se as key element in metallomic profiling of cancer, CVD, IBD, and neurodegeneration
 - [[nutritional-immunity]] -- Se supports immune function via selenoproteins rather than direct metal withholding
 - [[gut-metal-microbiome]] -- bidirectional Se-microbiome interactions shape both microbial ecology and Se bioavailability

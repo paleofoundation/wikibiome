@@ -49,7 +49,7 @@ A remarkable finding: [[copper]] and [[zinc]] ions ameliorate iron chelation eff
 | Aft1 transcription factor | Iron sensor | Master regulator of iron starvation response |
 | Iron-sulfur cluster enzymes (SDH2, ACO1/2) | Iron | Mitochondrial respiration and TCA cycle |
 | HMX1 (heme oxygenase) | Iron | Heme degradation for iron recycling |
-| TRR1 (thioredoxin) | -- | Oxidative stress defense under iron starvation |
+| TRR1 (thioredoxin) | -- | [[oxidative-stress]] defense under iron starvation |
 | ISA1 (Fe-S assembly) | Iron | Iron-sulfur cluster biogenesis |
 
 ## Ecological Role

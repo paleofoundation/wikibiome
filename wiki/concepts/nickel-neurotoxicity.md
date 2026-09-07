@@ -71,6 +71,6 @@ A consistent finding [[lamtai-2018-nickel-neurobehavior]]:
 ## Connections
 
 - [[nickel]] — the causative metal
-- [[oxidative-stress]] — the primary mechanism in hippocampus
+- oxidative stress — the primary mechanism in hippocampus
 - [[dietary-nickel-exposure]] — non-occupational route of chronic exposure
 - Parallels [[metabolic-syndrome]] in that both are non-cancer chronic effects of low-level nickel exposure

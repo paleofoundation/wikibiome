@@ -21,7 +21,7 @@ The most abundant intracellular thiol and the master antioxidant of mammalian ce
 ### Antioxidant Defense
 - GSH directly scavenges reactive oxygen species and serves as a cofactor for the glutathione peroxidase (GPx) family of enzymes.
 - GPX4 (glutathione peroxidase 4) uses GSH to reduce lipid hydroperoxides to non-toxic lipid alcohols -- this is the central brake on [[ferroptosis]]. GPX4 is a selenoprotein, linking GSH status to [[selenium]] status [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- GSH/GSSG ratio is a primary indicator of cellular redox status; oxidative stress shifts this ratio toward GSSG (oxidized glutathione).
+- GSH/GSSG ratio is a primary indicator of cellular redox status; [[oxidative-stress]] shifts this ratio toward GSSG (oxidized glutathione).
 
 ### Metal Detoxification
 - GSH conjugates with heavy metals via its thiol group, facilitating their excretion.
@@ -65,6 +65,6 @@ GSH is the most altered pathway in [[platinum]]-resistant cancer cells. Elevated
 
 - [[ferroptosis]] -- GSH/GPX4 axis is the central regulatory mechanism
 - [[glyoxalase]] -- GSH-dependent detoxification of methylglyoxal
-- [[oxidative-stress]] -- GSH is the primary intracellular antioxidant
+- oxidative stress -- GSH is the primary intracellular antioxidant
 - [[selenium]] -- required for GPX4 catalytic activity
 - [[mercury]], [[cadmium]], [[lead]], [[arsenic]], [[chromium]] -- all deplete GSH through distinct mechanisms

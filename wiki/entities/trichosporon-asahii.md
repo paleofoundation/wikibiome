@@ -46,7 +46,7 @@ Trichosporon asahii is a basidiomycetous yeast found in soil, water, and on huma
 
 ## Metal Dependencies
 
-T. asahii requires iron for growth and produces siderophore-like molecules for iron acquisition. Its zinc-dependent proteases and manganese-dependent superoxide dismutase contribute to tissue invasion and oxidative stress resistance. Metal availability in the host — particularly during neutropenia when [[nutritional-immunity]] is compromised — facilitates its expansion.
+T. asahii requires iron for growth and produces siderophore-like molecules for iron acquisition. Its zinc-dependent proteases and manganese-dependent superoxide dismutase contribute to tissue invasion and [[oxidative-stress]] resistance. Metal availability in the host — particularly during neutropenia when [[nutritional-immunity]] is compromised — facilitates its expansion.
 
 ## Ecological Role
 

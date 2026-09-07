@@ -74,7 +74,7 @@ In metal-exposed individuals, the acute-to-chronic transition is favored because
 - ZIP8 (SLC39A8) A391T variant in Crohn's disease directly links metal transport dysfunction to barrier integrity and inflammation [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
 ### Via Oxidative Stress
-- Metal-catalyzed Fenton reactions and [[glutathione]] depletion generate oxidative stress, which itself is a potent inflammatory signal.
+- Metal-catalyzed Fenton reactions and [[glutathione]] depletion generate [[oxidative-stress]], which itself is a potent inflammatory signal.
 - Oxidized lipids, damaged proteins, and mitochondrial DAMPs activate innate immune receptors.
 - ROS activate both NF-kB and NLRP3, creating amplification loops where oxidative stress and inflammation reinforce each other.
 
@@ -153,7 +153,7 @@ These biomarkers cannot distinguish metal-driven from pathogen-driven inflammati
 ## Connections
 
 - [[nf-kappa-b]] -- central signaling hub for metal-induced inflammation
-- [[oxidative-stress]] -- ROS generation drives and amplifies inflammation
+- oxidative stress -- ROS generation drives and amplifies inflammation
 - [[glutathione]] -- depletion removes brake on inflammatory ROS
 - [[calprotectin]], [[lactoferrin]] -- inflammatory effectors of nutritional immunity
 - dysbiosis -- metal-induced dysbiosis is a major indirect inflammatory driver

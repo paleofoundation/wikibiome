@@ -98,7 +98,7 @@ Obesity increases PC risk (meta-analysis by Berrington et al. 2003), and diabete
 ## Connections
 
 - [[metallomics]] | [[metal-disease-matrix]] | [[metal-carcinogenesis]]
-- [[iron]] | [[zinc]] | [[copper]] | [[cadmium]] | [[ferroptosis]] | [[oxidative-stress]]
+- [[iron]] | [[zinc]] | [[copper]] | [[cadmium]] | [[ferroptosis]] | oxidative stress
 - dysbiosis | [[gut-metal-microbiome]] | [[bile-acid-metabolism]]
 - [[fusobacterium]] | [[porphyromonas]] | [[candida-albicans]] | [[aspergillus]]
 - [[colorectal-cancer]] | [[comorbidities]]

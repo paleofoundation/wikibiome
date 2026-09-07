@@ -53,7 +53,7 @@ Part of the methionine salvage pathway. The Ni-bound form produces different pro
 
 ### Ni-Superoxide Dismutase (Ni-SOD)
 
-Rare among pathogens; found in *Streptomyces* spp. Important for defense against oxidative stress in plant hosts.
+Rare among pathogens; found in *Streptomyces* spp. Important for defense against [[oxidative-stress]] in plant hosts.
 
 ## Iron-Dependent Virulence
 
@@ -133,6 +133,6 @@ Human breast milk may represent an evolved countermeasure: it is naturally nicke
 - [[iron]] -- the most contested metal in host-pathogen interactions
 - [[nickel]] -- the metal with the most asymmetric host-pathogen biology
 - [[zinc]] -- cofactor for metalloproteases and SODs
-- [[oxidative-stress]] -- the host weapon that metal-dependent SODs defend against
+- oxidative stress -- the host weapon that metal-dependent SODs defend against
 - [[gut-metal-microbiome]] -- environmental metal exposure reshaping microbial communities
 - [[dietary-nickel-exposure]] -- the environmental input that can tip the arms race

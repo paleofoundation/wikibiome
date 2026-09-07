@@ -49,7 +49,7 @@ platform: wikibiome
 
 ## Metal Dependencies
 
-Like other Bacteroides, *B. caccae* requires iron for various metabolic processes including fumarate reductase and cytochrome-dependent electron transport. Its obligate anaerobic lifestyle makes it sensitive to iron-mediated oxidative stress (Fenton chemistry), which may partly explain its vulnerability to lead exposure — lead disrupts iron homeostasis and generates reactive oxygen species.
+Like other Bacteroides, *B. caccae* requires iron for various metabolic processes including fumarate reductase and cytochrome-dependent electron transport. Its obligate anaerobic lifestyle makes it sensitive to iron-mediated [[oxidative-stress]] (Fenton chemistry), which may partly explain its vulnerability to lead exposure — lead disrupts iron homeostasis and generates reactive oxygen species.
 
 ## Key Enzymes and Functional Features
 

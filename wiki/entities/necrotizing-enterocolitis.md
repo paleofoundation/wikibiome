@@ -178,7 +178,7 @@ Early diagnosis is a critical unmet need in NEC. Emerging biomarker evidence fro
 - **Ceramides + sphingomyelins** elevated in Bell's stage II–III NEC (Rusconi 2018); sphingolipid pathway disruption is a hallmark of established NEC [[agakidou-2020-nec-biomarkers-metabolomics-proteomics]]
 - **Acylcarnitine + amino acid deviations** increase progressively as NEC approaches (Sinclair 2020) — mitochondrial energy metabolism impairment in the pre-NEC window [[agakidou-2020-nec-biomarkers-metabolomics-proteomics]]
 - **Ketone body pathway upregulated** at NEC onset and during recovery — consistent with fat malabsorption and altered intestinal energy substrate use [[lin-2023-gut-microbiota-alteration-surgery-nec]]
-- **Urinary gluconic acid** elevated in NEC — pentose phosphate pathway activation reflecting oxidative stress [[agakidou-2020-nec-biomarkers-metabolomics-proteomics]]
+- **Urinary gluconic acid** elevated in NEC — pentose phosphate pathway activation reflecting [[oxidative-stress]] [[agakidou-2020-nec-biomarkers-metabolomics-proteomics]]
 
 ## Branched Chain Fatty Acids and Vernix Caseosa
 

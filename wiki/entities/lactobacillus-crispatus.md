@@ -36,7 +36,7 @@ A Gram-positive, facultatively anaerobic bacterium that is the dominant species 
 - *L. crispatus* has a low iron requirement compared to many pathogens, giving it a competitive advantage in iron-restricted environments.
 - [[lactoferrin]] -- the iron-binding glycoprotein abundant in cervicovaginal fluid -- supports *L. crispatus* dominance by sequestering iron from iron-dependent pathogens while having minimal impact on *Lactobacillus* growth [[roberts-2019-lactoferrin-genital-infections-iron]].
 - This iron ecology represents a natural [[nutritional-immunity]] mechanism: the host starves pathogens of iron while maintaining conditions favorable to *L. crispatus*.
-- Manganese is an important cofactor for *L. crispatus* superoxide dismutase and other enzymes, providing oxidative stress protection without relying on iron-dependent systems.
+- Manganese is an important cofactor for *L. crispatus* superoxide dismutase and other enzymes, providing [[oxidative-stress]] protection without relying on iron-dependent systems.
 
 ## Depletion in Gynecological Disease
 

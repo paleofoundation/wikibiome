@@ -20,7 +20,7 @@ source_count: 59
 
 ## Overview
 
-Lead is a purely toxic heavy metal with no known biological function. It is the most extensively studied metal in relation to neurodevelopmental harm and is increasingly recognized as a contributor to chronic disease across virtually every organ system, even at levels once considered safe. Its toxicity operates primarily through calcium mimicry, heme biosynthesis disruption, and oxidative stress [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]], [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. No level of lead exposure can be considered safe [[jakubowska-2024-metal-toxicity-alzheimers-review]], [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]].
+Lead is a purely toxic heavy metal with no known biological function. It is the most extensively studied metal in relation to neurodevelopmental harm and is increasingly recognized as a contributor to chronic disease across virtually every organ system, even at levels once considered safe. Its toxicity operates primarily through calcium mimicry, heme biosynthesis disruption, and [[oxidative-stress]] [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]], [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]. No level of lead exposure can be considered safe [[jakubowska-2024-metal-toxicity-alzheimers-review]], [[sabath-2012-renal-health-heavy-metal-nephrotoxicity]].
 
 What sets lead apart from other toxic metals is its ability to infiltrate calcium-dependent signaling pathways throughout the body. Because Pb(II) mimics Ca2+, it enters cells through calcium channels, accumulates in bone as a long-term reservoir, crosses the blood-brain barrier, and disrupts neurotransmission, enzyme function, and gene expression at concentrations far below those that produce overt symptoms [[tizabi-2023-lead-gut-microbiota-asd]], [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]. Approximately 99% of blood lead is protein-bound, and bone serves as the primary long-term reservoir with a half-life of decades [[tizabi-2023-lead-gut-microbiota-asd]].
 
@@ -225,7 +225,7 @@ Lead exposure paradoxically can mitigate chemically induced colitis in mice at s
 - [[iron]] -- shared DMT1 transport; iron deficiency amplifies Pb absorption; competition in dopaminergic neurons
 - [[chromium]] -- co-elevated in RA patients; triple Pb-Cd-Cr synergism in nephrotoxicity
 - [[nickel]] -- co-measured in RA and cancer studies; co-exposure effects on gut microbiome
-- [[oxidative-stress]] -- central mechanism across all organ systems; GSH/SOD depletion
+- oxidative stress -- central mechanism across all organ systems; GSH/SOD depletion
 - gut-microbiota -- Pb-induced dysbiosis, barrier disruption, bidirectional detoxification failure
 - [[metal-carcinogenesis]] -- metalloestrogen activity in breast cancer
 - [[glutathione]] -- Pb depletes GSH and inhibits GSH-dependent antioxidant enzymes

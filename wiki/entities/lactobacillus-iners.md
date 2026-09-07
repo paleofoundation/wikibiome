@@ -28,7 +28,7 @@ This distinction matters enormously for clinical interpretation. A vaginal micro
 
 ## Metal Dependencies
 
-- Manganese: *L. iners* relies on manganese-dependent enzymes for oxidative stress defense. Unlike *L. crispatus*, which produces robust hydrogen peroxide, *L. iners* produces minimal H2O2 -- a critical functional deficit.
+- Manganese: *L. iners* relies on manganese-dependent enzymes for [[oxidative-stress]] defense. Unlike *L. crispatus*, which produces robust hydrogen peroxide, *L. iners* produces minimal H2O2 -- a critical functional deficit.
 - Iron: Required for basic metabolic processes, though *L. iners* has a streamlined genome with reduced biosynthetic capacity compared to other vaginal lactobacilli.
 
 ## Key Enzymes and Virulence Factors

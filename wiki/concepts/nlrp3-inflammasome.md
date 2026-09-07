@@ -23,7 +23,7 @@ platform: wikibiome
 
 The NLRP3 inflammasome is a host innate-immune signaling complex that connects cellular danger signals to caspase-1 activation. In the canonical pathway represented in WikiBiome's evidence vault, caspase-1 processes the inflammatory cytokines IL-1beta and IL-18 and cleaves gasdermin D, whose membrane-forming fragment participates in pyroptotic cell death [[luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis]].
 
-NLRP3 is not a microorganism or a microbial product. It is a host response system that can be engaged by signals arising from infection, microbial metabolites, barrier failure, tissue damage, oxidative stress, or toxicant exposure. Its importance to WikiBiome is therefore relational: it is one route by which changes in microbial ecology and metal exposure can become host [[inflammation]] [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]] [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].
+NLRP3 is not a microorganism or a microbial product. It is a host response system that can be engaged by signals arising from infection, microbial metabolites, barrier failure, tissue damage, [[oxidative-stress]], or toxicant exposure. Its importance to WikiBiome is therefore relational: it is one route by which changes in microbial ecology and metal exposure can become host [[inflammation]] [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]] [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].
 
 ## From sensing to inflammatory output
 
@@ -65,7 +65,7 @@ That context dependence is why WikiBiome does not label every NLRP3-associated c
 - [[il-1beta]]
 - [[nf-kappa-b]]
 - [[tlr4]]
-- [[oxidative-stress]]
+- oxidative stress
 - [[reactive-oxygen-species]]
 - dysbiosis
 - [[short-chain-fatty-acids]]

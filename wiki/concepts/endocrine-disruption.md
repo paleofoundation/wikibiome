@@ -115,5 +115,5 @@ EDC effects are most pronounced during critical developmental windows:
 - [[estrobolome]] -- microbial estrogen recirculation
 - [[beta-glucuronidase]] -- shared enzyme for hormone and EDC reactivation
 - [[exposome]] -- total environmental exposure framework
-- [[oxidative-stress]] -- metal-induced ROS amplifying EDC effects
+- oxidative stress -- metal-induced ROS amplifying EDC effects
 - [[pcos]] -- primary hyperandrogenism context

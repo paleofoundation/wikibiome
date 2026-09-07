@@ -38,7 +38,7 @@ ZO proteins are cytoplasmic scaffolding proteins that anchor claudins and occlud
 ## What Breaks Tight Junctions
 
 ### Heavy Metals
-- [[cadmium]]: Directly disrupts ZO-1 and occludin via oxidative stress and MAPK activation [[ghosh-2023-heavy-metals-gut-barrier-integrity]] [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
+- [[cadmium]]: Directly disrupts ZO-1 and occludin via [[oxidative-stress]] and MAPK activation [[ghosh-2023-heavy-metals-gut-barrier-integrity]] [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 - [[lead]]: Displaces calcium from adherens junctions (which anchor tight junctions); reduces claudin expression.
 - [[arsenic]]: Generates ROS that oxidize tight junction protein sulfhydryl groups.
 

@@ -86,7 +86,7 @@ This metal dependency means that the kynurenine pathway does not merely respond 
 - [[tryptophan-metabolism]] -- comprehensive overview of all three tryptophan routes
 - [[iron]] -- cofactor for IDO/TDO
 - [[neuroinflammation]] -- the driver and consequence of pathway activation
-- [[oxidative-stress]] -- QUIN and 3-HK generate ROS
+- oxidative stress -- QUIN and 3-HK generate ROS
 - [[alpha-synuclein|tau-phosphorylation]] -- QUIN promotes tau pathology
 - [[amyloid-beta]] -- QUIN promotes aggregation
 - [[gut-brain-axis]] -- the route by which peripheral IDO activity affects the brain

@@ -69,7 +69,7 @@ Produced by fiber-fermenting commensals, SCFAs are central mediators of gut-brai
 #### Tryptophan and Indole Derivatives
 Microbial tryptophan metabolism produces neuroactive metabolites through three pathways:
 - Kynurenine pathway (host IDO1/TDO2): produces kynurenic acid (neuroprotective NMDA antagonist) and quinolinic acid (neurotoxic NMDA agonist). Inflammation shifts the balance toward quinolinic acid.
-- Indole pathway (microbial tryptophanase): produces indole, indole-3-propionic acid (IPA), and indole-3-aldehyde. IPA is a potent antioxidant that protects against oxidative stress; it and indole-3-aldehyde activate the aryl hydrocarbon receptor (AhR), modulating neuroinflammation.
+- Indole pathway (microbial tryptophanase): produces indole, indole-3-propionic acid (IPA), and indole-3-aldehyde. IPA is a potent antioxidant that protects against [[oxidative-stress]]; it and indole-3-aldehyde activate the aryl hydrocarbon receptor (AhR), modulating neuroinflammation.
 - Serotonin pathway: gut bacteria produce ~95% of the body's serotonin via enterochromaffin cell stimulation. Serotonin does not cross the BBB but affects the brain indirectly through vagal signaling and through tryptophan availability (serotonin synthesis in the brain depends on peripheral tryptophan levels).
 - Metal-induced depletion of Clostridium and Lactobacillus reduces IPA and indole-3-aldehyde production, diminishing AhR-mediated anti-inflammatory signaling.
 

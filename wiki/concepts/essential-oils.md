@@ -44,7 +44,7 @@ Thymoquinone is the primary bioactive compound in Nigella sativa (black seed) oi
 
 - Antimicrobial: Active against MRSA, VRE, and multi-drug-resistant Gram-negatives
 - Anti-inflammatory: Suppresses NF-kB and COX-2
-- Metal interaction: Chelates iron and reduces metal-catalyzed oxidative stress
+- Metal interaction: Chelates iron and reduces metal-catalyzed [[oxidative-stress]]
 - Anticancer: Induces apoptosis in cancer cells; being explored in breast and colorectal cancer
 
 ### Cinnamaldehyde
@@ -111,5 +111,5 @@ This natural chelation is gentler than pharmaceutical [[chelation-therapy]] -- i
 - [[inter-kingdom-metal-shielding]] -- fungal-bacterial biofilm target
 - [[siderophores-metallophores]] -- iron competition
 - [[pharmacomicrobiomics]] -- drug-microbiome interactions
-- [[oxidative-stress]] -- metal-catalyzed ROS target
+- oxidative stress -- metal-catalyzed ROS target
 - [[helicobacter-pylori]] -- urease inhibition by thymol

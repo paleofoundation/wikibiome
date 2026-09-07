@@ -84,7 +84,7 @@ Salmonella is a major example of metal-antibiotic co-selection:
 
 - [[iron]] — multi-system iron acquisition; salmochelin as stealth siderophore
 - [[siderophores]] — salmochelin evades lipocalin-2; enterobactin as backup
-- [[manganese]] — MntH/SitABCD for oxidative stress defense inside macrophages
+- [[manganese]] — MntH/SitABCD for [[oxidative-stress]] defense inside macrophages
 - [[zinc]] — zinc intoxication defense via ZntA; calprotectin-mediated sequestration
 - [[nickel]] — NiFe-hydrogenase for gut colonization
 - [[calprotectin]] — primary host defense targeting Mn and Zn

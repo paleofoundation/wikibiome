@@ -56,7 +56,7 @@ This mechanism shows why catalase activity cannot be understood from gene presen
 
 ## Related pages
 
-- [[oxidative-stress]]
+- oxidative stress
 - [[reactive-oxygen-species]]
 - [[superoxide-dismutase]]
 - [[fenton-chemistry]]

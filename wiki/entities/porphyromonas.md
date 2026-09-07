@@ -32,7 +32,7 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 ### Iron -- Hemin Acquisition
 - *Porphyromonas* requires hemin (iron-protoporphyrin IX) as an essential growth factor -- it cannot synthesize its own porphyrin ring.
 - Acquires hemin from hemoglobin degradation using gingipain proteases that lyse erythrocytes and degrade hemoglobin at the gingival sulcus.
-- Stores hemin on its cell surface as a black pigment (mu-oxo bisheme), which also protects against oxidative stress -- this pigmentation is the origin of the genus name.
+- Stores hemin on its cell surface as a black pigment (mu-oxo bisheme), which also protects against [[oxidative-stress]] -- this pigmentation is the origin of the genus name.
 - Iron-limited conditions derepress virulence gene expression, increasing hemin acquisition and host tissue destruction.
 
 ## Disease Associations

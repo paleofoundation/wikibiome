@@ -73,7 +73,7 @@ Copper stabilizes hypoxia-inducible factor 1-alpha (HIF-1alpha) by mediating inh
 
 ### Fe-S Cluster Destruction (Primary Intracellular Target)
 
-The primary mechanism of copper toxicity at the molecular level is destruction of iron-sulfur clusters in metabolic enzymes. Copper binds to and destroys solvent-accessible Fe-S clusters in enzymes including isopropylmalate isomerase (IPMI, leucine biosynthesis), fumarase A (TCA cycle), and GOGAT (glutamate synthase, contains 4Fe-4S cluster), causing branched-chain amino acid auxotrophy and glutamate starvation [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]. This damage proceeds even under anaerobic conditions where ROS cannot form, demonstrating that Fe-S cluster destruction is independent of oxidative stress [[wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic]], [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]].
+The primary mechanism of copper toxicity at the molecular level is destruction of iron-sulfur clusters in metabolic enzymes. Copper binds to and destroys solvent-accessible Fe-S clusters in enzymes including isopropylmalate isomerase (IPMI, leucine biosynthesis), fumarase A (TCA cycle), and GOGAT (glutamate synthase, contains 4Fe-4S cluster), causing branched-chain amino acid auxotrophy and glutamate starvation [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]]. This damage proceeds even under anaerobic conditions where ROS cannot form, demonstrating that Fe-S cluster destruction is independent of [[oxidative-stress]] [[wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic]], [[sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria]].
 
 Synergistic metal toxicity: When nickel and copper co-occur at environmentally relevant concentrations (30 uM Ni + 15 uM Cu), neither metal alone causes significant toxicity, but the combination triggers massive transcriptomic disruption with 70% of differentially expressed genes (360/512) uniquely affected by the combination. Iron-sulfur cluster assembly machinery (ISC) is upregulated only during combined exposure [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
 
@@ -336,7 +336,7 @@ The Cu/Zn ratio emerges as one of the most consistent disease biomarkers across 
 - [[arsenic]] -- co-measured in metallomic panels; co-contaminant in food
 - [[mis-metallation]] -- Cu sits atop Irving-Williams series; primary displacer of Fe from Fe-S clusters
 - [[nutritional-immunity]] -- phagosomal Cu burst as innate immune weapon
-- [[oxidative-stress]] -- Fenton-like redox cycling as toxicity mechanism
+- oxidative stress -- Fenton-like redox cycling as toxicity mechanism
 - [[metal-carcinogenesis]] -- cuproplasia and cuproptosis; Cu as universal cancer biomarker
 - [[metallomics]] -- Cu is the anchor element in cancer and cardiovascular metallomic signatures
 - [[antimicrobial-resistance]] -- copper co-selects for antibiotic resistance via linked genetic elements

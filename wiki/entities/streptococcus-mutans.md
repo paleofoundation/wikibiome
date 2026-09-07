@@ -30,7 +30,7 @@ For the genus-level page covering all pathogenic and commensal streptococci, see
 
 ### Manganese and Iron: Essential Cofactors
 
-*S. mutans* requires [[manganese]] and [[iron]] for core metabolic functions, importing both through the SloABC ABC transporter regulated by the metalloregulator SloR ([[katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc]], in-vitro). A second manganese transporter, MntH (Nramp-type), provides redundancy. Manganese serves as the cofactor for superoxide dismutase and other oxidative stress defense enzymes, while iron supports glycolytic enzymes critical for the acid production that drives tooth demineralization.
+*S. mutans* requires [[manganese]] and [[iron]] for core metabolic functions, importing both through the SloABC ABC transporter regulated by the metalloregulator SloR ([[katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc]], in-vitro). A second manganese transporter, MntH (Nramp-type), provides redundancy. Manganese serves as the cofactor for superoxide dismutase and other [[oxidative-stress]] defense enzymes, while iron supports glycolytic enzymes critical for the acid production that drives tooth demineralization.
 
 ### Zinc: Resistance as Survival Strategy
 

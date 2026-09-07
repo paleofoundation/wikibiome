@@ -57,7 +57,7 @@ Christensenellaceae occupies a keystone position in the healthy gut ecosystem:
 
 ### Depleted in:
 
-- Inflammatory bowel disease: Christensenellaceae R-7 group depleted in both CD and UC as part of the lost healthy core microbiota ([[kang-2023-diagnosis-crohns-uc-microbiome]], cross-sectional). Virulence factor analysis shows that its depletion coincides with enrichment of oxidative stress and iron-acquisition pathways ([[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]], cross-sectional).
+- Inflammatory bowel disease: Christensenellaceae R-7 group depleted in both CD and UC as part of the lost healthy core microbiota ([[kang-2023-diagnosis-crohns-uc-microbiome]], cross-sectional). Virulence factor analysis shows that its depletion coincides with enrichment of [[oxidative-stress]] and iron-acquisition pathways ([[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]], cross-sectional).
 - Breast cancer: Enriched in controls, depleted in BCa patients (20% of cases vs. higher in controls by LEfSe) ([[altinok-dindar-2023-gut-microbiota-breast-cancer-diet]], case-control, n=86).
 - Colorectal cancer: Depleted across French, American, Chinese, and Austrian CRC cohorts; a reliable cross-population control-enriched biomarker ([[wu-2021-microbial-markers-populations-early-crc]], cross-sectional).
 - Ovarian cancer: Mendelian randomization identifies Christensenellaceae R-7 group as causally protective against OC (along with *Tyzzerella3*) ([[chen-2025-causal-gut-microbiota-metabolites-oc-ec-mr]], computational-prediction).

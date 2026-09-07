@@ -24,7 +24,7 @@ Cysteine is a sulfur-containing amino acid whose thiol (-SH) group makes it the 
 
 ## Metal Binding
 
-- Cadmium, mercury, lead, arsenic all bind cysteine thiol groups with high affinity, depleting free cysteine and glutathione pools → oxidative stress [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]] [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].
+- Cadmium, mercury, lead, arsenic all bind cysteine thiol groups with high affinity, depleting free cysteine and glutathione pools → [[oxidative-stress]] [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]] [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].
 - Zinc-finger proteins use cysteine (and [[histidine]]) residues to coordinate zinc — metal displacement at these sites is the basis of [[mis-metallation]].
 - Iron-sulfur clusters use cysteine ligands — heavy metal disruption of Fe-S clusters is a primary toxicity mechanism [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 - Nickel: Bacterial nickel-binding proteins (Hpn, HypB) use histidine-rich motifs, but cysteine residues are critical in nickel efflux and storage proteins [[maier-2019-nickel-microbial-pathogenesis]].
@@ -41,4 +41,4 @@ Cysteine is a sulfur-containing amino acid whose thiol (-SH) group makes it the 
 - [[mis-metallation]] — metal displacement at cysteine-coordinated sites
 - [[iron]] — iron-sulfur cluster cysteine ligands
 - [[cadmium]] — high-affinity cysteine thiol binding
-- [[oxidative-stress]] — cysteine depletion reduces antioxidant capacity
+- oxidative stress — cysteine depletion reduces antioxidant capacity

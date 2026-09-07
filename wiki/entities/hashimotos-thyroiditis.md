@@ -59,7 +59,7 @@ The thyroid has the highest [[selenium]] concentration of any organ, owing to se
 
 ### Heavy Metals and Nickel
 
-Cd inhibits hepatic 5'-monodeiodinase (T4-to-T3 conversion); Pb prevents deiodination; Hg inhibits TPO and Tg iodination. Nickel shows a dose-response relationship with thyroid function parameters: at blood Ni levels of 1.36-60.9 ug/L, 78.7% of men may face 10% higher risk of thyroid dysfunction, operating through [[oxidative-stress]] and apoptotic disruption in thyroid tissue. See [[gut-metal-microbiome]] and [[metal-disease-matrix]].
+Cd inhibits hepatic 5'-monodeiodinase (T4-to-T3 conversion); Pb prevents deiodination; Hg inhibits TPO and Tg iodination. Nickel shows a dose-response relationship with thyroid function parameters: at blood Ni levels of 1.36-60.9 ug/L, 78.7% of men may face 10% higher risk of thyroid dysfunction, operating through oxidative stress and apoptotic disruption in thyroid tissue. See [[gut-metal-microbiome]] and [[metal-disease-matrix]].
 
 ## Gut-Thyroid Axis
 
@@ -91,7 +91,7 @@ AIP diet pilot (n=16): significant QoL improvement across all SF-36 subscales an
 
 - [[graves-disease]] -- sister AITD with shared genetics but opposite functional outcome
 - [[selenium]], [[iron]], [[zinc]], [[copper]], [[iodine]] -- the essential mineral quintet
-- dysbiosis, [[gut-metal-microbiome]], [[oxidative-stress]], inflammation, [[nf-kappa-b]]
+- dysbiosis, [[gut-metal-microbiome]], oxidative stress, inflammation, [[nf-kappa-b]]
 - [[short-chain-fatty-acids]], butyrate, [[tryptophan-metabolism]]
 - [[akkermansia-muciniphila]], [[blautia]], [[prevotella]], [[probiotics]]
 - [[metal-disease-matrix]], [[comorbidities]], [[nutritional-immunity]]

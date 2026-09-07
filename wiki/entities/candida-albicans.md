@@ -38,7 +38,7 @@ In HIV-positive patients, Candida strains show differential metal susceptibility
 
 ### Metal-Dependent Virulence Factors
 - Fe acquisition: *C. albicans* has dedicated iron uptake systems including reductive iron assimilation (Fre/Ftr/Fet), siderophore uptake (Sit1), and hemoglobin/heme receptors. Iron limitation triggers the yeast-to-hyphae morphological switch -- a key virulence transition [[corrales-2024-iron-chelating-antifungal-collismycin-candida]] [[alves-2020-candida-adapting-survive-host-constraints]].
-- Cu-SOD: copper-zinc superoxide dismutase for oxidative stress defense within macrophage phagosomes.
+- Cu-SOD: copper-zinc superoxide dismutase for [[oxidative-stress]] defense within macrophage phagosomes.
 - Zn homeostasis: Zrt1/Zrt2 zinc transporters; zinc is required for alcohol dehydrogenase and numerous metalloenzymes.
 - Magnesium homeostasis: intracellular magnesium is a key immune evasion signal that modulates *C. albicans*-phagocyte interactions [[hans-2022-magnesium-candida-immune-evasion]].
 

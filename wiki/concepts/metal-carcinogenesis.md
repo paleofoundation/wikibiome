@@ -81,5 +81,5 @@ This means environmental exposures to these metals could amplify the carcinogeni
 
 - [[nickel]], [[arsenic]], [[chromium]] — the three paradigmatic metals
 - [[epigenetic-modifications]], [[hypoxic-signaling]], [[DNA-damage]] — the distinct mechanisms
-- [[oxidative-stress]] — shared but variably central
+- oxidative stress — shared but variably central
 - [[metabolic-syndrome]] — nickel's non-cancer pathology, possibly related to shared mechanisms

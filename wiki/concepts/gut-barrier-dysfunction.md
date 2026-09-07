@@ -90,4 +90,4 @@ Gut barrier dysfunction is implicated in virtually every disease in this wiki, b
 - [[gut-brain-axis]] -- how barrier failure reaches the brain
 - [[calprotectin]] -- biomarker of intestinal inflammation
 - [[nutritional-immunity]] -- the host metal-sequestration system engaged after barrier breach
-- [[oxidative-stress]] -- metal-generated ROS damage the barrier
+- oxidative stress -- metal-generated ROS damage the barrier

@@ -99,7 +99,7 @@ The gut-brain axis connects gut microbiome composition to brain function through
 This wiki's central contribution is mapping the specific ways in which metal exposure reshapes the gut microbiome and how that reshaped community feeds back to alter metal handling. For the full treatment see [[gut-metal-microbiome]].
 
 How metals reshape the microbiome [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]:
-- Toxic metals (Pb, Cd, Hg, As) increase microbial membrane permeability, generating oxidative stress that is lethal to obligate anaerobes but tolerated by metal-resistant facultative aerobes
+- Toxic metals (Pb, Cd, Hg, As) increase microbial membrane permeability, generating [[oxidative-stress]] that is lethal to obligate anaerobes but tolerated by metal-resistant facultative aerobes
 - Result: depletion of oxygen-sensitive SCFA producers (Firmicutes, *Faecalibacterium*, *Roseburia*) and enrichment of metal-tolerant Proteobacteria
 - Approximately 60% of ingested heavy metals are absorbed in the intestine; the remainder passes through the gut and exerts selection pressure on luminal bacteria throughout transit
 - This selection parallels the [[co-selection]] phenomenon: bacteria that survive metal exposure carry metal resistance genes, which are often co-located with antibiotic resistance genes

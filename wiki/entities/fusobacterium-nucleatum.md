@@ -43,7 +43,7 @@ A Gram-negative obligate anaerobe that has emerged as a major pathogen in colore
 
 ### Manganese Requirement
 
-- Manganese (Mn²⁺) is critical for *F. nucleatum* superoxide dismutase (Mn-SOD), protecting against oxidative stress in the inflammatory colonic microenvironment.
+- Manganese (Mn²⁺) is critical for *F. nucleatum* superoxide dismutase (Mn-SOD), protecting against [[oxidative-stress]] in the inflammatory colonic microenvironment.
 - Elevated colonic manganese levels (part of the CRC metallomic signature) favor *Fusobacterium* proliferation.
 
 ## FadA Adhesin: Virulence and Epithelial Invasion

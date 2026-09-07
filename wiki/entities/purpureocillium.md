@@ -55,7 +55,7 @@ This multi-domain cognitive association is unusual — most gut-brain axis findi
 The cognitive impact appears to operate through depletion of three key neuroactive metabolites when *Purpureocillium* is absent [[yuan-2025-purpureocillium-amino-acid-metabolism-cognitive-schizophrenia]]:
 
 1. Ergothioneine
-A potent antioxidant and cytoprotectant synthesized exclusively by fungi and certain bacteria (notably *Mycobacterium* species). Ergothioneine is not synthesized by mammals and must be acquired from diet or gut microbial production. It accumulates in tissues with high oxidative stress exposure — brain, liver, kidney, mitochondria. *Purpureocillium* is among the gut fungal species that produce or support ergothioneine availability; its depletion removes this antioxidant supply to neural tissue.
+A potent antioxidant and cytoprotectant synthesized exclusively by fungi and certain bacteria (notably *Mycobacterium* species). Ergothioneine is not synthesized by mammals and must be acquired from diet or gut microbial production. It accumulates in tissues with high [[oxidative-stress]] exposure — brain, liver, kidney, mitochondria. *Purpureocillium* is among the gut fungal species that produce or support ergothioneine availability; its depletion removes this antioxidant supply to neural tissue.
 
 2. N-acetylserotonin
 A melatonin precursor with independent neuroprotective and neurotrophic properties. N-acetylserotonin activates TrkB receptors (the BDNF receptor), promoting neuronal survival and synaptic plasticity without requiring BDNF itself. Its depletion disrupts both serotonergic signaling and circadian regulation — both highly relevant to schizophrenia pathophysiology.
@@ -113,7 +113,7 @@ Wikipedia covers *Purpureocillium lilacinum* primarily as an entomopathogenic an
 - [[aspergillus]] — Opposing mycobiome member; ratio used as diagnostic biomarker
 - [[candida-albicans|candida]] — Expands in Candida-dominant E2 enterotype when Purpureocillium is depleted
 - [[schizophrenia]] — Primary disease association: nearly eliminated in SCZ patients
-- [[oxidative-stress|ergothioneine]] — Neuroprotective antioxidant metabolite depleted when Purpureocillium is absent
+- ergothioneine — Neuroprotective antioxidant metabolite depleted when Purpureocillium is absent
 - [[gut-brain-axis]] — Pathway linking mycobiome composition to cognitive function
 - [[mycobiome]] — The gut fungal community in which Purpureocillium operates as a protective regulator
 - [[iron]] — Required for cytochrome P450-dependent secondary metabolite biosynthesis

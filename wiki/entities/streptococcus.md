@@ -43,7 +43,7 @@ A genus of Gram-positive facultative anaerobes that occupy niches ranging from b
 
 ### Manganese-Dependent Superoxide Dismutase (MnSOD) and the PsaA Permease
 
-- Streptococci rely on MnSOD (a cambialistic SOD in many species, able to use either Mn or Fe but preferring Mn in vivo) as their primary defense against oxidative stress [[akbari-2022-metal-homeostasis-streptococci]].
+- Streptococci rely on MnSOD (a cambialistic SOD in many species, able to use either Mn or Fe but preferring Mn in vivo) as their primary defense against [[oxidative-stress]] [[akbari-2022-metal-homeostasis-streptococci]].
 - MnSOD catalyzes the dismutation of superoxide radical (O2·−) to hydrogen peroxide and molecular oxygen, protecting intracellular proteins from oxidative damage.
 - Manganese is imported primarily through the PsaABC / PsaA ABC-type permease, which is essential for virulence in *S. pneumoniae* and related species [[akbari-2022-metal-homeostasis-streptococci]] [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
 - Elevated luminal zinc competes with manganese at PsaA, and excess Zn relative to Mn is directly toxic to pneumococci by preventing Mn uptake — a natural host antimicrobial strategy [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]]. Calcium can partially rescue streptococci from manganese excess toxicity [[opoku-2024-calcium-rescues-streptococcus-pneumoniae-manganese-toxicity]].

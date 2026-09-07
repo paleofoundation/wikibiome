@@ -63,7 +63,7 @@ An emerging approach uses temperate phages not to kill bacteria but to alter the
 The intersection of phages and metal ecology remains largely unexplored but mechanistically compelling:
 
 - Phage predation of metal-buffering commensals -- Lactic acid bacteria, bifidobacteria, and other commensals bind dietary metals and maintain gut barrier integrity. Their phage-mediated depletion releases metals into the luminal environment, potentially feeding metal-dependent pathogens.
-- Prophage induction by metal stress -- Environmental stressors including oxidative stress and DNA damage (both downstream of metal toxicity) can trigger prophage induction, converting lysogenic bacteria to lytic phage factories.
+- Prophage induction by metal stress -- Environmental stressors including [[oxidative-stress]] and DNA damage (both downstream of metal toxicity) can trigger prophage induction, converting lysogenic bacteria to lytic phage factories.
 - Phage-resistant mutants -- Bacteria that survive phage predation often carry surface modifications that also alter metal binding and transport properties.
 
 ## Key Studies

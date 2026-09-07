@@ -26,7 +26,7 @@ Fe-S clusters consist of iron atoms coordinated with inorganic sulfide (S2-) and
 - [2Fe-2S] -- Found in Rieske oxygenases, ferredoxins, and regulatory proteins like IRP-1. Rieske [2Fe-2S] centers in oxygenases can generate reactive oxygen species when uncoupled from substrate [[bopp-2024-o2-uncoupling-rieske-oxygenase-iron-ros-adaptation]].
 - [4Fe-4S] -- Found in aconitase, fumarase, dehydratases, and the Wood-Ljungdahl pathway enzymes essential to anaerobic metabolism.
 
-Assembly requires dedicated machinery -- the ISC (iron-sulfur cluster) system in most bacteria and mitochondria, and the SUF system under oxidative stress conditions. ISC assembly genes are upregulated under combined nickel-copper exposure, indicating the cell's attempt to repair ongoing Fe-S damage [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
+Assembly requires dedicated machinery -- the ISC (iron-sulfur cluster) system in most bacteria and mitochondria, and the SUF system under [[oxidative-stress]] conditions. ISC assembly genes are upregulated under combined nickel-copper exposure, indicating the cell's attempt to repair ongoing Fe-S damage [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].
 
 ## Fe-S Clusters as the Primary Target of Metal Toxicity
 
@@ -38,7 +38,7 @@ A paradigm shift in metal toxicology: Fe-S clusters, not DNA or lipids, are the 
 |-------|-----------|-------------|
 | Copper (Cu+) | Targets thiolate sulfur ligands in Fe-S clusters, displacing iron | Copper surfaces kill bacteria even under anaerobic conditions, proving ROS is not required [[wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic]] |
 | Nickel (Ni2+) | Occupies Fe2+ binding sites in ISC assembly scaffolds | ISC deletion mutants show growth impairment only under combined Ni+Cu exposure [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]] |
-| Cadmium (Cd2+) | Displaces iron from Fe-S clusters, releasing free Fe2+ that catalyzes Fenton reactions | Cadmium-driven Fe2+ release amplifies [[oxidative-stress]] as a secondary effect [[jaishankar-2014-heavy-metal-toxicity-mechanisms]] |
+| Cadmium (Cd2+) | Displaces iron from Fe-S clusters, releasing free Fe2+ that catalyzes Fenton reactions | Cadmium-driven Fe2+ release amplifies oxidative stress as a secondary effect [[jaishankar-2014-heavy-metal-toxicity-mechanisms]] |
 | Silver (Ag+) | Disrupts Fe-S clusters through mis-metallation; synergizes with antibiotics | Silver-antibiotic synergy partly explained by Fe-S damage [[barras-2018-silver-antibiotic-synergy-mismetallation]] |
 | Gallium (Ga3+) | Incorporates into Fe-S assembly as a redox-inactive Fe3+ mimic -- a Trojan horse | Poisons aconitase, succinate dehydrogenase, Fur, and IscR |
 
@@ -96,7 +96,7 @@ The Fe-S cluster story connects several WikiBiome themes:
 ## Cross-References
 
 - [[mis-metallation]] -- Fe-S clusters as canonical mis-metallation targets
-- [[oxidative-stress]] -- Secondary ROS from Fe2+ release after Fe-S disruption
+- oxidative stress -- Secondary ROS from Fe2+ release after Fe-S disruption
 - [[cuproptosis]] -- Fe-S destabilization in copper-induced cell death
 - [[siderophores-metallophores]] -- Competition for iron affects Fe-S assembly
 - [[short-chain-fatty-acids]] -- SCFA production depends on Fe-S enzymes

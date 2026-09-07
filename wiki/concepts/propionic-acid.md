@@ -56,7 +56,7 @@ Mitochondrial dysfunction: PPA enters brain cells and is converted to propionyl-
 
 Neuroinflammation: Excess PPA activates microglia, the brain's resident immune cells, and increases production of pro-inflammatory cytokines (TNF-α, IL-6, IL-1β). Reactive gliosis (astrocyte activation) is produced by PPA injection, creating the neuroinflammatory histopathology observed in post-mortem ASD brain tissue.
 
-Oxidative stress: Excess propionate increases lipid peroxidation markers (malondialdehyde) and depletes reduced glutathione in brain regions. Oxidative damage to synaptic proteins alters their function in ways that may contribute to ASD behavioral features.
+[[oxidative-stress]]: Excess propionate increases lipid peroxidation markers (malondialdehyde) and depletes reduced glutathione in brain regions. Oxidative damage to synaptic proteins alters their function in ways that may contribute to ASD behavioral features.
 
 Epigenetic regulation: PPA, like other SCFAs, inhibits histone deacetylases (HDACs). At physiological concentrations this is regulatory and potentially beneficial; at pathological excess it may disrupt the balance of gene expression in developing neural tissue during critical developmental windows. HDAC inhibition by PPA is particularly significant in early neurodevelopment when epigenetic programming is most sensitive [[he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese]].
 

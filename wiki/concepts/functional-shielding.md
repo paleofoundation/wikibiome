@@ -26,7 +26,7 @@ platform: wikibiome
 
 ## Overview
 
-Functional shielding is the phenomenon in which one microorganism — typically a fungus — physically and immunologically protects a co-resident pathogen from host immune attack, antimicrobial agents, and oxidative stress. The shielding organism's biofilm matrix acts as a permeability barrier while cross-kingdom signaling enhances virulence and suppresses host immune alertness. This is not passive co-occurrence — it is active, bidirectional immune subversion where both partners benefit from the partnership.
+Functional shielding is the phenomenon in which one microorganism — typically a fungus — physically and immunologically protects a co-resident pathogen from host immune attack, antimicrobial agents, and [[oxidative-stress]]. The shielding organism's biofilm matrix acts as a permeability barrier while cross-kingdom signaling enhances virulence and suppresses host immune alertness. This is not passive co-occurrence — it is active, bidirectional immune subversion where both partners benefit from the partnership.
 
 This concept exemplifies Karen's Brain Primitive 6 (Interkingdom Relationships and Functional Shielding): understanding disease requires examining the entire ecological network pathogens inhabit, not just individual organisms in isolation.
 

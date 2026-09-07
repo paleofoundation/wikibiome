@@ -82,7 +82,7 @@ A genus of ascomycete yeasts that includes both a proven therapeutic probiotic (
 - [[cadmium]] -- cell wall biosorption capacity for Cd and other heavy metals
 - [[lead]] -- metal biosorption may reduce bioavailable Pb in the gut
 - [[zinc]] -- Zn-dependent enzymes; cell wall Zn-binding capacity
-- [[copper]] -- Cu/Zn-SOD for oxidative stress defense
+- [[copper]] -- Cu/Zn-SOD for [[oxidative-stress]] defense
 - dysbiosis -- S. boulardii counters dysbiosis; S. cerevisiae may signal disease states
 - [[inflammation]] -- S. boulardii anti-inflammatory (NF-kB inhibition); beta-glucans immunomodulatory
 - [[gut-metal-microbiome]] -- metal biosorption capacity links fungal biology to metal homeostasis

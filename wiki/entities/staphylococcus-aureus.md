@@ -107,7 +107,7 @@ A versatile Gram-positive pathogen with one of the best-characterized nutritiona
 - [[nickel]] -- cofactor for urease; scavenged by staphylopine
 - [[iron]] -- essential for growth; acquired via siderophores and heme piracy
 - [[zinc]] -- scavenged by staphylopine; target of host calprotectin
-- [[manganese]] -- cofactor for SOD; critical for oxidative stress defense
+- [[manganese]] -- cofactor for SOD; critical for [[oxidative-stress]] defense
 - [[nutritional-immunity]] -- calprotectin-mediated metal restriction is central to the host-*S. aureus* battle
 - [[helicobacter-pylori]] -- both use Ni-dependent urease but in very different niches (stomach vs. skin/kidney)
 - [[enterococcus]] -- parallel metal-antibiotic co-resistance evolution

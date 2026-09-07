@@ -21,7 +21,7 @@ The gut-testis axis describes the bidirectional communication between the [[gut-
 
 Iron-dependent cell death (ferroptosis) in spermatogenic cells represents one mechanistic node of this axis. The microbial metabolite 3-hydroxyphenylacetic acid (3-HPAA) has been shown to trigger ferroptosis in testicular tissue, directly linking gut microbial metabolism to spermatogenic failure ([[jin-2023-3hpaa-spermatogenesis-ferroptosis]]). This iron-ecology dimension connects the gut-testis axis to broader metallomics — iron availability in the gut selects for siderophore-producing bacteria whose metabolic outputs may propagate reproductive toxicity.
 
-Oxidative stress mediated by dysbiotic gut communities further impairs male fertility through systemic pathways ([[kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility]]), while comprehensive reviews establish the gut microbiota as a regulator of testosterone levels, sperm quality, and blood-testis barrier integrity ([[lv-2024-gut-microbiota-male-reproductive-function-review]]).
+[[oxidative-stress]] mediated by dysbiotic gut communities further impairs male fertility through systemic pathways ([[kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility]]), while comprehensive reviews establish the gut microbiota as a regulator of testosterone levels, sperm quality, and blood-testis barrier integrity ([[lv-2024-gut-microbiota-male-reproductive-function-review]]).
 
 ## Cross-References
 

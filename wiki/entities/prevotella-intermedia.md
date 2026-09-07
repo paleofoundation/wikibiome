@@ -33,7 +33,7 @@ Unlike gut-associated *Prevotella* species (such as *P. copri*, which may be pro
 [[iron|Iron]] in the form of hemin is essential for *P. intermedia* growth and virulence. The organism actively acquires heme from host hemoglobin and stores it on its cell surface as the black pigment mu-oxo bisheme, creating a visible biomarker of iron acquisition ([[yoshida-2023-pathogens-saliva-cp-adolescents]], cross-sectional). This surface iron deposit serves multiple functions:
 
 - Iron reservoir -- Stored hemin provides iron under conditions of host iron restriction
-- Oxidative stress defense -- Heme catalases and peroxidases protect against host-generated reactive oxygen species
+- [[oxidative-stress]] defense -- Heme catalases and peroxidases protect against host-generated reactive oxygen species
 - Tissue destruction -- Heme-dependent proteases degrade periodontal connective tissue
 
 The iron dependency of *P. intermedia* connects it to the broader [[nutritional-immunity]] framework: host iron-sequestering proteins like [[lactoferrin]] in saliva and gingival crevicular fluid directly compete with bacterial heme acquisition.

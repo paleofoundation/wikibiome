@@ -54,7 +54,7 @@ Indoxyl sulfate, p-cresyl sulfate, TMAO -- microbially-derived metabolites that 
 The most distinctive WikiBiome application: simultaneous measurement of metal speciation and metabolite profiles reveals how metal exposure reshapes microbial metabolism.
 
 - Iron exposure produces the most distinct metabolomic signature in *C. elegans* -- more disruptive than zinc or manganese [[blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans]].
-- Heavy metal toxicity metabolomics reveals shared metabolic disruption patterns across Pb, Cd, Hg, As exposures (oxidative stress markers, amino acid depletion, energy metabolism disruption) [[akash-2023-metabolomics-heavy-metal-toxicities]].
+- Heavy metal toxicity metabolomics reveals shared metabolic disruption patterns across Pb, Cd, Hg, As exposures ([[oxidative-stress]] markers, amino acid depletion, energy metabolism disruption) [[akash-2023-metabolomics-heavy-metal-toxicities]].
 - Metallomic-metabolomic COVID profiling in mother-infant dyads revealed coordinated metal-metabolite disruption during SARS-CoV-2 infection [[arias-borrego-2022-metallomic-metabolomic-covid-mothers]].
 
 ## Disease Applications

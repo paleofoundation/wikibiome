@@ -224,7 +224,7 @@ A striking connection has emerged between nickel sensitivity and [[endometriosis
 
 - Dose-response relationship exists between blood nickel and thyroid hormone parameters (TSH, fT4, fT3, SPINA-GT, SPINA-GD) [[maric-2023-nickel-thyroid-function]].
 - Males appear more susceptible: significant correlations found only in males for Ni vs fT4 (p=0.039) and Ni vs SPINA-GT (p=0.013). At blood Ni levels of 1.36-60.9 ug/L, 78.68% of men may be at 10% higher risk of thyroid function alterations [[maric-2023-nickel-thyroid-function]].
-- Mechanism: [[oxidative-stress]] (reducing glutathione, SOD activity) and perturbation of apoptosis-related proteins in thyroid tissue [[maric-2023-nickel-thyroid-function]].
+- Mechanism: oxidative stress (reducing glutathione, SOD activity) and perturbation of apoptosis-related proteins in thyroid tissue [[maric-2023-nickel-thyroid-function]].
 
 ### Nickel, Fertilizers, and the Obesity Epidemic
 
@@ -263,7 +263,7 @@ A striking connection has emerged between nickel sensitivity and [[endometriosis
 
 ## Neurotoxicity
 
-- Chronic low-dose nickel causes anxiety, depression, and memory impairment in rats via hippocampal [[oxidative-stress]] [[lamtai-2018-nickel-neurobehavior]].
+- Chronic low-dose nickel causes anxiety, depression, and memory impairment in rats via hippocampal oxidative stress [[lamtai-2018-nickel-neurobehavior]].
 - Crosses BBB, accumulates in cerebral cortex; disrupts dopamine, serotonin, acetylcholine, GABA, and NMDA receptors. Ni2+ can release dopamine and inhibit glutamate receptors [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]].
 - Nickel inhibits Cob(I)alamin adenosyltransferase (vitamin B12 metabolism) with 50% loss at 100 uM Ni2+, potentially linking to neurological effects of B12 deficiency [[genchi-2020-nickel-human-health-environmental-toxicology]].
 
@@ -300,7 +300,7 @@ Children are a particularly vulnerable population due to immature detoxification
 - Organic baby foods paradoxically have higher nickel: 100% detection, 54.7 ug/kg vs 35.8 ug/kg in non-organic (p=0.015) [[pereira-2020-nickel-baby-foods]].
 - In France, up to 98% of children aged 1-36 months exceed TDI under upper-bound assumptions; chocolate/cocoa accounts for 10% of mean daily intake in children [[dobrzynska-2025-nickel-children-food]].
 - Soy-based infant formula contains ~10x more nickel than cow's milk formula (0.45 vs 0.03 mg/L) and orders of magnitude more than human breast milk (0.005-0.016 mg/L) [[pendergrass-2026-nickel-nec-preterm-gut]].
-- Children near industrial areas have elevated urinary nickel correlated with markers of [[oxidative-stress]] [[dobrzynska-2025-nickel-children-food]].
+- Children near industrial areas have elevated urinary nickel correlated with markers of oxidative stress [[dobrzynska-2025-nickel-children-food]].
 - EFSA TDI: 13 ug/kg body weight/day (with a more protective 2.8 ug/kg b.w./day value previously in use). No maximum residue level for nickel in baby food exists [[pereira-2020-nickel-baby-foods]].
 - German infant formula study and Italian baby food analyses confirm nickel as a ubiquitous contaminant [[hopfner-2025-infant-formula-dietary-exposure-elements-germany]], [[meli-2024-chemical-characterization-baby-food-italy]], [[gonzalez-suarez-2022-baby-food-jars-essential-toxic-elements]], [[garuba-2024-heavy-metals-commercial-baby-foods]].
 
@@ -361,7 +361,7 @@ Mammals do not synthesize known Ni-requiring proteins, yet nickel is essential f
 - Hydrogenase ([NiFe]): H2 oxidation for energy. Critical for *H. pylori* ([[caga|CagA]] translocation, CO2 fixation), [[salmonella-typhimurium]], *Campylobacter jejuni*.
 - [[glyoxalase]] I (GloI): methylglyoxal detoxification. Drug target in *Leishmania donovani*. E. coli GlxI specifically requires Ni2+ [[pendergrass-2026-nickel-nec-preterm-gut]].
 - Acireductone dioxygenase (ARD): methionine salvage. Found in all pathogenic gamma-proteobacteriaceae.
-- Ni-SOD: rare; [[oxidative-stress]] defense in *Streptomyces* [[maier-2019-nickel-microbial-pathogenesis]].
+- Ni-SOD: rare; oxidative stress defense in *Streptomyces* [[maier-2019-nickel-microbial-pathogenesis]].
 
 ### Staphylopine: A Broad-Spectrum Nickel Metallophore
 
@@ -523,7 +523,7 @@ Organisms:
 Mechanisms and Concepts:
 - [[mis-metallation]] -- nickel displaces weaker-binding metals from enzyme active sites per Irving-Williams series
 - [[iron-sulfur-clusters]] -- primary target of combined Ni/Cu toxicity
-- [[oxidative-stress]] -- mechanism in toxicity, pathogen defense, neurotoxicity, and thyroid disruption
+- oxidative stress -- mechanism in toxicity, pathogen defense, neurotoxicity, and thyroid disruption
 - [[epigenetic-modifications]] -- primary carcinogenic pathway (DNA methylation, histone modifications)
 - [[nutritional-immunity]] -- host defense exploiting nickel scarcity in mammals
 - [[co-selection]] -- nickel contamination drives antibiotic resistance in soils and oral biofilms

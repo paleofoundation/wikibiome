@@ -65,7 +65,7 @@ The ferritin threshold matters enormously: serum ferritin below 1 ug was associa
 
 ### Copper Elevation: Pro-oxidant or Compensatory?
 
-[[etebary-2010-ppd-serum-trace-elements|Etebary et al. (2010)]] documented elevated serum copper in women with PPD history. Copper is required for catecholamine and monoamine neurotransmitter synthesis (via dopamine beta-hydroxylase), so some elevation may represent a compensatory response to increased neurotransmitter demand. However, excess free copper generates reactive oxygen species through Fenton-like chemistry. The Cu/Zn ratio may again be the relevant metric: elevated Cu combined with depleted Zn simultaneously increases oxidative stress and impairs antioxidant defense.
+[[etebary-2010-ppd-serum-trace-elements|Etebary et al. (2010)]] documented elevated serum copper in women with PPD history. Copper is required for catecholamine and monoamine neurotransmitter synthesis (via dopamine beta-hydroxylase), so some elevation may represent a compensatory response to increased neurotransmitter demand. However, excess free copper generates reactive oxygen species through Fenton-like chemistry. The Cu/Zn ratio may again be the relevant metric: elevated Cu combined with depleted Zn simultaneously increases [[oxidative-stress]] and impairs antioxidant defense.
 
 ### Magnesium: The Null Finding
 

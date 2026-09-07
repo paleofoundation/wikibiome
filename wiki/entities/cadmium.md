@@ -33,7 +33,7 @@ What distinguishes cadmium in the WikiBiome framework is the convergence of thre
 
 Cadmium has no essential biological function. Its toxicity operates through several interconnected mechanisms:
 
-Oxidative stress. Cadmium generates reactive oxygen species (ROS) by inhibiting electron transport chain complexes II and III in mitochondria, collapsing membrane potential and activating the caspase cascade [[genchi-2020-cadmium-toxicity]]. Simultaneously, Cd depletes the cellular antioxidant arsenal --- it binds [[glutathione]] via thiol groups, inhibits superoxide dismutase (SOD) by displacing zinc and manganese cofactors, and reduces catalase and glutathione peroxidase activity [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]], [[begg-2015-cadmium-toxicity-transition-metal-pneumococcus]]. The result is a synergistic toxicity: Cd induces oxidative stress while simultaneously disabling the enzymes that would neutralize it.
+[[oxidative-stress]]. Cadmium generates reactive oxygen species (ROS) by inhibiting electron transport chain complexes II and III in mitochondria, collapsing membrane potential and activating the caspase cascade [[genchi-2020-cadmium-toxicity]]. Simultaneously, Cd depletes the cellular antioxidant arsenal --- it binds [[glutathione]] via thiol groups, inhibits superoxide dismutase (SOD) by displacing zinc and manganese cofactors, and reduces catalase and glutathione peroxidase activity [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]], [[begg-2015-cadmium-toxicity-transition-metal-pneumococcus]]. The result is a synergistic toxicity: Cd induces oxidative stress while simultaneously disabling the enzymes that would neutralize it.
 
 Epigenetic modification. Cd exposure alters DNA methylation patterns globally (hypomethylation with chronic exposure), modifies histone acetylation, and dysregulates microRNA expression. In MCF-7 breast cancer cells, Cd treatment altered 997 genes by epigenetic modification, 400 of which are associated with breast cancer [[tarhonska-2022-cadmium-breast-cancer-mechanisms]]. Defective DNA repair following Cd-induced oxidative damage is considered a primary carcinogenic mechanism [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].
 
@@ -234,7 +234,7 @@ Three molecular mechanisms drive co-selection: (1) co-resistance --- physical li
 - [[iron]] -- shares DMT1 transporter with Cd; iron deficiency enhances Cd absorption
 - [[manganese]] -- Cd displaces Mn from PsaA and SOD, compounding oxidative vulnerability
 - [[lead]] -- synergistic toxicity with Cd, especially for CKD and mortality risk
-- [[oxidative-stress]] -- central mediator of Cd toxicity across all organ systems
+- oxidative stress -- central mediator of Cd toxicity across all organ systems
 - [[glutathione]] -- Cd depletes GSH via thiol binding; GSH depletion amplifies oxidative damage
 - [[mis-metallation]] -- Cd displaces Zn/Mn/Ca from metalloproteins; 16+ targets mapped in pneumococcus
 - [[nutritional-immunity]] -- Cd exploits the same transporters used by host metal weaponization

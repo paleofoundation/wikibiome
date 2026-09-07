@@ -48,7 +48,7 @@ Nickel:
 - The nickel requirement creates a potential Achilles' heel -- restricting nickel availability could limit hydrogenase activity and reduce pathogenic capacity.
 
 Iron:
-- Like other Helicobacter species, *H. hepaticus* requires iron for electron transport chain components and oxidative stress defense.
+- Like other Helicobacter species, *H. hepaticus* requires iron for electron transport chain components and [[oxidative-stress]] defense.
 - The hepatobiliary niche is relatively iron-rich compared to the gastric environment, which may partly explain why *H. hepaticus* does not require urease (no need to buffer acid for survival) but does rely heavily on iron-dependent metabolism.
 
 ## Key Enzymes and Virulence Factors

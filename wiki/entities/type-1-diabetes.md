@@ -50,7 +50,7 @@ Iron accumulation in pancreatic islets is directly toxic to beta cells through m
 - Hereditary hemochromatosis (HFE mutations) causes pancreatic iron overload and "bronze diabetes" — 30–60% of hemochromatosis patients develop diabetes
 - Fe²⁺ generates hydroxyl radicals via Fenton chemistry, damaging beta cell membranes, DNA, and insulin-producing machinery
 - Iron-loaded beta cells show reduced insulin secretion in response to glucose stimulation; islet iron content correlates inversely with insulin secretory capacity
-- Iron-driven oxidative stress may generate neoantigens (oxidatively modified proteins) that trigger autoimmune recognition — potentially explaining how iron overload initiates rather than merely worsens T1D
+- Iron-driven [[oxidative-stress]] may generate neoantigens (oxidatively modified proteins) that trigger autoimmune recognition — potentially explaining how iron overload initiates rather than merely worsens T1D
 - Ferroptosis-like beta cell death may release damage-associated molecular patterns (DAMPs) that activate dendritic cells and initiate the autoimmune cascade
 - Hepcidin, the master iron-regulatory hormone, is expressed in beta cells and modulates local iron homeostasis
 

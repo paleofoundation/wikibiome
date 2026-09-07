@@ -35,7 +35,7 @@ Mendelian randomization (MR) studies have identified a distinctive metal profile
 
 | Metal | Direction | Evidence | Mechanism |
 |-------|-----------|----------|-----------|
-| Copper (Cu) | Elevated (causal) | MR OR = 1.095 Zeng et al. 2025 | Promotes oxidative stress, displaces zinc in metalloenzymes, amplifies neuroinflammation. Elevated Cu/Zn ratio correlates with pain severity |
+| Copper (Cu) | Elevated (causal) | MR OR = 1.095 Zeng et al. 2025 | Promotes [[oxidative-stress]], displaces zinc in metalloenzymes, amplifies neuroinflammation. Elevated Cu/Zn ratio correlates with pain severity |
 | Iron (Fe) | Depleted (protective when present) | MR OR = 0.440 (protective) Zeng et al. 2025; ferritin <50 ng/mL = 6.5x FM risk Shtrozberg et al. 2025 | Iron deficiency impairs mitochondrial function and dopamine synthesis. Hepcidin-mediated sequestration may explain functional iron deficiency despite normal serum levels |
 | Magnesium (Mg) | Depleted | Observational studies | Cofactor for >300 enzymes; deficiency amplifies NMDA receptor activation, central sensitization, and muscle hyperexcitability |
 | Selenium (Se) | Depleted | Observational studies | Cofactor for glutathione peroxidase (GPX); depletion impairs antioxidant defense. GPX3 expression decreased 0.85x in FM patients Duran-Gonzalez et al. 2025 |

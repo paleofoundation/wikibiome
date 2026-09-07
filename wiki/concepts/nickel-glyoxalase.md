@@ -44,7 +44,7 @@ Key difference from human enzyme: Human cytoplasmic Zn-GlxI has different cataly
 - [[inflammatory-bowel-disease]] — Dysbiotic E. coli with Ni-dependent detoxification; low-oxygen environments favor MG accumulation.
 - [[colorectal-cancer]] — Genotoxic stress from MG increases reliance on Ni-GlxI.
 
-Bacteria without functional Ni-GlxI (or starved of nickel) accumulate MG, triggering DNA damage, oxidative stress, and growth arrest.
+Bacteria without functional Ni-GlxI (or starved of nickel) accumulate MG, triggering DNA damage, [[oxidative-stress]], and growth arrest.
 
 ## Metal Connections
 

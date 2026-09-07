@@ -146,7 +146,7 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 
 - [[depression]] -- depression affects 30-40% of PD patients, often preceding motor symptoms by years; shared gut-brain axis disruption via SCFA depletion and tryptophan pathway shifts; serotonergic neuron loss in the raphe nuclei parallels dopaminergic loss in the substantia nigra; L-DOPA treatment can worsen depression by depleting serotonin precursors
 - [[anxiety]] -- anxiety disorders in 25-40% of PD patients; often appears in the prodromal phase alongside constipation and anosmia; shared vagal pathway dysfunction and autonomic nervous system degeneration; alpha-synuclein pathology in the amygdala may directly drive anxiety
-- [[type-2-diabetes]] -- T2D increases PD risk by 30-40%; shared insulin resistance, mitochondrial dysfunction, and oxidative stress pathways; shared gut dysbiosis patterns (Enterobacteriaceae enrichment, SCFA producer depletion); metformin may be protective through AMPK activation and microbiome modulation
+- [[type-2-diabetes]] -- T2D increases PD risk by 30-40%; shared insulin resistance, mitochondrial dysfunction, and [[oxidative-stress]] pathways; shared gut dysbiosis patterns (Enterobacteriaceae enrichment, SCFA producer depletion); metformin may be protective through AMPK activation and microbiome modulation
 
 ## Key Sources
 
@@ -158,7 +158,7 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 ## Connections
 
 - Metals: [[iron]], [[manganese]], [[copper]], [[zinc]], [[lead]], [[cadmium]], [[mercury]], [[selenium]], [[nickel]]
-- Concepts: [[ferroptosis]], [[alpha-synuclein]], [[gut-brain-axis]], [[oxidative-stress|oxidative stress]], [[mis-metallation]]
+- Concepts: [[ferroptosis]], [[alpha-synuclein]], [[gut-brain-axis]], oxidative stress, [[mis-metallation]]
 - Analyses: [[metal-disease-matrix]]
 - Related diseases: [[alzheimers-disease]] (shared Cu depletion, ferroptosis, gut-brain axis), [[chronic-kidney-disease]] (shared ferroptosis pathway)
 - Pathogens: [[escherichia-coli]] (curli cross-seeding alpha-synuclein), [[helicobacter-pylori]] (urease/Ni-dependent gut pathogen)

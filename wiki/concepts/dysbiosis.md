@@ -111,7 +111,7 @@ Metal-induced dysbiosis is self-amplifying:
 3. Barrier breakdown increases metal absorption (germ-free mice absorb significantly more heavy metals than conventional mice) [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 4. Increased metal absorption further disrupts the microbiome systemically.
 5. LPS translocation through the leaky barrier activates systemic inflammation.
-6. Inflammation reinforces dysbiosis: hepcidin elevation, calprotectin release, and oxidative stress further alter the luminal metal environment, selecting against commensals.
+6. Inflammation reinforces dysbiosis: hepcidin elevation, calprotectin release, and [[oxidative-stress]] further alter the luminal metal environment, selecting against commensals.
 7. Disease progression generates additional stressors (medications, surgical interventions, malnutrition) that deepen the dysbiotic state.
 
 This cycle explains why even low-level chronic metal exposure can produce progressively worsening health effects over time. The ZIP8 A391T variant in Crohn's disease provides direct genetic evidence: metal transport dysfunction causes microbiome shifts at 2 months but inflammation only at 10 months -- dysbiosis is the cause, not the consequence [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].

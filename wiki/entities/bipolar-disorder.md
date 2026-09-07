@@ -40,7 +40,7 @@ What distinguishes bipolar disorder in the metallomics-microbiome framework is t
 
 Bipolar disorder shares the elevated Cu/Zn ratio seen in [[schizophrenia]], though the pattern differs between mood states:
 
-- Manic episodes: Higher copper, increased ceruloplasmin (copper-carrying acute-phase protein), elevated oxidative stress markers
+- Manic episodes: Higher copper, increased ceruloplasmin (copper-carrying acute-phase protein), elevated [[oxidative-stress]] markers
 - Depressive episodes: Lower zinc, impaired antioxidant defense (Cu/Zn-SOD activity reduced)
 - Euthymia (stable): Cu/Zn ratio may partially normalize but remains above healthy controls
 - Lithium effect: Lithium alters trace metal distribution, though the mechanism is poorly characterized

@@ -154,7 +154,7 @@ DNA damage and metastasis were common toxic mechanisms across all three exposure
 
 ### Neurotoxicity
 
-Hexavalent chromium crosses the blood-brain barrier and accumulates in the brain, where it generates ROS via reduction to Cr(III), causing DNA strand breaks [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]. This positions dietary Cr(VI) alongside mercury, lead, arsenic, and cadmium as a potential contributor to neurodegenerative disease through shared pathways of oxidative stress and mitochondrial dysfunction [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]].
+Hexavalent chromium crosses the blood-brain barrier and accumulates in the brain, where it generates ROS via reduction to Cr(III), causing DNA strand breaks [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]. This positions dietary Cr(VI) alongside mercury, lead, arsenic, and cadmium as a potential contributor to neurodegenerative disease through shared pathways of [[oxidative-stress]] and mitochondrial dysfunction [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]].
 
 ## Conditions Associated
 
@@ -231,7 +231,7 @@ Data from [[salnikov-2008-metal-carcinogenesis]], [[richardson-2018-toxic-metals
 
 - [[nickel]], [[arsenic]], [[cadmium]], [[lead]] -- co-reviewed carcinogenic metals
 - [[DNA-damage]] -- primary Cr(VI) carcinogenic mechanism
-- [[oxidative-stress]] -- convergent pathway with other toxic metals
+- oxidative stress -- convergent pathway with other toxic metals
 - [[metal-carcinogenesis]] -- overarching concept
 - [[heavy-metals]] -- Cr(VI) is an IARC Group 1 carcinogen
 - [[environmental-metal-exposure]] -- occupational (chrome plating, stainless steel welding) and environmental (contaminated water, soil) exposure

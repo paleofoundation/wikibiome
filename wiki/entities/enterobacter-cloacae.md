@@ -41,7 +41,7 @@ Enterobacter cloacae is a Gram-negative, facultatively anaerobic member of the E
 
 ## Metal Dependencies
 
-E. cloacae relies heavily on iron for growth and virulence. It produces multiple siderophore types — enterobactin and aerobactin — that compete directly with host [[lactoferrin]] and [[transferrin]]. Zinc and manganese serve as cofactors for its beta-lactamase enzymes and oxidative stress defense systems, linking metal availability to antibiotic resistance expression.
+E. cloacae relies heavily on iron for growth and virulence. It produces multiple siderophore types — enterobactin and aerobactin — that compete directly with host [[lactoferrin]] and [[transferrin]]. Zinc and manganese serve as cofactors for its beta-lactamase enzymes and [[oxidative-stress]] defense systems, linking metal availability to antibiotic resistance expression.
 
 ## Ecological Role
 

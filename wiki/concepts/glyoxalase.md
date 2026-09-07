@@ -100,7 +100,7 @@ The presence of Ni-GloI in both prokaryotic and eukaryotic pathogens suggests th
 
 During infection, pathogens frequently experience conditions that increase glycolytic flux and methylglyoxal production:
 - Nutrient limitation: forces reliance on glucose catabolism.
-- Oxidative stress: damages metabolic enzymes, leading to triose phosphate accumulation.
+- [[oxidative-stress]]: damages metabolic enzymes, leading to triose phosphate accumulation.
 - Rapid growth: during acute infection, high glycolytic throughput generates more methylglyoxal.
 - Inflammatory environment: the host oxidative burst and nutrient restriction compound metabolic stress.
 

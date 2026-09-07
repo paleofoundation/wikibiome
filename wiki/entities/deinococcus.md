@@ -38,7 +38,7 @@ conditions_depleted_in: []
 
 ## Overview
 
-Deinococcus is a genus of extremophilic bacteria famous for extraordinary resistance to ionizing radiation, desiccation, and oxidative stress. *D. radiodurans* — "Conan the Bacterium" — can survive radiation doses 1,000 times greater than those lethal to humans. This resilience is not primarily due to superior DNA repair, but to its remarkable manganese-based antioxidant system that protects proteins from oxidative damage.
+Deinococcus is a genus of extremophilic bacteria famous for extraordinary resistance to ionizing radiation, desiccation, and [[oxidative-stress]]. *D. radiodurans* — "Conan the Bacterium" — can survive radiation doses 1,000 times greater than those lethal to humans. This resilience is not primarily due to superior DNA repair, but to its remarkable manganese-based antioxidant system that protects proteins from oxidative damage.
 
 ## Metal Dependencies
 

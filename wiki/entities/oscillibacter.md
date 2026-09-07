@@ -31,7 +31,7 @@ Oscillibacter is a genus of Gram-negative, strictly anaerobic, motile bacteria w
 *Oscillibacter* depends on iron for its anaerobic metabolism:
 
 - Iron-sulfur cluster proteins are essential for its electron transport chain and fermentation pathways.
-- This iron dependency makes *Oscillibacter* vulnerable to toxic metal displacement. Lead exposure (100-500 ppm, 8 weeks) in Balb/C mice significantly decreased *Oscillibacter* alongside Lachnospiraceae and Ruminococcaceae, with concurrent increases in oxidative stress defense pathways ([[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]], animal-model).
+- This iron dependency makes *Oscillibacter* vulnerable to toxic metal displacement. Lead exposure (100-500 ppm, 8 weeks) in Balb/C mice significantly decreased *Oscillibacter* alongside Lachnospiraceae and Ruminococcaceae, with concurrent increases in [[oxidative-stress]] defense pathways ([[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]], animal-model).
 - Cadmium exposure in wild long-tailed dwarf hamsters significantly decreased *Oscillibacter*, identifying it as one of 14 potential pathogens/commensals affected by Cd perturbation ([[tao-2024-cadmium-gut-microbiota-dwarf-hamsters]], animal-model).
 
 ## Key Enzymes and Virulence Factors

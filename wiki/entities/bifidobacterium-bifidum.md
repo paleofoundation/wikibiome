@@ -32,7 +32,7 @@ platform: wikibiome
 
 - Lead sensitivity: Prenatal lead exposure depletes *B. bifidum* in childhood [[gut-microbiome]], suggesting metal vulnerability [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].
 - Schizophrenia RCT: Component of probiotic formulation (with *L. acidophilus*) + vitamin D improving metabolic parameters in schizophrenia [[ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct]].
-- Male fertility: Oxidative stress modulation via gut microbiota [[kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility]].
+- Male fertility: [[oxidative-stress]] modulation via gut microbiota [[kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility]].
 - CRC-adenoma: Altered in CRC progression [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]].
 
 ## Cross-References

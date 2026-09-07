@@ -92,7 +92,7 @@ Riboswitches may be particularly important in gut ecology:
 
 - The pH gradient along the GI tract means bacterial riboswitch sensitivity changes as organisms transit from stomach to colon
 - Dietary metal fluctuations create rapid changes in luminal metal availability that co-transcriptional riboswitches can respond to faster than protein-based regulators
-- Manganese homeostasis -- controlled largely by riboswitches -- is critical for bacterial oxidative stress defense (Mn-SOD) and thus for survival in the inflammatory gut
+- Manganese homeostasis -- controlled largely by riboswitches -- is critical for bacterial [[oxidative-stress]] defense (Mn-SOD) and thus for survival in the inflammatory gut
 
 ## Connections
 

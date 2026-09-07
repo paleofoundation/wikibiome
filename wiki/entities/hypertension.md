@@ -74,7 +74,7 @@ Fan et al. 2025 conducted the first multicenter, randomized, blinded, placebo-co
 
 ### Lead
 - Pb is among the most established environmental risk factors for hypertension.
-- Mechanisms: inhibits endothelial NO synthase, increases oxidative stress, activates RAAS (renin-angiotensin-aldosterone system), promotes vascular smooth muscle contraction.
+- Mechanisms: inhibits endothelial NO synthase, increases [[oxidative-stress]], activates RAAS (renin-angiotensin-aldosterone system), promotes vascular smooth muscle contraction.
 - Even low-level chronic Pb exposure (blood Pb <10 ug/dL) is associated with elevated BP.
 - Pb accumulates in kidney, impairing renal BP regulation.
 

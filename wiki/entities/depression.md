@@ -27,13 +27,13 @@ Depression is the most prevalent mental health disorder globally, affecting over
 ### Zinc -- The Antidepressant Metal
 The most robust metal-depression association. Serum zinc is consistently lower in depressed patients, with severity correlating inversely with zinc levels [[althomali-2024-heavy-metals-neurocognitive-systematic-review]]:
 - Zinc is required for NMDA receptor modulation, BDNF expression, and synaptic plasticity
-- Zinc deficiency increases inflammation (IL-6, TNF-alpha) and [[oxidative-stress]] [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
+- Zinc deficiency increases inflammation (IL-6, TNF-alpha) and oxidative stress [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 - Multiple RCTs have evaluated zinc as SSRI augmentation, with modest effects most pronounced in zinc-deficient populations.
 - Zinc also supports [[immune-balance]] (Treg function) and [[intestinal-permeability]] ([[tight-junctions|tight junction]] integrity)
 
 ### Copper -- The Double-Edged Metal
 Serum copper and ceruloplasmin are elevated in depression, creating a high Cu/Zn ratio that is among the most replicated findings in biological psychiatry:
-- Free (non-ceruloplasmin-bound) copper generates hydroxyl radicals via Fenton chemistry → [[oxidative-stress]]
+- Free (non-ceruloplasmin-bound) copper generates hydroxyl radicals via Fenton chemistry → oxidative stress
 - Copper excess inhibits GABAergic neurotransmission
 - The Cu/Zn ratio may be a better biomarker than either metal alone
 - [[mis-metallation]] of cuproenzymes (MAO, DBH, tyrosinase) disrupts monoamine metabolism
@@ -47,7 +47,7 @@ Iron deficiency (with or without anemia) is a major contributor to depression, p
 
 ### Toxic Metals
 - Lead -- childhood lead exposure predicts adult depression [[ogundare-2024-metals-behavioral-factors-depression-women]]; Pb disrupts dopaminergic and serotonergic neurotransmission, impairs BDNF signaling, and causes epigenetic changes in stress-response genes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
-- Cadmium -- associated with depression in NHANES data with conditional PIP = 0.447 in BKMR analysis [[ogundare-2024-metals-behavioral-factors-depression-women]]; Cd depletes zinc (competitive absorption), compounds [[oxidative-stress]], and disrupts HPA axis function [[rasin-2025-cadmium-exposure-health-review]]
+- Cadmium -- associated with depression in NHANES data with conditional PIP = 0.447 in BKMR analysis [[ogundare-2024-metals-behavioral-factors-depression-women]]; Cd depletes zinc (competitive absorption), compounds oxidative stress, and disrupts HPA axis function [[rasin-2025-cadmium-exposure-health-review]]
 - Mercury -- occupational and dietary MeHg exposure associates with depressive symptoms; Hg depletes selenium (required for glutathione peroxidase → antioxidant defense) [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 
 ## The Gut-Brain Axis in Depression

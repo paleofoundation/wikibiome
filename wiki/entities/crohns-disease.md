@@ -40,7 +40,7 @@ The metallomic profile in Crohn's disease is defined not by simple deficiency or
 
 ### Cadmium as Risk Factor
 
-[[cadmium]] exposure independently induces dysbiosis patterns consistent with CD. Cadmium enters cells through calcium channels, displacing correct metal cofactors (mis-metallation) and driving [[oxidative-stress]]. The ZIP8 A391T variant affects cadmium handling at the colonic mucosa, with MUT mice showing higher cadmium in bulk colon tissue [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]. Glutathione depletion in CD removes the primary neutralization pathway for cadmium, creating a vulnerability loop.
+[[cadmium]] exposure independently induces dysbiosis patterns consistent with CD. Cadmium enters cells through calcium channels, displacing correct metal cofactors (mis-metallation) and driving oxidative stress. The ZIP8 A391T variant affects cadmium handling at the colonic mucosa, with MUT mice showing higher cadmium in bulk colon tissue [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]. Glutathione depletion in CD removes the primary neutralization pathway for cadmium, creating a vulnerability loop.
 
 ### Calprotectin as Biomarker
 
@@ -98,7 +98,7 @@ This is the central metallomic paradox in CD and one of the clearest examples of
 
 3. Iron supplementation worsens dysbiosis: Free luminal iron shifts the competitive balance away from SCFA-producing commensals (which have modest iron requirements) toward iron-scavenging pathobionts, deepening dysbiosis [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
-4. Iron drives [[ferroptosis]] in inflamed mucosa: Iron accumulation in inflamed tissue catalyzes lipid peroxidation through Fenton chemistry. GPX3 (glutathione peroxidase 3) is causally protective against CD -- its role in preventing iron-dependent [[oxidative-stress]] connects ferroptosis to disease pathogenesis [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]].
+4. Iron drives [[ferroptosis]] in inflamed mucosa: Iron accumulation in inflamed tissue catalyzes lipid peroxidation through Fenton chemistry. GPX3 (glutathione peroxidase 3) is causally protective against CD -- its role in preventing iron-dependent oxidative stress connects ferroptosis to disease pathogenesis [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]].
 
 5. Hepcidin-guided management is critical: Measuring [[hepcidin]] distinguishes true iron deficiency (low hepcidin -- supplement cautiously, prefer IV iron) from anemia of chronic disease (high hepcidin -- treat inflammation first, do not give oral iron). IV iron bypasses the luminal compartment, avoiding the dysbiosis-amplifying effect of oral supplementation.
 
@@ -157,7 +157,7 @@ The metal-microbiome framework reveals Crohn's disease as a self-amplifying ecol
 3. Butyrate collapse: Colonocyte starvation, tight junction loss, increased permeability
 4. Pathobiont bloom: AIEC, Fusobacterium, Enterococcus expand using [[siderophores-metallophores]] and metal resistance systems
 5. Barrier failure: Bacterial translocation triggers innate immune activation via [[nf-kappa-b]]
-6. Inflammation reinforces dysbiosis: [[hepcidin]] elevation, [[calprotectin]] release, and [[oxidative-stress]] further alter the luminal metal environment, selecting against commensals
+6. Inflammation reinforces dysbiosis: [[hepcidin]] elevation, [[calprotectin]] release, and oxidative stress further alter the luminal metal environment, selecting against commensals
 7. [[ferroptosis]]: Iron accumulation in inflamed tissue drives lipid peroxidation and mucosal cell death
 
 Key evidence for causality: ZIP8 A391T mice develop microbiome shifts at 2 months but inflammation only at 10 months -- dysbiosis is the cause, not the consequence [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].

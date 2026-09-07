@@ -45,7 +45,7 @@ Cd also activates the membrane-bound estrogen receptor GPR30, inducing prolifera
 The carcinogenic potential of Cd extends far beyond estrogenic activity:
 
 - Epigenetic modifications: Cd alters DNA methylation (both hypo- and hypermethylation), histone modifications, and miRNA/lncRNA expression; 997 genes epigenetically altered by Cd in MCF-7 cells, with 400 associated with breast cancer
-- Oxidative stress: ROS generation, DNA repair enzyme (hOGG1) inhibition, disruption of NER and BER pathways
+- [[oxidative-stress]]: ROS generation, DNA repair enzyme (hOGG1) inhibition, disruption of NER and BER pathways
 - Epithelial-mesenchymal transition: Cd promotes EMT by downregulating E-cadherin through Snail upregulation, enhancing migration and invasion
 - Aneuploidy: CdCl2 (1-4 uM) and CdSO4 (0.033-0.134 uM) induce aneuploidy in human fibroblasts; estrogen itself also induces aneuploidy via Aurora kinase pathway, suggesting convergent genomic instability mechanisms
 

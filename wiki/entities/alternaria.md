@@ -62,7 +62,7 @@ platform: wikibiome
 
 ## Key Enzymes and Virulence Factors
 
-- Melanin biosynthesis — DHN-melanin (1,8-dihydroxynaphthalene pathway) provides protection against oxidative stress, UV radiation, and host immune defenses. Melanized conidia are more resistant to macrophage killing.
+- Melanin biosynthesis — DHN-melanin (1,8-dihydroxynaphthalene pathway) provides protection against [[oxidative-stress]], UV radiation, and host immune defenses. Melanized conidia are more resistant to macrophage killing.
 - Cellulase and pectinase — Cell wall-degrading enzymes primarily evolved for plant pathogenesis; may contribute to mucosal tissue degradation in immunocompromised hosts
 - Alternariol (AOH) and alternariol monomethyl ether (AME) — Mycotoxins with genotoxic, estrogenic, and immunomodulatory properties. AOH inhibits topoisomerase II, induces DNA strand breaks, and acts as a weak estrogen receptor agonist.
 

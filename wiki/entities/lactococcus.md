@@ -31,7 +31,7 @@ pathogenic_potential: commensal
 
 ## Metal Dependencies
 
-- Manganese: *L. lactis* relies on Mn-superoxide dismutase (MnSOD) for oxidative stress defense, unlike most bacteria that use Fe-SOD. This Mn-dependency reduces its vulnerability to [[iron]]-limitation strategies of [[nutritional-immunity]].
+- Manganese: *L. lactis* relies on Mn-superoxide dismutase (MnSOD) for [[oxidative-stress]] defense, unlike most bacteria that use Fe-SOD. This Mn-dependency reduces its vulnerability to [[iron]]-limitation strategies of [[nutritional-immunity]].
 - Zinc: Zn-dependent cell-envelope proteinases (PrtP) are essential for casein degradation during dairy fermentation. [[zinc]] availability thus directly influences the proteolytic capacity and growth rate of *L. lactis*.
 
 ## Disease-Associated Microbiome Findings

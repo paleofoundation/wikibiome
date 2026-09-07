@@ -46,7 +46,7 @@ The primary mechanism of platinum resistance converges on ferroptosis evasion:
 
 - Keap1-Nrf2-GPX4 axis -- Platinum-resistant cells upregulate Nrf2, which activates GPX4 (glutathione peroxidase 4), the master suppressor of ferroptosis. This simultaneously blocks both cisplatin-induced apoptosis and ferroptosis.
 - Glutathione (GSH) is the most altered pathway in platinum-resistant cells. Elevated GSH directly inactivates cisplatin (Pt-GSH conjugation) and fuels GPX4 to prevent lipid peroxidation.
-- Iron homeostasis disruption -- Resistant cells alter [[iron]] handling to minimize Fenton chemistry, reducing the oxidative stress that platinum compounds rely on for cytotoxicity.
+- Iron homeostasis disruption -- Resistant cells alter [[iron]] handling to minimize Fenton chemistry, reducing the [[oxidative-stress]] that platinum compounds rely on for cytotoxicity.
 
 ## Glutathione Connection
 

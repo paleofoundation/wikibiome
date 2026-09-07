@@ -47,7 +47,7 @@ From a WikiBiome perspective, *E. faecalis* is remarkable for two reasons that W
 In the healthy gut, *E. faecalis* is a minor member of the Firmicutes community, kept in check by competitive exclusion from dominant anaerobes and antimicrobial peptides. It becomes ecologically significant when:
 
 - Antibiotic disruption: Broad-spectrum antibiotics (especially vancomycin, paradoxically) can eliminate competing commensals and allow *E. faecalis* expansion. In EAE (MS model), *E. faecalis* did not ameliorate neuroinflammation when administered, confirming it lacks the anti-inflammatory properties of beneficial commensals ([[bianchimano-2022-vancomycin-gut-commensals-neuroinflammation-eae]], animal-model).
-- [[inflammation]]: Enriched in IBD, particularly UC, where disrupted barrier function and oxidative stress create favorable conditions.
+- [[inflammation]]: Enriched in IBD, particularly UC, where disrupted barrier function and [[oxidative-stress]] create favorable conditions.
 - Reproductive tract [[dysbiosis]]: Significantly enriched in the vaginal and intestinal microbiota of women with adenomyosis and infertility ([[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]], cross-sectional).
 
 ## Conditions Associated

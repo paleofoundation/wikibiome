@@ -75,7 +75,7 @@ Iron-Sulfur Cluster Enzymes
 - Iron deprivation impairs respiration and TCA cycle activity.
 
 ### Manganese-Dependent Superoxide Dismutase (Mn-SOD)
-- Critical antioxidant enzyme; protects against oxidative stress.
+- Critical antioxidant enzyme; protects against [[oxidative-stress]].
 - Enriched in aerobic environments; suppressed in anaerobic conditions.
 - Copper also required for cytochrome c oxidase assembly; copper deficiency rare in gut but relevant in systemic disease states.
 

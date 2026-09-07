@@ -33,7 +33,7 @@ MIA operates through a cascade of interlinked disruptions:
 Heavy metals amplify MIA through multiple converging mechanisms:
 
 - Lead and mercury cross the placenta readily and accumulate in fetal brain tissue, priming microglia independently of infection. When MIA and metal exposure co-occur, the neuroinflammatory effect is synergistic rather than additive.
-- Cadmium disrupts placental function, reducing nutrient transfer and increasing oxidative stress — creating a vulnerable fetal environment where even mild maternal infection produces outsized neurological effects.
+- Cadmium disrupts placental function, reducing nutrient transfer and increasing [[oxidative-stress]] — creating a vulnerable fetal environment where even mild maternal infection produces outsized neurological effects.
 - Mis-metallation (Karen's Brain Primitive 3): Toxic metals entering fetal cells through calcium and zinc channels displace correct cofactors from developing metalloenzymes, compounding the neurodevelopmental disruption caused by MIA [[ogrady-2025-metal-dyshomeostasis-asd]].
 
 Multiple rodent models of ASD (Shank3, Cntnap2, Fmr1 knockouts; VPA-exposed mice; MIA models) all exhibit GI abnormalities including increased gut permeability, inflammation, and microbiota shifts — suggesting the gut-brain disruption is a convergent feature regardless of the initiating insult [[ogrady-2025-metal-dyshomeostasis-asd]].

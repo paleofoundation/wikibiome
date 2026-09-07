@@ -28,7 +28,7 @@ What makes schizophrenia distinctive in the microbiome landscape is the converge
 
 ## Cu/Zn Ratio Dysregulation
 
-The metallomic signature of schizophrenia centers on [[copper]]/[[zinc]] imbalance. Elevated serum Cu and depressed Zn have been reported across multiple cohorts, yielding an increased Cu/Zn ratio that correlates with symptom severity. This finding parallels other neuropsychiatric conditions but is particularly pronounced in schizophrenia, where oxidative stress markers (ceruloplasmin-bound Cu) are consistently elevated.
+The metallomic signature of schizophrenia centers on [[copper]]/[[zinc]] imbalance. Elevated serum Cu and depressed Zn have been reported across multiple cohorts, yielding an increased Cu/Zn ratio that correlates with symptom severity. This finding parallels other neuropsychiatric conditions but is particularly pronounced in schizophrenia, where [[oxidative-stress]] markers (ceruloplasmin-bound Cu) are consistently elevated.
 
 ### Mis-metallation at the NMDA Receptor
 

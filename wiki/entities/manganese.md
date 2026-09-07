@@ -27,7 +27,7 @@ Manganese is an essential trace element with a narrow therapeutic window: requir
 
 First, Mn sits at the bottom of the Irving-Williams series (Mn2+ < Fe2+ < Co2+ < Ni2+ < Cu2+ < Zn2+), meaning it forms the weakest complexes with biological ligands among the transition metals [[robinson-2020-metalation-natures-challenge]]. Cells compensate by maintaining Mn at the highest free cytosolic concentration of any transition metal -- approximately 10^-6 M -- so that correct metalation occurs by mass action before stronger-binding metals can compete [[helmann-2025-labile-metal-pools-bacteria]], [[lenner-2025-compatibility-intracellular-binding-metal-sensor-design]]. This makes Mn homeostasis uniquely sensitive to perturbation: even small shifts in competing metal concentrations (Zn, Fe) can redirect Mn from its intended enzyme targets.
 
-Second, Mn is the only essential transition metal that can functionally substitute for iron in a wide range of mononuclear enzymes under oxidative stress -- a survival strategy exploited by diverse bacteria from *E. coli* to *Salmonella* to *Lactococcus lactis* [[rohaun-2024-microbes-strategic-metalation-mononuclear-enzymes]], [[mcewan-2024-metalloproteome-plasticity-pathogen-adaptation]]. This cambialistic interchangeability means Mn biology cannot be understood in isolation from iron biology.
+Second, Mn is the only essential transition metal that can functionally substitute for iron in a wide range of mononuclear enzymes under [[oxidative-stress]] -- a survival strategy exploited by diverse bacteria from *E. coli* to *Salmonella* to *Lactococcus lactis* [[rohaun-2024-microbes-strategic-metalation-mononuclear-enzymes]], [[mcewan-2024-metalloproteome-plasticity-pathogen-adaptation]]. This cambialistic interchangeability means Mn biology cannot be understood in isolation from iron biology.
 
 Third, Mn-dependent enzymes -- particularly superoxide dismutase -- are the primary targets of host nutritional immunity via calprotectin-mediated Mn sequestration, making Mn the metallic battleground where host-pathogen metal warfare is most directly observed [[bushman-2025-nutrient-metals-bacteria-gut-infection]], [[cassat-2012-metal-acquisition-staphylococcus-aureus]].
 
@@ -282,7 +282,7 @@ A notable cross-condition pattern emerges from the evidence: Mn depletion appear
 - [[nickel]] -- co-exposure in welding fumes; shared gut microbiome disruption
 - [[mis-metallation]] -- Mn at bottom of Irving-Williams series makes it most vulnerable to displacement; Fur mis-metallation by Mn excess
 - [[pcos]] -- Mn depletion may impair antioxidant defense
-- [[oxidative-stress]] -- central mechanism of both Mn toxicity (via mitochondrial disruption) and Mn benefit (SOD cofactor)
+- oxidative stress -- central mechanism of both Mn toxicity (via mitochondrial disruption) and Mn benefit (SOD cofactor)
 - [[crohns-disease]] -- ZIP8 A391T genetic variant alters colonic Mn availability and microbiome
 - [[breast-cancer]] -- Mn depletion pattern across meta-analytic evidence
 - [[staphylococcus-aureus]] -- Mn-sparing response (RsaC), calprotectin resistance, cell wall Mn reservoir

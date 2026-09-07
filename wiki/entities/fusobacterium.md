@@ -78,7 +78,7 @@ A Gram-negative, obligate anaerobic bacterium that has emerged as the most consi
 - inflammation -- activates NF-kB/STAT3; chronic inflammatory signaling in tumors
 - [[biofilm]] -- forms iron-dependent biofilms in colorectal tumors
 - [[dysbiosis]] -- its enrichment is a hallmark of cancer-associated dysbiosis
-- [[oxidative-stress]] -- H2S production drives DNA damage in colonocytes
+- oxidative stress -- H2S production drives DNA damage in colonocytes
 - [[cardiovascular-disease]] -- oral Fusobacterium contributes to systemic inflammation
 - [[enterobacteriaceae]] -- co-enriched in cancer and inflammatory disease states
 - [[faecalibacterium-prausnitzii]] -- inversely correlated; F. prausnitzii depletion accompanies Fusobacterium expansion

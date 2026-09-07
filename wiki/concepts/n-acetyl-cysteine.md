@@ -33,7 +33,7 @@ platform: wikibiome
 
 ## Overview
 
-N-acetylcysteine (NAC) is the acetylated form of the amino acid L-cysteine and serves as the rate-limiting precursor for glutathione synthesis — the body's primary intracellular antioxidant and a critical cofactor for phase II detoxification of heavy metals. In the microbiome context, NAC sits at the intersection of oxidative stress defense, metal detoxification, biofilm disruption, and glutamatergic neurotransmission.
+N-acetylcysteine (NAC) is the acetylated form of the amino acid L-cysteine and serves as the rate-limiting precursor for glutathione synthesis — the body's primary intracellular antioxidant and a critical cofactor for phase II detoxification of heavy metals. In the microbiome context, NAC sits at the intersection of [[oxidative-stress]] defense, metal detoxification, biofilm disruption, and glutamatergic neurotransmission.
 
 ## Biochemical Mechanisms
 
@@ -70,7 +70,7 @@ NAC's effects on the [[gut-microbiome]] are complex. Its biofilm-disrupting prop
 ## Cross-References
 
 - [[glutathione]] — downstream product; the functional antioxidant
-- [[oxidative-stress]] — the pathological state NAC addresses
+- oxidative stress — the pathological state NAC addresses
 - [[biofilm]] — NAC disrupts EPS matrix
 - [[cadmium]] — detoxified via GSH conjugation
 - [[lead]] — detoxified via GSH conjugation

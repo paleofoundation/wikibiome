@@ -40,7 +40,7 @@ Zinc-specific:
 - Lmb (*S. agalactiae*): Laminin-binding protein that also functions as zinc-binding lipoprotein for import.
 
 Manganese-specific:
-- MntABC/SloABC (Streptococci, Staphylococci): High-affinity Mn import critical for superoxide dismutase activity and oxidative stress defense [[cassat-2012-metal-acquisition-staphylococcus-aureus]], [[akbari-2022-metal-homeostasis-streptococci]].
+- MntABC/SloABC (Streptococci, Staphylococci): High-affinity Mn import critical for superoxide dismutase activity and [[oxidative-stress]] defense [[cassat-2012-metal-acquisition-staphylococcus-aureus]], [[akbari-2022-metal-homeostasis-streptococci]].
 
 Metallophore-metal ABC transporters:
 - CntABCDF (*S. aureus*): Imports staphylopine-metal complexes (Ni, Zn, Cu, Co) after the metallophore captures metals extracellularly [[maier-2019-nickel-microbial-pathogenesis]].

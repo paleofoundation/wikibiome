@@ -47,7 +47,7 @@ The [[estrobolome]] -- the collection of gut microbial genes capable of metaboli
 During the luteal phase, pro-inflammatory cytokines (IL-8, TNF-alpha -- both elevated in PMDD, Etyemez et al. 2025) upregulate indoleamine 2,3-dioxygenase (IDO) Cheng et al. 2025, shunting tryptophan from serotonin synthesis toward the kynurenine pathway. This creates a dual deficit:
 
 - Reduced serotonin -- explaining the mood disturbance that SSRIs partially address
-- Elevated kynurenine metabolites -- including quinolinic acid (NMDA receptor agonist, neurotoxic) and 3-hydroxykynurenine (oxidative stress generator)
+- Elevated kynurenine metabolites -- including quinolinic acid (NMDA receptor agonist, neurotoxic) and 3-hydroxykynurenine ([[oxidative-stress]] generator)
 
 The gut microbiome modulates this shunt: dysbiotic communities produce less indole (an AhR ligand that suppresses IDO), permitting greater tryptophan diversion toward kynurenine.
 

@@ -71,7 +71,7 @@ The remarkable consistency of Lachnospiraceae as a risk factor and Ruminococcace
 [[cadmium]] directly damages erectile function through multiple pathways:
 
 - Accumulates in testicular tissue and disrupts testosterone biosynthesis
-- Generates oxidative stress in penile vasculature
+- Generates [[oxidative-stress]] in penile vasculature
 - Acts as a [[metalloestrogens|metalloestrogen]], disrupting the testosterone/estrogen ratio
 - Disrupts the gut microbiome, amplifying the dysbiosis-eNOS pathway
 - Primary source: smoking (the strongest modifiable ED risk factor)

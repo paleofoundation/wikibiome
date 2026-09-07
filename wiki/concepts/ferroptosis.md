@@ -54,7 +54,7 @@ The Pendergrass framework proposes ferroptosis as the convergent cell death mech
 
 1. Dietary/environmental heavy metals (Fe, Mn, Ni) reshape gut microbial communities, favoring metal-tolerant pathogens over SCFA-producing commensals
 2. Loss of gut barrier integrity permits bacterial translocation and systemic [[inflammation]]
-3. Alpha-synuclein aggregation in the enteric nervous system may be triggered by metal-induced oxidative stress
+3. Alpha-synuclein aggregation in the enteric nervous system may be triggered by metal-induced [[oxidative-stress]]
 4. Ferroptosis drives both gut epithelial damage and dopaminergic neuron death
 
 PD patients consistently show reduced Prevotellaceae, Lachnospiraceae, and Faecalibacterium with increased Enterobacteriaceae -- a pattern consistent with metal-driven [[dysbiosis]].
@@ -107,7 +107,7 @@ Iron homeostasis in the intestinal epithelium directly influences ferroptotic su
 
 ## Connections to Other Concepts
 
-- [[oxidative-stress]] -- ferroptosis is a specific, regulated outcome of iron-driven oxidative damage
+- oxidative stress -- ferroptosis is a specific, regulated outcome of iron-driven oxidative damage
 - [[gut-metal-microbiome]] -- iron availability shapes microbial communities and gut epithelial ferroptotic vulnerability
 - [[metallomics]] -- brain metallomic profiling can detect iron dysregulation patterns associated with neurodegeneration
 - [[mis-metallation]] -- displacement of iron from regulatory proteins can disrupt iron homeostasis controls

@@ -276,7 +276,7 @@ Arsenic exposure is linked to cardiovascular disease and hypertension [[su-2023-
 - [[nickel]], [[chromium]] — co-reviewed carcinogenic metals [[salnikov-2008-metal-carcinogenesis]]
 - [[lead]], [[cadmium]], [[mercury]] — shared ROS/GSH depletion mechanisms [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 - [[epigenetic-modifications]] — SAM depletion and methylation paradox
-- [[oxidative-stress]] — convergent toxicity pathway across metals
+- oxidative stress — convergent toxicity pathway across metals
 - [[glutathione]] — universal target of arsenic-induced depletion
 - [[faecalibacterium-prausnitzii]] — protective against arsenic toxicity [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]]
 - [[desulfovibrio]] — thiolation of arsenic compounds; enriched under metal exposure [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]], [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]]

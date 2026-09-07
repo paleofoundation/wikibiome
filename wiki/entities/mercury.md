@@ -147,7 +147,7 @@ Neurocognitive decline. Cadmium and mercury are the two metals most consistently
 
 ### Autism Spectrum Disorder
 
-Mercury is elevated in blood, urine, hair, and teeth of ASD children [[blazewicz-2023-metal-profiles-asd]]. In a pilot study of 136 Chinese children, mercury was significantly elevated in ASD hair samples, and trace element elevations co-varied with dysbiotic taxa enrichment, suggesting common selective pressure [[zhai-2019-trace-elements-microbiota-asd-pilot]]. Key pathomechanisms include oxidative stress via GSH inhibition, neuroinflammation through microglial activation, axonal demyelination via MBP downregulation, and competition with zinc for protein binding sites [[blazewicz-2023-metal-profiles-asd]], [[stanton-2021-metallome-omes-link-asd]].
+Mercury is elevated in blood, urine, hair, and teeth of ASD children [[blazewicz-2023-metal-profiles-asd]]. In a pilot study of 136 Chinese children, mercury was significantly elevated in ASD hair samples, and trace element elevations co-varied with dysbiotic taxa enrichment, suggesting common selective pressure [[zhai-2019-trace-elements-microbiota-asd-pilot]]. Key pathomechanisms include [[oxidative-stress]] via GSH inhibition, neuroinflammation through microglial activation, axonal demyelination via MBP downregulation, and competition with zinc for protein binding sites [[blazewicz-2023-metal-profiles-asd]], [[stanton-2021-metallome-omes-link-asd]].
 
 The metallome -- the totality of metal ions in the body -- connects the proteome, transcriptome, epigenome, microbiome, metabolome, and lipidome through metalloprotein function, and mercury's competition with zinc for thiol binding sites disrupts this entire network [[stanton-2021-metallome-omes-link-asd]]. However, in a meta-analysis of two prospective pregnancy cohorts (EARLI and MARBLES, n=401), prenatal mercury did not show a consistent association with ASD at age 3, while cadmium did (OR 1.69) -- suggesting that prenatal cadmium may be a stronger ASD risk factor than prenatal mercury at typical exposure levels [[dou-2024-heavy-metals-utero-asd-age3-meta-analysis]].
 
@@ -241,7 +241,7 @@ Mercury showed negative/protective SHAP values for both general arthritis (-0.00
 - [[arsenic]] -- co-reviewed toxic metal sharing kidney and neurological targets; co-elevated across disease states
 - [[nickel]] -- both measured in PCOS and IBD studies; both drive co-selection of antibiotic resistance
 - [[iron]] -- Hg compounds iron-mediated oxidative stress; iron status modifies cadmium absorption
-- [[oxidative-stress]] -- thiol depletion and ROS as central mechanisms of Hg toxicity
+- oxidative stress -- thiol depletion and ROS as central mechanisms of Hg toxicity
 - [[glutathione]] -- Hg depletes GSH by binding thiol groups; GST polymorphisms modify elimination capacity
 - [[antimicrobial-resistance]] -- mercury resistance genes (merA, merR) physically linked to antibiotic resistance on Tn21 transposons
 - [[enterococcus]] -- merA at 97% prevalence; century-long temporal trend of increasing Hg-antibiotic co-resistance

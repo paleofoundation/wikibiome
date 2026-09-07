@@ -41,7 +41,7 @@ A Gram-positive pathogen (the "pneumococcus") that depends on iron, manganese, a
 ### Mn-Dependent Superoxide Dismutase (Mn-SOD)
 - SodA: Mn-dependent superoxide dismutase, the primary defense against reactive oxygen species [[akbari-2022-metal-homeostasis-streptococci]] [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
 - Essential for surviving the neutrophil oxidative burst during pneumonia and bacteremia [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]].
-- Mn acquisition via PsaA/MtsABC is therefore directly linked to oxidative stress survival [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
+- Mn acquisition via PsaA/MtsABC is therefore directly linked to [[oxidative-stress]] survival [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]].
 - Cadmium can disrupt Mn uptake/efflux, indirectly increasing oxidative stress susceptibility -- a vulnerability that could be exploited therapeutically [[begg-2015-cadmium-toxicity-transition-metal-pneumococcus]] [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]].
 
 ### Zn-Dependent Metalloenzymes

@@ -50,7 +50,7 @@ Key producers: [[proteobacteria]] (especially *[[escherichia-coli]]*) are the do
 
 IS is one of the most well-characterized uremic toxins in [[chronic-kidney-disease]]:
 
-- Directly damages renal tubular epithelial cells through oxidative stress and NF-kB activation.
+- Directly damages renal tubular epithelial cells through [[oxidative-stress]] and NF-kB activation.
 - Promotes renal fibrosis via TGF-beta and SMAD signaling.
 - Creates a vicious cycle: kidney damage → reduced IS clearance → higher IS levels → more kidney damage [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]].
 - Community shift toward fermentative and proteolytic species (*Parabacteroides*, *Clostridium*, *Ruminococcus*) in CKD stages 3-5D drives IS overproduction [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]].

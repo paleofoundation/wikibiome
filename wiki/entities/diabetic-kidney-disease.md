@@ -38,7 +38,7 @@ Cadmium is the most important metal in DKD because it attacks both the diabetes 
 - Pancreatic beta-cell toxicity: Cadmium impairs insulin secretion, worsening diabetes
 - Proximal tubular damage: Cadmium accumulates in kidney proximal tubules (30-year half-life), causing direct nephrotoxicity
 - TLR4/NF-kB activation: Cadmium activates the TLR4/NF-kB inflammatory cascade in renal tissue, driving fibrosis
-- Oxidative stress: Cadmium depletes glutathione and generates reactive oxygen species in both kidney and pancreas
+- [[oxidative-stress]]: Cadmium depletes glutathione and generates reactive oxygen species in both kidney and pancreas
 
 ### Zinc-Curcumin Attenuation
 

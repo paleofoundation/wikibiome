@@ -60,7 +60,7 @@ The most significant recent advance in bismuth pharmacology is its synergy with 
 
 - Bismuth quadruple therapy (bismuth subsalicylate or subcitrate + metronidazole + tetracycline + PPI) remains a first-line treatment for [[helicobacter-pylori]] infection, particularly in regions with clarithromycin resistance >15% (Malfertheiner et al. 2022, Maastricht VI/Florence Consensus; Chey et al. 2017, ACG Guidelines). Eradication rates exceed 90% even against clarithromycin-resistant strains.
 - Bismuth's anti-*H. pylori* activity involves disruption of urease (Ni-dependent, essential for acid survival), fumarase and alcohol dehydrogenase, ATP synthase inhibition, and physical coating of the gastric mucosa that blocks bacterial adhesion (Ge et al. 2007, BioMetals).
-- Proteomic studies show bismuth perturbs at least 166 *H. pylori* proteins, targeting nickel and iron trafficking (HypA, HypB, NikR) and oxidative stress defence (AhpC, TsaA) — a multi-target footprint that explains why resistance to bismuth has never been clinically documented despite half a century of use (Sun et al. 2013, Metallomics).
+- Proteomic studies show bismuth perturbs at least 166 *H. pylori* proteins, targeting nickel and iron trafficking (HypA, HypB, NikR) and [[oxidative-stress]] defence (AhpC, TsaA) — a multi-target footprint that explains why resistance to bismuth has never been clinically documented despite half a century of use (Sun et al. 2013, Metallomics).
 - The combination of bismuth's direct bactericidal effects with its metalloenzyme inhibition explains its sustained clinical efficacy despite decades of use.
 
 ## Pharmaceutical Forms and Pharmacokinetics

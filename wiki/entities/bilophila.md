@@ -77,6 +77,6 @@ The abundance of *B. wadsworthia* is highly responsive to diet:
 - [[multiple-sclerosis]] -- enriched in MS progressors; stratifies disease progression risk
 - [[inflammatory-bowel-disease]] -- H2S-mediated mucosal damage exacerbates colitis
 - [[cardiovascular-disease]] -- altered in CVD and hypertension contexts
-- [[oxidative-stress]] -- H2S and sulfide-mediated oxidative damage
+- oxidative stress -- H2S and sulfide-mediated oxidative damage
 - [[arsenic]] -- As exposure increases Bilophila abundance
 - Hydrogenase -- uses H2 as energy source via hydrogenase enzymes

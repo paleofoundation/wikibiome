@@ -88,7 +88,7 @@ Environmental metal exposure disrupts the commensal metal buffer, with cascading
 
 - Heavy metals reduce microbial diversity, with consistent loss of SCFA-producing commensals (*Faecalibacterium*, *Lachnospiraceae*, *Lactobacillus*) and enrichment of metal-tolerant pathobionts (Enterobacteriaceae) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - Iron supplementation in infants increases Enterobacteriaceae and decreases *Lactobacillus* [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
-- Cadmium disrupts manganese and zinc homeostasis in *S. pneumoniae*, indirectly increasing oxidative stress susceptibility [[akbari-2022-metal-homeostasis-streptococci]].
+- Cadmium disrupts manganese and zinc homeostasis in *S. pneumoniae*, indirectly increasing [[oxidative-stress]] susceptibility [[akbari-2022-metal-homeostasis-streptococci]].
 - The disrupted microbiome may then free metals that were previously sequestered by commensals, making them available to pathogens -- a vicious cycle.
 
 ## The NEC Connection: The Clearest Example
@@ -139,5 +139,5 @@ Environmental metal exposure drives antibiotic resistance through genetic co-sel
 - [[dietary-nickel-exposure]] -- the environmental input driving NEC pathogenesis
 - [[nickel]] -- the metal at the center of the NEC story
 - [[iron]] -- iron supplementation effects on gut ecology
-- [[oxidative-stress]] -- ROS defense via community SOD production
+- oxidative stress -- ROS defense via community SOD production
 - [[environmental-metal-exposure]] -- the upstream driver of metal-antibiotic co-selection

@@ -38,7 +38,7 @@ A family of small (6-7 kDa), cysteine-rich proteins that bind heavy metals with 
 Under normal conditions, metallothionein functions as a zinc buffer:
 
 - Stores zinc in a readily exchangeable form
-- Releases zinc in response to oxidative stress (ROS oxidize MT cysteine residues, liberating bound Zn)
+- Releases zinc in response to [[oxidative-stress]] (ROS oxidize MT cysteine residues, liberating bound Zn)
 - Participates in zinc transfer to newly synthesized apoenzymes
 - The MT zinc buffer system interfaces with the broader [[metal-homeostasis]] network
 

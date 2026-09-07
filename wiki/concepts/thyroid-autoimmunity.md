@@ -56,7 +56,7 @@ The [[nutritional-immunity]] question applies here: is iron deficiency in AITD t
 [[iodine|Iodine]] is essential for thyroid hormone synthesis but excess iodine can paradoxically trigger autoimmune thyroiditis:
 
 - Excess iodine increases thyroglobulin immunogenicity.
-- Iodine excess may directly damage thyrocytes through oxidative stress.
+- Iodine excess may directly damage thyrocytes through [[oxidative-stress]].
 - Prevalence of autoimmune thyroiditis increases after salt iodization programs [[mian-2022-editorial-diet-impair-thyroid-function]].
 
 ## Toxic Metal Interference

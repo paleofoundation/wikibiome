@@ -101,6 +101,6 @@ A critical finding: in metabolite-depleted stationary phase cells, manganese sup
 - [[iron]] -- Completely eliminated from *Borrelia* biology; evolutionary anti-Fenton strategy
 - [[mis-metallation]] -- Mn toxicity under metabolite depletion represents Mn-mediated mis-metallation
 - [[superoxide-dismutase]] -- MnSOD as primary antioxidant at cell surface
-- [[oxidative-stress]] -- Host respiratory burst countered by Mn-based defenses
+- oxidative stress -- Host respiratory burst countered by Mn-based defenses
 - [[nutritional-immunity]] -- Iron restriction irrelevant to iron-free organism; Mn restriction as alternative host strategy
 - [[fenton-chemistry]] -- Eliminated by removing intracellular iron

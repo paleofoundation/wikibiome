@@ -38,7 +38,7 @@ The strategy by which mammalian hosts withhold essential metals from invading pa
 - Transferrin: serum iron carrier that restricts iron availability to extracellular pathogens; exploited by siderophore-producing Enterobacteriaceae [[bushman-2025-nutrient-metals-bacteria-gut-infection]].
 - Hepcidin: master regulator of iron homeostasis that degrades ferroportin and induces functional iron restriction during infection [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. Role in nickel restriction unknown but likely given overlap in metal handling.
 - NRAMP1 (SLC11A1): divalent metal transporter in macrophage phagolysosomes. Can export Ni(II), restricting availability to engulfed intracellular pathogens [[maier-2019-nickel-microbial-pathogenesis]].
-- Peptidoglycan Recognition Proteins (PGRPs): Kill bacteria by inducing 60-100x intracellular Zn2+ and Cu+, synergistically with oxidative stress and glutathione depletion. Metal intoxication is a *required* component of killing [[kashyap-2014-pgrps-kill-bacteria-metal-stress]].
+- Peptidoglycan Recognition Proteins (PGRPs): Kill bacteria by inducing 60-100x intracellular Zn2+ and Cu+, synergistically with [[oxidative-stress]] and glutathione depletion. Metal intoxication is a *required* component of killing [[kashyap-2014-pgrps-kill-bacteria-metal-stress]].
 
 ### Pathogen Counter-Strategies
 Pathogens have evolved elaborate systems to overcome nickel scarcity:
@@ -69,4 +69,4 @@ An evolutionary puzzle:
 
 - [[nickel]] — the metal being sequestered
 - [[helicobacter-pylori]] — most nickel-dependent human pathogen
-- [[oxidative-stress]] — macrophage killing involves both ROS and metal restriction
+- oxidative stress — macrophage killing involves both ROS and metal restriction

@@ -27,7 +27,7 @@ An umbrella term for chronic relapsing-remitting inflammatory conditions of the 
 ### Iron Dysregulation: The Defining Metal Feature
 - Iron deficiency anemia affects 36-76% of IBD patients, driven by chronic blood loss, malabsorption, and [[inflammation]]-mediated iron sequestration.
 - [[hepcidin]] is elevated by IL-6 during IBD flares, blocking ferroportin-mediated iron export from enterocytes and macrophages -- trapping iron intracellularly while producing systemic deficiency.
-- This creates a paradox: intracellular iron excess (promoting oxidative stress and potentially [[ferroptosis]]) alongside systemic iron deficiency (causing anemia and fatigue).
+- This creates a paradox: intracellular iron excess (promoting [[oxidative-stress]] and potentially [[ferroptosis]]) alongside systemic iron deficiency (causing anemia and fatigue).
 - Oral iron supplementation worsens dysbiosis by providing growth substrate for siderophilic pathogens (Enterobacteriaceae, E. coli) while suppressing beneficial anaerobes.
 
 ### Zinc Depletion

@@ -73,7 +73,7 @@ In CKD, ferritin interpretation is particularly challenging [[mishra-2022-molecu
 
 Bacteria produce their own ferritin-like proteins to manage intracellular iron:
 
-- Dps (DNA-binding protein from starved cells): Protects DNA from Fe2+-mediated Fenton damage during oxidative stress
+- Dps (DNA-binding protein from starved cells): Protects DNA from Fe2+-mediated Fenton damage during [[oxidative-stress]]
 - Bacterioferritin (Bfr): Stores iron in a heme-containing shell
 - Ferritin (Ftn): Classical ferritin, structurally similar to mammalian ferritin
 

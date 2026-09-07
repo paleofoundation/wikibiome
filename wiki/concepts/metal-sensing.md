@@ -29,7 +29,7 @@ The Fur (Ferric Uptake Regulator) superfamily includes the most widely distribut
 
 | Sensor | Metal Sensed | Key Targets | Organisms |
 |--------|-------------|-------------|-----------|
-| Fur | Fe2+ | Siderophore biosynthesis, iron import, virulence factors, acid/oxidative stress defense | Nearly all Gram-negatives; many Gram-positives |
+| Fur | Fe2+ | Siderophore biosynthesis, iron import, virulence factors, acid/[[oxidative-stress]] defense | Nearly all Gram-negatives; many Gram-positives |
 | Zur | Zn2+ | Zinc import (adcABC), Pht proteins | Streptococci, *E. coli*, *B. subtilis* |
 | Mur | Mn2+ | Manganese import | Rhizobia, *Deinococcus* |
 | PerR | Fe2+/Mn2+ | Peroxide stress response; catalase, Dps | *B. subtilis*, *S. aureus* |

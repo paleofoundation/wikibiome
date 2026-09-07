@@ -29,7 +29,7 @@ From a WikiBiome perspective, *Rothia* is significant because it bridges oral an
 ## Metal Dependencies
 
 - Iron: Required for cytochrome-based electron transport in aerobic and anaerobic respiration. *Rothia* species possess siderophore uptake systems for iron acquisition.
-- Manganese: *R. mucilaginosa* uses manganese-dependent superoxide dismutase (MnSOD) for oxidative stress defense, enabling survival in oxygen-variable environments from the aerobic oral cavity to the microaerobic gut.
+- Manganese: *R. mucilaginosa* uses manganese-dependent superoxide dismutase (MnSOD) for [[oxidative-stress]] defense, enabling survival in oxygen-variable environments from the aerobic oral cavity to the microaerobic gut.
 
 ## Key Enzymes and Virulence Factors
 

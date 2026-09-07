@@ -62,7 +62,7 @@ The most widely distributed metal sensors in bacteria. See [[metal-sensing]] for
 - MntR: Mn2+ sensor that balances manganese import and export. Works in concert with other sensors (SczA in pneumococcus) to discriminate Mn from Zn
 - NikR: Ni2+ sensor. In [[helicobacter-pylori]], NikR is a dual activator/repressor controlling [[urease]] expression and nickel import -- essential for gastric survival
 - CopY/CsoR: Cu+ sensors controlling copper [[antimicrobial-resistance|efflux-pumps]] expression
-- PexR: A dual Fe2+/peroxide sensor in *Myxococcus* that integrates metal status with oxidative stress
+- PexR: A dual Fe2+/peroxide sensor in *Myxococcus* that integrates metal status with [[oxidative-stress]]
 
 ## Clinical Relevance
 

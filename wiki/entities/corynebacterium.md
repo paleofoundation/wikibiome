@@ -66,7 +66,7 @@ Corynebacterium is one of the core genera of the seminal fluid microbiome across
 The paradigm case is *C. diphtheriae*, whose diphtheria toxin gene (*tox*) is carried by a corynephage and is transcriptionally repressed by iron via the DtxR (diphtheria toxin repressor) regulator. Under iron limitation, DtxR releases the *tox* promoter, and toxin production begins. This means:
 
 - Iron restriction drives virulence — the host's attempt to starve the pathogen of iron paradoxically triggers its most dangerous weapon.
-- DtxR is an iron-dependent metalloregulatory protein that also controls siderophore biosynthesis, iron storage, and oxidative stress genes across all Corynebacterium species.
+- DtxR is an iron-dependent metalloregulatory protein that also controls siderophore biosynthesis, iron storage, and [[oxidative-stress]] genes across all Corynebacterium species.
 - Non-diphtheriae Corynebacterium species retain DtxR-family regulators that control iron homeostasis, making iron a central axis of the genus's biology.
 
 ## Other Associations

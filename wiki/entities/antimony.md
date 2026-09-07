@@ -22,7 +22,7 @@ A metalloid that sits in the shadows of better-studied toxic metals like [[lead]
 Antimony has no known essential biological function. Its toxicological significance arises from three properties:
 
 - Thiol affinity: Sb3+ binds sulfhydryl groups on [[glutathione]], cysteine residues, and enzyme active sites, depleting antioxidant reserves and inactivating metal-dependent enzymes -- a mechanism shared with arsenic
-- Oxidative stress induction: Antimony exposure generates reactive oxygen species through disruption of mitochondrial electron transport and depletion of GSH reserves [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]
+- [[oxidative-stress]] induction: Antimony exposure generates reactive oxygen species through disruption of mitochondrial electron transport and depletion of GSH reserves [[smovrsnik-2023-heavy-metals-oxidative-stress-pcos]]
 - Metal-metal interactions: Antimony co-occurs with other toxic metals in environmental exposures, making it difficult to isolate its individual effects from the mixture toxicity of multi-metal burdens
 
 ## Sources of Exposure
@@ -72,4 +72,4 @@ These are plausible but unverified hypotheses. <!-- NEEDS VERIFICATION: No direc
 - [[pcos]] -- co-elevated with other toxic metals in metallomic studies
 - [[lead]] -- co-occurs in environmental exposures and alloys
 - [[heavy-metals]] -- classification and general mechanisms
-- [[oxidative-stress]] -- primary mechanism of antimony toxicity
+- oxidative stress -- primary mechanism of antimony toxicity

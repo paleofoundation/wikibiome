@@ -44,7 +44,7 @@ Heavy metals and trace elements play an underappreciated role in hyperandrogenis
 | [[cadmium]] | Elevated | Acts as a [[metalloestrogens|metalloestrogen]] AND disrupts steroidogenesis; competes with zinc in enzymatic reactions |
 | [[lead]] | Elevated | Disrupts hypothalamic-pituitary-gonadal axis signaling |
 | [[zinc]] | Depleted | Zinc is a cofactor for aromatase (CYP19A1), which converts androgens to estrogens; zinc depletion impairs this conversion, favoring androgen accumulation |
-| [[copper]] | Elevated | Copper/zinc ratio is elevated in PCOS; copper excess promotes oxidative stress in ovarian tissue |
+| [[copper]] | Elevated | Copper/zinc ratio is elevated in PCOS; copper excess promotes [[oxidative-stress]] in ovarian tissue |
 | [[selenium]] | Variable | Selenoprotein antioxidant defense is compromised in PCOS |
 
 ### The Zinc-Aromatase Connection

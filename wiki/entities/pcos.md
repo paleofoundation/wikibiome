@@ -119,7 +119,7 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 - Hg correlates with fasting blood sugar and HbA1c [[abudawood-2021-antioxidant-heavy-metals-pcos]].
 - Probiotics and dietary interventions improve PCOS outcomes primarily through IR reduction [[angoorani-2023-probiotics-prebiotics-synbiotics-pcos]].
 - Gut microbiome transfer recapitulates the insulin-resistant, obese, anovulatory phenotype in germ-free mice, implicating microbiome-insulin signaling as causal [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]].
-- Metal-induced oxidative stress impairs insulin signaling, creating a vicious cycle: oxidative stress -> IR -> hyperandrogenism -> anovulation [[abudawood-2021-antioxidant-heavy-metals-pcos]].
+- Metal-induced [[oxidative-stress]] impairs insulin signaling, creating a vicious cycle: oxidative stress -> IR -> hyperandrogenism -> anovulation [[abudawood-2021-antioxidant-heavy-metals-pcos]].
 
 ## Current Interventions with Metal Relevance
 
@@ -162,7 +162,7 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 ## Connections
 
 - Metals: [[copper]], [[nickel]], [[zinc]], [[cadmium]], [[lead]], [[mercury]], [[arsenic]], [[manganese]]
-- Concepts: [[metalloestrogens]], [[oxidative-stress|oxidative stress]], [[insulin-resistance]], [[mis-metallation]]
+- Concepts: [[metalloestrogens]], oxidative stress, [[insulin-resistance]], [[mis-metallation]]
 - Analyses: [[metal-disease-matrix]], [[dietary-metal-paradoxes]]
 - Related diseases: [[breast-cancer]] (shared metalloestrogen pathway), [[type-2-diabetes]] (shared insulin resistance and metal signature), [[autism-spectrum-disorder]] (shared Zn depletion and toxic metal burden)
 - Pathogens: Indirect -- gut dysbiosis patterns overlap with metal-driven dysbiosis described in 

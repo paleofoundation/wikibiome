@@ -22,7 +22,7 @@ platform: wikibiome
 
 # Phenylalanine
 
-Phenylalanine is an essential aromatic amino acid that sits at a metabolic crossroads: it is the precursor to tyrosine (and through it to dopamine, norepinephrine, and epinephrine), a substrate for microbial conversion to cardiovascular risk metabolites, and a participant in oxidative stress defense. The [[gut-microbiome]] metabolizes phenylalanine through pathways that can be either protective or pathogenic, depending on community composition.
+Phenylalanine is an essential aromatic amino acid that sits at a metabolic crossroads: it is the precursor to tyrosine (and through it to dopamine, norepinephrine, and epinephrine), a substrate for microbial conversion to cardiovascular risk metabolites, and a participant in [[oxidative-stress]] defense. The [[gut-microbiome]] metabolizes phenylalanine through pathways that can be either protective or pathogenic, depending on community composition.
 
 ## Metabolic Pathways
 

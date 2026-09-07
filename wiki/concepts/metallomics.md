@@ -80,7 +80,7 @@ Post-mortem brain metallomic profiling using ICP-MS across 10 brain regions can 
 - Despite shared Cu deficiencies, other metal alterations (Na, Mn, Ca, Fe, Se) differ between disease types, creating distinct metallomic signatures
 - PCA and PLS-DA analysis of as few as three brain regions achieves clear disease separation
 - Cu changes contribute most to variable importance in projection (VIP) scores
-- Oxidative stress implications: Cu, Mn, Fe, and Se are all cofactors for antioxidant enzymes (SOD1, SOD2, GPX, TrxR), and their coordinated dysregulation indicates widespread loss of antioxidant defense
+- [[oxidative-stress]] implications: Cu, Mn, Fe, and Se are all cofactors for antioxidant enzymes (SOD1, SOD2, GPX, TrxR), and their coordinated dysregulation indicates widespread loss of antioxidant defense
 
 ## Cardiovascular Metallomics
 

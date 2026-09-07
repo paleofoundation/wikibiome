@@ -60,7 +60,7 @@ Dietary histamine and microbial histamine production are distinct evidence quest
 
 ## Histidine in Oxidative Stress Defense
 
-Histidine biosynthesis is upregulated as part of the oxidative stress response in bacteria:
+Histidine biosynthesis is upregulated as part of the [[oxidative-stress]] response in bacteria:
 
 - SOD-deficient *E. coli* upregulates the pentose phosphate pathway, feeding aromatic amino acid synthesis including histidine [[nong-2026-sod-deficiency-oxidative-stress-ecoli]].
 - Deletion of hisD (disrupting histidine synthesis) increased H2O2 sensitivity in SOD mutants, suggesting histidine biosynthesis intermediates provide antioxidant protection.

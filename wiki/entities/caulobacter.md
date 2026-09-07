@@ -39,7 +39,7 @@ Caulobacter is a genus of Gram-negative obligate aerobic Alphaproteobacteria, wi
 
 ## Metal Dependencies
 
-C. crescentus requires iron (acquired through TonB-dependent receptors) and zinc for essential metalloenzymes. What makes it exceptional is its well-characterized response to metal excess — particularly chromium and cadmium. Studies in Caulobacter have mapped the transcriptomic and proteomic responses to toxic metal exposure, revealing conserved stress pathways (SOS response, oxidative stress defense, efflux pump upregulation) shared across Proteobacteria.
+C. crescentus requires iron (acquired through TonB-dependent receptors) and zinc for essential metalloenzymes. What makes it exceptional is its well-characterized response to metal excess — particularly chromium and cadmium. Studies in Caulobacter have mapped the transcriptomic and proteomic responses to toxic metal exposure, revealing conserved stress pathways (SOS response, [[oxidative-stress]] defense, efflux pump upregulation) shared across Proteobacteria.
 
 ## Ecological Role
 

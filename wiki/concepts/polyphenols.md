@@ -69,7 +69,7 @@ Polyphenols act as selective antimicrobials and prebiotics:
 Polyphenols show neuroprotective effects across multiple neurodegenerative conditions. In Parkinson's disease, dietary polyphenol intake correlates with favorable [[gut-microbiome]] composition and reduced [[neuroinflammation]] [[cilia-2020-microbiome-gut-dietary-interventions-parkinsons]]. The Mediterranean diet's neuroprotective association is partly attributed to its high polyphenol content [[perez-pardo-2022-mediterranean-diet-parkinsons-microbiome]].
 
 ### Schizophrenia
-Polyphenols including EGCG, resveratrol, and curcumin demonstrate antipsychotic-like effects in preclinical models through antioxidant, anti-inflammatory, and gut-microbiome-modulating mechanisms. Their metal chelation properties may contribute by reducing metal-driven [[oxidative-stress]] in the brain [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
+Polyphenols including EGCG, resveratrol, and curcumin demonstrate antipsychotic-like effects in preclinical models through antioxidant, anti-inflammatory, and gut-microbiome-modulating mechanisms. Their metal chelation properties may contribute by reducing metal-driven oxidative stress in the brain [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
 
 ### Inflammatory Bowel Disease
 Dietary polyphenols reduce intestinal [[inflammation]] in IBD models through NF-kB suppression, antioxidant activity, and microbiome modulation. Their iron-chelating properties may be particularly relevant by reducing luminal iron available to bloom-associated Enterobacteriaceae [[martin-2015-dietary-polyphenols-ibd-models]].
@@ -83,7 +83,7 @@ Polyphenols activate the Nrf2 pathway, upregulating antioxidant defenses and sup
 ## Cross-References
 
 - [[mediterranean-diet]] -- the dietary pattern richest in polyphenols
-- [[oxidative-stress]] -- the primary mechanism polyphenols counteract
+- oxidative stress -- the primary mechanism polyphenols counteract
 - [[prebiotics]] -- polyphenols function as colonic prebiotics
 - [[iron]] -- polyphenols chelate dietary iron
 - [[siderophores]] -- iron chelation by polyphenols may reduce substrate for pathogen siderophores

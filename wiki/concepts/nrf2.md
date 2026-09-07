@@ -25,7 +25,7 @@ seo_target: "Nrf2 microbiome oxidative stress gut"
 
 ## Overview
 
-Nrf2 is a master transcription factor that regulates the expression of antioxidant and cytoprotective genes. It plays a central role in cellular defense against oxidative stress, electrophilic stress, and [[inflammation]]. Under normal conditions, Nrf2 is sequestered in the cytoplasm by Keap1 and targeted for degradation; under stress, Nrf2 is released and translocates to the nucleus to activate antioxidant response element (ARE)-driven genes.
+Nrf2 is a master transcription factor that regulates the expression of antioxidant and cytoprotective genes. It plays a central role in cellular defense against [[oxidative-stress]], electrophilic stress, and [[inflammation]]. Under normal conditions, Nrf2 is sequestered in the cytoplasm by Keap1 and targeted for degradation; under stress, Nrf2 is released and translocates to the nucleus to activate antioxidant response element (ARE)-driven genes.
 
 ## Relevance to WikiBiome
 
@@ -35,7 +35,7 @@ Nrf2 is a master transcription factor that regulates the expression of antioxida
 
 ## Cross-References
 
-- [[oxidative-stress]]
+- oxidative stress
 - [[superoxide-dismutase]]
 - [[multiple-sclerosis]]
 - butyrate

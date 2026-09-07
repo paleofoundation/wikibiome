@@ -108,11 +108,11 @@ Quinolinic acid (a [[kynurenine]] pathway metabolite) chelates iron and forms QU
 | [[chronic-kidney-disease]] | Tubular ferroptosis via iron-driven Fenton; [[cadmium]] displaces Fe, increasing labile pool |
 | [[colorectal-cancer]] | Heme iron from red meat → Fenton in colonocytes → lipid peroxidation → mutations |
 | [[crohns-disease]] | Iron supplementation fuels pathobiont growth AND Fenton damage at inflamed sites |
-| [[postpartum-depression]] | Iron fluctuations postpartum; Fenton-driven oxidative stress |
+| [[postpartum-depression]] | Iron fluctuations postpartum; Fenton-driven [[oxidative-stress]] |
 
 ## Cross-References
 
-- [[oxidative-stress]] -- Fenton chemistry as the primary ROS generation mechanism
+- oxidative stress -- Fenton chemistry as the primary ROS generation mechanism
 - [[ferroptosis]] -- Iron-dependent cell death downstream of lipid peroxidation
 - [[iron]] -- Primary Fenton catalyst
 - [[copper]] -- Fenton-like chemistry

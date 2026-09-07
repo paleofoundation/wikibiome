@@ -50,7 +50,7 @@ In polycystic ovary syndrome, heavy metals disrupt androgen homeostasis through 
 - [[cadmium|Cadmium]] and [[lead]] disrupt steroidogenic enzyme function in ovarian theca cells
 - [[copper|Copper]] elevation correlates with BMI and triglycerides in PCOS, reflecting metabolic-endocrine coupling
 - [[nickel|Nickel]] may act as a [[metalloestrogen]], altering the estrogen/testosterone ratio
-- Oxidative stress from metal exposure damages ovarian follicles and disrupts the hypothalamic-pituitary-gonadal axis
+- [[oxidative-stress]] from metal exposure damages ovarian follicles and disrupts the hypothalamic-pituitary-gonadal axis
 - The combination of heavy metal burden and dysbiotic microbiome creates dual disruption: metals directly impair steroidogenesis while dysbiosis alters microbial hormone processing
 
 ### Metal-Androgen Interactions
@@ -89,5 +89,5 @@ Current evidence supports a cyclic model: metal exposure disrupts ovarian steroi
 - [[zinc]] -- essential cofactor for testosterone synthesis
 - [[cadmium]] -- testicular toxicity; ovarian disruption in PCOS
 - [[copper]] -- elevated in PCOS; correlates with metabolic parameters
-- [[oxidative-stress]] -- metal-induced ROS damages steroidogenic cells
+- oxidative stress -- metal-induced ROS damages steroidogenic cells
 - [[insulin-resistance]] -- links hyperandrogenism to metabolic syndrome in PCOS

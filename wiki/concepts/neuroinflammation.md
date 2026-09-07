@@ -95,4 +95,4 @@ For aluminum, the proposed neuroinflammatory profile includes [[nlrp3-inflammaso
 - [[short-chain-fatty-acids]] -- butyrate depletion removes anti-neuroinflammatory brake
 - [[nf-kappa-b]] -- central signaling hub activated by both metals and LPS in microglia
 - [[tryptophan-metabolism]] -- AhR ligand depletion removes neuroprotective signaling
-- [[oxidative-stress]] -- ROS generation drives and amplifies microglial activation
+- oxidative stress -- ROS generation drives and amplifies microglial activation

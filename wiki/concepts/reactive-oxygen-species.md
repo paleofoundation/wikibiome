@@ -22,7 +22,7 @@ karen_brain_primitives: [1, 3]
 
 ## Overview
 
-Reactive oxygen species — superoxide (O2•−), hydrogen peroxide (H2O2), and hydroxyl radical (OH•) — are chemically reactive molecules generated during normal metabolism and massively amplified by heavy metal exposure. ROS are both weapons (the host uses them to kill pathogens via oxidative burst) and toxins (excess ROS damage host DNA, proteins, and lipids). The balance between ROS generation and antioxidant defense determines whether oxidative stress drives disease.
+Reactive oxygen species — superoxide (O2•−), hydrogen peroxide (H2O2), and hydroxyl radical (OH•) — are chemically reactive molecules generated during normal metabolism and massively amplified by heavy metal exposure. ROS are both weapons (the host uses them to kill pathogens via oxidative burst) and toxins (excess ROS damage host DNA, proteins, and lipids). The balance between ROS generation and antioxidant defense determines whether [[oxidative-stress]] drives disease.
 
 ## Metal-Driven ROS Generation
 
@@ -43,7 +43,7 @@ Heavy metals amplify ROS through multiple mechanisms:
 
 ## Cross-References
 
-- [[oxidative-stress]] — broader context page
+- oxidative stress — broader context page
 - [[lipid-peroxidation]] — ROS-driven membrane damage
 - [[ferroptosis]] — iron/ROS-dependent cell death
 - [[glutathione]] — primary antioxidant defense

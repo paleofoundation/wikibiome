@@ -81,7 +81,7 @@ The Al-AD link remains one of the most controversial questions in metal toxicolo
 ## Mechanism of Toxicity
 
 1. Amyloid-beta promotion: Al increases APP processing and amyloid-beta production in experimental models [[chin-chan-2015-environmental-pollutants-ad-pd]].
-2. Oxidative stress: Al generates ROS, though it is not a Fenton-active metal and acts through indirect mechanisms.
+2. [[oxidative-stress]]: Al generates ROS, though it is not a Fenton-active metal and acts through indirect mechanisms.
 3. Neuroinflammation: Al-containing adjuvants demonstrate potent immune-stimulating properties; chronic low-level exposure may sustain neuroinflammation.
 4. Pro-fibrogenic effects: Al promotes fibrotic processes in multiple tissues.
 5. Endocrine disruption: Potential disruption of energy metabolism via citrate pathway interference [[callejon-leblic-2023-metallomic-signatures-lung-cancer-copd]].
@@ -127,4 +127,4 @@ The Al-AD link remains one of the most controversial questions in metal toxicolo
 - [[nutritional-immunity]] -- Al has no known role in host-pathogen metal competition (unlike Fe, Mn, Zn)
 - [[metallomics]] -- serum Al serves as a lung cancer biomarker in metallomic panels
 - -- Al bioaccessibility varies 0.5-48%, making total content misleading
-- [[oxidative-stress]] -- indirect ROS generation mechanism differs from Fenton-active metals
+- oxidative stress -- indirect ROS generation mechanism differs from Fenton-active metals

@@ -57,7 +57,7 @@ The clinical significance of Fusobacteriales extends beyond their oral habitat t
 1. Oral [[dysbiosis]] (periodontal disease) → increased Fusobacteriales load
 2. Oral-gut translocation → Fusobacteriales colonize the intestinal tract
 3. LPS-mediated systemic [[inflammation]] → endotoxemia contributes to distant organ injury
-4. Glomerular damage → Fusobacteriales-derived LPS induces renal oxidative stress and apoptosis
+4. Glomerular damage → Fusobacteriales-derived LPS induces renal [[oxidative-stress]] and apoptosis
 
 ## Conditions Associated
 

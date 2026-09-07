@@ -58,5 +58,5 @@ A cluster of conditions — high blood pressure, impaired fasting glucose, insul
 ## Connections
 
 - [[nickel]] — the implicated metal
-- [[oxidative-stress]] — proposed mechanism
+- oxidative stress — proposed mechanism
 - Relates to [[metal-carcinogenesis]] as a non-cancer endpoint of metal toxicity

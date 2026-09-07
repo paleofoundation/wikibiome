@@ -108,6 +108,6 @@ The common thread across these conditions is that metal dyshomeostasis and [[neu
 - [[microglia]] -- neuroinflammatory mediators that activate tau kinases
 - [[neuroinflammation]] -- the inflammatory driver of kinase/phosphatase imbalance
 - [[kynurenine-pathway]] -- quinolinic acid promotes tau phosphorylation
-- [[oxidative-stress]] -- ROS activate upstream tau kinases
+- oxidative stress -- ROS activate upstream tau kinases
 - [[epigenetics]] -- lead-induced epigenetic changes prime late-life tau pathology
 - [[gut-brain-axis]] -- the route by which gut dysbiosis reaches neuronal tau

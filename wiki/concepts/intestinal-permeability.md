@@ -33,19 +33,19 @@ Zonulin (pre-haptoglobin 2) is the only known physiological regulator of intesti
 
 | Metal | Primary Mechanism | Key TJ Targets |
 |-------|------------------|----------------|
-| Cadmium | Oxidative stress, [[mitochondrial-dysfunction]], direct claudin displacement | Occludin, ZO-1, claudin-1 |
+| Cadmium | [[oxidative-stress]], [[mitochondrial-dysfunction]], direct claudin displacement | Occludin, ZO-1, claudin-1 |
 | Lead | PKC activation, calcium mimicry at TJ signaling | ZO-1, occludin phosphorylation |
 | Arsenic | [[nf-kappa-b]] activation, mucus layer degradation | Claudin-1, -4; MUC2 depletion |
 | Mercury | Thiol binding on TJ proteins, cytoskeletal disruption | Actin ring, ZO-1 |
 | Nickel | TLR4 activation, mast cell degranulation (in sensitized individuals) | Histamine-mediated TJ opening |
 
-All five metals converge on [[oxidative-stress]] as a common final pathway for TJ disruption. [[dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side.
+All five metals converge on oxidative stress as a common final pathway for TJ disruption. [[dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side.
 
 ## The Gateway Mechanism
 
 Increased permeability creates a vicious cycle:
 
-1. Metal exposure damages TJs directly and via [[oxidative-stress]]
+1. Metal exposure damages TJs directly and via oxidative stress
 2. Barrier failure permits LPS and bacterial translocation
 3. LPS activates TLR4 on immune cells, driving inflammation and [[nf-kappa-b]]
 4. Inflammatory cytokines (TNF-alpha, IFN-gamma, IL-13) further open TJs

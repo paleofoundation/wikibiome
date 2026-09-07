@@ -40,7 +40,7 @@ Cadmium is the most established metalloestrogen relevant to ovarian cancer:
 ### Nickel and Arsenic
 - [[nickel]] binds ERa noncompetitively with estradiol and induces cell growth in hormone-sensitive cell lines
 - Ni also drives epigenetic changes -- global loss of histone acetylation, H3K9 methylation -- that may promote ovarian carcinogenesis independently of estrogenic effects
-- [[arsenic]] exposure is associated with increased ovarian cancer risk through oxidative stress, DNA damage, and interference with DNA repair pathways
+- [[arsenic]] exposure is associated with increased ovarian cancer risk through [[oxidative-stress]], DNA damage, and interference with DNA repair pathways
 - Co-exposure to multiple metals (Cd + Ni + As) may produce synergistic carcinogenic effects through converging estrogenic and epigenetic mechanisms
 
 ## Iron and Ferroptosis

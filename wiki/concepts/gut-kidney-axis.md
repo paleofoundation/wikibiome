@@ -70,7 +70,7 @@ The most clinically significant products of the dysbiotic CKD microbiome:
 
 | Toxin | Precursor | Bacterial Source | Kidney Effect |
 |-------|-----------|-----------------|---------------|
-| Indoxyl sulfate (IS) | Tryptophan → indole | [[escherichia-coli]], Clostridium | Tubular injury, fibrosis, oxidative stress |
+| Indoxyl sulfate (IS) | Tryptophan → indole | [[escherichia-coli]], Clostridium | Tubular injury, fibrosis, [[oxidative-stress]] |
 | p-Cresyl sulfate (pCS) | Tyrosine → p-cresol | Clostridioides, Blautia | Tubular damage, cardiovascular toxicity |
 | [[tmao|TMAO]] | Choline, carnitine → TMA | Proteobacteria | Renal fibrosis, atherosclerosis |
 | Phenylacetylglutamine | Phenylalanine | Clostridium, Bacteroides | Cardiovascular events |

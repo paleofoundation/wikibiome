@@ -67,7 +67,7 @@ Metal accumulation in the HD brain is increasingly documented:
 
 - Iron — Elevated in the caudate nucleus and putamen (the regions most affected in HD). Iron accumulation accelerates oxidative damage via Fenton chemistry and promotes [[alpha-synuclein]]-independent protein aggregation. Neuroimaging studies show iron deposition correlating with disease severity and motor dysfunction.
 - Manganese — Accumulates in the basal ganglia; manganese neurotoxicity preferentially affects the same striatal circuits destroyed in HD, raising the possibility that environmental manganese exposure modifies age of onset or progression rate.
-- Copper — Mutant huntingtin interacts abnormally with copper, and copper dyshomeostasis has been reported in HD models. Copper-mediated oxidative stress may compound iron-driven damage.
+- Copper — Mutant huntingtin interacts abnormally with copper, and copper dyshomeostasis has been reported in HD models. Copper-mediated [[oxidative-stress]] may compound iron-driven damage.
 
 The convergence of metal accumulation in the same brain regions where mHTT causes selective neuronal death suggests that metals may not merely accompany neurodegeneration but actively accelerate it — particularly in individuals with subthreshold genetic risk (intermediate CAG repeats).
 

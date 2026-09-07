@@ -50,7 +50,7 @@ A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in
 
 ### Manganese and Iron
 
-- Manganese: Cofactor for MnSOD (oxidative stress defense); Mn availability impacts survival in inflamed gut environments.
+- Manganese: Cofactor for MnSOD ([[oxidative-stress]] defense); Mn availability impacts survival in inflamed gut environments.
 - Iron: Essential for respiration and core metabolic enzymes; iron sequestration by host [[lactoferrin]] and [[transferrin]] may suppress *Torulaspora* under health but allow expansion in iron-rich dysbiotic states.
 
 ## Biofilm and Adhesion

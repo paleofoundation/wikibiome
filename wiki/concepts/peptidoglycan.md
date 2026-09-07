@@ -23,7 +23,7 @@ Peptidoglycan (murein) is the polymer of N-acetylglucosamine and N-acetylmuramic
 
 ## Metal Connection
 
-- Peptidoglycan recognition proteins (PGRPs) kill bacteria via three metal-dependent mechanisms: oxidative stress, thiol stress, and osmotic stress. PGRPs activate metal-mediated antimicrobial pathways — a direct intersection of innate immunity and metal toxicity [[kashyap-2014-pgrps-kill-bacteria-metal-stress]].
+- Peptidoglycan recognition proteins (PGRPs) kill bacteria via three metal-dependent mechanisms: [[oxidative-stress]], thiol stress, and osmotic stress. PGRPs activate metal-mediated antimicrobial pathways — a direct intersection of innate immunity and metal toxicity [[kashyap-2014-pgrps-kill-bacteria-metal-stress]].
 - TLR2 signaling: Peptidoglycan-TLR2 activation in the esophagus drives [[interleukin-6|IL-6]] and [[il-8]] production [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]].
 
 ## Cross-References

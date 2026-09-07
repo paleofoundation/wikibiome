@@ -73,7 +73,7 @@ Humans cannot directly metabolize ellagic acid; all urolithin production depends
 - Endothelial function: Urolithin A restores endothelial nitric oxide synthase (eNOS) activity and improves vasodilation
 - Vascular [[inflammation]]: Suppresses NF-κB signaling and reduces pro-inflammatory cytokine production
 - Arterial stiffness: Improves arterial elasticity and reduces pulse wave velocity in aging cohorts
-- Oxidative stress: Potent mitochondrial antioxidant; restores complex I and III function
+- [[oxidative-stress]]: Potent mitochondrial antioxidant; restores complex I and III function
 
 ### Healthy Aging and Longevity
 - Urolithin A activates mitophagy (selective mitochondrial autophagy), clearing dysfunctional mitochondria

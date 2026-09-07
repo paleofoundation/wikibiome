@@ -42,7 +42,7 @@ An essential trace element that serves as a cofactor for a small but critical fa
 | Sulfite oxidase | Oxidizes sulfite (SO3 2-) to sulfate (SO4 2-); detoxifies dietary and endogenous sulfite [[smovrsnik-2025-trace-elements-pcos]] | Sulfite sensitivity; isolated sulfite oxidase deficiency and Moco deficiency cause toxic sulfite accumulation, neurological damage, and early death (Schwarz et al. 2009) |
 | Aldehyde oxidase | Oxidizes aromatic and aliphatic aldehydes; metabolizes drugs and xenobiotics | Drug metabolism (affects bioavailability of some pharmaceuticals) |
 
-Xanthine oxidase is particularly relevant to this wiki because it is both a Mo-dependent enzyme and a significant endogenous source of ROS (superoxide and H2O2), connecting molybdenum status to [[oxidative-stress]] [[smovrsnik-2025-trace-elements-pcos]].
+Xanthine oxidase is particularly relevant to this wiki because it is both a Mo-dependent enzyme and a significant endogenous source of ROS (superoxide and H2O2), connecting molybdenum status to oxidative stress [[smovrsnik-2025-trace-elements-pcos]].
 
 Bacterial nitrate reductase and related Mo-dependent enzymes (formate dehydrogenase, DMSO reductase) enable anaerobic respiration in enteric pathogens such as *E. coli* and *Salmonella*. In the inflamed gut, host-derived nitrate from nitric oxide oxidation is exploited by Enterobacteriaceae via these Mo-dependent enzymes to outcompete obligate anaerobe commensals — a key mechanism of dysbiotic bloom (Winter et al. 2013; Lopez et al. 2015).
 
@@ -89,7 +89,7 @@ The first study to examine Mo in PCOS found significantly lower levels in affect
 - [[breast-cancer]] -- only metal inversely associated with risk in the Sister Study; stronger for ER-negative
 - [[pcos]] -- lower Mo in PCOS patients; Cu-Mo antagonism potentially relevant
 - [[copper]] -- antagonistic relationship; elevated Cu may drive low Mo in PCOS
-- [[oxidative-stress]] -- xanthine oxidase (Mo-dependent) is a significant endogenous ROS source
+- oxidative stress -- xanthine oxidase (Mo-dependent) is a significant endogenous ROS source
 - -- Mo-dependent enzyme; target of gout therapy (allopurinol)
 - -- Mo overexposure in baby food jars
 - [[iron]] -- shared biosynthetic pathways for cofactor assembly

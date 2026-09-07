@@ -67,7 +67,7 @@ The 7α-dehydroxylase activity is the clinical hallmark of pathogenic bile acid 
 - *C. symbiosum* is obligately iron-dependent; requires Fe2+/Fe3+ for:
  - Cytochrome b5 and cytochrome c oxidases (anaerobic electron transport chains)
  - Iron-sulfur cluster proteins ([4Fe-4S] in fumarase, dehydratases)
- - Non-heme iron enzymes (catalases, peroxidases for oxidative stress tolerance)
+ - Non-heme iron enzymes (catalases, peroxidases for [[oxidative-stress]] tolerance)
 - Iron availability is a rate-limiting factor for *C. symbiosum* growth in the CRC microenvironment.
 - Elevated hepcidin (host iron-withholding defense) suppresses *C. symbiosum*; conversely, iron supplementation selectively enriches it.
 - Siderophore production: Does not secrete siderophores; relies on scavenging ferrous iron or competing for transferrin-bound iron.

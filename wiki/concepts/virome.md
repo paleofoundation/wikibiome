@@ -26,7 +26,7 @@ The gut virome is the "dark matter" of the microbiome -- poorly characterized re
 ### Bacteriophages (~90%)
 - Caudovirales (tailed phages): Siphoviridae, Myoviridae, Podoviridae -- the dominant order in the healthy gut
 - CrAss-like phages: The most abundant and stable phages in the human gut, infecting *Bacteroides* species
-- Temperate phages: Integrated as prophages in bacterial genomes; can be induced by stress (antibiotics, oxidative stress, metal exposure)
+- Temperate phages: Integrated as prophages in bacterial genomes; can be induced by stress (antibiotics, [[oxidative-stress]], metal exposure)
 
 ### Eukaryotic Viruses (~10%)
 - Plant-derived viruses (dietary origin)

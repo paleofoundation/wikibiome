@@ -48,7 +48,7 @@ An umbrella concept encompassing the metallomic dimensions of Alzheimer's diseas
 ## Shared Mechanistic Pathways
 
 All neurotoxic metals converge on overlapping pathways [[ahmed-2025-metals-alzheimers-mechanistic-review]]:
-1. Oxidative stress and mitochondrial dysfunction -- universal across all metals.
+1. [[oxidative-stress]] and mitochondrial dysfunction -- universal across all metals.
 2. Protein aggregation -- Cu/Zn bind amyloid-beta; Fe promotes alpha-synuclein aggregation.
 3. Neuroinflammation -- metal-activated microglia via [[nf-kappa-b]] and NLRP3 [[gao-2023-microglia-neurodegenerative-diseases]].
 4. BBB disruption -- Pb and Cd specifically damage the blood-brain barrier.

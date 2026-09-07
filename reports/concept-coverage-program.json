@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "6c7e5228125c6d7c170c21d9b13dc2e3c160556c983d4404cdc2c6c0d77a4f51",
+    "corpusSha256": "dded83fc900533fb8a56ebb46e3515274a05f7663df86104b09610a6e6207f41",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
-    "decisionsSha256": "431dc3f5dac205df510c8bde90c31386674298cbcef45afebe64125ec088848f",
+    "decisionsSha256": "17b46597bf92bf0b6fd5c47efad82bf210106d72151d0690c34f1fdfd61282a9",
     "publicArticles": 592,
     "sourceRecords": 1939
   },
@@ -23,12 +23,12 @@
     ]
   },
   "summary": {
-    "totalJobs": 201,
+    "totalJobs": 200,
     "createPage": 4,
-    "backfillLinks": 196,
+    "backfillLinks": 195,
     "evidenceHold": 1,
     "accepted": 0,
-    "promoted": 27
+    "promoted": 28
   },
   "activeReviews": [],
   "completedJobs": [
@@ -1199,6 +1199,141 @@
       "batchId": "2026-09-07-core-nlrp3-contexts"
     },
     {
+      "id": "oxidative-stress",
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "targets": [
+        "bacteriophages",
+        "cambialistic-enzymes",
+        "cuproptosis",
+        "cysteine",
+        "dysbiosis",
+        "dyshomeostasis",
+        "essential-oils",
+        "fenton-chemistry",
+        "ferritin",
+        "ferroptosis",
+        "functional-shielding",
+        "glutathione",
+        "glyoxalase",
+        "gut-brain-axis",
+        "gut-kidney-axis",
+        "gut-metal-microbiome",
+        "gut-microbiome",
+        "gut-penis-axis",
+        "gut-testis-axis",
+        "heavy-metal-neurotoxicity",
+        "histidine",
+        "hyperandrogenism",
+        "indoxyl-sulfate",
+        "inflammation",
+        "inter-kingdom-metal-shielding",
+        "intestinal-permeability",
+        "iron-sulfur-clusters",
+        "maternal-immune-activation",
+        "metabolomics",
+        "metal-dependent-virulence",
+        "metal-sensing",
+        "metalloestrogens",
+        "metallomics",
+        "metalloregulator",
+        "metallothionein",
+        "mis-metallation",
+        "n-acetyl-cysteine",
+        "neurodegeneration",
+        "nf-kappa-b",
+        "nickel-glyoxalase",
+        "nlrp3-inflammasome",
+        "nrf2",
+        "nutritional-immunity",
+        "pathogen-metal-acquisition",
+        "peptidoglycan",
+        "phenylalanine",
+        "propionic-acid",
+        "reactive-oxygen-species",
+        "riboswitch",
+        "testosterone",
+        "thyroid-autoimmunity",
+        "tight-junctions",
+        "virome",
+        "alternaria",
+        "aluminum",
+        "alzheimers-disease",
+        "antimony",
+        "bacillus",
+        "bacteroides-caccae",
+        "bifidobacterium-bifidum",
+        "bipolar-disorder",
+        "bismuth",
+        "breast-cancer",
+        "cadmium",
+        "candida-albicans",
+        "cardiovascular-disease",
+        "caulobacter",
+        "christensenellaceae",
+        "chromium",
+        "chronic-kidney-disease",
+        "clostridium-symbiosum",
+        "copper",
+        "corynebacterium",
+        "deinococcus",
+        "diabetic-kidney-disease",
+        "endometriosis",
+        "enterobacter-cloacae",
+        "enterococcus-faecalis",
+        "fibromyalgia",
+        "fusobacteriales",
+        "fusobacterium-nucleatum",
+        "gordonibacter-urolithinfaciens",
+        "helicobacter-hepaticus",
+        "huntingtons-disease",
+        "hypertension",
+        "inflammatory-bowel-disease",
+        "iron",
+        "lachnospiraceae-family",
+        "lactobacillus-crispatus",
+        "lactobacillus-iners",
+        "lactobacillus",
+        "lactococcus",
+        "lead",
+        "manganese",
+        "mercury",
+        "nakaseomyces-glabratus",
+        "necrotizing-enterocolitis",
+        "oscillibacter",
+        "oscillospirales",
+        "ovarian-cancer",
+        "parkinsons-disease",
+        "pcos",
+        "platinum",
+        "pmdd",
+        "porphyromonas",
+        "postpartum-depression",
+        "prevotella-intermedia",
+        "purpureocillium",
+        "rheumatoid-arthritis",
+        "rothia",
+        "saccharomyces-cerevisiae",
+        "saccharomyces",
+        "salmonella",
+        "schizophrenia",
+        "selenium",
+        "staphylococcus-aureus",
+        "staphylococcus",
+        "streptococcus-gallolyticus",
+        "streptococcus-mutans",
+        "streptococcus-pneumoniae",
+        "streptococcus",
+        "torulaspora",
+        "trichosporon-asahii",
+        "type-1-diabetes"
+      ],
+      "key": "backfill_links:oxidative-stress#2026-09-07-corpus-wide-oxidative-stress-contexts",
+      "jobKey": "backfill_links:oxidative-stress",
+      "batchId": "2026-09-07-corpus-wide-oxidative-stress-contexts"
+    },
+    {
       "id": "tight-junctions",
       "state": "promoted",
       "reviewedAt": "2026-09-07",
@@ -1529,455 +1664,6 @@
   ],
   "jobs": [
     {
-      "key": "backfill_links:oxidative-stress",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "oxidative-stress",
-      "title": "Oxidative Stress",
-      "pageType": "concept",
-      "aliases": [
-        "Oxidative Stress",
-        "oxidative stress"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/oxidative-stress.md",
-        "sourceCount": 24
-      },
-      "priority": 92.5,
-      "scoreComponents": {
-        "demand": 25,
-        "evidence": 25,
-        "graphGain": 20,
-        "scopeFit": 9,
-        "outlineReadiness": 13.5,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 184,
-        "totalPlainMentions": 208,
-        "linkedArticles": 60,
-        "unlinkedArticles": 124,
-        "linkCoveragePercent": 33,
-        "leadMentions": 4,
-        "headingMentions": 6,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "fungus",
-          "metabolite",
-          "metal",
-          "metalloid",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 373,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 499.153
-      },
-      "affectedPages": [
-        {
-          "id": "nf-kappa-b",
-          "title": "NF-kB Signaling Pathway",
-          "path": "wiki/concepts/nf-kappa-b.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 34
-        },
-        {
-          "id": "selenium",
-          "title": "Selenium",
-          "path": "wiki/entities/selenium.md",
-          "category": "metal",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 28
-        },
-        {
-          "id": "nlrp3-inflammasome",
-          "title": "NLRP3 Inflammasome",
-          "path": "wiki/concepts/nlrp3-inflammasome.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 14
-        },
-        {
-          "id": "phenylalanine",
-          "title": "Phenylalanine",
-          "path": "wiki/concepts/phenylalanine.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 280
-        },
-        {
-          "id": "lead",
-          "title": "Lead",
-          "path": "wiki/entities/lead.md",
-          "category": "metal",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 108
-        },
-        {
-          "id": "copper",
-          "title": "Copper",
-          "path": "wiki/entities/copper.md",
-          "category": "metal",
-          "plainMentions": 6,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 82
-        },
-        {
-          "id": "histidine",
-          "title": "Histidine",
-          "path": "wiki/concepts/histidine.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 29
-        },
-        {
-          "id": "staphylococcus",
-          "title": "Staphylococcus",
-          "path": "wiki/entities/staphylococcus.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 1
-        },
-        {
-          "id": "dysbiosis",
-          "title": "Dysbiosis",
-          "path": "wiki/concepts/dysbiosis.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 325
-        },
-        {
-          "id": "iron",
-          "title": "Iron",
-          "path": "wiki/entities/iron.md",
-          "category": "metal",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 226
-        },
-        {
-          "id": "gut-microbiome",
-          "title": "Gut Microbiome",
-          "path": "wiki/concepts/gut-microbiome.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 221
-        },
-        {
-          "id": "nutritional-immunity",
-          "title": "Nutritional Immunity (Metal Sequestration)",
-          "path": "wiki/concepts/nutritional-immunity.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 156
-        },
-        {
-          "id": "cadmium",
-          "title": "Cadmium",
-          "path": "wiki/entities/cadmium.md",
-          "category": "metal",
-          "plainMentions": 6,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 135
-        },
-        {
-          "id": "tight-junctions",
-          "title": "Tight Junctions",
-          "path": "wiki/concepts/tight-junctions.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 103
-        },
-        {
-          "id": "endometriosis",
-          "title": "Endometriosis",
-          "path": "wiki/entities/endometriosis.md",
-          "category": "disease",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 81
-        },
-        {
-          "id": "gut-metal-microbiome",
-          "title": "Gut-Metal-Microbiome Interactions",
-          "path": "wiki/concepts/gut-metal-microbiome.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 75
-        },
-        {
-          "id": "gut-brain-axis",
-          "title": "Gut-Brain Axis",
-          "path": "wiki/concepts/gut-brain-axis.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 74
-        },
-        {
-          "id": "mis-metallation",
-          "title": "Mis-Metallation",
-          "path": "wiki/concepts/mis-metallation.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 73
-        },
-        {
-          "id": "cardiovascular-disease",
-          "title": "Cardiovascular Disease",
-          "path": "wiki/entities/cardiovascular-disease.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 71
-        },
-        {
-          "id": "lactobacillus",
-          "title": "Lactobacillus",
-          "path": "wiki/entities/lactobacillus.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 58
-        },
-        {
-          "id": "ferroptosis",
-          "title": "Ferroptosis",
-          "path": "wiki/concepts/ferroptosis.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 57
-        },
-        {
-          "id": "candida-albicans",
-          "title": "Candida albicans",
-          "path": "wiki/entities/candida-albicans.md",
-          "category": "fungus",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 51
-        },
-        {
-          "id": "parkinsons-disease",
-          "title": "Parkinson's Disease",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 49
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans",
-          "title": "Blume 2026 — Combined Metallomics and Metabolomics Reveal Impact of Metal Homeostasis on Biological Pathways in C. elegans",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/blume-2026-metallomics-metabolomics-metal-homeostasis-c-elegans.md",
-          "passage": {
-            "excerpt": "- mis metallation -- direct demonstration of competitive metal displacement at protein binding sites in a whole organism - iron -- ferritin buffering, iron-induced metabolic exhaustion, ferroptosis connection - manganese -- cross-metal effects with zinc and...",
-            "sha256": "2c405df76b5627733e3bb84611770fdd80e58ad8812426df1f24cd682595387d"
-          }
-        },
-        {
-          "id": "bucciero-2026-diet-ms-oxidative-stress-nrf2",
-          "title": "The Diet-Multiple Sclerosis Connection: Oxidative Stress and Emerging Mechanisms",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/bucciero-2026-diet-ms-oxidative-stress-nrf2.md",
-          "passage": {
-            "excerpt": "- The Nrf2 pathway connects dietary polyphenols to oxidative stress reduction in MS, complementing the SCFA-focused mechanisms in hoffman 2023 dietary strategies eae ms - and as Nrf2 activators connect to and the urolithin-producing gordonibacter urolithinf...",
-            "sha256": "cfea3e659201b221ced393b0424d5c4efeddcd8befc9eb19253639a5d6f2a296"
-          }
-        },
-        {
-          "id": "costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter",
-          "title": "Costafrolaz 2026 — Asymmetric Envelope Surface Disposition of Secreted Protein YjbI Controls Bimodal Antibiotic Susceptibilities in C. crescentus",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter.md",
-          "passage": {
-            "excerpt": "- mis metallation -- zinc stress remodels the cell surface, indirectly affecting antibiotic susceptibility - zinc -- zinc-triggered proteolysis of YjbI as novel zinc stress response - metal homeostasis -- UzcSR/ChvGI two-component systems sensing zinc and c...",
-            "sha256": "1b5a7d2affb4ec83ea2cbaae1ce37f2de09721706556185d9a3e843ddbb5f576"
-          }
-        },
-        {
-          "id": "foroughi-2026-periodontal-biomarkers-cvd",
-          "title": "Periodontal Biomarkers in Cardiovascular Disease: Mechanisms, Diagnostics, and Clinical Implications",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/foroughi-2026-periodontal-biomarkers-cvd.md",
-          "passage": {
-            "excerpt": "- **Study type**: Narrative review of studies published 1990-2025 (PubMed, Scopus, Web of Science) - **Inclusion**: Clinical, epidemiological, experimental, reviews, and meta-analyses examining periodontal biomarkers and CVD - **128 studies** initially iden...",
-            "sha256": "4830505fb25bc742999ea9eea924b6d2949be9ae1378e30d7248908249ad1a86"
-          }
-        },
-        {
-          "id": "jones-2026-amylase-degradable-copper-starch-nanoparticles-saureus",
-          "title": "Jones 2026 — Targeting of Bacteria Using Amylase-Degradable, Copper-Loaded Starch Nanoparticles",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/jones-2026-amylase-degradable-copper-starch-nanoparticles-saureus.md",
-          "passage": {
-            "excerpt": "- mis metallation -- exploits copper toxicity for targeted antibacterial therapy - copper -- Cu nanoparticles as the active antimicrobial component - antimicrobial metals -- novel targeted delivery approach for metal-based antimicrobials - staphylococcus au...",
-            "sha256": "1d755db8863d511a474d75003a8a2e293adddc704b3850115bb643a102284e92"
-          }
-        },
-        {
-          "id": "kajfasz-2026-zinc-enhanced-phenazine-antimicrobial-gram-positive",
-          "title": "Kajfasz 2026 — Zinc-Enhanced Activity of an Antimicrobial Halogenated Phenazine Against Streptococcus mutans and Other Gram-Positive Bacteria",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/kajfasz-2026-zinc-enhanced-phenazine-antimicrobial-gram-positive.md",
-          "passage": {
-            "excerpt": "This study provides the most direct experimental evidence to date that combining a metal-disrupting antimicrobial compound (HP-29) with zinc causes catastrophic mis metallation in Gram-positive bacteria. The halogenated phenazine HP-29 induces rapid iron st...",
-            "sha256": "3e6ebadc7537b22294b05e95cba295064762fc9fd269d88075c654b5c35437ef"
-          }
-        },
-        {
-          "id": "li-2026-ibd-erectile-dysfunction-mechanistic-link",
-          "title": "Li 2026 — IBD and Male Erectile Dysfunction: Mechanistic Insights and Novel Therapeutic Perspectives",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/li-2026-ibd-erectile-dysfunction-mechanistic-link.md",
-          "passage": {
-            "excerpt": "- **erectile dysfunction signature** — This source provides strong mechanistic support for the ecological layer (dysbiosis → barrier dysfunction → systemic inflammation → endothelial damage). It strengthens the connection between IBD-driven immune dysregula...",
-            "sha256": "0ee4ebb910979b47fcca3d19bce75c037bbca2f5b66022888f140e85bc545ab9"
-          }
-        },
-        {
-          "id": "liu-2026-gut-virome-anti-pd1-nsclc",
-          "title": "Distinct gut virome profiles are associated with response to anti-PD-1 therapy in non-small cell lung cancer",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/liu-2026-gut-virome-anti-pd1-nsclc.md",
-          "passage": {
-            "excerpt": "- dysbiosis -- virome dysbiosis as a predictor of immunotherapy response, with implications for pancreatic cancer immunotherapy - gut metal microbiome -- bacteriophages shape bacterial community composition, potentially modulating metal-microbiome interacti...",
-            "sha256": "1a1ecb5f46e80ece402d25f70808c4a4802d942b137897fcd75c1ddb2f3d7d5b"
-          }
-        },
-        {
-          "id": "liu-2026-oral-microbiome-ckd-mendelian-randomization",
-          "title": "Liu 2026 — Causal Association between Oral Microbiome and Chronic Kidney Disease: Two-Sample Mendelian Randomization",
-          "evidenceLevel": "quasi-experimental",
-          "year": 2026,
-          "path": "wiki/sources/liu-2026-oral-microbiome-ckd-mendelian-randomization.md",
-          "passage": {
-            "excerpt": "**Risk-increasing association:** - *Fusobacteriales* increase UACR. Proposed mechanism: Fusobacteriales-derived LPS induces systemic inflammation → glomerular injury; bacterial metabolites promote renal oxidative stress and apoptosis.",
-            "sha256": "c6c6115b6ab3e9a91d3b54f18ce8f749a92c6addf2d1cb0aa592c643896a07a0"
-          }
-        },
-        {
-          "id": "maes-2026-shotgun-metagenomics-mdd-nimetox",
-          "title": "Maes 2026 — Functional Shotgun Metagenomic Insights into Gut Microbial Pathway and Enzyme Disruptions Linking Metabolism, Affect, Cognition, and Suicidal Ideation in Major Depressive Disorder",
-          "evidenceLevel": "case-control",
-          "year": 2026,
-          "path": "wiki/sources/maes-2026-shotgun-metagenomics-mdd-nimetox.md",
-          "passage": {
-            "excerpt": "- **MDD-enriched taxa reflect a dysbiosis enterotype** linked to gut barrier disruption and NIMETOX (neuro-immune, metabolic, oxidative stress) mechanisms. The top discriminant taxa in the multivariate model were *Ruminococcus gnavus*, *Veillonella rogosae*...",
-            "sha256": "45afbe458ef04b0cfd059f065de5bff3ae04376cc55b2b30f86405789b3b734c"
-          }
-        },
-        {
-          "id": "nong-2026-sod-deficiency-oxidative-stress-ecoli",
-          "title": "Nong 2026 — Despite Inducing Antioxidant Regulation, Superoxide Dismutase Deficiency Makes E. coli More Sensitive to Hydrogen Peroxide",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/nong-2026-sod-deficiency-oxidative-stress-ecoli.md",
-          "passage": {
-            "excerpt": "- **SodA/SodB double deletion** induces SoxSR-mediated oxidative stress response, upregulating catalase KatE and organic peroxidases Tpx and BtuE - **SOD deficiency suppresses oxidative phosphorylation** by reducing NADH dehydrogenase (Complex I) and succin...",
-            "sha256": "5fc1809cb2bfe081e5b0363c420278087f3cb021e86650fab457dc21f8272e62"
-          }
-        },
-        {
-          "id": "palmer-2026-ph-dependent-riboswitch-manganese-sensing",
-          "title": "Palmer 2026 — pH-Dependent Allosteric Remodeling of a Bacterial Riboswitch Couples Alkaline Activation to Metal Sensing",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/palmer-2026-ph-dependent-riboswitch-manganese-sensing.md",
-          "passage": {
-            "excerpt": "This study reveals how bacteria integrate two distinct environmental signals -- manganese concentration and pH -- through a single RNA regulatory element, the alx riboswitch. For the mis metallation framework, this is significant because it demonstrates how...",
-            "sha256": "d7aaf2273b4a9650c6a44f8c94237e649e089f38203dd5546c0ef0e710a51d26"
-          }
-        }
-      ]
-    },
-    {
       "key": "backfill_links:heavy-metals",
       "lane": "backfill_links",
       "state": "queued",
@@ -2022,7 +1708,7 @@
         ],
         "candidateEvidenceSources": 235,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 466.458
+        "weightedGraphGain": 467.435
       },
       "affectedPages": [
         {
@@ -2917,7 +2603,7 @@
         ],
         "candidateEvidenceSources": 196,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 335.928
+        "weightedGraphGain": 336.905
       },
       "affectedPages": [
         {
@@ -2976,6 +2662,17 @@
           "inboundLinks": 221
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "nickel",
           "title": "Nickel",
           "path": "wiki/entities/nickel.md",
@@ -3029,17 +2726,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 101
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "endometriosis",
@@ -5601,7 +5287,7 @@
         ],
         "candidateEvidenceSources": 84,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 242.198
+        "weightedGraphGain": 243.175
       },
       "affectedPages": [
         {
@@ -5635,7 +5321,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 93
+          "inboundLinks": 184
         },
         {
           "id": "platinum",
@@ -6033,7 +5719,7 @@
       },
       "metrics": {
         "distinctArticles": 64,
-        "totalPlainMentions": 75,
+        "totalPlainMentions": 76,
         "linkedArticles": 14,
         "unlinkedArticles": 50,
         "linkCoveragePercent": 22,
@@ -6047,7 +5733,7 @@
         ],
         "candidateEvidenceSources": 278,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 235.063
+        "weightedGraphGain": 236.04
       },
       "affectedPages": [
         {
@@ -6128,6 +5814,17 @@
           "inboundLinks": 226
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 184
+        },
+        {
           "id": "nickel",
           "title": "Nickel",
           "path": "wiki/entities/nickel.md",
@@ -6170,17 +5867,6 @@
           "leadMention": false,
           "headingMention": true,
           "inboundLinks": 108
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 93
         },
         {
           "id": "copper",
@@ -9622,7 +9308,7 @@
         ],
         "candidateEvidenceSources": 48,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 178.703
+        "weightedGraphGain": 179.68
       },
       "affectedPages": [
         {
@@ -9656,7 +9342,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 93
+          "inboundLinks": 184
         },
         {
           "id": "mis-metallation",
@@ -13030,11 +12716,11 @@
         "path": "wiki/concepts/urea.md",
         "sourceCount": 6
       },
-      "priority": 91.9,
+      "priority": 91.93,
       "scoreComponents": {
         "demand": 20.72,
         "evidence": 25,
-        "graphGain": 19.93,
+        "graphGain": 19.96,
         "scopeFit": 15,
         "outlineReadiness": 11.25,
         "ambiguityPenalty": 0
@@ -13055,7 +12741,7 @@
         ],
         "candidateEvidenceSources": 21,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 97.936
+        "weightedGraphGain": 98.913
       },
       "affectedPages": [
         {
@@ -13081,6 +12767,17 @@
           "inboundLinks": 5
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "nickel",
           "title": "Nickel",
           "path": "wiki/entities/nickel.md",
@@ -13090,17 +12787,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 137
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "bifidobacterium",
@@ -13925,7 +13611,7 @@
         ],
         "candidateEvidenceSources": 71,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 143.781
+        "weightedGraphGain": 144.757
       },
       "affectedPages": [
         {
@@ -13995,6 +13681,17 @@
           "inboundLinks": 10
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "cadmium",
           "title": "Cadmium",
           "path": "wiki/entities/cadmium.md",
@@ -14004,17 +13701,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 135
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "mercury",
@@ -14371,7 +14057,7 @@
         ],
         "candidateEvidenceSources": 111,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 124.584
+        "weightedGraphGain": 125.561
       },
       "affectedPages": [
         {
@@ -14438,7 +14124,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 93
+          "inboundLinks": 184
         },
         {
           "id": "copper",
@@ -15264,7 +14950,7 @@
         ],
         "candidateEvidenceSources": 54,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 183.143
+        "weightedGraphGain": 184.12
       },
       "affectedPages": [
         {
@@ -15287,7 +14973,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 93
+          "inboundLinks": 184
         },
         {
           "id": "ferroptosis",
@@ -16604,7 +16290,7 @@
         ],
         "candidateEvidenceSources": 19,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 198.905
+        "weightedGraphGain": 199.882
       },
       "affectedPages": [
         {
@@ -16630,6 +16316,17 @@
           "inboundLinks": 226
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "nutritional-immunity",
           "title": "Nutritional Immunity (Metal Sequestration)",
           "path": "wiki/concepts/nutritional-immunity.md",
@@ -16639,17 +16336,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 156
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "copper",
@@ -18234,7 +17920,7 @@
         ],
         "candidateEvidenceSources": 73,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 226.499
+        "weightedGraphGain": 227.475
       },
       "affectedPages": [
         {
@@ -18271,6 +17957,17 @@
           "inboundLinks": 221
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "nutritional-immunity",
           "title": "Nutritional Immunity (Metal Sequestration)",
           "path": "wiki/concepts/nutritional-immunity.md",
@@ -18280,17 +17977,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 156
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "copper",
@@ -22195,11 +21881,11 @@
         "path": "wiki/concepts/metalloestrogen.md",
         "sourceCount": 3
       },
-      "priority": 88.29,
+      "priority": 88.31,
       "scoreComponents": {
         "demand": 21.41,
         "evidence": 25,
-        "graphGain": 19.38,
+        "graphGain": 19.4,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -22219,7 +21905,7 @@
         ],
         "candidateEvidenceSources": 19,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 121.467
+        "weightedGraphGain": 122.444
       },
       "affectedPages": [
         {
@@ -22289,6 +21975,17 @@
           "inboundLinks": 7
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "lead",
           "title": "Lead",
           "path": "wiki/entities/lead.md",
@@ -22298,17 +21995,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 108
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "endometriosis",
@@ -23823,266 +23509,6 @@
       ]
     },
     {
-      "key": "backfill_links:antimicrobial-resistance",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "antimicrobial-resistance",
-      "title": "Antimicrobial Resistance",
-      "pageType": "concept",
-      "aliases": [
-        "Antimicrobial Resistance",
-        "antimicrobial resistance"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/antimicrobial-resistance.md",
-        "sourceCount": 7
-      },
-      "priority": 87.64,
-      "scoreComponents": {
-        "demand": 24.06,
-        "evidence": 25,
-        "graphGain": 18.33,
-        "scopeFit": 9,
-        "outlineReadiness": 11.25,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 43,
-        "totalPlainMentions": 8,
-        "linkedArticles": 36,
-        "unlinkedArticles": 7,
-        "linkCoveragePercent": 84,
-        "leadMentions": 1,
-        "headingMentions": 0,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "fungus",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 49,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 40.1
-      },
-      "affectedPages": [
-        {
-          "id": "efflux-pumps",
-          "title": "Efflux Pumps",
-          "path": "wiki/concepts/efflux-pumps.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "zinc",
-          "title": "Zinc",
-          "path": "wiki/entities/zinc.md",
-          "category": "metal",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 120
-        },
-        {
-          "id": "arsenic",
-          "title": "Arsenic",
-          "path": "wiki/entities/arsenic.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 65
-        },
-        {
-          "id": "chronic-kidney-disease",
-          "title": "Chronic Kidney Disease",
-          "path": "wiki/entities/chronic-kidney-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 48
-        },
-        {
-          "id": "enterobacteriaceae",
-          "title": "Enterobacteriaceae",
-          "path": "wiki/entities/enterobacteriaceae.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 27
-        },
-        {
-          "id": "chromium",
-          "title": "Chromium",
-          "path": "wiki/entities/chromium.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 20
-        },
-        {
-          "id": "gallium",
-          "title": "Gallium",
-          "path": "wiki/entities/gallium.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 9
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter",
-          "title": "Costafrolaz 2026 — Asymmetric Envelope Surface Disposition of Secreted Protein YjbI Controls Bimodal Antibiotic Susceptibilities in C. crescentus",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter.md",
-          "passage": {
-            "excerpt": "- mis metallation -- zinc stress remodels the cell surface, indirectly affecting antibiotic susceptibility - zinc -- zinc-triggered proteolysis of YjbI as novel zinc stress response - metal homeostasis -- UzcSR/ChvGI two-component systems sensing zinc and c...",
-            "sha256": "1b5a7d2affb4ec83ea2cbaae1ce37f2de09721706556185d9a3e843ddbb5f576"
-          }
-        },
-        {
-          "id": "yang-2026-combined-phage-antibiotic-peritoneal-dialysis-peritonitis",
-          "title": "Combined Bacteriophage and Antibiotic Therapy for Refractory PD-Related Peritonitis Caused by Klebsiella pneumoniae",
-          "evidenceLevel": "case-report",
-          "year": 2026,
-          "path": "wiki/sources/yang-2026-combined-phage-antibiotic-peritoneal-dialysis-peritonitis.md",
-          "passage": {
-            "excerpt": "PD-related peritonitis is a leading cause of peritoneal dialysis technique failure and patient morbidity in chronic kidney disease. When caused by multidrug-resistant organisms such as klebsiella pneumoniae, conventional antibiotic therapy may fail, necessi...",
-            "sha256": "fd6d7c9424bf8b41408b12588a2570470a7feb95c4a41f7264c4a9fced84b1c5"
-          }
-        },
-        {
-          "id": "critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter",
-          "title": "Critchlow 2025 — The Zinc Metalloprotein MigC Impacts Cell Wall Biogenesis Through Interactions with MurD in Acinetobacter baumannii",
-          "evidenceLevel": "animal-model",
-          "year": 2025,
-          "path": "wiki/sources/critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter.md",
-          "passage": {
-            "excerpt": "- mis metallation -- Mur ligase mis-metallation disrupts peptidoglycan synthesis; MigC as zinc-dependent quality control - zinc -- zinc metallochaperone system directly modulating cell wall biogenesis - metal homeostasis -- COG0523 family as widespread zinc...",
-            "sha256": "c96a8513e2a2504c01798ab7b554bd3b7bb2401850bed3d63868e07eea8d143b"
-          }
-        },
-        {
-          "id": "ikhazuagbe-2025-gallium-nanoparticles-antimicrobial",
-          "title": "Ikhazuagbe et al. 2025 — Gallium Nanoparticles as Antimicrobial Agents",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/ikhazuagbe-2025-gallium-nanoparticles-antimicrobial.md",
-          "passage": {
-            "excerpt": "Comprehensive review of gallium as a therapeutic iron mimic. Supports entity pages for gallium and iron. Establishes the mechanistic basis for why gallium nanoparticles evade conventional antibiotic resistance — the Trojan horse exploits biology, not pharma...",
-            "sha256": "5adf521e6071d983588485ca4bed5e6b608c45a1d2ebb32183e11f2f1bda0fcf"
-          }
-        },
-        {
-          "id": "shen-2025-high-fat-low-fiber-diet-gut-resistome",
-          "title": "High-fat and low-fiber diet elevates the gut resistome: a comparative metagenomic study",
-          "evidenceLevel": "animal-model",
-          "year": 2025,
-          "path": "wiki/sources/shen-2025-high-fat-low-fiber-diet-gut-resistome.md",
-          "passage": {
-            "excerpt": "- High-fat/low-fiber and high-fiber/low-fat diets both increased the relative abundance of the gut resistome, virulence genes (VGs), and mobile genetic elements (MGEs) in mice compared to normal diet - High-fat diet increased antimicrobial resistance gene (...",
-            "sha256": "f57a04bf886a3239a42945e7e8f9a6ef78530cd2b7e9d15d7cc4d8d6cce12f17"
-          }
-        },
-        {
-          "id": "vocca-2025-probiotics-chronic-bacterial-prostatitis-rct",
-          "title": "Vocca 2025 — Probiotics in the Management of Chronic Bacterial Prostatitis: A Randomized, Double-Blind Trial to Evaluate a Possible Link Between Gut Microbiota Restoring and Symptom Relief",
-          "evidenceLevel": "randomized-controlled-trial",
-          "year": 2025,
-          "path": "wiki/sources/vocca-2025-probiotics-chronic-bacterial-prostatitis-rct.md",
-          "passage": {
-            "excerpt": "- **Gut-prostate axis**: Demonstrates a bidirectional relationship between gut microbiota composition and prostatic/seminal health, supporting the concept that antibiotic-induced gut dysbiosis may contribute to urogenital pathology. Relevant to gut prostate...",
-            "sha256": "5c336a9cec5141a74056598ff66ce93a3c1d737a79f5ba958f6fa377f0a4c88d"
-          }
-        },
-        {
-          "id": "wang-2025-zinc-homeostasis-reverses-tigecycline-resistance-klebsiella",
-          "title": "Wang et al. 2025 — Disruption of Zinc Homeostasis Reverses Tigecycline Resistance in Klebsiella pneumoniae",
-          "evidenceLevel": "in-vitro",
-          "year": 2025,
-          "path": "wiki/sources/wang-2025-zinc-homeostasis-reverses-tigecycline-resistance-klebsiella.md",
-          "passage": {
-            "excerpt": "- **antimicrobial resistance** — zinc as AMR reversal strategy. - **klebsiella** — species-specific AMR reversal. - **zinc** — zinc intoxication as host antimicrobial weapon (parallels macrophage zinc burst against Salmonella). - **mis metallation** — exces...",
-            "sha256": "d4bf7de0877a69c7782724ac255485ed4b5e51ad47ea046b7e03b818cff3cad4"
-          }
-        },
-        {
-          "id": "agarwal-2024-airborne-arg-mrg-ewaste-recycling",
-          "title": "Airborne antibiotic and metal resistance genes - A neglected potential risk at e-waste recycling facilities",
-          "evidenceLevel": "cross-sectional",
-          "year": 2024,
-          "path": "wiki/sources/agarwal-2024-airborne-arg-mrg-ewaste-recycling.md",
-          "passage": {
-            "excerpt": "This study is the first to quantify biological pollutants (ARGs, MRGs, endotoxins) in the air of e-waste recycling facilities. It provides direct evidence that heavy metals in the environment drive antimicrobial resistance through co selection mechanisms, n...",
-            "sha256": "5983b49a5a2f4177ace1c032ab4da499159c807003a001933f2b898dcb644df6"
-          }
-        },
-        {
-          "id": "bisht-2024-malonate-lung-pseudomonas-metal-stress",
-          "title": "Bisht 2024 — Malonate Is Relevant to the Lung Environment and Induces Genome-Wide Stress Responses in Pseudomonas aeruginosa",
-          "evidenceLevel": "animal-model",
-          "year": 2024,
-          "path": "wiki/sources/bisht-2024-malonate-lung-pseudomonas-metal-stress.md",
-          "passage": {
-            "excerpt": "- mis metallation -- carbon source switches trigger metal stress responses, implying metabolic context shapes mis-metallation risk - copper -- massive copper resistance response to malonate utilization - metal homeostasis -- metabolic rewiring impacts metal...",
-            "sha256": "de9319830d18dbefe074739cad7fc0c96cf25d6ade3a0eca1cd3393d2ac80697"
-          }
-        },
-        {
-          "id": "bopp-2024-o2-uncoupling-rieske-oxygenase-iron-ros-adaptation",
-          "title": "Bopp 2024 — Elucidating the Role of O2 Uncoupling for the Adaptation of Bacterial Biodegradation Reactions Catalyzed by Rieske Oxygenases",
-          "evidenceLevel": "in-vitro",
-          "year": 2024,
-          "path": "wiki/sources/bopp-2024-o2-uncoupling-rieske-oxygenase-iron-ros-adaptation.md",
-          "passage": {
-            "excerpt": "- mis metallation -- iron-catalyzed side reactions generating ROS as evolutionary pressure - iron -- non-heme ferrous iron center as site of productive catalysis vs. toxic O2 uncoupling - oxidative stress -- ROS from O2 uncoupling as selective force driving...",
-            "sha256": "e4ce76a46e06db891ec825a9c924c8a9b31033b4d6598a0f93c9af61b272887b"
-          }
-        },
-        {
-          "id": "capdevila-2024-bacterial-metallostasis-sensing-trafficking",
-          "title": "Capdevila 2024 — Bacterial Metallostasis: Metal Sensing, Metalloproteome Remodeling, and Metal Trafficking",
-          "evidenceLevel": "expert-opinion",
-          "year": 2024,
-          "path": "wiki/sources/capdevila-2024-bacterial-metallostasis-sensing-trafficking.md",
-          "passage": {
-            "excerpt": "- mis metallation -- this paper defines the thermodynamic and kinetic framework explaining why mis-metallation occurs and how cells prevent it - copper -- extensive discussion of copper signaling, cuproplasia, and Cu+ toxicity mechanisms - zinc -- zinc fing...",
-            "sha256": "f4f05c8a6851c29dc2b0444f5ea35185798a5d41e1db41d682794f8747867b1a"
-          }
-        },
-        {
-          "id": "corrales-2024-iron-chelating-antifungal-collismycin-candida",
-          "title": "Corrales 2024 — Characterization of a Selective, Iron-Chelating Antifungal Compound That Disrupts Fungal Metabolism and Synergizes with Fluconazole",
-          "evidenceLevel": "animal-model",
-          "year": 2024,
-          "path": "wiki/sources/corrales-2024-iron-chelating-antifungal-collismycin-candida.md",
-          "passage": {
-            "excerpt": "- mis metallation -- Cu2+ and Zn2+ compensating for iron chelation via mis-metallation of iron-binding proteins - iron -- selective iron chelation as antifungal mechanism - iron sulfur clusters -- Fe-S cluster enzyme genes downregulated by iron chelation -...",
-            "sha256": "3d67b6a204998d5639eb56acf0bd1edfa20f390b0840fd40890efbb05897b953"
-          }
-        }
-      ]
-    },
-    {
       "key": "backfill_links:catalase",
       "lane": "backfill_links",
       "state": "queued",
@@ -24118,11 +23544,11 @@
         "path": "wiki/concepts/catalase.md",
         "sourceCount": 6
       },
-      "priority": 87.63,
+      "priority": 87.66,
       "scoreComponents": {
         "demand": 20.21,
         "evidence": 25,
-        "graphGain": 19.92,
+        "graphGain": 19.95,
         "scopeFit": 12,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": 0
@@ -24143,7 +23569,7 @@
         ],
         "candidateEvidenceSources": 29,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 97.449
+        "weightedGraphGain": 98.426
       },
       "affectedPages": [
         {
@@ -24155,7 +23581,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 93
+          "inboundLinks": 184
         },
         {
           "id": "nickel",
@@ -24492,6 +23918,266 @@
       ]
     },
     {
+      "key": "backfill_links:antimicrobial-resistance",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": null,
+      "id": "antimicrobial-resistance",
+      "title": "Antimicrobial Resistance",
+      "pageType": "concept",
+      "aliases": [
+        "Antimicrobial Resistance",
+        "antimicrobial resistance"
+      ],
+      "excludePhrases": [],
+      "reason": "Existing public concept with eligible plain-text mentions.",
+      "existingPage": {
+        "path": "wiki/concepts/antimicrobial-resistance.md",
+        "sourceCount": 7
+      },
+      "priority": 87.64,
+      "scoreComponents": {
+        "demand": 24.06,
+        "evidence": 25,
+        "graphGain": 18.33,
+        "scopeFit": 9,
+        "outlineReadiness": 11.25,
+        "ambiguityPenalty": 0
+      },
+      "metrics": {
+        "distinctArticles": 43,
+        "totalPlainMentions": 8,
+        "linkedArticles": 36,
+        "unlinkedArticles": 7,
+        "linkCoveragePercent": 84,
+        "leadMentions": 1,
+        "headingMentions": 0,
+        "articleCategories": [
+          "concept",
+          "disease",
+          "fungus",
+          "metal",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 49,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 40.1
+      },
+      "affectedPages": [
+        {
+          "id": "efflux-pumps",
+          "title": "Efflux Pumps",
+          "path": "wiki/concepts/efflux-pumps.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": true,
+          "headingMention": false,
+          "inboundLinks": 3
+        },
+        {
+          "id": "zinc",
+          "title": "Zinc",
+          "path": "wiki/entities/zinc.md",
+          "category": "metal",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 120
+        },
+        {
+          "id": "arsenic",
+          "title": "Arsenic",
+          "path": "wiki/entities/arsenic.md",
+          "category": "metal",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 65
+        },
+        {
+          "id": "chronic-kidney-disease",
+          "title": "Chronic Kidney Disease",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 48
+        },
+        {
+          "id": "enterobacteriaceae",
+          "title": "Enterobacteriaceae",
+          "path": "wiki/entities/enterobacteriaceae.md",
+          "category": "microbe",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 27
+        },
+        {
+          "id": "chromium",
+          "title": "Chromium",
+          "path": "wiki/entities/chromium.md",
+          "category": "metal",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 20
+        },
+        {
+          "id": "gallium",
+          "title": "Gallium",
+          "path": "wiki/entities/gallium.md",
+          "category": "metal",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 9
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter",
+          "title": "Costafrolaz 2026 — Asymmetric Envelope Surface Disposition of Secreted Protein YjbI Controls Bimodal Antibiotic Susceptibilities in C. crescentus",
+          "evidenceLevel": null,
+          "year": 2026,
+          "path": "wiki/sources/costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter.md",
+          "passage": {
+            "excerpt": "- mis metallation -- zinc stress remodels the cell surface, indirectly affecting antibiotic susceptibility - zinc -- zinc-triggered proteolysis of YjbI as novel zinc stress response - metal homeostasis -- UzcSR/ChvGI two-component systems sensing zinc and c...",
+            "sha256": "1b5a7d2affb4ec83ea2cbaae1ce37f2de09721706556185d9a3e843ddbb5f576"
+          }
+        },
+        {
+          "id": "yang-2026-combined-phage-antibiotic-peritoneal-dialysis-peritonitis",
+          "title": "Combined Bacteriophage and Antibiotic Therapy for Refractory PD-Related Peritonitis Caused by Klebsiella pneumoniae",
+          "evidenceLevel": "case-report",
+          "year": 2026,
+          "path": "wiki/sources/yang-2026-combined-phage-antibiotic-peritoneal-dialysis-peritonitis.md",
+          "passage": {
+            "excerpt": "PD-related peritonitis is a leading cause of peritoneal dialysis technique failure and patient morbidity in chronic kidney disease. When caused by multidrug-resistant organisms such as klebsiella pneumoniae, conventional antibiotic therapy may fail, necessi...",
+            "sha256": "fd6d7c9424bf8b41408b12588a2570470a7feb95c4a41f7264c4a9fced84b1c5"
+          }
+        },
+        {
+          "id": "critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter",
+          "title": "Critchlow 2025 — The Zinc Metalloprotein MigC Impacts Cell Wall Biogenesis Through Interactions with MurD in Acinetobacter baumannii",
+          "evidenceLevel": "animal-model",
+          "year": 2025,
+          "path": "wiki/sources/critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter.md",
+          "passage": {
+            "excerpt": "- mis metallation -- Mur ligase mis-metallation disrupts peptidoglycan synthesis; MigC as zinc-dependent quality control - zinc -- zinc metallochaperone system directly modulating cell wall biogenesis - metal homeostasis -- COG0523 family as widespread zinc...",
+            "sha256": "c96a8513e2a2504c01798ab7b554bd3b7bb2401850bed3d63868e07eea8d143b"
+          }
+        },
+        {
+          "id": "ikhazuagbe-2025-gallium-nanoparticles-antimicrobial",
+          "title": "Ikhazuagbe et al. 2025 — Gallium Nanoparticles as Antimicrobial Agents",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/ikhazuagbe-2025-gallium-nanoparticles-antimicrobial.md",
+          "passage": {
+            "excerpt": "Comprehensive review of gallium as a therapeutic iron mimic. Supports entity pages for gallium and iron. Establishes the mechanistic basis for why gallium nanoparticles evade conventional antibiotic resistance — the Trojan horse exploits biology, not pharma...",
+            "sha256": "5adf521e6071d983588485ca4bed5e6b608c45a1d2ebb32183e11f2f1bda0fcf"
+          }
+        },
+        {
+          "id": "shen-2025-high-fat-low-fiber-diet-gut-resistome",
+          "title": "High-fat and low-fiber diet elevates the gut resistome: a comparative metagenomic study",
+          "evidenceLevel": "animal-model",
+          "year": 2025,
+          "path": "wiki/sources/shen-2025-high-fat-low-fiber-diet-gut-resistome.md",
+          "passage": {
+            "excerpt": "- High-fat/low-fiber and high-fiber/low-fat diets both increased the relative abundance of the gut resistome, virulence genes (VGs), and mobile genetic elements (MGEs) in mice compared to normal diet - High-fat diet increased antimicrobial resistance gene (...",
+            "sha256": "f57a04bf886a3239a42945e7e8f9a6ef78530cd2b7e9d15d7cc4d8d6cce12f17"
+          }
+        },
+        {
+          "id": "vocca-2025-probiotics-chronic-bacterial-prostatitis-rct",
+          "title": "Vocca 2025 — Probiotics in the Management of Chronic Bacterial Prostatitis: A Randomized, Double-Blind Trial to Evaluate a Possible Link Between Gut Microbiota Restoring and Symptom Relief",
+          "evidenceLevel": "randomized-controlled-trial",
+          "year": 2025,
+          "path": "wiki/sources/vocca-2025-probiotics-chronic-bacterial-prostatitis-rct.md",
+          "passage": {
+            "excerpt": "- **Gut-prostate axis**: Demonstrates a bidirectional relationship between gut microbiota composition and prostatic/seminal health, supporting the concept that antibiotic-induced gut dysbiosis may contribute to urogenital pathology. Relevant to gut prostate...",
+            "sha256": "5c336a9cec5141a74056598ff66ce93a3c1d737a79f5ba958f6fa377f0a4c88d"
+          }
+        },
+        {
+          "id": "wang-2025-zinc-homeostasis-reverses-tigecycline-resistance-klebsiella",
+          "title": "Wang et al. 2025 — Disruption of Zinc Homeostasis Reverses Tigecycline Resistance in Klebsiella pneumoniae",
+          "evidenceLevel": "in-vitro",
+          "year": 2025,
+          "path": "wiki/sources/wang-2025-zinc-homeostasis-reverses-tigecycline-resistance-klebsiella.md",
+          "passage": {
+            "excerpt": "- **antimicrobial resistance** — zinc as AMR reversal strategy. - **klebsiella** — species-specific AMR reversal. - **zinc** — zinc intoxication as host antimicrobial weapon (parallels macrophage zinc burst against Salmonella). - **mis metallation** — exces...",
+            "sha256": "d4bf7de0877a69c7782724ac255485ed4b5e51ad47ea046b7e03b818cff3cad4"
+          }
+        },
+        {
+          "id": "agarwal-2024-airborne-arg-mrg-ewaste-recycling",
+          "title": "Airborne antibiotic and metal resistance genes - A neglected potential risk at e-waste recycling facilities",
+          "evidenceLevel": "cross-sectional",
+          "year": 2024,
+          "path": "wiki/sources/agarwal-2024-airborne-arg-mrg-ewaste-recycling.md",
+          "passage": {
+            "excerpt": "This study is the first to quantify biological pollutants (ARGs, MRGs, endotoxins) in the air of e-waste recycling facilities. It provides direct evidence that heavy metals in the environment drive antimicrobial resistance through co selection mechanisms, n...",
+            "sha256": "5983b49a5a2f4177ace1c032ab4da499159c807003a001933f2b898dcb644df6"
+          }
+        },
+        {
+          "id": "bisht-2024-malonate-lung-pseudomonas-metal-stress",
+          "title": "Bisht 2024 — Malonate Is Relevant to the Lung Environment and Induces Genome-Wide Stress Responses in Pseudomonas aeruginosa",
+          "evidenceLevel": "animal-model",
+          "year": 2024,
+          "path": "wiki/sources/bisht-2024-malonate-lung-pseudomonas-metal-stress.md",
+          "passage": {
+            "excerpt": "- mis metallation -- carbon source switches trigger metal stress responses, implying metabolic context shapes mis-metallation risk - copper -- massive copper resistance response to malonate utilization - metal homeostasis -- metabolic rewiring impacts metal...",
+            "sha256": "de9319830d18dbefe074739cad7fc0c96cf25d6ade3a0eca1cd3393d2ac80697"
+          }
+        },
+        {
+          "id": "bopp-2024-o2-uncoupling-rieske-oxygenase-iron-ros-adaptation",
+          "title": "Bopp 2024 — Elucidating the Role of O2 Uncoupling for the Adaptation of Bacterial Biodegradation Reactions Catalyzed by Rieske Oxygenases",
+          "evidenceLevel": "in-vitro",
+          "year": 2024,
+          "path": "wiki/sources/bopp-2024-o2-uncoupling-rieske-oxygenase-iron-ros-adaptation.md",
+          "passage": {
+            "excerpt": "- mis metallation -- iron-catalyzed side reactions generating ROS as evolutionary pressure - iron -- non-heme ferrous iron center as site of productive catalysis vs. toxic O2 uncoupling - oxidative stress -- ROS from O2 uncoupling as selective force driving...",
+            "sha256": "e4ce76a46e06db891ec825a9c924c8a9b31033b4d6598a0f93c9af61b272887b"
+          }
+        },
+        {
+          "id": "capdevila-2024-bacterial-metallostasis-sensing-trafficking",
+          "title": "Capdevila 2024 — Bacterial Metallostasis: Metal Sensing, Metalloproteome Remodeling, and Metal Trafficking",
+          "evidenceLevel": "expert-opinion",
+          "year": 2024,
+          "path": "wiki/sources/capdevila-2024-bacterial-metallostasis-sensing-trafficking.md",
+          "passage": {
+            "excerpt": "- mis metallation -- this paper defines the thermodynamic and kinetic framework explaining why mis-metallation occurs and how cells prevent it - copper -- extensive discussion of copper signaling, cuproplasia, and Cu+ toxicity mechanisms - zinc -- zinc fing...",
+            "sha256": "f4f05c8a6851c29dc2b0444f5ea35185798a5d41e1db41d682794f8747867b1a"
+          }
+        },
+        {
+          "id": "corrales-2024-iron-chelating-antifungal-collismycin-candida",
+          "title": "Corrales 2024 — Characterization of a Selective, Iron-Chelating Antifungal Compound That Disrupts Fungal Metabolism and Synergizes with Fluconazole",
+          "evidenceLevel": "animal-model",
+          "year": 2024,
+          "path": "wiki/sources/corrales-2024-iron-chelating-antifungal-collismycin-candida.md",
+          "passage": {
+            "excerpt": "- mis metallation -- Cu2+ and Zn2+ compensating for iron chelation via mis-metallation of iron-binding proteins - iron -- selective iron chelation as antifungal mechanism - iron sulfur clusters -- Fe-S cluster enzyme genes downregulated by iron chelation -...",
+            "sha256": "3d67b6a204998d5639eb56acf0bd1edfa20f390b0840fd40890efbb05897b953"
+          }
+        }
+      ]
+    },
+    {
       "key": "backfill_links:cysteine",
       "lane": "backfill_links",
       "state": "queued",
@@ -24534,7 +24220,7 @@
         ],
         "candidateEvidenceSources": 37,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 131.203
+        "weightedGraphGain": 132.18
       },
       "affectedPages": [
         {
@@ -24547,6 +24233,17 @@
           "leadMention": true,
           "headingMention": false,
           "inboundLinks": 4
+        },
+        {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
         },
         {
           "id": "nickel",
@@ -24569,17 +24266,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 135
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "mis-metallation",
@@ -24980,7 +24666,7 @@
         ],
         "candidateEvidenceSources": 46,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 119.14
+        "weightedGraphGain": 120.117
       },
       "affectedPages": [
         {
@@ -24995,6 +24681,17 @@
           "inboundLinks": 3
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 7,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "nickel",
           "title": "Nickel",
           "path": "wiki/entities/nickel.md",
@@ -25004,17 +24701,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 137
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 7,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "copper",
@@ -31469,7 +31155,7 @@
         ],
         "candidateEvidenceSources": 32,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 161.806
+        "weightedGraphGain": 162.783
       },
       "affectedPages": [
         {
@@ -31484,6 +31170,17 @@
           "inboundLinks": 226
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "nutritional-immunity",
           "title": "Nutritional Immunity (Metal Sequestration)",
           "path": "wiki/concepts/nutritional-immunity.md",
@@ -31493,17 +31190,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 156
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "mis-metallation",
@@ -35556,9 +35242,20 @@
         ],
         "candidateEvidenceSources": 26,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 132.205
+        "weightedGraphGain": 133.181
       },
       "affectedPages": [
+        {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
         {
           "id": "nickel",
           "title": "Nickel",
@@ -35591,17 +35288,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 120
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "copper",
@@ -36325,11 +36011,11 @@
         "path": "wiki/concepts/mitochondrial-dysfunction.md",
         "sourceCount": 10
       },
-      "priority": 84.13,
+      "priority": 84.15,
       "scoreComponents": {
         "demand": 19.65,
         "evidence": 25,
-        "graphGain": 19.98,
+        "graphGain": 20,
         "scopeFit": 9,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": 0
@@ -36350,7 +36036,7 @@
         ],
         "candidateEvidenceSources": 47,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 99.23
+        "weightedGraphGain": 100.207
       },
       "affectedPages": [
         {
@@ -36362,7 +36048,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 93
+          "inboundLinks": 184
         },
         {
           "id": "chronic-fatigue-syndrome",
@@ -43814,11 +43500,11 @@
         "path": "wiki/concepts/chelation-therapy.md",
         "sourceCount": 3
       },
-      "priority": 78.14,
+      "priority": 78.2,
       "scoreComponents": {
         "demand": 16.31,
         "evidence": 25,
-        "graphGain": 16.58,
+        "graphGain": 16.64,
         "scopeFit": 9,
         "outlineReadiness": 11.25,
         "ambiguityPenalty": 0
@@ -43838,7 +43524,7 @@
         ],
         "candidateEvidenceSources": 14,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 50.794
+        "weightedGraphGain": 51.771
       },
       "affectedPages": [
         {
@@ -43853,6 +43539,17 @@
           "inboundLinks": 11
         },
         {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
+        },
+        {
           "id": "nickel",
           "title": "Nickel",
           "path": "wiki/entities/nickel.md",
@@ -43862,17 +43559,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 137
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "urease",
@@ -45011,11 +44697,11 @@
         "path": "wiki/concepts/metal-carcinogenesis.md",
         "sourceCount": 8
       },
-      "priority": 76.88,
+      "priority": 77.23,
       "scoreComponents": {
         "demand": 19.65,
         "evidence": 25,
-        "graphGain": 11.98,
+        "graphGain": 12.33,
         "scopeFit": 9,
         "outlineReadiness": 11.25,
         "ambiguityPenalty": 0
@@ -45036,7 +44722,7 @@
         ],
         "candidateEvidenceSources": 34,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 7.555
+        "weightedGraphGain": 8.531
       },
       "affectedPages": [
         {
@@ -45048,7 +44734,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 93
+          "inboundLinks": 184
         }
       ],
       "candidateSources": [
@@ -46802,11 +46488,11 @@
         "path": "wiki/concepts/edta.md",
         "sourceCount": 8
       },
-      "priority": 75.61,
+      "priority": 75.68,
       "scoreComponents": {
         "demand": 15.25,
         "evidence": 25,
-        "graphGain": 15.86,
+        "graphGain": 15.93,
         "scopeFit": 9,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": 0
@@ -46826,7 +46512,7 @@
         ],
         "candidateEvidenceSources": 11,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 40.475
+        "weightedGraphGain": 41.452
       },
       "affectedPages": [
         {
@@ -46839,6 +46525,17 @@
           "leadMention": false,
           "headingMention": true,
           "inboundLinks": 11
+        },
+        {
+          "id": "oxidative-stress",
+          "title": "Oxidative Stress",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 184
         },
         {
           "id": "nickel",
@@ -46861,17 +46558,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 135
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
         },
         {
           "id": "autism-spectrum-disorder",

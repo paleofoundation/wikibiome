@@ -55,7 +55,7 @@ This bidirectional relationship is the defining metallomic feature of CKD:
 
 ### Mercury: Mitochondrial and Tubular Damage
 
-- Hg disrupts mitochondrial membrane potential, triggers oxidative stress, causes cytoskeletal alterations, inhibits Na+/H+ exchangers and aquaporin-1 [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
+- Hg disrupts mitochondrial membrane potential, triggers [[oxidative-stress]], causes cytoskeletal alterations, inhibits Na+/H+ exchangers and aquaporin-1 [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 - Kidneys with reduced renal mass are more susceptible to Hg toxicity [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 
 ### Arsenic: CKDu Connection
@@ -240,7 +240,7 @@ CKD shares metallomic and microbial patterns with multiple conditions:
 
 - Metals: [[cadmium]], [[lead]], [[mercury]], [[arsenic]], [[chromium]], [[nickel]], [[iron]], [[zinc]], [[copper]]
 - Microbiota: [[lachnospiraceae]], [[desulfovibrionales]], [[blautia]], [[roseburia]], [[veillonella]], [[fusobacteriales]], [[akkermansia-muciniphila]]
-- Concepts: [[ferroptosis]], [[oxidative-stress|oxidative stress]], [[epigenetic-modifications]], [[nutritional-immunity|nutritional immunity]], [[gut-kidney-axis]], [[oral-microbiome]]
+- Concepts: [[ferroptosis]], oxidative stress, [[epigenetic-modifications]], [[nutritional-immunity|nutritional immunity]], [[gut-kidney-axis]], [[oral-microbiome]]
 - Analyses: [[metal-disease-matrix]]
 - Related diseases: [[parkinsons-disease]] (shared ferroptosis pathway), [[alzheimers-disease]] (shared ferroptosis), [[type-2-diabetes]] (common comorbidity; shared Cd/Pb exposure), [[pcos]] (shared toxic metal burden), [[cardiovascular-disease]] (shared Pb/Cd; endothelial damage)
 - [[biomarkers]] — CKD staging relies on eGFR and albuminuria; metal biomarkers (blood Cd, Pb, urinary metallomics) as exposure assessment; cadA3k/arsC as gut microbiome metal exposure biosensors

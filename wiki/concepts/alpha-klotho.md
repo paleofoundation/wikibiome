@@ -89,7 +89,7 @@ The alpha-klotho axis connects to the [[gut-microbiome]] through several mechani
 - [[chronic-kidney-disease]] -- alpha-klotho decline is an early CKD biomarker
 - [[thallium]] -- highest inclusion probability for CKD risk in BKMR models
 - [[cadmium]] -- proximal tubular accumulation suppresses klotho
-- [[oxidative-stress]] -- klotho loss derepresses ROS generation
+- oxidative stress -- klotho loss derepresses ROS generation
 - [[ferroptosis]] -- klotho upregulates GPX-4, the ferroptosis brake
 - [[nf-kappa-b]] -- klotho inhibits this master inflammatory regulator
 - [[metallothionein]] -- Cd-MT complexes in renal tubules release free Cd that suppresses klotho
