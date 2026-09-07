@@ -19,8 +19,28 @@
     "mediaDescription": "No generated media; these iron-supplementation caution pages do not resolve formulation, route, deficiency or anemia state, disease phenotype, treatment protocol, or a non-prescriptive physical subject",
     "sourceUse": "Current controlled records, NIH iron guidance, and local source-resolution evidence define asset-free scientific holds."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "a806fd6fd914b24b837b0faa1b79f0f3f797697f",
+  "controlAcceptedReviewManifestSha256": "00212b77e1c35282655d51a85ed196ff03e4b9f08981ba72b79366cb7a011d0d",
+  "controlAcceptedPromptEvidenceSha256": "8a4f7716de4efd383acc8e7336c956d38d77e6a4f6baa0a6c59ad68f3b84a72c",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "fddd3bc0dcec38c86ff0ed62c2a2735719f842c4",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-iron-supplementation-long-covid",
+      "stop-iron-supplementation-ms",
+      "stop-iron-supplementation-obesity",
+      "stop-iron-supplementation-parkinsons",
+      "stop-iron-supplementation-pcos",
+      "stop-iron-supplementation-type-2-diabetes"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out tablets or infusions, disease anatomy used as evidence for a treatment recommendation, or elemental Iron media substituted for a clinical formulation. All six routes fail before prompt creation.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
