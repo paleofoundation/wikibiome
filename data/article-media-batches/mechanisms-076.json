@@ -12,6 +12,26 @@
   "controlReviewRequired": false,
   "initialAuditCommit": "9313e57",
   "reviewStandard": "The six queued routes failed the pre-generation identity, duplication, source, scope, representation, or evidence gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled records and authoritative literature were checked against the generated article corpus; exact conflicts and the smallest editorial resolution are preserved in the prompt/audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "47194cb30f9f3223cc85124e95bd7997d6455e6399033d3e89611e286dce5204",
+  "controlAcceptedPromptEvidenceSha256": "9f4482c0bdea8669cf54b39b58e0ebe94e96eb686c7ed4558781bef05e0d9e19",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "cf6b25719b34a14a01d5d2544953047abe0971f3",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "il-8",
+      "immune-balance",
+      "immunotherapy",
+      "indole",
+      "indoles",
+      "indoxyl-sulfate"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "routeDecisionCount": 6,
   "candidateCount": 0,
   "scientificHoldCount": 6,
