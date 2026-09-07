@@ -60,11 +60,11 @@ The deterministic queue is `innate-immunity`, `inter-kingdom-metal-shielding`, `
 
 ### `metal-dependent-virulence`
 
-- Identity: NLM MeSH `D014766` identifies Virulence as the degree of pathogenicity within a group or species, not one structure. “Metal-dependent virulence” is a cross-organism process class without one exact controlled identifier.
+- Identity: NLM MeSH `D014774` identifies Virulence as the degree of pathogenicity within a group or species, not one structure. “Metal-dependent virulence” is a cross-organism process class without one exact controlled identifier.
 - Scope conflict: the page aggregates nickel ureases, [NiFe]-hydrogenases, glyoxalase and acireductone dioxygenase; iron acquisition and heme uptake; diverse siderophores; zinc metalloproteases and transporters; copper and manganese defenses; many bacterial and eukaryotic pathogens; multiple host niches; environmental exposure; and clinical extrapolation.
 - Representation risk: a single enzyme or pathogen would be arbitrarily privileged, while a multi-pathogen arms-race illustration would turn heterogeneous, model-specific evidence into a universal causal diagram.
 - Required resolution: select one pathogen and strain, virulence factor or pathway, exact metal species and occupancy, host niche, infection stage, experimental model, specimen and assay, measured phenotype, and evidence grade.
-- Authorities: https://meshb.nlm.nih.gov/record/ui?ui=D014766 ; https://meshb.nlm.nih.gov/record/ui?ui=D008670 ; https://www.ncbi.nlm.nih.gov/books/NBK569686/
+- Authorities: https://meshb.nlm.nih.gov/record/ui?ui=D014774 ; https://meshb.nlm.nih.gov/record/ui?ui=D008670 ; https://www.ncbi.nlm.nih.gov/books/NBK569686/
 
 ## Hold boundary
 

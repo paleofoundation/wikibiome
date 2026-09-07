@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "777701dab22b8ddb9574857f30a382465753527dd0426e3087f35224db0a8463",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "4b2d1b81d1dbd566d62e21ce76b88b18ba01b3be0ac6b4bbdc0c844690dd8cbd",
+    "reviewLogSha256": "17a4d16ecc37a191d1d9730bcd3a9fa5a5d924aada373b70b86794be89ef0603",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -100,7 +100,7 @@
         "file": "data/article-media-batches/host-defenses-099.json",
         "batchId": "host-defenses-099",
         "status": "reviewed",
-        "sha256": "cdc6fda3787d983f844683c678c6f28c025aa39a7c5fd194f2fdc3d2045745a7"
+        "sha256": "b9667854486c5cc224828ab5f59a9d2a5d1278d0524bae8abbe116483c7eb921"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -4612,14 +4612,14 @@
     },
     {
       "pageId": "metal-dependent-virulence",
-      "controlledIdentifier": "WikiBiome:metal-dependent-virulence;related-MeSH:D014766;multi-organism-multi-metal-process-class",
+      "controlledIdentifier": "WikiBiome:metal-dependent-virulence;related-MeSH:D014774;multi-organism-multi-metal-process-class",
       "batchId": "host-defenses-099",
       "reviewedOn": "2026-09-07",
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The route aggregates nickel enzymes, iron acquisition, heme uptake, siderophores, zinc metalloproteases, copper and manganese defenses, numerous pathogens, host compartments, exposures, and clinical extrapolations. Virulence is a phenotype rather than one structure.",
       "checkedUrls": [
-        "https://meshb.nlm.nih.gov/record/ui?ui=D014766",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014774",
         "https://meshb.nlm.nih.gov/record/ui?ui=D008670",
         "https://www.ncbi.nlm.nih.gov/books/NBK569686/",
         "local:data/content.generated.json#/pages/metal-dependent-virulence"

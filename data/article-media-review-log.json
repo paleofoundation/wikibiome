@@ -16633,14 +16633,14 @@
     },
     {
       "pageId": "metal-dependent-virulence",
-      "controlledIdentifier": "WikiBiome:metal-dependent-virulence;related-MeSH:D014766;multi-organism-multi-metal-process-class",
+      "controlledIdentifier": "WikiBiome:metal-dependent-virulence;related-MeSH:D014774;multi-organism-multi-metal-process-class",
       "batchId": "host-defenses-099",
       "reviewedOn": "2026-09-07",
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The route aggregates nickel enzymes, iron acquisition, heme uptake, siderophores, zinc metalloproteases, copper and manganese defenses, numerous pathogens, host compartments, exposures, and clinical extrapolations. Virulence is a phenotype rather than one structure.",
       "checkedUrls": [
-        "https://meshb.nlm.nih.gov/record/ui?ui=D014766",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014774",
         "https://meshb.nlm.nih.gov/record/ui?ui=D008670",
         "https://www.ncbi.nlm.nih.gov/books/NBK569686/",
         "local:data/content.generated.json#/pages/metal-dependent-virulence"
