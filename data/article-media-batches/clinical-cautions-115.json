@@ -19,8 +19,28 @@
     "mediaDescription": "No generated media; these conditional feeding, diet, iodine, and iron cautions do not resolve a single product, protocol, patient state, or non-prescriptive physical subject",
     "sourceUse": "Current controlled records, clinical guidance, and local source-resolution evidence define asset-free scientific holds."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "8c4d74378f5355b11c0cabcd211d167ecd46b1fc",
+  "controlAcceptedReviewManifestSha256": "ee5513f872e7ba891f44c5cc7898836c3bb483973dfcd85e9eaffb447120fde2",
+  "controlAcceptedPromptEvidenceSha256": "c96f1a2a10dc32ee2f6b9abfc8d03ff2c79e0e3e9dfe951f0def53c16782492f",
+  "controlFinalReview": {
+    "status": "accepted-zero-call-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "d7962edb083d069444f552b9618eaa46eac412c8",
+    "reviewer": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "stop-formula-feeding-without-supplementation-nec",
+      "stop-high-protein-keto-diet-ckd",
+      "stop-iodine-supplementation-graves",
+      "stop-iodine-supplementation-hashimotos",
+      "stop-iron-supplementation-ibd",
+      "stop-iron-supplementation-alzheimers"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out food or supplement imagery, disease anatomy used as a proxy for a treatment claim, elemental-metal media substituted for a clinical formulation, or an image that conceals a patient-specific exception. All six routes fail before prompt creation.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
