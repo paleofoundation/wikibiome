@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-revisions-125",
   "category": "mechanisms",
-  "status": "reviewed",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-07",
   "authorizedParent": "fa96b5a1ae5f4bcf473aeb1116e94925df026330",
   "generator": "OpenAI built-in image generation",
@@ -18,7 +18,18 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, scan, histology slide, laboratory result, measured structure, biomarker result, treatment recommendation, or diagnostic image",
     "sourceUse": "Current NLM MeSH, CDC, reviewed UniProtKB, NCBI Bookshelf, PubMed, ExPASy ENZYME, and Rhea records supply controlled identity and conservative representation boundaries only; no source image or design is copied."
   },
-  "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "0e8316df61a330e74561b5545899d69f6b556fe3fa8073a0ca1f01e8aa9b1f0e",
+  "controlAcceptedPromptEvidenceSha256": "ed0d6919bbb889bd2cf05e7ca9b04dcb55089c1f561b9bf11251f26d380daef3",
+  "controlReviewRequired": false,
+  "controlFinalReview": {
+    "status": "accepted-one-exact-revision-hash-five-quarantined",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "7fce7ab7c943d5c7fa4ba2362bcf3ddcd6e00f6f",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": ["bacterial-vaginosis"],
+    "acceptedSourceSha256": ["1b3c417426c75eed126c3489a0a9bf489a736e3920b346a7c7dff612e400ec60"],
+    "nonPublishablePageIds": ["bdnf", "beta-glucuronidase", "bile-salt-hydrolase", "biomarkers", "blood-brain-barrier"]
+  },
   "initialAuditCommit": "0892fc6d3caba0d0e195df1483412a1ed69efb82",
   "promptFreezeCommit": "9666d54c6ca75bdd7592e8ad7d13dcbb7131c7f7",
   "reviewStandard": "Six deterministic disposition-revise records are re-audited against current controlled authorities and their literal prior failures. Every old source remains immutable and non-public. Exactly one independent call at the stated new revision is permitted per hash-frozen prompt, followed by literal native-resolution output, prohibited-content, strict safe-field, crop, and exact-hash audit.",
@@ -30,7 +41,7 @@
   "failedGenerationCount": 5,
   "quarantinedGenerationCount": 5,
   "revisionCount": 6,
-  "promotionRule": "Only a literal new-revision output matching its frozen representation boundary, fully opaque flat pale field, exact object counts, and centered 1035 by 584 source-safe area may proceed to separate exact-hash Control Tower acceptance. Every prior source remains immutable, rejected, and non-public.",
+  "promotionRule": "Only the exact accepted bacterial-vaginosis revision-3 source hash may be promoted to a metadata-bearing lossless v3 master, v3 article WebP, and centered contain-mode 1200 by 630 v3 social WebP. All prior sources and the five quarantined Batch 125 sources remain immutable and non-public.",
   "assets": [
     {
       "pageId": "bacterial-vaginosis",

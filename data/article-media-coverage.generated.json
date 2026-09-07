@@ -487,6 +487,12 @@
         "sha256": "093b204e11296b56f5a1d4ee9545c6612983850a927f1abe51f8f0956f2b539d"
       },
       {
+        "file": "data/article-media-batches/mechanisms-revisions-125.json",
+        "batchId": "mechanisms-revisions-125",
+        "status": "approved-awaiting-promotion",
+        "sha256": "bf0bb1b308e3228fed2f10e95b5a8c2293f8489fd406cea8ab764fb7259aaa2a"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
@@ -781,7 +787,7 @@
     "rejected": 358,
     "revised": 15,
     "scientificHolds": 289,
-    "inReview": 0
+    "inReview": 1
   },
   "categories": [
     {
@@ -7162,21 +7168,6 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 343,
-      "id": "bacterial-vaginosis",
-      "title": "Bacterial Vaginosis",
-      "route": "/article/bacterial-vaginosis",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism",
-      "revisionOf": {
-        "batchId": "mechanisms-revisions-124",
-        "disposition": "revise",
-        "reason": "The output reconciled the frozen tissue and microbial counts but the foreground reaches y=148 and y=883, violating the immutable 150-pixel top and bottom source-safe field.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact tissue and microbial grouping while keeping all foreground and shadow within x=150..1385 and y=150..873."
-      }
-    },
-    {
       "queuePosition": 345,
       "id": "bdnf",
       "title": "BDNF (Brain-Derived Neurotrophic Factor)",
@@ -7246,6 +7237,20 @@
         "batchId": "mechanisms-061",
         "disposition": "revise",
         "reason": "Astrocytic processes fade out at several frame boundaries and reach y=997, leaving incomplete anatomy."
+      }
+    },
+    {
+      "queuePosition": 352,
+      "id": "butyrate",
+      "title": "Butyrate",
+      "route": "/article/butyrate",
+      "category": "mechanism",
+      "coverageGroup": "mechanisms",
+      "suggestedAssetType": "mechanism",
+      "revisionOf": {
+        "batchId": "mechanisms-061",
+        "disposition": "revise",
+        "reason": "The rightmost bacterial form reaches x=1509 and enters the frozen outer 32-pixel field."
       }
     }
   ],
@@ -14465,14 +14470,12 @@
       "route": "/article/bacterial-vaginosis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "rejected",
-      "rejectedMedia": {
-        "batchId": "mechanisms-revisions-124",
-        "reviewedOn": "2026-09-07",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
-        "disposition": "revise",
-        "reason": "The output reconciled the frozen tissue and microbial counts but the foreground reaches y=148 and y=883, violating the immutable 150-pixel top and bottom source-safe field.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact tissue and microbial grouping while keeping all foreground and shadow within x=150..1385 and y=150..873."
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "mechanisms-revisions-125",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/mechanisms-revisions-batch-125/bacterial-vaginosis-draft-v3.png",
+        "sha256": "1b3c417426c75eed126c3489a0a9bf489a736e3920b346a7c7dff612e400ec60"
       }
     },
     {
