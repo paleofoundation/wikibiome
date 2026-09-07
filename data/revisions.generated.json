@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T09:55:52.616Z",
+  "generatedAt": "2026-09-07T10:28:34.181Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "1f7357e6c3d4b3fca709237bd75ca0286a68e574",
+  "sourceCommit": "967d389cf7d01240fec66c6a080188b703feeda2",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 4171,
+  "revisions": 4311,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -857,6 +857,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/alternaria.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -890,6 +899,15 @@
         "wiki/entities/aluminum.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/aluminum.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -952,6 +970,15 @@
         "wiki/entities/alzheimers-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -1086,15 +1113,6 @@
           "path": "wiki/entities/alzheimers-disease.md",
           "additions": 5,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "additions": 18,
-          "deletions": 2
         }
       ]
     },
@@ -1242,6 +1260,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/antimony.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -1345,6 +1372,15 @@
         "wiki/entities/arsenic.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/arsenic.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -1717,6 +1753,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/bacillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1818,6 +1863,15 @@
         "wiki/entities/bacteroides-caccae.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/bacteroides-caccae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -2538,6 +2592,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/bifidobacterium-bifidum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -2753,6 +2816,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/bilophila.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -2850,6 +2922,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/bipolar-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -2910,6 +2991,15 @@
         "wiki/entities/bismuth.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/bismuth.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
@@ -3069,6 +3159,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/borrelia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -3111,6 +3210,15 @@
         "wiki/entities/breast-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/breast-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -3514,6 +3622,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/cadmium.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -3821,6 +3938,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/candida-albicans.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -4104,6 +4230,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/cardiovascular-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -4237,15 +4372,6 @@
           "path": "wiki/entities/cardiovascular-disease.md",
           "additions": 5,
           "deletions": 0
-        },
-        {
-          "hash": "2f95f2f0a2a18d69cb543c687269b06ca03ab2d4",
-          "date": "2026-04-11T22:49:04+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-11 22:49",
-          "path": "wiki/entities/cardiovascular-disease.md",
-          "additions": 8,
-          "deletions": 0
         }
       ]
     },
@@ -4254,6 +4380,15 @@
         "wiki/entities/caulobacter.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/caulobacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -4613,6 +4748,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/christensenellaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -4664,6 +4808,15 @@
         "wiki/entities/chromium.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/chromium.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -4869,6 +5022,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -5002,15 +5164,6 @@
           "path": "wiki/entities/chronic-kidney-disease.md",
           "additions": 1,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/chronic-kidney-disease.md",
-          "additions": 14,
-          "deletions": 3
         }
       ]
     },
@@ -5466,6 +5619,15 @@
         "wiki/entities/clostridium-symbiosum.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/clostridium-symbiosum.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -5935,6 +6097,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/copper.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -6217,6 +6388,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/corynebacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -6242,6 +6422,15 @@
         "wiki/entities/crohns-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/crohns-disease.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -6375,15 +6564,6 @@
           "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
           "path": "wiki/entities/crohns-disease.md",
           "additions": 5,
-          "deletions": 0
-        },
-        {
-          "hash": "2f95f2f0a2a18d69cb543c687269b06ca03ab2d4",
-          "date": "2026-04-11T22:49:04+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-11 22:49",
-          "path": "wiki/entities/crohns-disease.md",
-          "additions": 7,
           "deletions": 0
         }
       ]
@@ -6631,6 +6811,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/deinococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -6656,6 +6845,15 @@
         "wiki/entities/depression.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/depression.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -7026,6 +7224,15 @@
         "wiki/entities/diabetic-kidney-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/diabetic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -7455,6 +7662,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/endometriosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -7588,15 +7804,6 @@
           "path": "wiki/entities/endometriosis.md",
           "additions": 7,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/endometriosis.md",
-          "additions": 12,
-          "deletions": 10
         }
       ]
     },
@@ -7605,6 +7812,15 @@
         "wiki/entities/enterobacter-cloacae.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/enterobacter-cloacae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -7770,6 +7986,15 @@
         "wiki/entities/enterococcus-faecalis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/enterococcus-faecalis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -8727,6 +8952,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/fibromyalgia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -9073,6 +9307,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/fusobacteriales.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -9124,6 +9367,15 @@
         "wiki/entities/fusobacterium-nucleatum.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/fusobacterium-nucleatum.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -9318,6 +9570,15 @@
         "wiki/entities/fusobacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/fusobacterium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -9623,6 +9884,15 @@
         "wiki/entities/gastric-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/gastric-cancer.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -10047,6 +10317,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/gordonibacter-urolithinfaciens.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -10320,6 +10599,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/hashimotos-thyroiditis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -10461,6 +10749,15 @@
         "wiki/entities/helicobacter-hepaticus.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/helicobacter-hepaticus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -10862,6 +11159,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/huntingtons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -10895,6 +11201,15 @@
         "wiki/entities/hypertension.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/hypertension.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -11116,6 +11431,15 @@
         "wiki/entities/inflammatory-bowel-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/inflammatory-bowel-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -11423,6 +11747,15 @@
         "wiki/entities/iron.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/iron.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -11904,6 +12237,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/lachnospiraceae-family.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -12076,6 +12418,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/lactobacillus-crispatus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -12134,6 +12485,15 @@
         "wiki/entities/lactobacillus-iners.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/lactobacillus-iners.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -12251,6 +12611,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/lactobacillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -12357,6 +12726,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/lactococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -12451,6 +12829,15 @@
         "wiki/entities/lead.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/lead.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -12866,6 +13253,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/magnesium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13030,6 +13426,15 @@
         "wiki/entities/manganese.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/manganese.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -13265,6 +13670,15 @@
         "wiki/entities/mercury.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/mercury.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -13711,6 +14125,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/molybdenum.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -14139,6 +14562,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/nakaseomyces-glabratus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -14191,6 +14623,15 @@
         "wiki/entities/necrotizing-enterocolitis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/necrotizing-enterocolitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -14325,15 +14766,6 @@
           "path": "wiki/entities/necrotizing-enterocolitis.md",
           "additions": 9,
           "deletions": 9
-        },
-        {
-          "hash": "daa687776ec74b9d7f42b3e341f4fa96fd12cad6",
-          "date": "2026-04-15T16:59:18+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Health check fixes: 40 intervention pages + 14 entity Connections sections",
-          "path": "wiki/entities/necrotizing-enterocolitis.md",
-          "additions": 3,
-          "deletions": 0
         }
       ]
     },
@@ -14412,6 +14844,15 @@
         "wiki/entities/nickel.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/nickel.md",
+          "additions": 5,
+          "deletions": 5
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -14545,15 +14986,6 @@
           "subject": "Citation integrity pass: 38 citations added, 24 parenthesized citations fixed",
           "path": "wiki/entities/nickel.md",
           "additions": 1,
-          "deletions": 1
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/entities/nickel.md",
-          "additions": 0,
           "deletions": 1
         }
       ]
@@ -14899,6 +15331,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/oscillibacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -15075,6 +15516,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/oscillospirales.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -15145,6 +15595,15 @@
         "wiki/entities/ovarian-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/ovarian-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -15313,6 +15772,15 @@
         "wiki/entities/pancreatic-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/pancreatic-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -15753,6 +16221,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -15885,15 +16362,6 @@
           "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
           "path": "wiki/entities/parkinsons-disease.md",
           "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "additions": 5,
           "deletions": 0
         }
       ]
@@ -16081,6 +16549,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/pcos.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -16213,15 +16690,6 @@
           "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
           "path": "wiki/entities/pcos.md",
           "additions": 4,
-          "deletions": 0
-        },
-        {
-          "hash": "2f95f2f0a2a18d69cb543c687269b06ca03ab2d4",
-          "date": "2026-04-11T22:49:04+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-11 22:49",
-          "path": "wiki/entities/pcos.md",
-          "additions": 8,
           "deletions": 0
         }
       ]
@@ -16675,6 +17143,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/platinum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -16727,6 +17204,15 @@
         "wiki/entities/pmdd.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/pmdd.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -17008,6 +17494,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/porphyromonas.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -17078,6 +17573,15 @@
         "wiki/entities/postpartum-depression.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/postpartum-depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -17405,6 +17909,15 @@
         "wiki/entities/prevotella-intermedia.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/prevotella-intermedia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -17926,6 +18439,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/purpureocillium.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -18011,6 +18533,15 @@
         "wiki/entities/rheumatoid-arthritis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/rheumatoid-arthritis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -18309,6 +18840,15 @@
         "wiki/entities/rothia.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/rothia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -18910,6 +19450,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/saccharomyces-cerevisiae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -19015,6 +19564,15 @@
         "wiki/entities/saccharomyces.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/saccharomyces.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -19183,6 +19741,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/salmonella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -19217,6 +19784,15 @@
         "wiki/entities/schizophrenia.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/schizophrenia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -19350,6 +19926,15 @@
         "wiki/entities/selenium.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/selenium.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -19838,6 +20423,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/staphylococcus-aureus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -19959,6 +20553,15 @@
         "wiki/entities/staphylococcus.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/staphylococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4f91227e76cc4865f24f6e5c177e72b0f6b1468e",
           "date": "2026-09-07T08:31:22+03:00",
@@ -20091,6 +20694,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/streptococcus-gallolyticus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -20134,6 +20746,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/streptococcus-mutans.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "06ac7a2cb24f32d8520b1124b7a933fb94fa111d",
           "date": "2026-09-07T07:04:01+03:00",
           "author": "Karen Pendergrass",
@@ -20167,6 +20788,15 @@
         "wiki/entities/streptococcus-pneumoniae.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/streptococcus-pneumoniae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20404,6 +21034,15 @@
         "wiki/entities/streptococcus.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/streptococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -20724,6 +21363,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/torulaspora.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -20878,6 +21526,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/trichosporon-asahii.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20962,6 +21619,15 @@
         "wiki/entities/type-1-diabetes.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/entities/type-1-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -22091,6 +22757,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/alpha-klotho.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -22975,6 +23650,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/bacteriophages.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -23732,6 +24416,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/cambialistic-enzymes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23756,6 +24449,15 @@
         "wiki/concepts/catalase.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/catalase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "06ac7a2cb24f32d8520b1124b7a933fb94fa111d",
           "date": "2026-09-07T07:04:01+03:00",
@@ -24308,6 +25010,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/cuproptosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -24385,6 +25096,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/cysteine.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
           "author": "Karen Pendergrass",
@@ -24450,6 +25170,15 @@
         "wiki/concepts/developmental-metal-vulnerability.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/developmental-metal-vulnerability.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -25045,6 +25774,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -25177,6 +25915,15 @@
         "wiki/concepts/dyshomeostasis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/dyshomeostasis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -25394,6 +26141,15 @@
         "wiki/concepts/endocrine-disruption.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/endocrine-disruption.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -25935,6 +26691,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/essential-oils.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -26294,6 +27059,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/fenton-chemistry.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -26452,6 +27226,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/ferritin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -26528,6 +27311,15 @@
         "wiki/concepts/ferroptosis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/ferroptosis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -26616,6 +27408,15 @@
         "wiki/concepts/functional-shielding.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/functional-shielding.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -26832,6 +27633,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/glutathione.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26892,6 +27702,15 @@
         "wiki/concepts/glyoxalase.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/glyoxalase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
           "date": "2026-09-07T09:34:31+03:00",
@@ -26972,6 +27791,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/gut-barrier-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -27032,6 +27860,15 @@
         "wiki/concepts/gut-brain-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -27182,6 +28019,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/gut-kidney-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -27278,6 +28124,15 @@
         "wiki/concepts/gut-metal-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -27412,15 +28267,6 @@
           "path": "wiki/concepts/gut-metal-microbiome.md",
           "additions": 21,
           "deletions": 0
-        },
-        {
-          "hash": "ef7fa013a793c2bb580ddcb6f0424f870181fbbe",
-          "date": "2026-04-09T21:51:02+03:00",
-          "author": "Karen Pendergrass",
-          "subject": "WikiBiome v7 — interactive microbiome metallomics encyclopedia",
-          "path": "wiki/concepts/gut-metal-microbiome.md",
-          "additions": 140,
-          "deletions": 0
         }
       ]
     },
@@ -27429,6 +28275,15 @@
         "wiki/concepts/gut-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -27526,6 +28381,15 @@
         "wiki/concepts/gut-penis-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/gut-penis-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -27639,6 +28503,15 @@
         "wiki/concepts/gut-testis-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/gut-testis-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -27777,6 +28650,15 @@
         "wiki/concepts/heavy-metal-neurotoxicity.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/heavy-metal-neurotoxicity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -28084,6 +28966,15 @@
         "wiki/concepts/histidine.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/histidine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -28439,6 +29330,15 @@
         "wiki/concepts/hyperandrogenism.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/hyperandrogenism.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -29125,6 +30025,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/indoxyl-sulfate.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -29264,6 +30173,15 @@
         "wiki/concepts/inflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -29466,6 +30384,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -29658,6 +30585,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/intestinal-permeability.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -29736,6 +30672,15 @@
         "wiki/concepts/iron-sulfur-clusters.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/iron-sulfur-clusters.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -29908,6 +30853,15 @@
         "wiki/concepts/kynurenine-pathway.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/kynurenine-pathway.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -30316,6 +31270,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/maternal-immune-activation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -30615,6 +31578,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metabolic-syndrome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -30683,6 +31655,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metabolomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -30725,6 +31706,15 @@
         "wiki/concepts/metal-carcinogenesis.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metal-carcinogenesis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -30838,6 +31828,15 @@
         "wiki/concepts/metal-dependent-virulence.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metal-dependent-virulence.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -31058,6 +32057,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metal-sensing.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "4f91227e76cc4865f24f6e5c177e72b0f6b1468e",
           "date": "2026-09-07T08:31:22+03:00",
           "author": "Karen Pendergrass",
@@ -31203,6 +32211,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metalloestrogens.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -31281,6 +32298,15 @@
         "wiki/concepts/metallomics.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metallomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -31370,6 +32396,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metalloregulator.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -31394,6 +32429,15 @@
         "wiki/concepts/metallothionein.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/metallothionein.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -31777,6 +32821,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/mis-metallation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -32057,6 +33110,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/n-acetyl-cysteine.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -32106,6 +33168,15 @@
         "wiki/concepts/neurodegeneration.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/neurodegeneration.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -32185,6 +33256,15 @@
         "wiki/concepts/neuroinflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -32291,6 +33371,15 @@
         "wiki/concepts/nf-kappa-b.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/nf-kappa-b.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -32450,6 +33539,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/nickel-glyoxalase.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -32537,6 +33635,15 @@
         "wiki/concepts/nickel-neurotoxicity.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/nickel-neurotoxicity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -32922,6 +34029,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/nlrp3-inflammasome.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -32955,6 +34071,15 @@
         "wiki/concepts/nrf2.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/nrf2.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -33007,6 +34132,15 @@
         "wiki/concepts/nutritional-immunity.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/nutritional-immunity.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -33258,6 +34392,15 @@
         "wiki/concepts/oxidative-stress.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "additions": 21,
+          "deletions": 9
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -33543,6 +34686,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/pathogen-metal-acquisition.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
           "author": "Karen Pendergrass",
@@ -33630,6 +34782,15 @@
         "wiki/concepts/peptidoglycan.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/peptidoglycan.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -33750,6 +34911,15 @@
         "wiki/concepts/phenylalanine.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/phenylalanine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -33913,6 +35083,15 @@
         "wiki/concepts/polyphenols.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/polyphenols.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -34233,6 +35412,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/probiotics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -34329,6 +35517,15 @@
         "wiki/concepts/propionic-acid.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/propionic-acid.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -34441,6 +35638,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/reactive-oxygen-species.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -34465,6 +35671,15 @@
         "wiki/concepts/riboswitch.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/riboswitch.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -35196,6 +36411,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/tau-phosphorylation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -35254,6 +36478,15 @@
         "wiki/concepts/testosterone.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/testosterone.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -35402,6 +36635,15 @@
       ],
       "revisions": [
         {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/thyroid-autoimmunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -35444,6 +36686,15 @@
         "wiki/concepts/tight-junctions.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/tight-junctions.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -36314,6 +37565,15 @@
         "wiki/concepts/virome.md"
       ],
       "revisions": [
+        {
+          "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
+          "date": "2026-09-07T13:26:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill oxidative stress concept links",
+          "path": "wiki/concepts/virome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
