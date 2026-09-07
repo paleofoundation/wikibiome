@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T07:22:12.057Z",
+  "generatedAt": "2026-09-07T07:54:28.736Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "da69a1e162858a7e74632f9a292808c261281378",
+  "sourceCommit": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 3265,
+  "revisions": 3536,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -184,6 +184,15 @@
         "wiki/entities/actinomyces.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/actinomyces.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -444,6 +453,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/akkermansia-muciniphila.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -618,6 +636,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/alloprevotella.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -712,6 +739,15 @@
         "wiki/entities/alternaria.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/alternaria.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -933,6 +969,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/anaerococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -948,6 +993,15 @@
         "wiki/entities/anaerostipes.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/anaerostipes.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -1033,6 +1087,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/anxiety.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1075,6 +1138,15 @@
         "wiki/entities/arsenic.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/arsenic.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -1164,6 +1236,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/aspergillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1243,6 +1324,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/atopobium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -1259,6 +1349,15 @@
         "wiki/entities/autism-spectrum-disorder.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/autism-spectrum-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -1572,6 +1671,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/bacteroides-thetaiotaomicron.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
           "author": "Karen Pendergrass",
@@ -1675,6 +1783,15 @@
         "wiki/entities/bacteroides-vulgatus.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/bacteroides-vulgatus.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -1815,6 +1932,15 @@
         "wiki/entities/bacteroidetes.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/bacteroidetes.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -1984,6 +2110,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/bifidobacteriales.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2106,6 +2241,15 @@
         "wiki/entities/bifidobacterium.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/bifidobacterium.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
           "date": "2026-09-01T14:34:32+03:00",
@@ -2255,6 +2399,15 @@
         "wiki/entities/bipolar-disorder.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/bipolar-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -2463,6 +2616,15 @@
         "wiki/entities/breast-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/breast-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -2767,6 +2929,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/cadmium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -2995,6 +3166,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/campylobacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -3019,6 +3199,15 @@
         "wiki/entities/candida-albicans.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/candida-albicans.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -3126,6 +3315,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/candida-tropicalis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "9ea549e93d89a831a044e380a62acdbab67792f5",
           "date": "2026-09-01T16:23:31+03:00",
           "author": "Karen Pendergrass",
@@ -3195,6 +3393,15 @@
         "wiki/entities/candidozyma-auris.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/candidozyma-auris.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "9ea549e93d89a831a044e380a62acdbab67792f5",
           "date": "2026-09-01T16:23:31+03:00",
@@ -3266,6 +3473,15 @@
         "wiki/entities/cardiovascular-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/cardiovascular-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -3434,6 +3650,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/celiac-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -3513,6 +3738,15 @@
         "wiki/entities/cerebral-palsy.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/cerebral-palsy.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -3611,6 +3845,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/chlamydia-trachomatis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -3701,6 +3944,15 @@
         "wiki/entities/chromium.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/chromium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -3808,6 +4060,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/chronic-fatigue-syndrome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -3851,6 +4112,15 @@
         "wiki/entities/chronic-kidney-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -3976,6 +4246,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/cirrhosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -4009,6 +4288,15 @@
         "wiki/entities/citrobacter.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/citrobacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -4106,6 +4394,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/clostridia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -4167,6 +4464,15 @@
         "wiki/entities/clostridium-difficile.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/clostridioides-difficile.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "778508453c7ac892ba184ad2e7e8ba9fd5f9542c",
           "date": "2026-09-01T18:04:16+03:00",
@@ -4290,6 +4596,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/clostridium-perfringens.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "43a6b1f401667b38095898ea786d88bf02d5e193",
           "date": "2026-05-04T14:47:42-06:00",
           "author": "Karen Pendergrass",
@@ -4332,6 +4647,15 @@
         "wiki/entities/clostridium-symbiosum.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/clostridium-symbiosum.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -4605,6 +4929,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/colorectal-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -4835,6 +5168,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/coprococcus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -4905,6 +5247,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/coronary-artery-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -4964,6 +5315,15 @@
         "wiki/entities/crohns-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/crohns-disease.md",
+          "additions": 4,
+          "deletions": 4
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -5211,6 +5571,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/debaryomyces.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -5324,6 +5693,15 @@
         "wiki/entities/depression.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -5439,6 +5817,15 @@
         "wiki/entities/dermatitis-herpetiformis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/dermatitis-herpetiformis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5596,6 +5983,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/diabetic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -5654,6 +6050,15 @@
         "wiki/entities/dialister.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/dialister.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5724,6 +6129,15 @@
         "wiki/entities/dopamine.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/dopamine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5810,6 +6224,15 @@
         "wiki/entities/eggerthella-lenta.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/eggerthella-lenta.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -5924,6 +6347,15 @@
         "wiki/entities/endometriosis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/endometriosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -6126,6 +6558,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/enterobacteriaceae.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -6205,6 +6646,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/enterococcus-faecalis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -6229,6 +6679,15 @@
         "wiki/entities/enterococcus-faecium.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/enterococcus-faecium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -6387,6 +6846,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/erectile-dysfunction.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -6481,6 +6949,15 @@
         "wiki/entities/escherichia-coli.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/escherichia-coli.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -6596,6 +7073,15 @@
         "wiki/entities/escherichia.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/escherichia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -6856,6 +7342,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/female-infertility.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -7049,6 +7544,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/firmicutes.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -7098,6 +7602,15 @@
         "wiki/entities/flavonifractor.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/flavonifractor.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -7192,6 +7705,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/fusobacteriales.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -7225,6 +7747,15 @@
         "wiki/entities/fusobacterium-nucleatum.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/fusobacterium-nucleatum.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -7512,6 +8043,15 @@
         "wiki/entities/gardnerella.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/gardnerella.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -7864,6 +8404,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/gerd.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -7979,6 +8528,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/gestational-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -8081,6 +8639,15 @@
         "wiki/entities/graves-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/graves-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -8213,6 +8780,15 @@
         "wiki/entities/hashimotos-thyroiditis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/hashimotos-thyroiditis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -8496,6 +9072,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/hepatitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -8537,6 +9122,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/hiv.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -8552,6 +9146,15 @@
         "wiki/entities/holdemanella.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/holdemanella.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -8673,6 +9276,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/hypertension.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -8751,6 +9363,15 @@
         "wiki/entities/ibs.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/ibs.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "0f281e88991f07ee9ea42a808122743fc1dc415c",
           "date": "2026-09-01T14:34:32+03:00",
@@ -8839,6 +9460,15 @@
         "wiki/entities/inflammatory-bowel-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/inflammatory-bowel-disease.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -9023,6 +9653,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/iodine.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -9092,6 +9731,15 @@
         "wiki/entities/iron.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/iron.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "06ac7a2cb24f32d8520b1124b7a933fb94fa111d",
           "date": "2026-09-07T07:04:01+03:00",
@@ -9269,6 +9917,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/klebsiella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -9293,6 +9950,15 @@
         "wiki/entities/kynurenine.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/kynurenine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -9395,6 +10061,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/lachnospira.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -9456,6 +10131,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/lachnospiraceae-family.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
           "date": "2026-09-01T21:13:18+03:00",
           "author": "Karen Pendergrass",
@@ -9489,6 +10173,15 @@
         "wiki/entities/lachnospiraceae.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/lachnospiraceae.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -9583,6 +10276,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/lactobacillus-crispatus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -9632,6 +10334,15 @@
         "wiki/entities/lactobacillus-iners.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/lactobacillus-iners.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -9739,6 +10450,15 @@
         "wiki/entities/lactobacillus.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/lactobacillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -9932,6 +10652,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/lead.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -10019,6 +10748,15 @@
         "wiki/entities/leptotrichia.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/leptotrichia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -10140,6 +10878,15 @@
         "wiki/entities/long-covid.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/long-covid.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -10333,6 +11080,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/malassezia.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -10507,6 +11263,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/megamonas.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -10532,6 +11297,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/megasphaera.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -10556,6 +11330,15 @@
         "wiki/entities/mercury.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/mercury.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -10651,6 +11434,15 @@
         "wiki/entities/methanobrevibacter-smithii.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/methanobrevibacter-smithii.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -10860,6 +11652,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/mollicutes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -10998,6 +11799,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/mortierella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -11023,6 +11833,15 @@
         "wiki/entities/multiple-sclerosis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/multiple-sclerosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -11277,6 +12096,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/nakaseomyces-glabratus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "9ea549e93d89a831a044e380a62acdbab67792f5",
           "date": "2026-09-01T16:23:31+03:00",
           "author": "Karen Pendergrass",
@@ -11311,6 +12139,15 @@
         "wiki/entities/necrotizing-enterocolitis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/necrotizing-enterocolitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -11515,6 +12352,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/nickel.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
           "author": "Karen Pendergrass",
@@ -11648,15 +12494,6 @@
           "path": "wiki/entities/nickel.md",
           "additions": 8,
           "deletions": 0
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/entities/nickel.md",
-          "additions": 147,
-          "deletions": 126
         }
       ]
     },
@@ -11665,6 +12502,15 @@
         "wiki/entities/non-alcoholic-fatty-liver-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/non-alcoholic-fatty-liver-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -11691,6 +12537,15 @@
         "wiki/entities/obesity.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/obesity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -11825,15 +12680,6 @@
           "path": "wiki/entities/obesity.md",
           "additions": 1,
           "deletions": 0
-        },
-        {
-          "hash": "3a63d6326df448a04726aea15555c6bd667b0295",
-          "date": "2026-04-10T16:26:32+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-10 16:26",
-          "path": "cureva/signatures/obesity.md",
-          "additions": 280,
-          "deletions": 0
         }
       ]
     },
@@ -11947,6 +12793,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/oscillibacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -11971,6 +12826,15 @@
         "wiki/entities/oscillospiraceae.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/oscillospiraceae.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -12068,6 +12932,15 @@
         "wiki/entities/oscillospirales.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/oscillospirales.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -12263,6 +13136,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/pancreatic-cancer.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
           "author": "Karen Pendergrass",
@@ -12386,6 +13268,15 @@
         "wiki/entities/pancreatitis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/pancreatitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -12532,6 +13423,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/parasutterella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -12602,6 +13502,15 @@
         "wiki/entities/parkinsons-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -12744,6 +13653,15 @@
         "wiki/entities/parvimonas-micra.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/parvimonas-micra.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -12895,6 +13813,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/pcos.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13037,6 +13964,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/pelvic-inflammatory-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "7e9ce596d185e958af54a5fff28257f9ea0ac211",
           "date": "2026-09-01T13:19:39+03:00",
           "author": "Karen Pendergrass",
@@ -13120,6 +14056,15 @@
         "wiki/entities/peptostreptococcus-stomatis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/peptostreptococcus-stomatis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -13286,6 +14231,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/phascolarctobacterium.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13381,6 +14335,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/platinum.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13415,6 +14378,15 @@
         "wiki/entities/pmdd.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/pmdd.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -13513,6 +14485,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/pneumonia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13544,6 +14525,15 @@
         "wiki/entities/porphyromonas-gingivalis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/porphyromonas-gingivalis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -13695,6 +14685,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/postpartum-depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13810,6 +14809,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/premature-ovarian-insufficiency.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -13834,6 +14842,15 @@
         "wiki/entities/prevotella-copri.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/prevotella-copri.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -13932,6 +14949,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/prevotella-intermedia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -14027,6 +15053,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/prevotellaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -14076,6 +15111,15 @@
         "wiki/entities/proteobacteria.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/proteobacteria.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "4f91227e76cc4865f24f6e5c177e72b0f6b1468e",
           "date": "2026-09-07T08:31:22+03:00",
@@ -14310,6 +15354,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/psoriasis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -14343,6 +15396,15 @@
         "wiki/entities/purpureocillium.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/purpureocillium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -14550,6 +15612,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/roseburia.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -14664,6 +15735,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/ruminococcaceae.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "1e79e03225c7961d992d57fc8c2d305ed63731e1",
           "date": "2026-09-07T09:01:40+03:00",
           "author": "Karen Pendergrass",
@@ -14733,6 +15813,15 @@
         "wiki/entities/ruminococcus-albus.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/ruminococcus-albus.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -14813,6 +15902,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/ruminococcus-bromii.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c6481eaf721d80b46d6f192b19d4c0b351e670d8",
           "date": "2026-09-01T21:13:18+03:00",
           "author": "Karen Pendergrass",
@@ -14846,6 +15944,15 @@
         "wiki/entities/ruminococcus-gnavus.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/ruminococcus-gnavus.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -14926,6 +16033,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/ruminococcus.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -14988,6 +16104,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/saccharomyces-boulardii.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -15048,6 +16173,15 @@
         "wiki/entities/saccharomyces-cerevisiae.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/saccharomyces-cerevisiae.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -15127,6 +16261,15 @@
         "wiki/entities/saccharomyces.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/saccharomyces.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -15321,6 +16464,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/schizophrenia.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -15417,6 +16569,15 @@
         "wiki/entities/selenium.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/selenium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -15563,6 +16724,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/serotonin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -15612,6 +16782,15 @@
         "wiki/entities/serratia.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/serratia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -15707,6 +16886,15 @@
         "wiki/entities/shigella.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/shigella.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -15912,6 +17100,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/staphylococcus-epidermidis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -15970,6 +17167,15 @@
         "wiki/entities/streptococcus-agalactiae.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/streptococcus-agalactiae.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -16040,6 +17246,15 @@
         "wiki/entities/streptococcus-gallolyticus.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/streptococcus-gallolyticus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -16731,6 +17946,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/trichomonas-vaginalis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -16788,6 +18012,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/turicibacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -16822,6 +18055,15 @@
         "wiki/entities/type-1-diabetes.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/type-1-diabetes.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -16911,6 +18153,15 @@
         "wiki/entities/type-2-diabetes.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/type-2-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -17042,6 +18293,15 @@
         "wiki/entities/ulcerative-colitis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/ulcerative-colitis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -17249,6 +18509,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/veillonella.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -17437,6 +18706,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/entities/zinc.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
           "author": "Karen Pendergrass",
@@ -17552,6 +18830,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/acidic-microenvironment.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -17622,6 +18909,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/ahr.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -17683,6 +18979,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/allopregnanolone.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -17698,6 +19003,15 @@
         "wiki/concepts/alpha-klotho.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/alpha-klotho.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -17732,6 +19046,15 @@
         "wiki/concepts/alpha-synuclein.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/alpha-synuclein.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -17844,6 +19167,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/amyloid-beta.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -17939,6 +19271,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/antimicrobial-resistance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -17991,6 +19332,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/arachidonic-acid.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18006,6 +19356,15 @@
         "wiki/concepts/aromatase.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/aromatase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -18073,6 +19432,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/atherosclerosis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "c16b7077395c96e48e984af6f5eec6b5a7e37b05",
           "date": "2026-04-19T08:31:59+03:00",
           "author": "WikiBiome Deploy Bot",
@@ -18115,6 +19483,15 @@
         "wiki/concepts/autoimmunity.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/autoimmunity.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -18184,6 +19561,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/bacteremia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18224,6 +19610,15 @@
         "wiki/concepts/bacterial-vaginosis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/bacterial-vaginosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "7e9ce596d185e958af54a5fff28257f9ea0ac211",
           "date": "2026-09-01T13:19:39+03:00",
@@ -18268,6 +19663,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/bacteriophages.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18308,6 +19712,15 @@
         "wiki/concepts/beta-glucuronidase.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/beta-glucuronidase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -18395,6 +19808,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/bile-acid-metabolism.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -18455,6 +19877,15 @@
         "wiki/concepts/bile-salt-hydrolase.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/bile-salt-hydrolase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -18663,6 +20094,15 @@
         "wiki/concepts/butyrate.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/butyrate.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -18886,6 +20326,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/cephalosporin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19039,6 +20488,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/colonization-resistance.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -19081,6 +20539,15 @@
         "wiki/concepts/comorbidities.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/comorbidities.md",
+          "additions": 5,
+          "deletions": 5
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -19175,6 +20642,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/cortisol.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -19200,6 +20676,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/cox-2.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19216,6 +20701,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/cross-feeding.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19231,6 +20725,15 @@
         "wiki/concepts/cuproptosis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/cuproptosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -19332,6 +20835,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/dental-caries.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19347,6 +20859,15 @@
         "wiki/concepts/developmental-metal-vulnerability.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/developmental-metal-vulnerability.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -19417,6 +20938,15 @@
         "wiki/concepts/dietary-arsenic-exposure.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/dietary-arsenic-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "62e006cf0ced1dce706a6438f6461602229a9f26",
           "date": "2026-08-31T23:33:59+03:00",
@@ -19549,6 +21079,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/dietary-iron-gut-ecology.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -19652,6 +21191,15 @@
         "wiki/concepts/dietary-metal-microbiome-interactions.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/dietary-metal-microbiome-interactions.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -19949,6 +21497,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/dyshomeostasis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20119,6 +21676,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/endocrine-disruptors.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20144,6 +21710,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/endothelial-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20159,6 +21734,15 @@
         "wiki/concepts/endotoxemia.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/endotoxemia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -20184,6 +21768,15 @@
         "wiki/concepts/enterohepatic-circulation.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/enterohepatic-circulation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20334,6 +21927,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/epigenetic-modifications.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -20403,6 +22005,15 @@
         "wiki/concepts/epigenetics.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/epigenetics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20497,6 +22108,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/estrobolome.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20557,6 +22177,15 @@
         "wiki/concepts/estrogen-recirculation.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/estrogen-recirculation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20775,6 +22404,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/fermentative-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -20897,6 +22535,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/ferroportin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20921,6 +22568,15 @@
         "wiki/concepts/ferroptosis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/ferroptosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -20991,6 +22647,15 @@
         "wiki/concepts/functional-shielding.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/functional-shielding.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "9ea549e93d89a831a044e380a62acdbab67792f5",
           "date": "2026-09-01T16:23:31+03:00",
@@ -21071,6 +22736,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/fxr.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -21104,6 +22778,15 @@
         "wiki/concepts/gaba.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gaba.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -21311,6 +22994,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-barrier-dysfunction.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -21344,6 +23036,15 @@
         "wiki/concepts/gut-brain-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -21406,6 +23107,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-gonadal-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -21430,6 +23140,15 @@
         "wiki/concepts/gut-kidney-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-kidney-axis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -21491,6 +23210,15 @@
         "wiki/concepts/gut-metal-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -21607,6 +23335,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -21686,6 +23423,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-penis-axis.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -21720,6 +23466,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-prostate-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -21751,6 +23506,15 @@
         "wiki/concepts/gut-thyroid-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-thyroid-axis.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -21786,6 +23550,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/gut-vagina-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "7e9ce596d185e958af54a5fff28257f9ea0ac211",
           "date": "2026-09-01T13:19:39+03:00",
           "author": "Karen Pendergrass",
@@ -21819,6 +23592,15 @@
         "wiki/concepts/heavy-metal-neurotoxicity.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/heavy-metal-neurotoxicity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
@@ -21924,6 +23706,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/heavy-metals.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -21975,6 +23766,15 @@
         "wiki/concepts/hepcidin.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/hepcidin.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22045,6 +23845,15 @@
         "wiki/concepts/histidine.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/histidine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -22140,6 +23949,15 @@
         "wiki/concepts/homocysteine.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/homocysteine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22293,6 +24111,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/hyperandrogenism.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22351,6 +24178,15 @@
         "wiki/concepts/hypoxia.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/hypoxia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -22492,6 +24328,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/ifn-gamma.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22508,6 +24353,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/il-10.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22523,6 +24377,15 @@
         "wiki/concepts/il-17.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/il-17.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -22565,6 +24428,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/il-8.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22580,6 +24452,15 @@
         "wiki/concepts/immune-balance.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/immune-balance.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -22780,6 +24661,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/indoxyl-sulfate.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -22813,6 +24703,15 @@
         "wiki/concepts/infant-exposure.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/infant-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
@@ -22874,6 +24773,15 @@
         "wiki/concepts/inflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -22970,6 +24878,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/insulin-resistance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23030,6 +24947,15 @@
         "wiki/concepts/inter-kingdom-metal-shielding.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -23135,6 +25061,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/interleukin-6.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23159,6 +25094,15 @@
         "wiki/concepts/intestinal-permeability.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/intestinal-permeability.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -23211,6 +25155,15 @@
         "wiki/concepts/iron-sulfur-clusters.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/iron-sulfur-clusters.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -23320,6 +25273,15 @@
         "wiki/concepts/kynurenine-pathway.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/kynurenine-pathway.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -23441,6 +25403,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/leptin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23472,6 +25443,15 @@
         "wiki/concepts/lipid-peroxidation.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/lipid-peroxidation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -23558,6 +25538,15 @@
         "wiki/concepts/lipopolysaccharide.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/lipopolysaccharide.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -23698,6 +25687,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/mediterranean-diet.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23813,6 +25811,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/mendelian-randomization.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -23905,6 +25912,15 @@
         "wiki/concepts/metabolomics.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/metabolomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -24043,6 +26059,15 @@
         "wiki/concepts/metal-dependent-virulence.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/metal-dependent-virulence.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -24580,6 +26605,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/methylation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -24691,6 +26725,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/microbiome-derived-metabolites.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -24743,6 +26786,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/microbiome-diversity-metrics.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -24792,6 +26844,15 @@
         "wiki/concepts/mis-metallation.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/mis-metallation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
@@ -24967,6 +27028,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/mycobiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
           "author": "Karen Pendergrass",
@@ -25068,6 +27138,15 @@
         "wiki/concepts/neurodegeneration.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/neurodegeneration.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25218,6 +27297,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/nf-kappa-b.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -25348,6 +27436,15 @@
         "wiki/concepts/nickel-glyoxalase.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/nickel-glyoxalase.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
@@ -25794,6 +27891,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/nlrp3-inflammasome.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
           "author": "Karen Pendergrass",
@@ -25809,6 +27915,15 @@
         "wiki/concepts/nrf2.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/nrf2.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25834,6 +27949,15 @@
         "wiki/concepts/nutritional-immunity.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/nutritional-immunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
@@ -25931,6 +28055,15 @@
         "wiki/concepts/oral-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/oral-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -26041,6 +28174,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -26129,6 +28271,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/oxygen-state.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
           "author": "Karen Pendergrass",
@@ -26163,6 +28314,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/p-cresol.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26191,6 +28351,15 @@
         "wiki/concepts/parenteral-nutrition.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/parenteral-nutrition.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -26339,6 +28508,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/phage-therapy.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26354,6 +28532,15 @@
         "wiki/concepts/pharmacomicrobiomics.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/pharmacomicrobiomics.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -26500,6 +28687,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/polyamines.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26533,6 +28729,15 @@
         "wiki/concepts/polyphenols.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/polyphenols.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -26661,6 +28866,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/premenstrual-syndrome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26736,6 +28950,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/probiotics.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -26806,6 +29029,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/propionic-acid.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26871,6 +29103,15 @@
         "wiki/concepts/reactive-oxygen-species.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/reactive-oxygen-species.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -26960,6 +29201,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/semen-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26976,6 +29226,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/serotonin-estrogen-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -26991,6 +29250,15 @@
         "wiki/concepts/short-chain-fatty-acids.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/short-chain-fatty-acids.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -27218,6 +29486,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/siderophores.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27420,6 +29697,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/tau-phosphorylation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27461,6 +29747,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/testosterone.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27486,6 +29781,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/tgf-beta.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27501,6 +29805,15 @@
         "wiki/concepts/th17-treg-balance.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/th17-treg-balance.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -27527,6 +29840,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/thyroid-autoimmunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -27551,6 +29873,15 @@
         "wiki/concepts/tight-junctions.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/tight-junctions.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -27601,6 +29932,15 @@
         "wiki/concepts/tmao.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/tmao.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -27681,6 +30021,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/tnf-alpha.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
           "author": "Karen Pendergrass",
@@ -27705,6 +30054,15 @@
         "wiki/concepts/toll-like-receptors.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/toll-like-receptors.md",
+          "additions": 3,
+          "deletions": 3
+        },
         {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
@@ -27835,6 +30193,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/tryptophan-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
           "author": "Karen Pendergrass",
@@ -27913,6 +30280,15 @@
         "wiki/concepts/tryptophan.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/tryptophan.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -27999,6 +30375,15 @@
         "wiki/concepts/urease.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/urease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
@@ -28124,6 +30509,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/uremic-toxins.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "4066d7ef3d4cf6beccf662550dd80452b4cc4c95",
           "date": "2026-09-07T09:56:08+03:00",
           "author": "Karen Pendergrass",
@@ -28183,6 +30577,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/vancomycin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -28198,6 +30601,15 @@
         "wiki/concepts/viral-microbiota.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/viral-microbiota.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -28223,6 +30635,15 @@
         "wiki/concepts/virome.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/virome.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -28342,6 +30763,15 @@
       ],
       "revisions": [
         {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/zinc-metalloprotease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -28411,6 +30841,15 @@
         "wiki/concepts/zonulin.md"
       ],
       "revisions": [
+        {
+          "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+          "date": "2026-09-07T10:53:05+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete corpus-wide Dysbiosis linking",
+          "path": "wiki/concepts/zonulin.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",

@@ -964,6 +964,86 @@ test("server-renders complete Histidine contextual coverage without overlinking"
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/histidine</loc>`));
 });
 
+test("server-renders corpus-wide Dysbiosis links without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => !["reference", "overview"].includes(page.type) && page.frontmatter?.platform !== "cureva")
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("dysbiosis"))
+    .map((page) => page.type === "signature" ? page.id.replace(/-signature$/, "") : page.id))]
+    .sort();
+  assert.equal(contextIds.length, 330);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-dysbiosis-corpus`);
+  const { default: dysbiosisWorker } = await import(workerUrl.href);
+  const renderDysbiosisRoute = (pathname) => dysbiosisWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [dysbiosisResponse, historyResponse, sitemapResponse] = await Promise.all([
+    renderDysbiosisRoute("/article/dysbiosis"),
+    renderDysbiosisRoute("/article/dysbiosis/history"),
+    renderDysbiosisRoute("/sitemap.xml"),
+  ]);
+  for (const response of [dysbiosisResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+
+  const dysbiosis = await dysbiosisResponse.text();
+  assert.equal(htmlTitle(dysbiosis), "Dysbiosis — WikiBiome");
+  assert.equal(htmlCanonical(dysbiosis), `${PUBLIC_ORIGIN}/article/dysbiosis`);
+  for (const heading of [
+    "Definition and Scope",
+    "Causes of Dysbiosis",
+    "Consequences of Dysbiosis",
+    "Metal-Induced Dysbiosis: The Common Pattern",
+    "Diagnostic Markers of Dysbiosis",
+    "Restoration Strategies",
+  ]) {
+    assert.match(dysbiosis, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
+    "ghosh-2023-heavy-metals-gut-barrier-integrity",
+    "rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review",
+  ]) {
+    assert.match(dysbiosis, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderDysbiosisRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/dysbiosis"/g) ?? []).length,
+        1,
+        `expected exactly one contextual Dysbiosis link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/dysbiosis\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/dysbiosis</loc>`));
+});
+
 test("server-renders Catalase and its reviewed contextual-link batch", async () => {
   const ids = ["catalase", "oxidative-stress", "streptococcus-mutans", "metal-dependent-virulence", "iron", "aerococcus"];
   const [catalaseResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
@@ -3024,7 +3104,7 @@ test("reconciles Alzheimer's disease and signature records into one generated di
   assert.doesNotMatch(html, /id="article-key-sources"/);
   assert.doesNotMatch(html, /<br\s*\/><br\s*\/>/);
   assert.match(html, /class="open-question-list"/);
-  assert.match(html, /<details><summary><span>01<\/span><strong>Can brain Cu be restored without raising peripheral levels\?/);
+  assert.match(html, /<details><summary><span>01<\/span><strong>Can brain copper \(Cu\) be restored without raising peripheral levels\?/);
 
   const enrichedStart = html.indexOf("Enriched taxa");
   const depletedStart = html.indexOf("Depleted taxa");
@@ -3205,7 +3285,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /da69a1e16285/);
+  assert.match(readiness, /13ffa3d33894/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -3671,7 +3751,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "da69a1e162858a7e74632f9a292808c261281378");
+  assert.equal(manifest.source.commit, "13ffa3d3389486f3941b96a019f388d9fa58d6f0");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 823);
   assert.equal(manifest.content.sources, 1939);
