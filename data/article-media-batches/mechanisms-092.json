@@ -2,13 +2,14 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-092",
   "category": "mechanisms",
-  "status": "authority-audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "bb14f66c5bdb947608bea218cd3e207cb35eabb5",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/mechanisms-092.md",
   "reviewRecord": "docs/operations/media-reviews/mechanisms-092.md",
   "controlReviewRequired": true,
+  "initialAuditCommit": "00542bf",
   "reviewStandard": "Five routes fail duplicate-identity, phenotype, isoform-and-residue, or stereochemical-and-causal evidence gates and receive no marked prompt or generation call. Taurine alone is cleared for one immutable, heavy-atom-connectivity-only generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
@@ -27,6 +28,6 @@
     {"pageId":"testosterone","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"PubChem:6013;ChEBI:17347;stereochemistry-specific","reason":"The exact molecule is embedded in a route that conflates free and total hormone, metabolites, tissues, populations, exposures, microbiome associations, and unsupported causal cycles; a generic steroid scaffold is not uniquely testosterone.","requiredResolution":"Define exact chemical species or product, stereochemical rendering source, compartment, specimen, assay, population, exposure or intervention, comparator, endpoint, and evidence tier."}
   ],
   "assets": [
-    {"pageId":"taurine","displayName":"Taurine","assetType":"mechanism","revision":1,"decision":"cleared-for-single-generation","generationStatus":"not-called","controlledIdentifier":"PubChem:1123;ChEBI:15891","scientificReferences":["https://pubchem.ncbi.nlm.nih.gov/compound/1123","https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15891","https://pubmed.ncbi.nlm.nih.gov/35954180/"],"proposedSocialResizeFit":"contain"}
+    {"pageId":"taurine","displayName":"Taurine","assetType":"mechanism","revision":1,"decision":"cleared-for-single-generation","generationStatus":"not-called","controlledIdentifier":"PubChem:1123;ChEBI:15891","promptSha256":"cd156bf3fecbc9da2d9bceb76b2e016587bdef31f0120fc2e2f4a2f8f6ea915a","scientificReferences":["https://pubchem.ncbi.nlm.nih.gov/compound/1123","https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:15891","https://pubmed.ncbi.nlm.nih.gov/35954180/"],"proposedSocialResizeFit":"contain"}
   ]
 }
