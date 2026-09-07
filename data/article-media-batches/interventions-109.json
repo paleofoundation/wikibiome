@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-109",
   "category": "interventions",
-  "status": "awaiting-control-review",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "79347eee3747150ebc1fe12f9e22a4cba5b16209",
@@ -19,9 +19,27 @@
     "mediaDescription": "Scientific algorithmic chemical-identity reconstruction, not a source structure image, measured conformer, supplement product, treatment recommendation, assay result, or diagnostic image",
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "a8f61fa60b759fca4b17cf9e62dd89e5b1d52ec9",
   "promptFreezeCommit": "3b39be7e741eeaa1af17069fbc3c4a06db2f71e0",
+  "controlAcceptedReviewManifestSha256": "f6abb1f0bb75d2cac33ddbae1c916c31a4e37d66a4345636efe6d13b326aa91f",
+  "controlAcceptedPromptEvidenceSha256": "eed19423a6a8849aeb8207cb6cc9fa0fbb9910b27ada38c7b4df610eeac571ee",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds-one-rejected-output",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "ada7f8a79cd34d4f921993446b653ab0496a96cf",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "metformin-intervention",
+      "multi-strain-synbiotic-schizophrenia",
+      "nac-autism",
+      "nac-supplementation",
+      "omega-3-fatty-acids",
+      "plant-based-diet-ckd"
+    ]
+  },
   "reviewStandard": "Only the explicitly named neutral all-cis EPA and DHA pair is cleared for one immutable chemical-identity call. Metformin and both NAC intervention routes duplicate separate canonical chemical-identity pages; the synbiotic cannot visually encode its twelve unresolved strain-level organisms and fructooligosaccharide composition; and the zero-source CKD diet route does not select one physical protocol. Those five routes receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
@@ -31,7 +49,9 @@
   "failedGenerationCount": 1,
   "quarantinedGenerationCount": 1,
   "revisionCount": 0,
-  "promotionRule": "Only a literal two-model output matching the frozen all-cis EPA and DHA heavy-atom counts, separate connectivity, pale opaque field, prohibited-content, and crop-safe requirements may proceed to exact-hash review. The other five routes remain non-public scientific holds pending canonical-identity or protocol resolution.",
+  "promotionRule": "No Batch 109 source hash is eligible for promotion. Five routes remain asset-free scientific holds, and the single generated omega-3 source remains immutable non-public quarantine evidence. No master, derivative, registry record, endpoint, Schema object, social preview, or image-sitemap record may be created from this batch.",
+  "controlSocialCropReview": "not-applicable-zero-eligible-assets",
+  "promotionDerivatives": {},
   "routeDecisions": [
     {
       "pageId": "metformin-intervention",
