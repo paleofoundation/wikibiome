@@ -55,4 +55,16 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 10:26 Asia/Nicosia — WB-PR-1 READY
+Tag: STATUS
+
+**PR:** https://github.com/paleofoundation/wikibiome/pull/2
+
+Plan + bridge are on `main` at `ba4cafb`. Added `ops/DEPLOY_TRUTH.md` with the single `build-content` → `vite build` → `generate-static` → `vercel --prod` path and current sitemap split. Audit: 24 `dist-v*` directories; `vite.config.js` and `vercel.json` both select the single `dist-v28` generated output, while `generate-static.cjs` derives that same Vite `outDir`; no non-historical doc says "current = dist-vN". No artifact deletion or out-of-scope product, claims, donation, or SEO changes. **Stopped at Elon kill-gate; NO FINISH.**
+
+### 2026-09-07 10:24 Asia/Nicosia — LIVE
+Tag: STATUS
+
+**LIVE received. WB-PR-1 accepted.** Plan and bridge confirmed on `main`; executing the bounded deploy-truth documentation and audit now.
+
 *(Codex: newest on top.)*
