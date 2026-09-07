@@ -47,6 +47,77 @@ assert(canonicalUrl('/article/nickel/') === 'https://www.wikibiome.com/article/n
 assert(normalizePath('about') === '/about', 'normalizePath adds a leading slash');
 assert(sitemapEntry('/about').loc === 'https://www.wikibiome.com/about', 'sitemap entries use www host');
 
+const FLAGSHIP_PATHS = [
+  '/',
+  '/signatures',
+  '/category/signature',
+  '/category/metal',
+  '/category/microbe',
+  '/category/disease',
+  ...[
+    'cerebral-palsy',
+    'depression',
+    'erectile-dysfunction',
+    'fibromyalgia',
+    'necrotizing-enterocolitis',
+    'pmdd',
+    'female-infertility',
+    'lead',
+    'cadmium',
+    'mercury',
+    'arsenic',
+    'nickel',
+    'iron',
+    'zinc',
+    'copper',
+    'escherichia-coli',
+    'candida-albicans',
+    'akkermansia-muciniphila',
+    'bacteroides-fragilis',
+    'fusobacterium-nucleatum',
+    'pseudomonas-aeruginosa',
+    'nutritional-immunity',
+    'heavy-metals',
+    'mis-metallation',
+  ].map((slug) => `/article/${slug}`),
+];
+const flagshipUrls = FLAGSHIP_PATHS.map(canonicalUrl);
+assert(flagshipUrls.length === 30, 'flagship invariant contains exactly 30 URLs');
+
+const viteConfig = fs.readFileSync(path.join(__dirname, '..', 'vite.config.js'), 'utf8');
+const distMatch = viteConfig.match(/outDir:\s*['"]([^'"]+)['"]/);
+assert(Boolean(distMatch), 'Vite config declares the generated output directory');
+if (distMatch) {
+  const generatedSitemapPath = path.join(__dirname, '..', distMatch[1], 'sitemap.xml');
+  assert(fs.existsSync(generatedSitemapPath), 'generated sitemap.xml exists in the configured output');
+  if (fs.existsSync(generatedSitemapPath)) {
+    const generatedSitemap = fs.readFileSync(generatedSitemapPath, 'utf8');
+    const generatedUrls = new Set(
+      Array.from(generatedSitemap.matchAll(/<loc>([^<]+)<\/loc>/g), (match) => match[1])
+    );
+    const missingFlagships = flagshipUrls.filter((url) => !generatedUrls.has(url));
+    assert(
+      missingFlagships.length === 0,
+      `generated sitemap contains all 30 flagship URLs${missingFlagships.length ? ` (missing: ${missingFlagships.join(', ')})` : ''}`
+    );
+  }
+}
+
+const indexBaseline = fs.readFileSync(path.join(__dirname, '..', 'ops', 'INDEX_BASELINE.md'), 'utf8');
+const documentedFlagshipSection = indexBaseline.match(/## Flagship invariant\n([\s\S]*?)\n## Generated sitemap measurement/);
+assert(Boolean(documentedFlagshipSection), 'index baseline contains the flagship invariant section');
+if (documentedFlagshipSection) {
+  const documentedFlagships = Array.from(
+    documentedFlagshipSection[1].matchAll(/^- `(https:\/\/www\.wikibiome\.com\/[^`]*)`$/gm),
+    (match) => match[1]
+  );
+  assert(
+    documentedFlagships.length === flagshipUrls.length &&
+      documentedFlagships.every((url, index) => url === flagshipUrls[index]),
+    'documented flagship URLs match the automated invariant'
+  );
+}
+
 assert(isIndexableContentPage({ id: 'nickel', isStub: false, belowThreshold: false }) === true, 'complete pages are indexable');
 assert(isIndexableContentPage({ id: 'thin', isStub: true }) === false, 'stubs are not indexable');
 assert(isIndexableContentPage({ id: 'thin', belowThreshold: true }) === false, 'below-threshold pages are not indexable');

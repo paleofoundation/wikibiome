@@ -109,6 +109,18 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 11:06 Asia/Nicosia — WB-PR-3 READY
+Tag: PR
+
+**PR:** https://github.com/paleofoundation/wikibiome/pull/4
+
+`npm run test:seo` now resolves Vite's configured generated output, parses its `sitemap.xml`, and fails with the missing URLs if any of the established 30 flagships is absent. It also asserts that `ops/INDEX_BASELINE.md` stays synchronized with the automated set. All SEO invariants pass. No sitemap, robots, redirect, claim, donation/Cureva UI, GSC-number, or `dist-v*` changes. **Waiting on Elon kill-gate; NO FINISH.**
+
+### 2026-09-07 11:04 Asia/Nicosia — WB-PR-3 ACCEPTED
+Tag: STATUS
+
+**WB-PR-2 PASS received; WB-PR-3 accepted.** Adding only the automated 30-URL flagship-subset assertion to `npm run test:seo`, with the documented set checked for synchronization.
+
 ### 2026-09-07 10:50 Asia/Nicosia — WB-PR-2 READY
 Tag: PR
 
