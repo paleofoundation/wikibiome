@@ -3,7 +3,7 @@ title: "Ureaplasma"
 type: entity
 subtype: microbe
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-09-07
 last_substantive_update: 2026-04-21
 sources:
   - magri-2018-multidisciplinary-prostatitis
@@ -33,7 +33,7 @@ platform: wikibiome
 
 # Ureaplasma
 
-Ureaplasma is a genus of wall-less bacteria in the class Mollicutes, comprising two species pathogenic to humans: *U. urealyticum* and *U. parvum*. The genus is named for its defining characteristic — obligate urease activity — which hydrolyzes urea to ammonia and CO2, providing the organism's primary energy source. This urease is nickel-dependent, making Ureaplasma directly relevant to the metal-microbiome axis in WikiBiome.
+Ureaplasma is a genus of wall-less bacteria in the class Mollicutes, comprising two species pathogenic to humans: *U. urealyticum* and *U. parvum*. The genus is named for its defining characteristic — obligate urease activity — which hydrolyzes urea to [[ammonia]] and CO2, providing the organism's primary energy source. This urease is nickel-dependent, making Ureaplasma directly relevant to the metal-microbiome axis in WikiBiome.
 
 ## Metal Dependencies — Nickel Urease
 

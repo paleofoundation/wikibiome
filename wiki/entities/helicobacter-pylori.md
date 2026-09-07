@@ -4,7 +4,7 @@ title: Helicobacter pylori
 type: entity
 subtype: microbe
 created: 2026-04-09
-updated: 2026-09-06
+updated: 2026-09-07
 sources:
   - sugihartono-2022-gastric-microbiota-hpylori-gerd
   - chen-2023-hpylori-antibodies-gerd-mendelian-study
@@ -32,7 +32,7 @@ A gastric pathogen that is arguably the most nickel-dependent human pathogen kno
 
 ### Urease
 - Up to 10% of total proteome.
-- Essential for in vivo survival: hydrolyzes [[urea]] → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.
+- Essential for in vivo survival: hydrolyzes [[urea]] → [[ammonia]] + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.
 - Roles beyond acid neutralization [[maier-2019-nickel-microbial-pathogenesis]]:
  - Required for persistence even at neutral gastric pH.
  - Promotes angiogenesis.

@@ -4,7 +4,7 @@ title: Proteus mirabilis
 type: entity
 subtype: microbe
 created: 2026-04-09
-updated: 2026-04-11
+updated: 2026-09-07
 sources:
   - maier-2019-nickel-microbial-pathogenesis
   - stevens-2023-phage-endolysin-cpps-chronic-prostatitis
@@ -25,7 +25,7 @@ pathogenic_potential: opportunistic
 
 # Proteus mirabilis
 
-A Gram-negative uropathogen whose Ni-dependent urease is the central driver of catheter-associated urinary tract infection (CAUTI) pathogenesis. Urease-mediated urea hydrolysis alkalinizes urine, triggering precipitation of struvite (magnesium ammonium phosphate) and apatite crystals that form kidney stones and encrust urinary catheters. *P. mirabilis* has evolved specialized nickel handling proteins, including an accessory protein that is 39% histidine -- one of the most histidine-enriched proteins known.
+A Gram-negative uropathogen whose Ni-dependent urease is the central driver of catheter-associated urinary tract infection (CAUTI) pathogenesis. Urease-mediated urea hydrolysis produces [[ammonia]] and alkalinizes urine, triggering precipitation of struvite (magnesium ammonium phosphate) and apatite crystals that form kidney stones and encrust urinary catheters. *P. mirabilis* has evolved specialized nickel handling proteins, including an accessory protein that is 39% histidine -- one of the most histidine-enriched proteins known.
 
 ## Metal-Dependent Virulence Factors
 

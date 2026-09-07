@@ -1,6 +1,27 @@
 {
   "schemaVersion": 1,
   "jobs": {
+    "create_page:ammonia": {
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "path": "wiki/concepts/ammonia.md",
+      "validatedSourceCount": 4,
+      "rationale": "Highest-scoring remaining concept-page candidate; four independent vault sources directly support urease production, gut-kidney ecology, and ammonia oxidation."
+    },
+    "backfill_links:ammonia": {
+      "state": "queued",
+      "rationale": "The new Ammonia page resolves a high-demand concept used across microbial, gastric, urinary, and renal contexts.",
+      "batches": [
+        {
+          "id": "2026-09-07-core-ammonia-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": ["urea", "urease", "helicobacter-pylori", "proteus-mirabilis", "ureaplasma"]
+        }
+      ]
+    },
     "create_page:urea": {
       "state": "promoted",
       "reviewedAt": "2026-09-06",

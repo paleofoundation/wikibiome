@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-06T18:52:32.790Z",
+  "_generated": "2026-09-07T03:47:37.002Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
     "entities": 328,
-    "concepts": 265,
+    "concepts": 266,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 864
+    "totalPages": 865
   },
   "pages": [
     {
@@ -15921,6 +15921,7 @@
         "thallium",
         "type-1-diabetes",
         "alpha-klotho",
+        "ammonia",
         "chelation-therapy",
         "fenton-chemistry",
         "gut-kidney-axis",
@@ -19039,6 +19040,7 @@
         "yersinia-pestis",
         "zinc",
         "alpha-synuclein",
+        "ammonia",
         "amyloid-beta-aggregation",
         "amyloid-beta",
         "antimicrobial-metals",
@@ -32144,13 +32146,13 @@
         "campanale-2014-nickel-free-diet-h-pylori"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-09-06T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Helicobacter pylori",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-09-06T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "sugihartono-2022-gastric-microbiota-hpylori-gerd",
           "chen-2023-hpylori-antibodies-gerd-mendelian-study",
@@ -32202,7 +32204,7 @@
         {
           "heading": "Urease",
           "level": 3,
-          "body": "- Up to 10% of total proteome.\n- Essential for in vivo survival: hydrolyzes [[urea]] → ammonia + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.\n- Roles beyond acid neutralization [[maier-2019-nickel-microbial-pathogenesis]]:\n - Required for persistence even at neutral gastric pH.\n - Promotes angiogenesis.\n - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).\n - Binds Class II MHC on gastric epithelial cells → induces apoptosis.\n - Disrupts [[tight-junctions|epithelial tight junctions]] (via ammonia production → myosin activation).\n - Activates blood platelets (lipoxygenase-mediated pathway).\n - Alters mucin gene expression.\n\n - Holo-urease (Ni-bound): catalytic urea hydrolysis + non-catalytic oxidant quenching (Met/Met-sulfoxide cycle with MSR repair).\n - Apo-urease (Ni-free): retains only oxidant-quenching activity.\n - Only 2-25% of urease is actually nickel-activated; the rest may serve the antioxidant role."
+          "body": "- Up to 10% of total proteome.\n- Essential for in vivo survival: hydrolyzes [[urea]] → [[ammonia]] + bicarbonate, buffering cytoplasmic pH to near-neutral in the [[acidic-microenvironment]] of the stomach.\n- Roles beyond acid neutralization [[maier-2019-nickel-microbial-pathogenesis]]:\n - Required for persistence even at neutral gastric pH.\n - Promotes angiogenesis.\n - Stimulates pro-inflammatory cytokines (neutrophil/monocyte chemotaxis).\n - Binds Class II MHC on gastric epithelial cells → induces apoptosis.\n - Disrupts [[tight-junctions|epithelial tight junctions]] (via ammonia production → myosin activation).\n - Activates blood platelets (lipoxygenase-mediated pathway).\n - Alters mucin gene expression.\n\n - Holo-urease (Ni-bound): catalytic urea hydrolysis + non-catalytic oxidant quenching (Met/Met-sulfoxide cycle with MSR repair).\n - Apo-urease (Ni-free): retains only oxidant-quenching activity.\n - Only 2-25% of urease is actually nickel-activated; the rest may serve the antioxidant role."
         },
         {
           "heading": "[NiFe] Hydrogenase",
@@ -32250,6 +32252,7 @@
         "hydrogenase",
         "nickel",
         "urea",
+        "ammonia",
         "acidic-microenvironment",
         "maier-2019-nickel-microbial-pathogenesis",
         "tight-junctions",
@@ -32302,6 +32305,7 @@
         "streptococcus-pneumoniae",
         "ureaplasma",
         "alpha-synuclein",
+        "ammonia",
         "amyloid-beta",
         "chelation-therapy",
         "drug-repurposing",
@@ -32359,7 +32363,7 @@
         },
         {
           "id": "proteus-mirabilis",
-          "score": 35
+          "score": 37
         },
         {
           "id": "candida-albicans",
@@ -32367,7 +32371,7 @@
         },
         {
           "id": "copper",
-          "score": 28
+          "score": 30
         },
         {
           "id": "salmonella-typhimurium",
@@ -54916,13 +54920,13 @@
         "khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-11T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Proteus mirabilis",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-11T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "maier-2019-nickel-microbial-pathogenesis",
           "stevens-2023-phage-endolysin-cpps-chronic-prostatitis",
@@ -54964,7 +54968,7 @@
         "conditions_depleted_in": [],
         "pathogenic_potential": "opportunistic"
       },
-      "overview": "A Gram-negative uropathogen whose Ni-dependent urease is the central driver of catheter-associated urinary tract infection (CAUTI) pathogenesis. Urease-mediated urea hydrolysis alkalinizes urine, triggering precipitation of struvite (magnesium ammonium phosphate) and apatite crystals that form kidney stones and encrust urinary catheters. *P. mirabilis* has evolved specialized nickel handling proteins, including an accessory protein that is 39% histidine -- one of the most histidine-enriched proteins known.",
+      "overview": "A Gram-negative uropathogen whose Ni-dependent urease is the central driver of catheter-associated urinary tract infection (CAUTI) pathogenesis. Urease-mediated urea hydrolysis produces [[ammonia]] and alkalinizes urine, triggering precipitation of struvite (magnesium ammonium phosphate) and apatite crystals that form kidney stones and encrust urinary catheters. *P. mirabilis* has evolved specialized nickel handling proteins, including an accessory protein that is 39% histidine -- one of the most histidine-enriched proteins known.",
       "sections": [
         {
           "heading": "Metal-Dependent Virulence Factors",
@@ -55023,6 +55027,7 @@
         }
       ],
       "wikilinks": [
+        "ammonia",
         "maier-2019-nickel-microbial-pathogenesis",
         "helicobacter-pylori",
         "metal-dependent-virulence",
@@ -55046,6 +55051,7 @@
         "proteobacteria",
         "staphylococcus-aureus",
         "ureaplasma",
+        "ammonia",
         "biofilm",
         "glyoxalase",
         "histidine",
@@ -55061,7 +55067,7 @@
       "related": [
         {
           "id": "urease",
-          "score": 21
+          "score": 23
         },
         {
           "id": "iron",
@@ -67510,13 +67516,13 @@
         "pendergrass-2026-nickel-nec-preterm-gut"
       ],
       "created": "2026-04-21T00:00:00.000Z",
-      "updated": "2026-04-21T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Ureaplasma",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-21T00:00:00.000Z",
-        "updated": "2026-04-21T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "last_substantive_update": "2026-04-21T00:00:00.000Z",
         "sources": [
           "magri-2018-multidisciplinary-prostatitis",
@@ -67564,7 +67570,7 @@
         "conditions_depleted_in": [],
         "platform": "wikibiome"
       },
-      "overview": "Ureaplasma is a genus of wall-less bacteria in the class Mollicutes, comprising two species pathogenic to humans: *U. urealyticum* and *U. parvum*. The genus is named for its defining characteristic — obligate urease activity — which hydrolyzes urea to ammonia and CO2, providing the organism's primary energy source. This urease is nickel-dependent, making Ureaplasma directly relevant to the metal-microbiome axis in WikiBiome.",
+      "overview": "Ureaplasma is a genus of wall-less bacteria in the class Mollicutes, comprising two species pathogenic to humans: *U. urealyticum* and *U. parvum*. The genus is named for its defining characteristic — obligate urease activity — which hydrolyzes urea to [[ammonia]] and CO2, providing the organism's primary energy source. This urease is nickel-dependent, making Ureaplasma directly relevant to the metal-microbiome axis in WikiBiome.",
       "sections": [
         {
           "heading": "Metal Dependencies — Nickel Urease",
@@ -67598,6 +67604,7 @@
         }
       ],
       "wikilinks": [
+        "ammonia",
         "maier-2019-nickel-microbial-pathogenesis",
         "helicobacter-pylori",
         "proteus-mirabilis",
@@ -67626,6 +67633,7 @@
         "mycoplasma-hominis",
         "mycoplasma",
         "ureaplasma-urealyticum",
+        "ammonia",
         "preterm-birth"
       ],
       "related": [
@@ -70456,6 +70464,155 @@
         {
           "id": "depression",
           "score": 14
+        }
+      ]
+    },
+    {
+      "id": "ammonia",
+      "title": "Ammonia",
+      "type": "concept",
+      "category": "mechanism",
+      "tags": [
+        "ammonia",
+        "ammonium",
+        "urease",
+        "urea",
+        "nitrogen-metabolism",
+        "acid-neutralization",
+        "gut-kidney-axis",
+        "chronic-kidney-disease",
+        "ammonia-oxidation",
+        "copper"
+      ],
+      "sources": [
+        "maier-2019-nickel-microbial-pathogenesis",
+        "chen-2019-microbiome-metabolome-gut-kidney-axis",
+        "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
+        "oudova-rivera-2026-copper-niche-ammonia-oxidizers"
+      ],
+      "created": "2026-09-07T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Ammonia",
+        "type": "concept",
+        "created": "2026-09-07T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
+        "sources": [
+          "maier-2019-nickel-microbial-pathogenesis",
+          "chen-2019-microbiome-metabolome-gut-kidney-axis",
+          "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
+          "oudova-rivera-2026-copper-niche-ammonia-oxidizers"
+        ],
+        "source_count": 4,
+        "tags": [
+          "ammonia",
+          "ammonium",
+          "urease",
+          "urea",
+          "nitrogen-metabolism",
+          "acid-neutralization",
+          "gut-kidney-axis",
+          "chronic-kidney-disease",
+          "ammonia-oxidation",
+          "copper"
+        ],
+        "karen_brain_primitives": [
+          1,
+          4,
+          5
+        ],
+        "seo_target": "ammonia microbiome urease gut kidney axis",
+        "platform": "wikibiome"
+      },
+      "overview": "Ammonia is a nitrogen-containing product of microbial [[urease]] activity. When urease hydrolyzes [[urea]], ammonia and bicarbonate are produced; in the microbial systems covered by WikiBiome, those products can provide nitrogen and raise local pH [[maier-2019-nickel-microbial-pathogenesis]].\n\nAmmonia is not the same thing as urea or urease: urea is the substrate, urease is the enzyme, and ammonia is one of the products [[maier-2019-nickel-microbial-pathogenesis]]. A gut–kidney-axis review describes urease products as ammonia and ammonium hydroxide when discussing their downstream effect on luminal pH [[chen-2019-microbiome-metabolome-gut-kidney-axis]].",
+      "sections": [
+        {
+          "heading": "Urease-driven ammonia production",
+          "level": 2,
+          "body": "A pathogen-focused review identifies ammonia production as one reason nickel-dependent urease can support survival in acidic environments [[maier-2019-nickel-microbial-pathogenesis]]. In [[helicobacter-pylori|*Helicobacter pylori*]], urease is a major component of the proteome and helps buffer the bacterium in the stomach. The same review connects urease-derived ammonia to distinct ecological or pathogenic roles in [[proteus-mirabilis|*Proteus mirabilis*]], [[ureaplasma|*Ureaplasma*]], and other urease-positive organisms [[maier-2019-nickel-microbial-pathogenesis]].\n\nThis does not make ammonia uniformly beneficial or harmful. The reviewed sources instead place its significance in context: gastric and urinary pH modification, energy metabolism, gut–kidney feedback, or microbial nitrification [[maier-2019-nickel-microbial-pathogenesis]] [[chen-2019-microbiome-metabolome-gut-kidney-axis]] [[oudova-rivera-2026-copper-niche-ammonia-oxidizers]]."
+        },
+        {
+          "heading": "Gastric and urinary microenvironments",
+          "level": 2,
+          "body": "In *H. pylori*, ammonia and bicarbonate generated from urea contribute to acid neutralization and gastric persistence [[maier-2019-nickel-microbial-pathogenesis]]. In *P. mirabilis*, urease activity raises urinary pH and supports the mineral precipitation involved in crystalline biofilms and infection-associated stones [[maier-2019-nickel-microbial-pathogenesis]].\n\nFor *Ureaplasma*, the same review describes urease-derived ammonia as part of a proton-motive-force system that supports ATP production, illustrating that the product can be coupled to energy metabolism rather than functioning only as a pH buffer [[maier-2019-nickel-microbial-pathogenesis]]."
+        },
+        {
+          "heading": "Ammonia at the gut-kidney interface",
+          "level": 2,
+          "body": "Two independent narrative reviews describe a feedback model in [[chronic-kidney-disease]]. Increased delivery of urea to the intestinal lumen supplies urease-producing microorganisms, which convert it to ammonia and raise luminal pH. The altered environment is described alongside epithelial-barrier disruption and a shift toward proteolytic microbial metabolism [[chen-2019-microbiome-metabolome-gut-kidney-axis]] [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics]].\n\nIn this model, ammonia is an intermediate in an ecological loop; it should not be used as a synonym for the separately described protein-bound [[uremic-toxins|uremic toxins]] indoxyl sulfate and p-cresyl sulfate, or for trimethylamine N-oxide [[chen-2019-microbiome-metabolome-gut-kidney-axis]] [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics]]."
+        },
+        {
+          "heading": "Ammonia oxidation and metal dependence",
+          "level": 2,
+          "body": "Ammonia can also serve as an energy substrate for ammonia-oxidizing archaea and bacteria. A comparative study in the evidence vault describes ammonia monooxygenase as a copper-dependent membrane enzyme in both groups and shows that copper availability and toxicity help define which ammonia oxidizers can occupy a given environmental niche [[oudova-rivera-2026-copper-niche-ammonia-oxidizers]].\n\nThe study also distinguishes the wider electron-transfer systems of the two groups: the examined archaea rely more heavily on copper-containing proteins, whereas the examined bacteria use more heme-based machinery downstream of ammonia oxidation [[oudova-rivera-2026-copper-niche-ammonia-oxidizers]]. This makes ammonia metabolism a direct bridge between nitrogen cycling and [[metal-homeostasis]]."
+        },
+        {
+          "heading": "Related pages",
+          "level": 2,
+          "body": "- [[urea]]\n- [[urease]]\n- [[helicobacter-pylori]]\n- [[proteus-mirabilis]]\n- [[ureaplasma]]\n- [[gut-kidney-axis]]\n- [[chronic-kidney-disease]]\n- [[uremic-toxins]]\n- [[copper]]\n- [[metal-homeostasis]]"
+        }
+      ],
+      "wikilinks": [
+        "urease",
+        "urea",
+        "maier-2019-nickel-microbial-pathogenesis",
+        "chen-2019-microbiome-metabolome-gut-kidney-axis",
+        "helicobacter-pylori",
+        "proteus-mirabilis",
+        "ureaplasma",
+        "oudova-rivera-2026-copper-niche-ammonia-oxidizers",
+        "chronic-kidney-disease",
+        "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
+        "uremic-toxins",
+        "metal-homeostasis",
+        "gut-kidney-axis",
+        "copper"
+      ],
+      "sourceDir": "concepts",
+      "sourceCount": 4,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "helicobacter-pylori",
+        "proteus-mirabilis",
+        "ureaplasma",
+        "urea",
+        "urease"
+      ],
+      "related": [
+        {
+          "id": "nickel",
+          "score": 13
+        },
+        {
+          "id": "metal-dependent-virulence",
+          "score": 13
+        },
+        {
+          "id": "nutritional-immunity",
+          "score": 11
+        },
+        {
+          "id": "candida-albicans",
+          "score": 9
+        },
+        {
+          "id": "hydrogenase",
+          "score": 8
+        },
+        {
+          "id": "escherichia-coli",
+          "score": 6
+        },
+        {
+          "id": "gastric-ulcer",
+          "score": 6
+        },
+        {
+          "id": "staphylococcus-aureus",
+          "score": 6
         }
       ]
     },
@@ -86613,13 +86770,14 @@
         "chronic-kidney-disease",
         "diabetic-kidney-disease",
         "hepatitis",
+        "ammonia",
         "urea",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
           "id": "uremic-toxins",
-          "score": 23
+          "score": 25
         },
         {
           "id": "indoxyl-sulfate",
@@ -97968,6 +98126,7 @@
       "isStub": false,
       "backlinks": [
         "acinetobacter",
+        "ammonia",
         "efflux-pumps",
         "heavy-metals",
         "hypoxia",
@@ -98006,11 +98165,11 @@
           "score": 17
         },
         {
-          "id": "dyshomeostasis",
+          "id": "copper",
           "score": 16
         },
         {
-          "id": "lactoferrin",
+          "id": "dyshomeostasis",
           "score": 16
         }
       ]
@@ -115341,12 +115500,12 @@
         "mishra-2022-molecular-mechanisms-heavy-metals-ckd"
       ],
       "created": "2026-09-06T00:00:00.000Z",
-      "updated": "2026-09-06T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Urea",
         "type": "concept",
         "created": "2026-09-06T00:00:00.000Z",
-        "updated": "2026-09-06T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "last_substantive_update": "2026-09-06T00:00:00.000Z",
         "sources": [
           "maier-2019-nickel-microbial-pathogenesis",
@@ -115375,7 +115534,7 @@
         "seo_target": "urea microbiome urease gut kidney axis",
         "platform": "wikibiome"
       },
-      "overview": "Urea is the substrate of [[urease]]. In the microbial systems covered by WikiBiome, urease hydrolyzes urea to ammonia and bicarbonate; those products can supply microbial nitrogen and help neutralize acidic environments [[maier-2019-nickel-microbial-pathogenesis]].\n\nAt a glance, urea is the substance being acted on, urease is the enzyme, and the urea cycle is a separate metabolic pathway [[maier-2019-nickel-microbial-pathogenesis]] [[draper-2018-menstrual-cycle-metabolomics]] [[lin-2025-nec-serum-metabolomics-fecal-microbiome]].",
+      "overview": "Urea is the substrate of [[urease]]. In the microbial systems covered by WikiBiome, urease hydrolyzes urea to [[ammonia]] and bicarbonate; those products can supply microbial nitrogen and help neutralize acidic environments [[maier-2019-nickel-microbial-pathogenesis]].\n\nAt a glance, urea is the substance being acted on, urease is the enzyme, and the urea cycle is a separate metabolic pathway [[maier-2019-nickel-microbial-pathogenesis]] [[draper-2018-menstrual-cycle-metabolomics]] [[lin-2025-nec-serum-metabolomics-fecal-microbiome]].",
       "sections": [
         {
           "heading": "Urea is not urease",
@@ -115405,6 +115564,7 @@
       ],
       "wikilinks": [
         "urease",
+        "ammonia",
         "maier-2019-nickel-microbial-pathogenesis",
         "draper-2018-menstrual-cycle-metabolomics",
         "lin-2025-nec-serum-metabolomics-fecal-microbiome",
@@ -115424,16 +115584,17 @@
       "isStub": false,
       "backlinks": [
         "helicobacter-pylori",
+        "ammonia",
         "urease",
         "glossary"
       ],
       "related": [
         {
-          "id": "gastric-cancer",
-          "score": 9
+          "id": "proteus-mirabilis",
+          "score": 11
         },
         {
-          "id": "proteus-mirabilis",
+          "id": "gastric-cancer",
           "score": 9
         },
         {
@@ -115488,12 +115649,12 @@
         "akbari-2022-metal-homeostasis-streptococci.md"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-09-06T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Urease",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-09-06T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "maier-2019-nickel-microbial-pathogenesis.md",
           "pendergrass-2026-nickel-nec-preterm-gut.md",
@@ -115530,7 +115691,7 @@
         {
           "heading": "Biochemistry",
           "level": 2,
-          "body": "Urease (EC 3.5.1.5) catalyzes the hydrolysis of [[urea]] into ammonia and bicarbonate:\n\n> (NH2)2CO + H2O --> 2 NH3 + CO2 (spontaneously: NH3 + H2O --> NH4+ + OH-; CO2 + H2O --> HCO3- + H+)\n\nThe net effect is a rise in local pH due to ammonia production, plus generation of a nitrogen source for the microorganism."
+          "body": "Urease (EC 3.5.1.5) catalyzes the hydrolysis of [[urea]] into [[ammonia]] and bicarbonate:\n\n> (NH2)2CO + H2O --> 2 NH3 + CO2 (spontaneously: NH3 + H2O --> NH4+ + OH-; CO2 + H2O --> HCO3- + H+)\n\nThe net effect is a rise in local pH due to ammonia production, plus generation of a nitrogen source for the microorganism."
         },
         {
           "heading": "Active site structure",
@@ -115681,6 +115842,7 @@
       "wikilinks": [
         "nickel",
         "urea",
+        "ammonia",
         "helicobacter-pylori",
         "hydrogenase",
         "maier-2019-nickel-microbial-pathogenesis",
@@ -115722,6 +115884,7 @@
         "morganella-morganii",
         "mycobacterium-tuberculosis",
         "nickel",
+        "ammonia",
         "biofilm",
         "developmental-metal-vulnerability",
         "dimethylglyoxime",
@@ -115960,25 +116123,26 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "ammonia",
         "gut-barrier-dysfunction",
         "urea"
       ],
       "related": [
         {
           "id": "gut-kidney-axis",
-          "score": 23
+          "score": 25
         },
         {
           "id": "indoxyl-sulfate",
           "score": 15
         },
         {
-          "id": "dietary-fiber-ckd",
-          "score": 11
+          "id": "urea",
+          "score": 12
         },
         {
-          "id": "urea",
-          "score": 10
+          "id": "dietary-fiber-ckd",
+          "score": 11
         },
         {
           "id": "phenylalanine",
@@ -115993,7 +116157,7 @@
           "score": 9
         },
         {
-          "id": "fermentative-metabolism",
+          "id": "ammonia",
           "score": 7
         }
       ]
@@ -119764,6 +119928,7 @@
         "thallium",
         "type-1-diabetes",
         "alpha-klotho",
+        "ammonia",
         "chelation-therapy",
         "fenton-chemistry",
         "gut-kidney-axis",
@@ -119812,12 +119977,12 @@
           "score": 38
         },
         {
-          "id": "nickel",
+          "id": "copper",
           "score": 36
         },
         {
-          "id": "copper",
-          "score": 34
+          "id": "nickel",
+          "score": 36
         },
         {
           "id": "lachnospiraceae",
@@ -119825,7 +119990,7 @@
         },
         {
           "id": "uremic-toxins",
-          "score": 32
+          "score": 34
         },
         {
           "id": "autism-spectrum-disorder",
@@ -182851,6 +183016,12 @@
         "sourceCount": 7
       },
       {
+        "id": "ammonia",
+        "label": "Ammonia",
+        "category": "mechanism",
+        "sourceCount": 4
+      },
+      {
         "id": "amyloid-beta-aggregation",
         "label": "Amyloid-Beta Aggregation",
         "category": "mechanism",
@@ -192476,6 +192647,10 @@
       },
       {
         "source": "helicobacter-pylori",
+        "target": "ammonia"
+      },
+      {
+        "source": "helicobacter-pylori",
         "target": "acidic-microenvironment"
       },
       {
@@ -196636,6 +196811,10 @@
       },
       {
         "source": "proteus-mirabilis",
+        "target": "ammonia"
+      },
+      {
+        "source": "proteus-mirabilis",
         "target": "helicobacter-pylori"
       },
       {
@@ -198688,6 +198867,10 @@
       },
       {
         "source": "ureaplasma",
+        "target": "ammonia"
+      },
+      {
+        "source": "ureaplasma",
         "target": "helicobacter-pylori"
       },
       {
@@ -199117,6 +199300,34 @@
       {
         "source": "alpha-synuclein",
         "target": "helicobacter-pylori"
+      },
+      {
+        "source": "ammonia",
+        "target": "urease"
+      },
+      {
+        "source": "ammonia",
+        "target": "urea"
+      },
+      {
+        "source": "ammonia",
+        "target": "chronic-kidney-disease"
+      },
+      {
+        "source": "ammonia",
+        "target": "uremic-toxins"
+      },
+      {
+        "source": "ammonia",
+        "target": "metal-homeostasis"
+      },
+      {
+        "source": "ammonia",
+        "target": "gut-kidney-axis"
+      },
+      {
+        "source": "ammonia",
+        "target": "copper"
       },
       {
         "source": "amyloid-beta-aggregation",

@@ -2,7 +2,7 @@
 title: Urea
 type: concept
 created: 2026-09-06
-updated: 2026-09-06
+updated: 2026-09-07
 last_substantive_update: 2026-09-06
 sources:
   - maier-2019-nickel-microbial-pathogenesis
@@ -20,7 +20,7 @@ platform: wikibiome
 
 # Urea
 
-Urea is the substrate of [[urease]]. In the microbial systems covered by WikiBiome, urease hydrolyzes urea to ammonia and bicarbonate; those products can supply microbial nitrogen and help neutralize acidic environments [[maier-2019-nickel-microbial-pathogenesis]].
+Urea is the substrate of [[urease]]. In the microbial systems covered by WikiBiome, urease hydrolyzes urea to [[ammonia]] and bicarbonate; those products can supply microbial nitrogen and help neutralize acidic environments [[maier-2019-nickel-microbial-pathogenesis]].
 
 At a glance, urea is the substance being acted on, urease is the enzyme, and the urea cycle is a separate metabolic pathway [[maier-2019-nickel-microbial-pathogenesis]] [[draper-2018-menstrual-cycle-metabolomics]] [[lin-2025-nec-serum-metabolomics-fecal-microbiome]].
 
