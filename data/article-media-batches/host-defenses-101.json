@@ -12,6 +12,25 @@
   "initialAuditCommit": "4971f80",
   "reviewedOn": "2026-09-07",
   "reviewStandard": "The five queued routes failed the pre-generation identity and state gate. They received no marked prompt, no built-in generation call, and no raster. Current NLM, UniProt, enzyme-nomenclature, and article records were checked against each route; the exact scientific state required before generation is preserved in the audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "27cb9401e4c2a2df962f587c0f34d399ccb7e89eb9220ce25fcb362533593966",
+  "controlAcceptedPromptEvidenceSha256": "56703b6126920e9cc266b098d4a759cac5455d89e90d38c8e8bdb1a031e99f21",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-five-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "a0b87ccf93ddc2f73f348b3125fe6e483e423430",
+    "reviewer": "WikiBiome Control Tower scientific and editorial audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "siderophore-competition",
+      "siderophores",
+      "siderophores-metallophores",
+      "superoxide-dismutase",
+      "transferrin"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "routeDecisionCount": 5,
   "candidateCount": 0,
   "scientificHoldCount": 5,
