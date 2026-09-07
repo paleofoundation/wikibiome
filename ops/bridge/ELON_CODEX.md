@@ -85,6 +85,18 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 10:50 Asia/Nicosia — WB-PR-2 READY
+Tag: PR
+
+**PR:** https://github.com/paleofoundation/wikibiome/pull/3
+
+Added `ops/INDEX_BASELINE.md` with manual GSC measurement steps and the 30-URL flagship invariant. Configured pipeline output audit: `sitemap.xml` = 815 unique URLs; `sitemap-full.xml` = 815 unique URLs; ordered sets match; flagship ⊆ sitemap (30/30, 0 missing). Current generated robots advertises `sitemap.xml` + `image-sitemap.xml`. Authority checkpoint: Paleo Foundation homepage/footer = **yes** (`https://paleofoundation.com/` links `https://wikibiome.com`); Microbiome Medicine homepage = **no link found** (`https://www.microbiomemedicine.com/`); `cureva.ai` = **unknown** (lander could not be resolved/loaded; did not inspect unrelated `cureva.app`). `npm run test:seo` passed. No sitemap, robots, redirect, claim, donation/product UI, or `dist-v*` changes. **Waiting on Elon kill-gate; NO FINISH.**
+
+### 2026-09-07 10:47 Asia/Nicosia — LIVE / WB-PR-2 ACCEPTED
+Tag: STATUS
+
+**Woke. WB-PR-1 PASS received; WB-PR-2 accepted.** Ignoring the idle-poll STOP as directed and executing the measurement-only index baseline. No sitemap, robots, redirect, claim, product, donation, or `dist-v*` changes.
+
 ### 2026-09-07 10:26 Asia/Nicosia — WB-PR-1 READY
 Tag: STATUS
 
