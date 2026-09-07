@@ -1,14 +1,14 @@
 # WikiBiome concept coverage program
 
-Generated deterministically from corpus `94b27ffc2d64`, catalog `b3d82c6dacee`, and decisions `4f1aea11dc4f`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
+Generated deterministically from corpus `8aa4f102314b`, catalog `b3d82c6dacee`, and decisions `5a4556319749`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
 
 ## Summary
 
 - 4 create-page candidates
-- 201 existing pages with contextual-link debt
+- 200 existing pages with contextual-link debt
 - 1 candidates held for evidence
 - 0 explicitly accepted jobs
-- 21 completed jobs recorded
+- 22 completed jobs recorded
 
 ## Active reviewed batch
 
@@ -17,6 +17,7 @@ _No explicitly accepted work is awaiting promotion._
 ## Completed jobs
 
 - `backfill_links:ammonia#2026-09-07-core-ammonia-contexts` — 2026-09-07 — targets: `urea`, `urease`, `helicobacter-pylori`, `proteus-mirabilis`, `ureaplasma`
+- `backfill_links:ammonia#2026-09-07-corpus-wide-ammonia-contexts` — 2026-09-07 — targets: `actinomyces`, `amyloid-beta`, `biofilm`, `candida-albicans`, `cirrhosis`, `cryptococcus-neoformans`, `dysbiosis`, `enterobacteriaceae`, `escherichia-coli`, `fermentative-metabolism`, `gastric-cancer`, `gastric-ulcer`, `gut-kidney-axis`, `gut-metal-microbiome`, `hypoxia`, `inter-kingdom-metal-shielding`, `metal-dependent-virulence`, `microbial-metallomics`, `mis-metallation`, `morganella-morganii`, `mycobacterium-tuberculosis`, `nickel`, `nickel-glyoxalase`, `nickel-urease`, `parkinsons-disease`, `saccharolytic-fermentation`, `siderophores-metallophores`, `staphylococcus-aureus`, `streptococcus-salivarius`, `ureaplasma-urealyticum`, `uremic-toxins`, `virulence-factors`
 - `backfill_links:caga#2026-09-07-core-caga-contexts` — 2026-09-07 — targets: `hydrogenase`, `gastric-cancer`, `gastric-adenocarcinoma`, `nickel`, `helicobacter-pylori`, `metal-dependent-virulence`, `gastric-ulcer`, `nickel-transporters`, `virulence-factors`
 - `backfill_links:catalase#2026-09-07-core-catalase-contexts` — 2026-09-07 — targets: `oxidative-stress`, `streptococcus-mutans`, `metal-dependent-virulence`, `iron`, `aerococcus`
 - `backfill_links:hydrogenase#2026-09-07-corpus-wide-hydrogenase-contexts` — 2026-09-07 — targets: `actinobacteria`, `alzheimers-disease`, `bilophila`, `calprotectin`, `campylobacter`, `citrobacter`, `desulfovibrio`, `desulfovibrionales`, `dimethylglyoxime`, `dysbiosis`, `endometriosis`, `enterobacter`, `enterobacteriaceae`, `escherichia`, `escherichia-coli`, `fermentative-metabolism`, `gastric-adenocarcinoma`, `gastric-ulcer`, `gerd`, `gut-metal-microbiome`, `gut-microbiome`, `helicobacter-hepaticus`, `inter-kingdom-metal-shielding`, `klebsiella`, `lactobacillus`, `metal-dependent-virulence`, `methanobrevibacter`, `methanobrevibacter-smithii`, `microbial-metallomics`, `mis-metallation`, `mycobacterium-tuberculosis`, `nickel`, `nickel-transporters`, `nutritional-immunity`, `oxygen-state`, `parkinsons-disease`, `pathogen-metal-acquisition`, `salmonella`, `salmonella-typhimurium`, `siderophores-metallophores`, `virulence-factors`
@@ -51,7 +52,6 @@ _No explicitly accepted work is awaiting promotion._
 
 | Score | Job | Term | State | Reader demand | Graph gain | Candidate sources |
 |---:|---|---|---|---:|---:|---:|
-| 94.38 | `backfill_links:ammonia` | Ammonia | queued | 32 unlinked / 37 mentioning | 140.8 | 18 |
 | 92.88 | `backfill_links:histidine` | Histidine | queued | 26 unlinked / 29 mentioning | 118.5 | 29 |
 | 92.50 | `backfill_links:dysbiosis` | Dysbiosis | queued | 244 unlinked / 327 mentioning | 885.5 | 915 |
 | 92.50 | `backfill_links:inflammation` | Metal-Driven Inflammation | queued | 225 unlinked / 279 mentioning | 828.8 | 607 |
@@ -81,12 +81,13 @@ _No explicitly accepted work is awaiting promotion._
 | 92.50 | `backfill_links:intestinal-permeability` | Intestinal Permeability | queued | 35 unlinked / 61 mentioning | 137.3 | 110 |
 | 92.50 | `backfill_links:ferroptosis` | Ferroptosis | queued | 17 unlinked / 62 mentioning | 91.7 | 81 |
 | 92.37 | `backfill_links:insulin-resistance` | Insulin Resistance | queued | 42 unlinked / 49 mentioning | 190.6 | 67 |
+| 92.25 | `backfill_links:superoxide-dismutase` | Superoxide Dismutase | queued | 38 unlinked / 48 mentioning | 140.9 | 42 |
 
 ## Evidence hold
 
 | Score | Job | Term | State | Reader demand | Graph gain | Candidate sources |
 |---:|---|---|---|---:|---:|---:|
-| 54.27 | `evidence_hold:bicarbonate` | Bicarbonate | queued | 11 articles | 51.4 | 2 |
+| 54.43 | `evidence_hold:bicarbonate` | Bicarbonate | queued | 11 articles | 54.1 | 2 |
 
 ## Publication gate
 

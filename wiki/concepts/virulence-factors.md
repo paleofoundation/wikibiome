@@ -38,7 +38,7 @@ For *H. pylori*, the [[caga|CagA]] effector is delivered through a nickel-[[hydr
 
 These are the virulence factors most relevant to the metallomics framework. Each represents a potential therapeutic target -- restrict the metal, disable the enzyme:
 
-- [[urease|Nickel-dependent urease]]: Ammonia production for acid resistance and tissue damage ([[helicobacter-pylori]], [[staphylococcus-aureus]], [[proteus-mirabilis]], [[klebsiella-pneumoniae]])
+- [[urease|Nickel-dependent urease]]: [[ammonia|Ammonia]] production for acid resistance and tissue damage ([[helicobacter-pylori]], [[staphylococcus-aureus]], [[proteus-mirabilis]], [[klebsiella-pneumoniae]])
 - [[nife-hydrogenase]]: H2-powered energy generation and CagA translocation ([[helicobacter-pylori]])
 - [[zinc-metalloprotease]]: Tissue invasion and immune evasion ([[bacteroides-fragilis]], [[clostridium]])
 - [[glyoxalase]]: Methylglyoxal detoxification; nickel-dependent in pathogens ([[escherichia-coli]])

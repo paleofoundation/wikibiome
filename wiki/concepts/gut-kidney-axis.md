@@ -50,7 +50,7 @@ Kidney Dysfunction
 
 As kidney function declines [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics]]:
 
-1. Urea influx: Elevated blood urea diffuses into the intestinal lumen, where bacterial [[urease]] hydrolyzes it to ammonia. Ammonia raises luminal pH, favoring Proteobacteria over acid-producing commensals.
+1. Urea influx: Elevated blood urea diffuses into the intestinal lumen, where bacterial [[urease]] hydrolyzes it to [[ammonia]]. Ammonia raises luminal pH, favoring Proteobacteria over acid-producing commensals.
 2. Fluid and electrolyte shifts: Altered colonic transit and fluid handling change the gut microenvironment
 3. Dietary restrictions: CKD dietary protocols (low potassium, low phosphorus) inadvertently reduce fiber intake, starving butyrate-producing bacteria
 4. Medications: Phosphate binders, antibiotics, and iron supplements reshape the microbiome

@@ -75,7 +75,7 @@ Pathogens have evolved sophisticated metal acquisition systems that define their
 | System | Metal | Organisms | Virulence role |
 |--------|-------|-----------|----------------|
 | Siderophores (enterobactin, salmochelin, pyoverdine) | Iron | Enterobacteriaceae, Pseudomonas | Iron piracy overcoming nutritional immunity |
-| Nickel-urease | Nickel | H. pylori, Proteus, Ureaplasma, Klebsiella | Acid resistance, struvite stones, ammonia toxicity |
+| Nickel-urease | Nickel | H. pylori, Proteus, Ureaplasma, Klebsiella | Acid resistance, struvite stones, [[ammonia]] toxicity |
 | NiFe-hydrogenase | Nickel | Salmonella, E. coli, Citrobacter | Anaerobic hydrogen oxidation for competitive advantage |
 | Gingipains (RgpA, RgpB, Kgp) | Zinc | P. gingivalis | Tissue destruction, immune evasion, amyloid generation |
 | Calprotectin evasion (ZntA, MntH) | Zinc, Manganese | Salmonella, S. aureus | Survival under host metal sequestration |

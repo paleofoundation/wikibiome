@@ -26,7 +26,7 @@ A genus of Gram-positive, facultatively anaerobic, filamentous bacteria that are
 
 *A. naeslundii* harbors a [[nickel]]-dependent [[urease]] that is critical for its survival in acidic oral environments:
 
-- The Ni-urease hydrolyzes urea to ammonia and CO2, raising local pH in dental plaque and enabling acid-tolerant biofilm persistence.
+- The Ni-urease hydrolyzes urea to [[ammonia]] and CO2, raising local pH in dental plaque and enabling acid-tolerant biofilm persistence.
 - This enzyme requires two Ni2+ ions per active site, making *A. naeslundii* dependent on nickel availability for its acid-survival strategy.
 - In nickel-replete environments (e.g., from [[dietary-nickel-exposure]] or nickel-containing dental prosthetics), *Actinomyces* urease activity may be enhanced, promoting more robust plaque formation.
 - The Ni-urease of oral bacteria is mechanistically related to that of [[helicobacter-pylori]], though operating in a different anatomical niche.

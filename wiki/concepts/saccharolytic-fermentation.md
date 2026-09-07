@@ -21,7 +21,7 @@ karen_brain_primitives: [5]
 
 Saccharolytic fermentation is the microbial breakdown of carbohydrates (dietary fiber, resistant starch, host glycans) to produce [[short-chain-fatty-acids]] (acetate, propionate, butyrate) and gases (H₂, CO₂, CH₄). It is the beneficial fermentation mode — the metabolic activity that produces the protective SCFAs underlying barrier integrity, immune tolerance, and anti-inflammatory signaling throughout this wiki.
 
-Saccharolytic fermentation dominates in the proximal colon where dietary fiber substrates are abundant. As substrates are depleted distally, the microbiome shifts toward proteolytic fermentation (amino acid breakdown), which produces toxic metabolites ([[hydrogen-sulfide]], ammonia, p-cresol, phenol, [[cadaverine]]).
+Saccharolytic fermentation dominates in the proximal colon where dietary fiber substrates are abundant. As substrates are depleted distally, the microbiome shifts toward proteolytic fermentation (amino acid breakdown), which produces toxic metabolites ([[hydrogen-sulfide]], [[ammonia]], p-cresol, phenol, [[cadaverine]]).
 
 ## The Saccharolytic-Proteolytic Balance
 

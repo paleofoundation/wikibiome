@@ -57,7 +57,7 @@ Nickel dependency is the defining feature. Pathogenic bacteria upregulate Ni-Glx
 Zinc antagonism: Some evidence suggests pharmacological zinc supplementation may compete for the Ni binding site, though this mechanism is not yet definitively proven in vivo.
 
 Related enzymes with Ni cofactors:
-- [[nickel-urease]] (H. pylori, some gut commensals) — ammonia production, pH buffering
+- [[nickel-urease]] (H. pylori, some gut commensals) — [[ammonia]] production, pH buffering
 - [[nife-hydrogenase]] (anaerobic bacteria) — H₂ metabolism under hypoxia
 - Ni-superoxide dismutase — oxidative stress defense
 

@@ -95,7 +95,7 @@
     },
     "backfill_links:ammonia": {
       "state": "queued",
-      "rationale": "The new Ammonia page resolves a high-demand concept used across microbial, gastric, urinary, and renal contexts.",
+      "rationale": "The four-source Ammonia page is now linked from the first explanatory occurrence in every qualifying public entity and concept article. The reviewed coverage spans microbial metabolism, urease-driven pH change, gastric and urinary virulence, renal disease, neurotoxicity, fermentation, biofilms, and metal ecology; later repetitions remain plain text to avoid overlinking.",
       "batches": [
         {
           "id": "2026-09-07-core-ammonia-contexts",
@@ -103,6 +103,46 @@
           "reviewedAt": "2026-09-07",
           "promotedAt": "2026-09-07",
           "targets": ["urea", "urease", "helicobacter-pylori", "proteus-mirabilis", "ureaplasma"]
+        },
+        {
+          "id": "2026-09-07-corpus-wide-ammonia-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "actinomyces",
+            "amyloid-beta",
+            "biofilm",
+            "candida-albicans",
+            "cirrhosis",
+            "cryptococcus-neoformans",
+            "dysbiosis",
+            "enterobacteriaceae",
+            "escherichia-coli",
+            "fermentative-metabolism",
+            "gastric-cancer",
+            "gastric-ulcer",
+            "gut-kidney-axis",
+            "gut-metal-microbiome",
+            "hypoxia",
+            "inter-kingdom-metal-shielding",
+            "metal-dependent-virulence",
+            "microbial-metallomics",
+            "mis-metallation",
+            "morganella-morganii",
+            "mycobacterium-tuberculosis",
+            "nickel",
+            "nickel-glyoxalase",
+            "nickel-urease",
+            "parkinsons-disease",
+            "saccharolytic-fermentation",
+            "siderophores-metallophores",
+            "staphylococcus-aureus",
+            "streptococcus-salivarius",
+            "ureaplasma-urealyticum",
+            "uremic-toxins",
+            "virulence-factors"
+          ]
         }
       ]
     },

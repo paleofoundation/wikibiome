@@ -33,7 +33,7 @@ A breach in the gastric mucosal lining extending through the muscularis mucosae,
 
 The dominant microbial cause of gastric ulceration is *H. pylori*, whose pathogenesis depends on nickel-containing enzymes that enable survival in the acidic gastric environment:
 
-- Nickel-dependent [[urease]] constitutes up to 10% of the total *H. pylori* proteome and catalyzes urea hydrolysis to ammonia and bicarbonate, neutralizing gastric acid in the immediate periplasmic environment [[maier-2019-nickel-microbial-pathogenesis]].
+- Nickel-dependent [[urease]] constitutes up to 10% of the total *H. pylori* proteome and catalyzes urea hydrolysis to [[ammonia]] and bicarbonate, neutralizing gastric acid in the immediate periplasmic environment [[maier-2019-nickel-microbial-pathogenesis]].
 - Beyond acid buffering, urease has non-catalytic roles: promoting angiogenesis, disrupting [[tight-junctions|tight junctions]], inducing apoptosis in gastric epithelial cells, and activating blood platelets -- all contributing to ulcer formation and persistence.
 - [[hydrogenase|NiFe hydrogenase]] provides metabolic energy by oxidizing molecular hydrogen (H2), which is chronically available in the human stomach at approximately 80 microM. This energy powers the type IV secretion system and [[caga|CagA]] translocation [[maier-2019-nickel-microbial-pathogenesis]].
 

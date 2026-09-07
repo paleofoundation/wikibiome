@@ -22,7 +22,7 @@ Dysbiosis encompasses three overlapping disturbances:
 
 1. Loss of beneficial organisms -- reduced abundance and diversity of commensals, particularly SCFA-producing Firmicutes (Faecalibacterium, Roseburia, Lachnospiraceae, Ruminococcus).
 2. Expansion of pathobionts -- overgrowth of potentially harmful organisms that are normally kept in check by commensal competition and host immunity (Enterobacteriaceae, Escherichia-Shigella, Fusobacterium, Candida).
-3. Loss of microbial metabolic function -- reduced production of beneficial metabolites ([[short-chain-fatty-acids]], indoles, secondary bile acids) and increased production of harmful metabolites (LPS, TMAO, ammonia, hydrogen sulfide).
+3. Loss of microbial metabolic function -- reduced production of beneficial metabolites ([[short-chain-fatty-acids]], indoles, secondary bile acids) and increased production of harmful metabolites (LPS, TMAO, [[ammonia]], hydrogen sulfide).
 
 These three dimensions do not always co-occur. A community can lose diversity without gaining specific pathobionts, or harbor pathobionts without a dramatic drop in alpha diversity. The most severe clinical dysbiosis involves all three.
 

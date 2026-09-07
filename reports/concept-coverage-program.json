@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "94b27ffc2d648b85e69622a98cbb5a3a49027b980cf98ff95866558f47eaceab",
+    "corpusSha256": "8aa4f102314b43e83dc8a7f6b0c6e7a2e989a4b4bd58349312f23192a290002d",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
-    "decisionsSha256": "4f1aea11dc4f104b98c6168fa2b564d074bd2729acdff4ed048e83765e546332",
+    "decisionsSha256": "5a4556319749cab7e06192020b6877bc91846b9a9b5b1810a1f7e1bb6faec880",
     "publicArticles": 592,
     "sourceRecords": 1939
   },
@@ -23,12 +23,12 @@
     ]
   },
   "summary": {
-    "totalJobs": 206,
+    "totalJobs": 205,
     "createPage": 4,
-    "backfillLinks": 201,
+    "backfillLinks": 200,
     "evidenceHold": 1,
     "accepted": 0,
-    "promoted": 21
+    "promoted": 22
   },
   "activeReviews": [],
   "completedJobs": [
@@ -47,6 +47,49 @@
       "key": "backfill_links:ammonia#2026-09-07-core-ammonia-contexts",
       "jobKey": "backfill_links:ammonia",
       "batchId": "2026-09-07-core-ammonia-contexts"
+    },
+    {
+      "id": "ammonia",
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "targets": [
+        "actinomyces",
+        "amyloid-beta",
+        "biofilm",
+        "candida-albicans",
+        "cirrhosis",
+        "cryptococcus-neoformans",
+        "dysbiosis",
+        "enterobacteriaceae",
+        "escherichia-coli",
+        "fermentative-metabolism",
+        "gastric-cancer",
+        "gastric-ulcer",
+        "gut-kidney-axis",
+        "gut-metal-microbiome",
+        "hypoxia",
+        "inter-kingdom-metal-shielding",
+        "metal-dependent-virulence",
+        "microbial-metallomics",
+        "mis-metallation",
+        "morganella-morganii",
+        "mycobacterium-tuberculosis",
+        "nickel",
+        "nickel-glyoxalase",
+        "nickel-urease",
+        "parkinsons-disease",
+        "saccharolytic-fermentation",
+        "siderophores-metallophores",
+        "staphylococcus-aureus",
+        "streptococcus-salivarius",
+        "ureaplasma-urealyticum",
+        "uremic-toxins",
+        "virulence-factors"
+      ],
+      "key": "backfill_links:ammonia#2026-09-07-corpus-wide-ammonia-contexts",
+      "jobKey": "backfill_links:ammonia",
+      "batchId": "2026-09-07-corpus-wide-ammonia-contexts"
     },
     {
       "id": "caga",
@@ -519,472 +562,6 @@
     }
   ],
   "jobs": [
-    {
-      "key": "backfill_links:ammonia",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": {
-        "state": "queued",
-        "rationale": "The new Ammonia page resolves a high-demand concept used across microbial, gastric, urinary, and renal contexts.",
-        "batches": [
-          {
-            "id": "2026-09-07-core-ammonia-contexts",
-            "state": "promoted",
-            "reviewedAt": "2026-09-07",
-            "promotedAt": "2026-09-07",
-            "targets": [
-              "urea",
-              "urease",
-              "helicobacter-pylori",
-              "proteus-mirabilis",
-              "ureaplasma"
-            ]
-          }
-        ]
-      },
-      "id": "ammonia",
-      "title": "Ammonia",
-      "pageType": "concept",
-      "aliases": [
-        "Ammonia",
-        "ammonia",
-        "ammonium"
-      ],
-      "excludePhrases": [],
-      "reason": "Microbial metabolite central to urease-driven pH change, nitrogen metabolism, and uremic gut ecology.",
-      "existingPage": {
-        "path": "wiki/concepts/ammonia.md",
-        "sourceCount": 4
-      },
-      "priority": 94.38,
-      "scoreComponents": {
-        "demand": 23.13,
-        "evidence": 25,
-        "graphGain": 20,
-        "scopeFit": 15,
-        "outlineReadiness": 11.25,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 37,
-        "totalPlainMentions": 68,
-        "linkedArticles": 5,
-        "unlinkedArticles": 32,
-        "linkCoveragePercent": 14,
-        "leadMentions": 1,
-        "headingMentions": 0,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "fungus",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 18,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 140.789
-      },
-      "affectedPages": [
-        {
-          "id": "dysbiosis",
-          "title": "Dysbiosis",
-          "path": "wiki/concepts/dysbiosis.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 148
-        },
-        {
-          "id": "nickel",
-          "title": "Nickel",
-          "path": "wiki/entities/nickel.md",
-          "category": "metal",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 137
-        },
-        {
-          "id": "gut-metal-microbiome",
-          "title": "Gut-Metal-Microbiome Interactions",
-          "path": "wiki/concepts/gut-metal-microbiome.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 75
-        },
-        {
-          "id": "mis-metallation",
-          "title": "Mis-Metallation",
-          "path": "wiki/concepts/mis-metallation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 73
-        },
-        {
-          "id": "escherichia-coli",
-          "title": "Escherichia coli",
-          "path": "wiki/entities/escherichia-coli.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 63
-        },
-        {
-          "id": "biofilm",
-          "title": "Biofilm",
-          "path": "wiki/concepts/biofilm.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 56
-        },
-        {
-          "id": "candida-albicans",
-          "title": "Candida albicans",
-          "path": "wiki/entities/candida-albicans.md",
-          "category": "fungus",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 51
-        },
-        {
-          "id": "parkinsons-disease",
-          "title": "Parkinson's Disease",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 49
-        },
-        {
-          "id": "metal-dependent-virulence",
-          "title": "Metal-Dependent Virulence",
-          "path": "wiki/concepts/metal-dependent-virulence.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 39
-        },
-        {
-          "id": "staphylococcus-aureus",
-          "title": "Staphylococcus aureus",
-          "path": "wiki/entities/staphylococcus-aureus.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 39
-        },
-        {
-          "id": "enterobacteriaceae",
-          "title": "Enterobacteriaceae",
-          "path": "wiki/entities/enterobacteriaceae.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 27
-        },
-        {
-          "id": "siderophores-metallophores",
-          "title": "Siderophores and Metallophores",
-          "path": "wiki/concepts/siderophores-metallophores.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 26
-        },
-        {
-          "id": "amyloid-beta",
-          "title": "Amyloid-Beta",
-          "path": "wiki/concepts/amyloid-beta.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 14
-        },
-        {
-          "id": "inter-kingdom-metal-shielding",
-          "title": "Inter-Kingdom Metal Shielding",
-          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "fermentative-metabolism",
-          "title": "Fermentative Metabolism",
-          "path": "wiki/concepts/fermentative-metabolism.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "gastric-ulcer",
-          "title": "Gastric Ulcer",
-          "path": "wiki/entities/gastric-ulcer.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "gut-kidney-axis",
-          "title": "Gut-Kidney Axis",
-          "path": "wiki/concepts/gut-kidney-axis.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 5
-        },
-        {
-          "id": "gastric-cancer",
-          "title": "Gastric Cancer",
-          "path": "wiki/entities/gastric-cancer.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 5
-        },
-        {
-          "id": "nickel-urease",
-          "title": "Nickel-Urease",
-          "path": "wiki/concepts/nickel-urease.md",
-          "category": "concept",
-          "plainMentions": 6,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "hypoxia",
-          "title": "Hypoxia",
-          "path": "wiki/concepts/hypoxia.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "saccharolytic-fermentation",
-          "title": "Saccharolytic Fermentation",
-          "path": "wiki/concepts/saccharolytic-fermentation.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "microbial-metallomics",
-          "title": "Microbial Metallomics",
-          "path": "wiki/concepts/microbial-metallomics.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "mycobacterium-tuberculosis",
-          "title": "Mycobacterium tuberculosis",
-          "path": "wiki/entities/mycobacterium-tuberculosis.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "uremic-toxins",
-          "title": "Uremic Toxins",
-          "path": "wiki/concepts/uremic-toxins.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "jones-2026-amylase-degradable-copper-starch-nanoparticles-saureus",
-          "title": "Jones 2026 — Targeting of Bacteria Using Amylase-Degradable, Copper-Loaded Starch Nanoparticles",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/jones-2026-amylase-degradable-copper-starch-nanoparticles-saureus.md",
-          "passage": {
-            "excerpt": "- Average hydrodynamic diameter: 440 +/- 58 nm; dry particle size: 193 +/- 91 nm (swell ratio ~2.3) - CuNP loading: 0.34 +/- 0.05 wt% with 89.8 +/- 7.5% loading efficiency - CuNPs are 5-7 nm and homogeneously distributed within the starch matrix (confirmed...",
-            "sha256": "455fb325a526574717f3842b38cdfcd6ccdf36552d07fa65eb63b6935e9a44c0"
-          }
-        },
-        {
-          "id": "oudova-rivera-2026-copper-niche-ammonia-oxidizers",
-          "title": "Oudova-Rivera 2026 — Copper Requirements and Copper Toxicity as Niche-Defining Factors in Ammonia-Oxidizing Archaea and Bacteria",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/oudova-rivera-2026-copper-niche-ammonia-oxidizers.md",
-          "passage": {
-            "excerpt": "This study provides the first systematic quantification of copper requirements and toxicity thresholds across ammonia-oxidizing archaea (AOA) and bacteria (AOB), revealing that copper availability is a niche-defining factor in microbial ecology. For the mis...",
-            "sha256": "5c11e58c452c7c9ab4e098bf9b9038ca57f4e1ea3c9e64d73c4fbf0a0aa34ae8"
-          }
-        },
-        {
-          "id": "pendergrass-2026-nickel-nec-preterm-gut",
-          "title": "Nickel as a Catalytic Driver of Necrotizing Enterocolitis: Dietary Nickel, Microbial Metallomics, and the Activation of Nickel-Dependent Virulence Pathways in the Preterm Gut",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/pendergrass-2026-nickel-nec-preterm-gut.md",
-          "passage": {
-            "excerpt": "- **Study type**: Hypothesis-driven synthesis integrating microbiome ecology, enzymatic biochemistry, and infant nutrition data - **Table 1**: Comprehensive mapping of NEC-enriched taxa to their nickel-dependent enzyme profiles (urease, glyoxalase, [NiFe]-h...",
-            "sha256": "ad86ab54ebaa8fa425b14982bbf50aa8a1ca66fda4a775ce69c5373f0c6d6a3c"
-          }
-        },
-        {
-          "id": "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
-          "title": "Alobaidi 2025 — The Gut-Kidney Axis in CKD: Mechanisms, Microbial Metabolites, and Microbiome-Targeted Therapeutics",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics.md",
-          "passage": {
-            "excerpt": "Alobaidi provides a comprehensive framework for understanding the gut-kidney axis in CKD. The review describes a self-reinforcing pathogenic cycle: declining kidney function leads to uremia, which alters the intestinal milieu through urea secretion into the...",
-            "sha256": "7559e412020848bf49e2165824cf154efe4bbf205281073d3025221fd4abc0ea"
-          }
-        },
-        {
-          "id": "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
-          "title": "Microbial Metallomics and Parkinson's Disease: A Unified Metal-Driven Framework Linking Ferroptosis, Dysbiosis, and alpha-Synuclein Pathology",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md",
-          "passage": {
-            "excerpt": "- Proposes a unified metal-driven framework for Parkinson's disease (PD) that connects gut microbial metallomics, intestinal dysbiosis, ferroptosis, and alpha-synuclein pathology through shared metal-dependent mechanisms - Heavy metals (particularly iron, m...",
-            "sha256": "b5137e1565123c58ac3c8ef797ad8c20b34a10152221ac3955e9f68cc52c7828"
-          }
-        },
-        {
-          "id": "yang-2025-gut-microbiota-endometrial-cancer-mr",
-          "title": "Yang 2025 — The Causal Relationship Between the Gut Microbiota and Endometrial Cancer: A Mendelian Randomization Study",
-          "evidenceLevel": "computational-prediction",
-          "year": 2025,
-          "path": "wiki/sources/yang-2025-gut-microbiota-endometrial-cancer-mr.md",
-          "passage": {
-            "excerpt": "The identification of Acidaminococcaceae as a risk factor is biologically plausible. This family includes genera involved in amino acid fermentation, producing branched-chain fatty acids and potentially ammonia, which at elevated levels can promote inflamma...",
-            "sha256": "6f02e4166d6ac0e880fd436110229165f18daf87a03477c39d5294d90a8bd9f5"
-          }
-        },
-        {
-          "id": "sugihartono-2022-gastric-microbiota-h-pylori-gerd",
-          "title": "Sugihartono 2022 — Gastric Microbiota and H. pylori in GERD",
-          "evidenceLevel": "cross-sectional",
-          "year": 2022,
-          "path": "wiki/sources/sugihartono-2022-gastric-microbiota-h-pylori-gerd.md",
-          "passage": {
-            "excerpt": "The **inverse H. pylori-ERD relationship** (only 5.2% H. pylori prevalence in ERD vs. higher rates in NERD and functional dyspepsia) adds to growing evidence that H. pylori may serve a protective function in the gastroesophageal tract. The proposed mechanis...",
-            "sha256": "b9077f1c16c1749f187931840a4c2bc713faf9c219fcff792ae1682301b62d79"
-          }
-        },
-        {
-          "id": "hall-2020-ckd-cats-dietary-fiber-metabolome-microbiome",
-          "title": "Hall et al. 2020 — CKD in Cats Alters Response of the Plasma Metabolome and Fecal Microbiome to Dietary Fiber",
-          "evidenceLevel": "animal-model",
-          "year": 2020,
-          "path": "wiki/sources/hall-2020-ckd-cats-dietary-fiber-metabolome-microbiome.md",
-          "passage": {
-            "excerpt": "The most notable finding was the **ecological resistance** of the CKD-associated microbiome. While healthy cats showed significant shifts in microbial community composition in response to both fiber types, CKD cats showed dampened responses — fewer OTUs cha...",
-            "sha256": "b5e612f5477455c02ac25f9caa61b08caec84ed7320f204b8a575bd2f39b3d4e"
-          }
-        },
-        {
-          "id": "hu-2020-high-throughput-sequencing-intestinal-flora-esrd-ckd",
-          "title": "High-Throughput Sequencing Analysis of Intestinal Flora Changes in ESRD and CKD Patients",
-          "evidenceLevel": "cross-sectional",
-          "year": 2020,
-          "path": "wiki/sources/hu-2020-high-throughput-sequencing-intestinal-flora-esrd-ckd.md",
-          "passage": {
-            "excerpt": "This study provides a comprehensive comparison of gut microbiota across the full spectrum of chronic kidney disease, from non-dialysis CKD through two dialysis modalities. The key finding is a progressive loss of saccharolytic, SCFA-producing organisms (par...",
-            "sha256": "5ca38d11e234e08f6b52425d1e6cdb8e9985ceb12baac9e296c4c27316bdef7f"
-          }
-        },
-        {
-          "id": "maurya-2020-arg-soil-microbiomes-co-selection",
-          "title": "Development, spread and persistence of antibiotic resistance genes (ARGs) in the soil microbiomes through co-selection",
-          "evidenceLevel": "expert-opinion",
-          "year": 2020,
-          "path": "wiki/sources/maurya-2020-arg-soil-microbiomes-co-selection.md",
-          "passage": {
-            "excerpt": "- **A. Cross-resistance**: One resistance gene confers resistance to multiple agents (antibiotics, metals, PAHs) via efflux pumps; e.g., MexGHI-OpmD in *P. aeruginosa* confers resistance to clavulanic acid, vanadium, and ticarcillin; also confers resistance...",
-            "sha256": "93c517cb136cb3efa462f7446ce84843fcebe49daae5300e4cafdbd812caeb7a"
-          }
-        },
-        {
-          "id": "chen-2019-microbiome-metabolome-gut-kidney-axis",
-          "title": "Chen et al. 2019 — Microbiome-Metabolome Reveals the Contribution of Gut-Kidney Axis on Kidney Disease",
-          "evidenceLevel": "expert-opinion",
-          "year": 2019,
-          "path": "wiki/sources/chen-2019-microbiome-metabolome-gut-kidney-axis.md",
-          "passage": {
-            "excerpt": "Chen et al. provided a comprehensive review of the gut-kidney axis, a concept describing the bidirectional communication between the intestinal microbiome and renal function. The central thesis is that CKD fundamentally alters the gut environment: as kidney...",
-            "sha256": "d443531993ba4283c7295577b990687e2ce3ca7479e4b8ab083e8377d4e06c0d"
-          }
-        },
-        {
-          "id": "liu-2019-urinary-amino-acids-asd-biomarkers",
-          "title": "Liu 2019 — Altered Urinary Amino Acids in Children with ASD",
-          "evidenceLevel": null,
-          "year": 2019,
-          "path": "wiki/sources/liu-2019-urinary-amino-acids-asd-biomarkers.md",
-          "passage": {
-            "excerpt": "**Ornithine/urea cycle abnormalities:** - 8 of 21 different UAAs associated with urea cycle - Arginine, Arg/Orn ratio, Hyp at higher levels; Pro, Cit, Asp at lower levels in ASD - Dysfunction of arginase (Arg to Orn) and ornithine transcarbamylase (Orn to C...",
-            "sha256": "4c2248e66127db603a083820c7129e0a94a369ae3f6714126a0c94f8bc139fc7"
-          }
-        }
-      ]
-    },
     {
       "key": "backfill_links:histidine",
       "lane": "backfill_links",
@@ -27813,7 +27390,7 @@
         ],
         "candidateEvidenceSources": 48,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 108.293
+        "weightedGraphGain": 110.956
       },
       "affectedPages": [
         {
@@ -27881,6 +27458,17 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 48
+        },
+        {
+          "id": "ammonia",
+          "title": "Ammonia",
+          "path": "wiki/concepts/ammonia.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 37
         },
         {
           "id": "serotonin",
@@ -27974,17 +27562,6 @@
           "id": "alpha-klotho",
           "title": "Alpha-Klotho",
           "path": "wiki/concepts/alpha-klotho.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 5
-        },
-        {
-          "id": "ammonia",
-          "title": "Ammonia",
-          "path": "wiki/concepts/ammonia.md",
           "category": "concept",
           "plainMentions": 1,
           "linked": false,
@@ -61853,11 +61430,11 @@
       "excludePhrases": [],
       "reason": "A urease reaction product relevant to local pH buffering; may remain a section-level topic if evidence is thin.",
       "existingPage": null,
-      "priority": 54.27,
+      "priority": 54.43,
       "scoreComponents": {
         "demand": 15.8,
         "evidence": 6.25,
-        "graphGain": 16.62,
+        "graphGain": 16.78,
         "scopeFit": 9,
         "outlineReadiness": 6.6,
         "ambiguityPenalty": 0
@@ -61877,7 +61454,7 @@
         ],
         "candidateEvidenceSources": 2,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 51.428
+        "weightedGraphGain": 54.091
       },
       "affectedPages": [
         {
@@ -61889,7 +61466,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 5
+          "inboundLinks": 37
         },
         {
           "id": "urea",

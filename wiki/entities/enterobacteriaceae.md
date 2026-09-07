@@ -32,7 +32,7 @@ A family of Gram-negative, facultative anaerobic Gammaproteobacteria that includ
 ## Nickel-Dependent Enzymes
 
 - All Enterobacteriaceae are predicted to carry Ni-dependent glyoxalase I (Ni-GloI), a metal-dependent detoxification enzyme.
-- [[nickel]]-dependent [[urease]] (in Proteus, Klebsiella, Yersinia) generates ammonia that raises local pH and damages epithelial cells.
+- [[nickel]]-dependent [[urease]] (in Proteus, Klebsiella, Yersinia) generates [[ammonia]] that raises local pH and damages epithelial cells.
 - [NiFe] [[hydrogenase]] enables hydrogen-dependent energy metabolism in the gut, conferring a metabolic advantage in the H2-rich colonic environment [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
 ## Dysbiosis Bloom

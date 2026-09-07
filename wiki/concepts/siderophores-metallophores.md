@@ -96,7 +96,7 @@ The "infection metallomics" platform uses mass spectrometry to detect microbial 
 
 ### Proposed NEC Biomarkers
 
-Fecal urease activity, ammonia levels, and stool nickel content could serve as early NEC risk indicators -- reflecting the downstream consequences of nickelophore-mediated nickel acquisition by gut pathogens [[pendergrass-2026-nickel-nec-preterm-gut]].
+Fecal urease activity, [[ammonia]] levels, and stool nickel content could serve as early NEC risk indicators -- reflecting the downstream consequences of nickelophore-mediated nickel acquisition by gut pathogens [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ## Role in Disease
 

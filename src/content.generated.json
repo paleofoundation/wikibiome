@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T06:34:23.836Z",
+  "_generated": "2026-09-07T06:56:01.083Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -939,7 +939,7 @@
         {
           "heading": "Metal Dependencies: Nickel-Urease System",
           "level": 2,
-          "body": "*A. naeslundii* harbors a [[nickel]]-dependent [[urease]] that is critical for its survival in acidic oral environments:\n\n- The Ni-urease hydrolyzes urea to ammonia and CO2, raising local pH in dental plaque and enabling acid-tolerant biofilm persistence.\n- This enzyme requires two Ni2+ ions per active site, making *A. naeslundii* dependent on nickel availability for its acid-survival strategy.\n- In nickel-replete environments (e.g., from [[dietary-nickel-exposure]] or nickel-containing dental prosthetics), *Actinomyces* urease activity may be enhanced, promoting more robust plaque formation.\n- The Ni-urease of oral bacteria is mechanistically related to that of [[helicobacter-pylori]], though operating in a different anatomical niche."
+          "body": "*A. naeslundii* harbors a [[nickel]]-dependent [[urease]] that is critical for its survival in acidic oral environments:\n\n- The Ni-urease hydrolyzes urea to [[ammonia]] and CO2, raising local pH in dental plaque and enabling acid-tolerant biofilm persistence.\n- This enzyme requires two Ni2+ ions per active site, making *A. naeslundii* dependent on nickel availability for its acid-survival strategy.\n- In nickel-replete environments (e.g., from [[dietary-nickel-exposure]] or nickel-containing dental prosthetics), *Actinomyces* urease activity may be enhanced, promoting more robust plaque formation.\n- The Ni-urease of oral bacteria is mechanistically related to that of [[helicobacter-pylori]], though operating in a different anatomical niche."
         },
         {
           "heading": "Role in Oral Ecosystem",
@@ -985,6 +985,7 @@
       "wikilinks": [
         "nickel",
         "urease",
+        "ammonia",
         "dietary-nickel-exposure",
         "helicobacter-pylori",
         "biofilm",
@@ -12743,7 +12744,7 @@
         {
           "heading": "Cryptococcus neoformans -- Ni-Urease for Brain Invasion",
           "level": 2,
-          "body": "*C. neoformans* uses a Ni-dependent urease that is essential for CNS invasion [[maier-2019-nickel-microbial-pathogenesis]]:\n\n- Urease activity promotes crossing of the blood-brain barrier.\n- Urease-negative mutants show dramatically reduced brain colonization in animal models.\n- Ammonia production from urease may damage endothelial [[tight-junctions|tight junctions]] (paralleling [[helicobacter-pylori]] urease disruption of gastric tight junctions).\n- *C. neoformans* causes cryptococcal meningitis, a leading killer of HIV/AIDS patients, making its Ni-urease a critical virulence factor in the global HIV burden."
+          "body": "*C. neoformans* uses a Ni-dependent urease that is essential for CNS invasion [[maier-2019-nickel-microbial-pathogenesis]]:\n\n- Urease activity promotes crossing of the blood-brain barrier.\n- Urease-negative mutants show dramatically reduced brain colonization in animal models.\n- [[ammonia|Ammonia]] production from urease may damage endothelial [[tight-junctions|tight junctions]] (paralleling [[helicobacter-pylori]] urease disruption of gastric tight junctions).\n- *C. neoformans* causes cryptococcal meningitis, a leading killer of HIV/AIDS patients, making its Ni-urease a critical virulence factor in the global HIV burden."
         },
         {
           "heading": "Nutritional Immunity and Fungal Pathogens",
@@ -12789,6 +12790,7 @@
         "li-2022-candida-resident-microbiota-interactions",
         "do-carmo-2023-metal-nanoparticles-candida-review",
         "maier-2019-nickel-microbial-pathogenesis",
+        "ammonia",
         "tight-junctions",
         "helicobacter-pylori",
         "shi-2023-ppi-fungal-dysbiosis-gerd",
@@ -16088,7 +16090,7 @@
         {
           "heading": "Key Connections",
           "level": 2,
-          "body": "- Gut dysbiosis: Cirrhosis depletes Bacteroidetes and SCFA producers while enriching oral-origin taxa (Streptococcus, Veillonella) that translocate to the gut — a distinctive \"oralization\" of the gut microbiome [[jie-2017-gut-microbiome-acvd]].\n- Hepatic encephalopathy: [[urease|Urease]]-producing gut bacteria ([[helicobacter-pylori]], [[klebsiella]], [[proteus-mirabilis]]) generate ammonia → portal circulation → brain toxicity.\n- Metal hepatotoxicity: Chronic [[cadmium]], [[arsenic]], [[lead]] exposure drives hepatic fibrosis independently of viral or alcoholic causes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].\n- Mediterranean diet: Protective dietary pattern associated with reduced cirrhosis progression [[latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet]]."
+          "body": "- Gut dysbiosis: Cirrhosis depletes Bacteroidetes and SCFA producers while enriching oral-origin taxa (Streptococcus, Veillonella) that translocate to the gut — a distinctive \"oralization\" of the gut microbiome [[jie-2017-gut-microbiome-acvd]].\n- Hepatic encephalopathy: [[urease|Urease]]-producing gut bacteria ([[helicobacter-pylori]], [[klebsiella]], [[proteus-mirabilis]]) generate [[ammonia]] → portal circulation → brain toxicity.\n- Metal hepatotoxicity: Chronic [[cadmium]], [[arsenic]], [[lead]] exposure drives hepatic fibrosis independently of viral or alcoholic causes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].\n- Mediterranean diet: Protective dietary pattern associated with reduced cirrhosis progression [[latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet]]."
         },
         {
           "heading": "Cross-References",
@@ -16103,6 +16105,7 @@
         "helicobacter-pylori",
         "klebsiella",
         "proteus-mirabilis",
+        "ammonia",
         "cadmium",
         "arsenic",
         "lead",
@@ -20352,7 +20355,7 @@
         {
           "heading": "Ni-Urease -- The Brain Invasion Enzyme",
           "level": 3,
-          "body": "- *C. neoformans* Ni-urease is essential for crossing the blood-brain barrier (BBB) and establishing CNS infection [[maier-2019-nickel-microbial-pathogenesis]].\n- Urease-negative mutants show dramatically reduced brain colonization in animal models while retaining virulence in the lungs -- demonstrating that urease is specifically required for neurotropism, not general virulence.\n- Three proposed mechanisms for urease-mediated brain invasion:\n 1. Microvascular sequestration: urease activity promotes trapping of yeast cells in brain capillary microvasculature, creating a staging area for BBB penetration.\n 2. Phagolysosomal pH modulation: ammonia generated by urease alkalinizes the phagosome, promoting intracellular survival in brain-resident macrophages and microglia.\n 3. Endothelial [[tight-junctions|tight junction]] disruption: ammonia damages BBB endothelial tight junctions, paralleling [[helicobacter-pylori]] urease disruption of gastric epithelial tight junctions.\n- Urease may also contribute to the \"Trojan horse\" mechanism, where *C. neoformans* within macrophages crosses the BBB via transcytosis [[patil-2021-infection-metallomics-critical-care]]."
+          "body": "- *C. neoformans* Ni-urease is essential for crossing the blood-brain barrier (BBB) and establishing CNS infection [[maier-2019-nickel-microbial-pathogenesis]].\n- Urease-negative mutants show dramatically reduced brain colonization in animal models while retaining virulence in the lungs -- demonstrating that urease is specifically required for neurotropism, not general virulence.\n- Three proposed mechanisms for urease-mediated brain invasion:\n 1. Microvascular sequestration: urease activity promotes trapping of yeast cells in brain capillary microvasculature, creating a staging area for BBB penetration.\n 2. Phagolysosomal pH modulation: [[ammonia]] generated by urease alkalinizes the phagosome, promoting intracellular survival in brain-resident macrophages and microglia.\n 3. Endothelial [[tight-junctions|tight junction]] disruption: ammonia damages BBB endothelial tight junctions, paralleling [[helicobacter-pylori]] urease disruption of gastric epithelial tight junctions.\n- Urease may also contribute to the \"Trojan horse\" mechanism, where *C. neoformans* within macrophages crosses the BBB via transcytosis [[patil-2021-infection-metallomics-critical-care]]."
         },
         {
           "heading": "Environmental Nickel and the Saprophytic Reservoir",
@@ -20394,6 +20397,7 @@
         "nickel",
         "urease",
         "maier-2019-nickel-microbial-pathogenesis",
+        "ammonia",
         "tight-junctions",
         "helicobacter-pylori",
         "patil-2021-infection-metallomics-critical-care",
@@ -24046,7 +24050,7 @@
         {
           "heading": "Nickel-Dependent Enzymes",
           "level": 2,
-          "body": "- All Enterobacteriaceae are predicted to carry Ni-dependent glyoxalase I (Ni-GloI), a metal-dependent detoxification enzyme.\n- [[nickel]]-dependent [[urease]] (in Proteus, Klebsiella, Yersinia) generates ammonia that raises local pH and damages epithelial cells.\n- [NiFe] [[hydrogenase]] enables hydrogen-dependent energy metabolism in the gut, conferring a metabolic advantage in the H2-rich colonic environment [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
+          "body": "- All Enterobacteriaceae are predicted to carry Ni-dependent glyoxalase I (Ni-GloI), a metal-dependent detoxification enzyme.\n- [[nickel]]-dependent [[urease]] (in Proteus, Klebsiella, Yersinia) generates [[ammonia]] that raises local pH and damages epithelial cells.\n- [NiFe] [[hydrogenase]] enables hydrogen-dependent energy metabolism in the gut, conferring a metabolic advantage in the H2-rich colonic environment [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
         },
         {
           "heading": "Dysbiosis Bloom",
@@ -24086,6 +24090,7 @@
         "hanus-2021-immune-microbiota-metabolites-crc-triad",
         "nickel",
         "urease",
+        "ammonia",
         "hydrogenase",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "jie-2017-gut-microbiome-acvd",
@@ -25334,7 +25339,7 @@
         {
           "heading": "Urease (in Shiga Toxin-Producing E. coli)",
           "level": 3,
-          "body": "- STEC/EHEC strains use [[urease]] for acid survival during gastric transit [[maier-2019-nickel-microbial-pathogenesis]].\n- Urease-mediated ammonia production buffers pH, enabling survival through the stomach to reach the intestinal colonization site.\n- Not all *E. coli* pathotypes carry urease -- it is primarily found in STEC and some UPEC strains."
+          "body": "- STEC/EHEC strains use [[urease]] for acid survival during gastric transit [[maier-2019-nickel-microbial-pathogenesis]].\n- Urease-mediated [[ammonia]] production buffers pH, enabling survival through the stomach to reach the intestinal colonization site.\n- Not all *E. coli* pathotypes carry urease -- it is primarily found in STEC and some UPEC strains."
         },
         {
           "heading": "Ni-Acireductone Dioxygenase (ARD)",
@@ -25391,6 +25396,7 @@
         "hydrogenase",
         "maier-2019-nickel-microbial-pathogenesis",
         "urease",
+        "ammonia",
         "salmonella-typhimurium",
         "helicobacter-pylori",
         "bernard-raichon2022-dysbiosis-translocation-bacteremia-covid",
@@ -29811,6 +29817,10 @@
           "score": 9
         },
         {
+          "id": "ammonia",
+          "score": 9
+        },
+        {
           "id": "calprotectin",
           "score": 9
         },
@@ -29820,10 +29830,6 @@
         },
         {
           "id": "lactoferrin",
-          "score": 9
-        },
-        {
-          "id": "virulence-factors",
           "score": 9
         }
       ]
@@ -29934,7 +29940,7 @@
         {
           "heading": "Step 1: Nickel Enables Colonization",
           "level": 3,
-          "body": "H. pylori cannot survive gastric acid without two nickel-dependent enzymes:\n- [[urease|Urease]] -- a Ni-containing enzyme that hydrolyzes urea to ammonia + CO2, locally neutralizing gastric acid. Contains 24 nickel ions per holoenzyme. Without nickel, urease is inactive and H. pylori cannot colonize.\n- [Ni-Fe] hydrogenase -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density."
+          "body": "H. pylori cannot survive gastric acid without two nickel-dependent enzymes:\n- [[urease|Urease]] -- a Ni-containing enzyme that hydrolyzes urea to [[ammonia]] + CO2, locally neutralizing gastric acid. Contains 24 nickel ions per holoenzyme. Without nickel, urease is inactive and H. pylori cannot colonize.\n- [Ni-Fe] hydrogenase -- oxidizes molecular H2 (produced by other gut bacteria) to generate energy for H. pylori survival in the microaerobic gastric niche. The hydrogenase is essential for full colonization density."
         },
         {
           "heading": "Step 2: Nickel Powers Virulence",
@@ -29999,6 +30005,7 @@
         "hydrogenase",
         "caga",
         "urease",
+        "ammonia",
         "tight-junctions",
         "inflammation",
         "nf-kappa-b",
@@ -30142,7 +30149,7 @@
         {
           "heading": "Helicobacter pylori and the Nickel Connection",
           "level": 2,
-          "body": "The dominant microbial cause of gastric ulceration is *H. pylori*, whose pathogenesis depends on nickel-containing enzymes that enable survival in the acidic gastric environment:\n\n- Nickel-dependent [[urease]] constitutes up to 10% of the total *H. pylori* proteome and catalyzes urea hydrolysis to ammonia and bicarbonate, neutralizing gastric acid in the immediate periplasmic environment [[maier-2019-nickel-microbial-pathogenesis]].\n- Beyond acid buffering, urease has non-catalytic roles: promoting angiogenesis, disrupting [[tight-junctions|tight junctions]], inducing apoptosis in gastric epithelial cells, and activating blood platelets -- all contributing to ulcer formation and persistence.\n- [[hydrogenase|NiFe hydrogenase]] provides metabolic energy by oxidizing molecular hydrogen (H2), which is chronically available in the human stomach at approximately 80 microM. This energy powers the type IV secretion system and [[caga|CagA]] translocation [[maier-2019-nickel-microbial-pathogenesis]].\n\nThe [[nickel]] dependency of *H. pylori* virulence makes this metal a selective pressure in gastric ecology: dietary and environmental nickel exposure may influence the severity of *H. pylori*-mediated disease."
+          "body": "The dominant microbial cause of gastric ulceration is *H. pylori*, whose pathogenesis depends on nickel-containing enzymes that enable survival in the acidic gastric environment:\n\n- Nickel-dependent [[urease]] constitutes up to 10% of the total *H. pylori* proteome and catalyzes urea hydrolysis to [[ammonia]] and bicarbonate, neutralizing gastric acid in the immediate periplasmic environment [[maier-2019-nickel-microbial-pathogenesis]].\n- Beyond acid buffering, urease has non-catalytic roles: promoting angiogenesis, disrupting [[tight-junctions|tight junctions]], inducing apoptosis in gastric epithelial cells, and activating blood platelets -- all contributing to ulcer formation and persistence.\n- [[hydrogenase|NiFe hydrogenase]] provides metabolic energy by oxidizing molecular hydrogen (H2), which is chronically available in the human stomach at approximately 80 microM. This energy powers the type IV secretion system and [[caga|CagA]] translocation [[maier-2019-nickel-microbial-pathogenesis]].\n\nThe [[nickel]] dependency of *H. pylori* virulence makes this metal a selective pressure in gastric ecology: dietary and environmental nickel exposure may influence the severity of *H. pylori*-mediated disease."
         },
         {
           "heading": "Nickel Transport as an Achilles' Heel",
@@ -30175,6 +30182,7 @@
         "gerd",
         "gastric-adenocarcinoma",
         "urease",
+        "ammonia",
         "maier-2019-nickel-microbial-pathogenesis",
         "tight-junctions",
         "hydrogenase",
@@ -43899,7 +43907,7 @@
         {
           "heading": "Metal Dependencies",
           "level": 2,
-          "body": "M. morganii produces a potent nickel-dependent [[urease]] that hydrolyzes urea to ammonia, raising local pH. This pH shift increases the bioavailability of iron and zinc, creating a self-reinforcing niche. The organism also deploys siderophore systems for iron acquisition in competition with the host's [[nutritional-immunity]] defenses."
+          "body": "M. morganii produces a potent nickel-dependent [[urease]] that hydrolyzes urea to [[ammonia]], raising local pH. This pH shift increases the bioavailability of iron and zinc, creating a self-reinforcing niche. The organism also deploys siderophore systems for iron acquisition in competition with the host's [[nutritional-immunity]] defenses."
         },
         {
           "heading": "Ecological Role",
@@ -43919,6 +43927,7 @@
       ],
       "wikilinks": [
         "urease",
+        "ammonia",
         "nutritional-immunity",
         "dysbiosis",
         "inflammatory-bowel-disease",
@@ -44545,7 +44554,7 @@
         {
           "heading": "Ni-Urease",
           "level": 3,
-          "body": "- Urease supports survival under nitrogen-limited conditions encountered during chronic infection and latency [[maier-2019-nickel-microbial-pathogenesis]].\n- Ammonia from urease provides a nitrogen source when amino acid availability is restricted within the granuloma.\n- Urease may also modulate phagosomal pH, though this is less well characterized than in [[helicobacter-pylori]] or [[cryptococcus-neoformans]]."
+          "body": "- Urease supports survival under nitrogen-limited conditions encountered during chronic infection and latency [[maier-2019-nickel-microbial-pathogenesis]].\n- [[ammonia|Ammonia]] from urease provides a nitrogen source when amino acid availability is restricted within the granuloma.\n- Urease may also modulate phagosomal pH, though this is less well characterized than in [[helicobacter-pylori]] or [[cryptococcus-neoformans]]."
         },
         {
           "heading": "Iron Acquisition -- The Mycobactin System",
@@ -44598,6 +44607,7 @@
         "maier-2019-nickel-microbial-pathogenesis",
         "salmonella-typhimurium",
         "shigella-flexneri",
+        "ammonia",
         "helicobacter-pylori",
         "cryptococcus-neoformans",
         "patil-2021-infection-metallomics-critical-care",
@@ -46055,7 +46065,7 @@
         {
           "heading": "Parkinson's Disease",
           "level": 3,
-          "body": "- Nickel exposure is associated with increased risk of [[parkinsons-disease]], with the gut microbiome mediating part of the association [[ji-2025-nickel-exposure-parkinsons-microbiome]]. Nickel alters the abundance of specific bacterial taxa implicated in PD: pro-inflammatory Enterobacteriaceae are enriched while SCFA-producing commensals are depleted [[ji-2025-nickel-exposure-parkinsons-microbiome]].\n- Nickel-dependent bacterial enzymes (urease, hydrogenase) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage, compounding iron-driven [[ferroptosis]] in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. The nickel-microbiome-neurodegeneration axis represents a specific instance of the broader metal dyshomeostasis framework for PD, where metal exposure reshapes gut ecology which in turn drives neuroinflammation through the [[gut-brain-axis]] [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].\n- See [[nickel-neurotoxicity]] for details.\n\n---"
+          "body": "- Nickel exposure is associated with increased risk of [[parkinsons-disease]], with the gut microbiome mediating part of the association [[ji-2025-nickel-exposure-parkinsons-microbiome]]. Nickel alters the abundance of specific bacterial taxa implicated in PD: pro-inflammatory Enterobacteriaceae are enriched while SCFA-producing commensals are depleted [[ji-2025-nickel-exposure-parkinsons-microbiome]].\n- Nickel-dependent bacterial enzymes (urease, hydrogenase) in gut pathogens contribute to dysbiosis and [[ammonia]]-mediated epithelial damage, compounding iron-driven [[ferroptosis]] in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]. The nickel-microbiome-neurodegeneration axis represents a specific instance of the broader metal dyshomeostasis framework for PD, where metal exposure reshapes gut ecology which in turn drives neuroinflammation through the [[gut-brain-axis]] [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].\n- See [[nickel-neurotoxicity]] for details.\n\n---"
         },
         {
           "heading": "Reproductive and Developmental Toxicity",
@@ -46272,6 +46282,7 @@
         "ahmed-2025-metals-alzheimers-mechanistic-review",
         "parkinsons-disease",
         "ji-2025-nickel-exposure-parkinsons-microbiome",
+        "ammonia",
         "ferroptosis",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "gut-brain-axis",
@@ -49795,7 +49806,7 @@
         {
           "heading": "Nickel-Dependent Virulence in the PD Gut",
           "level": 3,
-          "body": "- [[nickel]]-dependent bacterial enzymes ([[urease]], [NiFe] [[hydrogenase]]) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- This compounds iron-driven ferroptosis by worsening gut barrier breakdown."
+          "body": "- [[nickel]]-dependent bacterial enzymes ([[urease]], [NiFe] [[hydrogenase]]) in gut pathogens contribute to dysbiosis and [[ammonia]]-mediated epithelial damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n- This compounds iron-driven ferroptosis by worsening gut barrier breakdown."
         },
         {
           "heading": "PD-Specific Dysbiosis Pattern",
@@ -49859,6 +49870,7 @@
         "nickel",
         "urease",
         "hydrogenase",
+        "ammonia",
         "khatoon-2023-gut-microbiota-neurodegenerative",
         "romano-2021-meta-analysis-gut-microbiome-parkinsons",
         "tan-2022-gut-microbiome-scfas-parkinsons-review",
@@ -59144,12 +59156,12 @@
           "score": 14
         },
         {
-          "id": "candida-albicans",
-          "score": 13
+          "id": "ammonia",
+          "score": 14
         },
         {
-          "id": "parkinsons-disease",
-          "score": 12
+          "id": "candida-albicans",
+          "score": 13
         }
       ]
     },
@@ -62359,7 +62371,7 @@
         {
           "heading": "Ni-Dependent Urease",
           "level": 3,
-          "body": "- [[urease|Urease]] is critical for skin survival: human sweat contains ~22 mM urea, and urease-mediated hydrolysis provides ammonia for acid neutralization and nitrogen acquisition on the skin surface [[maier-2019-nickel-microbial-pathogenesis]].\n- Required for kidney colonization in systemic infection models.\n- Urease genes are upregulated in biofilm-embedded cells, linking nickel metabolism directly to chronic/device-associated infections.\n- Biofilm formation on implanted medical devices depends partly on urease activity."
+          "body": "- [[urease|Urease]] is critical for skin survival: human sweat contains ~22 mM urea, and urease-mediated hydrolysis provides [[ammonia]] for acid neutralization and nitrogen acquisition on the skin surface [[maier-2019-nickel-microbial-pathogenesis]].\n- Required for kidney colonization in systemic infection models.\n- Urease genes are upregulated in biofilm-embedded cells, linking nickel metabolism directly to chronic/device-associated infections.\n- Biofilm formation on implanted medical devices depends partly on urease activity."
         },
         {
           "heading": "Fe-Dependent Virulence",
@@ -62433,6 +62445,7 @@
         "zinc",
         "manganese",
         "urease",
+        "ammonia",
         "maier-2019-nickel-microbial-pathogenesis",
         "pandey-2021-galbofloxacin-gallium-siderophore-staph",
         "enterococcus",
@@ -63863,7 +63876,7 @@
         {
           "heading": "Key Enzymes and Functional Features",
           "level": 2,
-          "body": "- Salivaricin A and B — Lanthibiotic bacteriocins (BLIS: bacteriocin-like inhibitory substances) that inhibit *Streptococcus pyogenes*, *Streptococcus pneumoniae*, and *Streptococcus mutans*. The K12 strain produces salivaricin A2 and B; the M18 strain targets cariogenic bacteria.\n- [[urease|Urease]] — Some strains express urease that hydrolyzes urea to ammonia, raising local pH. In the oral cavity this may protect against acid-mediated caries; in the gut this activity can contribute to ammonia production relevant to hepatic encephalopathy.\n- EPS production — Produces fructans (levan, inulin-type fructooligosaccharides) that serve as prebiotics for other commensals."
+          "body": "- Salivaricin A and B — Lanthibiotic bacteriocins (BLIS: bacteriocin-like inhibitory substances) that inhibit *Streptococcus pyogenes*, *Streptococcus pneumoniae*, and *Streptococcus mutans*. The K12 strain produces salivaricin A2 and B; the M18 strain targets cariogenic bacteria.\n- [[urease|Urease]] — Some strains express urease that hydrolyzes urea to [[ammonia]], raising local pH. In the oral cavity this may protect against acid-mediated caries; in the gut this activity can contribute to ammonia production relevant to hepatic encephalopathy.\n- EPS production — Produces fructans (levan, inulin-type fructooligosaccharides) that serve as prebiotics for other commensals."
         },
         {
           "heading": "Ecological Role",
@@ -63884,6 +63897,7 @@
       "wikilinks": [
         "chronic-kidney-disease",
         "urease",
+        "ammonia",
         "necrotizing-enterocolitis",
         "liu-2022-nec-scfa-gut-microbiota-biomarkers-pilot",
         "fibromyalgia",
@@ -67559,7 +67573,7 @@
         {
           "heading": "Key Associations",
           "level": 2,
-          "body": "- Chronic prostatitis: Detected in prostatic secretions of men with chronic prostatitis [[magri-2018-multidisciplinary-prostatitis]].\n- Male infertility: Associated with impaired sperm quality through ammonia-mediated toxicity [[magill-2023-male-infertility-human-microbiome]]."
+          "body": "- Chronic prostatitis: Detected in prostatic secretions of men with chronic prostatitis [[magri-2018-multidisciplinary-prostatitis]].\n- Male infertility: Associated with impaired sperm quality through [[ammonia]]-mediated toxicity [[magill-2023-male-infertility-human-microbiome]]."
         },
         {
           "heading": "Cross-References",
@@ -67571,6 +67585,7 @@
         "ureaplasma",
         "urease",
         "magri-2018-multidisciplinary-prostatitis",
+        "ammonia",
         "magill-2023-male-infertility-human-microbiome"
       ],
       "sourceDir": "entities",
@@ -70709,44 +70724,76 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "actinomyces",
+        "candida-albicans",
+        "cirrhosis",
+        "cryptococcus-neoformans",
+        "enterobacteriaceae",
+        "escherichia-coli",
+        "gastric-cancer",
+        "gastric-ulcer",
         "helicobacter-pylori",
+        "morganella-morganii",
+        "mycobacterium-tuberculosis",
+        "nickel",
+        "parkinsons-disease",
         "proteus-mirabilis",
+        "staphylococcus-aureus",
+        "streptococcus-salivarius",
+        "ureaplasma-urealyticum",
         "ureaplasma",
+        "amyloid-beta",
+        "biofilm",
+        "dysbiosis",
+        "fermentative-metabolism",
+        "gut-kidney-axis",
+        "gut-metal-microbiome",
+        "hypoxia",
+        "inter-kingdom-metal-shielding",
+        "metal-dependent-virulence",
+        "microbial-metallomics",
+        "mis-metallation",
+        "nickel-glyoxalase",
+        "nickel-urease",
+        "saccharolytic-fermentation",
+        "siderophores-metallophores",
         "urea",
-        "urease"
+        "urease",
+        "uremic-toxins",
+        "virulence-factors"
       ],
       "related": [
         {
-          "id": "nickel",
-          "score": 13
-        },
-        {
-          "id": "metal-dependent-virulence",
-          "score": 13
-        },
-        {
           "id": "nutritional-immunity",
-          "score": 11
+          "score": 53
         },
         {
-          "id": "candida-albicans",
-          "score": 9
+          "id": "nickel",
+          "score": 51
         },
         {
           "id": "hydrogenase",
-          "score": 8
+          "score": 40
+        },
+        {
+          "id": "metal-dependent-virulence",
+          "score": 35
+        },
+        {
+          "id": "iron",
+          "score": 34
+        },
+        {
+          "id": "tight-junctions",
+          "score": 27
         },
         {
           "id": "escherichia-coli",
-          "score": 6
-        },
-        {
-          "id": "gastric-ulcer",
-          "score": 6
+          "score": 24
         },
         {
           "id": "staphylococcus-aureus",
-          "score": 6
+          "score": 22
         }
       ]
     },
@@ -71035,7 +71082,7 @@
         {
           "heading": "Gut Microbiome Modulation of Aβ Biology",
           "level": 2,
-          "body": "Curli-mediated cross-seeding: *E. coli* strains expressing curli fibers (functional bacterial amyloids structurally analogous to mammalian amyloids) can cross-seed mammalian amyloid aggregation. In mouse models, oral gavage with curli-expressing *E. coli* accelerates brain Aβ and alpha-synuclein pathology compared to curli-negative strains [[romano-2021-microbiome-host-interactions-alzheimers]]. This is the most direct mechanism linking gut bacterial products to brain amyloid accumulation.\n\nLPS-driven neuroinflammation: Gram-negative gut pathobionts (*E. coli*, *Klebsiella*, *H. pylori*) release LPS. Systemic LPS activates TLR4 receptors on brain microglia, inducing pro-inflammatory cytokine release (TNF-α, IL-1β, IL-6). This neuroinflammatory state:\n1. Upregulates BACE1 expression (increasing Aβ production)\n2. Impairs microglial phagocytosis of Aβ plaques (reducing clearance)\n3. Activates NLRP3 inflammasome in microglia, amplifying IL-1β production\n\nLPS has been detected in amyloid plaques at concentrations 3× higher than in age-matched controls without AD [[romano-2021-microbiome-host-interactions-alzheimers]].\n\nH. pylori and Aβ: *Helicobacter pylori* infection is associated with elevated serum amyloid and increased AD risk in epidemiological studies. *H. pylori* produces ammonia (via nickel-dependent [[urease]]), vacuolating toxin VacA, and CagA protein — all of which trigger mucosal and systemic inflammatory responses that chronically stimulate Aβ production.\n\nFMT reduces brain amyloid: Fecal microbiota transplant from healthy donors into AD mouse models reduced tau phosphorylation and brain Aβ levels, and improved synaptic plasticity [[alonso-garcia-2021-gut-microbiota-proteinopathies]]. This causal experiment establishes the gut microbiome as a functional upstream modulator of brain amyloid pathology — not merely a correlate.\n\nSCFA depletion increases amyloid burden: SCFA-producing bacteria (*Faecalibacterium prausnitzii*, *Roseburia*, *Bifidobacterium*) are depleted in AD microbiomes. Butyrate inhibits HDAC activity in brain tissue, maintains blood-brain barrier [[tight-junctions|tight junctions]], and suppresses neuroinflammatory gene expression. Loss of these bacteria removes multiple layers of protection against Aβ accumulation and aggregation."
+          "body": "Curli-mediated cross-seeding: *E. coli* strains expressing curli fibers (functional bacterial amyloids structurally analogous to mammalian amyloids) can cross-seed mammalian amyloid aggregation. In mouse models, oral gavage with curli-expressing *E. coli* accelerates brain Aβ and alpha-synuclein pathology compared to curli-negative strains [[romano-2021-microbiome-host-interactions-alzheimers]]. This is the most direct mechanism linking gut bacterial products to brain amyloid accumulation.\n\nLPS-driven neuroinflammation: Gram-negative gut pathobionts (*E. coli*, *Klebsiella*, *H. pylori*) release LPS. Systemic LPS activates TLR4 receptors on brain microglia, inducing pro-inflammatory cytokine release (TNF-α, IL-1β, IL-6). This neuroinflammatory state:\n1. Upregulates BACE1 expression (increasing Aβ production)\n2. Impairs microglial phagocytosis of Aβ plaques (reducing clearance)\n3. Activates NLRP3 inflammasome in microglia, amplifying IL-1β production\n\nLPS has been detected in amyloid plaques at concentrations 3× higher than in age-matched controls without AD [[romano-2021-microbiome-host-interactions-alzheimers]].\n\nH. pylori and Aβ: *Helicobacter pylori* infection is associated with elevated serum amyloid and increased AD risk in epidemiological studies. *H. pylori* produces [[ammonia]] (via nickel-dependent [[urease]]), vacuolating toxin VacA, and CagA protein — all of which trigger mucosal and systemic inflammatory responses that chronically stimulate Aβ production.\n\nFMT reduces brain amyloid: Fecal microbiota transplant from healthy donors into AD mouse models reduced tau phosphorylation and brain Aβ levels, and improved synaptic plasticity [[alonso-garcia-2021-gut-microbiota-proteinopathies]]. This causal experiment establishes the gut microbiome as a functional upstream modulator of brain amyloid pathology — not merely a correlate.\n\nSCFA depletion increases amyloid burden: SCFA-producing bacteria (*Faecalibacterium prausnitzii*, *Roseburia*, *Bifidobacterium*) are depleted in AD microbiomes. Butyrate inhibits HDAC activity in brain tissue, maintains blood-brain barrier [[tight-junctions|tight junctions]], and suppresses neuroinflammatory gene expression. Loss of these bacteria removes multiple layers of protection against Aβ accumulation and aggregation."
         },
         {
           "heading": "Blood-Brain Barrier Failure as the Gateway",
@@ -71065,6 +71112,7 @@
         "doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons",
         "ahmed-2025-metals-alzheimers-mechanistic-review",
         "mis-metallation",
+        "ammonia",
         "urease",
         "alonso-garcia-2021-gut-microbiota-proteinopathies",
         "tight-junctions",
@@ -74343,7 +74391,7 @@
         {
           "heading": "Staphylococcus aureus",
           "level": 3,
-          "body": "- [[urease|Urease]] genes are significantly upregulated in biofilm-embedded cells compared to planktonic cells [[maier-2019-nickel-microbial-pathogenesis]].\n- Ammonia and bicarbonate generated by nickel-dependent urease buffer the local biofilm pH, creating a favorable microenvironment for bacterial survival.\n- Biofilm formation on implanted medical devices depends partly on urease activity, linking [[nickel]] metabolism to device-associated chronic infections."
+          "body": "- [[urease|Urease]] genes are significantly upregulated in biofilm-embedded cells compared to planktonic cells [[maier-2019-nickel-microbial-pathogenesis]].\n- [[ammonia|Ammonia]] and bicarbonate generated by nickel-dependent urease buffer the local biofilm pH, creating a favorable microenvironment for bacterial survival.\n- Biofilm formation on implanted medical devices depends partly on urease activity, linking [[nickel]] metabolism to device-associated chronic infections."
         },
         {
           "heading": "Proteus mirabilis",
@@ -74393,6 +74441,7 @@
         "lactoferrin",
         "urease",
         "maier-2019-nickel-microbial-pathogenesis",
+        "ammonia",
         "nickel",
         "candida-albicans",
         "do-carmo-2023-metal-nanoparticles-candida-review",
@@ -75388,6 +75437,10 @@
           "score": 19
         },
         {
+          "id": "ammonia",
+          "score": 16
+        },
+        {
           "id": "escherichia-coli",
           "score": 12
         },
@@ -75406,10 +75459,6 @@
         {
           "id": "metal-carcinogenesis",
           "score": 11
-        },
-        {
-          "id": "salmonella-typhimurium",
-          "score": 10
         }
       ]
     },
@@ -80375,7 +80424,7 @@
         {
           "heading": "Definition and Scope",
           "level": 2,
-          "body": "Dysbiosis encompasses three overlapping disturbances:\n\n1. Loss of beneficial organisms -- reduced abundance and diversity of commensals, particularly SCFA-producing Firmicutes (Faecalibacterium, Roseburia, Lachnospiraceae, Ruminococcus).\n2. Expansion of pathobionts -- overgrowth of potentially harmful organisms that are normally kept in check by commensal competition and host immunity (Enterobacteriaceae, Escherichia-Shigella, Fusobacterium, Candida).\n3. Loss of microbial metabolic function -- reduced production of beneficial metabolites ([[short-chain-fatty-acids]], indoles, secondary bile acids) and increased production of harmful metabolites (LPS, TMAO, ammonia, hydrogen sulfide).\n\nThese three dimensions do not always co-occur. A community can lose diversity without gaining specific pathobionts, or harbor pathobionts without a dramatic drop in alpha diversity. The most severe clinical dysbiosis involves all three."
+          "body": "Dysbiosis encompasses three overlapping disturbances:\n\n1. Loss of beneficial organisms -- reduced abundance and diversity of commensals, particularly SCFA-producing Firmicutes (Faecalibacterium, Roseburia, Lachnospiraceae, Ruminococcus).\n2. Expansion of pathobionts -- overgrowth of potentially harmful organisms that are normally kept in check by commensal competition and host immunity (Enterobacteriaceae, Escherichia-Shigella, Fusobacterium, Candida).\n3. Loss of microbial metabolic function -- reduced production of beneficial metabolites ([[short-chain-fatty-acids]], indoles, secondary bile acids) and increased production of harmful metabolites (LPS, TMAO, [[ammonia]], hydrogen sulfide).\n\nThese three dimensions do not always co-occur. A community can lose diversity without gaining specific pathobionts, or harbor pathobionts without a dramatic drop in alpha diversity. The most severe clinical dysbiosis involves all three."
         },
         {
           "heading": "Causes of Dysbiosis",
@@ -80530,6 +80579,7 @@
       ],
       "wikilinks": [
         "short-chain-fatty-acids",
+        "ammonia",
         "zhu-2024-toxic-essential-metals-gut-microbiota",
         "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
         "vangoitsenhoven-2020-microbiome-antibiotics-autoimmune",
@@ -84402,7 +84452,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Fermentative metabolism is the set of anaerobic metabolic pathways by which bacteria break down carbohydrates and amino acids in the absence of oxygen, producing short-chain fatty acids (SCFAs) (primarily butyrate, propionate, acetate), gases (H₂, CO₂, CH₄), and organic acids (lactate, formate). In a healthy colon, fermentation is the dominant metabolic mode for the majority of the microbiota, and SCFA production is protective: butyrate feeds colonocytes, propionate regulates immunity, and acetate is a substrate for systemic metabolism. In dysbiosis, fermentation shifts toward proteolytic fermentation—breakdown of amino acids rather than carbohydrates—producing toxic byproducts (ammonia, phenols, indoles, hydrogen sulfide) that damage the epithelium and drive inflammation.\n\nThis exemplifies [[hypoxia|primitive-9-oxygen-state]]: the oxygenation state of an ecological niche determines which metabolic pathways dominate and which taxa thrive."
+          "body": "Fermentative metabolism is the set of anaerobic metabolic pathways by which bacteria break down carbohydrates and amino acids in the absence of oxygen, producing short-chain fatty acids (SCFAs) (primarily butyrate, propionate, acetate), gases (H₂, CO₂, CH₄), and organic acids (lactate, formate). In a healthy colon, fermentation is the dominant metabolic mode for the majority of the microbiota, and SCFA production is protective: butyrate feeds colonocytes, propionate regulates immunity, and acetate is a substrate for systemic metabolism. In dysbiosis, fermentation shifts toward proteolytic fermentation—breakdown of amino acids rather than carbohydrates—producing toxic byproducts ([[ammonia]], phenols, indoles, hydrogen sulfide) that damage the epithelium and drive inflammation.\n\nThis exemplifies [[hypoxia|primitive-9-oxygen-state]]: the oxygenation state of an ecological niche determines which metabolic pathways dominate and which taxa thrive."
         },
         {
           "heading": "Mechanism",
@@ -84426,6 +84476,7 @@
         }
       ],
       "wikilinks": [
+        "ammonia",
         "hypoxia",
         "bacteroides-fragilis",
         "prevotella",
@@ -87185,7 +87236,7 @@
         {
           "heading": "CKD Changes the Gut",
           "level": 3,
-          "body": "As kidney function declines [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics]]:\n\n1. Urea influx: Elevated blood urea diffuses into the intestinal lumen, where bacterial [[urease]] hydrolyzes it to ammonia. Ammonia raises luminal pH, favoring Proteobacteria over acid-producing commensals.\n2. Fluid and electrolyte shifts: Altered colonic transit and fluid handling change the gut microenvironment\n3. Dietary restrictions: CKD dietary protocols (low potassium, low phosphorus) inadvertently reduce fiber intake, starving butyrate-producing bacteria\n4. Medications: Phosphate binders, antibiotics, and iron supplements reshape the microbiome\n5. Impaired metal excretion: Cadmium, lead, and other nephrotoxic metals accumulate, exerting selective pressure on gut bacteria (see [[chronic-kidney-disease]])"
+          "body": "As kidney function declines [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics]]:\n\n1. Urea influx: Elevated blood urea diffuses into the intestinal lumen, where bacterial [[urease]] hydrolyzes it to [[ammonia]]. Ammonia raises luminal pH, favoring Proteobacteria over acid-producing commensals.\n2. Fluid and electrolyte shifts: Altered colonic transit and fluid handling change the gut microenvironment\n3. Dietary restrictions: CKD dietary protocols (low potassium, low phosphorus) inadvertently reduce fiber intake, starving butyrate-producing bacteria\n4. Medications: Phosphate binders, antibiotics, and iron supplements reshape the microbiome\n5. Impaired metal excretion: Cadmium, lead, and other nephrotoxic metals accumulate, exerting selective pressure on gut bacteria (see [[chronic-kidney-disease]])"
         },
         {
           "heading": "The Dysbiotic Microbiome Damages Kidneys",
@@ -87232,6 +87283,7 @@
         "chronic-kidney-disease",
         "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
         "urease",
+        "ammonia",
         "enterobacteriaceae",
         "escherichia-coli",
         "desulfovibrio",
@@ -87413,7 +87465,7 @@
         {
           "heading": "Metal-Specific Effects",
           "level": 3,
-          "body": "Arsenic: Increases Bacteroidetes and Bilophila; perturbs bile acid homeostasis and amino acid metabolism. Faecalibacterium is essential for arsenic biotransformation. The gut microbiota can methylate arsenic into less toxic forms via arsM methyltransferase, and transport it via arsB, arsP, and acr3 transporters.\n\nCadmium: Multiple mouse studies show decreased SCFAs, increased LPS, disrupted gut barrier. Cd exposure causes dose-dependent and sex-dependent effects. Akkermansia muciniphila is particularly sensitive to low-dose Cd. Cd enhances mammary tumorigenesis through microbiome-mediated pathways, disrupting the gut-liver axis. Exposure alters 42 genera at the genus level, with Bacteroidetes significantly decreased and Proteobacteria increased.\n\nLead: Time-dependent changes in community structure. Reduces Ruminococcus, Coprococcus, Oscillospira, and Blautia. Decreases vitamin E, bile acids, and nitrogen/energy metabolism pathways. Pb-intolerant gut microbes (A. muciniphila, F. prausnitzii, O. ruminantium) can reduce Pb burden when supplemented. Prenatal lead exposure alters childhood gut microbiome composition.\n\nMercury/Methylmercury: Increases Bacteroidetes at phylum level. Alters gut-brain metabolites including neurotransmitter precursors. Pathogenic bacteria are enriched. MeHg metabolism involves methylation/demethylation cycles mediated by gut microbiota. Dental fillings increase Hg-resistant and antibiotic-resistant bacteria in the oral-gut continuum.\n\nNickel: Occupational Ni exposure increased Parabacteroides, Escherichia-Shigella and decreased Lactobacillus, Lachnospiraceae, and Blautia. Impaired purine degradation and upregulated primary bile acid biosynthesis. Combined Cr-Ni exposure showed antagonistic effects between the two metals. Nickel-dependent bacterial virulence enzymes ([[urease]], [NiFe] [[hydrogenase]]) in gut pathogens contribute to dysbiosis and ammonia-mediated epithelial damage.\n\nIron: Both deficiency and excess disrupt the microbiome. Iron deficiency reduces Lactobacillus and Bacillota; iron supplementation increases Enterobacteriaceae and decreases Lactobacillus in infants. Siderophore-producing Enterobacteriaceae outcompete commensals under high-iron conditions."
+          "body": "Arsenic: Increases Bacteroidetes and Bilophila; perturbs bile acid homeostasis and amino acid metabolism. Faecalibacterium is essential for arsenic biotransformation. The gut microbiota can methylate arsenic into less toxic forms via arsM methyltransferase, and transport it via arsB, arsP, and acr3 transporters.\n\nCadmium: Multiple mouse studies show decreased SCFAs, increased LPS, disrupted gut barrier. Cd exposure causes dose-dependent and sex-dependent effects. Akkermansia muciniphila is particularly sensitive to low-dose Cd. Cd enhances mammary tumorigenesis through microbiome-mediated pathways, disrupting the gut-liver axis. Exposure alters 42 genera at the genus level, with Bacteroidetes significantly decreased and Proteobacteria increased.\n\nLead: Time-dependent changes in community structure. Reduces Ruminococcus, Coprococcus, Oscillospira, and Blautia. Decreases vitamin E, bile acids, and nitrogen/energy metabolism pathways. Pb-intolerant gut microbes (A. muciniphila, F. prausnitzii, O. ruminantium) can reduce Pb burden when supplemented. Prenatal lead exposure alters childhood gut microbiome composition.\n\nMercury/Methylmercury: Increases Bacteroidetes at phylum level. Alters gut-brain metabolites including neurotransmitter precursors. Pathogenic bacteria are enriched. MeHg metabolism involves methylation/demethylation cycles mediated by gut microbiota. Dental fillings increase Hg-resistant and antibiotic-resistant bacteria in the oral-gut continuum.\n\nNickel: Occupational Ni exposure increased Parabacteroides, Escherichia-Shigella and decreased Lactobacillus, Lachnospiraceae, and Blautia. Impaired purine degradation and upregulated primary bile acid biosynthesis. Combined Cr-Ni exposure showed antagonistic effects between the two metals. Nickel-dependent bacterial virulence enzymes ([[urease]], [NiFe] [[hydrogenase]]) in gut pathogens contribute to dysbiosis and [[ammonia]]-mediated epithelial damage.\n\nIron: Both deficiency and excess disrupt the microbiome. Iron deficiency reduces Lactobacillus and Bacillota; iron supplementation increases Enterobacteriaceae and decreases Lactobacillus in infants. Siderophore-producing Enterobacteriaceae outcompete commensals under high-iron conditions."
         },
         {
           "heading": "Gender as a Modifying Factor",
@@ -87494,6 +87546,7 @@
       "wikilinks": [
         "urease",
         "hydrogenase",
+        "ammonia",
         "tight-junctions",
         "nlrp3-inflammasome",
         "ghosh-2023-heavy-metals-gut-barrier-integrity",
@@ -90490,6 +90543,10 @@
           "score": 47
         },
         {
+          "id": "ammonia",
+          "score": 40
+        },
+        {
           "id": "oxidative-stress",
           "score": 33
         },
@@ -90508,10 +90565,6 @@
         {
           "id": "ferroptosis",
           "score": 30
-        },
-        {
-          "id": "staphylococcus-aureus",
-          "score": 28
         }
       ]
     },
@@ -91063,7 +91116,7 @@
         {
           "heading": "Metal Connections",
           "level": 2,
-          "body": "Hypoxia reshapes metal utilization hierarchies:\n\n- Iron ecology: Anaerobic bacteria rely more heavily on [[siderophores|siderophore]]-mediated iron acquisition because oxygen-dependent iron uptake (ferroxidase activity) is impaired. [[lipocalin-2]] sequestration becomes more potent as a selective pressure.\n- Nickel dependence: Anaerobic pathogens like [[helicobacter-pylori|H. pylori]] and oral [[porphyromonas-gingivalis|Porphyromonas gingivalis]] activate nickel-urease as an energy source; urease-driven ammonia production raises local pH and protects against acids in hypoxic, low-pH niches.\n- Zinc and sulfide: Sulfate-reducing bacteria produce H₂S; excess H₂S precipitates bioavailable [[zinc]], shifting zinc speciation and potentially reducing [[zinc]]-dependent immune functions ([[metallothionein]], [[metal-homeostasis|zinc-finger]] transcription factors)."
+          "body": "Hypoxia reshapes metal utilization hierarchies:\n\n- Iron ecology: Anaerobic bacteria rely more heavily on [[siderophores|siderophore]]-mediated iron acquisition because oxygen-dependent iron uptake (ferroxidase activity) is impaired. [[lipocalin-2]] sequestration becomes more potent as a selective pressure.\n- Nickel dependence: Anaerobic pathogens like [[helicobacter-pylori|H. pylori]] and oral [[porphyromonas-gingivalis|Porphyromonas gingivalis]] activate nickel-urease as an energy source; urease-driven [[ammonia]] production raises local pH and protects against acids in hypoxic, low-pH niches.\n- Zinc and sulfide: Sulfate-reducing bacteria produce H₂S; excess H₂S precipitates bioavailable [[zinc]], shifting zinc speciation and potentially reducing [[zinc]]-dependent immune functions ([[metallothionein]], [[metal-homeostasis|zinc-finger]] transcription factors)."
         },
         {
           "heading": "Connections",
@@ -91095,6 +91148,7 @@
         "siderophores",
         "lipocalin-2",
         "porphyromonas-gingivalis",
+        "ammonia",
         "metallothionein",
         "metal-homeostasis",
         "nutritional-immunity",
@@ -93903,7 +93957,7 @@
         {
           "heading": "Urease and Biofilm Formation",
           "level": 3,
-          "body": "- [[staphylococcus-aureus]]: [[urease|Urease]] genes are significantly upregulated in biofilm-embedded cells compared to planktonic cells. The ammonia/bicarbonate generated by urease may buffer the local biofilm pH, creating a favorable microenvironment [[maier-2019-nickel-microbial-pathogenesis]].\n- [[proteus-mirabilis]]: Urease-driven alkalinization causes struvite (MgNH4PO4) and apatite (Ca10(PO4)6CO3) crystal formation within biofilms on urinary catheters. These crystalline biofilms physically obstruct catheter lumens and provide a mineralized scaffold that is extremely resistant to antibiotic penetration and host immune clearance [[maier-2019-nickel-microbial-pathogenesis]]."
+          "body": "- [[staphylococcus-aureus]]: [[urease|Urease]] genes are significantly upregulated in biofilm-embedded cells compared to planktonic cells. The [[ammonia]]/bicarbonate generated by urease may buffer the local biofilm pH, creating a favorable microenvironment [[maier-2019-nickel-microbial-pathogenesis]].\n- [[proteus-mirabilis]]: Urease-driven alkalinization causes struvite (MgNH4PO4) and apatite (Ca10(PO4)6CO3) crystal formation within biofilms on urinary catheters. These crystalline biofilms physically obstruct catheter lumens and provide a mineralized scaffold that is extremely resistant to antibiotic penetration and host immune clearance [[maier-2019-nickel-microbial-pathogenesis]]."
         },
         {
           "heading": "Biofilms as Barriers to Host Metal Restriction",
@@ -94002,6 +94056,7 @@
         "cheng-2021-cadmium-enterococcus-metabolic",
         "staphylococcus-aureus",
         "urease",
+        "ammonia",
         "maier-2019-nickel-microbial-pathogenesis",
         "proteus-mirabilis",
         "braud-2010-siderophores-pseudomonas-metal-tolerance",
@@ -98537,7 +98592,7 @@
         {
           "heading": "Urease",
           "level": 3,
-          "body": "The most widespread Ni-dependent virulence factor. Catalyzes urea hydrolysis to bicarbonate and ammonia, serving dual roles in nitrogen acquisition and acid neutralization.\n\n- [[helicobacter-pylori]]: [[urease|Urease]] comprises up to 10% of the total proteome. Essential for gastric acid survival. Ammonia production causes epithelial damage, disrupts [[tight-junctions|tight junctions]], induces apoptosis via Class II MHC binding, activates blood platelets, promotes angiogenesis, and stimulates pro-inflammatory cytokines. The holo-urease (Ni-bound) also has a non-catalytic antioxidant function via a Met/Met-sulfoxide redox cycle; apo-urease retains only this antioxidant activity [[maier-2019-nickel-microbial-pathogenesis]].\n- [[staphylococcus-aureus]]: Urease enables skin survival (human sweat contains ~22 mM urea), kidney colonization, and biofilm formation. Urease genes are upregulated in biofilm-embedded cells [[maier-2019-nickel-microbial-pathogenesis]].\n- [[proteus-mirabilis]]: Urease drives crystalline biofilm formation on urinary catheters, urinary stone formation, and UTI pathogenesis.\n- Ureaplasma spp.: Urease is genus-defining; ammonia contributes to proton motive force-driven ATP synthesis and struvite stone formation.\n- Eukaryotic pathogens: *Cryptococcus neoformans* uses urease for brain invasion. *Coccidioides posadasii* requires it for pulmonary infection severity. *C. gattii* also depends on urease.\n- NEC-associated pathogens: *E. coli*, *Klebsiella*, *Enterobacter*, *Citrobacter*, and *Ureaplasma* all deploy Ni-dependent urease in the preterm gut. Urease-generated ammonia raises gut pH, favoring Proteobacteria over acid-producing commensals like *Lactobacillus*, creating a positive feedback loop of dysbiosis [[pendergrass-2026-nickel-nec-preterm-gut]]."
+          "body": "The most widespread Ni-dependent virulence factor. Catalyzes urea hydrolysis to bicarbonate and [[ammonia]], serving dual roles in nitrogen acquisition and acid neutralization.\n\n- [[helicobacter-pylori]]: [[urease|Urease]] comprises up to 10% of the total proteome. Essential for gastric acid survival. Ammonia production causes epithelial damage, disrupts [[tight-junctions|tight junctions]], induces apoptosis via Class II MHC binding, activates blood platelets, promotes angiogenesis, and stimulates pro-inflammatory cytokines. The holo-urease (Ni-bound) also has a non-catalytic antioxidant function via a Met/Met-sulfoxide redox cycle; apo-urease retains only this antioxidant activity [[maier-2019-nickel-microbial-pathogenesis]].\n- [[staphylococcus-aureus]]: Urease enables skin survival (human sweat contains ~22 mM urea), kidney colonization, and biofilm formation. Urease genes are upregulated in biofilm-embedded cells [[maier-2019-nickel-microbial-pathogenesis]].\n- [[proteus-mirabilis]]: Urease drives crystalline biofilm formation on urinary catheters, urinary stone formation, and UTI pathogenesis.\n- Ureaplasma spp.: Urease is genus-defining; ammonia contributes to proton motive force-driven ATP synthesis and struvite stone formation.\n- Eukaryotic pathogens: *Cryptococcus neoformans* uses urease for brain invasion. *Coccidioides posadasii* requires it for pulmonary infection severity. *C. gattii* also depends on urease.\n- NEC-associated pathogens: *E. coli*, *Klebsiella*, *Enterobacter*, *Citrobacter*, and *Ureaplasma* all deploy Ni-dependent urease in the preterm gut. Urease-generated ammonia raises gut pH, favoring Proteobacteria over acid-producing commensals like *Lactobacillus*, creating a positive feedback loop of dysbiosis [[pendergrass-2026-nickel-nec-preterm-gut]]."
         },
         {
           "heading": "[NiFe] Hydrogenase",
@@ -98633,6 +98688,7 @@
       "wikilinks": [
         "nutritional-immunity",
         "maier-2019-nickel-microbial-pathogenesis",
+        "ammonia",
         "helicobacter-pylori",
         "urease",
         "tight-junctions",
@@ -101096,7 +101152,7 @@
         {
           "heading": "Microbial Metal Acquisition Systems",
           "level": 2,
-          "body": "Pathogens have evolved sophisticated metal acquisition systems that define their ecological niche:\n\n| System | Metal | Organisms | Virulence role |\n|--------|-------|-----------|----------------|\n| Siderophores (enterobactin, salmochelin, pyoverdine) | Iron | Enterobacteriaceae, Pseudomonas | Iron piracy overcoming nutritional immunity |\n| Nickel-urease | Nickel | H. pylori, Proteus, Ureaplasma, Klebsiella | Acid resistance, struvite stones, ammonia toxicity |\n| NiFe-hydrogenase | Nickel | Salmonella, E. coli, Citrobacter | Anaerobic hydrogen oxidation for competitive advantage |\n| Gingipains (RgpA, RgpB, Kgp) | Zinc | P. gingivalis | Tissue destruction, immune evasion, amyloid generation |\n| Calprotectin evasion (ZntA, MntH) | Zinc, Manganese | Salmonella, S. aureus | Survival under host metal sequestration |\n| Heme uptake (Has, Hmu systems) | Iron (as heme) | P. gingivalis, S. aureus, Streptococcus | Direct heme iron piracy from hemoglobin |\n| Metallophores (staphylopine, pseudopaline) | Zn, Ni, Co, Fe | S. aureus, P. aeruginosa | Broad-spectrum metal acquisition |\n\nEach system represents an Achilles' heel (Karen's Brain Primitive 4): restrict the metal, disable the virulence."
+          "body": "Pathogens have evolved sophisticated metal acquisition systems that define their ecological niche:\n\n| System | Metal | Organisms | Virulence role |\n|--------|-------|-----------|----------------|\n| Siderophores (enterobactin, salmochelin, pyoverdine) | Iron | Enterobacteriaceae, Pseudomonas | Iron piracy overcoming nutritional immunity |\n| Nickel-urease | Nickel | H. pylori, Proteus, Ureaplasma, Klebsiella | Acid resistance, struvite stones, [[ammonia]] toxicity |\n| NiFe-hydrogenase | Nickel | Salmonella, E. coli, Citrobacter | Anaerobic hydrogen oxidation for competitive advantage |\n| Gingipains (RgpA, RgpB, Kgp) | Zinc | P. gingivalis | Tissue destruction, immune evasion, amyloid generation |\n| Calprotectin evasion (ZntA, MntH) | Zinc, Manganese | Salmonella, S. aureus | Survival under host metal sequestration |\n| Heme uptake (Has, Hmu systems) | Iron (as heme) | P. gingivalis, S. aureus, Streptococcus | Direct heme iron piracy from hemoglobin |\n| Metallophores (staphylopine, pseudopaline) | Zn, Ni, Co, Fe | S. aureus, P. aeruginosa | Broad-spectrum metal acquisition |\n\nEach system represents an Achilles' heel (Karen's Brain Primitive 4): restrict the metal, disable the virulence."
         },
         {
           "heading": "Mis-Metallation in the Microbial Context",
@@ -101130,6 +101186,7 @@
         "faecalibacterium-prausnitzii",
         "roseburia",
         "pendergrass-2026-heavy-metals-obesity-epidemic",
+        "ammonia",
         "mis-metallation",
         "goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros",
         "darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli",
@@ -101864,7 +101921,7 @@
         {
           "heading": "Mis-Metallation in Host-Pathogen Interactions",
           "level": 2,
-          "body": "Bacterial pathogens exploit metal competition as a virulence strategy:\n\n- Siderophore production: Enterobacteriaceae produce siderophores that outcompete host iron-binding proteins (transferrin, lactoferrin), enabling iron acquisition in the nutrient-limited host environment. Salmonella evolved salmochelin (glycosylated enterobactin) to evade lipocalin-2, while gut commensals like B. thetaiotaomicron use xenosiderophore piracy via XusB to intercept pathogen-produced siderophores [[bushman-2025-nutrient-metals-bacteria-gut-infection]]\n- Nickel-dependent virulence enzymes: [[urease|Urease]] (Ni-dependent) in H. pylori and other gut pathogens generates ammonia that damages epithelium. [NiFe] [[hydrogenase]] enables energy acquisition in the gut\n- Metal mimicry by chromium: Cr(VI) enters cells via sulfate channels because CrO4 2- structurally mimics SO4 2-, achieving massive cellular accumulation (10-20x external levels within 3 hours, 100-fold+ in 24 hours)\n- Host metal weaponization: Vertebrate hosts exploit the narrow window between metal deficiency and toxicity through nutritional immunity -- both withholding metals (calprotectin sequesters Mn and Zn at >1 mg/mL at infection sites) and flooding pathogens with toxic copper (>500 uM in phagolysosomes) and zinc in neutrophils and macrophages [[bushman-2025-nutrient-metals-bacteria-gut-infection]], [[kashyap-2014-pgrps-kill-bacteria-metal-stress]]. Peptidoglycan recognition proteins (PGRPs) induce 60-100x increases in intracellular Zn2+ and Cu+ in target bacteria, and chelation of either metal completely abolishes PGRP bactericidal activity — confirming that metal intoxication is a required, not ancillary, component of innate immune killing [[kashyap-2014-pgrps-kill-bacteria-metal-stress]]\n- Zn mis-metallation of PerR: In *Bacillus subtilis* and related pathogens, macrophage-delivered Zn displaces the correct Mn/Fe cofactor from the PerR regulator. Mis-metalated PerR constitutively represses catalase while derepressing heme biosynthesis, flooding the cell with pro-oxidant heme and no antioxidant defense — a core mechanism of host zinc poisoning of intracellular pathogens [[chandrangsu-2016-zinc-intoxication-perr-heme-toxicity]]\n- Cd mis-metalates Mn-dependent pneumococcal defenses: Cadmium disrupts manganese import and carbon flux at the membrane in *Streptococcus pneumoniae*, paralleling the Zn-PsaA competition but through distinct kinetics [[begg-2015-cadmium-toxicity-transition-metal-pneumococcus]], [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]], [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]]\n- MnSOD mis-metalation: In *E. coli* and *B. anthracis*, MnSOD is frequently mis-metalated with iron, rendering the enzyme inactive — demonstrating that mis-metallation is not hypothetical but a routine cellular challenge even in healthy cells [[robinson-2020-metalation-natures-challenge]], [[martin-2022-manganese-homeostasis-stress-pathogenesis]]\n- Manganese-sparing response: During host-imposed Mn starvation via calprotectin, S. aureus activates the small RNA RsaC to suppress Mn-dependent SodA translation, freeing scarce Mn for other essential processes at the cost of oxidative stress vulnerability. SODs bind their cofactors irreversibly, making them irrecoverable Mn sinks during limitation [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]]\n- Iron-free pathogen strategy: Borrelia burgdorferi has eliminated iron from its biology entirely, building antioxidant defense on Mn-SOD and Mn-metabolite complexes (H-Mn). This prevents Fe-catalyzed Fenton chemistry and eliminates host iron restriction as an antimicrobial weapon, but creates vulnerability to Mn toxicity when metabolite pools deplete [[londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi]]"
+          "body": "Bacterial pathogens exploit metal competition as a virulence strategy:\n\n- Siderophore production: Enterobacteriaceae produce siderophores that outcompete host iron-binding proteins (transferrin, lactoferrin), enabling iron acquisition in the nutrient-limited host environment. Salmonella evolved salmochelin (glycosylated enterobactin) to evade lipocalin-2, while gut commensals like B. thetaiotaomicron use xenosiderophore piracy via XusB to intercept pathogen-produced siderophores [[bushman-2025-nutrient-metals-bacteria-gut-infection]]\n- Nickel-dependent virulence enzymes: [[urease|Urease]] (Ni-dependent) in H. pylori and other gut pathogens generates [[ammonia]] that damages epithelium. [NiFe] [[hydrogenase]] enables energy acquisition in the gut\n- Metal mimicry by chromium: Cr(VI) enters cells via sulfate channels because CrO4 2- structurally mimics SO4 2-, achieving massive cellular accumulation (10-20x external levels within 3 hours, 100-fold+ in 24 hours)\n- Host metal weaponization: Vertebrate hosts exploit the narrow window between metal deficiency and toxicity through nutritional immunity -- both withholding metals (calprotectin sequesters Mn and Zn at >1 mg/mL at infection sites) and flooding pathogens with toxic copper (>500 uM in phagolysosomes) and zinc in neutrophils and macrophages [[bushman-2025-nutrient-metals-bacteria-gut-infection]], [[kashyap-2014-pgrps-kill-bacteria-metal-stress]]. Peptidoglycan recognition proteins (PGRPs) induce 60-100x increases in intracellular Zn2+ and Cu+ in target bacteria, and chelation of either metal completely abolishes PGRP bactericidal activity — confirming that metal intoxication is a required, not ancillary, component of innate immune killing [[kashyap-2014-pgrps-kill-bacteria-metal-stress]]\n- Zn mis-metallation of PerR: In *Bacillus subtilis* and related pathogens, macrophage-delivered Zn displaces the correct Mn/Fe cofactor from the PerR regulator. Mis-metalated PerR constitutively represses catalase while derepressing heme biosynthesis, flooding the cell with pro-oxidant heme and no antioxidant defense — a core mechanism of host zinc poisoning of intracellular pathogens [[chandrangsu-2016-zinc-intoxication-perr-heme-toxicity]]\n- Cd mis-metalates Mn-dependent pneumococcal defenses: Cadmium disrupts manganese import and carbon flux at the membrane in *Streptococcus pneumoniae*, paralleling the Zn-PsaA competition but through distinct kinetics [[begg-2015-cadmium-toxicity-transition-metal-pneumococcus]], [[neville-2020-cadmium-carbon-flux-membrane-pneumococcus]], [[eijkelkamp-2014-zinc-inhibits-manganese-pneumococcus]]\n- MnSOD mis-metalation: In *E. coli* and *B. anthracis*, MnSOD is frequently mis-metalated with iron, rendering the enzyme inactive — demonstrating that mis-metallation is not hypothetical but a routine cellular challenge even in healthy cells [[robinson-2020-metalation-natures-challenge]], [[martin-2022-manganese-homeostasis-stress-pathogenesis]]\n- Manganese-sparing response: During host-imposed Mn starvation via calprotectin, S. aureus activates the small RNA RsaC to suppress Mn-dependent SodA translation, freeing scarce Mn for other essential processes at the cost of oxidative stress vulnerability. SODs bind their cofactors irreversibly, making them irrecoverable Mn sinks during limitation [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]]\n- Iron-free pathogen strategy: Borrelia burgdorferi has eliminated iron from its biology entirely, building antioxidant defense on Mn-SOD and Mn-metabolite complexes (H-Mn). This prevents Fe-catalyzed Fenton chemistry and eliminates host iron restriction as an antimicrobial weapon, but creates vulnerability to Mn toxicity when metabolite pools deplete [[londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi]]"
         },
         {
           "heading": "Consequences of Mis-Metallation",
@@ -101922,6 +101979,7 @@
         "osman-2017-fine-control-metal-zinc-cobalt",
         "bushman-2025-nutrient-metals-bacteria-gut-infection",
         "urease",
+        "ammonia",
         "hydrogenase",
         "kashyap-2014-pgrps-kill-bacteria-metal-stress",
         "chandrangsu-2016-zinc-intoxication-perr-heme-toxicity",
@@ -103860,7 +103918,7 @@
         {
           "heading": "Metal Connections",
           "level": 2,
-          "body": "Nickel dependency is the defining feature. Pathogenic bacteria upregulate Ni-GlxI when:\n\n- Environmental nickel is available (dietary, via bioaccumulation in plants)\n- Intracellular nickel accumulates via [[nickel-transporters]] or biofilm sequestration\n- Metabolic demand for MG detoxification rises (high glucose, high fermentation rate)\n\nZinc antagonism: Some evidence suggests pharmacological zinc supplementation may compete for the Ni binding site, though this mechanism is not yet definitively proven in vivo.\n\nRelated enzymes with Ni cofactors:\n- [[nickel-urease]] (H. pylori, some gut commensals) — ammonia production, pH buffering\n- [[nife-hydrogenase]] (anaerobic bacteria) — H₂ metabolism under hypoxia\n- Ni-superoxide dismutase — oxidative stress defense"
+          "body": "Nickel dependency is the defining feature. Pathogenic bacteria upregulate Ni-GlxI when:\n\n- Environmental nickel is available (dietary, via bioaccumulation in plants)\n- Intracellular nickel accumulates via [[nickel-transporters]] or biofilm sequestration\n- Metabolic demand for MG detoxification rises (high glucose, high fermentation rate)\n\nZinc antagonism: Some evidence suggests pharmacological zinc supplementation may compete for the Ni binding site, though this mechanism is not yet definitively proven in vivo.\n\nRelated enzymes with Ni cofactors:\n- [[nickel-urease]] (H. pylori, some gut commensals) — [[ammonia]] production, pH buffering\n- [[nife-hydrogenase]] (anaerobic bacteria) — H₂ metabolism under hypoxia\n- Ni-superoxide dismutase — oxidative stress defense"
         },
         {
           "heading": "Connections",
@@ -103876,6 +103934,7 @@
         "colorectal-cancer",
         "nickel-transporters",
         "nickel-urease",
+        "ammonia",
         "nife-hydrogenase",
         "fermentative-metabolism",
         "nickel",
@@ -104349,6 +104408,10 @@
           "score": 12
         },
         {
+          "id": "ammonia",
+          "score": 12
+        },
+        {
           "id": "pathogen-metal-acquisition",
           "score": 12
         },
@@ -104366,10 +104429,6 @@
         },
         {
           "id": "metal-sensing",
-          "score": 9
-        },
-        {
-          "id": "mis-metallation",
           "score": 9
         }
       ]
@@ -104434,7 +104493,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Nickel-urease (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to ammonia (NH₃) and carbon dioxide (CO₂). The active site contains two nickel ions (Ni²⁺) coordinated by histidine and cysteine residues. Nickel-urease is expressed by [[helicobacter-pylori|H. pylori]] as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.\n\nFor [[helicobacter-pylori|H. pylori]], urease is the Achilles' heel: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics."
+          "body": "Nickel-urease (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to [[ammonia]] (NH₃) and carbon dioxide (CO₂). The active site contains two nickel ions (Ni²⁺) coordinated by histidine and cysteine residues. Nickel-urease is expressed by [[helicobacter-pylori|H. pylori]] as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.\n\nFor [[helicobacter-pylori|H. pylori]], urease is the Achilles' heel: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics."
         },
         {
           "heading": "Mechanism",
@@ -104458,6 +104517,7 @@
         }
       ],
       "wikilinks": [
+        "ammonia",
         "helicobacter-pylori",
         "nickel",
         "nickel-transporters",
@@ -111145,7 +111205,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Saccharolytic fermentation is the microbial breakdown of carbohydrates (dietary fiber, resistant starch, host glycans) to produce [[short-chain-fatty-acids]] (acetate, propionate, butyrate) and gases (H₂, CO₂, CH₄). It is the beneficial fermentation mode — the metabolic activity that produces the protective SCFAs underlying barrier integrity, immune tolerance, and anti-inflammatory signaling throughout this wiki.\n\nSaccharolytic fermentation dominates in the proximal colon where dietary fiber substrates are abundant. As substrates are depleted distally, the microbiome shifts toward proteolytic fermentation (amino acid breakdown), which produces toxic metabolites ([[hydrogen-sulfide]], ammonia, p-cresol, phenol, [[cadaverine]])."
+          "body": "Saccharolytic fermentation is the microbial breakdown of carbohydrates (dietary fiber, resistant starch, host glycans) to produce [[short-chain-fatty-acids]] (acetate, propionate, butyrate) and gases (H₂, CO₂, CH₄). It is the beneficial fermentation mode — the metabolic activity that produces the protective SCFAs underlying barrier integrity, immune tolerance, and anti-inflammatory signaling throughout this wiki.\n\nSaccharolytic fermentation dominates in the proximal colon where dietary fiber substrates are abundant. As substrates are depleted distally, the microbiome shifts toward proteolytic fermentation (amino acid breakdown), which produces toxic metabolites ([[hydrogen-sulfide]], [[ammonia]], p-cresol, phenol, [[cadaverine]])."
         },
         {
           "heading": "The Saccharolytic-Proteolytic Balance",
@@ -111161,6 +111221,7 @@
       "wikilinks": [
         "short-chain-fatty-acids",
         "hydrogen-sulfide",
+        "ammonia",
         "cadaverine",
         "ross-2024-diet-gut-microbiome-interplay-health-disease",
         "feitelson-2023-scfas-cancer-pathogenesis",
@@ -112312,7 +112373,7 @@
         {
           "heading": "Proposed NEC Biomarkers",
           "level": 3,
-          "body": "Fecal urease activity, ammonia levels, and stool nickel content could serve as early NEC risk indicators -- reflecting the downstream consequences of nickelophore-mediated nickel acquisition by gut pathogens [[pendergrass-2026-nickel-nec-preterm-gut]]."
+          "body": "Fecal urease activity, [[ammonia]] levels, and stool nickel content could serve as early NEC risk indicators -- reflecting the downstream consequences of nickelophore-mediated nickel acquisition by gut pathogens [[pendergrass-2026-nickel-nec-preterm-gut]]."
         },
         {
           "heading": "Role in Disease",
@@ -112348,6 +112409,7 @@
         "hydrogenase",
         "maier-2019-nickel-microbial-pathogenesis",
         "pendergrass-2026-nickel-nec-preterm-gut",
+        "ammonia",
         "endometriosis",
         "inflammatory-bowel-disease",
         "hepcidin",
@@ -117165,7 +117227,7 @@
         {
           "heading": "The Proteolytic Shift",
           "level": 2,
-          "body": "In CKD, the gut microbiome undergoes a characteristic shift from saccharolytic (fiber-fermenting, SCFA-producing) to proteolytic (amino acid-fermenting, toxin-producing) metabolism. This shift is driven by:\n\n1. Uremic milieu: Urea diffusing into the gut lumen is hydrolyzed by bacterial [[urease]] to ammonia, raising intestinal pH and favoring proteolytic organisms\n2. Dietary protein restriction paradox: While low-protein diets reduce some uremic toxin precursors, they also reduce fiber intake, limiting saccharolytic fermentation\n3. Antibiotic exposure: Frequent antibiotic use in CKD patients depletes SCFA-producing commensals\n4. Constipation: Common in CKD, prolonging colonic transit time and increasing protein fermentation [[lu-2019-constipation-esrd-risk-ckd]]\n\nThe result is depletion of beneficial organisms ([[faecalibacterium-prausnitzii]], [[roseburia]], [[bifidobacterium]]) and enrichment of uremic toxin producers ([[eggerthella-lenta]], [[fusobacterium-nucleatum]]) [[wehedy-2022-human-microbiome-ckd-double-edged-sword]]."
+          "body": "In CKD, the gut microbiome undergoes a characteristic shift from saccharolytic (fiber-fermenting, SCFA-producing) to proteolytic (amino acid-fermenting, toxin-producing) metabolism. This shift is driven by:\n\n1. Uremic milieu: Urea diffusing into the gut lumen is hydrolyzed by bacterial [[urease]] to [[ammonia]], raising intestinal pH and favoring proteolytic organisms\n2. Dietary protein restriction paradox: While low-protein diets reduce some uremic toxin precursors, they also reduce fiber intake, limiting saccharolytic fermentation\n3. Antibiotic exposure: Frequent antibiotic use in CKD patients depletes SCFA-producing commensals\n4. Constipation: Common in CKD, prolonging colonic transit time and increasing protein fermentation [[lu-2019-constipation-esrd-risk-ckd]]\n\nThe result is depletion of beneficial organisms ([[faecalibacterium-prausnitzii]], [[roseburia]], [[bifidobacterium]]) and enrichment of uremic toxin producers ([[eggerthella-lenta]], [[fusobacterium-nucleatum]]) [[wehedy-2022-human-microbiome-ckd-double-edged-sword]]."
         },
         {
           "heading": "The Metal Connection",
@@ -117219,6 +117281,7 @@
         "cardiovascular-disease",
         "atherosclerosis",
         "urease",
+        "ammonia",
         "lu-2019-constipation-esrd-risk-ckd",
         "faecalibacterium-prausnitzii",
         "roseburia",
@@ -117283,7 +117346,7 @@
           "score": 9
         },
         {
-          "id": "ammonia",
+          "id": "fermentative-metabolism",
           "score": 7
         }
       ]
@@ -117966,7 +118029,7 @@
         {
           "heading": "Metal-Dependent Enzymes",
           "level": 3,
-          "body": "These are the virulence factors most relevant to the metallomics framework. Each represents a potential therapeutic target -- restrict the metal, disable the enzyme:\n\n- [[urease|Nickel-dependent urease]]: Ammonia production for acid resistance and tissue damage ([[helicobacter-pylori]], [[staphylococcus-aureus]], [[proteus-mirabilis]], [[klebsiella-pneumoniae]])\n- [[nife-hydrogenase]]: H2-powered energy generation and CagA translocation ([[helicobacter-pylori]])\n- [[zinc-metalloprotease]]: Tissue invasion and immune evasion ([[bacteroides-fragilis]], [[clostridium]])\n- [[glyoxalase]]: Methylglyoxal detoxification; nickel-dependent in pathogens ([[escherichia-coli]])\n- [[siderophores-metallophores]]: Iron piracy systems ([[pseudomonas-aeruginosa]], [[klebsiella-pneumoniae]], [[staphylococcus-aureus]])\n- [[superoxide-dismutase]]: ROS defense (Mn-SOD, Cu/Zn-SOD, Fe-SOD across many pathogens)\n- [[beta-glucuronidase]]: Hormone and drug deconjugation; drives [[estrobolome]] dysregulation"
+          "body": "These are the virulence factors most relevant to the metallomics framework. Each represents a potential therapeutic target -- restrict the metal, disable the enzyme:\n\n- [[urease|Nickel-dependent urease]]: [[ammonia|Ammonia]] production for acid resistance and tissue damage ([[helicobacter-pylori]], [[staphylococcus-aureus]], [[proteus-mirabilis]], [[klebsiella-pneumoniae]])\n- [[nife-hydrogenase]]: H2-powered energy generation and CagA translocation ([[helicobacter-pylori]])\n- [[zinc-metalloprotease]]: Tissue invasion and immune evasion ([[bacteroides-fragilis]], [[clostridium]])\n- [[glyoxalase]]: Methylglyoxal detoxification; nickel-dependent in pathogens ([[escherichia-coli]])\n- [[siderophores-metallophores]]: Iron piracy systems ([[pseudomonas-aeruginosa]], [[klebsiella-pneumoniae]], [[staphylococcus-aureus]])\n- [[superoxide-dismutase]]: ROS defense (Mn-SOD, Cu/Zn-SOD, Fe-SOD across many pathogens)\n- [[beta-glucuronidase]]: Hormone and drug deconjugation; drives [[estrobolome]] dysregulation"
         },
         {
           "heading": "Adhesins and Biofilm Components",
@@ -118021,6 +118084,7 @@
         "nife-hydrogenase",
         "escherichia-coli",
         "urease",
+        "ammonia",
         "proteus-mirabilis",
         "klebsiella-pneumoniae",
         "clostridium",
@@ -187548,6 +187612,10 @@
       },
       {
         "source": "actinomyces",
+        "target": "ammonia"
+      },
+      {
+        "source": "actinomyces",
         "target": "dietary-nickel-exposure"
       },
       {
@@ -189952,6 +190020,10 @@
       },
       {
         "source": "candida-albicans",
+        "target": "ammonia"
+      },
+      {
+        "source": "candida-albicans",
         "target": "tight-junctions"
       },
       {
@@ -190741,6 +190813,10 @@
       {
         "source": "cirrhosis",
         "target": "proteus-mirabilis"
+      },
+      {
+        "source": "cirrhosis",
+        "target": "ammonia"
       },
       {
         "source": "cirrhosis",
@@ -191569,6 +191645,10 @@
       {
         "source": "cryptococcus-neoformans",
         "target": "urease"
+      },
+      {
+        "source": "cryptococcus-neoformans",
+        "target": "ammonia"
       },
       {
         "source": "cryptococcus-neoformans",
@@ -192500,6 +192580,10 @@
       },
       {
         "source": "enterobacteriaceae",
+        "target": "ammonia"
+      },
+      {
+        "source": "enterobacteriaceae",
         "target": "hydrogenase"
       },
       {
@@ -192729,6 +192813,10 @@
       {
         "source": "escherichia-coli",
         "target": "urease"
+      },
+      {
+        "source": "escherichia-coli",
+        "target": "ammonia"
       },
       {
         "source": "escherichia-coli",
@@ -193664,6 +193752,10 @@
       },
       {
         "source": "gastric-cancer",
+        "target": "ammonia"
+      },
+      {
+        "source": "gastric-cancer",
         "target": "tight-junctions"
       },
       {
@@ -193729,6 +193821,10 @@
       {
         "source": "gastric-ulcer",
         "target": "urease"
+      },
+      {
+        "source": "gastric-ulcer",
+        "target": "ammonia"
       },
       {
         "source": "gastric-ulcer",
@@ -196136,6 +196232,10 @@
       },
       {
         "source": "morganella-morganii",
+        "target": "ammonia"
+      },
+      {
+        "source": "morganella-morganii",
         "target": "nutritional-immunity"
       },
       {
@@ -196273,6 +196373,10 @@
       {
         "source": "mycobacterium-tuberculosis",
         "target": "shigella-flexneri"
+      },
+      {
+        "source": "mycobacterium-tuberculosis",
+        "target": "ammonia"
       },
       {
         "source": "mycobacterium-tuberculosis",
@@ -196521,6 +196625,10 @@
       {
         "source": "nickel",
         "target": "parkinsons-disease"
+      },
+      {
+        "source": "nickel",
+        "target": "ammonia"
       },
       {
         "source": "nickel",
@@ -197201,6 +197309,10 @@
       {
         "source": "parkinsons-disease",
         "target": "hydrogenase"
+      },
+      {
+        "source": "parkinsons-disease",
+        "target": "ammonia"
       },
       {
         "source": "parkinsons-disease",
@@ -199704,6 +199816,10 @@
       },
       {
         "source": "staphylococcus-aureus",
+        "target": "ammonia"
+      },
+      {
+        "source": "staphylococcus-aureus",
         "target": "metal-dependent-virulence"
       },
       {
@@ -199929,6 +200045,10 @@
       {
         "source": "streptococcus-salivarius",
         "target": "urease"
+      },
+      {
+        "source": "streptococcus-salivarius",
+        "target": "ammonia"
       },
       {
         "source": "streptococcus-salivarius",
@@ -200487,6 +200607,10 @@
         "target": "urease"
       },
       {
+        "source": "ureaplasma-urealyticum",
+        "target": "ammonia"
+      },
+      {
         "source": "ureaplasma",
         "target": "urease"
       },
@@ -201037,6 +201161,10 @@
       {
         "source": "amyloid-beta",
         "target": "mis-metallation"
+      },
+      {
+        "source": "amyloid-beta",
+        "target": "ammonia"
       },
       {
         "source": "amyloid-beta",
@@ -201833,6 +201961,10 @@
       {
         "source": "biofilm",
         "target": "urease"
+      },
+      {
+        "source": "biofilm",
+        "target": "ammonia"
       },
       {
         "source": "biofilm",
@@ -203164,6 +203296,10 @@
       },
       {
         "source": "dysbiosis",
+        "target": "ammonia"
+      },
+      {
+        "source": "dysbiosis",
         "target": "gut-brain-axis"
       },
       {
@@ -204168,6 +204304,10 @@
       },
       {
         "source": "fermentative-metabolism",
+        "target": "ammonia"
+      },
+      {
+        "source": "fermentative-metabolism",
         "target": "hypoxia"
       },
       {
@@ -204797,6 +204937,10 @@
       {
         "source": "gut-metal-microbiome",
         "target": "hydrogenase"
+      },
+      {
+        "source": "gut-metal-microbiome",
+        "target": "ammonia"
       },
       {
         "source": "gut-metal-microbiome",
@@ -205736,6 +205880,10 @@
       },
       {
         "source": "hypoxia",
+        "target": "ammonia"
+      },
+      {
+        "source": "hypoxia",
         "target": "metallothionein"
       },
       {
@@ -206417,6 +206565,10 @@
       {
         "source": "inter-kingdom-metal-shielding",
         "target": "urease"
+      },
+      {
+        "source": "inter-kingdom-metal-shielding",
+        "target": "ammonia"
       },
       {
         "source": "inter-kingdom-metal-shielding",
@@ -207508,6 +207660,10 @@
       },
       {
         "source": "metal-dependent-virulence",
+        "target": "ammonia"
+      },
+      {
+        "source": "metal-dependent-virulence",
         "target": "urease"
       },
       {
@@ -207988,6 +208144,10 @@
       },
       {
         "source": "microbial-metallomics",
+        "target": "ammonia"
+      },
+      {
+        "source": "microbial-metallomics",
         "target": "mis-metallation"
       },
       {
@@ -208145,6 +208305,10 @@
       {
         "source": "mis-metallation",
         "target": "urease"
+      },
+      {
+        "source": "mis-metallation",
+        "target": "ammonia"
       },
       {
         "source": "mis-metallation",
@@ -208540,6 +208704,10 @@
       },
       {
         "source": "nickel-glyoxalase",
+        "target": "ammonia"
+      },
+      {
+        "source": "nickel-glyoxalase",
         "target": "nife-hydrogenase"
       },
       {
@@ -208613,6 +208781,10 @@
       {
         "source": "nickel-transporters",
         "target": "efflux-pumps"
+      },
+      {
+        "source": "nickel-urease",
+        "target": "ammonia"
       },
       {
         "source": "nickel-urease",
@@ -209956,6 +210128,10 @@
       },
       {
         "source": "saccharolytic-fermentation",
+        "target": "ammonia"
+      },
+      {
+        "source": "saccharolytic-fermentation",
         "target": "dietary-fiber"
       },
       {
@@ -210185,6 +210361,10 @@
       {
         "source": "siderophores-metallophores",
         "target": "hydrogenase"
+      },
+      {
+        "source": "siderophores-metallophores",
+        "target": "ammonia"
       },
       {
         "source": "siderophores-metallophores",
@@ -211557,6 +211737,10 @@
       {
         "source": "virulence-factors",
         "target": "urease"
+      },
+      {
+        "source": "virulence-factors",
+        "target": "ammonia"
       },
       {
         "source": "virulence-factors",

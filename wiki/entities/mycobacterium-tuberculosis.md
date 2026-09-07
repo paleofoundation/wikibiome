@@ -35,7 +35,7 @@ The causative agent of tuberculosis (TB), the leading infectious disease killer 
 ### Ni-Urease
 
 - Urease supports survival under nitrogen-limited conditions encountered during chronic infection and latency [[maier-2019-nickel-microbial-pathogenesis]].
-- Ammonia from urease provides a nitrogen source when amino acid availability is restricted within the granuloma.
+- [[ammonia|Ammonia]] from urease provides a nitrogen source when amino acid availability is restricted within the granuloma.
 - Urease may also modulate phagosomal pH, though this is less well characterized than in [[helicobacter-pylori]] or [[cryptococcus-neoformans]].
 
 ## Iron Acquisition -- The Mycobactin System

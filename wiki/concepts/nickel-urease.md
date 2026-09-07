@@ -23,7 +23,7 @@ last_substantive_update: 2026-04-22
 
 ## Overview
 
-Nickel-urease (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to ammonia (NH₃) and carbon dioxide (CO₂). The active site contains two nickel ions (Ni²⁺) coordinated by histidine and cysteine residues. Nickel-urease is expressed by [[helicobacter-pylori|H. pylori]] as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.
+Nickel-urease (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to [[ammonia]] (NH₃) and carbon dioxide (CO₂). The active site contains two nickel ions (Ni²⁺) coordinated by histidine and cysteine residues. Nickel-urease is expressed by [[helicobacter-pylori|H. pylori]] as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.
 
 For [[helicobacter-pylori|H. pylori]], urease is the Achilles' heel: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics.
 

@@ -37,7 +37,7 @@ platform: wikibiome
 ## Key Associations
 
 - Chronic prostatitis: Detected in prostatic secretions of men with chronic prostatitis [[magri-2018-multidisciplinary-prostatitis]].
-- Male infertility: Associated with impaired sperm quality through ammonia-mediated toxicity [[magill-2023-male-infertility-human-microbiome]].
+- Male infertility: Associated with impaired sperm quality through [[ammonia]]-mediated toxicity [[magill-2023-male-infertility-human-microbiome]].
 
 ## Cross-References
 

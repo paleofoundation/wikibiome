@@ -69,7 +69,7 @@ Tumor microenvironments:
 Hypoxia reshapes metal utilization hierarchies:
 
 - Iron ecology: Anaerobic bacteria rely more heavily on [[siderophores|siderophore]]-mediated iron acquisition because oxygen-dependent iron uptake (ferroxidase activity) is impaired. [[lipocalin-2]] sequestration becomes more potent as a selective pressure.
-- Nickel dependence: Anaerobic pathogens like [[helicobacter-pylori|H. pylori]] and oral [[porphyromonas-gingivalis|Porphyromonas gingivalis]] activate nickel-urease as an energy source; urease-driven ammonia production raises local pH and protects against acids in hypoxic, low-pH niches.
+- Nickel dependence: Anaerobic pathogens like [[helicobacter-pylori|H. pylori]] and oral [[porphyromonas-gingivalis|Porphyromonas gingivalis]] activate nickel-urease as an energy source; urease-driven [[ammonia]] production raises local pH and protects against acids in hypoxic, low-pH niches.
 - Zinc and sulfide: Sulfate-reducing bacteria produce H₂S; excess H₂S precipitates bioavailable [[zinc]], shifting zinc speciation and potentially reducing [[zinc]]-dependent immune functions ([[metallothionein]], [[metal-homeostasis|zinc-finger]] transcription factors).
 
 ## Connections
