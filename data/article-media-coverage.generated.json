@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "f4c9a783427cd9d764f09a3b3a2eef33a70bd2b7103a22c9ce4ff7c7a279472e",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "cbf767c83de06666048179dc2cd9ee3aff70e9ef67390df730f370bd2bfe6c35",
+    "reviewLogSha256": "b1d08c2552eccc774f9cbf874c5dc95365c03cca3379a22c290b065f3589233f",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -137,6 +137,12 @@
         "batchId": "interventions-105",
         "status": "reviewed",
         "sha256": "84367038fe8747f1931475a345da9e2fb33f07e7b6c8110684aadb3142d7c911"
+      },
+      {
+        "file": "data/article-media-batches/interventions-106.json",
+        "batchId": "interventions-106",
+        "status": "awaiting-control-review",
+        "sha256": "1fa34f1b316cd3f46e244338ed050c368f8333228ba6fafb5e413b0287ab35b6"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -664,10 +670,10 @@
     "total": 710,
     "completed": 371,
     "remaining": 339,
-    "rejected": 257,
+    "rejected": 262,
     "revised": 12,
-    "scientificHolds": 199,
-    "inReview": 0
+    "scientificHolds": 203,
+    "inReview": 1
   },
   "categories": [
     {
@@ -5169,6 +5175,89 @@
       ],
       "requiredResolution": "Choose exact prebiotic material and source, composition, formulation, dose and schedule, Crohn's disease state and population, comparator, specimen, assay, time point, endpoint, and direct evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed prebiotic protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "iron-management",
+      "controlledIdentifier": "WikiBiome:iron-management;multi-branch-clinical-management;zero-resolvable-sources",
+      "batchId": "interventions-106",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines biomarkers, oral and intravenous products, restriction, disease-specific dosing, monitoring, contraindications, and safety decisions rather than one controlled intervention.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Iron",
+        "local:data/content.generated.json#/pages/iron-management"
+      ],
+      "requiredResolution": "Choose one intervention branch, exact product and formulation, route, dose and schedule, indication and population, comparator, monitoring plan, specimen, assay, time point, endpoint, safety boundary, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed clinical protocol passes a new audit."
+    },
+    {
+      "pageId": "ketogenic-diet",
+      "controlledIdentifier": "MeSH:ketogenic-diet;heterogeneous-whole-diet-protocol;zero-resolvable-sources",
+      "batchId": "interventions-106",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines multiple whole-diet variants, foods, macronutrient ratios, durations, populations, measurements, contraindications, adverse effects, microbial changes, and outcomes rather than one implementation.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Ketogenic%20Diet",
+        "local:data/content.generated.json#/pages/ketogenic-diet"
+      ],
+      "requiredResolution": "Choose one ketogenic-diet variant, energy and macronutrient composition, foods or formulation, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, safety boundary, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed dietary protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "ketogenic-diet-ms",
+      "controlledIdentifier": "MeSH:ketogenic-diet;MeSH:multiple-sclerosis;multi-phase-diet-condition-intervention",
+      "batchId": "interventions-106",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Three sources meet the count threshold but the route combines diet implementation, early and late microbial phases, food guidance, ketone targets, treatment context, contraindications, taxa, metabolites, and outcomes without one physical state.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Ketogenic%20Diet",
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Multiple%20Sclerosis",
+        "local:data/content.generated.json#/pages/ketogenic-diet-ms"
+      ],
+      "requiredResolution": "Choose one implementation, measured phase and time point, population, comparator, adherence state, specimen, assay, endpoint, non-diagnostic visual subject, and directly linked evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed diet implementation and measured phase pass a new audit."
+    },
+    {
+      "pageId": "lactoferrin-lgg-nec-prevention",
+      "controlledIdentifier": "NCBITaxon:568703-plus-unspecified-lactoferrin-product;combination-intervention;zero-resolvable-sources",
+      "batchId": "interventions-106",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines two biological agents, multiple origins, purities, formulations, viable counts, doses, schedules, preterm populations, feeding contexts, mechanisms, and outcomes without one product and protocol.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=568703&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Lactoferrin",
+        "local:data/content.generated.json#/pages/lactoferrin-lgg-nec-prevention"
+      ],
+      "requiredResolution": "Choose exact lactoferrin source and product state, exact LGG culture and viable formulation, combination manufacturing, dose and schedule, population, feeding context, comparator, specimen, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed combination product and protocol pass a new audit."
+    },
+    {
+      "pageId": "l-rhamnosus-gg-early-life",
+      "controlledIdentifier": "NCBITaxon:568703;GenBank:FM179322.1;ATCC:53103",
+      "batchId": "interventions-106",
+      "draft": "work/media-drafts/interventions-batch-106/l-rhamnosus-gg-early-life-draft.png",
+      "sha256": "bd34c704fba20f45c4339dc5057a78e30f634b1154a1958cdf1ccdc78626e73c",
+      "generationRecord": "exec-5980bc3b-29f7-49e8-9c0b-fe77d326ebbc.png",
+      "promptSha256": "7e10b930b3fd7c7b2e07127074af601151b41a6ef11da96a50b63ff56af9426f",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific and visual audit",
+      "disposition": "rejected-literal-output-count",
+      "reason": "Native inspection observed nine complete rods in seven groupings—five singles and two end-touching pairs—instead of the frozen eight rods in six groupings—four singles and two pairs.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=568703&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/nuccore/FM179322.1",
+        "https://pubmed.ncbi.nlm.nih.gov/22247175/",
+        "https://pubmed.ncbi.nlm.nih.gov/22149133/"
+      ],
+      "requiredResolution": "A future separately authorized prompt revision and new call would have to produce exactly eight complete rods in six groups while preserving the current-name strain and non-diagnostic morphology boundary.",
+      "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
     }
   ],
   "revisedAssets": [
@@ -5323,55 +5412,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 611,
-      "id": "indole-3-carbinol-ovarian-cancer",
-      "title": "Indole-3-Carbinol (I3C) for Ovarian Cancer",
-      "route": "/article/indole-3-carbinol-ovarian-cancer",
+      "queuePosition": 617,
+      "id": "lactoferrin-supplementation",
+      "title": "Lactoferrin Supplementation (Cross-Condition)",
+      "route": "/article/lactoferrin-supplementation",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 612,
-      "id": "iron-management",
-      "title": "Iron Management",
-      "route": "/article/iron-management",
+      "queuePosition": 618,
+      "id": "low-carbohydrate-diet-gerd",
+      "title": "Low-Carbohydrate Diet for GERD",
+      "route": "/article/low-carbohydrate-diet-gerd",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 613,
-      "id": "ketogenic-diet",
-      "title": "Ketogenic Diet",
-      "route": "/article/ketogenic-diet",
+      "queuePosition": 619,
+      "id": "low-carbohydrate-diet",
+      "title": "Low-Carbohydrate Diet for PCOS",
+      "route": "/article/low-carbohydrate-diet",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 614,
-      "id": "ketogenic-diet-ms",
-      "title": "Ketogenic Diet for Multiple Sclerosis",
-      "route": "/article/ketogenic-diet-ms",
+      "queuePosition": 620,
+      "id": "low-fat-diet",
+      "title": "Low-Fat Diet for Endometriosis",
+      "route": "/article/low-fat-diet",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 615,
-      "id": "l-rhamnosus-gg-early-life",
-      "title": "L. rhamnosus GG Early-Life Supplementation for T1D Prevention",
-      "route": "/article/l-rhamnosus-gg-early-life",
+      "queuePosition": 621,
+      "id": "low-nickel-diet",
+      "title": "Low-Nickel Diet",
+      "route": "/article/low-nickel-diet",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 616,
-      "id": "lactoferrin-lgg-nec-prevention",
-      "title": "Lactoferrin + L. rhamnosus GG for NEC Prevention",
-      "route": "/article/lactoferrin-lgg-nec-prevention",
+      "queuePosition": 622,
+      "id": "low-red-meat-diet",
+      "title": "Low-Red-Meat Diet for Endometriosis",
+      "route": "/article/low-red-meat-diet",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
@@ -17819,7 +17908,13 @@
       "route": "/article/indole-3-carbinol-ovarian-cancer",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "in-review",
+      "reviewCandidate": {
+        "batchId": "interventions-106",
+        "decision": "approved-after-output-audit",
+        "draft": "work/media-drafts/interventions-batch-106/indole-3-carbinol-ovarian-cancer-draft.png",
+        "sha256": "120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af"
+      }
     },
     {
       "queuePosition": 612,
@@ -17832,7 +17927,13 @@
       "route": "/article/iron-management",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source route combines biomarkers, oral and intravenous products, restriction, disease-specific dosing, monitoring, contraindications, and safety decisions rather than one controlled intervention.",
+        "requiredResolution": "Choose one intervention branch, exact product and formulation, route, dose and schedule, indication and population, comparator, monitoring plan, specimen, assay, time point, endpoint, safety boundary, and direct evidence."
+      }
     },
     {
       "queuePosition": 613,
@@ -17845,7 +17946,13 @@
       "route": "/article/ketogenic-diet",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source route combines multiple whole-diet variants, foods, macronutrient ratios, durations, populations, measurements, contraindications, adverse effects, microbial changes, and outcomes rather than one implementation.",
+        "requiredResolution": "Choose one ketogenic-diet variant, energy and macronutrient composition, foods or formulation, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, safety boundary, and direct evidence."
+      }
     },
     {
       "queuePosition": 614,
@@ -17858,7 +17965,13 @@
       "route": "/article/ketogenic-diet-ms",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Three sources meet the count threshold but the route combines diet implementation, early and late microbial phases, food guidance, ketone targets, treatment context, contraindications, taxa, metabolites, and outcomes without one physical state.",
+        "requiredResolution": "Choose one implementation, measured phase and time point, population, comparator, adherence state, specimen, assay, endpoint, non-diagnostic visual subject, and directly linked evidence."
+      }
     },
     {
       "queuePosition": 615,
@@ -17871,7 +17984,15 @@
       "route": "/article/l-rhamnosus-gg-early-life",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "interventions-106",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific and visual audit",
+        "disposition": "rejected-literal-output-count",
+        "reason": "Native inspection observed nine complete rods in seven groupings—five singles and two end-touching pairs—instead of the frozen eight rods in six groupings—four singles and two pairs.",
+        "requiredResolution": "A future separately authorized prompt revision and new call would have to produce exactly eight complete rods in six groups while preserving the current-name strain and non-diagnostic morphology boundary."
+      }
     },
     {
       "queuePosition": 616,
@@ -17884,7 +18005,13 @@
       "route": "/article/lactoferrin-lgg-nec-prevention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source route combines two biological agents, multiple origins, purities, formulations, viable counts, doses, schedules, preterm populations, feeding contexts, mechanisms, and outcomes without one product and protocol.",
+        "requiredResolution": "Choose exact lactoferrin source and product state, exact LGG culture and viable formulation, combination manufacturing, dose and schedule, population, feeding context, comparator, specimen, assay, time point, endpoint, and direct evidence."
+      }
     },
     {
       "queuePosition": 617,
