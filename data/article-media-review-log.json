@@ -18348,6 +18348,114 @@
       ],
       "requiredResolution": "Add direct clinical evidence and current endocrine guidance; define Graves phenotype and thyroid state, concurrent therapy, pregnancy, deficiency and anemia, bleeding or absorption, route, compound, formulation, elemental dose, duration, population, comparator, monitoring, thyroid and hematologic outcomes, adverse events, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no thyroid, eye, supplement, infusion, elemental Iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-long-covid",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Post-Acute-COVID-19-Syndrome-MeSH:D000094024;long-covid-phenotype-anemia-route-formulation-and-evidence-unresolved",
+      "batchId": "clinical-cautions-117",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "One pregnancy-related COVID metallomic source does not establish withholding iron in Long COVID; phenotype, timing, pregnancy, blood loss, inflammation, deficiency, anemia, formulation, route, dose, monitoring, outcomes, safety, and exceptions are unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000094024",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-long-covid"
+      ],
+      "requiredResolution": "Add direct clinical evidence and current guidance; define Long-COVID phenotype and duration, pregnancy and bleeding, deficiency and anemia, route, compound, formulation, elemental dose, schedule, population, comparator, monitoring, symptoms and functional outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no fatigue, organ, blood, supplement, infusion, elemental Iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-ms",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Multiple-Sclerosis-MeSH:D009103;ms-phenotype-activity-anemia-route-formulation-and-treatment-context-unresolved",
+      "batchId": "clinical-cautions-117",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Microbiome and immunology sources do not establish withholding iron in multiple sclerosis; phenotype, activity, concurrent therapy, inflammation, deficiency, anemia, formulation, route, dose, monitoring, outcomes, safety, and exceptions are unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009103",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-ms"
+      ],
+      "requiredResolution": "Add direct clinical evidence; define multiple-sclerosis phenotype and activity, concurrent therapy, deficiency and anemia, blood loss and inflammation, route, compound, formulation, elemental dose, schedule, population, comparator, monitoring, neurologic and hematologic outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no brain, spinal-cord, myelin, blood, supplement, infusion, elemental Iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-obesity",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Obesity-MeSH:D009765;obesity-phenotype-functional-anemia-route-formulation-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-117",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Mechanistic heavy-metal, microbiome, and iron-homeostasis sources do not establish withholding; obesity and anemia phenotypes, inflammation, bleeding, malabsorption, bariatric history, pregnancy, formulation, route, dose, monitoring, outcomes, safety, and exceptions are unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009765",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-obesity"
+      ],
+      "requiredResolution": "Add direct clinical evidence and a non-stigmatizing visual subject; define obesity phenotype, inflammation, bariatric and pregnancy status, absolute versus functional deficiency and anemia, bleeding or malabsorption, route, compound, formulation, elemental dose, schedule, population, comparator, monitoring, outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no stigmatizing patient, adipose, blood, supplement, infusion, elemental Iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-parkinsons",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Parkinson-Disease-MeSH:D010300;parkinson-phenotype-anemia-route-formulation-and-neurologic-outcomes-unresolved",
+      "batchId": "clinical-cautions-117",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Metallomic, lead, microbiome, and short-chain-fatty-acid sources do not establish withholding; Parkinson disease stage, treatment, deficiency, anemia, inflammation, formulation, route, dose, monitoring, outcomes, safety, and exceptions are unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010300",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-parkinsons"
+      ],
+      "requiredResolution": "Add direct clinical evidence; define Parkinson disease phenotype and stage, concurrent treatment, deficiency and anemia, inflammation and blood loss, route, compound, formulation, elemental dose, schedule, population, comparator, monitoring, neurologic and hematologic outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no brain, substantia nigra, gut, blood, supplement, infusion, elemental Iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-pcos",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Polycystic-Ovary-Syndrome-MeSH:D011085;pcos-phenotype-menstrual-loss-pregnancy-route-formulation-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-117",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The linked heavy-metal and copper sources do not establish iron withholding; PCOS phenotype, menstrual loss, pregnancy or fertility treatment, deficiency, anemia, inflammation, formulation, route, dose, outcomes, safety, and exceptions are unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011085",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-pcos"
+      ],
+      "requiredResolution": "Add direct iron-specific clinical evidence and current gynecologic guidance; define PCOS phenotype, menstrual loss, pregnancy and fertility-treatment context, deficiency and anemia, route, compound, formulation, elemental dose, schedule, population, comparator, monitoring, metabolic, reproductive and hematologic outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no stigmatizing patient, ovary, follicle, blood, supplement, infusion, elemental Iron, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-iron-supplementation-type-2-diabetes",
+      "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Diabetes-Mellitus-Type-2-MeSH:D003924;diabetes-complications-kidney-state-anemia-route-formulation-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-117",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Metal, microbiome, probiotic, and cadmium sources do not establish withholding iron; diabetes duration and control, complications, kidney disease, inflammation, bleeding, deficiency, anemia, formulation, route, dose, treatment, outcomes, safety, and exceptions are unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D003924",
+        "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-type-2-diabetes"
+      ],
+      "requiredResolution": "Add direct clinical evidence; define type 2 diabetes phenotype, duration, control and complications, kidney function, inflammation and bleeding, absolute versus functional deficiency and anemia, route, compound, formulation, elemental dose, schedule, population, comparator, monitoring, glycemic, renal and hematologic outcomes, adverse events, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no pancreas, glucose, kidney, blood, supplement, infusion, elemental Iron, or prohibition image may be published."
     }
   ],
   "revisedAssets": [

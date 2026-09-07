@@ -2,8 +2,9 @@
   "schemaVersion": 1,
   "batchId": "clinical-cautions-117",
   "category": "clinical-cautions",
-  "status": "audited",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
   "authorizedParent": "287ce8a4bf8f6c509a891734fc6ef74e1e406b5b",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/clinical-cautions-117.md",
@@ -19,6 +20,7 @@
     "sourceUse": "Current controlled records, NIH iron guidance, and local source-resolution evidence define asset-free scientific holds."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "a806fd6fd914b24b837b0faa1b79f0f3f797697f",
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out tablets or infusions, disease anatomy used as evidence for a treatment recommendation, or elemental Iron media substituted for a clinical formulation. All six routes fail before prompt creation.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
