@@ -12863,6 +12863,43 @@
         "articleSha256": "dd728dc35a5e14837f8e70b663b9ed6ae509da2315a8c68aa49602785d862f76",
         "socialSha256": "e1c7782fdd9c7295b59d871525f865a8bef1e7c6c3a7f9d273e3aed8b59ca216"
       }
+    },
+    "dopamine|dopamine-evidence-index-v1.webp": {
+      "pageId": "dopamine",
+      "publishedFile": "dopamine-evidence-index-v1.webp",
+      "masterSource": "dopamine-evidence-index-v1-master.png",
+      "socialFile": "dopamine-evidence-index-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/681",
+          "https://www.wikibiome.com/article/dopamine"
+        ],
+        "notes": "PubChem establishes neutral Dopamine identity, formula C8H11NO2, IUPAC name, InChIKey, and constitutional graph. The local route supplies canonical page scope; neither source makes the rendered pose a measured conformer or supports physiological, behavioral, treatment, or disease claims."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native source and 1200 by 630 centered-cover derivative review observed one complete connected eleven-center model: eight graphite carbon-context centers, two rose oxygen-context centers, and one blue nitrogen-context center. Six carbon centers form one ring, the two oxygen centers attach to adjacent ring carbons, and a separate ring carbon connects through two carbon centers to the nitrogen. No center or connector is clipped."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text states the visible heavy-atom composition without relying on color; the caption separates chemical identity from omitted hydrogens, physiological protonation state, measured conformation, formulation, concentration, receptor binding, signaling, treatment, and disease claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 f1bea70f61720bd6c2529b9fef35f3e2c48f5119fad6efc85fef81ab95f994c3; master 45b90d0fe11815274ef181099a90cab2dfa23229f4b5b80e5977b52e56135346; article fc0ad02ef829c27db9274604feee60a9e3b8fb4546653bd08292d6c335004f64; centered-cover social a41df0839a05233a6e126bf656e86a968bf5990dee170256a90121675f3a1544.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "dopamine-draft.png",
+        "sourceSha256": "f1bea70f61720bd6c2529b9fef35f3e2c48f5119fad6efc85fef81ab95f994c3",
+        "generationRecord": "exec-acc4a119-4229-4254-a1fb-5db549c38c9d.png",
+        "masterSha256": "45b90d0fe11815274ef181099a90cab2dfa23229f4b5b80e5977b52e56135346",
+        "articleSha256": "fc0ad02ef829c27db9274604feee60a9e3b8fb4546653bd08292d6c335004f64",
+        "socialSha256": "a41df0839a05233a6e126bf656e86a968bf5990dee170256a90121675f3a1544"
+      }
     }
   },
   "rejectedAssets": [
@@ -18460,135 +18497,240 @@
     {
       "pageId": "stop-iron-supplementation-asd",
       "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Autism-Spectrum-Disorder-MeSH:D000067877;child-iron-state-metal-assessment-product-protocol-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-118",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The page exempts true pediatric iron deficiency; autism and microbiome sources do not establish withholding or resolve hepcidin assessment, deficiency, anemia, product, route, dose, population, outcomes, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019266", "https://meshb.nlm.nih.gov/record/ui?ui=D000090463", "https://meshb.nlm.nih.gov/record/ui?ui=D000067877", "local:data/content.generated.json#/pages/stop-iron-supplementation-asd"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000067877",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-asd"
+      ],
       "requiredResolution": "Add direct pediatric evidence and define population, deficiency/anemia and hepcidin criteria, product, formulation, route, elemental dose, schedule, diet, comparator, monitoring, developmental and hematologic outcomes, adverse events, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no child, brain, gut, blood, supplement, elemental Iron, or prohibition image may be published."
     },
     {
       "pageId": "stop-iron-supplementation-schizophrenia",
       "controlledIdentifier": "Iron-Dietary-MeSH:D019266;Iron-Deficiencies-MeSH:D000090463;Schizophrenia-MeSH:D012559;neuroinflammation-anemia-product-protocol-and-psychiatric-outcomes-unresolved",
-      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-118",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The page exempts true iron deficiency; its sources do not establish withholding or resolve neuroinflammation, anemia, product, route, dose, antipsychotic treatment, psychiatric outcomes, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019266", "https://meshb.nlm.nih.gov/record/ui?ui=D000090463", "https://meshb.nlm.nih.gov/record/ui?ui=D012559", "local:data/content.generated.json#/pages/stop-iron-supplementation-schizophrenia"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019266",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000090463",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D012559",
+        "local:data/content.generated.json#/pages/stop-iron-supplementation-schizophrenia"
+      ],
       "requiredResolution": "Add direct evidence and define schizophrenia phenotype and treatment, neuroinflammation assessment, deficiency/anemia, product, route, dose, population, comparator, monitoring, psychiatric and hematologic outcomes, adverse events, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no stigmatizing patient, brain, blood, supplement, iron, or prohibition image may be published."
     },
     {
       "pageId": "stop-iron-phosphate-binders-ckd",
       "controlledIdentifier": "Renal-Insufficiency-Chronic-MeSH:D051436;iron-based-phosphate-binder-product-ckd-stage-dialysis-protocol-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-118",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "CKD microbiome reviews do not establish discontinuation; exact binder, CKD stage, dialysis, phosphate and iron status, dose, comparator, monitoring, outcomes, safety, and exceptions are unresolved.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D051436", "local:data/content.generated.json#/pages/stop-iron-phosphate-binders-ckd"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051436",
+        "local:data/content.generated.json#/pages/stop-iron-phosphate-binders-ckd"
+      ],
       "requiredResolution": "Select the exact binder and define CKD stage, dialysis, phosphate and iron status, dose, schedule, concurrent therapy, population, comparator, microbiome method, biochemical and clinical outcomes, adverse events, monitoring, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no kidney, tablet, elemental Iron, gut, or prohibition image may be published."
     },
     {
       "pageId": "stop-isolated-zinc-supplementation-pcos",
       "controlledIdentifier": "Zinc-MeSH:D015032;Polycystic-Ovary-Syndrome-MeSH:D011085;zinc-compound-isolation-copper-status-dose-protocol-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-118",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The linked records concern other metals, not a zinc intervention; compound, dose, copper status, PCOS phenotype, reproductive context, outcomes, safety, and exceptions are unresolved.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015032", "https://meshb.nlm.nih.gov/record/ui?ui=D011085", "local:data/content.generated.json#/pages/stop-isolated-zinc-supplementation-pcos"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015032",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D011085",
+        "local:data/content.generated.json#/pages/stop-isolated-zinc-supplementation-pcos"
+      ],
       "requiredResolution": "Add direct zinc-intervention evidence and define compound, formulation, elemental dose, duration, zinc/copper status, diet, PCOS phenotype, reproductive context, population, comparator, monitoring, outcomes, adverse events, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no elemental Zinc, supplement, ovary, follicle, patient, or prohibition image may be published."
     },
     {
       "pageId": "stop-ppi-monotherapy-without-microbiome-support-gerd",
       "controlledIdentifier": "Proton-Pump-Inhibitors-MeSH:D054328;Gastroesophageal-Reflux-MeSH:D005764;ppi-agent-duration-probiotic-strain-protocol-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-118",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "PPIs remain indicated, while no exact PPI plus probiotic strain/product combination, duration, GERD phenotype, comparator, microbiome method, outcomes, safety, or exceptions are defined.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D054328", "https://meshb.nlm.nih.gov/record/ui?ui=D005764", "local:data/content.generated.json#/pages/stop-ppi-monotherapy-without-microbiome-support-gerd"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D054328",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D005764",
+        "local:data/content.generated.json#/pages/stop-ppi-monotherapy-without-microbiome-support-gerd"
+      ],
       "requiredResolution": "Select exact PPI and probiotic agents, formulations, doses and timing; define GERD phenotype, population, comparator, treatment duration, microbiome method, symptom, mucosal and safety outcomes, monitoring, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no reflux anatomy, pill, microbe, combined product, or prohibition image may be published."
     },
     {
       "pageId": "stop-neglecting-constipation-ckd",
       "controlledIdentifier": "Constipation-MeSH:D003248;Renal-Insufficiency-Chronic-MeSH:D051436;constipation-cause-ckd-stage-treatment-protocol-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-118", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-118",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "One observational record does not define management; constipation cause, CKD stage, dialysis, fluid/electrolyte constraints, exact intervention, dose, outcomes, contraindications, safety, and exceptions are unresolved.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D003248", "https://meshb.nlm.nih.gov/record/ui?ui=D051436", "local:data/content.generated.json#/pages/stop-neglecting-constipation-ckd"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D003248",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051436",
+        "local:data/content.generated.json#/pages/stop-neglecting-constipation-ckd"
+      ],
       "requiredResolution": "Add current guidance and define constipation cause, CKD stage and dialysis, fluid/electrolyte limits, exact intervention, formulation, dose, schedule, population, comparator, monitoring, bowel and renal outcomes, adverse events, contraindications, escalation, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no bowel, kidney, stool, laxative, or warning image may be published."
     },
     {
       "pageId": "stop-nickel-rich-foods-snas",
       "controlledIdentifier": "Nickel-MeSH:D009532;systemic-nickel-allergy-syndrome-food-identity-serving-analytical-method-phenotype-threshold-and-diet-protocol-unresolved",
-      "batchId": "clinical-cautions-119", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-119",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The route spans many foods with variable nickel measurements, servings, phenotypes, thresholds, and interventions; it does not identify one stable physical subject or authoritative visual dataset.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D009532", "local:data/content.generated.json#/pages/stop-nickel-rich-foods-snas"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009532",
+        "local:data/content.generated.json#/pages/stop-nickel-rich-foods-snas"
+      ],
       "requiredResolution": "Select a dated authoritative food-composition dataset and method; define food identity, cultivar and processing, serving, nickel concentration and uncertainty, phenotype, diagnosis, threshold, duration, comparator, nutritional adequacy, monitoring, outcomes, exceptions, and one non-prescriptive subject.",
       "routingImpact": "The route remains uncovered and asset-free; no generic food collage, elemental Nickel proxy, patient, skin, gut, warning, or prohibition image may be published."
     },
     {
       "pageId": "stop-nsaids-ckd",
       "controlledIdentifier": "Anti-Inflammatory-Agents-Non-Steroidal-MeSH:D000894;Renal-Insufficiency-Chronic-MeSH:D051436;nsaid-agent-dose-route-indication-ckd-stage-renal-risk-alternative-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-119", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-119",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "One CKD microbiome review does not resolve an NSAID agent, formulation, dose, indication, CKD stage, renal-risk context, comparator, monitoring, outcomes, alternatives, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D000894", "https://meshb.nlm.nih.gov/record/ui?ui=D051436", "local:data/content.generated.json#/pages/stop-nsaids-ckd"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000894",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D051436",
+        "local:data/content.generated.json#/pages/stop-nsaids-ckd"
+      ],
       "requiredResolution": "Add current renal and pharmacologic guidance; define the exact NSAID, indication, formulation, route, dose, duration, CKD stage, kidney function, volume status, comorbidities, interacting medicines, population, comparator, monitoring, renal and pain outcomes, adverse events, alternatives, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no pill, kidney, pain, microbiome, warning, crossed-out medicine, or prohibition image may be published."
     },
     {
       "pageId": "stop-probiotics-without-stress-management-ovarian-cancer",
       "controlledIdentifier": "Probiotics-MeSH:D019936;Ovarian-Neoplasms-MeSH:D010051;stress-intervention-probiotic-strain-cancer-state-treatment-context-and-human-outcomes-unresolved",
-      "batchId": "clinical-cautions-119", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-119",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "A single animal-model thesis does not resolve a human probiotic product, stress intervention, ovarian-cancer state, treatment context, comparator, clinical outcomes, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019936", "https://meshb.nlm.nih.gov/record/ui?ui=D010051", "local:data/content.generated.json#/pages/stop-probiotics-without-stress-management-ovarian-cancer"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D010051",
+        "local:data/content.generated.json#/pages/stop-probiotics-without-stress-management-ovarian-cancer"
+      ],
       "requiredResolution": "Add direct human evidence; define cancer subtype and stage, treatment context, stress measure and intervention, probiotic species, strain, product, dose and timing, population, comparator, microbiome and immune methods, clinical outcomes, adverse events, contraindications, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no patient, ovary, tumor, cortisol, microbe, supplement, wellness, warning, or prohibition image may be published."
     },
     {
       "pageId": "stop-broad-spectrum-antibiotics-pre-nec",
       "controlledIdentifier": "Anti-Bacterial-Agents-MeSH:D000900;Enterocolitis-Necrotizing-MeSH:D020345;preterm-infant-antibiotic-agent-indication-protocol-evidence-and-neonatal-outcomes-unresolved",
-      "batchId": "clinical-cautions-119", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-119",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The high-stakes neonatal route has zero linked sources and explicitly labels itself a mechanistic hypothesis; population, infection assessment, antibiotic protocol, feeding, comparator, NEC definition, outcomes, safety, and exceptions are unresolved.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D000900", "https://meshb.nlm.nih.gov/record/ui?ui=D020345", "local:data/content.generated.json#/pages/stop-broad-spectrum-antibiotics-pre-nec"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000900",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020345",
+        "local:data/content.generated.json#/pages/stop-broad-spectrum-antibiotics-pre-nec"
+      ],
       "requiredResolution": "Add current neonatal guidance and comparative evidence; define gestational and postnatal age, birth weight, infection assessment and cultures, exact agent, spectrum, route, dose and duration, indication, unit protocol, feeding, comparator, NEC definition and stage, microbiome method, sepsis, mortality and safety outcomes, stopping rules, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no infant, intestine, antibiotic, bottle, microbiome, warning, treatment, or prohibition image may be published."
     },
     {
       "pageId": "stop-scfa-replacement-without-dysbiosis-restoration-ms",
       "controlledIdentifier": "Fatty-Acids-Volatile-MeSH:D005232;Multiple-Sclerosis-MeSH:D009103;scfa-compound-formulation-clostridial-taxa-restoration-protocol-ms-phenotype-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-119", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-119",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The hypothesis combines several SCFAs, microbial groups, ecological restoration, diet, B-cell therapy and bile-acid support without resolving compounds, strains or products, MS state, comparator, outcomes, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D005232", "https://meshb.nlm.nih.gov/record/ui?ui=D009103", "local:data/content.generated.json#/pages/stop-scfa-replacement-without-dysbiosis-restoration-ms"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D005232",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D009103",
+        "local:data/content.generated.json#/pages/stop-scfa-replacement-without-dysbiosis-restoration-ms"
+      ],
       "requiredResolution": "Add direct comparative evidence; define exact SCFA compound, formulation and dose and exact taxa, strains or restoration product; define MS phenotype and activity, concurrent therapy, population, comparator, methods, neurologic and patient-centered outcomes, adverse events, monitoring, duration, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no MS anatomy, metabolite, microorganism, product, warning, or prohibition image may represent this multi-component protocol."
     },
     {
       "pageId": "stop-standard-probiotics-endometriosis",
       "controlledIdentifier": "Probiotics-MeSH:D019936;Endometriosis-MeSH:D004715;unselected-probiotic-product-strain-endometriosis-phenotype-combination-protocol-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-119", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-119",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Standard or unselected does not identify a probiotic product or strain, while the route combines microbial, fungal, metal, diet, lactoferrin and supplement claims without resolving disease state, comparator, outcomes, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019936", "https://meshb.nlm.nih.gov/record/ui?ui=D004715", "local:data/content.generated.json#/pages/stop-standard-probiotics-endometriosis"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D004715",
+        "local:data/content.generated.json#/pages/stop-standard-probiotics-endometriosis"
+      ],
       "requiredResolution": "Add strain-specific comparative evidence; define species, strains, product, formulation, dose, timing and duration, endometriosis phenotype and stage, fertility and hormonal-treatment context, concurrent interventions, population, comparator, methods, symptom, fertility and lesion outcomes, adverse events, contraindications, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no anatomy, microorganism, elemental metal, supplement, warning, or prohibition image may be published as a protocol proxy."
     },
     {
       "pageId": "stop-wrong-strain-probiotics-schizophrenia",
       "controlledIdentifier": "Probiotics-MeSH:D019936;Schizophrenia-MeSH:D012559;commercial-product-composition-strain-dose-psychiatric-phenotype-treatment-context-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-120", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-120",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "Several strains and mixed formulations are compared without one complete product, viable composition, dose, psychiatric phenotype and treatment, comparator, outcomes, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019936", "https://meshb.nlm.nih.gov/record/ui?ui=D012559", "local:data/content.generated.json#/pages/stop-wrong-strain-probiotics-schizophrenia"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D012559",
+        "local:data/content.generated.json#/pages/stop-wrong-strain-probiotics-schizophrenia"
+      ],
       "requiredResolution": "Select one exact product and complete strain-level composition; define viable dose, formulation, storage, timing, duration, schizophrenia phenotype and treatment, population, comparator, methods, psychiatric, metabolic and patient-centered outcomes, adverse events, contraindications, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no generic microbe, capsule, brain, patient, warning, crossed-out strain, or prohibition image may be published."
     },
     {
       "pageId": "stop-zinc-supplementation-endometriosis",
       "controlledIdentifier": "Zinc-MeSH:D015032;Endometriosis-MeSH:D004715;single-conference-source-zinc-compound-deficiency-assessment-disease-phenotype-protocol-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-120", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-120",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "One conference source and an explicit hypothesis do not resolve zinc compound, dose, nutritional assessment, endometriosis phenotype, treatment context, comparator, outcomes, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015032", "https://meshb.nlm.nih.gov/record/ui?ui=D004715", "local:data/content.generated.json#/pages/stop-zinc-supplementation-endometriosis"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015032",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D004715",
+        "local:data/content.generated.json#/pages/stop-zinc-supplementation-endometriosis"
+      ],
       "requiredResolution": "Add peer-reviewed clinical evidence and current guidance; define zinc compound, formulation, elemental dose, nutritional assessment, duration, endometriosis phenotype and stage, fertility and hormonal-treatment context, population, comparator, monitoring, symptom, fertility and lesion outcomes, adverse events, contraindications, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no Zinc specimen, supplement, endometriosis anatomy, patient, warning, or prohibition image may be published as a clinical proxy."
     },
     {
       "pageId": "stop-zinc-supplementation-h-pylori",
       "controlledIdentifier": "Zinc-MeSH:D015032;Helicobacter-pylori-NCBI-Taxonomy:210;active-infection-confirmation-zinc-compound-eradication-regimen-protocol-and-outcomes-unresolved",
-      "batchId": "clinical-cautions-120", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "batchId": "clinical-cautions-120",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
       "reason": "The timing-dependent claim does not resolve zinc product, infection-confirmation and resistance state, gastric disease, eradication regimen, dose, comparator, outcomes, safety, or exceptions.",
-      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015032", "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=210", "local:data/content.generated.json#/pages/stop-zinc-supplementation-h-pylori"],
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015032",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=210",
+        "local:data/content.generated.json#/pages/stop-zinc-supplementation-h-pylori"
+      ],
       "requiredResolution": "Add zinc-specific comparative evidence and current guidance; define active-infection confirmation, strain and resistance context, gastric disease state, eradication regimen, zinc compound, formulation, elemental dose, route, timing and duration, nutritional status, population, comparator, monitoring, eradication, mucosal and symptom outcomes, adverse events, contraindications, post-eradication boundary, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no H. pylori, Zinc, Nickel, stomach, tablet, food, warning, or prohibition image may be published as a protocol proxy."
     },

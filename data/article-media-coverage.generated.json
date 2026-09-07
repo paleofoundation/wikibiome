@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "22191c5abe09b5619b20a38f42d62f393836640a37fd8fe974f46c53f3d5a0f2",
+    "registrySha256": "8ecaf6aa71e8dc1b437840125c493b909567bd5e10ca255bde00eba3285abef0",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "021ef61023063f55f09bd2043a89b66af2eb3e521edcff09d2fa832a761725bb",
+    "reviewLogSha256": "a942a9438d838d35e70b93dcdfaf8d8287dcb54959d138079cd801729de9343a",
     "batchManifests": [
       {
         "file": "data/article-media-batches/clinical-cautions-114.json",
@@ -125,6 +125,12 @@
         "batchId": "diseases-068",
         "status": "reviewed",
         "sha256": "9e9074e48ef847580d00d9fe6edfe143fb17fc3b473f80a86959041c7917d2ad"
+      },
+      {
+        "file": "data/article-media-batches/entity-analysis-reference-121.json",
+        "batchId": "entity-analysis-reference-121",
+        "status": "reviewed",
+        "sha256": "cb5e97355fb0788d9f005c32d77c9900b745a3654f9162384ee25178c70d1047"
       },
       {
         "file": "data/article-media-batches/host-defenses-097.json",
@@ -752,11 +758,11 @@
   },
   "current": {
     "total": 710,
-    "completed": 372,
-    "remaining": 338,
-    "rejected": 340,
+    "completed": 373,
+    "remaining": 337,
+    "rejected": 345,
     "revised": 12,
-    "scientificHolds": 277,
+    "scientificHolds": 282,
     "inReview": 0
   },
   "categories": [
@@ -813,8 +819,8 @@
       "id": "entity-analysis-reference",
       "label": "Entity, analysis, and reference routes",
       "total": 16,
-      "completed": 0,
-      "remaining": 16
+      "completed": 1,
+      "remaining": 15
     }
   ],
   "rejectedAssets": [
@@ -6648,6 +6654,84 @@
       ],
       "requiredResolution": "Add zinc-specific comparative evidence and current guidance; define active-infection confirmation, strain and resistance context, gastric disease state, eradication regimen, zinc compound, formulation, elemental dose, route, timing and duration, nutritional status, population, comparator, monitoring, eradication, mucosal and symptom outcomes, adverse events, contraindications, post-eradication boundary, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no H. pylori, Zinc, Nickel, stomach, tablet, food, warning, or prohibition image may be published as a protocol proxy."
+    },
+    {
+      "pageId": "dietary-metal-exposure-by-life-stage",
+      "controlledIdentifier": "WikiBiome:dietary-metal-exposure-by-life-stage;multi-life-stage-multi-element-exposure-synthesis",
+      "batchId": "entity-analysis-reference-121",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route spans fetal development through older age, many metals and chemical forms, foods, absorption, detoxification, target organs, regulation, and microbiome interactions without one specimen, exposure, measured dataset, organ, or validated comparison.",
+      "checkedUrls": [
+        "local:data/content.generated.json#/pages/dietary-metal-exposure-by-life-stage",
+        "https://www.wikibiome.com/article/dietary-metal-exposure-by-life-stage"
+      ],
+      "requiredResolution": "Select exact life stages, population, dietary sources, elements and chemical forms, dose or concentration units, specimen and analytical method, measured outcomes, comparator, evidence tier, and a validated chart or physical subject.",
+      "routingImpact": "The route remains uncovered and asset-free; no generic body, food, metal, life-course timeline, or invented quantitative infographic may be published."
+    },
+    {
+      "pageId": "dietary-metal-paradoxes",
+      "controlledIdentifier": "WikiBiome:dietary-metal-paradoxes;multi-paradox-umbrella-analysis",
+      "batchId": "entity-analysis-reference-121",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The page is an umbrella synthesis linking distinct paradoxes involving different foods, elements, diseases, populations, mechanisms, and interventions; a collage would collapse non-equivalent claims and compete with dedicated paradox pages.",
+      "checkedUrls": [
+        "local:data/content.generated.json#/pages/dietary-metal-paradoxes",
+        "https://www.wikibiome.com/article/dietary-metal-paradoxes"
+      ],
+      "requiredResolution": "Keep primary scientific media on each dedicated paradox page; any future overview must use a cited versioned taxonomy with fixed nodes, relationships, evidence tiers, and accessible text.",
+      "routingImpact": "The route remains uncovered and asset-free; no generic food-and-metal collage or invented network may be published."
+    },
+    {
+      "pageId": "glossary",
+      "controlledIdentifier": "WikiBiome:glossary;multi-term-reference-index",
+      "batchId": "entity-analysis-reference-121",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The glossary is a source-free reference index containing many unrelated organisms, chemicals, diseases, pathways, methods, and editorial terms rather than one scientific subject.",
+      "checkedUrls": [
+        "local:data/content.generated.json#/pages/glossary",
+        "https://www.wikibiome.com/article/glossary"
+      ],
+      "requiredResolution": "Use accessible typographic navigation and term-level links; do not assign scientific primary media unless the route becomes a bounded, cited reference object with a defined subject.",
+      "routingImpact": "The route remains uncovered and asset-free; no generic book, alphabet, laboratory, or decorative science imagery may be published as primary scientific media."
+    },
+    {
+      "pageId": "hungatella",
+      "controlledIdentifier": "NCBI-Taxonomy:1649459;type-species-NCBI-Taxonomy:154046;LPSN:518513;local-category-other;local-source-count-0",
+      "batchId": "entity-analysis-reference-121",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower taxonomic, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The current valid genus and H. hathewayi type species are identifiable, but the local route is categorized as other, has zero source records, retains stale family placement, and lacks reviewed type-material morphology evidence.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/genus/hungatella",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=1649459&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=154046&mode=Info",
+        "local:data/content.generated.json#/pages/hungatella"
+      ],
+      "requiredResolution": "Reclassify the route through the upstream pipeline, update current family placement, attach type-species and type-strain morphology sources, reconcile unsupported claims, then repeat the microorganism morphology audit.",
+      "routingImpact": "The route remains uncovered and asset-free; no morphology or generic evidence-index image may be published from the misclassified source-free record."
+    },
+    {
+      "pageId": "intestinibacter",
+      "controlledIdentifier": "NCBI-Taxonomy:261299;type-strain-DSM:16795;LPSN:518554;local-category-other;local-source-count-0",
+      "batchId": "entity-analysis-reference-121",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower taxonomic, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The current valid genus, I. bartlettii type species, and deposited type strain are identifiable, but the local route is categorized as other, has zero source records, and lacks reviewed type-material morphology evidence.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/genus/intestinibacter",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=261299&mode=Info",
+        "local:data/content.generated.json#/pages/intestinibacter"
+      ],
+      "requiredResolution": "Reclassify the route through the upstream pipeline, attach type-species and type-strain morphology sources, reconcile unsupported claims, then repeat the microorganism morphology audit.",
+      "routingImpact": "The route remains uncovered and asset-free; no morphology or generic evidence-index image may be published from the misclassified source-free record."
     }
   ],
   "revisedAssets": [
@@ -6802,55 +6886,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 695,
-      "id": "dietary-metal-exposure-by-life-stage",
-      "title": "Dietary Metal Exposure by Life Stage",
-      "route": "/article/dietary-metal-exposure-by-life-stage",
-      "category": "analysis",
-      "coverageGroup": "entity-analysis-reference",
-      "suggestedAssetType": "evidence-index"
-    },
-    {
-      "queuePosition": 696,
-      "id": "dietary-metal-paradoxes",
-      "title": "Dietary Metal Paradoxes: When Healthy Foods and Good Intentions Backfire",
-      "route": "/article/dietary-metal-paradoxes",
-      "category": "analysis",
-      "coverageGroup": "entity-analysis-reference",
-      "suggestedAssetType": "evidence-index"
-    },
-    {
-      "queuePosition": 697,
-      "id": "dopamine",
-      "title": "Dopamine",
-      "route": "/article/dopamine",
+      "queuePosition": 701,
+      "id": "kynurenine",
+      "title": "Kynurenine",
+      "route": "/article/kynurenine",
       "category": "entity",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index"
     },
     {
-      "queuePosition": 698,
-      "id": "glossary",
-      "title": "Glossary",
-      "route": "/article/glossary",
-      "category": "reference",
+      "queuePosition": 702,
+      "id": "metal-disease-matrix",
+      "title": "Metal-Disease Matrix: A Cross-Source Synthesis",
+      "route": "/article/metal-disease-matrix",
+      "category": "analysis",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index"
     },
     {
-      "queuePosition": 699,
-      "id": "hungatella",
-      "title": "Hungatella",
-      "route": "/article/hungatella",
+      "queuePosition": 703,
+      "id": "metformin",
+      "title": "Metformin",
+      "route": "/article/metformin",
+      "category": "entity",
+      "coverageGroup": "entity-analysis-reference",
+      "suggestedAssetType": "evidence-index"
+    },
+    {
+      "queuePosition": 704,
+      "id": "methanobrevibacter-smithii",
+      "title": "Methanobrevibacter smithii",
+      "route": "/article/methanobrevibacter-smithii",
+      "category": "entity",
+      "coverageGroup": "entity-analysis-reference",
+      "suggestedAssetType": "evidence-index"
+    },
+    {
+      "queuePosition": 705,
+      "id": "neisseria-meningitidis",
+      "title": "Neisseria Meningitidis",
+      "route": "/article/neisseria-meningitidis",
       "category": "other",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index"
     },
     {
-      "queuePosition": 700,
-      "id": "intestinibacter",
-      "title": "Intestinibacter",
-      "route": "/article/intestinibacter",
+      "queuePosition": 706,
+      "id": "oxalobacter",
+      "title": "Oxalobacter",
+      "route": "/article/oxalobacter",
       "category": "other",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index"
@@ -20906,7 +20990,13 @@
       "route": "/article/dietary-metal-exposure-by-life-stage",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, and editorial audit",
+        "reason": "The route spans fetal development through older age, many metals and chemical forms, foods, absorption, detoxification, target organs, regulation, and microbiome interactions without one specimen, exposure, measured dataset, organ, or validated comparison.",
+        "requiredResolution": "Select exact life stages, population, dietary sources, elements and chemical forms, dose or concentration units, specimen and analytical method, measured outcomes, comparator, evidence tier, and a validated chart or physical subject."
+      }
     },
     {
       "queuePosition": 696,
@@ -20919,7 +21009,13 @@
       "route": "/article/dietary-metal-paradoxes",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, and editorial audit",
+        "reason": "The page is an umbrella synthesis linking distinct paradoxes involving different foods, elements, diseases, populations, mechanisms, and interventions; a collage would collapse non-equivalent claims and compete with dedicated paradox pages.",
+        "requiredResolution": "Keep primary scientific media on each dedicated paradox page; any future overview must use a cited versioned taxonomy with fixed nodes, relationships, evidence tiers, and accessible text."
+      }
     },
     {
       "queuePosition": 697,
@@ -20932,7 +21028,15 @@
       "route": "/article/dopamine",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "evidence-index",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "dopamine-evidence-index-v1-master.png",
+        "publishedFile": "dopamine-evidence-index-v1.webp",
+        "socialFile": "dopamine-evidence-index-v1-social.webp"
+      }
     },
     {
       "queuePosition": 698,
@@ -20945,7 +21049,13 @@
       "route": "/article/glossary",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, and editorial audit",
+        "reason": "The glossary is a source-free reference index containing many unrelated organisms, chemicals, diseases, pathways, methods, and editorial terms rather than one scientific subject.",
+        "requiredResolution": "Use accessible typographic navigation and term-level links; do not assign scientific primary media unless the route becomes a bounded, cited reference object with a defined subject."
+      }
     },
     {
       "queuePosition": 699,
@@ -20958,7 +21068,13 @@
       "route": "/article/hungatella",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower taxonomic, scientific, source-resolution, and editorial audit",
+        "reason": "The current valid genus and H. hathewayi type species are identifiable, but the local route is categorized as other, has zero source records, retains stale family placement, and lacks reviewed type-material morphology evidence.",
+        "requiredResolution": "Reclassify the route through the upstream pipeline, update current family placement, attach type-species and type-strain morphology sources, reconcile unsupported claims, then repeat the microorganism morphology audit."
+      }
     },
     {
       "queuePosition": 700,
@@ -20971,7 +21087,13 @@
       "route": "/article/intestinibacter",
       "coverageGroup": "entity-analysis-reference",
       "suggestedAssetType": "evidence-index",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower taxonomic, scientific, source-resolution, and editorial audit",
+        "reason": "The current valid genus, I. bartlettii type species, and deposited type strain are identifiable, but the local route is categorized as other, has zero source records, and lacks reviewed type-material morphology evidence.",
+        "requiredResolution": "Reclassify the route through the upstream pipeline, attach type-species and type-strain morphology sources, reconcile unsupported claims, then repeat the microorganism morphology audit."
+      }
     },
     {
       "queuePosition": 701,

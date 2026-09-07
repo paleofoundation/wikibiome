@@ -33,6 +33,14 @@
     "acceptedSourceSha256": ["f1bea70f61720bd6c2529b9fef35f3e2c48f5119fad6efc85fef81ab95f994c3"],
     "nonPublishablePageIds": ["dietary-metal-exposure-by-life-stage", "dietary-metal-paradoxes", "glossary", "hungatella", "intestinibacter"]
   },
+  "controlSocialCropReview": "accepted-centered-cover-derivative; native 1200 by 630 inspection preserves all eleven heavy-atom centers, the complete ring, both oxygen substituents, the complete two-carbon side chain, and terminal nitrogen without clipping or label leakage",
+  "promotionDerivatives": {
+    "dopamine": {
+      "masterSha256": "45b90d0fe11815274ef181099a90cab2dfa23229f4b5b80e5977b52e56135346",
+      "articleSha256": "fc0ad02ef829c27db9274604feee60a9e3b8fb4546653bd08292d6c335004f64",
+      "socialSha256": "a41df0839a05233a6e126bf656e86a968bf5990dee170256a90121675f3a1544"
+    }
+  },
   "reviewStandard": "Only exact neutral Dopamine is cleared for one immutable heavy-atom connectivity call. The two synthesis routes, the glossary, and the two misclassified source-free microorganism routes fail stable-subject, scope, category, or morphology-authority gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -104,6 +112,9 @@
       "controlledIdentifier": "PubChem:681;InChIKey:VYFYYTLLBUKUHU-UHFFFAOYSA-N",
       "promptSha256": "147ce80df3d4d075c41bf4ba32c28800ceb0835f115dc588a6e648891dd4241f",
       "sha256": "f1bea70f61720bd6c2529b9fef35f3e2c48f5119fad6efc85fef81ab95f994c3",
+      "masterSha256": "45b90d0fe11815274ef181099a90cab2dfa23229f4b5b80e5977b52e56135346",
+      "articleSha256": "fc0ad02ef829c27db9274604feee60a9e3b8fb4546653bd08292d6c335004f64",
+      "socialSha256": "a41df0839a05233a6e126bf656e86a968bf5990dee170256a90121675f3a1544",
       "fileSizeBytes": 1226232,
       "dimensions": {"width": 1536, "height": 1024},
       "scientificReferences": [
@@ -130,7 +141,7 @@
         "containRequired": false,
         "cropNote": "The complete model remains inside the mathematical centered 1200 by 630 cover source window, y=109–914, so centered cover preserves every sphere and connector.",
         "prohibitedContentReview": "No hydrogen, text, label, letter, number, atom symbol, charge symbol, arrow, legend, chart, organ, cell, microorganism, food, pill, vial, glassware, detached fragment, duplicate model, aromatic circle glyph, metal ion, decorative particle, border, vignette, clipping, signature, or watermark is visible.",
-        "metadataConsistency": "pending-promotion"
+        "metadataConsistency": "pass"
       },
       "proposedAlt": "Single heavy-atom connectivity model of dopamine with eight carbon, two oxygen, and one nitrogen center.",
       "proposedCaption": "Heavy-atom connectivity orientation for neutral dopamine. Hydrogens, protonation state under physiological conditions, measured conformation, formulation, concentration, receptor binding, signaling, treatment, and disease claims are intentionally omitted; this is an educational reconstruction.",
