@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T04:22:02.005Z",
+  "_generated": "2026-09-07T04:25:05.671Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -102655,7 +102655,7 @@
         {
           "heading": "Metal-Driven Neuroinflammation",
           "level": 2,
-          "body": "Each neurotoxic metal has a distinct neuroinflammatory profile:\n\n| Metal | Primary Mechanism | Disease Association |\n|---|---|---|\n| [[lead]] | BBB disruption, calcium mimicry, epigenetic reprogramming | [[alzheimers-disease]], [[autism-spectrum-disorder]] |\n| [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |\n| [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |\n| [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |\n| [[aluminum]] | [[nlrp3-inflammasome|NLRP3 inflammasome]], NF-kB activation | AD (controversial) |\n| [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |\n\nAll metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]]."
+          "body": "Each neurotoxic metal has a distinct neuroinflammatory profile:\n\n| Metal | Primary Mechanism | Disease Association |\n|---|---|---|\n| [[lead]] | BBB disruption, calcium mimicry, epigenetic reprogramming | [[alzheimers-disease]], [[autism-spectrum-disorder]] |\n| [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |\n| [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |\n| [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |\n| [[aluminum]] | Inflammasome and NF-kB activation | AD (controversial) |\n| [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |\n\nFor aluminum, the proposed neuroinflammatory profile includes [[nlrp3-inflammasome|NLRP3 inflammasome]] and NF-kB activation, although its association with Alzheimer's disease remains controversial [[ahmed-2025-metals-alzheimers-mechanistic-review]]. More broadly, these metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]]."
         },
         {
           "heading": "Disease-Specific Neuroinflammatory Patterns",

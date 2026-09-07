@@ -62,10 +62,10 @@ Each neurotoxic metal has a distinct neuroinflammatory profile:
 | [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |
 | [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |
 | [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |
-| [[aluminum]] | [[nlrp3-inflammasome|NLRP3 inflammasome]], NF-kB activation | AD (controversial) |
+| [[aluminum]] | Inflammasome and NF-kB activation | AD (controversial) |
 | [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |
 
-All metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]].
+For aluminum, the proposed neuroinflammatory profile includes [[nlrp3-inflammasome|NLRP3 inflammasome]] and NF-kB activation, although its association with Alzheimer's disease remains controversial [[ahmed-2025-metals-alzheimers-mechanistic-review]]. More broadly, these metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]].
 
 ## Disease-Specific Neuroinflammatory Patterns
 
