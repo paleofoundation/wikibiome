@@ -32,7 +32,7 @@ historical_names: [Allisonella histaminiformans]
 
 ## Nomenclatural History
 
-Garner, Flint, and Russell described *Allisonella histaminiformans* from histidine-enrichment cultures of bovine rumen contents. The type strain is MR2, also deposited as ATCC BAA-610, CCUG 48567, and DSM 15230 [[garner-2002-allisonella-histaminiformans-description]]. Heng and colleagues transferred the species to *Dialister* in 2025; NCBI and LPSN now apply the combination *Dialister histaminiformans* [[heng-2025-dialister-histaminiformans-reclassification]] [[ncbi-taxonomy-dialister-histaminiformans]] [[lpsn-dialister-histaminiformans]]. It belongs to the family Veillonellaceae in the phylum Bacillota, not to Bacteroidetes.
+Garner, Flint, and Russell described *Allisonella histaminiformans* from [[histidine]]-enrichment cultures of bovine rumen contents. The type strain is MR2, also deposited as ATCC BAA-610, CCUG 48567, and DSM 15230 [[garner-2002-allisonella-histaminiformans-description]]. Heng and colleagues transferred the species to *Dialister* in 2025; NCBI and LPSN now apply the combination *Dialister histaminiformans* [[heng-2025-dialister-histaminiformans-reclassification]] [[ncbi-taxonomy-dialister-histaminiformans]] [[lpsn-dialister-histaminiformans]]. It belongs to the family Veillonellaceae in the phylum Bacillota, not to Bacteroidetes.
 
 ## Evidence Boundary
 

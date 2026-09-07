@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T06:56:01.083Z",
+  "_generated": "2026-09-07T07:17:28.954Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -3330,7 +3330,7 @@
         {
           "heading": "The Copper Paradox: Brain Depletion, Peripheral Excess",
           "level": 3,
-          "body": "This is the defining metallomic feature of Alzheimer's disease:\n\n- Post-mortem brain metallomics reveals widespread Cu decreases across multiple brain regions in AD (also in DLB and PDD), with Cu changes contributing most to the multivariate separation between dementia types [[scholefield-2024-brain-metallomics-dementia]].\n- Cu depletion spans hippocampus, cingulate gyrus, middle temporal gyrus, substantia nigra, primary visual cortex, and putamen [[scholefield-2024-brain-metallomics-dementia]].\n- Yet peripherally, Cu is often normal or elevated -- the paradox suggests disturbed Cu trafficking rather than simple depletion.\n- Ceruloplasmin dysfunction is a candidate mechanism: it both elevates circulating Cu and fails to deliver Cu to the brain [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].\n- Cu-amyloid-beta interactions promote toxic oligomer formation -- Cu binds A-beta at histidine residues, catalyzing ROS production and accelerating aggregation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].\n- Cu depletion impairs cytochrome c oxidase (mitochondrial respiration), Cu/Zn-SOD (antioxidant defense), and ceruloplasmin (iron homeostasis) in brain tissue."
+          "body": "This is the defining metallomic feature of Alzheimer's disease:\n\n- Post-mortem brain metallomics reveals widespread Cu decreases across multiple brain regions in AD (also in DLB and PDD), with Cu changes contributing most to the multivariate separation between dementia types [[scholefield-2024-brain-metallomics-dementia]].\n- Cu depletion spans hippocampus, cingulate gyrus, middle temporal gyrus, substantia nigra, primary visual cortex, and putamen [[scholefield-2024-brain-metallomics-dementia]].\n- Yet peripherally, Cu is often normal or elevated -- the paradox suggests disturbed Cu trafficking rather than simple depletion.\n- Ceruloplasmin dysfunction is a candidate mechanism: it both elevates circulating Cu and fails to deliver Cu to the brain [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].\n- Cu-amyloid-beta interactions promote toxic oligomer formation -- Cu binds A-beta at [[histidine]] residues, catalyzing ROS production and accelerating aggregation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].\n- Cu depletion impairs cytochrome c oxidase (mitochondrial respiration), Cu/Zn-SOD (antioxidant defense), and ceruloplasmin (iron homeostasis) in brain tissue."
         },
         {
           "heading": "Iron: Accumulation and Ferroptosis",
@@ -3420,6 +3420,7 @@
         "metal-disease-matrix",
         "scholefield-2024-brain-metallomics-dementia",
         "doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons",
+        "histidine",
         "ferroptosis",
         "parkinsons-disease",
         "bakulski-2020-heavy-metals-alzheimers-dementias",
@@ -9908,7 +9909,7 @@
         {
           "heading": "Biological Chemistry",
           "level": 2,
-          "body": "Bismuth has no known essential role in human or bacterial biology. All of its biological effects derive from its coordination chemistry — a highly oxophilic and thiophilic cation with ionic radius (1.03 Å) similar enough to Fe3+ (0.65 Å octahedral; larger in tetrahedral) and Zn2+ (0.74 Å) to occupy their binding pockets, but with binding constants for S- and O-donor ligands that can exceed physiological metals by 3-10 log units. This makes bismuth a promiscuous competitor for soft-donor coordination sites in proteins, particularly cysteine-rich metallothionein-like domains and histidine/glutamate clusters in metallochaperones.\n\nBecause bismuth sequesters thiols and iron-binding sites without participating in physiological redox chemistry, it behaves as an ecological stressor rather than a reactive toxin — it starves organisms of their metal cofactors without producing ROS or alkylating DNA."
+          "body": "Bismuth has no known essential role in human or bacterial biology. All of its biological effects derive from its coordination chemistry — a highly oxophilic and thiophilic cation with ionic radius (1.03 Å) similar enough to Fe3+ (0.65 Å octahedral; larger in tetrahedral) and Zn2+ (0.74 Å) to occupy their binding pockets, but with binding constants for S- and O-donor ligands that can exceed physiological metals by 3-10 log units. This makes bismuth a promiscuous competitor for soft-donor coordination sites in proteins, particularly cysteine-rich metallothionein-like domains and [[histidine]]/glutamate clusters in metallochaperones.\n\nBecause bismuth sequesters thiols and iron-binding sites without participating in physiological redox chemistry, it behaves as an ecological stressor rather than a reactive toxin — it starves organisms of their metal cofactors without producing ROS or alkylating DNA."
         },
         {
           "heading": "Mechanism of Antimicrobial Action",
@@ -9952,6 +9953,7 @@
         }
       ],
       "wikilinks": [
+        "histidine",
         "wang-2023-metallo-sideromycin-bismuth-cefiderocol",
         "urease",
         "nickel",
@@ -10840,6 +10842,10 @@
           "score": 8
         },
         {
+          "id": "histidine",
+          "score": 7
+        },
+        {
           "id": "hydrogenase",
           "score": 7
         },
@@ -10857,10 +10863,6 @@
         },
         {
           "id": "klebsiella-pneumoniae",
-          "score": 6
-        },
-        {
-          "id": "mycobacterium-tuberculosis",
           "score": 6
         }
       ]
@@ -18927,7 +18929,7 @@
         {
           "heading": "Interactions with Other Metals",
           "level": 2,
-          "body": "- [[zinc]]: The most important interaction. Cu and Zn compete for metallothionein binding, intestinal absorption (DMT-1), and SOD1 cofactor sites. Elevated Cu/Zn ratio is a pan-disease biomarker. Zinc supplementation induces metallothionein in enterocytes, which binds copper with high affinity and prevents its absorption -- the basis for zinc therapy in Wilson's disease [[russo-2011-copper-zinc-autism-gi-disease]].\n- [[iron]]: Cu is required for ceruloplasmin-mediated iron oxidation (Fe2+ to Fe3+); Cu deficiency impairs iron metabolism. Fe/Cu ratio is an AMI biomarker [[lim-2023-plasma-metallomics-ami]]. Cu+ destroys Fe-S clusters in metabolic enzymes, causing iron starvation responses even when total iron is adequate [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]].\n- [[nickel]]: Co-elevated in lung cancer; commonly co-contaminates freshwater. At environmentally relevant concentrations, Ni and Cu are synergistically toxic through converging Fe-S cluster destruction -- 70% of affected genes are unique to the combination [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]. Histidine supplementation rescues combined Ni/Cu toxicity by chelating both metals [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].\n- Molybdenum: Antagonistic relationship -- excess Cu decreases Mo absorption by forming non-absorbable Cu-Mo complexes in the GI tract. Mo deficiency may exacerbate Cu excess [[smovrsnik-2025-trace-elements-pcos]]. Copper chelators like tetrathiomolybdate exploit this interaction therapeutically.\n- [[selenium]]: Cu/Se ratio is an AMI biomarker; both are altered in cancer [[lim-2023-plasma-metallomics-ami]].\n- [[cadmium]]: Cd disrupts Cu homeostasis; both are elevated in cancer biofluids.\n- [[manganese]]: Copper displaces manganese from Mn-dependent enzymes including SodA, compromising antioxidant defense [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]. Calprotectin-mediated Mn restriction synergizes with copper toxicity in the phagosome [[bushman-2025-nutrient-metals-bacteria-gut-infection]]."
+          "body": "- [[zinc]]: The most important interaction. Cu and Zn compete for metallothionein binding, intestinal absorption (DMT-1), and SOD1 cofactor sites. Elevated Cu/Zn ratio is a pan-disease biomarker. Zinc supplementation induces metallothionein in enterocytes, which binds copper with high affinity and prevents its absorption -- the basis for zinc therapy in Wilson's disease [[russo-2011-copper-zinc-autism-gi-disease]].\n- [[iron]]: Cu is required for ceruloplasmin-mediated iron oxidation (Fe2+ to Fe3+); Cu deficiency impairs iron metabolism. Fe/Cu ratio is an AMI biomarker [[lim-2023-plasma-metallomics-ami]]. Cu+ destroys Fe-S clusters in metabolic enzymes, causing iron starvation responses even when total iron is adequate [[zheng-2025-cuer-copa-cusfabc-copper-detoxification-vibrio]].\n- [[nickel]]: Co-elevated in lung cancer; commonly co-contaminates freshwater. At environmentally relevant concentrations, Ni and Cu are synergistically toxic through converging Fe-S cluster destruction -- 70% of affected genes are unique to the combination [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]. [[Histidine]] supplementation rescues combined Ni/Cu toxicity by chelating both metals [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].\n- Molybdenum: Antagonistic relationship -- excess Cu decreases Mo absorption by forming non-absorbable Cu-Mo complexes in the GI tract. Mo deficiency may exacerbate Cu excess [[smovrsnik-2025-trace-elements-pcos]]. Copper chelators like tetrathiomolybdate exploit this interaction therapeutically.\n- [[selenium]]: Cu/Se ratio is an AMI biomarker; both are altered in cancer [[lim-2023-plasma-metallomics-ami]].\n- [[cadmium]]: Cd disrupts Cu homeostasis; both are elevated in cancer biofluids.\n- [[manganese]]: Copper displaces manganese from Mn-dependent enzymes including SodA, compromising antioxidant defense [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]. Calprotectin-mediated Mn restriction synergizes with copper toxicity in the phagosome [[bushman-2025-nutrient-metals-bacteria-gut-infection]]."
         },
         {
           "heading": "Biomarkers",
@@ -19008,6 +19010,7 @@
         "zinc",
         "iron",
         "nickel",
+        "histidine",
         "selenium",
         "cadmium",
         "manganese",
@@ -22171,7 +22174,7 @@
         {
           "heading": "Nomenclatural History",
           "level": 2,
-          "body": "Garner, Flint, and Russell described *Allisonella histaminiformans* from histidine-enrichment cultures of bovine rumen contents. The type strain is MR2, also deposited as ATCC BAA-610, CCUG 48567, and DSM 15230 [[garner-2002-allisonella-histaminiformans-description]]. Heng and colleagues transferred the species to *Dialister* in 2025; NCBI and LPSN now apply the combination *Dialister histaminiformans* [[heng-2025-dialister-histaminiformans-reclassification]] [[ncbi-taxonomy-dialister-histaminiformans]] [[lpsn-dialister-histaminiformans]]. It belongs to the family Veillonellaceae in the phylum Bacillota, not to Bacteroidetes."
+          "body": "Garner, Flint, and Russell described *Allisonella histaminiformans* from [[histidine]]-enrichment cultures of bovine rumen contents. The type strain is MR2, also deposited as ATCC BAA-610, CCUG 48567, and DSM 15230 [[garner-2002-allisonella-histaminiformans-description]]. Heng and colleagues transferred the species to *Dialister* in 2025; NCBI and LPSN now apply the combination *Dialister histaminiformans* [[heng-2025-dialister-histaminiformans-reclassification]] [[ncbi-taxonomy-dialister-histaminiformans]] [[lpsn-dialister-histaminiformans]]. It belongs to the family Veillonellaceae in the phylum Bacillota, not to Bacteroidetes."
         },
         {
           "heading": "Evidence Boundary",
@@ -22187,6 +22190,7 @@
       "wikilinks": [
         "ncbi-taxonomy-dialister-histaminiformans",
         "lpsn-dialister-histaminiformans",
+        "histidine",
         "garner-2002-allisonella-histaminiformans-description",
         "heng-2025-dialister-histaminiformans-reclassification"
       ],
@@ -29809,6 +29813,10 @@
           "score": 17
         },
         {
+          "id": "histidine",
+          "score": 15
+        },
+        {
           "id": "gastric-cancer",
           "score": 13
         },
@@ -29822,10 +29830,6 @@
         },
         {
           "id": "calprotectin",
-          "score": 9
-        },
-        {
-          "id": "histidine",
           "score": 9
         },
         {
@@ -30217,6 +30221,10 @@
           "score": 14
         },
         {
+          "id": "histidine",
+          "score": 12
+        },
+        {
           "id": "staphylococcus-aureus",
           "score": 11
         },
@@ -30234,10 +30242,6 @@
         },
         {
           "id": "iron",
-          "score": 8
-        },
-        {
-          "id": "biofilm",
           "score": 8
         }
       ]
@@ -38297,7 +38301,7 @@
         {
           "heading": "Key Functions",
           "level": 2,
-          "body": "- GABA production: Possesses glutamate decarboxylase (GAD), producing GABA from dietary glutamate — relevant to the [[gut-brain-axis]] in anxiety and depression.\n- Histamine production: Produces histamine via histidine decarboxylase; at physiological levels, histamine acts as an immunomodulator suppressing TNF-alpha via H2 receptors.\n- Testosterone/oxytocin: *L. reuteri* supplementation increases testosterone and oxytocin levels in animal models, with implications for male fertility and social behavior [[jin-2023-3hpaa-spermatogenesis-ferroptosis]].\n- Spermatogenesis protection: Protects against ferroptosis-mediated testicular damage [[jin-2023-3hpaa-spermatogenesis-ferroptosis]].\n- Thyroid: Part of the probiotic species affecting thyroid hormone metabolism [[docimo-2020-human-microbiota-endocrinology-thyroid]]."
+          "body": "- GABA production: Possesses glutamate decarboxylase (GAD), producing GABA from dietary glutamate — relevant to the [[gut-brain-axis]] in anxiety and depression.\n- Histamine production: Produces histamine via [[histidine]] decarboxylase; at physiological levels, histamine acts as an immunomodulator suppressing TNF-alpha via H2 receptors.\n- Testosterone/oxytocin: *L. reuteri* supplementation increases testosterone and oxytocin levels in animal models, with implications for male fertility and social behavior [[jin-2023-3hpaa-spermatogenesis-ferroptosis]].\n- Spermatogenesis protection: Protects against ferroptosis-mediated testicular damage [[jin-2023-3hpaa-spermatogenesis-ferroptosis]].\n- Thyroid: Part of the probiotic species affecting thyroid hormone metabolism [[docimo-2020-human-microbiota-endocrinology-thyroid]]."
         },
         {
           "heading": "Clinical Evidence",
@@ -38313,6 +38317,7 @@
       "wikilinks": [
         "gaba",
         "gut-brain-axis",
+        "histidine",
         "jin-2023-3hpaa-spermatogenesis-ferroptosis",
         "docimo-2020-human-microbiota-endocrinology-thyroid",
         "ghaderi-2019-vitamin-d-probiotic-schizophrenia-metabolic-rct",
@@ -45910,7 +45915,7 @@
         {
           "heading": "Chemical Properties",
           "level": 2,
-          "body": "- Transition metal (element 28), most commonly found as Ni(II); atomic weight 58.69; five stable isotopes (58Ni at 68.077%, 60Ni, 61Ni, 62Ni, 64Ni) [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]]. Density 8.912 g/cm3; melting point 1455C; boiling point 2913C.\n- Similar ionic radius to Fe(II), allowing it to substitute for iron in enzyme active sites -- a key mechanism in its toxicity [[hypoxic-signaling]], iron homeostasis disruption [[salnikov-2008-metal-carcinogenesis]].\n- Position in the Irving-Williams series (Mn < Fe < Co < Ni < Cu > Zn): nickel binds biological ligands more tightly than iron, cobalt, or manganese, meaning it will preferentially displace these weaker-binding metals from enzyme active sites when concentrations rise -- a process called [[mis-metallation]] [[robinson-2020-metalation-natures-challenge]]. Cells normally prevent this by keeping free nickel at extremely low concentrations, but dietary or environmental loading overwhelms these homeostatic buffers [[capdevila-2024-bacterial-metallostasis-sensing-trafficking]].\n- Forms coordination complexes with cysteine, histidine, glutamate, and lysine residues, enabling protein binding and enzyme inhibition [[genchi-2020-nickel-human-health-environmental-toxicology]]. Histidine is a particularly important nickel-chelating amino acid; supplementation with histidine rescues *E. coli* growth under combined nickel/copper stress by chelating free metal ions extracellularly [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].\n- The fifth most abundant element on Earth [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]]. Ubiquitous in environment from both natural processes and anthropogenic activities (fossil fuel combustion, fertilizers, industrial emissions); found in air, water, soil, sediment, and particulate matter [[liu-2025-cardiometabolic-nickel]].\n- Atmospheric levels range from 0.00001-0.003 ug/m3 (remote), 0.003-0.03 ug/m3 (urban), up to 0.07-0.77 ug/m3 (metallurgical areas) [[cameron-2011-nickel-genotoxicity-carcinogenicity]]; cigarette smoke contains 1.1-3.1 ug Ni per cigarette [[denkhaus-2002-nickel-essentiality-toxicity]], [[genchi-2020-nickel-human-health-environmental-toxicology]]."
+          "body": "- Transition metal (element 28), most commonly found as Ni(II); atomic weight 58.69; five stable isotopes (58Ni at 68.077%, 60Ni, 61Ni, 62Ni, 64Ni) [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]]. Density 8.912 g/cm3; melting point 1455C; boiling point 2913C.\n- Similar ionic radius to Fe(II), allowing it to substitute for iron in enzyme active sites -- a key mechanism in its toxicity [[hypoxic-signaling]], iron homeostasis disruption [[salnikov-2008-metal-carcinogenesis]].\n- Position in the Irving-Williams series (Mn < Fe < Co < Ni < Cu > Zn): nickel binds biological ligands more tightly than iron, cobalt, or manganese, meaning it will preferentially displace these weaker-binding metals from enzyme active sites when concentrations rise -- a process called [[mis-metallation]] [[robinson-2020-metalation-natures-challenge]]. Cells normally prevent this by keeping free nickel at extremely low concentrations, but dietary or environmental loading overwhelms these homeostatic buffers [[capdevila-2024-bacterial-metallostasis-sensing-trafficking]].\n- Forms coordination complexes with cysteine, [[histidine]], glutamate, and lysine residues, enabling protein binding and enzyme inhibition [[genchi-2020-nickel-human-health-environmental-toxicology]]. Histidine is a particularly important nickel-chelating amino acid; supplementation with histidine rescues *E. coli* growth under combined nickel/copper stress by chelating free metal ions extracellularly [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]].\n- The fifth most abundant element on Earth [[rafati-rahimzadeh-2025-nickel-intoxication-mechanisms]]. Ubiquitous in environment from both natural processes and anthropogenic activities (fossil fuel combustion, fertilizers, industrial emissions); found in air, water, soil, sediment, and particulate matter [[liu-2025-cardiometabolic-nickel]].\n- Atmospheric levels range from 0.00001-0.003 ug/m3 (remote), 0.003-0.03 ug/m3 (urban), up to 0.07-0.77 ug/m3 (metallurgical areas) [[cameron-2011-nickel-genotoxicity-carcinogenicity]]; cigarette smoke contains 1.1-3.1 ug Ni per cigarette [[denkhaus-2002-nickel-essentiality-toxicity]], [[genchi-2020-nickel-human-health-environmental-toxicology]]."
         },
         {
           "heading": "Nickel Metabolism and Biomarkers",
@@ -46216,6 +46221,7 @@
         "mis-metallation",
         "robinson-2020-metalation-natures-challenge",
         "capdevila-2024-bacterial-metallostasis-sensing-trafficking",
+        "histidine",
         "genchi-2020-nickel-human-health-environmental-toxicology",
         "darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli",
         "liu-2025-cardiometabolic-nickel",
@@ -48715,7 +48721,7 @@
         {
           "heading": "Metabolomics",
           "level": 2,
-          "body": "Serum metabolomics achieves AUC 0.93 for PC detection using four metabolites (xylitol, 1,5-anhydro-D-glucitol, histidine, inositol), outperforming CA19-9 in early-stage disease (sensitivity 77.8% vs 55.6%). Amino acid metabolism is profoundly disrupted in PDAC tumors: BCAAs (leucine, isoleucine, valine) sustain PDAC growth by fueling lipogenesis through BCAT2/BCKDHA, independent of glycolysis. Intratumoral metabolomics identifies 298 significantly altered metabolites, with amino acid dipeptides and arginine metabolism pathways most dysregulated -- correlating with *Pseudomonas* abundance."
+          "body": "Serum metabolomics achieves AUC 0.93 for PC detection using four metabolites (xylitol, 1,5-anhydro-D-glucitol, [[histidine]], inositol), outperforming CA19-9 in early-stage disease (sensitivity 77.8% vs 55.6%). Amino acid metabolism is profoundly disrupted in PDAC tumors: BCAAs (leucine, isoleucine, valine) sustain PDAC growth by fueling lipogenesis through BCAT2/BCKDHA, independent of glycolysis. Intratumoral metabolomics identifies 298 significantly altered metabolites, with amino acid dipeptides and arginine metabolism pathways most dysregulated -- correlating with *Pseudomonas* abundance."
         },
         {
           "heading": "Virome",
@@ -48750,6 +48756,7 @@
         "bile-acid-metabolism",
         "aspergillus",
         "iron",
+        "histidine",
         "metal-disease-matrix",
         "ferroptosis",
         "colorectal-cancer",
@@ -55089,7 +55096,7 @@
         "conditions_depleted_in": [],
         "pathogenic_potential": "opportunistic"
       },
-      "overview": "A Gram-negative uropathogen whose Ni-dependent [[urease]] is the central driver of catheter-associated urinary tract infection (CAUTI) pathogenesis. Urease-mediated urea hydrolysis produces [[ammonia]] and alkalinizes urine, triggering precipitation of struvite (magnesium ammonium phosphate) and apatite crystals that form kidney stones and encrust urinary catheters. *P. mirabilis* has evolved specialized nickel handling proteins, including an accessory protein that is 39% histidine -- one of the most histidine-enriched proteins known.",
+      "overview": "A Gram-negative uropathogen whose Ni-dependent [[urease]] is the central driver of catheter-associated urinary tract infection (CAUTI) pathogenesis. Urease-mediated urea hydrolysis produces [[ammonia]] and alkalinizes urine, triggering precipitation of struvite (magnesium ammonium phosphate) and apatite crystals that form kidney stones and encrust urinary catheters. *P. mirabilis* has evolved specialized nickel handling proteins, including an accessory protein that is 39% [[histidine]] -- one of the most histidine-enriched proteins known.",
       "sections": [
         {
           "heading": "Metal-Dependent Virulence Factors",
@@ -55150,6 +55157,7 @@
       "wikilinks": [
         "urease",
         "ammonia",
+        "histidine",
         "maier-2019-nickel-microbial-pathogenesis",
         "helicobacter-pylori",
         "metal-dependent-virulence",
@@ -70888,7 +70896,7 @@
         {
           "heading": "Copper-Driven Toxicity",
           "level": 3,
-          "body": "Copper's role is less about aggregation speed and more about redox toxicity [[islam-2022-metal-toxicity-alzheimers-extensive-review]]:\n\n- Cu2+ binds Aβ at the same histidine sites as zinc, with higher affinity\n- Cu(I/II) redox cycling at the Aβ surface catalyzes H2O2 and hydroxyl radical generation -- [[fenton-chemistry]] directly on the peptide surface\n- Cu-Aβ complexes are more neurotoxic than Aβ alone; soluble Cu-Aβ oligomers show elevated pro-apoptotic activity\n- [[ceruloplasmin|Ceruloplasmin]] activity is reduced in AD brain, impairing ferroxidase function and promoting both copper and iron mislocalization"
+          "body": "Copper's role is less about aggregation speed and more about redox toxicity [[islam-2022-metal-toxicity-alzheimers-extensive-review]]:\n\n- Cu2+ binds Aβ at the same [[histidine]] sites as zinc, with higher affinity\n- Cu(I/II) redox cycling at the Aβ surface catalyzes H2O2 and hydroxyl radical generation -- [[fenton-chemistry]] directly on the peptide surface\n- Cu-Aβ complexes are more neurotoxic than Aβ alone; soluble Cu-Aβ oligomers show elevated pro-apoptotic activity\n- [[ceruloplasmin|Ceruloplasmin]] activity is reduced in AD brain, impairing ferroxidase function and promoting both copper and iron mislocalization"
         },
         {
           "heading": "Iron Accumulation",
@@ -70932,6 +70940,7 @@
         "doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons",
         "islam-2022-metal-toxicity-alzheimers-extensive-review",
         "mis-metallation",
+        "histidine",
         "fenton-chemistry",
         "ceruloplasmin",
         "ferritin",
@@ -75441,6 +75450,10 @@
           "score": 16
         },
         {
+          "id": "histidine",
+          "score": 14
+        },
+        {
           "id": "escherichia-coli",
           "score": 12
         },
@@ -75454,10 +75467,6 @@
         },
         {
           "id": "dietary-nickel-exposure",
-          "score": 11
-        },
-        {
-          "id": "metal-carcinogenesis",
           "score": 11
         }
       ]
@@ -78325,7 +78334,7 @@
         {
           "heading": "Metal Binding",
           "level": 2,
-          "body": "- Cadmium, mercury, lead, arsenic all bind cysteine thiol groups with high affinity, depleting free cysteine and glutathione pools → oxidative stress [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]] [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].\n- Zinc-finger proteins use cysteine (and histidine) residues to coordinate zinc — metal displacement at these sites is the basis of [[mis-metallation]].\n- Iron-sulfur clusters use cysteine ligands — heavy metal disruption of Fe-S clusters is a primary toxicity mechanism [[ghosh-2023-heavy-metals-gut-barrier-integrity]].\n- Nickel: Bacterial nickel-binding proteins (Hpn, HypB) use histidine-rich motifs, but cysteine residues are critical in nickel efflux and storage proteins [[maier-2019-nickel-microbial-pathogenesis]]."
+          "body": "- Cadmium, mercury, lead, arsenic all bind cysteine thiol groups with high affinity, depleting free cysteine and glutathione pools → oxidative stress [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]] [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].\n- Zinc-finger proteins use cysteine (and [[histidine]]) residues to coordinate zinc — metal displacement at these sites is the basis of [[mis-metallation]].\n- Iron-sulfur clusters use cysteine ligands — heavy metal disruption of Fe-S clusters is a primary toxicity mechanism [[ghosh-2023-heavy-metals-gut-barrier-integrity]].\n- Nickel: Bacterial nickel-binding proteins (Hpn, HypB) use histidine-rich motifs, but cysteine residues are critical in nickel efflux and storage proteins [[maier-2019-nickel-microbial-pathogenesis]]."
         },
         {
           "heading": "Microbial Context",
@@ -78343,6 +78352,7 @@
         "hydrogen-sulfide",
         "mishra-2022-molecular-mechanisms-heavy-metals-ckd",
         "briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans",
+        "histidine",
         "mis-metallation",
         "ghosh-2023-heavy-metals-gut-barrier-integrity",
         "maier-2019-nickel-microbial-pathogenesis",
@@ -88776,7 +88786,7 @@
         {
           "heading": "Mis-metallation in the CNS",
           "level": 2,
-          "body": "A particularly insidious mechanism is [[mis-metallation]] -- toxic metals displacing essential cofactors from neuronal enzymes:\n\n- Cu-amyloid-beta: Copper binds amyloid-beta at histidine residues, catalyzing ROS production and accelerating aggregation in [[alzheimers-disease]] [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].\n- Pb-Ca displacement: Lead replaces calcium in NMDA receptors, voltage-gated calcium channels, and protein kinase C -- disrupting all three simultaneously.\n- Zn-SHANK3: Zinc displacement from SHANK3 scaffold proteins at synapses disrupts post-synaptic signaling in [[autism-spectrum-disorder]] [[blazewicz-2023-metal-profiles-asd]]."
+          "body": "A particularly insidious mechanism is [[mis-metallation]] -- toxic metals displacing essential cofactors from neuronal enzymes:\n\n- Cu-amyloid-beta: Copper binds amyloid-beta at [[histidine]] residues, catalyzing ROS production and accelerating aggregation in [[alzheimers-disease]] [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].\n- Pb-Ca displacement: Lead replaces calcium in NMDA receptors, voltage-gated calcium channels, and protein kinase C -- disrupting all three simultaneously.\n- Zn-SHANK3: Zinc displacement from SHANK3 scaffold proteins at synapses disrupts post-synaptic signaling in [[autism-spectrum-disorder]] [[blazewicz-2023-metal-profiles-asd]]."
         },
         {
           "heading": "Disease Associations",
@@ -88825,6 +88835,7 @@
         "tight-junctions",
         "kynurenine",
         "mis-metallation",
+        "histidine",
         "alzheimers-disease",
         "doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons",
         "blazewicz-2023-metal-profiles-asd",
@@ -89630,43 +89641,69 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "alzheimers-disease",
+        "bismuth",
+        "copper",
+        "dialister-histaminiformans",
         "helicobacter-pylori",
+        "lactobacillus-reuteri",
+        "nickel",
+        "pancreatic-cancer",
+        "proteus-mirabilis",
+        "amyloid-beta-aggregation",
+        "cysteine",
+        "heavy-metal-neurotoxicity",
+        "hydrogenase",
+        "infant-exposure",
+        "lactoferrin",
+        "matrix-metalloproteases",
+        "mis-metallation",
+        "nickel-transporters",
+        "nickel-urease",
+        "nife-hydrogenase",
+        "nutritional-immunity",
+        "pathogen-metal-acquisition",
         "phenylalanine",
+        "superoxide-dismutase",
+        "tlr4",
+        "tnf-alpha",
+        "toll-like-receptors",
         "transferrin",
+        "urease",
         "broken-links-2026-04-16"
       ],
       "related": [
         {
-          "id": "candida-albicans",
-          "score": 11
+          "id": "nutritional-immunity",
+          "score": 37
         },
         {
           "id": "metal-dependent-virulence",
-          "score": 11
+          "score": 27
         },
         {
-          "id": "nutritional-immunity",
-          "score": 11
+          "id": "iron",
+          "score": 26
         },
         {
-          "id": "nickel-transporters",
-          "score": 10
+          "id": "zinc",
+          "score": 26
         },
         {
-          "id": "gastric-adenocarcinoma",
-          "score": 9
+          "id": "oxidative-stress",
+          "score": 24
         },
         {
-          "id": "lactoferrin",
-          "score": 9
+          "id": "cadmium",
+          "score": 22
         },
         {
-          "id": "autism-spectrum-disorder",
-          "score": 8
+          "id": "escherichia-coli",
+          "score": 22
         },
         {
-          "id": "caga",
-          "score": 8
+          "id": "hydrogenase",
+          "score": 22
         }
       ]
     },
@@ -90436,7 +90473,7 @@
         {
           "heading": "Maturation Pathway Overlap with Urease",
           "level": 2,
-          "body": "In [[helicobacter-pylori]], the nickel insertion pathways for hydrogenase and [[urease]] share critical components [[maier-2019-nickel-microbial-pathogenesis]]:\n\n- HypA delivers nickel to both HypB (for hydrogenase) and UreE (for urease).\n- HypB is a GTPase/nickel chaperone shared between both pathways.\n- Hpn and HpnI (histidine-rich nickel storage proteins) serve as central nickel reservoirs feeding both enzyme systems.\n- NikR (nickel-responsive transcriptional regulator) controls expression of both urease and hydrogenase genes.\n\nThis shared maturation machinery means:\n- Nickel limitation forces a triage decision: the bacterium must allocate scarce nickel between acid survival (urease) and energy/CagA translocation (hydrogenase).\n- Therapeutic nickel depletion hits both virulence systems simultaneously -- a dual-target anti-virulence strategy.\n- The nickel storage proteins (Hpn, HpnI) interact with a much wider array of proteins than originally expected, functioning as central hubs in nickel metabolism."
+          "body": "In [[helicobacter-pylori]], the nickel insertion pathways for hydrogenase and [[urease]] share critical components [[maier-2019-nickel-microbial-pathogenesis]]:\n\n- HypA delivers nickel to both HypB (for hydrogenase) and UreE (for urease).\n- HypB is a GTPase/nickel chaperone shared between both pathways.\n- Hpn and HpnI ([[histidine]]-rich nickel storage proteins) serve as central nickel reservoirs feeding both enzyme systems.\n- NikR (nickel-responsive transcriptional regulator) controls expression of both urease and hydrogenase genes.\n\nThis shared maturation machinery means:\n- Nickel limitation forces a triage decision: the bacterium must allocate scarce nickel between acid survival (urease) and energy/CagA translocation (hydrogenase).\n- Therapeutic nickel depletion hits both virulence systems simultaneously -- a dual-target anti-virulence strategy.\n- The nickel storage proteins (Hpn, HpnI) interact with a much wider array of proteins than originally expected, functioning as central hubs in nickel metabolism."
         },
         {
           "heading": "H2 Availability in Host Environments",
@@ -90464,6 +90501,7 @@
         "escherichia-coli",
         "pendergrass-2026-nickel-nec-preterm-gut",
         "campanale-2014-nickel-free-diet-h-pylori",
+        "histidine",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "glyoxalase",
         "metal-dependent-virulence",
@@ -93034,7 +93072,7 @@
         {
           "heading": "Prenatal Exposure",
           "level": 3,
-          "body": "Metal exposure begins before birth:\n\n- Lead: Prenatal Pb exposure alters childhood gut microbiome composition, with trimester-specific effects on bacterial amino acid biosynthesis pathways (histidine, methionine, isoleucine, lysine) [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].\n- Mercury: MeHg crosses the placenta; cord blood Hg correlates with maternal fish intake.\n- Cadmium: Accumulates in placenta; associated with low birth weight."
+          "body": "Metal exposure begins before birth:\n\n- Lead: Prenatal Pb exposure alters childhood gut microbiome composition, with trimester-specific effects on bacterial amino acid biosynthesis pathways ([[histidine]], methionine, isoleucine, lysine) [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].\n- Mercury: MeHg crosses the placenta; cord blood Hg correlates with maternal fish intake.\n- Cadmium: Accumulates in placenta; associated with low birth weight."
         },
         {
           "heading": "Impact on Microbiome Development",
@@ -93075,6 +93113,7 @@
         "necrotizing-enterocolitis",
         "pendergrass-2026-nickel-nec-preterm-gut",
         "prebiotics",
+        "histidine",
         "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
         "nickel",
         "urease",
@@ -95894,7 +95933,7 @@
         {
           "heading": "Potential Nickel Binding",
           "level": 3,
-          "body": "- Lactoferrin contains histidine and tyrosine ligand residues that could coordinate Ni(II). A nickel-sequestering role is plausible but has not been experimentally confirmed [[maier-2019-nickel-microbial-pathogenesis]].\n- If validated, this would make lactoferrin a dual iron/nickel restriction factor at mucosal surfaces."
+          "body": "- Lactoferrin contains [[histidine]] and tyrosine ligand residues that could coordinate Ni(II). A nickel-sequestering role is plausible but has not been experimentally confirmed [[maier-2019-nickel-microbial-pathogenesis]].\n- If validated, this would make lactoferrin a dual iron/nickel restriction factor at mucosal surfaces."
         },
         {
           "heading": "Distribution",
@@ -95940,6 +95979,7 @@
       "wikilinks": [
         "nutritional-immunity",
         "calprotectin",
+        "histidine",
         "maier-2019-nickel-microbial-pathogenesis",
         "roberts-2019-lactoferrin-genital-infections-iron",
         "hepcidin",
@@ -97007,7 +97047,7 @@
         {
           "heading": "Catalytic Architecture",
           "level": 3,
-          "body": "- All MMPs share a conserved catalytic domain containing a Zn2+ ion coordinated by three histidine residues in the HEXXHXXGXXH motif.\n- A second structural Ca2+ ion (sometimes multiple) provides protein stability.\n- The zinc at the active site activates a water molecule for nucleophilic attack on peptide bonds.\n- A pro-domain with a cysteine residue coordinates the catalytic Zn2+, keeping the enzyme latent until proteolytic removal of the pro-domain (\"cysteine switch\" mechanism)."
+          "body": "- All MMPs share a conserved catalytic domain containing a Zn2+ ion coordinated by three [[histidine]] residues in the HEXXHXXGXXH motif.\n- A second structural Ca2+ ion (sometimes multiple) provides protein stability.\n- The zinc at the active site activates a water molecule for nucleophilic attack on peptide bonds.\n- A pro-domain with a cysteine residue coordinates the catalytic Zn2+, keeping the enzyme latent until proteolytic removal of the pro-domain (\"cysteine switch\" mechanism)."
         },
         {
           "heading": "The 23 Human MMPs",
@@ -97082,6 +97122,7 @@
       ],
       "wikilinks": [
         "zinc",
+        "histidine",
         "zhang-2022-metallomics-cancer-review",
         "huang-2024-zinc-intake-endometriosis-risk",
         "nickel",
@@ -98785,6 +98826,10 @@
           "score": 30
         },
         {
+          "id": "histidine",
+          "score": 27
+        },
+        {
           "id": "candida-albicans",
           "score": 25
         },
@@ -98798,10 +98843,6 @@
         },
         {
           "id": "biofilm",
-          "score": 22
-        },
-        {
-          "id": "microbial-metallomics",
           "score": 22
         }
       ]
@@ -101941,7 +101982,7 @@
         {
           "heading": "Synergistic Metal Toxicity and Mis-Metallation",
           "level": 2,
-          "body": "A critical emerging principle is that metal mixtures cause synergistic toxicity not predictable from individual metal effects [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]:\n\n- Nickel + Copper: At environmentally relevant concentrations where neither metal alone is toxic (30 uM Ni, 15 uM Cu), the combination causes massive transcriptomic disruption in E. coli with 70% of affected genes uniquely impacted by the combination\n- The primary target is iron-sulfur clusters: Both Cu+ and Ni2+ displace Fe2+ from Fe-S clusters, but the combination overwhelms the ISC repair/assembly machinery\n- ROS are NOT the primary mechanism: The synergistic toxicity operates through Fe-S cluster disruption rather than oxidative stress\n- Histidine rescues by chelating both metals extracellularly, reducing bioavailable metal concentrations"
+          "body": "A critical emerging principle is that metal mixtures cause synergistic toxicity not predictable from individual metal effects [[darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli]]:\n\n- Nickel + Copper: At environmentally relevant concentrations where neither metal alone is toxic (30 uM Ni, 15 uM Cu), the combination causes massive transcriptomic disruption in E. coli with 70% of affected genes uniquely impacted by the combination\n- The primary target is iron-sulfur clusters: Both Cu+ and Ni2+ displace Fe2+ from Fe-S clusters, but the combination overwhelms the ISC repair/assembly machinery\n- ROS are NOT the primary mechanism: The synergistic toxicity operates through Fe-S cluster disruption rather than oxidative stress\n- [[Histidine]] rescues by chelating both metals extracellularly, reducing bioavailable metal concentrations"
         },
         {
           "heading": "Antimicrobial Mis-Metallation: Therapeutic Applications",
@@ -101992,6 +102033,7 @@
         "nies-2025-flow-equilibrium-model-mis-metalation-zinc",
         "lenner-2025-compatibility-intracellular-binding-metal-sensor-design",
         "darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli",
+        "histidine",
         "kajfasz-2026-zinc-enhanced-phenazine-antimicrobial-gram-positive",
         "sanchez-rosario-2026-bmdc-metal-antimicrobial-mrsa-biofilm",
         "wang-2025-zinc-ionophore-pbt2-tigecycline-resistance-klebsiella",
@@ -104338,7 +104380,7 @@
         {
           "heading": "NikABCDE — ABC-Type Nickel Transporter",
           "level": 3,
-          "body": "- A multi-component ATP-binding cassette (ABC) transporter system, best studied in [[escherichia-coli]].\n- Components: NikA (periplasmic binding protein), NikB and NikC (transmembrane permeases), NikD and NikE (cytoplasmic ATPases).\n- NikA binds Ni2+ in the periplasm, often as a nickel-histidine or nickel-L-histidine complex rather than free Ni2+.\n- The entire system is regulated by the NikR repressor, a nickel-responsive metalloregulator that senses intracellular nickel levels and represses *nikABCDE* transcription when nickel is sufficient.\n- In *H. pylori*, the analogous system is NiuBDE (Nickel Import Unit), which can operate at the acidic pH of the gastric environment -- a critical adaptation for gastric colonization [[maier-2019-nickel-microbial-pathogenesis]]."
+          "body": "- A multi-component ATP-binding cassette (ABC) transporter system, best studied in [[escherichia-coli]].\n- Components: NikA (periplasmic binding protein), NikB and NikC (transmembrane permeases), NikD and NikE (cytoplasmic ATPases).\n- NikA binds Ni2+ in the periplasm, often as a nickel-[[histidine]] or nickel-L-histidine complex rather than free Ni2+.\n- The entire system is regulated by the NikR repressor, a nickel-responsive metalloregulator that senses intracellular nickel levels and represses *nikABCDE* transcription when nickel is sufficient.\n- In *H. pylori*, the analogous system is NiuBDE (Nickel Import Unit), which can operate at the acidic pH of the gastric environment -- a critical adaptation for gastric colonization [[maier-2019-nickel-microbial-pathogenesis]]."
         },
         {
           "heading": "Other Nickel Import Mechanisms",
@@ -104373,6 +104415,7 @@
         "helicobacter-pylori",
         "maier-2019-nickel-microbial-pathogenesis",
         "escherichia-coli",
+        "histidine",
         "staphylococcus-aureus",
         "lenner-2025-compatibility-intracellular-binding-metal-sensor-design",
         "siderophore-competition",
@@ -104420,15 +104463,15 @@
           "score": 12
         },
         {
-          "id": "histidine",
-          "score": 10
-        },
-        {
           "id": "low-nickel-diet",
           "score": 10
         },
         {
           "id": "metal-sensing",
+          "score": 9
+        },
+        {
+          "id": "mis-metallation",
           "score": 9
         }
       ]
@@ -104493,7 +104536,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Nickel-urease (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to [[ammonia]] (NH₃) and carbon dioxide (CO₂). The active site contains two nickel ions (Ni²⁺) coordinated by histidine and cysteine residues. Nickel-urease is expressed by [[helicobacter-pylori|H. pylori]] as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.\n\nFor [[helicobacter-pylori|H. pylori]], urease is the Achilles' heel: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics."
+          "body": "Nickel-urease (urease, EC 3.5.1.5) is a metalloenzyme that catalyzes the hydrolysis of urea (NH₂-CO-NH₂) to [[ammonia]] (NH₃) and carbon dioxide (CO₂). The active site contains two nickel ions (Ni²⁺) coordinated by [[histidine]] and cysteine residues. Nickel-urease is expressed by [[helicobacter-pylori|H. pylori]] as a critical virulence factor enabling survival in the acidic gastric environment; it is also found in soil bacteria and some oral pathogens.\n\nFor [[helicobacter-pylori|H. pylori]], urease is the Achilles' heel: nickel starvation disables urease, and urease inhibitors or nickel chelation can reduce bacterial load. This makes nickel-urease a prime target for both therapeutic intervention and microbiota-targeted metallomics."
         },
         {
           "heading": "Mechanism",
@@ -104518,6 +104561,7 @@
       ],
       "wikilinks": [
         "ammonia",
+        "histidine",
         "helicobacter-pylori",
         "nickel",
         "nickel-transporters",
@@ -104651,7 +104695,7 @@
         {
           "heading": "Mechanism",
           "level": 2,
-          "body": "Active site structure:\n\nThe NiFe-hydrogenase active site is a bi-metallic cluster containing:\n- Nickel (Ni) — the main catalytic site\n- Iron (Fe) — coordinates the substrate and facilitates electron transfer\n- Bridging ligands: cyanide (CN⁻) and carbonyl (CO) groups stabilize the Fe center\n- Nickel coordination: Histidine and cysteine residues\n\nThe bimetallic arrangement is critical: neither metal alone is sufficient; both Ni and Fe are required for catalysis.\n\nCatalytic cycle:\n\n```\nH₂ binding → heterolytic cleavage of H-H → H⁺ released to solvent\n → 2e⁻ transferred to electron transport chain (quinone, NAD⁺, etc.)\n```\n\nThis is energetically favorable under anaerobic or microaerophilic conditions (when dissolved O₂ is low).\n\nNickel and iron acquisition:\n\n- Bacteria must acquire both Ni and Fe from the environment\n- [[helicobacter-pylori|H. pylori]]: Uses NixA (nickel permease) and iron transporters; competes with host [[transferrin]] and [[lactoferrin]] for iron\n- Sulfate-reducing bacteria: Acquire metals from sediment or gut contents; highly dependent on [[iron]] and [[nickel]] availability"
+          "body": "Active site structure:\n\nThe NiFe-hydrogenase active site is a bi-metallic cluster containing:\n- Nickel (Ni) — the main catalytic site\n- Iron (Fe) — coordinates the substrate and facilitates electron transfer\n- Bridging ligands: cyanide (CN⁻) and carbonyl (CO) groups stabilize the Fe center\n- Nickel coordination: [[Histidine]] and cysteine residues\n\nThe bimetallic arrangement is critical: neither metal alone is sufficient; both Ni and Fe are required for catalysis.\n\nCatalytic cycle:\n\n```\nH₂ binding → heterolytic cleavage of H-H → H⁺ released to solvent\n → 2e⁻ transferred to electron transport chain (quinone, NAD⁺, etc.)\n```\n\nThis is energetically favorable under anaerobic or microaerophilic conditions (when dissolved O₂ is low).\n\nNickel and iron acquisition:\n\n- Bacteria must acquire both Ni and Fe from the environment\n- [[helicobacter-pylori|H. pylori]]: Uses NixA (nickel permease) and iron transporters; competes with host [[transferrin]] and [[lactoferrin]] for iron\n- Sulfate-reducing bacteria: Acquire metals from sediment or gut contents; highly dependent on [[iron]] and [[nickel]] availability"
         },
         {
           "heading": "Role in Disease",
@@ -104673,6 +104717,7 @@
         "helicobacter-pylori",
         "methanobrevibacter-smithii",
         "desulfovibrio",
+        "histidine",
         "transferrin",
         "lactoferrin",
         "iron",
@@ -105275,7 +105320,7 @@
         {
           "heading": "Host Proteins Involved",
           "level": 3,
-          "body": "- Calprotectin (S100A8/A9): neutrophil-derived; >1 mg/mL at infection sites [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. Canonically sequesters Mn and Zn to starve *S. aureus* of Mn-SOD cofactors [[cassat-2012-metal-acquisition-staphylococcus-aureus]], [[martin-2022-manganese-homeostasis-stress-pathogenesis]]. Recent finding: also coordinates Ni(II) at the hexahistidine site preferentially over Zn(II), sequestering nickel from *S. aureus* and *K. pneumoniae* and inhibiting their urease activity [[maier-2019-nickel-microbial-pathogenesis]]. In response, *S. aureus* activates the small RNA RsaC to suppress Mn-dependent SodA translation, freeing scarce Mn for other essential processes [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]].\n- Lactoferrin: primarily known for iron binding via bi-lobal transferrin fold; histidine/tyrosine ligands can also bind nickel [[maier-2019-nickel-microbial-pathogenesis]]. Nickel-sequestering effect is plausible but unstudied.\n- Transferrin: serum iron carrier that restricts iron availability to extracellular pathogens; exploited by siderophore-producing Enterobacteriaceae [[bushman-2025-nutrient-metals-bacteria-gut-infection]].\n- Hepcidin: master regulator of iron homeostasis that degrades ferroportin and induces functional iron restriction during infection [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. Role in nickel restriction unknown but likely given overlap in metal handling.\n- NRAMP1 (SLC11A1): divalent metal transporter in macrophage phagolysosomes. Can export Ni(II), restricting availability to engulfed intracellular pathogens [[maier-2019-nickel-microbial-pathogenesis]].\n- Peptidoglycan Recognition Proteins (PGRPs): Kill bacteria by inducing 60-100x intracellular Zn2+ and Cu+, synergistically with oxidative stress and glutathione depletion. Metal intoxication is a *required* component of killing [[kashyap-2014-pgrps-kill-bacteria-metal-stress]]."
+          "body": "- Calprotectin (S100A8/A9): neutrophil-derived; >1 mg/mL at infection sites [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. Canonically sequesters Mn and Zn to starve *S. aureus* of Mn-SOD cofactors [[cassat-2012-metal-acquisition-staphylococcus-aureus]], [[martin-2022-manganese-homeostasis-stress-pathogenesis]]. Recent finding: also coordinates Ni(II) at the hexahistidine site preferentially over Zn(II), sequestering nickel from *S. aureus* and *K. pneumoniae* and inhibiting their urease activity [[maier-2019-nickel-microbial-pathogenesis]]. In response, *S. aureus* activates the small RNA RsaC to suppress Mn-dependent SodA translation, freeing scarce Mn for other essential processes [[mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection]].\n- Lactoferrin: primarily known for iron binding via bi-lobal transferrin fold; [[histidine]]/tyrosine ligands can also bind nickel [[maier-2019-nickel-microbial-pathogenesis]]. Nickel-sequestering effect is plausible but unstudied.\n- Transferrin: serum iron carrier that restricts iron availability to extracellular pathogens; exploited by siderophore-producing Enterobacteriaceae [[bushman-2025-nutrient-metals-bacteria-gut-infection]].\n- Hepcidin: master regulator of iron homeostasis that degrades ferroportin and induces functional iron restriction during infection [[bushman-2025-nutrient-metals-bacteria-gut-infection]]. Role in nickel restriction unknown but likely given overlap in metal handling.\n- NRAMP1 (SLC11A1): divalent metal transporter in macrophage phagolysosomes. Can export Ni(II), restricting availability to engulfed intracellular pathogens [[maier-2019-nickel-microbial-pathogenesis]].\n- Peptidoglycan Recognition Proteins (PGRPs): Kill bacteria by inducing 60-100x intracellular Zn2+ and Cu+, synergistically with oxidative stress and glutathione depletion. Metal intoxication is a *required* component of killing [[kashyap-2014-pgrps-kill-bacteria-metal-stress]]."
         },
         {
           "heading": "Pathogen Counter-Strategies",
@@ -105313,6 +105358,7 @@
         "hydrogenase",
         "martin-2022-manganese-homeostasis-stress-pathogenesis",
         "mcfarlane-2025-manganese-sparing-response-rsac-saureus-infection",
+        "histidine",
         "oxidative-stress"
       ],
       "sourceDir": "concepts",
@@ -107511,7 +107557,7 @@
         {
           "heading": "Nickel Storage",
           "level": 3,
-          "body": "Best characterized in *[[helicobacter-pylori]]*:\n\n- Hpn: Extraordinary small His-rich protein -- 47% of residues are histidine. Forms 20-mers, each monomer binding 5 Ni(II) ions. Present in all gastric *Helicobacter* species. Functions as the primary nickel reservoir, buffering against fluctuations in nickel availability [[maier-2019-nickel-microbial-pathogenesis]].\n- HpnI (Hpn-like): 25% histidine, binds 2 Ni(II) per monomer. Restricted to *H. pylori* and *H. acinonychis*. Competes with Hpn for nickel under low-nickel conditions.\n- Recent work reveals Hpn/HpnI interact with a much wider array of proteins than expected, including urease/[[hydrogenase]] maturation enzymes (delivering nickel to these virulence factors), AmiE (aliphatic amidase), and PepA (aminopeptidase). They function as central nickel distribution hubs in the cell [[maier-2019-nickel-microbial-pathogenesis]].\n- HspA: A GroES (chaperonin) homolog with a unique His-rich C-terminus for nickel binding. Dual function: protein folding chaperone and nickel storage. Candidate for anti-*H. pylori* vaccine [[maier-2019-nickel-microbial-pathogenesis]]."
+          "body": "Best characterized in *[[helicobacter-pylori]]*:\n\n- Hpn: Extraordinary small His-rich protein -- 47% of residues are [[histidine]]. Forms 20-mers, each monomer binding 5 Ni(II) ions. Present in all gastric *Helicobacter* species. Functions as the primary nickel reservoir, buffering against fluctuations in nickel availability [[maier-2019-nickel-microbial-pathogenesis]].\n- HpnI (Hpn-like): 25% histidine, binds 2 Ni(II) per monomer. Restricted to *H. pylori* and *H. acinonychis*. Competes with Hpn for nickel under low-nickel conditions.\n- Recent work reveals Hpn/HpnI interact with a much wider array of proteins than expected, including urease/[[hydrogenase]] maturation enzymes (delivering nickel to these virulence factors), AmiE (aliphatic amidase), and PepA (aminopeptidase). They function as central nickel distribution hubs in the cell [[maier-2019-nickel-microbial-pathogenesis]].\n- HspA: A GroES (chaperonin) homolog with a unique His-rich C-terminus for nickel binding. Dual function: protein folding chaperone and nickel storage. Candidate for anti-*H. pylori* vaccine [[maier-2019-nickel-microbial-pathogenesis]]."
         },
         {
           "heading": "Iron Storage",
@@ -107605,6 +107651,7 @@
         "braud-2010-siderophores-pseudomonas-metal-tolerance",
         "romero-espejel-2013-streptococcus-pneumoniae-iron",
         "helicobacter-pylori",
+        "histidine",
         "hydrogenase",
         "alquethamy-2021-acinetobacter-cadmium-resistance",
         "cheng-2021-cadmium-enterococcus-metabolic",
@@ -113139,7 +113186,7 @@
         {
           "heading": "The Metal-Free Alternative: Borrelia burgdorferi",
           "level": 3,
-          "body": "[[borrelia]] (*B. burgdorferi*) has eliminated iron entirely from its biology and relies on MnSOD as its primary antioxidant. It also accumulates non-proteinaceous H-Mn metabolite complexes (histidine-manganese, citrate-manganese) that provide additional antioxidant capacity independent of SOD protein [[londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi]]. This iron-free lifestyle is a radical evolutionary strategy to evade host nutritional immunity targeting iron."
+          "body": "[[borrelia]] (*B. burgdorferi*) has eliminated iron entirely from its biology and relies on MnSOD as its primary antioxidant. It also accumulates non-proteinaceous H-Mn metabolite complexes ([[histidine]]-manganese, citrate-manganese) that provide additional antioxidant capacity independent of SOD protein [[londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi]]. This iron-free lifestyle is a radical evolutionary strategy to evade host nutritional immunity targeting iron."
         },
         {
           "heading": "Host Nutritional Immunity Targets SOD",
@@ -113186,6 +113233,7 @@
         "fusobacterium-nucleatum",
         "neisseria-meningitidis",
         "borrelia",
+        "histidine",
         "londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi",
         "mis-metallation",
         "wang-2025-zinc-ionophore-pbt2-tigecycline-resistance-klebsiella",
@@ -115127,7 +115175,7 @@
         {
           "heading": "Nickel: Direct TLR4 Activation (Human-Specific)",
           "level": 3,
-          "body": "Nickel directly activates TLR4 on dendritic cells -- a mechanism that is human-specific because it depends on histidine residues (H456 and H458) in human TLR4 that are absent in mouse TLR4 [[ahlstrom-2019-nickel-allergy-review]]. This explains:\n- Why nickel allergy is the most common contact allergy in humans (~15% prevalence).\n- Why mouse models poorly recapitulate nickel-driven inflammation.\n- Why nickel from dietary sources, dental materials, and occupational exposure can trigger systemic inflammation through a pathway distinct from LPS."
+          "body": "Nickel directly activates TLR4 on dendritic cells -- a mechanism that is human-specific because it depends on [[histidine]] residues (H456 and H458) in human TLR4 that are absent in mouse TLR4 [[ahlstrom-2019-nickel-allergy-review]]. This explains:\n- Why nickel allergy is the most common contact allergy in humans (~15% prevalence).\n- Why mouse models poorly recapitulate nickel-driven inflammation.\n- Why nickel from dietary sources, dental materials, and occupational exposure can trigger systemic inflammation through a pathway distinct from LPS."
         },
         {
           "heading": "Cadmium: TLR4/NF-kB Aggravation",
@@ -115187,6 +115235,7 @@
       ],
       "wikilinks": [
         "proteobacteria",
+        "histidine",
         "ahlstrom-2019-nickel-allergy-review",
         "sun-2024-zinc-curcumin-cadmium-diabetic-nephropathy",
         "cerebral-palsy",
@@ -115604,7 +115653,7 @@
         {
           "heading": "Commensals Suppress TNF-alpha",
           "level": 3,
-          "body": "- Butyrate producers ([[faecalibacterium-prausnitzii]], [[roseburia]]): Butyrate inhibits NF-kB, reducing TNF-alpha transcription.\n- [[streptococcus-thermophilus]]: Produces anti-inflammatory metabolites that downregulate TNF-alpha in MS models [[dargahi-2020-streptococcus-thermophilus-ms]].\n- [[lactobacillus-reuteri]]: Produces histamine via histidine decarboxylase; histamine suppresses TNF-alpha via H2 receptor signaling."
+          "body": "- Butyrate producers ([[faecalibacterium-prausnitzii]], [[roseburia]]): Butyrate inhibits NF-kB, reducing TNF-alpha transcription.\n- [[streptococcus-thermophilus]]: Produces anti-inflammatory metabolites that downregulate TNF-alpha in MS models [[dargahi-2020-streptococcus-thermophilus-ms]].\n- [[lactobacillus-reuteri]]: Produces histamine via [[histidine]] decarboxylase; histamine suppresses TNF-alpha via H2 receptor signaling."
         },
         {
           "heading": "Condition-Specific Roles",
@@ -115655,6 +115704,7 @@
         "streptococcus-thermophilus",
         "dargahi-2020-streptococcus-thermophilus-ms",
         "lactobacillus-reuteri",
+        "histidine",
         "li-2026-ibd-erectile-dysfunction-mechanistic-link",
         "ermakov-2022-immune-system-abnormalities-schizophrenia",
         "comer-2020-inflamed-brain-schizophrenia-neuroinflammation",
@@ -115794,7 +115844,7 @@
         {
           "heading": "TLR4: The Metal-Responsive Sentinel",
           "level": 2,
-          "body": "TLR4 is covered in depth on its own page ([[tlr4]]), but its significance warrants summary here. TLR4 is the primary receptor for bacterial lipopolysaccharide (LPS) and is directly activated by nickel through histidine residues (H456, H458) unique to the human receptor [[ahlstrom-2019-nickel-allergy-review]]. This means:\n\n- Dietary nickel can trigger innate immune activation without any microbial involvement\n- Mouse models fail to recapitulate nickel-driven inflammation because murine TLR4 lacks these histidine residues\n- Nickel allergy (affecting ~15% of humans) is fundamentally a TLR4-mediated response\n- The combination of nickel exposure and Gram-negative [[dysbiosis]] (LPS source) creates additive TLR4 activation"
+          "body": "TLR4 is covered in depth on its own page ([[tlr4]]), but its significance warrants summary here. TLR4 is the primary receptor for bacterial lipopolysaccharide (LPS) and is directly activated by nickel through [[histidine]] residues (H456, H458) unique to the human receptor [[ahlstrom-2019-nickel-allergy-review]]. This means:\n\n- Dietary nickel can trigger innate immune activation without any microbial involvement\n- Mouse models fail to recapitulate nickel-driven inflammation because murine TLR4 lacks these histidine residues\n- Nickel allergy (affecting ~15% of humans) is fundamentally a TLR4-mediated response\n- The combination of nickel exposure and Gram-negative [[dysbiosis]] (LPS source) creates additive TLR4 activation"
         },
         {
           "heading": "TLR2: Barrier Integrity and Esophageal Dysbiosis",
@@ -115846,6 +115896,7 @@
         "chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd",
         "tlr4",
         "ahlstrom-2019-nickel-allergy-review",
+        "histidine",
         "dysbiosis",
         "gerd",
         "tight-junctions",
@@ -116753,7 +116804,7 @@
           "score": 8
         },
         {
-          "id": "hydrogenase",
+          "id": "histidine",
           "score": 8
         }
       ]
@@ -116836,7 +116887,7 @@
         {
           "heading": "Maturation and nickel insertion",
           "level": 3,
-          "body": "- Urease maturation requires a dedicated set of accessory proteins: UreD (scaffold), UreE (nickel metallochaperone), UreF (conformational gatekeeper), UreG (GTPase that drives nickel insertion), and UreH (in some species).\n- In [[helicobacter-pylori]], the maturation pathway shares components with [[hydrogenase]] maturation -- HypA and HypB deliver nickel to both urease (via UreE) and hydrogenase, creating a coordinated nickel allocation system [[maier-2019-nickel-microbial-pathogenesis]].\n- In [[proteus-mirabilis]], the HypB accessory protein is 39% histidine -- one of the most histidine-enriched proteins known -- creating a high-capacity nickel reservoir for urease metalation."
+          "body": "- Urease maturation requires a dedicated set of accessory proteins: UreD (scaffold), UreE (nickel metallochaperone), UreF (conformational gatekeeper), UreG (GTPase that drives nickel insertion), and UreH (in some species).\n- In [[helicobacter-pylori]], the maturation pathway shares components with [[hydrogenase]] maturation -- HypA and HypB deliver nickel to both urease (via UreE) and hydrogenase, creating a coordinated nickel allocation system [[maier-2019-nickel-microbial-pathogenesis]].\n- In [[proteus-mirabilis]], the HypB accessory protein is 39% [[histidine]] -- one of the most histidine-enriched proteins known -- creating a high-capacity nickel reservoir for urease metalation."
         },
         {
           "heading": "Dual catalytic and antioxidant function",
@@ -116982,6 +117033,7 @@
         "hydrogenase",
         "maier-2019-nickel-microbial-pathogenesis",
         "proteus-mirabilis",
+        "histidine",
         "tight-junctions",
         "staphylococcus-aureus",
         "escherichia-coli",
@@ -187960,6 +188012,10 @@
       },
       {
         "source": "alzheimers-disease",
+        "target": "histidine"
+      },
+      {
+        "source": "alzheimers-disease",
         "target": "ferroptosis"
       },
       {
@@ -189417,6 +189473,10 @@
       {
         "source": "bipolar-disorder",
         "target": "gut-brain-axis"
+      },
+      {
+        "source": "bismuth",
+        "target": "histidine"
       },
       {
         "source": "bismuth",
@@ -191308,6 +191368,10 @@
       },
       {
         "source": "copper",
+        "target": "histidine"
+      },
+      {
+        "source": "copper",
         "target": "selenium"
       },
       {
@@ -192089,6 +192153,10 @@
       {
         "source": "diabetic-kidney-disease",
         "target": "tlr4"
+      },
+      {
+        "source": "dialister-histaminiformans",
+        "target": "histidine"
       },
       {
         "source": "dialister",
@@ -195324,6 +195392,10 @@
       },
       {
         "source": "lactobacillus-reuteri",
+        "target": "histidine"
+      },
+      {
+        "source": "lactobacillus-reuteri",
         "target": "lactobacillus"
       },
       {
@@ -196576,6 +196648,10 @@
       },
       {
         "source": "nickel",
+        "target": "histidine"
+      },
+      {
+        "source": "nickel",
         "target": "urease"
       },
       {
@@ -197137,6 +197213,10 @@
       {
         "source": "pancreatic-cancer",
         "target": "iron"
+      },
+      {
+        "source": "pancreatic-cancer",
+        "target": "histidine"
       },
       {
         "source": "pancreatic-cancer",
@@ -198477,6 +198557,10 @@
       {
         "source": "proteus-mirabilis",
         "target": "ammonia"
+      },
+      {
+        "source": "proteus-mirabilis",
+        "target": "histidine"
       },
       {
         "source": "proteus-mirabilis",
@@ -201104,6 +201188,10 @@
       },
       {
         "source": "amyloid-beta-aggregation",
+        "target": "histidine"
+      },
+      {
+        "source": "amyloid-beta-aggregation",
         "target": "fenton-chemistry"
       },
       {
@@ -202797,6 +202885,10 @@
       {
         "source": "cysteine",
         "target": "hydrogen-sulfide"
+      },
+      {
+        "source": "cysteine",
+        "target": "histidine"
       },
       {
         "source": "cysteine",
@@ -205308,6 +205400,10 @@
       },
       {
         "source": "heavy-metal-neurotoxicity",
+        "target": "histidine"
+      },
+      {
+        "source": "heavy-metal-neurotoxicity",
         "target": "alzheimers-disease"
       },
       {
@@ -205476,10 +205572,6 @@
       },
       {
         "source": "histidine",
-        "target": "proteus-mirabilis"
-      },
-      {
-        "source": "histidine",
         "target": "urease"
       },
       {
@@ -205500,10 +205592,6 @@
       },
       {
         "source": "histidine",
-        "target": "dialister-histaminiformans"
-      },
-      {
-        "source": "histidine",
         "target": "ibs"
       },
       {
@@ -205513,10 +205601,6 @@
       {
         "source": "histidine",
         "target": "lead"
-      },
-      {
-        "source": "histidine",
-        "target": "nickel"
       },
       {
         "source": "histidine",
@@ -205633,6 +205717,10 @@
       {
         "source": "hydrogenase",
         "target": "urease"
+      },
+      {
+        "source": "hydrogenase",
+        "target": "histidine"
       },
       {
         "source": "hydrogenase",
@@ -206349,6 +206437,10 @@
       {
         "source": "infant-exposure",
         "target": "prebiotics"
+      },
+      {
+        "source": "infant-exposure",
+        "target": "histidine"
       },
       {
         "source": "infant-exposure",
@@ -207092,6 +207184,10 @@
       },
       {
         "source": "lactoferrin",
+        "target": "histidine"
+      },
+      {
+        "source": "lactoferrin",
         "target": "gut-metal-microbiome"
       },
       {
@@ -207317,6 +207413,10 @@
       {
         "source": "matrix-metalloproteases",
         "target": "zinc"
+      },
+      {
+        "source": "matrix-metalloproteases",
+        "target": "histidine"
       },
       {
         "source": "matrix-metalloproteases",
@@ -208760,6 +208860,10 @@
       },
       {
         "source": "nickel-transporters",
+        "target": "histidine"
+      },
+      {
+        "source": "nickel-transporters",
         "target": "staphylococcus-aureus"
       },
       {
@@ -208785,6 +208889,10 @@
       {
         "source": "nickel-urease",
         "target": "ammonia"
+      },
+      {
+        "source": "nickel-urease",
+        "target": "histidine"
       },
       {
         "source": "nickel-urease",
@@ -208861,6 +208969,10 @@
       {
         "source": "nife-hydrogenase",
         "target": "desulfovibrio"
+      },
+      {
+        "source": "nife-hydrogenase",
+        "target": "histidine"
       },
       {
         "source": "nife-hydrogenase",
@@ -208993,6 +209105,10 @@
       {
         "source": "nutritional-immunity",
         "target": "urease"
+      },
+      {
+        "source": "nutritional-immunity",
+        "target": "histidine"
       },
       {
         "source": "nutritional-immunity",
@@ -209377,6 +209493,10 @@
       {
         "source": "pathogen-metal-acquisition",
         "target": "helicobacter-pylori"
+      },
+      {
+        "source": "pathogen-metal-acquisition",
+        "target": "histidine"
       },
       {
         "source": "pathogen-metal-acquisition",
@@ -210564,6 +210684,10 @@
       },
       {
         "source": "superoxide-dismutase",
+        "target": "histidine"
+      },
+      {
+        "source": "superoxide-dismutase",
         "target": "mis-metallation"
       },
       {
@@ -211080,6 +211204,10 @@
       },
       {
         "source": "tlr4",
+        "target": "histidine"
+      },
+      {
+        "source": "tlr4",
         "target": "cerebral-palsy"
       },
       {
@@ -211200,6 +211328,10 @@
       },
       {
         "source": "tnf-alpha",
+        "target": "histidine"
+      },
+      {
+        "source": "tnf-alpha",
         "target": "inflammation"
       },
       {
@@ -211237,6 +211369,10 @@
       {
         "source": "toll-like-receptors",
         "target": "tlr4"
+      },
+      {
+        "source": "toll-like-receptors",
+        "target": "histidine"
       },
       {
         "source": "toll-like-receptors",

@@ -33,7 +33,7 @@ platform: wikibiome
 ## Key Functions
 
 - GABA production: Possesses glutamate decarboxylase (GAD), producing GABA from dietary glutamate — relevant to the [[gut-brain-axis]] in anxiety and depression.
-- Histamine production: Produces histamine via histidine decarboxylase; at physiological levels, histamine acts as an immunomodulator suppressing TNF-alpha via H2 receptors.
+- Histamine production: Produces histamine via [[histidine]] decarboxylase; at physiological levels, histamine acts as an immunomodulator suppressing TNF-alpha via H2 receptors.
 - Testosterone/oxytocin: *L. reuteri* supplementation increases testosterone and oxytocin levels in animal models, with implications for male fertility and social behavior [[jin-2023-3hpaa-spermatogenesis-ferroptosis]].
 - Spermatogenesis protection: Protects against ferroptosis-mediated testicular damage [[jin-2023-3hpaa-spermatogenesis-ferroptosis]].
 - Thyroid: Part of the probiotic species affecting thyroid hormone metabolism [[docimo-2020-human-microbiota-endocrinology-thyroid]].

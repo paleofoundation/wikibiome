@@ -44,7 +44,7 @@ Zinc is the most potent direct aggregation promoter [[doroszkiewicz-2023-common-
 
 Copper's role is less about aggregation speed and more about redox toxicity [[islam-2022-metal-toxicity-alzheimers-extensive-review]]:
 
-- Cu2+ binds Aβ at the same histidine sites as zinc, with higher affinity
+- Cu2+ binds Aβ at the same [[histidine]] sites as zinc, with higher affinity
 - Cu(I/II) redox cycling at the Aβ surface catalyzes H2O2 and hydroxyl radical generation -- [[fenton-chemistry]] directly on the peptide surface
 - Cu-Aβ complexes are more neurotoxic than Aβ alone; soluble Cu-Aβ oligomers show elevated pro-apoptotic activity
 - [[ceruloplasmin|Ceruloplasmin]] activity is reduced in AD brain, impairing ferroxidase function and promoting both copper and iron mislocalization

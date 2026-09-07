@@ -36,7 +36,7 @@ A heavy metal traditionally considered safe enough for over-the-counter gastroin
 
 ## Biological Chemistry
 
-Bismuth has no known essential role in human or bacterial biology. All of its biological effects derive from its coordination chemistry — a highly oxophilic and thiophilic cation with ionic radius (1.03 Å) similar enough to Fe3+ (0.65 Å octahedral; larger in tetrahedral) and Zn2+ (0.74 Å) to occupy their binding pockets, but with binding constants for S- and O-donor ligands that can exceed physiological metals by 3-10 log units. This makes bismuth a promiscuous competitor for soft-donor coordination sites in proteins, particularly cysteine-rich metallothionein-like domains and histidine/glutamate clusters in metallochaperones.
+Bismuth has no known essential role in human or bacterial biology. All of its biological effects derive from its coordination chemistry — a highly oxophilic and thiophilic cation with ionic radius (1.03 Å) similar enough to Fe3+ (0.65 Å octahedral; larger in tetrahedral) and Zn2+ (0.74 Å) to occupy their binding pockets, but with binding constants for S- and O-donor ligands that can exceed physiological metals by 3-10 log units. This makes bismuth a promiscuous competitor for soft-donor coordination sites in proteins, particularly cysteine-rich metallothionein-like domains and [[histidine]]/glutamate clusters in metallochaperones.
 
 Because bismuth sequesters thiols and iron-binding sites without participating in physiological redox chemistry, it behaves as an ecological stressor rather than a reactive toxin — it starves organisms of their metal cofactors without producing ROS or alkylating DNA.
 

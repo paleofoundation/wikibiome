@@ -34,7 +34,7 @@ What makes TLRs distinctive in the WikiBiome framework is their dual role as mic
 
 ## TLR4: The Metal-Responsive Sentinel
 
-TLR4 is covered in depth on its own page ([[tlr4]]), but its significance warrants summary here. TLR4 is the primary receptor for bacterial lipopolysaccharide (LPS) and is directly activated by nickel through histidine residues (H456, H458) unique to the human receptor [[ahlstrom-2019-nickel-allergy-review]]. This means:
+TLR4 is covered in depth on its own page ([[tlr4]]), but its significance warrants summary here. TLR4 is the primary receptor for bacterial lipopolysaccharide (LPS) and is directly activated by nickel through [[histidine]] residues (H456, H458) unique to the human receptor [[ahlstrom-2019-nickel-allergy-review]]. This means:
 
 - Dietary nickel can trigger innate immune activation without any microbial involvement
 - Mouse models fail to recapitulate nickel-driven inflammation because murine TLR4 lacks these histidine residues

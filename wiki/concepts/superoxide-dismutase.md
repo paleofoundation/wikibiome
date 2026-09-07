@@ -51,7 +51,7 @@ Pathogen-produced SODs are bona fide virulence factors -- they neutralize the su
 
 ### The Metal-Free Alternative: Borrelia burgdorferi
 
-[[borrelia]] (*B. burgdorferi*) has eliminated iron entirely from its biology and relies on MnSOD as its primary antioxidant. It also accumulates non-proteinaceous H-Mn metabolite complexes (histidine-manganese, citrate-manganese) that provide additional antioxidant capacity independent of SOD protein [[londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi]]. This iron-free lifestyle is a radical evolutionary strategy to evade host nutritional immunity targeting iron.
+[[borrelia]] (*B. burgdorferi*) has eliminated iron entirely from its biology and relies on MnSOD as its primary antioxidant. It also accumulates non-proteinaceous H-Mn metabolite complexes ([[histidine]]-manganese, citrate-manganese) that provide additional antioxidant capacity independent of SOD protein [[londono-2025-epr-manganese-antioxidant-borrelia-burgdorferi]]. This iron-free lifestyle is a radical evolutionary strategy to evade host nutritional immunity targeting iron.
 
 ## Host Nutritional Immunity Targets SOD
 

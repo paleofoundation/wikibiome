@@ -123,7 +123,7 @@ A critical emerging principle is that metal mixtures cause synergistic toxicity 
 - Nickel + Copper: At environmentally relevant concentrations where neither metal alone is toxic (30 uM Ni, 15 uM Cu), the combination causes massive transcriptomic disruption in E. coli with 70% of affected genes uniquely impacted by the combination
 - The primary target is iron-sulfur clusters: Both Cu+ and Ni2+ displace Fe2+ from Fe-S clusters, but the combination overwhelms the ISC repair/assembly machinery
 - ROS are NOT the primary mechanism: The synergistic toxicity operates through Fe-S cluster disruption rather than oxidative stress
-- Histidine rescues by chelating both metals extracellularly, reducing bioavailable metal concentrations
+- [[Histidine]] rescues by chelating both metals extracellularly, reducing bioavailable metal concentrations
 
 ## Antimicrobial Mis-Metallation: Therapeutic Applications
 

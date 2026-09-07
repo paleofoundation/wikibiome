@@ -34,7 +34,7 @@ The net effect is a rise in local pH due to ammonia production, plus generation 
 
 - Urease maturation requires a dedicated set of accessory proteins: UreD (scaffold), UreE (nickel metallochaperone), UreF (conformational gatekeeper), UreG (GTPase that drives nickel insertion), and UreH (in some species).
 - In [[helicobacter-pylori]], the maturation pathway shares components with [[hydrogenase]] maturation -- HypA and HypB deliver nickel to both urease (via UreE) and hydrogenase, creating a coordinated nickel allocation system [[maier-2019-nickel-microbial-pathogenesis]].
-- In [[proteus-mirabilis]], the HypB accessory protein is 39% histidine -- one of the most histidine-enriched proteins known -- creating a high-capacity nickel reservoir for urease metalation.
+- In [[proteus-mirabilis]], the HypB accessory protein is 39% [[histidine]] -- one of the most histidine-enriched proteins known -- creating a high-capacity nickel reservoir for urease metalation.
 
 ### Dual catalytic and antioxidant function
 

@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "8aa4f102314b43e83dc8a7f6b0c6e7a2e989a4b4bd58349312f23192a290002d",
+    "corpusSha256": "71e4a4fe12df0dfcaa406a3f423c08c7d1553cd3cd2756c5412580392376958e",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
-    "decisionsSha256": "5a4556319749cab7e06192020b6877bc91846b9a9b5b1810a1f7e1bb6faec880",
+    "decisionsSha256": "fee54bb7cc524b138be8962cf219bbab0079a7ee93a5814d466a47418fa78b61",
     "publicArticles": 592,
     "sourceRecords": 1939
   },
@@ -23,12 +23,12 @@
     ]
   },
   "summary": {
-    "totalJobs": 205,
+    "totalJobs": 204,
     "createPage": 4,
-    "backfillLinks": 200,
+    "backfillLinks": 199,
     "evidenceHold": 1,
     "accepted": 0,
-    "promoted": 22
+    "promoted": 23
   },
   "activeReviews": [],
   "completedJobs": [
@@ -126,6 +126,43 @@
       "key": "backfill_links:catalase#2026-09-07-core-catalase-contexts",
       "jobKey": "backfill_links:catalase",
       "batchId": "2026-09-07-core-catalase-contexts"
+    },
+    {
+      "id": "histidine",
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "targets": [
+        "proteus-mirabilis",
+        "nutritional-immunity",
+        "nickel",
+        "copper",
+        "urease",
+        "mis-metallation",
+        "hydrogenase",
+        "lactoferrin",
+        "alzheimers-disease",
+        "superoxide-dismutase",
+        "tlr4",
+        "pathogen-metal-acquisition",
+        "nife-hydrogenase",
+        "pancreatic-cancer",
+        "tnf-alpha",
+        "nickel-transporters",
+        "toll-like-receptors",
+        "nickel-urease",
+        "infant-exposure",
+        "lactobacillus-reuteri",
+        "bismuth",
+        "matrix-metalloproteases",
+        "dialister-histaminiformans",
+        "amyloid-beta-aggregation",
+        "heavy-metal-neurotoxicity",
+        "cysteine"
+      ],
+      "key": "backfill_links:histidine#2026-09-07-corpus-wide-histidine-contexts",
+      "jobKey": "backfill_links:histidine",
+      "batchId": "2026-09-07-corpus-wide-histidine-contexts"
     },
     {
       "id": "hydrogenase",
@@ -563,466 +600,6 @@
   ],
   "jobs": [
     {
-      "key": "backfill_links:histidine",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": {
-        "state": "queued",
-        "rationale": "A sourced Histidine page already exists, and the Helicobacter pylori nickel-storage section is a high-value contextual link location.",
-        "batches": [
-          {
-            "id": "2026-09-06-helicobacter-pylori",
-            "state": "promoted",
-            "reviewedAt": "2026-09-06",
-            "promotedAt": "2026-09-06",
-            "targets": [
-              "helicobacter-pylori"
-            ]
-          }
-        ]
-      },
-      "id": "histidine",
-      "title": "Histidine",
-      "pageType": "concept",
-      "aliases": [
-        "Histidine",
-        "histidine"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing concept central to metal coordination and microbial histamine production.",
-      "existingPage": {
-        "path": "wiki/concepts/histidine.md",
-        "sourceCount": 3
-      },
-      "priority": 92.88,
-      "scoreComponents": {
-        "demand": 21.63,
-        "evidence": 25,
-        "graphGain": 20,
-        "scopeFit": 15,
-        "outlineReadiness": 11.25,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 29,
-        "totalPlainMentions": 43,
-        "linkedArticles": 3,
-        "unlinkedArticles": 26,
-        "linkCoveragePercent": 10,
-        "leadMentions": 1,
-        "headingMentions": 0,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 29,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 118.516
-      },
-      "affectedPages": [
-        {
-          "id": "proteus-mirabilis",
-          "title": "Proteus mirabilis",
-          "path": "wiki/entities/proteus-mirabilis.md",
-          "category": "microbe",
-          "plainMentions": 6,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 17
-        },
-        {
-          "id": "nutritional-immunity",
-          "title": "Nutritional Immunity (Metal Sequestration)",
-          "path": "wiki/concepts/nutritional-immunity.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 156
-        },
-        {
-          "id": "nickel",
-          "title": "Nickel",
-          "path": "wiki/entities/nickel.md",
-          "category": "metal",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 137
-        },
-        {
-          "id": "copper",
-          "title": "Copper",
-          "path": "wiki/entities/copper.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 82
-        },
-        {
-          "id": "urease",
-          "title": "Urease",
-          "path": "wiki/concepts/urease.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 74
-        },
-        {
-          "id": "mis-metallation",
-          "title": "Mis-Metallation",
-          "path": "wiki/concepts/mis-metallation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 73
-        },
-        {
-          "id": "hydrogenase",
-          "title": "Hydrogenase",
-          "path": "wiki/concepts/hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 51
-        },
-        {
-          "id": "lactoferrin",
-          "title": "Lactoferrin",
-          "path": "wiki/concepts/lactoferrin.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 44
-        },
-        {
-          "id": "alzheimers-disease",
-          "title": "Alzheimer's Disease",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 36
-        },
-        {
-          "id": "superoxide-dismutase",
-          "title": "Superoxide Dismutase",
-          "path": "wiki/concepts/superoxide-dismutase.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "tlr4",
-          "title": "TLR4",
-          "path": "wiki/concepts/tlr4.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "pathogen-metal-acquisition",
-          "title": "Pathogen Metal Acquisition Systems",
-          "path": "wiki/concepts/pathogen-metal-acquisition.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 10
-        },
-        {
-          "id": "nife-hydrogenase",
-          "title": "NiFe-Hydrogenase",
-          "path": "wiki/concepts/nife-hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 9
-        },
-        {
-          "id": "pancreatic-cancer",
-          "title": "Pancreatic Cancer",
-          "path": "wiki/entities/pancreatic-cancer.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 8
-        },
-        {
-          "id": "tnf-alpha",
-          "title": "TNF-alpha (Tumor Necrosis Factor Alpha)",
-          "path": "wiki/concepts/tnf-alpha.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 8
-        },
-        {
-          "id": "nickel-transporters",
-          "title": "Nickel Transporters",
-          "path": "wiki/concepts/nickel-transporters.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "toll-like-receptors",
-          "title": "Toll-Like Receptors",
-          "path": "wiki/concepts/toll-like-receptors.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 5
-        },
-        {
-          "id": "nickel-urease",
-          "title": "Nickel-Urease",
-          "path": "wiki/concepts/nickel-urease.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "infant-exposure",
-          "title": "Infant Exposure",
-          "path": "wiki/concepts/infant-exposure.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "lactobacillus-reuteri",
-          "title": "Lactobacillus reuteri",
-          "path": "wiki/entities/lactobacillus-reuteri.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "bismuth",
-          "title": "Bismuth",
-          "path": "wiki/entities/bismuth.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "matrix-metalloproteases",
-          "title": "Matrix Metalloproteases (MMPs)",
-          "path": "wiki/concepts/matrix-metalloproteases.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "dialister-histaminiformans",
-          "title": "Dialister histaminiformans",
-          "path": "wiki/entities/dialister-histaminiformans.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "amyloid-beta-aggregation",
-          "title": "Amyloid-Beta Aggregation",
-          "path": "wiki/concepts/amyloid-beta-aggregation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 1
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "nong-2026-sod-deficiency-oxidative-stress-ecoli",
-          "title": "Nong 2026 — Despite Inducing Antioxidant Regulation, Superoxide Dismutase Deficiency Makes E. coli More Sensitive to Hydrogen Peroxide",
-          "evidenceLevel": null,
-          "year": 2026,
-          "path": "wiki/sources/nong-2026-sod-deficiency-oxidative-stress-ecoli.md",
-          "passage": {
-            "excerpt": "- **SodA/SodB double deletion** induces SoxSR-mediated oxidative stress response, upregulating catalase KatE and organic peroxidases Tpx and BtuE - **SOD deficiency suppresses oxidative phosphorylation** by reducing NADH dehydrogenase (Complex I) and succin...",
-            "sha256": "5fc1809cb2bfe081e5b0363c420278087f3cb021e86650fab457dc21f8272e62"
-          }
-        },
-        {
-          "id": "darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli",
-          "title": "Darwiche 2025 — The Molecular Basis of the Synergistic Toxicity of Nickel and Copper, Common Environmental Co-Contaminants",
-          "evidenceLevel": null,
-          "year": 2025,
-          "path": "wiki/sources/darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli.md",
-          "passage": {
-            "excerpt": "- **Ni and Cu are synergistically toxic** in E. coli at environmentally relevant concentrations (30 uM Ni + 15 uM Cu) where neither metal alone causes significant growth defects - **70% of differentially expressed genes (360/512)** are uniquely affected by...",
-            "sha256": "fcf8cb8baa81f8c8d413bb430f6a2b78820639754327204e47a59a343511f54c"
-          }
-        },
-        {
-          "id": "hoffelner-2025-emerging-therapy-targets-microbiome-cvd",
-          "title": "Emerging therapy targets to modulate microbiome-mediated effects evident in cardiovascular disease",
-          "evidenceLevel": "animal-model",
-          "year": 2025,
-          "path": "wiki/sources/hoffelner-2025-emerging-therapy-targets-microbiome-cvd.md",
-          "passage": {
-            "excerpt": "- **SCFAs**: Acetate, propionate, butyrate reduce CVD risk factors; act through OLFR78, GPR41, GPR43 for blood pressure regulation; butyrate strengthens gut barrier - **TMAO**: Higher levels correlate with more atherosclerosis; interferes with cholesterol t...",
-            "sha256": "2d277675ab3c5d934341b7a3e606a758fa01b1bbfae8cc4aa6bafb488e89dfb7"
-          }
-        },
-        {
-          "id": "khochtali-2025-pcob-copper-efflux-disordered-region-caulobacter",
-          "title": "Khochtali 2025 — Key Roles in Copper Efflux and Protein Homeostasis of the Intrinsically Disordered Region of a Bacterial Outer Membrane Channel",
-          "evidenceLevel": null,
-          "year": 2025,
-          "path": "wiki/sources/khochtali-2025-pcob-copper-efflux-disordered-region-caulobacter.md",
-          "passage": {
-            "excerpt": "This study reveals how a bacterial outer membrane channel protein (PcoB) uses an intrinsically disordered N-terminal domain (NTD) rich in histidine and methionine residues to bind and export copper, preventing copper-mediated mis metallation. The paper expl...",
-            "sha256": "77346cc36dafe5b843b98377df2d242ea0d4a23c913a448c30fd378cabdf3c02"
-          }
-        },
-        {
-          "id": "rafati-rahimzadeh-2025-nickel-intoxication-mechanisms",
-          "title": "Nickel; A Metal with Threats to Human Health, Focusing on Its Intoxication Mechanisms",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/rafati-rahimzadeh-2025-nickel-intoxication-mechanisms.md",
-          "passage": {
-            "excerpt": "- **Absorption**: digestive system, respiratory system, skin and appendages - **Distribution**: lungs, thyroid glands, adrenal glands, brain, kidneys, heart, liver, spleen, pancreas - **Excretion**: primarily urine (values of 6 ug/24 hour specimen; higher v...",
-            "sha256": "41b9b7b048a36451e4611c1471617b41412e14d841a5c64d85eb4ebb7ba98d85"
-          }
-        },
-        {
-          "id": "shen-2025-amino-acids-gerd-mendelian-randomization-glutamate",
-          "title": "The relationship between amino acids and gastroesophageal reflux disease: evidence from a mendelian randomization analysis combined with a meta-analysis",
-          "evidenceLevel": "systematic-review-meta-analysis",
-          "year": 2025,
-          "path": "wiki/sources/shen-2025-amino-acids-gerd-mendelian-randomization-glutamate.md",
-          "passage": {
-            "excerpt": "- Glutamate was identified as causally increasing gerd risk through omics mendelian randomization, with a combined meta-analysis OR of 1.227 (95% CI 1.068-1.411, P=0.043) across Finnish and UK databases - Glutamate may exacerbate GERD progression through me...",
-            "sha256": "04d559c0fead43458e412c1747db3c904679716a19db8239ea26d20007e4d6ea"
-          }
-        },
-        {
-          "id": "chagovets-2024-amino-acid-monocytes-cancer",
-          "title": "Chagovets 2024 — Specific Changes in Amino Acid Profiles in Monocytes of Patients with Breast, Lung, Colorectal and Ovarian Cancers",
-          "evidenceLevel": "cross-sectional",
-          "year": 2024,
-          "path": "wiki/sources/chagovets-2024-amino-acid-monocytes-cancer.md",
-          "passage": {
-            "excerpt": "- **Cancer type-specific amino acid profiles exist in circulating monocytes**: Each cancer type (breast, lung, colorectal, ovarian) showed distinct amino acid signatures in CD14+ monocytes, reflecting cancer-specific metabolic reprogramming of innate immune...",
-            "sha256": "a6fa7068a633e778663a06611f2a8399d1c2c8fad21f6867909410c2639b59f3"
-          }
-        },
-        {
-          "id": "sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria",
-          "title": "Sullivan 2024 — Resisting Death by Metal: Metabolism and Cu/Zn Homeostasis in Bacteria",
-          "evidenceLevel": "animal-model",
-          "year": 2024,
-          "path": "wiki/sources/sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria.md",
-          "passage": {
-            "excerpt": "This mini-review is a critical bridge between mis metallation theory and practical antimicrobial strategy. Sullivan et al. catalog the transport-independent mechanisms bacteria use to resist copper and zinc toxicity -- small molecules like glutathione, cyst...",
-            "sha256": "f2d6105801fb82cad633f0df6e2b8193c4f81a623323be3e3fc1428f71b7dd63"
-          }
-        },
-        {
-          "id": "troseid-2024-gut-microbiome-cardiometabolic-hiv",
-          "title": "Troseid 2024 — Gut Microbiome and Cardiometabolic Comorbidities in People Living with HIV",
-          "evidenceLevel": "expert-opinion",
-          "year": 2024,
-          "path": "wiki/sources/troseid-2024-gut-microbiome-cardiometabolic-hiv.md",
-          "passage": {
-            "excerpt": "- **HIV-associated dysbiosis overlaps with CVD-related dysbiosis profiles**, featuring depletion of lachnospiraceae and ruminococcaceae and enrichment of gammaproteobacteria and Desulfovibrionaceae, resulting in reduced short-chain fatty acid (SCFA) product...",
-            "sha256": "61c246acd4405631b019bf6ca361d0f218e078af7399b1d7c6c3d7534265bf40"
-          }
-        },
-        {
-          "id": "eggers-2023-prenatal-lead-childhood-gut-microbiome-progress",
-          "title": "Eggers 2023 — Prenatal lead exposure is negatively associated with gut microbiome in childhood (PROGRESS cohort)",
-          "evidenceLevel": "prospective-cohort",
-          "year": 2023,
-          "path": "wiki/sources/eggers-2023-prenatal-lead-childhood-gut-microbiome-progress.md",
-          "passage": {
-            "excerpt": "- Prospective PROGRESS birth cohort from Mexico City, 123 mother–child pairs with shotgun metagenomic stool sequencing at 9–11 years old. Prenatal blood Pb measured by ICP-MS in 2nd and 3rd trimesters (mean 33.6 and 34.9 µg/L). - Weighted quantile sum regre...",
-            "sha256": "1fe6918a01060ee0769d509d3cd69c36d64d77965c6f67e02cb65cce84adb594"
-          }
-        },
-        {
-          "id": "hellmann-2023-amino-acid-profile-ptc-hashimotos",
-          "title": "Alterations in the amino acid profile in patients with papillary thyroid carcinoma with and without Hashimoto's thyroiditis",
-          "evidenceLevel": "case-control",
-          "year": 2023,
-          "path": "wiki/sources/hellmann-2023-amino-acid-profile-ptc-hashimotos.md",
-          "passage": {
-            "excerpt": "- Glutamic acid: elevated ~2x in PTC1 vs PTC0; highest discriminatory power - Glycine and valine: comparable between PTC0 and PTC1 - Alanine: declining trend from PTC0 to PTC1 - Arginine, leucine: significantly elevated only in PTC1 - Histidine: elevated on...",
-            "sha256": "9fba9fdd3cfda19593967d6e92f08ffd1918413ac0c9cea976c45670fd632459"
-          }
-        },
-        {
-          "id": "taroncher-oldenburg-2023-multi-level-gut-brain-axis-asd",
-          "title": "Taroncher-Oldenburg 2023 — Multi-Level Analysis of the Gut-Brain Axis Shows ASD-Associated Molecular and Microbial Profiles",
-          "evidenceLevel": "systematic-review-meta-analysis",
-          "year": 2023,
-          "path": "wiki/sources/taroncher-oldenburg-2023-multi-level-gut-brain-axis-asd.md",
-          "passage": {
-            "excerpt": "- Re-analysis of Berding et al. paired microbiome-dietary data - Microbiome-diet co-occurrence analysis: amino acid, carbohydrate, lipid associations - Autistic children less likely to consume glutamic acid, serine, choline, phenylalanine, leucine, tyrosine...",
-            "sha256": "393f97f71453ac1db35badb1210cb27fee73a3fd6befa4ed229e3a037ec195bf"
-          }
-        }
-      ]
-    },
-    {
       "key": "backfill_links:dysbiosis",
       "lane": "backfill_links",
       "state": "queued",
@@ -1069,7 +646,7 @@
         ],
         "candidateEvidenceSources": 915,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 885.465
+        "weightedGraphGain": 888.371
       },
       "affectedPages": [
         {
@@ -1517,7 +1094,7 @@
         ],
         "candidateEvidenceSources": 607,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 828.838
+        "weightedGraphGain": 831.745
       },
       "affectedPages": [
         {
@@ -1967,7 +1544,7 @@
         ],
         "candidateEvidenceSources": 665,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 740.841
+        "weightedGraphGain": 743.748
       },
       "affectedPages": [
         {
@@ -2866,7 +2443,7 @@
         ],
         "candidateEvidenceSources": 373,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 489.788
+        "weightedGraphGain": 492.695
       },
       "affectedPages": [
         {
@@ -2955,7 +2532,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": true,
-          "inboundLinks": 3
+          "inboundLinks": 29
         },
         {
           "id": "staphylococcus",
@@ -19973,7 +19550,7 @@
         ],
         "candidateEvidenceSources": 73,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 218.668
+        "weightedGraphGain": 221.575
       },
       "affectedPages": [
         {
@@ -20153,6 +19730,17 @@
           "inboundLinks": 39
         },
         {
+          "id": "histidine",
+          "title": "Histidine",
+          "path": "wiki/concepts/histidine.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 29
+        },
+        {
           "id": "developmental-metal-vulnerability",
           "title": "Developmental Metal Vulnerability: Critical Windows of Susceptibility",
           "path": "wiki/concepts/developmental-metal-vulnerability.md",
@@ -20224,17 +19812,6 @@
           "path": "wiki/entities/streptococcus-pneumoniae.md",
           "category": "microbe",
           "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "inter-kingdom-metal-shielding",
-          "title": "Inter-Kingdom Metal Shielding",
-          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
-          "category": "concept",
-          "plainMentions": 2,
           "linked": false,
           "leadMention": false,
           "headingMention": false,
@@ -25343,7 +24920,7 @@
         ],
         "candidateEvidenceSources": 37,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 128.296
+        "weightedGraphGain": 131.203
       },
       "affectedPages": [
         {
@@ -25422,6 +24999,17 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 42
+        },
+        {
+          "id": "histidine",
+          "title": "Histidine",
+          "path": "wiki/concepts/histidine.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 29
         },
         {
           "id": "chromium",
@@ -25565,17 +25153,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 4
-        },
-        {
-          "id": "histidine",
-          "title": "Histidine",
-          "path": "wiki/concepts/histidine.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
         },
         {
           "id": "matrix-metalloproteases",
@@ -38989,11 +38566,11 @@
         "path": "wiki/concepts/nickel-allergy.md",
         "sourceCount": 5
       },
-      "priority": 82.68,
+      "priority": 82.82,
       "scoreComponents": {
         "demand": 20.72,
         "evidence": 25,
-        "graphGain": 17.46,
+        "graphGain": 17.6,
         "scopeFit": 9,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": 0
@@ -39013,7 +38590,7 @@
         ],
         "candidateEvidenceSources": 44,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 66.918
+        "weightedGraphGain": 69.825
       },
       "affectedPages": [
         {
@@ -39070,6 +38647,17 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 36
+        },
+        {
+          "id": "histidine",
+          "title": "Histidine",
+          "path": "wiki/concepts/histidine.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 29
         },
         {
           "id": "metalloestrogens",
@@ -39136,17 +38724,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 5
-        },
-        {
-          "id": "histidine",
-          "title": "Histidine",
-          "path": "wiki/concepts/histidine.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
         },
         {
           "id": "non-alcoholic-fatty-liver-disease",
@@ -40284,6 +39861,312 @@
       ]
     },
     {
+      "key": "backfill_links:metallochaperone",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": null,
+      "id": "metallochaperone",
+      "title": "Metallochaperone",
+      "pageType": "concept",
+      "aliases": [
+        "Metallochaperone",
+        "metallochaperone",
+        "metallochaperones",
+        "HypA",
+        "HypB",
+        "UreE"
+      ],
+      "excludePhrases": [],
+      "reason": "Existing parent concept for proteins that deliver metal cofactors to enzymes.",
+      "existingPage": {
+        "path": "wiki/concepts/metallochaperone.md",
+        "sourceCount": 3
+      },
+      "priority": 82.09,
+      "scoreComponents": {
+        "demand": 17.22,
+        "evidence": 25,
+        "graphGain": 17.37,
+        "scopeFit": 15,
+        "outlineReadiness": 13.5,
+        "ambiguityPenalty": -6
+      },
+      "metrics": {
+        "distinctArticles": 14,
+        "totalPlainMentions": 56,
+        "linkedArticles": 0,
+        "unlinkedArticles": 14,
+        "linkCoveragePercent": 0,
+        "leadMentions": 1,
+        "headingMentions": 2,
+        "articleCategories": [
+          "concept",
+          "metal",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 9,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 65.085
+      },
+      "affectedPages": [
+        {
+          "id": "copper",
+          "title": "Copper",
+          "path": "wiki/entities/copper.md",
+          "category": "metal",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": true,
+          "headingMention": false,
+          "inboundLinks": 82
+        },
+        {
+          "id": "proteus-mirabilis",
+          "title": "Proteus mirabilis",
+          "path": "wiki/entities/proteus-mirabilis.md",
+          "category": "microbe",
+          "plainMentions": 5,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 17
+        },
+        {
+          "id": "acinetobacter",
+          "title": "Acinetobacter",
+          "path": "wiki/entities/acinetobacter.md",
+          "category": "microbe",
+          "plainMentions": 4,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 6
+        },
+        {
+          "id": "zinc",
+          "title": "Zinc",
+          "path": "wiki/entities/zinc.md",
+          "category": "metal",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 120
+        },
+        {
+          "id": "urease",
+          "title": "Urease",
+          "path": "wiki/concepts/urease.md",
+          "category": "concept",
+          "plainMentions": 8,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 74
+        },
+        {
+          "id": "escherichia-coli",
+          "title": "Escherichia coli",
+          "path": "wiki/entities/escherichia-coli.md",
+          "category": "microbe",
+          "plainMentions": 4,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 63
+        },
+        {
+          "id": "hydrogenase",
+          "title": "Hydrogenase",
+          "path": "wiki/concepts/hydrogenase.md",
+          "category": "concept",
+          "plainMentions": 19,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 51
+        },
+        {
+          "id": "histidine",
+          "title": "Histidine",
+          "path": "wiki/concepts/histidine.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 29
+        },
+        {
+          "id": "labile-metal-pool",
+          "title": "Labile Metal Pool",
+          "path": "wiki/concepts/labile-metal-pool.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 6
+        },
+        {
+          "id": "acinetobacter-baumannii",
+          "title": "Acinetobacter baumannii",
+          "path": "wiki/entities/acinetobacter-baumannii.md",
+          "category": "microbe",
+          "plainMentions": 4,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 2
+        },
+        {
+          "id": "bismuth",
+          "title": "Bismuth",
+          "path": "wiki/entities/bismuth.md",
+          "category": "metal",
+          "plainMentions": 3,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 2
+        },
+        {
+          "id": "gene-regulation",
+          "title": "Gene Regulation",
+          "path": "wiki/concepts/gene-regulation.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 1
+        },
+        {
+          "id": "staphylococcus",
+          "title": "Staphylococcus",
+          "path": "wiki/entities/staphylococcus.md",
+          "category": "microbe",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 1
+        },
+        {
+          "id": "cysteine",
+          "title": "Cysteine",
+          "path": "wiki/concepts/cysteine.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 0
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "puiggene-2026-ped-gene-cluster-pseudomonas-metal-cofactors",
+          "title": "Puiggene 2026 — Functional Organization and Regulatory Logic of the ped Gene Cluster in Pseudomonas Species",
+          "evidenceLevel": "expert-opinion",
+          "year": 2026,
+          "path": "wiki/sources/puiggene-2026-ped-gene-cluster-pseudomonas-metal-cofactors.md",
+          "passage": {
+            "excerpt": "- mis metallation -- explicit documentation of Fe2+/Fe3+ and heavier lanthanides mismetallating La3+-dependent enzymes - metal homeostasis -- the REE switch as a paradigmatic example of metalloproteome remodeling - iron -- Fe2+/Fe3+ as a mismetallating comp...",
+            "sha256": "6351eef359a267f78eba207c39d44a343662cb555cec2ae09825fa858e8927d1"
+          }
+        },
+        {
+          "id": "critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter",
+          "title": "Critchlow 2025 — The Zinc Metalloprotein MigC Impacts Cell Wall Biogenesis Through Interactions with MurD in Acinetobacter baumannii",
+          "evidenceLevel": "animal-model",
+          "year": 2025,
+          "path": "wiki/sources/critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter.md",
+          "passage": {
+            "excerpt": "This paper discovers a new mechanism linking zinc homeostasis to cell wall integrity in the WHO \"Priority 1: Critical Pathogen\" A. baumannii. MigC (MurD-interacting GTPase COG0523) is a zinc-binding metallochaperone that inhibits MurD, an essential peptidog...",
+            "sha256": "41fdf1db859424c879066d4e57c92fb0e4cec92d814561fd1f4430420114537d"
+          }
+        },
+        {
+          "id": "helmann-2025-labile-metal-pools-bacteria",
+          "title": "Helmann 2025 — Metals in Motion: Understanding Labile Metal Pools in Bacteria",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/helmann-2025-labile-metal-pools-bacteria.md",
+          "passage": {
+            "excerpt": "| Metal | Total Quota | Free Concentration | Key Buffering System | |-------|-----------|-------------------|---------------------| | K+ | 200-800 mM | ~30-40 M (massive) | Nucleic acids, metabolites | | Mg2+ | ~100 mM | ~0.3-3 mM free | Ribosomes, nucleic...",
+            "sha256": "b3b35516a0ce147db14c3bb3e8f4532a5b5b1519e79e4bb309670068ff2a1ca7"
+          }
+        },
+        {
+          "id": "capdevila-2024-bacterial-metallostasis-sensing-trafficking",
+          "title": "Capdevila 2024 — Bacterial Metallostasis: Metal Sensing, Metalloproteome Remodeling, and Metal Trafficking",
+          "evidenceLevel": "expert-opinion",
+          "year": 2024,
+          "path": "wiki/sources/capdevila-2024-bacterial-metallostasis-sensing-trafficking.md",
+          "passage": {
+            "excerpt": "This is the single most comprehensive review of bacterial metal homeostasis published in 2024, defining the concept of \"metallostasis\" as the cellular analog of proteostasis but for metal cofactors. It provides the theoretical backbone for understanding mis...",
+            "sha256": "671756938a25c461ede84162cc7fa23e772386d225454d7f52f70965e385aec4"
+          }
+        },
+        {
+          "id": "sarasa-buisan-2024-ancient-zinc-acquisition-cyanobacterial-exoproteome",
+          "title": "Sarasa-Buisan 2024 — An Ancient Bacterial Zinc Acquisition System Identified from a Cyanobacterial Exoproteome",
+          "evidenceLevel": null,
+          "year": 2024,
+          "path": "wiki/sources/sarasa-buisan-2024-ancient-zinc-acquisition-cyanobacterial-exoproteome.md",
+          "passage": {
+            "excerpt": "- mis metallation -- zinc scarcity drives evolution of specialized acquisition systems; mis-metallation risk increases under zinc limitation - zinc -- novel exoprotein-based zinc acquisition pathway - metal homeostasis -- Zur as master regulator of zinc hom...",
+            "sha256": "fadc18fb80026c9bafb3da0dcb16e989c90a9909fce55f4b989182ff09346d42"
+          }
+        },
+        {
+          "id": "zinc-essentiality-toxicity-bioremediation",
+          "title": "Zinc — Essentiality, Toxicity, and Bacterial Bioremediation",
+          "evidenceLevel": "expert-opinion",
+          "year": 2023,
+          "path": "wiki/sources/zinc-essentiality-toxicity-bioremediation.md",
+          "passage": {
+            "excerpt": "- **Zinc is a cofactor in ~10% of the bacterial proteome**, making it the most widely required transition metal in biology zinc essentiality toxicity bioremediation - At excess concentrations, zinc displaces other metal cofactors (mismetallation), inhibits...",
+            "sha256": "d3ea5b142001fa27bfed35ddb86e05f1eaac82f3c3cc2c5892e5d1fcd032b4b9"
+          }
+        },
+        {
+          "id": "andrei-2020-copper-homeostasis-bacteria-ins-outs",
+          "title": "Andrei 2020 — Cu Homeostasis in Bacteria: The Ins and Outs",
+          "evidenceLevel": "expert-opinion",
+          "year": 2020,
+          "path": "wiki/sources/andrei-2020-copper-homeostasis-bacteria-ins-outs.md",
+          "passage": {
+            "excerpt": "- mis metallation -- Cu sits atop the Irving-Williams series; excess Cu displaces Fe from Fe-S clusters and other metalloprotein sites - copper -- the most comprehensive review of Cu import, transit, and export in Gram-negative bacteria - iron sulfur cluste...",
+            "sha256": "268699d69bdbc3929e679f85c997d00247b39a5d633ef83900902d2113272e7c"
+          }
+        },
+        {
+          "id": "gao-2017-lead-exposure-multi-omics-gut-microbiome",
+          "title": "Multi-Omics Reveals that Lead Exposure Disturbs Gut Microbiome Development, Key Metabolites, and Metabolic Pathways",
+          "evidenceLevel": "animal-model",
+          "year": 2017,
+          "path": "wiki/sources/gao-2017-lead-exposure-multi-omics-gut-microbiome.md",
+          "passage": {
+            "excerpt": "- **Study type**: Original animal experiment using multi-omics approach - **Design**: C57BL/6 female mice (~7 weeks old), n=5 per group; 10 ppm Pb chloride in drinking water for 13 weeks - **Methods**: 16S rRNA gene sequencing (V4 region, Illumina MiSeq), w...",
+            "sha256": "b72cb5fdc0806354df6e5858f981999f5496a9a795a2fa5491c29355af39b12b"
+          }
+        },
+        {
+          "id": "cassat-2012-metal-acquisition-staphylococcus-aureus",
+          "title": "Metal Ion Acquisition in Staphylococcus aureus: Overcoming Nutritional Immunity",
+          "evidenceLevel": "animal-model",
+          "year": 2012,
+          "path": "wiki/sources/cassat-2012-metal-acquisition-staphylococcus-aureus.md",
+          "passage": {
+            "excerpt": "- **CopA**: a P-type ATPase copper efflux pump. Induced by copper exposure and regulated by the copper-sensitive operon repressor **CsoR**. - **CopZ**: a copper metallochaperone that binds Cu(I) in the cytoplasm and delivers it to CopA for export. Predicted...",
+            "sha256": "f0647e8d96d0fbf92c6c17ac02509a61041022315f73cd62e581bf8faac0798c"
+          }
+        }
+      ]
+    },
+    {
       "key": "backfill_links:shotgun-metagenomics",
       "lane": "backfill_links",
       "state": "queued",
@@ -40606,312 +40489,6 @@
           "passage": {
             "excerpt": "- Prospective study at Third Affiliated Hospital of Guangzhou Medical University (Oct 2022–Oct 2023). Bell stage II-III NEC infants (n=7) with gestational-age-matched non-NEC controls (n=7). Serum (for LC-MS/MS untargeted metabolomics) and stool (for shotgu...",
             "sha256": "b383596c71948a4a92fde12414a51fb8f8544c6b590daebc3c75dca2612aa598"
-          }
-        }
-      ]
-    },
-    {
-      "key": "backfill_links:metallochaperone",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "metallochaperone",
-      "title": "Metallochaperone",
-      "pageType": "concept",
-      "aliases": [
-        "Metallochaperone",
-        "metallochaperone",
-        "metallochaperones",
-        "HypA",
-        "HypB",
-        "UreE"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing parent concept for proteins that deliver metal cofactors to enzymes.",
-      "existingPage": {
-        "path": "wiki/concepts/metallochaperone.md",
-        "sourceCount": 3
-      },
-      "priority": 81.95,
-      "scoreComponents": {
-        "demand": 17.22,
-        "evidence": 25,
-        "graphGain": 17.23,
-        "scopeFit": 15,
-        "outlineReadiness": 13.5,
-        "ambiguityPenalty": -6
-      },
-      "metrics": {
-        "distinctArticles": 14,
-        "totalPlainMentions": 56,
-        "linkedArticles": 0,
-        "unlinkedArticles": 14,
-        "linkCoveragePercent": 0,
-        "leadMentions": 1,
-        "headingMentions": 2,
-        "articleCategories": [
-          "concept",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 9,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 62.178
-      },
-      "affectedPages": [
-        {
-          "id": "copper",
-          "title": "Copper",
-          "path": "wiki/entities/copper.md",
-          "category": "metal",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 82
-        },
-        {
-          "id": "proteus-mirabilis",
-          "title": "Proteus mirabilis",
-          "path": "wiki/entities/proteus-mirabilis.md",
-          "category": "microbe",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 17
-        },
-        {
-          "id": "acinetobacter",
-          "title": "Acinetobacter",
-          "path": "wiki/entities/acinetobacter.md",
-          "category": "microbe",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 6
-        },
-        {
-          "id": "zinc",
-          "title": "Zinc",
-          "path": "wiki/entities/zinc.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 120
-        },
-        {
-          "id": "urease",
-          "title": "Urease",
-          "path": "wiki/concepts/urease.md",
-          "category": "concept",
-          "plainMentions": 8,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 74
-        },
-        {
-          "id": "escherichia-coli",
-          "title": "Escherichia coli",
-          "path": "wiki/entities/escherichia-coli.md",
-          "category": "microbe",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 63
-        },
-        {
-          "id": "hydrogenase",
-          "title": "Hydrogenase",
-          "path": "wiki/concepts/hydrogenase.md",
-          "category": "concept",
-          "plainMentions": 19,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 51
-        },
-        {
-          "id": "labile-metal-pool",
-          "title": "Labile Metal Pool",
-          "path": "wiki/concepts/labile-metal-pool.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "histidine",
-          "title": "Histidine",
-          "path": "wiki/concepts/histidine.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "acinetobacter-baumannii",
-          "title": "Acinetobacter baumannii",
-          "path": "wiki/entities/acinetobacter-baumannii.md",
-          "category": "microbe",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "bismuth",
-          "title": "Bismuth",
-          "path": "wiki/entities/bismuth.md",
-          "category": "metal",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "gene-regulation",
-          "title": "Gene Regulation",
-          "path": "wiki/concepts/gene-regulation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "staphylococcus",
-          "title": "Staphylococcus",
-          "path": "wiki/entities/staphylococcus.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "cysteine",
-          "title": "Cysteine",
-          "path": "wiki/concepts/cysteine.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 0
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "puiggene-2026-ped-gene-cluster-pseudomonas-metal-cofactors",
-          "title": "Puiggene 2026 — Functional Organization and Regulatory Logic of the ped Gene Cluster in Pseudomonas Species",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/puiggene-2026-ped-gene-cluster-pseudomonas-metal-cofactors.md",
-          "passage": {
-            "excerpt": "- mis metallation -- explicit documentation of Fe2+/Fe3+ and heavier lanthanides mismetallating La3+-dependent enzymes - metal homeostasis -- the REE switch as a paradigmatic example of metalloproteome remodeling - iron -- Fe2+/Fe3+ as a mismetallating comp...",
-            "sha256": "6351eef359a267f78eba207c39d44a343662cb555cec2ae09825fa858e8927d1"
-          }
-        },
-        {
-          "id": "critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter",
-          "title": "Critchlow 2025 — The Zinc Metalloprotein MigC Impacts Cell Wall Biogenesis Through Interactions with MurD in Acinetobacter baumannii",
-          "evidenceLevel": "animal-model",
-          "year": 2025,
-          "path": "wiki/sources/critchlow-2025-zinc-metalloprotein-migc-cell-wall-acinetobacter.md",
-          "passage": {
-            "excerpt": "This paper discovers a new mechanism linking zinc homeostasis to cell wall integrity in the WHO \"Priority 1: Critical Pathogen\" A. baumannii. MigC (MurD-interacting GTPase COG0523) is a zinc-binding metallochaperone that inhibits MurD, an essential peptidog...",
-            "sha256": "41fdf1db859424c879066d4e57c92fb0e4cec92d814561fd1f4430420114537d"
-          }
-        },
-        {
-          "id": "helmann-2025-labile-metal-pools-bacteria",
-          "title": "Helmann 2025 — Metals in Motion: Understanding Labile Metal Pools in Bacteria",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/helmann-2025-labile-metal-pools-bacteria.md",
-          "passage": {
-            "excerpt": "| Metal | Total Quota | Free Concentration | Key Buffering System | |-------|-----------|-------------------|---------------------| | K+ | 200-800 mM | ~30-40 M (massive) | Nucleic acids, metabolites | | Mg2+ | ~100 mM | ~0.3-3 mM free | Ribosomes, nucleic...",
-            "sha256": "b3b35516a0ce147db14c3bb3e8f4532a5b5b1519e79e4bb309670068ff2a1ca7"
-          }
-        },
-        {
-          "id": "capdevila-2024-bacterial-metallostasis-sensing-trafficking",
-          "title": "Capdevila 2024 — Bacterial Metallostasis: Metal Sensing, Metalloproteome Remodeling, and Metal Trafficking",
-          "evidenceLevel": "expert-opinion",
-          "year": 2024,
-          "path": "wiki/sources/capdevila-2024-bacterial-metallostasis-sensing-trafficking.md",
-          "passage": {
-            "excerpt": "This is the single most comprehensive review of bacterial metal homeostasis published in 2024, defining the concept of \"metallostasis\" as the cellular analog of proteostasis but for metal cofactors. It provides the theoretical backbone for understanding mis...",
-            "sha256": "671756938a25c461ede84162cc7fa23e772386d225454d7f52f70965e385aec4"
-          }
-        },
-        {
-          "id": "sarasa-buisan-2024-ancient-zinc-acquisition-cyanobacterial-exoproteome",
-          "title": "Sarasa-Buisan 2024 — An Ancient Bacterial Zinc Acquisition System Identified from a Cyanobacterial Exoproteome",
-          "evidenceLevel": null,
-          "year": 2024,
-          "path": "wiki/sources/sarasa-buisan-2024-ancient-zinc-acquisition-cyanobacterial-exoproteome.md",
-          "passage": {
-            "excerpt": "- mis metallation -- zinc scarcity drives evolution of specialized acquisition systems; mis-metallation risk increases under zinc limitation - zinc -- novel exoprotein-based zinc acquisition pathway - metal homeostasis -- Zur as master regulator of zinc hom...",
-            "sha256": "fadc18fb80026c9bafb3da0dcb16e989c90a9909fce55f4b989182ff09346d42"
-          }
-        },
-        {
-          "id": "zinc-essentiality-toxicity-bioremediation",
-          "title": "Zinc — Essentiality, Toxicity, and Bacterial Bioremediation",
-          "evidenceLevel": "expert-opinion",
-          "year": 2023,
-          "path": "wiki/sources/zinc-essentiality-toxicity-bioremediation.md",
-          "passage": {
-            "excerpt": "- **Zinc is a cofactor in ~10% of the bacterial proteome**, making it the most widely required transition metal in biology zinc essentiality toxicity bioremediation - At excess concentrations, zinc displaces other metal cofactors (mismetallation), inhibits...",
-            "sha256": "d3ea5b142001fa27bfed35ddb86e05f1eaac82f3c3cc2c5892e5d1fcd032b4b9"
-          }
-        },
-        {
-          "id": "andrei-2020-copper-homeostasis-bacteria-ins-outs",
-          "title": "Andrei 2020 — Cu Homeostasis in Bacteria: The Ins and Outs",
-          "evidenceLevel": "expert-opinion",
-          "year": 2020,
-          "path": "wiki/sources/andrei-2020-copper-homeostasis-bacteria-ins-outs.md",
-          "passage": {
-            "excerpt": "- mis metallation -- Cu sits atop the Irving-Williams series; excess Cu displaces Fe from Fe-S clusters and other metalloprotein sites - copper -- the most comprehensive review of Cu import, transit, and export in Gram-negative bacteria - iron sulfur cluste...",
-            "sha256": "268699d69bdbc3929e679f85c997d00247b39a5d633ef83900902d2113272e7c"
-          }
-        },
-        {
-          "id": "gao-2017-lead-exposure-multi-omics-gut-microbiome",
-          "title": "Multi-Omics Reveals that Lead Exposure Disturbs Gut Microbiome Development, Key Metabolites, and Metabolic Pathways",
-          "evidenceLevel": "animal-model",
-          "year": 2017,
-          "path": "wiki/sources/gao-2017-lead-exposure-multi-omics-gut-microbiome.md",
-          "passage": {
-            "excerpt": "- **Study type**: Original animal experiment using multi-omics approach - **Design**: C57BL/6 female mice (~7 weeks old), n=5 per group; 10 ppm Pb chloride in drinking water for 13 weeks - **Methods**: 16S rRNA gene sequencing (V4 region, Illumina MiSeq), w...",
-            "sha256": "b72cb5fdc0806354df6e5858f981999f5496a9a795a2fa5491c29355af39b12b"
-          }
-        },
-        {
-          "id": "cassat-2012-metal-acquisition-staphylococcus-aureus",
-          "title": "Metal Ion Acquisition in Staphylococcus aureus: Overcoming Nutritional Immunity",
-          "evidenceLevel": "animal-model",
-          "year": 2012,
-          "path": "wiki/sources/cassat-2012-metal-acquisition-staphylococcus-aureus.md",
-          "passage": {
-            "excerpt": "- **CopA**: a P-type ATPase copper efflux pump. Induced by copper exposure and regulated by the copper-sensitive operon repressor **CsoR**. - **CopZ**: a copper metallochaperone that binds Cu(I) in the cytoplasm and delivers it to CopA for export. Predicted...",
-            "sha256": "f0647e8d96d0fbf92c6c17ac02509a61041022315f73cd62e581bf8faac0798c"
           }
         }
       ]
@@ -49910,11 +49487,11 @@
       "excludePhrases": [],
       "reason": "Connects microbial histidine metabolism, immune signaling, and gut symptoms; requires careful evidence boundaries.",
       "existingPage": null,
-      "priority": 72.57,
+      "priority": 72.77,
       "scoreComponents": {
         "demand": 15.25,
         "evidence": 15.63,
-        "graphGain": 16.19,
+        "graphGain": 16.39,
         "scopeFit": 12,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -49934,7 +49511,7 @@
         ],
         "candidateEvidenceSources": 5,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 44.994
+        "weightedGraphGain": 47.901
       },
       "affectedPages": [
         {
@@ -49946,7 +49523,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 3
+          "inboundLinks": 29
         },
         {
           "id": "lactobacillus-reuteri",
@@ -57339,11 +56916,11 @@
         "path": "wiki/concepts/gene-regulation.md",
         "sourceCount": 5
       },
-      "priority": 62.37,
+      "priority": 63.2,
       "scoreComponents": {
         "demand": 11.39,
         "evidence": 25,
-        "graphGain": 8.73,
+        "graphGain": 9.56,
         "scopeFit": 9,
         "outlineReadiness": 8.25,
         "ambiguityPenalty": 0
@@ -57361,24 +56938,24 @@
         ],
         "candidateEvidenceSources": 11,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 9
+        "weightedGraphGain": 11.907
       },
       "affectedPages": [
         {
-          "id": "dietary-lead-exposure",
-          "title": "Dietary Lead Exposure",
-          "path": "wiki/concepts/dietary-lead-exposure.md",
+          "id": "histidine",
+          "title": "Histidine",
+          "path": "wiki/concepts/histidine.md",
           "category": "concept",
           "plainMentions": 1,
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 3
+          "inboundLinks": 29
         },
         {
-          "id": "histidine",
-          "title": "Histidine",
-          "path": "wiki/concepts/histidine.md",
+          "id": "dietary-lead-exposure",
+          "title": "Dietary Lead Exposure",
+          "path": "wiki/concepts/dietary-lead-exposure.md",
           "category": "concept",
           "plainMentions": 1,
           "linked": false,

@@ -22,7 +22,7 @@ Matrix metalloproteases are a family of zinc-dependent endopeptidases that degra
 
 ### Catalytic Architecture
 
-- All MMPs share a conserved catalytic domain containing a Zn2+ ion coordinated by three histidine residues in the HEXXHXXGXXH motif.
+- All MMPs share a conserved catalytic domain containing a Zn2+ ion coordinated by three [[histidine]] residues in the HEXXHXXGXXH motif.
 - A second structural Ca2+ ion (sometimes multiple) provides protein stability.
 - The zinc at the active site activates a water molecule for nucleophilic attack on peptide bonds.
 - A pro-domain with a cysteine residue coordinates the catalytic Zn2+, keeping the enzyme latent until proteolytic removal of the pro-domain ("cysteine switch" mechanism).

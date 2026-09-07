@@ -83,7 +83,7 @@ Oral and gut fungal communities are markedly altered in PDAC. [[aspergillus|Aspe
 
 ## Metabolomics
 
-Serum metabolomics achieves AUC 0.93 for PC detection using four metabolites (xylitol, 1,5-anhydro-D-glucitol, histidine, inositol), outperforming CA19-9 in early-stage disease (sensitivity 77.8% vs 55.6%). Amino acid metabolism is profoundly disrupted in PDAC tumors: BCAAs (leucine, isoleucine, valine) sustain PDAC growth by fueling lipogenesis through BCAT2/BCKDHA, independent of glycolysis. Intratumoral metabolomics identifies 298 significantly altered metabolites, with amino acid dipeptides and arginine metabolism pathways most dysregulated -- correlating with *Pseudomonas* abundance.
+Serum metabolomics achieves AUC 0.93 for PC detection using four metabolites (xylitol, 1,5-anhydro-D-glucitol, [[histidine]], inositol), outperforming CA19-9 in early-stage disease (sensitivity 77.8% vs 55.6%). Amino acid metabolism is profoundly disrupted in PDAC tumors: BCAAs (leucine, isoleucine, valine) sustain PDAC growth by fueling lipogenesis through BCAT2/BCKDHA, independent of glycolysis. Intratumoral metabolomics identifies 298 significantly altered metabolites, with amino acid dipeptides and arginine metabolism pathways most dysregulated -- correlating with *Pseudomonas* abundance.
 
 ## Virome
 

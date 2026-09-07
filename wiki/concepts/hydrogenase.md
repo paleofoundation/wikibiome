@@ -140,7 +140,7 @@ In [[helicobacter-pylori]], the nickel insertion pathways for hydrogenase and [[
 
 - HypA delivers nickel to both HypB (for hydrogenase) and UreE (for urease).
 - HypB is a GTPase/nickel chaperone shared between both pathways.
-- Hpn and HpnI (histidine-rich nickel storage proteins) serve as central nickel reservoirs feeding both enzyme systems.
+- Hpn and HpnI ([[histidine]]-rich nickel storage proteins) serve as central nickel reservoirs feeding both enzyme systems.
 - NikR (nickel-responsive transcriptional regulator) controls expression of both urease and hydrogenase genes.
 
 This shared maturation machinery means:

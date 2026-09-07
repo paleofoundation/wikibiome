@@ -61,7 +61,7 @@ Heavy metals are potent inducers of TNF-alpha:
 
 - Butyrate producers ([[faecalibacterium-prausnitzii]], [[roseburia]]): Butyrate inhibits NF-kB, reducing TNF-alpha transcription.
 - [[streptococcus-thermophilus]]: Produces anti-inflammatory metabolites that downregulate TNF-alpha in MS models [[dargahi-2020-streptococcus-thermophilus-ms]].
-- [[lactobacillus-reuteri]]: Produces histamine via histidine decarboxylase; histamine suppresses TNF-alpha via H2 receptor signaling.
+- [[lactobacillus-reuteri]]: Produces histamine via [[histidine]] decarboxylase; histamine suppresses TNF-alpha via H2 receptor signaling.
 
 ## Condition-Specific Roles
 

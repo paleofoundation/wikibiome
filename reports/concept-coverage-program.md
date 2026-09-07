@@ -1,14 +1,14 @@
 # WikiBiome concept coverage program
 
-Generated deterministically from corpus `8aa4f102314b`, catalog `b3d82c6dacee`, and decisions `5a4556319749`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
+Generated deterministically from corpus `71e4a4fe12df`, catalog `b3d82c6dacee`, and decisions `fee54bb7cc52`. This is an editorial queue, not an auto-publishing instruction. Candidate-source counts identify records to inspect; they do not certify that every record directly supports a future page.
 
 ## Summary
 
 - 4 create-page candidates
-- 200 existing pages with contextual-link debt
+- 199 existing pages with contextual-link debt
 - 1 candidates held for evidence
 - 0 explicitly accepted jobs
-- 22 completed jobs recorded
+- 23 completed jobs recorded
 
 ## Active reviewed batch
 
@@ -20,6 +20,7 @@ _No explicitly accepted work is awaiting promotion._
 - `backfill_links:ammonia#2026-09-07-corpus-wide-ammonia-contexts` — 2026-09-07 — targets: `actinomyces`, `amyloid-beta`, `biofilm`, `candida-albicans`, `cirrhosis`, `cryptococcus-neoformans`, `dysbiosis`, `enterobacteriaceae`, `escherichia-coli`, `fermentative-metabolism`, `gastric-cancer`, `gastric-ulcer`, `gut-kidney-axis`, `gut-metal-microbiome`, `hypoxia`, `inter-kingdom-metal-shielding`, `metal-dependent-virulence`, `microbial-metallomics`, `mis-metallation`, `morganella-morganii`, `mycobacterium-tuberculosis`, `nickel`, `nickel-glyoxalase`, `nickel-urease`, `parkinsons-disease`, `saccharolytic-fermentation`, `siderophores-metallophores`, `staphylococcus-aureus`, `streptococcus-salivarius`, `ureaplasma-urealyticum`, `uremic-toxins`, `virulence-factors`
 - `backfill_links:caga#2026-09-07-core-caga-contexts` — 2026-09-07 — targets: `hydrogenase`, `gastric-cancer`, `gastric-adenocarcinoma`, `nickel`, `helicobacter-pylori`, `metal-dependent-virulence`, `gastric-ulcer`, `nickel-transporters`, `virulence-factors`
 - `backfill_links:catalase#2026-09-07-core-catalase-contexts` — 2026-09-07 — targets: `oxidative-stress`, `streptococcus-mutans`, `metal-dependent-virulence`, `iron`, `aerococcus`
+- `backfill_links:histidine#2026-09-07-corpus-wide-histidine-contexts` — 2026-09-07 — targets: `proteus-mirabilis`, `nutritional-immunity`, `nickel`, `copper`, `urease`, `mis-metallation`, `hydrogenase`, `lactoferrin`, `alzheimers-disease`, `superoxide-dismutase`, `tlr4`, `pathogen-metal-acquisition`, `nife-hydrogenase`, `pancreatic-cancer`, `tnf-alpha`, `nickel-transporters`, `toll-like-receptors`, `nickel-urease`, `infant-exposure`, `lactobacillus-reuteri`, `bismuth`, `matrix-metalloproteases`, `dialister-histaminiformans`, `amyloid-beta-aggregation`, `heavy-metal-neurotoxicity`, `cysteine`
 - `backfill_links:hydrogenase#2026-09-07-corpus-wide-hydrogenase-contexts` — 2026-09-07 — targets: `actinobacteria`, `alzheimers-disease`, `bilophila`, `calprotectin`, `campylobacter`, `citrobacter`, `desulfovibrio`, `desulfovibrionales`, `dimethylglyoxime`, `dysbiosis`, `endometriosis`, `enterobacter`, `enterobacteriaceae`, `escherichia`, `escherichia-coli`, `fermentative-metabolism`, `gastric-adenocarcinoma`, `gastric-ulcer`, `gerd`, `gut-metal-microbiome`, `gut-microbiome`, `helicobacter-hepaticus`, `inter-kingdom-metal-shielding`, `klebsiella`, `lactobacillus`, `metal-dependent-virulence`, `methanobrevibacter`, `methanobrevibacter-smithii`, `microbial-metallomics`, `mis-metallation`, `mycobacterium-tuberculosis`, `nickel`, `nickel-transporters`, `nutritional-immunity`, `oxygen-state`, `parkinsons-disease`, `pathogen-metal-acquisition`, `salmonella`, `salmonella-typhimurium`, `siderophores-metallophores`, `virulence-factors`
 - `backfill_links:interleukin-22#2026-09-07-core-interleukin-22-contexts` — 2026-09-07 — targets: `tryptophan-metabolism`, `necrotizing-enterocolitis`, `indoles`, `ahr`, `mycobiome`, `immune-balance`, `bacteroides-vulgatus`, `tryptophan`, `bacteroides-thetaiotaomicron`, `prevotella-copri`, `th17-treg-balance`, `debaryomyces`, `infant-exposure`, `peptostreptococcus-stomatis`, `ruminococcus-gnavus`, `indole`, `ketone-bodies`
 - `backfill_links:nlrp3-inflammasome#2026-09-07-core-nlrp3-contexts` — 2026-09-07 — targets: `dysbiosis`, `cadmium`, `zinc`, `inflammation`, `colorectal-cancer`, `gut-metal-microbiome`, `cardiovascular-disease`, `chronic-kidney-disease`, `neuroinflammation`, `hashimotos-thyroiditis`, `chromium`, `tmao`, `microglia`, `il-1beta`
@@ -45,19 +46,18 @@ _No explicitly accepted work is awaiting promotion._
 |---:|---|---|---|---:|---:|---:|
 | 76.74 | `create_page:gastritis` | Gastritis | queued | 10 articles | 45.6 | 10 |
 | 76.46 | `create_page:inducible-nitric-oxide-synthase` | Inducible nitric oxide synthase | queued | 13 articles | 66.2 | 14 |
-| 72.57 | `create_page:histamine` | Histamine | queued | 10 articles | 45.0 | 5 |
+| 72.77 | `create_page:histamine` | Histamine | queued | 10 articles | 47.9 | 5 |
 | 49.01 | `create_page:urea-cycle` | Urea cycle | queued | 2 articles | 9.5 | 3 |
 
 ## Internal-link backfill queue
 
 | Score | Job | Term | State | Reader demand | Graph gain | Candidate sources |
 |---:|---|---|---|---:|---:|---:|
-| 92.88 | `backfill_links:histidine` | Histidine | queued | 26 unlinked / 29 mentioning | 118.5 | 29 |
-| 92.50 | `backfill_links:dysbiosis` | Dysbiosis | queued | 244 unlinked / 327 mentioning | 885.5 | 915 |
-| 92.50 | `backfill_links:inflammation` | Metal-Driven Inflammation | queued | 225 unlinked / 279 mentioning | 828.8 | 607 |
-| 92.50 | `backfill_links:gut-microbiome` | Gut Microbiome | queued | 216 unlinked / 221 mentioning | 740.8 | 665 |
+| 92.50 | `backfill_links:dysbiosis` | Dysbiosis | queued | 244 unlinked / 327 mentioning | 888.4 | 915 |
+| 92.50 | `backfill_links:inflammation` | Metal-Driven Inflammation | queued | 225 unlinked / 279 mentioning | 831.7 | 607 |
+| 92.50 | `backfill_links:gut-microbiome` | Gut Microbiome | queued | 216 unlinked / 221 mentioning | 743.7 | 665 |
 | 92.50 | `backfill_links:butyrate` | Butyrate | queued | 171 unlinked / 204 mentioning | 638.8 | 306 |
-| 92.50 | `backfill_links:oxidative-stress` | Oxidative Stress | queued | 124 unlinked / 184 mentioning | 489.8 | 373 |
+| 92.50 | `backfill_links:oxidative-stress` | Oxidative Stress | queued | 124 unlinked / 184 mentioning | 492.7 | 373 |
 | 92.50 | `backfill_links:heavy-metals` | Heavy Metals | queued | 108 unlinked / 111 mentioning | 467.2 | 235 |
 | 92.50 | `backfill_links:metabolites` | Microbial Metabolites | queued | 111 unlinked / 112 mentioning | 434.6 | 364 |
 | 92.50 | `backfill_links:metallomics` | Metallomics | queued | 77 unlinked / 87 mentioning | 330.7 | 80 |
@@ -82,6 +82,7 @@ _No explicitly accepted work is awaiting promotion._
 | 92.50 | `backfill_links:ferroptosis` | Ferroptosis | queued | 17 unlinked / 62 mentioning | 91.7 | 81 |
 | 92.37 | `backfill_links:insulin-resistance` | Insulin Resistance | queued | 42 unlinked / 49 mentioning | 190.6 | 67 |
 | 92.25 | `backfill_links:superoxide-dismutase` | Superoxide Dismutase | queued | 38 unlinked / 48 mentioning | 140.9 | 42 |
+| 92.11 | `backfill_links:metabolic-syndrome` | Metabolic Syndrome and Metal Exposure | queued | 36 unlinked / 47 mentioning | 114.2 | 94 |
 
 ## Evidence hold
 

@@ -54,7 +54,7 @@ Preterm infants receiving IV nutrition face a distinct exposure route:
 
 Metal exposure begins before birth:
 
-- Lead: Prenatal Pb exposure alters childhood gut microbiome composition, with trimester-specific effects on bacterial amino acid biosynthesis pathways (histidine, methionine, isoleucine, lysine) [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].
+- Lead: Prenatal Pb exposure alters childhood gut microbiome composition, with trimester-specific effects on bacterial amino acid biosynthesis pathways ([[histidine]], methionine, isoleucine, lysine) [[eggers-2023-prenatal-lead-childhood-gut-microbiome-progress]].
 - Mercury: MeHg crosses the placenta; cord blood Hg correlates with maternal fish intake.
 - Cadmium: Accumulates in placenta; associated with low birth weight.
 

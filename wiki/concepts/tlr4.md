@@ -40,7 +40,7 @@ LPS (from Gram-negative bacteria)
 
 ### Nickel: Direct TLR4 Activation (Human-Specific)
 
-Nickel directly activates TLR4 on dendritic cells -- a mechanism that is human-specific because it depends on histidine residues (H456 and H458) in human TLR4 that are absent in mouse TLR4 [[ahlstrom-2019-nickel-allergy-review]]. This explains:
+Nickel directly activates TLR4 on dendritic cells -- a mechanism that is human-specific because it depends on [[histidine]] residues (H456 and H458) in human TLR4 that are absent in mouse TLR4 [[ahlstrom-2019-nickel-allergy-review]]. This explains:
 - Why nickel allergy is the most common contact allergy in humans (~15% prevalence).
 - Why mouse models poorly recapitulate nickel-driven inflammation.
 - Why nickel from dietary sources, dental materials, and occupational exposure can trigger systemic inflammation through a pathway distinct from LPS.

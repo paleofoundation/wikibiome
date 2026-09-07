@@ -34,7 +34,7 @@ This is the defining metallomic feature of Alzheimer's disease:
 - Cu depletion spans hippocampus, cingulate gyrus, middle temporal gyrus, substantia nigra, primary visual cortex, and putamen [[scholefield-2024-brain-metallomics-dementia]].
 - Yet peripherally, Cu is often normal or elevated -- the paradox suggests disturbed Cu trafficking rather than simple depletion.
 - Ceruloplasmin dysfunction is a candidate mechanism: it both elevates circulating Cu and fails to deliver Cu to the brain [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
-- Cu-amyloid-beta interactions promote toxic oligomer formation -- Cu binds A-beta at histidine residues, catalyzing ROS production and accelerating aggregation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
+- Cu-amyloid-beta interactions promote toxic oligomer formation -- Cu binds A-beta at [[histidine]] residues, catalyzing ROS production and accelerating aggregation [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
 - Cu depletion impairs cytochrome c oxidase (mitochondrial respiration), Cu/Zn-SOD (antioxidant defense), and ceruloplasmin (iron homeostasis) in brain tissue.
 
 ### Iron: Accumulation and Ferroptosis

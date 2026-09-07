@@ -252,7 +252,7 @@
     },
     "backfill_links:histidine": {
       "state": "queued",
-      "rationale": "A sourced Histidine page already exists, and the Helicobacter pylori nickel-storage section is a high-value contextual link location.",
+      "rationale": "The three-source Histidine page is now linked from the first explanatory occurrence in every qualifying public entity and concept article. Reviewed coverage spans metal coordination, nickel storage and transport, urease and hydrogenase maturation, histamine production, innate immunity, oxidative defense, neurotoxicity, metalloproteases, and metabolomics; later repetitions remain plain text to avoid overlinking.",
       "batches": [
         {
           "id": "2026-09-06-helicobacter-pylori",
@@ -260,6 +260,40 @@
           "reviewedAt": "2026-09-06",
           "promotedAt": "2026-09-06",
           "targets": ["helicobacter-pylori"]
+        },
+        {
+          "id": "2026-09-07-corpus-wide-histidine-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": [
+            "proteus-mirabilis",
+            "nutritional-immunity",
+            "nickel",
+            "copper",
+            "urease",
+            "mis-metallation",
+            "hydrogenase",
+            "lactoferrin",
+            "alzheimers-disease",
+            "superoxide-dismutase",
+            "tlr4",
+            "pathogen-metal-acquisition",
+            "nife-hydrogenase",
+            "pancreatic-cancer",
+            "tnf-alpha",
+            "nickel-transporters",
+            "toll-like-receptors",
+            "nickel-urease",
+            "infant-exposure",
+            "lactobacillus-reuteri",
+            "bismuth",
+            "matrix-metalloproteases",
+            "dialister-histaminiformans",
+            "amyloid-beta-aggregation",
+            "heavy-metal-neurotoxicity",
+            "cysteine"
+          ]
         }
       ]
     },

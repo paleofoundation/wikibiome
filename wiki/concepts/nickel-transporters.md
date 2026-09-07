@@ -30,7 +30,7 @@ Specialized membrane proteins that import [[nickel]] into bacterial cells, suppl
 
 - A multi-component ATP-binding cassette (ABC) transporter system, best studied in [[escherichia-coli]].
 - Components: NikA (periplasmic binding protein), NikB and NikC (transmembrane permeases), NikD and NikE (cytoplasmic ATPases).
-- NikA binds Ni2+ in the periplasm, often as a nickel-histidine or nickel-L-histidine complex rather than free Ni2+.
+- NikA binds Ni2+ in the periplasm, often as a nickel-[[histidine]] or nickel-L-histidine complex rather than free Ni2+.
 - The entire system is regulated by the NikR repressor, a nickel-responsive metalloregulator that senses intracellular nickel levels and represses *nikABCDE* transcription when nickel is sufficient.
 - In *H. pylori*, the analogous system is NiuBDE (Nickel Import Unit), which can operate at the acidic pH of the gastric environment -- a critical adaptation for gastric colonization [[maier-2019-nickel-microbial-pathogenesis]].
 

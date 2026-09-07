@@ -72,7 +72,7 @@ Heavy metals do not only damage the brain directly. By reshaping the gut microbi
 
 A particularly insidious mechanism is [[mis-metallation]] -- toxic metals displacing essential cofactors from neuronal enzymes:
 
-- Cu-amyloid-beta: Copper binds amyloid-beta at histidine residues, catalyzing ROS production and accelerating aggregation in [[alzheimers-disease]] [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
+- Cu-amyloid-beta: Copper binds amyloid-beta at [[histidine]] residues, catalyzing ROS production and accelerating aggregation in [[alzheimers-disease]] [[doroszkiewicz-2023-common-trace-metals-alzheimers-parkinsons]].
 - Pb-Ca displacement: Lead replaces calcium in NMDA receptors, voltage-gated calcium channels, and protein kinase C -- disrupting all three simultaneously.
 - Zn-SHANK3: Zinc displacement from SHANK3 scaffold proteins at synapses disrupts post-synaptic signaling in [[autism-spectrum-disorder]] [[blazewicz-2023-metal-profiles-asd]].
 

@@ -24,7 +24,7 @@ An iron-binding glycoprotein of the transferrin family that sequesters iron (and
 - Iron-saturated lactoferrin (holo-lactoferrin) and iron-free lactoferrin (apo-lactoferrin) have distinct biological activities.
 
 ### Potential Nickel Binding
-- Lactoferrin contains histidine and tyrosine ligand residues that could coordinate Ni(II). A nickel-sequestering role is plausible but has not been experimentally confirmed [[maier-2019-nickel-microbial-pathogenesis]].
+- Lactoferrin contains [[histidine]] and tyrosine ligand residues that could coordinate Ni(II). A nickel-sequestering role is plausible but has not been experimentally confirmed [[maier-2019-nickel-microbial-pathogenesis]].
 - If validated, this would make lactoferrin a dual iron/nickel restriction factor at mucosal surfaces.
 
 ## Distribution

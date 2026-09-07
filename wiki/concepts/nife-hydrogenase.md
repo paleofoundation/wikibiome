@@ -46,7 +46,7 @@ The NiFe-hydrogenase active site is a bi-metallic cluster containing:
 - Nickel (Ni) — the main catalytic site
 - Iron (Fe) — coordinates the substrate and facilitates electron transfer
 - Bridging ligands: cyanide (CN⁻) and carbonyl (CO) groups stabilize the Fe center
-- Nickel coordination: Histidine and cysteine residues
+- Nickel coordination: [[Histidine]] and cysteine residues
 
 The bimetallic arrangement is critical: neither metal alone is sufficient; both Ni and Fe are required for catalysis.
 
