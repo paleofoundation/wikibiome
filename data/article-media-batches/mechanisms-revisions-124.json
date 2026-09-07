@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-revisions-124",
   "category": "mechanisms",
-  "status": "awaiting-control-review",
+  "status": "approved-awaiting-promotion",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "2a113f5a706b609f83ef28701d68165f6fa4220d",
@@ -19,7 +19,9 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, scan, histology slide, laboratory result, measured structure, biomarker result, treatment recommendation, or diagnostic image",
     "sourceUse": "Current NLM MeSH, reviewed UniProtKB, and ExPASy ENZYME records supply controlled identity and conservative representation boundaries only; no source image or design is copied."
   },
-  "controlReviewRequired": true,
+  "controlAcceptedReviewManifestSha256": "1c8b4e226fcd8e83a6fbc0cf65e517fbf5357669ed9c5c50fe3e5184bdac7974",
+  "controlAcceptedPromptEvidenceSha256": "7f997098f3e9394d62981253207206916173913da7c767df031ebd726a7190f3",
+  "controlReviewRequired": false,
   "initialAuditCommit": "b1b2fd8ab1363be945ef707a92fc2ec094f44726",
   "promptFreezeCommit": "410035f57a6e2c02d53df3202f9b1ec2eac32d9a",
   "reviewStandard": "Six deterministic disposition-revise records are re-audited against current controlled authorities and their literal revision-1 failures. Each old source remains immutable and non-public. Exactly one independent revision-2 call is permitted per hash-frozen prompt, followed by literal native-resolution output, prohibited-content, edge-field, crop, and exact-hash audit.",
@@ -31,7 +33,7 @@
   "failedGenerationCount": 3,
   "quarantinedGenerationCount": 3,
   "revisionCount": 6,
-  "promotionRule": "Only a literal revision-2 output matching its frozen representation boundary, fully opaque pale field, safe-edge requirements, and exact native audit may proceed to separate exact-hash Control Tower acceptance. Every prior revision-1 source remains immutable, rejected, and non-public.",
+  "promotionRule": "Only the exact accepted revision-2 hashes for atherosclerosis, bacteremia, and beta-lactamase may be promoted to metadata-bearing lossless v2 masters, v2 article WebP derivatives, and centered contain-mode 1200x630 v2 social WebP derivatives. All prior revision-1 sources and the three quarantined revision-2 sources remain immutable and non-public.",
   "assets": [
     {
       "pageId": "atherosclerosis",
