@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "fd794f731b280f3a5088031c36d8694106ca06b0a8a158b807a52f632dc1a7e1",
+    "reviewLogSha256": "744c319fb859a97a58e30ac446e14dffd05c91a38c98f5877a5088fe54ebec68",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -281,6 +281,12 @@
         "batchId": "mechanisms-090",
         "status": "reviewed",
         "sha256": "6826aa756a978e45f6a385c801ffa23dc935a1dc9cb03a55a60e49a9b51d1f02"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-091.json",
+        "batchId": "mechanisms-091",
+        "status": "reviewed",
+        "sha256": "ad9c0fb199e7a6082ebf782ec970917387d6d930e396486ab355705d3d8b9c88"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -574,9 +580,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 178,
+    "rejected": 184,
     "revised": 12,
-    "scientificHolds": 123,
+    "scientificHolds": 129,
     "inReview": 0
   },
   "categories": [
@@ -3814,6 +3820,103 @@
       ],
       "requiredResolution": "Define specimen, collection, negative controls, extraction, sequencing workflow, host depletion, absolute load, viability, cohort, phenotype, covariates, and replicated evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "serotonin-estrogen-axis",
+      "controlledIdentifier": "proposed-multi-compartment-neuroendocrine-microbiome-axis",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Central and peripheral serotonin, estrogens, receptors, microbial pathways, life stages, and multiple clinical phenotypes are merged into one causal axis.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/34502396/",
+        "local:data/content.generated.json#/pages/serotonin-estrogen-axis"
+      ],
+      "requiredResolution": "Split by compartment, hormone or metabolite, receptor or enzyme, cell, cycle or life stage, specimen, assay, phenotype, intervention, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "short-chain-fatty-acids",
+      "controlledIdentifier": "multi-analyte-SCFA-class;matrix-and-conjugate-state-specific",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Distinct acids, sources, sinks, matrices, receptors, concentrations, and context-dependent effects are generalized into universal depletion and metal-disease mechanisms.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/28300535/",
+        "https://pubmed.ncbi.nlm.nih.gov/36362272/",
+        "local:data/content.generated.json#/pages/short-chain-fatty-acids"
+      ],
+      "requiredResolution": "Split by exact analyte and matrix with units, processing, method, substrate, organism and pathway, host target, model or population, endpoint, and certainty.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "shotgun-metagenomics",
+      "controlledIdentifier": "whole-metagenome-shotgun-workflow-family",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A multistep sampling, laboratory, sequencing, and computational workflow is presented with universal depth, cost, resolution, kingdom coverage, and direct-function claims.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/32768390/",
+        "https://pubmed.ncbi.nlm.nih.gov/37731336/",
+        "https://pubmed.ncbi.nlm.nih.gov/42014453/",
+        "local:data/content.generated.json#/pages/shotgun-metagenomics"
+      ],
+      "requiredResolution": "Define specimen, controls, extraction, library, platform and read type, depth, host depletion, database and version, profiler or assembler, thresholds, outputs, validation, and reporting standard.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "srna",
+      "controlledIdentifier": "heterogeneous-bacterial-small-regulatory-RNA-class",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Cis and trans RNAs, sizes, chaperones, mechanisms, organisms, metal conditions, targets, phenotypes, and therapeutic speculation are collapsed into one metal-response mechanism.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/24003243/",
+        "local:data/content.generated.json#/pages/srna"
+      ],
+      "requiredResolution": "Split by organism, locus or sequence accession, regulator, chaperone, direct target, validated interaction, metal condition and concentration, assay, phenotype, and tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "statins",
+      "controlledIdentifier": "MeSH:D019161;multi-drug-HMGCR-inhibitor-class",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Distinct drugs and exposures plus in-vitro, observational, intervention, and genetic-proxy evidence are generalized into one microbiome, metal, cancer, neurodegeneration, and adverse-effect mechanism.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68019161",
+        "https://pubmed.ncbi.nlm.nih.gov/39734574/",
+        "local:data/content.generated.json#/pages/statins"
+      ],
+      "requiredResolution": "Split by exact drug, dose and formulation, route, indication, population or model, duration, specimen, microbiome method, pharmacokinetics, comparator, outcome, and tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "succinate",
+      "controlledIdentifier": "PubChem-CID:160419-succinate-dianion;CID:1110-succinic-acid-distinct",
+      "batchId": "mechanisms-091",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Host mitochondrial, immune, extracellular, microbial luminal, and brain pools are conflated with universal inflammatory and unsupported Dialister-depression causality.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/Succinate%20dianion",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/1110",
+        "https://pubmed.ncbi.nlm.nih.gov/30583500/",
+        "https://pubmed.ncbi.nlm.nih.gov/41080558/",
+        "local:data/content.generated.json#/pages/succinate"
+      ],
+      "requiredResolution": "Define chemical species, compartment, source cell or organism and pathway, concentration and units, sample and assay, receptor or target, model or population, outcome, and tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -3968,55 +4071,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 523,
-      "id": "serotonin-estrogen-axis",
-      "title": "Serotonin-Estrogen Axis",
-      "route": "/article/serotonin-estrogen-axis",
+      "queuePosition": 529,
+      "id": "synbiotic",
+      "title": "Synbiotics",
+      "route": "/article/synbiotic",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 524,
-      "id": "short-chain-fatty-acids",
-      "title": "Short-Chain Fatty Acids (SCFAs)",
-      "route": "/article/short-chain-fatty-acids",
+      "queuePosition": 530,
+      "id": "synbiotics",
+      "title": "Synbiotics",
+      "route": "/article/synbiotics",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 525,
-      "id": "shotgun-metagenomics",
-      "title": "Shotgun Metagenomics",
-      "route": "/article/shotgun-metagenomics",
+      "queuePosition": 531,
+      "id": "systemic-inflammation",
+      "title": "Systemic Inflammation",
+      "route": "/article/systemic-inflammation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 526,
-      "id": "srna",
-      "title": "sRNA (Small Regulatory RNA)",
-      "route": "/article/srna",
+      "queuePosition": 532,
+      "id": "tau-phosphorylation",
+      "title": "Tau Phosphorylation",
+      "route": "/article/tau-phosphorylation",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 527,
-      "id": "statins",
-      "title": "Statins",
-      "route": "/article/statins",
+      "queuePosition": 533,
+      "id": "taurine",
+      "title": "Taurine",
+      "route": "/article/taurine",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 528,
-      "id": "succinate",
-      "title": "Succinate",
-      "route": "/article/succinate",
+      "queuePosition": 534,
+      "id": "testosterone",
+      "title": "Testosterone",
+      "route": "/article/testosterone",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -14768,7 +14871,13 @@
       "route": "/article/serotonin-estrogen-axis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Central and peripheral serotonin, estrogens, receptors, microbial pathways, life stages, and multiple clinical phenotypes are merged into one causal axis.",
+        "requiredResolution": "Split by compartment, hormone or metabolite, receptor or enzyme, cell, cycle or life stage, specimen, assay, phenotype, intervention, and evidence tier."
+      }
     },
     {
       "queuePosition": 524,
@@ -14781,7 +14890,13 @@
       "route": "/article/short-chain-fatty-acids",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Distinct acids, sources, sinks, matrices, receptors, concentrations, and context-dependent effects are generalized into universal depletion and metal-disease mechanisms.",
+        "requiredResolution": "Split by exact analyte and matrix with units, processing, method, substrate, organism and pathway, host target, model or population, endpoint, and certainty."
+      }
     },
     {
       "queuePosition": 525,
@@ -14794,7 +14909,13 @@
       "route": "/article/shotgun-metagenomics",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A multistep sampling, laboratory, sequencing, and computational workflow is presented with universal depth, cost, resolution, kingdom coverage, and direct-function claims.",
+        "requiredResolution": "Define specimen, controls, extraction, library, platform and read type, depth, host depletion, database and version, profiler or assembler, thresholds, outputs, validation, and reporting standard."
+      }
     },
     {
       "queuePosition": 526,
@@ -14807,7 +14928,13 @@
       "route": "/article/srna",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Cis and trans RNAs, sizes, chaperones, mechanisms, organisms, metal conditions, targets, phenotypes, and therapeutic speculation are collapsed into one metal-response mechanism.",
+        "requiredResolution": "Split by organism, locus or sequence accession, regulator, chaperone, direct target, validated interaction, metal condition and concentration, assay, phenotype, and tier."
+      }
     },
     {
       "queuePosition": 527,
@@ -14820,7 +14947,13 @@
       "route": "/article/statins",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Distinct drugs and exposures plus in-vitro, observational, intervention, and genetic-proxy evidence are generalized into one microbiome, metal, cancer, neurodegeneration, and adverse-effect mechanism.",
+        "requiredResolution": "Split by exact drug, dose and formulation, route, indication, population or model, duration, specimen, microbiome method, pharmacokinetics, comparator, outcome, and tier."
+      }
     },
     {
       "queuePosition": 528,
@@ -14833,7 +14966,13 @@
       "route": "/article/succinate",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Host mitochondrial, immune, extracellular, microbial luminal, and brain pools are conflated with universal inflammatory and unsupported Dialister-depression causality.",
+        "requiredResolution": "Define chemical species, compartment, source cell or organism and pathway, concentration and units, sample and assay, receptor or target, model or population, outcome, and tier."
+      }
     },
     {
       "queuePosition": 529,
