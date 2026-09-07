@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-106",
   "category": "interventions",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "0fd69db83a93962b82f678cf6a92a93b694bb96b",
   "generator": "OpenAI built-in image generation",
@@ -19,6 +19,8 @@
     "sourceUse": "Controlled scientific records supplied exact identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "ab3af5946f92b13f740f3682c64f6a5f348fb027",
+  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Only exact neutral indole-3-carbinol and current exact Lacticaseibacillus rhamnosus GG strain morphology are cleared for one immutable call each. The other four routes fail material, formulation, protocol, source, population, measurement, safety, or causal-interpretation gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 2,
