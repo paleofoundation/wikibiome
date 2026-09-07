@@ -17783,6 +17783,104 @@
       ],
       "requiredResolution": "Link direct evidence and select current taxon names, exact strain accessions, per-strain counts, product and lot, excipients, storage, dose, Hashimoto disease state, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions.",
       "routingImpact": "The route remains uncovered and asset-free until an exact probiotic composition and Hashimoto protocol pass a new audit."
+    },
+    {
+      "pageId": "probiotics-ppd",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;postpartum-depression-specific-product-and-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-111",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route lacks exact strains, product composition, postpartum timing, population definition, protocol, endpoint, safety state, and a non-stigmatizing visual subject.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "local:data/content.generated.json#/pages/probiotics-ppd"
+      ],
+      "requiredResolution": "Link direct evidence and select current taxon names, exact strain accessions and counts, product and lot, formulation, storage, dose, postpartum population and timing, diagnostic criteria, comparator, adherence, specimen, assay, time point, endpoint, non-stigmatizing scope, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until an exact product, protocol, and non-stigmatizing measured state pass a new audit."
+    },
+    {
+      "pageId": "probiotics-with-ppi-gerd",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;two-malformed-local-source-identifiers;probiotic-plus-PPI-protocol-unspecified",
+      "batchId": "interventions-111",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Both declared source identifiers retain erroneous `.md` suffixes and fail normal resolution, while strains, product composition, PPI regimen, GERD phenotype, population, assay, endpoint, and safety state remain unresolved.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019936",
+        "local:data/content.generated.json#/pages/probiotics-with-ppi-gerd"
+      ],
+      "requiredResolution": "Correct both source identifiers, reconcile claims to direct evidence, and select exact strains and counts, product and lot, formulation, storage, PPI identity and regimen, GERD phenotype, population, dose, comparator, adherence, specimen, assay, time point, endpoint, and safety exclusions.",
+      "routingImpact": "The route remains uncovered and asset-free until source resolution and one exact combination protocol pass a new audit."
+    },
+    {
+      "pageId": "resveratrol",
+      "controlledIdentifier": "Resveratrol-MeSH:D000077185;cis-versus-trans-identity-unresolved;eight-local-sources",
+      "batchId": "interventions-111",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route and linked sources do not select cis- or trans-resveratrol, while current MeSH explicitly contains both narrower stereoisomers.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000077185",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/445154",
+        "https://www.ebi.ac.uk/chebi/CHEBI:45713",
+        "local:data/content.generated.json#/pages/resveratrol"
+      ],
+      "requiredResolution": "Reconcile every relevant source to cis, trans, unspecified, mixture, metabolite, or formulation; select canonical chemical identity and stereochemistry, formulation, dose, population, comparator, assay, endpoint, and visual class policy.",
+      "routingImpact": "The route remains uncovered and asset-free until stereochemical scope and source identity pass a new audit."
+    },
+    {
+      "pageId": "selenium-supplementation",
+      "controlledIdentifier": "Dietary-Supplements-MeSH:D019587;elemental-selenium-route-duplicate;chemical-form-and-product-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-111",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route does not select an exact chemical or biological selenium form, product, formulation, dose, population, assay, endpoint, or governed relationship to reviewed elemental Selenium media.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019587",
+        "local:data/content.generated.json#/pages/selenium-supplementation",
+        "local:data/content.generated.json#/pages/selenium"
+      ],
+      "requiredResolution": "Link direct evidence and select exact selenium form, product and lot, purity, excipients, formulation, dose, population, comparator, specimen, assay, time point, endpoint, safety boundary, and governed elemental-media relationship.",
+      "routingImpact": "The route remains uncovered and asset-free until exact supplement identity and canonical media ownership pass a new audit."
+    },
+    {
+      "pageId": "selenium-supplementation-200mcg",
+      "controlledIdentifier": "Dietary-Supplements-MeSH:D019587;Hashimoto-MeSH:D050031;nominal-200-microgram-dose-with-form-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-111",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The nominal daily mass does not identify selenium species, selenium-enriched yeast composition, product, bioavailability, duration, baseline status, Hashimoto disease state, comparator, assay, endpoint, or monitoring.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019587",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D050031",
+        "local:data/content.generated.json#/pages/selenium-supplementation-200mcg"
+      ],
+      "requiredResolution": "Link direct evidence and select exact selenium form, product and lot, purity, formulation, dose verification, duration, baseline status, Hashimoto population, comparator, adherence, specimen, assay, time point, endpoint, and safety monitoring.",
+      "routingImpact": "The route remains uncovered and asset-free until exact formulation and evidence-backed Hashimoto protocol pass a new audit."
+    },
+    {
+      "pageId": "quercetin",
+      "controlledIdentifier": "PubChem:5280343;ChEBI:16243;InChIKey:REFJWTPEDVJJIY-UHFFFAOYSA-N",
+      "batchId": "interventions-111",
+      "draft": "work/media-drafts/interventions-batch-111/quercetin-draft.png",
+      "sha256": "473606b67e0e91ece875881c19db2f93d1468a5134d185ec8f23f89eb64a3763",
+      "generationRecord": "exec-17ba231e-f32c-4eb4-9731-9bf60cfad925.png",
+      "promptSha256": "ef45fb1963b8390586255515c1f40e36e339bb5e8c3bfbf55aed8980043f1cff",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and alpha-field audit",
+      "disposition": "rejected-transparent-background-and-glow",
+      "reason": "The source contains a literal exact 22-center neutral-quercetin connectivity model, but 1,358,897 pixels are fully transparent, 213,967 are intermediate-alpha, none are fully opaque, and broad gray and rose glow or haze replaces the required encoded uniform pale field.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5280343",
+        "https://www.ebi.ac.uk/chebi/CHEBI:16243"
+      ],
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain the exact 15-carbon, 7-oxygen, 22-heavy-atom graph while encoding a fully opaque uniform pale cool field, opaque countable centers and connectors, zero glow or haze, and broad crop-safe margins.",
+      "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
     }
   ],
   "revisedAssets": [
