@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "batchId": "mechanisms-076",
+  "category": "mechanisms",
+  "status": "awaiting-control-review",
+  "createdOn": "2026-09-07",
+  "authorizedParent": "cbd913f9ee2e5d3102d5616d264c1a4384311a55",
+  "generator": "OpenAI built-in image generation",
+  "promptRecord": "docs/operations/media-prompts/mechanisms-076.md",
+  "reviewRecord": null,
+  "controlReviewRequired": true,
+  "routeDecisionCount": 6,
+  "candidateCount": 0,
+  "scientificHoldCount": 6,
+  "generationCallCount": 0,
+  "reviewableGenerationCount": 0,
+  "failedGenerationCount": 0,
+  "quarantinedGenerationCount": 0,
+  "revisionCount": 0,
+  "promotionRule": "No Batch 076 route is eligible for generation or promotion until its documented scientific, identity, representation, and editorial conflicts are corrected and independently re-audited.",
+  "routeDecisions": [
+    {"pageId":"il-8","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D016209;UniProt:P10145","reason":"The exact human protein is identifiable, but the page reduces it to one gingipain narrative and lacks a defensible structure or tissue representation boundary.","requiredResolution":"Rebuild around human CXCL8 identity, receptors, processing, cellular sources, and bounded disease contexts; then select an exact structure or explicitly contextual tissue representation."},
+    {"pageId":"immune-balance","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"WikiBiome:immune-balance;no-exact-controlled-identifier","reason":"A non-canonical umbrella term presents heterogeneous, plastic immune states and broad metal, microbiome, disease, and treatment claims as a single binary equilibrium.","requiredResolution":"Define a narrower measurable construct, separate immune compartments and evidence levels, remove binary causal simplifications, verify exposures, and remove unsourced treatment advice."},
+    {"pageId":"immunotherapy","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D007167;scope-conflict:immune-checkpoint-inhibitors","reason":"A broad treatment class is represented almost entirely as cancer checkpoint inhibition while cohort associations, experimental FMT, taxa, metabolites, and supplementation become deterministic clinical rules.","requiredResolution":"Narrow the route or cover the full class; separate association from intervention, human from model evidence, regimen-specific findings, trials, and standard care."},
+    {"pageId":"indole","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"PubChem:CID798;ChEBI:16881","reason":"The exact parent compound is mixed with a heterogeneous derivative family and context-dependent receptor, concentration, species, disease, and organism claims.","requiredResolution":"Separate parent from derivatives; specify structures, concentrations, receptors, species, cells, and models; and resolve duplication with the indoles route."},
+    {"pageId":"indoles","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"MeSH:D007211;ChEBI:24828","reason":"A broad chemical class is redefined as an exclusively microbial pathway and compounds with distinct structures, producers, host transformations, receptors, and effects are collapsed into one protective axis.","requiredResolution":"Choose chemical-class or microbial-metabolite scope, reconcile the singular duplicate, and source each compound-specific pathway, receptor, concentration, species, and model."},
+    {"pageId":"indoxyl-sulfate","decision":"scientific-media-hold","generationStatus":"withheld-no-call","generationCallCount":0,"controlledIdentifier":"PubChem:CID10258;ChEBI:43355","reason":"The exact metabolite is identifiable, but model and association evidence become universal producers, causal organ damage, a cadmium mechanism, BBB passage, biomarkers, and treatment implications.","requiredResolution":"Preserve the exact chemical pathway while separating cell, animal, human, renal-clearance, transporter-direction, association, and intervention evidence; remove deterministic cadmium and disease chains."}
+  ],
+  "assets": []
+}
