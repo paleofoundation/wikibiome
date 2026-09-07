@@ -18912,6 +18912,73 @@
       ],
       "requiredResolution": "A future separately authorized revision prompt and new call must retain the exact four-carbon, five-nitrogen neutral-metformin graph, exclude hydrochloride and product context, and encode a fully opaque uniform pale cool field with zero glow or haze and broad crop-safe margins.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "parvimonas",
+      "controlledIdentifier": "LPSN:517468;type-species-NCBI-Taxonomy:33033;local-category-other;local-source-count-0;stale-single-species-claim",
+      "batchId": "entity-analysis-reference-123",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower taxonomic, biosafety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Parvimonas is a current valid genus with P. micra as type species, but current LPSN lists four validly published correct child species while the local route calls it a single-species genus. The route is category other, has zero sources, and combines microorganism, cancer, biomarker, metal, virulence, and treatment claims. It cannot enter the microorganism morphology pipeline from this record.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/genus/parvimonas",
+        "https://lpsn.dsmz.de/species/parvimonas-micra",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=33033&mode=Info",
+        "local:data/content.generated.json#/pages/parvimonas"
+      ],
+      "requiredResolution": "Reclassify the route, update the genus subdivision and family/order claims, attach direct type-species and type-strain morphology and biosafety sources, reconcile unsupported cancer, biomarker, metal, virulence, and intervention claims, then repeat the microorganism morphology audit.",
+      "routingImpact": "The route remains uncovered and asset-free; no morphology, cancer, biomarker, or generic evidence-index image may be published from the stale source-free record."
+    },
+    {
+      "pageId": "shared-pathobionts-across-signatures",
+      "controlledIdentifier": "WikiBiome:shared-pathobionts-across-signatures;three-source-cross-condition-synthesis;versioned-dataset-unresolved",
+      "batchId": "entity-analysis-reference-123",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, data-governance, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines many taxa, conditions, enrichment directions, metal dependencies, mechanisms, and proposed interventions from three sources. Its fixed 13-signature framing is not reconciled to the current 66-condition candidate and no versioned machine-readable dataset supports an exact network or matrix.",
+      "checkedUrls": [
+        "local:data/content.generated.json#/pages/shared-pathobionts-across-signatures",
+        "https://www.wikibiome.com/article/shared-pathobionts-across-signatures"
+      ],
+      "requiredResolution": "Publish a versioned cross-signature dataset with canonical taxon and condition identifiers, inclusion rules, direction, effect measure, evidence tier, source-level provenance, conflict handling, update date, and accessible table before generating a visualization.",
+      "routingImpact": "The route remains uncovered and asset-free; no invented taxon network, heatmap, frequency chart, or disease collage may be published."
+    },
+    {
+      "pageId": "overview",
+      "controlledIdentifier": "WikiBiome:overview;source-free-structural-reference-index;historical-corpus-counts",
+      "batchId": "entity-analysis-reference-123",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, information-architecture, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route is a source-free structural navigation record with historical counts and product-relationship statements rather than one scientific subject. Its 1,426-source, 130-entity, 19-metal, 83-microbe, and 28-disease numbers do not describe the current governed candidate.",
+      "checkedUrls": [
+        "local:data/content.generated.json#/pages/overview",
+        "https://www.wikibiome.com/article/overview",
+        "local:data/article-media-coverage.generated.json#/current"
+      ],
+      "requiredResolution": "Regenerate the overview from current canonical registries and approved organization/product language, use live accessible counters and navigation components, and do not assign a scientific primary image unless a bounded cited subject is selected.",
+      "routingImpact": "The route remains uncovered and asset-free; no generic body, globe, network, laboratory, or decorative science image may be published as scientific primary media."
+    },
+    {
+      "pageId": "serotonin",
+      "controlledIdentifier": "PubChem:5202;ChEBI:28790;InChIKey:QZAYGJVTTNCVMB-UHFFFAOYSA-N",
+      "batchId": "entity-analysis-reference-123",
+      "draft": "work/media-drafts/entity-analysis-reference-batch-123/serotonin-draft.png",
+      "sha256": "25e0876e8f3818300815e5729674e4bce6cb77531b4cd0ed13927f36e8d9a3b4",
+      "generationRecord": "exec-630f91ab-c42d-461d-91ce-f576e1ba5caf.png",
+      "promptSha256": "a81b0d4c63219fee2d3be24d54f53bab7bbb94c21efb5aa5356552f782bdf54e",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "rejected-missing-side-chain-carbon",
+      "reason": "The fully opaque, pale-field, label-free source contains one connected twelve-center model with nine graphite, two blue, and one rose center. Neutral serotonin requires thirteen heavy atoms—ten carbon, two nitrogen, and one oxygen—and a two-carbon aminoethyl side chain. The output contains only one carbon between the indole ring and terminal nitrogen.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5202",
+        "https://www.ebi.ac.uk/chebi/CHEBI:28790"
+      ],
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain the correct fused indole system and opaque pale field while producing exactly ten carbon, two nitrogen, and one oxygen centers with exactly two successive carbon centers between the ring and terminal nitrogen.",
+      "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
     }
   ],
   "revisedAssets": [
