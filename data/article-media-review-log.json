@@ -17480,6 +17480,104 @@
       ],
       "requiredResolution": "Choose red-meat definition, baseline and target intake, exact species/cuts and preparation, processed-meat boundary, substitutions and nutrient equivalence, energy balance, duration, endometriosis population, comparator, adherence measure, specimen, assay, time point, endpoint, and direct evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed endometriosis restriction-and-substitution protocol passes a new audit."
+    },
+    {
+      "pageId": "magnesium-supplementation",
+      "controlledIdentifier": "MeSH:D008274-plus-MeSH:D019587;unspecified-magnesium-compound-product-and-protocol;zero-resolvable-sources",
+      "batchId": "interventions-108",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines elemental magnesium, deficiency, multiple salts and formulations, doses, specimens, assays, mechanisms, fibromyalgia outcomes, bioavailability, and tolerance rather than one controlled supplement state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008274",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019587",
+        "local:data/content.generated.json#/pages/magnesium-supplementation"
+      ],
+      "requiredResolution": "Choose exact magnesium compound and hydration state, product and formulation, elemental-magnesium content, excipients, route, dose and schedule, population, comparator, specimen, assay, time point, endpoint, safety boundary, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed magnesium product and protocol pass a new audit."
+    },
+    {
+      "pageId": "mediterranean-diet-fibromyalgia",
+      "controlledIdentifier": "MeSH:D038441;fibromyalgia-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-108",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route does not select an operational Mediterranean-diet score, exact foods and quantities, preparation, energy balance, duration, fibromyalgia population, comparator, adherence measure, specimen, assay, or endpoint.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D038441",
+        "local:data/content.generated.json#/pages/mediterranean-diet-fibromyalgia"
+      ],
+      "requiredResolution": "Choose one directly sourced diet definition and score or complete menu, preparation, energy balance, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, and safety boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed fibromyalgia diet protocol passes a new audit."
+    },
+    {
+      "pageId": "mediterranean-diet-gerd",
+      "controlledIdentifier": "MeSH:D038441;GERD-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-108",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines diet adherence, fiber, nitrite, antioxidants, melatonin-rich foods, lower-esophageal-sphincter tone, symptoms, and comparison with proton-pump inhibitors without one protocol or measured state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D038441",
+        "local:data/content.generated.json#/pages/mediterranean-diet-gerd"
+      ],
+      "requiredResolution": "Choose one directly sourced diet score or complete menu, preparation, duration, GERD phenotype, medication context, comparator, adherence measure, reflux assay, time point, endpoint, and safety boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed GERD diet protocol passes a new audit."
+    },
+    {
+      "pageId": "mediterranean-diet-ovarian-cancer",
+      "controlledIdentifier": "MeSH:D038441;human-AMED-adherence-plus-mouse-dietary-fat-model;two-local-sources",
+      "batchId": "interventions-108",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The two sources describe a prospective human AMED adherence analysis and a separate mouse dietary-fat experiment, while the page combines survival, microbiome, inflammation, polyamines, metal chelation, and counseling; no single physical diet or intervention state is selected.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D038441",
+        "https://doi.org/10.1186/s12967-024-05653-2",
+        "https://doi.org/10.1186/s13048-025-01731-1",
+        "local:data/content.generated.json#/pages/mediterranean-diet-ovarian-cancer"
+      ],
+      "requiredResolution": "Choose one study-specific diet definition, adherence score or complete formulation, species or population, comparator, duration, adherence or exposure measure, specimen, assay, time point, endpoint, and evidence-qualified claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one study-specific diet protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "mediterranean-diet-t1d",
+      "controlledIdentifier": "MeSH:D038441;type-1-diabetes-specific-diet-and-insulin-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-108",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route combines dietary adherence, carbohydrate counting, insulin dosing, glycemic control, cardiovascular markers, taxa, butyrate, immune claims, and a proposed probiotic combination without one controlled protocol.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D038441",
+        "local:data/content.generated.json#/pages/mediterranean-diet-t1d"
+      ],
+      "requiredResolution": "Choose one directly sourced diet score or complete menu, carbohydrate and insulin context, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, and safety boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed type 1 diabetes diet protocol passes a new audit."
+    },
+    {
+      "pageId": "melatonin",
+      "controlledIdentifier": "PubChem:896;ChEBI:16796;MeSH:D008550;InChIKey:DRLFMBDRBRZALE-UHFFFAOYSA-N",
+      "batchId": "interventions-108",
+      "draft": "work/media-drafts/interventions-batch-108/melatonin-draft.png",
+      "sha256": "87fb53f5e03658a683ee56ec761af8fd0ab28a2442944e0dcf014ee0d3b1e9dc",
+      "generationRecord": "exec-7110926e-0bd6-4b7a-9f59-7bcb49a59e77.png",
+      "promptSha256": "2634c44c85a74cc9c0f517ddb9434a1854157d7f5fe815c47275ae841ae60a32",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual and programmatic alpha-field audit",
+      "disposition": "rejected-transparent-background-and-glow",
+      "reason": "The exact 17-heavy-atom graph is visually countable, but the source has 1,412,694 fully transparent pixels, 160,170 intermediate-alpha pixels, no opaque pixels, and broad red, blue, and graphite glow or haze instead of the required encoded opaque pale field.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/896",
+        "https://www.ebi.ac.uk/chebi/CHEBI:16796",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008550"
+      ],
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact 17-center neutral graph while producing an encoded opaque uniform pale cool field, zero glow or haze, and broad crop-safe margins.",
+      "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
     }
   ],
   "revisedAssets": [
