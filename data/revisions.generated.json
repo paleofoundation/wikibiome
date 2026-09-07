@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T10:28:34.181Z",
+  "generatedAt": "2026-09-07T11:03:47.959Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "967d389cf7d01240fec66c6a080188b703feeda2",
+  "sourceCommit": "d74dca3eb93dca85201d7d3e61c36f3e4d4f55a9",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 4311,
+  "revisions": 4413,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -55,6 +55,15 @@
         "wiki/entities/acinetobacter-baumannii.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/acinetobacter-baumannii.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -177,6 +186,15 @@
         "wiki/entities/actinobacteria.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/actinobacteria.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -542,6 +560,15 @@
         "wiki/entities/akkermansia-muciniphila.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/akkermansia-muciniphila.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -971,6 +998,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -1103,15 +1139,6 @@
           "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
           "path": "wiki/entities/alzheimers-disease.md",
           "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "additions": 5,
           "deletions": 0
         }
       ]
@@ -1260,6 +1287,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/antimony.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -1372,6 +1408,15 @@
         "wiki/entities/arsenic.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/arsenic.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -1752,6 +1797,15 @@
         "wiki/entities/bacillus.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/bacillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -2657,6 +2711,15 @@
         "wiki/entities/bifidobacterium-longum.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/bifidobacterium-longum.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -3622,6 +3685,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/cadmium.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -3755,15 +3827,6 @@
           "path": "wiki/entities/cadmium.md",
           "additions": 107,
           "deletions": 22
-        },
-        {
-          "hash": "ef7fa013a793c2bb580ddcb6f0424f870181fbbe",
-          "date": "2026-04-09T21:51:02+03:00",
-          "author": "Karen Pendergrass",
-          "subject": "WikiBiome v7 — interactive microbiome metallomics encyclopedia",
-          "path": "wiki/entities/cadmium.md",
-          "additions": 42,
-          "deletions": 0
         }
       ]
     },
@@ -3772,6 +3835,15 @@
         "wiki/entities/calcium.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/calcium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -3937,6 +4009,15 @@
         "wiki/entities/candida-albicans.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/candida-albicans.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -4748,6 +4829,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/christensenellaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -4808,6 +4898,15 @@
         "wiki/entities/chromium.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/chromium.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -5022,6 +5121,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -5154,15 +5262,6 @@
           "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
           "path": "wiki/entities/chronic-kidney-disease.md",
           "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/chronic-kidney-disease.md",
-          "additions": 1,
           "deletions": 0
         }
       ]
@@ -7636,6 +7735,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/eggerthella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -7889,6 +7997,15 @@
         "wiki/entities/enterobacteriaceae.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/enterobacteriaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -10422,6 +10539,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/graves-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -11202,6 +11328,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/hypertension.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -11747,6 +11882,15 @@
         "wiki/entities/iron.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/iron.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -12586,6 +12730,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/lactobacillus-rhamnosus.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -12610,6 +12763,15 @@
         "wiki/entities/lactobacillus.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/lactobacillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -12829,6 +12991,15 @@
         "wiki/entities/lead.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/lead.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -13253,6 +13424,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/magnesium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -13356,6 +13536,15 @@
         "wiki/entities/malassezia.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/malassezia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -13670,6 +13859,15 @@
         "wiki/entities/mercury.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/mercury.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -14282,6 +14480,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/multiple-sclerosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -14414,15 +14621,6 @@
           "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
           "path": "wiki/entities/multiple-sclerosis.md",
           "additions": 4,
-          "deletions": 0
-        },
-        {
-          "hash": "2f95f2f0a2a18d69cb543c687269b06ca03ab2d4",
-          "date": "2026-04-11T22:49:04+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-11 22:49",
-          "path": "wiki/entities/multiple-sclerosis.md",
-          "additions": 6,
           "deletions": 0
         }
       ]
@@ -14845,6 +15043,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/nickel.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -14978,15 +15185,6 @@
           "path": "wiki/entities/nickel.md",
           "additions": 1,
           "deletions": 1
-        },
-        {
-          "hash": "7eb46919905f2ab54765864883fd2a1c8cac5d2b",
-          "date": "2026-04-16T03:36:49+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "Citation integrity pass: 38 citations added, 24 parenthesized citations fixed",
-          "path": "wiki/entities/nickel.md",
-          "additions": 1,
-          "deletions": 1
         }
       ]
     },
@@ -15039,6 +15237,15 @@
         "wiki/entities/obesity.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/obesity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -15173,15 +15380,6 @@
           "path": "wiki/entities/obesity.md",
           "additions": 6,
           "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "cureva/signatures/obesity.md",
-          "additions": 35,
-          "deletions": 1
         }
       ]
     },
@@ -17574,6 +17772,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/postpartum-depression.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -18533,6 +18740,15 @@
         "wiki/entities/rheumatoid-arthritis.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/rheumatoid-arthritis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -19565,6 +19781,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/saccharomyces.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -19670,6 +19895,15 @@
         "wiki/entities/salmonella-typhimurium.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/salmonella-typhimurium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
           "date": "2026-09-07T09:24:36+03:00",
@@ -19926,6 +20160,15 @@
         "wiki/entities/selenium.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/selenium.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -20200,6 +20443,15 @@
         "wiki/entities/shigella-flexneri.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/shigella-flexneri.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
@@ -21754,6 +22006,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/entities/type-2-diabetes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -22626,6 +22887,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/ahr.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -22756,6 +23026,15 @@
         "wiki/concepts/alpha-klotho.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/alpha-klotho.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -22913,6 +23192,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/amyloid-beta-aggregation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -22973,6 +23261,15 @@
         "wiki/concepts/amyloid-beta.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/amyloid-beta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -23478,6 +23775,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/autophagy.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -23597,6 +23903,15 @@
         "wiki/concepts/bacterial-vaginosis.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/bacterial-vaginosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -24110,6 +24425,15 @@
         "wiki/concepts/blood-brain-barrier.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/blood-brain-barrier.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -24630,6 +24954,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/co-selection.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -24933,6 +25266,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/cox-2.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -25171,6 +25513,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/developmental-metal-vulnerability.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -25276,6 +25627,15 @@
         "wiki/concepts/dietary-arsenic-exposure.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/dietary-arsenic-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -25417,6 +25777,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/dietary-iron-gut-ecology.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -25495,6 +25864,15 @@
         "wiki/concepts/dietary-lead-exposure.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/dietary-lead-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -25773,6 +26151,15 @@
         "wiki/concepts/dysbiosis.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -26142,6 +26529,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/endocrine-disruption.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -26184,6 +26580,15 @@
         "wiki/concepts/endocrine-disruptors.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/endocrine-disruptors.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -26228,6 +26633,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/endothelial-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -26261,6 +26675,15 @@
         "wiki/concepts/endotoxemia.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/endotoxemia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -26402,6 +26825,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/environmental-metal-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -26489,6 +26921,15 @@
         "wiki/concepts/epigenetic-modifications.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/epigenetic-modifications.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -26587,6 +27028,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/epigenetics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -26638,6 +27088,15 @@
         "wiki/concepts/epithelial-mesenchymal-transition.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/epithelial-mesenchymal-transition.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -27312,6 +27771,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/ferroptosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -27633,6 +28101,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/glutathione.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -27791,6 +28268,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/gut-barrier-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -27860,6 +28346,15 @@
         "wiki/concepts/gut-brain-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -28125,6 +28620,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -28258,15 +28762,6 @@
           "path": "wiki/concepts/gut-metal-microbiome.md",
           "additions": 0,
           "deletions": 1
-        },
-        {
-          "hash": "964a62ccebb957751ff7834802220cace5eff519",
-          "date": "2026-04-11T14:26:27+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — integrity fixes, metallomic diet pages, cross-condition analyses",
-          "path": "wiki/concepts/gut-metal-microbiome.md",
-          "additions": 21,
-          "deletions": 0
         }
       ]
     },
@@ -28275,6 +28770,15 @@
         "wiki/concepts/gut-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -28538,6 +29042,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/gut-thyroid-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -28651,6 +29164,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/heavy-metal-neurotoxicity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -28739,6 +29261,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/heavy-metals-infant-foods.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -28808,6 +29339,24 @@
         "wiki/concepts/heavy-metals.md"
       ],
       "revisions": [
+        {
+          "hash": "d74dca3eb93dca85201d7d3e61c36f3e4d4f55a9",
+          "date": "2026-09-07T14:02:21+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Preserve heavy metals graph relationships",
+          "path": "wiki/concepts/heavy-metals.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/heavy-metals.md",
+          "additions": 100,
+          "deletions": 37
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
@@ -29150,6 +29699,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/horizontal-gene-transfer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -29183,6 +29741,15 @@
         "wiki/concepts/hydrogen-sulfide.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/hydrogen-sulfide.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -29306,6 +29873,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/hyperaccumulator.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -29330,6 +29906,15 @@
         "wiki/concepts/hyperandrogenism.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/hyperandrogenism.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -29694,6 +30279,15 @@
         "wiki/concepts/il-1beta.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/il-1beta.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "42b7b734f497199219f40fccc51901cf28f447a1",
           "date": "2026-09-07T07:17:47+03:00",
@@ -30095,6 +30689,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/infant-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -30173,6 +30776,15 @@
         "wiki/concepts/inflammation.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/inflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -30384,6 +30996,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -30523,6 +31144,15 @@
         "wiki/concepts/interleukin-6.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/interleukin-6.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -30931,6 +31561,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/lactoferrin.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -31053,6 +31692,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/lipid-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -31086,6 +31734,15 @@
         "wiki/concepts/lipid-peroxidation.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/lipid-peroxidation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -31209,6 +31866,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/lipopolysaccharide.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -31270,6 +31936,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/maternal-immune-activation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -31312,6 +31987,15 @@
         "wiki/concepts/matrix-metalloproteases.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/matrix-metalloproteases.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "da69a1e162858a7e74632f9a292808c261281378",
           "date": "2026-09-07T10:18:03+03:00",
@@ -31829,6 +32513,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/metal-dependent-virulence.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -32211,6 +32904,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/metalloestrogens.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -32429,6 +33131,15 @@
         "wiki/concepts/metallothionein.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/metallothionein.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -32769,6 +33480,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/microglia.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -33040,6 +33760,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/mycobiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",
           "author": "Karen Pendergrass",
@@ -33109,6 +33838,15 @@
         "wiki/concepts/n-acetyl-cysteine.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/n-acetyl-cysteine.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -33257,6 +33995,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -33371,6 +34118,15 @@
         "wiki/concepts/nf-kappa-b.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/nf-kappa-b.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -33995,6 +34751,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/nitric-oxide.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -34071,6 +34836,15 @@
         "wiki/concepts/nrf2.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/nrf2.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -34282,6 +35056,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/outer-membrane.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -34392,6 +35175,15 @@
         "wiki/concepts/oxidative-stress.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/oxidative-stress.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -34507,6 +35299,15 @@
         "wiki/concepts/oxygen-state.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/oxygen-state.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -35412,6 +36213,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/probiotics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -35517,6 +36327,15 @@
         "wiki/concepts/propionic-acid.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/propionic-acid.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -35637,6 +36456,15 @@
         "wiki/concepts/reactive-oxygen-species.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/reactive-oxygen-species.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -35761,6 +36589,15 @@
         "wiki/concepts/semen-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/semen-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -36377,6 +37214,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/systemic-inflammation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -36410,6 +37256,15 @@
         "wiki/concepts/tau-phosphorylation.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/tau-phosphorylation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -36478,6 +37333,15 @@
         "wiki/concepts/testosterone.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/testosterone.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -36574,6 +37438,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/th17-treg-balance.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -36635,6 +37508,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/thyroid-autoimmunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -36686,6 +37568,15 @@
         "wiki/concepts/tight-junctions.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/tight-junctions.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -36878,6 +37769,15 @@
         "wiki/concepts/tnf-alpha.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/tnf-alpha.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -37421,6 +38321,15 @@
       ],
       "revisions": [
         {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/uremic-toxins.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -37565,6 +38474,15 @@
         "wiki/concepts/virome.md"
       ],
       "revisions": [
+        {
+          "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
+          "date": "2026-09-07T13:55:06+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Backfill heavy metals concept links",
+          "path": "wiki/concepts/virome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
