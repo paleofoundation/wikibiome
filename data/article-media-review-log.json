@@ -18564,6 +18564,33 @@
       "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019936", "https://meshb.nlm.nih.gov/record/ui?ui=D004715", "local:data/content.generated.json#/pages/stop-standard-probiotics-endometriosis"],
       "requiredResolution": "Add strain-specific comparative evidence; define species, strains, product, formulation, dose, timing and duration, endometriosis phenotype and stage, fertility and hormonal-treatment context, concurrent interventions, population, comparator, methods, symptom, fertility and lesion outcomes, adverse events, contraindications, and exceptions.",
       "routingImpact": "The route remains uncovered and asset-free; no anatomy, microorganism, elemental metal, supplement, warning, or prohibition image may be published as a protocol proxy."
+    },
+    {
+      "pageId": "stop-wrong-strain-probiotics-schizophrenia",
+      "controlledIdentifier": "Probiotics-MeSH:D019936;Schizophrenia-MeSH:D012559;commercial-product-composition-strain-dose-psychiatric-phenotype-treatment-context-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-120", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "Several strains and mixed formulations are compared without one complete product, viable composition, dose, psychiatric phenotype and treatment, comparator, outcomes, safety, or exceptions.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D019936", "https://meshb.nlm.nih.gov/record/ui?ui=D012559", "local:data/content.generated.json#/pages/stop-wrong-strain-probiotics-schizophrenia"],
+      "requiredResolution": "Select one exact product and complete strain-level composition; define viable dose, formulation, storage, timing, duration, schizophrenia phenotype and treatment, population, comparator, methods, psychiatric, metabolic and patient-centered outcomes, adverse events, contraindications, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no generic microbe, capsule, brain, patient, warning, crossed-out strain, or prohibition image may be published."
+    },
+    {
+      "pageId": "stop-zinc-supplementation-endometriosis",
+      "controlledIdentifier": "Zinc-MeSH:D015032;Endometriosis-MeSH:D004715;single-conference-source-zinc-compound-deficiency-assessment-disease-phenotype-protocol-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-120", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "One conference source and an explicit hypothesis do not resolve zinc compound, dose, nutritional assessment, endometriosis phenotype, treatment context, comparator, outcomes, safety, or exceptions.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015032", "https://meshb.nlm.nih.gov/record/ui?ui=D004715", "local:data/content.generated.json#/pages/stop-zinc-supplementation-endometriosis"],
+      "requiredResolution": "Add peer-reviewed clinical evidence and current guidance; define zinc compound, formulation, elemental dose, nutritional assessment, duration, endometriosis phenotype and stage, fertility and hormonal-treatment context, population, comparator, monitoring, symptom, fertility and lesion outcomes, adverse events, contraindications, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no Zinc specimen, supplement, endometriosis anatomy, patient, warning, or prohibition image may be published as a clinical proxy."
+    },
+    {
+      "pageId": "stop-zinc-supplementation-h-pylori",
+      "controlledIdentifier": "Zinc-MeSH:D015032;Helicobacter-pylori-NCBI-Taxonomy:210;active-infection-confirmation-zinc-compound-eradication-regimen-protocol-and-outcomes-unresolved",
+      "batchId": "clinical-cautions-120", "reviewedOn": "2026-09-07", "reviewingAuthority": "WikiBiome Control Tower clinical safety, scientific, source-resolution, and editorial audit", "disposition": "scientific-media-hold",
+      "reason": "The timing-dependent claim does not resolve zinc product, infection-confirmation and resistance state, gastric disease, eradication regimen, dose, comparator, outcomes, safety, or exceptions.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015032", "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=210", "local:data/content.generated.json#/pages/stop-zinc-supplementation-h-pylori"],
+      "requiredResolution": "Add zinc-specific comparative evidence and current guidance; define active-infection confirmation, strain and resistance context, gastric disease state, eradication regimen, zinc compound, formulation, elemental dose, route, timing and duration, nutritional status, population, comparator, monitoring, eradication, mucosal and symptom outcomes, adverse events, contraindications, post-eradication boundary, and exceptions.",
+      "routingImpact": "The route remains uncovered and asset-free; no H. pylori, Zinc, Nickel, stomach, tablet, food, warning, or prohibition image may be published as a protocol proxy."
     }
   ],
   "revisedAssets": [

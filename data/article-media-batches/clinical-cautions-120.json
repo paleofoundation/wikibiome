@@ -2,8 +2,9 @@
   "schemaVersion": 1,
   "batchId": "clinical-cautions-120",
   "category": "clinical-cautions",
-  "status": "audited",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
   "authorizedParent": "284f255afbe50eed300c32c0a0b93ccb14f99351",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/clinical-cautions-120.md",
@@ -19,6 +20,7 @@
     "sourceUse": "Current NLM and NCBI controlled records plus local source-resolution evidence define asset-free scientific holds."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "96d3dcd808fe88996a9f3dc203c984b2420ae861",
   "reviewStandard": "Clinical-caution pages may not receive generic warning graphics, crossed-out supplements, stigmatizing psychiatric or gynecologic patient imagery, condition anatomy used as treatment evidence, or existing Zinc and microorganism media substituted for unspecified clinical products. All three routes fail before prompt creation.",
   "routeDecisionCount": 3,
   "candidateCount": 0,
