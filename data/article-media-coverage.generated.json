@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "508c39f99786230197133605180a4763f71558a3126910d83eda170d263dd4d4",
+    "registrySha256": "83937709f0955fab1ce73acb6443c49a220e2cc784f67644dbda1da3b13268ef",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "b891d3e36fe83d697be13256915b6452618e1cd5096a1525d0be65f9b6f8c7c0",
+    "reviewLogSha256": "31c8396284dc76893dfd53ec85021b79b26e9f1422eca3d40ce2fac006e57457",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -293,6 +293,12 @@
         "batchId": "mechanisms-092",
         "status": "reviewed",
         "sha256": "259f19384cad78b74745798c5e25ca4584e406ee3a09074317ed4e674b26654c"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-093.json",
+        "batchId": "mechanisms-093",
+        "status": "reviewed",
+        "sha256": "09e55f77c54f18f52d9c4709357e6e645b912e01dda9aaca601b8f93b3b10cb5"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -584,11 +590,11 @@
   },
   "current": {
     "total": 710,
-    "completed": 363,
-    "remaining": 347,
-    "rejected": 189,
+    "completed": 364,
+    "remaining": 346,
+    "rejected": 194,
     "revised": 12,
-    "scientificHolds": 134,
+    "scientificHolds": 139,
     "inReview": 0
   },
   "categories": [
@@ -617,8 +623,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 54,
-      "remaining": 179
+      "completed": 55,
+      "remaining": 178
     },
     {
       "id": "host-defenses",
@@ -4007,6 +4013,84 @@
       ],
       "requiredResolution": "Define exact chemical species or product, stereochemical rendering source, compartment, specimen, assay, population, exposure or intervention, comparator, endpoint, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "tgf-beta",
+      "controlledIdentifier": "ambiguous-TGF-beta-family;candidate-TGFB1-NCBI-Gene:7040;UniProt:P01137",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route does not specify TGF-beta family member, processed state, ligand/receptor complex, species, tissue, or assay.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/gene/7040",
+        "https://www.uniprot.org/uniprotkb/P01137/entry",
+        "local:data/content.generated.json#/pages/tgf-beta"
+      ],
+      "requiredResolution": "Specify exact family member, precursor/mature and latent/active state, species, oligomeric or receptor-bound state, compartment, structure source, assay, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "th17-treg-balance",
+      "controlledIdentifier": "context-dependent-Th17-Treg-population-relationship;PMID:38558800",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Heterogeneous immune-cell populations, markers, tissues, time points, diseases, and cytokine contexts are collapsed into a universal balance and causal switch.",
+      "checkedUrls": [
+        "https://pubmed.ncbi.nlm.nih.gov/38558800/",
+        "local:data/content.generated.json#/pages/th17-treg-balance"
+      ],
+      "requiredResolution": "Define population, specimen, markers/gating, assay, time point, disease/model, cytokine context, comparator, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "exposome",
+      "controlledIdentifier": "MeSH:D000081413;lifetime-all-source-exposure-measure",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exposome is an all-source lifetime exposure construct rather than one bounded specimen, anatomy, mixture, or measurable state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000081413",
+        "local:data/content.generated.json#/pages/exposome"
+      ],
+      "requiredResolution": "Define exposome domain, population, life stage, geography, exposure panel, matrix, measurement method, time window, endpoint, and uncertainty model.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "thyroid-autoimmunity",
+      "controlledIdentifier": "umbrella-AITD;related-MeSH:D013967;distinct-Graves-and-Hashimoto-routes",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route merges distinct autoimmune thyroid diseases and already-reviewed disease pages with minerals, toxicants, microbiome observations, antibodies, and causal claims.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D013967",
+        "https://pubmed.ncbi.nlm.nih.gov/31434818/",
+        "local:data/content.generated.json#/pages/thyroid-autoimmunity"
+      ],
+      "requiredResolution": "Choose canonical umbrella or disease-specific scope and define exact condition, tissue/pathology state, antibody or analyte, specimen, assay, population, comparator, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "tlr4",
+      "controlledIdentifier": "NCBI-Gene:7099;multiple-human-isoforms;state-specific-PDB:3FXI",
+      "batchId": "mechanisms-093",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route does not specify human TLR4 isoform, domain, membrane state, MD-2/CD14/LPS complex, ligand, activation state, or structure source.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/gene/7099",
+        "https://www.rcsb.org/structure/3FXI",
+        "local:data/content.generated.json#/pages/tlr4"
+      ],
+      "requiredResolution": "Specify species, exact transcript/protein isoform, domain/full-length state, membrane context, partner and ligand composition, activation state, structure accession, and depicted claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -4161,55 +4245,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 535,
-      "id": "tgf-beta",
-      "title": "TGF-beta (Transforming Growth Factor Beta)",
-      "route": "/article/tgf-beta",
+      "queuePosition": 541,
+      "id": "tnf-alpha",
+      "title": "TNF-alpha (Tumor Necrosis Factor Alpha)",
+      "route": "/article/tnf-alpha",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 536,
-      "id": "th17-treg-balance",
-      "title": "Th17/Treg Balance",
-      "route": "/article/th17-treg-balance",
+      "queuePosition": 542,
+      "id": "toll-like-receptors",
+      "title": "Toll-Like Receptors",
+      "route": "/article/toll-like-receptors",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 537,
-      "id": "exposome",
-      "title": "The Exposome",
-      "route": "/article/exposome",
+      "queuePosition": 543,
+      "id": "tmao",
+      "title": "Trimethylamine N-Oxide (TMAO)",
+      "route": "/article/tmao",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 538,
-      "id": "thyroid-autoimmunity",
-      "title": "Thyroid Autoimmunity",
-      "route": "/article/thyroid-autoimmunity",
+      "queuePosition": 544,
+      "id": "tryptamine",
+      "title": "Tryptamine",
+      "route": "/article/tryptamine",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 539,
-      "id": "tight-junctions",
-      "title": "Tight Junctions",
-      "route": "/article/tight-junctions",
+      "queuePosition": 545,
+      "id": "tryptophan",
+      "title": "Tryptophan",
+      "route": "/article/tryptophan",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 540,
-      "id": "tlr4",
-      "title": "TLR4",
-      "route": "/article/tlr4",
+      "queuePosition": 546,
+      "id": "tryptophan-metabolism",
+      "title": "Tryptophan Metabolism",
+      "route": "/article/tryptophan-metabolism",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -15191,7 +15275,13 @@
       "route": "/article/tgf-beta",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route does not specify TGF-beta family member, processed state, ligand/receptor complex, species, tissue, or assay.",
+        "requiredResolution": "Specify exact family member, precursor/mature and latent/active state, species, oligomeric or receptor-bound state, compartment, structure source, assay, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 536,
@@ -15204,7 +15294,13 @@
       "route": "/article/th17-treg-balance",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Heterogeneous immune-cell populations, markers, tissues, time points, diseases, and cytokine contexts are collapsed into a universal balance and causal switch.",
+        "requiredResolution": "Define population, specimen, markers/gating, assay, time point, disease/model, cytokine context, comparator, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 537,
@@ -15217,7 +15313,13 @@
       "route": "/article/exposome",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The exposome is an all-source lifetime exposure construct rather than one bounded specimen, anatomy, mixture, or measurable state.",
+        "requiredResolution": "Define exposome domain, population, life stage, geography, exposure panel, matrix, measurement method, time window, endpoint, and uncertainty model."
+      }
     },
     {
       "queuePosition": 538,
@@ -15230,7 +15332,13 @@
       "route": "/article/thyroid-autoimmunity",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route merges distinct autoimmune thyroid diseases and already-reviewed disease pages with minerals, toxicants, microbiome observations, antibodies, and causal claims.",
+        "requiredResolution": "Choose canonical umbrella or disease-specific scope and define exact condition, tissue/pathology state, antibody or analyte, specimen, assay, population, comparator, and evidence tier."
+      }
     },
     {
       "queuePosition": 539,
@@ -15243,7 +15351,15 @@
       "route": "/article/tight-junctions",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "tight-junctions-mechanism-v1-master.png",
+        "publishedFile": "tight-junctions-mechanism-v1.webp",
+        "socialFile": "tight-junctions-mechanism-v1-social.webp"
+      }
     },
     {
       "queuePosition": 540,
@@ -15256,7 +15372,13 @@
       "route": "/article/tlr4",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route does not specify human TLR4 isoform, domain, membrane state, MD-2/CD14/LPS complex, ligand, activation state, or structure source.",
+        "requiredResolution": "Specify species, exact transcript/protein isoform, domain/full-length state, membrane context, partner and ligand composition, activation state, structure accession, and depicted claim boundary."
+      }
     },
     {
       "queuePosition": 541,
