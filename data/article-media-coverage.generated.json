@@ -105,8 +105,8 @@
       {
         "file": "data/article-media-batches/host-defenses-100.json",
         "batchId": "host-defenses-100",
-        "status": "audited",
-        "sha256": "c1b15a5afef353543bde181202961cd761aa1de1ad28988862253f0b038ef0fa"
+        "status": "prompt-frozen",
+        "sha256": "8869f87481e44559d563c19f66890365052ed800014b45578a2fc647f05539aa"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",

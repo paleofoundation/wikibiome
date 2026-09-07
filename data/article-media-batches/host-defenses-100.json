@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "host-defenses-100",
   "category": "host-defenses",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "b02f2bdc363d0784b73dfcb84dd8d5d285567653",
   "generator": "OpenAI built-in image generation",
@@ -19,6 +19,8 @@
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "d4ad8cbc841dffff062f44bc552b57b32052c8f1",
+  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Only exact neutral N-acetyl-L-cysteine is cleared for one immutable heavy-atom connectivity call. Inflammation, microbial metallomics, nutritional immunity, pathogen metal acquisition, and reactive oxygen species fail tissue, chemical, organism, molecular-state, specimen, measurement, or network-scope gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -83,7 +85,7 @@
       "assetType": "host-defense",
       "revision": 1,
       "decision": "cleared-for-single-generation-call",
-      "generationStatus": "audit-complete-awaiting-prompt-freeze",
+      "generationStatus": "prompt-frozen-awaiting-call",
       "controlledIdentifier": "PubChem:12035;ChEBI:28939;MeSH:D000111;InChIKey:PWKSKIMOESPYIA-BYPYZUCNSA-N",
       "promptSha256": "af0645aad263dc66a52fcf8ad4806328f35c88e350e7d6655b5c217b8dbff9dc",
       "scientificReferences": [
