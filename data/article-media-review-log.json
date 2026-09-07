@@ -14318,6 +14318,78 @@
       "checkedUrls": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC7239837/", "https://pubmed.ncbi.nlm.nih.gov/36124565/", "https://pubmed.ncbi.nlm.nih.gov/35236987/", "local:data/content.generated.json#/pages/irving-williams-series"],
       "requiredResolution": "Bound the chemical domain; distinguish thermodynamics, kinetics, buffered availability, transport, oxidation state, geometry, and cellular selectivity; handle non-series ions separately.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "isoflavones",
+      "controlledIdentifier": "MeSH:D007529",
+      "batchId": "mechanisms-078",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A broad chemical class is reduced to soy, equol-producer prevalence, and generalized disease-response claims without compound, population, dose, or evidence boundaries.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D007529", "local:data/content.generated.json#/pages/isoflavones"],
+      "requiredResolution": "Define class versus selected compounds; distinguish daidzein metabolism; verify taxa and human evidence; bind claims to compound, dose, model, and outcome.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "ketone-bodies",
+      "controlledIdentifier": "Reactome:R-HSA-74182",
+      "batchId": "mechanisms-078",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A sparse class page conflates endogenous ketone metabolism, ketogenic-diet microbiome effects, beta-hydroxybutyrate signaling, and clinical indications.",
+      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/pathway/Reactome:R-HSA-74182", "local:data/content.generated.json#/pages/ketone-bodies"],
+      "requiredResolution": "Separate the three compounds, ketogenesis and ketolysis, physiological and pathological ketosis, endogenous signaling, diet effects, and indication-level evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "kynurenine-pathway",
+      "controlledIdentifier": "Reactome:R-HSA-71240",
+      "batchId": "mechanisms-078",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A compartment- and concentration-dependent pathway is split into universal neuroprotective and neurotoxic arms and tied to unsupported iron-driven activation and disease causality.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/42315009/", "https://pubmed.ncbi.nlm.nih.gov/34862742/", "local:data/content.generated.json#/pages/kynurenine-pathway"],
+      "requiredResolution": "Correct enzyme/cofactor claims and bind every metabolite and disease statement to compartment, concentration, specimen, species, assay, and evidence level.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "labile-metal-pool",
+      "controlledIdentifier": "scientific-concept;no-exact-MeSH",
+      "batchId": "mechanisms-078",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Organism- and condition-specific labile pools are presented through a mixed, dimensionally suspect table and universal buffering, metalation, and cross-metal mechanisms.",
+      "checkedUrls": ["https://pubmed.ncbi.nlm.nih.gov/39755956/", "https://pubmed.ncbi.nlm.nih.gov/33454001/", "local:data/content.generated.json#/pages/labile-metal-pool"],
+      "requiredResolution": "Rebuild per organism, ion, compartment, method, species, and condition; distinguish thermodynamic availability, concentration, total quota, and sensor inference.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "leptin",
+      "controlledIdentifier": "UniProt:P41159;MeSH:D020738",
+      "batchId": "mechanisms-078",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exact hormone is identifiable, but a sparse article presents a deterministic microbiome-metal-obesity feedback loop instead of receptor-, tissue-, and evidence-bounded biology.",
+      "checkedUrls": ["https://www.uniprot.org/uniprotkb/P41159/entry", "local:data/content.generated.json#/pages/leptin"],
+      "requiredResolution": "Rebuild around protein/receptor identity, secretion, central/peripheral actions, deficiency versus resistance, and bounded microbiome and exposure findings.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "lipid-metabolism",
+      "controlledIdentifier": "MeSH:D050356",
+      "batchId": "mechanisms-078",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "An extremely broad physiological domain is represented by a few microbiome, metabolite, sex, disease, and heavy-metal claims and cannot map to one honest image.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D050356", "local:data/content.generated.json#/pages/lipid-metabolism"],
+      "requiredResolution": "Choose a bounded lipid class, organism, tissue, compartment, process, and physiological or disease question, or convert the route into a navigational overview.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
