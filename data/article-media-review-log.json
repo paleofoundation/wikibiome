@@ -16448,6 +16448,102 @@
       ],
       "requiredResolution": "Define exact iron form and dose, food or formulation, compartment, time point, host population or model, microbial community, specimen and assay, measured gradient, outcome, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a form-, exposure-, and specimen-specific scope passes a new audit."
+    },
+    {
+      "pageId": "dyshomeostasis",
+      "controlledIdentifier": "MeSH:D006706-related-homeostasis;multi-metal-multi-compartment-regulatory-failure",
+      "batchId": "host-defenses-098",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route is a system-level loss of metal regulation across elements, chemical forms, tissues, compartments, concentrations, transporters, diseases, and time rather than one bounded physical subject or standardized measurement.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68006706",
+        "local:data/content.generated.json#/pages/dyshomeostasis"
+      ],
+      "requiredResolution": "Choose an exact element and chemical form, organism, tissue and compartment, transporter or regulatory pathway, specimen, assay, time point, reference range, perturbation, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until an element-, compartment-, and measurement-specific scope passes a new audit."
+    },
+    {
+      "pageId": "ferritin",
+      "controlledIdentifier": "MeSH:D005293;RCSB-PDB:4Y08-state-specific-not-universal",
+      "batchId": "host-defenses-098",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Ferritin is a cross-species family whose 24-subunit shell composition varies by species and tissue, while the route also combines intracellular protein, mineral loading, bacterial homologs, and serum biomarker interpretation. RCSB 4Y08 is one iron-loaded human H-chain homo-24-mer state.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68005293",
+        "https://www.rcsb.org/structure/4Y08",
+        "local:data/content.generated.json#/pages/ferritin"
+      ],
+      "requiredResolution": "Select exact species, ferritin gene or subunit ratio, assembly, iron-loading state, structure accession, tissue or organism, specimen or assay, units, and claim scope.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a sequence-, assembly-, and state-specific scope passes a new audit."
+    },
+    {
+      "pageId": "ferroportin",
+      "controlledIdentifier": "UniProt:Q9NP59;NCBITaxon:9606;RCSB-PDB:6WBV-state-specific",
+      "batchId": "host-defenses-098",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The local route identifies human SLC40A1 but spans several cell types and transport-active, metal-bound, hepcidin-bound, internalized, and degraded states. RCSB 6WBV is one hepcidin- and cobalt-bound nanodisc complex with experimental partners.",
+      "checkedUrls": [
+        "https://www.uniprot.org/uniprotkb/Q9NP59/entry",
+        "https://www.rcsb.org/structure/6WBV",
+        "local:data/content.generated.json#/pages/ferroportin"
+      ],
+      "requiredResolution": "Select exact sequence and species, membrane compartment and cell type, ligand and metal state, transporter conformation, structure accession, experimental partners to retain or omit, process stage, and claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a sequence-, state-, and compartment-specific scope passes a new audit."
+    },
+    {
+      "pageId": "hepcidin",
+      "controlledIdentifier": "UniProt:P81172;NCBITaxon:9606;Hepcidin-25-and-Hepcidin-20;RCSB-PDB:6WBV-bound-state",
+      "batchId": "host-defenses-098",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Human HAMP is processed into mature hepcidin-25 and hepcidin-20, and the route combines free hormone, metal-associated and ferroportin-bound states, several tissues, systemic regulation, disease contexts, and assay interpretation.",
+      "checkedUrls": [
+        "https://www.uniprot.org/uniprotkb/P81172/entry",
+        "https://www.rcsb.org/structure/6WBV",
+        "local:data/content.generated.json#/pages/hepcidin"
+      ],
+      "requiredResolution": "Choose exact mature peptide, disulfide topology, free or bound state, metal occupancy, structure accession, compartment, specimen or assay, units, physiological or disease context, and claim scope.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a mature-peptide-, structure-, and state-specific scope passes a new audit."
+    },
+    {
+      "pageId": "ifn-gamma",
+      "controlledIdentifier": "UniProt:P01579;NCBITaxon:9606;human-IFNG-homodimer-multi-context",
+      "batchId": "host-defenses-098",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines free and receptor-bound interferon gamma, producing cell types, several tissue and disease contexts, iron restriction, tryptophan metabolism, and downstream signaling without choosing one molecular, cellular, specimen, or assay state.",
+      "checkedUrls": [
+        "https://www.uniprot.org/uniprotkb/P01579/entry",
+        "https://pdb101.rcsb.org/motm/128",
+        "local:data/content.generated.json#/pages/ifn-gamma"
+      ],
+      "requiredResolution": "Choose exact species and isoform, glycosylation and oligomer state, free or receptor-bound structure accession, producing or target cell, tissue and activation state, specimen or assay, time point, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a molecular- or cellular-state-specific scope passes a new audit."
+    },
+    {
+      "pageId": "glutathione",
+      "controlledIdentifier": "PubChem:124886;ChEBI:16856;MeSH:D005978;InChIKey:RWSXRVCMGQZWBV-WDSKDSINSA-N",
+      "batchId": "host-defenses-098",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual and programmatic color-segmentation audit",
+      "disposition": "rejected-after-output-audit",
+      "reason": "The exact single-call output contains 24 visible heavy-atom centers—12 graphite, 3 blue, 8 rose, and 1 gold—rather than reduced glutathione's required 20 and 10/3/6/1 composition. Its graph includes an extra two-oxygen carbonyl unit joined directly to nitrogen, and 43 dark pixels occur in the frozen outer edge field.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/124886",
+        "https://www.ebi.ac.uk/chebi/searchId.do?chebiId=CHEBI:16856",
+        "https://www.ncbi.nlm.nih.gov/mesh/68005978",
+        "local:work/media-drafts/host-defenses-batch-098/glutathione-draft.png"
+      ],
+      "requiredResolution": "A future revision requires a new authority audit, a new immutable prompt, and one newly authorized generation call whose native output independently passes exact 10-carbon, 3-nitrogen, 6-oxygen, 1-sulfur count, reduced-glutathione constitutional adjacency, opaque pale-field, and crop gates.",
+      "routingImpact": "The exact revision-1 source remains immutable non-public quarantine evidence and is excluded from registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries."
     }
   ],
   "revisedAssets": [
