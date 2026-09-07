@@ -12,6 +12,26 @@
   "controlReviewRequired": false,
   "initialAuditCommit": "9e98633",
   "reviewStandard": "The six queued routes failed the pre-generation identity, source, scope, or evidence gate. They received no marked prompt, no built-in generation call, and no raster. Current controlled records and authoritative literature were checked against the generated article corpus; exact conflicts and the smallest editorial resolution are preserved in the prompt/audit and review packets. Zero hashes are eligible for promotion.",
+  "controlAcceptedReviewManifestSha256": "e07c1931495730e6808ccb0486749a7b376070c8b0584ee7ab07de939e3a7f75",
+  "controlAcceptedPromptEvidenceSha256": "4ddd1b7abe5f33a68faa6cbbd22098026dd2aeaa3be72129556ba653431e2b23",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-six-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "1f84db590cf315e0364ecd5b0629ca9bced9c6ad",
+    "reviewer": "WikiBiome Control Tower",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": [
+      "hyperparathyroidism",
+      "hypoxia",
+      "hypoxic-signaling",
+      "il-10",
+      "il-17",
+      "il-1beta"
+    ]
+  },
+  "controlSocialCropReview": "not-applicable-zero-generated-assets",
+  "promotionDerivatives": {},
   "routeDecisionCount": 6,
   "candidateCount": 0,
   "scientificHoldCount": 6,
