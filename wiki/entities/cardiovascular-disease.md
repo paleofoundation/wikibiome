@@ -4,7 +4,7 @@ title: Cardiovascular Disease
 type: entity
 subtype: disease
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-07
 sources:
  - lim-2023-plasma-metallomics-ami
  - jie-2017-gut-microbiome-acvd
@@ -23,7 +23,7 @@ sources:
 source_count: 14
 tags: [cardiovascular-disease, CVD, TMAO, copper, selenium, lead, cadmium, nickel, Cu-Se-ratio, SCFAs, bile-acids, microbiome, mycobiome, oral-microbiome, atherosclerosis, hypertension, heart-failure, dysbiosis, tryptophan, indoxyl-sulfate, metabolomics]
 platform: wikibiome
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-09-07
 associated_conditions: [type-2-diabetes, obesity, chronic-kidney-disease, depression]
 signature_page: "[[cardiovascular-disease-signature]]"
 shared_signature_metals: {type-2-diabetes: [iron, nickel, cadmium], obesity: [iron], chronic-kidney-disease: [lead, cadmium], depression: [iron]}
@@ -94,7 +94,7 @@ The landmark metagenome-wide association study of 218 ACVD patients and 187 cont
 SCFAs protect against CVD through multiple mechanisms:
 
 - Blood pressure regulation: butyrate suppresses intrarenal renin-angiotensin system via PRR; propionate modulates renin release via Olfr78 receptor; GPR41 and Olfr78 play opposing roles creating a buffering system
-- Anti-atherosclerotic: butyrate inhibits HDAC3, induces FGF21, promotes lipid oxidation; SCFAs suppress NF-kB and NLRP3 inflammasome in macrophages; reduce VCAM-1 and MCP-1 expression
+- Anti-atherosclerotic: butyrate inhibits HDAC3, induces FGF21, promotes lipid oxidation; SCFAs suppress NF-kB and [[nlrp3-inflammasome|NLRP3 inflammasome]] in macrophages; reduce VCAM-1 and MCP-1 expression
 - Post-MI protection: SCFAs promote M2 macrophage polarization; butyrate downregulates TNF-alpha and IL-1beta while upregulating IL-10
 - Gut barrier maintenance: butyrate induces tight junction proteins and mucin production, preventing LPS translocation -- a key pathway in CVD pathogenesis
 - Appetite and metabolism: colonic SCFAs increase fat oxidation and energy expenditure; propionate stimulates PYY and GLP-1 release

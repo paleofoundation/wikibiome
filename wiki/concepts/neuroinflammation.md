@@ -2,14 +2,14 @@
 title: Neuroinflammation
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-07
 sources: [gao-2023-microglia-neurodegenerative-diseases, ahmed-2025-metals-alzheimers-mechanistic-review, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, sun-2025-sodium-butyrate-neuroinflammation-cardiac-arrest, tizabi-2023-lead-gut-microbiota-asd, zhou-2025-gut-microbiota-immune-nervous-system-asd, arteaga-henriquez-2023-immunoregulatory-anti-inflammatory-asd, spencer-2018-vascular-pathology-ms-blood-brain-barrier, martinelli-2022-gut-oriented-interventions-ms]
 source_count: 9
 tags: [neuroinflammation, microglia, blood-brain-barrier, cytokines, LPS, neurodegeneration, gut-brain-axis, metals, NF-kB, M1-M2-polarization]
 platform: wikibiome
 karen_brain_primitives: [1, 3]
 seo_target: "neuroinflammation microbiome"
-last_substantive_update: 2026-04-09
+last_substantive_update: 2026-09-07
 ---
 
 # Neuroinflammation
@@ -62,7 +62,7 @@ Each neurotoxic metal has a distinct neuroinflammatory profile:
 | [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |
 | [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |
 | [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |
-| [[aluminum]] | NLRP3 inflammasome, NF-kB activation | AD (controversial) |
+| [[aluminum]] | [[nlrp3-inflammasome|NLRP3 inflammasome]], NF-kB activation | AD (controversial) |
 | [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |
 
 All metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]].

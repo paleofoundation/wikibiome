@@ -2,14 +2,14 @@
 title: Trimethylamine N-Oxide (TMAO)
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-07
 sources: [zhen-2023-tmao-cardiovascular-diseases-review, hoffelner-2025-emerging-therapy-targets-microbiome-cvd, sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome, herrema-2020-microbiome-cardiovascular-disease-ascvd, mansuri-2022-gut-microbiome-cardiovascular-events-systematic-review, gao-2020-gut-microbial-biomarkers-acs-post-stemi, khatoon-2023-gut-microbiota-neurodegenerative]
 source_count: 7
 tags: [TMAO, trimethylamine, FMO3, choline, carnitine, betaine, atherosclerosis, CVD, platelet-hyperreactivity, endothelial-dysfunction, gut-microbiome-metabolite]
 platform: wikibiome
 karen_brain_primitives: [1, 5]
 seo_target: "trimethylamine n-oxide tmao microbiome"
-last_substantive_update: 2026-04-09
+last_substantive_update: 2026-09-07
 ---
 
 # Trimethylamine N-Oxide (TMAO)
@@ -39,7 +39,7 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 - Inhibits reverse cholesterol transport (RCT) by downregulating the ABCG5/ABCG8 heterodimer.
 - Upregulates scavenger receptors CD36 and SR-A1 on macrophages, increasing cholesterol uptake and foam cell formation.
 - Activates [[nf-kappa-b]], increasing TNF-alpha, IL-6, and suppressing anti-inflammatory IL-10 [[zhen-2023-tmao-cardiovascular-diseases-review]].
-- Activates NLRP3 inflammasome via TXNIP (thioredoxin-interacting protein).
+- Activates [[nlrp3-inflammasome|NLRP3 inflammasome]] via TXNIP (thioredoxin-interacting protein).
 
 ### Endothelial Dysfunction
 - Activates HMGB1/TLR4 signaling, destroying tight junction proteins (ZO-2, occludin, VE-cadherin).

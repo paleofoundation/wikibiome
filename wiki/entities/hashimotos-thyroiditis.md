@@ -4,7 +4,7 @@ title: Hashimoto's Thyroiditis
 type: entity
 subtype: disease
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-07
 sources:
  - li-2025-trace-elements-autoimmune-thyroid-disease
  - brock-2015-selenium-thyroid-autoimmunity
@@ -24,7 +24,7 @@ sources:
 source_count: 15
 tags: [hashimotos-thyroiditis, autoimmune, thyroid, selenium, iron, zinc, copper, iodine, cadmium, mercury, lead, nickel, gut-thyroid-axis, microbiome, anti-TPO, anti-Tg, dysbiosis, SCFAs, tryptophan, diet, probiotics, comorbidities]
 platform: wikibiome
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-09-07
 associated_conditions: [graves-disease, depression, celiac-disease, pcos]
 signature_page: "[[hashimotos-thyroiditis-signature]]"
 shared_signature_metals: {graves-disease: [selenium, iodine, iron, zinc], depression: [iron, zinc, selenium], celiac-disease: [iron, zinc, selenium], pcos: [iron, zinc, selenium]}
@@ -55,7 +55,7 @@ The thyroid has the highest [[selenium]] concentration of any organ, owing to se
 
 ### Iodine Excess Paradox
 
-[[iodine]] has a U-shaped dose-response with AITD. Excess iodine inhibits TPO activity via the Wolff-Chaikoff effect, activates the NLRP3 inflammasome, promotes Th17 proliferation, and generates ROS in thyroid cells. Autoimmune thyroiditis prevalence increases after salt iodization programs. In combined Se and I deficiency, normalizing Se without iodine worsens hypothyroidism -- the elements must be balanced together.
+[[iodine]] has a U-shaped dose-response with AITD. Excess iodine inhibits TPO activity via the Wolff-Chaikoff effect, activates the [[nlrp3-inflammasome|NLRP3 inflammasome]], promotes Th17 proliferation, and generates ROS in thyroid cells. Autoimmune thyroiditis prevalence increases after salt iodization programs. In combined Se and I deficiency, normalizing Se without iodine worsens hypothyroidism -- the elements must be balanced together.
 
 ### Heavy Metals and Nickel
 

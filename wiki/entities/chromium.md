@@ -4,7 +4,7 @@ title: Chromium
 type: entity
 subtype: metal
 created: 2026-04-09
-updated: 2026-04-20
+updated: 2026-09-07
 sources:
   - salnikov-2008-metal-carcinogenesis.md
   - shin-2023-chromium-toxicogenomics.md
@@ -40,7 +40,7 @@ sources:
   - niehoff-2021-metals-breast-cancer-toenail.md
 tags: [transition-metal, carcinogen, DNA-damage, toxicology, gut-microbiome, co-selection, antibiotic-resistance, insulin-signaling]
 platform: wikibiome
-last_substantive_update: 2026-04-20
+last_substantive_update: 2026-09-07
 seo_target: "chromium hexavalent Cr(VI) gut microbiome carcinogen health effects"
 wikipedia_differentiation: "Comprehensive coverage of Cr(VI) effects on gut microbiota composition and barrier integrity, microbial chromate reduction as detoxification, co-selection of antibiotic resistance by chromium, Cr-DNA ternary adduct mechanisms, the ascorbate paradox in Cr(VI) reduction, metal-metal synergistic nephrotoxicity, and cross-condition metallomic patterns linking chromium to IBD, CKD, rheumatoid arthritis, and neurodegeneration"
 dietary_sources: ["broccoli", "grape juice", "whole grains", "potatoes", "meat", "drinking water"]
@@ -106,7 +106,7 @@ In infants, serum chromium was among the metals associated with shifts in gut mi
 
 ### Gut Barrier Disruption
 
-Hexavalent chromium exposure damages the intestinal epithelial barrier through downregulation of key tight junction proteins -- ZO-1, occludin, and claudin-1 -- and the mucin MUC2 [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. This barrier disruption involves activation of the NLRP3 inflammasome, linking Cr(VI) exposure to inflammatory signaling cascades in the gut [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. The probiotic strain *Lactobacillus plantarum* TW1-1 partially reversed Cr-exposure-linked effects and reduced chromium accumulation in experimental models [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
+Hexavalent chromium exposure damages the intestinal epithelial barrier through downregulation of key tight junction proteins -- ZO-1, occludin, and claudin-1 -- and the mucin MUC2 [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. This barrier disruption involves activation of the [[nlrp3-inflammasome|NLRP3 inflammasome]], linking Cr(VI) exposure to inflammatory signaling cascades in the gut [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. The probiotic strain *Lactobacillus plantarum* TW1-1 partially reversed Cr-exposure-linked effects and reduced chromium accumulation in experimental models [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 
 ### Microbial Chromate Reduction
 

@@ -4,7 +4,7 @@ title: Colorectal Cancer
 type: entity
 subtype: disease
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-07
 sources:
  - zhang-2022-metallomics-cancer-review
  - sugimoto-2024-zinc-deficiency-cancer-review
@@ -27,7 +27,7 @@ sources:
 source_count: 18
 tags: [cancer, colorectal-cancer, copper, zinc, selenium, cadmium, arsenic, chromium, iron, ferroptosis, Fusobacterium-nucleatum, Bacteroides-fragilis, bile-acids, SCFAs, butyrate, GPR43, microbiome, mycobiome, virome, diet, Mediterranean-diet, Cu-Zn-ratio, metal-carcinogenesis]
 platform: wikibiome
-last_substantive_update: 2026-04-13
+last_substantive_update: 2026-09-07
 associated_conditions: [crohns-disease, pancreatic-cancer, obesity]
 signature_page: "[[colorectal-cancer-signature]]"
 shared_signature_metals: {crohns-disease: [iron, zinc, cadmium], pancreatic-cancer: [iron, cadmium], obesity: [iron]}
@@ -121,7 +121,7 @@ Butyrate exhibits a dual role explained by the metabolic state of colonocytes: i
 ### SCFA Receptor Network
 
 Three GPCRs mediate SCFA tumor suppression:
-- FFAR2/GPR43: promotes IL-18 secretion via NLRP3 inflammasome; enhances Treg differentiation; deficiency promotes tumorigenesis via Wnt/beta-catenin
+- FFAR2/GPR43: promotes IL-18 secretion via [[nlrp3-inflammasome|NLRP3 inflammasome]]; enhances Treg differentiation; deficiency promotes tumorigenesis via Wnt/beta-catenin
 - FFAR3/GPR41: expressed on intestinal epithelial and immune cells
 - HCAR2/GPR109A: butyrate-specific; suppresses carcinogenesis; knockdown accelerates colonic inflammation and cancer progression
 

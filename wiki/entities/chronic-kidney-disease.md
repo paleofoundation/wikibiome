@@ -4,8 +4,8 @@ title: Chronic Kidney Disease
 type: entity
 subtype: disease
 created: 2026-04-09
-updated: 2026-04-16
-last_substantive_update: 2026-04-16
+updated: 2026-09-07
+last_substantive_update: 2026-09-07
 sources: [mishra-2022-molecular-mechanisms-heavy-metals-ckd.md, danziger-2022-susceptibility-heavy-metal-toxicity-ckd.md, atlani-2024-heavy-metals-ckdu-central-india.md, tsai-2018-heavy-metals-soil-ckd-progression-esrd.md, liu-2025-low-concentration-metals-ckd-alpha-klotho.md, rho-2025-heavy-metals-kidney-function-korea.md, xie-2025-urinary-metals-trace-elements-kidney-function.md, moody-2018-toxic-metals-ckd-systematic-review.md, yin-2024-heavy-metals-renal-injury-longitudinal.md, kuo-2024-low-level-lead-cadmium-ckd-mortality.md, sabath-2012-renal-health-heavy-metal-nephrotoxicity.md, khan-2014-metals-type2-diabetes.md, ghosh-2023-heavy-metals-gut-barrier-integrity.md, duan-2020-gut-microbiota-heavy-metal-probiotic-strategy.md, yasuno-2024-dysbiosis-gut-microbiota-ckd-stages.md, luo-2023-causal-effects-gut-microbiota-ckd-mr.md, liu-2026-oral-microbiome-ckd-mendelian-randomization.md, miranda-2022-metalloids-antibiotic-resistance-ckd-gut.md]
 source_count: 18
 tags: [renal-disease, cadmium, lead, mercury, arsenic, chromium, nickel, ferroptosis, alpha-klotho, nephrotoxicity, vicious-cycle, racial-disparities, CKDu, environmental-exposure, gut-microbiome, dysbiosis, Lachnospiraceae, Desulfovibrionales, butyrate, oral-microbiome, metal-resistance-genes]
@@ -165,7 +165,7 @@ CKD pathogenesis involves multiple interconnected metal-sensitive pathways [[mis
 5. Ferroptosis: Iron-dependent lipid peroxidation in renal tubular cells
 6. ER stress: Cd specifically induces ER stress and disrupts autophagy
 7. Fibrosis: Epithelial-to-mesenchymal transition via ILEI/Akt/ERK pathways; NF-kB activation by Cd via MAPK
-8. Inflammation: NF-kB activation by As and Cd; cytokine cascades; NLRP3 inflammasome activation
+8. Inflammation: NF-kB activation by As and Cd; cytokine cascades; [[nlrp3-inflammasome|NLRP3 inflammasome]] activation
 
 ## Environmental Metal Exposure Links
 

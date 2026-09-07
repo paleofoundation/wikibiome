@@ -2,8 +2,8 @@
 title: Microglia
 type: concept
 created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
+updated: 2026-09-07
+last_substantive_update: 2026-09-07
 sources: [gao-2023-microglia-neurodegenerative-diseases, ahmed-2025-metals-alzheimers-mechanistic-review, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, heidari-2022-neuroinflammation-progression-parkinsons, perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain, sampson-2019-microbiome-immune-system-parkinsons, campos-acuna-2019-neuroinflammation-microbiome-immune-parkinsons, tizabi-2023-lead-gut-microbiota-asd, chin-chan-2015-environmental-pollutants-ad-pd, passeri-2024-recent-advances-therapeutics-alzheimers]
 source_count: 10
 tags: [microglia, neuroinflammation, M1-M2-polarization, TREM2, phagocytosis, metal-activation, LPS, gut-brain-axis, neurodegeneration, NF-kB, NLRP3]
@@ -32,7 +32,7 @@ The M1/M2 framework is a simplification -- single-cell transcriptomics reveals a
 Heavy metals are potent and persistent microglial activators:
 
 - Lead: Activates microglia via NF-kB signaling, increasing TNF-alpha and IL-6 production. Lead-activated microglia resist polarization back to the M2 state, creating chronic [[neuroinflammation]] that outlasts the exposure [[chin-chan-2015-environmental-pollutants-ad-pd]].
-- Mercury: Methylmercury activates microglial NLRP3 inflammasome, driving IL-1beta release and neuronal apoptosis.
+- Mercury: Methylmercury activates the microglial [[nlrp3-inflammasome|NLRP3 inflammasome]], driving IL-1beta release and neuronal apoptosis.
 - Manganese: Accumulates preferentially in the basal ganglia (same regions as PD pathology); activates microglia through mitochondrial ROS production and NF-kB signaling [[heidari-2022-neuroinflammation-progression-parkinsons]].
 - Cadmium: Activates microglia via TLR4 signaling; Cd-exposed microglia produce exaggerated inflammatory responses to subsequent LPS stimulation (priming effect).
 - Aluminum: Activates microglia and promotes amyloid-beta aggregation. Al-activated microglia show impaired phagocytic clearance of amyloid, worsening plaque burden [[ahmed-2025-metals-alzheimers-mechanistic-review]].

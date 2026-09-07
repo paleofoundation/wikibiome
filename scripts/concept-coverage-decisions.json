@@ -1,6 +1,27 @@
 {
   "schemaVersion": 1,
   "jobs": {
+    "create_page:nlrp3-inflammasome": {
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "path": "wiki/concepts/nlrp3-inflammasome.md",
+      "validatedSourceCount": 7,
+      "rationale": "Highest-scoring remaining creation candidate; seven complementary vault sources directly support the canonical caspase-1 and gasdermin cascade, microbial and barrier signals, metal and oxidative-stress convergence, and context-dependent gut effects."
+    },
+    "backfill_links:nlrp3-inflammasome": {
+      "state": "queued",
+      "rationale": "The new NLRP3 Inflammasome page resolves a repeated host-response mechanism across microbial ecology, barrier injury, metal toxicity, cardiovascular, renal, thyroid, and neuroinflammatory contexts.",
+      "batches": [
+        {
+          "id": "2026-09-07-core-nlrp3-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": ["dysbiosis", "cadmium", "zinc", "inflammation", "colorectal-cancer", "gut-metal-microbiome", "cardiovascular-disease", "chronic-kidney-disease", "neuroinflammation", "hashimotos-thyroiditis", "chromium", "tmao", "microglia", "il-1beta"]
+        }
+      ]
+    },
     "create_page:catalase": {
       "state": "promoted",
       "reviewedAt": "2026-09-07",

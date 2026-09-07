@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-07T04:03:46.779Z",
+  "_generated": "2026-09-07T04:17:29.804Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
     "entities": 328,
-    "concepts": 267,
+    "concepts": 268,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 866
+    "totalPages": 867
   },
   "pages": [
     {
@@ -11516,13 +11516,13 @@
         "liu-2023-environmental-cadmium-rat-microbiota-metabolome.md"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-20T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Cadmium",
         "type": "entity",
         "subtype": "metal",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-20T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "zhai-2016-probiotics-cadmium.md",
           "rasin-2025-cadmium-exposure-health-review.md",
@@ -11595,7 +11595,7 @@
           "autism"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-20T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "seo_target": "cadmium gut microbiome kidney toxicity health effects",
         "wikipedia_differentiation": "Comprehensive mapping of cadmium-microbiome interactions: bidirectional gut-metal axis, Cd-induced dysbiosis patterns across animal and human studies, probiotic protection models, Enterococcus metabolic reprogramming (47% genome), mis-metallation of 16+ metalloproteins in pneumococcus, metal-antibiotic co-selection, cross-condition metallomic signatures, and Cd-Zn competition as a driver of functional zinc deficiency across cancer, ASD, PCOS, and infertility",
         "dietary_sources": [
@@ -11712,7 +11712,7 @@
         {
           "heading": "Cardiovascular Disease",
           "level": 3,
-          "body": "An overview of 8 systematic reviews (153 studies, ~160,000+ participants) confirmed that Cd exposure independently increases risk of atherosclerosis, coronary artery disease, hypertension, myocardial infarction, and stroke [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]]. Cd correlates with hypertension even at low concentrations (<1 ug/L plasma). The mechanism involves ROS generation, TNF-alpha and NF-kB p65 activation, NLRP3 inflammasome engagement, endothelial damage via reduced NO and increased endothelin-1 (EDN-1) [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].\n\nCd also drives cardiovascular risk indirectly through the microbiome: Cd-induced dysbiosis upregulates indoxyl sulfate production (a pro-atherogenic uremic toxin) and depletes *Clostridium* and *Lactobacillus* species that produce protective tryptophan metabolites (IPA, IAld) [[rasin-2025-cadmium-exposure-health-review]], [[liu-2023-cadmium-microbiota-metabolome-rats]]."
+          "body": "An overview of 8 systematic reviews (153 studies, ~160,000+ participants) confirmed that Cd exposure independently increases risk of atherosclerosis, coronary artery disease, hypertension, myocardial infarction, and stroke [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]]. Cd correlates with hypertension even at low concentrations (<1 ug/L plasma). The mechanism involves ROS generation, TNF-alpha and NF-kB p65 activation, [[nlrp3-inflammasome|NLRP3 inflammasome]] engagement, endothelial damage via reduced NO and increased endothelin-1 (EDN-1) [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].\n\nCd also drives cardiovascular risk indirectly through the microbiome: Cd-induced dysbiosis upregulates indoxyl sulfate production (a pro-atherogenic uremic toxin) and depletes *Clostridium* and *Lactobacillus* species that produce protective tryptophan metabolites (IPA, IAld) [[rasin-2025-cadmium-exposure-health-review]], [[liu-2023-cadmium-microbiota-metabolome-rats]]."
         },
         {
           "heading": "Type 2 Diabetes",
@@ -11827,6 +11827,7 @@
         "kuo-2024-low-level-lead-cadmium-ckd-mortality",
         "yin-2024-heavy-metals-renal-injury-longitudinal",
         "nucera-2024-non-essential-heavy-metals-cvd-systematic-review",
+        "nlrp3-inflammasome",
         "bakulski-2020-heavy-metals-alzheimers-dementias",
         "smovrsnik-2023-heavy-metals-oxidative-stress-pcos",
         "rebelo-2021-enterococcus-metal-antibiotic-resistance",
@@ -11977,6 +11978,7 @@
         "neuroinflammation",
         "nf-kappa-b",
         "nitric-oxide",
+        "nlrp3-inflammasome",
         "oxidative-stress",
         "plant-metal-hyperaccumulation",
         "premenstrual-syndrome",
@@ -12028,7 +12030,7 @@
         },
         {
           "id": "dysbiosis",
-          "score": 115
+          "score": 117
         },
         {
           "id": "gut-metal-microbiome",
@@ -12039,11 +12041,11 @@
           "score": 91
         },
         {
-          "id": "roseburia",
-          "score": 76
+          "id": "inflammation",
+          "score": 78
         },
         {
-          "id": "inflammation",
+          "id": "chromium",
           "score": 76
         }
       ]
@@ -13354,13 +13356,13 @@
         "rasin-2025-cadmium-exposure-health-review"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Cardiovascular Disease",
         "type": "entity",
         "subtype": "disease",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "lim-2023-plasma-metallomics-ami",
           "jie-2017-gut-microbiome-acvd",
@@ -13402,7 +13404,7 @@
           "metabolomics"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-13T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "associated_conditions": [
           "type-2-diabetes",
           "obesity",
@@ -13497,7 +13499,7 @@
         {
           "heading": "SCFAs as Protective Factors",
           "level": 2,
-          "body": "SCFAs protect against CVD through multiple mechanisms:\n\n- Blood pressure regulation: butyrate suppresses intrarenal renin-angiotensin system via PRR; propionate modulates renin release via Olfr78 receptor; GPR41 and Olfr78 play opposing roles creating a buffering system\n- Anti-atherosclerotic: butyrate inhibits HDAC3, induces FGF21, promotes lipid oxidation; SCFAs suppress NF-kB and NLRP3 inflammasome in macrophages; reduce VCAM-1 and MCP-1 expression\n- Post-MI protection: SCFAs promote M2 macrophage polarization; butyrate downregulates TNF-alpha and IL-1beta while upregulating IL-10\n- Gut barrier maintenance: butyrate induces tight junction proteins and mucin production, preventing LPS translocation -- a key pathway in CVD pathogenesis\n- Appetite and metabolism: colonic SCFAs increase fat oxidation and energy expenditure; propionate stimulates PYY and GLP-1 release\n\nMetal-induced depletion of SCFA-producing bacteria (*Roseburia*, *F. prausnitzii*, Clostridia) directly reduces these cardioprotective effects, creating a vicious cycle of barrier disruption, endotoxemia, and vascular inflammation."
+          "body": "SCFAs protect against CVD through multiple mechanisms:\n\n- Blood pressure regulation: butyrate suppresses intrarenal renin-angiotensin system via PRR; propionate modulates renin release via Olfr78 receptor; GPR41 and Olfr78 play opposing roles creating a buffering system\n- Anti-atherosclerotic: butyrate inhibits HDAC3, induces FGF21, promotes lipid oxidation; SCFAs suppress NF-kB and [[nlrp3-inflammasome|NLRP3 inflammasome]] in macrophages; reduce VCAM-1 and MCP-1 expression\n- Post-MI protection: SCFAs promote M2 macrophage polarization; butyrate downregulates TNF-alpha and IL-1beta while upregulating IL-10\n- Gut barrier maintenance: butyrate induces tight junction proteins and mucin production, preventing LPS translocation -- a key pathway in CVD pathogenesis\n- Appetite and metabolism: colonic SCFAs increase fat oxidation and energy expenditure; propionate stimulates PYY and GLP-1 release\n\nMetal-induced depletion of SCFA-producing bacteria (*Roseburia*, *F. prausnitzii*, Clostridia) directly reduces these cardioprotective effects, creating a vicious cycle of barrier disruption, endotoxemia, and vascular inflammation."
         },
         {
           "heading": "Bile Acids as CVD Mediators",
@@ -13577,6 +13579,7 @@
         "nickel",
         "jie-2017-gut-microbiome-acvd",
         "fromentin-2022-microbiome-metabolome-cardiometabolic-spectrum",
+        "nlrp3-inflammasome",
         "paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd",
         "zou-2022-mycobiome-dysbiosis-hypertension-light-chains",
         "malassezia",
@@ -14983,13 +14986,13 @@
         "niehoff-2021-metals-breast-cancer-toenail.md"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-20T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Chromium",
         "type": "entity",
         "subtype": "metal",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-20T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "salnikov-2008-metal-carcinogenesis.md",
           "shin-2023-chromium-toxicogenomics.md",
@@ -15035,7 +15038,7 @@
           "insulin-signaling"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-20T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "seo_target": "chromium hexavalent Cr(VI) gut microbiome carcinogen health effects",
         "wikipedia_differentiation": "Comprehensive coverage of Cr(VI) effects on gut microbiota composition and barrier integrity, microbial chromate reduction as detoxification, co-selection of antibiotic resistance by chromium, Cr-DNA ternary adduct mechanisms, the ascorbate paradox in Cr(VI) reduction, metal-metal synergistic nephrotoxicity, and cross-condition metallomic patterns linking chromium to IBD, CKD, rheumatoid arthritis, and neurodegeneration",
         "dietary_sources": [
@@ -15118,7 +15121,7 @@
         {
           "heading": "Gut Barrier Disruption",
           "level": 3,
-          "body": "Hexavalent chromium exposure damages the intestinal epithelial barrier through downregulation of key tight junction proteins -- ZO-1, occludin, and claudin-1 -- and the mucin MUC2 [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. This barrier disruption involves activation of the NLRP3 inflammasome, linking Cr(VI) exposure to inflammatory signaling cascades in the gut [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. The probiotic strain *Lactobacillus plantarum* TW1-1 partially reversed Cr-exposure-linked effects and reduced chromium accumulation in experimental models [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]]."
+          "body": "Hexavalent chromium exposure damages the intestinal epithelial barrier through downregulation of key tight junction proteins -- ZO-1, occludin, and claudin-1 -- and the mucin MUC2 [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. This barrier disruption involves activation of the [[nlrp3-inflammasome|NLRP3 inflammasome]], linking Cr(VI) exposure to inflammatory signaling cascades in the gut [[ghosh-2023-heavy-metals-gut-barrier-integrity]]. The probiotic strain *Lactobacillus plantarum* TW1-1 partially reversed Cr-exposure-linked effects and reduced chromium accumulation in experimental models [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]] [[ghosh-2023-heavy-metals-gut-barrier-integrity]]."
         },
         {
           "heading": "Microbial Chromate Reduction",
@@ -15249,6 +15252,7 @@
         "zhu-2024-toxic-essential-metals-gut-microbiota",
         "yan-2025-infant-serum-metals-gut-microbiota",
         "ghosh-2023-heavy-metals-gut-barrier-integrity",
+        "nlrp3-inflammasome",
         "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
         "alotaibi-2021-heavy-metal-detoxification-bacillus-bioremediation",
         "acosta-rodriguez-2018-biosorption-candida-albicans",
@@ -15303,6 +15307,7 @@
         "hypoxic-signaling",
         "insulin-resistance",
         "metal-carcinogenesis",
+        "nlrp3-inflammasome",
         "oxidative-stress",
         "colorectal-cancer-signature",
         "rheumatoid-arthritis-signature",
@@ -15617,14 +15622,14 @@
         "miranda-2022-metalloids-antibiotic-resistance-ckd-gut.md"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-16T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Chronic Kidney Disease",
         "type": "entity",
         "subtype": "disease",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-16T00:00:00.000Z",
-        "last_substantive_update": "2026-04-16T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "sources": [
           "mishra-2022-molecular-mechanisms-heavy-metals-ckd.md",
           "danziger-2022-susceptibility-heavy-metal-toxicity-ckd.md",
@@ -15796,7 +15801,7 @@
         {
           "heading": "Molecular Mechanisms",
           "level": 2,
-          "body": "CKD pathogenesis involves multiple interconnected metal-sensitive pathways [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]:\n\n1. Mitochondrial dysfunction: Renal cells depend heavily on oxidative phosphorylation; metals (Cd, Hg, As) impair electron transport chain\n2. Oxidative stress: Central mechanism; metals deplete SOD, GPx, catalase\n3. Carbamylation: Urea buildup (from CKD) causes irreversible protein modifications; metals compound proteomic damage\n4. Epigenetic modifications: DNA hypomethylation of klotho promoter by TGF-beta; miR-192 upregulates TGF-beta/Smad3 fibrosis pathway\n5. Ferroptosis: Iron-dependent lipid peroxidation in renal tubular cells\n6. ER stress: Cd specifically induces ER stress and disrupts autophagy\n7. Fibrosis: Epithelial-to-mesenchymal transition via ILEI/Akt/ERK pathways; NF-kB activation by Cd via MAPK\n8. Inflammation: NF-kB activation by As and Cd; cytokine cascades; NLRP3 inflammasome activation"
+          "body": "CKD pathogenesis involves multiple interconnected metal-sensitive pathways [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]:\n\n1. Mitochondrial dysfunction: Renal cells depend heavily on oxidative phosphorylation; metals (Cd, Hg, As) impair electron transport chain\n2. Oxidative stress: Central mechanism; metals deplete SOD, GPx, catalase\n3. Carbamylation: Urea buildup (from CKD) causes irreversible protein modifications; metals compound proteomic damage\n4. Epigenetic modifications: DNA hypomethylation of klotho promoter by TGF-beta; miR-192 upregulates TGF-beta/Smad3 fibrosis pathway\n5. Ferroptosis: Iron-dependent lipid peroxidation in renal tubular cells\n6. ER stress: Cd specifically induces ER stress and disrupts autophagy\n7. Fibrosis: Epithelial-to-mesenchymal transition via ILEI/Akt/ERK pathways; NF-kB activation by Cd via MAPK\n8. Inflammation: NF-kB activation by As and Cd; cytokine cascades; [[nlrp3-inflammasome|NLRP3 inflammasome]] activation"
         },
         {
           "heading": "Environmental Metal Exposure Links",
@@ -15856,6 +15861,7 @@
         "yasuno-2024-dysbiosis-gut-microbiota-ckd-stages",
         "luo-2023-causal-effects-gut-microbiota-ckd-mr",
         "liu-2026-oral-microbiome-ckd-mendelian-randomization",
+        "nlrp3-inflammasome",
         "type-2-diabetes",
         "cardiovascular-disease",
         "hypertension",
@@ -18108,13 +18114,13 @@
         "mcleod-2023-bridge-crc-mediterranean-diet-trial"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Colorectal Cancer",
         "type": "entity",
         "subtype": "disease",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "zhang-2022-metallomics-cancer-review",
           "sugimoto-2024-zinc-deficiency-cancer-review",
@@ -18162,7 +18168,7 @@
           "metal-carcinogenesis"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-13T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "associated_conditions": [
           "crohns-disease",
           "pancreatic-cancer",
@@ -18270,7 +18276,7 @@
         {
           "heading": "SCFA Receptor Network",
           "level": 3,
-          "body": "Three GPCRs mediate SCFA tumor suppression:\n- FFAR2/GPR43: promotes IL-18 secretion via NLRP3 inflammasome; enhances Treg differentiation; deficiency promotes tumorigenesis via Wnt/beta-catenin\n- FFAR3/GPR41: expressed on intestinal epithelial and immune cells\n- HCAR2/GPR109A: butyrate-specific; suppresses carcinogenesis; knockdown accelerates colonic inflammation and cancer progression"
+          "body": "Three GPCRs mediate SCFA tumor suppression:\n- FFAR2/GPR43: promotes IL-18 secretion via [[nlrp3-inflammasome|NLRP3 inflammasome]]; enhances Treg differentiation; deficiency promotes tumorigenesis via Wnt/beta-catenin\n- FFAR3/GPR41: expressed on intestinal epithelial and immune cells\n- HCAR2/GPR109A: butyrate-specific; suppresses carcinogenesis; knockdown accelerates colonic inflammation and cancer progression"
         },
         {
           "heading": "Fungal Microbiome (Mycobiome) in CRC",
@@ -18336,6 +18342,7 @@
         "li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort",
         "metz-2019-drug-discovery-bft-inhibition",
         "tang-2011-gpr43-short-chain-fatty-acids-colon-cancer",
+        "nlrp3-inflammasome",
         "ho-2024-colorectal-cancer-virome-alterations-persistence-surgery",
         "appunni-2021-dietary-factors-gut-microbiome-crc",
         "vipperla-2016-diet-microbiota-dysbiosis-colorectal-cancer",
@@ -31652,13 +31659,13 @@
         "street-2024-environmental-factors-thyroid-function"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Hashimoto's Thyroiditis",
         "type": "entity",
         "subtype": "disease",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "li-2025-trace-elements-autoimmune-thyroid-disease",
           "brock-2015-selenium-thyroid-autoimmunity",
@@ -31702,7 +31709,7 @@
           "comorbidities"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-13T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "associated_conditions": [
           "graves-disease",
           "depression",
@@ -31789,7 +31796,7 @@
         {
           "heading": "Iodine Excess Paradox",
           "level": 3,
-          "body": "[[iodine]] has a U-shaped dose-response with AITD. Excess iodine inhibits TPO activity via the Wolff-Chaikoff effect, activates the NLRP3 inflammasome, promotes Th17 proliferation, and generates ROS in thyroid cells. Autoimmune thyroiditis prevalence increases after salt iodization programs. In combined Se and I deficiency, normalizing Se without iodine worsens hypothyroidism -- the elements must be balanced together."
+          "body": "[[iodine]] has a U-shaped dose-response with AITD. Excess iodine inhibits TPO activity via the Wolff-Chaikoff effect, activates the [[nlrp3-inflammasome|NLRP3 inflammasome]], promotes Th17 proliferation, and generates ROS in thyroid cells. Autoimmune thyroiditis prevalence increases after salt iodization programs. In combined Se and I deficiency, normalizing Se without iodine worsens hypothyroidism -- the elements must be balanced together."
         },
         {
           "heading": "Heavy Metals and Nickel",
@@ -31839,6 +31846,7 @@
         "zinc",
         "copper",
         "iodine",
+        "nlrp3-inflammasome",
         "gut-metal-microbiome",
         "metal-disease-matrix",
         "dysbiosis",
@@ -68631,13 +68639,13 @@
         "huang-2024-dietary-zinc-endometriosis-risk.md"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-20T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Zinc",
         "type": "entity",
         "subtype": "metal",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-20T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "sugimoto-2024-zinc-deficiency-cancer-review.md",
           "blazewicz-2023-metal-profiles-asd.md",
@@ -68716,7 +68724,7 @@
           "antimicrobial-metals"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-20T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "seo_target": "zinc deficiency microbiome cancer immune function nutritional immunity",
         "wikipedia_differentiation": "Zinc as the host immune system's antimicrobial weapon via calprotectin sequestration and phagosomal flooding; zinc-dependent virulence enzymes (metalloproteases, glyoxalases) as bacterial Achilles' heels; Irving-Williams series explaining why zinc mis-metalates manganese-dependent pathogen enzymes; ZIP8 A391T Crohn's variant linking host zinc transport to microbiome composition; dietary zinc dose-dependent reshaping of gut microbiota; co-selection of antibiotic resistance by environmental zinc; and zinc isotope fractionation as novel cancer biomarker",
         "symbol": "Zn",
@@ -68854,7 +68862,7 @@
         {
           "heading": "Autism Spectrum Disorder",
           "level": 3,
-          "body": "A primary pathology of ASD may be trace metal imbalance characterized by lack of zinc during brain development. Zinc is consistently decreased in hair of ASD children -- the most reproducible finding in ASD metallomics [[blazewicz-2023-metal-profiles-asd]].\n\n- Toxic metals (Pb, Hg, Cd) compete with Zn for protein binding sites on ~10% of the human proteome, creating functional zinc deficiency -- proposed as the unifying mechanism linking toxic metal exposure to ASD gut and brain pathology [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]].\n- 30-70% of children with ASD suffer GI disturbances; zinc deficiency produces overlapping gut pathologies with Hg, Cd, and Pb exposure: barrier dysfunction, increased permeability, gut inflammation, and microbiota dysbiosis [[ogrady-2025-metal-dyshomeostasis-asd]].\n- Meta-analytic confirmation: A 2024 meta-analysis (N = 706) confirmed significantly lower Zn in ASD children: MD = -6.707 (95% CI: -12.691, -0.722), p = 0.028, with moderate effect size (SMD = -0.498) [[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis]].\n- Metallome-ome cascade: Zn deficiency increases gut permeability, provokes IL-6 and GFAP-mediated inflammation, and may trigger NLRP3-driven neuroinflammation [[stanton-2021-metallome-omes-link-asd]].\n- Cu/Zn ratio elevation: Autistic individuals show significantly elevated plasma copper and Cu/Zn ratio. Copper decreased significantly after zinc therapy only in the GI disease subgroup, suggesting the gut is a critical site for copper-zinc competition [[russo-2011-copper-zinc-autism-gi-disease]].\n- Hair vs serum discrepancy: A 2025 Chinese hair study (N = 181) found no significant hair zinc difference in ASD vs controls (p = 0.663), contrasting with blood/serum studies and potentially reflecting matrix-specific differences or regional dietary variation [[zhou-2025-hair-heavy-metals-asd-severity]].\n- Prenatal zinc-copper rhythm disruption: Altered Zn-Cu rhythms in fetal and postnatal tissue (measured via tooth-matrix biomarkers) are linked to ASD; phthalate exposure may mediate this disruption [[bolte-2019-environmental-exposure-asd-etiology]]."
+          "body": "A primary pathology of ASD may be trace metal imbalance characterized by lack of zinc during brain development. Zinc is consistently decreased in hair of ASD children -- the most reproducible finding in ASD metallomics [[blazewicz-2023-metal-profiles-asd]].\n\n- Toxic metals (Pb, Hg, Cd) compete with Zn for protein binding sites on ~10% of the human proteome, creating functional zinc deficiency -- proposed as the unifying mechanism linking toxic metal exposure to ASD gut and brain pathology [[blazewicz-2023-metal-profiles-asd]], [[ogrady-2025-metal-dyshomeostasis-asd]].\n- 30-70% of children with ASD suffer GI disturbances; zinc deficiency produces overlapping gut pathologies with Hg, Cd, and Pb exposure: barrier dysfunction, increased permeability, gut inflammation, and microbiota dysbiosis [[ogrady-2025-metal-dyshomeostasis-asd]].\n- Meta-analytic confirmation: A 2024 meta-analysis (N = 706) confirmed significantly lower Zn in ASD children: MD = -6.707 (95% CI: -12.691, -0.722), p = 0.028, with moderate effect size (SMD = -0.498) [[lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis]].\n- Metallome-ome cascade: Zn deficiency increases gut permeability, provokes IL-6 and GFAP-mediated inflammation, and may trigger [[nlrp3-inflammasome|NLRP3-driven]] neuroinflammation [[stanton-2021-metallome-omes-link-asd]].\n- Cu/Zn ratio elevation: Autistic individuals show significantly elevated plasma copper and Cu/Zn ratio. Copper decreased significantly after zinc therapy only in the GI disease subgroup, suggesting the gut is a critical site for copper-zinc competition [[russo-2011-copper-zinc-autism-gi-disease]].\n- Hair vs serum discrepancy: A 2025 Chinese hair study (N = 181) found no significant hair zinc difference in ASD vs controls (p = 0.663), contrasting with blood/serum studies and potentially reflecting matrix-specific differences or regional dietary variation [[zhou-2025-hair-heavy-metals-asd-severity]].\n- Prenatal zinc-copper rhythm disruption: Altered Zn-Cu rhythms in fetal and postnatal tissue (measured via tooth-matrix biomarkers) are linked to ASD; phthalate exposure may mediate this disruption [[bolte-2019-environmental-exposure-asd-etiology]]."
         },
         {
           "heading": "Type 2 Diabetes",
@@ -68979,6 +68987,7 @@
         "callejon-leblic-2023-metallomic-signatures-lung-cancer-copd",
         "schilling-2020-urine-metallomics-pancreatic-cancer",
         "lin-2024-asd-biomedical-trace-elements-microbiota-meta-analysis",
+        "nlrp3-inflammasome",
         "russo-2011-copper-zinc-autism-gi-disease",
         "zhou-2025-hair-heavy-metals-asd-severity",
         "bolte-2019-environmental-exposure-asd-etiology",
@@ -76257,15 +76266,15 @@
           "score": 6
         },
         {
+          "id": "nlrp3-inflammasome",
+          "score": 6
+        },
+        {
           "id": "schizophrenia",
           "score": 6
         },
         {
           "id": "ahr",
-          "score": 5
-        },
-        {
-          "id": "bacteriophages",
           "score": 5
         }
       ]
@@ -80018,12 +80027,12 @@
         "vangoitsenhoven-2020-microbiome-antibiotics-autoimmune"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Dysbiosis",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
           "zhu-2024-toxic-essential-metals-gut-microbiota",
@@ -80066,7 +80075,7 @@
           8
         ],
         "seo_target": "dysbiosis",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z"
+        "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
       "overview": "Disruption of the normal composition and metabolic function of microbial communities, particularly the gut microbiome. In the metallomics context, dysbiosis is both a consequence of metal toxicity and an amplifier of further disease -- creating vicious cycles where metal exposure, microbial imbalance, barrier breakdown, and systemic inflammation feed forward into progressive pathology. With inbound links from virtually every page in this wiki, dysbiosis is the single most cross-referenced concept in WikiBiome, reflecting its role as the central mediating process between environmental metal exposure and human disease.",
       "sections": [
@@ -80113,7 +80122,7 @@
         {
           "heading": "Systemic Inflammation",
           "level": 3,
-          "body": "Dysbiosis drives chronic low-grade [[inflammation]] through multiple routes:\n\n- LPS translocation: Gram-negative pathobiont enrichment increases endotoxin load; LPS crossing the compromised barrier activates TLR4/[[nf-kappa-b]] on macrophages, hepatocytes, and microglia.\n- Cytokine cascades: NF-kB activation drives transcription of IL-6, TNF-alpha, IL-1beta, and COX-2.\n- NLRP3 inflammasome: Bacterial products and damage-associated molecular patterns activate the NLRP3 inflammasome, driving IL-1beta and IL-18 maturation.\n- Molecular mimicry: Bacterial antigens can cross-react with host tissues, triggering autoimmune responses (relevant to RA, MS, Hashimoto's, Graves')."
+          "body": "Dysbiosis drives chronic low-grade [[inflammation]] through multiple routes:\n\n- LPS translocation: Gram-negative pathobiont enrichment increases endotoxin load; LPS crossing the compromised barrier activates TLR4/[[nf-kappa-b]] on macrophages, hepatocytes, and microglia.\n- Cytokine cascades: NF-kB activation drives transcription of IL-6, TNF-alpha, IL-1beta, and COX-2.\n- [[nlrp3-inflammasome|NLRP3 inflammasome]]: Bacterial products and damage-associated molecular patterns activate the NLRP3 inflammasome, driving IL-1beta and IL-18 maturation.\n- Molecular mimicry: Bacterial antigens can cross-react with host tissues, triggering autoimmune responses (relevant to RA, MS, Hashimoto's, Graves')."
         },
         {
           "heading": "Immune Dysregulation",
@@ -80236,6 +80245,7 @@
         "faecalibacterium-prausnitzii",
         "inflammation",
         "nf-kappa-b",
+        "nlrp3-inflammasome",
         "tao-2024-cadmium-gut-microbiota-dwarf-hamsters",
         "tizabi-2023-lead-gut-microbiota-asd",
         "crohns-disease",
@@ -80395,6 +80405,7 @@
         "mycobiome",
         "neurodegeneration",
         "neuroinflammation",
+        "nlrp3-inflammasome",
         "outer-membrane",
         "p-cresol",
         "parenteral-nutrition",
@@ -80428,7 +80439,7 @@
         },
         {
           "id": "cadmium",
-          "score": 115
+          "score": 117
         },
         {
           "id": "lead",
@@ -87021,12 +87032,12 @@
         "cheng-2021-cadmium-enterococcus-metabolic"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Gut-Metal-Microbiome Interactions",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
           "zhu-2024-toxic-essential-metals-gut-microbiota",
@@ -87074,7 +87085,7 @@
           8
         ],
         "seo_target": "gut-metal-microbiome interactions",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z"
+        "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
       "overview": "",
       "sections": [
@@ -87126,7 +87137,7 @@
         {
           "heading": "Gut Barrier Disruption by Metals",
           "level": 2,
-          "body": "Heavy metals directly damage the intestinal epithelial barrier through downregulation of critical junction proteins:\n\n| Metal | Tight Junction Targets | Additional Effects |\n|-------|----------------------|-------------------|\n| Arsenic | Colonic epithelial structure disrupted | IL-6, IL-8, TNF-alpha induction |\n| Lead | MUC2, ZO-1, claudin-1, occludin reduced | SCFA production impaired |\n| Mercury | Claudin-1, occludin, ZO-1, JAM1 downregulated | Increased cell volume and membrane permeability |\n| Cadmium | ZO-1, ZO-2, JAM-A, occludin, claudin-1 reduced | Gut-liver axis modification |\n| Chromium | ZO-1, occludin, claudin-1, MUC2 downregulated | NLRP3 inflammasome activation |\n\nThis barrier disruption permits bacterial translocation and LPS leakage into systemic circulation, driving chronic low-grade inflammation."
+          "body": "Heavy metals directly damage the intestinal epithelial barrier through downregulation of critical junction proteins:\n\n| Metal | Tight Junction Targets | Additional Effects |\n|-------|----------------------|-------------------|\n| Arsenic | Colonic epithelial structure disrupted | IL-6, IL-8, TNF-alpha induction |\n| Lead | MUC2, ZO-1, claudin-1, occludin reduced | SCFA production impaired |\n| Mercury | Claudin-1, occludin, ZO-1, JAM1 downregulated | Increased cell volume and membrane permeability |\n| Cadmium | ZO-1, ZO-2, JAM-A, occludin, claudin-1 reduced | Gut-liver axis modification |\n| Chromium | ZO-1, occludin, claudin-1, MUC2 downregulated | [[nlrp3-inflammasome|NLRP3 inflammasome]] activation |\n\nThis barrier disruption permits bacterial translocation and LPS leakage into systemic circulation, driving chronic low-grade inflammation."
         },
         {
           "heading": "The Gut-Brain Axis Connection",
@@ -87175,6 +87186,7 @@
         }
       ],
       "wikilinks": [
+        "nlrp3-inflammasome",
         "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
         "zhu-2024-toxic-essential-metals-gut-microbiota",
         "ghosh-2023-heavy-metals-gut-barrier-integrity",
@@ -91342,13 +91354,13 @@
         "li-2026-ibd-erectile-dysfunction-mechanistic-link"
       ],
       "created": "2026-04-22T00:00:00.000Z",
-      "updated": "2026-04-22T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "IL-1beta (Interleukin-1 Beta)",
         "type": "concept",
         "created": "2026-04-22T00:00:00.000Z",
-        "updated": "2026-04-22T00:00:00.000Z",
-        "last_substantive_update": "2026-04-22T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "sources": [
           "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
           "bartnicka-2020-candida-shields-pgingivalis-immune-evasion",
@@ -91380,7 +91392,7 @@
         {
           "heading": "Overview",
           "level": 2,
-          "body": "Interleukin-1 beta (IL-1β) is a master pro-inflammatory cytokine and the primary product of the NLRP3 inflammasome. Unlike [[interleukin-6|IL-6]] and [[tnf-alpha|TNF-alpha]] (which are transcriptionally regulated by [[nf-kappa-b]]), IL-1β requires a two-step activation: (1) NF-kB-driven transcription of pro-IL-1β, then (2) caspase-1 cleavage within the NLRP3 inflammasome complex to release the active cytokine. This two-signal requirement makes IL-1β the most tightly regulated of the inflammatory triad — and heavy metals can provide both signals."
+          "body": "Interleukin-1 beta (IL-1β) is a master pro-inflammatory cytokine and the primary product of the [[nlrp3-inflammasome|NLRP3 inflammasome]]. Unlike [[interleukin-6|IL-6]] and [[tnf-alpha|TNF-alpha]] (which are transcriptionally regulated by [[nf-kappa-b]]), IL-1β requires a two-step activation: (1) NF-kB-driven transcription of pro-IL-1β, then (2) caspase-1 cleavage within the NLRP3 inflammasome complex to release the active cytokine. This two-signal requirement makes IL-1β the most tightly regulated of the inflammatory triad — and heavy metals can provide both signals."
         },
         {
           "heading": "Metal Connection",
@@ -91399,6 +91411,7 @@
         }
       ],
       "wikilinks": [
+        "nlrp3-inflammasome",
         "interleukin-6",
         "tnf-alpha",
         "nf-kappa-b",
@@ -91422,6 +91435,7 @@
       "isStub": false,
       "backlinks": [
         "cox-2",
+        "nlrp3-inflammasome",
         "succinate",
         "alzheimers-disease"
       ],
@@ -91443,6 +91457,10 @@
           "score": 8
         },
         {
+          "id": "oxidative-stress",
+          "score": 8
+        },
+        {
           "id": "depression",
           "score": 7
         },
@@ -91452,10 +91470,6 @@
         },
         {
           "id": "gut-brain-axis",
-          "score": 7
-        },
-        {
-          "id": "depression",
           "score": 7
         }
       ]
@@ -92729,12 +92743,12 @@
         "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Metal-Driven Inflammation",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "ahmed-2025-metals-alzheimers-mechanistic-review",
           "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
@@ -92774,7 +92788,7 @@
           5
         ],
         "seo_target": "metal-driven inflammation microbiome",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z"
+        "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
       "overview": "Inflammation is a broad concept, but in the metallomics context it has a specific character: heavy metals and pathogens activate overlapping inflammatory pathways, creating convergent pathology where distinguishing the metal contribution from the microbial contribution is often impossible. This page focuses on the mechanisms by which metals directly and indirectly drive inflammatory responses, the distinction between acute and chronic inflammation, the biomarkers used to track it, and the resolution mechanisms that fail in metal-exposed individuals.",
       "sections": [
@@ -92806,7 +92820,7 @@
         {
           "heading": "NLRP3 Inflammasome",
           "level": 3,
-          "body": "- Heavy metals activate the NLRP3 inflammasome, a multiprotein complex that drives IL-1beta and IL-18 maturation and release.\n- NLRP3 activation requires two signals: priming (NF-kB-dependent) and activation (ROS, potassium efflux, lysosomal disruption) -- metals can provide both.\n- Inflammasome activation drives pyroptotic cell death and amplifies local and systemic inflammation.\n- Metal nanoparticles are particularly potent NLRP3 activators due to lysosomal disruption upon endocytosis.\n- Excess [[iodine]] activates NLRP3 in thyroid autoimmunity, linking mineral excess to autoimmune inflammation [[kravchenko-2023-thyroid-hormones-minerals-AITD]]."
+          "body": "- Heavy metals activate the [[nlrp3-inflammasome|NLRP3 inflammasome]], a multiprotein complex that drives IL-1beta and IL-18 maturation and release.\n- NLRP3 activation requires two signals: priming (NF-kB-dependent) and activation (ROS, potassium efflux, lysosomal disruption) -- metals can provide both.\n- Inflammasome activation drives pyroptotic cell death and amplifies local and systemic inflammation.\n- Metal nanoparticles are particularly potent NLRP3 activators due to lysosomal disruption upon endocytosis.\n- Excess [[iodine]] activates NLRP3 in thyroid autoimmunity, linking mineral excess to autoimmune inflammation [[kravchenko-2023-thyroid-hormones-minerals-AITD]]."
         },
         {
           "heading": "COX-2 Pathway",
@@ -92899,6 +92913,7 @@
         "arsenic",
         "nf-kappa-b",
         "briffa-2020-heavy-metal-pollution-environment-toxicology",
+        "nlrp3-inflammasome",
         "iodine",
         "kravchenko-2023-thyroid-hormones-minerals-aitd",
         "gao-2023-microglia-neurodegenerative-diseases",
@@ -93016,6 +93031,7 @@
         "neurodegeneration",
         "neuroinflammation",
         "nf-kappa-b",
+        "nlrp3-inflammasome",
         "polyunsaturated-fatty-acids",
         "reactive-oxygen-species",
         "short-chain-fatty-acids",
@@ -100950,13 +100966,13 @@
         "passeri-2024-recent-advances-therapeutics-alzheimers"
       ],
       "created": "2026-04-18T00:00:00.000Z",
-      "updated": "2026-04-18T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Microglia",
         "type": "concept",
         "created": "2026-04-18T00:00:00.000Z",
-        "updated": "2026-04-18T00:00:00.000Z",
-        "last_substantive_update": "2026-04-18T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "sources": [
           "gao-2023-microglia-neurodegenerative-diseases",
           "ahmed-2025-metals-alzheimers-mechanistic-review",
@@ -101001,7 +101017,7 @@
         {
           "heading": "Metal Activation of Microglia",
           "level": 2,
-          "body": "Heavy metals are potent and persistent microglial activators:\n\n- Lead: Activates microglia via NF-kB signaling, increasing TNF-alpha and IL-6 production. Lead-activated microglia resist polarization back to the M2 state, creating chronic [[neuroinflammation]] that outlasts the exposure [[chin-chan-2015-environmental-pollutants-ad-pd]].\n- Mercury: Methylmercury activates microglial NLRP3 inflammasome, driving IL-1beta release and neuronal apoptosis.\n- Manganese: Accumulates preferentially in the basal ganglia (same regions as PD pathology); activates microglia through mitochondrial ROS production and NF-kB signaling [[heidari-2022-neuroinflammation-progression-parkinsons]].\n- Cadmium: Activates microglia via TLR4 signaling; Cd-exposed microglia produce exaggerated inflammatory responses to subsequent LPS stimulation (priming effect).\n- Aluminum: Activates microglia and promotes amyloid-beta aggregation. Al-activated microglia show impaired phagocytic clearance of amyloid, worsening plaque burden [[ahmed-2025-metals-alzheimers-mechanistic-review]].\n- Iron: Excess iron in microglia generates ROS via Fenton chemistry and promotes the pro-inflammatory M1 phenotype. Iron-loaded microglia around amyloid plaques amplify oxidative damage to surrounding neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n\nA critical feature of metal-activated microglia is their resistance to phenotype switching: once pushed into a pro-inflammatory state by metals, microglia remain activated even after metal levels normalize, creating a self-perpetuating neuroinflammatory environment [[gao-2023-microglia-neurodegenerative-diseases]]."
+          "body": "Heavy metals are potent and persistent microglial activators:\n\n- Lead: Activates microglia via NF-kB signaling, increasing TNF-alpha and IL-6 production. Lead-activated microglia resist polarization back to the M2 state, creating chronic [[neuroinflammation]] that outlasts the exposure [[chin-chan-2015-environmental-pollutants-ad-pd]].\n- Mercury: Methylmercury activates the microglial [[nlrp3-inflammasome|NLRP3 inflammasome]], driving IL-1beta release and neuronal apoptosis.\n- Manganese: Accumulates preferentially in the basal ganglia (same regions as PD pathology); activates microglia through mitochondrial ROS production and NF-kB signaling [[heidari-2022-neuroinflammation-progression-parkinsons]].\n- Cadmium: Activates microglia via TLR4 signaling; Cd-exposed microglia produce exaggerated inflammatory responses to subsequent LPS stimulation (priming effect).\n- Aluminum: Activates microglia and promotes amyloid-beta aggregation. Al-activated microglia show impaired phagocytic clearance of amyloid, worsening plaque burden [[ahmed-2025-metals-alzheimers-mechanistic-review]].\n- Iron: Excess iron in microglia generates ROS via Fenton chemistry and promotes the pro-inflammatory M1 phenotype. Iron-loaded microglia around amyloid plaques amplify oxidative damage to surrounding neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].\n\nA critical feature of metal-activated microglia is their resistance to phenotype switching: once pushed into a pro-inflammatory state by metals, microglia remain activated even after metal levels normalize, creating a self-perpetuating neuroinflammatory environment [[gao-2023-microglia-neurodegenerative-diseases]]."
         },
         {
           "heading": "The Gut-Brain-Microglia Axis",
@@ -101058,6 +101074,7 @@
         "gut-brain-axis",
         "neuroinflammation",
         "chin-chan-2015-environmental-pollutants-ad-pd",
+        "nlrp3-inflammasome",
         "heidari-2022-neuroinflammation-progression-parkinsons",
         "ahmed-2025-metals-alzheimers-mechanistic-review",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
@@ -101991,6 +102008,7 @@
         "chitotriosidase",
         "fecal-microbiota-transplant",
         "gut-microbiome",
+        "nlrp3-inflammasome",
         "shotgun-metagenomics",
         "cardiovascular-disease-signature",
         "broken-links-2026-04-16"
@@ -102554,12 +102572,12 @@
         "martinelli-2022-gut-oriented-interventions-ms"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Neuroinflammation",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "gao-2023-microglia-neurodegenerative-diseases",
           "ahmed-2025-metals-alzheimers-mechanistic-review",
@@ -102590,7 +102608,7 @@
           3
         ],
         "seo_target": "neuroinflammation microbiome",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z"
+        "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
       "overview": "Chronic inflammatory activation within the central nervous system, driven by microglia, astrocytes, and infiltrating peripheral immune cells. Neuroinflammation is a convergent pathological mechanism across [[alzheimers-disease]], [[parkinsons-disease]], [[multiple-sclerosis]], and [[autism-spectrum-disorder]], and represents the brain-side consequence of the [[gut-brain-axis]] disruption that metals produce.",
       "sections": [
@@ -102637,7 +102655,7 @@
         {
           "heading": "Metal-Driven Neuroinflammation",
           "level": 2,
-          "body": "Each neurotoxic metal has a distinct neuroinflammatory profile:\n\n| Metal | Primary Mechanism | Disease Association |\n|---|---|---|\n| [[lead]] | BBB disruption, calcium mimicry, epigenetic reprogramming | [[alzheimers-disease]], [[autism-spectrum-disorder]] |\n| [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |\n| [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |\n| [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |\n| [[aluminum]] | NLRP3 inflammasome, NF-kB activation | AD (controversial) |\n| [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |\n\nAll metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]]."
+          "body": "Each neurotoxic metal has a distinct neuroinflammatory profile:\n\n| Metal | Primary Mechanism | Disease Association |\n|---|---|---|\n| [[lead]] | BBB disruption, calcium mimicry, epigenetic reprogramming | [[alzheimers-disease]], [[autism-spectrum-disorder]] |\n| [[mercury]] | Microglial activation, selenoprotein inhibition | AD, ASD |\n| [[manganese]] | Astrocyte accumulation, mitochondrial dysfunction | [[parkinsons-disease]] |\n| [[iron]] | [[ferroptosis]], Fenton chemistry, lipid peroxidation | AD, PD |\n| [[aluminum]] | [[nlrp3-inflammasome|NLRP3 inflammasome]], NF-kB activation | AD (controversial) |\n| [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |\n\nAll metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]]."
         },
         {
           "heading": "Disease-Specific Neuroinflammatory Patterns",
@@ -102680,6 +102698,7 @@
         "iron",
         "ferroptosis",
         "aluminum",
+        "nlrp3-inflammasome",
         "oxidative-stress",
         "inflammation",
         "martinelli-2022-gut-oriented-interventions-ms",
@@ -102975,6 +102994,7 @@
         "lipopolysaccharide",
         "neurodegeneration",
         "neuroinflammation",
+        "nlrp3-inflammasome",
         "short-chain-fatty-acids",
         "systemic-inflammation",
         "tight-junctions",
@@ -102987,11 +103007,11 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 50
+          "score": 52
         },
         {
           "id": "short-chain-fatty-acids",
-          "score": 35
+          "score": 37
         },
         {
           "id": "iron",
@@ -104236,6 +104256,183 @@
         {
           "id": "colorectal-cancer",
           "score": 4
+        }
+      ]
+    },
+    {
+      "id": "nlrp3-inflammasome",
+      "title": "NLRP3 Inflammasome",
+      "type": "concept",
+      "category": "mechanism",
+      "tags": [
+        "NLRP3",
+        "inflammasome",
+        "innate-immunity",
+        "caspase-1",
+        "IL-1beta",
+        "IL-18",
+        "pyroptosis",
+        "oxidative-stress",
+        "dysbiosis",
+        "microbial-signaling",
+        "heavy-metals"
+      ],
+      "sources": [
+        "luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis",
+        "mohamed-2023-nsaid-dysbiosis-autoimmune-liver-asd",
+        "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
+        "nucera-2024-non-essential-heavy-metals-cvd-systematic-review",
+        "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos",
+        "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+        "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer"
+      ],
+      "created": "2026-09-07T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
+      "frontmatter": {
+        "title": "NLRP3 Inflammasome",
+        "type": "concept",
+        "created": "2026-09-07T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
+        "sources": [
+          "luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis",
+          "mohamed-2023-nsaid-dysbiosis-autoimmune-liver-asd",
+          "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
+          "nucera-2024-non-essential-heavy-metals-cvd-systematic-review",
+          "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos",
+          "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+          "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer"
+        ],
+        "source_count": 7,
+        "tags": [
+          "NLRP3",
+          "inflammasome",
+          "innate-immunity",
+          "caspase-1",
+          "IL-1beta",
+          "IL-18",
+          "pyroptosis",
+          "oxidative-stress",
+          "dysbiosis",
+          "microbial-signaling",
+          "heavy-metals"
+        ],
+        "karen_brain_primitives": [
+          1,
+          2,
+          3,
+          5
+        ],
+        "seo_target": "NLRP3 inflammasome microbiome inflammation",
+        "platform": "wikibiome"
+      },
+      "overview": "The NLRP3 inflammasome is a host innate-immune signaling complex that connects cellular danger signals to caspase-1 activation. In the canonical pathway represented in WikiBiome's evidence vault, caspase-1 processes the inflammatory cytokines IL-1beta and IL-18 and cleaves gasdermin D, whose membrane-forming fragment participates in pyroptotic cell death [[luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis]].\n\nNLRP3 is not a microorganism or a microbial product. It is a host response system that can be engaged by signals arising from infection, microbial metabolites, barrier failure, tissue damage, oxidative stress, or toxicant exposure. Its importance to WikiBiome is therefore relational: it is one route by which changes in microbial ecology and metal exposure can become host [[inflammation]] [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]] [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].",
+      "sections": [
+        {
+          "heading": "From sensing to inflammatory output",
+          "level": 2,
+          "body": "The pathway should be interpreted as a sequence, not as a synonym for inflammation. Upstream signals increase or activate inflammasome components; the assembled pathway activates caspase-1; caspase-1 then enables mature IL-1beta and IL-18 production and gasdermin-mediated pyroptosis. In a combined rat and cell-culture study, changes in NLRP3, caspase-1, gasdermin-D fragments, IL-1beta, and IL-18 moved together with oxidative stress and endothelial injury [[luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis]].\n\nThe same study used fatty-acid-synthase inhibition and antioxidant-pathway manipulation to place reactive oxygen species upstream of the measured NLRP3 cascade in that model. Because the work used hypertensive rats and rat endothelial cells, it supports the pathway mechanism but does not by itself establish the same causal chain in every human disease [[luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis]]."
+        },
+        {
+          "heading": "Microbial signals and barrier failure",
+          "level": 2,
+          "body": "Microbial influence can begin at a damaged epithelial barrier. A systematic review of NSAID enteropathy describes Gram-negative bacterial lipopolysaccharide engaging TLR4, followed by NF-kappa-B and NLRP3 signaling; germ-free or differently colonized animal models in the reviewed literature also showed that microbial context altered susceptibility to intestinal injury [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]].\n\nAn independent rat study linked indomethacin exposure to intestinal dysbiosis, bacterial translocation, impaired barrier structure, and increased hepatic TLR4, NLRP3-pathway, IL-18, and caspase-1 measurements. Its accompanying human observations were associative, so the study supports a plausible gut-barrier-to-inflammation route without proving that NLRP3 caused the reported neurodevelopmental outcomes [[mohamed-2023-nsaid-dysbiosis-autoimmune-liver-asd]].\n\nMicrobial signals need not be limited to bacterial LPS. A gut-thyroid-axis review describes microbiota-derived extracellular ATP as an NLRP3-associated signal linked to IL-1beta and IL-18 secretion, while a cancer-mycobiome review describes fungal beta-glucans, chitin, and mannose engaging C-type lectin receptor–CARD9 pathways that converge on NF-kappa-B, reactive oxygen species, and NLRP3 signaling [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]] [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]]."
+        },
+        {
+          "heading": "Metal and oxidative-stress convergence",
+          "level": 2,
+          "body": "Metal-associated NLRP3 findings often sit inside a larger oxidative and endothelial-injury pattern. An overview of eight systematic reviews reports cadmium-associated cardiovascular mechanisms that include reactive oxygen species, NF-kappa-B, NLRP3 signaling, reduced nitric-oxide availability, and increased endothelin-1. The human evidence establishes exposure–disease associations more strongly than it establishes NLRP3 as the sole causal mediator [[nucera-2024-non-essential-heavy-metals-cvd-systematic-review]].\n\nThis distinction matters. Detecting NLRP3 expression or correlated cytokines does not prove inflammasome assembly, caspase-1 activity, gasdermin cleavage, pyroptosis, or clinical causation. Stronger mechanistic claims require measurements across multiple steps or interventions that perturb the proposed pathway [[luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis]]."
+        },
+        {
+          "heading": "Context-dependent effects in the gut",
+          "level": 2,
+          "body": "NLRP3 activity is not uniformly pathological. A review of short-chain-fatty-acid receptor biology describes epithelial FFAR2 signaling that promotes IL-18 secretion through NLRP3 in support of regulatory T-cell activity, IgA production, and intestinal tissue integrity. The same receptor family can have different effects across epithelial and immune-cell contexts [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].\n\nThat context dependence is why WikiBiome does not label every NLRP3-associated change as beneficial or harmful. The biological meaning depends on the initiating signal, cell type, duration, tissue, downstream products, and whether the response resolves or becomes chronic [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]] [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]]."
+        },
+        {
+          "heading": "Evidence interpretation",
+          "level": 2,
+          "body": "- NLRP3 expression alone is evidence of pathway availability or priming, not proof of an assembled, active inflammasome.\n- IL-1beta and IL-18 are important outputs but can be influenced by pathways outside the specific experiment being interpreted.\n- Caspase-1 activity and gasdermin-D cleavage provide more direct evidence of the canonical pyroptotic cascade when measured alongside NLRP3 [[luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis]].\n- Animal and cell-culture pathway experiments establish biological plausibility; they should not be presented as proof that inhibiting NLRP3 will improve a human condition.\n- Microbiome associations require an explicit bridge—such as LPS translocation, microbial ATP, fungal pattern recognition, or a measured metabolite—before NLRP3 should be described as microbiome-mediated [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]] [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]] [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]]."
+        },
+        {
+          "heading": "Related pages",
+          "level": 2,
+          "body": "- [[inflammation]]\n- [[il-1beta]]\n- [[nf-kappa-b]]\n- [[tlr4]]\n- [[oxidative-stress]]\n- [[reactive-oxygen-species]]\n- [[dysbiosis]]\n- [[short-chain-fatty-acids]]\n- [[mycobiome]]\n- [[tmao]]\n- [[cadmium]]\n- [[chromium]]"
+        }
+      ],
+      "wikilinks": [
+        "luan-2025-fatty-acid-synthase-hypertension-erectile-dysfunction-pyroptosis",
+        "inflammation",
+        "rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review",
+        "nucera-2024-non-essential-heavy-metals-cvd-systematic-review",
+        "mohamed-2023-nsaid-dysbiosis-autoimmune-liver-asd",
+        "zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos",
+        "ding-2025-mycobiome-human-cancer-mechanisms-therapeutics",
+        "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+        "il-1beta",
+        "nf-kappa-b",
+        "tlr4",
+        "oxidative-stress",
+        "reactive-oxygen-species",
+        "dysbiosis",
+        "short-chain-fatty-acids",
+        "mycobiome",
+        "tmao",
+        "cadmium",
+        "chromium"
+      ],
+      "sourceDir": "concepts",
+      "sourceCount": 7,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "cadmium",
+        "cardiovascular-disease",
+        "chromium",
+        "chronic-kidney-disease",
+        "colorectal-cancer",
+        "hashimotos-thyroiditis",
+        "zinc",
+        "dysbiosis",
+        "gut-metal-microbiome",
+        "il-1beta",
+        "inflammation",
+        "microglia",
+        "neuroinflammation",
+        "tmao"
+      ],
+      "related": [
+        {
+          "id": "lead",
+          "score": 21
+        },
+        {
+          "id": "nickel",
+          "score": 18
+        },
+        {
+          "id": "arsenic",
+          "score": 16
+        },
+        {
+          "id": "iron",
+          "score": 16
+        },
+        {
+          "id": "copper",
+          "score": 14
+        },
+        {
+          "id": "nutritional-immunity",
+          "score": 14
+        },
+        {
+          "id": "mercury",
+          "score": 13
+        },
+        {
+          "id": "gut-metal-microbiome",
+          "score": 13
         }
       ]
     },
@@ -105833,6 +106030,7 @@
         "nickel-allergy",
         "nickel-neurotoxicity",
         "nickel-reproductive-toxicity",
+        "nlrp3-inflammasome",
         "nrf2",
         "nutritional-immunity",
         "polyphenols",
@@ -105858,7 +106056,7 @@
         },
         {
           "id": "inflammation",
-          "score": 68
+          "score": 70
         },
         {
           "id": "gut-metal-microbiome",
@@ -105866,7 +106064,7 @@
         },
         {
           "id": "dysbiosis",
-          "score": 63
+          "score": 65
         },
         {
           "id": "metal-disease-matrix",
@@ -109630,6 +109828,10 @@
           "score": 4
         },
         {
+          "id": "nlrp3-inflammasome",
+          "score": 4
+        },
+        {
           "id": "aspergillus",
           "score": 3
         },
@@ -109643,10 +109845,6 @@
         },
         {
           "id": "penicillium",
-          "score": 3
-        },
-        {
-          "id": "saccharomyces-boulardii",
           "score": 3
         }
       ]
@@ -109763,6 +109961,7 @@
         "endothelial-dysfunction",
         "il-1beta",
         "lipid-peroxidation",
+        "nlrp3-inflammasome",
         "systemic-inflammation",
         "hbot"
       ],
@@ -109776,12 +109975,16 @@
           "score": 12
         },
         {
-          "id": "mitochondrial-dysfunction",
-          "score": 10
+          "id": "cadmium",
+          "score": 11
         },
         {
-          "id": "cadmium",
-          "score": 9
+          "id": "nf-kappa-b",
+          "score": 11
+        },
+        {
+          "id": "mitochondrial-dysfunction",
+          "score": 10
         },
         {
           "id": "lead",
@@ -109793,10 +109996,6 @@
         },
         {
           "id": "cysteine",
-          "score": 9
-        },
-        {
-          "id": "fenton-chemistry",
           "score": 9
         }
       ]
@@ -110951,6 +111150,7 @@
         "microglia",
         "mitochondrial-dysfunction",
         "neuroinflammation",
+        "nlrp3-inflammasome",
         "pharmacomicrobiomics",
         "polyphenols",
         "postbiotic",
@@ -110987,7 +111187,7 @@
         },
         {
           "id": "cadmium",
-          "score": 60
+          "score": 62
         },
         {
           "id": "roseburia",
@@ -111006,8 +111206,8 @@
           "score": 52
         },
         {
-          "id": "bile-acid-metabolism",
-          "score": 42
+          "id": "oxidative-stress",
+          "score": 44
         }
       ]
     },
@@ -114274,6 +114474,7 @@
         "psoriasis",
         "gut-penis-axis",
         "gut-thyroid-axis",
+        "nlrp3-inflammasome",
         "toll-like-receptors",
         "broken-links-2026-04-16"
       ],
@@ -114283,15 +114484,19 @@
           "score": 20
         },
         {
+          "id": "dysbiosis",
+          "score": 15
+        },
+        {
           "id": "neuroinflammation",
           "score": 14
         },
         {
-          "id": "dysbiosis",
-          "score": 13
+          "id": "nickel-allergy",
+          "score": 12
         },
         {
-          "id": "nickel-allergy",
+          "id": "short-chain-fatty-acids",
           "score": 12
         },
         {
@@ -114305,10 +114510,6 @@
         {
           "id": "lipopolysaccharide",
           "score": 11
-        },
-        {
-          "id": "bifidobacterium",
-          "score": 10
         }
       ]
     },
@@ -114340,12 +114541,12 @@
         "khatoon-2023-gut-microbiota-neurodegenerative"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Trimethylamine N-Oxide (TMAO)",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "zhen-2023-tmao-cardiovascular-diseases-review",
           "hoffelner-2025-emerging-therapy-targets-microbiome-cvd",
@@ -114375,7 +114576,7 @@
           5
         ],
         "seo_target": "trimethylamine n-oxide tmao microbiome",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z"
+        "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
       "overview": "A gut microbiome-derived metabolite that has emerged as one of the strongest microbial biomarkers for [[cardiovascular-disease]] risk. TMAO exemplifies how microbial metabolism of dietary nutrients can generate systemically toxic products -- a fundamentally different paradigm from pathogen-driven disease.",
       "sections": [
@@ -114407,7 +114608,7 @@
         {
           "heading": "Atherosclerosis Promotion",
           "level": 3,
-          "body": "- Inhibits reverse cholesterol transport (RCT) by downregulating the ABCG5/ABCG8 heterodimer.\n- Upregulates scavenger receptors CD36 and SR-A1 on macrophages, increasing cholesterol uptake and foam cell formation.\n- Activates [[nf-kappa-b]], increasing TNF-alpha, IL-6, and suppressing anti-inflammatory IL-10 [[zhen-2023-tmao-cardiovascular-diseases-review]].\n- Activates NLRP3 inflammasome via TXNIP (thioredoxin-interacting protein)."
+          "body": "- Inhibits reverse cholesterol transport (RCT) by downregulating the ABCG5/ABCG8 heterodimer.\n- Upregulates scavenger receptors CD36 and SR-A1 on macrophages, increasing cholesterol uptake and foam cell formation.\n- Activates [[nf-kappa-b]], increasing TNF-alpha, IL-6, and suppressing anti-inflammatory IL-10 [[zhen-2023-tmao-cardiovascular-diseases-review]].\n- Activates [[nlrp3-inflammasome|NLRP3 inflammasome]] via TXNIP (thioredoxin-interacting protein)."
         },
         {
           "heading": "Endothelial Dysfunction",
@@ -114460,6 +114661,7 @@
         "hungatella",
         "zhen-2023-tmao-cardiovascular-diseases-review",
         "nf-kappa-b",
+        "nlrp3-inflammasome",
         "hypertension",
         "neuroinflammation",
         "khatoon-2023-gut-microbiota-neurodegenerative",
@@ -114497,6 +114699,7 @@
         "microbial-biomarkers",
         "microbiome-derived-metabolites",
         "mitochondrial-dysfunction",
+        "nlrp3-inflammasome",
         "tryptophan",
         "uremic-toxins",
         "obesity-signature",
@@ -114510,7 +114713,7 @@
         },
         {
           "id": "cadmium",
-          "score": 20
+          "score": 22
         },
         {
           "id": "faecalibacterium-prausnitzii",
@@ -114529,11 +114732,11 @@
           "score": 18
         },
         {
-          "id": "bifidobacterium",
-          "score": 16
+          "id": "oxidative-stress",
+          "score": 17
         },
         {
-          "id": "calprotectin",
+          "id": "bifidobacterium",
           "score": 16
         }
       ]
@@ -184298,6 +184501,12 @@
         "sourceCount": 6
       },
       {
+        "id": "nlrp3-inflammasome",
+        "label": "NLRP3 Inflammasome",
+        "category": "mechanism",
+        "sourceCount": 7
+      },
+      {
         "id": "nrf2",
         "label": "Nrf2 (Nuclear Factor Erythroid 2-Related Factor 2)",
         "category": "mechanism",
@@ -188723,6 +188932,10 @@
       },
       {
         "source": "cadmium",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "cadmium",
         "target": "iron"
       },
       {
@@ -189107,6 +189320,10 @@
       },
       {
         "source": "cardiovascular-disease",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "cardiovascular-disease",
         "target": "malassezia"
       },
       {
@@ -189419,6 +189636,10 @@
       },
       {
         "source": "chromium",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "chromium",
         "target": "cadmium"
       },
       {
@@ -189564,6 +189785,10 @@
       {
         "source": "chronic-kidney-disease",
         "target": "parkinsons-disease"
+      },
+      {
+        "source": "chronic-kidney-disease",
+        "target": "nlrp3-inflammasome"
       },
       {
         "source": "chronic-kidney-disease",
@@ -190084,6 +190309,10 @@
       {
         "source": "colorectal-cancer",
         "target": "nickel"
+      },
+      {
+        "source": "colorectal-cancer",
+        "target": "nlrp3-inflammasome"
       },
       {
         "source": "colorectal-cancer",
@@ -192740,6 +192969,10 @@
       {
         "source": "hashimotos-thyroiditis",
         "target": "iodine"
+      },
+      {
+        "source": "hashimotos-thyroiditis",
+        "target": "nlrp3-inflammasome"
       },
       {
         "source": "hashimotos-thyroiditis",
@@ -199223,6 +199456,10 @@
       },
       {
         "source": "zinc",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "zinc",
         "target": "nutritional-immunity"
       },
       {
@@ -201659,6 +201896,10 @@
       },
       {
         "source": "dysbiosis",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "dysbiosis",
         "target": "nutritional-immunity"
       },
       {
@@ -203219,6 +203460,10 @@
       },
       {
         "source": "gut-metal-microbiome",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "gut-metal-microbiome",
         "target": "mis-metallation"
       },
       {
@@ -204223,6 +204468,10 @@
       },
       {
         "source": "il-1beta",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "il-1beta",
         "target": "interleukin-6"
       },
       {
@@ -204604,6 +204853,10 @@
       {
         "source": "inflammation",
         "target": "nf-kappa-b"
+      },
+      {
+        "source": "inflammation",
+        "target": "nlrp3-inflammasome"
       },
       {
         "source": "inflammation",
@@ -206363,6 +206616,10 @@
       },
       {
         "source": "microglia",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "microglia",
         "target": "short-chain-fatty-acids"
       },
       {
@@ -206687,6 +206944,10 @@
       },
       {
         "source": "neuroinflammation",
+        "target": "nlrp3-inflammasome"
+      },
+      {
+        "source": "neuroinflammation",
         "target": "oxidative-stress"
       },
       {
@@ -207004,6 +207265,34 @@
       {
         "source": "nitric-oxide",
         "target": "cadmium"
+      },
+      {
+        "source": "nlrp3-inflammasome",
+        "target": "nf-kappa-b"
+      },
+      {
+        "source": "nlrp3-inflammasome",
+        "target": "tlr4"
+      },
+      {
+        "source": "nlrp3-inflammasome",
+        "target": "oxidative-stress"
+      },
+      {
+        "source": "nlrp3-inflammasome",
+        "target": "reactive-oxygen-species"
+      },
+      {
+        "source": "nlrp3-inflammasome",
+        "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "nlrp3-inflammasome",
+        "target": "mycobiome"
+      },
+      {
+        "source": "nlrp3-inflammasome",
+        "target": "tmao"
       },
       {
         "source": "nrf2",

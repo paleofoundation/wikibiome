@@ -2,14 +2,14 @@
 title: Dysbiosis
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-07
 sources: [duan-2020-gut-microbiota-heavy-metal-probiotic-strategy, zhu-2024-toxic-essential-metals-gut-microbiota, ghosh-2023-heavy-metals-gut-barrier-integrity, giambo-2021-toxic-metal-exposure-gut-microbiota-review, rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review, tizabi-2023-lead-gut-microbiota-asd, tao-2024-cadmium-gut-microbiota-dwarf-hamsters, anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors, khan-2020-environmental-exposures-autoimmune-gut-microbiome, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis, lombardi-2020-snas-probiotics-dysbiosis, yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome, kang-2023-diagnosis-crohns-uc-microbiome, vangoitsenhoven-2020-microbiome-antibiotics-autoimmune]
 source_count: 14
 tags: [microbiome, gut-barrier, SCFAs, LPS, pathobionts, probiotics, heavy-metals, inflammation, vicious-cycle, alpha-diversity, beta-diversity, F-B-ratio, FMT]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 4, 5, 7, 8]
 seo_target: "dysbiosis"
-last_substantive_update: 2026-04-09
+last_substantive_update: 2026-09-07
 ---
 
 # Dysbiosis
@@ -56,7 +56,7 @@ Dysbiosis drives chronic low-grade [[inflammation]] through multiple routes:
 
 - LPS translocation: Gram-negative pathobiont enrichment increases endotoxin load; LPS crossing the compromised barrier activates TLR4/[[nf-kappa-b]] on macrophages, hepatocytes, and microglia.
 - Cytokine cascades: NF-kB activation drives transcription of IL-6, TNF-alpha, IL-1beta, and COX-2.
-- NLRP3 inflammasome: Bacterial products and damage-associated molecular patterns activate the NLRP3 inflammasome, driving IL-1beta and IL-18 maturation.
+- [[nlrp3-inflammasome|NLRP3 inflammasome]]: Bacterial products and damage-associated molecular patterns activate the NLRP3 inflammasome, driving IL-1beta and IL-18 maturation.
 - Molecular mimicry: Bacterial antigens can cross-react with host tissues, triggering autoimmune responses (relevant to RA, MS, Hashimoto's, Graves').
 
 ### Immune Dysregulation
