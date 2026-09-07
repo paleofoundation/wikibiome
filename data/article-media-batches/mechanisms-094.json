@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-094",
   "category": "mechanisms",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "103c201d0b4e95a135830da3bd9e442529fedc58",
   "generator": "OpenAI built-in image generation",
@@ -19,6 +19,8 @@
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "cd85c98",
+  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Three exact small-molecule identities are cleared for one immutable heavy-atom connectivity call each. TNF-alpha, the Toll-like receptor family, and tryptophan metabolism fail processed-state, family-member, or pathway-scope gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 3,
@@ -65,7 +67,7 @@
       "assetType": "mechanism",
       "revision": 1,
       "decision": "cleared-for-single-generation-call",
-      "generationStatus": "audit-complete-awaiting-prompt-freeze",
+      "generationStatus": "prompt-frozen-awaiting-call",
       "controlledIdentifier": "PubChem:1145;ChEBI:15724;InChIKey:UYPYRKYUKCHHIB-UHFFFAOYSA-N",
       "promptSha256": "1893d5e308c3daa44e7b64cb4b65fd7581d096c36a98d0673b642bce09ab745f",
       "scientificReferences": [
@@ -84,7 +86,7 @@
       "assetType": "mechanism",
       "revision": 1,
       "decision": "cleared-for-single-generation-call",
-      "generationStatus": "audit-complete-awaiting-prompt-freeze",
+      "generationStatus": "prompt-frozen-awaiting-call",
       "controlledIdentifier": "PubChem:1150;ChEBI:16765;InChIKey:APJYDQYYACXCRM-UHFFFAOYSA-N",
       "promptSha256": "cfbdc1a93c20416561b9b8b6e0389e705599cc207776c1b37b027bd8d634a416",
       "scientificReferences": [
@@ -103,7 +105,7 @@
       "assetType": "mechanism",
       "revision": 1,
       "decision": "cleared-for-single-generation-call",
-      "generationStatus": "audit-complete-awaiting-prompt-freeze",
+      "generationStatus": "prompt-frozen-awaiting-call",
       "controlledIdentifier": "PubChem:6305;ChEBI:16828;MeSH:D014364;InChIKey:QIVBCDIJIAJPQS-VIFPVBQESA-N",
       "promptSha256": "1b9ffc0988bfe3f142fe298f570728048696730a8886fee09d753ab1f72b37a8",
       "scientificReferences": [
