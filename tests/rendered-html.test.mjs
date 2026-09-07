@@ -792,9 +792,51 @@ test("server-renders complete Hydrogenase contextual coverage without overlinkin
   }
 });
 
-test("server-renders Ammonia and its reviewed contextual-link batch", async () => {
-  const ids = ["ammonia", "urea", "urease", "helicobacter-pylori", "proteus-mirabilis", "ureaplasma"];
-  const [ammoniaResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
+test("server-renders complete Ammonia contextual coverage without overlinking", async () => {
+  const contextIds = [
+    "actinomyces",
+    "amyloid-beta",
+    "biofilm",
+    "candida-albicans",
+    "cirrhosis",
+    "cryptococcus-neoformans",
+    "dysbiosis",
+    "enterobacteriaceae",
+    "escherichia-coli",
+    "fermentative-metabolism",
+    "gastric-cancer",
+    "gastric-ulcer",
+    "gut-kidney-axis",
+    "gut-metal-microbiome",
+    "helicobacter-pylori",
+    "hypoxia",
+    "inter-kingdom-metal-shielding",
+    "metal-dependent-virulence",
+    "microbial-metallomics",
+    "mis-metallation",
+    "morganella-morganii",
+    "mycobacterium-tuberculosis",
+    "nickel",
+    "nickel-glyoxalase",
+    "nickel-urease",
+    "parkinsons-disease",
+    "proteus-mirabilis",
+    "saccharolytic-fermentation",
+    "siderophores-metallophores",
+    "staphylococcus-aureus",
+    "streptococcus-salivarius",
+    "urea",
+    "ureaplasma",
+    "ureaplasma-urealyticum",
+    "urease",
+    "uremic-toxins",
+    "virulence-factors",
+  ];
+  assert.equal(contextIds.length, 37);
+  const [ammoniaResponse, ...contextResponses] = await Promise.all([
+    render("/article/ammonia"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
   const [historyResponse, sitemapResponse] = await Promise.all([
     render("/article/ammonia/history"),
     render("/sitemap.xml"),
@@ -821,13 +863,13 @@ test("server-renders Ammonia and its reviewed contextual-link batch", async () =
 
   const contexts = await Promise.all(contextResponses.map((response) => response.text()));
   for (const [index, html] of contexts.entries()) {
-    const articleStart = html.indexOf('<article class="article-body">');
+    const articleStart = html.indexOf('<article class="article-body');
     const referencesStart = html.indexOf('<section class="references-section"', articleStart);
-    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${ids[index + 1]}`);
-    assert.match(
-      html.slice(articleStart, referencesStart),
-      /href="\/article\/ammonia"/,
-      `expected contextual Ammonia link in ${ids[index + 1]}`,
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    assert.equal(
+      (html.slice(articleStart, referencesStart).match(/href="\/article\/ammonia"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Ammonia link in ${contextIds[index]}`,
     );
   }
 
@@ -3078,7 +3120,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /5d1df349973d/);
+  assert.match(readiness, /4066d7ef3d4c/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -3544,7 +3586,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e");
+  assert.equal(manifest.source.commit, "4066d7ef3d4cf6beccf662550dd80452b4cc4c95");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 823);
   assert.equal(manifest.content.sources, 1939);
