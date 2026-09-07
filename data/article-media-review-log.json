@@ -18811,6 +18811,107 @@
       ],
       "requiredResolution": "Reclassify the route through the upstream pipeline, attach type-species and type-strain morphology sources, reconcile unsupported claims, then repeat the microorganism morphology audit.",
       "routingImpact": "The route remains uncovered and asset-free; no morphology or generic evidence-index image may be published from the misclassified source-free record."
+    },
+    {
+      "pageId": "metal-disease-matrix",
+      "controlledIdentifier": "WikiBiome:metal-disease-matrix;multi-element-multi-condition-cross-source-synthesis",
+      "batchId": "entity-analysis-reference-122",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific, source-resolution, data-governance, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route synthesizes 62 sources across many elements, chemical forms, conditions, tissues, mechanisms, directions, and evidence tiers. No single physical subject or fixed validated matrix dataset represents that scope without silently selecting or overstating associations.",
+      "checkedUrls": [
+        "local:data/content.generated.json#/pages/metal-disease-matrix",
+        "https://www.wikibiome.com/article/metal-disease-matrix"
+      ],
+      "requiredResolution": "Publish a versioned machine-readable matrix with fixed element and condition identifiers, direction and evidence fields, source-level provenance, conflict handling, update date, accessibility representation, and explicit uncertainty before generating any overview visualization.",
+      "routingImpact": "The route remains uncovered and asset-free; no invented heatmap, network, body map, or quantitative matrix may be published."
+    },
+    {
+      "pageId": "methanobrevibacter-smithii",
+      "controlledIdentifier": "NCBI-Taxonomy:2173;LPSN:777826;type-strain-ATCC:35061;local-category-entity;local-morphology-sources-unresolved",
+      "batchId": "entity-analysis-reference-122",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower taxonomic, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Methanobrevibacter smithii is a current valid species with identified type strain, but the local route is categorized as entity rather than microorganism and its seven linked records concern metals or disease microbiomes rather than type-material morphology. The entity-analysis-reference class permits evidence-index media, not archaeal morphology.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/species/methanobrevibacter-smithii",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2173&mode=Info",
+        "local:data/content.generated.json#/pages/methanobrevibacter-smithii"
+      ],
+      "requiredResolution": "Reclassify the route through the upstream pipeline, attach direct type-strain morphology and cell-envelope sources, reconcile unsupported abundance, motility, metal, and disease claims, then repeat the microorganism morphology audit.",
+      "routingImpact": "The route remains uncovered and asset-free; no archaeal morphology or generic evidence-index image may be published from the misclassified record."
+    },
+    {
+      "pageId": "neisseria-meningitidis",
+      "controlledIdentifier": "NCBI-Taxonomy:487;LPSN:778634;type-strain-ATCC:13077;local-category-other;local-source-count-0",
+      "batchId": "entity-analysis-reference-122",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower taxonomic, biosafety, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Neisseria meningitidis is a current valid risk-group-2 species with identified type strain, but the local route is categorized as other, has zero source records, and combines carriage, invasive disease, capsule, and multiple metal-virulence claims. It cannot enter the microorganism morphology pipeline from this record.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/species/neisseria-meningitidis",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=487&mode=Info",
+        "local:data/content.generated.json#/pages/neisseria-meningitidis"
+      ],
+      "requiredResolution": "Reclassify the route, attach direct type-strain morphology and authoritative biosafety sources, reconcile unsupported carriage, serogroup, transmission, metal, and virulence claims, then repeat the microorganism morphology audit.",
+      "routingImpact": "The route remains uncovered and asset-free; no morphology, disease scene, or generic evidence-index image may be published from the source-free record."
+    },
+    {
+      "pageId": "oxalobacter",
+      "controlledIdentifier": "NCBI-Taxonomy:2627;type-species-NCBI-Taxonomy:847;LPSN:516236;local-category-other;local-source-count-0",
+      "batchId": "entity-analysis-reference-122",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower taxonomic, scientific, source-resolution, and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Oxalobacter is a current valid genus with O. formigenes as type species, but the local route is categorized as other, has zero source records, and makes extensive enzyme, metal-bioavailability, kidney, and treatment claims. The entity-analysis-reference class cannot publish genus morphology without reviewed type-material evidence.",
+      "checkedUrls": [
+        "https://lpsn.dsmz.de/genus/oxalobacter",
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=847&mode=Info",
+        "local:data/content.generated.json#/pages/oxalobacter"
+      ],
+      "requiredResolution": "Reclassify the route, attach the protologue and direct type-species morphology sources, reconcile unsupported biochemical, metal, clinical, and treatment claims, then repeat the microorganism morphology audit.",
+      "routingImpact": "The route remains uncovered and asset-free; no morphology, kidney, oxalate, or generic evidence-index image may be published from the source-free record."
+    },
+    {
+      "pageId": "kynurenine",
+      "controlledIdentifier": "PubChem:161166;ChEBI:16946;InChIKey:YGPSJZOEDVAXAB-QMMMGPOBSA-N",
+      "batchId": "entity-analysis-reference-122",
+      "draft": "work/media-drafts/entity-analysis-reference-batch-122/kynurenine-draft.png",
+      "sha256": "72926983b49103c96388685125d5ea694fe7442518b12ce0e679c9eee512849d",
+      "generationRecord": "exec-d1dae637-ed00-4296-8270-0f620f8ab8f6.png",
+      "promptSha256": "a0282cdcd905e8109bfaec5e4dd441503206bd56e8bcd3bc8d64d06815a4e2ef",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic alpha-field audit",
+      "disposition": "rejected-transparent-background-glow-and-edge-field",
+      "reason": "The source contains a literal exact 15-center neutral L-kynurenine connectivity model, but 1,349,616 pixels are fully transparent, 223,248 are intermediate-alpha, none are fully opaque, and broad black, gray, red, and blue glow or haze replaces the required encoded uniform pale field. One nonzero-alpha pixel enters the outer 32-pixel safety band.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/161166",
+        "https://www.ebi.ac.uk/chebi/CHEBI:16946"
+      ],
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain the exact 10-carbon, two-nitrogen, three-oxygen graph while encoding a fully opaque uniform pale cool field, opaque countable centers and connectors, zero glow or haze, and broad crop-safe margins.",
+      "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "metformin",
+      "controlledIdentifier": "PubChem:4091;InChIKey:XZWYZXLIPXDOLR-UHFFFAOYSA-N",
+      "batchId": "entity-analysis-reference-122",
+      "draft": "work/media-drafts/entity-analysis-reference-batch-122/metformin-draft.png",
+      "sha256": "2e844707cb36bb6c1b84cbab11327e9c2bc10754a995740e623685e557ea357b",
+      "generationRecord": "exec-6cd769af-b23b-4bb4-89dd-575239e8b3e3.png",
+      "promptSha256": "4f1e3f6e675f6ab6591c7762564d8b10b1afa40a287a671264b6225e1f0f8405",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic alpha-field audit",
+      "disposition": "rejected-transparent-background-glow-and-edge-field",
+      "reason": "The source contains a literal exact nine-center neutral-metformin connectivity model, but 1,374,740 pixels are fully transparent, 198,124 are intermediate-alpha, none are fully opaque, and broad black, gray, and blue glow or haze replaces the required encoded uniform pale field. Nine nonzero-alpha pixels enter the outer 32-pixel safety band.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/4091",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/14219"
+      ],
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain the exact four-carbon, five-nitrogen neutral-metformin graph, exclude hydrochloride and product context, and encode a fully opaque uniform pale cool field with zero glow or haze and broad crop-safe margins.",
+      "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
     }
   ],
   "revisedAssets": [
