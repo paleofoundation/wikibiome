@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "22191c5abe09b5619b20a38f42d62f393836640a37fd8fe974f46c53f3d5a0f2",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f234f1a6b5f20bfbbc7c3fc43a6bf050ae71cb021f88b2206f184b8e46a95392",
+    "reviewLogSha256": "f0d5067a6421135485028ef3fa5ba3c0b5efa9253131aae4c7ca0e1db8e5e3e8",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -155,6 +155,12 @@
         "batchId": "interventions-108",
         "status": "reviewed",
         "sha256": "4249f0bbb1e78cda7f9f69a84d8dad28067053c87d1c683c99fd6bd56993c5ee"
+      },
+      {
+        "file": "data/article-media-batches/interventions-109.json",
+        "batchId": "interventions-109",
+        "status": "awaiting-control-review",
+        "sha256": "f6abb1f0bb75d2cac33ddbae1c916c31a4e37d66a4345636efe6d13b326aa91f"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -682,9 +688,9 @@
     "total": 710,
     "completed": 372,
     "remaining": 338,
-    "rejected": 274,
+    "rejected": 280,
     "revised": 12,
-    "scientificHolds": 214,
+    "scientificHolds": 219,
     "inReview": 0
   },
   "categories": [
@@ -5458,6 +5464,113 @@
       ],
       "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact 17-center neutral graph while producing an encoded opaque uniform pale cool field, zero glow or haze, and broad crop-safe margins.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "metformin-intervention",
+      "controlledIdentifier": "PubChem:4091;ChEBI:6801;MeSH:D008687;duplicate-canonical-identity-metformin",
+      "batchId": "interventions-109",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The intervention route and separate canonical `metformin` entity route identify the same drug with overlapping evidence, but no canonical merge, alias, or governed media-reuse relationship exists; the intervention route also does not select neutral metformin versus hydrochloride product or formulation.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/4091",
+        "https://www.ebi.ac.uk/chebi/CHEBI:6801",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008687",
+        "local:data/content.generated.json#/pages/metformin-intervention",
+        "local:data/content.generated.json#/pages/metformin"
+      ],
+      "requiredResolution": "Merge or alias the duplicate Metformin routes, or adopt an explicit one-asset multi-route reuse policy; then select neutral metformin or an exact salt, hydration state, formulation, route, dose, population, comparator, assay, endpoint, and claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from public media surfaces until canonical ownership and the represented chemical or product state pass a new audit."
+    },
+    {
+      "pageId": "multi-strain-synbiotic-schizophrenia",
+      "controlledIdentifier": "MeSH:D058616;DOI:10.1186/s12888-024-06061-y;twelve-species-level-labels-plus-FOS;malformed-local-source-ids",
+      "batchId": "interventions-109",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The trial fixes a capsule schedule, twelve organism names, 10^9 CFU, 21 mg fructooligosaccharide, and manufacturer, but not twelve strain accessions or a visually verifiable per-strain composition; all three local source identifiers also contain erroneous `.md` suffixes.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D058616",
+        "https://doi.org/10.1186/s12888-024-06061-y",
+        "local:data/content.generated.json#/pages/multi-strain-synbiotic-schizophrenia"
+      ],
+      "requiredResolution": "Correct the three source identifiers; recover exact strain accessions, per-strain viable counts and allocation, fructooligosaccharide identity, product lot and capsule composition, storage and dosing protocol, population, comparator, specimen, assay, time point, endpoint, and a non-promotional representation plan.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from public media surfaces until source resolution, composition, and a visually honest protocol representation pass a new audit."
+    },
+    {
+      "pageId": "nac-autism",
+      "controlledIdentifier": "PubChem:12035;ChEBI:28939;MeSH:D000111;duplicate-canonical-identity-n-acetyl-cysteine;zero-resolvable-sources",
+      "batchId": "interventions-109",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source condition-specific route names the same N-acetyl-L-cysteine identity already represented by the reviewed canonical `n-acetyl-cysteine` asset while adding trial, dose, mechanism, chelation, tolerability, and efficacy claims.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12035",
+        "https://www.ebi.ac.uk/chebi/CHEBI:28939",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000111",
+        "local:data/content.generated.json#/pages/nac-autism",
+        "local:data/content.generated.json#/pages/n-acetyl-cysteine"
+      ],
+      "requiredResolution": "Link the claimed trial evidence and reconcile this route as a condition-specific section or alias of canonical NAC, or define a governed media-reuse relationship; then specify formulation, dose, population, comparator, outcome, safety boundary, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from public media surfaces until evidence and canonical ownership pass a new audit."
+    },
+    {
+      "pageId": "nac-supplementation",
+      "controlledIdentifier": "PubChem:12035;ChEBI:28939;MeSH:D000111;duplicate-canonical-identity-n-acetyl-cysteine;zero-resolvable-sources",
+      "batchId": "interventions-109",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source cross-condition route duplicates the canonical N-acetyl-L-cysteine identity while combining multiple formulations, doses, populations, metal claims, mechanisms, efficacy, and safety advice.",
+      "checkedUrls": [
+        "https://pubchem.ncbi.nlm.nih.gov/compound/12035",
+        "https://www.ebi.ac.uk/chebi/CHEBI:28939",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000111",
+        "local:data/content.generated.json#/pages/nac-supplementation",
+        "local:data/content.generated.json#/pages/n-acetyl-cysteine"
+      ],
+      "requiredResolution": "Merge or relate the route to canonical NAC through an explicit media-reuse policy, add direct evidence, and select exact chemical or salt state, product and formulation, route, dose, population, comparator, assay, endpoint, and safety boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from public media surfaces until evidence and canonical ownership pass a new audit."
+    },
+    {
+      "pageId": "plant-based-diet-ckd",
+      "controlledIdentifier": "MeSH:D000095500;CKD-specific-diet-protocol-unspecified;zero-resolvable-sources",
+      "batchId": "interventions-109",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The broad plant-based-diet descriptor does not select foods, preparation, protein and energy targets, potassium and phosphorus management, CKD stage, duration, comparator, adherence, assay, or endpoint, and the local route has zero linked sources.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000095500",
+        "local:data/content.generated.json#/pages/plant-based-diet-ckd"
+      ],
+      "requiredResolution": "Link direct evidence and choose one CKD-stage-specific protocol with complete foods, quantities, preparation, protein and energy targets, potassium and phosphorus safety rules, duration, population, comparator, adherence measure, specimen, assay, time point, and endpoint.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from public media surfaces until one directly sourced CKD diet protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "omega-3-fatty-acids",
+      "controlledIdentifier": "MeSH:D015525;EPA-PubChem:5282847;EPA-ChEBI:28364;DHA-PubChem:445580;DHA-ChEBI:28125",
+      "batchId": "interventions-109",
+      "draft": "work/media-drafts/interventions-batch-109/omega-3-fatty-acids-draft.png",
+      "sha256": "3d400c37a0a343e2675d82127b3371e42d810e63959c173f18663bfb5d2ac9ed",
+      "generationRecord": "exec-c6852bc4-1f96-4150-b656-215bd0ed59c3.png",
+      "promptSha256": "70c3a13c8c33e12063ec4cea0efe2ec92f66a3318c9cb2d5f49ea24393252a6c",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution visual and programmatic alpha-field audit",
+      "disposition": "rejected-incorrect-heavy-atom-count-transparent-background-and-glow",
+      "reason": "The upper model has 21 graphite centers and six chain double-bond pairs rather than EPA's required 20 and five; the lower has 25 graphite centers and eight pairs rather than DHA's required 22 and six. The source also has 1,433,998 fully transparent pixels, 138,866 intermediate-alpha pixels, no opaque pixels, and broad prohibited glow or haze.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015525",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5282847",
+        "https://www.ebi.ac.uk/chebi/CHEBI:28364",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/445580",
+        "https://www.ebi.ac.uk/chebi/CHEBI:28125"
+      ],
+      "requiredResolution": "A future separately authorized revision prompt and new call must reproduce exactly 20-plus-2 and 22-plus-2 heavy-atom centers, five and six all-cis chain double bonds, two separate complete graphs, an encoded opaque uniform pale cool field, zero glow or haze, and broad crop-safe margins.",
+      "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
     }
   ],
   "revisedAssets": [
@@ -5612,55 +5725,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 629,
-      "id": "metformin-intervention",
-      "title": "Metformin",
-      "route": "/article/metformin-intervention",
+      "queuePosition": 635,
+      "id": "prebiotics-inulin-fructo-oligosaccharide",
+      "title": "Prebiotics (Inulin + FOS) for PCOS",
+      "route": "/article/prebiotics-inulin-fructo-oligosaccharide",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 630,
-      "id": "multi-strain-synbiotic-schizophrenia",
-      "title": "Multi-Strain Synbiotic for Schizophrenia",
-      "route": "/article/multi-strain-synbiotic-schizophrenia",
+      "queuePosition": 636,
+      "id": "probiotic-combination-ckd",
+      "title": "Probiotic Combination for CKD",
+      "route": "/article/probiotic-combination-ckd",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 631,
-      "id": "nac-autism",
-      "title": "N-Acetylcysteine (NAC) for Autism Spectrum Disorder",
-      "route": "/article/nac-autism",
+      "queuePosition": 637,
+      "id": "probiotics-general",
+      "title": "Probiotics (General)",
+      "route": "/article/probiotics-general",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 632,
-      "id": "nac-supplementation",
-      "title": "N-Acetylcysteine (NAC) Supplementation (Cross-Condition)",
-      "route": "/article/nac-supplementation",
+      "queuePosition": 638,
+      "id": "probiotics-lactobacillus-bifidobacterium",
+      "title": "Probiotics (Lactobacillus + Bifidobacterium) for PCOS",
+      "route": "/article/probiotics-lactobacillus-bifidobacterium",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 633,
-      "id": "omega-3-fatty-acids",
-      "title": "Omega-3 Fatty Acids (EPA/DHA)",
-      "route": "/article/omega-3-fatty-acids",
+      "queuePosition": 639,
+      "id": "probiotics-asd-dysbiosis",
+      "title": "Probiotics for ASD Dysbiosis",
+      "route": "/article/probiotics-asd-dysbiosis",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
     },
     {
-      "queuePosition": 634,
-      "id": "plant-based-diet-ckd",
-      "title": "Plant-Based Diet for CKD",
-      "route": "/article/plant-based-diet-ckd",
+      "queuePosition": 640,
+      "id": "probiotics-thyroid",
+      "title": "Probiotics for Hashimoto's Thyroiditis",
+      "route": "/article/probiotics-thyroid",
       "category": "intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention"
@@ -18456,7 +18569,13 @@
       "route": "/article/metformin-intervention",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The intervention route and separate canonical `metformin` entity route identify the same drug with overlapping evidence, but no canonical merge, alias, or governed media-reuse relationship exists; the intervention route also does not select neutral metformin versus hydrochloride product or formulation.",
+        "requiredResolution": "Merge or alias the duplicate Metformin routes, or adopt an explicit one-asset multi-route reuse policy; then select neutral metformin or an exact salt, hydration state, formulation, route, dose, population, comparator, assay, endpoint, and claim boundary."
+      }
     },
     {
       "queuePosition": 630,
@@ -18469,7 +18588,13 @@
       "route": "/article/multi-strain-synbiotic-schizophrenia",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The trial fixes a capsule schedule, twelve organism names, 10^9 CFU, 21 mg fructooligosaccharide, and manufacturer, but not twelve strain accessions or a visually verifiable per-strain composition; all three local source identifiers also contain erroneous `.md` suffixes.",
+        "requiredResolution": "Correct the three source identifiers; recover exact strain accessions, per-strain viable counts and allocation, fructooligosaccharide identity, product lot and capsule composition, storage and dosing protocol, population, comparator, specimen, assay, time point, endpoint, and a non-promotional representation plan."
+      }
     },
     {
       "queuePosition": 631,
@@ -18482,7 +18607,13 @@
       "route": "/article/nac-autism",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source condition-specific route names the same N-acetyl-L-cysteine identity already represented by the reviewed canonical `n-acetyl-cysteine` asset while adding trial, dose, mechanism, chelation, tolerability, and efficacy claims.",
+        "requiredResolution": "Link the claimed trial evidence and reconcile this route as a condition-specific section or alias of canonical NAC, or define a governed media-reuse relationship; then specify formulation, dose, population, comparator, outcome, safety boundary, and evidence tier."
+      }
     },
     {
       "queuePosition": 632,
@@ -18495,7 +18626,13 @@
       "route": "/article/nac-supplementation",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source cross-condition route duplicates the canonical N-acetyl-L-cysteine identity while combining multiple formulations, doses, populations, metal claims, mechanisms, efficacy, and safety advice.",
+        "requiredResolution": "Merge or relate the route to canonical NAC through an explicit media-reuse policy, add direct evidence, and select exact chemical or salt state, product and formulation, route, dose, population, comparator, assay, endpoint, and safety boundary."
+      }
     },
     {
       "queuePosition": 633,
@@ -18508,7 +18645,15 @@
       "route": "/article/omega-3-fatty-acids",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "rejected",
+      "rejectedMedia": {
+        "batchId": "interventions-109",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual and programmatic alpha-field audit",
+        "disposition": "rejected-incorrect-heavy-atom-count-transparent-background-and-glow",
+        "reason": "The upper model has 21 graphite centers and six chain double-bond pairs rather than EPA's required 20 and five; the lower has 25 graphite centers and eight pairs rather than DHA's required 22 and six. The source also has 1,433,998 fully transparent pixels, 138,866 intermediate-alpha pixels, no opaque pixels, and broad prohibited glow or haze.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must reproduce exactly 20-plus-2 and 22-plus-2 heavy-atom centers, five and six all-cis chain double bonds, two separate complete graphs, an encoded opaque uniform pale cool field, zero glow or haze, and broad crop-safe margins."
+      }
     },
     {
       "queuePosition": 634,
@@ -18521,7 +18666,13 @@
       "route": "/article/plant-based-diet-ckd",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The broad plant-based-diet descriptor does not select foods, preparation, protein and energy targets, potassium and phosphorus management, CKD stage, duration, comparator, adherence, assay, or endpoint, and the local route has zero linked sources.",
+        "requiredResolution": "Link direct evidence and choose one CKD-stage-specific protocol with complete foods, quantities, preparation, protein and energy targets, potassium and phosphorus safety rules, duration, population, comparator, adherence measure, specimen, assay, time point, and endpoint."
+      }
     },
     {
       "queuePosition": 635,
