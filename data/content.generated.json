@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T07:52:43.436Z",
+  "_generated": "2026-09-07T08:23:31.254Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -612,15 +612,15 @@
           "score": 10
         },
         {
-          "id": "dysbiosis",
-          "score": 10
-        },
-        {
           "id": "pathogen-metal-acquisition",
           "score": 10
         },
         {
           "id": "escherichia-coli",
+          "score": 9
+        },
+        {
+          "id": "faecalibacterium-prausnitzii",
           "score": 9
         }
       ]
@@ -18991,7 +18991,7 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 126
+          "score": 122
         },
         {
           "id": "metal-disease-matrix",
@@ -24557,11 +24557,11 @@
           "score": 25
         },
         {
-          "id": "dysbiosis",
-          "score": 24
+          "id": "depression",
+          "score": 22
         },
         {
-          "id": "depression",
+          "id": "dysbiosis",
           "score": 22
         },
         {
@@ -29828,15 +29828,15 @@
           "score": 20
         },
         {
-          "id": "dysbiosis",
-          "score": 20
-        },
-        {
           "id": "arsenic",
           "score": 18
         },
         {
           "id": "depression",
+          "score": 18
+        },
+        {
+          "id": "dysbiosis",
           "score": 18
         },
         {
@@ -52959,7 +52959,7 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 18
+          "score": 16
         },
         {
           "id": "actinomyces",
@@ -55243,8 +55243,8 @@
           "score": 23
         },
         {
-          "id": "dysbiosis",
-          "score": 22
+          "id": "streptococcus-pneumoniae",
+          "score": 21
         }
       ]
     },
@@ -60347,10 +60347,6 @@
           "score": 8
         },
         {
-          "id": "dysbiosis",
-          "score": 8
-        },
-        {
           "id": "type-2-diabetes",
           "score": 8
         },
@@ -60364,6 +60360,10 @@
         },
         {
           "id": "olsenella",
+          "score": 7
+        },
+        {
+          "id": "porphyromonas",
           "score": 7
         }
       ]
@@ -80446,7 +80446,6 @@
         "mendelian-randomization",
         "metabolomics",
         "metal-dependent-virulence",
-        "metal-resistance-genes",
         "methylation",
         "microbial-metallomics",
         "microbiome-derived-metabolites",
@@ -80501,7 +80500,6 @@
         "virome",
         "zinc-metalloprotease",
         "zonulin",
-        "pancreatic-cancer-signature",
         "probiotics-general",
         "vitamin-d-supplementation",
         "stop-broad-spectrum-antibiotics-dysbiosis",
@@ -80515,7 +80513,7 @@
         },
         {
           "id": "cadmium",
-          "score": 215
+          "score": 211
         },
         {
           "id": "nickel",
@@ -80523,15 +80521,11 @@
         },
         {
           "id": "zinc",
-          "score": 186
+          "score": 184
         },
         {
           "id": "lead",
           "score": 183
-        },
-        {
-          "id": "colorectal-cancer",
-          "score": 136
         },
         {
           "id": "cardiovascular-disease",
@@ -80540,6 +80534,10 @@
         {
           "id": "colorectal-cancer",
           "score": 134
+        },
+        {
+          "id": "colorectal-cancer",
+          "score": 132
         }
       ]
     },
@@ -98493,7 +98491,7 @@
         {
           "heading": "Key Metal Resistance Systems",
           "level": 2,
-          "body": "| Gene/System | Metal Target | Mechanism | Notable Carriers |\n|-------------|-------------|-----------|-----------------|\n| cadA | Cadmium, zinc | P-type ATPase efflux pump | *Staphylococcus*, [[enterococcus]], [[dysbiosis|listeria-monocytogenes]] |\n| arsC / arsABC | Arsenic | Arsenate reductase + efflux | Widely distributed; *E. coli*, [[pseudomonas-aeruginosa]] |\n| merA / merB | Mercury | Mercuric reductase (Hg2+ to Hg0) | *Pseudomonas*, *Serratia*, *Staphylococcus* |\n| tcrB | Copper | Copper efflux | [[enterococcus-faecium]] — co-located with vanA and ermB |\n| czc operon | Cadmium, zinc, cobalt | Cation-diffusion facilitator efflux | [[pseudomonas-aeruginosa]], *Ralstonia* |\n| czcD | Zinc, cadmium | Efflux transporter | *Cupriavidus*, [[clostridioides-difficile]] |"
+          "body": "| Gene/System | Metal Target | Mechanism | Notable Carriers |\n|-------------|-------------|-----------|-----------------|\n| cadA | Cadmium, zinc | P-type ATPase efflux pump | *Staphylococcus*, [[enterococcus]], [[listeria-monocytogenes]] |\n| arsC / arsABC | Arsenic | Arsenate reductase + efflux | Widely distributed; *E. coli*, [[pseudomonas-aeruginosa]] |\n| merA / merB | Mercury | Mercuric reductase (Hg2+ to Hg0) | *Pseudomonas*, *Serratia*, *Staphylococcus* |\n| tcrB | Copper | Copper efflux | [[enterococcus-faecium]] — co-located with vanA and ermB |\n| czc operon | Cadmium, zinc, cobalt | Cation-diffusion facilitator efflux | [[pseudomonas-aeruginosa]], *Ralstonia* |\n| czcD | Zinc, cadmium | Efflux transporter | *Cupriavidus*, [[clostridioides-difficile]] |"
         },
         {
           "heading": "Co-Selection with Antibiotic Resistance",
@@ -98519,7 +98517,7 @@
       "wikilinks": [
         "co-selection",
         "enterococcus",
-        "dysbiosis",
+        "listeria-monocytogenes",
         "pseudomonas-aeruginosa",
         "enterococcus-faecium",
         "clostridioides-difficile",
@@ -120919,7 +120917,7 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 134
+          "score": 132
         },
         {
           "id": "iron",
@@ -126759,7 +126757,7 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 69
+          "score": 67
         },
         {
           "id": "iron",
@@ -131207,7 +131205,7 @@
       "related": [
         {
           "id": "dysbiosis",
-          "score": 73
+          "score": 71
         },
         {
           "id": "cadmium",
@@ -143259,7 +143257,7 @@
               "role": "Butyrate/propionate producer -- depleted; phages targeting Roseburia enriched in immunotherapy responders"
             },
             {
-              "taxon": "[[dysbiosis|romboutsia]]",
+              "taxon": "[[romboutsia]]",
               "role": "MR-confirmed protective (OR 0.87) -- depleted in PDAC across multiple sensitivity analyses"
             },
             {
@@ -143499,7 +143497,7 @@
         "streptococcus",
         "faecalibacterium-prausnitzii",
         "roseburia",
-        "dysbiosis",
+        "romboutsia",
         "senegalimassilia",
         "colorectal-cancer",
         "type-2-diabetes",
@@ -196257,10 +196255,6 @@
       },
       {
         "source": "metal-resistance-genes",
-        "target": "dysbiosis"
-      },
-      {
-        "source": "metal-resistance-genes",
         "target": "pseudomonas-aeruginosa"
       },
       {
@@ -204062,10 +204056,6 @@
       {
         "source": "pancreatic-cancer-signature",
         "target": "roseburia"
-      },
-      {
-        "source": "pancreatic-cancer-signature",
-        "target": "dysbiosis"
       },
       {
         "source": "pancreatic-cancer-signature",
@@ -213227,7 +213217,7 @@
             "role": "Butyrate/propionate producer -- depleted; phages targeting Roseburia enriched in immunotherapy responders"
           },
           {
-            "taxon": "[[dysbiosis|romboutsia]]",
+            "taxon": "[[romboutsia]]",
             "role": "MR-confirmed protective (OR 0.87) -- depleted in PDAC across multiple sensitivity analyses"
           },
           {
@@ -214202,7 +214192,7 @@
           "Pancreatic Cancer",
           "Pancreatic Cancer"
         ],
-        "score": 64,
+        "score": 67,
         "sharedMetals": [
           "copper",
           "cadmium",
@@ -214218,6 +214208,7 @@
           "streptococcus",
           "faecalibacterium-prausnitzii",
           "roseburia",
+          "romboutsia",
           "senegalimassilia"
         ],
         "sharedEcological": [
@@ -214262,6 +214253,7 @@
           "taxaDepleted": [
             "faecalibacterium-prausnitzii",
             "roseburia",
+            "romboutsia",
             "senegalimassilia"
           ]
         }
@@ -334768,7 +334760,7 @@
         {
           "id": "pancreatic-cancer-signature",
           "name": "Pancreatic Cancer",
-          "score": 64,
+          "score": 67,
           "sharedMetals": [
             "copper",
             "cadmium",
@@ -334784,6 +334776,7 @@
             "streptococcus",
             "faecalibacterium-prausnitzii",
             "roseburia",
+            "romboutsia",
             "senegalimassilia"
           ],
           "sharedEcological": [
@@ -381834,7 +381827,7 @@
         {
           "id": "pancreatic-cancer",
           "name": "Pancreatic Cancer",
-          "score": 64,
+          "score": 67,
           "sharedMetals": [
             "copper",
             "cadmium",
@@ -381850,6 +381843,7 @@
             "streptococcus",
             "faecalibacterium-prausnitzii",
             "roseburia",
+            "romboutsia",
             "senegalimassilia"
           ],
           "sharedEcological": [
@@ -395207,18 +395201,16 @@
         "id": "cluster-4",
         "members": [
           "crohns-disease-signature",
-          "inflammatory-bowel-disease-signature",
-          "crohns-disease"
+          "inflammatory-bowel-disease-signature"
         ],
         "memberNames": [
           "Crohn's Disease -- Microbiome Signature",
-          "Inflammatory Bowel Disease -- Microbiome Signature",
-          "Crohn's Disease"
+          "Inflammatory Bowel Disease -- Microbiome Signature"
         ],
         "dominantMetals": [
-          "glutathione",
           "iron-mucosal",
-          "copper"
+          "copper",
+          "zinc"
         ],
         "dominantTaxa": [
           "escherichia-coli",
@@ -395226,21 +395218,19 @@
           "ruminococcus-gnavus"
         ],
         "dominantEcological": [
-          "barrier-dysfunction",
-          "ferroptosis"
+          "ferroptosis",
+          "butyrate-collapse"
         ]
       },
       {
         "id": "cluster-5",
         "members": [
           "endometriosis",
-          "endometriosis-signature",
-          "obesity"
+          "endometriosis-signature"
         ],
         "memberNames": [
           "Endometriosis",
-          "Endometriosis -- Microbiome Signature",
-          "Obesity"
+          "Endometriosis -- Microbiome Signature"
         ],
         "dominantMetals": [
           "zinc",
@@ -395311,16 +395301,12 @@
         "members": [
           "cardiovascular-disease",
           "obesity",
-          "obesity-signature",
-          "type-2-diabetes-signature",
-          "type-2-diabetes"
+          "obesity-signature"
         ],
         "memberNames": [
           "Cardiovascular Disease",
           "Obesity",
-          "Obesity",
-          "Type 2 Diabetes",
-          "Type 2 Diabetes"
+          "Obesity"
         ],
         "dominantMetals": [
           "nickel",
@@ -395330,11 +395316,10 @@
         "dominantTaxa": [
           "enterobacteriaceae",
           "escherichia-coli",
-          "faecalibacterium-prausnitzii"
+          "streptococcus"
         ],
         "dominantEcological": [
-          "hypoxia",
-          "endotoxemia"
+          "hypoxia"
         ]
       },
       {
@@ -395385,33 +395370,9 @@
           "multi-compartment-oncobiosis",
           "SCFA-depletion"
         ]
-      },
-      {
-        "id": "cluster-11",
-        "members": [
-          "cerebral-palsy",
-          "epilepsy-signature"
-        ],
-        "memberNames": [
-          "Cerebral Palsy",
-          "Epilepsy"
-        ],
-        "dominantMetals": [
-          "arsenic",
-          "copper",
-          "iron"
-        ],
-        "dominantTaxa": [
-          "streptococcus",
-          "enterococcus",
-          "akkermansia-muciniphila"
-        ],
-        "dominantEcological": [
-          "SCFA-depletion"
-        ]
       }
     ],
-    "maxScore": 64
+    "maxScore": 67
   },
   "sourceLookup": {
     "16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis": {

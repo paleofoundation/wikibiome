@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T07:54:28.736Z",
+  "generatedAt": "2026-09-07T08:24:42.594Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
+  "sourceCommit": "1e427339f573860a1df67aa529e22459a699c171",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 3536,
+  "revisions": 3538,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -26236,6 +26236,15 @@
       ],
       "revisions": [
         {
+          "hash": "1e427339f573860a1df67aa529e22459a699c171",
+          "date": "2026-09-07T11:23:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Correct aliased concept targets",
+          "path": "wiki/concepts/metal-resistance-genes.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -31776,6 +31785,15 @@
         "wiki/signatures/pancreatic-cancer-signature.md"
       ],
       "revisions": [
+        {
+          "hash": "1e427339f573860a1df67aa529e22459a699c171",
+          "date": "2026-09-07T11:23:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Correct aliased concept targets",
+          "path": "wiki/signatures/pancreatic-cancer-signature.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
