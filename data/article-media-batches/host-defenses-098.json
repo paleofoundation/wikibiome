@@ -19,7 +19,18 @@
     "mediaDescription": "Scientific algorithmic teaching reconstruction, not a photograph, micrograph, scan, assay result, or diagnostic image",
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
+  "controlAcceptedReviewManifestSha256": "78af215d4c5beaa7ce54266e7b368eb32e773554b43866cb0e603ebe92db9a66",
+  "controlAcceptedPromptEvidenceSha256": "56f6b73a7aeb95ab350f30b31957b936f5d09b9edb17753835028340b175423f",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-one-quarantined-five-scientific-holds",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "51bee94b297b7209e48df37fdeffb016e6639a11",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific and visual audit",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": ["dyshomeostasis", "ferritin", "ferroportin", "glutathione", "hepcidin", "ifn-gamma"]
+  },
   "initialAuditCommit": "882cf62",
   "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Five scientifically underbounded routes received no prompt or call. Reduced L-glutathione received exactly one immutable built-in generation call. Native inspection and programmatic color segmentation observed twenty-four heavy-atom centers—twelve graphite carbon-context, three blue nitrogen-context, eight rose oxygen-context, and one gold sulfur-context—rather than the required twenty centers and 10/3/6/1 composition. The displayed graph also contains an extra two-oxygen carbonyl unit directly joined to a nitrogen. Prompt intent was never treated as observed output, and the exact original is quarantined non-public.",
