@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "host-defenses-097",
   "category": "host-defenses",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "b95cb9551ba06fc667adc973cc74c7c2aec7aa2c",
   "generator": "OpenAI built-in image generation",
@@ -19,6 +19,8 @@
     "sourceUse": "Controlled scientific records supplied identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "e06ea9e",
+  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Only exact L-cysteine is cleared for one immutable heavy-atom connectivity call. Antimicrobial metals, autoimmunity, biofilm, calprotectin, and dietary iron-gut ecology fail material, process, organism, molecular-state, specimen, or network-scope gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -83,7 +85,7 @@
       "assetType": "host-defense",
       "revision": 1,
       "decision": "cleared-for-single-generation-call",
-      "generationStatus": "audit-complete-awaiting-prompt-freeze",
+      "generationStatus": "prompt-frozen-awaiting-call",
       "controlledIdentifier": "PubChem:5862;ChEBI:17561;MeSH:D003545;InChIKey:XUJNEKJLAYXESH-REOHCLBHSA-N",
       "promptSha256": "91fd766aa47bcc8f4088dbe065379cccd5028b66326c8c0fb41d7350c237683b",
       "scientificReferences": [
