@@ -59,7 +59,7 @@ IS is one of the most well-characterized uremic toxins in [[chronic-kidney-disea
 
 IS is a significant driver of cardiovascular disease in both CKD and non-CKD populations:
 
-- Promotes vascular inflammation and endothelial dysfunction.
+- Promotes vascular [[inflammation]] and endothelial dysfunction.
 - Induces a procoagulant state by increasing tissue factor expression.
 - Inhibits endothelial wound healing.
 - Shows escalation from dysmetabolism to ischemic heart disease in the MetaCardis cohort trajectory [[paeslack-2022-tryptophan-metabolites-vascular-inflammation-cvd]].

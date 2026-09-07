@@ -29,7 +29,7 @@ Serotonin is synthesized from tryptophan, an essential amino acid obtained exclu
 - Serotonin pathway: Tryptophan → 5-HTP → 5-HT (serotonin). Rate-limited by TPH1 (gut) and TPH2 (brain).
 - [[kynurenine]] pathway: Tryptophan → kynurenine → downstream metabolites. Rate-limited by IDO1 (immune cells; IFN-gamma-inducible) and TDO (liver; constitutive). Both enzymes require heme iron.
 
-~95% of tryptophan is catabolized via the kynurenine pathway under normal conditions. Inflammation tips this balance further: IDO1 induction by inflammatory cytokines shunts tryptophan away from serotonin toward kynurenine -- the mechanistic basis for serotonin depletion in inflammatory depression [[capuco-2020-gut-microbiome-dysbiosis-depression-review]].
+~95% of tryptophan is catabolized via the kynurenine pathway under normal conditions. [[inflammation]] tips this balance further: IDO1 induction by inflammatory cytokines shunts tryptophan away from serotonin toward kynurenine -- the mechanistic basis for serotonin depletion in inflammatory depression [[capuco-2020-gut-microbiome-dysbiosis-depression-review]].
 
 A third pathway -- [[indoles]] production by gut bacteria (via tryptophanase) -- also competes for tryptophan, further reducing precursor availability for serotonin synthesis.
 
@@ -81,4 +81,4 @@ Peripheral (gut) serotonin does not cross the [[blood-brain-barrier]]. Its funct
 - [[ahr]] -- AhR activation by 3-IAld promotes TPH1/serotonin
 - [[microbiome-derived-metabolites]] -- Microbial tryptophan metabolism
 - [[iron]] -- IDO1/TDO require heme iron
-- [[inflammation]] -- IFN-gamma induces IDO1, depleting serotonin
+- inflammation -- IFN-gamma induces IDO1, depleting serotonin

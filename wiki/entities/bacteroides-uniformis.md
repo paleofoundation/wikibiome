@@ -28,7 +28,7 @@ A Gram-negative, obligate anaerobic bacterium within the phylum Bacteroidetes an
 
 - Possesses an extensive repertoire of polysaccharide utilization loci (PULs) enabling degradation of complex dietary fibers, resistant starches, and host-derived glycans.
 - Produces [[short-chain-fatty-acids]] -- primarily acetate and propionate -- from fiber fermentation, contributing to colonocyte energy supply and immune regulation.
-- Dietary fiber intake directly increases *B. uniformis* abundance. In a cohort of healthy men, higher fiber consumption correlated with enrichment of *B. uniformis* alongside reduced systemic inflammation markers [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]].
+- Dietary fiber intake directly increases *B. uniformis* abundance. In a cohort of healthy men, higher fiber consumption correlated with enrichment of *B. uniformis* alongside reduced systemic [[inflammation]] markers [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]].
 - Participates in [[bile-acid-metabolism]] through bile salt hydrolase activity, influencing the enterohepatic circulation of bile acids.
 
 ## Immune Modulation

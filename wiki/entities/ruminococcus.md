@@ -123,6 +123,6 @@ Wikipedia's *Ruminococcus* entry focuses on starch degradation and general fiber
 - [[anaerostipes]] — downstream beneficiary of R. bromii's starch degradation cascade
 - [[lachnospiraceae]] — taxonomic overlap; former Clostridium cluster XIV members
 - dysbiosis — species-level shifts within *Ruminococcus* signal disease-specific dysbiosis patterns
-- [[inflammation]] — *R. gnavus* polysaccharides directly activate TNF-alpha/TLR4
+- inflammation — *R. gnavus* polysaccharides directly activate TNF-alpha/TLR4
 - [[iron]] — Fe-S clusters essential for anaerobic metabolism across the genus
 - [[lead]] — prenatal Pb depletes R. gnavus and R. bromii-associated community members

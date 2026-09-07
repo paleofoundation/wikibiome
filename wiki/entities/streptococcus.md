@@ -53,7 +53,7 @@ A genus of Gram-positive facultative anaerobes that occupy niches ranging from b
 
 - Manganese availability modulates streptococcal virulence: MnSOD-deficient mutants show reduced survival in macrophages and attenuated pathogenicity in murine models [[akbari-2022-metal-homeostasis-streptococci]] [[martin-2022-manganese-homeostasis-stress-pathogenesis]].
 - In the throat and tonsil environment during acute infection, local manganese availability (vs. iron sequestration) may favor GAS expansion and persistence.
-- Calprotectin at inflammation sites sequesters manganese and zinc (and to some extent iron), and mis-metallation under combined Mn/Zn stress drives ROS damage in group B Streptococcus [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]].
+- Calprotectin at [[inflammation]] sites sequesters manganese and zinc (and to some extent iron), and mis-metallation under combined Mn/Zn stress drives ROS damage in group B Streptococcus [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]].
 
 ## Major Virulence Factors
 

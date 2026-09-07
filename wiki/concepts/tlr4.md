@@ -17,7 +17,7 @@ platform: wikibiome
 
 ## Overview
 
-Toll-like receptor 4 (TLR4) is the primary innate immune sensor for bacterial lipopolysaccharide (LPS) -- the endotoxin coating the outer membrane of all Gram-negative bacteria. TLR4 activation triggers the NF-kB signaling cascade, driving production of pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6, IL-8) that orchestrate the immune response. In the WikiBiome context, TLR4 is the molecular bridge between [[proteobacteria]] expansion (LPS source) and systemic inflammation -- and it is directly activated by nickel, creating a metal-immune axis unique to humans.
+Toll-like receptor 4 (TLR4) is the primary innate immune sensor for bacterial lipopolysaccharide (LPS) -- the endotoxin coating the outer membrane of all Gram-negative bacteria. TLR4 activation triggers the NF-kB signaling cascade, driving production of pro-inflammatory cytokines (TNF-alpha, IL-1beta, IL-6, IL-8) that orchestrate the immune response. In the WikiBiome context, TLR4 is the molecular bridge between [[proteobacteria]] expansion (LPS source) and systemic [[inflammation]] -- and it is directly activated by nickel, creating a metal-immune axis unique to humans.
 
 ## Signaling Cascade
 
@@ -95,7 +95,7 @@ LPS/TLR4/NF-kB cascade in endometriotic tissue drives HGF, VEGF, and inflammator
 - [[nickel]] -- Human-specific TLR4 activation
 - [[cadmium]] -- Cd-TLR4/NF-kB in diabetic nephropathy
 - [[butyrate]] -- TLR4 suppressor
-- [[inflammation]] -- TLR4 as master inflammatory switch
+- inflammation -- TLR4 as master inflammatory switch
 - [[necrotizing-enterocolitis]] -- TLR4 over-expression as disease driver
 - [[fusobacterium-nucleatum]] -- TLR4-mediated tumorigenesis
 - [[alpha-synuclein]] -- TLR4-mediated neuroinflammation

@@ -56,7 +56,7 @@ CP children show consistent depletion of SCFA-producing commensals [[huang-2019-
 
 ## Oral-Gut Inflammatory Axis
 
-A striking finding in CP is the 96% prevalence of periodontitis in affected children [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]], cross-sectional, n=93, far exceeding population norms. Salivary IL-1beta, IL-6, IL-8, and IL-10 are all elevated in constipated CP subjects, with oral inflammation strongly correlating with systemic IL-1beta (R=0.720). The oral-gut axis in CP operates through:
+A striking finding in CP is the 96% prevalence of periodontitis in affected children [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]], cross-sectional, n=93, far exceeding population norms. Salivary IL-1beta, IL-6, IL-8, and IL-10 are all elevated in constipated CP subjects, with oral [[inflammation]] strongly correlating with systemic IL-1beta (R=0.720). The oral-gut axis in CP operates through:
 
 - Swallowing dysfunction (common in CP) leads to aspiration of oral pathogens into the gut
 - Oral Streptococcus and Prevotella colonize the gut, maintaining chronic low-grade inflammation

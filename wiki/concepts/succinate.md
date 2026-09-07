@@ -19,7 +19,7 @@ karen_brain_primitives: [5]
 
 ## Overview
 
-Succinate is a Krebs cycle intermediate and a microbial metabolite produced by [[dialister]], Bacteroides, Prevotella, and other gut bacteria. Beyond its role in energy metabolism, succinate is a signaling molecule that activates GPR91 (SUCNR1) on immune cells and neurons, linking microbial metabolism to host inflammation and neurological function.
+Succinate is a Krebs cycle intermediate and a microbial metabolite produced by [[dialister]], Bacteroides, Prevotella, and other gut bacteria. Beyond its role in energy metabolism, succinate is a signaling molecule that activates GPR91 (SUCNR1) on immune cells and neurons, linking microbial metabolism to host [[inflammation]] and neurological function.
 
 ## Dual Role
 
@@ -35,4 +35,4 @@ Succinate is a Krebs cycle intermediate and a microbial metabolite produced by [
 - [[dialister]] — primary microbial succinate producer
 - [[short-chain-fatty-acids]] — related microbial metabolite class
 - [[metabolites]] — broader microbial metabolite context
-- [[inflammation]] — succinate-HIF-1α-IL-1β pro-inflammatory axis
+- inflammation — succinate-HIF-1α-IL-1β pro-inflammatory axis

@@ -32,13 +32,13 @@ Hypoxia in two key disease contexts:
 
 ## Mechanism
 
-Oxygen diffusion limitation: In normal mucosa, oxygen diffuses from capillaries through the epithelium. When mucosal inflammation increases epithelial permeability, infiltrating immune cells consume oxygen faster than it can be replenished. Epithelial tight-junction disruption (e.g., from [[intestinal-permeability|ZO-1]] loss) exacerbates the gradient.
+Oxygen diffusion limitation: In normal mucosa, oxygen diffuses from capillaries through the epithelium. When mucosal [[inflammation]] increases epithelial permeability, infiltrating immune cells consume oxygen faster than it can be replenished. Epithelial tight-junction disruption (e.g., from [[intestinal-permeability|ZO-1]] loss) exacerbates the gradient.
 
 HIF-1α signaling: Hypoxia-inducible factor 1-alpha (HIF-1α) is the master transcription factor sensing low oxygen. At pO₂ < 5%:
 
 - HIF-1α is stabilized (normally hydroxylated and degraded at normoxia)
 - HIF-1α dimerizes with HIF-1β and binds hypoxia response elements (HREs)
-- Upregulates genes for: angiogenesis (VEGF), glycolytic enzymes (PKM2, LDHA), immune evasion [[inflammation|pd-l1]]
+- Upregulates genes for: angiogenesis (VEGF), glycolytic enzymes (PKM2, LDHA), immune evasion pd-l1
 
 Metabolic consequences:
 - Obligate aerobes (e.g., [[faecalibacterium-prausnitzii|faecalibacterium]]) cannot survive; population crashes
@@ -56,13 +56,13 @@ Gut diseases with mucosal hypoxia:
 
 - [[crohns-disease]]: Chronic inflammation → epithelial barrier disruption → anoxic mucosa → [[escherichia-coli|AIEC]]-dominant [[dysbiosis]]
 - [[ulcerative-colitis|ulcerative colitis]]: Similar mechanism; hypoxia enables [[clostridioides-difficile|C. difficile]] proliferation in severe cases
-- [[colorectal-cancer]]: Dysplastic lesions are hypoxic; HIF-1α activates [[inflammation|pd-l1]], enabling immune evasion; tumors select for [[fusobacterium-nucleatum|Fusobacterium]] and other anaerobes
+- [[colorectal-cancer]]: Dysplastic lesions are hypoxic; HIF-1α activates pd-l1, enabling immune evasion; tumors select for [[fusobacterium-nucleatum|Fusobacterium]] and other anaerobes
 - [[obesity]]: Metabolic endotoxemia from Gram-negative bacteria correlates with local adipose tissue hypoxia
 
 Tumor microenvironments:
 - Solid tumors grow faster than their vascular supply; central tumor regions are severely hypoxic (pO₂ < 1%)
 - Hypoxia selects for anaerobic metabolism and tolerance to metabolic stress
-- HIF-1α drives metastatic potential, immune evasion ([[inflammation|pd-l1]], [[inflammation|tim-3]])
+- HIF-1α drives metastatic potential, immune evasion (pd-l1, tim-3)
 
 ## Metal Connections
 

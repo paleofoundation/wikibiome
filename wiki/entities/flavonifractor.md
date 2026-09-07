@@ -77,7 +77,7 @@ This degradation occurs in the proximal colon before flavonoids can be absorbed 
 - Significantly enriched in fibromyalgia patients versus healthy controls, with abundance correlating directly with symptom severity scores [[minerbi-2019-altered-microbiome-fibromyalgia]].
 - Confirmed as a reproducible finding in a meta-analysis of gut [[dysbiosis]] across chronic pain conditions [[goudman-2024-gut-dysbiosis-chronic-pain-meta-analysis]].
 - FMT from fibromyalgia patients to germ-free mice induced mechanical pain hypersensitivity, implicating the microbiome causally — and *Flavonifractor* is among the enriched taxa transferred in those experiments [[shtrozberg-2025-gut-microbiome-fibromyalgia-review]].
-- The co-depletion of *Faecalibacterium prausnitzii* and *Bifidobacterium* alongside *Flavonifractor* enrichment creates a dual loss: loss of butyrate-mediated anti-nociception and loss of flavonoid-mediated anti-inflammation.
+- The co-depletion of *Faecalibacterium prausnitzii* and *Bifidobacterium* alongside *Flavonifractor* enrichment creates a dual loss: loss of butyrate-mediated anti-nociception and loss of flavonoid-mediated anti-[[inflammation]].
 
 ### Chronic Kidney Disease
 

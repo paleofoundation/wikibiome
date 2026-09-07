@@ -71,7 +71,7 @@ The critical insight: dysbiosis doesn't just correlate with Th17/Treg imbalance 
 - [[immune-balance]] — broader immune equilibrium concept
 - [[interleukin-6]] — IL-6 tips TGF-beta signaling from Treg to Th17
 - [[tgf-beta]] — required for both Th17 and Treg differentiation (IL-6 decides which)
-- [[tnf-alpha]] — amplifies Th17-driven inflammation
+- [[tnf-alpha]] — amplifies Th17-driven [[inflammation]]
 - [[butyrate]] — primary microbial Treg inducer via HDAC/Foxp3
 - [[short-chain-fatty-acids]] — broader SCFA context
 - [[faecalibacterium-prausnitzii]] — butyrate producer driving Treg induction

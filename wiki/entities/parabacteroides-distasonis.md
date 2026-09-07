@@ -50,7 +50,7 @@ In a balanced gut, P. distasonis performs critical bile acid biotransformations 
 
 ## Conditions Associated
 
-Depletion of P. distasonis is consistently reported in [[obesity]], [[type-2-diabetes]], and [[inflammatory-bowel-disease]]. Animal studies show that oral supplementation with P. distasonis reduces adiposity, improves glucose tolerance, and attenuates intestinal inflammation — positioning it as a candidate next-generation probiotic.
+Depletion of P. distasonis is consistently reported in [[obesity]], [[type-2-diabetes]], and [[inflammatory-bowel-disease]]. Animal studies show that oral supplementation with P. distasonis reduces adiposity, improves glucose tolerance, and attenuates intestinal [[inflammation]] — positioning it as a candidate next-generation probiotic.
 
 ## Cross-References
 

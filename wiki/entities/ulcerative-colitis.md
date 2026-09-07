@@ -20,14 +20,14 @@ wikipedia_differentiation: "Iron paradox analysis distinguishing true deficiency
 
 # Ulcerative Colitis (UC)
 
-A chronic [[inflammatory-bowel-disease]] characterized by continuous mucosal inflammation of the colon, extending proximally from the rectum. Unlike [[crohns-disease]], UC is limited to the colon, affects only the mucosa/submucosa (not transmural), produces no skip lesions, and has no granulomas. From a metallomics perspective, UC presents a distinct metal signature from Crohn's, driven by chronic blood loss, mucosal inflammation, and a microbiome collapse that differs in character from the Crohn's pattern.
+A chronic [[inflammatory-bowel-disease]] characterized by continuous mucosal [[inflammation]] of the colon, extending proximally from the rectum. Unlike [[crohns-disease]], UC is limited to the colon, affects only the mucosa/submucosa (not transmural), produces no skip lesions, and has no granulomas. From a metallomics perspective, UC presents a distinct metal signature from Crohn's, driven by chronic blood loss, mucosal inflammation, and a microbiome collapse that differs in character from the Crohn's pattern.
 
 ## Metallomic Signature
 
 ### Iron -- The Bleeding Metal
 Iron deficiency is the dominant metal abnormality in UC, driven by chronic mucosal bleeding:
 - Prevalence: 60-80% of active UC patients have iron deficiency; 30-40% have frank anemia
-- Mechanism: Chronic blood loss from ulcerated mucosa + hepcidin elevation from [[inflammation]] → functional iron deficiency even with adequate stores
+- Mechanism: Chronic blood loss from ulcerated mucosa + hepcidin elevation from inflammation → functional iron deficiency even with adequate stores
 - The iron paradox: Oral iron supplementation worsens UC by feeding iron-dependent pathobionts (E. coli, Klebsiella), increasing [[oxidative-stress]] in the inflamed mucosa, and shifting the microbiome toward [[dysbiosis]]. IV iron bypasses the gut but still raises hepcidin.
 - Ferritin is unreliable as an iron marker in UC (acute phase reactant; elevated by inflammation)
 
@@ -67,7 +67,7 @@ UC has a characteristic dysbiotic signature:
 ### Metabolic Consequences
 - [[short-chain-fatty-acids]] (especially butyrate) are profoundly reduced in UC
 - Butyrate is the primary fuel for colonocytes -- its depletion creates an energy crisis in the epithelium
-- Reduced SCFA → weakened [[intestinal-permeability|barrier function]] → increased translocation → more [[inflammation]] → a vicious cycle
+- Reduced SCFA → weakened [[intestinal-permeability|barrier function]] → increased translocation → more inflammation → a vicious cycle
 - Bile acid metabolism is altered (reduced secondary bile acids from microbial deconjugation)
 
 ## Distinguishing UC from Crohn's: The Metallomic View
@@ -96,7 +96,7 @@ UC has the strongest FMT evidence of any IBD subtype:
 A UC-specific vicious cycle:
 1. Mucosal ulceration → bleeding → luminal iron excess
 2. Luminal iron feeds iron-dependent E. coli and Enterobacteriaceae
-3. Pathobiont expansion → more [[inflammation]] → more tissue damage
+3. Pathobiont expansion → more inflammation → more tissue damage
 4. More bleeding → more luminal iron → cycle accelerates
 5. Simultaneously, systemic iron deficiency worsens (blood loss outpaces absorption)
 

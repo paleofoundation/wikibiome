@@ -65,7 +65,7 @@ Ferroptosis -- iron-dependent regulated cell death driven by lipid peroxidation 
 ### Distinct Tumor-Associated Microbiome
 - Ovarian cancer tissues harbor a distinct microbiome compared to normal ovarian tissue and adjacent peritoneum
 - Fusobacterium enrichment has been documented in ovarian cancer tissue, paralleling its well-established role in colorectal cancer
-- *Fusobacterium nucleatum* promotes tumor progression through FadA adhesin binding to E-cadherin, activating beta-catenin signaling and NF-kB-mediated inflammation
+- *Fusobacterium nucleatum* promotes tumor progression through FadA adhesin binding to E-cadherin, activating beta-catenin signaling and NF-kB-mediated [[inflammation]]
 - See [[fusobacterium]] for detailed mechanisms
 
 ### Peritoneal Microbiome

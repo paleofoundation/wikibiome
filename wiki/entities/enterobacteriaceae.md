@@ -71,7 +71,7 @@ Enterobacteriaceae expansion is enriched in virtually every disease state:
 - [[colorectal-cancer]] -- colibactin genotoxicity and iron-rich tumor niche
 - [[parkinsons-disease]] -- LPS-driven neuroinflammation via gut-brain axis
 - dysbiosis -- their bloom is THE hallmark of dysbiotic gut states
-- [[inflammation]] -- LPS/TLR4/NF-kB endotoxemia cascade
+- inflammation -- LPS/TLR4/NF-kB endotoxemia cascade
 - [[gut-metal-microbiome]] -- metal-tolerant; bloom under heavy metal exposure
 - [[ferroptosis]] -- iron-dependent; may contribute to iron-driven cell death pathways
 - [[biofilm]] -- forms iron-dependent biofilms that harbor metal and antibiotic resistance

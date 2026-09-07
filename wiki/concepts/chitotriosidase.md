@@ -40,7 +40,7 @@ Chitotriosidase connects to the metallomics framework through several pathways:
 
 - Gaucher disease — CHIT1 is the primary clinical biomarker; 100-1,000x serum elevation reflects glucocerebroside-laden macrophage activation.
 - CHIT1 null allele — A 24-bp duplication (dup24) in exon 10 causes complete enzyme deficiency in ~6% of the population and partial deficiency in ~35%. Null carriers may have altered susceptibility to fungal colonization — a potential modifier of [[mycobiome]] composition.
-- CKD and dialysis — Elevated in chronic kidney disease, correlating with inflammation burden. May serve as a mycobiome-driven inflammation biomarker alongside FLC kappa.
+- CKD and dialysis — Elevated in chronic kidney disease, correlating with [[inflammation]] burden. May serve as a mycobiome-driven inflammation biomarker alongside FLC kappa.
 - IBD — Elevated in [[crohns-disease]] and [[ulcerative-colitis]], reflecting interkingdom immune activation.
 
 ## Cross-References

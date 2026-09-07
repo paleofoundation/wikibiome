@@ -30,7 +30,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Ruminococcus gnavus
 
-A Gram-positive obligate anaerobe that has emerged as a pro-inflammatory pathobiont enriched across multiple disease states including [[crohns-disease]], [[depression]], and [[multiple-sclerosis]]. *R. gnavus* produces a species-specific inflammatory polysaccharide that activates intestinal innate lymphoid cells (ILCs) and drives persistent intestinal inflammation. Unlike the commensal species *Ruminococcus bromii* and *Ruminococcus faecis*, *R. gnavus* represents a [[dysbiosis]] marker where iron and zinc availability modulate its pathogenic potential.
+A Gram-positive obligate anaerobe that has emerged as a pro-inflammatory pathobiont enriched across multiple disease states including [[crohns-disease]], [[depression]], and [[multiple-sclerosis]]. *R. gnavus* produces a species-specific inflammatory polysaccharide that activates intestinal innate lymphoid cells (ILCs) and drives persistent intestinal [[inflammation]]. Unlike the commensal species *Ruminococcus bromii* and *Ruminococcus faecis*, *R. gnavus* represents a [[dysbiosis]] marker where iron and zinc availability modulate its pathogenic potential.
 
 ## The Inflammatory Polysaccharide
 

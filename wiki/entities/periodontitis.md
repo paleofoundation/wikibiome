@@ -25,7 +25,7 @@ platform: wikibiome
 
 # Periodontitis
 
-Periodontitis is a chronic inflammatory disease of the periodontal tissues (gingiva, periodontal ligament, alveolar bone) driven by a dysbiotic polymicrobial biofilm in the subgingival pocket. The keystone pathogen is [[porphyromonas-gingivalis]], whose zinc-dependent gingipains drive tissue destruction, immune evasion, and systemic dissemination. Periodontitis affects ~50% of adults globally and is increasingly recognized as a driver of systemic disease through the oral-systemic inflammation axis.
+Periodontitis is a chronic inflammatory disease of the periodontal tissues (gingiva, periodontal ligament, alveolar bone) driven by a dysbiotic polymicrobial biofilm in the subgingival pocket. The keystone pathogen is [[porphyromonas-gingivalis]], whose zinc-dependent gingipains drive tissue destruction, immune evasion, and systemic dissemination. Periodontitis affects ~50% of adults globally and is increasingly recognized as a driver of systemic disease through the oral-systemic [[inflammation]] axis.
 
 ## Oral-Systemic Disease Connections
 

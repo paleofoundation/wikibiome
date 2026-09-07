@@ -61,7 +61,7 @@ Proteobacteria enrichment is the most consistent microbiome signature across inf
 
 The Proteobacteria bloom is not random -- it reflects specific ecological advantages these organisms possess in the inflamed gut:
 
-1. Facultative aerobiosis: Unlike obligate anaerobe commensals ([[firmicutes]], [[bacteroidetes]]), Proteobacteria can respire oxygen. When inflammation disrupts the epithelial barrier and oxygenates the normally anaerobic lumen, Proteobacteria gain a respiratory advantage [[sampah-2021-prenatal-immunity-nec]].
+1. Facultative aerobiosis: Unlike obligate anaerobe commensals ([[firmicutes]], [[bacteroidetes]]), Proteobacteria can respire oxygen. When [[inflammation]] disrupts the epithelial barrier and oxygenates the normally anaerobic lumen, Proteobacteria gain a respiratory advantage [[sampah-2021-prenatal-immunity-nec]].
 
 2. Superior iron acquisition: Proteobacteria encode the most sophisticated [[siderophores-metallophores]] systems in the gut. When [[calprotectin]] and [[lactoferrin]] sequester free iron, organisms with high-affinity siderophores (enterobactin Kd ~10^-52 M) outcompete commensals for the remaining iron [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
 

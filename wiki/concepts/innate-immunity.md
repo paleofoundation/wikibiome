@@ -42,7 +42,7 @@ The innate immune system shapes the microbiome, and the microbiome shapes innate
 - TLR signaling: Microbial LPS (TLR4), lipoteichoic acid (TLR2), flagellin (TLR5), and CpG DNA (TLR9) train innate immune responses [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]].
 - Peptidoglycan recognition proteins (PGRPs): Kill bacteria via metal-mediated oxidative, thiol, and osmotic stress — a direct intersection of innate immunity and metal toxicity [[kashyap-2014-pgrps-kill-bacteria-metal-stress]].
 - Intestinal immunity: Iron homeostasis in the gut directly modulates innate immune cell function [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
-- Crohn's disease: Defective innate immunity (NOD2 mutations) leads to impaired bacterial clearance and chronic inflammation [[haag-2015-intestinal-microbiota-innate-immunity-crohns]].
+- Crohn's disease: Defective innate immunity (NOD2 mutations) leads to impaired bacterial clearance and chronic [[inflammation]] [[haag-2015-intestinal-microbiota-innate-immunity-crohns]].
 
 ## Cross-References
 
@@ -52,4 +52,4 @@ The innate immune system shapes the microbiome, and the microbiome shapes innate
 - [[hepcidin]] — systemic iron regulation
 - [[toll-like-receptors]] — pattern recognition driving innate responses
 - [[nf-kappa-b]] — downstream signaling from pattern recognition
-- [[inflammation]] — innate immune activation driving chronic inflammation
+- inflammation — innate immune activation driving chronic inflammation

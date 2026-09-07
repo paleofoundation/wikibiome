@@ -71,7 +71,7 @@ Pseudomonas aeruginosa elastase:
 Diseases featuring bacterial zinc-metalloproteases:
 
 - [[endometriosis]]: [[bacteroides-fragilis|B. fragilis]] BFT toxin contributes to peritoneal lesion formation and immune dysfunction
-- [[crohns-disease]]: BFT-producing B. fragilis strains are enriched; toxin drives barrier disruption and chronic intestinal inflammation
+- [[crohns-disease]]: BFT-producing B. fragilis strains are enriched; toxin drives barrier disruption and chronic intestinal [[inflammation]]
 - Cystic fibrosis pulmonary infection: P. aeruginosa elastase degrades lung elastin and immune proteins; drives progressive lung destruction
 - [[colorectal-cancer]]: BFT-producing B. fragilis is associated with dysplasia and tumor progression
 - Wound infections: Vibrio and Aeromonas metalloproteases in marine/aquatic wound contamination cause rapid tissue necrosis

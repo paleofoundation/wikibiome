@@ -139,7 +139,7 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 3. Are metal-tolerant gut bacteria sufficient to drive PD? The microbial metallomics framework proposes that gut metal-stress selects for pathobionts, but direct evidence of causality is lacking.
 4. Why is Mn-parkinsonism distinct from idiopathic PD? Mn affects globus pallidus while Fe accumulates in substantia nigra -- different metal, different brain region, similar clinical phenotype. What determines the regional specificity?
 5. Can ferroptosis be specifically blocked in dopaminergic neurons? GPX4 activators and iron chelators work systemically; targeted delivery to the substantia nigra would be transformative.
-6. What is the relative contribution of vagal vs. systemic pathways? Alpha-synuclein propagates via vagus nerve; inflammation propagates systemically. Which dominates?
+6. What is the relative contribution of vagal vs. systemic pathways? Alpha-synuclein propagates via vagus nerve; [[inflammation]] propagates systemically. Which dominates?
 7. Nickel's role: Is dietary Ni exposure via its effects on gut pathogens (urease, hydrogenase) a modifiable PD risk factor?
 
 ## Comorbidities

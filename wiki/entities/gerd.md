@@ -30,7 +30,7 @@ The most striking metal connection in GERD is the role of dietary nickel in refr
 
 ### Mechanisms of Nickel-Mediated GERD
 - Dietary nickel is abundant in legumes, nuts, whole grains, chocolate, and canned foods -- staples of many "healthy" diets
-- Systemic nickel allergy can trigger mucosal inflammation in the esophagus and stomach upon ingestion of high-Ni foods
+- Systemic nickel allergy can trigger mucosal [[inflammation]] in the esophagus and stomach upon ingestion of high-Ni foods
 - Nickel-induced mast cell degranulation in esophageal tissue releases histamine, which stimulates acid secretion
 - The overlap between nickel sensitivity and eosinophilic esophagitis (EoE) may explain some refractory cases misdiagnosed as GERD
 - Patch testing for nickel allergy is not part of standard GERD workup, leading to chronic underdiagnosis

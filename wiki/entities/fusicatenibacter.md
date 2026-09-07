@@ -41,7 +41,7 @@ Fusicatenibacter is a Gram-positive obligate anaerobic genus within the Lachnosp
 
 ## Metal Dependencies
 
-Like other Lachnospiraceae, Fusicatenibacter requires iron for its fermentative enzymes but lacks aggressive iron acquisition systems. This makes it vulnerable to displacement by siderophore-producing Proteobacteria when luminal iron rises during inflammation — a pattern shared with [[roseburia-intestinalis]] and other butyrate producers.
+Like other Lachnospiraceae, Fusicatenibacter requires iron for its fermentative enzymes but lacks aggressive iron acquisition systems. This makes it vulnerable to displacement by siderophore-producing Proteobacteria when luminal iron rises during [[inflammation]] — a pattern shared with [[roseburia-intestinalis]] and other butyrate producers.
 
 ## Ecological Role
 

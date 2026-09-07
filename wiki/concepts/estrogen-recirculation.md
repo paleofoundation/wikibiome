@@ -41,7 +41,7 @@ The dysbiotic amplification: In healthy microbiota, [[lachnospiraceae]], [[faeca
 
 Estrogen recirculation is mechanistically linked to:
 
-- [[endometriosis]] — Amplified local estrogen via high β-glucuronidase in dysbiotic microbiota; sustained estrogen drives ectopic endometrial growth and inflammation [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]].
+- [[endometriosis]] — Amplified local estrogen via high β-glucuronidase in dysbiotic microbiota; sustained estrogen drives ectopic endometrial growth and [[inflammation]] [[uzuner-2023-bidirectional-relationship-endometriosis-microbiome]].
 - [[breast-cancer]] — Elevated systemic estrogen from hyperactive recirculation is a major risk factor; estrogen promotes proliferation of ER+ tumor cells. *Eggerthella*, *Bacteroides*, and *Escherichia* enrichment correlate with breast cancer incidence through the estrobolome mechanism (Plottel & Blaser 2011; Kwa et al. 2016) [[wu-2024-estrogens-androgens-microbiota-crc]].
 - [[pcos]] — Elevated androgens + recirculated estrogen drive irregular ovulation and metabolic dysfunction [[zim-2025-estrogen-gut-brain-axis-oral-contraceptives]].
 - [[endometriosis|uterine-fibroids]] — Estrogen-driven smooth muscle proliferation amplified by dysbiotic recirculation.

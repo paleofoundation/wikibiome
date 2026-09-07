@@ -47,7 +47,7 @@ Faecalibacterium depletion triggers a cascade:
 3. Lost oxygen consumption → luminal oxygenation → facultative anaerobe (Enterobacteriaceae) bloom.
 4. Lost competitive exclusion → pathobiont expansion.
 
-This single genus's loss explains why the same Enterobacteriaceae bloom, barrier failure, and systemic inflammation appear across such diverse conditions.
+This single genus's loss explains why the same Enterobacteriaceae bloom, barrier failure, and systemic [[inflammation]] appear across such diverse conditions.
 
 ## Metal Connection
 

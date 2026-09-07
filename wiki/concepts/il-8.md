@@ -25,7 +25,7 @@ IL-8 (CXCL8) is the primary neutrophil chemokine — it recruits neutrophils to 
 ## Key Interactions
 
 - Functional shielding: Mixed C. albicans + P. gingivalis biofilm caused near-complete IL-8 disappearance at 24h — gingipain RgpA rapidly degrades IL-8, and the fungal biofilm amplifies gingipain activity [[bartnicka-2020-candida-shields-pgingivalis-immune-evasion]].
-- GERD: Esophageal [[dysbiosis]] drives IL-8 via TLR2/TLR4 → NF-kB, contributing to esophageal inflammation [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]] [[ismail-2025-mechanisms-gerd-development-systematic-review]].
+- GERD: Esophageal [[dysbiosis]] drives IL-8 via TLR2/TLR4 → NF-kB, contributing to esophageal [[inflammation]] [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]] [[ismail-2025-mechanisms-gerd-development-systematic-review]].
 - Perinatal depression: Part of inflammatory biomarker profile [[silva-fernandes-2024-inflammatory-biomarkers-perinatal-depression]].
 
 ## Cross-References

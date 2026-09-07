@@ -36,7 +36,7 @@ The defining metabolic feature of Lachnospiraceae from a metallomics perspective
 - These iron-sulfur clusters are vulnerable to displacement by toxic metals. Lead exposure (100-500 ppm, 8 weeks) in mice significantly decreased Lachnospiraceae alongside Ruminococcaceae and [[oscillibacter]], while increasing oxidative stress defense pathways ([[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]], animal-model).
 - Cadmium exposure similarly depletes Lachnospiraceae members, shifting the community from saccharolytic (SCFA-producing) to proteolytic (toxin-producing) fermentation ([[liu-2023-cadmium-microbiota-metabolome-rats]], animal-model).
 
-This molecular vulnerability explains why Lachnospiraceae depletion is the most universal microbiome signal across diseases: any condition involving metal dysregulation, oxidative stress, or inflammation will preferentially harm the iron-sulfur-dependent butyrate producers.
+This molecular vulnerability explains why Lachnospiraceae depletion is the most universal microbiome signal across diseases: any condition involving metal dysregulation, oxidative stress, or [[inflammation]] will preferentially harm the iron-sulfur-dependent butyrate producers.
 
 ## Subgroups Commonly Reported
 

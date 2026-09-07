@@ -39,7 +39,7 @@ Nitric oxide (NO) is a gaseous signaling molecule with roles spanning vasodilati
 Host NO production occurs through two primary enzyme families:
 
 - eNOS (endothelial nitric oxide synthase) — Constitutively expressed in vascular endothelium; produces low-level NO for vasodilation and blood pressure regulation. Requires calcium/calmodulin, tetrahydrobiopterin (BH4), and L-arginine as substrates.
-- iNOS (inducible nitric oxide synthase) — Upregulated during inflammation by NF-kB signaling; produces high-output NO as an antimicrobial weapon. Macrophages use iNOS-derived NO to kill intracellular pathogens.
+- iNOS (inducible nitric oxide synthase) — Upregulated during [[inflammation]] by NF-kB signaling; produces high-output NO as an antimicrobial weapon. Macrophages use iNOS-derived NO to kill intracellular pathogens.
 - nNOS (neuronal nitric oxide synthase) — Mediates neurotransmission and enteric nervous system signaling.
 
 ## Microbiome Nitrate Reduction

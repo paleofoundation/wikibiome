@@ -20,7 +20,7 @@ Tryptophan (Trp) is an essential amino acid metabolized via three competing path
 
 ### 1. Kynurenine Pathway (~95% of Trp)
 The dominant route of tryptophan catabolism, controlled by two iron-dependent rate-limiting enzymes:
-- IDO1/IDO2 (indoleamine 2,3-dioxygenase): Expressed in immune cells and gut epithelium; induced by IFN-gamma and [[inflammation]]. Requires heme iron as a cofactor.
+- IDO1/IDO2 (indoleamine 2,3-dioxygenase): Expressed in immune cells and gut epithelium; induced by IFN-gamma and inflammation. Requires heme iron as a cofactor.
 - TDO (tryptophan 2,3-dioxygenase): Expressed primarily in the liver; constitutive. Also requires heme iron.
 
 Downstream metabolites:
@@ -91,7 +91,7 @@ Indole derivatives activate the aryl hydrocarbon receptor (AhR) on intestinal ep
 - [[gut-brain-axis]] -- tryptophan metabolites are key mediators of gut-brain communication
 - [[neuroinflammation]] -- kynurenine pathway products drive and modulate neuroinflammation
 - [[short-chain-fatty-acids]] -- co-depleted with indole producers in dysbiosis
-- [[inflammation]] -- IDO1 induction by inflammation redirects tryptophan catabolism
+- inflammation -- IDO1 induction by inflammation redirects tryptophan catabolism
 - [[iron]] -- heme iron cofactor for IDO and TDO
 - [[faecalibacterium-prausnitzii]] -- F. hominis corrects indole-AhR dysregulation in ASD models
 - [[autism-spectrum-disorder]] -- tryptophan metabolites among most consistent ASD biomarkers

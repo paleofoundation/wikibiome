@@ -42,7 +42,7 @@ Roseburia intestinalis is a Gram-positive, obligate anaerobic member of the Lach
 
 ## Metal Dependencies
 
-R. intestinalis requires iron for its electron transport chain and butyrate biosynthesis enzymes, yet it lacks the aggressive iron acquisition systems (siderophores) of Proteobacteria. This asymmetry means that when luminal iron rises during inflammation, iron-scavenging pathogens outcompete R. intestinalis, reducing butyrate output precisely when the gut needs it most.
+R. intestinalis requires iron for its electron transport chain and butyrate biosynthesis enzymes, yet it lacks the aggressive iron acquisition systems (siderophores) of Proteobacteria. This asymmetry means that when luminal iron rises during [[inflammation]], iron-scavenging pathogens outcompete R. intestinalis, reducing butyrate output precisely when the gut needs it most.
 
 ## Ecological Role
 

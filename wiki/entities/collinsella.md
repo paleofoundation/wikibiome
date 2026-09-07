@@ -75,7 +75,7 @@ A genus of Gram-positive, obligate anaerobic bacteria within the Actinobacteria 
 - [[mercury]] -- enriched by mercury exposure
 - [[iron]] -- indirectly relevant; may benefit from iron-driven depletion of competitors
 - [[dysbiosis]] -- its enrichment signals pro-inflammatory dysbiosis
-- [[inflammation]] -- increases gut permeability and LPS translocation
+- inflammation -- increases gut permeability and LPS translocation
 - [[gut-metal-microbiome]] -- metal-tolerant pathobiont; cross-metal enrichment pattern
 - [[oxidative-stress]] -- altered bile acid metabolism promotes oxidative damage
 - [[blautia]] -- opposing trends; Blautia depleted where Collinsella enriched in CVD

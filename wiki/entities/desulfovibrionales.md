@@ -68,7 +68,7 @@ Desulfovibrionales are normal members of the colonic microbiota at low abundance
 When Desulfovibrionales expand beyond homeostatic levels, H2S production overwhelms the capacity of colonocytes to detoxify sulfide (via sulfide:quinone oxidoreductase). Excess H2S:
 - Inhibits butyrate oxidation in colonocytes, compromising the primary energy source of the colonic epithelium
 - Increases intestinal permeability by disrupting [[tight-junctions|tight junction]] proteins
-- Induces systemic inflammation via endothelial damage and NF-kB activation
+- Induces systemic [[inflammation]] via endothelial damage and NF-kB activation
 - Increases cholesterol absorption through mechanisms not yet fully characterized
 
 ## Conditions Associated

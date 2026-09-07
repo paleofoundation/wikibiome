@@ -131,7 +131,7 @@ Insulin resistance (IR) is the metabolic hub connecting metal exposure to PCOS p
 | Vitamin D + probiotics | Strong (RCT) [[ostadmohammadi-2019-vitamin-d-probiotic-pcos]] | Restores GSH/TAC; reduces MDA; lowers CRP |
 | Zinc supplementation | Moderate (extrapolated from related conditions) | Counters Cu excess; restores Cu/Zn-SOD; competes with Cd for binding sites |
 | High-fiber diet | Moderate [[wang-2022-high-fiber-acarbose-pcos]] | Microbiota remodeling; SCFA production; but increases Ni/Cd exposure |
-| Low-nickel diet | Theoretical (no PCOS-specific trials) | Would reduce metalloestrogen burden and Ni-driven inflammation |
+| Low-nickel diet | Theoretical (no PCOS-specific trials) | Would reduce metalloestrogen burden and Ni-driven [[inflammation]] |
 
 ## Open Questions
 

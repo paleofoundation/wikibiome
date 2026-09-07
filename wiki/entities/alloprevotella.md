@@ -62,7 +62,7 @@ Many older microbiota studies reported "Prevotella" changes in T2D but did not r
 3. Intestinal Barrier Function and Endotoxemia
  - Alloprevotella's propionate production maintains [[tight-junctions|tight junction]] protein expression (claudin-2, occludin, ZO-1) ([[hoyles-2018-propionate-blood-brain-barrier-microbiome]])
  - Depletion is associated with increased gut permeability and elevated fasting endotoxemia (LPS) (Cani et al. 2007 Diabetes)
- - LPS is a key driver of systemic inflammation and insulin resistance in T2D ([[herrema-2020-intestinal-microbial-metabolites-t2d]])
+ - LPS is a key driver of systemic [[inflammation]] and insulin resistance in T2D ([[herrema-2020-intestinal-microbial-metabolites-t2d]])
 
 4. Bile Acid Metabolism
  - Alloprevotella possesses moderate bile salt hydrolase (BSH) activity
@@ -138,7 +138,7 @@ Alloprevotella restoration is considered one of the most important microbiota ta
 - [[iron]] – iron-dependent metabolism; dysbiotic iron overload may impair competitive fitness
 - – secondary metabolites favor Alloprevotella growth
 - – resistant starch and beta-glucans selectively enrich this genus
-- [[inflammation]] – loss correlates with elevated systemic inflammation and Th17 skewing
+- inflammation – loss correlates with elevated systemic inflammation and Th17 skewing
 - [[prevotella]] – genus family member but distinct metabolic and immune profiles; often opposing trends
 - [[faecalibacterium-prausnitzii]] – frequently co-enriched; synergistic SCFA network
 - dysbiosis – Alloprevotella depletion is a key dysbiosis marker in metabolic disease

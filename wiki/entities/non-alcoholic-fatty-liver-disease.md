@@ -62,7 +62,7 @@ Non-alcoholic fatty liver disease (NAFLD), recently reclassified as metabolic dy
 
 The gut-liver axis ensures that the liver is the first organ exposed to microbial products translocating from the gut. In NAFLD, several microbiome patterns emerge:
 
-- [[proteobacteria]] enrichment — Increased Gram-negative bacteria elevate portal LPS levels, activating Kupffer cells via TLR4 and driving hepatic inflammation
+- [[proteobacteria]] enrichment — Increased Gram-negative bacteria elevate portal LPS levels, activating Kupffer cells via TLR4 and driving hepatic [[inflammation]]
 - [[akkermansia-muciniphila]] depletion — Loss of this barrier-protective organism increases intestinal permeability and metabolic endotoxemia
 - [[blautia]] depletion — Reduced bile salt hydrolase (BSH) activity alters the bile acid pool, disrupting [[fxr]] signaling and impairing hepatic lipid metabolism
 - [[collinsella]] enrichment — Alters bile acid profiles, reducing hepatic bile acid synthesis via disrupted FXR signaling and promoting lipid accumulation

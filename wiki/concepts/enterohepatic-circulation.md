@@ -58,7 +58,7 @@ Key regulatory lever: The amount of functional [[beta-glucuronidase]] activity i
 
 Dysbiotic hyperactivation of EHC is implicated in multiple conditions:
 
-- [[endometriosis]] — Dysbiotic overgrowth of high-β-Glu taxa (especially [[escherichia-coli]], [[bacteroides-fragilis]]) hyperactivates [[estrogen-recirculation]]; amplified circulating estrogen drives lesion growth and inflammation. See [[estrogen-recirculation]].
+- [[endometriosis]] — Dysbiotic overgrowth of high-β-Glu taxa (especially [[escherichia-coli]], [[bacteroides-fragilis]]) hyperactivates [[estrogen-recirculation]]; amplified circulating estrogen drives lesion growth and [[inflammation]]. See [[estrogen-recirculation]].
 
 - [[breast-cancer]] — High estrogen from dysbiotic EHC is a major risk factor for ER+ tumors. Aromatase inhibitor (AI) therapy reduces systemic estrogen; dysbiotic EHC partially overcomes this therapeutic blockade.
 

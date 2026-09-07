@@ -123,7 +123,7 @@ Butyrate exhibits a dual role explained by the metabolic state of colonocytes: i
 Three GPCRs mediate SCFA tumor suppression:
 - FFAR2/GPR43: promotes IL-18 secretion via [[nlrp3-inflammasome|NLRP3 inflammasome]]; enhances Treg differentiation; deficiency promotes tumorigenesis via Wnt/beta-catenin
 - FFAR3/GPR41: expressed on intestinal epithelial and immune cells
-- HCAR2/GPR109A: butyrate-specific; suppresses carcinogenesis; knockdown accelerates colonic inflammation and cancer progression
+- HCAR2/GPR109A: butyrate-specific; suppresses carcinogenesis; knockdown accelerates colonic [[inflammation]] and cancer progression
 
 ## Fungal Microbiome (Mycobiome) in CRC
 

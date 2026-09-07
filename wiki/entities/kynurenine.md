@@ -20,7 +20,7 @@ wikipedia_differentiation: "Quinolinic acid chelates iron and catalyzes Fenton c
 
 Kynurenine is the primary metabolite of the kynurenine pathway, which handles ~95% of tryptophan catabolism in the body. While [[serotonin]] gets more attention, the kynurenine pathway is quantitatively dominant -- and its downstream metabolites span the range from neuroprotective to neurotoxic. The pathway's rate-limiting enzymes (IDO1, IDO2, TDO) all require heme iron, creating a direct link between metal biology and neuroimmune signaling.
 
-In the WikiBiome context, the kynurenine pathway is the mechanistic bridge between inflammation, metal dyshomeostasis, and neuropsychiatric disease: metal-driven inflammation upregulates IDO1, shunting tryptophan from serotonin to kynurenine, generating neurotoxic quinolinic acid that itself chelates iron and catalyzes [[fenton-chemistry]] -- a self-amplifying cycle.
+In the WikiBiome context, the kynurenine pathway is the mechanistic bridge between [[inflammation]], metal dyshomeostasis, and neuropsychiatric disease: metal-driven inflammation upregulates IDO1, shunting tryptophan from serotonin to kynurenine, generating neurotoxic quinolinic acid that itself chelates iron and catalyzes [[fenton-chemistry]] -- a self-amplifying cycle.
 
 ## The Kynurenine Pathway
 
@@ -101,6 +101,6 @@ The kynurenine pathway supports Treg differentiation and immune tolerance via Ah
 - [[iron]] -- IDO1/TDO heme iron dependency; QUIN-Fe Fenton
 - [[fenton-chemistry]] -- QUIN-iron complexes catalyze Fenton reaction
 - [[oxidative-stress]] -- Downstream of QUIN neurotoxicity
-- [[inflammation]] -- IFN-gamma drives IDO1 induction
+- inflammation -- IFN-gamma drives IDO1 induction
 - [[microbiome-derived-metabolites]] -- SCFAs modulate IDO1; 3-IAld competes with kynurenine
 - [[gut-brain-axis]] -- Kynurenine pathway as neuroimmune signaling axis

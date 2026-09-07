@@ -23,7 +23,7 @@ karen_brain_primitives: [1, 2, 5]
 
 ## Overview
 
-Systemic inflammation is the state in which inflammatory mediators — [[interleukin-6|IL-6]], TNF-alpha, CRP, IL-1beta — circulate throughout the body rather than remaining confined to a local injury site. In the WikiBiome framework, systemic inflammation is the final common pathway through which metal exposure, [[dysbiosis]], and [[endotoxemia]] converge to produce multi-organ disease.
+Systemic [[inflammation]] is the state in which inflammatory mediators — [[interleukin-6|IL-6]], TNF-alpha, CRP, IL-1beta — circulate throughout the body rather than remaining confined to a local injury site. In the WikiBiome framework, systemic inflammation is the final common pathway through which metal exposure, [[dysbiosis]], and [[endotoxemia]] converge to produce multi-organ disease.
 
 Unlike acute inflammation (protective, self-resolving), systemic inflammation is chronic, low-grade, and self-perpetuating. It is measurable (CRP, IL-6, TNF-alpha) and modifiable (via microbiome restoration, metal restriction, and anti-inflammatory interventions).
 
@@ -43,7 +43,7 @@ Systemic inflammation is documented in virtually every disease signature in this
 
 ## Cross-References
 
-- [[inflammation]] — metal-driven inflammation mechanisms
+- inflammation — metal-driven inflammation mechanisms
 - [[endotoxemia]] — LPS-mediated systemic inflammatory trigger
 - [[interleukin-6]] — primary systemic inflammatory cytokine
 - [[nf-kappa-b]] — master transcription factor

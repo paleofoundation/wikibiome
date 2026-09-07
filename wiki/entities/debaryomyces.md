@@ -36,7 +36,7 @@ Debaryomyces is a genus of ascomycetous fungi, with *D. hansenii* being the most
 
 - Dramatically enriched (up to 100-fold elevation) in ileal and colonic biopsies from Crohn's disease patients (Jain et al. 2021 Science; [[huang-2024-gut-fungi-ibd-colorectal-cancer]])
 - Particularly prominent in inflamed tissue vs. non-inflamed mucosa from the same patients (Jain et al. 2021 Science)
-- Enrichment correlates with histologic inflammation score and disease activity ([[rashed-2022-manipulation-gut-microbiota-crohns]])
+- Enrichment correlates with histologic [[inflammation]] score and disease activity ([[rashed-2022-manipulation-gut-microbiota-crohns]])
 - Present at very low levels (<0.1%) in healthy controls; >5–10% in active Crohn's disease (Jain et al. 2021 Science)
 
 ### Distinct from Candida
@@ -143,7 +143,7 @@ CD patients with Debaryomyces enrichment and active disease often report flare a
 - – Dectin-1 engagement drives Th1/Tc1 and Th17 differentiation via IL-12/IL-23
 - – β-glucans activate IL-17 axis; associated with elevated mucosal IL-17A/F
 - [[nutritional-immunity|nutritional immunity]] – extracellular proteases degrade mucin and tight junctions
-- [[inflammation]] – CCL5 production and immune complex deposition drive acute inflammation
+- inflammation – CCL5 production and immune complex deposition drive acute inflammation
 - – overgrowth in fungal dysbiosis states; marker of interkingdom dysfunction
 - and – dietary sources; consumption may trigger flares in susceptible individuals
 - – salt-tolerant species enriched in shelf-stable products

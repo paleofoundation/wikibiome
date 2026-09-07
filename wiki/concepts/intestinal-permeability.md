@@ -47,7 +47,7 @@ Increased permeability creates a vicious cycle:
 
 1. Metal exposure damages TJs directly and via [[oxidative-stress]]
 2. Barrier failure permits LPS and bacterial translocation
-3. LPS activates TLR4 on immune cells, driving [[inflammation]] and [[nf-kappa-b]]
+3. LPS activates TLR4 on immune cells, driving inflammation and [[nf-kappa-b]]
 4. Inflammatory cytokines (TNF-alpha, IFN-gamma, IL-13) further open TJs
 5. Opened barrier permits greater metal absorption (especially for Cd, Pb)
 6. More metal enters systemic circulation, reaching distal organs
@@ -78,5 +78,5 @@ Barrier restoration strategies include [[probiotics]] (especially Lactobacillus 
 - [[gut-metal-microbiome]] -- the overarching triad framework
 - dysbiosis -- microbial disruption that compounds barrier failure
 - [[calprotectin]] -- key fecal biomarker downstream of permeability
-- [[inflammation]] -- the systemic consequence of translocation
+- inflammation -- the systemic consequence of translocation
 - [[short-chain-fatty-acids]] -- barrier-protective metabolites

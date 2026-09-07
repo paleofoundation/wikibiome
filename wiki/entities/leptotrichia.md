@@ -68,7 +68,7 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 - Abundance increases sharply in gingivitis and periodontitis.
 - Proteolytic activity degrades collagen in gingival connective tissue, facilitating pocket deepening.
 - Bleeding at periodontal sites increases iron availability, driving *Leptotrichia* expansion.
-- Creates feedforward cycle: inflammation → iron release → *Leptotrichia* growth → more inflammation.
+- Creates feedforward cycle: [[inflammation]] → iron release → *Leptotrichia* growth → more inflammation.
 
 ## Translocation and Gut Pathobiont Role
 
@@ -126,7 +126,7 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 - -- primary habitat; pathobiont in periodontal disease
 - -- enriched in gingivitis/periodontitis; drives tissue destruction
 - [[colorectal-cancer]] -- enriched in CRC tissue; oral-to-gut translocation pathway
-- [[inflammation|lipopolysaccharide]] -- TLR4-mediated pro-inflammatory signaling
+- lipopolysaccharide -- TLR4-mediated pro-inflammatory signaling
 - [[biofilm]] -- protective polysaccharide matrix; iron-dependent architecture
 - -- aspiration-mediated oral-to-gut pathway in dysbiosis and IBD
 - -- fungal-bacterial biofilms in CRC and dysbiotic states

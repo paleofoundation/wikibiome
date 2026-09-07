@@ -84,7 +84,7 @@ The most abundant bacterium in the healthy human colon (5-15% of total fecal mic
 - [[cadmium]] -- depleted by Cd exposure; loss amplifies toxicity
 - [[lead]] -- depleted by Pb exposure
 - [[iron]] -- Fe-S cluster enzymes in butyrate pathway; iron perturbation may affect function
-- [[inflammation]] -- anti-inflammatory via butyrate/HDAC/GPR109A axis
+- inflammation -- anti-inflammatory via butyrate/HDAC/GPR109A axis
 - [[dysbiosis]] -- its depletion is the most consistent dysbiosis marker
 - [[lactobacillus]] -- complementary SCFA producer; co-depleted under metal stress
 - [[gut-brain-axis]] -- butyrate loss linked to neuroinflammation in PD and MS

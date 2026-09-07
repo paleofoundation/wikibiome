@@ -61,7 +61,7 @@ That context dependence is why WikiBiome does not label every NLRP3-associated c
 
 ## Related pages
 
-- [[inflammation]]
+- inflammation
 - [[il-1beta]]
 - [[nf-kappa-b]]
 - [[tlr4]]

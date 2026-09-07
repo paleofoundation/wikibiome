@@ -118,7 +118,7 @@ Fiber deficiency → R. albus depletion → butyrate depletion → loss of intes
 
 - Dramatically depleted in Western diets (<0.1% vs. >3% in high-fiber populations) (De Filippo et al. 2010 PNAS; Sonnenburg & Sonnenburg 2014 Cell Metab)
 - Strongly protective against:
- - [[cardiovascular-disease]]: Low R. albus correlates with elevated LDL cholesterol and arterial inflammation
+ - [[cardiovascular-disease]]: Low R. albus correlates with elevated LDL cholesterol and arterial [[inflammation]]
  - [[type-2-diabetes]]: Fiber fermentation directly improves insulin sensitivity; butyrate restores β-cell function
  - [[inflammatory-bowel-disease]]: Butyrate depletion drives IBD flares; R. albus supplementation shows promise
  - [[colorectal-cancer]]: Butyrate has well-established anti-neoplastic effects in the colon

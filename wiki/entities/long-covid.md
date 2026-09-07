@@ -19,7 +19,7 @@ wikipedia_differentiation: "Self-perpetuating dysbiosis-translocation-inflammati
 
 # Long COVID
 
-Post-acute sequelae of SARS-CoV-2 infection (PASC), affecting an estimated 10-30% of COVID-19 survivors (WHO and CDC post-acute surveillance estimates) with symptoms persisting >12 weeks. Characterized by fatigue, cognitive dysfunction ("brain fog"), exercise intolerance, and multi-system involvement. The emerging microbiome evidence reveals that Long COVID is not simply "slow recovery" — it is a self-perpetuating [[dysbiosis]]-translocation-inflammation feedback loop where persistent gut microbiome disruption drives ongoing symptoms through the gut-lung and gut-brain axes [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]].
+Post-acute sequelae of SARS-CoV-2 infection (PASC), affecting an estimated 10-30% of COVID-19 survivors (WHO and CDC post-acute surveillance estimates) with symptoms persisting >12 weeks. Characterized by fatigue, cognitive dysfunction ("brain fog"), exercise intolerance, and multi-system involvement. The emerging microbiome evidence reveals that Long COVID is not simply "slow recovery" — it is a self-perpetuating [[dysbiosis]]-translocation-[[inflammation]] feedback loop where persistent gut microbiome disruption drives ongoing symptoms through the gut-lung and gut-brain axes [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]].
 
 ## Microbiome Signature
 

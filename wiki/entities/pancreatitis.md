@@ -22,7 +22,7 @@ signature_page: "[[pancreatitis-signature]]"
 
 ## Overview
 
-Pancreatitis is inflammation of the pancreas, occurring in acute (AP) and chronic (CP) forms. Acute pancreatitis ranges from mild self-limiting disease to severe necrotizing pancreatitis with 20-30% mortality. Chronic pancreatitis is a risk factor for [[pancreatic-cancer]] (relative risk 2.7-16x), making the pancreatitis→PDAC progression a clinically important trajectory where microbiome interventions may have preventive value.
+Pancreatitis is [[inflammation]] of the pancreas, occurring in acute (AP) and chronic (CP) forms. Acute pancreatitis ranges from mild self-limiting disease to severe necrotizing pancreatitis with 20-30% mortality. Chronic pancreatitis is a risk factor for [[pancreatic-cancer]] (relative risk 2.7-16x), making the pancreatitis→PDAC progression a clinically important trajectory where microbiome interventions may have preventive value.
 
 ## Microbiome Associations
 

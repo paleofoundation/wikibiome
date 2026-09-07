@@ -49,7 +49,7 @@ The ~5% of bile acids escaping ileal absorption enter the colon, where bacteria 
 - Nuclear receptor activated most potently by CDCA, then CA, DCA.
 - Metabolic effects: Decreases triglycerides, decreases insulin resistance, increases reverse cholesterol transport, decreases blood pressure via iNOS expression [[ryan-2017-bile-acids-gut-microbiome-cardiometabolic-interactions]].
 - Gut barrier: Maintains epithelial integrity; FXR-deficient mice have increased intestinal permeability.
-- Immune modulation: Suppresses NF-kB-driven inflammation in intestinal epithelium.
+- Immune modulation: Suppresses NF-kB-driven [[inflammation]] in intestinal epithelium.
 - Feedback regulation: Induces FGF15/19 (mouse/human), which suppresses CYP7A1, reducing bile acid synthesis.
 
 ### TGR5 (GPBAR1)
@@ -98,6 +98,6 @@ The ~5% of bile acids escaping ileal absorption enter the colon, where bacteria 
 - [[colorectal-cancer]] -- DCA and LCA are tumor promoters at high concentrations
 - [[collinsella]] -- BSH-expressing pathobiont enriched in atherosclerosis
 - [[short-chain-fatty-acids]] -- co-produced by colonic anaerobes; bile acid-SCFA balance reflects community health
-- [[inflammation]] -- FXR activation suppresses NF-kB; dysregulated bile acids promote inflammation
+- inflammation -- FXR activation suppresses NF-kB; dysregulated bile acids promote inflammation
 - dysbiosis -- microbial bile acid transformation is highly sensitive to community shifts
 - [[gut-metal-microbiome]] -- bile acids modulate metal absorption and are themselves altered by metal-induced dysbiosis

@@ -23,7 +23,7 @@ pathogenic_potential: commensal
 
 # Lachnospira
 
-*Lachnospira* is a genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospiraceae]] family (Firmicutes phylum). *L. pectinoschiza*, the type species, is a specialist pectin fermenter that produces [[short-chain-fatty-acids]] from plant-derived polysaccharides. The genus exhibits one of the more striking context-dependent profiles in clinical microbiome research — protective and depleted in cardiovascular, renal, and endocrine conditions, yet enriched or risk-associated in colorectal cancer, ASD, and skin inflammation.
+*Lachnospira* is a genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospiraceae]] family (Firmicutes phylum). *L. pectinoschiza*, the type species, is a specialist pectin fermenter that produces [[short-chain-fatty-acids]] from plant-derived polysaccharides. The genus exhibits one of the more striking context-dependent profiles in clinical microbiome research — protective and depleted in cardiovascular, renal, and endocrine conditions, yet enriched or risk-associated in colorectal cancer, ASD, and skin [[inflammation]].
 
 ## Classification and Ecology
 

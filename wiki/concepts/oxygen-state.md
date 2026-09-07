@@ -56,7 +56,7 @@ When SCFA production drops — through antibiotic exposure, dietary fiber deplet
 4. These organisms use oxygen and host-derived nitrate (via [[molybdenum]]-dependent nitrate reductase) to outcompete obligate anaerobes
 5. Further SCFA depletion → more oxygen leakage → self-reinforcing dysbiotic cycle
 
-This "oxygen hypothesis of dysbiosis" explains why [[proteobacteria]] blooms are a universal feature of intestinal inflammation regardless of the initiating cause.
+This "oxygen hypothesis of dysbiosis" explains why [[proteobacteria]] blooms are a universal feature of intestinal [[inflammation]] regardless of the initiating cause.
 
 ## Metal Connections
 

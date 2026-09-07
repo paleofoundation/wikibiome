@@ -87,7 +87,7 @@ Fe-S clusters also function as metal and redox sensors:
 
 The Fe-S cluster story connects several WikiBiome themes:
 
-1. Environmental metal exposure → Fe-S damage → SCFA producer depletion → barrier dysfunction → inflammation -- a mechanistic chain from contamination to disease.
+1. Environmental metal exposure → Fe-S damage → SCFA producer depletion → barrier dysfunction → [[inflammation]] -- a mechanistic chain from contamination to disease.
 2. Antimicrobial metal surfaces (copper, silver) exploit Fe-S vulnerability therapeutically [[wang-2025-engineering-copper-antimicrobial-materials-post-antibiotic]], [[sanchez-rosario-2026-bmdc-metal-antimicrobial-mrsa-biofilm]].
 3. [[cuproptosis]] -- Fe-S cluster destabilization is step 5 of the cuproptotic cascade, linking Fe-S biology to copper-induced cell death.
 4. Iron chelation as antifungal strategy: collismycin A disrupts Fe-S cluster-dependent pathways in [[candida-albicans]] [[corrales-2024-iron-chelating-antifungal-collismycin-candida]].

@@ -38,7 +38,7 @@ Zinc is indispensable for insulin production, storage, and secretion at multiple
 - The ZnT8 transporter (SLC30A8) transports Zn²⁺ into insulin secretory granules and is itself a major autoantigen in T1D — anti-ZnT8 autoantibodies are present in 60–80% of newly diagnosed T1D patients, making it one of the most specific T1D biomarkers
 - Zn²⁺ is co-released with insulin during exocytosis; extracellular zinc acts as a paracrine signal suppressing glucagon secretion from neighboring alpha cells — a loop disrupted when zinc is depleted
 - SLC30A8 loss-of-function variants paradoxically protect against T2D (65% risk reduction), illustrating how the same zinc transporter plays opposing roles in T1D (autoantigen) and T2D (risk modifier)
-- Zinc deficiency reduces regulatory T cell (Treg) function and shifts the Th1/Th2 balance toward Th1-dominant autoimmunity — directly relevant to islet inflammation
+- Zinc deficiency reduces regulatory T cell (Treg) function and shifts the Th1/Th2 balance toward Th1-dominant autoimmunity — directly relevant to islet [[inflammation]]
 - Metallothioneins (zinc-binding proteins) in beta cells provide antioxidant defense; their depletion increases vulnerability to immune attack
 
 See [[zinc]] for broader systemic zinc biology.

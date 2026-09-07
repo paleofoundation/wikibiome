@@ -49,7 +49,7 @@ Key histamine-producing bacteria include:
 - Morganella morganii, Lactobacillus reuteri, Enterobacteriaceae: Additional histamine producers in the gut.
 
 Bacterial histamine production is clinically significant because it occurs independently of host mast cell degranulation, creating a microbial histamine load that can drive:
-- Mast cell activation and allergic-type inflammation
+- Mast cell activation and allergic-type [[inflammation]]
 - Visceral hypersensitivity in [[ibs]]
 - Histamine intolerance symptoms
 - Immune modulation (histamine is immunomodulatory at different receptors: H1 pro-inflammatory, H2 anti-inflammatory)

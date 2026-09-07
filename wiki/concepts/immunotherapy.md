@@ -84,7 +84,7 @@ Metal homeostasis influences immune checkpoint expression:
 
 ### Calprotectin as Response Biomarker
 
-[[calprotectin]] -- the zinc/manganese-sequestering protein central to [[nutritional-immunity]] -- is being explored as an immunotherapy response biomarker. Fecal calprotectin levels correlate with gut inflammation status and may predict ICI-induced colitis.
+[[calprotectin]] -- the zinc/manganese-sequestering protein central to [[nutritional-immunity]] -- is being explored as an immunotherapy response biomarker. Fecal calprotectin levels correlate with gut [[inflammation]] status and may predict ICI-induced colitis.
 
 ### Metal-Dependent Microbial Metabolites
 

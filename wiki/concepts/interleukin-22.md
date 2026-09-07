@@ -77,6 +77,6 @@ Negative findings are equally important. A case-control study of children and ad
 - [[tight-junctions]]
 - [[intestinal-permeability]]
 - [[mycobiome]]
-- [[inflammation]]
+- inflammation
 - [[il-17]]
 - [[il-10]]

@@ -75,5 +75,5 @@ A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospirace
 - [[colorectal-cancer]] -- depleted alongside other Lachnospiraceae in CRC
 - [[iron]] -- Fe-S clusters in acetogenic pathway vulnerable to metal competition
 - [[dysbiosis]] -- depletion accompanies loss of other SCFA producers
-- [[inflammation]] -- bile acid metabolism modulates FXR/NF-kB inflammatory signaling
+- inflammation -- bile acid metabolism modulates FXR/NF-kB inflammatory signaling
 - [[gut-metal-microbiome]] -- sensitive to heavy metal perturbation as Lachnospiraceae member

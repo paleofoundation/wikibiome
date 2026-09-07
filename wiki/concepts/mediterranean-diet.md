@@ -77,4 +77,4 @@ The MD is broadly beneficial but requires individual modification:
 - [[nickel-allergy]] -- MD's high-nickel foods conflict with nickel-sensitive patients
 - [[dietary-nickel-exposure]] -- MD increases dietary nickel intake
 - dysbiosis -- MD's fiber content promotes beneficial gut microbiota
-- [[inflammation]] -- MD suppresses NF-kB-driven inflammation
+- inflammation -- MD suppresses NF-kB-driven inflammation

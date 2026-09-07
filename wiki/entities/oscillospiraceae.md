@@ -59,7 +59,7 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 
 ### Metal Availability and Dysbiosis Link
 
-- Iron availability paradox: While obligate anaerobes, Oscillospiraceae require basal iron for respiratory chain remnants and other enzymes. In dysbiotic, bleeding gut with elevated [[hepcidin]] (inflammation-driven), iron sequestration is ineffective, allowing pathobionts [[fusobacterium-varium]], [[bacteroides-fragilis]] to thrive while Oscillospiraceae remain outcompeted due to altered competitive balance (not iron limitation per se, but ecological shift).
+- Iron availability paradox: While obligate anaerobes, Oscillospiraceae require basal iron for respiratory chain remnants and other enzymes. In dysbiotic, bleeding gut with elevated [[hepcidin]] ([[inflammation]]-driven), iron sequestration is ineffective, allowing pathobionts [[fusobacterium-varium]], [[bacteroides-fragilis]] to thrive while Oscillospiraceae remain outcompeted due to altered competitive balance (not iron limitation per se, but ecological shift).
 - Selective iron/zinc supplementation or restoration of [[dysbiosis]]-related iron overload may indirectly support Oscillospiraceae recovery by tipping competitive interactions.
 
 ## Disease Associations and Depletion Patterns

@@ -43,7 +43,7 @@ Free (non-ceruloplasmin-bound) copper generates hydroxyl radicals via Fenton-lik
 
 ### Model 2: Copper as Inflammation Marker
 
-Ceruloplasmin is a positive acute-phase reactant induced by IL-6. Since ceruloplasmin carries >95% of circulating copper, any inflammatory condition will show elevated serum Cu without any change in copper metabolism per se. In this model, elevated Cu is epiphenomenal -- a readout of inflammation, not a driver.
+Ceruloplasmin is a positive acute-phase reactant induced by IL-6. Since ceruloplasmin carries >95% of circulating copper, any inflammatory condition will show elevated serum Cu without any change in copper metabolism per se. In this model, elevated Cu is epiphenomenal -- a readout of [[inflammation]], not a driver.
 
 ### Model 3: Bidirectional Amplification
 

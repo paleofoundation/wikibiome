@@ -23,7 +23,7 @@ karen_brain_primitives: [1, 3, 7]
 
 Aromatase (CYP19A1) is the cytochrome P450 enzyme that catalyzes the final and rate-limiting step of estrogen biosynthesis — the conversion of androgens (testosterone, androstenedione) to estrogens (estradiol, estrone). It is expressed in the ovaries, placenta, adipose tissue, brain, bone, and — critically — in endometriotic lesions where local estrogen production drives disease progression.
 
-Aromatase connects the metal-microbiome axis to estrogen-dependent disease through three pathways: metalloestrogen activation, adipose tissue inflammation, and estrobolome modulation.
+Aromatase connects the metal-microbiome axis to estrogen-dependent disease through three pathways: metalloestrogen activation, adipose tissue [[inflammation]], and estrobolome modulation.
 
 ## Metal Connections
 

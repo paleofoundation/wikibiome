@@ -58,7 +58,7 @@ Iron:
 ### Tumor Tropism
 When colorectal neoplasia develops and the basement membrane becomes exposed, *S. gallolyticus* gains a selective advantage through collagen binding. This creates a positive feedback loop:
 1. Early neoplasia → collagen exposure → *S. gallolyticus* colonization
-2. *S. gallolyticus* → COX-2/PGE2 → enhanced proliferation and inflammation
+2. *S. gallolyticus* → COX-2/PGE2 → enhanced proliferation and [[inflammation]]
 3. Tumor progression → more collagen exposure → denser colonization
 
 This makes *S. gallolyticus* both a biomarker of existing neoplasia and a potential accelerator of carcinogenesis.

@@ -178,7 +178,7 @@ Mn impairs autophagy at low concentrations; Drp1 inhibition is protective agains
 
 ### Inflammatory Bowel Disease
 
-Plasma Mn was significantly lower in ulcerative colitis patients (1.4 ug/L) compared to healthy controls (2.4 ug/L, p=0.041) [[amerikanou-2022-ibd-biomarkers-trace-metals]]. The ZIP8 A391T Crohn's disease risk variant reduces luminal Mn availability in the colon, reshaping the microbiome -- with age-dependent microbiome shifts (R2 increasing from 3% at 2 months to 9% at 12 months) and spontaneous inflammation developing by 10 months [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]. Lactobacillus depletion in ZIP8 mutant mice is consistent with the Mn-dependent antioxidant biology of lactic acid bacteria [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
+Plasma Mn was significantly lower in ulcerative colitis patients (1.4 ug/L) compared to healthy controls (2.4 ug/L, p=0.041) [[amerikanou-2022-ibd-biomarkers-trace-metals]]. The ZIP8 A391T Crohn's disease risk variant reduces luminal Mn availability in the colon, reshaping the microbiome -- with age-dependent microbiome shifts (R2 increasing from 3% at 2 months to 9% at 12 months) and spontaneous [[inflammation]] developing by 10 months [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]]. Lactobacillus depletion in ZIP8 mutant mice is consistent with the Mn-dependent antioxidant biology of lactic acid bacteria [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
 ### Breast Cancer
 

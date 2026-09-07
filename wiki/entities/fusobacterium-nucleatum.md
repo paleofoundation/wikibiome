@@ -53,7 +53,7 @@ A Gram-negative obligate anaerobe that has emerged as a major pathogen in colore
 - The FadA adhesin is a fibrils-associated adhesin that mediates bacterial adherence to intestinal epithelial cells and invasive interactions.
 - FadA binds to E-cadherin on epithelial cells, activating beta-catenin/Wnt signaling and promoting epithelial proliferation.
 - This signaling is pro-tumorigenic: constant FadA-E-cadherin engagement drives persistent Wnt activation, dysregulating cell growth and differentiation.
-- FadA also recruits and activates immune cells, sustaining chronic inflammation.
+- FadA also recruits and activates immune cells, sustaining chronic [[inflammation]].
 
 ### Iron Context
 

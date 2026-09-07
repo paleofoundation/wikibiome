@@ -44,7 +44,7 @@ The concentration of transferrin saturation (serum iron ÷ total iron-binding ca
 Elevated serum transferrin occurs in:
 
 - [[crohns-disease]]: Nutritional immunity response to [[adherent-invasive-e-coli|AIEC]] and other iron-dependent pathogens
-- [[colorectal-cancer]]: Inflammation-driven iron sequestration; tumor microenvironment hypoxia increases transferrin gene expression
+- [[colorectal-cancer]]: [[inflammation]]-driven iron sequestration; tumor microenvironment hypoxia increases transferrin gene expression
 - [[obesity]]: Chronic systemic inflammation triggers hepatic transferrin production
 - [[endometriosis]]: Peritoneal inflammation; local iron sequestration in lesions
 - Infection generally: Acute-phase response to bacterial and fungal pathogens

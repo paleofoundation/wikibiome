@@ -46,7 +46,7 @@ Escherichia possesses the most comprehensive iron acquisition toolkit among ente
 - Yersiniabactin: Dual iron/nickel metallophore (in pathogenic strains).
 - Feo system: Ferrous iron transport under anaerobic conditions.
 
-Inflammation-driven [[hepcidin]] elevation sequesters systemic iron but floods the gut lumen with unabsorbed dietary iron — selectively favoring Escherichia expansion via siderophore advantage [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
+[[inflammation]]-driven [[hepcidin]] elevation sequesters systemic iron but floods the gut lumen with unabsorbed dietary iron — selectively favoring Escherichia expansion via siderophore advantage [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
 
 ### Nickel
 

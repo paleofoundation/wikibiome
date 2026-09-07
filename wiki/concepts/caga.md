@@ -34,7 +34,7 @@ This is an indirect metal dependency. CagA is not described in these sources as 
 
 CagA provides a defined route by which a microbial virulence program can contribute to host carcinogenesis. In the animal-model evidence summarized above, disrupting the bacterial energy system prevented both CagA delivery and tumor induction. This supports a pathway from nickel acquisition to hydrogenase activity, type IV secretion, CagA translocation, and gastric epithelial consequences [[maier-2019-nickel-microbial-pathogenesis]].
 
-That pathway should not be reduced to a single exposure equation. CagA status is one component of *H. pylori* pathogenicity; colonization density, duration, gastric location, host susceptibility, inflammation, diet, and other bacterial factors can alter the outcome. Evidence that a strain is CagA-positive does not establish that a particular person will develop cancer.
+That pathway should not be reduced to a single exposure equation. CagA status is one component of *H. pylori* pathogenicity; colonization density, duration, gastric location, host susceptibility, [[inflammation]], diet, and other bacterial factors can alter the outcome. Evidence that a strain is CagA-positive does not establish that a particular person will develop cancer.
 
 ## What strain status and antibodies can show
 

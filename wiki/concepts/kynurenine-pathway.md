@@ -40,7 +40,7 @@ From kynurenine, the pathway branches into neuroprotective and neurotoxic arms:
 
 ### The KA/QUIN Ratio
 
-The ratio of kynurenic acid to quinolinic acid serves as a functional readout of the pathway's net effect. In health, this ratio favors neuroprotection. [[inflammation|Inflammation]] shifts it toward neurotoxicity by:
+The ratio of kynurenic acid to quinolinic acid serves as a functional readout of the pathway's net effect. In health, this ratio favors neuroprotection. Inflammation shifts it toward neurotoxicity by:
 1. Upregulating IDO (increasing total pathway flux)
 2. Activating KMO in macrophages/microglia (directing flux toward the 3-HK/QUIN branch)
 3. Reducing KAT activity in astrocytes (diminishing the protective KA branch)
@@ -90,4 +90,4 @@ This metal dependency means that the kynurenine pathway does not merely respond 
 - [[alpha-synuclein|tau-phosphorylation]] -- QUIN promotes tau pathology
 - [[amyloid-beta]] -- QUIN promotes aggregation
 - [[gut-brain-axis]] -- the route by which peripheral IDO activity affects the brain
-- [[inflammation]] -- the master activator of IDO
+- inflammation -- the master activator of IDO

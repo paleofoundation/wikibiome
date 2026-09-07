@@ -58,7 +58,7 @@ Excess [[iron]] can paradoxically suppress autophagy through mTOR activation whi
 - Microbial metabolites: Indole derivatives and other [[microbiome-derived-metabolites]] modulate autophagic flux through AhR and other signaling pathways.
 
 ### Autophagy Regulation of the Microbiome
-- Xenophagy in intestinal defense: Autophagy in Paneth cells and intestinal epithelial cells clears intracellular bacteria, maintaining the mucosal barrier. Defective xenophagy -- as in ATG16L1 and IRGM variants associated with [[crohns-disease]] -- permits intracellular bacterial survival and drives chronic inflammation [[brusaferro-2018-gut-dysbiosis-paediatric-crohns]].
+- Xenophagy in intestinal defense: Autophagy in Paneth cells and intestinal epithelial cells clears intracellular bacteria, maintaining the mucosal barrier. Defective xenophagy -- as in ATG16L1 and IRGM variants associated with [[crohns-disease]] -- permits intracellular bacterial survival and drives chronic [[inflammation]] [[brusaferro-2018-gut-dysbiosis-paediatric-crohns]].
 - Paneth cell autophagy: Paneth cells depend on autophagy for proper granule secretion of antimicrobial peptides (defensins, lysozyme). ATG16L1 deficiency produces abnormal Paneth cell granules, reducing antimicrobial defense and reshaping the gut microbiome.
 
 ## Disease Relevance
@@ -82,4 +82,4 @@ Autophagy plays a dual role in CRC: tumor-suppressive in early stages (clearing 
 - [[butyrate]] -- SCFA that activates protective autophagy
 - [[microglia]] -- CNS cells dependent on autophagy for protein clearance
 - [[intestinal-permeability]] -- autophagy maintains barrier integrity
-- [[inflammation]] -- chronic inflammation dysregulates autophagic flux
+- inflammation -- chronic inflammation dysregulates autophagic flux

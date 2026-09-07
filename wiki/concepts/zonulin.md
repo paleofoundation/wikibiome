@@ -45,7 +45,7 @@ Elevated serum zonulin is reported across a striking range of conditions, all sh
 
 - Celiac disease -- The condition where zonulin was discovered; elevated zonulin mediates gluten-triggered permeability.
 - Type 1 diabetes (T1D) -- Zonulin elevation precedes clinical onset, suggesting barrier dysfunction contributes to autoimmune triggering.
-- Schizophrenia -- Elevated zonulin correlates with symptom severity and markers of systemic inflammation, supporting the gut-brain barrier disruption model.
+- Schizophrenia -- Elevated zonulin correlates with symptom severity and markers of systemic [[inflammation]], supporting the gut-brain barrier disruption model.
 - Chronic kidney disease (CKD) -- Elevated zonulin contributes to uremic toxin translocation from the gut.
 - Inflammatory bowel disease -- Elevated in active Crohn's disease and ulcerative colitis.
 - Obesity and metabolic syndrome -- Zonulin elevation correlates with BMI and insulin resistance.

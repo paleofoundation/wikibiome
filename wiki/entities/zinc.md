@@ -83,7 +83,7 @@ This section contains content that does not appear on Wikipedia and represents o
 
 ### Zinc as Selective Pressure on Gut Microbiota
 
-Both zinc deficiency and excess reshape the gut microbiome in distinct, dose-dependent patterns. In a controlled mouse study, short-term zinc-deficient diets (0 mg/kg, 4 weeks) increased Proteobacteria and *Desulfovibrio* -- established markers of [[dysbiosis]] and inflammation -- while long-term high-zinc diets (150 mg/kg, 8 weeks) suppressed total SCFAs, butyric acid, acetic acid, and SCFA-producing genera [[chen-2021-imbalanced-zinc-gut-microbiota-markers]]. Excess zinc (600 mg/kg) dramatically decreased microbial diversity (Shannon index) [[chen-2021-imbalanced-zinc-gut-microbiota-markers]].
+Both zinc deficiency and excess reshape the gut microbiome in distinct, dose-dependent patterns. In a controlled mouse study, short-term zinc-deficient diets (0 mg/kg, 4 weeks) increased Proteobacteria and *Desulfovibrio* -- established markers of [[dysbiosis]] and [[inflammation]] -- while long-term high-zinc diets (150 mg/kg, 8 weeks) suppressed total SCFAs, butyric acid, acetic acid, and SCFA-producing genera [[chen-2021-imbalanced-zinc-gut-microbiota-markers]]. Excess zinc (600 mg/kg) dramatically decreased microbial diversity (Shannon index) [[chen-2021-imbalanced-zinc-gut-microbiota-markers]].
 
 The microbial response follows a clear dose pattern:
 

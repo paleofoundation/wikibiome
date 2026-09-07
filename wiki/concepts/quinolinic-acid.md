@@ -27,7 +27,7 @@ Tryptophan → kynurenine branches into:
 - Astrocyte branch → kynurenic acid (KYNA) — neuroprotective NMDA antagonist.
 - Microglia branch → quinolinic acid (QA) — neurotoxic NMDA agonist.
 
-Chronic inflammation (elevated IFN-γ, [[interleukin-6|IL-6]], [[tnf-alpha|TNF-alpha]]) activates microglia, shifting the balance toward QA → excitotoxicity [[chrobak-2016-gut-microbiome-cns-schizophrenia-bipolar-depression]] [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]].
+Chronic [[inflammation]] (elevated IFN-γ, [[interleukin-6|IL-6]], [[tnf-alpha|TNF-alpha]]) activates microglia, shifting the balance toward QA → excitotoxicity [[chrobak-2016-gut-microbiome-cns-schizophrenia-bipolar-depression]] [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]].
 
 ## Microbiome Connection
 

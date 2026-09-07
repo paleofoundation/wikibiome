@@ -39,7 +39,7 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 
 ### Periodontal Disease
 - *P. gingivalis* is a member of the "red complex" (with *Treponema denticola* and *Tannerella forsythia*), the most pathogenic consortium in chronic periodontitis.
-- Acts as a keystone pathogen: even at low abundance, it restructures the entire oral microbial community from symbiotic to dysbiotic, amplifying inflammation.
+- Acts as a keystone pathogen: even at low abundance, it restructures the entire oral microbial community from symbiotic to dysbiotic, amplifying [[inflammation]].
 
 ### Cardiovascular Disease and Atherosclerosis
 - Strongly linked to [[cardiovascular-disease]] and atherosclerosis. *P. gingivalis* DNA and viable organisms detected in atherosclerotic plaques.
@@ -82,4 +82,4 @@ A Gram-negative, obligate anaerobic genus with the keystone pathogen *P. gingiva
 - [[fusobacterium]] -- fellow CRC-enriched oral pathobiont
 - [[nf-kappa-b]] -- LPS and gingipains activate NF-kB inflammatory signaling
 - [[nutritional-immunity]] -- host hemin restriction as defense; P. gingivalis overcomes via gingipain-mediated hemolysis
-- [[inflammation]] -- keystone pathogen driving chronic inflammation across multiple organ systems
+- inflammation -- keystone pathogen driving chronic inflammation across multiple organ systems

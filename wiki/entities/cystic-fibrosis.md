@@ -57,7 +57,7 @@ The CF lung microbiome typically shows decreasing diversity over time, convergin
 
 Iron ecology is the defining metal story in CF:
 
-- Iron excess in CF airways — Thick, dehydrated mucus traps iron. Chronic inflammation releases iron from damaged tissue. Repeated antibiotic courses kill commensals but leave iron available for resistant pathobionts.
+- Iron excess in CF airways — Thick, dehydrated mucus traps iron. Chronic [[inflammation]] releases iron from damaged tissue. Repeated antibiotic courses kill commensals but leave iron available for resistant pathobionts.
 - Siderophore competition — *P. aeruginosa* produces two siderophores: pyoverdine (high-affinity Fe3+ chelator) and pyochelin (lower affinity but broader metal range). These directly compete with host [[lactoferrin]] and [[transferrin]] for iron — a canonical [[siderophore-competition]] battleground.
 - PrrF sRNA iron regulation — *P. aeruginosa* uses PrrF small RNAs to coordinate iron metabolism, regulating iron storage proteins and peroxide resistance. Under iron limitation, PrrF represses iron-using pathways to conserve scarce iron; understanding this regulation is critical for anti-virulence drug development [[ouattara-2025-prrf-srnas-brnd-iron-peroxide-pseudomonas]].
 - Zinc starvation as host defense — The host deploys nutritional immunity by restricting zinc availability in CF airways via calprotectin. *P. aeruginosa* responds by upregulating zinc import systems (znuABC) and producing the metallophore pseudopaline (zrmABCD) [[michetti-2025-galleria-mellonella-pseudomonas-zinc-starvation]].

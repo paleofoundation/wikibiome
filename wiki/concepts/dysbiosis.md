@@ -14,7 +14,7 @@ last_substantive_update: 2026-09-07
 
 # Dysbiosis
 
-Disruption of the normal composition and metabolic function of microbial communities, particularly the gut microbiome. In the metallomics context, dysbiosis is both a consequence of metal toxicity and an amplifier of further disease -- creating vicious cycles where metal exposure, microbial imbalance, barrier breakdown, and systemic inflammation feed forward into progressive pathology. With inbound links from virtually every page in this wiki, dysbiosis is the single most cross-referenced concept in WikiBiome, reflecting its role as the central mediating process between environmental metal exposure and human disease.
+Disruption of the normal composition and metabolic function of microbial communities, particularly the gut microbiome. In the metallomics context, dysbiosis is both a consequence of metal toxicity and an amplifier of further disease -- creating vicious cycles where metal exposure, microbial imbalance, barrier breakdown, and systemic [[inflammation]] feed forward into progressive pathology. With inbound links from virtually every page in this wiki, dysbiosis is the single most cross-referenced concept in WikiBiome, reflecting its role as the central mediating process between environmental metal exposure and human disease.
 
 ## Definition and Scope
 
@@ -52,7 +52,7 @@ Loss of SCFA-producing bacteria -- particularly butyrate producers like [[faecal
 
 ### Systemic Inflammation
 
-Dysbiosis drives chronic low-grade [[inflammation]] through multiple routes:
+Dysbiosis drives chronic low-grade inflammation through multiple routes:
 
 - LPS translocation: Gram-negative pathobiont enrichment increases endotoxin load; LPS crossing the compromised barrier activates TLR4/[[nf-kappa-b]] on macrophages, hepatocytes, and microglia.
 - Cytokine cascades: NF-kB activation drives transcription of IL-6, TNF-alpha, IL-1beta, and COX-2.
@@ -182,7 +182,7 @@ Ultimately, restoring eubiosis requires addressing the upstream cause. Reducing 
 
 - [[gut-metal-microbiome]] -- the comprehensive framework for metal-microbiome interactions
 - [[gut-brain-axis]] -- dysbiosis disrupts gut-brain communication via vagal, immune, and metabolite pathways
-- [[inflammation]] -- dysbiosis drives systemic inflammation via LPS/TLR4 and cytokine cascades
+- inflammation -- dysbiosis drives systemic inflammation via LPS/TLR4 and cytokine cascades
 - [[nf-kappa-b]] -- downstream inflammatory signaling from dysbiosis-derived LPS
 - [[nutritional-immunity]] -- host metal restriction can inadvertently worsen dysbiosis
 - [[short-chain-fatty-acids]] -- the primary protective metabolites lost in dysbiosis

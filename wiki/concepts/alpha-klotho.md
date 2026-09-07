@@ -74,7 +74,7 @@ The alpha-klotho axis connects to the gut microbiome through several mechanisms:
 
 - CKD-associated [[dysbiosis]] produces uremic toxins (including [[p-cresol]] and indoxyl sulfate) that further suppress klotho expression
 - [[gut-brain-axis|Gut-brain-axis]] signaling may modulate central alpha-klotho expression in the choroid plexus
-- Intestinal inflammation from dysbiosis increases systemic metal absorption, potentially accelerating klotho suppression
+- Intestinal [[inflammation]] from dysbiosis increases systemic metal absorption, potentially accelerating klotho suppression
 
 <!-- NEEDS VERIFICATION: Direct studies of gut microbiome effects on alpha-klotho expression are limited -->
 

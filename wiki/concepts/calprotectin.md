@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # Calprotectin (S100A8/A9)
 
-A heterodimer of S100A8 and S100A9 calcium-binding proteins that constitutes approximately 60% of the cytosolic protein content of neutrophils. Calprotectin is a central effector of [[nutritional-immunity]], sequestering essential transition metals from invading pathogens at sites of infection and inflammation.
+A heterodimer of S100A8 and S100A9 calcium-binding proteins that constitutes approximately 60% of the cytosolic protein content of neutrophils. Calprotectin is a central effector of [[nutritional-immunity]], sequestering essential transition metals from invading pathogens at sites of infection and [[inflammation]].
 
 ## Structure and Metal Binding
 

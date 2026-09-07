@@ -41,7 +41,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum that e
 
 - *P. copri* is strongly enriched in individuals consuming plant-based, high-fiber diets and is the defining taxon of the "Prevotella enterotype" (enterotype 2) [[ross-2024-diet-gut-microbiome-interplay-health-disease]] [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]].
 - Specializes in fermenting complex plant polysaccharides (hemicelluloses, pectins) into [[short-chain-fatty-acids]], particularly propionate and succinate [[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]].
-- The *P. copri*-dominated enterotype modifies the relationship between dietary fiber intake and systemic inflammation: fiber's ability to lower C-reactive protein (CRP) is partly mediated through Prevotella-driven SCFA production [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]].
+- The *P. copri*-dominated enterotype modifies the relationship between dietary fiber intake and systemic [[inflammation]]: fiber's ability to lower C-reactive protein (CRP) is partly mediated through Prevotella-driven SCFA production [[ma-2021-dietary-fiber-gut-microbiome-inflammation-men]].
 - Abundance declines rapidly on Western-style, low-fiber diets and is nearly absent in some industrialized populations.
 
 ## Depletion in Disease States
@@ -57,7 +57,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum that e
 
 Despite its commensal reputation, *Prevotella* has pathobiont potential in specific contexts:
 
-- Periodontitis: *P. intermedia* is a classic "orange complex" periodontal pathogen. Oral-to-systemic translocation may contribute to [[cardiovascular-disease]] risk via chronic [[inflammation]] and bacteremia.
+- Periodontitis: *P. intermedia* is a classic "orange complex" periodontal pathogen. Oral-to-systemic translocation may contribute to [[cardiovascular-disease]] risk via chronic inflammation and bacteremia.
 - Rheumatoid arthritis: *P. copri* is paradoxically enriched in new-onset RA, where it may drive Th17-mediated joint inflammation. This contrasts with its protective role in healthy gut ecology.
 - Endometriosis: *Prevotella* abundance correlates with constipation and GI symptoms in endometriosis patients [[svensson-2021-endometriosis-gut-microbiota-associations]] [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]].
 - Schizophrenia: *Prevotella* is enriched in first-episode and chronic schizophrenia cohorts and is causally implicated in Mendelian randomization analyses [[zhou-2024-gut-microbiome-schizophrenia-mendelian-randomization]] [[dinan-2014-genomics-schizophrenia-gut-microbiome]].
@@ -90,6 +90,6 @@ Despite its commensal reputation, *Prevotella* has pathobiont potential in speci
 - [[endometriosis]] -- correlated with GI symptoms in endometriosis patients
 - [[iron]] -- iron-dependent species; sensitive to iron perturbation in the gut lumen
 - [[dysbiosis]] -- its loss signals fiber-deprived or metal-stressed gut environments
-- [[inflammation]] -- context-dependent: anti-inflammatory via SCFAs, pro-inflammatory in RA and periodontitis
+- inflammation -- context-dependent: anti-inflammatory via SCFAs, pro-inflammatory in RA and periodontitis
 - [[lachnospiraceae]] -- co-depleted in many disease states; complementary fiber fermenters
 - [[faecalibacterium-prausnitzii]] -- metabolic cross-feeding partner in healthy gut ecology

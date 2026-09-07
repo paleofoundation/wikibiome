@@ -58,7 +58,7 @@ The human estrogen recirculation system:
 - Beta-glucuronidase (EC 3.2.1.31) is an iron-containing metalloenzyme; some isoforms also contain molybdenum cofactors in regulatory or catalytic domains.
 - Iron availability directly modulates *E. lenta* growth and beta-glucuronidase expression.
 - Molybdenum is a cofactor for multiple oxidoreductases and may be rate-limiting for *E. lenta* beta-glucuronidase activity.
-- In endometriosis, both iron and molybdenum are often elevated (from bleeding and tissue inflammation), creating conditions favoring *E. lenta* expansion and maximal estrogen deconjugation.
+- In endometriosis, both iron and molybdenum are often elevated (from bleeding and tissue [[inflammation]]), creating conditions favoring *E. lenta* expansion and maximal estrogen deconjugation.
 
 ## The Endometriosis Connection
 

@@ -38,7 +38,7 @@ MR supports a causal link between specific gut microbiota and epilepsy risk, tho
 The [[kynurenine]] pathway produces metabolites with opposing neurological effects:
 - Kynurenic acid (KA): Neuroprotective NMDA antagonist; may raise seizure threshold.
 - Quinolinic acid (QUIN): Neurotoxic NMDA agonist; may lower seizure threshold.
-- The KA/QUIN balance, modulated by gut microbiome composition and inflammation, may influence seizure susceptibility.
+- The KA/QUIN balance, modulated by gut microbiome composition and [[inflammation]], may influence seizure susceptibility.
 
 ## Ketogenic Diet and the Microbiome
 

@@ -32,7 +32,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 ## Disease Associations
 
 ### Metabolic Protection
-- Depleted in obesity and [[type-2-diabetes]], where its loss correlates with impaired bile acid signaling and metabolic inflammation.
+- Depleted in obesity and [[type-2-diabetes]], where its loss correlates with impaired bile acid signaling and metabolic [[inflammation]].
 - *P. distasonis* supplementation in mouse models improves glucose tolerance, reduces adiposity, and ameliorates hepatic steatosis via bile acid-FXR-FGF15 axis modulation.
 
 ### Autoimmune Disease
@@ -73,4 +73,4 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 - [[type-2-diabetes]] -- depletion linked to metabolic inflammation
 - [[short-chain-fatty-acids]] -- acetate producer; supports cross-feeding with butyrate producers
 - [[dysbiosis]] -- its loss is a marker of both metabolic and autoimmune dysbiosis
-- [[inflammation]] -- anti-inflammatory via bile acid and SCFA signaling
+- inflammation -- anti-inflammatory via bile acid and SCFA signaling

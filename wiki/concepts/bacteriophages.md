@@ -52,7 +52,7 @@ Phage therapy -- using phages to target specific pathogenic bacteria -- is being
 
 ### Cardiometabolic Applications
 
-Targeted phage therapy against specific gut bacteria has shown promise in animal models: phages against cytolysin-positive *Enterococcus faecalis* reduced liver disease in humanized mice, and *Klebsiella pneumoniae*-targeting phages reduced steatohepatitis inflammation without altering the broader microbiota ([[wortelboer-2024-phage-therapy-cardiometabolic-diseases]], animal-model). Fecal virome transplantation (FVT) -- transferring the phage-containing filtrate of fecal matter -- can alter gut microbiota composition similarly to full FMT, offering a bacteria-free alternative.
+Targeted phage therapy against specific gut bacteria has shown promise in animal models: phages against cytolysin-positive *Enterococcus faecalis* reduced liver disease in humanized mice, and *Klebsiella pneumoniae*-targeting phages reduced steatohepatitis [[inflammation]] without altering the broader microbiota ([[wortelboer-2024-phage-therapy-cardiometabolic-diseases]], animal-model). Fecal virome transplantation (FVT) -- transferring the phage-containing filtrate of fecal matter -- can alter gut microbiota composition similarly to full FMT, offering a bacteria-free alternative.
 
 ### Temperate Phage Engineering
 

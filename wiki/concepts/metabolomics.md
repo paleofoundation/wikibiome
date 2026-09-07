@@ -38,7 +38,7 @@ In the WikiBiome context, metabolomics bridges two layers of evidence: it transl
 [[butyrate]], propionate, acetate -- the primary outputs of [[firmicutes]] fermentation. SCFA quantification by GC-MS is the most direct measure of beneficial microbiome metabolic activity. Depleted across inflammatory, neurodegenerative, and metabolic conditions.
 
 ### Tryptophan Metabolites
-The [[tryptophan-metabolism]] pathway branches into [[serotonin]], [[kynurenine]], and [[indoles]]. Metabolomics reveals which branch dominates and whether inflammation (IDO1 induction) is diverting tryptophan from serotonin to neurotoxic kynurenine metabolites.
+The [[tryptophan-metabolism]] pathway branches into [[serotonin]], [[kynurenine]], and [[indoles]]. Metabolomics reveals which branch dominates and whether [[inflammation]] (IDO1 induction) is diverting tryptophan from serotonin to neurotoxic kynurenine metabolites.
 
 ### Bile Acids
 Primary and secondary bile acid profiles reflect [[bile-acid-metabolism]] activity of gut bacteria. Deconjugation by BSH-producing organisms and 7-alpha-dehydroxylation are measurable metabolomic events.

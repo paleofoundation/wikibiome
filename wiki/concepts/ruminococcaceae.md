@@ -34,7 +34,7 @@ Several Ruminococcaceae members produce butyrate directly:
 
 - Butyrate is the primary energy source for colonocytes (70% of epithelial energy).
 - Butyrate maintains [[intestinal-permeability|gut-barrier-integrity]] by promoting [[tight-junctions|tight junction]] protein expression.
-- Butyrate induces FoxP3+ Treg differentiation, suppressing inflammation and supporting immune tolerance.
+- Butyrate induces FoxP3+ Treg differentiation, suppressing [[inflammation]] and supporting immune tolerance.
 - Butyrate strengthens the [[blood-brain-barrier]] via histone deacetylase inhibition.
 
 ### Oxygen and pH Sensitivity

@@ -103,5 +103,5 @@ Fan et al. 2025 conducted the first multicenter, randomized, blinded, placebo-co
 - [[lead]] -- established environmental hypertension risk factor via renal and vascular toxicity
 - [[cadmium]] -- renal accumulation impairs BP regulation
 - [[chronic-kidney-disease]] -- HTN+CKD comorbidity shows most severe mycobiome disruption
-- [[inflammation]] -- Malassezia-driven and LPS-driven inflammation contributes to vascular remodeling
+- inflammation -- Malassezia-driven and LPS-driven inflammation contributes to vascular remodeling
 - [[malassezia]] -- enriched in hypertension; correlates with immunoglobulin light chain dysregulation

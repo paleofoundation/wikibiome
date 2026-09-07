@@ -24,7 +24,7 @@ signature_page: "[[barretts-esophagus-signature]]"
 
 Barrett's esophagus (BE) is a premalignant condition in which the normal squamous epithelium of the distal esophagus is replaced by intestinal-type columnar epithelium (intestinal metaplasia). It is the primary risk factor for esophageal adenocarcinoma (EAC), a cancer with a 5-year survival of ~20%. Barrett's develops in 6-12% of patients with chronic [[gerd]], and its progression through dysplasia to EAC follows a well-defined metaplasia → low-grade dysplasia → high-grade dysplasia → carcinoma sequence.
 
-The esophageal microbiome undergoes a parallel transformation that may drive or accelerate this progression -- shifting from a Streptococcus-dominated healthy community to one enriched in Gram-negative anaerobes that produce LPS, activate [[tlr4]], and sustain chronic inflammation.
+The esophageal microbiome undergoes a parallel transformation that may drive or accelerate this progression -- shifting from a Streptococcus-dominated healthy community to one enriched in Gram-negative anaerobes that produce LPS, activate [[tlr4]], and sustain chronic [[inflammation]].
 
 ## Microbiome Associations
 

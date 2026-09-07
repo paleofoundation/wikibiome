@@ -38,7 +38,7 @@ The Gram-negative outer membrane is an asymmetric lipid bilayer:
 Lipopolysaccharide is the outer membrane component with the greatest clinical impact:
 
 - Lipid A (the membrane-anchored portion) is the primary ligand for TLR-4 on host immune cells.
-- LPS translocation from the gut into systemic circulation (endotoxemia) drives chronic low-grade inflammation in metabolic syndrome, [[cardiovascular-disease]], and [[obesity]].
+- LPS translocation from the gut into systemic circulation (endotoxemia) drives chronic low-grade [[inflammation]] in metabolic syndrome, [[cardiovascular-disease]], and [[obesity]].
 - LPS biosynthesis genes are functionally enriched in dysbiotic communities, increasing the inflammatory potential of the gut microbiome [[cardiovascular-disease]].
 - Outer membrane vesicles (OMVs): Gram-negative bacteria shed membrane vesicles carrying LPS, virulence factors, and DNA to distant sites. [[porphyromonas]] OMVs carry gingipains and LPS, potentially enabling brain colonization from oral origins.
 

@@ -166,7 +166,7 @@ Different metals generate oxidative stress through distinct mechanisms. This is 
 [[manganese]] paradoxically serves as the cofactor for the mitochondrial antioxidant Mn-SOD (SOD2) but is neurotoxic at elevated levels:
 - Excess Mn disrupts mitochondrial function, inducing cytochrome C release and caspase activation in dopaminergic neurons [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - Mn accumulates preferentially in the globus pallidus and striatum, causing parkinsonism distinct from idiopathic Parkinson's disease.
-- Metal-driven gut [[dysbiosis]] by Mn (and Fe, Ni) initiates a cascade: loss of barrier integrity, bacterial translocation, systemic inflammation, and neuroinflammation converging on dopaminergic neuron vulnerability [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Metal-driven gut [[dysbiosis]] by Mn (and Fe, Ni) initiates a cascade: loss of barrier integrity, bacterial translocation, systemic [[inflammation]], and neuroinflammation converging on dopaminergic neuron vulnerability [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 
 ## Biomarkers of Oxidative Stress
 

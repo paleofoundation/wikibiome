@@ -50,7 +50,7 @@ A genus of Gram-positive, facultatively anaerobic, filamentous bacteria that are
 - Part of the oral-origin bacteria that translocate to gut tumors as components of the CRC-associated microbiome signature.
 
 ### Multiple Sclerosis
-- Enriched in faecal microbiota of RRMS patients alongside other inflammation-associated bacteria [[boussamet-2024-oral-microbiota-metabolite-signature-ms]].
+- Enriched in faecal microbiota of RRMS patients alongside other [[inflammation]]-associated bacteria [[boussamet-2024-oral-microbiota-metabolite-signature-ms]].
 - Oral [[dysbiosis]] in MS involves altered *Actinomyces* abundance as part of breakdown in oral-gut compartmentalization [[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]].
 
 ### Endometriosis

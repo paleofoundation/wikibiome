@@ -40,7 +40,7 @@ Hydrogen sulfide is a gaseous signaling molecule (gasotransmitter) produced by b
 
 - Colonocyte toxicity: Excess H₂S inhibits cytochrome c oxidase (complex IV) in colonocytes, impairing butyrate oxidation — the energy source for colonic epithelium [[shirdarreh-2021-ketogenic-diet-crc-microbiota-protocol]].
 - CRC promotion: High H₂S damages DNA and promotes colorectal carcinogenesis.
-- Endometriosis: H₂S activates NF-kB in endometrial stromal cells, promoting inflammation and lesion growth [[lei-2018-h2s-endometrial-stromal-cells-nfkb]].
+- Endometriosis: H₂S activates NF-kB in endometrial stromal cells, promoting [[inflammation]] and lesion growth [[lei-2018-h2s-endometrial-stromal-cells-nfkb]].
 - CKD: Altered H₂S metabolism in CKD gut [[li-2019-gut-microbiota-inflammatory-factors-ckd]].
 
 ## Metal Connection

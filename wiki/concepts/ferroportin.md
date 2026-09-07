@@ -31,7 +31,7 @@ This axis is the master regulator of systemic iron homeostasis [[bao-2024-iron-h
 - Hepcidin binds ferroportin on the cell surface, triggering its internalization, ubiquitination, and lysosomal degradation
 - High hepcidin = ferroportin destroyed = iron trapped inside cells = serum iron falls
 - Low hepcidin = ferroportin expressed = iron flows into plasma = serum iron rises
-- This axis integrates signals from iron stores (BMP-SMAD pathway), inflammation (IL-6/JAK-STAT3), erythropoietic demand, and hypoxia (HIF pathway)
+- This axis integrates signals from iron stores (BMP-SMAD pathway), [[inflammation]] (IL-6/JAK-STAT3), erythropoietic demand, and hypoxia (HIF pathway)
 
 ## Role in Nutritional Immunity
 

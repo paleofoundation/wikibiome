@@ -32,7 +32,7 @@ last_substantive_update: 2026-04-22
 
 ## Overview
 
-Lipopolysaccharide (LPS), also called endotoxin, is a major structural component of the outer membrane of Gram-negative bacteria. When released into circulation through a compromised gut barrier, LPS triggers potent inflammatory signaling via Toll-like receptor 4 (TLR4), linking gut [[dysbiosis]] directly to systemic inflammation. The concept of "metabolic endotoxemia" — chronic low-grade LPS translocation driving metabolic disease — has become a central framework for understanding how gut microbial ecology affects organs far from the intestine.
+Lipopolysaccharide (LPS), also called endotoxin, is a major structural component of the outer membrane of Gram-negative bacteria. When released into circulation through a compromised gut barrier, LPS triggers potent inflammatory signaling via Toll-like receptor 4 (TLR4), linking gut [[dysbiosis]] directly to systemic [[inflammation]]. The concept of "metabolic endotoxemia" — chronic low-grade LPS translocation driving metabolic disease — has become a central framework for understanding how gut microbial ecology affects organs far from the intestine.
 
 ## Structure and Signaling
 

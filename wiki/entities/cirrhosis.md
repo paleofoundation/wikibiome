@@ -22,7 +22,7 @@ platform: wikibiome
 
 # Cirrhosis
 
-Cirrhosis is end-stage liver fibrosis characterized by nodular regeneration, portal hypertension, and progressive hepatic failure. The gut-liver axis is central: portal venous blood delivers gut-derived LPS, bacterial DNA, and viable bacteria directly to the liver, and cirrhosis-associated gut barrier failure amplifies this toxic load — creating a feed-forward cycle of [[endotoxemia]] → hepatic inflammation → further barrier disruption.
+Cirrhosis is end-stage liver fibrosis characterized by nodular regeneration, portal hypertension, and progressive hepatic failure. The gut-liver axis is central: portal venous blood delivers gut-derived LPS, bacterial DNA, and viable bacteria directly to the liver, and cirrhosis-associated gut barrier failure amplifies this toxic load — creating a feed-forward cycle of [[endotoxemia]] → hepatic [[inflammation]] → further barrier disruption.
 
 ## Key Connections
 

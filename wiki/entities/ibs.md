@@ -25,7 +25,7 @@ A functional gastrointestinal disorder affecting 10-15% of the global population
 ## The Nickel-IBS Connection
 
 ### Nickel Allergic Contact Mucositis (ACM)
-Rizzi et al. (2017) demonstrated that a subset of IBS patients have nickel ACM -- allergic inflammation of the intestinal mucosa triggered by dietary nickel. Key findings:
+Rizzi et al. (2017) demonstrated that a subset of IBS patients have nickel ACM -- allergic [[inflammation]] of the intestinal mucosa triggered by dietary nickel. Key findings:
 - Nickel patch test-positive IBS patients improve dramatically on a low-nickel diet
 - Symptoms (bloating, pain, diarrhea) are indistinguishable from "classical" IBS
 - Mucosal biopsies show increased eosinophils and mast cells at sites of nickel contact
@@ -66,7 +66,7 @@ The hallmark of IBS -- exaggerated pain perception to normal intestinal distensi
 - Mast cell mediators (histamine, tryptase, serotonin) sensitize afferent nerve endings
 - Nickel-triggered mast cell activation in the mucosa directly drives visceral hypersensitivity
 - Serotonin (5-HT) dysregulation: ~95% of body serotonin is in the gut; altered 5-HT signaling underlies both motility and pain abnormalities
-- Metal-induced [[inflammation]] lowers pain thresholds via peripheral and central sensitization
+- Metal-induced inflammation lowers pain thresholds via peripheral and central sensitization
 
 ## Microbiome in IBS
 

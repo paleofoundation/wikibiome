@@ -42,4 +42,4 @@ BDNF is the primary neurotrophin supporting neuronal survival, synaptic plastici
 - [[gut-brain-axis]] — BDNF as microbiome-modulated neurotrophic mediator
 - [[serotonin]] — BDNF and serotonin have reciprocal regulatory relationships
 - [[depression]] — reduced BDNF as core biomarker
-- [[neuroinflammation]] — inflammation reduces BDNF
+- [[neuroinflammation]] — [[inflammation]] reduces BDNF

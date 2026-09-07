@@ -53,7 +53,7 @@ The pheomelanin-eumelanin ratio in neuromelanin may modulate ferroptotic vulnera
 The Pendergrass framework proposes ferroptosis as the convergent cell death mechanism linking peripheral gut pathology to central dopaminergic neuron loss in PD:
 
 1. Dietary/environmental heavy metals (Fe, Mn, Ni) reshape gut microbial communities, favoring metal-tolerant pathogens over SCFA-producing commensals
-2. Loss of gut barrier integrity permits bacterial translocation and systemic inflammation
+2. Loss of gut barrier integrity permits bacterial translocation and systemic [[inflammation]]
 3. Alpha-synuclein aggregation in the enteric nervous system may be triggered by metal-induced oxidative stress
 4. Ferroptosis drives both gut epithelial damage and dopaminergic neuron death
 

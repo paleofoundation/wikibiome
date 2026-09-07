@@ -41,7 +41,7 @@ The commensal microbiome primes mucosal immunity:
 - Induces secretory IgA that coats potential pathogens
 - Stimulates antimicrobial peptide production (defensins, cathelicidins)
 - Trains innate immune cells to discriminate commensals from pathogens
-- Maintains regulatory T cells that prevent excessive inflammation
+- Maintains regulatory T cells that prevent excessive [[inflammation]]
 
 ### Physical Niche Occupation
 

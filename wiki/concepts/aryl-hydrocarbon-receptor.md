@@ -24,7 +24,7 @@ platform: wikibiome
 
 This page serves as a cross-reference point for the existing [[ahr]] concept page, which provides comprehensive coverage of AhR signaling, microbiome-derived ligands, and immune regulation.
 
-The aryl hydrocarbon receptor is a ligand-activated transcription factor that integrates microbial, dietary, and environmental signals to regulate gut barrier integrity, immune tolerance, and inflammation. Originally identified as a xenobiotic sensor (binding dioxins and polycyclic aromatic hydrocarbons), AhR is now recognized as a critical node in the microbiome-immune axis, where microbial tryptophan metabolites serve as its primary endogenous ligands.
+The aryl hydrocarbon receptor is a ligand-activated transcription factor that integrates microbial, dietary, and environmental signals to regulate gut barrier integrity, immune tolerance, and [[inflammation]]. Originally identified as a xenobiotic sensor (binding dioxins and polycyclic aromatic hydrocarbons), AhR is now recognized as a critical node in the microbiome-immune axis, where microbial tryptophan metabolites serve as its primary endogenous ligands.
 
 For full coverage, see [[ahr]].
 

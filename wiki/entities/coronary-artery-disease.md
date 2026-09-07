@@ -78,7 +78,7 @@ A critical observation: gut microbiome metabolic capacity correlates with CAD se
 3. TMAO promotes atherosclerosis through:
    - Enhanced macrophage foam cell formation (cholesterol uptake, impaired efflux)
    - Increased platelet hyperreactivity and thrombosis risk
-   - Promotion of endothelial inflammation
+   - Promotion of endothelial [[inflammation]]
    - Altered bile acid and cholesterol metabolism
 
 TMAO levels predict cardiovascular events independent of traditional risk factors, and the TMAO-producing capacity of an individual's microbiome is a modifiable risk factor.

@@ -59,5 +59,5 @@ Progressive inflammatory disease of the arterial wall characterized by lipid acc
 - [[cardiovascular-disease]] -- broader disease category
 - [[tmao]] -- key proatherogenic metabolite
 - [[porphyromonas]] -- oral pathogen found in plaques
-- [[inflammation]] -- driving force of plaque progression
+- inflammation -- driving force of plaque progression
 - [[oxidative-stress]] -- LDL oxidation and plaque instability

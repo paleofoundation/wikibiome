@@ -99,7 +99,7 @@ SCFAs protect against CVD through multiple mechanisms:
 - Gut barrier maintenance: butyrate induces [[tight-junctions|tight junction]] proteins and mucin production, preventing LPS translocation -- a key pathway in CVD pathogenesis
 - Appetite and metabolism: colonic SCFAs increase fat oxidation and energy expenditure; propionate stimulates PYY and GLP-1 release
 
-Metal-induced depletion of SCFA-producing bacteria (*Roseburia*, *F. prausnitzii*, Clostridia) directly reduces these cardioprotective effects, creating a vicious cycle of barrier disruption, endotoxemia, and vascular inflammation.
+Metal-induced depletion of SCFA-producing bacteria (*Roseburia*, *F. prausnitzii*, Clostridia) directly reduces these cardioprotective effects, creating a vicious cycle of barrier disruption, endotoxemia, and vascular [[inflammation]].
 
 ## Bile Acids as CVD Mediators
 

@@ -34,7 +34,7 @@ The use of gut microbiome composition, microbial metabolites, or microbial produ
 
 - [[tmao]] for CVD risk: Elevated plasma TMAO predicts major adverse cardiovascular events (MACE) including MI, stroke, and death; produced from dietary choline/carnitine by gut bacteria.
 - p-Cresol sulfate for ASD: Elevated in urine and plasma of ASD children; produced from tyrosine by *Clostridioides*; also a uremic toxin marker in CKD [[zheng-2021-bacterial-aromatic-amino-acids-asd]].
-- [[calprotectin]] (fecal): Neutrophil-derived protein; gold-standard non-invasive marker for intestinal inflammation in IBD.
+- [[calprotectin]] (fecal): Neutrophil-derived protein; gold-standard non-invasive marker for intestinal [[inflammation]] in IBD.
 - Indoxyl sulfate for CKD progression: Microbial indole derivative; accumulates with renal failure; cardiotoxic.
 - [[short-chain-fatty-acids]] (fecal): Reduced butyrate/propionate reflects loss of fermentative capacity; altered SCFA profiles documented in ASD, IBD, and CVD.
 

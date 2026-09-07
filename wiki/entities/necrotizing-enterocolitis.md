@@ -37,7 +37,7 @@ shared_signature_taxa: {cerebral-palsy: [klebsiella-enriched, bifidobacterium-de
 
 # Necrotizing Enterocolitis (NEC)
 
-Necrotizing enterocolitis (NEC) is the most common and lethal gastrointestinal emergency in premature infants, affecting 5-12% of very low birth weight neonates (<1500 g) with mortality rates of 20-30%. Characterized by intestinal inflammation, necrosis, and perforation, NEC has resisted simple causal explanations for decades. The microbiome perspective reveals NEC as an ecological catastrophe -- a Proteobacteria bloom in an immature intestine that lacks the regulatory capacity to contain it.
+Necrotizing enterocolitis (NEC) is the most common and lethal gastrointestinal emergency in premature infants, affecting 5-12% of very low birth weight neonates (<1500 g) with mortality rates of 20-30%. Characterized by intestinal [[inflammation]], necrosis, and perforation, NEC has resisted simple causal explanations for decades. The microbiome perspective reveals NEC as an ecological catastrophe -- a Proteobacteria bloom in an immature intestine that lacks the regulatory capacity to contain it.
 
 ## TLR4: Master Regulator of NEC
 

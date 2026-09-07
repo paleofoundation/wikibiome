@@ -55,7 +55,7 @@ All three are zinc metallopeptidases with catalytic zinc in their active sites.
 
 - Gingipain expression and activity are zinc-responsive: under high-zinc conditions, gingipain synthesis increases; under zinc limitation, expression is downregulated.
 - This makes gingipain activity directly modulated by local zinc availability in periodontal lesions.
-- Host [[calprotectin]] and other nutritional immunity mechanisms that sequester zinc at inflammation sites may paradoxically reduce gingipain activity -- a counterintuitive protective mechanism.
+- Host [[calprotectin]] and other nutritional immunity mechanisms that sequester zinc at [[inflammation]] sites may paradoxically reduce gingipain activity -- a counterintuitive protective mechanism.
 
 ### Gingipain Functions
 

@@ -22,7 +22,7 @@ karen_brain_primitives: [1, 5]
 
 ## Overview
 
-Cyclooxygenase-2 (COX-2) is the inducible enzyme that converts [[arachidonic-acid]] to prostaglandin H₂ — the precursor of prostaglandin E₂ (PGE₂), prostacyclin, and thromboxane. Unlike COX-1 (constitutive, homeostatic), COX-2 is transcriptionally induced by [[nf-kappa-b]] during inflammation and is the primary pharmacological target of NSAIDs ([[aspirin]], ibuprofen) and selective COX-2 inhibitors (celecoxib). With 36 file mentions, COX-2 is one of the most referenced inflammatory enzymes in the vault.
+Cyclooxygenase-2 (COX-2) is the inducible enzyme that converts [[arachidonic-acid]] to prostaglandin H₂ — the precursor of prostaglandin E₂ (PGE₂), prostacyclin, and thromboxane. Unlike COX-1 (constitutive, homeostatic), COX-2 is transcriptionally induced by [[nf-kappa-b]] during [[inflammation]] and is the primary pharmacological target of NSAIDs ([[aspirin]], ibuprofen) and selective COX-2 inhibitors (celecoxib). With 36 file mentions, COX-2 is one of the most referenced inflammatory enzymes in the vault.
 
 ## The Metal → NF-kB → COX-2 → PGE₂ Cascade
 
@@ -63,7 +63,7 @@ COX-2 overexpression is found in ~85% of colorectal cancers and correlates with 
 
 - [[nf-kappa-b]] — transcriptional driver of COX-2 expression
 - [[arachidonic-acid]] — COX-2 substrate
-- [[inflammation]] — COX-2/PGE₂ as core inflammatory effector
+- inflammation — COX-2/PGE₂ as core inflammatory effector
 - [[aspirin]] — COX-2 inhibitor with dual GI injury/chemopreventive profile
 - [[endotoxemia]] — LPS/TLR4 → COX-2 activation
 - [[endometriosis]] — PGE₂-driven lesion proliferation

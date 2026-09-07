@@ -37,7 +37,7 @@ The gut-brain axis connects intestinal microbiome composition to anxiety through
 ## Microbiome Associations
 
 ### Gut-Brain Axis Mechanisms
-- [[serotonin]]: ~90-95% produced in the gut by enterochromaffin cells; microbially stimulated. Tryptophan diversion from serotonin to [[kynurenine]] under inflammation reduces serotonin availability.
+- [[serotonin]]: ~90-95% produced in the gut by enterochromaffin cells; microbially stimulated. Tryptophan diversion from serotonin to [[kynurenine]] under [[inflammation]] reduces serotonin availability.
 - GABA: Produced by *Lactobacillus* and *Bifidobacterium* species; GABAergic deficits are a core anxiety mechanism.
 - [[short-chain-fatty-acids]]: [[butyrate]] modulates HPA axis reactivity and neuroinflammation; SCFA producer depletion is associated with anxiety.
 - Vagal signaling: Gut-to-brain signaling via vagal afferents; probiotics' anxiolytic effects are abolished by vagotomy in animal models.

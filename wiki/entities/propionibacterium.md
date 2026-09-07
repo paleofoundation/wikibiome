@@ -32,7 +32,7 @@ Propionibacterium (largely reclassified as *Cutibacterium* for skin species) is 
 
 ## Cancer Associations
 
-- Prostate cancer: Enriched in tumor tissue; associated with chronic prostatic inflammation [[bautista-2025-reprogramming-prostate-cancer-microbiome]].
+- Prostate cancer: Enriched in tumor tissue; associated with chronic prostatic [[inflammation]] [[bautista-2025-reprogramming-prostate-cancer-microbiome]].
 - Ovarian cancer: Part of peritoneal and tumor microbiome [[lee-2021-peritoneal-microbiota-ovarian-endometrioma]] [[zhang-2024-ovarian-cancer-microbiome-inflammatory-microenvironment]].
 - Breast cancer: Positively associated with breast cancer risk in oral microbiome [[wu-2022-oral-fecal-microbiome-breast-cancer-ghana]].
 - CVD: Circulating microbial DNA including Propionibacterium detected in cardiovascular disease [[dinakaran-2014-circdna-circulating-microbiome-cvd]].

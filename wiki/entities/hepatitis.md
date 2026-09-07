@@ -22,7 +22,7 @@ platform: wikibiome
 
 # Hepatitis
 
-Hepatitis (liver inflammation) encompasses viral (HBV, HCV, HAV), autoimmune, alcoholic, and toxin-induced forms. In the WikiBiome framework, the gut-liver axis is central — portal blood delivers gut-derived microbial products (LPS, bacterial DNA) directly to the liver via the portal vein, making hepatic inflammation inseparable from gut microbiome status.
+Hepatitis (liver [[inflammation]]) encompasses viral (HBV, HCV, HAV), autoimmune, alcoholic, and toxin-induced forms. In the WikiBiome framework, the gut-liver axis is central — portal blood delivers gut-derived microbial products (LPS, bacterial DNA) directly to the liver via the portal vein, making hepatic inflammation inseparable from gut microbiome status.
 
 ## Key Connections
 

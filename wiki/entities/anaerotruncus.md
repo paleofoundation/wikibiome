@@ -41,7 +41,7 @@ Anaerotruncus is a Gram-positive obligate anaerobic genus within the Ruminococca
 
 ## Metal Dependencies
 
-Anaerotruncus species require iron for anaerobic metabolism. Their expansion in elderly populations may reflect the broader age-related shift in gut iron handling — increased systemic inflammation raises hepcidin, altering luminal iron pools in ways that reshape the competitive landscape among strict anaerobes.
+Anaerotruncus species require iron for anaerobic metabolism. Their expansion in elderly populations may reflect the broader age-related shift in gut iron handling — increased systemic [[inflammation]] raises hepcidin, altering luminal iron pools in ways that reshape the competitive landscape among strict anaerobes.
 
 ## Ecological Role
 

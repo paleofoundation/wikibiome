@@ -56,7 +56,7 @@ Prevotellaceae thrive in individuals consuming plant-rich, fiber-heavy diets. Th
 ### The Prevotellaceae Paradox
 The family's dual role as both beneficial (SCFA production, fiber fermentation) and potentially harmful (mucosal invasion, T-cell activation) depends on context:
 - Beneficial: In the gut lumen, Prevotellaceae ferment dietary fiber into SCFAs and maintain community diversity
-- Harmful: When Prevotellaceae infiltrate the mucosal layer, they can trigger T-cell and antibody responses, promoting inflammation [[li-2023-gut-microbiota-asd-bidirectional-mr]]
+- Harmful: When Prevotellaceae infiltrate the mucosal layer, they can trigger T-cell and antibody responses, promoting [[inflammation]] [[li-2023-gut-microbiota-asd-bidirectional-mr]]
 
 ## Conditions Associated
 

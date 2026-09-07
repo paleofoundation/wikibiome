@@ -71,7 +71,7 @@ Iron:
 *P. anaerobius* is enriched in the CRC tumor microenvironment [[gao-2015-microbiota-disbiosis-colorectal-cancer]] and is cataloged alongside [[streptococcus-gallolyticus]], enterotoxigenic [[bacteroides-fragilis]], pks+ [[escherichia-coli]], [[fusobacterium-nucleatum]], and [[enterococcus-faecalis]] as one of six bacteria with well-characterized pro-tumorigenic mechanisms [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 
 The mechanistic triad:
-1. Immune modulation -- TLR2/TLR4 activation → NF-kB → pro-inflammatory cytokines → tumor-promoting inflammation
+1. Immune modulation -- TLR2/TLR4 activation → NF-kB → pro-inflammatory cytokines → tumor-promoting [[inflammation]]
 2. Metabolic reprogramming -- cholesterol biosynthesis upregulation → enhanced cell proliferation
 3. Genotoxicity -- ROS production → DNA damage → genomic instability
 

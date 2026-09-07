@@ -32,7 +32,7 @@ The IL-17/IL-23 axis is the central immunological driver, with Th17 cells produc
 
 ## The Gut-Skin Axis
 
-Psoriasis demonstrates a robust gut-skin axis -- a bidirectional communication pathway linking intestinal and cutaneous inflammation:
+Psoriasis demonstrates a robust gut-skin axis -- a bidirectional communication pathway linking intestinal and cutaneous [[inflammation]]:
 
 ### Gut to Skin
 

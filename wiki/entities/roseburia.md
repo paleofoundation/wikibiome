@@ -76,5 +76,5 @@ Roseburia depletion is among the most reproducible microbiome findings in human 
 - [[iron]] -- Fe-S clusters essential for butyrate production; iron competition from pathogens
 - [[cadmium]] -- particularly sensitive to Cd-induced depletion
 - dysbiosis -- one of the most reliably depleted genera across disease states
-- [[inflammation]] -- butyrate/HDAC/GPR109A anti-inflammatory axis
+- inflammation -- butyrate/HDAC/GPR109A anti-inflammatory axis
 - [[gut-metal-microbiome]] -- metal sensitivity makes it an early indicator of metal-induced dysbiosis

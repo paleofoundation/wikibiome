@@ -79,7 +79,7 @@ Different nickel compounds have very different carcinogenic potentials, a princi
 - Nickel subsulfide (Ni3S2): most carcinogenic in NTP studies -- readily endocytized, high solubility in biological fluids. Clear evidence of carcinogenic activity in F344/N rats at 0.6-1.2 mg/m3 [[cameron-2011-nickel-genotoxicity-carcinogenicity]].
 - Green nickel oxide (NiO): increased alveolar/bronchiolar adenoma or carcinoma in male rats at 0.62-2.5 mg NiO/m3 in 2-year NTP study [[cameron-2011-nickel-genotoxicity-carcinogenicity]].
 - Nickel sulfate hexahydrate: soluble, rapidly cleared; non-neoplastic lung lesions at >=2.5 mg/m3 but no clear evidence of carcinogenicity [[cameron-2011-nickel-genotoxicity-carcinogenicity]].
-- Particle clearance is the key determinant: impaired clearance leads to chronic inflammation and tumors. Insoluble compounds (NiS, NiO) are more potent than soluble forms (NiSO4, NiCl2) due to prolonged tissue retention [[genchi-2020-nickel-human-health-environmental-toxicology]].
+- Particle clearance is the key determinant: impaired clearance leads to chronic [[inflammation]] and tumors. Insoluble compounds (NiS, NiO) are more potent than soluble forms (NiSO4, NiCl2) due to prolonged tissue retention [[genchi-2020-nickel-human-health-environmental-toxicology]].
 - Metallothionein vulnerability: nickel does not potently induce metallothionein (unlike cadmium), meaning the cell's natural chelation defense is not upregulated, potentially enhancing carcinogenic effects [[costa-1982-specific-nickel-compounds-carcinogens]].
 
 ### Metallomic Signatures in Cancer

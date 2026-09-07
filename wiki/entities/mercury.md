@@ -103,7 +103,7 @@ The relationship is bidirectional: mercury alters microbiota composition and met
 
 Mercury directly damages the intestinal epithelial barrier. Hg downregulates claudin 1, occludin, ZO-1, and JAM1 in colon epithelial cells, increasing intestinal permeability and enabling bacterial translocation [[ghosh-2023-heavy-metals-gut-barrier-integrity]], [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]. This barrier disruption compounds the [[dysbiosis]]: mercury-driven permeability allows LPS and other bacterial products to translocate systemically, driving neuroinflammation and immune activation through the gut-brain axis [[ghasemian-sorboni-2023-gut-microbiome-neurological-review]].
 
-Seven rodent studies confirm mercury causes intestinal barrier dysfunction, structural damage, gut inflammation, and microbiota dysbiosis [[ogrady-2025-metal-dyshomeostasis-asd]]. Lactobacillus brevis 23017 protects against Hg-induced gut damage via MAPK and NF-kappaB pathway regulation [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
+Seven rodent studies confirm mercury causes intestinal barrier dysfunction, structural damage, gut [[inflammation]], and microbiota dysbiosis [[ogrady-2025-metal-dyshomeostasis-asd]]. Lactobacillus brevis 23017 protects against Hg-induced gut damage via MAPK and NF-kappaB pathway regulation [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 
 ### Mercury-Gut-Brain Metabolite Axis
 

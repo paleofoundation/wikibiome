@@ -92,7 +92,7 @@ A genus of ascomycete yeasts (formerly classified as Zygosaccharomyces) found in
 - Metabolic byproducts (acetaldehyde, fusel alcohols) may inhibit competing microbes.
 
 ### Gut Dysbiosis Context
-- Emerges when commensal bacterial structure is disrupted (antibiotics, dietary shifts, inflammation).
+- Emerges when commensal bacterial structure is disrupted (antibiotics, dietary shifts, [[inflammation]]).
 - Iron-rich, hypoxic dysbiotic environments (similar to those favoring [[fusobacterium-varium]]) may favor *Torulaspora* expansion.
 - Expansion correlates with reduced microbial diversity and altered SCFA production.
 

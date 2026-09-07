@@ -47,7 +47,7 @@ Multiple disease signatures in this wiki demonstrate the metals→microbes→dis
 
 The neurodegeneration pathway is the most striking example of microbial metallomics in action:
 
-- [[escherichia-coli]] / [[shigella]]: Enriched in Alzheimer's disease gut microbiome. Produces curli amyloid fibers that cross-seed amyloid-beta (Aβ) aggregation in the brain, providing a direct microbial-to-neurodegeneration pathway. Iron and zinc are required for curli fiber assembly, and the inflammation-driven iron availability in the dysbiotic gut selects for E. coli/Shigella expansion [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].
+- [[escherichia-coli]] / [[shigella]]: Enriched in Alzheimer's disease gut microbiome. Produces curli amyloid fibers that cross-seed amyloid-beta (Aβ) aggregation in the brain, providing a direct microbial-to-neurodegeneration pathway. Iron and zinc are required for curli fiber assembly, and the [[inflammation]]-driven iron availability in the dysbiotic gut selects for E. coli/Shigella expansion [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]].
 - [[helicobacter-pylori]]: Requires nickel-dependent [[urease]] for gastric survival. Chronic H. pylori infection is epidemiologically linked to Parkinson's disease risk, potentially through systemic inflammation and mis-metallation cascades. Dietary nickel exposure fuels H. pylori colonization capacity [[maier-2019-nickel-microbial-pathogenesis]].
 - [[porphyromonas-gingivalis]]: Zinc-dependent gingipains directly cleave amyloid precursor protein (APP) and tau, generating amyloidogenic fragments. The oral-brain translocation of P. gingivalis connects periodontal metal ecology to Alzheimer's pathogenesis. Iron/heme from gingival bleeding feeds P. gingivalis expansion [[kim-2022-cortisol-surface-translocation-pgingivalis]].
 - Ferroptosis: Iron-dependent lipid peroxidation (ferroptosis) kills dopaminergic neurons in Parkinson's. The gut microbiome modulates systemic iron homeostasis via hepcidin signaling, connecting microbial iron ecology to neuronal iron death [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
@@ -110,7 +110,7 @@ Microbial metallomics is the integrative framework that connects several concept
 
 - [[metallomics]] — Parent discipline
 - [[nutritional-immunity]] — Host side of the metal-microbe interface
-- [[inflammation]] — Metal-driven inflammation via NF-kB activation
+- inflammation — Metal-driven inflammation via NF-kB activation
 - [[hepcidin]] — Master iron regulator connecting microbiome to systemic iron
 - [[interleukin-6]] — IL-6 → hepcidin → iron sequestration axis
 - [[ferroptosis]] — Iron-dependent cell death linking microbial iron ecology to neurodegeneration

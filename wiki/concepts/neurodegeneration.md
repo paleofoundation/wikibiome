@@ -59,7 +59,7 @@ All neurotoxic metals converge on overlapping pathways [[ahmed-2025-metals-alzhe
 The [[gut-brain-axis]] provides a route from environmental metal exposure to central neurodegeneration:
 - Dietary/environmental metals reshape gut microbiota, favoring metal-tolerant pathobionts.
 - Loss of SCFA producers compromises gut barrier and anti-inflammatory signaling.
-- LPS translocation activates systemic and central inflammation.
+- LPS translocation activates systemic and central [[inflammation]].
 - Alpha-synuclein aggregation may begin in the enteric nervous system and propagate to the brain via the vagus nerve (Braak hypothesis) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - PD, AD, and ASD all feature characteristic gut [[dysbiosis]] patterns consistent with metal-driven shifts.
 
@@ -82,6 +82,6 @@ Aluminum accumulates in brain tissue in AD and is a documented neurotoxin, but i
 - [[gut-brain-axis]] -- peripheral-to-central pathway for metal-driven neurodegeneration
 - [[iron]], [[copper]], [[zinc]], [[manganese]], [[lead]], [[aluminum]] -- metals implicated in neurodegeneration
 - [[glutathione]] -- depletion disables GPX4, enabling ferroptosis
-- [[inflammation]] -- microglial activation and neuroinflammation
+- inflammation -- microglial activation and neuroinflammation
 - dysbiosis -- gut microbial shifts associated with neurodegenerative disease
 - [[developmental-metal-vulnerability]] -- early-life exposure and latent neurodegeneration

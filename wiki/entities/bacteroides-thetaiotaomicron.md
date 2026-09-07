@@ -67,7 +67,7 @@ Its sulfate reduction and sulfatase activity on mucin O-glycans links it to sulf
 
 ## Tryptophan Metabolism and AhR Signaling
 
-*B. thetaiotaomicron* contributes to the production of indole derivatives — including indole-3-lactate and indole-3-propionate — from dietary tryptophan. These metabolites act as aryl hydrocarbon receptor (AhR) ligands, activating mucosal immune programs that support [[interleukin-22|IL-22]] production, antimicrobial peptide expression, and barrier repair. The loss of *B. thetaiotaomicron* in dysbiotic states therefore reduces AhR tone, with downstream effects on both local inflammation and systemic immunity.
+*B. thetaiotaomicron* contributes to the production of indole derivatives — including indole-3-lactate and indole-3-propionate — from dietary tryptophan. These metabolites act as aryl hydrocarbon receptor (AhR) ligands, activating mucosal immune programs that support [[interleukin-22|IL-22]] production, antimicrobial peptide expression, and barrier repair. The loss of *B. thetaiotaomicron* in dysbiotic states therefore reduces AhR tone, with downstream effects on both local [[inflammation]] and systemic immunity.
 
 ## Disease Associations
 

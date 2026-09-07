@@ -25,7 +25,7 @@ The master regulator of systemic iron homeostasis. Hepcidin is a 25-amino-acid p
 
 ### Regulation
 - Iron excess upregulates hepcidin via the BMP-SMAD pathway (bone morphogenetic protein signaling).
-- Inflammation upregulates hepcidin via IL-6/JAK-STAT3 signaling -- this is the basis of anemia of chronic disease.
+- [[inflammation]] upregulates hepcidin via IL-6/JAK-STAT3 signaling -- this is the basis of anemia of chronic disease.
 - Iron deficiency and erythropoietic demand suppress hepcidin to increase iron availability.
 - Hypoxia suppresses hepcidin via HIF signaling.
 

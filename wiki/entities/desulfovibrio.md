@@ -29,7 +29,7 @@ A genus of Gram-negative, obligate anaerobic, sulfate-reducing bacteria (SRB) th
   - Cytochrome c oxidase inhibition: H2S blocks the terminal enzyme of colonocyte mitochondrial oxidative phosphorylation, starving epithelial cells of energy -- analogous to cyanide poisoning at the cellular level.
   - Barrier disruption: energy-depleted colonocytes lose [[tight-junctions|tight junction]] integrity, increasing gut permeability and enabling bacterial translocation.
   - DNA damage: H2S generates reactive sulfur species and free radicals that cause genotoxic damage to colonocytes, contributing to [[colorectal-cancer]] initiation.
-  - NF-kB activation: H2S activates NF-kB inflammatory signaling in epithelial and immune cells, driving chronic [[inflammation]].
+  - NF-kB activation: H2S activates NF-kB inflammatory signaling in epithelial and immune cells, driving chronic inflammation.
 - H2S competes with butyrate for colonocyte energy metabolism: when H2S levels rise and butyrate levels fall (due to depletion of [[roseburia]], [[faecalibacterium-prausnitzii]]), colonocytes shift from oxidative to glycolytic metabolism, further destabilizing the anaerobic gut environment.
 
 ## Metal Dependencies
@@ -76,7 +76,7 @@ A genus of Gram-negative, obligate anaerobic, sulfate-reducing bacteria (SRB) th
 - [[mercury]] -- methylation of inorganic Hg to neurotoxic MeHg
 - [[molybdenum]] -- Mo-cofactor in sulfate reductases
 - [[oxidative-stress]] -- reactive sulfur species drive oxidative DNA damage
-- [[inflammation]] -- H2S activates NF-kB; chronic inflammatory signaling
+- inflammation -- H2S activates NF-kB; chronic inflammatory signaling
 - [[dysbiosis]] -- enrichment signals sulfidogenic dysbiosis
 - [[ferroptosis]] -- iron-dependent metabolism may intersect with ferroptotic pathways
 - [[gut-metal-microbiome]] -- metal-dependent metabolism; enriched by mercury exposure

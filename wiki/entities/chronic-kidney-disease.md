@@ -114,7 +114,7 @@ Beta diversity (unweighted UniFrac) is significantly different from controls sta
 
 Crucially: renal replacement therapy (hemodialysis) does not restore the microbiome. Even stage 5D dialysis patients retain depleted Coprococcus, Lachnospira, and Roseburia — [[dysbiosis]] persists despite uremia control [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]].
 
-The consequence of losing these butyrate producers: reduced butyrate → impaired regulatory T-cell induction → increased intestinal inflammation and permeability → bacterial translocation → systemic endotoxemia → accelerated renal inflammation.
+The consequence of losing these butyrate producers: reduced butyrate → impaired regulatory T-cell induction → increased intestinal [[inflammation]] and permeability → bacterial translocation → systemic endotoxemia → accelerated renal inflammation.
 
 Conversely, *Parabacteroides*, *Clostridium*, *Ruminococcus*, and *Lactobacillus* are enriched in CKD stages 3–5D — representing a community shift toward fermentative and proteolytic species that generate uremic toxins (indoxyl sulfate, p-cresyl sulfate) [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]].
 

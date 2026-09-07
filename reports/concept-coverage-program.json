@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "source": {
-    "corpusSha256": "aabe42ed691b14de01c3991da6883076aa1b590c5c6931f5853c1bf9918bf0ac",
+    "corpusSha256": "de6b98df34b39c49e3855103cebb384dcdf0c6317e6ec3b8cd87c2169d8058ea",
     "catalogSha256": "b3d82c6dacee76eabad21e6087f4677eacacb302e020aada71d8c608b4bf9f3b",
-    "decisionsSha256": "b9f2d5b3073f7b5a72f7108e7540a7c7ab99811a698e8aebc40b4630f9376a88",
+    "decisionsSha256": "81cdde0c7e13cb75ba656285de31e8544d03f69a70eaaf96b2ad960727ab74a9",
     "publicArticles": 592,
     "sourceRecords": 1939
   },
@@ -23,12 +23,12 @@
     ]
   },
   "summary": {
-    "totalJobs": 204,
+    "totalJobs": 203,
     "createPage": 4,
-    "backfillLinks": 199,
+    "backfillLinks": 198,
     "evidenceHold": 1,
     "accepted": 0,
-    "promoted": 24
+    "promoted": 25
   },
   "activeReviews": [],
   "completedJobs": [
@@ -501,6 +501,242 @@
       "batchId": "2026-09-07-corpus-wide-hydrogenase-contexts"
     },
     {
+      "id": "inflammation",
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "targets": [
+        "acinetobacter",
+        "actinomyces",
+        "adherent-invasive-e-coli",
+        "alloprevotella",
+        "alzheimers-disease",
+        "anaerostipes",
+        "anaerotruncus",
+        "anxiety",
+        "atopobium",
+        "autism-spectrum-disorder",
+        "bacteroides-fragilis",
+        "bacteroides-thetaiotaomicron",
+        "bacteroides-uniformis",
+        "bacteroides-vulgatus",
+        "barretts-esophagus",
+        "bilophila",
+        "breast-cancer",
+        "butyricicoccus",
+        "cadmium",
+        "campylobacter-jejuni",
+        "candida-tropicalis",
+        "cardiovascular-disease",
+        "cerebral-palsy",
+        "chlamydia-trachomatis",
+        "christensenellaceae",
+        "chronic-fatigue-syndrome",
+        "chronic-kidney-disease",
+        "cirrhosis",
+        "clostridium-symbiosum",
+        "colorectal-cancer",
+        "copper",
+        "coprococcus",
+        "coronary-artery-disease",
+        "cystic-fibrosis",
+        "debaryomyces",
+        "dermatitis-herpetiformis",
+        "desulfovibrionales",
+        "diabetic-kidney-disease",
+        "eggerthella-lenta",
+        "endometriosis",
+        "enterobacter-cloacae",
+        "enterococcus-faecalis",
+        "epilepsy",
+        "escherichia-coli",
+        "escherichia",
+        "eubacteriales",
+        "faecalibacterium",
+        "female-infertility",
+        "firmicutes",
+        "flavonifractor",
+        "fusicatenibacter",
+        "fusobacteriales",
+        "fusobacterium-nucleatum",
+        "fusobacterium-varium",
+        "gastric-adenocarcinoma",
+        "gerd",
+        "gordonibacter-urolithinfaciens",
+        "graves-disease",
+        "haemophilus",
+        "helicobacter-hepaticus",
+        "hepatitis",
+        "hiv",
+        "ibs",
+        "inflammatory-bowel-disease",
+        "intestinimonas",
+        "klebsiella",
+        "kynurenine",
+        "lachnospira",
+        "lachnospiraceae-family",
+        "lead",
+        "leptotrichia",
+        "long-covid",
+        "major-depressive-disorder",
+        "malassezia",
+        "manganese",
+        "mercury",
+        "multiple-sclerosis",
+        "necrotizing-enterocolitis",
+        "nickel",
+        "non-alcoholic-fatty-liver-disease",
+        "odoribacter",
+        "oscillospiraceae",
+        "oscillospirales",
+        "ovarian-cancer",
+        "pancreatic-cancer",
+        "pancreatitis",
+        "parabacteroides-distasonis",
+        "parabacteroides",
+        "parkinsons-disease",
+        "parvimonas-micra",
+        "pcos",
+        "pelvic-inflammatory-disease",
+        "peptostreptococcus-anaerobius",
+        "peptostreptococcus-stomatis",
+        "peptostreptococcus",
+        "periodontitis",
+        "pmdd",
+        "porphyromonas-gingivalis",
+        "porphyromonas",
+        "premature-ovarian-insufficiency",
+        "prevotella-copri",
+        "prevotella",
+        "prevotellaceae",
+        "propionibacterium",
+        "proteobacteria",
+        "psoriasis",
+        "rheumatoid-arthritis",
+        "roseburia-intestinalis",
+        "ruminococcus-albus",
+        "ruminococcus-gnavus",
+        "saccharomyces-cerevisiae",
+        "schizophrenia",
+        "selenium",
+        "serotonin",
+        "shigella-flexneri",
+        "shigella",
+        "streptococcus-agalactiae",
+        "streptococcus-gallolyticus",
+        "streptococcus-thermophilus",
+        "streptococcus",
+        "torulaspora",
+        "type-1-diabetes",
+        "type-2-diabetes",
+        "ulcerative-colitis",
+        "zinc",
+        "ahr",
+        "allopregnanolone",
+        "alpha-klotho",
+        "amyloid-beta",
+        "arachidonic-acid",
+        "aromatase",
+        "aryl-hydrocarbon-receptor",
+        "autoimmunity",
+        "autophagy",
+        "bacteremia",
+        "bacterial-contamination-hypothesis",
+        "bacteriophages",
+        "bdnf",
+        "bile-acid-metabolism",
+        "biofilm",
+        "biomarkers",
+        "caga",
+        "calprotectin",
+        "ceruloplasmin",
+        "chitotriosidase",
+        "colonization-resistance",
+        "copper-dysregulation",
+        "cox-2",
+        "curli",
+        "developmental-metal-vulnerability",
+        "dysbiosis",
+        "dysmenorrhea",
+        "endothelial-dysfunction",
+        "enterohepatic-circulation",
+        "epithelial-mesenchymal-transition",
+        "estrobolome",
+        "estrogen-recirculation",
+        "fenton-chemistry",
+        "fermentative-metabolism",
+        "ferritin",
+        "ferroportin",
+        "ferroptosis",
+        "gut-brain-axis",
+        "gut-kidney-axis",
+        "gut-metal-microbiome",
+        "gut-microbiome",
+        "gut-penis-axis",
+        "gut-prostate-axis",
+        "gut-thyroid-axis",
+        "heavy-metal-neurotoxicity",
+        "hepcidin",
+        "histidine",
+        "hydrogen-sulfide",
+        "hydrogenase",
+        "hyperparathyroidism",
+        "hypoxia",
+        "il-10",
+        "il-8",
+        "immunotherapy",
+        "indoxyl-sulfate",
+        "innate-immunity",
+        "interleukin-6",
+        "iron-sulfur-clusters",
+        "lactoferrin",
+        "leptin",
+        "lipocalin-2",
+        "lipopolysaccharide",
+        "maternal-immune-activation",
+        "metabolomics",
+        "metal-homeostasis",
+        "microbial-biomarkers",
+        "microbial-metallomics",
+        "microbiome-derived-metabolites",
+        "mis-metallation",
+        "neurodegeneration",
+        "neuroinflammation",
+        "nf-kappa-b",
+        "nickel-allergy",
+        "nickel-urease",
+        "nitric-oxide",
+        "nrf2",
+        "outer-membrane",
+        "oxidative-stress",
+        "oxygen-state",
+        "phosphodiesterase",
+        "polyphenols",
+        "premenstrual-syndrome",
+        "preterm-birth",
+        "probiotics",
+        "quinolinic-acid",
+        "ruminococcaceae",
+        "semen-microbiome",
+        "serotonin-estrogen-axis",
+        "short-chain-fatty-acids",
+        "siderophores-metallophores",
+        "statins",
+        "succinate",
+        "systemic-inflammation",
+        "th17-treg-balance",
+        "tlr4",
+        "tnf-alpha",
+        "toll-like-receptors",
+        "transferrin",
+        "zinc-metalloprotease",
+        "zonulin"
+      ],
+      "key": "backfill_links:inflammation#2026-09-07-corpus-wide-inflammation-contexts",
+      "jobKey": "backfill_links:inflammation",
+      "batchId": "2026-09-07-corpus-wide-inflammation-contexts"
+    },
+    {
       "id": "interleukin-22",
       "state": "promoted",
       "reviewedAt": "2026-09-07",
@@ -883,454 +1119,6 @@
     }
   ],
   "jobs": [
-    {
-      "key": "backfill_links:inflammation",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "inflammation",
-      "title": "Metal-Driven Inflammation",
-      "pageType": "concept",
-      "aliases": [
-        "Metal-Driven Inflammation",
-        "inflammation"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/inflammation.md",
-        "sourceCount": 12
-      },
-      "priority": 92.5,
-      "scoreComponents": {
-        "demand": 25,
-        "evidence": 25,
-        "graphGain": 20,
-        "scopeFit": 9,
-        "outlineReadiness": 13.5,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 279,
-        "totalPlainMentions": 626,
-        "linkedArticles": 54,
-        "unlinkedArticles": 225,
-        "linkCoveragePercent": 19,
-        "leadMentions": 26,
-        "headingMentions": 9,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "fungus",
-          "metabolite",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 607,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 832.874
-      },
-      "affectedPages": [
-        {
-          "id": "dysbiosis",
-          "title": "Dysbiosis",
-          "path": "wiki/concepts/dysbiosis.md",
-          "category": "concept",
-          "plainMentions": 10,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": true,
-          "inboundLinks": 325
-        },
-        {
-          "id": "clostridium-symbiosum",
-          "title": "Clostridium symbiosum",
-          "path": "wiki/entities/clostridium-symbiosum.md",
-          "category": "microbe",
-          "plainMentions": 10,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": true,
-          "inboundLinks": 3
-        },
-        {
-          "id": "calprotectin",
-          "title": "Calprotectin (S100A8/A9)",
-          "path": "wiki/concepts/calprotectin.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 52
-        },
-        {
-          "id": "bacteroides-fragilis",
-          "title": "Bacteroides fragilis",
-          "path": "wiki/entities/bacteroides-fragilis.md",
-          "category": "microbe",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 49
-        },
-        {
-          "id": "lactoferrin",
-          "title": "Lactoferrin",
-          "path": "wiki/concepts/lactoferrin.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 44
-        },
-        {
-          "id": "nf-kappa-b",
-          "title": "NF-kB Signaling Pathway",
-          "path": "wiki/concepts/nf-kappa-b.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 34
-        },
-        {
-          "id": "necrotizing-enterocolitis",
-          "title": "Necrotizing Enterocolitis",
-          "path": "wiki/entities/necrotizing-enterocolitis.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 20
-        },
-        {
-          "id": "ahr",
-          "title": "AhR (Aryl Hydrocarbon Receptor)",
-          "path": "wiki/concepts/ahr.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 14
-        },
-        {
-          "id": "metal-homeostasis",
-          "title": "Metal Homeostasis",
-          "path": "wiki/concepts/metal-homeostasis.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 13
-        },
-        {
-          "id": "ulcerative-colitis",
-          "title": "Ulcerative Colitis",
-          "path": "wiki/entities/ulcerative-colitis.md",
-          "category": "disease",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 7
-        },
-        {
-          "id": "ceruloplasmin",
-          "title": "Ceruloplasmin",
-          "path": "wiki/concepts/ceruloplasmin.md",
-          "category": "concept",
-          "plainMentions": 8,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 6
-        },
-        {
-          "id": "systemic-inflammation",
-          "title": "Systemic Inflammation",
-          "path": "wiki/concepts/systemic-inflammation.md",
-          "category": "concept",
-          "plainMentions": 6,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 5
-        },
-        {
-          "id": "long-covid",
-          "title": "Long COVID",
-          "path": "wiki/entities/long-covid.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 4
-        },
-        {
-          "id": "fusobacterium-varium",
-          "title": "Fusobacterium varium",
-          "path": "wiki/entities/fusobacterium-varium.md",
-          "category": "microbe",
-          "plainMentions": 6,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "ruminococcus-gnavus",
-          "title": "Ruminococcus gnavus",
-          "path": "wiki/entities/ruminococcus-gnavus.md",
-          "category": "microbe",
-          "plainMentions": 6,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "ferritin",
-          "title": "Ferritin",
-          "path": "wiki/concepts/ferritin.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "bilophila",
-          "title": "Bilophila",
-          "path": "wiki/entities/bilophila.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "christensenellaceae",
-          "title": "Christensenellaceae",
-          "path": "wiki/entities/christensenellaceae.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "lachnospira",
-          "title": "Lachnospira",
-          "path": "wiki/entities/lachnospira.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "periodontitis",
-          "title": "Periodontitis",
-          "path": "wiki/entities/periodontitis.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "streptococcus-agalactiae",
-          "title": "Streptococcus agalactiae",
-          "path": "wiki/entities/streptococcus-agalactiae.md",
-          "category": "microbe",
-          "plainMentions": 9,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "hepatitis",
-          "title": "Hepatitis",
-          "path": "wiki/entities/hepatitis.md",
-          "category": "disease",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "cirrhosis",
-          "title": "Cirrhosis",
-          "path": "wiki/entities/cirrhosis.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "leptin",
-          "title": "Leptin",
-          "path": "wiki/concepts/leptin.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 0
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "microbiome-diet-endometriosis-food-tables",
-          "title": "Microbiome Diet for Endometriosis - Categorized Food Tables",
-          "evidenceLevel": null,
-          "year": "Unknown",
-          "path": "wiki/sources/microbiome-diet-endometriosis-food-tables.md",
-          "passage": {
-            "excerpt": "- nickel - one of the key metals used to filter food inclusion/exclusion; directly relevant to nickel toxicology wiki - cadmium - foods filtered for low cadmium content - lead - foods filtered for low lead content - zinc - foods filtered for low zinc conten...",
-            "sha256": "beb0e770a6c2b7b397fe1cfd210d1cce06ec203646bc89913316a1fc3514b8d1"
-          }
-        },
-        {
-          "id": "abdollahpour-2026-lactobacillus-casei-ppd-rct",
-          "title": "Abdollahpour 2026 — The Effect of Lactobacillus casei on Postpartum Depression: A Randomized Controlled Trial",
-          "evidenceLevel": "randomized-controlled-trial",
-          "year": 2026,
-          "path": "wiki/sources/abdollahpour-2026-lactobacillus-casei-ppd-rct.md",
-          "passage": {
-            "excerpt": "- Null finding highlights strain-specificity and timing importance for probiotic interventions in postpartum depression - Short duration may not allow sufficient dysbiosis correction via gut brain axis - Complements rauniyar 2023 maternal mental health prob...",
-            "sha256": "989ca4045c76c5ef3064027ec853dfec99a1efc5cafae4a601d6f1979730237d"
-          }
-        },
-        {
-          "id": "bucciero-2026-diet-ms-oxidative-stress-nrf2",
-          "title": "The Diet-Multiple Sclerosis Connection: Oxidative Stress and Emerging Mechanisms",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/bucciero-2026-diet-ms-oxidative-stress-nrf2.md",
-          "passage": {
-            "excerpt": "- Nrf2 (nuclear factor erythroid 2-related factor 2) is a master regulator of antioxidant defense whose upregulation is associated with beneficial effects in MS; Nrf2-deficient mice show exacerbated EAE with enhanced inflammation and demyelination - Several...",
-            "sha256": "083ffd97051301f28b415225fb246b55405558fb29c0772ad96a92ac06414e3a"
-          }
-        },
-        {
-          "id": "chuan-2026-inflammatory-cytokines-gut-microbiota-ovarian-cancer-mr",
-          "title": "Chuan 2026 — Genetically Predicted Inflammatory Cytokines Mediate the Associations Between the Gut Microbiota and Ovarian Cancer",
-          "evidenceLevel": "computational-prediction",
-          "year": 2026,
-          "path": "wiki/sources/chuan-2026-inflammatory-cytokines-gut-microbiota-ovarian-cancer-mr.md",
-          "passage": {
-            "excerpt": "- **Inflammatory cytokines mediate the causal association** between specific gut microbiota taxa and ovarian cancer risk, as demonstrated through two-sample bidirectional Mendelian randomization (MR) with mediation analysis (this study, computational-predic...",
-            "sha256": "4d7c66d94d652b0d80c4d7c8603bcd9c69b9e63be5435fad3ccd5e4de58595b4"
-          }
-        },
-        {
-          "id": "foroughi-2026-periodontal-biomarkers-cvd",
-          "title": "Periodontal Biomarkers in Cardiovascular Disease: Mechanisms, Diagnostics, and Clinical Implications",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/foroughi-2026-periodontal-biomarkers-cvd.md",
-          "passage": {
-            "excerpt": "- Periodontal disease is independently associated with increased risks of coronary heart disease, stroke, and atherosclerosis, beyond shared traditional CVD risk factors - Periodontal pathogens (*P. gingivalis*, *A. actinomycetemcomitans*) and host immune r...",
-            "sha256": "553e01c0d7df0cad9c56bb72baa90175afd5f0e0b5981859949739d0a09b0b39"
-          }
-        },
-        {
-          "id": "franceschi-2026-nsaids-paracetamol-adverse-reactions-gut-microbiota",
-          "title": "Paracetamol and NSAIDs Adverse Drug Reactions: Potential Role of the Gut Microbiota",
-          "evidenceLevel": "retrospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/franceschi-2026-nsaids-paracetamol-adverse-reactions-gut-microbiota.md",
-          "passage": {
-            "excerpt": "NSAIDs cause GI damage through both direct (COX inhibition reducing protective prostaglandins) and indirect (microbiome disruption) mechanisms. NSAID-induced changes in gut microbiota composition reduce barrier-protective organisms and may promote expansion...",
-            "sha256": "4763e25ce70bf90d64b497e8392164f6f0e4638084b709fc976a4136bb04e8bf"
-          }
-        },
-        {
-          "id": "franceschi-2026-paracetamol-nsaid-adr-gut-microbiota",
-          "title": "Franceschi 2026 — Paracetamol and NSAIDs Adverse Drug Reactions in the Emergency Department: Potential Role of the Gut Microbiota",
-          "evidenceLevel": "retrospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/franceschi-2026-paracetamol-nsaid-adr-gut-microbiota.md",
-          "passage": {
-            "excerpt": "- **ADRs were significantly more frequent in female patients** (61% of 897 total ADR cases were adult females), a pattern observed across both paracetamol and NSAID drug classes (franceschi 2026 paracetamol nsaid adr gut microbiota, retrospective cohort, n=...",
-            "sha256": "056ce19c6cdf61d973b25638990f80e59ec15ffd8559c7e0f912fa776cea4f06"
-          }
-        },
-        {
-          "id": "gao-2026-ketogenic-diet-fxr-nfkb-crc",
-          "title": "Ketogenic diet suppresses colorectal cancer through reshaping gut microbiota and modulating the intestinal FXR/NF-kB signaling pathway",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/gao-2026-ketogenic-diet-fxr-nfkb-crc.md",
-          "passage": {
-            "excerpt": "- KD mechanism via bile acids connects to ajouz 2014 secondary bile acids colon cancer showing DCA promotes CRC through DNA damage - FXR pathway relates to cao 2025 metabolic interactions microbial metabolites crc bile acid coverage - *Akkermansia* enrichme...",
-            "sha256": "5122e6e9968cc845a39b99c341f105867751e6e8c8513967c51b72b3b5f7baca"
-          }
-        },
-        {
-          "id": "geng-2026-probiotic-therapy-gut-microbiota-omega-oxidation-ovarian-cancer",
-          "title": "Geng 2026 — The Protective Effect of Probiotic Therapy on Gut Microbiota and the Activation of Omega-Oxidation After Ovarian Cancer Surgery",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/geng-2026-probiotic-therapy-gut-microbiota-omega-oxidation-ovarian-cancer.md",
-          "passage": {
-            "excerpt": "The iron connection is through CYP enzymes, which are heme-iron-dependent. CYP4F3 and CYP4A10 require functional iron-heme centers, meaning their activity is influenced by iron homeostasis. Post-surgical inflammation and the associated hepcidin response can...",
-            "sha256": "0ee70926cea66bdb0521b0f5d182c996feb534867a030afc89c8db1affbc277b"
-          }
-        },
-        {
-          "id": "gimeno-2026-diet-microbiota-pregnancy-success-mediterranean",
-          "title": "Diet-microbiota interactions influence pregnancy success in females undergoing artificial insemination: insights from the vaginal microbiota and Mediterranean diet",
-          "evidenceLevel": "prospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/gimeno-2026-diet-microbiota-pregnancy-success-mediterranean.md",
-          "passage": {
-            "excerpt": "The mechanistic connection between diet and vaginal microbiota is not fully elucidated but may involve systemic metabolic and immune effects. Diet shapes gut microbiota, which modulates systemic inflammation and immune function, which in turn affects vagina...",
-            "sha256": "3898e64728bba228bb77c03b89e5c88c88b784d6f4bd1c0c7846bd0b3a55981f"
-          }
-        },
-        {
-          "id": "kim-2026-estropausal-fmt-ovarian-function-rejuvenation",
-          "title": "Estropausal gut microbiota transplant improves measures of ovarian function in adult mice",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/kim-2026-estropausal-fmt-ovarian-function-rejuvenation.md",
-          "passage": {
-            "excerpt": "- **Heterochronic FMT from young mice remodeled the ovarian transcriptome** in aged recipients, reducing inflammation-related gene expression and upregulating genes associated with healthy ovarian function (kim 2026 estropausal fmt ovarian function rejuvena...",
-            "sha256": "ce559d5c8ad7f2c32a47ab3e5c89baf728efaeb0fe07db3b077d704779cd1007"
-          }
-        },
-        {
-          "id": "li-2026-ibd-erectile-dysfunction-mechanistic-link",
-          "title": "Li 2026 — IBD and Male Erectile Dysfunction: Mechanistic Insights and Novel Therapeutic Perspectives",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/li-2026-ibd-erectile-dysfunction-mechanistic-link.md",
-          "passage": {
-            "excerpt": "- **IBD patients exhibit dramatically elevated ED prevalence**, with a pooled meta-analytic estimate of 27% and individual study rates ranging from 43% to 92%, compared to 12.5% in healthy controls (li 2026 ibd erectile dysfunction mechanistic link, expert...",
-            "sha256": "843a5397b1c3a38c548ab973e6e4e17ed1087cfdf840048ac1af3eca90e2d68f"
-          }
-        }
-      ]
-    },
     {
       "key": "backfill_links:gut-microbiome",
       "lane": "backfill_links",
@@ -1828,7 +1616,7 @@
         ],
         "candidateEvidenceSources": 306,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 639.95
+        "weightedGraphGain": 641.479
       },
       "affectedPages": [
         {
@@ -2277,7 +2065,7 @@
         ],
         "candidateEvidenceSources": 373,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 493.824
+        "weightedGraphGain": 495.354
       },
       "affectedPages": [
         {
@@ -2325,6 +2113,17 @@
           "inboundLinks": 1
         },
         {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 4,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 279
+        },
+        {
           "id": "lead",
           "title": "Lead",
           "path": "wiki/entities/lead.md",
@@ -2334,17 +2133,6 @@
           "leadMention": false,
           "headingMention": true,
           "inboundLinks": 108
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 96
         },
         {
           "id": "copper",
@@ -2725,7 +2513,7 @@
         ],
         "candidateEvidenceSources": 235,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 468.366
+        "weightedGraphGain": 469.895
       },
       "affectedPages": [
         {
@@ -2759,7 +2547,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 96
+          "inboundLinks": 279
         },
         {
           "id": "gut-brain-axis",
@@ -3621,7 +3409,7 @@
         ],
         "candidateEvidenceSources": 80,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 331.812
+        "weightedGraphGain": 333.341
       },
       "affectedPages": [
         {
@@ -3666,7 +3454,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": false,
-          "inboundLinks": 96
+          "inboundLinks": 279
         },
         {
           "id": "bifidobacterium",
@@ -4068,7 +3856,7 @@
         ],
         "candidateEvidenceSources": 196,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 330.599
+        "weightedGraphGain": 332.129
       },
       "affectedPages": [
         {
@@ -4103,6 +3891,17 @@
           "leadMention": false,
           "headingMention": true,
           "inboundLinks": 1
+        },
+        {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 3,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
         },
         {
           "id": "nickel",
@@ -4158,17 +3957,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 101
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
         },
         {
           "id": "oxidative-stress",
@@ -4515,7 +4303,7 @@
         ],
         "candidateEvidenceSources": 87,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 306.681
+        "weightedGraphGain": 308.21
       },
       "affectedPages": [
         {
@@ -4574,6 +4362,17 @@
           "inboundLinks": 325
         },
         {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 3,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
+        {
           "id": "nickel",
           "title": "Nickel",
           "path": "wiki/entities/nickel.md",
@@ -4605,17 +4404,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 103
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 3,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
         },
         {
           "id": "short-chain-fatty-acids",
@@ -6304,7 +6092,7 @@
         ],
         "candidateEvidenceSources": 84,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 240.664
+        "weightedGraphGain": 242.193
       },
       "affectedPages": [
         {
@@ -6363,6 +6151,17 @@
           "inboundLinks": 1
         },
         {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
+        {
           "id": "iron",
           "title": "Iron",
           "path": "wiki/entities/iron.md",
@@ -6405,17 +6204,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 108
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
         },
         {
           "id": "copper",
@@ -6708,453 +6496,6 @@
       ]
     },
     {
-      "key": "backfill_links:systemic-inflammation",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "systemic-inflammation",
-      "title": "Systemic Inflammation",
-      "pageType": "concept",
-      "aliases": [
-        "Systemic Inflammation",
-        "systemic inflammation"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/systemic-inflammation.md",
-        "sourceCount": 7
-      },
-      "priority": 92.5,
-      "scoreComponents": {
-        "demand": 25,
-        "evidence": 25,
-        "graphGain": 20,
-        "scopeFit": 9,
-        "outlineReadiness": 13.5,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 65,
-        "totalPlainMentions": 89,
-        "linkedArticles": 5,
-        "unlinkedArticles": 60,
-        "linkCoveragePercent": 8,
-        "leadMentions": 3,
-        "headingMentions": 1,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "fungus",
-          "metal",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 133,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 235.038
-      },
-      "affectedPages": [
-        {
-          "id": "dysbiosis",
-          "title": "Dysbiosis",
-          "path": "wiki/concepts/dysbiosis.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": true,
-          "inboundLinks": 325
-        },
-        {
-          "id": "ahr",
-          "title": "AhR (Aryl Hydrocarbon Receptor)",
-          "path": "wiki/concepts/ahr.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 14
-        },
-        {
-          "id": "periodontitis",
-          "title": "Periodontitis",
-          "path": "wiki/entities/periodontitis.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": true,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
-        },
-        {
-          "id": "oxidative-stress",
-          "title": "Oxidative Stress",
-          "path": "wiki/concepts/oxidative-stress.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 93
-        },
-        {
-          "id": "copper",
-          "title": "Copper",
-          "path": "wiki/entities/copper.md",
-          "category": "metal",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 82
-        },
-        {
-          "id": "endometriosis",
-          "title": "Endometriosis",
-          "path": "wiki/entities/endometriosis.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 81
-        },
-        {
-          "id": "gut-brain-axis",
-          "title": "Gut-Brain Axis",
-          "path": "wiki/concepts/gut-brain-axis.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 74
-        },
-        {
-          "id": "ferroptosis",
-          "title": "Ferroptosis",
-          "path": "wiki/concepts/ferroptosis.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 57
-        },
-        {
-          "id": "chronic-kidney-disease",
-          "title": "Chronic Kidney Disease",
-          "path": "wiki/entities/chronic-kidney-disease.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 48
-        },
-        {
-          "id": "estrobolome",
-          "title": "Estrobolome",
-          "path": "wiki/concepts/estrobolome.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 38
-        },
-        {
-          "id": "inflammatory-bowel-disease",
-          "title": "Inflammatory Bowel Disease (IBD)",
-          "path": "wiki/entities/inflammatory-bowel-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 38
-        },
-        {
-          "id": "type-2-diabetes",
-          "title": "Type 2 Diabetes",
-          "path": "wiki/entities/type-2-diabetes.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 38
-        },
-        {
-          "id": "breast-cancer",
-          "title": "Breast Cancer",
-          "path": "wiki/entities/breast-cancer.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 30
-        },
-        {
-          "id": "obesity",
-          "title": "Obesity",
-          "path": "wiki/entities/obesity.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 29
-        },
-        {
-          "id": "fusobacterium-nucleatum",
-          "title": "Fusobacterium nucleatum",
-          "path": "wiki/entities/fusobacterium-nucleatum.md",
-          "category": "microbe",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 28
-        },
-        {
-          "id": "prevotella",
-          "title": "Prevotella",
-          "path": "wiki/entities/prevotella.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 21
-        },
-        {
-          "id": "porphyromonas-gingivalis",
-          "title": "Porphyromonas gingivalis",
-          "path": "wiki/entities/porphyromonas-gingivalis.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 19
-        },
-        {
-          "id": "gut-microbiome",
-          "title": "Gut Microbiome",
-          "path": "wiki/concepts/gut-microbiome.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 15
-        },
-        {
-          "id": "anaerostipes",
-          "title": "Anaerostipes",
-          "path": "wiki/entities/anaerostipes.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 13
-        },
-        {
-          "id": "tlr4",
-          "title": "TLR4",
-          "path": "wiki/concepts/tlr4.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "rheumatoid-arthritis",
-          "title": "Rheumatoid Arthritis",
-          "path": "wiki/entities/rheumatoid-arthritis.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 11
-        },
-        {
-          "id": "transferrin",
-          "title": "Transferrin",
-          "path": "wiki/concepts/transferrin.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 11
-        },
-        {
-          "id": "porphyromonas",
-          "title": "Porphyromonas",
-          "path": "wiki/entities/porphyromonas.md",
-          "category": "microbe",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 10
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "chuan-2026-inflammatory-cytokines-gut-microbiota-ovarian-cancer-mr",
-          "title": "Chuan 2026 — Genetically Predicted Inflammatory Cytokines Mediate the Associations Between the Gut Microbiota and Ovarian Cancer",
-          "evidenceLevel": "computational-prediction",
-          "year": 2026,
-          "path": "wiki/sources/chuan-2026-inflammatory-cytokines-gut-microbiota-ovarian-cancer-mr.md",
-          "passage": {
-            "excerpt": "The gut-inflammation-cancer axis is biologically plausible. Gut dysbiosis can increase intestinal permeability, allowing microbial products (LPS, peptidoglycan) to enter systemic circulation and trigger inflammatory cytokine production. Chronic systemic inf...",
-            "sha256": "6e0aa65af5793c1ee3dc4d3ad3eaeeaad758f367ee37468f3ada4639b1e306d6"
-          }
-        },
-        {
-          "id": "foroughi-2026-periodontal-biomarkers-cvd",
-          "title": "Periodontal Biomarkers in Cardiovascular Disease: Mechanisms, Diagnostics, and Clinical Implications",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/foroughi-2026-periodontal-biomarkers-cvd.md",
-          "passage": {
-            "excerpt": "- Periodontal disease is independently associated with increased risks of coronary heart disease, stroke, and atherosclerosis, beyond shared traditional CVD risk factors - Periodontal pathogens (*P. gingivalis*, *A. actinomycetemcomitans*) and host immune r...",
-            "sha256": "553e01c0d7df0cad9c56bb72baa90175afd5f0e0b5981859949739d0a09b0b39"
-          }
-        },
-        {
-          "id": "franceschi-2026-paracetamol-nsaid-adr-gut-microbiota",
-          "title": "Franceschi 2026 — Paracetamol and NSAIDs Adverse Drug Reactions in the Emergency Department: Potential Role of the Gut Microbiota",
-          "evidenceLevel": "retrospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/franceschi-2026-paracetamol-nsaid-adr-gut-microbiota.md",
-          "passage": {
-            "excerpt": "3. **NSAID-induced dysbiosis vicious cycle**: NSAIDs reduce protective commensals (lactobacillus, bifidobacterium) that produce short-chain fatty acids (SCFAs), while promoting Gram-negative overgrowth. Increased LPS translocation amplifies systemic inflamm...",
-            "sha256": "1de30552230612b727c1fc107a353a02c803b3520d9eddbd2e67c461c5ce8200"
-          }
-        },
-        {
-          "id": "gimeno-2026-diet-microbiota-pregnancy-success-mediterranean",
-          "title": "Diet-microbiota interactions influence pregnancy success in females undergoing artificial insemination: insights from the vaginal microbiota and Mediterranean diet",
-          "evidenceLevel": "prospective-cohort",
-          "year": 2026,
-          "path": "wiki/sources/gimeno-2026-diet-microbiota-pregnancy-success-mediterranean.md",
-          "passage": {
-            "excerpt": "The mechanistic connection between diet and vaginal microbiota is not fully elucidated but may involve systemic metabolic and immune effects. Diet shapes gut microbiota, which modulates systemic inflammation and immune function, which in turn affects vagina...",
-            "sha256": "3898e64728bba228bb77c03b89e5c88c88b784d6f4bd1c0c7846bd0b3a55981f"
-          }
-        },
-        {
-          "id": "kim-2026-estropausal-fmt-ovarian-function-rejuvenation",
-          "title": "Estropausal gut microbiota transplant improves measures of ovarian function in adult mice",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/kim-2026-estropausal-fmt-ovarian-function-rejuvenation.md",
-          "passage": {
-            "excerpt": "**Possible mediators.** While the study does not definitively identify the mediating molecules, candidate mechanisms include: (1) altered estrogen metabolism via estrobolome modulation; (2) reduced systemic inflammation through restoration of SCFA productio...",
-            "sha256": "7468f61f75ebb749da8d7e349522e0c534af8e0f14e70e206fb9ad8500274ca9"
-          }
-        },
-        {
-          "id": "li-2026-ibd-erectile-dysfunction-mechanistic-link",
-          "title": "Li 2026 — IBD and Male Erectile Dysfunction: Mechanistic Insights and Novel Therapeutic Perspectives",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/li-2026-ibd-erectile-dysfunction-mechanistic-link.md",
-          "passage": {
-            "excerpt": "- Chronic inflammation activates the **hypothalamic-pituitary-adrenal (HPA) axis**, increasing catecholamine release and promoting vasoconstriction - Pro-inflammatory cytokines directly disrupt **testosterone production** in testicular interstitial cells, w...",
-            "sha256": "806ae16bc3f051cfee4bbb405426b90feca701af2bcf56129d5ab63a3f551ba5"
-          }
-        },
-        {
-          "id": "li-2026-ibd-male-ed-mechanistic-review",
-          "title": "Li 2026 — IBD and Male Erectile Dysfunction (Mechanistic Review)",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/li-2026-ibd-male-ed-mechanistic-review.md",
-          "passage": {
-            "excerpt": "Narrative review synthesizing IBD epidemiology, systemic inflammation biomarkers, and vascular physiology literature.",
-            "sha256": "8c0c87aa5c3d62d3a34f7d5bee598d8eadf44a19b362a9f3143a5095d40cf62c"
-          }
-        },
-        {
-          "id": "liu-2026-oral-microbiome-ckd-mendelian-randomization",
-          "title": "Liu 2026 — Causal Association between Oral Microbiome and Chronic Kidney Disease: Two-Sample Mendelian Randomization",
-          "evidenceLevel": "quasi-experimental",
-          "year": 2026,
-          "path": "wiki/sources/liu-2026-oral-microbiome-ckd-mendelian-randomization.md",
-          "passage": {
-            "excerpt": "**Risk-increasing association:** - *Fusobacteriales* increase UACR. Proposed mechanism: Fusobacteriales-derived LPS induces systemic inflammation → glomerular injury; bacterial metabolites promote renal oxidative stress and apoptosis.",
-            "sha256": "c6c6115b6ab3e9a91d3b54f18ce8f749a92c6addf2d1cb0aa592c643896a07a0"
-          }
-        },
-        {
-          "id": "mabrouk-2026-repurposing-gut-microbiota-modulators",
-          "title": "Mabrouk 2026 -- Repurposing Gut Microbiota Modulators: Insights into Current and Novel Applications",
-          "evidenceLevel": "animal-model",
-          "year": 2026,
-          "path": "wiki/sources/mabrouk-2026-repurposing-gut-microbiota-modulators.md",
-          "passage": {
-            "excerpt": "- Microbiota-gut-brain axis (MGBA) links gut dysbiosis to **Alzheimer's disease (AD)** and **Parkinson's disease (PD)** - In AD mouse models: probiotics reduced amyloid plaque formation and improved cognitive function - In PD models: probiotics reduced alph...",
-            "sha256": "f742df5de3533024e7bc8190aee37b5e7eb6a94996ccc07f0181bed908692080"
-          }
-        },
-        {
-          "id": "pendergrass-2026-heavy-metals-obesity-epidemic",
-          "title": "Heavy Metals, Microbial Metallomics, and the US Obesity Epidemic: A Mechanistic Examination of a Population-Level Metabolic Disruption",
-          "evidenceLevel": "expert-opinion",
-          "year": 2026,
-          "path": "wiki/sources/pendergrass-2026-heavy-metals-obesity-epidemic.md",
-          "passage": {
-            "excerpt": "- Proposes that chronic dietary heavy metal exposure from agricultural intensification and phosphate fertilizer use disrupted gut microbial metallomics, priming the US population for metabolic dysfunction and obesity - The temporal alignment is key: phospha...",
-            "sha256": "8c090f8a084ca1d11fbd21048fd8be23efe9a1e4e06e341a3cd9244e9ecde299"
-          }
-        },
-        {
-          "id": "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
-          "title": "Alobaidi 2025 — The Gut-Kidney Axis in CKD: Mechanisms, Microbial Metabolites, and Microbiome-Targeted Therapeutics",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics.md",
-          "passage": {
-            "excerpt": "- **The gut-kidney axis is a bidirectional pathogenic loop in CKD**: Kidney dysfunction alters the intestinal environment (urea influx, altered pH), which drives dysbiosis, which produces uremic toxins that further damage the kidneys (this study, expert opi...",
-            "sha256": "693a0ae386a24a2f64909a90671e42429444c6a2be58eb2d2e1535f53b4e63bf"
-          }
-        },
-        {
-          "id": "brigo-2025-uremic-bacterial-metabolites-post-covid",
-          "title": "Brigo et al. 2025 — Uremic Bacterial Metabolites in Post-COVID-19 Syndrome",
-          "evidenceLevel": "case-control",
-          "year": 2025,
-          "path": "wiki/sources/brigo-2025-uremic-bacterial-metabolites-post-covid.md",
-          "passage": {
-            "excerpt": "- Demonstrates functional consequences of microbiota dysbiosis beyond bacterial composition - Suggests metabolite-mediated pathways linking gut dysbiosis to systemic inflammation - Identifies uremic metabolites as potential biomarkers for dysbiosis severity",
-            "sha256": "112cbfa5602c4c70595646a250a0dac9eca9500953c472068d078a5b61a2e7be"
-          }
-        }
-      ]
-    },
-    {
       "key": "backfill_links:biomarkers",
       "lane": "backfill_links",
       "state": "queued",
@@ -7197,7 +6538,7 @@
         ],
         "candidateEvidenceSources": 278,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 233.599
+        "weightedGraphGain": 235.128
       },
       "affectedPages": [
         {
@@ -7209,7 +6550,7 @@
           "linked": false,
           "leadMention": true,
           "headingMention": true,
-          "inboundLinks": 96
+          "inboundLinks": 279
         },
         {
           "id": "microbial-biomarkers",
@@ -7644,7 +6985,7 @@
         ],
         "candidateEvidenceSources": 60,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 223.888
+        "weightedGraphGain": 225.418
       },
       "affectedPages": [
         {
@@ -7747,6 +7088,17 @@
           "inboundLinks": 325
         },
         {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
+        {
           "id": "nickel",
           "title": "Nickel",
           "path": "wiki/entities/nickel.md",
@@ -7767,17 +7119,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 108
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
         },
         {
           "id": "butyrate",
@@ -17728,11 +17069,11 @@
         "path": "wiki/concepts/microglia.md",
         "sourceCount": 10
       },
-      "priority": 90.26,
+      "priority": 90.3,
       "scoreComponents": {
         "demand": 22.96,
         "evidence": 25,
-        "graphGain": 19.8,
+        "graphGain": 19.84,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -17752,7 +17093,7 @@
         ],
         "candidateEvidenceSources": 57,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 138.502
+        "weightedGraphGain": 140.031
       },
       "affectedPages": [
         {
@@ -17797,7 +17138,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 96
+          "inboundLinks": 279
         },
         {
           "id": "short-chain-fatty-acids",
@@ -18646,7 +17987,7 @@
         ],
         "candidateEvidenceSources": 72,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 146.069
+        "weightedGraphGain": 147.599
       },
       "affectedPages": [
         {
@@ -18727,22 +18068,22 @@
           "inboundLinks": 325
         },
         {
-          "id": "short-chain-fatty-acids",
-          "title": "Short-Chain Fatty Acids (SCFAs)",
-          "path": "wiki/concepts/short-chain-fatty-acids.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
-        },
-        {
           "id": "inflammation",
           "title": "Metal-Driven Inflammation",
           "path": "wiki/concepts/inflammation.md",
           "category": "concept",
           "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
+        {
+          "id": "short-chain-fatty-acids",
+          "title": "Short-Chain Fatty Acids (SCFAs)",
+          "path": "wiki/concepts/short-chain-fatty-acids.md",
+          "category": "concept",
+          "plainMentions": 2,
           "linked": false,
           "leadMention": false,
           "headingMention": false,
@@ -20230,6 +19571,453 @@
           "passage": {
             "excerpt": "- **Signature development:** The metabolite and TME data contribute to building a prostate cancer microbiome signature with metallomic (iron/zinc via siderophore competition, nutritional immunity markers like calprotectin and lactoferrin), taxonomic (*Firmi...",
             "sha256": "bcf3bba3e77942b8d3cbb9adaa3c50eab49b80217180dd94cf00ff1f2afc67b1"
+          }
+        }
+      ]
+    },
+    {
+      "key": "backfill_links:systemic-inflammation",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": null,
+      "id": "systemic-inflammation",
+      "title": "Systemic Inflammation",
+      "pageType": "concept",
+      "aliases": [
+        "Systemic Inflammation",
+        "systemic inflammation"
+      ],
+      "excludePhrases": [],
+      "reason": "Existing public concept with eligible plain-text mentions.",
+      "existingPage": {
+        "path": "wiki/concepts/systemic-inflammation.md",
+        "sourceCount": 7
+      },
+      "priority": 89.5,
+      "scoreComponents": {
+        "demand": 25,
+        "evidence": 25,
+        "graphGain": 20,
+        "scopeFit": 9,
+        "outlineReadiness": 10.5,
+        "ambiguityPenalty": 0
+      },
+      "metrics": {
+        "distinctArticles": 50,
+        "totalPlainMentions": 63,
+        "linkedArticles": 5,
+        "unlinkedArticles": 45,
+        "linkCoveragePercent": 10,
+        "leadMentions": 0,
+        "headingMentions": 1,
+        "articleCategories": [
+          "concept",
+          "disease",
+          "fungus",
+          "metal",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 133,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 189.825
+      },
+      "affectedPages": [
+        {
+          "id": "dysbiosis",
+          "title": "Dysbiosis",
+          "path": "wiki/concepts/dysbiosis.md",
+          "category": "concept",
+          "plainMentions": 3,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 325
+        },
+        {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 4,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
+        {
+          "id": "copper",
+          "title": "Copper",
+          "path": "wiki/entities/copper.md",
+          "category": "metal",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 82
+        },
+        {
+          "id": "endometriosis",
+          "title": "Endometriosis",
+          "path": "wiki/entities/endometriosis.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 81
+        },
+        {
+          "id": "gut-brain-axis",
+          "title": "Gut-Brain Axis",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 74
+        },
+        {
+          "id": "chronic-kidney-disease",
+          "title": "Chronic Kidney Disease",
+          "path": "wiki/entities/chronic-kidney-disease.md",
+          "category": "disease",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 48
+        },
+        {
+          "id": "crohns-disease",
+          "title": "Crohn's Disease",
+          "path": "wiki/entities/crohns-disease.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 43
+        },
+        {
+          "id": "depression",
+          "title": "Depression",
+          "path": "wiki/entities/depression.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 40
+        },
+        {
+          "id": "estrobolome",
+          "title": "Estrobolome",
+          "path": "wiki/concepts/estrobolome.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 38
+        },
+        {
+          "id": "inflammatory-bowel-disease",
+          "title": "Inflammatory Bowel Disease (IBD)",
+          "path": "wiki/entities/inflammatory-bowel-disease.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 38
+        },
+        {
+          "id": "breast-cancer",
+          "title": "Breast Cancer",
+          "path": "wiki/entities/breast-cancer.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 30
+        },
+        {
+          "id": "obesity",
+          "title": "Obesity",
+          "path": "wiki/entities/obesity.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 29
+        },
+        {
+          "id": "fusobacterium-nucleatum",
+          "title": "Fusobacterium nucleatum",
+          "path": "wiki/entities/fusobacterium-nucleatum.md",
+          "category": "microbe",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 28
+        },
+        {
+          "id": "prevotella",
+          "title": "Prevotella",
+          "path": "wiki/entities/prevotella.md",
+          "category": "microbe",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 21
+        },
+        {
+          "id": "porphyromonas-gingivalis",
+          "title": "Porphyromonas gingivalis",
+          "path": "wiki/entities/porphyromonas-gingivalis.md",
+          "category": "microbe",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 19
+        },
+        {
+          "id": "anaerostipes",
+          "title": "Anaerostipes",
+          "path": "wiki/entities/anaerostipes.md",
+          "category": "microbe",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 13
+        },
+        {
+          "id": "tlr4",
+          "title": "TLR4",
+          "path": "wiki/concepts/tlr4.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 12
+        },
+        {
+          "id": "rheumatoid-arthritis",
+          "title": "Rheumatoid Arthritis",
+          "path": "wiki/entities/rheumatoid-arthritis.md",
+          "category": "disease",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 11
+        },
+        {
+          "id": "transferrin",
+          "title": "Transferrin",
+          "path": "wiki/concepts/transferrin.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 11
+        },
+        {
+          "id": "porphyromonas",
+          "title": "Porphyromonas",
+          "path": "wiki/entities/porphyromonas.md",
+          "category": "microbe",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 10
+        },
+        {
+          "id": "fusobacterium",
+          "title": "Fusobacterium",
+          "path": "wiki/entities/fusobacterium.md",
+          "category": "microbe",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 8
+        },
+        {
+          "id": "cerebral-palsy",
+          "title": "Cerebral Palsy",
+          "path": "wiki/entities/cerebral-palsy.md",
+          "category": "disease",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 6
+        },
+        {
+          "id": "lachnospiraceae-family",
+          "title": "Lachnospiraceae (Family)",
+          "path": "wiki/entities/lachnospiraceae-family.md",
+          "category": "microbe",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 6
+        },
+        {
+          "id": "ceruloplasmin",
+          "title": "Ceruloplasmin",
+          "path": "wiki/concepts/ceruloplasmin.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 6
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "chuan-2026-inflammatory-cytokines-gut-microbiota-ovarian-cancer-mr",
+          "title": "Chuan 2026 — Genetically Predicted Inflammatory Cytokines Mediate the Associations Between the Gut Microbiota and Ovarian Cancer",
+          "evidenceLevel": "computational-prediction",
+          "year": 2026,
+          "path": "wiki/sources/chuan-2026-inflammatory-cytokines-gut-microbiota-ovarian-cancer-mr.md",
+          "passage": {
+            "excerpt": "The gut-inflammation-cancer axis is biologically plausible. Gut dysbiosis can increase intestinal permeability, allowing microbial products (LPS, peptidoglycan) to enter systemic circulation and trigger inflammatory cytokine production. Chronic systemic inf...",
+            "sha256": "6e0aa65af5793c1ee3dc4d3ad3eaeeaad758f367ee37468f3ada4639b1e306d6"
+          }
+        },
+        {
+          "id": "foroughi-2026-periodontal-biomarkers-cvd",
+          "title": "Periodontal Biomarkers in Cardiovascular Disease: Mechanisms, Diagnostics, and Clinical Implications",
+          "evidenceLevel": "expert-opinion",
+          "year": 2026,
+          "path": "wiki/sources/foroughi-2026-periodontal-biomarkers-cvd.md",
+          "passage": {
+            "excerpt": "- Periodontal disease is independently associated with increased risks of coronary heart disease, stroke, and atherosclerosis, beyond shared traditional CVD risk factors - Periodontal pathogens (*P. gingivalis*, *A. actinomycetemcomitans*) and host immune r...",
+            "sha256": "553e01c0d7df0cad9c56bb72baa90175afd5f0e0b5981859949739d0a09b0b39"
+          }
+        },
+        {
+          "id": "franceschi-2026-paracetamol-nsaid-adr-gut-microbiota",
+          "title": "Franceschi 2026 — Paracetamol and NSAIDs Adverse Drug Reactions in the Emergency Department: Potential Role of the Gut Microbiota",
+          "evidenceLevel": "retrospective-cohort",
+          "year": 2026,
+          "path": "wiki/sources/franceschi-2026-paracetamol-nsaid-adr-gut-microbiota.md",
+          "passage": {
+            "excerpt": "3. **NSAID-induced dysbiosis vicious cycle**: NSAIDs reduce protective commensals (lactobacillus, bifidobacterium) that produce short-chain fatty acids (SCFAs), while promoting Gram-negative overgrowth. Increased LPS translocation amplifies systemic inflamm...",
+            "sha256": "1de30552230612b727c1fc107a353a02c803b3520d9eddbd2e67c461c5ce8200"
+          }
+        },
+        {
+          "id": "gimeno-2026-diet-microbiota-pregnancy-success-mediterranean",
+          "title": "Diet-microbiota interactions influence pregnancy success in females undergoing artificial insemination: insights from the vaginal microbiota and Mediterranean diet",
+          "evidenceLevel": "prospective-cohort",
+          "year": 2026,
+          "path": "wiki/sources/gimeno-2026-diet-microbiota-pregnancy-success-mediterranean.md",
+          "passage": {
+            "excerpt": "The mechanistic connection between diet and vaginal microbiota is not fully elucidated but may involve systemic metabolic and immune effects. Diet shapes gut microbiota, which modulates systemic inflammation and immune function, which in turn affects vagina...",
+            "sha256": "3898e64728bba228bb77c03b89e5c88c88b784d6f4bd1c0c7846bd0b3a55981f"
+          }
+        },
+        {
+          "id": "kim-2026-estropausal-fmt-ovarian-function-rejuvenation",
+          "title": "Estropausal gut microbiota transplant improves measures of ovarian function in adult mice",
+          "evidenceLevel": "animal-model",
+          "year": 2026,
+          "path": "wiki/sources/kim-2026-estropausal-fmt-ovarian-function-rejuvenation.md",
+          "passage": {
+            "excerpt": "**Possible mediators.** While the study does not definitively identify the mediating molecules, candidate mechanisms include: (1) altered estrogen metabolism via estrobolome modulation; (2) reduced systemic inflammation through restoration of SCFA productio...",
+            "sha256": "7468f61f75ebb749da8d7e349522e0c534af8e0f14e70e206fb9ad8500274ca9"
+          }
+        },
+        {
+          "id": "li-2026-ibd-erectile-dysfunction-mechanistic-link",
+          "title": "Li 2026 — IBD and Male Erectile Dysfunction: Mechanistic Insights and Novel Therapeutic Perspectives",
+          "evidenceLevel": "expert-opinion",
+          "year": 2026,
+          "path": "wiki/sources/li-2026-ibd-erectile-dysfunction-mechanistic-link.md",
+          "passage": {
+            "excerpt": "- Chronic inflammation activates the **hypothalamic-pituitary-adrenal (HPA) axis**, increasing catecholamine release and promoting vasoconstriction - Pro-inflammatory cytokines directly disrupt **testosterone production** in testicular interstitial cells, w...",
+            "sha256": "806ae16bc3f051cfee4bbb405426b90feca701af2bcf56129d5ab63a3f551ba5"
+          }
+        },
+        {
+          "id": "li-2026-ibd-male-ed-mechanistic-review",
+          "title": "Li 2026 — IBD and Male Erectile Dysfunction (Mechanistic Review)",
+          "evidenceLevel": "expert-opinion",
+          "year": 2026,
+          "path": "wiki/sources/li-2026-ibd-male-ed-mechanistic-review.md",
+          "passage": {
+            "excerpt": "Narrative review synthesizing IBD epidemiology, systemic inflammation biomarkers, and vascular physiology literature.",
+            "sha256": "8c0c87aa5c3d62d3a34f7d5bee598d8eadf44a19b362a9f3143a5095d40cf62c"
+          }
+        },
+        {
+          "id": "liu-2026-oral-microbiome-ckd-mendelian-randomization",
+          "title": "Liu 2026 — Causal Association between Oral Microbiome and Chronic Kidney Disease: Two-Sample Mendelian Randomization",
+          "evidenceLevel": "quasi-experimental",
+          "year": 2026,
+          "path": "wiki/sources/liu-2026-oral-microbiome-ckd-mendelian-randomization.md",
+          "passage": {
+            "excerpt": "**Risk-increasing association:** - *Fusobacteriales* increase UACR. Proposed mechanism: Fusobacteriales-derived LPS induces systemic inflammation → glomerular injury; bacterial metabolites promote renal oxidative stress and apoptosis.",
+            "sha256": "c6c6115b6ab3e9a91d3b54f18ce8f749a92c6addf2d1cb0aa592c643896a07a0"
+          }
+        },
+        {
+          "id": "mabrouk-2026-repurposing-gut-microbiota-modulators",
+          "title": "Mabrouk 2026 -- Repurposing Gut Microbiota Modulators: Insights into Current and Novel Applications",
+          "evidenceLevel": "animal-model",
+          "year": 2026,
+          "path": "wiki/sources/mabrouk-2026-repurposing-gut-microbiota-modulators.md",
+          "passage": {
+            "excerpt": "- Microbiota-gut-brain axis (MGBA) links gut dysbiosis to **Alzheimer's disease (AD)** and **Parkinson's disease (PD)** - In AD mouse models: probiotics reduced amyloid plaque formation and improved cognitive function - In PD models: probiotics reduced alph...",
+            "sha256": "f742df5de3533024e7bc8190aee37b5e7eb6a94996ccc07f0181bed908692080"
+          }
+        },
+        {
+          "id": "pendergrass-2026-heavy-metals-obesity-epidemic",
+          "title": "Heavy Metals, Microbial Metallomics, and the US Obesity Epidemic: A Mechanistic Examination of a Population-Level Metabolic Disruption",
+          "evidenceLevel": "expert-opinion",
+          "year": 2026,
+          "path": "wiki/sources/pendergrass-2026-heavy-metals-obesity-epidemic.md",
+          "passage": {
+            "excerpt": "- Proposes that chronic dietary heavy metal exposure from agricultural intensification and phosphate fertilizer use disrupted gut microbial metallomics, priming the US population for metabolic dysfunction and obesity - The temporal alignment is key: phospha...",
+            "sha256": "8c090f8a084ca1d11fbd21048fd8be23efe9a1e4e06e341a3cd9244e9ecde299"
+          }
+        },
+        {
+          "id": "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
+          "title": "Alobaidi 2025 — The Gut-Kidney Axis in CKD: Mechanisms, Microbial Metabolites, and Microbiome-Targeted Therapeutics",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics.md",
+          "passage": {
+            "excerpt": "- **The gut-kidney axis is a bidirectional pathogenic loop in CKD**: Kidney dysfunction alters the intestinal environment (urea influx, altered pH), which drives dysbiosis, which produces uremic toxins that further damage the kidneys (this study, expert opi...",
+            "sha256": "693a0ae386a24a2f64909a90671e42429444c6a2be58eb2d2e1535f53b4e63bf"
+          }
+        },
+        {
+          "id": "brigo-2025-uremic-bacterial-metabolites-post-covid",
+          "title": "Brigo et al. 2025 — Uremic Bacterial Metabolites in Post-COVID-19 Syndrome",
+          "evidenceLevel": "case-control",
+          "year": 2025,
+          "path": "wiki/sources/brigo-2025-uremic-bacterial-metabolites-post-covid.md",
+          "passage": {
+            "excerpt": "- Demonstrates functional consequences of microbiota dysbiosis beyond bacterial composition - Suggests metabolite-mediated pathways linking gut dysbiosis to systemic inflammation - Identifies uremic metabolites as potential biomarkers for dysbiosis severity",
+            "sha256": "112cbfa5602c4c70595646a250a0dac9eca9500953c472068d078a5b61a2e7be"
           }
         }
       ]
@@ -24272,11 +24060,11 @@
         "path": "wiki/concepts/metalloestrogens.md",
         "sourceCount": 13
       },
-      "priority": 87.7,
+      "priority": 87.81,
       "scoreComponents": {
         "demand": 21.83,
         "evidence": 25,
-        "graphGain": 18.37,
+        "graphGain": 18.48,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -24298,7 +24086,7 @@
         ],
         "candidateEvidenceSources": 34,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 40.59
+        "weightedGraphGain": 42.119
       },
       "affectedPages": [
         {
@@ -24335,6 +24123,17 @@
           "inboundLinks": 0
         },
         {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
+        {
           "id": "cadmium",
           "title": "Cadmium",
           "path": "wiki/entities/cadmium.md",
@@ -24344,17 +24143,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 135
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
         },
         {
           "id": "copper",
@@ -27241,6 +27029,418 @@
       ]
     },
     {
+      "key": "backfill_links:tmao",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": null,
+      "id": "tmao",
+      "title": "Trimethylamine N-Oxide (TMAO)",
+      "pageType": "concept",
+      "aliases": [
+        "Trimethylamine N-Oxide (TMAO)",
+        "tmao"
+      ],
+      "excludePhrases": [],
+      "reason": "Existing public concept with eligible plain-text mentions.",
+      "existingPage": {
+        "path": "wiki/concepts/tmao.md",
+        "sourceCount": 7
+      },
+      "priority": 86.37,
+      "scoreComponents": {
+        "demand": 23.13,
+        "evidence": 25,
+        "graphGain": 18.74,
+        "scopeFit": 9,
+        "outlineReadiness": 10.5,
+        "ambiguityPenalty": 0
+      },
+      "metrics": {
+        "distinctArticles": 37,
+        "totalPlainMentions": 70,
+        "linkedArticles": 16,
+        "unlinkedArticles": 21,
+        "linkCoveragePercent": 43,
+        "leadMentions": 0,
+        "headingMentions": 7,
+        "articleCategories": [
+          "concept",
+          "disease",
+          "microbe"
+        ],
+        "candidateEvidenceSources": 74,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 99.798
+      },
+      "affectedPages": [
+        {
+          "id": "cardiovascular-disease",
+          "title": "Cardiovascular Disease",
+          "path": "wiki/entities/cardiovascular-disease.md",
+          "category": "disease",
+          "plainMentions": 8,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 71
+        },
+        {
+          "id": "microbiome-derived-metabolites",
+          "title": "Microbiome-Derived Metabolites",
+          "path": "wiki/concepts/microbiome-derived-metabolites.md",
+          "category": "concept",
+          "plainMentions": 11,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 17
+        },
+        {
+          "id": "uremic-toxins",
+          "title": "Uremic Toxins",
+          "path": "wiki/concepts/uremic-toxins.md",
+          "category": "concept",
+          "plainMentions": 6,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 3
+        },
+        {
+          "id": "coronary-artery-disease",
+          "title": "Coronary Artery Disease",
+          "path": "wiki/entities/coronary-artery-disease.md",
+          "category": "disease",
+          "plainMentions": 8,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": true,
+          "inboundLinks": 0
+        },
+        {
+          "id": "dysbiosis",
+          "title": "Dysbiosis",
+          "path": "wiki/concepts/dysbiosis.md",
+          "category": "concept",
+          "plainMentions": 4,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 325
+        },
+        {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
+        {
+          "id": "parkinsons-disease",
+          "title": "Parkinson's Disease",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 49
+        },
+        {
+          "id": "type-2-diabetes",
+          "title": "Type 2 Diabetes",
+          "path": "wiki/entities/type-2-diabetes.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 38
+        },
+        {
+          "id": "alzheimers-disease",
+          "title": "Alzheimer's Disease",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 36
+        },
+        {
+          "id": "pcos",
+          "title": "Polycystic Ovary Syndrome",
+          "path": "wiki/entities/pcos.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 36
+        },
+        {
+          "id": "neuroinflammation",
+          "title": "Neuroinflammation",
+          "path": "wiki/concepts/neuroinflammation.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 31
+        },
+        {
+          "id": "breast-cancer",
+          "title": "Breast Cancer",
+          "path": "wiki/entities/breast-cancer.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 30
+        },
+        {
+          "id": "enterobacteriaceae",
+          "title": "Enterobacteriaceae",
+          "path": "wiki/entities/enterobacteriaceae.md",
+          "category": "microbe",
+          "plainMentions": 4,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 27
+        },
+        {
+          "id": "gut-microbiome",
+          "title": "Gut Microbiome",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "category": "concept",
+          "plainMentions": 5,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 15
+        },
+        {
+          "id": "prebiotics",
+          "title": "Prebiotics",
+          "path": "wiki/concepts/prebiotics.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 12
+        },
+        {
+          "id": "indoxyl-sulfate",
+          "title": "Indoxyl Sulfate",
+          "path": "wiki/concepts/indoxyl-sulfate.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 3
+        },
+        {
+          "id": "shotgun-metagenomics",
+          "title": "Shotgun Metagenomics",
+          "path": "wiki/concepts/shotgun-metagenomics.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 2
+        },
+        {
+          "id": "testosterone",
+          "title": "Testosterone",
+          "path": "wiki/concepts/testosterone.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 2
+        },
+        {
+          "id": "phenylalanine",
+          "title": "Phenylalanine",
+          "path": "wiki/concepts/phenylalanine.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 1
+        },
+        {
+          "id": "diabetic-kidney-disease",
+          "title": "Diabetic Kidney Disease",
+          "path": "wiki/entities/diabetic-kidney-disease.md",
+          "category": "disease",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 0
+        },
+        {
+          "id": "metabolomics",
+          "title": "Metabolomics",
+          "path": "wiki/concepts/metabolomics.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 0
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
+          "title": "Alobaidi 2025 — The Gut-Kidney Axis in CKD: Mechanisms, Microbial Metabolites, and Microbiome-Targeted Therapeutics",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics.md",
+          "passage": {
+            "excerpt": "- **The gut-kidney axis is a bidirectional pathogenic loop in CKD**: Kidney dysfunction alters the intestinal environment (urea influx, altered pH), which drives dysbiosis, which produces uremic toxins that further damage the kidneys (this study, expert opi...",
+            "sha256": "693a0ae386a24a2f64909a90671e42429444c6a2be58eb2d2e1535f53b4e63bf"
+          }
+        },
+        {
+          "id": "brigo-2025-uremic-bacterial-metabolites-post-covid",
+          "title": "Brigo et al. 2025 — Uremic Bacterial Metabolites in Post-COVID-19 Syndrome",
+          "evidenceLevel": "case-control",
+          "year": 2025,
+          "path": "wiki/sources/brigo-2025-uremic-bacterial-metabolites-post-covid.md",
+          "passage": {
+            "excerpt": "**Key metabolites examined:** - Indole metabolites (tryptophan degradation products) - Phenolic metabolites - Short-chain fatty acid precursors - Trimethylamine and TMAO precursors",
+            "sha256": "161cf3eb1114d41df1a570e48a0f96ec678f89b29853c59951f4b151b3059317"
+          }
+        },
+        {
+          "id": "cao-2025-metabolic-interactions-microbial-metabolites-crc",
+          "title": "Metabolic Interactions: How Gut Microbial Metabolites Influence Colorectal Cancer",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/cao-2025-metabolic-interactions-microbial-metabolites-crc.md",
+          "passage": {
+            "excerpt": "- **Design**: Comprehensive review of microbial metabolites in CRC covering SCFAs, bile acids, amino acid metabolites (tryptophan, polyamines), H2S, formate, and TMAO - **Key metabolite-biomarker applications**: Stool metabolite profiling for non-invasive C...",
+            "sha256": "d1aeb784e5a0bda248dfdc7f638f711fbc6fd83ecf41613621396637fb0fc77d"
+          }
+        },
+        {
+          "id": "hoffelner-2025-emerging-therapy-targets-microbiome-cvd",
+          "title": "Emerging therapy targets to modulate microbiome-mediated effects evident in cardiovascular disease",
+          "evidenceLevel": "animal-model",
+          "year": 2025,
+          "path": "wiki/sources/hoffelner-2025-emerging-therapy-targets-microbiome-cvd.md",
+          "passage": {
+            "excerpt": "- **SCFAs**: Acetate, propionate, butyrate reduce CVD risk factors; act through OLFR78, GPR41, GPR43 for blood pressure regulation; butyrate strengthens gut barrier - **TMAO**: Higher levels correlate with more atherosclerosis; interferes with cholesterol t...",
+            "sha256": "2d277675ab3c5d934341b7a3e606a758fa01b1bbfae8cc4aa6bafb488e89dfb7"
+          }
+        },
+        {
+          "id": "holle-2025-gut-derived-metabolites-treatment-targets-ckd",
+          "title": "Gut-Derived Metabolites as Treatment Targets in CKD: An Avenue toward Personalized Medicine",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/holle-2025-gut-derived-metabolites-treatment-targets-ckd.md",
+          "passage": {
+            "excerpt": "- **chronic kidney disease is a hidden epidemic** projected to become the fifth highest cause of years of life lost globally by 2040, elevating the urgency of novel therapeutic approaches. - **Uremic toxins have gained recognition** as not merely biomarkers...",
+            "sha256": "9649fba85ff805c6113fa587c74c8361e8f92bc5ae0083bd7d05cedf480a58a6"
+          }
+        },
+        {
+          "id": "jiang-2025-tmao-chronic-kidney-disease-risk",
+          "title": "Jiang 2025 — The Microbiome-Derived Metabolite TMAO Is Associated with Chronic Kidney Disease Risk",
+          "evidenceLevel": "systematic-review-meta-analysis",
+          "year": 2025,
+          "path": "wiki/sources/jiang-2025-tmao-chronic-kidney-disease-risk.md",
+          "passage": {
+            "excerpt": "- **Meta-analysis confirms TMAO-CKD association**: Pooled analysis of studies including 1,240 controls and 885 CKD patients showed significant association between trimethylamine N-oxide (TMAO) and CKD (SMD = -0.93), establishing TMAO as a consistently eleva...",
+            "sha256": "58aeacea977785b67d2ac5df3e3612773f2de85fdb8de51cf604750dd056a976"
+          }
+        },
+        {
+          "id": "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility",
+          "title": "Kurhaluk 2025 — Oxidative Stress, Antioxidants, Gut Microbiota and Male Fertility",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility.md",
+          "passage": {
+            "excerpt": "- **Gut microbiota dysbiosis impairs male fertility** through multiple pathways: endotoxaemia disrupts the blood-testis barrier and hypothalamic-pituitary-testicular axis; microbial metabolites (SCFAs, TMAO) modulate inflammation and hormone levels; benefic...",
+            "sha256": "e72dd6cd08c9d3ada53abbcd3dd2631712db7df58c917f1560267e2f107d9626"
+          }
+        },
+        {
+          "id": "liu-2025-nickel-cardio-metabolic-effects",
+          "title": "Liu 2025 — Nickel Cardio-Metabolic Effects",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/liu-2025-nickel-cardio-metabolic-effects.md",
+          "passage": {
+            "excerpt": "- Does nickel exposure alter the gut microbiome in ways that independently affect cardiovascular risk (e.g., shifting TMAO-producing species)? - What are the primary dietary sources of nickel contributing to the NHANES exposure gradient — cocoa, nuts, legum...",
+            "sha256": "6ac0c982f9d5a36876a1431a4350d1d47e4ff6ca850583e8adb8168c04944949"
+          }
+        },
+        {
+          "id": "mohsen-2025-ms-gut-microbiome-immune-interaction",
+          "title": "Multiple Sclerosis: A Story of the Interaction Between Gut Microbiome and Components of the Immune System",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/mohsen-2025-ms-gut-microbiome-immune-interaction.md",
+          "passage": {
+            "excerpt": "- The gut-brain axis is bidirectional: gut metabolites (SCFAs, tryptophan derivatives, TMAO) can enhance or suppress immune responses in the CNS, directly modulating MS pathogenesis - Comprehensive mapping of immune cell-microbiota interactions: specific ba...",
+            "sha256": "f6c23dd0234bf0d438cd1413650ae38ce37cd9340b1346b9b0f1dc60323a6ea6"
+          }
+        },
+        {
+          "id": "shen-2025-amino-acid-metabolism-inflammation-chd",
+          "title": "Relationship between amino acid metabolism and inflammation in coronary heart disease",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/shen-2025-amino-acid-metabolism-inflammation-chd.md",
+          "passage": {
+            "excerpt": "- Links to gut microbiome-derived tmao and CHD risk - Relevant to approaches for CHD diagnosis - Connects to and in atherosclerosis",
+            "sha256": "fc951f9f824aa0f9c38fecfa1656ac10a4d113061d414362d70953f00ff2f6ce"
+          }
+        },
+        {
+          "id": "trecarten-2025-obesity-diet-microbiome-prostate-cancer",
+          "title": "Trecarten 2025 — Obesity, Dietary Interventions and Microbiome Alterations in Prostate Cancer",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md",
+          "passage": {
+            "excerpt": "- **Gut microbiome-derived metabolites play multifaceted roles in prostate cancer development.** Short-chain fatty acids (SCFAs), cholesterol derivatives (bile acids, sex steroid hormones), folic acid, trimethylamine, and phenylacetylglutamine all contribut...",
+            "sha256": "f20fd1d1f95187eaafd5282e028e4175fafe588dc9c47f9ddf54c7228c05ef85"
+          }
+        },
+        {
+          "id": "udomkarnjananun-2025-dietary-composition-gut-microbiota-ckd",
+          "title": "Udomkarnjananun et al. 2025 — Dietary Composition Modulates Gut Microbiota and Related Biomarkers in CKD Patients",
+          "evidenceLevel": "cross-sectional",
+          "year": 2025,
+          "path": "wiki/sources/udomkarnjananun-2025-dietary-composition-gut-microbiota-ckd.md",
+          "passage": {
+            "excerpt": "- chronic kidney disease patients showed a **distinct shift in gut microbiota** with significant reduction of SCFA-producing bacteria compared to healthy controls, confirming the CKD dysbiosis signature. - Patients consuming a **low-protein, high-fiber (LP-...",
+            "sha256": "68303cafd8c6b07bac401073fa6b0516c0dbe7417b3083a6883499b9fafdf3ed"
+          }
+        }
+      ]
+    },
+    {
       "key": "backfill_links:indoxyl-sulfate",
       "lane": "backfill_links",
       "state": "queued",
@@ -27683,418 +27883,6 @@
           "passage": {
             "excerpt": "- **Probiotics and synbiotics significantly reduced blood urea nitrogen (BUN)** with a standardized mean difference of -0.23 (p=0.02), indicating modest improvement in nitrogen metabolism in chronic kidney disease patients (Liu et al. 2024, systematic revie...",
             "sha256": "68a5770c2856dea531951e46a9ac0dc2612becefdde262054357bf4479b03729"
-          }
-        }
-      ]
-    },
-    {
-      "key": "backfill_links:tmao",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "tmao",
-      "title": "Trimethylamine N-Oxide (TMAO)",
-      "pageType": "concept",
-      "aliases": [
-        "Trimethylamine N-Oxide (TMAO)",
-        "tmao"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/tmao.md",
-        "sourceCount": 7
-      },
-      "priority": 86.32,
-      "scoreComponents": {
-        "demand": 23.13,
-        "evidence": 25,
-        "graphGain": 18.69,
-        "scopeFit": 9,
-        "outlineReadiness": 10.5,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 37,
-        "totalPlainMentions": 70,
-        "linkedArticles": 16,
-        "unlinkedArticles": 21,
-        "linkCoveragePercent": 43,
-        "leadMentions": 0,
-        "headingMentions": 7,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "microbe"
-        ],
-        "candidateEvidenceSources": 74,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 98.269
-      },
-      "affectedPages": [
-        {
-          "id": "cardiovascular-disease",
-          "title": "Cardiovascular Disease",
-          "path": "wiki/entities/cardiovascular-disease.md",
-          "category": "disease",
-          "plainMentions": 8,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 71
-        },
-        {
-          "id": "microbiome-derived-metabolites",
-          "title": "Microbiome-Derived Metabolites",
-          "path": "wiki/concepts/microbiome-derived-metabolites.md",
-          "category": "concept",
-          "plainMentions": 11,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 17
-        },
-        {
-          "id": "uremic-toxins",
-          "title": "Uremic Toxins",
-          "path": "wiki/concepts/uremic-toxins.md",
-          "category": "concept",
-          "plainMentions": 6,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 3
-        },
-        {
-          "id": "coronary-artery-disease",
-          "title": "Coronary Artery Disease",
-          "path": "wiki/entities/coronary-artery-disease.md",
-          "category": "disease",
-          "plainMentions": 8,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": true,
-          "inboundLinks": 0
-        },
-        {
-          "id": "dysbiosis",
-          "title": "Dysbiosis",
-          "path": "wiki/concepts/dysbiosis.md",
-          "category": "concept",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 325
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
-        },
-        {
-          "id": "parkinsons-disease",
-          "title": "Parkinson's Disease",
-          "path": "wiki/entities/parkinsons-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 49
-        },
-        {
-          "id": "type-2-diabetes",
-          "title": "Type 2 Diabetes",
-          "path": "wiki/entities/type-2-diabetes.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 38
-        },
-        {
-          "id": "alzheimers-disease",
-          "title": "Alzheimer's Disease",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 36
-        },
-        {
-          "id": "pcos",
-          "title": "Polycystic Ovary Syndrome",
-          "path": "wiki/entities/pcos.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 36
-        },
-        {
-          "id": "neuroinflammation",
-          "title": "Neuroinflammation",
-          "path": "wiki/concepts/neuroinflammation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 31
-        },
-        {
-          "id": "breast-cancer",
-          "title": "Breast Cancer",
-          "path": "wiki/entities/breast-cancer.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 30
-        },
-        {
-          "id": "enterobacteriaceae",
-          "title": "Enterobacteriaceae",
-          "path": "wiki/entities/enterobacteriaceae.md",
-          "category": "microbe",
-          "plainMentions": 4,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 27
-        },
-        {
-          "id": "gut-microbiome",
-          "title": "Gut Microbiome",
-          "path": "wiki/concepts/gut-microbiome.md",
-          "category": "concept",
-          "plainMentions": 5,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 15
-        },
-        {
-          "id": "prebiotics",
-          "title": "Prebiotics",
-          "path": "wiki/concepts/prebiotics.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 12
-        },
-        {
-          "id": "indoxyl-sulfate",
-          "title": "Indoxyl Sulfate",
-          "path": "wiki/concepts/indoxyl-sulfate.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 3
-        },
-        {
-          "id": "shotgun-metagenomics",
-          "title": "Shotgun Metagenomics",
-          "path": "wiki/concepts/shotgun-metagenomics.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "testosterone",
-          "title": "Testosterone",
-          "path": "wiki/concepts/testosterone.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 2
-        },
-        {
-          "id": "phenylalanine",
-          "title": "Phenylalanine",
-          "path": "wiki/concepts/phenylalanine.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 1
-        },
-        {
-          "id": "diabetic-kidney-disease",
-          "title": "Diabetic Kidney Disease",
-          "path": "wiki/entities/diabetic-kidney-disease.md",
-          "category": "disease",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 0
-        },
-        {
-          "id": "metabolomics",
-          "title": "Metabolomics",
-          "path": "wiki/concepts/metabolomics.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 0
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics",
-          "title": "Alobaidi 2025 — The Gut-Kidney Axis in CKD: Mechanisms, Microbial Metabolites, and Microbiome-Targeted Therapeutics",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/alobaidi-2025-gut-kidney-axis-ckd-mechanisms-therapeutics.md",
-          "passage": {
-            "excerpt": "- **The gut-kidney axis is a bidirectional pathogenic loop in CKD**: Kidney dysfunction alters the intestinal environment (urea influx, altered pH), which drives dysbiosis, which produces uremic toxins that further damage the kidneys (this study, expert opi...",
-            "sha256": "693a0ae386a24a2f64909a90671e42429444c6a2be58eb2d2e1535f53b4e63bf"
-          }
-        },
-        {
-          "id": "brigo-2025-uremic-bacterial-metabolites-post-covid",
-          "title": "Brigo et al. 2025 — Uremic Bacterial Metabolites in Post-COVID-19 Syndrome",
-          "evidenceLevel": "case-control",
-          "year": 2025,
-          "path": "wiki/sources/brigo-2025-uremic-bacterial-metabolites-post-covid.md",
-          "passage": {
-            "excerpt": "**Key metabolites examined:** - Indole metabolites (tryptophan degradation products) - Phenolic metabolites - Short-chain fatty acid precursors - Trimethylamine and TMAO precursors",
-            "sha256": "161cf3eb1114d41df1a570e48a0f96ec678f89b29853c59951f4b151b3059317"
-          }
-        },
-        {
-          "id": "cao-2025-metabolic-interactions-microbial-metabolites-crc",
-          "title": "Metabolic Interactions: How Gut Microbial Metabolites Influence Colorectal Cancer",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/cao-2025-metabolic-interactions-microbial-metabolites-crc.md",
-          "passage": {
-            "excerpt": "- **Design**: Comprehensive review of microbial metabolites in CRC covering SCFAs, bile acids, amino acid metabolites (tryptophan, polyamines), H2S, formate, and TMAO - **Key metabolite-biomarker applications**: Stool metabolite profiling for non-invasive C...",
-            "sha256": "d1aeb784e5a0bda248dfdc7f638f711fbc6fd83ecf41613621396637fb0fc77d"
-          }
-        },
-        {
-          "id": "hoffelner-2025-emerging-therapy-targets-microbiome-cvd",
-          "title": "Emerging therapy targets to modulate microbiome-mediated effects evident in cardiovascular disease",
-          "evidenceLevel": "animal-model",
-          "year": 2025,
-          "path": "wiki/sources/hoffelner-2025-emerging-therapy-targets-microbiome-cvd.md",
-          "passage": {
-            "excerpt": "- **SCFAs**: Acetate, propionate, butyrate reduce CVD risk factors; act through OLFR78, GPR41, GPR43 for blood pressure regulation; butyrate strengthens gut barrier - **TMAO**: Higher levels correlate with more atherosclerosis; interferes with cholesterol t...",
-            "sha256": "2d277675ab3c5d934341b7a3e606a758fa01b1bbfae8cc4aa6bafb488e89dfb7"
-          }
-        },
-        {
-          "id": "holle-2025-gut-derived-metabolites-treatment-targets-ckd",
-          "title": "Gut-Derived Metabolites as Treatment Targets in CKD: An Avenue toward Personalized Medicine",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/holle-2025-gut-derived-metabolites-treatment-targets-ckd.md",
-          "passage": {
-            "excerpt": "- **chronic kidney disease is a hidden epidemic** projected to become the fifth highest cause of years of life lost globally by 2040, elevating the urgency of novel therapeutic approaches. - **Uremic toxins have gained recognition** as not merely biomarkers...",
-            "sha256": "9649fba85ff805c6113fa587c74c8361e8f92bc5ae0083bd7d05cedf480a58a6"
-          }
-        },
-        {
-          "id": "jiang-2025-tmao-chronic-kidney-disease-risk",
-          "title": "Jiang 2025 — The Microbiome-Derived Metabolite TMAO Is Associated with Chronic Kidney Disease Risk",
-          "evidenceLevel": "systematic-review-meta-analysis",
-          "year": 2025,
-          "path": "wiki/sources/jiang-2025-tmao-chronic-kidney-disease-risk.md",
-          "passage": {
-            "excerpt": "- **Meta-analysis confirms TMAO-CKD association**: Pooled analysis of studies including 1,240 controls and 885 CKD patients showed significant association between trimethylamine N-oxide (TMAO) and CKD (SMD = -0.93), establishing TMAO as a consistently eleva...",
-            "sha256": "58aeacea977785b67d2ac5df3e3612773f2de85fdb8de51cf604750dd056a976"
-          }
-        },
-        {
-          "id": "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility",
-          "title": "Kurhaluk 2025 — Oxidative Stress, Antioxidants, Gut Microbiota and Male Fertility",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility.md",
-          "passage": {
-            "excerpt": "- **Gut microbiota dysbiosis impairs male fertility** through multiple pathways: endotoxaemia disrupts the blood-testis barrier and hypothalamic-pituitary-testicular axis; microbial metabolites (SCFAs, TMAO) modulate inflammation and hormone levels; benefic...",
-            "sha256": "e72dd6cd08c9d3ada53abbcd3dd2631712db7df58c917f1560267e2f107d9626"
-          }
-        },
-        {
-          "id": "liu-2025-nickel-cardio-metabolic-effects",
-          "title": "Liu 2025 — Nickel Cardio-Metabolic Effects",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/liu-2025-nickel-cardio-metabolic-effects.md",
-          "passage": {
-            "excerpt": "- Does nickel exposure alter the gut microbiome in ways that independently affect cardiovascular risk (e.g., shifting TMAO-producing species)? - What are the primary dietary sources of nickel contributing to the NHANES exposure gradient — cocoa, nuts, legum...",
-            "sha256": "6ac0c982f9d5a36876a1431a4350d1d47e4ff6ca850583e8adb8168c04944949"
-          }
-        },
-        {
-          "id": "mohsen-2025-ms-gut-microbiome-immune-interaction",
-          "title": "Multiple Sclerosis: A Story of the Interaction Between Gut Microbiome and Components of the Immune System",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/mohsen-2025-ms-gut-microbiome-immune-interaction.md",
-          "passage": {
-            "excerpt": "- The gut-brain axis is bidirectional: gut metabolites (SCFAs, tryptophan derivatives, TMAO) can enhance or suppress immune responses in the CNS, directly modulating MS pathogenesis - Comprehensive mapping of immune cell-microbiota interactions: specific ba...",
-            "sha256": "f6c23dd0234bf0d438cd1413650ae38ce37cd9340b1346b9b0f1dc60323a6ea6"
-          }
-        },
-        {
-          "id": "shen-2025-amino-acid-metabolism-inflammation-chd",
-          "title": "Relationship between amino acid metabolism and inflammation in coronary heart disease",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/shen-2025-amino-acid-metabolism-inflammation-chd.md",
-          "passage": {
-            "excerpt": "- Links to gut microbiome-derived tmao and CHD risk - Relevant to approaches for CHD diagnosis - Connects to and in atherosclerosis",
-            "sha256": "fc951f9f824aa0f9c38fecfa1656ac10a4d113061d414362d70953f00ff2f6ce"
-          }
-        },
-        {
-          "id": "trecarten-2025-obesity-diet-microbiome-prostate-cancer",
-          "title": "Trecarten 2025 — Obesity, Dietary Interventions and Microbiome Alterations in Prostate Cancer",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/trecarten-2025-obesity-diet-microbiome-prostate-cancer.md",
-          "passage": {
-            "excerpt": "- **Gut microbiome-derived metabolites play multifaceted roles in prostate cancer development.** Short-chain fatty acids (SCFAs), cholesterol derivatives (bile acids, sex steroid hormones), folic acid, trimethylamine, and phenylacetylglutamine all contribut...",
-            "sha256": "f20fd1d1f95187eaafd5282e028e4175fafe588dc9c47f9ddf54c7228c05ef85"
-          }
-        },
-        {
-          "id": "udomkarnjananun-2025-dietary-composition-gut-microbiota-ckd",
-          "title": "Udomkarnjananun et al. 2025 — Dietary Composition Modulates Gut Microbiota and Related Biomarkers in CKD Patients",
-          "evidenceLevel": "cross-sectional",
-          "year": 2025,
-          "path": "wiki/sources/udomkarnjananun-2025-dietary-composition-gut-microbiota-ckd.md",
-          "passage": {
-            "excerpt": "- chronic kidney disease patients showed a **distinct shift in gut microbiota** with significant reduction of SCFA-producing bacteria compared to healthy controls, confirming the CKD dysbiosis signature. - Patients consuming a **low-protein, high-fiber (LP-...",
-            "sha256": "68303cafd8c6b07bac401073fa6b0516c0dbe7417b3083a6883499b9fafdf3ed"
           }
         }
       ]
@@ -33377,11 +33165,11 @@
         "path": "wiki/concepts/thyroid-autoimmunity.md",
         "sourceCount": 3
       },
-      "priority": 84.87,
+      "priority": 84.94,
       "scoreComponents": {
         "demand": 18.38,
         "evidence": 25,
-        "graphGain": 18.99,
+        "graphGain": 19.06,
         "scopeFit": 9,
         "outlineReadiness": 13.5,
         "ambiguityPenalty": 0
@@ -33402,7 +33190,7 @@
         ],
         "candidateEvidenceSources": 26,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 73.099
+        "weightedGraphGain": 74.628
       },
       "affectedPages": [
         {
@@ -33469,7 +33257,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 96
+          "inboundLinks": 279
         },
         {
           "id": "hashimotos-thyroiditis",
@@ -36617,7 +36405,7 @@
       },
       "metrics": {
         "distinctArticles": 26,
-        "totalPlainMentions": 23,
+        "totalPlainMentions": 25,
         "linkedArticles": 5,
         "unlinkedArticles": 21,
         "linkCoveragePercent": 19,
@@ -36788,21 +36576,21 @@
           "inboundLinks": 4
         },
         {
-          "id": "autoimmunity",
-          "title": "Autoimmunity",
-          "path": "wiki/concepts/autoimmunity.md",
-          "category": "concept",
-          "plainMentions": 1,
+          "id": "fusobacterium-varium",
+          "title": "Fusobacterium varium",
+          "path": "wiki/entities/fusobacterium-varium.md",
+          "category": "microbe",
+          "plainMentions": 2,
           "linked": false,
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 3
         },
         {
-          "id": "fusobacterium-varium",
-          "title": "Fusobacterium varium",
-          "path": "wiki/entities/fusobacterium-varium.md",
-          "category": "microbe",
+          "id": "autoimmunity",
+          "title": "Autoimmunity",
+          "path": "wiki/concepts/autoimmunity.md",
+          "category": "concept",
           "plainMentions": 1,
           "linked": false,
           "leadMention": false,
@@ -36858,7 +36646,7 @@
           "title": "Leptotrichia",
           "path": "wiki/entities/leptotrichia.md",
           "category": "microbe",
-          "plainMentions": 1,
+          "plainMentions": 2,
           "linked": false,
           "leadMention": false,
           "headingMention": false,
@@ -38113,11 +37901,11 @@
         "path": "wiki/concepts/mediterranean-diet.md",
         "sourceCount": 7
       },
-      "priority": 83.24,
+      "priority": 83.3,
       "scoreComponents": {
         "demand": 20.72,
         "evidence": 25,
-        "graphGain": 18.02,
+        "graphGain": 18.08,
         "scopeFit": 9,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": 0
@@ -38137,7 +37925,7 @@
         ],
         "candidateEvidenceSources": 69,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 79.646
+        "weightedGraphGain": 81.176
       },
       "affectedPages": [
         {
@@ -38171,7 +37959,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 96
+          "inboundLinks": 279
         },
         {
           "id": "colorectal-cancer",
@@ -38883,11 +38671,11 @@
         "path": "wiki/concepts/nickel-allergy.md",
         "sourceCount": 5
       },
-      "priority": 82.87,
+      "priority": 82.94,
       "scoreComponents": {
         "demand": 20.72,
         "evidence": 25,
-        "graphGain": 17.65,
+        "graphGain": 17.72,
         "scopeFit": 9,
         "outlineReadiness": 10.5,
         "ambiguityPenalty": 0
@@ -38907,7 +38695,7 @@
         ],
         "candidateEvidenceSources": 44,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 70.955
+        "weightedGraphGain": 72.484
       },
       "affectedPages": [
         {
@@ -38941,7 +38729,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 96
+          "inboundLinks": 279
         },
         {
           "id": "endometriosis",
@@ -46406,11 +46194,11 @@
       "excludePhrases": [],
       "reason": "Repeated oxidative and inflammatory mechanism whose acronym otherwise remains unexplained.",
       "existingPage": null,
-      "priority": 76.46,
+      "priority": 76.53,
       "scoreComponents": {
         "demand": 16.78,
         "evidence": 25,
-        "graphGain": 17.43,
+        "graphGain": 17.5,
         "scopeFit": 12,
         "outlineReadiness": 8.25,
         "ambiguityPenalty": -3
@@ -46430,9 +46218,20 @@
         ],
         "candidateEvidenceSources": 14,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 66.213
+        "weightedGraphGain": 67.742
       },
       "affectedPages": [
+        {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
         {
           "id": "iron",
           "title": "Iron",
@@ -46454,17 +46253,6 @@
           "leadMention": false,
           "headingMention": false,
           "inboundLinks": 137
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
         },
         {
           "id": "colorectal-cancer",
@@ -49547,11 +49335,11 @@
         "path": "wiki/concepts/arachidonic-acid.md",
         "sourceCount": 5
       },
-      "priority": 73.14,
+      "priority": 73.32,
       "scoreComponents": {
         "demand": 13.97,
         "evidence": 25,
-        "graphGain": 16.92,
+        "graphGain": 17.1,
         "scopeFit": 9,
         "outlineReadiness": 8.25,
         "ambiguityPenalty": 0
@@ -49573,7 +49361,7 @@
         ],
         "candidateEvidenceSources": 19,
         "minimumDirectSources": 3,
-        "weightedGraphGain": 25.644
+        "weightedGraphGain": 27.174
       },
       "affectedPages": [
         {
@@ -49585,7 +49373,7 @@
           "linked": false,
           "leadMention": false,
           "headingMention": false,
-          "inboundLinks": 96
+          "inboundLinks": 279
         },
         {
           "id": "arsenic",
@@ -59431,6 +59219,165 @@
       ]
     },
     {
+      "key": "backfill_links:tau-phosphorylation",
+      "lane": "backfill_links",
+      "state": "queued",
+      "decision": null,
+      "id": "tau-phosphorylation",
+      "title": "Tau Phosphorylation",
+      "pageType": "concept",
+      "aliases": [
+        "Tau Phosphorylation",
+        "tau phosphorylation"
+      ],
+      "excludePhrases": [],
+      "reason": "Existing public concept with eligible plain-text mentions.",
+      "existingPage": {
+        "path": "wiki/concepts/tau-phosphorylation.md",
+        "sourceCount": 10
+      },
+      "priority": 58.83,
+      "scoreComponents": {
+        "demand": 13.22,
+        "evidence": 12.5,
+        "graphGain": 15.86,
+        "scopeFit": 9,
+        "outlineReadiness": 8.25,
+        "ambiguityPenalty": 0
+      },
+      "metrics": {
+        "distinctArticles": 7,
+        "totalPlainMentions": 8,
+        "linkedArticles": 1,
+        "unlinkedArticles": 6,
+        "linkCoveragePercent": 14,
+        "leadMentions": 0,
+        "headingMentions": 0,
+        "articleCategories": [
+          "concept",
+          "disease",
+          "metal"
+        ],
+        "candidateEvidenceSources": 4,
+        "minimumDirectSources": 3,
+        "weightedGraphGain": 40.471
+      },
+      "affectedPages": [
+        {
+          "id": "inflammation",
+          "title": "Metal-Driven Inflammation",
+          "path": "wiki/concepts/inflammation.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 279
+        },
+        {
+          "id": "iron",
+          "title": "Iron",
+          "path": "wiki/entities/iron.md",
+          "category": "metal",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 226
+        },
+        {
+          "id": "gut-brain-axis",
+          "title": "Gut-Brain Axis",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "category": "concept",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 74
+        },
+        {
+          "id": "alzheimers-disease",
+          "title": "Alzheimer's Disease",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "category": "disease",
+          "plainMentions": 2,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 36
+        },
+        {
+          "id": "amyloid-beta",
+          "title": "Amyloid-Beta",
+          "path": "wiki/concepts/amyloid-beta.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 14
+        },
+        {
+          "id": "kynurenine-pathway",
+          "title": "Kynurenine Pathway",
+          "path": "wiki/concepts/kynurenine-pathway.md",
+          "category": "concept",
+          "plainMentions": 1,
+          "linked": false,
+          "leadMention": false,
+          "headingMention": false,
+          "inboundLinks": 8
+        }
+      ],
+      "candidateSources": [
+        {
+          "id": "ahmed-2025-metals-alzheimers-mechanistic-review",
+          "title": "Associations of Environmental Exposure to Arsenic, Manganese, Lead, and Cadmium with Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies",
+          "evidenceLevel": "expert-opinion",
+          "year": 2025,
+          "path": "wiki/sources/ahmed-2025-metals-alzheimers-mechanistic-review.md",
+          "passage": {
+            "excerpt": "- **Document type**: Preprint review (NOT peer-reviewed), posted 30 January 2025 on Preprints.org - Reviewed 46 original mechanistic research articles (2014-2024): 6 on arsenic, 9 on manganese, 21 on lead, 10 on cadmium - Heavy metals share overlapping AD-r...",
+            "sha256": "ac3cfd14ee39080a17872debce959cd1ba094aea66c13871f48b49cd20810ec4"
+          }
+        },
+        {
+          "id": "jakubowska-2024-metal-toxicity-alzheimers-review",
+          "title": "Metal toxicity exposure in Alzheimer's disease - literature review",
+          "evidenceLevel": "expert-opinion",
+          "year": 2024,
+          "path": "wiki/sources/jakubowska-2024-metal-toxicity-alzheimers-review.md",
+          "passage": {
+            "excerpt": "- Essential mineral playing crucial role in neuroprotection, immune, and brain function - Post-mortem analyses show 3x greater zinc buildup in amyloid plaques and decreased synaptic zinc transporter levels vs. normal brains - AD patients found to have lower...",
+            "sha256": "10cd51ebe63e9d64c85881a808d1f0608e9af8766a06267f2260e03cbff2f82a"
+          }
+        },
+        {
+          "id": "islam-2022-metal-toxicity-alzheimers-extensive-review",
+          "title": "Exposure of metal toxicity in Alzheimer's disease: An extensive review",
+          "evidenceLevel": "expert-opinion",
+          "year": 2022,
+          "path": "wiki/sources/islam-2022-metal-toxicity-alzheimers-extensive-review.md",
+          "passage": {
+            "excerpt": "- Elevated iron levels found in AD brain regions (hippocampus, cortex) - Iron participates in Fenton reactions generating hydroxyl radicals - Ferroptosis (iron-dependent cell death) implicated in neurodegeneration - Iron promotes amyloid-beta aggregation an...",
+            "sha256": "0266c91a3cfe3de9bc1292e922c47ccd54c3c3a403f3387f77ec08e8a8550e7b"
+          }
+        },
+        {
+          "id": "bakulski-2020-heavy-metals-alzheimers-dementias",
+          "title": "Heavy Metals Exposure and Alzheimer's Disease and Related Dementias",
+          "evidenceLevel": "expert-opinion",
+          "year": 2020,
+          "path": "wiki/sources/bakulski-2020-heavy-metals-alzheimers-dementias.md",
+          "passage": {
+            "excerpt": "- Both inorganic and organic (methylmercury) forms have neurotoxic potential - Mercury can increase amyloid-beta production and tau phosphorylation - Fish consumption (source of methylmercury) also provides neuroprotective omega-3 fatty acids, creating conf...",
+            "sha256": "8466c94d9fab76e8f706f548584524a441bc0f7beb206c6fb9f0dc6be7fa60a6"
+          }
+        }
+      ]
+    },
+    {
       "key": "backfill_links:cephalosporin",
       "lane": "backfill_links",
       "state": "queued",
@@ -59585,165 +59532,6 @@
           "passage": {
             "excerpt": "- Oral antibiotic use is associated with an increased risk of colorectal cancer (CRC): pooled effect size ES = 1.17, 95% CI 1.05-1.30 for ever-users vs non-users across 4.1 million individuals and 73,550 CRC cases - Broad-spectrum antibiotics show a stronge...",
             "sha256": "7d118a22ca9fccbfcb93378cd4942fe70960b0c3daf575d9be901037535164cf"
-          }
-        }
-      ]
-    },
-    {
-      "key": "backfill_links:tau-phosphorylation",
-      "lane": "backfill_links",
-      "state": "queued",
-      "decision": null,
-      "id": "tau-phosphorylation",
-      "title": "Tau Phosphorylation",
-      "pageType": "concept",
-      "aliases": [
-        "Tau Phosphorylation",
-        "tau phosphorylation"
-      ],
-      "excludePhrases": [],
-      "reason": "Existing public concept with eligible plain-text mentions.",
-      "existingPage": {
-        "path": "wiki/concepts/tau-phosphorylation.md",
-        "sourceCount": 10
-      },
-      "priority": 58.7,
-      "scoreComponents": {
-        "demand": 13.22,
-        "evidence": 12.5,
-        "graphGain": 15.73,
-        "scopeFit": 9,
-        "outlineReadiness": 8.25,
-        "ambiguityPenalty": 0
-      },
-      "metrics": {
-        "distinctArticles": 7,
-        "totalPlainMentions": 8,
-        "linkedArticles": 1,
-        "unlinkedArticles": 6,
-        "linkCoveragePercent": 14,
-        "leadMentions": 0,
-        "headingMentions": 0,
-        "articleCategories": [
-          "concept",
-          "disease",
-          "metal"
-        ],
-        "candidateEvidenceSources": 4,
-        "minimumDirectSources": 3,
-        "weightedGraphGain": 38.942
-      },
-      "affectedPages": [
-        {
-          "id": "iron",
-          "title": "Iron",
-          "path": "wiki/entities/iron.md",
-          "category": "metal",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 226
-        },
-        {
-          "id": "inflammation",
-          "title": "Metal-Driven Inflammation",
-          "path": "wiki/concepts/inflammation.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 96
-        },
-        {
-          "id": "gut-brain-axis",
-          "title": "Gut-Brain Axis",
-          "path": "wiki/concepts/gut-brain-axis.md",
-          "category": "concept",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 74
-        },
-        {
-          "id": "alzheimers-disease",
-          "title": "Alzheimer's Disease",
-          "path": "wiki/entities/alzheimers-disease.md",
-          "category": "disease",
-          "plainMentions": 2,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 36
-        },
-        {
-          "id": "amyloid-beta",
-          "title": "Amyloid-Beta",
-          "path": "wiki/concepts/amyloid-beta.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 14
-        },
-        {
-          "id": "kynurenine-pathway",
-          "title": "Kynurenine Pathway",
-          "path": "wiki/concepts/kynurenine-pathway.md",
-          "category": "concept",
-          "plainMentions": 1,
-          "linked": false,
-          "leadMention": false,
-          "headingMention": false,
-          "inboundLinks": 8
-        }
-      ],
-      "candidateSources": [
-        {
-          "id": "ahmed-2025-metals-alzheimers-mechanistic-review",
-          "title": "Associations of Environmental Exposure to Arsenic, Manganese, Lead, and Cadmium with Alzheimer's Disease: A Review of Recent Evidence from Mechanistic Studies",
-          "evidenceLevel": "expert-opinion",
-          "year": 2025,
-          "path": "wiki/sources/ahmed-2025-metals-alzheimers-mechanistic-review.md",
-          "passage": {
-            "excerpt": "- **Document type**: Preprint review (NOT peer-reviewed), posted 30 January 2025 on Preprints.org - Reviewed 46 original mechanistic research articles (2014-2024): 6 on arsenic, 9 on manganese, 21 on lead, 10 on cadmium - Heavy metals share overlapping AD-r...",
-            "sha256": "ac3cfd14ee39080a17872debce959cd1ba094aea66c13871f48b49cd20810ec4"
-          }
-        },
-        {
-          "id": "jakubowska-2024-metal-toxicity-alzheimers-review",
-          "title": "Metal toxicity exposure in Alzheimer's disease - literature review",
-          "evidenceLevel": "expert-opinion",
-          "year": 2024,
-          "path": "wiki/sources/jakubowska-2024-metal-toxicity-alzheimers-review.md",
-          "passage": {
-            "excerpt": "- Essential mineral playing crucial role in neuroprotection, immune, and brain function - Post-mortem analyses show 3x greater zinc buildup in amyloid plaques and decreased synaptic zinc transporter levels vs. normal brains - AD patients found to have lower...",
-            "sha256": "10cd51ebe63e9d64c85881a808d1f0608e9af8766a06267f2260e03cbff2f82a"
-          }
-        },
-        {
-          "id": "islam-2022-metal-toxicity-alzheimers-extensive-review",
-          "title": "Exposure of metal toxicity in Alzheimer's disease: An extensive review",
-          "evidenceLevel": "expert-opinion",
-          "year": 2022,
-          "path": "wiki/sources/islam-2022-metal-toxicity-alzheimers-extensive-review.md",
-          "passage": {
-            "excerpt": "- Elevated iron levels found in AD brain regions (hippocampus, cortex) - Iron participates in Fenton reactions generating hydroxyl radicals - Ferroptosis (iron-dependent cell death) implicated in neurodegeneration - Iron promotes amyloid-beta aggregation an...",
-            "sha256": "0266c91a3cfe3de9bc1292e922c47ccd54c3c3a403f3387f77ec08e8a8550e7b"
-          }
-        },
-        {
-          "id": "bakulski-2020-heavy-metals-alzheimers-dementias",
-          "title": "Heavy Metals Exposure and Alzheimer's Disease and Related Dementias",
-          "evidenceLevel": "expert-opinion",
-          "year": 2020,
-          "path": "wiki/sources/bakulski-2020-heavy-metals-alzheimers-dementias.md",
-          "passage": {
-            "excerpt": "- Both inorganic and organic (methylmercury) forms have neurotoxic potential - Mercury can increase amyloid-beta production and tau phosphorylation - Fish consumption (source of methylmercury) also provides neuroprotective omega-3 fatty acids, creating conf...",
-            "sha256": "8466c94d9fab76e8f706f548584524a441bc0f7beb206c6fb9f0dc6be7fa60a6"
           }
         }
       ]

@@ -104,7 +104,7 @@ The bidirectionality is demonstrated by [[zhu-2024-toxic-essential-metals-gut-mi
 - [[oxidative-stress]] — Fenton chemistry as primary ROS source from iron/copper excess
 - [[gut-metal-microbiome]] — the ecosystem where dyshomeostasis originates and is amplified
 - [[metal-disease-matrix]] — maps dyshomeostasis patterns across diseases
-- [[inflammation]] — bidirectional relationship with metal imbalance
+- inflammation — bidirectional relationship with metal imbalance
 - [[iron]] — the metal most extensively studied in homeostasis/dyshomeostasis
 - [[copper]] — Wilson's disease as the archetypal dyshomeostasis model
 - [[zinc]] — critical for immune function; redistribution during inflammation

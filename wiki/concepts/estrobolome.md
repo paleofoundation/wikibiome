@@ -49,7 +49,7 @@ The estrobolome is fundamentally metal-dependent, and metals modulate it through
 
 ### Direct Metal Dependencies of Estrobolome Taxa
 
-[[iron]] is the primary driver. Most beta-glucuronidase-producing taxa are iron-dependent organisms. Iron overload in the gut selectively enriches these taxa, amplifying estrogen recirculation. This creates a feed-forward loop: [[iron]] → pathogen enrichment → beta-glucuronidase → estrogen recirculation → tissue proliferation → inflammation → more iron release.
+[[iron]] is the primary driver. Most beta-glucuronidase-producing taxa are iron-dependent organisms. Iron overload in the gut selectively enriches these taxa, amplifying estrogen recirculation. This creates a feed-forward loop: [[iron]] → pathogen enrichment → beta-glucuronidase → estrogen recirculation → tissue proliferation → [[inflammation]] → more iron release.
 
 [[zinc]] is required by several metalloprotease-producing estrobolome members for tissue invasion.
 

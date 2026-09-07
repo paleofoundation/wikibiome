@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Ceruloplasmin
 
-The major copper-carrying protein in human blood, binding approximately 95% of circulating copper. Ceruloplasmin is far more than a passive transport vehicle -- it is a multicopper oxidase with ferroxidase activity, an acute-phase reactant that rises with inflammation, and a protein whose dysfunction sits at the intersection of copper toxicity, iron dysregulation, and neurodegeneration. Understanding ceruloplasmin is essential for interpreting serum copper levels across virtually every disease studied in this wiki: elevated serum copper nearly always reflects elevated ceruloplasmin, which nearly always reflects inflammation.
+The major copper-carrying protein in human blood, binding approximately 95% of circulating copper. Ceruloplasmin is far more than a passive transport vehicle -- it is a multicopper oxidase with ferroxidase activity, an acute-phase reactant that rises with [[inflammation]], and a protein whose dysfunction sits at the intersection of copper toxicity, iron dysregulation, and neurodegeneration. Understanding ceruloplasmin is essential for interpreting serum copper levels across virtually every disease studied in this wiki: elevated serum copper nearly always reflects elevated ceruloplasmin, which nearly always reflects inflammation.
 
 ## Structure and Function
 

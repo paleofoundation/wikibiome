@@ -30,7 +30,7 @@ The central mechanism of primary dysmenorrhea is an excess of pro-inflammatory p
 4. PGF2a causes intense myometrial contractions and vasoconstriction
 5. Ischemia and reperfusion generate reactive oxygen species, amplifying pain
 
-Women with severe dysmenorrhea have endometrial PGF2a levels 2-7 times higher than pain-free women. This prostaglandin excess is not merely a local event -- it drives systemic inflammation measurable as elevated CRP, IL-6, and TNF-alpha during menstruation.
+Women with severe dysmenorrhea have endometrial PGF2a levels 2-7 times higher than pain-free women. This prostaglandin excess is not merely a local event -- it drives systemic [[inflammation]] measurable as elevated CRP, IL-6, and TNF-alpha during menstruation.
 
 ## Zinc and Dysmenorrhea
 
@@ -102,5 +102,5 @@ Dysmenorrhea is the cardinal symptom of [[endometriosis]], and severe primary dy
 - [[metalloestrogens]] -- cadmium and nickel as endocrine disruptors
 - [[estrobolome]] -- microbial estrogen recirculation
 - [[zinc-supplementation]] -- intervention evidence
-- [[inflammation]] -- shared NF-kB pathway
+- inflammation -- shared NF-kB pathway
 - [[oxidative-stress]] -- ischemia-reperfusion in endometrium

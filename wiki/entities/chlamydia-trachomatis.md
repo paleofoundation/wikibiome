@@ -84,7 +84,7 @@ The vaginal microbiome determines *C. trachomatis* susceptibility and disease ou
 | Condition | Mechanism |
 |-----------|-----------|
 | [[female-infertility]] (tubal factor) | Ascending infection → salpingitis → tubal scarring and occlusion |
-| Pelvic inflammatory disease | Endometrial and tubal inflammation |
+| Pelvic inflammatory disease | Endometrial and tubal [[inflammation]] |
 | Ectopic pregnancy | Tubal damage from prior CT infection |
 | Trachoma | Ocular serovars (A-C) cause conjunctival scarring → blindness |
 | Reactive arthritis | Post-infectious autoimmune joint inflammation |

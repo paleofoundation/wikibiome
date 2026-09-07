@@ -54,7 +54,7 @@ Enriched in HPV16-positive cervical microbiomes alongside Sneathia, Megasphaera,
 
 ### Preterm Birth
 
-Elevated vaginal Atopobium is associated with preterm birth risk, likely through mucosal barrier degradation and ascending inflammation [[pruski-2021-desi-ms-vaginal-microbiome-preterm-birth]].
+Elevated vaginal Atopobium is associated with preterm birth risk, likely through mucosal barrier degradation and ascending [[inflammation]] [[pruski-2021-desi-ms-vaginal-microbiome-preterm-birth]].
 
 ### Ovarian Cancer
 

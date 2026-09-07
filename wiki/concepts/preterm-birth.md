@@ -20,7 +20,7 @@ karen_brain_primitives: [1, 5]
 
 ## Overview
 
-Preterm birth (<37 weeks gestation) is the leading cause of neonatal mortality and morbidity worldwide (~15 million/year). The vaginal microbiome is a key determinant of preterm birth risk — Lactobacillus-depleted vaginal communities (CST-IV, enriched in [[gardnerella]], [[atopobium]], [[sneathia]], [[megasphaera]], [[prevotella]]) are associated with increased risk of ascending infection, cervical inflammation, and preterm delivery [[pruski-2021-desi-ms-vaginal-microbiome-preterm-birth]].
+Preterm birth (<37 weeks gestation) is the leading cause of neonatal mortality and morbidity worldwide (~15 million/year). The vaginal microbiome is a key determinant of preterm birth risk — Lactobacillus-depleted vaginal communities (CST-IV, enriched in [[gardnerella]], [[atopobium]], [[sneathia]], [[megasphaera]], [[prevotella]]) are associated with increased risk of ascending infection, cervical [[inflammation]], and preterm delivery [[pruski-2021-desi-ms-vaginal-microbiome-preterm-birth]].
 
 ## Microbiome Connection
 

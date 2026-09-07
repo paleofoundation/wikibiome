@@ -90,7 +90,7 @@ The NixA transporter is particularly relevant to nickel-targeted engineered prob
 - [[cadmium]] -- best-characterized probiotic detoxification model (CCFM8610)
 - [[nickel]] -- SNAS treatment, NixA transporter for GEMs
 - [[pcos]] -- probiotics improve metabolic and inflammatory parameters
-- [[multiple-sclerosis]] -- clinical trials show improved EDSS, inflammation, and immune balance
+- [[multiple-sclerosis]] -- clinical trials show improved EDSS, [[inflammation]], and immune balance
 - [[oxidative-stress]] -- antioxidative capacity is essential for effective probiotic metal detoxification
 - [[gut-brain-axis]] -- mediates probiotic effects on neurological and mental health outcomes
 - [[insulin-resistance]] -- improved by probiotics in both PCOS and MS contexts

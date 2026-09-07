@@ -60,7 +60,7 @@ Heavy metals do not only damage the brain directly. By reshaping the gut microbi
 1. Dysbiosis-derived neurotoxins: Metal-driven gut dysbiosis increases production of:
    - [[indoxyl-sulfate]] -- neurotoxic uremic toxin from Proteobacteria tryptophan metabolism [[dopamine]]
    - Propionic acid (PPA) -- elevated in [[autism-spectrum-disorder]]; causes brain morphological changes in rodent models [[tizabi-2023-lead-gut-microbiota-asd]]
-   - Quinolinic acid -- NMDA receptor agonist generated via the kynurenine pathway when inflammation diverts tryptophan from [[serotonin]] synthesis
+   - Quinolinic acid -- NMDA receptor agonist generated via the kynurenine pathway when [[inflammation]] diverts tryptophan from [[serotonin]] synthesis
 
 2. Barrier disruption: Metals damage both the gut barrier (increasing LPS translocation) and the [[blood-brain-barrier]] (permitting neuroinflammatory molecule entry).
 

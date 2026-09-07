@@ -113,7 +113,7 @@ The gap in environmental metal-MS research is striking given the strong microbio
 | S. thermophilus | Th1-to-Th2 cytokine shift; IL-10/Treg induction | Animal model (Dargahi 2020) |
 | L. paracasei | Reduced EAE incidence and severity; metabolic shift toward OXPHOS | Animal model (Libbey 2018) |
 | VSL#3 | Microbiome + immune modulation | Human trial (Tankou 2018) |
-| Dietary optimization | Low-glycemic, Mediterranean-style diets reduce inflammation; diet composition alters microbiome and metabolites | Animal model + epidemiological |
+| Dietary optimization | Low-glycemic, Mediterranean-style diets reduce [[inflammation]]; diet composition alters microbiome and metabolites | Animal model + epidemiological |
 
 ## Open Questions
 

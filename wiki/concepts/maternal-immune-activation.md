@@ -22,7 +22,7 @@ Maternal immune activation (MIA) describes the phenomenon in which infection or 
 
 MIA operates through a cascade of interlinked disruptions:
 
-1. Prenatal infection or inflammation — TORCH pathogens (Toxoplasma, Rubella, CMV, HSV), influenza, or other infections trigger maternal cytokine release [[alibek-2022-torch-infections-dysbiotic-microbiome-asd]]
+1. Prenatal infection or [[inflammation]] — TORCH pathogens (Toxoplasma, Rubella, CMV, HSV), influenza, or other infections trigger maternal cytokine release [[alibek-2022-torch-infections-dysbiotic-microbiome-asd]]
 2. Cytokine storm reaches fetus — IL-6 crosses the placenta and activates JAK-STAT3 signaling in fetal brain, disrupting cortical lamination and synaptogenesis
 3. Microglial priming — Fetal microglia adopt a persistently activated phenotype that continues into postnatal life, driving chronic neuroinflammation
 4. Microbiome alteration — MIA produces lasting changes in offspring gut microbiota composition, with Firmicutes elevation and Bacteroidetes depletion persisting into adulthood [[rogers-2016-gut-dysbiosis-altered-brain-function-mental-illness]]

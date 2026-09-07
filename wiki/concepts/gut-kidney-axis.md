@@ -86,7 +86,7 @@ Indoxyl sulfate exemplifies the gut-kidney axis [[chen-2019-microbiome-metabolom
 2. Indole is absorbed and hepatically sulfated to indoxyl sulfate
 3. Normally, kidneys excrete IS via organic anion transporters (OAT1/OAT3)
 4. In CKD, IS accumulates and directly injures proximal tubular cells
-5. IS activates NF-kB and AhR pathways, driving inflammation and fibrosis
+5. IS activates NF-kB and AhR pathways, driving [[inflammation]] and fibrosis
 6. Kidney injury worsens → less IS excretion → more accumulation
 
 ## Metal Dimension

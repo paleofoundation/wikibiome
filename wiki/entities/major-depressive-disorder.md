@@ -36,7 +36,7 @@ Major depressive disorder (MDD) is a psychiatric condition characterized by pers
 
 ## Mechanistic Pathways
 
-1. Tryptophan shunting: Inflammation-driven IDO activation diverts tryptophan from serotonin synthesis to the neurotoxic kynurenine pathway → quinolinic acid → excitotoxicity.
+1. Tryptophan shunting: [[inflammation]]-driven IDO activation diverts tryptophan from serotonin synthesis to the neurotoxic kynurenine pathway → quinolinic acid → excitotoxicity.
 2. SCFA depletion: Lost butyrate → impaired BBB integrity → neuroinflammation.
 3. Endotoxemia → neuroinflammation: LPS → TLR4 → [[interleukin-6|IL-6]]/TNF-alpha → [[microglia]] activation.
 4. Vagal signaling: Depleted Lactobacillus/Bifidobacterium → reduced vagal tone → HPA axis dysregulation.

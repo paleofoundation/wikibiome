@@ -29,7 +29,7 @@ Three microbiome pathways converge on this axis:
 
 1. Estrobolome → estrogen levels: Gut bacterial [[beta-glucuronidase]] deconjugates estrogens, increasing circulating free estrogen. [[dysbiosis]] alters the estrobolome, disrupting estrogen homeostasis [[kaliannan-2018-estrogen-gut-microbiome-metabolic-syndrome]].
 
-2. Tryptophan metabolism → serotonin: The microbiome modulates tryptophan availability for serotonin synthesis. Dysbiosis-driven inflammation shunts tryptophan into the [[kynurenine-pathway]] (via IDO/TDO), reducing serotonin precursor availability.
+2. Tryptophan metabolism → serotonin: The microbiome modulates tryptophan availability for serotonin synthesis. Dysbiosis-driven [[inflammation]] shunts tryptophan into the [[kynurenine-pathway]] (via IDO/TDO), reducing serotonin precursor availability.
 
 3. SCFA → enterochromaffin cells → 5-HT release: Short-chain fatty acids (particularly butyrate) stimulate enterochromaffin cells to release serotonin. SCFA depletion from dysbiosis reduces peripheral serotonin production.
 

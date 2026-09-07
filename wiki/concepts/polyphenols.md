@@ -72,7 +72,7 @@ Polyphenols show neuroprotective effects across multiple neurodegenerative condi
 Polyphenols including EGCG, resveratrol, and curcumin demonstrate antipsychotic-like effects in preclinical models through antioxidant, anti-inflammatory, and gut-microbiome-modulating mechanisms. Their metal chelation properties may contribute by reducing metal-driven [[oxidative-stress]] in the brain [[ji-2025-polyphenols-schizophrenia-mechanisms-therapeutic-potential]].
 
 ### Inflammatory Bowel Disease
-Dietary polyphenols reduce intestinal inflammation in IBD models through NF-kB suppression, antioxidant activity, and microbiome modulation. Their iron-chelating properties may be particularly relevant by reducing luminal iron available to bloom-associated Enterobacteriaceae [[martin-2015-dietary-polyphenols-ibd-models]].
+Dietary polyphenols reduce intestinal [[inflammation]] in IBD models through NF-kB suppression, antioxidant activity, and microbiome modulation. Their iron-chelating properties may be particularly relevant by reducing luminal iron available to bloom-associated Enterobacteriaceae [[martin-2015-dietary-polyphenols-ibd-models]].
 
 ### Cardiovascular Disease
 Polyphenol-rich diets are associated with reduced cardiovascular risk. Mechanisms include LDL oxidation inhibition, endothelial function improvement, and anti-platelet effects. The microbiome-dependent metabolite IPA (from [[tryptophan]]) and urolithin A (from ellagitannins) may mediate some of these effects [[shivashankara-2010-dietary-polyphenols-bioavailability-cvd]].

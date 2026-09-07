@@ -18,7 +18,7 @@ karen_brain_primitives: [1, 5]
 
 # Leptin
 
-Leptin is an adipokine (hormone produced by adipose tissue) that signals satiety to the hypothalamus — suppressing appetite and increasing energy expenditure. Leptin resistance (elevated leptin with impaired signaling) is a hallmark of obesity, paralleling insulin resistance. The gut microbiome modulates leptin sensitivity through [[endotoxemia]]-driven inflammation and SCFA signaling.
+Leptin is an adipokine (hormone produced by adipose tissue) that signals satiety to the hypothalamus — suppressing appetite and increasing energy expenditure. Leptin resistance (elevated leptin with impaired signaling) is a hallmark of obesity, paralleling insulin resistance. The gut microbiome modulates leptin sensitivity through [[endotoxemia]]-driven [[inflammation]] and SCFA signaling.
 
 ## Microbiome-Leptin Axis
 

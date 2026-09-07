@@ -78,7 +78,7 @@ The fundamental ecological pattern: metal dyshomeostasis selects AGAINST SCFA-pr
 
 ### AIEC Iron Acquisition and Invasion
 
-Adherent-invasive [[escherichia-coli]] depends on [[siderophores-metallophores]] for iron scavenging in the inflamed gut [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. AIEC strains express multiple siderophore systems (enterobactin, yersiniabactin, aerobactin) that outcompete host [[nutritional-immunity]] defenses like lactoferrin. Type 1 pili with FimH adhesin bind CEACAM6 receptors (upregulated in inflamed ileal epithelium), enabling mucosal adhesion and invasion [[haag-2015-intestinal-microbiota-innate-immunity-crohns]]. Once inside macrophages, AIEC replicates and triggers TNF-alpha, IL-6, and IL-8 release [[zhang-2017-intestinal-microbiota-host-immune-ibd]]. Outer membrane vesicles (OMVs) deliver virulence factors and LPS into host cells, amplifying [[inflammation]] via [[nf-kappa-b]] activation. This is a textbook example of [[metal-dependent-virulence]]: without siderophore-mediated iron acquisition, AIEC cannot colonize the inflamed mucosa.
+Adherent-invasive [[escherichia-coli]] depends on [[siderophores-metallophores]] for iron scavenging in the inflamed gut [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. AIEC strains express multiple siderophore systems (enterobactin, yersiniabactin, aerobactin) that outcompete host [[nutritional-immunity]] defenses like lactoferrin. Type 1 pili with FimH adhesin bind CEACAM6 receptors (upregulated in inflamed ileal epithelium), enabling mucosal adhesion and invasion [[haag-2015-intestinal-microbiota-innate-immunity-crohns]]. Once inside macrophages, AIEC replicates and triggers TNF-alpha, IL-6, and IL-8 release [[zhang-2017-intestinal-microbiota-host-immune-ibd]]. Outer membrane vesicles (OMVs) deliver virulence factors and LPS into host cells, amplifying inflammation via [[nf-kappa-b]] activation. This is a textbook example of [[metal-dependent-virulence]]: without siderophore-mediated iron acquisition, AIEC cannot colonize the inflamed mucosa.
 
 ### B. fragilis BFT Toxin
 
@@ -118,7 +118,7 @@ Clinical implications: ZIP8 A391T carriers may require different metal supplemen
 
 ### Mediterranean Diet
 
-Greater adherence to a Mediterranean diet is associated with a 58% lower risk of later-onset CD (HR: 0.42, 95% CI 0.22-0.80) across two large Swedish prospective cohorts with 17-year follow-up [[khalili-2024-mediterranean-diet-later-onset-crohns]]. The protection is CD-specific -- no association was found with UC. Poor Mediterranean diet adherence (mMED score 0-2) confers a population attributable risk of 12% for later-onset CD, meaning 12% of cases could theoretically be prevented through dietary change. The Mediterranean pattern is rich in polyphenols, fiber, omega-3 fatty acids, and plant-based foods that collectively support SCFA-producing commensals and suppress [[inflammation]].
+Greater adherence to a Mediterranean diet is associated with a 58% lower risk of later-onset CD (HR: 0.42, 95% CI 0.22-0.80) across two large Swedish prospective cohorts with 17-year follow-up [[khalili-2024-mediterranean-diet-later-onset-crohns]]. The protection is CD-specific -- no association was found with UC. Poor Mediterranean diet adherence (mMED score 0-2) confers a population attributable risk of 12% for later-onset CD, meaning 12% of cases could theoretically be prevented through dietary change. The Mediterranean pattern is rich in polyphenols, fiber, omega-3 fatty acids, and plant-based foods that collectively support SCFA-producing commensals and suppress inflammation.
 
 ### Exclusive Enteral Nutrition (EEN)
 
@@ -130,7 +130,7 @@ High-fiber diets are generally protective in CD, contrary to the longstanding cl
 
 ### Polyphenols
 
-Dietary polyphenols synergistically interact with gut microbiota to suppress [[inflammation]] in IBD. They increase microbial diversity, boost [[faecalibacterium-prausnitzii]], and inhibit AIEC [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. Polyphenol mechanisms include [[nf-kappa-b]] suppression, Nrf2 upregulation (activating antioxidant defenses against [[ferroptosis]]), and gut barrier protection. Metal chelation by polyphenols (catechins bind iron and copper) affects both bioavailability and oxidative potential.
+Dietary polyphenols synergistically interact with gut microbiota to suppress inflammation in IBD. They increase microbial diversity, boost [[faecalibacterium-prausnitzii]], and inhibit AIEC [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. Polyphenol mechanisms include [[nf-kappa-b]] suppression, Nrf2 upregulation (activating antioxidant defenses against [[ferroptosis]]), and gut barrier protection. Metal chelation by polyphenols (catechins bind iron and copper) affects both bioavailability and oxidative potential.
 
 ### Low-Nickel Diet
 
@@ -146,7 +146,7 @@ CD and UC share core dysbiosis features (reduced diversity, depleted SCFA produc
 
 ### Extraintestinal Manifestations
 
-CD is causally associated with 8 extraintestinal manifestations including primary biliary cholangitis, sarcoidosis, iridocyclitis, interstitial lung disease, atopic dermatitis, ankylosing spondylitis, psoriatic arthropathies, and primary sclerosing cholangitis [[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]]. Mendelian randomization shows that gut microbiota does NOT mediate these associations -- the microbiome is altered by IBD but is not the conduit through which IBD produces systemic complications. This implies that the shared immune dysregulation and systemic [[inflammation]] (rather than microbial translocation) drive extraintestinal disease.
+CD is causally associated with 8 extraintestinal manifestations including primary biliary cholangitis, sarcoidosis, iridocyclitis, interstitial lung disease, atopic dermatitis, ankylosing spondylitis, psoriatic arthropathies, and primary sclerosing cholangitis [[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]]. Mendelian randomization shows that gut microbiota does NOT mediate these associations -- the microbiome is altered by IBD but is not the conduit through which IBD produces systemic complications. This implies that the shared immune dysregulation and systemic inflammation (rather than microbial translocation) drive extraintestinal disease.
 
 ## The Self-Reinforcing Cycle
 

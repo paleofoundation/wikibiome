@@ -43,7 +43,7 @@ A Type IV (delayed) hypersensitivity reaction [[ahlstrom-2019-nickel-allergy-rev
 
 ## Nickel Allergic Contact Mucositis (Ni ACM)
 
-- Nickel can also cause intestinal mucosal inflammation — a Type IV immune response in the gut [[borghini-2020-low-nickel-diet-celiac]].
+- Nickel can also cause intestinal mucosal [[inflammation]] — a Type IV immune response in the gut [[borghini-2020-low-nickel-diet-celiac]].
 - Causes IBS-like symptoms: abdominal pain, bloating, nausea, loose stools.
 - Also extraintestinal symptoms: dermatitis, headache, fatigue, joint pain.
 - Prevalence may exceed 30% by epicutaneous patch test.

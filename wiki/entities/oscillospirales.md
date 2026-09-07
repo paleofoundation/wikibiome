@@ -63,7 +63,7 @@ Oscillospirales are among the dominant orders in the gut of lean, metabolically 
 - Lean phenotype in twin studies
 
 ### In Dysbiosis
-Depletion of Oscillospirales accompanies the broader loss of SCFA-producing bacteria seen across inflammatory and metabolic diseases. The order's sensitivity to inflammation-driven environmental changes (iron excess, oxidative stress, reduced fiber substrates) makes it an early casualty of [[dysbiosis]].
+Depletion of Oscillospirales accompanies the broader loss of SCFA-producing bacteria seen across inflammatory and metabolic diseases. The order's sensitivity to [[inflammation]]-driven environmental changes (iron excess, oxidative stress, reduced fiber substrates) makes it an early casualty of [[dysbiosis]].
 
 ## Conditions Associated
 

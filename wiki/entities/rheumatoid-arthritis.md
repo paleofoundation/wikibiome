@@ -29,7 +29,7 @@ wikipedia_differentiation: "Machine learning analysis of metal exposure patterns
 
 ## Overview
 
-Rheumatoid arthritis (RA) is a chronic systemic autoimmune disease characterized by symmetric polyarthritis with progressive joint destruction, affecting approximately 1% of the global population. The conventional framing centers on genetic susceptibility (HLA-DRB1 shared epitope), autoantibody production (RF, anti-CCP), and immune dysregulation. The metallomic perspective reveals altered serum metal profiles -- particularly elevated copper and toxic metal burden -- that correlate with disease activity, inflammation markers, and vitamin D disruption. Environmental metal exposure from farm soils, industrial pollution, and dietary sources may both trigger and exacerbate the autoimmune cascade.
+Rheumatoid arthritis (RA) is a chronic systemic autoimmune disease characterized by symmetric polyarthritis with progressive joint destruction, affecting approximately 1% of the global population. The conventional framing centers on genetic susceptibility (HLA-DRB1 shared epitope), autoantibody production (RF, anti-CCP), and immune dysregulation. The metallomic perspective reveals altered serum metal profiles -- particularly elevated copper and toxic metal burden -- that correlate with disease activity, [[inflammation]] markers, and vitamin D disruption. Environmental metal exposure from farm soils, industrial pollution, and dietary sources may both trigger and exacerbate the autoimmune cascade.
 
 ## Metallomic Signature
 

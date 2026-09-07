@@ -27,7 +27,7 @@ Three independent lines of evidence establish causal microbiome-to-ovarian links
 
 1. FMT transfers PCOS phenotype: Fecal transplant from PCOS patients into germ-free mice transferred the full metabolic + ovarian dysfunction phenotype — insulin resistance, obesity, and disrupted ovarian function [[huang-2024-fmt-pcos-metabolic-ovarian-dysfunction]]. The microbiome can "set the hormonal phenotype."
 
-2. FMT reverses ovarian aging: Heterochronic FMT from young mice reversed age-related ovarian transcriptome changes, reduced inflammation, and increased fertility [[kim-2026-estropausal-fmt-ovarian-function-rejuvenation]], Nature Aging. A young microbiome can rejuvenate aged ovaries.
+2. FMT reverses ovarian aging: Heterochronic FMT from young mice reversed age-related ovarian transcriptome changes, reduced [[inflammation]], and increased fertility [[kim-2026-estropausal-fmt-ovarian-function-rejuvenation]], Nature Aging. A young microbiome can rejuvenate aged ovaries.
 
 3. Bifidobacterium longum improves IVF response: B. longum abundance correlated with good ovarian stimulation response; gavage in mice improved outcomes [[fo-2024-gut-microbiota-ovarian-stimulation-response-metagenomics]].
 

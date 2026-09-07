@@ -97,7 +97,7 @@ When SOD is absent or inhibited, superoxide accumulates, continuously recycling 
 
 ## Kynurenine-Iron-Fenton Loop
 
-Quinolinic acid (a [[kynurenine]] pathway metabolite) chelates iron and forms QUIN-Fe complexes that catalyze Fenton chemistry in neural tissue. This creates a self-amplifying neuroinflammatory loop: inflammation → IDO1 → kynurenine → quinolinic acid → QUIN-Fe → Fenton → more inflammation [[novikova-2025-microbiome-derived-metabolites-parkinsons-thesis]].
+Quinolinic acid (a [[kynurenine]] pathway metabolite) chelates iron and forms QUIN-Fe complexes that catalyze Fenton chemistry in neural tissue. This creates a self-amplifying neuroinflammatory loop: [[inflammation]] → IDO1 → kynurenine → quinolinic acid → QUIN-Fe → Fenton → more inflammation [[novikova-2025-microbiome-derived-metabolites-parkinsons-thesis]].
 
 ## Disease Relevance
 

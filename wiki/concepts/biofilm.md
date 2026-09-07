@@ -60,7 +60,7 @@ Structured microbial communities encased in a self-produced extracellular polyme
 
 - Device-associated infections: biofilms on catheters, prosthetic joints, and implants are notoriously difficult to treat because antibiotics cannot penetrate the EPS matrix effectively.
 - Chronic wounds: polymicrobial biofilms with metal-concentrating properties resist both host immunity and topical treatments.
-- Gut biofilms: mucosal biofilms in IBD may shield pathobionts from host metal restriction, contributing to persistent inflammation.
+- Gut biofilms: mucosal biofilms in IBD may shield pathobionts from host metal restriction, contributing to persistent [[inflammation]].
 - Treatment approaches: disrupting metal supply to biofilms (metal chelation, blocking metallophore receptors) is a proposed adjunct to conventional antibiotic therapy.
 
 ## Key Sources

@@ -30,7 +30,7 @@ Curli are functional amyloid fibers produced by *[[escherichia-coli]]*, *[[salmo
 ## Metal Connection
 
 - Iron and zinc are required for curli fiber assembly — CsgA polymerization is metal-dependent.
-- Inflammation-driven iron availability in the dysbiotic gut selects for E. coli/Shigella expansion AND provides the metal cofactors for curli production — a convergent pathological mechanism.
+- [[inflammation]]-driven iron availability in the dysbiotic gut selects for E. coli/Shigella expansion AND provides the metal cofactors for curli production — a convergent pathological mechanism.
 - This connects [[microbial-metallomics]] directly to neurodegeneration: metal exposure → Enterobacteriaceae bloom → curli production → amyloid cross-seeding → Aβ/α-synuclein aggregation.
 
 ## Cross-References

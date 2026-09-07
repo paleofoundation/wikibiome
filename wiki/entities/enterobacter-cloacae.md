@@ -45,7 +45,7 @@ E. cloacae relies heavily on iron for growth and virulence. It produces multiple
 
 ## Ecological Role
 
-In healthy adults, E. cloacae persists at low abundance. It expands during antibiotic-induced [[dysbiosis]], exploiting the vacated niche and elevated luminal iron that follows inflammation. Its capacity for [[biofilm]] formation on mucosal surfaces and medical devices makes it particularly persistent once established.
+In healthy adults, E. cloacae persists at low abundance. It expands during antibiotic-induced [[dysbiosis]], exploiting the vacated niche and elevated luminal iron that follows [[inflammation]]. Its capacity for [[biofilm]] formation on mucosal surfaces and medical devices makes it particularly persistent once established.
 
 ## Conditions Associated
 

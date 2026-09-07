@@ -37,7 +37,7 @@ TNF-alpha signals through two receptors:
 - TNFR1 (ubiquitous): Drives NF-kB activation, apoptosis, and inflammatory gene transcription. The primary pathway for systemic inflammatory effects.
 - TNFR2 (immune and endothelial cells): Promotes cell survival and proliferation; involved in regulatory T cell function.
 
-TNF-alpha is initially produced as a transmembrane protein (mTNF) and cleaved by TACE/ADAM17 (a zinc-dependent metalloprotease) to release soluble TNF (sTNF). This zinc dependency means TNF-alpha processing is directly modulated by zinc availability — connecting inflammation to the metallomic axis.
+TNF-alpha is initially produced as a transmembrane protein (mTNF) and cleaved by TACE/ADAM17 (a zinc-dependent metalloprotease) to release soluble TNF (sTNF). This zinc dependency means TNF-alpha processing is directly modulated by zinc availability — connecting [[inflammation]] to the metallomic axis.
 
 ## Metal-Driven TNF-alpha Production
 
@@ -104,7 +104,7 @@ TNF-alpha and [[interleukin-6|IL-6]] are frequently co-elevated and share the NF
 
 - [[interleukin-6]] — complementary pro-inflammatory cytokine
 - [[nf-kappa-b]] — master transcription factor driving TNF-alpha gene expression
-- [[inflammation]] — TNF-alpha as primary pro-inflammatory effector
+- inflammation — TNF-alpha as primary pro-inflammatory effector
 - [[systemic-inflammation]] — TNF-alpha as systemic inflammatory mediator
 - [[endotoxemia]] — LPS/TLR4 → NF-kB → TNF-alpha cascade
 - [[lipopolysaccharide]] — primary microbial trigger for TNF-alpha

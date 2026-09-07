@@ -102,7 +102,7 @@ Fecal urease activity, [[ammonia]] levels, and stool nickel content could serve 
 
 Siderophore-producing pathogens are especially prominent in iron-dysregulated conditions:
 
-- [[endometriosis]] -- Dysbiotic E. coli overproduces enterobactin in response to elevated tissue iron and heme; siderophore activity drives local inflammation and Fe2+ sequestration, triggering hepcidin elevation.
+- [[endometriosis]] -- Dysbiotic E. coli overproduces enterobactin in response to elevated tissue iron and heme; siderophore activity drives local [[inflammation]] and Fe2+ sequestration, triggering hepcidin elevation.
 - [[inflammatory-bowel-disease]] -- Dysbiotic bacteria switch to high siderophore production under iron starvation; this creates a vicious cycle where host iron withholding paradoxically favors pathogenic siderophore-producing taxa.
 - Cystic fibrosis -- P. aeruginosa lung biofilms rely on pyoverdine-mediated iron acquisition; pyoverdine production correlates with disease severity.
 - Urinary tract infection -- Uropathogenic E. coli produce enterobactin and aerobactin; siderophore activity is required for virulence.

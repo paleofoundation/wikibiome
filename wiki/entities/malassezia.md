@@ -24,8 +24,8 @@ A genus of lipophilic basidiomycete yeasts that is the dominant fungus on human 
 
 ## Skin Commensal Role
 
-- Colonizes lipid-rich skin sites (scalp, face, chest, back) where it metabolizes host sebum triglycerides via secreted lipases, releasing unsaturated fatty acids (oleic acid) that can trigger inflammation in susceptible individuals.
-- *M. restricta* is the primary causative agent of dandruff and seborrheic dermatitis through lipase-mediated oleic acid release and subsequent [[inflammation]].
+- Colonizes lipid-rich skin sites (scalp, face, chest, back) where it metabolizes host sebum triglycerides via secreted lipases, releasing unsaturated fatty acids (oleic acid) that can trigger [[inflammation]] in susceptible individuals.
+- *M. restricta* is the primary causative agent of dandruff and seborrheic dermatitis through lipase-mediated oleic acid release and subsequent inflammation.
 - *M. furfur* causes pityriasis versicolor (skin depigmentation) and can cause systemic fungemia in neonates receiving lipid parenteral nutrition.
 - The genus is uniquely lipid-dependent -- it lacks the genes for de novo fatty acid synthesis and must acquire lipids from its environment.
 
@@ -73,7 +73,7 @@ A genus of lipophilic basidiomycete yeasts that is the dominant fungus on human 
 - [[autism-spectrum-disorder]] -- detected in ASD gut mycobiome; correlated with Candida
 - [[candida-albicans]] -- positively correlated; both enriched in disease mycobiomes
 - [[saccharomyces]] -- co-occurring in gut mycobiome; both altered in CVD
-- [[inflammation]] -- lipase-mediated oleic acid release; Dectin-1/TLR2 activation
+- inflammation -- lipase-mediated oleic acid release; Dectin-1/TLR2 activation
 - dysbiosis -- fungal dysbiosis precedes clinical hypertension
 - [[gut-metal-microbiome]] -- indirect metal interactions; heavy metals may shift bacterial communities that normally suppress Malassezia
 - [[roseburia]] -- negatively correlated in IBD; bacterial-fungal competitive dynamics

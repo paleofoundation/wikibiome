@@ -73,7 +73,7 @@ Dietary zinc imbalance affects *H. hepaticus* abundance in the gut. In a murine 
 
 ## Conditions Associated
 
-- Hepatitis and hepatocellular carcinoma (murine) -- the defining disease association; chronic infection drives the inflammation-cancer cascade via CDT-mediated genotoxicity
+- Hepatitis and hepatocellular carcinoma (murine) -- the defining disease association; chronic infection drives the [[inflammation]]-cancer cascade via CDT-mediated genotoxicity
 - Inflammatory bowel disease (murine model) -- *H. hepaticus*-induced colitis in IL-10 knockout mice is one of the most widely used IBD models in research
 - Colorectal cancer (murine model) -- accelerates tumorigenesis in chemically initiated models
 

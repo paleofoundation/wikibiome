@@ -87,7 +87,7 @@ Diabetes mellitus increases PMS/PMDD incidence via shared disruption of estrogen
 
 - Does estrobolome composition predict PMDD severity independently of hormonal levels?
 - Can targeted probiotic supplementation (Parabacteroides, Blautia) reduce PMDD symptoms?
-- What is the causal direction: does luteal-phase inflammation drive dysbiosis, or does pre-existing dysbiosis amplify luteal-phase inflammation?
+- What is the causal direction: does luteal-phase [[inflammation]] drive dysbiosis, or does pre-existing dysbiosis amplify luteal-phase inflammation?
 - Is the IDO-mediated tryptophan shunt a therapeutic target distinct from SSRIs?
 
 ## Cross-References

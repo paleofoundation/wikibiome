@@ -34,7 +34,7 @@ pathogenic_potential: commensal
 - *O. splanchnicus* ferments complex carbohydrates to produce butyrate, propionate, and succinate.
 - Butyrate supports colonocyte energy metabolism (the primary fuel for colonocytes), gut barrier integrity through [[tight-junctions|tight junction]] protein upregulation, and systemic immune regulation via HDAC inhibition and GPR109a signaling.
 - Propionate contributes to hepatic gluconeogenesis regulation, appetite suppression via free fatty acid receptor signaling, and Treg differentiation.
-- Anti-inflammatory mechanism: *Odoribacter*-derived butyrate specifically attenuates LPS-induced NF-κB activation, with butyrate from *Odoribacter* cited as a mechanism for lessening endotoxin-driven systemic inflammation [[mansuri-2022-gut-microbiome-cardiovascular-events-systematic-review]]. This direct anti-inflammatory mechanism through NF-κB inhibition links *Odoribacter*'s metabolic function to cardiovascular protection.
+- Anti-inflammatory mechanism: *Odoribacter*-derived butyrate specifically attenuates LPS-induced NF-κB activation, with butyrate from *Odoribacter* cited as a mechanism for lessening endotoxin-driven systemic [[inflammation]] [[mansuri-2022-gut-microbiome-cardiovascular-events-systematic-review]]. This direct anti-inflammatory mechanism through NF-κB inhibition links *Odoribacter*'s metabolic function to cardiovascular protection.
 - Bile salt hydrolase activity contributes to secondary bile acid pool formation, influencing FXR and TGR5 signaling in the gut-liver axis.
 
 ## Metal Dependencies

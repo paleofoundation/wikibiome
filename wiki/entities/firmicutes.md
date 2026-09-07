@@ -67,7 +67,7 @@ The defining ecological vulnerability of beneficial Firmicutes is their near-uni
 - Ferredoxins -- [4Fe-4S] electron carriers essential for anaerobic metabolism
 - Pyruvate:ferredoxin oxidoreductase -- channels carbon from glycolysis into fermentation
 
-When toxic metals damage these Fe-S clusters (cadmium displaces iron, copper targets thiolate ligands, nickel blocks ISC repair), butyrate production collapses. This is the mechanistic chain: environmental metal exposure → Fe-S damage → SCFA producer depletion → barrier dysfunction → inflammation.
+When toxic metals damage these Fe-S clusters (cadmium displaces iron, copper targets thiolate ligands, nickel blocks ISC repair), butyrate production collapses. This is the mechanistic chain: environmental metal exposure → Fe-S damage → SCFA producer depletion → barrier dysfunction → [[inflammation]].
 
 The exception: [[phascolarctobacterium]] uses a biotin-dependent pathway instead of Fe-S enzymes, making it resilient to metal-driven dysbiosis -- consistent with Primitive 1 (metals as selective pressures).
 

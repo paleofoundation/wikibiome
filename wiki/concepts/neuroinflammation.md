@@ -31,7 +31,7 @@ Chronic inflammatory activation within the central nervous system, driven by mic
 ### Blood-Brain Barrier (BBB) Disruption
 - The BBB normally restricts peripheral immune cell and toxin entry to the brain.
 - [[lead]], [[cadmium]], and [[mercury]] directly damage BBB [[tight-junctions|tight junction]] proteins, increasing paracellular permeability [[ahmed-2025-metals-alzheimers-mechanistic-review]].
-- BBB disruption permits entry of peripheral inflammatory mediators, LPS, metals, and immune cells, amplifying central inflammation.
+- BBB disruption permits entry of peripheral inflammatory mediators, LPS, metals, and immune cells, amplifying central [[inflammation]].
 - TMAO crosses the BBB and promotes neuroinflammation in [[alzheimers-disease]] [[khatoon-2023-gut-microbiota-neurodegenerative]].
 
 ## Gut-Brain Axis Origins of Neuroinflammation
@@ -65,7 +65,7 @@ Each neurotoxic metal has a distinct neuroinflammatory profile:
 | [[aluminum]] | Inflammasome and NF-kB activation | AD (controversial) |
 | [[cadmium]] | BBB disruption, calcium signaling, mitochondrial damage | AD, cognitive decline |
 
-For aluminum, the proposed neuroinflammatory profile includes [[nlrp3-inflammasome|NLRP3 inflammasome]] and NF-kB activation, although its association with Alzheimer's disease remains controversial [[ahmed-2025-metals-alzheimers-mechanistic-review]]. More broadly, these metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in [[inflammation]].
+For aluminum, the proposed neuroinflammatory profile includes [[nlrp3-inflammasome|NLRP3 inflammasome]] and NF-kB activation, although its association with Alzheimer's disease remains controversial [[ahmed-2025-metals-alzheimers-mechanistic-review]]. More broadly, these metals converge on [[oxidative-stress]] and [[nf-kappa-b]] activation, making the inflammatory endpoint molecularly indistinguishable from infection-driven neuroinflammation -- the same convergence problem described in inflammation.
 
 ## Disease-Specific Neuroinflammatory Patterns
 
@@ -89,7 +89,7 @@ For aluminum, the proposed neuroinflammatory profile includes [[nlrp3-inflammaso
 
 ## Connections
 
-- [[inflammation]] -- neuroinflammation is the CNS manifestation of the broader metal-driven inflammatory response
+- inflammation -- neuroinflammation is the CNS manifestation of the broader metal-driven inflammatory response
 - [[gut-brain-axis]] -- the primary route by which peripheral dysbiosis drives brain inflammation
 - [[ferroptosis]] -- iron-dependent lipid peroxidation as a neuroinflammatory cell death mechanism
 - [[short-chain-fatty-acids]] -- butyrate depletion removes anti-neuroinflammatory brake

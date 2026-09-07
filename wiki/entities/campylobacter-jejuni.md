@@ -50,7 +50,7 @@ The leading bacterial cause of diarrheal disease worldwide, with an estimated 40
 - Leading cause of bacterial gastroenteritis in developed countries. Primarily foodborne (undercooked poultry, unpasteurized milk) [[maier-2019-nickel-microbial-pathogenesis]].
 - Causes watery or bloody diarrhea, abdominal pain, fever. Usually self-limiting but can be severe in children and immunocompromised patients [[bushman-2025-nutrient-metals-bacteria-gut-infection]].
 - Guillain-Barre syndrome (GBS): *C. jejuni* infection is the most common antecedent of GBS, an autoimmune peripheral neuropathy. Molecular mimicry between *C. jejuni* lipooligosaccharide and gangliosides drives the autoimmune response [[maier-2019-nickel-microbial-pathogenesis]].
-- Reactive arthritis: post-infectious joint inflammation; related *C. fetus* has been linked to spondylitis-CKD syndromes demonstrating extraintestinal sequelae of the genus [[choi-2016-campylobacter-fetus-ckd-spondylitis]].
+- Reactive arthritis: post-infectious joint [[inflammation]]; related *C. fetus* has been linked to spondylitis-CKD syndromes demonstrating extraintestinal sequelae of the genus [[choi-2016-campylobacter-fetus-ckd-spondylitis]].
 - Growing fluoroquinolone resistance complicates treatment of severe cases.
 
 ## The Hydrogenase-Only Model

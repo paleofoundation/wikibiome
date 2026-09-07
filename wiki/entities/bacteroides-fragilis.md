@@ -23,7 +23,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Bacteroides fragilis
 
-A Gram-negative obligate anaerobe and the most clinically significant member of the *Bacteroides* genus. *B. fragilis* occupies a unique dual position in gut microbiology: as a non-toxigenic commensal (NTBF), it produces polysaccharide A (PSA) that shapes immune tolerance; as an enterotoxigenic pathobiont (ETBF), it secretes the zinc-dependent Bacteroides fragilis toxin (BFT/fragilysin), a metalloprotease that drives inflammation, epithelial disruption, and colorectal carcinogenesis. The balance between these two strains within an individual's microbiome has major implications for immune homeostasis and cancer risk.
+A Gram-negative obligate anaerobe and the most clinically significant member of the *Bacteroides* genus. *B. fragilis* occupies a unique dual position in gut microbiology: as a non-toxigenic commensal (NTBF), it produces polysaccharide A (PSA) that shapes immune tolerance; as an enterotoxigenic pathobiont (ETBF), it secretes the zinc-dependent Bacteroides fragilis toxin (BFT/fragilysin), a metalloprotease that drives [[inflammation]], epithelial disruption, and colorectal carcinogenesis. The balance between these two strains within an individual's microbiome has major implications for immune homeostasis and cancer risk.
 
 ## Classification
 
@@ -125,7 +125,7 @@ Wikipedia's *Bacteroides fragilis* entry covers BFT and PSA at a general level. 
 - [[crohns-disease]] — NTBF depletion vs. ETBF enrichment depending on strain composition
 - [[graves-disease]] — NTBF (PSA-producing) depleted; contributes to Treg reduction
 - [[endometriosis]] — beta-glucuronidase-driven estrogen recirculation (estrobolome role)
-- [[inflammation]] — BFT drives NF-κB/IL-8; PSA suppresses via Tregs; opposing effects by strain
+- inflammation — BFT drives NF-κB/IL-8; PSA suppresses via Tregs; opposing effects by strain
 - [[calprotectin]] — sequesters Zn at inflammation sites; potential BFT inhibition mechanism
 - [[estrobolome]] — beta-glucuronidase links B. fragilis to hormone recirculation
 - [[dysbiosis]] — ETBF enrichment vs. NTBF depletion defines disease-associated shifts

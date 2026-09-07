@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-09
 
 # Lactoferrin
 
-An iron-binding glycoprotein of the transferrin family that sequesters iron (and potentially other metals) from pathogens at mucosal surfaces and sites of inflammation. Lactoferrin is a key effector of [[nutritional-immunity]], complementing [[calprotectin]]'s role in metal restriction.
+An iron-binding glycoprotein of the transferrin family that sequesters iron (and potentially other metals) from pathogens at mucosal surfaces and sites of [[inflammation]]. Lactoferrin is a key effector of [[nutritional-immunity]], complementing [[calprotectin]]'s role in metal restriction.
 
 ## Structure and Metal Binding
 

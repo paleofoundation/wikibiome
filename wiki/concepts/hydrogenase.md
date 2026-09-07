@@ -115,7 +115,7 @@ S. enterica Typhi (human typhoid agent) is expected to possess the same hydrogen
 
 - Uses H2 as an energy source coupled to taurine/sulfite respiration.
 - H2-powered sulfite reduction produces H2S, which may contribute to inflammatory bowel disease pathology.
-- Links hydrogen metabolism to bile acid metabolism and gut inflammation.
+- Links hydrogen metabolism to bile acid metabolism and gut [[inflammation]].
 
 ## The CagA-Hydrogenase-Cancer Connection
 

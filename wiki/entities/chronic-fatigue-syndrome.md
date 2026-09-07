@@ -124,6 +124,6 @@ The ME/CFS gut-brain axis involves:
 - [[fibromyalgia]] -- overlapping condition
 - [[nickel-allergy]] -- TLR4-mediated immune activation
 - [[toll-like-receptors]] -- innate immune interface
-- [[neuroinflammation]] -- brain inflammation pathway
+- [[neuroinflammation]] -- brain [[inflammation]] pathway
 - [[intestinal-permeability]] -- barrier dysfunction
 - [[butyrate]] -- depleted protective SCFA

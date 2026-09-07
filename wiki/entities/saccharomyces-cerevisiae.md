@@ -117,7 +117,7 @@ S. boulardii is a thermotolerant derivative of *S. cerevisiae* selected for surv
 2. Nutritional Competition: Rapid glucose consumption creates substrate scarcity for pathogens; deprives *Candida* of its preferred carbon source.
 3. Barrier Protection: Increases mucin secretion and [[tight-junctions|tight junction]] integrity via TLR-2 signaling in epithelial cells (Terciolo et al. 2019).
 4. Immune Activation: Increases IL-10 and TGF-β production; reduces pro-inflammatory IL-8 response to pathogenic infection (Thomas et al. 2011).
-5. Siderophore Inhibition: *S. boulardii* does not secrete siderophores; competes for iron but does not exacerbate pathogenic siderophore-driven inflammation.
+5. Siderophore Inhibition: *S. boulardii* does not secrete siderophores; competes for iron but does not exacerbate pathogenic siderophore-driven [[inflammation]].
 6. Biofilm Disruption: Interferes with *C. difficile* and *Candida* biofilm formation via fermentation metabolites (ethanol, acetate) (Krasowska et al. 2009).
 
 ## Disease Associations and WikiBiome Context
@@ -198,7 +198,7 @@ Ecological outcome: *S. cerevisiae* outcompetes *Candida* through metabolic spee
 - [[crohns-disease]] – ASCA+ marker; *S. boulardii* supplementation improves remission
 - [[multiple-sclerosis]] – Dysbiotic MS involves Candida overgrowth; *S. boulardii* suppression beneficial
 - dysbiosis – Antagonizes pathogenic fungi; restores commensal/probiotic balance
-- [[inflammation]] – *S. boulardii* reduces IL-8, increases IL-10; barrier-protective
+- inflammation – *S. boulardii* reduces IL-8, increases IL-10; barrier-protective
 - [[nutritional-immunity|nutritional immunity]] – Increases mucin and tight junction proteins
 
 ## Storage and Bioavailability

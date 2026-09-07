@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-10
 
 # Metal Homeostasis
 
-The biological processes by which organisms maintain proper intracellular and systemic concentrations of essential metals -- importing what is needed, storing excess safely, and exporting or sequestering surplus. Both host and microbial systems have evolved elaborate metal homeostasis machinery. When these systems fail -- through genetic defects, toxic metal exposure, infection, or chronic inflammation -- the result is disease.
+The biological processes by which organisms maintain proper intracellular and systemic concentrations of essential metals -- importing what is needed, storing excess safely, and exporting or sequestering surplus. Both host and microbial systems have evolved elaborate metal homeostasis machinery. When these systems fail -- through genetic defects, toxic metal exposure, infection, or chronic [[inflammation]] -- the result is disease.
 
 ## Host Metal Homeostasis
 

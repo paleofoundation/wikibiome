@@ -34,7 +34,7 @@ While *H. influenzae* dominates clinical attention as a respiratory pathogen, th
 - Iron acquisition systems include TonB-dependent outer membrane receptors for heme and transferrin binding proteins (Tbp1/Tbp2) that strip iron from host transferrin.
 - This dependency means *Haemophilus* thrives in iron-rich, heme-available environments -- precisely the conditions found in inflamed mucosa where tissue damage liberates heme from lysed red blood cells.
 
-The genus thus acts as a biological indicator of heme availability: where *Haemophilus* expands, free heme is abundant, suggesting mucosal inflammation and barrier breakdown.
+The genus thus acts as a biological indicator of heme availability: where *Haemophilus* expands, free heme is abundant, suggesting mucosal [[inflammation]] and barrier breakdown.
 
 ## Key Enzymes and Virulence Factors
 

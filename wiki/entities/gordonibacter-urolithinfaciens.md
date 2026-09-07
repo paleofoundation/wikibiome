@@ -71,7 +71,7 @@ Humans cannot directly metabolize ellagic acid; all urolithin production depends
 ### Cardiovascular Disease
 [[gordonibacter-urolithinfaciens]] protection against [[cardiovascular-disease]] is mediated by urolithin A's effects on:
 - Endothelial function: Urolithin A restores endothelial nitric oxide synthase (eNOS) activity and improves vasodilation
-- Vascular inflammation: Suppresses NF-κB signaling and reduces pro-inflammatory cytokine production
+- Vascular [[inflammation]]: Suppresses NF-κB signaling and reduces pro-inflammatory cytokine production
 - Arterial stiffness: Improves arterial elasticity and reduces pulse wave velocity in aging cohorts
 - Oxidative stress: Potent mitochondrial antioxidant; restores complex I and III function
 

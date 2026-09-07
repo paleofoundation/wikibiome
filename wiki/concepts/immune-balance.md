@@ -66,7 +66,7 @@ The gut microbiome is the largest immune organ by proxy:
 | [[nickel-allergy]] / SNAS | Th1/Th17 via TLR4 | Ni dietary/contact | Histamine-producing taxa |
 | [[hashimotos-thyroiditis]] | Th1 dominant | Se deficiency, excess I | Molecular mimicry with thyroid peroxidase |
 | [[rheumatoid-arthritis]] | Th17 dominant | Cd, Pb exposure | Prevotella copri enrichment |
-| [[inflammation|Asthma]] | Th2 dominant | Ni aerosol, Cd inhalation | Reduced microbial diversity |
+| Asthma | Th2 dominant | Ni aerosol, Cd inhalation | Reduced microbial diversity |
 | [[depression]] | Neuroinflammation (IL-6, TNF-alpha) | Zn depletion, Cu excess | Coprococcus depletion, IDO activation |
 
 ## The Metal-Microbiome-Immune Triangle
@@ -75,7 +75,7 @@ Metals, microbiome, and immunity form an inseparable triad:
 
 1. Metals shift immune balance directly (Ni → Th1/Th17; Se → Treg)
 2. Metals cause dysbiosis, removing microbial immune modulators
-3. Dysbiosis-driven [[inflammation]] alters metal handling (hepcidin → iron sequestration)
+3. Dysbiosis-driven inflammation alters metal handling (hepcidin → iron sequestration)
 4. Immune activation changes the gut environment, selecting for pathobionts
 
 This triangular feedback means that intervening at any vertex can influence the others -- the rationale for [[probiotics]], [[metal-chelation-therapy]], and nutritional immunology approaches.
@@ -90,7 +90,7 @@ This triangular feedback means that intervening at any vertex can influence the 
 
 ## See Also
 
-- [[inflammation]] -- downstream consequence of immune imbalance
+- inflammation -- downstream consequence of immune imbalance
 - [[nf-kappa-b]] -- master transcription factor in immune activation
 - [[probiotics]] -- microbiome-based immune modulation
 - [[short-chain-fatty-acids]] -- metabolite bridge between microbiome and immunity

@@ -63,7 +63,7 @@ The AIEC-Crohn's connection depends on host genetic defects that create a permis
 ## Ecological Role in Crohn's Disease
 
 - AIEC colonization is found in 21-63% of ileal Crohn's disease patients compared to 0-6% of healthy controls, depending on the study.
-- Drives a pro-inflammatory cascade: TNF-alpha, IL-6, IL-8 production by infected macrophages sustains mucosal inflammation [[haag-2015-intestinal-microbiota-innate-immunity-crohns]].
+- Drives a pro-inflammatory cascade: TNF-alpha, IL-6, IL-8 production by infected macrophages sustains mucosal [[inflammation]] [[haag-2015-intestinal-microbiota-innate-immunity-crohns]].
 - Its expansion correlates with depletion of anti-inflammatory commensals, particularly [[faecalibacterium-prausnitzii]], whose loss removes butyrate-mediated NF-kappaB suppression [[rashed-2022-manipulation-gut-microbiota-crohns]].
 - Synbiotic approaches combining prebiotics with beneficial bacteria have been trialed to competitively exclude AIEC [[steed-2010-synbiotic-crohns-rct]].
 

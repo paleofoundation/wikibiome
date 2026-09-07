@@ -53,7 +53,7 @@ In [[rheumatoid-arthritis]] patients:
 - Strong inverse correlations between vitamin D and metals: VitD-Lead (r=-0.969), VitD-Cd (r=-0.901), VitD-Cr (r=-0.925) [[haddad-2024-heavy-metals-vitamin-d-pth-ra-fibromyalgia]].
 - The metal-VitD-bone axis explains why RA patients have both elevated inflammatory markers and vitamin D deficiency -- the metals drive both.
 
-This connects to the signature narrative: mucosal-primed autoimmune response targets joints, inflammation drives further metal redistribution (ceruloplasmin/Cu elevation), metals interfere with vitamin D activation, VitD deficiency removes the immune tolerance brake, and secondary hyperparathyroidism accelerates bone destruction.
+This connects to the signature narrative: mucosal-primed autoimmune response targets joints, [[inflammation]] drives further metal redistribution (ceruloplasmin/Cu elevation), metals interfere with vitamin D activation, VitD deficiency removes the immune tolerance brake, and secondary hyperparathyroidism accelerates bone destruction.
 
 ## PTH and Metal Metabolism
 

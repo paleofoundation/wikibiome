@@ -24,7 +24,7 @@ The vagus nerve (cranial nerve X) provides the most direct and rapid gut-to-brai
 
 Afferent signaling (gut to brain):
 - Vagal afferent terminals in the gut mucosa and muscularis detect microbial metabolites (SCFAs, indoles), gut hormones (GLP-1, PYY, CCK), and inflammatory signals.
-- SCFAs activate vagal afferents via FFAR2/FFAR3 receptors, signaling satiety and modulating inflammation.
+- SCFAs activate vagal afferents via FFAR2/FFAR3 receptors, signaling satiety and modulating [[inflammation]].
 - Bacterial metabolites that activate vagal afferents include serotonin (produced by enterochromaffin cells stimulated by microbial SCFAs), tryptamine, and GABA.
 - Vagal signals terminate in the nucleus tractus solitarius (NTS) in the brainstem, which relays to the hypothalamus, amygdala, and cortex.
 
@@ -144,7 +144,7 @@ FMT studies in ASD have reported sustained changes in gut microbiome composition
 - [[gut-metal-microbiome]] -- the foundational concept for metal-microbiome interactions
 - [[ferroptosis]] -- convergent cell death mechanism in the gut-brain-ferroptosis axis
 - dysbiosis -- metal-induced dysbiosis disrupts gut-brain communication
-- [[inflammation]] -- systemic inflammation bridges gut and brain pathology
+- inflammation -- systemic inflammation bridges gut and brain pathology
 - [[neuroinflammation]] -- microglial activation as the CNS endpoint of gut-derived signals
 - [[nf-kappa-b]] -- LPS/TLR4 pathway activates central neuroinflammation
 - [[blood-brain-barrier]] -- cytokines and metabolites must cross the BBB to affect the brain

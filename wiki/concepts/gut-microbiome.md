@@ -114,7 +114,7 @@ The iron paradox: Iron deficiency reduces Lactobacillus and promotes Bacteroidet
 
 ## Dysbiosis
 
-When the microbiome's composition or function is disrupted by metals, antibiotics, diet, infection, age, or other stressors, the result is dysbiosis: loss of diversity, loss of SCFA production, barrier breakdown, endotoxemia, and systemic inflammation. Key features of dysbiotic communities across diseases:
+When the microbiome's composition or function is disrupted by metals, antibiotics, diet, infection, age, or other stressors, the result is dysbiosis: loss of diversity, loss of SCFA production, barrier breakdown, endotoxemia, and systemic [[inflammation]]. Key features of dysbiotic communities across diseases:
 
 - Proteobacteria bloom: Expansion of facultative aerobes — *E. coli*, *Klebsiella*, *Enterobacter*, *Proteus* — from < 1% to 10–50% of the community
 - F/B ratio shifts: Reduction in Firmicutes (specifically SCFA producers) relative to Bacteroidetes; in severe dysbiosis, both Firmicutes and Bacteroidetes decline as Proteobacteria dominate

@@ -142,7 +142,7 @@ Se (200 ug/day) combined with vitamin D and methimazole represents the best-stud
 
 ### Gluten-Free Diet -- Cautionary Evidence
 
-[[rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis]] found that GFD significantly altered the microbiome in autoimmune thyroiditis after 4 weeks, but the changes (increased *Desulfobacterota* and *Proteobacteria*; decreased *Bifidobacterium*) may indicate increasing inflammation rather than improvement. No significant changes in thyroid function markers were observed after 8 weeks.
+[[rodziewicz-2024-gluten-free-diet-microbiome-autoimmune-thyroiditis]] found that GFD significantly altered the microbiome in autoimmune thyroiditis after 4 weeks, but the changes (increased *Desulfobacterota* and *Proteobacteria*; decreased *Bifidobacterium*) may indicate increasing [[inflammation]] rather than improvement. No significant changes in thyroid function markers were observed after 8 weeks.
 
 ### Fish and Mercury Balance
 

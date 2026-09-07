@@ -57,7 +57,7 @@ Metabolic endotoxemia is documented across:
 
 - [[lipopolysaccharide]] — the endotoxin molecule
 - [[intestinal-permeability]] — barrier failure enabling translocation
-- [[inflammation]] — downstream systemic consequence
+- inflammation — downstream systemic consequence
 - [[nf-kappa-b]] — signaling pathway activated by LPS/TLR4
 - [[interleukin-6]] — key cytokine in endotoxemia-driven inflammation
 - dysbiosis — microbial imbalance increasing luminal LPS

@@ -93,7 +93,7 @@ The Pendergrass framework proposes a seven-step causal pathway from agricultural
 - [[nickel-allergy]] -- 59.7% prevalence in overweight women; low-Ni diet produces dramatic weight loss
 - [[low-nickel-diet]] -- normocaloric intervention producing BMI reduction of 4.2 without caloric restriction
 - [[tmao]] -- elevated in obesity; contributes to CVD comorbidity
-- [[inflammation]] -- adipose tissue inflammation driven by LPS translocation and metal exposure
+- inflammation -- adipose tissue inflammation driven by LPS translocation and metal exposure
 - [[metalloestrogens]] -- nickel and cadmium mimic estrogen signaling, promoting adiposity
 - [[cardiovascular-disease]] -- obesity is a major CVD risk factor; shared microbiome mechanisms
 - [[type-2-diabetes]] -- obesity-T2D continuum; shared insulin resistance and dysbiosis pathways

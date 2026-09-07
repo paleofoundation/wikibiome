@@ -79,7 +79,7 @@ Depletion of health-associated taxa reported under the Clostridiales label recur
 The Clostridiales Vadin BB60 group is causally protective against GERD (OR = 0.95, 95% CI 0.91-0.99, p = 0.027) [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]]. This subgroup's SCFA production likely strengthens esophageal and gastric mucosal defense.
 
 ### Cardiovascular Disease (Depleted)
-ACVD patients show depleted butyrate-producing Clostridiales including [[roseburia]] and [[faecalibacterium-prausnitzii|faecalibacterium]], contributing to barrier dysfunction, endotoxemia, and vascular inflammation.
+ACVD patients show depleted butyrate-producing Clostridiales including [[roseburia]] and [[faecalibacterium-prausnitzii|faecalibacterium]], contributing to barrier dysfunction, endotoxemia, and vascular [[inflammation]].
 
 ### Crohn's Disease (Depleted)
 Clostridium clusters IV and XIVa are consistently depleted in CD, representing the loss of key butyrate producers and Treg inducers.

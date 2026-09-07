@@ -34,7 +34,7 @@ The proposed gut-PMS axis operates through:
 
 2. Serotonin metabolism: The gut produces >90% of the body's [[serotonin]]. Dysbiotic communities that divert tryptophan toward [[kynurenine]] rather than serotonin may worsen PMS-related mood symptoms, paralleling the mechanism in [[pmdd]].
 
-3. SCFA-mediated immune regulation: Luteal phase inflammation is influenced by SCFA availability. Depletion of butyrate-producing bacteria may amplify the inflammatory component of PMS.
+3. SCFA-mediated immune regulation: Luteal phase [[inflammation]] is influenced by SCFA availability. Depletion of butyrate-producing bacteria may amplify the inflammatory component of PMS.
 
 4. Magnesium absorption: Gut dysbiosis can impair magnesium absorption. Mg depletion is documented in premenstrual disorders, and Mg serves as an NMDA receptor antagonist and cofactor for serotonin synthesis.
 

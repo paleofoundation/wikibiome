@@ -56,7 +56,7 @@ Iron:
 The mechanism linking *Intestinimonas* to Hashimoto's thyroiditis is not yet established, but possibilities include:
 - Molecular mimicry: bacterial antigens cross-reacting with thyroid antigens
 - Metabolite-driven immune dysregulation: butyrate from lysine fermentation may have different immunological effects than fiber-derived butyrate
-- LPS-mediated thyroid inflammation
+- LPS-mediated thyroid [[inflammation]]
 
 ## Conditions Associated
 

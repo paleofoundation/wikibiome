@@ -79,7 +79,7 @@ A Gram-negative obligate anaerobe that occupies a unique context-dependent niche
 
 The *P. copri*-dominant [[dysbiosis]] in RA involves:
 
-1. Iron elevation (from bleeding joints and systemic inflammation).
+1. Iron elevation (from bleeding joints and systemic [[inflammation]]).
 2. Zinc depletion (sequestered by [[calprotectin]] in inflamed joints; lost in feces).
 3. Reduced barrier colonizers [[faecalibacterium-prausnitzii]], [[akkermansia-muciniphila]].
 4. Reduced diversity overall, with *P. copri* as the dominant or co-dominant genus.

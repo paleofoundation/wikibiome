@@ -71,7 +71,7 @@ TMAO is the canonical example of a microbiome-derived metabolite that causes dis
 Cardiovascular mechanisms [[zhang-2025-gut-microbiota-cvd-mini-review]]:
 - TMAO promotes foam cell formation in arterial walls (accelerates atherosclerosis)
 - Enhances platelet hyperreactivity — increases cardiovascular event risk independent of cholesterol levels
-- Induces endothelial dysfunction — reduces nitric oxide bioavailability and promotes vascular inflammation
+- Induces endothelial dysfunction — reduces nitric oxide bioavailability and promotes vascular [[inflammation]]
 - Stimulates macrophage cholesterol uptake — the cellular mechanism of plaque formation
 
 Primary TMAO-producing bacteria include *Prevotella*, *Hungatella*, and certain *Clostridiales*. TMAO production is microbiome-dependent: germ-free animals eating a high-choline diet do not develop elevated TMAO or accelerated atherosclerosis.
@@ -128,6 +128,6 @@ The metallomic view of microbiome-derived metabolites reveals a systematic patte
 - [[tmao]] — cardiovascular risk metabolite; choline/carnitine → TMA → TMAO
 - [[gut-brain-axis]] — the route by which gut metabolites affect neurotransmission and neuroinflammation
 - dysbiosis — metabolite profile shifts are the functional readout of dysbiotic community changes
-- [[inflammation]] — metabolites mediate anti- (butyrate, indoles) and pro-inflammatory (TMAO, LPS) signaling
+- inflammation — metabolites mediate anti- (butyrate, indoles) and pro-inflammatory (TMAO, LPS) signaling
 - [[gut-metal-microbiome]] — metal exposure reshapes the organisms that produce each metabolite class
 - [[nutritional-immunity]] — metabolite signals help calibrate host metal sequestration responses

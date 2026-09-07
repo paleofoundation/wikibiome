@@ -27,7 +27,7 @@ Depression is the most prevalent mental health disorder globally, affecting over
 ### Zinc -- The Antidepressant Metal
 The most robust metal-depression association. Serum zinc is consistently lower in depressed patients, with severity correlating inversely with zinc levels [[althomali-2024-heavy-metals-neurocognitive-systematic-review]]:
 - Zinc is required for NMDA receptor modulation, BDNF expression, and synaptic plasticity
-- Zinc deficiency increases [[inflammation]] (IL-6, TNF-alpha) and [[oxidative-stress]] [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
+- Zinc deficiency increases inflammation (IL-6, TNF-alpha) and [[oxidative-stress]] [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]]
 - Multiple RCTs have evaluated zinc as SSRI augmentation, with modest effects most pronounced in zinc-deficient populations.
 - Zinc also supports [[immune-balance]] (Treg function) and [[intestinal-permeability]] ([[tight-junctions|tight junction]] integrity)
 
@@ -43,7 +43,7 @@ Iron deficiency (with or without anemia) is a major contributor to depression, p
 - Iron is required for tryptophan hydroxylase (serotonin synthesis) and tyrosine hydroxylase (dopamine synthesis)
 - Ferritin levels below 30 ng/mL associate with depressive symptoms even without frank anemia
 - Iron overload (hemochromatosis) also associates with depression -- the U-shaped relationship
-- Hepcidin elevation from chronic [[inflammation]] sequesters iron, creating functional deficiency even with adequate stores
+- Hepcidin elevation from chronic inflammation sequesters iron, creating functional deficiency even with adequate stores
 
 ### Toxic Metals
 - Lead -- childhood lead exposure predicts adult depression [[ogundare-2024-metals-behavioral-factors-depression-women]]; Pb disrupts dopaminergic and serotonergic neurotransmission, impairs BDNF signaling, and causes epigenetic changes in stress-response genes [[jaishankar-2014-heavy-metal-toxicity-mechanisms]]
@@ -61,14 +61,14 @@ Depression is increasingly recognized as a gut-brain disorder:
 
 ### Tryptophan Shunting
 The IDO (indoleamine 2,3-dioxygenase) pathway is central:
-- [[inflammation]] (IFN-gamma, TNF-alpha) upregulates IDO in macrophages and microglia
+- inflammation (IFN-gamma, TNF-alpha) upregulates IDO in macrophages and microglia
 - IDO diverts tryptophan from serotonin synthesis → kynurenine pathway; depressed patients show significantly elevated kynurenine/tryptophan ratio (p = 0.008) versus controls [[capuco-2020-gut-microbiome-dysbiosis-depression-review]]
 - Kynurenine → quinolinic acid (neurotoxic NMDA agonist) vs. kynurenic acid (neuroprotective)
 - Metal-driven inflammation biases toward the neurotoxic branch
 - The microbiome further modulates tryptophan availability (bacterial tryptophanase, indole production) [[zhu-2025-microbiota-gut-brain-axis-depression-review]]
 
 ### Intestinal Permeability
-Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic [[inflammation]] → neuroinflammation [[gao-2023-microglia-neurodegenerative-diseases]]. This "leaky gut" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects.
+Increased [[intestinal-permeability]] in depression permits LPS translocation → TLR4 activation → systemic inflammation → neuroinflammation [[gao-2023-microglia-neurodegenerative-diseases]]. This "leaky gut" pathway explains why peripheral inflammation markers (CRP, IL-6) predict depression and why anti-inflammatory interventions have antidepressant effects.
 
 ## Comorbidity Web
 
@@ -100,7 +100,7 @@ Depression co-occurs with virtually every disease in this wiki, amplified by sha
 - [[gut-brain-axis]] -- bidirectional vagal, endocrine, and immune communication linking gut dysbiosis to mood
 - [[tryptophan-metabolism]] -- IDO-mediated shunting from serotonin to neurotoxic kynurenine metabolites
 - dysbiosis -- depletion of butyrate producers and enrichment of pro-inflammatory taxa
-- [[inflammation]] -- peripheral and central inflammation converge on depression via IL-6, TNF-alpha, CRP
+- inflammation -- peripheral and central inflammation converge on depression via IL-6, TNF-alpha, CRP
 - [[neuroinflammation]] -- microglial activation, kynurenine pathway, and BBB disruption
 - [[short-chain-fatty-acids]] -- butyrate depletion weakens barrier function and reduces anti-inflammatory signaling
 - [[coprococcus]] -- consistently depleted genus in depression; butyrate producer with DOPAC synthesis capacity

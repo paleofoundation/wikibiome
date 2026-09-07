@@ -48,7 +48,7 @@ Lead depletes GSH, SOD, CAT, and GPx while increasing lipid peroxidation (MDA) a
 
 ### Zinc Displacement
 
-Lead competes with zinc for protein binding sites, effectively creating functional zinc deficiency. This is proposed as a unifying mechanism in autism spectrum disorder, where toxic metals reduce zinc bioavailability by competing for protein binding sites, producing overlapping gut pathologies including barrier dysfunction, increased permeability, inflammation, and dysbiosis [[ogrady-2025-metal-dyshomeostasis-asd]], [[blazewicz-2023-metal-profiles-asd]], [[stanton-2021-metallome-omes-link-asd]].
+Lead competes with zinc for protein binding sites, effectively creating functional zinc deficiency. This is proposed as a unifying mechanism in autism spectrum disorder, where toxic metals reduce zinc bioavailability by competing for protein binding sites, producing overlapping gut pathologies including barrier dysfunction, increased permeability, [[inflammation]], and dysbiosis [[ogrady-2025-metal-dyshomeostasis-asd]], [[blazewicz-2023-metal-profiles-asd]], [[stanton-2021-metallome-omes-link-asd]].
 
 ### Epigenetic Modification
 

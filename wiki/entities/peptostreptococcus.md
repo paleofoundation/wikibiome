@@ -32,7 +32,7 @@ A Gram-positive, obligate anaerobic genus that has emerged as one of the most co
 
 - Cholesterol biosynthesis: *P. anaerobius* activates cholesterol biosynthesis pathways in colonic epithelial cells, promoting cell proliferation [[hanus-2021-immune-microbiota-metabolites-crc-triad]]. This connects to the broader observation that altered lipid metabolism characterizes CRC progression.
 - ROS generation: Induces reactive oxygen species in host cells, contributing to DNA damage, genomic instability, and mutagenesis -- hallmarks of carcinogenesis [[hanus-2021-immune-microbiota-metabolites-crc-triad]] [[norouzi-beirami-2020-functional-microbiome-crc]].
-- NF-kB activation: Triggers [[nf-kappa-b]] signaling in colonic epithelial and immune cells, driving chronic inflammation that supports tumor initiation and progression [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
+- NF-kB activation: Triggers [[nf-kappa-b]] signaling in colonic epithelial and immune cells, driving chronic [[inflammation]] that supports tumor initiation and progression [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 - Immune modulation: Promotes a pro-tumor immune microenvironment by recruiting myeloid-derived suppressor cells (MDSCs) and polarizing tumor-associated macrophages [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]].
 
 ## Disease Associations
@@ -68,6 +68,6 @@ A Gram-positive, obligate anaerobic genus that has emerged as one of the most co
 - [[iron]] -- iron-dependent growth; benefits from iron-rich tumor microenvironment
 - [[nf-kappa-b]] -- activates NF-kB pro-inflammatory signaling in CRC
 - [[oxidative-stress]] -- ROS generation contributes to genomic instability
-- [[inflammation]] -- chronic inflammation driver via NF-kB and immune cell recruitment
+- inflammation -- chronic inflammation driver via NF-kB and immune cell recruitment
 - [[escherichia-coli]] -- pks+ E. coli is a fellow CRC-promoting pathobiont
 - [[dysbiosis]] -- expansion reflects cancer-associated dysbiotic state

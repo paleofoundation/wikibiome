@@ -26,7 +26,7 @@ Arachidonic acid (AA) is a 20-carbon omega-6 polyunsaturated fatty acid (20:4n-6
 ## Microbiome Connection
 
 - COX-2/NF-kB axis: Metal-driven NF-kB activation upregulates COX-2, increasing arachidonic acid conversion to pro-inflammatory prostaglandin E2 (PGE2) — the same pathway activated by microbial LPS via TLR4 [[mermans-2019-nsaids-gut-microbiome-chronic-inflammation]].
-- NSAIDs and microbiome: NSAIDs (COX inhibitors blocking AA metabolism) cause gut microbiome disruption and intestinal injury, paradoxically increasing [[dysbiosis]] while reducing inflammation [[mermans-2019-nsaids-gut-microbiome-chronic-inflammation]].
+- NSAIDs and microbiome: NSAIDs (COX inhibitors blocking AA metabolism) cause gut microbiome disruption and intestinal injury, paradoxically increasing [[dysbiosis]] while reducing [[inflammation]] [[mermans-2019-nsaids-gut-microbiome-chronic-inflammation]].
 - Endometriosis metabolomics: Altered arachidonic acid levels in fecal metabolomics of endometriosis models [[ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice]].
 - Diabetic ED: Fatty acid profiles including AA altered in diabetic erectile dysfunction [[ben-khedher-2017-fatty-acids-diabetic-erectile-dysfunction]].
 
@@ -36,7 +36,7 @@ Arachidonic acid is also the precursor for lipoxins — pro-resolving mediators 
 
 ## Cross-References
 
-- [[inflammation]] — AA/COX-2 as pro-inflammatory pathway
+- inflammation — AA/COX-2 as pro-inflammatory pathway
 - [[omega-3-fatty-acids]] — anti-inflammatory counterbalance to AA
 - [[lipid-metabolism]] — broader lipid context
 - [[lipid-peroxidation]] — AA as substrate for oxidative damage

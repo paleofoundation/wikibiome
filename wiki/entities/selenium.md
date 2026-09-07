@@ -162,7 +162,7 @@ Selenium depletion is one of the most consistent findings across cancer metallom
 
 - In a Greek cross-sectional study (76 CD + 39 UC + 38 HC), plasma selenium was significantly lower in both Crohn's disease (50 ug/L) and ulcerative colitis (44 ug/L) compared to healthy controls (77 ug/L, p=0.009) [[amerikanou-2022-ibd-biomarkers-trace-metals]].
 - Manganese, zinc, and strontium were also depleted in IBD, while nickel was elevated in active Crohn's disease [[amerikanou-2022-ibd-biomarkers-trace-metals]].
-- The selenium depletion in IBD parallels findings across autoimmune conditions and may reflect both malabsorption from inflamed gut epithelium and increased antioxidant demand from chronic inflammation.
+- The selenium depletion in IBD parallels findings across autoimmune conditions and may reflect both malabsorption from inflamed gut epithelium and increased antioxidant demand from chronic [[inflammation]].
 
 ### Neurodegeneration
 

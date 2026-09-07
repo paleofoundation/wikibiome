@@ -42,7 +42,7 @@ For species-level detail, see [[klebsiella-pneumoniae]].
 
 ## Dysbiosis Bloom
 
-Klebsiella expansion is part of the characteristic Enterobacteriaceae bloom during inflammation:
+Klebsiella expansion is part of the characteristic Enterobacteriaceae bloom during [[inflammation]]:
 - IBD: Enriched alongside E. coli in both Crohn's and UC [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]] [[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]].
 - NEC: Enriched in preterm infant gut before NEC onset; nickel in formula may fuel expansion [[pendergrass-2026-nickel-nec-preterm-gut]].
 - CKD: Part of uremic toxin-producing Enterobacteriaceae enrichment [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]].

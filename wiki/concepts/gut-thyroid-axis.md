@@ -16,7 +16,7 @@ platform: wikibiome
 
 ## Overview
 
-The gut-thyroid axis describes the bidirectional communication between the gut microbiome and the thyroid gland. The thyroid regulates metabolism, energy homeostasis, and immune function -- and the microbiome influences thyroid physiology at every level: mineral absorption (iodine, selenium, zinc, iron), immune tolerance (molecular mimicry, Treg induction), hormone metabolism (deiodinase activity, enterohepatic recirculation), and systemic inflammation (LPS-driven thyroiditis).
+The gut-thyroid axis describes the bidirectional communication between the gut microbiome and the thyroid gland. The thyroid regulates metabolism, energy homeostasis, and immune function -- and the microbiome influences thyroid physiology at every level: mineral absorption (iodine, selenium, zinc, iron), immune tolerance (molecular mimicry, Treg induction), hormone metabolism (deiodinase activity, enterohepatic recirculation), and systemic [[inflammation]] (LPS-driven thyroiditis).
 
 This axis is particularly important because autoimmune thyroid diseases -- [[hashimotos-thyroiditis]] and [[graves-disease]] -- are among the most common autoimmune conditions globally, and both show consistent microbiome signatures that go beyond coincidental association.
 

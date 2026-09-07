@@ -39,7 +39,7 @@ The most extensively referenced missing concept in this wiki. SCFAs -- acetate (
 ## Epigenetic Mechanism: HDAC Inhibition
 
 Butyrate is the most potent SCFA inhibitor of histone deacetylases (HDACs), particularly class I and II. This produces broad anti-inflammatory and anti-proliferative effects:
-- Upregulates Foxp3 expression, driving naive T cell differentiation into regulatory T cells (Tregs) that suppress autoimmunity and inflammation.
+- Upregulates Foxp3 expression, driving naive T cell differentiation into regulatory T cells (Tregs) that suppress autoimmunity and [[inflammation]].
 - Inhibits NF-kB activation in macrophages, reducing TNF-alpha and IL-6 production.
 - Promotes expression of [[tight-junctions|tight junction]] proteins (claudins, occludin, ZO-1) in colonocytes.
 - Inhibits cancer cell proliferation and induces apoptosis -- the basis of butyrate's protective role against [[colorectal-cancer]].
@@ -66,7 +66,7 @@ This is the most critical metal connection in the wiki:
 2. SCFA depletion compromises gut barrier integrity (reduced butyrate for colonocytes, reduced tight junction expression).
 3. Barrier failure increases paracellular permeability to bacterial LPS, food antigens, AND the metals themselves.
 4. Increased metal absorption further damages SCFA producers, completing the vicious cycle.
-5. Systemic consequences: LPS translocation activates [[inflammation]] via TLR4/[[nf-kappa-b]]; reduced Treg induction permits autoimmunity; loss of colonocyte energy shifts metabolism.
+5. Systemic consequences: LPS translocation activates inflammation via TLR4/[[nf-kappa-b]]; reduced Treg induction permits autoimmunity; loss of colonocyte energy shifts metabolism.
 
 This cycle operates in virtually every disease in the wiki -- from [[inflammatory-bowel-disease]] and [[cardiovascular-disease]] to [[alzheimers-disease]], [[parkinsons-disease]], [[autism-spectrum-disorder]], and [[obesity]].
 
@@ -87,7 +87,7 @@ SCFAs regulate blood pressure through opposing receptor systems:
 
 - [[gut-metal-microbiome]] -- the ecosystem where metal-driven SCFA depletion occurs
 - dysbiosis -- loss of SCFA producers is the functional consequence of dysbiosis
-- [[inflammation]] -- SCFA depletion removes anti-inflammatory brake (Tregs, HDAC inhibition)
+- inflammation -- SCFA depletion removes anti-inflammatory brake (Tregs, HDAC inhibition)
 - [[gut-brain-axis]] -- SCFAs are key mediators of gut-to-brain signaling
 - [[ferroptosis]] -- butyrate depletion contributes to the gut-barrier failure arm of the ferroptosis cascade
 - [[faecalibacterium-prausnitzii]], [[bifidobacterium]], [[blautia]] -- primary SCFA producers

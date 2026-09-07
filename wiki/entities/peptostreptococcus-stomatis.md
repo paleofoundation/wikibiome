@@ -121,7 +121,7 @@ This stage-specific enrichment pattern suggests *P. stomatis* accelerates the ad
 *P. stomatis* follows the same oral-colorectal axis as *[[parvimonas-micra]]*:
 
 1. Oral origin: Normal oral microbiota; enriched in periodontal disease.
-2. Periodontitis → intestinal [[dysbiosis]]: Periodontal pathogens (including *P. stomatis*) → chronic inflammation → intestinal barrier disruption.
+2. Periodontitis → intestinal [[dysbiosis]]: Periodontal pathogens (including *P. stomatis*) → chronic [[inflammation]] → intestinal barrier disruption.
 3. Translocation: Leaky gut → bacteremia → fecal reseeding → colon recolonization.
 4. Biofilm integration: In dysbiotic colon, *P. stomatis* integrates into polymicrobial CRC biofilms:
 
@@ -199,7 +199,7 @@ Note: *P. stomatis* is likely a heterogeneous genus. Not all *Peptostreptococcus
 - [[iron]] – Required for growth; iron-dependent; no siderophores produced
 -  – Originates in oral cavity; translocates to colon
 -  – Enriched in periodontal disease; periodontal disease correlates with CRC risk
-- [[inflammation]] – Colibactin-induced DSBs trigger TLR9/cGAS-STING; Th17 polarization
+- inflammation – Colibactin-induced DSBs trigger TLR9/cGAS-STING; Th17 polarization
 - [[biofilm]] – Integrates into polymicrobial CRC biofilms (nucleated by *[[parvimonas-micra]]*); does not form independent biofilms
 - [[parvimonas-micra]] – Biofilm partner; nucleates structure that houses *P. stomatis*
 - [[fusobacterium-nucleatum]] – Biofilm partner; FadA invasin facilitates colibactin epithelial penetration

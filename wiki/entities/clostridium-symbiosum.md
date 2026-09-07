@@ -23,7 +23,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Clostridium symbiosum
 
-Clostridium symbiosum is a Gram-positive, obligately anaerobic bacterium within the Clostridium cluster XIVa — a taxonomic group enriched for short-chain fatty acid (SCFA) producers and specialized bile acid metabolizers. Despite its ambiguous name (suggesting symbiotic commensal status), *C. symbiosum* is dramatically enriched in colorectal cancer (CRC) across multiple studies of both young-onset and older-onset CRC patients ([[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]]; [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]), making it a core member of the oncogenic dysbiotic consortium alongside [[fusobacterium-nucleatum]], [[bacteroides-fragilis]], and [[parvimonas-micra]] ([[zhang-2025-gut-virome-premalignant-colorectal-adenoma]]). Its primary pathogenic role in CRC is secondary bile acid (DCA, LCA) production and conversion of primary bile acids into carcinogenic metabolites that promote colorectal epithelial inflammation and malignant transformation.
+Clostridium symbiosum is a Gram-positive, obligately anaerobic bacterium within the Clostridium cluster XIVa — a taxonomic group enriched for short-chain fatty acid (SCFA) producers and specialized bile acid metabolizers. Despite its ambiguous name (suggesting symbiotic commensal status), *C. symbiosum* is dramatically enriched in colorectal cancer (CRC) across multiple studies of both young-onset and older-onset CRC patients ([[qin-2024-consistent-microbiome-signatures-old-young-onset-crc]]; [[zou-2024-multi-omic-microbiome-genome-transcriptome-crc]]), making it a core member of the oncogenic dysbiotic consortium alongside [[fusobacterium-nucleatum]], [[bacteroides-fragilis]], and [[parvimonas-micra]] ([[zhang-2025-gut-virome-premalignant-colorectal-adenoma]]). Its primary pathogenic role in CRC is secondary bile acid (DCA, LCA) production and conversion of primary bile acids into carcinogenic metabolites that promote colorectal epithelial [[inflammation]] and malignant transformation.
 
 ## Taxonomy and Basic Properties
 
@@ -164,7 +164,7 @@ This is a critical distinction: *C. symbiosum* in a healthy, diverse microbiome 
 -  – Minor secondary bile acid produced by *C. symbiosum*
 - [[iron]] – Absolute requirement; iron supplementation selectively enriches *C. symbiosum*
 - [[hepcidin]] – Host iron-withholding defense; suppresses *C. symbiosum*
-- [[inflammation]] – DCA/LCA-driven chronic inflammation; NF-κB activation
+- inflammation – DCA/LCA-driven chronic inflammation; NF-κB activation
 - [[colorectal-cancer]] – Dramatically enriched in CRC; core driver taxon; member of oncogenic consortium
 - dysbiosis – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
 - [[faecalibacterium-prausnitzii]] – Inverse relationship; *F. prausnitzii* suppression allows *C. symbiosum* expansion

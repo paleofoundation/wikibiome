@@ -45,7 +45,7 @@ Culture-independent studies have revealed that PID-associated microbiomes are en
 
 ## Metal Associations
 
-Iron availability in the upper reproductive tract increases during menstruation and inflammation, potentially facilitating pathogen expansion. Organisms implicated in PID — particularly Prevotella and Gardnerella — possess iron acquisition systems that exploit this iron-rich environment. Zinc deficiency has been associated with increased PID susceptibility through impaired local immune function.
+Iron availability in the upper reproductive tract increases during menstruation and [[inflammation]], potentially facilitating pathogen expansion. Organisms implicated in PID — particularly Prevotella and Gardnerella — possess iron acquisition systems that exploit this iron-rich environment. Zinc deficiency has been associated with increased PID susceptibility through impaired local immune function.
 
 ## Associated Conditions
 

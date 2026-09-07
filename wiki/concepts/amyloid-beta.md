@@ -112,6 +112,6 @@ A notably specific connection: a nickel chelator (DMG-H) was shown to inhibit am
 - [[neuroinflammation]] — the chronic inflammatory state that drives BACE1 upregulation and Aβ overproduction
 - [[blood-brain-barrier]] — barrier failure allows LPS and microbial amyloids to reach the brain
 - [[nutritional-immunity]] — normal Aβ antimicrobial function fits the nutritional immunity framework
-- [[helicobacter-pylori]] — enriched in AD signatures; triggers mucosal inflammation that reaches brain
+- [[helicobacter-pylori]] — enriched in AD signatures; triggers mucosal [[inflammation]] that reaches brain
 - dysbiosis — the upstream disruption that initiates chronic Aβ overproduction
 - [[alpha-synuclein]] — parallel proteinopathy with overlapping metal and microbiome interactions

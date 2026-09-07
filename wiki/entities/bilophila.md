@@ -20,7 +20,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Bilophila
 
-*Bilophila wadsworthia* is a Gram-negative, obligate anaerobic, sulfite-reducing bacterium that has emerged as a key pathobiont linking high-fat diets, taurine metabolism, hydrogen sulfide production, and inflammatory disease. Its unique metabolic niche -- using taurine-conjugated bile acids as an electron acceptor -- positions it at the intersection of dietary fat intake, [[bile-acid-metabolism]], and gut inflammation.
+*Bilophila wadsworthia* is a Gram-negative, obligate anaerobic, sulfite-reducing bacterium that has emerged as a key pathobiont linking high-fat diets, taurine metabolism, hydrogen sulfide production, and inflammatory disease. Its unique metabolic niche -- using taurine-conjugated bile acids as an electron acceptor -- positions it at the intersection of dietary fat intake, [[bile-acid-metabolism]], and gut [[inflammation]].
 
 ## Metabolic Specialization
 
@@ -46,7 +46,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 ### Multiple Sclerosis
 - Enriched in MS progressors (patients with worsening disability) and significantly stratifies disease progression risk in Kaplan-Meier analysis [[montgomery-2024-microbiota-signatures-ms-progression]].
-- As a sulfate-reducing bacterium producing H2S, it may drive [[oxidative-stress]] and [[inflammation]] in the [[gut-brain-axis]].
+- As a sulfate-reducing bacterium producing H2S, it may drive [[oxidative-stress]] and inflammation in the [[gut-brain-axis]].
 - May thrive in metal-rich environments, connecting MS progression to environmental metal exposure.
 
 ### Cardiovascular Disease

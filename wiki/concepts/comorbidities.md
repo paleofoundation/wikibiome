@@ -37,7 +37,7 @@ dysbiosis is the common denominator linking disparate diseases:
 
 ### IBD and CVD
 - IBD patients have 20-25% increased risk of ischemic heart disease and stroke.
-- Shared mechanisms: chronic [[inflammation]], elevated [[tmao]], reduced SCFA production, gut barrier dysfunction allowing bacterial translocation.
+- Shared mechanisms: chronic inflammation, elevated [[tmao]], reduced SCFA production, gut barrier dysfunction allowing bacterial translocation.
 - Fecal [[calprotectin]] (IBD marker) correlates with cardiovascular risk markers.
 
 ### PCOS, T2D, and CVD
@@ -74,7 +74,7 @@ This framework predicts that interventions targeting the shared mediator (microb
 
 - [[metabolic-syndrome]] -- the prototypical comorbidity cluster
 - dysbiosis -- shared microbial mediator
-- [[inflammation]] -- shared pathological mechanism
+- inflammation -- shared pathological mechanism
 - [[gut-brain-axis]] -- mediator of neuro-metabolic comorbidity
 
 ## Key Sources

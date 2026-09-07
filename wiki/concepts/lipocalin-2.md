@@ -41,7 +41,7 @@ Expression control: Lipocalin-2 is an acute-phase reactant — expression is ind
 
 ## Role in Disease
 
-Elevated fecal lipocalin-2 is a key biomarker of intestinal inflammation and pathogenic bacterial dominance:
+Elevated fecal lipocalin-2 is a key biomarker of intestinal [[inflammation]] and pathogenic bacterial dominance:
 
 - [[crohns-disease]]: Markedly elevated in active inflammation; indicates [[escherichia-coli|AIEC]]-dominant signatures and nutritional immunity activation
 - [[colorectal-cancer]]: Elevated in dysplastic lesions and tumor microenvironment; associated with Gram-negative pathobiont dominance

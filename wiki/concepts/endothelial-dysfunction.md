@@ -22,7 +22,7 @@ karen_brain_primitives: [1, 2, 5]
 
 ## Overview
 
-Endothelial dysfunction is the impairment of the vascular endothelium's ability to produce nitric oxide (NO), regulate vascular tone, and prevent thrombosis. It is the earliest detectable stage of atherosclerosis and the mechanistic link between gut [[dysbiosis]], systemic inflammation, and cardiovascular/erectile disease. In the WikiBiome framework, endothelial dysfunction is where [[endotoxemia]], [[tmao|TMAO]], metal-driven [[oxidative-stress]], and microbiome disruption converge on the vasculature.
+Endothelial dysfunction is the impairment of the vascular endothelium's ability to produce nitric oxide (NO), regulate vascular tone, and prevent thrombosis. It is the earliest detectable stage of atherosclerosis and the mechanistic link between gut [[dysbiosis]], systemic [[inflammation]], and cardiovascular/erectile disease. In the WikiBiome framework, endothelial dysfunction is where [[endotoxemia]], [[tmao|TMAO]], metal-driven [[oxidative-stress]], and microbiome disruption converge on the vasculature.
 
 ## Microbiome Drivers
 

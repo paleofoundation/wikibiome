@@ -16,7 +16,7 @@ platform: wikibiome
 
 The primary intracellular iron storage protein, capable of sequestering up to 4,500 iron atoms in a single molecule as a mineralized ferric oxyhydroxide core. Ferritin is one of the most elegant solutions evolution has produced for the iron paradox: iron is essential for life but toxic when free. By encapsulating iron in a protein shell, ferritin simultaneously keeps iron available for metabolic needs and prevents it from participating in [[fenton-chemistry]].
 
-Ferritin is also an acute-phase reactant, which creates the same interpretive challenge seen with [[ceruloplasmin]]: elevated serum ferritin in disease may reflect iron overload, inflammation, or both.
+Ferritin is also an acute-phase reactant, which creates the same interpretive challenge seen with [[ceruloplasmin]]: elevated serum ferritin in disease may reflect iron overload, [[inflammation]], or both.
 
 ## Structure and Function
 

@@ -66,7 +66,7 @@ A Gram-negative obligate anaerobe that exemplifies the commensal-pathobiont spec
 
 ### Zinc Sequestration and Dysbiosis
 
-- In inflamed tissue (CRC, depressive episodes with increased intestinal permeability), calprotectin elevation sequesters zinc at inflammation sites.
+- In inflamed tissue (CRC, depressive episodes with increased intestinal permeability), calprotectin elevation sequesters zinc at [[inflammation]] sites.
 - This simultaneously:
  1. Protects the host by restricting zinc to pathobiont-damaging levels.
  2. Selects for *B. vulgatus* if it has zinc-uptake mechanisms that bypass calprotectin sequestration.

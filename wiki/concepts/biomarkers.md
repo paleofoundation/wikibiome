@@ -21,7 +21,7 @@ Measurable indicators of biological state, exposure, or disease. In the metallom
 ### Blood
 - Blood lead level (BLL): Standard for Pb exposure; reflects recent/ongoing exposure (half-life ~30 days in blood). No safe threshold established.
 - Blood Hg: Total and speciated (methyl vs. inorganic); reflects recent fish consumption and chronic exposure.
-- Serum Zn, Cu, Fe: Reflect circulating levels but are confounded by inflammation (acute-phase responses alter Cu and Fe distribution).
+- Serum Zn, Cu, Fe: Reflect circulating levels but are confounded by [[inflammation]] (acute-phase responses alter Cu and Fe distribution).
 - Ceruloplasmin: Copper-containing acute-phase protein; elevated in inflammation, low in Wilson's disease.
 
 ### Urine

@@ -56,7 +56,7 @@ Nickel acquisition:
 
 H. pylori-associated gastric disease:
 
-- [[gastric-ulcer]]: H. pylori colonization → urease-driven ammonia → local pH buffering → epithelial invasion and inflammation → ulcer formation
+- [[gastric-ulcer]]: H. pylori colonization → urease-driven ammonia → local pH buffering → epithelial invasion and [[inflammation]] → ulcer formation
 - [[gastric-adenocarcinoma]]: Chronic H. pylori infection (urease-mediated persistence) → chronic atrophic gastritis → intestinal metaplasia → gastric cancer (WHO Group 1 carcinogen)
 - [[helicobacter-pylori|malt-lymphoma]] (mucosa-associated lymphoid tissue lymphoma): Indolent B-cell lymphoma driven by chronic H. pylori antigen stimulation; urease is an immunogen
 - Dyspepsia and functional gastric disease: H. pylori-negative dyspepsia may be associated with other urease-producing bacteria ([[proteus-mirabilis|Proteus mirabilis]], [[klebsiella-pneumoniae|Klebsiella pneumoniae]])

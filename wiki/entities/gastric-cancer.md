@@ -53,7 +53,7 @@ Each step is driven by chronic [[inflammation]] [[nf-kappa-b]], [[oxidative-stre
 - IARC Group 1 carcinogen with stomach as a target organ
 - Cd accumulates in gastric mucosa, generating [[oxidative-stress]] and inhibiting DNA repair
 - Cd exposure correlates with gastric cancer incidence in occupational and environmental studies
-- Cd may synergize with H. pylori: metal-induced [[inflammation]] + bacterial virulence = compounding carcinogenesis. See [[metal-carcinogenesis]].
+- Cd may synergize with H. pylori: metal-induced inflammation + bacterial virulence = compounding carcinogenesis. See [[metal-carcinogenesis]].
 
 ### Lead
 - Pb exposure associated with gastric cancer risk in occupational cohorts
@@ -74,7 +74,7 @@ Each step is driven by chronic [[inflammation]] [[nf-kappa-b]], [[oxidative-stre
 
 H. pylori dominates the gastric microbiome in infected individuals but is not alone:
 - Atrophic gastritis → loss of acid barrier → colonization by oral and intestinal bacteria (Streptococcus, Prevotella, Neisseria, Rothia)
-- This "opened niche" microbiome may contribute to carcinogenesis through nitrosamine production, bile acid modification, and additional [[inflammation]]
+- This "opened niche" microbiome may contribute to carcinogenesis through nitrosamine production, bile acid modification, and additional inflammation
 - Lactobacillus species may be protective: competition with H. pylori, acid production, immunomodulation
 - Post-gastrectomy microbiome shifts associate with nutritional deficiencies and altered metal absorption
 
@@ -102,7 +102,7 @@ H. pylori dominates the gastric microbiome in infected individuals but is not al
 - [[iron]] -- H. pylori sequesters host iron; iron deficiency from chronic gastritis paradoxically promotes proliferation
 - [[lead]] -- associated with gastric cancer risk in occupational cohorts; inhibits DNA repair
 - [[selenium]] -- deficiency associates with gastric cancer risk; antioxidant defense via glutathione peroxidase
-- [[inflammation]] -- chronic NF-kB-driven inflammation powers the Correa cascade from gastritis to adenocarcinoma
+- inflammation -- chronic NF-kB-driven inflammation powers the Correa cascade from gastritis to adenocarcinoma
 - [[oxidative-stress]] -- metal-induced and infection-driven ROS as central mutagenic mechanism
 - [[DNA-damage]] -- the molecular basis of carcinogenic transformation from H. pylori and metal exposure
 - [[metal-carcinogenesis]] -- gastric cancer exemplifies the metal-infection-cancer triad

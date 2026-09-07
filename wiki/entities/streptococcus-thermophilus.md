@@ -135,7 +135,7 @@ Streptococcus thermophilus is a Gram-positive, facultative anaerobic coccus that
 2. Lactic acid synthetase – lactate production from pyruvate
 3. Glucosyltransferase – synthesis of extracellular polysaccharides (EPS); biofilm formation
 4. Peptidases and proteases – casein hydrolysis; production of bioactive peptides
-5. Arginine deiminase – metabolizes arginine; reduces local inflammation
+5. Arginine deiminase – metabolizes arginine; reduces local [[inflammation]]
 
 ## Clinical and Research Evidence
 

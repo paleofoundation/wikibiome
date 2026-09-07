@@ -75,7 +75,7 @@ A Gram-negative, obligate anaerobic bacterium that has emerged as the most consi
 
 - [[colorectal-cancer]] -- THE defining CRC-associated bacterium; FadA/Fap2 virulence mechanisms
 - [[iron]] -- obligate iron requirement; thrives in iron-rich tumor environments
-- [[inflammation]] -- activates NF-kB/STAT3; chronic inflammatory signaling in tumors
+- inflammation -- activates NF-kB/STAT3; chronic inflammatory signaling in tumors
 - [[biofilm]] -- forms iron-dependent biofilms in colorectal tumors
 - [[dysbiosis]] -- its enrichment is a hallmark of cancer-associated dysbiosis
 - [[oxidative-stress]] -- H2S production drives DNA damage in colonocytes

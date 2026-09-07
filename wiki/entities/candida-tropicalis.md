@@ -102,7 +102,7 @@ Although frequently lumped with *C. albicans*, *C. tropicalis* differs in severa
 
 - Loss of commensal *Saccharomyces* (notably *S. boulardii* and gut *S. cerevisiae*) correlates with *C. tropicalis* expansion; restoration of *Saccharomyces* tone is associated with *C. tropicalis* reduction in several probiotic-intervention studies
 - Broad-spectrum antibiotic exposure removes competing bacteria and unmasks fungal niches
-- Gut iron loading, whether from supplementation, inflammation, or hemolysis, provides a permissive environment
+- Gut iron loading, whether from supplementation, [[inflammation]], or hemolysis, provides a permissive environment
 - Mucin barrier erosion — from antibiotic injury, low fiber intake, or loss of SCFA producers — enables mucosal attachment
 
 The ecological picture mirrors that of other opportunistic fungi: *C. tropicalis* is not a primary invader but a beneficiary of ecosystem collapse, emerging when commensal competitors are suppressed and host nutritional immunity is overwhelmed.
