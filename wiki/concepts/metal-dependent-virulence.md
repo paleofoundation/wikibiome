@@ -2,14 +2,14 @@
 title: Metal-Dependent Virulence
 type: concept
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-09-07
 sources: [maier-2019-nickel-microbial-pathogenesis, cassat-2012-metal-acquisition-staphylococcus-aureus, akbari-2022-metal-homeostasis-streptococci, pendergrass-2026-nickel-nec-preterm-gut, romero-espejel-2013-streptococcus-pneumoniae-iron, patil-2021-infection-metallomics-critical-care, braud-2010-siderophores-pseudomonas-metal-tolerance, pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]
 source_count: 8
 tags: [virulence, metals, nickel, iron, zinc, copper, manganese, urease, hydrogenase, siderophores, nutritional-immunity, pathogenesis]
 platform: wikibiome
 karen_brain_primitives: [1, 2, 4, 5, 6, 8]
 seo_target: "metal-dependent virulence microbiome"
-last_substantive_update: 2026-04-09
+last_substantive_update: 2026-09-07
 ---
 
 # Metal-Dependent Virulence
@@ -73,7 +73,7 @@ Iron is the most universally required metal for pathogen virulence, and its acqu
 
 ### Iron-Dependent Enzymes
 
-- Fe-SOD and catalase: Critical for defending against the oxidative burst in phagocytes.
+- Fe-SOD and [[catalase]]: Critical for defending against the oxidative burst in phagocytes.
 - Aconitase, succinate dehydrogenase, cytochrome oxidases: Iron-sulfur cluster enzymes essential for core metabolism.
 - Iron availability in the gut lumen determines competitive outcomes between commensals and pathogens; siderophore-producing Enterobacteriaceae outcompete commensals under high-iron conditions [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 

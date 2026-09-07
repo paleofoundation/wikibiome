@@ -3,8 +3,8 @@ title: Streptococcus mutans
 type: entity
 subtype: microbe
 created: 2026-04-18
-updated: 2026-04-18
-last_substantive_update: 2026-04-18
+updated: 2026-09-07
+last_substantive_update: 2026-09-07
 sources: [katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc, williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans, akbari-2022-metal-homeostasis-streptococci, fakhruddin-2025-oral-microbiome-asd-systematic-review]
 source_count: 4
 tags: [oral-pathogen, cariogenic, biofilm, dental-caries, zinc-resistance, mismetallation, oral-microbiome]
@@ -59,7 +59,7 @@ This zinc resistance explains a persistent clinical puzzle: despite promising in
 
 ### H2O2-Mediated Ecological Control
 
-*S. mitis* ATCC 49456 produces 4-5 times more hydrogen peroxide than other oral streptococci via the SpxB pyruvate oxidase pathway, nearly abolishing *S. mutans* biofilm formation in coculture ([[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]], in-vitro). The mechanism is explicitly metal-dependent: H2O2 causes [[mis-metallation]] by damaging iron-sulfur clusters and oxidizing metal-binding sites in proteins. Since *S. mutans* lacks catalase, it cannot detoxify H2O2, making it vulnerable to this iron-dependent oxidative attack.
+*S. mitis* ATCC 49456 produces 4-5 times more hydrogen peroxide than other oral streptococci via the SpxB pyruvate oxidase pathway, nearly abolishing *S. mutans* biofilm formation in coculture ([[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]], in-vitro). The mechanism is explicitly metal-dependent: H2O2 causes [[mis-metallation]] by damaging iron-sulfur clusters and oxidizing metal-binding sites in proteins. Since *S. mutans* lacks [[catalase]], it cannot detoxify H2O2, making it vulnerable to this iron-dependent oxidative attack.
 
 The transcriptomic response of *S. mutans* to *S. mitis* coculture reveals upregulation of iron transport genes (SMU_995-998) and ABC transporters, consistent with H2O2-mediated damage to iron-containing proteins triggering a compensatory iron acquisition response.
 

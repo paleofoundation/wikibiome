@@ -3,8 +3,8 @@ title: "Aerococcus"
 type: entity
 subtype: microbe
 created: 2026-04-21
-updated: 2026-04-21
-last_substantive_update: 2026-04-21
+updated: 2026-09-07
+last_substantive_update: 2026-09-07
 sources:
   - yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics
   - molina-morales-2023-male-reproductive-tract-microbiome
@@ -36,7 +36,7 @@ platform: wikibiome
 
 # Aerococcus
 
-Aerococcus is a genus of Gram-positive, alpha-hemolytic, catalase-negative cocci. The primary species of clinical relevance are *A. urinae* (a cause of urinary tract infections, particularly in elderly men) and *A. christensenii* (a vaginal commensal). In the WikiBiome vault, Aerococcus appears across 15 sources spanning both male and female reproductive tract microbiome studies.
+Aerococcus is a genus of Gram-positive, alpha-hemolytic, [[catalase|catalase-negative]] cocci. The primary species of clinical relevance are *A. urinae* (a cause of urinary tract infections, particularly in elderly men) and *A. christensenii* (a vaginal commensal). In the WikiBiome vault, Aerococcus appears across 15 sources spanning both male and female reproductive tract microbiome studies.
 
 ## Reproductive Tract Ecology
 

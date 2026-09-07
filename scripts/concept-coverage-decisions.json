@@ -1,6 +1,27 @@
 {
   "schemaVersion": 1,
   "jobs": {
+    "create_page:catalase": {
+      "state": "promoted",
+      "reviewedAt": "2026-09-07",
+      "promotedAt": "2026-09-07",
+      "path": "wiki/concepts/catalase.md",
+      "validatedSourceCount": 6,
+      "rationale": "Highest-scoring remaining concept-page candidate; six vault sources directly support its reaction, microbial peroxide-defense role, regulation, ecological significance, and dependence on metal homeostasis."
+    },
+    "backfill_links:catalase": {
+      "state": "queued",
+      "rationale": "The new Catalase page resolves a high-demand mechanism used across oxidative-stress, microbial ecology, virulence, diagnostic, and iron-cofactor contexts.",
+      "batches": [
+        {
+          "id": "2026-09-07-core-catalase-contexts",
+          "state": "promoted",
+          "reviewedAt": "2026-09-07",
+          "promotedAt": "2026-09-07",
+          "targets": ["oxidative-stress", "streptococcus-mutans", "metal-dependent-virulence", "iron", "aerococcus"]
+        }
+      ]
+    },
     "create_page:ammonia": {
       "state": "promoted",
       "reviewedAt": "2026-09-07",

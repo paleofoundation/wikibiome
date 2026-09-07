@@ -1,15 +1,15 @@
 {
-  "_generated": "2026-09-07T03:47:37.002Z",
+  "_generated": "2026-09-07T04:03:46.779Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
     "entities": 328,
-    "concepts": 266,
+    "concepts": 267,
     "signatures": 70,
     "interventions": 72,
     "stops": 72,
     "analyses": 47,
-    "totalPages": 865
+    "totalPages": 866
   },
   "pages": [
     {
@@ -1371,14 +1371,14 @@
         "asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic"
       ],
       "created": "2026-04-21T00:00:00.000Z",
-      "updated": "2026-04-21T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Aerococcus",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-21T00:00:00.000Z",
-        "updated": "2026-04-21T00:00:00.000Z",
-        "last_substantive_update": "2026-04-21T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "sources": [
           "yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics",
           "molina-morales-2023-male-reproductive-tract-microbiome",
@@ -1419,7 +1419,7 @@
         "conditions_depleted_in": [],
         "platform": "wikibiome"
       },
-      "overview": "Aerococcus is a genus of Gram-positive, alpha-hemolytic, catalase-negative cocci. The primary species of clinical relevance are *A. urinae* (a cause of urinary tract infections, particularly in elderly men) and *A. christensenii* (a vaginal commensal). In the WikiBiome vault, Aerococcus appears across 15 sources spanning both male and female reproductive tract microbiome studies.",
+      "overview": "Aerococcus is a genus of Gram-positive, alpha-hemolytic, [[catalase|catalase-negative]] cocci. The primary species of clinical relevance are *A. urinae* (a cause of urinary tract infections, particularly in elderly men) and *A. christensenii* (a vaginal commensal). In the WikiBiome vault, Aerococcus appears across 15 sources spanning both male and female reproductive tract microbiome studies.",
       "sections": [
         {
           "heading": "Reproductive Tract Ecology",
@@ -1458,6 +1458,7 @@
         }
       ],
       "wikilinks": [
+        "catalase",
         "molina-morales-2023-male-reproductive-tract-microbiome",
         "javurek-2016-seminal-fluid-microbiome-esr1",
         "neto-2024-environmental-factors-seminal-microbiome-sperm-quality",
@@ -34740,13 +34741,13 @@
         "han-2022-berberine-methimazole-graves-microbiome"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-20T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Iron",
         "type": "entity",
         "subtype": "metal",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-20T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota.md",
           "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis.md",
@@ -34818,7 +34819,7 @@
           "iron-sulfur-clusters"
         ],
         "platform": "wikibiome",
-        "last_substantive_update": "2026-04-20T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "seo_target": "iron microbiome ferroptosis nutritional immunity siderophores",
         "wikipedia_differentiation": "Iron as centerpiece of nutritional immunity with pathogen-specific siderophore acquisition systems; iron-sulfur cluster vulnerability as the convergent target of copper, nickel, and zinc toxicity; ferroptosis as cross-condition cell death mechanism; strategic enzyme metalation showing iron as ancestral cofactor traded for manganese under oxidative stress; gallium Trojan horse exploiting iron uptake; 3.33 billion-year evolutionary history of iron-dependent life",
         "dietary_sources": [
@@ -34868,7 +34869,7 @@
         {
           "heading": "Metalloproteome Architecture",
           "level": 3,
-          "body": "Approximately 25% of all metalloenzymes use iron as a cofactor, and 33-40% of a typical proteome consists of metalloproteins [[capdevila-2024-bacterial-metallostasis-sensing-trafficking]], [[mcewan-2024-metalloproteome-plasticity-pathogen-adaptation]]. Iron's three enzyme families serve distinct functions:\n\n- Nonheme iron enzymes: Include ribonucleotide reductase (essential for DNA synthesis) and lipoxygenases (lipid signaling)\n- Iron-sulfur cluster enzymes: Aconitase, respiratory complexes I-III, nitrogenase -- these are exquisitely vulnerable to disruption by copper, nickel, and oxidative stress\n- Heme enzymes: Cytochromes, catalase, peroxidases, hemoglobin, myoglobin\n\nIron is in high demand for Fe-S clusters and heme cofactors that manganese cannot substitute for, making these enzyme families irreplaceable even when organisms switch other enzymes to manganese [[mcewan-2024-metalloproteome-plasticity-pathogen-adaptation]]."
+          "body": "Approximately 25% of all metalloenzymes use iron as a cofactor, and 33-40% of a typical proteome consists of metalloproteins [[capdevila-2024-bacterial-metallostasis-sensing-trafficking]], [[mcewan-2024-metalloproteome-plasticity-pathogen-adaptation]]. Iron's three enzyme families serve distinct functions:\n\n- Nonheme iron enzymes: Include ribonucleotide reductase (essential for DNA synthesis) and lipoxygenases (lipid signaling)\n- Iron-sulfur cluster enzymes: Aconitase, respiratory complexes I-III, nitrogenase -- these are exquisitely vulnerable to disruption by copper, nickel, and oxidative stress\n- Heme enzymes: Cytochromes, [[catalase]], peroxidases, hemoglobin, myoglobin\n\nIron is in high demand for Fe-S clusters and heme cofactors that manganese cannot substitute for, making these enzyme families irreplaceable even when organisms switch other enzymes to manganese [[mcewan-2024-metalloproteome-plasticity-pathogen-adaptation]]."
         },
         {
           "heading": "Iron-Sulfur Clusters as the Critical Vulnerability",
@@ -35057,6 +35058,7 @@
         "rohaun-2024-microbes-strategic-metalation-mononuclear-enzymes",
         "oxidative-stress",
         "mcewan-2024-metalloproteome-plasticity-pathogen-adaptation",
+        "catalase",
         "sullivan-2024-resisting-death-metal-cuzn-homeostasis-bacteria",
         "darwiche-2025-synergistic-toxicity-nickel-copper-iron-sulfur-ecoli",
         "goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros",
@@ -35311,6 +35313,7 @@
         "bacterial-vaginosis",
         "bacteriophages",
         "beta-glucuronidase",
+        "catalase",
         "ceruloplasmin",
         "colonization-resistance",
         "cuproptosis",
@@ -41383,6 +41386,7 @@
         "bacteriophages",
         "calprotectin",
         "cambialistic-enzymes",
+        "catalase",
         "dyshomeostasis",
         "heavy-metal-neurotoxicity",
         "heavy-metals",
@@ -62354,6 +62358,7 @@
         "zinc",
         "biofilm",
         "calprotectin",
+        "catalase",
         "essential-oils",
         "functional-shielding",
         "histidine",
@@ -62403,11 +62408,11 @@
         },
         {
           "id": "oxidative-stress",
-          "score": 29
+          "score": 31
         },
         {
-          "id": "siderophores-metallophores",
-          "score": 29
+          "id": "mis-metallation",
+          "score": 30
         }
       ]
     },
@@ -63258,14 +63263,14 @@
         "fakhruddin-2025-oral-microbiome-asd-systematic-review"
       ],
       "created": "2026-04-18T00:00:00.000Z",
-      "updated": "2026-04-18T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Streptococcus mutans",
         "type": "entity",
         "subtype": "microbe",
         "created": "2026-04-18T00:00:00.000Z",
-        "updated": "2026-04-18T00:00:00.000Z",
-        "last_substantive_update": "2026-04-18T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
         "sources": [
           "katrak-2026-oral-hygiene-agents-streptococcus-mutans-zinc",
           "williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans",
@@ -63343,7 +63348,7 @@
         {
           "heading": "H2O2-Mediated Ecological Control",
           "level": 3,
-          "body": "*S. mitis* ATCC 49456 produces 4-5 times more hydrogen peroxide than other oral streptococci via the SpxB pyruvate oxidase pathway, nearly abolishing *S. mutans* biofilm formation in coculture ([[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]], in-vitro). The mechanism is explicitly metal-dependent: H2O2 causes [[mis-metallation]] by damaging iron-sulfur clusters and oxidizing metal-binding sites in proteins. Since *S. mutans* lacks catalase, it cannot detoxify H2O2, making it vulnerable to this iron-dependent oxidative attack.\n\nThe transcriptomic response of *S. mutans* to *S. mitis* coculture reveals upregulation of iron transport genes (SMU_995-998) and ABC transporters, consistent with H2O2-mediated damage to iron-containing proteins triggering a compensatory iron acquisition response."
+          "body": "*S. mitis* ATCC 49456 produces 4-5 times more hydrogen peroxide than other oral streptococci via the SpxB pyruvate oxidase pathway, nearly abolishing *S. mutans* biofilm formation in coculture ([[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]], in-vitro). The mechanism is explicitly metal-dependent: H2O2 causes [[mis-metallation]] by damaging iron-sulfur clusters and oxidizing metal-binding sites in proteins. Since *S. mutans* lacks [[catalase]], it cannot detoxify H2O2, making it vulnerable to this iron-dependent oxidative attack.\n\nThe transcriptomic response of *S. mutans* to *S. mitis* coculture reveals upregulation of iron transport genes (SMU_995-998) and ABC transporters, consistent with H2O2-mediated damage to iron-containing proteins triggering a compensatory iron acquisition response."
         },
         {
           "heading": "In Dysbiotic Oral Ecosystems",
@@ -63374,6 +63379,7 @@
         "mis-metallation",
         "akbari-2022-metal-homeostasis-streptococci",
         "williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans",
+        "catalase",
         "fakhruddin-2025-oral-microbiome-asd-systematic-review",
         "zinc",
         "biofilm",
@@ -63386,6 +63392,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "catalase",
         "broken-links-2026-04-16"
       ],
       "related": [
@@ -63398,28 +63405,28 @@
           "score": 7
         },
         {
+          "id": "staphylococcus-aureus",
+          "score": 7
+        },
+        {
           "id": "inter-kingdom-metal-shielding",
           "score": 7
         },
         {
-          "id": "urease",
+          "id": "metal-dependent-virulence",
           "score": 7
         },
         {
-          "id": "porphyromonas-gingivalis",
-          "score": 6
+          "id": "metal-homeostasis",
+          "score": 7
         },
         {
-          "id": "streptococcus-thermophilus",
-          "score": 6
+          "id": "oxidative-stress",
+          "score": 7
         },
         {
-          "id": "actinomyces",
-          "score": 5
-        },
-        {
-          "id": "cobalt",
-          "score": 5
+          "id": "superoxide-dismutase",
+          "score": 7
         }
       ]
     },
@@ -75476,6 +75483,168 @@
       ]
     },
     {
+      "id": "catalase",
+      "title": "Catalase",
+      "type": "concept",
+      "category": "mechanism",
+      "tags": [
+        "catalase",
+        "hydrogen-peroxide",
+        "oxidative-stress",
+        "heme",
+        "iron",
+        "peroxide-defense",
+        "microbial-ecology",
+        "virulence",
+        "metal-homeostasis",
+        "mis-metallation"
+      ],
+      "sources": [
+        "cassat-2012-metal-acquisition-staphylococcus-aureus",
+        "chandrangsu-2016-zinc-intoxication-perr-heme-toxicity",
+        "bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus",
+        "nong-2026-sod-deficiency-oxidative-stress-ecoli",
+        "williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans",
+        "goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros"
+      ],
+      "created": "2026-09-07T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
+      "frontmatter": {
+        "title": "Catalase",
+        "type": "concept",
+        "created": "2026-09-07T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
+        "last_substantive_update": "2026-09-07T00:00:00.000Z",
+        "sources": [
+          "cassat-2012-metal-acquisition-staphylococcus-aureus",
+          "chandrangsu-2016-zinc-intoxication-perr-heme-toxicity",
+          "bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus",
+          "nong-2026-sod-deficiency-oxidative-stress-ecoli",
+          "williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans",
+          "goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros"
+        ],
+        "source_count": 6,
+        "tags": [
+          "catalase",
+          "hydrogen-peroxide",
+          "oxidative-stress",
+          "heme",
+          "iron",
+          "peroxide-defense",
+          "microbial-ecology",
+          "virulence",
+          "metal-homeostasis",
+          "mis-metallation"
+        ],
+        "karen_brain_primitives": [
+          1,
+          3,
+          4,
+          5
+        ],
+        "seo_target": "catalase microbiome hydrogen peroxide oxidative stress",
+        "platform": "wikibiome"
+      },
+      "overview": "Catalase is a heme-iron enzyme that decomposes hydrogen peroxide into water and oxygen. In microbial peroxide defense, it acts downstream of [[superoxide-dismutase]]: superoxide dismutase converts superoxide to hydrogen peroxide, and catalase removes that hydrogen peroxide before it can contribute to further oxidative damage [[cassat-2012-metal-acquisition-staphylococcus-aureus]].\n\nThe labels catalase-positive and catalase-negative describe one part of an organism's antioxidant system, not its entire capacity to withstand [[oxidative-stress]]. Catalase-negative organisms may rely on peroxidases and other defenses, while their inability to use catalase can still create an ecological vulnerability when neighboring microbes produce hydrogen peroxide [[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]] [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]].",
+      "sections": [
+        {
+          "heading": "The peroxide-defense sequence",
+          "level": 2,
+          "body": "In *Staphylococcus aureus*, manganese-dependent SodA and SodM detoxify superoxide generated during the neutrophil oxidative burst. The resulting hydrogen peroxide is then degraded by the heme-iron catalase KatA, connecting [[manganese]] acquisition, [[iron]] availability, and resistance to host killing in one defense sequence [[cassat-2012-metal-acquisition-staphylococcus-aureus]].\n\nThis division of labor matters because hydrogen peroxide is less reactive than some oxygen radicals but can participate in iron-dependent [[fenton-chemistry]] and damage metal-containing proteins. Catalase therefore sits at an intersection between peroxide removal and [[metal-homeostasis]], rather than functioning as a generic marker of antioxidant capacity [[cassat-2012-metal-acquisition-staphylococcus-aureus]] [[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]]."
+        },
+        {
+          "heading": "Regulation under peroxide stress",
+          "level": 2,
+          "body": "Bacteria do not all control catalase through the same sensor. In *Myxococcus xanthus*, the metal-binding regulator PexR activates the catalase gene *katB* and the peroxiredoxin gene *ahpC* during hydrogen-peroxide stress. PexR binds iron or zinc in a GAF domain, and peroxide-driven metal release relieves autoinhibition, coupling metal state to antioxidant-gene expression [[bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus]].\n\nThe same study found that the PexR-controlled catalase and peroxiredoxin systems are complementary: combined disruption produced stronger defects than loss of either arm alone. PexR also operates independently of the better-known OxyR and PerR regulators, illustrating that catalase expression belongs to diverse, organism-specific stress networks [[bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus]]."
+        },
+        {
+          "heading": "Compensation is not equivalence",
+          "level": 2,
+          "body": "An *Escherichia coli* model lacking both major superoxide dismutases, SodA and SodB, increased expression of catalase KatE and organic peroxidases through its compensatory stress response. Despite that upregulation, the mutant remained more sensitive to hydrogen peroxide, showing that increased catalase expression does not necessarily restore a disrupted antioxidant network [[nong-2026-sod-deficiency-oxidative-stress-ecoli]].\n\nThat result is important when interpreting catalase abundance or gene expression: the measurement may indicate an active defense, a compensatory response to upstream damage, or both. It should not be treated alone as proof that a cell or community is protected from oxidative injury [[nong-2026-sod-deficiency-oxidative-stress-ecoli]]."
+        },
+        {
+          "heading": "Catalase-negative microbial ecology",
+          "level": 2,
+          "body": "In an oral-biofilm study, hydrogen peroxide produced by *Streptococcus mitis* strongly suppressed the catalase-negative species [[streptococcus-mutans|*Streptococcus mutans*]]. Adding catalase restored *S. mutans* biofilm formation to about half of its monoculture level, while disrupting the peroxide-producing *spxB* pathway produced a larger partial rescue. These interventions identify peroxide exposure as a major component of the competitive interaction [[williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans]].\n\nCatalase-negative does not mean peroxide-defense-negative. Group B *Streptococcus* lacks catalase but uses manganese-dependent SodA, alkyl hydroperoxide reductase AhpCF, thiol peroxidase, and other systems to withstand reactive species. Its survival still depends on access to the correct metal cofactors, which host proteins can restrict during infection [[goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros]]."
+        },
+        {
+          "heading": "Metal homeostasis can disable catalase defense",
+          "level": 2,
+          "body": "In *Bacillus subtilis*, excess zinc can replace the normal iron or manganese cofactor in the peroxide sensor PerR. The resulting [[mis-metallation]] leaves PerR unable to sense peroxide correctly while it continues repressing catalase and other peroxide-defense genes; at the same time, heme biosynthesis is derepressed, creating a pro-oxidant state with weakened peroxide clearance [[chandrangsu-2016-zinc-intoxication-perr-heme-toxicity]].\n\nThis mechanism shows why catalase activity cannot be understood from gene presence alone. Metal availability and metal-sensor fidelity determine whether the enzyme is produced, metalated, and deployed at the time peroxide stress occurs [[chandrangsu-2016-zinc-intoxication-perr-heme-toxicity]]."
+        },
+        {
+          "heading": "Related pages",
+          "level": 2,
+          "body": "- [[oxidative-stress]]\n- [[reactive-oxygen-species]]\n- [[superoxide-dismutase]]\n- [[fenton-chemistry]]\n- [[iron]]\n- [[manganese]]\n- [[metal-homeostasis]]\n- [[mis-metallation]]\n- [[metal-dependent-virulence]]\n- [[staphylococcus-aureus]]\n- [[streptococcus-mutans]]"
+        }
+      ],
+      "wikilinks": [
+        "superoxide-dismutase",
+        "cassat-2012-metal-acquisition-staphylococcus-aureus",
+        "oxidative-stress",
+        "williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans",
+        "goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros",
+        "manganese",
+        "iron",
+        "fenton-chemistry",
+        "metal-homeostasis",
+        "bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus",
+        "nong-2026-sod-deficiency-oxidative-stress-ecoli",
+        "streptococcus-mutans",
+        "mis-metallation",
+        "chandrangsu-2016-zinc-intoxication-perr-heme-toxicity",
+        "reactive-oxygen-species",
+        "metal-dependent-virulence",
+        "staphylococcus-aureus"
+      ],
+      "sourceDir": "concepts",
+      "sourceCount": 6,
+      "threshold": 3,
+      "belowThreshold": false,
+      "isStub": false,
+      "backlinks": [
+        "aerococcus",
+        "iron",
+        "streptococcus-mutans",
+        "metal-dependent-virulence",
+        "oxidative-stress"
+      ],
+      "related": [
+        {
+          "id": "zinc",
+          "score": 22
+        },
+        {
+          "id": "iron-sulfur-clusters",
+          "score": 15
+        },
+        {
+          "id": "nutritional-immunity",
+          "score": 14
+        },
+        {
+          "id": "microbial-metallomics",
+          "score": 12
+        },
+        {
+          "id": "copper",
+          "score": 9
+        },
+        {
+          "id": "nickel",
+          "score": 9
+        },
+        {
+          "id": "siderophores-metallophores",
+          "score": 9
+        },
+        {
+          "id": "siderophores",
+          "score": 9
+        }
+      ]
+    },
+    {
       "id": "cephalosporin",
       "title": "Cephalosporins",
       "type": "concept",
@@ -83814,6 +83983,7 @@
         "kynurenine",
         "silver",
         "amyloid-beta-aggregation",
+        "catalase",
         "ferritin",
         "ferroportin",
         "histidine",
@@ -83824,11 +83994,11 @@
       "related": [
         {
           "id": "mis-metallation",
-          "score": 31
+          "score": 33
         },
         {
           "id": "manganese",
-          "score": 14
+          "score": 16
         },
         {
           "id": "selenium",
@@ -83851,7 +84021,7 @@
           "score": 12
         },
         {
-          "id": "ferroportin",
+          "id": "staphylococcus-aureus",
           "score": 11
         }
       ]
@@ -94187,15 +94357,15 @@
           "score": 15
         },
         {
+          "id": "catalase",
+          "score": 15
+        },
+        {
           "id": "parkinsons-disease",
           "score": 14
         },
         {
           "id": "calprotectin",
-          "score": 14
-        },
-        {
-          "id": "nutritional-immunity",
           "score": 14
         }
       ]
@@ -97731,12 +97901,12 @@
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Metal-Dependent Virulence",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "maier-2019-nickel-microbial-pathogenesis",
           "cassat-2012-metal-acquisition-staphylococcus-aureus",
@@ -97772,7 +97942,7 @@
           8
         ],
         "seo_target": "metal-dependent virulence microbiome",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z"
+        "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
       "overview": "",
       "sections": [
@@ -97829,7 +97999,7 @@
         {
           "heading": "Iron-Dependent Enzymes",
           "level": 3,
-          "body": "- Fe-SOD and catalase: Critical for defending against the oxidative burst in phagocytes.\n- Aconitase, succinate dehydrogenase, cytochrome oxidases: Iron-sulfur cluster enzymes essential for core metabolism.\n- Iron availability in the gut lumen determines competitive outcomes between commensals and pathogens; siderophore-producing Enterobacteriaceae outcompete commensals under high-iron conditions [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
+          "body": "- Fe-SOD and [[catalase]]: Critical for defending against the oxidative burst in phagocytes.\n- Aconitase, succinate dehydrogenase, cytochrome oxidases: Iron-sulfur cluster enzymes essential for core metabolism.\n- Iron availability in the gut lumen determines competitive outcomes between commensals and pathogens; siderophore-producing Enterobacteriaceae outcompete commensals under high-iron conditions [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]]."
         },
         {
           "heading": "Host Iron Restriction",
@@ -97901,6 +98071,7 @@
         "streptococcus-pneumoniae",
         "romero-espejel-2013-streptococcus-pneumoniae-iron",
         "akbari-2022-metal-homeostasis-streptococci",
+        "catalase",
         "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
         "matrix-metalloproteases",
         "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
@@ -97940,6 +98111,7 @@
         "streptococcus-pneumoniae",
         "yersinia-pestis",
         "cambialistic-enzymes",
+        "catalase",
         "developmental-metal-vulnerability",
         "drug-repurposing",
         "gene-regulation",
@@ -98127,6 +98299,7 @@
       "backlinks": [
         "acinetobacter",
         "ammonia",
+        "catalase",
         "efflux-pumps",
         "heavy-metals",
         "hypoxia",
@@ -98142,11 +98315,11 @@
       "related": [
         {
           "id": "metal-dependent-virulence",
-          "score": 19
+          "score": 21
         },
         {
           "id": "iron",
-          "score": 18
+          "score": 20
         },
         {
           "id": "calprotectin",
@@ -98165,11 +98338,11 @@
           "score": 17
         },
         {
-          "id": "copper",
-          "score": 16
+          "id": "superoxide-dismutase",
+          "score": 17
         },
         {
-          "id": "dyshomeostasis",
+          "id": "copper",
           "score": 16
         }
       ]
@@ -101238,6 +101411,7 @@
         "autoimmunity",
         "beta-glucuronidase",
         "cambialistic-enzymes",
+        "catalase",
         "chelation-therapy",
         "copper-dysregulation",
         "cuproptosis",
@@ -101285,19 +101459,19 @@
       ],
       "related": [
         {
+          "id": "iron",
+          "score": 93
+        },
+        {
           "id": "zinc",
           "score": 92
         },
         {
-          "id": "iron",
-          "score": 91
+          "id": "oxidative-stress",
+          "score": 88
         },
         {
           "id": "nickel",
-          "score": 86
-        },
-        {
-          "id": "oxidative-stress",
           "score": 86
         },
         {
@@ -101314,7 +101488,7 @@
         },
         {
           "id": "manganese",
-          "score": 69
+          "score": 71
         }
       ]
     },
@@ -105225,12 +105399,12 @@
         "ogrady-2025-metal-dyshomeostasis-asd.md"
       ],
       "created": "2026-04-09T00:00:00.000Z",
-      "updated": "2026-04-09T00:00:00.000Z",
+      "updated": "2026-09-07T00:00:00.000Z",
       "frontmatter": {
         "title": "Oxidative Stress",
         "type": "concept",
         "created": "2026-04-09T00:00:00.000Z",
-        "updated": "2026-04-09T00:00:00.000Z",
+        "updated": "2026-09-07T00:00:00.000Z",
         "sources": [
           "liu-2025-cardiometabolic-nickel.md",
           "salnikov-2008-metal-carcinogenesis.md",
@@ -105276,7 +105450,7 @@
           5
         ],
         "seo_target": "oxidative stress microbiome",
-        "last_substantive_update": "2026-04-09T00:00:00.000Z"
+        "last_substantive_update": "2026-09-07T00:00:00.000Z"
       },
       "overview": "Oxidative stress is the imbalance between the production of reactive oxygen and nitrogen species (ROS/RNS) and the capacity of biological antioxidant defense systems to detoxify them. It is the single most commonly invoked mechanism across metal toxicology in this wiki, linking exposures to [[iron]], [[copper]], [[chromium]], [[nickel]], [[arsenic]], [[cadmium]], [[lead]], [[mercury]], and [[manganese]] to downstream pathology in virtually every organ system. However, the specific routes by which different metals generate oxidative stress vary substantially, and the role of oxidative stress as a primary versus secondary mechanism differs by metal and disease context.",
       "sections": [
@@ -105308,7 +105482,7 @@
         {
           "heading": "Enzymatic Defenses",
           "level": 3,
-          "body": "#### Superoxide Dismutases (SODs)\n\nSODs catalyze the dismutation of superoxide to hydrogen peroxide and oxygen (2 O2.- + 2H+ --> H2O2 + O2). Three isoforms exist in mammals:\n\n- Cu/Zn-SOD (SOD1): Cytoplasmic; requires [[copper]] and [[zinc]] as cofactors. The most abundant intracellular SOD.\n- Mn-SOD (SOD2): Mitochondrial; requires [[manganese]] as cofactor. The primary defense against superoxide generated by the electron transport chain. Mn-SOD is essential for life -- homozygous knockout is lethal in mice [[cassat-2012-metal-acquisition-staphylococcus-aureus]].\n- EC-SOD (SOD3): Extracellular; Cu/Zn-dependent.\n- Ni-SOD: Found in *Streptomyces* spp. and some other prokaryotes; uses [[nickel]] as cofactor. Important for oxidative stress defense in plant-colonizing bacteria [[maier-2019-nickel-microbial-pathogenesis]].\n\nIn [[nickel]] toxicology, UNi shows an inverse U-shaped relationship with SOD activity in humans, and nickel exposure increases SOD activity in liver while reducing catalase in heart and kidneys [[liu-2025-cardiometabolic-nickel]].\n\n#### Catalase (CAT)\n\nCatalase decomposes hydrogen peroxide to water and oxygen (2 H2O2 --> 2 H2O + O2). It contains an iron-heme prosthetic group and is concentrated in peroxisomes. [[lead]] inhibits catalase activity along with other antioxidant enzymes; PbA (500 mg/L) reduces CAT in liver and kidney [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].\n\n#### Glutathione Peroxidases (GPX)\n\nGPX enzymes reduce hydrogen peroxide and organic hydroperoxides using glutathione (GSH) as a co-substrate. Most GPX isoforms are selenoproteins, directly linking [[selenium]] status to antioxidant capacity:\n\n- GPX1-3: Reduce H2O2 and small organic hydroperoxides.\n- GPX4: The only enzyme capable of reducing lipid hydroperoxides within membranes; its loss triggers [[ferroptosis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]], [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]].\n- Se supplementation increases GPx and thioredoxin reductase (TR) activity and decreases oxidative stress markers in [[hashimotos-thyroiditis]] patients [[kravchenko-2023-thyroid-hormones-minerals-AITD]], [[brock-2015-selenium-thyroid-autoimmunity]]]."
+          "body": "#### Superoxide Dismutases (SODs)\n\nSODs catalyze the dismutation of superoxide to hydrogen peroxide and oxygen (2 O2.- + 2H+ --> H2O2 + O2). Three isoforms exist in mammals:\n\n- Cu/Zn-SOD (SOD1): Cytoplasmic; requires [[copper]] and [[zinc]] as cofactors. The most abundant intracellular SOD.\n- Mn-SOD (SOD2): Mitochondrial; requires [[manganese]] as cofactor. The primary defense against superoxide generated by the electron transport chain. Mn-SOD is essential for life -- homozygous knockout is lethal in mice [[cassat-2012-metal-acquisition-staphylococcus-aureus]].\n- EC-SOD (SOD3): Extracellular; Cu/Zn-dependent.\n- Ni-SOD: Found in *Streptomyces* spp. and some other prokaryotes; uses [[nickel]] as cofactor. Important for oxidative stress defense in plant-colonizing bacteria [[maier-2019-nickel-microbial-pathogenesis]].\n\nIn [[nickel]] toxicology, UNi shows an inverse U-shaped relationship with SOD activity in humans, and nickel exposure increases SOD activity in liver while reducing catalase in heart and kidneys [[liu-2025-cardiometabolic-nickel]].\n\n#### Catalase (CAT)\n\n[[catalase|Catalase]] decomposes hydrogen peroxide to water and oxygen (2 H2O2 --> 2 H2O + O2). It contains an iron-heme prosthetic group and is concentrated in peroxisomes. [[lead]] inhibits catalase activity along with other antioxidant enzymes; PbA (500 mg/L) reduces CAT in liver and kidney [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]].\n\n#### Glutathione Peroxidases (GPX)\n\nGPX enzymes reduce hydrogen peroxide and organic hydroperoxides using glutathione (GSH) as a co-substrate. Most GPX isoforms are selenoproteins, directly linking [[selenium]] status to antioxidant capacity:\n\n- GPX1-3: Reduce H2O2 and small organic hydroperoxides.\n- GPX4: The only enzyme capable of reducing lipid hydroperoxides within membranes; its loss triggers [[ferroptosis]] [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]], [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]]].\n- Se supplementation increases GPx and thioredoxin reductase (TR) activity and decreases oxidative stress markers in [[hashimotos-thyroiditis]] patients [[kravchenko-2023-thyroid-hormones-minerals-AITD]], [[brock-2015-selenium-thyroid-autoimmunity]]]."
         },
         {
           "heading": "Non-Enzymatic Defenses",
@@ -105529,6 +105703,7 @@
         "cassat-2012-metal-acquisition-staphylococcus-aureus",
         "maier-2019-nickel-microbial-pathogenesis",
         "liu-2025-cardiometabolic-nickel",
+        "catalase",
         "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
         "selenium",
         "mishra-2022-molecular-mechanisms-heavy-metals-ckd",
@@ -105617,6 +105792,7 @@
         "alpha-klotho",
         "atherosclerosis",
         "autophagy",
+        "catalase",
         "ceruloplasmin",
         "comorbidities",
         "copper-dysregulation",
@@ -105678,7 +105854,7 @@
       "related": [
         {
           "id": "mis-metallation",
-          "score": 86
+          "score": 88
         },
         {
           "id": "inflammation",
@@ -107403,6 +107579,10 @@
           "score": 6
         },
         {
+          "id": "catalase",
+          "score": 4
+        },
+        {
           "id": "gene-regulation",
           "score": 4
         },
@@ -107421,10 +107601,6 @@
         {
           "id": "mis-metallation",
           "score": 4
-        },
-        {
-          "id": "acinetobacter-baumannii",
-          "score": 3
         }
       ]
     },
@@ -109582,6 +109758,7 @@
       "belowThreshold": false,
       "isStub": false,
       "backlinks": [
+        "catalase",
         "cox-2",
         "endothelial-dysfunction",
         "il-1beta",
@@ -109592,7 +109769,7 @@
       "related": [
         {
           "id": "iron",
-          "score": 18
+          "score": 20
         },
         {
           "id": "nickel",
@@ -109611,16 +109788,16 @@
           "score": 9
         },
         {
+          "id": "catalase",
+          "score": 9
+        },
+        {
           "id": "cysteine",
           "score": 9
         },
         {
-          "id": "nf-kappa-b",
+          "id": "fenton-chemistry",
           "score": 9
-        },
-        {
-          "id": "copper",
-          "score": 8
         }
       ]
     },
@@ -112192,6 +112369,7 @@
         "borrelia",
         "nickel",
         "antimicrobial-metals",
+        "catalase",
         "fenton-chemistry",
         "labile-metal-pool",
         "metal-sensing",
@@ -112205,11 +112383,11 @@
       "related": [
         {
           "id": "iron",
-          "score": 20
+          "score": 22
         },
         {
           "id": "fenton-chemistry",
-          "score": 20
+          "score": 22
         },
         {
           "id": "nickel",
@@ -112217,7 +112395,7 @@
         },
         {
           "id": "metal-homeostasis",
-          "score": 15
+          "score": 17
         },
         {
           "id": "pathogen-metal-acquisition",
@@ -183184,6 +183362,12 @@
         "sourceCount": 4
       },
       {
+        "id": "catalase",
+        "label": "Catalase",
+        "category": "mechanism",
+        "sourceCount": 6
+      },
+      {
         "id": "cephalosporin",
         "label": "Cephalosporins",
         "category": "mechanism",
@@ -186456,6 +186640,10 @@
       {
         "source": "adlercreutzia",
         "target": "estrobolome"
+      },
+      {
+        "source": "aerococcus",
+        "target": "catalase"
       },
       {
         "source": "aerococcus",
@@ -193167,6 +193355,10 @@
       },
       {
         "source": "iron",
+        "target": "catalase"
+      },
+      {
+        "source": "iron",
         "target": "nutritional-immunity"
       },
       {
@@ -198275,6 +198467,10 @@
       },
       {
         "source": "streptococcus-mutans",
+        "target": "catalase"
+      },
+      {
+        "source": "streptococcus-mutans",
         "target": "zinc"
       },
       {
@@ -200348,6 +200544,42 @@
       {
         "source": "cambialistic-enzymes",
         "target": "manganese"
+      },
+      {
+        "source": "catalase",
+        "target": "superoxide-dismutase"
+      },
+      {
+        "source": "catalase",
+        "target": "oxidative-stress"
+      },
+      {
+        "source": "catalase",
+        "target": "manganese"
+      },
+      {
+        "source": "catalase",
+        "target": "fenton-chemistry"
+      },
+      {
+        "source": "catalase",
+        "target": "metal-homeostasis"
+      },
+      {
+        "source": "catalase",
+        "target": "mis-metallation"
+      },
+      {
+        "source": "catalase",
+        "target": "reactive-oxygen-species"
+      },
+      {
+        "source": "catalase",
+        "target": "metal-dependent-virulence"
+      },
+      {
+        "source": "catalase",
+        "target": "staphylococcus-aureus"
       },
       {
         "source": "cephalosporin",
