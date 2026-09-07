@@ -19,9 +19,20 @@
     "mediaDescription": "Scientific algorithmic chemical-identity teaching reconstructions, not source structure images, measured conformers, assay results, medication products, treatment recommendations, or diagnostic images",
     "sourceUse": "Current PubChem, LPSN, NCBI Taxonomy, and local source-resolution records define identity and conservative representation boundaries only; no source image or design is copied."
   },
-  "controlReviewRequired": true,
+  "controlReviewRequired": false,
   "initialAuditCommit": "67a9b45a2ba72bf31f17e2e6000bed2e605ec9d5",
   "promptFreezeCommit": "caa0e07d0858c53bf91daf1ba8c71e6e3399b9fe",
+  "controlAcceptedReviewManifestSha256": "8f4f98568d8e88107d28b640aec815b3999567e4b893db154622e2f31fe40f8e",
+  "controlAcceptedPromptEvidenceSha256": "b7428e2bcdd4117f18ffe530c2608b9427434e603127ab73e3d1c37edc0dddaa",
+  "controlFinalReview": {
+    "status": "accepted-zero-exact-hashes-four-scientific-holds-two-rejected-outputs",
+    "acceptedOn": "2026-09-07",
+    "acceptedReviewCommit": "bb378b79889c6a4042d1503110aa7720ed4b20e0",
+    "reviewer": "WikiBiome Control Tower native-resolution scientific, visual, alpha-field, and exact-hash review",
+    "approvedPageIds": [],
+    "acceptedSourceSha256": [],
+    "nonPublishablePageIds": ["kynurenine", "metal-disease-matrix", "metformin", "methanobrevibacter-smithii", "neisseria-meningitidis", "oxalobacter"]
+  },
   "reviewStandard": "Only exact neutral L-kynurenine and neutral metformin are cleared for one immutable heavy-atom connectivity call each. The matrix and three microorganism routes fail stable-subject, category, or morphology-authority gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 0,
