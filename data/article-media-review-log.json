@@ -17037,6 +17037,84 @@
       ],
       "requiredResolution": "Choose one material or operational exposure definition, dose, population, comparator, ovarian-cancer scope, specimen, assay, time point, endpoint, and evidence tier.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed material or exposure and measured state pass a new audit."
+    },
+    {
+      "pageId": "dietary-fiber-ckd",
+      "controlledIdentifier": "MeSH:D004043;MeSH:D051436;heterogeneous-fiber-class-and-CKD-regimen;below-source-threshold",
+      "batchId": "interventions-104",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Two sources remain below threshold and the route combines several fiber chemistries, food matrices, doses, CKD stages, metabolites, taxa, and outcomes rather than one controlled material and regimen.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68004043",
+        "https://www.ncbi.nlm.nih.gov/mesh/68051436",
+        "local:data/content.generated.json#/pages/dietary-fiber-ckd"
+      ],
+      "requiredResolution": "Choose exact fiber identity and source, composition, processing state, dose and schedule, CKD stage and population, comparator, specimen, assay, time point, endpoint, and sufficient direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed material and regimen pass a new audit."
+    },
+    {
+      "pageId": "exercise-schizophrenia",
+      "controlledIdentifier": "MeSH:D015444;MeSH:D012559;broad-behavioral-intervention;below-source-threshold",
+      "batchId": "interventions-104",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "One source and a broad exercise descriptor do not fix modality, intensity, duration, supervision, population, concomitant care, measurement, or outcome; person-centered imagery could also imply or stigmatize schizophrenia.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68015444",
+        "https://www.ncbi.nlm.nih.gov/mesh/68012559",
+        "local:data/content.generated.json#/pages/exercise-schizophrenia"
+      ],
+      "requiredResolution": "Choose exact exercise modality, intensity, frequency, duration, supervision, population, treatment context, comparator, specimen, assay, time point, endpoint, and sufficient direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "faecalibacterium-restoration",
+      "controlledIdentifier": "NCBITaxon:853;restoration-intervention-not-organism-identity;zero-resolvable-sources",
+      "batchId": "interventions-104",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route is an intervention rather than an organism article and has no sources, strain, product, formulation, dose, delivery, viability, storage, population, comparator, engraftment assay, or endpoint.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=853&mode=Info",
+        "local:data/content.generated.json#/pages/faecalibacterium-restoration"
+      ],
+      "requiredResolution": "Choose exact strain or consortium, culture collection, product and formulation, viability specification, carrier, storage, dose, delivery and schedule, population, comparator, assay, time point, endpoint, and direct evidence.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed restoration intervention and measured state pass a new audit."
+    },
+    {
+      "pageId": "fmt-autism",
+      "controlledIdentifier": "MeSH:D000069467;MeSH:D000067877;investigational-protocol;zero-resolvable-sources",
+      "batchId": "interventions-104",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route has no sources and does not fix donor material, screening, processing, product, route, dose, schedule, recipient criteria, comparator, specimen, assay, time point, or endpoint for this investigational indication.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/2010004",
+        "https://www.ncbi.nlm.nih.gov/mesh/2009775",
+        "local:data/content.generated.json#/pages/fmt-autism"
+      ],
+      "requiredResolution": "Choose an evidence-backed donor or manufactured preparation, screening and processing standard, route, dose and schedule, population, comparator, specimen, assay, time point, endpoint, and direct source set.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed protocol and measured state pass a new audit."
+    },
+    {
+      "pageId": "fmt-intervention",
+      "controlledIdentifier": "MeSH:D000069467;heterogeneous-donor-product-route-and-indication;zero-resolvable-sources",
+      "batchId": "interventions-104",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route has no sources and collapses donor-derived and manufactured products, multiple routes, schedules, indications, screening practices, engraftment states, metabolites, and outcomes.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/2010004",
+        "local:data/content.generated.json#/pages/fmt-intervention"
+      ],
+      "requiredResolution": "Choose one preparation, screening and manufacturing state, delivery protocol, indication and population, comparator, specimen, assay, time point, endpoint, and direct source set.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one evidence-backed protocol and measured state pass a new audit."
     }
   ],
   "revisedAssets": [
