@@ -9,6 +9,7 @@ import {
   initialMediaBaseline,
   loadCanonicalMediaRoutes,
   mediaCoverageGroups,
+  selectNextMediaBatch,
 } from "./article-media-corpus.mjs";
 import { activeMediaReviewStatuses, assertBatchPromptIntegrity, assertMediaOutputAudit, parseStrictJson } from "./article-media-batch-validation.mjs";
 
@@ -179,12 +180,8 @@ const categories = mediaCoverageGroups.map((group) => {
 });
 
 const completed = queue.filter((route) => route.status === "reviewed").length;
-const firstOpenGroup = categories.find((group) => queue.some((route) => route.coverageGroup === group.id && route.status === "queued"));
-const nextBatch = firstOpenGroup
-  ? queue
-      .filter((route) => route.coverageGroup === firstOpenGroup.id && route.status === "queued")
-      .slice(0, reviewLog.reviewableBatchSize)
-      .map(({ queuePosition, id, title, route, category, coverageGroup, suggestedAssetType, controlledIdentifier }) => ({
+const nextBatch = selectNextMediaBatch(queue, reviewLog.reviewableBatchSize)
+      .map(({ queuePosition, id, title, route, category, coverageGroup, suggestedAssetType, controlledIdentifier, status, rejectedMedia }) => ({
         queuePosition,
         id,
         title,
@@ -193,8 +190,17 @@ const nextBatch = firstOpenGroup
         coverageGroup,
         suggestedAssetType,
         ...(controlledIdentifier ? { controlledIdentifier } : {}),
-      }))
-  : [];
+        ...(status === "rejected" && rejectedMedia?.disposition === "revise"
+          ? {
+              revisionOf: {
+                batchId: rejectedMedia.batchId,
+                disposition: rejectedMedia.disposition,
+                reason: rejectedMedia.reason,
+                ...(rejectedMedia.requiredResolution ? { requiredResolution: rejectedMedia.requiredResolution } : {}),
+              },
+            }
+          : {}),
+      }));
 
 const digest = (path) => createHash("sha256").update(readFileSync(path)).digest("hex");
 const program = {

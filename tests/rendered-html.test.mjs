@@ -16,6 +16,7 @@ import { getArticleAliases, getArticleIdentityRegistry, validateArticleIdentityP
 import { applyPublicContentPolicy, publicContentExclusionReason } from "../scripts/public-content-policy.mjs";
 import { normalizeSourceMetadata } from "../scripts/source-metadata-policy.mjs";
 import { assertMediaOutputAudit } from "../scripts/article-media-batch-validation.mjs";
+import { selectNextMediaBatch } from "../scripts/article-media-corpus.mjs";
 
 const mediaProgram = JSON.parse(readFileSync(new URL("../data/article-media-coverage.generated.json", import.meta.url), "utf8"));
 
@@ -2959,17 +2960,16 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
   assert.match(batch032PromptRecord, /10\.1016\/S0723-2020\(85\)80015-1/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-33-3-618/);
   assert.match(batch032PromptRecord, /10\.1099\/00207713-52-5-1615/);
-  const firstQueuedRecord = program.queue.find((record) => record.status === "queued");
-  const expectedNextBatch = firstQueuedRecord
-    ? program.queue
-        .filter((record) => record.coverageGroup === firstQueuedRecord.coverageGroup && record.status === "queued")
-        .slice(0, reviewLog.reviewableBatchSize)
-        .map((record) => record.id)
-    : [];
+  const expectedNextBatch = selectNextMediaBatch(program.queue, reviewLog.reviewableBatchSize).map((record) => record.id);
   assert.deepEqual(program.nextBatch.map((record) => record.id), expectedNextBatch);
+  for (const record of program.nextBatch.filter((record) => record.revisionOf)) {
+    assert.equal(record.revisionOf.disposition, "revise");
+    assert.ok(record.revisionOf.batchId);
+    assert.ok(record.revisionOf.reason);
+  }
   const unresolvedRejectedIds = new Set(
     reviewLog.rejectedAssets
-      .filter((asset) => asset.disposition !== "scientific-identity-hold-resolved" && !["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition))
+      .filter((asset) => asset.disposition !== "scientific-identity-hold-resolved" && asset.disposition !== "revise" && !["scientific-identity-hold", "scientific-media-hold", "quarantined-scientific-interpretation-conflict"].includes(asset.disposition))
       .map((asset) => asset.pageId),
   );
   assert.ok(!program.nextBatch.some((record) => unresolvedRejectedIds.has(record.id)), "deterministic nextBatch must skip every unresolved rejected or quarantined route");

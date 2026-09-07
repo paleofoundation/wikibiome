@@ -151,3 +151,29 @@ export function assertCanonicalMediaCorpus(routes) {
     }
   }
 }
+
+export function selectNextMediaBatch(queue, batchSize) {
+  if (!Number.isInteger(batchSize) || batchSize < 1) throw new Error("Scientific media batch size must be a positive integer.");
+
+  const firstQueued = queue.find((route) => route.status === "queued");
+  if (firstQueued) {
+    return queue
+      .filter((route) => route.coverageGroup === firstQueued.coverageGroup && route.status === "queued")
+      .slice(0, batchSize);
+  }
+
+  // Once every canonical route has received an initial disposition, continue
+  // only the explicitly revisable failures. Scientific holds, quarantines,
+  // safety refusals, and permanent rejections remain fail-closed.
+  const firstRevision = queue.find(
+    (route) => route.status === "rejected" && route.rejectedMedia?.disposition === "revise",
+  );
+  if (!firstRevision) return [];
+  return queue
+    .filter(
+      (route) => route.coverageGroup === firstRevision.coverageGroup
+        && route.status === "rejected"
+        && route.rejectedMedia?.disposition === "revise",
+    )
+    .slice(0, batchSize);
+}
