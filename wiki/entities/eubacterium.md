@@ -20,7 +20,7 @@ pathogenic_potential: commensal
 
 # Eubacterium
 
-A genus of Gram-positive, obligate anaerobic bacteria within the Firmicutes phylum that includes several of the most important butyrate producers in the human colon. Key species are *E. rectale*, *E. hallii* (now reclassified as *Anaerobutyricum hallii*), and *E. limosum*. Consistently depleted in inflammatory and cardiometabolic diseases, Eubacterium species are part of the core SCFA-producing guild alongside [[faecalibacterium-prausnitzii]] and [[roseburia]].
+A genus of Gram-positive, obligate anaerobic bacteria within the Firmicutes phylum that includes several of the most important [[butyrate]] producers in the human colon. Key species are *E. rectale*, *E. hallii* (now reclassified as *Anaerobutyricum hallii*), and *E. limosum*. Consistently depleted in inflammatory and cardiometabolic diseases, Eubacterium species are part of the core SCFA-producing guild alongside [[faecalibacterium-prausnitzii]] and [[roseburia]].
 
 ## Butyrate Production
 

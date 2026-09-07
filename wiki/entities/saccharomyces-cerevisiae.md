@@ -130,7 +130,7 @@ S. boulardii is a thermotolerant derivative of *S. cerevisiae* selected for surv
 ### Multiple Sclerosis
 - Dysbiotic MS signatures include elevated fecal *S. cerevisiae* and *[[candida-albicans]]*, with 1,608 fungal isolates (24 species) recovered from MS patients vs 392 from healthy donors [[gargano-2022-mait-cells-gut-yeasts-ms-brain]].
 - *S. boulardii* suppresses *Candida* overgrowth, reducing LPS translocation and systemic inflammation.
-- Yeast fermentation metabolites (butyrate-like effects from lactate) support SCFA-producing bacteria.
+- Yeast fermentation metabolites ([[butyrate]]-like effects from lactate) support SCFA-producing bacteria.
 
 ### Traveler's Diarrhea and CDAD
 - *S. boulardii* prevents antibiotic-associated diarrhea (AAD) via *C. difficile* suppression (McFarland 2010).

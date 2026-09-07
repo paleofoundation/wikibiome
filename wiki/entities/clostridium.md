@@ -25,7 +25,7 @@ A large, polyphyletic genus of Gram-positive, obligate anaerobic, spore-forming 
 ## Beneficial Species
 
 ### Clusters IV and XIVa (Reclassified)
-- The dominant butyrate-producing communities in the healthy human colon, representing up to 40% of total fecal bacteria.
+- The dominant [[butyrate]]-producing communities in the healthy human colon, representing up to 40% of total fecal bacteria.
 - Depleted in [[multiple-sclerosis]]: loss reduces SCFA production, impairs Treg differentiation and anti-inflammatory cytokine output [[bronzini-2023-feeding-gut-microbiome-ms]].
 - Depleted across [[crohns-disease]], IBD broadly, [[colorectal-cancer]], and [[cardiovascular-disease]].
 - Induce colonic Tregs via butyrate-HDAC inhibition, a cornerstone of mucosal immune tolerance.

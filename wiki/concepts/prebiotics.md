@@ -64,5 +64,5 @@ Prebiotic fiber may reduce heavy metal absorption through multiple mechanisms:
 
 - [[probiotics]] -- live microbial supplementation
 - [[short-chain-fatty-acids]] -- primary prebiotic fermentation products
-- [[butyrate]] -- key end-product of prebiotic fermentation
+- butyrate -- key end-product of prebiotic fermentation
 - [[mediterranean-diet]] -- dietary pattern rich in prebiotic substrates

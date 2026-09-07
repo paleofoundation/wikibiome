@@ -92,7 +92,7 @@ The gut microbiome contributes to Aβ aggregation through multiple upstream path
 
 - Curli-mediated cross-seeding: *E. coli* curli fibers structurally cross-seed mammalian amyloid aggregation
 - LPS-driven BACE1 upregulation: Systemic LPS from Gram-negative pathobionts increases Aβ production
-- SCFA depletion: Loss of butyrate-producing bacteria removes BBB protection and anti-inflammatory brakes
+- SCFA depletion: Loss of [[butyrate]]-producing bacteria removes BBB protection and anti-inflammatory brakes
 - [[blood-brain-barrier|Blood-brain-barrier]] failure: Gut-derived LPS and heavy metals disrupt BBB [[tight-junctions|tight junctions]], allowing metal-laden and microbial products to reach brain parenchyma where they accelerate metal-Aβ aggregation
 
 ## Therapeutic Implications

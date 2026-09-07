@@ -35,7 +35,7 @@ pathogenic_potential: commensal
 - This pectin-degrading specialization links *Lachnospira* abundance directly to dietary fiber intake and plant-rich diets.
 - As a member of the Lachnospiraceae family, it contributes to the broader SCFA-producing consortium that maintains gut barrier integrity and modulates systemic immune function.
 - Produces formate as a key metabolite — a substrate that cross-feeds to methanogens and acetogens in the anaerobic fermentation network.
-- Unlike butyrate-dominant Lachnospiraceae members (*Roseburia*, *Anaerostipes*, *Coprococcus*), *Lachnospira* emphasizes acetate production, which contributes to Th2 immune regulation and colonocyte substrate provisioning through different mechanisms.
+- Unlike [[butyrate]]-dominant Lachnospiraceae members (*Roseburia*, *Anaerostipes*, *Coprococcus*), *Lachnospira* emphasizes acetate production, which contributes to Th2 immune regulation and colonocyte substrate provisioning through different mechanisms.
 
 ## Metal Dependencies
 

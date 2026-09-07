@@ -62,6 +62,6 @@ Barrier failure is measurable: elevated [[zonulin]], lactulose/mannitol ratio, s
 - [[intestinal-permeability]] — clinical concept of "leaky gut"
 - [[zonulin]] — tight junction opener
 - [[endotoxemia]] — consequence of barrier failure
-- [[butyrate]] — primary tight junction protector via HDAC inhibition
+- butyrate — primary tight junction protector via HDAC inhibition
 - [[inflammation]] — cytokines disrupt tight junctions
 - [[cadmium]] — direct tight junction toxicity

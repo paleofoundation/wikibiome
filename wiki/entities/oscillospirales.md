@@ -32,7 +32,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Oscillospirales
 
-An order of Gram-positive, obligate anaerobic bacteria within the class Clostridia (phylum Firmicutes) that has emerged as one of the most consistent markers of a healthy gut ecosystem. Oscillospirales members are butyrate producers associated with leanness and metabolic health, yet the order remains paradoxically understudied because many of its key taxa resist laboratory cultivation. Depletion of Oscillospirales is observed in breast cancer, obesity, and metabolic syndrome, positioning this order alongside [[lachnospiraceae]] and [[christensenellaceae]] as part of the health-associated SCFA-producing backbone of the [[gut-microbiome]].
+An order of Gram-positive, obligate anaerobic bacteria within the class Clostridia (phylum Firmicutes) that has emerged as one of the most consistent markers of a healthy gut ecosystem. Oscillospirales members are [[butyrate]] producers associated with leanness and metabolic health, yet the order remains paradoxically understudied because many of its key taxa resist laboratory cultivation. Depletion of Oscillospirales is observed in breast cancer, obesity, and metabolic syndrome, positioning this order alongside [[lachnospiraceae]] and [[christensenellaceae]] as part of the health-associated SCFA-producing backbone of the [[gut-microbiome]].
 
 ## Taxonomy
 
@@ -91,6 +91,6 @@ Oscillospirales appear in bile acid dysmetabolism patterns associated with CKD p
 - [[christensenellaceae]] -- co-depleted in breast cancer; another health-associated family
 - [[dialister]] -- co-depleted in breast cancer; Veillonellaceae succinate producer
 - [[breast-cancer]] -- Oscillospirales depletion as part of SCFA-producing cluster loss
-- [[butyrate]] -- the primary beneficial metabolite produced by Oscillospirales
+- butyrate -- the primary beneficial metabolite produced by Oscillospirales
 - [[lachnospiraceae]] -- functionally parallel butyrate-producing order
 - [[bile-acid-metabolism]] -- secondary bile acid transformation by Oscillospirales members

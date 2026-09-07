@@ -129,7 +129,7 @@ This stage-specific enrichment pattern suggests *P. stomatis* accelerates the ad
 |---------|------------------|
 | [[parvimonas-micra]] | Biofilm nucleator; iron scavenger; direct epithelial adhesin; supports *P. stomatis* microaerophilic niche |
 | [[fusobacterium-nucleatum]] | FadA invasin; barrier breacher; further enables colibactin penetration to epithelium |
-| [[clostridium-symbiosum]] | Bile acid metabolism → chronic inflammation; suppressed butyrate → lower pH → favors anaerobic *P. stomatis* growth |
+| [[clostridium-symbiosum]] | Bile acid metabolism → chronic inflammation; suppressed [[butyrate]] → lower pH → favors anaerobic *P. stomatis* growth |
 | Toxigenic [[bacteroides-fragilis]] (BFT+) | BFT toxin → epithelial barrier disruption; reduced epithelial integrity enables colibactin access to nuclei |
 | pks+ [[escherichia-coli]] (AIEC, EAEC) | Synergistic colibactin production; redundant genotoxicity |
 

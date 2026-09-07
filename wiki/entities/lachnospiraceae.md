@@ -30,7 +30,7 @@ Lachnospiraceae depletion recurs across an extraordinary range of diseases, maki
 - Parkinson's disease: consistently reduced alongside Prevotellaceae; their loss increases gut permeability and facilitates alpha-synuclein propagation [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - Inflammatory bowel disease: depleted in both Crohn's disease and ulcerative colitis; inversely correlated with disease activity.
 - Colorectal cancer: depleted in CRC patients, with lifestyle factors (smoking, alcohol) further reducing abundance [[hoang-2023-dysbiotic-microbiome-crc-lifestyles-metabolic]]. Ketogenic diet intervention restores Lachnospiraceae NK4A136 [[gao-2026-ketogenic-diet-fxr-nfkb-crc]].
-- Cardiovascular disease: 12 of 23 differentially abundant taxa in CAD belonged to Lachnospiraceae, including *Anaerosporobacter* and NK4B4 group [[toya-2020-coronary-artery-disease-altered-gut-microbiome]]. Butyrate-producing members depleted in ACVD [[jie-2017-gut-microbiome-acvd]].
+- Cardiovascular disease: 12 of 23 differentially abundant taxa in CAD belonged to Lachnospiraceae, including *Anaerosporobacter* and NK4B4 group [[toya-2020-coronary-artery-disease-altered-gut-microbiome]]. [[butyrate]]-producing members depleted in ACVD [[jie-2017-gut-microbiome-acvd]].
 - Autism spectrum disorder: depleted in ASD children, correlating with reduced SCFA levels.
 - Type 2 diabetes: reduced in T2D; inversely correlated with HbA1c.
 

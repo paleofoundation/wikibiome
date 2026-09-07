@@ -60,7 +60,7 @@ A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant [
 ## SCFA Production and Immune Modulation
 
 - Produces acetate and lactate via the "bifid shunt" (fructose-6-phosphate phosphoketolase pathway).
-- Acetate production strengthens gut barrier integrity and provides substrate for butyrate production by cross-feeding partners like [[faecalibacterium-prausnitzii]] [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
+- Acetate production strengthens gut barrier integrity and provides substrate for [[butyrate]] production by cross-feeding partners like [[faecalibacterium-prausnitzii]] [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 - Promotes regulatory T cell development and anti-inflammatory IL-10 production.
 - Competes with pathogens for ecological niches without requiring nickel-dependent virulence factors [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 

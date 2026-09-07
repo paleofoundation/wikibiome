@@ -57,7 +57,7 @@ POI patients show distinct [[gut-microbiome]] alterations compared to age-matche
 - Bacteroides enrichment — Elevated Bacteroides species in POI patients; in mouse models, [[bacteroides-fragilis]] gavage caused ovarian fibrosis, providing causal evidence that specific gut bacteria can directly damage ovarian tissue [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]]
 - Prevotella enrichment — Enriched in POI; gram-negative anaerobe associated with gut [[inflammation]] and altered sex hormone profiles
 - Dialister enrichment — Correlates with FSH and LH levels, suggesting a direct gut-endocrine connection
-- [[faecalibacterium-prausnitzii]] depletion — Loss of this major butyrate producer reduces the anti-inflammatory SCFA buffer, potentially contributing to ovarian inflammation
+- [[faecalibacterium-prausnitzii]] depletion — Loss of this major [[butyrate]] producer reduces the anti-inflammatory SCFA buffer, potentially contributing to ovarian inflammation
 - [[beta-glucuronidase]] producers — Enrichment of beta-glucuronidase-producing taxa disrupts estrogen metabolism through deconjugation and enterohepatic recirculation, part of the broader [[estrobolome]] dysregulation
 
 ## Metal Associations

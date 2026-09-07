@@ -30,7 +30,7 @@ platform: wikibiome
 
 ## Key Features
 
-- Butyrate production: Produces butyrate via the acetyl-CoA pathway, making it functionally similar to [[faecalibacterium-prausnitzii]] but with the advantage of spore-forming stability (survives gastric transit, shelf-stable).
+- [[butyrate]] production: Produces butyrate via the acetyl-CoA pathway, making it functionally similar to [[faecalibacterium-prausnitzii]] but with the advantage of spore-forming stability (survives gastric transit, shelf-stable).
 - Lactate utilization: Converts lactate to butyrate, preventing harmful lactate accumulation in the gut [[louis-2022-microbial-lactate-utilisation-gut-stability]].
 - T2D/testosterone: Case report of probiotic + lifestyle intervention improving T2D and testosterone [[griffith-2026-lifestyle-probiotic-t2d-testosterone-case-report]].
 - MDD: Depleted in MDD with nickel-metal toxicity (NiMeTox) microbiome signature [[maes-2026-shotgun-metagenomics-mdd-nimetox]].
@@ -38,7 +38,7 @@ platform: wikibiome
 
 ## Cross-References
 
-- [[butyrate]] — primary metabolic output
+- butyrate — primary metabolic output
 - [[clostridium]] — genus context
 - [[faecalibacterium-prausnitzii]] — functional parallel (both butyrate producers)
 - [[short-chain-fatty-acids]] — broader SCFA context

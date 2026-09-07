@@ -40,7 +40,7 @@ The phylum's abundance relative to Firmicutes -- the Firmicutes/Bacteroidetes (F
 | [[porphyromonas-gingivalis]] | *P. gingivalis* | Periodontal pathogen; Mn-SOD; gingipain proteases |
 | [[odoribacter]] | *O. splanchnicus* | Fe-S dependent anaerobic fermentation |
 | [[parabacteroides]] | *P. distasonis* | Bile acid deconjugation; anti-inflammatory |
-| [[butyricimonas]] | Multiple species | Butyrate production (unusual for Bacteroidetes) |
+| [[butyricimonas]] | Multiple species | [[butyrate]] production (unusual for Bacteroidetes) |
 | [[alloprevotella]] | Multiple species | Oral and gut commensal |
 
 ## Metabolic Roles

@@ -30,7 +30,7 @@ Microbiota → Metal fate. Gut bacteria modify metal speciation, bioavailability
 ### High-Fat, Low-Fiber Diet
 The combination most hostile to gut health also amplifies metal toxicity [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota]]:
 - HFD increases gut permeability, allowing more metal translocation to systemic circulation
-- HFD depletes butyrate-producing bacteria that maintain gut barrier integrity
+- HFD depletes [[butyrate]]-producing bacteria that maintain gut barrier integrity
 - Mice on HFD showed increased As, Cd, and Pb accumulation in liver and kidney
 - HFD mice excreted less metal in feces — meaning more was absorbed
 - HFD also alters the gut resistome, increasing antibiotic resistance genes that co-select with metal resistance [[shen-2025-high-fat-low-fiber-diet-gut-resistome]]

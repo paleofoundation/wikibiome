@@ -44,7 +44,7 @@ Celiac disease is associated with a characteristic gut [[dysbiosis]] documented 
 Depleted:
 - [[bifidobacterium]] (especially *B. longum* and *B. adolescentis*) -- consistently reduced across paediatric and adult cohorts (Collado et al. 2009; De Palma et al. 2010; Golfetto et al. 2014)
 - [[lactobacillus]] -- reduced luminal and mucosal populations, correlating with impaired gluten peptide degradation
-- *Faecalibacterium prausnitzii* and other [[lachnospiraceae]] -- butyrate producers whose loss worsens epithelial energy deficit in the setting of villous atrophy
+- *Faecalibacterium prausnitzii* and other [[lachnospiraceae]] -- [[butyrate]] producers whose loss worsens epithelial energy deficit in the setting of villous atrophy
 - *Prevotella* spp. -- depleted in active disease
 
 Enriched:
@@ -59,7 +59,7 @@ This dysbiosis pattern overlaps substantially with other conditions in this know
 
 ## Metabolomic Signature
 
-- Short-chain fatty acids ([[butyrate]], propionate, acetate) -- reduced due to depletion of SCFA-producing *Faecalibacterium* and *Lachnospiraceae*; compounds epithelial repair deficit.
+- Short-chain fatty acids (butyrate, propionate, acetate) -- reduced due to depletion of SCFA-producing *Faecalibacterium* and *Lachnospiraceae*; compounds epithelial repair deficit.
 - Tryptophan metabolites -- altered indole/AhR ligand production due to loss of *Lactobacillus reuteri* and related species, impairing [[ahr]] signalling and Treg induction (Lamas et al. 2016).
 - Bile acids -- secondary bile acid profile shifted in treated celiac patients (Wacklin et al. 2014), with implications for FXR-mediated intestinal barrier regulation.
 - Zonulin -- elevated serum levels signal active tight-junction disassembly; a biomarker of the "leaky gut" phase of celiac pathogenesis.

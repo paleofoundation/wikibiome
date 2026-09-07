@@ -38,7 +38,7 @@ Broad-spectrum antibiotics are the most acute cause of dysbiosis. A single cours
 
 ### Diet
 
-Low-fiber, high-fat, high-sugar Western diets starve SCFA-producing bacteria of fermentable substrate, reducing butyrate output and shifting communities toward Bacteroides-dominant profiles. Conversely, high-fiber and Mediterranean-pattern diets support microbial diversity and SCFA production. Specific dietary metals (nickel in legumes and nuts, iron in red meat, cadmium in leafy greens) introduce metal-driven selection pressures superimposed on macronutrient effects.
+Low-fiber, high-fat, high-sugar Western diets starve SCFA-producing bacteria of fermentable substrate, reducing [[butyrate]] output and shifting communities toward Bacteroides-dominant profiles. Conversely, high-fiber and Mediterranean-pattern diets support microbial diversity and SCFA production. Specific dietary metals (nickel in legumes and nuts, iron in red meat, cadmium in leafy greens) introduce metal-driven selection pressures superimposed on macronutrient effects.
 
 ### Stress and the HPA Axis
 
@@ -186,7 +186,7 @@ Ultimately, restoring eubiosis requires addressing the upstream cause. Reducing 
 - [[nf-kappa-b]] -- downstream inflammatory signaling from dysbiosis-derived LPS
 - [[nutritional-immunity]] -- host metal restriction can inadvertently worsen dysbiosis
 - [[short-chain-fatty-acids]] -- the primary protective metabolites lost in dysbiosis
-- [[butyrate]] -- the key colonocyte fuel and HDAC inhibitor depleted in dysbiosis
+- butyrate -- the key colonocyte fuel and HDAC inhibitor depleted in dysbiosis
 - [[fecal-microbiota-transplant]] -- therapeutic community replacement for severe dysbiosis
 - [[probiotics]] -- targeted microbial supplementation to counter dysbiosis
 - [[mediterranean-diet]] -- the best-evidenced dietary pattern for supporting eubiosis

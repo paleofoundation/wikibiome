@@ -28,5 +28,5 @@ Ketone bodies (beta-hydroxybutyrate [BHB], acetoacetate, acetone) are produced b
 ## Cross-References
 
 - [[ketogenic-diet]] — intervention producing ketone bodies
-- [[butyrate]] — structural/functional analogue (both HDAC inhibitors)
+- butyrate — structural/functional analogue (both HDAC inhibitors)
 - [[lipid-metabolism]] — hepatic fatty acid oxidation source

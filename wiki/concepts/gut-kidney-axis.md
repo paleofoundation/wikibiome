@@ -52,7 +52,7 @@ As kidney function declines [[alobaidi-2025-gut-kidney-axis-ckd-mechanisms-thera
 
 1. Urea influx: Elevated blood urea diffuses into the intestinal lumen, where bacterial [[urease]] hydrolyzes it to [[ammonia]]. Ammonia raises luminal pH, favoring Proteobacteria over acid-producing commensals.
 2. Fluid and electrolyte shifts: Altered colonic transit and fluid handling change the gut microenvironment
-3. Dietary restrictions: CKD dietary protocols (low potassium, low phosphorus) inadvertently reduce fiber intake, starving butyrate-producing bacteria
+3. Dietary restrictions: CKD dietary protocols (low potassium, low phosphorus) inadvertently reduce fiber intake, starving [[butyrate]]-producing bacteria
 4. Medications: Phosphate binders, antibiotics, and iron supplements reshape the microbiome
 5. Impaired metal excretion: Cadmium, lead, and other nephrotoxic metals accumulate, exerting selective pressure on gut bacteria (see [[chronic-kidney-disease]])
 
@@ -131,4 +131,4 @@ Understanding the gut-kidney axis opens intervention opportunities:
 - [[indoles]] -- tryptophan-derived signaling molecules
 - dysbiosis -- microbial community disruption
 - [[intestinal-permeability]] -- barrier dysfunction
-- [[butyrate]] -- protective SCFA depleted in CKD
+- butyrate -- protective SCFA depleted in CKD

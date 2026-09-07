@@ -45,7 +45,7 @@ Anaerotruncus species require iron for anaerobic metabolism. Their expansion in 
 
 ## Ecological Role
 
-In healthy adults, Anaerotruncus occupies a low-abundance niche. Its enrichment in elderly cohorts correlates with reduced microbial diversity and declining butyrate-producing communities. Unlike beneficial Ruminococcaceae members such as *Faecalibacterium prausnitzii*, Anaerotruncus does not appear to produce significant butyrate, and its expansion may signal a functional shift within the family.
+In healthy adults, Anaerotruncus occupies a low-abundance niche. Its enrichment in elderly cohorts correlates with reduced microbial diversity and declining [[butyrate]]-producing communities. Unlike beneficial Ruminococcaceae members such as *Faecalibacterium prausnitzii*, Anaerotruncus does not appear to produce significant butyrate, and its expansion may signal a functional shift within the family.
 
 ## Conditions Associated
 

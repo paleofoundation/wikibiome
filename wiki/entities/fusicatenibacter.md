@@ -37,7 +37,7 @@ conditions_depleted_in:
 
 ## Overview
 
-Fusicatenibacter is a Gram-positive obligate anaerobic genus within the Lachnospiraceae (Firmicutes). The primary species, *F. saccharivorans*, was isolated from human feces and is recognized as a beneficial commensal that produces butyrate and modulates intestinal immune responses.
+Fusicatenibacter is a Gram-positive obligate anaerobic genus within the Lachnospiraceae (Firmicutes). The primary species, *F. saccharivorans*, was isolated from human feces and is recognized as a beneficial commensal that produces [[butyrate]] and modulates intestinal immune responses.
 
 ## Metal Dependencies
 
@@ -53,7 +53,7 @@ Fusicatenibacter is consistently depleted in [[inflammatory-bowel-disease]] (bot
 
 ## Cross-References
 
-- [[butyrate]] — metabolic output
+- butyrate — metabolic output
 - [[lachnospiraceae]] — taxonomic family
 - [[iron]] — competitive vulnerability
 - [[inflammatory-bowel-disease]] — depleted in disease

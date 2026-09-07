@@ -20,11 +20,11 @@ karen_brain_primitives: [5]
 
 ## Overview
 
-BDNF is the primary neurotrophin supporting neuronal survival, synaptic plasticity, and memory formation in the hippocampus and prefrontal cortex. Reduced BDNF is a consistent finding in depression, schizophrenia, and neurodegeneration. The [[gut-microbiome]] modulates BDNF through butyrate-mediated HDAC inhibition and vagal nerve signaling.
+BDNF is the primary neurotrophin supporting neuronal survival, synaptic plasticity, and memory formation in the hippocampus and prefrontal cortex. Reduced BDNF is a consistent finding in depression, schizophrenia, and neurodegeneration. The [[gut-microbiome]] modulates BDNF through [[butyrate]]-mediated HDAC inhibition and vagal nerve signaling.
 
 ## Microbiome → BDNF Pathway
 
-- [[butyrate]] crosses the blood-brain barrier and acts as an HDAC inhibitor, directly upregulating BDNF gene transcription in the hippocampus [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]].
+- butyrate crosses the blood-brain barrier and acts as an HDAC inhibitor, directly upregulating BDNF gene transcription in the hippocampus [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]].
 - Germ-free mice show reduced hippocampal BDNF — colonization with commensals restores it.
 - Probiotic supplementation (Bifidobacterium, Lactobacillus) increases serum BDNF in clinical trials [[ng-2019-probiotics-schizophrenia-symptoms-systematic-review]].
 - Gut microbiome composition correlates with dopamine, serotonin, and BDNF levels in schizophrenia [[ghorbani-2024-gut-microbiome-dopamine-serotonin-bdnf-schizophrenia]].
@@ -38,7 +38,7 @@ BDNF is the primary neurotrophin supporting neuronal survival, synaptic plastici
 
 ## Cross-References
 
-- [[butyrate]] — HDAC inhibitor that upregulates BDNF transcription
+- butyrate — HDAC inhibitor that upregulates BDNF transcription
 - [[gut-brain-axis]] — BDNF as microbiome-modulated neurotrophic mediator
 - [[serotonin]] — BDNF and serotonin have reciprocal regulatory relationships
 - [[depression]] — reduced BDNF as core biomarker

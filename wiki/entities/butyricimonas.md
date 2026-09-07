@@ -20,7 +20,7 @@ pathogenic_potential: commensal
 
 # Butyricimonas
 
-A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (family Odoribacteraceae). Despite its relatively recent characterization, *Butyricimonas* has gained significant attention as a member of the protective butyrate-producing consortium that is consistently depleted in inflammatory and autoimmune conditions. Key species include *B. virosa* and *B. synergistica*.
+A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum (family Odoribacteraceae). Despite its relatively recent characterization, *Butyricimonas* has gained significant attention as a member of the protective [[butyrate]]-producing consortium that is consistently depleted in inflammatory and autoimmune conditions. Key species include *B. virosa* and *B. synergistica*.
 
 ## Role in Gut Ecosystem
 

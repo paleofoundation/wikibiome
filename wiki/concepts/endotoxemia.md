@@ -61,4 +61,4 @@ Metabolic endotoxemia is documented across:
 - [[nf-kappa-b]] — signaling pathway activated by LPS/TLR4
 - [[interleukin-6]] — key cytokine in endotoxemia-driven inflammation
 - dysbiosis — microbial imbalance increasing luminal LPS
-- [[short-chain-fatty-acids]] — butyrate maintains barrier integrity; depletion enables endotoxemia
+- [[short-chain-fatty-acids]] — [[butyrate]] maintains barrier integrity; depletion enables endotoxemia

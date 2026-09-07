@@ -41,7 +41,7 @@ The primary ecological function of HMOs is to selectively nourish [[bifidobacter
 
 The metabolic products of HMO fermentation by Bifidobacterium include:
 - Acetate and lactate: Lower intestinal pH, directly suppressing Proteobacteria growth.
-- Cross-feeding substrates: Support downstream butyrate producers.
+- Cross-feeding substrates: Support downstream [[butyrate]] producers.
 
 ## NEC Prevention -- The Ecological Package
 

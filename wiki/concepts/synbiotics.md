@@ -28,7 +28,7 @@ The ISAPP (International Scientific Association for Probiotics and Prebiotics) d
 Synbiotics engage Primitive 5 (Two-Sided Ecological Engineering) by simultaneously:
 
 1. Introducing beneficial organisms -- the probiotic component competes with pathobionts for niches and nutrients.
-2. Fueling SCFA production -- the prebiotic component provides fermentable substrate for butyrate and propionate producers ([[firmicutes]] commensals like [[faecalibacterium-prausnitzii]], [[roseburia]], [[bifidobacterium]]).
+2. Fueling SCFA production -- the prebiotic component provides fermentable substrate for [[butyrate]] and propionate producers ([[firmicutes]] commensals like [[faecalibacterium-prausnitzii]], [[roseburia]], [[bifidobacterium]]).
 3. Acidifying the colonic environment -- SCFA production lowers luminal pH, favoring anaerobic commensals over pH-sensitive [[proteobacteria]].
 4. Restoring cross-feeding networks -- prebiotic fermentation products (acetate, lactate) are converted to butyrate by secondary fermenters like [[anaerostipes]].
 
@@ -76,7 +76,7 @@ Synbiotics are particularly relevant to WikiBiome's thesis because:
 
 - [[probiotics]] -- The live microorganism component
 - [[short-chain-fatty-acids]] -- Primary output boosted by synbiotics
-- [[butyrate]] -- Key metabolite restored by synbiotic intervention
+- butyrate -- Key metabolite restored by synbiotic intervention
 - [[firmicutes]] -- Phylum housing the SCFA producers synbiotics aim to restore
 - [[bifidobacterium]] -- Common probiotic genus in synbiotic formulations
 - [[iron-sulfur-clusters]] -- Metabolic vulnerability that synbiotics help compensate for

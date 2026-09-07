@@ -41,7 +41,7 @@ The [[gut-microbiome]] is both a target and a driver of IL-6 signaling:
 ### Dysbiosis Drives IL-6
 
 - LPS-rich Gram-negatives (Bacteroides in dysbiosis, Prevotella) activate TLR4, driving pro-inflammatory IL-6 and IL-8 production [[Chen2023-gut-microbiota-inflammatory-mendelian-covid]].
-- In ASD children, plasma IL-6 was nearly 4-fold elevated (20.54 vs. 5.54 pg/ml, p = 0.0001) alongside enrichment of Clostridium, Desulfovibrio, and depletion of butyrate-producing Lachnospiraceae [[cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd]].
+- In ASD children, plasma IL-6 was nearly 4-fold elevated (20.54 vs. 5.54 pg/ml, p = 0.0001) alongside enrichment of Clostridium, Desulfovibrio, and depletion of [[butyrate]]-producing Lachnospiraceae [[cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd]].
 - In GERD, esophageal dysbiosis activates TLR2/TLR4 signaling, elevating IL-6 and impairing epithelial barrier integrity through a feed-forward inflammatory loop [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]].
 
 ### Commensals Suppress IL-6

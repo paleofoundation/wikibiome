@@ -31,7 +31,7 @@ Cerebral palsy (CP) is the most common motor disability in childhood, affecting 
 4. Microglial activation in white matter produces reactive oxygen species, damaging oligodendrocyte precursor cells
 5. White matter injury (periventricular leukomalacia) results — the neuropathological hallmark of CP
 
-Klebsiella serves as a predictive biomarker: its overgrowth in preterm [[gut-microbiome]] samples precedes and predicts brain injury [[wang-2023-microbial-gut-brain-white-matter-preterm]]. SCFAs (especially butyrate) can cross the BBB and promote myelination via HDAC inhibition — their depletion compounds the injury. This creates a potential window for intervention before irreversible damage occurs.
+Klebsiella serves as a predictive biomarker: its overgrowth in preterm [[gut-microbiome]] samples precedes and predicts brain injury [[wang-2023-microbial-gut-brain-white-matter-preterm]]. SCFAs (especially [[butyrate]]) can cross the BBB and promote myelination via HDAC inhibition — their depletion compounds the injury. This creates a potential window for intervention before irreversible damage occurs.
 
 ## Microbiome Associations
 

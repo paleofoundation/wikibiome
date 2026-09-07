@@ -101,7 +101,7 @@ Streptococcus thermophilus is a Gram-positive, facultative anaerobic coccus that
 
 ### Short-Chain Fatty Acid Complementarity
 
-- While *S. thermophilus* itself produces primarily lactate (not butyrate or propionate), it creates acidic microenvironments that favor butyrate-producing bacteria [[faecalibacterium-prausnitzii]], [[roseburia]]
+- While *S. thermophilus* itself produces primarily lactate (not [[butyrate]] or propionate), it creates acidic microenvironments that favor butyrate-producing bacteria [[faecalibacterium-prausnitzii]], [[roseburia]]
 - Cross-feeding dynamics: Lactate produced by *S. thermophilus* is converted to propionate by [[veillonella]] and butyrate by [[clostridium]] cluster IV species
 - This creates a metabolic network where S. thermophilus plays an upstream role in SCFA production via ecological engineering
 

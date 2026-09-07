@@ -37,7 +37,7 @@ Among the most disruptive non-antibiotic drugs for the microbiome. PPIs raise ga
 The first-line [[type-2-diabetes]] drug has profound microbiome effects that may partly explain its therapeutic action. Metformin increases Akkermansia muciniphila, enhances [[short-chain-fatty-acids]] production, and improves gut barrier function. Some of metformin's "side effects" (GI distress) are microbiome-mediated. The drug also affects metal handling -- metformin lowers vitamin B12 absorption (cobalt-containing vitamin), linking pharmacomicrobiomics to metallomics.
 
 ### Antibiotics
-The most obvious microbiome disruptors. Even a single course of broad-spectrum antibiotics can shift the microbiome for months to years, depleting [[lactobacillus]], [[bifidobacterium]], and butyrate producers while selecting for resistant pathobionts. Antibiotic-induced dysbiosis alters metal absorption and increases [[intestinal-permeability]].
+The most obvious microbiome disruptors. Even a single course of broad-spectrum antibiotics can shift the microbiome for months to years, depleting [[lactobacillus]], [[bifidobacterium]], and [[butyrate]] producers while selecting for resistant pathobionts. Antibiotic-induced dysbiosis alters metal absorption and increases [[intestinal-permeability]].
 
 ### Statins
 Emerging evidence that statins (atorvastatin, rosuvastatin) influence bile acid metabolism via the microbiome, with microbiome composition predicting statin response. Bile acids in turn affect metal solubility and absorption in the gut.

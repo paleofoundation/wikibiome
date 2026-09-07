@@ -104,7 +104,7 @@ A particularly concerning feature: metal resistance genes and antibiotic resista
 Proteobacteria bloom represents a phase transition in gut ecology -- not a gradual shift but a tipping point:
 
 - In a healthy anaerobic gut, Proteobacteria are kept below 1% by competitive exclusion from abundant SCFA producers.
-- When SCFA production drops (from Firmicutes Fe-S damage, antibiotic exposure, or dietary changes), butyrate-fueled colonocyte oxygen consumption decreases.
+- When SCFA production drops (from Firmicutes Fe-S damage, antibiotic exposure, or dietary changes), [[butyrate]]-fueled colonocyte oxygen consumption decreases.
 - Luminal oxygen rises, favoring facultative aerobes.
 - Proteobacteria expand, produce LPS, drive inflammation, further oxygenate the lumen.
 - The system locks into a self-reinforcing dysbiotic state.

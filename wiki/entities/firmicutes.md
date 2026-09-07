@@ -25,7 +25,7 @@ conditions_depleted_in: [ibd, crohns-disease, ulcerative-colitis, parkinsons-dis
 
 Firmicutes (recently reclassified as Bacillota) is the dominant bacterial phylum in the Western adult gut, comprising the core community of short-chain fatty acid (SCFA) producers that maintain intestinal barrier integrity, regulate immune function, and influence systemic metabolism. Together with [[bacteroidetes]], Firmicutes typically account for >90% of the gut microbiota.
 
-What distinguishes Firmicutes in the WikiBiome context is a critical vulnerability: virtually all major butyrate-producing Firmicutes depend on [[iron-sulfur-clusters]] for their core metabolic enzymes. This shared Fe-S dependency makes butyrate production the primary casualty of heavy metal exposure -- toxic metals (Cd, Pb, Cu, Ni) that damage Fe-S clusters selectively deplete exactly the organisms most important for gut health.
+What distinguishes Firmicutes in the WikiBiome context is a critical vulnerability: virtually all major [[butyrate]]-producing Firmicutes depend on [[iron-sulfur-clusters]] for their core metabolic enzymes. This shared Fe-S dependency makes butyrate production the primary casualty of heavy metal exposure -- toxic metals (Cd, Pb, Cu, Ni) that damage Fe-S clusters selectively deplete exactly the organisms most important for gut health.
 
 ## Key Genera with WikiBiome Entity Pages
 
@@ -118,6 +118,6 @@ High-fiber and [[mediterranean-diet]] interventions consistently increase SCFA-p
 - [[proteobacteria]] -- Phylum that expands when Firmicutes SCFA producers decline
 - [[iron-sulfur-clusters]] -- The shared metabolic vulnerability of butyrate producers
 - [[short-chain-fatty-acids]] -- Primary output of Firmicutes fermentation
-- [[butyrate]] -- Key metabolite produced by Firmicutes
+- butyrate -- Key metabolite produced by Firmicutes
 - dysbiosis -- Firmicutes depletion as dysbiosis marker
 - [[gut-microbiome]] -- Firmicutes as dominant phylum

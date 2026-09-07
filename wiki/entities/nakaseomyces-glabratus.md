@@ -56,7 +56,7 @@ A remarkable finding: [[copper]] and [[zinc]] ions ameliorate iron chelation eff
 
 ### Immune Evasion Through Metabolite Sensing
 
-Like *C. albicans*, *C. glabrata* modulates its visibility to the immune system based on the metabolic environment. Lactate triggers beta-glucan masking (hiding from immune detection), while short-chain fatty acids (butyrate, acetate) cause unmasking ([[alves-2020-candida-adapting-survive-host-constraints]], expert-opinion). This means the metabolic balance of the gut environment directly determines whether *C. glabrata* is visible to immune surveillance -- a dysbiotic, lactate-rich, butyrate-poor environment favors fungal stealth.
+Like *C. albicans*, *C. glabrata* modulates its visibility to the immune system based on the metabolic environment. Lactate triggers beta-glucan masking (hiding from immune detection), while short-chain fatty acids ([[butyrate]], acetate) cause unmasking ([[alves-2020-candida-adapting-survive-host-constraints]], expert-opinion). This means the metabolic balance of the gut environment directly determines whether *C. glabrata* is visible to immune surveillance -- a dysbiotic, lactate-rich, butyrate-poor environment favors fungal stealth.
 
 ### In the Mycobiome of Type 2 Diabetes
 
@@ -86,6 +86,6 @@ NR-6226C synergizes strongly with fluconazole against *C. albicans* and related 
 - [[candidozyma-auris]] -- Current-name record for the historically named *Candida auris*
 - [[iron]] -- Central metabolic dependency; iron chelation as therapeutic strategy
 - [[mis-metallation]] -- Cu2+/Zn2+ compensation for iron chelation via protein mis-metallation
-- [[butyrate]] -- Triggers immune unmasking of Candida; ecological lever for anti-fungal defense
+- butyrate -- Triggers immune unmasking of Candida; ecological lever for anti-fungal defense
 - [[antimicrobial-resistance]] -- Intrinsic fluconazole resistance; iron chelation as alternative strategy
 - [[type-2-diabetes]] -- Mycobiome-dominant variance signature in T2DM

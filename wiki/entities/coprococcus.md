@@ -20,7 +20,7 @@ pathogenic_potential: commensal
 
 # Coprococcus
 
-A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family (Firmicutes phylum). *Coprococcus* is one of the most important butyrate-producing commensals in the human gut and has gained particular attention as the "happiness bug" -- one of very few taxa directly linked to mental health outcomes through population-level studies. Key species include *C. eutactus* and *C. catus*, both prolific [[short-chain-fatty-acids]] producers.
+A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family (Firmicutes phylum). *Coprococcus* is one of the most important [[butyrate]]-producing commensals in the human gut and has gained particular attention as the "happiness bug" -- one of very few taxa directly linked to mental health outcomes through population-level studies. Key species include *C. eutactus* and *C. catus*, both prolific [[short-chain-fatty-acids]] producers.
 
 ## Role in Gut Ecosystem
 

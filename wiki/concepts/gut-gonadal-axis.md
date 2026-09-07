@@ -44,7 +44,7 @@ This axis explains why reproductive disorders such as [[pcos]], [[female-inferti
 ### Microbiome to Gonads
 
 - Estrobolome: The collective bacterial gene set encoding [[beta-glucuronidase]] and other estrogen-metabolizing enzymes. Enrichment of beta-glucuronidase-producing taxa (e.g., [[escherichia-coli]], [[bacteroides-fragilis]]) increases circulating estrogen through deconjugation and enterohepatic recirculation. This drives estrogen-dependent conditions including [[endometriosis]] and [[breast-cancer]].
-- SCFA signaling: Butyrate and propionate influence hypothalamic GnRH neurons via free fatty acid receptors (FFAR2/3), modulating pulsatile gonadotropin release. SCFA depletion from [[dysbiosis]] may contribute to anovulation.
+- SCFA signaling: [[butyrate]] and propionate influence hypothalamic GnRH neurons via free fatty acid receptors (FFAR2/3), modulating pulsatile gonadotropin release. SCFA depletion from [[dysbiosis]] may contribute to anovulation.
 - Inflammatory cytokines: LPS-driven TNF-alpha and IL-6 directly suppress ovarian steroidogenesis and impair follicular development.
 
 ### Gonads to Microbiome

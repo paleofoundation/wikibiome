@@ -26,7 +26,7 @@ Cross-feeding (syntrophy) is the metabolic cooperation in which one organism's w
 
 ### Acetate → Butyrate Conversion
 - Acetate producers (Bacteroides, Bifidobacterium) generate acetate from dietary fiber.
-- Butyrate producers ([[faecalibacterium-prausnitzii]], [[roseburia]], Eubacterium) convert acetate to butyrate via butyryl-CoA:acetate CoA-transferase.
+- [[butyrate]] producers ([[faecalibacterium-prausnitzii]], [[roseburia]], Eubacterium) convert acetate to butyrate via butyryl-CoA:acetate CoA-transferase.
 - This two-step chain means butyrate production depends on acetate availability — disrupting acetate producers indirectly depletes butyrate.
 
 ### Lactate → Butyrate Conversion
@@ -47,7 +47,7 @@ Cross-feeding explains several clinical observations:
 ## Cross-References
 
 - [[short-chain-fatty-acids]] — the primary products of cross-feeding chains
-- [[butyrate]] — end product of acetate→butyrate and lactate→butyrate chains
+- butyrate — end product of acetate→butyrate and lactate→butyrate chains
 - [[competitive-exclusion]] — competitive counterpart
 - [[functional-shielding]] — interkingdom metal cross-feeding in biofilms
 - [[dietary-fiber]] — substrate that initiates the cross-feeding cascade

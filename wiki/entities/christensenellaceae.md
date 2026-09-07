@@ -37,7 +37,7 @@ Christensenellaceae members require iron for their fermentation enzymes but appe
 
 Christensenellaceae are not pathogenic. Their enzymatic profile reflects a saccharolytic fermentation strategy:
 
-- Acetate and butyrate production: The family produces short-chain fatty acids from dietary fiber, contributing to colonic epithelial nutrition and anti-inflammatory signaling.
+- Acetate and [[butyrate]] production: The family produces short-chain fatty acids from dietary fiber, contributing to colonic epithelial nutrition and anti-inflammatory signaling.
 - Hydrogen production: Christensenellaceae members produce H2 during fermentation, which supports syntrophic relationships with methanogens like *Methanobrevibacter smithii*. This cross-feeding partnership may explain the association between Christensenellaceae abundance and lean body mass -- efficient H2 disposal by methanogens optimizes fermentation energy extraction.
 
 ## Ecological Role

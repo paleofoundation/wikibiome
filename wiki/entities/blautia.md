@@ -24,7 +24,7 @@ A genus of Gram-positive, obligate anaerobic bacteria within the [[lachnospirace
 
 ## SCFA Production and Bile Acid Metabolism
 
-- Produces acetate as its primary fermentation end-product, with some species also generating butyrate and propionate.
+- Produces acetate as its primary fermentation end-product, with some species also generating [[butyrate]] and propionate.
 - *B. hydrogenotrophica* is a unique acetogen that converts H2 and CO2 into acetate via the Wood-Ljungdahl pathway, providing a critical hydrogen sink in the gut ecosystem.
 - Active in bile acid transformation: deconjugation via bile salt hydrolase (BSH) activity and downstream secondary bile acid modifications. This places Blautia at the intersection of lipid metabolism and gut-liver axis signaling.
 - Bile acid metabolism by Blautia affects FXR and TGR5 receptor signaling, influencing cholesterol homeostasis, glucose metabolism, and [[inflammation]].

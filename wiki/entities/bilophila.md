@@ -26,7 +26,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 ### Taurine to H2S Pathway
 - *B. wadsworthia* metabolizes taurine (from taurine-conjugated bile acids) via taurine dehydrogenase, producing hydrogen sulfide (H2S) as an end product.
-- H2S is genotoxic, inhibits butyrate oxidation in colonocytes, and disrupts the mucus barrier.
+- H2S is genotoxic, inhibits [[butyrate]] oxidation in colonocytes, and disrupts the mucus barrier.
 - Taurine-conjugated bile acids increase with high-saturated-fat diets, providing the metabolic substrate that fuels *B. wadsworthia* expansion.
 
 ### Hydrogen Utilization

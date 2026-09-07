@@ -59,7 +59,7 @@ Like other Bacteroides, *B. caccae* requires iron for various metabolic processe
 
 ## Ecological Role
 
-In the healthy gut, *B. caccae* contributes to the primary degradation of dietary fiber, releasing oligosaccharides and simple sugars that cross-feed butyrate-producing Firmicutes. Its loss through metal-induced depletion therefore has cascading effects on the broader community's SCFA output — a mechanism by which prenatal metal exposure can produce functional consequences that persist years beyond the original exposure.
+In the healthy gut, *B. caccae* contributes to the primary degradation of dietary fiber, releasing oligosaccharides and simple sugars that cross-feed [[butyrate]]-producing Firmicutes. Its loss through metal-induced depletion therefore has cascading effects on the broader community's SCFA output — a mechanism by which prenatal metal exposure can produce functional consequences that persist years beyond the original exposure.
 
 ## Lead Sensitivity — The Defining Feature
 

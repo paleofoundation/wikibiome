@@ -55,7 +55,7 @@ Iron deficiency (with or without anemia) is a major contributor to depression, p
 Depression is increasingly recognized as a gut-brain disorder:
 
 ### Microbiome Signatures
-- Depleted: Coprococcus, Dialister, Faecalibacterium prausnitzii (butyrate producers with anti-inflammatory properties), Bifidobacterium, Lactobacillus [[zhu-2025-microbiota-gut-brain-axis-depression-review]] [[capuco-2020-gut-microbiome-dysbiosis-depression-review]]
+- Depleted: Coprococcus, Dialister, Faecalibacterium prausnitzii ([[butyrate]] producers with anti-inflammatory properties), Bifidobacterium, Lactobacillus [[zhu-2025-microbiota-gut-brain-axis-depression-review]] [[capuco-2020-gut-microbiome-dysbiosis-depression-review]]
 - Enriched: Eggerthella, Enterobacteriaceae, Flavonifractor
 - These shifts reduce [[short-chain-fatty-acids]] production and increase LPS translocation; fecal microbiota from depressed patients transplanted into microbiota-depleted rats recapitulates the depressive phenotype [[capuco-2020-gut-microbiome-dysbiosis-depression-review]]
 

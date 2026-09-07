@@ -45,7 +45,7 @@ What makes Megamonas notable in the WikiBiome context is its contradictory direc
 
 ## SCFA Production Profile
 
-Unlike the dominant butyrate producers ([[faecalibacterium-prausnitzii]], [[roseburia]]), Megamonas primarily produces propionate and valerate:
+Unlike the dominant [[butyrate]] producers ([[faecalibacterium-prausnitzii]], [[roseburia]]), Megamonas primarily produces propionate and valerate:
 
 - Enrichment in constipated ASD children was associated with elevated propionate levels [[he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese]].
 - Enrichment in ASD more broadly was associated with elevated valeric acid [[liu-2019-altered-gut-microbiota-scfa-chinese-children-asd]].

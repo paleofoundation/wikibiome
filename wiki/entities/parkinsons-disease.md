@@ -104,7 +104,7 @@ A multi-step causal framework links metals to PD through the gut [[pendergrass-2
 ### PD-Specific Dysbiosis Pattern
 
 - PD patients consistently show reduced Prevotellaceae, Lachnospiraceae, Roseburia, and Faecalibacterium (all SCFA producers) with increased Enterobacteriaceae, Akkermansia, and Verrucomicrobiaceae [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[khatoon-2023-gut-microbiota-neurodegenerative]] [[romano-2021-meta-analysis-gut-microbiome-parkinsons]].
-- Reduced fecal and serum SCFAs (butyrate, propionate, acetate) correlate with motor symptom severity [[tan-2022-gut-microbiome-scfas-parkinsons-review]] [[aho-2021-gut-microbiome-scfas-inflammation-parkinsons]].
+- Reduced fecal and serum SCFAs ([[butyrate]], propionate, acetate) correlate with motor symptom severity [[tan-2022-gut-microbiome-scfas-parkinsons-review]] [[aho-2021-gut-microbiome-scfas-inflammation-parkinsons]].
 - Endotoxemia disrupts BBB and increases alpha-synuclein deposition [[gentile-2020-diet-microbiota-brain-health]] [[weis-2022-altered-gut-microbiome-lps-alpha-synuclein-parkinsons]].
 
 ## Environmental Metal Exposure Links

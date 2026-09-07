@@ -53,7 +53,7 @@ Intravenous CaNa2EDTA remains a standard treatment for acute lead poisoning (blo
 
 EDTA's effects on the [[gut-microbiome]] are an area of emerging concern:
 
-- Essential metal stripping: By chelating luminal iron, zinc, and manganese, EDTA disrupts the metal-dependent enzymes of commensal bacteria. Butyrate-producing Firmicutes with iron-sulfur cluster enzymes are particularly vulnerable — their SCFA production pathways depend on metals that EDTA removes indiscriminately.
+- Essential metal stripping: By chelating luminal iron, zinc, and manganese, EDTA disrupts the metal-dependent enzymes of commensal bacteria. [[butyrate]]-producing Firmicutes with iron-sulfur cluster enzymes are particularly vulnerable — their SCFA production pathways depend on metals that EDTA removes indiscriminately.
 - Barrier disruption: EDTA chelates calcium from [[tight-junctions|tight junction]] complexes (E-cadherin is calcium-dependent), directly increasing intestinal permeability. This is why 51Cr-EDTA excretion is used as a clinical measure of gut barrier function — EDTA itself crosses a healthy barrier poorly, but a compromised barrier allows passage.
 - Pathogen advantage: Metal-resistant organisms (those carrying efflux pumps like cadA, czc, or mer operons) may be relatively protected from EDTA's chelation effects, while metal-sensitive commensals are disproportionately affected. This could paradoxically shift the community toward the very organisms that thrive in metal-dysregulated environments.
 - Biofilm disruption: EDTA destabilizes biofilms by chelating the divalent cations (Ca2+, Mg2+, Fe2+) that crosslink the EPS matrix — a potentially beneficial effect against pathobiont biofilms but disruptive to commensal biofilm communities.

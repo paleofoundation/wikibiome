@@ -40,7 +40,7 @@ The [[gut-brain-axis]] provides a major pathway by which peripheral events drive
 
 ### LPS Translocation Pathway
 1. Metal-induced [[dysbiosis]] enriches gram-negative, LPS-producing Enterobacteriaceae.
-2. Loss of [[short-chain-fatty-acids]] (butyrate) compromises gut barrier integrity.
+2. Loss of [[short-chain-fatty-acids]] ([[butyrate]]) compromises gut barrier integrity.
 3. LPS translocates into systemic circulation ("metabolic endotoxemia").
 4. Circulating LPS activates microglia via TLR4/[[nf-kappa-b]] signaling [[gao-2023-microglia-neurodegenerative-diseases]].
 5. Activated microglia release neurotoxic mediators, damaging neurons.

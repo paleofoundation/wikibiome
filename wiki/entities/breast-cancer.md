@@ -89,7 +89,7 @@ A critical methodological note: the Sister Study using toenail biomarkers found 
 The microbiome connection operates through several metal-relevant pathways:
 
 - Estrobolome: Beta-glucuronidase-producing gut bacteria deconjugate estrogen metabolites, increasing circulating estrogen levels. Metal-induced [[dysbiosis]] can shift the estrobolome toward greater deconjugation activity, amplifying estrogenic stimulation of breast tissue.
-- SCFA and immune modulation: Loss of butyrate-producing bacteria compromises intestinal barrier integrity and anti-inflammatory signaling, both relevant to cancer immune surveillance.
+- SCFA and immune modulation: Loss of [[butyrate]]-producing bacteria compromises intestinal barrier integrity and anti-inflammatory signaling, both relevant to cancer immune surveillance.
 - Cadmium-microbiome interactions: Cd exposure at low doses specifically decreases Akkermansia muciniphila and disrupts [[tight-junctions|tight junction]] integrity, promoting systemic [[inflammation]].
 - Diet-microbiome-metal nexus: *Hungatella* (enriched in breast cancer) is associated with TMAO and choline metabolism; *Acidaminococcus* presence correlated with lower whole fruit intake, suggesting dietary patterns that also affect metal exposure.
 

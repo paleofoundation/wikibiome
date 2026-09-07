@@ -85,7 +85,7 @@ Gut barrier dysfunction is implicated in virtually every disease in this wiki, b
 - [[zonulin]] -- the physiological regulator of paracellular permeability
 - dysbiosis -- microbiome disruption as both cause and consequence
 - inflammation -- systemic inflammation from barrier breach
-- [[butyrate]] -- SCFA that fuels the barrier
+- butyrate -- SCFA that fuels the barrier
 - [[siderophores]] -- iron competition that follows barrier-driven inflammation
 - [[gut-brain-axis]] -- how barrier failure reaches the brain
 - [[calprotectin]] -- biomarker of intestinal inflammation

@@ -74,7 +74,7 @@ IS is a significant driver of cardiovascular disease in both CKD and non-CKD pop
 
 [[cadmium|Cadmium]] exposure upregulates indoxyl sulfate production, directly connecting metal exposure to the pro-atherogenic tryptophan metabolite pathway [[cadmium]], [[cardiovascular-disease]]. The mechanism:
 
-1. Cd selectively kills metal-sensitive commensals (Lactobacillus, Clostridium butyrate producers).
+1. Cd selectively kills metal-sensitive commensals (Lactobacillus, Clostridium [[butyrate]] producers).
 2. Metal-resistant Proteobacteria (high tryptophanase activity) expand.
 3. Increased tryptophanase activity converts more tryptophan to indole.
 4. Hepatic sulfation produces more IS.

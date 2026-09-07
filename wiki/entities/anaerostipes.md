@@ -118,7 +118,7 @@ Wikipedia has no *Anaerostipes* entry. This page provides: prevalence data for *
 
 ## Cross-References
 
-- [[butyrate]] — primary product from lactate conversion
+- butyrate — primary product from lactate conversion
 - [[candida-albicans]] — enabled by lactate accumulation from Anaerostipes loss; beta-glucan masking
 - [[bifidobacterium]] — upstream lactate producer in the cross-feeding chain
 - [[lactobacillus]] — upstream lactate producer

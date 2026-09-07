@@ -38,7 +38,7 @@ conditions_depleted_in:
 
 ## Overview
 
-Roseburia intestinalis is a Gram-positive, obligate anaerobic member of the Lachnospiraceae family (Firmicutes). It is one of the most important butyrate producers in the human colon, converting dietary fiber into [[butyrate]] — the primary energy source for colonocytes and a key regulator of intestinal immune homeostasis.
+Roseburia intestinalis is a Gram-positive, obligate anaerobic member of the Lachnospiraceae family (Firmicutes). It is one of the most important [[butyrate]] producers in the human colon, converting dietary fiber into butyrate — the primary energy source for colonocytes and a key regulator of intestinal immune homeostasis.
 
 ## Metal Dependencies
 
@@ -54,7 +54,7 @@ Depletion of R. intestinalis is a consistent signature across [[inflammatory-bow
 
 ## Cross-References
 
-- [[butyrate]] — primary metabolic output
+- butyrate — primary metabolic output
 - [[iron]] — growth requirement, competitive vulnerability
 - [[lachnospiraceae]] — taxonomic family
 - [[dysbiosis]] — depleted in inflammatory states

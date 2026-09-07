@@ -35,7 +35,7 @@ The COVID-19 pandemic brought renewed attention to ME/CFS because [[long-covid]]
 
 A meta-analysis of gut microbiome studies in severe mental illness and chronic fatigue identified consistent dysbiosis in ME/CFS [[safadi-2022-gut-dysbiosis-severe-mental-illness-chronic-fatigue-meta-analysis]]:
 
-- Depleted: [[faecalibacterium-prausnitzii]], [[bifidobacterium]], [[roseburia]] -- butyrate-producing anti-inflammatory commensals
+- Depleted: [[faecalibacterium-prausnitzii]], [[bifidobacterium]], [[roseburia]] -- [[butyrate]]-producing anti-inflammatory commensals
 - Enriched: [[enterobacteriaceae]], [[enterococcus]], certain Clostridium species
 - Functional: Reduced SCFA production, increased intestinal permeability, elevated LPS translocation
 
@@ -126,4 +126,4 @@ The ME/CFS gut-brain axis involves:
 - [[toll-like-receptors]] -- innate immune interface
 - [[neuroinflammation]] -- brain [[inflammation]] pathway
 - [[intestinal-permeability]] -- barrier dysfunction
-- [[butyrate]] -- depleted protective SCFA
+- butyrate -- depleted protective SCFA

@@ -32,7 +32,7 @@ pathogenic_potential: commensal
 
 # Ruminococcus albus
 
-Ruminococcus albus is a Gram-positive, obligate anaerobic bacterium that represents one of the primary cellulolytic (fiber-degrading) specialists in the human gut microbiota. This species constructs cellulosomes — extraordinary multi-enzyme complexes organized on bacterial cell surfaces — that enable efficient conversion of dietary plant fiber (cellulose, hemicellulose) into acetate, propionate, and butyrate. Ruminococcus albus is dramatically depleted in low-fiber Western diets and represents a key indicator of microbiota health and dietary adequacy. Its restoration is central to any intervention aimed at optimizing fiber metabolism and short-chain fatty acid production.
+Ruminococcus albus is a Gram-positive, obligate anaerobic bacterium that represents one of the primary cellulolytic (fiber-degrading) specialists in the human gut microbiota. This species constructs cellulosomes — extraordinary multi-enzyme complexes organized on bacterial cell surfaces — that enable efficient conversion of dietary plant fiber (cellulose, hemicellulose) into acetate, propionate, and [[butyrate]]. Ruminococcus albus is dramatically depleted in low-fiber Western diets and represents a key indicator of microbiota health and dietary adequacy. Its restoration is central to any intervention aimed at optimizing fiber metabolism and short-chain fatty acid production.
 
 ## Taxonomy
 
@@ -180,7 +180,7 @@ Ruminococcus albus restoration is among the most important therapeutic targets i
 
 - – cellulose/hemicellulose primary substrate; essential for R. albus abundance
 - [[short-chain-fatty-acids]] – primary butyrate producer in high-fiber microbiota
-- [[butyrate]] – core fermentation product; defines health impact
+- butyrate – core fermentation product; defines health impact
 - [[type-2-diabetes]] – depleted in T2D; butyrate directly improves insulin sensitivity
 - [[cardiovascular-disease]] – protective marker; fiber fermentation reduces LDL and inflammation
 - [[inflammatory-bowel-disease]] – depleted in IBD flares; butyrate therapeutic for remission

@@ -28,7 +28,7 @@ Lipid metabolism — the synthesis, transport, and degradation of fats — is pr
 
 - Bile acid metabolism: Gut bacteria deconjugate and transform primary bile acids into secondary bile acids (deoxycholic acid, lithocholic acid), which act as signaling molecules via FXR and TGR5 receptors, regulating cholesterol synthesis and fat absorption [[rezen-2022-bile-acids-carcinogenesis-review]].
 - TMAO production: Microbial metabolism of choline/carnitine → trimethylamine → hepatic oxidation to [[tmao|TMAO]], which promotes atherosclerosis [[zhu-2023-gut-microbiota-metabolic-pathways-cvd]].
-- SCFA and lipogenesis: [[short-chain-fatty-acids]] (particularly propionate and butyrate) modulate hepatic lipogenesis and adipose tissue metabolism.
+- SCFA and lipogenesis: [[short-chain-fatty-acids]] (particularly propionate and [[butyrate]]) modulate hepatic lipogenesis and adipose tissue metabolism.
 - Sex-specific effects: Gut microbiome composition differs by sex, with distinct lipid metabolism implications for CVD risk [[razavi-2019-sex-gut-microbiome-cvd-risk]].
 
 ## Metal Interference

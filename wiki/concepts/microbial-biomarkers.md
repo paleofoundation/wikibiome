@@ -26,7 +26,7 @@ The use of [[gut-microbiome]] composition, microbial metabolites, or microbial p
 
 ### Diagnostic Depletion (Commensal Loss)
 - [[faecalibacterium-prausnitzii]] depletion for IBD: One of the most replicated microbiome findings; low F. prausnitzii predicts relapse in Crohn's disease.
-- Roseburia depletion: Reduced in IBD, CVD, and T2D; reflects loss of butyrate production capacity.
+- Roseburia depletion: Reduced in IBD, CVD, and T2D; reflects loss of [[butyrate]] production capacity.
 - [[akkermansia-muciniphila]] depletion: Low levels associated with metabolic syndrome, obesity, and response to immunotherapy.
 - [[bifidobacterium]] depletion: Reduced in multiple conditions including ASD, MS, and heavy-metal-exposed populations.
 

@@ -26,13 +26,13 @@ A genus of Gram-positive, strictly anaerobic bacteria in the family Erysipelotri
 
 ## Metal Dependencies
 
-*Holdemanella* species are obligate anaerobes with metabolic requirements typical of Firmicutes -- [[iron]]-dependent enzymes for anaerobic fermentation and butyrate production pathways. The genus remains poorly characterized at the metallomic level, representing an important research gap given its apparent ecological importance. <!-- NEEDS VERIFICATION: direct metallomic characterization of Holdemanella not yet published -->
+*Holdemanella* species are obligate anaerobes with metabolic requirements typical of Firmicutes -- [[iron]]-dependent enzymes for anaerobic fermentation and [[butyrate]] production pathways. The genus remains poorly characterized at the metallomic level, representing an important research gap given its apparent ecological importance. <!-- NEEDS VERIFICATION: direct metallomic characterization of Holdemanella not yet published -->
 
 ## Key Enzymes and Virulence Factors
 
 *Holdemanella* is not a pathogen; its biological significance lies in its beneficial metabolic contributions:
 
-- Butyrate production -- As a member of Erysipelotrichaceae, *Holdemanella* contributes to [[butyrate]] generation, supporting gut barrier integrity, colonocyte energy supply, and anti-inflammatory signaling
+- Butyrate production -- As a member of Erysipelotrichaceae, *Holdemanella* contributes to butyrate generation, supporting gut barrier integrity, colonocyte energy supply, and anti-inflammatory signaling
 - Saccharolytic fermentation -- Participates in carbohydrate fermentation pathways that compete with proteolytic (toxin-generating) metabolism
 
 ## Ecological Role
@@ -73,7 +73,7 @@ In a randomized controlled trial of probiotic supplementation during thyroid hor
 
 - [[inflammatory-bowel-disease]] -- Consistently depleted core commensal
 - [[postpartum-depression]] -- Causal MR protective evidence
-- [[butyrate]] -- Primary beneficial metabolite
+- butyrate -- Primary beneficial metabolite
 - [[hashimotos-thyroiditis]] -- Depleted in autoimmune thyroid disease
 - [[lachnospiraceae]] -- Co-depleted in IBD; fellow keystone commensal candidate
 - dysbiosis -- *Holdemanella* loss as a marker of ecological destabilization

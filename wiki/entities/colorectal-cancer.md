@@ -108,7 +108,7 @@ High dietary fat and red meat consumption increase secondary bile acid levels. W
 
 ## SCFAs as Protective Factors
 
-Short-chain fatty acids -- acetate, propionate, and butyrate constituting ~95% of total SCFAs at colonic concentrations of 70-100 mM -- are the primary protective metabolites against CRC.
+Short-chain fatty acids -- acetate, propionate, and [[butyrate]] constituting ~95% of total SCFAs at colonic concentrations of 70-100 mM -- are the primary protective metabolites against CRC.
 
 ### Butyrate and the Warburg Paradox
 

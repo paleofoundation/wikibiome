@@ -100,7 +100,7 @@ The gut microbiome does not passively reflect CKD — it is actively altered fro
 
 ### The Lachnospiraceae Collapse
 
-A landmark 16S rRNA study of 93 individuals across all CKD stages identified five butyrate-producing Lachnospiraceae genera consistently depleted in CKD stages 3–5D compared to controls [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]]:
+A landmark 16S rRNA study of 93 individuals across all CKD stages identified five [[butyrate]]-producing Lachnospiraceae genera consistently depleted in CKD stages 3–5D compared to controls [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]]:
 
 - Lachnospira — earliest signal: already reduced at CKD stage 3a (eGFR 45–59 mL/min/1.73m²)
 - Anaerostipes — depleted from stage 3b

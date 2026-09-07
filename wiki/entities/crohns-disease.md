@@ -54,7 +54,7 @@ CD is characterized by profound dysbiosis with reduced alpha diversity, the most
 
 | Taxon | Normal Function | Evidence |
 |-------|----------------|----------|
-| [[faecalibacterium-prausnitzii]] | Primary butyrate producer; anti-inflammatory (suppresses [[nf-kappa-b]], induces IL-10) | Most consistently depleted taxon across all CD cohorts; low abundance predicts post-surgical recurrence [[haag-2015-intestinal-microbiota-innate-immunity-crohns]] |
+| [[faecalibacterium-prausnitzii]] | Primary [[butyrate]] producer; anti-inflammatory (suppresses [[nf-kappa-b]], induces IL-10) | Most consistently depleted taxon across all CD cohorts; low abundance predicts post-surgical recurrence [[haag-2015-intestinal-microbiota-innate-immunity-crohns]] |
 | Roseburia | Butyrate and propionate production | Consistently reduced in CD; part of Clostridia cluster XIVa |
 | Clostridia clusters IV/XIVa | SCFA production, Treg induction | Depleted as a group; includes key butyrate producers |
 | [[lachnospiraceae-family]] | SCFA production, barrier support | Mendelian randomization confirms causal protective role; Lachnospiraceae UCG001 protective (OR: 0.81) [[liu-2022-mr-gut-microbial-genera-ibd-uc-cd]] |

@@ -49,7 +49,7 @@ Historical publications commonly use “*Eubacterium rectale*,” and several mi
 
 ## Reported Human-Microbiome Evidence
 
-The cited TEDDY record reports source-labeled *Eubacterium rectale* among short-chain-fatty-acid-producing taxa depleted in children who progressed to type 1 diabetes in a prospective cohort of 783 children [[vatanen-2018-teddy-gut-microbiome-t1d-nature]]. A cross-sectional CKD multi-omics study likewise reported source-labeled *E. rectale* depletion across its 88-participant severity cohort [[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]]. A 96-participant shotgun-metagenomics study of pancreatic ductal adenocarcinoma, autoimmune pancreatitis, and healthy controls reported *E. rectale* as a discriminating source-era species label and measured lower fecal butyrate in the cancer group [[zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics]]. These studies support cohort-specific associations, not causation or a clinical intervention.
+The cited TEDDY record reports source-labeled *Eubacterium rectale* among short-chain-fatty-acid-producing taxa depleted in children who progressed to type 1 diabetes in a prospective cohort of 783 children [[vatanen-2018-teddy-gut-microbiome-t1d-nature]]. A cross-sectional CKD multi-omics study likewise reported source-labeled *E. rectale* depletion across its 88-participant severity cohort [[wang-2023-perturbed-microbiome-metabolomes-ckd-severity]]. A 96-participant shotgun-metagenomics study of pancreatic ductal adenocarcinoma, autoimmune pancreatitis, and healthy controls reported *E. rectale* as a discriminating source-era species label and measured lower fecal [[butyrate]] in the cancer group [[zhou-2021-fecal-microbiota-pdac-autoimmune-pancreatitis-metagenomics]]. These studies support cohort-specific associations, not causation or a clinical intervention.
 
 Reviews cited by WikiBiome report historical *E. rectale* labels in cardiovascular and neurodegenerative literature [[rahman-2022-gut-microbiota-cvd-therapeutic-regulation]] [[almeida-2023-gut-microbiota-cardiovascular-axis]] [[khatoon-2023-gut-microbiota-neurodegenerative]]. Their summaries do not establish a disease-wide effect. Likewise, Mendelian-randomization records using the “*Eubacterium rectale* group” label concern a legacy genus-level feature rather than a verified *A. rectalis* species measurement [[chen-2024-gut-microbiota-six-thyroid-diseases-mr]] [[wang-2024-causal-gut-microbiota-gerd-bidirectional-mr]].
 
@@ -58,7 +58,7 @@ The current cited record set does not substantiate a species-specific metal requ
 ## Cross-References
 
 - [[lachnospiraceae-family]] — parent family context
-- [[butyrate]] — metabolite context reported by cited studies
+- butyrate — metabolite context reported by cited studies
 - [[type-1-diabetes]] — prospective-cohort association under the historical label
 - [[chronic-kidney-disease]] — cross-sectional association under the historical label
 - [[cardiovascular-disease]] — review-level historical-label context

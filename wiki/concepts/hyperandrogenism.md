@@ -25,7 +25,7 @@ The bidirectional relationship between the gut microbiome and sex hormones is ce
 ### Microbiome to Androgens
 
 - Beta-glucuronidase activity: Gut bacteria expressing [[beta-glucuronidase]] deconjugate glucuronidated androgens in the intestinal lumen, allowing reabsorption and increasing circulating androgen levels. This is the androgen equivalent of the [[estrobolome]] -- a microbial recycling system for sex hormones.
-- SCFA-mediated insulin sensitivity: [[short-chain-fatty-acids]] from gut commensals improve insulin sensitivity. When butyrate-producing taxa are depleted (as seen in PCOS), insulin resistance worsens, and hyperinsulinemia drives ovarian androgen production.
+- SCFA-mediated insulin sensitivity: [[short-chain-fatty-acids]] from gut commensals improve insulin sensitivity. When [[butyrate]]-producing taxa are depleted (as seen in PCOS), insulin resistance worsens, and hyperinsulinemia drives ovarian androgen production.
 - Bile acid metabolism: Gut bacteria transform primary bile acids into secondary bile acids that activate FXR and TGR5 receptors, influencing hepatic sex hormone-binding globulin (SHBG) production. Lower SHBG means more bioavailable testosterone.
 
 ### Androgens to Microbiome

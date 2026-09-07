@@ -60,7 +60,7 @@ Protective taxa:
 
 ### Functional Implications
 
-The enrichment of Lachnospiraceae in ED is notable because this family is typically considered beneficial in other contexts (butyrate production). The ED-associated enrichment may reflect specific pro-inflammatory species within the family, or an ecological shift where Lachnospiraceae displaces more protective taxa.
+The enrichment of Lachnospiraceae in ED is notable because this family is typically considered beneficial in other contexts ([[butyrate]] production). The ED-associated enrichment may reflect specific pro-inflammatory species within the family, or an ecological shift where Lachnospiraceae displaces more protective taxa.
 
 ## Cadmium as Reproductive Toxicant
 

@@ -26,7 +26,7 @@ Sustained elevation of systemic blood pressure, affecting an estimated 1.3 billi
 
 ### SCFA-Mediated BP Regulation
 SCFAs regulate blood pressure through opposing receptor systems:
-- GPR41 (FFAR3): Propionate and butyrate binding causes vasodilation and BP reduction via endothelial relaxation.
+- GPR41 (FFAR3): Propionate and [[butyrate]] binding causes vasodilation and BP reduction via endothelial relaxation.
 - Olfr78 (olfactory receptor 78, renal): Propionate and acetate binding on renal juxtaglomerular cells stimulates renin release, raising BP.
 - At physiological SCFA concentrations, the vasodilatory GPR41 effect dominates, producing net BP reduction [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
 - [[dysbiosis]]-driven SCFA depletion removes this vasodilatory brake, contributing to hypertension.

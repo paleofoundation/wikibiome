@@ -46,7 +46,7 @@ platform: wikibiome
 
 ## Overview
 
-*Ruminococcus bromii* is a Gram-positive, obligate anaerobic bacterium within the [[ruminococcaceae]] family and the primary keystone degrader of resistant starch in the human gut. Without *R. bromii*, the microbial community cannot efficiently access resistant starch types RS2 and RS3 — making this single species the rate-limiting organism for one of the most important prebiotic substrates in the human diet. Its degradation products fuel an extensive cross-feeding network that ultimately produces butyrate, positioning *R. bromii* as an ecological architect whose presence or absence determines the metabolic output of an entire community.
+*Ruminococcus bromii* is a Gram-positive, obligate anaerobic bacterium within the [[ruminococcaceae]] family and the primary keystone degrader of resistant starch in the human gut. Without *R. bromii*, the microbial community cannot efficiently access resistant starch types RS2 and RS3 — making this single species the rate-limiting organism for one of the most important prebiotic substrates in the human diet. Its degradation products fuel an extensive cross-feeding network that ultimately produces [[butyrate]], positioning *R. bromii* as an ecological architect whose presence or absence determines the metabolic output of an entire community.
 
 ## Metal Dependencies
 
@@ -86,7 +86,7 @@ This cross-feeding cascade means that *R. bromii* abundance determines not just 
 ## Cross-References
 
 - [[firmicutes]] — parent phylum; R. bromii degrades resistant starch for the broader Firmicutes community
-- [[butyrate]] — downstream metabolic product via cross-feeding
+- butyrate — downstream metabolic product via cross-feeding
 - [[faecalibacterium-prausnitzii]] — cross-feeding partner receiving acetate
 - [[lachnospira-eligens]] — complementary fiber degrader (pectin specialist vs. RS specialist)
 - [[bacteroides-thetaiotaomicron]] — complementary starch degrader (soluble starches)

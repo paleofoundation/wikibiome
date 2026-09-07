@@ -68,7 +68,7 @@ This metal-binding capacity positions *B. longum* alongside [[lactobacillus-rham
 
 - HMO glycosidases (subsp. *infantis*) — Sialidases, fucosidases, and N-acetylglucosaminidases that degrade human milk oligosaccharides. This HMO degradation capacity is the defining feature of the *infantis* subspecies and its critical role in infant gut colonization.
 - Bile salt hydrolase — Deconjugates bile acids, contributing to bile acid metabolism and [[fxr]] signaling
-- Acetate production — Primary SCFA product via the bifid shunt (fructose-6-phosphate phosphoketolase pathway); acetate cross-feeds butyrate producers
+- Acetate production — Primary SCFA product via the bifid shunt (fructose-6-phosphate phosphoketolase pathway); acetate cross-feeds [[butyrate]] producers
 
 ## Ecological Role
 

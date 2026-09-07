@@ -122,7 +122,7 @@ The metallomic view of microbiome-derived metabolites reveals a systematic patte
 ## Cross-References
 
 - [[short-chain-fatty-acids]] — the most studied class, with the most therapeutic evidence
-- [[butyrate]] — the flagship SCFA; anti-inflammatory, barrier-protective, epigenetic
+- butyrate — the flagship SCFA; anti-inflammatory, barrier-protective, epigenetic
 - [[propionic-acid]] — excess propionate and its neurotoxic effects in ASD
 - [[bile-acid-metabolism]] — secondary bile acid production and FXR/TGR5 signaling
 - [[tmao]] — cardiovascular risk metabolite; choline/carnitine → TMA → TMAO

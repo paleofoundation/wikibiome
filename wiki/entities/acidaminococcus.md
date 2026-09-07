@@ -43,7 +43,7 @@ Iron:
 
 - Glutamate dehydrogenase: Initiates glutamate catabolism, converting glutamate to 2-oxoglutarate. This enzyme's activity determines how effectively *Acidaminococcus* can exploit glutamate as an energy source.
 - Glutaconyl-CoA decarboxylase: A biotin-dependent sodium pump that couples glutamate fermentation to ATP synthesis via a sodium gradient. This energy-conserving strategy is the metabolic hallmark of the genus and explains its specificity for glutamate-rich environments.
-- Acetate and butyrate production: End products of glutamate fermentation include acetate and butyrate, though the overall metabolic impact may differ from fiber-derived SCFA production.
+- Acetate and [[butyrate]] production: End products of glutamate fermentation include acetate and butyrate, though the overall metabolic impact may differ from fiber-derived SCFA production.
 
 ## Ecological Role
 

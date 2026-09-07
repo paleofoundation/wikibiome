@@ -16,7 +16,7 @@ karen_brain_primitives: [1, 5, 9]
 
 A three-carbon short-chain fatty acid (SCFA) produced primarily by Bacteroidetes and certain Firmicutes through anaerobic fermentation of dietary substrates. At physiological concentrations in healthy gut microbiomes, propionic acid (PPA) is a normal fermentation product with beneficial systemic effects. In excess — driven by enrichment of propionate-producing taxa in dysbiotic microbiomes — it becomes a potent neurological disruptor with documented links to autism spectrum disorder (ASD) pathology.
 
-Propionic acid is the SCFA most directly implicated in gut-to-brain harm. Its dual nature — beneficial at normal concentrations, neurotoxic in excess — illustrates a fundamental principle: microbiome composition matters not just for which metabolites are present, but for their relative concentrations and ratios. The SCFA ratio (butyrate:propionate:acetate) is more informative than any individual metabolite in isolation.
+Propionic acid is the SCFA most directly implicated in gut-to-brain harm. Its dual nature — beneficial at normal concentrations, neurotoxic in excess — illustrates a fundamental principle: microbiome composition matters not just for which metabolites are present, but for their relative concentrations and ratios. The SCFA ratio ([[butyrate]]:propionate:acetate) is more informative than any individual metabolite in isolation.
 
 ## Production Pathways
 
@@ -123,7 +123,7 @@ Low-sugar, anti-Bacteroidetes diet: Reducing dietary sucrose and rapidly digesti
 
 ## Cross-References
 
-- [[butyrate]] — the neuroprotective SCFA whose ratio to PPA is the key variable
+- butyrate — the neuroprotective SCFA whose ratio to PPA is the key variable
 - [[autism-spectrum-disorder]] — primary disease association; PPA model is the leading gut-brain mechanism
 - [[bacteroides-fragilis]] — major succinate pathway propionate producer; consistently enriched in ASD
 - [[gut-brain-axis]] — the anatomical pathway linking gut PPA production to neurological effects

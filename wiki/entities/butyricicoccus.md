@@ -22,7 +22,7 @@ conditions_depleted_in: [colorectal-cancer, multiple-sclerosis, inflammatory-bow
 
 # Butyricicoccus
 
-A genus of Gram-positive, strictly anaerobic, butyrate-producing bacteria in the order Clostridiales (phylum Firmicutes). The type species, *Butyricicoccus pullicaecorum*, was originally isolated from chicken caecal content but has since been identified as a significant member of the healthy human [[gut-microbiome]]. *Butyricicoccus* has attracted attention as a candidate next-generation probiotic because of its consistent depletion in colorectal cancer, multiple sclerosis, and inflammatory bowel disease -- conditions characterized by impaired butyrate production and compromised gut barrier integrity.
+A genus of Gram-positive, strictly anaerobic, [[butyrate]]-producing bacteria in the order Clostridiales (phylum Firmicutes). The type species, *Butyricicoccus pullicaecorum*, was originally isolated from chicken caecal content but has since been identified as a significant member of the healthy human [[gut-microbiome]]. *Butyricicoccus* has attracted attention as a candidate next-generation probiotic because of its consistent depletion in colorectal cancer, multiple sclerosis, and inflammatory bowel disease -- conditions characterized by impaired butyrate production and compromised gut barrier integrity.
 
 ## Metal Dependencies
 
@@ -34,7 +34,7 @@ As a strictly anaerobic Firmicute, *Butyricicoccus* requires [[iron]] for iron-s
 
 - Butyryl-CoA dehydrogenase -- Key enzyme in the butyrate biosynthesis pathway via the acetyl-CoA route
 - Butyrate kinase -- Terminal enzyme in the butyrate kinase pathway for butyrate production
-- Short-chain fatty acid production -- [[butyrate|Butyrate]] is the primary metabolic output, serving as the preferred energy source for colonocytes and a potent anti-inflammatory signaling molecule
+- Short-chain fatty acid production -- Butyrate is the primary metabolic output, serving as the preferred energy source for colonocytes and a potent anti-inflammatory signaling molecule
 
 ## Ecological Role
 
@@ -60,7 +60,7 @@ As a strictly anaerobic Firmicute, *Butyricicoccus* requires [[iron]] for iron-s
 
 ## Cross-References
 
-- [[butyrate]] -- Primary metabolic product; loss of production linked to disease progression
+- butyrate -- Primary metabolic product; loss of production linked to disease progression
 - [[colorectal-cancer]] -- Consistent depletion across CRC microbiome signatures
 - [[multiple-sclerosis]] -- Oral microbiome alteration pattern
 - [[faecalibacterium-prausnitzii]] -- Fellow butyrate producer; co-depleted in multiple conditions

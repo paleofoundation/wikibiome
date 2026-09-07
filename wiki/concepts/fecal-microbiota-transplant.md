@@ -20,10 +20,10 @@ The transfer of processed stool from a healthy donor into a recipient's gastroin
 
 FMT introduces a complex, intact microbial ecosystem including bacteria, archaea, fungi [[mycobiome]], bacteriophages, and their metabolites. Proposed mechanisms of action:
 1. Colonization resistance restoration: Donor commensals outcompete pathogens for niches and nutrients.
-2. SCFA production recovery: Donor butyrate/propionate producers re-establish fermentative metabolism and colonocyte energy supply.
+2. SCFA production recovery: Donor [[butyrate]]/propionate producers re-establish fermentative metabolism and colonocyte energy supply.
 3. Bile acid metabolism normalization: Donor bacteria restore secondary bile acid production, which inhibits *C. difficile* sporulation.
 4. Immune recalibration: Restored SCFA and [[indoles]] production rebalances Treg/Th17 and reduces [[inflammation]].
-5. Barrier repair: Recovered [[butyrate]] production strengthens [[tight-junctions|tight junctions]] and restores hypoxic colonic environment.
+5. Barrier repair: Recovered butyrate production strengthens [[tight-junctions|tight junctions]] and restores hypoxic colonic environment.
 
 ## Clinical Evidence by Disease
 
@@ -76,4 +76,4 @@ FMT may restore the metal-handling capacity of the microbiome disrupted by heavy
 - [[probiotics]] -- single/multi-strain supplementation approach
 - [[prebiotics]] -- substrate-based microbiome modulation
 - [[dysbiosis]] -- the target condition FMT aims to correct
-- [[butyrate]] -- key metabolite restored by successful FMT
+- butyrate -- key metabolite restored by successful FMT

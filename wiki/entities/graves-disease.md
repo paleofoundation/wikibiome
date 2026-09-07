@@ -122,7 +122,7 @@ The relationship between thyroid function and microbiome composition is bidirect
 - Hyperthyroidism disrupts gut motility and microbiome composition
 - Dysbiosis impairs mineral absorption (I, Se, Fe) essential for thyroid function
 - Methimazole treatment and thyroid function recovery lead to significant microbiome diversity improvement
-- SCFA-producing bacteria (propionate via *Phascolarctobacterium*, butyrate via *Butyricimonas*) appear protective through anti-inflammatory mechanisms
+- SCFA-producing bacteria (propionate via *Phascolarctobacterium*, [[butyrate]] via *Butyricimonas*) appear protective through anti-inflammatory mechanisms
 
 ## Diet Interventions
 

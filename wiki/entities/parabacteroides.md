@@ -26,7 +26,7 @@ A Gram-negative, obligate anaerobic genus within the Bacteroidetes phylum, close
 
 - Member of the core Bacteroidetes community that dominates the human colon, contributing to polysaccharide degradation and bile acid biotransformation.
 - *P. distasonis* deconjugates primary bile acids and produces secondary bile acids including lithocholic acid, influencing [[fxr]] and TGR5 signaling pathways that regulate immune tone and metabolic homeostasis.
-- Produces [[short-chain-fatty-acids]] (primarily succinate and acetate) that feed cross-feeding networks supporting butyrate producers like [[faecalibacterium-prausnitzii]].
+- Produces [[short-chain-fatty-acids]] (primarily succinate and acetate) that feed cross-feeding networks supporting [[butyrate]] producers like [[faecalibacterium-prausnitzii]].
 - Contributes to colonization resistance against pathogens through niche competition and bile acid-mediated inhibition.
 
 ## Disease Associations

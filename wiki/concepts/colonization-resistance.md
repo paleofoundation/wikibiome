@@ -92,7 +92,7 @@ Colonization resistance has a distinctly metallomic dimension that distinguishes
 - dysbiosis -- colonization resistance failure is the functional definition of dysbiosis
 - [[clostridioides-difficile]] -- CDI as the paradigmatic colonization resistance failure
 - [[fecal-microbiota-transplant]] -- FMT restores colonization resistance
-- [[butyrate]] -- SCFA production maintains the anaerobic niche favoring commensals
+- butyrate -- SCFA production maintains the anaerobic niche favoring commensals
 - [[nutritional-immunity]] -- host and commensal metal restriction overlap
 - [[antimicrobial-resistance]] -- antibiotic disruption of colonization resistance
 - [[iron]] -- luminal iron ecology shapes competitive dynamics

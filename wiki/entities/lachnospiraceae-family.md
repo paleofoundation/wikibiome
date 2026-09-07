@@ -30,7 +30,7 @@ Lachnospiraceae is the single most frequently referenced family across the entir
 
 ## The Iron-Sulfur Vulnerability
 
-The defining metabolic feature of Lachnospiraceae from a metallomics perspective is the iron-sulfur cluster dependency of their butyrate synthesis pathway:
+The defining metabolic feature of Lachnospiraceae from a metallomics perspective is the iron-sulfur cluster dependency of their [[butyrate]] synthesis pathway:
 
 - The butyryl-CoA dehydrogenase complex that converts crotonyl-CoA to butyryl-CoA requires [4Fe-4S] and [2Fe-2S] clusters for electron transfer.
 - These iron-sulfur clusters are vulnerable to displacement by toxic metals. Lead exposure (100-500 ppm, 8 weeks) in mice significantly decreased Lachnospiraceae alongside Ruminococcaceae and [[oscillibacter]], while increasing oxidative stress defense pathways ([[rosenfeld-2017-gut-dysbiosis-animals-environmental-chemicals]], animal-model).
@@ -81,7 +81,7 @@ This cascade positions Lachnospiraceae as the first domino in metal-driven [[dys
 - [[blautia]] -- acetate-producing genus; depleted in multiple conditions
 - [[anaerostipes]] -- lactate-utilizing butyrate producer
 - [[agathobacter-rectalis]] -- major butyrate producer; depleted in CVD and neurodegenerative disease
-- [[butyrate]] -- primary metabolic product
+- butyrate -- primary metabolic product
 - [[iron]] -- iron-sulfur cluster dependency for butyrate synthesis
 - [[cadmium]] -- toxic metal causing Lachnospiraceae depletion
 - [[lead]] -- toxic metal causing Lachnospiraceae depletion

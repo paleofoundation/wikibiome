@@ -30,7 +30,7 @@ Postbiotics are defined by ISAPP (2021) as "preparations of inanimate microorgan
 
 ## Key Postbiotic Types
 
-- [[short-chain-fatty-acids]]: Butyrate, propionate, acetate — the most studied postbiotic class.
+- [[short-chain-fatty-acids]]: [[butyrate]], propionate, acetate — the most studied postbiotic class.
 - Bacteriocins: Antimicrobial peptides (nisin, plantaricin) for targeted pathogen suppression.
 - Exopolysaccharides (EPS): Immunomodulatory polymers.
 - Cell wall components: Lipoteichoic acid, peptidoglycan fragments — TLR ligands for immune training.

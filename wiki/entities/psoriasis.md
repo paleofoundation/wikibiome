@@ -124,5 +124,5 @@ Psoriasis has extensive comorbidity that shares microbiome and metallomic featur
 - [[cardiovascular-disease]] -- shared systemic inflammation
 - [[nickel-allergy]] -- TLR4-mediated immune trigger
 - [[toll-like-receptors]] -- innate immune activation
-- [[butyrate]] -- depleted anti-inflammatory SCFA
+- butyrate -- depleted anti-inflammatory SCFA
 - [[immune-balance]] -- Th17/Treg dysregulation

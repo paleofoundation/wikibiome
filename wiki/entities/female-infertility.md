@@ -43,7 +43,7 @@ Three independent lines of evidence establish causal microbiome-to-ovarian links
 
 Two independent microbiome studies show:
 - Enriched in POI: Eggerthella, Butyricimonas, Dorea, Sutterella [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]], [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
-- Depleted in POI: [[faecalibacterium-prausnitzii]] (major butyrate producer), Bulleidia
+- Depleted in POI: [[faecalibacterium-prausnitzii]] (major [[butyrate]] producer), Bulleidia
 - Microbial alterations correlated with FSH, LH, E2, AMH, and FSH/LH ratio
 
 ## Diminished Ovarian Reserve (DOR)

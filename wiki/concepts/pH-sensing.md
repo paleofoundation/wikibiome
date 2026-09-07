@@ -40,11 +40,11 @@ Bacteria employ several pH-sensing strategies. Two-component signal transduction
 
 ## Ecological Consequences
 
-pH gradients create spatial niches within the gut. Butyrate-producing anaerobes like [[roseburia-intestinalis]] lower local pH through fermentation, which paradoxically helps maintain colonization resistance by keeping iron less available to pathogens at mildly acidic colonic pH. When this pH buffering is lost — through antibiotic-mediated loss of fermenters — the resulting pH shift can cascade into altered metal availability and pathogen expansion.
+pH gradients create spatial niches within the gut. [[butyrate]]-producing anaerobes like [[roseburia-intestinalis]] lower local pH through fermentation, which paradoxically helps maintain colonization resistance by keeping iron less available to pathogens at mildly acidic colonic pH. When this pH buffering is lost — through antibiotic-mediated loss of fermenters — the resulting pH shift can cascade into altered metal availability and pathogen expansion.
 
 ## Cross-References
 
 - [[metal-speciation]] — pH-dependent oxidation states
 - Urease — pH manipulation enzyme
 - [[acidic-microenvironment]] — tumor and inflammatory pH shifts
-- [[butyrate]] — fermentative acidification of colon
+- butyrate — fermentative acidification of colon

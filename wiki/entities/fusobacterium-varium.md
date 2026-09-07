@@ -31,7 +31,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Fusobacterium varium
 
-A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut microbiota: as a weak butyrate producer (short-chain fatty acid), it has anti-inflammatory potential; as a virulent invasive pathobiont in inflammatory bowel disease (particularly ulcerative colitis), it breaches the intestinal epithelium and drives mucosal [[inflammation]]. *F. varium* distinguishes itself from the related *[[fusobacterium-nucleatum]]* by greater enrichment in UC and lower pathogenic burden in non-inflamed controls.
+A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut microbiota: as a weak [[butyrate]] producer (short-chain fatty acid), it has anti-inflammatory potential; as a virulent invasive pathobiont in inflammatory bowel disease (particularly ulcerative colitis), it breaches the intestinal epithelium and drives mucosal [[inflammation]]. *F. varium* distinguishes itself from the related *[[fusobacterium-nucleatum]]* by greater enrichment in UC and lower pathogenic burden in non-inflamed controls.
 
 ## Taxonomy and Classification
 
@@ -114,7 +114,7 @@ A Gram-negative obligate anaerobe that occupies a paradoxical niche in the gut m
 - -- hemolysins and proteases disrupt tight junctions
 - [[inflammatory-bowel-disease]] -- enriched in UC; drives mucosal inflammation
 - lipopolysaccharide -- TLR4-mediated pro-inflammatory signaling
-- [[butyrate]] -- paradoxically capable of SCFA production, but pathogenic phenotype dominates in inflammation
+- butyrate -- paradoxically capable of SCFA production, but pathogenic phenotype dominates in inflammation
 - [[fusobacterium-nucleatum]] -- related but distinct species; oral pathogenic vs. gut-UC pathobiont
 - [[dysbiosis]] -- iron-rich, low-SCFA producing community state characteristic of active UC
 - -- same species exhibits protection (SCFA producer) or pathology (invasive) depending on iron and immunity context

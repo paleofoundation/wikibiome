@@ -97,7 +97,7 @@ The mediation via CCR2 on myeloid dendritic cells (Hashimoto's) suggests an immu
 ## Ecological Roles
 
 ### SCFA and Organic Acid Production
-Bifidobacterium produces acetate and lactate through the "bifid shunt" (fructose-6-phosphate phosphoketolase pathway). Acetate serves as cross-feeding substrate for butyrate producers ([[faecalibacterium-prausnitzii]], [[roseburia]]).
+Bifidobacterium produces acetate and lactate through the "bifid shunt" (fructose-6-phosphate phosphoketolase pathway). Acetate serves as cross-feeding substrate for [[butyrate]] producers ([[faecalibacterium-prausnitzii]], [[roseburia]]).
 
 ### Estrobolome
 [[eggerthella-lenta]] is a key [[beta-glucuronidase]] producer, deconjugating estrogen metabolites and increasing free estrogen in the enterohepatic circulation. This connects Actinobacteria to estrogen-dependent conditions ([[endometriosis]], [[breast-cancer]]).

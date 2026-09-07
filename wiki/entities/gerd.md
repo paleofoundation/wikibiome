@@ -58,7 +58,7 @@ Mendelian randomization now provides causal-level evidence linking specific gut 
 | Taxon | Level | OR (95% CI) | P-value | Mechanism |
 |-------|-------|-------------|---------|-----------|
 | Clostridiales Vadin BB60 group | Family | 0.95 (0.91–0.99) | 0.027 | SCFA producer |
-| Lachnospiraceae UCG004 | Genus | 0.91 (0.84–0.99) | 0.026 | Butyrate/SCFA producer |
+| Lachnospiraceae UCG004 | Genus | 0.91 (0.84–0.99) | 0.026 | [[butyrate]]/SCFA producer |
 | Methanobrevibacter | Genus | 0.95 (0.91–0.99) | 0.026 | Methane/SCFA ecology |
 | Actinobacteria | Phylum | 0.93 (0.88–0.99) | 0.019 | Antibiotic production, immune modulation |
 

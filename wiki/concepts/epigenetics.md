@@ -97,7 +97,7 @@ The [[gut-microbiome]] influences host epigenetics through several mechanisms:
 - [[cadmium]] -- dose-dependent methylation changes
 - [[lead]] -- developmental epigenetic programming
 - [[oxidative-stress]] -- ROS can oxidize methylcytosine, altering the epigenome
-- [[butyrate]] -- microbial HDAC inhibitor
+- butyrate -- microbial HDAC inhibitor
 - [[mis-metallation]] -- metal displacement in epigenetic enzymes
 - [[metal-carcinogenesis]] -- epigenetics as cancer mechanism
 - [[developmental-metal-vulnerability]] -- timing of exposure and epigenetic windows

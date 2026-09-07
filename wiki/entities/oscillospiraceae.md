@@ -23,7 +23,7 @@ pathogenic_potential: commensal
 
 # Oscillospiraceae
 
-A family of Gram-positive obligate anaerobes (formerly classified as the genus *Oscillospira*, now reclassified into *Oscillibacter* and related genera within Oscillospiraceae) that serve as keystone butyrate producers in the healthy human distal colonic microbiota (Konikoff and Gophna 2016). Members of this family are consistently and significantly depleted in obesity, inflammatory bowel disease, colorectal cancer, and other dysbiotic states [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[zhu-2024-toxic-essential-metals-gut-microbiota]], with their loss correlating with reduced fecal butyrate and impaired intestinal barrier function. Oscillospiraceae represent a prime target for next-generation probiotic development due to their metabolic role, rarity in culture collections, and therapeutic potential in restoring SCFA-mediated immune homeostasis (Yang et al. 2021).
+A family of Gram-positive obligate anaerobes (formerly classified as the genus *Oscillospira*, now reclassified into *Oscillibacter* and related genera within Oscillospiraceae) that serve as keystone [[butyrate]] producers in the healthy human distal colonic microbiota (Konikoff and Gophna 2016). Members of this family are consistently and significantly depleted in obesity, inflammatory bowel disease, colorectal cancer, and other dysbiotic states [[pendergrass-2026-heavy-metals-obesity-epidemic]] [[zhu-2024-toxic-essential-metals-gut-microbiota]], with their loss correlating with reduced fecal butyrate and impaired intestinal barrier function. Oscillospiraceae represent a prime target for next-generation probiotic development due to their metabolic role, rarity in culture collections, and therapeutic potential in restoring SCFA-mediated immune homeostasis (Yang et al. 2021).
 
 ## Taxonomy and Reclassification
 
@@ -144,7 +144,7 @@ A family of Gram-positive obligate anaerobes (formerly classified as the genus *
 
 ## Connections
 
-- [[butyrate]] -- primary metabolite; essential fuel for colonocytes and HDAC inhibitor
+- butyrate -- primary metabolite; essential fuel for colonocytes and HDAC inhibitor
 - -- short-chain fatty acid producer; GPR43/GPR109A signaling links to immune homeostasis
 - -- butyrate-driven IL-10-producing Tregs; Th17 suppression
 - [[nutritional-immunity|nutritional immunity]] -- SCFA-driven tight junction protein expression and epithelial energetics

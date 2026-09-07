@@ -65,7 +65,7 @@ Parenteral iron presents a distinct problem:
 When the gut receives no enteral nutrition, it undergoes rapid changes:
 
 - Mucosal atrophy: Villous height decreases within days, reducing absorptive surface.
-- [[tight-junctions|Tight junction]] loss: Barrier integrity deteriorates without luminal butyrate stimulation.
+- [[tight-junctions|Tight junction]] loss: Barrier integrity deteriorates without luminal [[butyrate]] stimulation.
 - Bacterial translocation: Increased permeability allows gut bacteria to enter systemic circulation.
 - Microbial community shift: Without dietary substrates, saccharolytic fermenters starve while proteolytic and pathobiont populations may expand.
 

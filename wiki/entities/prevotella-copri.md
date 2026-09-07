@@ -71,7 +71,7 @@ A Gram-negative obligate anaerobe that occupies a unique context-dependent niche
 
 - In dysbiotic states (high *P. copri*, low [[faecalibacterium-prausnitzii]]), the balance tips: *P. copri* acetate and propionate may not be efficiently captured by SCFA-producing commensals, leading to:
  - Acetate overflow → hyperacetylation that can promote Th17 differentiation (pro-inflammatory in RA context).
- - Loss of butyrate production → reduced short-chain fatty acid diversity and Treg induction.
+ - Loss of [[butyrate]] production → reduced short-chain fatty acid diversity and Treg induction.
 
 ## Disease Mechanisms in Rheumatoid Arthritis
 

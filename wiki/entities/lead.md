@@ -89,7 +89,7 @@ In an 8-week exposure study in Balb/C mice (100 or 500 ppm Pb), decreased Lachno
 
 ### Metabolic Disruption
 
-Lead exposure reduces vitamin E, primary bile acids, cholesterol, and coprostanol in the gut metabolome [[gao-2017-lead-exposure-multi-omics-gut-microbiome]]. Depletion of butyrate-producing bacteria (Coprococcus, Roseburia) under lead exposure reduces SCFA availability for colonocyte energy and barrier maintenance [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota-kidney]], [[zhang-2021-lead-exposure-gut-microbiome-neurodegeneration]]. The metabolic disruption extends beyond the gut: heavy metal load in children correlated with elevated microbiome-associated catecholamine precursor metabolites (phenylalanine, tyrosine, L-dopa derivatives), accounting for 32% of variance in social behaviors [[krajewski-2025-heavy-metals-microbiome-metabolites-children-behavior]].
+Lead exposure reduces vitamin E, primary bile acids, cholesterol, and coprostanol in the gut metabolome [[gao-2017-lead-exposure-multi-omics-gut-microbiome]]. Depletion of [[butyrate]]-producing bacteria (Coprococcus, Roseburia) under lead exposure reduces SCFA availability for colonocyte energy and barrier maintenance [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota-kidney]], [[zhang-2021-lead-exposure-gut-microbiome-neurodegeneration]]. The metabolic disruption extends beyond the gut: heavy metal load in children correlated with elevated microbiome-associated catecholamine precursor metabolites (phenylalanine, tyrosine, L-dopa derivatives), accounting for 32% of variance in social behaviors [[krajewski-2025-heavy-metals-microbiome-metabolites-children-behavior]].
 
 ### The Bidirectional Relationship
 

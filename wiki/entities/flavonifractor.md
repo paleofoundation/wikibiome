@@ -58,7 +58,7 @@ This degradation occurs in the proximal colon before flavonoids can be absorbed 
 
 ### In the Healthy Gut
 
-- Low-abundance member of the Ruminococcaceae community in health; ecological competition from butyrate producers like *Faecalibacterium prausnitzii* and *Roseburia* limits its expansion.
+- Low-abundance member of the Ruminococcaceae community in health; ecological competition from [[butyrate]] producers like *Faecalibacterium prausnitzii* and *Roseburia* limits its expansion.
 - Functions as a minor scavenger of plant polyphenols not absorbed in the small intestine, contributing to the diversity of phenolic acid metabolites in the gut.
 - In a balanced community, flavonoid degradation by *Flavonifractor* is offset by the abundance of short-chain fatty acid producers, maintaining net anti-inflammatory tone.
 
@@ -107,7 +107,7 @@ Wikipedia describes *Flavonifractor plautii* as a bacterium capable of flavonoid
 
 ## Cross-References
 
-- [[butyrate]] — SCFA production ecosystem disrupted by *Flavonifractor* enrichment (competitive displacement of butyrate producers)
+- butyrate — SCFA production ecosystem disrupted by *Flavonifractor* enrichment (competitive displacement of butyrate producers)
 - [[faecalibacterium-prausnitzii]] — anti-inflammatory commensal displaced when *Flavonifractor* expands
 - [[fibromyalgia]] — primary disease association with symptom severity correlation
 - [[chronic-kidney-disease]] — enriched at all stages; part of uremic dysbiosis

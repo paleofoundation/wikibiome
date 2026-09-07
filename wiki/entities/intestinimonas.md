@@ -24,7 +24,7 @@ oxygen_requirement: "obligate anaerobe"
 
 # Intestinimonas
 
-A Gram-positive, obligate anaerobic genus within the Firmicutes phylum (family Oscillospiraceae or Ruminococcaceae depending on classification) that possesses a unique metabolic capability: butyrate production from lysine fermentation rather than from dietary fiber. This substrate-level distinction separates *Intestinimonas* from the major fiber-dependent butyrate producers ([[lachnospiraceae]], [[faecalibacterium]]) and places it at the intersection of protein metabolism, thyroid autoimmunity, and metal-microbiome interactions. Two independent Mendelian randomization studies have identified *Intestinimonas* as a causal risk factor for Hashimoto's thyroiditis.
+A Gram-positive, obligate anaerobic genus within the Firmicutes phylum (family Oscillospiraceae or Ruminococcaceae depending on classification) that possesses a unique metabolic capability: [[butyrate]] production from lysine fermentation rather than from dietary fiber. This substrate-level distinction separates *Intestinimonas* from the major fiber-dependent butyrate producers ([[lachnospiraceae]], [[faecalibacterium]]) and places it at the intersection of protein metabolism, thyroid autoimmunity, and metal-microbiome interactions. Two independent Mendelian randomization studies have identified *Intestinimonas* as a causal risk factor for Hashimoto's thyroiditis.
 
 ## Taxonomy
 
@@ -86,6 +86,6 @@ Increased *Intestinimonas* has been reported in HD patients alongside decreased 
 - [[turicibacter]] -- co-identified as HT risk taxon
 - [[intestinibacter]] -- related but distinct genus; Graves' disease association
 - [[cadmium]] -- environmental Cd depletes Intestinimonas
-- [[butyrate]] -- end product of lysine fermentation pathway
+- butyrate -- end product of lysine fermentation pathway
 - [[colorectal-cancer]] -- tumor-tissue metabolic associations
 - [[blautia]] -- co-depleted by cadmium exposure

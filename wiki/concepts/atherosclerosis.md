@@ -50,8 +50,8 @@ Progressive inflammatory disease of the arterial wall characterized by lipid acc
 
 ## Protective Metabolites
 
-- [[short-chain-fatty-acids]]: Propionate and butyrate are generally cardioprotective -- anti-inflammatory, blood pressure-lowering via GPR41/Olfr78 balance.
-- [[butyrate]]: HDAC inhibition reduces macrophage inflammatory activation.
+- [[short-chain-fatty-acids]]: Propionate and [[butyrate]] are generally cardioprotective -- anti-inflammatory, blood pressure-lowering via GPR41/Olfr78 balance.
+- butyrate: HDAC inhibition reduces macrophage inflammatory activation.
 - Secondary [[bile-acid-metabolism|bile acids]]: FXR/TGR5 signaling modulates cholesterol metabolism.
 
 ## See Also

@@ -79,7 +79,7 @@ Autophagy plays a dual role in CRC: tumor-suppressive in early stages (clearing 
 - [[oxidative-stress]] -- the primary trigger for stress-induced autophagy
 - [[alpha-synuclein]] -- autophagic substrate in Parkinson's disease
 - [[amyloid-beta]] -- autophagic substrate in Alzheimer's disease
-- [[butyrate]] -- SCFA that activates protective autophagy
+- butyrate -- SCFA that activates protective autophagy
 - [[microglia]] -- CNS cells dependent on autophagy for protein clearance
 - [[intestinal-permeability]] -- autophagy maintains barrier integrity
 - inflammation -- chronic inflammation dysregulates autophagic flux

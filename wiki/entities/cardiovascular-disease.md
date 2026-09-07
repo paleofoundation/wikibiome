@@ -73,7 +73,7 @@ Trimethylamine N-oxide (TMAO) is the most established microbiome-derived cardiov
 The landmark metagenome-wide association study of 218 ACVD patients and 187 controls established:
 
 - ACVD enriched: *Enterobacteriaceae*, *Streptococcus* spp., *E. lenta*, *R. gnavus*, *L. salivarius*, *E. coli*
-- ACVD depleted: butyrate-producing *Roseburia* spp., *F. prausnitzii*, *Clostridiales*
+- ACVD depleted: [[butyrate]]-producing *Roseburia* spp., *F. prausnitzii*, *Clostridiales*
 - Functional enrichment: TMA lyase genes, LPS biosynthesis, virulence factors, simple sugar transport
 - Functional depletion: butyrate synthesis capacity, vitamin biosynthesis
 - Classifier: 47 MLGs achieved AUC of 86% (83-90%)

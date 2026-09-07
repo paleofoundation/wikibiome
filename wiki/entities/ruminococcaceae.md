@@ -27,7 +27,7 @@ platform: wikibiome
 
 # Ruminococcaceae
 
-Ruminococcaceae is a family of obligate anaerobic, Gram-positive bacteria in the order Clostridiales (phylum Firmicutes) that represents one of the most important butyrate-producing and fiber-degrading families in the human gut. Key genera include [[faecalibacterium]] (including *[[faecalibacterium-prausnitzii]]*), *Ruminococcus*, *Subdoligranulum*, *Oscillibacter*, and *Anaerotruncus*.
+Ruminococcaceae is a family of obligate anaerobic, Gram-positive bacteria in the order Clostridiales (phylum Firmicutes) that represents one of the most important [[butyrate]]-producing and fiber-degrading families in the human gut. Key genera include [[faecalibacterium]] (including *[[faecalibacterium-prausnitzii]]*), *Ruminococcus*, *Subdoligranulum*, *Oscillibacter*, and *Anaerotruncus*.
 
 ## Why Ruminococcaceae Depletion Matters
 
@@ -41,7 +41,7 @@ Ruminococcaceae depletion is among the most consistent microbiome findings acros
 ## Functional Significance
 
 Ruminococcaceae's depletion removes:
-1. [[butyrate]] — colonocyte fuel, HDAC inhibitor, [[tight-junctions|tight junction]] and epithelial-barrier protector, Treg inducer.
+1. butyrate — colonocyte fuel, HDAC inhibitor, [[tight-junctions|tight junction]] and epithelial-barrier protector, Treg inducer.
 2. Fiber degradation — cellulose, xylan, and resistant starch breakdown ([[saccharolytic-fermentation]]).
 3. [[cross-feeding]] — acetate→butyrate conversion for downstream SCFA production.
 4. Colonization resistance — niche occupation preventing pathobiont expansion.
@@ -54,7 +54,7 @@ Butyrate production by Ruminococcaceae depends on iron-sulfur cluster enzymes (b
 
 - [[faecalibacterium-prausnitzii]] — dominant butyrate-producing species
 - [[lachnospiraceae]] — co-depleted butyrate-producing family
-- [[butyrate]] — primary metabolic output
+- butyrate — primary metabolic output
 - [[short-chain-fatty-acids]] — broader SCFA context
 - [[dietary-fiber]] — primary substrate
 - [[dysbiosis]] — Ruminococcaceae depletion as universal dysbiosis marker

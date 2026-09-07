@@ -53,7 +53,7 @@ Counterintuitively, Megasphaera is depleted (not enriched) in cervical samples f
 
 ## Gut Microbiome — SCFA Producer
 
-In the gut, Megasphaera plays a different role as a butyrate and propionate producer:
+In the gut, Megasphaera plays a different role as a [[butyrate]] and propionate producer:
 
 - *M. elsdenii* is one of the most efficient lactate-utilizing organisms in the gut, converting lactate to butyrate and propionate via the acrylate pathway.
 - Enriched in ASD gut microbiota in some studies [[liu-2019-altered-gut-microbiota-scfa-chinese-children-asd]].
@@ -81,6 +81,6 @@ Site-specific and disease-specific context determines whether Megasphaera presen
 - [[sneathia]] — BV consortium partner
 - [[prevotella]] — BV consortium partner; also context-dependent
 - [[lactobacillus-crispatus]] — Megasphaera expansion inversely correlated with L. crispatus dominance
-- [[butyrate]] — gut Megasphaera contributes to butyrate production via lactate utilization
+- butyrate — gut Megasphaera contributes to butyrate production via lactate utilization
 - [[endometriosis]] — cervical depletion pattern
 - [[bacterial-vaginosis]] — hallmark BV-associated genus

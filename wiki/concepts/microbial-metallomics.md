@@ -60,7 +60,7 @@ The neurodegeneration pathway is the most striking example of microbial metallom
 ### Obesity: Cadmium/Lead → Dysbiosis → Metabolic Disease
 
 - Environmental cadmium and lead exposure depletes SCFA-producing commensals ([[faecalibacterium-prausnitzii]], [[roseburia]]) while enriching metal-tolerant Enterobacteriaceae.
-- The resulting loss of butyrate → impaired barrier → systemic LPS → metabolic inflammation → obesity [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- The resulting loss of [[butyrate]] → impaired barrier → systemic LPS → metabolic inflammation → obesity [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 
 ### IBD: Iron → Siderophore Blooms → Inflammation
 

@@ -21,7 +21,7 @@ pathogenic_potential: commensal
 
 # Faecalibacterium prausnitzii
 
-The most abundant bacterium in the healthy human colon (5-15% of total fecal microbiota), *F. prausnitzii* is the premier butyrate producer in the gut and a cornerstone of anti-inflammatory intestinal homeostasis. Its depletion is one of the most consistent microbiome signatures across diseases linked to metal dyshomeostasis, and it has been directly demonstrated to protect against arsenic toxicity.
+The most abundant bacterium in the healthy human colon (5-15% of total fecal microbiota), *F. prausnitzii* is the premier [[butyrate]] producer in the gut and a cornerstone of anti-inflammatory intestinal homeostasis. Its depletion is one of the most consistent microbiome signatures across diseases linked to metal dyshomeostasis, and it has been directly demonstrated to protect against arsenic toxicity.
 
 ## Butyrate Production and Barrier Protection
 

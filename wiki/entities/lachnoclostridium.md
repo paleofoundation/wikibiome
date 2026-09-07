@@ -26,7 +26,7 @@ platform: wikibiome
 
 # Lachnoclostridium
 
-Lachnoclostridium is a genus of obligate anaerobic, Gram-positive bacteria in the [[lachnospiraceae]] family. It is a butyrate-producing commensal with emerging clinical significance as a treatment response biomarker and diagnostic marker.
+Lachnoclostridium is a genus of obligate anaerobic, Gram-positive bacteria in the [[lachnospiraceae]] family. It is a [[butyrate]]-producing commensal with emerging clinical significance as a treatment response biomarker and diagnostic marker.
 
 ## Key Associations
 
@@ -38,6 +38,6 @@ Lachnoclostridium is a genus of obligate anaerobic, Gram-positive bacteria in th
 ## Cross-References
 
 - [[lachnospiraceae]] — family context
-- [[butyrate]] — primary metabolic output
+- butyrate — primary metabolic output
 - [[schizophrenia]] — treatment response predictor
 - [[ferroptosis]] — 3-HPP metabolite protects against testicular ferroptosis

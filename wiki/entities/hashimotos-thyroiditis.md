@@ -71,7 +71,7 @@ Enriched in HT: Proteobacteria, Actinobacteria, [[blautia|Blautia]], Dorea, Lach
 
 ## Key Metabolites
 
-Indolelactate is the only gut metabolite causally associated with autoimmune hypothyroidism after FDR correction (OR=1.592, MR evidence). Tryptophan levels are significantly lower in HT (p<0.0001); supplementation alleviates thyroid damage and rebalances T cell subsets via the IDO1-Kyn-AhR axis and PI3K-Akt pathway suppression. Methylmalonic acid is elevated. Phospholipid and sphingolipid metabolism is disrupted, with altered phosphatidylcholine species in follicular fluid affecting fertility. [[butyrate]] and valeric acid are significantly decreased (p<0.01). See [[inflammation]] and [[nf-kappa-b]].
+Indolelactate is the only gut metabolite causally associated with autoimmune hypothyroidism after FDR correction (OR=1.592, MR evidence). Tryptophan levels are significantly lower in HT (p<0.0001); supplementation alleviates thyroid damage and rebalances T cell subsets via the IDO1-Kyn-AhR axis and PI3K-Akt pathway suppression. Methylmalonic acid is elevated. Phospholipid and sphingolipid metabolism is disrupted, with altered phosphatidylcholine species in follicular fluid affecting fertility. butyrate and valeric acid are significantly decreased (p<0.01). See [[inflammation]] and [[nf-kappa-b]].
 
 ## Diet and Probiotics
 
@@ -92,6 +92,6 @@ AIP diet pilot (n=16): significant QoL improvement across all SF-36 subscales an
 - [[graves-disease]] -- sister AITD with shared genetics but opposite functional outcome
 - [[selenium]], [[iron]], [[zinc]], [[copper]], [[iodine]] -- the essential mineral quintet
 - dysbiosis, [[gut-metal-microbiome]], [[oxidative-stress]], inflammation, [[nf-kappa-b]]
-- [[short-chain-fatty-acids]], [[butyrate]], [[tryptophan-metabolism]]
+- [[short-chain-fatty-acids]], butyrate, [[tryptophan-metabolism]]
 - [[akkermansia-muciniphila]], [[blautia]], [[prevotella]], [[probiotics]]
 - [[metal-disease-matrix]], [[comorbidities]], [[nutritional-immunity]]

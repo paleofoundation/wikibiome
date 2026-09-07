@@ -25,7 +25,7 @@ pathogenic_potential: commensal
 ## Metabolic Functions
 
 ### Succinate Production
-- *P. excrementihominis* is a succinate producer rather than a classical SCFA (butyrate/propionate) producer.
+- *P. excrementihominis* is a succinate producer rather than a classical SCFA ([[butyrate]]/propionate) producer.
 - Succinate serves as both a metabolic intermediate and an immune signaling molecule, activating succinate receptor 1 (SUCNR1/GPR91) on dendritic cells and macrophages.
 - This positions *Parasutterella* as a modulator of innate immune responses through its metabolic output.
 

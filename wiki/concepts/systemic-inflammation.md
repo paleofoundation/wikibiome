@@ -33,7 +33,7 @@ Three inputs drive systemic inflammation in parallel:
 
 1. Metal-driven: Heavy metals ([[cadmium]], [[lead]], [[nickel]], [[arsenic]]) activate [[nf-kappa-b]] directly via ROS generation, producing IL-6, TNF-alpha, and COX-2 [[balali-mood-2021-toxic-mechanisms-five-heavy-metals]] [[briffa-2020-heavy-metal-pollution-environment-toxicological-effects-humans]].
 2. Microbiome-driven: [[endotoxemia]] (LPS translocation) activates TLR4 → NF-kB, producing the same cytokine profile as metal exposure [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
-3. Metabolic: Loss of SCFA-producing commensals removes the butyrate-mediated NF-kB brake, allowing unchecked inflammatory signaling.
+3. Metabolic: Loss of SCFA-producing commensals removes the [[butyrate]]-mediated NF-kB brake, allowing unchecked inflammatory signaling.
 
 These three streams are molecularly indistinguishable at the cytokine level — making it impossible to determine whether elevated IL-6 reflects metal toxicity, microbial LPS, or both. This convergence is central to the WikiBiome thesis.
 

@@ -89,6 +89,6 @@ While p-cresol itself is not a metal-related molecule, its production and effect
 - [[chronic-kidney-disease]] -- p-cresol sulfate as protein-bound uremic toxin
 - [[dopamine]] -- p-cresol inhibits dopamine beta-hydroxylase
 - [[blood-brain-barrier]] -- p-cresol crosses BBB
-- [[butyrate]] -- saccharolytic (butyrate) vs proteolytic (p-cresol) fermentation balance
+- butyrate -- saccharolytic (butyrate) vs proteolytic (p-cresol) fermentation balance
 - dysbiosis -- proteolytic shift increases p-cresol production
 - [[microbiome-derived-metabolites]] -- p-cresol as key microbial metabolite

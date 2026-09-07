@@ -61,7 +61,7 @@ The immune route is slower but more sustained than vagal signaling:
 #### SCFAs (Butyrate, Propionate, Acetate)
 Produced by fiber-fermenting commensals, SCFAs are central mediators of gut-brain communication:
 - Bind FFAR2/FFAR3 (GPR43/GPR41) and GPR109A on enteric neurons, immune cells, and vagal afferents.
-- Butyrate strengthens gut barrier integrity, reduces intestinal inflammation, and modulates microglial activation in the brain -- butyrate-treated microglia show reduced inflammatory cytokine production [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
+- [[butyrate]] strengthens gut barrier integrity, reduces intestinal inflammation, and modulates microglial activation in the brain -- butyrate-treated microglia show reduced inflammatory cytokine production [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 - Propionate crosses the BBB and reduces microglial activation and neuroinflammation in animal models.
 - SCFAs promote the integrity of the blood-brain barrier itself; germ-free mice (no SCFAs) have a leaky BBB.
 - Metal-induced loss of SCFA-producing bacteria (Faecalibacterium, Roseburia, Lachnospiraceae) removes these neuroprotective signals.

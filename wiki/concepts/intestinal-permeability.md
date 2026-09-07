@@ -71,7 +71,7 @@ Increased intestinal permeability is documented in [[inflammatory-bowel-disease]
 
 ## Therapeutic Implications
 
-Barrier restoration strategies include [[probiotics]] (especially Lactobacillus rhamnosus GG, which upregulates ZO-1 and occludin), [[short-chain-fatty-acids]] (butyrate feeds colonocytes and tightens TJs), zinc supplementation (Zn is essential for TJ protein expression), and removal of the offending metal exposure. The [[gut-metal-microbiome]] framework positions permeability restoration as a central therapeutic target.
+Barrier restoration strategies include [[probiotics]] (especially Lactobacillus rhamnosus GG, which upregulates ZO-1 and occludin), [[short-chain-fatty-acids]] ([[butyrate]] feeds colonocytes and tightens TJs), zinc supplementation (Zn is essential for TJ protein expression), and removal of the offending metal exposure. The [[gut-metal-microbiome]] framework positions permeability restoration as a central therapeutic target.
 
 ## See Also
 

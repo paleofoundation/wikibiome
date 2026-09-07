@@ -114,7 +114,7 @@ The 7α-dehydroxylase activity is the clinical hallmark of pathogenic bile acid 
 - Chronic inflammation → increased hepcidin → functional iron anemia → host attempts to restore iron → iron supplementation or iron-containing therapies → Iron enrichment
 - Reduced oxygen (biofilm-driven anaerobiosis) → suppression of aerobes and facultative aerobes; *C. symbiosum* dominates as obligate anaerobe
 - Mucosa-proximity: CRC lesions often develop from mucosal biofilms; *C. symbiosum* + other pathogens aggregate at the epithelial-luminal interface
-- Dysbiotic competition: Loss of [[faecalibacterium-prausnitzii]] and butyrate producers → ecological vacuum filled by *C. symbiosum*
+- Dysbiotic competition: Loss of [[faecalibacterium-prausnitzii]] and [[butyrate]] producers → ecological vacuum filled by *C. symbiosum*
 
 ## Butyrate Production: Beneficial or Pathogenic Context?
 

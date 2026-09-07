@@ -82,7 +82,7 @@ This study establishes metal transporter polymorphism → metal dyshomeostasis �
 The gut microbiome is both a target and a mediator of metal dyshomeostasis [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]]:
 
 - Toxic metals (As, Cd, Hg, Pb) deplete SCFA-producing commensals while enriching metal-tolerant Proteobacteria, shifting the microbiome toward a dysbiotic state
-- The dysbiotic microbiome then worsens metal handling: loss of commensal bacteria that normally biosorb, biotransform, or precipitate metals increases metal bioavailability; enrichment of siderophore-producing Proteobacteria increases iron competition; loss of butyrate producers increases gut permeability, allowing greater metal absorption
+- The dysbiotic microbiome then worsens metal handling: loss of commensal bacteria that normally biosorb, biotransform, or precipitate metals increases metal bioavailability; enrichment of siderophore-producing Proteobacteria increases iron competition; loss of [[butyrate]] producers increases gut permeability, allowing greater metal absorption
 - This creates a feedback loop: metal exposure → dysbiosis → impaired metal handling → more metal exposure → worse dysbiosis
 
 The bidirectionality is demonstrated by [[zhu-2024-toxic-essential-metals-gut-microbiota]]: toxic metals decrease microbial diversity and disrupt SCFA, bile acid, and amino acid metabolism, while microbiota actively methylate arsenic into less toxic forms, reduce mercury bioavailability, and produce metabolites that modulate metal absorption. The gut microbiome is not merely a passive victim of metal dyshomeostasis — it is an active participant in maintaining or failing to maintain metal homeostasis.

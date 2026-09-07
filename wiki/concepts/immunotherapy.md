@@ -35,7 +35,7 @@ Multiple independent studies have demonstrated that gut microbiome composition p
 
 | Taxon | ICI Type | Evidence |
 |-------|----------|---------|
-| [[faecalibacterium-prausnitzii]] | Anti-PD-1 | Butyrate production; Treg induction |
+| [[faecalibacterium-prausnitzii]] | Anti-PD-1 | [[butyrate]] production; Treg induction |
 | [[bifidobacterium]] | Anti-PD-L1 | DC maturation; enhanced T cell priming |
 | [[akkermansia-muciniphila]] | Anti-PD-1 | Barrier integrity; IL-12 signaling |
 | Ruminococcaceae | Anti-CTLA-4 | SCFA production |
@@ -99,7 +99,7 @@ ICI therapy frequently causes immune-related adverse events (irAEs), most common
 
 - Patients with higher pre-treatment [[bacteroidetes]] abundance have lower colitis risk
 - Patients with higher Firmicutes/Bacteroidetes ratio have higher colitis risk
-- The same [[butyrate]]-producing bacteria that promote ICI response also protect against colitis
+- The same butyrate-producing bacteria that promote ICI response also protect against colitis
 - Microbiome-targeted interventions could potentially reduce irAEs without compromising anti-tumor efficacy
 
 ## Clinical Implications
@@ -121,7 +121,7 @@ ICI therapy frequently causes immune-related adverse events (irAEs), most common
 
 - [[immune-balance]] -- Treg/effector T cell calibration
 - [[microbial-biomarkers]] -- microbiome-based predictive tools
-- [[butyrate]] -- SCFA-mediated immune priming
+- butyrate -- SCFA-mediated immune priming
 - [[calprotectin]] -- response and toxicity biomarker
 - [[ferroptosis]] -- iron-dependent cell death and immune activation
 - [[cuproptosis]] -- copper-dependent cell death in tumors

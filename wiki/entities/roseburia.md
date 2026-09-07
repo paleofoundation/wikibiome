@@ -20,7 +20,7 @@ pathogenic_potential: commensal
 
 # Roseburia
 
-A genus of Gram-positive, obligate anaerobic, flagellated bacteria within the [[lachnospiraceae]] family that ranks among the most important butyrate producers in the human gut. Key species include *R. intestinalis* and *R. hominis*. Roseburia is consistently depleted across inflammatory, metabolic, and neurodegenerative diseases, and its sensitivity to metal stress places it at the center of the [[gut-metal-microbiome]] axis.
+A genus of Gram-positive, obligate anaerobic, flagellated bacteria within the [[lachnospiraceae]] family that ranks among the most important [[butyrate]] producers in the human gut. Key species include *R. intestinalis* and *R. hominis*. Roseburia is consistently depleted across inflammatory, metabolic, and neurodegenerative diseases, and its sensitivity to metal stress places it at the center of the [[gut-metal-microbiome]] axis.
 
 ## Butyrate Production and Anti-inflammatory Mechanisms
 

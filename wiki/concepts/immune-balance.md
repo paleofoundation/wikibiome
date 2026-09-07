@@ -52,7 +52,7 @@ The innate immune system provides the first response and shapes downstream adapt
 
 The [[gut-microbiome]] is the largest immune organ by proxy:
 
-- [[short-chain-fatty-acids]] (butyrate, propionate, acetate) -- potent Treg inducers. Butyrate promotes FoxP3 expression via HDAC inhibition. Metal-driven [[dysbiosis]] depletes SCFA producers, removing this Treg brake.
+- [[short-chain-fatty-acids]] ([[butyrate]], propionate, acetate) -- potent Treg inducers. Butyrate promotes FoxP3 expression via HDAC inhibition. Metal-driven [[dysbiosis]] depletes SCFA producers, removing this Treg brake.
 - Segmented filamentous bacteria (SFB) -- the canonical Th17 inducers in the gut. Their presence/absence shifts the Th17/Treg ratio.
 - Bacteroides fragilis -- polysaccharide A (PSA) activates TLR2 on Tregs, promoting IL-10 production.
 - Clostridia clusters IV and XIVa -- major butyrate producers whose depletion under metal stress compromises Treg induction.

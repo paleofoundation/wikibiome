@@ -92,7 +92,7 @@ CD patients with Debaryomyces enrichment and active disease often report flare a
 - Crohn's lesions are characterized by mucosal hypoxia (paradoxically) at deeper levels but surface epithelial hyperoxygenation and increased oxygen diffusion
 - Debaryomyces may preferentially colonize the inflamed epithelial surface
 - Competes poorly in healthy, anaerobic-dominant colonic ecology
-- Enriched when anaerobic barriers (butyrate-producing Firmicutes) are depleted
+- Enriched when anaerobic barriers ([[butyrate]]-producing Firmicutes) are depleted
 
 ## Metal Dependencies
 

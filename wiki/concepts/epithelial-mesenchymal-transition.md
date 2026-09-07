@@ -47,5 +47,5 @@ The intersection of metals, microbiome, and EMT reveals a reinforcing cycle: met
 
 - [[cadmium]] — TGF-beta-mediated EMT induction
 - [[nickel]] — HIF-1alpha-mediated EMT
-- [[butyrate]] — EMT suppression through HDAC inhibition
+- butyrate — EMT suppression through HDAC inhibition
 - [[colorectal-cancer]] — EMT in metastatic progression

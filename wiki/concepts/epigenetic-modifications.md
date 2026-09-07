@@ -90,7 +90,7 @@ When metals deplete butyrate producers (via dysbiosis), the host loses BOTH its 
 
 ## Cross-References
 
-- [[butyrate]] — HDAC inhibitor; primary microbiome epigenetic effector
+- butyrate — HDAC inhibitor; primary microbiome epigenetic effector
 - [[methylation]] — DNA/histone methylation; SAMe-dependent
 - [[vitamin-b12]] — cofactor for methionine synthase → SAMe production
 - [[nickel]] — 2OG/Fe(II) dioxygenase inhibition → gene silencing

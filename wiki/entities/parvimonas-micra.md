@@ -55,7 +55,7 @@ Parvimonas micra is a small (0.5–1.0 µm), Gram-positive, obligately anaerobic
 - *P. micra* increases in abundance within oral biofilms (10-fold expansion in periodontitis).
 - Produces proteases and lipopolysaccharides (LPS) that damage periodontal tissues.
 - Translocates to the colon via a two-stage pathway:
- 1. Intestinal dysbiosis (reduced butyrate, increased [[inflammation]]) compromises barrier integrity → increased gut permeability.
+ 1. Intestinal dysbiosis (reduced [[butyrate]], increased [[inflammation]]) compromises barrier integrity → increased gut permeability.
  2. Bloodstream translocation through the leaky epithelium; then reseeding into the colon via fecal circulation or direct recolonization.
  
 Epidemiologically, patients with severe periodontitis have 2–3× higher CRC risk, supporting the oral-colorectal carcinoma axis hypothesis.

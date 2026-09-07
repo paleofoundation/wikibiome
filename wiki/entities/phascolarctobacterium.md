@@ -81,7 +81,7 @@ Depletion in ASD children with constipation, consistent with the broader loss of
 - Species-level differences between *P. faecium* (depleted in autoimmunity) and *P. succinatutens* (enriched in SCZ)
 - Disrupted downstream propionate signaling in SCZ — propionate produced but not properly utilized in a neuroinflammatory context
 
-This SCZ enrichment alongside succinate pathway bacteria (when butyrate producers are depleted) suggests a shift in fermentation equilibrium rather than a beneficial enrichment.
+This SCZ enrichment alongside succinate pathway bacteria (when [[butyrate]] producers are depleted) suggests a shift in fermentation equilibrium rather than a beneficial enrichment.
 
 ### Endometriosis — Differential Abundance
 Identified among differentially abundant taxa in [[endometriosis]] stool microbiome signatures, with significant difference noted alongside *Blautia*, *Dorea*, *Bifidobacterium*, *Streptococcus*, *Bacteroides*, and *Subdoligranulum* [[shan-2021-gut-microbiota-hormone-inflammatory-endometriosis]], [[hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]]. The direction of change in endometriosis is context-dependent; reduced propionate production in endometriosis may contribute to the inflammatory milieu and estrogen dysregulation characteristic of the condition.

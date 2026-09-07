@@ -32,7 +32,7 @@ Bacteroidales is an order of obligate anaerobic, Gram-negative bacteria within t
 ## Ecological Role
 
 - Fiber fermentation: Bacteroidales encode extensive PUL systems for degrading dietary fiber, resistant starch, and host-derived glycans (mucin) — making them the primary fiber-fermenting order in the gut.
-- SCFA production: Major producers of propionate and acetate (less butyrate than Firmicutes).
+- SCFA production: Major producers of propionate and acetate (less [[butyrate]] than Firmicutes).
 - Bile acid metabolism: Bacteroidales possess bile salt hydrolases that deconjugate primary bile acids.
 - Diet-responsive: Mediterranean and fiber-rich diets increase Bacteroidales abundance [[latorre-perez-2021-spanish-gut-microbiome-mediterranean-diet]] [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
 

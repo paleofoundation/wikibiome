@@ -35,7 +35,7 @@ For the detailed species page with metal dependencies, arsenic protection data, 
 
 ## Species
 
-- *F. prausnitzii* — The dominant species; premier butyrate producer; directly protective against arsenic toxicity [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]].
+- *F. prausnitzii* — The dominant species; premier [[butyrate]] producer; directly protective against arsenic toxicity [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]].
 - *F. hominis* — Recently characterized; produces indole derivatives that activate [[ahr|AhR]] signaling, with therapeutic implications for ASD [[yu-2025-faecalibacterium-hominis-indole-ahr-asd-btbr]].
 - *F. duncaniae* — Newly described species from healthy gut.
 
@@ -56,7 +56,7 @@ Butyrate production depends on iron-sulfur cluster enzymes (butyryl-CoA dehydrog
 ## Cross-References
 
 - [[faecalibacterium-prausnitzii]] — species page with full detail
-- [[butyrate]] — primary metabolic output
+- butyrate — primary metabolic output
 - [[short-chain-fatty-acids]] — broader SCFA context
 - [[iron]] — iron-sulfur cluster dependency
 - [[dysbiosis]] — Faecalibacterium depletion as universal dysbiosis marker

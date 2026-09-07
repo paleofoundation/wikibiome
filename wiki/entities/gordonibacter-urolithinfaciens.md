@@ -64,7 +64,7 @@ Humans cannot directly metabolize ellagic acid; all urolithin production depends
 1. Lactonases – break down the lactone ring in ellagic acid
 2. Oxidoreductases (iron-dependent) – catalyze successive oxidation/decarboxylation steps
 3. Decarboxylases – remove CO2 groups during urolithin isomerization
-4. Short-chain fatty acid synthases – produces butyrate as a byproduct
+4. Short-chain fatty acid synthases – produces [[butyrate]] as a byproduct
 
 ## Disease Associations and Protective Roles
 

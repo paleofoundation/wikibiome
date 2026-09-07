@@ -38,7 +38,7 @@ This concept corresponds to Karen's Brain Primitive 9: Oxygen State as Ecologica
 
 ## The Healthy Oxygen Gradient
 
-In a healthy colon, butyrate produced by obligate anaerobes ([[faecalibacterium-prausnitzii]], [[roseburia]], [[anaerostipes]]) is consumed by colonocytes via beta-oxidation. This process consumes oxygen, maintaining the steep radial gradient:
+In a healthy colon, [[butyrate]] produced by obligate anaerobes ([[faecalibacterium-prausnitzii]], [[roseburia]], [[anaerostipes]]) is consumed by colonocytes via beta-oxidation. This process consumes oxygen, maintaining the steep radial gradient:
 
 1. Colonocytes oxidize butyrate → consume O2 → epithelial surface remains low-O2
 2. Luminal environment stays deeply anaerobic (< 1% O2)
@@ -87,6 +87,6 @@ Restoring the oxygen gradient is a two-sided ecological engineering challenge (P
 - [[proteobacteria]] — facultative aerobes that bloom when oxygen leaks into lumen
 - [[faecalibacterium-prausnitzii]] — obligate anaerobe whose butyrate maintains the gradient
 - [[roseburia]] — butyrate producer maintaining colonocyte oxygen consumption
-- [[butyrate]] — the metabolite that drives colonocyte O2 consumption
+- butyrate — the metabolite that drives colonocyte O2 consumption
 - [[molybdenum]] — cofactor for nitrate reductase enabling Proteobacteria anaerobic respiration
 - [[firmicutes]] — phylum most affected by oxygen gradient collapse

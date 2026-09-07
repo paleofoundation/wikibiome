@@ -25,7 +25,7 @@ platform: wikibiome
 
 # Bifidobacterium adolescentis
 
-Bifidobacterium adolescentis is a Gram-positive, obligate anaerobic species within the phylum Actinobacteria and the dominant Bifidobacterium species in the adult human gut. It is a specialist degrader of resistant starch and dietary fiber, producing acetate and lactate that are cross-fed to butyrate-producing bacteria in the colon.
+Bifidobacterium adolescentis is a Gram-positive, obligate anaerobic species within the phylum Actinobacteria and the dominant Bifidobacterium species in the adult human gut. It is a specialist degrader of resistant starch and dietary fiber, producing acetate and lactate that are cross-fed to [[butyrate]]-producing bacteria in the colon.
 
 This species is consistently depleted in multiple disease states. In type 2 diabetes, metformin treatment has been shown to partially restore *B. adolescentis* abundance, suggesting the species is sensitive to the metabolic environment and may mediate some of metformin's gut-level therapeutic effects ([[wu-2017-metformin-gut-microbiome-t2d-nature-medicine]], randomized controlled trial). Mendelian randomization studies have identified genetically predicted *B. adolescentis* abundance as inversely associated with autoimmune disease risk ([[xu-2022-gut-microbiota-autoimmune-diseases-mendelian-randomization]], Mendelian randomization). The species is also depleted in multiple sclerosis, where its loss contributes to reduced short-chain fatty acid production and impaired immune regulation ([[mohsen-2025-ms-gut-microbiome-immune-interaction]], review).
 

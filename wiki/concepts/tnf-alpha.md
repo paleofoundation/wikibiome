@@ -59,7 +59,7 @@ Heavy metals are potent inducers of TNF-alpha:
 
 ### Commensals Suppress TNF-alpha
 
-- Butyrate producers ([[faecalibacterium-prausnitzii]], [[roseburia]]): Butyrate inhibits NF-kB, reducing TNF-alpha transcription.
+- [[butyrate]] producers ([[faecalibacterium-prausnitzii]], [[roseburia]]): Butyrate inhibits NF-kB, reducing TNF-alpha transcription.
 - [[streptococcus-thermophilus]]: Produces anti-inflammatory metabolites that downregulate TNF-alpha in MS models [[dargahi-2020-streptococcus-thermophilus-ms]].
 - [[lactobacillus-reuteri]]: Produces histamine via [[histidine]] decarboxylase; histamine suppresses TNF-alpha via H2 receptor signaling.
 
@@ -111,4 +111,4 @@ TNF-alpha and [[interleukin-6|IL-6]] are frequently co-elevated and share the NF
 - [[zinc]] — TACE/ADAM17 zinc dependency for TNF-alpha processing
 - [[gut-brain-axis]] — TNF-alpha crosses BBB and activates [[microglia]]
 - [[endothelial-dysfunction]] — TNF-alpha impairs eNOS/NO signaling
-- [[butyrate]] — HDAC inhibitor that suppresses TNF-alpha via NF-kB inhibition
+- butyrate — HDAC inhibitor that suppresses TNF-alpha via NF-kB inhibition

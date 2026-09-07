@@ -32,7 +32,7 @@ The gut microbiome of PMDD patients shows a distinctive pattern of depletion in 
 - Parabacteroides -- depleted; its abundance inversely predicts symptom severity (R2 = 0.29 combined with Megasphaera) Takeda et al. 2022, making it a candidate biomarker
 - Megasphaera -- depleted; produces valerate and other SCFAs that support barrier integrity Takeda et al. 2022
 - [[blautia]] -- MR-validated protective taxon (OR = 0.994) Yao et al. 2024; produces acetate and propionate, supports anti-inflammatory signaling
-- Butyricicoccus -- depleted; butyrate producer whose loss reduces colonocyte health
+- Butyricicoccus -- depleted; [[butyrate]] producer whose loss reduces colonocyte health
 
 Enriched taxa include:
 - Anaerotaenia -- enriched in PMDD, correlated with severity (r = 0.292) Takeda et al. 2022; functional significance under investigation

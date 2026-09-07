@@ -48,7 +48,7 @@ The [[gut-microbiome]] controls microglial function through several routes:
 When [[gut-barrier-dysfunction]] permits LPS translocation into the bloodstream, circulating LPS reaches the brain through circumventricular organs (which lack a BBB) and through TLR4-mediated transcytosis. LPS is among the most potent microglial activators, driving rapid M1 polarization via the TLR4/NF-kB pathway [[perez-pardo-2022-toll-like-receptors-parkinsons-microbiome-gut-brain]].
 
 ### SCFA-Mediated Regulation
-[[short-chain-fatty-acids|Short-chain-fatty-acids]] (particularly butyrate) suppress microglial activation through HDAC inhibition and GPR109A receptor signaling. Germ-free mice show profound microglial abnormalities -- immature morphology, impaired phagocytic capacity, exaggerated inflammatory responses -- that normalize with SCFA supplementation [[sampson-2019-microbiome-immune-system-parkinsons]].
+[[short-chain-fatty-acids|Short-chain-fatty-acids]] (particularly [[butyrate]]) suppress microglial activation through HDAC inhibition and GPR109A receptor signaling. Germ-free mice show profound microglial abnormalities -- immature morphology, impaired phagocytic capacity, exaggerated inflammatory responses -- that normalize with SCFA supplementation [[sampson-2019-microbiome-immune-system-parkinsons]].
 
 ### Tryptophan Metabolites
 [[tryptophan|Tryptophan]] metabolites from the [[kynurenine-pathway]] (particularly quinolinic acid) directly activate microglia. Microbial indole derivatives acting through AhR on astrocytes modulate the astrocyte-microglia crosstalk [[campos-acuna-2019-neuroinflammation-microbiome-immune-parkinsons]].

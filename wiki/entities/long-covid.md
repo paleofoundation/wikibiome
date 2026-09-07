@@ -27,7 +27,7 @@ The microbiome disruption in Long COVID is distinguished from acute COVID and re
 
 ### Depleted Taxa
 The hallmark is systematic loss of obligate anaerobic SCFA producers:
-- [[faecalibacterium-prausnitzii]] — replicated across 6+ studies ([[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]], [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ghannoum-2021-microbiome-depression-covid-19]], [[ke2022-microbiome-covid-metagenome-genomes|Ke2022-microbiome-covid-metagenome-genomes]], [[mazzarelli-2021-16s-rrna-covid-19]]); primary butyrate producer
+- [[faecalibacterium-prausnitzii]] — replicated across 6+ studies ([[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]], [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]], [[ghannoum-2021-microbiome-depression-covid-19]], [[ke2022-microbiome-covid-metagenome-genomes|Ke2022-microbiome-covid-metagenome-genomes]], [[mazzarelli-2021-16s-rrna-covid-19]]); primary [[butyrate]] producer
 - [[roseburia]] — replicated across 5+ studies; SCFA producer [[didenko-2025-intestinal-microbiota-scfa-post-covid-immune-response]], [[rego-2024-impact-gut-microbiota-long-covid-insights-challenges]]
 - [[bifidobacterium]] — immune education; SCFA production [[ancona-2023-gut-airway-microbiota-dysbiosis-covid-longcovid]]
 - [[lactobacillus]] — immune modulation; barrier function [[xu-2022-probiotics-prebiotics-covid-19-gut-lung-axis]]

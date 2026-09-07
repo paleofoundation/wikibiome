@@ -53,7 +53,7 @@ A selective semipermeable border formed by brain endothelial cells connected by 
 - Pathogen invasion: Meningitis-causing bacteria (Neisseria meningitidis, S. pneumoniae) cross the BBB via transcellular, paracellular, and Trojan horse mechanisms [[patil-2021-infection-metallomics-critical-care]].
 
 ### BBB Protection
-- [[short-chain-fatty-acids]]: Butyrate and propionate strengthen BBB tight junctions. Germ-free mice have increased BBB permeability, restored by SCFA-producing bacterial colonization.
+- [[short-chain-fatty-acids]]: [[butyrate]] and propionate strengthen BBB tight junctions. Germ-free mice have increased BBB permeability, restored by SCFA-producing bacterial colonization.
 - [[indoles]]: AhR-activating indole metabolites reduce neuroinflammation and may support BBB integrity.
 
 ## Disease Relevance

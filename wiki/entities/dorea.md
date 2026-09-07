@@ -25,7 +25,7 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 ## Role in Gut Ecosystem
 
 - Part of the Lachnospiraceae family, one of the most abundant bacterial families in the human colon, involved in complex carbohydrate fermentation.
-- *D. formicigenerans* is the best-characterized species; it produces formate as a primary metabolic end-product, distinguishing it from butyrate-producing relatives like [[roseburia]] and [[coprococcus]].
+- *D. formicigenerans* is the best-characterized species; it produces formate as a primary metabolic end-product, distinguishing it from [[butyrate]]-producing relatives like [[roseburia]] and [[coprococcus]].
 - *D. longicatena* produces hydrogen gas (H2), which can feed hydrogenotrophic organisms including [[methanobrevibacter]] and sulfate-reducing bacteria.
 - Also produces acetate and minor amounts of other [[short-chain-fatty-acids]].
 

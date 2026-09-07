@@ -57,7 +57,7 @@ The Cu/Se ratio is the most discriminating metallomic marker for acute coronary 
 CAD patients have distinct gut microbial communities compared to healthy controls [[toya-2020-coronary-artery-disease-altered-gut-microbiome]]:
 
 - Enriched: [[enterobacteriaceae]], [[escherichia-coli]], Streptococcus, Lactobacillales
-- Depleted: [[roseburia]], [[faecalibacterium-prausnitzii]], [[coprococcus]], Eubacterium -- butyrate producers
+- Depleted: [[roseburia]], [[faecalibacterium-prausnitzii]], [[coprococcus]], Eubacterium -- [[butyrate]] producers
 - Functional: Increased TMAO production, reduced SCFA biosynthesis, altered bile acid metabolism
 
 ### Metabolomic Correlation with Stenosis Severity
@@ -131,7 +131,7 @@ The depletion of SCFA-producing bacteria in CAD removes these protective effects
 - [[cardiovascular-disease]] -- broader CVD context
 - [[atherosclerosis]] -- underlying pathological process
 - [[tmao]] -- microbial metabolite driving plaque
-- [[butyrate]] -- protective SCFA depleted in CAD
+- butyrate -- protective SCFA depleted in CAD
 - [[copper]] -- elevated acute-phase metal
 - [[selenium]] -- depleted antioxidant cofactor
 - [[erectile-dysfunction]] -- sentinel marker condition

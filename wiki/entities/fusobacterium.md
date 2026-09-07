@@ -62,7 +62,7 @@ A Gram-negative, obligate anaerobic bacterium that has emerged as the most consi
 ## Key Metabolites
 
 - Hydrogen sulfide (H2S) -- produces H2S via cysteine desulfhydrase, contributing to DNA damage and [[oxidative-stress]] in colonocytes.
-- Formate and butyrate -- mixed acid fermentation products; butyrate paradoxically fuels CRC cells exhibiting the Warburg effect.
+- Formate and [[butyrate]] -- mixed acid fermentation products; butyrate paradoxically fuels CRC cells exhibiting the Warburg effect.
 - Short-chain fatty acids -- metabolic cross-feeding with other tumor-associated bacteria sustains the CRC microenvironment.
 
 ## Key Sources

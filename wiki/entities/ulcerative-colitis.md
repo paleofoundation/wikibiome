@@ -53,7 +53,7 @@ Iron deficiency is the dominant metal abnormality in UC, driven by chronic mucos
 UC has a characteristic dysbiotic signature:
 
 ### Depleted Taxa
-- Faecalibacterium prausnitzii -- the most consistently depleted taxon in UC; produces butyrate, has direct anti-inflammatory effects (IL-10 induction); its absence is a hallmark of active disease
+- Faecalibacterium prausnitzii -- the most consistently depleted taxon in UC; produces [[butyrate]], has direct anti-inflammatory effects (IL-10 induction); its absence is a hallmark of active disease
 - Roseburia -- another major butyrate producer lost in UC
 - Bacteroides -- reduced diversity within this genus
 - Overall diversity -- alpha diversity reduced, particularly during flares

@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Ruminococcaceae
 
-Ruminococcaceae is a family within the phylum Firmicutes (class Clostridia, order Eubacteriales) that includes many of the gut's most important fiber-degrading and butyrate-producing bacteria. The family's consistent depletion across autoimmune, inflammatory, metabolic, and neurological diseases makes it a bellwether of gut ecosystem health -- and a frequent casualty of heavy metal-driven [[dysbiosis]].
+Ruminococcaceae is a family within the phylum Firmicutes (class Clostridia, order Eubacteriales) that includes many of the gut's most important fiber-degrading and [[butyrate]]-producing bacteria. The family's consistent depletion across autoimmune, inflammatory, metabolic, and neurological diseases makes it a bellwether of gut ecosystem health -- and a frequent casualty of heavy metal-driven [[dysbiosis]].
 
 The family formerly encompassed what was classified as Clostridium cluster IV, though taxonomic reclassification has reorganized several members. Key genera include *[[ruminococcus]]*, *Faecalibacterium* (now often placed in its own family Oscillospiraceae), *Subdoligranulum*, and *Oscillibacter*.
 
@@ -25,7 +25,7 @@ The family formerly encompassed what was classified as Clostridium cluster IV, t
 Ruminococcaceae members are among the few gut bacteria capable of degrading resistant starch and complex plant polysaccharides as primary fermenters:
 
 - Ruminococcus bromii is the keystone primary degrader of resistant starch. Without it, starch passes through the colon unfermented, depriving the entire cross-feeding network of substrate.
-- Degradation products are then cross-fed to secondary fermenters like [[roseburia]] and [[anaerostipes]], which convert them to [[butyrate]].
+- Degradation products are then cross-fed to secondary fermenters like [[roseburia]] and [[anaerostipes]], which convert them to butyrate.
 - This relay -- primary degradation by Ruminococcaceae followed by secondary butyrate production -- is a fundamental feature of healthy colonic ecology.
 
 ### Butyrate Production
@@ -92,7 +92,7 @@ The meta-analysis by Islam et al. (2022) found that Ruminococcaceae members show
 ## Cross-References
 
 - [[ruminococcus]] -- genus-level page with species detail
-- [[butyrate]] -- primary metabolic output of saccharolytic members
+- butyrate -- primary metabolic output of saccharolytic members
 - [[roseburia]] -- cross-feeding partner for secondary butyrate production
 - [[lachnospiraceae]] -- co-depleted family in inflammatory dysbiosis
 - [[faecalibacterium-prausnitzii]] -- formerly classified in Ruminococcaceae

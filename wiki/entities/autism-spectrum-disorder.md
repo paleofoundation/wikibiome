@@ -88,7 +88,7 @@ The gut-brain axis is a major pathway in ASD metallomic research, with 30-70% of
 All four factors (Hg, Cd, Pb, Zn deficiency) converge on gut inflammation and intestinal barrier dysfunction as shared pathologies [[ogrady-2025-metal-dyshomeostasis-asd]]:
 
 - Mercury: Intestinal barrier dysfunction, structural damage, gut inflammation, microbiota dysbiosis (7 rodent studies) [[ogrady-2025-metal-dyshomeostasis-asd]].
-- Cadmium: Structural intestinal damage, increased permeability, gut inflammation, microbiota dysbiosis, reduced butyrate production (16 rodent studies) [[ogrady-2025-metal-dyshomeostasis-asd]].
+- Cadmium: Structural intestinal damage, increased permeability, gut inflammation, microbiota dysbiosis, reduced [[butyrate]] production (16 rodent studies) [[ogrady-2025-metal-dyshomeostasis-asd]].
 - Lead: Structural intestinal damage, gut inflammation, microbiota dysbiosis, increased permeability (9 rodent studies) [[ogrady-2025-metal-dyshomeostasis-asd]].
 - Zinc deficiency: Intestinal barrier dysfunction, gut inflammation, structural damage, increased permeability (5 rodent studies) [[ogrady-2025-metal-dyshomeostasis-asd]].
 

@@ -92,7 +92,7 @@ Metal exposure impairs resolution at multiple points:
 - Glutathione depletion impairs the enzymatic pathways producing resolution mediators.
 - Persistent metal stimulus prevents the removal of the initiating trigger.
 - Metal-activated M1 microglia resist phenotype switching.
-- Loss of SCFA-producing bacteria removes butyrate, which normally promotes M2 macrophage polarization.
+- Loss of SCFA-producing bacteria removes [[butyrate]], which normally promotes M2 macrophage polarization.
 
 This failure of resolution is why metal-driven inflammation becomes chronic and self-perpetuating.
 

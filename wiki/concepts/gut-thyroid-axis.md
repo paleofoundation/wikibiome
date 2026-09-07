@@ -40,7 +40,7 @@ When the gut microbiome is disrupted, mineral absorption efficiency drops, direc
 The gut-associated lymphoid tissue (GALT) contains 70-80% of the body's immune cells. The microbiome educates these cells, and errors in this education can trigger thyroid autoimmunity:
 
 - Molecular mimicry: Bacterial antigens structurally similar to thyroid proteins (TPO, thyroglobulin, TSH receptor) can break immune tolerance [[bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review]]
-- Treg/Th17 balance: Butyrate-producing bacteria promote regulatory T cell differentiation; their depletion shifts toward Th17-dominated autoimmune inflammation
+- Treg/Th17 balance: [[butyrate]]-producing bacteria promote regulatory T cell differentiation; their depletion shifts toward Th17-dominated autoimmune inflammation
 - Intestinal permeability: dysbiosis increases intestinal permeability ("leaky gut"), allowing microbial antigens and LPS to reach systemic circulation and trigger thyroid-directed autoimmune responses
 
 ### Hormone Metabolism

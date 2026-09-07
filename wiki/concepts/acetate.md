@@ -20,11 +20,11 @@ karen_brain_primitives: [5]
 
 ## Overview
 
-Acetate (acetic acid, C2) is the most abundant SCFA in the colon (~60% of total SCFAs) and the primary cross-feeding substrate for butyrate production. Produced by Bacteroides, Bifidobacterium, Prevotella, and acetogens from dietary fiber fermentation, acetate reaches portal concentrations of 100–300 µM and peripheral circulation at 50–200 µM — making it the only SCFA with significant systemic concentrations.
+Acetate (acetic acid, C2) is the most abundant SCFA in the colon (~60% of total SCFAs) and the primary cross-feeding substrate for [[butyrate]] production. Produced by Bacteroides, Bifidobacterium, Prevotella, and acetogens from dietary fiber fermentation, acetate reaches portal concentrations of 100–300 µM and peripheral circulation at 50–200 µM — making it the only SCFA with significant systemic concentrations.
 
 ## Functions
 
-- [[cross-feeding]] substrate: Acetate is converted to [[butyrate]] by butyrate-producing Firmicutes ([[roseburia]], [[faecalibacterium-prausnitzii]]) via butyryl-CoA:acetate CoA-transferase. This acetate→butyrate chain means acetate producers are upstream of the entire butyrate-dependent protective cascade [[louis-2022-microbial-lactate-utilisation-gut-stability]].
+- [[cross-feeding]] substrate: Acetate is converted to butyrate by butyrate-producing Firmicutes ([[roseburia]], [[faecalibacterium-prausnitzii]]) via butyryl-CoA:acetate CoA-transferase. This acetate→butyrate chain means acetate producers are upstream of the entire butyrate-dependent protective cascade [[louis-2022-microbial-lactate-utilisation-gut-stability]].
 - Appetite regulation: Acetate crosses the blood-brain barrier and reduces appetite via hypothalamic signaling.
 - Immune modulation: Activates GPR43 (FFAR2) on immune cells, promoting neutrophil recruitment and Treg differentiation.
 - Histone acetylation: Systemic acetate contributes to histone H3/H4 acetylation in peripheral tissues — an epigenetic mechanism linking [[gut-microbiome]] to systemic gene regulation.
@@ -33,7 +33,7 @@ Acetate (acetic acid, C2) is the most abundant SCFA in the colon (~60% of total 
 ## Cross-References
 
 - [[short-chain-fatty-acids]] — SCFA umbrella
-- [[butyrate]] — downstream product of acetate cross-feeding
+- butyrate — downstream product of acetate cross-feeding
 - [[cross-feeding]] — acetate→butyrate trophic chain
 - [[bacteroides]] — major acetate producer
 - [[bifidobacterium]] — major acetate producer

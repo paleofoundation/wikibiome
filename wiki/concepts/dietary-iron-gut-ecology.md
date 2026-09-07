@@ -50,7 +50,7 @@ Iron-rich environment selects for:
 Iron-restricted environment selects for:
 - [[lactobacillus|Lactobacillus]] species — iron-independent metabolism; dominate when iron is scarce
 - [[bifidobacterium|Bifidobacterium]] — adapted to low-iron niches; use lactoferrin-bound iron efficiently
-- [[faecalibacterium-prausnitzii|Faecalibacterium prausnitzii]] — butyrate producer favored in iron-restricted conditions
+- [[faecalibacterium-prausnitzii|Faecalibacterium prausnitzii]] — [[butyrate]] producer favored in iron-restricted conditions
 
 This is Primitive 1 in action: dietary iron patterns select for tolerant/dependent organisms and reshape the entire gut community.
 

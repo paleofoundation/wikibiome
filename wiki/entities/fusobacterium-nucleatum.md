@@ -96,7 +96,7 @@ A Gram-negative obligate anaerobe that has emerged as a major pathogen in colore
 
 ## Metabolic Features
 
-- Fermentative metabolism producing butyrate and other short-chain fatty acids, but does not produce levels sufficient to be anti-inflammatory.
+- Fermentative metabolism producing [[butyrate]] and other short-chain fatty acids, but does not produce levels sufficient to be anti-inflammatory.
 - Produces collagenase and other tissue-degrading proteases, compounding barrier disruption in IBD.
 - Lacks robust SCFA-mediated immune tolerance mechanisms seen in [[faecalibacterium-prausnitzii]] or [[roseburia]].
 

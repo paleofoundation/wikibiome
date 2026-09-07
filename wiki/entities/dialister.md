@@ -66,7 +66,7 @@ Dialister abundance is one of the most consistent protective markers in depressi
  - Oral succinate supplementation (in rodent models) partially reverses Dialister depletion phenotypes
 
 2. Short-Chain Fatty Acid [[dysbiosis]]
- - Dialister depletion co-occurs with reduced butyrate and propionate production
+ - Dialister depletion co-occurs with reduced [[butyrate]] and propionate production
  - Butyrate is essential for histone deacetylase (HDAC) inhibition, which promotes BDNF expression in the brain
  - Loss of Dialister contributes to reduced BBB integrity via claudin-5 downregulation
 

@@ -81,7 +81,7 @@ Endometriosis is characterized by:
 
 ### Dysbiosis and Intestinal Permeability in Endometriosis
 
-- Loss of [[faecalibacterium-prausnitzii]] and [[akkermansia-muciniphila]] (suppressed by elevated estrogen) → reduced butyrate production → loss of HDAC inhibition → downregulation of tight junction genes (claudins, ZO-1, occludin).
+- Loss of [[faecalibacterium-prausnitzii]] and [[akkermansia-muciniphila]] (suppressed by elevated estrogen) → reduced [[butyrate]] production → loss of HDAC inhibition → downregulation of tight junction genes (claudins, ZO-1, occludin).
 - Increased intestinal permeability allows elevated LPS translocation.
 - Systemic LPS activates TLR4 on macrophages and dendritic cells → IL-6, IL-8, IL-17 production → perpetuates both endometriosis lesion inflammation and gut dysbiosis.
 

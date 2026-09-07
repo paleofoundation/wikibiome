@@ -52,7 +52,7 @@ The microbiome studies summarized below commonly used “Clostridiales,” datab
 ## Metal Dependencies
 
 Iron:
-- Ferredoxin-dependent oxidoreductases are central to anaerobic metabolism among many organisms historically grouped as Clostridiales. Iron-sulfur clusters in ferredoxins enable electron transfer for butyrate synthesis and amino acid fermentation.
+- Ferredoxin-dependent oxidoreductases are central to anaerobic metabolism among many organisms historically grouped as Clostridiales. Iron-sulfur clusters in ferredoxins enable electron transfer for [[butyrate]] synthesis and amino acid fermentation.
 - Many organisms in those source-era groupings lack aggressive iron acquisition systems (siderophores), relying on ferrous iron uptake. This can make them vulnerable to competitive exclusion by siderophore-producing Enterobacteriaceae in iron-replete inflammatory environments.
 
 Selenium:
@@ -94,7 +94,7 @@ Clostridium clusters IV and XIVa are consistently depleted in CD, representing t
 - [[clostridia]] -- the parent class
 - [[lachnospiraceae]] -- a health-associated family included in historical Clostridiales classifications
 - [[ruminococcaceae]] -- a second major butyrate-producing family
-- [[butyrate]] -- a key metabolite produced by multiple source-defined Clostridiales taxa
+- butyrate -- a key metabolite produced by multiple source-defined Clostridiales taxa
 - [[roseburia]] -- a major butyrate producer depleted in CVD
 - [[faecalibacterium-prausnitzii|faecalibacterium]] -- a studied anti-inflammatory organism included in historical Clostridiales classifications
 - [[clostridioides-difficile|Clostridium difficile]] -- an organism whose historical placement illustrates the breadth and later revision of Clostridiales classifications

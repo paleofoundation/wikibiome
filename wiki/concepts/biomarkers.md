@@ -51,7 +51,7 @@ See [[microbial-biomarkers]] for detailed treatment. Key examples:
 - p-Cresol sulfate: Elevated in ASD and CKD; reflects Clostridioides activity in gut.
 - [[calprotectin]] (fecal): Neutrophil-derived; gold standard for non-invasive IBD monitoring.
 - [[hepcidin]]: Circulating peptide reflecting iron status and inflammatory state; low in iron deficiency, high in inflammation.
-- Fecal SCFAs: Reduced butyrate/propionate reflects loss of fermentative microbiome capacity.
+- Fecal SCFAs: Reduced [[butyrate]]/propionate reflects loss of fermentative microbiome capacity.
 - Indoxyl sulfate: Uremic toxin; microbial indole derivative accumulating in CKD.
 
 ## Metallomic Signatures

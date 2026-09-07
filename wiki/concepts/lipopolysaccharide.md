@@ -55,7 +55,7 @@ Heavy metals amplify LPS-mediated pathology through several mechanisms:
 
 - Barrier disruption: Cadmium, lead, and arsenic damage tight junction proteins (ZO-1, occludin, claudin-1), increasing paracellular LPS translocation
 - Immune priming: Metal-induced NF-kB activation lowers the threshold for TLR4 signaling, creating synergistic inflammation between metal exposure and LPS
-- Microbiome shift: Metals select for Gram-negative [[proteobacteria]] (LPS-rich organisms) while depleting Gram-positive butyrate producers that maintain barrier integrity — a dual mechanism that simultaneously increases LPS production and its translocation route
+- Microbiome shift: Metals select for Gram-negative [[proteobacteria]] (LPS-rich organisms) while depleting Gram-positive [[butyrate]] producers that maintain barrier integrity — a dual mechanism that simultaneously increases LPS production and its translocation route
 
 ## Nutritional Immunity Context
 

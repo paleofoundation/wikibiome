@@ -25,7 +25,7 @@ platform: wikibiome
 
 # Butyrivibrio
 
-Butyrivibrio is a genus of Gram-positive, obligate anaerobic bacteria within the family Lachnospiraceae (phylum Firmicutes). Originally characterized as a dominant fiber-fermenting genus in the rumen, Butyrivibrio species are also found in the human colon where they contribute to butyrate production through fermentation of complex plant polysaccharides including xylan and cellulose.
+Butyrivibrio is a genus of Gram-positive, obligate anaerobic bacteria within the family Lachnospiraceae (phylum Firmicutes). Originally characterized as a dominant fiber-fermenting genus in the rumen, Butyrivibrio species are also found in the human colon where they contribute to [[butyrate]] production through fermentation of complex plant polysaccharides including xylan and cellulose.
 
 As a butyrate producer, Butyrivibrio supports colonic epithelial integrity and anti-inflammatory signaling. Its depletion has been documented across several disease states. In endometriosis, stool microbial profiling identified reduced Butyrivibrio abundance as part of a broader loss of short-chain fatty acid producers ([[hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]], cross-sectional). Mendelian randomization analyses have linked genetically predicted Butyrivibrio abundance to reduced autoimmune thyroid disease risk ([[fang-2024-gut-microbiota-autoimmune-thyroid-mendelian]], Mendelian randomization). The genus is also depleted in perimenopausal panic disorder, consistent with the pattern of butyrate-producing taxa loss in conditions involving gut-brain axis disruption ([[lin-2023-gut-microbiota-perimenopausal-panic-disorder]], cross-sectional).
 

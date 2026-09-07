@@ -46,7 +46,7 @@ The copper-iron axis is particularly informative: elevated copper competes with 
 
 ### Depleted Taxa
 
-Faecalibacterium prausnitzii is the most consistently depleted taxon in FM, reported across 5+ independent studies Goudman et al. 2024, meta-analysis. This is significant because *F. prausnitzii* is the primary butyrate producer in the human colon; its depletion reduces anti-inflammatory signaling and compromises intestinal barrier integrity.
+Faecalibacterium prausnitzii is the most consistently depleted taxon in FM, reported across 5+ independent studies Goudman et al. 2024, meta-analysis. This is significant because *F. prausnitzii* is the primary [[butyrate]] producer in the human colon; its depletion reduces anti-inflammatory signaling and compromises intestinal barrier integrity.
 
 Other consistently depleted taxa include:
 - [[bifidobacterium]] -- loss reduces lactate cross-feeding and barrier support

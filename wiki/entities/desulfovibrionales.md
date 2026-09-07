@@ -66,7 +66,7 @@ Desulfovibrionales are normal members of the colonic microbiota at low abundance
 
 ### In Dysbiosis
 When Desulfovibrionales expand beyond homeostatic levels, H2S production overwhelms the capacity of colonocytes to detoxify sulfide (via sulfide:quinone oxidoreductase). Excess H2S:
-- Inhibits butyrate oxidation in colonocytes, compromising the primary energy source of the colonic epithelium
+- Inhibits [[butyrate]] oxidation in colonocytes, compromising the primary energy source of the colonic epithelium
 - Increases intestinal permeability by disrupting [[tight-junctions|tight junction]] proteins
 - Induces systemic [[inflammation]] via endothelial damage and NF-kB activation
 - Increases cholesterol absorption through mechanisms not yet fully characterized
@@ -99,5 +99,5 @@ The proposed mechanism: Desulfovibrionales-mediated H2S production induces syste
 - [[chronic-kidney-disease]] -- the disease with the strongest causal evidence for Desulfovibrionales involvement
 - [[iron]] -- essential cofactor for DsrAB and multiple electron carriers in the sulfate reduction pathway
 - [[nickel]] -- cofactor for NiFe hydrogenases in interspecies hydrogen transfer
-- [[butyrate]] -- H2S inhibits butyrate oxidation in colonocytes, compromising epithelial energy metabolism
+- butyrate -- H2S inhibits butyrate oxidation in colonocytes, compromising epithelial energy metabolism
 - [[fermentative-metabolism|hydrogen-sulfide]] -- the cytotoxic end product of Desulfovibrionales metabolism

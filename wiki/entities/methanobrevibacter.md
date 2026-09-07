@@ -80,6 +80,6 @@ The only archaeon represented in this wiki -- *Methanobrevibacter smithii* is th
 - [[butyricimonas]] -- shows opposite pattern in MS (depleted); anti-inflammatory correlations
 - [[dorea]] -- H2 cross-feeding; Dorea produces H2 that feeds Methanobrevibacter
 - [[veillonella]] -- another H2 producer whose metabolic output supports methanogenesis
-- [[coprococcus]] -- butyrate producer depleted in MS while Methanobrevibacter increases
+- [[coprococcus]] -- [[butyrate]] producer depleted in MS while Methanobrevibacter increases
 - [[nf-kappa-b]] -- triggers NF-kB activation in immune cells
 - [[gut-metal-microbiome]] -- the most metal-dependent organism in the human gut microbiome

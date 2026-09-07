@@ -39,7 +39,7 @@ Wu et al. used a multi-pronged approach to prove metformin's microbiome-mediated
 |--------|-----------|-------------|
 | [[akkermansia-muciniphila]] | Increased | Mucin-degrader; strengthens gut barrier; metabolic protection |
 | [[bifidobacterium]] adolescentis | Increased | SCFA production; immune modulation |
-| [[short-chain-fatty-acids]] | Increased | Butyrate/propionate production enhanced |
+| [[short-chain-fatty-acids]] | Increased | [[butyrate]]/propionate production enhanced |
 | *Escherichia-Shigella* | Increased | Explains GI side effects (diarrhea, bloating) [[elbere-2018-metformin-gut-microbiome-dysbiosis-healthy-volunteers]] |
 | Microbial diversity | Decreased (acutely) | Immediate reduction within 24 hours in healthy volunteers |
 

@@ -94,7 +94,7 @@ LPS/TLR4/NF-kB cascade in endometriotic tissue drives HGF, VEGF, and inflammator
 - [[bacterial-contamination-hypothesis]] -- LPS/TLR4 in endometriosis
 - [[nickel]] -- Human-specific TLR4 activation
 - [[cadmium]] -- Cd-TLR4/NF-kB in diabetic nephropathy
-- [[butyrate]] -- TLR4 suppressor
+- butyrate -- TLR4 suppressor
 - inflammation -- TLR4 as master inflammatory switch
 - [[necrotizing-enterocolitis]] -- TLR4 over-expression as disease driver
 - [[fusobacterium-nucleatum]] -- TLR4-mediated tumorigenesis

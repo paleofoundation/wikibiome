@@ -113,5 +113,5 @@ The gut-penis axis reframes ED from a purely vascular/neurogenic condition to on
 - [[cardiovascular-disease]] -- shared endothelial dysfunction pathway
 - [[tmao]] -- microbial metabolite driving atherosclerosis
 - [[intestinal-permeability]] -- barrier dysfunction enabling endotoxemia
-- [[butyrate]] -- protective SCFA linking microbiome to NO production
+- butyrate -- protective SCFA linking microbiome to NO production
 - [[cadmium]] -- reproductive toxicant with dual vascular and microbiome effects

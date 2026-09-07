@@ -96,7 +96,7 @@ Ecological impact: By consuming H2, *M. smithii* relieves acetogenic bacteria (e
 | Taxon | Primary Fermentation | H2 Yield |
 |-------|---------------------|----------|
 | [[bacteroides-fragilis]] | Starch/pectin → acetate + propionate | Low |
-| [[faecalibacterium-prausnitzii]] | Carbohydrates → butyrate | High |
+| [[faecalibacterium-prausnitzii]] | Carbohydrates → [[butyrate]] | High |
 | [[prevotella]] spp | Pectin, mucin → acetate | Medium |
 | *Clostridium* (cluster IV) | Plant polysaccharides → butyrate + H2 | High |
 

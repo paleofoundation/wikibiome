@@ -58,7 +58,7 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Ne
 ## Mechanistic Considerations
 
 - The enrichment of *Veillonella* in autoimmune disease may reflect increased oral-gut translocation rather than gut-specific expansion. Compromised gut barrier function in MS and Graves' disease allows oral bacteria to establish colonic populations.
-- Lactate utilization could be beneficial (preventing lactate accumulation) or detrimental (removing substrate from beneficial lactate-utilizing butyrate producers like *Anaerostipes*).
+- Lactate utilization could be beneficial (preventing lactate accumulation) or detrimental (removing substrate from beneficial lactate-utilizing [[butyrate]] producers like *Anaerostipes*).
 - The H2 produced by *Veillonella* could support the expansion of [[methanobrevibacter]], which is also elevated in MS, suggesting a metabolic cascade.
 
 ## Key Sources

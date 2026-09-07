@@ -2,76 +2,91 @@
 title: Butyrate
 type: concept
 created: 2026-04-10
-updated: 2026-04-10
-sources: [bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, spivak-2023-local-systemic-microbiome-derived-metabolites, luqman-2024-intestinal-microbiome-cvd-intervention]
-source_count: 3
+updated: 2026-09-07
+sources: [carretta-2021-scfas-receptors-gut-inflammation-colon-cancer, chambers-2018-scfa-metabolic-cardiovascular-health, bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota, spivak-2023-local-systemic-microbiome-derived-metabolites, liu-2020-high-fat-diet-heavy-metal-gut-microbiota-kidney, pietrucci-2020-butyrogenic-fibers-parkinsons, yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]
+source_count: 7
 tags: [butyrate, SCFA, HDAC-inhibition, GPR109A, colonocyte-energy, Treg, gut-barrier, Roseburia, Faecalibacterium, anti-inflammatory, epigenetics]
 platform: wikibiome
 karen_brain_primitives: [5, 9]
 seo_target: "butyrate microbiome"
-last_substantive_update: 2026-04-10
+last_substantive_update: 2026-09-07
 ---
 
 # Butyrate
 
-The most biologically potent short-chain fatty acid (C4). Butyrate is the primary energy source for colonocytes, a histone deacetylase (HDAC) inhibitor with broad epigenetic effects, and a key anti-inflammatory mediator. Its depletion -- driven by loss of butyrate-producing bacteria under metal exposure, antibiotics, or poor diet -- is a near-universal feature of every disease covered in this wiki. For the full SCFA family, see [[short-chain-fatty-acids]].
+Butyrate is a four-carbon [[short-chain-fatty-acids|short-chain fatty acid]] produced when anaerobic gut microorganisms ferment dietary substrates. In the colon, it participates in epithelial energy metabolism, barrier maintenance, immune signaling, and gene regulation. Its effects depend on concentration, tissue, receptor expression, and disease context; a low fecal value or a reduced abundance of a presumed producer is therefore not interchangeable with a direct measurement of host butyrate exposure [[chambers-2018-scfa-metabolic-cardiovascular-health]].
 
-## Production
+## Production and Fate
 
-Butyrate is synthesized via the butyryl-CoA:acetate CoA-transferase pathway by obligate anaerobic bacteria:
-- Roseburia (R. intestinalis, R. hominis): Major producers; enriched by dietary fiber and ketogenic diet in MS.
-- [[faecalibacterium-prausnitzii]]: The most abundant Firmicute in the healthy gut (~5% of total bacteria); its depletion is a hallmark biomarker of IBD.
-- Coprococcus: Produces butyrate from lactate and acetate via cross-feeding.
-- Eubacterium (E. rectale, E. hallii): Key cross-feeders that convert acetate and lactate to butyrate.
-- [[oscillospiraceae|Oscillospiraceae]]: Family including *Oscillibacter* and *Subdoligranulum*; use the acetyl-CoA pathway; consistently depleted in obesity, IBD, and CRC.
-- [[blautia]]: Some species contribute via acetyl-CoA pathway.
+Members of anaerobic Firmicute lineages—including *[[faecalibacterium-prausnitzii]]*, *[[roseburia]]*, *[[coprococcus]]*, *[[anaerostipes]]*, and other Lachnospiraceae or Ruminococcaceae—are commonly described as butyrate producers. Human studies often infer butyrate-production capacity from the abundance of these taxa, but strain-level function and actual metabolite output can differ. A cross-sectional CKD study, for example, found depletion of five butyrate-producing Lachnospiraceae genera across later disease stages; the design establishes an association, not that butyrate loss caused CKD progression [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]].
 
-Cross-feeding is essential: acetate produced by [[bifidobacterium]] is converted to butyrate by Roseburia and Faecalibacterium, linking these communities functionally.
+Microbial cross-feeding helps convert fermentation intermediates such as acetate and lactate into butyrate. After production, butyrate is extensively used in the colonic environment, while the fraction entering portal and systemic circulation is much smaller than the luminal pool [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]]. This local metabolism distinguishes butyrate from more systemically abundant SCFAs such as [[acetate]].
 
-## Mechanisms of Action
+## Epithelial Barrier and Oxygen Ecology
 
-### Colonocyte Energy (70% of Energy)
-Butyrate is oxidized via beta-oxidation in colonocytes, consuming oxygen and maintaining the hypoxic luminal environment necessary for obligate anaerobe survival (see [[hypoxic-signaling]]). Without butyrate, colonocytes switch to glucose fermentation, oxygen diffuses into the lumen, and the resulting aerobic environment favors pathobiont expansion -- a self-reinforcing cycle of [[dysbiosis]].
+Butyrate supports colonic epithelial integrity through several linked processes:
 
-### HDAC Inhibition
-Butyrate inhibits class I and II histone deacetylases, broadly opening chromatin and altering gene expression:
-- Foxp3 upregulation: Drives naive T cell differentiation into regulatory T cells (Tregs), suppressing autoimmunity and chronic [[inflammation]].
-- NF-kB suppression: Reduces macrophage production of TNF-alpha, IL-6, and IL-12.
-- [[tight-junctions|Tight junction]] induction: Upregulates claudins, occludin, and ZO-1 expression in epithelial cells.
-- Anti-proliferative: Inhibits cancer cell growth and induces apoptosis -- the Warburg paradox (cancer cells ferment glucose rather than oxidize butyrate, so butyrate accumulates as an HDAC inhibitor).
+- It serves as an important oxidative fuel for colonocytes.
+- It promotes mucus production and coordinates tight-junction proteins.
+- Colonocyte oxidation of butyrate consumes oxygen, helping preserve the low-oxygen environment favored by obligate anaerobes.
+- Barrier maintenance limits translocation of microbial products such as [[lipopolysaccharide]].
 
-### GPR109A (HCAR2) Signaling
-Butyrate activates GPR109A on colonocytes, macrophages, and dendritic cells:
-- Promotes IL-10 production and Treg differentiation.
-- Suppresses [[nf-kappa-b]]-mediated inflammatory signaling.
-- Niacin (vitamin B3) is an alternative GPR109A ligand, partially explaining the anti-inflammatory effects of niacin supplementation.
+Reviews of metabolic and cardiovascular evidence emphasize that the site and rate of SCFA production matter, and that experimental dosing does not always reproduce physiologic exposure [[chambers-2018-scfa-metabolic-cardiovascular-health]]. Broader metabolite reviews similarly connect SCFAs with barrier stability through histone-deacetylase inhibition and G-protein-coupled receptor signaling [[spivak-2023-local-systemic-microbiome-derived-metabolites]].
 
-## Disease Relevance
+## Host Signaling
 
-Butyrate depletion is documented in:
-- IBD: F. prausnitzii loss is both diagnostic and mechanistic; butyrate enemas show therapeutic benefit.
-- Cardiovascular disease: Reduced butyrate production correlates with increased [[tmao]] and endotoxemia [[luqman-2024-intestinal-microbiome-cvd-intervention]].
-- Neurodegeneration: Butyrate modulates microglial activation; shifts microglia from M1 (pro-inflammatory) to M2 phenotype.
-- ASD: Fecal butyrate reduced; correlates with GI symptoms and behavioral severity.
-- Colorectal cancer: Butyrate's anti-proliferative effect is protective; its loss removes a tumor suppressor.
-- MS: Ketogenic diet enriches propionate/butyrate producers correlated with reduced MRI lesions.
+### Histone-Deacetylase Inhibition
 
-## Metal Connections
+Butyrate can inhibit histone deacetylases, changing chromatin accessibility and transcription. Reported downstream effects include support for regulatory T-cell programs and suppression of some inflammatory pathways. These effects are cell- and dose-dependent; “HDAC inhibition” is a mechanism, not by itself evidence that a butyrate intervention improves a clinical outcome [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]].
 
-Heavy metals (Cd, Pb, Hg, As, Ni) selectively eliminate butyrate-producing bacteria because these are obligate anaerobes lacking the metal efflux pumps and biofilm defenses of pathobionts. The resulting butyrate deficit:
-1. Starves colonocytes, breaking the gut barrier.
-2. Removes HDAC-mediated anti-inflammatory tone.
-3. Shifts the luminal environment from anaerobic to aerobic, favoring Enterobacteriaceae.
-4. Increases metal absorption through the damaged barrier, amplifying the cycle.
+### Receptor-Mediated Effects
+
+SCFAs signal through receptors including FFAR2/GPR43, FFAR3/GPR41, and HCAR2/GPR109A on epithelial and immune cells. HCAR2 is a prominent butyrate-responsive receptor, while receptor preferences overlap and vary by tissue. Experimental and review evidence links these pathways to IL-10, Treg, IgA, IL-22, mucus, and [[nf-kappa-b|NF-kappa-B]] regulation [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]], [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]. The same receptor can have different consequences in different cell types, so receptor activation should not be described as uniformly anti-inflammatory.
+
+## Evidence Across Disease Contexts
+
+Reduced butyrate, lower inferred production capacity, or depletion of butyrate-producing taxa has been reported in multiple inflammatory, metabolic, neurologic, and renal cohorts. Interpretation requires separating several measurements:
+
+1. Taxon abundance estimates potential capacity, not metabolite flux.
+2. Fecal butyrate reflects production, absorption, and transit simultaneously.
+3. Circulating butyrate represents only a fraction of colonic exposure.
+4. Cross-sectional associations do not establish whether the change is a cause, consequence, treatment effect, or dietary correlate.
+
+Cardiovascular reviews connect SCFAs with barrier function, appetite, glucose regulation, and blood-pressure pathways, while also noting uncertainty about physiologically relevant concentrations at specific tissues [[chambers-2018-scfa-metabolic-cardiovascular-health]], [[spivak-2023-local-systemic-microbiome-derived-metabolites]]. In CKD, human observational data support stage-associated depletion of several producing genera but do not prove therapeutic benefit from replacing the metabolite [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]].
+
+## Diet, Metals, and Microbial Ecology
+
+Dietary fiber availability, community composition, transit, pH, and antibiotic exposure can all alter butyrate production. A review of butyrogenic fibers identifies resistant starch, inulin, pectin, and beta-glucan as candidate substrates that may support producing organisms, but notes that Parkinson's disease trials are still needed and that individual microbiomes may respond differently [[pietrucci-2020-butyrogenic-fibers-parkinsons]].
+
+Evidence directly joining metals, butyrate ecology, and host outcomes remains more limited. In a 48-mouse factorial study, high-fat diet combined with arsenic, cadmium, or lead exposure altered the microbiome, reduced *Coprococcus* and *Roseburia*, lowered fecal metal excretion, and increased renal metal accumulation and injury [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota-kidney]]. This supports a diet–microbiome–metal interaction in that animal model; it does not establish that every metal selectively depletes butyrate producers or that the same effect size occurs in humans.
+
+## Intervention Evidence and Limits
+
+Strategies proposed to increase butyrate exposure include fermentable fiber, prebiotics, ecological restoration of producing taxa, and direct butyrate formulations. The appropriate endpoint matters: increasing a producer, increasing fecal concentration, improving barrier markers, and improving symptoms are distinct outcomes. Current evidence varies substantially by indication, formulation, and study design, so WikiBiome does not treat butyrate as a general-purpose therapy.
+
+Important limitations include:
+
+- producer abundance does not guarantee functional output;
+- fecal measurements do not directly quantify epithelial uptake;
+- receptor and HDAC responses are tissue- and concentration-dependent;
+- many mechanistic claims come from cell or animal models;
+- clinical benefit cannot be inferred solely from restoration of an intermediate biomarker.
 
 ## See Also
 
-- [[short-chain-fatty-acids]] -- full SCFA family (acetate, propionate, butyrate)
-- dysbiosis -- the consequence of butyrate producer loss
-- [[epigenetic-modifications]] -- HDAC inhibition as epigenetic mechanism
-- [[hypoxic-signaling]] -- butyrate's role in maintaining colonic hypoxia
+- [[short-chain-fatty-acids]] — the broader SCFA family
+- [[acetate]] — the most abundant colonic SCFA and a cross-feeding substrate
+- [[cross-feeding]] — exchange of metabolic substrates between microorganisms
+- [[tight-junctions]] — one component of epithelial barrier integrity
+- [[hypoxic-signaling]] — oxygen-sensitive regulation in the intestinal environment
+- [[dysbiosis]] — context-dependent disruption of microbial community function
 
 ## Key Sources
 
+- [[carretta-2021-scfas-receptors-gut-inflammation-colon-cancer]]
+- [[chambers-2018-scfa-metabolic-cardiovascular-health]]
 - [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]]
 - [[spivak-2023-local-systemic-microbiome-derived-metabolites]]
+- [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota-kidney]]
+- [[pietrucci-2020-butyrogenic-fibers-parkinsons]]
+- [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]]

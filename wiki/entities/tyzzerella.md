@@ -34,7 +34,7 @@ As a member of the Lachnospiraceae, *Tyzzerella* likely shares the family's depe
 
 The enzymatic profile of *Tyzzerella* remains largely uncharacterized. Based on its phylogenetic placement within Lachnospiraceae:
 
-- It likely participates in carbohydrate fermentation producing short-chain fatty acids, though whether it is primarily a butyrate or acetate producer is not yet established.
+- It likely participates in carbohydrate fermentation producing short-chain fatty acids, though whether it is primarily a [[butyrate]] or acetate producer is not yet established.
 - No specific virulence factors have been described, but its enrichment in cancer may relate to metabolite production that modulates immune surveillance or epithelial proliferation.
 
 ## Ecological Role

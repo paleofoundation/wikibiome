@@ -23,7 +23,7 @@ pathogenic_potential: commensal
 
 # Odoribacter
 
-*Odoribacter splanchnicus* is a Gram-negative, obligate anaerobic bacterium belonging to the family Odoribacteraceae within the phylum Bacteroidota (formerly Bacteroidetes). It is a commensal resident of the human colon recognized primarily as a producer of [[short-chain-fatty-acids]] — particularly butyrate and propionate — with complex and sometimes paradoxical associations across multiple disease states. *Odoribacter* is one of a small number of gut genera confirmed to show true opposing directionality between cancer and autoimmune disease microbiome signatures.
+*Odoribacter splanchnicus* is a Gram-negative, obligate anaerobic bacterium belonging to the family Odoribacteraceae within the phylum Bacteroidota (formerly Bacteroidetes). It is a commensal resident of the human colon recognized primarily as a producer of [[short-chain-fatty-acids]] — particularly [[butyrate]] and propionate — with complex and sometimes paradoxical associations across multiple disease states. *Odoribacter* is one of a small number of gut genera confirmed to show true opposing directionality between cancer and autoimmune disease microbiome signatures.
 
 ## Classification and Ecology
 

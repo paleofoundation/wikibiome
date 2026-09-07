@@ -51,7 +51,7 @@ When mitochondrial iron accumulation overwhelms antioxidant defenses -- particul
 
 The gut microbiome influences mitochondrial function through several routes:
 
-- Butyrate as mitochondrial fuel: [[butyrate|Butyrate]], the primary energy source for colonocytes, is metabolized through mitochondrial beta-oxidation. Butyrate depletion (from loss of SCFA-producing commensals) starves colonocyte mitochondria, compromising barrier integrity and creating a vicious cycle with [[intestinal-permeability]].
+- Butyrate as mitochondrial fuel: Butyrate, the primary energy source for colonocytes, is metabolized through mitochondrial beta-oxidation. Butyrate depletion (from loss of SCFA-producing commensals) starves colonocyte mitochondria, compromising barrier integrity and creating a vicious cycle with [[intestinal-permeability]].
 - Uremic toxins: Indoxyl sulfate and p-cresyl sulfate (see [[tmao|uremic-toxins]]) directly impair mitochondrial function in renal tubular cells, contributing to CKD progression [[mishra-2022-molecular-mechanisms-heavy-metals-ckd]].
 - LPS-induced mitochondrial damage: Bacterial lipopolysaccharide activates TLR4 signaling, which suppresses mitochondrial biogenesis and increases mitochondrial ROS production.
 - Microbial [[autophagy]] regulation: Gut microbiome composition influences mitophagy (selective autophagy of damaged mitochondria), affecting mitochondrial quality control.
@@ -77,7 +77,7 @@ Mitochondrial dysfunction in skeletal muscle and adipose tissue contributes to [
 - [[iron]] -- essential cofactor and primary Fenton catalyst in mitochondria
 - [[cadmium]] -- potent mitochondrial toxin
 - [[mis-metallation]] -- metal displacement disrupts mitochondrial enzymes
-- [[butyrate]] -- microbial metabolite that fuels colonocyte mitochondria
+- butyrate -- microbial metabolite that fuels colonocyte mitochondria
 - [[short-chain-fatty-acids]] -- mitochondrial energy substrates
 - [[tmao|uremic-toxins]] -- microbial products that impair mitochondrial function
 - [[neurodegeneration]] -- downstream consequence of neuronal mitochondrial failure
