@@ -702,6 +702,96 @@ test("server-renders complete Tight junctions contextual coverage without overli
   }
 });
 
+test("server-renders complete Hydrogenase contextual coverage without overlinking", async () => {
+  const contextIds = [
+    "actinobacteria",
+    "alzheimers-disease",
+    "bilophila",
+    "caga",
+    "calprotectin",
+    "campylobacter",
+    "campylobacter-jejuni",
+    "citrobacter",
+    "desulfovibrio",
+    "desulfovibrionales",
+    "developmental-metal-vulnerability",
+    "dimethylglyoxime",
+    "dysbiosis",
+    "endometriosis",
+    "enterobacter",
+    "enterobacteriaceae",
+    "escherichia",
+    "escherichia-coli",
+    "fermentative-metabolism",
+    "gastric-adenocarcinoma",
+    "gastric-cancer",
+    "gastric-ulcer",
+    "gerd",
+    "glyoxalase",
+    "gut-metal-microbiome",
+    "gut-microbiome",
+    "heavy-metals",
+    "helicobacter-hepaticus",
+    "helicobacter-pylori",
+    "inter-kingdom-metal-shielding",
+    "klebsiella",
+    "lactobacillus",
+    "low-nickel-diet",
+    "metal-dependent-virulence",
+    "metallochaperone",
+    "methanobrevibacter",
+    "methanobrevibacter-smithii",
+    "microbial-metallomics",
+    "mis-metallation",
+    "mycobacterium-tuberculosis",
+    "nickel",
+    "nickel-transporters",
+    "nutritional-immunity",
+    "oxygen-state",
+    "parkinsons-disease",
+    "pathogen-metal-acquisition",
+    "salmonella",
+    "salmonella-typhimurium",
+    "shigella-flexneri",
+    "siderophores-metallophores",
+    "urease",
+    "virulence-factors",
+  ];
+  assert.equal(contextIds.length, 52);
+
+  const [conceptResponse, ...contextResponses] = await Promise.all([
+    render("/article/hydrogenase"),
+    ...contextIds.map((id) => render(`/article/${id}`)),
+  ]);
+  for (const response of [conceptResponse, ...contextResponses]) assert.equal(response.status, 200);
+
+  const concept = await conceptResponse.text();
+  assert.equal(htmlTitle(concept), "Hydrogenase — WikiBiome");
+  assert.equal(htmlCanonical(concept), `${PUBLIC_ORIGIN}/article/hydrogenase`);
+  assert.match(concept, /Three classes of hydrogenase/i);
+  assert.match(concept, /Virulence Roles by Pathogen/i);
+  assert.match(concept, /CagA-Hydrogenase-Cancer Connection/i);
+  for (const sourceId of [
+    "maier-2019-nickel-microbial-pathogenesis",
+    "pendergrass-2026-nickel-nec-preterm-gut",
+    "campanale-2014-nickel-free-diet-h-pylori",
+  ]) {
+    assert.match(concept, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${contextIds[index]}`);
+    assert.equal(
+      (html.slice(articleStart, referencesStart).match(/href="\/article\/hydrogenase"/g) ?? []).length,
+      1,
+      `expected exactly one contextual Hydrogenase link in ${contextIds[index]}`,
+    );
+  }
+});
+
 test("server-renders Ammonia and its reviewed contextual-link batch", async () => {
   const ids = ["ammonia", "urea", "urease", "helicobacter-pylori", "proteus-mirabilis", "ureaplasma"];
   const [ammoniaResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
@@ -2988,7 +3078,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /1e79e03225c7/);
+  assert.match(readiness, /5d1df349973d/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -3454,7 +3544,7 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "1e79e03225c7961d992d57fc8c2d305ed63731e1");
+  assert.equal(manifest.source.commit, "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e");
   assert.equal(manifest.content.sha256, digest);
   assert.equal(manifest.content.pages, 823);
   assert.equal(manifest.content.sources, 1939);

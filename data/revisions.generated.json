@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T06:03:14.148Z",
+  "generatedAt": "2026-09-07T06:35:40.174Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "1e79e03225c7961d992d57fc8c2d305ed63731e1",
+  "sourceCommit": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
   "records": 823,
   "canonicalIds": 758,
-  "revisions": 3153,
+  "revisions": 3208,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -141,6 +141,15 @@
         "wiki/entities/actinobacteria.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/actinobacteria.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -781,6 +790,15 @@
         "wiki/entities/alzheimers-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/alzheimers-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -2141,6 +2159,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/bilophila.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -2844,6 +2871,24 @@
       ],
       "revisions": [
         {
+          "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
+          "date": "2026-09-07T09:34:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Keep Hydrogenase links contextual",
+          "path": "wiki/entities/campylobacter-jejuni.md",
+          "additions": 0,
+          "deletions": 1
+        },
+        {
+          "hash": "478bf8a779699bea4c61ea8c665702118001b21f",
+          "date": "2026-09-07T09:31:21+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Remove repeated Hydrogenase links",
+          "path": "wiki/entities/campylobacter-jejuni.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -2922,6 +2967,15 @@
         "wiki/entities/campylobacter.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/campylobacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -3910,6 +3964,15 @@
         "wiki/entities/citrobacter.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/citrobacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -5339,6 +5402,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/desulfovibrio.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -5408,6 +5480,15 @@
         "wiki/entities/desulfovibrionales.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/desulfovibrionales.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -5772,6 +5853,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/endometriosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -5930,6 +6020,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/enterobacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -5954,6 +6053,15 @@
         "wiki/entities/enterobacteriaceae.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/enterobacteriaceae.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -6293,6 +6401,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/escherichia-coli.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -6389,6 +6506,15 @@
         "wiki/entities/escherichia.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/escherichia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -7358,6 +7484,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/gastric-adenocarcinoma.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -7409,6 +7544,24 @@
         "wiki/entities/gastric-cancer.md"
       ],
       "revisions": [
+        {
+          "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
+          "date": "2026-09-07T09:34:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Keep Hydrogenase links contextual",
+          "path": "wiki/entities/gastric-cancer.md",
+          "additions": 0,
+          "deletions": 1
+        },
+        {
+          "hash": "478bf8a779699bea4c61ea8c665702118001b21f",
+          "date": "2026-09-07T09:31:21+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Remove repeated Hydrogenase links",
+          "path": "wiki/entities/gastric-cancer.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -7516,6 +7669,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/gastric-ulcer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -7593,6 +7755,15 @@
         "wiki/entities/gerd.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/gerd.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -8049,6 +8220,15 @@
         "wiki/entities/helicobacter-hepaticus.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/helicobacter-hepaticus.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -8981,6 +9161,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/klebsiella.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -9433,6 +9622,15 @@
         "wiki/entities/lactobacillus.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/lactobacillus.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -10337,6 +10535,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/methanobrevibacter-smithii.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -10415,6 +10622,15 @@
         "wiki/entities/methanobrevibacter.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/methanobrevibacter.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -10815,6 +11031,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/mycobacterium-tuberculosis.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -11154,6 +11379,15 @@
         "wiki/entities/nickel.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/nickel.md",
+          "additions": 6,
+          "deletions": 6
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -12215,6 +12449,15 @@
         "wiki/entities/parkinsons-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/parkinsons-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -14802,6 +15045,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/salmonella-typhimurium.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -14862,6 +15114,15 @@
         "wiki/entities/salmonella.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/entities/salmonella.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -15196,6 +15457,24 @@
         "wiki/entities/shigella-flexneri.md"
       ],
       "revisions": [
+        {
+          "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
+          "date": "2026-09-07T09:34:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Keep Hydrogenase links contextual",
+          "path": "wiki/entities/shigella-flexneri.md",
+          "additions": 0,
+          "deletions": 1
+        },
+        {
+          "hash": "478bf8a779699bea4c61ea8c665702118001b21f",
+          "date": "2026-09-07T09:31:21+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Remove repeated Hydrogenase links",
+          "path": "wiki/entities/shigella-flexneri.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -18237,6 +18516,24 @@
       ],
       "revisions": [
         {
+          "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
+          "date": "2026-09-07T09:34:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Keep Hydrogenase links contextual",
+          "path": "wiki/concepts/caga.md",
+          "additions": 0,
+          "deletions": 1
+        },
+        {
+          "hash": "478bf8a779699bea4c61ea8c665702118001b21f",
+          "date": "2026-09-07T09:31:21+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Remove repeated Hydrogenase links",
+          "path": "wiki/concepts/caga.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "8dce180d37be8dc569ba8b94d3cf614677e32aa0",
           "date": "2026-09-07T07:42:30+03:00",
           "author": "Karen Pendergrass",
@@ -18252,6 +18549,15 @@
         "wiki/concepts/calprotectin.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/calprotectin.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -19244,6 +19550,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/dimethylglyoxime.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -19293,6 +19608,15 @@
         "wiki/concepts/dysbiosis.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -20208,6 +20532,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/fermentative-metabolism.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20647,6 +20980,24 @@
       ],
       "revisions": [
         {
+          "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
+          "date": "2026-09-07T09:34:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Keep Hydrogenase links contextual",
+          "path": "wiki/concepts/glyoxalase.md",
+          "additions": 0,
+          "deletions": 1
+        },
+        {
+          "hash": "478bf8a779699bea4c61ea8c665702118001b21f",
+          "date": "2026-09-07T09:31:21+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Remove repeated Hydrogenase links",
+          "path": "wiki/concepts/glyoxalase.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -20880,6 +21231,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -20976,6 +21336,15 @@
         "wiki/concepts/gut-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
@@ -22356,6 +22725,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/inter-kingdom-metal-shielding.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -23333,6 +23711,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/metal-dependent-virulence.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -23574,6 +23961,24 @@
         "wiki/concepts/metallochaperone.md"
       ],
       "revisions": [
+        {
+          "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
+          "date": "2026-09-07T09:34:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Keep Hydrogenase links contextual",
+          "path": "wiki/concepts/metallochaperone.md",
+          "additions": 0,
+          "deletions": 1
+        },
+        {
+          "hash": "478bf8a779699bea4c61ea8c665702118001b21f",
+          "date": "2026-09-07T09:31:21+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Remove repeated Hydrogenase links",
+          "path": "wiki/concepts/metallochaperone.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -23901,6 +24306,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/microbial-metallomics.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -24027,6 +24441,15 @@
         "wiki/concepts/mis-metallation.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/mis-metallation.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -24731,6 +25154,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/nickel-transporters.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -24988,6 +25420,15 @@
         "wiki/concepts/nutritional-immunity.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/nutritional-immunity.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -25265,6 +25706,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/oxygen-state.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -25361,6 +25811,15 @@
         "wiki/concepts/pathogen-metal-acquisition.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/pathogen-metal-acquisition.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
@@ -26212,6 +26671,15 @@
       ],
       "revisions": [
         {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/siderophores-metallophores.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
           "author": "Karen Pendergrass",
@@ -27046,6 +27514,24 @@
       ],
       "revisions": [
         {
+          "hash": "5d1df349973d24b8b4cd3cc2c5a28f34b4d4661e",
+          "date": "2026-09-07T09:34:31+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Keep Hydrogenase links contextual",
+          "path": "wiki/concepts/urease.md",
+          "additions": 0,
+          "deletions": 1
+        },
+        {
+          "hash": "478bf8a779699bea4c61ea8c665702118001b21f",
+          "date": "2026-09-07T09:31:21+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Remove repeated Hydrogenase links",
+          "path": "wiki/concepts/urease.md",
+          "additions": 3,
+          "deletions": 3
+        },
+        {
           "hash": "f94f1e43d34bb137b2de0b2f6e251aed3b4b2728",
           "date": "2026-09-07T08:54:52+03:00",
           "author": "Karen Pendergrass",
@@ -27258,6 +27744,15 @@
         "wiki/concepts/virulence-factors.md"
       ],
       "revisions": [
+        {
+          "hash": "d4677ce9f2d54d00dd1f25bbef5a1eefaecfe76c",
+          "date": "2026-09-07T09:24:36+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Complete Hydrogenase contextual coverage",
+          "path": "wiki/concepts/virulence-factors.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "aa7aa1fa0bf3bfceaa3de5df83afb0597814018c",
           "date": "2026-09-07T08:25:29+03:00",
