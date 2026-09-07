@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "22191c5abe09b5619b20a38f42d62f393836640a37fd8fe974f46c53f3d5a0f2",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "5fdc80bbb157a6350274dd6ab6ff9f4b44d1f6192aef674c39b53d1ab9bc5867",
+    "reviewLogSha256": "6a9cb75c371bd1ba15f0761ee14dbdbfe576675a1a7c5f4f1ff70cb3ecc287e5",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -179,6 +179,12 @@
         "batchId": "interventions-112",
         "status": "reviewed",
         "sha256": "c94e09307454d5fcf84196f457cd7a1bd1916cecc6f00b61ed5b0d9d7a98be95"
+      },
+      {
+        "file": "data/article-media-batches/interventions-113.json",
+        "batchId": "interventions-113",
+        "status": "reviewed",
+        "sha256": "18d3ee48591cd74daeea3fd400929f0ba38e3350f4e7924981777d7927655d5b"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -706,9 +712,9 @@
     "total": 710,
     "completed": 372,
     "remaining": 338,
-    "rejected": 298,
+    "rejected": 301,
     "revised": 12,
-    "scientificHolds": 235,
+    "scientificHolds": 238,
     "inReview": 0
   },
   "categories": [
@@ -5887,6 +5893,56 @@
       ],
       "requiredResolution": "A future separately authorized revision prompt and new call must produce one exact 25-carbon, five-oxygen, 30-heavy-atom neutral-simvastatin graph with an encoded fully opaque uniform pale cool field, zero glow or haze, and broad crop-safe margins.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
+    },
+    {
+      "pageId": "vitamin-d-supplementation",
+      "controlledIdentifier": "Vitamin-D-MeSH:D014807;cholecalciferol-PubChem:5280795;D2-versus-D3-and-protocol-scope-unresolved;zero-resolvable-sources",
+      "batchId": "interventions-113",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The class-wide zero-source page combines D2/D3 scope, cholecalciferol protocols, multiple conditions, doses, biomarkers, monitoring, toxicity, combinations, and outcomes. One molecule would silently narrow the topic and a product or clinical scene would invent a state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014807",
+        "https://pubchem.ncbi.nlm.nih.gov/compound/5280795",
+        "local:data/content.generated.json#/pages/vitamin-d-supplementation"
+      ],
+      "requiredResolution": "Link direct evidence; reconcile D2, D3, metabolite, and formulation scope; select exact identity, product and lot, excipients, route, dose, schedule, baseline status, population, comparator, adherence, specimens, assays, time points, endpoints, contraindications, and monitoring.",
+      "routingImpact": "The route remains uncovered and asset-free until chemical scope and an evidence-backed protocol pass a new audit."
+    },
+    {
+      "pageId": "zinc-supplementation",
+      "controlledIdentifier": "Dietary-Supplements-MeSH:D019587;elemental-zinc-route-duplicate;multiple-zinc-compounds-and-protocols;zero-resolvable-sources",
+      "batchId": "interventions-113",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source route overlaps reviewed elemental Zinc media while combining several zinc compounds, doses, populations, copper co-supplementation, biomarkers, contraindications, and interactions. Elemental zinc does not identify a supplement.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019587",
+        "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/",
+        "local:data/content.generated.json#/pages/zinc-supplementation",
+        "local:data/content.generated.json#/pages/zinc"
+      ],
+      "requiredResolution": "Link direct evidence; select exact zinc compound and hydration state, verified elemental content, product and lot, excipients, formulation, route, dose, schedule, population, comparator, adherence, specimens, assays, time points, endpoints, copper monitoring, interactions, and canonical-media relationship.",
+      "routingImpact": "The route remains uncovered and asset-free until exact supplement identity, safety protocol, and canonical ownership pass a new audit."
+    },
+    {
+      "pageId": "zinc-supplementation-autism",
+      "controlledIdentifier": "Dietary-Supplements-MeSH:D019587;ASD-MeSH:D000067877;condition-specific-duplicate-of-zinc-supplementation;zero-resolvable-sources",
+      "batchId": "interventions-113",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The zero-source condition-specific route does not select a zinc compound, product, dose, baseline deficiency state, pediatric population, autism phenotype, comparator, assay, endpoint, safety boundary, or non-stigmatizing visual subject and duplicates the broader supplementation topic.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D019587",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000067877",
+        "local:data/content.generated.json#/pages/zinc-supplementation-autism",
+        "local:data/content.generated.json#/pages/zinc-supplementation"
+      ],
+      "requiredResolution": "Link direct evidence and reconcile this route with `zinc-supplementation`; select exact compound, elemental content, product and lot, formulation, dose, schedule, baseline zinc/copper status, age and autism phenotype, comparator, adherence, specimens, assays, time points, endpoints, adverse-event monitoring, and a non-stigmatizing representation.",
+      "routingImpact": "The route remains uncovered and asset-free until exact product, evidence, canonical scope, safety boundaries, and a non-stigmatizing visual subject pass a new audit."
     }
   ],
   "revisedAssets": [
@@ -6041,31 +6097,58 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 653,
-      "id": "vitamin-d-supplementation",
-      "title": "Vitamin D Supplementation",
-      "route": "/article/vitamin-d-supplementation",
-      "category": "intervention",
-      "coverageGroup": "interventions",
-      "suggestedAssetType": "intervention"
+      "queuePosition": 656,
+      "id": "stop-antibiotics-during-chemotherapy-ovarian-cancer",
+      "title": "STOP: Broad-Spectrum Antibiotics During Ovarian Cancer Chemotherapy",
+      "route": "/article/stop-antibiotics-during-chemotherapy-ovarian-cancer",
+      "category": "stop",
+      "coverageGroup": "clinical-cautions",
+      "suggestedAssetType": "clinical-caution"
     },
     {
-      "queuePosition": 654,
-      "id": "zinc-supplementation",
-      "title": "Zinc Supplementation",
-      "route": "/article/zinc-supplementation",
-      "category": "intervention",
-      "coverageGroup": "interventions",
-      "suggestedAssetType": "intervention"
+      "queuePosition": 657,
+      "id": "stop-broad-spectrum-antibiotics-crohns",
+      "title": "STOP: Broad-Spectrum Antibiotics for Crohn's Disease",
+      "route": "/article/stop-broad-spectrum-antibiotics-crohns",
+      "category": "stop",
+      "coverageGroup": "clinical-cautions",
+      "suggestedAssetType": "clinical-caution"
     },
     {
-      "queuePosition": 655,
-      "id": "zinc-supplementation-autism",
-      "title": "Zinc Supplementation for Autism Spectrum Disorder",
-      "route": "/article/zinc-supplementation-autism",
-      "category": "intervention",
-      "coverageGroup": "interventions",
-      "suggestedAssetType": "intervention"
+      "queuePosition": 658,
+      "id": "stop-broad-spectrum-antibiotics-dysbiosis",
+      "title": "STOP: Broad-Spectrum Antibiotics for Gut Dysbiosis",
+      "route": "/article/stop-broad-spectrum-antibiotics-dysbiosis",
+      "category": "stop",
+      "coverageGroup": "clinical-cautions",
+      "suggestedAssetType": "clinical-caution"
+    },
+    {
+      "queuePosition": 659,
+      "id": "stop-broad-spectrum-antibiotics-long-covid",
+      "title": "STOP: Broad-Spectrum Antibiotics for Long COVID",
+      "route": "/article/stop-broad-spectrum-antibiotics-long-covid",
+      "category": "stop",
+      "coverageGroup": "clinical-cautions",
+      "suggestedAssetType": "clinical-caution"
+    },
+    {
+      "queuePosition": 660,
+      "id": "stop-calcium-supplementation-cadmium-exposure",
+      "title": "STOP: Calcium Supplementation with Cadmium Exposure",
+      "route": "/article/stop-calcium-supplementation-cadmium-exposure",
+      "category": "stop",
+      "coverageGroup": "clinical-cautions",
+      "suggestedAssetType": "clinical-caution"
+    },
+    {
+      "queuePosition": 661,
+      "id": "stop-diagnostic-overclaiming-discovery-phase",
+      "title": "STOP: Diagnostic Overclaiming from Discovery-Phase Microbiome Data (Pancreatic Cancer)",
+      "route": "/article/stop-diagnostic-overclaiming-discovery-phase",
+      "category": "stop",
+      "coverageGroup": "clinical-cautions",
+      "suggestedAssetType": "clinical-caution"
     }
   ],
   "queue": [
@@ -19320,7 +19403,13 @@
       "route": "/article/vitamin-d-supplementation",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The class-wide zero-source page combines D2/D3 scope, cholecalciferol protocols, multiple conditions, doses, biomarkers, monitoring, toxicity, combinations, and outcomes. One molecule would silently narrow the topic and a product or clinical scene would invent a state.",
+        "requiredResolution": "Link direct evidence; reconcile D2, D3, metabolite, and formulation scope; select exact identity, product and lot, excipients, route, dose, schedule, baseline status, population, comparator, adherence, specimens, assays, time points, endpoints, contraindications, and monitoring."
+      }
     },
     {
       "queuePosition": 654,
@@ -19333,7 +19422,13 @@
       "route": "/article/zinc-supplementation",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source route overlaps reviewed elemental Zinc media while combining several zinc compounds, doses, populations, copper co-supplementation, biomarkers, contraindications, and interactions. Elemental zinc does not identify a supplement.",
+        "requiredResolution": "Link direct evidence; select exact zinc compound and hydration state, verified elemental content, product and lot, excipients, formulation, route, dose, schedule, population, comparator, adherence, specimens, assays, time points, endpoints, copper monitoring, interactions, and canonical-media relationship."
+      }
     },
     {
       "queuePosition": 655,
@@ -19346,7 +19441,13 @@
       "route": "/article/zinc-supplementation-autism",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The zero-source condition-specific route does not select a zinc compound, product, dose, baseline deficiency state, pediatric population, autism phenotype, comparator, assay, endpoint, safety boundary, or non-stigmatizing visual subject and duplicates the broader supplementation topic.",
+        "requiredResolution": "Link direct evidence and reconcile this route with `zinc-supplementation`; select exact compound, elemental content, product and lot, formulation, dose, schedule, baseline zinc/copper status, age and autism phenotype, comparator, adherence, specimens, assays, time points, endpoints, adverse-event monitoring, and a non-stigmatizing representation."
+      }
     },
     {
       "queuePosition": 656,
