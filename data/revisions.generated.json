@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T14:26:24.634Z",
+  "generatedAt": "2026-09-07T14:45:41.672Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
+  "sourceCommit": "0b8929da4e780449942f9548e7b05f1a82a86685",
   "records": 822,
   "canonicalIds": 757,
-  "revisions": 4491,
+  "revisions": 4492,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -31664,6 +31664,15 @@
         "wiki/concepts/intestinal-permeability.md"
       ],
       "revisions": [
+        {
+          "hash": "4b09a42e276e1bfc842f2ff625252fa614b59444",
+          "date": "2026-09-07T17:41:47+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Place TLR4 link in permeability narrative",
+          "path": "wiki/concepts/intestinal-permeability.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "91894b118beb8020a2cdf05bdf74bc73082f63e3",
           "date": "2026-09-07T17:24:50+03:00",

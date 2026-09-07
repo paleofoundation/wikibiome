@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T14:21:26.902Z",
+  "_generated": "2026-09-07T14:43:14.620Z",
   "_platform": "all",
   "_stats": {
     "sources": 1940,
@@ -95461,12 +95461,12 @@
         {
           "heading": "Metal-Induced Barrier Disruption",
           "level": 2,
-          "body": "| Metal | Primary Mechanism | Key TJ Targets |\n|-------|------------------|----------------|\n| Cadmium | [[oxidative-stress]], [[mitochondrial-dysfunction]], direct claudin displacement | Occludin, ZO-1, claudin-1 |\n| Lead | PKC activation, calcium mimicry at TJ signaling | ZO-1, occludin phosphorylation |\n| Arsenic | [[nf-kappa-b]] activation, mucus layer degradation | Claudin-1, -4; MUC2 depletion |\n| Mercury | Thiol binding on TJ proteins, cytoskeletal disruption | Actin ring, ZO-1 |\n| Nickel | [[tlr4|TLR4]] activation, mast cell degranulation (in sensitized individuals) | Histamine-mediated TJ opening |\n\nAll five metals converge on oxidative stress as a common final pathway for TJ disruption. [[dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side."
+          "body": "| Metal | Primary Mechanism | Key TJ Targets |\n|-------|------------------|----------------|\n| Cadmium | [[oxidative-stress]], [[mitochondrial-dysfunction]], direct claudin displacement | Occludin, ZO-1, claudin-1 |\n| Lead | PKC activation, calcium mimicry at TJ signaling | ZO-1, occludin phosphorylation |\n| Arsenic | [[nf-kappa-b]] activation, mucus layer degradation | Claudin-1, -4; MUC2 depletion |\n| Mercury | Thiol binding on TJ proteins, cytoskeletal disruption | Actin ring, ZO-1 |\n| Nickel | TLR4 activation, mast cell degranulation (in sensitized individuals) | Histamine-mediated TJ opening |\n\nAll five metals converge on oxidative stress as a common final pathway for TJ disruption. [[dysbiosis]] amplifies the damage -- loss of [[short-chain-fatty-acids]]-producing bacteria removes the primary fuel source for colonocytes, weakening the barrier from the luminal side."
         },
         {
           "heading": "The Gateway Mechanism",
           "level": 2,
-          "body": "Increased permeability creates a vicious cycle:\n\n1. Metal exposure damages TJs directly and via oxidative stress\n2. Barrier failure permits LPS and bacterial translocation\n3. LPS activates TLR4 on immune cells, driving inflammation and [[nf-kappa-b]]\n4. Inflammatory cytokines (TNF-alpha, IFN-gamma, IL-13) further open TJs\n5. Opened barrier permits greater metal absorption (especially for Cd, Pb)\n6. More metal enters systemic circulation, reaching distal organs\n7. dysbiosis worsens as the luminal environment shifts\n\nThis feed-forward loop explains why acute metal exposure can produce chronic disease long after the original exposure ceases."
+          "body": "Increased permeability creates a vicious cycle:\n\n1. Metal exposure damages TJs directly and via oxidative stress\n2. Barrier failure permits LPS and bacterial translocation\n3. LPS activates [[tlr4|TLR4]] on immune cells, driving inflammation and [[nf-kappa-b]]\n4. Inflammatory cytokines (TNF-alpha, IFN-gamma, IL-13) further open TJs\n5. Opened barrier permits greater metal absorption (especially for Cd, Pb)\n6. More metal enters systemic circulation, reaching distal organs\n7. dysbiosis worsens as the luminal environment shifts\n\nThis feed-forward loop explains why acute metal exposure can produce chronic disease long after the original exposure ceases."
         },
         {
           "heading": "Biomarkers of Permeability",
@@ -95497,9 +95497,9 @@
         "oxidative-stress",
         "mitochondrial-dysfunction",
         "nf-kappa-b",
-        "tlr4",
         "dysbiosis",
         "short-chain-fatty-acids",
+        "tlr4",
         "calprotectin",
         "inflammatory-bowel-disease",
         "crohns-disease",
@@ -199090,15 +199090,15 @@
       },
       {
         "source": "intestinal-permeability",
-        "target": "tlr4"
-      },
-      {
-        "source": "intestinal-permeability",
         "target": "dysbiosis"
       },
       {
         "source": "intestinal-permeability",
         "target": "short-chain-fatty-acids"
+      },
+      {
+        "source": "intestinal-permeability",
+        "target": "tlr4"
       },
       {
         "source": "intestinal-permeability",
