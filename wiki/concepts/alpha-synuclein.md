@@ -57,7 +57,7 @@ The gut microbiome modulates alpha-synuclein biology through several converging 
 
 SCFA-mediated protection: Short-chain fatty acid-producing bacteria — depleted in PD microbiomes — normally maintain gut barrier integrity and dampen neuroinflammation. Their loss removes a critical buffer against enteric alpha-synuclein misfolding. In a prospective cohort study, depletion of *Prevotella* (an SCFA producer) at baseline correlated with faster subsequent motor symptom progression — consistent with progressive SCFA loss enabling accelerating alpha-synuclein pathology [[aho-2019-gut-microbiome-disease-progression-parkinsons]].
 
-Enterobacteriaceae enrichment: A large shotgun metagenomics study of 212 PD patients confirmed enrichment of *Escherichia coli* and *Klebsiella* in PD gut microbiomes [[wallen-2022-metagenomics-parkinsons-microbiome-signature]]. These Proteobacteria produce LPS (activating TLR4-mediated neuroinflammation), express siderophore systems that increase iron competition, and generate hydrogen sulfide. Their enrichment directly feeds the iron-dysbiosis cycle that drives alpha-synuclein aggregation.
+Enterobacteriaceae enrichment: A large shotgun metagenomics study of 212 PD patients confirmed enrichment of *Escherichia coli* and *Klebsiella* in PD gut microbiomes [[wallen-2022-metagenomics-parkinsons-microbiome-signature]]. These Proteobacteria produce LPS (activating TLR4-mediated neuroinflammation), express siderophore systems that increase iron competition, and generate hydrogen sulfide. Their enrichment directly feeds the iron-[[dysbiosis]] cycle that drives alpha-synuclein aggregation.
 
 Microbial amyloids and cross-seeding: *E. coli* strains expressing curli fibers (functional bacterial amyloids) can cross-seed mammalian alpha-synuclein aggregation. Ingestion of curli-expressing bacteria in mouse models accelerates enteric and brain alpha-synuclein pathology — providing a direct mechanism by which gut microbial products trigger protein misfolding [[alonso-garcia-2021-gut-microbiota-proteinopathies]].
 
@@ -109,6 +109,6 @@ Vagal nerve stimulation: Given the vagus nerve's role in transmitting enteric al
 - [[manganese]] — causes manganism; promotes aggregation via mitochondrial complex I inhibition
 - [[copper]] — binds N-terminus; promotes toxic oligomerization
 - [[neuroinflammation]] — microglial activation by aggregated alpha-synuclein amplifies damage
-- [[dysbiosis]] — the ecological disruption that initiates or accelerates enteric misfolding
+- dysbiosis — the ecological disruption that initiates or accelerates enteric misfolding
 - [[short-chain-fatty-acids]] — SCFA depletion removes protective barrier function
 - [[helicobacter-pylori]] — triggers enteric neuroinflammation; associated with PD risk

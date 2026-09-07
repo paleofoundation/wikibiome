@@ -35,7 +35,7 @@ What distinguishes Firmicutes in the WikiBiome context is a critical vulnerabili
 |---|---|---|---|
 | [[faecalibacterium-prausnitzii]] | *F. prausnitzii* | Premier butyrate producer; anti-inflammatory | Fe-S clusters in butyrate synthesis |
 | [[roseburia]] | *R. intestinalis* | Butyrate via butyryl-CoA:acetate CoA-transferase | Fe-S clusters; vulnerable to Cd/Pb |
-| [[lachnospiraceae]] | Family | Butyrate production; "universal dysbiosis sentinel" | Fe-S clusters for butyrate synthesis |
+| [[lachnospiraceae]] | Family | Butyrate production; "universal [[dysbiosis]] sentinel" | Fe-S clusters for butyrate synthesis |
 | [[blautia]] | *B. obeum* | Acetogenesis via Wood-Ljungdahl pathway | Fe-S clusters in acetogenic enzymes |
 | [[coprococcus]] | *C. eutactus* | Butyrate and propionate | Fe-S dependent |
 | [[eubacterium]] | *E. rectale* | Butyrate production | Fe-S clusters |
@@ -119,5 +119,5 @@ High-fiber and [[mediterranean-diet]] interventions consistently increase SCFA-p
 - [[iron-sulfur-clusters]] -- The shared metabolic vulnerability of butyrate producers
 - [[short-chain-fatty-acids]] -- Primary output of Firmicutes fermentation
 - [[butyrate]] -- Key metabolite produced by Firmicutes
-- [[dysbiosis]] -- Firmicutes depletion as dysbiosis marker
+- dysbiosis -- Firmicutes depletion as dysbiosis marker
 - [[gut-microbiome]] -- Firmicutes as dominant phylum

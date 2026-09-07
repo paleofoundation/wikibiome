@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Bacteriophages
 
-Viruses that exclusively infect bacteria. Bacteriophages -- phages for short -- are the most abundant biological entities on Earth, outnumbering bacteria in most environments by ratios of 1:1 to 10:1. In the human gut, the phageome represents a powerful but underexplored force shaping microbial community structure. Where traditional microbiome research has focused on bacteria, a growing body of evidence reveals that phages act as selective predators capable of driving dysbiosis patterns in diseases ranging from Parkinson's disease to colorectal cancer -- and that this predatory activity intersects with metal ecology in ways that are only beginning to be understood.
+Viruses that exclusively infect bacteria. Bacteriophages -- phages for short -- are the most abundant biological entities on Earth, outnumbering bacteria in most environments by ratios of 1:1 to 10:1. In the human gut, the phageome represents a powerful but underexplored force shaping microbial community structure. Where traditional microbiome research has focused on bacteria, a growing body of evidence reveals that phages act as selective predators capable of driving [[dysbiosis]] patterns in diseases ranging from Parkinson's disease to colorectal cancer -- and that this predatory activity intersects with metal ecology in ways that are only beginning to be understood.
 
 ## Phage Biology
 
@@ -78,7 +78,7 @@ The intersection of phages and metal ecology remains largely unexplored but mech
 - [[parkinsons-disease]] -- Primary disease model for phage-driven gut dysbiosis
 - [[autism-spectrum-disorder]] -- Phageome expansion and diversification documented
 - [[colorectal-cancer]] -- Virome alterations in adenomas and post-surgical persistence
-- [[dysbiosis]] -- Phage predation as an underexplored driver of microbial imbalance
+- dysbiosis -- Phage predation as an underexplored driver of microbial imbalance
 - [[gut-microbiome]] -- Phageome as the "dark matter" of the gut ecosystem
 - [[short-chain-fatty-acids]] -- Lost when phage predation depletes SCFA-producing commensals
 - [[iron]] -- Freed when metal-buffering commensals are phage-depleted

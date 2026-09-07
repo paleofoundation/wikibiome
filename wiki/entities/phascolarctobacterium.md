@@ -48,7 +48,7 @@ This cross-feeding function means *Phascolarctobacterium* abundance is indirectl
 
 ## Metal Dependencies
 
-No essential metal dependencies specific to the succinate-to-propionate pathway have been confirmed for *Phascolarctobacterium*. The methylmalonyl-CoA decarboxylase enzyme uses biotin as a cofactor. This absence of heavy metal dependency is notable — unlike iron-dependent fermenters, *Phascolarctobacterium* may be relatively resilient to the metal-driven dysbiosis that disrupts iron-sulfur-cluster-dependent organisms.
+No essential metal dependencies specific to the succinate-to-propionate pathway have been confirmed for *Phascolarctobacterium*. The methylmalonyl-CoA decarboxylase enzyme uses biotin as a cofactor. This absence of heavy metal dependency is notable — unlike iron-dependent fermenters, *Phascolarctobacterium* may be relatively resilient to the metal-driven [[dysbiosis]] that disrupts iron-sulfur-cluster-dependent organisms.
 
 ## Key Enzymes and Metabolites
 
@@ -118,4 +118,4 @@ Wikipedia does not have a *Phascolarctobacterium* page. This page provides the f
 - [[cardiovascular-disease]] — propionate effects on blood pressure; depleted by hypertension
 - [[inflammation]] — anti-inflammatory via propionate-GPR43-Treg axis; prevents succinate-SUCNR1 signaling
 - [[faecalibacterium-prausnitzii]] — fellow SCFA producer; complementary butyrate production
-- [[dysbiosis]] — depletion indicates disrupted cross-feeding networks; restoration parallels immune recovery
+- dysbiosis — depletion indicates disrupted cross-feeding networks; restoration parallels immune recovery

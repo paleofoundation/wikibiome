@@ -91,7 +91,7 @@ AIP diet pilot (n=16): significant QoL improvement across all SF-36 subscales an
 
 - [[graves-disease]] -- sister AITD with shared genetics but opposite functional outcome
 - [[selenium]], [[iron]], [[zinc]], [[copper]], [[iodine]] -- the essential mineral quintet
-- [[dysbiosis]], [[gut-metal-microbiome]], [[oxidative-stress]], [[inflammation]], [[nf-kappa-b]]
+- dysbiosis, [[gut-metal-microbiome]], [[oxidative-stress]], [[inflammation]], [[nf-kappa-b]]
 - [[short-chain-fatty-acids]], [[butyrate]], [[tryptophan-metabolism]]
 - [[akkermansia-muciniphila]], [[blautia]], [[prevotella]], [[probiotics]]
 - [[metal-disease-matrix]], [[comorbidities]], [[nutritional-immunity]]

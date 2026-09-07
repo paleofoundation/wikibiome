@@ -77,7 +77,7 @@ High red meat diet — delivers heme iron efficiently to the host but also provi
 
 High-fiber plant-based diet — delivers non-heme iron bound in phytate matrices that reduce bioavailability to both host and microbes. The fiber feeds butyrate producers ([[lachnospiraceae|Lachnospiraceae]], [[roseburia|Roseburia]]) that thrive in low-iron conditions. This dietary pattern tends to favor a more diverse, commensal-dominated gut ecology.
 
-Iron-fortified processed foods — deliver non-heme iron in highly bioavailable forms (ferrous sulfate, ferrous fumarate) that flood the gut lumen. In populations with pre-existing dysbiosis, iron fortification can amplify pathobiont populations [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
+Iron-fortified processed foods — deliver non-heme iron in highly bioavailable forms (ferrous sulfate, ferrous fumarate) that flood the gut lumen. In populations with pre-existing [[dysbiosis]], iron fortification can amplify pathobiont populations [[duan-2020-gut-microbiota-heavy-metal-probiotic-strategy]].
 
 High-fat + low-fiber diet — creates the worst combination: high-fat diet increases iron absorption into liver and kidney, while low fiber starves butyrate-producing commensals. The resulting dysbiosis amplifies iron's pathogenic-selection effect [[liu-2020-high-fat-diet-heavy-metal-gut-microbiota]].
 

@@ -64,7 +64,7 @@ CAD patients have distinct gut microbial communities compared to healthy control
 
 A critical observation: gut microbiome metabolic capacity correlates with CAD severity [[liu-2019-gut-microbiome-metabolism-cad-severity]]:
 
-- Patients with more severe coronary stenosis (higher Gensini scores) show more pronounced dysbiosis
+- Patients with more severe coronary stenosis (higher Gensini scores) show more pronounced [[dysbiosis]]
 - TMAO-producing bacterial pathways are enriched in proportion to plaque burden
 - SCFA-producing pathways are depleted in proportion to disease severity
 - This suggests a dose-response relationship between microbial metabolic output and coronary pathology

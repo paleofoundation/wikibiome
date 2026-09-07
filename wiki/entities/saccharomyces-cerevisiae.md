@@ -27,7 +27,7 @@ wikipedia_differentiation: "Gut microbiome roles — zinc-dependent probiotic ac
 
 # Saccharomyces cerevisiae
 
-Saccharomyces cerevisiae is a unicellular budding fungus (ascomycete) ubiquitous in fermentation, brewing, bread-making, and increasingly used as a pharmaceutical probiotic (Hatoum et al. 2012). The strain *S. boulardii* (also called *S. cerevisiae* var. *boulardii*) is the most clinically studied variant and is marketed as a live biotherapeutic for diarrhea, traveler's diarrhea, and *Clostridioides difficile*–associated disease (CDAD) (McFarland 2010). Unlike pathogenic *[[candida-albicans]]*, *S. cerevisiae* competes with pathogenic fungi, produces antimicrobial metabolites, and is rapidly cleared by the host—making it a model commensal and a key candidate for dysbiosis intervention in [[crohns-disease]], [[multiple-sclerosis]] [[gargano-2022-mait-cells-gut-yeasts-ms-brain]], and other conditions involving pathogenic fungal overgrowth.
+Saccharomyces cerevisiae is a unicellular budding fungus (ascomycete) ubiquitous in fermentation, brewing, bread-making, and increasingly used as a pharmaceutical probiotic (Hatoum et al. 2012). The strain *S. boulardii* (also called *S. cerevisiae* var. *boulardii*) is the most clinically studied variant and is marketed as a live biotherapeutic for diarrhea, traveler's diarrhea, and *Clostridioides difficile*–associated disease (CDAD) (McFarland 2010). Unlike pathogenic *[[candida-albicans]]*, *S. cerevisiae* competes with pathogenic fungi, produces antimicrobial metabolites, and is rapidly cleared by the host—making it a model commensal and a key candidate for [[dysbiosis]] intervention in [[crohns-disease]], [[multiple-sclerosis]] [[gargano-2022-mait-cells-gut-yeasts-ms-brain]], and other conditions involving pathogenic fungal overgrowth.
 
 ## Taxonomy and Basic Properties
 
@@ -197,7 +197,7 @@ Ecological outcome: *S. cerevisiae* outcompetes *Candida* through metabolic spee
 - [[copper]] – Required for cytochrome c oxidase assembly
 - [[crohns-disease]] – ASCA+ marker; *S. boulardii* supplementation improves remission
 - [[multiple-sclerosis]] – Dysbiotic MS involves Candida overgrowth; *S. boulardii* suppression beneficial
-- [[dysbiosis]] – Antagonizes pathogenic fungi; restores commensal/probiotic balance
+- dysbiosis – Antagonizes pathogenic fungi; restores commensal/probiotic balance
 - [[inflammation]] – *S. boulardii* reduces IL-8, increases IL-10; barrier-protective
 - [[nutritional-immunity|nutritional immunity]] – Increases mucin and tight junction proteins
 

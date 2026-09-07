@@ -98,7 +98,7 @@ Although frequently lumped with *C. albicans*, *C. tropicalis* differs in severa
 
 ## Ecological Context
 
-*C. tropicalis* expansion is a dysbiosis-driven phenomenon. Several patterns recur:
+*C. tropicalis* expansion is a [[dysbiosis]]-driven phenomenon. Several patterns recur:
 
 - Loss of commensal *Saccharomyces* (notably *S. boulardii* and gut *S. cerevisiae*) correlates with *C. tropicalis* expansion; restoration of *Saccharomyces* tone is associated with *C. tropicalis* reduction in several probiotic-intervention studies
 - Broad-spectrum antibiotic exposure removes competing bacteria and unmasks fungal niches

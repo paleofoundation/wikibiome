@@ -31,7 +31,7 @@ Members of this order are saccharolytic fermenters producing acetate and lactate
 
 ## Disease Associations
 
-Bifidobacteriales depletion is observed in endometriosis mouse models, where gut microbiota alterations include loss of these protective commensals alongside enrichment of Proteobacteria ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]]). Mendelian randomization analyses of postpartum depression identify Bifidobacteriales-related blood metabolites as part of the causal pathway linking gut dysbiosis to mood disorders ([[gao-2024-gut-microbiota-blood-metabolites-ppd-mr]]).
+Bifidobacteriales depletion is observed in endometriosis mouse models, where gut microbiota alterations include loss of these protective commensals alongside enrichment of Proteobacteria ([[yuan-2018-endometriosis-induces-gut-microbiota-alterations-mice]]). Mendelian randomization analyses of postpartum depression identify Bifidobacteriales-related blood metabolites as part of the causal pathway linking gut [[dysbiosis]] to mood disorders ([[gao-2024-gut-microbiota-blood-metabolites-ppd-mr]]).
 
 ## Cross-References
 

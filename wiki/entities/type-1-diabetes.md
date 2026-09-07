@@ -26,7 +26,7 @@ wikipedia_differentiation: "Mendelian-randomization evidence for source-defined 
 
 Type 1 diabetes is an autoimmune disease in which immune-mediated destruction of insulin-producing beta cells in the pancreatic islets of Langerhans leads to lifelong insulin dependence. T1D is fundamentally distinct from type 2 diabetes, which is characterized by insulin resistance rather than autoimmune beta cell loss. T1D accounts for approximately 5–10% of all diabetes cases, with incidence rising 3–4% annually in Europe [[luo-2023-gut-microbiota-t1d-bidirectional-mendelian-randomization]]. Global incidence is highest in Finland, Sardinia, and Scandinavia, reflecting the combined influence of HLA-DR genetic risk, environmental exposures, and early-life microbiome composition.
 
-Three environmental factors now have strong mechanistic evidence: heavy metal status (particularly zinc and iron), enteroviral infection, and gut microbiome dysbiosis — and all three converge during the developmentally critical first three years of life.
+Three environmental factors now have strong mechanistic evidence: heavy metal status (particularly zinc and iron), enteroviral infection, and gut microbiome [[dysbiosis]] — and all three converge during the developmentally critical first three years of life.
 
 ## Metal Associations
 
@@ -195,7 +195,7 @@ The CVB4 virus experiments demonstrate that steps 1–4 can be triggered by vira
 - [[bifidobacterium]] — Consistently depleted in T1D; causally protective against DKD complication; disrupted by CVB4 viral infection
 - [[bacteroides]] — Bacteroidetes enriched in T1D; Bacteroidia and Bacteroidales causally increase T1D risk (MR evidence)
 - [[lachnospiraceae]] — Multiple source-defined genera or groups (UCG008, *Eubacterium eligens group*, Dorea) with inverse MR associations
-- [[dysbiosis]] — Early-life microbiome disruption precedes autoimmune seroconversion; CVB4-driven dysbiosis is transferable via FMT
+- dysbiosis — Early-life microbiome disruption precedes autoimmune seroconversion; CVB4-driven dysbiosis is transferable via FMT
 - [[intestinal-permeability|gut-barrier]] — Compromised [[tight-junctions|tight junctions]] enable LPS/bacterial translocation to PLN; CVB4 reduces barrier by 2-fold
 - [[immune-balance]] — Th1/Th2 shift, Treg dysfunction, GPR43/SCFA signaling in T1D pathogenesis
 - [[developmental-metal-vulnerability]] — Critical windows for metal-microbiome-immune programming in infancy

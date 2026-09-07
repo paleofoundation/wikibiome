@@ -112,7 +112,7 @@ The stage 3b threshold (eGFR 30–44 mL/min/1.73m²) is when multi-taxon Lachnos
 
 Beta diversity (unweighted UniFrac) is significantly different from controls starting at stage 3b (R = 0.216, p = 0.003).
 
-Crucially: renal replacement therapy (hemodialysis) does not restore the microbiome. Even stage 5D dialysis patients retain depleted Coprococcus, Lachnospira, and Roseburia — dysbiosis persists despite uremia control [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]].
+Crucially: renal replacement therapy (hemodialysis) does not restore the microbiome. Even stage 5D dialysis patients retain depleted Coprococcus, Lachnospira, and Roseburia — [[dysbiosis]] persists despite uremia control [[yasuno-2024-dysbiosis-gut-microbiota-ckd-stages]].
 
 The consequence of losing these butyrate producers: reduced butyrate → impaired regulatory T-cell induction → increased intestinal inflammation and permeability → bacterial translocation → systemic endotoxemia → accelerated renal inflammation.
 

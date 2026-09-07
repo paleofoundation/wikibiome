@@ -26,7 +26,7 @@ Microbial proteins with structural similarity to host antigens can trigger cross
 - Streptococcal M protein: Group A streptococcal M protein mimics cardiac myosin, driving rheumatic heart disease.
 - Gut bacteria and thyroid: Bacterial proteins structurally similar to thyroid antigens (TPO, thyroglobulin) may trigger [[thyroid-autoimmunity]].
 
-The metal connection: heavy metal-driven dysbiosis selects for pathobionts whose surface proteins may share epitopes with host tissues. Metal-induced inflammation also lowers the activation threshold for cross-reactive T cells.
+The metal connection: heavy metal-driven [[dysbiosis]] selects for pathobionts whose surface proteins may share epitopes with host tissues. Metal-induced inflammation also lowers the activation threshold for cross-reactive T cells.
 
 ### 2. Barrier Dysfunction
 
@@ -93,7 +93,7 @@ Metals may push individuals toward either pole depending on the specific metal, 
 
 - [[thyroid-autoimmunity]] -- AITD-specific metal and microbiome analysis
 - [[molecular-mimicry]] -- bacterial epitope cross-reactivity
-- [[dysbiosis]] -- microbial community disruption driving immune dysregulation
+- dysbiosis -- microbial community disruption driving immune dysregulation
 - [[nutritional-immunity]] -- host metal sequestration and its paradoxical effects
 - [[mis-metallation]] -- toxic metals replacing essential cofactors
 - [[butyrate]] -- SCFA-dependent Treg induction

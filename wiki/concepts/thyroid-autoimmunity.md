@@ -76,7 +76,7 @@ This is a textbook example of [[mis-metallation]] (Karen's Brain Primitive 3): t
 
 The gut microbiome influences thyroid autoimmunity through several mechanisms:
 
-1. Nutrient absorption: Selenium, iodine, iron, and zinc are all absorbed in the gut. Dysbiosis-driven malabsorption compounds deficiency.
+1. Nutrient absorption: Selenium, iodine, iron, and zinc are all absorbed in the gut. [[dysbiosis]]-driven malabsorption compounds deficiency.
 2. Immune education: Gut microbiome composition shapes Th17/Treg balance, directly relevant to autoimmune tolerance.
 3. Molecular mimicry: Bacterial proteins with structural similarity to thyroid antigens may trigger cross-reactive immune responses.
 4. SCFA-mediated immune regulation: Depletion of SCFA-producing bacteria (Faecalibacterium, Lachnospiraceae) reduces Treg induction and shifts toward pro-inflammatory Th17 dominance.

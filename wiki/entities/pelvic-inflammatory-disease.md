@@ -41,7 +41,7 @@ Pelvic inflammatory disease (PID) is an ascending infection of the female upper 
 
 ## Microbiome Associations
 
-Culture-independent studies have revealed that PID-associated microbiomes are enriched in BV-associated organisms including [[gardnerella|gardnerella-vaginalis]], [[fannyhessea-vaginae]] (reported in older literature as *Atopobium vaginae*), *Prevotella bivia*, and *Sneathia* species. These organisms ascend from the vaginal tract when the protective Lactobacillus-dominant community is disrupted. The [[gut-vagina-axis]] may contribute to vaginal dysbiosis that precedes PID.
+Culture-independent studies have revealed that PID-associated microbiomes are enriched in BV-associated organisms including [[gardnerella|gardnerella-vaginalis]], [[fannyhessea-vaginae]] (reported in older literature as *Atopobium vaginae*), *Prevotella bivia*, and *Sneathia* species. These organisms ascend from the vaginal tract when the protective Lactobacillus-dominant community is disrupted. The [[gut-vagina-axis]] may contribute to vaginal [[dysbiosis]] that precedes PID.
 
 ## Metal Associations
 

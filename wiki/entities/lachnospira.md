@@ -43,7 +43,7 @@ Iron dependency is documented for fermentation enzymes across the Lachnospiracea
 
 ## CKD — Early Biomarker
 
-The most clinically actionable finding for *Lachnospira* is its role as an early dysbiosis biomarker in chronic kidney disease:
+The most clinically actionable finding for *Lachnospira* is its role as an early [[dysbiosis]] biomarker in chronic kidney disease:
 
 - *Lachnospira* is the earliest-declining Lachnospiraceae genus in CKD progression, with significant reduction detectable at CKD stage 3a — before the declines in [[blautia]], [[coprococcus]], [[anaerostipes]], and [[roseburia]] that become evident at stage 3b [[yasuno-2024-dysbiosis-gut-microbiota-ckd]].
 - This early decline positions *Lachnospira* as a potential early warning biomarker for progressive renal disease.

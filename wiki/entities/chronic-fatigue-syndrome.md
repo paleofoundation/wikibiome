@@ -27,7 +27,7 @@ wikipedia_differentiation: "Nickel allergy as ME/CFS comorbidity and potential m
 
 Myalgic encephalomyelitis/chronic fatigue syndrome (ME/CFS) is a complex, disabling condition characterized by profound fatigue not relieved by rest, post-exertional malaise (PEM -- symptom worsening after physical or cognitive exertion), unrefreshing sleep, cognitive dysfunction ("brain fog"), and orthostatic intolerance. It affects 17-24 million people globally, with a striking 3:1 female predominance. ME/CFS lacks a definitive diagnostic biomarker, and its pathophysiology remains contested -- though the gut microbiome is now recognized as a significant and potentially causal contributor.
 
-The COVID-19 pandemic brought renewed attention to ME/CFS because [[long-covid]] shares its core features, suggesting a common post-infectious dysbiosis-fatigue pathway.
+The COVID-19 pandemic brought renewed attention to ME/CFS because [[long-covid]] shares its core features, suggesting a common post-infectious [[dysbiosis]]-fatigue pathway.
 
 ## Microbiome Associations
 

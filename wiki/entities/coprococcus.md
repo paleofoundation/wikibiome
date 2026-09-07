@@ -34,7 +34,7 @@ A Gram-positive, obligate anaerobic genus within the [[lachnospiraceae]] family 
 - The landmark Valles-Colomer 2019 study identified *Coprococcus* (alongside [[faecalibacterium-prausnitzii]]) as consistently depleted in individuals with depression, even after controlling for antidepressant use -- one of the first population-scale microbiome-mental health associations.
 - *Coprococcus* produces DOPAC (3,4-dihydroxyphenylacetic acid), a dopamine metabolite, providing a plausible mechanism for its mental health associations via the [[gut-brain-axis]].
 - Consistently decreased in [[autism-spectrum-disorder]] youth across multiple observational reviews [[romano-2023-gut-microbiome-children-mental-health-umbrella-review]].
-- Depleted in [[schizophrenia]] patients alongside other SCFA producers, consistent with the dysbiosis-inflammation-neurotransmitter axis in psychotic disorders [[yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s]] [[patrono-2021-schizophrenia-gut-microbiota-optogenetics-nmda-gaba]].
+- Depleted in [[schizophrenia]] patients alongside other SCFA producers, consistent with the [[dysbiosis]]-inflammation-neurotransmitter axis in psychotic disorders [[yan-2022-gut-microbiome-schizophrenia-zhejiang-china-16s]] [[patrono-2021-schizophrenia-gut-microbiota-optogenetics-nmda-gaba]].
 
 ## Sensitivity to Heavy Metals
 

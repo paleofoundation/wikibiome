@@ -79,7 +79,7 @@ The F/B ratio was among the first microbiome metrics to gain widespread attentio
 |---------------|-----------|
 | Elevated F/B (Bacteroidetes relatively depleted) | [[obesity]], [[endometriosis]] (stages 3/4), [[autism-spectrum-disorder]] (some cohorts), IBS, hypertension, [[hashimotos-thyroiditis]] |
 | Decreased F/B (Bacteroidetes relatively enriched) | IBD, [[graves-disease]], [[pancreatic-cancer]], antidepressant treatment |
-| Both phyla decline | Severe dysbiosis where [[proteobacteria]] dominate |
+| Both phyla decline | Severe [[dysbiosis]] where [[proteobacteria]] dominate |
 
 The ratio's clinical utility is limited because a "high F/B" could mean loss of beneficial Bacteroidetes polysaccharide degraders OR gain of pathogenic Firmicutes -- two very different ecological situations requiring different interventions.
 
@@ -100,4 +100,4 @@ In the healthy gut, Bacteroidetes occupy the mucus-adjacent niche, specializing 
 - [[bile-acid-metabolism]] -- Bacteroidetes genera participate in bile acid biotransformation
 - [[gut-microbiome]] -- Bacteroidetes as one of two dominant phyla
 - [[cadmium]] -- Cd significantly depletes Bacteroidetes
-- [[dysbiosis]] -- F/B ratio as (imperfect) dysbiosis metric
+- dysbiosis -- F/B ratio as (imperfect) dysbiosis metric

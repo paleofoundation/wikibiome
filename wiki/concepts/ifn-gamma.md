@@ -44,7 +44,7 @@ The kynurenine branch in microglia produces neurotoxic quinolinic acid (NMDA ago
 
 - ASD: IFN-γ elevated (5.96 vs. 3.50 pg/ml, p=0.001) [[cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd]].
 - Schizophrenia: Elevated in FEP; drives IDO-mediated tryptophan shunting [[ermakov-2022-immune-system-abnormalities-schizophrenia]].
-- MS: Virus-induced IFN-γ drives gut dysbiosis and neuroinflammation [[carrillo-salinas-2017-tmev-gut-dysbiosis-neuroimmune]]; *S. thermophilus* suppresses IFN-γ in MS models [[dargahi-2020-streptococcus-thermophilus-ms]].
+- MS: Virus-induced IFN-γ drives gut [[dysbiosis]] and neuroinflammation [[carrillo-salinas-2017-tmev-gut-dysbiosis-neuroimmune]]; *S. thermophilus* suppresses IFN-γ in MS models [[dargahi-2020-streptococcus-thermophilus-ms]].
 
 ## Cross-References
 

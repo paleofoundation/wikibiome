@@ -51,7 +51,7 @@ A genus of Gram-positive, facultatively anaerobic, filamentous bacteria that are
 
 ### Multiple Sclerosis
 - Enriched in faecal microbiota of RRMS patients alongside other inflammation-associated bacteria [[boussamet-2024-oral-microbiota-metabolite-signature-ms]].
-- Oral dysbiosis in MS involves altered *Actinomyces* abundance as part of breakdown in oral-gut compartmentalization [[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]].
+- Oral [[dysbiosis]] in MS involves altered *Actinomyces* abundance as part of breakdown in oral-gut compartmentalization [[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]].
 
 ### Endometriosis
 - Detected in peritoneal and endometriotic lesion microbiota, suggesting translocation from oral or gut sites [[lee-2021-peritoneal-microbiota-ovarian-endometrioma]].

@@ -46,7 +46,7 @@ Preterm infants receiving IV nutrition face a distinct exposure route:
 
 ### Breast Milk vs. Formula
 
-- Breast milk provides lactoferrin (iron chelation), [[prebiotics|hmos]] (Bifidobacterium nourishment), secretory IgA, and anti-inflammatory cytokines -- a complete ecological package that protects against metal-driven dysbiosis.
+- Breast milk provides lactoferrin (iron chelation), [[prebiotics|hmos]] (Bifidobacterium nourishment), secretory IgA, and anti-inflammatory cytokines -- a complete ecological package that protects against metal-driven [[dysbiosis]].
 - Formula lacks these protective components and may contain trace metal contaminants from water, processing equipment, and raw materials.
 - The 6-10 fold NEC risk reduction from exclusive breastfeeding is the largest single protective effect documented in neonatal medicine.
 

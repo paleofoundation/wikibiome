@@ -112,7 +112,7 @@ IBS co-occurs frequently with [[depression]] (50% comorbidity), [[endometriosis]
 - [[zinc]] -- supplementation restores barrier function and supports antimicrobial peptide production
 - [[intestinal-permeability]] -- barrier dysfunction documented in IBS-D with elevated serum LPS
 - [[inflammatory-bowel-disease]] -- the key differential diagnosis; calprotectin distinguishes the two
-- [[dysbiosis]] -- reduced diversity with depletion of Lactobacillus, Bifidobacterium, F. prausnitzii
+- dysbiosis -- reduced diversity with depletion of Lactobacillus, Bifidobacterium, F. prausnitzii
 - [[probiotics]] -- Historical trials reported strain 35624 as “B. infantis,” but genome analysis assigns 35624 to *B. longum* subsp. *longum*; its results do not support the *infantis* subspecies generally [[altmann-2016-bifidobacterium-longum-35624-genome]]
 - [[depression]] -- 50% comorbidity rate; shared gut-brain axis and mast cell-nerve axis pathways
 - [[endometriosis]] -- shared nickel sensitivity and estrogen connections via estrobolome

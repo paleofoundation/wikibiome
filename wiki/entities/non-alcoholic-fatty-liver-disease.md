@@ -90,7 +90,7 @@ Dietary patterns strongly influence NAFLD through the gut-liver axis. High-fat, 
 
 ## Open Questions
 
-- Does microbial endogenous ethanol production drive NAFLD independently of diet, or is it a marker of broader dysbiosis?
+- Does microbial endogenous ethanol production drive NAFLD independently of diet, or is it a marker of broader [[dysbiosis]]?
 - Can targeted restoration of BSH-expressing bacteria (Blautia, Lactobacillus) reverse hepatic steatosis through FXR reactivation?
 - What is the relative contribution of portal LPS versus bile acid dysregulation to NAFLD progression?
 

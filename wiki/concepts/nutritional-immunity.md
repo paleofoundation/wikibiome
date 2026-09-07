@@ -55,7 +55,7 @@ Pathogens have evolved elaborate systems to overcome nickel scarcity:
 Targeting nickel availability is proposed as a therapeutic strategy [[maier-2019-nickel-microbial-pathogenesis]]:
 - Block nickel trafficking pathways in pathogens.
 - Enhance host nickel sequestration.
-- Complication: disrupting nickel for pathogens could also affect the (Ni-utilizing) commensal microbiota → potential dysbiosis.
+- Complication: disrupting nickel for pathogens could also affect the (Ni-utilizing) commensal microbiota → potential [[dysbiosis]].
 
 ## The Two-Kingdom Conundrum
 

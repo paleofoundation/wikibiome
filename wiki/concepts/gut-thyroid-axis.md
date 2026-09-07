@@ -28,7 +28,7 @@ The thyroid is uniquely dependent on dietary minerals that must pass through the
 
 | Mineral | Thyroid Role | Microbiome Effect |
 |---------|-------------|-------------------|
-| [[iodine]] | Essential substrate for T3/T4 synthesis | Gut bacteria metabolize iodine; dysbiosis alters iodine bioavailability |
+| [[iodine]] | Essential substrate for T3/T4 synthesis | Gut bacteria metabolize iodine; [[dysbiosis]] alters iodine bioavailability |
 | [[selenium]] | Cofactor for deiodinases (T4→T3 conversion) and glutathione peroxidase | Selenoprotein production partly microbiome-dependent |
 | [[zinc]] | Required for TSH receptor signaling and T3 binding to nuclear receptor | Zinc absorption impaired by dysbiosis and metal competition |
 | [[iron]] | Cofactor for thyroid peroxidase (TPO) | Iron malabsorption in dysbiosis contributes to hypothyroidism |
@@ -41,7 +41,7 @@ The gut-associated lymphoid tissue (GALT) contains 70-80% of the body's immune c
 
 - Molecular mimicry: Bacterial antigens structurally similar to thyroid proteins (TPO, thyroglobulin, TSH receptor) can break immune tolerance [[bao-2025-gut-microbiota-thyroid-diseases-comprehensive-review]]
 - Treg/Th17 balance: Butyrate-producing bacteria promote regulatory T cell differentiation; their depletion shifts toward Th17-dominated autoimmune inflammation
-- Intestinal permeability: [[dysbiosis]] increases intestinal permeability ("leaky gut"), allowing microbial antigens and LPS to reach systemic circulation and trigger thyroid-directed autoimmune responses
+- Intestinal permeability: dysbiosis increases intestinal permeability ("leaky gut"), allowing microbial antigens and LPS to reach systemic circulation and trigger thyroid-directed autoimmune responses
 
 ### Hormone Metabolism
 

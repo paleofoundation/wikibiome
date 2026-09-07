@@ -32,7 +32,7 @@ Cortisol is the primary glucocorticoid stress hormone, produced by the adrenal c
 ## Stress-Disease Connections
 
 - Periodontitis: Salivary cortisol elevated in periodontitis (>0.15 µM vs. 0.02 µM healthy); directly activates P. gingivalis migration [[kim-2022-cortisol-surface-translocation-pgingivalis]].
-- Depression: HPA axis dysregulation is a core feature of MDD; cortisol drives gut dysbiosis → [[endotoxemia]] → neuroinflammation [[siegmann-2020-graves-disease-depression-mechanistic]].
+- Depression: HPA axis dysregulation is a core feature of MDD; cortisol drives gut [[dysbiosis]] → [[endotoxemia]] → neuroinflammation [[siegmann-2020-graves-disease-depression-mechanistic]].
 - PPD: Cortisol dysregulation postpartum compounds estrogen/progesterone withdrawal [[suryawanshi-2022-comprehensive-review-ppd]] [[silva-fernandes-2024-inflammatory-biomarkers-perinatal-depression]].
 - PMDD: Cortisol-GABA-[[allopregnanolone]] axis disruption [[cheng-2025-neuroinflammation-pms-pmdd-review]].
 

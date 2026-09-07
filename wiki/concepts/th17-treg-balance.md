@@ -45,7 +45,7 @@ The gut microbiome determines the Th17/Treg set point through:
 
 1. SCFA production → butyrate → HDAC inhibition → Foxp3 → Treg differentiation (anti-inflammatory).
 2. SFB colonization → IL-17 induction → Th17 differentiation (pro-inflammatory).
-3. Dysbiosis → SCFA loss + pathobiont expansion → Th17 dominance + Treg deficit → autoimmunity.
+3. [[dysbiosis]] → SCFA loss + pathobiont expansion → Th17 dominance + Treg deficit → autoimmunity.
 
 The critical insight: dysbiosis doesn't just correlate with Th17/Treg imbalance — it causes it. The microbiome produces the metabolites (butyrate) and signals (SFB, LPS) that calibrate the balance.
 
@@ -75,4 +75,4 @@ The critical insight: dysbiosis doesn't just correlate with Th17/Treg imbalance 
 - [[butyrate]] — primary microbial Treg inducer via HDAC/Foxp3
 - [[short-chain-fatty-acids]] — broader SCFA context
 - [[faecalibacterium-prausnitzii]] — butyrate producer driving Treg induction
-- [[dysbiosis]] — SCFA loss → Th17 dominance
+- dysbiosis — SCFA loss → Th17 dominance

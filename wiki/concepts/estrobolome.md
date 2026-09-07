@@ -17,7 +17,7 @@ last_substantive_update: 2026-04-09
 
 The estrobolome is the aggregate of enteric bacterial genes whose products are capable of metabolizing estrogens. First proposed by Plottel and Blaser (2011), the concept describes how the gut microbiome acts as an endocrine organ, modulating circulating estrogen levels through enzymatic deconjugation.
 
-This concept is central to understanding why gut dysbiosis contributes to estrogen-dependent conditions including [[endometriosis]], breast cancer, and [[pcos]].
+This concept is central to understanding why gut [[dysbiosis]] contributes to estrogen-dependent conditions including [[endometriosis]], breast cancer, and [[pcos]].
 
 ## Mechanism
 
@@ -57,7 +57,7 @@ The estrobolome is fundamentally metal-dependent, and metals modulate it through
 
 ### Metals That Promote Estrobolome-Enriched Taxa
 
-Cadmium, lead, and arsenic all select for Enterobacteriaceae in [[dysbiosis]] models -- the same taxa with the highest beta-glucuronidase activity. Metal-induced dysbiosis therefore indirectly enriches the estrobolome, increasing estrogen recirculation as a downstream consequence of toxic metal exposure.
+Cadmium, lead, and arsenic all select for Enterobacteriaceae in dysbiosis models -- the same taxa with the highest beta-glucuronidase activity. Metal-induced dysbiosis therefore indirectly enriches the estrobolome, increasing estrogen recirculation as a downstream consequence of toxic metal exposure.
 
 ### Metalloestrogens -- Direct Estrogenic Activity
 
@@ -100,7 +100,7 @@ This represents Karen's Brain Primitive 4 (Microbial Metal Dependencies as Achil
 - [[breast-cancer]] -- Estrogen-dependent malignancy linked to estrobolome
 - [[endometriosis]] -- Estrogen-dependent condition with nickel and iron connections
 - [[pcos]] -- Hormonal disorder with microbiome and metal dimensions
-- [[dysbiosis]] -- The microbiome disruption that shifts estrobolome activity
+- dysbiosis -- The microbiome disruption that shifts estrobolome activity
 - [[estrogen-recirculation]] -- The recycling loop amplified by the estrobolome
 - [[enterohepatic-circulation]] -- The broader physiological system
 - [[functional-shielding]] -- Biofilm protection of estrobolome members

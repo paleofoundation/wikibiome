@@ -36,7 +36,7 @@ A dense, chemically inert noble metal with no known biological function -- yet p
 
 The gut microbiome is not a bystander during chemotherapy -- it is a determinant of response:
 
-- Antibiotic-induced dysbiosis increases tumor growth AND platinum resistance -- germ-free and antibiotic-treated mice show reduced cisplatin efficacy, demonstrating that intact gut microbiota are required for full chemotherapeutic effect.
+- Antibiotic-induced [[dysbiosis]] increases tumor growth AND platinum resistance -- germ-free and antibiotic-treated mice show reduced cisplatin efficacy, demonstrating that intact gut microbiota are required for full chemotherapeutic effect.
 - Immune surveillance dependency -- The microbiome primes tumor-infiltrating immune cells (particularly CD8+ T cells) that are required for cisplatin to eliminate cancer stem cells. Without this immune component, platinum kills bulk tumor cells but spares resistant clones.
 - Microbial metabolite modulation -- Short-chain fatty acids (especially [[butyrate]]) from commensal bacteria enhance cisplatin-induced apoptosis in tumor cells through HDAC inhibition.
 

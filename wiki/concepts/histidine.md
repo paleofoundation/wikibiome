@@ -56,7 +56,7 @@ Bacterial histamine production is clinically significant because it occurs indep
 
 ### Dietary Histamine Precursors
 
-Dietary histamine and microbial histamine production are distinct evidence questions. The cited *D. histaminiformans* experiment does not establish that changing dietary histidine or histamine treats human dysbiosis [[garner-2002-allisonella-histaminiformans-description]].
+Dietary histamine and microbial histamine production are distinct evidence questions. The cited *D. histaminiformans* experiment does not establish that changing dietary histidine or histamine treats human [[dysbiosis]] [[garner-2002-allisonella-histaminiformans-description]].
 
 ## Histidine in Oxidative Stress Defense
 

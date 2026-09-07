@@ -114,7 +114,7 @@ Under immune-imposed metal restriction, bacteria can deliberately switch the met
 
 ### The Microbiome as Intermediary in Neurodegeneration
 
-A unifying framework proposes that metal dyshomeostasis initiates vulnerability, and the microbiome amplifies and operationalizes it. Altered host iron handling increases labile metal pools, creating selection pressure for microbes capable of surviving and exploiting metal-rich, inflammatory environments along the gut-brain axis [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]]. Dysbiosis in this model reflects functional enrichment for metal resistance and virulence -- not a nonspecific imbalance [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]]. Gut microbiota influence the host via metabolites: SCFAs (butyrate enhances epithelial barrier), indole derivatives, bile acids, and neurotransmitters (serotonin, dopamine, GABA) [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
+A unifying framework proposes that metal dyshomeostasis initiates vulnerability, and the microbiome amplifies and operationalizes it. Altered host iron handling increases labile metal pools, creating selection pressure for microbes capable of surviving and exploiting metal-rich, inflammatory environments along the gut-brain axis [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]]. [[dysbiosis]] in this model reflects functional enrichment for metal resistance and virulence -- not a nonspecific imbalance [[pendergrass-2025-dysbiosis-dyshomeostasis-parkinsons-metallomic]]. Gut microbiota influence the host via metabolites: SCFAs (butyrate enhances epithelial barrier), indole derivatives, bile acids, and neurotransmitters (serotonin, dopamine, GABA) [[bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota]].
 
 ### Metal-Microbiome-Behavior Link
 
@@ -206,7 +206,7 @@ Ferroptosis -- iron-dependent programmed cell death via lipid peroxidation -- em
 
 - Iron elevated in prostate cancer (1.96 vs 1.24 ug/ml, p<0.05); increased Fe may promote oxidative stress via Fenton reaction [[saleh-2020-serum-trace-elements-prostate-cancer]].
 - In the tumor microenvironment, iron is both hoarded by tumor cells for proliferation and used to polarize tumor-associated macrophages toward the immunosuppressive M2 phenotype [[chen-2026-metalloimmunology-tumor-microenvironment]].
-- Metal-induced [[dysbiosis]] reduces SCFA-producing bacteria, and SCFAs may influence iron-dependent cell death through epigenetic regulation of ferroptosis-related genes [[feitelson-2023-scfas-cancer-pathogenesis]].
+- Metal-induced dysbiosis reduces SCFA-producing bacteria, and SCFAs may influence iron-dependent cell death through epigenetic regulation of ferroptosis-related genes [[feitelson-2023-scfas-cancer-pathogenesis]].
 
 ### Diabetes
 

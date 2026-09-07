@@ -36,7 +36,7 @@ Gestational diabetes mellitus (GDM) is a condition of glucose intolerance first 
 
 ## Microbiome Associations
 
-Emerging research indicates significant gut microbiome alterations in GDM, including both bacterial and fungal dysbiosis ([[fungal-dysbiosis-2023-gdm-pregnancy-microbiome]], [[wang-2026-intestinal-fungal-dysbiosis-gdm-adverse-pregnancy-outcomes]]). Microbiome-derived metabolites may contribute to insulin resistance mechanisms ([[susarla-2024-microbiome-derived-metabolites-gestational-diabetes-risk]]).
+Emerging research indicates significant gut microbiome alterations in GDM, including both bacterial and fungal [[dysbiosis]] ([[fungal-dysbiosis-2023-gdm-pregnancy-microbiome]], [[wang-2026-intestinal-fungal-dysbiosis-gdm-adverse-pregnancy-outcomes]]). Microbiome-derived metabolites may contribute to insulin resistance mechanisms ([[susarla-2024-microbiome-derived-metabolites-gestational-diabetes-risk]]).
 
 ## Metal Associations
 

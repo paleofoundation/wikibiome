@@ -27,7 +27,7 @@ A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant g
 
 - Some *Bifidobacterium* species carry urease genes and produce active Ni-dependent urease [[maier-2019-nickel-microbial-pathogenesis]].
 - In the commensal context, urease likely serves for nitrogen acquisition (urea is abundant in the gut lumen at ~2-6 mM) rather than as a virulence factor.
-- This commensal urease activity has implications for nickel restriction strategies: dietary nickel limitation aimed at pathogen urease could also affect beneficial *Bifidobacterium* urease, potentially causing unintended dysbiosis [[maier-2019-nickel-microbial-pathogenesis]].
+- This commensal urease activity has implications for nickel restriction strategies: dietary nickel limitation aimed at pathogen urease could also affect beneficial *Bifidobacterium* urease, potentially causing unintended [[dysbiosis]] [[maier-2019-nickel-microbial-pathogenesis]].
 - This dual-use problem -- pathogen vs. commensal urease -- is a key challenge for anti-nickel therapeutic approaches.
 
 ## Metal Binding and Detoxification
@@ -74,5 +74,5 @@ A genus of Gram-positive, obligate anaerobic bacteria that dominate the infant g
 - [[faecalibacterium-prausnitzii]] -- metabolic cross-feeding via acetate-butyrate axis
 - [[akkermansia-muciniphila]] -- co-protective commensal; both depleted in disease
 - [[nutritional-immunity]] -- the commensal-pathogen urease dilemma
-- [[dysbiosis]] -- depletion is a consistent disease-associated signature
+- dysbiosis -- depletion is a consistent disease-associated signature
 - [[inflammation]] -- anti-inflammatory via SCFA production and Treg promotion

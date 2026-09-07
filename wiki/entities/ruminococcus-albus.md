@@ -92,7 +92,7 @@ Butyrate produced by R. albus and other Lachnospiraceae is the most important en
 - Colonic pH reduction → creates acidic environment antagonistic to pathogens
 - Mitochondrial ATP production → sustains colonocyte energy metabolism
 
-Fiber deficiency → R. albus depletion → butyrate depletion → loss of intestinal barrier integrity and increased inflammatory signaling is a core mechanistic pathway in Western diet-associated dysbiosis.
+Fiber deficiency → R. albus depletion → butyrate depletion → loss of intestinal barrier integrity and increased inflammatory signaling is a core mechanistic pathway in Western diet-associated [[dysbiosis]].
 
 ## Metal Dependencies
 
@@ -191,7 +191,7 @@ Ruminococcus albus restoration is among the most important therapeutic targets i
 - [[iron]] – iron-sulfur clusters essential for fermentation efficiency
 - [[zinc]] – zinc metalloproteases and enzyme cofactor roles
 - – dramatically depleted in low-fiber Western diets
-- [[dysbiosis]] – depletion is hallmark of dysbiotic microbiota
+- dysbiosis – depletion is hallmark of dysbiotic microbiota
 - [[faecalibacterium-prausnitzii]] – related genus; cooperative fiber-degrading partnership
 - [[roseburia]] – genus family member; overlapping fiber niches
 - – signature feature; enables efficient fiber degradation

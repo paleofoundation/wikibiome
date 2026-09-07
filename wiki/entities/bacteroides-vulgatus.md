@@ -27,7 +27,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Bacteroides vulgatus
 
-A Gram-negative obligate anaerobe that exemplifies the commensal-pathobiont spectrum. *B. vulgatus* is a common component of the healthy gut microbiota, yet is significantly enriched in [[colorectal-cancer]] and [[depression]], suggesting a context-dependent pathogenic potential. Like many Bacteroides species, it is a beta-glucuronidase producer and an aggressive iron-scavenging specialist that outcompetes commensals under high-iron conditions. Its abundance and virulence depend critically on iron and zinc availability, positioning it as a model organism for understanding metal-driven dysbiosis.
+A Gram-negative obligate anaerobe that exemplifies the commensal-pathobiont spectrum. *B. vulgatus* is a common component of the healthy gut microbiota, yet is significantly enriched in [[colorectal-cancer]] and [[depression]], suggesting a context-dependent pathogenic potential. Like many Bacteroides species, it is a beta-glucuronidase producer and an aggressive iron-scavenging specialist that outcompetes commensals under high-iron conditions. Its abundance and virulence depend critically on iron and zinc availability, positioning it as a model organism for understanding metal-driven [[dysbiosis]].
 
 ## The Commensal-Pathobiont Duality
 
@@ -181,6 +181,6 @@ The key distinction between commensal and dysbiotic *B. vulgatus*:
 - [[faecalibacterium-prausnitzii]] -- co-depleted with *B. vulgatus* enrichment; loss of butyrate-mediated protection
 - [[short-chain-fatty-acids]] -- *B. vulgatus* produces acetate/propionate (not anti-inflammatory butyrate)
 - [[nutritional-immunity|barrier-disruption]] -- produces metalloproteases and pro-inflammatory metabolites
-- [[dysbiosis]] -- *B. vulgatus* enrichment is a hallmark of dysbiotic states in CRC, depression, IBD
+- dysbiosis -- *B. vulgatus* enrichment is a hallmark of dysbiotic states in CRC, depression, IBD
 - [[nutritional-immunity]] -- actively circumvents iron sequestration via siderophores
 - -- prototype of context-dependent pathogenic potential

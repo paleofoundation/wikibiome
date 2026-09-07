@@ -27,7 +27,7 @@ Pancreatitis is inflammation of the pancreas, occurring in acute (AP) and chroni
 ## Microbiome Associations
 
 ### Acute Pancreatitis
-- Fungal dysbiosis is a feature of acute pancreatitis, with altered intestinal fungal communities detected early in the disease course [[zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis]].
+- Fungal [[dysbiosis]] is a feature of acute pancreatitis, with altered intestinal fungal communities detected early in the disease course [[zhao-2025-intestinal-fungal-microbiota-acute-pancreatitis]].
 - Bacterial translocation from a dysbiotic gut is a major driver of secondary pancreatic infection in severe AP [[sun-2023-pancreatic-infections-16s-rrna-pancreatitis]].
 - 16S rRNA sequencing of pancreatic infections identifies specific bacterial communities driving infectious complications [[sun-2023-pancreatic-infections-16s-rrna-pancreatitis]].
 

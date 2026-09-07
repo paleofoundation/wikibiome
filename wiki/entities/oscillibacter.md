@@ -24,7 +24,7 @@ conditions_depleted_in: [cadmium-exposure, lead-exposure, colorectal-cancer]
 
 Oscillibacter is a genus of Gram-negative, strictly anaerobic, motile bacteria within the family Oscillospiraceae (phylum Firmicutes). The type species, *Oscillibacter valericigenes*, was first isolated from the alimentary tract of a Japanese freshwater fish and named for its characteristic oscillating motility and its production of valerate (pentanoic acid), a five-carbon short-chain fatty acid that distinguishes it from the more commonly discussed butyrate and propionate producers.
 
-*Oscillibacter* is ecologically important as a sentinel of heavy metal exposure. Its depletion under cadmium and lead stress has been documented in multiple animal models, positioning it alongside [[lachnospiraceae-family]] and [[roseburia]] as an early casualty of metal-driven dysbiosis.
+*Oscillibacter* is ecologically important as a sentinel of heavy metal exposure. Its depletion under cadmium and lead stress has been documented in multiple animal models, positioning it alongside [[lachnospiraceae-family]] and [[roseburia]] as an early casualty of metal-driven [[dysbiosis]].
 
 ## Metal Dependencies
 

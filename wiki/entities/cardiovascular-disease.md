@@ -36,7 +36,7 @@ wikipedia_differentiation: "TMAO-producing taxa mapped to metal dependencies, or
 
 ## Overview
 
-Cardiovascular disease (CVD) -- encompassing atherosclerosis, coronary artery disease, hypertension, myocardial infarction, heart failure, and stroke -- is the leading cause of death globally. The gut-heart axis has emerged as a central paradigm linking microbial metabolites (TMAO, SCFAs, bile acids, tryptophan derivatives) to CVD pathogenesis. Metallomic profiling reveals a consistent signature of copper elevation and selenium depletion in acute events, while chronic exposures to lead and cadmium drive CVD risk through both direct vascular toxicity and microbiome-mediated pathways. The convergence of metal dyshomeostasis, microbial dysbiosis, and metabolite disruption creates a multi-layered framework for understanding CVD etiology.
+Cardiovascular disease (CVD) -- encompassing atherosclerosis, coronary artery disease, hypertension, myocardial infarction, heart failure, and stroke -- is the leading cause of death globally. The gut-heart axis has emerged as a central paradigm linking microbial metabolites (TMAO, SCFAs, bile acids, tryptophan derivatives) to CVD pathogenesis. Metallomic profiling reveals a consistent signature of copper elevation and selenium depletion in acute events, while chronic exposures to lead and cadmium drive CVD risk through both direct vascular toxicity and microbiome-mediated pathways. The convergence of metal dyshomeostasis, microbial [[dysbiosis]], and metabolite disruption creates a multi-layered framework for understanding CVD etiology.
 
 ## Metallomic Signature
 

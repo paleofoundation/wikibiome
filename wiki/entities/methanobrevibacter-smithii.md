@@ -105,7 +105,7 @@ When H2-producing taxa are depleted, *M. smithii* starves. This creates an inter
 ## Ecological Transitions and Biofilm Formation
 
 - *M. smithii* does not form biofilms alone but integrates into mixed anaerobic biofilms with bacteria and fungi.
-- In slow-transit dysbiosis (constipation, megacolon), *M. smithii* aggregates densely with [[bacteroides-fragilis|bacteroides]], [[prevotella]], and [[clostridium]] spp.
+- In slow-transit [[dysbiosis]] (constipation, megacolon), *M. smithii* aggregates densely with [[bacteroides-fragilis|bacteroides]], [[prevotella]], and [[clostridium]] spp.
 - Reduced peristalsis creates anaerobic microenvironments (lower pO2, more stratified layers), favoring methanogen abundance.
 - This is distinct from acute dysbiosis (e.g., *C. difficile* overgrowth), where *M. smithii* may be secondary to pathogenic dominance.
 
@@ -145,7 +145,7 @@ When H2-producing taxa are depleted, *M. smithii* starves. This creates an inter
 -  – Methane slows transit; methanogen enrichment is a biomarker for slow-transit IBS
 -  – Enriched in IBS-C; methane breath test is diagnostic
 - [[cardiovascular-disease]] – Indirect via altered bile acid reabsorption and lipid metabolism
-- [[dysbiosis]] – Enrichment signals altered hydrogen cycling and ecological dysfunction
+- dysbiosis – Enrichment signals altered hydrogen cycling and ecological dysfunction
 
 <!-- Intervention/practitioner content moved to Cureva per public/clinical boundary -->
 

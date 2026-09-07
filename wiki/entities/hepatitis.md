@@ -26,7 +26,7 @@ Hepatitis (liver inflammation) encompasses viral (HBV, HCV, HAV), autoimmune, al
 
 ## Key Connections
 
-- Gut-liver axis: Gut dysbiosis → increased portal LPS → Kupffer cell activation → hepatic inflammation → fibrosis → [[cirrhosis]].
+- Gut-liver axis: Gut [[dysbiosis]] → increased portal LPS → Kupffer cell activation → hepatic inflammation → fibrosis → [[cirrhosis]].
 - Virome: Altered gut virome (bacteriophage communities) in liver disease [[dejonge-2022-gut-virome-bacteriophage-metabolic-syndrome]].
 - Metal hepatotoxicity: [[cadmium]], [[arsenic]], [[lead]] cause direct hepatocyte damage, compounding viral hepatitis [[jaishankar-2014-heavy-metal-toxicity-mechanisms]].
 - Autoimmune hepatitis: May share [[molecular-mimicry]] mechanisms with other autoimmune conditions [[lazarova-2021-graves-disease-epidemiology-risk-factors]].

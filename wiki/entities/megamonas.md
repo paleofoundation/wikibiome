@@ -41,7 +41,7 @@ platform: wikibiome
 
 Megamonas is a genus of obligate anaerobic, Gram-negative bacteria in the family Veillonellaceae (class Negativicutes, phylum Firmicutes). The type species is *Megamonas hypermegale*, with *M. funiformis* also well-characterized. It is a common member of the human gut microbiota — particularly abundant in Asian populations — and is a significant carbohydrate fermenter producing propionate and valerate as primary short-chain fatty acid end-products [[he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese]].
 
-What makes Megamonas notable in the WikiBiome context is its contradictory directionality across conditions: enriched in some diseases, depleted in others, with no simple "good vs. bad" classification. This context-dependence makes it a useful marker for understanding disease-specific ecological shifts rather than a universal indicator of health or dysbiosis.
+What makes Megamonas notable in the WikiBiome context is its contradictory directionality across conditions: enriched in some diseases, depleted in others, with no simple "good vs. bad" classification. This context-dependence makes it a useful marker for understanding disease-specific ecological shifts rather than a universal indicator of health or [[dysbiosis]].
 
 ## SCFA Production Profile
 

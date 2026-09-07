@@ -122,7 +122,7 @@ This explains why oral iron is generally avoided during active UC flares and why
 - [[copper]] -- elevated serum Cu during flares (acute phase response); Cu/Zn ratio tracks disease activity
 - [[selenium]] -- deficiency common and correlates with severity; required for antioxidant defense
 - [[calprotectin]] -- primary non-invasive biomarker; very high (>250 mcg/g) in active disease
-- [[dysbiosis]] -- F. prausnitzii and Roseburia depletion; E. coli and Enterococcus enrichment
+- dysbiosis -- F. prausnitzii and Roseburia depletion; E. coli and Enterococcus enrichment
 - [[short-chain-fatty-acids]] -- profound butyrate reduction creates colonocyte energy crisis
 - [[intestinal-permeability]] -- barrier dysfunction central to the inflammation-translocation vicious cycle
 - [[immune-balance]] -- Th17/Treg imbalance perpetuates mucosal inflammation

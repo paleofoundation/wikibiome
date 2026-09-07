@@ -23,7 +23,7 @@ The pathway begins with the oxidative cleavage of tryptophan's indole ring, cata
 - IDO1/IDO2 (indoleamine 2,3-dioxygenase): Expressed in immune cells (macrophages, dendritic cells) and gut epithelium. Powerfully induced by IFN-gamma during [[inflammation]]. IDO1 is the primary extrahepatic enzyme and the critical link between immune activation and tryptophan depletion.
 - TDO (tryptophan 2,3-dioxygenase): Constitutively expressed in the liver; responsible for homeostatic tryptophan regulation. Induced by glucocorticoids and tryptophan itself.
 
-Both enzymes absolutely require heme iron as a prosthetic group. This means that [[iron]] availability directly controls pathway flux. In iron-overloaded inflammatory states -- precisely the conditions created by metal-driven dysbiosis -- IDO activity increases, amplifying the diversion of tryptophan away from serotonin and toward kynurenine metabolites.
+Both enzymes absolutely require heme iron as a prosthetic group. This means that [[iron]] availability directly controls pathway flux. In iron-overloaded inflammatory states -- precisely the conditions created by metal-driven [[dysbiosis]] -- IDO activity increases, amplifying the diversion of tryptophan away from serotonin and toward kynurenine metabolites.
 
 ## The Metabolite Cascade
 
@@ -78,7 +78,7 @@ The kynurenine pathway is metal-dependent at multiple nodes:
 - QUIN as iron chelator: Quinolinic acid forms redox-active iron complexes that generate hydroxyl radicals via Fenton chemistry, amplifying [[oxidative-stress]]
 - Picolinic acid: An endogenous chelator that binds iron, zinc, and copper at the pathway terminus
 
-This metal dependency means that the kynurenine pathway does not merely respond to inflammation -- it responds to the specific metal landscape of the inflammatory environment. Metal-driven [[dysbiosis]] that elevates iron and drives inflammation simultaneously provides the substrate (heme-iron for IDO) and the signal (IFN-gamma) to maximally activate the neurotoxic arm of the pathway.
+This metal dependency means that the kynurenine pathway does not merely respond to inflammation -- it responds to the specific metal landscape of the inflammatory environment. Metal-driven dysbiosis that elevates iron and drives inflammation simultaneously provides the substrate (heme-iron for IDO) and the signal (IFN-gamma) to maximally activate the neurotoxic arm of the pathway.
 
 ## Cross-References
 

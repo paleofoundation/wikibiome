@@ -40,7 +40,7 @@ Despite differing target organs and binding preferences, toxic heavy metals conv
 1. ROS generation and [[oxidative-stress]]: Depletion of GSH, SOD, CAT, GPx; lipid peroxidation.
 2. Sulfhydryl group binding: Inactivation of enzymes dependent on -SH groups.
 3. [[DNA-damage]]: Strand breaks, 8-OHdG adducts, genomic instability.
-4. [[dysbiosis]]: Selective killing of SCFA-producing commensals; enrichment of metal-tolerant pathobionts; barrier breakdown increasing further metal absorption [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
+4. dysbiosis: Selective killing of SCFA-producing commensals; enrichment of metal-tolerant pathobionts; barrier breakdown increasing further metal absorption [[anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors]].
 5. [[inflammation]]: Proinflammatory cytokine induction (TNF-alpha, IL-6, IL-8); [[nf-kappa-b]] activation.
 6. [[mis-metallation]]: Displacement of essential metals from enzyme active sites (e.g., Cd replacing Zn, Pb replacing Ca).
 

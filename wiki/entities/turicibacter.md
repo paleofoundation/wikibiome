@@ -76,7 +76,7 @@ The picture is complex:
 - The discrepancy may reflect the difference between causal (MR) and observational findings, or treatment effects in observational cohorts
 
 ### Multiple Sclerosis / EAE
-*Turicibacter* is positively correlated with experimental autoimmune encephalomyelitis (EAE) severity in mice [[libbey-2018-diet-microbiota-eae]], consistent with a pro-inflammatory role in autoimmune neuroinflammation. Anti-CD20 B-cell depletion therapy in MS reverses the dysbiosis pattern including *Turicibacter* abundance.
+*Turicibacter* is positively correlated with experimental autoimmune encephalomyelitis (EAE) severity in mice [[libbey-2018-diet-microbiota-eae]], consistent with a pro-inflammatory role in autoimmune neuroinflammation. Anti-CD20 B-cell depletion therapy in MS reverses the [[dysbiosis]] pattern including *Turicibacter* abundance.
 
 ### Atrial Fibrillation (Protective)
 Paradoxically, *Turicibacter* is protective against atrial fibrillation (OR = 0.904) [[dai-2024-bidirectional-mr-gut-microbiota-cvd]], showing that cardiovascular effects are outcome-specific.

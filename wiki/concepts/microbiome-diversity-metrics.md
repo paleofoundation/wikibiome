@@ -26,7 +26,7 @@ Alpha diversity measures the diversity within a single sample. Three dimensions:
 - Evenness (how evenly distributed): Pielou's J.
 - Combined (richness + evenness): Shannon index (most commonly reported in this wiki), Simpson index (probability two random sequences are different species).
 
-Clinical pattern: Reduced alpha diversity is the most consistent microbiome finding across disease states — IBD, CRC, depression, schizophrenia, ASD, obesity, CVD, and endometriosis all show lower Shannon indices compared to healthy controls. Oral alpha diversity is inversely associated with breast cancer risk (OR 0.86 per SD) [[wu-2022-oral-fecal-microbiome-breast-cancer-ghana]]. However, reduced diversity is not always pathological — the healthy vaginal microbiome is naturally low-diversity (Lactobacillus-dominant), and high vaginal diversity indicates dysbiosis.
+Clinical pattern: Reduced alpha diversity is the most consistent microbiome finding across disease states — IBD, CRC, depression, schizophrenia, ASD, obesity, CVD, and endometriosis all show lower Shannon indices compared to healthy controls. Oral alpha diversity is inversely associated with breast cancer risk (OR 0.86 per SD) [[wu-2022-oral-fecal-microbiome-breast-cancer-ghana]]. However, reduced diversity is not always pathological — the healthy vaginal microbiome is naturally low-diversity (Lactobacillus-dominant), and high vaginal diversity indicates [[dysbiosis]].
 
 ## Beta Diversity — Between-Sample
 
@@ -48,4 +48,4 @@ Visualized via PCoA, NMDS, or PERMANOVA. Disease vs. control groups typically sh
 
 - [[16s-rrna-sequencing]] — primary method generating diversity metrics
 - [[shotgun-metagenomics]] — provides functional diversity beyond taxonomic
-- [[dysbiosis]] — reduced alpha diversity as hallmark
+- dysbiosis — reduced alpha diversity as hallmark

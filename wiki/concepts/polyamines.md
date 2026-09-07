@@ -71,7 +71,7 @@ Polyamines have a dual role in cancer biology:
 - Anti-tumorigenic: Spermidine-modified pullulan reduces the immunosuppressive tumor microenvironment [[hanus-2021-immune-microbiota-metabolites-crc-triad]].
 - Polyamine biosynthesis is enriched in ketogenic diet-fed mice with accelerated ovarian cancer growth [[alhilli-2025-dietary-fat-gut-microbiome-ovarian-cancer-mouse]].
 
-The dual nature parallels many microbial metabolites: beneficial at physiological concentrations, harmful when dysbiosis drives overproduction or when the wrong cell types are exposed.
+The dual nature parallels many microbial metabolites: beneficial at physiological concentrations, harmful when [[dysbiosis]] drives overproduction or when the wrong cell types are exposed.
 
 ## Metal Connections
 

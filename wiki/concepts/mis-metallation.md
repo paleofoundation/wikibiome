@@ -63,7 +63,7 @@ Blood lead levels above 10 ug/dL affect IQ in children, reflecting the sensitivi
 
 ### Toxic Metals Competing with Zinc in Autism Spectrum Disorders
 
-In ASD, a systematic pattern of metal dyshomeostasis has been documented: elevated toxic metals (Hg, Cd, Pb) co-occurring with zinc deficiency. The proposed unifying mechanism is that toxic metals reduce zinc bioavailability by competing for protein binding sites, effectively mimicking zinc deficiency even when dietary zinc intake is adequate. This competitive displacement produces overlapping gut pathologies -- intestinal barrier dysfunction, increased permeability, gut inflammation, and microbiota dysbiosis -- that may contribute to the 30-70% prevalence of GI disturbances in children with ASD.
+In ASD, a systematic pattern of metal dyshomeostasis has been documented: elevated toxic metals (Hg, Cd, Pb) co-occurring with zinc deficiency. The proposed unifying mechanism is that toxic metals reduce zinc bioavailability by competing for protein binding sites, effectively mimicking zinc deficiency even when dietary zinc intake is adequate. This competitive displacement produces overlapping gut pathologies -- intestinal barrier dysfunction, increased permeability, gut inflammation, and microbiota [[dysbiosis]] -- that may contribute to the 30-70% prevalence of GI disturbances in children with ASD.
 
 ### Metal Displacement in Thyroid Hormone Metabolism
 

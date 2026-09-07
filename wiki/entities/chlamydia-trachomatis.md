@@ -77,7 +77,7 @@ The vaginal microbiome determines *C. trachomatis* susceptibility and disease ou
 
 - [[lactobacillus-crispatus]] dominance — Protective. *L. crispatus* produces high levels of D-lactic acid and hydrogen peroxide, maintaining low vaginal pH and directly inhibiting *C. trachomatis* EB infectivity. Women with *L. crispatus*-dominant communities have lower CT acquisition and clearance rates.
 - [[lactobacillus-iners]] dominance — Permissive. In women with tubal infertility and CT infection, the vaginal microbiota was *L. iners*-dominated rather than *L. crispatus*-dominated, with significantly lower Shannon diversity [[chen-2021-chlamydia-vaginal-microbiota-tubal-infertility]]. *L. iners* produces only L-lactic acid (less potent than D-lactic acid) and generates less H2O2.
-- BV-associated dysbiosis — *Prevotella*, *Gardnerella*, and *Atopobium* dominance provides indole (rescuing CT tryptophan starvation) and reduces lactic acid defense.
+- BV-associated [[dysbiosis]] — *Prevotella*, *Gardnerella*, and *Atopobium* dominance provides indole (rescuing CT tryptophan starvation) and reduces lactic acid defense.
 
 ## Conditions Associated
 

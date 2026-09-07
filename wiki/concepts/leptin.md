@@ -22,7 +22,7 @@ Leptin is an adipokine (hormone produced by adipose tissue) that signals satiety
 
 ## Microbiome-Leptin Axis
 
-- Dysbiosis → [[endotoxemia]] → chronic low-grade inflammation → impaired leptin receptor signaling → leptin resistance → overeating → obesity → more adipose → more leptin → deeper resistance.
+- [[dysbiosis]] → [[endotoxemia]] → chronic low-grade inflammation → impaired leptin receptor signaling → leptin resistance → overeating → obesity → more adipose → more leptin → deeper resistance.
 - SCFAs (especially propionate) stimulate leptin secretion from adipocytes via GPR41.
 - Heavy metal exposure ([[cadmium]], [[lead]]) disrupts adipose function and leptin signaling [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - High-fat diet alters gut microbiota and leptin/estrogen signaling in precocious puberty models [[wu-2025-high-fat-diet-gut-microbiota-precocious-puberty]].

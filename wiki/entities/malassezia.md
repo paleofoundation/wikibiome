@@ -40,7 +40,7 @@ A genus of lipophilic basidiomycete yeasts that is the dominant fungus on human 
 ### Hypertension
 - *Malassezia* abundance increases progressively from normotensive to pre-hypertensive to hypertensive subjects (significant between HTN and NT) [[zou-2022-mycobiome-dysbiosis-hypertension-light-chains]].
 - Positively associated with immunoglobulin light chain kappa in pre-HTN (r=0.510, P=0.044) and both kappa and lambda in HTN, suggesting immune activation by Malassezia antigens.
-- Fungal [[dysbiosis]] detected already at the pre-hypertension stage, suggesting mycobiome changes precede clinical hypertension.
+- Fungal dysbiosis detected already at the pre-hypertension stage, suggesting mycobiome changes precede clinical hypertension.
 
 ### Broader Cardiometabolic Disease
 - Enriched in HTN+CKD comorbidity (18.71% of fungal community vs lower in controls) [[qiu-2023-gut-mycobiome-hypertension-ckd]].
@@ -74,7 +74,7 @@ A genus of lipophilic basidiomycete yeasts that is the dominant fungus on human 
 - [[candida-albicans]] -- positively correlated; both enriched in disease mycobiomes
 - [[saccharomyces]] -- co-occurring in gut mycobiome; both altered in CVD
 - [[inflammation]] -- lipase-mediated oleic acid release; Dectin-1/TLR2 activation
-- [[dysbiosis]] -- fungal dysbiosis precedes clinical hypertension
+- dysbiosis -- fungal dysbiosis precedes clinical hypertension
 - [[gut-metal-microbiome]] -- indirect metal interactions; heavy metals may shift bacterial communities that normally suppress Malassezia
 - [[roseburia]] -- negatively correlated in IBD; bacterial-fungal competitive dynamics
 - [[biofilm]] -- forms biofilms on skin; potential for gut biofilm formation

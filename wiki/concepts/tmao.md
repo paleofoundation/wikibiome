@@ -67,7 +67,7 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 
 ## Metal Connections
 
-- Metal-induced [[dysbiosis]] enriches TMA-producing Gammaproteobacteria (Enterobacteriaceae) while depleting protective SCFA producers, potentially shifting the metabolite balance toward TMAO.
+- Metal-induced dysbiosis enriches TMA-producing Gammaproteobacteria (Enterobacteriaceae) while depleting protective SCFA producers, potentially shifting the metabolite balance toward TMAO.
 - [[hungatella]] hathewayi, a major TMA producer, is metal-tolerant and enriched in dysbiotic states.
 - TMAO and [[short-chain-fatty-acids]] represent opposing arms of microbiome metabolite output: metals push the balance from protective SCFAs toward harmful TMAO.
 
@@ -91,6 +91,6 @@ TMA is absorbed from the gut into portal circulation and transported to the live
 - [[short-chain-fatty-acids]] -- opposing metabolite arm; metal-driven dysbiosis shifts balance toward TMAO
 - [[hungatella]] -- major TMA-producing genus
 - [[inflammation]] -- TMAO activates NF-kB and NLRP3 inflammasome
-- [[dysbiosis]] -- TMAO production reflects dysbiotic community composition
+- dysbiosis -- TMAO production reflects dysbiotic community composition
 - [[hypertension]] -- TMAO contributes to vascular remodeling and BP elevation
 - [[alzheimers-disease]] -- TMAO crosses BBB and is elevated in AD CSF

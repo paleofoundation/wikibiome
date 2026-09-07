@@ -67,7 +67,7 @@ Heavy metals (Cd, Pb, Hg, As, Ni) selectively eliminate butyrate-producing bacte
 ## See Also
 
 - [[short-chain-fatty-acids]] -- full SCFA family (acetate, propionate, butyrate)
-- [[dysbiosis]] -- the consequence of butyrate producer loss
+- dysbiosis -- the consequence of butyrate producer loss
 - [[epigenetic-modifications]] -- HDAC inhibition as epigenetic mechanism
 - [[hypoxic-signaling]] -- butyrate's role in maintaining colonic hypoxia
 

@@ -57,7 +57,7 @@ Elevated hepcidin during infection represents the host INTENTIONALLY restricting
 
 ## Clinical Significance
 
-Hepcidin-guided iron assessment has been proposed as a way to distinguish functional iron withholding from true deficiency: supplementing iron when hepcidin is high is at best ineffective and at worst feeds pathogens and worsens dysbiosis. This distinction is not reflected in standard iron panels, which do not include hepcidin measurement.
+Hepcidin-guided iron assessment has been proposed as a way to distinguish functional iron withholding from true deficiency: supplementing iron when hepcidin is high is at best ineffective and at worst feeds pathogens and worsens [[dysbiosis]]. This distinction is not reflected in standard iron panels, which do not include hepcidin measurement.
 
 ## Key Sources
 

@@ -30,7 +30,7 @@ PMS exists on a spectrum with its severe form, [[pmdd]] (premenstrual dysphoric 
 
 The proposed gut-PMS axis operates through:
 
-1. Estrogen recirculation: The [[estrobolome]] -- the gut bacterial community capable of deconjugating estrogen metabolites via [[beta-glucuronidase]] -- modulates circulating estrogen levels. Dysbiosis-driven alterations in estrobolome activity can amplify or dampen the hormonal fluctuations that drive PMS symptoms.
+1. Estrogen recirculation: The [[estrobolome]] -- the gut bacterial community capable of deconjugating estrogen metabolites via [[beta-glucuronidase]] -- modulates circulating estrogen levels. [[dysbiosis]]-driven alterations in estrobolome activity can amplify or dampen the hormonal fluctuations that drive PMS symptoms.
 
 2. Serotonin metabolism: The gut produces >90% of the body's [[serotonin]]. Dysbiotic communities that divert tryptophan toward [[kynurenine]] rather than serotonin may worsen PMS-related mood symptoms, paralleling the mechanism in [[pmdd]].
 

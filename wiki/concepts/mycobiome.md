@@ -63,6 +63,6 @@ The mycobiome does not exist in isolation. Fungi and bacteria interact through:
 ## See Also
 
 - [[gut-microbiome]] -- the broader microbial community
-- [[dysbiosis]] -- microbial community disruption
+- dysbiosis -- microbial community disruption
 - [[siderophores-metallophores]] -- fungal iron acquisition
 - [[biofilm]] -- mixed-kingdom biofilm formation

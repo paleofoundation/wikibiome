@@ -25,7 +25,7 @@ wikipedia_differentiation: "Cadmium-TLR4-NF-kB pathway driving diabetic nephropa
 
 ## Overview
 
-Diabetic kidney disease (DKD), also known as diabetic nephropathy, is the leading cause of end-stage renal disease (ESRD) worldwide, affecting 30-40% of patients with [[type-2-diabetes]] and [[type-1-diabetes]]. DKD is defined by progressive albuminuria, declining glomerular filtration rate (GFR), and ultimately renal failure requiring dialysis or transplantation. It represents the convergence of two conditions that individually disrupt the gut microbiome -- diabetes and [[chronic-kidney-disease]] -- creating a compounded dysbiosis-metal-inflammation cycle.
+Diabetic kidney disease (DKD), also known as diabetic nephropathy, is the leading cause of end-stage renal disease (ESRD) worldwide, affecting 30-40% of patients with [[type-2-diabetes]] and [[type-1-diabetes]]. DKD is defined by progressive albuminuria, declining glomerular filtration rate (GFR), and ultimately renal failure requiring dialysis or transplantation. It represents the convergence of two conditions that individually disrupt the gut microbiome -- diabetes and [[chronic-kidney-disease]] -- creating a compounded [[dysbiosis]]-metal-inflammation cycle.
 
 In the WikiBiome framework, DKD is where the [[gut-kidney-axis]] meets the metabolic syndrome signature, and where cadmium toxicity intersects with hyperglycemia-driven microvascular damage.
 

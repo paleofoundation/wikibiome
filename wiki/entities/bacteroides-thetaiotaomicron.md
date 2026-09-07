@@ -23,7 +23,7 @@ pathogenic_potential: commensal
 
 Bacteroides thetaiotaomicron is one of the most abundant and metabolically versatile commensals of the human gut, routinely cited as a model organism for studying host-microbe symbiosis. Its genome was one of the first human gut bacterial genomes fully sequenced, and subsequent functional work has made it the canonical example of a glycobiome specialist — an organism whose evolutionary success rests on its ability to harvest carbohydrates that the host itself cannot digest. It is a Gram-negative obligate anaerobe in the family *Bacteroidaceae* within the dominant *Bacteroides* genus of the phylum *Bacteroidota*.
 
-*B. thetaiotaomicron* is unusual among commensals in the breadth of experimental evidence supporting its role: gnotobiotic colonization studies, transcriptomic profiling of polysaccharide utilization, and mechanistic dissection of host-microbe signaling have each placed it at the center of our understanding of gut ecology. Its decline is a consistent marker of dysbiosis across multiple chronic inflammatory and metabolic conditions.
+*B. thetaiotaomicron* is unusual among commensals in the breadth of experimental evidence supporting its role: gnotobiotic colonization studies, transcriptomic profiling of polysaccharide utilization, and mechanistic dissection of host-microbe signaling have each placed it at the center of our understanding of gut ecology. Its decline is a consistent marker of [[dysbiosis]] across multiple chronic inflammatory and metabolic conditions.
 
 ## Metabolic Capabilities and Glycan Utilization
 

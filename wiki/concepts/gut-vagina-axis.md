@@ -36,7 +36,7 @@ Gut metal ecology indirectly influences vaginal health. Iron-driven expansion of
 
 ## Clinical Significance
 
-Recurrent bacterial vaginosis (BV) may partly originate in gut dysbiosis. Women with gut microbiomes depleted in Lactobacillus species have higher BV recurrence rates. This reframes BV treatment beyond vaginal antibiotics toward restoring gut-vaginal ecosystem integrity. [[fannyhessea-vaginae]] is a BV-associated vaginal organism, but the cited evidence here does not establish gut-to-vagina translocation for that species.
+Recurrent bacterial vaginosis (BV) may partly originate in gut [[dysbiosis]]. Women with gut microbiomes depleted in Lactobacillus species have higher BV recurrence rates. This reframes BV treatment beyond vaginal antibiotics toward restoring gut-vaginal ecosystem integrity. [[fannyhessea-vaginae]] is a BV-associated vaginal organism, but the cited evidence here does not establish gut-to-vagina translocation for that species.
 
 ## Cross-References
 

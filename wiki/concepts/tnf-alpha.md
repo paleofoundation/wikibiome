@@ -55,7 +55,7 @@ Heavy metals are potent inducers of TNF-alpha:
 - LPS/TLR4: Gram-negative bacterial LPS is the primary microbial trigger for TNF-alpha production via TLR4 → NF-kB signaling.
 - Endometriosis: Peritoneal TNF-alpha dramatically elevated (87.29 vs. 37.06 pg/mL, p<0.05) alongside altered peritoneal flora. TNF-alpha had the highest diagnostic AUC (0.903) for endometriosis with infertility [[wang-2018-inflammatory-cytokines-peritoneal-flora-endometriosis-infertility]].
 - ASD: TNF-alpha elevated (6.92 vs. 3.91, p=0.003) alongside dysbiotic gut microbiota enrichment of Clostridium and Desulfovibrio [[cao-2021-dysbiotic-gut-microbiota-cytokine-profile-asd]].
-- GERD: Esophageal dysbiosis activates TLR2/TLR4 → TNF-alpha production [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]].
+- GERD: Esophageal [[dysbiosis]] activates TLR2/TLR4 → TNF-alpha production [[chen-2024-esophageal-dysbiosis-tlr2-barrier-integrity-gerd]].
 
 ### Commensals Suppress TNF-alpha
 

@@ -38,7 +38,7 @@ The identical cascade is triggered by microbial LPS via TLR4 — making metal-dr
 ## Microbiome Connection
 
 - LPS/TLR4: Gram-negative bacterial LPS activates TLR4 → NF-kB → COX-2 → PGE₂. [[Endotoxemia]] from gut barrier failure provides chronic LPS exposure → chronic COX-2 activation [[gualtero-2023-oral-microbiome-inflammation-vascular-diseases-review]].
-- Periodontal pathogens: [[porphyromonas-gingivalis]] LPS and [[gingipains]] activate COX-2 in gingival and vascular tissue, linking oral dysbiosis to cardiovascular inflammation [[gualtero-2023-oral-microbiome-inflammation-vascular-diseases-review]].
+- Periodontal pathogens: [[porphyromonas-gingivalis]] LPS and [[gingipains]] activate COX-2 in gingival and vascular tissue, linking oral [[dysbiosis]] to cardiovascular inflammation [[gualtero-2023-oral-microbiome-inflammation-vascular-diseases-review]].
 - Endometriosis: COX-2-derived PGE₂ drives endometriotic lesion proliferation, angiogenesis, and pain. Fecal metabolomics show altered arachidonic acid metabolism in endometriosis [[ni-2020-fecal-metabolomics-gut-microbiota-endometriosis-mice]].
 - Schizophrenia: COX-2 inhibition (celecoxib) as adjunctive therapy in schizophrenia — targeting the inflammation-neurodegeneration axis [[ahmed-2024-infections-inflammation-schizophrenia-review]].
 
@@ -46,7 +46,7 @@ The identical cascade is triggered by microbial LPS via TLR4 — making metal-dr
 
 NSAIDs block COX-2, reducing PGE₂ and inflammation. But they also:
 - Damage gut epithelium → increased [[intestinal-permeability]] → more LPS translocation → more COX-2 activation — a paradoxical feed-forward loop.
-- Disrupt the gut microbiome → [[dysbiosis]] → loss of [[colonization-resistance]].
+- Disrupt the gut microbiome → dysbiosis → loss of [[colonization-resistance]].
 - Block prostaglandin-dependent mucosal protection in the stomach and small intestine.
 
 This is why [[aspirin]] and ibuprofen reduce inflammation systemically while causing GI injury locally — the microbiome pays the price for COX-2 inhibition.

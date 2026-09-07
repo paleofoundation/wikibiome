@@ -30,7 +30,7 @@ signature_page: "[[anxiety-signature]]"
 
 ## Overview
 
-Anxiety disorders are the most prevalent mental health conditions globally, affecting ~280 million people (~4.8% of the world population). They encompass generalized anxiety disorder (GAD), social anxiety, panic disorder, and phobias. In the WikiBiome context, anxiety frequently appears as a comorbidity across conditions with documented microbiome dysbiosis -- suggesting shared pathophysiology through the [[gut-brain-axis]].
+Anxiety disorders are the most prevalent mental health conditions globally, affecting ~280 million people (~4.8% of the world population). They encompass generalized anxiety disorder (GAD), social anxiety, panic disorder, and phobias. In the WikiBiome context, anxiety frequently appears as a comorbidity across conditions with documented microbiome [[dysbiosis]] -- suggesting shared pathophysiology through the [[gut-brain-axis]].
 
 The gut-brain axis connects intestinal microbiome composition to anxiety through three primary routes: the vagus nerve (direct neural signaling), neuroactive metabolites ([[serotonin]], [[kynurenine]], GABA, SCFAs), and immune-inflammatory pathways (cytokines, [[tlr4]] activation).
 

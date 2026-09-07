@@ -78,7 +78,7 @@ Dietary polyphenols reduce intestinal inflammation in IBD models through NF-kB s
 Polyphenol-rich diets are associated with reduced cardiovascular risk. Mechanisms include LDL oxidation inhibition, endothelial function improvement, and anti-platelet effects. The microbiome-dependent metabolite IPA (from [[tryptophan]]) and urolithin A (from ellagitannins) may mediate some of these effects [[shivashankara-2010-dietary-polyphenols-bioavailability-cvd]].
 
 ### Multiple Sclerosis
-Polyphenols activate the Nrf2 pathway, upregulating antioxidant defenses and suppressing neuroinflammation. Their microbiome-modulating effects may improve the depleted SCFA production characteristic of MS dysbiosis [[bucciero-2026-diet-ms-oxidative-stress-nrf2]].
+Polyphenols activate the Nrf2 pathway, upregulating antioxidant defenses and suppressing neuroinflammation. Their microbiome-modulating effects may improve the depleted SCFA production characteristic of MS [[dysbiosis]] [[bucciero-2026-diet-ms-oxidative-stress-nrf2]].
 
 ## Cross-References
 

@@ -54,7 +54,7 @@ Metal metabolism shifts: Under anaerobiosis:
 
 Gut diseases with mucosal hypoxia:
 
-- [[crohns-disease]]: Chronic inflammation → epithelial barrier disruption → anoxic mucosa → [[escherichia-coli|AIEC]]-dominant dysbiosis
+- [[crohns-disease]]: Chronic inflammation → epithelial barrier disruption → anoxic mucosa → [[escherichia-coli|AIEC]]-dominant [[dysbiosis]]
 - [[ulcerative-colitis|ulcerative colitis]]: Similar mechanism; hypoxia enables [[clostridioides-difficile|C. difficile]] proliferation in severe cases
 - [[colorectal-cancer]]: Dysplastic lesions are hypoxic; HIF-1α activates [[inflammation|pd-l1]], enabling immune evasion; tumors select for [[fusobacterium-nucleatum|Fusobacterium]] and other anaerobes
 - [[obesity]]: Metabolic endotoxemia from Gram-negative bacteria correlates with local adipose tissue hypoxia

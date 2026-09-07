@@ -41,7 +41,7 @@ Traditional probiotic genera (Lactobacillus, Bifidobacterium, Bacillus, Clostrid
 
 ## SNAS and Nickel
 
-A [[low-nickel-diet]] combined with targeted probiotics is significantly more effective in restoring gut eubiosis than diet alone in SNAS patients (72.73% vs 41.38% shifted to eubiosis, p=0.026) [[lombardi-2020-snas-probiotics-dysbiosis]]. Fermentative [[dysbiosis]] (indicated by elevated urinary indican) was the predominant type (64.71%), suggesting the small bowel microbiota is primarily perturbed. Probiotic formulations were matched to dysbiosis type: Lactobacilli for fermentative, Bifidobacteria for putrefactive, and broad-spectrum multi-strain for mixed. Benefits were maintained only 4-6 weeks after treatment ended, after which pre-treatment symptoms gradually reappeared.
+A [[low-nickel-diet]] combined with targeted probiotics is significantly more effective in restoring gut eubiosis than diet alone in SNAS patients (72.73% vs 41.38% shifted to eubiosis, p=0.026) [[lombardi-2020-snas-probiotics-dysbiosis]]. Fermentative dysbiosis (indicated by elevated urinary indican) was the predominant type (64.71%), suggesting the small bowel microbiota is primarily perturbed. Probiotic formulations were matched to dysbiosis type: Lactobacilli for fermentative, Bifidobacteria for putrefactive, and broad-spectrum multi-strain for mixed. Benefits were maintained only 4-6 weeks after treatment ended, after which pre-treatment symptoms gradually reappeared.
 
 ## PCOS
 
@@ -85,7 +85,7 @@ The NixA transporter is particularly relevant to nickel-targeted engineered prob
 ## Connections
 
 - [[gut-metal-microbiome]] -- probiotics operate within the broader gut-metal-microbiome axis
-- [[dysbiosis]] -- probiotics aim to reverse metal-induced or disease-associated dysbiosis
+- dysbiosis -- probiotics aim to reverse metal-induced or disease-associated dysbiosis
 - [[glutathione]] -- probiotic supplementation increases GSH levels in PCOS and MS trials
 - [[cadmium]] -- best-characterized probiotic detoxification model (CCFM8610)
 - [[nickel]] -- SNAS treatment, NixA transporter for GEMs

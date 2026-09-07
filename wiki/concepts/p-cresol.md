@@ -14,7 +14,7 @@ platform: wikibiome
 
 # p-Cresol
 
-A microbial metabolite produced by gut bacteria through tyrosine fermentation that has emerged as one of the most consistent biomarkers linking gut dysbiosis to neurological and renal disease. p-Cresol (4-methylphenol) is a simple aromatic compound, but its effects are anything but simple: it inhibits dopamine beta-hydroxylase, damages kidney tubular cells, disrupts sulfation metabolism, and crosses the blood-brain barrier. Its elevation in autism spectrum disorder and chronic kidney disease illustrates how gut microbial metabolic output directly shapes distant organ pathology.
+A microbial metabolite produced by gut bacteria through tyrosine fermentation that has emerged as one of the most consistent biomarkers linking gut [[dysbiosis]] to neurological and renal disease. p-Cresol (4-methylphenol) is a simple aromatic compound, but its effects are anything but simple: it inhibits dopamine beta-hydroxylase, damages kidney tubular cells, disrupts sulfation metabolism, and crosses the blood-brain barrier. Its elevation in autism spectrum disorder and chronic kidney disease illustrates how gut microbial metabolic output directly shapes distant organ pathology.
 
 ## Production and Metabolism
 
@@ -90,5 +90,5 @@ While p-cresol itself is not a metal-related molecule, its production and effect
 - [[dopamine]] -- p-cresol inhibits dopamine beta-hydroxylase
 - [[blood-brain-barrier]] -- p-cresol crosses BBB
 - [[butyrate]] -- saccharolytic (butyrate) vs proteolytic (p-cresol) fermentation balance
-- [[dysbiosis]] -- proteolytic shift increases p-cresol production
+- dysbiosis -- proteolytic shift increases p-cresol production
 - [[microbiome-derived-metabolites]] -- p-cresol as key microbial metabolite

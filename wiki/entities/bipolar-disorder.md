@@ -82,7 +82,7 @@ Lithium remains the gold standard for bipolar disorder treatment, yet its microb
 
 The bipolar gut-brain axis involves:
 
-1. Microbiome dysbiosis → reduced SCFA production → impaired gut barrier
+1. Microbiome [[dysbiosis]] → reduced SCFA production → impaired gut barrier
 2. Barrier dysfunction → LPS translocation → systemic [[inflammation]]
 3. Neuroinflammation → microglial activation, altered neurotransmitter synthesis
 4. Tryptophan diversion → IDO/TDO activation shunts tryptophan from serotonin toward kynurenine pathway

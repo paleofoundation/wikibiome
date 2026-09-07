@@ -24,7 +24,7 @@ last_substantive_update: 2026-04-22
 
 Beta-glucuronidase (β-glucuronidase, EC 3.2.1.31) is an enzyme that catalyzes the hydrolysis of glucuronidated compounds, cleaving the β-1,4-glycosidic bond between a sugar and a glucuronic acid group. In the microbiome, beta-glucuronidase is the key enzyme of the [[estrobolome]] — the subset of microbial genes encoding enzymes that deconjugate glucuronidated estrogen metabolites, enabling estrogen reabsorption and recirculation.
 
-Beta-glucuronidase is produced by a wide range of Gram-positive and Gram-negative bacteria, but certain pathogens ([[escherichia-coli|E. coli]], [[bacteroides-fragilis|B. fragilis]], [[eggerthella-lenta|E. lenta]]) express particularly high levels, creating functional dysbiosis in estrogen-dependent conditions.
+Beta-glucuronidase is produced by a wide range of Gram-positive and Gram-negative bacteria, but certain pathogens ([[escherichia-coli|E. coli]], [[bacteroides-fragilis|B. fragilis]], [[eggerthella-lenta|E. lenta]]) express particularly high levels, creating functional [[dysbiosis]] in estrogen-dependent conditions.
 
 ## Mechanism
 

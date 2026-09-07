@@ -62,7 +62,7 @@ In the healthy gut, *E. faecium* is a minor community member. Its ecological sig
 | Context | Role |
 |---------|------|
 | Hospital-acquired infections | VRE bloodstream infections; urinary tract infections |
-| Post-antibiotic dysbiosis | Opportunistic expansion after broad-spectrum antibiotic use |
+| Post-antibiotic [[dysbiosis]] | Opportunistic expansion after broad-spectrum antibiotic use |
 | [[type-2-diabetes]] metformin response | Enriched in metformin responders (along with *Odoribacter* and *Lactococcus*) |
 
 ## Interkingdom Relationships

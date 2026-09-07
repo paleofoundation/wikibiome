@@ -69,6 +69,6 @@ pathogenic_potential: commensal
 - [[endometriosis]] -- enriched in endometriosis mouse models
 - [[inflammatory-bowel-disease]] -- altered in IBD as a Proteobacteria member
 - -- involved in bile acid transformation pathways
-- [[dysbiosis]] -- responsive to dietary interventions and probiotic supplementation
+- dysbiosis -- responsive to dietary interventions and probiotic supplementation
 - -- emerging role in tryptophan metabolism and immune modulation
 - -- MR-linked to ApoB and LDL-C levels

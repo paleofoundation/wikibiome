@@ -75,7 +75,7 @@ A Gram-negative obligate anaerobe traditionally considered an oral commensal, bu
 ### Oral-to-Gut Translocation Pathways
 
 1. Oropharyngeal aspiration: Biofilm fragments, saliva, and bacteria aspirated during swallowing; colonize esophagus and proximal gut.
-2. Increased intestinal permeability: In IBD or dysbiosis, damaged epithelium allows bacterial translocation across mucosa.
+2. Increased intestinal permeability: In IBD or [[dysbiosis]], damaged epithelium allows bacterial translocation across mucosa.
 3. Impaired clearance: Reduced saliva flow or altered oral immunity enables *Leptotrichia* persistence and higher aspiration burden.
 
 ### Gut Colonization Mechanisms

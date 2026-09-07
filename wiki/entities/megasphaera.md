@@ -39,7 +39,7 @@ Megasphaera is a genus of obligate anaerobic, Gram-negative bacteria in the fami
 
 ## Vaginal Microbiome — BV Association
 
-Megasphaera is one of the BV-associated bacteria (BVAB) consistently enriched when Lactobacillus-dominant vaginal communities shift toward dysbiosis:
+Megasphaera is one of the BV-associated bacteria (BVAB) consistently enriched when Lactobacillus-dominant vaginal communities shift toward [[dysbiosis]]:
 
 - Part of the Gardnerella-Atopobium-Megasphaera-Prevotella-Sneathia consortium that characterizes bacterial vaginosis and Community State Type IV (CST-IV) vaginal microbiomes.
 - Enriched in HPV16-positive cervical microbiomes alongside Sneathia, Prevotella, and Atopobium [[yang-2020-vaginal-microbiome-hpv16-shotgun-metagenomics]].

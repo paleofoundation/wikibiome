@@ -61,7 +61,7 @@ The [[gut-brain-axis]] provides a route from environmental metal exposure to cen
 - Loss of SCFA producers compromises gut barrier and anti-inflammatory signaling.
 - LPS translocation activates systemic and central inflammation.
 - Alpha-synuclein aggregation may begin in the enteric nervous system and propagate to the brain via the vagus nerve (Braak hypothesis) [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- PD, AD, and ASD all feature characteristic gut dysbiosis patterns consistent with metal-driven shifts.
+- PD, AD, and ASD all feature characteristic gut [[dysbiosis]] patterns consistent with metal-driven shifts.
 
 ## The Aluminum Controversy
 
@@ -83,5 +83,5 @@ Aluminum accumulates in brain tissue in AD and is a documented neurotoxin, but i
 - [[iron]], [[copper]], [[zinc]], [[manganese]], [[lead]], [[aluminum]] -- metals implicated in neurodegeneration
 - [[glutathione]] -- depletion disables GPX4, enabling ferroptosis
 - [[inflammation]] -- microglial activation and neuroinflammation
-- [[dysbiosis]] -- gut microbial shifts associated with neurodegenerative disease
+- dysbiosis -- gut microbial shifts associated with neurodegenerative disease
 - [[developmental-metal-vulnerability]] -- early-life exposure and latent neurodegeneration

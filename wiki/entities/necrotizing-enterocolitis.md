@@ -79,7 +79,7 @@ This tissue-level evidence establishes that prior fecal microbiome studies of NE
 ### Two-Pattern NEC Dysbiosis
 
 Microbiome studies reveal two ecologically distinct pre-NEC patterns with different clinical timing [[till-2015-intestinal-microbiome-disruptions-nec-sbs-haec]]:
-- **Firmicutes-type dysbiosis** (Clostridia overabundance) → earlier NEC onset (days 7–21 of life)
+- **Firmicutes-type [[dysbiosis]]** (Clostridia overabundance) → earlier NEC onset (days 7–21 of life)
 - **Proteobacteria-type dysbiosis** (Enterobacteriaceae bloom) → later onset (days 19–39 of life)
 
 Notably, Clostridia abundance **decreases** with increasing NEC severity — non-toxigenic Clostridia may have a protective function whose loss marks a pathogenic tipping point [[till-2015-intestinal-microbiome-disruptions-nec-sbs-haec]].

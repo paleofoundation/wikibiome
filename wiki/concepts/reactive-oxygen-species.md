@@ -38,7 +38,7 @@ Heavy metals amplify ROS through multiple mechanisms:
 
 - Oxidative burst as antimicrobial weapon: Neutrophils and macrophages generate massive ROS to kill engulfed bacteria. Pathogens counter with SOD (superoxide dismutase), catalase, and thioredoxin.
 - Manganese-SOD: Mn-dependent SOD is the primary bacterial defense; host [[calprotectin]] sequesters Mn to disable this defense.
-- Gut ROS and dysbiosis: Metal-driven ROS in the gut damages epithelial cells, compromises barrier integrity, and selectively kills ROS-sensitive commensals while sparing ROS-tolerant pathobionts.
+- Gut ROS and [[dysbiosis]]: Metal-driven ROS in the gut damages epithelial cells, compromises barrier integrity, and selectively kills ROS-sensitive commensals while sparing ROS-tolerant pathobionts.
 - Male fertility: Gut microbiota-modulated oxidative stress affects spermatogenesis via the gut-testis axis [[kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility]].
 
 ## Cross-References

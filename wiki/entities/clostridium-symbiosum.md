@@ -127,7 +127,7 @@ Glucose → Pyruvate → Acetyl-CoA + Butyrate (via butyrate-CoA transferase)
 However, in CRC:
 
 - Butyrate becomes muted due to:
- - Low substrate availability (dysbiosis reduces total microbial fermentation)
+ - Low substrate availability ([[dysbiosis]] reduces total microbial fermentation)
  - Low pH microenvironment (lactic acid bacteria dominance; pH < 6) suppresses butyrate synthesis
  - Epithelial hypoxia-inducible factor (HIF) signaling disrupts butyrate sensing (GPR43/GPR109A)
  
@@ -166,7 +166,7 @@ This is a critical distinction: *C. symbiosum* in a healthy, diverse microbiome 
 - [[hepcidin]] – Host iron-withholding defense; suppresses *C. symbiosum*
 - [[inflammation]] – DCA/LCA-driven chronic inflammation; NF-κB activation
 - [[colorectal-cancer]] – Dramatically enriched in CRC; core driver taxon; member of oncogenic consortium
-- [[dysbiosis]] – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
+- dysbiosis – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
 - [[faecalibacterium-prausnitzii]] – Inverse relationship; *F. prausnitzii* suppression allows *C. symbiosum* expansion
 - [[parvimonas-micra]] – Co-enriched in CRC; biofilm partner
 - [[fusobacterium-nucleatum]] – Co-enriched in CRC; synergistic inflammation

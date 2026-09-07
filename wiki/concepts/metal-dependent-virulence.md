@@ -31,7 +31,7 @@ The most widespread Ni-dependent virulence factor. Catalyzes urea hydrolysis to 
 - [[proteus-mirabilis]]: Urease drives crystalline biofilm formation on urinary catheters, urinary stone formation, and UTI pathogenesis.
 - Ureaplasma spp.: Urease is genus-defining; ammonia contributes to proton motive force-driven ATP synthesis and struvite stone formation.
 - Eukaryotic pathogens: *Cryptococcus neoformans* uses urease for brain invasion. *Coccidioides posadasii* requires it for pulmonary infection severity. *C. gattii* also depends on urease.
-- NEC-associated pathogens: *E. coli*, *Klebsiella*, *Enterobacter*, *Citrobacter*, and *Ureaplasma* all deploy Ni-dependent urease in the preterm gut. Urease-generated ammonia raises gut pH, favoring Proteobacteria over acid-producing commensals like *Lactobacillus*, creating a positive feedback loop of dysbiosis [[pendergrass-2026-nickel-nec-preterm-gut]].
+- NEC-associated pathogens: *E. coli*, *Klebsiella*, *Enterobacter*, *Citrobacter*, and *Ureaplasma* all deploy Ni-dependent urease in the preterm gut. Urease-generated ammonia raises gut pH, favoring Proteobacteria over acid-producing commensals like *Lactobacillus*, creating a positive feedback loop of [[dysbiosis]] [[pendergrass-2026-nickel-nec-preterm-gut]].
 
 ### [NiFe] Hydrogenase
 

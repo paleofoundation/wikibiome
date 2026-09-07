@@ -102,7 +102,7 @@ Zinc-iron cross-talk:
 Zinc and immune function:
 - Host [[zinc]]-dependent enzymes (e.g., [[metal-homeostasis|zinc-finger]] transcription factors, thymulin) are required for Th1 differentiation and neutrophil recruitment
 - [[zinc]] deficiency → Th2 shift → reduced IFN-γ → reduced immune pressure on BFT-producing B. fragilis
-- This creates a vicious cycle: dysbiosis → [[zinc]] sequestration (nutritional immunity) → [[zinc]] deficiency → impaired Th1 → pathobiont escape
+- This creates a vicious cycle: [[dysbiosis]] → [[zinc]] sequestration (nutritional immunity) → [[zinc]] deficiency → impaired Th1 → pathobiont escape
 
 ## Connections
 

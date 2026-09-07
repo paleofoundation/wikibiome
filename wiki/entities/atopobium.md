@@ -62,7 +62,7 @@ Part of the dysbiotic vaginal-peritoneal microbiome signature in ovarian cancer 
 
 ## Endometriosis — Depletion Pattern
 
-Like [[megasphaera]] and [[gardnerella]], Atopobium is depleted in cervical samples of endometriosis patients [[ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis]] [[hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]] [[ser-2023-current-updates-microbiome-endometriosis-review]] [[shen-2022-vaginal-microecological-characteristics-endometriosis]]. This is significant because endometriosis is not simply "vaginal dysbiosis" — the cervical community shifts away from the BV consortium toward Enterobacteriaceae enrichment, representing a distinct ecological state.
+Like [[megasphaera]] and [[gardnerella]], Atopobium is depleted in cervical samples of endometriosis patients [[ata-2019-endobiota-study-vaginal-cervical-gut-microbiota-endometriosis]] [[hicks-2025-oral-vaginal-stool-microbial-signatures-endometriosis]] [[ser-2023-current-updates-microbiome-endometriosis-review]] [[shen-2022-vaginal-microecological-characteristics-endometriosis]]. This is significant because endometriosis is not simply "vaginal [[dysbiosis]]" — the cervical community shifts away from the BV consortium toward Enterobacteriaceae enrichment, representing a distinct ecological state.
 
 Genital tract studies in endometriosis consistently show reduced Atopobium [[hernandes-2020-microbiome-profile-deep-endometriosis]] [[miyashira-2022-microbiome-and-endometriosis]] [[chen-2020-microbiome-lower-genital-tract-endometriosis-chinese]].
 

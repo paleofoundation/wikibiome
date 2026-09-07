@@ -86,7 +86,7 @@ SCFAs regulate blood pressure through opposing receptor systems:
 ## Connections
 
 - [[gut-metal-microbiome]] -- the ecosystem where metal-driven SCFA depletion occurs
-- [[dysbiosis]] -- loss of SCFA producers is the functional consequence of dysbiosis
+- dysbiosis -- loss of SCFA producers is the functional consequence of dysbiosis
 - [[inflammation]] -- SCFA depletion removes anti-inflammatory brake (Tregs, HDAC inhibition)
 - [[gut-brain-axis]] -- SCFAs are key mediators of gut-to-brain signaling
 - [[ferroptosis]] -- butyrate depletion contributes to the gut-barrier failure arm of the ferroptosis cascade

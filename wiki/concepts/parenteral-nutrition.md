@@ -92,7 +92,7 @@ No enteral nutrition
 ### Short Bowel Syndrome
 - Long-term PN dependence
 - Chronic metal accumulation risk (Mn neurotoxicity, Cu hepatotoxicity)
-- Progressive gut atrophy and dysbiosis
+- Progressive gut atrophy and [[dysbiosis]]
 
 ### Critically Ill Adults
 - ICU patients on PN experience rapid microbiome shifts
@@ -125,5 +125,5 @@ No enteral nutrition
 - [[iron]] -- parenteral iron bypassing nutritional immunity
 - [[nutritional-immunity]] -- framework for evaluating parenteral metal delivery
 - [[saccharolytic-fermentation]] -- gut starved of substrates during PN
-- [[dysbiosis]] -- PN-driven microbiome disruption
+- dysbiosis -- PN-driven microbiome disruption
 - [[manganese]] -- neurotoxicity risk in long-term PN

@@ -83,7 +83,7 @@ An emerging area connecting iodine to the gut-thyroid axis [[gong-2024-iodine-gu
 
 - Excess iodine alters gut microbial composition — high iodine intake shifts microbiota toward increased [[enterobacteriaceae|Enterobacteriaceae]] and decreased [[lactobacillus|Lactobacillus]] and [[bifidobacterium|Bifidobacterium]]
 - This dysbiotic pattern mirrors the Hashimoto's disease microbiome signature
-- The gut microbiome modulates immune tolerance — dysbiosis may trigger the autoimmune response against TPO that defines [[hashimotos-thyroiditis]]
+- The gut microbiome modulates immune tolerance — [[dysbiosis]] may trigger the autoimmune response against TPO that defines [[hashimotos-thyroiditis]]
 - Thyroid hormones (T3, T4) regulate gut motility; hypothyroidism slows transit time, promoting bacterial overgrowth and further dysbiosis
 
 ## Dietary Considerations

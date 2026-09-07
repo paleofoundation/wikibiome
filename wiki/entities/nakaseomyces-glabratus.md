@@ -60,7 +60,7 @@ Like *C. albicans*, *C. glabrata* modulates its visibility to the immune system 
 
 ### In the Mycobiome of Type 2 Diabetes
 
-*C. glabrata* is detectable in the gut mycobiome of both healthy controls and type 2 diabetes patients ([[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]], case-control, n=41). A key finding from this study: in T2DM, the mycobiome explains most of the microbiome variance (12.5%) while bacteria explain only 10.4% -- a reversal of the normal pattern where bacteria dominate (64.2%). This suggests fungi including *C. glabrata* become primary ecological drivers in diabetic dysbiosis.
+*C. glabrata* is detectable in the gut mycobiome of both healthy controls and type 2 diabetes patients ([[al-bataineh-2023-multi-omics-microbiome-metabolome-t2d-fiber]], case-control, n=41). A key finding from this study: in T2DM, the mycobiome explains most of the microbiome variance (12.5%) while bacteria explain only 10.4% -- a reversal of the normal pattern where bacteria dominate (64.2%). This suggests fungi including *C. glabrata* become primary ecological drivers in diabetic [[dysbiosis]].
 
 ### Fluconazole Synergy
 

@@ -44,7 +44,7 @@ The [[tryptophan-metabolism]] pathway branches into [[serotonin]], [[kynurenine]
 Primary and secondary bile acid profiles reflect [[bile-acid-metabolism]] activity of gut bacteria. Deconjugation by BSH-producing organisms and 7-alpha-dehydroxylation are measurable metabolomic events.
 
 ### Amino Acids
-Branched-chain amino acids (BCAAs), aromatic amino acids, and their microbial derivatives (p-cresol, indoxyl sulfate, phenylacetylglutamine) serve as functional markers of dysbiosis.
+Branched-chain amino acids (BCAAs), aromatic amino acids, and their microbial derivatives (p-cresol, indoxyl sulfate, phenylacetylglutamine) serve as functional markers of [[dysbiosis]].
 
 ### Uremic Toxins
 Indoxyl sulfate, p-cresyl sulfate, TMAO -- microbially-derived metabolites that accumulate in [[chronic-kidney-disease]] and [[cardiovascular-disease]]. Produced primarily by [[proteobacteria]] and specific [[firmicutes]] genera.

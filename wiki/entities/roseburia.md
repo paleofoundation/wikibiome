@@ -43,7 +43,7 @@ Roseburia depletion is among the most reproducible microbiome findings in human 
 - Type 2 diabetes: depleted; inversely correlated with HbA1c and insulin resistance.
 - Chronic kidney disease: depleted across CKD progression, contributing to loss of SCFA-mediated renal protection [[tang-2023-gut-microbiome-tango-ckd-progression]] [[yasuno-2024-dysbiosis-gut-microbiota-ckd]] [[zhang-2023-metagenome-esrd-microbiome-uremic-toxins]].
 - Endometriosis: *Roseburia* sp. CAG:45 decreased in endometriosis [[perez-prieto-2024-gut-microbiome-endometriosis-1000-cohort]].
-- Parkinson's disease: depleted alongside other SCFA producers as part of the metal-driven dysbiosis framework [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[houser-2019-microbiome-inflammation-disease-progression-parkinsons]] [[sampson-2024-microbiome-signature-parkinsons-multicohort]].
+- Parkinson's disease: depleted alongside other SCFA producers as part of the metal-driven [[dysbiosis]] framework [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[houser-2019-microbiome-inflammation-disease-progression-parkinsons]] [[sampson-2024-microbiome-signature-parkinsons-multicohort]].
 - Schizophrenia: *Roseburia* is significantly depleted in schizophrenia patients (p=0.023), and its abundance is negatively correlated with fMRI regional homogeneity (ReHo) indices in the right superior temporal cortex, right middle temporal cortex, and left cuneus -- brain regions showing decreased ReHo in schizophrenia [[li-2021-gut-microbiome-brain-structure-function-schizophrenia]].
 
 ## Metal Sensitivity
@@ -75,6 +75,6 @@ Roseburia depletion is among the most reproducible microbiome findings in human 
 - [[parkinsons-disease]] -- depleted in metal-driven dysbiosis framework
 - [[iron]] -- Fe-S clusters essential for butyrate production; iron competition from pathogens
 - [[cadmium]] -- particularly sensitive to Cd-induced depletion
-- [[dysbiosis]] -- one of the most reliably depleted genera across disease states
+- dysbiosis -- one of the most reliably depleted genera across disease states
 - [[inflammation]] -- butyrate/HDAC/GPR109A anti-inflammatory axis
 - [[gut-metal-microbiome]] -- metal sensitivity makes it an early indicator of metal-induced dysbiosis

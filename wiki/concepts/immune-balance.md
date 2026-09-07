@@ -56,7 +56,7 @@ The gut microbiome is the largest immune organ by proxy:
 - Segmented filamentous bacteria (SFB) -- the canonical Th17 inducers in the gut. Their presence/absence shifts the Th17/Treg ratio.
 - Bacteroides fragilis -- polysaccharide A (PSA) activates TLR2 on Tregs, promoting IL-10 production.
 - Clostridia clusters IV and XIVa -- major butyrate producers whose depletion under metal stress compromises Treg induction.
-- Pathobionts (adherent-invasive E. coli, Klebsiella) -- expand under [[dysbiosis]] and drive Th1/Th17 responses.
+- Pathobionts (adherent-invasive E. coli, Klebsiella) -- expand under dysbiosis and drive Th1/Th17 responses.
 
 ## Disease-Specific Imbalances
 
@@ -74,7 +74,7 @@ The gut microbiome is the largest immune organ by proxy:
 Metals, microbiome, and immunity form an inseparable triad:
 
 1. Metals shift immune balance directly (Ni → Th1/Th17; Se → Treg)
-2. Metals cause [[dysbiosis]], removing microbial immune modulators
+2. Metals cause dysbiosis, removing microbial immune modulators
 3. Dysbiosis-driven [[inflammation]] alters metal handling (hepcidin → iron sequestration)
 4. Immune activation changes the gut environment, selecting for pathobionts
 

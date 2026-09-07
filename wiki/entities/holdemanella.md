@@ -59,7 +59,7 @@ In a randomized controlled trial of probiotic supplementation during thyroid hor
 
 - Inflammatory bowel disease -- Depleted in both Crohn's disease and ulcerative colitis as part of the healthy core microbiota ([[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]], case-control). IBD causally decreases *Holdemanella* abundance ([[lu-2024-ibd-extraintestinal-manifestations-microbiota-mr]], computational-prediction).
 - Hashimoto's thyroiditis -- Depleted in autoimmune thyroid disease ([[fang-2024-gut-microbiota-autoimmune-thyroid-mendelian]])
-- Post-thyroidectomy dysbiosis -- Restored by probiotic intervention ([[lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct]], RCT)
+- Post-thyroidectomy [[dysbiosis]] -- Restored by probiotic intervention ([[lin-2022-probiotics-thyroidectomy-oral-gut-dysbiosis-rct]], RCT)
 - Post-stroke depression -- Negatively correlated with HAMD depression scores
 
 ## Key Studies
@@ -76,5 +76,5 @@ In a randomized controlled trial of probiotic supplementation during thyroid hor
 - [[butyrate]] -- Primary beneficial metabolite
 - [[hashimotos-thyroiditis]] -- Depleted in autoimmune thyroid disease
 - [[lachnospiraceae]] -- Co-depleted in IBD; fellow keystone commensal candidate
-- [[dysbiosis]] -- *Holdemanella* loss as a marker of ecological destabilization
+- dysbiosis -- *Holdemanella* loss as a marker of ecological destabilization
 - [[gut-brain-axis]] -- Potential mediator of omega-3 anti-depressant effects

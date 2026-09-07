@@ -67,7 +67,7 @@ Pathogenic *C. perfringens* diverts tryptophan toward the kynurenine pathway rat
 ### Enriched in:
 
 - Necrotizing enterocolitis: Detected more frequently in NEC stools; part of the anaerobe-dominance-to-facultative-bloom trajectory in preterm infants. Historical NEC literature implicated *Clostridium sensu stricto* as a pathogen, but strain-level toxigenicity refines this picture ([[torrazza-2013-intestinal-microbial-ecology-nec]], cross-sectional, n=53; [[zhou-2015-premature-infant-microbiome-prior-nec]], cross-sectional).
-- PCOS vaginal dysbiosis: *C. perfringens* was among pathobionts enriched in PCOS and obese groups and absent or reduced in non-PCOS non-obese controls by shotgun sequencing ([[zheng-2024-pcos-obesity-vaginal-microbiome-phages]], cross-sectional).
+- PCOS vaginal [[dysbiosis]]: *C. perfringens* was among pathobionts enriched in PCOS and obese groups and absent or reduced in non-PCOS non-obese controls by shotgun sequencing ([[zheng-2024-pcos-obesity-vaginal-microbiome-phages]], cross-sectional).
 - Food poisoning: Type A CPE-producing strains cause one of the most common forms of bacterial food poisoning worldwide (not covered in existing source pages).
 
 ## Key Studies

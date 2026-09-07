@@ -58,7 +58,7 @@ In a cross-sectional study of adolescents with cerebral palsy, *P. intermedia* w
 
 ### Oral-Gut Axis
 
-*P. intermedia* is increasingly recognized beyond its oral niche. In multiple sclerosis, oral *P. intermedia* is enriched alongside *P. dentalis* and *P. buccalis* as part of a broader shift toward pathogenic Gram-negative taxa and away from protective Gram-positive early colonizers ([[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]], case-control, n=100). This oral dysbiosis pattern parallels but differs from gut dysbiosis in MS, suggesting distinct but interconnected microbial disruption along the oral-gut axis.
+*P. intermedia* is increasingly recognized beyond its oral niche. In multiple sclerosis, oral *P. intermedia* is enriched alongside *P. dentalis* and *P. buccalis* as part of a broader shift toward pathogenic Gram-negative taxa and away from protective Gram-positive early colonizers ([[fitzjerrells-2025-oral-dysbiosis-hypotaurine-ms]], case-control, n=100). This oral [[dysbiosis]] pattern parallels but differs from gut dysbiosis in MS, suggesting distinct but interconnected microbial disruption along the oral-gut axis.
 
 ### In Colorectal Cancer
 

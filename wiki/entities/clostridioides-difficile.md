@@ -37,7 +37,7 @@ historical_names: [Clostridium difficile]
 
 *Clostridioides difficile* is the current NCBI name for NCBITaxon:1496 and the correct, medically recommended combination recorded by LPSN. Both records retain *Clostridium difficile* as a validly published homotypic synonym of the same organism rather than a separate species [[ncbi-taxonomy-clostridioides-difficile]] [[lpsn-clostridioides-difficile]].
 
-It is a Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the metallomics framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-dysbiosis opportunism, and [[zinc]]-dependent toxin activity.
+It is a Gram-positive, spore-forming, obligate anaerobic bacterium that is the leading cause of antibiotic-associated diarrhea and pseudomembranous colitis in healthcare settings. In the metallomics framework, *C. difficile* sits at the intersection of metal-antibiotic co-selection, post-[[dysbiosis]] opportunism, and [[zinc]]-dependent toxin activity.
 
 ## Nomenclature and Historical-Label Boundary
 
@@ -96,7 +96,7 @@ The retired duplicate carried six source associations that use the historical co
 - [[zinc]] -- Zn-metalloprotease in toxin autoprocessing; calprotectin as biomarker
 - [[nickel]] -- predicted cofactor for GloI; environmental Ni may influence growth
 - [[iron]] -- competition in post-antibiotic gut; FeoAB transport
-- [[dysbiosis]] -- classic post-antibiotic dysbiosis pathogen
+- dysbiosis -- classic post-antibiotic dysbiosis pathogen
 - [[gut-metal-microbiome]] -- metal-antibiotic co-selection creates CDI-permissive conditions
 - [[faecalibacterium-prausnitzii]] -- its depletion enables C. difficile colonization
 - [[lactobacillus]] -- its depletion removes colonization resistance

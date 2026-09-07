@@ -77,7 +77,7 @@ A Gram-negative obligate anaerobe that occupies a unique context-dependent niche
 
 ### The RA Microbiome Signature
 
-The *P. copri*-dominant dysbiosis in RA involves:
+The *P. copri*-dominant [[dysbiosis]] in RA involves:
 
 1. Iron elevation (from bleeding joints and systemic inflammation).
 2. Zinc depletion (sequestered by [[calprotectin]] in inflamed joints; lost in feces).
@@ -141,4 +141,4 @@ The *P. copri*-dominant dysbiosis in RA involves:
 - [[short-chain-fatty-acids]] -- *P. copri* produces acetate and propionate; dysbiotic overflow leads to pro-inflammatory Th17 promotion
 - [[nutritional-immunity|nutritional immunity]] -- *P. copri* dysbiosis correlates with reduced butyrate-driven tight junction maintenance
 - -- prototype organism showing context-dependent behavior
-- [[dysbiosis]] -- dominance defines dysbiotic state in RA and metabolic syndrome
+- dysbiosis -- dominance defines dysbiotic state in RA and metabolic syndrome

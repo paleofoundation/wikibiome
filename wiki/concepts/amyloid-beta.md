@@ -32,7 +32,7 @@ A growing body of mechanistic evidence repositions amyloid-beta plaque formation
 
 - Aβ production is upregulated in response to bacterial LPS, viral infection, and fungal exposure
 - Brain infections (HSV-1, *H. pylori* bacteremia, bacterial translocation across a disrupted blood-brain barrier) may trigger Aβ overproduction as a first-line antimicrobial defense
-- The gut-brain axis connects gut dysbiosis to brain Aβ burden — systemic LPS from Gram-negative pathobionts stimulates neuroinflammation and may drive chronic Aβ overproduction
+- The gut-brain axis connects gut [[dysbiosis]] to brain Aβ burden — systemic LPS from Gram-negative pathobionts stimulates neuroinflammation and may drive chronic Aβ overproduction
 - Germ-free mice show dramatically reduced Aβ plaque burden; colonization with human AD-patient microbiota increases brain amyloid
 
 This framework positions amyloid-beta accumulation not as the cause of AD but as a chronic innate immune response to gut-derived pathogenic stimuli that becomes pathological through overactivation and metal-catalyzed aggregation.
@@ -113,5 +113,5 @@ A notably specific connection: a nickel chelator (DMG-H) was shown to inhibit am
 - [[blood-brain-barrier]] — barrier failure allows LPS and microbial amyloids to reach the brain
 - [[nutritional-immunity]] — normal Aβ antimicrobial function fits the nutritional immunity framework
 - [[helicobacter-pylori]] — enriched in AD signatures; triggers mucosal inflammation that reaches brain
-- [[dysbiosis]] — the upstream disruption that initiates chronic Aβ overproduction
+- dysbiosis — the upstream disruption that initiates chronic Aβ overproduction
 - [[alpha-synuclein]] — parallel proteinopathy with overlapping metal and microbiome interactions

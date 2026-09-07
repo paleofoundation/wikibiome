@@ -33,7 +33,7 @@ Pneumonia is infection of the lung parenchyma, most commonly caused by [[strepto
 
 ## Gut-Lung Axis
 
-- Gut dysbiosis increases pneumonia susceptibility via impaired systemic immune priming.
+- Gut [[dysbiosis]] increases pneumonia susceptibility via impaired systemic immune priming.
 - COVID-19 pneumonia is compounded by gut barrier failure and [[endotoxemia]] [[brown-2024-covid-19-neuroinflammation-pathophysiology]].
 - Antibiotic treatment of pneumonia disrupts gut [[colonization-resistance]], enabling secondary infections.
 

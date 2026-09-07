@@ -70,6 +70,6 @@ A key finding: dietary fiber intake and BMI are independent predictors of HOMA-I
 - [[pcos]] -- IR drives hyperandrogenism and is central to PCOS pathophysiology
 - [[zinc]], [[chromium]] -- essential metals involved in insulin signaling
 - [[cadmium]], [[arsenic]], [[lead]] -- toxic metals associated with IR
-- [[dysbiosis]] -- gut microbiome mediates dietary effects on IR
+- dysbiosis -- gut microbiome mediates dietary effects on IR
 - [[mediterranean-diet]] -- dietary pattern that improves IR
 - [[gut-metal-microbiome]] -- fiber/metal interactions in the gut influence metabolic outcomes

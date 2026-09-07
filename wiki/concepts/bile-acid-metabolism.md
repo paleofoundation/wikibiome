@@ -72,7 +72,7 @@ The ~5% of bile acids escaping ileal absorption enter the colon, where bacteria 
 - Altered serum bile acid composition linked to atrial fibrillation in heart failure patients.
 
 ### IBD and Multiple Sclerosis
-- Bile acid pool disrupted in [[inflammatory-bowel-disease]] due to dysbiosis and ileal inflammation impairing reabsorption.
+- Bile acid pool disrupted in [[inflammatory-bowel-disease]] due to [[dysbiosis]] and ileal inflammation impairing reabsorption.
 - In [[multiple-sclerosis]], bile acid supplementation is an emerging gut-oriented intervention; bile acid-FXR signaling may suppress Th17-driven [[neuroinflammation]] [[martinelli-2022-gut-oriented-interventions-ms]].
 
 ### Graves' Disease and Thyroid
@@ -99,5 +99,5 @@ The ~5% of bile acids escaping ileal absorption enter the colon, where bacteria 
 - [[collinsella]] -- BSH-expressing pathobiont enriched in atherosclerosis
 - [[short-chain-fatty-acids]] -- co-produced by colonic anaerobes; bile acid-SCFA balance reflects community health
 - [[inflammation]] -- FXR activation suppresses NF-kB; dysregulated bile acids promote inflammation
-- [[dysbiosis]] -- microbial bile acid transformation is highly sensitive to community shifts
+- dysbiosis -- microbial bile acid transformation is highly sensitive to community shifts
 - [[gut-metal-microbiome]] -- bile acids modulate metal absorption and are themselves altered by metal-induced dysbiosis

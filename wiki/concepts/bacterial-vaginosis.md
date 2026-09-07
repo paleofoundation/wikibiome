@@ -48,7 +48,7 @@ These organisms form a polymicrobial biofilm on the vaginal epithelium that is h
 
 ## Iron Ecology in BV
 
-Iron plays a central role in vaginal dysbiosis:
+Iron plays a central role in vaginal [[dysbiosis]]:
 
 - Lactoferrin concentrations increase 6.6-fold with BV and 11.5-fold with *Trichomonas vaginalis* infection, representing a host nutritional immunity response [[roberts-2019-lactoferrin-genital-infections-iron]].
 - Lactoferrin is positively associated with serum hepcidin and ferritin, indicating systemic iron redistribution in response to vaginal infection [[roberts-2019-lactoferrin-genital-infections-iron]].

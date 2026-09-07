@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Colonization Resistance
 
-The collective ability of the resident gut microbiome to prevent colonization by exogenous pathogens and suppress expansion of resident pathobionts. Colonization resistance is not a property of any single organism but an emergent function of the whole microbial community -- a biological firewall built from nutrient competition, metabolite-mediated inhibition, immune priming, and ecological niche occupation. When this firewall fails -- through antibiotics, heavy metal exposure, dietary disruption, or disease-driven dysbiosis -- the consequences cascade through virtually every disease domain covered in this wiki.
+The collective ability of the resident gut microbiome to prevent colonization by exogenous pathogens and suppress expansion of resident pathobionts. Colonization resistance is not a property of any single organism but an emergent function of the whole microbial community -- a biological firewall built from nutrient competition, metabolite-mediated inhibition, immune priming, and ecological niche occupation. When this firewall fails -- through antibiotics, heavy metal exposure, dietary disruption, or disease-driven [[dysbiosis]] -- the consequences cascade through virtually every disease domain covered in this wiki.
 
 ## Mechanisms
 
@@ -89,7 +89,7 @@ Colonization resistance has a distinctly metallomic dimension that distinguishes
 
 ## Connections
 
-- [[dysbiosis]] -- colonization resistance failure is the functional definition of dysbiosis
+- dysbiosis -- colonization resistance failure is the functional definition of dysbiosis
 - [[clostridioides-difficile]] -- CDI as the paradigmatic colonization resistance failure
 - [[fecal-microbiota-transplant]] -- FMT restores colonization resistance
 - [[butyrate]] -- SCFA production maintains the anaerobic niche favoring commensals

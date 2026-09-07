@@ -30,7 +30,7 @@ Methylation is the addition of a methyl group (-CH₃) to DNA, histones, protein
 
 ## Microbiome Connection
 
-- Gut bacteria produce B12 and folate — essential cofactors for methionine synthase (converts homocysteine → methionine → SAMe). Dysbiosis-driven loss of B-vitamin producers reduces methylation capacity.
+- Gut bacteria produce B12 and folate — essential cofactors for methionine synthase (converts homocysteine → methionine → SAMe). [[dysbiosis]]-driven loss of B-vitamin producers reduces methylation capacity.
 - Hashimoto's: Altered methylation profiles linked to microbiome-metabolome interactions [[sarandi-2025-metabolic-profile-hashimotos-methap]].
 - CRC: Aberrant methylation of tumor suppressors driven by microbiome-metabolome crosstalk [[loke-2018-metabolomics-16s-crc-mucosa]].
 

@@ -88,7 +88,7 @@ The Pendergrass framework proposes a seven-step causal pathway from agricultural
 
 ## Connections
 
-- [[insulin-resistance]] -- convergent metabolic endpoint of metal toxicity, dysbiosis, and inflammation
+- [[insulin-resistance]] -- convergent metabolic endpoint of metal toxicity, [[dysbiosis]], and inflammation
 - [[short-chain-fatty-acids]] -- SCFA depletion is the mechanistic bridge between metal exposure and metabolic dysfunction
 - [[nickel-allergy]] -- 59.7% prevalence in overweight women; low-Ni diet produces dramatic weight loss
 - [[low-nickel-diet]] -- normocaloric intervention producing BMI reduction of 4.2 without caloric restriction

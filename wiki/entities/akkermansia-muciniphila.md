@@ -57,7 +57,7 @@ The primary description, NCBI Taxonomy, and LPSN all identify *Akkermansia mucin
 - Inflammatory bowel disease (IBD): reduced in Crohn's disease. The ZIP8 A391T Crohn's risk variant alters colonic metal availability and shifts microbiome composition, with *Akkermansia* enriched in older mutant mice as a potential compensatory response [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 - Multiple sclerosis: altered abundance in MS patients. Some studies report increased *Akkermansia* in MS (possibly pro-inflammatory in this context), illustrating context-dependent effects [[bronzini-2023-feeding-gut-microbiome-ms]].
 - Obesity and type 2 diabetes: consistently depleted; inversely correlated with metabolic syndrome markers [[giambo-2021-toxic-metal-exposure-gut-microbiota-review]].
-- Parkinson's disease: altered abundance linked to gut-brain axis dysfunction. Metal-induced dysbiosis in the gut may promote alpha-synuclein aggregation [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
+- Parkinson's disease: altered abundance linked to gut-brain axis dysfunction. Metal-induced [[dysbiosis]] in the gut may promote alpha-synuclein aggregation [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 - Autism spectrum disorder: altered in ASD gut microbiome profiles [[amadi-2022-dietary-interventions-asd-systematic-review]].
 - Cardiovascular disease: oral supplementation of *A. muciniphila* inhibits abdominal aortic aneurysm formation in mice by restoring microbial diversity and modulating IL-33 and peripheral immune factors [[he-2022-akkermansia-muciniphila-immune-system-cvd-mice]].
 
@@ -80,6 +80,6 @@ The primary description, NCBI Taxonomy, and LPSN all identify *Akkermansia mucin
 - [[lead]] -- depleted by Pb exposure; supplementation reduces Pb burden
 - [[nickel]] -- indirectly affected; benefits from nickel-poor environments
 - [[nutritional-immunity]] -- the mucus barrier it maintains is part of innate defense
-- [[dysbiosis]] -- its loss is a hallmark of metal-induced and disease-associated dysbiosis
+- dysbiosis -- its loss is a hallmark of metal-induced and disease-associated dysbiosis
 - [[lactobacillus]] -- co-depleted under heavy metal exposure; complementary probiotic mechanisms
 - [[inflammation]] -- anti-inflammatory via barrier maintenance and SCFA production

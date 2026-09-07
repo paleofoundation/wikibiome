@@ -20,7 +20,7 @@ Uremic toxins are metabolic waste products that accumulate in the blood when kid
 
 ### Indoxyl Sulfate (IS)
 - Origin: Dietary [[tryptophan]] is metabolized by gut bacteria (via tryptophanase) to indole, which is absorbed, hepatically sulfated to indoxyl sulfate, and cleared by the kidneys.
-- Key producers: *E. coli*, *Bacteroides*, *Clostridium* species -- organisms enriched in CKD dysbiosis.
+- Key producers: *E. coli*, *Bacteroides*, *Clostridium* species -- organisms enriched in CKD [[dysbiosis]].
 - Pathological effects: IS activates NF-kB and AhR signaling in renal tubular cells, promotes renal fibrosis, increases [[oxidative-stress]] through NADPH oxidase activation, impairs [[mitochondrial-dysfunction|mitochondrial function]], and accelerates vascular calcification. IS positively correlates with CKD progression [[wehedy-2022-human-microbiome-ckd-double-edged-sword]].
 - Protein-bound: IS is >90% albumin-bound, making it poorly cleared by conventional hemodialysis.
 
@@ -86,7 +86,7 @@ In hemodialysis patients, uremic toxins that accumulate between sessions cross t
 - [[chronic-kidney-disease]] -- the disease context for uremic toxin accumulation
 - [[tryptophan]] -- precursor to indoxyl sulfate
 - [[tmao]] -- the cardiovascular uremic toxin
-- [[dysbiosis]] -- the proteolytic shift that increases toxin production
+- dysbiosis -- the proteolytic shift that increases toxin production
 - [[gut-barrier-dysfunction]] -- uremia-driven barrier failure amplifies translocation
 - [[mitochondrial-dysfunction]] -- IS and PCS impair mitochondrial function
 - [[cardiovascular-disease]] -- uremic toxins drive cardiovascular complications

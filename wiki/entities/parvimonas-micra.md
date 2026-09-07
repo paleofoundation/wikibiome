@@ -50,7 +50,7 @@ Parvimonas micra is a small (0.5–1.0 µm), Gram-positive, obligately anaerobic
 
 ### Oral Commensal-to-Pathobiont Transition
 
-*P. micra* is a normal inhabitant of the oral cavity, found in dental plaque, periodontal pockets, and the tongue dorsum in most healthy humans. In oral health, it occupies a minor ecological niche, antagonized by more dominant oral species (e.g., *Streptococcus mutans*, *Prevotella intermedia*). However, under conditions of periodontal disease, poor oral hygiene, or dysbiosis:
+*P. micra* is a normal inhabitant of the oral cavity, found in dental plaque, periodontal pockets, and the tongue dorsum in most healthy humans. In oral health, it occupies a minor ecological niche, antagonized by more dominant oral species (e.g., *Streptococcus mutans*, *Prevotella intermedia*). However, under conditions of periodontal disease, poor oral hygiene, or [[dysbiosis]]:
 
 - *P. micra* increases in abundance within oral biofilms (10-fold expansion in periodontitis).
 - Produces proteases and lipopolysaccharides (LPS) that damage periodontal tissues.
@@ -192,7 +192,7 @@ In CRC biofilms, *P. micra* integrates with:
 - [[clostridium-symbiosum]] – Co-enriched; synergistic inflammation
 - [[bacteroides-fragilis]] (especially BFT+ strains) – Co-enriched; synergistic barrier disruption
 - [[inflammation]] – TLR2-driven NF-κB activation; Th17 polarization
-- [[dysbiosis]] – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
+- dysbiosis – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
 - [[faecalibacterium-prausnitzii]] – Inverse relationship; suppressed where *P. micra* iron-scavenging dominates
 
 ---

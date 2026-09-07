@@ -93,5 +93,5 @@ A genus of Gram-positive, facultatively anaerobic lactic acid bacteria (LAB) tha
 - [[multiple-sclerosis]] -- inversely correlated with disease severity
 - [[faecalibacterium-prausnitzii]] -- complementary SCFA producer; co-depleted under metal stress
 - [[akkermansia-muciniphila]] -- complementary barrier-protective commensal
-- [[dysbiosis]] -- its depletion is a hallmark of metal-induced dysbiosis
+- dysbiosis -- its depletion is a hallmark of metal-induced dysbiosis
 - [[inflammation]] -- anti-inflammatory via immune modulation and barrier protection

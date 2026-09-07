@@ -61,7 +61,7 @@ The family's dual role as both beneficial (SCFA production, fiber fermentation) 
 ## Conditions Associated
 
 ### Parkinson's Disease (Depleted)
-Reduced Prevotellaceae is the most consistent PD microbiome finding across multiple meta-analyses [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[romano-2021-meta-analysis-gut-microbiome-parkinsons]]. Depletion correlates with reduced SCFA production and increased gut permeability, potentially facilitating [[alpha-synuclein]] propagation from gut to brain via the vagus nerve. Loss of Prevotellaceae alongside [[lachnospiraceae]] and [[faecalibacterium-prausnitzii|faecalibacterium]] represents the core PD dysbiosis signature.
+Reduced Prevotellaceae is the most consistent PD microbiome finding across multiple meta-analyses [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]] [[romano-2021-meta-analysis-gut-microbiome-parkinsons]]. Depletion correlates with reduced SCFA production and increased gut permeability, potentially facilitating [[alpha-synuclein]] propagation from gut to brain via the vagus nerve. Loss of Prevotellaceae alongside [[lachnospiraceae]] and [[faecalibacterium-prausnitzii|faecalibacterium]] represents the core PD [[dysbiosis]] signature.
 
 ### Autism Spectrum Disorder (Risk Factor)
 Prevotellaceae causally increases ASD risk (IVW OR = 1.24, 95% CI: 1.09-1.40, p = 9.2 x 10^-4), surviving FDR correction [[li-2023-gut-microbiota-asd-bidirectional-mr]]. The mechanism may involve mucosal infiltration by Prevotellaceae, triggering T-cell and antibody responses that exacerbate neuroinflammation via the gut-brain axis.

@@ -49,7 +49,7 @@ Lachnospiraceae depletion recurs across an extraordinary range of diseases, maki
 - Lachnospiraceae members are sensitive to heavy metal stress. [[cadmium]], [[lead]], and [[mercury]] exposure depletes the family disproportionately compared to metal-tolerant taxa.
 - Iron-sulfur cluster enzymes required for butyrate production are vulnerable to disruption by toxic metals that compete for iron binding sites.
 - Siderophore-producing [[enterobacteriaceae]] outcompete Lachnospiraceae for [[iron]] under metal-stressed conditions, compounding the depletion.
-- This metal sensitivity positions Lachnospiraceae as a biomarker for metal-induced [[dysbiosis]] within the [[gut-metal-microbiome]] framework.
+- This metal sensitivity positions Lachnospiraceae as a biomarker for metal-induced dysbiosis within the [[gut-metal-microbiome]] framework.
 
 ## Key Member Genera
 
@@ -74,6 +74,6 @@ Lachnospiraceae depletion recurs across an extraordinary range of diseases, maki
 - [[colorectal-cancer]] -- depletion reduces anti-tumorigenic butyrate; lifestyle factors compound loss
 - [[cardiovascular-disease]] -- 12/23 differentially abundant CAD taxa from this family
 - [[iron]] -- Fe-S cluster enzymes vulnerable to metal competition
-- [[dysbiosis]] -- the most universally depleted family across disease states
+- dysbiosis -- the most universally depleted family across disease states
 - [[gut-metal-microbiome]] -- metal sensitivity makes Lachnospiraceae a sentinel for environmental exposure
 - [[inflammation]] -- butyrate loss removes HDAC-mediated anti-inflammatory brake

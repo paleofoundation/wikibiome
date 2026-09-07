@@ -155,7 +155,7 @@ Pendergrass 2026 proposes that dietary nickel from infant formula activates urea
 
 - Soy-based formula contains ~10x more nickel than cow's milk formula (0.45 vs. 0.03 mg/L) and orders of magnitude more than human breast milk (0.005-0.016 mg/L).
 - Key NEC-associated pathogens (*E. coli*, *Klebsiella*, *Enterobacter*, *Citrobacter*, *Ureaplasma*) all deploy Ni-dependent urease.
-- Urease-generated ammonia raises gut pH, favoring Proteobacteria over acid-producing commensals like *Lactobacillus*, creating a positive feedback loop of dysbiosis.
+- Urease-generated ammonia raises gut pH, favoring Proteobacteria over acid-producing commensals like *Lactobacillus*, creating a positive feedback loop of [[dysbiosis]].
 - Human breast milk is naturally nickel-poor -- potentially an evolved mechanism of [[nutritional-immunity]] starving Ni-dependent pathogens of their essential cofactor.
 - Proposed biomarkers: fecal urease activity, ammonia levels, and stool nickel content as early NEC risk indicators.
 

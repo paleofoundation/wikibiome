@@ -17,7 +17,7 @@ platform: wikibiome
 
 ## Overview
 
-Iron-sulfur (Fe-S) clusters are among the most ancient and ubiquitous metal cofactors in biology, present in all domains of life. These inorganic prosthetic groups -- typically [2Fe-2S] or [4Fe-4S] configurations -- mediate electron transfer, enzymatic catalysis, and regulatory sensing across hundreds of proteins. In the context of the gut microbiome, Fe-S clusters occupy a uniquely consequential position: they are simultaneously the metabolic backbone of beneficial butyrate-producing bacteria and the primary intracellular target of toxic metal exposure. This dual role makes Fe-S cluster biology a linchpin connecting environmental metal contamination to gut dysbiosis.
+Iron-sulfur (Fe-S) clusters are among the most ancient and ubiquitous metal cofactors in biology, present in all domains of life. These inorganic prosthetic groups -- typically [2Fe-2S] or [4Fe-4S] configurations -- mediate electron transfer, enzymatic catalysis, and regulatory sensing across hundreds of proteins. In the context of the gut microbiome, Fe-S clusters occupy a uniquely consequential position: they are simultaneously the metabolic backbone of beneficial butyrate-producing bacteria and the primary intracellular target of toxic metal exposure. This dual role makes Fe-S cluster biology a linchpin connecting environmental metal contamination to gut [[dysbiosis]].
 
 ## Structure and Assembly
 

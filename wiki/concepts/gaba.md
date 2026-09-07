@@ -30,7 +30,7 @@ Gamma-aminobutyric acid (GABA) is the primary inhibitory neurotransmitter in the
 
 - [[lactobacillus-reuteri]], *L. brevis*, and [[bifidobacterium]] species are the primary GABA-producing gut bacteria.
 - Microbial GABA acts locally on enteric neurons (vagal afferents) and may contribute to circulating GABA levels.
-- Dysbiosis-driven loss of GABA-producing commensals is associated with anxiety and depressive phenotypes [[eskandar-2025-gut-brain-axis-depression-anxiety-schizophrenia-scoping-review]].
+- [[dysbiosis]]-driven loss of GABA-producing commensals is associated with anxiety and depressive phenotypes [[eskandar-2025-gut-brain-axis-depression-anxiety-schizophrenia-scoping-review]].
 
 ## Disease Associations
 

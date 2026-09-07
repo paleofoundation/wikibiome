@@ -77,7 +77,7 @@ In reverse MR (GERD → microbiome), GERD itself had causal influence on 13 taxa
 - Depleted by GERD: Phylum Euryarchaeota (OR=0.82), Family Christensenellaceae (OR=0.85), Family Rikenellaceae (OR=0.88), Genus Rikenellaceae RC9 gut group (OR=0.78), Genus Ruminococcaceae NK4A214 (OR=0.89), Genus Anaerotruncus (OR=0.90), Genus Christensenellaceae R7 (OR=0.90)
 - Enriched by GERD: Collinsella (OR=1.15), Eggerthella (OR=1.24), Eubacterium rectale group (OR=1.12), Eubacterium ventriosum group (OR=1.12)
 
-This bidirectional causality establishes GERD as both a consequence and a driver of dysbiosis — a self-reinforcing loop where acid reflux depletes protective SCFA-producing communities, further impairing mucosal defense and perpetuating reflux.
+This bidirectional causality establishes GERD as both a consequence and a driver of [[dysbiosis]] — a self-reinforcing loop where acid reflux depletes protective SCFA-producing communities, further impairing mucosal defense and perpetuating reflux.
 
 ## Esophageal and Gut Microbiome Signature
 
@@ -180,9 +180,9 @@ The GERD→Barrett's→EAC progression represents a well-documented example of h
 - [[helicobacter-pylori]] -- Controversial protective relationship; nickel-dependent urease enzyme; protective against GERD through acid suppression in corpus-predominant gastritis
 - [[dietary-nickel-exposure]] -- High-Ni foods as triggers; plant-based diet paradox in nickel-sensitive patients
 - [[probiotics]] -- Potential to mitigate PPI-induced dysbiosis; restore SCFA-producing taxa
-- [[dysbiosis]] -- Esophageal microbiome shift from Type I to Type II; PPI-driven gut and fungal dysbiosis
+- dysbiosis -- Esophageal microbiome shift from Type I to Type II; PPI-driven gut and fungal dysbiosis
 - [[actinobacteria]] -- Causally protective against GERD (OR=0.93); also protective against PPD and MDD — shared cross-condition pattern
 - [[lachnospiraceae]] -- Causally protective (OR=0.91); SCFA production as mechanism; depleted across multiple GI diseases
 - [[candida-albicans]] -- PPI-promoted expansion in gastric mucosa (96.9% detection); potential driver of persistent symptoms through visceral hypersensitivity
 - [[barretts-esophagus]] -- Microbiome progression: Leptotrichia ↑48%, Streptococcus ↓45% from GERD to EAC
-- [[dysbiosis|sibo]] -- Significantly associated with GERD (P=0.007); ABC transporter metabolite disruption in overlap
+- sibo -- Significantly associated with GERD (P=0.007); ABC transporter metabolite disruption in overlap

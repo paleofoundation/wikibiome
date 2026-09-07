@@ -39,7 +39,7 @@ Iron and zinc malabsorption: Villous atrophy in celiac disease severely impairs 
 
 ## Microbiome Signature
 
-Celiac disease is associated with a characteristic gut dysbiosis documented in both active disease and treated (GFD-adherent) patients:
+Celiac disease is associated with a characteristic gut [[dysbiosis]] documented in both active disease and treated (GFD-adherent) patients:
 
 Depleted:
 - [[bifidobacterium]] (especially *B. longum* and *B. adolescentis*) -- consistently reduced across paediatric and adult cohorts (Collado et al. 2009; De Palma et al. 2010; Golfetto et al. 2014)

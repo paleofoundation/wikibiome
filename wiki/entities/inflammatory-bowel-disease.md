@@ -28,7 +28,7 @@ An umbrella term for chronic relapsing-remitting inflammatory conditions of the 
 - Iron deficiency anemia affects 36-76% of IBD patients, driven by chronic blood loss, malabsorption, and inflammation-mediated iron sequestration.
 - [[hepcidin]] is elevated by IL-6 during IBD flares, blocking ferroportin-mediated iron export from enterocytes and macrophages -- trapping iron intracellularly while producing systemic deficiency.
 - This creates a paradox: intracellular iron excess (promoting oxidative stress and potentially [[ferroptosis]]) alongside systemic iron deficiency (causing anemia and fatigue).
-- Oral iron supplementation worsens [[dysbiosis]] by providing growth substrate for siderophilic pathogens (Enterobacteriaceae, E. coli) while suppressing beneficial anaerobes.
+- Oral iron supplementation worsens dysbiosis by providing growth substrate for siderophilic pathogens (Enterobacteriaceae, E. coli) while suppressing beneficial anaerobes.
 
 ### Zinc Depletion
 - Zinc is depleted in IBD via diarrheal losses, malabsorption, and increased urinary excretion during inflammation.
@@ -59,7 +59,7 @@ IBD dysbiosis is among the most characterized in the literature:
 
 IBD patients have significantly increased [[cardiovascular-disease]] risk:
 - 2x increased heart failure risk; 19% increase in HF risk up to 20 years post-diagnosis.
-- Shared mechanisms: chronic [[inflammation]], endothelial dysfunction, [[tmao]] elevation, [[dysbiosis]]-driven LPS translocation [[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]].
+- Shared mechanisms: chronic [[inflammation]], endothelial dysfunction, [[tmao]] elevation, dysbiosis-driven LPS translocation [[sanchez-cruz-2024-ibd-cvd-integrative-review-gut-microbiome]].
 - [[calprotectin]] and CRP predict both IBD activity and CVD risk.
 
 <!-- Intervention/treatment content moved to Cureva per public/clinical boundary policy -->
@@ -79,7 +79,7 @@ IBD patients have significantly increased [[cardiovascular-disease]] risk:
 - [[hepcidin]] -- iron-regulatory hormone elevated in IBD, driving the anemia-of-inflammation paradox
 - [[ferroptosis]] -- intracellular iron trapping during hepcidin elevation may promote ferroptotic cell death
 - [[short-chain-fatty-acids]] -- SCFA producer depletion is the functional consequence of IBD dysbiosis
-- [[dysbiosis]] -- IBD has the most characterized dysbiosis signature in the literature
+- dysbiosis -- IBD has the most characterized dysbiosis signature in the literature
 - [[inflammation]] -- chronic NF-kB-driven inflammation is the hallmark of IBD
 - [[cardiovascular-disease]] -- IBD patients at significantly increased CVD risk via shared inflammatory mechanisms
 - [[nutritional-immunity]] -- calprotectin and lactoferrin are nutritional immunity effectors elevated in IBD

@@ -75,7 +75,7 @@ The classic association. *S. gallolyticus* bacteremia or endocarditis in a patie
 
 - [[hanus-2021-immune-microbiota-metabolites-crc-triad]] (review) -- Cataloged *S. gallolyticus* among six CRC-associated bacteria with specific pro-tumorigenic mechanisms.
 - [[yu-2022-systematic-review-microbial-markers-colorectal-neoplasia]] (systematic review) -- Confirmed serum antibody levels to *S. gallolyticus* as a consistent CRC risk biomarker.
-- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc]] (review) -- Documented *S. bovis* enrichment as part of CRC dysbiosis.
+- [[van-dingenen-2023-gut-microbiome-radio-immunotherapy-crc]] (review) -- Documented *S. bovis* enrichment as part of CRC [[dysbiosis]].
 
 ## Cross-References
 

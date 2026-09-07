@@ -58,7 +58,7 @@ In the gut mycobiome, *Mortierella* appears to play a stabilizing role:
 
 ### Enriched in:
 
-- PCOS (overweight subgroup): Uniquely elevated in overweight PCOS patients (PCOS-HB). This is the first study to demonstrate that fungal dysbiosis in PCOS is BMI-dependent. The enrichment may reflect metabolic substrate availability in overweight but metabolically active individuals ([[yin-2022-pcos-bacteriome-mycobiome-metabolome-bmi]], cross-sectional, n=88).
+- PCOS (overweight subgroup): Uniquely elevated in overweight PCOS patients (PCOS-HB). This is the first study to demonstrate that fungal [[dysbiosis]] in PCOS is BMI-dependent. The enrichment may reflect metabolic substrate availability in overweight but metabolically active individuals ([[yin-2022-pcos-bacteriome-mycobiome-metabolome-bmi]], cross-sectional, n=88).
 
 ## Key Studies
 

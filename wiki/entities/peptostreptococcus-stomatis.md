@@ -121,7 +121,7 @@ This stage-specific enrichment pattern suggests *P. stomatis* accelerates the ad
 *P. stomatis* follows the same oral-colorectal axis as *[[parvimonas-micra]]*:
 
 1. Oral origin: Normal oral microbiota; enriched in periodontal disease.
-2. Periodontitis → intestinal dysbiosis: Periodontal pathogens (including *P. stomatis*) → chronic inflammation → intestinal barrier disruption.
+2. Periodontitis → intestinal [[dysbiosis]]: Periodontal pathogens (including *P. stomatis*) → chronic inflammation → intestinal barrier disruption.
 3. Translocation: Leaky gut → bacteremia → fecal reseeding → colon recolonization.
 4. Biofilm integration: In dysbiotic colon, *P. stomatis* integrates into polymicrobial CRC biofilms:
 
@@ -206,7 +206,7 @@ Note: *P. stomatis* is likely a heterogeneous genus. Not all *Peptostreptococcus
 - [[clostridium-symbiosum]] – Biofilm partner; bile acid metabolism amplifies inflammation
 - [[bacteroides-fragilis]] (BFT+ strains) – Biofilm partner; toxin-driven barrier disruption enables colibactin access
 - [[escherichia-coli]] (pks+ strains) – Evolutionary source of pks cluster; synergistic genotoxicity if both present
-- [[dysbiosis]] – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
+- dysbiosis – Enriched in dysbiotic CRC microbiota; suppressed in healthy, butyrate-dominated microbiota
 -  – IL-17-driven immune response to colibactin-induced DSBs
 -  – Downstream of colibactin-induced DNA damage; tumor suppressor response
 

@@ -72,7 +72,7 @@ The consistent pattern across animal studies is:
 3. Barrier failure → increased translocation → systemic inflammation
 4. Systemic inflammation → disease progression
 
-This cascade positions Lachnospiraceae as the first domino in metal-driven dysbiosis, making its abundance a potential biomarker for environmental metal exposure.
+This cascade positions Lachnospiraceae as the first domino in metal-driven [[dysbiosis]], making its abundance a potential biomarker for environmental metal exposure.
 
 ## Cross-References
 

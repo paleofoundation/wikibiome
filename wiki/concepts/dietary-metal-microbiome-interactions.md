@@ -64,7 +64,7 @@ Certain gut microbes provide metal detoxification as an ecosystem service to the
 | [[saccharomyces-cerevisiae|Saccharomyces cerevisiae]] | Cell-wall mannoprotein binding of metals; intracellular metallothionein sequestration |
 | [[bacillus|Bacillus]] spp. | Extracellular precipitation of metals; biofilm-mediated immobilization |
 
-Dysbiosis that depletes these organisms reduces the gut's capacity to buffer against dietary metal exposure — creating a feed-forward loop where metal exposure causes dysbiosis that increases metal absorption that worsens dysbiosis.
+[[dysbiosis]] that depletes these organisms reduces the gut's capacity to buffer against dietary metal exposure — creating a feed-forward loop where metal exposure causes dysbiosis that increases metal absorption that worsens dysbiosis.
 
 ## Dietary Xenobiotics and Metal Interactions
 
@@ -94,4 +94,4 @@ The metallomic lens on diet reveals that food quality is a microbial ecology que
 - [[plant-metal-hyperaccumulation]] — why healthy crops accumulate toxic metals
 - [[antimicrobial-resistance]] — metal-antibiotic co-selection
 - [[gut-metal-microbiome]] — broader metal-microbiome concept
-- [[dysbiosis]] — the end state of chronic dietary metal perturbation
+- dysbiosis — the end state of chronic dietary metal perturbation

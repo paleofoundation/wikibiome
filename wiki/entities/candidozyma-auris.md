@@ -112,7 +112,7 @@ The metal-dependence profile suggests several adjunct strategies relevant to a f
 ## Cross-References
 
 - [[candida-albicans]] — the most common Candida pathogen; commensal that can become opportunistic
-- [[candida-tropicalis]] — related species with gut dysbiosis associations
+- [[candida-tropicalis]] — related species with gut [[dysbiosis]] associations
 - [[mycobiome]] — the fungal community context
 - [[biofilm]] — key virulence mechanism
 - [[functional-shielding]] — interkingdom biofilm protection of bacterial pathogens

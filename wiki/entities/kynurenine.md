@@ -70,7 +70,7 @@ QUIN binds iron and forms QUIN-Fe complexes that catalyze Fenton chemistry, gene
 ## Microbiome Modulation
 
 ### IDO1 Regulated by SCFAs
-[[butyrate]] and other SCFAs modulate IDO1 expression, linking SCFA-producing commensal health to kynurenine pathway regulation [[mohsen-2025-ms-gut-microbiome-immune-interaction]]. Dysbiosis-driven SCFA depletion removes this brake on IDO1.
+[[butyrate]] and other SCFAs modulate IDO1 expression, linking SCFA-producing commensal health to kynurenine pathway regulation [[mohsen-2025-ms-gut-microbiome-immune-interaction]]. [[dysbiosis]]-driven SCFA depletion removes this brake on IDO1.
 
 ### 3-IAld Competes with Kynurenine for AhR
 3-Indolealdehyde (3-IAld), produced by [[lactobacillus]] species, competes with L-kynurenine for AhR binding and tips tryptophan metabolism toward serotonin production via TPH1 induction [[zelante-2024-microbial-ahr-ligand-3iald-tolerogenic-ms]]. Loss of Lactobacillus (common in dysbiosis) removes this competition, allowing kynurenine to dominate AhR signaling.

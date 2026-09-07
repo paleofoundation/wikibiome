@@ -46,7 +46,7 @@ The loss of *L. crispatus* dominance is a recurring finding across reproductive 
 - Ovarian cancer: *L. crispatus* is depleted in the reproductive tract microbiome of ovarian cancer patients, with potential diagnostic and prognostic significance [[asangba-2023-microbiome-ovarian-cancer-diagnostic-prognostic]].
 - PCOS: Women with polycystic ovary syndrome and obesity show reduced vaginal *Lactobacillus* dominance, with phage-mediated lysis of *L. crispatus* proposed as a contributing mechanism [[zheng-2024-pcos-obesity-vaginal-microbiome-phages]].
 - Tubal infertility: Chlamydia-associated tubal factor infertility correlates with loss of *L. crispatus* dominance and expansion of anaerobic pathobionts [[chen-2021-chlamydia-vaginal-microbiota-tubal-infertility]].
-- Adenomyosis: Genital tract microbiota in adenomyosis patients shows reduced *Lactobacillus* dominance alongside altered intestinal microbiota, suggesting a genital-intestinal dysbiosis axis [[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]].
+- Adenomyosis: Genital tract microbiota in adenomyosis patients shows reduced *Lactobacillus* dominance alongside altered intestinal microbiota, suggesting a genital-intestinal [[dysbiosis]] axis [[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]].
 
 ## Relationship to the Estrobolome
 

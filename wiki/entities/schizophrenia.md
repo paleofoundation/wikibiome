@@ -104,7 +104,7 @@ Early-life stress (maternal separation, social isolation) dysregulates the hypot
 
 ## Multi-Kingdom Microbiome Dysbiosis
 
-Beyond bacterial [[dysbiosis]], schizophrenia involves disruption across the full microbial ecosystem — a depth not captured in most psychiatric research:
+Beyond bacterial dysbiosis, schizophrenia involves disruption across the full microbial ecosystem — a depth not captured in most psychiatric research:
 
 ### Mycobiome
 
@@ -183,7 +183,7 @@ Schizophrenia carries a heavy comorbidity burden that intersects with microbiome
 - [[gut-brain-axis]] — bidirectional vagal, SCFA, and immune mediator communication linking gut dysbiosis to psychosis; trichotomy of causal/correlative/bidirectional roles [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]]
 - [[neuroinflammation]] — microglial M1 polarization, C4A-driven synaptic pruning, and Th17/Treg imbalance [[comer-2020-inflamed-brain-schizophrenia-neuroinflammation]]
 - [[tryptophan-metabolism]] — IDO-mediated kynurenine shunting depletes serotonin precursors; quinolinic acid neurotoxicity; astrocyte vs microglial bifurcation [[kamath-2025-gut-microbiome-mental-health-causation-correlation-review]]
-- [[dysbiosis]] — depletion of butyrate producers (Faecalibacterium, Roseburia, Coprococcus) and multi-kingdom microbial disruption; Streptococcus vestibularis as causal bacterium in FMT experiments [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]]
+- dysbiosis — depletion of butyrate producers (Faecalibacterium, Roseburia, Coprococcus) and multi-kingdom microbial disruption; Streptococcus vestibularis as causal bacterium in FMT experiments [[theleritis-2024-gut-dysbiosis-first-episode-psychosis-review]]
 - [[interleukin-6]] — elevated in FEP before medication; mediator of neuroinflammation and hepcidin-driven iron sequestration
 - [[tnf-alpha]] — elevated in FEP before medication; drives microglial activation and endothelial dysfunction; gingipain substrate
 - [[immune-balance]] — Th17-dominant profile with elevated [[interleukin-6|IL-6]], IL-8, [[tnf-alpha|TNF-alpha]]; reduced IL-10 and [[tgf-beta|TGF-beta]]; present before medication in FEP [[ermakov-2022-immune-system-abnormalities-schizophrenia]]

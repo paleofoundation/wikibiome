@@ -37,7 +37,7 @@ Among the most disruptive non-antibiotic drugs for the microbiome. PPIs raise ga
 The first-line [[type-2-diabetes]] drug has profound microbiome effects that may partly explain its therapeutic action. Metformin increases Akkermansia muciniphila, enhances [[short-chain-fatty-acids]] production, and improves gut barrier function. Some of metformin's "side effects" (GI distress) are microbiome-mediated. The drug also affects metal handling -- metformin lowers vitamin B12 absorption (cobalt-containing vitamin), linking pharmacomicrobiomics to metallomics.
 
 ### Antibiotics
-The most obvious microbiome disruptors. Even a single course of broad-spectrum antibiotics can shift the microbiome for months to years, depleting [[lactobacillus]], [[bifidobacterium]], and butyrate producers while selecting for resistant pathobionts. Antibiotic-induced [[dysbiosis]] alters metal absorption and increases [[intestinal-permeability]].
+The most obvious microbiome disruptors. Even a single course of broad-spectrum antibiotics can shift the microbiome for months to years, depleting [[lactobacillus]], [[bifidobacterium]], and butyrate producers while selecting for resistant pathobionts. Antibiotic-induced dysbiosis alters metal absorption and increases [[intestinal-permeability]].
 
 ### Statins
 Emerging evidence that statins (atorvastatin, rosuvastatin) influence bile acid metabolism via the microbiome, with microbiome composition predicting statin response. Bile acids in turn affect metal solubility and absorption in the gut.
@@ -61,7 +61,7 @@ Pharmacomicrobiomics intersects with metallomics in underappreciated ways:
 - Metal-dependent microbial enzymes metabolize drugs (L-DOPA example)
 - Drugs that alter metal absorption (PPIs → Fe, Ca, Mg) change the metal landscape of the gut
 - Metal chelators [[metal-chelation-therapy]] alter luminal metal availability, reshaping the microbiome
-- Metal-induced [[dysbiosis]] changes the drug-metabolizing capacity of the gut
+- Metal-induced dysbiosis changes the drug-metabolizing capacity of the gut
 - Metal supplements (Fe, Zn) directly alter microbiome composition and drug metabolism
 
 ## Future Directions
@@ -70,7 +70,7 @@ Pharmacomicrobiomics points toward precision medicine that accounts for the pati
 
 ## See Also
 
-- [[dysbiosis]] -- the microbiome disruption drugs can cause
+- dysbiosis -- the microbiome disruption drugs can cause
 - [[probiotics]] -- potential co-therapeutics to optimize drug metabolism
 - [[parkinsons-disease]] -- the L-DOPA paradigm case
 - [[beta-glucuronidase]] -- key enzyme in both drug metabolism and [[estrobolome]]

@@ -67,7 +67,7 @@ A ubiquitous filamentous fungal genus that is both an environmental saprophyte a
 - [[nutritional-immunity]] -- host iron restriction as defense against invasive aspergillosis
 - [[multiple-sclerosis]] -- elevated in MS gut mycobiome; anti-Aspergillus CSF antibodies
 - [[colorectal-cancer]] -- detected in tumor mycobiome
-- [[candida-albicans]] -- co-member of the gut mycobiome; both fungi expand under dysbiosis
+- [[candida-albicans]] -- co-member of the gut mycobiome; both fungi expand under [[dysbiosis]]
 - [[inflammation]] -- gliotoxin suppresses immune function; TAFC-mediated iron piracy triggers inflammatory responses
 - [[copper]] -- Cu-dependent host defense mechanisms oppose fungal growth
 - [[staphylococcus-aureus]] -- both compete for iron in polymicrobial infections using distinct siderophore systems

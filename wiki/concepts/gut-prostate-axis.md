@@ -29,5 +29,5 @@ Probiotic interventions targeting the gut-prostate axis have shown clinical bene
 
 - [[gut-testis-axis]] — parallel gut-reproductive communication in males
 - [[semen-microbiome]] — reproductive tract microbial communities
-- [[prostatitis]] — chronic bacterial prostatitis and gut dysbiosis
+- [[prostatitis]] — chronic bacterial prostatitis and gut [[dysbiosis]]
 - [[short-chain-fatty-acids]] — SCFA depletion in prostatic disease

@@ -26,7 +26,7 @@ The healthy adult gut microbiome is dominated by two bacterial phyla:
 
 Bacillota (Firmicutes): The dominant phylum in Western adults, comprising the core SCFA-producing community. Key members include [[faecalibacterium-prausnitzii]], *Roseburia intestinalis*, [[blautia]], *Eubacterium hallii*, *Coprococcus catus*, and [[lactobacillus]]. Faecalibacterium prausnitzii — among the most abundant gut bacteria in healthy adults — produces anti-inflammatory SCFAs and metabolites that suppress NF-κB signaling directly. Its depletion is one of the most consistent findings across IBD, Parkinson's disease, and colorectal cancer.
 
-Bacteroidota (Bacteroidetes): Important for polysaccharide degradation via carbohydrate-active enzymes (CAZymes) and propionate production. Key members include [[bacteroides-fragilis]], [[bacteroides-thetaiotaomicron]], [[bacteroides-vulgatus]], and *Prevotella copri*. The Firmicutes/Bacteroidetes (F/B) ratio has been studied extensively as a dysbiosis marker, though its clinical interpretation is context-dependent.
+Bacteroidota (Bacteroidetes): Important for polysaccharide degradation via carbohydrate-active enzymes (CAZymes) and propionate production. Key members include [[bacteroides-fragilis]], [[bacteroides-thetaiotaomicron]], [[bacteroides-vulgatus]], and *Prevotella copri*. The Firmicutes/Bacteroidetes (F/B) ratio has been studied extensively as a [[dysbiosis]] marker, though its clinical interpretation is context-dependent.
 
 Minor phyla with outsized functional importance:
 - Actinobacteriota (Actinobacteria): [[bifidobacterium]] — major short-chain fatty acid and lactate producer; depleted across multiple disease states; enriched in breast-fed infants; produces immunomodulatory compounds
@@ -114,7 +114,7 @@ The iron paradox: Iron deficiency reduces Lactobacillus and promotes Bacteroidet
 
 ## Dysbiosis
 
-When the microbiome's composition or function is disrupted by metals, antibiotics, diet, infection, age, or other stressors, the result is [[dysbiosis]]: loss of diversity, loss of SCFA production, barrier breakdown, endotoxemia, and systemic inflammation. Key features of dysbiotic communities across diseases:
+When the microbiome's composition or function is disrupted by metals, antibiotics, diet, infection, age, or other stressors, the result is dysbiosis: loss of diversity, loss of SCFA production, barrier breakdown, endotoxemia, and systemic inflammation. Key features of dysbiotic communities across diseases:
 
 - Proteobacteria bloom: Expansion of facultative aerobes — *E. coli*, *Klebsiella*, *Enterobacter*, *Proteus* — from < 1% to 10–50% of the community
 - F/B ratio shifts: Reduction in Firmicutes (specifically SCFA producers) relative to Bacteroidetes; in severe dysbiosis, both Firmicutes and Bacteroidetes decline as Proteobacteria dominate
@@ -147,7 +147,7 @@ Dietary modification: The most powerful long-term intervention. A high-fiber, pl
 ## See Also
 
 - [[gut-metal-microbiome]] — the metal-specific dimension of gut microbiome interactions
-- [[dysbiosis]] — the pathological disruption of microbiome composition and function
+- dysbiosis — the pathological disruption of microbiome composition and function
 - [[microbiome-derived-metabolites]] — the functional outputs of microbiome composition
 - [[short-chain-fatty-acids]] — the central beneficial metabolite class
 - [[nutritional-immunity]] — how host metal sequestration intersects with microbiome ecology

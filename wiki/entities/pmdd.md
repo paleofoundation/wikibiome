@@ -53,7 +53,7 @@ The gut microbiome modulates this shunt: dysbiotic communities produce less indo
 
 ## Neuroinflammation and GABA-A Modulation
 
-Inflammatory cytokines from gut dysbiosis alter GABA-A receptor sensitivity to allopregnanolone, the neurosteroid metabolite of progesterone that normally produces calming effects during the luteal phase. In PMDD, cytokine-mediated changes in GABA-A receptor subunit expression reduce allopregnanolone sensitivity, converting a normally anxiolytic signal into an insufficient or paradoxically anxiogenic one.
+Inflammatory cytokines from gut [[dysbiosis]] alter GABA-A receptor sensitivity to allopregnanolone, the neurosteroid metabolite of progesterone that normally produces calming effects during the luteal phase. In PMDD, cytokine-mediated changes in GABA-A receptor subunit expression reduce allopregnanolone sensitivity, converting a normally anxiolytic signal into an insufficient or paradoxically anxiogenic one.
 
 ## Dietary Factors
 

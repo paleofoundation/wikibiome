@@ -114,11 +114,11 @@ Breaking this cycle requires restoring the conditions that suppress Proteobacter
 ## Cross-References
 
 - [[firmicutes]] -- Phylum whose SCFA producers are displaced as Proteobacteria bloom
-- [[bacteroidetes]] -- Co-depleted with Firmicutes in severe dysbiosis
+- [[bacteroidetes]] -- Co-depleted with Firmicutes in severe [[dysbiosis]]
 - [[siderophores-metallophores]] -- Iron acquisition systems that give Proteobacteria competitive advantage
 - [[co-selection]] -- Metal resistance and antibiotic resistance co-located
 - [[antimicrobial-resistance]] -- ARG enrichment in metal-tolerant Proteobacteria
 - [[iron]] -- Iron excess feeds Proteobacteria; iron restriction suppresses them
 - [[gallium]] -- Therapeutic Fe mimic targeting Proteobacteria siderophore uptake
-- [[dysbiosis]] -- Proteobacteria bloom as the most reliable dysbiosis marker
+- dysbiosis -- Proteobacteria bloom as the most reliable dysbiosis marker
 - [[nutritional-immunity]] -- Host iron sequestration affects Proteobacteria-commensal competition

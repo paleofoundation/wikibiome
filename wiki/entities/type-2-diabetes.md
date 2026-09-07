@@ -69,7 +69,7 @@ The [[lu-2024-nickel-diabetes-meta-analysis|Lu et al. (2024)]] meta-analysis of 
 
 The gut microbiome mediates several metal-diabetes pathways:
 
-Metal-induced dysbiosis drives metabolic dysfunction. [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li et al. (2019)]] demonstrated that environmentally relevant cadmium and arsenic exposure significantly perturbs gut microbiota and metabolome in ways linked to T2D pathways. Cadmium caused significant decreases in microbial diversity, reduced Bacteroidetes, and disrupted bile acid metabolism and amino acid profiles. Both metals affected butyrate-producing bacteria -- the same taxa whose loss is associated with insulin resistance.
+Metal-induced [[dysbiosis]] drives metabolic dysfunction. [[li-2019-heavy-metal-metabolic-health-gut-microbiome|Li et al. (2019)]] demonstrated that environmentally relevant cadmium and arsenic exposure significantly perturbs gut microbiota and metabolome in ways linked to T2D pathways. Cadmium caused significant decreases in microbial diversity, reduced Bacteroidetes, and disrupted bile acid metabolism and amino acid profiles. Both metals affected butyrate-producing bacteria -- the same taxa whose loss is associated with insulin resistance.
 
 SCFA depletion as a bridge. [[pendergrass-2026-heavy-metals-obesity-epidemic|Pendergrass (2026)]] proposed that chronic dietary heavy metal exposure selectively eliminates beneficial SCFA-producing bacteria (Roseburia, Faecalibacterium, Bifidobacterium) while enriching metal-tolerant pathogenic species. The resulting loss of butyrate production impairs intestinal barrier integrity, promotes LPS translocation, and triggers systemic inflammation converging on insulin resistance.
 

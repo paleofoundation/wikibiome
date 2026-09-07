@@ -76,7 +76,7 @@ Indole derivatives activate the aryl hydrocarbon receptor (AhR) on intestinal ep
 
 - Iron dependence of IDO/TDO: Both rate-limiting kynurenine pathway enzymes require heme iron. Iron dyshomeostasis directly alters the kynurenine/serotonin balance.
 - Metal-induced inflammation upregulates IDO1: Via IFN-gamma induction, metals shift tryptophan catabolism toward the neurotoxic kynurenine arm.
-- Metal-driven dysbiosis reduces indole-producing commensals: Loss of AhR ligand production impairs gut barrier integrity and removes anti-inflammatory signaling [[pendergrass-2026-heavy-metals-obesity-epidemic]].
+- Metal-driven [[dysbiosis]] reduces indole-producing commensals: Loss of AhR ligand production impairs gut barrier integrity and removes anti-inflammatory signaling [[pendergrass-2026-heavy-metals-obesity-epidemic]].
 - The net effect of metal exposure is a triple hit: more neurotoxic QUIN, less serotonin, and fewer protective AhR ligands.
 
 ## Key Sources

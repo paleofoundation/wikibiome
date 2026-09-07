@@ -177,7 +177,7 @@ Recurrent aphthous stomatitis (RAS):
 Helicobacter pylori eradication:
 - Nickel-free diet nearly doubled H. pylori eradication rate when combined with standard triple therapy: 84% vs 46% (p<0.01). The diet starves H. pylori of the nickel required for its urease and hydrogenase virulence enzymes [[campanale-2014-nickel-free-diet-h-pylori]].
 
-Gut dysbiosis:
+Gut [[dysbiosis]]:
 - Low-Ni diet + targeted [[probiotics]] resolved gut dysbiosis in 72.73% of SNAS patients vs 41.38% with diet alone. Fermentative dysbiosis (small intestine, elevated indican) is the predominant type in SNAS (64.71%). Benefits wane 4-6 weeks after treatment cessation [[lombardi-2020-snas-probiotics-dysbiosis]].
 
 Scoring systems and practical tools:

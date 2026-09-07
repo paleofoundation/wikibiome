@@ -21,7 +21,7 @@ karen_brain_primitives: [1, 5]
 
 ## Overview
 
-Vancomycin is a glycopeptide antibiotic targeting Gram-positive bacteria by binding D-Ala-D-Ala of peptidoglycan precursors. It is the last-resort treatment for MRSA and oral vancomycin is first-line for severe *[[clostridioides-difficile]]* infection. In the WikiBiome framework, vancomycin exemplifies the antibiotic-microbiome paradox: it treats C. difficile but causes profound dysbiosis that increases future C. difficile recurrence risk.
+Vancomycin is a glycopeptide antibiotic targeting Gram-positive bacteria by binding D-Ala-D-Ala of peptidoglycan precursors. It is the last-resort treatment for MRSA and oral vancomycin is first-line for severe *[[clostridioides-difficile]]* infection. In the WikiBiome framework, vancomycin exemplifies the antibiotic-microbiome paradox: it treats C. difficile but causes profound [[dysbiosis]] that increases future C. difficile recurrence risk.
 
 ## Microbiome Impact
 

@@ -65,7 +65,7 @@ Dialister abundance is one of the most consistent protective markers in depressi
  - Succinate deficiency in depression correlates with mitochondrial dysfunction in hippocampal neurons
  - Oral succinate supplementation (in rodent models) partially reverses Dialister depletion phenotypes
 
-2. Short-Chain Fatty Acid Dysbiosis
+2. Short-Chain Fatty Acid [[dysbiosis]]
  - Dialister depletion co-occurs with reduced butyrate and propionate production
  - Butyrate is essential for histone deacetylase (HDAC) inhibition, which promotes BDNF expression in the brain
  - Loss of Dialister contributes to reduced BBB integrity via claudin-5 downregulation
@@ -146,4 +146,4 @@ Dialister abundance is one of the most consistent protective markers in depressi
 - – Dialister protects against tryptophan shunting into neurotoxic pathway
 - [[veillonella]] – genus family member; shared metabolic pathway
 - [[blautia]] – frequently co-enriched in healthy microbiota
-- [[dysbiosis]] – Dialister depletion is a key dysbiosis marker across multiple conditions
+- dysbiosis – Dialister depletion is a key dysbiosis marker across multiple conditions

@@ -21,7 +21,7 @@ Cephalosporins are a class of beta-lactam antibiotics (five generations) that in
 
 ## Microbiome Disruption
 
-Broad-spectrum cephalosporins (3rd/4th generation: ceftriaxone, cefepime) cause profound dysbiosis: deplete Firmicutes/Bacteroidetes commensals → Proteobacteria bloom → [[colonization-resistance]] failure → increased risk of C. difficile and VRE secondary infection [[bing-2019-antibiotic-induced-dysbiosis-gut-microbiota]].
+Broad-spectrum cephalosporins (3rd/4th generation: ceftriaxone, cefepime) cause profound [[dysbiosis]]: deplete Firmicutes/Bacteroidetes commensals → Proteobacteria bloom → [[colonization-resistance]] failure → increased risk of C. difficile and VRE secondary infection [[bing-2019-antibiotic-induced-dysbiosis-gut-microbiota]].
 
 ## Siderophore-Cephalosporin Conjugate
 

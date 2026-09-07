@@ -57,7 +57,7 @@ The Pendergrass framework proposes ferroptosis as the convergent cell death mech
 3. Alpha-synuclein aggregation in the enteric nervous system may be triggered by metal-induced oxidative stress
 4. Ferroptosis drives both gut epithelial damage and dopaminergic neuron death
 
-PD patients consistently show reduced Prevotellaceae, Lachnospiraceae, and Faecalibacterium with increased Enterobacteriaceae -- a pattern consistent with metal-driven dysbiosis.
+PD patients consistently show reduced Prevotellaceae, Lachnospiraceae, and Faecalibacterium with increased Enterobacteriaceae -- a pattern consistent with metal-driven [[dysbiosis]].
 
 ## Ferroptosis in Cancer
 

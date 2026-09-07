@@ -35,7 +35,7 @@ The same study used fatty-acid-synthase inhibition and antioxidant-pathway manip
 
 Microbial influence can begin at a damaged epithelial barrier. A systematic review of NSAID enteropathy describes Gram-negative bacterial lipopolysaccharide engaging TLR4, followed by NF-kappa-B and NLRP3 signaling; germ-free or differently colonized animal models in the reviewed literature also showed that microbial context altered susceptibility to intestinal injury [[rekatsina-2020-microbiota-nsaid-enteropathy-probiotics-review]].
 
-An independent rat study linked indomethacin exposure to intestinal dysbiosis, bacterial translocation, impaired barrier structure, and increased hepatic TLR4, NLRP3-pathway, IL-18, and caspase-1 measurements. Its accompanying human observations were associative, so the study supports a plausible gut-barrier-to-inflammation route without proving that NLRP3 caused the reported neurodevelopmental outcomes [[mohamed-2023-nsaid-dysbiosis-autoimmune-liver-asd]].
+An independent rat study linked indomethacin exposure to intestinal [[dysbiosis]], bacterial translocation, impaired barrier structure, and increased hepatic TLR4, NLRP3-pathway, IL-18, and caspase-1 measurements. Its accompanying human observations were associative, so the study supports a plausible gut-barrier-to-inflammation route without proving that NLRP3 caused the reported neurodevelopmental outcomes [[mohamed-2023-nsaid-dysbiosis-autoimmune-liver-asd]].
 
 Microbial signals need not be limited to bacterial LPS. A gut-thyroid-axis review describes microbiota-derived extracellular ATP as an NLRP3-associated signal linked to IL-1beta and IL-18 secretion, while a cancer-mycobiome review describes fungal beta-glucans, chitin, and mannose engaging C-type lectin receptor–CARD9 pathways that converge on NF-kappa-B, reactive oxygen species, and NLRP3 signaling [[zhu-2024-intestinal-microbiota-gut-thyroid-axis-hashimotos]] [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].
 
@@ -67,7 +67,7 @@ That context dependence is why WikiBiome does not label every NLRP3-associated c
 - [[tlr4]]
 - [[oxidative-stress]]
 - [[reactive-oxygen-species]]
-- [[dysbiosis]]
+- dysbiosis
 - [[short-chain-fatty-acids]]
 - [[mycobiome]]
 - [[tmao]]

@@ -63,7 +63,7 @@ In metal-exposed individuals, the acute-to-chronic transition is favored because
 ## Indirect Metal-Driven Inflammation
 
 ### Via Dysbiosis
-- Metal-induced [[dysbiosis]] shifts gut communities toward gram-negative, LPS-producing pathobionts.
+- Metal-induced dysbiosis shifts gut communities toward gram-negative, LPS-producing pathobionts.
 - Increased LPS translocates through the compromised gut barrier into systemic circulation.
 - Circulating LPS activates TLR4/NF-kB on macrophages, hepatocytes, and microglia, producing chronic low-grade systemic inflammation [[khan-2020-environmental-exposures-autoimmune-gut-microbiome]].
 - This is the primary route by which gut metal exposure drives distant organ inflammation (brain, joints, thyroid, vasculature).
@@ -156,7 +156,7 @@ These biomarkers cannot distinguish metal-driven from pathogen-driven inflammati
 - [[oxidative-stress]] -- ROS generation drives and amplifies inflammation
 - [[glutathione]] -- depletion removes brake on inflammatory ROS
 - [[calprotectin]], [[lactoferrin]] -- inflammatory effectors of nutritional immunity
-- [[dysbiosis]] -- metal-induced dysbiosis is a major indirect inflammatory driver
+- dysbiosis -- metal-induced dysbiosis is a major indirect inflammatory driver
 - [[gut-metal-microbiome]] -- the ecosystem where metal and microbial inflammation converge
 - [[short-chain-fatty-acids]] -- butyrate suppresses NF-kB and promotes M2 macrophage polarization
 - [[ferroptosis]] -- iron-dependent inflammatory cell death pathway

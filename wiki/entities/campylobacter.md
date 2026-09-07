@@ -38,7 +38,7 @@ Campylobacter is a genus of Gram-negative, microaerophilic, spiral-shaped bacter
 
 ## Disease Associations
 
-- Heart failure: Part of gut dysbiosis in heart failure via Mendelian randomization [[luo-2022-gut-microbiota-metabolites-heart-failure-mr]].
+- Heart failure: Part of gut [[dysbiosis]] in heart failure via Mendelian randomization [[luo-2022-gut-microbiota-metabolites-heart-failure-mr]].
 - IBD: Campylobacter concisus enriched in IBD; may act as pathobiont in inflamed mucosa [[wang-2024-ibd-integrated-16s-metagenomics-virulence-factors]].
 - Prostatitis: Detected in chronic prostatitis microbiome [[vocca-2025-probiotics-chronic-bacterial-prostatitis-rct]].
 

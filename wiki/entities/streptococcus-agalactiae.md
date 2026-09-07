@@ -23,7 +23,7 @@ pathogenic_potential: opportunistic
 
 # Streptococcus agalactiae
 
-Streptococcus agalactiae, also known as Group B Streptococcus (GBS), is a Gram-positive, facultatively anaerobic coccus that exists in two clinical contexts: (1) as a major neonatal pathogen causing life-threatening meningitis and sepsis in newborns, and (2) as an enriched dysbiotic pathobiont in [[endometriosis]] and other estrogen-dependent conditions. The latter role is less well-recognized but epidemiologically significant: GBS is enriched in the reproductive tract and distal gut of endometriosis patients and may contribute to disease pathogenesis through zinc-dependent metallopeptidase secretion, beta-glucuronidase activity driving estrogen recirculation, and biofilm formation that promotes chronic inflammation and dysbiosis. Its zinc and manganese dependencies and roles in metal-dependent virulence make it a key Cureva/WikiBiome entity.
+Streptococcus agalactiae, also known as Group B Streptococcus (GBS), is a Gram-positive, facultatively anaerobic coccus that exists in two clinical contexts: (1) as a major neonatal pathogen causing life-threatening meningitis and sepsis in newborns, and (2) as an enriched dysbiotic pathobiont in [[endometriosis]] and other estrogen-dependent conditions. The latter role is less well-recognized but epidemiologically significant: GBS is enriched in the reproductive tract and distal gut of endometriosis patients and may contribute to disease pathogenesis through zinc-dependent metallopeptidase secretion, beta-glucuronidase activity driving estrogen recirculation, and biofilm formation that promotes chronic inflammation and [[dysbiosis]]. Its zinc and manganese dependencies and roles in metal-dependent virulence make it a key Cureva/WikiBiome entity.
 
 ## Taxonomy and Basic Properties
 
@@ -241,7 +241,7 @@ The mimicry of host hyaluronic acid is particularly clever: the bacterial GBC is
 -  – Group B carbohydrate mimics host hyaluronic acid; immune evasion
 -  – Invades epithelial cells; survives in vacuoles
 -  – Key pathobiont in dysbiotic reproductive microbiota
-- [[dysbiosis]] – Enriched in dysbiotic gut and reproductive tract
+- dysbiosis – Enriched in dysbiotic gut and reproductive tract
 
 ## Zinc and Endometriosis Intervention Implications (Cureva Layer)
 

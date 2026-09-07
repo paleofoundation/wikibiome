@@ -20,7 +20,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Enterobacteriaceae
 
-A family of Gram-negative, facultative anaerobic Gammaproteobacteria that includes many of the most important human pathogens: [[escherichia-coli]], [[klebsiella-pneumoniae]], [[salmonella-typhimurium]], [[shigella-flexneri]], [[yersinia-pestis]], [[proteus-mirabilis]], Morganella, and Serratia. Their bloom in the gut is the hallmark signature of dysbiosis across virtually every disease state in this wiki, and their iron-scavenging capacity gives them a decisive competitive advantage under conditions of [[gut-metal-microbiome]] disruption.
+A family of Gram-negative, facultative anaerobic Gammaproteobacteria that includes many of the most important human pathogens: [[escherichia-coli]], [[klebsiella-pneumoniae]], [[salmonella-typhimurium]], [[shigella-flexneri]], [[yersinia-pestis]], [[proteus-mirabilis]], Morganella, and Serratia. Their bloom in the gut is the hallmark signature of [[dysbiosis]] across virtually every disease state in this wiki, and their iron-scavenging capacity gives them a decisive competitive advantage under conditions of [[gut-metal-microbiome]] disruption.
 
 ## Iron-Dependent Virulence
 
@@ -70,7 +70,7 @@ Enterobacteriaceae expansion is enriched in virtually every disease state:
 - [[cardiovascular-disease]] -- TMAO production and LPS-driven atherosclerosis
 - [[colorectal-cancer]] -- colibactin genotoxicity and iron-rich tumor niche
 - [[parkinsons-disease]] -- LPS-driven neuroinflammation via gut-brain axis
-- [[dysbiosis]] -- their bloom is THE hallmark of dysbiotic gut states
+- dysbiosis -- their bloom is THE hallmark of dysbiotic gut states
 - [[inflammation]] -- LPS/TLR4/NF-kB endotoxemia cascade
 - [[gut-metal-microbiome]] -- metal-tolerant; bloom under heavy metal exposure
 - [[ferroptosis]] -- iron-dependent; may contribute to iron-driven cell death pathways

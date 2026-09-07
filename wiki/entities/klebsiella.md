@@ -29,7 +29,7 @@ platform: wikibiome
 
 # Klebsiella
 
-Klebsiella is a genus of Gram-negative, encapsulated, facultatively anaerobic bacteria in the Enterobacteriaceae family. With 141 file mentions across the vault, Klebsiella is one of the most frequently referenced opportunistic pathogens. The dominant species is *[[klebsiella-pneumoniae]]*, but the genus-level page captures the shared biology — particularly the metal-dependent virulence and siderophore arsenal that drive Klebsiella's expansion during dysbiosis.
+Klebsiella is a genus of Gram-negative, encapsulated, facultatively anaerobic bacteria in the Enterobacteriaceae family. With 141 file mentions across the vault, Klebsiella is one of the most frequently referenced opportunistic pathogens. The dominant species is *[[klebsiella-pneumoniae]]*, but the genus-level page captures the shared biology — particularly the metal-dependent virulence and siderophore arsenal that drive Klebsiella's expansion during [[dysbiosis]].
 
 For species-level detail, see [[klebsiella-pneumoniae]].
 

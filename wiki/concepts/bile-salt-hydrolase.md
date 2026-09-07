@@ -33,7 +33,7 @@ Deconjugated bile acids undergo further microbial transformation (7α-dehydroxyl
 
 ## WikiBiome Relevance
 
-- BSH activity determines the balance between primary and secondary bile acids — a balance disrupted by dysbiosis.
+- BSH activity determines the balance between primary and secondary bile acids — a balance disrupted by [[dysbiosis]].
 - Antibiotic-induced loss of BSH-producing bacteria → primary bile acid accumulation → C. difficile spore germination (primary bile acids promote it; secondary bile acids inhibit it).
 - BSH is a target for probiotic engineering — enhancing BSH activity could improve cholesterol metabolism.
 

@@ -29,5 +29,5 @@ Environmental exposures, including heavy metals, significantly alter seminal mic
 
 - [[gut-testis-axis]] — bidirectional gut-reproductive communication
 - [[gut-prostate-axis]] — prostate-specific gut microbiome interactions
-- [[male-infertility]] — clinical outcomes linked to seminal dysbiosis
+- [[male-infertility]] — clinical outcomes linked to seminal [[dysbiosis]]
 - [[staphylococcus-epidermidis]] — common seminal microbiome constituent

@@ -67,7 +67,7 @@ Discussed in reviews of probiotics for ASD via the gut-brain axis, though specie
 
 ### Mycobiome Context
 
-- Part of the gut mycobiome discussion in CKD, where fungal dysbiosis affects immunological profiles [[hu-2022-gut-mycobiome-ckd-immunological-profiles]].
+- Part of the gut mycobiome discussion in CKD, where fungal [[dysbiosis]] affects immunological profiles [[hu-2022-gut-mycobiome-ckd-immunological-profiles]].
 - Discussed in cardiometabolic disease mycobiome studies [[wei-2025-gut-mycobiome-cardiometabolic-disease]] [[wei-2025-gut-mycobiome-cardiometabolic-progression]].
 - Relevant to cancer mycobiome interventions [[ding-2025-mycobiome-human-cancer-mechanisms-therapeutics]].
 - Altered in gestational diabetes mycobiome [[wang-2026-intestinal-fungal-dysbiosis-gdm-adverse-pregnancy-outcomes]].
@@ -77,5 +77,5 @@ Discussed in reviews of probiotics for ASD via the gut-brain axis, though specie
 - [[saccharomyces]] — genus page
 - [[mycobiome]] — fungal component of gut microbiome
 - [[candida-albicans]] — pathogenic fungus that S. boulardii competitively excludes
-- [[dysbiosis]] — S. boulardii as mycobiome-modulating intervention
+- dysbiosis — S. boulardii as mycobiome-modulating intervention
 - [[interleukin-6]] — S. boulardii reduces IL-6 production

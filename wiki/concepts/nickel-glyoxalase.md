@@ -38,7 +38,7 @@ Key difference from human enzyme: Human cytoplasmic Zn-GlxI has different cataly
 
 ## Role in Disease
 
-[[escherichia-coli]] with active Ni-GlxI is especially prominent in dysbiosis-driven conditions:
+[[escherichia-coli]] with active Ni-GlxI is especially prominent in [[dysbiosis]]-driven conditions:
 
 - [[endometriosis]] — Ni-rich, estrogen-dependent E. coli proliferation; Ni-GlxI enables rapid growth under fermentative stress.
 - [[inflammatory-bowel-disease]] — Dysbiotic E. coli with Ni-dependent detoxification; low-oxygen environments favor MG accumulation.

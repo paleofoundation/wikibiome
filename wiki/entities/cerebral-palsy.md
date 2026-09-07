@@ -19,7 +19,7 @@ shared_signature_taxa: {necrotizing-enterocolitis: [klebsiella-enriched, bifidob
 
 # Cerebral Palsy (CP)
 
-Cerebral palsy (CP) is the most common motor disability in childhood, affecting 2-3 per 1,000 live births [[allen-2021-multi-organ-dysfunction-cerebral-palsy]]. Characterized by non-progressive disturbances in movement and posture arising from injury to the developing brain, CP has traditionally been attributed to perinatal asphyxia. However, only 10-20% of cases are caused by birth asphyxia alone. The microbiome perspective reveals critical pathways from gut dysbiosis to white matter injury, particularly through the NEC-to-CP pathway [[wang-2023-microbial-gut-brain-white-matter-preterm]] and the oral-gut inflammatory axis [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]].
+Cerebral palsy (CP) is the most common motor disability in childhood, affecting 2-3 per 1,000 live births [[allen-2021-multi-organ-dysfunction-cerebral-palsy]]. Characterized by non-progressive disturbances in movement and posture arising from injury to the developing brain, CP has traditionally been attributed to perinatal asphyxia. However, only 10-20% of cases are caused by birth asphyxia alone. The microbiome perspective reveals critical pathways from gut [[dysbiosis]] to white matter injury, particularly through the NEC-to-CP pathway [[wang-2023-microbial-gut-brain-white-matter-preterm]] and the oral-gut inflammatory axis [[ferreira-2021-oral-gut-inflammation-cerebral-palsy]].
 
 ## The NEC-to-CP Pathway
 

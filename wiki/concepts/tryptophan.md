@@ -57,7 +57,7 @@ Tryptophan depletion or pathway imbalance appears across a remarkable range of c
 - Depression: The "serotonin hypothesis" is an oversimplification, but IDO-mediated tryptophan steal -- diverting substrate from serotonin to kynurenine -- is well-documented in inflammatory depression [[capuco-2020-gut-microbiome-dysbiosis-depression-review]].
 - Schizophrenia: Kynurenine pathway dysregulation with elevated kynurenic acid (an NMDA antagonist) is implicated in cognitive deficits [[szeligowski-2020-gut-microbiome-schizophrenia-review]].
 - Chronic kidney disease: Indoxyl sulfate, a uremic toxin derived from bacterial tryptophan metabolism, is a key driver of CKD progression and cardiovascular complications. See [[tmao|uremic-toxins]] [[wehedy-2022-human-microbiome-ckd-double-edged-sword]].
-- Cardiovascular disease: Microbial IPA is atheroprotective; its depletion in dysbiosis may accelerate atherosclerosis [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
+- Cardiovascular disease: Microbial IPA is atheroprotective; its depletion in [[dysbiosis]] may accelerate atherosclerosis [[hoffelner-2025-emerging-therapy-targets-microbiome-cvd]].
 - PMDD: Tryptophan-serotonin pathway alterations are implicated in the neuroinflammatory component of premenstrual dysphoric disorder [[cheng-2025-neuroinflammation-pms-pmdd-review]].
 - Parkinson's disease: Kynurenine pathway metabolites contribute to neuroinflammation and dopaminergic neuron damage [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
 

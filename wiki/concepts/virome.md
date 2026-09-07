@@ -19,7 +19,7 @@ platform: wikibiome
 
 The virome is the collection of all viruses inhabiting a given ecosystem -- in the gut, this means primarily bacteriophages (phages), which constitute ~90% of the intestinal virome. While microbiome research has historically focused on bacteria, mounting evidence shows the virome is not a passive bystander but an active ecological force: phages shape bacterial community composition through selective predation, horizontal gene transfer, and modulation of bacterial fitness. In several conditions, virome-based classifiers outperform bacterial signatures for disease prediction.
 
-The gut virome is the "dark matter" of the microbiome -- poorly characterized relative to the bacteriome, but increasingly recognized as a driver of dysbiosis rather than merely a consequence.
+The gut virome is the "dark matter" of the microbiome -- poorly characterized relative to the bacteriome, but increasingly recognized as a driver of [[dysbiosis]] rather than merely a consequence.
 
 ## Composition
 
@@ -90,7 +90,7 @@ The virome does not operate in isolation. In schizophrenia, tripartite analysis 
 
 - [[gut-microbiome]] -- The virome as the overlooked component
 - [[proteobacteria]] -- Phylum whose bloom may be triggered by phage-mediated commensal killing
-- [[dysbiosis]] -- Virome dysbiosis as upstream trigger
+- dysbiosis -- Virome dysbiosis as upstream trigger
 - [[antimicrobial-resistance]] -- Phage therapy as alternative to antibiotics
 - [[gut-brain-axis]] -- Phage-toxin-neurodegeneration pathway
 - [[probiotics]] -- Phage-probiotic coevolution in health

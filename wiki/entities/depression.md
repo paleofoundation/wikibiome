@@ -99,7 +99,7 @@ Depression co-occurs with virtually every disease in this wiki, amplified by sha
 ### Gut-Brain and Microbiome
 - [[gut-brain-axis]] -- bidirectional vagal, endocrine, and immune communication linking gut dysbiosis to mood
 - [[tryptophan-metabolism]] -- IDO-mediated shunting from serotonin to neurotoxic kynurenine metabolites
-- [[dysbiosis]] -- depletion of butyrate producers and enrichment of pro-inflammatory taxa
+- dysbiosis -- depletion of butyrate producers and enrichment of pro-inflammatory taxa
 - [[inflammation]] -- peripheral and central inflammation converge on depression via IL-6, TNF-alpha, CRP
 - [[neuroinflammation]] -- microglial activation, kynurenine pathway, and BBB disruption
 - [[short-chain-fatty-acids]] -- butyrate depletion weakens barrier function and reduces anti-inflammatory signaling

@@ -40,7 +40,7 @@ Citrobacter is a genus of Gram-negative, facultatively anaerobic bacteria in the
 
 ### Iron
 
-Like other Enterobacteriaceae, Citrobacter produces enterobactin and other siderophores for iron acquisition. Iron availability in the inflamed gut favors Citrobacter expansion alongside *E. coli* and Klebsiella, contributing to the characteristic Enterobacteriaceae bloom in dysbiosis [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
+Like other Enterobacteriaceae, Citrobacter produces enterobactin and other siderophores for iron acquisition. Iron availability in the inflamed gut favors Citrobacter expansion alongside *E. coli* and Klebsiella, contributing to the characteristic Enterobacteriaceae bloom in [[dysbiosis]] [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
 
 ### Nickel
 

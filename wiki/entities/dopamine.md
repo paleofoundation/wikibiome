@@ -29,7 +29,7 @@ Dopamine synthesis: Tyrosine → L-DOPA → Dopamine
 - Tyrosine hydroxylase (TH) catalyzes the rate-limiting step: tyrosine → L-DOPA. TH requires Fe2+ in its active site and is stimulated up to 13-fold by 1 mM Fe [[riederer-2021-iron-concert-master-parkinsons]].
 - In Parkinson's disease, 60% TH activity reduction is observed in the striatum [[riederer-2021-iron-concert-master-parkinsons]].
 - p-Cresol -- a microbial metabolite elevated in PD gut -- inhibits dopamine synthesis by interfering with iron-containing TH [[novikova-2025-microbiome-derived-metabolites-parkinsons-thesis]], [[pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis]].
-- This creates a direct pathway: gut dysbiosis → elevated p-cresol → TH inhibition → dopamine depletion.
+- This creates a direct pathway: gut [[dysbiosis]] → elevated p-cresol → TH inhibition → dopamine depletion.
 
 ## Dopaminergic Neurodegeneration and Iron
 

@@ -74,7 +74,7 @@ The gut microbiome contributes to tau pathology through several pathways:
 
 ### SCFA Depletion
 - [[butyrate|Butyrate]] and other [[short-chain-fatty-acids]] suppress neuroinflammation through HDAC inhibition and regulatory T cell induction
-- Loss of SCFA-producing commensals (a consistent feature of AD-associated dysbiosis) removes this anti-inflammatory brake, permitting sustained microglial activation and tau phosphorylation
+- Loss of SCFA-producing commensals (a consistent feature of AD-associated [[dysbiosis]]) removes this anti-inflammatory brake, permitting sustained microglial activation and tau phosphorylation
 
 ### Microbial Amyloid
 - Gut bacteria produce functional amyloid proteins (e.g., curli fibers by *E. coli*) that can cross-seed the aggregation of human [[amyloid-beta]] and tau through prion-like templating mechanisms [[alonso-garcia-2021-gut-microbiota-proteinopathies]]

@@ -73,7 +73,7 @@ Despite mechanistic plausibility (Mg is required for >300 enzymes and has shown 
 
 ## Gut Microbiome Connection
 
-The gut microbiome is both a contributor to and a target of PPD pathophysiology. Observational and causal evidence now converge on a consistent dysbiosis signature.
+The gut microbiome is both a contributor to and a target of PPD pathophysiology. Observational and causal evidence now converge on a consistent [[dysbiosis]] signature.
 
 ### The PPD Microbiome Signature
 

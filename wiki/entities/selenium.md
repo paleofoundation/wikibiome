@@ -85,7 +85,7 @@ This is where WikiBiome's coverage departs most significantly from conventional 
 ### Selenium Shapes Gut Microbial Diversity
 
 - Infant gut diversity: In a prospective cohort of 146 mother-infant pairs, Shannon diversity in 3-month-old infants correlated positively with maternal selenium exposure (measured in hair) and negatively with copper -- suggesting selenium promotes a more diverse early-life microbial ecosystem [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]], [[xiong-2025-prenatal-trace-elements-mother-infant-gut-microbiome]].
-- This stands in contrast to toxic metals such as copper and arsenic, which at high levels enriched antibiotic resistance genes and drove dysbiosis in the same cohort [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
+- This stands in contrast to toxic metals such as copper and arsenic, which at high levels enriched antibiotic resistance genes and drove [[dysbiosis]] in the same cohort [[xiong-2025-prenatal-trace-elements-infant-gut-microbiome]].
 
 ### Selenium Protects Against Metal-Induced Dysbiosis
 

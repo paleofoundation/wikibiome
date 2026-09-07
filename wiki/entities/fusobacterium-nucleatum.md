@@ -80,7 +80,7 @@ A Gram-negative obligate anaerobe that has emerged as a major pathogen in colore
 
 ### Other Gastrointestinal and Gynecologic Cancers
 
-- Pancreatic cancer: *F. nucleatum* is detected in pancreatic tumor microbiomes and contributes to a pro-tumorigenic dysbiosis [[zhang-2022-gut-dysbiosis-pancreatic-diseases-therapeutic-target]].
+- Pancreatic cancer: *F. nucleatum* is detected in pancreatic tumor microbiomes and contributes to a pro-tumorigenic [[dysbiosis]] [[zhang-2022-gut-dysbiosis-pancreatic-diseases-therapeutic-target]].
 - Esophageal disease and upper-GI carcinogenesis: *Fusobacterium* is enriched in Type II (Gram-negative, inflammatory) esophageal microbiome signatures linked to reflux, Barrett's, and carcinogenesis [[alageel-2025-microbiome-composition-gerd-systematic-review]] [[deshpande-2018-esophageal-microbiome-signatures-host-genetics]] [[catala-valentin-2021-bacterial-host-homeostasis-upper-gi-carcinogenesis]].
 
 ### Periodontitis and Systemic Disease

@@ -119,7 +119,7 @@ Low-sugar, anti-Bacteroidetes diet: Reducing dietary sucrose and rapidly digesti
 | Source | Evidence Level | Key Contribution |
 |--------|---------------|-----------------|
 | [[he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese]] (2023) | Cross-sectional | Elevated stool PPA; dose-response with ASD severity; taxa-PPA correlations; AUC 0.924 for classification |
-| [[zhuang-2024-asd-pathogenesis-biomarker-intervention]] (2024) | Expert opinion (review) | Multi-omics ASD pathogenesis; dysbiosis → mitochondrial dysfunction convergence |
+| [[zhuang-2024-asd-pathogenesis-biomarker-intervention]] (2024) | Expert opinion (review) | Multi-omics ASD pathogenesis; [[dysbiosis]] → mitochondrial dysfunction convergence |
 
 ## Cross-References
 
@@ -131,5 +131,5 @@ Low-sugar, anti-Bacteroidetes diet: Reducing dietary sucrose and rapidly digesti
 - [[short-chain-fatty-acids]] — the broader SCFA context
 - [[mitochondrial-dysfunction]] — the primary neurotoxic mechanism of PPA excess
 - [[neuroinflammation]] — microglial activation by excess PPA
-- [[dysbiosis]] — the community state that produces excess propionate
+- dysbiosis — the community state that produces excess propionate
 - [[lactobacillus]] — negatively correlated with PPA levels; buffers propionate through metabolic competition

@@ -141,7 +141,7 @@ Fungi represent ~0.1% of gut microorganisms but play important roles in CRC:
 
 - Co-exclusion of healthy-associated viruses with CRC-enriched bacteria
 - *Enterobacteria* phage P88 positively correlated with butyrate-producing *Megasphaera*
-- Virome dysbiosis partially persists after surgery, indicating stable alterations
+- Virome [[dysbiosis]] partially persists after surgery, indicating stable alterations
 - Trans-kingdom virus-bacteria networks are disrupted in CRC
 
 ## Iron and Ferroptosis in CRC

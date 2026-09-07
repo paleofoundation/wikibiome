@@ -17,7 +17,7 @@ platform: wikibiome
 
 ## Overview
 
-The oral microbiome is the second most complex microbial community in the human body after the gut, harboring ~700 species across distinct niches (tongue, buccal mucosa, gingival crevice, saliva, dental plaque). While traditionally studied in the context of dental disease, the oral microbiome is increasingly recognized as a systemic health sentinel -- oral dysbiosis signatures predict cardiovascular disease, neurodegeneration, cancer, and autoimmunity, often years before clinical diagnosis.
+The oral microbiome is the second most complex microbial community in the human body after the gut, harboring ~700 species across distinct niches (tongue, buccal mucosa, gingival crevice, saliva, dental plaque). While traditionally studied in the context of dental disease, the oral microbiome is increasingly recognized as a systemic health sentinel -- oral [[dysbiosis]] signatures predict cardiovascular disease, neurodegeneration, cancer, and autoimmunity, often years before clinical diagnosis.
 
 The oral-gut axis provides a direct conduit: bacteria swallowed in saliva (~1 L/day) continuously seed the gastrointestinal tract. When gastric acid barriers are compromised (PPIs, achlorhydria), oral organisms colonize the gut in pathologically relevant numbers.
 

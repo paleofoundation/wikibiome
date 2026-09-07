@@ -92,7 +92,7 @@ The most clinically significant pathobiont within the genus, with strong associa
 
 In healthy gut ecology, *Ruminococcus* (primarily *R. bromii*) functions as a primary degrader that unlocks dietary fiber for the wider microbial community. Without its starch-degrading capacity, the cross-feeding network that sustains [[faecalibacterium-prausnitzii]], [[roseburia]], and [[anaerostipes]] is impaired.
 
-In dysbiosis, *R. gnavus* exploits mucin as a substrate when fermentable fiber is reduced — meaning a fiber-depleted gut shifts *Ruminococcus* from starch-to-butyrate contribution toward mucin degradation and inflammatory polysaccharide production. This substrate-driven behavioral switch is a key insight for understanding how diet modulates inflammatory potential.
+In [[dysbiosis]], *R. gnavus* exploits mucin as a substrate when fermentable fiber is reduced — meaning a fiber-depleted gut shifts *Ruminococcus* from starch-to-butyrate contribution toward mucin degradation and inflammatory polysaccharide production. This substrate-driven behavioral switch is a key insight for understanding how diet modulates inflammatory potential.
 
 ## Interkingdom and Community Interactions
 
@@ -122,7 +122,7 @@ Wikipedia's *Ruminococcus* entry focuses on starch degradation and general fiber
 - [[roseburia]] — receives oligosaccharides from *R. bromii* keystone degradation
 - [[anaerostipes]] — downstream beneficiary of R. bromii's starch degradation cascade
 - [[lachnospiraceae]] — taxonomic overlap; former Clostridium cluster XIV members
-- [[dysbiosis]] — species-level shifts within *Ruminococcus* signal disease-specific dysbiosis patterns
+- dysbiosis — species-level shifts within *Ruminococcus* signal disease-specific dysbiosis patterns
 - [[inflammation]] — *R. gnavus* polysaccharides directly activate TNF-alpha/TLR4
 - [[iron]] — Fe-S clusters essential for anaerobic metabolism across the genus
 - [[lead]] — prenatal Pb depletes R. gnavus and R. bromii-associated community members

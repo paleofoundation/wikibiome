@@ -95,7 +95,7 @@ In the gastrointestinal tract, *Alternaria* is typically a transient colonizer �
 ## Cross-References
 
 - [[aspergillus]] — co-enriched with Alternaria under PPI therapy; fellow environmental mold
-- [[gerd]] — PPI-associated fungal dysbiosis
+- [[gerd]] — PPI-associated fungal [[dysbiosis]]
 - [[candida-albicans]] — dominant gut fungus that may interact with Alternaria colonization
 - [[cystic-fibrosis]] — airway fungal colonization
 - [[estrobolome]] — alternariol's weak estrogenic activity intersects with microbial estrogen metabolism

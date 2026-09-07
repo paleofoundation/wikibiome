@@ -72,7 +72,7 @@ The metalloestrogen concept is particularly relevant to POI: cadmium and other m
 
 - [[female-infertility]] — POI is a major cause of female infertility; shared microbiome and metal signatures
 - [[endometriosis]] — Shared estrobolome dysregulation and beta-glucuronidase enrichment
-- [[pcos]] — Opposite hormonal phenotype (hyperandrogenism vs. hypogonadism) but shared gut dysbiosis patterns
+- [[pcos]] — Opposite hormonal phenotype (hyperandrogenism vs. hypogonadism) but shared gut [[dysbiosis]] patterns
 
 ## Environmental Factors
 

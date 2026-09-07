@@ -30,7 +30,7 @@ platform: wikibiome
 
 # Escherichia
 
-Escherichia is a genus of Gram-negative, facultatively anaerobic bacteria in the Enterobacteriaceae family. The primary species *E. coli* is simultaneously the most studied bacterium in biology and one of the most consistently enriched organisms in disease-associated microbiomes. In 16S rRNA studies, Escherichia is inseparable from [[shigella]] and reported as the *Escherichia/Shigella* complex — the single most reliable marker of gut dysbiosis across conditions in this wiki (230+ source mentions).
+Escherichia is a genus of Gram-negative, facultatively anaerobic bacteria in the Enterobacteriaceae family. The primary species *E. coli* is simultaneously the most studied bacterium in biology and one of the most consistently enriched organisms in disease-associated microbiomes. In 16S rRNA studies, Escherichia is inseparable from [[shigella]] and reported as the *Escherichia/Shigella* complex — the single most reliable marker of gut [[dysbiosis]] across conditions in this wiki (230+ source mentions).
 
 For the species page, see [[escherichia-coli]]. For the pathogenic variant, see [[adherent-invasive-e-coli]].
 

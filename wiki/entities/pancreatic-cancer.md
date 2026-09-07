@@ -71,7 +71,7 @@ The JAMA Oncology study by Meng et al. (2025) -- a nested case-control within 12
 
 ## Gut Microbiome
 
-Gut [[dysbiosis]] drives pancreatic carcinogenesis through persistent low-grade inflammation. LPS from Gram-negative bacteria activates NF-kB and MAPK signaling, while SCFA imbalance removes protective anti-inflammatory signals. [[bile-acid-metabolism]] alterations are central: deoxycholic acid promotes DNA damage via EGFR ligand amphiregulin. Obesity and type 2 diabetes -- both established PC risk factors -- converge on gut dysbiosis with decreased microbial diversity, increased Firmicutes/Bacteroidetes ratio, and procarcinogenic metabolite production.
+Gut dysbiosis drives pancreatic carcinogenesis through persistent low-grade inflammation. LPS from Gram-negative bacteria activates NF-kB and MAPK signaling, while SCFA imbalance removes protective anti-inflammatory signals. [[bile-acid-metabolism]] alterations are central: deoxycholic acid promotes DNA damage via EGFR ligand amphiregulin. Obesity and type 2 diabetes -- both established PC risk factors -- converge on gut dysbiosis with decreased microbial diversity, increased Firmicutes/Bacteroidetes ratio, and procarcinogenic metabolite production.
 
 ## Mendelian Randomization Evidence
 
@@ -99,6 +99,6 @@ Obesity increases PC risk (meta-analysis by Berrington et al. 2003), and diabete
 
 - [[metallomics]] | [[metal-disease-matrix]] | [[metal-carcinogenesis]]
 - [[iron]] | [[zinc]] | [[copper]] | [[cadmium]] | [[ferroptosis]] | [[oxidative-stress]]
-- [[dysbiosis]] | [[gut-metal-microbiome]] | [[bile-acid-metabolism]]
+- dysbiosis | [[gut-metal-microbiome]] | [[bile-acid-metabolism]]
 - [[fusobacterium]] | [[porphyromonas]] | [[candida-albicans]] | [[aspergillus]]
 - [[colorectal-cancer]] | [[comorbidities]]

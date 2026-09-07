@@ -81,7 +81,7 @@ This cross-feeding cascade means that *R. bromii* abundance determines not just 
 
 - [[type-2-diabetes]] — Depleted; resistant starch supplementation aimed at restoring R. bromii and downstream butyrate production improves glycemic control
 - [[obesity]] — Depleted; associated with reduced dietary fiber intake and impaired SCFA production
-- Generally depleted in low-fiber, Western diet-associated dysbiosis states
+- Generally depleted in low-fiber, Western diet-associated [[dysbiosis]] states
 
 ## Cross-References
 

@@ -22,7 +22,7 @@ platform: wikibiome
 
 # Indoxyl Sulfate
 
-Indoxyl sulfate (IS) is a protein-bound uremic toxin produced through a two-step process: gut bacteria convert dietary tryptophan to indole, which is then absorbed and sulfated by hepatic sulfotransferases (SULT1A1). IS exemplifies how dysbiosis-driven metabolite overproduction creates systemic disease -- it is both a consequence of gut microbial imbalance and a driver of further organ damage.
+Indoxyl sulfate (IS) is a protein-bound uremic toxin produced through a two-step process: gut bacteria convert dietary tryptophan to indole, which is then absorbed and sulfated by hepatic sulfotransferases (SULT1A1). IS exemplifies how [[dysbiosis]]-driven metabolite overproduction creates systemic disease -- it is both a consequence of gut microbial imbalance and a driver of further organ damage.
 
 ## Biosynthesis Pathway
 
@@ -120,5 +120,5 @@ IS levels serve as both a biomarker of dysbiosis and a predictor of disease prog
 - [[tryptophan-metabolism]] -- broader tryptophan pathway context
 - [[ahr]] -- AhR activation by protective indole derivatives
 - [[microbiome-derived-metabolites]] -- broader metabolite framework
-- [[dysbiosis]] -- community disruption driving IS overproduction
+- dysbiosis -- community disruption driving IS overproduction
 - [[serotonin]] -- competing tryptophan pathway (serotonin vs. IS)

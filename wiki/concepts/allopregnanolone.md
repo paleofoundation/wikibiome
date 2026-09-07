@@ -33,7 +33,7 @@ Allopregnanolone (3α-hydroxy-5α-pregnan-20-one) is a neurosteroid metabolite o
 
 - The gut microbiome modulates steroid hormone metabolism including progesterone→allopregnanolone conversion.
 - [[gaba|GABA]]-producing bacteria (Lactobacillus, Bifidobacterium) interact with the GABAergic system that allopregnanolone modulates — a microbiome-neurosteroid-neurotransmitter axis.
-- Dysbiosis-driven inflammation (elevated [[interleukin-6|IL-6]], TNF-alpha) alters neurosteroid synthesis enzyme expression.
+- [[dysbiosis]]-driven inflammation (elevated [[interleukin-6|IL-6]], TNF-alpha) alters neurosteroid synthesis enzyme expression.
 
 ## Cross-References
 

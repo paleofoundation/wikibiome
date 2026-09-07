@@ -94,6 +94,6 @@ The recurring pattern: IL-6 is rarely the root cause. It is the convergence poin
 - [[lipopolysaccharide]] — LPS/TLR4 → NF-kB → IL-6 cascade
 - [[gut-brain-axis]] — IL-6 crosses the blood-brain barrier and activates [[microglia]]
 - [[calprotectin]] — co-elevated with IL-6 in intestinal inflammation
-- [[dysbiosis]] — loss of butyrate producers removes the IL-6 brake
+- dysbiosis — loss of butyrate producers removes the IL-6 brake
 - [[short-chain-fatty-acids]] — butyrate suppresses IL-6 via NF-kB inhibition
 - [[copper-dysregulation]] — Cu/Zn ratio correlates with IL-6 in inflammatory states

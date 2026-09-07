@@ -14,7 +14,7 @@ last_substantive_update: 2026-04-10
 
 # Atherosclerosis
 
-Progressive inflammatory disease of the arterial wall characterized by lipid accumulation, immune cell infiltration, and fibrous plaque formation. In the metallomics framework, atherosclerosis sits at the convergence of three interacting systems: heavy metal toxicity, gut/oral microbial dysbiosis, and chronic [[inflammation]].
+Progressive inflammatory disease of the arterial wall characterized by lipid accumulation, immune cell infiltration, and fibrous plaque formation. In the metallomics framework, atherosclerosis sits at the convergence of three interacting systems: heavy metal toxicity, gut/oral microbial [[dysbiosis]], and chronic [[inflammation]].
 
 ## The Microbiome-Atherosclerosis Axis
 
@@ -42,7 +42,7 @@ Progressive inflammatory disease of the arterial wall characterized by lipid acc
 ### Lead and Cadmium
 - Pb exposure is an independent risk factor for cardiovascular mortality even at low blood levels.
 - Cd promotes endothelial dysfunction, oxidative LDL modification, and smooth muscle cell proliferation.
-- Both metals drive [[dysbiosis]] that further increases TMAO production and reduces protective SCFA output.
+- Both metals drive dysbiosis that further increases TMAO production and reduces protective SCFA output.
 
 ### Iron
 - Free iron in plaques generates ROS via Fenton chemistry, oxidizing LDL and destabilizing plaques.

@@ -42,7 +42,7 @@ Within [[functional-shielding|interkingdom biofilms]], fungi can monopolize Fe3+
 Cross-feeding explains several clinical observations:
 - Why fiber works: Dietary fiber → acetate (by Bacteroides) → butyrate (by Roseburia) → barrier protection. The benefit requires the complete trophic chain [[ross-2024-diet-gut-microbiome-interplay-health-disease]].
 - Why single-strain probiotics often fail: Without cross-feeding partners, a butyrate producer cannot function if acetate supply is missing.
-- Why dysbiosis cascades: Losing one organism in a trophic chain collapses downstream production.
+- Why [[dysbiosis]] cascades: Losing one organism in a trophic chain collapses downstream production.
 
 ## Cross-References
 

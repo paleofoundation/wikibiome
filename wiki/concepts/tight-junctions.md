@@ -33,7 +33,7 @@ Claudin family proteins (27 members in humans) form the backbone of tight juncti
 Occludin regulates tight junction assembly and stability. Its phosphorylation state determines whether it promotes barrier tightening or loosening. Heavy metals ([[cadmium]], [[lead]]) disrupt occludin localization [[ghosh-2023-heavy-metals-gut-barrier-integrity]].
 
 ### Zonula Occludens (ZO-1, ZO-2, ZO-3)
-ZO proteins are cytoplasmic scaffolding proteins that anchor claudins and occludin to the actin cytoskeleton. ZO-1 downregulation is a consistent finding in dysbiosis-associated barrier failure. [[zonulin]] (pre-haptoglobin-2) triggers ZO-1 disassembly, opening the paracellular pathway.
+ZO proteins are cytoplasmic scaffolding proteins that anchor claudins and occludin to the actin cytoskeleton. ZO-1 downregulation is a consistent finding in [[dysbiosis]]-associated barrier failure. [[zonulin]] (pre-haptoglobin-2) triggers ZO-1 disassembly, opening the paracellular pathway.
 
 ## What Breaks Tight Junctions
 

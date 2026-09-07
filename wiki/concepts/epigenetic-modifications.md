@@ -35,7 +35,7 @@ Epigenetic modifications — heritable changes in gene expression without alteri
 - Tumor suppressor genes: Butyrate reactivates silenced tumor suppressors (p21, BAX) in colonocytes → anti-proliferative → CRC protection [[feitelson-2023-scfas-cancer-pathogenesis]].
 - [[tight-junctions|Tight junction]] genes: Butyrate upregulates claudin-1, occludin, and ZO-1 expression → barrier integrity.
 
-Dysbiosis-driven butyrate depletion → reduced HDAC inhibition → epigenetic silencing of protective genes → disease. This is why the loss of butyrate producers has effects far beyond SCFA energy supply — it removes an entire layer of epigenetic regulation.
+[[dysbiosis]]-driven butyrate depletion → reduced HDAC inhibition → epigenetic silencing of protective genes → disease. This is why the loss of butyrate producers has effects far beyond SCFA energy supply — it removes an entire layer of epigenetic regulation.
 
 ### Folate and B12 — Microbial Methyl Donors
 
@@ -86,7 +86,7 @@ Metal-driven epigenetic silencing and microbiome-driven epigenetic activation ar
 - Metals → HDAC-independent gene silencing (DNA methylation, H3K9me2) → tumor suppressor shutdown, immune dysregulation.
 - Butyrate → HDAC inhibition → histone acetylation → gene reactivation, Treg induction, BDNF upregulation.
 
-When metals deplete butyrate producers (via [[dysbiosis]]), the host loses BOTH its epigenetic defense (butyrate-HDAC) AND gains an epigenetic attack (metal-driven silencing) — a double hit that explains the synergistic pathology of metal exposure + dysbiosis.
+When metals deplete butyrate producers (via dysbiosis), the host loses BOTH its epigenetic defense (butyrate-HDAC) AND gains an epigenetic attack (metal-driven silencing) — a double hit that explains the synergistic pathology of metal exposure + dysbiosis.
 
 ## Cross-References
 

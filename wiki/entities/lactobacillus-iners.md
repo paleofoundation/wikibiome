@@ -22,7 +22,7 @@ conditions_depleted_in: []
 
 # Lactobacillus iners
 
-*Lactobacillus iners* is a Gram-positive, facultatively anaerobic bacterium that dominates the vaginal microbiome of many women worldwide, defining Community State Type III (CST-III) in vaginal microbiome classification. For decades, all vaginal *Lactobacillus* species were assumed to be protective. The accumulating evidence tells a different story: *L. iners* is increasingly recognized as a dysbiosis marker rather than a guardian of vaginal health.
+*Lactobacillus iners* is a Gram-positive, facultatively anaerobic bacterium that dominates the vaginal microbiome of many women worldwide, defining Community State Type III (CST-III) in vaginal microbiome classification. For decades, all vaginal *Lactobacillus* species were assumed to be protective. The accumulating evidence tells a different story: *L. iners* is increasingly recognized as a [[dysbiosis]] marker rather than a guardian of vaginal health.
 
 This distinction matters enormously for clinical interpretation. A vaginal microbiome report showing "Lactobacillus-dominant" is reassuring only if the dominant species is [[lactobacillus-crispatus]] (CST-I). When *L. iners* dominates, the microbiome is often in a transitional state -- compatible with low diversity, active pathogen colonization, and progression toward bacterial vaginosis or disease.
 

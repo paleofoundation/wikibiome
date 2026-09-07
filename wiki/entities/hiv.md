@@ -27,7 +27,7 @@ HIV (Human Immunodeficiency Virus) causes progressive CD4+ T cell depletion lead
 
 ## Gut Microbiome in HIV
 
-- Dysbiosis: Depletion of Bacteroides, Lactobacillus, and SCFA producers; enrichment of Proteobacteria, Prevotella (in MSM), and pathobionts [[troseid-2024-gut-microbiome-cardiometabolic-hiv]].
+- [[dysbiosis]]: Depletion of Bacteroides, Lactobacillus, and SCFA producers; enrichment of Proteobacteria, Prevotella (in MSM), and pathobionts [[troseid-2024-gut-microbiome-cardiometabolic-hiv]].
 - Microbial translocation: LPS and bacterial DNA in plasma even during successful ART — driving chronic inflammation, [[endotoxemia]], and cardiovascular risk [[troseid-2024-gut-microbiome-cardiometabolic-hiv]].
 - Cardiometabolic: HIV-associated gut dysbiosis and microbial translocation drive atherosclerosis, metabolic syndrome, and CVD — the leading cause of death in ART-treated HIV.
 - Gut-brain axis: Cannabinoid-microbiota interactions in HIV/SIV models [[mcdew-white-2023-cannabinoids-microbiota-gut-brain-axis-hiv-siv]].

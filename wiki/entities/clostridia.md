@@ -67,7 +67,7 @@ Clostridia clusters IV and XIVa are the most potent microbial inducers of coloni
 - Cancer immune surveillance
 
 ### Spore Formation
-The ability to form endospores allows Clostridia to survive antibiotic exposure, gastric transit, and environmental extremes. This is clinically relevant: *C. difficile* spores persist in hospital environments and enable recurrent infection after antibiotic-mediated dysbiosis.
+The ability to form endospores allows Clostridia to survive antibiotic exposure, gastric transit, and environmental extremes. This is clinically relevant: *C. difficile* spores persist in hospital environments and enable recurrent infection after antibiotic-mediated [[dysbiosis]].
 
 ## Conditions Associated
 

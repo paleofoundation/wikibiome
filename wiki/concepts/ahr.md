@@ -53,7 +53,7 @@ Pathological AhR signaling (dioxin-like, or absent signaling from indole depleti
 
 Tryptophan-metabolizing bacteria are the primary source of indole AhR ligands. The depletion of these organisms — consistently observed across ASD, MS, Hashimoto's, depression, and other conditions with overlapping metallomic signatures — directly reduces AhR ligand availability. The result is a shift from protective indole-driven AhR signaling toward inflammatory defaults.
 
-The metal-dysbiosis framework explains this depletion: iron-enriched, oxygen-depleted gut environments favor siderophore-equipped Enterobacteriaceae over indole-producing Clostridia and Bacteroidetes. The loss of AhR ligands is a downstream consequence of metal-driven ecological disruption.
+The metal-[[dysbiosis]] framework explains this depletion: iron-enriched, oxygen-depleted gut environments favor siderophore-equipped Enterobacteriaceae over indole-producing Clostridia and Bacteroidetes. The loss of AhR ligands is a downstream consequence of metal-driven ecological disruption.
 
 ## Conditions Where AhR is Implicated
 

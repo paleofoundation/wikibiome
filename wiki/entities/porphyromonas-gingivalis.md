@@ -85,7 +85,7 @@ Gingipains perform multiple virulence roles:
 - Mechanistic link: Gingipains (particularly Kgp and RgpA) are directly immunoreactive with antibodies against *P. gingivalis* found in Alzheimer's brains.
 - Gingipain-cleaved amyloid-beta and tau peptides are more aggregation-prone and neurotoxic.
 - Chronic periodontitis increases AD risk; oral *P. gingivalis* load correlates with cognitive decline and amyloid pathology.
-- Oral dysbiosis with *P. gingivalis* enrichment may enable translocation of pathobiont-derived lipopolysaccharide (LPS) and gingipains across the intestinal barrier into systemic circulation, crossing the blood-brain barrier and perpetuating neuroinflammation.
+- Oral [[dysbiosis]] with *P. gingivalis* enrichment may enable translocation of pathobiont-derived lipopolysaccharide (LPS) and gingipains across the intestinal barrier into systemic circulation, crossing the blood-brain barrier and perpetuating neuroinflammation.
 
 ### Cardiovascular Disease
 

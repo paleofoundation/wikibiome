@@ -33,7 +33,7 @@ Three independent lines of evidence establish causal microbiome-to-ovarian links
 
 ## Estrobolome Connection
 
-[[eggerthella-lenta]] is the critical organism linking gut dysbiosis to ovarian disease:
+[[eggerthella-lenta]] is the critical organism linking gut [[dysbiosis]] to ovarian disease:
 - Enriched in premature ovarian insufficiency (POI) [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]], [[wu-2021-premature-ovarian-insufficiency-gut-microbiota]]
 - Eggerthella is a known beta-glucuronidase producer — deconjugates estrogen metabolites, driving estrogen recirculation [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]
 - Eggerthella lenta caused ovarian fibrosis in mouse models; estrogen treatment ameliorated it [[jiang-2021-hrt-gut-microbiome-premature-ovarian-insufficiency]]

@@ -41,7 +41,7 @@ pathogenic_potential: commensal-turned-pathogen
 ## Metal Associations
 
 ### Heavy Metal Exposure
-- Vaginal *Gardnerella* abundance is associated with environmental heavy metal exposure, with [[cadmium]], [[lead]], and [[mercury]] potentially promoting BV-associated dysbiosis by suppressing protective [[lactobacillus]] species.
+- Vaginal *Gardnerella* abundance is associated with environmental heavy metal exposure, with [[cadmium]], [[lead]], and [[mercury]] potentially promoting BV-associated [[dysbiosis]] by suppressing protective [[lactobacillus]] species.
 - [[metalloestrogens]] (Cd, Ni, Pb) may alter cervicovaginal immune responses and mucus composition in ways that favor *Gardnerella* colonization [[ata-2019-endobiota-vaginal-cervical-gut-microbiota-endometriosis]].
 
 ### Iron Acquisition
@@ -76,4 +76,4 @@ pathogenic_potential: commensal-turned-pathogen
 - [[cadmium]] -- environmental Cd exposure associated with BV-like vaginal dysbiosis
 - [[biofilm]] -- primary biofilm architect in the vaginal environment
 - [[lactobacillus]] -- competitive exclusion dynamics define vaginal health vs. BV
-- [[dysbiosis]] -- Gardnerella dominance defines the BV dysbiotic state
+- dysbiosis -- Gardnerella dominance defines the BV dysbiotic state

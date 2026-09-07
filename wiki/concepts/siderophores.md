@@ -22,7 +22,7 @@ For the broader story of metal-scavenging molecules including nickelophores and 
 
 Free iron in the human body is vanishingly scarce -- approximately 10^-24 M free Fe3+ in serum, far below the ~10^-6 M bacteria need to grow. The host achieves this through an elaborate system of iron-binding proteins: transferrin in blood, lactoferrin at mucosal surfaces, ferritin in storage, and hepcidin-mediated sequestration during infection. Siderophores are how pathogens fight back, producing chelators with binding affinities that can exceed those of host proteins.
 
-This creates a direct link to disease: organisms that produce the most effective siderophores, or that possess the most sophisticated iron-uptake systems, hold a competitive advantage in the metal-scarce gut environment. When [[inflammation]] drives hepcidin up and sequesters iron further, the selective pressure favoring siderophore-producers intensifies -- explaining why dysbiosis during inflammation typically enriches iron-pirating Enterobacteriaceae at the expense of commensals [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
+This creates a direct link to disease: organisms that produce the most effective siderophores, or that possess the most sophisticated iron-uptake systems, hold a competitive advantage in the metal-scarce gut environment. When [[inflammation]] drives hepcidin up and sequesters iron further, the selective pressure favoring siderophore-producers intensifies -- explaining why [[dysbiosis]] during inflammation typically enriches iron-pirating Enterobacteriaceae at the expense of commensals [[khorsand-2022-enterobacteriaceae-ecoli-ibd-ibdmdb-metagenomics]].
 
 ## Major Siderophore Classes
 

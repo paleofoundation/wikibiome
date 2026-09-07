@@ -85,7 +85,7 @@ A growing therapeutic approach [[do-carmo-2023-metal-nanoparticles-candida-revie
 - Invasive candidiasis / candidemia (ICU patients, post-surgical)
 - Chronic mucocutaneous candidiasis
 - Esophageal candidiasis
-- Gastric colonization with PPI use: proton pump inhibitor therapy raises gastric pH and drives fungal dysbiosis with *Candida* overgrowth, contributing to GERD-associated fungal disease [[shi-2023-ppi-fungal-dysbiosis-gerd]].
+- Gastric colonization with PPI use: proton pump inhibitor therapy raises gastric pH and drives fungal [[dysbiosis]] with *Candida* overgrowth, contributing to GERD-associated fungal disease [[shi-2023-ppi-fungal-dysbiosis-gerd]].
 - Autism spectrum disorder: elevated anti-*Candida* antibodies have been reported in children with ASD [[hughes-2018-anti-candida-antibodies-asd-children]].
 - Schizophrenia / bipolar disorder: *C. albicans* seropositivity is associated with psychiatric diagnosis in a sex-specific manner [[severance-2016-candida-albicans-exposures-sex-specificity-schizophrenia-bipolar]].
 - Lung cancer ecology: *Candida* expansion occurs in dysbiotic lung and gut microbiomes of cancer patients [[seelbinder-2023-candida-expansion-lung-cancer-ecological]].

@@ -59,7 +59,7 @@ The single most important metal-hormone link in hyperandrogenism is the dependen
 2. Hyperinsulinemia suppresses hepatic SHBG synthesis, increasing free testosterone
 3. Excess androgens promote visceral adiposity
 4. Visceral fat produces inflammatory cytokines that worsen insulin resistance
-5. Gut dysbiosis reduces SCFA production, further worsening insulin resistance
+5. Gut [[dysbiosis]] reduces SCFA production, further worsening insulin resistance
 
 The microbiome sits at the center of this cycle: improving gut microbial diversity and butyrate production can break the insulin-androgen feedback loop.
 

@@ -32,7 +32,7 @@ Serratia is a genus of Gram-negative, facultatively anaerobic bacteria in the En
 
 ## Key Associations
 
-- Enterobacteriaceae identification: Part of the Enterobacteriaceae panel relevant to clinical dysbiosis assessment [[khan-2011-novel-approach-enterobacteriaceae-identification-clinical]].
+- Enterobacteriaceae identification: Part of the Enterobacteriaceae panel relevant to clinical [[dysbiosis]] assessment [[khan-2011-novel-approach-enterobacteriaceae-identification-clinical]].
 - Colorectal cancer: Identified in CRC-associated microbiome studies [[marchesi-2011-towards-human-crc-microbiome]].
 - Cardiovascular disease: Part of gut microbiota associated with vascular biomarkers in subclinical CVD [[kashtanova-2017-gut-microbiota-vascular-biomarkers-subclinical-cvd]].
 - Prostate/reproductive: Present in prostate cancer-associated microbiome and seminal fluid studies [[trecarten-2025-obesity-diet-microbiome-prostate-cancer]] [[neto-2024-environmental-factors-seminal-microbiome-sperm-quality]] [[johri-2023-phage-therapy-ecoli-chronic-prostatitis-case]].

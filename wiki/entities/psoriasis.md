@@ -36,7 +36,7 @@ Psoriasis demonstrates a robust gut-skin axis -- a bidirectional communication p
 
 ### Gut to Skin
 
-1. Gut dysbiosis reduces SCFA production and [[butyrate]]-mediated Treg induction
+1. Gut [[dysbiosis]] reduces SCFA production and [[butyrate]]-mediated Treg induction
 2. Impaired barrier allows LPS and microbial antigens to reach systemic circulation
 3. Systemic IL-17/IL-23 activation -- gut-primed Th17 cells migrate to skin via CCR6/CCL20 homing
 4. Keratinocyte activation -- IL-17A drives keratinocyte proliferation, antimicrobial peptide production, and neutrophil recruitment

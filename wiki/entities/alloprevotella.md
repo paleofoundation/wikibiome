@@ -133,7 +133,7 @@ Alloprevotella restoration is considered one of the most important microbiota ta
 - [[short-chain-fatty-acids]] – primary propionate producer; key SCFA in metabolic disease prevention
 - [[nutritional-immunity|nutritional immunity]] – propionate maintains tight junctions and reduces endotoxemia
 - – loss increases LPS translocation; propionate-mediated barrier maintenance is key protective mechanism
-- – depleted in active periodontal disease; oral-gut axis shared dysbiosis
+- – depleted in active periodontal disease; oral-gut axis shared [[dysbiosis]]
 - [[bile-acid-metabolism]] – moderate BSH activity; produces secondary bile acids for metabolic signaling
 - [[iron]] – iron-dependent metabolism; dysbiotic iron overload may impair competitive fitness
 - – secondary metabolites favor Alloprevotella growth
@@ -141,4 +141,4 @@ Alloprevotella restoration is considered one of the most important microbiota ta
 - [[inflammation]] – loss correlates with elevated systemic inflammation and Th17 skewing
 - [[prevotella]] – genus family member but distinct metabolic and immune profiles; often opposing trends
 - [[faecalibacterium-prausnitzii]] – frequently co-enriched; synergistic SCFA network
-- [[dysbiosis]] – Alloprevotella depletion is a key dysbiosis marker in metabolic disease
+- dysbiosis – Alloprevotella depletion is a key dysbiosis marker in metabolic disease

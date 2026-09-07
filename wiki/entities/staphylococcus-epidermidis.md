@@ -33,7 +33,7 @@ conditions_depleted_in: []
 
 ## Reproductive Tract Associations
 
-Beyond skin, *S. epidermidis* is a component of the genital and intestinal microbiota. It has been identified in the reproductive tract microbiome of women with adenomyosis and associated infertility ([[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]]), suggesting a role in reproductive tract dysbiosis.
+Beyond skin, *S. epidermidis* is a component of the genital and intestinal microbiota. It has been identified in the reproductive tract microbiome of women with adenomyosis and associated infertility ([[ponomaryova-2022-adenomyosis-infertility-genital-intestinal-microbiota]]), suggesting a role in reproductive tract [[dysbiosis]].
 
 ## Cross-References
 

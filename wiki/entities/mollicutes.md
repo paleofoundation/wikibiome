@@ -82,7 +82,7 @@ Mollicutes and Tenericutes are risk factors for GBS (OR = 3.016) via MR, suggest
 ## Open Questions
 
 1. Which gut-resident Mollicutes species mediate the GERD and depression signals? Class-level MR and 16S data lack species resolution; metagenomic studies are needed.
-2. Does Mollicutes' inherent beta-lactam resistance contribute to post-antibiotic dysbiosis? Antibiotic-driven expansion of Mollicutes at the expense of cell-wall-bearing commensals could exacerbate GERD or other conditions.
+2. Does Mollicutes' inherent beta-lactam resistance contribute to post-antibiotic [[dysbiosis]]? Antibiotic-driven expansion of Mollicutes at the expense of cell-wall-bearing commensals could exacerbate GERD or other conditions.
 3. What metabolites do gut Mollicutes produce that could affect esophageal or neural function? The minimal genomes of Mollicutes limit their metabolic repertoire, but the specific products remain uncharacterized.
 
 ## Cross-References

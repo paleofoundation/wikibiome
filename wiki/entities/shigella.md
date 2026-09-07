@@ -38,7 +38,7 @@ platform: wikibiome
 
 Shigella is a genus of Gram-negative, facultatively anaerobic bacteria in the family Enterobacteriaceae, closely related to *Escherichia coli* — so closely that many 16S rRNA-based studies report them as the *Escherichia/Shigella* complex, unable to distinguish the two genera at the amplicon level. Shigella species (*S. dysenteriae*, *S. flexneri*, *S. sonnei*, *S. boydii*) are the causative agents of bacillary dysentery and are among the most invasive enteric pathogens, capable of penetrating and destroying colonic epithelial cells.
 
-In the WikiBiome framework, Shigella is notable for two reasons: its metal-dependent virulence (iron and nickel requirements that make it vulnerable to nutritional immunity) and its frequent appearance as part of the *Escherichia/Shigella* bloom that characterizes dysbiosis across dozens of disease signatures.
+In the WikiBiome framework, Shigella is notable for two reasons: its metal-dependent virulence (iron and nickel requirements that make it vulnerable to nutritional immunity) and its frequent appearance as part of the *Escherichia/Shigella* bloom that characterizes [[dysbiosis]] across dozens of disease signatures.
 
 ## Metal Dependencies
 

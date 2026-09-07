@@ -249,7 +249,7 @@ Arsenic exposure is linked to cardiovascular disease and hypertension [[su-2023-
 | [[coryell-2018-gut-microbiome-arsenic-toxicity-protection]] | Animal model | Demonstrated microbiome is required for arsenic protection; identified F. prausnitzii as protective |
 | [[mcdermott-2020-arsenic-gastrointestinal-tract-microbiome]] | Expert review | Mapped all known microbial arsenic biotransformation pathways in GIT context |
 | [[rezazadegan-2025-heavy-metals-gut-microbiota-systematic-review]] | Systematic review (n=3000+) | Confirmed arsenic consistently disrupts gut microbiota; identified Collinsella as cross-metal pathobiont |
-| [[dahan-2018-arsenic-alters-microbiome-larval-zebrafish]] | Animal model | Showed dysbiosis at WHO drinking water limit (10 ppb); 9x increase in resistance gene transfer |
+| [[dahan-2018-arsenic-alters-microbiome-larval-zebrafish]] | Animal model | Showed [[dysbiosis]] at WHO drinking water limit (10 ppb); 9x increase in resistance gene transfer |
 | [[shukla-2023-arsenic-gut-bacteriome-utero-exposure]] | Animal model | Demonstrated prenatal arsenic programs offspring gut microbiome and metabolic pathways |
 | [[su-2023-arsenic-brown-rice-benefits-risks]] | Expert review | Quantified the brown rice arsenic paradox; linked dietary arsenic to multi-cancer risk |
 | [[ghosh-2023-heavy-metals-gut-barrier-integrity]] | Review | Mapped arsenic-specific gut barrier disruption mechanisms (paracellular transport, cytokine induction) |

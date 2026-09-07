@@ -18,7 +18,7 @@ conditions_depleted_in: [schizophrenia]
 
 # Purpureocillium
 
-A filamentous fungus in the order Hypocreales (family Ophiocordycipitaceae), historically studied as an insect and nematode pathogen (*P. lilacinum*, formerly *Paecilomyces lilacinus*), now emerging as a clinically significant protective member of the gut mycobiome — and its near-elimination is a defining feature of schizophrenia-associated fungal dysbiosis.
+A filamentous fungus in the order Hypocreales (family Ophiocordycipitaceae), historically studied as an insect and nematode pathogen (*P. lilacinum*, formerly *Paecilomyces lilacinus*), now emerging as a clinically significant protective member of the gut mycobiome — and its near-elimination is a defining feature of schizophrenia-associated fungal [[dysbiosis]].
 
 ## Taxonomy and Ecological Background
 

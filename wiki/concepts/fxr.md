@@ -44,7 +44,7 @@ FXR responds differently to these metabolites:
 - Cholic acid — Moderate agonist
 - DCA, LCA — Weak FXR agonists; instead preferentially activate TGR5, which can drive pro-inflammatory IL-23 production
 
-Dysbiosis that shifts bile acid composition from primary toward secondary bile acids therefore redirects signaling from FXR-dominant (protective) to TGR5-dominant (inflammatory) — a mechanism implicated in [[colorectal-cancer]], [[type-2-diabetes]], and hepatic steatosis.
+[[dysbiosis]] that shifts bile acid composition from primary toward secondary bile acids therefore redirects signaling from FXR-dominant (protective) to TGR5-dominant (inflammatory) — a mechanism implicated in [[colorectal-cancer]], [[type-2-diabetes]], and hepatic steatosis.
 
 ## Metabolic Functions
 

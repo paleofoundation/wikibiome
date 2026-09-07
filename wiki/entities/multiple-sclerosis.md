@@ -42,7 +42,7 @@ The absence of a clear metallomic signature does not mean metals are irrelevant 
 
 ## Gut Microbiome Connection
 
-The microbiome-MS literature in this wiki is concentrated in five sources that together build a coherent picture of probiotic-mediated immune modulation. Foundational case-control work has repeatedly documented an MS dysbiosis pattern: *Prevotella* depletion, *Akkermansia* enrichment, methanogen (*Methanobrevibacter*) expansion [[jangi-2016-gut-microbiome-alterations-ms]], and striking depletion of Clostridia clusters XIVa and IV (14 of 21 differentially abundant species belong to the Clostridia clade, all reduced in MS) [[miyake-2015-dysbiosis-ms-clostridia-depletion]]. A meta-analysis of MS microbiome studies has since confirmed this signature across populations [[lin-2024-meta-analysis-gut-microbiota-ms]].
+The microbiome-MS literature in this wiki is concentrated in five sources that together build a coherent picture of probiotic-mediated immune modulation. Foundational case-control work has repeatedly documented an MS [[dysbiosis]] pattern: *Prevotella* depletion, *Akkermansia* enrichment, methanogen (*Methanobrevibacter*) expansion [[jangi-2016-gut-microbiome-alterations-ms]], and striking depletion of Clostridia clusters XIVa and IV (14 of 21 differentially abundant species belong to the Clostridia clade, all reduced in MS) [[miyake-2015-dysbiosis-ms-clostridia-depletion]]. A meta-analysis of MS microbiome studies has since confirmed this signature across populations [[lin-2024-meta-analysis-gut-microbiota-ms]].
 
 ### Probiotic Clinical Trials in MS
 

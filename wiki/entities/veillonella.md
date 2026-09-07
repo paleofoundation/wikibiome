@@ -20,7 +20,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Veillonella
 
-A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Negativicutes, family Veillonellaceae). The primary species *V. parvula* is a specialized lactate utilizer that occupies a unique metabolic niche by cross-feeding with lactate-producing bacteria, particularly [[streptococcus]]. *Veillonella* is abundant in both the oral cavity and gut, making it a central player in the oral-gut translocation story that connects oral dysbiosis to systemic disease.
+A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Negativicutes, family Veillonellaceae). The primary species *V. parvula* is a specialized lactate utilizer that occupies a unique metabolic niche by cross-feeding with lactate-producing bacteria, particularly [[streptococcus]]. *Veillonella* is abundant in both the oral cavity and gut, making it a central player in the oral-gut translocation story that connects oral [[dysbiosis]] to systemic disease.
 
 ## Role in Gut Ecosystem
 
@@ -77,4 +77,4 @@ A Gram-negative, obligate anaerobic genus within the Firmicutes phylum (class Ne
 - [[autism-spectrum-disorder]] -- decreased in ASD (opposite to autoimmune pattern)
 - [[porphyromonas]] -- co-member of oral-gut translocation consortium
 - [[inflammation]] -- enrichment in autoimmune disease suggests pro-inflammatory context
-- [[dysbiosis]] -- oral-gut translocation as a mechanism of gut dysbiosis
+- dysbiosis -- oral-gut translocation as a mechanism of gut dysbiosis

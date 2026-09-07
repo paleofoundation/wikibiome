@@ -51,7 +51,7 @@ The hepcidin-ferroportin axis explains why oral iron supplementation can be harm
 1. Inflammation raises hepcidin, destroying ferroportin
 2. With ferroportin gone, supplemental iron cannot be exported from enterocytes into blood
 3. Unabsorbed iron reaches the colon, where it feeds siderophore-producing Enterobacteriaceae
-4. Gut dysbiosis worsens, increasing inflammation, raising hepcidin further -- a vicious cycle
+4. Gut [[dysbiosis]] worsens, increasing inflammation, raising hepcidin further -- a vicious cycle
 
 This is the mechanistic basis for the [[stop-iron-supplementation-ibd|STOP: Iron supplementation in IBD]] and similar STOP pages.
 

@@ -102,7 +102,7 @@ This cycle means that antibiotic stewardship in human medicine alone — without
 ## Cross-References
 
 - [[co-selection]] — the mechanistic framework linking metal and antibiotic resistance
-- [[dysbiosis]] — bidirectional relationship with AMR
+- dysbiosis — bidirectional relationship with AMR
 - [[nutritional-immunity]] — host metal restriction that may inadvertently select for co-resistant strains
 - [[biofilm]] — provides physical protection against both metals and antibiotics
 - [[gut-metal-microbiome]] — the environment where co-selection operates in the human body

@@ -37,7 +37,7 @@ A protein (pre-haptoglobin-2) that reversibly modulates [[tight-junctions|tight 
 Two primary stimuli trigger zonulin secretion from enterocytes:
 
 1. Gliadin (wheat gluten peptide) -- Binds CXCR3 on enterocytes, triggering MyD88-dependent zonulin release. This is the mechanistic basis for gluten-induced permeability in celiac disease and non-celiac gluten sensitivity.
-2. Small intestinal bacterial exposure -- Bacterial colonization of the small intestine (normally low-bacterial) triggers zonulin release as a defensive flushing mechanism. Dysbiosis with small intestinal bacterial overgrowth (SIBO) causes chronic zonulin elevation.
+2. Small intestinal bacterial exposure -- Bacterial colonization of the small intestine (normally low-bacterial) triggers zonulin release as a defensive flushing mechanism. [[dysbiosis]] with small intestinal bacterial overgrowth (SIBO) causes chronic zonulin elevation.
 
 ## Clinical Significance
 

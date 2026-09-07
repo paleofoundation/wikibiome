@@ -24,7 +24,7 @@ Lead is a purely toxic heavy metal with no known biological function. It is the 
 
 What sets lead apart from other toxic metals is its ability to infiltrate calcium-dependent signaling pathways throughout the body. Because Pb(II) mimics Ca2+, it enters cells through calcium channels, accumulates in bone as a long-term reservoir, crosses the blood-brain barrier, and disrupts neurotransmission, enzyme function, and gene expression at concentrations far below those that produce overt symptoms [[tizabi-2023-lead-gut-microbiota-asd]], [[guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration]]. Approximately 99% of blood lead is protein-bound, and bone serves as the primary long-term reservoir with a half-life of decades [[tizabi-2023-lead-gut-microbiota-asd]].
 
-What Wikipedia does not cover is lead's profound disruption of the gut microbiome -- its role as a selective pressure favoring pathogenic taxa, its destruction of the intestinal barrier, the bidirectional relationship in which dysbiosis impairs the microbiome's own capacity for lead detoxification, and the co-selection of antibiotic resistance genes under lead pressure.
+What Wikipedia does not cover is lead's profound disruption of the gut microbiome -- its role as a selective pressure favoring pathogenic taxa, its destruction of the intestinal barrier, the bidirectional relationship in which [[dysbiosis]] impairs the microbiome's own capacity for lead detoxification, and the co-selection of antibiotic resistance genes under lead pressure.
 
 ## Biological Roles
 

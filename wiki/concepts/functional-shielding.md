@@ -88,7 +88,7 @@ Functional shielding is documented across multiple conditions:
 | Periodontitis | C. albicans | P. gingivalis | Immune evasion + gingipain amplification + chronic persistence | [[bartnicka-2020-candida-shields-pgingivalis-immune-evasion]] |
 | Wound infections | C. albicans / C. auris | S. aureus | Reciprocal virulence + beta-glucan masking | [[pasman-2025-candida-staph-reciprocal-virulence-masking]] |
 | Endometriosis | C. albicans | E. coli, Enterobacteriaceae | Biofilm protection in endometrial lesions | |
-| IBD | C. tropicalis | Bacteroides, E. coli | Mucosal biofilm perpetuating dysbiosis | |
+| IBD | C. tropicalis | Bacteroides, E. coli | Mucosal biofilm perpetuating [[dysbiosis]] | |
 | GERD | Candida spp. | Esophageal pathogens | PPI-induced fungal overgrowth shields bacteria | [[shi-2023-ppi-fungal-dysbiosis-gerd]] |
 
 ## Co-Aggregation as the Entry Point

@@ -40,5 +40,5 @@ Lactoferrin, the host's primary iron-sequestration protein at mucosal surfaces, 
 - [[iron]] — primary metal dependency
 - [[lactoferrin]] — host defense against iron-dependent pathogens
 - [[lactobacillus]] — displaced protective commensal
-- [[bacterial-vaginosis]] — secondary dysbiosis following trichomoniasis
+- [[bacterial-vaginosis]] — secondary [[dysbiosis]] following trichomoniasis
 - [[prostatitis]] — male reproductive tract involvement

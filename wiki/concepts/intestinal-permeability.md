@@ -51,7 +51,7 @@ Increased permeability creates a vicious cycle:
 4. Inflammatory cytokines (TNF-alpha, IFN-gamma, IL-13) further open TJs
 5. Opened barrier permits greater metal absorption (especially for Cd, Pb)
 6. More metal enters systemic circulation, reaching distal organs
-7. [[dysbiosis]] worsens as the luminal environment shifts
+7. dysbiosis worsens as the luminal environment shifts
 
 This feed-forward loop explains why acute metal exposure can produce chronic disease long after the original exposure ceases.
 
@@ -76,7 +76,7 @@ Barrier restoration strategies include [[probiotics]] (especially Lactobacillus 
 ## See Also
 
 - [[gut-metal-microbiome]] -- the overarching triad framework
-- [[dysbiosis]] -- microbial disruption that compounds barrier failure
+- dysbiosis -- microbial disruption that compounds barrier failure
 - [[calprotectin]] -- key fecal biomarker downstream of permeability
 - [[inflammation]] -- the systemic consequence of translocation
 - [[short-chain-fatty-acids]] -- barrier-protective metabolites

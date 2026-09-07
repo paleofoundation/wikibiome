@@ -32,7 +32,7 @@ platform: wikibiome
 
 ## Overview
 
-Oxygen state is a master ecological variable in the gut that determines which microorganisms thrive and which are excluded. The healthy colon maintains a steep oxygen gradient — oxygenated tissue at the epithelial surface drops to near-anaerobic conditions in the lumen, favoring obligate anaerobes that produce short-chain fatty acids (SCFAs). When this gradient collapses, the resulting oxygenation of the lumen drives a characteristic shift from beneficial anaerobes to facultative aerobes, particularly [[proteobacteria]] — a signature event in dysbiosis across multiple disease states.
+Oxygen state is a master ecological variable in the gut that determines which microorganisms thrive and which are excluded. The healthy colon maintains a steep oxygen gradient — oxygenated tissue at the epithelial surface drops to near-anaerobic conditions in the lumen, favoring obligate anaerobes that produce short-chain fatty acids (SCFAs). When this gradient collapses, the resulting oxygenation of the lumen drives a characteristic shift from beneficial anaerobes to facultative aerobes, particularly [[proteobacteria]] — a signature event in [[dysbiosis]] across multiple disease states.
 
 This concept corresponds to Karen's Brain Primitive 9: Oxygen State as Ecological Determinant.
 

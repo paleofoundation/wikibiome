@@ -22,7 +22,7 @@ karen_brain_primitives: [4, 5]
 
 ## Overview
 
-Phage therapy uses bacteriophages — viruses that infect and lyse specific bacteria — as precision antimicrobials. Unlike broad-spectrum antibiotics, phages target specific bacterial species or strains, sparing the commensal microbiome. In the WikiBiome framework, phage therapy represents a targeted ecological intervention (Karen's Brain Primitive 5) — suppressing specific pathobionts without collateral dysbiosis.
+Phage therapy uses bacteriophages — viruses that infect and lyse specific bacteria — as precision antimicrobials. Unlike broad-spectrum antibiotics, phages target specific bacterial species or strains, sparing the commensal microbiome. In the WikiBiome framework, phage therapy represents a targeted ecological intervention (Karen's Brain Primitive 5) — suppressing specific pathobionts without collateral [[dysbiosis]].
 
 ## Advantages Over Antibiotics
 

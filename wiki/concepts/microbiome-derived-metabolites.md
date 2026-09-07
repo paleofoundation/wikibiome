@@ -16,7 +16,7 @@ karen_brain_primitives: [1, 4, 5, 7]
 
 Small molecules produced, modified, or activated by gut microbiota that function as the primary chemical language between the microbiome and its host. These metabolites are not passive byproducts — they regulate gene expression, immune cell differentiation, gut barrier integrity, neuroendocrine signaling, and cardiovascular risk. When the microbiome composition shifts under metal exposure, antibiotic pressure, or dietary change, the metabolite landscape shifts with it, and these functional consequences ripple through every organ system.
 
-Microbiome-derived metabolites translate community-level composition changes into physiological effects that can be measured in blood, urine, and tissue samples. They are the molecular mechanism by which dysbiosis causes disease — not through bacteria themselves crossing the gut barrier, but through their chemical outputs doing so.
+Microbiome-derived metabolites translate community-level composition changes into physiological effects that can be measured in blood, urine, and tissue samples. They are the molecular mechanism by which [[dysbiosis]] causes disease — not through bacteria themselves crossing the gut barrier, but through their chemical outputs doing so.
 
 ## Short-Chain Fatty Acids (SCFAs)
 
@@ -127,7 +127,7 @@ The metallomic view of microbiome-derived metabolites reveals a systematic patte
 - [[bile-acid-metabolism]] — secondary bile acid production and FXR/TGR5 signaling
 - [[tmao]] — cardiovascular risk metabolite; choline/carnitine → TMA → TMAO
 - [[gut-brain-axis]] — the route by which gut metabolites affect neurotransmission and neuroinflammation
-- [[dysbiosis]] — metabolite profile shifts are the functional readout of dysbiotic community changes
+- dysbiosis — metabolite profile shifts are the functional readout of dysbiotic community changes
 - [[inflammation]] — metabolites mediate anti- (butyrate, indoles) and pro-inflammatory (TMAO, LPS) signaling
 - [[gut-metal-microbiome]] — metal exposure reshapes the organisms that produce each metabolite class
 - [[nutritional-immunity]] — metabolite signals help calibrate host metal sequestration responses

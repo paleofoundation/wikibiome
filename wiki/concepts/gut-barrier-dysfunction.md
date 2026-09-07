@@ -23,12 +23,12 @@ For the molecular details of [[tight-junctions|tight junction]] architecture and
 The gut barrier is not a single wall but a layered defense system:
 
 ### 1. The Mucus Layer
-A gel-like glycoprotein matrix (primarily MUC2 mucin) secreted by goblet cells. The outer mucus layer harbors commensal bacteria; the inner layer is normally sterile. Metal exposure thins the mucus layer: [[cadmium]] and [[arsenic]] reduce goblet cell numbers and MUC2 expression. Loss of [[akkermansia-muciniphila]], the mucin-degrading commensal that paradoxically stimulates mucus production, is a consistent feature of metal-induced dysbiosis.
+A gel-like glycoprotein matrix (primarily MUC2 mucin) secreted by goblet cells. The outer mucus layer harbors commensal bacteria; the inner layer is normally sterile. Metal exposure thins the mucus layer: [[cadmium]] and [[arsenic]] reduce goblet cell numbers and MUC2 expression. Loss of [[akkermansia-muciniphila]], the mucin-degrading commensal that paradoxically stimulates mucus production, is a consistent feature of metal-induced [[dysbiosis]].
 
 ### 2. The Epithelial Barrier
 A single layer of intestinal epithelial cells connected by tight junctions, adherens junctions, and desmosomes. This is the physical barrier, and its integrity depends on:
 - Tight junction proteins: [[zonulin|Zonulin]] pathway activation opens tight junctions; occludin, claudins, and ZO-1 maintain them
-- Cellular energy: Colonocytes depend on [[butyrate]] for mitochondrial ATP production; SCFA depletion from [[dysbiosis]] starves the barrier
+- Cellular energy: Colonocytes depend on [[butyrate]] for mitochondrial ATP production; SCFA depletion from dysbiosis starves the barrier
 - Turnover rate: The epithelium renews every 3-5 days; metals that impair stem cell function slow this renewal
 
 ### 3. The Immunological Barrier
@@ -83,7 +83,7 @@ Gut barrier dysfunction is implicated in virtually every disease in this wiki, b
 
 - [[intestinal-permeability]] -- molecular details of tight junction architecture
 - [[zonulin]] -- the physiological regulator of paracellular permeability
-- [[dysbiosis]] -- microbiome disruption as both cause and consequence
+- dysbiosis -- microbiome disruption as both cause and consequence
 - [[inflammation]] -- systemic inflammation from barrier breach
 - [[butyrate]] -- SCFA that fuels the barrier
 - [[siderophores]] -- iron competition that follows barrier-driven inflammation

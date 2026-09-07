@@ -24,7 +24,7 @@ Bacteremia is the presence of viable bacteria in the bloodstream. In the WikiBio
 
 ## Key Pathways
 
-- Gut translocation: Barrier failure from dysbiosis, metal damage ([[cadmium]], [[lead]]), or inflammation allows gut bacteria to enter the portal circulation → liver → systemic spread [[liu-2023-environmental-cadmium-rat-microbiota-metabolome]].
+- Gut translocation: Barrier failure from [[dysbiosis]], metal damage ([[cadmium]], [[lead]]), or inflammation allows gut bacteria to enter the portal circulation → liver → systemic spread [[liu-2023-environmental-cadmium-rat-microbiota-metabolome]].
 - COVID-19: SARS-CoV-2-induced gut dysbiosis and barrier disruption leads to bacterial translocation and bacteremia, contributing to cytokine storm severity [[bernard-raichon2022-dysbiosis-translocation-bacteremia-covid]].
 - Oral translocation: Chewing, dental procedures, or severe periodontitis cause transient bacteremia from oral pathogens ([[porphyromonas-gingivalis]], Streptococcus) into the systemic circulation → [[cardiovascular-disease]] risk [[tonelli-2023-oral-microbiome-cvd-pathophysiology]].
 - Perioperative: Post-surgical bacteremia from gut translocation; synbiotics may reduce incidence [[maher-2024-synbiotics-immunomodulation-pdac-resection]].

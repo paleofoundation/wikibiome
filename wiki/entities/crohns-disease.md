@@ -48,7 +48,7 @@ Fecal [[calprotectin]] is the gold-standard non-invasive biomarker for IBD monit
 
 ## Microbiome Signature
 
-CD is characterized by profound [[dysbiosis]] with reduced alpha diversity, the most severe of any IBD subtype [[kang-2023-diagnosis-crohns-uc-microbiome]].
+CD is characterized by profound dysbiosis with reduced alpha diversity, the most severe of any IBD subtype [[kang-2023-diagnosis-crohns-uc-microbiome]].
 
 ### Depleted Taxa
 
@@ -96,7 +96,7 @@ This is the central metallomic paradox in CD and one of the clearest examples of
 
 2. Iron supplementation feeds pathogens: Oral iron supplementation provides substrate for AIEC and other siderophore-producing Enterobacteriaceae [[li-2020-polyphenols-gut-microbiota-ibd-synergy]]. These organisms possess dedicated [[siderophores-metallophores]] systems specifically evolved to scavenge iron in the gut lumen. Supplemental iron bypasses host [[nutritional-immunity]] defenses.
 
-3. Iron supplementation worsens dysbiosis: Free luminal iron shifts the competitive balance away from SCFA-producing commensals (which have modest iron requirements) toward iron-scavenging pathobionts, deepening [[dysbiosis]] [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
+3. Iron supplementation worsens dysbiosis: Free luminal iron shifts the competitive balance away from SCFA-producing commensals (which have modest iron requirements) toward iron-scavenging pathobionts, deepening dysbiosis [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
 4. Iron drives [[ferroptosis]] in inflamed mucosa: Iron accumulation in inflamed tissue catalyzes lipid peroxidation through Fenton chemistry. GPX3 (glutathione peroxidase 3) is causally protective against CD -- its role in preventing iron-dependent [[oxidative-stress]] connects ferroptosis to disease pathogenesis [[xu-2023-oxidative-stress-dna-methylation-microbiota-crohns-mr]].
 
@@ -142,7 +142,7 @@ In nickel-sensitized individuals, dietary nickel exacerbates gastrointestinal in
 
 ### UC Comparison
 
-CD and UC share core [[dysbiosis]] features (reduced diversity, depleted SCFA producers, enriched Proteobacteria) but differ in important ways. CD shows more severe alpha diversity reduction [[kang-2023-diagnosis-crohns-uc-microbiome]]. Mediterranean diet is protective against CD but not UC [[khalili-2024-mediterranean-diet-later-onset-crohns]]. Mendelian randomization reveals disease-specific causal genera: Lachnospiraceae UCG001 is protective against CD specifically, while Eubacterium ventriosum is protective against UC specifically [[liu-2022-mr-gut-microbial-genera-ibd-uc-cd]]. Metal profiles also differ: selenium is depleted in both, but thallium is specifically associated with UC disease activity while copper-CRP association is specific to CD [[amerikanou-2022-ibd-biomarkers-trace-metals]]. These distinctions suggest that while the [[gut-metal-microbiome]] axis is central to both conditions, the specific metal-microbe interactions driving each disease are distinct.
+CD and UC share core dysbiosis features (reduced diversity, depleted SCFA producers, enriched Proteobacteria) but differ in important ways. CD shows more severe alpha diversity reduction [[kang-2023-diagnosis-crohns-uc-microbiome]]. Mediterranean diet is protective against CD but not UC [[khalili-2024-mediterranean-diet-later-onset-crohns]]. Mendelian randomization reveals disease-specific causal genera: Lachnospiraceae UCG001 is protective against CD specifically, while Eubacterium ventriosum is protective against UC specifically [[liu-2022-mr-gut-microbial-genera-ibd-uc-cd]]. Metal profiles also differ: selenium is depleted in both, but thallium is specifically associated with UC disease activity while copper-CRP association is specific to CD [[amerikanou-2022-ibd-biomarkers-trace-metals]]. These distinctions suggest that while the [[gut-metal-microbiome]] axis is central to both conditions, the specific metal-microbe interactions driving each disease are distinct.
 
 ### Extraintestinal Manifestations
 
@@ -160,7 +160,7 @@ The metal-microbiome framework reveals Crohn's disease as a self-amplifying ecol
 6. Inflammation reinforces dysbiosis: [[hepcidin]] elevation, [[calprotectin]] release, and [[oxidative-stress]] further alter the luminal metal environment, selecting against commensals
 7. [[ferroptosis]]: Iron accumulation in inflamed tissue drives lipid peroxidation and mucosal cell death
 
-Key evidence for causality: ZIP8 A391T mice develop microbiome shifts at 2 months but inflammation only at 10 months -- [[dysbiosis]] is the cause, not the consequence [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
+Key evidence for causality: ZIP8 A391T mice develop microbiome shifts at 2 months but inflammation only at 10 months -- dysbiosis is the cause, not the consequence [[yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome]].
 
 ## Open Questions
 

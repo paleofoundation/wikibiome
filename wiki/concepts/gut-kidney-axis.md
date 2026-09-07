@@ -95,7 +95,7 @@ The gut-kidney axis intersects with metallomics in ways unique to CKD:
 
 - Cadmium accumulation: The kidney is the primary target organ for cadmium toxicity. As CKD progresses, cadmium excretion fails and tissue levels rise, driving further damage
 - Lead retention: Blood lead increases 4x more per unit GFR decline in Black individuals than White -- a racial disparity with environmental justice implications
-- Iron supplementation paradox: CKD patients often receive IV iron, which feeds gut Proteobacteria and may worsen dysbiosis
+- Iron supplementation paradox: CKD patients often receive IV iron, which feeds gut Proteobacteria and may worsen [[dysbiosis]]
 - Metal-resistant bacteria: CKD gut bacteria carry more metal resistance genes (cadA, czc operons), suggesting metal-driven selection pressure in the uremic gut [[miranda-2022-metalloids-antibiotic-resistance-ckd-gut]]
 
 ## Intestinal Barrier Disruption
@@ -129,6 +129,6 @@ Understanding the gut-kidney axis opens intervention opportunities:
 - [[chronic-kidney-disease]] -- primary disease context
 - [[tmao]] -- cardiovascular-renal toxin
 - [[indoles]] -- tryptophan-derived signaling molecules
-- [[dysbiosis]] -- microbial community disruption
+- dysbiosis -- microbial community disruption
 - [[intestinal-permeability]] -- barrier dysfunction
 - [[butyrate]] -- protective SCFA depleted in CKD

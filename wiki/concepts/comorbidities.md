@@ -29,7 +29,7 @@ Because metals accumulate over a lifetime and affect multiple tissues simultaneo
 
 ## The Microbiome as Shared Mediator
 
-[[dysbiosis]] is the common denominator linking disparate diseases:
+dysbiosis is the common denominator linking disparate diseases:
 - The same pattern of microbial disruption -- loss of SCFA producers, enrichment of pathobionts, barrier breakdown, endotoxemia -- appears in IBD, CVD, neurodegeneration, metabolic syndrome, autoimmune disease, and cancer.
 - Because the microbiome produces metabolites that affect every organ (via portal circulation to liver, systemic circulation to heart and brain, vagal signaling to CNS), a single dysbiotic event radiates pathology system-wide [[spivak-2023-local-systemic-microbiome-derived-metabolites]].
 
@@ -42,12 +42,12 @@ Because metals accumulate over a lifetime and affect multiple tissues simultaneo
 
 ### PCOS, T2D, and CVD
 - PCOS increases T2D risk 4-8 fold and CVD risk 2-fold.
-- Shared mechanisms: [[insulin-resistance]], gut [[dysbiosis]], hyperandrogenism, chronic low-grade inflammation, [[metabolic-syndrome]].
+- Shared mechanisms: [[insulin-resistance]], gut dysbiosis, hyperandrogenism, chronic low-grade inflammation, [[metabolic-syndrome]].
 - Metal connections: Cd and Ni act as [[metalloestrogens]], disrupting hormonal balance; both PCOS and T2D feature altered gut microbial metal handling.
 
 ### MS and Depression
 - Depression prevalence in MS is 3x the general population.
-- Shared mechanisms: [[neuroinflammation]], kynurenine pathway activation (tryptophan diverted from serotonin to neurotoxic quinolinic acid), gut [[dysbiosis]], reduced [[indoles]] and [[butyrate]].
+- Shared mechanisms: [[neuroinflammation]], kynurenine pathway activation (tryptophan diverted from serotonin to neurotoxic quinolinic acid), gut dysbiosis, reduced [[indoles]] and [[butyrate]].
 - The [[gut-brain-axis]] mediates bidirectional effects.
 
 ### RA and CVD
@@ -56,7 +56,7 @@ Because metals accumulate over a lifetime and affect multiple tissues simultaneo
 
 ### Neurodegeneration and Metabolic Disease
 - T2D increases AD risk 1.5-2 fold (sometimes called "type 3 diabetes").
-- Shared mechanisms: insulin resistance in brain, metal dyshomeostasis (Fe, Cu, Zn), [[dysbiosis]], gut-derived inflammation.
+- Shared mechanisms: insulin resistance in brain, metal dyshomeostasis (Fe, Cu, Zn), dysbiosis, gut-derived inflammation.
 
 ## The Metallomics Framework for Comorbidity
 
@@ -73,7 +73,7 @@ This framework predicts that interventions targeting the shared mediator (microb
 ## See Also
 
 - [[metabolic-syndrome]] -- the prototypical comorbidity cluster
-- [[dysbiosis]] -- shared microbial mediator
+- dysbiosis -- shared microbial mediator
 - [[inflammation]] -- shared pathological mechanism
 - [[gut-brain-axis]] -- mediator of neuro-metabolic comorbidity
 

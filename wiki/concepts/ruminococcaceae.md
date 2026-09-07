@@ -14,7 +14,7 @@ platform: wikibiome
 
 # Ruminococcaceae
 
-Ruminococcaceae is a family within the phylum Firmicutes (class Clostridia, order Eubacteriales) that includes many of the gut's most important fiber-degrading and butyrate-producing bacteria. The family's consistent depletion across autoimmune, inflammatory, metabolic, and neurological diseases makes it a bellwether of gut ecosystem health -- and a frequent casualty of heavy metal-driven dysbiosis.
+Ruminococcaceae is a family within the phylum Firmicutes (class Clostridia, order Eubacteriales) that includes many of the gut's most important fiber-degrading and butyrate-producing bacteria. The family's consistent depletion across autoimmune, inflammatory, metabolic, and neurological diseases makes it a bellwether of gut ecosystem health -- and a frequent casualty of heavy metal-driven [[dysbiosis]].
 
 The family formerly encompassed what was classified as Clostridium cluster IV, though taxonomic reclassification has reorganized several members. Key genera include *[[ruminococcus]]*, *Faecalibacterium* (now often placed in its own family Oscillospiraceae), *Subdoligranulum*, and *Oscillibacter*.
 
@@ -99,4 +99,4 @@ The meta-analysis by Islam et al. (2022) found that Ruminococcaceae members show
 - [[oscillospiraceae]] -- related family, also depleted in disease
 - [[fermentative-metabolism|saccharolytic-fermentation]] -- the healthy fermentation mode
 - [[fermentative-metabolism]] -- broader fermentation framework
-- [[dysbiosis]] -- community collapse pattern featuring Ruminococcaceae loss
+- dysbiosis -- community collapse pattern featuring Ruminococcaceae loss

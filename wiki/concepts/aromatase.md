@@ -42,7 +42,7 @@ Aromatase connects the metal-microbiome axis to estrogen-dependent disease throu
 
 ### Estrobolome Circuit
 
-Aromatase produces estrogen → estrogen is conjugated in the liver → conjugated estrogen enters the gut via bile → gut bacterial [[beta-glucuronidase]] deconjugates it → free estrogen is reabsorbed ([[estrobolome]] recirculation). Dysbiosis alters the estrobolome, disrupting this circuit:
+Aromatase produces estrogen → estrogen is conjugated in the liver → conjugated estrogen enters the gut via bile → gut bacterial [[beta-glucuronidase]] deconjugates it → free estrogen is reabsorbed ([[estrobolome]] recirculation). [[dysbiosis]] alters the estrobolome, disrupting this circuit:
 
 - Increased beta-glucuronidase activity → more estrogen recirculation → estrogen excess → endometriosis/breast cancer risk [[kaliannan-2018-estrogen-gut-microbiome-metabolic-syndrome]].
 - Decreased beta-glucuronidase activity → less recirculation → estrogen depletion → metabolic syndrome, osteoporosis risk.

@@ -48,7 +48,7 @@ Dermatitis herpetiformis (DH) is the cutaneous manifestation of [[celiac-disease
 
 ## Microbiome Associations
 
-DH shares the gut microbiome alterations documented in celiac disease: reduced Bifidobacterium and Lactobacillus, increased Proteobacteria and Bacteroides. The gut-skin axis in DH likely operates through immune-mediated pathways — intestinal dysbiosis promotes systemic inflammation and aberrant IgA production that deposits in dermal papillae. Whether skin-resident microbiome changes contribute to lesion formation remains under investigation.
+DH shares the gut microbiome alterations documented in celiac disease: reduced Bifidobacterium and Lactobacillus, increased Proteobacteria and Bacteroides. The gut-skin axis in DH likely operates through immune-mediated pathways — intestinal [[dysbiosis]] promotes systemic inflammation and aberrant IgA production that deposits in dermal papillae. Whether skin-resident microbiome changes contribute to lesion formation remains under investigation.
 
 ## Metal Associations
 

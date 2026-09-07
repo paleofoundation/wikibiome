@@ -29,7 +29,7 @@ Dental caries (tooth decay) is the most prevalent chronic disease worldwide, dri
 
 ## Oral-Gut Interactions
 
-- Oral and gut microbiota show correlated dysbiosis patterns in cerebral palsy and epilepsy [[huang-2022-oral-gut-microbiota-cpe-correlations]].
+- Oral and gut microbiota show correlated [[dysbiosis]] patterns in cerebral palsy and epilepsy [[huang-2022-oral-gut-microbiota-cpe-correlations]].
 - Cariogenic *Lactobacillus* species may also affect thyroid health via oral-gut translocation [[harbi-2024-lactobacillus-candida-thyroid-disorders]].
 
 ## Cross-References

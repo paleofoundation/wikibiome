@@ -57,7 +57,7 @@ Both cuproptosis and ferroptosis are relevant to the [[mis-metallation]] framewo
 - This reframes copper chelation therapy as cuproptosis prevention rather than simply reducing oxidative stress.
 
 ### Microbiome Intersection
-- Gut bacteria modulate copper bioavailability through copper-binding metallothioneins and siderophore-like molecules. Dysbiosis may alter systemic copper distribution, potentially influencing cuproptosis susceptibility in distant tissues.
+- Gut bacteria modulate copper bioavailability through copper-binding metallothioneins and siderophore-like molecules. [[dysbiosis]] may alter systemic copper distribution, potentially influencing cuproptosis susceptibility in distant tissues.
 
 ## Cross-References
 

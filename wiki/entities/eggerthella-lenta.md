@@ -31,7 +31,7 @@ pathogenic_potential: commensal-turned-pathogen
 
 # Eggerthella lenta
 
-A Gram-positive obligate anaerobe and key estrobolome member that links metabolic dysbiosis to hormone-driven diseases, particularly [[endometriosis]]. *E. lenta* is remarkable for its ability to inactivate cardiac glycosides (like digoxin) and to produce beta-glucuronidase, the enzyme responsible for deconjugating and reactivating estrogen in the gut. Its abundance modulates systemic estrogen exposure through the enterohepatic circulation -- making *E. lenta* a central node in the estrogen recirculation axis. Critical cofactors are iron and molybdenum, both of which are elevated in endometriosis.
+A Gram-positive obligate anaerobe and key estrobolome member that links metabolic [[dysbiosis]] to hormone-driven diseases, particularly [[endometriosis]]. *E. lenta* is remarkable for its ability to inactivate cardiac glycosides (like digoxin) and to produce beta-glucuronidase, the enzyme responsible for deconjugating and reactivating estrogen in the gut. Its abundance modulates systemic estrogen exposure through the enterohepatic circulation -- making *E. lenta* a central node in the estrogen recirculation axis. Critical cofactors are iron and molybdenum, both of which are elevated in endometriosis.
 
 ## The Estrobolome and Beta-Glucuronidase
 
@@ -162,7 +162,7 @@ Endometriosis is characterized by:
 - [[estrobolome]] -- core estrobolome member alongside [[bacteroides-fragilis]] and [[clostridium]]
 - [[beta-glucuronidase]] -- key virulence enzyme; iron and molybdenum cofactors modulate activity
 - [[enterohepatic-circulation]] -- *E. lenta* extends estrogen recirculation via deconjugation
-- [[dysbiosis]] -- enriched in endometriosis; depletes commensal barrier-protective taxa
+- dysbiosis -- enriched in endometriosis; depletes commensal barrier-protective taxa
 - [[faecalibacterium-prausnitzii]] -- co-depleted with *E. lenta* enrichment; loss of butyrate-mediated tight junction support
 - -- *E. lenta* inactivates digoxin; clinical pharmacokinetic implications
 - [[nutritional-immunity|nutritional immunity]] -- dysbiosis with *E. lenta* enrichment compromises tight junctions via loss of SCFA

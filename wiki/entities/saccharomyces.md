@@ -45,7 +45,7 @@ A genus of ascomycete yeasts that includes both a proven therapeutic probiotic (
 - *S. boulardii* supplementation failed to improve cardiac function in the GutHeart trial for heart failure (Awoyemi et al. 2021 eBioMedicine — GutHeart trial).
 
 ### Autism Spectrum Disorder
-- *Saccharomyces* abundance altered in gut mycobiome of ASD children, part of the broader fungal dysbiosis profile in the condition [[strati-2017-altered-gut-microbiota-mycobiota-asd]].
+- *Saccharomyces* abundance altered in gut mycobiome of ASD children, part of the broader fungal [[dysbiosis]] profile in the condition [[strati-2017-altered-gut-microbiota-mycobiota-asd]].
 
 ### CRC Mycobiome-Bacteriome Integration
 - Combined 16S and ITS profiling in Chinese CRC/adenoma cohorts places *Saccharomyces* within the fungal signature alongside key bacterial CRC biomarkers [[li-2023-combined-gut-bacteria-fungi-crc-adenoma-chinese-cohort]].
@@ -58,7 +58,7 @@ A genus of ascomycete yeasts that includes both a proven therapeutic probiotic (
 
 - Saccharomyces species have significant metal biosorption capacity, binding heavy metals to cell wall components (mannoproteins, glucans, chitin) (Wang & Chen 2006 Biotechnol Adv).
 - *S. cerevisiae* cell walls bind [[cadmium]], [[lead]], [[copper]], [[zinc]], and [[chromium]] from solution, a property exploited in industrial bioremediation (Wang & Chen 2006 Biotechnol Adv; Machado et al. 2010 J Hazard Mater).
-- In the gut context, dietary or supplemental yeast may reduce bioavailable metal concentrations, potentially mitigating metal-induced [[dysbiosis]].
+- In the gut context, dietary or supplemental yeast may reduce bioavailable metal concentrations, potentially mitigating metal-induced dysbiosis.
 - [[zinc]]-dependent alcohol dehydrogenase and Cu/Zn-superoxide dismutase are key metalloenzymes in Saccharomyces biology.
 
 ## Key Metabolites
@@ -83,7 +83,7 @@ A genus of ascomycete yeasts that includes both a proven therapeutic probiotic (
 - [[lead]] -- metal biosorption may reduce bioavailable Pb in the gut
 - [[zinc]] -- Zn-dependent enzymes; cell wall Zn-binding capacity
 - [[copper]] -- Cu/Zn-SOD for oxidative stress defense
-- [[dysbiosis]] -- S. boulardii counters dysbiosis; S. cerevisiae may signal disease states
+- dysbiosis -- S. boulardii counters dysbiosis; S. cerevisiae may signal disease states
 - [[inflammation]] -- S. boulardii anti-inflammatory (NF-kB inhibition); beta-glucans immunomodulatory
 - [[gut-metal-microbiome]] -- metal biosorption capacity links fungal biology to metal homeostasis
 - [[roseburia]] -- positive correlation in IBD mycobiome-bacteriome interactions

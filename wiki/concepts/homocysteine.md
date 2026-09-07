@@ -25,7 +25,7 @@ Homocysteine is a sulfur-containing amino acid intermediate in the methionine cy
 
 ## Microbiome Connection
 
-- B12/folate production: Gut bacteria (Bifidobacterium, Lactobacillus, Propionibacterium) synthesize B12 and folate — essential cofactors for homocysteine remethylation to methionine. Dysbiosis-driven loss of B-vitamin producers increases homocysteine levels.
+- B12/folate production: Gut bacteria (Bifidobacterium, Lactobacillus, Propionibacterium) synthesize B12 and folate — essential cofactors for homocysteine remethylation to methionine. [[dysbiosis]]-driven loss of B-vitamin producers increases homocysteine levels.
 - ASD: Altered urinary amino acid profiles including homocysteine pathway metabolites [[liu-2019-urinary-amino-acids-asd-biomarkers]] [[bala-2016-plasma-amino-acid-profile-asd]].
 - Schizophrenia: Homocysteine as gut-microbiome-modulated biomarker for treatment response [[yuan-2021-gut-microbial-biomarkers-treatment-response-schizophrenia]].
 - CRC: Mucosal metabolomics show altered homocysteine pathway [[loke-2018-metabolomics-16s-crc-mucosa]].

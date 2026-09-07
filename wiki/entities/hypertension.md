@@ -99,7 +99,7 @@ Fan et al. 2025 conducted the first multicenter, randomized, blinded, placebo-co
 - [[short-chain-fatty-acids]] -- SCFA-mediated vasodilation via GPR41 is a primary microbiome BP mechanism
 - [[tmao]] -- promotes vascular remodeling and endothelial dysfunction
 - [[bile-acid-metabolism]] -- FXR agonists reduce BP in hypertensive models
-- [[dysbiosis]] -- both bacterial and fungal dysbiosis precede and associate with hypertension
+- dysbiosis -- both bacterial and fungal dysbiosis precede and associate with hypertension
 - [[lead]] -- established environmental hypertension risk factor via renal and vascular toxicity
 - [[cadmium]] -- renal accumulation impairs BP regulation
 - [[chronic-kidney-disease]] -- HTN+CKD comorbidity shows most severe mycobiome disruption

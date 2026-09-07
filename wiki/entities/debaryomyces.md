@@ -135,7 +135,7 @@ CD patients with Debaryomyces enrichment and active disease often report flare a
 - Mycobiota profiling should be part of Crohn's disease monitoring and mechanistic investigation
 - Elevated Debaryomyces is associated with poorer response to anti-TNF therapy (IFX, adalimumab) (Jain et al. 2021 Science; [[rashed-2022-manipulation-gut-microbiota-crohns]])
 - May be a biomarker for identifying patients who benefit from antifungal strategies (azoles, echinocandins)
-- Associated with elevated fecal fungal biomass and dysbiosis
+- Associated with elevated fecal fungal biomass and [[dysbiosis]]
 
 ## Connections
 

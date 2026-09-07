@@ -27,7 +27,7 @@ The serotonin-estrogen axis describes the bidirectional relationship between est
 
 Three microbiome pathways converge on this axis:
 
-1. Estrobolome → estrogen levels: Gut bacterial [[beta-glucuronidase]] deconjugates estrogens, increasing circulating free estrogen. Dysbiosis alters the estrobolome, disrupting estrogen homeostasis [[kaliannan-2018-estrogen-gut-microbiome-metabolic-syndrome]].
+1. Estrobolome → estrogen levels: Gut bacterial [[beta-glucuronidase]] deconjugates estrogens, increasing circulating free estrogen. [[dysbiosis]] alters the estrobolome, disrupting estrogen homeostasis [[kaliannan-2018-estrogen-gut-microbiome-metabolic-syndrome]].
 
 2. Tryptophan metabolism → serotonin: The microbiome modulates tryptophan availability for serotonin synthesis. Dysbiosis-driven inflammation shunts tryptophan into the [[kynurenine-pathway]] (via IDO/TDO), reducing serotonin precursor availability.
 
