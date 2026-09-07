@@ -120,7 +120,7 @@ const INDEXABLE_SPECIAL_PATHS = [
   { path: '/privacy', title: 'Privacy — WikiBiome', changefreq: 'yearly', priority: '0.3' },
   { path: '/terms', title: 'Terms — WikiBiome', changefreq: 'yearly', priority: '0.3' },
   { path: '/contact', title: 'Contact — WikiBiome', changefreq: 'yearly', priority: '0.4' },
-  { path: '/support', title: 'Support WikiBiome', changefreq: 'monthly', priority: '0.5' },
+  { path: '/support', title: 'Researchers and partners — WikiBiome', changefreq: 'monthly', priority: '0.5' },
   { path: '/submit', title: 'Submit research — WikiBiome', changefreq: 'monthly', priority: '0.4' },
   { path: '/keystone', title: 'Keystone studies — WikiBiome', changefreq: 'monthly', priority: '0.5' },
 ];

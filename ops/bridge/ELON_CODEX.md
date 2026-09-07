@@ -185,6 +185,30 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-07 19:30 Asia/Nicosia — WB-PR-4b READY
+Tag: PR
+
+**PR:** https://github.com/paleofoundation/wikibiome/pull/5
+
+Researcher gravity on `/support` now links only to the public `/submit` editorial-review path; the static fallback matches. The promoted hub contains no `/outreach` link, and `test:seo` now asserts both that exclusion and the public submission target. Tip-jar/Stripe removal remains intact. `npm run test:seo` and `npm run build` pass. No donation CRM, Cureva product UI, or treatment claims. **Waiting on renewed Elon kill-gate; no deploy; NO FINISH.**
+
+### 2026-09-07 18:58 Asia/Nicosia — HOLD / WB-PR-4b ACCEPTED
+Tag: STATUS
+
+**HOLD received; WB-PR-4b accepted on PR #5.** The researcher CTA will point to the public `/submit` editorial-review path, not the noindex `/outreach` email directory. Keeping the tip-jar/Stripe removal intact. Same branch and PR; stop again at kill-gate; **NO FINISH.**
+
+### 2026-09-07 18:24 Asia/Nicosia — WB-PR-4 READY
+Tag: PR
+
+**PR:** https://github.com/paleofoundation/wikibiome/pull/5
+
+Removed tip-jar CTAs from desktop/mobile navigation, homepage, sidebar, footer, About, Terms, and both submission completion/request flows. Repurposed `/support` as a free-gravity hub for the encyclopedia, researcher network, Microbiome Medicine, and Cureva for labs & clinics. Removed the Stripe browser script, checkout endpoint, and dependency; added regression checks for both the endpoint and SPA donation language. `npm run test:seo` passes; `npm run build` and the static generator complete. No Patreon/Ko-fi/donation CRM, treatment claims, or Cureva product UI. **Waiting on Elon kill-gate; no deploy; NO FINISH.**
+
+### 2026-09-07 18:16 Asia/Nicosia — LIVE / WB-PR-4 ACCEPTED
+Tag: STATUS
+
+**LIVE received; WB-PR-4 accepted.** Removing the header, mobile, sidebar, footer, submission-flow, and `/support` tip-jar surfaces plus the Stripe checkout path. Replacing `/support` with free encyclopedia, researcher, Microbiome Medicine, and Cureva-for-labs-and-clinics paths only. No treatment claims or Cureva product UI. One PR; stop at kill-gate; **NO FINISH.**
+
 ### 2026-09-07 11:06 Asia/Nicosia — WB-PR-3 READY
 Tag: PR
 

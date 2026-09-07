@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
 import { BrowserRouter, Routes, Route, useNavigate, useParams, useSearchParams, useLocation, Link } from 'react-router-dom';
 import * as d3 from 'd3';
 import { RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, BarChart, Bar, XAxis, YAxis, Cell, Tooltip, ResponsiveContainer } from 'recharts';
-import { Search, Home, Zap, Layers, BookOpen, Atom, Bug, Dna, Activity, Shield, ChevronRight, ChevronDown, X, Microscope, Share2, Menu, ExternalLink, Printer, Link as LinkIcon, Heart, User, Send, FileText, Coffee, Mail, Globe, LogIn, UserPlus, Upload, DollarSign, CheckCircle, ArrowRight } from 'lucide-react';
+import { Search, Home, Zap, Layers, BookOpen, Atom, Bug, Dna, Activity, Shield, ChevronRight, ChevronDown, X, Microscope, Share2, Menu, ExternalLink, Printer, Link as LinkIcon, User, Send, FileText, Mail, Globe, LogIn, UserPlus, Upload, CheckCircle, ArrowRight } from 'lucide-react';
 import CONTENT from './src/content.generated.json';
 
 /* ═══════════════════════════════════════════════════════════════════════════
@@ -158,12 +158,6 @@ const CATEGORIES = {
   analysis: { label: "Analyses", icon: BookOpen, color: P.amberDark },
   source: { label: "Keystone Studies", icon: FileText, color: P.gold },
 };
-
-// Stripe publishable key (client-safe — used for Checkout redirects)
-const STRIPE_PK = 'pk_live_51T5vhlRiEhjlKM3GTfuNYzoOLpaac44r8xupxXW7XY9zCWhmWbk3365NXn0qiodzFdIkTgL9mJJs86VD5N8IQty000cIi96J8H';
-
-// Stripe donation link (single link — Stripe handles amount selection)
-const STRIPE_DONATE_URL = 'https://buy.stripe.com/00w5kF2PNgjfed3fup6EU00';
 
 // Set of all browsable page IDs for citation detection
 const PAGE_IDS = new Set(CONTENT.pages.map(p => p.id));
@@ -321,7 +315,6 @@ const GlobalStyles = () => (
       /* Hide desktop-only nav elements */
       .wb-nav-tabs { display: none !important; }
       .wb-nav-search { display: none !important; }
-      .wb-nav-donate { display: none !important; }
       .wb-nav-login { display: none !important; }
       .wb-nav-signup { display: none !important; }
       nav > div:last-child > div:has(> input) { width: 140px !important; padding: 6px 10px !important; }
@@ -1162,18 +1155,6 @@ const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth 
       </div>
 
       <div className="wb-nav-right" style={{ display: 'flex', alignItems: 'center', gap: '14px' }}>
-        {/* Support link — desktop only */}
-        <button className="wb-nav-donate" onClick={() => onNavigate({ view: 'support' })} style={{
-          background: 'none', border: 'none', cursor: 'pointer', fontFamily: "'Inter', sans-serif",
-          fontSize: '13px', color: P.teal, fontWeight: 500, display: 'flex', alignItems: 'center', gap: '5px',
-          padding: '6px 10px', borderRadius: '6px', transition: 'all 0.15s',
-        }}
-          onMouseEnter={e => e.currentTarget.style.background = P.tealLight}
-          onMouseLeave={e => e.currentTarget.style.background = 'none'}
-        >
-          <Heart size={14} /> Donate
-        </button>
-
         {/* Search — desktop inline */}
         <div className="wb-nav-search" style={{
           display: 'flex', alignItems: 'center', gap: '8px',
@@ -1284,18 +1265,6 @@ const Nav = ({ currentView, onNavigate, searchQuery, setSearchQuery, onOpenAuth 
               }}
             >
               <LogIn size={16} /> Log in
-            </button>
-            <button
-              onClick={() => { closeMenu(); onNavigate({ view: 'support' }); }}
-              style={{
-                width: '100%', padding: '12px 16px',
-                background: `linear-gradient(135deg, ${P.crimson}0d, ${P.amber}14)`,
-                color: P.crimson, border: `1px solid ${P.crimson}33`,
-                borderRadius: '8px', fontSize: '15px', fontWeight: 600, cursor: 'pointer',
-                fontFamily: "'Inter', sans-serif", display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '8px'
-              }}
-            >
-              <Heart size={16} /> Donate
             </button>
           </div>
 
@@ -1413,7 +1382,7 @@ const LeftSidebar = ({ onNavigate }) => {
         }},
         { label: 'About WikiBiome', action: () => onNavigate({ view: 'about' }) },
         { label: 'Contact us', action: () => onNavigate({ view: 'contact' }) },
-        { label: 'Donate', action: () => onNavigate({ view: 'support' }) },
+        { label: 'For researchers', action: () => onNavigate({ view: 'support' }) },
       ].map((item) => (
         <div key={item.label} onClick={item.action} style={{
           display: 'flex', alignItems: 'center', gap: '8px',
@@ -1660,16 +1629,6 @@ const HomeView = ({ onNavigate, onOpenAuth }) => {
           onMouseEnter={e => e.currentTarget.style.color = '#fff'}
           onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.85)'}
         >Create account</span>
-        <span
-          onClick={() => onNavigate({ view: 'support' })}
-          style={{
-            display: 'flex', alignItems: 'center', gap: '4px',
-            color: 'rgba(255,255,255,0.85)', fontSize: '13px', cursor: 'pointer',
-            fontFamily: "'Inter', sans-serif", transition: 'color 0.15s',
-          }}
-          onMouseEnter={e => e.currentTarget.style.color = '#fff'}
-          onMouseLeave={e => e.currentTarget.style.color = 'rgba(255,255,255,0.85)'}
-        ><Heart size={14} fill="rgba(138,180,248,0.9)" stroke="none" /> Donate</span>
       </div>
 
       {/* ══════ Floating left sidebar ══════ */}
@@ -4053,8 +4012,8 @@ const AboutView = ({ onNavigate }) => {
         WikiBiome grows through community contribution. If you've published research on microbiome-metal
         interactions, or know of papers we should include, you can{' '}
         <span onClick={() => onNavigate({ view: 'submit' })} style={{ color: P.teal, textDecoration: 'underline', cursor: 'pointer' }}>submit a paper</span>{' '}
-        for consideration. If you'd like to support our mission financially, visit our{' '}
-        <span onClick={() => onNavigate({ view: 'support' })} style={{ color: P.teal, textDecoration: 'underline', cursor: 'pointer' }}>support page</span>.
+        for consideration, or visit the{' '}
+        <span onClick={() => onNavigate({ view: 'support' })} style={{ color: P.teal, textDecoration: 'underline', cursor: 'pointer' }}>researcher and partner paths</span>.
       </StaticP>
 
       <StaticP style={{ fontSize: '13px', color: P.textMuted, marginTop: '40px', paddingTop: '20px', borderTop: `1px solid ${P.borderLight}` }}>
@@ -4103,8 +4062,8 @@ const PrivacyView = () => (
 
     <StaticH2>Third-party services</StaticH2>
     <StaticP>
-      WikiBiome is hosted on Vercel. Payment processing for donations is handled by Stripe, which has
-      its own privacy policy. We do not store credit card information on our servers.
+      WikiBiome is hosted on Vercel. Links to partner organizations lead to their own websites and
+      privacy policies.
     </StaticP>
 
     <StaticH2>Contact</StaticH2>
@@ -4149,14 +4108,6 @@ const TermsView = () => (
       Original WikiBiome content (summaries, entity pages, concept pages) is available under the{' '}
       <ExtLink href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License</ExtLink>.
       Source papers retain their original copyright and licensing.
-    </StaticP>
-
-    <StaticH2>Donations</StaticH2>
-    <StaticP>
-      Donations to WikiBiome support the ongoing development and maintenance of the knowledge base.
-      Donations are not tax-deductible unless explicitly stated. Condition profiling requests funded
-      by donations are subject to editorial review — funding does not guarantee inclusion or any
-      particular editorial outcome.
     </StaticP>
 
     <StaticH2>Limitation of liability</StaticH2>
@@ -4255,212 +4206,39 @@ const ContactView = () => {
   );
 };
 
-/* ── Support / Donate ── */
-const DONATE_PRESETS = [25, 50, 100, 250, 500, 1000];
-const DONATE_SUGGESTED = 100;
-
+/* ── Explore and collaborate ── */
 const SupportView = ({ onNavigate }) => {
-  const stats = CONTENT.stats || {};
-  const sigCount = Object.keys(CONTENT.signatures || {}).length;
-  const [frequency, setFrequency] = useState('one-time'); // 'one-time' | 'monthly'
-  const [selectedAmount, setSelectedAmount] = useState(DONATE_SUGGESTED);
-  const [customAmount, setCustomAmount] = useState('');
-  const [isCustom, setIsCustom] = useState(false);
-  const [processing, setProcessing] = useState(false);
-  const [error, setError] = useState(null);
-
-  const activeAmount = isCustom ? (parseInt(customAmount, 10) || 0) : selectedAmount;
-
-  const handleDonate = async () => {
-    if (activeAmount < 1 || processing) return;
-    setProcessing(true);
-    setError(null);
-    try {
-      const res = await fetch('/api/create-checkout', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ amount: activeAmount, frequency }),
-      });
-      const data = await res.json();
-      if (!res.ok || !data.url) {
-        throw new Error(data.error || 'Unable to start checkout');
-      }
-      // Redirect directly — amount is pre-filled on Stripe's page
-      window.location.href = data.url;
-    } catch (err) {
-      setError(err.message);
-      setProcessing(false);
-      // Fallback: open the plain payment link so donation is never fully blocked
-      setTimeout(() => { if (window.confirm('Checkout setup failed. Open standard donation page instead?')) window.open(STRIPE_DONATE_URL, '_blank'); }, 100);
-    }
-  };
-
-  const freqToggleStyle = (active) => ({
-    flex: 1, padding: '12px 16px', fontSize: '14px', fontWeight: active ? 600 : 400,
-    fontFamily: "'Inter', sans-serif", border: 'none', borderRadius: '8px', cursor: 'pointer',
-    background: active ? P.white : 'transparent', color: active ? P.teal : P.textMuted,
-    boxShadow: active ? '0 1px 4px rgba(0,0,0,0.08)' : 'none', transition: 'all 0.2s',
-  });
-
-  const amountBtnStyle = (active) => ({
-    padding: '14px 8px', fontSize: '16px', fontWeight: active ? 700 : 500,
-    fontFamily: "'Inter', sans-serif", border: `2px solid ${active ? P.teal : P.border}`,
-    borderRadius: '10px', cursor: 'pointer', transition: 'all 0.15s',
-    background: active ? 'rgba(51,102,204,0.06)' : P.white, color: active ? P.teal : P.ink,
-    textAlign: 'center', position: 'relative',
-  });
-
+  const paths = [
+    { icon: BookOpen, title: 'Explore the encyclopedia', description: 'Browse evidence-linked pages across microbes, metals, mechanisms, and health conditions.', action: () => onNavigate({ view: 'explore' }), label: 'Explore WikiBiome' },
+    { icon: Microscope, title: 'For researchers', description: 'Suggest peer-reviewed research for editorial review and inclusion in the encyclopedia.', action: () => onNavigate({ view: 'submit' }), label: 'Submit research' },
+    { icon: Activity, title: 'Microbiome Medicine', description: 'Follow the broader clinical and educational work connecting microbiome science with practice.', href: 'https://microbiomemedicine.com', label: 'Visit Microbiome Medicine' },
+    { icon: Globe, title: 'For labs and clinics', description: 'Learn about Cureva’s work for laboratory and clinical teams.', href: 'https://cureva.ai', label: 'Visit Cureva' },
+  ];
   return (
     <StaticPageWrapper>
       <div style={{ textAlign: 'center', marginBottom: '40px' }}>
-        <div style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', width: '56px', height: '56px', borderRadius: '50%', background: 'rgba(51,102,204,0.1)', marginBottom: '16px' }}>
-          <Heart size={28} color={P.teal} />
-        </div>
-        <StaticH1>Support WikiBiome</StaticH1>
+        <StaticH1>Explore and collaborate</StaticH1>
         <StaticP style={{ maxWidth: '560px', margin: '0 auto', textAlign: 'center' }}>
-          Free, ad-free, and open access — forever. Your support funds the research,
-          writing, and infrastructure behind the world's most comprehensive
-          microbiome-metallomics knowledge base.
+          WikiBiome is a free, open encyclopedia. Choose the path that fits your work or your questions.
         </StaticP>
       </div>
-
-      {/* ── Donation Card ── */}
-      <div style={{ background: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '16px', padding: '32px', marginBottom: '32px', maxWidth: '540px', marginLeft: 'auto', marginRight: 'auto' }}>
-
-        {/* Frequency toggle */}
-        <div style={{ display: 'flex', gap: '4px', background: P.bgWarm, borderRadius: '10px', padding: '4px', marginBottom: '24px' }}>
-          <button onClick={() => setFrequency('one-time')} style={freqToggleStyle(frequency === 'one-time')}>One-time</button>
-          <button onClick={() => setFrequency('monthly')} style={freqToggleStyle(frequency === 'monthly')}>
-            Monthly
-            {frequency === 'monthly' && <span style={{ display: 'block', fontSize: '10px', fontWeight: 400, color: P.textMuted, marginTop: '2px' }}>Cancel anytime</span>}
-          </button>
-        </div>
-
-        {/* Suggested donation line — anchors without pressure */}
-        <p style={{ fontSize: '13px', color: P.textMuted, textAlign: 'center', marginBottom: '14px', marginTop: 0, lineHeight: 1.5 }}>
-          <strong style={{ color: P.ink }}>Suggested donation: $100</strong> — gifts of any size welcome.
-        </p>
-
-        {/* Amount presets */}
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '10px', marginBottom: '16px' }}>
-          {DONATE_PRESETS.map(amt => (
-            <button key={amt} onClick={() => { setSelectedAmount(amt); setIsCustom(false); setCustomAmount(''); }} style={amountBtnStyle(!isCustom && selectedAmount === amt)}>
-              ${amt}
-              {amt === DONATE_SUGGESTED && (
-                <div style={{ position: 'absolute', top: '-9px', left: '50%', transform: 'translateX(-50%)', background: P.teal, color: 'white', fontSize: '9px', fontWeight: 700, padding: '2px 8px', borderRadius: '4px', letterSpacing: '0.5px', whiteSpace: 'nowrap' }}>
-                  SUGGESTED
-                </div>
-              )}
-            </button>
-          ))}
-        </div>
-
-        {/* Custom amount */}
-        <div style={{ position: 'relative', marginBottom: '24px' }}>
-          <span style={{ position: 'absolute', left: '14px', top: '50%', transform: 'translateY(-50%)', color: isCustom ? P.teal : P.textLight, fontSize: '16px', fontWeight: 600 }}>$</span>
-          <input
-            type="number" min="1" placeholder="Other amount"
-            value={customAmount}
-            onFocus={() => setIsCustom(true)}
-            onChange={e => { setCustomAmount(e.target.value); setIsCustom(true); }}
-            style={{
-              width: '100%', padding: '14px 14px 14px 28px', fontSize: '16px',
-              border: `2px solid ${isCustom ? P.teal : P.border}`, borderRadius: '10px',
-              fontFamily: "'Inter', sans-serif", outline: 'none', boxSizing: 'border-box',
-              background: isCustom ? 'rgba(51,102,204,0.03)' : P.white,
-            }}
-          />
-        </div>
-
-        {/* Donate button */}
-        <button onClick={handleDonate} disabled={activeAmount < 1 || processing} style={{
-          width: '100%', background: activeAmount >= 1 && !processing ? P.teal : P.border,
-          color: P.white, border: 'none', borderRadius: '10px',
-          padding: '16px', fontSize: '17px', fontWeight: 700, fontFamily: "'Inter', sans-serif",
-          cursor: activeAmount >= 1 && !processing ? 'pointer' : 'default',
-          display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '10px',
-          boxShadow: activeAmount >= 1 && !processing ? '0 4px 16px rgba(51,102,204,0.3)' : 'none',
-          transition: 'all 0.2s',
-        }}
-          onMouseEnter={e => { if (activeAmount >= 1 && !processing) { e.currentTarget.style.transform = 'translateY(-1px)'; e.currentTarget.style.boxShadow = '0 6px 20px rgba(51,102,204,0.4)'; }}}
-          onMouseLeave={e => { e.currentTarget.style.transform = 'translateY(0)'; e.currentTarget.style.boxShadow = '0 4px 16px rgba(51,102,204,0.3)'; }}
-        >
-          <Heart size={18} />
-          {processing
-            ? 'Redirecting to Stripe…'
-            : activeAmount >= 1
-              ? `Donate $${activeAmount}${frequency === 'monthly' ? '/month' : ''}`
-              : 'Enter an amount'}
-        </button>
-
-        {error && (
-          <p style={{ fontSize: '12px', color: P.crimson, textAlign: 'center', marginTop: '10px', marginBottom: 0 }}>
-            {error}
-          </p>
-        )}
-
-        <p style={{ fontSize: '12px', color: P.textLight, textAlign: 'center', marginTop: '14px', marginBottom: 0, lineHeight: 1.5 }}>
-          Processed securely via Stripe. {frequency === 'monthly' && 'Cancel anytime from your Stripe dashboard. '}No account required.
-        </p>
-      </div>
-
-      {/* What your donation supports */}
-      <StaticH2>What your donation supports</StaticH2>
-      <div style={{ display: 'grid', gap: '12px', marginBottom: '40px' }}>
-        {[
-          { icon: FileText, label: 'Source pages', desc: `${stats.sources || 0} peer-reviewed papers ingested, summarized, and cross-referenced — each one takes real research time.`, color: P.patina },
-          { icon: Bug, label: 'Entity pages', desc: `${stats.entities || 0} microbe, metal, and disease pages with depth Wikipedia doesn't have — metal dependencies, virulence enzymes, ecological roles.`, color: P.teal },
-          { icon: Microscope, label: 'Disease signatures', desc: `${sigCount} full 5-layer metallomic signatures mapping the ecological story of each condition. These are months of work each.`, color: P.amber },
-          { icon: Globe, label: 'Infrastructure', desc: 'Hosting, search, database, and the tools that keep WikiBiome fast, free, and accessible worldwide.', color: P.crimson },
-        ].map(item => {
+      <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(230px, 1fr))', gap: '16px' }}>
+        {paths.map(item => {
           const Icon = item.icon;
           return (
-            <div key={item.label} style={{ background: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '10px', padding: '20px 24px', display: 'flex', gap: '16px', alignItems: 'flex-start' }}>
-              <div style={{ width: '40px', height: '40px', borderRadius: '8px', background: `${item.color}12`, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
-                <Icon size={20} color={item.color} />
-              </div>
-              <div>
-                <div style={{ fontSize: '15px', fontWeight: 600, color: P.ink, marginBottom: '4px' }}>{item.label}</div>
-                <div style={{ fontSize: '13px', color: P.textMuted, lineHeight: 1.6 }}>{item.desc}</div>
-              </div>
+            <div key={item.title} style={{ background: P.white, border: `1px solid ${P.borderLight}`, borderRadius: '12px', padding: '24px', display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }}>
+              <Icon size={22} color={P.teal} />
+              <h2 style={{ fontSize: '18px', color: P.ink, margin: '16px 0 8px' }}>{item.title}</h2>
+              <p style={{ fontSize: '13px', color: P.textMuted, lineHeight: 1.7, flex: 1, marginBottom: '18px' }}>{item.description}</p>
+              {item.href ? (
+                <a href={item.href} target="_blank" rel="noopener noreferrer" style={{ color: P.teal, fontSize: '13px', fontWeight: 600 }}>{item.label} <ArrowRight size={13} style={{ verticalAlign: '-2px' }} /></a>
+              ) : (
+                <button onClick={item.action} style={{ background: 'none', border: 'none', padding: 0, color: P.teal, fontSize: '13px', fontWeight: 600, cursor: 'pointer' }}>{item.label} <ArrowRight size={13} style={{ verticalAlign: '-2px' }} /></button>
+              )}
             </div>
           );
         })}
       </div>
-
-      {/* How we prioritize */}
-      <StaticH2>How we decide what to build next</StaticH2>
-      <StaticP>
-        WikiBiome is community-driven. We don't build pages for whoever pays the most — we build
-        what the community asks for. Anyone can{' '}
-        <span onClick={() => onNavigate({ view: 'submit' })} style={{ color: P.teal, textDecoration: 'underline', cursor: 'pointer' }}>submit a paper</span>{' '}
-        for ingestion or{' '}
-        <span onClick={() => onNavigate({ view: 'vote' })} style={{ color: P.teal, textDecoration: 'underline', cursor: 'pointer' }}>vote on the next condition</span>{' '}
-        to be profiled. The more requests a condition gets, the higher it moves in the queue.
-        Donations keep the lights on and the research moving — they don't buy priority.
-      </StaticP>
-
-      {/* Second donate CTA */}
-      <div style={{ background: `linear-gradient(135deg, ${P.bgHero} 0%, #1a4a42 100%)`, borderRadius: '12px', padding: '36px', textAlign: 'center', color: 'white', marginTop: '40px' }}>
-        <h3 style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '22px', fontWeight: 400, marginBottom: '8px' }}>
-          Every contribution counts
-        </h3>
-        <p style={{ fontSize: '14px', opacity: 0.85, lineHeight: 1.7, maxWidth: '480px', margin: '0 auto 24px' }}>
-          $10 or $10,000 — it all goes directly to building the world's most comprehensive
-          microbiome-metallomics knowledge base. No middlemen, no overhead.
-        </p>
-        <button onClick={handleDonate} style={{
-          background: 'white', color: P.bgHero, border: 'none', borderRadius: '8px',
-          padding: '14px 32px', fontSize: '15px', fontWeight: 600, fontFamily: "'Inter', sans-serif",
-          cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '8px',
-        }}>
-          <Heart size={16} /> Support WikiBiome
-        </button>
-      </div>
-
-      <StaticP style={{ fontSize: '12px', color: P.textLight, textAlign: 'center', marginTop: '20px' }}>
-        WikiBiome donations are not currently tax-deductible. For partnership or sponsorship inquiries, <span onClick={() => onNavigate({ view: 'contact' })} style={{ color: P.teal, textDecoration: 'underline', cursor: 'pointer' }}>contact us</span>.
-      </StaticP>
     </StaticPageWrapper>
   );
 };
@@ -4498,25 +4276,6 @@ const SubmitView = ({ onNavigate }) => {
               : 'Thank you for your request. We\'ll review the condition and reach out about next steps, including the profiling timeline.'
             }
           </StaticP>
-
-          {/* Post-submission donation ask */}
-          <div style={{ background: P.bgWarm, border: `1px solid ${P.borderLight}`, borderRadius: '12px', padding: '24px 28px', marginTop: '28px', maxWidth: '440px', marginLeft: 'auto', marginRight: 'auto', textAlign: 'center' }}>
-            <p style={{ fontSize: '14px', color: P.ink, lineHeight: 1.6, marginBottom: '16px', marginTop: 0 }}>
-              WikiBiome is researcher-supported. <strong>Suggested donation: $100</strong> — gifts
-              of any size welcome. Your contribution helps us ingest, cross-reference, and maintain
-              contributions like yours.
-            </p>
-            <button onClick={() => window.open(STRIPE_DONATE_URL, '_blank')} style={{
-              background: P.teal, color: P.white, border: 'none', borderRadius: '8px',
-              padding: '12px 24px', fontSize: '14px', fontWeight: 600, fontFamily: "'Inter', sans-serif",
-              cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '8px',
-            }}>
-              <Heart size={14} /> Support with $100
-            </button>
-            <p style={{ fontSize: '11px', color: P.textLight, marginTop: '10px', marginBottom: 0 }}>
-              Any amount helps. Donations are separate from the editorial process.
-            </p>
-          </div>
 
           <button onClick={() => { setSubmitted(false); setPaperForm({ name: '', email: '', doi: '', notes: '' }); setCondForm({ name: '', email: '', condition: '', details: '', tier: '500' }); }}
             style={{ background: 'transparent', color: P.teal, border: `1px solid ${P.border}`, borderRadius: '8px', padding: '12px 24px', fontSize: '14px', fontWeight: 500, cursor: 'pointer', fontFamily: "'Inter', sans-serif", marginTop: '16px' }}
@@ -4634,10 +4393,7 @@ const SubmitView = ({ onNavigate }) => {
 
             <div style={{ fontSize: '13px', color: P.textMuted, marginTop: '16px', padding: '14px 16px', background: 'rgba(51,102,204,0.04)', borderRadius: '8px', lineHeight: 1.6 }}>
               Requests are free to submit. We prioritize conditions by community demand — the more people
-              who request a condition, the sooner we build it. You can also{' '}
-              <span onClick={() => window.open(STRIPE_DONATE_URL, '_blank')} style={{ color: P.teal, textDecoration: 'underline', cursor: 'pointer' }}>
-                support WikiBiome with a donation
-              </span>{' '}to help fund the research.
+              who request a condition, the sooner we build it.
             </div>
           </div>
         </form>
@@ -5928,7 +5684,7 @@ function AppInner() {
                     {[
                       { label: 'About', view: 'about' },
                       { label: 'Contact', view: 'contact' },
-                      { label: 'Support', view: 'support' },
+                      { label: 'Researchers & partners', view: 'support' },
                       { label: 'Submit a paper', view: 'submit' },
                       { label: 'Keystone Studies', view: 'keystone' },
                     ].map(l => (
@@ -5957,6 +5713,7 @@ function AppInner() {
                     {[
                       { label: 'Paleo Foundation', href: 'https://paleofoundation.com' },
                       { label: 'Microbiome Medicine', href: 'https://microbiomemedicine.com' },
+                      { label: 'Cureva — labs & clinics', href: 'https://cureva.ai' },
                       { label: 'HMTc Program', href: 'https://paleofoundation.com/hmtc' },
                     ].map(l => (
                       <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer" style={{ display: 'block', fontSize: '13px', color: P.textMuted, marginBottom: '5px', textDecoration: 'none', transition: 'color 0.15s' }}
