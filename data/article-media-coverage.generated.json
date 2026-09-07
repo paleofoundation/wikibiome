@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "747e8f45d96d17271c8cdbb317f89d95a35bfaaf53e3cb9ff60028774fedc375",
+    "registrySha256": "615bf4a7dd007836a4ed11745eacfa99fe7162ef0edd43b8bbcd4110b3d5e7c9",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "f51411c85f9b1b3017cb613fc4ceb2aee6f389a759dbdbb516463908e28c0fe9",
+    "reviewLogSha256": "656cc65d4ca0c81dd304a6e572122aa481fbdda150b3c36aa5ce3672f7270b03",
     "batchManifests": [
       {
         "file": "data/article-media-batches/clinical-cautions-114.json",
@@ -489,8 +489,8 @@
       {
         "file": "data/article-media-batches/mechanisms-revisions-125.json",
         "batchId": "mechanisms-revisions-125",
-        "status": "approved-awaiting-promotion",
-        "sha256": "bf0bb1b308e3228fed2f10e95b5a8c2293f8489fd406cea8ab764fb7259aaa2a"
+        "status": "reviewed",
+        "sha256": "81c484cfc844733e353e2f58cfbc02571eb63949c78b2ddf989a9d1f0b958cd8"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -782,12 +782,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 376,
-    "remaining": 334,
-    "rejected": 358,
-    "revised": 15,
+    "completed": 377,
+    "remaining": 333,
+    "rejected": 363,
+    "revised": 16,
     "scientificHolds": 289,
-    "inReview": 1
+    "inReview": 0
   },
   "categories": [
     {
@@ -815,8 +815,8 @@
       "id": "mechanisms",
       "label": "Mechanisms",
       "total": 233,
-      "completed": 61,
-      "remaining": 172
+      "completed": 62,
+      "remaining": 171
     },
     {
       "id": "host-defenses",
@@ -6938,10 +6938,10 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
       "disposition": "revise",
       "reason": "The output reconciled the frozen tissue and microbial counts but the foreground reaches y=148 and y=883, violating the immutable 150-pixel top and bottom source-safe field.",
-      "supersededBy": null,
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-125/bacterial-vaginosis-draft-v3.png",
       "requiredResolution": "A future separately authorized revision prompt and new call must preserve the exact tissue and microbial grouping while keeping all foreground and shadow within x=150..1385 and y=150..873.",
-      "outcome": "Revision 2 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
-      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision after earlier untouched routes are exhausted."
+      "outcome": "Exactly one separately authorized revision-3 call preserved the literal tissue and microbial counts within the stricter x=250..1285 and y=220..803 safe field. Native review and exact-hash Control Tower acceptance approved revision 3 only; revision 2 remains immutable non-public evidence.",
+      "routingImpact": "Resolved by the reviewed revision-3 registry asset; this revision-2 source owns no public artifact."
     },
     {
       "pageId": "bdnf",
@@ -6978,6 +6978,96 @@
       "requiredResolution": "A future separately authorized revision prompt and new call must retain the three generic enzyme, conjugate-context, and deconjugated-context groups while keeping all foreground and shadow within the complete source-safe field.",
       "outcome": "Revision 2 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
       "routingImpact": "The route remains uncovered and eligible only for a separately audited revision after earlier untouched routes are exhausted."
+    },
+    {
+      "pageId": "bdnf",
+      "controlledIdentifier": "UniProt:P23560;NCBI-Gene:627",
+      "batchId": "mechanisms-revisions-125",
+      "revision": 3,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/bdnf-draft-v3.png",
+      "sha256": "aa8c3ac202894c39f3ec34061ef2c8fb56bf36e7f920c5a0e3af5ab49b7f387e",
+      "generationRecord": "exec-80d70ea6-dbf4-4c9a-88f0-cbfa969cbc19.png",
+      "promptSha256": "e0163d74b8335f6c675529f9c6ee57a3052b49c49b640e7e4437f07a16e71328",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "Three complete groups and exactly five terminal vesicles are visible, but foreground spans x=148..1355 and violates the immutable x=250..1285 source-safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups and five vesicles while keeping all foreground and shadow within x=250..1285 and y=220..803.",
+      "outcome": "Revision 3 remains immutable non-public evidence. It owns no master, derivative, registry key, structured media node, endpoint, image-sitemap entry, or coverage completion.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "beta-glucuronidase",
+      "controlledIdentifier": "EC:3.2.1.31",
+      "batchId": "mechanisms-revisions-125",
+      "revision": 3,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/beta-glucuronidase-draft-v3.png",
+      "sha256": "d9b51c9b5e6d12040fdbf893e33f7d8c2d120ac3c1c4794d085236b99ff8e655",
+      "generationRecord": "exec-2ea7a10b-226b-481e-83b3-03d9ebf3f152.png",
+      "promptSha256": "a9ad934cbdad274b8af8b8a54801a4676b389e9ddfe30f0ff8a696a0bed31376",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "The three complete enzyme/reaction-context groups span x=180..1400 and violate the immutable x=250..1285 source-safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups while keeping all foreground and shadow within the strict source-safe field.",
+      "outcome": "Revision 3 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "bile-salt-hydrolase",
+      "controlledIdentifier": "EC:3.5.1.24",
+      "batchId": "mechanisms-revisions-125",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/bile-salt-hydrolase-draft-v2.png",
+      "sha256": "59c528c45e60ebbaddcc2167a51c3b86eea470393b0dd6953d6231525c844227",
+      "generationRecord": "exec-85b4faa3-e73a-40ae-8171-471d1f6ba2b9.png",
+      "promptSha256": "1f4266303f6116f2bfeb8ae9c6cd2e58181dfe0da179de321bdf4ab43c9c067c",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "The three complete enzyme/reaction-context groups span x=201..1363 and violate the immutable x=250..1285 source-safe field.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the generic enzyme, conjugated-context, and product-context groups while keeping all foreground inside the strict source-safe field.",
+      "outcome": "Revision 2 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "biomarkers",
+      "controlledIdentifier": "MeSH:D015415",
+      "batchId": "mechanisms-revisions-125",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/biomarkers-draft-v2.png",
+      "sha256": "7bc121243232631e5612a8d6c34b6317169fff807c455017af34fac5786e7732",
+      "generationRecord": "exec-d21960cc-48b4-4253-97fa-a3f900d730b4.png",
+      "promptSha256": "5d6b401fef035d486dd3fef68e1f8d8530a7b275f16757e9c913e9ac67815ad4",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "The three specimen-context counts pass, but a severe black vignette and radial shadow occupy the complete canvas and all source edges, with 159744 outer-band pixels below luma 128.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic specimen-context groups while encoding a fully opaque flat pale field with no vignette, glow, horizon, or ground plane.",
+      "outcome": "Revision 2 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
+    },
+    {
+      "pageId": "blood-brain-barrier",
+      "controlledIdentifier": "MeSH:D001812",
+      "batchId": "mechanisms-revisions-125",
+      "revision": 2,
+      "draft": "work/media-drafts/mechanisms-revisions-batch-125/blood-brain-barrier-draft-v2.png",
+      "sha256": "b7f89b3e8a337da77cf1b83d46919a8ef69f6e03381bcb9a56ce33eadc306b92",
+      "generationRecord": "exec-9034fe24-222b-4b15-b23a-b08e5600b779.png",
+      "promptSha256": "5ea744cab429fc8fec3851735b983dbb7eeb0d5c26388fd2b38bf612260b8b88",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
+      "disposition": "revise",
+      "reason": "Principal capillary and cellular counts pass, but the top and lower pads and right neural group extend beyond the immutable source-safe field at x=328..1340 and y=163..811.",
+      "supersededBy": null,
+      "requiredResolution": "A future separately authorized revision prompt and new call must retain compact complete finite BBB cellular context while keeping every structure and shadow inside the strict source-safe field.",
+      "outcome": "Revision 2 remains immutable non-public evidence and owns no public media artifact.",
+      "routingImpact": "The route remains uncovered and eligible only for a separately audited revision."
     }
   ],
   "revisedAssets": [
@@ -7164,6 +7254,19 @@
       "reason": "Batch 060 revision 1 entered the required outer 32-pixel pale edge field.",
       "supersededBy": "work/media-drafts/mechanisms-revisions-batch-124/beta-lactamase-draft-v2.png",
       "outcome": "Exactly one separately authorized revision-2 call produced three complete enzyme and ring-context groups within a clean pale safe field. Native review and exact-hash Control Tower acceptance approved revision 2 only; revision 1 remains immutable rejected evidence and owns no public artifact."
+    },
+    {
+      "pageId": "bacterial-vaginosis",
+      "batchId": "mechanisms-revisions-125",
+      "draft": "work/media-drafts/mechanisms-revisions-batch-124/bacterial-vaginosis-draft-v2.png",
+      "sha256": "9214401638941bff2217e58b70adb36005b98e426f5458c471e48d510e12d0a3",
+      "generationRecord": "exec-252dd62e-f8f4-486a-bc50-5327742d26bc.png",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "wikibiome-media-program",
+      "disposition": "revise",
+      "reason": "Batch 124 revision 2 reconciled the frozen tissue and microbial counts but violated the source-safe field at the top and bottom.",
+      "supersededBy": "work/media-drafts/mechanisms-revisions-batch-125/bacterial-vaginosis-draft-v3.png",
+      "outcome": "Exactly one separately authorized revision-3 call retained one intact tissue group, four long rods, and six mixed forms while remaining inside the stricter safe field. Native review and exact-hash Control Tower acceptance approved revision 3 only; revisions 1 and 2 remain immutable rejected evidence and own no public artifact."
     }
   ],
   "nextBatch": [
@@ -7176,10 +7279,10 @@
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-revisions-124",
+        "batchId": "mechanisms-revisions-125",
         "disposition": "revise",
-        "reason": "The three teaching groups are complete, but the terminal contains six vesicles rather than the immutable five and the composition extends beyond the frozen source-safe field at x=88..1377 and y=109..871.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must retain three separate non-mechanistic orientation groups, exactly five vesicles, and the complete source-safe field."
+        "reason": "Three complete groups and exactly five terminal vesicles are visible, but foreground spans x=148..1355 and violates the immutable x=250..1285 source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups and five vesicles while keeping all foreground and shadow within x=250..1285 and y=220..803."
       }
     },
     {
@@ -7191,10 +7294,10 @@
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-revisions-124",
+        "batchId": "mechanisms-revisions-125",
         "disposition": "revise",
-        "reason": "All three requested teaching groups are complete, but the composition reaches x=1386, y=60, and y=908 and therefore violates the immutable 150-pixel source-safe field.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must retain the three generic enzyme, conjugate-context, and deconjugated-context groups while keeping all foreground and shadow within the complete source-safe field."
+        "reason": "The three complete enzyme/reaction-context groups span x=180..1400 and violate the immutable x=250..1285 source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups while keeping all foreground and shadow within the strict source-safe field."
       }
     },
     {
@@ -7206,9 +7309,10 @@
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-061",
+        "batchId": "mechanisms-revisions-125",
         "disposition": "revise",
-        "reason": "Generated structures enter the frozen outer 32-pixel field at x=31 and x=1500."
+        "reason": "The three complete enzyme/reaction-context groups span x=201..1363 and violate the immutable x=250..1285 source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the generic enzyme, conjugated-context, and product-context groups while keeping all foreground inside the strict source-safe field."
       }
     },
     {
@@ -7220,9 +7324,10 @@
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-061",
+        "batchId": "mechanisms-revisions-125",
         "disposition": "revise",
-        "reason": "The full-canvas blue-gray gradient and shadow field violates the immutable uniform pale-field and no-vignette requirement."
+        "reason": "The three specimen-context counts pass, but a severe black vignette and radial shadow occupy the complete canvas and all source edges, with 159744 outer-band pixels below luma 128.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic specimen-context groups while encoding a fully opaque flat pale field with no vignette, glow, horizon, or ground plane."
       }
     },
     {
@@ -7234,9 +7339,10 @@
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
       "revisionOf": {
-        "batchId": "mechanisms-061",
+        "batchId": "mechanisms-revisions-125",
         "disposition": "revise",
-        "reason": "Astrocytic processes fade out at several frame boundaries and reach y=997, leaving incomplete anatomy."
+        "reason": "Principal capillary and cellular counts pass, but the top and lower pads and right neural group extend beyond the immutable source-safe field at x=328..1340 and y=163..811.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must retain compact complete finite BBB cellular context while keeping every structure and shadow inside the strict source-safe field."
       }
     },
     {
@@ -14470,12 +14576,14 @@
       "route": "/article/bacterial-vaginosis",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "mechanisms-revisions-125",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/mechanisms-revisions-batch-125/bacterial-vaginosis-draft-v3.png",
-        "sha256": "1b3c417426c75eed126c3489a0a9bf489a736e3920b346a7c7dff612e400ec60"
+      "status": "reviewed",
+      "media": {
+        "assetType": "mechanism",
+        "revision": 3,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "bacterial-vaginosis-mechanism-v3-master.png",
+        "publishedFile": "bacterial-vaginosis-mechanism-v3.webp",
+        "socialFile": "bacterial-vaginosis-mechanism-v3-social.webp"
       }
     },
     {
@@ -14512,12 +14620,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-revisions-124",
+        "batchId": "mechanisms-revisions-125",
         "reviewedOn": "2026-09-07",
         "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
         "disposition": "revise",
-        "reason": "The three teaching groups are complete, but the terminal contains six vesicles rather than the immutable five and the composition extends beyond the frozen source-safe field at x=88..1377 and y=109..871.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must retain three separate non-mechanistic orientation groups, exactly five vesicles, and the complete source-safe field."
+        "reason": "Three complete groups and exactly five terminal vesicles are visible, but foreground spans x=148..1355 and violates the immutable x=250..1285 source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups and five vesicles while keeping all foreground and shadow within x=250..1285 and y=220..803."
       }
     },
     {
@@ -14533,12 +14641,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-revisions-124",
+        "batchId": "mechanisms-revisions-125",
         "reviewedOn": "2026-09-07",
         "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
         "disposition": "revise",
-        "reason": "All three requested teaching groups are complete, but the composition reaches x=1386, y=60, and y=908 and therefore violates the immutable 150-pixel source-safe field.",
-        "requiredResolution": "A future separately authorized revision prompt and new call must retain the three generic enzyme, conjugate-context, and deconjugated-context groups while keeping all foreground and shadow within the complete source-safe field."
+        "reason": "The three complete enzyme/reaction-context groups span x=180..1400 and violate the immutable x=250..1285 source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic groups while keeping all foreground and shadow within the strict source-safe field."
       }
     },
     {
@@ -14596,11 +14704,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-061",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "batchId": "mechanisms-revisions-125",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
         "disposition": "revise",
-        "reason": "Generated structures enter the frozen outer 32-pixel field at x=31 and x=1500."
+        "reason": "The three complete enzyme/reaction-context groups span x=201..1363 and violate the immutable x=250..1285 source-safe field.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the generic enzyme, conjugated-context, and product-context groups while keeping all foreground inside the strict source-safe field."
       }
     },
     {
@@ -14616,11 +14725,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-061",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "batchId": "mechanisms-revisions-125",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
         "disposition": "revise",
-        "reason": "The full-canvas blue-gray gradient and shadow field violates the immutable uniform pale-field and no-vignette requirement."
+        "reason": "The three specimen-context counts pass, but a severe black vignette and radial shadow occupy the complete canvas and all source edges, with 159744 outer-band pixels below luma 128.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must preserve the three generic specimen-context groups while encoding a fully opaque flat pale field with no vignette, glow, horizon, or ground plane."
       }
     },
     {
@@ -14636,11 +14746,12 @@
       "suggestedAssetType": "mechanism",
       "status": "rejected",
       "rejectedMedia": {
-        "batchId": "mechanisms-061",
-        "reviewedOn": "2026-09-06",
-        "reviewingAuthority": "WikiBiome Control Tower native-resolution visual audit",
+        "batchId": "mechanisms-revisions-125",
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific, visual, and programmatic pixel-field audit",
         "disposition": "revise",
-        "reason": "Astrocytic processes fade out at several frame boundaries and reach y=997, leaving incomplete anatomy."
+        "reason": "Principal capillary and cellular counts pass, but the top and lower pads and right neural group extend beyond the immutable source-safe field at x=328..1340 and y=163..811.",
+        "requiredResolution": "A future separately authorized revision prompt and new call must retain compact complete finite BBB cellular context while keeping every structure and shadow inside the strict source-safe field."
       }
     },
     {

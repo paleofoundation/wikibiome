@@ -2,8 +2,9 @@
   "schemaVersion": 1,
   "batchId": "mechanisms-revisions-125",
   "category": "mechanisms",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
+  "reviewedOn": "2026-09-07",
   "authorizedParent": "fa96b5a1ae5f4bcf473aeb1116e94925df026330",
   "generator": "OpenAI built-in image generation",
   "promptRecord": "docs/operations/media-prompts/mechanisms-revisions-125.md",
@@ -29,6 +30,14 @@
     "approvedPageIds": ["bacterial-vaginosis"],
     "acceptedSourceSha256": ["1b3c417426c75eed126c3489a0a9bf489a736e3920b346a7c7dff612e400ec60"],
     "nonPublishablePageIds": ["bdnf", "beta-glucuronidase", "bile-salt-hydrolase", "biomarkers", "blood-brain-barrier"]
+  },
+  "controlSocialCropReview": "accepted-one-centered-contain-1200x630-derivative-after-native-detail-review",
+  "promotionDerivatives": {
+    "bacterial-vaginosis": {
+      "masterSha256": "cfafa495ed866969fe4b92265125aaf53b2145edd49d4654ca9fe3c7304eff62",
+      "articleSha256": "def963c8ba5ffaaa75a60be00238bd441959624b38e3a43585551ec4fa270a96",
+      "socialSha256": "df7b5358153142ebd2acfbc6568cf704fd10441141f7133b79823bd590809f8e"
+    }
   },
   "initialAuditCommit": "0892fc6d3caba0d0e195df1483412a1ed69efb82",
   "promptFreezeCommit": "9666d54c6ca75bdd7592e8ad7d13dcbb7131c7f7",
@@ -64,6 +73,9 @@
       "visualReview": "Exactly three complete separated groups are visible: one intact mucosal cutaway, four long violet rods, and a six-form copper group comprising three short rods, one curved rod, and two cocci. All structures and shadows remain within the frozen strict source-safe area.",
       "outputAudit": {"reviewedBy":"WikiBiome Control Tower native-resolution scientific, visual, pixel-field, and exact-hash review","reviewedOn":"2026-09-07","promptCountTrusted":false,"observedSubjectDescription":"One complete neutral mucosal cutaway, four complete long rods, and a separate six-form mixed group containing three short rods, one curved rod, and two cocci.","observedVisibleBodyCount":11,"observedSpatialGroupingCount":3,"observedTissueModelCount":1,"observedLongRodCount":4,"observedMixedShortRodCount":3,"observedMixedCurvedRodCount":1,"observedMixedCoccusCount":2,"outerBackgroundBandWidthPx":32,"outerBackgroundDarkPixelCountBelowLuma128":0,"outerBackgroundMinRgb":[240,246,251],"foregroundBoundsAtLumaBelow220":{"minX":293,"minY":429,"maxX":1274,"maxY":664},"strictSafeField":"pass-x250-1285-y220-803","sourceEdgeContact":false,"containRequired":true,"metadataConsistency":"pass"},
       "proposedSocialResizeFit": "contain",
+      "masterSha256": "cfafa495ed866969fe4b92265125aaf53b2145edd49d4654ca9fe3c7304eff62",
+      "articleSha256": "def963c8ba5ffaaa75a60be00238bd441959624b38e3a43585551ec4fa270a96",
+      "socialSha256": "df7b5358153142ebd2acfbc6568cf704fd10441141f7133b79823bd590809f8e",
       "proposedAlt": "A complete mucosal teaching cutaway is separated from one orderly four-rod group and one mixed six-form microbial group.",
       "proposedCaption": "Illustrative polymicrobial community-state orientation relevant to bacterial vaginosis. Counts are layout controls, not measured abundance; this is not a specimen, microscopy result, diagnosis, or treatment claim.",
       "proposedDescription": "WikiBiome scientific reconstruction of neutral mucosal tissue and two separate illustrative microbial communities on a flat pale cool field.",
