@@ -351,7 +351,7 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
   assert.match(html, /1,939/);
-  assert.match(html, /819/);
+  assert.match(html, /820/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
 
@@ -514,6 +514,53 @@ test("server-renders Ammonia and its reviewed contextual-link batch", async () =
   const sitemap = await sitemapResponse.text();
   assert.match(history, /wiki\/concepts\/ammonia\.md/);
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/ammonia</loc>`));
+});
+
+test("server-renders Catalase and its reviewed contextual-link batch", async () => {
+  const ids = ["catalase", "oxidative-stress", "streptococcus-mutans", "metal-dependent-virulence", "iron", "aerococcus"];
+  const [catalaseResponse, ...contextResponses] = await Promise.all(ids.map((id) => render(`/article/${id}`)));
+  const [historyResponse, sitemapResponse] = await Promise.all([
+    render("/article/catalase/history"),
+    render("/sitemap.xml"),
+  ]);
+
+  for (const response of [catalaseResponse, ...contextResponses, historyResponse, sitemapResponse]) {
+    assert.equal(response.status, 200);
+  }
+
+  const catalase = await catalaseResponse.text();
+  assert.equal(htmlTitle(catalase), "Catalase — WikiBiome");
+  assert.equal(htmlCanonical(catalase), `${PUBLIC_ORIGIN}/article/catalase`);
+  assert.match(catalase, /The peroxide-defense sequence/i);
+  assert.match(catalase, /Catalase-negative microbial ecology/i);
+  assert.match(catalase, /Metal homeostasis can disable catalase defense/i);
+  for (const sourceId of [
+    "cassat-2012-metal-acquisition-staphylococcus-aureus",
+    "chandrangsu-2016-zinc-intoxication-perr-heme-toxicity",
+    "bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus",
+    "nong-2026-sod-deficiency-oxidative-stress-ecoli",
+    "williams-2025-streptococcus-mitis-h2o2-biofilm-inhibition-smutans",
+    "goh-2024-group-b-streptococcus-metal-stress-mismetallation-ros",
+  ]) {
+    assert.match(catalase, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  const contexts = await Promise.all(contextResponses.map((response) => response.text()));
+  for (const [index, html] of contexts.entries()) {
+    const articleStart = html.indexOf('<article class="article-body">');
+    const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+    assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${ids[index + 1]}`);
+    assert.match(
+      html.slice(articleStart, referencesStart),
+      /href="\/article\/catalase"/,
+      `expected contextual Catalase link in ${ids[index + 1]}`,
+    );
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/catalase\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/catalase</loc>`));
 });
 
 test("permanently redirects retired taxon URLs to one current-name canonical record", async () => {
@@ -2150,7 +2197,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     "oscillospiraceae",
   ]);
   assert.equal(program.current.completed, 144);
-  assert.equal(program.current.remaining, 568);
+  assert.equal(program.current.remaining, 569);
   assert.equal(program.current.rejected, 20);
   assert.equal(program.current.revised, 10);
   assert.equal(program.current.inReview, 0);
@@ -2499,10 +2546,10 @@ test("renders the production discovery, provenance, support, and participation s
 
   assert.match(readiness, /Every route accounted for/);
   assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
-  assert.match(readiness, /819[\s\S]{0,110}records[\s\S]{0,110}712[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /820[\s\S]{0,110}records[\s\S]{0,110}713[\s\S]{0,80}canonical article routes/);
   assert.match(
     readiness,
-    new RegExp(`${Object.keys(articleMediaRegistry).length} of 712 canonical article routes currently have reviewed`),
+    new RegExp(`${Object.keys(articleMediaRegistry).length} of 713 canonical article routes currently have reviewed`),
   );
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
@@ -2512,7 +2559,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /ae0594005dd9/);
+  assert.match(readiness, /06ac7a2cb24f/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -2803,7 +2850,7 @@ test("keeps internal operational records out of the public encyclopedia", async 
 
   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   assert.equal(content._stats.analyses, 4);
-  assert.equal(content._stats.totalPages, 819);
+  assert.equal(content._stats.totalPages, 820);
   assert.ok(!content.pages.some((page) => publicContentExclusionReason(page)));
   assert.equal(publicContentExclusionReason({
     id: "weekly-content-maintenance-2026-06-01",
@@ -2978,9 +3025,9 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "ae0594005dd9c7634ef7c6e374f18787d5eb62c8");
+  assert.equal(manifest.source.commit, "06ac7a2cb24f32d8520b1124b7a933fb94fa111d");
   assert.equal(manifest.content.sha256, digest);
-  assert.equal(manifest.content.pages, 819);
+  assert.equal(manifest.content.pages, 820);
   assert.equal(manifest.content.sources, 1939);
   assert.equal(manifest.sourceMetadataPolicy.version, 1);
   assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
@@ -3008,7 +3055,7 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 13);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6457);
+  assert.equal(manifest.audit.generatedReferences, 6463);
   assert.equal(manifest.audit.recoveredInlineReferences, 349);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);
