@@ -71,6 +71,12 @@ function escapeRegExp(value) {
   return String(value).replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
 
+function hasPublishedMediaForPage(files, pageId) {
+  const assetTypePattern = articleMediaPolicy.assetTypes.map(escapeRegExp).join("|");
+  const ownedFilePattern = new RegExp(`^${escapeRegExp(pageId)}-(?:${assetTypePattern})-v\\d+(?:-social)?\\.webp$`);
+  return files.some((filename) => ownedFilePattern.test(filename));
+}
+
 function sourceFiles(directory) {
   return readdirSync(directory, { withFileTypes: true }).flatMap((entry) => {
     const path = new URL(`${entry.name}${entry.isDirectory() ? "/" : ""}`, directory);
@@ -3889,7 +3895,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     const queueRecord = program.queue.find((record) => record.id === hold.pageId);
     assert.equal(queueRecord?.status, "scientific-hold", `${hold.pageId} remains explicitly held in the canonical media queue`);
     assert.equal(articleMediaRegistry[hold.pageId], undefined, `${hold.pageId} must not enter the reviewed registry while held`);
-    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${hold.pageId}-`)), `${hold.pageId} must not enter public media files while held`);
+    assert.ok(!hasPublishedMediaForPage(publishedMediaFiles, hold.pageId), `${hold.pageId} must not enter public media files while held`);
     assert.ok(hold.requiredResolution, `${hold.pageId} requires an explicit resolution path`);
     assert.ok(hold.routingImpact, `${hold.pageId} requires an explicit public-routing impact`);
   }
@@ -3925,13 +3931,13 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(canonicalQueueRecord?.status, expectedStatus);
     assert.equal(canonicalQueueRecord?.controlledIdentifier, identifier);
     assert.equal(articleMediaRegistry[obsoleteId], undefined);
-    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${obsoleteId}-`)));
+    assert.ok(!hasPublishedMediaForPage(publishedMediaFiles, obsoleteId));
     if (expectedStatus === "reviewed") {
       assert.ok(articleMediaRegistry[canonicalId], `${canonicalId} should have reviewed current-name media`);
-      assert.ok(publishedMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
+      assert.ok(hasPublishedMediaForPage(publishedMediaFiles, canonicalId));
     } else {
       assert.equal(articleMediaRegistry[canonicalId], undefined);
-      assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${canonicalId}-`)));
+      assert.ok(!hasPublishedMediaForPage(publishedMediaFiles, canonicalId));
     }
   }
   for (const id of resolvedHeldIds) {
@@ -3939,7 +3945,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     assert.equal(program.queue.find((record) => record.id === id), undefined, `${id} must remain outside the canonical media queue`);
     assert.ok(program.queue.some((record) => record.id === canonicalId), `${canonicalId} must be represented in the canonical media queue`);
     assert.equal(articleMediaRegistry[id], undefined);
-    assert.ok(!publishedMediaFiles.some((filename) => filename.startsWith(`${id}-`)));
+    assert.ok(!hasPublishedMediaForPage(publishedMediaFiles, id));
     const resolution = reviewLog.rejectedAssets.find((asset) => asset.pageId === id);
     assert.equal(resolution?.disposition, "scientific-identity-hold-resolved");
     assert.equal(resolution?.canonicalPageId, canonicalId);

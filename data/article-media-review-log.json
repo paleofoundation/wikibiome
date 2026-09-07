@@ -12825,6 +12825,44 @@
         "articleSha256": "5d649b1c3902d35163e243303dfea365edb97ad9d0632d964a08bef9caec03ca",
         "socialSha256": "c767e17404536e56213c4c2dbd51a08acfc84927a18ebfb69b59a443780d3cf0"
       }
+    },
+    "indole-3-carbinol-ovarian-cancer|indole-3-carbinol-ovarian-cancer-intervention-v1.webp": {
+      "pageId": "indole-3-carbinol-ovarian-cancer",
+      "publishedFile": "indole-3-carbinol-ovarian-cancer-intervention-v1.webp",
+      "masterSource": "indole-3-carbinol-ovarian-cancer-intervention-v1-master.png",
+      "socialFile": "indole-3-carbinol-ovarian-cancer-intervention-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/3712",
+          "https://www.ebi.ac.uk/chebi/CHEBI:24814",
+          "https://www.wikibiome.com/article/indole-3-carbinol-ovarian-cancer"
+        ],
+        "notes": "PubChem and ChEBI establish neutral indole-3-carbinol identity, formula, identifiers, and constitutional graph. They do not establish the local article's preclinical ovarian-cancer treatment claims."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native source and 1200 by 630 centered-contain derivative review observed one complete connected eleven-center model with nine graphite carbon-context centers, one blue nitrogen-context center, one rose oxygen-context center, the fused indole ring, and one carbon-to-oxygen side chain. No center, connector, or side chain is clipped."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text states the visible heavy-atom composition without relying on color; the caption separates chemical identity from omitted hydrogens, measured conformation, crystal packing, DIM, food and supplement context, dose, metabolism, mechanism, efficacy, safety, and clinical claims."
+      },
+      "disposition": "approved",
+      "notes": "Exact accepted source SHA-256 120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af; master 19d4cc5a5090d5121b5df41c4ba901a31e28edf9a8ac230b1cdc30932a42d875; article dd728dc35a5e14837f8e70b663b9ed6ae509da2315a8c68aa49602785d862f76; centered-contain social e1c7782fdd9c7295b59d871525f865a8bef1e7c6c3a7f9d273e3aed8b59ca216.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "indole-3-carbinol-ovarian-cancer-draft.png",
+        "sourceSha256": "120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af",
+        "generationRecord": "exec-1b88d639-cafe-4fde-a68d-9b3856c7a7ec.png",
+        "masterSha256": "19d4cc5a5090d5121b5df41c4ba901a31e28edf9a8ac230b1cdc30932a42d875",
+        "articleSha256": "dd728dc35a5e14837f8e70b663b9ed6ae509da2315a8c68aa49602785d862f76",
+        "socialSha256": "e1c7782fdd9c7295b59d871525f865a8bef1e7c6c3a7f9d273e3aed8b59ca216"
+      }
     }
   },
   "rejectedAssets": [
@@ -17278,7 +17316,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The zero-source route combines biomarkers, oral and intravenous products, restriction, disease-specific dosing, monitoring, contraindications, and safety decisions rather than one controlled intervention.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/mesh/?term=Iron", "local:data/content.generated.json#/pages/iron-management"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Iron",
+        "local:data/content.generated.json#/pages/iron-management"
+      ],
       "requiredResolution": "Choose one intervention branch, exact product and formulation, route, dose and schedule, indication and population, comparator, monitoring plan, specimen, assay, time point, endpoint, safety boundary, and direct evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed clinical protocol passes a new audit."
     },
@@ -17290,7 +17331,10 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The zero-source route combines multiple whole-diet variants, foods, macronutrient ratios, durations, populations, measurements, contraindications, adverse effects, microbial changes, and outcomes rather than one implementation.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/mesh/?term=Ketogenic%20Diet", "local:data/content.generated.json#/pages/ketogenic-diet"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Ketogenic%20Diet",
+        "local:data/content.generated.json#/pages/ketogenic-diet"
+      ],
       "requiredResolution": "Choose one ketogenic-diet variant, energy and macronutrient composition, foods or formulation, duration, population, comparator, adherence measure, specimen, assay, time point, endpoint, safety boundary, and direct evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed dietary protocol and measured state pass a new audit."
     },
@@ -17302,7 +17346,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "Three sources meet the count threshold but the route combines diet implementation, early and late microbial phases, food guidance, ketone targets, treatment context, contraindications, taxa, metabolites, and outcomes without one physical state.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/mesh/?term=Ketogenic%20Diet", "https://www.ncbi.nlm.nih.gov/mesh/?term=Multiple%20Sclerosis", "local:data/content.generated.json#/pages/ketogenic-diet-ms"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Ketogenic%20Diet",
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Multiple%20Sclerosis",
+        "local:data/content.generated.json#/pages/ketogenic-diet-ms"
+      ],
       "requiredResolution": "Choose one implementation, measured phase and time point, population, comparator, adherence state, specimen, assay, endpoint, non-diagnostic visual subject, and directly linked evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed diet implementation and measured phase pass a new audit."
     },
@@ -17314,7 +17362,11 @@
       "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
       "disposition": "scientific-media-hold",
       "reason": "The zero-source route combines two biological agents, multiple origins, purities, formulations, viable counts, doses, schedules, preterm populations, feeding contexts, mechanisms, and outcomes without one product and protocol.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=568703&mode=Info", "https://www.ncbi.nlm.nih.gov/mesh/?term=Lactoferrin", "local:data/content.generated.json#/pages/lactoferrin-lgg-nec-prevention"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=568703&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/mesh/?term=Lactoferrin",
+        "local:data/content.generated.json#/pages/lactoferrin-lgg-nec-prevention"
+      ],
       "requiredResolution": "Choose exact lactoferrin source and product state, exact LGG culture and viable formulation, combination manufacturing, dose and schedule, population, feeding context, comparator, specimen, assay, time point, endpoint, and direct evidence.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from all public media surfaces until one evidence-backed combination product and protocol pass a new audit."
     },
@@ -17330,7 +17382,12 @@
       "reviewingAuthority": "WikiBiome Control Tower native-resolution scientific and visual audit",
       "disposition": "rejected-literal-output-count",
       "reason": "Native inspection observed nine complete rods in seven groupings—five singles and two end-touching pairs—instead of the frozen eight rods in six groupings—four singles and two pairs.",
-      "checkedUrls": ["https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=568703&mode=Info", "https://www.ncbi.nlm.nih.gov/nuccore/FM179322.1", "https://pubmed.ncbi.nlm.nih.gov/22247175/", "https://pubmed.ncbi.nlm.nih.gov/22149133/"],
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=568703&mode=Info",
+        "https://www.ncbi.nlm.nih.gov/nuccore/FM179322.1",
+        "https://pubmed.ncbi.nlm.nih.gov/22247175/",
+        "https://pubmed.ncbi.nlm.nih.gov/22149133/"
+      ],
       "requiredResolution": "A future separately authorized prompt revision and new call would have to produce exactly eight complete rods in six groups while preserving the current-name strain and non-diagnostic morphology boundary.",
       "routingImpact": "The exact generated source remains quarantined and excluded from masters, derivatives, registry ownership, structured media, endpoints, and image-sitemap entries."
     }

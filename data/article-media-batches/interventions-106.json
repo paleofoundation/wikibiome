@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-106",
   "category": "interventions",
-  "status": "approved-awaiting-promotion",
+  "status": "reviewed",
   "createdOn": "2026-09-07",
   "reviewedOn": "2026-09-07",
   "authorizedParent": "0fd69db83a93962b82f678cf6a92a93b694bb96b",
@@ -10,7 +10,7 @@
   "promptRecord": "docs/operations/media-prompts/interventions-106.md",
   "reviewRecord": "docs/operations/media-reviews/interventions-106.md",
   "publicationMetadataPlan": {
-    "reviewOnly": true,
+    "reviewOnly": false,
     "creator": "OpenAI built-in image generation",
     "credit": "WikiBiome / Microbiome Medicine",
     "license": "CC BY-SA 4.0",
@@ -53,8 +53,14 @@
   "quarantinedGenerationCount": 1,
   "revisionCount": 0,
   "promotionRule": "Only source SHA-256 120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af may be promoted to a metadata-bearing lossless master, article WebP, and centered contain-mode 1200 by 630 social WebP. Four routes remain scientific holds and the failed-count LGG source remains quarantined.",
-  "controlSocialCropReview": "pending-promoted-centered-contain-derivative",
-  "promotionDerivatives": {},
+  "controlSocialCropReview": "accepted-one-centered-contain-derivative; native 1200 by 630 inspection preserves all eleven centers, the complete fused ring, every connector, and the carbon-to-oxygen side chain without clipping or label leakage",
+  "promotionDerivatives": {
+    "indole-3-carbinol-ovarian-cancer": {
+      "masterSha256": "19d4cc5a5090d5121b5df41c4ba901a31e28edf9a8ac230b1cdc30932a42d875",
+      "articleSha256": "dd728dc35a5e14837f8e70b663b9ed6ae509da2315a8c68aa49602785d862f76",
+      "socialSha256": "e1c7782fdd9c7295b59d871525f865a8bef1e7c6c3a7f9d273e3aed8b59ca216"
+    }
+  },
   "routeDecisions": [
     {
       "pageId": "iron-management",
@@ -107,6 +113,9 @@
       "controlledIdentifier": "PubChem:3712;ChEBI:24814;InChIKey:IVYPNXXAYMYVSP-UHFFFAOYSA-N",
       "promptSha256": "ea38055b5ba63b2f59c911e3d8d55e97eb1a0dfa941ff539f39fbae5cb98f3aa",
       "sha256": "120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af",
+      "masterSha256": "19d4cc5a5090d5121b5df41c4ba901a31e28edf9a8ac230b1cdc30932a42d875",
+      "articleSha256": "dd728dc35a5e14837f8e70b663b9ed6ae509da2315a8c68aa49602785d862f76",
+      "socialSha256": "e1c7782fdd9c7295b59d871525f865a8bef1e7c6c3a7f9d273e3aed8b59ca216",
       "fileSizeBytes": 1315334,
       "dimensions": {
         "width": 1536,

@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "f4c9a783427cd9d764f09a3b3a2eef33a70bd2b7103a22c9ce4ff7c7a279472e",
+    "registrySha256": "22191c5abe09b5619b20a38f42d62f393836640a37fd8fe974f46c53f3d5a0f2",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "b1d08c2552eccc774f9cbf874c5dc95365c03cca3379a22c290b065f3589233f",
+    "reviewLogSha256": "5e1dd7b8beb8357d3d501950b5443be4f81ac1d52371f34dfa9f1e1efad0479f",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -141,8 +141,8 @@
       {
         "file": "data/article-media-batches/interventions-106.json",
         "batchId": "interventions-106",
-        "status": "approved-awaiting-promotion",
-        "sha256": "331c2886afaf9c341e55927be897a268901138eccbdba83e8c05a9e553ffd457"
+        "status": "reviewed",
+        "sha256": "4df5f8cd543f10806735b8864d7993a8e1ed4b614dd22b2fb65fdf1f9a874911"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -668,12 +668,12 @@
   },
   "current": {
     "total": 710,
-    "completed": 371,
-    "remaining": 339,
+    "completed": 372,
+    "remaining": 338,
     "rejected": 262,
     "revised": 12,
     "scientificHolds": 203,
-    "inReview": 1
+    "inReview": 0
   },
   "categories": [
     {
@@ -715,8 +715,8 @@
       "id": "interventions",
       "label": "Interventions",
       "total": 69,
-      "completed": 2,
-      "remaining": 67
+      "completed": 3,
+      "remaining": 66
     },
     {
       "id": "clinical-cautions",
@@ -17908,12 +17908,14 @@
       "route": "/article/indole-3-carbinol-ovarian-cancer",
       "coverageGroup": "interventions",
       "suggestedAssetType": "intervention",
-      "status": "in-review",
-      "reviewCandidate": {
-        "batchId": "interventions-106",
-        "decision": "approved-after-output-audit",
-        "draft": "work/media-drafts/interventions-batch-106/indole-3-carbinol-ovarian-cancer-draft.png",
-        "sha256": "120cc8b326c6651f309aff5dbfba23b10161b6aab930b3b620cc339c9d16a3af"
+      "status": "reviewed",
+      "media": {
+        "assetType": "intervention",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "indole-3-carbinol-ovarian-cancer-intervention-v1-master.png",
+        "publishedFile": "indole-3-carbinol-ovarian-cancer-intervention-v1.webp",
+        "socialFile": "indole-3-carbinol-ovarian-cancer-intervention-v1-social.webp"
       }
     },
     {
