@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "7891a98b6943b7a501a133f1a5c62233aa77942768633ac654104a55148830be",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "22a631683f510b1f9f135b2642b47868720240520c498600f525683939db78de",
+    "reviewLogSha256": "f80f2131d479b0f98457d40f95612099c8a54098eff97303edf9938cb147ecbc",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -197,6 +197,12 @@
         "batchId": "mechanisms-076",
         "status": "reviewed",
         "sha256": "ae3ff6a4bb39b1eb76234aebcaae95ffc35fe7d87efb3d6a2da1e18f455a6312"
+      },
+      {
+        "file": "data/article-media-batches/mechanisms-077.json",
+        "batchId": "mechanisms-077",
+        "status": "reviewed",
+        "sha256": "11f08fc9c7161424f62bf17db080729d7dc553bb7d31593844bd89bb52831416"
       },
       {
         "file": "data/article-media-batches/metals-041.json",
@@ -490,9 +496,9 @@
     "total": 710,
     "completed": 362,
     "remaining": 348,
-    "rejected": 94,
+    "rejected": 100,
     "revised": 12,
-    "scientificHolds": 39,
+    "scientificHolds": 45,
     "inReview": 0
   },
   "categories": [
@@ -2334,6 +2340,110 @@
       ],
       "requiredResolution": "Preserve the exact chemical pathway while separating cell, animal, human, renal-clearance, transporter-direction, association, and intervention evidence; remove deterministic cadmium and disease chains.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "infant-exposure",
+      "controlledIdentifier": "WikiBiome:infant-exposure;no-exact-controlled-identifier",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Heterogeneous prenatal, dietary, environmental, and iatrogenic exposures are collapsed into one infant phenotype and include unsafe prenatal-chelation framing.",
+      "checkedUrls": [
+        "https://www.fda.gov/food/hfp-constituent-updates/fda-issues-final-guidance-industry-action-levels-lead-processed-food-intended-babies-and-young",
+        "https://www.fda.gov/media/164684/download",
+        "https://www.cdc.gov/lead-prevention/media/pdfs/2025/03/cdc_147837_DS1.pdf",
+        "https://www.cdc.gov/lead-prevention/hcp/clinical-guidance/index.html",
+        "local:data/content.generated.json#/pages/infant-exposure"
+      ],
+      "requiredResolution": "Separate age, route, analyte/species, dose, product, geography, endpoint, and evidence; remove generalized chelation framing and reconcile overlapping routes.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "insulin-resistance",
+      "controlledIdentifier": "MeSH:D007333",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A measurable physiological state is dominated by PCOS and metal narratives and turns uncertain chromium biology, associations, and experimental interventions into general mechanisms and advice.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007333",
+        "local:data/content.generated.json#/pages/insulin-resistance"
+      ],
+      "requiredResolution": "Rebuild around operational definitions and measurement; separate tissues and syndromes, association and causation, human and model evidence, and guideline-grounded care.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "interleukin-6",
+      "controlledIdentifier": "MeSH:D015850;UniProt:P05231",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The exact cytokine is identifiable, but classic, trans-, and cluster signaling, metal causality, disease mediation, biomarkers, supplementation, and treatment implications are overgeneralized.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D015850",
+        "https://www.uniprot.org/uniprot/P05231.html",
+        "https://pubmed.ncbi.nlm.nih.gov/24986424/",
+        "https://pubmed.ncbi.nlm.nih.gov/37069261/",
+        "local:data/content.generated.json#/pages/interleukin-6"
+      ],
+      "requiredResolution": "Rebuild around exact protein and receptor identities, cell and tissue context, timing, signaling modes, and evidence-bounded disease examples.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "intestinal-permeability",
+      "controlledIdentifier": "MeSH:D000095644",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A broad physiological process becomes a universal disease gateway while serum zonulin and causal and treatment claims exceed assay and clinical evidence.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000095644",
+        "https://pubmed.ncbi.nlm.nih.gov/29459849/",
+        "https://pubmed.ncbi.nlm.nih.gov/32563954/",
+        "https://pubmed.ncbi.nlm.nih.gov/34513903/",
+        "local:data/content.generated.json#/pages/intestinal-permeability"
+      ],
+      "requiredResolution": "Define pathway, site, probe, and method; separate injury from permeability, remove universal causal chains, and distinguish research biomarkers from validated clinical tests and treatments.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "iron-sulfur-clusters",
+      "controlledIdentifier": "related-MeSH:D007506;no-single-cluster-identifier",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "Diverse cofactors, proteins, organisms, compartments, assembly systems, and damage modes are collapsed into a universal toxic-metal mechanism with unsupported organism dependencies.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007506",
+        "https://pubmed.ncbi.nlm.nih.gov/26488283/",
+        "https://pubmed.ncbi.nlm.nih.gov/38744662/",
+        "https://pubmed.ncbi.nlm.nih.gov/29019354/",
+        "local:data/content.generated.json#/pages/iron-sulfur-clusters"
+      ],
+      "requiredResolution": "Specify cluster, protein, organism, compartment, assembly pathway, exposure, concentration, and evidence; remove universal damage and dependency claims.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
+    },
+    {
+      "pageId": "irving-williams-series",
+      "controlledIdentifier": "named-chemistry-principle;no-exact-MeSH",
+      "batchId": "mechanisms-077",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "A conditional affinity trend is presented as an exceptionless rule for all ligands, proteins, metals, cells, toxicants, and diseases.",
+      "checkedUrls": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7239837/",
+        "https://pubmed.ncbi.nlm.nih.gov/36124565/",
+        "https://pubmed.ncbi.nlm.nih.gov/35236987/",
+        "local:data/content.generated.json#/pages/irving-williams-series"
+      ],
+      "requiredResolution": "Bound the chemical domain; distinguish thermodynamics, kinetics, buffered availability, transport, oxidation state, geometry, and cellular selectivity; handle non-series ions separately.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until editorial reconciliation passes a new scientific audit."
     }
   ],
   "revisedAssets": [
@@ -2488,55 +2598,55 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 439,
-      "id": "infant-exposure",
-      "title": "Infant Exposure",
-      "route": "/article/infant-exposure",
+      "queuePosition": 445,
+      "id": "isoflavones",
+      "title": "Isoflavones",
+      "route": "/article/isoflavones",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 440,
-      "id": "insulin-resistance",
-      "title": "Insulin Resistance",
-      "route": "/article/insulin-resistance",
+      "queuePosition": 446,
+      "id": "ketone-bodies",
+      "title": "Ketone Bodies",
+      "route": "/article/ketone-bodies",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 441,
-      "id": "interleukin-6",
-      "title": "Interleukin-6 (IL-6)",
-      "route": "/article/interleukin-6",
+      "queuePosition": 447,
+      "id": "kynurenine-pathway",
+      "title": "Kynurenine Pathway",
+      "route": "/article/kynurenine-pathway",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 442,
-      "id": "intestinal-permeability",
-      "title": "Intestinal Permeability",
-      "route": "/article/intestinal-permeability",
+      "queuePosition": 448,
+      "id": "labile-metal-pool",
+      "title": "Labile Metal Pool",
+      "route": "/article/labile-metal-pool",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 443,
-      "id": "iron-sulfur-clusters",
-      "title": "Iron-Sulfur Clusters",
-      "route": "/article/iron-sulfur-clusters",
+      "queuePosition": 449,
+      "id": "leptin",
+      "title": "Leptin",
+      "route": "/article/leptin",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
     },
     {
-      "queuePosition": 444,
-      "id": "irving-williams-series",
-      "title": "Irving-Williams Series",
-      "route": "/article/irving-williams-series",
+      "queuePosition": 450,
+      "id": "lipid-metabolism",
+      "title": "Lipid Metabolism",
+      "route": "/article/lipid-metabolism",
       "category": "mechanism",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism"
@@ -11691,7 +11801,13 @@
       "route": "/article/infant-exposure",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Heterogeneous prenatal, dietary, environmental, and iatrogenic exposures are collapsed into one infant phenotype and include unsafe prenatal-chelation framing.",
+        "requiredResolution": "Separate age, route, analyte/species, dose, product, geography, endpoint, and evidence; remove generalized chelation framing and reconcile overlapping routes."
+      }
     },
     {
       "queuePosition": 440,
@@ -11704,7 +11820,13 @@
       "route": "/article/insulin-resistance",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A measurable physiological state is dominated by PCOS and metal narratives and turns uncertain chromium biology, associations, and experimental interventions into general mechanisms and advice.",
+        "requiredResolution": "Rebuild around operational definitions and measurement; separate tissues and syndromes, association and causation, human and model evidence, and guideline-grounded care."
+      }
     },
     {
       "queuePosition": 441,
@@ -11717,7 +11839,13 @@
       "route": "/article/interleukin-6",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The exact cytokine is identifiable, but classic, trans-, and cluster signaling, metal causality, disease mediation, biomarkers, supplementation, and treatment implications are overgeneralized.",
+        "requiredResolution": "Rebuild around exact protein and receptor identities, cell and tissue context, timing, signaling modes, and evidence-bounded disease examples."
+      }
     },
     {
       "queuePosition": 442,
@@ -11730,7 +11858,13 @@
       "route": "/article/intestinal-permeability",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A broad physiological process becomes a universal disease gateway while serum zonulin and causal and treatment claims exceed assay and clinical evidence.",
+        "requiredResolution": "Define pathway, site, probe, and method; separate injury from permeability, remove universal causal chains, and distinguish research biomarkers from validated clinical tests and treatments."
+      }
     },
     {
       "queuePosition": 443,
@@ -11743,7 +11877,13 @@
       "route": "/article/iron-sulfur-clusters",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "Diverse cofactors, proteins, organisms, compartments, assembly systems, and damage modes are collapsed into a universal toxic-metal mechanism with unsupported organism dependencies.",
+        "requiredResolution": "Specify cluster, protein, organism, compartment, assembly pathway, exposure, concentration, and evidence; remove universal damage and dependency claims."
+      }
     },
     {
       "queuePosition": 444,
@@ -11756,7 +11896,13 @@
       "route": "/article/irving-williams-series",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "A conditional affinity trend is presented as an exceptionless rule for all ligands, proteins, metals, cells, toxicants, and diseases.",
+        "requiredResolution": "Bound the chemical domain; distinguish thermodynamics, kinetics, buffered availability, transport, oxidation state, geometry, and cellular selectivity; handle non-series ions separately."
+      }
     },
     {
       "queuePosition": 445,
