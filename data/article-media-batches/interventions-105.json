@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "batchId": "interventions-105",
   "category": "interventions",
-  "status": "audited",
+  "status": "prompt-frozen",
   "createdOn": "2026-09-07",
   "authorizedParent": "21c550d0e48c5242c396045d09753ef2c39b9ffb",
   "generator": "OpenAI built-in image generation",
@@ -19,6 +19,8 @@
     "sourceUse": "Controlled scientific and regulatory records supplied intervention identity and conservative representation boundaries only; no source image or design was copied."
   },
   "controlReviewRequired": true,
+  "initialAuditCommit": "b7ce3a1",
+  "promptFreezeCommit": "pending-current-commit",
   "reviewStandard": "Only a generic unoccupied monoplace hyperbaric chamber is cleared for one immutable device-orientation call. The other five routes fail material, formulation, protocol, source, population, measurement, or causal-interpretation gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
