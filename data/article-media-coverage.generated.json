@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "777701dab22b8ddb9574857f30a382465753527dd0426e3087f35224db0a8463",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "17a4d16ecc37a191d1d9730bcd3a9fa5a5d924aada373b70b86794be89ef0603",
+    "reviewLogSha256": "9eba9bfe6eeb2ade80e8b1647a797f978ea82177aaa87ccd6c74aff13d23c1e1",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -105,8 +105,8 @@
       {
         "file": "data/article-media-batches/host-defenses-100.json",
         "batchId": "host-defenses-100",
-        "status": "prompt-frozen",
-        "sha256": "8869f87481e44559d563c19f66890365052ed800014b45578a2fc647f05539aa"
+        "status": "reviewing",
+        "sha256": "eede3026ec8b4bedac9cb6aef9b9f68428d72d04ab709ea6efb3f98a2bbe841c"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -634,9 +634,9 @@
     "total": 710,
     "completed": 368,
     "remaining": 342,
-    "rejected": 225,
+    "rejected": 230,
     "revised": 12,
-    "scientificHolds": 169,
+    "scientificHolds": 174,
     "inReview": 0
   },
   "categories": [
@@ -4632,6 +4632,87 @@
       ],
       "requiredResolution": "Choose one pathogen and strain, exact virulence factor or pathway, metal species and occupancy, host niche, infection stage, experimental model, specimen and assay, measured phenotype, and evidence grade.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one measurable state passes a new audit."
+    },
+    {
+      "pageId": "inflammation",
+      "controlledIdentifier": "MeSH:D007249;multi-tissue-multi-phase-pathological-process",
+      "batchId": "host-defenses-100",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines acute and chronic inflammation, many tissues, cells, mediators, metals, microbial stimuli, resolution states, biomarkers, and diseases rather than one bounded lesion, specimen, or assay.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007249",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D018836",
+        "local:data/content.generated.json#/pages/inflammation"
+      ],
+      "requiredResolution": "Choose exact organ or tissue, trigger, acute or chronic phase, cell and mediator state, time point, specimen preparation, imaging or assay method, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one tissue- and state-specific subject passes a new audit."
+    },
+    {
+      "pageId": "microbial-metallomics",
+      "controlledIdentifier": "WikiBiome:microbial-metallomics;no-exact-controlled-identifier",
+      "batchId": "host-defenses-100",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route is a proposed systems discipline spanning exposures, metals, microbial communities, acquisition, mis-metallation, virulence, host disease, analytical platforms, and causal synthesis without one standardized specimen or output.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/mesh/68008670",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D008829",
+        "local:data/content.generated.json#/pages/microbial-metallomics"
+      ],
+      "requiredResolution": "Choose organism or defined community, specimen, exact elements and chemical forms, analytical platform, spatial and temporal scale, measured variables, statistical output, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one measured study configuration passes a new audit."
+    },
+    {
+      "pageId": "nutritional-immunity",
+      "controlledIdentifier": "multi-effector-host-defense-strategy;related-MeSH:D007113",
+      "batchId": "host-defenses-100",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines several metals, binding proteins, transport regulators, immune cells, tissues, pathogens, infection stages, withholding and intoxication mechanisms, and a proposed nickel extension rather than one physical state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D007113",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D000094406",
+        "https://www.ncbi.nlm.nih.gov/books/NBK569686/",
+        "local:data/content.generated.json#/pages/nutritional-immunity"
+      ],
+      "requiredResolution": "Choose exact host species, tissue and compartment, pathogen and strain, metal species, host effector, molecular occupancy, infection stage, specimen or model, assay, and measured outcome.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one host-pathogen-metal state passes a new audit."
+    },
+    {
+      "pageId": "pathogen-metal-acquisition",
+      "controlledIdentifier": "multi-organism-multi-metal-transport-and-regulation-class;related-MeSH:D037521",
+      "batchId": "host-defenses-100",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route merges non-equivalent cell envelopes, pathogens, metal and heme species, transporters, TonB receptors, metallophores, storage proteins, regulators, and efflux systems into a universal pathway that does not exist.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D037521",
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014774",
+        "https://www.ncbi.nlm.nih.gov/books/NBK569686/",
+        "local:data/content.generated.json#/pages/pathogen-metal-acquisition"
+      ],
+      "requiredResolution": "Choose one organism and strain, cell-envelope architecture, exact metal or heme species, acquisition factor, molecular state and structure or topology, growth or infection condition, specimen, assay, and endpoint.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one organism- and factor-specific state passes a new audit."
+    },
+    {
+      "pageId": "reactive-oxygen-species",
+      "controlledIdentifier": "MeSH:D017382;chemically-heterogeneous-reactive-species-class",
+      "batchId": "host-defenses-100",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The controlled class includes chemically distinct singlet oxygen, superoxides, peroxides, hydroxyl radical, and hypochlorous acid, while the route also combines metabolic, metal-catalyzed, immune, microbial, tissue, concentration, and disease contexts.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D017382",
+        "local:data/content.generated.json#/pages/reactive-oxygen-species"
+      ],
+      "requiredResolution": "Choose one exact chemical species and charge or spin state, source reaction, organism and compartment, concentration or flux, time point, detection method, specimen, target and endpoint.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until one chemical and measurement state passes a new audit."
     }
   ],
   "revisedAssets": [
@@ -4786,24 +4867,6 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 576,
-      "id": "inflammation",
-      "title": "Metal-Driven Inflammation",
-      "route": "/article/inflammation",
-      "category": "defense",
-      "coverageGroup": "host-defenses",
-      "suggestedAssetType": "host-defense"
-    },
-    {
-      "queuePosition": 577,
-      "id": "microbial-metallomics",
-      "title": "Microbial Metallomics",
-      "route": "/article/microbial-metallomics",
-      "category": "defense",
-      "coverageGroup": "host-defenses",
-      "suggestedAssetType": "host-defense"
-    },
-    {
       "queuePosition": 578,
       "id": "n-acetyl-cysteine",
       "title": "N-Acetylcysteine (NAC)",
@@ -4813,28 +4876,46 @@
       "suggestedAssetType": "host-defense"
     },
     {
-      "queuePosition": 579,
-      "id": "nutritional-immunity",
-      "title": "Nutritional Immunity (Metal Sequestration)",
-      "route": "/article/nutritional-immunity",
+      "queuePosition": 582,
+      "id": "siderophore-competition",
+      "title": "Siderophore Competition",
+      "route": "/article/siderophore-competition",
       "category": "defense",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense"
     },
     {
-      "queuePosition": 580,
-      "id": "pathogen-metal-acquisition",
-      "title": "Pathogen Metal Acquisition Systems",
-      "route": "/article/pathogen-metal-acquisition",
+      "queuePosition": 583,
+      "id": "siderophores",
+      "title": "Siderophores",
+      "route": "/article/siderophores",
       "category": "defense",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense"
     },
     {
-      "queuePosition": 581,
-      "id": "reactive-oxygen-species",
-      "title": "Reactive Oxygen Species (ROS)",
-      "route": "/article/reactive-oxygen-species",
+      "queuePosition": 584,
+      "id": "siderophores-metallophores",
+      "title": "Siderophores and Metallophores",
+      "route": "/article/siderophores-metallophores",
+      "category": "defense",
+      "coverageGroup": "host-defenses",
+      "suggestedAssetType": "host-defense"
+    },
+    {
+      "queuePosition": 585,
+      "id": "superoxide-dismutase",
+      "title": "Superoxide Dismutase",
+      "route": "/article/superoxide-dismutase",
+      "category": "defense",
+      "coverageGroup": "host-defenses",
+      "suggestedAssetType": "host-defense"
+    },
+    {
+      "queuePosition": 586,
+      "id": "transferrin",
+      "title": "Transferrin",
+      "route": "/article/transferrin",
       "category": "defense",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense"
@@ -16607,7 +16688,13 @@
       "route": "/article/inflammation",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route combines acute and chronic inflammation, many tissues, cells, mediators, metals, microbial stimuli, resolution states, biomarkers, and diseases rather than one bounded lesion, specimen, or assay.",
+        "requiredResolution": "Choose exact organ or tissue, trigger, acute or chronic phase, cell and mediator state, time point, specimen preparation, imaging or assay method, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 577,
@@ -16620,7 +16707,13 @@
       "route": "/article/microbial-metallomics",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route is a proposed systems discipline spanning exposures, metals, microbial communities, acquisition, mis-metallation, virulence, host disease, analytical platforms, and causal synthesis without one standardized specimen or output.",
+        "requiredResolution": "Choose organism or defined community, specimen, exact elements and chemical forms, analytical platform, spatial and temporal scale, measured variables, statistical output, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 578,
@@ -16646,7 +16739,13 @@
       "route": "/article/nutritional-immunity",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route combines several metals, binding proteins, transport regulators, immune cells, tissues, pathogens, infection stages, withholding and intoxication mechanisms, and a proposed nickel extension rather than one physical state.",
+        "requiredResolution": "Choose exact host species, tissue and compartment, pathogen and strain, metal species, host effector, molecular occupancy, infection stage, specimen or model, assay, and measured outcome."
+      }
     },
     {
       "queuePosition": 580,
@@ -16659,7 +16758,13 @@
       "route": "/article/pathogen-metal-acquisition",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route merges non-equivalent cell envelopes, pathogens, metal and heme species, transporters, TonB receptors, metallophores, storage proteins, regulators, and efflux systems into a universal pathway that does not exist.",
+        "requiredResolution": "Choose one organism and strain, cell-envelope architecture, exact metal or heme species, acquisition factor, molecular state and structure or topology, growth or infection condition, specimen, assay, and endpoint."
+      }
     },
     {
       "queuePosition": 581,
@@ -16672,7 +16777,13 @@
       "route": "/article/reactive-oxygen-species",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The controlled class includes chemically distinct singlet oxygen, superoxides, peroxides, hydroxyl radical, and hypochlorous acid, while the route also combines metabolic, metal-catalyzed, immune, microbial, tissue, concentration, and disease contexts.",
+        "requiredResolution": "Choose one exact chemical species and charge or spin state, source reaction, organism and compartment, concentration or flux, time point, detection method, specimen, target and endpoint."
+      }
     },
     {
       "queuePosition": 582,
