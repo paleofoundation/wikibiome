@@ -16313,6 +16313,66 @@
       "checkedUrls": ["https://www.ncbi.nlm.nih.gov/gene/3240", "https://pubmed.ncbi.nlm.nih.gov/29459849/", "local:data/content.generated.json#/pages/zonulin"],
       "requiredResolution": "Define HP genotype and exact precursor/processed isoform with RefSeq/UniProt sequence and molecular state, or define the commercial assay, antibody/epitope, validated analyte, specimen, units, calibration, cross-reactivity, population, cutoff, and clinical claim boundary.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until protein identity and assay claims are reconciled."
+    },
+    {
+      "pageId": "antimicrobial-metals",
+      "controlledIdentifier": "multi-element-material-and-mechanism-class;PubChem-elements:Cu-29,Ag-47,Zn-30,Ga-31",
+      "batchId": "host-defenses-097",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines four elements, multiple ionic and material states, nanoparticles, surfaces, host phagolysosomes, and several mechanisms without choosing one composition, oxidation state, dose, organism, specimen, or assay.",
+      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/Copper", "https://pubchem.ncbi.nlm.nih.gov/element/Silver", "https://pubchem.ncbi.nlm.nih.gov/element/Zinc", "https://pubchem.ncbi.nlm.nih.gov/element/Gallium", "local:data/content.generated.json#/pages/antimicrobial-metals"],
+      "requiredResolution": "Split by exact element and chemical/material form, composition, oxidation state, particle or surface specification, dose, exposure route, target organism and strain, specimen, assay, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until an exact material-and-assay scope passes a new audit."
+    },
+    {
+      "pageId": "autoimmunity",
+      "controlledIdentifier": "MeSH:D015551;system-level-autoimmune-process",
+      "batchId": "host-defenses-097",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route spans multiple diseases, tissues, autoantigens, antibodies, immune-cell states, barriers, microbes, metals, and causal hypotheses rather than one bounded physical subject.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D015551", "https://meshb.nlm.nih.gov/record/ui?ui=D001327", "local:data/content.generated.json#/pages/autoimmunity"],
+      "requiredResolution": "Choose an exact disease and stage, organ or tissue, autoantigen, immune effector and state, specimen, assay, population or model, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a disease- and state-specific scope passes a new audit."
+    },
+    {
+      "pageId": "biofilm",
+      "controlledIdentifier": "MeSH:D018441;multi-organism-variable-EPS-community",
+      "batchId": "host-defenses-097",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "MeSH spans several microbial kingdoms and variable extracellular matrices, while the route further combines devices, gut ecology, single- and mixed-kingdom communities, mineralization, and multiple metals.",
+      "checkedUrls": ["https://meshb.nlm.nih.gov/record/ui?ui=D018441", "https://meshb.nlm.nih.gov/record/ui?ui=D000077317", "local:data/content.generated.json#/pages/biofilm"],
+      "requiredResolution": "Choose exact organism or defined community, strain, growth surface or tissue, matrix composition, developmental stage, spatial scale, specimen preparation, imaging modality, metal state, and claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until an organism-, matrix-, and setting-specific scope passes a new audit."
+    },
+    {
+      "pageId": "calprotectin",
+      "controlledIdentifier": "S100A8/S100A9;RCSB-PDB:1XK4-state-specific-not-universal",
+      "batchId": "host-defenses-097",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route mixes heterodimer language, calcium-dependent heterotetramerization, several metal-bound states, neutrophil biology, fecal biomarker measurement, and multiple diseases. The available 1XK4 structure is one mutated calcium-bound human heterotetramer, not a universal state or assay signal.",
+      "checkedUrls": ["https://www.rcsb.org/structure/1XK4", "https://doi.org/10.1016/j.jmb.2007.04.065", "local:data/content.generated.json#/pages/calprotectin"],
+      "requiredResolution": "Select exact species, S100A8/A9 sequences, mutation state, oligomer, calcium and transition-metal occupancy, structure accession, compartment, specimen or assay, units, and claim scope.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until an exact molecular state or assay scope passes a new audit."
+    },
+    {
+      "pageId": "dietary-iron-gut-ecology",
+      "controlledIdentifier": "multi-form-diet-host-microbial-ecology-network",
+      "batchId": "host-defenses-097",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route combines heme and non-heme iron, foods and supplements, absorption and luminal gradients, host transport, siderophores, many taxa, and context-dependent ecological outcomes.",
+      "checkedUrls": ["https://pubchem.ncbi.nlm.nih.gov/element/Iron", "local:data/content.generated.json#/pages/dietary-iron-gut-ecology"],
+      "requiredResolution": "Define exact iron form and dose, food or formulation, compartment, time point, host population or model, microbial community, specimen and assay, measured gradient, outcome, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a form-, exposure-, and specimen-specific scope passes a new audit."
     }
   ],
   "revisedAssets": [
