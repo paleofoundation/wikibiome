@@ -67,6 +67,16 @@ export function validateArticleIdentityPolicy(content) {
     }
   }
 
+  for (const [id, expected] of Object.entries(registry.canonicalArticles ?? {})) {
+    const normalizedId = normalizeArticleId(id);
+    const matches = pagesById.get(normalizedId) ?? [];
+    if (matches.length !== 1) throw new Error(`Canonical article ${normalizedId} must have exactly one public record.`);
+    const page = matches[0];
+    if (page.title !== expected.title) {
+      throw new Error(`Canonical article ${normalizedId} has title ${page.title}, expected ${expected.title}.`);
+    }
+  }
+
   const forbiddenTitles = new Set(registry.forbiddenCanonicalTitles ?? []);
   const obsoleteTitlePages = content.pages.filter((page) => forbiddenTitles.has(page.title));
   if (obsoleteTitlePages.length) {
@@ -83,6 +93,7 @@ export function validateArticleIdentityPolicy(content) {
     aliasCount: Object.keys(aliases).length,
     retiredCanonicalCount: retired.size,
     canonicalTaxonCount: Object.keys(registry.canonicalTaxa ?? {}).length,
+    canonicalArticleCount: Object.keys(registry.canonicalArticles ?? {}).length,
     forbiddenPatternCount: (registry.forbiddenPublicPatterns ?? []).length,
   };
 }

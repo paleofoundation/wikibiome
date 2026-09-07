@@ -218,13 +218,14 @@ test("rejects prompt-derived or unreconciled generated-media counts", () => {
   );
 });
 
-test("rejects retired, obsolete, duplicate, or unsupported taxonomic identities during public generation", () => {
+test("rejects retired, obsolete, duplicate, or unsupported article identities during public generation", () => {
   const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   const aliases = getArticleAliases();
   const audit = validateArticleIdentityPolicy(generated);
 
-  assert.equal(audit.aliasCount, 13);
+  assert.equal(audit.aliasCount, 14);
   assert.equal(audit.canonicalTaxonCount, 13);
+  assert.equal(audit.canonicalArticleCount, 1);
   for (const [alias, target] of Object.entries(aliases)) {
     assert.equal(generated.pages.some((page) => page.id === alias), false, `${alias} must not remain indexable`);
     assert.equal(generated.pages.filter((page) => page.id === target).length, 1, `${target} must be unique`);
@@ -357,8 +358,8 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
-  assert.match(html, /1,939/);
-  assert.match(html, /823/);
+  assert.match(html, /1,940/);
+  assert.match(html, /822/);
   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
 });
 
@@ -1211,7 +1212,7 @@ test("server-renders corpus-wide Butyrate links without overlinking", async () =
     .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("butyrate"))
     .map((page) => page.id))]
     .sort();
-  assert.equal(contextIds.length, 203);
+  assert.equal(contextIds.length, 202);
 
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-butyrate-corpus`);
@@ -1448,6 +1449,100 @@ test("server-renders corpus-wide Heavy Metals links without overlinking", async 
   const sitemap = await sitemapResponse.text();
   assert.match(history, /wiki\/concepts\/heavy-metals\.md/);
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/heavy-metals</loc>`));
+});
+
+test("server-renders the canonical microbiome-derived metabolite graph without overlinking", async () => {
+  const generated = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const contextIds = [...new Set(generated.pages
+    .filter((page) => ["entity", "concept"].includes(page.type))
+    .filter((page) => Array.isArray(page.wikilinks) && page.wikilinks.includes("microbiome-derived-metabolites"))
+    .map((page) => page.id))]
+    .sort();
+  assert.equal(contextIds.length, 43);
+
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-microbiome-derived-metabolites`);
+  const { default: metaboliteWorker } = await import(workerUrl.href);
+  const renderMetaboliteRoute = (pathname) => metaboliteWorker.fetch(
+    new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
+    { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+    { waitUntil() {}, passThroughOnException() {} },
+  );
+
+  const [pageResponse, historyResponse, sitemapResponse, legacyResponse, legacyHistoryResponse, legacySuggestResponse] = await Promise.all([
+    renderMetaboliteRoute("/article/microbiome-derived-metabolites"),
+    renderMetaboliteRoute("/article/microbiome-derived-metabolites/history"),
+    renderMetaboliteRoute("/sitemap.xml"),
+    renderMetaboliteRoute("/article/metabolites"),
+    renderMetaboliteRoute("/article/metabolites/history"),
+    renderMetaboliteRoute("/article/metabolites/suggest"),
+  ]);
+  for (const response of [pageResponse, historyResponse, sitemapResponse]) assert.equal(response.status, 200);
+  for (const [response, suffix] of [[legacyResponse, ""], [legacyHistoryResponse, "/history"], [legacySuggestResponse, "/suggest"]]) {
+    assert.equal(response.status, 308);
+    assert.equal(response.headers.get("location"), `/article/microbiome-derived-metabolites${suffix}`);
+  }
+
+  const page = await pageResponse.text();
+  assert.equal(htmlTitle(page), "Microbiome-Derived Metabolites — WikiBiome");
+  assert.equal(htmlCanonical(page), `${PUBLIC_ORIGIN}/article/microbiome-derived-metabolites`);
+  for (const heading of [
+    "Scope and Terminology",
+    "Direct Microbial Products",
+    "Host-Microbial Co-Metabolites",
+    "What Does Not Automatically Count",
+    "From Production to Host Exposure",
+    "Major Metabolite Families",
+    "Measuring and Attributing Origin",
+    "Evidence Interpretation",
+    "Intervention Boundaries",
+  ]) {
+    assert.match(page, new RegExp(escapeRegExp(heading), "i"));
+  }
+  for (const sourceId of [
+    "spivak-2023-local-systemic-microbiome-derived-metabolites",
+    "carretta-2021-scfas-receptors-gut-inflammation-colon-cancer",
+    "di-ciaula-2017-bile-acid-physiology",
+    "zhen-2023-tmao-cardiovascular-diseases-review",
+    "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
+  ]) {
+    assert.match(page, new RegExp(`href="/source/${escapeRegExp(sourceId)}"`));
+  }
+
+  for (let offset = 0; offset < contextIds.length; offset += 24) {
+    const batchIds = contextIds.slice(offset, offset + 24);
+    const responses = await Promise.all(batchIds.map((id) => renderMetaboliteRoute(`/article/${id}`)));
+    const contexts = await Promise.all(responses.map(async (response) => {
+      assert.equal(response.status, 200);
+      return response.text();
+    }));
+    for (const [index, html] of contexts.entries()) {
+      const articleId = batchIds[index];
+      const articleStart = html.indexOf('<article class="article-body');
+      const referencesStart = html.indexOf('<section class="references-section"', articleStart);
+      assert.ok(articleStart >= 0 && referencesStart > articleStart, `expected article body for ${articleId}`);
+      const articleHtml = html.slice(articleStart, referencesStart);
+      const signatureStart = articleHtml.indexOf('<section class="signature-atlas"');
+      const narrativeStart = signatureStart >= 0
+        ? articleHtml.indexOf('<section class="disease-narrative"', signatureStart)
+        : -1;
+      const contextualHtml = signatureStart >= 0 && narrativeStart > signatureStart
+        ? `${articleHtml.slice(0, signatureStart)}${articleHtml.slice(narrativeStart)}`
+        : articleHtml;
+      assert.equal(
+        (contextualHtml.match(/href="\/article\/microbiome-derived-metabolites"/g) ?? []).length,
+        1,
+        `expected exactly one contextual microbiome-derived metabolite link in ${articleId}`,
+      );
+    }
+  }
+
+  const history = await historyResponse.text();
+  const sitemap = await sitemapResponse.text();
+  assert.match(history, /wiki\/concepts\/microbiome-derived-metabolites\.md/);
+  assert.match(history, /wiki\/concepts\/metabolites\.md/);
+  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/microbiome-derived-metabolites</loc>`));
+  assert.doesNotMatch(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/metabolites</loc>`));
 });
 
 test("server-renders Catalase and its reviewed contextual-link batch", async () => {
@@ -1695,7 +1790,7 @@ test("server-renders Interleukin-22 and its reviewed contextual-link batch", asy
   assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/interleukin-22</loc>`));
 });
 
-test("permanently redirects retired taxon URLs to one current-name canonical record", async () => {
+test("permanently redirects retired article URLs to one canonical record", async () => {
   const aliases = getArticleAliases();
   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
     for (const suffix of ["", "/history", "/suggest"]) {
@@ -3329,7 +3424,7 @@ test("applies literal, provenance-labeled image standards only to reviewed artic
     "oscillospiraceae",
   ]);
   assert.equal(program.current.completed, 144);
-  assert.equal(program.current.remaining, 572);
+  assert.equal(program.current.remaining, 571);
   assert.equal(program.current.rejected, 20);
   assert.equal(program.current.revised, 10);
   assert.equal(program.current.inReview, 0);
@@ -3678,10 +3773,10 @@ test("renders the production discovery, provenance, support, and participation s
 
   assert.match(readiness, /Every route accounted for/);
   assert.match(readiness, /46 internal maintenance, audit, outreach, and operational records are deliberately excluded/);
-  assert.match(readiness, /823[\s\S]{0,110}records[\s\S]{0,110}716[\s\S]{0,80}canonical article routes/);
+  assert.match(readiness, /822[\s\S]{0,110}records[\s\S]{0,110}715[\s\S]{0,80}canonical article routes/);
   assert.match(
     readiness,
-    new RegExp(`${Object.keys(articleMediaRegistry).length} of 716 canonical article routes currently have reviewed`),
+    new RegExp(`${Object.keys(articleMediaRegistry).length} of 715 canonical article routes currently have reviewed`),
   );
   assert.match(readiness, /Attach wikibiome\.com and www to the new Site/);
   assert.match(readiness, /former Vercel deployment remains intact as a rollback target but no longer handles the production apex route/);
@@ -3691,7 +3786,7 @@ test("renders the production discovery, provenance, support, and participation s
   assert.match(readiness, /Owner review of privacy and terms copy/);
   assert.match(readiness, /All cited source identifiers resolve through the canonical registry or its 55-entry audited alias map/);
   assert.match(readiness, /All 41 Keystone records have verified DOI and publication metadata/);
-  assert.match(readiness, /d74dca3eb93d/);
+  assert.match(readiness, /207e1599fd22/);
 
   assert.match(history, /Revision history:[\s\S]*Akkermansia muciniphila/);
   assert.match(history, /official upstream repository/);
@@ -3930,7 +4025,7 @@ test("renders the claim, contribute, collaborate researcher network", async () =
     networkResponse.text(), standardResponse.text(), submitResponse.text(), institutionsResponse.text(), sourceResponse.text(), dashboardResponse.text(),
   ]);
   assert.match(network, /Claim → Contribute → Collaborate/);
-  assert.match(network, /1,939[\s\S]{0,30}evidence records/);
+  assert.match(network, /1,940[\s\S]{0,30}evidence records/);
   assert.match(network, /Identity earns attribution—not control/);
   assert.match(network, /href="\/api\/auth\/orcid\/start\?returnTo=\/researcher\/dashboard"/);
 
@@ -3982,7 +4077,7 @@ test("keeps internal operational records out of the public encyclopedia", async 
 
   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
   assert.equal(content._stats.analyses, 4);
-  assert.equal(content._stats.totalPages, 823);
+  assert.equal(content._stats.totalPages, 822);
   assert.ok(!content.pages.some((page) => publicContentExclusionReason(page)));
   assert.equal(publicContentExclusionReason({
     id: "weekly-content-maintenance-2026-06-01",
@@ -4157,10 +4252,10 @@ test("binds generated content to the fetched upstream commit", () => {
   const digest = createHash("sha256").update(content).digest("hex");
 
   assert.equal(manifest.source.repository, "https://github.com/paleofoundation/wikibiome.git");
-  assert.equal(manifest.source.commit, "d74dca3eb93dca85201d7d3e61c36f3e4d4f55a9");
+  assert.equal(manifest.source.commit, "207e1599fd22ecd6d5edf6d48fc5f01fc5ae5c80");
   assert.equal(manifest.content.sha256, digest);
-  assert.equal(manifest.content.pages, 823);
-  assert.equal(manifest.content.sources, 1939);
+  assert.equal(manifest.content.pages, 822);
+  assert.equal(manifest.content.sources, 1940);
   assert.equal(manifest.sourceMetadataPolicy.version, 1);
   assert.equal(manifest.sourceMetadataPolicy.normalizedYearCount, 0);
   assert.equal(manifest.sourceMetadataPolicy.omittedYearCount, 3);
@@ -4173,7 +4268,7 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.publicContentPolicy.version, 3);
   assert.equal(manifest.publicContentPolicy.excludedCount, 46);
   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
-  assert.equal(manifest.editorialNormalization.leadPromotionCount, 343);
+  assert.equal(manifest.editorialNormalization.leadPromotionCount, 342);
   assert.ok(manifest.editorialNormalization.leadPromotionSamples.some((page) => page.id === "actinobacteria"));
   assert.equal(manifest.editorialStatusPolicy.version, 1);
   assert.equal(manifest.editorialStatusPolicy.sourceCommit, manifest.source.commit);
@@ -4182,12 +4277,13 @@ test("binds generated content to the fetched upstream commit", () => {
   const statusRegistry = readFileSync(new URL("../data/editorial-statuses.json", import.meta.url));
   assert.equal(manifest.editorialStatusPolicy.registrySha256, createHash("sha256").update(statusRegistry).digest("hex"));
   assert.equal(manifest.articleIdentityPolicy.version, 1);
-  assert.equal(manifest.articleIdentityPolicy.aliasCount, 13);
-  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 13);
+  assert.equal(manifest.articleIdentityPolicy.aliasCount, 14);
+  assert.equal(manifest.articleIdentityPolicy.retiredCanonicalCount, 14);
   assert.equal(manifest.articleIdentityPolicy.canonicalTaxonCount, 13);
+  assert.equal(manifest.articleIdentityPolicy.canonicalArticleCount, 1);
   const identityRegistry = readFileSync(new URL("../data/article-id-aliases.json", import.meta.url));
   assert.equal(manifest.articleIdentityPolicy.registrySha256, createHash("sha256").update(identityRegistry).digest("hex"));
-  assert.equal(manifest.audit.generatedReferences, 6494);
+  assert.equal(manifest.audit.generatedReferences, 6493);
   assert.equal(manifest.audit.recoveredInlineReferences, 349);
   assert.equal(manifest.audit.missingSourceMetadataIds.length, 0);
   assert.equal(manifest.audit.malformedDois.length, 0);

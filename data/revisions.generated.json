@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-07T11:03:47.959Z",
+  "generatedAt": "2026-09-07T11:53:13.251Z",
   "repository": "https://github.com/paleofoundation/wikibiome",
-  "sourceCommit": "d74dca3eb93dca85201d7d3e61c36f3e4d4f55a9",
-  "records": 823,
-  "canonicalIds": 758,
-  "revisions": 4413,
+  "sourceCommit": "207e1599fd22ecd6d5edf6d48fc5f01fc5ae5c80",
+  "records": 822,
+  "canonicalIds": 757,
+  "revisions": 4447,
   "histories": {
     "acidaminococcus": {
       "paths": [
@@ -4311,6 +4311,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/cardiovascular-disease.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -4443,15 +4452,6 @@
           "subject": "v2 migration Priority 2: All 29 disease entity pages upgraded with associated_conditions, seo_target, wikipedia_differentiation",
           "path": "wiki/entities/cardiovascular-disease.md",
           "additions": 6,
-          "deletions": 0
-        },
-        {
-          "hash": "ca1a1c8f55a009a88d9a1bd0cb0bf425b7a9879c",
-          "date": "2026-04-13T12:43:54+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
-          "path": "wiki/entities/cardiovascular-disease.md",
-          "additions": 5,
           "deletions": 0
         }
       ]
@@ -5040,6 +5040,15 @@
         "wiki/entities/chronic-fatigue-syndrome.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/chronic-fatigue-syndrome.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -6045,6 +6054,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/colorectal-cancer.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -6177,15 +6195,6 @@
           "subject": "WikiBiome v2 migration: signature pages + safety fixes + gap analysis",
           "path": "wiki/entities/colorectal-cancer.md",
           "additions": 1,
-          "deletions": 0
-        },
-        {
-          "hash": "2f95f2f0a2a18d69cb543c687269b06ca03ab2d4",
-          "date": "2026-04-11T22:49:04+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-11 22:49",
-          "path": "wiki/entities/colorectal-cancer.md",
-          "additions": 7,
           "deletions": 0
         }
       ]
@@ -6416,6 +6425,15 @@
         "wiki/entities/coronary-artery-disease.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/coronary-artery-disease.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -7506,6 +7524,15 @@
         "wiki/entities/dopamine.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/dopamine.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -9068,6 +9095,15 @@
         "wiki/entities/fibromyalgia.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/fibromyalgia.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -11328,6 +11364,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/hypertension.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -13503,6 +13548,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/major-depressive-disorder.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -15563,6 +15617,15 @@
           "path": "wiki/entities/oscillibacter.md",
           "additions": 1,
           "deletions": 1
+        },
+        {
+          "hash": "7a457fcff385e38f1ecf4bd64470f825f68f0444",
+          "date": "2026-09-05T17:01:33+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Correct Oscillibacter type-species provenance",
+          "path": "wiki/entities/oscillibacter.md",
+          "additions": 6,
+          "deletions": 5
         },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
@@ -20276,6 +20339,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/selenomonas.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
           "author": "WikiBiome Deploy Bot",
@@ -21424,6 +21496,15 @@
         "wiki/entities/sutterella.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/entities/sutterella.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
           "date": "2026-05-04T12:56:02-06:00",
@@ -23775,6 +23856,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/autophagy.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -24425,6 +24515,15 @@
         "wiki/concepts/blood-brain-barrier.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/blood-brain-barrier.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -25865,6 +25964,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/dietary-lead-exposure.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -26152,6 +26260,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/dysbiosis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -26285,15 +26402,6 @@
           "path": "wiki/concepts/dysbiosis.md",
           "additions": 16,
           "deletions": 8
-        },
-        {
-          "hash": "ef7fa013a793c2bb580ddcb6f0424f870181fbbe",
-          "date": "2026-04-09T21:51:02+03:00",
-          "author": "Karen Pendergrass",
-          "subject": "WikiBiome v7 — interactive microbiome metallomics encyclopedia",
-          "path": "wiki/concepts/dysbiosis.md",
-          "additions": 74,
-          "deletions": 0
         }
       ]
     },
@@ -26408,6 +26516,15 @@
         "wiki/concepts/dysmenorrhea.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/dysmenorrhea.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -26528,6 +26645,15 @@
         "wiki/concepts/endocrine-disruption.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/endocrine-disruption.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -26922,6 +27048,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/epigenetic-modifications.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -27027,6 +27162,15 @@
         "wiki/concepts/epigenetics.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/epigenetics.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -28347,6 +28491,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/gut-brain-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -28620,6 +28773,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/gut-metal-microbiome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
           "author": "Karen Pendergrass",
@@ -28753,15 +28915,6 @@
           "path": "wiki/concepts/gut-metal-microbiome.md",
           "additions": 5,
           "deletions": 3
-        },
-        {
-          "hash": "284128d59fcead3b6afb03cfe586cafd0bd15361",
-          "date": "2026-04-15T17:23:11+03:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "WikiBiome update — 2026-04-15 17:23",
-          "path": "wiki/concepts/gut-metal-microbiome.md",
-          "additions": 0,
-          "deletions": 1
         }
       ]
     },
@@ -28770,6 +28923,15 @@
         "wiki/concepts/gut-microbiome.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/gut-microbiome.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -28965,6 +29127,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/gut-prostate-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -29007,6 +29178,15 @@
         "wiki/concepts/gut-testis-axis.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/gut-testis-axis.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
@@ -30514,6 +30694,15 @@
         "wiki/concepts/indole.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/indole.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "b8fab66d543502e976ec85a8f04bdee093390dfa",
           "date": "2026-09-07T07:58:16+03:00",
@@ -32317,22 +32506,6 @@
         }
       ]
     },
-    "metabolites": {
-      "paths": [
-        "wiki/concepts/metabolites.md"
-      ],
-      "revisions": [
-        {
-          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
-          "date": "2026-05-04T12:56:02-06:00",
-          "author": "WikiBiome Deploy Bot",
-          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
-          "path": "wiki/concepts/metabolites.md",
-          "additions": 74,
-          "deletions": 0
-        }
-      ]
-    },
     "metabolomics": {
       "paths": [
         "wiki/concepts/metabolomics.md"
@@ -32802,6 +32975,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/metal-speciation.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
           "author": "Karen Pendergrass",
@@ -33218,6 +33400,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/microbial-biomarkers.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -33363,9 +33554,28 @@
     },
     "microbiome-derived-metabolites": {
       "paths": [
-        "wiki/concepts/microbiome-derived-metabolites.md"
+        "wiki/concepts/microbiome-derived-metabolites.md",
+        "wiki/concepts/metabolites.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/microbiome-derived-metabolites.md",
+          "additions": 99,
+          "deletions": 92
+        },
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/metabolites.md",
+          "additions": 0,
+          "deletions": 74
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -33419,6 +33629,15 @@
           "path": "wiki/concepts/microbiome-derived-metabolites.md",
           "additions": 23,
           "deletions": 23
+        },
+        {
+          "hash": "3173f01d6c940acbc6b7320af8634c6ffd55bd34",
+          "date": "2026-05-04T12:56:02-06:00",
+          "author": "WikiBiome Deploy Bot",
+          "subject": "massive wiki expansion: 149 stubs fixed, 100+ new pages, Rule 15 scan, keystone papers",
+          "path": "wiki/concepts/metabolites.md",
+          "additions": 74,
+          "deletions": 0
         },
         {
           "hash": "d841ae0918ec2d26e44e682b489ce847a0886d24",
@@ -33691,6 +33910,15 @@
         "wiki/concepts/mitochondrial-dysfunction.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/mitochondrial-dysfunction.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -34794,6 +35022,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/nlrp3-inflammasome.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -34836,6 +35073,15 @@
         "wiki/concepts/nrf2.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/nrf2.md",
+          "additions": 1,
+          "deletions": 1
+        },
         {
           "hash": "f6690462cffa7e19b0953f3216aad962446a3747",
           "date": "2026-09-07T13:55:06+03:00",
@@ -35370,6 +35616,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/p-cresol.md",
+          "additions": 2,
+          "deletions": 2
+        },
+        {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
           "author": "Karen Pendergrass",
@@ -35713,6 +35968,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/phenylalanine.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "967d389cf7d01240fec66c6a080188b703feeda2",
           "date": "2026-09-07T13:26:31+03:00",
           "author": "Karen Pendergrass",
@@ -35832,6 +36096,15 @@
         "wiki/concepts/polyamines.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/polyamines.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "64a95e9c30a288aa382990c7c2659af53b366935",
           "date": "2026-09-07T12:13:37+03:00",
@@ -35979,6 +36252,15 @@
         "wiki/concepts/postbiotic.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/postbiotic.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "c81bff8f4759fcb5502b59054ab4ae30b33260be",
           "date": "2026-09-07T12:47:04+03:00",
@@ -37087,6 +37369,15 @@
       ],
       "revisions": [
         {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/succinate.md",
+          "additions": 1,
+          "deletions": 1
+        },
+        {
           "hash": "df349a87f7e8c262f846a92d77edfc897d832e5f",
           "date": "2026-09-07T11:43:34+03:00",
           "author": "Karen Pendergrass",
@@ -38092,6 +38383,15 @@
         "wiki/concepts/tryptophan.md"
       ],
       "revisions": [
+        {
+          "hash": "fa16db42486d87532181921a0128d7148af1e7c3",
+          "date": "2026-09-07T14:44:04+03:00",
+          "author": "Karen Pendergrass",
+          "subject": "Consolidate microbial metabolite knowledge",
+          "path": "wiki/concepts/tryptophan.md",
+          "additions": 2,
+          "deletions": 2
+        },
         {
           "hash": "13ffa3d3389486f3941b96a019f388d9fa58d6f0",
           "date": "2026-09-07T10:53:05+03:00",

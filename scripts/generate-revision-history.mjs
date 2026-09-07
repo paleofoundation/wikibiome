@@ -37,7 +37,10 @@ const uniqueIds = [...new Set(content.pages.map((page) => page.id))];
 const histories = {};
 let revisionCount = 0;
 for (const id of uniqueIds) {
-  const declaredRevisionPaths = identityRegistry.canonicalTaxa?.[id]?.revisionPaths ?? [];
+  const declaredRevisionPaths = [
+    ...(identityRegistry.canonicalTaxa?.[id]?.revisionPaths ?? []),
+    ...(identityRegistry.canonicalArticles?.[id]?.revisionPaths ?? []),
+  ];
   const paths = [...new Set([...(pathsByBase.get(`${id}.md`) ?? []), ...declaredRevisionPaths])];
   const revisions = paths.flatMap((path) => historyForPath(path));
   const uniqueRevisions = [...new Map(revisions.map((revision) => [`${revision.hash}:${revision.path}`, revision])).values()]
