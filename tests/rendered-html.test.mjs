@@ -358,15 +358,17 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
 });
 
 test("server-renders real article and directory pages through the shared redesign", async () => {
-  const [articleResponse, directoryResponse, regulationResponse, interventionResponse] = await Promise.all([
+  const [articleResponse, directoryResponse, metalDirectoryResponse, regulationResponse, interventionResponse] = await Promise.all([
     render("/article/nickel"),
     render("/category/microbe"),
+    render("/category/metal"),
     render("/article/environmental-metal-exposure"),
     render("/article/enterohepatic-circulation"),
   ]);
 
   assert.equal(articleResponse.status, 200);
   assert.equal(directoryResponse.status, 200);
+  assert.equal(metalDirectoryResponse.status, 200);
   assert.equal(regulationResponse.status, 200);
   assert.equal(interventionResponse.status, 200);
 
@@ -415,6 +417,20 @@ test("server-renders real article and directory pages through the shared redesig
   assert.match(directory, /href="\/article\/akkermansia-muciniphila"/);
   assert.match(directory, /class="directory-record-media"[\s\S]*src="\/media\/image\/akkermansia-muciniphila-morphology-v2\.webp"/);
   assert.match(directory, /wikibiome-logo\.png/);
+
+  const metalDirectory = await metalDirectoryResponse.text();
+  const metalRoutes = mediaProgram.queue.filter((route) => route.coverageGroup === "metals");
+  assert.equal(metalRoutes.length, 29, "the canonical media program must retain all 29 metal routes");
+  for (const { id } of metalRoutes) {
+    const media = articleMediaRegistry[id];
+    assert.ok(media, `${id} must retain reviewed media ownership`);
+    assert.match(metalDirectory, new RegExp(`href="/article/${id}"`), `${id} must remain linked from the metal directory`);
+    assert.match(
+      metalDirectory,
+      new RegExp(`src="/media/image/${media.publishedFile.replaceAll(".", "\\.")}"`),
+      `${id} must render its reviewed image on the metal directory card`,
+    );
+  }
 });
 
 test("permanently redirects retired taxon URLs to one current-name canonical record", async () => {
