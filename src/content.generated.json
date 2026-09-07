@@ -1,5 +1,5 @@
 {
-  "_generated": "2026-09-07T05:25:15.350Z",
+  "_generated": "2026-09-07T05:31:14.074Z",
   "_platform": "all",
   "_stats": {
     "sources": 1939,
@@ -54784,7 +54784,7 @@
         {
           "heading": "Major Pathobionts",
           "level": 3,
-          "body": "| Genus/Family | Notable Species | Key Virulence Features |\n|---|---|---|\n| [[escherichia-coli]] | AIEC, UPEC, EHEC strains | Siderophores (enterobactin, yersiniabactin); LPS; Fe-S enzymes |\n| [[klebsiella-pneumoniae]] | *K. pneumoniae* | Capsule; siderophores; carbapenem resistance |\n| [[pseudomonas-aeruginosa]] | *P. aeruginosa* | Biofilm; pyoverdine siderophore; MnSOD + Cu/Zn-SOD |\n| [[enterobacteriaceae]] | Family | Shared siderophore systems; LPS; type III secretion |\n| [[salmonella-typhimurium]] | *S.* Typhimurium | SodCI (Cu/Zn-SOD); intracellular survival |\n| [[shigella-flexneri]] | *S. flexneri* | Intracellular invasion; iron acquisition |\n| [[proteus-mirabilis]] | *P. mirabilis* | [[urease|Urease]] (Ni-dependent); urinary stones |"
+          "body": "| Genus/Family | Notable Species | Key Virulence Features |\n|---|---|---|\n| [[escherichia-coli]] | AIEC, UPEC, EHEC strains | Siderophores (enterobactin, yersiniabactin); LPS; Fe-S enzymes |\n| [[klebsiella-pneumoniae]] | *K. pneumoniae* | Capsule; siderophores; carbapenem resistance |\n| [[pseudomonas-aeruginosa]] | *P. aeruginosa* | Biofilm; pyoverdine siderophore; MnSOD + Cu/Zn-SOD |\n| [[enterobacteriaceae]] | Family | Shared siderophore systems; LPS; type III secretion |\n| [[salmonella-typhimurium]] | *S.* Typhimurium | SodCI (Cu/Zn-SOD); intracellular survival |\n| [[shigella-flexneri]] | *S. flexneri* | Intracellular invasion; iron acquisition |\n| [[proteus-mirabilis]] | *P. mirabilis* | [[urease]] (Ni-dependent); urinary stones |"
         },
         {
           "heading": "Commensal/Context-Dependent Members",
@@ -62714,7 +62714,7 @@
         {
           "heading": "Key Enzymes and Virulence Factors",
           "level": 2,
-          "body": "| System | Metal | Function |\n|---|---|---|\n| Isd heme uptake | Iron | Heme extraction from hemoglobin; vaccine target (IsdB) |\n| Staphyloferrin A/B | Iron | Stealth siderophores evading lipocalin-2 |\n| Staphylopine (Cnt) | Zn/Ni/Co/Fe | Broad-spectrum metallophore competing with calprotectin |\n| MntABC/MntH | Manganese | Redundant Mn import for SOD metalation |\n| SodA/SodM | Mn (or Fe) | Superoxide dismutases for oxidative stress defense |\n| CopAZ | Copper | Phagolysosomal copper efflux |\n| CzrAB | Zinc | Zinc export under intoxication conditions |\n| [[urease|Urease]] | Nickel | Skin survival in urea-rich sweat |"
+          "body": "| System | Metal | Function |\n|---|---|---|\n| Isd heme uptake | Iron | Heme extraction from hemoglobin; vaccine target (IsdB) |\n| Staphyloferrin A/B | Iron | Stealth siderophores evading lipocalin-2 |\n| Staphylopine (Cnt) | Zn/Ni/Co/Fe | Broad-spectrum metallophore competing with calprotectin |\n| MntABC/MntH | Manganese | Redundant Mn import for SOD metalation |\n| SodA/SodM | Mn (or Fe) | Superoxide dismutases for oxidative stress defense |\n| CopAZ | Copper | Phagolysosomal copper efflux |\n| CzrAB | Zinc | Zinc export under intoxication conditions |\n| [[urease]] | Nickel | Skin survival in urea-rich sweat |"
         },
         {
           "heading": "Ecological Role",
@@ -99006,7 +99006,7 @@
         {
           "heading": "Other Metalloregulators",
           "level": 3,
-          "body": "| Sensor | Metal | Key Function | Organisms |\n|--------|-------|-------------|-----------|\n| MntR | Mn2+ | Manganese import/export balance; works with SczA in pneumococcus | Streptococci, *E. coli*, *B. subtilis* |\n| NikR | Ni2+ | Dual activator/repressor; controls [[urease|nickel-dependent urease]] and Ni import | *H. pylori* (essential for gastric survival) [[maier-2019-nickel-microbial-pathogenesis]] |\n| CadR | Cd2+ | ~480-fold induction of czcE upon Cd exposure | [[acinetobacter]] |\n| CopY/CsoR | Cu+ | Copper efflux pump expression | Streptococci, *M. tuberculosis* |\n| SczA | Zn2+ | Zinc efflux; works with MntR for Zn-Mn discrimination | *S. pneumoniae* |\n| PexR | Fe2+/peroxide dual sensor | Integrates metal status with oxidative stress | *Myxococcus* [[bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus]] |"
+          "body": "| Sensor | Metal | Key Function | Organisms |\n|--------|-------|-------------|-----------|\n| MntR | Mn2+ | Manganese import/export balance; works with SczA in pneumococcus | Streptococci, *E. coli*, *B. subtilis* |\n| NikR | Ni2+ | Dual activator/repressor; controls nickel-dependent [[urease]] and Ni import | *H. pylori* (essential for gastric survival) [[maier-2019-nickel-microbial-pathogenesis]] |\n| CadR | Cd2+ | ~480-fold induction of czcE upon Cd exposure | [[acinetobacter]] |\n| CopY/CsoR | Cu+ | Copper efflux pump expression | Streptococci, *M. tuberculosis* |\n| SczA | Zn2+ | Zinc efflux; works with MntR for Zn-Mn discrimination | *S. pneumoniae* |\n| PexR | Fe2+/peroxide dual sensor | Integrates metal status with oxidative stress | *Myxococcus* [[bastida-martinez-2025-pexr-peroxide-stress-metal-sensing-myxococcus]] |"
         },
         {
           "heading": "RNA-Based Metal Sensors (Riboswitches)",

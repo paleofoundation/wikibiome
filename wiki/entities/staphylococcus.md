@@ -66,7 +66,7 @@ Unlike iron, manganese, and zinc, [[copper]] levels increase at infection sites.
 | SodA/SodM | Mn (or Fe) | Superoxide dismutases for oxidative stress defense |
 | CopAZ | Copper | Phagolysosomal copper efflux |
 | CzrAB | Zinc | Zinc export under intoxication conditions |
-| [[urease|Urease]] | Nickel | Skin survival in urea-rich sweat |
+| [[urease]] | Nickel | Skin survival in urea-rich sweat |
 
 ## Ecological Role
 
