@@ -10,7 +10,7 @@
     "registryFile": "lib/article-media-registry.mjs",
     "registrySha256": "95ab381b3dcf18776bfd35f9de70f43530740aa68d013bbd09c46fad1ad51c7c",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "dd10ea47ffa17c64555573f8e78480c2808be9071941c60bb0c62a1f48886d43",
+    "reviewLogSha256": "6ff439286d59a22f654eb5ad12ea813250168681f7e4c8d813dd3d997c0bd4c0",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -313,6 +313,12 @@
         "sha256": "f4bf7dccdc04856401560a4638165745302313fa9aab8bdcdff2fe3031b3e57c"
       },
       {
+        "file": "data/article-media-batches/mechanisms-096.json",
+        "batchId": "mechanisms-096",
+        "status": "reviewed",
+        "sha256": "df3532989b53f06275befb14bb3e906f934e72f192858f32bb88f5c051248de8"
+      },
+      {
         "file": "data/article-media-batches/metals-041.json",
         "batchId": "metals-041",
         "status": "reviewed",
@@ -604,9 +610,9 @@
     "total": 710,
     "completed": 367,
     "remaining": 343,
-    "rejected": 203,
+    "rejected": 208,
     "revised": 12,
-    "scientificHolds": 148,
+    "scientificHolds": 153,
     "inReview": 0
   },
   "categories": [
@@ -4244,6 +4250,84 @@
       ],
       "requiredResolution": "Define one biological niche and specimen, collection and viral-enrichment protocol, sequencing platform and database version, taxonomic or vOTU composition, abundance threshold, host assignment method, population/model, comparator, time point, and whether the image represents measured data or a reviewed orientation atlas.",
       "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a niche-specific evidence model passes a new audit."
+    },
+    {
+      "pageId": "virulence-factors",
+      "controlledIdentifier": "MeSH:D037521;heterogeneous-pathogenicity-factor-class",
+      "batchId": "mechanisms-096",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "MeSH defines virulence factors as a class and advises coordination with specific factors. The route combines toxins, adhesins, invasins, capsules, biofilm structures, metal-acquisition systems, enzymes, organisms, compartments, and host effects without selecting one physical factor or state.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D037521",
+        "local:data/content.generated.json#/pages/virulence-factors"
+      ],
+      "requiredResolution": "Split by exact factor name and accession, producing organism/strain, molecular form and assembly, ligand/cofactor state, compartment, host target, structure or specimen source, assay, phenotype, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until a factor-specific model passes a new audit."
+    },
+    {
+      "pageId": "vitamin-b12",
+      "controlledIdentifier": "MeSH:D014805;cobalamin-family-and-cofactor-forms",
+      "batchId": "mechanisms-096",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The controlled heading includes cobalamin/cobalamins and cyanocobalamin, while biological B12 function also involves distinct methylcobalamin and adenosylcobalamin forms. The route does not choose one chemical form, cobalt coordination state, carrier-bound state, compartment, or assay.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014805",
+        "https://meshb.nlm.nih.gov/record/ui?ui=C019476",
+        "https://meshb.nlm.nih.gov/record/ui?ui=C000913",
+        "local:data/content.generated.json#/pages/vitamin-b12"
+      ],
+      "requiredResolution": "Choose an exact cobalamin form with PubChem/ChEBI identity, cobalt coordination and oxidation state, upper axial ligand, protonation and stereochemistry, carrier-bound versus free state, specimen, assay, concentration, and claim scope.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until an exact cobalamin form passes a new audit."
+    },
+    {
+      "pageId": "vitamin-d",
+      "controlledIdentifier": "MeSH:D014807;cholecalciferol-and-ergocalciferol-family-plus-metabolites",
+      "batchId": "mechanisms-096",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "MeSH explicitly includes both cholecalciferols and ergocalciferols, while the route further conflates calciferol, calcitriol, precursor production, circulating status, receptor signaling, supplementation, and deficiency-associated outcomes.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D014807",
+        "local:data/content.generated.json#/pages/vitamin-d"
+      ],
+      "requiredResolution": "Split by exact D2/D3 or metabolite identity, PubChem/ChEBI record, chemical form, source, dose, route, compartment, specimen, assay, concentration and units, receptor/target, population/model, endpoint, and evidence tier.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until an exact vitamin-D form passes a new audit."
+    },
+    {
+      "pageId": "zinc-metalloprotease",
+      "controlledIdentifier": "MeSH:D020782-related;EC:3.4.24.-;mixed-host-and-microbial-enzyme-families",
+      "batchId": "mechanisms-096",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route mixes host MMPs, bacterial fragilysin, Pseudomonas elastase, Vibrio enzymes, thermolysin-like proteases, and differing motifs and mechanisms. MeSH treats matrix metalloproteinases as a family and directs users to specific members; the route also contains an internal mechanism inconsistency for BFT that must be corrected before visual publication.",
+      "checkedUrls": [
+        "https://meshb.nlm.nih.gov/record/ui?ui=D020782",
+        "local:data/content.generated.json#/pages/zinc-metalloprotease"
+      ],
+      "requiredResolution": "Choose one exact enzyme with organism, gene/protein accession, sequence/domain, catalytic motif, zinc stoichiometry, maturation and activation state, oligomer, ligand/substrate or inhibitor, structure accession, compartment, assay, and corrected mechanism text.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until an exact corrected enzyme record passes a new audit."
+    },
+    {
+      "pageId": "zonulin",
+      "controlledIdentifier": "NCBI-Gene:3240-HP;pre-haptoglobin-2-versus-commercial-assay-analyte-ambiguity",
+      "batchId": "mechanisms-096",
+      "reviewedOn": "2026-09-07",
+      "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+      "disposition": "scientific-media-hold",
+      "reason": "The route treats zonulin as one protein and a broadly measured biomarker, but NCBI Gene 3240 records multiple haptoglobin transcript/protein isoforms, and PMID 29459849 reports that a widely used commercial ELISA did not detect pre-haptoglobin-2 and recognized properdin. A protein portrait or assay image would silently choose between non-equivalent analytes.",
+      "checkedUrls": [
+        "https://www.ncbi.nlm.nih.gov/gene/3240",
+        "https://pubmed.ncbi.nlm.nih.gov/29459849/",
+        "local:data/content.generated.json#/pages/zonulin"
+      ],
+      "requiredResolution": "Define HP genotype and exact precursor/processed isoform with RefSeq/UniProt sequence and molecular state, or define the commercial assay, antibody/epitope, validated analyte, specimen, units, calibration, cross-reactivity, population, cutoff, and clinical claim boundary.",
+      "routingImpact": "The route remains uncovered and asset-free and is excluded from prompts, generation, registry ownership, masters, derivatives, structured media, endpoints, and image-sitemap entries until protein identity and assay claims are reconciled."
     }
   ],
   "revisedAssets": [
@@ -4398,49 +4482,58 @@
   ],
   "nextBatch": [
     {
-      "queuePosition": 553,
-      "id": "virulence-factors",
-      "title": "Virulence Factors",
-      "route": "/article/virulence-factors",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "queuePosition": 558,
+      "id": "antimicrobial-metals",
+      "title": "Antimicrobial Metals",
+      "route": "/article/antimicrobial-metals",
+      "category": "defense",
+      "coverageGroup": "host-defenses",
+      "suggestedAssetType": "host-defense"
     },
     {
-      "queuePosition": 554,
-      "id": "vitamin-b12",
-      "title": "Vitamin B12",
-      "route": "/article/vitamin-b12",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "queuePosition": 559,
+      "id": "autoimmunity",
+      "title": "Autoimmunity",
+      "route": "/article/autoimmunity",
+      "category": "defense",
+      "coverageGroup": "host-defenses",
+      "suggestedAssetType": "host-defense"
     },
     {
-      "queuePosition": 555,
-      "id": "vitamin-d",
-      "title": "Vitamin D",
-      "route": "/article/vitamin-d",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "queuePosition": 560,
+      "id": "biofilm",
+      "title": "Biofilm",
+      "route": "/article/biofilm",
+      "category": "defense",
+      "coverageGroup": "host-defenses",
+      "suggestedAssetType": "host-defense"
     },
     {
-      "queuePosition": 556,
-      "id": "zinc-metalloprotease",
-      "title": "Zinc-Metalloprotease",
-      "route": "/article/zinc-metalloprotease",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "queuePosition": 561,
+      "id": "calprotectin",
+      "title": "Calprotectin (S100A8/A9)",
+      "route": "/article/calprotectin",
+      "category": "defense",
+      "coverageGroup": "host-defenses",
+      "suggestedAssetType": "host-defense"
     },
     {
-      "queuePosition": 557,
-      "id": "zonulin",
-      "title": "Zonulin",
-      "route": "/article/zonulin",
-      "category": "mechanism",
-      "coverageGroup": "mechanisms",
-      "suggestedAssetType": "mechanism"
+      "queuePosition": 562,
+      "id": "cysteine",
+      "title": "Cysteine",
+      "route": "/article/cysteine",
+      "category": "defense",
+      "coverageGroup": "host-defenses",
+      "suggestedAssetType": "host-defense"
+    },
+    {
+      "queuePosition": 563,
+      "id": "dietary-iron-gut-ecology",
+      "title": "Dietary Iron and Gut Ecology",
+      "route": "/article/dietary-iron-gut-ecology",
+      "category": "defense",
+      "coverageGroup": "host-defenses",
+      "suggestedAssetType": "host-defense"
     }
   ],
   "queue": [
@@ -15769,7 +15862,13 @@
       "route": "/article/virulence-factors",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "MeSH defines virulence factors as a class and advises coordination with specific factors. The route combines toxins, adhesins, invasins, capsules, biofilm structures, metal-acquisition systems, enzymes, organisms, compartments, and host effects without selecting one physical factor or state.",
+        "requiredResolution": "Split by exact factor name and accession, producing organism/strain, molecular form and assembly, ligand/cofactor state, compartment, host target, structure or specimen source, assay, phenotype, and evidence tier."
+      }
     },
     {
       "queuePosition": 554,
@@ -15782,7 +15881,13 @@
       "route": "/article/vitamin-b12",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The controlled heading includes cobalamin/cobalamins and cyanocobalamin, while biological B12 function also involves distinct methylcobalamin and adenosylcobalamin forms. The route does not choose one chemical form, cobalt coordination state, carrier-bound state, compartment, or assay.",
+        "requiredResolution": "Choose an exact cobalamin form with PubChem/ChEBI identity, cobalt coordination and oxidation state, upper axial ligand, protonation and stereochemistry, carrier-bound versus free state, specimen, assay, concentration, and claim scope."
+      }
     },
     {
       "queuePosition": 555,
@@ -15795,7 +15900,13 @@
       "route": "/article/vitamin-d",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "MeSH explicitly includes both cholecalciferols and ergocalciferols, while the route further conflates calciferol, calcitriol, precursor production, circulating status, receptor signaling, supplementation, and deficiency-associated outcomes.",
+        "requiredResolution": "Split by exact D2/D3 or metabolite identity, PubChem/ChEBI record, chemical form, source, dose, route, compartment, specimen, assay, concentration and units, receptor/target, population/model, endpoint, and evidence tier."
+      }
     },
     {
       "queuePosition": 556,
@@ -15808,7 +15919,13 @@
       "route": "/article/zinc-metalloprotease",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route mixes host MMPs, bacterial fragilysin, Pseudomonas elastase, Vibrio enzymes, thermolysin-like proteases, and differing motifs and mechanisms. MeSH treats matrix metalloproteinases as a family and directs users to specific members; the route also contains an internal mechanism inconsistency for BFT that must be corrected before visual publication.",
+        "requiredResolution": "Choose one exact enzyme with organism, gene/protein accession, sequence/domain, catalytic motif, zinc stoichiometry, maturation and activation state, oligomer, ligand/substrate or inhibitor, structure accession, compartment, assay, and corrected mechanism text."
+      }
     },
     {
       "queuePosition": 557,
@@ -15821,7 +15938,13 @@
       "route": "/article/zonulin",
       "coverageGroup": "mechanisms",
       "suggestedAssetType": "mechanism",
-      "status": "queued"
+      "status": "scientific-hold",
+      "scientificHold": {
+        "reviewedOn": "2026-09-07",
+        "reviewingAuthority": "WikiBiome Control Tower scientific and editorial audit",
+        "reason": "The route treats zonulin as one protein and a broadly measured biomarker, but NCBI Gene 3240 records multiple haptoglobin transcript/protein isoforms, and PMID 29459849 reports that a widely used commercial ELISA did not detect pre-haptoglobin-2 and recognized properdin. A protein portrait or assay image would silently choose between non-equivalent analytes.",
+        "requiredResolution": "Define HP genotype and exact precursor/processed isoform with RefSeq/UniProt sequence and molecular state, or define the commercial assay, antibody/epitope, validated analyte, specimen, units, calibration, cross-reactivity, population, cutoff, and clinical claim boundary."
+      }
     },
     {
       "queuePosition": 558,
