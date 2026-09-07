@@ -12710,6 +12710,42 @@
         "sourceSha256": "724066cf4801eb95e6735c074564651645f85bd0cb3c9b8fa45618982ab064ba",
         "generationRecord": "exec-20e9e518-44d6-41bb-9b4e-df5a91fa6465.png"
       }
+    },
+    "n-acetyl-cysteine|n-acetyl-cysteine-host-defense-v1.webp": {
+      "pageId": "n-acetyl-cysteine",
+      "publishedFile": "n-acetyl-cysteine-host-defense-v1.webp",
+      "masterSource": "n-acetyl-cysteine-host-defense-v1-master.png",
+      "socialFile": "n-acetyl-cysteine-host-defense-v1-social.webp",
+      "revision": 1,
+      "reviewingAuthority": "wikibiome-media-program",
+      "reviewedOn": "2026-09-07",
+      "scientificReferenceCheck": {
+        "status": "pass",
+        "checkedUrls": [
+          "https://pubchem.ncbi.nlm.nih.gov/compound/12035",
+          "https://www.ebi.ac.uk/chebi/CHEBI:28939",
+          "https://meshb.nlm.nih.gov/record/ui?ui=D000111",
+          "https://www.wikibiome.com/article/n-acetyl-cysteine"
+        ],
+        "notes": "PubChem and ChEBI support neutral N-acetyl-L-cysteine identity, formula, stereochemical boundary, InChIKey, and heavy-atom connectivity; MeSH supports the controlled acetylcysteine identity; the WikiBiome URL fixes the canonical route scope."
+      },
+      "subjectReview": {
+        "status": "pass",
+        "notes": "Native inspection confirms one connected ten-center model: five graphite carbon centers, one blue nitrogen center, three rose oxygen centers, and one warm-gold sulfur center. The observed graph matches the reviewed neutral N-acetyl-L-cysteine heavy-atom connectivity; no treatment, dose, biomarker, pathway, or disease effect is depicted."
+      },
+      "accessibilityReview": {
+        "status": "pass",
+        "notes": "Alt text names the compound and exact visible element counts. The caption separately states omitted hydrogens and the stereochemical, ionic-state, conformation, formulation, dose, pathway, biomarker, treatment, and disease boundaries."
+      },
+      "disposition": "approved",
+      "notes": "Exact source SHA-256 f09e2ccf5e0850f01be54c50c0c7753163f8e10a14d939072ed97acc95ce29f7 accepted after native literal-output and pale-edge review. A centered contain derivative is required to preserve every sphere and connector.",
+      "revisionLinkage": {
+        "supersedes": null,
+        "supersededBy": null,
+        "sourceDraft": "n-acetyl-cysteine-draft.png",
+        "sourceSha256": "f09e2ccf5e0850f01be54c50c0c7753163f8e10a14d939072ed97acc95ce29f7",
+        "generationRecord": "exec-c0331dfb-432d-45c5-8c71-23db9a203eb1.png"
+      }
     }
   },
   "rejectedAssets": [

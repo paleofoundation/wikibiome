@@ -8,9 +8,9 @@
     "contentFile": "data/content.generated.json",
     "contentSha256": "587ac55d0395d20d3e2173d7f25eb04ffa58e978007e6bd0ba4b36eaffacccd6",
     "registryFile": "lib/article-media-registry.mjs",
-    "registrySha256": "777701dab22b8ddb9574857f30a382465753527dd0426e3087f35224db0a8463",
+    "registrySha256": "5a4b9fe87cacbae68c7965db6ca4aaeebc11376122bd81af58cc1cf34d8f712f",
     "reviewLog": "data/article-media-review-log.json",
-    "reviewLogSha256": "9eba9bfe6eeb2ade80e8b1647a797f978ea82177aaa87ccd6c74aff13d23c1e1",
+    "reviewLogSha256": "a32ebdfa701a0d9c3b204d44f51f830b40f4ddfe962a71d28f2c3e2623a1553d",
     "batchManifests": [
       {
         "file": "data/article-media-batches/diseases-046.json",
@@ -105,8 +105,8 @@
       {
         "file": "data/article-media-batches/host-defenses-100.json",
         "batchId": "host-defenses-100",
-        "status": "reviewing",
-        "sha256": "eede3026ec8b4bedac9cb6aef9b9f68428d72d04ab709ea6efb3f98a2bbe841c"
+        "status": "reviewed",
+        "sha256": "edd04b364fc45d9324ee1cc7add34d5ff82c37667c0c87af9b8885de321bcbf3"
       },
       {
         "file": "data/article-media-batches/mechanisms-057.json",
@@ -632,8 +632,8 @@
   },
   "current": {
     "total": 710,
-    "completed": 368,
-    "remaining": 342,
+    "completed": 369,
+    "remaining": 341,
     "rejected": 230,
     "revised": 12,
     "scientificHolds": 174,
@@ -672,8 +672,8 @@
       "id": "host-defenses",
       "label": "Host defenses",
       "total": 29,
-      "completed": 1,
-      "remaining": 28
+      "completed": 2,
+      "remaining": 27
     },
     {
       "id": "interventions",
@@ -4866,15 +4866,6 @@
     }
   ],
   "nextBatch": [
-    {
-      "queuePosition": 578,
-      "id": "n-acetyl-cysteine",
-      "title": "N-Acetylcysteine (NAC)",
-      "route": "/article/n-acetyl-cysteine",
-      "category": "defense",
-      "coverageGroup": "host-defenses",
-      "suggestedAssetType": "host-defense"
-    },
     {
       "queuePosition": 582,
       "id": "siderophore-competition",
@@ -16726,7 +16717,15 @@
       "route": "/article/n-acetyl-cysteine",
       "coverageGroup": "host-defenses",
       "suggestedAssetType": "host-defense",
-      "status": "queued"
+      "status": "reviewed",
+      "media": {
+        "assetType": "host-defense",
+        "revision": 1,
+        "reviewedOn": "2026-09-07",
+        "masterSource": "n-acetyl-cysteine-host-defense-v1-master.png",
+        "publishedFile": "n-acetyl-cysteine-host-defense-v1.webp",
+        "socialFile": "n-acetyl-cysteine-host-defense-v1-social.webp"
+      }
     },
     {
       "queuePosition": 579,

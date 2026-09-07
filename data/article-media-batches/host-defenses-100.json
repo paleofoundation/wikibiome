@@ -33,8 +33,14 @@
     "acceptedSourceSha256": ["f09e2ccf5e0850f01be54c50c0c7753163f8e10a14d939072ed97acc95ce29f7"],
     "nonPublishablePageIds": ["inflammation", "microbial-metallomics", "nutritional-immunity", "pathogen-metal-acquisition", "reactive-oxygen-species"]
   },
-  "controlSocialCropReview": "pending-native-1200-by-630-contain-derivative-review",
-  "promotionDerivatives": {},
+  "controlSocialCropReview": "accepted-centered-contain-derivative; native 1200 by 630 inspection preserves all ten heavy-atom centers and every connector without clipping or label leakage; restrained pale side padding is scientifically preferable to cropping",
+  "promotionDerivatives": {
+    "n-acetyl-cysteine": {
+      "masterSha256": "01509160ccf455a5e5b47bd6b60dd23a860fc41ac6bfeaf7ee58dd3f9016b1f7",
+      "articleSha256": "7340632b0f454fd84590f314355a13345a80b98215e9333ea489a018311b9274",
+      "socialSha256": "ca69fd62098884f62a5ccee9d6ffce1822c641f030ae7257d6213c7ea56a940e"
+    }
+  },
   "reviewStandard": "Only exact neutral N-acetyl-L-cysteine is cleared for one immutable heavy-atom connectivity call. Inflammation, microbial metallomics, nutritional immunity, pathogen metal acquisition, and reactive oxygen species fail tissue, chemical, organism, molecular-state, specimen, measurement, or network-scope gates and receive no prompt marker or generation call.",
   "routeDecisionCount": 6,
   "candidateCount": 1,
@@ -106,6 +112,9 @@
       "controlledIdentifier": "PubChem:12035;ChEBI:28939;MeSH:D000111;InChIKey:PWKSKIMOESPYIA-BYPYZUCNSA-N",
       "promptSha256": "af0645aad263dc66a52fcf8ad4806328f35c88e350e7d6655b5c217b8dbff9dc",
       "sha256": "f09e2ccf5e0850f01be54c50c0c7753163f8e10a14d939072ed97acc95ce29f7",
+      "masterSha256": "01509160ccf455a5e5b47bd6b60dd23a860fc41ac6bfeaf7ee58dd3f9016b1f7",
+      "articleSha256": "7340632b0f454fd84590f314355a13345a80b98215e9333ea489a018311b9274",
+      "socialSha256": "ca69fd62098884f62a5ccee9d6ffce1822c641f030ae7257d6213c7ea56a940e",
       "fileSizeBytes": 1190944,
       "dimensions": {"width": 1536, "height": 1024},
       "scientificReferences": [
