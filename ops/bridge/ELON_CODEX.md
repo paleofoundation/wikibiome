@@ -745,6 +745,38 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-09 14:18 Asia/Nicosia — WB-DEPLOY-4 REVERIFIED / WB-AUTHOR-1d SITES SOURCE BLOCKER
+Tag: STATUS
+
+**WB-DEPLOY-4 PASS acknowledged and live-reverified. WB-AUTHOR-1d implementation is validated; author publication is BLOCKED by the Sites source service, not by an approval request. No WB-AUTHOR-1 PASS claimed.** Both www and apex remain active Sites custom domains. Native `sites_get_deployment_status` confirms the tip-jar release deployment `appgdep_6aa13294dd048191be570dd3ff3fc3bc` succeeded; `sites_get_site_version` confirms public release version **69**, source `37d2f8464785b62d6723da19df35213025573b1a`. The earlier exact publish sequence is recorded in the 13:28 STATUS: build → authenticated source push → package helper → `sites_save_site_version` → `sites_deploy_site_version` → terminal success → live fetches. No Vercel deployment or DNS cutback used.
+
+**Fresh live evidence:** `ops/evidence/WB-AUTHOR-1d-live-before-publish.json` at `2026-09-09T11:17:44.915771+00:00` records `/support` and `/` both **200**, zero coffee/Stripe tip-jar matches, and extracted collaboration footer text for each. `/pricing` and `/researcher/profile` remain **404**; the old claim/roundtable/institutions copy is still live. This is explicitly pre-author-publish evidence, not a false author PASS.
+
+**WB-AUTHOR-1d candidate:** `3a610a2aaddb53d4c1e940d4734717ccc28520ce`, branch `codex/wb-author-1-sites`, checkout `/Users/karenpendergrass/Documents/ChatGPT/Wikibiome/wb-deploy-4-sites`. Integrated the approved `3a13c0243d85f0bbff3e0556283533544fcff7b5` author candidate with the separately requested/published design and account-menu work at `5c0e37a7f5af2d2fe75190e8a0e642c175fe5714` (Sites saved version **71**). Preserved the updated profile layout, dashboard checklist, and account-menu styles; the profile-owner edit link now points to the dedicated editor. Exact incremental patch: `ops/patches/WB-AUTHOR-1d-integrated-sites.patch`, applies to `5c0e37a`. No rollback of the design release.
+
+| Rank | Capability | Validated candidate | Live / gate |
+|---|---|---|---|
+| 0 | Tip-jar removal | Support and home collaboration footer | **LIVE REVERIFIED** |
+| 1 | Self-serve profile | Dedicated editor; ownership, persistence and public rendering pass locally | **NOT PUBLISHED**; real ORCID save/reload pending |
+| 2 | Claim clarity | Manual-review timing/status and separate moderation; no invented SLA | **NOT PUBLISHED** |
+| 3 | Source discussions | Local trusted post/reply persist; new-user post stays pending/nonpublic | **NOT PUBLISHED**; real ORCID source-post acceptance pending |
+| 4 | Roundtable | Honest interest registry, no event/date/place reservation | **NOT PUBLISHED** |
+| 5 | Institutions | Pilot explicitly excludes license/library/API entitlement | **NOT PUBLISHED** |
+| 6 | Pricing | Free participation; paid licenses/API unavailable; no prices/dates | **NOT PUBLISHED**; live 404 |
+
+Build/typecheck passed; targeted rendered checks **3/3**; researcher contracts **18/18**; seven local authenticated-fixture workflows passed; focused lint clean. New workflow evidence: `ops/evidence/WB-AUTHOR-1d-local-workflow.json`. Fixtures cleaned up; no production accounts, claims, posts, or messages created. The build archive `/tmp/wb-author-1d.tar.gz` was packaged by the Sites helper and validated for Worker entrypoint/hosting metadata.
+
+**Exact blocker:** two authenticated `git push ... HEAD:refs/heads/main` attempts to the Sites source repository returned HTTP **500 Internal Server Error**. A fresh `sites_create_source_repository_write_credential` followed by read-only `git ls-remote ... refs/heads/main` also returned HTTP **500**. Credentials were not persisted. Because the required source push cannot be verified, this task has **not** called `sites_save_site_version` or `sites_deploy_site_version` for the author candidate. Latest saved Site version is 71; do not equate latest saved with a new author publish. Candidate and archive retained for recovery. Resume by checking current source/main, preserving any newer releases, retrying the exact source push, then save/publish and run `/pricing`, `/researcher/profile`, claim, roundtable, institutions, support and home checks.
+
+**HOLD:** real ORCID production sign-in, profile save/reload, claim status and source post still pending. Stop at Elon live-verify kill-gate after a successful publish; Rae/researcher outreach remains HOLD. No donation CRM, pay-to-cite, invented treatment claims/prices/SLA, cureva.app, email-provider/access/DNS changes, or outreach activation. NO FINISH.
+
+### 2026-09-09 14:12 Asia/Nicosia — WB-DEPLOY-4 PASS ACK / WB-AUTHOR-1d IN PROGRESS
+Tag: STATUS
+
+**WB-DEPLOY-4 PASS acknowledged; WB-AUTHOR-1d accepted.** Native Sites confirms version 69 source `37d2f8464785b62d6723da19df35213025573b1a` and deployment `appgdep_6aa13294dd048191be570dd3ff3fc3bc` succeeded. Both apex and www custom domains are active on this Sites project. Fresh public fetches at 14:10 Asia/Nicosia returned 200 on `/support` and `/`, with zero coffee/Stripe tip-jar matches. `/pricing` still returns 404 before the author publish.
+
+The approved author candidate is being integrated with the concurrently requested researcher layout/menu fixes so publishing preserves those changes. Sites version 70 is a saved design candidate; latest saved version is not proof of publication. Build and acceptance checks are running in the isolated author checkout. Next: publish the exact combined source via Sites, verify terminal success and live routes, then append evidence. Real ORCID production sign-in/profile save/reload/claim/source-post acceptance remains pending; Rae and researcher outreach HOLD.
+
 ### 2026-09-09 13:28 Asia/Nicosia — WB-DEPLOY-4 LIVE / WB-AUTHOR-1 REVIEW
 Tag: STATUS
 

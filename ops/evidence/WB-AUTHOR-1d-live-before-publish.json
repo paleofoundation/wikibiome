@@ -1,0 +1,89 @@
+{
+  "checkedAt": "2026-09-09T11:17:44.915771+00:00",
+  "checks": [
+    {
+      "url": "https://www.wikibiome.com/",
+      "http": 200,
+      "sha256": "6fa76e33a57fdc18092004e8762e586bad598a9b1f3e4093a76cd7a605ef6541",
+      "tipJarMatches": [],
+      "expectedText": {
+        "Explore and collaborate": true
+      },
+      "footerText": [
+        "W Wiki Biome An evidence-linked encyclopedia of the organisms, elements, ecological pressures, and molecular conversations shaping human health. A project of Microbiome Medicine \u2197 Explore Knowledge graph Condition clusters Compare conditions Keystone studies Search 822 articles Participate Researcher network Researcher dashboard Find my work Propose content Microbiome Roundtable Submit research Institutions Research standard Research governance Suggest an edit About WikiBiome Contact Privacy Terms of Use Source repository \u2197 Keep knowledge open Explore and collaborate. A free, ad-free, evidence-linked public encyclopedia. Explore the encyclopedia \u2192 Submit research for review \u2192 Content available under CC BY-SA 4.0 unless otherwise noted \u00b7 Free \u00b7 ad-free \u00b7 evidence-linked Educational information only. WikiBiome does not provide medical diagnosis or treatment."
+      ],
+      "acceptancePassed": true
+    },
+    {
+      "url": "https://www.wikibiome.com/support",
+      "http": 200,
+      "sha256": "24aa07690b869a750efe8df281bf2ad5cd57a2738e0c2324f78ce0c21c3f549f",
+      "tipJarMatches": [],
+      "expectedText": {
+        "Explore and collaborate": true
+      },
+      "footerText": [
+        "W Wiki Biome An evidence-linked encyclopedia of the organisms, elements, ecological pressures, and molecular conversations shaping human health. A project of Microbiome Medicine \u2197 Explore Knowledge graph Condition clusters Compare conditions Keystone studies Search 822 articles Participate Researcher network Researcher dashboard Find my work Propose content Microbiome Roundtable Submit research Institutions Research standard Research governance Suggest an edit About WikiBiome Contact Privacy Terms of Use Source repository \u2197 Keep knowledge open Explore and collaborate. A free, ad-free, evidence-linked public encyclopedia. Explore the encyclopedia \u2192 Submit research for review \u2192 Content available under CC BY-SA 4.0 unless otherwise noted \u00b7 Free \u00b7 ad-free \u00b7 evidence-linked Educational information only. WikiBiome does not provide medical diagnosis or treatment."
+      ],
+      "acceptancePassed": true
+    },
+    {
+      "url": "https://www.wikibiome.com/pricing",
+      "http": 404,
+      "sha256": "731971f633313b8bc0c2e792ddf74acffacf85b0f7535c29a3b849951cf9b637",
+      "tipJarMatches": [],
+      "expectedText": {
+        "Free to read. Free to contribute.": false,
+        "Institutional licenses and paid API access are not currently offered.": false,
+        "No prices or availability dates have been announced.": false
+      },
+      "acceptancePassed": false,
+      "currencyPriceMatches": []
+    },
+    {
+      "url": "https://www.wikibiome.com/researcher/profile",
+      "http": 404,
+      "sha256": "62553f94948966455c0d4d5ad4016ae1a2d4c037b9476482802dd6800930ac2c",
+      "tipJarMatches": [],
+      "expectedText": {
+        "Edit your public profile": false,
+        "Continue with ORCID": false
+      },
+      "acceptancePassed": false
+    },
+    {
+      "url": "https://www.wikibiome.com/roundtable",
+      "http": 200,
+      "sha256": "1a841f6bad1e4b0742491ba6138bbe47f0f056ce71d4d6ef7e90c61bc8ab0e56",
+      "tipJarMatches": [],
+      "expectedText": {
+        "not registration for a scheduled event": true,
+        "No event date or place is reserved": false
+      },
+      "acceptancePassed": false
+    },
+    {
+      "url": "https://www.wikibiome.com/institutions",
+      "http": 200,
+      "sha256": "d71278f4b6f3ea81eb43be66beb11b86405f2e1b3ccaed90b5d482d29aa9a58b",
+      "tipJarMatches": [],
+      "expectedText": {
+        "Research organization pilot": false,
+        "It does not provide an institutional license, library subscription, API entitlement, or guaranteed inclusion.": false
+      },
+      "acceptancePassed": false
+    },
+    {
+      "url": "https://www.wikibiome.com/source/ahmed-2025-metals-alzheimers-mechanistic-review/claim",
+      "http": 200,
+      "sha256": "e78af430007296a6cc9dc71e9811016c63050d49c1645bd98835abd65c474fae",
+      "tipJarMatches": [],
+      "expectedText": {
+        "Manual review has no guaranteed turnaround time": false,
+        "pending claim is not publicly verified": false
+      },
+      "acceptancePassed": false
+    }
+  ],
+  "realOrcidProductionAcceptance": "pending; no sign-in, authenticated save, claim or discussion write performed"
+}

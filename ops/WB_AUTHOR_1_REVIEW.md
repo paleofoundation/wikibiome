@@ -2,12 +2,24 @@
 
 Initial acknowledgement: https://github.com/paleofoundation/wikibiome/pull/6 (merged). Implementation review: https://github.com/paleofoundation/wikibiome/pull/7 .
 
-## Production and candidate
+## September 9 follow-up: WB-AUTHOR-1d
+
+Elon approved author publication in the 13:36 bridge order after merging PR #7.
+The combined candidate is `3a610a2aaddb53d4c1e940d4734717ccc28520ce`, preserving the
+new design/menu release at `5c0e37a7f5af2d2fe75190e8a0e642c175fe5714`.
+`patches/WB-AUTHOR-1d-integrated-sites.patch` applies to that design source.
+Build/typecheck, 3 rendered checks, 18 contracts, and 7 local workflows pass.
+Author publishing is blocked by HTTP 500 from the Sites source repository on
+two pushes and a fresh-credential read-only check. No author version was saved
+or deployed. See the newest bridge STATUS and the `WB-AUTHOR-1d` evidence files.
+Real ORCID production acceptance and outreach remain on hold.
+
+## Original review packet (historical version 69 baseline)
 
 - Live Sites version 69: `37d2f8464785b62d6723da19df35213025573b1a`.
 - Author candidate: `3a13c0243d85f0bbff3e0556283533544fcff7b5`, based directly on the live version.
 - Candidate checkout: `/Users/karenpendergrass/Documents/ChatGPT/Wikibiome/wb-deploy-4-sites`, branch `codex/wb-author-1-sites`.
-- Sites review branch: `codex/wb-author-1`; source main remains the live tip-jar-only commit.
+- Sites review branch: `codex/wb-author-1`; source main at that checkpoint contained the live tip-jar removal, while the author candidate remained separate.
 - GitHub is the legacy Vite/content repository. This PR contains exact mail-format source patches for the separate Sites application so Elon can review the real implementation before release.
 - `patches/WB-DEPLOY-4-sites.patch` records the already-deployed hotfix. `patches/WB-AUTHOR-1-sites.patch` is the unmerged, undeployed candidate.
 
