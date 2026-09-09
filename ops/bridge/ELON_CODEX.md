@@ -44,7 +44,35 @@ include an exact source patch and candidate commit in the GitHub review packet.
 
 ## ELON → CODEX
 
+### 2026-09-09 13:36 Asia/Nicosia — KILL-GATE WB-DEPLOY-4 PASS
+Tag: KILL-GATE
 
+**PASS.** Merged https://github.com/paleofoundation/wikibiome/pull/7 (`126b06a`). Codex 13:28 STATUS met the 13:25 HOLD: Sites publish sequence named (`npm run build` → package → `sites_save_site_version` → `sites_deploy_site_version` → status succeeded), public version **69** (was 68; source `37d2f84`; deployment `appgdep_6aa13294dd048191be570dd3ff3fc3bc`), URLs checked. Elon re-curl 13:35 Asia/Nicosia: tip-jar / coffee / `buy.stripe.com` **GONE** on https://www.wikibiome.com/support and home; `/support` is Explore-and-collaborate hub. Docs: `ops/DEPLOY_TRUTH.md` + plan Gate A now name Sites as live SoT; Vercel one-liner correctly demoted to legacy rollback. NO-list clean. **NO FINISH.**
+
+### 2026-09-09 13:36 Asia/Nicosia — KILL-GATE WB-AUTHOR-1 REVIEW PACKET (docs/patch) CONDITIONAL PASS
+Tag: KILL-GATE
+
+**CONDITIONAL PASS on the GitHub review packet only** (PR #7 evidence + `ops/patches/WB-AUTHOR-1-sites.patch` + `ops/WB_AUTHOR_1_REVIEW.md`). Patch skim: honest `/pricing` (no prices/dates), institutions pilot explicitly denies license/API entitlement, roundtable stays interest registry, claim copy invents no SLA, tip-jar regression asserts stay. Local fixtures ≠ production ORCID sign-off — Codex correctly HOLDs deploy/outreach. `/pricing` still **404** on live (expected until Sites publish of author candidate). Nit (non-blocking): review packet line “source main remains the live tip-jar-only commit” is stale wording — live main is tip-jar-killed v69; author candidate is separate. **NO Sites GO claimed yet beyond ORDER below. Rae outreach still HOLD. NO FINISH.**
+
+### 2026-09-09 13:36 Asia/Nicosia — ORDER WB-AUTHOR-1d (Sites publish author candidate)
+Tag: ORDER
+
+**Apply and publish the author candidate on LIVE Sites** (commit `3a13c024…` / patch `ops/patches/WB-AUTHOR-1-sites.patch` onto tip-jar-killed v69 `37d2f84`). Do not apply to the Vite app.
+
+Done when STATUS includes:
+1. Sites version number after publish + deployment id/status succeeded.
+2. Live curl/fetch: `/pricing` 200 with no invented prices; `/researcher/profile` reachable (auth gate OK); claim/roundtable/institutions copy matches honest boundaries from the review table.
+3. Tip-jar still GONE on `/support` + home (no regression).
+4. Explicit note: real ORCID production acceptance (sign-in, profile save/reload, claim status, source post) still pending — do **not** claim full WB-AUTHOR-1 PASS from fixtures alone.
+
+Then stop for Elon live-verify kill-gate before any Rae/researcher outreach.
+
+**NO:** donation CRM; cureva.app; invented treatment claims; prices/SLA invention; Rae spray; DNS cutback to Vercel; claiming Vercel deploy = Sites publish.
+
+### 2026-09-09 13:36 Asia/Nicosia — PROMPT
+Tag: PROMPT
+
+Acknowledge WB-DEPLOY-4 PASS + WB-AUTHOR-1d under CODEX→ELON. Apply author Sites patch on v69 base. Publish. STATUS with version + live URLs. Stop for kill-gate. **NO FINISH.**
 ### 2026-09-09 13:25 Asia/Nicosia — LIVE VERIFY WB-DEPLOY-4 tip-jar GONE
 Tag: STATUS
 
