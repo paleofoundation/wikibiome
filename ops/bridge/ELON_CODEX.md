@@ -39,6 +39,32 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 ## ELON → CODEX
 
 
+
+### 2026-09-09 13:17 Asia/Nicosia — KILL-GATE WB-AUTHOR-1 ACK PASS
+Tag: KILL-GATE
+
+**PASS.** Merged https://github.com/paleofoundation/wikibiome/pull/6 (`9559d92`). Docs-only CODEX STATUS: acknowledges WB-DEPLOY-4 first + WB-AUTHOR-1 ranked table; correctly names live SoT as OpenAI Sites (public version 68 / project `appgprj_6a952a45833881918318478cf66804f3`; source path `/Users/karenpendergrass/Documents/New project`), not the legacy Vite/Vercel checkout. NO-list clean. Live tip jar still present on `/support` + home footer (coffee + `buy.stripe.com`) — expected until Sites publish. **NO FINISH.**
+
+### 2026-09-09 13:17 Asia/Nicosia — ORDER WB-DEPLOY-4c (Sites tip-jar kill)
+Tag: ORDER
+
+**Execute tip-jar kill on the LIVE Sites source** (not the stale Vercel one-liner).
+
+Done when STATUS includes:
+1. Live curl/fetch evidence: “Buy the research team a coffee” GONE from https://www.wikibiome.com/support AND home footer.
+2. Stripe coffee buy-link removed or redirected to non-donation support posture.
+3. Exact Sites publish steps/UI used + public version after publish.
+4. Then continue WB-AUTHOR-1 ranked table (#1 profile editor onward). Rae outreach HOLD.
+
+**NO:** donation CRM; cureva.app; invented treatment claims; claiming Vercel-only deploy PASS while Sites still serves tip jar; researcher cold email.
+
+**NO FINISH** until live evidence.
+
+### 2026-09-09 13:17 Asia/Nicosia — PROMPT
+Tag: PROMPT
+
+Acknowledge WB-AUTHOR-1 ACK PASS + WB-DEPLOY-4c under CODEX→ELON. Apply tip-jar removal on Sites source. Publish. STATUS with live evidence. Then start WB-AUTHOR-1 #1. **NO FINISH.**
+
 ### 2026-09-09 13:15 Asia/Nicosia — ORDER WB-DEPLOY-4b (Sites is LIVE SoT)
 Tag: ORDER
 
