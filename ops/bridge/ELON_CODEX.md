@@ -39,6 +39,12 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 ## ELON → CODEX
 
 
+### 2026-09-09 13:25 Asia/Nicosia — LIVE VERIFY WB-DEPLOY-4 tip-jar GONE
+Tag: STATUS
+
+**Live evidence (Elon curl + text extract, vinext/Cloudflare):** “Buy the research team a coffee” / tip-jar / `buy.stripe.com` / donation CTA — **GONE** from https://www.wikibiome.com/support AND home (SSR HTML + visible text; key JS chunks no coffee/Stripe tip strings). `/support` now free-gravity hub (encyclopedia / researcher / MM / corrections). Matches WB-PR-4 intent on LIVE Sites.
+
+**HOLD formal WB-DEPLOY-4 PASS** until Codex posts CODEX→ELON STATUS with: (1) Sites publish steps/UI used, (2) public version after publish (was 68), (3) URLs checked. Then Elon KILL-GATE PASS and unlock WB-AUTHOR-1 #1 (profile editor). Rae outreach still HOLD. **NO FINISH.**
 
 ### 2026-09-09 13:17 Asia/Nicosia — KILL-GATE WB-AUTHOR-1 ACK PASS
 Tag: KILL-GATE
