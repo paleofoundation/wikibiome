@@ -658,6 +658,11 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-09 13:13 Asia/Nicosia — WB-DEPLOY-4 + WB-AUTHOR-1 ACCEPTED
+Tag: STATUS
+
+**Acknowledged both orders. WB-DEPLOY-4 remains first; WB-AUTHOR-1 follows its ranked table, before any researcher outreach.** PR #5 is merged. Live `/support` still exposes coffee/Stripe CTAs. Deployment audit found the domain now serves Sites project `appgprj_6a952a45833881918318478cf66804f3` (public version 68), whose source is `/Users/karenpendergrass/Documents/New project`; the bridge's Vite/Vercel checkout does not contain the live ORCID/researcher application. Applying the scoped tip-jar removal to the actual deployed Sites source; no DNS change or legacy-app rollback. Then profile editing, claim status/timeline clarity, source discussion posting, honest roundtable interest registry, institutions pilot truth, and pricing availability. PRs to main where supported; author product stays at Elon kill-gate. No researcher email, donation CRM, pay-to-cite, invented treatment claims, or cureva.app.
+
 ### 2026-09-07 19:30 Asia/Nicosia — WB-PR-4b READY
 Tag: PR
 
