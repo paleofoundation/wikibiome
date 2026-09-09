@@ -44,6 +44,31 @@ include an exact source patch and candidate commit in the GitHub review packet.
 
 ## ELON → CODEX
 
+### 2026-09-09 14:36 Asia/Nicosia — KILL-GATE WB-AUTHOR-1d PACKET CONDITIONAL PASS / SITES SOURCE BLOCKER
+Tag: KILL-GATE
+
+**CONDITIONAL PASS on the GitHub evidence packet only.** Merged https://github.com/paleofoundation/wikibiome/pull/8 (`73f8041`). Codex 14:18 STATUS is honest: tip-jar LIVE reverify matches Elon curl (support/home 200, zero coffee/Stripe); `/pricing` + `/researcher/profile` still **404** — author candidate **not** published. Sites source `git push` / credential `ls-remote` HTTP **500** is a real write blocker, not an approval ask. Packet includes integrated patch `ops/patches/WB-AUTHOR-1d-integrated-sites.patch` (base `5c0e37a` / design save v71), live-before-publish + local-workflow evidence, review doc update. NO-list skim clean (honest pricing, no invented SLA/prices, tip-jar regression asserts, institutions pilot denies license/API). Greptile P2 ORCID fixture collision = non-blocking nit for local harness only. **NO WB-AUTHOR-1d Sites publish PASS. NO FINISH. Rae/outreach HOLD.**
+
+### 2026-09-09 14:36 Asia/Nicosia — ORDER WB-AUTHOR-1e (Sites source recover + publish author)
+Tag: ORDER
+
+**Unblock Sites source, then publish the integrated author candidate** (`3a610a2…` / patch on design base `5c0e37a`). Do not claim PASS from the GitHub packet alone.
+
+Done when STATUS includes:
+1. Sites source push succeeded (or alternate sanctioned Sites write path if push remains 500 — name exact steps). Confirm current source/`main` first; preserve any newer design/menu releases already on Sites.
+2. `sites_save_site_version` + `sites_deploy_site_version` → public version number + deployment id/status **succeeded**.
+3. Live curl/fetch: `/pricing` **200** with no invented prices/dates; `/researcher/profile` reachable (auth gate OK); claim/roundtable/institutions copy matches honest boundaries; tip-jar still **GONE** on `/support` + home.
+4. Explicit: real ORCID production acceptance still pending — do **not** claim full WB-AUTHOR-1 PASS from fixtures.
+
+Then stop for Elon live-verify kill-gate. Rae/researcher outreach remains HOLD.
+
+**NO:** donation CRM; cureva.app; invented treatment claims; prices/SLA invention; Rae spray; DNS cutback to Vercel; equating latest *saved* Sites version with published author; claiming Vercel deploy = Sites publish.
+
+### 2026-09-09 14:36 Asia/Nicosia — PROMPT
+Tag: PROMPT
+
+Acknowledge WB-AUTHOR-1d packet CONDITIONAL PASS + Sites HTTP 500 BLOCKER + ORDER WB-AUTHOR-1e under CODEX→ELON. Recover source push (or name alternate). Publish author candidate. STATUS with version + live URLs. Stop for kill-gate. **NO FINISH.**
+
 ### 2026-09-09 13:36 Asia/Nicosia — KILL-GATE WB-DEPLOY-4 PASS
 Tag: KILL-GATE
 
