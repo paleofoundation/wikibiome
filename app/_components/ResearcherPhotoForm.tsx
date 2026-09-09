@@ -39,7 +39,7 @@ export function ResearcherPhotoForm({ orcid, name, initialPhotoAvailable, initia
   }
 
   const src = `/researchers/${orcid}/photo${photoVersion ? `?v=${encodeURIComponent(photoVersion)}` : ""}`;
-  return <section className="researcher-photo-editor">
+  return <section id="researcher-profile-photo" className="researcher-photo-editor">
     <header><span>Public professional photo</span><h3>Help collaborators recognize you</h3><p>Use a clear, professional headshot. The image is public wherever your researcher profile appears.</p></header>
     <div className="researcher-photo-layout">
       <div className="researcher-avatar large">{photoAvailable ? <img src={src} alt={initialPhotoAlt || `Professional portrait of ${name}`} /> : <span aria-hidden="true">{initials(name)}</span>}</div>

@@ -40,7 +40,20 @@ export default async function ResearcherProfilePage({ params }: Props) {
     knowsAbout: [...new Set([...researcher.expertiseSelf, ...inferredExpertise])],
   };
   return <><WikiHeader /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replaceAll("<", "\\u003c") }} /><main className="research-profile">
-    <header className="researcher-profile-hero"><div className="researcher-avatar profile">{researcher.photoAvailable ? <img src={`/researchers/${researcher.orcid}/photo${researcher.photoUpdatedAt ? `?v=${encodeURIComponent(researcher.photoUpdatedAt)}` : ""}`} alt={researcher.photoAlt || `Professional portrait of ${researcher.name}`}/> : <span aria-hidden="true">{initials(researcher.name)}</span>}</div><div><span>ORCID-authenticated researcher</span><h1>{researcher.name}</h1><a href={`https://orcid.org/${researcher.orcid}`} target="_blank" rel="noreferrer">{researcher.orcid} ↗</a>{researcher.biography && <p>{researcher.biography}</p>}<nav className="profile-actions"><FollowButton targetType="researcher" targetId={researcher.accountId} initialFollowing={following} canFollow={Boolean(viewer?.emailVerified)}/>{viewer?.emailVerified && viewer.accountId !== researcher.accountId && <Link href={`/researcher/messages?recipient=${researcher.orcid}`}>Request contact</Link>}{viewer?.accountId === researcher.accountId && <Link href="/researcher/dashboard">Edit profile</Link>}</nav></div></header>
+    <header className="researcher-profile-hero">
+      <div className="researcher-avatar profile">{researcher.photoAvailable ? <img src={`/researchers/${researcher.orcid}/photo${researcher.photoUpdatedAt ? `?v=${encodeURIComponent(researcher.photoUpdatedAt)}` : ""}`} alt={researcher.photoAlt || `Professional portrait of ${researcher.name}`}/> : <span aria-hidden="true">{initials(researcher.name)}</span>}</div>
+      <div className="researcher-profile-identity">
+        <span className="researcher-profile-eyebrow">ORCID-authenticated researcher</span>
+        <h1>{researcher.name}</h1>
+        <a className="researcher-orcid" href={`https://orcid.org/${researcher.orcid}`} target="_blank" rel="noreferrer"><span className="orcid-mark" aria-hidden="true">iD</span>{researcher.orcid}<span aria-hidden="true">↗</span></a>
+      </div>
+      {researcher.biography && <p className="researcher-profile-biography">{researcher.biography}</p>}
+      <nav className="profile-actions" aria-label="Researcher actions">
+        <FollowButton targetType="researcher" targetId={researcher.accountId} initialFollowing={following} canFollow={Boolean(viewer?.emailVerified)}/>
+        {viewer?.emailVerified && viewer.accountId !== researcher.accountId && <Link href={`/researcher/messages?recipient=${researcher.orcid}`}>Request contact</Link>}
+        {viewer?.accountId === researcher.accountId && <Link href="/researcher/dashboard">Edit profile <span aria-hidden="true">↗</span></Link>}
+      </nav>
+    </header>
 
     <section className="research-footprint" aria-labelledby="research-footprint-title"><header><span>Research footprint</span><h2 id="research-footprint-title">How this researcher’s verified work connects to WikiBiome</h2><p>These are evidence relationships, not popularity scores.</p></header><div><article><strong>{impact.verifiedWorks}</strong><span>verified works</span></article><article><strong>{impact.keystoneWorks}</strong><span>Keystone works</span></article><article><strong>{impact.linkedArticles}</strong><span>WikiBiome articles</span></article><article><strong>{contributionLevel || "—"}</strong><span>{contributionLevel ? "accepted contribution level" : "no accepted contributions yet"}</span></article></div></section>
 
