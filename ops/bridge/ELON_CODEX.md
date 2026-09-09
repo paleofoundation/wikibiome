@@ -658,6 +658,27 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 
 ## CODEX → ELON
 
+### 2026-09-09 13:28 Asia/Nicosia — WB-DEPLOY-4 LIVE / WB-AUTHOR-1 REVIEW
+Tag: STATUS
+
+**Both orders acknowledged and executed in order. WB-DEPLOY-4 is LIVE. WB-AUTHOR-1 is ready for review, not deployed and not outreach-ready.** Review PR: https://github.com/paleofoundation/wikibiome/pull/6 .
+
+Production is Sites **version 69**, source `37d2f8464785b62d6723da19df35213025573b1a`, deployment `appgdep_6aa13294dd048191be570dd3ff3fc3bc` **succeeded**, environment revision **6**. Built on public version 68, preserving its media and application. Live fetches of https://www.wikibiome.com/support and https://www.wikibiome.com/ returned **200**, with zero coffee, Stripe-payment, “Support the work”, header “♡ Support”, or promoted `/outreach` matches. Both show “Explore and collaborate” and `/submit-work`. Evidence: `ops/evidence/WB-DEPLOY-4-live.json`. No DNS, access-policy, migration, email-provider, or outreach-flag changes. Vercel is the legacy rollback app; its one-liner does not update the live Sites domain. The live fix is also integrated into the local control branch so later media releases cannot restore the tip jar.
+
+| Rank | Capability | Candidate result / evidence | Production / gate |
+|---|---|---|---|
+| 0 | WB-DEPLOY-4 | Support hub, shared footer/header, payment-link module removed; old thank-you URL redirects to support; build + rendered checks passed | **LIVE VERIFIED** at URLs above |
+| 1 | Self-serve profile | Dedicated `/researcher/profile`, workspace/owner links; public fields save without email gate; ORCID re-login preserves edited name; local persistence/ownership/private-email tests pass | **READY FOR REVIEW**; authenticated production save still to verify after PASS |
+| 2 | Claim clarity | `/source/ahmed-2025-metals-alzheimers-mechanistic-review/claim` explains sequence, status, manual-review timing, and separate author-context moderation; no guaranteed turnaround invented | **READY FOR REVIEW**; no instant-publication promise |
+| 3 | Source discussions | Fixed async form reset and transport/refresh errors; local source topic and reply persist/render for trusted fixture session; new-researcher post persists pending and is excluded publicly | **LOCAL STAGING VERIFIED** using fixture sessions; fresh external ORCID login and staging/prod write still pending |
+| 4 | Roundtable | `/roundtable` explicitly remains an interest/early-invitation registry, no date or place reserved; navigation says Roundtable interest | **HONEST COPY READY**; no scheduled event or RSVP claimed |
+| 5 | Institutions | `/institutions` explicitly labels reviewed organization pilot; no institutional license, library subscription, API entitlement, or inclusion guarantee | **HONEST COPY READY** |
+| 6 | Pricing | New `/pricing` explains free public/researcher participation and pilot; paid institutional/API plans not offered; no prices or dates invented | **READY FOR REVIEW**; production remains unchanged until PASS |
+
+Author source commit: `3a13c0243d85f0bbff3e0556283533544fcff7b5`, isolated branch `codex/wb-author-1-sites` (Sites remote review branch `codex/wb-author-1`). GitHub hosts the legacy Vite source, so PR #6 carries exact, applyable Sites source patches plus `ops/WB_AUTHOR_1_REVIEW.md`, not a misleading Vite implementation. Production and Sites source main remain tip-jar-only version 69. Build/typecheck pass; targeted rendered checks **3/3**; researcher contracts **18/18**; seven local workflow checks pass; changed author files lint with zero errors/warnings. Local fixtures were removed; no production test accounts, posts, or messages created. External ORCID OAuth was not exercised, and no PASS is claimed from fixture tests.
+
+**HOLD at Elon kill-gate for WB-AUTHOR-1.** No author cold email, Rae spray, donation CRM, pay-to-cite, invented treatment claims, cureva.app, or new Cureva product UI. Manual claim-review SLA is not published; copy states no guaranteed turnaround instead of fabricating one. NO FINISH.
+
 ### 2026-09-09 13:13 Asia/Nicosia — WB-DEPLOY-4 + WB-AUTHOR-1 ACCEPTED
 Tag: STATUS
 
