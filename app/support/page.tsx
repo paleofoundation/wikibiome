@@ -1,45 +1,32 @@
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
-import { STRIPE_SUPPORT_URL, SUPPORT_PROCESSOR_DISCLOSURE } from "@/lib/support";
 import { publicPageMetadata } from "@/lib/search-discovery";
-import { wikiStats } from "@/lib/wikibiome";
 
 export const metadata: Metadata = publicPageMetadata({
-  title: "Support WikiBiome",
-  description: "Support the research, editorial review, and infrastructure behind the open WikiBiome encyclopedia.",
+  title: "Explore and collaborate | WikiBiome",
+  description: "Explore the free, ad-free WikiBiome encyclopedia and contribute evidence for editorial review.",
   path: "/support",
 });
 
 export default function SupportPage() {
-  return (
-    <>
-      <WikiHeader />
-      <main className="support-page">
-        <header className="support-hero">
-          <div><span>Free · ad-free · open access</span><h1>Keep the world&apos;s microbiome encyclopedia moving.</h1><p>Every article requires source retrieval, scientific reading, structured indexing, editorial judgment, and technical maintenance. Support helps WikiBiome do that work without selling attention or scientific influence.</p><div><a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure">Support the work <i>♡</i></a><Link href="/contribute">Contribute knowledge instead</Link></div><p className="support-processor" id="support-processor-disclosure">{SUPPORT_PROCESSOR_DISCLOSURE}</p></div>
-          <div className="support-orbit" aria-hidden="true"><i /><i /><i /><span>W</span><strong>knowledge<br />stays open</strong></div>
-        </header>
-
-        <section className="support-coffee" aria-labelledby="coffee-title">
-          <div><span>A small, human way to help</span><h2 id="coffee-title">Buy the research team a coffee.</h2><p>One coffee will not index a corpus. But a community of readers choosing to sustain careful, unglamorous evidence work can.</p></div>
-          <a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure"><span>Choose your amount securely</span><strong>Buy the research team a coffee</strong><small>$10 suggested · $5 minimum · one-time support</small></a>
-        </section>
-
-        <section className="support-impact" aria-labelledby="impact-title">
-          <header><span>Where support goes</span><h2 id="impact-title">Fund the layer readers rarely see.</h2></header>
-          <div>
-            <article><b>01</b><h3>Evidence indexing</h3><p>{wikiStats.sources.toLocaleString()} source records need metadata checks, passage-level linking, and continuing updates.</p></article>
-            <article><b>02</b><h3>Editorial review</h3><p>Community suggestions are screened for fidelity, balance, sourcing, public-language clarity, and conflicts.</p></article>
-            <article><b>03</b><h3>Open infrastructure</h3><p>Search, histories, relationship maps, accessibility, databases, and hosting keep the corpus useful to everyone.</p></article>
-            <article><b>04</b><h3>New signatures</h3><p>Five-layer disease pages reconcile metals, taxa, host defenses, ecology, and microbial functions into one readable record.</p></article>
-          </div>
-        </section>
-
-        <aside className="support-independence"><span>Editorial firewall</span><h2>Support cannot buy a citation.</h2><p>Submissions and financial support are separate. Donations never guarantee inclusion, designation, favorable treatment, or visibility. Public pages are governed by their evidence record.</p><Link href="/readiness">Inspect the corpus ledger →</Link></aside>
-
-        <footer className="support-contact"><div><span>Ready when you are</span><h2>Help WikiBiome keep reading.</h2></div><a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure">Support the work <i>→</i></a></footer>
-      </main>
-    </>
-  );
+  return <><WikiHeader /><main className="support-page">
+    <header className="support-hero">
+      <div><span>Free · ad-free · evidence-linked</span><h1>Explore and collaborate.</h1>
+        <p>Read the microbiome encyclopedia, follow its sources, and contribute research for editorial review.</p>
+        <div><Link href="/explore">Explore the encyclopedia</Link><Link href="/submit-work">Submit research for review</Link></div>
+      </div>
+      <div className="support-orbit" aria-hidden="true"><i /><i /><i /><span>W</span><strong>knowledge<br />stays open</strong></div>
+    </header>
+    <section className="support-impact" aria-labelledby="collaborate-title">
+      <header><span>Continue your research</span><h2 id="collaborate-title">Follow the evidence.</h2></header>
+      <div>
+        <article><b>01</b><h3>Encyclopedia</h3><p>Explore articles and their evidence records.</p><Link href="/explore">Explore WikiBiome →</Link></article>
+        <article><b>02</b><h3>Researcher network</h3><p>Find cited work and submit contributions for review.</p><Link href="/researchers">Explore researcher profiles →</Link></article>
+        <article><b>03</b><h3>Microbiome Medicine</h3><p>Learn about the organization behind WikiBiome.</p><a href="https://microbiomemedicine.com">Visit Microbiome Medicine →</a></article>
+        <article><b>04</b><h3>Corrections</h3><p>Suggest a sourced correction to an encyclopedia article.</p><Link href="/contribute">Suggest an edit →</Link></article>
+      </div>
+    </section>
+    <aside className="support-independence"><span>Editorial independence</span><h2>Evidence guides inclusion.</h2><p>Submissions are reviewed for sourcing, relevance, and conflicts of interest. Inclusion and citations are never for sale.</p><Link href="/research-standard">Read the research standard →</Link></aside>
+  </main></>;
 }

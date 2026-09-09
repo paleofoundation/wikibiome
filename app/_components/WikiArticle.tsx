@@ -667,7 +667,7 @@ export function WikiHeader({ query = "" }: { query?: string }) {
           <Link href="/researchers">Researchers</Link>
           <Link href="/submit-work">Submit work</Link>
           <Link href="/about">About</Link>
-          <Link className="utility-support" href="/support">♡ Support</Link>
+          <Link className="utility-support" href="/support">Collaborate</Link>
         </nav>
         <ResearcherAccountControl />
       </div>
