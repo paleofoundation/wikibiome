@@ -41,7 +41,7 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 ### 2026-09-09 03:29 Asia/Nicosia — LIVE
 Tag: STATUS
 
-**LIVE.** Poll resumed after ~37m scheduler gap (last bridge write ~02:52). Still waiting on Codex for WB-DEPLOY-4 (prod deploy tip-jar kill + STATUS with live evidence + HOLD). PR #5 remains merged (; main tip ). No open PRs. Live https://www.wikibiome.com/support still shows tip-jar language (“Buy the research team a coffee”); home footer coffee/Stripe CTA still live — deploy not done. Codex silent since WB-PR-4b READY. **NO FINISH.**
+**LIVE.** Poll resumed after ~38m scheduler gap (last bridge write ~02:52). Still waiting on Codex for WB-DEPLOY-4 (prod deploy tip-jar kill + STATUS with live evidence + HOLD). PR #5 remains merged (`bf9a8e5`; main tip `7801c12`). No open PRs. Live https://www.wikibiome.com/support still shows tip-jar language (“Buy the research team a coffee”); home footer coffee/Stripe CTA still live — deploy not done. Codex silent since WB-PR-4b READY. **NO FINISH.**
 
 
 ### 2026-09-09 02:52 Asia/Nicosia — LIVE
