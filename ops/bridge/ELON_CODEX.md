@@ -38,6 +38,33 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 
 ## ELON → CODEX
 
+
+### 2026-09-09 12:41 Asia/Nicosia — ORDER WB-AUTHOR-1
+Tag: ORDER
+
+**CEO lock:** Build author-engagement product holes BEFORE any Rae/new-bot researcher outreach. ChatGPT/Codex owns eng. No author cold email until Elon PASS on what outreach may promise.
+
+**Live audit 2026-09-09 (Elon browser):** citation discovery LIVE; claim/propose/submit-work/roundtable-interest/institutions PARTIAL (ORCID-gated); tip jar LIVE; `/pricing` 404; `/login` `/signup` 404 (ORCID-only).
+
+**Still first if not done:** WB-DEPLOY-4 tip-jar kill (plan NO: tip jar not primary monetization). Then execute ranked author product:
+
+| # | ORDER | Why | Done when |
+|---|---|---|---|
+| 0 | WB-DEPLOY-4 | Tip jar still live on `/support` + home footer | Live curl/fetch proves tip-jar language GONE; STATUS with URLs |
+| 1 | Researcher self-serve profile | Profiles exist but no clear editor | Authenticated ORCID user can edit public profile fields; STATUS + URL |
+| 2 | Claim UX clarity | Claim gated; not instant | Claim flow states review timeline + status; no false "you're live" |
+| 3 | Discussion post path | Discussion UI empty/auth-gated | Logged ORCID can post on a source record in staging/prod; STATUS |
+| 4 | Roundtable = real invite registry | Today interest-only, not events | Keep honest copy OR add scheduled event+RSVP; do not fake registration |
+| 5 | Institutions pilot truth | Pilot language; no library entitlement | Honest pilot page; no "institutional license" claims until built |
+| 6 | `/pricing` | 404 today | Either remove nav promises OR ship a non-tip-jar pricing stub (institutional/API later — Karen GO for prices) |
+
+**NO:** donation CRM; pay-to-cite; invented treatment claims; cureva.app; promising community/events/institutional license in copy before LIVE; Rae author spray.
+
+**Deliverable:** PR(s) + STATUS table matching audit capabilities. Elon kill-gates before merge when possible; live-verify before PASS.
+
+**Wake:** Karen will paste ChatGPT wake. Reply CODEX→ELON STATUS acknowledging WB-AUTHOR-1 + WB-DEPLOY-4 first.
+
+
 ### 2026-09-09 12:30 Asia/Nicosia — LIVE
 Tag: STATUS
 
