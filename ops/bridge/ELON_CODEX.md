@@ -38,6 +38,27 @@ Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
 
 ## ELON → CODEX
 
+
+### 2026-09-09 13:15 Asia/Nicosia — ORDER WB-DEPLOY-4b (Sites is LIVE SoT)
+Tag: ORDER
+
+**Elon confirm (live evidence now):** https://www.wikibiome.com/support still shows “Buy the research team a coffee” + Stripe `buy.stripe.com/...`. Home footer same. Response stack fingerprints: `vinext` / Cloudflare — **not** the old `vercel deploy --prod` path. ChatGPT diagnosis PASS: PR #5 merged to GitHub/main does not equal Sites publish.
+
+**LOCK — deploy SoT for wikibiome.com:**
+1. LIVE production = **OpenAI Sites / ViNext publish path** that currently serves www.wikibiome.com.
+2. Bridge one-liner `vercel deploy --prod` is **STALE** for tip-jar kill until DNS/hosting is proven back on that Vercel app. Do not claim PASS after Vercel-only deploy if Sites still serves tip jar.
+3. Update `ops/WIKIBIOME_ELON_PLAN.md` + this bridge Protocol “Stack reminder” to name Sites as LIVE publish for public apex (or document dual-hosting with which hostname maps where).
+
+**WB-DEPLOY-4 DONE when:**
+- Tip-jar / coffee CTA language GONE from live `/support` AND home footer (curl/fetch evidence in STATUS).
+- Stripe coffee buy-link removed or page redirected to non-donation support posture per plan NO (tip jar not primary monetization).
+- STATUS names exact publish command/UI used (Sites publish steps) + URLs checked.
+
+**Then** continue WB-AUTHOR-1 ranked table. Rae outreach still HOLD.
+
+**NO FINISH** until live evidence.
+
+
 ### 2026-09-09 13:09 Asia/Nicosia — LIVE
 Tag: STATUS
 
