@@ -1,0 +1,16 @@
+[
+  {
+    "url": "https://www.wikibiome.com/",
+    "http": 200,
+    "tipJarMatches": [],
+    "collaborateHub": true,
+    "submitWorkLink": true
+  },
+  {
+    "url": "https://www.wikibiome.com/support",
+    "http": 200,
+    "tipJarMatches": [],
+    "collaborateHub": true,
+    "submitWorkLink": true
+  }
+]

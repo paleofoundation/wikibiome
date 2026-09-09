@@ -1,0 +1,553 @@
+From 3a13c0243d85f0bbff3e0556283533544fcff7b5 Mon Sep 17 00:00:00 2001
+From: Karen Pendergrass <karen@paleofoundation.com>
+Date: Wed, 9 Sep 2026 13:27:28 +0300
+Subject: [PATCH] Add author profile editor and clarify participation review
+ boundaries
+
+---
+ app/_components/DiscussionBoard.tsx        |  72 ++++++++------
+ app/_components/ResearcherProfileForm.tsx  |  34 +++++++
+ app/_components/ResearcherWorkspaceNav.tsx |   5 +-
+ app/_components/SourceClaimForm.tsx        |  36 ++++---
+ app/_components/WikiFooter.tsx             |   2 +-
+ app/api/researcher/profile/route.ts        |  14 +++
+ app/institutions/page.tsx                  |   2 +-
+ app/pricing/page.tsx                       |  14 +++
+ app/researcher/profile/page.tsx            |  16 +++
+ app/researchers/[orcid]/page.tsx           |   2 +-
+ app/roundtable/page.tsx                    |   2 +-
+ app/source/[id]/claim/page.tsx             |   2 +-
+ lib/research-network.ts                    |   4 +-
+ scripts/verify-author-workflow.mjs         | 108 +++++++++++++++++++++
+ tests/rendered-html.test.mjs               |  22 ++++-
+ 15 files changed, 281 insertions(+), 54 deletions(-)
+ create mode 100644 app/_components/ResearcherProfileForm.tsx
+ create mode 100644 app/api/researcher/profile/route.ts
+ create mode 100644 app/pricing/page.tsx
+ create mode 100644 app/researcher/profile/page.tsx
+ create mode 100644 scripts/verify-author-workflow.mjs
+
+diff --git a/app/_components/DiscussionBoard.tsx b/app/_components/DiscussionBoard.tsx
+index d6424fe..e860f77 100644
+--- a/app/_components/DiscussionBoard.tsx
++++ b/app/_components/DiscussionBoard.tsx
+@@ -14,52 +14,68 @@ export function DiscussionBoard({ targetType, targetId, viewer, initialDiscussio
+   const [message, setMessage] = useState("");
+ 
+   async function refresh() {
+-    const response = await fetch(`/api/discussions?targetType=${targetType}&targetId=${encodeURIComponent(targetId)}`);
+-    const result = await response.json() as { discussions?: Discussion[] };
+-    setDiscussions(result.discussions || []);
++    try {
++        const response = await fetch(`/api/discussions?targetType=${targetType}&targetId=${encodeURIComponent(targetId)}`);
++        if (!response.ok) throw new Error("Refresh failed");
++        const result = await response.json() as { discussions?: Discussion[] };
++        if (!result.discussions) throw new Error("Missing discussions");
++        setDiscussions(result.discussions);
++    } catch {
++      setMessage((current) => `${current} The discussion list could not refresh. Reload this page to check it; you do not need to resubmit.`);
++    }
+   }
+ 
+   async function create(event: FormEvent<HTMLFormElement>) {
+     event.preventDefault();
+     setState("saving");
+-    const form = new FormData(event.currentTarget);
+-    const response = await fetch("/api/discussions", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ targetType, targetId, title: form.get("title"), category: form.get("category"), body: form.get("body"), sourceUrl: form.get("sourceUrl"), conflictDisclosure: form.get("conflictDisclosure") }) });
+-    const result = await response.json() as { status?: string; error?: string };
+-    if (!response.ok) { setState("error"); setMessage(result.error || "The discussion could not be created."); return; }
+-    setState("saved");
+-    setMessage(result.status === "pending" ? "Submitted to the new-researcher moderation queue." : "Discussion published.");
+-    event.currentTarget.reset();
+-    await refresh();
++    const formElement = event.currentTarget;
++    const form = new FormData(formElement);
++    try {
++      const response = await fetch("/api/discussions", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ targetType, targetId, title: form.get("title"), category: form.get("category"), body: form.get("body"), sourceUrl: form.get("sourceUrl"), conflictDisclosure: form.get("conflictDisclosure") }) });
++      const result = await response.json() as { status?: string; error?: string };
++      if (!response.ok) { setState("error"); setMessage(result.error || "The discussion could not be created."); return; }
++      setState("saved");
++      setMessage(result.status === "pending" ? "Submitted to the new-researcher moderation queue." : "Discussion published.");
++      formElement.reset();
++      await refresh();
++    } catch { setState("error"); setMessage("Could not confirm the response. Your draft is still here. Check the record before retrying."); }
+   }
+ 
+   async function reply(event: FormEvent<HTMLFormElement>, threadId: string) {
+     event.preventDefault();
+     setState("saving");
+-    const form = new FormData(event.currentTarget);
+-    const response = await fetch(`/api/discussions/${threadId}/posts`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ body: form.get("body"), sourceUrl: form.get("sourceUrl"), conflictDisclosure: form.get("conflictDisclosure") }) });
+-    const result = await response.json() as { status?: string; error?: string };
+-    if (!response.ok) { setState("error"); setMessage(result.error || "The reply could not be posted."); return; }
+-    setState("saved");
+-    setMessage(result.status === "pending" ? "Reply submitted for moderation." : "Reply published.");
+-    event.currentTarget.reset();
+-    await refresh();
++    const formElement = event.currentTarget;
++    const form = new FormData(formElement);
++    try {
++      const response = await fetch(`/api/discussions/${threadId}/posts`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ body: form.get("body"), sourceUrl: form.get("sourceUrl"), conflictDisclosure: form.get("conflictDisclosure") }) });
++      const result = await response.json() as { status?: string; error?: string };
++      if (!response.ok) { setState("error"); setMessage(result.error || "The reply could not be posted."); return; }
++      setState("saved");
++      setMessage(result.status === "pending" ? "Reply submitted for moderation." : "Reply published.");
++      formElement.reset();
++      await refresh();
++    } catch { setState("error"); setMessage("Could not confirm the response. Your draft is still here. Check the record before retrying."); }
+   }
+ 
+   async function report(event: FormEvent<HTMLFormElement>, postId: string) {
+     event.preventDefault();
+     setState("saving");
+-    const form = new FormData(event.currentTarget);
+-    const response = await fetch(`/api/discussions/posts/${postId}/report`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ reason: form.get("reason") }) });
+-    const result = await response.json() as { error?: string };
+-    if (!response.ok) { setState("error"); setMessage(result.error || "The report could not be submitted."); return; }
+-    setState("saved");
+-    setMessage("Report submitted to the moderation queue.");
+-    event.currentTarget.reset();
++    const formElement = event.currentTarget;
++    const form = new FormData(formElement);
++    try {
++      const response = await fetch(`/api/discussions/posts/${postId}/report`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ reason: form.get("reason") }) });
++      const result = await response.json() as { error?: string };
++      if (!response.ok) { setState("error"); setMessage(result.error || "The report could not be submitted."); return; }
++      setState("saved");
++      setMessage("Report submitted to the moderation queue.");
++      formElement.reset();
++    } catch { setState("error"); setMessage("Could not confirm the response. Your draft is still here. Check the record before retrying."); }
+   }
+ 
+   async function edit(event: FormEvent<HTMLFormElement>, postId: string) {
+     event.preventDefault(); setState("saving");
+-    const form = new FormData(event.currentTarget);
++    const formElement = event.currentTarget;
++    const form = new FormData(formElement);
+     const response = await fetch(`/api/discussions/posts/${postId}`, { method: "PATCH", headers: { "content-type": "application/json" }, body: JSON.stringify({ body: form.get("body"), sourceUrl: form.get("sourceUrl"), conflictDisclosure: form.get("conflictDisclosure") }) });
+     const result = await response.json() as { error?: string };
+     if (!response.ok) { setState("error"); setMessage(result.error || "The post could not be edited."); return; }
+@@ -81,7 +97,7 @@ export function DiscussionBoard({ targetType, targetId, viewer, initialDiscussio
+     <section className="discussion-board" id="discussion" aria-labelledby={`discussion-${targetType}-${targetId}`}>
+       <header><div><span>Researcher discussion</span><h2 id={`discussion-${targetType}-${targetId}`}>Connect the evidence</h2><p>Publicly readable discussion by ORCID-authenticated researchers. Questions, interpretation, methods, corrections, and new evidence stay attached to this record.</p></div><b>{discussions.reduce((total, item) => total + item.posts.length, 0)} posts</b></header>
+       <div className="discussion-list">
+-        {!discussions.length && <p className="discussion-empty">No discussion yet. Start with a precise question or a source-backed observation.</p>}
++        {!discussions.length && <p className="discussion-empty">No published discussion yet. New researchers’ posts appear after moderation. Start with a precise question or a source-backed observation.</p>}
+         {discussions.map(({ thread, posts, people, following }) => (
+           <article className="discussion-thread" key={thread.id}>
+             <header><span>{thread.category.replaceAll("_", " ")}</span><h3>{thread.title}</h3><small>{formatDate(thread.createdAt)}</small><FollowButton targetType="thread" targetId={thread.id} initialFollowing={following} canFollow={Boolean(viewer?.emailVerified)}/></header>
+diff --git a/app/_components/ResearcherProfileForm.tsx b/app/_components/ResearcherProfileForm.tsx
+new file mode 100644
+index 0000000..ee9b0bc
+--- /dev/null
++++ b/app/_components/ResearcherProfileForm.tsx
+@@ -0,0 +1,34 @@
++"use client";
++
++import { useState, type FormEvent } from "react";
++
++type Profile = { displayName: string; biography: string; affiliations: string[]; expertiseSelf: string[]; orcid: string };
++
++export function ResearcherProfileForm({ account }: { account: Profile }) {
++  const [saving, setSaving] = useState(false);
++  const [message, setMessage] = useState("");
++  async function save(event: FormEvent<HTMLFormElement>) {
++    event.preventDefault();
++    const form = new FormData(event.currentTarget);
++    setSaving(true);
++    setMessage("");
++    try {
++      const response = await fetch("/api/researcher/profile", {
++        method: "PATCH", headers: { "content-type": "application/json" },
++        body: JSON.stringify(Object.fromEntries(form)),
++      });
++      const result = await response.json() as { error?: string };
++      setMessage(response.ok ? "Public profile saved. Open your profile to see the changes." : result.error || "Your profile could not be saved.");
++    } catch { setMessage("Could not reach WikiBiome. Your edits are still here; try saving again."); }
++    finally { setSaving(false); }
++  }
++  return <form className="research-form" onSubmit={save}>
++    <label><span>Public name</span><input name="name" defaultValue={account.displayName} maxLength={180} required /></label>
++    <label><span>Biography</span><textarea name="biography" defaultValue={account.biography} maxLength={3000} rows={5} /></label>
++    <label><span>Self-declared affiliations · one per line</span><textarea name="affiliations" defaultValue={account.affiliations.join("\n")} rows={4} /></label>
++    <label><span>Self-declared expertise · one per line</span><textarea name="expertise" defaultValue={account.expertiseSelf.join("\n")} rows={4} /></label>
++    <footer><p>These fields are public. Your ORCID identity, verified work, and evidence-derived expertise are managed separately.</p><button disabled={saving}>{saving ? "Saving…" : "Save public profile"}</button></footer>
++    <p role="status">{message}</p>
++    <a href={`/researchers/${account.orcid}`}>View public profile →</a>
++  </form>;
++}
+diff --git a/app/_components/ResearcherWorkspaceNav.tsx b/app/_components/ResearcherWorkspaceNav.tsx
+index 8ac6e4a..1eb005b 100644
+--- a/app/_components/ResearcherWorkspaceNav.tsx
++++ b/app/_components/ResearcherWorkspaceNav.tsx
+@@ -1,13 +1,14 @@
+ import Link from "@/app/_components/NativeLink";
+ 
+-export function ResearcherWorkspaceNav({ active, unread = 0 }: { active: "dashboard" | "works" | "proposals" | "notifications" | "messages" | "roundtable"; unread?: number }) {
++export function ResearcherWorkspaceNav({ active, unread = 0 }: { active: "dashboard" | "profile" | "works" | "proposals" | "notifications" | "messages" | "roundtable"; unread?: number }) {
+   const items = [
+     ["dashboard", "/researcher/dashboard", "Dashboard"],
++    ["profile", "/researcher/profile", "Edit profile"],
+     ["works", "/researcher/works", "Find my work"],
+     ["proposals", "/researcher/proposals", "Proposals"],
+     ["notifications", "/researcher/notifications", `Notifications${unread ? ` (${unread})` : ""}`],
+     ["messages", "/researcher/messages", "Messages"],
+-    ["roundtable", "/roundtable", "Events & Roundtable"],
++    ["roundtable", "/roundtable", "Roundtable interest"],
+   ] as const;
+   return <nav className="researcher-workspace-nav" aria-label="Researcher workspace">{items.map(([id, href, label]) => <Link key={id} className={active === id ? "active" : ""} aria-current={active === id ? "page" : undefined} href={href}>{label}</Link>)}</nav>;
+ }
+diff --git a/app/_components/SourceClaimForm.tsx b/app/_components/SourceClaimForm.tsx
+index d6d2a11..8860acc 100644
+--- a/app/_components/SourceClaimForm.tsx
++++ b/app/_components/SourceClaimForm.tsx
+@@ -12,26 +12,32 @@ export function SourceClaimForm({ sourceId, existingClaim }: { sourceId: string;
+   async function claimWork(event: FormEvent<HTMLFormElement>) {
+     event.preventDefault();
+     setState("saving");
+-    const form = new FormData(event.currentTarget);
+-    const response = await fetch("/api/source-claims", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ sourceId, evidenceNote: form.get("evidenceNote") }) });
+-    const result = await response.json() as { claim?: Claim; error?: string };
+-    if (!response.ok || !result.claim) { setState("error"); setMessage(result.error || "The claim could not be created."); return; }
+-    setClaim(result.claim);
+-    setState("saved");
+-    setMessage(result.claim.status === "verified" ? "Authorship was verified from persistent-identifier metadata." : "Claim received for editorial verification.");
++    const formElement = event.currentTarget;
++    const form = new FormData(formElement);
++    try {
++      const response = await fetch("/api/source-claims", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ sourceId, evidenceNote: form.get("evidenceNote") }) });
++      const result = await response.json() as { claim?: Claim; error?: string };
++      if (!response.ok || !result.claim) { setState("error"); setMessage(result.error || "The claim could not be created."); return; }
++      setClaim(result.claim);
++      setState("saved");
++      setMessage(result.claim.status === "verified" ? "Authorship was verified from persistent-identifier metadata." : "Claim received for editorial verification.");
++    } catch { setState("error"); setMessage("Could not confirm the response. Your draft is still here. Check the record before retrying."); }
+   }
+ 
+   async function submitReview(event: FormEvent<HTMLFormElement>) {
+     event.preventDefault();
+     if (!claim) return;
+     setState("saving");
+-    const form = new FormData(event.currentTarget);
+-    const response = await fetch("/api/author-reviews", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ claimId: claim.id, accuracy: form.get("accuracy"), context: form.get("context"), sourceUrl: form.get("sourceUrl"), conflictDisclosure: form.get("conflictDisclosure") }) });
+-    const result = await response.json() as { error?: string };
+-    if (!response.ok) { setState("error"); setMessage(result.error || "The author review could not be submitted."); return; }
+-    setState("saved");
+-    setMessage("Author context submitted for editorial review.");
+-    event.currentTarget.reset();
++    const formElement = event.currentTarget;
++    const form = new FormData(formElement);
++    try {
++      const response = await fetch("/api/author-reviews", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ claimId: claim.id, accuracy: form.get("accuracy"), context: form.get("context"), sourceUrl: form.get("sourceUrl"), conflictDisclosure: form.get("conflictDisclosure") }) });
++      const result = await response.json() as { error?: string };
++      if (!response.ok) { setState("error"); setMessage(result.error || "The author review could not be submitted."); return; }
++      setState("saved");
++      setMessage("Author context submitted for editorial review.");
++      formElement.reset();
++    } catch { setState("error"); setMessage("Could not confirm the response. Your draft is still here. Check the record before retrying."); }
+   }
+ 
+   return (
+@@ -44,7 +50,7 @@ export function SourceClaimForm({ sourceId, existingClaim }: { sourceId: string;
+         </form>
+       ) : (
+         <>
+-          <aside className={`claim-status status-${claim.status}`}><span>Authorship claim</span><strong>{claim.status.replaceAll("_", " ")}</strong><small>{claim.verificationMethod.replaceAll("_", " ")}</small></aside>
++          <aside className={`claim-status status-${claim.status}`}><span>Authorship claim</span><strong>{claim.status.replaceAll("_", " ")}</strong><small>{claim.verificationMethod.replaceAll("_", " ")}</small><p>{claim.status === "verified" ? "Authorship verified. Any author context still requires editorial review." : claim.status === "pending" ? "Awaiting editorial verification. No guaranteed review date; check this page or your dashboard for updates." : "This claim is not publicly verified. Check your dashboard for the recorded decision."}</p></aside>
+           <form className="research-form" onSubmit={submitReview}>
+             <header><span>Step 2</span><h2>Review WikiBiome’s representation</h2><p>Your response is moderated and, when accepted, appears as attributed author context without replacing the independent synthesis.</p></header>
+             <label><span>How does it look?</span><select name="accuracy" defaultValue="accurate"><option value="accurate">Accurate</option><option value="needs_correction">Needs correction</option><option value="missing_context">Important context is missing</option></select></label>
+diff --git a/app/_components/WikiFooter.tsx b/app/_components/WikiFooter.tsx
+index c14ebf6..f9302cb 100644
+--- a/app/_components/WikiFooter.tsx
++++ b/app/_components/WikiFooter.tsx
+@@ -10,7 +10,7 @@ export function WikiFooter() {
+         <small>A project of <a href="https://microbiomemedicine.com" target="_blank" rel="noreferrer">Microbiome Medicine ↗</a></small>
+       </div>
+       <nav aria-label="Explore WikiBiome"><span>Explore</span><Link href="/explore">Knowledge graph</Link><Link href="/clusters">Condition clusters</Link><Link href="/compare">Compare conditions</Link><Link href="/keystone">Keystone studies</Link><Link href="/search">Search {wikiStats.totalPages} articles</Link></nav>
+-      <nav aria-label="Participate in WikiBiome"><span>Participate</span><Link href="/researchers">Researcher network</Link><Link href="/researcher/dashboard">Researcher dashboard</Link><Link href="/researcher/works">Find my work</Link><Link href="/propose">Propose content</Link><Link href="/roundtable">Microbiome Roundtable</Link><Link href="/submit-work">Submit research</Link><Link href="/institutions">Institutions</Link><Link href="/research-standard">Research standard</Link><Link href="/research-governance">Research governance</Link><Link href="/contribute">Suggest an edit</Link><Link href="/about">About WikiBiome</Link><Link href="/contact">Contact</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms of Use</Link><a href="https://github.com/paleofoundation/wikibiome" target="_blank" rel="noreferrer">Source repository ↗</a></nav>
++      <nav aria-label="Participate in WikiBiome"><span>Participate</span><Link href="/researchers">Researcher network</Link><Link href="/researcher/dashboard">Researcher dashboard</Link><Link href="/researcher/works">Find my work</Link><Link href="/propose">Propose content</Link><Link href="/roundtable">Microbiome Roundtable</Link><Link href="/submit-work">Submit research</Link><Link href="/institutions">Institutions pilot</Link><Link href="/pricing">Access and pricing</Link><Link href="/research-standard">Research standard</Link><Link href="/research-governance">Research governance</Link><Link href="/contribute">Suggest an edit</Link><Link href="/about">About WikiBiome</Link><Link href="/contact">Contact</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms of Use</Link><a href="https://github.com/paleofoundation/wikibiome" target="_blank" rel="noreferrer">Source repository ↗</a></nav>
+       <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Explore and collaborate.</strong><p>A free, ad-free, evidence-linked public encyclopedia.</p><Link href="/explore">Explore the encyclopedia →</Link><Link href="/submit-work">Submit research for review →</Link></div>
+       <div className="wiki-footer-bottom"><span>Content available under CC BY-SA 4.0 unless otherwise noted · Free · ad-free · evidence-linked</span><p>Educational information only. WikiBiome does not provide medical diagnosis or treatment.</p></div>
+     </footer>
+diff --git a/app/api/researcher/profile/route.ts b/app/api/researcher/profile/route.ts
+new file mode 100644
+index 0000000..a29f173
+--- /dev/null
++++ b/app/api/researcher/profile/route.ts
+@@ -0,0 +1,14 @@
++import { assertSameOriginRequest, getResearcherSessionFromRequest, updateResearcherAccount } from "@/lib/research-network";
++
++export async function PATCH(request: Request) {
++  try { assertSameOriginRequest(request); }
++  catch { return Response.json({ error: "Cross-site requests are not accepted." }, { status: 403 }); }
++  const account = await getResearcherSessionFromRequest(request);
++  if (!account?.orcid) return Response.json({ error: "ORCID sign-in is required." }, { status: 401 });
++  try {
++    const payload = await request.json() as Record<string, unknown>;
++    if (!payload || typeof payload !== "object" || Array.isArray(payload) || typeof payload.name !== "string" || !payload.name.trim()) return Response.json({ error: "A public name is required." }, { status: 400 });
++    await updateResearcherAccount(account.accountId, { name: payload.name, biography: payload.biography, affiliations: payload.affiliations, expertise: payload.expertise });
++    return Response.json({ saved: true }, { headers: { "cache-control": "private, no-store" } });
++  } catch { return Response.json({ error: "Your profile could not be saved. Check the fields and try again." }, { status: 400 }); }
++}
+diff --git a/app/institutions/page.tsx b/app/institutions/page.tsx
+index 22ab45e..cb59277 100644
+--- a/app/institutions/page.tsx
++++ b/app/institutions/page.tsx
+@@ -10,5 +10,5 @@ export const metadata: Metadata = publicPageMetadata({ title: "Research organiza
+ 
+ export default async function InstitutionsPage() {
+   const [account, institutions] = await Promise.all([getResearcherSession(), listApprovedInstitutions()]);
+-  return <><WikiHeader /><main className="institutions-page"><header className="research-hero compact"><span>Research organization network</span><h1>Bring collections into an interdisciplinary evidence graph.</h1><p>Organization profiles connect accepted works and participating ORCID researchers without paid placement, citation guarantees, or competitive rankings.</p></header><section className="institution-boundaries"><article><b>ROR when available</b><p>ROR remains the strongest reusable identity signal, but a delayed ROR record no longer blocks a reviewed provisional profile.</p></article><article><b>Human verification</b><p>Administrator and researcher relationships require a matching domain or documented manual review. Every identity state is labeled publicly.</p></article><article><b>Free participation</b><p>Organization pages and moderated DOI, PMID, CSV, RIS, or BibTeX intake are free. Payment never affects approval or visibility.</p></article></section>{account?.emailVerified ? <InstitutionRequestForm /> : <section className="research-gate inline"><h2>Request access as a verified researcher</h2><p>Connect ORCID and verify your private email before requesting an organization profile.</p><a href={account ? "/researcher/dashboard" : "/api/auth/orcid/start?returnTo=/institutions"}>{account ? "Verify private email" : "Continue with ORCID"}</a></section>}<section className="institution-directory"><header><h2>Participating research organizations</h2><span>{institutions.length} approved</span></header>{institutions.length ? institutions.map((item) => <Link href={`/institutions/${institutionPublicIdentifier(item)}`} key={item.id}><b>{item.name}</b><span>{item.identityStatus === "ror_verified" ? `ROR verified${item.country ? ` · ${item.country}` : ""}` : `${item.organizationType.replaceAll("_", " ")} · WikiBiome reviewed`}</span><i>→</i></Link>) : <p>The organization pilot is accepting its first reviewed profiles.</p>}</section></main></>;
++  return <><WikiHeader /><main className="institutions-page"><header className="research-hero compact"><span>Research organization pilot</span><h1>Bring collections into an interdisciplinary evidence graph.</h1><p>This pilot offers reviewed organization profiles and moderated research intake. It does not provide an institutional license, library subscription, API entitlement, or guaranteed inclusion.</p></header><section className="institution-boundaries"><article><b>ROR when available</b><p>ROR remains the strongest reusable identity signal, but a delayed ROR record no longer blocks a reviewed provisional profile.</p></article><article><b>Human verification</b><p>Administrator and researcher relationships require a matching domain or documented manual review. Every identity state is labeled publicly.</p></article><article><b>Free participation</b><p>Organization pages and moderated DOI, PMID, CSV, RIS, or BibTeX intake are free. Payment never affects approval or visibility.</p></article></section>{account?.emailVerified ? <InstitutionRequestForm /> : <section className="research-gate inline"><h2>Request access as a verified researcher</h2><p>Connect ORCID and verify your private email before requesting an organization profile.</p><a href={account ? "/researcher/dashboard" : "/api/auth/orcid/start?returnTo=/institutions"}>{account ? "Verify private email" : "Continue with ORCID"}</a></section>}<section className="institution-directory"><header><h2>Participating research organizations</h2><span>{institutions.length} approved</span></header>{institutions.length ? institutions.map((item) => <Link href={`/institutions/${institutionPublicIdentifier(item)}`} key={item.id}><b>{item.name}</b><span>{item.identityStatus === "ror_verified" ? `ROR verified${item.country ? ` · ${item.country}` : ""}` : `${item.organizationType.replaceAll("_", " ")} · WikiBiome reviewed`}</span><i>→</i></Link>) : <p>The organization pilot is accepting its first reviewed profiles.</p>}</section></main></>;
+ }
+diff --git a/app/pricing/page.tsx b/app/pricing/page.tsx
+new file mode 100644
+index 0000000..770fc57
+--- /dev/null
++++ b/app/pricing/page.tsx
+@@ -0,0 +1,14 @@
++import type { Metadata } from "next";
++import Link from "@/app/_components/NativeLink";
++import { WikiHeader } from "@/app/_components/WikiArticle";
++import { publicPageMetadata } from "@/lib/search-discovery";
++
++export const metadata: Metadata = publicPageMetadata({ title: "Access and pricing — WikiBiome", description: "WikiBiome is free to read. Researcher participation and the organization pilot are free; paid plans are not currently offered.", path: "/pricing" });
++
++export default function PricingPage() {
++  return <><WikiHeader /><main className="project-page">
++    <header className="project-page-hero"><span>Access and pricing</span><h1>Free to read. Free to contribute.</h1><p>The public encyclopedia is ad-free and evidence-linked. Researcher profiles, claims, and submissions are free and subject to identity checks and editorial review.</p></header>
++    <section className="institution-boundaries"><article><h2>Encyclopedia</h2><p>Read articles and inspect their sources without a subscription.</p><Link href="/explore">Explore the encyclopedia →</Link></article><article><h2>Researcher participation</h2><p>Sign in with ORCID to edit your profile. Verify a private email to submit claims, research, or discussion posts.</p><Link href="/researcher/profile">Edit your profile →</Link></article><article><h2>Organization pilot</h2><p>Reviewed profiles and moderated research intake are free. Institutional licenses and paid API access are not currently offered. No prices or availability dates have been announced.</p><Link href="/institutions">View the pilot →</Link></article></section>
++    <section className="support-independence"><h2>Citations are never for sale.</h2><p>Payment cannot purchase inclusion, authorship verification, favorable treatment, or scientific recognition.</p><Link href="/research-standard">Read the research standard →</Link></section>
++  </main></>;
++}
+diff --git a/app/researcher/profile/page.tsx b/app/researcher/profile/page.tsx
+new file mode 100644
+index 0000000..640c093
+--- /dev/null
++++ b/app/researcher/profile/page.tsx
+@@ -0,0 +1,16 @@
++import type { Metadata } from "next";
++import { WikiHeader } from "@/app/_components/WikiArticle";
++import { ResearcherWorkspaceNav } from "@/app/_components/ResearcherWorkspaceNav";
++import { ResearcherProfileForm } from "@/app/_components/ResearcherProfileForm";
++import { getResearcherSession } from "@/lib/research-network";
++
++export const dynamic = "force-dynamic";
++export const metadata: Metadata = { title: "Edit public profile — WikiBiome", robots: { index: false, follow: false } };
++
++export default async function EditProfilePage() {
++  const account = await getResearcherSession();
++  return <><WikiHeader /><main className="project-page">
++    <header className="project-page-hero"><span>Researcher profile</span><h1>Edit your public profile</h1><p>Update your name, biography, affiliations, and self-declared expertise.</p></header>
++    {account ? <><ResearcherWorkspaceNav active="profile" /><ResearcherProfileForm account={account} /></> : <section className="research-gate"><h2>Sign in with ORCID</h2><p>Profile text can be edited after sign-in. A verified private email is required separately for claims, submissions, and discussion posts.</p><a href="/api/auth/orcid/start?returnTo=/researcher/profile">Continue with ORCID</a></section>}
++  </main></>;
++}
+diff --git a/app/researchers/[orcid]/page.tsx b/app/researchers/[orcid]/page.tsx
+index e871f75..39e7e6d 100644
+--- a/app/researchers/[orcid]/page.tsx
++++ b/app/researchers/[orcid]/page.tsx
+@@ -40,7 +40,7 @@ export default async function ResearcherProfilePage({ params }: Props) {
+     knowsAbout: [...new Set([...researcher.expertiseSelf, ...inferredExpertise])],
+   };
+   return <><WikiHeader /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replaceAll("<", "\\u003c") }} /><main className="research-profile">
+-    <header className="researcher-profile-hero"><div className="researcher-avatar profile">{researcher.photoAvailable ? <img src={`/researchers/${researcher.orcid}/photo${researcher.photoUpdatedAt ? `?v=${encodeURIComponent(researcher.photoUpdatedAt)}` : ""}`} alt={researcher.photoAlt || `Professional portrait of ${researcher.name}`}/> : <span aria-hidden="true">{initials(researcher.name)}</span>}</div><div><span>ORCID-authenticated researcher</span><h1>{researcher.name}</h1><a href={`https://orcid.org/${researcher.orcid}`} target="_blank" rel="noreferrer">{researcher.orcid} ↗</a>{researcher.biography && <p>{researcher.biography}</p>}<nav className="profile-actions"><FollowButton targetType="researcher" targetId={researcher.accountId} initialFollowing={following} canFollow={Boolean(viewer?.emailVerified)}/>{viewer?.emailVerified && viewer.accountId !== researcher.accountId && <Link href={`/researcher/messages?recipient=${researcher.orcid}`}>Request contact</Link>}{viewer?.accountId === researcher.accountId && <Link href="/researcher/dashboard">Edit profile</Link>}</nav></div></header>
++    <header className="researcher-profile-hero"><div className="researcher-avatar profile">{researcher.photoAvailable ? <img src={`/researchers/${researcher.orcid}/photo${researcher.photoUpdatedAt ? `?v=${encodeURIComponent(researcher.photoUpdatedAt)}` : ""}`} alt={researcher.photoAlt || `Professional portrait of ${researcher.name}`}/> : <span aria-hidden="true">{initials(researcher.name)}</span>}</div><div><span>ORCID-authenticated researcher</span><h1>{researcher.name}</h1><a href={`https://orcid.org/${researcher.orcid}`} target="_blank" rel="noreferrer">{researcher.orcid} ↗</a>{researcher.biography && <p>{researcher.biography}</p>}<nav className="profile-actions"><FollowButton targetType="researcher" targetId={researcher.accountId} initialFollowing={following} canFollow={Boolean(viewer?.emailVerified)}/>{viewer?.emailVerified && viewer.accountId !== researcher.accountId && <Link href={`/researcher/messages?recipient=${researcher.orcid}`}>Request contact</Link>}{viewer?.accountId === researcher.accountId && <Link href="/researcher/profile">Edit profile</Link>}</nav></div></header>
+ 
+     <section className="research-footprint" aria-labelledby="research-footprint-title"><header><span>Research footprint</span><h2 id="research-footprint-title">How this researcher’s verified work connects to WikiBiome</h2><p>These are evidence relationships, not popularity scores.</p></header><div><article><strong>{impact.verifiedWorks}</strong><span>verified works</span></article><article><strong>{impact.keystoneWorks}</strong><span>Keystone works</span></article><article><strong>{impact.linkedArticles}</strong><span>WikiBiome articles</span></article><article><strong>{contributionLevel || "—"}</strong><span>{contributionLevel ? "accepted contribution level" : "no accepted contributions yet"}</span></article></div></section>
+ 
+diff --git a/app/roundtable/page.tsx b/app/roundtable/page.tsx
+index bfdb859..97393c7 100644
+--- a/app/roundtable/page.tsx
++++ b/app/roundtable/page.tsx
+@@ -8,4 +8,4 @@ import { publicPageMetadata } from "@/lib/search-discovery";
+ 
+ export const dynamic = "force-dynamic";
+ export const metadata: Metadata = publicPageMetadata({ title: "Research events and Microbiome Roundtable — WikiBiome", description: "Express interest in early invitations to future WikiBiome conferences, workshops, and Microbiome Roundtables.", path: "/roundtable" });
+-export default async function RoundtablePage() { const account = await getResearcherSession(); const [interest, unread] = account ? await Promise.all([getRoundtableInterest(account.accountId), unreadNotificationCount(account.accountId)]) : [null, 0]; return <><WikiHeader/><main className="project-page roundtable-page"><header className="project-page-hero"><span>Future researcher convenings</span><h1>Help shape WikiBiome’s conferences and Microbiome Roundtables.</h1><p>This is an interest and early-invitation registry—not registration for a scheduled event. Tell us which interdisciplinary conversations, roles, and formats would be useful.</p></header><section className="roundtable-principles"><article><span>01</span><h2>Interdisciplinary by design</h2><p>Microbiome and metallomics anchors connect to genomics, metabolomics, immunology, exposomics, and clinical evidence.</p></article><article><span>02</span><h2>Quality before popularity</h2><p>Contribution stars document accepted scientific work. There is no leaderboard and payment never affects recognition.</p></article><article><span>03</span><h2>Human invitations</h2><p>Four- and five-star researchers who separately opt in may enter an early-invitation shortlist for relevant conferences, workshops, and Roundtables, while fit, conduct, conflicts, and representation remain human decisions.</p></article></section>{account && <ResearcherWorkspaceNav active="roundtable" unread={unread}/>} {!account ? <section className="research-gate"><h2>Researchers join with ORCID.</h2><p>Event interest, early-invitation consideration, and event-email consent are separate choices.</p><a href="/api/auth/orcid/start?returnTo=/roundtable">Continue with ORCID</a></section> : !account.emailVerified ? <section className="research-gate"><h2>Verify your private email to join the registry.</h2><a href="/researcher/dashboard">Complete researcher profile</a></section> : <RoundtableInterestForm initial={interest}/>}</main></>; }
++export default async function RoundtablePage() { const account = await getResearcherSession(); const [interest, unread] = account ? await Promise.all([getRoundtableInterest(account.accountId), unreadNotificationCount(account.accountId)]) : [null, 0]; return <><WikiHeader/><main className="project-page roundtable-page"><header className="project-page-hero"><span>Future researcher convenings</span><h1>Microbiome Roundtable interest registry.</h1><p>This is an interest and early-invitation registry—not registration for a scheduled event. No event date or place is reserved by joining. Tell us which interdisciplinary conversations, roles, and formats would be useful.</p></header><section className="roundtable-principles"><article><span>01</span><h2>Interdisciplinary by design</h2><p>Microbiome and metallomics anchors connect to genomics, metabolomics, immunology, exposomics, and clinical evidence.</p></article><article><span>02</span><h2>Quality before popularity</h2><p>Contribution stars document accepted scientific work. There is no leaderboard and payment never affects recognition.</p></article><article><span>03</span><h2>Human invitations</h2><p>Four- and five-star researchers who separately opt in may enter an early-invitation shortlist for relevant conferences, workshops, and Roundtables, while fit, conduct, conflicts, and representation remain human decisions.</p></article></section>{account && <ResearcherWorkspaceNav active="roundtable" unread={unread}/>} {!account ? <section className="research-gate"><h2>Researchers join with ORCID.</h2><p>Event interest, early-invitation consideration, and event-email consent are separate choices.</p><a href="/api/auth/orcid/start?returnTo=/roundtable">Continue with ORCID</a></section> : !account.emailVerified ? <section className="research-gate"><h2>Verify your private email to join the registry.</h2><a href="/researcher/dashboard">Complete researcher profile</a></section> : <RoundtableInterestForm initial={interest}/>}</main></>; }
+diff --git a/app/source/[id]/claim/page.tsx b/app/source/[id]/claim/page.tsx
+index 7a5095d..5c6f4ce 100644
+--- a/app/source/[id]/claim/page.tsx
++++ b/app/source/[id]/claim/page.tsx
+@@ -16,5 +16,5 @@ export default async function SourceClaimPage({ params }: Props) {
+   if (!source) notFound();
+   const account = await getResearcherSession();
+   const placements = findPagesUsingSource(id);
+-  return <><WikiHeader /><main className="claim-page"><header><span>Author claim · {placements.length} WikiBiome placements</span><h1>{source.title}</h1><p>{source.authors?.join(", ") || "Authorship metadata pending"} · {source.journal || "Journal pending"} · {source.year || "Year pending"}</p><Link href={`/source/${id}`}>View public source record →</Link></header>{!account ? <section className="research-gate inline"><span>Step 1</span><h2>Authenticate with ORCID</h2><p>The signed claim link can bring you here, but it is not proof of authorship. WikiBiome requires ORCID authentication and a separate verified private email.</p><a href={`/api/auth/orcid/start?returnTo=${encodeURIComponent(`/source/${id}/claim`)}`}>Continue with ORCID</a></section> : !account.emailVerified ? <section className="research-gate inline"><span>Step 1</span><h2>Verify your private email</h2><p>Your ORCID iD is connected. Add and verify a private email before claiming, posting, or submitting.</p><Link href="/researcher/dashboard">Complete researcher profile</Link></section> : <SourceClaimForm sourceId={id} existingClaim={(await listClaimsForAccount(account.accountId)).find((claim) => claim.sourceId === id) || null} />}</main></>;
++  return <><WikiHeader /><main className="claim-page"><header><span>Author claim · {placements.length} WikiBiome placements</span><h1>{source.title}</h1><p>{source.authors?.join(", ") || "Authorship metadata pending"} · {source.journal || "Journal pending"} · {source.year || "Year pending"}</p><Link href={`/source/${id}`}>View public source record →</Link></header><aside className="claim-status"><h2>How review works</h2><p>1. Sign in with ORCID and verify your private email. 2. Submit your authorship evidence. Matching persistent identifiers may verify authorship automatically; other claims enter manual review. 3. Check this page or your dashboard for the decision.</p><p>Manual review has no guaranteed turnaround time. A pending claim is not publicly verified. Author context has a separate editorial review before publication.</p></aside>{!account ? <section className="research-gate inline"><span>Step 1</span><h2>Authenticate with ORCID</h2><p>The signed claim link can bring you here, but it is not proof of authorship. WikiBiome requires ORCID authentication and a separate verified private email.</p><a href={`/api/auth/orcid/start?returnTo=${encodeURIComponent(`/source/${id}/claim`)}`}>Continue with ORCID</a></section> : !account.emailVerified ? <section className="research-gate inline"><span>Step 1</span><h2>Verify your private email</h2><p>Your ORCID iD is connected. Add and verify a private email before claiming, posting, or submitting.</p><Link href="/researcher/dashboard">Complete researcher profile</Link></section> : <SourceClaimForm sourceId={id} existingClaim={(await listClaimsForAccount(account.accountId)).find((claim) => claim.sourceId === id) || null} />}</main></>;
+ }
+diff --git a/lib/research-network.ts b/lib/research-network.ts
+index b95f05c..28d9e40 100644
+--- a/lib/research-network.ts
++++ b/lib/research-network.ts
+@@ -316,7 +316,7 @@ export async function createOrLinkOrcidAccount(input: {
+   const linkedModerator = Boolean(input.chatgptUserId && configuredModerators.includes(input.chatgptUserId));
+ 
+   if (!existingAccount) await db.insert(accounts).values({ id: accountId, displayName: name, role: linkedModerator ? "moderator" : "researcher" });
+-  else await db.update(accounts).set({ displayName: name, ...(linkedModerator && existingAccount.role === "researcher" ? { role: "moderator" } : {}), updatedAt: new Date().toISOString() }).where(eq(accounts.id, accountId));
++  else await db.update(accounts).set({ ...(linkedModerator && existingAccount.role === "researcher" ? { role: "moderator" } : {}), updatedAt: new Date().toISOString() }).where(eq(accounts.id, accountId));
+ 
+   if (!existingOrcidIdentity) await db.insert(accountIdentities).values({ id: crypto.randomUUID(), accountId, provider: "orcid", providerSubject: orcid });
+   if (input.chatgptUserId) {
+@@ -327,7 +327,7 @@ export async function createOrLinkOrcidAccount(input: {
+ 
+   const profile = (await db.select().from(researcherProfiles).where(eq(researcherProfiles.accountId, accountId)).limit(1))[0];
+   if (!profile) await db.insert(researcherProfiles).values({ accountId, orcid, name });
+-  else await db.update(researcherProfiles).set({ orcid, name, updatedAt: new Date().toISOString() }).where(eq(researcherProfiles.accountId, accountId));
++  else await db.update(researcherProfiles).set({ orcid, updatedAt: new Date().toISOString() }).where(eq(researcherProfiles.accountId, accountId));
+ 
+   await recordAudit(accountId, "identity.orcid_linked", "account", accountId, { orcid, chatgptLinked: Boolean(input.chatgptUserId) });
+   return accountId;
+diff --git a/scripts/verify-author-workflow.mjs b/scripts/verify-author-workflow.mjs
+new file mode 100644
+index 0000000..12aa964
+--- /dev/null
++++ b/scripts/verify-author-workflow.mjs
+@@ -0,0 +1,108 @@
++// Explicit local integration check. Never accepts a remote origin or database.
++import assert from "node:assert/strict";
++import { createHash, randomUUID } from "node:crypto";
++import { readFileSync, readdirSync, realpathSync } from "node:fs";
++import { resolve, sep } from "node:path";
++import { spawnSync } from "node:child_process";
++
++const origin = new URL(process.argv[2] || "http://localhost:4194");
++assert.ok(["localhost", "127.0.0.1"].includes(origin.hostname) && origin.protocol === "http:", "Only a local HTTP test server is allowed");
++const database = realpathSync(process.argv[3]);
++assert.ok(database.startsWith(realpathSync(".wrangler") + sep) && database.endsWith(".sqlite"), "Only this checkout's local Wrangler database is allowed");
++const sql = (query) => {
++  const result = spawnSync("/usr/bin/sqlite3", [database], { input: query, encoding: "utf8" });
++  assert.equal(result.status, 0, result.stderr);
++  return result.stdout.trim();
++};
++if (!sql("SELECT name FROM sqlite_master WHERE name='accounts';")) {
++  for (const name of readdirSync("drizzle").filter((name) => /^\d{4}_.+\.sql$/.test(name)).sort()) sql(readFileSync(resolve("drizzle", name), "utf8"));
++}
++const prefix = `wb-author-${randomUUID()}`;
++const accounts = ["new", "trusted", "unverified"].map((kind, index) => ({
++  id: `${prefix}-${kind}`, kind, token: randomUUID(), orcid: `0000-0000-0000-000${index}`,
++}));
++const sourceId = "ahmed-2025-metals-alzheimers-mechanistic-review";
++const passed = [];
++async function request(path, { account, body, method = "GET", crossSite = false } = {}) {
++  return fetch(new URL(path, origin), { method, headers: {
++    ...(account ? { cookie: `wikibiome_researcher_session=${account.token}` } : {}),
++    origin: crossSite ? "https://example.invalid" : origin.origin,
++    ...(body !== undefined ? { "content-type": "application/json" } : {}),
++  }, ...(body !== undefined ? { body: JSON.stringify(body) } : {}) });
++}
++try {
++  for (const account of accounts) {
++    const hash = createHash("sha256").update(account.token).digest("base64url");
++    sql(`INSERT INTO accounts(id,display_name,role) VALUES('${account.id}','Local author fixture','${account.kind === "trusted" ? "trusted_contributor" : "researcher"}');
++      INSERT INTO researcher_profiles(account_id,orcid,name) VALUES('${account.id}','${account.orcid}','Local author fixture');
++      INSERT INTO account_identities(id,account_id,provider,provider_subject) VALUES('${account.id}','${account.id}','orcid','${account.orcid}');
++      INSERT INTO researcher_emails(id,account_id,email,verified_at) VALUES('${account.id}','${account.id}','${account.id}@example.invalid',${account.kind === "unverified" ? "NULL" : "'2026-01-01T00:00:00Z'"});
++      INSERT INTO account_sessions(token_hash,account_id,expires_at) VALUES('${hash}','${account.id}','2099-01-01T00:00:00Z');`);
++  }
++  const profileBody = { name: "Local edited author", biography: "Local integration fixture. No scientific claims.", affiliations: "Fixture institute", expertise: "Methods", accountId: accounts[1].id, role: "site_admin", orcid: accounts[1].orcid };
++  let response = await request("/api/researcher/profile", { method: "PATCH", body: profileBody });
++  assert.equal(response.status, 401); passed.push("Anonymous profile mutation rejected");
++  response = await request("/api/researcher/profile", { account: accounts[0], method: "PATCH", body: profileBody, crossSite: true });
++  assert.equal(response.status, 403); passed.push("Cross-origin profile mutation rejected");
++  response = await request("/api/researcher/profile", { account: accounts[2], method: "PATCH", body: profileBody });
++  assert.equal(response.status, 200, await response.text());
++  response = await request("/api/account", { account: accounts[2] });
++  let data = await response.json();
++  assert.equal(data.account.displayName, profileBody.name);
++  assert.equal(data.account.biography, profileBody.biography);
++  assert.equal(data.account.role, "researcher");
++  assert.equal(data.account.orcid, accounts[2].orcid);
++  assert.equal(data.account.emailVerified, false);
++  assert.equal(sql(`SELECT name FROM researcher_profiles WHERE account_id='${accounts[1].id}';`), "Local author fixture");
++  response = await request(`/researchers/${accounts[2].orcid}`);
++  const profileHtml = await response.text();
++  assert.match(profileHtml, /Local edited author/);
++  assert.match(profileHtml, /Local integration fixture/);
++  assert.ok(!profileHtml.includes(`${accounts[2].id}@example.invalid`));
++  passed.push("ORCID session can edit public fields without private-email verification; fields persist publicly, ownership and role protected");
++  const topic = { targetType: "source", targetId: sourceId, title: "Local fixture question", category: "question", body: "Which methods are documented in this source record?", conflictDisclosure: "Local test fixture" };
++  response = await request("/api/discussions", { method: "POST", body: topic });
++  assert.equal(response.status, 401);
++  response = await request("/api/discussions", { account: accounts[2], method: "POST", body: topic });
++  assert.equal(response.status, 400);
++  passed.push("Anonymous and unverified-email discussion writes rejected");
++  response = await request("/api/discussions", { account: accounts[0], method: "POST", body: topic });
++  assert.equal(response.status, 201);
++  const pending = await response.json();
++  assert.equal(pending.status, "pending");
++  assert.equal(sql(`SELECT status FROM discussion_posts WHERE id='${pending.postId}';`), "pending");
++  response = await request(`/api/discussions?targetType=source&targetId=${sourceId}`);
++  data = await response.json();
++  assert.ok(!data.discussions.some((item) => item.thread.id === pending.threadId));
++  passed.push("New researcher source post persists pending and is absent from public discussion");
++  response = await request("/api/discussions", { account: accounts[1], method: "POST", body: topic });
++  assert.equal(response.status, 201);
++  const published = await response.json();
++  assert.equal(published.status, "published");
++  response = await request(`/api/discussions?targetType=source&targetId=${sourceId}`);
++  data = await response.json();
++  assert.ok(data.discussions.some((item) => item.thread.id === published.threadId && item.posts.some((post) => post.id === published.postId)));
++  response = await request(`/source/${sourceId}`);
++  assert.match(await response.text(), /Local fixture question/);
++  passed.push("Trusted ORCID session source post persists and renders on the public source record");
++  response = await request(`/api/discussions/${published.threadId}/posts`, { account: accounts[1], method: "POST", body: { body: "Local fixture reply for persistence verification." } });
++  assert.equal(response.status, 201);
++  const reply = await response.json();
++  assert.equal(sql(`SELECT count(*) FROM discussion_post_revisions WHERE post_id='${reply.postId}';`), "1");
++  passed.push("Source reply persists with immutable first revision");
++  console.log(JSON.stringify({ environment: "isolated local staging; fixture sessions, not external ORCID OAuth", origin: origin.origin, passed }, null, 2));
++} finally {
++  const ids = accounts.map((account) => `'${account.id}'`).join(",");
++  sql(`DELETE FROM discussion_post_revisions WHERE post_id IN (SELECT id FROM discussion_posts WHERE account_id IN (${ids}));
++    DELETE FROM discussion_posts WHERE account_id IN (${ids});
++    DELETE FROM discussion_threads WHERE created_by_account_id IN (${ids});
++    DELETE FROM researcher_notifications WHERE actor_account_id IN (${ids});
++    DELETE FROM researcher_follows WHERE account_id IN (${ids});
++    DELETE FROM rate_limit_events WHERE account_id IN (${ids});
++    DELETE FROM audit_events WHERE actor_account_id IN (${ids});
++    DELETE FROM researcher_emails WHERE account_id IN (${ids});
++    DELETE FROM account_sessions WHERE account_id IN (${ids});
++    DELETE FROM account_identities WHERE account_id IN (${ids});
++    DELETE FROM researcher_profiles WHERE account_id IN (${ids});
++    DELETE FROM accounts WHERE id IN (${ids});`);
++}
+diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
+index d28ae08..4fe424a 100644
+--- a/tests/rendered-html.test.mjs
++++ b/tests/rendered-html.test.mjs
+@@ -6143,9 +6143,9 @@ test("renders the claim, contribute, collaborate researcher network", async () =
+   assert.match(submit, /Add evidence without bypassing editorial review/);
+   assert.match(submit, /Continue with ORCID/);
+   assert.match(submit, /Acceptance creates an editorial change packet/);
+-  assert.match(institutions, /Research organization network/);
++  assert.match(institutions, /Research organization pilot/);
+   assert.match(institutions, /delayed ROR record no longer blocks a reviewed provisional profile/);
+-  assert.match(institutions, /without paid placement, citation guarantees, or competitive rankings/);
++  assert.match(institutions, /does not provide an institutional license/);
+ 
+   assert.match(source, /Are you an author of this work\?/);
+   assert.match(source, /href="\/source\/ahmed-2025-metals-alzheimers-mechanistic-review\/claim"/);
+@@ -6395,3 +6395,21 @@ test("binds generated content to the fetched upstream commit", () => {
+   assert.equal(manifest.audit.invalidSourceYears.length, 0);
+   assert.equal(manifest.audit.resolvedSourceAliasIds.length, 55);
+ });
++
++
++test("author product explains profile access, claim review, pricing and event limits", async () => {
++  const routes = ["/", "/support", "/researcher/profile", "/pricing", "/roundtable", "/source/ahmed-2025-metals-alzheimers-mechanistic-review/claim"];
++  const html = [];
++  for (const route of routes) {
++    const response = await render(route);
++    assert.equal(response.status, 200, route);
++    html.push(await response.text());
++  }
++  for (const body of html) assert.doesNotMatch(body, /buy\.stripe\.com|Buy the research team a coffee|Support the work/);
++  assert.match(html[2], /Edit your public profile/);
++  assert.match(html[2], /returnTo=\/researcher\/profile/);
++  assert.match(html[3], /Institutional licenses and paid API access are not currently offered/);
++  assert.match(html[4], /not registration for a scheduled event/);
++  assert.match(html[5], /Manual review has no guaranteed turnaround time/);
++  assert.match(html[5], /pending claim is not publicly verified/);
++});

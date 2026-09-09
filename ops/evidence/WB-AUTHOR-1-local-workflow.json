@@ -1,0 +1,13 @@
+{
+  "environment": "isolated local staging; fixture sessions, not external ORCID OAuth",
+  "origin": "http://localhost:4194",
+  "passed": [
+    "Anonymous profile mutation rejected",
+    "Cross-origin profile mutation rejected",
+    "ORCID session can edit public fields without private-email verification; fields persist publicly, ownership and role protected",
+    "Anonymous and unverified-email discussion writes rejected",
+    "New researcher source post persists pending and is absent from public discussion",
+    "Trusted ORCID session source post persists and renders on the public source record",
+    "Source reply persists with immutable first revision"
+  ]
+}

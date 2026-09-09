@@ -1,6 +1,32 @@
 # WikiBiome deploy truth
 
-WikiBiome has one production deploy pipeline:
+## Current public application: Sites (verified September 9, 2026)
+
+`wikibiome.com` and `www.wikibiome.com` serve the Sites application, project
+`appgprj_6a952a45833881918318478cf66804f3`. The application source lives in
+`/Users/karenpendergrass/Documents/New project`, with `.openai/hosting.json`.
+The GitHub Vite application in this repository is the retained legacy app and
+content upstream. It does not include the live ORCID author product. Deploying
+it to Vercel does not update the current public domain. Do not switch DNS to
+make the obsolete command appear successful.
+
+WB-DEPLOY-4 was shipped as Sites version 69, source
+`37d2f8464785b62d6723da19df35213025573b1a`, deployment
+`appgdep_6aa13294dd048191be570dd3ff3fc3bc`, environment revision 6. It was built
+on live version 68; no pending media release was bundled. Live `/support` and
+home footer were fetched and verified without coffee/Stripe CTAs.
+
+The current pipeline is the Sites checkout's `npm run build`, exact source
+commit and authenticated push, Sites package helper, `save_site_version`,
+`deploy_site_version`, terminal deployment status, and live route checks.
+Use the Sites skills and the control register at
+`docs/operations/wikibiome-program-register.md` in that checkout. Retain
+version 68 for rollback with the caveat that it restores the removed tip jar.
+
+## Retained legacy Vercel pipeline
+
+The following describes the legacy app, not the current public domain:
+
 
 1. `node scripts/build-content.cjs` regenerates the application content payload.
 2. `npx vite build` creates the configured static build output.
