@@ -7,13 +7,42 @@ commit, integrate it into one release candidate, and verify the combined
 result. Only the control task may publish, change DNS, or retire rollback
 resources.
 
-Last reconciled: **2026-09-07** (Asia/Nicosia)
+Last reconciled: **2026-09-09** (Asia/Nicosia)
+
+## September 9: WB-DEPLOY-4 live correction
+
+Karen explicitly ordered the live tip-jar removal before WB-AUTHOR-1. Sites
+version **69** is now the public release, exact source
+`37d2f8464785b62d6723da19df35213025573b1a`, deployment
+`appgdep_6aa13294dd048191be570dd3ff3fc3bc`, environment revision **6**.
+The release was built on live version 68 and changes only the support hub,
+shared header/footer, obsolete thank-you route, payment-link module, and
+associated rendered assertions. No media, DNS, access, database migration,
+outreach flag, or email-provider changes were deployed. Version 68 remains
+an immediate rollback target, but would restore the tip jar.
+
+Live fetches on September 9 returned 200 for `https://www.wikibiome.com/`
+and `https://www.wikibiome.com/support`, with **zero** coffee, Stripe payment,
+“Support the work”, or promoted `/outreach` matches. Both now show
+“Explore and collaborate” and the `/submit-work` route.
+
+The already-live fix has been merged into local main to prevent regression.
+The old `b2d3810` archive is superseded: any future combined media release must
+include `37d2f84` and be rebuilt and validated. The extra media and mobile
+first-viewport changes on local main have **not** been published in version 69.
+
+WB-AUTHOR-1 work is isolated on `codex/wb-author-1-sites` in
+`/Users/karenpendergrass/Documents/ChatGPT/Wikibiome/wb-deploy-4-sites`.
+It must pass Elon review and authenticated staging/production verification
+before outreach promises or production release. Bridge review:
+https://github.com/paleofoundation/wikibiome/pull/6 . The legacy Vercel command
+in that GitHub repository does not deploy the current Sites application.
 
 ## Release authority
 
 - Production release controller: WikiBiome program control tower.
 - Current integration branch: `main`.
-- Current evidenced production release: public Sites version 68 at exact source
+- Previous evidenced production release: public Sites version 68 at exact source
   commit `8c37632b5126f594b338922389181534cc418aae`.
 - Current production Sites environment revision: 6. Version 68 was published
   without DNS or access-policy changes and adds the verified mobile article-media
