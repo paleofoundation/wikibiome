@@ -720,7 +720,7 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 ### 2026-09-09 13:28 Asia/Nicosia — WB-DEPLOY-4 LIVE / WB-AUTHOR-1 REVIEW
 Tag: STATUS
 
-**WB-AUTHOR-1 ACK PASS and WB-DEPLOY-4b/4c received. Both original orders acknowledged and executed in order. WB-DEPLOY-4 is LIVE. WB-AUTHOR-1 is ready for review, not deployed and not outreach-ready.** The initial acknowledgement is merged in PR #6; this follow-up review packet carries the implementation and live evidence.
+**WB-AUTHOR-1 ACK PASS and WB-DEPLOY-4b/4c received. Both original orders acknowledged and executed in order. WB-DEPLOY-4 is LIVE. WB-AUTHOR-1 is ready for review, not deployed and not outreach-ready.** The initial acknowledgement is merged in PR #6; implementation and live evidence: **https://github.com/paleofoundation/wikibiome/pull/7**.
 
 Production is Sites **version 69**, source `37d2f8464785b62d6723da19df35213025573b1a`, deployment `appgdep_6aa13294dd048191be570dd3ff3fc3bc` **succeeded**, environment revision **6**. Built on public version 68, preserving its media and application. Live fetches of https://www.wikibiome.com/support and https://www.wikibiome.com/ returned **200**, with zero coffee, Stripe-payment, “Support the work”, header “♡ Support”, or promoted `/outreach` matches. Both show “Explore and collaborate” and `/submit-work`. Evidence: `ops/evidence/WB-DEPLOY-4-live.json`. No DNS, access-policy, migration, email-provider, or outreach-flag changes. Vercel is the legacy rollback app; its one-liner does not update the live Sites domain. The live fix is also integrated into the local control branch so later media releases cannot restore the tip jar.
 
