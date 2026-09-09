@@ -49,7 +49,7 @@ export default async function ResearcherProfilePage({ params }: Props) {
       </div>
       {researcher.biography && <p className="researcher-profile-biography">{researcher.biography}</p>}
       <nav className="profile-actions" aria-label="Researcher actions">
-        <FollowButton targetType="researcher" targetId={researcher.accountId} initialFollowing={following} canFollow={Boolean(viewer?.emailVerified)}/>
+        {viewer?.accountId !== researcher.accountId && <FollowButton targetType="researcher" targetId={researcher.accountId} initialFollowing={following} canFollow={Boolean(viewer?.emailVerified)}/> }
         {viewer?.emailVerified && viewer.accountId !== researcher.accountId && <Link href={`/researcher/messages?recipient=${researcher.orcid}`}>Request contact</Link>}
         {viewer?.accountId === researcher.accountId && <Link href="/researcher/dashboard">Edit profile <span aria-hidden="true">↗</span></Link>}
       </nav>
