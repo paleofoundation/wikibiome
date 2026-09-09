@@ -1,0 +1,208 @@
+From 37d2f8464785b62d6723da19df35213025573b1a Mon Sep 17 00:00:00 2001
+From: Karen Pendergrass <karen@paleofoundation.com>
+Date: Wed, 9 Sep 2026 13:17:35 +0300
+Subject: [PATCH] Remove live Sites tip jar and repurpose support as
+ collaboration hub
+
+---
+ app/_components/WikiArticle.tsx |  2 +-
+ app/_components/WikiFooter.tsx  |  3 +-
+ app/support/page.tsx            | 55 +++++++++++++--------------------
+ app/support/thank-you/page.tsx  | 28 ++---------------
+ lib/support.ts                  |  4 ---
+ tests/rendered-html.test.mjs    | 21 ++++++-------
+ 6 files changed, 34 insertions(+), 79 deletions(-)
+ delete mode 100644 lib/support.ts
+
+diff --git a/app/_components/WikiArticle.tsx b/app/_components/WikiArticle.tsx
+index 5304477..eb8c5af 100644
+--- a/app/_components/WikiArticle.tsx
++++ b/app/_components/WikiArticle.tsx
+@@ -667,7 +667,7 @@ export function WikiHeader({ query = "" }: { query?: string }) {
+           <Link href="/researchers">Researchers</Link>
+           <Link href="/submit-work">Submit work</Link>
+           <Link href="/about">About</Link>
+-          <Link className="utility-support" href="/support">♡ Support</Link>
++          <Link className="utility-support" href="/support">Collaborate</Link>
+         </nav>
+         <ResearcherAccountControl />
+       </div>
+diff --git a/app/_components/WikiFooter.tsx b/app/_components/WikiFooter.tsx
+index 13fab17..c14ebf6 100644
+--- a/app/_components/WikiFooter.tsx
++++ b/app/_components/WikiFooter.tsx
+@@ -1,6 +1,5 @@
+ import Link from "@/app/_components/NativeLink";
+ import { wikiStats } from "@/lib/wikibiome";
+-import { STRIPE_SUPPORT_URL, SUPPORT_PROCESSOR_DISCLOSURE } from "@/lib/support";
+ 
+ export function WikiFooter() {
+   return (
+@@ -12,7 +11,7 @@ export function WikiFooter() {
+       </div>
+       <nav aria-label="Explore WikiBiome"><span>Explore</span><Link href="/explore">Knowledge graph</Link><Link href="/clusters">Condition clusters</Link><Link href="/compare">Compare conditions</Link><Link href="/keystone">Keystone studies</Link><Link href="/search">Search {wikiStats.totalPages} articles</Link></nav>
+       <nav aria-label="Participate in WikiBiome"><span>Participate</span><Link href="/researchers">Researcher network</Link><Link href="/researcher/dashboard">Researcher dashboard</Link><Link href="/researcher/works">Find my work</Link><Link href="/propose">Propose content</Link><Link href="/roundtable">Microbiome Roundtable</Link><Link href="/submit-work">Submit research</Link><Link href="/institutions">Institutions</Link><Link href="/research-standard">Research standard</Link><Link href="/research-governance">Research governance</Link><Link href="/contribute">Suggest an edit</Link><Link href="/about">About WikiBiome</Link><Link href="/contact">Contact</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms of Use</Link><a href="https://github.com/paleofoundation/wikibiome" target="_blank" rel="noreferrer">Source repository ↗</a></nav>
+-      <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Buy the research team a coffee.</strong><p>Support source indexing, editorial review, and an ad-free public encyclopedia.</p><a href={STRIPE_SUPPORT_URL} aria-describedby="footer-support-disclosure">Support the work <i>♡</i></a><small id="footer-support-disclosure" className="support-processor">{SUPPORT_PROCESSOR_DISCLOSURE}</small></div>
++      <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Explore and collaborate.</strong><p>A free, ad-free, evidence-linked public encyclopedia.</p><Link href="/explore">Explore the encyclopedia →</Link><Link href="/submit-work">Submit research for review →</Link></div>
+       <div className="wiki-footer-bottom"><span>Content available under CC BY-SA 4.0 unless otherwise noted · Free · ad-free · evidence-linked</span><p>Educational information only. WikiBiome does not provide medical diagnosis or treatment.</p></div>
+     </footer>
+   );
+diff --git a/app/support/page.tsx b/app/support/page.tsx
+index 1608584..a10a1c3 100644
+--- a/app/support/page.tsx
++++ b/app/support/page.tsx
+@@ -1,45 +1,32 @@
+ import type { Metadata } from "next";
+ import Link from "@/app/_components/NativeLink";
+ import { WikiHeader } from "@/app/_components/WikiArticle";
+-import { STRIPE_SUPPORT_URL, SUPPORT_PROCESSOR_DISCLOSURE } from "@/lib/support";
+ import { publicPageMetadata } from "@/lib/search-discovery";
+-import { wikiStats } from "@/lib/wikibiome";
+ 
+ export const metadata: Metadata = publicPageMetadata({
+-  title: "Support WikiBiome",
+-  description: "Support the research, editorial review, and infrastructure behind the open WikiBiome encyclopedia.",
++  title: "Explore and collaborate | WikiBiome",
++  description: "Explore the free, ad-free WikiBiome encyclopedia and contribute evidence for editorial review.",
+   path: "/support",
+ });
+ 
+ export default function SupportPage() {
+-  return (
+-    <>
+-      <WikiHeader />
+-      <main className="support-page">
+-        <header className="support-hero">
+-          <div><span>Free · ad-free · open access</span><h1>Keep the world&apos;s microbiome encyclopedia moving.</h1><p>Every article requires source retrieval, scientific reading, structured indexing, editorial judgment, and technical maintenance. Support helps WikiBiome do that work without selling attention or scientific influence.</p><div><a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure">Support the work <i>♡</i></a><Link href="/contribute">Contribute knowledge instead</Link></div><p className="support-processor" id="support-processor-disclosure">{SUPPORT_PROCESSOR_DISCLOSURE}</p></div>
+-          <div className="support-orbit" aria-hidden="true"><i /><i /><i /><span>W</span><strong>knowledge<br />stays open</strong></div>
+-        </header>
+-
+-        <section className="support-coffee" aria-labelledby="coffee-title">
+-          <div><span>A small, human way to help</span><h2 id="coffee-title">Buy the research team a coffee.</h2><p>One coffee will not index a corpus. But a community of readers choosing to sustain careful, unglamorous evidence work can.</p></div>
+-          <a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure"><span>Choose your amount securely</span><strong>Buy the research team a coffee</strong><small>$10 suggested · $5 minimum · one-time support</small></a>
+-        </section>
+-
+-        <section className="support-impact" aria-labelledby="impact-title">
+-          <header><span>Where support goes</span><h2 id="impact-title">Fund the layer readers rarely see.</h2></header>
+-          <div>
+-            <article><b>01</b><h3>Evidence indexing</h3><p>{wikiStats.sources.toLocaleString()} source records need metadata checks, passage-level linking, and continuing updates.</p></article>
+-            <article><b>02</b><h3>Editorial review</h3><p>Community suggestions are screened for fidelity, balance, sourcing, public-language clarity, and conflicts.</p></article>
+-            <article><b>03</b><h3>Open infrastructure</h3><p>Search, histories, relationship maps, accessibility, databases, and hosting keep the corpus useful to everyone.</p></article>
+-            <article><b>04</b><h3>New signatures</h3><p>Five-layer disease pages reconcile metals, taxa, host defenses, ecology, and microbial functions into one readable record.</p></article>
+-          </div>
+-        </section>
+-
+-        <aside className="support-independence"><span>Editorial firewall</span><h2>Support cannot buy a citation.</h2><p>Submissions and financial support are separate. Donations never guarantee inclusion, designation, favorable treatment, or visibility. Public pages are governed by their evidence record.</p><Link href="/readiness">Inspect the corpus ledger →</Link></aside>
+-
+-        <footer className="support-contact"><div><span>Ready when you are</span><h2>Help WikiBiome keep reading.</h2></div><a href={STRIPE_SUPPORT_URL} aria-describedby="support-processor-disclosure">Support the work <i>→</i></a></footer>
+-      </main>
+-    </>
+-  );
++  return <><WikiHeader /><main className="support-page">
++    <header className="support-hero">
++      <div><span>Free · ad-free · evidence-linked</span><h1>Explore and collaborate.</h1>
++        <p>Read the microbiome encyclopedia, follow its sources, and contribute research for editorial review.</p>
++        <div><Link href="/explore">Explore the encyclopedia</Link><Link href="/submit-work">Submit research for review</Link></div>
++      </div>
++      <div className="support-orbit" aria-hidden="true"><i /><i /><i /><span>W</span><strong>knowledge<br />stays open</strong></div>
++    </header>
++    <section className="support-impact" aria-labelledby="collaborate-title">
++      <header><span>Continue your research</span><h2 id="collaborate-title">Follow the evidence.</h2></header>
++      <div>
++        <article><b>01</b><h3>Encyclopedia</h3><p>Explore articles and their evidence records.</p><Link href="/explore">Explore WikiBiome →</Link></article>
++        <article><b>02</b><h3>Researcher network</h3><p>Find cited work and submit contributions for review.</p><Link href="/researchers">Explore researcher profiles →</Link></article>
++        <article><b>03</b><h3>Microbiome Medicine</h3><p>Learn about the organization behind WikiBiome.</p><a href="https://microbiomemedicine.com">Visit Microbiome Medicine →</a></article>
++        <article><b>04</b><h3>Corrections</h3><p>Suggest a sourced correction to an encyclopedia article.</p><Link href="/contribute">Suggest an edit →</Link></article>
++      </div>
++    </section>
++    <aside className="support-independence"><span>Editorial independence</span><h2>Evidence guides inclusion.</h2><p>Submissions are reviewed for sourcing, relevance, and conflicts of interest. Inclusion and citations are never for sale.</p><Link href="/research-standard">Read the research standard →</Link></aside>
++  </main></>;
+ }
+diff --git a/app/support/thank-you/page.tsx b/app/support/thank-you/page.tsx
+index e51bb42..8b4d04c 100644
+--- a/app/support/thank-you/page.tsx
++++ b/app/support/thank-you/page.tsx
+@@ -1,29 +1,5 @@
+-import type { Metadata } from "next";
+-import Link from "@/app/_components/NativeLink";
+-import { WikiHeader } from "@/app/_components/WikiArticle";
+-import { publicPageMetadata } from "@/lib/search-discovery";
+-
+-export const metadata: Metadata = publicPageMetadata({
+-  title: "Thank you for supporting WikiBiome",
+-  description: "Thank you for helping sustain WikiBiome’s open, evidence-linked microbiome encyclopedia.",
+-  path: "/support/thank-you",
+-  index: false,
+-});
++import { redirect } from "next/navigation";
+ 
+ export default function SupportThankYouPage() {
+-  return (
+-    <>
+-      <WikiHeader />
+-      <main className="support-thank-you">
+-        <section>
+-          <div className="thank-you-mark" aria-hidden="true"><span>W</span><i /><i /><i /></div>
+-          <p>Support received · knowledge stays open</p>
+-          <h1>Thank you for helping WikiBiome keep reading.</h1>
+-          <p>Your support helps sustain evidence indexing, editorial review, open infrastructure, and the continuing work of turning microbiome research into a useful public reference.</p>
+-          <div><Link href="/">Return to WikiBiome</Link><Link href="/explore">Explore the knowledge graph</Link></div>
+-          <small>Financial support never purchases citations, inclusion, favorable treatment, or visibility.</small>
+-        </section>
+-      </main>
+-    </>
+-  );
++  redirect("/support");
+ }
+diff --git a/lib/support.ts b/lib/support.ts
+deleted file mode 100644
+index 20c72ce..0000000
+--- a/lib/support.ts
++++ /dev/null
+@@ -1,4 +0,0 @@
+-export const STRIPE_SUPPORT_URL = "https://buy.stripe.com/bJefZjaif6IFd8Z4PL6EU03";
+-
+-export const SUPPORT_PROCESSOR_DISCLOSURE =
+-  "Payments are securely processed by Stripe for Microbiome Signatures LLC, the parent company of WikiBiome and Microbiome Medicine.";
+diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
+index 1fde0a8..d28ae08 100644
+--- a/tests/rendered-html.test.mjs
++++ b/tests/rendered-html.test.mjs
+@@ -5858,12 +5858,12 @@ test("renders the production discovery, provenance, support, and participation s
+     render("/support/thank-you"),
+     render("/contribute"),
+   ]);
+-  for (const response of [exploreResponse, readinessResponse, historyResponse, supportResponse, supportThankYouResponse, contributeResponse]) {
++  for (const response of [exploreResponse, readinessResponse, historyResponse, supportResponse, contributeResponse]) {
+     assert.equal(response.status, 200);
+   }
+ 
+-  const [explore, readiness, history, support, supportThankYou, contribute] = await Promise.all([
+-    exploreResponse.text(), readinessResponse.text(), historyResponse.text(), supportResponse.text(), supportThankYouResponse.text(), contributeResponse.text(),
++  const [explore, readiness, history, support, contribute] = await Promise.all([
++    exploreResponse.text(), readinessResponse.text(), historyResponse.text(), supportResponse.text(), contributeResponse.text(),
+   ]);
+ 
+   assert.match(explore, /Knowledge graph/);
+@@ -5895,15 +5895,12 @@ test("renders the production discovery, provenance, support, and participation s
+   assert.match(history, /github\.com\/paleofoundation\/wikibiome\/commit\/[a-f0-9]{40}/);
+   assert.match(history, /Inspect exact diff/);
+ 
+-  assert.match(support, /Buy the research team a coffee/);
+-  assert.match(support, /Support cannot buy a citation/);
+-  assert.match(support, /href="https:\/\/buy\.stripe\.com\/bJefZjaif6IFd8Z4PL6EU03"/);
+-  assert.match(support, /Payments are securely processed by Stripe for Microbiome Signatures LLC/);
+-  assert.doesNotMatch(support, /mailto:|Request a secure support link|Start a support conversation|tax-deductible/i);
+-  assert.match(support, /Source repository/);
+-  assert.match(supportThankYou, /Thank you for helping WikiBiome keep reading/);
+-  assert.match(supportThankYou, /href="\/"/);
+-  assert.match(supportThankYou, /Financial support never purchases citations/);
++  assert.match(support, /Explore and collaborate/);
++  assert.match(support, /href="\/submit-work"/);
++  assert.match(support, /Evidence guides inclusion/);
++  assert.doesNotMatch(support, /buy\.stripe\.com|coffee|donate|Support the work|href="\/outreach"/i);
++  assert.equal(supportThankYouResponse.status, 307);
++  assert.equal(supportThankYouResponse.headers.get("location"), "/support");
+ 
+   assert.match(contribute, /Wikipedia-like participation, with an evidence gate/);
+   assert.match(contribute, /Continue with ORCID to propose/);
