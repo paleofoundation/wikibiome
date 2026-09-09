@@ -33,7 +33,7 @@ Say no unless Karen overrides in writing:
 2. **Cold-email researcher notify-your-paper → donate** as the growth system (acquisition yes; donation ask no).
 3. **Conflating cureva.app** or building Cureva UI inside this repo as the product.
 4. **Invented medical claims** / upgrading correlational wiki prose into treatment claims.
-5. **dist-v\* graveyard as runtime** — one deploy truth only (build → static → Vercel prod).
+5. **dist-v\* graveyard as runtime** — one live deploy truth only (Sites / ViNext build → package → save version → publish; Vercel is retained legacy rollback).
 6. **SiteGround / Roundtable migration theater** ahead of Search Console indexing + backlink authority (deferred unless Karen prioritizes).
 7. **Parallel Claude “always yes” ops** fighting Elon kill-gates — Codex is the eng pen-pal; Elon owns ORDERS.
 
@@ -42,7 +42,7 @@ Say no unless Karen overrides in writing:
 ## 3. Critical path (ordered)
 
 ### Gate A — Physics of the public graph (NOW)
-1. **Single deploy path** documented and used by Codex (`build-content` → `vite build` → `generate-static` → `vercel --prod`). Kill dist-v\* as “current.”
+1. **Single live deploy path** is OpenAI Sites / ViNext for apex and www: `npm run build` in the Sites source → exact source push → package → save version → publish → terminal status and live URL checks. See `ops/DEPLOY_TRUTH.md`. The Vite/Vercel one-liner is legacy rollback only. Kill dist-v\* as “current.”
 2. **Indexability:** flagship sitemap + GSC requests stay live; measure indexed URLs vs “discovered not indexed.”
 3. **Authority:** paleofoundation.com + MM + Cureva landers link WikiBiome (external link budget > more articles).
 4. **Content integrity:** metals / STOPs / signatures stay cite-backed; no claim inflation.

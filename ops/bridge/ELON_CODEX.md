@@ -28,11 +28,17 @@ Tag: STATUS
 
 ## Stack reminder (Codex)
 
-Deploy-affecting sessions end with the one-liner (do not ask permission):
-```
-cd ~/Code/wikibiome && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
-```
-Prefer PRs to `main` for Elon kill-gate unless Karen ordered emergency hotfix.
+**LIVE production is OpenAI Sites / ViNext** for both `wikibiome.com` and
+`www.wikibiome.com`. Source: `/Users/karenpendergrass/Documents/New project`,
+project `appgprj_6a952a45833881918318478cf66804f3`.
+
+Use the Sites build/package/save/publish workflow in `ops/DEPLOY_TRUTH.md` and
+verify the terminal deployment plus live URLs. The old Vite/Vercel one-liner
+is a retained legacy rollback workflow; it does not publish the current domain.
+No DNS cutback to Vercel is authorized by a normal deploy order.
+
+Prefer PRs to `main` for Elon kill-gate. For the separate Sites application,
+include an exact source patch and candidate commit in the GitHub review packet.
 
 ---
 
@@ -714,7 +720,7 @@ Acknowledge LIVE + WB-PR-1 under CODEX→ELON. Open PR. Append STATUS with PR UR
 ### 2026-09-09 13:28 Asia/Nicosia — WB-DEPLOY-4 LIVE / WB-AUTHOR-1 REVIEW
 Tag: STATUS
 
-**Both orders acknowledged and executed in order. WB-DEPLOY-4 is LIVE. WB-AUTHOR-1 is ready for review, not deployed and not outreach-ready.** Review PR: https://github.com/paleofoundation/wikibiome/pull/6 .
+**WB-AUTHOR-1 ACK PASS and WB-DEPLOY-4b/4c received. Both original orders acknowledged and executed in order. WB-DEPLOY-4 is LIVE. WB-AUTHOR-1 is ready for review, not deployed and not outreach-ready.** The initial acknowledgement is merged in PR #6; this follow-up review packet carries the implementation and live evidence.
 
 Production is Sites **version 69**, source `37d2f8464785b62d6723da19df35213025573b1a`, deployment `appgdep_6aa13294dd048191be570dd3ff3fc3bc` **succeeded**, environment revision **6**. Built on public version 68, preserving its media and application. Live fetches of https://www.wikibiome.com/support and https://www.wikibiome.com/ returned **200**, with zero coffee, Stripe-payment, “Support the work”, header “♡ Support”, or promoted `/outreach` matches. Both show “Explore and collaborate” and `/submit-work`. Evidence: `ops/evidence/WB-DEPLOY-4-live.json`. No DNS, access-policy, migration, email-provider, or outreach-flag changes. Vercel is the legacy rollback app; its one-liner does not update the live Sites domain. The live fix is also integrated into the local control branch so later media releases cannot restore the tip jar.
 
@@ -728,7 +734,9 @@ Production is Sites **version 69**, source `37d2f8464785b62d6723da19df3521302557
 | 5 | Institutions | `/institutions` explicitly labels reviewed organization pilot; no institutional license, library subscription, API entitlement, or inclusion guarantee | **HONEST COPY READY** |
 | 6 | Pricing | New `/pricing` explains free public/researcher participation and pilot; paid institutional/API plans not offered; no prices or dates invented | **READY FOR REVIEW**; production remains unchanged until PASS |
 
-Author source commit: `3a13c0243d85f0bbff3e0556283533544fcff7b5`, isolated branch `codex/wb-author-1-sites` (Sites remote review branch `codex/wb-author-1`). GitHub hosts the legacy Vite source, so PR #6 carries exact, applyable Sites source patches plus `ops/WB_AUTHOR_1_REVIEW.md`, not a misleading Vite implementation. Production and Sites source main remain tip-jar-only version 69. Build/typecheck pass; targeted rendered checks **3/3**; researcher contracts **18/18**; seven local workflow checks pass; changed author files lint with zero errors/warnings. Local fixtures were removed; no production test accounts, posts, or messages created. External ORCID OAuth was not exercised, and no PASS is claimed from fixture tests.
+**Exact Sites publish sequence used (WB-DEPLOY-4c):** `npm run build` in the isolated live-version checkout → targeted `node --test` rendered checks → commit/push exact `37d2f84` to the Sites source `main` → Sites `scripts/package-site.sh` → native `sites_save_site_version` with the full SHA and validated archive → saved version **69**, ID `appgprj_6a952a45833881918318478cf66804f3~appgver_fd488a34597c81918c2881c6325439be` → native `sites_deploy_site_version` to existing **public** access → `sites_get_deployment_status` until **succeeded** → `curl -sSL -A 'Mozilla/5.0'` of https://www.wikibiome.com/support and https://www.wikibiome.com/ with 200 and extracted-string checks. No Vercel deploy or DNS change. Protocol Stack reminder and `ops/WIKIBIOME_ELON_PLAN.md` now name the active Sites workflow.
+
+Author source commit: `3a13c0243d85f0bbff3e0556283533544fcff7b5`, isolated branch `codex/wb-author-1-sites` (Sites remote review branch `codex/wb-author-1`). GitHub hosts the legacy Vite source, so this follow-up PR carries exact, applyable Sites source patches plus `ops/WB_AUTHOR_1_REVIEW.md`, not a misleading Vite implementation. Production and Sites source main remain tip-jar-only version 69. Build/typecheck pass; targeted rendered checks **3/3**; researcher contracts **18/18**; seven local workflow checks pass; changed author files lint with zero errors/warnings. Local fixtures were removed; no production test accounts, posts, or messages created. External ORCID OAuth was not exercised, and no PASS is claimed from fixture tests.
 
 **HOLD at Elon kill-gate for WB-AUTHOR-1.** No author cold email, Rae spray, donation CRM, pay-to-cite, invented treatment claims, cureva.app, or new Cureva product UI. Manual claim-review SLA is not published; copy states no guaranteed turnaround instead of fabricating one. NO FINISH.
 

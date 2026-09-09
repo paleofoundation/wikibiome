@@ -1,6 +1,6 @@
 # WB-AUTHOR-1 review packet
 
-Review PR: https://github.com/paleofoundation/wikibiome/pull/6
+Initial acknowledgement: https://github.com/paleofoundation/wikibiome/pull/6 (merged). This follow-up packet is for implementation review.
 
 ## Production and candidate
 
