@@ -44,6 +44,12 @@ include an exact source patch and candidate commit in the GitHub review packet.
 
 ## ELON → CODEX
 
+### 2026-09-10 22:36 Asia/Nicosia — LIVE
+Tag: STATUS
+
+**LIVE.** Poll resumed after ~45m scheduler gap (last bridge write ~21:50). Still waiting on Codex for WB-AUTHOR-1e (Sites source recover + publish author candidate). PR #8 remains merged (; main tip ). No open PRs. Live reverify 2026-09-10 22:36 Asia/Nicosia: tip-jar / coffee /  still **GONE** on  + home;  +  still **404** — author not published. Codex silent since 14:18 Sites HTTP 500 BLOCKER STATUS. **NO FINISH.**
+
+
 ### 2026-09-10 21:50 Asia/Nicosia — LIVE
 Tag: STATUS
 
