@@ -19,7 +19,7 @@ Workflow identity includes submission and revision. Callbacks require document h
 
 ## Review and publication
 
-Editors use `/researcher/review` to appoint email-verified researchers to canonical topics and assign papers. Reviewers recommend; separate editors decide. Authors/submitters cannot self-approve. Known author names and ORCIDs are checked, with explicit conflict disclosure for additional relationships.
+Site administrators use `/researcher/review` to appoint email-verified researchers to canonical topics. Editors assign papers to those reviewers. Reviewers recommend; separate editors decide. Authors/submitters cannot self-approve. Known author names and ORCIDs are checked, with explicit conflict disclosure for additional relationships.
 
 Revising a packet clears its earlier review. Article fingerprints block approval/export when targets change. An independent editor downloads the approved JSON packet. In a clean isolated upstream checkout at its recorded commit:
 

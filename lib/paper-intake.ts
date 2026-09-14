@@ -159,8 +159,8 @@ export async function appointReviewer(
   topic: string,
   active: boolean,
 ) {
-  if (!isModeratorRole(actor.role))
-    throw new Error("Editor access is required to appoint reviewers.");
+  if (actor.role !== "site_admin")
+    throw new Error("Administrator access is required to appoint reviewers.");
   if (!getWikiPage(topic) || canonicalArticleId(topic) !== topic)
     throw new Error("Choose an existing canonical topic.");
   const person = await q(

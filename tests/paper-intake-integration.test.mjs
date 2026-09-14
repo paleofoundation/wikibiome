@@ -152,10 +152,20 @@ test("real SQL workflow: independent review, stale changes, verified publication
           "nickel",
           true,
         ),
-      /Editor access/,
+      /Administrator access/,
+    );
+    await assert.rejects(
+      () =>
+        api.appointReviewer(
+          people.editor,
+          people.reviewer.orcid,
+          "nickel",
+          true,
+        ),
+      /Administrator access/,
     );
     await api.appointReviewer(
-      people.editor,
+      { ...people.editor, role: "site_admin" },
       people.reviewer.orcid,
       "nickel",
       true,

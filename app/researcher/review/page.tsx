@@ -38,8 +38,8 @@ export default async function ReviewPage() {
           <main className="paper-page">
             <h1>Review work</h1>
             <p>
-              Reviewers are appointed by editors for specific topics. Researcher
-              sign-in alone does not grant review authority.
+              Reviewers are appointed by administrators for specific topics.
+              Researcher sign-in alone does not grant review authority.
             </p>
             <a href="/researcher/submissions">View your submissions</a>
           </main>
@@ -102,15 +102,17 @@ export default async function ReviewPage() {
             </section>
             {editor && (
               <aside className="paper-side">
-                <section>
-                  <h2>Appoint a reviewer</h2>
-                  <p>
-                    The researcher must have verified their private email.
-                    Appointments grant review access only to assigned papers in
-                    the selected topic.
-                  </p>
-                  <ReviewerAppointmentForm topics={topics} />
-                </section>
+                {a.role === "site_admin" && (
+                  <section>
+                    <h2>Appoint a reviewer</h2>
+                    <p>
+                      The researcher must have verified their private email.
+                      Appointments grant review access only to assigned papers
+                      in the selected topic.
+                    </p>
+                    <ReviewerAppointmentForm topics={topics} />
+                  </section>
+                )}
                 <section>
                   <h2>Reviewer appointments</h2>
                   {roster.length ? (
