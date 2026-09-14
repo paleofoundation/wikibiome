@@ -1,6 +1,8 @@
 import Link from "@/app/_components/NativeLink";
 import { WikiHeader } from "@/app/_components/WikiArticle";
 import { getArticleMedia } from "@/lib/article-media";
+import { OrganizationDirectory } from "@/app/_components/OrganizationDirectory";
+import { searchOrganizationProfiles } from "@/lib/organization-profiles.mjs";
 import {
   categories,
   categoryLabel,
@@ -15,6 +17,7 @@ function DirectoryRail() {
     <aside className="directory-rail">
       <p>Browse WikiBiome</p>
       <Link href="/">Featured article</Link>
+      <Link href="/institutions">Organizations &amp; projects</Link>
       {categories.map((category) => <Link href={`/category/${category.id}`} key={category.id}>{category.label}<b>{getCategoryCount(category.id)}</b></Link>)}
       <div><strong>{wikiStats.totalPages}</strong><span>public articles</span><strong>{wikiStats.sources.toLocaleString()}</strong><span>indexed sources</span></div>
     </aside>
@@ -61,6 +64,7 @@ export function WikiDirectory({
             </nav>
           )}
           {!!letters.length && <nav className="letter-nav" aria-label="Available initial letters">{letters.map((letter) => <a href={`#letter-${letter}`} key={letter}>{letter}</a>)}</nav>}
+          {showSearchFilters && searchCategory === "all" && <OrganizationDirectory profiles={searchOrganizationProfiles(query)} title="Organizations & projects" />}
           <div className="directory-results">
             {pages.map((page, index) => {
               const letter = page.title[0]?.toUpperCase();

@@ -23,7 +23,7 @@ export default function SupportPage() {
       <div>
         <article><b>01</b><h3>Encyclopedia</h3><p>Explore articles and their evidence records.</p><Link href="/explore">Explore WikiBiome →</Link></article>
         <article><b>02</b><h3>Researcher network</h3><p>Find cited work and submit contributions for review.</p><Link href="/researchers">Explore researcher profiles →</Link></article>
-        <article><b>03</b><h3>Microbiome Medicine</h3><p>Learn about the organization behind WikiBiome.</p><a href="https://microbiomemedicine.com">Visit Microbiome Medicine →</a></article>
+        <article><b>03</b><h3>Microbiome Medicine</h3><p>Learn about the organization behind WikiBiome.</p><a href="/organizations/microbiome-medicine">Explore Microbiome Medicine →</a></article>
         <article><b>04</b><h3>Corrections</h3><p>Suggest a sourced correction to an encyclopedia article.</p><Link href="/contribute">Suggest an edit →</Link></article>
       </div>
     </section>

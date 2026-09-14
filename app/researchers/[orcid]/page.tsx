@@ -8,6 +8,7 @@ import { getPublicResearcher, getResearcherSession, listPublicClaimsForResearche
 import { isFollowing, listPublicRecognition } from "@/lib/research-network-v2";
 import { buildResearchImpact, researcherExpertiseClusters } from "@/lib/researcher-discovery";
 import { findPagesUsingSource, getSource } from "@/lib/wikibiome";
+import { organizationForWebsite } from "@/lib/organization-profiles.mjs";
 
 type Props = { params: Promise<{ orcid: string }> };
 export const dynamic = "force-dynamic";
@@ -57,12 +58,13 @@ export default async function ResearcherProfilePage({ params }: Props) {
 
     {researcher.associations.length > 0 && <section className="profile-associations" aria-labelledby="profile-associations-title">
       <header><h2 id="profile-associations-title">Associations</h2><p>Shared by this researcher</p></header>
-      <ul>{researcher.associations.map((association) => <li key={association.url}>
+      <ul>{researcher.associations.map((association) => { const organization = organizationForWebsite(association.url); return <li key={association.url}>
         <a href={association.url} target="_blank" rel="noopener noreferrer me ugc">
           <span><strong>{association.name}</strong><small>{new URL(association.url).hostname.replace(/^www\./, "")}</small></span>
           <span className="association-arrow" aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span>
         </a>
-      </li>)}</ul>
+        {organization && <Link className="association-profile-link" href={`/organizations/${organization.slug}`}>Explore in WikiBiome <span aria-hidden="true">→</span><span className="sr-only"> {organization.name}</span></Link>}
+      </li>; })}</ul>
     </section>}
 
     <section className="research-footprint" aria-labelledby="research-footprint-title"><header><span>Research footprint</span><h2 id="research-footprint-title">How this researcher’s verified work connects to WikiBiome</h2><p>These are evidence relationships, not popularity scores.</p></header><div><article><strong>{impact.verifiedWorks}</strong><span>verified works</span></article><article><strong>{impact.keystoneWorks}</strong><span>Keystone works</span></article><article><strong>{impact.linkedArticles}</strong><span>WikiBiome articles</span></article><article><strong>{contributionLevel || "—"}</strong><span>{contributionLevel ? "accepted contribution level" : "no accepted contributions yet"}</span></article></div></section>

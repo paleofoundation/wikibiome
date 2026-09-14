@@ -1,5 +1,6 @@
 import { allSources, allWikiPages, canonicalArticleId, categories, generatedAt } from "@/lib/wikibiome";
 import { getArticleMedia, type ArticleMedia } from "@/lib/article-media";
+import { organizationProfiles } from "@/lib/organization-profiles.mjs";
 
 const ORIGIN = "https://www.wikibiome.com";
 type SitemapEntry = {
@@ -23,6 +24,7 @@ const publicRoutes = [
   "/researchers",
   "/submit-work",
   "/institutions",
+  ...organizationProfiles.map((profile) => `/organizations/${profile.slug}`),
   "/research-standard",
   "/privacy",
   "/terms",

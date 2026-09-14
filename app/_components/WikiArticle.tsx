@@ -704,7 +704,7 @@ function WikiRail({ page }: { page: WikiPage }) {
           <a href="#references"><i>R</i>References</a>
         </nav>
       )}
-      <div className="rail-license">Open scientific education<br />from Microbiome Medicine</div>
+      <div className="rail-license">Open scientific education<br />from <Link href="/organizations/microbiome-medicine">Microbiome Medicine</Link></div>
     </aside>
   );
 }

@@ -1209,3 +1209,66 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
   .association-editor-row { grid-template-columns:minmax(0,1fr);gap:10px;padding-bottom:16px;border-bottom:1px solid #e1e8ec; }
   .association-editor-row .association-remove { justify-self:start; }
 }
+
+/* Organization profiles: a compact reference header and an open reading column. */
+.organization-page { max-width:1180px;margin:0 auto;padding:32px 28px 80px;color:#203f52;font:400 16px/1.65 Arial,Helvetica,sans-serif; }
+.organization-breadcrumb { display:flex;gap:12px;flex-wrap:wrap;color:#526b79;font-size:14px; }
+.organization-page a { color:#246584; }
+.organization-page a:hover { text-decoration:underline;text-underline-offset:4px; }
+.organization-page a:focus-visible,.organization-directory a:focus-visible { outline:2px solid #246584;outline-offset:5px; }
+.organization-heading { padding:32px 0 30px;border-bottom:2px solid #284f62; }
+.organization-eyebrow { display:block;color:#426b7c;font:600 12px/1.5 Arial,Helvetica,sans-serif;letter-spacing:.1em;text-transform:uppercase; }
+.organization-heading h1 { margin:12px 0 16px;font:400 clamp(34px,4vw,56px)/1.1 var(--serif);letter-spacing:-.025em;overflow-wrap:anywhere; }
+.organization-heading p { max-width:760px;margin:0 0 14px;font-size:18px;line-height:1.6;color:#4e6573; }
+.organization-website { display:inline-block;font-weight:600;font-size:14px; }
+.organization-layout { display:grid;grid-template-columns:250px minmax(0,1fr);gap:64px;padding-top:34px; }
+.organization-context { min-width:0; }
+.organization-context section { margin-bottom:30px; }
+.organization-context p { margin:12px 0;color:#4e6573; }
+.organization-context section:first-child { padding-left:18px;border-left:3px solid #528596; }
+.organization-context a { font-size:14px; }
+.organization-context nav { display:grid;gap:12px;padding:24px 0;border-block:1px solid #cddbe2;margin-bottom:30px; }
+.organization-related { display:block;margin-top:16px; }
+.organization-related strong,.organization-related small { display:block; }
+.organization-related small { color:#526b79;font-size:14px;line-height:1.5;margin-top:4px; }
+.organization-content { min-width:0; }
+.organization-content > section { margin-bottom:48px;scroll-margin-top:120px; }
+.organization-content h2 { margin:5px 0 12px;font:400 32px/1.2 var(--serif); }
+.organization-content h3 { margin:0;font:400 23px/1.35 var(--serif); }
+.organization-content p { color:#4e6573;margin:10px 0; }
+.organization-content > section > header { margin-bottom:22px; }
+.organization-paths > article { display:grid;grid-template-columns:32px minmax(0,1fr);gap:16px;padding:22px 0;border-top:1px solid #cddbe2; }
+.organization-path-number { padding-top:3px;color:#5a7b8c;font-size:14px; }
+.organization-paths ul { padding:0;list-style:none;display:flex;gap:10px 22px;flex-wrap:wrap;margin:13px 0 0; }
+.organization-paths li a { display:inline-block;font-size:15px;font-weight:600; }
+.organization-people { list-style:none;padding:0;margin:0; }
+.organization-people li { border-block-start:1px solid #cddbe2;padding:20px 0; }
+.organization-people li > a:first-child { display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 20px; }
+.organization-people strong { font:400 24px/1.4 var(--serif); }
+.organization-people span,.organization-people small,.organization-role { font-size:14px;color:#526b79; }
+.organization-role { display:block;margin-top:8px; }
+.organization-works { list-style:none;padding:0;margin:0; }
+.organization-works > li { padding:24px 0;border-top:1px solid #cddbe2; }
+.organization-work-meta { display:block;color:#526b79;font-size:13px;margin-bottom:10px; }
+.organization-citations { display:flex;flex-wrap:wrap;gap:8px 14px;margin-top:16px; }
+.organization-citations > span { width:100%;color:#607887;font-size:13px; }
+.organization-citations a { font-size:14px; }
+.organization-source,.organization-note { font-size:14px; }
+.organization-note { padding-top:18px;border-top:1px solid #cddbe2;margin-top:24px!important; }
+.organization-directory { margin:32px 0 48px; }
+.organization-directory h2 { font:400 32px/1.2 var(--serif);margin:0 0 20px;color:#203f52; }
+.organization-directory > div { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px; }
+.organization-directory article { border-top:1px solid #c6d5de;padding:24px 0;min-width:0; }
+.organization-directory h3 { font:400 26px/1.3 var(--serif);margin:8px 0 10px; }
+.organization-directory p { font:400 16px/1.6 Arial,Helvetica,sans-serif;color:#4e6573;margin:0 0 12px; }
+.organization-directory a { color:#246584;font-size:14px; }
+.organization-directory h3 a { font:inherit; }
+.profile-associations li a.association-profile-link { min-height:0;padding:0 4px 18px;font:600 14px/1.5 Arial,Helvetica,sans-serif;justify-content:flex-start; }
+@media(max-width:760px) {
+  .organization-page { padding:24px 20px 48px; }
+  .organization-layout { grid-template-columns:minmax(0,1fr);gap:24px; }
+  .organization-context nav { display:flex;flex-wrap:wrap;gap:12px 22px; }
+  .organization-heading h1 { font-size:36px; }
+  .organization-content h2 { font-size:28px; }
+  .organization-directory > div { grid-template-columns:minmax(0,1fr); }
+}
