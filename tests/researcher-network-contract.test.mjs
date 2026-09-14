@@ -47,6 +47,7 @@ test("applies every researcher-network migration to a clean SQLite database", ()
       "0009_massive_the_hood.sql",
       "0010_tiresome_nico_minoru.sql",
       "0011_far_freak.sql",
+      "0012_sad_rage.sql",
     ]);
     for (const migration of migrations) {
       const result = spawnSync("/usr/bin/sqlite3", [database], { input: source(`drizzle/${migration}`), encoding: "utf8" });
@@ -63,7 +64,7 @@ test("applies every researcher-network migration to a clean SQLite database", ()
       "orcid_sync_state", "researcher_works", "work_match_suggestions", "researcher_follows",
       "researcher_notifications", "content_proposals", "proposal_sources", "proposal_events",
       "message_threads", "researcher_messages", "message_reports", "roundtable_interests",
-      "recognition_events", "email_webhook_events",
+      "recognition_events", "email_webhook_events", "paper_intakes", "paper_reviewers", "paper_events", "paper_publications",
     ]) assert.match(schema.stdout, new RegExp(`table:${name}\\b`));
     for (const index of [
       "idx_source_claims_source_status", "idx_work_submissions_status", "idx_discussion_threads_target_status",
@@ -95,7 +96,7 @@ test("keeps researcher-network mutations fail-closed", () => {
   const mutations = routes.filter((path) => /export async function (?:POST|PUT|PATCH|DELETE)\b/.test(readFileSync(path, "utf8")));
   const unprotected = mutations.filter((path) => {
     const body = readFileSync(path, "utf8");
-    return !/assertSameOriginRequest|verifyResendWebhook|verifyUnsubscribeToken|WIKIBIOME_SCAN_WEBHOOK_SECRET/.test(body);
+    return !/assertSameOriginRequest|verifyResendWebhook|verifyUnsubscribeToken|WIKIBIOME_SCAN_WEBHOOK_SECRET|bridgeAuthorized/.test(body);
   });
   assert.deepEqual(unprotected, []);
 
@@ -314,7 +315,8 @@ test("recognition counts accepted quality only and remains human-gated above thr
   ]), [1, 2, 3]);
   const service = source("lib/research-network-v2.ts");
   assert.match(service, /eq\(authorReviews\.status, "accepted"\)/);
-  assert.match(service, /eq\(workSubmissions\.status, "accepted"\)/);
+  assert.match(service, /db.select\(\).from\(paperPublications\)/);
+  assert.match(service, /proposals.filter\(item => Boolean\(item.publishedCommit\)\)/);
   assert.match(service, /eq\(contentProposals\.status, "accepted"\)/);
   assert.match(service, /const unearned = \[1, 2, 3\]/);
   assert.match(service, /if \(!isModeratorRole\(account\.role\)\)/);

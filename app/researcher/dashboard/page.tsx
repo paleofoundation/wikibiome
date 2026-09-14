@@ -1,3 +1,4 @@
+import { appointed } from "@/lib/paper-intake";
 import type { Metadata } from "next";
 import Link from "@/app/_components/NativeLink";
 import { InstitutionBatchForm } from "@/app/_components/InstitutionBatchForm";
@@ -20,13 +21,14 @@ export default async function ResearcherDashboardPage() {
   if (!account) return <><WikiHeader /><main className="research-gate"><span>Researcher account</span><h1>Connect your ORCID iD.</h1><p>ORCID establishes researcher identity. WikiBiome then asks you to verify a separate private email before you can claim, post, or submit.</p><a href="/api/auth/orcid/start?returnTo=/researcher/dashboard">Continue with ORCID</a><small>Existing ChatGPT contribution history is linked when the identities are connected.</small></main></>;
 
   const [claims, submissions, institutionAccess, emailStatus, unread] = await Promise.all([listClaimsForAccount(account.accountId), listWorkSubmissions(account.accountId), listInstitutionAccess(account.accountId), getEmailVerificationStatus(account.accountId), unreadNotificationCount(account.accountId)]);
+  const canReview = isModeratorRole(account.role) || await appointed(account.accountId).catch(() => false);
   const verifiedClaims = claims.filter((claim) => claim.status === "verified");
   const placements = new Set(verifiedClaims.flatMap((claim) => findPagesUsingSource(claim.sourceId, 500).map((page) => page.id))).size;
   const keystoneWorks = verifiedClaims.filter((claim) => getSource(claim.sourceId)?.keystone).length;
   const readiness = [account.emailVerified, account.photoAvailable, Boolean(account.biography), account.expertiseSelf.length > 0, verifiedClaims.length > 0];
   const readinessCount = readiness.filter(Boolean).length;
   return (
-    <><WikiHeader /><main className="research-dashboard"><header><div><span>Researcher workspace</span><h1>{account.displayName}</h1><p><a href={`https://orcid.org/${account.orcid}`} target="_blank" rel="noreferrer">ORCID {account.orcid} ↗</a> · {account.emailVerified ? "Private email verified" : "Email verification required"}</p></div><nav><Link href="/submit-work">Submit work</Link><Link href={`/researchers/${account.orcid}`}>Public profile</Link>{isModeratorRole(account.role) && <Link href="/researcher/moderation">Moderation</Link>}<form action="/api/auth/orcid/signout" method="post"><button>Sign out</button></form></nav></header>
+    <><WikiHeader /><main className="research-dashboard"><header><div><span>Researcher workspace</span><h1>{account.displayName}</h1><p><a href={`https://orcid.org/${account.orcid}`} target="_blank" rel="noreferrer">ORCID {account.orcid} ↗</a> · {account.emailVerified ? "Private email verified" : "Email verification required"}</p></div><nav><Link href="/submit-work">Submit work</Link>{canReview && <Link href="/researcher/review">Review work</Link>}<Link href={`/researchers/${account.orcid}`}>Public profile</Link>{isModeratorRole(account.role) && <Link href="/researcher/moderation">Moderation</Link>}<form action="/api/auth/orcid/signout" method="post"><button>Sign out</button></form></nav></header>
       <ResearcherWorkspaceNav active="dashboard" unread={unread}/>
       <EmailVerificationPanel initialStatus={emailStatus}/>
       <DashboardOrcidWorks />

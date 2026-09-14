@@ -1232,7 +1232,7 @@ async function initialPostStatus(account: ResearcherSession) {
   return decision.status;
 }
 
-async function enforceRateLimit(accountId: string, action: string, limit: number, minutes: number) {
+export async function enforceRateLimit(accountId: string, action: string, limit: number, minutes: number) {
   const since = new Date(Date.now() - minutes * 60_000).toISOString();
   const db = (await getResearchDb());
   const [{ value }] = await db.select({ value: count() }).from(rateLimitEvents).where(and(eq(rateLimitEvents.accountId, accountId), eq(rateLimitEvents.action, action), gt(rateLimitEvents.createdAt, since)));

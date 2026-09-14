@@ -1,3 +1,4 @@
+import { publishedOrganizationPapers } from "@/lib/paper-intake";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "@/app/_components/NativeLink";
@@ -20,6 +21,7 @@ export default async function OrganizationPage({ params }: Props) {
   const profile = getOrganizationProfile((await params).slug);
   if (!profile) notFound();
   const researchers = (await listPublicResearcherDirectory()).filter((person) => person.associations.some((association) => organizationForWebsite(association.url)?.slug === profile.slug));
+  const affiliatedPapers = await publishedOrganizationPapers(profile.name);
   const works = profile.works.flatMap((work) => {
     const source = getSource(work.id);
     return source ? [{ ...work, source, articles: findPagesUsingSource(work.id, 3) }] : [];
@@ -30,6 +32,7 @@ export default async function OrganizationPage({ params }: Props) {
     <nav className="organization-section-nav" aria-label="On this page"><a href="#explore">Explore the science</a><a href="#evidence">Related evidence</a><a href="#researchers">People</a><a href="#about">About</a></nav>
     <section className="organization-connection"><h2>Connection to WikiBiome</h2><div><p>{profile.connection}</p><a href={profile.connectionSource}>{profile.connectionSourceLabel} ↗</a></div></section>
     <section id="explore" className="organization-explore"><header><span className="organization-eyebrow">Reading paths</span><h2>Explore the science</h2></header><div className="organization-paths">{profile.paths.map((path, index) => <article key={path.title}><span className="organization-path-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span><h3>{path.title}</h3><p>{path.description}</p><ul>{path.articles.map((id) => { const page = getWikiPage(id); return page ? <li key={id}><Link href={`/article/${canonicalArticleId(id)}`}>{page.title}<span aria-hidden="true"> →</span></Link></li> : null; })}</ul></article>)}</div></section>
+    {affiliatedPapers.length > 0 && <section className="paper-section"><h2>Papers naming this organization</h2><p>Affiliations recorded in papers whose approved evidence has been published in WikiBiome.</p>{affiliatedPapers.map(p => <article key={p.id}><h3><Link href={`/source/${p.id}`}>{p.title}</Link></h3><p>{p.status}</p></article>)}</section>}
     <div className="organization-detail-grid">
       <section id="evidence"><header><span className="organization-eyebrow">Source trail</span><h2>Related evidence</h2><p>Selected reading on these subjects. These publications are not attributed to the organization.</p></header><ol className="organization-works">{works.map((work) => <li key={work.id}><span className="organization-work-meta">{work.source.year} · {work.source.journal || "Source record"}</span><h3><Link href={`/source/${work.id}`}>{work.source.title}</Link></h3><p>{work.reason}</p>{work.articles.length > 0 && <details className="organization-citations"><summary>Articles citing this work</summary><ul>{work.articles.map((page) => <li key={page.id}><Link href={`/article/${canonicalArticleId(page.id)}`}>{page.title}</Link></li>)}</ul></details>}</li>)}</ol></section>
       <aside className="organization-sidebar">

@@ -11,6 +11,8 @@ import { findPagesUsingSource, getSource } from "@/lib/wikibiome";
 import { organizationForWebsite } from "@/lib/organization-profiles.mjs";
 import { ContributionRecognition } from "@/app/_components/ContributionRecognition";
 
+import { publishedResearcherPapers } from "@/lib/paper-intake";
+
 type Props = { params: Promise<{ orcid: string }> };
 export const dynamic = "force-dynamic";
 
@@ -26,7 +28,7 @@ export default async function ResearcherProfilePage({ params }: Props) {
   const researcher = await getPublicResearcher(orcid);
   if (!researcher) notFound();
   const viewer = await getResearcherSession();
-  const [claims, recognition, following] = await Promise.all([listPublicClaimsForResearcher(researcher.accountId), listPublicRecognition(researcher.accountId), isFollowing(viewer?.accountId, "researcher", researcher.accountId)]);
+  const [claims, recognition, following, publishedPapers] = await Promise.all([listPublicClaimsForResearcher(researcher.accountId), listPublicRecognition(researcher.accountId), isFollowing(viewer?.accountId, "researcher", researcher.accountId), publishedResearcherPapers(researcher.accountId)]);
   const impact = buildResearchImpact(claims.map((claim) => claim.sourceId));
   const inferredExpertise = [...new Set([...researcher.expertiseInferred, ...impact.inferredExpertise])];
   const contributionLevel = recognition.reduce((level, event) => Math.max(level, event.level), 0);
@@ -64,9 +66,10 @@ export default async function ResearcherProfilePage({ params }: Props) {
       </li>; })}</ul>
     </section>}
 
-    <section className="research-footprint" aria-labelledby="research-footprint-title"><header><span>Research footprint</span><h2 id="research-footprint-title">How this researcher’s verified work connects to WikiBiome</h2><p>These are evidence relationships, not popularity scores.</p></header><div><article><strong>{impact.verifiedWorks}</strong><span>verified works</span></article><article><strong>{impact.keystoneWorks}</strong><span>Keystone works</span></article><article><strong>{impact.linkedArticles}</strong><span>WikiBiome articles</span></article><article><strong>{contributionLevel || "—"}</strong><span>{contributionLevel ? "accepted contribution level" : "no accepted contributions yet"}</span></article></div></section>
+    <section className="research-footprint" aria-labelledby="research-footprint-title"><header><span>Research footprint</span><h2 id="research-footprint-title">How this researcher’s verified work connects to WikiBiome</h2><p>These are evidence relationships, not popularity scores.</p></header><div><article><strong>{impact.verifiedWorks}</strong><span>verified works</span></article><article><strong>{impact.keystoneWorks}</strong><span>Keystone works</span></article><article><strong>{impact.linkedArticles}</strong><span>WikiBiome articles</span></article><article><strong>{contributionLevel || "—"}</strong><span>{contributionLevel ? "contribution level" : "no published contributions yet"}</span></article></div></section>
 
     <ContributionRecognition recognition={recognition} />
+    {publishedPapers.length > 0 && <section className="profile-works" aria-labelledby="published-contributions-title"><header><span>Published contributions</span><h2 id="published-contributions-title">Evidence brought into WikiBiome</h2><p>Each paper counts once. Verified authorship is recorded separately below.</p></header>{publishedPapers.map((paper) => <article key={paper.id}><span>{paper.publishedAt.slice(0, 10)}</span><div><h3><Link href={`/source/${paper.id}`}>{paper.title}</Link></h3><p>{paper.status}</p><footer>{paper.targets.map((target) => <Link key={target.id} href={`/article/${target.id}`}>{target.title}</Link>)}</footer></div></article>)}</section>}
 
     <section className="profile-evidence"><aside><div><span>Evidence-derived fields</span><strong>{inferredExpertise.length}</strong></div><div><span>Self-declared fields</span><strong>{researcher.expertiseSelf.length}</strong></div><p>Claims verify authorship identity. They do not imply editorial control, copyright ownership, or endorsement of WikiBiome’s synthesis.</p></aside><div>{researcher.verifiedAffiliations.length > 0 && <section><h2>Reviewed organization associations</h2>{researcher.verifiedAffiliations.map((item) => <Link className="profile-chip verified" href={`/institutions/${item.identifier}`} key={item.identifier}>{item.name} · {item.identityStatus === "ror_verified" ? "ROR verified" : "WikiBiome reviewed"}</Link>)}</section>}<section><h2>Self-declared affiliations</h2>{researcher.affiliations.length ? researcher.affiliations.map((item) => <span className="profile-chip" key={item}>{item}</span>) : <p>None listed.</p>}</section><section><h2>Expertise inferred from verified works</h2>{inferredExpertise.length ? inferredExpertise.map((item) => { const cluster = researcherExpertiseClusters.find((candidate) => candidate.name === item); return cluster ? <Link className="profile-chip inferred" href={`/researchers?expertise=${cluster.slug}`} key={item}>{item}</Link> : <span className="profile-chip inferred" key={item}>{item}</span>; }) : <p>No evidence-derived expertise yet.</p>}</section><section><h2>Self-declared expertise</h2>{researcher.expertiseSelf.length ? researcher.expertiseSelf.map((item) => <span className="profile-chip self" key={item}>{item}</span>) : <p>None listed.</p>}</section></div></section>
 

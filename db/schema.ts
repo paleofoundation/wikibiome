@@ -536,6 +536,7 @@ export const roundtableInterests = sqliteTable("roundtable_interests", {
 }, (table) => [index("idx_roundtable_interests_status").on(table.status, table.updatedAt)]);
 
 export const recognitionEvents = sqliteTable("recognition_events", {
+  policyVersion: text("policy_version").notNull().default("legacy_acceptance"),
   id: text("id").primaryKey(),
   accountId: text("account_id").notNull(),
   level: integer("level").notNull(),
@@ -557,3 +558,35 @@ export const emailWebhookEvents = sqliteTable("email_webhook_events", {
   eventType: text("event_type").notNull(),
   createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
 }, (table) => [uniqueIndex("idx_email_webhook_events_provider").on(table.providerId, table.eventType)]);
+
+// Paper intake is separate from legacy metadata-only submissions. The canonical
+// identity and file digest are unique across users so fan-out cannot multiply credit.
+export const paperIntakes = sqliteTable("paper_intakes", {
+  id: text("id").primaryKey(), accountId: text("account_id").notNull(),
+  identityKey: text("identity_key").notNull(), title: text("title").notNull(),
+  topic: text("topic").notNull(), status: text("status").notNull().default("awaiting_file"),
+  packetJson: text("packet_json").notNull().default("{}"),
+  fileKey: text("file_key"), fileHash: text("file_hash"),
+  revision: integer("revision").notNull().default(1),
+  reviewerAccountId: text("reviewer_account_id"), editorAccountId: text("editor_account_id"),
+  createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+  updatedAt: text("updated_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, t => [uniqueIndex("idx_paper_identity").on(t.identityKey), uniqueIndex("idx_paper_hash").on(t.fileHash), index("idx_paper_owner").on(t.accountId), index("idx_paper_reviewer").on(t.reviewerAccountId), index("idx_paper_status").on(t.status)]);
+
+export const paperReviewers = sqliteTable("paper_reviewers", {
+  accountId: text("account_id").notNull(), topic: text("topic").notNull(),
+  active: integer("active", { mode: "boolean" }).notNull().default(true),
+  appointedBy: text("appointed_by").notNull(), createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, t => [uniqueIndex("idx_paper_reviewer_topic").on(t.accountId, t.topic)]);
+
+export const paperEvents = sqliteTable("paper_events", {
+  id: text("id").primaryKey(), intakeId: text("intake_id").notNull(), actorId: text("actor_id"),
+  kind: text("kind").notNull(), revision: integer("revision").notNull(),
+  detailJson: text("detail_json").notNull().default("{}"), createdAt: text("created_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, t => [index("idx_paper_events_intake").on(t.intakeId, t.createdAt)]);
+
+export const paperPublications = sqliteTable("paper_publications", {
+  sourceId: text("source_id").primaryKey(), intakeId: text("intake_id").notNull(),
+  accountId: text("account_id").notNull(), sourceCommit: text("source_commit").notNull(),
+  targetsJson: text("targets_json").notNull(), publishedAt: text("published_at").notNull().default(sql`CURRENT_TIMESTAMP`),
+}, t => [uniqueIndex("idx_paper_publication_intake").on(t.intakeId), index("idx_paper_publication_account").on(t.accountId)]);

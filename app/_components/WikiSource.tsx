@@ -1,3 +1,4 @@
+import { publishedPaperDetails } from "@/lib/paper-intake";
 import Link from "@/app/_components/NativeLink";
 import { ArticleTools } from "@/app/_components/ArticleTools";
 import { WikiHeader } from "@/app/_components/WikiArticle";
@@ -10,7 +11,7 @@ import { findPagesUsingSource, normalizeDoi, type SourceRecord } from "@/lib/wik
 export async function WikiSource({ id, source }: { id: string; source: SourceRecord }) {
   const usedBy = findPagesUsingSource(id);
   const doi = normalizeDoi(source.doi);
-  const [claims, authorContext] = await Promise.all([listPublicClaimsForSource(id), listPublicAuthorReviews(id)]);
+  const [claims, authorContext, publication] = await Promise.all([listPublicClaimsForSource(id), listPublicAuthorReviews(id), publishedPaperDetails(id)]);
 
   return (
     <>
@@ -26,6 +27,7 @@ export async function WikiSource({ id, source }: { id: string; source: SourceRec
             <ArticleTools title={source.title} canonicalPath={`/source/${id}`} updated={source.year ? `${source.year}-01-01` : undefined} kind="source" />
             <PageCollaborationBar targetType="source" targetId={id} />
           </header>
+          {publication && <section className="paper-section"><h2>Publication &amp; review status</h2><p>{publication.metadata.publicationStatus}</p><p>{publication.metadata.affiliations.join(" · ")} · {publication.metadata.license}</p><p>WikiBiome editorial acceptance concerns these article changes; it does not confer external peer-review status on the report.</p><details><summary>WikiBiome review record</summary><p>{publication.reviewNote}</p><p>{publication.editorNote}</p><small>Publication verified {publication.publishedAt}</small></details></section>}
           <div className="source-grid">
             <section className="source-citation">
               <p className="source-label">Citation record</p>

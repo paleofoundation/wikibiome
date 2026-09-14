@@ -13,6 +13,7 @@ import {
   proposalSources,
   rateLimitEvents,
   recognitionEvents,
+  paperPublications,
   researcherBlocks,
   researcherEmails,
   researcherFollows,
@@ -46,6 +47,8 @@ import {
   recognitionMilestones,
   validateProposalInput,
 } from "@/lib/research-network-v2-policy.mjs";
+
+import publicationManifest from "@/data/content-manifest.generated.json";
 
 const ONE_DAY = 86_400_000;
 const AUTO_SYNC_AGE = 7 * ONE_DAY;
@@ -551,6 +554,9 @@ export async function moderateProposal(account: ResearcherSession, input: { id: 
     const commit = cleanText(input.publishedCommit, 80);
     if (proposal.status !== "accepted") throw new Error("Only an accepted proposal can be linked to publication.");
     if (!/^[a-f0-9]{40}$/i.test(commit)) throw new Error("Add the complete upstream publication commit.");
+    const publishedPage = proposal.targetId ? getWikiPage(proposal.targetId) : null;
+    const publishedText = [publishedPage?.overview || "", ...(publishedPage?.sections || []).map(section => section.body)].join("\n");
+    if (commit !== publicationManifest.source.commit || !publishedPage || !publishedText.includes(proposal.proposedContent)) throw new Error("The current deployed corpus must contain the proposed content at its target article before publication credit is recorded.");
     await db.batch([
       db.update(contentProposals).set({ status: "accepted", publishedCommit: commit, updatedAt: now }).where(eq(contentProposals.id, id)),
       db.insert(proposalEvents).values({ id: crypto.randomUUID(), proposalId: id, actorAccountId: account.accountId, kind: "published", visibility: "public", metadataJson: JSON.stringify({ commit }) }),
@@ -759,23 +765,25 @@ export async function withdrawRoundtableInterest(account: ResearcherSession) {
 
 export async function recalculateRecognition(accountId: string) {
   const db = await getResearchDb();
-  const [reviews, submissions, proposals] = await Promise.all([
+  const [reviews, publications, proposals] = await Promise.all([
     db.select().from(authorReviews).where(and(eq(authorReviews.accountId, accountId), eq(authorReviews.status, "accepted"))),
-    db.select().from(workSubmissions).where(and(eq(workSubmissions.accountId, accountId), eq(workSubmissions.status, "accepted"))),
+    db.select().from(paperPublications).where(eq(paperPublications.accountId, accountId)),
     db.select().from(contentProposals).where(and(eq(contentProposals.accountId, accountId), eq(contentProposals.status, "accepted"))),
   ]);
+  // Accepted author context is already publicly visible. Papers require a verified
+  // deployment receipt; legacy metadata acceptance is not publication evidence.
   const contributions = [
-    ...reviews.map((item) => ({ accepted: true, type: "author_context", id: item.id, recordId: item.sourceId })),
-    ...submissions.map((item) => ({ accepted: true, type: "work_submission", id: item.id, recordId: item.identifierValue })),
-    ...proposals.map((item) => ({ accepted: true, type: "proposal", id: item.id, recordId: item.targetId || item.id })),
+    ...reviews.map(item => ({ accepted: true, type: "author_context", id: item.id, recordId: item.sourceId })),
+    ...publications.map(item => ({ accepted: true, type: "paper_publication", id: item.sourceId, recordId: item.sourceId })),
+    ...proposals.filter(item => Boolean(item.publishedCommit)).map(item => ({ accepted: true, type: "proposal", id: item.id, recordId: item.targetId || item.id })),
   ];
   const milestones = recognitionMilestones(contributions);
-  const unearned = [1, 2, 3].filter((level) => !milestones.includes(level));
-  if (unearned.length) await db.update(recognitionEvents).set({ status: "revoked", reason: "The account no longer meets this accepted-contribution milestone." }).where(and(eq(recognitionEvents.accountId, accountId), inArray(recognitionEvents.level, unearned)));
+  const unearned = [1, 2, 3].filter(level => !milestones.includes(level));
+  if (unearned.length) await db.update(recognitionEvents).set({ status: "revoked", reason: "The account no longer meets this published-contribution milestone." }).where(and(eq(recognitionEvents.accountId, accountId), eq(recognitionEvents.policyVersion, "publication_v2"), inArray(recognitionEvents.level, unearned)));
   for (const level of milestones) {
     const trigger = contributions[level === 1 ? 0 : level === 2 ? 2 : 4];
-    const reason = level === 1 ? "First accepted scientific contribution" : level === 2 ? "Three accepted contributions across at least two records" : "Five accepted contributions spanning at least two contribution types";
-    await db.insert(recognitionEvents).values({ id: crypto.randomUUID(), accountId, level, kind: "automatic_quality_milestone", sourceType: trigger?.type ?? "contribution", sourceId: trigger?.id ?? accountId, reason }).onConflictDoUpdate({ target: [recognitionEvents.accountId, recognitionEvents.level], set: { status: "active", kind: "automatic_quality_milestone", sourceType: trigger?.type ?? "contribution", sourceId: trigger?.id ?? accountId, reason } });
+    const reason = level === 1 ? "First published scientific contribution" : level === 2 ? "Three published contributions across at least two records" : "Five published contributions spanning at least two contribution types";
+    await db.insert(recognitionEvents).values({ id: crypto.randomUUID(), accountId, level, kind: "automatic_quality_milestone", policyVersion: "publication_v2", sourceType: trigger?.type ?? "contribution", sourceId: trigger?.id ?? accountId, reason }).onConflictDoUpdate({ target: [recognitionEvents.accountId, recognitionEvents.level], set: { status: "active", reason, policyVersion: "publication_v2", sourceType: trigger?.type ?? "contribution", sourceId: trigger?.id ?? accountId }, setWhere: eq(recognitionEvents.policyVersion, "publication_v2") });
   }
   return milestones;
 }
