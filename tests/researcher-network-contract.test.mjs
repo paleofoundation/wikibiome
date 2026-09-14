@@ -46,6 +46,7 @@ test("applies every researcher-network migration to a clean SQLite database", ()
       "0008_tense_luminals.sql",
       "0009_massive_the_hood.sql",
       "0010_tiresome_nico_minoru.sql",
+      "0011_far_freak.sql",
     ]);
     for (const migration of migrations) {
       const result = spawnSync("/usr/bin/sqlite3", [database], { input: source(`drizzle/${migration}`), encoding: "utf8" });
@@ -78,6 +79,7 @@ test("applies every researcher-network migration to a clean SQLite database", ()
     assert.match(eventColumns.stdout, /early_invite_consent/);
     assert.match(eventColumns.stdout, /early_invite_consented_at/);
     const profileColumns = spawnSync("/usr/bin/sqlite3", [database, "SELECT name FROM pragma_table_info('researcher_profiles') ORDER BY cid;"], { encoding: "utf8" });
+    assert.match(profileColumns.stdout, /associations_json/);
     assert.match(profileColumns.stdout, /photo_r2_key/);
     assert.match(profileColumns.stdout, /photo_alt/);
     const institutionColumns = spawnSync("/usr/bin/sqlite3", [database, "SELECT name FROM pragma_table_info('institutions') ORDER BY cid;"], { encoding: "utf8" });

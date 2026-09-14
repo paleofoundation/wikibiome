@@ -1173,3 +1173,39 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
   .researcher-next-steps li > .next-step-marker { width:28px;height:28px; }
   .researcher-next-steps .next-step-action,.researcher-next-steps li > .next-step-status { grid-column:2;justify-self:start;justify-content:flex-start; }
 }
+
+/* Researcher-owned association links. */
+.profile-associations { margin:24px 0;padding:26px 30px;border:1px solid #c6d5de;border-radius:12px;background:#fff; }
+.profile-associations > header { display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:16px; }
+.profile-associations h2 { margin:0;color:#203f52;font:400 26px/1.2 var(--serif); }
+.profile-associations > header p { margin:0;color:#607480;font:400 13px/1.5 Arial,Helvetica,sans-serif; }
+.profile-associations ul { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 28px;list-style:none;margin:0;padding:0; }
+.profile-associations li { min-width:0;border-top:1px solid #e1e8ec; }
+.profile-associations li a { display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:82px;padding:15px 4px;color:#294b5d; }
+.profile-associations li a > span:first-child { min-width:0; }
+.profile-associations strong { display:block;font:600 16px/1.4 Arial,Helvetica,sans-serif;overflow-wrap:anywhere; }
+.profile-associations small { display:block;margin-top:4px;color:#607480;font:400 14px/1.4 Arial,Helvetica,sans-serif;overflow-wrap:anywhere; }
+.profile-associations .association-arrow { flex:none;color:#47788b;font:400 21px/1 Arial,Helvetica,sans-serif; }
+.profile-associations a:hover strong { color:#226684;text-decoration:underline;text-underline-offset:4px; }
+.profile-associations a:focus-visible,.researcher-associations-editor button:focus-visible,.researcher-associations-editor input:focus-visible { outline:2px solid #2b718f;outline-offset:3px; }
+.researcher-associations-editor { margin-top:22px;padding:24px;border:1px solid #c6d5de;border-radius:12px;background:#fff;scroll-margin-top:100px; }
+.researcher-associations-editor h3 { margin:0;color:#203f52;font:400 26px/1.2 var(--serif); }
+.researcher-associations-editor header p { margin:10px 0 20px;color:#607480;font:400 14px/1.6 Arial,Helvetica,sans-serif; }
+.researcher-associations-editor fieldset { margin:0;padding:0;border:0;min-width:0; }
+.association-editor-row { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr) auto;gap:12px;align-items:end;margin-bottom:16px; }
+.association-editor-row label { display:grid;gap:7px;min-width:0;color:#39586a;font:600 14px/1.4 Arial,Helvetica,sans-serif; }
+.association-editor-row input { min-width:0;width:100%;height:44px;padding:10px;border:1px solid #b9cbd5;border-radius:6px;color:#294b5d;background:#fff;font:400 16px/1.4 Arial,Helvetica,sans-serif; }
+.researcher-associations-editor button { min-height:44px;padding:10px 14px;border:1px solid #b9cbd5;border-radius:6px;background:#fff;color:#315e75;font:600 14px/1.4 Arial,Helvetica,sans-serif;cursor:pointer; }
+.researcher-associations-editor button:disabled { opacity:.6;cursor:default; }
+.researcher-associations-editor .association-remove { border-color:transparent;color:#75616a;font-weight:400; }
+.researcher-associations-editor footer { display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-top:18px; }
+.researcher-associations-editor .association-save { background:#244f64;color:#fff;border-color:#244f64; }
+.association-empty,.association-message { color:#527163;font:400 14px/1.5 Arial,Helvetica,sans-serif; }
+.association-message.error { color:#9b3636; }
+@media(max-width:700px) {
+  .profile-associations { padding:22px 20px; }
+  .profile-associations ul { grid-template-columns:minmax(0,1fr); }
+  .researcher-associations-editor { padding:22px 18px; }
+  .association-editor-row { grid-template-columns:minmax(0,1fr);gap:10px;padding-bottom:16px;border-bottom:1px solid #e1e8ec; }
+  .association-editor-row .association-remove { justify-self:start; }
+}

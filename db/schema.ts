@@ -51,6 +51,7 @@ export const researcherProfiles = sqliteTable("researcher_profiles", {
   name: text("name").notNull(),
   biography: text("biography").notNull().default(""),
   affiliationsJson: text("affiliations_json").notNull().default("[]"),
+  associationsJson: text("associations_json").notNull().default("[]"),
   expertiseSelfJson: text("expertise_self_json").notNull().default("[]"),
   expertiseInferredJson: text("expertise_inferred_json").notNull().default("[]"),
   photoR2Key: text("photo_r2_key"),

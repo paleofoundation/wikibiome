@@ -55,6 +55,16 @@ export default async function ResearcherProfilePage({ params }: Props) {
       </nav>
     </header>
 
+    {researcher.associations.length > 0 && <section className="profile-associations" aria-labelledby="profile-associations-title">
+      <header><h2 id="profile-associations-title">Associations</h2><p>Shared by this researcher</p></header>
+      <ul>{researcher.associations.map((association) => <li key={association.url}>
+        <a href={association.url} target="_blank" rel="noopener noreferrer me ugc">
+          <span><strong>{association.name}</strong><small>{new URL(association.url).hostname.replace(/^www\./, "")}</small></span>
+          <span className="association-arrow" aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span>
+        </a>
+      </li>)}</ul>
+    </section>}
+
     <section className="research-footprint" aria-labelledby="research-footprint-title"><header><span>Research footprint</span><h2 id="research-footprint-title">How this researcher’s verified work connects to WikiBiome</h2><p>These are evidence relationships, not popularity scores.</p></header><div><article><strong>{impact.verifiedWorks}</strong><span>verified works</span></article><article><strong>{impact.keystoneWorks}</strong><span>Keystone works</span></article><article><strong>{impact.linkedArticles}</strong><span>WikiBiome articles</span></article><article><strong>{contributionLevel || "—"}</strong><span>{contributionLevel ? "accepted contribution level" : "no accepted contributions yet"}</span></article></div></section>
 
     <section className="profile-recognition"><div><span>Accepted contribution recognition</span><strong aria-label={`${contributionLevel} contribution stars`}>{contributionLevel ? "★".repeat(contributionLevel) : "Not yet awarded"}</strong><p>Authorship claims and Keystone designations are shown in the research footprint above. Stars separately recognize accepted author context, submissions, and proposals; there is no leaderboard.</p></div>{recognition.length > 0 && <ol>{recognition.map((event) => <li key={event.id}><b>{event.level} star{event.level === 1 ? "" : "s"}</b><span>{event.reason}</span></li>)}</ol>}<a href="/terms#recognition">Recognition criteria and appeals →</a></section>

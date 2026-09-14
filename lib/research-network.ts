@@ -1,3 +1,4 @@
+import { normalizeResearcherAssociations, readResearcherAssociations, type ResearcherAssociation } from "@/lib/researcher-associations.mjs";
 import { cookies } from "next/headers";
 import { and, asc, count, desc, eq, gt, inArray, isNull, lt, or } from "drizzle-orm";
 import {
@@ -53,6 +54,7 @@ export type ResearcherSession = {
   orcid: string;
   biography: string;
   affiliations: string[];
+  associations: ResearcherAssociation[];
   expertiseSelf: string[];
   expertiseInferred: string[];
   photoAvailable: boolean;
@@ -74,6 +76,7 @@ export type PublicResearcher = {
   name: string;
   biography: string;
   affiliations: string[];
+  associations: ResearcherAssociation[];
   verifiedAffiliations: Array<{ name: string; identifier: string; ror: string | null; identityStatus: string; websiteUrl: string | null }>;
   expertiseSelf: string[];
   expertiseInferred: string[];
@@ -224,6 +227,7 @@ async function getResearcherSessionFromToken(token: string): Promise<ResearcherS
     orcid: profile.orcid,
     biography: profile.biography,
     affiliations: parseStringArray(profile.affiliationsJson),
+    associations: readResearcherAssociations(profile.associationsJson),
     expertiseSelf: parseStringArray(profile.expertiseSelfJson),
     expertiseInferred: parseStringArray(profile.expertiseInferredJson),
     photoAvailable: Boolean(profile.photoR2Key),
@@ -337,19 +341,22 @@ export async function updateResearcherAccount(accountId: string, input: {
   name?: unknown;
   biography?: unknown;
   affiliations?: unknown;
+  associations?: unknown;
   expertise?: unknown;
 }) {
   const name = cleanText(input.name, 180);
   const biography = cleanText(input.biography, 3000);
   const affiliations = cleanStringList(input.affiliations, 12, 180);
   const expertise = cleanStringList(input.expertise, 20, 100);
+  const associations = input.associations === undefined ? undefined : normalizeResearcherAssociations(input.associations);
   const db = (await getResearchDb());
   if (name) await db.update(accounts).set({ displayName: name, updatedAt: new Date().toISOString() }).where(eq(accounts.id, accountId));
   await db.update(researcherProfiles).set({
     ...(name ? { name } : {}),
-    biography,
-    affiliationsJson: JSON.stringify(affiliations),
-    expertiseSelfJson: JSON.stringify(expertise),
+    ...(input.biography !== undefined ? { biography } : {}),
+    ...(input.affiliations !== undefined ? { affiliationsJson: JSON.stringify(affiliations) } : {}),
+    ...(input.expertise !== undefined ? { expertiseSelfJson: JSON.stringify(expertise) } : {}),
+    ...(associations !== undefined ? { associationsJson: JSON.stringify(associations) } : {}),
     updatedAt: new Date().toISOString(),
   }).where(eq(researcherProfiles.accountId, accountId));
   await recordAudit(accountId, "profile.updated", "account", accountId, {});
@@ -1196,6 +1203,7 @@ function publicResearcher(account: typeof accounts.$inferSelect, profile: typeof
     name: profile.name,
     biography: profile.biography,
     affiliations: parseStringArray(profile.affiliationsJson),
+    associations: readResearcherAssociations(profile.associationsJson),
     verifiedAffiliations,
     expertiseSelf: parseStringArray(profile.expertiseSelfJson),
     expertiseInferred: parseStringArray(profile.expertiseInferredJson),
