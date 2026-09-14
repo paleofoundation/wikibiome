@@ -30,5 +30,9 @@ test("organization discovery supports website queries and does not invent profil
   assert.equal(searchOrganizationProfiles("contaminant standards")[0]?.slug, "contaminant-standards");
   assert.deepEqual(searchOrganizationProfiles(""), []);
   assert.deepEqual(searchOrganizationProfiles("unrelated association"), []);
+  assert.deepEqual(searchOrganizationProfiles("?!"), []);
+  assert.ok(searchOrganizationProfiles("signatures").some((profile) => profile.slug === "microbiome-medicine"));
+  assert.ok(searchOrganizationProfiles("laboratory reports").some((profile) => profile.slug === "tecrid"));
+  assert.ok(searchOrganizationProfiles("infant food").some((profile) => profile.slug === "heavy-metal-index"));
   assert.equal(getOrganizationProfile("missing"), undefined);
 });

@@ -9,6 +9,7 @@ import { isFollowing, listPublicRecognition } from "@/lib/research-network-v2";
 import { buildResearchImpact, researcherExpertiseClusters } from "@/lib/researcher-discovery";
 import { findPagesUsingSource, getSource } from "@/lib/wikibiome";
 import { organizationForWebsite } from "@/lib/organization-profiles.mjs";
+import { ContributionRecognition } from "@/app/_components/ContributionRecognition";
 
 type Props = { params: Promise<{ orcid: string }> };
 export const dynamic = "force-dynamic";
@@ -57,19 +58,15 @@ export default async function ResearcherProfilePage({ params }: Props) {
     </header>
 
     {researcher.associations.length > 0 && <section className="profile-associations" aria-labelledby="profile-associations-title">
-      <header><h2 id="profile-associations-title">Associations</h2><p>Shared by this researcher</p></header>
+      <header><h2 id="profile-associations-title">Associations</h2><p>Shared by the researcher</p></header>
       <ul>{researcher.associations.map((association) => { const organization = organizationForWebsite(association.url); return <li key={association.url}>
-        <a href={association.url} target="_blank" rel="noopener noreferrer me ugc">
-          <span><strong>{association.name}</strong><small>{new URL(association.url).hostname.replace(/^www\./, "")}</small></span>
-          <span className="association-arrow" aria-hidden="true">↗</span><span className="sr-only"> (opens in a new tab)</span>
-        </a>
-        {organization && <Link className="association-profile-link" href={`/organizations/${organization.slug}`}>Explore in WikiBiome <span aria-hidden="true">→</span><span className="sr-only"> {organization.name}</span></Link>}
+        {organization ? <><Link className="association-name" href={`/organizations/${organization.slug}`} title={`Explore ${association.name} in WikiBiome`}>{association.name}</Link><a className="association-website" href={association.url} target="_blank" rel="noopener noreferrer me ugc" aria-label={`Visit ${association.name} website (opens in a new tab)`} title={`Visit ${new URL(association.url).hostname}`}><span aria-hidden="true">↗</span></a></> : <a className="association-name" href={association.url} target="_blank" rel="noopener noreferrer me ugc">{association.name}<span aria-hidden="true"> ↗</span><span className="sr-only"> (opens in a new tab)</span></a>}
       </li>; })}</ul>
     </section>}
 
     <section className="research-footprint" aria-labelledby="research-footprint-title"><header><span>Research footprint</span><h2 id="research-footprint-title">How this researcher’s verified work connects to WikiBiome</h2><p>These are evidence relationships, not popularity scores.</p></header><div><article><strong>{impact.verifiedWorks}</strong><span>verified works</span></article><article><strong>{impact.keystoneWorks}</strong><span>Keystone works</span></article><article><strong>{impact.linkedArticles}</strong><span>WikiBiome articles</span></article><article><strong>{contributionLevel || "—"}</strong><span>{contributionLevel ? "accepted contribution level" : "no accepted contributions yet"}</span></article></div></section>
 
-    <section className="profile-recognition"><div><span>Accepted contribution recognition</span><strong aria-label={`${contributionLevel} contribution stars`}>{contributionLevel ? "★".repeat(contributionLevel) : "Not yet awarded"}</strong><p>Authorship claims and Keystone designations are shown in the research footprint above. Stars separately recognize accepted author context, submissions, and proposals; there is no leaderboard.</p></div>{recognition.length > 0 && <ol>{recognition.map((event) => <li key={event.id}><b>{event.level} star{event.level === 1 ? "" : "s"}</b><span>{event.reason}</span></li>)}</ol>}<a href="/terms#recognition">Recognition criteria and appeals →</a></section>
+    <ContributionRecognition recognition={recognition} />
 
     <section className="profile-evidence"><aside><div><span>Evidence-derived fields</span><strong>{inferredExpertise.length}</strong></div><div><span>Self-declared fields</span><strong>{researcher.expertiseSelf.length}</strong></div><p>Claims verify authorship identity. They do not imply editorial control, copyright ownership, or endorsement of WikiBiome’s synthesis.</p></aside><div>{researcher.verifiedAffiliations.length > 0 && <section><h2>Reviewed organization associations</h2>{researcher.verifiedAffiliations.map((item) => <Link className="profile-chip verified" href={`/institutions/${item.identifier}`} key={item.identifier}>{item.name} · {item.identityStatus === "ror_verified" ? "ROR verified" : "WikiBiome reviewed"}</Link>)}</section>}<section><h2>Self-declared affiliations</h2>{researcher.affiliations.length ? researcher.affiliations.map((item) => <span className="profile-chip" key={item}>{item}</span>) : <p>None listed.</p>}</section><section><h2>Expertise inferred from verified works</h2>{inferredExpertise.length ? inferredExpertise.map((item) => { const cluster = researcherExpertiseClusters.find((candidate) => candidate.name === item); return cluster ? <Link className="profile-chip inferred" href={`/researchers?expertise=${cluster.slug}`} key={item}>{item}</Link> : <span className="profile-chip inferred" key={item}>{item}</span>; }) : <p>No evidence-derived expertise yet.</p>}</section><section><h2>Self-declared expertise</h2>{researcher.expertiseSelf.length ? researcher.expertiseSelf.map((item) => <span className="profile-chip self" key={item}>{item}</span>) : <p>None listed.</p>}</section></div></section>
 

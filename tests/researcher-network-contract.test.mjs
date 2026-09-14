@@ -371,7 +371,8 @@ test("keeps research impact distinct from contribution recognition and avoids po
   const directory = source("app/researchers/page.tsx");
   const discovery = source("lib/researcher-discovery.ts");
   assert.match(profile, /These are evidence relationships, not popularity scores/);
-  assert.match(profile, /Stars separately recognize accepted author context, submissions, and proposals/);
+  assert.match(profile, /<ContributionRecognition recognition=\{recognition\}/);
+  assert.match(source("app/_components/ContributionRecognition.tsx"), /ORCID imports, authorship verification, and Keystone works are counted separately/);
   assert.match(directory, /not from popularity/);
   assert.match(discovery, /keystoneWorks/);
   assert.match(discovery, /linkedArticles/);
