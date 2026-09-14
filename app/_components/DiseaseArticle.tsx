@@ -1,6 +1,6 @@
 import Link from "@/app/_components/NativeLink";
 import { ArticleMediaFigure } from "@/app/_components/ArticleMediaFigure";
-import { ArticleTools } from "@/app/_components/ArticleTools";
+import { ArticleUtilityPanel } from "@/app/_components/ArticleUtilityPanel";
 import { ResearchDiscussion } from "@/app/_components/ResearchDiscussion";
 import { PageActivityTrail, PageCollaborationBar } from "@/app/_components/PageCollaboration";
 import { prepareArticleSections } from "@/lib/content-model";
@@ -193,7 +193,6 @@ function DiseaseInfobox({ record }: { record: DiseaseRecord }) {
           <div><dt>Signals</dt><dd>{totalSignals} indexed observations</dd></div>
           <div><dt>References</dt><dd>{evidence.references.length} unique records</dd></div>
           <div><dt>Reconciled</dt><dd>{record.contentRecordCount} source pages</dd></div>
-          <div><dt>Last reviewed</dt><dd>{formatDate(record.updated)}</dd></div>
         </dl>
         <div className="signature-completeness">
           <span>Signature coverage</span>
@@ -293,10 +292,6 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
               <a href="#signature">Signature <b>{namedLayers}/5</b></a>
               <a href="#article">Article</a>
               <a href="#references">Evidence <b>{evidence.references.length}</b></a>
-              <Link href={`/article/${page.id}/history`}>History</Link>
-              <Link href={`/article/${page.id}/suggest`}>Suggest edit</Link>
-              <span>Updated {formatDate(record.updated)}</span>
-              <ArticleTools title={page.title} canonicalPath={`/article/${page.id}`} updated={record.updated} />
             </div>
             <PageCollaborationBar targetType="article" targetId={page.id} />
           </header>
@@ -396,7 +391,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
                 <span>{evidence.references.length} references · {record.contentRecordCount} content records · {wikiStats.totalPages} corpus pages</span>
               </footer>
             </article>
-            <DiseaseInfobox record={record} />
+            <div className="article-right-column"><ArticleUtilityPanel title={page.title} pageId={page.id} updated={record.updated}/><DiseaseInfobox record={record} /></div>
           </div>
         </main>
       </div>

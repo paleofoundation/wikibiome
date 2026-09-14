@@ -1,7 +1,7 @@
 import type { ReactNode } from "react";
 import Link from "@/app/_components/NativeLink";
 import { ArticleMediaFigure } from "@/app/_components/ArticleMediaFigure";
-import { ArticleTools } from "@/app/_components/ArticleTools";
+import { ArticleUtilityPanel } from "@/app/_components/ArticleUtilityPanel";
 import { ResearchDiscussion } from "@/app/_components/ResearchDiscussion";
 import { ResearcherAccountControl } from "@/app/_components/ResearcherAccountControl";
 import { PageActivityTrail, PageCollaborationBar } from "@/app/_components/PageCollaboration";
@@ -732,7 +732,6 @@ function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCou
           <div><dt>Domain</dt><dd><Link href={`/category/${page.category}`}>{categoryLabel(page.category)}</Link></dd></div>
           <div><dt>Record type</dt><dd>{schema.label} · {subtype}</dd></div>
           <div><dt>References</dt><dd>{referenceCount} generated records</dd></div>
-          <div><dt>Last reviewed</dt><dd>{formatDate(page.updated)}</dd></div>
         </dl>
         {!!metalDependencies.length && <div className="fact-list"><span>Metal dependencies</span>{metalDependencies.slice(0, 6).map((item) => {
           const id = slugify(item);
@@ -799,10 +798,6 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
               <a className="active" href="#article">Article</a>
               <a href="#connections">Connections <b>{page.related?.length ?? 0}</b></a>
               <a href="#references">Evidence <b>{referenceCount}</b></a>
-              <Link href={`/article/${page.id}/history`}>History <b>{history.revisions.length}</b></Link>
-              <Link href={`/article/${page.id}/suggest`}>Suggest edit</Link>
-              <span>Updated {formatDate(page.updated)}</span>
-              <ArticleTools title={page.title} canonicalPath={`/article/${page.id}`} updated={page.updated} />
             </div>
             <PageCollaborationBar targetType="article" targetId={page.id} />
           </header>
@@ -865,7 +860,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
                 <span>{referenceCount} references · {page.backlinks?.length ?? 0} backlinks · {page.tags?.length ?? 0} indexed topics</span>
               </footer>
             </article>
-            <ArticleInfobox page={page} referenceCount={referenceCount} />
+            <div className="article-right-column"><ArticleUtilityPanel title={page.title} pageId={page.id} updated={page.updated}/><ArticleInfobox page={page} referenceCount={referenceCount} /></div>
           </div>
         </main>
       </div>

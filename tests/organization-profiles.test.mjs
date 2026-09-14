@@ -36,3 +36,17 @@ test("organization discovery supports website queries and does not invent profil
   assert.ok(searchOrganizationProfiles("infant food").some((profile) => profile.slug === "heavy-metal-index"));
   assert.equal(getOrganizationProfile("missing"), undefined);
 });
+
+test("researcher queries follow public website associations, including mixed subject queries", () => {
+  const people = [
+    { name: "Karen Pendergrass", orcid: "0000-0002-2348-7259", associations: organizationProfiles.map((profile) => ({ url: profile.website })) },
+    { name: "Alex Researcher", orcid: "test-orcid", associations: [{ url: "https://microbiomemedicine.com/" }] },
+    { name: "Unlinked Person", orcid: "no-links", associations: [] },
+  ];
+  assert.equal(searchOrganizationProfiles("karen pendergrass", people).length, 4);
+  assert.equal(searchOrganizationProfiles("0000-0002-2348-7259", people).length, 4);
+  assert.deepEqual(searchOrganizationProfiles("Alex Researcher", people).map((profile) => profile.slug), ["microbiome-medicine"]);
+  assert.deepEqual(searchOrganizationProfiles("Alex signatures", people).map((profile) => profile.slug), ["microbiome-medicine"]);
+  assert.deepEqual(searchOrganizationProfiles("Unlinked Person", people), []);
+  assert.deepEqual(searchOrganizationProfiles("Karen", []), []);
+});
