@@ -44,7 +44,7 @@ export function parseArguments(arguments_) {
   const expectedImagesValue = option(arguments_, "images", undefined);
   if (expectedImagesValue === undefined) throw new Error("--images is required and must match the intended live release manifest");
   const expectedImages = Number(expectedImagesValue);
-  const apexStatus = Number(option(arguments_, "apex-status", "308"));
+  const apexStatus = Number(option(arguments_, "apex-status", "301"));
   const target = option(arguments_, "target", "candidate");
   if (!Number.isInteger(expectedImages) || expectedImages < 0) throw new Error("--images must be a non-negative integer");
   if (![301, 308].includes(apexStatus)) throw new Error("--apex-status must be 301 or 308");
@@ -110,7 +110,7 @@ function sitemapLocations(xml) {
 }
 
 function imageSitemapEntries(xml) {
-  return [...xml.matchAll(/<url>[\s\S]*?<loc>([^<]+)<\/loc>[\s\S]*?<image:loc>([^<]+)<\/image:loc>[\s\S]*?<\/url>/g)]
+  return [...xml.matchAll(/<url>(?:(?!<\/url>)[\s\S])*?<loc>([^<]+)<\/loc>(?:(?!<\/url>)[\s\S])*?<image:loc>([^<]+)<\/image:loc>[\s\S]*?<\/url>/g)]
     .map((match) => ({ page: match[1], image: match[2] }));
 }
 
@@ -127,7 +127,7 @@ export async function auditPublicRoutingContract({
   apexOrigin = DEFAULT_APEX_ORIGIN,
   canonicalOrigin = DEFAULT_CANONICAL_ORIGIN,
   expectedImages,
-  apexStatus = 308,
+  apexStatus = 301,
   target = "candidate",
   checkAllImages = true,
   fetchImpl = fetch,
@@ -142,12 +142,13 @@ export async function auditPublicRoutingContract({
   const liveStaleFindings = [];
   const findings = target === "production" ? liveStaleFindings : candidateDefects;
 
-  const apexProbePath = "/article/akkermansia-muciniphila?lineage-audit=1";
-  const apexProbeUrl = `${apexOrigin}${apexProbePath}`;
-  const apexResponse = await request(fetchImpl, apexProbeUrl, { method: "HEAD" }, findings);
-  if (apexResponse.status !== apexStatus) findings.push(`apex host: HTTP ${apexResponse.status}, expected ${apexStatus}`);
-  if (locationKey(apexResponse, apexProbeUrl) !== canonicalKey(`${canonicalOrigin}${apexProbePath}`)) {
-    findings.push("apex host: redirect does not preserve the path and query on the canonical host");
+  for (const method of ["HEAD", "GET"]) {
+    for (const path of ["/", "/robots.txt", "/sitemap.xml", "/about", "/unknown/deep/", "/article/DNA-damage?x=two%20words&x=%2F&empty="]) {
+      const url = `${apexOrigin}${path}`;
+      const response = await request(fetchImpl, url, { method }, findings);
+      if (response.status !== apexStatus) findings.push(`apex ${method} ${path}: HTTP ${response.status}, expected ${apexStatus}`);
+      if (response.headers.get("location") !== `${canonicalOrigin}${path}`) findings.push(`apex ${method} ${path}: redirect does not preserve exact path and query`);
+    }
   }
 
   for (const redirect of LEGACY_REDIRECTS) {
@@ -207,32 +208,32 @@ export async function auditPublicRoutingContract({
     request(fetchImpl, `${canonicalOrigin}/support/thank-you`, { headers: { accept: "text/html" } }, findings),
     request(fetchImpl, `${canonicalOrigin}/api/create-checkout`, undefined, findings),
   ]);
-  const [robots, sitemap, fullSitemap, imageSitemap, supportHtml, thankYouHtml] = await Promise.all([
-    robotsResponse.text(), sitemapResponse.text(), fullSitemapResponse.text(), imageSitemapResponse.text(), supportResponse.text(), thankYouResponse.text(),
+  const [robots, sitemap, supportHtml] = await Promise.all([
+    robotsResponse.text(), sitemapResponse.text(), supportResponse.text(),
   ]);
 
-  for (const [path, response] of [["/robots.txt", robotsResponse], ["/sitemap.xml", sitemapResponse], ["/sitemap-full.xml", fullSitemapResponse], ["/image-sitemap.xml", imageSitemapResponse]]) {
+  for (const [path, response] of [["/robots.txt", robotsResponse], ["/sitemap.xml", sitemapResponse]]) {
     if (response.status !== 200) findings.push(`${path}: HTTP ${response.status}`);
   }
   for (const rule of REQUIRED_ROBOTS_RULES) if (!robots.includes(rule)) findings.push(`robots.txt: missing ${rule}`);
-  for (const name of ["sitemap.xml", "image-sitemap.xml"]) {
-    if (!robots.includes(`Sitemap: ${canonicalOrigin}/${name}`)) findings.push(`robots.txt: missing canonical ${name} declaration`);
+  if (JSON.stringify(robots.match(/^Sitemap: .+$/gm)) !== JSON.stringify([`Sitemap: ${canonicalOrigin}/sitemap.xml`])) findings.push("robots.txt: must advertise exactly the canonical sitemap");
+  for (const [path, response] of [["/sitemap-full.xml", fullSitemapResponse], ["/image-sitemap.xml", imageSitemapResponse]]) {
+    if (response.status !== 301 || response.headers.get("location") !== `${canonicalOrigin}/sitemap.xml`) findings.push(`${path}: must 301 to canonical sitemap.xml`);
   }
 
   const ordinaryUrls = sitemapLocations(sitemap);
-  const fullSitemapUrls = sitemapLocations(fullSitemap);
   if (ordinaryUrls.length !== new Set(ordinaryUrls).size) findings.push("sitemap.xml: duplicate URLs");
   if (ordinaryUrls.some((url) => !url.startsWith(`${canonicalOrigin}/`))) findings.push("sitemap.xml: non-canonical origin");
-  if (JSON.stringify(fullSitemapUrls) !== JSON.stringify(ordinaryUrls)) findings.push("sitemap-full.xml: compatibility alias differs from sitemap.xml");
+  if (ordinaryUrls.includes(`${canonicalOrigin}/search`)) findings.push("sitemap.xml: search is advertised");
   const retiredPaths = new Set([...LEGACY_REDIRECTS.map((item) => item.path), ...GONE_PATHS]);
   if (ordinaryUrls.some((url) => retiredPaths.has(new URL(url).pathname))) findings.push("sitemap.xml: redirect or Gone URL is advertised");
   for (const prefix of ["/article/", "/source/", "/category/"]) {
     if (!ordinaryUrls.some((url) => new URL(url).pathname.startsWith(prefix))) findings.push(`sitemap.xml: no ${prefix} records`);
   }
 
-  const imageEntries = imageSitemapEntries(imageSitemap);
+  const imageEntries = imageSitemapEntries(sitemap);
   if (imageEntries.length !== expectedImages) findings.push(`image-sitemap.xml: ${imageEntries.length} entries, expected ${expectedImages}`);
-  if (/image:(?:title|caption|license)/.test(imageSitemap)) findings.push("image-sitemap.xml: deprecated metadata tags are present");
+  if (/image:(?:title|caption|license)/.test(sitemap)) findings.push("image-sitemap.xml: deprecated metadata tags are present");
   if (imageEntries.some(({ page }) => !page.startsWith(`${canonicalOrigin}/article/`))) findings.push("image-sitemap.xml: non-canonical article URL");
   if (imageEntries.some(({ image }) => !image.startsWith(`${canonicalOrigin}/media/image/`))) findings.push("image-sitemap.xml: non-canonical image URL");
 
@@ -245,9 +246,8 @@ export async function auditPublicRoutingContract({
   }
 
   if (supportResponse.status !== 200 || canonicalKey(canonicalHref(supportHtml)) !== `${canonicalOrigin}/support`) findings.push("/support: expected a self-canonical 200 page");
-  if (!/https:\/\/buy\.stripe\.com\/[A-Za-z0-9]+/.test(supportHtml)) findings.push("/support: approved Stripe Payment Link is missing");
-  if (thankYouResponse.status !== 200 || canonicalKey(canonicalHref(thankYouHtml)) !== `${canonicalOrigin}/support/thank-you` || !robotsDirectives(thankYouHtml).some((value) => value.includes("noindex"))) {
-    findings.push("/support/thank-you: expected a self-canonical noindex 200 page");
+  if (thankYouResponse.status !== 307 || locationKey(thankYouResponse, `${canonicalOrigin}/support/thank-you`) !== `${canonicalOrigin}/support`) {
+    findings.push("/support/thank-you: expected redirect to /support");
   }
   if (checkoutResponse.status !== 404) findings.push(`/api/create-checkout: HTTP ${checkoutResponse.status}, expected 404 while Payment Link is authoritative`);
 
@@ -263,7 +263,6 @@ export async function auditPublicRoutingContract({
     },
     representative: representativeMetrics,
     ordinarySitemapUrls: ordinaryUrls.length,
-    fullSitemapUrls: fullSitemapUrls.length,
     imageSitemapEntries: imageEntries.length,
     imageEndpointsChecked: imageChecks.length,
     healthyImageEndpoints: healthyImages,

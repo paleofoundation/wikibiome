@@ -3,9 +3,13 @@
 import content from "../data/content.generated.json" with { type: "json" };
 import articleAliasRegistry from "../data/article-id-aliases.json" with { type: "json" };
 
-const workerUrl = new URL("../dist/server/index.js", import.meta.url);
-workerUrl.searchParams.set("audit", `${process.pid}-${Date.now()}`);
-const { default: worker } = await import(workerUrl.href);
+const externalBaseUrl = process.argv.find(value => value.startsWith("--base-url="))?.slice("--base-url=".length).replace(/\/+$/, "");
+let worker;
+if (!externalBaseUrl) {
+  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+  workerUrl.searchParams.set("audit", `${process.pid}-${Date.now()}`);
+  ({ default: worker } = await import(workerUrl.href));
+}
 
 const diseaseIds = new Set(content.pages.filter((page) => page.category === "disease").map((page) => page.id));
 const normalizeId = (value) => String(value).replace(/\.md$/i, "").toLowerCase().trim().replace(/\s+/g, "-").replace(/[^a-z0-9-]/g, "");
@@ -100,7 +104,7 @@ function auditArticleReadability(pathname, html) {
 }
 
 async function render(pathname) {
-  const response = await worker.fetch(
+  const response = externalBaseUrl ? await fetch(`${externalBaseUrl}${pathname}`, { redirect: "manual", headers: { accept: "text/html" } }) : await worker.fetch(
     new Request(`http://localhost${pathname}`, { headers: { accept: "text/html" } }),
     { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
     { waitUntil() {}, passThroughOnException() {} },

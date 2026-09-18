@@ -3,6 +3,7 @@ import { notFound, permanentRedirect } from "next/navigation";
 import { DiseaseArticle } from "@/app/_components/DiseaseArticle";
 import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiArticle } from "@/app/_components/WikiArticle";
+import { isIndexableArticle } from "@/lib/article-indexing";
 import { getArticleMedia } from "@/lib/article-media";
 import { articleStructuredData, publicPageMetadata } from "@/lib/search-discovery";
 import { canonicalArticleAliasId, canonicalDiseaseId, getDiseaseRecord, getWikiPage, normalizeWikiId, plainText } from "@/lib/wikibiome";
@@ -26,6 +27,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     description,
     path: `/article/${canonicalId}`,
     type: "article",
+    index: isIndexableArticle(page),
     ...(media
       ? { image: { url: media.socialSrc, width: media.socialWidth, height: media.socialHeight, alt: media.alt } }
       : {}),

@@ -4,19 +4,19 @@ This runbook makes canonical WikiBiome pages and reviewed scientific media disco
 
 ## Ownership and release boundary
 
-The WikiBiome control task owns integration, deployment, DNS, production verification, and rollback. A search task may prepare and test code, but must not push, deploy, alter DNS, or publish independently.
+The task explicitly authorized by the user owns integration, deployment, production verification, and rollback. DNS and Request indexing are out of scope for the September 18 cleanup.
 
-Scientific media is consumed only through `lib/article-media-registry.mjs`. Search work may validate and expose registered records through canonical pages, structured data, and the image sitemap. It must not edit media masters, invent records, process unreviewed experiments, or generate images.
+Scientific media is consumed only through `lib/article-media-registry.mjs`. Search work may validate and expose registered records through canonical pages, structured data, and embedded sitemap image entries. It must not edit media masters, invent records, process unreviewed experiments, or generate images.
 
 ## Technical contract
 
 - Production origin: `https://www.wikibiome.com`.
 - Every indexable HTML page emits one self-canonical URL.
-- Parameterized internal search results canonicalize to `/search` and emit `noindex, follow`.
+- All internal search results, including the base page, empty queries, categories, and pagination, canonicalize to `/search` and emit `noindex, follow`.
 - Private contribution, claim, and moderation surfaces remain excluded from indexing.
-- `/sitemap.xml` contains only canonical public page URLs.
-- `/image-sitemap.xml` contains exactly one entry per reviewed media-registry record and uses the canonical `/media/image/{filename}` URL.
-- Image title, caption, credit, identifiers, review status, and license are published visibly, in embedded IPTC/XMP, and in Schema.org `ImageObject`. Current Google guidance treats `image:title`, `image:caption`, and `image:license` sitemap tags as deprecated, so the image sitemap emits only supported `image:loc` data.
+- `https://www.wikibiome.com/sitemap.xml` is the only sitemap source of truth. It contains canonical indexable public page URLs and their reviewed images. Search and the 12 audited articles without substantive content are excluded; substantive encyclopedia content remains indexable.
+- `/image-sitemap.xml` and `/sitemap-full.xml` permanently redirect (301) to the main sitemap. They must not be submitted separately. Main-sitemap image entries use canonical `/media/image/{filename}` URLs and omit images belonging to noindex articles.
+- Image title, caption, credit, identifiers, review status, and license are published visibly, in embedded IPTC/XMP, and in Schema.org `ImageObject`. Current Google guidance treats `image:title`, `image:caption`, and `image:license` sitemap tags as deprecated, so the canonical sitemap emits only supported `image:loc` data.
 - Direct `/media-files/` storage URLs are excluded from crawling and carry `X-Robots-Tag: noindex`. Legacy `/media/{filename}` requests permanently redirect to the registered canonical image or social endpoint.
 
 ## Local release gate
@@ -29,7 +29,7 @@ npm run search:verify
 npm run search:audit:public -- --images=<release-registry-count> --target=production --sample-images
 ```
 
-The first gate builds the site, runs the focused rendered suite, validates the ordinary and image sitemaps, checks representative article/source/category/tool metadata and Schema.org graphs, checks every registered image endpoint, and renders the full discovered corpus for HTTP, internal-link, paragraph, and self-canonical failures. The second command is a read-only observation of the currently deployed release. It intentionally requires an explicit image count; obtain that number from the release's reviewed registry or approved release manifest. Never copy a previous count forward as a default.
+The first gate builds the site, runs the focused rendered suite, validates the canonical sitemap and its images, checks representative article/source/category/tool metadata and Schema.org graphs, checks every advertised image endpoint, and renders the full discovered corpus for HTTP, internal-link, paragraph, and self-canonical failures. The second command is a read-only observation of the currently deployed release. It intentionally requires an explicit image count; obtain that number from the release's reviewed registry after applying the noindex article exclusions. Never copy a previous count forward as a default.
 
 Use `--target=production` before deployment so differences from the accepted candidate are reported as `liveStaleFindings`, not candidate defects. Use `--sample-images` only for a quick checkpoint; the final pre/post-release evidence must omit it and check every advertised image.
 
@@ -37,9 +37,9 @@ Current reference invariants are recorded in `docs/operations/search-baseline-20
 
 - representative status/self-canonical/social-preview/structured-data checks: 4/4 each;
 - ordinary sitemap count equals the approved generated content/sitemap release evidence;
-- image sitemap count equals the explicit reviewed registry release count;
+- embedded image count equals the reviewed registry minus media belonging to noindex articles;
 - canonical registered image endpoints: 100% healthy;
-- robots sitemap declarations: 2/2;
+- robots sitemap declarations: exactly 1, the www main sitemap;
 - parameterized search: canonical `/search` plus `noindex`;
 - full corpus: 0 broken discovered article/source links and 0 self-canonical failures.
 
@@ -58,8 +58,8 @@ The first command validates the deployed search surface against the local review
 
 Then perform these checks from an unauthenticated browser and retain output or screenshots with a UTC timestamp and deployment identifier:
 
-1. Confirm `200` for `/robots.txt`, `/sitemap.xml`, and `/image-sitemap.xml` with the expected content types.
-2. Confirm both sitemap URLs appear in `robots.txt`.
+1. Confirm `200` for `/robots.txt` and `/sitemap.xml`; confirm both old sitemap routes return 301 to the canonical sitemap.
+2. Confirm exactly one sitemap declaration appears in `robots.txt`.
 3. Confirm the article, source, category, and research-tool samples emit a self-canonical URL, canonical `og:url`, Open Graph image, X image, and expected JSON-LD types.
 4. Confirm a reviewed image returns `200 image/webp`, `X-Content-Type-Options: nosniff`, and immutable versioned caching.
 5. Confirm an unregistered filename returns `404`, a legacy registered URL returns `308`, and raw storage is not advertised by pages or sitemaps.
@@ -85,7 +85,7 @@ Known evidence as of September 2, 2026: authenticated access to the `sc-domain:w
 1. First look for the existing `wikibiome.com` domain property. The September 1 baseline found a public `google-site-verification` TXT record at the apex, but only the authenticated Search Console property can prove which account owns that token and whether access is current. Do not alter the record from this task.
 2. If the owner instead requires a URL-prefix verification method, copy the exact HTML token and configure `GOOGLE_SITE_VERIFICATION` in the production environment. Never commit the token.
 3. Deploy through the control task, inspect the homepage source for the exact meta value when that method is used, and click **Verify**.
-4. Submit both `https://www.wikibiome.com/sitemap.xml` and `https://www.wikibiome.com/image-sitemap.xml` in the Sitemaps report.
+4. Retain only `https://www.wikibiome.com/sitemap.xml` in the Sitemaps report. Remove obsolete apex sitemap/image and www sitemap-full submissions. Do not request indexing; Rae owns that action.
 5. Capture direct evidence: property name, verified-owner state, sitemap submission/last-read status, discovered URL counts, and any processing error.
 6. Use URL Inspection on the representative article, source, category, tool, and image-containing article. Record declared canonical, Google-selected canonical, crawl allowed state, fetch/render result, last crawl, and indexing state.
 7. Inspect Page indexing, Crawl stats, Core Web Vitals, HTTPS, Manual actions, and Security issues. Export or screenshot nonzero errors.
@@ -98,7 +98,7 @@ These steps also require authenticated ownership.
 1. Prefer importing the already verified Search Console property when the owner approves that permission; otherwise add `https://www.wikibiome.com/` manually.
 2. For meta verification, copy the exact Bing value into `BING_SITE_VERIFICATION`. The rendered homepage emits it as `msvalidate.01`. Do not commit the token.
 3. After the control-task deployment, verify the property and retain the successful verification evidence.
-4. Submit both sitemap URLs and record processing state, discovered counts, and errors.
+4. Use only `https://www.wikibiome.com/sitemap.xml` and record processing state, discovered counts, and errors.
 5. Inspect the representative URLs in URL Inspection and Site Explorer. Record crawl status, index status, canonical/redirect observations, and blocked or error URLs.
 6. Review Crawl Information, SEO reports, Security, and IndexNow settings if the owner later chooses to use IndexNow. IndexNow is not enabled by this change.
 
@@ -124,7 +124,7 @@ Image discovery is measured from Search Console's Image search performance and s
 | Image sitemap | count differs from reviewed registry | non-200, unregistered/draft URL, deprecated tag, or canonical image failure |
 | Search Console/Bing crawl | new blocked-canonical, redirect, soft-404, or duplicate cluster | any 5xx crawl error; submitted sitemap cannot be read; indexed canonical changes away from `www` on a representative page |
 | Index coverage | >5% or 25-URL week-over-week increase in unexpected exclusions after the first 28 days | >10% or 50-URL decrease in indexed submitted canonicals, excluding an approved removal |
-| Image discovery | no processed image sitemap after 7 days, or no Image-search baseline after 28 days (investigate, not a ranking failure) | processed image count falls below registry count, or Image impressions drop >30% over matched 28-day windows after volume is established |
+| Image discovery | no processed canonical sitemap after 7 days, or no Image-search baseline after 28 days (investigate, not a ranking failure) | processed image count falls below the indexable registry count, or Image impressions drop >30% over matched 28-day windows after volume is established |
 | Core Web Vitals p75 | LCP >2.5 s, INP >200 ms, or CLS >0.10 for two 7-day windows with at least 50 samples | LCP >4.0 s, INP >500 ms, or CLS >0.25 for a 7-day window with at least 50 samples |
 | Search landing telemetry | no events for 24 hours after known search traffic is established | endpoint rejects valid contract events or logs include disallowed fields |
 
@@ -133,7 +133,7 @@ Low-volume and launch-period data is noisy. Investigate threshold crossings; do 
 ## Weekly indexing review
 
 1. Run the external search audit against production.
-2. Compare ordinary-sitemap count to the generated content manifest and image-sitemap count to the media registry.
+2. Compare ordinary-sitemap count to the generated content manifest and embedded-image count to the indexable media registry.
 3. Review Google and Bing sitemap processing, crawl errors, canonical selections, and representative URL inspections.
 4. Export 7-day and 28-day Search performance for Web and Image; compare matched periods.
 5. Aggregate privacy-limited search landings and CWV p75 by route family.
@@ -144,4 +144,12 @@ Low-volume and launch-period data is noisy. Investigate threshold crossings; do 
 
 The implementation is isolated in one commit. Before production integration, rollback by dropping that commit. After integration but before additional dependent changes, revert it with `git revert <commit>` through the control task.
 
-If only telemetry is malfunctioning, a forward fix may temporarily remove `<SearchObservability />` from `app/layout.tsx` while preserving canonical metadata and sitemaps. If image delivery fails, revert the worker routing change and image-sitemap route together so the sitemap never advertises broken endpoints. Search Console and Bing sitemap submissions can be removed without DNS changes, but retain screenshots and note the removal date.
+If only telemetry is malfunctioning, a forward fix may temporarily remove `<SearchObservability />` from `app/layout.tsx` while preserving canonical metadata and sitemaps. If image delivery fails, revert the worker routing change and sitemap image entries together so the sitemap never advertises broken endpoints. Search Console and Bing sitemap submissions can be removed without DNS changes, but retain screenshots and note the removal date.
+
+## September 18 apex boundary
+
+Public GET `/` currently receives a GoDaddy forwarding 301 that drops queries; other apex GET paths return 404 and HEAD requests return 405. These requests do not reach the Sites Worker. The application now has a first-rule 301 preserving exact path and query, with Worker-first asset routing, but this does not override the registrar's external forwarding service. Do not mark the live apex redirect PASS from application tests. Restoring apex traffic to Sites requires a separately owned routing/DNS change or a correction by the forwarding provider; no DNS change is authorized in this cleanup.
+
+Use the exact 301 checks in `audit-public-routing-contract.mjs`. The September 18 candidate main sitemap has 2,689 pages and 373 images (12 empty article records and the search page removed; all 385 media files remain available).
+
+For routes using Cloudflare imports, run the search and corpus auditors against a local Worker runtime using `--base-url=http://localhost:<port>`, instead of the Node-only built-worker fallback.

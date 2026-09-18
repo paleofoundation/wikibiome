@@ -29,19 +29,17 @@ function fixtureFetch({ brokenRedirect = false } = {}) {
     { page: `${canonical}/article/one`, image: `${canonical}/media/image/one.webp` },
     { page: `${canonical}/article/two`, image: `${canonical}/media/image/two.webp` },
   ];
-  const sitemap = `<?xml version="1.0"?><urlset><url><loc>${canonical}/article/one</loc></url><url><loc>${canonical}/source/one</loc></url><url><loc>${canonical}/category/microbe</loc></url></urlset>`;
-  const imageSitemap = `<?xml version="1.0"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${images.map(({ page, image }) => `<url><loc>${page}</loc><image:image><image:loc>${image}</image:loc></image:image></url>`).join("")}</urlset>`;
+  const sitemap = `<?xml version="1.0"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${images.map(({ page, image }) => `<url><loc>${page}</loc><image:image><image:loc>${image}</image:loc></image:image></url>`).join("")}<url><loc>${canonical}/source/one</loc></url><url><loc>${canonical}/category/microbe</loc></url></urlset>`;
   const robots = [
     "User-agent: *",
     "Allow: /",
     ...ROUTING_ROBOTS_DISALLOWS.map((path) => `Disallow: ${path}`),
     `Sitemap: ${canonical}/sitemap.xml`,
-    `Sitemap: ${canonical}/image-sitemap.xml`,
   ].join("\n");
 
   return async (input) => {
     const url = new URL(input);
-    if (url.origin === apex) return new Response(null, { status: 308, headers: { location: `${canonical}${url.pathname}${url.search}` } });
+    if (url.origin === apex) return new Response(null, { status: 301, headers: { location: `${canonical}${url.pathname}${url.search}` } });
     const redirect = redirects.get(url.pathname);
     if (redirect) return new Response(null, { status: brokenRedirect ? 200 : redirect.status, headers: { location: `${canonical}${redirect.destination}` } });
     if (GONE_PATHS.includes(url.pathname)) {
@@ -50,11 +48,10 @@ function fixtureFetch({ brokenRedirect = false } = {}) {
     if (url.pathname === "/article/lineage-audit-record-that-does-not-exist") return new Response(`<!doctype html><title>Not found</title><meta name="robots" content="noindex, follow"><link rel="canonical" href="${canonical}/404">`, { status: 404 });
     if (url.pathname === "/robots.txt") return new Response(robots);
     if (url.pathname === "/sitemap.xml") return new Response(sitemap);
-    if (url.pathname === "/sitemap-full.xml") return new Response(sitemap);
-    if (url.pathname === "/image-sitemap.xml") return new Response(imageSitemap);
+    if (["/sitemap-full.xml", "/image-sitemap.xml"].includes(url.pathname)) return new Response(null, { status: 301, headers: { location: `${canonical}/sitemap.xml` } });
     if (url.pathname.startsWith("/media/image/")) return new Response(null, { headers: { "content-type": "image/webp", "cache-control": "public, max-age=31536000, immutable" } });
     if (url.pathname === "/support") return new Response(`${metadata("/support", [])}<a href="https://buy.stripe.com/example">Support</a>`);
-    if (url.pathname === "/support/thank-you") return new Response(metadata("/support/thank-you", [], { noindex: true }));
+    if (url.pathname === "/support/thank-you") return new Response(null, { status: 307, headers: { location: "/support" } });
     if (url.pathname === "/api/create-checkout") return new Response(null, { status: 404 });
     const representative = {
       "/article/akkermansia-muciniphila": ["WebPage", "Article", "ImageObject"],

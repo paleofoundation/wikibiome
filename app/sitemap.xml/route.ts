@@ -1,8 +1,9 @@
-import { allSources, allWikiPages, canonicalArticleId, categories, generatedAt } from "@/lib/wikibiome";
+import { allSources, allWikiPages, canonicalArticleId, categories, generatedAt, getWikiPage } from "@/lib/wikibiome";
 import { getArticleMedia, type ArticleMedia } from "@/lib/article-media";
 import { organizationProfiles } from "@/lib/organization-profiles.mjs";
 
-const ORIGIN = "https://www.wikibiome.com";
+import { PUBLIC_ORIGIN as ORIGIN } from "@/lib/search-discovery";
+import { isIndexableArticle } from "@/lib/article-indexing";
 type SitemapEntry = {
   path: string;
   lastmod?: string;
@@ -12,7 +13,6 @@ type SitemapEntry = {
 const publicRoutes = [
   "/",
   ...[...categories.map((category) => `/category/${category.id}`), "/category/other", "/category/reference"],
-  "/search",
   "/explore",
   "/clusters",
   "/compare",
@@ -35,6 +35,8 @@ export function GET() {
   const articleMap = new Map<string, string>();
   for (const page of allWikiPages) {
     const id = canonicalArticleId(page.id);
+    const canonicalPage = getWikiPage(id);
+    if (!canonicalPage || !isIndexableArticle(canonicalPage)) continue;
     const updated = validDate(page.updated) ?? validDate(generatedAt) ?? new Date().toISOString();
     const existing = articleMap.get(id);
     if (!existing || updated > existing) articleMap.set(id, updated);
@@ -48,7 +50,7 @@ export function GET() {
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.map((entry) => {
     const media = entry.media;
-    const image = media ? `<image:image><image:loc>${escapeXml(`${ORIGIN}${media.src}`)}</image:loc><image:title>${escapeXml(media.title)}</image:title><image:caption>${escapeXml(media.caption)}</image:caption><image:license>${escapeXml(media.license)}</image:license></image:image>` : "";
+    const image = media ? `<image:image><image:loc>${escapeXml(`${ORIGIN}${media.src}`)}</image:loc></image:image>` : "";
     return `  <url><loc>${escapeXml(`${ORIGIN}${entry.path}`)}</loc>${entry.lastmod ? `<lastmod>${escapeXml(entry.lastmod)}</lastmod>` : ""}${image}<changefreq>${entry.path === "/" ? "daily" : "weekly"}</changefreq><priority>${entry.priority}</priority></url>`;
   }).join("\n")}\n</urlset>\n`;
   return new Response(xml, { headers: { "content-type": "application/xml; charset=utf-8", "cache-control": "public, max-age=3600" } });

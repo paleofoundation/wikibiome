@@ -3,13 +3,12 @@ import { WikiDirectory } from "@/app/_components/WikiDirectory";
 import { publicPageMetadata } from "@/lib/search-discovery";
 import { searchWiki, wikiStats } from "@/lib/wikibiome";
 
-export async function generateMetadata({ searchParams }: { searchParams: Promise<{ q?: string }> }): Promise<Metadata> {
-  const { q } = await searchParams;
+export function generateMetadata(): Metadata {
   return publicPageMetadata({
     title: "Search WikiBiome",
     description: `Search ${wikiStats.totalPages} evidence-linked microbiome articles.`,
     path: "/search",
-    index: !q?.trim(),
+    index: false,
   });
 }
 

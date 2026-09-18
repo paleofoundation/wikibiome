@@ -37,11 +37,14 @@ const registeredMedia = new Map<string, "image" | "social">(
 const worker = {
   async fetch(request: Request, env: Env, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
-    const routingPolicyResponse = await handleEarlyRoutingPolicy(
-      request,
-      (canonicalSitemapRequest: Request) => handler.fetch(canonicalSitemapRequest, env, ctx),
-    );
+    const routingPolicyResponse = await handleEarlyRoutingPolicy(request);
     if (routingPolicyResponse) return routingPolicyResponse;
+
+    // Worker-first routing lets apex assets redirect too. Framework build assets
+    // must then go directly to the asset binding instead of the app router.
+    if (["GET", "HEAD"].includes(request.method) && url.pathname.startsWith("/_next/static/") && env?.ASSETS) {
+      return env.ASSETS.fetch(request);
+    }
 
     if (url.pathname.startsWith("/media/") && url.pathname.endsWith(".webp")) {
       const canonicalMatch = url.pathname.match(/^\/media\/(image|social)\/([^/]+\.webp)$/);

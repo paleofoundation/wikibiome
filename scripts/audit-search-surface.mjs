@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import content from "../data/content.generated.json" with { type: "json" };
 import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { articleAliasRedirects } from "../lib/article-alias-redirects.mjs";
 import {
@@ -118,18 +119,17 @@ const [robotsResponse, sitemapResponse, imageSitemapResponse, searchResponse] = 
   fetchPath("/image-sitemap.xml"),
   fetchPath("/search?q=nickel", { headers: { accept: "text/html" } }),
 ]);
-const [robots, sitemap, imageSitemap, searchHtml] = await Promise.all([
+const [robots, sitemap, searchHtml] = await Promise.all([
   robotsResponse.text(),
   sitemapResponse.text(),
-  imageSitemapResponse.text(),
   searchResponse.text(),
 ]);
 
 if (robotsResponse.status !== 200) failures.push(`/robots.txt: HTTP ${robotsResponse.status}`);
 if (sitemapResponse.status !== 200) failures.push(`/sitemap.xml: HTTP ${sitemapResponse.status}`);
-if (imageSitemapResponse.status !== 200) failures.push(`/image-sitemap.xml: HTTP ${imageSitemapResponse.status}`);
+if (imageSitemapResponse.status !== 301 || imageSitemapResponse.headers.get("location") !== `${PUBLIC_ORIGIN}/sitemap.xml`) failures.push("image-sitemap.xml must redirect to the sole sitemap");
 if (!robots.includes(`Sitemap: ${PUBLIC_ORIGIN}/sitemap.xml`)) failures.push("robots.txt does not advertise the ordinary sitemap");
-if (!robots.includes(`Sitemap: ${PUBLIC_ORIGIN}/image-sitemap.xml`)) failures.push("robots.txt does not advertise the image sitemap");
+if (JSON.stringify(robots.match(/^Sitemap: .+$/gm)) !== JSON.stringify([`Sitemap: ${PUBLIC_ORIGIN}/sitemap.xml`])) failures.push("robots.txt must advertise only the canonical sitemap");
 for (const path of ROUTING_ROBOTS_DISALLOWS) {
   if (!robots.includes(`Disallow: ${path}`)) failures.push(`robots.txt does not include required exclusion ${path}`);
 }
@@ -138,14 +138,16 @@ const ordinaryUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) =
 if (ordinaryUrls.length !== new Set(ordinaryUrls).size) failures.push("ordinary sitemap contains duplicate URLs");
 if (ordinaryUrls.some((url) => !url.startsWith(`${PUBLIC_ORIGIN}/`))) failures.push("ordinary sitemap contains a non-canonical origin");
 
-const imagePageUrls = [...imageSitemap.matchAll(/<url>[\s\S]*?<loc>([^<]+)<\/loc>[\s\S]*?<image:loc>([^<]+)<\/image:loc>[\s\S]*?<\/url>/g)]
+const imagePageUrls = [...sitemap.matchAll(/<url>(?:(?!<\/url>)[\s\S])*?<loc>([^<]+)<\/loc>(?:(?!<\/url>)[\s\S])*?<image:loc>([^<]+)<\/image:loc>[\s\S]*?<\/url>/g)]
   .map((match) => ({ page: match[1], image: match[2] }));
+const emptyArticleIds = new Set(content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content")).map(page => page.id));
 const expectedImageEntries = Object.values(articleMediaRegistry)
+  .filter(media => !emptyArticleIds.has(media.pageId))
   .map((media) => ({ page: `${PUBLIC_ORIGIN}/article/${media.pageId}`, image: `${PUBLIC_ORIGIN}${media.src}` }))
   .sort((a, b) => a.page.localeCompare(b.page));
 const actualImageEntries = imagePageUrls.toSorted((a, b) => a.page.localeCompare(b.page));
 if (JSON.stringify(actualImageEntries) !== JSON.stringify(expectedImageEntries)) failures.push("image sitemap does not exactly match the reviewed media registry");
-if (/image:(?:title|caption|license)/.test(imageSitemap)) failures.push("image sitemap emits deprecated metadata tags");
+if (/image:(?:title|caption|license)/.test(sitemap)) failures.push("image sitemap emits deprecated metadata tags");
 
 const imageChecks = await Promise.all(expectedImageEntries.map(async (entry) => {
   const path = new URL(entry.image).pathname;
@@ -168,9 +170,13 @@ if (canonicalKey(searchCanonical) !== `${PUBLIC_ORIGIN}/search`) failures.push("
 if (!/<meta\s+name="robots"\s+content="[^"]*noindex/i.test(searchHtml)) failures.push("parameterized search is not noindex");
 
 const sitemapFullResponse = await fetchPath("/sitemap-full.xml");
-const sitemapFull = await sitemapFullResponse.text();
-if (sitemapFullResponse.status !== 200) failures.push(`/sitemap-full.xml: HTTP ${sitemapFullResponse.status}`);
-if (sitemapFull !== sitemap) failures.push("/sitemap-full.xml does not delegate to canonical sitemap.xml");
+if (sitemapFullResponse.status !== 301 || sitemapFullResponse.headers.get("location") !== `${PUBLIC_ORIGIN}/sitemap.xml`) failures.push("sitemap-full.xml must redirect to the sole sitemap");
+if (ordinaryUrls.includes(`${PUBLIC_ORIGIN}/search`)) failures.push("search must not appear in the sitemap");
+for (const path of ["/search", "/search?category=microbe", "/search?q=&category=microbe", "/search?page=2"]) {
+  const response = await fetchPath(path);
+  const html = await response.text();
+  if (response.status !== 200 || !/<meta name="robots" content="noindex, follow"/.test(html)) failures.push(`${path}: expected noindex search`);
+}
 
 const redirectChecks = [
   ...SIGNATURE_EXPLORER_REDIRECTS.map(({ source: path, destination: location, status }) => ({ path, location, status })),

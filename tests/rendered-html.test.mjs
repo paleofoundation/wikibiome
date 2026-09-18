@@ -5920,12 +5920,12 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
     render("/image-sitemap.xml"),
     render("/robots.txt"),
   ]);
-  for (const response of [privacyResponse, termsResponse, contactResponse, sitemapResponse, imageSitemapResponse, robotsResponse]) {
+  for (const response of [privacyResponse, termsResponse, contactResponse, sitemapResponse, robotsResponse]) {
     assert.equal(response.status, 200);
   }
 
-  const [privacy, terms, contact, sitemap, imageSitemap, robots] = await Promise.all([
-    privacyResponse.text(), termsResponse.text(), contactResponse.text(), sitemapResponse.text(), imageSitemapResponse.text(), robotsResponse.text(),
+  const [privacy, terms, contact, sitemap, robots] = await Promise.all([
+    privacyResponse.text(), termsResponse.text(), contactResponse.text(), sitemapResponse.text(), robotsResponse.text(),
   ]);
   assert.match(privacy, /Signed-in contributions/);
   assert.match(privacy, /privacy@wikibiome\.com/);
@@ -5939,22 +5939,20 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
   assert.match(sitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/article\/nickel<\/loc>/);
   assert.match(sitemap, /xmlns:image="http:\/\/www\.google\.com\/schemas\/sitemap-image\/1\.1"/);
-  assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
+  const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const emptyIds = new Set(content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content")).map(page => page.id));
+  assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.values(articleMediaRegistry).filter(media => !emptyIds.has(media.pageId)).length);
   assert.match(sitemap, /<image:loc>https:\/\/www\.wikibiome\.com\/media\/image\/nickel-technical-specimen-v2\.webp<\/image:loc>/);
   assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae|bifidobacterium-infantis|candida-auris|candida-glabrata|clostridiales|clostridium-difficile)[^<]*<\/image:loc>/);
   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/source\/ahmed-2025-metals-alzheimers-mechanistic-review<\/loc>/);
   assert.ok((sitemap.match(/<url>/g) ?? []).length > 2_500);
-  assert.match(imageSitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
-  assert.equal((imageSitemap.match(/<image:image>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
-  assert.equal((imageSitemap.match(/<url>/g) ?? []).length, Object.keys(articleMediaRegistry).length);
-  assert.match(imageSitemap, /<loc>https:\/\/www\.wikibiome\.com\/article\/akkermansia-muciniphila<\/loc>/);
-  assert.match(imageSitemap, /<image:loc>https:\/\/www\.wikibiome\.com\/media\/image\/akkermansia-muciniphila-morphology-v2\.webp<\/image:loc>/);
-  assert.doesNotMatch(imageSitemap, /image:(?:title|caption|license)/);
-  assert.doesNotMatch(imageSitemap, /social\.webp|unreviewed|draft/i);
+  assert.equal(imageSitemapResponse.status, 301);
+  assert.equal(imageSitemapResponse.headers.get("location"), `${PUBLIC_ORIGIN}/sitemap.xml`);
+  assert.doesNotMatch(sitemap, /image:(?:title|caption|license)/);
   assert.match(robots, /Disallow: \/api\//);
   assert.match(robots, /Disallow: \/media-files\//);
   assert.match(robots, /Sitemap: https:\/\/www\.wikibiome\.com\/sitemap\.xml/);
-  assert.match(robots, /Sitemap: https:\/\/www\.wikibiome\.com\/image-sitemap\.xml/);
+  assert.equal((robots.match(/^Sitemap: /gm) ?? []).length, 1);
 
   const redirects = [
     ["/matrix", "/clusters"],
@@ -6034,9 +6032,8 @@ test("serves sitemap compatibility and merged robots exclusions at the worker bo
     render("/robots.txt"),
   ]);
   assert.equal(canonicalSitemapResponse.status, 200);
-  assert.equal(compatibilitySitemapResponse.status, 200);
-  assert.match(compatibilitySitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
-  assert.equal(await compatibilitySitemapResponse.text(), await canonicalSitemapResponse.text());
+  assert.equal(compatibilitySitemapResponse.status, 301);
+  assert.equal(compatibilitySitemapResponse.headers.get("location"), `${PUBLIC_ORIGIN}/sitemap.xml`);
 
   assert.equal(robotsResponse.status, 200);
   const robots = await robotsResponse.text();
@@ -6045,7 +6042,7 @@ test("serves sitemap compatibility and merged robots exclusions at the worker bo
   }
   assert.equal((robots.match(/^Disallow: /gm) ?? []).length, new Set(ROUTING_ROBOTS_DISALLOWS).size);
   assert.match(robots, new RegExp(`^Sitemap: ${escapeRegExp(PUBLIC_ORIGIN)}/sitemap\\.xml$`, "m"));
-  assert.match(robots, new RegExp(`^Sitemap: ${escapeRegExp(PUBLIC_ORIGIN)}/image-sitemap\\.xml$`, "m"));
+  assert.equal((robots.match(/^Sitemap: /gm) ?? []).length, 1);
 });
 
 test("publishes self-canonical metadata, social previews, and representative Schema.org graphs", async () => {
@@ -6397,4 +6394,63 @@ test("binds generated content to the fetched upstream commit", () => {
   assert.equal(manifest.audit.malformedDois.length, 0);
   assert.equal(manifest.audit.invalidSourceYears.length, 0);
   assert.equal(manifest.audit.resolvedSourceAliasIds.length, 55);
+});
+
+
+test("withholds search variants and only audited empty articles from indexing and sitemap", async () => {
+  const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+  const empty = content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content"));
+  assert.equal(empty.length, 12);
+  const sitemap = await (await render("/sitemap.xml")).text();
+  for (const path of ["/search", "/search?q=", "/search?category=microbe", "/search?q=&category=microbe", "/search?page=2", ...empty.map(page => `/article/${page.id}`)]) {
+    const response = await render(path);
+    assert.equal(response.status, 200, path);
+    const html = await response.text();
+    assert.deepEqual(htmlRobotsMeta(html), ["noindex, follow"], path);
+    assert.equal(htmlCanonical(html), `${PUBLIC_ORIGIN}${path.split("?")[0]}`);
+    assert.ok(!sitemap.includes(`<loc>${PUBLIC_ORIGIN}${path.split("?")[0]}</loc>`), path);
+  }
+  for (const path of ["/article/nickel", "/article/gut-microbiome", "/article/zinc-supplementation"]) {
+    const response = await render(path);
+    assert.equal(response.status, 200);
+    assert.doesNotMatch(await response.text(), /<meta name="robots" content="noindex/);
+    assert.ok(sitemap.includes(`<loc>${PUBLIC_ORIGIN}${path}</loc>`));
+  }
+});
+
+test("301 redirects every apex path and method before application routing", async () => {
+  const { default: worker } = await import(new URL("../dist/server/index.js", import.meta.url));
+  const paths = ["/", "/robots.txt", "/sitemap.xml", "/about", "/unknown/deep/path/", "/article/DNA-damage", "/og-blue.png", "/a%20b/?x=two%20words&x=%2F&empty="];
+  for (const method of ["GET", "HEAD"]) {
+    for (const path of paths) {
+      const response = await worker.fetch(new Request(`https://wikibiome.com${path}`, { method }), {}, {});
+      assert.equal(response.status, 301, `${method} ${path}`);
+      assert.equal(response.headers.get("location"), `${PUBLIC_ORIGIN}${path}`);
+      assert.equal(await response.text(), "");
+    }
+  }
+});
+
+test("serves framework assets through the worker after the apex guard", async () => {
+  const { default: worker } = await import(new URL("../dist/server/index.js", import.meta.url));
+  const assetPaths = ["/_next/static/chunks/example.js", "/_next/static/chunks/example.css", "/_next/static/fonts/example.woff2"];
+  for (const method of ["GET", "HEAD"]) {
+    for (const path of assetPaths) {
+      let calls = 0;
+      const env = { ASSETS: { fetch: async (request) => {
+        calls += 1;
+        assert.equal(new URL(request.url).pathname, path);
+        assert.equal(request.method, method);
+        return new Response(method === "HEAD" ? null : "asset", { headers: { "x-test-asset": "served" } });
+      } } };
+      const response = await worker.fetch(new Request(`${PUBLIC_ORIGIN}${path}`, { method }), env, {});
+      assert.equal(response.status, 200);
+      assert.equal(response.headers.get("x-test-asset"), "served");
+      assert.equal(calls, 1);
+      const apex = await worker.fetch(new Request(`https://wikibiome.com${path}`, { method }), env, {});
+      assert.equal(apex.status, 301);
+      assert.equal(apex.headers.get("location"), `${PUBLIC_ORIGIN}${path}`);
+      assert.equal(calls, 1, "apex must redirect before the asset lookup");
+    }
+  }
 });
