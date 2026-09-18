@@ -1376,23 +1376,26 @@ a.ecology-node:hover { border-color:rgba(103,216,222,.68);background:linear-grad
 .article-header > .article-tabs,.article-header > .collaboration-bar { position:relative;z-index:5; }
 .collaboration-bar > .follow-control { display:inline-flex;align-items:center; }
 .article-right-column { min-width:0;background:#f9fbfd; }
-.article-utility-panel { margin:24px 18px 0;padding:20px;border:1px solid #c3d3df;border-radius:10px;background:#fff;color:#24465b;font:400 14px/1.5 Arial,Helvetica,sans-serif; }
-.article-utility-panel h2 { margin:0;font:400 24px/1.25 var(--serif); }
-.article-utility-panel header p { margin:8px 0 16px;color:#536b7c;font-size:14px; }
-.article-utility-panel time { color:#294e65; }
-.article-utility-panel .article-tools { display:block;margin:0;width:100%; }
-.article-utility-panel .article-tools > summary { display:flex;justify-content:center;min-height:44px;padding:10px 14px;border:1px solid #305e79;border-radius:6px;background:#305e79;color:#fff;font:600 14px/1.5 Arial,Helvetica,sans-serif;text-transform:none;letter-spacing:0;white-space:normal; }
-.article-utility-panel .article-tools > summary:hover,.article-utility-panel .article-tools[open] > summary { background:#244a62;color:#fff;border-color:#244a62; }
-.article-utility-panel .article-tools-panel { position:static;inset:auto!important;width:100%;margin-top:12px;padding:0;border:0;border-radius:0;box-shadow:none;background:#fff;backdrop-filter:none;overflow:visible; }
+.article-utility-panel { margin:24px 18px 0;padding:16px 0;border:0;border-top:1px solid #d9e4ed;border-radius:0;background:transparent;color:#536b7c;font:400 14px/1.5 Arial,Helvetica,sans-serif; }
+.article-utility-panel h2 { margin:0;color:#536b7c;font:500 14px/1.5 Arial,Helvetica,sans-serif; }
+.article-utility-panel header p { margin:4px 0 8px;color:#536b7c;font-size:14px; }
+.article-utility-panel time { color:inherit; }
+.article-utility-panel .article-tools { display:block;margin:4px 0 0;width:100%; }
+.article-utility-panel .article-tools > summary { display:flex;justify-content:flex-start;gap:8px;width:max-content;max-width:100%;min-height:36px;padding:6px 0;border:0;border-radius:0;background:transparent;color:#536b7c;font:400 14px/1.5 Arial,Helvetica,sans-serif;text-transform:none;letter-spacing:0;white-space:normal; }
+.article-utility-panel .article-tools > summary > span { display:none; }
+.article-utility-panel .article-tools > summary::after { content:"+";font-size:14px;line-height:1; }
+.article-utility-panel .article-tools[open] > summary::after { content:"−"; }
+.article-utility-panel .article-tools > summary:hover,.article-utility-panel .article-tools[open] > summary { background:transparent;color:#244a62;text-decoration:underline;text-underline-offset:3px; }
+.article-utility-panel .article-tools-panel { position:static;inset:auto!important;width:100%;margin-top:4px;padding:0;border:0;border-radius:0;box-shadow:none;background:transparent;backdrop-filter:none;overflow:visible; }
 .article-utility-panel .article-tools-panel header { display:none; }
 .article-utility-panel .article-tools-panel button { min-height:54px;padding:12px 0;grid-template-columns:24px minmax(0,1fr); }
-.article-utility-panel .article-tools-panel button b { font-size:14px; }
+.article-utility-panel .article-tools-panel button b { font-size:14px;font-weight:400; }
 .article-utility-panel .article-tools-panel button small { font-size:12px;color:#536b7c; }
 .article-utility-panel .article-tools-panel button > span { border:0;border-radius:0;font-size:18px; }
 .article-utility-panel .article-tools-panel nav { flex-wrap:wrap; }
 .article-utility-panel .article-tools-panel nav a { width:42px;height:42px;font-size:14px; }
 .article-utility-panel .article-tools-panel > p { font-size:12px;color:#536b7c; }
-.article-utility-panel > nav { display:flex;flex-wrap:wrap;gap:10px 20px;margin-top:16px; }
+.article-utility-panel > nav { display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:8px; }
 .article-utility-panel > nav a { color:#2c617f;font-size:14px; }
 .article-utility-panel :is(a,button,summary):focus-visible { outline:2px solid #246584;outline-offset:3px; }
 @media(max-width:950px) {
