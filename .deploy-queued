@@ -1,1 +1,3 @@
-cd ~/Documents/Raw && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod && date > .last-deploy
+# WB-COST-KILL-1: old queued deployment retired.
+# One merged release PR -> one Sites publish. See DEPLOY.md.
+# No executable deployment command is queued.

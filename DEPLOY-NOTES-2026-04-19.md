@@ -1,4 +1,7 @@
-# Deploy Notes — 2026-04-19 02:00 (nightly auto-deploy)
+# Historical Deploy Notes — 2026-04-19
+
+> Superseded by WB-COST-KILL-1. These notes describe a retired workflow.
+> Nightly auto-deploy and queued commands are disabled; follow DEPLOY.md.
 
 Terminal access approval timed out at 02:00 — you were asleep, so I couldn't push the one-liner to your clipboard.
 The deploy command is already saved in `.deploy-queued` (unchanged from yesterday, same form).
@@ -6,7 +9,7 @@ The deploy command is already saved in `.deploy-queued` (unchanged from yesterda
 ## Paste-and-run when you wake up
 
 ```
-cd ~/Documents/Raw && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod && date > .last-deploy
+# Retired: batch changes in one PR and publish once through Sites.
 ```
 
 ## Why a deploy is needed
@@ -30,4 +33,4 @@ Reviewed `wiki/analyses/lint-report-2026-04-12.md` (most recent Sunday lint). No
 
 ## To skip this dance tomorrow night
 
-`touch ~/Documents/Raw/.auto-deploy-approved` — the scheduled task will then deploy directly via Bash without needing Terminal approval. (It will still refuse if Sunday lint flags ≥5 contradictions.)
+Retired by WB-COST-KILL-1. Do not create an auto-deploy approval marker; automated cycles must prepare changes for the next release PR.

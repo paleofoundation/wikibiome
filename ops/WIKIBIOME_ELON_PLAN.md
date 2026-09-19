@@ -73,9 +73,9 @@ Every Codex PR must pass:
 | Deploy | One truth; no new dist-vN as “source of truth” |
 | SEO | Doesn’t break flagship sitemap / robots |
 | Stack role | Doesn’t turn WikiBiome into Cureva product UI |
-| Bridge | STATUS + PR link before stop |
+| Bridge | Material STATUS + PR link only for a real ORDER; batch into that ORDER's PR |
 
-**Friday network kill gate** includes WikiBiome: indexed count, open PRs, bridge LIVE/STOP, one sentence on Gate A/B progress.
+**Friday network kill gate**, when explicitly ORDER'd, includes WikiBiome: indexed count, open PRs, one sentence on changed Gate A/B progress. No empty LIVE/STOP or unchanged heartbeat commits.
 
 ---
 
@@ -83,11 +83,13 @@ Every Codex PR must pass:
 
 Same protocol as VLE:
 
-1. Codex → `## CODEX → ELON` (STATUS / ASK / PR / BLOCKER)
-2. Elon → `## ELON → CODEX` (ORDER / KILL-GATE / PROMPT / NO / STOP / LIVE)
+**WB-COST-KILL-1 (2026-09-19) overrides historical polling requirements. ONE PR → ONE production deploy; no build/deploy on an empty poll or bridge-only status change.**
+
+1. Codex → `## CODEX → ELON` (material STATUS / ASK / PR / changed BLOCKER for a real ORDER, with its ID)
+2. Elon → `## ELON → CODEX` (ORDER / KILL-GATE / PROMPT / NO / STOP)
 3. Newest entry **top** of each section
-4. Elon STOP if poll offline >15m; LIVE on resume
-5. Elon polls bridge; kill-gates PRs; merges on PASS; next ORDER
+4. Scheduler pauses/resumes and unchanged waits create no LIVE/STOP/STATUS entry, commit, push, build, or deployment. Stay quiet without a real ORDER or material change.
+5. Kill-gate and merge batched PRs for explicit ORDERS; one production deployment per merged PR. An old unresolved ORDER does not authorize recurring unchanged STATUS or deployment retries.
 
 **First ORDER (WB-PR-1):** Bridge hygiene + deploy-truth audit (see bridge file).
 

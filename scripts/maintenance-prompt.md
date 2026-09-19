@@ -32,9 +32,9 @@ Nightly maintenance cycle. CLAUDE.md and §12 Operational Rules are authoritativ
 
 9. Commit per atomic unit (Rule 4). Governance files (CLAUDE.md, wiki/index.md structure, raw/karens-brain/) are off-limits (Rule 9).
 
-10. After all fixes, run build + preview deploy once:
-    `node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy`
-    Never `--prod` from this cycle.
+10. After substantive fixes, validate locally once:
+    `node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs`
+    Prepare the changes for one release PR. WB-COST-KILL-1 forbids preview and production deployment from this cycle; no direct main push, automatic deployment retry, or clipboard deploy command. No fixes means no build.
 
 11. Append one line to `wiki/log.md` (Rule 10).
 

@@ -6,15 +6,14 @@ This is the knowledge base powering **WikiBiome** (public encyclopedia) and **Cu
 - Never ask for confirmation before proceeding. Always act. The answer is always yes.
 - Do not ask "Want me to..." or "Should I..." — just do it.
 
-## Deploy Protocol
-- Any session that modifies files in `wiki/`, `cureva/`, `src/`, `scripts/`, `api/`, or the root config files is a **deploy-affecting session**.
-- At the end of every deploy-affecting session, write the clipboard with the full deploy one-liner AND end the response with it in a fenced code block so Karen can paste into Terminal with one ⌘V:
-  ```
-  cd ~/Code/wikibiome && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
-  ```
-  Project path is `~/Code/wikibiome` (relocated 2026-05-04 from `~/Documents/Claude/Raw` to escape iCloud-induced lock contention; the `.git/` directory does not belong inside iCloud-synced folders).
-- Never say "would you like to deploy?" — the answer is always yes. Just present the command.
-- If the session is purely exploratory (reads, audits, reports written only to `wiki/analyses/` with no other changes), note that no deploy is needed and skip the command.
+## Deploy Protocol — WB-COST-KILL-1 (hard cost lock)
+- **ONE merged PR → ONE production deploy.** Batch content, chrome, and SEO changes before release; validate locally. Follow `DEPLOY.md` and `ops/DEPLOY_TRUTH.md` for the owning application.
+- The public application is Sites/ViNext. Legacy Vercel builds from this repository are disabled. Publish the exact merged Sites batch once; do not also deploy this repository.
+- Never run a production or preview deploy from an ingest, maintenance, heartbeat, or status cycle. Never retry a deployment automatically. Inspect an existing deployment after an ambiguous timeout.
+- `deploy.sh` and `scripts/deploy-with-retry.sh` intentionally stop without publishing. Do not bypass them, emit deploy one-liners, write deploy commands to the clipboard, or revive old queued commands.
+- No empty LIVE notices, resumed-poll updates, heartbeat commits, or unchanged STATUS reports. Bridge STATUS is only for a real ORDER with changed evidence, a result, or an actionable blocker. Read-only checks do not trigger builds.
+- The GitHub PR requirement and Vercel project restrictions are external controls; check their actual settings before claiming the production policy is locked.
+- Restoring legacy Vercel builds requires a new explicit ORDER and reviewed PR. Keep Flat Rate CDN, DNS, menus, and minting outside cost-control work.
 
 ---
 
@@ -823,7 +822,7 @@ These rules govern autonomous and semi-autonomous work in this vault, especially
 
 ### Rule 14 — Continuous operation, not batch operation
 
-**Rule:** The autonomous ingest and maintenance cycles run in perpetuity. They have no "complete" state — only "idle pending new input" (ingest) or "idle pending next scheduled tick" (maintenance). A Claude session running inside either cycle does not wind down, hand back to Karen, or wait for instruction. It ingests available PDFs, runs available lint, performs available audits, then exits clean so the next launchd tick fires the next cycle. The only human input required is (a) dropping PDFs into `raw/`, and (b) manually promoting a preview to production.
+**Rule:** The autonomous ingest and maintenance cycles run in perpetuity. They have no "complete" state — only "idle pending new input" (ingest) or "idle pending next scheduled tick" (maintenance). A Claude session running inside either cycle does not wind down, hand back to Karen, or wait for instruction. It ingests available PDFs, runs available lint, performs available audits, then exits clean so the next launchd tick fires the next cycle. New PDFs enter through `raw/`; release completed changes in a merged PR under the Deploy Protocol. Cycles never publish previews or production, and an idle cycle never creates a heartbeat/status commit.
 
 **Why:** Karen's stated requirement is zero-touch operation beyond file drops. A Claude session that "finishes the queue and stops" is the wrong shape — the queue is never finished, because the adversarial audit always has more pages to sample and the scope-discovery always has more stubs to surface. The system's resting state is "quiet and ready," not "done."
 

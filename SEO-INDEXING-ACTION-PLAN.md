@@ -13,11 +13,7 @@ This plan has three parts: a **focused sitemap** (done), **internal linking** (d
    - `sitemap-full.xml` — all 270 URLs (kept for discovery, deprioritized)
 2. `robots.txt` now references both, in order. Google will read the flagship sitemap first and spend its limited new-site crawl budget on the 30 pages that matter most.
 
-**Deploy now:**
-```
-cd ~/Documents/Raw && vercel deploy --prod
-```
-(Build artifacts in `dist-v28` are already updated — no rebuild needed.)
+**Release policy (superseded by WB-COST-KILL-1):** Batch SEO changes in one PR, validate locally, and publish the merged Sites batch once. Do not deploy historical `dist-v28` artifacts or use a legacy Vercel command. See `DEPLOY.md`.
 
 **After deploy, in Google Search Console:**
 1. Sitemaps → remove the old `sitemap.xml` entry if cached, re-submit `https://www.wikibiome.com/sitemap.xml`

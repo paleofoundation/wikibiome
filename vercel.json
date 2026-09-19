@@ -5,6 +5,8 @@
   "installCommand": "npm install",
   "framework": null,
   "trailingSlash": false,
+  "git": { "deploymentEnabled": false },
+  "ignoreCommand": "node scripts/vercel-ignore-build.cjs",
   "headers": [
     {
       "source": "/sitemap.xml",
