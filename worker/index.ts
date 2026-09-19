@@ -1,5 +1,4 @@
 /** Cloudflare Worker entry point for the vinext-starter template. */
-import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
 import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
 import { handleEarlyRoutingPolicy, maybeReplaceNotFoundResponse } from "../lib/routing-policy.mjs";
@@ -7,25 +6,12 @@ import { handleEarlyRoutingPolicy, maybeReplaceNotFoundResponse } from "../lib/r
 interface Env {
   ASSETS: Fetcher;
   DB: D1Database;
-  IMAGES: {
-    input(stream: ReadableStream): {
-      transform(options: Record<string, unknown>): {
-        output(options: { format: string; quality: number }): Promise<{ response(): Response }>;
-      };
-    };
-  };
 }
 
 interface ExecutionContext {
   waitUntil(promise: Promise<unknown>): void;
   passThroughOnException(): void;
 }
-
-// Image security config. SVG sources with .svg extension auto-skip the
-// optimization endpoint on the client side (served directly, no proxy).
-// To route SVGs through the optimizer (with security headers), set
-// dangerouslyAllowSVG: true in next.config.js and uncomment below:
-// const imageConfig: ImageConfig = { dangerouslyAllowSVG: true };
 
 const registeredMedia = new Map<string, "image" | "social">(
   Object.values(articleMediaRegistry).flatMap((media) => [
@@ -75,15 +61,27 @@ const worker = {
       });
     }
 
-    if (url.pathname === "/_vinext/image") {
-      const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
-      return handleImageOptimization(request, {
-        fetchAsset: (path) => env.ASSETS.fetch(new Request(new URL(path, request.url))),
-        transformImage: async (body, { width, format, quality }) => {
-          const result = await env.IMAGES.input(body).transform(width > 0 ? { width } : {}).output({ format, quality });
-          return result.response();
-        },
-      }, allowedWidths);
+    const imagePath = url.pathname.replace(/\/+$/, "");
+    if (imagePath === "/_vinext/image" || imagePath === "/_next/image") {
+      // Keep old local image references usable without invoking an optimizer.
+      const source = url.searchParams.get("url");
+      if (!source?.startsWith("/") || source.startsWith("//")) {
+        return new Response("Not found", { status: 404 });
+      }
+      let original: URL;
+      try {
+        original = new URL(source, request.url);
+      } catch {
+        return new Response("Not found", { status: 404 });
+      }
+      if (
+        original.origin !== url.origin
+        || original.pathname.startsWith("/_vinext/image")
+        || original.pathname.startsWith("/_next/image")
+      ) {
+        return new Response("Not found", { status: 404 });
+      }
+      return Response.redirect(original, 307);
     }
 
     const response = await handler.fetch(request, env, ctx);

@@ -113,7 +113,7 @@ test("counts only recognized search-engine referrers as search landings", () => 
   assert.equal(classifySearchReferrer("not a URL"), undefined);
 });
 
-test("accepts only privacy-limited search observability events", async () => {
+test("silently discards valid legacy search events and still rejects invalid input", async () => {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-observability`);
   const { default: worker } = await import(workerUrl.href);
@@ -148,12 +148,11 @@ test("accepts only privacy-limited search observability events", async () => {
       body: JSON.stringify({ version: 1, event: "search_landing", path: "/article/nickel", source: "google" }),
     }), env, ctx);
 
-    assert.equal(accepted.status, 202);
+    assert.equal(accepted.status, 204);
     assert.equal(rejectedSource.status, 400);
     assert.equal(rejectedQuery.status, 400);
     assert.equal(rejectedCrossOrigin.status, 403);
-    assert.equal(captured.length, 1);
-    assert.deepEqual(JSON.parse(captured[0][1]), { version: 1, event: "search_landing", path: "/article/nickel", source: "google" });
+    assert.equal(captured.length, 0);
   } finally {
     console.info = originalInfo;
   }

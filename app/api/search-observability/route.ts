@@ -32,10 +32,9 @@ export async function POST(request: Request) {
   const event = validate(payload);
   if (!event) return response(400);
 
-  // The application deliberately logs only the allowlisted event. It does not
-  // copy request headers, cookies, IP data, full referrers, or search queries.
-  console.info("wikibiome_search_observability", JSON.stringify(event));
-  return response(202);
+  // WB-COST-KILL-1: the client collector is unmounted. Discard valid events
+  // from already-open tabs without writing request or per-path metric logs.
+  return response(204);
 }
 
 function validate(value: unknown) {

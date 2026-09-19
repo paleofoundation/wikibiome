@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { StructuredData } from "@/app/_components/StructuredData";
-import { SearchObservability } from "@/app/_components/SearchObservability";
 import { OrcidAuthFeedback } from "@/app/_components/OrcidAuthFeedback";
 import { WikiFooter } from "@/app/_components/WikiFooter";
 import { publicPageMetadata, SITE_DESCRIPTION, siteIdentityStructuredData } from "@/lib/search-discovery";
@@ -43,7 +42,6 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <StructuredData data={siteIdentityStructuredData()} marker="data-site-identity-schema" />
-        <SearchObservability />
         <OrcidAuthFeedback />
         {children}
         <WikiFooter />
