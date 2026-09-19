@@ -23,20 +23,22 @@ Use the Sites skills and the control register at
 `docs/operations/wikibiome-program-register.md` in that checkout. Retain
 version 68 for rollback with the caveat that it restores the removed tip jar.
 
-## Retained legacy Vercel pipeline
+## WB-COST-KILL-1 release lock
 
-The following describes the legacy app, not the current public domain:
+One merged release PR produces one public Sites publish from the exact merged
+source. Batch chrome and SEO fixes; validate locally. Do not create a second
+legacy Vercel deployment for the same batch. No preview or production deployment
+runs from an ingest, maintenance, heartbeat, or status cycle.
 
+Legacy Vercel Git deployments are disabled. `scripts/vercel-ignore-build.cjs`
+always skips any legacy build that reaches it; `deploy.sh` and the retired retry
+wrapper fail without side effects. Reopening this path requires a new explicit
+ORDER and reviewed PR. See `DEPLOY.md` for repository and remote project locks.
 
-1. `node scripts/build-content.cjs` regenerates the application content payload.
-2. `npx vite build` creates the configured static build output.
-3. `node scripts/generate-static.cjs` writes crawlable route HTML, robots, and sitemaps into that same configured output.
-4. `vercel deploy --prod` deploys that output to production.
-
-Run it as one command from the repository checkout:
+The retained legacy app can still be validated locally with:
 
 ```sh
-cd ~/Code/wikibiome && node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs && vercel deploy --prod
+node scripts/build-content.cjs && npx vite build && node scripts/generate-static.cjs
 ```
 
 ## Output-directory rule

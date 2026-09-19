@@ -1,0 +1,173 @@
+diff --git a/AGENTS.md b/AGENTS.md
+new file mode 100644
+index 0000000..a382dc9
+--- /dev/null
++++ b/AGENTS.md
+@@ -0,0 +1,14 @@
++# WikiBiome cost lock — WB-COST-KILL-1
++
++- Batch changes: one merged release PR, one production publish. This source is
++  reviewed through the WikiBiome upstream PR with an exact source patch and SHA.
++- Validate locally before publishing. Do not publish serial chrome or SEO nits,
++  automatically retry a publish, or create legacy Vercel builds. Inspect an
++  existing deployment if its result is uncertain.
++- Keep `images.unoptimized: true`, direct original image URLs, and the worker's
++  optimizer bypass until a new explicit order changes the cost policy. Never
++  regenerate the image corpus, bust its URLs, or purge images on deployment.
++- Search landing/vitals collection and verbose GSC request logging are off.
++- No empty LIVE/heartbeat commits or build wakeups. Bridge STATUS requires a
++  real ORDER and a material result or changed blocker.
++- Do not change Flat Rate CDN, DNS, menus, or mint content in cost-control work.
+diff --git a/app/api/search-observability/route.ts b/app/api/search-observability/route.ts
+index 5ee2aac..3b76071 100644
+--- a/app/api/search-observability/route.ts
++++ b/app/api/search-observability/route.ts
+@@ -32,10 +32,9 @@ export async function POST(request: Request) {
+   const event = validate(payload);
+   if (!event) return response(400);
+ 
+-  // The application deliberately logs only the allowlisted event. It does not
+-  // copy request headers, cookies, IP data, full referrers, or search queries.
+-  console.info("wikibiome_search_observability", JSON.stringify(event));
+-  return response(202);
++  // WB-COST-KILL-1: the client collector is unmounted. Discard valid events
++  // from already-open tabs without writing request or per-path metric logs.
++  return response(204);
+ }
+ 
+ function validate(value: unknown) {
+diff --git a/app/layout.tsx b/app/layout.tsx
+index ab3ac32..2a1fe20 100644
+--- a/app/layout.tsx
++++ b/app/layout.tsx
+@@ -1,7 +1,6 @@
+ import type { Metadata } from "next";
+ import { Geist, Geist_Mono } from "next/font/google";
+ import { StructuredData } from "@/app/_components/StructuredData";
+-import { SearchObservability } from "@/app/_components/SearchObservability";
+ import { OrcidAuthFeedback } from "@/app/_components/OrcidAuthFeedback";
+ import { WikiFooter } from "@/app/_components/WikiFooter";
+ import { publicPageMetadata, SITE_DESCRIPTION, siteIdentityStructuredData } from "@/lib/search-discovery";
+@@ -43,7 +42,6 @@ export default function RootLayout({
+         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+       >
+         <StructuredData data={siteIdentityStructuredData()} marker="data-site-identity-schema" />
+-        <SearchObservability />
+         <OrcidAuthFeedback />
+         {children}
+         <WikiFooter />
+diff --git a/next.config.ts b/next.config.ts
+index 5952b75..cc53d55 100644
+--- a/next.config.ts
++++ b/next.config.ts
+@@ -2,6 +2,8 @@ import type { NextConfig } from "next";
+ import { articleAliasRedirects } from "./lib/article-alias-redirects.mjs";
+ 
+ const nextConfig: NextConfig = {
++  // WB-COST-KILL-1: serve stable original assets without paid transformations.
++  images: { unoptimized: true },
+   async redirects() {
+     return [...articleAliasRedirects];
+   },
+diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
+index 5097c27..dfd47d9 100644
+--- a/tests/rendered-html.test.mjs
++++ b/tests/rendered-html.test.mjs
+@@ -113,7 +113,7 @@ test("counts only recognized search-engine referrers as search landings", () =>
+   assert.equal(classifySearchReferrer("not a URL"), undefined);
+ });
+ 
+-test("accepts only privacy-limited search observability events", async () => {
++test("silently discards valid legacy search events and still rejects invalid input", async () => {
+   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-observability`);
+   const { default: worker } = await import(workerUrl.href);
+@@ -148,12 +148,11 @@ test("accepts only privacy-limited search observability events", async () => {
+       body: JSON.stringify({ version: 1, event: "search_landing", path: "/article/nickel", source: "google" }),
+     }), env, ctx);
+ 
+-    assert.equal(accepted.status, 202);
++    assert.equal(accepted.status, 204);
+     assert.equal(rejectedSource.status, 400);
+     assert.equal(rejectedQuery.status, 400);
+     assert.equal(rejectedCrossOrigin.status, 403);
+-    assert.equal(captured.length, 1);
+-    assert.deepEqual(JSON.parse(captured[0][1]), { version: 1, event: "search_landing", path: "/article/nickel", source: "google" });
++    assert.equal(captured.length, 0);
+   } finally {
+     console.info = originalInfo;
+   }
+diff --git a/worker/index.ts b/worker/index.ts
+index fedf222..4f15c19 100644
+--- a/worker/index.ts
++++ b/worker/index.ts
+@@ -1,5 +1,4 @@
+ /** Cloudflare Worker entry point for the vinext-starter template. */
+-import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
+ import handler from "vinext/server/app-router-entry";
+ import { articleMediaRegistry } from "../lib/article-media-registry.mjs";
+ import { handleEarlyRoutingPolicy, maybeReplaceNotFoundResponse } from "../lib/routing-policy.mjs";
+@@ -7,13 +6,6 @@ import { handleEarlyRoutingPolicy, maybeReplaceNotFoundResponse } from "../lib/r
+ interface Env {
+   ASSETS: Fetcher;
+   DB: D1Database;
+-  IMAGES: {
+-    input(stream: ReadableStream): {
+-      transform(options: Record<string, unknown>): {
+-        output(options: { format: string; quality: number }): Promise<{ response(): Response }>;
+-      };
+-    };
+-  };
+ }
+ 
+ interface ExecutionContext {
+@@ -21,12 +13,6 @@ interface ExecutionContext {
+   passThroughOnException(): void;
+ }
+ 
+-// Image security config. SVG sources with .svg extension auto-skip the
+-// optimization endpoint on the client side (served directly, no proxy).
+-// To route SVGs through the optimizer (with security headers), set
+-// dangerouslyAllowSVG: true in next.config.js and uncomment below:
+-// const imageConfig: ImageConfig = { dangerouslyAllowSVG: true };
+-
+ const registeredMedia = new Map<string, "image" | "social">(
+   Object.values(articleMediaRegistry).flatMap((media) => [
+     [media.publishedFile, "image" as const],
+@@ -75,15 +61,27 @@ const worker = {
+       });
+     }
+ 
+-    if (url.pathname === "/_vinext/image") {
+-      const allowedWidths = [...DEFAULT_DEVICE_SIZES, ...DEFAULT_IMAGE_SIZES];
+-      return handleImageOptimization(request, {
+-        fetchAsset: (path) => env.ASSETS.fetch(new Request(new URL(path, request.url))),
+-        transformImage: async (body, { width, format, quality }) => {
+-          const result = await env.IMAGES.input(body).transform(width > 0 ? { width } : {}).output({ format, quality });
+-          return result.response();
+-        },
+-      }, allowedWidths);
++    const imagePath = url.pathname.replace(/\/+$/, "");
++    if (imagePath === "/_vinext/image" || imagePath === "/_next/image") {
++      // Keep old local image references usable without invoking an optimizer.
++      const source = url.searchParams.get("url");
++      if (!source?.startsWith("/") || source.startsWith("//")) {
++        return new Response("Not found", { status: 404 });
++      }
++      let original: URL;
++      try {
++        original = new URL(source, request.url);
++      } catch {
++        return new Response("Not found", { status: 404 });
++      }
++      if (
++        original.origin !== url.origin
++        || original.pathname.startsWith("/_vinext/image")
++        || original.pathname.startsWith("/_next/image")
++      ) {
++        return new Response("Not found", { status: 404 });
++      }
++      return Response.redirect(original, 307);
+     }
+ 
+     const response = await handler.fetch(request, env, ctx);

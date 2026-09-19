@@ -22,7 +22,7 @@ One prompt per cycle type. A prompt is the complete instruction set that a fresh
 
 Two cycle types here:
 
-- `ingest-prompt.md` — runs when new source documents appear. Processes N documents, builds, commits atomically, preview-deploys, exits.
+- `ingest-prompt.md` — runs when new source documents appear. Processes N documents, validates locally, commits atomically on a working branch, and prepares one release PR. WB-COST-KILL-1 forbids deployments from the cycle.
 - `maintenance-prompt.md` — runs on a schedule. Lints, audits, repairs phantom pages, discovers missing scope, exits.
 
 **Design principle:** every prompt names the rules it enforces and the exit conditions. No "done" state — only "no work this tick." Cycles exit cleanly so the next tick can fire.
@@ -80,7 +80,7 @@ Not every part of this architecture scales linearly. The pieces that bite at 27K
 
 At 10 PDFs/cycle × 12 ticks/hour = 120/hour ceiling with one worker. Realistic sustained rate is 60–80/hour. 27,000 documents at 70/hour is ~16 days of continuous operation.
 
-**Lever:** parallel workers. Clone the ingest plist to a second label (`com.<project>.ingest-2.plist`), use a different lock directory in the worker script, and have each worker claim PDFs from a different partition (e.g. even vs. odd hash of the filename). 2 workers ≈ 1.8× throughput (small overhead from git-commit serialization). 4 workers ≈ 3.3×. Beyond 4 you start hitting diminishing returns because Vercel preview deploys queue up.
+**Lever:** parallel workers. Clone the ingest plist to a second label (`com.<project>.ingest-2.plist`), use a different lock directory in the worker script, and have each worker claim PDFs from a different partition (e.g. even vs. odd hash of the filename). 2 workers ≈ 1.8× throughput (small overhead from git-commit serialization). 4 workers ≈ 3.3×. All workers batch their changes for one merged release PR; none creates a Vercel preview deployment.
 
 ### Git repository size
 
@@ -97,7 +97,7 @@ The current worker checks "is there a wiki/sources/ page whose slug derives from
 
 ### Build pipeline bottleneck
 
-`build-content.cjs` + `vite build` + `generate-static.cjs` is currently a few minutes on ~460 pages. At 27,000 pages, expect 30+ minutes per full build. This becomes painful when the ingest cycle runs `vercel deploy` after each batch.
+`build-content.cjs` + `vite build` + `generate-static.cjs` is currently a few minutes on ~460 pages. At 27,000 pages, expect 30+ minutes per full build. Run this locally only after substantive work; WB-COST-KILL-1 disables per-cycle deployment and batches releases into one merged PR.
 
 **Fix:** incremental builds. Only re-render pages that changed since the last build. `build-content.cjs` needs a "since last commit" mode. This is a moderate engineering task — not trivial, not scary.
 

@@ -7,8 +7,15 @@ Plan of record: `ops/WIKIBIOME_ELON_PLAN.md`
 
 ## Protocol
 
-1. Codex writes under `## CODEX → ELON` (STATUS / ASK / PR links / blockers).
-2. Elon writes under `## ELON → CODEX` (ORDERS / KILL-GATE / NEXT PROMPT / NO / STOP / LIVE).
+**WB-COST-KILL-1 cost lock (2026-09-19): this protocol supersedes every historical polling, LIVE/STOP, idle STATUS, and per-cycle deployment instruction below. Historical entries are evidence, not active scheduling instructions.**
+
+1. Codex writes under `## CODEX → ELON` only for a real, explicit ORDER and a material result, changed blocker, or reviewable PR associated with that ORDER. Include its ORDER ID.
+2. Elon writes under `## ELON → CODEX` for real ORDERS / KILL-GATE / NEXT PROMPT / NO / STOP. A scheduler wake, resumed poll, elapsed interval, or unchanged wait is not a new ORDER and must not create a bridge entry, commit, push, build, or deploy.
+
+### 2026-09-19 — WB-COST-KILL-1 cost lock
+Tag: STATUS
+
+**Real ORDER: WB-COST-KILL-1.** Legacy Vercel previews are disabled; production accepts Git sources only, and its ignored build step skips pending legacy builds. GitHub main now requires a PR, including administrators. This PR disables legacy Git deploy creation, retires direct/retry/queued deploy commands, and removes idle bridge-write instructions. The hourly media automation is PAUSED. Public Sites source `7505af70d191a63863907da772f3e1732e2896e5` disables transformations and GSC telemetry, preserves original media URLs, and passes the local build/typecheck, changed-file lint, local Worker route checks, and 20 image-routing probes. Exact patch and validation are in `ops/patches/WB-COST-KILL-1-sites.patch` and `ops/WB_COST_KILL_1.md`. One public Sites publish follows this merged PR; its terminal result belongs in the same PR description. No idle follow-up STATUS is required.
 
 ### 2026-09-09 00:17 Asia/Nicosia — LIVE
 Tag: STATUS
@@ -23,8 +30,8 @@ Tag: STATUS
 3. Newest entry at the **top** of your section (reverse chrono).
 4. Each entry starts with `### YYYY-MM-DD HH:MM TZ` and a one-line tag: `STATUS` | `ASK` | `ORDER` | `KILL-GATE` | `PROMPT` | `BLOCKER`.
 5. Scope locks: no donation CRM; no cureva.app conflation; no inventing treatment claims; no new dist-vN as deploy truth; no Cureva product UI in this repo without explicit Elon GO.
-6. After every meaningful task, update this file before stopping.
-7. **Elon STOP/LIVE:** If Elon’s poll pauses/sleeps/offline >15m, append STATUS/BLOCKER tagged **STOP** with reason + expected return. On resume append **LIVE**. Codex must not wait overnight on silence.
+6. Batch meaningful ORDER results into the same PR as the authorized work. Bridge-only status changes do not authorize production deployment. No empty LIVE, heartbeat, unchanged HOLD, or scheduler-gap STATUS commits.
+7. **ONE PR → ONE production deploy.** No periodic build/deploy wakeups and no serial redeploys for chrome/SEO nits. Stay quiet when no real ORDER or material state change exists. An old unresolved ORDER does not authorize repeated unchanged reports or deployment retries.
 
 ## Stack reminder (Codex)
 
