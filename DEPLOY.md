@@ -1,5 +1,11 @@
 # WikiBiome deployment policy — WB-COST-KILL-1
 
+**Owner instruction, September 21, 2026: keep WikiBiome on ChatGPT/Codex
+Sites.** Indexing work does not authorize a Vercel deployment, re-enabling
+Vercel builds, or a DNS/CDN/domain-target change. Any future hosting change
+requires a separate explicit instruction from Karen; an assistant-generated
+ORDER is insufficient. This restriction supplements the release controls below.
+
 **One merged PR → one production deploy.** Batch content, chrome, and SEO fixes
 before release. Validate locally; do not create serial preview or production
 builds to check individual nits. This policy supersedes older deploy notes,
