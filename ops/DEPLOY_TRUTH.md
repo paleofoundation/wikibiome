@@ -1,5 +1,20 @@
 # WikiBiome deploy truth
 
+## Owner hosting lock and current release baseline — September 21, 2026
+
+WikiBiome stays on ChatGPT/Codex Sites. Do not deploy to Vercel, re-enable
+Vercel builds, or change DNS/CDN/domain targets to repair indexing. A future
+hosting change requires a separate explicit Karen instruction. An assistant's
+own ORDER does not authorize that change. Preserve the existing Sites audience.
+
+Verified production baseline for this repair is Sites version 81, source
+`0ebe868632b1b8ada5e4dbeb4073fe84a4e011d4`, successful deployment
+`appgdep_6ab0bfdf8a60819191e8f5cbe28d772b`. The indexing candidate and its exact
+review patch are recorded in `ops/INDEXING_REPAIR_2026_09_21.md`. A merged
+candidate is not proof of publication; inspect the actual Sites deployment.
+The September 9 release numbers below are historical context, not a direction
+to restore that old application state.
+
 ## Current public application: Sites (verified September 9, 2026)
 
 `wikibiome.com` and `www.wikibiome.com` serve the Sites application, project

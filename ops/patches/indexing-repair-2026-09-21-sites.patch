@@ -1,0 +1,475 @@
+diff --git a/AGENTS.md b/AGENTS.md
+index a382dc9..8aebe89 100644
+--- a/AGENTS.md
++++ b/AGENTS.md
+@@ -1,5 +1,18 @@
+ # WikiBiome cost lock — WB-COST-KILL-1
+ 
++## Owner hosting lock — September 21, 2026
++
++WikiBiome stays on **ChatGPT/Codex Sites**, project
++`appgprj_6a952a45833881918318478cf66804f3`, from this checkout.
++The GitHub Vite application is legacy code/content upstream, not production.
++Indexing repairs do not authorize a hosting migration, Vercel deployment,
++re-enabling Vercel builds, or any DNS/CDN/domain-target change. Do not switch
++hosting to make an old deploy command work. A future hosting change requires
++a separate, explicit instruction from Karen; an assistant's own ORDER is not
++authorization. Preserve the Vercel locks and existing Sites audience.
++
++## Release and cost controls
++
+ - Batch changes: one merged release PR, one production publish. This source is
+   reviewed through the WikiBiome upstream PR with an exact source patch and SHA.
+ - Validate locally before publishing. Do not publish serial chrome or SEO nits,
+diff --git a/app/article/[id]/history/page.tsx b/app/article/[id]/history/page.tsx
+index 52edc98..4e99f21 100644
+--- a/app/article/[id]/history/page.tsx
++++ b/app/article/[id]/history/page.tsx
+@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
+   const canonicalId = canonicalArticleId(id);
+   const title = `Revision history: ${page.title} — WikiBiome`;
+   const description = `Source provenance and revision history for the WikiBiome article ${page.title}.`;
+-  return publicPageMetadata({ title, description, path: `/article/${canonicalId}/history`, type: "article" });
++  return publicPageMetadata({ title, description, path: `/article/${canonicalId}/history`, type: "article", index: false });
+ }
+ 
+ export default async function ArticleHistoryPage({ params }: RouteProps) {
+diff --git a/app/signatures/page.tsx b/app/signatures/page.tsx
+index ef80fc1..ced1643 100644
+--- a/app/signatures/page.tsx
++++ b/app/signatures/page.tsx
+@@ -1,13 +1,13 @@
+-import { redirect } from "next/navigation";
+-import { getDiseaseRecord, normalizeWikiId } from "@/lib/wikibiome";
++import { permanentRedirect } from "next/navigation";
++import { signatureExplorerDestination } from "@/lib/routing-policy.mjs";
+ 
+-type SearchParams = Promise<{ disease?: string }>;
++type SearchParams = Promise<Record<string, string | string[] | undefined>>;
+ 
+ export default async function LegacySignaturesPage({ searchParams }: { searchParams: SearchParams }) {
+-  const { disease } = await searchParams;
+-  if (disease) {
+-    const record = getDiseaseRecord(normalizeWikiId(disease));
+-    if (record) redirect(`/article/${record.canonicalId}#signature`);
++  const values = await searchParams;
++  const query = new URLSearchParams();
++  for (const [key, value] of Object.entries(values)) {
++    for (const item of Array.isArray(value) ? value : value === undefined ? [] : [value]) query.append(key, item);
+   }
+-  redirect("/category/signature");
++  permanentRedirect(signatureExplorerDestination(query.size ? `?${query}` : ""));
+ }
+diff --git a/app/sitemap.xml/route.ts b/app/sitemap.xml/route.ts
+index feb7b23..5725bdc 100644
+--- a/app/sitemap.xml/route.ts
++++ b/app/sitemap.xml/route.ts
+@@ -1,9 +1,10 @@
+-import { allSources, allWikiPages, canonicalArticleId, categories, generatedAt, getWikiPage } from "@/lib/wikibiome";
++import { allSources, allWikiPages, canonicalArticleId, canonicalSourceId, categories, getWikiPage } from "@/lib/wikibiome";
+ import { getArticleMedia, type ArticleMedia } from "@/lib/article-media";
+ import { organizationProfiles } from "@/lib/organization-profiles.mjs";
+ 
+ import { PUBLIC_ORIGIN as ORIGIN } from "@/lib/search-discovery";
+ import { isIndexableArticle } from "@/lib/article-indexing";
++import { isIndexableSource } from "@/lib/source-indexing.mjs";
+ type SitemapEntry = {
+   path: string;
+   lastmod?: string;
+@@ -32,20 +33,23 @@ const publicRoutes = [
+ ];
+ 
+ export function GET() {
+-  const articleMap = new Map<string, string>();
++  const articleMap = new Map<string, string | undefined>();
+   for (const page of allWikiPages) {
+     const id = canonicalArticleId(page.id);
+     const canonicalPage = getWikiPage(id);
+     if (!canonicalPage || !isIndexableArticle(canonicalPage)) continue;
+-    const updated = validDate(page.updated) ?? validDate(generatedAt) ?? new Date().toISOString();
++    // A build/sync timestamp is not evidence that an article changed.
++    const updated = validDate(page.updated);
+     const existing = articleMap.get(id);
+-    if (!existing || updated > existing) articleMap.set(id, updated);
++    if (!articleMap.has(id) || (updated && (!existing || updated > existing))) articleMap.set(id, updated);
+   }
+ 
+   const entries: SitemapEntry[] = [
+-    ...publicRoutes.map((path) => ({ path, lastmod: validDate(generatedAt), priority: path === "/" ? "1.0" : "0.7" })),
++    ...publicRoutes.map((path) => ({ path, priority: path === "/" ? "1.0" : "0.7" })),
+     ...[...articleMap.entries()].map(([id, lastmod]) => ({ path: `/article/${id}`, lastmod, priority: "0.8", media: getArticleMedia(id) })),
+-    ...Object.keys(allSources).map((id) => ({ path: `/source/${id}`, lastmod: validDate(generatedAt), priority: "0.5" })),
++    ...[...new Set(Object.keys(allSources).map(canonicalSourceId))]
++      .filter(isIndexableSource)
++      .map((id) => ({ path: `/source/${id}`, priority: "0.5" })),
+   ];
+ 
+   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.map((entry) => {
+diff --git a/app/source/[id]/page.tsx b/app/source/[id]/page.tsx
+index 82e8c78..22442c7 100644
+--- a/app/source/[id]/page.tsx
++++ b/app/source/[id]/page.tsx
+@@ -4,6 +4,7 @@ import { StructuredData } from "@/app/_components/StructuredData";
+ import { WikiSource } from "@/app/_components/WikiSource";
+ import { publicPageMetadata, sourceStructuredData } from "@/lib/search-discovery";
+ import { canonicalSourceId, getSource } from "@/lib/wikibiome";
++import { isIndexableSource } from "@/lib/source-indexing.mjs";
+ 
+ type RouteProps = { params: Promise<{ id: string }> };
+ 
+@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
+     description,
+     path: `/source/${canonicalId}`,
+     type: "article",
++    index: isIndexableSource(canonicalId),
+   });
+ }
+ 
+diff --git a/data/source-indexing-review.json b/data/source-indexing-review.json
+new file mode 100644
+index 0000000..a2007ab
+--- /dev/null
++++ b/data/source-indexing-review.json
+@@ -0,0 +1,18 @@
++{
++  "schemaVersion": 1,
++  "reviewedAt": "2026-09-21",
++  "policy": "Only the individually reviewed citation-only pages listed here are noindex, follow and excluded from the sitemap. All other source pages retain their existing policy. Re-review and remove an entry after substantive source explanation or accepted context is published. Preserve citation access and contribution workflows.",
++  "citationOnlySources": [
++    { "id": "16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis", "reason": "Citation and Type 1 Diabetes backlink only; placeholder bibliographic fields and no study explanation." },
++    { "id": "16s-rrna-t2d-subgingival-plaque-microbiota", "reason": "Citation with placeholder bibliographic fields; no study interpretation or substantive public contribution." },
++    { "id": "brownlee-2017-ms-diagnosis-differential-review", "reason": "Bibliographic record only; no explanation of diagnostic findings, limitations, or use in WikiBiome." },
++    { "id": "dong-2021-tsh-salivary-microbiome-shifts", "reason": "Bibliographic record only; no design, findings, limitations, or source-specific explanation." },
++    { "id": "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese", "reason": "Citation and article-title backlinks only; no study explanation or substantive public collaboration." },
++    { "id": "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility", "reason": "Citation and article-title backlinks only; no account of evidence, findings, or uncertainty." },
++    { "id": "maddu-2025-microbiome-drug-interactions-pharmacokinetic-review", "reason": "Citation and three article-title backlinks only; no explanation of the reviewed evidence." },
++    { "id": "papadopoulou-2019-serum-metabolomic-profile-ppd", "reason": "Citation and article-title backlink only; no study design, findings, or limitations discussion." },
++    { "id": "tsushima-2024-ketogenic-diet-pcos-fertility", "reason": "Citation and article-title backlinks only; no study design, outcomes, or evidentiary limits explanation." },
++    { "id": "yu-2021-ppd-status-biomarkers-identification", "reason": "Citation and article-title backlink only; no source-specific explanation or substantive public discussion." },
++    { "id": "zytnick-2024-methylolanthanin-lanthanide-metallophore-methylobacterium", "reason": "Bibliographic record only; no explanation of the discovery, methods, or relevance to WikiBiome." }
++  ]
++}
+diff --git a/docs/operations/indexing-repair-2026-09-21.md b/docs/operations/indexing-repair-2026-09-21.md
+new file mode 100644
+index 0000000..58c066b
+--- /dev/null
++++ b/docs/operations/indexing-repair-2026-09-21.md
+@@ -0,0 +1,74 @@
++# September 21 indexing repair
++
++## Hosting is fixed to Sites
++
++Karen explicitly requires WikiBiome to stay on ChatGPT/Codex Sites. Use the
++existing `.openai/hosting.json` project and preserve its public audience. The
++GitHub Vite app is legacy code/content upstream. Do not deploy it to Vercel,
++re-enable its build paths, or alter DNS/CDN/domain targets for indexing work.
++Only a separate explicit instruction from Karen can authorize a hosting change;
++an assistant-generated ORDER cannot. The exact same rule is in `AGENTS.md`.
++
++## This batch
++
++- Revision histories are accessible provenance utilities with `noindex, follow`.
++- Sitemap source/utility entries omit unverifiable global generation dates;
++  article dates come only from existing content update fields. Missing dates
++  are omitted, never replaced with build time or the current clock.
++- `/signature-explorer`, `/signature-explorer.html`, and `/signatures` return
++  one 308 to the final category or known disease article, preserving query
++  parameters and the signature anchor. Existing apex-to-www policy remains.
++- `data/source-indexing-review.json` names only 11 individually reviewed
++  citation-only pages. `lib/source-indexing.mjs` drives both source metadata
++  and sitemap inclusion. Keep their pages, citations, and researcher workflows
++  available and crawlable. Re-review the registry after substantive enrichment.
++- Scholefield's explanatory source page and all unreviewed source IDs retain
++  their policy. No duplicate identities, persistent contributions, or content
++  records are merged or deleted by this batch.
++
++Approved sitemap inventory: **2,678 URLs = 717 articles + 1,929 sources + 32
++other pages**, with **373** existing image entries. The 11-URL reduction is
++intentional inventory cleanup, not evidence of Google indexing recovery.
++Scientific media, images.unoptimized, optimizer bypass, and disabled search
++telemetry remain unchanged. The latest favicon change is preserved.
++
++## Verification
++
++Build with the Sites build helper. Run the indexing-policy and public-routing
++unit suites, then start the built Worker locally with Wrangler. Run:
++
++```sh
++node scripts/verify-indexing-repair.mjs --base-url=http://127.0.0.1:8787
++node scripts/audit-search-surface.mjs --base-url=http://127.0.0.1:8787
++node scripts/audit-rendered-corpus.mjs --base-url=http://127.0.0.1:8787
++```
++
++For rendered tests, set `WIKIBIOME_TEST_BASE_URL=http://127.0.0.1:8787` when
++ordinary Node rejects `cloudflare:` module imports. This runs actual built
++pages in the correct runtime rather than stubbing production APIs.
++
++After one reviewed upstream PR is merged, publish the exact Sites source once.
++Inspect the existing deployment until terminal; do not blindly retry. Run the
++repair and search-surface scripts against https://www.wikibiome.com and the
++public routing contract with `--images=373 --target=candidate`.
++
++## Outstanding work
++
++The September 18 Google report showed 23 indexed, 1,986 discovered/unindexed
++and 807 crawled/unindexed URLs. This batch does not solve all those exclusions.
++The historical 5xx/robots failures largely predate the August 31 Sites cutover;
++their current effect is uncertain. Current sample fetches are healthy.
++
++Continue individual source classification, verification of same-DOI identities,
++and qualified scientific/editorial review of useful priority articles. Before
++merging source identities, inventory and preserve claims, accepted context,
++discussions, follows, publications and notification links in the persistent
++database. Public empty states are not proof that private records are absent.
++Do not blanket-noindex the corpus or regenerate summaries as a substitute for
++review. HTTP www-to-HTTPS currently has a platform-level 302; any correction
++must stay within Sites and must not change hosting or DNS.
++
++Record Google recrawl/indexing results separately from technical pass results.
++Request indexing for a small number of ready canonical pages, avoid repeated
++requests, and compare a stable cohort weekly. Existing correct redirects and
++deliberate 404/410 responses do not need to become indexed.
+diff --git a/lib/routing-policy.mjs b/lib/routing-policy.mjs
+index 34121fb..b6819a6 100644
+--- a/lib/routing-policy.mjs
++++ b/lib/routing-policy.mjs
+@@ -1,11 +1,13 @@
+ import contentManifest from "../data/content-manifest.generated.json" with { type: "json" };
++import content from "../data/content.generated.json" with { type: "json" };
+ 
+ export const PUBLIC_ORIGIN = "https://www.wikibiome.com";
+-export const ROUTING_POLICY_VERSION = 2;
++export const ROUTING_POLICY_VERSION = 3;
+ 
+ export const SIGNATURE_EXPLORER_REDIRECTS = Object.freeze([
+-  Object.freeze({ source: "/signature-explorer", destination: "/signatures", status: 308 }),
+-  Object.freeze({ source: "/signature-explorer.html", destination: "/signatures", status: 308 }),
++  Object.freeze({ source: "/signature-explorer", destination: "/category/signature", status: 308 }),
++  Object.freeze({ source: "/signature-explorer.html", destination: "/category/signature", status: 308 }),
++  Object.freeze({ source: "/signatures", destination: "/category/signature", status: 308 }),
+ ]);
+ 
+ export const LEGACY_SIGNATURE_REDIRECTS = Object.freeze([
+@@ -53,6 +55,7 @@ export const AUDITED_GONE_ARTICLE_PATHS = Object.freeze([
+ ]);
+ 
+ const signatureExplorerRedirectMap = new Map(SIGNATURE_EXPLORER_REDIRECTS.map((rule) => [rule.source, rule]));
++const diseaseIds = new Set(content.pages.filter((page) => page.category === "disease").map((page) => normalizePathId(page.id)));
+ const legacySignatureRedirectMap = new Map(LEGACY_SIGNATURE_REDIRECTS.map((rule) => [rule.source, rule]));
+ const neverPublicArticlePathSet = new Set(NEVER_PUBLIC_ARTICLE_PATHS);
+ const htmlErrorCacheControl = "public, max-age=300";
+@@ -69,7 +72,7 @@ export async function handleEarlyRoutingPolicy(request) {
+ 
+   const signatureExplorerRedirect = signatureExplorerRedirectMap.get(path);
+   if (signatureExplorerRedirect) {
+-    return redirectResponse(withPreservedQuery(signatureExplorerRedirect.destination, url.search), signatureExplorerRedirect.status);
++    return redirectResponse(signatureExplorerDestination(url.search), signatureExplorerRedirect.status);
+   }
+ 
+   const legacySignatureRedirect = legacySignatureRedirectMap.get(path);
+@@ -102,6 +105,12 @@ export async function handleEarlyRoutingPolicy(request) {
+   return undefined;
+ }
+ 
++export function signatureExplorerDestination(search) {
++  const disease = normalizePathId(new URLSearchParams(search).get("disease")).replace(/-signature$/, "");
++  const destination = diseaseIds.has(disease) ? `/article/${disease}#signature` : "/category/signature";
++  return withPreservedQuery(destination, search);
++}
++
+ export function maybeReplaceNotFoundResponse(request, response) {
+   if (response.status !== 404 || !shouldRenderHtmlBoundary(request)) return response;
+   return htmlBoundaryResponse(request, 404, new URL(request.url).pathname);
+diff --git a/lib/source-indexing.mjs b/lib/source-indexing.mjs
+new file mode 100644
+index 0000000..362710e
+--- /dev/null
++++ b/lib/source-indexing.mjs
+@@ -0,0 +1,9 @@
++import review from "../data/source-indexing-review.json" with { type: "json" };
++
++// Explicitly reviewed decisions only. Missing metadata, backlink counts,
++// and unreviewed records must never automatically trigger exclusion.
++const excludedIds = new Set(review.citationOnlySources.map((source) => source.id));
++
++export function isIndexableSource(id) {
++  return !excludedIds.has(id);
++}
+diff --git a/scripts/verify-indexing-repair.mjs b/scripts/verify-indexing-repair.mjs
+new file mode 100644
+index 0000000..883d4bd
+--- /dev/null
++++ b/scripts/verify-indexing-repair.mjs
+@@ -0,0 +1,70 @@
++import assert from "node:assert/strict";
++import review from "../data/source-indexing-review.json" with { type: "json" };
++import content from "../data/content.generated.json" with { type: "json" };
++
++const base = process.argv.find((arg) => arg.startsWith("--base-url="))?.slice(11);
++assert.ok(base, "Provide --base-url=http://localhost:PORT or the public production origin");
++const results = [];
++async function get(path) {
++  const response = await fetch(new URL(path, base), { redirect: "manual" });
++  return { response, body: await response.text() };
++}
++const sitemap = await get("/sitemap.xml");
++assert.equal(sitemap.response.status, 200);
++const entries = [...sitemap.body.matchAll(/<url>([\s\S]*?)<\/url>/g)].map((match) => match[1]);
++const paths = entries.map((entry) => new URL(entry.match(/<loc>([^<]+)<\/loc>/)[1]).pathname);
++assert.equal(new Set(paths).size, paths.length, "sitemap must not repeat canonical URLs");
++assert.equal(paths.filter((path) => path.startsWith("/source/")).length, 1929);
++assert.equal(paths.filter((path) => path.startsWith("/article/")).length, 717);
++for (let i = 0; i < entries.length; i++) {
++  if (!paths[i].startsWith("/article/")) assert.doesNotMatch(entries[i], /<lastmod>/, paths[i]);
++}
++// Every emitted timestamp must originate in an actual content update field.
++const contentDates = new Set(content.pages.filter((page) => page.updated && Number.isFinite(Date.parse(page.updated))).map((page) => new Date(page.updated).toISOString()));
++for (const entry of entries) {
++  const timestamp = entry.match(/<lastmod>([^<]+)<\/lastmod>/)?.[1];
++  if (timestamp) assert.ok(contentDates.has(timestamp), `unverifiable lastmod ${timestamp}`);
++}
++const sourceCases = [
++  ...review.citationOnlySources.map(({ id }) => [id, false]),
++  ["scholefield-2024-brain-metallomics-dementia", true],
++  ["amadi-2022-dietary-interventions-asd-systematic-review", true],
++];
++for (const [id, indexable] of sourceCases) {
++  const path = `/source/${id}`;
++  const { response, body } = await get(path);
++  assert.equal(response.status, 200, path);
++  const robots = [...body.matchAll(/<meta name="robots" content="([^"]+)"/g)].map((match) => match[1]);
++  assert.deepEqual(robots, [indexable ? "index, follow" : "noindex, follow"], path);
++  assert.ok(body.includes(`<link rel="canonical" href="https://www.wikibiome.com${path}"`), path);
++  assert.equal(paths.includes(path), indexable, path);
++  assert.ok(body.includes("Claim or review this work"), `${path} must retain researcher workflow`);
++  results.push({ path, status: response.status, robots: robots[0], inSitemap: indexable });
++}
++for (const id of ["akkermansia-muciniphila", "autism-spectrum-disorder", "mollicutes"]) {
++  const path = `/article/${id}/history`;
++  const { response, body } = await get(path);
++  assert.equal(response.status, 200, path);
++  assert.match(body, /<meta name="robots" content="noindex, follow"/);
++  assert.ok(body.includes("Recorded revisions"));
++  assert.equal(paths.includes(path), false);
++  results.push({ path, status: response.status, robots: "noindex, follow" });
++}
++for (const [path, destination] of [
++  ["/signature-explorer", "/category/signature"],
++  ["/signature-explorer.html", "/category/signature"],
++  ["/signatures", "/category/signature"],
++  ["/signature-explorer.html?disease=autism-spectrum-disorder&tag=a&tag=b", "/article/autism-spectrum-disorder?disease=autism-spectrum-disorder&tag=a&tag=b#signature"],
++  ["/signatures?disease=not-a-disease", "/category/signature?disease=not-a-disease"],
++]) {
++  const { response } = await get(path);
++  assert.equal(response.status, 308, path);
++  assert.equal(response.headers.get("location"), destination, path);
++  assert.equal((await get(destination)).response.status, 200, `${path} final destination`);
++  results.push({ path, status: response.status, destination });
++}
++const robots = await get("/robots.txt");
++assert.equal(robots.response.status, 200);
++assert.doesNotMatch(robots.body, /^Disallow:\s*\/source\/\s*$/m);
++assert.doesNotMatch(robots.body, /^Disallow:\s*\/article\/\*\/history\s*$/m);
++console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: 717, sourceUrls: 1929, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
+diff --git a/tests/indexing-policy.test.mjs b/tests/indexing-policy.test.mjs
+new file mode 100644
+index 0000000..8b77857
+--- /dev/null
++++ b/tests/indexing-policy.test.mjs
+@@ -0,0 +1,38 @@
++import assert from "node:assert/strict";
++import test from "node:test";
++import { handleEarlyRoutingPolicy, SIGNATURE_EXPLORER_REDIRECTS } from "../lib/routing-policy.mjs";
++import { isIndexableSource } from "../lib/source-indexing.mjs";
++import review from "../data/source-indexing-review.json" with { type: "json" };
++import content from "../data/content.generated.json" with { type: "json" };
++
++test("legacy signature URLs reach the final destination in one permanent redirect", async () => {
++  for (const { source } of SIGNATURE_EXPLORER_REDIRECTS) {
++    for (const [query, target] of [
++      ["", "/category/signature"],
++      ["?utm_source=gsc&tag=a&tag=b", "/category/signature?utm_source=gsc&tag=a&tag=b"],
++      ["?disease=autism-spectrum-disorder", "/article/autism-spectrum-disorder?disease=autism-spectrum-disorder#signature"],
++      ["?disease=Autism%20Spectrum%20Disorder-signature&tag=a&tag=b", "/article/autism-spectrum-disorder?disease=Autism%20Spectrum%20Disorder-signature&tag=a&tag=b#signature"],
++      ["?disease=not-a-disease", "/category/signature?disease=not-a-disease"],
++      ["?disease=https%3A%2F%2Fevil.example", "/category/signature?disease=https%3A%2F%2Fevil.example"],
++    ]) {
++      const response = await handleEarlyRoutingPolicy(new Request(`https://www.wikibiome.com${source}${query}`));
++      assert.equal(response.status, 308);
++      assert.equal(response.headers.get("location"), target);
++      assert.equal(await handleEarlyRoutingPolicy(new Request(new URL(target, "https://www.wikibiome.com"))), undefined);
++    }
++  }
++});
++
++test("source exclusions are limited to existing, explicitly reviewed identities", () => {
++  const ids = review.citationOnlySources.map(({ id }) => id);
++  assert.equal(ids.length, 11);
++  assert.equal(new Set(ids).size, ids.length);
++  for (const { id, reason } of review.citationOnlySources) {
++    assert.ok(content.sourceLookup[id], `missing source ${id}`);
++    assert.ok(reason.length > 20);
++    assert.equal(isIndexableSource(id), false);
++  }
++  assert.equal(isIndexableSource("scholefield-2024-brain-metallomics-dementia"), true);
++  assert.equal(isIndexableSource("new-unreviewed-source"), true);
++  assert.equal(Object.keys(content.sourceLookup).filter(isIndexableSource).length, 1929);
++});
+diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
+index dfd47d9..43303b0 100644
+--- a/tests/rendered-html.test.mjs
++++ b/tests/rendered-html.test.mjs
+@@ -21,6 +21,14 @@ import { selectNextMediaBatch } from "../scripts/article-media-corpus.mjs";
+ const mediaProgram = JSON.parse(readFileSync(new URL("../data/article-media-coverage.generated.json", import.meta.url), "utf8"));
+ 
+ async function render(pathname = "/") {
++  // The Sites build imports cloudflare: APIs. Use its local Worker runtime
++  // when the ordinary Node loader cannot evaluate those modules.
++  if (process.env.WIKIBIOME_TEST_BASE_URL) {
++    return fetch(new URL(pathname, process.env.WIKIBIOME_TEST_BASE_URL), {
++      redirect: "manual",
++      headers: { accept: "text/html" },
++    });
++  }
+   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
+   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-${pathname}`);
+   const { default: worker } = await import(workerUrl.href);
+@@ -5955,7 +5963,6 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
+ 
+   const redirects = [
+     ["/matrix", "/clusters"],
+-    ["/signatures?disease=alzheimers-disease", "/article/alzheimers-disease#signature"],
+     ["/tags?tags=nickel,gut", "/search?q=nickel%20gut"],
+     ["/submit", "/submit-work"],
+     ["/vote", "/contributions"],
+@@ -5988,8 +5995,9 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
+ 
+ test("enforces worker-level routing parity for legacy redirects", async () => {
+   const cases = [
+-    ["/signature-explorer", 308, "/signatures"],
+-    ["/signature-explorer.html?disease=autism-spectrum-disorder", 308, "/signatures?disease=autism-spectrum-disorder"],
++    ["/signature-explorer", 308, "/category/signature"],
++    ["/signatures?disease=alzheimers-disease", 308, "/article/alzheimers-disease?disease=alzheimers-disease#signature"],
++    ["/signature-explorer.html?disease=autism-spectrum-disorder", 308, "/article/autism-spectrum-disorder?disease=autism-spectrum-disorder#signature"],
+     ["/article/DNA-damage?utm_source=console&checked=1", 301, "/article/dna-damage?utm_source=console&checked=1"],
+     ["/article/autism-spectrum-disorder-signature", 308, "/article/autism-spectrum-disorder#signature"],
+     ["/article/autism-spectrum-disorder-signature?from=bing", 308, "/article/autism-spectrum-disorder?from=bing#signature"],
+@@ -6139,12 +6147,12 @@ test("renders the claim, contribute, collaborate researcher network", async () =
+   assert.match(standard, /Completing it does not guarantee citation/);
+   assert.match(standard, /href="\/wikibiome-ready-research-template\.md"/);
+ 
+-  assert.match(submit, /Add evidence without bypassing editorial review/);
+-  assert.match(submit, /Continue with ORCID/);
+-  assert.match(submit, /Acceptance creates an editorial change packet/);
+-  assert.match(institutions, /Research organization network/);
+-  assert.match(institutions, /delayed ROR record no longer blocks a reviewed provisional profile/);
+-  assert.match(institutions, /without paid placement, citation guarantees, or competitive rankings/);
++  assert.match(submit, /Add a paper/);
++  assert.match(submit, /href="\/api\/auth\/orcid\/start\?returnTo=\/submit-work"/);
++  assert.match(submit, /An appointed topic reviewer assesses the packet; a separate editor decides what can be published/);
++  assert.match(institutions, /Request a reviewed profile/);
++  assert.match(institutions, /delayed ROR record does not block a reviewed provisional profile/);
++  assert.match(institutions, /Payment never affects approval or visibility/);
+ 
+   assert.match(source, /Are you an author of this work\?/);
+   assert.match(source, /href="\/source\/ahmed-2025-metals-alzheimers-mechanistic-review\/claim"/);
