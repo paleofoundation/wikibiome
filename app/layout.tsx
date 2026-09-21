@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     ...(googleVerification ? { google: googleVerification } : {}),
     ...(bingVerification ? { other: { "msvalidate.01": bingVerification } } : {}),
   },
-  icons: { icon: "/favicon.png" },
+  icons: { icon: { url: "/favicon.svg?v=2", type: "image/svg+xml" } },
 };
 
 export default function RootLayout({
