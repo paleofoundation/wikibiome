@@ -21,6 +21,14 @@ import { selectNextMediaBatch } from "../scripts/article-media-corpus.mjs";
 const mediaProgram = JSON.parse(readFileSync(new URL("../data/article-media-coverage.generated.json", import.meta.url), "utf8"));
 
 async function render(pathname = "/") {
+  // The Sites build imports cloudflare: APIs. Use its local Worker runtime
+  // when the ordinary Node loader cannot evaluate those modules.
+  if (process.env.WIKIBIOME_TEST_BASE_URL) {
+    return fetch(new URL(pathname, process.env.WIKIBIOME_TEST_BASE_URL), {
+      redirect: "manual",
+      headers: { accept: "text/html" },
+    });
+  }
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}-${pathname}`);
   const { default: worker } = await import(workerUrl.href);
@@ -5955,7 +5963,6 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
 
   const redirects = [
     ["/matrix", "/clusters"],
-    ["/signatures?disease=alzheimers-disease", "/article/alzheimers-disease#signature"],
     ["/tags?tags=nickel,gut", "/search?q=nickel%20gut"],
     ["/submit", "/submit-work"],
     ["/vote", "/contributions"],
@@ -5988,8 +5995,9 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
 
 test("enforces worker-level routing parity for legacy redirects", async () => {
   const cases = [
-    ["/signature-explorer", 308, "/signatures"],
-    ["/signature-explorer.html?disease=autism-spectrum-disorder", 308, "/signatures?disease=autism-spectrum-disorder"],
+    ["/signature-explorer", 308, "/category/signature"],
+    ["/signatures?disease=alzheimers-disease", 308, "/article/alzheimers-disease?disease=alzheimers-disease#signature"],
+    ["/signature-explorer.html?disease=autism-spectrum-disorder", 308, "/article/autism-spectrum-disorder?disease=autism-spectrum-disorder#signature"],
     ["/article/DNA-damage?utm_source=console&checked=1", 301, "/article/dna-damage?utm_source=console&checked=1"],
     ["/article/autism-spectrum-disorder-signature", 308, "/article/autism-spectrum-disorder#signature"],
     ["/article/autism-spectrum-disorder-signature?from=bing", 308, "/article/autism-spectrum-disorder?from=bing#signature"],
@@ -6139,12 +6147,12 @@ test("renders the claim, contribute, collaborate researcher network", async () =
   assert.match(standard, /Completing it does not guarantee citation/);
   assert.match(standard, /href="\/wikibiome-ready-research-template\.md"/);
 
-  assert.match(submit, /Add evidence without bypassing editorial review/);
-  assert.match(submit, /Continue with ORCID/);
-  assert.match(submit, /Acceptance creates an editorial change packet/);
-  assert.match(institutions, /Research organization network/);
-  assert.match(institutions, /delayed ROR record no longer blocks a reviewed provisional profile/);
-  assert.match(institutions, /without paid placement, citation guarantees, or competitive rankings/);
+  assert.match(submit, /Add a paper/);
+  assert.match(submit, /href="\/api\/auth\/orcid\/start\?returnTo=\/submit-work"/);
+  assert.match(submit, /An appointed topic reviewer assesses the packet; a separate editor decides what can be published/);
+  assert.match(institutions, /Request a reviewed profile/);
+  assert.match(institutions, /delayed ROR record does not block a reviewed provisional profile/);
+  assert.match(institutions, /Payment never affects approval or visibility/);
 
   assert.match(source, /Are you an author of this work\?/);
   assert.match(source, /href="\/source\/ahmed-2025-metals-alzheimers-mechanistic-review\/claim"/);

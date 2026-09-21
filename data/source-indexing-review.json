@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "reviewedAt": "2026-09-21",
+  "policy": "Only the individually reviewed citation-only pages listed here are noindex, follow and excluded from the sitemap. All other source pages retain their existing policy. Re-review and remove an entry after substantive source explanation or accepted context is published. Preserve citation access and contribution workflows.",
+  "citationOnlySources": [
+    { "id": "16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis", "reason": "Citation and Type 1 Diabetes backlink only; placeholder bibliographic fields and no study explanation." },
+    { "id": "16s-rrna-t2d-subgingival-plaque-microbiota", "reason": "Citation with placeholder bibliographic fields; no study interpretation or substantive public contribution." },
+    { "id": "brownlee-2017-ms-diagnosis-differential-review", "reason": "Bibliographic record only; no explanation of diagnostic findings, limitations, or use in WikiBiome." },
+    { "id": "dong-2021-tsh-salivary-microbiome-shifts", "reason": "Bibliographic record only; no design, findings, limitations, or source-specific explanation." },
+    { "id": "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese", "reason": "Citation and article-title backlinks only; no study explanation or substantive public collaboration." },
+    { "id": "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility", "reason": "Citation and article-title backlinks only; no account of evidence, findings, or uncertainty." },
+    { "id": "maddu-2025-microbiome-drug-interactions-pharmacokinetic-review", "reason": "Citation and three article-title backlinks only; no explanation of the reviewed evidence." },
+    { "id": "papadopoulou-2019-serum-metabolomic-profile-ppd", "reason": "Citation and article-title backlink only; no study design, findings, or limitations discussion." },
+    { "id": "tsushima-2024-ketogenic-diet-pcos-fertility", "reason": "Citation and article-title backlinks only; no study design, outcomes, or evidentiary limits explanation." },
+    { "id": "yu-2021-ppd-status-biomarkers-identification", "reason": "Citation and article-title backlink only; no source-specific explanation or substantive public discussion." },
+    { "id": "zytnick-2024-methylolanthanin-lanthanide-metallophore-methylobacterium", "reason": "Bibliographic record only; no explanation of the discovery, methods, or relevance to WikiBiome." }
+  ]
+}

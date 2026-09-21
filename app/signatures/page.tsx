@@ -1,13 +1,13 @@
-import { redirect } from "next/navigation";
-import { getDiseaseRecord, normalizeWikiId } from "@/lib/wikibiome";
+import { permanentRedirect } from "next/navigation";
+import { signatureExplorerDestination } from "@/lib/routing-policy.mjs";
 
-type SearchParams = Promise<{ disease?: string }>;
+type SearchParams = Promise<Record<string, string | string[] | undefined>>;
 
 export default async function LegacySignaturesPage({ searchParams }: { searchParams: SearchParams }) {
-  const { disease } = await searchParams;
-  if (disease) {
-    const record = getDiseaseRecord(normalizeWikiId(disease));
-    if (record) redirect(`/article/${record.canonicalId}#signature`);
+  const values = await searchParams;
+  const query = new URLSearchParams();
+  for (const [key, value] of Object.entries(values)) {
+    for (const item of Array.isArray(value) ? value : value === undefined ? [] : [value]) query.append(key, item);
   }
-  redirect("/category/signature");
+  permanentRedirect(signatureExplorerDestination(query.size ? `?${query}` : ""));
 }

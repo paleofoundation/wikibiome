@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
   const canonicalId = canonicalArticleId(id);
   const title = `Revision history: ${page.title} — WikiBiome`;
   const description = `Source provenance and revision history for the WikiBiome article ${page.title}.`;
-  return publicPageMetadata({ title, description, path: `/article/${canonicalId}/history`, type: "article" });
+  return publicPageMetadata({ title, description, path: `/article/${canonicalId}/history`, type: "article", index: false });
 }
 
 export default async function ArticleHistoryPage({ params }: RouteProps) {

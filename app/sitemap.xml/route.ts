@@ -1,9 +1,10 @@
-import { allSources, allWikiPages, canonicalArticleId, categories, generatedAt, getWikiPage } from "@/lib/wikibiome";
+import { allSources, allWikiPages, canonicalArticleId, canonicalSourceId, categories, getWikiPage } from "@/lib/wikibiome";
 import { getArticleMedia, type ArticleMedia } from "@/lib/article-media";
 import { organizationProfiles } from "@/lib/organization-profiles.mjs";
 
 import { PUBLIC_ORIGIN as ORIGIN } from "@/lib/search-discovery";
 import { isIndexableArticle } from "@/lib/article-indexing";
+import { isIndexableSource } from "@/lib/source-indexing.mjs";
 type SitemapEntry = {
   path: string;
   lastmod?: string;
@@ -32,20 +33,23 @@ const publicRoutes = [
 ];
 
 export function GET() {
-  const articleMap = new Map<string, string>();
+  const articleMap = new Map<string, string | undefined>();
   for (const page of allWikiPages) {
     const id = canonicalArticleId(page.id);
     const canonicalPage = getWikiPage(id);
     if (!canonicalPage || !isIndexableArticle(canonicalPage)) continue;
-    const updated = validDate(page.updated) ?? validDate(generatedAt) ?? new Date().toISOString();
+    // A build/sync timestamp is not evidence that an article changed.
+    const updated = validDate(page.updated);
     const existing = articleMap.get(id);
-    if (!existing || updated > existing) articleMap.set(id, updated);
+    if (!articleMap.has(id) || (updated && (!existing || updated > existing))) articleMap.set(id, updated);
   }
 
   const entries: SitemapEntry[] = [
-    ...publicRoutes.map((path) => ({ path, lastmod: validDate(generatedAt), priority: path === "/" ? "1.0" : "0.7" })),
+    ...publicRoutes.map((path) => ({ path, priority: path === "/" ? "1.0" : "0.7" })),
     ...[...articleMap.entries()].map(([id, lastmod]) => ({ path: `/article/${id}`, lastmod, priority: "0.8", media: getArticleMedia(id) })),
-    ...Object.keys(allSources).map((id) => ({ path: `/source/${id}`, lastmod: validDate(generatedAt), priority: "0.5" })),
+    ...[...new Set(Object.keys(allSources).map(canonicalSourceId))]
+      .filter(isIndexableSource)
+      .map((id) => ({ path: `/source/${id}`, priority: "0.5" })),
   ];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.map((entry) => {

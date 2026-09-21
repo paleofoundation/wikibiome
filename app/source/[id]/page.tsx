@@ -4,6 +4,7 @@ import { StructuredData } from "@/app/_components/StructuredData";
 import { WikiSource } from "@/app/_components/WikiSource";
 import { publicPageMetadata, sourceStructuredData } from "@/lib/search-discovery";
 import { canonicalSourceId, getSource } from "@/lib/wikibiome";
+import { isIndexableSource } from "@/lib/source-indexing.mjs";
 
 type RouteProps = { params: Promise<{ id: string }> };
 
@@ -19,6 +20,7 @@ export async function generateMetadata({ params }: RouteProps): Promise<Metadata
     description,
     path: `/source/${canonicalId}`,
     type: "article",
+    index: isIndexableSource(canonicalId),
   });
 }
 
