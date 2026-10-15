@@ -1,0 +1,356 @@
+diff --git a/data/source-indexing-review.json b/data/source-indexing-review.json
+--- a/data/source-indexing-review.json
++++ b/data/source-indexing-review.json
+@@ -1,18 +1,201 @@
+ {
+-  "schemaVersion": 1,
+-  "reviewedAt": "2026-09-21",
+-  "policy": "Only the individually reviewed citation-only pages listed here are noindex, follow and excluded from the sitemap. All other source pages retain their existing policy. Re-review and remove an entry after substantive source explanation or accepted context is published. Preserve citation access and contribution workflows.",
++  "schemaVersion": 2,
++  "reviewedAt": "2026-09-25",
++  "policy": "Source pages are bibliographic citation records (title, authors, journal, year, DOI). Since 2026-09-25 every /source/* page defaults to noindex, follow and is excluded from sitemap.xml, so Google's crawl budget goes to the 717 articles. Pages stay publicly reachable, keep their self-canonical and 'Claim or review this work' workflow, and pass link equity via follow. Only sources listed in indexableSources (keystone sources with a substantive source-specific 'why keystone' explanation) stay indexable. Add a source to indexableSources only after substantive source explanation or accepted public context is published. citationOnlySources is retained as the 2026-09-21 reviewed record and always wins over indexableSources.",
+   "citationOnlySources": [
+-    { "id": "16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis", "reason": "Citation and Type 1 Diabetes backlink only; placeholder bibliographic fields and no study explanation." },
+-    { "id": "16s-rrna-t2d-subgingival-plaque-microbiota", "reason": "Citation with placeholder bibliographic fields; no study interpretation or substantive public contribution." },
+-    { "id": "brownlee-2017-ms-diagnosis-differential-review", "reason": "Bibliographic record only; no explanation of diagnostic findings, limitations, or use in WikiBiome." },
+-    { "id": "dong-2021-tsh-salivary-microbiome-shifts", "reason": "Bibliographic record only; no design, findings, limitations, or source-specific explanation." },
+-    { "id": "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese", "reason": "Citation and article-title backlinks only; no study explanation or substantive public collaboration." },
+-    { "id": "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility", "reason": "Citation and article-title backlinks only; no account of evidence, findings, or uncertainty." },
+-    { "id": "maddu-2025-microbiome-drug-interactions-pharmacokinetic-review", "reason": "Citation and three article-title backlinks only; no explanation of the reviewed evidence." },
+-    { "id": "papadopoulou-2019-serum-metabolomic-profile-ppd", "reason": "Citation and article-title backlink only; no study design, findings, or limitations discussion." },
+-    { "id": "tsushima-2024-ketogenic-diet-pcos-fertility", "reason": "Citation and article-title backlinks only; no study design, outcomes, or evidentiary limits explanation." },
+-    { "id": "yu-2021-ppd-status-biomarkers-identification", "reason": "Citation and article-title backlink only; no source-specific explanation or substantive public discussion." },
+-    { "id": "zytnick-2024-methylolanthanin-lanthanide-metallophore-methylobacterium", "reason": "Bibliographic record only; no explanation of the discovery, methods, or relevance to WikiBiome." }
++    {
++      "id": "16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis",
++      "reason": "Citation and Type 1 Diabetes backlink only; placeholder bibliographic fields and no study explanation."
++    },
++    {
++      "id": "16s-rrna-t2d-subgingival-plaque-microbiota",
++      "reason": "Citation with placeholder bibliographic fields; no study interpretation or substantive public contribution."
++    },
++    {
++      "id": "brownlee-2017-ms-diagnosis-differential-review",
++      "reason": "Bibliographic record only; no explanation of diagnostic findings, limitations, or use in WikiBiome."
++    },
++    {
++      "id": "dong-2021-tsh-salivary-microbiome-shifts",
++      "reason": "Bibliographic record only; no design, findings, limitations, or source-specific explanation."
++    },
++    {
++      "id": "he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese",
++      "reason": "Citation and article-title backlinks only; no study explanation or substantive public collaboration."
++    },
++    {
++      "id": "kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility",
++      "reason": "Citation and article-title backlinks only; no account of evidence, findings, or uncertainty."
++    },
++    {
++      "id": "maddu-2025-microbiome-drug-interactions-pharmacokinetic-review",
++      "reason": "Citation and three article-title backlinks only; no explanation of the reviewed evidence."
++    },
++    {
++      "id": "papadopoulou-2019-serum-metabolomic-profile-ppd",
++      "reason": "Citation and article-title backlink only; no study design, findings, or limitations discussion."
++    },
++    {
++      "id": "tsushima-2024-ketogenic-diet-pcos-fertility",
++      "reason": "Citation and article-title backlinks only; no study design, outcomes, or evidentiary limits explanation."
++    },
++    {
++      "id": "yu-2021-ppd-status-biomarkers-identification",
++      "reason": "Citation and article-title backlink only; no source-specific explanation or substantive public discussion."
++    },
++    {
++      "id": "zytnick-2024-methylolanthanin-lanthanide-metallophore-methylobacterium",
++      "reason": "Bibliographic record only; no explanation of the discovery, methods, or relevance to WikiBiome."
++    }
++  ],
++  "indexableSources": [
++    {
++      "id": "ahmed-2025-metals-alzheimers-mechanistic-review",
++      "reason": "Keystone source with a substantive source-specific explanation (492 chars)."
++    },
++    {
++      "id": "ali-2024-heavy-metals-breast-cancer-review",
++      "reason": "Keystone source with a substantive source-specific explanation (460 chars)."
++    },
++    {
++      "id": "anchidin-norocel-2025-heavy-metal-gut-probiotics-biosensors",
++      "reason": "Keystone source with a substantive source-specific explanation (496 chars)."
++    },
++    {
++      "id": "aquino-2012-cadmium-nickel-metalloestrogens",
++      "reason": "Keystone source with a substantive source-specific explanation (512 chars)."
++    },
++    {
++      "id": "bakulski-2020-heavy-metals-alzheimers-dementias",
++      "reason": "Keystone source with a substantive source-specific explanation (513 chars)."
++    },
++    {
++      "id": "balali-mood-2021-toxic-mechanisms-five-heavy-metals",
++      "reason": "Keystone source with a substantive source-specific explanation (414 chars)."
++    },
++    {
++      "id": "bao-2024-iron-homeostasis-intestinal-immunity-gut-microbiota",
++      "reason": "Keystone source with a substantive source-specific explanation (349 chars)."
++    },
++    {
++      "id": "brylinski-2025-trace-elements-thyroid-diseases",
++      "reason": "Keystone source with a substantive source-specific explanation (349 chars)."
++    },
++    {
++      "id": "cassat-2012-metal-acquisition-staphylococcus-aureus",
++      "reason": "Keystone source with a substantive source-specific explanation (437 chars)."
++    },
++    {
++      "id": "chin-chan-2015-environmental-pollutants-ad-pd",
++      "reason": "Keystone source with a substantive source-specific explanation (547 chars)."
++    },
++    {
++      "id": "costafrolaz-2026-yjbi-envelope-zinc-stress-antibiotic-caulobacter",
++      "reason": "Keystone source with a substantive source-specific explanation (559 chars)."
++    },
++    {
++      "id": "duan-2020-gut-microbiota-heavy-metal-probiotic-strategy",
++      "reason": "Keystone source with a substantive source-specific explanation (379 chars)."
++    },
++    {
++      "id": "ghosh-2023-heavy-metals-gut-barrier-integrity",
++      "reason": "Keystone source with a substantive source-specific explanation (521 chars)."
++    },
++    {
++      "id": "giambo-2021-toxic-metal-exposure-gut-microbiota-review",
++      "reason": "Keystone source with a substantive source-specific explanation (332 chars)."
++    },
++    {
++      "id": "guevara-ramirez-2024-dietary-heavy-metals-neurodegeneration",
++      "reason": "Keystone source with a substantive source-specific explanation (524 chars)."
++    },
++    {
++      "id": "jaishankar-2014-heavy-metal-toxicity-mechanisms",
++      "reason": "Keystone source with a substantive source-specific explanation (406 chars)."
++    },
++    {
++      "id": "khan-2014-metals-type2-diabetes",
++      "reason": "Keystone source with a substantive source-specific explanation (522 chars)."
++    },
++    {
++      "id": "kirmizi-2020-heavy-metals-pcos",
++      "reason": "Keystone source with a substantive source-specific explanation (494 chars)."
++    },
++    {
++      "id": "kravchenko-2023-thyroid-hormones-minerals-AITD",
++      "reason": "Keystone source with a substantive source-specific explanation (549 chars)."
++    },
++    {
++      "id": "liu-2022-heavy-metals-breast-cancer-meta-analysis",
++      "reason": "Keystone source with a substantive source-specific explanation (372 chars)."
++    },
++    {
++      "id": "liu-2025-cardiometabolic-nickel",
++      "reason": "Keystone source with a substantive source-specific explanation (489 chars)."
++    },
++    {
++      "id": "maier-2019-nickel-microbial-pathogenesis",
++      "reason": "Keystone source with a substantive source-specific explanation (577 chars)."
++    },
++    {
++      "id": "microbiota-gut-brain-axis-neurodevelopmental-review",
++      "reason": "Keystone source with a substantive source-specific explanation (318 chars)."
++    },
++    {
++      "id": "mishra-2022-molecular-mechanisms-heavy-metals-ckd",
++      "reason": "Keystone source with a substantive source-specific explanation (514 chars)."
++    },
++    {
++      "id": "ogrady-2025-metal-dyshomeostasis-asd",
++      "reason": "Keystone source with a substantive source-specific explanation (513 chars)."
++    },
++    {
++      "id": "patil-2021-infection-metallomics-critical-care",
++      "reason": "Keystone source with a substantive source-specific explanation (394 chars)."
++    },
++    {
++      "id": "pendergrass-2026-heavy-metals-obesity-epidemic",
++      "reason": "Keystone source with a substantive source-specific explanation (645 chars)."
++    },
++    {
++      "id": "pendergrass-2026-microbial-metallomics-parkinsons-ferroptosis",
++      "reason": "Keystone source with a substantive source-specific explanation (578 chars)."
++    },
++    {
++      "id": "pendergrass-2026-pheomelanin-neuromelanin-parkinsons-redheads",
++      "reason": "Keystone source with a substantive source-specific explanation (615 chars)."
++    },
++    {
++      "id": "rasin-2025-cadmium-exposure-health-review",
++      "reason": "Keystone source with a substantive source-specific explanation (552 chars)."
++    },
++    {
++      "id": "saleh-2020-serum-trace-elements-prostate-cancer",
++      "reason": "Keystone source with a substantive source-specific explanation (433 chars)."
++    },
++    {
++      "id": "scholefield-2024-brain-metallomics-dementia",
++      "reason": "Keystone source with a substantive source-specific explanation (387 chars)."
++    },
++    {
++      "id": "street-2024-environmental-factors-thyroid-function",
++      "reason": "Keystone source with a substantive source-specific explanation (327 chars)."
++    },
++    {
++      "id": "tizabi-2023-lead-gut-microbiota-asd",
++      "reason": "Keystone source with a substantive source-specific explanation (388 chars)."
++    },
++    {
++      "id": "yang-2024-zip8-a391t-crohns-metal-dyshomeostasis-microbiome",
++      "reason": "Keystone source with a substantive source-specific explanation (351 chars)."
++    },
++    {
++      "id": "zhai-2016-probiotics-cadmium",
++      "reason": "Keystone source with a substantive source-specific explanation (351 chars)."
++    },
++    {
++      "id": "zhu-2024-toxic-essential-metals-gut-microbiota",
++      "reason": "Keystone source with a substantive source-specific explanation (335 chars)."
++    }
+   ]
+ }
+diff --git a/lib/source-indexing.mjs b/lib/source-indexing.mjs
+--- a/lib/source-indexing.mjs
++++ b/lib/source-indexing.mjs
+@@ -1,9 +1,12 @@
+ import review from "../data/source-indexing-review.json" with { type: "json" };
+ 
+-// Explicitly reviewed decisions only. Missing metadata, backlink counts,
+-// and unreviewed records must never automatically trigger exclusion.
++// Source pages are citation records. Since 2026-09-25 they default to
++// noindex, follow and stay out of sitemap.xml; only explicitly reviewed
++// sources with substantive source-specific content remain indexable.
++// The 2026-09-21 citation-only exclusions always win.
+ const excludedIds = new Set(review.citationOnlySources.map((source) => source.id));
++const indexableIds = new Set((review.indexableSources ?? []).map((source) => source.id));
+ 
+ export function isIndexableSource(id) {
+-  return !excludedIds.has(id);
++  return indexableIds.has(id) && !excludedIds.has(id);
+ }
+diff --git a/scripts/audit-public-routing-contract.mjs b/scripts/audit-public-routing-contract.mjs
+--- a/scripts/audit-public-routing-contract.mjs
++++ b/scripts/audit-public-routing-contract.mjs
+@@ -22,7 +22,7 @@
+ 
+ const REPRESENTATIVES = Object.freeze([
+   { path: "/article/akkermansia-muciniphila", schema: ["WebPage", "Article", "ImageObject"] },
+-  { path: "/source/amadi-2022-dietary-interventions-asd-systematic-review", schema: ["WebPage", "ScholarlyArticle"] },
++  { path: "/source/scholefield-2024-brain-metallomics-dementia", schema: ["WebPage", "ScholarlyArticle"] },
+   { path: "/category/microbe", schema: ["CollectionPage"] },
+   { path: "/explore", schema: ["WebApplication"] },
+ ]);
+diff --git a/scripts/audit-search-surface.mjs b/scripts/audit-search-surface.mjs
+--- a/scripts/audit-search-surface.mjs
++++ b/scripts/audit-search-surface.mjs
+@@ -75,7 +75,7 @@
+ 
+ const representatives = [
+   { path: "/article/akkermansia-muciniphila", type: "article", schema: ["WebPage", "Article", "ImageObject"] },
+-  { path: "/source/amadi-2022-dietary-interventions-asd-systematic-review", type: "source", schema: ["WebPage", "ScholarlyArticle"] },
++  { path: "/source/scholefield-2024-brain-metallomics-dementia", type: "source", schema: ["WebPage", "ScholarlyArticle"] },
+   { path: "/category/microbe", type: "category", schema: ["CollectionPage"] },
+   { path: "/explore", type: "research-tool", schema: ["WebApplication"] },
+ ];
+diff --git a/scripts/verify-indexing-repair.mjs b/scripts/verify-indexing-repair.mjs
+--- a/scripts/verify-indexing-repair.mjs
++++ b/scripts/verify-indexing-repair.mjs
+@@ -14,7 +14,7 @@
+ const entries = [...sitemap.body.matchAll(/<url>([\s\S]*?)<\/url>/g)].map((match) => match[1]);
+ const paths = entries.map((entry) => new URL(entry.match(/<loc>([^<]+)<\/loc>/)[1]).pathname);
+ assert.equal(new Set(paths).size, paths.length, "sitemap must not repeat canonical URLs");
+-assert.equal(paths.filter((path) => path.startsWith("/source/")).length, 1929);
++assert.equal(paths.filter((path) => path.startsWith("/source/")).length, review.indexableSources.length);
+ assert.equal(paths.filter((path) => path.startsWith("/article/")).length, 717);
+ for (let i = 0; i < entries.length; i++) {
+   if (!paths[i].startsWith("/article/")) assert.doesNotMatch(entries[i], /<lastmod>/, paths[i]);
+@@ -28,7 +28,8 @@
+ const sourceCases = [
+   ...review.citationOnlySources.map(({ id }) => [id, false]),
+   ["scholefield-2024-brain-metallomics-dementia", true],
+-  ["amadi-2022-dietary-interventions-asd-systematic-review", true],
++  ["amadi-2022-dietary-interventions-asd-systematic-review", false],
++  ["rizzi-2017-ibs-nickel-diet", false],
+ ];
+ for (const [id, indexable] of sourceCases) {
+   const path = `/source/${id}`;
+@@ -67,4 +68,4 @@
+ assert.equal(robots.response.status, 200);
+ assert.doesNotMatch(robots.body, /^Disallow:\s*\/source\/\s*$/m);
+ assert.doesNotMatch(robots.body, /^Disallow:\s*\/article\/\*\/history\s*$/m);
+-console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: 717, sourceUrls: 1929, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
++console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: 717, sourceUrls: review.indexableSources.length, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
+diff --git a/tests/indexing-policy.test.mjs b/tests/indexing-policy.test.mjs
+--- a/tests/indexing-policy.test.mjs
++++ b/tests/indexing-policy.test.mjs
+@@ -32,7 +32,22 @@
+     assert.ok(reason.length > 20);
+     assert.equal(isIndexableSource(id), false);
+   }
++});
++
++test("source pages default to noindex; only reviewed substantive sources stay indexable", () => {
++  const allow = review.indexableSources.map(({ id }) => id);
++  assert.equal(new Set(allow).size, allow.length);
++  for (const id of allow) {
++    const source = content.sourceLookup[id];
++    assert.ok(source, `missing source ${id}`);
++    assert.equal(source.keystone, true, `${id} must be a keystone source`);
++    assert.ok((source.why_keystone ?? "").trim().length >= 200, `${id} needs a substantive explanation`);
++    assert.equal(isIndexableSource(id), true, id);
++  }
+   assert.equal(isIndexableSource("scholefield-2024-brain-metallomics-dementia"), true);
+-  assert.equal(isIndexableSource("new-unreviewed-source"), true);
+-  assert.equal(Object.keys(content.sourceLookup).filter(isIndexableSource).length, 1929);
++  assert.equal(isIndexableSource("amadi-2022-dietary-interventions-asd-systematic-review"), false);
++  assert.equal(isIndexableSource("rizzi-2017-ibs-nickel-diet"), false);
++  assert.equal(isIndexableSource("new-unreviewed-source"), false);
++  assert.equal(Object.keys(content.sourceLookup).filter(isIndexableSource).length, allow.length);
++  assert.equal(allow.length, 37);
+ });
+diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
+--- a/tests/rendered-html.test.mjs
++++ b/tests/rendered-html.test.mjs
+@@ -6055,7 +6055,7 @@
+ test("publishes self-canonical metadata, social previews, and representative Schema.org graphs", async () => {
+   const routes = [
+     ["/article/akkermansia-muciniphila", "data-article-media-schema", ["WebPage", "Article", "ImageObject"]],
+-    ["/source/amadi-2022-dietary-interventions-asd-systematic-review", "data-source-schema", ["WebPage", "ScholarlyArticle"]],
++    ["/source/scholefield-2024-brain-metallomics-dementia", "data-source-schema", ["WebPage", "ScholarlyArticle"]],
+     ["/category/microbe", "data-category-schema", ["CollectionPage"]],
+     ["/explore", "data-research-tool-schema", ["WebApplication"]],
+   ];
+@@ -6404,6 +6404,25 @@
+ });
+ 
+ 
++test("thin citation-only source pages are noindex, follow and absent from the sitemap", async () => {
++  const review = JSON.parse(readFileSync(new URL("../data/source-indexing-review.json", import.meta.url), "utf8"));
++  const sitemap = await (await render("/sitemap.xml")).text();
++  const sourceLocs = sitemap.match(/<loc>[^<]*\/source\/[^<]*<\/loc>/g) ?? [];
++  assert.equal(sourceLocs.length, review.indexableSources.length);
++  for (const path of ["/source/rizzi-2017-ibs-nickel-diet", "/source/amadi-2022-dietary-interventions-asd-systematic-review"]) {
++    const response = await render(path);
++    assert.equal(response.status, 200, path);
++    const html = await response.text();
++    assert.deepEqual(htmlRobotsMeta(html), ["noindex, follow"], path);
++    assert.equal(htmlCanonical(html), `${PUBLIC_ORIGIN}${path}`);
++    assert.ok(!sitemap.includes(`<loc>${PUBLIC_ORIGIN}${path}</loc>`), path);
++  }
++  const keystone = `/source/${review.indexableSources[0].id}`;
++  const keystoneHtml = await (await render(keystone)).text();
++  assert.doesNotMatch(keystoneHtml, /<meta name="robots" content="noindex/);
++  assert.ok(sitemap.includes(`<loc>${PUBLIC_ORIGIN}${keystone}</loc>`));
++});
++
+ test("withholds search variants and only audited empty articles from indexing and sitemap", async () => {
+   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+   const empty = content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content"));
