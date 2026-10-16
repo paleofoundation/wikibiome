@@ -1,9 +1,9 @@
 # ORCID logo links and specific page history
 
-Sites source: `6cf4291509dcf7fc35625714634c5790523ce1e4`.
+Sites source: `7a95e122e81c6d442311db07331bc2dc0b45aa38`.
 Base: `0cd4e85a350e4068dc6600ff8d2c1255c99df1a6` (live version 85).
 Patch: `ops/patches/orcid-and-specific-history-sites.patch`.
-Patch SHA-256: `0b1cd84a922924712922f6436afacf8df30dca81a2db372290fc89ee2c59d81c`.
+Patch SHA-256: `5074be88dcff3aa26cdf7095fc469a44e4ba99990f282b5380893057173ef5d2`.
 
 ORCID identity displays use the ORCID-created SVG linked to the author's registry record, with author-name accessibility labels and no visible identifier strings. This covers profiles, directory cards, source claims, discussions, activity, accepted proposals, organizations, dashboards, account identity, private message headers and administrator shortlists. Names that formerly fell back to an identifier now fall back to Researcher. Identifier values remain in route targets, structured data, authentication and input payloads.
 
