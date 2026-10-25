@@ -1,0 +1,116 @@
+{
+  "phase": "after",
+  "checked_at": "2026-10-25T22:34:55.921118+02:00",
+  "method": "Unauthenticated curl GET, HTTPS redirects, normal no-cache request header, no query cache bust, no cookies or credentials.",
+  "results": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url": "https://www.wikibiome.com/sitemap.xml",
+      "content_type": "application/xml; charset=utf-8",
+      "bytes": 88985,
+      "sha256": "230cce437a36c8abef1190b1ec5a212879a9c170accecfa1cbef9830e07f2a6d",
+      "url_count": 375,
+      "unique_urls": 375,
+      "five_articles_listed": true,
+      "home_listed": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://www.wikibiome.com/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 74456,
+      "sha256": "191f26838100467e69829853226cedc883500f7bcfdc1e6171c43b001a97ef47",
+      "robots": [
+        "index, follow"
+      ],
+      "expected_article_count_present": true,
+      "expected_cited_source_count_present": true,
+      "stale_count_context_present": false,
+      "count_contexts": [
+        "he human ecosystem Follow a named connection 343 indexed articles 1,199 cited sources 37 disease articles 306 oth",
+        "llow a named connection 343 indexed articles 1,199 cited sources 37 disease articles 306 other indexed articles Scr",
+        "ic reference without flattening uncertainty. 1,199 sources cited 343 indexed articles 37 disease articles Read the ",
+        " flattening uncertainty. 1,199 sources cited 343 indexed articles 37 disease articles Read the foundation article"
+      ]
+    },
+    {
+      "path": "/article/acidaminococcus",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/acidaminococcus",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 152829,
+      "sha256": "c95273c9e6834043817565cde680705f58715659947ddd17a430bd389167f26e",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/article/acinetobacter-baumannii",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/acinetobacter-baumannii",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 168718,
+      "sha256": "0ed788342d08aa479984bc07ef743a58cbff4403d51d46e35193268e5a24aeeb",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/article/acinetobacter",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/acinetobacter",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 221382,
+      "sha256": "b17cea196d2aa153412d93a759fbfe82b7b3540111995775767df05f7e5f73ba",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/article/actinobacteria",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/actinobacteria",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 189439,
+      "sha256": "d1e9aec64ad6cc34138e2ade6fcd41c331b934f0711fb798561f43c3b22d4fc1",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/article/adherent-invasive-e-coli",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/adherent-invasive-e-coli",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 157210,
+      "sha256": "d87ca778bd15cb3a07a07cc8c59377277d486f3e46905ae6f573f36ff200a36a",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/__conductor_missing_20261025",
+      "status": 404,
+      "url": "https://www.wikibiome.com/__conductor_missing_20261025",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1471,
+      "sha256": "6682d5f912674e7984fad8c4d90827b0fb4f90e4352e4b2ffa85c85a9f21ed0a",
+      "robots": [
+        "noindex, follow"
+      ]
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "url": "https://www.wikibiome.com/llms.txt",
+      "content_type": "text/plain",
+      "bytes": 1105,
+      "sha256": "345c7c8c9607fddde7d62c14e975cf38e88e2b0baa04717731e14179fa0153fc",
+      "heading": "# WikiBiome"
+    }
+  ],
+  "errors": [],
+  "pass": true
+}
