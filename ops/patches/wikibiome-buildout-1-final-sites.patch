@@ -1,5 +1,5 @@
 diff --git a/app/_components/DiseaseArticle.tsx b/app/_components/DiseaseArticle.tsx
-index 0735b2d..3a6dc79 100644
+index 0735b2d0e7800dfa2ddcfcd7a584649f4ebc0829..3a6dc7942bc47ac93c2a28ed72e703dad9d90f41 100644
 --- a/app/_components/DiseaseArticle.tsx
 +++ b/app/_components/DiseaseArticle.tsx
 @@ -25,7 +25,6 @@ import {
@@ -29,7 +29,7 @@ index 0735b2d..3a6dc79 100644
              </article>
              <div className="article-right-column"><ArticleUtilityPanel title={page.title} pageId={page.id} updated={record.updated}/><DiseaseInfobox record={record} /></div>
 diff --git a/app/_components/WikiArticle.tsx b/app/_components/WikiArticle.tsx
-index e9004b0..cf045ea 100644
+index e9004b007230aa3872b57c642d573bf576187856..cf045ea2761b6b9d34f1dff79c2239a0d5cd017c 100644
 --- a/app/_components/WikiArticle.tsx
 +++ b/app/_components/WikiArticle.tsx
 @@ -657,7 +657,7 @@ export function WikiHeader({ query = "" }: { query?: string }) {
@@ -60,7 +60,7 @@ index e9004b0..cf045ea 100644
                <ClaimProvenance evidence={evidence} />
                {!!contents.length && (
 diff --git a/app/_components/WikiDirectory.tsx b/app/_components/WikiDirectory.tsx
-index aa67825..02925e0 100644
+index aa6782505e40a1121160744b63ed0607b85d1940..02925e00df6c2731419ce4db67405b4ec168b273 100644
 --- a/app/_components/WikiDirectory.tsx
 +++ b/app/_components/WikiDirectory.tsx
 @@ -19,7 +19,7 @@ function DirectoryRail() {
@@ -73,7 +73,7 @@ index aa67825..02925e0 100644
    );
  }
 diff --git a/app/_components/WikiFooter.tsx b/app/_components/WikiFooter.tsx
-index c14ebf6..4d805b2 100644
+index c14ebf6e8c53df5f2a7ee5919b56541bf3ed5ca7..4d805b2a1eef9c8cf76973731f512a7db4918e1e 100644
 --- a/app/_components/WikiFooter.tsx
 +++ b/app/_components/WikiFooter.tsx
 @@ -1,5 +1,4 @@
@@ -92,7 +92,7 @@ index c14ebf6..4d805b2 100644
        <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Explore and collaborate.</strong><p>A free, ad-free, evidence-linked public encyclopedia.</p><Link href="/explore">Explore the encyclopedia →</Link><Link href="/submit-work">Submit research for review →</Link></div>
        <div className="wiki-footer-bottom"><span>Content available under CC BY-SA 4.0 unless otherwise noted · Free · ad-free · evidence-linked</span><p>Educational information only. WikiBiome does not provide medical diagnosis or treatment.</p></div>
 diff --git a/app/_components/WikiHome.tsx b/app/_components/WikiHome.tsx
-index a9c6369..b70e150 100644
+index a9c6369f961c5968e2b7d24d8a3b2401d37ab73a..b70e1509597fe1dba742a251b2da94db03434287 100644
 --- a/app/_components/WikiHome.tsx
 +++ b/app/_components/WikiHome.tsx
 @@ -1,7 +1,7 @@
@@ -163,7 +163,7 @@ index a9c6369..b70e150 100644
  
      </main>
 diff --git a/app/about/page.tsx b/app/about/page.tsx
-index 9ba282e..12d5e66 100644
+index 9ba282ed71f439c5f473ccdef4b9fd1e76f4d427..12d5e66ea19582d3088373a8232e01f39b46e964 100644
 --- a/app/about/page.tsx
 +++ b/app/about/page.tsx
 @@ -32,7 +32,7 @@ export default function AboutPage() {
@@ -176,7 +176,7 @@ index 9ba282e..12d5e66 100644
          <section className="about-introduction"><aside><span>01</span><strong>The project</strong></aside><div><h2>Open scientific education, generated from evidence.</h2><p>WikiBiome is the open human microbiome encyclopedia and a project of <Link href="/organizations/microbiome-medicine">Microbiome Medicine</Link>. It exists to make cross-disciplinary microbiome research readable without separating organisms from the metals, enzymes, ecological conditions, and host responses that help explain their behavior.</p><p>Most reference resources answer which organisms have been reported. WikiBiome also asks why those organisms may be present, which biochemical dependencies connect them, and what evidence supports each connection. Every generated article preserves its source trail so readers can move from an accessible synthesis back to the underlying research.</p></div></section>
  
 diff --git a/app/search/page.tsx b/app/search/page.tsx
-index 42b7ec7..694b381 100644
+index 42b7ec7534ee0996ff26c0a917a60cbb3d2dc7e7..694b381f75e3a5188bf3ceeb4fe2e862372fe6cf 100644
 --- a/app/search/page.tsx
 +++ b/app/search/page.tsx
 @@ -1,12 +1,12 @@
@@ -202,7 +202,7 @@ index 42b7ec7..694b381 100644
 +  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions${category !== "all" ? `, filtered to ${category}.` : "."}` : `Search WikiBiome articles.`} pages={pages} query={q} searchCategory={category} showSearchFilters />;
  }
 diff --git a/app/sitemap.xml/route.ts b/app/sitemap.xml/route.ts
-index 5725bdc..19faeeb 100644
+index 5725bdc0ad73028e3b6f3c9b31fa32315ae0de7d..19faeeb6b4bcd244418eab924880a229d87927ff 100644
 --- a/app/sitemap.xml/route.ts
 +++ b/app/sitemap.xml/route.ts
 @@ -1,17 +1,19 @@
@@ -239,7 +239,7 @@ index 5725bdc..19faeeb 100644
  
    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.map((entry) => {
 diff --git a/data/article-media-coverage.generated.json b/data/article-media-coverage.generated.json
-index c1b01b3..ddcfd8d 100644
+index c1b01b3413c6fe8ba7360a10a0aef620b8503d39..ddcfd8d89f2d636dd6e42e80781f0f7eadc08074 100644
 --- a/data/article-media-coverage.generated.json
 +++ b/data/article-media-coverage.generated.json
 @@ -6,7 +6,7 @@
@@ -252,7 +252,7 @@ index c1b01b3..ddcfd8d 100644
      "registrySha256": "70f33c1c8e6dde0e40ec7f50e15f752ed56289ee4c735901a348624569db3237",
      "reviewLog": "data/article-media-review-log.json",
 diff --git a/data/content-manifest.generated.json b/data/content-manifest.generated.json
-index 199fbd4..a866388 100644
+index 199fbd4c890b0301e638856e7e447fe66dd8214b..a8663889b13ebee3359624953eb0ff5ee1a1ac95 100644
 --- a/data/content-manifest.generated.json
 +++ b/data/content-manifest.generated.json
 @@ -1,6 +1,6 @@
@@ -282,7 +282,7 @@ index 199fbd4..a866388 100644
      "excludedCount": 47,
      "excludedPages": [
 diff --git a/data/content.generated.json b/data/content.generated.json
-index e87c830..741c79f 100644
+index e87c830e4dc23cab0e070e616d4cdad3b01151cd..741c79f193c2b59c3147b8b5806939420159130a 100644
 --- a/data/content.generated.json
 +++ b/data/content.generated.json
 @@ -120694,11 +120694,6 @@
@@ -474,7 +474,7 @@ index e87c830..741c79f 100644
        "sourceDir": "interventions",
        "sourceCount": 3,
 diff --git a/lib/article-indexing.ts b/lib/article-indexing.ts
-index 898dfb9..666e166 100644
+index 898dfb9f7d334f6b362d4f624b00ebb7aba7f900..666e166493a697d0d0c610e9ed8bc628141fe53f 100644
 --- a/lib/article-indexing.ts
 +++ b/lib/article-indexing.ts
 @@ -1,7 +1,6 @@
@@ -490,7 +490,7 @@ index 898dfb9..666e166 100644
  }
 diff --git a/lib/article-quality.mjs b/lib/article-quality.mjs
 new file mode 100644
-index 0000000..ff9a116
+index 0000000000000000000000000000000000000000..ff9a116949223890a49b0dfa7a605e0047e71169
 --- /dev/null
 +++ b/lib/article-quality.mjs
 @@ -0,0 +1,58 @@
@@ -554,7 +554,7 @@ index 0000000..ff9a116
 +}
 diff --git a/lib/rendered-article-quality.mjs b/lib/rendered-article-quality.mjs
 new file mode 100644
-index 0000000..7c8c5d0
+index 0000000000000000000000000000000000000000..7c8c5d02e3a2454deb645107cfae774ac54f6e6e
 --- /dev/null
 +++ b/lib/rendered-article-quality.mjs
 @@ -0,0 +1,39 @@
@@ -598,7 +598,7 @@ index 0000000..7c8c5d0
 +  return { bodyWords, presentReferences, reasons };
 +}
 diff --git a/lib/revisions.ts b/lib/revisions.ts
-index 103d88f..8f57632 100644
+index 103d88f35ae0d4feee3bd14748b33b57c52c8507..8f57632d8947d1707c1ce5de4c6563f2f0aa0b4e 100644
 --- a/lib/revisions.ts
 +++ b/lib/revisions.ts
 @@ -1,5 +1,6 @@
@@ -622,7 +622,7 @@ index 103d88f..8f57632 100644
  }
  
 diff --git a/lib/source-indexing.mjs b/lib/source-indexing.mjs
-index 186e15e..ce6005f 100644
+index 186e15e92f60ea3eabfce98ee9a84c61b7905ece..ce6005f7b465b293913a416480aae2ab4b7feb54 100644
 --- a/lib/source-indexing.mjs
 +++ b/lib/source-indexing.mjs
 @@ -1,13 +1,7 @@
@@ -646,7 +646,7 @@ index 186e15e..ce6005f 100644
 +  return false;
  }
 diff --git a/lib/wikibiome.ts b/lib/wikibiome.ts
-index cb6a8c8..9eeed8e 100644
+index cb6a8c8f76e4f2859d3f6d03f8627f51be6c67f7..9eeed8eb634993e32e6f09a13ba4eeb6370ceaff 100644
 --- a/lib/wikibiome.ts
 +++ b/lib/wikibiome.ts
 @@ -1,3 +1,4 @@
@@ -705,7 +705,7 @@ index cb6a8c8..9eeed8e 100644
  export const allWikiPages = pageCollection;
  export const upstreamWikiPages = wiki.pages;
 diff --git a/package-lock.json b/package-lock.json
-index f7d83c4..5bff642 100644
+index f7d83c49ea321f35f13a8662c875029090105911..5bff642f5d60492fb694e635fad1aa7c151bf948 100644
 --- a/package-lock.json
 +++ b/package-lock.json
 @@ -38,7 +38,8 @@
@@ -719,7 +719,7 @@ index f7d83c4..5bff642 100644
        "engines": {
          "node": ">=22.13.0"
 diff --git a/package.json b/package.json
-index 1db5dd5..a08ad43 100644
+index 1db5dd5c1f3178d2a15b78c652f8f690c21c459d..a08ad43fca64476fa290cb2e2e7d08416799092b 100644
 --- a/package.json
 +++ b/package.json
 @@ -7,7 +7,8 @@
@@ -752,9 +752,31 @@ index 1db5dd5..a08ad43 100644
    },
    "type": "module"
  }
+diff --git a/public/llms.txt b/public/llms.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..871aee453ad2ff5b03f1b087a8dec3da7b466fa9
+--- /dev/null
++++ b/public/llms.txt
+@@ -0,0 +1,16 @@
++# WikiBiome
++
++> WikiBiome is an evidence-linked human microbiome encyclopedia covering organisms, ecological pressures and molecular mechanisms.
++
++Use each article's cited sources and stated limitations when interpreting a research claim. Distinguish observations, proposed mechanisms and hypotheses. Missing evidence is not a measured absence. Researcher and organization participation is not an endorsement of a claim.
++
++## Public guide
++
++- [Home](https://www.wikibiome.com/): The human microbiome encyclopedia.
++- [Explore](https://www.wikibiome.com/explore): Browse the encyclopedia.
++- [Clusters](https://www.wikibiome.com/clusters): Explore connected topics.
++- [About](https://www.wikibiome.com/about): The project and authorship.
++- [Research standard](https://www.wikibiome.com/research-standard): Research and editorial standards.
++- [Researchers](https://www.wikibiome.com/researchers): Public researcher profiles and contributions.
++- [Institutions](https://www.wikibiome.com/institutions): Public research organization profiles.
++- [Contribute](https://www.wikibiome.com/contribute): How to contribute.
 diff --git a/scripts/article-quality-audit.ts b/scripts/article-quality-audit.ts
 new file mode 100644
-index 0000000..9768079
+index 0000000000000000000000000000000000000000..9768079c52e188026bb78b83e669a8bb7e642810
 --- /dev/null
 +++ b/scripts/article-quality-audit.ts
 @@ -0,0 +1,27 @@
@@ -786,7 +808,7 @@ index 0000000..9768079
 +  return { rows, urls, failures, publicRoutes, citationSourcePaths };
 +}
 diff --git a/scripts/audit-public-routing-contract.mjs b/scripts/audit-public-routing-contract.mjs
-index 473a718..d01e8c2 100644
+index 473a71801b3da513179f9618f866e08daa69a686..d01e8c2d882ff0cb4f092e25e6a01e6f3dc33574 100644
 --- a/scripts/audit-public-routing-contract.mjs
 +++ b/scripts/audit-public-routing-contract.mjs
 @@ -227,9 +227,10 @@ export async function auditPublicRoutingContract({
@@ -802,7 +824,7 @@ index 473a718..d01e8c2 100644
    const imageEntries = imageSitemapEntries(sitemap);
    if (imageEntries.length !== expectedImages) findings.push(`image-sitemap.xml: ${imageEntries.length} entries, expected ${expectedImages}`);
 diff --git a/scripts/audit-search-surface.mjs b/scripts/audit-search-surface.mjs
-index 6134e91..d3da4a4 100644
+index 6134e91bbaa7bb18bb5975821318270f4b42b51f..d3da4a4ab33da14d36e4604ecf6e3774031725fd 100644
 --- a/scripts/audit-search-surface.mjs
 +++ b/scripts/audit-search-surface.mjs
 @@ -140,9 +140,9 @@ if (ordinaryUrls.some((url) => !url.startsWith(`${PUBLIC_ORIGIN}/`))) failures.p
@@ -819,7 +841,7 @@ index 6134e91..d3da4a4 100644
  const actualImageEntries = imagePageUrls.toSorted((a, b) => a.page.localeCompare(b.page));
 diff --git a/scripts/lint-rendered-sitemap-quality.mjs b/scripts/lint-rendered-sitemap-quality.mjs
 new file mode 100644
-index 0000000..9c581ff
+index 0000000000000000000000000000000000000000..9c581ff44d87be8f13db6ce6d591c16bbb31cbbc
 --- /dev/null
 +++ b/scripts/lint-rendered-sitemap-quality.mjs
 @@ -0,0 +1,82 @@
@@ -907,7 +929,7 @@ index 0000000..9c581ff
 +}
 diff --git a/scripts/lint-sitemap-quality.mjs b/scripts/lint-sitemap-quality.mjs
 new file mode 100644
-index 0000000..9448e6b
+index 0000000000000000000000000000000000000000..9448e6bd5a58e6befcacbd55d98ee37c17b07cbd
 --- /dev/null
 +++ b/scripts/lint-sitemap-quality.mjs
 @@ -0,0 +1,23 @@
@@ -935,7 +957,7 @@ index 0000000..9448e6b
 +  process.exitCode = 1;
 +}
 diff --git a/scripts/public-content-policy.mjs b/scripts/public-content-policy.mjs
-index d51ccdf..8f19804 100644
+index d51ccdf8ba9a536e417d784cdab423d7ab6ab8ea..8f19804ecedf333ea27fa8e0691514a93313cce3 100644
 --- a/scripts/public-content-policy.mjs
 +++ b/scripts/public-content-policy.mjs
 @@ -1,4 +1,6 @@
@@ -963,7 +985,7 @@ index d51ccdf..8f19804 100644
      if (normalized.promotion) leadPromotions.push(normalized.promotion);
    }
 diff --git a/scripts/sync-wikibiome-content.mjs b/scripts/sync-wikibiome-content.mjs
-index 4718256..419a04e 100644
+index 4718256366276e2c53e7b9e1ea043b2618f9fdc0..419a04ec0164d54bca13b5bdaebc1e6e387e3c4f 100644
 --- a/scripts/sync-wikibiome-content.mjs
 +++ b/scripts/sync-wikibiome-content.mjs
 @@ -55,10 +55,12 @@ let sourceCommit = null;
@@ -1012,7 +1034,7 @@ index 4718256..419a04e 100644
      leadPromotionSamples: normalizations.leadPromotions.slice(0, 20),
    },
 diff --git a/scripts/verify-indexing-repair.mjs b/scripts/verify-indexing-repair.mjs
-index c26be54..797fb84 100644
+index c26be540fe4d396e14db0ea21fa3f5089c49119b..797fb84f56ba5f298df99baffb6673bbe1555bd3 100644
 --- a/scripts/verify-indexing-repair.mjs
 +++ b/scripts/verify-indexing-repair.mjs
 @@ -14,8 +14,15 @@ assert.equal(sitemap.response.status, 200);
@@ -1050,7 +1072,7 @@ index c26be54..797fb84 100644
 +console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: paths.filter((path) => path.startsWith("/article/")).length, publicUrls: paths.filter((path) => !path.startsWith("/article/")).length, sourceUrls: 0, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
 diff --git a/tests/article-quality.test.mjs b/tests/article-quality.test.mjs
 new file mode 100644
-index 0000000..dcbde17
+index 0000000000000000000000000000000000000000..dcbde174be592587f84d4f36f0483e6a49f39f22
 --- /dev/null
 +++ b/tests/article-quality.test.mjs
 @@ -0,0 +1,84 @@
@@ -1139,7 +1161,7 @@ index 0000000..dcbde17
 +  } finally { rmSync(folder, { recursive: true, force: true }); }
 +});
 diff --git a/tests/indexing-policy.test.mjs b/tests/indexing-policy.test.mjs
-index fac9057..78a8e49 100644
+index fac905705ff562a6f4c8ffa51d922e3931796f5b..78a8e49120702eb5150b47b2b91a03711777a101 100644
 --- a/tests/indexing-policy.test.mjs
 +++ b/tests/indexing-policy.test.mjs
 @@ -34,7 +34,7 @@ test("source exclusions are limited to existing, explicitly reviewed identities"
@@ -1172,7 +1194,7 @@ index fac9057..78a8e49 100644
    assert.equal(allow.length, 37);
  });
 diff --git a/tests/public-routing-contract.test.mjs b/tests/public-routing-contract.test.mjs
-index 5491b08..56a0d09 100644
+index 5491b08cf2654d932b2e0ac8452f6ab2a97828be..56a0d093756f97261e31485d757234d7dff9eec1 100644
 --- a/tests/public-routing-contract.test.mjs
 +++ b/tests/public-routing-contract.test.mjs
 @@ -29,7 +29,7 @@ function fixtureFetch({ brokenRedirect = false } = {}) {
@@ -1195,7 +1217,7 @@ index 5491b08..56a0d09 100644
      }[url.pathname];
 diff --git a/tests/release-counts.test.mjs b/tests/release-counts.test.mjs
 new file mode 100644
-index 0000000..3d7f525
+index 0000000000000000000000000000000000000000..3d7f525098aeb6604403170d2ab957a7c1c9c595
 --- /dev/null
 +++ b/tests/release-counts.test.mjs
 @@ -0,0 +1,29 @@
@@ -1229,7 +1251,7 @@ index 0000000..3d7f525
 + const about=readFileSync(new URL('../app/about/page.tsx',import.meta.url),'utf8');for(const line of about.split('\n').filter(line=>line.includes('wikiStats.sources')))assert.doesNotMatch(line,/peer.reviewed/i,'About');
 +});
 diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
-index 5b7c802..7914cdd 100644
+index 5b7c8025e5848d18025db4f014d485ac16856c9b..7914cdd8c04874da681259fee1d7caf47228daea 100644
 --- a/tests/rendered-html.test.mjs
 +++ b/tests/rendered-html.test.mjs
 @@ -374,8 +374,11 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (

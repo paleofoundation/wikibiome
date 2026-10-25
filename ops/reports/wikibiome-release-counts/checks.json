@@ -1,23 +1,25 @@
 {
   "source": {
     "source_base": "79a4ff1e4ae5f21d4c9ff7f5ff748bbb10273fcd",
-    "source_commit": "8bedbe81ce9840a51e382577082fd2145fb9d883",
-    "source_tree": "08e61ce866e08c7d59e04022abaa95664d95ddcd",
+    "source_commit": "b02e4533ef717e7b3aa85d76950c24294c83609b",
+    "source_tree": "5b2af17117d929e320397547bf4abc512eaae2c0",
     "hosted_base_v86": "7a95e122e81c6d442311db07331bc2dc0b45aa38",
     "patches": [
       {
         "file": "wb-counts-sites.patch",
         "base": "79a4ff1e4ae5f21d4c9ff7f5ff748bbb10273fcd",
-        "sha256": "9aa6f617083cc5d7d96f50a535fd67d1a64e24449b3199b0c7825991fca204dd",
-        "bytes": 28982
+        "sha256": "ae919e1faebd799507d3c1c8451d38dc7b8036bb78c40a450ae97458f6a71f80",
+        "bytes": 31039
       },
       {
         "file": "wb-final-sites.patch",
         "base": "7a95e122e81c6d442311db07331bc2dc0b45aa38",
-        "sha256": "72471988de1560c9e7e18c160e93dc9f44a909e22eaa0962d55d0a2931b8efb2",
-        "bytes": 89250
+        "sha256": "36bc6cbcfc247dbdbd91b9c11a24a435d44f87341d67527fa0c0e6bef2178459",
+        "bytes": 92693
       }
-    ]
+    ],
+    "counts_and_label_source_commit": "8bedbe81ce9840a51e382577082fd2145fb9d883",
+    "hi014": "Only public/llms.txt added after counts/label candidate. Existing structured data, images, counts and sitemap unchanged."
   },
   "derived_release_counts": {
     "totalPages": 343,
@@ -80,5 +82,51 @@
     "rendered_home_and_article": "2/2 PASS after rebuild",
     "build": "PASS, 375 URLs/0 failures; 423 noindex checks; 32 public entrypoints",
     "history": "one normal review follow-up commit; source child of ce4b96ce, no rewrite"
+  },
+  "hi014": {
+    "guide_only_after": "8bedbe81ce9840a51e382577082fd2145fb9d883",
+    "current_source": "b02e4533ef717e7b3aa85d76950c24294c83609b",
+    "build": "PASS; 375 sitemap URLs/0 failures,423 noindex,32 public entrypoints",
+    "worker": {
+      "staticGuide": 200,
+      "byteIdentical": true,
+      "linkedPages": [
+        {
+          "url": "https://www.wikibiome.com/",
+          "status": 200
+        },
+        {
+          "url": "https://www.wikibiome.com/explore",
+          "status": 200
+        },
+        {
+          "url": "https://www.wikibiome.com/clusters",
+          "status": 200
+        },
+        {
+          "url": "https://www.wikibiome.com/about",
+          "status": 200
+        },
+        {
+          "url": "https://www.wikibiome.com/research-standard",
+          "status": 200
+        },
+        {
+          "url": "https://www.wikibiome.com/researchers",
+          "status": 200
+        },
+        {
+          "url": "https://www.wikibiome.com/institutions",
+          "status": 200
+        },
+        {
+          "url": "https://www.wikibiome.com/contribute",
+          "status": 200
+        }
+      ],
+      "existingJsonLdPreserved": true,
+      "outboundCalls": 0
+    },
+    "source_invariants": "Only public/llms.txt differs from the already reviewed count/label candidate; existing test and browser evidence retained at that source."
   }
 }

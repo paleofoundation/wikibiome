@@ -1,8 +1,8 @@
 # WIKIBIOME-BUILDOUT-1, Step 1
 
-Status: PR #16 merged as cfac925d. The authorized count correction is ready for follow-up review, with final Sites source `8bedbe81ce9840a51e382577082fd2145fb9d883`. Publication remains held on the source-credential GO; no Step 2 work.
+Status: PR #16 merged as cfac925d. The authorized count correction is ready for follow-up review, with final Sites source `b02e4533ef717e7b3aa85d76950c24294c83609b`. Publication remains held on the source-credential GO; no Step 2 work.
 
-Final combined patch from live v86: `ops/patches/wikibiome-buildout-1-final-sites.patch`, SHA-256 `72471988de1560c9e7e18c160e93dc9f44a909e22eaa0962d55d0a2931b8efb2`. Counts-only patch after the approved Step 1 candidate: `ops/patches/wikibiome-release-counts-sites.patch`, SHA-256 `9aa6f617083cc5d7d96f50a535fd67d1a64e24449b3199b0c7825991fca204dd`. Evidence: `ops/reports/wikibiome-release-counts/checks.json` and local build, test, curl and browser artifacts. Both patches reverse-check against the final exact source. Use the combined patch when opening v86's canonical source; never deploy this legacy Vite application.
+Final combined patch from live v86: `ops/patches/wikibiome-buildout-1-final-sites.patch`, SHA-256 `36bc6cbcfc247dbdbd91b9c11a24a435d44f87341d67527fa0c0e6bef2178459`. Counts-only patch after the approved Step 1 candidate: `ops/patches/wikibiome-release-counts-sites.patch`, SHA-256 `ae919e1faebd799507d3c1c8451d38dc7b8036bb78c40a450ae97458f6a71f80`. Evidence: `ops/reports/wikibiome-release-counts/checks.json` and local build, test, curl and browser artifacts. Both patches reverse-check against the final exact source. Use the combined patch when opening v86's canonical source; never deploy this legacy Vite application.
 
 Public counters derive from the canonical quality-gated release and real distinct cited references. Search labels omit inventory totals. The original accepted Step 1 packet below remains the historical base.
 
@@ -64,3 +64,7 @@ All 24 requests return 200 with self-canonical URLs and the expected sitemap mem
 Validation: prebuild corpus/editorial/media audits, Sites compilation, typecheck, 17 unit/policy tests, seven rendered regressions, all 375 rendered sitemap URLs, 423 retained noindex article/source routes, indexing verifier, 24 curl checks, focused ESLint and whitespace. The build’s first postbuild run hit the sandbox loopback restriction; the permitted local Worker passed. The 37-source check canonicalizes the registry’s mixed-case alias before fetching.
 
 Elon owns review and merge. Karen publishes the approved batch through Sites. Step 2 waits for that publish and live curl verification. This runner stops after the plain push and bridge STATUS.
+
+## HI-014 batched public guide
+
+A normal source child adds only public/llms.txt. Existing site/article JSON-LD is preserved. Local rebuilt Worker serves the exact text asset200 and all eight public guide links200 with existing structured data; zero outbound calls. The full rebuilt gate remains375/0,423 retained noindex and32 public entrypoints. No image, count, telemetry or menu changes. Both reviewed patches now include this guide and have refreshed exact hashes above. This supersedes the previous patch hashes and needs review on the same single release PR; credential stays HOLD, no version saved or published.

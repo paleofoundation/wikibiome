@@ -1,5 +1,5 @@
 diff --git a/app/_components/DiseaseArticle.tsx b/app/_components/DiseaseArticle.tsx
-index 2ec6a8a..3a6dc79 100644
+index 2ec6a8a46ba6f6ad5052942f31013e707a66c269..3a6dc7942bc47ac93c2a28ed72e703dad9d90f41 100644
 --- a/app/_components/DiseaseArticle.tsx
 +++ b/app/_components/DiseaseArticle.tsx
 @@ -387,7 +387,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
@@ -12,7 +12,7 @@ index 2ec6a8a..3a6dc79 100644
              </article>
              <div className="article-right-column"><ArticleUtilityPanel title={page.title} pageId={page.id} updated={record.updated}/><DiseaseInfobox record={record} /></div>
 diff --git a/app/_components/WikiArticle.tsx b/app/_components/WikiArticle.tsx
-index 52299ab..cf045ea 100644
+index 52299ab7a51568b84b7568fb8c3e181cf4387a04..cf045ea2761b6b9d34f1dff79c2239a0d5cd017c 100644
 --- a/app/_components/WikiArticle.tsx
 +++ b/app/_components/WikiArticle.tsx
 @@ -657,7 +657,7 @@ export function WikiHeader({ query = "" }: { query?: string }) {
@@ -34,7 +34,7 @@ index 52299ab..cf045ea 100644
    );
  }
 diff --git a/app/_components/WikiDirectory.tsx b/app/_components/WikiDirectory.tsx
-index aa67825..02925e0 100644
+index aa6782505e40a1121160744b63ed0607b85d1940..02925e00df6c2731419ce4db67405b4ec168b273 100644
 --- a/app/_components/WikiDirectory.tsx
 +++ b/app/_components/WikiDirectory.tsx
 @@ -19,7 +19,7 @@ function DirectoryRail() {
@@ -47,7 +47,7 @@ index aa67825..02925e0 100644
    );
  }
 diff --git a/app/_components/WikiFooter.tsx b/app/_components/WikiFooter.tsx
-index c14ebf6..4d805b2 100644
+index c14ebf6e8c53df5f2a7ee5919b56541bf3ed5ca7..4d805b2a1eef9c8cf76973731f512a7db4918e1e 100644
 --- a/app/_components/WikiFooter.tsx
 +++ b/app/_components/WikiFooter.tsx
 @@ -1,5 +1,4 @@
@@ -66,7 +66,7 @@ index c14ebf6..4d805b2 100644
        <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Explore and collaborate.</strong><p>A free, ad-free, evidence-linked public encyclopedia.</p><Link href="/explore">Explore the encyclopedia →</Link><Link href="/submit-work">Submit research for review →</Link></div>
        <div className="wiki-footer-bottom"><span>Content available under CC BY-SA 4.0 unless otherwise noted · Free · ad-free · evidence-linked</span><p>Educational information only. WikiBiome does not provide medical diagnosis or treatment.</p></div>
 diff --git a/app/_components/WikiHome.tsx b/app/_components/WikiHome.tsx
-index a9c6369..b70e150 100644
+index a9c6369f961c5968e2b7d24d8a3b2401d37ab73a..b70e1509597fe1dba742a251b2da94db03434287 100644
 --- a/app/_components/WikiHome.tsx
 +++ b/app/_components/WikiHome.tsx
 @@ -1,7 +1,7 @@
@@ -137,7 +137,7 @@ index a9c6369..b70e150 100644
  
      </main>
 diff --git a/app/about/page.tsx b/app/about/page.tsx
-index 9ba282e..12d5e66 100644
+index 9ba282ed71f439c5f473ccdef4b9fd1e76f4d427..12d5e66ea19582d3088373a8232e01f39b46e964 100644
 --- a/app/about/page.tsx
 +++ b/app/about/page.tsx
 @@ -32,7 +32,7 @@ export default function AboutPage() {
@@ -150,7 +150,7 @@ index 9ba282e..12d5e66 100644
          <section className="about-introduction"><aside><span>01</span><strong>The project</strong></aside><div><h2>Open scientific education, generated from evidence.</h2><p>WikiBiome is the open human microbiome encyclopedia and a project of <Link href="/organizations/microbiome-medicine">Microbiome Medicine</Link>. It exists to make cross-disciplinary microbiome research readable without separating organisms from the metals, enzymes, ecological conditions, and host responses that help explain their behavior.</p><p>Most reference resources answer which organisms have been reported. WikiBiome also asks why those organisms may be present, which biochemical dependencies connect them, and what evidence supports each connection. Every generated article preserves its source trail so readers can move from an accessible synthesis back to the underlying research.</p></div></section>
  
 diff --git a/app/search/page.tsx b/app/search/page.tsx
-index 42b7ec7..694b381 100644
+index 42b7ec7534ee0996ff26c0a917a60cbb3d2dc7e7..694b381f75e3a5188bf3ceeb4fe2e862372fe6cf 100644
 --- a/app/search/page.tsx
 +++ b/app/search/page.tsx
 @@ -1,12 +1,12 @@
@@ -176,7 +176,7 @@ index 42b7ec7..694b381 100644
 +  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions${category !== "all" ? `, filtered to ${category}.` : "."}` : `Search WikiBiome articles.`} pages={pages} query={q} searchCategory={category} showSearchFilters />;
  }
 diff --git a/lib/article-indexing.ts b/lib/article-indexing.ts
-index 4065eb4..666e166 100644
+index 4065eb4f2cc0a0714ce625de44f1136151bc8395..666e166493a697d0d0c610e9ed8bc628141fe53f 100644
 --- a/lib/article-indexing.ts
 +++ b/lib/article-indexing.ts
 @@ -1,12 +1,5 @@
@@ -195,7 +195,7 @@ index 4065eb4..666e166 100644
  export function isIndexableArticle(page: WikiPage) {
    return getArticleQuality(page).eligible;
 diff --git a/lib/wikibiome.ts b/lib/wikibiome.ts
-index cb6a8c8..9eeed8e 100644
+index cb6a8c8f76e4f2859d3f6d03f8627f51be6c67f7..9eeed8eb634993e32e6f09a13ba4eeb6370ceaff 100644
 --- a/lib/wikibiome.ts
 +++ b/lib/wikibiome.ts
 @@ -1,3 +1,4 @@
@@ -253,9 +253,31 @@ index cb6a8c8..9eeed8e 100644
  export const generatedAt = wiki._generated;
  export const allWikiPages = pageCollection;
  export const upstreamWikiPages = wiki.pages;
+diff --git a/public/llms.txt b/public/llms.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..871aee453ad2ff5b03f1b087a8dec3da7b466fa9
+--- /dev/null
++++ b/public/llms.txt
+@@ -0,0 +1,16 @@
++# WikiBiome
++
++> WikiBiome is an evidence-linked human microbiome encyclopedia covering organisms, ecological pressures and molecular mechanisms.
++
++Use each article's cited sources and stated limitations when interpreting a research claim. Distinguish observations, proposed mechanisms and hypotheses. Missing evidence is not a measured absence. Researcher and organization participation is not an endorsement of a claim.
++
++## Public guide
++
++- [Home](https://www.wikibiome.com/): The human microbiome encyclopedia.
++- [Explore](https://www.wikibiome.com/explore): Browse the encyclopedia.
++- [Clusters](https://www.wikibiome.com/clusters): Explore connected topics.
++- [About](https://www.wikibiome.com/about): The project and authorship.
++- [Research standard](https://www.wikibiome.com/research-standard): Research and editorial standards.
++- [Researchers](https://www.wikibiome.com/researchers): Public researcher profiles and contributions.
++- [Institutions](https://www.wikibiome.com/institutions): Public research organization profiles.
++- [Contribute](https://www.wikibiome.com/contribute): How to contribute.
 diff --git a/tests/release-counts.test.mjs b/tests/release-counts.test.mjs
 new file mode 100644
-index 0000000..3d7f525
+index 0000000000000000000000000000000000000000..3d7f525098aeb6604403170d2ab957a7c1c9c595
 --- /dev/null
 +++ b/tests/release-counts.test.mjs
 @@ -0,0 +1,29 @@
@@ -289,7 +311,7 @@ index 0000000..3d7f525
 + const about=readFileSync(new URL('../app/about/page.tsx',import.meta.url),'utf8');for(const line of about.split('\n').filter(line=>line.includes('wikiStats.sources')))assert.doesNotMatch(line,/peer.reviewed/i,'About');
 +});
 diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
-index cdaaee8..7914cdd 100644
+index cdaaee8c1926707814998b44296cdc4ee30c24da..7914cdd8c04874da681259fee1d7caf47228daea 100644
 --- a/tests/rendered-html.test.mjs
 +++ b/tests/rendered-html.test.mjs
 @@ -374,8 +374,11 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
