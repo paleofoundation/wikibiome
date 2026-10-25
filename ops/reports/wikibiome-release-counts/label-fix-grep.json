@@ -1,0 +1,52 @@
+{
+  "scope": "all app/lib TS/TSX/JS/MJS source files",
+  "counterLabelHits": [],
+  "remainingOccurrences": [
+    {
+      "file": "app/_components/PaperIntakeForm.tsx",
+      "line": 130,
+      "text": "            <option>Peer-reviewed publication</option>"
+    },
+    {
+      "file": "lib/article-media-registry.mjs",
+      "line": 3955,
+      "text": "    provenance: \"Current-species-taxonomy-, original-description-, type-strain-, and peer-reviewed-microscopy-informed representative reconstruction\","
+    },
+    {
+      "file": "lib/article-media-registry.mjs",
+      "line": 3962,
+      "text": "      Object.freeze({ title: \"Lactobacillus iners microscopy and pleomorphism\", authority: \"PubMed Central\", role: \"peer-reviewed very-short-rod and compact coccobacillary variation\", url: \"https://pmc.ncbi.nlm.nih.gov/articles/PMC2233628/\" }),"
+    },
+    {
+      "file": "lib/article-media-registry.mjs",
+      "line": 4175,
+      "text": "    provenance: \"Current-species-taxonomy-, fungal-nomenclature-, type-material-, primary-genome-, and peer-reviewed-microscopy-informed representative reconstruction\","
+    },
+    {
+      "file": "lib/article-media-registry.mjs",
+      "line": 4181,
+      "text": "      Object.freeze({ title: \"Lodderomyces elongisporus morphology and phylogeny\", authority: \"PubMed Central\", role: \"peer-reviewed yeast, budding, and elongated ascospore morphology\", url: \"https://pmc.ncbi.nlm.nih.gov/articles/PMC6141678/\" }),"
+    },
+    {
+      "file": "lib/article-media-registry.mjs",
+      "line": 4182,
+      "text": "      Object.freeze({ title: \"Lodderomyces elongisporus microscopy\", authority: \"PubMed Central\", role: \"peer-reviewed blastoconidial and elongated spore-form morphology context\", url: \"https://pmc.ncbi.nlm.nih.gov/articles/PMC8111154/\" }),"
+    },
+    {
+      "file": "lib/article-media-registry.mjs",
+      "line": 4218,
+      "text": "      Object.freeze({ title: \"Malassezia species morphology\", authority: \"Medical Mycology Case Reports\", role: \"peer-reviewed globose, ovoid, cylindrical, bottle-like, and budding-form context\", url: \"https://doi.org/10.1016/j.mcp.2010.12.003\" }),"
+    },
+    {
+      "file": "lib/article-media-registry.mjs",
+      "line": 4219,
+      "text": "      Object.freeze({ title: \"Malassezia biology review\", authority: \"PubMed Central\", role: \"peer-reviewed current-genus morphology and variation context\", url: \"https://pmc.ncbi.nlm.nih.gov/articles/PMC7098993/\" }),"
+    },
+    {
+      "file": "lib/article-media-registry.mjs",
+      "line": 4327,
+      "text": "      Object.freeze({ title: \"Megasphaera elsdenii morphology\", authority: \"PubMed Central\", role: \"peer-reviewed type-species morphology and arrangement context\", url: \"https://pmc.ncbi.nlm.nih.gov/articles/PMC10819428/\" }),"
+    }
+  ],
+  "note": "Remaining matches describe unchanged article-media provenance, not corpus counters."
+}

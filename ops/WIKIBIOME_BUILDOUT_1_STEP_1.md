@@ -1,8 +1,8 @@
 # WIKIBIOME-BUILDOUT-1, Step 1
 
-Status: PR #16 merged as cfac925d. The authorized count correction is ready for follow-up review, with final Sites source `ce4b96ce9b587fd2981f65ff9debbfc69b2579c8`. Publication remains held on the source-credential GO; no Step 2 work.
+Status: PR #16 merged as cfac925d. The authorized count correction is ready for follow-up review, with final Sites source `8bedbe81ce9840a51e382577082fd2145fb9d883`. Publication remains held on the source-credential GO; no Step 2 work.
 
-Final combined patch from live v86: `ops/patches/wikibiome-buildout-1-final-sites.patch`, SHA-256 `1b58cafdec3f1b3bc6990140afd61296025125021ef09a5bb7c76846852cc17d`. Counts-only patch after the approved Step 1 candidate: `ops/patches/wikibiome-release-counts-sites.patch`, SHA-256 `d7399e102ff101b991e31f4dde4da90dfbec0f21cb587d70dc50af6e28327617`. Evidence: `ops/reports/wikibiome-release-counts/checks.json` and local build, test, curl and browser artifacts. Both patches reverse-check against the final exact source. Use the combined patch when opening v86's canonical source; never deploy this legacy Vite application.
+Final combined patch from live v86: `ops/patches/wikibiome-buildout-1-final-sites.patch`, SHA-256 `72471988de1560c9e7e18c160e93dc9f44a909e22eaa0962d55d0a2931b8efb2`. Counts-only patch after the approved Step 1 candidate: `ops/patches/wikibiome-release-counts-sites.patch`, SHA-256 `9aa6f617083cc5d7d96f50a535fd67d1a64e24449b3199b0c7825991fca204dd`. Evidence: `ops/reports/wikibiome-release-counts/checks.json` and local build, test, curl and browser artifacts. Both patches reverse-check against the final exact source. Use the combined patch when opening v86's canonical source; never deploy this legacy Vite application.
 
 Public counters derive from the canonical quality-gated release and real distinct cited references. Search labels omit inventory totals. The original accepted Step 1 packet below remains the historical base.
 

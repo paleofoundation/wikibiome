@@ -1,21 +1,21 @@
 {
   "source": {
     "source_base": "79a4ff1e4ae5f21d4c9ff7f5ff748bbb10273fcd",
-    "source_commit": "ce4b96ce9b587fd2981f65ff9debbfc69b2579c8",
-    "source_tree": "2fbb7e5227dd5f0d1be17a6d759ff3c1ab895d32",
+    "source_commit": "8bedbe81ce9840a51e382577082fd2145fb9d883",
+    "source_tree": "08e61ce866e08c7d59e04022abaa95664d95ddcd",
     "hosted_base_v86": "7a95e122e81c6d442311db07331bc2dc0b45aa38",
     "patches": [
       {
         "file": "wb-counts-sites.patch",
         "base": "79a4ff1e4ae5f21d4c9ff7f5ff748bbb10273fcd",
-        "sha256": "d7399e102ff101b991e31f4dde4da90dfbec0f21cb587d70dc50af6e28327617",
-        "bytes": 27469
+        "sha256": "9aa6f617083cc5d7d96f50a535fd67d1a64e24449b3199b0c7825991fca204dd",
+        "bytes": 28982
       },
       {
         "file": "wb-final-sites.patch",
         "base": "7a95e122e81c6d442311db07331bc2dc0b45aa38",
-        "sha256": "1b58cafdec3f1b3bc6990140afd61296025125021ef09a5bb7c76846852cc17d",
-        "bytes": 87737
+        "sha256": "72471988de1560c9e7e18c160e93dc9f44a909e22eaa0962d55d0a2931b8efb2",
+        "bytes": 89250
       }
     ]
   },
@@ -33,8 +33,9 @@
   "failing_sitemap_urls": 0,
   "source_tests": {
     "files": 16,
-    "passed": 90,
-    "failed": 0
+    "passed": 91,
+    "failed": 0,
+    "coverage_note": "90 broad source tests initially; latest3 counter tests include one new label regression, all pass."
   },
   "rendered_tests": {
     "broad_run": {
@@ -70,5 +71,14 @@
     "Single authorized Sites publish, same project and PUBLIC audience",
     "Elon live verification then WB-STEP-2 GO"
   ],
-  "scope": "No new content, corpus/image edits, image optimization, URL busting, telemetry, menus, DNS, CDN, Sites audience or legacy Vercel changes. No credentials minted or publication attempted."
+  "scope": "No new content, corpus/image edits, image optimization, URL busting, telemetry, menus, DNS, CDN, Sites audience or legacy Vercel changes. No credentials minted or publication attempted.",
+  "priority_fix_21_10": {
+    "claim": "sources cited across WikiBiome",
+    "shared_counter_peer_review_claims": 0,
+    "other_matches": "9 unchanged article-media provenance references, no counters",
+    "regressions": "3/3 PASS, including all source-count labels",
+    "rendered_home_and_article": "2/2 PASS after rebuild",
+    "build": "PASS, 375 URLs/0 failures; 423 noindex checks; 32 public entrypoints",
+    "history": "one normal review follow-up commit; source child of ce4b96ce, no rewrite"
+  }
 }

@@ -12,7 +12,7 @@ index 2ec6a8a..3a6dc79 100644
              </article>
              <div className="article-right-column"><ArticleUtilityPanel title={page.title} pageId={page.id} updated={record.updated}/><DiseaseInfobox record={record} /></div>
 diff --git a/app/_components/WikiArticle.tsx b/app/_components/WikiArticle.tsx
-index 52299ab..bfe3e7d 100644
+index 52299ab..cf045ea 100644
 --- a/app/_components/WikiArticle.tsx
 +++ b/app/_components/WikiArticle.tsx
 @@ -657,7 +657,7 @@ export function WikiHeader({ query = "" }: { query?: string }) {
@@ -29,7 +29,7 @@ index 52299ab..bfe3e7d 100644
          </div>
        )}
 -      <div className="corpus-note"><strong>{wikiStats.sources.toLocaleString()}</strong><span>peer-reviewed sources indexed across WikiBiome</span></div>
-+      <div className="corpus-note"><strong>{wikiStats.sources.toLocaleString()}</strong><span>peer-reviewed sources cited across WikiBiome</span></div>
++      <div className="corpus-note"><strong>{wikiStats.sources.toLocaleString()}</strong><span>sources cited across WikiBiome</span></div>
      </aside>
    );
  }
@@ -255,10 +255,10 @@ index cb6a8c8..9eeed8e 100644
  export const upstreamWikiPages = wiki.pages;
 diff --git a/tests/release-counts.test.mjs b/tests/release-counts.test.mjs
 new file mode 100644
-index 0000000..501e5ac
+index 0000000..3d7f525
 --- /dev/null
 +++ b/tests/release-counts.test.mjs
-@@ -0,0 +1,23 @@
+@@ -0,0 +1,29 @@
 +import assert from 'node:assert/strict';
 +import test from 'node:test';
 +import {build} from 'esbuild';
@@ -282,8 +282,14 @@ index 0000000..501e5ac
 + const current=await release(),poisoned=await release(true);
 + assert.deepEqual(poisoned.stats,current.stats);assert.deepEqual(poisoned.paths,current.paths);
 +});
++
++test('every shared source-count label avoids an unsupported peer-review claim',()=>{
++ const surfaces=['WikiHome','WikiArticle','WikiDirectory','DiseaseArticle'];
++ for(const name of surfaces){const source=readFileSync(new URL('../app/_components/'+name+'.tsx',import.meta.url),'utf8');for(const line of source.split('\n').filter(line=>line.includes('wikiStats.sources')))assert.doesNotMatch(line,/peer.reviewed/i,name);}
++ const about=readFileSync(new URL('../app/about/page.tsx',import.meta.url),'utf8');for(const line of about.split('\n').filter(line=>line.includes('wikiStats.sources')))assert.doesNotMatch(line,/peer.reviewed/i,'About');
++});
 diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
-index cdaaee8..9336a39 100644
+index cdaaee8..7914cdd 100644
 --- a/tests/rendered-html.test.mjs
 +++ b/tests/rendered-html.test.mjs
 @@ -374,8 +374,11 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
@@ -300,7 +306,17 @@ index cdaaee8..9336a39 100644
    assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
  });
  
-@@ -515,7 +518,10 @@ test("server-renders Urea and contextual H. pylori concept links", async () => {
+@@ -408,6 +411,9 @@ test("server-renders real article and directory pages through the shared redesig
+   assert.match(responsiveCss, /@media \(max-width:900px\)[\s\S]*?\.article-mobile-media \{[^}]*display:block;[\s\S]*?\.article-aside \.article-media-figure,\.disease-aside \.article-media-figure \{ display:none; \}/);
+   assert.match(article, /143/);
+   assert.match(article, /generated references/);
++  const corpusCounter = article.match(/<div class="corpus-note">([\s\S]*?)<\/div>/)?.[1] ?? "";
++  assert.match(corpusCounter, /sources cited across WikiBiome/);
++  assert.doesNotMatch(corpusCounter, /peer.reviewed/i);
+   assert.match(article, /href="\/source\/braud-2010-siderophores-pseudomonas-metal-tolerance"/);
+   const chemicalStart = article.indexOf('id="chemical-properties"');
+   const metabolismStart = article.indexOf('id="nickel-metabolism-and-biomarkers"');
+@@ -515,7 +521,10 @@ test("server-renders Urea and contextual H. pylori concept links", async () => {
    }
  
    assert.match(history, /wiki\/concepts\/urea\.md/);
@@ -312,7 +328,7 @@ index cdaaee8..9336a39 100644
  });
  
  test("server-renders the reviewed corpus-wide Urease link batch without overlinking", async () => {
-@@ -2242,7 +2248,11 @@ test("permanently redirects retired article URLs to one canonical record", async
+@@ -2242,7 +2251,11 @@ test("permanently redirects retired article URLs to one canonical record", async
    const sitemap = await (await render("/sitemap.xml")).text();
    for (const [legacyId, canonicalId] of Object.entries(aliases)) {
      assert.doesNotMatch(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${legacyId}</loc>`));
@@ -325,7 +341,7 @@ index cdaaee8..9336a39 100644
    }
  });
  
-@@ -6268,7 +6278,8 @@ test("generates the restored research tools and current About page from canonica
+@@ -6268,7 +6281,8 @@ test("generates the restored research tools and current About page from canonica
  
    assert.match(about, /<title>About WikiBiome<\/title>/);
    assert.match(about, /karen-pendergrass\.avif/);

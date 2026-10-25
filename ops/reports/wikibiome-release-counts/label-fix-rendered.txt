@@ -1,0 +1,10 @@
+✔ server-renders the WikiBiome portal and anatomical knowledge map (722.476084ms)
+✔ server-renders real article and directory pages through the shared redesign (440.811708ms)
+ℹ tests 2
+ℹ suites 0
+ℹ pass 2
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1390.9705
