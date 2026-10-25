@@ -1,0 +1,166 @@
+{
+  "checkedAt": "2026-10-25T13:38:28.621Z",
+  "base": "http://127.0.0.1:8797",
+  "passed": true,
+  "sitemapUrls": 375,
+  "articleUrls": 343,
+  "publicUrls": 32,
+  "sourceUrls": 0,
+  "imageEntries": 208,
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/category/microbe",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/category/metal",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/category/mechanism",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/source/16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/16s-rrna-t2d-subgingival-plaque-microbiota",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/brownlee-2017-ms-diagnosis-differential-review",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/dong-2021-tsh-salivary-microbiome-shifts",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/he-2023-altered-gut-microbiota-scfa-constipated-asd-chinese",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/kurhaluk-2025-oxidative-stress-gut-microbiota-male-fertility",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/maddu-2025-microbiome-drug-interactions-pharmacokinetic-review",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/papadopoulou-2019-serum-metabolomic-profile-ppd",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/tsushima-2024-ketogenic-diet-pcos-fertility",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/yu-2021-ppd-status-biomarkers-identification",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/zytnick-2024-methylolanthanin-lanthanide-metallophore-methylobacterium",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/scholefield-2024-brain-metallomics-dementia",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/amadi-2022-dietary-interventions-asd-systematic-review",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/source/rizzi-2017-ibs-nickel-diet",
+      "status": 200,
+      "robots": "noindex, follow",
+      "inSitemap": false
+    },
+    {
+      "path": "/article/akkermansia-muciniphila/history",
+      "status": 200,
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/article/autism-spectrum-disorder/history",
+      "status": 200,
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/article/mollicutes/history",
+      "status": 200,
+      "robots": "noindex, follow"
+    },
+    {
+      "path": "/signature-explorer",
+      "status": 308,
+      "destination": "/category/signature"
+    },
+    {
+      "path": "/signature-explorer.html",
+      "status": 308,
+      "destination": "/category/signature"
+    },
+    {
+      "path": "/signatures",
+      "status": 308,
+      "destination": "/category/signature"
+    },
+    {
+      "path": "/signature-explorer.html?disease=autism-spectrum-disorder&tag=a&tag=b",
+      "status": 308,
+      "destination": "/article/autism-spectrum-disorder?disease=autism-spectrum-disorder&tag=a&tag=b#signature"
+    },
+    {
+      "path": "/signatures?disease=not-a-disease",
+      "status": 308,
+      "destination": "/category/signature?disease=not-a-disease"
+    }
+  ]
+}
