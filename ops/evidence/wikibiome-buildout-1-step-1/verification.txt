@@ -1,7 +1,10 @@
-Full Sites build: PASS. Source gate: 343 URLs, 0 failures. Rendered gate: 343 URLs, 0 failures. Noindex checks: 390 retained URLs.
-Unit and policy tests: 17 passed, 0 failed.
+Sites prebuild audits, typecheck and compilation: PASS. Initial postbuild check was blocked by sandbox loopback permissions; the unchanged built candidate was checked on a permitted local Worker.
+Source gate: 375 URLs (343 articles, 32 public routes, 0 sources), 0 failures.
+Rendered gate: all 343 eligible articles pass; all 32 public routes return HTTP 200, index, follow, in sitemap; 386 failing articles plus all 37 formerly indexable sources return HTTP 200, noindex, follow.
+Source registry alias Kravchenko AITD is checked at its canonical lowercase path; no route change.
+Unit and policy tests: 17 passed, 0 failed. Negative lint test adds curcumin to the otherwise valid sitemap and exits 1 with section counts. It also rejects removing home or adding a source record.
 Selected rendered metadata/provenance/compatibility tests: 7 passed, 0 failed.
-Indexing repair checks: PASS. Curl comparisons: 16/16 PASS, five changed and three untouched on each target.
-Negative test: inserting curcumin into a sitemap exits 1 and prints per-section counts.
-Focused ESLint: 0 errors, 5 existing img-element warnings under the image cost lock.
-Reverse patch applicability: PASS. No production deploy, source push, merge, GSC, environment, DNS or database action.
+Indexing repair checks: PASS. Fresh curl comparisons: 24/24 PASS, covering home, About, 3 hubs, 4 article/source exclusions and 3 untouched articles on local candidate and live.
+Focused ESLint: 0 errors, 0 warnings. Whitespace: PASS. React checklist: restored metadata only; no component structure, hooks or client behavior changes.
+Forward/reverse exact patch applicability: PASS.
+No publication, merge, Sites-source push, GSC, DNS, CDN, environment, image regeneration or production database action. GitHub review branch receives one plain follow-up push.

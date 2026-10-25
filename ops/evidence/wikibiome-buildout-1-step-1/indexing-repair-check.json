@@ -1,12 +1,43 @@
 {
-  "checkedAt": "2026-10-25T13:06:52.616Z",
-  "base": "http://127.0.0.1:8787",
+  "checkedAt": "2026-10-25T13:38:28.621Z",
+  "base": "http://127.0.0.1:8797",
   "passed": true,
-  "sitemapUrls": 343,
+  "sitemapUrls": 375,
   "articleUrls": 343,
+  "publicUrls": 32,
   "sourceUrls": 0,
   "imageEntries": 208,
   "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/about",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/category/microbe",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/category/metal",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
+    {
+      "path": "/category/mechanism",
+      "status": 200,
+      "robots": "index, follow",
+      "inSitemap": true
+    },
     {
       "path": "/source/16s-rrna-t1d-t2d-gut-microbiota-adults-fragment-analysis",
       "status": 200,

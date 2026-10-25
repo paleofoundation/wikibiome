@@ -1,5 +1,5 @@
 diff --git a/app/_components/DiseaseArticle.tsx b/app/_components/DiseaseArticle.tsx
-index 0735b2d0e7800dfa2ddcfcd7a584649f4ebc0829..2ec6a8a46ba6f6ad5052942f31013e707a66c269 100644
+index 0735b2d..2ec6a8a 100644
 --- a/app/_components/DiseaseArticle.tsx
 +++ b/app/_components/DiseaseArticle.tsx
 @@ -25,7 +25,6 @@ import {
@@ -20,7 +20,7 @@ index 0735b2d0e7800dfa2ddcfcd7a584649f4ebc0829..2ec6a8a46ba6f6ad5052942f31013e70
                <ClaimProvenance evidence={evidence} />
  
 diff --git a/app/_components/WikiArticle.tsx b/app/_components/WikiArticle.tsx
-index e9004b007230aa3872b57c642d573bf576187856..52299ab7a51568b84b7568fb8c3e181cf4387a04 100644
+index e9004b0..52299ab 100644
 --- a/app/_components/WikiArticle.tsx
 +++ b/app/_components/WikiArticle.tsx
 @@ -809,7 +809,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
@@ -32,44 +32,16 @@ index e9004b007230aa3872b57c642d573bf576187856..52299ab7a51568b84b7568fb8c3e181c
                <EvidenceIntegrity evidence={evidence} />
                <ClaimProvenance evidence={evidence} />
                {!!contents.length && (
-diff --git a/app/institutions/page.tsx b/app/institutions/page.tsx
-index 138f23527f9ec9ff2d5cb72f81998d0996e3d9a9..fe49a96379b8e55db217e552bae0041eb5b3cb57 100644
---- a/app/institutions/page.tsx
-+++ b/app/institutions/page.tsx
-@@ -10,9 +10,8 @@ import { organizationProfiles, searchOrganizationProfiles, matchesOrganizationQu
- 
- type Props = { searchParams: Promise<{ q?: string }> };
- export const dynamic = "force-dynamic";
--export async function generateMetadata({ searchParams }: Props): Promise<Metadata> {
--  const { q } = await searchParams;
--  return publicPageMetadata({ title: "Organizations & projects — WikiBiome", description: "Find organizations, research platforms, and evidence projects by name, researcher, website, or research topic.", path: "/institutions", index: !q?.trim() });
-+export function generateMetadata(): Metadata {
-+  return publicPageMetadata({ title: "Organizations & projects — WikiBiome", description: "Find organizations, research platforms, and evidence projects by name, researcher, website, or research topic.", path: "/institutions", index: false });
- }
- 
- export default async function InstitutionsPage({ searchParams }: Props) {
-diff --git a/app/researchers/[orcid]/page.tsx b/app/researchers/[orcid]/page.tsx
-index a3c3ea1c3e4fcc054f08e36c56859af03bc4940e..cb4cd07d0ea886a3a3e79e044dd545e02d654f2e 100644
---- a/app/researchers/[orcid]/page.tsx
-+++ b/app/researchers/[orcid]/page.tsx
-@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
-   const { orcid } = await params;
-   const researcher = await getPublicResearcher(orcid);
-   if (!researcher) return { title: "Researcher not found — WikiBiome" };
--  return { title: `${researcher.name} — WikiBiome researcher`, description: `Authenticated researcher profile and evidence footprint for ${researcher.name}.`, robots: { index: true, follow: true } };
-+  return { title: `${researcher.name} — WikiBiome researcher`, description: `Authenticated researcher profile and evidence footprint for ${researcher.name}.`, robots: { index: false, follow: true } };
- }
- 
- export default async function ResearcherProfilePage({ params }: Props) {
 diff --git a/app/sitemap.xml/route.ts b/app/sitemap.xml/route.ts
-index 5725bdc0ad73028e3b6f3c9b31fa32315ae0de7d..1b06be91a286da6e1c5a1d9453fc88b30c6e742a 100644
+index 5725bdc..19faeeb 100644
 --- a/app/sitemap.xml/route.ts
 +++ b/app/sitemap.xml/route.ts
-@@ -1,36 +1,16 @@
+@@ -1,17 +1,19 @@
 -import { allSources, allWikiPages, canonicalArticleId, canonicalSourceId, categories, getWikiPage } from "@/lib/wikibiome";
-+import { allWikiPages, canonicalArticleId, getWikiPage } from "@/lib/wikibiome";
++import { allWikiPages, canonicalArticleId, categories, getWikiPage } from "@/lib/wikibiome";
  import { getArticleMedia, type ArticleMedia } from "@/lib/article-media";
--import { organizationProfiles } from "@/lib/organization-profiles.mjs";
++
+ import { organizationProfiles } from "@/lib/organization-profiles.mjs";
  
  import { PUBLIC_ORIGIN as ORIGIN } from "@/lib/search-discovery";
  import { isIndexableArticle } from "@/lib/article-indexing";
@@ -81,35 +53,15 @@ index 5725bdc0ad73028e3b6f3c9b31fa32315ae0de7d..1b06be91a286da6e1c5a1d9453fc88b3
    media?: ArticleMedia;
  };
 -const publicRoutes = [
--  "/",
--  ...[...categories.map((category) => `/category/${category.id}`), "/category/other", "/category/reference"],
--  "/explore",
--  "/clusters",
--  "/compare",
--  "/keystone",
--  "/about",
--  "/readiness",
--  "/support",
--  "/contribute",
--  "/researchers",
--  "/submit-work",
--  "/institutions",
--  ...organizationProfiles.map((profile) => `/organizations/${profile.slug}`),
--  "/research-standard",
--  "/privacy",
--  "/terms",
--  "/contact",
--];
-+// The order provides no exemptions for citation records or utility pages.
-+// Preserve those routes, but advertise only bodies that pass the shared gate.
- 
- export function GET() {
-   const articleMap = new Map<string, string | undefined>();
-@@ -45,11 +25,7 @@ export function GET() {
-   }
- 
++// Home, hubs and established utility routes remain crawl entry points.
++// The quality gate applies to articles; citation-only source pages stay excluded.
++export const publicRoutes = [
+   "/",
+   ...[...categories.map((category) => `/category/${category.id}`), "/category/other", "/category/reference"],
+   "/explore",
+@@ -47,9 +49,6 @@ export function GET() {
    const entries: SitemapEntry[] = [
--    ...publicRoutes.map((path) => ({ path, priority: path === "/" ? "1.0" : "0.7" })),
+     ...publicRoutes.map((path) => ({ path, priority: path === "/" ? "1.0" : "0.7" })),
      ...[...articleMap.entries()].map(([id, lastmod]) => ({ path: `/article/${id}`, lastmod, priority: "0.8", media: getArticleMedia(id) })),
 -    ...[...new Set(Object.keys(allSources).map(canonicalSourceId))]
 -      .filter(isIndexableSource)
@@ -118,7 +70,7 @@ index 5725bdc0ad73028e3b6f3c9b31fa32315ae0de7d..1b06be91a286da6e1c5a1d9453fc88b3
  
    const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.map((entry) => {
 diff --git a/data/article-media-coverage.generated.json b/data/article-media-coverage.generated.json
-index c1b01b3413c6fe8ba7360a10a0aef620b8503d39..ddcfd8d89f2d636dd6e42e80781f0f7eadc08074 100644
+index c1b01b3..ddcfd8d 100644
 --- a/data/article-media-coverage.generated.json
 +++ b/data/article-media-coverage.generated.json
 @@ -6,7 +6,7 @@
@@ -131,7 +83,7 @@ index c1b01b3413c6fe8ba7360a10a0aef620b8503d39..ddcfd8d89f2d636dd6e42e80781f0f7e
      "registrySha256": "70f33c1c8e6dde0e40ec7f50e15f752ed56289ee4c735901a348624569db3237",
      "reviewLog": "data/article-media-review-log.json",
 diff --git a/data/content-manifest.generated.json b/data/content-manifest.generated.json
-index 199fbd4c890b0301e638856e7e447fe66dd8214b..a8663889b13ebee3359624953eb0ff5ee1a1ac95 100644
+index 199fbd4..a866388 100644
 --- a/data/content-manifest.generated.json
 +++ b/data/content-manifest.generated.json
 @@ -1,6 +1,6 @@
@@ -161,7 +113,7 @@ index 199fbd4c890b0301e638856e7e447fe66dd8214b..a8663889b13ebee3359624953eb0ff5e
      "excludedCount": 47,
      "excludedPages": [
 diff --git a/data/content.generated.json b/data/content.generated.json
-index e87c830e4dc23cab0e070e616d4cdad3b01151cd..741c79f193c2b59c3147b8b5806939420159130a 100644
+index e87c830..741c79f 100644
 --- a/data/content.generated.json
 +++ b/data/content.generated.json
 @@ -120694,11 +120694,6 @@
@@ -353,7 +305,7 @@ index e87c830e4dc23cab0e070e616d4cdad3b01151cd..741c79f193c2b59c3147b8b580693942
        "sourceDir": "interventions",
        "sourceCount": 3,
 diff --git a/lib/article-indexing.ts b/lib/article-indexing.ts
-index 898dfb9f7d334f6b362d4f624b00ebb7aba7f900..4065eb4f2cc0a0714ce625de44f1136151bc8395 100644
+index 898dfb9..4065eb4 100644
 --- a/lib/article-indexing.ts
 +++ b/lib/article-indexing.ts
 @@ -1,7 +1,13 @@
@@ -376,7 +328,7 @@ index 898dfb9f7d334f6b362d4f624b00ebb7aba7f900..4065eb4f2cc0a0714ce625de44f11361
  }
 diff --git a/lib/article-quality.mjs b/lib/article-quality.mjs
 new file mode 100644
-index 0000000000000000000000000000000000000000..ff9a116949223890a49b0dfa7a605e0047e71169
+index 0000000..ff9a116
 --- /dev/null
 +++ b/lib/article-quality.mjs
 @@ -0,0 +1,58 @@
@@ -440,7 +392,7 @@ index 0000000000000000000000000000000000000000..ff9a116949223890a49b0dfa7a605e00
 +}
 diff --git a/lib/rendered-article-quality.mjs b/lib/rendered-article-quality.mjs
 new file mode 100644
-index 0000000000000000000000000000000000000000..7c8c5d02e3a2454deb645107cfae774ac54f6e6e
+index 0000000..7c8c5d0
 --- /dev/null
 +++ b/lib/rendered-article-quality.mjs
 @@ -0,0 +1,39 @@
@@ -484,7 +436,7 @@ index 0000000000000000000000000000000000000000..7c8c5d02e3a2454deb645107cfae774a
 +  return { bodyWords, presentReferences, reasons };
 +}
 diff --git a/lib/revisions.ts b/lib/revisions.ts
-index 103d88f35ae0d4feee3bd14748b33b57c52c8507..8f57632d8947d1707c1ce5de4c6563f2f0aa0b4e 100644
+index 103d88f..8f57632 100644
 --- a/lib/revisions.ts
 +++ b/lib/revisions.ts
 @@ -1,5 +1,6 @@
@@ -507,21 +459,8 @@ index 103d88f35ae0d4feee3bd14748b33b57c52c8507..8f57632d8947d1707c1ce5de4c6563f2
    };
  }
  
-diff --git a/lib/search-discovery.ts b/lib/search-discovery.ts
-index c9cbad2ba7b6fb5e181260ce8d974c4122bf2514..3c14f223355637f47d425eaa347d1d3a5f6a41c2 100644
---- a/lib/search-discovery.ts
-+++ b/lib/search-discovery.ts
-@@ -38,7 +38,7 @@ export function publicPageMetadata({
-   path,
-   type = "website",
-   image = DEFAULT_SOCIAL_IMAGE,
--  index = true,
-+  index = false,
- }: PublicMetadataInput): Metadata {
-   const canonicalUrl = absolutePublicUrl(path);
-   const socialImage = {
 diff --git a/lib/source-indexing.mjs b/lib/source-indexing.mjs
-index 186e15e92f60ea3eabfce98ee9a84c61b7905ece..ce6005f7b465b293913a416480aae2ab4b7feb54 100644
+index 186e15e..ce6005f 100644
 --- a/lib/source-indexing.mjs
 +++ b/lib/source-indexing.mjs
 @@ -1,13 +1,7 @@
@@ -545,7 +484,7 @@ index 186e15e92f60ea3eabfce98ee9a84c61b7905ece..ce6005f7b465b293913a416480aae2ab
 +  return false;
  }
 diff --git a/package-lock.json b/package-lock.json
-index f7d83c49ea321f35f13a8662c875029090105911..5bff642f5d60492fb694e635fad1aa7c151bf948 100644
+index f7d83c4..5bff642 100644
 --- a/package-lock.json
 +++ b/package-lock.json
 @@ -38,7 +38,8 @@
@@ -559,7 +498,7 @@ index f7d83c49ea321f35f13a8662c875029090105911..5bff642f5d60492fb694e635fad1aa7c
        "engines": {
          "node": ">=22.13.0"
 diff --git a/package.json b/package.json
-index 1db5dd5c1f3178d2a15b78c652f8f690c21c459d..a08ad43fca64476fa290cb2e2e7d08416799092b 100644
+index 1db5dd5..a08ad43 100644
 --- a/package.json
 +++ b/package.json
 @@ -7,7 +7,8 @@
@@ -594,12 +533,13 @@ index 1db5dd5c1f3178d2a15b78c652f8f690c21c459d..a08ad43fca64476fa290cb2e2e7d0841
  }
 diff --git a/scripts/article-quality-audit.ts b/scripts/article-quality-audit.ts
 new file mode 100644
-index 0000000000000000000000000000000000000000..7c66dd8e61b13519835c39ddf171968def769f5f
+index 0000000..9768079
 --- /dev/null
 +++ b/scripts/article-quality-audit.ts
-@@ -0,0 +1,22 @@
-+import { GET } from "../app/sitemap.xml/route";
-+import { allWikiPages, canonicalArticleId, getWikiPage } from "../lib/wikibiome";
+@@ -0,0 +1,27 @@
++import { GET, publicRoutes } from "../app/sitemap.xml/route";
++import { allWikiPages, canonicalArticleId, canonicalSourceId, getWikiPage } from "../lib/wikibiome";
++import sourceReview from "../data/source-indexing-review.json";
 +import { getArticleQuality } from "../lib/article-indexing";
 +
 +export async function auditSitemap(suppliedXml?: string) {
@@ -613,15 +553,19 @@ index 0000000000000000000000000000000000000000..7c66dd8e61b13519835c39ddf171968d
 +  for (const url of urls) {
 +    const parsed = new URL(url);
 +    const row = byPath.get(parsed.pathname);
-+    if (parsed.origin !== "https://www.wikibiome.com" || parsed.search || parsed.hash || !row?.eligible) failures.push(`${url}: ${row?.reasons.join(", ") ?? "no qualifying article body and references"}`);
++    if (parsed.origin !== "https://www.wikibiome.com" || parsed.search || parsed.hash || !(row?.eligible || publicRoutes.includes(parsed.pathname))) failures.push(`${url}: ${row?.reasons.join(", ") ?? "not an eligible article or established public route"}`);
 +  }
 +  for (const row of rows) {
 +    if (row.eligible && !urls.includes(`https://www.wikibiome.com${row.path}`)) failures.push(`${row.path}: qualifying article missing from sitemap`);
 +  }
-+  return { rows, urls, failures };
++  for (const path of publicRoutes) {
++    if (!urls.includes(`https://www.wikibiome.com${path}`)) failures.push(`${path}: public crawl entry point missing from sitemap`);
++  }
++  const citationSourcePaths = [...new Set(sourceReview.indexableSources.map(({ id }) => `/source/${canonicalSourceId(id)}`))];
++  return { rows, urls, failures, publicRoutes, citationSourcePaths };
 +}
 diff --git a/scripts/audit-public-routing-contract.mjs b/scripts/audit-public-routing-contract.mjs
-index 473a71801b3da513179f9618f866e08daa69a686..930109de2823fad5aafd31dc14b53ec6902cf489 100644
+index 473a718..d01e8c2 100644
 --- a/scripts/audit-public-routing-contract.mjs
 +++ b/scripts/audit-public-routing-contract.mjs
 @@ -227,9 +227,10 @@ export async function auditPublicRoutingContract({
@@ -629,15 +573,15 @@ index 473a71801b3da513179f9618f866e08daa69a686..930109de2823fad5aafd31dc14b53ec6
    const retiredPaths = new Set([...LEGACY_REDIRECTS.map((item) => item.path), ...GONE_PATHS]);
    if (ordinaryUrls.some((url) => retiredPaths.has(new URL(url).pathname))) findings.push("sitemap.xml: redirect or Gone URL is advertised");
 -  for (const prefix of ["/article/", "/source/", "/category/"]) {
-+  for (const prefix of ["/article/"]) {
++  for (const prefix of ["/article/", "/category/"]) {
      if (!ordinaryUrls.some((url) => new URL(url).pathname.startsWith(prefix))) findings.push(`sitemap.xml: no ${prefix} records`);
    }
-+  if (ordinaryUrls.some((url) => !new URL(url).pathname.startsWith("/article/"))) findings.push("sitemap.xml: non-article URL lacks a qualifying body and references");
++  if (ordinaryUrls.some((url) => new URL(url).pathname.startsWith("/source/"))) findings.push("sitemap.xml: citation-only source URL is advertised");
  
    const imageEntries = imageSitemapEntries(sitemap);
    if (imageEntries.length !== expectedImages) findings.push(`image-sitemap.xml: ${imageEntries.length} entries, expected ${expectedImages}`);
 diff --git a/scripts/audit-search-surface.mjs b/scripts/audit-search-surface.mjs
-index 6134e91bbaa7bb18bb5975821318270f4b42b51f..d3da4a4ab33da14d36e4604ecf6e3774031725fd 100644
+index 6134e91..d3da4a4 100644
 --- a/scripts/audit-search-surface.mjs
 +++ b/scripts/audit-search-surface.mjs
 @@ -140,9 +140,9 @@ if (ordinaryUrls.some((url) => !url.startsWith(`${PUBLIC_ORIGIN}/`))) failures.p
@@ -654,10 +598,10 @@ index 6134e91bbaa7bb18bb5975821318270f4b42b51f..d3da4a4ab33da14d36e4604ecf6e3774
  const actualImageEntries = imagePageUrls.toSorted((a, b) => a.page.localeCompare(b.page));
 diff --git a/scripts/lint-rendered-sitemap-quality.mjs b/scripts/lint-rendered-sitemap-quality.mjs
 new file mode 100644
-index 0000000000000000000000000000000000000000..d8f5f28e8f5852c2eb47ba23b41e471d8f102b5a
+index 0000000..9c581ff
 --- /dev/null
 +++ b/scripts/lint-rendered-sitemap-quality.mjs
-@@ -0,0 +1,74 @@
+@@ -0,0 +1,82 @@
 +#!/usr/bin/env node
 +import { spawn } from "node:child_process";
 +import { createRequire } from "node:module";
@@ -696,10 +640,11 @@ index 0000000000000000000000000000000000000000..d8f5f28e8f5852c2eb47ba23b41e471d
 +  if (response.status !== 200) throw new Error(`Sitemap HTTP ${response.status}`);
 +  const urls = [...(await response.text()).matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
 +  if (JSON.stringify(urls) !== JSON.stringify(report.urls)) throw new Error("Built sitemap differs from source gate");
-+  const pending = [...report.rows.map(({ path }) => path), "/", "/institutions", "/category/microbe", "/source/scholefield-2024-brain-metallomics-dementia"];
++  const pending = [...report.rows.map(({ path }) => path), ...report.publicRoutes, ...report.citationSourcePaths];
 +  const results = [];
 +  const failures = [];
 +  let noindexChecks = 0;
++  let publicRouteChecks = 0;
 +  await Promise.all(Array.from({ length: 8 }, async () => {
 +    while (pending.length) {
 +      const path = pending.shift();
@@ -707,6 +652,12 @@ index 0000000000000000000000000000000000000000..d8f5f28e8f5852c2eb47ba23b41e471d
 +      const row = report.rows.find((item) => item.path === path);
 +      const page = await fetch(`${base}${path}`, { redirect: "manual", signal: AbortSignal.timeout(10000) });
 +      const html = await page.text();
++      if (report.publicRoutes.includes(path)) {
++        publicRouteChecks++;
++        if (page.status !== 200 || !/<meta name="robots" content="index, follow"/.test(html)) failures.push(`${path}: expected public HTTP 200, index, follow`);
++        if (!urls.includes(`https://www.wikibiome.com${path}`)) failures.push(`${path}: public route missing from sitemap`);
++        continue;
++      }
 +      if (!row?.eligible) {
 +        noindexChecks++;
 +        if (page.status !== 200 || !/<meta name="robots" content="noindex, follow"/.test(html)) failures.push(`${path}: expected retained HTTP 200, noindex, follow`);
@@ -723,7 +674,8 @@ index 0000000000000000000000000000000000000000..d8f5f28e8f5852c2eb47ba23b41e471d
 +    console.log(`Rendered ${section}: PASS ${rows.filter((row) => !row.reasons.length).length}, FAIL ${rows.filter((row) => row.reasons.length).length}`);
 +  }
 +  console.log(`Rendered sitemap: ${urls.length} URLs; ${failures.length} failures`);
-+  console.log(`Noindex checks: ${noindexChecks} retained article/source/utility URLs`);
++  console.log(`Noindex checks: ${noindexChecks} retained article/source URLs`);
++  console.log(`Public crawl entry points: ${publicRouteChecks} HTTP 200, index, follow, in sitemap`);
 +  if (failures.length) throw new Error(failures.join("\n"));
 +} finally {
 +  if (worker && worker.exitCode === null) {
@@ -734,7 +686,7 @@ index 0000000000000000000000000000000000000000..d8f5f28e8f5852c2eb47ba23b41e471d
 +}
 diff --git a/scripts/lint-sitemap-quality.mjs b/scripts/lint-sitemap-quality.mjs
 new file mode 100644
-index 0000000000000000000000000000000000000000..9448e6bd5a58e6befcacbd55d98ee37c17b07cbd
+index 0000000..9448e6b
 --- /dev/null
 +++ b/scripts/lint-sitemap-quality.mjs
 @@ -0,0 +1,23 @@
@@ -762,7 +714,7 @@ index 0000000000000000000000000000000000000000..9448e6bd5a58e6befcacbd55d98ee37c
 +  process.exitCode = 1;
 +}
 diff --git a/scripts/public-content-policy.mjs b/scripts/public-content-policy.mjs
-index d51ccdf8ba9a536e417d784cdab423d7ab6ab8ea..8f19804ecedf333ea27fa8e0691514a93313cce3 100644
+index d51ccdf..8f19804 100644
 --- a/scripts/public-content-policy.mjs
 +++ b/scripts/public-content-policy.mjs
 @@ -1,4 +1,6 @@
@@ -790,7 +742,7 @@ index d51ccdf8ba9a536e417d784cdab423d7ab6ab8ea..8f19804ecedf333ea27fa8e0691514a9
      if (normalized.promotion) leadPromotions.push(normalized.promotion);
    }
 diff --git a/scripts/sync-wikibiome-content.mjs b/scripts/sync-wikibiome-content.mjs
-index 4718256366276e2c53e7b9e1ea043b2618f9fdc0..419a04ec0164d54bca13b5bdaebc1e6e387e3c4f 100644
+index 4718256..419a04e 100644
 --- a/scripts/sync-wikibiome-content.mjs
 +++ b/scripts/sync-wikibiome-content.mjs
 @@ -55,10 +55,12 @@ let sourceCommit = null;
@@ -839,21 +791,28 @@ index 4718256366276e2c53e7b9e1ea043b2618f9fdc0..419a04ec0164d54bca13b5bdaebc1e6e
      leadPromotionSamples: normalizations.leadPromotions.slice(0, 20),
    },
 diff --git a/scripts/verify-indexing-repair.mjs b/scripts/verify-indexing-repair.mjs
-index c26be540fe4d396e14db0ea21fa3f5089c49119b..d313e4c4aafe66b9383383fdb1704c65f5754e38 100644
+index c26be54..797fb84 100644
 --- a/scripts/verify-indexing-repair.mjs
 +++ b/scripts/verify-indexing-repair.mjs
-@@ -14,8 +14,8 @@ assert.equal(sitemap.response.status, 200);
+@@ -14,8 +14,15 @@ assert.equal(sitemap.response.status, 200);
  const entries = [...sitemap.body.matchAll(/<url>([\s\S]*?)<\/url>/g)].map((match) => match[1]);
  const paths = entries.map((entry) => new URL(entry.match(/<loc>([^<]+)<\/loc>/)[1]).pathname);
  assert.equal(new Set(paths).size, paths.length, "sitemap must not repeat canonical URLs");
 -assert.equal(paths.filter((path) => path.startsWith("/source/")).length, review.indexableSources.length);
 -assert.equal(paths.filter((path) => path.startsWith("/article/")).length, 717);
 +assert.equal(paths.filter((path) => path.startsWith("/source/")).length, 0);
-+assert.equal(paths.filter((path) => path.startsWith("/article/")).length, paths.length);
++for (const path of ["/", "/about", "/category/microbe", "/category/metal", "/category/mechanism"]) {
++  const { response, body } = await get(path);
++  assert.equal(response.status, 200, path);
++  const robots = [...body.matchAll(/<meta name="robots" content="([^"]+)"/g)].map((match) => match[1]);
++  assert.deepEqual(robots, ["index, follow"], path);
++  assert.ok(paths.includes(path), `${path} must remain in sitemap`);
++  results.push({ path, status: response.status, robots: robots[0], inSitemap: true });
++}
  for (let i = 0; i < entries.length; i++) {
    if (!paths[i].startsWith("/article/")) assert.doesNotMatch(entries[i], /<lastmod>/, paths[i]);
  }
-@@ -27,7 +27,7 @@ for (const entry of entries) {
+@@ -27,7 +34,7 @@ for (const entry of entries) {
  }
  const sourceCases = [
    ...review.citationOnlySources.map(({ id }) => [id, false]),
@@ -862,22 +821,22 @@ index c26be540fe4d396e14db0ea21fa3f5089c49119b..d313e4c4aafe66b9383383fdb1704c65
    ["amadi-2022-dietary-interventions-asd-systematic-review", false],
    ["rizzi-2017-ibs-nickel-diet", false],
  ];
-@@ -68,4 +68,4 @@ const robots = await get("/robots.txt");
+@@ -68,4 +75,4 @@ const robots = await get("/robots.txt");
  assert.equal(robots.response.status, 200);
  assert.doesNotMatch(robots.body, /^Disallow:\s*\/source\/\s*$/m);
  assert.doesNotMatch(robots.body, /^Disallow:\s*\/article\/\*\/history\s*$/m);
 -console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: 717, sourceUrls: review.indexableSources.length, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
-+console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: paths.length, sourceUrls: 0, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
++console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: paths.filter((path) => path.startsWith("/article/")).length, publicUrls: paths.filter((path) => !path.startsWith("/article/")).length, sourceUrls: 0, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
 diff --git a/tests/article-quality.test.mjs b/tests/article-quality.test.mjs
 new file mode 100644
-index 0000000000000000000000000000000000000000..9b9d51eea47afcdbf001d714fdcd3656b8f3ccd4
+index 0000000..dcbde17
 --- /dev/null
 +++ b/tests/article-quality.test.mjs
-@@ -0,0 +1,67 @@
+@@ -0,0 +1,84 @@
 +import assert from "node:assert/strict";
 +import test from "node:test";
 +import { spawnSync } from "node:child_process";
-+import { mkdtempSync, writeFileSync, rmSync } from "node:fs";
++import { mkdtempSync, readFileSync, writeFileSync, rmSync } from "node:fs";
 +import { tmpdir } from "node:os";
 +import { join } from "node:path";
 +import { articleQuality, realReferenceKeys, removePlaceholderText } from "../lib/article-quality.mjs";
@@ -934,15 +893,32 @@ index 0000000000000000000000000000000000000000..9b9d51eea47afcdbf001d714fdcd3656
 +  const folder = mkdtempSync(join(tmpdir(), "wikibiome-gate-test-"));
 +  try {
 +    const path = join(folder, "bad.xml");
-+    writeFileSync(path, '<urlset><url><loc>https://www.wikibiome.com/article/curcumin</loc></url></urlset>');
++    const reportPath = join(folder, "report.json");
++    const baseline = spawnSync(process.execPath, ["scripts/lint-sitemap-quality.mjs", `--report=${reportPath}`], { cwd: new URL("../", import.meta.url), encoding: "utf8" });
++    assert.equal(baseline.status, 0, baseline.stderr);
++    const report = JSON.parse(readFileSync(reportPath, "utf8"));
++    for (const route of ["/", "/about", "/category/microbe", "/category/metal", "/category/mechanism"]) {
++      assert.ok(report.urls.includes(`https://www.wikibiome.com${route}`), route);
++    }
++    const xml = `<urlset>${report.urls.map(url => `<url><loc>${url}</loc></url>`).join("")}</urlset>`;
++    writeFileSync(path, xml.replace("</urlset>", '<url><loc>https://www.wikibiome.com/article/curcumin</loc></url></urlset>'));
 +    const result = spawnSync(process.execPath, ["scripts/lint-sitemap-quality.mjs", `--sitemap=${path}`], { cwd: new URL("../", import.meta.url), encoding: "utf8", maxBuffer: 1024 * 1024 });
 +    assert.equal(result.status, 1);
 +    assert.match(result.stdout, /microbe: PASS\/OK \d+, FAIL\/THIN \d+/);
 +    assert.match(result.stderr, /curcumin: excluded-section/);
++    assert.doesNotMatch(result.stderr, /missing from sitemap/);
++    writeFileSync(path, xml.replace('<url><loc>https://www.wikibiome.com/</loc></url>', ''));
++    const missingHome = spawnSync(process.execPath, ["scripts/lint-sitemap-quality.mjs", `--sitemap=${path}`], { cwd: new URL("../", import.meta.url), encoding: "utf8" });
++    assert.equal(missingHome.status, 1);
++    assert.match(missingHome.stderr, /public crawl entry point missing from sitemap/);
++    writeFileSync(path, xml.replace("</urlset>", '<url><loc>https://www.wikibiome.com/source/scholefield-2024-brain-metallomics-dementia</loc></url></urlset>'));
++    const source = spawnSync(process.execPath, ["scripts/lint-sitemap-quality.mjs", `--sitemap=${path}`], { cwd: new URL("../", import.meta.url), encoding: "utf8" });
++    assert.equal(source.status, 1);
++    assert.match(source.stderr, /source\/scholefield.*not an eligible article or established public route/);
 +  } finally { rmSync(folder, { recursive: true, force: true }); }
 +});
 diff --git a/tests/indexing-policy.test.mjs b/tests/indexing-policy.test.mjs
-index fac905705ff562a6f4c8ffa51d922e3931796f5b..78a8e49120702eb5150b47b2b91a03711777a101 100644
+index fac9057..78a8e49 100644
 --- a/tests/indexing-policy.test.mjs
 +++ b/tests/indexing-policy.test.mjs
 @@ -34,7 +34,7 @@ test("source exclusions are limited to existing, explicitly reviewed identities"
@@ -975,7 +951,7 @@ index fac905705ff562a6f4c8ffa51d922e3931796f5b..78a8e49120702eb5150b47b2b91a0371
    assert.equal(allow.length, 37);
  });
 diff --git a/tests/public-routing-contract.test.mjs b/tests/public-routing-contract.test.mjs
-index 5491b08cf2654d932b2e0ac8452f6ab2a97828be..962a47254600c22d9129094ae026a9be1e3d6060 100644
+index 5491b08..56a0d09 100644
 --- a/tests/public-routing-contract.test.mjs
 +++ b/tests/public-routing-contract.test.mjs
 @@ -29,7 +29,7 @@ function fixtureFetch({ brokenRedirect = false } = {}) {
@@ -983,7 +959,7 @@ index 5491b08cf2654d932b2e0ac8452f6ab2a97828be..962a47254600c22d9129094ae026a9be
      { page: `${canonical}/article/two`, image: `${canonical}/media/image/two.webp` },
    ];
 -  const sitemap = `<?xml version="1.0"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${images.map(({ page, image }) => `<url><loc>${page}</loc><image:image><image:loc>${image}</image:loc></image:image></url>`).join("")}<url><loc>${canonical}/source/one</loc></url><url><loc>${canonical}/category/microbe</loc></url></urlset>`;
-+  const sitemap = `<?xml version="1.0"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${images.map(({ page, image }) => `<url><loc>${page}</loc><image:image><image:loc>${image}</image:loc></image:image></url>`).join("")}</urlset>`;
++  const sitemap = `<?xml version="1.0"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${images.map(({ page, image }) => `<url><loc>${page}</loc><image:image><image:loc>${image}</image:loc></image:image></url>`).join("")}<url><loc>${canonical}/category/microbe</loc></url></urlset>`;
    const robots = [
      "User-agent: *",
      "Allow: /",
@@ -997,13 +973,14 @@ index 5491b08cf2654d932b2e0ac8452f6ab2a97828be..962a47254600c22d9129094ae026a9be
        "/explore": ["WebApplication"],
      }[url.pathname];
 diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
-index 5b7c8025e5848d18025db4f014d485ac16856c9b..61ead4e51b89e8d9b3a7eaae0f50d2bcb03dd6ee 100644
+index 5b7c802..cdaaee8 100644
 --- a/tests/rendered-html.test.mjs
 +++ b/tests/rendered-html.test.mjs
-@@ -5947,12 +5947,12 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
+@@ -5946,13 +5946,12 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
+   assert.match(sitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
    assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/article\/nickel<\/loc>/);
    assert.match(sitemap, /xmlns:image="http:\/\/www\.google\.com\/schemas\/sitemap-image\/1\.1"/);
-   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+-  const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
 -  const emptyIds = new Set(content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content")).map(page => page.id));
 -  assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.values(articleMediaRegistry).filter(media => !emptyIds.has(media.pageId)).length);
 +  const sitemapIds = new Set([...sitemap.matchAll(/<loc>[^<]*\/article\/([^<]+)<\/loc>/g)].map((match) => match[1]));
@@ -1017,16 +994,16 @@ index 5b7c8025e5848d18025db4f014d485ac16856c9b..61ead4e51b89e8d9b3a7eaae0f50d2bc
    assert.equal(imageSitemapResponse.status, 301);
    assert.equal(imageSitemapResponse.headers.get("location"), `${PUBLIC_ORIGIN}/sitemap.xml`);
    assert.doesNotMatch(sitemap, /image:(?:title|caption|license)/);
-@@ -6069,7 +6069,7 @@ test("publishes self-canonical metadata, social previews, and representative Sch
+@@ -6069,7 +6068,7 @@ test("publishes self-canonical metadata, social previews, and representative Sch
      assert.match(html, new RegExp(`property="og:url" content="${canonical.replaceAll("/", "\\/")}"`));
      assert.match(html, /property="og:image" content="https:\/\/www\.wikibiome\.com\//);
      assert.match(html, /name="twitter:image" content="https:\/\/www\.wikibiome\.com\//);
 -    assert.doesNotMatch(html, /<meta name="robots" content="noindex/);
-+    assert.deepEqual(htmlRobotsMeta(html), [path.startsWith("/article/") ? "index, follow" : "noindex, follow"]);
++    assert.deepEqual(htmlRobotsMeta(html), [path.startsWith("/source/") ? "noindex, follow" : "index, follow"]);
  
      const schema = structuredData(html, marker);
      const nodes = schema["@graph"] ?? [schema];
-@@ -6377,7 +6377,7 @@ test("binds generated content to the fetched upstream commit", () => {
+@@ -6377,7 +6376,7 @@ test("binds generated content to the fetched upstream commit", () => {
    assert.ok(manifest.sourceMetadataPolicy.omittedDois.some((entry) => entry.id === "NOTE-evaluation-risk-ptes-italy-fish-products" && entry.value === "not yet verified"));
    assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].year, undefined);
    assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].doi, undefined);
@@ -1035,7 +1012,7 @@ index 5b7c8025e5848d18025db4f014d485ac16856c9b..61ead4e51b89e8d9b3a7eaae0f50d2bc
    assert.equal(manifest.publicContentPolicy.excludedCount, 47);
    assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
    assert.equal(manifest.editorialNormalization.leadPromotionCount, 340);
-@@ -6408,7 +6408,7 @@ test("thin citation-only source pages are noindex, follow and absent from the si
+@@ -6408,7 +6407,7 @@ test("thin citation-only source pages are noindex, follow and absent from the si
    const review = JSON.parse(readFileSync(new URL("../data/source-indexing-review.json", import.meta.url), "utf8"));
    const sitemap = await (await render("/sitemap.xml")).text();
    const sourceLocs = sitemap.match(/<loc>[^<]*\/source\/[^<]*<\/loc>/g) ?? [];
@@ -1044,7 +1021,7 @@ index 5b7c8025e5848d18025db4f014d485ac16856c9b..61ead4e51b89e8d9b3a7eaae0f50d2bc
    for (const path of ["/source/rizzi-2017-ibs-nickel-diet", "/source/amadi-2022-dietary-interventions-asd-systematic-review"]) {
      const response = await render(path);
      assert.equal(response.status, 200, path);
-@@ -6419,11 +6419,11 @@ test("thin citation-only source pages are noindex, follow and absent from the si
+@@ -6419,11 +6418,11 @@ test("thin citation-only source pages are noindex, follow and absent from the si
    }
    const keystone = `/source/${review.indexableSources[0].id}`;
    const keystoneHtml = await (await render(keystone)).text();
@@ -1059,7 +1036,7 @@ index 5b7c8025e5848d18025db4f014d485ac16856c9b..61ead4e51b89e8d9b3a7eaae0f50d2bc
    const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
    const empty = content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content"));
    assert.equal(empty.length, 12);
-@@ -6436,7 +6436,7 @@ test("withholds search variants and only audited empty articles from indexing an
+@@ -6436,7 +6435,7 @@ test("withholds search variants and only audited empty articles from indexing an
      assert.equal(htmlCanonical(html), `${PUBLIC_ORIGIN}${path.split("?")[0]}`);
      assert.ok(!sitemap.includes(`<loc>${PUBLIC_ORIGIN}${path.split("?")[0]}</loc>`), path);
    }
