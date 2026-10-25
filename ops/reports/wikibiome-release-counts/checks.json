@@ -1,0 +1,74 @@
+{
+  "source": {
+    "source_base": "79a4ff1e4ae5f21d4c9ff7f5ff748bbb10273fcd",
+    "source_commit": "ce4b96ce9b587fd2981f65ff9debbfc69b2579c8",
+    "source_tree": "2fbb7e5227dd5f0d1be17a6d759ff3c1ab895d32",
+    "hosted_base_v86": "7a95e122e81c6d442311db07331bc2dc0b45aa38",
+    "patches": [
+      {
+        "file": "wb-counts-sites.patch",
+        "base": "79a4ff1e4ae5f21d4c9ff7f5ff748bbb10273fcd",
+        "sha256": "d7399e102ff101b991e31f4dde4da90dfbec0f21cb587d70dc50af6e28327617",
+        "bytes": 27469
+      },
+      {
+        "file": "wb-final-sites.patch",
+        "base": "7a95e122e81c6d442311db07331bc2dc0b45aa38",
+        "sha256": "1b58cafdec3f1b3bc6990140afd61296025125021ef09a5bb7c76846852cc17d",
+        "bytes": 87737
+      }
+    ]
+  },
+  "derived_release_counts": {
+    "totalPages": 343,
+    "sources": 1199,
+    "signatures": 37,
+    "entities": 141,
+    "concepts": 165,
+    "interventions": 0,
+    "stops": 0,
+    "analyses": 4
+  },
+  "sitemap_urls": 375,
+  "failing_sitemap_urls": 0,
+  "source_tests": {
+    "files": 16,
+    "passed": 90,
+    "failed": 0
+  },
+  "rendered_tests": {
+    "broad_run": {
+      "cases": 56,
+      "passed": 53,
+      "stale_assertions": 3
+    },
+    "resolved_cases": [
+      "Urea 249-word page must be noindex/out of sitemap under approved gate",
+      "Retired aliases redirect but only quality-eligible targets belong in sitemap",
+      "Existing icon-only ORCID link verified by exact target and accessible label"
+    ],
+    "targeted_final_run": {
+      "passed": 4,
+      "failed": 0
+    },
+    "unresolved_failures": 0
+  },
+  "checks": {
+    "typecheck": "PASS",
+    "build_and_prebuild_audits": "PASS",
+    "rendered_sitemap_gate": "375 URLs, 0 failures; 423 retained noindex checks; 32 public entrypoints index/follow",
+    "focused_lint": "0 errors, 10 inherited direct-image warnings (cost lock preserved)",
+    "counter_negative_regression": "PASS: poison all upstream _stats values, derived release counters unchanged",
+    "browser": "390/1440 PASS; no overflow, no page errors, no visible 822 / 1,940",
+    "curl": "13 paths checked; home index/follow, 5 article200, true404",
+    "React_review": "Static public-data cache only, no request/user state or new client fetch; labels remain accessible",
+    "whitespace": "Source and review files PASS; exact .patch context blank-line prefixes preserved (not trimmed or reformatted)."
+  },
+  "release_gates": [
+    "Elon review and merge of this follow-up",
+    "Explicit source-repository credential GO still HOLD",
+    "Single authorized Sites publish, same project and PUBLIC audience",
+    "Elon live verification then WB-STEP-2 GO"
+  ],
+  "scope": "No new content, corpus/image edits, image optimization, URL busting, telemetry, menus, DNS, CDN, Sites audience or legacy Vercel changes. No credentials minted or publication attempted."
+}

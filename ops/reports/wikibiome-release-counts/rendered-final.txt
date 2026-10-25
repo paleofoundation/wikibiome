@@ -1,0 +1,12 @@
+✔ server-renders the WikiBiome portal and anatomical knowledge map (393.475708ms)
+✔ server-renders Urea and contextual H. pylori concept links (421.32925ms)
+✔ permanently redirects retired article URLs to one canonical record (1126.599083ms)
+✔ generates the restored research tools and current About page from canonical data (2171.893334ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4532.823625

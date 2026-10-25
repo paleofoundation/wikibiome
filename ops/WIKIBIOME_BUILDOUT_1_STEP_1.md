@@ -1,6 +1,10 @@
 # WIKIBIOME-BUILDOUT-1, Step 1
 
-Status: FIX_DONE for the 2026-10-25 15:20 review; waiting for Elon PASS. No Step 2 work.
+Status: PR #16 merged as cfac925d. The authorized count correction is ready for follow-up review, with final Sites source `ce4b96ce9b587fd2981f65ff9debbfc69b2579c8`. Publication remains held on the source-credential GO; no Step 2 work.
+
+Final combined patch from live v86: `ops/patches/wikibiome-buildout-1-final-sites.patch`, SHA-256 `1b58cafdec3f1b3bc6990140afd61296025125021ef09a5bb7c76846852cc17d`. Counts-only patch after the approved Step 1 candidate: `ops/patches/wikibiome-release-counts-sites.patch`, SHA-256 `d7399e102ff101b991e31f4dde4da90dfbec0f21cb587d70dc50af6e28327617`. Evidence: `ops/reports/wikibiome-release-counts/checks.json` and local build, test, curl and browser artifacts. Both patches reverse-check against the final exact source. Use the combined patch when opening v86's canonical source; never deploy this legacy Vite application.
+
+Public counters derive from the canonical quality-gated release and real distinct cited references. Search labels omit inventory totals. The original accepted Step 1 packet below remains the historical base.
 
 The article gate now applies only to article pages. The sitemap contains **375 URLs: 343 qualifying articles and the original 32 home, category, organization and utility routes**. Home, About, all 12 category hubs and the other established public routes retain `index, follow`. The 37 previously advertised citation-only source pages remain `noindex, follow` and excluded. No source page already passes the article-body/reference gate.
 

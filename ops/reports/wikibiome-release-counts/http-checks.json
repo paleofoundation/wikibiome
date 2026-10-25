@@ -1,0 +1,97 @@
+[
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "urlCount": 375
+  },
+  {
+    "path": "/",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ],
+    "indexedArticles": [
+      "343"
+    ],
+    "citedSources": [
+      "1,199"
+    ]
+  },
+  {
+    "path": "/about",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/search",
+    "status": 200,
+    "robots": [
+      "noindex, follow"
+    ]
+  },
+  {
+    "path": "/article/acidaminococcus",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/article/acinetobacter-baumannii",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/article/acinetobacter",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/article/actinobacteria",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/article/adherent-invasive-e-coli",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/category/microbe",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/category/disease",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/category/mechanism",
+    "status": 200,
+    "robots": [
+      "index, follow"
+    ]
+  },
+  {
+    "path": "/conductor-wb-not-a-page",
+    "status": 404,
+    "robots": [
+      "noindex, follow"
+    ]
+  }
+]
