@@ -1,0 +1,7 @@
+Full Sites build: PASS. Source gate: 343 URLs, 0 failures. Rendered gate: 343 URLs, 0 failures. Noindex checks: 390 retained URLs.
+Unit and policy tests: 17 passed, 0 failed.
+Selected rendered metadata/provenance/compatibility tests: 7 passed, 0 failed.
+Indexing repair checks: PASS. Curl comparisons: 16/16 PASS, five changed and three untouched on each target.
+Negative test: inserting curcumin into a sitemap exits 1 and prints per-section counts.
+Focused ESLint: 0 errors, 5 existing img-element warnings under the image cost lock.
+Reverse patch applicability: PASS. No production deploy, source push, merge, GSC, environment, DNS or database action.

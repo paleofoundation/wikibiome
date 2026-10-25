@@ -1,0 +1,249 @@
+{
+  "checkedAt": "2026-10-25T15:06:44.261974+02:00",
+  "method": "curl GET, no redirects followed; candidate is a local built Worker; no production publication",
+  "rows": [
+    {
+      "target": "live",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/article/curcumin",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/curcumin",
+      "bodyWords": 62,
+      "referenceCount": 8,
+      "placeholders": [
+        " Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature",
+        "  To be populated from source analysis"
+      ],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": true
+    },
+    {
+      "target": "live",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/article/aeromonas",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/aeromonas",
+      "bodyWords": 672,
+      "referenceCount": 0,
+      "placeholders": [],
+      "evidenceLimited": true,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "live",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/article/stop-iron-supplementation-ms",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/stop-iron-supplementation-ms",
+      "bodyWords": 901,
+      "referenceCount": 4,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "live",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/source/scholefield-2024-brain-metallomics-dementia",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/source/scholefield-2024-brain-metallomics-dementia",
+      "bodyWords": 0,
+      "referenceCount": 0,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "live",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com",
+      "bodyWords": 0,
+      "referenceCount": 0,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "live",
+      "kind": "untouched",
+      "url": "https://www.wikibiome.com/article/acidaminococcus",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/acidaminococcus",
+      "bodyWords": 516,
+      "referenceCount": 4,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "live",
+      "kind": "untouched",
+      "url": "https://www.wikibiome.com/article/acinetobacter-baumannii",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/acinetobacter-baumannii",
+      "bodyWords": 727,
+      "referenceCount": 6,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "live",
+      "kind": "untouched",
+      "url": "https://www.wikibiome.com/article/nickel",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/nickel",
+      "bodyWords": 5482,
+      "referenceCount": 143,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "candidate",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/article/curcumin",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/curcumin",
+      "bodyWords": 14,
+      "referenceCount": 8,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "noindex, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "candidate",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/article/aeromonas",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/aeromonas",
+      "bodyWords": 672,
+      "referenceCount": 0,
+      "placeholders": [],
+      "evidenceLimited": true,
+      "robots": [
+        "noindex, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "candidate",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/article/stop-iron-supplementation-ms",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/stop-iron-supplementation-ms",
+      "bodyWords": 901,
+      "referenceCount": 4,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "noindex, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "candidate",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/source/scholefield-2024-brain-metallomics-dementia",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/source/scholefield-2024-brain-metallomics-dementia",
+      "bodyWords": 0,
+      "referenceCount": 0,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "noindex, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "candidate",
+      "kind": "changed",
+      "url": "https://www.wikibiome.com/",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com",
+      "bodyWords": 0,
+      "referenceCount": 0,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "noindex, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "candidate",
+      "kind": "untouched",
+      "url": "https://www.wikibiome.com/article/acidaminococcus",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/acidaminococcus",
+      "bodyWords": 516,
+      "referenceCount": 4,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "candidate",
+      "kind": "untouched",
+      "url": "https://www.wikibiome.com/article/acinetobacter-baumannii",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/acinetobacter-baumannii",
+      "bodyWords": 727,
+      "referenceCount": 6,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    },
+    {
+      "target": "candidate",
+      "kind": "untouched",
+      "url": "https://www.wikibiome.com/article/nickel",
+      "status": 200,
+      "canonical": "https://www.wikibiome.com/article/nickel",
+      "bodyWords": 5482,
+      "referenceCount": 143,
+      "placeholders": [],
+      "evidenceLimited": false,
+      "robots": [
+        "index, follow"
+      ],
+      "visibleTemplateText": false
+    }
+  ]
+}

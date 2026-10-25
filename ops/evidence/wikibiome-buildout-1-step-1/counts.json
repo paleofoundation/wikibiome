@@ -1,0 +1,130 @@
+{
+  "baselineSitesVersion": 86,
+  "baselineSitesSource": "7a95e122e81c6d442311db07331bc2dc0b45aa38",
+  "vaultCommit": "8f8608b6f99c8818cae1617aaecc5d2d9760d04a",
+  "baselineSitemapUrls": 786,
+  "candidateSitemapUrls": 343,
+  "baselineFailingSitemapUrls": 443,
+  "candidateFailingSitemapUrls": 0,
+  "stableArticleCohort": 717,
+  "allCanonicalArticles": 729,
+  "previouslyNoindexArticles": 12,
+  "evidenceLimitedRemoved": 86,
+  "interventionsRemoved": 69,
+  "stopsRemoved": 39,
+  "visiblePlaceholderPages": 7,
+  "concreteChangedUrls": 457,
+  "dynamicNoindexRoutePatterns": [
+    "/researchers/:orcid",
+    "/institutions/:identifier",
+    "/proposals/:id"
+  ],
+  "sections": [
+    {
+      "section": "analysis",
+      "total": 17,
+      "beforeThin": 13,
+      "beforeOk": 4,
+      "afterThin": 13,
+      "afterOk": 4
+    },
+    {
+      "section": "defense",
+      "total": 29,
+      "beforeThin": 9,
+      "beforeOk": 20,
+      "afterThin": 9,
+      "afterOk": 20
+    },
+    {
+      "section": "disease",
+      "total": 65,
+      "beforeThin": 29,
+      "beforeOk": 36,
+      "afterThin": 29,
+      "afterOk": 36
+    },
+    {
+      "section": "entity",
+      "total": 5,
+      "beforeThin": 1,
+      "beforeOk": 4,
+      "afterThin": 1,
+      "afterOk": 4
+    },
+    {
+      "section": "intervention",
+      "total": 69,
+      "beforeThin": 69,
+      "beforeOk": 0,
+      "afterThin": 69,
+      "afterOk": 0
+    },
+    {
+      "section": "mechanism",
+      "total": 239,
+      "beforeThin": 98,
+      "beforeOk": 141,
+      "afterThin": 98,
+      "afterOk": 141
+    },
+    {
+      "section": "metal",
+      "total": 24,
+      "beforeThin": 1,
+      "beforeOk": 23,
+      "afterThin": 1,
+      "afterOk": 23
+    },
+    {
+      "section": "microbe",
+      "total": 222,
+      "beforeThin": 108,
+      "beforeOk": 114,
+      "afterThin": 108,
+      "afterOk": 114
+    },
+    {
+      "section": "other",
+      "total": 5,
+      "beforeThin": 5,
+      "beforeOk": 0,
+      "afterThin": 5,
+      "afterOk": 0
+    },
+    {
+      "section": "reference",
+      "total": 2,
+      "beforeThin": 2,
+      "beforeOk": 0,
+      "afterThin": 2,
+      "afterOk": 0
+    },
+    {
+      "section": "signature",
+      "total": 1,
+      "beforeThin": 0,
+      "beforeOk": 1,
+      "afterThin": 0,
+      "afterOk": 1
+    },
+    {
+      "section": "stop",
+      "total": 39,
+      "beforeThin": 39,
+      "beforeOk": 0,
+      "afterThin": 39,
+      "afterOk": 0
+    }
+  ],
+  "providedLegacyAudit": {
+    "thin": 616,
+    "ok": 101
+  },
+  "reproducedLegacyAudit": {
+    "thin": 304,
+    "ok": 413
+  },
+  "candidateSitesSource": "96ddce9e80a3c68c3dd520e4f8eb5984caedee29",
+  "patchSha256": "07b87e0644253263aefecc703675d360c140cf80b39ce17322cb9844814bfe22"
+}
