@@ -1,0 +1,223 @@
+
+> site-creator-vinext-starter@0.1.0 prebuild
+> node scripts/sync-wikibiome-content.mjs --audit-only && node scripts/generate-revision-history.mjs --audit-only && node scripts/audit-editorial-corpus.mjs --strict && node scripts/generate-article-media-program.mjs && node scripts/check-article-media.mjs && npm run lint:sitemap && npm run typecheck
+
+WikiBiome content audited: 822 pages, 1940 source records.
+6499 article references generated; 348 recovered from inline citations.
+0 referenced source IDs lack registry metadata; 0 DOI values are flagged.
+0 invalid source years remain in generated content.
+14 retired article IDs resolve through the audited identity registry.
+65 duplicate page IDs flagged (alzheimers-disease, autism-spectrum-disorder, cardiovascular-disease, cerebral-palsy, chelation-therapy, chronic-kidney-disease, colorectal-cancer, crohns-disease, …). The first upstream record remains canonical.
+WikiBiome revision history audited: 822 records, 2046 revision entries.
+WikiBiome editorial audit: 822 records, 715 canonical routes.
+0 records across 0 routes retain unjustified warnings; 121 records carry explicit dispositions; 0 records are blocked.
+- below_evidence_threshold: 98 records / 89 routes (chronic-fatigue-syndrome, cirrhosis, diabetic-kidney-disease, hepatitis, hungatella, huntingtons-disease, intestinibacter, neisseria-meningitidis, …)
+- missing_introduction: 30 records / 30 routes (barium, fusarium, listeria, proteus, pseudomonas, strontium, subdoligranulum, titanium, …)
+- no_references: 50 records / 48 routes (aeromonas, aip-diet-hashimotos, berberine-methimazole, breast-milk-hmo-nec, dietary-fiber-colorectal-cancer, dietary-fiber-probiotics-cp-constipation, fmt-autism, l-rhamnosus-gg-early-life, …)
+- no_substantive_content: 12 records / 12 routes (barium, fusarium, listeria, proteus, pseudomonas, strontium, subdoligranulum, titanium, …)
+- notice canonical_signature_reference_reconciliation: 4 records / 4 routes
+- notice canonical_signature_threshold_reconciliation: 4 records / 4 routes
+- notice generated_signature_threshold_reconciliation: 1 records / 1 routes
+- notice structural_parent_headings: 382 records / 356 routes
+- notice suppressed_source_placeholders: 1 records / 1 routes
+Article media program register is current: 385 completed, 330 remaining.
+Scientific media release gate passed: 385 reviewed assets, 330 queued routes.
+
+> site-creator-vinext-starter@0.1.0 lint:sitemap
+> node scripts/lint-sitemap-quality.mjs
+
+analysis: PASS/OK 4, FAIL/THIN 13, TOTAL 17
+defense: PASS/OK 20, FAIL/THIN 9, TOTAL 29
+disease: PASS/OK 36, FAIL/THIN 29, TOTAL 65
+entity: PASS/OK 4, FAIL/THIN 1, TOTAL 5
+intervention: PASS/OK 0, FAIL/THIN 69, TOTAL 69
+mechanism: PASS/OK 141, FAIL/THIN 98, TOTAL 239
+metal: PASS/OK 23, FAIL/THIN 6, TOTAL 29
+microbe: PASS/OK 114, FAIL/THIN 115, TOTAL 229
+other: PASS/OK 0, FAIL/THIN 5, TOTAL 5
+reference: PASS/OK 0, FAIL/THIN 2, TOTAL 2
+signature: PASS/OK 1, FAIL/THIN 0, TOTAL 1
+stop: PASS/OK 0, FAIL/THIN 39, TOTAL 39
+Sitemap URLs: 375; failing URLs: 0
+
+> site-creator-vinext-starter@0.1.0 typecheck
+> tsc --noEmit --incremental false
+
+
+> site-creator-vinext-starter@0.1.0 build
+> WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build
+
+
+  vinext build  (Vite 8.0.13)
+
+[1/5] analyze client references...
+[2K
+transforming...✓ 518 modules transformed.
+rendering chunks...
+✓ built in 1.80s
+[2/5] analyze server references...
+[2K
+transforming...✓ 104 modules transformed.
+rendering chunks...
+✓ built in 122ms
+[3/5] build rsc environment...
+[2K
+transforming...✓ 516 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 2.30s
+[4/5] build client environment...
+[2K
+transforming...✓ 145 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 674ms
+[5/5] build ssr environment...
+[2K
+transforming...✓ 110 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 358ms
+[0m
+  Route (app)
+  ┌ ? /
+  ├ ? /about
+  ├ λ /api/account
+  ├ λ /api/account/email/resend
+  ├ λ /api/account/email/status
+  ├ λ /api/account/email/verify
+  ├ λ /api/auth/orcid/callback
+  ├ λ /api/auth/orcid/signout
+  ├ λ /api/auth/orcid/start
+  ├ λ /api/author-reviews
+  ├ λ /api/contributions
+  ├ λ /api/contributions/:id
+  ├ λ /api/discussions
+  ├ λ /api/discussions/:id/posts
+  ├ λ /api/discussions/posts/:id
+  ├ λ /api/discussions/posts/:id/report
+  ├ λ /api/email/unsubscribe
+  ├ λ /api/institutions
+  ├ λ /api/institutions/batches
+  ├ λ /api/outreach/citation-notices
+  ├ λ /api/outreach/claim
+  ├ λ /api/paper-intake
+  ├ λ /api/paper-intake/:id
+  ├ λ /api/paper-intake/:id/export
+  ├ λ /api/paper-intake/:id/file
+  ├ λ /api/paper-intake/appointments
+  ├ λ /api/paper-intake/bridge
+  ├ λ /api/paper-intake/corpus
+  ├ λ /api/paper-intake/pilot
+  ├ λ /api/research-network/activity
+  ├ λ /api/research-network/moderation
+  ├ λ /api/research-network/notifications/dispatch
+  ├ λ /api/research-network/recognition
+  ├ λ /api/researcher/follows
+  ├ λ /api/researcher/messages
+  ├ λ /api/researcher/messages/:id
+  ├ λ /api/researcher/messages/:id/report
+  ├ λ /api/researcher/notifications
+  ├ λ /api/researcher/orcid-works/:id/submit
+  ├ λ /api/researcher/profile-photo
+  ├ λ /api/researcher/proposals
+  ├ λ /api/researcher/roundtable
+  ├ λ /api/researcher/work-matches/:id
+  ├ λ /api/researcher/works
+  ├ λ /api/researchers/:orcid/block
+  ├ λ /api/search-observability
+  ├ λ /api/source-claims
+  ├ λ /api/sources/search
+  ├ λ /api/webhooks/resend
+  ├ λ /api/work-submissions
+  ├ λ /api/work-submissions/:id
+  ├ λ /api/work-submissions/:id/manuscript
+  ├ λ /api/work-submissions/manuscripts/scan-result
+  ├ ƒ /article/:id
+  ├ ƒ /article/:id/history
+  ├ ƒ /article/:id/suggest
+  ├ ƒ /category/:category
+  ├ ? /clusters
+  ├ ? /compare
+  ├ ? /contact
+  ├ ƒ /contribute
+  ├ ƒ /contributions
+  ├ ? /explore
+  ├ λ /favicon.ico
+  ├ λ /image-review/2026-10-15
+  ├ λ /image-sitemap.xml
+  ├ ƒ /institutions
+  ├ ƒ /institutions/:ror
+  ├ ? /keystone
+  ├ ? /matrix
+  ├ ? /organizations
+  ├ ƒ /organizations/:slug
+  ├ ? /privacy
+  ├ ƒ /proposals/:id
+  ├ ƒ /propose
+  ├ ? /readiness
+  ├ ? /research-governance
+  ├ ? /research-standard
+  ├ ƒ /researcher/dashboard
+  ├ ƒ /researcher/messages
+  ├ ƒ /researcher/moderation
+  ├ ƒ /researcher/notifications
+  ├ ƒ /researcher/proposals
+  ├ ƒ /researcher/review
+  ├ ƒ /researcher/submissions
+  ├ ƒ /researcher/submissions/:id
+  ├ ƒ /researcher/works
+  ├ ƒ /researchers
+  ├ ƒ /researchers/:orcid
+  ├ λ /researchers/:orcid/photo
+  ├ λ /robots.txt
+  ├ ƒ /roundtable
+  ├ ? /search
+  ├ ? /signatures
+  ├ λ /sitemap.xml
+  ├ ƒ /source/:id
+  ├ ƒ /source/:id/claim
+  ├ ? /submit
+  ├ ƒ /submit-work
+  ├ ? /support
+  ├ ? /support/thank-you
+  ├ ? /tags
+  ├ ? /terms
+  └ ? /vote
+
+  λ API  ƒ Dynamic  ? Unknown
+
+  ? Some routes could not be classified. vinext currently uses static analysis
+    and cannot detect dynamic API usage (headers(), cookies(), etc.) at build time.
+    Automatic classification will be improved in a future release.
+
+  Build complete. Run `vinext start` to start the production server.
+
+
+> site-creator-vinext-starter@0.1.0 postbuild
+> node scripts/lint-rendered-sitemap-quality.mjs
+
+analysis: PASS/OK 4, FAIL/THIN 13, TOTAL 17
+defense: PASS/OK 20, FAIL/THIN 9, TOTAL 29
+disease: PASS/OK 36, FAIL/THIN 29, TOTAL 65
+entity: PASS/OK 4, FAIL/THIN 1, TOTAL 5
+intervention: PASS/OK 0, FAIL/THIN 69, TOTAL 69
+mechanism: PASS/OK 141, FAIL/THIN 98, TOTAL 239
+metal: PASS/OK 23, FAIL/THIN 6, TOTAL 29
+microbe: PASS/OK 114, FAIL/THIN 115, TOTAL 229
+other: PASS/OK 0, FAIL/THIN 5, TOTAL 5
+reference: PASS/OK 0, FAIL/THIN 2, TOTAL 2
+signature: PASS/OK 1, FAIL/THIN 0, TOTAL 1
+stop: PASS/OK 0, FAIL/THIN 39, TOTAL 39
+Sitemap URLs: 375; failing URLs: 0
+Rendered analysis: PASS 4, FAIL 0
+Rendered defense: PASS 20, FAIL 0
+Rendered disease: PASS 36, FAIL 0
+Rendered entity: PASS 4, FAIL 0
+Rendered mechanism: PASS 141, FAIL 0
+Rendered metal: PASS 23, FAIL 0
+Rendered microbe: PASS 114, FAIL 0
+Rendered signature: PASS 1, FAIL 0
+Rendered sitemap: 375 URLs; 0 failures
+Noindex checks: 423 retained article/source URLs
+Public crawl entry points: 32 HTTP 200, index, follow, in sitemap

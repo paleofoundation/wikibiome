@@ -1,6 +1,10 @@
 # WIKIBIOME-BUILDOUT-1, Step 1
 
-Status: FIX_DONE for the 2026-10-25 15:20 review; waiting for Elon PASS. No Step 2 work.
+Status: PR #16 merged as cfac925d. The authorized count correction is ready for follow-up review, with final Sites source `b02e4533ef717e7b3aa85d76950c24294c83609b`. Published through Sites as version87 on2026-10-25 following Karen’s renewed direct instruction in the CONDUCTOR chat. Live curl verification passed; Step2 still requires explicit WB-STEP-2 GO.
+
+Final combined patch from live v86: `ops/patches/wikibiome-buildout-1-final-sites.patch`, SHA-256 `36bc6cbcfc247dbdbd91b9c11a24a435d44f87341d67527fa0c0e6bef2178459`. Counts-only patch after the approved Step 1 candidate: `ops/patches/wikibiome-release-counts-sites.patch`, SHA-256 `ae919e1faebd799507d3c1c8451d38dc7b8036bb78c40a450ae97458f6a71f80`. Evidence: `ops/reports/wikibiome-release-counts/checks.json` and local build, test, curl and browser artifacts. Both patches reverse-check against the final exact source. Use the combined patch when opening v86's canonical source; never deploy this legacy Vite application.
+
+Public counters derive from the canonical quality-gated release and real distinct cited references. Search labels omit inventory totals. The original accepted Step 1 packet below remains the historical base.
 
 The article gate now applies only to article pages. The sitemap contains **375 URLs: 343 qualifying articles and the original 32 home, category, organization and utility routes**. Home, About, all 12 category hubs and the other established public routes retain `index, follow`. The 37 previously advertised citation-only source pages remain `noindex, follow` and excluded. No source page already passes the article-body/reference gate.
 
@@ -60,3 +64,13 @@ All 24 requests return 200 with self-canonical URLs and the expected sitemap mem
 Validation: prebuild corpus/editorial/media audits, Sites compilation, typecheck, 17 unit/policy tests, seven rendered regressions, all 375 rendered sitemap URLs, 423 retained noindex article/source routes, indexing verifier, 24 curl checks, focused ESLint and whitespace. The build’s first postbuild run hit the sandbox loopback restriction; the permitted local Worker passed. The 37-source check canonicalizes the registry’s mixed-case alias before fetching.
 
 Elon owns review and merge. Karen publishes the approved batch through Sites. Step 2 waits for that publish and live curl verification. This runner stops after the plain push and bridge STATUS.
+
+## HI-014 batched public guide
+
+A normal source child adds only public/llms.txt. Existing site/article JSON-LD is preserved. Local rebuilt Worker serves the exact text asset200 and all eight public guide links200 with existing structured data; zero outbound calls. The full rebuilt gate remains375/0,423 retained noindex and32 public entrypoints. No image, count, telemetry or menu changes. Both reviewed patches now include this guide and have refreshed exact hashes above. This supersedes the previous patch hashes and needs review on the same single release PR; credential stays HOLD, no version saved or published.
+
+## WB-PUBLISH-1 live publication
+
+Karen directly reissued the publish instruction in CONDUCTOR at22:30, authorizing the necessary temporary Sites source access for this one release. The exact source and matching archive were pushed/saved and deployed once as version87, deployment appgdep_6ade67b92238819184f192f0ade08e43, succeeded2026-10-25T20:34:39.960338+00:00. No PR was merged by CONDUCTOR. Temporary source credentials were passed only through hidden stdin and discarded from session memory after the source push. Existing public audience, Sites hosting, DB/R2 bindings, images, telemetry and menus were preserved.
+
+Live custom-domain curl checks: sitemap786 before to375 after; home343 indexed articles/1,199 cited sources, indexfollow and no stale count labels;5 selected articles200; missing route404; llms.txt200. Exact response hashes and source/deployment provenance are in ops/reports/wikibiome-publication. [Live WikiBiome](https://wikibiome.com). WB-Step2 still waits for Elon’s live check and explicit GO.

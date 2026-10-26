@@ -1,0 +1,117 @@
+{
+  "phase": "before",
+  "checked_at": "2026-10-25T22:33:00.578067+02:00",
+  "method": "Unauthenticated curl GET, HTTPS redirects, normal no-cache request header, no query cache bust, no cookies or credentials.",
+  "results": [
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url": "https://www.wikibiome.com/sitemap.xml",
+      "content_type": "application/xml; charset=utf-8",
+      "bytes": 180698,
+      "sha256": "6663f9249dfe002a9994701654f5dde41276431fd9d2f6b6d5514f0f30521108",
+      "url_count": 786,
+      "unique_urls": 786,
+      "five_articles_listed": true,
+      "home_listed": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://www.wikibiome.com/",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 74448,
+      "sha256": "50cb4c6a49269ac1786daf6dc25e1e03138f6e764ad784d907a10c1daf4d20a8",
+      "robots": [
+        "index, follow"
+      ],
+      "expected_article_count_present": false,
+      "expected_cited_source_count_present": false,
+      "stale_count_context_present": true,
+      "count_contexts": [
+        "he human ecosystem Follow a named connection 822 articles 1,940 scientific sources 70 disease signatures 597 conn",
+        "ystem Follow a named connection 822 articles 1,940 scientific sources 70 disease signatures 597 connected concepts ",
+        "ic reference without flattening uncertainty. 1,940 sources indexed 822 public articles 70 disease signatures Read t",
+        "lattening uncertainty. 1,940 sources indexed 822 public articles 70 disease signatures Read the foundation articl",
+        "s Compare conditions Keystone studies Search 822 articles Participate Researcher network Researcher dashboard Fin"
+      ]
+    },
+    {
+      "path": "/article/acidaminococcus",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/acidaminococcus",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 152849,
+      "sha256": "a7f3eefafed9eec94da2297c49c6ac166649d8cb2eb14269e4b6dc468eab2fe3",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/article/acinetobacter-baumannii",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/acinetobacter-baumannii",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 168572,
+      "sha256": "ddc81cebac4cdaf68ccc9370b49aa5c4f2ac7ee0f2b016721d25af330c8f6657",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/article/acinetobacter",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/acinetobacter",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 221402,
+      "sha256": "18d8c66ac94c1a554bf5343d2841b4dda9ed07ec21ddb4334e30f378cde7a763",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/article/actinobacteria",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/actinobacteria",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 189459,
+      "sha256": "e237520adc155e63b82c5470300420f734a39a30662841045553c2eb227e7f5d",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/article/adherent-invasive-e-coli",
+      "status": 200,
+      "url": "https://www.wikibiome.com/article/adherent-invasive-e-coli",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 157064,
+      "sha256": "f8d98d4c0ec421576400c8c9672784a4b2d489974886e8666db7147e34833cab",
+      "robots": [
+        "index, follow"
+      ]
+    },
+    {
+      "path": "/__conductor_missing_20261025",
+      "status": 404,
+      "url": "https://www.wikibiome.com/__conductor_missing_20261025",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 1471,
+      "sha256": "1f1e831ed6eb4a3de266b13bf6cb39b8a278ba076f06a18a7055bd5b9e5cb8f2",
+      "robots": [
+        "noindex, follow"
+      ]
+    },
+    {
+      "path": "/llms.txt",
+      "status": 404,
+      "url": "https://www.wikibiome.com/llms.txt",
+      "content_type": "text/html; charset=utf-8",
+      "bytes": 23796,
+      "sha256": "0bf435315b70391d9581c7452b8998be452fc29ba424d27c23b6eaf8d507cdfd",
+      "heading": "<!DOCTYPE html><html lang=\"en\"><head><meta charSet=\"utf-8\"/><meta name=\"viewport\" content=\"width=dev"
+    }
+  ],
+  "errors": [],
+  "pass": null
+}

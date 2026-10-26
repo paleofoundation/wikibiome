@@ -1,0 +1,16 @@
+{
+  "source_commit": "b02e4533ef717e7b3aa85d76950c24294c83609b",
+  "source_tree": "5b2af17117d929e320397547bf4abc512eaae2c0",
+  "project_id": "appgprj_6a952a45833881918318478cf66804f3",
+  "archive_sha256": "e8f6cd2b220d79037938b3911c0e8c04a30eab56cd796074b5fe50f13e7e74c5",
+  "archive_bytes": 94138157,
+  "source_pushed": true,
+  "authorization": "Fresh direct user instruction22:30 to publish WikiBiome now through Sites; PR merges not performed.",
+  "version_number": 87,
+  "version_id": "appgprj_6a952a45833881918318478cf66804f3~appgver_e12fae4d5b588191845a3bcf2cd1dae3",
+  "deployment_id": "appgdep_6ade67b92238819184f192f0ade08e43",
+  "deployment_status": "succeeded",
+  "sites_url": "https://wikibiome.kmfp.chatgpt.site",
+  "custom_domain": "https://wikibiome.com",
+  "published_at": "2026-10-25T20:34:39.960338+00:00"
+}

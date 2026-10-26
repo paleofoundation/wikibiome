@@ -1,0 +1,375 @@
+diff --git a/app/_components/DiseaseArticle.tsx b/app/_components/DiseaseArticle.tsx
+index 2ec6a8a46ba6f6ad5052942f31013e707a66c269..3a6dc7942bc47ac93c2a28ed72e703dad9d90f41 100644
+--- a/app/_components/DiseaseArticle.tsx
++++ b/app/_components/DiseaseArticle.tsx
+@@ -387,7 +387,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
+               )}
+               <footer className="article-provenance" id="provenance">
+                 <p>Generated from the WikiBiome Markdown vault; disease and signature records are reconciled at build time.</p>
+-                <span>{evidence.references.length} references · {record.contentRecordCount} content records · {wikiStats.totalPages} corpus pages</span>
++                <span>{evidence.references.length} references · {record.contentRecordCount} content records · {wikiStats.totalPages} indexed articles</span>
+               </footer>
+             </article>
+             <div className="article-right-column"><ArticleUtilityPanel title={page.title} pageId={page.id} updated={record.updated}/><DiseaseInfobox record={record} /></div>
+diff --git a/app/_components/WikiArticle.tsx b/app/_components/WikiArticle.tsx
+index 52299ab7a51568b84b7568fb8c3e181cf4387a04..cf045ea2761b6b9d34f1dff79c2239a0d5cd017c 100644
+--- a/app/_components/WikiArticle.tsx
++++ b/app/_components/WikiArticle.tsx
+@@ -657,7 +657,7 @@ export function WikiHeader({ query = "" }: { query?: string }) {
+       <form className="global-search" action="/search" role="search">
+         <label className="sr-only" htmlFor="global-search">Search WikiBiome</label>
+         <span aria-hidden="true">⌕</span>
+-        <input id="global-search" name="q" defaultValue={query} placeholder={`Search ${wikiStats.totalPages} articles`} />
++        <input id="global-search" name="q" defaultValue={query} placeholder="Search WikiBiome articles" />
+         <button type="submit">Search</button>
+       </form>
+       <div className="header-actions">
+@@ -746,7 +746,7 @@ function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCou
+           {related.map((item) => <Link href={`/article/${item.id}`} key={item.id}><i>{item.title.slice(0, 1)}</i><b>{item.title}</b><em>↗</em></Link>)}
+         </div>
+       )}
+-      <div className="corpus-note"><strong>{wikiStats.sources.toLocaleString()}</strong><span>peer-reviewed sources indexed across WikiBiome</span></div>
++      <div className="corpus-note"><strong>{wikiStats.sources.toLocaleString()}</strong><span>sources cited across WikiBiome</span></div>
+     </aside>
+   );
+ }
+diff --git a/app/_components/WikiDirectory.tsx b/app/_components/WikiDirectory.tsx
+index aa6782505e40a1121160744b63ed0607b85d1940..02925e00df6c2731419ce4db67405b4ec168b273 100644
+--- a/app/_components/WikiDirectory.tsx
++++ b/app/_components/WikiDirectory.tsx
+@@ -19,7 +19,7 @@ function DirectoryRail() {
+       <Link href="/">Featured article</Link>
+       <Link href="/institutions">Organizations &amp; projects</Link>
+       {categories.map((category) => <Link href={`/category/${category.id}`} key={category.id}>{category.label}<b>{getCategoryCount(category.id)}</b></Link>)}
+-      <div><strong>{wikiStats.totalPages}</strong><span>public articles</span><strong>{wikiStats.sources.toLocaleString()}</strong><span>indexed sources</span></div>
++      <div><strong>{wikiStats.totalPages}</strong><span>indexed articles</span><strong>{wikiStats.sources.toLocaleString()}</strong><span>cited sources</span></div>
+     </aside>
+   );
+ }
+diff --git a/app/_components/WikiFooter.tsx b/app/_components/WikiFooter.tsx
+index c14ebf6e8c53df5f2a7ee5919b56541bf3ed5ca7..4d805b2a1eef9c8cf76973731f512a7db4918e1e 100644
+--- a/app/_components/WikiFooter.tsx
++++ b/app/_components/WikiFooter.tsx
+@@ -1,5 +1,4 @@
+ import Link from "@/app/_components/NativeLink";
+-import { wikiStats } from "@/lib/wikibiome";
+ 
+ export function WikiFooter() {
+   return (
+@@ -9,7 +8,7 @@ export function WikiFooter() {
+         <p>An evidence-linked encyclopedia of the organisms, elements, ecological pressures, and molecular conversations shaping human health.</p>
+         <small>A project of <a href="https://microbiomemedicine.com" target="_blank" rel="noreferrer">Microbiome Medicine ↗</a></small>
+       </div>
+-      <nav aria-label="Explore WikiBiome"><span>Explore</span><Link href="/explore">Knowledge graph</Link><Link href="/clusters">Condition clusters</Link><Link href="/compare">Compare conditions</Link><Link href="/keystone">Keystone studies</Link><Link href="/search">Search {wikiStats.totalPages} articles</Link></nav>
++      <nav aria-label="Explore WikiBiome"><span>Explore</span><Link href="/explore">Knowledge graph</Link><Link href="/clusters">Condition clusters</Link><Link href="/compare">Compare conditions</Link><Link href="/keystone">Keystone studies</Link><Link href="/search">Search WikiBiome articles</Link></nav>
+       <nav aria-label="Participate in WikiBiome"><span>Participate</span><Link href="/researchers">Researcher network</Link><Link href="/researcher/dashboard">Researcher dashboard</Link><Link href="/researcher/works">Find my work</Link><Link href="/propose">Propose content</Link><Link href="/roundtable">Microbiome Roundtable</Link><Link href="/submit-work">Submit research</Link><Link href="/institutions">Institutions</Link><Link href="/research-standard">Research standard</Link><Link href="/research-governance">Research governance</Link><Link href="/contribute">Suggest an edit</Link><Link href="/about">About WikiBiome</Link><Link href="/contact">Contact</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms of Use</Link><a href="https://github.com/paleofoundation/wikibiome" target="_blank" rel="noreferrer">Source repository ↗</a></nav>
+       <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Explore and collaborate.</strong><p>A free, ad-free, evidence-linked public encyclopedia.</p><Link href="/explore">Explore the encyclopedia →</Link><Link href="/submit-work">Submit research for review →</Link></div>
+       <div className="wiki-footer-bottom"><span>Content available under CC BY-SA 4.0 unless otherwise noted · Free · ad-free · evidence-linked</span><p>Educational information only. WikiBiome does not provide medical diagnosis or treatment.</p></div>
+diff --git a/app/_components/WikiHome.tsx b/app/_components/WikiHome.tsx
+index a9c6369f961c5968e2b7d24d8a3b2401d37ab73a..b70e1509597fe1dba742a251b2da94db03434287 100644
+--- a/app/_components/WikiHome.tsx
++++ b/app/_components/WikiHome.tsx
+@@ -1,7 +1,7 @@
+ import Link from "@/app/_components/NativeLink";
+ import { ResearcherAccountControl } from "@/app/_components/ResearcherAccountControl";
+ import { getArticleMedia } from "@/lib/article-media";
+-import { categories, categoryLabel, getCategoryCount, getWikiPage, plainText, wikiStats, type WikiPage } from "@/lib/wikibiome";
++import { categories, categoryLabel, getReleasedCategoryCount, getArticleQuality, getWikiPage, plainText, wikiStats, type WikiPage } from "@/lib/wikibiome";
+ 
+ const bodyLinks = [
+   { id: "alzheimers-disease", label: "Alzheimer’s disease", kind: "Disease", side: "right", className: "body-point-brain" },
+@@ -54,7 +54,7 @@ export function WikiHome() {
+             <form className="home-search" action="/search" role="search">
+               <label className="sr-only" htmlFor="home-search">Search WikiBiome</label>
+               <i aria-hidden="true">⌕</i>
+-              <input id="home-search" name="q" placeholder={`Search ${wikiStats.totalPages} articles`} />
++              <input id="home-search" name="q" placeholder="Search WikiBiome articles" />
+               <button type="submit">Search <span>→</span></button>
+             </form>
+             <div className="home-examples">
+@@ -79,10 +79,10 @@ export function WikiHome() {
+         </div>
+ 
+         <div className="home-stats">
+-          <p><strong>{wikiStats.totalPages}</strong><span>articles</span></p>
+-          <p><strong>{wikiStats.sources.toLocaleString()}</strong><span>scientific sources</span></p>
+-          <p><strong>{wikiStats.signatures}</strong><span>disease signatures</span></p>
+-          <p><strong>{wikiStats.entities + wikiStats.concepts}</strong><span>connected concepts</span></p>
++          <p><strong>{wikiStats.totalPages}</strong><span>indexed articles</span></p>
++          <p><strong>{wikiStats.sources.toLocaleString()}</strong><span>cited sources</span></p>
++          <p><strong>{wikiStats.signatures}</strong><span>disease articles</span></p>
++          <p><strong>{wikiStats.entities + wikiStats.concepts}</strong><span>other indexed articles</span></p>
+           <a href="#discover"><span>Scroll to discover</span><i>↓</i></a>
+         </div>
+       </section>
+@@ -98,7 +98,7 @@ export function WikiHome() {
+             <article className={index === 0 ? "featured-primary" : "featured-secondary"} key={page.id}>
+               {index === 0 && <div className="featured-image"><span>Foundation article</span><i /><i /><i /></div>}
+               <div className="featured-copy">
+-                <p><span>{categoryLabel(page.category)}</span><b>{page.sourceCount ?? 0} sources</b></p>
++                <p><span>{categoryLabel(page.category)}</span><b>{getArticleQuality(page).realReferences} sources</b></p>
+                 <h3><Link href={`/article/${page.id}`}>{page.title}</Link></h3>
+                 <div>{plainText(page.overview).slice(0, index === 0 ? 360 : 175)}…</div>
+                 <footer>{page.tags?.slice(0, index === 0 ? 5 : 3).map((tag) => <Link href={`/search?q=${encodeURIComponent(tag)}`} key={tag}>{tag}</Link>)}<Link href={`/article/${page.id}`}>Read article <span>↗</span></Link></footer>
+@@ -132,7 +132,7 @@ export function WikiHome() {
+                     />
+                   ) : null}
+                 </div>
+-                <p>{categoryLabel(page.category)} · {page.sourceCount ?? 0} sources</p>
++                <p>{categoryLabel(page.category)} · {getArticleQuality(page).realReferences} sources</p>
+                 <h3>{page.title}</h3>
+                 <span className="portal-description">{plainText(page.overview).slice(0, 150)}…</span>
+                 <b>Open actual article <em>↗</em></b>
+@@ -158,13 +158,13 @@ export function WikiHome() {
+       <section className="home-domains">
+         <div className="domains-copy"><span>04 · The index</span><h2>Seven domains.<br /><em>One human ecosystem.</em></h2><p>Browse the public knowledge base the way you think: by organism, disease, mechanism, intervention, or the evidence connecting them.</p></div>
+         <div className="domain-list">
+-          {categories.map((category, index) => <Link href={`/category/${category.id}`} key={category.id}><i>{String(index + 1).padStart(2, "0")}</i><span>{category.label}</span><b>{getCategoryCount(category.id)}</b><em>Explore →</em></Link>)}
++          {categories.map((category, index) => <Link href={`/category/${category.id}`} key={category.id}><i>{String(index + 1).padStart(2, "0")}</i><span>{category.label}</span><b>{getReleasedCategoryCount(category.id)}</b><em>Explore →</em></Link>)}
+         </div>
+       </section>
+ 
+       <section className="home-evidence">
+         <div className="evidence-orbit" aria-hidden="true"><span><img src="/wikibiome-logo.png" alt="" /></span>{["Microbe","Metal","Host","Disease","Source"].map((item, index) => <i className={`evidence-node evidence-node-${index}`} key={item}>{item}</i>)}</div>
+-        <div className="evidence-copy"><span>05 · Open scientific education</span><h2>Readable enough to enter.<br /><em>Rigorous enough to trace.</em></h2><p>Every blue term is a doorway. Every evidence claim retains its scientific context. WikiBiome turns a large research corpus into a navigable public reference without flattening uncertainty.</p><div><p><b>{wikiStats.sources.toLocaleString()}</b><span>sources indexed</span></p><p><b>{wikiStats.totalPages}</b><span>public articles</span></p><p><b>{wikiStats.signatures}</b><span>disease signatures</span></p></div><Link href="/article/gut-microbiome">Read the foundation article →</Link></div>
++        <div className="evidence-copy"><span>05 · Open scientific education</span><h2>Readable enough to enter.<br /><em>Rigorous enough to trace.</em></h2><p>Every blue term is a doorway. Every evidence claim retains its scientific context. WikiBiome turns a large research corpus into a navigable public reference without flattening uncertainty.</p><div><p><b>{wikiStats.sources.toLocaleString()}</b><span>sources cited</span></p><p><b>{wikiStats.totalPages}</b><span>indexed articles</span></p><p><b>{wikiStats.signatures}</b><span>disease articles</span></p></div><Link href="/article/gut-microbiome">Read the foundation article →</Link></div>
+       </section>
+ 
+     </main>
+diff --git a/app/about/page.tsx b/app/about/page.tsx
+index 9ba282ed71f439c5f473ccdef4b9fd1e76f4d427..12d5e66ea19582d3088373a8232e01f39b46e964 100644
+--- a/app/about/page.tsx
++++ b/app/about/page.tsx
+@@ -32,7 +32,7 @@ export default function AboutPage() {
+       <WikiHeader />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema).replaceAll("<", "\\u003c") }} />
+       <main className="about-page">
+-        <header className="about-hero"><div><span>About WikiBiome</span><h1>An encyclopedia for the relationships ordinary indexes miss.</h1><p>WikiBiome maps organisms, metals, host defenses, environmental pressures, and disease signatures as one traceable scientific system.</p><dl><div><dt>{wikiStats.totalPages}</dt><dd>public articles</dd></div><div><dt>{wikiStats.sources.toLocaleString()}</dt><dd>indexed sources</dd></div><div><dt>{wikiStats.signatures}</dt><dd>disease signatures</dd></div></dl></div><figure><div><img src="/karen-pendergrass.avif" width="1023" height="1537" alt="Karen Pendergrass, founder and scientific editor of WikiBiome" /></div><figcaption><span>Founder and scientific editor</span><strong>Karen Pendergrass</strong><OrcidLink orcid={profile.orcid} name="Karen Pendergrass" /></figcaption></figure></header>
++        <header className="about-hero"><div><span>About WikiBiome</span><h1>An encyclopedia for the relationships ordinary indexes miss.</h1><p>WikiBiome maps organisms, metals, host defenses, environmental pressures, and disease signatures as one traceable scientific system.</p><dl><div><dt>{wikiStats.totalPages}</dt><dd>indexed articles</dd></div><div><dt>{wikiStats.sources.toLocaleString()}</dt><dd>cited sources</dd></div><div><dt>{wikiStats.signatures}</dt><dd>disease articles</dd></div></dl></div><figure><div><img src="/karen-pendergrass.avif" width="1023" height="1537" alt="Karen Pendergrass, founder and scientific editor of WikiBiome" /></div><figcaption><span>Founder and scientific editor</span><strong>Karen Pendergrass</strong><OrcidLink orcid={profile.orcid} name="Karen Pendergrass" /></figcaption></figure></header>
+ 
+         <section className="about-introduction"><aside><span>01</span><strong>The project</strong></aside><div><h2>Open scientific education, generated from evidence.</h2><p>WikiBiome is the open human microbiome encyclopedia and a project of <Link href="/organizations/microbiome-medicine">Microbiome Medicine</Link>. It exists to make cross-disciplinary microbiome research readable without separating organisms from the metals, enzymes, ecological conditions, and host responses that help explain their behavior.</p><p>Most reference resources answer which organisms have been reported. WikiBiome also asks why those organisms may be present, which biochemical dependencies connect them, and what evidence supports each connection. Every generated article preserves its source trail so readers can move from an accessible synthesis back to the underlying research.</p></div></section>
+ 
+diff --git a/app/search/page.tsx b/app/search/page.tsx
+index 42b7ec7534ee0996ff26c0a917a60cbb3d2dc7e7..694b381f75e3a5188bf3ceeb4fe2e862372fe6cf 100644
+--- a/app/search/page.tsx
++++ b/app/search/page.tsx
+@@ -1,12 +1,12 @@
+ import type { Metadata } from "next";
+ import { WikiDirectory } from "@/app/_components/WikiDirectory";
+ import { publicPageMetadata } from "@/lib/search-discovery";
+-import { searchWiki, wikiStats } from "@/lib/wikibiome";
++import { searchWiki } from "@/lib/wikibiome";
+ 
+ export function generateMetadata(): Metadata {
+   return publicPageMetadata({
+     title: "Search WikiBiome",
+-    description: `Search ${wikiStats.totalPages} evidence-linked microbiome articles.`,
++    description: `Search evidence-linked microbiome articles.`,
+     path: "/search",
+     index: false,
+   });
+@@ -15,5 +15,5 @@ export function generateMetadata(): Metadata {
+ export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; category?: string }> }) {
+   const { q = "", category = "all" } = await searchParams;
+   const pages = searchWiki(q, 80, category);
+-  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions${category !== "all" ? `, filtered to ${category}.` : "."}` : `Search all ${wikiStats.totalPages} public WikiBiome articles.`} pages={pages} query={q} searchCategory={category} showSearchFilters />;
++  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions${category !== "all" ? `, filtered to ${category}.` : "."}` : `Search WikiBiome articles.`} pages={pages} query={q} searchCategory={category} showSearchFilters />;
+ }
+diff --git a/lib/article-indexing.ts b/lib/article-indexing.ts
+index 4065eb4f2cc0a0714ce625de44f1136151bc8395..666e166493a697d0d0c610e9ed8bc628141fe53f 100644
+--- a/lib/article-indexing.ts
++++ b/lib/article-indexing.ts
+@@ -1,12 +1,5 @@
+-import { generateArticleEvidence, getDiseaseRecord, type WikiPage } from "@/lib/wikibiome";
+-import { articleQuality } from "@/lib/article-quality.mjs";
+-
+-export function getArticleQuality(page: WikiPage) {
+-  const disease = ["disease", "signature"].includes(page.category) ? getDiseaseRecord(page.id) : undefined;
+-  return articleQuality(disease?.page ?? page,
+-    (disease?.evidence ?? generateArticleEvidence(page)).references,
+-    [page.editorialStatus, ...(disease?.signaturePages.map((record) => record.editorialStatus) ?? [])]);
+-}
++import { getArticleQuality, type WikiPage } from "@/lib/wikibiome";
++export { getArticleQuality };
+ 
+ export function isIndexableArticle(page: WikiPage) {
+   return getArticleQuality(page).eligible;
+diff --git a/lib/wikibiome.ts b/lib/wikibiome.ts
+index cb6a8c8f76e4f2859d3f6d03f8627f51be6c67f7..9eeed8eb634993e32e6f09a13ba4eeb6370ceaff 100644
+--- a/lib/wikibiome.ts
++++ b/lib/wikibiome.ts
+@@ -1,3 +1,4 @@
++import { articleQuality, realReferenceKeys } from "@/lib/article-quality.mjs";
+ import content from "@/data/content.generated.json";
+ import articleAliasRegistry from "@/data/article-id-aliases.json";
+ import sourceAliasRegistry from "@/data/source-id-aliases.json";
+@@ -167,7 +168,48 @@ for (const page of pageCollection) {
+   pagesById.set(page.id, [...(pagesById.get(page.id) ?? []), page]);
+ }
+ 
+-export const wikiStats = wiki._stats;
++// Public counters describe this release's canonical, quality-gated articles,
++// never the upstream inventory metadata. The same policy serves sitemap.xml.
++let releaseCorpus: { pages: WikiPage[]; stats: WikiContent["_stats"] } | undefined;
++export function getArticleQuality(page: WikiPage) {
++  const disease = ["disease", "signature"].includes(page.category) ? getDiseaseRecord(page.id) : undefined;
++  return articleQuality(disease?.page ?? page,
++    (disease?.evidence ?? generateArticleEvidence(page)).references,
++    [page.editorialStatus, ...(disease?.signaturePages.map((record) => record.editorialStatus) ?? [])]);
++}
++export function getReleaseCorpus() {
++  if (releaseCorpus) return releaseCorpus;
++  const pages = [...new Set(pageCollection.map((page) => canonicalArticleId(page.id)))]
++    .map(getWikiPage).filter((page): page is WikiPage => Boolean(page))
++    .filter((page) => getArticleQuality(page).eligible);
++  const references = pages.flatMap((page) => {
++    const disease = ["disease", "signature"].includes(page.category) ? getDiseaseRecord(page.id) : undefined;
++    return (disease?.evidence ?? generateArticleEvidence(page)).references;
++  });
++  const signatures = pages.filter((page) => ["disease", "signature"].includes(page.category)).length;
++  const entities = pages.filter((page) => ["microbe", "metal", "entity"].includes(page.category)).length;
++  releaseCorpus = { pages, stats: {
++    totalPages: pages.length, sources: realReferenceKeys(references).length,
++    signatures, entities, concepts: pages.length - signatures - entities,
++    interventions: pages.filter((page) => page.category === "intervention").length,
++    stops: pages.filter((page) => page.category === "stop").length,
++    analyses: pages.filter((page) => page.category === "analysis").length,
++  } };
++  return releaseCorpus;
++}
++export const wikiStats = {
++  get totalPages() { return getReleaseCorpus().stats.totalPages; },
++  get sources() { return getReleaseCorpus().stats.sources; },
++  get signatures() { return getReleaseCorpus().stats.signatures; },
++  get entities() { return getReleaseCorpus().stats.entities; },
++  get concepts() { return getReleaseCorpus().stats.concepts; },
++  get interventions() { return getReleaseCorpus().stats.interventions; },
++  get stops() { return getReleaseCorpus().stats.stops; },
++  get analyses() { return getReleaseCorpus().stats.analyses; },
++};
++export function getReleasedCategoryCount(category: string) {
++  return getReleaseCorpus().pages.filter((page) => page.category === category).length;
++}
+ export const generatedAt = wiki._generated;
+ export const allWikiPages = pageCollection;
+ export const upstreamWikiPages = wiki.pages;
+diff --git a/public/llms.txt b/public/llms.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..871aee453ad2ff5b03f1b087a8dec3da7b466fa9
+--- /dev/null
++++ b/public/llms.txt
+@@ -0,0 +1,16 @@
++# WikiBiome
++
++> WikiBiome is an evidence-linked human microbiome encyclopedia covering organisms, ecological pressures and molecular mechanisms.
++
++Use each article's cited sources and stated limitations when interpreting a research claim. Distinguish observations, proposed mechanisms and hypotheses. Missing evidence is not a measured absence. Researcher and organization participation is not an endorsement of a claim.
++
++## Public guide
++
++- [Home](https://www.wikibiome.com/): The human microbiome encyclopedia.
++- [Explore](https://www.wikibiome.com/explore): Browse the encyclopedia.
++- [Clusters](https://www.wikibiome.com/clusters): Explore connected topics.
++- [About](https://www.wikibiome.com/about): The project and authorship.
++- [Research standard](https://www.wikibiome.com/research-standard): Research and editorial standards.
++- [Researchers](https://www.wikibiome.com/researchers): Public researcher profiles and contributions.
++- [Institutions](https://www.wikibiome.com/institutions): Public research organization profiles.
++- [Contribute](https://www.wikibiome.com/contribute): How to contribute.
+diff --git a/tests/release-counts.test.mjs b/tests/release-counts.test.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..3d7f525098aeb6604403170d2ab957a7c1c9c595
+--- /dev/null
++++ b/tests/release-counts.test.mjs
+@@ -0,0 +1,29 @@
++import assert from 'node:assert/strict';
++import test from 'node:test';
++import {build} from 'esbuild';
++import {readFileSync} from 'node:fs';
++import {fileURLToPath} from 'node:url';
++const root=fileURLToPath(new URL('../',import.meta.url));
++async function release(poison=false){
++ const result=await build({absWorkingDir:root,stdin:{contents:`import {wikiStats,getReleaseCorpus,getDiseaseRecord,generateArticleEvidence} from './lib/wikibiome';import {realReferenceKeys} from './lib/article-quality.mjs';import {GET} from './app/sitemap.xml/route';export const stats={...wikiStats};export const paths=getReleaseCorpus().pages.map(p=>'/article/'+p.id);export const sitemap=GET().text();export const realSources=realReferenceKeys(getReleaseCorpus().pages.flatMap(p=>getDiseaseRecord(p.id)?.evidence.references??generateArticleEvidence(p).references)).length;`,resolveDir:root,loader:'ts'},bundle:true,platform:'node',format:'esm',packages:'external',write:false,logLevel:'silent',plugins:poison?[{name:'stale-upstream-inventory',setup(b){b.onLoad({filter:/content\.generated\.json$/},args=>{const corpus=JSON.parse(readFileSync(args.path,'utf8'));for(const key of Object.keys(corpus._stats))corpus._stats[key]=987654321;return {contents:JSON.stringify(corpus),loader:'json'};});}}]:[]});
++ return import('data:text/javascript;base64,'+Buffer.from(result.outputFiles[0].text).toString('base64'));
++}
++test('public counts match actual sitemap articles and real distinct cited source rows',async()=>{
++ const r=await release(),xml=await r.sitemap;
++ const articlePaths=[...xml.matchAll(/<loc>[^<]+(\/article\/[^<]+)<\/loc>/g)].map(m=>m[1]);
++ assert.deepEqual([...r.paths].sort(),articlePaths.sort());assert.equal(new Set(r.paths).size,r.paths.length);
++ assert.equal(r.stats.totalPages,r.paths.length);assert.equal(r.stats.sources,r.realSources);
++ assert.equal(r.stats.entities+r.stats.concepts+r.stats.signatures,r.stats.totalPages);
++ assert(r.stats.sources>0);assert.doesNotMatch(String(r.stats.totalPages),/^822$/);assert.notEqual(r.stats.sources,1940);
++ console.log('Derived current-release counts',JSON.stringify(r.stats));
++});
++test('stale or poisoned upstream inventory metadata cannot change public counters',async()=>{
++ const current=await release(),poisoned=await release(true);
++ assert.deepEqual(poisoned.stats,current.stats);assert.deepEqual(poisoned.paths,current.paths);
++});
++
++test('every shared source-count label avoids an unsupported peer-review claim',()=>{
++ const surfaces=['WikiHome','WikiArticle','WikiDirectory','DiseaseArticle'];
++ for(const name of surfaces){const source=readFileSync(new URL('../app/_components/'+name+'.tsx',import.meta.url),'utf8');for(const line of source.split('\n').filter(line=>line.includes('wikiStats.sources')))assert.doesNotMatch(line,/peer.reviewed/i,name);}
++ const about=readFileSync(new URL('../app/about/page.tsx',import.meta.url),'utf8');for(const line of about.split('\n').filter(line=>line.includes('wikiStats.sources')))assert.doesNotMatch(line,/peer.reviewed/i,'About');
++});
+diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
+index cdaaee8c1926707814998b44296cdc4ee30c24da..7914cdd8c04874da681259fee1d7caf47228daea 100644
+--- a/tests/rendered-html.test.mjs
++++ b/tests/rendered-html.test.mjs
+@@ -374,8 +374,11 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
+   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
+   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
+   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
+-  assert.match(html, /1,940/);
+-  assert.match(html, /822/);
++  assert.doesNotMatch(html, /1,940|Search 822 articles/);
++  const sitemap = await (await render("/sitemap.xml")).text();
++  const articleCount = [...sitemap.matchAll(/<loc>[^<]+\/article\/[^<]+<\/loc>/g)].length;
++  assert.match(html, new RegExp(`<strong>${articleCount}</strong><span>indexed articles`));
++  assert.match(html, /placeholder="Search WikiBiome articles"/);
+   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
+ });
+ 
+@@ -408,6 +411,9 @@ test("server-renders real article and directory pages through the shared redesig
+   assert.match(responsiveCss, /@media \(max-width:900px\)[\s\S]*?\.article-mobile-media \{[^}]*display:block;[\s\S]*?\.article-aside \.article-media-figure,\.disease-aside \.article-media-figure \{ display:none; \}/);
+   assert.match(article, /143/);
+   assert.match(article, /generated references/);
++  const corpusCounter = article.match(/<div class="corpus-note">([\s\S]*?)<\/div>/)?.[1] ?? "";
++  assert.match(corpusCounter, /sources cited across WikiBiome/);
++  assert.doesNotMatch(corpusCounter, /peer.reviewed/i);
+   assert.match(article, /href="\/source\/braud-2010-siderophores-pseudomonas-metal-tolerance"/);
+   const chemicalStart = article.indexOf('id="chemical-properties"');
+   const metabolismStart = article.indexOf('id="nickel-metabolism-and-biomarkers"');
+@@ -515,7 +521,10 @@ test("server-renders Urea and contextual H. pylori concept links", async () => {
+   }
+ 
+   assert.match(history, /wiki\/concepts\/urea\.md/);
+-  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/urea</loc>`));
++  // The approved article-only gate keeps this 249-word article accessible,
++  // but excludes it from indexing until the separately gated content buildout.
++  assert.doesNotMatch(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/urea</loc>`));
++  assert.match(urea, /<meta name="robots" content="noindex, follow"/);
+ });
+ 
+ test("server-renders the reviewed corpus-wide Urease link batch without overlinking", async () => {
+@@ -2242,7 +2251,11 @@ test("permanently redirects retired article URLs to one canonical record", async
+   const sitemap = await (await render("/sitemap.xml")).text();
+   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
+     assert.doesNotMatch(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${legacyId}</loc>`));
+-    assert.match(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${canonicalId}</loc>`));
++    const target = currentPages[currentIds.indexOf(canonicalId)] ?? await (await render(`/article/${canonicalId}`)).text();
++    const canonicalEntry = new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${canonicalId}</loc>`);
++    // Canonical identity does not bypass the approved article quality gate.
++    if (htmlRobotsMeta(target).includes("noindex, follow")) assert.doesNotMatch(sitemap, canonicalEntry);
++    else { assert.deepEqual(htmlRobotsMeta(target), ["index, follow"]); assert.match(sitemap, canonicalEntry); }
+   }
+ });
+ 
+@@ -6268,7 +6281,8 @@ test("generates the restored research tools and current About page from canonica
+ 
+   assert.match(about, /<title>About WikiBiome<\/title>/);
+   assert.match(about, /karen-pendergrass\.avif/);
+-  assert.match(about, /ORCID 0000-0002-2348-7259/);
++  assert.match(about, /href="https:\/\/orcid\.org\/0000-0002-2348-7259"/);
++  assert.match(about, /aria-label="View Karen Pendergrass[^"<]*ORCID profile"/);
+   assert.match(about, /project of[\s\S]{0,120}Microbiome Medicine/);
+   assert.match(about, /Microbiome Signatures LLC/);
+   assert.match(about, /Support cannot purchase influence/);

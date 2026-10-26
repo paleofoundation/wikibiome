@@ -1,0 +1,1384 @@
+diff --git a/app/_components/DiseaseArticle.tsx b/app/_components/DiseaseArticle.tsx
+index 0735b2d0e7800dfa2ddcfcd7a584649f4ebc0829..3a6dc7942bc47ac93c2a28ed72e703dad9d90f41 100644
+--- a/app/_components/DiseaseArticle.tsx
++++ b/app/_components/DiseaseArticle.tsx
+@@ -25,7 +25,6 @@ import {
+   categories,
+   categoryLabel,
+   diseaseReconciliationStats,
+-  formatDate,
+   getCategoryCount,
+   getWikiPage,
+   normalizeWikiId,
+@@ -300,7 +299,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
+             <article className="article-body disease-body">
+               {media && <div className="article-mobile-media"><ArticleMediaFigure media={media} /></div>}
+               {editorialStatuses.map((status) => <EditorialStatusNotice status={status} key={status.group} />)}
+-              <div className="lead-copy disease-lead"><RichText text={page.overview ?? "This WikiBiome disease record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
++              {page.overview && <div className="lead-copy disease-lead"><RichText text={page.overview} citationNumbers={evidence.citationNumbers} /></div>}
+               <EvidenceIntegrity evidence={evidence} />
+               <ClaimProvenance evidence={evidence} />
+ 
+@@ -388,7 +387,7 @@ export function DiseaseArticle({ record }: { record: DiseaseRecord }) {
+               )}
+               <footer className="article-provenance" id="provenance">
+                 <p>Generated from the WikiBiome Markdown vault; disease and signature records are reconciled at build time.</p>
+-                <span>{evidence.references.length} references · {record.contentRecordCount} content records · {wikiStats.totalPages} corpus pages</span>
++                <span>{evidence.references.length} references · {record.contentRecordCount} content records · {wikiStats.totalPages} indexed articles</span>
+               </footer>
+             </article>
+             <div className="article-right-column"><ArticleUtilityPanel title={page.title} pageId={page.id} updated={record.updated}/><DiseaseInfobox record={record} /></div>
+diff --git a/app/_components/WikiArticle.tsx b/app/_components/WikiArticle.tsx
+index e9004b007230aa3872b57c642d573bf576187856..cf045ea2761b6b9d34f1dff79c2239a0d5cd017c 100644
+--- a/app/_components/WikiArticle.tsx
++++ b/app/_components/WikiArticle.tsx
+@@ -657,7 +657,7 @@ export function WikiHeader({ query = "" }: { query?: string }) {
+       <form className="global-search" action="/search" role="search">
+         <label className="sr-only" htmlFor="global-search">Search WikiBiome</label>
+         <span aria-hidden="true">⌕</span>
+-        <input id="global-search" name="q" defaultValue={query} placeholder={`Search ${wikiStats.totalPages} articles`} />
++        <input id="global-search" name="q" defaultValue={query} placeholder="Search WikiBiome articles" />
+         <button type="submit">Search</button>
+       </form>
+       <div className="header-actions">
+@@ -746,7 +746,7 @@ function ArticleInfobox({ page, referenceCount }: { page: WikiPage; referenceCou
+           {related.map((item) => <Link href={`/article/${item.id}`} key={item.id}><i>{item.title.slice(0, 1)}</i><b>{item.title}</b><em>↗</em></Link>)}
+         </div>
+       )}
+-      <div className="corpus-note"><strong>{wikiStats.sources.toLocaleString()}</strong><span>peer-reviewed sources indexed across WikiBiome</span></div>
++      <div className="corpus-note"><strong>{wikiStats.sources.toLocaleString()}</strong><span>sources cited across WikiBiome</span></div>
+     </aside>
+   );
+ }
+@@ -809,7 +809,7 @@ export function WikiArticle({ page, home = false }: { page: WikiPage; home?: boo
+               {schema.kind === "stop" && <aside className="template-notice caution"><span>Clinical caution record</span><p>This page preserves an evidence-linked caution from the WikiBiome corpus. It is educational context, not individualized medical advice.</p></aside>}
+               {schema.kind === "analysis" && <aside className="template-notice synthesis"><span>Cross-record synthesis</span><p>This analysis connects evidence across multiple WikiBiome records; use the inline citations to inspect each underlying source.</p></aside>}
+               {schema.kind === "intervention" && <aside className="template-notice intervention"><span>Intervention evidence</span><p>Mechanism, reported outcomes, limitations, and cautions are kept together so an intervention is not separated from its evidence boundaries.</p></aside>}
+-              <div className="lead-copy"><RichText text={page.overview ?? "This WikiBiome record is being expanded from the evidence base."} citationNumbers={evidence.citationNumbers} /></div>
++              {page.overview && <div className="lead-copy"><RichText text={page.overview} citationNumbers={evidence.citationNumbers} /></div>}
+               <EvidenceIntegrity evidence={evidence} />
+               <ClaimProvenance evidence={evidence} />
+               {!!contents.length && (
+diff --git a/app/_components/WikiDirectory.tsx b/app/_components/WikiDirectory.tsx
+index aa6782505e40a1121160744b63ed0607b85d1940..02925e00df6c2731419ce4db67405b4ec168b273 100644
+--- a/app/_components/WikiDirectory.tsx
++++ b/app/_components/WikiDirectory.tsx
+@@ -19,7 +19,7 @@ function DirectoryRail() {
+       <Link href="/">Featured article</Link>
+       <Link href="/institutions">Organizations &amp; projects</Link>
+       {categories.map((category) => <Link href={`/category/${category.id}`} key={category.id}>{category.label}<b>{getCategoryCount(category.id)}</b></Link>)}
+-      <div><strong>{wikiStats.totalPages}</strong><span>public articles</span><strong>{wikiStats.sources.toLocaleString()}</strong><span>indexed sources</span></div>
++      <div><strong>{wikiStats.totalPages}</strong><span>indexed articles</span><strong>{wikiStats.sources.toLocaleString()}</strong><span>cited sources</span></div>
+     </aside>
+   );
+ }
+diff --git a/app/_components/WikiFooter.tsx b/app/_components/WikiFooter.tsx
+index c14ebf6e8c53df5f2a7ee5919b56541bf3ed5ca7..4d805b2a1eef9c8cf76973731f512a7db4918e1e 100644
+--- a/app/_components/WikiFooter.tsx
++++ b/app/_components/WikiFooter.tsx
+@@ -1,5 +1,4 @@
+ import Link from "@/app/_components/NativeLink";
+-import { wikiStats } from "@/lib/wikibiome";
+ 
+ export function WikiFooter() {
+   return (
+@@ -9,7 +8,7 @@ export function WikiFooter() {
+         <p>An evidence-linked encyclopedia of the organisms, elements, ecological pressures, and molecular conversations shaping human health.</p>
+         <small>A project of <a href="https://microbiomemedicine.com" target="_blank" rel="noreferrer">Microbiome Medicine ↗</a></small>
+       </div>
+-      <nav aria-label="Explore WikiBiome"><span>Explore</span><Link href="/explore">Knowledge graph</Link><Link href="/clusters">Condition clusters</Link><Link href="/compare">Compare conditions</Link><Link href="/keystone">Keystone studies</Link><Link href="/search">Search {wikiStats.totalPages} articles</Link></nav>
++      <nav aria-label="Explore WikiBiome"><span>Explore</span><Link href="/explore">Knowledge graph</Link><Link href="/clusters">Condition clusters</Link><Link href="/compare">Compare conditions</Link><Link href="/keystone">Keystone studies</Link><Link href="/search">Search WikiBiome articles</Link></nav>
+       <nav aria-label="Participate in WikiBiome"><span>Participate</span><Link href="/researchers">Researcher network</Link><Link href="/researcher/dashboard">Researcher dashboard</Link><Link href="/researcher/works">Find my work</Link><Link href="/propose">Propose content</Link><Link href="/roundtable">Microbiome Roundtable</Link><Link href="/submit-work">Submit research</Link><Link href="/institutions">Institutions</Link><Link href="/research-standard">Research standard</Link><Link href="/research-governance">Research governance</Link><Link href="/contribute">Suggest an edit</Link><Link href="/about">About WikiBiome</Link><Link href="/contact">Contact</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Terms of Use</Link><a href="https://github.com/paleofoundation/wikibiome" target="_blank" rel="noreferrer">Source repository ↗</a></nav>
+       <div className="wiki-footer-support"><span>Keep knowledge open</span><strong>Explore and collaborate.</strong><p>A free, ad-free, evidence-linked public encyclopedia.</p><Link href="/explore">Explore the encyclopedia →</Link><Link href="/submit-work">Submit research for review →</Link></div>
+       <div className="wiki-footer-bottom"><span>Content available under CC BY-SA 4.0 unless otherwise noted · Free · ad-free · evidence-linked</span><p>Educational information only. WikiBiome does not provide medical diagnosis or treatment.</p></div>
+diff --git a/app/_components/WikiHome.tsx b/app/_components/WikiHome.tsx
+index a9c6369f961c5968e2b7d24d8a3b2401d37ab73a..b70e1509597fe1dba742a251b2da94db03434287 100644
+--- a/app/_components/WikiHome.tsx
++++ b/app/_components/WikiHome.tsx
+@@ -1,7 +1,7 @@
+ import Link from "@/app/_components/NativeLink";
+ import { ResearcherAccountControl } from "@/app/_components/ResearcherAccountControl";
+ import { getArticleMedia } from "@/lib/article-media";
+-import { categories, categoryLabel, getCategoryCount, getWikiPage, plainText, wikiStats, type WikiPage } from "@/lib/wikibiome";
++import { categories, categoryLabel, getReleasedCategoryCount, getArticleQuality, getWikiPage, plainText, wikiStats, type WikiPage } from "@/lib/wikibiome";
+ 
+ const bodyLinks = [
+   { id: "alzheimers-disease", label: "Alzheimer’s disease", kind: "Disease", side: "right", className: "body-point-brain" },
+@@ -54,7 +54,7 @@ export function WikiHome() {
+             <form className="home-search" action="/search" role="search">
+               <label className="sr-only" htmlFor="home-search">Search WikiBiome</label>
+               <i aria-hidden="true">⌕</i>
+-              <input id="home-search" name="q" placeholder={`Search ${wikiStats.totalPages} articles`} />
++              <input id="home-search" name="q" placeholder="Search WikiBiome articles" />
+               <button type="submit">Search <span>→</span></button>
+             </form>
+             <div className="home-examples">
+@@ -79,10 +79,10 @@ export function WikiHome() {
+         </div>
+ 
+         <div className="home-stats">
+-          <p><strong>{wikiStats.totalPages}</strong><span>articles</span></p>
+-          <p><strong>{wikiStats.sources.toLocaleString()}</strong><span>scientific sources</span></p>
+-          <p><strong>{wikiStats.signatures}</strong><span>disease signatures</span></p>
+-          <p><strong>{wikiStats.entities + wikiStats.concepts}</strong><span>connected concepts</span></p>
++          <p><strong>{wikiStats.totalPages}</strong><span>indexed articles</span></p>
++          <p><strong>{wikiStats.sources.toLocaleString()}</strong><span>cited sources</span></p>
++          <p><strong>{wikiStats.signatures}</strong><span>disease articles</span></p>
++          <p><strong>{wikiStats.entities + wikiStats.concepts}</strong><span>other indexed articles</span></p>
+           <a href="#discover"><span>Scroll to discover</span><i>↓</i></a>
+         </div>
+       </section>
+@@ -98,7 +98,7 @@ export function WikiHome() {
+             <article className={index === 0 ? "featured-primary" : "featured-secondary"} key={page.id}>
+               {index === 0 && <div className="featured-image"><span>Foundation article</span><i /><i /><i /></div>}
+               <div className="featured-copy">
+-                <p><span>{categoryLabel(page.category)}</span><b>{page.sourceCount ?? 0} sources</b></p>
++                <p><span>{categoryLabel(page.category)}</span><b>{getArticleQuality(page).realReferences} sources</b></p>
+                 <h3><Link href={`/article/${page.id}`}>{page.title}</Link></h3>
+                 <div>{plainText(page.overview).slice(0, index === 0 ? 360 : 175)}…</div>
+                 <footer>{page.tags?.slice(0, index === 0 ? 5 : 3).map((tag) => <Link href={`/search?q=${encodeURIComponent(tag)}`} key={tag}>{tag}</Link>)}<Link href={`/article/${page.id}`}>Read article <span>↗</span></Link></footer>
+@@ -132,7 +132,7 @@ export function WikiHome() {
+                     />
+                   ) : null}
+                 </div>
+-                <p>{categoryLabel(page.category)} · {page.sourceCount ?? 0} sources</p>
++                <p>{categoryLabel(page.category)} · {getArticleQuality(page).realReferences} sources</p>
+                 <h3>{page.title}</h3>
+                 <span className="portal-description">{plainText(page.overview).slice(0, 150)}…</span>
+                 <b>Open actual article <em>↗</em></b>
+@@ -158,13 +158,13 @@ export function WikiHome() {
+       <section className="home-domains">
+         <div className="domains-copy"><span>04 · The index</span><h2>Seven domains.<br /><em>One human ecosystem.</em></h2><p>Browse the public knowledge base the way you think: by organism, disease, mechanism, intervention, or the evidence connecting them.</p></div>
+         <div className="domain-list">
+-          {categories.map((category, index) => <Link href={`/category/${category.id}`} key={category.id}><i>{String(index + 1).padStart(2, "0")}</i><span>{category.label}</span><b>{getCategoryCount(category.id)}</b><em>Explore →</em></Link>)}
++          {categories.map((category, index) => <Link href={`/category/${category.id}`} key={category.id}><i>{String(index + 1).padStart(2, "0")}</i><span>{category.label}</span><b>{getReleasedCategoryCount(category.id)}</b><em>Explore →</em></Link>)}
+         </div>
+       </section>
+ 
+       <section className="home-evidence">
+         <div className="evidence-orbit" aria-hidden="true"><span><img src="/wikibiome-logo.png" alt="" /></span>{["Microbe","Metal","Host","Disease","Source"].map((item, index) => <i className={`evidence-node evidence-node-${index}`} key={item}>{item}</i>)}</div>
+-        <div className="evidence-copy"><span>05 · Open scientific education</span><h2>Readable enough to enter.<br /><em>Rigorous enough to trace.</em></h2><p>Every blue term is a doorway. Every evidence claim retains its scientific context. WikiBiome turns a large research corpus into a navigable public reference without flattening uncertainty.</p><div><p><b>{wikiStats.sources.toLocaleString()}</b><span>sources indexed</span></p><p><b>{wikiStats.totalPages}</b><span>public articles</span></p><p><b>{wikiStats.signatures}</b><span>disease signatures</span></p></div><Link href="/article/gut-microbiome">Read the foundation article →</Link></div>
++        <div className="evidence-copy"><span>05 · Open scientific education</span><h2>Readable enough to enter.<br /><em>Rigorous enough to trace.</em></h2><p>Every blue term is a doorway. Every evidence claim retains its scientific context. WikiBiome turns a large research corpus into a navigable public reference without flattening uncertainty.</p><div><p><b>{wikiStats.sources.toLocaleString()}</b><span>sources cited</span></p><p><b>{wikiStats.totalPages}</b><span>indexed articles</span></p><p><b>{wikiStats.signatures}</b><span>disease articles</span></p></div><Link href="/article/gut-microbiome">Read the foundation article →</Link></div>
+       </section>
+ 
+     </main>
+diff --git a/app/about/page.tsx b/app/about/page.tsx
+index 9ba282ed71f439c5f473ccdef4b9fd1e76f4d427..12d5e66ea19582d3088373a8232e01f39b46e964 100644
+--- a/app/about/page.tsx
++++ b/app/about/page.tsx
+@@ -32,7 +32,7 @@ export default function AboutPage() {
+       <WikiHeader />
+       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(personSchema).replaceAll("<", "\\u003c") }} />
+       <main className="about-page">
+-        <header className="about-hero"><div><span>About WikiBiome</span><h1>An encyclopedia for the relationships ordinary indexes miss.</h1><p>WikiBiome maps organisms, metals, host defenses, environmental pressures, and disease signatures as one traceable scientific system.</p><dl><div><dt>{wikiStats.totalPages}</dt><dd>public articles</dd></div><div><dt>{wikiStats.sources.toLocaleString()}</dt><dd>indexed sources</dd></div><div><dt>{wikiStats.signatures}</dt><dd>disease signatures</dd></div></dl></div><figure><div><img src="/karen-pendergrass.avif" width="1023" height="1537" alt="Karen Pendergrass, founder and scientific editor of WikiBiome" /></div><figcaption><span>Founder and scientific editor</span><strong>Karen Pendergrass</strong><OrcidLink orcid={profile.orcid} name="Karen Pendergrass" /></figcaption></figure></header>
++        <header className="about-hero"><div><span>About WikiBiome</span><h1>An encyclopedia for the relationships ordinary indexes miss.</h1><p>WikiBiome maps organisms, metals, host defenses, environmental pressures, and disease signatures as one traceable scientific system.</p><dl><div><dt>{wikiStats.totalPages}</dt><dd>indexed articles</dd></div><div><dt>{wikiStats.sources.toLocaleString()}</dt><dd>cited sources</dd></div><div><dt>{wikiStats.signatures}</dt><dd>disease articles</dd></div></dl></div><figure><div><img src="/karen-pendergrass.avif" width="1023" height="1537" alt="Karen Pendergrass, founder and scientific editor of WikiBiome" /></div><figcaption><span>Founder and scientific editor</span><strong>Karen Pendergrass</strong><OrcidLink orcid={profile.orcid} name="Karen Pendergrass" /></figcaption></figure></header>
+ 
+         <section className="about-introduction"><aside><span>01</span><strong>The project</strong></aside><div><h2>Open scientific education, generated from evidence.</h2><p>WikiBiome is the open human microbiome encyclopedia and a project of <Link href="/organizations/microbiome-medicine">Microbiome Medicine</Link>. It exists to make cross-disciplinary microbiome research readable without separating organisms from the metals, enzymes, ecological conditions, and host responses that help explain their behavior.</p><p>Most reference resources answer which organisms have been reported. WikiBiome also asks why those organisms may be present, which biochemical dependencies connect them, and what evidence supports each connection. Every generated article preserves its source trail so readers can move from an accessible synthesis back to the underlying research.</p></div></section>
+ 
+diff --git a/app/search/page.tsx b/app/search/page.tsx
+index 42b7ec7534ee0996ff26c0a917a60cbb3d2dc7e7..694b381f75e3a5188bf3ceeb4fe2e862372fe6cf 100644
+--- a/app/search/page.tsx
++++ b/app/search/page.tsx
+@@ -1,12 +1,12 @@
+ import type { Metadata } from "next";
+ import { WikiDirectory } from "@/app/_components/WikiDirectory";
+ import { publicPageMetadata } from "@/lib/search-discovery";
+-import { searchWiki, wikiStats } from "@/lib/wikibiome";
++import { searchWiki } from "@/lib/wikibiome";
+ 
+ export function generateMetadata(): Metadata {
+   return publicPageMetadata({
+     title: "Search WikiBiome",
+-    description: `Search ${wikiStats.totalPages} evidence-linked microbiome articles.`,
++    description: `Search evidence-linked microbiome articles.`,
+     path: "/search",
+     index: false,
+   });
+@@ -15,5 +15,5 @@ export function generateMetadata(): Metadata {
+ export default async function SearchPage({ searchParams }: { searchParams: Promise<{ q?: string; category?: string }> }) {
+   const { q = "", category = "all" } = await searchParams;
+   const pages = searchWiki(q, 80, category);
+-  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions${category !== "all" ? `, filtered to ${category}.` : "."}` : `Search all ${wikiStats.totalPages} public WikiBiome articles.`} pages={pages} query={q} searchCategory={category} showSearchFilters />;
++  return <WikiDirectory title={q ? `Search: “${q}”` : "Search WikiBiome"} kicker="Encyclopedia search" description={q ? `Ranked matches across titles, topics, categories, and article introductions${category !== "all" ? `, filtered to ${category}.` : "."}` : `Search WikiBiome articles.`} pages={pages} query={q} searchCategory={category} showSearchFilters />;
+ }
+diff --git a/app/sitemap.xml/route.ts b/app/sitemap.xml/route.ts
+index 5725bdc0ad73028e3b6f3c9b31fa32315ae0de7d..19faeeb6b4bcd244418eab924880a229d87927ff 100644
+--- a/app/sitemap.xml/route.ts
++++ b/app/sitemap.xml/route.ts
+@@ -1,17 +1,19 @@
+-import { allSources, allWikiPages, canonicalArticleId, canonicalSourceId, categories, getWikiPage } from "@/lib/wikibiome";
++import { allWikiPages, canonicalArticleId, categories, getWikiPage } from "@/lib/wikibiome";
+ import { getArticleMedia, type ArticleMedia } from "@/lib/article-media";
++
+ import { organizationProfiles } from "@/lib/organization-profiles.mjs";
+ 
+ import { PUBLIC_ORIGIN as ORIGIN } from "@/lib/search-discovery";
+ import { isIndexableArticle } from "@/lib/article-indexing";
+-import { isIndexableSource } from "@/lib/source-indexing.mjs";
+ type SitemapEntry = {
+   path: string;
+   lastmod?: string;
+   priority: string;
+   media?: ArticleMedia;
+ };
+-const publicRoutes = [
++// Home, hubs and established utility routes remain crawl entry points.
++// The quality gate applies to articles; citation-only source pages stay excluded.
++export const publicRoutes = [
+   "/",
+   ...[...categories.map((category) => `/category/${category.id}`), "/category/other", "/category/reference"],
+   "/explore",
+@@ -47,9 +49,6 @@ export function GET() {
+   const entries: SitemapEntry[] = [
+     ...publicRoutes.map((path) => ({ path, priority: path === "/" ? "1.0" : "0.7" })),
+     ...[...articleMap.entries()].map(([id, lastmod]) => ({ path: `/article/${id}`, lastmod, priority: "0.8", media: getArticleMedia(id) })),
+-    ...[...new Set(Object.keys(allSources).map(canonicalSourceId))]
+-      .filter(isIndexableSource)
+-      .map((id) => ({ path: `/source/${id}`, priority: "0.5" })),
+   ];
+ 
+   const xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${entries.map((entry) => {
+diff --git a/data/article-media-coverage.generated.json b/data/article-media-coverage.generated.json
+index c1b01b3413c6fe8ba7360a10a0aef620b8503d39..ddcfd8d89f2d636dd6e42e80781f0f7eadc08074 100644
+--- a/data/article-media-coverage.generated.json
++++ b/data/article-media-coverage.generated.json
+@@ -6,7 +6,7 @@
+     "upstreamCommit": "8f8608b6f99c8818cae1617aaecc5d2d9760d04a",
+     "contentManifest": "data/content-manifest.generated.json",
+     "contentFile": "data/content.generated.json",
+-    "contentSha256": "d2508890e9405faa0aa14ea543a07060818dcd75587984ca586f9302e4ff48f4",
++    "contentSha256": "db2e64dd90e341edbce6364724872bb2dad1214f7538f326d011de615405b0b3",
+     "registryFile": "lib/article-media-registry.mjs",
+     "registrySha256": "70f33c1c8e6dde0e40ec7f50e15f752ed56289ee4c735901a348624569db3237",
+     "reviewLog": "data/article-media-review-log.json",
+diff --git a/data/content-manifest.generated.json b/data/content-manifest.generated.json
+index 199fbd4c890b0301e638856e7e447fe66dd8214b..a8663889b13ebee3359624953eb0ff5ee1a1ac95 100644
+--- a/data/content-manifest.generated.json
++++ b/data/content-manifest.generated.json
+@@ -1,6 +1,6 @@
+ {
+   "schemaVersion": 1,
+-  "generatedAt": "2026-09-07T14:49:41.987Z",
++  "generatedAt": "2026-10-25T12:59:20.763Z",
+   "source": {
+     "repository": "https://github.com/paleofoundation/wikibiome.git",
+     "branch": "main",
+@@ -10,7 +10,7 @@
+   },
+   "content": {
+     "path": "data/content.generated.json",
+-    "sha256": "d2508890e9405faa0aa14ea543a07060818dcd75587984ca586f9302e4ff48f4",
++    "sha256": "db2e64dd90e341edbce6364724872bb2dad1214f7538f326d011de615405b0b3",
+     "pages": 822,
+     "sources": 1940
+   },
+@@ -1174,7 +1174,7 @@
+     ]
+   },
+   "publicContentPolicy": {
+-    "version": 3,
++    "version": 4,
+     "minimumAnalysisReferences": 2,
+     "excludedCount": 47,
+     "excludedPages": [
+diff --git a/data/content.generated.json b/data/content.generated.json
+index e87c830e4dc23cab0e070e616d4cdad3b01151cd..741c79f193c2b59c3147b8b5806939420159130a 100644
+--- a/data/content.generated.json
++++ b/data/content.generated.json
+@@ -120694,11 +120694,6 @@
+           "level": 3,
+           "body": "- **Oral dysbiosis (periodontitis) precedes or accompanies gut dysbiosis** [[tonelli-2023-oral-microbiome-cvd-pathophysiology]], [[foroughi-2026-periodontal-biomarkers-cvd]]\n- **Periodontal pathogens seed systemic circulation**: *P. gingivalis*, VGS, and *Streptococcus aureus* bacteremia detected via:\n  - Bacterial DNA in atherosclerotic plaques\n  - Antibodies to *P. gingivalis* in CVD patients\n  - FISH-detected bacteria in endothelial lesions\n  \n- **Oral-derived pathogenic signals compound gut dysbiosis** via:\n  - Systemic inflammation (IL-6, TNF-alpha, CRP elevation)\n  - Molecular mimicry (HSP60 cross-reactivity)\n  - Endothelial permeability increase → facilitating gut-derived LPS translocation"
+         },
+-        {
+-          "heading": "Validated Interventions",
+-          "level": 2,
+-          "body": "*[To be populated by Cureva team with triangle-validated interventions linking signature features to clinical outcomes]*"
+-        },
+         {
+           "heading": "STOPs",
+           "level": 2,
+@@ -154388,19 +154383,8 @@
+           4
+         ]
+       },
+-      "overview": "Chelation Therapy is discussed across 45 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.",
+-      "sections": [
+-        {
+-          "heading": "Triangle Evidence",
+-          "level": 2,
+-          "body": "*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges (I→f, I→D, f→D) constructed per CLAUDE.md §4.*"
+-        },
+-        {
+-          "heading": "Cross-References",
+-          "level": 2,
+-          "body": "*To be populated from source analysis.*"
+-        }
+-      ],
++      "overview": "Chelation Therapy is discussed across 45 sources in the WikiBiome vault as a potential intervention.",
++      "sections": [],
+       "wikilinks": [],
+       "sourceDir": "interventions",
+       "sourceCount": 8,
+@@ -154664,19 +154648,8 @@
+           5
+         ]
+       },
+-      "overview": "Curcumin is discussed across 4 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.",
+-      "sections": [
+-        {
+-          "heading": "Triangle Evidence",
+-          "level": 2,
+-          "body": "*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges (I→f, I→D, f→D) constructed per CLAUDE.md §4.*"
+-        },
+-        {
+-          "heading": "Cross-References",
+-          "level": 2,
+-          "body": "*To be populated from source analysis.*"
+-        }
+-      ],
++      "overview": "Curcumin is discussed across 4 sources in the WikiBiome vault as a potential intervention.",
++      "sections": [],
+       "wikilinks": [],
+       "sourceDir": "interventions",
+       "sourceCount": 8,
+@@ -155647,19 +155620,8 @@
+           5
+         ]
+       },
+-      "overview": "Glutathione Supplementation is discussed across 32 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.",
+-      "sections": [
+-        {
+-          "heading": "Triangle Evidence",
+-          "level": 2,
+-          "body": "*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges (I→f, I→D, f→D) constructed per CLAUDE.md §4.*"
+-        },
+-        {
+-          "heading": "Cross-References",
+-          "level": 2,
+-          "body": "*To be populated from source analysis.*"
+-        }
+-      ],
++      "overview": "Glutathione Supplementation is discussed across 32 sources in the WikiBiome vault as a potential intervention.",
++      "sections": [],
+       "wikilinks": [],
+       "sourceDir": "interventions",
+       "sourceCount": 2,
+@@ -155779,19 +155741,8 @@
+           5
+         ]
+       },
+-      "overview": "Gluten-Free Diet is discussed across 7 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.",
+-      "sections": [
+-        {
+-          "heading": "Triangle Evidence",
+-          "level": 2,
+-          "body": "*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges (I→f, I→D, f→D) constructed per CLAUDE.md §4.*"
+-        },
+-        {
+-          "heading": "Cross-References",
+-          "level": 2,
+-          "body": "*To be populated from source analysis.*"
+-        }
+-      ],
++      "overview": "Gluten-Free Diet is discussed across 7 sources in the WikiBiome vault as a potential intervention.",
++      "sections": [],
+       "wikilinks": [],
+       "sourceDir": "interventions",
+       "sourceCount": 8,
+@@ -158517,19 +158468,8 @@
+           5
+         ]
+       },
+-      "overview": "Melatonin is discussed across 7 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.",
+-      "sections": [
+-        {
+-          "heading": "Triangle Evidence",
+-          "level": 2,
+-          "body": "*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges (I→f, I→D, f→D) constructed per CLAUDE.md §4.*"
+-        },
+-        {
+-          "heading": "Cross-References",
+-          "level": 2,
+-          "body": "*To be populated from source analysis.*"
+-        }
+-      ],
++      "overview": "Melatonin is discussed across 7 sources in the WikiBiome vault as a potential intervention.",
++      "sections": [],
+       "wikilinks": [],
+       "sourceDir": "interventions",
+       "sourceCount": 8,
+@@ -158639,19 +158579,8 @@
+           5
+         ]
+       },
+-      "overview": "Metformin is discussed across 25 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.",
+-      "sections": [
+-        {
+-          "heading": "Triangle Evidence",
+-          "level": 2,
+-          "body": "*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges (I→f, I→D, f→D) constructed per CLAUDE.md §4.*"
+-        },
+-        {
+-          "heading": "Cross-References",
+-          "level": 2,
+-          "body": "*To be populated from source analysis.*"
+-        }
+-      ],
++      "overview": "Metformin is discussed across 25 sources in the WikiBiome vault as a potential intervention.",
++      "sections": [],
+       "wikilinks": [],
+       "sourceDir": "interventions",
+       "sourceCount": 8,
+@@ -159796,19 +159725,8 @@
+           5
+         ]
+       },
+-      "overview": "Resveratrol is discussed across 5 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.",
+-      "sections": [
+-        {
+-          "heading": "Triangle Evidence",
+-          "level": 2,
+-          "body": "*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges (I→f, I→D, f→D) constructed per CLAUDE.md §4.*"
+-        },
+-        {
+-          "heading": "Cross-References",
+-          "level": 2,
+-          "body": "*To be populated from source analysis.*"
+-        }
+-      ],
++      "overview": "Resveratrol is discussed across 5 sources in the WikiBiome vault as a potential intervention.",
++      "sections": [],
+       "wikilinks": [],
+       "sourceDir": "interventions",
+       "sourceCount": 8,
+@@ -160260,19 +160178,8 @@
+           5
+         ]
+       },
+-      "overview": "Statin Therapy is discussed across 18 sources in the WikiBiome vault as a potential intervention. Triangle evidence linking this intervention to specific conditions needs to be populated from the source literature.",
+-      "sections": [
+-        {
+-          "heading": "Triangle Evidence",
+-          "level": 2,
+-          "body": "*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges (I→f, I→D, f→D) constructed per CLAUDE.md §4.*"
+-        },
+-        {
+-          "heading": "Cross-References",
+-          "level": 2,
+-          "body": "*To be populated from source analysis.*"
+-        }
+-      ],
++      "overview": "Statin Therapy is discussed across 18 sources in the WikiBiome vault as a potential intervention.",
++      "sections": [],
+       "wikilinks": [],
+       "sourceDir": "interventions",
+       "sourceCount": 3,
+diff --git a/lib/article-indexing.ts b/lib/article-indexing.ts
+index 898dfb9f7d334f6b362d4f624b00ebb7aba7f900..666e166493a697d0d0c610e9ed8bc628141fe53f 100644
+--- a/lib/article-indexing.ts
++++ b/lib/article-indexing.ts
+@@ -1,7 +1,6 @@
+-import type { WikiPage } from "@/lib/wikibiome";
++import { getArticleQuality, type WikiPage } from "@/lib/wikibiome";
++export { getArticleQuality };
+ 
+-// Withhold only audited records without article prose, retaining substantive
+-// encyclopedia records even when their evidence is limited.
+ export function isIndexableArticle(page: WikiPage) {
+-  return !page.editorialStatus?.resolves.includes("no_substantive_content");
++  return getArticleQuality(page).eligible;
+ }
+diff --git a/lib/article-quality.mjs b/lib/article-quality.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..ff9a116949223890a49b0dfa7a605e0047e71169
+--- /dev/null
++++ b/lib/article-quality.mjs
+@@ -0,0 +1,58 @@
++// WIKIBIOME-BUILDOUT-1. This policy reads the existing vault-derived corpus;
++// it never generates prose, citations, or a second publication path.
++export const MIN_BODY_WORDS = 400;
++export const MIN_REAL_REFERENCES = 3;
++
++export const PLACEHOLDER_PATTERN = /\b(?:to be populated|needs to be populated|no triangles populated yet|sources discussing this intervention need to be reviewed|to be added|to be written|to be completed|coming soon|placeholder|being expanded from the evidence base|TODO|TBD|lorem ipsum)\b/i;
++
++export function removePlaceholderText(value = "") {
++  if (!PLACEHOLDER_PATTERN.test(value)) return value;
++  return String(value).split(/\n\s*\n/).flatMap((block) => {
++    if (!PLACEHOLDER_PATTERN.test(block)) return [block];
++    return block.split(/(?<=[.!?])\s+/).filter((sentence) => !PLACEHOLDER_PATTERN.test(sentence));
++  }).join("\n\n").trim();
++}
++
++export function visibleBodyText(page, citationIds = []) {
++  const citations = new Set(citationIds);
++  const sections = (page.sections ?? []).filter(({ heading }) => !/^(?:key sources?|sources used|references|connections?|cross.references|see also|related pages?|external links)$/i.test(heading));
++  return [page.overview ?? "", ...sections.map(({ body }) => body ?? "")].join("\n")
++    .replace(/<!--[\s\S]*?-->/g, " ")
++    .replace(/\[?\[\[([^\]|]+)(?:\|([^\]]+))?\]\]\]?/g, (_, id, label) => citations.has(id.toLowerCase()) ? " " : label ?? id.replaceAll("-", " "))
++    .replace(/!\[[^\]]*\]\([^)]*\)/g, " ")
++    .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
++    .replace(/<[^>]*>|https?:\/\/\S+/g, " ")
++    .replace(/^[ \t]*[#>|*`~=-]+[ \t]*/gm, " ")
++    .replace(/\s+/g, " ").trim();
++}
++
++export function bodyWordCount(text) {
++  return (text.match(/\b[\p{L}\p{N}]+(?:['’-][\p{L}\p{N}]+)*\b/gu) ?? []).length;
++}
++
++export function realReferenceKeys(references) {
++  return [...new Set(references.flatMap((reference) => {
++    if (reference.missingMetadata || !reference.title?.trim() || PLACEHOLDER_PATTERN.test(reference.title)) return [];
++    // Karen's own work cannot qualify a page for indexing.
++    if (/pendergrass|karenpendergrass/i.test([reference.id, ...(reference.authors ?? [])].join(" "))) return [];
++    const doi = String(reference.doi ?? "").replace(/^https?:\/\/(?:dx\.)?doi\.org\//i, "").replace(/^doi:\s*/i, "").trim();
++    if (/^10\.\d{4,9}\/\S+$/i.test(doi)) return [`doi:${doi.toLowerCase()}`];
++    if (reference.authors?.length && Number.isInteger(reference.year) && reference.journal?.trim()) return [`title:${reference.title.toLowerCase().trim()}`];
++    return [];
++  }))];
++}
++
++export function articleQuality(page, references, statuses = [page.editorialStatus]) {
++  const text = visibleBodyText(page, references.map(({ id }) => id));
++  const bodyWords = bodyWordCount(text);
++  const realReferences = realReferenceKeys(references).length;
++  const raw = [page.title, page.overview, ...(page.sections ?? []).flatMap(({ heading, body }) => [heading, body])].join("\n").replace(/<!--[\s\S]*?-->/g, "");
++  const reasons = [];
++  if (["intervention", "stop"].includes(page.category)) reasons.push("excluded-section");
++  if (bodyWords < MIN_BODY_WORDS) reasons.push("under-400-body-words");
++  if (realReferences < MIN_REAL_REFERENCES) reasons.push("under-3-real-references");
++  if (PLACEHOLDER_PATTERN.test(raw)) reasons.push("placeholder-text");
++  if (statuses.some((status) => status?.disposition === "evidence_insufficient" || /evidence[\s-]limited/i.test(status?.publicLabel ?? ""))) reasons.push("evidence-limited");
++  const realReferenceNumbers = references.filter((reference) => realReferenceKeys([reference]).length).map(({ number }) => number);
++  return { bodyWords, realReferences, realReferenceNumbers, reasons, eligible: reasons.length === 0 };
++}
+diff --git a/lib/rendered-article-quality.mjs b/lib/rendered-article-quality.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..7c8c5d02e3a2454deb645107cfae774ac54f6e6e
+--- /dev/null
++++ b/lib/rendered-article-quality.mjs
+@@ -0,0 +1,39 @@
++import { bodyWordCount, PLACEHOLDER_PATTERN } from "./article-quality.mjs";
++
++export function renderedArticleQuality(html, row) {
++  const stack = [];
++  const body = [];
++  const visible = [];
++  const voidTags = new Set(["area", "base", "br", "col", "embed", "hr", "img", "input", "link", "meta", "param", "source", "track", "wbr"]);
++  const markup = html.replace(/<(script|style)\b[^>]*>[\s\S]*?<\/\1>/gi, "").replace(/<!--[\s\S]*?-->/g, "");
++  for (const token of markup.matchAll(/<[^>]+>|[^<]+/g)) {
++    const value = token[0];
++    if (value.startsWith("</")) {
++      const tag = value.match(/^<\/([^\s>]+)/)?.[1];
++      const index = stack.findLastIndex((item) => item.tag === tag);
++      if (index >= 0) stack.length = index;
++    } else if (value.startsWith("<")) {
++      const tag = value.match(/^<([^\s/>]+)/)?.[1];
++      if (!tag || value.startsWith("<!")) continue;
++      const parent = stack.at(-1);
++      const classes = value.match(/\bclass="([^"]*)"/)?.[1].split(/\s+/) ?? [];
++      const capture = parent?.capture || classes.includes("lead-copy") || classes.includes("wiki-section");
++      const skip = parent?.skip || /^(?:nav|h[1-6]|sup)$/.test(tag) || classes.includes("citation-preview");
++      if (!voidTags.has(tag)) stack.push({ tag, capture, skip });
++    } else if (!stack.at(-1)?.skip) {
++      const text = value.replace(/&#(\d+);/g, (_, number) => String.fromCodePoint(Number(number))).replace(/&(?:nbsp|amp|lt|gt|quot|apos);/g, " ");
++      visible.push(text);
++      if (stack.at(-1)?.capture) body.push(text);
++    }
++  }
++  const bodyWords = bodyWordCount(body.join(" "));
++  const references = new Set([...html.matchAll(/\bid="reference-(\d+)"/g)].map((match) => Number(match[1])));
++  const presentReferences = row.realReferenceNumbers.filter((number) => references.has(number)).length;
++  const reasons = [...row.reasons];
++  if (bodyWords < 400) reasons.push(`rendered body has ${bodyWords} words`);
++  if (presentReferences < 3) reasons.push("rendered real references missing");
++  if (PLACEHOLDER_PATTERN.test(body.join(" "))) reasons.push("rendered placeholder");
++  if (/evidence[\s-]limited/i.test(visible.join(" "))) reasons.push("rendered Evidence-limited notice");
++  if (!/<meta name="robots" content="index, follow"/.test(html)) reasons.push("sitemap page is noindex");
++  return { bodyWords, presentReferences, reasons };
++}
+diff --git a/lib/revisions.ts b/lib/revisions.ts
+index 103d88f35ae0d4feee3bd14748b33b57c52c8507..8f57632d8947d1707c1ce5de4c6563f2f0aa0b4e 100644
+--- a/lib/revisions.ts
++++ b/lib/revisions.ts
+@@ -1,5 +1,6 @@
+ import revisions from "@/data/revisions.generated.json";
+ import { normalizeWikiId, type WikiPage } from "@/lib/wikibiome";
++import { removePlaceholderText } from "@/lib/article-quality.mjs";
+ 
+ export type RevisionEntry = {
+   materialChange: boolean;
+@@ -35,7 +36,11 @@ export function getRevisionHistory(page: WikiPage) {
+     sourceCommit: data.sourceCommit,
+     generatedAt: data.generatedAt,
+     paths: data.histories[sourceId]?.paths ?? [],
+-    revisions: (generatedFrom ? [] : data.histories[sourceId]?.revisions ?? []).filter(revision => revision.materialChange === true && Boolean(revision.summary)),
++    revisions: (generatedFrom ? [] : data.histories[sourceId]?.revisions ?? [])
++      .filter(revision => revision.materialChange === true && Boolean(revision.summary))
++      .map(revision => /to be populated|needs to be populated|no triangles populated yet|sources discussing this intervention need to be reviewed/i.test(`${revision.summary} ${revision.description}`)
++        ? { ...revision, summary: removePlaceholderText(revision.summary), description: removePlaceholderText(revision.description) }
++        : revision),
+   };
+ }
+ 
+diff --git a/lib/source-indexing.mjs b/lib/source-indexing.mjs
+index 186e15e92f60ea3eabfce98ee9a84c61b7905ece..ce6005f7b465b293913a416480aae2ab4b7feb54 100644
+--- a/lib/source-indexing.mjs
++++ b/lib/source-indexing.mjs
+@@ -1,13 +1,7 @@
+-import review from "../data/source-indexing-review.json" with { type: "json" };
+-
+-// Source pages are citation records. Since 2026-09-25 they default to
+-// noindex, follow and stay out of sitemap.xml; only explicitly reviewed
+-// sources with substantive source-specific content remain indexable.
+-// The 2026-09-21 citation-only exclusions always win.
+-const excludedIds = new Set(review.citationOnlySources.map((source) => source.id.toLowerCase()));
+-const indexableIds = new Set((review.indexableSources ?? []).map((source) => source.id.toLowerCase()));
+-
+-export function isIndexableSource(id) {
+-  const normalizedId = id.toLowerCase();
+-  return indexableIds.has(normalizedId) && !excludedIds.has(normalizedId);
++// Citation records have no article body with three supporting references.
++// WIKIBIOME-BUILDOUT-1 supersedes the earlier 37-source exception. Preserve
++// the review registry and every source route for citations and author work.
++export function isIndexableSource(_id) {
++  void _id; // Keep the existing caller contract while the exception is retired.
++  return false;
+ }
+diff --git a/lib/wikibiome.ts b/lib/wikibiome.ts
+index cb6a8c8f76e4f2859d3f6d03f8627f51be6c67f7..9eeed8eb634993e32e6f09a13ba4eeb6370ceaff 100644
+--- a/lib/wikibiome.ts
++++ b/lib/wikibiome.ts
+@@ -1,3 +1,4 @@
++import { articleQuality, realReferenceKeys } from "@/lib/article-quality.mjs";
+ import content from "@/data/content.generated.json";
+ import articleAliasRegistry from "@/data/article-id-aliases.json";
+ import sourceAliasRegistry from "@/data/source-id-aliases.json";
+@@ -167,7 +168,48 @@ for (const page of pageCollection) {
+   pagesById.set(page.id, [...(pagesById.get(page.id) ?? []), page]);
+ }
+ 
+-export const wikiStats = wiki._stats;
++// Public counters describe this release's canonical, quality-gated articles,
++// never the upstream inventory metadata. The same policy serves sitemap.xml.
++let releaseCorpus: { pages: WikiPage[]; stats: WikiContent["_stats"] } | undefined;
++export function getArticleQuality(page: WikiPage) {
++  const disease = ["disease", "signature"].includes(page.category) ? getDiseaseRecord(page.id) : undefined;
++  return articleQuality(disease?.page ?? page,
++    (disease?.evidence ?? generateArticleEvidence(page)).references,
++    [page.editorialStatus, ...(disease?.signaturePages.map((record) => record.editorialStatus) ?? [])]);
++}
++export function getReleaseCorpus() {
++  if (releaseCorpus) return releaseCorpus;
++  const pages = [...new Set(pageCollection.map((page) => canonicalArticleId(page.id)))]
++    .map(getWikiPage).filter((page): page is WikiPage => Boolean(page))
++    .filter((page) => getArticleQuality(page).eligible);
++  const references = pages.flatMap((page) => {
++    const disease = ["disease", "signature"].includes(page.category) ? getDiseaseRecord(page.id) : undefined;
++    return (disease?.evidence ?? generateArticleEvidence(page)).references;
++  });
++  const signatures = pages.filter((page) => ["disease", "signature"].includes(page.category)).length;
++  const entities = pages.filter((page) => ["microbe", "metal", "entity"].includes(page.category)).length;
++  releaseCorpus = { pages, stats: {
++    totalPages: pages.length, sources: realReferenceKeys(references).length,
++    signatures, entities, concepts: pages.length - signatures - entities,
++    interventions: pages.filter((page) => page.category === "intervention").length,
++    stops: pages.filter((page) => page.category === "stop").length,
++    analyses: pages.filter((page) => page.category === "analysis").length,
++  } };
++  return releaseCorpus;
++}
++export const wikiStats = {
++  get totalPages() { return getReleaseCorpus().stats.totalPages; },
++  get sources() { return getReleaseCorpus().stats.sources; },
++  get signatures() { return getReleaseCorpus().stats.signatures; },
++  get entities() { return getReleaseCorpus().stats.entities; },
++  get concepts() { return getReleaseCorpus().stats.concepts; },
++  get interventions() { return getReleaseCorpus().stats.interventions; },
++  get stops() { return getReleaseCorpus().stats.stops; },
++  get analyses() { return getReleaseCorpus().stats.analyses; },
++};
++export function getReleasedCategoryCount(category: string) {
++  return getReleaseCorpus().pages.filter((page) => page.category === category).length;
++}
+ export const generatedAt = wiki._generated;
+ export const allWikiPages = pageCollection;
+ export const upstreamWikiPages = wiki.pages;
+diff --git a/package-lock.json b/package-lock.json
+index f7d83c49ea321f35f13a8662c875029090105911..5bff642f5d60492fb694e635fad1aa7c151bf948 100644
+--- a/package-lock.json
++++ b/package-lock.json
+@@ -38,7 +38,8 @@
+         "typescript-eslint": "8.59.3",
+         "vinext": "1.0.0-beta.2",
+         "vite": "8.0.13",
+-        "wrangler": "4.92.0"
++        "wrangler": "4.92.0",
++        "esbuild": "0.28.0"
+       },
+       "engines": {
+         "node": ">=22.13.0"
+diff --git a/package.json b/package.json
+index 1db5dd5c1f3178d2a15b78c652f8f690c21c459d..a08ad43fca64476fa290cb2e2e7d08416799092b 100644
+--- a/package.json
++++ b/package.json
+@@ -7,7 +7,8 @@
+   },
+   "scripts": {
+     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext dev",
+-    "prebuild": "node scripts/sync-wikibiome-content.mjs --audit-only && node scripts/generate-revision-history.mjs --audit-only && node scripts/audit-editorial-corpus.mjs --strict && node scripts/generate-article-media-program.mjs && node scripts/check-article-media.mjs && npm run typecheck",
++    "prebuild": "node scripts/sync-wikibiome-content.mjs --audit-only && node scripts/generate-revision-history.mjs --audit-only && node scripts/audit-editorial-corpus.mjs --strict && node scripts/generate-article-media-program.mjs && node scripts/check-article-media.mjs && npm run lint:sitemap && npm run typecheck",
++    "lint:sitemap": "node scripts/lint-sitemap-quality.mjs",
+     "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext build",
+     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log vinext start",
+     "test": "npm run build && node --test tests/*.test.mjs",
+@@ -33,7 +34,8 @@
+     "media:program:check": "node scripts/generate-article-media-program.mjs",
+     "media:check": "node scripts/check-article-media.mjs",
+     "revisions:sync": "node scripts/generate-revision-history.mjs",
+-    "db:generate": "drizzle-kit generate"
++    "db:generate": "drizzle-kit generate",
++    "postbuild": "node scripts/lint-rendered-sitemap-quality.mjs"
+   },
+   "dependencies": {
+     "drizzle-orm": "0.45.2",
+@@ -66,7 +68,8 @@
+     "typescript-eslint": "8.59.3",
+     "vinext": "1.0.0-beta.2",
+     "vite": "8.0.13",
+-    "wrangler": "4.92.0"
++    "wrangler": "4.92.0",
++    "esbuild": "0.28.0"
+   },
+   "type": "module"
+ }
+diff --git a/public/llms.txt b/public/llms.txt
+new file mode 100644
+index 0000000000000000000000000000000000000000..871aee453ad2ff5b03f1b087a8dec3da7b466fa9
+--- /dev/null
++++ b/public/llms.txt
+@@ -0,0 +1,16 @@
++# WikiBiome
++
++> WikiBiome is an evidence-linked human microbiome encyclopedia covering organisms, ecological pressures and molecular mechanisms.
++
++Use each article's cited sources and stated limitations when interpreting a research claim. Distinguish observations, proposed mechanisms and hypotheses. Missing evidence is not a measured absence. Researcher and organization participation is not an endorsement of a claim.
++
++## Public guide
++
++- [Home](https://www.wikibiome.com/): The human microbiome encyclopedia.
++- [Explore](https://www.wikibiome.com/explore): Browse the encyclopedia.
++- [Clusters](https://www.wikibiome.com/clusters): Explore connected topics.
++- [About](https://www.wikibiome.com/about): The project and authorship.
++- [Research standard](https://www.wikibiome.com/research-standard): Research and editorial standards.
++- [Researchers](https://www.wikibiome.com/researchers): Public researcher profiles and contributions.
++- [Institutions](https://www.wikibiome.com/institutions): Public research organization profiles.
++- [Contribute](https://www.wikibiome.com/contribute): How to contribute.
+diff --git a/scripts/article-quality-audit.ts b/scripts/article-quality-audit.ts
+new file mode 100644
+index 0000000000000000000000000000000000000000..9768079c52e188026bb78b83e669a8bb7e642810
+--- /dev/null
++++ b/scripts/article-quality-audit.ts
+@@ -0,0 +1,27 @@
++import { GET, publicRoutes } from "../app/sitemap.xml/route";
++import { allWikiPages, canonicalArticleId, canonicalSourceId, getWikiPage } from "../lib/wikibiome";
++import sourceReview from "../data/source-indexing-review.json";
++import { getArticleQuality } from "../lib/article-indexing";
++
++export async function auditSitemap(suppliedXml?: string) {
++  const pages = [...new Set(allWikiPages.map((page) => canonicalArticleId(page.id)))].map((id) => getWikiPage(id)).filter((page) => page !== undefined);
++  const rows = pages.map((page) => ({ path: `/article/${page.id}`, section: page.category, ...getArticleQuality(page) }));
++  const xml = suppliedXml ?? await GET().text();
++  const urls = [...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
++  const byPath = new Map(rows.map((row) => [row.path, row]));
++  const failures: string[] = [];
++  if (new Set(urls).size !== urls.length) failures.push("Duplicate sitemap URLs");
++  for (const url of urls) {
++    const parsed = new URL(url);
++    const row = byPath.get(parsed.pathname);
++    if (parsed.origin !== "https://www.wikibiome.com" || parsed.search || parsed.hash || !(row?.eligible || publicRoutes.includes(parsed.pathname))) failures.push(`${url}: ${row?.reasons.join(", ") ?? "not an eligible article or established public route"}`);
++  }
++  for (const row of rows) {
++    if (row.eligible && !urls.includes(`https://www.wikibiome.com${row.path}`)) failures.push(`${row.path}: qualifying article missing from sitemap`);
++  }
++  for (const path of publicRoutes) {
++    if (!urls.includes(`https://www.wikibiome.com${path}`)) failures.push(`${path}: public crawl entry point missing from sitemap`);
++  }
++  const citationSourcePaths = [...new Set(sourceReview.indexableSources.map(({ id }) => `/source/${canonicalSourceId(id)}`))];
++  return { rows, urls, failures, publicRoutes, citationSourcePaths };
++}
+diff --git a/scripts/audit-public-routing-contract.mjs b/scripts/audit-public-routing-contract.mjs
+index 473a71801b3da513179f9618f866e08daa69a686..d01e8c2d882ff0cb4f092e25e6a01e6f3dc33574 100644
+--- a/scripts/audit-public-routing-contract.mjs
++++ b/scripts/audit-public-routing-contract.mjs
+@@ -227,9 +227,10 @@ export async function auditPublicRoutingContract({
+   if (ordinaryUrls.includes(`${canonicalOrigin}/search`)) findings.push("sitemap.xml: search is advertised");
+   const retiredPaths = new Set([...LEGACY_REDIRECTS.map((item) => item.path), ...GONE_PATHS]);
+   if (ordinaryUrls.some((url) => retiredPaths.has(new URL(url).pathname))) findings.push("sitemap.xml: redirect or Gone URL is advertised");
+-  for (const prefix of ["/article/", "/source/", "/category/"]) {
++  for (const prefix of ["/article/", "/category/"]) {
+     if (!ordinaryUrls.some((url) => new URL(url).pathname.startsWith(prefix))) findings.push(`sitemap.xml: no ${prefix} records`);
+   }
++  if (ordinaryUrls.some((url) => new URL(url).pathname.startsWith("/source/"))) findings.push("sitemap.xml: citation-only source URL is advertised");
+ 
+   const imageEntries = imageSitemapEntries(sitemap);
+   if (imageEntries.length !== expectedImages) findings.push(`image-sitemap.xml: ${imageEntries.length} entries, expected ${expectedImages}`);
+diff --git a/scripts/audit-search-surface.mjs b/scripts/audit-search-surface.mjs
+index 6134e91bbaa7bb18bb5975821318270f4b42b51f..d3da4a4ab33da14d36e4604ecf6e3774031725fd 100644
+--- a/scripts/audit-search-surface.mjs
++++ b/scripts/audit-search-surface.mjs
+@@ -140,9 +140,9 @@ if (ordinaryUrls.some((url) => !url.startsWith(`${PUBLIC_ORIGIN}/`))) failures.p
+ 
+ const imagePageUrls = [...sitemap.matchAll(/<url>(?:(?!<\/url>)[\s\S])*?<loc>([^<]+)<\/loc>(?:(?!<\/url>)[\s\S])*?<image:loc>([^<]+)<\/image:loc>[\s\S]*?<\/url>/g)]
+   .map((match) => ({ page: match[1], image: match[2] }));
+-const emptyArticleIds = new Set(content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content")).map(page => page.id));
++const sitemapArticleIds = new Set(ordinaryUrls.filter((url) => url.includes("/article/")).map((url) => new URL(url).pathname.slice(9)));
+ const expectedImageEntries = Object.values(articleMediaRegistry)
+-  .filter(media => !emptyArticleIds.has(media.pageId))
++  .filter(media => sitemapArticleIds.has(media.pageId))
+   .map((media) => ({ page: `${PUBLIC_ORIGIN}/article/${media.pageId}`, image: `${PUBLIC_ORIGIN}${media.src}` }))
+   .sort((a, b) => a.page.localeCompare(b.page));
+ const actualImageEntries = imagePageUrls.toSorted((a, b) => a.page.localeCompare(b.page));
+diff --git a/scripts/lint-rendered-sitemap-quality.mjs b/scripts/lint-rendered-sitemap-quality.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..9c581ff44d87be8f13db6ce6d591c16bbb31cbbc
+--- /dev/null
++++ b/scripts/lint-rendered-sitemap-quality.mjs
+@@ -0,0 +1,82 @@
++#!/usr/bin/env node
++import { spawn } from "node:child_process";
++import { createRequire } from "node:module";
++import { mkdtempSync, rmSync } from "node:fs";
++import { tmpdir } from "node:os";
++import { join } from "node:path";
++import net from "node:net";
++import { setTimeout } from "node:timers/promises";
++import { report } from "./lint-sitemap-quality.mjs";
++import { renderedArticleQuality } from "../lib/rendered-article-quality.mjs";
++
++const externalBase = process.argv.find((arg) => arg.startsWith("--base-url="))?.slice(11);
++let worker;
++let state;
++let base = externalBase;
++try {
++  if (!base) {
++    const listener = net.createServer();
++    await new Promise((resolve, reject) => { listener.once("error", reject); listener.listen(0, "127.0.0.1", resolve); });
++    const port = listener.address().port;
++    await new Promise((resolve) => listener.close(resolve));
++    base = `http://127.0.0.1:${port}`;
++    state = mkdtempSync(join(tmpdir(), "wikibiome-quality-"));
++    const require = createRequire(import.meta.url);
++    worker = spawn(process.execPath, [require.resolve("wrangler/bin/wrangler.js"), "dev", "--config", "dist/server/wrangler.json", "--local", "--ip", "127.0.0.1", "--port", String(port), "--persist-to", state], { env: { ...process.env, WRANGLER_SEND_METRICS: "false", WRANGLER_LOG_PATH: ".wrangler/quality.log" }, stdio: "ignore" });
++    let ready = false;
++    for (let attempt = 0; attempt < 120; attempt++) {
++      if (worker.exitCode !== null) throw new Error("Local Worker exited before the quality check");
++      try { ready = (await fetch(`${base}/sitemap.xml`, { signal: AbortSignal.timeout(1000) })).status === 200; } catch { /* Local startup. */ }
++      if (ready) break;
++      await setTimeout(250);
++    }
++    if (!ready) throw new Error("Local Worker did not become ready");
++  }
++  const response = await fetch(`${base}/sitemap.xml`, { signal: AbortSignal.timeout(10000) });
++  if (response.status !== 200) throw new Error(`Sitemap HTTP ${response.status}`);
++  const urls = [...(await response.text()).matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
++  if (JSON.stringify(urls) !== JSON.stringify(report.urls)) throw new Error("Built sitemap differs from source gate");
++  const pending = [...report.rows.map(({ path }) => path), ...report.publicRoutes, ...report.citationSourcePaths];
++  const results = [];
++  const failures = [];
++  let noindexChecks = 0;
++  let publicRouteChecks = 0;
++  await Promise.all(Array.from({ length: 8 }, async () => {
++    while (pending.length) {
++      const path = pending.shift();
++      if (!path) break;
++      const row = report.rows.find((item) => item.path === path);
++      const page = await fetch(`${base}${path}`, { redirect: "manual", signal: AbortSignal.timeout(10000) });
++      const html = await page.text();
++      if (report.publicRoutes.includes(path)) {
++        publicRouteChecks++;
++        if (page.status !== 200 || !/<meta name="robots" content="index, follow"/.test(html)) failures.push(`${path}: expected public HTTP 200, index, follow`);
++        if (!urls.includes(`https://www.wikibiome.com${path}`)) failures.push(`${path}: public route missing from sitemap`);
++        continue;
++      }
++      if (!row?.eligible) {
++        noindexChecks++;
++        if (page.status !== 200 || !/<meta name="robots" content="noindex, follow"/.test(html)) failures.push(`${path}: expected retained HTTP 200, noindex, follow`);
++        continue;
++      }
++      const quality = renderedArticleQuality(html, row);
++      if (page.status !== 200) quality.reasons.push(`HTTP ${page.status}`);
++      results.push({ section: row.section, ...quality });
++      for (const reason of quality.reasons) failures.push(`${path}: ${reason}`);
++    }
++  }));
++  for (const section of [...new Set(results.map((row) => row.section))].sort()) {
++    const rows = results.filter((row) => row.section === section);
++    console.log(`Rendered ${section}: PASS ${rows.filter((row) => !row.reasons.length).length}, FAIL ${rows.filter((row) => row.reasons.length).length}`);
++  }
++  console.log(`Rendered sitemap: ${urls.length} URLs; ${failures.length} failures`);
++  console.log(`Noindex checks: ${noindexChecks} retained article/source URLs`);
++  console.log(`Public crawl entry points: ${publicRouteChecks} HTTP 200, index, follow, in sitemap`);
++  if (failures.length) throw new Error(failures.join("\n"));
++} finally {
++  if (worker && worker.exitCode === null) {
++    worker.kill("SIGTERM");
++    await new Promise((resolve) => worker.once("exit", resolve));
++  }
++  if (state) rmSync(state, { recursive: true, force: true });
++}
+diff --git a/scripts/lint-sitemap-quality.mjs b/scripts/lint-sitemap-quality.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..9448e6bd5a58e6befcacbd55d98ee37c17b07cbd
+--- /dev/null
++++ b/scripts/lint-sitemap-quality.mjs
+@@ -0,0 +1,23 @@
++#!/usr/bin/env node
++import { build } from "esbuild";
++import { readFileSync, writeFileSync } from "node:fs";
++import { fileURLToPath } from "node:url";
++
++// Load the same canonical records and GET handler as production. In-memory
++// bundling only resolves TypeScript aliases; no alternate corpus is written.
++const root = fileURLToPath(new URL("../", import.meta.url));
++const result = await build({ absWorkingDir: root, entryPoints: ["scripts/article-quality-audit.ts"], bundle: true, platform: "node", format: "esm", packages: "external", write: false, logLevel: "silent" });
++const { auditSitemap } = await import(`data:text/javascript;base64,${Buffer.from(result.outputFiles[0].text).toString("base64")}`);
++const arg = (name) => process.argv.find((value) => value.startsWith(`${name}=`))?.slice(name.length + 1);
++export const report = await auditSitemap(arg("--sitemap") ? readFileSync(arg("--sitemap"), "utf8") : undefined);
++for (const section of [...new Set(report.rows.map((row) => row.section))].sort()) {
++  const rows = report.rows.filter((row) => row.section === section);
++  const ok = rows.filter((row) => row.eligible).length;
++  console.log(`${section}: PASS/OK ${ok}, FAIL/THIN ${rows.length - ok}, TOTAL ${rows.length}`);
++}
++console.log(`Sitemap URLs: ${report.urls.length}; failing URLs: ${report.failures.length}`);
++if (arg("--report")) writeFileSync(arg("--report"), `${JSON.stringify(report, null, 2)}\n`);
++if (report.failures.length) {
++  for (const failure of report.failures) console.error(failure);
++  process.exitCode = 1;
++}
+diff --git a/scripts/public-content-policy.mjs b/scripts/public-content-policy.mjs
+index d51ccdf8ba9a536e417d784cdab423d7ab6ab8ea..8f19804ecedf333ea27fa8e0691514a93313cce3 100644
+--- a/scripts/public-content-policy.mjs
++++ b/scripts/public-content-policy.mjs
+@@ -1,4 +1,6 @@
+-export const PUBLIC_CONTENT_POLICY_VERSION = 3;
++import { PLACEHOLDER_PATTERN, removePlaceholderText } from "../lib/article-quality.mjs";
++
++export const PUBLIC_CONTENT_POLICY_VERSION = 4;
+ export const MIN_PUBLIC_ANALYSIS_REFERENCES = 2;
+ 
+ const LEAD_SECTION_HEADINGS = new Set([
+@@ -146,7 +148,14 @@ export function applyPublicContentPolicy(input) {
+   const normalizedPages = [];
+   const leadPromotions = [];
+   for (const page of input.pages ?? []) {
+-    const normalized = normalizePageStructure(page);
++    const normalized = normalizePageStructure({
++      ...page,
++      ...(typeof page.overview === "string" ? { overview: removePlaceholderText(page.overview) } : {}),
++      ...(page.sections ? { sections: page.sections.flatMap((section) => {
++        const body = removePlaceholderText(section.body);
++        return !body && PLACEHOLDER_PATTERN.test(section.body) ? [] : [{ ...section, body }];
++      }) } : {}),
++    });
+     normalizedPages.push(normalized.page);
+     if (normalized.promotion) leadPromotions.push(normalized.promotion);
+   }
+diff --git a/scripts/sync-wikibiome-content.mjs b/scripts/sync-wikibiome-content.mjs
+index 4718256366276e2c53e7b9e1ea043b2618f9fdc0..419a04ec0164d54bca13b5bdaebc1e6e387e3c4f 100644
+--- a/scripts/sync-wikibiome-content.mjs
++++ b/scripts/sync-wikibiome-content.mjs
+@@ -55,10 +55,12 @@ let sourceCommit = null;
+ let inputPath = targetPath;
+ let cleanupSnapshot = null;
+ let retainedExclusions = [];
++let retainedManifest;
+ 
+ if (sanitizeCurrent) {
+   assertExists(manifestPath, `Content manifest not found: ${manifestPath}.`);
+   const currentManifest = JSON.parse(readFileSync(manifestPath, "utf8"));
++  retainedManifest = currentManifest;
+   sourceCommit = currentManifest.source?.commit ?? null;
+   retainedExclusions = currentManifest.publicContentPolicy?.excludedPages ?? [];
+ } else if (!auditOnly) {
+@@ -91,10 +93,10 @@ const lingeringExclusions = getPublicContentExclusions(metadataContent.pages);
+ if (auditOnly && lingeringExclusions.length) {
+   throw new Error(`${lingeringExclusions.length} internal operational records are still present in the public corpus. Run node scripts/sync-wikibiome-content.mjs --sanitize-current.`);
+ }
+-if (sanitizeCurrent && !lingeringExclusions.length) {
+-  throw new Error("The current corpus already satisfies the public-content policy; refusing to overwrite its exclusion register.");
+-}
+ const { content: policyContent, exclusions: newlyExcluded, normalizations } = applyPublicContentPolicy(metadataContent);
++if (sanitizeCurrent && !lingeringExclusions.length && JSON.stringify(policyContent) === JSON.stringify(metadataContent)) {
++  throw new Error("The current corpus already satisfies the public-content policy; refusing an unchanged rewrite.");
++}
+ const statusSourceCommit = sourceCommit ?? JSON.parse(readFileSync(manifestPath, "utf8")).source?.commit;
+ const { content, appliedCount: appliedEditorialStatuses, registeredCount: registeredEditorialStatuses } = applyEditorialStatusPolicy(policyContent, statusSourceCommit);
+ const articleIdentityAudit = validateArticleIdentityPolicy(content);
+@@ -131,7 +133,7 @@ const manifest = {
+     pages: content.pages.length,
+     sources: Object.keys(content.sourceLookup).length,
+   },
+-  sourceMetadataPolicy: {
++  sourceMetadataPolicy: retainedManifest?.sourceMetadataPolicy ?? {
+     version: SOURCE_METADATA_POLICY_VERSION,
+     normalizedYearCount: sourceMetadataNormalization.normalizedYears.length,
+     omittedYearCount: sourceMetadataNormalization.omittedYears.length,
+@@ -145,7 +147,7 @@ const manifest = {
+     excludedCount: exclusions.length,
+     excludedPages: exclusions,
+   },
+-  editorialNormalization: {
++  editorialNormalization: retainedManifest?.editorialNormalization ?? {
+     leadPromotionCount: normalizations.leadPromotions.length,
+     leadPromotionSamples: normalizations.leadPromotions.slice(0, 20),
+   },
+diff --git a/scripts/verify-indexing-repair.mjs b/scripts/verify-indexing-repair.mjs
+index c26be540fe4d396e14db0ea21fa3f5089c49119b..797fb84f56ba5f298df99baffb6673bbe1555bd3 100644
+--- a/scripts/verify-indexing-repair.mjs
++++ b/scripts/verify-indexing-repair.mjs
+@@ -14,8 +14,15 @@ assert.equal(sitemap.response.status, 200);
+ const entries = [...sitemap.body.matchAll(/<url>([\s\S]*?)<\/url>/g)].map((match) => match[1]);
+ const paths = entries.map((entry) => new URL(entry.match(/<loc>([^<]+)<\/loc>/)[1]).pathname);
+ assert.equal(new Set(paths).size, paths.length, "sitemap must not repeat canonical URLs");
+-assert.equal(paths.filter((path) => path.startsWith("/source/")).length, review.indexableSources.length);
+-assert.equal(paths.filter((path) => path.startsWith("/article/")).length, 717);
++assert.equal(paths.filter((path) => path.startsWith("/source/")).length, 0);
++for (const path of ["/", "/about", "/category/microbe", "/category/metal", "/category/mechanism"]) {
++  const { response, body } = await get(path);
++  assert.equal(response.status, 200, path);
++  const robots = [...body.matchAll(/<meta name="robots" content="([^"]+)"/g)].map((match) => match[1]);
++  assert.deepEqual(robots, ["index, follow"], path);
++  assert.ok(paths.includes(path), `${path} must remain in sitemap`);
++  results.push({ path, status: response.status, robots: robots[0], inSitemap: true });
++}
+ for (let i = 0; i < entries.length; i++) {
+   if (!paths[i].startsWith("/article/")) assert.doesNotMatch(entries[i], /<lastmod>/, paths[i]);
+ }
+@@ -27,7 +34,7 @@ for (const entry of entries) {
+ }
+ const sourceCases = [
+   ...review.citationOnlySources.map(({ id }) => [id, false]),
+-  ["scholefield-2024-brain-metallomics-dementia", true],
++  ["scholefield-2024-brain-metallomics-dementia", false],
+   ["amadi-2022-dietary-interventions-asd-systematic-review", false],
+   ["rizzi-2017-ibs-nickel-diet", false],
+ ];
+@@ -68,4 +75,4 @@ const robots = await get("/robots.txt");
+ assert.equal(robots.response.status, 200);
+ assert.doesNotMatch(robots.body, /^Disallow:\s*\/source\/\s*$/m);
+ assert.doesNotMatch(robots.body, /^Disallow:\s*\/article\/\*\/history\s*$/m);
+-console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: 717, sourceUrls: review.indexableSources.length, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
++console.log(JSON.stringify({ checkedAt: new Date().toISOString(), base, passed: true, sitemapUrls: paths.length, articleUrls: paths.filter((path) => path.startsWith("/article/")).length, publicUrls: paths.filter((path) => !path.startsWith("/article/")).length, sourceUrls: 0, imageEntries: (sitemap.body.match(/<image:image>/g) ?? []).length, results }, null, 2));
+diff --git a/tests/article-quality.test.mjs b/tests/article-quality.test.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..dcbde174be592587f84d4f36f0483e6a49f39f22
+--- /dev/null
++++ b/tests/article-quality.test.mjs
+@@ -0,0 +1,84 @@
++import assert from "node:assert/strict";
++import test from "node:test";
++import { spawnSync } from "node:child_process";
++import { mkdtempSync, readFileSync, writeFileSync, rmSync } from "node:fs";
++import { tmpdir } from "node:os";
++import { join } from "node:path";
++import { articleQuality, realReferenceKeys, removePlaceholderText } from "../lib/article-quality.mjs";
++import { renderedArticleQuality } from "../lib/rendered-article-quality.mjs";
++import content from "../data/content.generated.json" with { type: "json" };
++import { PLACEHOLDER_PATTERN } from "../lib/article-quality.mjs";
++
++const references = [1, 2, 3].map((number) => ({ id: `study-${number}`, title: `Filed study ${number}`, authors: ["Independent Author"], year: 2024, doi: `10.1234/study-${number}`, missingMetadata: false }));
++const page = { category: "microbe", overview: Array(400).fill("word").join(" "), sections: [] };
++
++test("the word and reference boundaries are inclusive and count real unique sources", () => {
++  assert.equal(articleQuality(page, references).eligible, true);
++  assert.equal(articleQuality({ ...page, overview: Array(399).fill("word").join(" ") }, references).eligible, false);
++  assert.equal(articleQuality(page, references.slice(0, 2)).eligible, false);
++  assert.equal(realReferenceKeys([...references, references[0], { ...references[0], id: "alias" }]).length, 3);
++  assert.equal(realReferenceKeys([{ ...references[0], authors: ["Karen Pendergrass"] }, { ...references[1], missingMetadata: true }, { id: "fake", title: "Claim" }]).length, 0);
++});
++
++test("exclusions win even over a long, fully cited body", () => {
++  for (const category of ["intervention", "stop"]) assert.equal(articleQuality({ ...page, category }, references).eligible, false);
++  assert.equal(articleQuality(page, references, [{ publicLabel: "Evidence-limited source record" }]).eligible, false);
++  assert.equal(articleQuality({ ...page, overview: `${page.overview} To be populated from source analysis.` }, references).eligible, false);
++});
++
++test("cleanup removes template instructions without creating replacement claims", () => {
++  assert.equal(removePlaceholderText("Filed context. Triangle evidence needs to be populated from the source literature."), "Filed context.");
++  assert.equal(removePlaceholderText("*To be populated from source analysis.*"), "");
++  assert.equal(removePlaceholderText("*No triangles populated yet. Sources discussing this intervention need to be reviewed and triangle edges constructed per CLAUDE.md.*"), "");
++  assert.equal(removePlaceholderText("Probiotics are under development."), "Probiotics are under development.");
++});
++
++test("the synchronized public corpus contains no visible template instructions", () => {
++  for (const record of content.pages) {
++    const text = [record.overview, ...(record.sections ?? []).map(({ body }) => body)].join("\n").replace(/<!--[\s\S]*?-->/g, "");
++    assert.equal(PLACEHOLDER_PATTERN.test(text), false, record.id);
++  }
++});
++
++test("citation lists and maintenance comments cannot pad the article word count", () => {
++  const padded = { ...page, overview: "Short body.", sections: [{ heading: "Key Sources", body: page.overview }, { heading: "Connections", body: page.overview }, { heading: "Context", body: `<!-- ${page.overview} -->` }] };
++  assert.equal(articleQuality(padded, references).bodyWords, 2);
++});
++
++test("rendered gate rejects a summary even when the source model passed", () => {
++  const row = { reasons: [], realReferenceNumbers: [1, 2, 3] };
++  const head = '<meta name="robots" content="index, follow">';
++  const refs = [1, 2, 3].map((number) => `<li id="reference-${number}">Citation</li>`).join("");
++  const html = `${head}<div class="lead-copy">Short summary.</div><nav>${page.overview}</nav>${refs}`;
++  assert.match(renderedArticleQuality(html, row).reasons.join(" "), /rendered body has 2 words/);
++  assert.deepEqual(renderedArticleQuality(`${head}<div class="lead-copy">${page.overview}</div>${refs}`, row).reasons, []);
++});
++
++test("lint exits nonzero when an excluded URL is inserted into the sitemap", () => {
++  const folder = mkdtempSync(join(tmpdir(), "wikibiome-gate-test-"));
++  try {
++    const path = join(folder, "bad.xml");
++    const reportPath = join(folder, "report.json");
++    const baseline = spawnSync(process.execPath, ["scripts/lint-sitemap-quality.mjs", `--report=${reportPath}`], { cwd: new URL("../", import.meta.url), encoding: "utf8" });
++    assert.equal(baseline.status, 0, baseline.stderr);
++    const report = JSON.parse(readFileSync(reportPath, "utf8"));
++    for (const route of ["/", "/about", "/category/microbe", "/category/metal", "/category/mechanism"]) {
++      assert.ok(report.urls.includes(`https://www.wikibiome.com${route}`), route);
++    }
++    const xml = `<urlset>${report.urls.map(url => `<url><loc>${url}</loc></url>`).join("")}</urlset>`;
++    writeFileSync(path, xml.replace("</urlset>", '<url><loc>https://www.wikibiome.com/article/curcumin</loc></url></urlset>'));
++    const result = spawnSync(process.execPath, ["scripts/lint-sitemap-quality.mjs", `--sitemap=${path}`], { cwd: new URL("../", import.meta.url), encoding: "utf8", maxBuffer: 1024 * 1024 });
++    assert.equal(result.status, 1);
++    assert.match(result.stdout, /microbe: PASS\/OK \d+, FAIL\/THIN \d+/);
++    assert.match(result.stderr, /curcumin: excluded-section/);
++    assert.doesNotMatch(result.stderr, /missing from sitemap/);
++    writeFileSync(path, xml.replace('<url><loc>https://www.wikibiome.com/</loc></url>', ''));
++    const missingHome = spawnSync(process.execPath, ["scripts/lint-sitemap-quality.mjs", `--sitemap=${path}`], { cwd: new URL("../", import.meta.url), encoding: "utf8" });
++    assert.equal(missingHome.status, 1);
++    assert.match(missingHome.stderr, /public crawl entry point missing from sitemap/);
++    writeFileSync(path, xml.replace("</urlset>", '<url><loc>https://www.wikibiome.com/source/scholefield-2024-brain-metallomics-dementia</loc></url></urlset>'));
++    const source = spawnSync(process.execPath, ["scripts/lint-sitemap-quality.mjs", `--sitemap=${path}`], { cwd: new URL("../", import.meta.url), encoding: "utf8" });
++    assert.equal(source.status, 1);
++    assert.match(source.stderr, /source\/scholefield.*not an eligible article or established public route/);
++  } finally { rmSync(folder, { recursive: true, force: true }); }
++});
+diff --git a/tests/indexing-policy.test.mjs b/tests/indexing-policy.test.mjs
+index fac905705ff562a6f4c8ffa51d922e3931796f5b..78a8e49120702eb5150b47b2b91a03711777a101 100644
+--- a/tests/indexing-policy.test.mjs
++++ b/tests/indexing-policy.test.mjs
+@@ -34,7 +34,7 @@ test("source exclusions are limited to existing, explicitly reviewed identities"
+   }
+ });
+ 
+-test("source pages default to noindex; only reviewed substantive sources stay indexable", () => {
++test("all source records are noindex under the body and reference gate", () => {
+   const allow = review.indexableSources.map(({ id }) => id);
+   assert.equal(new Set(allow).size, allow.length);
+   for (const id of allow) {
+@@ -42,14 +42,14 @@ test("source pages default to noindex; only reviewed substantive sources stay in
+     assert.ok(source, `missing source ${id}`);
+     assert.equal(source.keystone, true, `${id} must be a keystone source`);
+     assert.ok((source.why_keystone ?? "").trim().length >= 200, `${id} needs a substantive explanation`);
+-    assert.equal(isIndexableSource(id), true, id);
+-    assert.equal(isIndexableSource(id.toLowerCase()), true, id);
+-    assert.equal(isIndexableSource(id.toUpperCase()), true, id);
++    assert.equal(isIndexableSource(id), false, id);
++    assert.equal(isIndexableSource(id.toLowerCase()), false, id);
++    assert.equal(isIndexableSource(id.toUpperCase()), false, id);
+   }
+-  assert.equal(isIndexableSource("scholefield-2024-brain-metallomics-dementia"), true);
++  assert.equal(isIndexableSource("scholefield-2024-brain-metallomics-dementia"), false);
+   assert.equal(isIndexableSource("amadi-2022-dietary-interventions-asd-systematic-review"), false);
+   assert.equal(isIndexableSource("rizzi-2017-ibs-nickel-diet"), false);
+   assert.equal(isIndexableSource("new-unreviewed-source"), false);
+-  assert.equal(Object.keys(content.sourceLookup).filter(isIndexableSource).length, allow.length);
++  assert.equal(Object.keys(content.sourceLookup).filter(isIndexableSource).length, 0);
+   assert.equal(allow.length, 37);
+ });
+diff --git a/tests/public-routing-contract.test.mjs b/tests/public-routing-contract.test.mjs
+index 5491b08cf2654d932b2e0ac8452f6ab2a97828be..56a0d093756f97261e31485d757234d7dff9eec1 100644
+--- a/tests/public-routing-contract.test.mjs
++++ b/tests/public-routing-contract.test.mjs
+@@ -29,7 +29,7 @@ function fixtureFetch({ brokenRedirect = false } = {}) {
+     { page: `${canonical}/article/one`, image: `${canonical}/media/image/one.webp` },
+     { page: `${canonical}/article/two`, image: `${canonical}/media/image/two.webp` },
+   ];
+-  const sitemap = `<?xml version="1.0"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${images.map(({ page, image }) => `<url><loc>${page}</loc><image:image><image:loc>${image}</image:loc></image:image></url>`).join("")}<url><loc>${canonical}/source/one</loc></url><url><loc>${canonical}/category/microbe</loc></url></urlset>`;
++  const sitemap = `<?xml version="1.0"?><urlset xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">${images.map(({ page, image }) => `<url><loc>${page}</loc><image:image><image:loc>${image}</image:loc></image:image></url>`).join("")}<url><loc>${canonical}/category/microbe</loc></url></urlset>`;
+   const robots = [
+     "User-agent: *",
+     "Allow: /",
+@@ -55,7 +55,7 @@ function fixtureFetch({ brokenRedirect = false } = {}) {
+     if (url.pathname === "/api/create-checkout") return new Response(null, { status: 404 });
+     const representative = {
+       "/article/akkermansia-muciniphila": ["WebPage", "Article", "ImageObject"],
+-      "/source/amadi-2022-dietary-interventions-asd-systematic-review": ["WebPage", "ScholarlyArticle"],
++      "/source/scholefield-2024-brain-metallomics-dementia": ["WebPage", "ScholarlyArticle"],
+       "/category/microbe": ["CollectionPage"],
+       "/explore": ["WebApplication"],
+     }[url.pathname];
+diff --git a/tests/release-counts.test.mjs b/tests/release-counts.test.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..3d7f525098aeb6604403170d2ab957a7c1c9c595
+--- /dev/null
++++ b/tests/release-counts.test.mjs
+@@ -0,0 +1,29 @@
++import assert from 'node:assert/strict';
++import test from 'node:test';
++import {build} from 'esbuild';
++import {readFileSync} from 'node:fs';
++import {fileURLToPath} from 'node:url';
++const root=fileURLToPath(new URL('../',import.meta.url));
++async function release(poison=false){
++ const result=await build({absWorkingDir:root,stdin:{contents:`import {wikiStats,getReleaseCorpus,getDiseaseRecord,generateArticleEvidence} from './lib/wikibiome';import {realReferenceKeys} from './lib/article-quality.mjs';import {GET} from './app/sitemap.xml/route';export const stats={...wikiStats};export const paths=getReleaseCorpus().pages.map(p=>'/article/'+p.id);export const sitemap=GET().text();export const realSources=realReferenceKeys(getReleaseCorpus().pages.flatMap(p=>getDiseaseRecord(p.id)?.evidence.references??generateArticleEvidence(p).references)).length;`,resolveDir:root,loader:'ts'},bundle:true,platform:'node',format:'esm',packages:'external',write:false,logLevel:'silent',plugins:poison?[{name:'stale-upstream-inventory',setup(b){b.onLoad({filter:/content\.generated\.json$/},args=>{const corpus=JSON.parse(readFileSync(args.path,'utf8'));for(const key of Object.keys(corpus._stats))corpus._stats[key]=987654321;return {contents:JSON.stringify(corpus),loader:'json'};});}}]:[]});
++ return import('data:text/javascript;base64,'+Buffer.from(result.outputFiles[0].text).toString('base64'));
++}
++test('public counts match actual sitemap articles and real distinct cited source rows',async()=>{
++ const r=await release(),xml=await r.sitemap;
++ const articlePaths=[...xml.matchAll(/<loc>[^<]+(\/article\/[^<]+)<\/loc>/g)].map(m=>m[1]);
++ assert.deepEqual([...r.paths].sort(),articlePaths.sort());assert.equal(new Set(r.paths).size,r.paths.length);
++ assert.equal(r.stats.totalPages,r.paths.length);assert.equal(r.stats.sources,r.realSources);
++ assert.equal(r.stats.entities+r.stats.concepts+r.stats.signatures,r.stats.totalPages);
++ assert(r.stats.sources>0);assert.doesNotMatch(String(r.stats.totalPages),/^822$/);assert.notEqual(r.stats.sources,1940);
++ console.log('Derived current-release counts',JSON.stringify(r.stats));
++});
++test('stale or poisoned upstream inventory metadata cannot change public counters',async()=>{
++ const current=await release(),poisoned=await release(true);
++ assert.deepEqual(poisoned.stats,current.stats);assert.deepEqual(poisoned.paths,current.paths);
++});
++
++test('every shared source-count label avoids an unsupported peer-review claim',()=>{
++ const surfaces=['WikiHome','WikiArticle','WikiDirectory','DiseaseArticle'];
++ for(const name of surfaces){const source=readFileSync(new URL('../app/_components/'+name+'.tsx',import.meta.url),'utf8');for(const line of source.split('\n').filter(line=>line.includes('wikiStats.sources')))assert.doesNotMatch(line,/peer.reviewed/i,name);}
++ const about=readFileSync(new URL('../app/about/page.tsx',import.meta.url),'utf8');for(const line of about.split('\n').filter(line=>line.includes('wikiStats.sources')))assert.doesNotMatch(line,/peer.reviewed/i,'About');
++});
+diff --git a/tests/rendered-html.test.mjs b/tests/rendered-html.test.mjs
+index 5b7c8025e5848d18025db4f014d485ac16856c9b..7914cdd8c04874da681259fee1d7caf47228daea 100644
+--- a/tests/rendered-html.test.mjs
++++ b/tests/rendered-html.test.mjs
+@@ -374,8 +374,11 @@ test("server-renders the WikiBiome portal and anatomical knowledge map", async (
+   assert.doesNotMatch(html, /A project of the Paleo Foundation/);
+   assert.doesNotMatch(html, /class="home-footer"/, "the homepage must not render a second, legacy footer");
+   assert.equal((html.match(/class="wiki-footer"/g) ?? []).length, 1, "the homepage must render exactly one global footer");
+-  assert.match(html, /1,940/);
+-  assert.match(html, /822/);
++  assert.doesNotMatch(html, /1,940|Search 822 articles/);
++  const sitemap = await (await render("/sitemap.xml")).text();
++  const articleCount = [...sitemap.matchAll(/<loc>[^<]+\/article\/[^<]+<\/loc>/g)].length;
++  assert.match(html, new RegExp(`<strong>${articleCount}</strong><span>indexed articles`));
++  assert.match(html, /placeholder="Search WikiBiome articles"/);
+   assert.doesNotMatch(html, /Your site is taking shape|Building your site/);
+ });
+ 
+@@ -408,6 +411,9 @@ test("server-renders real article and directory pages through the shared redesig
+   assert.match(responsiveCss, /@media \(max-width:900px\)[\s\S]*?\.article-mobile-media \{[^}]*display:block;[\s\S]*?\.article-aside \.article-media-figure,\.disease-aside \.article-media-figure \{ display:none; \}/);
+   assert.match(article, /143/);
+   assert.match(article, /generated references/);
++  const corpusCounter = article.match(/<div class="corpus-note">([\s\S]*?)<\/div>/)?.[1] ?? "";
++  assert.match(corpusCounter, /sources cited across WikiBiome/);
++  assert.doesNotMatch(corpusCounter, /peer.reviewed/i);
+   assert.match(article, /href="\/source\/braud-2010-siderophores-pseudomonas-metal-tolerance"/);
+   const chemicalStart = article.indexOf('id="chemical-properties"');
+   const metabolismStart = article.indexOf('id="nickel-metabolism-and-biomarkers"');
+@@ -515,7 +521,10 @@ test("server-renders Urea and contextual H. pylori concept links", async () => {
+   }
+ 
+   assert.match(history, /wiki\/concepts\/urea\.md/);
+-  assert.match(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/urea</loc>`));
++  // The approved article-only gate keeps this 249-word article accessible,
++  // but excludes it from indexing until the separately gated content buildout.
++  assert.doesNotMatch(sitemap, new RegExp(`<loc>${escapeRegExp(PUBLIC_ORIGIN)}/article/urea</loc>`));
++  assert.match(urea, /<meta name="robots" content="noindex, follow"/);
+ });
+ 
+ test("server-renders the reviewed corpus-wide Urease link batch without overlinking", async () => {
+@@ -2242,7 +2251,11 @@ test("permanently redirects retired article URLs to one canonical record", async
+   const sitemap = await (await render("/sitemap.xml")).text();
+   for (const [legacyId, canonicalId] of Object.entries(aliases)) {
+     assert.doesNotMatch(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${legacyId}</loc>`));
+-    assert.match(sitemap, new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${canonicalId}</loc>`));
++    const target = currentPages[currentIds.indexOf(canonicalId)] ?? await (await render(`/article/${canonicalId}`)).text();
++    const canonicalEntry = new RegExp(`<loc>https://www\\.wikibiome\\.com/article/${canonicalId}</loc>`);
++    // Canonical identity does not bypass the approved article quality gate.
++    if (htmlRobotsMeta(target).includes("noindex, follow")) assert.doesNotMatch(sitemap, canonicalEntry);
++    else { assert.deepEqual(htmlRobotsMeta(target), ["index, follow"]); assert.match(sitemap, canonicalEntry); }
+   }
+ });
+ 
+@@ -5946,13 +5959,12 @@ test("preserves legacy utility routes and publishes the canonical indexing contr
+   assert.match(sitemapResponse.headers.get("content-type") ?? "", /^application\/xml/);
+   assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/article\/nickel<\/loc>/);
+   assert.match(sitemap, /xmlns:image="http:\/\/www\.google\.com\/schemas\/sitemap-image\/1\.1"/);
+-  const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+-  const emptyIds = new Set(content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content")).map(page => page.id));
+-  assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.values(articleMediaRegistry).filter(media => !emptyIds.has(media.pageId)).length);
++  const sitemapIds = new Set([...sitemap.matchAll(/<loc>[^<]*\/article\/([^<]+)<\/loc>/g)].map((match) => match[1]));
++  assert.equal((sitemap.match(/<image:image>/g) ?? []).length, Object.values(articleMediaRegistry).filter(media => sitemapIds.has(media.pageId)).length);
+   assert.match(sitemap, /<image:loc>https:\/\/www\.wikibiome\.com\/media\/image\/nickel-technical-specimen-v2\.webp<\/image:loc>/);
+   assert.doesNotMatch(sitemap, /<image:loc>[^<]*(?:akkermansia-mucinicola|allisonella|atopobium-parvulum|atopobium-vaginae|bifidobacterium-infantis|candida-auris|candida-glabrata|clostridiales|clostridium-difficile)[^<]*<\/image:loc>/);
+-  assert.match(sitemap, /<loc>https:\/\/www\.wikibiome\.com\/source\/ahmed-2025-metals-alzheimers-mechanistic-review<\/loc>/);
+-  assert.ok((sitemap.match(/<url>/g) ?? []).length > 2_500);
++  assert.doesNotMatch(sitemap, /<loc>[^<]*\/source\//);
++  assert.ok((sitemap.match(/<url>/g) ?? []).length > 0);
+   assert.equal(imageSitemapResponse.status, 301);
+   assert.equal(imageSitemapResponse.headers.get("location"), `${PUBLIC_ORIGIN}/sitemap.xml`);
+   assert.doesNotMatch(sitemap, /image:(?:title|caption|license)/);
+@@ -6069,7 +6081,7 @@ test("publishes self-canonical metadata, social previews, and representative Sch
+     assert.match(html, new RegExp(`property="og:url" content="${canonical.replaceAll("/", "\\/")}"`));
+     assert.match(html, /property="og:image" content="https:\/\/www\.wikibiome\.com\//);
+     assert.match(html, /name="twitter:image" content="https:\/\/www\.wikibiome\.com\//);
+-    assert.doesNotMatch(html, /<meta name="robots" content="noindex/);
++    assert.deepEqual(htmlRobotsMeta(html), [path.startsWith("/source/") ? "noindex, follow" : "index, follow"]);
+ 
+     const schema = structuredData(html, marker);
+     const nodes = schema["@graph"] ?? [schema];
+@@ -6269,7 +6281,8 @@ test("generates the restored research tools and current About page from canonica
+ 
+   assert.match(about, /<title>About WikiBiome<\/title>/);
+   assert.match(about, /karen-pendergrass\.avif/);
+-  assert.match(about, /ORCID 0000-0002-2348-7259/);
++  assert.match(about, /href="https:\/\/orcid\.org\/0000-0002-2348-7259"/);
++  assert.match(about, /aria-label="View Karen Pendergrass[^"<]*ORCID profile"/);
+   assert.match(about, /project of[\s\S]{0,120}Microbiome Medicine/);
+   assert.match(about, /Microbiome Signatures LLC/);
+   assert.match(about, /Support cannot purchase influence/);
+@@ -6377,7 +6390,7 @@ test("binds generated content to the fetched upstream commit", () => {
+   assert.ok(manifest.sourceMetadataPolicy.omittedDois.some((entry) => entry.id === "NOTE-evaluation-risk-ptes-italy-fish-products" && entry.value === "not yet verified"));
+   assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].year, undefined);
+   assert.equal(generatedContent.sourceLookup["NOTE-evaluation-risk-ptes-italy-fish-products"].doi, undefined);
+-  assert.equal(manifest.publicContentPolicy.version, 3);
++  assert.equal(manifest.publicContentPolicy.version, 4);
+   assert.equal(manifest.publicContentPolicy.excludedCount, 47);
+   assert.ok(manifest.publicContentPolicy.excludedPages.some((page) => page.id === "lint-report-2026-04-19"));
+   assert.equal(manifest.editorialNormalization.leadPromotionCount, 340);
+@@ -6408,7 +6421,7 @@ test("thin citation-only source pages are noindex, follow and absent from the si
+   const review = JSON.parse(readFileSync(new URL("../data/source-indexing-review.json", import.meta.url), "utf8"));
+   const sitemap = await (await render("/sitemap.xml")).text();
+   const sourceLocs = sitemap.match(/<loc>[^<]*\/source\/[^<]*<\/loc>/g) ?? [];
+-  assert.equal(sourceLocs.length, review.indexableSources.length);
++  assert.equal(sourceLocs.length, 0);
+   for (const path of ["/source/rizzi-2017-ibs-nickel-diet", "/source/amadi-2022-dietary-interventions-asd-systematic-review"]) {
+     const response = await render(path);
+     assert.equal(response.status, 200, path);
+@@ -6419,11 +6432,11 @@ test("thin citation-only source pages are noindex, follow and absent from the si
+   }
+   const keystone = `/source/${review.indexableSources[0].id}`;
+   const keystoneHtml = await (await render(keystone)).text();
+-  assert.doesNotMatch(keystoneHtml, /<meta name="robots" content="noindex/);
+-  assert.ok(sitemap.includes(`<loc>${PUBLIC_ORIGIN}${keystone}</loc>`));
++  assert.match(keystoneHtml, /<meta name="robots" content="noindex/);
++  assert.ok(!sitemap.includes(`<loc>${PUBLIC_ORIGIN}${keystone}</loc>`));
+ });
+ 
+-test("withholds search variants and only audited empty articles from indexing and sitemap", async () => {
++test("withholds search variants, thin articles and excluded sections from indexing and sitemap", async () => {
+   const content = JSON.parse(readFileSync(new URL("../data/content.generated.json", import.meta.url), "utf8"));
+   const empty = content.pages.filter(page => page.editorialStatus?.resolves.includes("no_substantive_content"));
+   assert.equal(empty.length, 12);
+@@ -6436,7 +6449,7 @@ test("withholds search variants and only audited empty articles from indexing an
+     assert.equal(htmlCanonical(html), `${PUBLIC_ORIGIN}${path.split("?")[0]}`);
+     assert.ok(!sitemap.includes(`<loc>${PUBLIC_ORIGIN}${path.split("?")[0]}</loc>`), path);
+   }
+-  for (const path of ["/article/nickel", "/article/gut-microbiome", "/article/zinc-supplementation"]) {
++  for (const path of ["/article/nickel", "/article/gut-microbiome", "/article/copper"]) {
+     const response = await render(path);
+     assert.equal(response.status, 200);
+     assert.doesNotMatch(await response.text(), /<meta name="robots" content="noindex/);

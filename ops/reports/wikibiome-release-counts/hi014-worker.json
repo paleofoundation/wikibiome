@@ -1,0 +1,40 @@
+{
+  "staticGuide": 200,
+  "byteIdentical": true,
+  "linkedPages": [
+    {
+      "url": "https://www.wikibiome.com/",
+      "status": 200
+    },
+    {
+      "url": "https://www.wikibiome.com/explore",
+      "status": 200
+    },
+    {
+      "url": "https://www.wikibiome.com/clusters",
+      "status": 200
+    },
+    {
+      "url": "https://www.wikibiome.com/about",
+      "status": 200
+    },
+    {
+      "url": "https://www.wikibiome.com/research-standard",
+      "status": 200
+    },
+    {
+      "url": "https://www.wikibiome.com/researchers",
+      "status": 200
+    },
+    {
+      "url": "https://www.wikibiome.com/institutions",
+      "status": 200
+    },
+    {
+      "url": "https://www.wikibiome.com/contribute",
+      "status": 200
+    }
+  ],
+  "existingJsonLdPreserved": true,
+  "outboundCalls": 0
+}

@@ -1,0 +1,12 @@
+Derived current-release counts {"totalPages":343,"sources":1199,"signatures":37,"entities":141,"concepts":165,"interventions":0,"stops":0,"analyses":4}
+✔ public counts match actual sitemap articles and real distinct cited source rows (1821.338291ms)
+✔ stale or poisoned upstream inventory metadata cannot change public counters (1975.837708ms)
+✔ every shared source-count label avoids an unsupported peer-review claim (0.968542ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3924.142041
